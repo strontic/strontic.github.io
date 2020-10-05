@@ -24,11 +24,11 @@ PE256 | `50C252185881664A9D9833F75F85D90B60544E9F96C4A36FDA38DB0F83B0D81E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180004e70 | 0x00004e70
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180004d80 | 0x00004d80
-`GetPointOfServiceProtocolMetadata` | 1 (0x1) | Exported Function | 0x0000000180004fe0 | 0x00004fe0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetPointOfServiceProtocolMetadata` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

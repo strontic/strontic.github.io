@@ -24,103 +24,103 @@ PE256 | `43774A1C0241A93E9AE3CE7AB6EA06B2DBB2D3754ADA5EE7308C6590762ABB98`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__AddMachineCertToLicenseStore` | 95 (0x5f) | Exported Function | 0x00000001669348d0 | 0x000348d0
-`DRMGetUsagePolicy` | 64 (0x40) | Exported Function | 0x0000000166904820 | 0x00004820
-`DRMGetUnboundLicenseObjectCount` | 63 (0x3f) | Exported Function | 0x000000016691caf0 | 0x0001caf0
-`DRMGetUnboundLicenseObject` | 62 (0x3e) | Exported Function | 0x000000016691cbe0 | 0x0001cbe0
-`DRMGetUnboundLicenseAttributeCount` | 61 (0x3d) | Exported Function | 0x000000016691cd50 | 0x0001cd50
-`DRMGetUnboundLicenseAttribute` | 60 (0x3c) | Exported Function | 0x000000016691ce40 | 0x0001ce40
-`DRMGetTime` | 59 (0x3b) | Exported Function | 0x000000016694f660 | 0x0004f660
-`DRMGetSignedIssuanceLicenseEx` | 58 (0x3a) | Exported Function | 0x0000000166902ed0 | 0x00002ed0
-`DRMGetSignedIssuanceLicense` | 57 (0x39) | Exported Function | 0x0000000166903280 | 0x00003280
-`DRMGetServiceLocation` | 56 (0x38) | Exported Function | 0x0000000166919e80 | 0x00019e80
-`DRMGetUserInfo` | 65 (0x41) | Exported Function | 0x00000001669039d0 | 0x000039d0
-`DRMGetSecurityProvider` | 55 (0x37) | Exported Function | 0x0000000166919020 | 0x00019020
-`DRMGetRightExtendedInfo` | 53 (0x35) | Exported Function | 0x0000000166903d20 | 0x00003d20
-`DRMGetRevocationPoint` | 52 (0x34) | Exported Function | 0x00000001669046b0 | 0x000046b0
-`DRMGetProcAddress` | 51 (0x33) | Exported Function | 0x000000016694f590 | 0x0004f590
-`DRMGetOwnerLicense` | 50 (0x32) | Exported Function | 0x0000000166904b10 | 0x00004b10
-`DRMGetNameAndDescription` | 49 (0x31) | Exported Function | 0x0000000166904a10 | 0x00004a10
-`DRMGetMetaData` | 48 (0x30) | Exported Function | 0x00000001669042c0 | 0x000042c0
-`DRMGetIssuanceLicenseTemplate` | 47 (0x2f) | Exported Function | 0x0000000166902df0 | 0x00002df0
-`DRMGetIssuanceLicenseInfo` | 46 (0x2e) | Exported Function | 0x00000001669044f0 | 0x000044f0
-`DRMGetIntervalTime` | 45 (0x2d) | Exported Function | 0x0000000166904cb0 | 0x00004cb0
-`DRMGetRightInfo` | 54 (0x36) | Exported Function | 0x0000000166903bc0 | 0x00003bc0
-`DRMGetInfo` | 44 (0x2c) | Exported Function | 0x000000016694f440 | 0x0004f440
-`DRMGetUserRights` | 66 (0x42) | Exported Function | 0x0000000166904020 | 0x00004020
-`DRMInitEnvironment` | 68 (0x44) | Exported Function | 0x000000016694f750 | 0x0004f750
-`DRMSetRevocationPoint` | 82 (0x52) | Exported Function | 0x00000001669028f0 | 0x000028f0
-`DRMSetNameAndDescription` | 81 (0x51) | Exported Function | 0x0000000166902c90 | 0x00002c90
-`DRMSetMetaData` | 80 (0x50) | Exported Function | 0x0000000166902300 | 0x00002300
-`DRMSetIntervalTime` | 79 (0x4f) | Exported Function | 0x0000000166904c20 | 0x00004c20
-`DRMSetGlobalOptions` | 78 (0x4e) | Exported Function | 0x0000000166917100 | 0x00017100
-`DRMSetApplicationSpecificData` | 77 (0x4d) | Exported Function | 0x0000000166902b30 | 0x00002b30
-`DRMRepair` | 76 (0x4c) | Exported Function | 0x000000016691a240 | 0x0001a240
-`DRMRegisterRevocationList` | 75 (0x4b) | Exported Function | 0x000000016694fae0 | 0x0004fae0
-`DRMRegisterProtectedWindow` | 74 (0x4a) | Exported Function | 0x000000016691a9a0 | 0x0001a9a0
-`DRMGetUsers` | 67 (0x43) | Exported Function | 0x0000000166903f00 | 0x00003f00
-`DRMRegisterContent` | 73 (0x49) | Exported Function | 0x0000000166916d50 | 0x00016d50
-`DRMpFileUnprotect` | 89 (0x59) | Exported Function | 0x00000001669538c0 | 0x000538c0
-`DRMpFileProtect` | 88 (0x58) | Exported Function | 0x0000000166953550 | 0x00053550
-`DRMpFileIsProtected` | 87 (0x57) | Exported Function | 0x0000000166953ae0 | 0x00053ae0
-`DRMpFileInitialize` | 86 (0x56) | Exported Function | 0x00000001669532a0 | 0x000532a0
-`DRMpCloseFile` | 85 (0x55) | Exported Function | 0x0000000166953ca0 | 0x00053ca0
-`DRMParseUnboundLicense` | 72 (0x48) | Exported Function | 0x000000016691c930 | 0x0001c930
-`DRMLoadLibrary` | 71 (0x47) | Exported Function | 0x000000016694f9c0 | 0x0004f9c0
-`DRMIsWindowProtected` | 70 (0x46) | Exported Function | 0x000000016691aae0 | 0x0001aae0
-`DRMIsActivated` | 69 (0x45) | Exported Function | 0x0000000166917500 | 0x00017500
-`DRMpFreeMemory` | 90 (0x5a) | Exported Function | 0x0000000166953cd0 | 0x00053cd0
-`DRMSetUsagePolicy` | 83 (0x53) | Exported Function | 0x0000000166902600 | 0x00002600
-`DRMGetEnvironmentInfo` | 43 (0x2b) | Exported Function | 0x000000016694f410 | 0x0004f410
-`DRMGetCertificateChainCount` | 41 (0x29) | Exported Function | 0x0000000166939180 | 0x00039180
-`DRMCreateBoundLicense` | 16 (0x10) | Exported Function | 0x000000016694e2f0 | 0x0004e2f0
-`DRMConstructCertificateChain` | 15 (0xf) | Exported Function | 0x0000000166938f30 | 0x00038f30
-`DRMCloseSession` | 14 (0xe) | Exported Function | 0x0000000166919140 | 0x00019140
-`DRMCloseQueryHandle` | 13 (0xd) | Exported Function | 0x000000016691caa0 | 0x0001caa0
-`DRMClosePubHandle` | 12 (0xc) | Exported Function | 0x0000000166903980 | 0x00003980
-`DRMCloseHandle` | 11 (0xb) | Exported Function | 0x000000016694e210 | 0x0004e210
-`DRMCloseEnvironmentHandle` | 10 (0xa) | Exported Function | 0x0000000166916c20 | 0x00016c20
-`DRMClearAllRights` | 9 (0x9) | Exported Function | 0x0000000166902270 | 0x00002270
-`DRMCheckSecurity` | 8 (0x8) | Exported Function | 0x000000016694e1a0 | 0x0004e1a0
-`DRMCreateClientSession` | 17 (0x11) | Exported Function | 0x0000000166917300 | 0x00017300
-`DRMAttest` | 7 (0x7) | Exported Function | 0x0000000166915f40 | 0x00015f40
-`DRMAddLicense` | 5 (0x5) | Exported Function | 0x0000000166918bf0 | 0x00018bf0
-`DRMActivate` | 4 (0x4) | Exported Function | 0x0000000166917b80 | 0x00017b80
-`DRMAcquireLicense` | 3 (0x3) | Exported Function | 0x00000001669184e0 | 0x000184e0
-`DRMAcquireIssuanceLicenseTemplate` | 2 (0x2) | Exported Function | 0x000000016691afe0 | 0x0001afe0
-`DRMAcquireAdvisories` | 1 (0x1) | Exported Function | 0x0000000166919390 | 0x00019390
-`DllUnregisterServer` | 94 (0x5e) | Exported Function | 0x0000000166916340 | 0x00016340
-`DllRegisterServer` | 93 (0x5d) | Exported Function | 0x0000000166916330 | 0x00016330
-`DllGetClassObject` | 92 (0x5c) | Exported Function | 0x00000001669161f0 | 0x000161f0
-`DllCanUnloadNow` | 91 (0x5b) | Exported Function | 0x00000001669161c0 | 0x000161c0
-`DRMAddRightWithUser` | 6 (0x6) | Exported Function | 0x0000000166902150 | 0x00002150
-`DRMGetClientVersion` | 42 (0x2a) | Exported Function | 0x000000016691a8e0 | 0x0001a8e0
-`DRMCreateEnablingBitsDecryptor` | 18 (0x12) | Exported Function | 0x000000016694e660 | 0x0004e660
-`DRMCreateEnablingPrincipal` | 20 (0x14) | Exported Function | 0x000000016694eb60 | 0x0004eb60
-`DRMGetBoundLicenseObjectCount` | 40 (0x28) | Exported Function | 0x000000016694f260 | 0x0004f260
-`DRMGetBoundLicenseObject` | 39 (0x27) | Exported Function | 0x000000016694f310 | 0x0004f310
-`DRMGetBoundLicenseAttributeCount` | 38 (0x26) | Exported Function | 0x000000016694f050 | 0x0004f050
-`DRMGetBoundLicenseAttribute` | 37 (0x25) | Exported Function | 0x000000016694f100 | 0x0004f100
-`DRMGetApplicationSpecificData` | 36 (0x24) | Exported Function | 0x0000000166904410 | 0x00004410
-`DRMEnumerateLicense` | 35 (0x23) | Exported Function | 0x0000000166919a60 | 0x00019a60
-`DRMEncrypt` | 34 (0x22) | Exported Function | 0x000000016694ef60 | 0x0004ef60
-`DRMEncode` | 33 (0x21) | Exported Function | 0x00000001669191f0 | 0x000191f0
-`DRMDuplicateSession` | 32 (0x20) | Exported Function | 0x0000000166919190 | 0x00019190
-`DRMCreateEnablingBitsEncryptor` | 19 (0x13) | Exported Function | 0x000000016694e8e0 | 0x0004e8e0
-`DRMDuplicatePubHandle` | 31 (0x1f) | Exported Function | 0x00000001669039c0 | 0x000039c0
-`DRMDuplicateEnvironmentHandle` | 29 (0x1d) | Exported Function | 0x000000016694eec0 | 0x0004eec0
-`DRMDeleteLicense` | 28 (0x1c) | Exported Function | 0x0000000166918dc0 | 0x00018dc0
-`DRMDecrypt` | 27 (0x1b) | Exported Function | 0x000000016694ed30 | 0x0004ed30
-`DRMDeconstructCertificateChain` | 26 (0x1a) | Exported Function | 0x0000000166938fe0 | 0x00038fe0
-`DRMDecode` | 25 (0x19) | Exported Function | 0x00000001669192f0 | 0x000192f0
-`DRMCreateUser` | 24 (0x18) | Exported Function | 0x0000000166901cd0 | 0x00001cd0
-`DRMCreateRight` | 23 (0x17) | Exported Function | 0x0000000166901f20 | 0x00001f20
-`DRMCreateLicenseStorageSession` | 22 (0x16) | Exported Function | 0x0000000166917f40 | 0x00017f40
-`DRMCreateIssuanceLicense` | 21 (0x15) | Exported Function | 0x00000001669017f0 | 0x000017f0
-`DRMDuplicateHandle` | 30 (0x1e) | Exported Function | 0x000000016694ee20 | 0x0004ee20
-`DRMVerify` | 84 (0x54) | Exported Function | 0x0000000166915f40 | 0x00015f40
+Function Name | Ordinal | Type
+-- | -- | --
+`DRMGetTime` | 59 | Exported Function
+`DRMGetUnboundLicenseAttribute` | 60 | Exported Function
+`DRMGetSignedIssuanceLicenseEx` | 58 | Exported Function
+`DRMGetServiceLocation` | 56 | Exported Function
+`DRMGetSignedIssuanceLicense` | 57 | Exported Function
+`DRMGetUnboundLicenseAttributeCount` | 61 | Exported Function
+`DRMGetUserInfo` | 65 | Exported Function
+`DRMGetUserRights` | 66 | Exported Function
+`DRMGetUsagePolicy` | 64 | Exported Function
+`DRMGetUnboundLicenseObject` | 62 | Exported Function
+`DRMGetUnboundLicenseObjectCount` | 63 | Exported Function
+`DRMGetSecurityProvider` | 55 | Exported Function
+`DRMGetIssuanceLicenseTemplate` | 47 | Exported Function
+`DRMGetMetaData` | 48 | Exported Function
+`DRMGetIssuanceLicenseInfo` | 46 | Exported Function
+`DRMGetInfo` | 44 | Exported Function
+`DRMGetIntervalTime` | 45 | Exported Function
+`DRMGetNameAndDescription` | 49 | Exported Function
+`DRMGetRightExtendedInfo` | 53 | Exported Function
+`DRMGetRightInfo` | 54 | Exported Function
+`DRMGetRevocationPoint` | 52 | Exported Function
+`DRMGetOwnerLicense` | 50 | Exported Function
+`DRMGetProcAddress` | 51 | Exported Function
+`DRMGetUsers` | 67 | Exported Function
+`DRMSetApplicationSpecificData` | 77 | Exported Function
+`DRMSetGlobalOptions` | 78 | Exported Function
+`DRMRepair` | 76 | Exported Function
+`DRMRegisterProtectedWindow` | 74 | Exported Function
+`DRMRegisterRevocationList` | 75 | Exported Function
+`DRMSetIntervalTime` | 79 | Exported Function
+`DRMSetUsagePolicy` | 83 | Exported Function
+`DRMVerify` | 84 | Exported Function
+`DRMSetRevocationPoint` | 82 | Exported Function
+`DRMSetMetaData` | 80 | Exported Function
+`DRMSetNameAndDescription` | 81 | Exported Function
+`DRMRegisterContent` | 73 | Exported Function
+`DRMLoadLibrary` | 71 | Exported Function
+`DRMParseUnboundLicense` | 72 | Exported Function
+`DRMIsWindowProtected` | 70 | Exported Function
+`DRMInitEnvironment` | 68 | Exported Function
+`DRMIsActivated` | 69 | Exported Function
+`DRMpCloseFile` | 85 | Exported Function
+`DRMpFileUnprotect` | 89 | Exported Function
+`DRMpFreeMemory` | 90 | Exported Function
+`DRMpFileProtect` | 88 | Exported Function
+`DRMpFileInitialize` | 86 | Exported Function
+`DRMpFileIsProtected` | 87 | Exported Function
+`DRMGetEnvironmentInfo` | 43 | Exported Function
+`DRMCloseHandle` | 11 | Exported Function
+`DRMClosePubHandle` | 12 | Exported Function
+`DRMCloseEnvironmentHandle` | 10 | Exported Function
+`DRMCheckSecurity` | 8 | Exported Function
+`DRMClearAllRights` | 9 | Exported Function
+`DRMCloseQueryHandle` | 13 | Exported Function
+`DRMCreateClientSession` | 17 | Exported Function
+`DRMCreateEnablingBitsDecryptor` | 18 | Exported Function
+`DRMCreateBoundLicense` | 16 | Exported Function
+`DRMCloseSession` | 14 | Exported Function
+`DRMConstructCertificateChain` | 15 | Exported Function
+`DRMAttest` | 7 | Exported Function
+`DllRegisterServer` | 93 | Exported Function
+`DllUnregisterServer` | 94 | Exported Function
+`DllGetClassObject` | 92 | Exported Function
+`__AddMachineCertToLicenseStore` | 95 | Exported Function
+`DllCanUnloadNow` | 91 | Exported Function
+`DRMAcquireAdvisories` | 1 | Exported Function
+`DRMAddLicense` | 5 | Exported Function
+`DRMAddRightWithUser` | 6 | Exported Function
+`DRMActivate` | 4 | Exported Function
+`DRMAcquireIssuanceLicenseTemplate` | 2 | Exported Function
+`DRMAcquireLicense` | 3 | Exported Function
+`DRMCreateEnablingBitsEncryptor` | 19 | Exported Function
+`DRMEnumerateLicense` | 35 | Exported Function
+`DRMGetApplicationSpecificData` | 36 | Exported Function
+`DRMEncrypt` | 34 | Exported Function
+`DRMDuplicateSession` | 32 | Exported Function
+`DRMEncode` | 33 | Exported Function
+`DRMGetBoundLicenseAttribute` | 37 | Exported Function
+`DRMGetCertificateChainCount` | 41 | Exported Function
+`DRMGetClientVersion` | 42 | Exported Function
+`DRMGetBoundLicenseObjectCount` | 40 | Exported Function
+`DRMGetBoundLicenseAttributeCount` | 38 | Exported Function
+`DRMGetBoundLicenseObject` | 39 | Exported Function
+`DRMDuplicatePubHandle` | 31 | Exported Function
+`DRMCreateRight` | 23 | Exported Function
+`DRMCreateUser` | 24 | Exported Function
+`DRMCreateLicenseStorageSession` | 22 | Exported Function
+`DRMCreateEnablingPrincipal` | 20 | Exported Function
+`DRMCreateIssuanceLicense` | 21 | Exported Function
+`DRMDecode` | 25 | Exported Function
+`DRMDuplicateEnvironmentHandle` | 29 | Exported Function
+`DRMDuplicateHandle` | 30 | Exported Function
+`DRMDeleteLicense` | 28 | Exported Function
+`DRMDeconstructCertificateChain` | 26 | Exported Function
+`DRMDecrypt` | 27 | Exported Function
 
 
 ## Signature

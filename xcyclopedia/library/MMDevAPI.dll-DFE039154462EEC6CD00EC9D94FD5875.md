@@ -24,43 +24,13 @@ PE256 | `B936D6A7F53FBAFF49F32971D8C72BEEDB9A86BE3B14D2534C0EB4E1342B1FBA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ActivateAudioInterfaceAsync` | 17 (0x11) | Exported Function | 0x0000000180039550 | 0x00039550
-`Ordinal24` | 24 (0x18) | Exported Function | 0x000000018003bfa0 | 0x0003bfa0
-`Ordinal25` | 25 (0x19) | Exported Function | 0x000000018003c4f0 | 0x0003c4f0
-`Ordinal26` | 26 (0x1a) | Exported Function | 0x0000000180014040 | 0x00014040
-`Ordinal27` | 27 (0x1b) | Exported Function | 0x000000018003c610 | 0x0003c610
-`Ordinal28` | 28 (0x1c) | Exported Function | 0x0000000180013f30 | 0x00013f30
-`Ordinal29` | 29 (0x1d) | Exported Function | 0x0000000180014160 | 0x00014160
-`Ordinal23` | 23 (0x17) | Exported Function | 0x000000018003c380 | 0x0003c380
-`Ordinal3` | 3 (0x3) | Exported Function | 0x000000018001abc0 | 0x0001abc0
-`Ordinal31` | 31 (0x1f) | Exported Function | 0x000000018003bc40 | 0x0003bc40
-`Ordinal32` | 32 (0x20) | Exported Function | 0x000000018000c5b0 | 0x0000c5b0
-`Ordinal4` | 4 (0x4) | Exported Function | 0x000000018005d110 | 0x0005d110
-`Ordinal5` | 5 (0x5) | Exported Function | 0x000000018001a1e0 | 0x0001a1e0
-`Ordinal6` | 6 (0x6) | Exported Function | 0x000000018003e7c0 | 0x0003e7c0
-`Ordinal7` | 7 (0x7) | Exported Function | 0x000000018001a1d0 | 0x0001a1d0
-`Ordinal30` | 30 (0x1e) | Exported Function | 0x000000018003be60 | 0x0003be60
-`Ordinal8` | 8 (0x8) | Exported Function | 0x0000000180001aa0 | 0x00001aa0
-`Ordinal22` | 22 (0x16) | Exported Function | 0x000000018003c0c0 | 0x0003c0c0
-`Ordinal20` | 20 (0x14) | Exported Function | 0x000000018003c220 | 0x0003c220
-`DllCanUnloadNow` | 33 (0x21) | Exported Function | 0x00000001800187c0 | 0x000187c0
-`DllGetClassObject` | 34 (0x22) | Exported Function | 0x0000000180018310 | 0x00018310
-`DllRegisterServer` | 35 (0x23) | Exported Function | 0x000000018003e740 | 0x0003e740
-`DllUnregisterServer` | 36 (0x24) | Exported Function | 0x000000018003e7b0 | 0x0003e7b0
-`Ordinal10` | 10 (0xa) | Exported Function | 0x0000000180004820 | 0x00004820
-`Ordinal11` | 11 (0xb) | Exported Function | 0x0000000180004600 | 0x00004600
-`Ordinal21` | 21 (0x15) | Exported Function | 0x00000001800137e0 | 0x000137e0
-`Ordinal12` | 12 (0xc) | Exported Function | 0x0000000180004060 | 0x00004060
-`Ordinal14` | 14 (0xe) | Exported Function | 0x000000018001adb0 | 0x0001adb0
-`Ordinal15` | 15 (0xf) | Exported Function | 0x00000001800191d0 | 0x000191d0
-`Ordinal16` | 16 (0x10) | Exported Function | 0x00000001800142e0 | 0x000142e0
-`Ordinal18` | 18 (0x12) | Exported Function | 0x0000000180039980 | 0x00039980
-`Ordinal19` | 19 (0x13) | Exported Function | 0x000000018003bc10 | 0x0003bc10
-`Ordinal2` | 2 (0x2) | Exported Function | 0x0000000180001720 | 0x00001720
-`Ordinal13` | 13 (0xd) | Exported Function | 0x000000018005d670 | 0x0005d670
-`Ordinal9` | 9 (0x9) | Exported Function | 0x0000000180019f80 | 0x00019f80
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 35 | Exported Function
+`DllUnregisterServer` | 36 | Exported Function
+`DllGetClassObject` | 34 | Exported Function
+`ActivateAudioInterfaceAsync` | 17 | Exported Function
+`DllCanUnloadNow` | 33 | Exported Function
 
 
 ## Signature

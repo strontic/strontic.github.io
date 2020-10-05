@@ -23,18 +23,18 @@ PE256 | `4A614E933957A25B391B7416957DD2EDC8403AD01096F355DD039A6BFE698C02`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WmiAddObjectProp` | 2 (0x2) | Exported Function | 0x10003d10 | 0x00003d10
-`WmiCommitObject` | 1 (0x1) | Exported Function | 0x10004680 | 0x00004680
-`WmiCreateObject` | 3 (0x3) | Exported Function | 0x1000b420 | 0x0000b420
-`WmiCreateObjectWithFormat` | 4 (0x4) | Exported Function | 0x10003070 | 0x00003070
-`WmiCreateObjectWithProps` | 5 (0x5) | Exported Function | 0x10003100 | 0x00003100
-`WmiDestroyObject` | 6 (0x6) | Exported Function | 0x10002f10 | 0x00002f10
-`WmiEventSourceConnect` | 7 (0x7) | Exported Function | 0x10002ae0 | 0x00002ae0
-`WmiEventSourceDisconnect` | 8 (0x8) | Exported Function | 0x100029f0 | 0x000029f0
-`WmiIsObjectActive` | 9 (0x9) | Exported Function | 0x10005c20 | 0x00005c20
-`WmiSetAndCommitObject` | 10 (0xa) | Exported Function | 0x10004540 | 0x00004540
+Function Name | Ordinal | Type
+-- | -- | --
+`WmiEventSourceConnect` | 7 | Exported Function
+`WmiDestroyObject` | 6 | Exported Function
+`WmiEventSourceDisconnect` | 8 | Exported Function
+`WmiSetAndCommitObject` | 10 | Exported Function
+`WmiIsObjectActive` | 9 | Exported Function
+`WmiCommitObject` | 1 | Exported Function
+`WmiAddObjectProp` | 2 | Exported Function
+`WmiCreateObject` | 3 | Exported Function
+`WmiCreateObjectWithProps` | 5 | Exported Function
+`WmiCreateObjectWithFormat` | 4 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `BB8C2804076E973A9E9E8EFB483CF55533C6E2336EA0A82DD531FAFD7DAAD847`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WinMLCreateRuntime` | 1 (0x1) | Exported Function | 0x00000001800019b0 | 0x000019b0
+Function Name | Ordinal | Type
+-- | -- | --
+`WinMLCreateRuntime` | 1 | Exported Function
 
 
 ## Signature

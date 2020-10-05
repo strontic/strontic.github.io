@@ -24,29 +24,29 @@ PE256 | `62B49B44D362BA4B36A139553468F9FE18D704F4259D0224E8F0B9282B31F94C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateAssemblyCache` | 7 (0x7) | Exported Function | 0x00000001650362c0 | 0x000362c0
-`SxsRunDllInstallAssembly` | 4 (0x4) | Exported Function | 0x0000000165055de0 | 0x00055de0
-`SxsQueryManifestInformation` | 20 (0x14) | Exported Function | 0x000000016505bb50 | 0x0005bb50
-`SxsProbeAssemblyInstallation` | 19 (0x13) | Exported Function | 0x0000000165035740 | 0x00035740
-`SxspGenerateManifestPathOnAssemblyIdentity` | 6 (0x6) | Exported Function | 0x00000001650588a0 | 0x000588a0
-`SxsOleAut32RedirectTypeLibrary` | 18 (0x12) | Exported Function | 0x0000000165033600 | 0x00033600
-`SxsOleAut32MapReferenceClsidToConfiguredClsid` | 17 (0x11) | Exported Function | 0x0000000165055780 | 0x00055780
-`SxsOleAut32MapIIDToTLBPath` | 16 (0x10) | Exported Function | 0x0000000165031d10 | 0x00031d10
-`SxsOleAut32MapIIDToProxyStubCLSID` | 15 (0xf) | Exported Function | 0x0000000165032090 | 0x00032090
-`SxsRunDllInstallAssemblyW` | 5 (0x5) | Exported Function | 0x0000000165055f10 | 0x00055f10
-`SxsOleAut32MapIIDOrCLSIDToTypeLibrary` | 14 (0xe) | Exported Function | 0x00000001650555c0 | 0x000555c0
-`SxsLookupClrGuid` | 3 (0x3) | Exported Function | 0x00000001650547c0 | 0x000547c0
-`SxsInstallW` | 12 (0xc) | Exported Function | 0x00000001650567c0 | 0x000567c0
-`SxsGenerateActivationContext` | 11 (0xb) | Exported Function | 0x0000000165003430 | 0x00003430
-`SxsFindClrSurrogateInformation` | 2 (0x2) | Exported Function | 0x0000000165054350 | 0x00054350
-`SxsFindClrClassInformation` | 1 (0x1) | Exported Function | 0x0000000165053d40 | 0x00053d40
-`SxsEndAssemblyInstall` | 10 (0xa) | Exported Function | 0x0000000165056580 | 0x00056580
-`SxsBeginAssemblyInstall` | 9 (0x9) | Exported Function | 0x00000001650562b0 | 0x000562b0
-`CreateAssemblyNameObject` | 8 (0x8) | Exported Function | 0x0000000165035d00 | 0x00035d00
-`SxsOleAut32MapConfiguredClsidToReferenceClsid` | 13 (0xd) | Exported Function | 0x0000000165031f80 | 0x00031f80
-`SxsUninstallW` | 21 (0x15) | Exported Function | 0x0000000165055970 | 0x00055970
+Function Name | Ordinal | Type
+-- | -- | --
+`SxsOleAut32RedirectTypeLibrary` | 18 | Exported Function
+`SxspGenerateManifestPathOnAssemblyIdentity` | 6 | Exported Function
+`SxsOleAut32MapReferenceClsidToConfiguredClsid` | 17 | Exported Function
+`SxsOleAut32MapIIDToProxyStubCLSID` | 15 | Exported Function
+`SxsOleAut32MapIIDToTLBPath` | 16 | Exported Function
+`SxsRunDllInstallAssemblyW` | 5 | Exported Function
+`SxsUninstallW` | 21 | Exported Function
+`SxsRunDllInstallAssembly` | 4 | Exported Function
+`SxsProbeAssemblyInstallation` | 19 | Exported Function
+`SxsQueryManifestInformation` | 20 | Exported Function
+`SxsOleAut32MapIIDOrCLSIDToTypeLibrary` | 14 | Exported Function
+`SxsEndAssemblyInstall` | 10 | Exported Function
+`SxsFindClrClassInformation` | 1 | Exported Function
+`SxsBeginAssemblyInstall` | 9 | Exported Function
+`CreateAssemblyCache` | 7 | Exported Function
+`CreateAssemblyNameObject` | 8 | Exported Function
+`SxsLookupClrGuid` | 3 | Exported Function
+`SxsOleAut32MapConfiguredClsidToReferenceClsid` | 13 | Exported Function
+`SxsInstallW` | 12 | Exported Function
+`SxsFindClrSurrogateInformation` | 2 | Exported Function
+`SxsGenerateActivationContext` | 11 | Exported Function
 
 
 ## Signature

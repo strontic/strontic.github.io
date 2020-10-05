@@ -24,149 +24,149 @@ PE256 | `1922CC5076512B7B7694DC61C36A28EC7C54AE21FD517EB43851B034A9FF618B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`auxGetDevCapsA` | 8 (0x8) | Exported Function | 0x10006230 | 0x00006230
-`waveInGetErrorTextA` | 103 (0x67) | Exported Function | 0x1000e6d0 | 0x0000e6d0
-`waveInGetDevCapsW` | 102 (0x66) | Exported Function | 0x1000f030 | 0x0000f030
-`waveInGetDevCapsA` | 101 (0x65) | Exported Function | 0x1000f0e0 | 0x0000f0e0
-`waveInClose` | 100 (0x64) | Exported Function | 0x1000f590 | 0x0000f590
-`waveInAddBuffer` | 99 (0x63) | Exported Function | 0x1000f750 | 0x0000f750
-`sndOpenSound` | 98 (0x62) | Exported Function | 0x1000da90 | 0x0000da90
-`SendDriverMessage` | 7 (0x7) | Exported Function | 0x100057d0 | 0x000057d0
-`OpenDriver` | 6 (0x6) | Exported Function | 0x10004930 | 0x00004930
-`mmTaskYield` | 76 (0x4c) | Exported Function | 0x1000da80 | 0x0000da80
-`mmTaskSignal` | 75 (0x4b) | Exported Function | 0x1000dc60 | 0x0000dc60
-`mmTaskCreate` | 74 (0x4a) | Exported Function | 0x1000dca0 | 0x0000dca0
-`mmTaskBlock` | 73 (0x49) | Exported Function | 0x1000dc10 | 0x0000dc10
-`mmioWrite` | 97 (0x61) | Exported Function | 0x10003720 | 0x00003720
-`mmioStringToFOURCCW` | 96 (0x60) | Exported Function | 0x10003c80 | 0x00003c80
-`mmioStringToFOURCCA` | 95 (0x5f) | Exported Function | 0x10003cf0 | 0x00003cf0
-`mmioSetInfo` | 94 (0x5e) | Exported Function | 0x10003960 | 0x00003960
-`mmioSetBuffer` | 93 (0x5d) | Exported Function | 0x100039b0 | 0x000039b0
-`mmioClose` | 79 (0x4f) | Exported Function | 0x100035e0 | 0x000035e0
-`mmioCreateChunk` | 80 (0x50) | Exported Function | 0x10004500 | 0x00004500
-`mmioDescend` | 81 (0x51) | Exported Function | 0x10004220 | 0x00004220
-`mmioFlush` | 82 (0x52) | Exported Function | 0x10003b40 | 0x00003b40
-`mmioGetInfo` | 83 (0x53) | Exported Function | 0x10003920 | 0x00003920
-`mmioInstallIOProcA` | 84 (0x54) | Exported Function | 0x10003d80 | 0x00003d80
-`waveInGetErrorTextW` | 104 (0x68) | Exported Function | 0x1000e6a0 | 0x0000e6a0
-`mmioInstallIOProcW` | 85 (0x55) | Exported Function | 0x10003d50 | 0x00003d50
-`mmioOpenW` | 87 (0x57) | Exported Function | 0x10003240 | 0x00003240
-`mmioRead` | 88 (0x58) | Exported Function | 0x10003650 | 0x00003650
-`mmioRenameA` | 89 (0x59) | Exported Function | 0x10003130 | 0x00003130
-`mmioRenameW` | 90 (0x5a) | Exported Function | 0x10003030 | 0x00003030
-`mmioSeek` | 91 (0x5b) | Exported Function | 0x10003830 | 0x00003830
-`mmioSendMessage` | 92 (0x5c) | Exported Function | 0x10003e50 | 0x00003e50
-`mmioOpenA` | 86 (0x56) | Exported Function | 0x100033d0 | 0x000033d0
-`waveInGetID` | 105 (0x69) | Exported Function | 0x1000f970 | 0x0000f970
-`waveInGetNumDevs` | 106 (0x6a) | Exported Function | 0x1000ef00 | 0x0000ef00
-`waveInGetPosition` | 107 (0x6b) | Exported Function | 0x1000f890 | 0x0000f890
-`waveOutGetVolume` | 126 (0x7e) | Exported Function | 0x1000e510 | 0x0000e510
-`waveOutMessage` | 127 (0x7f) | Exported Function | 0x1000e1c0 | 0x0000e1c0
-`waveOutOpen` | 128 (0x80) | Exported Function | 0x1000e700 | 0x0000e700
-`waveOutPause` | 129 (0x81) | Exported Function | 0x1000ec80 | 0x0000ec80
-`waveOutPrepareHeader` | 130 (0x82) | Exported Function | 0x1000eb10 | 0x0000eb10
-`waveOutReset` | 131 (0x83) | Exported Function | 0x1000ed00 | 0x0000ed00
-`waveOutGetPosition` | 125 (0x7d) | Exported Function | 0x1000ed90 | 0x0000ed90
-`waveOutRestart` | 132 (0x84) | Exported Function | 0x1000ecc0 | 0x0000ecc0
-`waveOutSetPlaybackRate` | 134 (0x86) | Exported Function | 0x1000eec0 | 0x0000eec0
-`waveOutSetVolume` | 135 (0x87) | Exported Function | 0x1000e5a0 | 0x0000e5a0
-`waveOutUnprepareHeader` | 136 (0x88) | Exported Function | 0x1000eb80 | 0x0000eb80
-`waveOutWrite` | 137 (0x89) | Exported Function | 0x1000ec10 | 0x0000ec10
-`winmmbaseFreeMMEHandles` | 138 (0x8a) | Exported Function | 0x1000d890 | 0x0000d890
-`winmmbaseGetWOWHandle` | 139 (0x8b) | Exported Function | 0x1000da40 | 0x0000da40
-`waveOutSetPitch` | 133 (0x85) | Exported Function | 0x1000ee30 | 0x0000ee30
-`mmioAscend` | 78 (0x4e) | Exported Function | 0x10004410 | 0x00004410
-`waveOutGetPlaybackRate` | 124 (0x7c) | Exported Function | 0x1000ee70 | 0x0000ee70
-`waveOutGetNumDevs` | 122 (0x7a) | Exported Function | 0x1000e150 | 0x0000e150
-`waveInMessage` | 108 (0x6c) | Exported Function | 0x1000efe0 | 0x0000efe0
-`waveInOpen` | 109 (0x6d) | Exported Function | 0x1000f290 | 0x0000f290
-`waveInPrepareHeader` | 110 (0x6e) | Exported Function | 0x1000f650 | 0x0000f650
-`waveInReset` | 111 (0x6f) | Exported Function | 0x1000f840 | 0x0000f840
-`waveInStart` | 112 (0x70) | Exported Function | 0x1000f7c0 | 0x0000f7c0
-`waveInStop` | 113 (0x71) | Exported Function | 0x1000f800 | 0x0000f800
-`waveOutGetPitch` | 123 (0x7b) | Exported Function | 0x1000ede0 | 0x0000ede0
-`waveInUnprepareHeader` | 114 (0x72) | Exported Function | 0x1000f6c0 | 0x0000f6c0
-`waveOutClose` | 116 (0x74) | Exported Function | 0x1000ea50 | 0x0000ea50
-`waveOutGetDevCapsA` | 117 (0x75) | Exported Function | 0x1000e350 | 0x0000e350
-`waveOutGetDevCapsW` | 118 (0x76) | Exported Function | 0x1000e210 | 0x0000e210
-`waveOutGetErrorTextA` | 119 (0x77) | Exported Function | 0x1000e6d0 | 0x0000e6d0
-`waveOutGetErrorTextW` | 120 (0x78) | Exported Function | 0x1000e6a0 | 0x0000e6a0
-`waveOutGetID` | 121 (0x79) | Exported Function | 0x1000f9b0 | 0x0000f9b0
-`waveOutBreakLoop` | 115 (0x73) | Exported Function | 0x1000ed50 | 0x0000ed50
-`winmmbaseHandle32FromHandle16` | 140 (0x8c) | Exported Function | 0x1000d830 | 0x0000d830
-`mmioAdvance` | 77 (0x4d) | Exported Function | 0x10003bc0 | 0x00003bc0
-`mmDrvInstall` | 71 (0x47) | Exported Function | 0x1000ba70 | 0x0000ba70
-`midiOutGetDevCapsA` | 34 (0x22) | Exported Function | 0x100079e0 | 0x000079e0
-`midiOutClose` | 33 (0x21) | Exported Function | 0x10007fc0 | 0x00007fc0
-`midiOutCachePatches` | 32 (0x20) | Exported Function | 0x100085c0 | 0x000085c0
-`midiOutCacheDrumPatches` | 31 (0x1f) | Exported Function | 0x10008660 | 0x00008660
-`midiInUnprepareHeader` | 30 (0x1e) | Exported Function | 0x10008ce0 | 0x00008ce0
-`midiInStop` | 29 (0x1d) | Exported Function | 0x10008e20 | 0x00008e20
-`midiInStart` | 28 (0x1c) | Exported Function | 0x10008de0 | 0x00008de0
-`midiInReset` | 27 (0x1b) | Exported Function | 0x10008e60 | 0x00008e60
-`midiInPrepareHeader` | 26 (0x1a) | Exported Function | 0x10008c70 | 0x00008c70
-`midiInOpen` | 25 (0x19) | Exported Function | 0x10008a50 | 0x00008a50
-`midiInMessage` | 24 (0x18) | Exported Function | 0x100087c0 | 0x000087c0
-`midiInGetNumDevs` | 23 (0x17) | Exported Function | 0x10008790 | 0x00008790
-`midiInGetID` | 22 (0x16) | Exported Function | 0x10008f40 | 0x00008f40
-`midiInGetErrorTextW` | 21 (0x15) | Exported Function | 0x10007da0 | 0x00007da0
-`midiInGetErrorTextA` | 20 (0x14) | Exported Function | 0x10007dd0 | 0x00007dd0
-`midiInGetDevCapsW` | 19 (0x13) | Exported Function | 0x10008810 | 0x00008810
-`midiInGetDevCapsA` | 18 (0x12) | Exported Function | 0x100088b0 | 0x000088b0
-`auxGetDevCapsW` | 9 (0x9) | Exported Function | 0x100061c0 | 0x000061c0
-`auxGetNumDevs` | 10 (0xa) | Exported Function | 0x10006190 | 0x00006190
-`auxGetVolume` | 11 (0xb) | Exported Function | 0x10006390 | 0x00006390
-`auxOutMessage` | 12 (0xc) | Exported Function | 0x10006100 | 0x00006100
-`auxSetVolume` | 13 (0xd) | Exported Function | 0x100063e0 | 0x000063e0
-`CloseDriver` | 1 (0x1) | Exported Function | 0x100048d0 | 0x000048d0
-`midiOutGetDevCapsW` | 35 (0x23) | Exported Function | 0x10007940 | 0x00007940
-`DefDriverProc` | 2 (0x2) | Exported Function | 0x100057f0 | 0x000057f0
-`DrvGetModuleHandle` | 4 (0x4) | Exported Function | 0x100049a0 | 0x000049a0
-`GetDriverModuleHandle` | 5 (0x5) | Exported Function | 0x100049a0 | 0x000049a0
-`midiConnect` | 14 (0xe) | Exported Function | 0x100065b0 | 0x000065b0
-`midiDisconnect` | 15 (0xf) | Exported Function | 0x10006550 | 0x00006550
-`midiInAddBuffer` | 16 (0x10) | Exported Function | 0x10008d70 | 0x00008d70
-`midiInClose` | 17 (0x11) | Exported Function | 0x10008bb0 | 0x00008bb0
-`DriverCallback` | 3 (0x3) | Exported Function | 0x10005f30 | 0x00005f30
-`midiOutGetErrorTextA` | 36 (0x24) | Exported Function | 0x10007dd0 | 0x00007dd0
-`midiOutGetErrorTextW` | 37 (0x25) | Exported Function | 0x10007da0 | 0x00007da0
-`midiOutGetID` | 38 (0x26) | Exported Function | 0x10008f80 | 0x00008f80
-`mixerClose` | 57 (0x39) | Exported Function | 0x1000a0a0 | 0x0000a0a0
-`mixerGetControlDetailsA` | 58 (0x3a) | Exported Function | 0x1000ac70 | 0x0000ac70
-`mixerGetControlDetailsW` | 59 (0x3b) | Exported Function | 0x1000ad90 | 0x0000ad90
-`mixerGetDevCapsA` | 60 (0x3c) | Exported Function | 0x10009420 | 0x00009420
-`mixerGetDevCapsW` | 61 (0x3d) | Exported Function | 0x100095c0 | 0x000095c0
-`mixerGetID` | 62 (0x3e) | Exported Function | 0x10009650 | 0x00009650
-`midiStreamStop` | 56 (0x38) | Exported Function | 0x10006ee0 | 0x00006ee0
-`mixerGetLineControlsA` | 63 (0x3f) | Exported Function | 0x1000aa40 | 0x0000aa40
-`mixerGetLineInfoA` | 65 (0x41) | Exported Function | 0x1000a6f0 | 0x0000a6f0
-`mixerGetLineInfoW` | 66 (0x42) | Exported Function | 0x1000a7c0 | 0x0000a7c0
-`mixerGetNumDevs` | 67 (0x43) | Exported Function | 0x100093f0 | 0x000093f0
-`mixerMessage` | 68 (0x44) | Exported Function | 0x1000a1f0 | 0x0000a1f0
-`mixerOpen` | 69 (0x45) | Exported Function | 0x10009c10 | 0x00009c10
-`mixerSetControlDetails` | 70 (0x46) | Exported Function | 0x1000ae70 | 0x0000ae70
-`mixerGetLineControlsW` | 64 (0x40) | Exported Function | 0x1000aba0 | 0x0000aba0
-`mmGetCurrentTask` | 72 (0x48) | Exported Function | 0x1000dc90 | 0x0000dc90
-`midiStreamRestart` | 55 (0x37) | Exported Function | 0x10006f60 | 0x00006f60
-`midiStreamPosition` | 53 (0x35) | Exported Function | 0x10006e90 | 0x00006e90
-`midiOutGetNumDevs` | 39 (0x27) | Exported Function | 0x10007880 | 0x00007880
-`midiOutGetVolume` | 40 (0x28) | Exported Function | 0x10007bb0 | 0x00007bb0
-`midiOutLongMsg` | 41 (0x29) | Exported Function | 0x10008490 | 0x00008490
-`midiOutMessage` | 42 (0x2a) | Exported Function | 0x100078b0 | 0x000078b0
-`midiOutOpen` | 43 (0x2b) | Exported Function | 0x10007e00 | 0x00007e00
-`midiOutPrepareHeader` | 44 (0x2c) | Exported Function | 0x10008070 | 0x00008070
-`midiStreamProperty` | 54 (0x36) | Exported Function | 0x10006e40 | 0x00006e40
-`midiOutReset` | 45 (0x2d) | Exported Function | 0x10008540 | 0x00008540
-`midiOutShortMsg` | 47 (0x2f) | Exported Function | 0x10008400 | 0x00008400
-`midiOutUnprepareHeader` | 48 (0x30) | Exported Function | 0x10008290 | 0x00008290
-`midiStreamClose` | 49 (0x31) | Exported Function | 0x10006cc0 | 0x00006cc0
-`midiStreamOpen` | 50 (0x32) | Exported Function | 0x100066d0 | 0x000066d0
-`midiStreamOut` | 51 (0x33) | Exported Function | 0x100070b0 | 0x000070b0
-`midiStreamPause` | 52 (0x34) | Exported Function | 0x10006f20 | 0x00006f20
-`midiOutSetVolume` | 46 (0x2e) | Exported Function | 0x10007c80 | 0x00007c80
-`winmmbaseSetWOWHandle` | 141 (0x8d) | Exported Function | 0x1000da60 | 0x0000da60
+Function Name | Ordinal | Type
+-- | -- | --
+`mmTaskYield` | 76 | Exported Function
+`mmTaskSignal` | 75 | Exported Function
+`SendDriverMessage` | 7 | Exported Function
+`OpenDriver` | 6 | Exported Function
+`mmioWrite` | 97 | Exported Function
+`mmioStringToFOURCCW` | 96 | Exported Function
+`mmTaskCreate` | 74 | Exported Function
+`mmTaskBlock` | 73 | Exported Function
+`sndOpenSound` | 98 | Exported Function
+`waveInGetErrorTextW` | 104 | Exported Function
+`waveInGetErrorTextA` | 103 | Exported Function
+`waveInGetNumDevs` | 106 | Exported Function
+`waveInGetID` | 105 | Exported Function
+`waveInClose` | 100 | Exported Function
+`waveInAddBuffer` | 99 | Exported Function
+`waveInGetDevCapsW` | 102 | Exported Function
+`waveInGetDevCapsA` | 101 | Exported Function
+`mmioStringToFOURCCA` | 95 | Exported Function
+`mmioGetInfo` | 83 | Exported Function
+`mmioFlush` | 82 | Exported Function
+`mmioInstallIOProcW` | 85 | Exported Function
+`mmioInstallIOProcA` | 84 | Exported Function
+`mmioClose` | 79 | Exported Function
+`mmioAscend` | 78 | Exported Function
+`mmioDescend` | 81 | Exported Function
+`mmioCreateChunk` | 80 | Exported Function
+`mmioOpenA` | 86 | Exported Function
+`mmioSendMessage` | 92 | Exported Function
+`mmioSeek` | 91 | Exported Function
+`mmioSetInfo` | 94 | Exported Function
+`mmioSetBuffer` | 93 | Exported Function
+`mmioRead` | 88 | Exported Function
+`mmioOpenW` | 87 | Exported Function
+`mmioRenameW` | 90 | Exported Function
+`mmioRenameA` | 89 | Exported Function
+`waveOutPrepareHeader` | 130 | Exported Function
+`waveOutPause` | 129 | Exported Function
+`waveOutRestart` | 132 | Exported Function
+`waveOutReset` | 131 | Exported Function
+`waveOutGetVolume` | 126 | Exported Function
+`waveOutGetPosition` | 125 | Exported Function
+`waveOutOpen` | 128 | Exported Function
+`waveOutMessage` | 127 | Exported Function
+`waveOutSetPitch` | 133 | Exported Function
+`winmmbaseGetWOWHandle` | 139 | Exported Function
+`winmmbaseFreeMMEHandles` | 138 | Exported Function
+`winmmbaseSetWOWHandle` | 141 | Exported Function
+`winmmbaseHandle32FromHandle16` | 140 | Exported Function
+`waveOutSetVolume` | 135 | Exported Function
+`waveOutSetPlaybackRate` | 134 | Exported Function
+`waveOutWrite` | 137 | Exported Function
+`waveOutUnprepareHeader` | 136 | Exported Function
+`waveOutGetPlaybackRate` | 124 | Exported Function
+`waveInStart` | 112 | Exported Function
+`waveInReset` | 111 | Exported Function
+`waveInUnprepareHeader` | 114 | Exported Function
+`waveInStop` | 113 | Exported Function
+`waveInMessage` | 108 | Exported Function
+`waveInGetPosition` | 107 | Exported Function
+`waveInPrepareHeader` | 110 | Exported Function
+`waveInOpen` | 109 | Exported Function
+`waveOutBreakLoop` | 115 | Exported Function
+`waveOutGetID` | 121 | Exported Function
+`waveOutGetErrorTextW` | 120 | Exported Function
+`waveOutGetPitch` | 123 | Exported Function
+`waveOutGetNumDevs` | 122 | Exported Function
+`waveOutGetDevCapsA` | 117 | Exported Function
+`waveOutClose` | 116 | Exported Function
+`waveOutGetErrorTextA` | 119 | Exported Function
+`waveOutGetDevCapsW` | 118 | Exported Function
+`mmioAdvance` | 77 | Exported Function
+`midiInPrepareHeader` | 26 | Exported Function
+`midiInOpen` | 25 | Exported Function
+`midiInStart` | 28 | Exported Function
+`midiInReset` | 27 | Exported Function
+`midiInGetID` | 22 | Exported Function
+`midiInGetErrorTextW` | 21 | Exported Function
+`midiInMessage` | 24 | Exported Function
+`midiInGetNumDevs` | 23 | Exported Function
+`midiInStop` | 29 | Exported Function
+`midiOutGetDevCapsW` | 35 | Exported Function
+`midiOutGetDevCapsA` | 34 | Exported Function
+`midiOutGetErrorTextW` | 37 | Exported Function
+`midiOutGetErrorTextA` | 36 | Exported Function
+`midiOutCacheDrumPatches` | 31 | Exported Function
+`midiInUnprepareHeader` | 30 | Exported Function
+`midiOutClose` | 33 | Exported Function
+`midiOutCachePatches` | 32 | Exported Function
+`midiInGetErrorTextA` | 20 | Exported Function
+`auxSetVolume` | 13 | Exported Function
+`auxOutMessage` | 12 | Exported Function
+`DefDriverProc` | 2 | Exported Function
+`CloseDriver` | 1 | Exported Function
+`auxGetDevCapsW` | 9 | Exported Function
+`auxGetDevCapsA` | 8 | Exported Function
+`auxGetVolume` | 11 | Exported Function
+`auxGetNumDevs` | 10 | Exported Function
+`DriverCallback` | 3 | Exported Function
+`midiInClose` | 17 | Exported Function
+`midiInAddBuffer` | 16 | Exported Function
+`midiInGetDevCapsW` | 19 | Exported Function
+`midiInGetDevCapsA` | 18 | Exported Function
+`GetDriverModuleHandle` | 5 | Exported Function
+`DrvGetModuleHandle` | 4 | Exported Function
+`midiDisconnect` | 15 | Exported Function
+`midiConnect` | 14 | Exported Function
+`mixerGetDevCapsW` | 61 | Exported Function
+`mixerGetDevCapsA` | 60 | Exported Function
+`mixerGetLineControlsA` | 63 | Exported Function
+`mixerGetID` | 62 | Exported Function
+`mixerClose` | 57 | Exported Function
+`midiStreamStop` | 56 | Exported Function
+`mixerGetControlDetailsW` | 59 | Exported Function
+`mixerGetControlDetailsA` | 58 | Exported Function
+`mixerGetLineControlsW` | 64 | Exported Function
+`mixerSetControlDetails` | 70 | Exported Function
+`mixerOpen` | 69 | Exported Function
+`mmGetCurrentTask` | 72 | Exported Function
+`mmDrvInstall` | 71 | Exported Function
+`mixerGetLineInfoW` | 66 | Exported Function
+`mixerGetLineInfoA` | 65 | Exported Function
+`mixerMessage` | 68 | Exported Function
+`mixerGetNumDevs` | 67 | Exported Function
+`midiStreamRestart` | 55 | Exported Function
+`midiOutOpen` | 43 | Exported Function
+`midiOutMessage` | 42 | Exported Function
+`midiOutReset` | 45 | Exported Function
+`midiOutPrepareHeader` | 44 | Exported Function
+`midiOutGetNumDevs` | 39 | Exported Function
+`midiOutGetID` | 38 | Exported Function
+`midiOutLongMsg` | 41 | Exported Function
+`midiOutGetVolume` | 40 | Exported Function
+`midiOutSetVolume` | 46 | Exported Function
+`midiStreamPause` | 52 | Exported Function
+`midiStreamOut` | 51 | Exported Function
+`midiStreamProperty` | 54 | Exported Function
+`midiStreamPosition` | 53 | Exported Function
+`midiOutUnprepareHeader` | 48 | Exported Function
+`midiOutShortMsg` | 47 | Exported Function
+`midiStreamOpen` | 50 | Exported Function
+`midiStreamClose` | 49 | Exported Function
 
 
 ## Signature

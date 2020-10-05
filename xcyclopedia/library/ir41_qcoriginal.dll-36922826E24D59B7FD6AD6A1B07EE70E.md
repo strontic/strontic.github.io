@@ -24,16 +24,16 @@ PE256 | `52A939CA5111158CFF7B741AC0A15B3ADFCDFFC7FA5D5D8DA16DF9BC645A0F98`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AllocInstanceData` | 1 (0x1) | Exported Function | 0x10001b30 | 0x00001b30
-`Compress` | 2 (0x2) | Exported Function | 0x10001bb0 | 0x00001bb0
-`CompressBegin` | 3 (0x3) | Exported Function | 0x10001d70 | 0x00001d70
-`CompressEnd` | 4 (0x4) | Exported Function | 0x10001e80 | 0x00001e80
-`CompressFramesInfo` | 5 (0x5) | Exported Function | 0x10001eb0 | 0x00001eb0
-`DllMain` | 6 (0x6) | Exported Function | 0x10001b20 | 0x00001b20
-`FreeInstanceData` | 7 (0x7) | Exported Function | 0x10001b80 | 0x00001b80
-`SetScalability` | 8 (0x8) | Exported Function | 0x10001f20 | 0x00001f20
+Function Name | Ordinal | Type
+-- | -- | --
+`DllMain` | 6 | Exported Function
+`CompressFramesInfo` | 5 | Exported Function
+`SetScalability` | 8 | Exported Function
+`FreeInstanceData` | 7 | Exported Function
+`Compress` | 2 | Exported Function
+`AllocInstanceData` | 1 | Exported Function
+`CompressEnd` | 4 | Exported Function
+`CompressBegin` | 3 | Exported Function
 
 
 ## Signature

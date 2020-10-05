@@ -24,62 +24,62 @@ PE256 | `611B0510AE441644587C1220F4D30C87AD2EAEED761008E94255358CA449D76E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DpQueryUserProtectorDescriptor` | 1 (0x1) | Exported Function | 0x00000001800133a0 | 0x000133a0
-`EfsClientCloseFileRaw` | 30 (0x1e) | Exported Function | 0x0000000180010c40 | 0x00010c40
-`EfsClientCopyFileRaw` | 31 (0x1f) | Exported Function | 0x0000000180012e00 | 0x00012e00
-`EfsClientDecryptFile` | 32 (0x20) | Exported Function | 0x00000001800108f0 | 0x000108f0
-`EfsClientDuplicateEncryptionInfo` | 33 (0x21) | Exported Function | 0x0000000180011320 | 0x00011320
-`EfsClientEncryptFileEx` | 34 (0x22) | Exported Function | 0x00000001800107d0 | 0x000107d0
-`EfsClientFileEncryptionStatus` | 35 (0x23) | Exported Function | 0x00000001800109c0 | 0x000109c0
-`EfsClientFreeKeyInfo` | 36 (0x24) | Exported Function | 0x00000001800116c0 | 0x000116c0
-`EfsClientFreeProtectorList` | 37 (0x25) | Exported Function | 0x0000000180011240 | 0x00011240
-`EfsClientGetEncryptedFileVersion` | 38 (0x26) | Exported Function | 0x0000000180011720 | 0x00011720
-`EfsClientGetKeyInfo` | 39 (0x27) | Exported Function | 0x00000001800115f0 | 0x000115f0
-`EfsClientOpenFileRaw` | 40 (0x28) | Exported Function | 0x0000000180010a50 | 0x00010a50
-`EfsClientQueryProtectors` | 41 (0x29) | Exported Function | 0x0000000180010fe0 | 0x00010fe0
-`EfsClientReadFileRaw` | 42 (0x2a) | Exported Function | 0x0000000180010b90 | 0x00010b90
-`EfsClientWriteFileRaw` | 43 (0x2b) | Exported Function | 0x0000000180010bb0 | 0x00010bb0
-`EfsClientWriteFileWithHeaderRaw` | 44 (0x2c) | Exported Function | 0x0000000180010bf0 | 0x00010bf0
-`EfsReprotectFile` | 45 (0x2d) | Exported Function | 0x0000000180012e30 | 0x00012e30
-`EfsUtilGetCurrentKey` | 46 (0x2e) | Exported Function | efsutil._EfsUtilGetCurrentKey_Deprecated@16 | 0x00039824
-`EfsValidateTokenForConsumer` | 47 (0x2f) | Exported Function | 0x00000001800130d0 | 0x000130d0
-`EfsValidateUserForConsumer` | 48 (0x30) | Exported Function | 0x0000000180012f10 | 0x00012f10
-`FeClClearCaches` | 49 (0x31) | Exported Function | 0x0000000180012d00 | 0x00012d00
-`FeClientInitialize` | 51 (0x33) | Exported Function | 0x0000000180010710 | 0x00010710
-`FeClQueryInfo` | 50 (0x32) | Exported Function | 0x0000000180012c70 | 0x00012c70
-`GetLockSessionUnwrappedKey` | 52 (0x34) | Exported Function | 0x0000000180012540 | 0x00012540
-`EdpWriteLogSiteLearningEvents` | 29 (0x1d) | Exported Function | 0x0000000180012df0 | 0x00012df0
-`EdpUnprotectFile` | 28 (0x1c) | Exported Function | 0x0000000180012dc0 | 0x00012dc0
-`EdpSetCredServiceInfo` | 27 (0x1b) | Exported Function | 0x0000000180012a70 | 0x00012a70
-`EdpRmsClearKeys` | 26 (0x1a) | Exported Function | 0x0000000180012d20 | 0x00012d20
-`DpQueryUserProtectorDescriptorInfo` | 2 (0x2) | Exported Function | 0x00000001800135e0 | 0x000135e0
-`EdpAllowFileAccessForProcess` | 3 (0x3) | Exported Function | 0x0000000180012da0 | 0x00012da0
-`EdpContainerizeFile` | 4 (0x4) | Exported Function | 0x0000000180012d30 | 0x00012d30
-`EdpCredentialCreate` | 5 (0x5) | Exported Function | 0x0000000180011e30 | 0x00011e30
-`EdpCredentialDelete` | 6 (0x6) | Exported Function | 0x00000001800121f0 | 0x000121f0
-`EdpCredentialExists` | 7 (0x7) | Exported Function | 0x00000001800120d0 | 0x000120d0
-`EdpCredentialQuery` | 8 (0x8) | Exported Function | 0x0000000180011f80 | 0x00011f80
-`EdpDecontainerizeFile` | 9 (0x9) | Exported Function | 0x0000000180012d80 | 0x00012d80
-`EdpDplPolicyEnabledForUser` | 10 (0xa) | Exported Function | 0x00000001800127a0 | 0x000127a0
-`EdpDplStartCredServiceIfDplEnabledForUser` | 11 (0xb) | Exported Function | 0x00000001800127b0 | 0x000127b0
-`EdpDplUpgradePinInfo` | 12 (0xc) | Exported Function | 0x0000000180012700 | 0x00012700
-`GetLockSessionWrappedKey` | 53 (0x35) | Exported Function | 0x00000001800123e0 | 0x000123e0
-`EdpDplUpgradeVerifyUser` | 13 (0xd) | Exported Function | 0x0000000180012730 | 0x00012730
-`EdpDplUserUnlockComplete` | 15 (0xf) | Exported Function | 0x0000000180012790 | 0x00012790
-`EdpDplUserUnlockStart` | 16 (0x10) | Exported Function | 0x0000000180012790 | 0x00012790
-`EdpFree` | 17 (0x11) | Exported Function | 0x0000000180012260 | 0x00012260
-`EdpGetContainerIdentity` | 18 (0x12) | Exported Function | 0x0000000180012d60 | 0x00012d60
-`EdpGetCredServiceState` | 19 (0x13) | Exported Function | 0x0000000180012690 | 0x00012690
-`EdpIsConsumerDataProtectionEnforced` | 20 (0x14) | Exported Function | 0x0000000180012ee0 | 0x00012ee0
-`EdpIsConsumerDataProtectionSupported` | 21 (0x15) | Exported Function | 0x0000000180012ed0 | 0x00012ed0
-`EdpPurgeAppLearningEvents` | 22 (0x16) | Exported Function | 0x0000000180012de0 | 0x00012de0
-`EdpQueryCredServiceInfo` | 23 (0x17) | Exported Function | 0x0000000180012830 | 0x00012830
-`EdpQueryDplEnforcedPolicyOwnerIds` | 24 (0x18) | Exported Function | 0x0000000180012240 | 0x00012240
-`EdpQueryRevokedPolicyOwnerIds` | 25 (0x19) | Exported Function | 0x0000000180012220 | 0x00012220
-`EdpDplUserCredentialsSet` | 14 (0xe) | Exported Function | 0x0000000180012760 | 0x00012760
-`OefsCheckSupport` | 54 (0x36) | Exported Function | 0x0000000180012e10 | 0x00012e10
+Function Name | Ordinal | Type
+-- | -- | --
+`EfsClientFreeProtectorList` | 37 | Exported Function
+`EfsClientFreeKeyInfo` | 36 | Exported Function
+`EfsClientFileEncryptionStatus` | 35 | Exported Function
+`EfsClientOpenFileRaw` | 40 | Exported Function
+`EfsClientGetKeyInfo` | 39 | Exported Function
+`EfsClientGetEncryptedFileVersion` | 38 | Exported Function
+`EfsClientEncryptFileEx` | 34 | Exported Function
+`EfsClientCloseFileRaw` | 30 | Exported Function
+`EdpWriteLogSiteLearningEvents` | 29 | Exported Function
+`EdpUnprotectFile` | 28 | Exported Function
+`EfsClientDuplicateEncryptionInfo` | 33 | Exported Function
+`EfsClientDecryptFile` | 32 | Exported Function
+`EfsClientCopyFileRaw` | 31 | Exported Function
+`EfsClientQueryProtectors` | 41 | Exported Function
+`FeClQueryInfo` | 50 | Exported Function
+`FeClientInitialize` | 51 | Exported Function
+`FeClClearCaches` | 49 | Exported Function
+`OefsCheckSupport` | 54 | Exported Function
+`GetLockSessionWrappedKey` | 53 | Exported Function
+`GetLockSessionUnwrappedKey` | 52 | Exported Function
+`EfsValidateUserForConsumer` | 48 | Exported Function
+`EfsClientWriteFileWithHeaderRaw` | 44 | Exported Function
+`EfsClientWriteFileRaw` | 43 | Exported Function
+`EfsClientReadFileRaw` | 42 | Exported Function
+`EfsValidateTokenForConsumer` | 47 | Exported Function
+`EfsUtilGetCurrentKey` | 46 | Exported Function
+`EfsReprotectFile` | 45 | Exported Function
+`EdpDplPolicyEnabledForUser` | 10 | Exported Function
+`EdpDecontainerizeFile` | 9 | Exported Function
+`EdpCredentialQuery` | 8 | Exported Function
+`EdpDplUpgradeVerifyUser` | 13 | Exported Function
+`EdpDplUpgradePinInfo` | 12 | Exported Function
+`EdpDplStartCredServiceIfDplEnabledForUser` | 11 | Exported Function
+`EdpCredentialExists` | 7 | Exported Function
+`EdpAllowFileAccessForProcess` | 3 | Exported Function
+`DpQueryUserProtectorDescriptorInfo` | 2 | Exported Function
+`DpQueryUserProtectorDescriptor` | 1 | Exported Function
+`EdpCredentialDelete` | 6 | Exported Function
+`EdpCredentialCreate` | 5 | Exported Function
+`EdpContainerizeFile` | 4 | Exported Function
+`EdpDplUserCredentialsSet` | 14 | Exported Function
+`EdpQueryDplEnforcedPolicyOwnerIds` | 24 | Exported Function
+`EdpQueryCredServiceInfo` | 23 | Exported Function
+`EdpPurgeAppLearningEvents` | 22 | Exported Function
+`EdpSetCredServiceInfo` | 27 | Exported Function
+`EdpRmsClearKeys` | 26 | Exported Function
+`EdpQueryRevokedPolicyOwnerIds` | 25 | Exported Function
+`EdpIsConsumerDataProtectionSupported` | 21 | Exported Function
+`EdpFree` | 17 | Exported Function
+`EdpDplUserUnlockStart` | 16 | Exported Function
+`EdpDplUserUnlockComplete` | 15 | Exported Function
+`EdpIsConsumerDataProtectionEnforced` | 20 | Exported Function
+`EdpGetCredServiceState` | 19 | Exported Function
+`EdpGetContainerIdentity` | 18 | Exported Function
 
 
 ## Signature

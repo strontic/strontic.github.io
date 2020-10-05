@@ -24,14 +24,14 @@ PE256 | `F3F8681102D3AE385E03C59D2E31AE2AF9B7F7940F244A238ADEAF878BA6C911`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BaseGetProcessCrtlRoutine` | 1 (0x1) | Exported Function | 0x0000000180004a20 | 0x00004a20
-`BaseSetProcessCreateNotify` | 2 (0x2) | Exported Function | 0x0000000180004a70 | 0x00004a70
-`BaseSrvNlsLogon` | 3 (0x3) | Exported Function | 0x0000000180001010 | 0x00001010
-`BaseSrvNlsUpdateRegistryCache` | 4 (0x4) | Exported Function | 0x0000000180004960 | 0x00004960
-`BaseSrvRegisterSxS` | 5 (0x5) | Exported Function | 0x0000000180004a50 | 0x00004a50
-`ServerDllInitialization` | 6 (0x6) | Exported Function | 0x0000000180001810 | 0x00001810
+Function Name | Ordinal | Type
+-- | -- | --
+`BaseSrvNlsUpdateRegistryCache` | 4 | Exported Function
+`BaseSrvRegisterSxS` | 5 | Exported Function
+`ServerDllInitialization` | 6 | Exported Function
+`BaseGetProcessCrtlRoutine` | 1 | Exported Function
+`BaseSetProcessCreateNotify` | 2 | Exported Function
+`BaseSrvNlsLogon` | 3 | Exported Function
 
 
 ## Signature

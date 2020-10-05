@@ -24,23 +24,23 @@ PE256 | `7FAC595D0172EE3B28424E2D949036B356D0DCCA5BB8272894491991E7B1B3B3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CJDictsCommentDictionary_CreateInstance` | 1 (0x1) | Exported Function | 0x100672d0 | 0x000672d0
-`CJDictsDataForDWORD_CreateInstance` | 2 (0x2) | Exported Function | 0x100672f0 | 0x000672f0
-`CJDictsDictionaryManifest_CreateInstance` | 3 (0x3) | Exported Function | 0x10067310 | 0x00067310
-`CJDictsIndexerSatori_CreateInstance` | 4 (0x4) | Exported Function | 0x10067330 | 0x00067330
-`CJDictsSystemLexiconStoreDelayLoad__CreateInstance` | 5 (0x5) | Exported Function | 0x10067350 | 0x00067350
-`CJDictsUserDictionary_CreateInstance` | 6 (0x6) | Exported Function | 0x10067370 | 0x00067370
-`CJDictsUserDictionary_FillByDummyHeader` | 7 (0x7) | Exported Function | 0x10067390 | 0x00067390
-`DllCanUnloadNow` | 8 (0x8) | Exported Function | 0x100673b0 | 0x000673b0
-`DllGetClassObject` | 9 (0x9) | Exported Function | 0x10034c80 | 0x00034c80
-`DllRegisterServer` | 10 (0xa) | Exported Function | 0x100673d0 | 0x000673d0
-`DllUnregisterServer` | 11 (0xb) | Exported Function | 0x10067400 | 0x00067400
-`GetSegmentedStr` | 12 (0xc) | Exported Function | 0x10067440 | 0x00067440
-`IMECFM_AddJpnWordInfoAndLmContextForWatsonReport` | 13 (0xd) | Exported Function | 0x10066d90 | 0x00066d90
-`InitGetSegmentedStr` | 14 (0xe) | Exported Function | 0x100674d0 | 0x000674d0
-`UnInitGetSegmentedStr` | 15 (0xf) | Exported Function | 0x100676f0 | 0x000676f0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 11 | Exported Function
+`DllRegisterServer` | 10 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
+`GetSegmentedStr` | 12 | Exported Function
+`UnInitGetSegmentedStr` | 15 | Exported Function
+`InitGetSegmentedStr` | 14 | Exported Function
+`IMECFM_AddJpnWordInfoAndLmContextForWatsonReport` | 13 | Exported Function
+`DllCanUnloadNow` | 8 | Exported Function
+`CJDictsDictionaryManifest_CreateInstance` | 3 | Exported Function
+`CJDictsDataForDWORD_CreateInstance` | 2 | Exported Function
+`CJDictsCommentDictionary_CreateInstance` | 1 | Exported Function
+`CJDictsIndexerSatori_CreateInstance` | 4 | Exported Function
+`CJDictsUserDictionary_FillByDummyHeader` | 7 | Exported Function
+`CJDictsUserDictionary_CreateInstance` | 6 | Exported Function
+`CJDictsSystemLexiconStoreDelayLoad__CreateInstance` | 5 | Exported Function
 
 
 ## Signature

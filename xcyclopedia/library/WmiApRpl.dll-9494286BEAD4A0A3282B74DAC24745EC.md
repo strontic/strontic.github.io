@@ -24,13 +24,13 @@ PE256 | `721C9E1C60C01B22315BD5AB8036D09DD2FC3ADCE02CB6DD6C71A50A04203946`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x0000000180001b70 | 0x00001b70
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x0000000180001bf0 | 0x00001bf0
-`WmiClosePerfData` | 1 (0x1) | Exported Function | 0x0000000180001cc0 | 0x00001cc0
-`WmiCollectPerfData` | 2 (0x2) | Exported Function | 0x0000000180001e50 | 0x00001e50
-`WmiOpenPerfData` | 3 (0x3) | Exported Function | 0x0000000180001c20 | 0x00001c20
+Function Name | Ordinal | Type
+-- | -- | --
+`WmiCollectPerfData` | 2 | Exported Function
+`WmiOpenPerfData` | 3 | Exported Function
+`WmiClosePerfData` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `676BCE203DBB8C75E278F7A4F99A7E0028B89BFA236B6F79742285A8E2C3FAA4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DMProcessConfigXML` | 1 (0x1) | Exported Function | 0x10003da0 | 0x00003da0
-`DMProcessConfigXMLFiltered` | 2 (0x2) | Exported Function | 0x10001c70 | 0x00001c70
-`MdmProcessConfigXmlWithAttributes` | 3 (0x3) | Exported Function | 0x100039f0 | 0x000039f0
+Function Name | Ordinal | Type
+-- | -- | --
+`MdmProcessConfigXmlWithAttributes` | 3 | Exported Function
+`DMProcessConfigXMLFiltered` | 2 | Exported Function
+`DMProcessConfigXML` | 1 | Exported Function
 
 
 ## Signature

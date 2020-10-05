@@ -24,16 +24,16 @@ PE256 | `D509AA11FB788F0A91EBE27D749C9DC35E25BBED4B62CCB81CAA54EE504F6456`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`do_echo_rep` | 6 (0x6) | Exported Function | iphlpapi.do_echo_rep | 0x000011b0
-`do_echo_req` | 7 (0x7) | Exported Function | iphlpapi.do_echo_req | 0x000011d1
-`IcmpCloseHandle` | 1 (0x1) | Exported Function | iphlpapi.IcmpCloseHandle | 0x000010f1
-`IcmpCreateFile` | 2 (0x2) | Exported Function | iphlpapi.IcmpCreateFile | 0x00001119
-`IcmpParseReplies` | 3 (0x3) | Exported Function | iphlpapi.IcmpParseReplies | 0x00001142
-`IcmpSendEcho` | 4 (0x4) | Exported Function | iphlpapi.IcmpSendEcho | 0x00001169
-`IcmpSendEcho2` | 5 (0x5) | Exported Function | iphlpapi.IcmpSendEcho2 | 0x0000118d
-`register_icmp` | 8 (0x8) | Exported Function | iphlpapi.register_icmp | 0x000011f4
+Function Name | Ordinal | Type
+-- | -- | --
+`IcmpSendEcho` | 4 | Exported Function
+`IcmpParseReplies` | 3 | Exported Function
+`register_icmp` | 8 | Exported Function
+`IcmpSendEcho2` | 5 | Exported Function
+`do_echo_req` | 7 | Exported Function
+`do_echo_rep` | 6 | Exported Function
+`IcmpCreateFile` | 2 | Exported Function
+`IcmpCloseHandle` | 1 | Exported Function
 
 
 ## Signature

@@ -24,21 +24,21 @@ PE256 | `BFD8A07C3C0C17FDC3F287DD5F017A90DF703125DCF45461D07C1839F53EDB89`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WebSocketAbortHandle` | 1 (0x1) | Exported Function | 0x00000001800010e0 | 0x000010e0
-`WebSocketBeginClientHandshake` | 2 (0x2) | Exported Function | 0x00000001800012d0 | 0x000012d0
-`WebSocketBeginServerHandshake` | 3 (0x3) | Exported Function | 0x0000000180001400 | 0x00001400
-`WebSocketCompleteAction` | 4 (0x4) | Exported Function | 0x0000000180001630 | 0x00001630
-`WebSocketCreateClientHandle` | 5 (0x5) | Exported Function | 0x00000001800010a0 | 0x000010a0
-`WebSocketCreateServerHandle` | 6 (0x6) | Exported Function | 0x00000001800010c0 | 0x000010c0
-`WebSocketDeleteHandle` | 7 (0x7) | Exported Function | 0x0000000180001130 | 0x00001130
-`WebSocketEndClientHandshake` | 8 (0x8) | Exported Function | 0x0000000180001360 | 0x00001360
-`WebSocketEndServerHandshake` | 9 (0x9) | Exported Function | 0x00000001800014a0 | 0x000014a0
-`WebSocketGetAction` | 10 (0xa) | Exported Function | 0x00000001800015a0 | 0x000015a0
-`WebSocketGetGlobalProperty` | 11 (0xb) | Exported Function | 0x0000000180001680 | 0x00001680
-`WebSocketReceive` | 12 (0xc) | Exported Function | 0x0000000180001550 | 0x00001550
-`WebSocketSend` | 13 (0xd) | Exported Function | 0x00000001800014f0 | 0x000014f0
+Function Name | Ordinal | Type
+-- | -- | --
+`WebSocketGetAction` | 10 | Exported Function
+`WebSocketEndServerHandshake` | 9 | Exported Function
+`WebSocketEndClientHandshake` | 8 | Exported Function
+`WebSocketSend` | 13 | Exported Function
+`WebSocketReceive` | 12 | Exported Function
+`WebSocketGetGlobalProperty` | 11 | Exported Function
+`WebSocketDeleteHandle` | 7 | Exported Function
+`WebSocketBeginServerHandshake` | 3 | Exported Function
+`WebSocketBeginClientHandshake` | 2 | Exported Function
+`WebSocketAbortHandle` | 1 | Exported Function
+`WebSocketCreateServerHandle` | 6 | Exported Function
+`WebSocketCreateClientHandle` | 5 | Exported Function
+`WebSocketCompleteAction` | 4 | Exported Function
 
 
 ## Signature

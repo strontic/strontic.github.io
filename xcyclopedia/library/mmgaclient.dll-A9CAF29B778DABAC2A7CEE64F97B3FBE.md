@@ -24,90 +24,90 @@ PE256 | `D8C61BDD73CC126F71E2B87D367850C6E8539AF8D1BD0B075B11A099872AB105`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ChangeIdleRoutine` | 55 (0x37) | Exported Function | 0x0000000180020740 | 0x00020740
-`MAPIResolveName` | 219 (0xdb) | Exported Function | 0x000000018001dff0 | 0x0001dff0
-`MAPIReadMail` | 213 (0xd5) | Exported Function | 0x000000018001c7f0 | 0x0001c7f0
-`MAPIOpenLocalFormContainer` | 32 (0x20) | Exported Function | 0x000000018001fb00 | 0x0001fb00
-`MAPIOpenFormMgr` | 30 (0x1e) | Exported Function | 0x000000018001f780 | 0x0001f780
-`MAPILogonEx` | 11 (0xb) | Exported Function | 0x000000018001ef80 | 0x0001ef80
-`MAPILogon` | 209 (0xd1) | Exported Function | 0x000000018001ad80 | 0x0001ad80
-`MAPILogoff` | 210 (0xd2) | Exported Function | 0x000000018001b270 | 0x0001b270
-`MAPISaveMail` | 212 (0xd4) | Exported Function | 0x000000018001cc80 | 0x0001cc80
-`MAPIInitIdle` | 49 (0x31) | Exported Function | 0x000000018001fe10 | 0x0001fe10
-`MAPIGetDefaultMalloc` | 59 (0x3b) | Exported Function | 0x0000000180007e00 | 0x00007e00
-`MAPIFreeBuffer` | 17 (0x11) | Exported Function | 0x0000000180007d80 | 0x00007d80
-`MAPIFindNext` | 214 (0xd6) | Exported Function | 0x000000018001c2b0 | 0x0001c2b0
-`MAPIDetails` | 218 (0xda) | Exported Function | 0x000000018001dbd0 | 0x0001dbd0
-`MAPIDeleteMail` | 215 (0xd7) | Exported Function | 0x000000018001d160 | 0x0001d160
-`MAPIDeinitIdle` | 50 (0x32) | Exported Function | 0x0000000180020130 | 0x00020130
-`MAPIAllocateMore` | 15 (0xf) | Exported Function | 0x0000000180007c60 | 0x00007c60
-`MAPIInitialize` | 21 (0x15) | Exported Function | 0x000000018001e480 | 0x0001e480
-`MAPISendMail` | 211 (0xd3) | Exported Function | 0x000000018001b5f0 | 0x0001b5f0
-`MAPISendMailDocuments` | 208 (0xd0) | Exported Function | 0x000000018001be30 | 0x0001be30
-`MAPISendMailW` | 256 (0x100) | Exported Function | 0x000000018001ba10 | 0x0001ba10
-`UlPropSize` | 77 (0x4d) | Exported Function | 0x000000018002aa20 | 0x0002aa20
-`SetUpForOutOfContainer` | 257 (0x101) | Exported Function | 0x000000018001ad50 | 0x0001ad50
-`SetAttribIMsgOnIStg` | 199 (0xc7) | Exported Function | 0x0000000180024240 | 0x00024240
-`ScInitMapiUtil` | 33 (0x21) | Exported Function | 0x000000018001ea90 | 0x0001ea90
-`ScDupPropset` | 174 (0xae) | Exported Function | 0x000000018002a220 | 0x0002a220
-`ScCreateConversationIndex` | 244 (0xf4) | Exported Function | 0x000000018002a610 | 0x0002a610
-`ScCountProps` | 170 (0xaa) | Exported Function | 0x0000000180029e90 | 0x00029e90
-`ScCopyProps` | 171 (0xab) | Exported Function | 0x0000000180029a80 | 0x00029a80
-`RTFSync` | 183 (0xb7) | Exported Function | 0x0000000180029700 | 0x00029700
-`PropCopyMore` | 76 (0x4c) | Exported Function | 0x0000000180052e60 | 0x00052e60
-`PpropFindProp` | 138 (0x8a) | Exported Function | 0x0000000180052e10 | 0x00052e10
-`OpenTnefStreamEx` | 151 (0x97) | Exported Function | 0x00000001800255c0 | 0x000255c0
-`OpenTnefStream` | 149 (0x95) | Exported Function | 0x0000000180025070 | 0x00025070
-`OpenStreamOnFile` | 147 (0x93) | Exported Function | 0x0000000180025ba0 | 0x00025ba0
-`OpenIMsgOnIStg` | 198 (0xc6) | Exported Function | 0x00000001800246e0 | 0x000246e0
-`MapStorageSCode` | 201 (0xc9) | Exported Function | 0x0000000180029440 | 0x00029440
-`MAPIUninitialize` | 23 (0x17) | Exported Function | 0x000000018001e810 | 0x0001e810
-`MAPIAllocateBuffer` | 13 (0xd) | Exported Function | 0x0000000180007bf0 | 0x00007bf0
-`MAPIAdminProfiles` | 19 (0x13) | Exported Function | 0x000000018001f430 | 0x0001f430
-`MAPIAddress` | 217 (0xd9) | Exported Function | 0x000000018001d560 | 0x0001d560
-`LpValFindProp` | 173 (0xad) | Exported Function | 0x0000000180023a70 | 0x00023a70
-`FPropCompareProp` | 79 (0x4f) | Exported Function | 0x0000000180022fc0 | 0x00022fc0
-`ForceMmgaserverArchitecture` | 259 (0x103) | Exported Function | 0x000000018001ad60 | 0x0001ad60
-`FEqualNames` | 72 (0x48) | Exported Function | 0x0000000180022c40 | 0x00022c40
-`FBadSortOrderSet` | 189 (0xbd) | Exported Function | 0x0000000180022950 | 0x00022950
-`FBadRowSet` | 177 (0xb1) | Exported Function | 0x0000000180022660 | 0x00022660
-`FBadRow` | 180 (0xb4) | Exported Function | 0x0000000180022350 | 0x00022350
-`FBadRglpszW` | 176 (0xb0) | Exported Function | 0x0000000180022010 | 0x00022010
-`FBadRestriction` | 191 (0xbf) | Exported Function | 0x0000000180021cf0 | 0x00021cf0
-`FBadPropTag` | 179 (0xb3) | Exported Function | 0x0000000180021a30 | 0x00021a30
-`FBadProp` | 181 (0xb5) | Exported Function | 0x0000000180021710 | 0x00021710
-`FBadEntryList` | 190 (0xbe) | Exported Function | 0x00000001800213c0 | 0x000213c0
-`FBadColumnSet` | 182 (0xb6) | Exported Function | 0x00000001800210a0 | 0x000210a0
-`EnableIdleRoutine` | 53 (0x35) | Exported Function | 0x0000000180020dd0 | 0x00020dd0
-`DeregisterIdleRoutine` | 54 (0x36) | Exported Function | 0x0000000180020b40 | 0x00020b40
-`DeinitMapiUtil` | 34 (0x22) | Exported Function | 0x000000018001ed50 | 0x0001ed50
-`CreateTable` | 61 (0x3d) | Exported Function | 0x000000018002ba30 | 0x0002ba30
-`CreateIProp` | 60 (0x3c) | Exported Function | 0x000000018002b5c0 | 0x0002b5c0
-`FPropContainsProp` | 78 (0x4e) | Exported Function | 0x0000000180023380 | 0x00023380
-`WrapCompressedRTFStream` | 185 (0xb9) | Exported Function | 0x000000018002ad40 | 0x0002ad40
-`FPropExists` | 137 (0x89) | Exported Function | 0x0000000180023740 | 0x00023740
-`FreeProws` | 140 (0x8c) | Exported Function | 0x0000000180007ed0 | 0x00007ed0
-`HrValidateIPMSubtree` | 195 (0xc3) | Exported Function | 0x0000000180028f70 | 0x00028f70
-`HrSzFromEntryID` | 141 (0x8d) | Exported Function | 0x0000000180027b20 | 0x00027b20
-`HrSetOneProp` | 136 (0x88) | Exported Function | 0x0000000180028240 | 0x00028240
-`HrQueryAllRows` | 75 (0x4b) | Exported Function | 0x0000000180028a60 | 0x00028a60
-`HrIStorageFromStream` | 194 (0xc2) | Exported Function | 0x00000001800285b0 | 0x000285b0
-`HrGetOneProp` | 135 (0x87) | Exported Function | 0x0000000180027ea0 | 0x00027ea0
-`HrEntryIDFromSz` | 142 (0x8e) | Exported Function | 0x0000000180027750 | 0x00027750
-`HrDispatchNotifications` | 239 (0xef) | Exported Function | 0x0000000180027490 | 0x00027490
-`HrDecomposeMsgID` | 146 (0x92) | Exported Function | 0x0000000180026f90 | 0x00026f90
-`HrDecomposeEID` | 144 (0x90) | Exported Function | 0x0000000180026a40 | 0x00026a40
-`HrComposeMsgID` | 145 (0x91) | Exported Function | 0x00000001800265a0 | 0x000265a0
-`HrComposeEID` | 143 (0x8f) | Exported Function | 0x0000000180026070 | 0x00026070
-`HrAddColumnsEx` | 82 (0x52) | Exported Function | 0x000000018002c360 | 0x0002c360
-`HrAddColumns` | 81 (0x51) | Exported Function | 0x000000018002bfb0 | 0x0002bfb0
-`GetTnefStreamCodepage` | 153 (0x99) | Exported Function | 0x0000000180024cf0 | 0x00024cf0
-`GetAttribIMsgOnIStg` | 200 (0xc8) | Exported Function | 0x0000000180023e20 | 0x00023e20
-`FtgRegisterIdleRoutine` | 52 (0x34) | Exported Function | 0x0000000180020360 | 0x00020360
-`FreePadrlist` | 139 (0x8b) | Exported Function | 0x0000000180008010 | 0x00008010
-`WrapStoreEntryID` | 73 (0x49) | Exported Function | 0x000000018002b100 | 0x0002b100
+Function Name | Ordinal | Type
+-- | -- | --
+`MAPILogonEx` | 11 | Exported Function
+`MAPIOpenFormMgr` | 30 | Exported Function
+`MAPILogon` | 209 | Exported Function
+`MAPIInitIdle` | 49 | Exported Function
+`MAPILogoff` | 210 | Exported Function
+`MAPISaveMail` | 212 | Exported Function
+`MAPISendMail` | 211 | Exported Function
+`MAPIResolveName` | 219 | Exported Function
+`MAPIOpenLocalFormContainer` | 32 | Exported Function
+`MAPIReadMail` | 213 | Exported Function
+`MAPIDeinitIdle` | 50 | Exported Function
+`MAPIDeleteMail` | 215 | Exported Function
+`MAPIAllocateMore` | 15 | Exported Function
+`MAPIAdminProfiles` | 19 | Exported Function
+`MAPIAllocateBuffer` | 13 | Exported Function
+`MAPIGetDefaultMalloc` | 59 | Exported Function
+`MAPIInitialize` | 21 | Exported Function
+`MAPIFreeBuffer` | 17 | Exported Function
+`MAPIDetails` | 218 | Exported Function
+`MAPIFindNext` | 214 | Exported Function
+`MAPISendMailDocuments` | 208 | Exported Function
+`ScDupPropset` | 174 | Exported Function
+`ScInitMapiUtil` | 33 | Exported Function
+`ScCreateConversationIndex` | 244 | Exported Function
+`ScCopyProps` | 171 | Exported Function
+`ScCountProps` | 170 | Exported Function
+`WrapCompressedRTFStream` | 185 | Exported Function
+`WrapStoreEntryID` | 73 | Exported Function
+`UlPropSize` | 77 | Exported Function
+`SetAttribIMsgOnIStg` | 199 | Exported Function
+`SetUpForOutOfContainer` | 257 | Exported Function
+`OpenIMsgOnIStg` | 198 | Exported Function
+`OpenStreamOnFile` | 147 | Exported Function
+`MapStorageSCode` | 201 | Exported Function
+`MAPISendMailW` | 256 | Exported Function
+`MAPIUninitialize` | 23 | Exported Function
+`PropCopyMore` | 76 | Exported Function
+`RTFSync` | 183 | Exported Function
+`PpropFindProp` | 138 | Exported Function
+`OpenTnefStream` | 149 | Exported Function
+`OpenTnefStreamEx` | 151 | Exported Function
+`FBadRowSet` | 177 | Exported Function
+`FBadSortOrderSet` | 189 | Exported Function
+`FBadRow` | 180 | Exported Function
+`FBadRestriction` | 191 | Exported Function
+`FBadRglpszW` | 176 | Exported Function
+`FPropContainsProp` | 78 | Exported Function
+`FPropExists` | 137 | Exported Function
+`FPropCompareProp` | 79 | Exported Function
+`FEqualNames` | 72 | Exported Function
+`ForceMmgaserverArchitecture` | 259 | Exported Function
+`DeinitMapiUtil` | 34 | Exported Function
+`DeregisterIdleRoutine` | 54 | Exported Function
+`CreateTable` | 61 | Exported Function
+`ChangeIdleRoutine` | 55 | Exported Function
+`CreateIProp` | 60 | Exported Function
+`FBadProp` | 181 | Exported Function
+`FBadPropTag` | 179 | Exported Function
+`FBadEntryList` | 190 | Exported Function
+`EnableIdleRoutine` | 53 | Exported Function
+`FBadColumnSet` | 182 | Exported Function
+`FreePadrlist` | 139 | Exported Function
+`HrIStorageFromStream` | 194 | Exported Function
+`HrQueryAllRows` | 75 | Exported Function
+`HrGetOneProp` | 135 | Exported Function
+`HrDispatchNotifications` | 239 | Exported Function
+`HrEntryIDFromSz` | 142 | Exported Function
+`LpValFindProp` | 173 | Exported Function
+`MAPIAddress` | 217 | Exported Function
+`HrValidateIPMSubtree` | 195 | Exported Function
+`HrSetOneProp` | 136 | Exported Function
+`HrSzFromEntryID` | 141 | Exported Function
+`GetTnefStreamCodepage` | 153 | Exported Function
+`HrAddColumns` | 81 | Exported Function
+`GetAttribIMsgOnIStg` | 200 | Exported Function
+`FreeProws` | 140 | Exported Function
+`FtgRegisterIdleRoutine` | 52 | Exported Function
+`HrDecomposeEID` | 144 | Exported Function
+`HrDecomposeMsgID` | 146 | Exported Function
+`HrComposeMsgID` | 145 | Exported Function
+`HrAddColumnsEx` | 82 | Exported Function
+`HrComposeEID` | 143 | Exported Function
 
 
 ## Signature

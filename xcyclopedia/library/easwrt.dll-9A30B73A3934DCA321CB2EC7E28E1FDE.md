@@ -24,17 +24,17 @@ PE256 | `1D24F174DB102021939D933FEE893013B46E45DD740B400EE20BB0E4C66EE3DA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180005480 | 0x00005480
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x00000001800054e0 | 0x000054e0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180005520 | 0x00005520
-`EasClientSecurityPolicyApply` | 4 (0x4) | Exported Function | 0x00000001800042b0 | 0x000042b0
-`EasClientSecurityPolicyCheckCompliance` | 5 (0x5) | Exported Function | 0x0000000180004350 | 0x00004350
-`EasGetClientDeviceInformation` | 6 (0x6) | Exported Function | 0x00000001800043f0 | 0x000043f0
-`EasRegisterEncryptionProvider` | 7 (0x7) | Exported Function | 0x0000000180012630 | 0x00012630
-`EasShowConsentDialog` | 8 (0x8) | Exported Function | 0x0000000180004410 | 0x00004410
-`EasUnRegisterEncryptionProvider` | 9 (0x9) | Exported Function | 0x00000001800126c0 | 0x000126c0
+Function Name | Ordinal | Type
+-- | -- | --
+`EasRegisterEncryptionProvider` | 7 | Exported Function
+`EasGetClientDeviceInformation` | 6 | Exported Function
+`EasUnRegisterEncryptionProvider` | 9 | Exported Function
+`EasShowConsentDialog` | 8 | Exported Function
+`EasClientSecurityPolicyCheckCompliance` | 5 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`EasClientSecurityPolicyApply` | 4 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

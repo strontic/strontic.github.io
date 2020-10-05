@@ -24,9 +24,9 @@ PE256 | `5EEEE9CF71751CBC1FD660C6BE3623450B1C8F8A295F58BD5D103AF0000FD61E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`VsIeProviderGetFunctionTable` | 1 (0x1) | Exported Function | 0x00000001800018f0 | 0x000018f0
+Function Name | Ordinal | Type
+-- | -- | --
+`VsIeProviderGetFunctionTable` | 1 | Exported Function
 
 
 ## Signature

@@ -24,37 +24,37 @@ PE256 | `0BF7147EEFA6699E692CF8276CBC552A9088D044BE69BDAA83B8824911688709`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CopyDropFilesFrom16` | 1 (0x1) | Exported Function | 0x100012e0 | 0x000012e0
-`WOWHandle32` | 27 (0x1b) | Exported Function | 0x10001410 | 0x00001410
-`WOWHandle16` | 26 (0x1a) | Exported Function | 0x100013f0 | 0x000013f0
-`WOWGlobalUnlockFree16` | 25 (0x19) | Exported Function | 0x100012e0 | 0x000012e0
-`WOWGlobalUnlock16` | 24 (0x18) | Exported Function | 0x100012e0 | 0x000012e0
-`WOWGlobalLockSize16` | 23 (0x17) | Exported Function | 0x10001380 | 0x00001380
-`WOWGlobalLock16` | 22 (0x16) | Exported Function | 0x100012e0 | 0x000012e0
-`WOWGlobalFree16` | 21 (0x15) | Exported Function | 0x100012e0 | 0x000012e0
-`WOWGlobalAllocLock16` | 20 (0x14) | Exported Function | 0x100013d0 | 0x000013d0
-`WOWGlobalAlloc16` | 19 (0x13) | Exported Function | 0x10001380 | 0x00001380
-`WOWGetVDMPointerUnfix` | 18 (0x12) | Exported Function | 0x100013c0 | 0x000013c0
-`WOWGetVDMPointerFix` | 17 (0x11) | Exported Function | 0x100013d0 | 0x000013d0
-`WOWGetVDMPointer` | 16 (0x10) | Exported Function | 0x100013d0 | 0x000013d0
-`WOWUseMciavi16` | 28 (0x1c) | Exported Function | 0x10001330 | 0x00001330
-`WOWFreeMetafile` | 15 (0xf) | Exported Function | 0x100012e0 | 0x000012e0
-`WOWDelayTimeGetTime` | 13 (0xd) | Exported Function | 0x10001330 | 0x00001330
-`WOWCallback16Ex` | 12 (0xc) | Exported Function | 0x100013a0 | 0x000013a0
-`WOWCallback16` | 11 (0xb) | Exported Function | 0x10001380 | 0x00001380
-`WOW32ResolveMemory` | 10 (0xa) | Exported Function | 0x100012e0 | 0x000012e0
-`WOW32ResolveHandle` | 9 (0x9) | Exported Function | 0x10001360 | 0x00001360
-`WOW32DriverCallback` | 8 (0x8) | Exported Function | 0x10001340 | 0x00001340
-`W32Init` | 7 (0x7) | Exported Function | 0x10001330 | 0x00001330
-`W32HungAppNotifyThread` | 6 (0x6) | Exported Function | 0x100012e0 | 0x000012e0
-`W32Dispatch` | 5 (0x5) | Exported Function | 0x10001320 | 0x00001320
-`GetCommShadowMSR` | 4 (0x4) | Exported Function | 0x10001300 | 0x00001300
-`GetCommHandle` | 3 (0x3) | Exported Function | 0x100012e0 | 0x000012e0
-`CopyDropFilesFrom32` | 2 (0x2) | Exported Function | 0x100012e0 | 0x000012e0
-`WOWDirectedYield16` | 14 (0xe) | Exported Function | 0x100013c0 | 0x000013c0
-`WOWYield16` | 29 (0x1d) | Exported Function | 0x10001320 | 0x00001320
+Function Name | Ordinal | Type
+-- | -- | --
+`WOWGlobalAllocLock16` | 20 | Exported Function
+`WOWGlobalFree16` | 21 | Exported Function
+`WOWGlobalLock16` | 22 | Exported Function
+`WOWGlobalAlloc16` | 19 | Exported Function
+`WOWGetVDMPointer` | 16 | Exported Function
+`WOWGetVDMPointerFix` | 17 | Exported Function
+`WOWGetVDMPointerUnfix` | 18 | Exported Function
+`WOWHandle32` | 27 | Exported Function
+`WOWUseMciavi16` | 28 | Exported Function
+`WOWYield16` | 29 | Exported Function
+`WOWHandle16` | 26 | Exported Function
+`WOWGlobalLockSize16` | 23 | Exported Function
+`WOWGlobalUnlock16` | 24 | Exported Function
+`WOWGlobalUnlockFree16` | 25 | Exported Function
+`WOWFreeMetafile` | 15 | Exported Function
+`W32Dispatch` | 5 | Exported Function
+`W32HungAppNotifyThread` | 6 | Exported Function
+`W32Init` | 7 | Exported Function
+`GetCommShadowMSR` | 4 | Exported Function
+`CopyDropFilesFrom16` | 1 | Exported Function
+`CopyDropFilesFrom32` | 2 | Exported Function
+`GetCommHandle` | 3 | Exported Function
+`WOWCallback16Ex` | 12 | Exported Function
+`WOWDelayTimeGetTime` | 13 | Exported Function
+`WOWDirectedYield16` | 14 | Exported Function
+`WOWCallback16` | 11 | Exported Function
+`WOW32DriverCallback` | 8 | Exported Function
+`WOW32ResolveHandle` | 9 | Exported Function
+`WOW32ResolveMemory` | 10 | Exported Function
 
 
 ## Signature

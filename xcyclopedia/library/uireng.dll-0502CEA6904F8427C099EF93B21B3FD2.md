@@ -24,18 +24,18 @@ PE256 | `EC48E41478B7EFC43E5CA72AAEE4E02D419114F8E4972F9764A313D4BAA128E6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`UirGetScreenComment` | 1 (0x1) | Exported Function | 0x1000e2a0 | 0x0000e2a0
-`UirInitializeEngine` | 2 (0x2) | Exported Function | 0x1000dde0 | 0x0000dde0
-`UirIsRecordingActive` | 3 (0x3) | Exported Function | 0x1000e320 | 0x0000e320
-`UirOutCreateOutputFile` | 4 (0x4) | Exported Function | 0x1000e3b0 | 0x0000e3b0
-`UirPauseRecordingSession` | 5 (0x5) | Exported Function | 0x1000e0f0 | 0x0000e0f0
-`UirResumeRecordingSession` | 6 (0x6) | Exported Function | 0x1000e170 | 0x0000e170
-`UirStartRecordingSession` | 7 (0x7) | Exported Function | 0x1000dfa0 | 0x0000dfa0
-`UirStopRecordingSession` | 8 (0x8) | Exported Function | 0x1000e070 | 0x0000e070
-`UirUninitializeEngine` | 9 (0x9) | Exported Function | 0x1000deb0 | 0x0000deb0
-`UirUpdateRecordingSession` | 10 (0xa) | Exported Function | 0x1000e1f0 | 0x0000e1f0
+Function Name | Ordinal | Type
+-- | -- | --
+`UirStartRecordingSession` | 7 | Exported Function
+`UirResumeRecordingSession` | 6 | Exported Function
+`UirStopRecordingSession` | 8 | Exported Function
+`UirUpdateRecordingSession` | 10 | Exported Function
+`UirUninitializeEngine` | 9 | Exported Function
+`UirInitializeEngine` | 2 | Exported Function
+`UirGetScreenComment` | 1 | Exported Function
+`UirIsRecordingActive` | 3 | Exported Function
+`UirPauseRecordingSession` | 5 | Exported Function
+`UirOutCreateOutputFile` | 4 | Exported Function
 
 
 ## Signature

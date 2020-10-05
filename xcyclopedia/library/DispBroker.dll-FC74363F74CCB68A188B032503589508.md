@@ -24,13 +24,13 @@ PE256 | `2A0BA21606548C444C6BE2FE632D7FA48C5544E93EDCDBCF3F5C991A76DFEA14`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DispBrokerTraceLogCallback` | 1 (0x1) | Exported Function | 0x1000f4a0 | 0x0000f4a0
-`DispBrokerTraceLogHelper` | 2 (0x2) | Exported Function | 0x1000f380 | 0x0000f380
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x1000e720 | 0x0000e720
-`DllGetActivationFactory` | 4 (0x4) | Exported Function | 0x1000e6e0 | 0x0000e6e0
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x1000e700 | 0x0000e700
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetActivationFactory` | 4 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DispBrokerTraceLogCallback` | 1 | Exported Function
+`DispBrokerTraceLogHelper` | 2 | Exported Function
 
 
 ## Signature

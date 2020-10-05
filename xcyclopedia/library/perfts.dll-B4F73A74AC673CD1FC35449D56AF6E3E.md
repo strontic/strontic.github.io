@@ -24,14 +24,14 @@ PE256 | `78E59700DD86B713842449F890CCB0F1F7B8C81B574A1A893327164D3EA5B583`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseLagPerfData` | 6 (0x6) | Exported Function | 0x62004340 | 0x00004340
-`CloseTSObject` | 3 (0x3) | Exported Function | 0x62003780 | 0x00003780
-`CollectLagPerfData` | 5 (0x5) | Exported Function | 0x62004320 | 0x00004320
-`CollectTSObjectData` | 2 (0x2) | Exported Function | 0x62003b70 | 0x00003b70
-`OpenLagPerfData` | 4 (0x4) | Exported Function | 0x62004310 | 0x00004310
-`OpenTSObject` | 1 (0x1) | Exported Function | 0x62003740 | 0x00003740
+Function Name | Ordinal | Type
+-- | -- | --
+`CollectTSObjectData` | 2 | Exported Function
+`OpenLagPerfData` | 4 | Exported Function
+`OpenTSObject` | 1 | Exported Function
+`CloseLagPerfData` | 6 | Exported Function
+`CloseTSObject` | 3 | Exported Function
+`CollectLagPerfData` | 5 | Exported Function
 
 
 ## Signature

@@ -24,19 +24,19 @@ PE256 | `AD330BBD5F91BA4D5074816FDDF0AF421AFBE2BB17C7A0DE9C77E4DB7BA110C8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180001f10 | 0x00001f10
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180001f30 | 0x00001f30
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180001d30 | 0x00001d30
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180001d30 | 0x00001d30
-`LanaCfgFromCommandArgs` | 5 (0x5) | Exported Function | 0x0000000180002180 | 0x00002180
-`NetCfgDiagFromCommandArgs` | 6 (0x6) | Exported Function | 0x0000000180002180 | 0x00002180
-`NetCfgDiagRepairRegistryBindings` | 7 (0x7) | Exported Function | 0x0000000180002180 | 0x00002180
-`NetClassInstaller` | 8 (0x8) | Exported Function | 0x0000000180001f70 | 0x00001f70
-`NetPropPageProvider` | 9 (0x9) | Exported Function | 0x0000000180002080 | 0x00002080
-`OnMachineUILanguageInit` | 10 (0xa) | Exported Function | 0x0000000180002170 | 0x00002170
-`OnMachineUILanguageSwitch` | 11 (0xb) | Exported Function | 0x0000000180002170 | 0x00002170
+Function Name | Ordinal | Type
+-- | -- | --
+`NetClassInstaller` | 8 | Exported Function
+`NetCfgDiagRepairRegistryBindings` | 7 | Exported Function
+`NetPropPageProvider` | 9 | Exported Function
+`OnMachineUILanguageSwitch` | 11 | Exported Function
+`OnMachineUILanguageInit` | 10 | Exported Function
+`NetCfgDiagFromCommandArgs` | 6 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`LanaCfgFromCommandArgs` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

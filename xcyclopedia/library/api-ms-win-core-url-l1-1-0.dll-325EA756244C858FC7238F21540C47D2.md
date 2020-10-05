@@ -24,46 +24,46 @@ PE256 | `015BDFCB2B59C75C12DC9FA30DC4B3C57E3BAF6BA7A28B43FFB8F4FE1942C970`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetAcceptLanguagesA` | 1 (0x1) | Exported Function | shlwapi.GetAcceptLanguagesA | 0x000012f7
-`UrlEscapeA` | 22 (0x16) | Exported Function | shlwapi.UrlEscapeA | 0x00001620
-`UrlEscapeW` | 23 (0x17) | Exported Function | shlwapi.UrlEscapeW | 0x0000163e
-`UrlFixupW` | 24 (0x18) | Exported Function | shlwapi.UrlFixupW | 0x0000165b
-`UrlGetLocationA` | 25 (0x19) | Exported Function | shlwapi.UrlGetLocationA | 0x0000167d
-`UrlGetLocationW` | 26 (0x1a) | Exported Function | shlwapi.UrlGetLocationW | 0x000016a5
-`UrlGetPartA` | 27 (0x1b) | Exported Function | shlwapi.UrlGetPartA | 0x000016c9
-`UrlGetPartW` | 28 (0x1c) | Exported Function | shlwapi.UrlGetPartW | 0x000016e9
-`UrlHashA` | 29 (0x1d) | Exported Function | shlwapi.UrlHashA | 0x00001706
-`UrlHashW` | 30 (0x1e) | Exported Function | shlwapi.UrlHashW | 0x00001720
-`UrlIsA` | 31 (0x1f) | Exported Function | shlwapi.UrlIsA | 0x00001738
-`UrlIsNoHistoryA` | 32 (0x20) | Exported Function | shlwapi.UrlIsNoHistoryA | 0x00001757
-`UrlIsNoHistoryW` | 33 (0x21) | Exported Function | shlwapi.UrlIsNoHistoryW | 0x0000177f
-`UrlIsOpaqueA` | 34 (0x22) | Exported Function | shlwapi.UrlIsOpaqueA | 0x000017a4
-`UrlIsOpaqueW` | 35 (0x23) | Exported Function | shlwapi.UrlIsOpaqueW | 0x000017c6
-`UrlIsW` | 36 (0x24) | Exported Function | shlwapi.UrlIsW | 0x000017e2
-`UrlCreateFromPathW` | 21 (0x15) | Exported Function | shlwapi.UrlCreateFromPathW | 0x000015fa
-`UrlCreateFromPathA` | 20 (0x14) | Exported Function | shlwapi.UrlCreateFromPathA | 0x000015cc
-`UrlCompareW` | 19 (0x13) | Exported Function | shlwapi.UrlCompareW | 0x000015a5
-`UrlCompareA` | 18 (0x12) | Exported Function | shlwapi.UrlCompareA | 0x00001585
-`GetAcceptLanguagesW` | 2 (0x2) | Exported Function | shlwapi.GetAcceptLanguagesW | 0x00001327
-`HashData` | 3 (0x3) | Exported Function | shlwapi.HashData | 0x0000134c
-`IsInternetESCEnabled` | 4 (0x4) | Exported Function | shlwapi.IsInternetESCEnabled | 0x00001372
-`ParseURLA` | 5 (0x5) | Exported Function | shlwapi.ParseURLA | 0x00001399
-`ParseURLW` | 6 (0x6) | Exported Function | shlwapi.ParseURLW | 0x000013b5
-`PathCreateFromUrlA` | 7 (0x7) | Exported Function | shlwapi.PathCreateFromUrlA | 0x000013da
-`PathCreateFromUrlAlloc` | 8 (0x8) | Exported Function | shlwapi.PathCreateFromUrlAlloc | 0x0000140c
-`UrlUnescapeA` | 37 (0x25) | Exported Function | shlwapi.UrlUnescapeA | 0x000017fe
-`PathCreateFromUrlW` | 9 (0x9) | Exported Function | shlwapi.PathCreateFromUrlW | 0x0000143e
-`PathIsURLW` | 11 (0xb) | Exported Function | shlwapi.PathIsURLW | 0x00001482
-`UrlApplySchemeA` | 12 (0xc) | Exported Function | shlwapi.UrlApplySchemeA | 0x000014a5
-`UrlApplySchemeW` | 13 (0xd) | Exported Function | shlwapi.UrlApplySchemeW | 0x000014cd
-`UrlCanonicalizeA` | 14 (0xe) | Exported Function | shlwapi.UrlCanonicalizeA | 0x000014f6
-`UrlCanonicalizeW` | 15 (0xf) | Exported Function | shlwapi.UrlCanonicalizeW | 0x00001520
-`UrlCombineA` | 16 (0x10) | Exported Function | shlwapi.UrlCombineA | 0x00001545
-`UrlCombineW` | 17 (0x11) | Exported Function | shlwapi.UrlCombineW | 0x00001565
-`PathIsURLA` | 10 (0xa) | Exported Function | shlwapi.PathIsURLA | 0x00001464
-`UrlUnescapeW` | 38 (0x26) | Exported Function | shlwapi.UrlUnescapeW | 0x00001820
+Function Name | Ordinal | Type
+-- | -- | --
+`UrlGetLocationW` | 26 | Exported Function
+`UrlGetLocationA` | 25 | Exported Function
+`UrlGetPartW` | 28 | Exported Function
+`UrlGetPartA` | 27 | Exported Function
+`UrlFixupW` | 24 | Exported Function
+`UrlCreateFromPathW` | 21 | Exported Function
+`UrlCreateFromPathA` | 20 | Exported Function
+`UrlEscapeW` | 23 | Exported Function
+`UrlEscapeA` | 22 | Exported Function
+`UrlHashA` | 29 | Exported Function
+`UrlIsW` | 36 | Exported Function
+`UrlIsOpaqueW` | 35 | Exported Function
+`UrlUnescapeW` | 38 | Exported Function
+`UrlUnescapeA` | 37 | Exported Function
+`UrlIsOpaqueA` | 34 | Exported Function
+`UrlIsA` | 31 | Exported Function
+`UrlHashW` | 30 | Exported Function
+`UrlIsNoHistoryW` | 33 | Exported Function
+`UrlIsNoHistoryA` | 32 | Exported Function
+`PathCreateFromUrlA` | 7 | Exported Function
+`ParseURLW` | 6 | Exported Function
+`PathCreateFromUrlW` | 9 | Exported Function
+`PathCreateFromUrlAlloc` | 8 | Exported Function
+`ParseURLA` | 5 | Exported Function
+`GetAcceptLanguagesW` | 2 | Exported Function
+`GetAcceptLanguagesA` | 1 | Exported Function
+`IsInternetESCEnabled` | 4 | Exported Function
+`HashData` | 3 | Exported Function
+`PathIsURLA` | 10 | Exported Function
+`UrlCombineW` | 17 | Exported Function
+`UrlCombineA` | 16 | Exported Function
+`UrlCompareW` | 19 | Exported Function
+`UrlCompareA` | 18 | Exported Function
+`UrlCanonicalizeW` | 15 | Exported Function
+`UrlApplySchemeA` | 12 | Exported Function
+`PathIsURLW` | 11 | Exported Function
+`UrlCanonicalizeA` | 14 | Exported Function
+`UrlApplySchemeW` | 13 | Exported Function
 
 
 ## Signature

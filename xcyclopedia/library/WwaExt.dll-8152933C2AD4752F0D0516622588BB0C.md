@@ -24,23 +24,23 @@ PE256 | `8E75B8C5B921A8FADA9DDD267D1D1BAAA607374867524A488E906D3E65DCBE68`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CheckAllowDiagnosticsMode` | 1 (0x1) | Exported Function | 0x10005560 | 0x00005560
-`DetermineCurrentDisplayRotationAngle` | 2 (0x2) | Exported Function | 0x10005580 | 0x00005580
-`DllMain` | 3 (0x3) | Exported Function | 0x10003010 | 0x00003010
-`ExtensionModulePreActivate` | 4 (0x4) | Exported Function | 0x100023f0 | 0x000023f0
-`GetExtensionHostModuleCount` | 5 (0x5) | Exported Function | 0x10002420 | 0x00002420
-`GetExtensionHostModuleFactory` | 6 (0x6) | Exported Function | 0x10005590 | 0x00005590
-`GetExtensionWebModuleCount` | 7 (0x7) | Exported Function | 0x10002410 | 0x00002410
-`GetExtensionWebModuleFactory` | 8 (0x8) | Exported Function | 0x100023d0 | 0x000023d0
-`GetExtensionWebMultiThreadedModuleCount` | 9 (0x9) | Exported Function | 0x10002400 | 0x00002400
-`GetExtensionWebMultiThreadedModuleFactory` | 10 (0xa) | Exported Function | 0x100055a0 | 0x000055a0
-`ProcessDisplayRotation` | 11 (0xb) | Exported Function | 0x100055b0 | 0x000055b0
-`SetPhoneWerParameters` | 12 (0xc) | Exported Function | 0x10005580 | 0x00005580
-`StaticExtensionInitialization` | 13 (0xd) | Exported Function | 0x10002150 | 0x00002150
-`StaticExtensionUnInitialization` | 14 (0xe) | Exported Function | 0x100055c0 | 0x000055c0
-`WWABehaviorEnabled` | 15 (0xf) | Exported Function | 0x10002220 | 0x00002220
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessDisplayRotation` | 11 | Exported Function
+`GetExtensionWebMultiThreadedModuleFactory` | 10 | Exported Function
+`GetExtensionWebMultiThreadedModuleCount` | 9 | Exported Function
+`SetPhoneWerParameters` | 12 | Exported Function
+`WWABehaviorEnabled` | 15 | Exported Function
+`StaticExtensionUnInitialization` | 14 | Exported Function
+`StaticExtensionInitialization` | 13 | Exported Function
+`GetExtensionWebModuleFactory` | 8 | Exported Function
+`DllMain` | 3 | Exported Function
+`DetermineCurrentDisplayRotationAngle` | 2 | Exported Function
+`CheckAllowDiagnosticsMode` | 1 | Exported Function
+`ExtensionModulePreActivate` | 4 | Exported Function
+`GetExtensionWebModuleCount` | 7 | Exported Function
+`GetExtensionHostModuleFactory` | 6 | Exported Function
+`GetExtensionHostModuleCount` | 5 | Exported Function
 
 
 ## Signature

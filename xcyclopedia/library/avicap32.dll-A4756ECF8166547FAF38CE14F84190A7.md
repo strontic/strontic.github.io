@@ -24,14 +24,14 @@ PE256 | `13D6F56A661999BCBB6D9F51B1D0416DA54EBAB32B6540CA62A95E6F241786FC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AppCleanup` | 1 (0x1) | Exported Function | 0x000000011c30eae0 | 0x0000eae0
-`capCreateCaptureWindowA` | 2 (0x2) | Exported Function | 0x000000011c301c00 | 0x00001c00
-`capCreateCaptureWindowW` | 3 (0x3) | Exported Function | 0x000000011c301ab0 | 0x00001ab0
-`capGetDriverDescriptionA` | 4 (0x4) | Exported Function | 0x000000011c3015f0 | 0x000015f0
-`capGetDriverDescriptionW` | 5 (0x5) | Exported Function | 0x000000011c3015e0 | 0x000015e0
-`videoThunk32` | 6 (0x6) | Exported Function | 0x000000011c30f2e0 | 0x0000f2e0
+Function Name | Ordinal | Type
+-- | -- | --
+`capGetDriverDescriptionA` | 4 | Exported Function
+`capGetDriverDescriptionW` | 5 | Exported Function
+`videoThunk32` | 6 | Exported Function
+`AppCleanup` | 1 | Exported Function
+`capCreateCaptureWindowA` | 2 | Exported Function
+`capCreateCaptureWindowW` | 3 | Exported Function
 
 
 ## Signature

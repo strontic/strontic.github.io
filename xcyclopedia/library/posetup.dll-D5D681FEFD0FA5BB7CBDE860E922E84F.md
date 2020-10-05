@@ -24,10 +24,10 @@ PE256 | `4E172091B3BBBD51ED6B0593E93C1C1C3F4CD77A85E3CC273F11E95749493063`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PowerCustomizePlatformPowerSettingsOffline` | 1 (0x1) | Exported Function | 0x0000000180001e10 | 0x00001e10
-`PowerCustomizePlatformPowerSettingsOnline` | 2 (0x2) | Exported Function | 0x00000001800019b0 | 0x000019b0
+Function Name | Ordinal | Type
+-- | -- | --
+`PowerCustomizePlatformPowerSettingsOnline` | 2 | Exported Function
+`PowerCustomizePlatformPowerSettingsOffline` | 1 | Exported Function
 
 
 ## Signature

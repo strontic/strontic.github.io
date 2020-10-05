@@ -24,57 +24,57 @@ PE256 | `ADF8C154EDD44EAA00CF6C5F1E28FA9A3CDF48F3507E1B8579B7583BF79717AA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateProcessA` | 1 (0x1) | Exported Function | kernel32.CreateProcessA | 0x000012ab
-`OpenProcessToken` | 27 (0x1b) | Exported Function | advapi32.dll.OpenProcessToken | 0x0000175d
-`OpenThread` | 28 (0x1c) | Exported Function | kernel32.OpenThread | 0x00001786
-`OpenThreadToken` | 29 (0x1d) | Exported Function | advapi32.dll.OpenThreadToken | 0x000017aa
-`ProcessIdToSessionId` | 30 (0x1e) | Exported Function | kernel32.ProcessIdToSessionId | 0x000017dc
-`QueryProcessAffinityUpdateMode` | 31 (0x1f) | Exported Function | kernel32.QueryProcessAffinityUpdateMode | 0x00001819
-`QueueUserAPC` | 32 (0x20) | Exported Function | kernel32.QueueUserAPC | 0x0000184e
-`ResumeThread` | 33 (0x21) | Exported Function | kernel32.ResumeThread | 0x00001871
-`SetPriorityClass` | 34 (0x22) | Exported Function | kernel32.SetPriorityClass | 0x00001898
-`SetProcessAffinityUpdateMode` | 35 (0x23) | Exported Function | kernel32.SetProcessAffinityUpdateMode | 0x000018cf
-`SetProcessShutdownParameters` | 36 (0x24) | Exported Function | kernel32.SetProcessShutdownParameters | 0x00001912
-`SetThreadPriority` | 37 (0x25) | Exported Function | kernel32.SetThreadPriority | 0x0000194a
-`SetThreadPriorityBoost` | 38 (0x26) | Exported Function | kernel32.SetThreadPriorityBoost | 0x0000197c
-`SetThreadStackGuarantee` | 39 (0x27) | Exported Function | kernel32.SetThreadStackGuarantee | 0x000019b4
-`SetThreadToken` | 40 (0x28) | Exported Function | advapi32.dll.SetThreadToken | 0x000019e4
-`SuspendThread` | 41 (0x29) | Exported Function | kernel32.SuspendThread | 0x00001a0e
-`SwitchToThread` | 42 (0x2a) | Exported Function | kernel32.SwitchToThread | 0x00001a34
-`TerminateProcess` | 43 (0x2b) | Exported Function | kernel32.TerminateProcess | 0x00001a5d
-`TerminateThread` | 44 (0x2c) | Exported Function | kernel32.TerminateThread | 0x00001a87
-`TlsAlloc` | 45 (0x2d) | Exported Function | kernel32.TlsAlloc | 0x00001aa9
-`TlsFree` | 46 (0x2e) | Exported Function | kernel32.TlsFree | 0x00001ac3
-`TlsGetValue` | 47 (0x2f) | Exported Function | kernel32.TlsGetValue | 0x00001ae0
-`InitializeProcThreadAttributeList` | 26 (0x1a) | Exported Function | kernel32.InitializeProcThreadAttributeList | 0x00001721
-`TlsSetValue` | 48 (0x30) | Exported Function | kernel32.TlsSetValue | 0x00001b01
-`GetThreadPriorityBoost` | 25 (0x19) | Exported Function | kernel32.GetThreadPriorityBoost | 0x000016df
-`GetThreadId` | 23 (0x17) | Exported Function | kernel32.GetThreadId | 0x00001686
-`CreateProcessAsUserW` | 2 (0x2) | Exported Function | advapi32.dll.CreateProcessAsUserW | 0x000012d8
-`CreateProcessW` | 3 (0x3) | Exported Function | kernel32.CreateProcessW | 0x00001309
-`CreateRemoteThread` | 4 (0x4) | Exported Function | kernel32.CreateRemoteThread | 0x00001334
-`CreateRemoteThreadEx` | 5 (0x5) | Exported Function | kernel32.CreateRemoteThreadEx | 0x00001365
-`CreateThread` | 6 (0x6) | Exported Function | kernel32.CreateThread | 0x00001390
-`DeleteProcThreadAttributeList` | 7 (0x7) | Exported Function | kernel32.DeleteProcThreadAttributeList | 0x000013c4
-`ExitProcess` | 8 (0x8) | Exported Function | kernel32.ExitProcess | 0x000013f7
-`ExitThread` | 9 (0x9) | Exported Function | kernel32.ExitThread | 0x00001417
-`FlushProcessWriteBuffers` | 10 (0xa) | Exported Function | kernel32.FlushProcessWriteBuffers | 0x00001444
-`GetCurrentProcess` | 11 (0xb) | Exported Function | kernel32.GetCurrentProcess | 0x00001478
-`GetCurrentProcessId` | 12 (0xc) | Exported Function | kernel32.GetCurrentProcessId | 0x000014a7
-`GetCurrentThread` | 13 (0xd) | Exported Function | kernel32.GetCurrentThread | 0x000014d5
-`GetCurrentThreadId` | 14 (0xe) | Exported Function | kernel32.GetCurrentThreadId | 0x00001502
-`GetExitCodeProcess` | 15 (0xf) | Exported Function | kernel32.GetExitCodeProcess | 0x00001531
-`GetExitCodeThread` | 16 (0x10) | Exported Function | kernel32.GetExitCodeThread | 0x0000155f
-`GetPriorityClass` | 17 (0x11) | Exported Function | kernel32.GetPriorityClass | 0x0000158b
-`GetProcessId` | 18 (0x12) | Exported Function | kernel32.GetProcessId | 0x000015b2
-`GetProcessIdOfThread` | 19 (0x13) | Exported Function | kernel32.GetProcessIdOfThread | 0x000015dd
-`GetProcessTimes` | 20 (0x14) | Exported Function | kernel32.GetProcessTimes | 0x0000160b
-`GetProcessVersion` | 21 (0x15) | Exported Function | kernel32.GetProcessVersion | 0x00001636
-`GetStartupInfoW` | 22 (0x16) | Exported Function | kernel32.GetStartupInfoW | 0x00001661
-`GetThreadPriority` | 24 (0x18) | Exported Function | kernel32.GetThreadPriority | 0x000016ad
-`UpdateProcThreadAttribute` | 49 (0x31) | Exported Function | kernel32.UpdateProcThreadAttribute | 0x00001b30
+Function Name | Ordinal | Type
+-- | -- | --
+`SetPriorityClass` | 34 | Exported Function
+`ResumeThread` | 33 | Exported Function
+`QueueUserAPC` | 32 | Exported Function
+`SetThreadPriority` | 37 | Exported Function
+`SetProcessShutdownParameters` | 36 | Exported Function
+`SetProcessAffinityUpdateMode` | 35 | Exported Function
+`OpenThread` | 28 | Exported Function
+`OpenProcessToken` | 27 | Exported Function
+`InitializeProcThreadAttributeList` | 26 | Exported Function
+`QueryProcessAffinityUpdateMode` | 31 | Exported Function
+`ProcessIdToSessionId` | 30 | Exported Function
+`OpenThreadToken` | 29 | Exported Function
+`TlsFree` | 46 | Exported Function
+`TlsAlloc` | 45 | Exported Function
+`TerminateThread` | 44 | Exported Function
+`UpdateProcThreadAttribute` | 49 | Exported Function
+`TlsSetValue` | 48 | Exported Function
+`TlsGetValue` | 47 | Exported Function
+`SetThreadToken` | 40 | Exported Function
+`SetThreadStackGuarantee` | 39 | Exported Function
+`SetThreadPriorityBoost` | 38 | Exported Function
+`TerminateProcess` | 43 | Exported Function
+`SwitchToThread` | 42 | Exported Function
+`SuspendThread` | 41 | Exported Function
+`GetThreadPriorityBoost` | 25 | Exported Function
+`ExitThread` | 9 | Exported Function
+`ExitProcess` | 8 | Exported Function
+`DeleteProcThreadAttributeList` | 7 | Exported Function
+`GetCurrentProcessId` | 12 | Exported Function
+`GetCurrentProcess` | 11 | Exported Function
+`FlushProcessWriteBuffers` | 10 | Exported Function
+`CreateProcessW` | 3 | Exported Function
+`CreateProcessAsUserW` | 2 | Exported Function
+`CreateProcessA` | 1 | Exported Function
+`CreateThread` | 6 | Exported Function
+`CreateRemoteThreadEx` | 5 | Exported Function
+`CreateRemoteThread` | 4 | Exported Function
+`GetProcessVersion` | 21 | Exported Function
+`GetProcessTimes` | 20 | Exported Function
+`GetProcessIdOfThread` | 19 | Exported Function
+`GetThreadPriority` | 24 | Exported Function
+`GetThreadId` | 23 | Exported Function
+`GetStartupInfoW` | 22 | Exported Function
+`GetExitCodeProcess` | 15 | Exported Function
+`GetCurrentThreadId` | 14 | Exported Function
+`GetCurrentThread` | 13 | Exported Function
+`GetProcessId` | 18 | Exported Function
+`GetPriorityClass` | 17 | Exported Function
+`GetExitCodeThread` | 16 | Exported Function
 
 
 ## Signature

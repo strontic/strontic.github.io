@@ -24,20 +24,20 @@ PE256 | `D55D3B65E458527D8854EFF56ECA15BD9BB70060E7C9B045B93292BD1ACAF5FE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x00000001800028d0 | 0x000028d0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x00000001800028f0 | 0x000028f0
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180002910 | 0x00002910
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180002920 | 0x00002920
-`GetLastFailureAsHRESULT` | 5 (0x5) | Exported Function | 0x00000001800035e0 | 0x000035e0
-`HRESULTFromNTSTATUS` | 6 (0x6) | Exported Function | 0x0000000180003680 | 0x00003680
-`SxTracerDebuggerBreak` | 7 (0x7) | Exported Function | 0x00000001800029b0 | 0x000029b0
-`SxTracerGetThreadContextDebug` | 8 (0x8) | Exported Function | 0x00000001800029c0 | 0x000029c0
-`SxTracerGetThreadContextRetail` | 9 (0x9) | Exported Function | 0x00000001800029d0 | 0x000029d0
-`SxTracerShouldTrackFailure` | 10 (0xa) | Exported Function | 0x00000001800029e0 | 0x000029e0
-`Win32FromHRESULT` | 11 (0xb) | Exported Function | 0x0000000180003830 | 0x00003830
-`Win32FromNTSTATUS` | 12 (0xc) | Exported Function | 0x0000000180003990 | 0x00003990
+Function Name | Ordinal | Type
+-- | -- | --
+`SxTracerGetThreadContextRetail` | 9 | Exported Function
+`SxTracerGetThreadContextDebug` | 8 | Exported Function
+`SxTracerDebuggerBreak` | 7 | Exported Function
+`Win32FromNTSTATUS` | 12 | Exported Function
+`Win32FromHRESULT` | 11 | Exported Function
+`SxTracerShouldTrackFailure` | 10 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`HRESULTFromNTSTATUS` | 6 | Exported Function
+`GetLastFailureAsHRESULT` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `CCEF986FBF5FD2F3B02E37B42F96B8758C66C38F8518A2027F91045CAB9B44A5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ServiceMain` | 1 (0x1) | Exported Function | 0x0000000180002360 | 0x00002360
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x0000000180002940 | 0x00002940
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature

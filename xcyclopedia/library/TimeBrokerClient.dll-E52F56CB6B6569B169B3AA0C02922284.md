@@ -24,18 +24,18 @@ PE256 | `11150CEE0183704DA6BE5E6C1C8352BDE123D53BED4216CFFF2898652430075D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TbCreateCEvent` | 1 (0x1) | Exported Function | 0x0000000180001210 | 0x00001210
-`TbCreateEvent` | 2 (0x2) | Exported Function | 0x0000000180001080 | 0x00001080
-`TbDeleteCEvent` | 3 (0x3) | Exported Function | 0x0000000180002450 | 0x00002450
-`TbDeleteEvent` | 4 (0x4) | Exported Function | 0x0000000180001020 | 0x00001020
-`TbEnumerateEvents` | 5 (0x5) | Exported Function | 0x0000000180004c00 | 0x00004c00
-`TbQueryCEventData` | 6 (0x6) | Exported Function | 0x0000000180004cb0 | 0x00004cb0
-`TbQueryCEventTriggerTime` | 7 (0x7) | Exported Function | 0x0000000180001e90 | 0x00001e90
-`TbQueryEventData` | 8 (0x8) | Exported Function | 0x0000000180004d40 | 0x00004d40
-`TbUpdateCEvent` | 9 (0x9) | Exported Function | 0x0000000180001c10 | 0x00001c10
-`TbUpdateEvent` | 10 (0xa) | Exported Function | 0x0000000180001d40 | 0x00001d40
+Function Name | Ordinal | Type
+-- | -- | --
+`TbQueryCEventTriggerTime` | 7 | Exported Function
+`TbQueryCEventData` | 6 | Exported Function
+`TbQueryEventData` | 8 | Exported Function
+`TbUpdateEvent` | 10 | Exported Function
+`TbUpdateCEvent` | 9 | Exported Function
+`TbCreateEvent` | 2 | Exported Function
+`TbCreateCEvent` | 1 | Exported Function
+`TbDeleteCEvent` | 3 | Exported Function
+`TbEnumerateEvents` | 5 | Exported Function
+`TbDeleteEvent` | 4 | Exported Function
 
 
 ## Signature

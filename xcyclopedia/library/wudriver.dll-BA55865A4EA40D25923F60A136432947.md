@@ -24,18 +24,18 @@ PE256 | `C884D47B8DCC6AE3276BC17469E933754E2B830F96F2E2893F6D4025C12D20F4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CancelCDMOperation` | 1 (0x1) | Exported Function | 0x0000000180003580 | 0x00003580
-`CloseCDMContext` | 2 (0x2) | Exported Function | 0x0000000180003050 | 0x00003050
-`DetFilesDownloaded` | 3 (0x3) | Exported Function | 0x0000000180003060 | 0x00003060
-`DownloadIsInternetAvailable` | 4 (0x4) | Exported Function | 0x0000000180003070 | 0x00003070
-`DownloadUpdatedFiles` | 5 (0x5) | Exported Function | 0x00000001800030b0 | 0x000030b0
-`FindMatchingDriver` | 6 (0x6) | Exported Function | 0x00000001800031a0 | 0x000031a0
-`LogDriverNotFound` | 7 (0x7) | Exported Function | 0x0000000180003060 | 0x00003060
-`OpenCDMContext` | 8 (0x8) | Exported Function | 0x00000001800033c0 | 0x000033c0
-`OpenCDMContextEx` | 9 (0x9) | Exported Function | 0x00000001800033d0 | 0x000033d0
-`QueryDetectionFiles` | 10 (0xa) | Exported Function | 0x00000001800015d0 | 0x000015d0
+Function Name | Ordinal | Type
+-- | -- | --
+`LogDriverNotFound` | 7 | Exported Function
+`FindMatchingDriver` | 6 | Exported Function
+`OpenCDMContext` | 8 | Exported Function
+`QueryDetectionFiles` | 10 | Exported Function
+`OpenCDMContextEx` | 9 | Exported Function
+`CloseCDMContext` | 2 | Exported Function
+`CancelCDMOperation` | 1 | Exported Function
+`DetFilesDownloaded` | 3 | Exported Function
+`DownloadUpdatedFiles` | 5 | Exported Function
+`DownloadIsInternetAvailable` | 4 | Exported Function
 
 
 ## Signature

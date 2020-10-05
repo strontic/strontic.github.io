@@ -24,9 +24,9 @@ PE256 | `DD0426E37C082E1FC3089A976207DCC93E91B698090666A1AC258CDAA98632B4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializeHandler` | 1 (0x1) | Exported Function | 0x0000000180005a50 | 0x00005a50
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializeHandler` | 1 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `973760064DF9E11EDC2F9E615A5779117B7D615E1A3CD794B9A41F6D5F32A0E3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EnterpriseResourceManager_UnenrollHook` | 1 (0x1) | Exported Function | 0x0000000180004b60 | 0x00004b60
+Function Name | Ordinal | Type
+-- | -- | --
+`EnterpriseResourceManager_UnenrollHook` | 1 | Exported Function
 
 
 ## Signature

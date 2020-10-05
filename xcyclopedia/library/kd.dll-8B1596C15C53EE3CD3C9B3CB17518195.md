@@ -24,13 +24,13 @@ PE256 | `CE97C9E21A2D579F150CB1CB24A0505B5DF20F9AABB661DE7814585577B61200`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`KdInitialize` | 1 (0x1) | Exported Function | 0x00011020 | 0x00001020
-`KdPower` | 2 (0x2) | Exported Function | 0x00011080 | 0x00001080
-`KdReceivePacket` | 3 (0x3) | Exported Function | 0x00011070 | 0x00001070
-`KdSendPacket` | 4 (0x4) | Exported Function | 0x00011060 | 0x00001060
-`KdSetHiberRange` | 5 (0x5) | Exported Function | 0x000110a0 | 0x000010a0
+Function Name | Ordinal | Type
+-- | -- | --
+`KdSendPacket` | 4 | Exported Function
+`KdSetHiberRange` | 5 | Exported Function
+`KdReceivePacket` | 3 | Exported Function
+`KdInitialize` | 1 | Exported Function
+`KdPower` | 2 | Exported Function
 
 
 ## Signature
@@ -62,6 +62,7 @@ Function Name | Ordinal | Type | Address | Relative Address
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 41
+[C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\Smart Tag\SmartTagInstall.exe](SmartTagInstall.exe-632AB2DBE46DE1E9BB0FB7B54B3BB05C.md) | 30
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 49
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 24
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 40

@@ -24,17 +24,17 @@ PE256 | `9B7BEBE69D25E4356C7060ABEACF907D03A63658D6FBC31A5CB191F641E39D19`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x00000001800048d0 | 0x000048d0
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x00000001800045c0 | 0x000045c0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x00000001800047a0 | 0x000047a0
-`EnablePinForSignIn` | 4 (0x4) | Exported Function | 0x00000001800049c0 | 0x000049c0
-`EnrollEnterpriseKey` | 5 (0x5) | Exported Function | 0x0000000180004a90 | 0x00004a90
-`EnrollPin` | 6 (0x6) | Exported Function | 0x00000001800049b0 | 0x000049b0
-`GetProxyDllInfo` | 7 (0x7) | Exported Function | 0x0000000180001db0 | 0x00001db0
-`IsArsoAllowedByPolicy` | 8 (0x8) | Exported Function | 0x0000000180004ab0 | 0x00004ab0
-`IsEnrollmentPermittedForLocalAccountWithoutPassword` | 9 (0x9) | Exported Function | 0x0000000180004aa0 | 0x00004aa0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetProxyDllInfo` | 7 | Exported Function
+`EnrollPin` | 6 | Exported Function
+`IsEnrollmentPermittedForLocalAccountWithoutPassword` | 9 | Exported Function
+`IsArsoAllowedByPolicy` | 8 | Exported Function
+`EnrollEnterpriseKey` | 5 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`EnablePinForSignIn` | 4 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

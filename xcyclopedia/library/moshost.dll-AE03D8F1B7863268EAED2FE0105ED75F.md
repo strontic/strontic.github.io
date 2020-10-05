@@ -24,19 +24,19 @@ PE256 | `BA2F03E939E2BEED45630B9367403132F46321C61370DD816D190351F887DCC8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MosHostCacheStateGetSizes` | 3 (0x3) | Exported Function | 0x0000000180005770 | 0x00005770
-`MosHostCacheStateGetSlotToCleanup` | 4 (0x4) | Exported Function | 0x0000000180005770 | 0x00005770
-`MosHostCacheStateSetMaxSize` | 5 (0x5) | Exported Function | 0x0000000180005770 | 0x00005770
-`MosHostCacheStateSetSlotSize` | 6 (0x6) | Exported Function | 0x0000000180005770 | 0x00005770
-`MosHostCacheStateSnapshot` | 7 (0x7) | Exported Function | 0x0000000180005770 | 0x00005770
-`MosHostCacheStateUnuseSlot` | 8 (0x8) | Exported Function | 0x0000000180005770 | 0x00005770
-`MosHostCacheStateUseSlot` | 9 (0x9) | Exported Function | 0x0000000180005770 | 0x00005770
-`MosHostRequestResourceLock` | 10 (0xa) | Exported Function | 0x0000000180005770 | 0x00005770
-`MosHostRequestResourceUnlock` | 11 (0xb) | Exported Function | 0x0000000180005770 | 0x00005770
-`ServiceMain` | 1 (0x1) | Exported Function | 0x000000018000ab70 | 0x0000ab70
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x000000018000a8d0 | 0x0000a8d0
+Function Name | Ordinal | Type
+-- | -- | --
+`MosHostRequestResourceLock` | 10 | Exported Function
+`MosHostCacheStateUseSlot` | 9 | Exported Function
+`MosHostRequestResourceUnlock` | 11 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`MosHostCacheStateUnuseSlot` | 8 | Exported Function
+`MosHostCacheStateGetSlotToCleanup` | 4 | Exported Function
+`MosHostCacheStateGetSizes` | 3 | Exported Function
+`MosHostCacheStateSetMaxSize` | 5 | Exported Function
+`MosHostCacheStateSnapshot` | 7 | Exported Function
+`MosHostCacheStateSetSlotSize` | 6 | Exported Function
 
 
 ## Signature

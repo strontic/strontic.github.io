@@ -24,17 +24,16 @@ PE256 | `86AE811B11E749A2345F50345A6DE267F0AE07841C45C2CD26D2A036D2E86F4B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`D3D11RefGetLastCreation` | 201 (0xc9) | Exported Function | 0x10069340 | 0x00069340
-`D3DLayerGetInterface` | 202 (0xca) | Exported Function | 0x100691c0 | 0x000691c0
-`OpenAdapter` | 205 (0xcd) | Exported Function | 0x1006bab0 | 0x0006bab0
-`OpenAdapter10_2` | 203 (0xcb) | Exported Function | 0x1006bb40 | 0x0006bb40
-`OpenAdapter12` | 204 (0xcc) | Exported Function | 0x1006bbd0 | 0x0006bbd0
-`OpenDisplayAdapter1` | 206 (0xce) | Exported Function | 0x1006bcf0 | 0x0006bcf0
-`Ordinal199` | 199 (0xc7) | Exported Function | 0x1006c120 | 0x0006c120
-`QueryDListForApplication1` | 207 (0xcf) | Exported Function | 0x1006be60 | 0x0006be60
-`VSD3DDebugConnectionBuffer` | 200 (0xc8) | Exported Function | 0x105782d0 | 0x005782d0
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenDisplayAdapter1` | 206 | Exported Function
+`OpenAdapter12` | 204 | Exported Function
+`VSD3DDebugConnectionBuffer` | 200 | Exported Function
+`QueryDListForApplication1` | 207 | Exported Function
+`D3DLayerGetInterface` | 202 | Exported Function
+`D3D11RefGetLastCreation` | 201 | Exported Function
+`OpenAdapter10_2` | 203 | Exported Function
+`OpenAdapter` | 205 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `EFE5B57C8CF8C289520DB05CDB212D8B8861D1730B8C70ADFD344AE22862A08E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RegisterServiceCtrlHandlerExW` | 1 (0x1) | Exported Function | advapi32.RegisterServiceCtrlHandlerExW | 0x000011a7
-`SetServiceStatus` | 2 (0x2) | Exported Function | advapi32.SetServiceStatus | 0x000011df
-`StartServiceCtrlDispatcherW` | 3 (0x3) | Exported Function | advapi32.StartServiceCtrlDispatcherW | 0x00001215
+Function Name | Ordinal | Type
+-- | -- | --
+`StartServiceCtrlDispatcherW` | 3 | Exported Function
+`SetServiceStatus` | 2 | Exported Function
+`RegisterServiceCtrlHandlerExW` | 1 | Exported Function
 
 
 ## Signature

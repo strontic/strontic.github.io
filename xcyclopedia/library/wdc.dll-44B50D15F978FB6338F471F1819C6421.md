@@ -24,14 +24,14 @@ PE256 | `1029D89CA8DEA2BEB43F45CEFF56907C89F774EB7A994E515DD6FC0769CFE008`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180025f40 | 0x00025f40
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180020f70 | 0x00020f70
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x0000000180026010 | 0x00026010
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x0000000180026010 | 0x00026010
-`WdcParseLegacyFile` | 1 (0x1) | Exported Function | 0x0000000180071f30 | 0x00071f30
-`WdcRunTaskAsInteractiveUser` | 2 (0x2) | Exported Function | 0x0000000180072550 | 0x00072550
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 6 | Exported Function
+`WdcParseLegacyFile` | 1 | Exported Function
+`WdcRunTaskAsInteractiveUser` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
 
 
 ## Signature

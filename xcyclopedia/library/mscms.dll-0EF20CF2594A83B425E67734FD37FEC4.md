@@ -24,139 +24,139 @@ PE256 | `E391E5615F600F7CE8A6F4C83F47825ECCE337BF21F2D45951305B6153558213`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AssociateColorProfileWithDeviceA` | 1 (0x1) | Exported Function | 0x5b8a24c0 | 0x000224c0
-`OpenDisplay` | 71 (0x47) | Exported Function | 0x5b892280 | 0x00012280
-`OpenColorProfileW` | 70 (0x46) | Exported Function | 0x5b88d6f0 | 0x0000d6f0
-`OpenColorProfileA` | 69 (0x45) | Exported Function | 0x5b8a0370 | 0x00020370
-`IsColorProfileValid` | 68 (0x44) | Exported Function | 0x5b8a0200 | 0x00020200
-`IsColorProfileTagPresent` | 67 (0x43) | Exported Function | 0x5b88e6a0 | 0x0000e6a0
-`InternalWcsDisassociateColorProfileWithDevice` | 66 (0x42) | Exported Function | 0x5b8a7080 | 0x00027080
-`InternalWcsAssociateColorProfileWithDevice` | 65 (0x41) | Exported Function | 0x5b8a7050 | 0x00027050
-`InternalSetDeviceTemperature` | 204 (0xcc) | Exported Function | 0x5b895e70 | 0x00015e70
-`InternalSetDeviceGDIGammaRamp` | 208 (0xd0) | Exported Function | 0x5b89a160 | 0x0001a160
-`InternalSetDeviceGammaRamp` | 203 (0xcb) | Exported Function | 0x5b88f540 | 0x0000f540
-`InternalSetDeviceConfig` | 64 (0x40) | Exported Function | 0x5b8a7010 | 0x00027010
-`InternalRefreshCalibration` | 63 (0x3f) | Exported Function | 0x5b892940 | 0x00012940
-`InternalGetPS2PreviewCRD2` | 201 (0xc9) | Exported Function | 0x5b8af5a0 | 0x0002f5a0
-`InternalGetPS2PreviewCRD` | 62 (0x3e) | Exported Function | 0x5b8afe30 | 0x0002fe30
-`InternalGetPS2CSAFromLCS` | 59 (0x3b) | Exported Function | 0x5b8aec80 | 0x0002ec80
-`InternalGetPS2ColorSpaceArray2` | 202 (0xca) | Exported Function | 0x5b8af2a0 | 0x0002f2a0
-`InternalGetPS2ColorSpaceArray` | 61 (0x3d) | Exported Function | 0x5b8af570 | 0x0002f570
-`InternalGetPS2ColorRenderingDictionary2` | 200 (0xc8) | Exported Function | 0x5b8aefa0 | 0x0002efa0
-`InternalGetPS2ColorRenderingDictionary` | 60 (0x3c) | Exported Function | 0x5b8af180 | 0x0002f180
-`InternalGetDeviceGammaCapability` | 206 (0xce) | Exported Function | 0x5b890990 | 0x00010990
-`InternalGetDeviceConfig` | 58 (0x3a) | Exported Function | 0x5b8a68f0 | 0x000268f0
-`InternalGetAppliedGDIGammaRamp` | 207 (0xcf) | Exported Function | 0x5b89a130 | 0x0001a130
-`InternalGetAppliedGammaRamp` | 205 (0xcd) | Exported Function | 0x5b8b7ea0 | 0x00037ea0
-`InstallColorProfileW` | 57 (0x39) | Exported Function | 0x5b8a49b0 | 0x000249b0
-`InstallColorProfileA` | 56 (0x38) | Exported Function | 0x5b8a4950 | 0x00024950
-`GetStandardColorSpaceProfileW` | 55 (0x37) | Exported Function | 0x5b890280 | 0x00010280
-`GetStandardColorSpaceProfileA` | 54 (0x36) | Exported Function | 0x5b8a4600 | 0x00024600
-`GetPS2ColorSpaceArray` | 53 (0x35) | Exported Function | 0x5b89ff90 | 0x0001ff90
-`GetPS2ColorRenderingIntent` | 52 (0x34) | Exported Function | 0x5b89fe50 | 0x0001fe50
-`RegisterCMMA` | 72 (0x48) | Exported Function | 0x5b8a1d30 | 0x00021d30
-`GetPS2ColorRenderingDictionary` | 51 (0x33) | Exported Function | 0x5b89fd00 | 0x0001fd00
-`RegisterCMMW` | 73 (0x49) | Exported Function | 0x5b8a1db0 | 0x00021db0
-`SetColorProfileElement` | 75 (0x4b) | Exported Function | 0x5b8a0450 | 0x00020450
-`WcsSetDefaultRenderingIntent` | 104 (0x68) | Exported Function | 0x5b8a90d0 | 0x000290d0
-`WcsSetDefaultColorProfile` | 103 (0x67) | Exported Function | 0x5b8a90a0 | 0x000290a0
-`WcsSetCalibrationManagementState` | 102 (0x66) | Exported Function | 0x5b8b73f0 | 0x000373f0
-`WcsOpenColorProfileW` | 101 (0x65) | Exported Function | 0x5b8a0ca0 | 0x00020ca0
-`WcsOpenColorProfileA` | 100 (0x64) | Exported Function | 0x5b8a0bc0 | 0x00020bc0
-`WcsGpCanInstallOrUninstallProfiles` | 99 (0x63) | Exported Function | 0x5b8b3c20 | 0x00033c20
-`WcsGetUsePerUserProfiles` | 98 (0x62) | Exported Function | 0x5b8a9050 | 0x00029050
-`WcsGetDefaultRenderingIntent` | 97 (0x61) | Exported Function | 0x5b88fe60 | 0x0000fe60
-`WcsGetDefaultColorProfileSize` | 96 (0x60) | Exported Function | 0x5b8a9020 | 0x00029020
-`WcsGetDefaultColorProfile` | 95 (0x5f) | Exported Function | 0x5b8a8fd0 | 0x00028fd0
-`WcsGetCalibrationManagementState` | 94 (0x5e) | Exported Function | 0x5b892d50 | 0x00012d50
-`WcsEnumColorProfilesSize` | 93 (0x5d) | Exported Function | 0x5b8a8f80 | 0x00028f80
-`WcsEnumColorProfiles` | 92 (0x5c) | Exported Function | 0x5b8a8f40 | 0x00028f40
-`WcsDisassociateColorProfileFromDevice` | 91 (0x5b) | Exported Function | 0x5b8a8f00 | 0x00028f00
-`WcsCreateIccProfile` | 90 (0x5a) | Exported Function | 0x5b8ba450 | 0x0003a450
-`WcsCheckColors` | 89 (0x59) | Exported Function | 0x5b8a20f0 | 0x000220f0
-`WcsAssociateColorProfileWithDevice` | 88 (0x58) | Exported Function | 0x5b8a8eb0 | 0x00028eb0
-`UnregisterCMMW` | 87 (0x57) | Exported Function | 0x5b8a20d0 | 0x000220d0
-`UnregisterCMMA` | 86 (0x56) | Exported Function | 0x5b8a2070 | 0x00022070
-`UninstallColorProfileW` | 85 (0x55) | Exported Function | 0x5b8a8be0 | 0x00028be0
-`UninstallColorProfileA` | 84 (0x54) | Exported Function | 0x5b8a8b70 | 0x00028b70
-`TranslateColors` | 83 (0x53) | Exported Function | 0x5b8a1eb0 | 0x00021eb0
-`TranslateBitmapBits` | 82 (0x52) | Exported Function | 0x5b88cfb0 | 0x0000cfb0
-`SpoolerCopyFileEvent` | 81 (0x51) | Exported Function | 0x5b8a87a0 | 0x000287a0
-`SetStandardColorSpaceProfileW` | 80 (0x50) | Exported Function | 0x5b8a8670 | 0x00028670
-`SetStandardColorSpaceProfileA` | 79 (0x4f) | Exported Function | 0x5b8a8600 | 0x00028600
-`SetColorProfileHeader` | 78 (0x4e) | Exported Function | 0x5b8a0970 | 0x00020970
-`SetColorProfileElementSize` | 77 (0x4d) | Exported Function | 0x5b8a0700 | 0x00020700
-`SetColorProfileElementReference` | 76 (0x4c) | Exported Function | 0x5b8a05b0 | 0x000205b0
-`SelectCMM` | 74 (0x4a) | Exported Function | 0x5b8a1dd0 | 0x00021dd0
-`WcsSetUsePerUserProfiles` | 105 (0x69) | Exported Function | 0x5b8a91a0 | 0x000291a0
-`GetNamedProfileInfo` | 50 (0x32) | Exported Function | 0x5b89fc00 | 0x0001fc00
-`GetColorProfileHeader` | 48 (0x30) | Exported Function | 0x5b88d5f0 | 0x0000d5f0
-`ColorProfileAddDisplayAssociation` | 230 (0xe6) | Exported Function | 0x5b8b8270 | 0x00038270
-`ColorCplUninitialize` | 19 (0x13) | Exported Function | 0x5b8b3670 | 0x00033670
-`ColorCplSetUsePerUserProfiles` | 18 (0x12) | Exported Function | 0x5b8b3510 | 0x00033510
-`ColorCplSaveAssociationList` | 17 (0x11) | Exported Function | 0x5b8b3320 | 0x00033320
-`ColorCplResetSystemWideAssociationListChangedWarning` | 16 (0x10) | Exported Function | 0x5b8b3290 | 0x00033290
-`ColorCplReleaseProfileProperties` | 15 (0xf) | Exported Function | 0x5b8b3260 | 0x00033260
-`ColorCplOverwritePerUserAssociationList` | 14 (0xe) | Exported Function | 0x5b8b3160 | 0x00033160
-`ColorCplMergeAssociationLists` | 13 (0xd) | Exported Function | 0x5b8b30b0 | 0x000330b0
-`ColorCplLoadAssociationList` | 12 (0xc) | Exported Function | 0x5b8b2c20 | 0x00032c20
-`ColorCplInitialize` | 11 (0xb) | Exported Function | 0x5b8b2bd0 | 0x00032bd0
-`ColorCplHasSystemWideAssociationListChanged` | 10 (0xa) | Exported Function | 0x5b8b2b20 | 0x00032b20
-`ColorCplGetProfileProperties` | 9 (0x9) | Exported Function | 0x5b8b2af0 | 0x00032af0
-`ColorCplGetDefaultRenderingIntentScope` | 8 (0x8) | Exported Function | 0x5b8b2a90 | 0x00032a90
-`ColorCplGetDefaultProfileScope` | 7 (0x7) | Exported Function | 0x5b8b2960 | 0x00032960
-`ColorAdapterUpdateDisplayGamma` | 212 (0xd4) | Exported Function | 0x5b8b7f10 | 0x00037f10
-`ColorAdapterUpdateDeviceProfile` | 213 (0xd5) | Exported Function | 0x5b8b7ef0 | 0x00037ef0
-`ColorAdapterUnregisterOEMColorService` | 219 (0xdb) | Exported Function | 0x5b8b7f50 | 0x00037f50
-`ColorAdapterRegisterOEMColorService` | 218 (0xda) | Exported Function | 0x5b8b7f50 | 0x00037f50
-`ColorAdapterGetSystemModifyWhitePointCaps` | 210 (0xd2) | Exported Function | 0x5b8b7f30 | 0x00037f30
-`ColorAdapterGetDisplayTransformData` | 214 (0xd6) | Exported Function | 0x5b8b7f10 | 0x00037f10
-`ColorAdapterGetDisplayTargetWhitePoint` | 215 (0xd7) | Exported Function | 0x5b8b7ed0 | 0x00037ed0
-`ColorAdapterGetDisplayProfile` | 216 (0xd8) | Exported Function | 0x5b8b7ed0 | 0x00037ed0
-`ColorAdapterGetDisplayCurrentStateID` | 211 (0xd3) | Exported Function | 0x5b8b7ef0 | 0x00037ef0
-`ColorAdapterGetCurrentProfileCalibration` | 217 (0xd9) | Exported Function | 0x5b8b7ed0 | 0x00037ed0
-`CloseDisplay` | 6 (0x6) | Exported Function | 0x5b8938c0 | 0x000138c0
-`CloseColorProfile` | 5 (0x5) | Exported Function | 0x5b88e810 | 0x0000e810
-`CheckColors` | 4 (0x4) | Exported Function | 0x5b8a1090 | 0x00021090
-`CheckBitmapBits` | 3 (0x3) | Exported Function | 0x5b8a0f60 | 0x00020f60
-`AssociateColorProfileWithDeviceW` | 2 (0x2) | Exported Function | 0x5b8a2580 | 0x00022580
-`ColorProfileGetDisplayDefault` | 234 (0xea) | Exported Function | 0x5b8b8310 | 0x00038310
-`GetCountColorProfileElements` | 49 (0x31) | Exported Function | 0x5b89fb80 | 0x0001fb80
-`ColorProfileGetDisplayList` | 233 (0xe9) | Exported Function | 0x5b8b8420 | 0x00038420
-`ColorProfileRemoveDisplayAssociation` | 231 (0xe7) | Exported Function | 0x5b8b86c0 | 0x000386c0
-`GetColorProfileFromHandle` | 47 (0x2f) | Exported Function | 0x5b89fab0 | 0x0001fab0
-`GetColorProfileElementTag` | 46 (0x2e) | Exported Function | 0x5b89fa10 | 0x0001fa10
-`GetColorProfileElement` | 45 (0x2d) | Exported Function | 0x5b88d370 | 0x0000d370
-`GetColorDirectoryW` | 44 (0x2c) | Exported Function | 0x5b890320 | 0x00010320
-`GetColorDirectoryA` | 43 (0x2b) | Exported Function | 0x5b8a3f30 | 0x00023f30
-`GetCMMInfo` | 42 (0x2a) | Exported Function | 0x5b8a13a0 | 0x000213a0
-`GenerateCopyFilePaths` | 41 (0x29) | Exported Function | 0x5b8a3f10 | 0x00023f10
-`EnumColorProfilesW` | 40 (0x28) | Exported Function | 0x5b8a3ed0 | 0x00023ed0
-`EnumColorProfilesA` | 39 (0x27) | Exported Function | 0x5b8a3ce0 | 0x00023ce0
-`DllGetClassObject` | 38 (0x26) | Exported Function | 0x5b893970 | 0x00013970
-`DllCanUnloadNow` | 37 (0x25) | Exported Function | 0x5b893920 | 0x00013920
-`DisassociateColorProfileFromDeviceW` | 36 (0x24) | Exported Function | 0x5b8a3a80 | 0x00023a80
-`DisassociateColorProfileFromDeviceA` | 35 (0x23) | Exported Function | 0x5b8a39d0 | 0x000239d0
-`DeviceRenameEvent` | 34 (0x22) | Exported Function | 0x5b8a37f0 | 0x000237f0
-`DeleteColorTransform` | 33 (0x21) | Exported Function | 0x5b88ec90 | 0x0000ec90
-`DccwSetDisplayProfileAssociationList` | 32 (0x20) | Exported Function | 0x5b8b7bd0 | 0x00037bd0
-`DccwReleaseDisplayProfileAssociationList` | 31 (0x1f) | Exported Function | 0x5b8b7ba0 | 0x00037ba0
-`DccwGetGamutSize` | 30 (0x1e) | Exported Function | 0x5b8b8f00 | 0x00038f00
-`DccwGetDisplayProfileAssociationList` | 29 (0x1d) | Exported Function | 0x5b8b7b80 | 0x00037b80
-`DccwCreateDisplayProfileAssociationList` | 28 (0x1c) | Exported Function | 0x5b8b7b40 | 0x00037b40
-`CreateProfileFromLogColorSpaceW` | 27 (0x1b) | Exported Function | 0x5b89f810 | 0x0001f810
-`CreateProfileFromLogColorSpaceA` | 26 (0x1a) | Exported Function | 0x5b89f7a0 | 0x0001f7a0
-`CreateMultiProfileTransform` | 25 (0x19) | Exported Function | 0x5b88c970 | 0x0000c970
-`CreateDeviceLinkProfile` | 24 (0x18) | Exported Function | 0x5b89f650 | 0x0001f650
-`CreateColorTransformW` | 23 (0x17) | Exported Function | 0x5b8a1200 | 0x00021200
-`CreateColorTransformA` | 22 (0x16) | Exported Function | 0x5b8a1150 | 0x00021150
-`ConvertIndexToColorName` | 21 (0x15) | Exported Function | 0x5b89f530 | 0x0001f530
-`ConvertColorNameToIndex` | 20 (0x14) | Exported Function | 0x5b89f410 | 0x0001f410
-`ColorProfileSetDisplayDefaultAssociation` | 232 (0xe8) | Exported Function | 0x5b8b8760 | 0x00038760
-`ColorProfileGetDisplayUserScope` | 235 (0xeb) | Exported Function | 0x5b8b8610 | 0x00038610
-`WcsTranslateColors` | 106 (0x6a) | Exported Function | 0x5b8a2170 | 0x00022170
+Function Name | Ordinal | Type
+-- | -- | --
+`InternalSetDeviceGDIGammaRamp` | 208 | Exported Function
+`InternalSetDeviceGammaRamp` | 203 | Exported Function
+`InternalWcsAssociateColorProfileWithDevice` | 65 | Exported Function
+`InternalSetDeviceTemperature` | 204 | Exported Function
+`InternalGetPS2PreviewCRD2` | 201 | Exported Function
+`InternalGetPS2PreviewCRD` | 62 | Exported Function
+`InternalSetDeviceConfig` | 64 | Exported Function
+`InternalRefreshCalibration` | 63 | Exported Function
+`OpenDisplay` | 71 | Exported Function
+`OpenColorProfileW` | 70 | Exported Function
+`RegisterCMMW` | 73 | Exported Function
+`RegisterCMMA` | 72 | Exported Function
+`IsColorProfileTagPresent` | 67 | Exported Function
+`InternalWcsDisassociateColorProfileWithDevice` | 66 | Exported Function
+`OpenColorProfileA` | 69 | Exported Function
+`IsColorProfileValid` | 68 | Exported Function
+`InstallColorProfileA` | 56 | Exported Function
+`GetStandardColorSpaceProfileW` | 55 | Exported Function
+`InternalGetAppliedGammaRamp` | 205 | Exported Function
+`InstallColorProfileW` | 57 | Exported Function
+`GetPS2ColorRenderingIntent` | 52 | Exported Function
+`GetPS2ColorRenderingDictionary` | 51 | Exported Function
+`GetStandardColorSpaceProfileA` | 54 | Exported Function
+`GetPS2ColorSpaceArray` | 53 | Exported Function
+`InternalGetPS2ColorSpaceArray` | 61 | Exported Function
+`InternalGetPS2ColorRenderingDictionary2` | 200 | Exported Function
+`InternalGetPS2CSAFromLCS` | 59 | Exported Function
+`InternalGetPS2ColorSpaceArray2` | 202 | Exported Function
+`InternalGetDeviceConfig` | 58 | Exported Function
+`InternalGetAppliedGDIGammaRamp` | 207 | Exported Function
+`InternalGetPS2ColorRenderingDictionary` | 60 | Exported Function
+`InternalGetDeviceGammaCapability` | 206 | Exported Function
+`SelectCMM` | 74 | Exported Function
+`WcsGetDefaultColorProfileSize` | 96 | Exported Function
+`WcsGetDefaultColorProfile` | 95 | Exported Function
+`WcsGetUsePerUserProfiles` | 98 | Exported Function
+`WcsGetDefaultRenderingIntent` | 97 | Exported Function
+`WcsEnumColorProfiles` | 92 | Exported Function
+`WcsDisassociateColorProfileFromDevice` | 91 | Exported Function
+`WcsGetCalibrationManagementState` | 94 | Exported Function
+`WcsEnumColorProfilesSize` | 93 | Exported Function
+`WcsSetDefaultRenderingIntent` | 104 | Exported Function
+`WcsSetDefaultColorProfile` | 103 | Exported Function
+`WcsTranslateColors` | 106 | Exported Function
+`WcsSetUsePerUserProfiles` | 105 | Exported Function
+`WcsOpenColorProfileA` | 100 | Exported Function
+`WcsGpCanInstallOrUninstallProfiles` | 99 | Exported Function
+`WcsSetCalibrationManagementState` | 102 | Exported Function
+`WcsOpenColorProfileW` | 101 | Exported Function
+`SetStandardColorSpaceProfileW` | 80 | Exported Function
+`SetStandardColorSpaceProfileA` | 79 | Exported Function
+`TranslateBitmapBits` | 82 | Exported Function
+`SpoolerCopyFileEvent` | 81 | Exported Function
+`SetColorProfileElementReference` | 76 | Exported Function
+`SetColorProfileElement` | 75 | Exported Function
+`SetColorProfileHeader` | 78 | Exported Function
+`SetColorProfileElementSize` | 77 | Exported Function
+`WcsAssociateColorProfileWithDevice` | 88 | Exported Function
+`UnregisterCMMW` | 87 | Exported Function
+`WcsCreateIccProfile` | 90 | Exported Function
+`WcsCheckColors` | 89 | Exported Function
+`UninstallColorProfileA` | 84 | Exported Function
+`TranslateColors` | 83 | Exported Function
+`UnregisterCMMA` | 86 | Exported Function
+`UninstallColorProfileW` | 85 | Exported Function
+`GetNamedProfileInfo` | 50 | Exported Function
+`ColorCplLoadAssociationList` | 12 | Exported Function
+`ColorCplInitialize` | 11 | Exported Function
+`ColorCplOverwritePerUserAssociationList` | 14 | Exported Function
+`ColorCplMergeAssociationLists` | 13 | Exported Function
+`ColorCplGetDefaultRenderingIntentScope` | 8 | Exported Function
+`ColorCplGetDefaultProfileScope` | 7 | Exported Function
+`ColorCplHasSystemWideAssociationListChanged` | 10 | Exported Function
+`ColorCplGetProfileProperties` | 9 | Exported Function
+`ColorProfileAddDisplayAssociation` | 230 | Exported Function
+`ColorCplUninitialize` | 19 | Exported Function
+`ColorProfileGetDisplayList` | 233 | Exported Function
+`ColorProfileGetDisplayDefault` | 234 | Exported Function
+`ColorCplResetSystemWideAssociationListChangedWarning` | 16 | Exported Function
+`ColorCplReleaseProfileProperties` | 15 | Exported Function
+`ColorCplSetUsePerUserProfiles` | 18 | Exported Function
+`ColorCplSaveAssociationList` | 17 | Exported Function
+`CloseDisplay` | 6 | Exported Function
+`CloseColorProfile` | 5 | Exported Function
+`ColorAdapterGetDisplayCurrentStateID` | 211 | Exported Function
+`ColorAdapterGetCurrentProfileCalibration` | 217 | Exported Function
+`AssociateColorProfileWithDeviceW` | 2 | Exported Function
+`AssociateColorProfileWithDeviceA` | 1 | Exported Function
+`CheckColors` | 4 | Exported Function
+`CheckBitmapBits` | 3 | Exported Function
+`ColorAdapterUnregisterOEMColorService` | 219 | Exported Function
+`ColorAdapterRegisterOEMColorService` | 218 | Exported Function
+`ColorAdapterUpdateDisplayGamma` | 212 | Exported Function
+`ColorAdapterUpdateDeviceProfile` | 213 | Exported Function
+`ColorAdapterGetDisplayTargetWhitePoint` | 215 | Exported Function
+`ColorAdapterGetDisplayProfile` | 216 | Exported Function
+`ColorAdapterGetSystemModifyWhitePointCaps` | 210 | Exported Function
+`ColorAdapterGetDisplayTransformData` | 214 | Exported Function
+`ColorProfileGetDisplayUserScope` | 235 | Exported Function
+`EnumColorProfilesA` | 39 | Exported Function
+`DllGetClassObject` | 38 | Exported Function
+`GenerateCopyFilePaths` | 41 | Exported Function
+`EnumColorProfilesW` | 40 | Exported Function
+`DisassociateColorProfileFromDeviceA` | 35 | Exported Function
+`DeviceRenameEvent` | 34 | Exported Function
+`DllCanUnloadNow` | 37 | Exported Function
+`DisassociateColorProfileFromDeviceW` | 36 | Exported Function
+`GetColorProfileFromHandle` | 47 | Exported Function
+`GetColorProfileElementTag` | 46 | Exported Function
+`GetCountColorProfileElements` | 49 | Exported Function
+`GetColorProfileHeader` | 48 | Exported Function
+`GetColorDirectoryA` | 43 | Exported Function
+`GetCMMInfo` | 42 | Exported Function
+`GetColorProfileElement` | 45 | Exported Function
+`GetColorDirectoryW` | 44 | Exported Function
+`CreateColorTransformW` | 23 | Exported Function
+`CreateColorTransformA` | 22 | Exported Function
+`CreateMultiProfileTransform` | 25 | Exported Function
+`CreateDeviceLinkProfile` | 24 | Exported Function
+`ColorProfileSetDisplayDefaultAssociation` | 232 | Exported Function
+`ColorProfileRemoveDisplayAssociation` | 231 | Exported Function
+`ConvertIndexToColorName` | 21 | Exported Function
+`ConvertColorNameToIndex` | 20 | Exported Function
+`DccwReleaseDisplayProfileAssociationList` | 31 | Exported Function
+`DccwGetGamutSize` | 30 | Exported Function
+`DeleteColorTransform` | 33 | Exported Function
+`DccwSetDisplayProfileAssociationList` | 32 | Exported Function
+`CreateProfileFromLogColorSpaceW` | 27 | Exported Function
+`CreateProfileFromLogColorSpaceA` | 26 | Exported Function
+`DccwGetDisplayProfileAssociationList` | 29 | Exported Function
+`DccwCreateDisplayProfileAssociationList` | 28 | Exported Function
 
 
 ## Signature

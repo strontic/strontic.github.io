@@ -24,9 +24,9 @@ PE256 | `40F1315AB45A5DB8EDF4726B15EA7BF79252B7C17768A044BFE74B5A4DE4701C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NlsDllCodePageTranslation` | 1 (0x1) | Exported Function | 0x60181bf0 | 0x00001bf0
+Function Name | Ordinal | Type
+-- | -- | --
+`NlsDllCodePageTranslation` | 1 | Exported Function
 
 
 ## Signature

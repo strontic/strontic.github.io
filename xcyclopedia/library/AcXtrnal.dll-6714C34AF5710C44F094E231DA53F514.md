@@ -24,10 +24,10 @@ PE256 | `B02B12E7C4C9717FC535FC4490C6E1F75E93D108EEA904A46C9E4630071CDDEC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetHookAPIs` | 1 (0x1) | Exported Function | 0x0000000180001b30 | 0x00001b30
-`NotifyShims` | 2 (0x2) | Exported Function | 0x0000000180001ac0 | 0x00001ac0
+Function Name | Ordinal | Type
+-- | -- | --
+`NotifyShims` | 2 | Exported Function
+`GetHookAPIs` | 1 | Exported Function
 
 
 ## Signature

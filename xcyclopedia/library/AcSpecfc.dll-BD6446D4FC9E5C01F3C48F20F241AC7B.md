@@ -24,12 +24,12 @@ PE256 | `FFE8ABFA906EA6FE9817B2BA7986DC9BB7609B8775AD801EB90F4E19735054C9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CleanupIS` | 4 (0x4) | Exported Function | 0x7962c4b0 | 0x0002c4b0
-`GetHookAPIs` | 1 (0x1) | Exported Function | 0x7961dff0 | 0x0001dff0
-`NotifyShims` | 2 (0x2) | Exported Function | 0x7961e490 | 0x0001e490
-`StiCreateInstanceA` | 3 (0x3) | Exported Function | 0x79651750 | 0x00051750
+Function Name | Ordinal | Type
+-- | -- | --
+`NotifyShims` | 2 | Exported Function
+`StiCreateInstanceA` | 3 | Exported Function
+`CleanupIS` | 4 | Exported Function
+`GetHookAPIs` | 1 | Exported Function
 
 
 ## Signature

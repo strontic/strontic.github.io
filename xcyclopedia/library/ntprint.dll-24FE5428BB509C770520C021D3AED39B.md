@@ -24,67 +24,63 @@ PE256 | `190C52127CF67BE054026A41FD97007FB3423A09BCD7C40F838A0D86910498CB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClassInstall32` | 105 (0x69) | Exported Function | 0x4cd93fd0 | 0x00013fd0
-`PSetupFreeMem` | 138 (0x8a) | Exported Function | 0x4cd95b90 | 0x00015b90
-`PSetupGetActualInstallSection` | 116 (0x74) | Exported Function | 0x4cda4420 | 0x00024420
-`PSetupGetCatalogNameFromInfW` | 117 (0x75) | Exported Function | 0x4cdab460 | 0x0002b460
-`PSetupGetDriverInfo3` | 139 (0x8b) | Exported Function | 0x4cda93f0 | 0x000293f0
-`PSetupGetInfDriverStoreLocation` | 140 (0x8c) | Exported Function | 0x4cd9f250 | 0x0001f250
-`PSetupGetLocalDataField` | 141 (0x8d) | Exported Function | 0x4cd9cbe0 | 0x0001cbe0
-`PSetupGetPathToSearch` | 142 (0x8e) | Exported Function | 0x4cd9be40 | 0x0001be40
-`PSetupGetSelectedDriverInfo` | 143 (0x8f) | Exported Function | 0x4cda2fe0 | 0x00022fe0
-`PSetupInstallICMProfiles` | 144 (0x90) | Exported Function | 0x4cd88e00 | 0x00008e00
-`PSetupInstallInboxDriverSilently` | 145 (0x91) | Exported Function | 0x4cd8ef70 | 0x0000ef70
-`PSetupInstallMonitor` | 146 (0x92) | Exported Function | 0x4cd94f70 | 0x00014f70
-`PSetupInstallPrinterDriver` | 147 (0x93) | Exported Function | 0x4cd8c970 | 0x0000c970
-`PSetupFreeDrvField` | 137 (0x89) | Exported Function | 0x4cd9cd70 | 0x0001cd70
-`PSetupIsCompatibleDriver` | 148 (0x94) | Exported Function | 0x4cda50c0 | 0x000250c0
-`PSetupIsTheDriverFoundInInfInstalled` | 150 (0x96) | Exported Function | 0x4cd9c130 | 0x0001c130
-`PSetupParseInfAndCommitFileQueue` | 151 (0x97) | Exported Function | 0x4cd8f2c0 | 0x0000f2c0
-`PSetupPreSelectDriver` | 152 (0x98) | Exported Function | 0x4cda30e0 | 0x000230e0
-`PSetupProcessPrinterAdded` | 153 (0x99) | Exported Function | 0x4cd941a0 | 0x000141a0
-`PSetupSelectDeviceButtons` | 154 (0x9a) | Exported Function | 0x4cda1960 | 0x00021960
-`PSetupSelectDriver` | 155 (0x9b) | Exported Function | 0x4cda3000 | 0x00023000
-`PSetupSetCoreInboxDriverPath` | 156 (0x9c) | Exported Function | 0x4cda4380 | 0x00024380
-`PSetupSetDriverPlatform` | 157 (0x9d) | Exported Function | 0x4cda23a0 | 0x000223a0
-`PSetupSetNonInteractiveMode` | 158 (0x9e) | Exported Function | 0x4cd9f660 | 0x0001f660
-`PSetupSetSelectDevTitleAndInstructions` | 159 (0x9f) | Exported Function | 0x4cda1810 | 0x00021810
-`PSetupShowBlockedDriverUI` | 160 (0xa0) | Exported Function | 0x4cd89220 | 0x00009220
-`PSetupThisPlatform` | 161 (0xa1) | Exported Function | 0x4cd9c260 | 0x0001c260
-`PSetupIsDriverInstalled` | 149 (0x95) | Exported Function | 0x4cd9bf40 | 0x0001bf40
-`PSetupWebPnpGenerateDownLevelInfForInboxDriver` | 118 (0x76) | Exported Function | 0x4cda8fa0 | 0x00028fa0
-`PSetupFindCompatibleDriverFromName` | 136 (0x88) | Exported Function | 0x4cda4080 | 0x00024080
-`PSetupElevatedLegacyPrintDriverInstallW` | 115 (0x73) | Exported Function | 0x4cda6710 | 0x00026710
-`Ordinal103` | 103 (0x67) | Exported Function | 0x4cd8ed30 | 0x0000ed30
-`Ordinal104` | 104 (0x68) | Exported Function | 0x4cda3bf0 | 0x00023bf0
-`Ordinal106` | 106 (0x6a) | Exported Function | 0x4cdaec50 | 0x0002ec50
-`Ordinal107` | 107 (0x6b) | Exported Function | 0x4cd8e790 | 0x0000e790
-`PSetupAssociateICMProfiles` | 120 (0x78) | Exported Function | 0x4cd91ac0 | 0x00011ac0
-`PSetupBuildDriverList` | 121 (0x79) | Exported Function | 0x4cda2050 | 0x00022050
-`PSetupBuildDriversFromPath` | 122 (0x7a) | Exported Function | 0x4cda1cb0 | 0x00021cb0
-`PSetupCheckForDriversInDriverStore` | 108 (0x6c) | Exported Function | 0x4cd98a90 | 0x00018a90
-`PSetupCopyDriverPackageFiles` | 123 (0x7b) | Exported Function | 0x4cdabae0 | 0x0002bae0
-`PSetupCreateDrvSetupPage` | 124 (0x7c) | Exported Function | 0x4cda2340 | 0x00022340
-`PSetupCreateMonitorInfo` | 125 (0x7d) | Exported Function | 0x4cd95210 | 0x00015210
-`PSetupCreatePrinterDeviceInfoList` | 126 (0x7e) | Exported Function | 0x4cda22a0 | 0x000222a0
-`PSetupEnumMonitor` | 135 (0x87) | Exported Function | 0x4cd95230 | 0x00015230
-`PSetupDestroyDriverInfo3` | 127 (0x7f) | Exported Function | 0x4cd95b90 | 0x00015b90
-`PSetupDestroyPrinterDeviceInfoList` | 129 (0x81) | Exported Function | 0x4cda2260 | 0x00022260
-`PSetupDestroySelectedDriverInfo` | 130 (0x82) | Exported Function | 0x4cda4360 | 0x00024360
-`PSetupDisassociateICMProfiles` | 131 (0x83) | Exported Function | 0x4cd91be0 | 0x00011be0
-`PSetupDownloadAndInstallLegacyDriverW` | 109 (0x6d) | Exported Function | 0x4cdaa7b0 | 0x0002a7b0
-`PSetupDriverInfoFromDeviceID` | 132 (0x84) | Exported Function | 0x4cda4920 | 0x00024920
-`PSetupDriverInfoFromName` | 133 (0x85) | Exported Function | 0x4cda3580 | 0x00023580
-`PSetupDriverStoreAddDriverPackage` | 134 (0x86) | Exported Function | 0x4cd9f390 | 0x0001f390
-`PSetupDriverStoreFindDriverPackageW` | 110 (0x6e) | Exported Function | 0x4cda43e0 | 0x000243e0
-`PSetupElevateAndCallDriverStoreAddDriverPackage` | 111 (0x6f) | Exported Function | 0x4cda6dc0 | 0x00026dc0
-`PSetupElevatedDriverStoreAddDriverPackageW` | 112 (0x70) | Exported Function | 0x4cda6d20 | 0x00026d20
-`PSetupElevatedInstallDownloadedLegacyDriverW` | 113 (0x71) | Exported Function | 0x4cda7630 | 0x00027630
-`PSetupElevatedInstallPrinterDriverFromTheWebW` | 114 (0x72) | Exported Function | 0x4cda70c0 | 0x000270c0
-`PSetupDestroyMonitorInfo` | 128 (0x80) | Exported Function | 0x4cd94b90 | 0x00014b90
-`ServerInstallW` | 119 (0x77) | Exported Function | 0x4cda4be0 | 0x00024be0
+Function Name | Ordinal | Type
+-- | -- | --
+`PSetupInstallMonitor` | 146 | Exported Function
+`PSetupInstallInboxDriverSilently` | 145 | Exported Function
+`PSetupInstallICMProfiles` | 144 | Exported Function
+`PSetupIsDriverInstalled` | 149 | Exported Function
+`PSetupIsCompatibleDriver` | 148 | Exported Function
+`PSetupInstallPrinterDriver` | 147 | Exported Function
+`PSetupGetSelectedDriverInfo` | 143 | Exported Function
+`PSetupGetDriverInfo3` | 139 | Exported Function
+`PSetupGetCatalogNameFromInfW` | 117 | Exported Function
+`PSetupGetActualInstallSection` | 116 | Exported Function
+`PSetupGetPathToSearch` | 142 | Exported Function
+`PSetupGetLocalDataField` | 141 | Exported Function
+`PSetupGetInfDriverStoreLocation` | 140 | Exported Function
+`PSetupIsTheDriverFoundInInfInstalled` | 150 | Exported Function
+`PSetupShowBlockedDriverUI` | 160 | Exported Function
+`PSetupSetSelectDevTitleAndInstructions` | 159 | Exported Function
+`PSetupSetNonInteractiveMode` | 158 | Exported Function
+`ServerInstallW` | 119 | Exported Function
+`PSetupWebPnpGenerateDownLevelInfForInboxDriver` | 118 | Exported Function
+`PSetupThisPlatform` | 161 | Exported Function
+`PSetupSetDriverPlatform` | 157 | Exported Function
+`PSetupProcessPrinterAdded` | 153 | Exported Function
+`PSetupPreSelectDriver` | 152 | Exported Function
+`PSetupParseInfAndCommitFileQueue` | 151 | Exported Function
+`PSetupSetCoreInboxDriverPath` | 156 | Exported Function
+`PSetupSelectDriver` | 155 | Exported Function
+`PSetupSelectDeviceButtons` | 154 | Exported Function
+`PSetupFreeMem` | 138 | Exported Function
+`PSetupDestroyDriverInfo3` | 127 | Exported Function
+`PSetupCreatePrinterDeviceInfoList` | 126 | Exported Function
+`PSetupCreateMonitorInfo` | 125 | Exported Function
+`PSetupDestroySelectedDriverInfo` | 130 | Exported Function
+`PSetupDestroyPrinterDeviceInfoList` | 129 | Exported Function
+`PSetupDestroyMonitorInfo` | 128 | Exported Function
+`PSetupCreateDrvSetupPage` | 124 | Exported Function
+`PSetupBuildDriverList` | 121 | Exported Function
+`PSetupAssociateICMProfiles` | 120 | Exported Function
+`ClassInstall32` | 105 | Exported Function
+`PSetupCopyDriverPackageFiles` | 123 | Exported Function
+`PSetupCheckForDriversInDriverStore` | 108 | Exported Function
+`PSetupBuildDriversFromPath` | 122 | Exported Function
+`PSetupDisassociateICMProfiles` | 131 | Exported Function
+`PSetupElevatedLegacyPrintDriverInstallW` | 115 | Exported Function
+`PSetupElevatedInstallPrinterDriverFromTheWebW` | 114 | Exported Function
+`PSetupElevatedInstallDownloadedLegacyDriverW` | 113 | Exported Function
+`PSetupFreeDrvField` | 137 | Exported Function
+`PSetupFindCompatibleDriverFromName` | 136 | Exported Function
+`PSetupEnumMonitor` | 135 | Exported Function
+`PSetupElevatedDriverStoreAddDriverPackageW` | 112 | Exported Function
+`PSetupDriverInfoFromName` | 133 | Exported Function
+`PSetupDriverInfoFromDeviceID` | 132 | Exported Function
+`PSetupDownloadAndInstallLegacyDriverW` | 109 | Exported Function
+`PSetupElevateAndCallDriverStoreAddDriverPackage` | 111 | Exported Function
+`PSetupDriverStoreFindDriverPackageW` | 110 | Exported Function
+`PSetupDriverStoreAddDriverPackage` | 134 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `DB0F8E920D2CC047FA98CFAFC6A786B9E9B0DB4C879149BD11B071BB421725EA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EnumSystemLocalesEx` | 1 (0x1) | Exported Function | kernel32.EnumSystemLocalesEx | 0x0000118e
+Function Name | Ordinal | Type
+-- | -- | --
+`EnumSystemLocalesEx` | 1 | Exported Function
 
 
 ## Signature

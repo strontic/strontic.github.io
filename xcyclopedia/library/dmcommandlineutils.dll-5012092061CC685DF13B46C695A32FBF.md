@@ -24,11 +24,11 @@ PE256 | `7060968181708C79228A31E701879A7A8EBB2EDB4D9C043F4031B8296A12611F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FreeCommandLineOptions` | 1 (0x1) | Exported Function | 0x10001e10 | 0x00001e10
-`ProcessCommandLine` | 2 (0x2) | Exported Function | 0x10001b70 | 0x00001b70
-`ProcessCommandLineOption` | 3 (0x3) | Exported Function | 0x10001a90 | 0x00001a90
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessCommandLineOption` | 3 | Exported Function
+`ProcessCommandLine` | 2 | Exported Function
+`FreeCommandLineOptions` | 1 | Exported Function
 
 
 ## Signature

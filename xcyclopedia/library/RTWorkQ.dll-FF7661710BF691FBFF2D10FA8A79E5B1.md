@@ -24,45 +24,45 @@ PE256 | `3B4627256BBA625D69E0C32DD26DF61CB20EA7BC37F0DF0493EAF166D37FA6B2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RtwqAddPeriodicCallback` | 2 (0x2) | Exported Function | 0x00000001800050f0 | 0x000050f0
-`RtwqPutMultipleWaitingWorkItem` | 21 (0x15) | Exported Function | 0x0000000180013c80 | 0x00013c80
-`RtwqPutWaitingWorkItem` | 22 (0x16) | Exported Function | 0x0000000180006120 | 0x00006120
-`RtwqPutWorkItem` | 23 (0x17) | Exported Function | 0x000000018000a6b0 | 0x0000a6b0
-`RtwqRegisterPlatformEvents` | 24 (0x18) | Exported Function | 0x000000018000c2c0 | 0x0000c2c0
-`RtwqRegisterPlatformWithMMCSS` | 25 (0x19) | Exported Function | 0x0000000180002f10 | 0x00002f10
-`RtwqRemovePeriodicCallback` | 26 (0x1a) | Exported Function | 0x0000000180005690 | 0x00005690
-`RtwqScheduleWorkItem` | 27 (0x1b) | Exported Function | 0x00000001800027e0 | 0x000027e0
-`RtwqSetDeadline` | 28 (0x1c) | Exported Function | 0x0000000180002350 | 0x00002350
-`RtwqSetDeadline2` | 29 (0x1d) | Exported Function | 0x0000000180002370 | 0x00002370
-`RtwqSetLongRunning` | 30 (0x1e) | Exported Function | 0x0000000180001040 | 0x00001040
-`RtwqShutdown` | 31 (0x1f) | Exported Function | 0x000000018000aaa0 | 0x0000aaa0
-`RtwqStartup` | 32 (0x20) | Exported Function | 0x0000000180006af0 | 0x00006af0
-`RtwqUnjoinWorkQueue` | 33 (0x21) | Exported Function | 0x0000000180005a90 | 0x00005a90
-`RtwqUnlockPlatform` | 34 (0x22) | Exported Function | 0x00000001800022d0 | 0x000022d0
-`RtwqUnlockWorkQueue` | 35 (0x23) | Exported Function | 0x00000001800096f0 | 0x000096f0
-`RtwqLockWorkQueue` | 20 (0x14) | Exported Function | 0x0000000180004ad0 | 0x00004ad0
-`RtwqUnregisterPlatformEvents` | 36 (0x24) | Exported Function | 0x0000000180014230 | 0x00014230
-`RtwqLockSharedWorkQueue` | 19 (0x13) | Exported Function | 0x00000001800032f0 | 0x000032f0
-`RtwqJoinWorkQueue` | 17 (0x11) | Exported Function | 0x00000001800059a0 | 0x000059a0
-`RtwqAllocateSerialWorkQueue` | 3 (0x3) | Exported Function | 0x0000000180006ef0 | 0x00006ef0
-`RtwqAllocateWorkQueue` | 4 (0x4) | Exported Function | 0x0000000180002e50 | 0x00002e50
-`RtwqBeginRegisterWorkQueueWithMMCSS` | 5 (0x5) | Exported Function | 0x0000000180004060 | 0x00004060
-`RtwqBeginUnregisterWorkQueueWithMMCSS` | 6 (0x6) | Exported Function | 0x0000000180013ee0 | 0x00013ee0
-`RtwqCancelDeadline` | 7 (0x7) | Exported Function | 0x0000000180002580 | 0x00002580
-`RtwqCancelMultipleWaitingWorkItem` | 8 (0x8) | Exported Function | 0x0000000180013c50 | 0x00013c50
-`RtwqCancelWorkItem` | 9 (0x9) | Exported Function | 0x000000018000be40 | 0x0000be40
-`RtwqCreateAsyncResult` | 10 (0xa) | Exported Function | 0x000000018000bd70 | 0x0000bd70
-`RtwqEndRegisterWorkQueueWithMMCSS` | 11 (0xb) | Exported Function | 0x0000000180005780 | 0x00005780
-`RtwqEndUnregisterWorkQueueWithMMCSS` | 12 (0xc) | Exported Function | 0x0000000180013fd0 | 0x00013fd0
-`RtwqGetPlatform` | 1 (0x1) | Exported Function | 0x0000000180013630 | 0x00013630
-`RtwqGetWorkQueueMMCSSClass` | 13 (0xd) | Exported Function | 0x0000000180014000 | 0x00014000
-`RtwqGetWorkQueueMMCSSPriority` | 14 (0xe) | Exported Function | 0x00000001800058b0 | 0x000058b0
-`RtwqGetWorkQueueMMCSSTaskId` | 15 (0xf) | Exported Function | 0x0000000180014120 | 0x00014120
-`RtwqInvokeCallback` | 16 (0x10) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`RtwqLockPlatform` | 18 (0x12) | Exported Function | 0x0000000180002310 | 0x00002310
-`RtwqUnregisterPlatformFromMMCSS` | 37 (0x25) | Exported Function | 0x0000000180014250 | 0x00014250
+Function Name | Ordinal | Type
+-- | -- | --
+`RtwqRemovePeriodicCallback` | 26 | Exported Function
+`RtwqRegisterPlatformWithMMCSS` | 25 | Exported Function
+`RtwqSetDeadline` | 28 | Exported Function
+`RtwqScheduleWorkItem` | 27 | Exported Function
+`RtwqRegisterPlatformEvents` | 24 | Exported Function
+`RtwqPutMultipleWaitingWorkItem` | 21 | Exported Function
+`RtwqLockWorkQueue` | 20 | Exported Function
+`RtwqPutWorkItem` | 23 | Exported Function
+`RtwqPutWaitingWorkItem` | 22 | Exported Function
+`RtwqUnlockWorkQueue` | 35 | Exported Function
+`RtwqUnlockPlatform` | 34 | Exported Function
+`RtwqUnregisterPlatformFromMMCSS` | 37 | Exported Function
+`RtwqUnregisterPlatformEvents` | 36 | Exported Function
+`RtwqUnjoinWorkQueue` | 33 | Exported Function
+`RtwqSetLongRunning` | 30 | Exported Function
+`RtwqSetDeadline2` | 29 | Exported Function
+`RtwqStartup` | 32 | Exported Function
+`RtwqShutdown` | 31 | Exported Function
+`RtwqLockSharedWorkQueue` | 19 | Exported Function
+`RtwqCancelMultipleWaitingWorkItem` | 8 | Exported Function
+`RtwqCancelDeadline` | 7 | Exported Function
+`RtwqCreateAsyncResult` | 10 | Exported Function
+`RtwqCancelWorkItem` | 9 | Exported Function
+`RtwqBeginUnregisterWorkQueueWithMMCSS` | 6 | Exported Function
+`RtwqAllocateSerialWorkQueue` | 3 | Exported Function
+`RtwqAddPeriodicCallback` | 2 | Exported Function
+`RtwqBeginRegisterWorkQueueWithMMCSS` | 5 | Exported Function
+`RtwqAllocateWorkQueue` | 4 | Exported Function
+`RtwqInvokeCallback` | 16 | Exported Function
+`RtwqGetWorkQueueMMCSSTaskId` | 15 | Exported Function
+`RtwqLockPlatform` | 18 | Exported Function
+`RtwqJoinWorkQueue` | 17 | Exported Function
+`RtwqGetWorkQueueMMCSSPriority` | 14 | Exported Function
+`RtwqEndUnregisterWorkQueueWithMMCSS` | 12 | Exported Function
+`RtwqEndRegisterWorkQueueWithMMCSS` | 11 | Exported Function
+`RtwqGetWorkQueueMMCSSClass` | 13 | Exported Function
+`RtwqGetPlatform` | 1 | Exported Function
 
 
 ## Signature

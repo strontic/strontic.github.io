@@ -24,21 +24,21 @@ PE256 | `FD3EBF2CA9EAF8D9D4A7CD1BA5A0B24E7D402571E93F70961BA3B5F64C9AA433`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SsCoreExtMiApplicationClose` | 1 (0x1) | Exported Function | 0x0000000180001340 | 0x00001340
-`SsCoreExtMiApplicationInitialize` | 2 (0x2) | Exported Function | 0x0000000180001030 | 0x00001030
-`SsCoreExtMiApplicationNewOperationOptions` | 3 (0x3) | Exported Function | 0x0000000180001050 | 0x00001050
-`SsCoreExtMiApplicationNewParameterSet` | 4 (0x4) | Exported Function | 0x00000001800010d0 | 0x000010d0
-`SsCoreExtMiApplicationNewSession` | 5 (0x5) | Exported Function | 0x0000000180001160 | 0x00001160
-`SsCoreExtMiInstanceAddElement` | 6 (0x6) | Exported Function | 0x0000000180001120 | 0x00001120
-`SsCoreExtMiInstanceDelete` | 7 (0x7) | Exported Function | 0x0000000180001370 | 0x00001370
-`SsCoreExtMiOperationClose` | 8 (0x8) | Exported Function | 0x0000000180001340 | 0x00001340
-`SsCoreExtMiOperationGetInstance` | 9 (0x9) | Exported Function | 0x00000001800012d0 | 0x000012d0
-`SsCoreExtMiOperationOptionsDelete` | 10 (0xa) | Exported Function | 0x00000001800013a0 | 0x000013a0
-`SsCoreExtMiOperationOptionsSetResourceUriPrefix` | 11 (0xb) | Exported Function | 0x0000000180001090 | 0x00001090
-`SsCoreExtMiSessionClose` | 12 (0xc) | Exported Function | 0x00000001800013d0 | 0x000013d0
-`SsCoreExtMiSessionInvoke` | 13 (0xd) | Exported Function | 0x00000001800011e0 | 0x000011e0
+Function Name | Ordinal | Type
+-- | -- | --
+`SsCoreExtMiOperationOptionsDelete` | 10 | Exported Function
+`SsCoreExtMiOperationGetInstance` | 9 | Exported Function
+`SsCoreExtMiOperationClose` | 8 | Exported Function
+`SsCoreExtMiSessionInvoke` | 13 | Exported Function
+`SsCoreExtMiSessionClose` | 12 | Exported Function
+`SsCoreExtMiOperationOptionsSetResourceUriPrefix` | 11 | Exported Function
+`SsCoreExtMiInstanceDelete` | 7 | Exported Function
+`SsCoreExtMiApplicationNewOperationOptions` | 3 | Exported Function
+`SsCoreExtMiApplicationInitialize` | 2 | Exported Function
+`SsCoreExtMiApplicationClose` | 1 | Exported Function
+`SsCoreExtMiInstanceAddElement` | 6 | Exported Function
+`SsCoreExtMiApplicationNewSession` | 5 | Exported Function
+`SsCoreExtMiApplicationNewParameterSet` | 4 | Exported Function
 
 
 ## Signature

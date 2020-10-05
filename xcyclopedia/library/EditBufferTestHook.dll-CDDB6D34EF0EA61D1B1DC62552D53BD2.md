@@ -24,12 +24,12 @@ PE256 | `C1566FFE149F12CAA914C8D9C8499A8BE6DF60B3DC638DBDF368B74D91AC8B99`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateEditBufferTestHook` | 1 (0x1) | Exported Function | 0x300054f0 | 0x000054f0
-`CreateEditBufferTestHookClient` | 2 (0x2) | Exported Function | 0x30009560 | 0x00009560
-`EnableTestHook` | 3 (0x3) | Exported Function | 0x30009670 | 0x00009670
-`GetTestHookEnabled` | 4 (0x4) | Exported Function | 0x30009730 | 0x00009730
+Function Name | Ordinal | Type
+-- | -- | --
+`EnableTestHook` | 3 | Exported Function
+`GetTestHookEnabled` | 4 | Exported Function
+`CreateEditBufferTestHook` | 1 | Exported Function
+`CreateEditBufferTestHookClient` | 2 | Exported Function
 
 
 ## Signature

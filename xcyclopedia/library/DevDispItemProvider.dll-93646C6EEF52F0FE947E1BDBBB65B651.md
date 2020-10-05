@@ -24,9 +24,9 @@ PE256 | `DBC32C490CF537B806CA6DB78DFF1687ADAE7E9B322969D84E52F7DFC4D98AF3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DevQueryEntry` | 1 (0x1) | Exported Function | 0x10002070 | 0x00002070
+Function Name | Ordinal | Type
+-- | -- | --
+`DevQueryEntry` | 1 | Exported Function
 
 
 ## Signature

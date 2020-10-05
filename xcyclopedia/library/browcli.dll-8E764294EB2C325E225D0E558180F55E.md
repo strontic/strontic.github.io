@@ -24,20 +24,20 @@ PE256 | `CC43B4C1728D8F640A8D8E286BCB7CB3102D0DD7EA490F89CEC902372223BE6B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`I_BrowserDebugCall` | 1 (0x1) | Exported Function | 0x10002c50 | 0x00002c50
-`I_BrowserDebugTrace` | 2 (0x2) | Exported Function | 0x10002d00 | 0x00002d00
-`I_BrowserQueryEmulatedDomains` | 3 (0x3) | Exported Function | 0x10002db0 | 0x00002db0
-`I_BrowserQueryOtherDomains` | 4 (0x4) | Exported Function | 0x100037c0 | 0x000037c0
-`I_BrowserQueryStatistics` | 5 (0x5) | Exported Function | 0x10002e90 | 0x00002e90
-`I_BrowserResetNetlogonState` | 6 (0x6) | Exported Function | 0x10002f40 | 0x00002f40
-`I_BrowserResetStatistics` | 7 (0x7) | Exported Function | 0x10002ff0 | 0x00002ff0
-`I_BrowserServerEnum` | 8 (0x8) | Exported Function | 0x100030a0 | 0x000030a0
-`I_BrowserSetNetlogonState` | 9 (0x9) | Exported Function | 0x100032a0 | 0x000032a0
-`NetBrowserStatisticsGet` | 10 (0xa) | Exported Function | 0x10003360 | 0x00003360
-`NetServerEnum` | 11 (0xb) | Exported Function | 0x10003460 | 0x00003460
-`NetServerEnumEx` | 12 (0xc) | Exported Function | 0x100034a0 | 0x000034a0
+Function Name | Ordinal | Type
+-- | -- | --
+`I_BrowserSetNetlogonState` | 9 | Exported Function
+`I_BrowserServerEnum` | 8 | Exported Function
+`I_BrowserResetStatistics` | 7 | Exported Function
+`NetServerEnumEx` | 12 | Exported Function
+`NetServerEnum` | 11 | Exported Function
+`NetBrowserStatisticsGet` | 10 | Exported Function
+`I_BrowserQueryEmulatedDomains` | 3 | Exported Function
+`I_BrowserDebugTrace` | 2 | Exported Function
+`I_BrowserDebugCall` | 1 | Exported Function
+`I_BrowserResetNetlogonState` | 6 | Exported Function
+`I_BrowserQueryStatistics` | 5 | Exported Function
+`I_BrowserQueryOtherDomains` | 4 | Exported Function
 
 
 ## Signature

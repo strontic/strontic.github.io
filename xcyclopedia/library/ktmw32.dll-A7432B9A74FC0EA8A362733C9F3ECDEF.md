@@ -24,52 +24,52 @@ PE256 | `0A36B6C46952B0FD8F7D2370AF19CBCF73F7FB8FF1A8BC9EBEBCDA0382A61120`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CommitComplete` | 1 (0x1) | Exported Function | 0x00000001800019e0 | 0x000019e0
-`PrePrepareEnlistment` | 23 (0x17) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`PrivCreateTransaction` | 26 (0x1a) | Exported Function | 0x0000000180001010 | 0x00001010
-`PrivIsLogWritableTransactionManager` | 27 (0x1b) | Exported Function | 0x00000001800020c0 | 0x000020c0
-`PrivPropagationComplete` | 28 (0x1c) | Exported Function | 0x0000000180002810 | 0x00002810
-`PrivPropagationFailed` | 29 (0x1d) | Exported Function | 0x0000000180002860 | 0x00002860
-`PrivRegisterProtocolAddressInformation` | 30 (0x1e) | Exported Function | 0x00000001800027c0 | 0x000027c0
-`ReadOnlyEnlistment` | 31 (0x1f) | Exported Function | 0x0000000180001990 | 0x00001990
-`RecoverEnlistment` | 32 (0x20) | Exported Function | 0x0000000180002630 | 0x00002630
-`PrePrepareComplete` | 22 (0x16) | Exported Function | 0x00000001800018f0 | 0x000018f0
-`RecoverResourceManager` | 33 (0x21) | Exported Function | 0x00000001800022d0 | 0x000022d0
-`RenameTransactionManager` | 35 (0x23) | Exported Function | 0x0000000180001e20 | 0x00001e20
-`RollbackComplete` | 36 (0x24) | Exported Function | 0x0000000180001a30 | 0x00001a30
-`RollbackEnlistment` | 37 (0x25) | Exported Function | 0x0000000180001340 | 0x00001340
-`RollbackTransaction` | 38 (0x26) | Exported Function | 0x0000000180001430 | 0x00001430
-`RollbackTransactionAsync` | 39 (0x27) | Exported Function | 0x0000000180001480 | 0x00001480
-`RollforwardTransactionManager` | 40 (0x28) | Exported Function | 0x0000000180001f00 | 0x00001f00
-`SetEnlistmentRecoveryInformation` | 41 (0x29) | Exported Function | 0x00000001800026e0 | 0x000026e0
-`SetResourceManagerCompletionPort` | 42 (0x2a) | Exported Function | 0x0000000180002440 | 0x00002440
-`RecoverTransactionManager` | 34 (0x22) | Exported Function | 0x0000000180001f50 | 0x00001f50
-`PrepareEnlistment` | 25 (0x19) | Exported Function | 0x0000000180001250 | 0x00001250
-`PrepareComplete` | 24 (0x18) | Exported Function | 0x0000000180001940 | 0x00001940
-`OpenTransactionManagerById` | 21 (0x15) | Exported Function | 0x0000000180001d80 | 0x00001d80
-`CommitEnlistment` | 2 (0x2) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`CommitTransaction` | 3 (0x3) | Exported Function | 0x0000000180001390 | 0x00001390
-`CommitTransactionAsync` | 4 (0x4) | Exported Function | 0x00000001800013e0 | 0x000013e0
-`CreateEnlistment` | 5 (0x5) | Exported Function | 0x00000001800024a0 | 0x000024a0
-`CreateResourceManager` | 6 (0x6) | Exported Function | 0x0000000180002110 | 0x00002110
-`CreateTransaction` | 7 (0x7) | Exported Function | 0x0000000180001170 | 0x00001170
-`CreateTransactionManager` | 8 (0x8) | Exported Function | 0x0000000180001ad0 | 0x00001ad0
-`GetCurrentClockTransactionManager` | 9 (0x9) | Exported Function | 0x0000000180001fa0 | 0x00001fa0
-`GetEnlistmentId` | 10 (0xa) | Exported Function | 0x0000000180002730 | 0x00002730
-`GetEnlistmentRecoveryInformation` | 11 (0xb) | Exported Function | 0x0000000180002680 | 0x00002680
-`GetNotificationResourceManager` | 12 (0xc) | Exported Function | 0x0000000180002320 | 0x00002320
-`GetNotificationResourceManagerAsync` | 13 (0xd) | Exported Function | 0x00000001800023b0 | 0x000023b0
-`GetTransactionId` | 14 (0xe) | Exported Function | 0x00000001800014d0 | 0x000014d0
-`GetTransactionInformation` | 15 (0xf) | Exported Function | 0x0000000180001560 | 0x00001560
-`GetTransactionManagerId` | 16 (0x10) | Exported Function | 0x0000000180002030 | 0x00002030
-`OpenEnlistment` | 17 (0x11) | Exported Function | 0x0000000180002590 | 0x00002590
-`OpenResourceManager` | 18 (0x12) | Exported Function | 0x0000000180002230 | 0x00002230
-`OpenTransaction` | 19 (0x13) | Exported Function | 0x00000001800011b0 | 0x000011b0
-`OpenTransactionManager` | 20 (0x14) | Exported Function | 0x0000000180001c60 | 0x00001c60
-`SetTransactionInformation` | 43 (0x2b) | Exported Function | 0x0000000180001730 | 0x00001730
-`SinglePhaseReject` | 44 (0x2c) | Exported Function | 0x0000000180001a80 | 0x00001a80
+Function Name | Ordinal | Type
+-- | -- | --
+`PrivRegisterProtocolAddressInformation` | 30 | Exported Function
+`PrivPropagationFailed` | 29 | Exported Function
+`ReadOnlyEnlistment` | 31 | Exported Function
+`RecoverResourceManager` | 33 | Exported Function
+`RecoverEnlistment` | 32 | Exported Function
+`PrivPropagationComplete` | 28 | Exported Function
+`PrePrepareComplete` | 22 | Exported Function
+`PrepareEnlistment` | 25 | Exported Function
+`PrePrepareEnlistment` | 23 | Exported Function
+`PrivIsLogWritableTransactionManager` | 27 | Exported Function
+`PrivCreateTransaction` | 26 | Exported Function
+`SetEnlistmentRecoveryInformation` | 41 | Exported Function
+`RollforwardTransactionManager` | 40 | Exported Function
+`SetResourceManagerCompletionPort` | 42 | Exported Function
+`SinglePhaseReject` | 44 | Exported Function
+`SetTransactionInformation` | 43 | Exported Function
+`RollbackTransactionAsync` | 39 | Exported Function
+`RenameTransactionManager` | 35 | Exported Function
+`RecoverTransactionManager` | 34 | Exported Function
+`RollbackComplete` | 36 | Exported Function
+`RollbackTransaction` | 38 | Exported Function
+`RollbackEnlistment` | 37 | Exported Function
+`CreateTransactionManager` | 8 | Exported Function
+`CreateTransaction` | 7 | Exported Function
+`GetCurrentClockTransactionManager` | 9 | Exported Function
+`GetEnlistmentRecoveryInformation` | 11 | Exported Function
+`GetEnlistmentId` | 10 | Exported Function
+`CreateResourceManager` | 6 | Exported Function
+`CommitEnlistment` | 2 | Exported Function
+`CommitComplete` | 1 | Exported Function
+`CommitTransaction` | 3 | Exported Function
+`CreateEnlistment` | 5 | Exported Function
+`CommitTransactionAsync` | 4 | Exported Function
+`OpenTransaction` | 19 | Exported Function
+`OpenResourceManager` | 18 | Exported Function
+`OpenTransactionManager` | 20 | Exported Function
+`PrepareComplete` | 24 | Exported Function
+`OpenTransactionManagerById` | 21 | Exported Function
+`OpenEnlistment` | 17 | Exported Function
+`GetNotificationResourceManagerAsync` | 13 | Exported Function
+`GetNotificationResourceManager` | 12 | Exported Function
+`GetTransactionId` | 14 | Exported Function
+`GetTransactionManagerId` | 16 | Exported Function
+`GetTransactionInformation` | 15 | Exported Function
 
 
 ## Signature

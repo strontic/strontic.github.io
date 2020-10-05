@@ -24,16 +24,16 @@ PE256 | `FFF124582D27AC3F3CF3B88AD8A9A0940C0438ADED6C7D6A4302221724C9F93C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 1 (0x1) | Exported Function | 0x0000000180003ac0 | 0x00003ac0
-`DllUnregisterServer` | 2 (0x2) | Exported Function | 0x0000000180003ac0 | 0x00003ac0
-`GuestInterfaceServiceMain` | 3 (0x3) | Exported Function | 0x0000000180003910 | 0x00003910
-`HeartbeatServiceMain` | 4 (0x4) | Exported Function | 0x0000000180003930 | 0x00003930
-`KvpexchangeServiceMain` | 5 (0x5) | Exported Function | 0x0000000180003940 | 0x00003940
-`ShutdownServiceMain` | 6 (0x6) | Exported Function | 0x0000000180003960 | 0x00003960
-`TimesyncServiceMain` | 7 (0x7) | Exported Function | 0x0000000180003980 | 0x00003980
-`VMSessionServiceMain` | 8 (0x8) | Exported Function | 0x00000001800039a0 | 0x000039a0
+Function Name | Ordinal | Type
+-- | -- | --
+`ShutdownServiceMain` | 6 | Exported Function
+`KvpexchangeServiceMain` | 5 | Exported Function
+`VMSessionServiceMain` | 8 | Exported Function
+`TimesyncServiceMain` | 7 | Exported Function
+`DllUnregisterServer` | 2 | Exported Function
+`DllRegisterServer` | 1 | Exported Function
+`HeartbeatServiceMain` | 4 | Exported Function
+`GuestInterfaceServiceMain` | 3 | Exported Function
 
 
 ## Signature

@@ -24,20 +24,20 @@ PE256 | `DE12CA14B8F73A9C43FD461A7DE23D6E449D5E4E971AB3C4831B8AA17226EB66`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetCLRVersionForPSVersion` | 1 (0x1) | Exported Function | 0x10009dc0 | 0x00009dc0
-`PerformWSManPluginReportCompletion` | 2 (0x2) | Exported Function | 0x10009bb0 | 0x00009bb0
-`WSManPluginCommand` | 3 (0x3) | Exported Function | 0x1000a1b0 | 0x0000a1b0
-`WSManPluginConnect` | 4 (0x4) | Exported Function | 0x1000a3a0 | 0x0000a3a0
-`WSManPluginReceive` | 5 (0x5) | Exported Function | 0x1000a2e0 | 0x0000a2e0
-`WSManPluginReleaseCommandContext` | 6 (0x6) | Exported Function | 0x1000a210 | 0x0000a210
-`WSManPluginReleaseShellContext` | 7 (0x7) | Exported Function | 0x1000a150 | 0x0000a150
-`WSManPluginSend` | 8 (0x8) | Exported Function | 0x1000a270 | 0x0000a270
-`WSManPluginShell` | 9 (0x9) | Exported Function | 0x1000a080 | 0x0000a080
-`WSManPluginShutdown` | 10 (0xa) | Exported Function | 0x1000a000 | 0x0000a000
-`WSManPluginSignal` | 11 (0xb) | Exported Function | 0x1000a340 | 0x0000a340
-`WSManPluginStartup` | 12 (0xc) | Exported Function | 0x10009f20 | 0x00009f20
+Function Name | Ordinal | Type
+-- | -- | --
+`WSManPluginShell` | 9 | Exported Function
+`WSManPluginSend` | 8 | Exported Function
+`WSManPluginReleaseShellContext` | 7 | Exported Function
+`WSManPluginStartup` | 12 | Exported Function
+`WSManPluginSignal` | 11 | Exported Function
+`WSManPluginShutdown` | 10 | Exported Function
+`WSManPluginCommand` | 3 | Exported Function
+`PerformWSManPluginReportCompletion` | 2 | Exported Function
+`GetCLRVersionForPSVersion` | 1 | Exported Function
+`WSManPluginReleaseCommandContext` | 6 | Exported Function
+`WSManPluginReceive` | 5 | Exported Function
+`WSManPluginConnect` | 4 | Exported Function
 
 
 ## Signature

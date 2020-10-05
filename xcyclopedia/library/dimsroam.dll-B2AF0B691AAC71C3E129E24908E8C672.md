@@ -24,9 +24,9 @@ PE256 | `84160DBF0CD8A8452CC3C4460C8DC1D015686EEC2D6038BD311C15445976702E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DimsRoamEntry` | 1 (0x1) | Exported Function | 0x10002ae0 | 0x00002ae0
+Function Name | Ordinal | Type
+-- | -- | --
+`DimsRoamEntry` | 1 | Exported Function
 
 
 ## Signature

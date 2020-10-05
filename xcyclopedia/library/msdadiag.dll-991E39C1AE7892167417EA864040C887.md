@@ -24,9 +24,9 @@ PE256 | `CE38B374CE56E8FA104105E952D99057B0BB86E402169855F76ED0650A0A62C1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllBidEntryPoint` | 1 (0x1) | Exported Function | 0x000000018000a2f0 | 0x0000a2f0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllBidEntryPoint` | 1 | Exported Function
 
 
 ## Signature

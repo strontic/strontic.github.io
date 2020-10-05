@@ -24,10 +24,10 @@ PE256 | `9C8F1DAFDD1A7780441A1B4577E2A26251AD9EDC294B7CEB92C9D315D44BF388`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`sdwhcon` | 1 (0x1) | Exported Function | 0x0000000180050e90 | 0x00050e90
-`sdwhwin32` | 2 (0x2) | Exported Function | 0x0000000180050ec0 | 0x00050ec0
+Function Name | Ordinal | Type
+-- | -- | --
+`sdwhwin32` | 2 | Exported Function
+`sdwhcon` | 1 | Exported Function
 
 
 ## Signature

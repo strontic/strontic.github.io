@@ -24,11 +24,11 @@ PE256 | `B31D03FC601E88B51906AC6498FBEF917319588087DD2F73801887C22E21B6A2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FujitsuOyayubiControl` | 16 (0x10) | Exported Function | 0x0000000180002368 | 0x00002368
-`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x0000000180002380 | 0x00002380
-`KbdNlsLayerDescriptor` | 2 (0x2) | Exported Function | 0x0000000180002390 | 0x00002390
+Function Name | Ordinal | Type
+-- | -- | --
+`KbdNlsLayerDescriptor` | 2 | Exported Function
+`KbdLayerDescriptor` | 1 | Exported Function
+`FujitsuOyayubiControl` | 16 | Exported Function
 
 
 ## Signature

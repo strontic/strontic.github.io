@@ -24,11 +24,11 @@ PE256 | `D6856069B9BF19F0C032A6D6F977DB52D558E6EEE93127A003BB239C21CE1623`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 3 (0x3) | Exported Function | 0x10007f00 | 0x00007f00
-`SpLsaModeInitialize` | 1 (0x1) | Exported Function | 0x10006fd0 | 0x00006fd0
-`SpUserModeInitialize` | 2 (0x2) | Exported Function | 0x1002b800 | 0x0002b800
+Function Name | Ordinal | Type
+-- | -- | --
+`SpUserModeInitialize` | 2 | Exported Function
+`SpLsaModeInitialize` | 1 | Exported Function
+`DllMain` | 3 | Exported Function
 
 
 ## Signature

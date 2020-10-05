@@ -24,24 +24,24 @@ PE256 | `1B9198BD3314EB91E4B00DD1DD99BFB3247CABA66B1B45059C4E77970FD09A66`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AllocateAttributes` | 1 (0x1) | Exported Function | 0x10007b90 | 0x00007b90
-`ConfigureIas` | 2 (0x2) | Exported Function | 0x10008080 | 0x00008080
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x10006fe0 | 0x00006fe0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x10007000 | 0x00007000
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x10007030 | 0x00007030
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x10007050 | 0x00007050
-`DoRequest` | 7 (0x7) | Exported Function | 0x10007c40 | 0x00007c40
-`DoRequestAsync` | 8 (0x8) | Exported Function | 0x100083b0 | 0x000083b0
-`FreeAttributes` | 9 (0x9) | Exported Function | 0x10007c10 | 0x00007c10
-`GetOptionIas` | 10 (0xa) | Exported Function | 0x10008a30 | 0x00008a30
-`InitializeIas` | 11 (0xb) | Exported Function | 0x10007070 | 0x00007070
-`MemAllocIas` | 12 (0xc) | Exported Function | 0x10008360 | 0x00008360
-`MemFreeIas` | 13 (0xd) | Exported Function | 0x10008380 | 0x00008380
-`MemReallocIas` | 14 (0xe) | Exported Function | 0x10008390 | 0x00008390
-`SetOptionIas` | 15 (0xf) | Exported Function | 0x10008860 | 0x00008860
-`ShutdownIas` | 16 (0x10) | Exported Function | 0x100077e0 | 0x000077e0
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializeIas` | 11 | Exported Function
+`MemAllocIas` | 12 | Exported Function
+`FreeAttributes` | 9 | Exported Function
+`GetOptionIas` | 10 | Exported Function
+`SetOptionIas` | 15 | Exported Function
+`ShutdownIas` | 16 | Exported Function
+`MemFreeIas` | 13 | Exported Function
+`MemReallocIas` | 14 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`AllocateAttributes` | 1 | Exported Function
+`ConfigureIas` | 2 | Exported Function
+`DoRequest` | 7 | Exported Function
+`DoRequestAsync` | 8 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
 
 
 ## Signature

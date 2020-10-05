@@ -24,12 +24,12 @@ PE256 | `90D9790AC486F0553A6D527BC00E4C2536FEF0DDC3F4D5167BADDF348B511C47`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DhcpGlobalIsShuttingDown` | 1 (0x1) | Exported Function | 0x10043f74 | 0x00043f74
-`DhcpGlobalServiceSyncEvent` | 2 (0x2) | Exported Function | 0x10043dc4 | 0x00043dc4
-`DhcpGlobalTerminateEvent` | 3 (0x3) | Exported Function | 0x10043dc0 | 0x00043dc0
-`ServiceMain` | 4 (0x4) | Exported Function | 0x1001e710 | 0x0001e710
+Function Name | Ordinal | Type
+-- | -- | --
+`DhcpGlobalTerminateEvent` | 3 | Exported Function
+`ServiceMain` | 4 | Exported Function
+`DhcpGlobalIsShuttingDown` | 1 | Exported Function
+`DhcpGlobalServiceSyncEvent` | 2 | Exported Function
 
 
 ## Signature

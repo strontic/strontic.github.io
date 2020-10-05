@@ -24,11 +24,11 @@ PE256 | `B5429F4960AC8A13EB6C830E444B4D864AAA06382A3DFE8A2CB726C9D4F896BC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GroupServiceMain` | 1 (0x1) | Exported Function | 0x0000000180001700 | 0x00001700
-`InitSecurityInterfaceW` | 3 (0x3) | Exported Function | 0x00000001800019d0 | 0x000019d0
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x00000001800016f0 | 0x000016f0
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`InitSecurityInterfaceW` | 3 | Exported Function
+`GroupServiceMain` | 1 | Exported Function
 
 
 ## Signature

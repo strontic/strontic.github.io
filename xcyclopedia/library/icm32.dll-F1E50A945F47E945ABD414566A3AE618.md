@@ -24,29 +24,29 @@ PE256 | `ED7A49934B1A10095F008223BC528B4AD2CC9F620DFF0094472F330C0C1D0ACD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CMCheckColors` | 1 (0x1) | Exported Function | 0x5e90eb50 | 0x0000eb50
-`CMTranslateRGB` | 16 (0x10) | Exported Function | 0x5e90eba0 | 0x0000eba0
-`CMTranslateColors` | 15 (0xf) | Exported Function | 0x5e90f0d0 | 0x0000f0d0
-`CMIsProfileValid` | 14 (0xe) | Exported Function | 0x5e90f0a0 | 0x0000f0a0
-`CMGetNamedProfileInfo` | 21 (0x15) | Exported Function | 0x5e90f070 | 0x0000f070
-`CMGetInfo` | 13 (0xd) | Exported Function | 0x5e9060f0 | 0x000060f0
-`CMDeleteTransform` | 12 (0xc) | Exported Function | 0x5e906030 | 0x00006030
-`CMCreateTransformW` | 11 (0xb) | Exported Function | 0x5e90ee50 | 0x0000ee50
-`CMCreateTransformExtW` | 10 (0xa) | Exported Function | 0x5e90efc0 | 0x0000efc0
-`CMTranslateRGBs` | 17 (0x11) | Exported Function | 0x5e90f140 | 0x0000f140
-`CMCreateTransformExt` | 9 (0x9) | Exported Function | 0x5e90ee70 | 0x0000ee70
-`CMCreateProfileW` | 7 (0x7) | Exported Function | 0x5e90ee10 | 0x0000ee10
-`CMCreateProfile` | 6 (0x6) | Exported Function | 0x5e90edf0 | 0x0000edf0
-`CMCreateMultiProfileTransform` | 5 (0x5) | Exported Function | 0x5e901f70 | 0x00001f70
-`CMCreateDeviceLinkProfile` | 4 (0x4) | Exported Function | 0x5e90ed20 | 0x0000ed20
-`CMConvertIndexToColorName` | 20 (0x14) | Exported Function | 0x5e90ece0 | 0x0000ece0
-`CMConvertColorNameToIndex` | 19 (0x13) | Exported Function | 0x5e90eca0 | 0x0000eca0
-`CMCheckRGBs` | 3 (0x3) | Exported Function | 0x5e90ebc0 | 0x0000ebc0
-`CMCheckColorsInGamut` | 2 (0x2) | Exported Function | 0x5e90eba0 | 0x0000eba0
-`CMCreateTransform` | 8 (0x8) | Exported Function | 0x5e90ee50 | 0x0000ee50
-`CMTranslateRGBsExt` | 18 (0x12) | Exported Function | 0x5e905100 | 0x00005100
+Function Name | Ordinal | Type
+-- | -- | --
+`CMGetInfo` | 13 | Exported Function
+`CMGetNamedProfileInfo` | 21 | Exported Function
+`CMDeleteTransform` | 12 | Exported Function
+`CMCreateTransformExtW` | 10 | Exported Function
+`CMCreateTransformW` | 11 | Exported Function
+`CMTranslateRGBs` | 17 | Exported Function
+`CMTranslateRGBsExt` | 18 | Exported Function
+`CMTranslateRGB` | 16 | Exported Function
+`CMIsProfileValid` | 14 | Exported Function
+`CMTranslateColors` | 15 | Exported Function
+`CMCreateTransformExt` | 9 | Exported Function
+`CMConvertColorNameToIndex` | 19 | Exported Function
+`CMConvertIndexToColorName` | 20 | Exported Function
+`CMCheckRGBs` | 3 | Exported Function
+`CMCheckColors` | 1 | Exported Function
+`CMCheckColorsInGamut` | 2 | Exported Function
+`CMCreateProfileW` | 7 | Exported Function
+`CMCreateTransform` | 8 | Exported Function
+`CMCreateProfile` | 6 | Exported Function
+`CMCreateDeviceLinkProfile` | 4 | Exported Function
+`CMCreateMultiProfileTransform` | 5 | Exported Function
 
 
 ## Signature

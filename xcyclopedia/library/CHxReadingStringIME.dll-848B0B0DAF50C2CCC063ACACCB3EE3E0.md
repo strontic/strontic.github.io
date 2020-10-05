@@ -24,10 +24,10 @@ PE256 | `5E47D063980FC118EB279F861469B03BB3413D0C35937CC669CAB44D6B3B1BD0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetReadingString` | 1 (0x1) | Exported Function | 0x10001650 | 0x00001650
-`ShowReadingWindow` | 2 (0x2) | Exported Function | 0x100016f0 | 0x000016f0
+Function Name | Ordinal | Type
+-- | -- | --
+`ShowReadingWindow` | 2 | Exported Function
+`GetReadingString` | 1 | Exported Function
 
 
 ## Signature

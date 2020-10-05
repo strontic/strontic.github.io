@@ -24,9 +24,9 @@ PE256 | `DAF35D0E71E19BCF42ED5E9D8610CF360DC553281B871C82A2E1AB844CA379EA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateCacheMgr` | 1 (0x1) | Exported Function | 0x00000001800013f0 | 0x000013f0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateCacheMgr` | 1 | Exported Function
 
 
 ## Signature

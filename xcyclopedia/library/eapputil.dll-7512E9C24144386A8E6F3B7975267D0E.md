@@ -24,16 +24,16 @@ PE256 | `3657DC788F2E9B1A2A2C822747E2EE75B941F43908503BA3615CC76F990DD8D8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180004ab0 | 0x00004ab0
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x0000000180004b40 | 0x00004b40
-`EapConvertHostToWireFormat16` | 3 (0x3) | Exported Function | 0x0000000180004b50 | 0x00004b50
-`EapConvertHostToWireFormat24` | 4 (0x4) | Exported Function | 0x0000000180004b90 | 0x00004b90
-`EapConvertHostToWireFormat32` | 5 (0x5) | Exported Function | 0x0000000180004bd0 | 0x00004bd0
-`EapConvertWireToHostFormat16` | 6 (0x6) | Exported Function | 0x0000000180004b70 | 0x00004b70
-`EapConvertWireToHostFormat24` | 7 (0x7) | Exported Function | 0x0000000180004bb0 | 0x00004bb0
-`EapConvertWireToHostFormat32` | 8 (0x8) | Exported Function | 0x0000000180004c00 | 0x00004c00
+Function Name | Ordinal | Type
+-- | -- | --
+`EapConvertWireToHostFormat16` | 6 | Exported Function
+`EapConvertHostToWireFormat32` | 5 | Exported Function
+`EapConvertWireToHostFormat32` | 8 | Exported Function
+`EapConvertWireToHostFormat24` | 7 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`EapConvertHostToWireFormat24` | 4 | Exported Function
+`EapConvertHostToWireFormat16` | 3 | Exported Function
 
 
 ## Signature

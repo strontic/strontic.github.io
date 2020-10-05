@@ -24,51 +24,51 @@ PE256 | `D84772C25B1BD4BBF8138CFA3B6BF9A54C04B12E1602D1688F6D8386EB23C0A9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180007c50 | 0x00007c50
-`WcmGetRoutingHint` | 24 (0x18) | Exported Function | 0x000000018000d710 | 0x0000d710
-`WcmOpenHandle` | 25 (0x19) | Exported Function | 0x000000018000d920 | 0x0000d920
-`WcmOpenOnDemandRequestHandle` | 26 (0x1a) | Exported Function | 0x000000018000dc90 | 0x0000dc90
-`WcmOpenOnDemandRequestHandleByWwanProfileName` | 27 (0x1b) | Exported Function | 0x000000018000e180 | 0x0000e180
-`WcmOrderConnection` | 28 (0x1c) | Exported Function | 0x000000018000e580 | 0x0000e580
-`WcmQueryOnDemandRequestStateInfo` | 29 (0x1d) | Exported Function | 0x000000018000e7b0 | 0x0000e7b0
-`WcmQueryParameter` | 30 (0x1e) | Exported Function | 0x000000018000ea90 | 0x0000ea90
-`WcmQueryProperty` | 31 (0x1f) | Exported Function | 0x000000018000ee10 | 0x0000ee10
-`WcmGetProfileListByPurpose` | 23 (0x17) | Exported Function | 0x000000018000d490 | 0x0000d490
-`WcmRemoveMatchingRoutePolicy` | 32 (0x20) | Exported Function | 0x000000018000f0c0 | 0x0000f0c0
-`WcmResetIgnoreProfileList` | 34 (0x22) | Exported Function | 0x000000018000f3e0 | 0x0000f3e0
-`WcmSetOperatorConnectionCost` | 35 (0x23) | Exported Function | 0x000000018000f610 | 0x0000f610
-`WcmSetOperatorCycleData` | 36 (0x24) | Exported Function | 0x000000018000f7f0 | 0x0000f7f0
-`WcmSetOperatorDataplanStatus` | 37 (0x25) | Exported Function | 0x000000018000f9c0 | 0x0000f9c0
-`WcmSetParameter` | 38 (0x26) | Exported Function | 0x000000018000fba0 | 0x0000fba0
-`WcmSetProfileList` | 39 (0x27) | Exported Function | 0x000000018000fec0 | 0x0000fec0
-`WcmSetProperty` | 40 (0x28) | Exported Function | 0x00000001800101a0 | 0x000101a0
-`WcmSetProxyInformation` | 41 (0x29) | Exported Function | 0x0000000180010400 | 0x00010400
-`WcmRemoveRoutePolicy` | 33 (0x21) | Exported Function | 0x000000018000f290 | 0x0000f290
-`WcmStartOnDemandRequest` | 42 (0x2a) | Exported Function | 0x00000001800105d0 | 0x000105d0
-`WcmGetProfileList` | 22 (0x16) | Exported Function | 0x000000018000d2e0 | 0x0000d2e0
-`WcmGetInterfaceContextTable` | 20 (0x14) | Exported Function | 0x0000000180002e40 | 0x00002e40
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180007c70 | 0x00007c70
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180003310 | 0x00003310
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180003310 | 0x00003310
-`WcmAddRoutePolicy` | 5 (0x5) | Exported Function | 0x000000018000b620 | 0x0000b620
-`WcmBeginIgnoreProfileList` | 6 (0x6) | Exported Function | 0x000000018000b840 | 0x0000b840
-`WcmCancelOnDemandRequest` | 7 (0x7) | Exported Function | 0x000000018000ba70 | 0x0000ba70
-`WcmCheckCapabilityStatus` | 8 (0x8) | Exported Function | 0x000000018000bd30 | 0x0000bd30
-`WcmCloseHandle` | 9 (0x9) | Exported Function | 0x000000018000bed0 | 0x0000bed0
-`WcmGetInterfaceToken` | 21 (0x15) | Exported Function | 0x000000018000d0d0 | 0x0000d0d0
-`WcmCloseOnDemandRequestHandle` | 10 (0xa) | Exported Function | 0x000000018000c0c0 | 0x0000c0c0
-`WcmDeprovisionCapability` | 12 (0xc) | Exported Function | 0x000000018000c560 | 0x0000c560
-`WcmEndIgnoreProfileList` | 13 (0xd) | Exported Function | 0x000000018000c730 | 0x0000c730
-`WcmEnterConnectedStandby` | 14 (0xe) | Exported Function | 0x000000018000c930 | 0x0000c930
-`WcmEnterNetQuiet` | 15 (0xf) | Exported Function | 0x000000018000ca70 | 0x0000ca70
-`WcmEnumInterfaces` | 16 (0x10) | Exported Function | 0x000000018000cbb0 | 0x0000cbb0
-`WcmExitConnectedStandby` | 17 (0x11) | Exported Function | 0x000000018000ce50 | 0x0000ce50
-`WcmExitNetQuiet` | 18 (0x12) | Exported Function | 0x000000018000cf90 | 0x0000cf90
-`WcmFreeMemory` | 19 (0x13) | Exported Function | 0x0000000180003130 | 0x00003130
-`WcmDeleteProxyInformation` | 11 (0xb) | Exported Function | 0x000000018000c3a0 | 0x0000c3a0
-`WcmUpdateCapabilityAccess` | 43 (0x2b) | Exported Function | 0x00000001800109f0 | 0x000109f0
+Function Name | Ordinal | Type
+-- | -- | --
+`WcmQueryOnDemandRequestStateInfo` | 29 | Exported Function
+`WcmOrderConnection` | 28 | Exported Function
+`WcmQueryParameter` | 30 | Exported Function
+`WcmRemoveMatchingRoutePolicy` | 32 | Exported Function
+`WcmQueryProperty` | 31 | Exported Function
+`WcmGetRoutingHint` | 24 | Exported Function
+`WcmGetProfileListByPurpose` | 23 | Exported Function
+`WcmOpenHandle` | 25 | Exported Function
+`WcmOpenOnDemandRequestHandleByWwanProfileName` | 27 | Exported Function
+`WcmOpenOnDemandRequestHandle` | 26 | Exported Function
+`WcmRemoveRoutePolicy` | 33 | Exported Function
+`WcmSetProperty` | 40 | Exported Function
+`WcmSetProfileList` | 39 | Exported Function
+`WcmSetProxyInformation` | 41 | Exported Function
+`WcmUpdateCapabilityAccess` | 43 | Exported Function
+`WcmStartOnDemandRequest` | 42 | Exported Function
+`WcmSetOperatorConnectionCost` | 35 | Exported Function
+`WcmResetIgnoreProfileList` | 34 | Exported Function
+`WcmSetOperatorCycleData` | 36 | Exported Function
+`WcmSetParameter` | 38 | Exported Function
+`WcmSetOperatorDataplanStatus` | 37 | Exported Function
+`WcmGetProfileList` | 22 | Exported Function
+`WcmCancelOnDemandRequest` | 7 | Exported Function
+`WcmBeginIgnoreProfileList` | 6 | Exported Function
+`WcmCheckCapabilityStatus` | 8 | Exported Function
+`WcmCloseOnDemandRequestHandle` | 10 | Exported Function
+`WcmCloseHandle` | 9 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`WcmAddRoutePolicy` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`WcmDeleteProxyInformation` | 11 | Exported Function
+`WcmExitNetQuiet` | 18 | Exported Function
+`WcmExitConnectedStandby` | 17 | Exported Function
+`WcmFreeMemory` | 19 | Exported Function
+`WcmGetInterfaceToken` | 21 | Exported Function
+`WcmGetInterfaceContextTable` | 20 | Exported Function
+`WcmEndIgnoreProfileList` | 13 | Exported Function
+`WcmDeprovisionCapability` | 12 | Exported Function
+`WcmEnterConnectedStandby` | 14 | Exported Function
+`WcmEnumInterfaces` | 16 | Exported Function
+`WcmEnterNetQuiet` | 15 | Exported Function
 
 
 ## Signature

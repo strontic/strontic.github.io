@@ -24,19 +24,19 @@ PE256 | `37DEA6076EC50D30BAA22ACB4731A78C585148CDCA1CC43AB47BD49FDDE52AA9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EnableInProcTracingForProvider` | 1 (0x1) | Exported Function | 0x0000000180004420 | 0x00004420
-`FlushInProcTraceSession` | 2 (0x2) | Exported Function | 0x0000000180003ee0 | 0x00003ee0
-`InitializeInProcLogger` | 3 (0x3) | Exported Function | 0x0000000180003c40 | 0x00003c40
-`InitializeInProcTraceFlushTrigger` | 4 (0x4) | Exported Function | 0x0000000180004290 | 0x00004290
-`InitializeInProcTraceSession` | 5 (0x5) | Exported Function | 0x00000001800040e0 | 0x000040e0
-`IsInProcTraceSessionStarted` | 6 (0x6) | Exported Function | 0x00000001800041e0 | 0x000041e0
-`ShutdownInProcLogger` | 7 (0x7) | Exported Function | 0x0000000180003c80 | 0x00003c80
-`ShutdownInProcTraceFlushTrigger` | 8 (0x8) | Exported Function | 0x00000001800042a0 | 0x000042a0
-`ShutdownInProcTraceSession` | 9 (0x9) | Exported Function | 0x00000001800040f0 | 0x000040f0
-`StartInProcTraceSession` | 10 (0xa) | Exported Function | 0x0000000180003df0 | 0x00003df0
-`StopInProcTraceSession` | 11 (0xb) | Exported Function | 0x0000000180003ff0 | 0x00003ff0
+Function Name | Ordinal | Type
+-- | -- | --
+`ShutdownInProcTraceFlushTrigger` | 8 | Exported Function
+`ShutdownInProcLogger` | 7 | Exported Function
+`ShutdownInProcTraceSession` | 9 | Exported Function
+`StopInProcTraceSession` | 11 | Exported Function
+`StartInProcTraceSession` | 10 | Exported Function
+`IsInProcTraceSessionStarted` | 6 | Exported Function
+`FlushInProcTraceSession` | 2 | Exported Function
+`EnableInProcTracingForProvider` | 1 | Exported Function
+`InitializeInProcLogger` | 3 | Exported Function
+`InitializeInProcTraceSession` | 5 | Exported Function
+`InitializeInProcTraceFlushTrigger` | 4 | Exported Function
 
 
 ## Signature

@@ -24,27 +24,27 @@ PE256 | `A693189D45B61A291C1041974BC1B092849C2D2B1417D69EC47D054486BDABB7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CfgUtilCheckCharacteristicNode` | 4 (0x4) | Exported Function | 0x0000000180005a50 | 0x00005a50
-`EnsurePolicyComplianceForSource` | 2 (0x2) | Exported Function | 0x0000000180006540 | 0x00006540
-`CleanupPolicyComplianceEnsuranceForSource` | 1 (0x1) | Exported Function | 0x0000000180006360 | 0x00006360
-`CfgUtilParseParmAttributeName` | 18 (0x12) | Exported Function | 0x0000000180006070 | 0x00006070
-`CfgUtilParseNameByLen` | 17 (0x11) | Exported Function | 0x0000000180005fd0 | 0x00005fd0
-`CfgUtilParseName` | 16 (0x10) | Exported Function | 0x0000000180005f70 | 0x00005f70
-`CfgUtilParseElementName` | 15 (0xf) | Exported Function | 0x0000000180005f00 | 0x00005f00
-`CfgUtilParseConfigSemanticTypeName` | 14 (0xe) | Exported Function | 0x0000000180005e90 | 0x00005e90
-`SyncGetDeviceUniqueID` | 19 (0x13) | Exported Function | 0x0000000180013ad0 | 0x00013ad0
-`CfgUtilParseConfigDataTypeName` | 13 (0xd) | Exported Function | 0x0000000180005e30 | 0x00005e30
-`CfgUtilGetName` | 11 (0xb) | Exported Function | 0x0000000180005dd0 | 0x00005dd0
-`CfgUtilGetElementName` | 10 (0xa) | Exported Function | 0x0000000180005db0 | 0x00005db0
-`CfgUtilGetConfigSemanticTypeName` | 9 (0x9) | Exported Function | 0x0000000180005d90 | 0x00005d90
-`CfgUtilGetConfigDataTypeName` | 8 (0x8) | Exported Function | 0x0000000180005d70 | 0x00005d70
-`CfgUtilCreateParm` | 7 (0x7) | Exported Function | 0x0000000180005c70 | 0x00005c70
-`CfgUtilCreateCharacteristic` | 6 (0x6) | Exported Function | 0x0000000180005bb0 | 0x00005bb0
-`CfgUtilCheckParmNode` | 5 (0x5) | Exported Function | 0x0000000180005b00 | 0x00005b00
-`CfgUtilGetParmAttributeName` | 12 (0xc) | Exported Function | 0x0000000180005e10 | 0x00005e10
-`VerifyFullAdminPrivileges` | 3 (0x3) | Exported Function | 0x0000000180006b10 | 0x00006b10
+Function Name | Ordinal | Type
+-- | -- | --
+`CfgUtilParseName` | 16 | Exported Function
+`CfgUtilParseNameByLen` | 17 | Exported Function
+`CfgUtilParseConfigSemanticTypeName` | 14 | Exported Function
+`CfgUtilParseElementName` | 15 | Exported Function
+`CfgUtilParseParmAttributeName` | 18 | Exported Function
+`SyncGetDeviceUniqueID` | 19 | Exported Function
+`VerifyFullAdminPrivileges` | 3 | Exported Function
+`CleanupPolicyComplianceEnsuranceForSource` | 1 | Exported Function
+`EnsurePolicyComplianceForSource` | 2 | Exported Function
+`CfgUtilParseConfigDataTypeName` | 13 | Exported Function
+`CfgUtilCreateCharacteristic` | 6 | Exported Function
+`CfgUtilCreateParm` | 7 | Exported Function
+`CfgUtilCheckCharacteristicNode` | 4 | Exported Function
+`CfgUtilCheckParmNode` | 5 | Exported Function
+`CfgUtilGetConfigDataTypeName` | 8 | Exported Function
+`CfgUtilGetName` | 11 | Exported Function
+`CfgUtilGetParmAttributeName` | 12 | Exported Function
+`CfgUtilGetConfigSemanticTypeName` | 9 | Exported Function
+`CfgUtilGetElementName` | 10 | Exported Function
 
 
 ## Signature

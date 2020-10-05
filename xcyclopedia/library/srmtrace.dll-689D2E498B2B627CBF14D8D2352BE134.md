@@ -24,19 +24,19 @@ PE256 | `FD0AEEF6D035594EFDE828D995BD512003DA24E698FF50C268CE861B4695EC33`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SrmGetTracingContextPerThread` | 10 (0xa) | Exported Function | 0x10005460 | 0x00005460
-`SrmGetTracingModuleInfo` | 12 (0xc) | Exported Function | 0x100054c0 | 0x000054c0
-`SrmGetTracingSequenceNumber` | 11 (0xb) | Exported Function | 0x100054b0 | 0x000054b0
-`SrmIsTracingEnabled` | 5 (0x5) | Exported Function | 0x10005350 | 0x00005350
-`SrmIsTracingEnabledOnFunction` | 8 (0x8) | Exported Function | 0x100053e0 | 0x000053e0
-`SrmIsTracingEnabledOnModule` | 7 (0x7) | Exported Function | 0x10005370 | 0x00005370
-`SrmIsTracingEnabledPerThread` | 6 (0x6) | Exported Function | 0x100053b0 | 0x000053b0
-`SrmSetTracingContextPerThread` | 9 (0x9) | Exported Function | 0x10005420 | 0x00005420
-`SrmTraceInitialize` | 1 (0x1) | Exported Function | 0x100052f0 | 0x000052f0
-`SrmTraceMessage` | 3 (0x3) | Exported Function | 0x10005310 | 0x00005310
-`SrmTraceUninitialize` | 2 (0x2) | Exported Function | 0x10005300 | 0x00005300
+Function Name | Ordinal | Type
+-- | -- | --
+`SrmSetTracingContextPerThread` | 9 | Exported Function
+`SrmIsTracingEnabledPerThread` | 6 | Exported Function
+`SrmTraceInitialize` | 1 | Exported Function
+`SrmTraceUninitialize` | 2 | Exported Function
+`SrmTraceMessage` | 3 | Exported Function
+`SrmIsTracingEnabledOnModule` | 7 | Exported Function
+`SrmGetTracingModuleInfo` | 12 | Exported Function
+`SrmGetTracingContextPerThread` | 10 | Exported Function
+`SrmGetTracingSequenceNumber` | 11 | Exported Function
+`SrmIsTracingEnabledOnFunction` | 8 | Exported Function
+`SrmIsTracingEnabled` | 5 | Exported Function
 
 
 ## Signature

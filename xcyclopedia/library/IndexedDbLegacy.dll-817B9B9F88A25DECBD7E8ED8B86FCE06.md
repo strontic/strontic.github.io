@@ -24,9 +24,9 @@ PE256 | `3CB4B9BA7E5BFB8F4B70AC5E6E8AAE464748AF728A8152C5C97AD209B8BE5623`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetIndexedDbLegacyFunctions` | 1 (0x1) | Exported Function | 0x0000000180002510 | 0x00002510
+Function Name | Ordinal | Type
+-- | -- | --
+`GetIndexedDbLegacyFunctions` | 1 | Exported Function
 
 
 ## Signature

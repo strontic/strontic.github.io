@@ -24,27 +24,27 @@ PE256 | `81F3FFCB59353BC24B2131D3F160D85C49CE1B250FA5B98872C71AFF7AF48154`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CompareHttpTransportCredentials` | 1 (0x1) | Exported Function | 0x100032d0 | 0x000032d0
-`I_RpcTransGetHttpCredentials` | 14 (0xe) | Exported Function | 0x100035d0 | 0x000035d0
-`I_RpcTransFreeHttpCredentials` | 13 (0xd) | Exported Function | 0x10003680 | 0x00003680
-`I_RpcReplyToClientWithStatus` | 19 (0x13) | Exported Function | 0x10005a40 | 0x00005a40
-`I_RpcProxyNewConnection` | 18 (0x12) | Exported Function | 0x10005760 | 0x00005760
-`I_RpcGetRpcProxy` | 12 (0xc) | Exported Function | 0x1001a9c0 | 0x0001a9c0
-`I_RpcExtInitializeExtensionPoint` | 17 (0x11) | Exported Function | 0x10003030 | 0x00003030
-`HttpSendIdentifyResponse` | 11 (0xb) | Exported Function | 0x10004740 | 0x00004740
-`WS_HTTP2_CONNECTION__Initialize` | 15 (0xf) | Exported Function | 0x10003c10 | 0x00003c10
-`HttpParseNetworkOptions` | 10 (0xa) | Exported Function | 0x1001a320 | 0x0001a320
-`HTTP2ProcessRuntimePostedEvent` | 8 (0x8) | Exported Function | 0x10006130 | 0x00006130
-`HTTP2ProcessComplexTSend` | 7 (0x7) | Exported Function | 0x10006380 | 0x00006380
-`HTTP2ProcessComplexTReceive` | 6 (0x6) | Exported Function | 0x100061a0 | 0x000061a0
-`HTTP2GetRpcConnectionTransport` | 5 (0x5) | Exported Function | 0x10017340 | 0x00017340
-`FreeHttpTransportCredentials` | 4 (0x4) | Exported Function | 0x100030b0 | 0x000030b0
-`DuplicateHttpTransportCredentials` | 3 (0x3) | Exported Function | 0x10003140 | 0x00003140
-`ConvertToUnicodeHttpTransportCredentials` | 2 (0x2) | Exported Function | 0x100033f0 | 0x000033f0
-`HTTP2TestHook` | 9 (0x9) | Exported Function | 0x10006430 | 0x00006430
-`WS_HTTP2_INITIAL_CONNECTION__new` | 16 (0x10) | Exported Function | 0x10003be0 | 0x00003be0
+Function Name | Ordinal | Type
+-- | -- | --
+`I_RpcGetRpcProxy` | 12 | Exported Function
+`I_RpcProxyNewConnection` | 18 | Exported Function
+`HttpSendIdentifyResponse` | 11 | Exported Function
+`I_RpcExtInitializeExtensionPoint` | 17 | Exported Function
+`I_RpcReplyToClientWithStatus` | 19 | Exported Function
+`WS_HTTP2_CONNECTION__Initialize` | 15 | Exported Function
+`WS_HTTP2_INITIAL_CONNECTION__new` | 16 | Exported Function
+`I_RpcTransFreeHttpCredentials` | 13 | Exported Function
+`I_RpcTransGetHttpCredentials` | 14 | Exported Function
+`HttpParseNetworkOptions` | 10 | Exported Function
+`DuplicateHttpTransportCredentials` | 3 | Exported Function
+`FreeHttpTransportCredentials` | 4 | Exported Function
+`CompareHttpTransportCredentials` | 1 | Exported Function
+`ConvertToUnicodeHttpTransportCredentials` | 2 | Exported Function
+`HTTP2GetRpcConnectionTransport` | 5 | Exported Function
+`HTTP2ProcessRuntimePostedEvent` | 8 | Exported Function
+`HTTP2TestHook` | 9 | Exported Function
+`HTTP2ProcessComplexTReceive` | 6 | Exported Function
+`HTTP2ProcessComplexTSend` | 7 | Exported Function
 
 
 ## Signature

@@ -24,16 +24,16 @@ PE256 | `88201D1AB850E71ADCBFB788E0AD590EF1D9196F99D956D388FDB1F66CEB99C7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NlmGetBestCostNetworkConnection` | 1 (0x1) | Exported Function | 0x00000001800a03b0 | 0x000a03b0
-`NlmGetCostedNetworkSettings` | 2 (0x2) | Exported Function | 0x000000018009f3d0 | 0x0009f3d0
-`NlmSetCostedNetworkSettings` | 3 (0x3) | Exported Function | 0x000000018009f840 | 0x0009f840
-`ServiceInitialized` | 4 (0x4) | Exported Function | 0x0000000180012720 | 0x00012720
-`ServiceMain` | 5 (0x5) | Exported Function | 0x0000000180034e20 | 0x00034e20
-`ServiceRequestInProcess` | 6 (0x6) | Exported Function | 0x0000000180012660 | 0x00012660
-`VpnProfileMatchingNrpt` | 7 (0x7) | Exported Function | 0x00000001800b81d0 | 0x000b81d0
-`VpnProfileNrptHasExemptions` | 8 (0x8) | Exported Function | 0x00000001800b8300 | 0x000b8300
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceRequestInProcess` | 6 | Exported Function
+`ServiceMain` | 5 | Exported Function
+`VpnProfileNrptHasExemptions` | 8 | Exported Function
+`VpnProfileMatchingNrpt` | 7 | Exported Function
+`NlmGetCostedNetworkSettings` | 2 | Exported Function
+`NlmGetBestCostNetworkConnection` | 1 | Exported Function
+`ServiceInitialized` | 4 | Exported Function
+`NlmSetCostedNetworkSettings` | 3 | Exported Function
 
 
 ## Signature

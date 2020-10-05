@@ -24,17 +24,17 @@ PE256 | `2306E529DC298AE88CE31AE873271F57F44AE461DB1B40D0A2F356C446D0BDF1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_WMDRMCreateProvider` | 9 (0x9) | Exported Function | 0x0000000180001020 | 0x00001020
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180001020 | 0x00001020
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180001010 | 0x00001010
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180001010 | 0x00001010
-`MFWMDRMOutputTrustAuthority_CreateInstance` | 5 (0x5) | Exported Function | 0x0000000180001020 | 0x00001020
-`WMDRMCreateProvider` | 6 (0x6) | Exported Function | 0x0000000180001020 | 0x00001020
-`WMDRMShutdown` | 7 (0x7) | Exported Function | 0x0000000180001020 | 0x00001020
-`WMDRMStartup` | 8 (0x8) | Exported Function | 0x0000000180001020 | 0x00001020
+Function Name | Ordinal | Type
+-- | -- | --
+`WMDRMCreateProvider` | 6 | Exported Function
+`MFWMDRMOutputTrustAuthority_CreateInstance` | 5 | Exported Function
+`WMDRMStartup` | 8 | Exported Function
+`WMDRMShutdown` | 7 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`_WMDRMCreateProvider` | 9 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

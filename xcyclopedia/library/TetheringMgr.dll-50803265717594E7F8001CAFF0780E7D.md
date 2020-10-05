@@ -24,11 +24,11 @@ PE256 | `2B38D42E6E16A505254EED9564F64CACDFAC49FA50532138C94CE61CACB7A67A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TetheringManagerDeinit` | 1 (0x1) | Exported Function | 0x0000000180002e40 | 0x00002e40
-`TetheringManagerInit` | 2 (0x2) | Exported Function | 0x0000000180002d10 | 0x00002d10
-`TetheringManagerNotify` | 3 (0x3) | Exported Function | 0x0000000180002f40 | 0x00002f40
+Function Name | Ordinal | Type
+-- | -- | --
+`TetheringManagerNotify` | 3 | Exported Function
+`TetheringManagerInit` | 2 | Exported Function
+`TetheringManagerDeinit` | 1 | Exported Function
 
 
 ## Signature

@@ -24,24 +24,24 @@ PE256 | `61F2E50DAC12DA133685A04A30968346A0B93ADE991941F7C2DEB7807D0B6EA9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SkciCompareSigningLevels` | 1 (0x1) | Exported Function | 0x00000001c003f1d0 | 0x0003f1d0
-`SkciCreateCodeCatalog` | 2 (0x2) | Exported Function | 0x00000001c0001910 | 0x00001910
-`SkciCreateSecureImage` | 3 (0x3) | Exported Function | 0x00000001c0001e50 | 0x00001e50
-`SkciFinalizeSecureImageHash` | 4 (0x4) | Exported Function | 0x00000001c00024c0 | 0x000024c0
-`SkciFinishImageValidation` | 5 (0x5) | Exported Function | 0x00000001c0002590 | 0x00002590
-`SkciFreeImageContext` | 6 (0x6) | Exported Function | 0x00000001c0002180 | 0x00002180
-`SkciInitialize` | 7 (0x7) | Exported Function | 0x00000001c00016e0 | 0x000016e0
-`SkciMatchHotPatch` | 8 (0x8) | Exported Function | 0x00000001c0002f00 | 0x00002f00
-`SkciQueryImageAuthorID` | 9 (0x9) | Exported Function | 0x00000001c0002f80 | 0x00002f80
-`SkciQueryImageUniqueID` | 10 (0xa) | Exported Function | 0x00000001c0002f50 | 0x00002f50
-`SkciQueryInformation` | 11 (0xb) | Exported Function | 0x00000001c0041ff0 | 0x00041ff0
-`SkciSetCodeIntegrityPolicy` | 12 (0xc) | Exported Function | 0x00000001c0002fb0 | 0x00002fb0
-`SkciTransferVersionResource` | 13 (0xd) | Exported Function | 0x00000001c0002d00 | 0x00002d00
-`SkciValidateAmeCertChain` | 14 (0xe) | Exported Function | 0x00000001c0001c00 | 0x00001c00
-`SkciValidateDynamicCodePages` | 15 (0xf) | Exported Function | 0x00000001c0002470 | 0x00002470
-`SkciValidateImageData` | 16 (0x10) | Exported Function | 0x00000001c0002230 | 0x00002230
+Function Name | Ordinal | Type
+-- | -- | --
+`SkciQueryInformation` | 11 | Exported Function
+`SkciSetCodeIntegrityPolicy` | 12 | Exported Function
+`SkciQueryImageAuthorID` | 9 | Exported Function
+`SkciQueryImageUniqueID` | 10 | Exported Function
+`SkciValidateDynamicCodePages` | 15 | Exported Function
+`SkciValidateImageData` | 16 | Exported Function
+`SkciTransferVersionResource` | 13 | Exported Function
+`SkciValidateAmeCertChain` | 14 | Exported Function
+`SkciCreateSecureImage` | 3 | Exported Function
+`SkciFinalizeSecureImageHash` | 4 | Exported Function
+`SkciCompareSigningLevels` | 1 | Exported Function
+`SkciCreateCodeCatalog` | 2 | Exported Function
+`SkciInitialize` | 7 | Exported Function
+`SkciMatchHotPatch` | 8 | Exported Function
+`SkciFinishImageValidation` | 5 | Exported Function
+`SkciFreeImageContext` | 6 | Exported Function
 
 
 ## Signature

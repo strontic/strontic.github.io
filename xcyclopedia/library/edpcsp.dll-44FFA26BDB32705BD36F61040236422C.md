@@ -24,12 +24,12 @@ PE256 | `B3C37A536707BF1A1653DBEF412A9A70B35E939DD28D91A7F08D53062A28F446`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateAllEdpTasks` | 1 (0x1) | Exported Function | 0x000000018000d060 | 0x0000d060
-`DeleteAllEdpTasks` | 2 (0x2) | Exported Function | 0x000000018000da00 | 0x0000da00
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180006b00 | 0x00006b00
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180006b20 | 0x00006b20
+Function Name | Ordinal | Type
+-- | -- | --
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`CreateAllEdpTasks` | 1 | Exported Function
+`DeleteAllEdpTasks` | 2 | Exported Function
 
 
 ## Signature

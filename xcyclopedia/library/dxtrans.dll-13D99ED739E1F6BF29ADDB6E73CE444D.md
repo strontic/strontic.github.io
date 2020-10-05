@@ -24,19 +24,19 @@ PE256 | `0AFC42EA4B763CC258D60139B9DDB0825998400782BE8E87CF73287E39C39775`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x0000000135c521f0 | 0x000021f0
-`DllEnumClassObjects` | 8 (0x8) | Exported Function | 0x0000000135c52240 | 0x00002240
-`DllGetClassObject` | 9 (0x9) | Exported Function | 0x0000000135c52210 | 0x00002210
-`DllRegisterServer` | 10 (0xa) | Exported Function | 0x0000000135c518c0 | 0x000018c0
-`DllUnregisterServer` | 11 (0xb) | Exported Function | 0x0000000135c518c0 | 0x000018c0
-`void __cdecl DXConstOverArray(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const & __ptr64,unsigned long)` | 1 (0x1) | Exported Function | 0x0000000135c59310 | 0x00009310
-`void __cdecl DXConstUnderArray(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const & __ptr64,unsigned long)` | 2 (0x2) | Exported Function | 0x0000000135c59410 | 0x00009410
-`void __cdecl DXDitherArray(struct DXDITHERDESC const * __ptr64)` | 3 (0x3) | Exported Function | 0x0000000135c594a0 | 0x000094a0
-`void __cdecl DXLinearInterpolateArray(class DXBASESAMPLE const * __ptr64,struct DXLIMAPINFO * __ptr64,class DXBASESAMPLE * __ptr64,unsigned long)` | 4 (0x4) | Exported Function | 0x0000000135c591a0 | 0x000091a0
-`void __cdecl DXOverArray(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const * __ptr64,unsigned long)` | 5 (0x5) | Exported Function | 0x0000000135c59100 | 0x00009100
-`void __cdecl DXOverArrayMMX(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const * __ptr64,unsigned long)` | 6 (0x6) | Exported Function | 0x0000000135c59100 | 0x00009100
+Function Name | Ordinal | Type
+-- | -- | --
+`void __cdecl DXDitherArray(struct DXDITHERDESC const * __ptr64)` | 3 | Exported Function
+`void __cdecl DXConstUnderArray(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const & __ptr64,unsigned long)` | 2 | Exported Function
+`void __cdecl DXLinearInterpolateArray(class DXBASESAMPLE const * __ptr64,struct DXLIMAPINFO * __ptr64,class DXBASESAMPLE * __ptr64,unsigned long)` | 4 | Exported Function
+`void __cdecl DXOverArrayMMX(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const * __ptr64,unsigned long)` | 6 | Exported Function
+`void __cdecl DXOverArray(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const * __ptr64,unsigned long)` | 5 | Exported Function
+`void __cdecl DXConstOverArray(class DXPMSAMPLE * __ptr64,class DXPMSAMPLE const & __ptr64,unsigned long)` | 1 | Exported Function
+`DllEnumClassObjects` | 8 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
+`DllRegisterServer` | 10 | Exported Function
 
 
 ## Signature

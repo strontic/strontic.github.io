@@ -24,27 +24,27 @@ PE256 | `7658188FD55C6C3286C446035FDB154738213CB9F199AA52C1E2A0D5F978F3F0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`UmAbortCurrentModemCommand` | 112 (0x70) | Exported Function | 0x10007630 | 0x00007630
-`UmSetPassthroughMode` | 113 (0x71) | Exported Function | 0x100076e0 | 0x000076e0
-`UmOpenModem` | 102 (0x66) | Exported Function | 0x10007f00 | 0x00007f00
-`UmMonitorModem` | 105 (0x69) | Exported Function | 0x100064b0 | 0x000064b0
-`UmLogStringA` | 116 (0x74) | Exported Function | 0x10007a80 | 0x00007a80
-`UmLogDiagnostics` | 118 (0x76) | Exported Function | 0x10007550 | 0x00007550
-`UmIssueCommand` | 114 (0x72) | Exported Function | 0x10007970 | 0x00007970
-`UmInitModem` | 104 (0x68) | Exported Function | 0x100060b0 | 0x000060b0
-`UmSetSpeakerPhoneState` | 110 (0x6e) | Exported Function | 0x1000ab90 | 0x0000ab90
-`UmInitializeModemDriver` | 100 (0x64) | Exported Function | 0x10005ce0 | 0x00005ce0
-`UmGetDiagnostics` | 117 (0x75) | Exported Function | 0x10007bc0 | 0x00007bc0
-`UmGenerateDigit` | 109 (0x6d) | Exported Function | 0x1000a8d0 | 0x0000a8d0
-`UmDuplicateDeviceHandle` | 111 (0x6f) | Exported Function | 0x100075d0 | 0x000075d0
-`UmDialModem` | 107 (0x6b) | Exported Function | 0x10004430 | 0x00004430
-`UmDeinitializeModemDriver` | 101 (0x65) | Exported Function | 0x10005d50 | 0x00005d50
-`UmCloseModem` | 103 (0x67) | Exported Function | 0x10008d80 | 0x00008d80
-`UmAnswerModem` | 106 (0x6a) | Exported Function | 0x100042b0 | 0x000042b0
-`UmHangupModem` | 108 (0x6c) | Exported Function | 0x10005720 | 0x00005720
-`UmWaveAction` | 115 (0x73) | Exported Function | 0x1000c660 | 0x0000c660
+Function Name | Ordinal | Type
+-- | -- | --
+`UmLogDiagnostics` | 118 | Exported Function
+`UmLogStringA` | 116 | Exported Function
+`UmInitModem` | 104 | Exported Function
+`UmIssueCommand` | 114 | Exported Function
+`UmMonitorModem` | 105 | Exported Function
+`UmSetSpeakerPhoneState` | 110 | Exported Function
+`UmWaveAction` | 115 | Exported Function
+`UmOpenModem` | 102 | Exported Function
+`UmSetPassthroughMode` | 113 | Exported Function
+`UmInitializeModemDriver` | 100 | Exported Function
+`UmCloseModem` | 103 | Exported Function
+`UmDeinitializeModemDriver` | 101 | Exported Function
+`UmAbortCurrentModemCommand` | 112 | Exported Function
+`UmAnswerModem` | 106 | Exported Function
+`UmDialModem` | 107 | Exported Function
+`UmGetDiagnostics` | 117 | Exported Function
+`UmHangupModem` | 108 | Exported Function
+`UmDuplicateDeviceHandle` | 111 | Exported Function
+`UmGenerateDigit` | 109 | Exported Function
 
 
 ## Signature

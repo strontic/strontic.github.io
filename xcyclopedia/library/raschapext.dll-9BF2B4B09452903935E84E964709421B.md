@@ -24,20 +24,20 @@ PE256 | `4F10889729D3270B57CB504E27C362462D66D1B9DE9233BF466A6AF0DD5AC5DE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x1000a770 | 0x0000a770
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x1000a790 | 0x0000a790
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x1000a7a0 | 0x0000a7a0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x1000a800 | 0x0000a800
-`RasChapExt_FreeMemory` | 5 (0x5) | Exported Function | 0x10003c80 | 0x00003c80
-`RasChapExt_GetConfigForceNotDomainJoined` | 6 (0x6) | Exported Function | 0x10003c70 | 0x00003c70
-`RasChapExt_GetConfigIgnoreIASLogon` | 7 (0x7) | Exported Function | 0x10003c70 | 0x00003c70
-`RasChapExt_GetConfigKeepCredentialsOnFailure` | 8 (0x8) | Exported Function | 0x10003c70 | 0x00003c70
-`RasChapExt_GetUserCredentials` | 9 (0x9) | Exported Function | 0x10003ca0 | 0x00003ca0
-`RasChapExt_InvokeConfigUI` | 10 (0xa) | Exported Function | 0x100040f0 | 0x000040f0
-`RasChapExt_InvokeInteractiveUI` | 11 (0xb) | Exported Function | 0x10004120 | 0x00004120
-`RasChapExt_ShowHelp` | 12 (0xc) | Exported Function | 0x10003c70 | 0x00003c70
+Function Name | Ordinal | Type
+-- | -- | --
+`RasChapExt_GetUserCredentials` | 9 | Exported Function
+`RasChapExt_GetConfigKeepCredentialsOnFailure` | 8 | Exported Function
+`RasChapExt_GetConfigIgnoreIASLogon` | 7 | Exported Function
+`RasChapExt_ShowHelp` | 12 | Exported Function
+`RasChapExt_InvokeInteractiveUI` | 11 | Exported Function
+`RasChapExt_InvokeConfigUI` | 10 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`RasChapExt_GetConfigForceNotDomainJoined` | 6 | Exported Function
+`RasChapExt_FreeMemory` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

@@ -24,22 +24,22 @@ PE256 | `643A394558D783E6F9E200A9ADB3383D5E2E594DEF8B6D99ABE86F32BB8F222B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IntPstGetCertificate` | 1 (0x1) | Exported Function | 0x000000018000cf50 | 0x0000cf50
-`IntPstGetNameIdentifierForCertificate` | 2 (0x2) | Exported Function | 0x000000018000cff0 | 0x0000cff0
-`IntPstGetTrustAnchors` | 3 (0x3) | Exported Function | 0x000000018000d060 | 0x0000d060
-`IntPstMapCertificateToProvider` | 4 (0x4) | Exported Function | 0x000000018000d0f0 | 0x0000d0f0
-`IntPstMapUserCredsToProvider` | 5 (0x5) | Exported Function | 0x000000018000d170 | 0x0000d170
-`IntPstValidate` | 6 (0x6) | Exported Function | 0x000000018000d1f0 | 0x0000d1f0
-`PstAcquirePrivateKey` | 7 (0x7) | Exported Function | 0x000000018000d2a0 | 0x0000d2a0
-`PstGetCertificateChain` | 8 (0x8) | Exported Function | 0x000000018000d3c0 | 0x0000d3c0
-`PstGetCertificates` | 9 (0x9) | Exported Function | 0x000000018000d440 | 0x0000d440
-`PstGetTrustAnchors` | 10 (0xa) | Exported Function | 0x000000018000d510 | 0x0000d510
-`PstGetTrustAnchorsEx` | 11 (0xb) | Exported Function | 0x000000018000d530 | 0x0000d530
-`PstGetUserNameForCertificate` | 12 (0xc) | Exported Function | 0x000000018000d630 | 0x0000d630
-`PstMapCertificate` | 13 (0xd) | Exported Function | 0x000000018000d6c0 | 0x0000d6c0
-`PstValidate` | 14 (0xe) | Exported Function | 0x000000018000d740 | 0x0000d740
+Function Name | Ordinal | Type
+-- | -- | --
+`PstGetTrustAnchors` | 10 | Exported Function
+`PstGetCertificates` | 9 | Exported Function
+`PstGetCertificateChain` | 8 | Exported Function
+`PstGetTrustAnchorsEx` | 11 | Exported Function
+`PstValidate` | 14 | Exported Function
+`PstMapCertificate` | 13 | Exported Function
+`PstGetUserNameForCertificate` | 12 | Exported Function
+`IntPstGetTrustAnchors` | 3 | Exported Function
+`IntPstGetNameIdentifierForCertificate` | 2 | Exported Function
+`IntPstGetCertificate` | 1 | Exported Function
+`IntPstMapCertificateToProvider` | 4 | Exported Function
+`PstAcquirePrivateKey` | 7 | Exported Function
+`IntPstValidate` | 6 | Exported Function
+`IntPstMapUserCredsToProvider` | 5 | Exported Function
 
 
 ## Signature

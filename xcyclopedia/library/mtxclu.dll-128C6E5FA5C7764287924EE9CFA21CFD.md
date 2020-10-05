@@ -24,46 +24,46 @@ PE256 | `6C289AA6827B13B7058A1D65BEE735963E06ABAE37B240060B741FD57A928344`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FailedClusterAPIToEventLog` | 10 (0xa) | Exported Function | 0x0000000180013690 | 0x00013690
-`MtxCluGetResourceIdStringFromName` | 29 (0x1d) | Exported Function | 0x000000018000fd10 | 0x0000fd10
-`MtxCluGetSecurityRegValue` | 3 (0x3) | Exported Function | 0x0000000180019d80 | 0x00019d80
-`MtxCluGetTmResource` | 30 (0x1e) | Exported Function | 0x000000018000f6f0 | 0x0000f6f0
-`MtxCluGetVirtualServerToken` | 31 (0x1f) | Exported Function | 0x0000000180011100 | 0x00011100
-`MtxCluIsClusterPresent` | 4 (0x4) | Exported Function | 0x0000000180019ff0 | 0x00019ff0
-`MtxCluIsClusterPresentExW` | 32 (0x20) | Exported Function | 0x000000018000d330 | 0x0000d330
-`MtxCluIsNetworkNameInLocalClusterW` | 5 (0x5) | Exported Function | 0x000000018001a450 | 0x0001a450
-`MtxCluIsSameClusterW` | 6 (0x6) | Exported Function | 0x000000018001b180 | 0x0001b180
-`MtxCluIsSameNodeW` | 7 (0x7) | Exported Function | 0x000000018001af60 | 0x0001af60
-`MtxCluRemoveClusterTmMappingByName` | 33 (0x21) | Exported Function | 0x0000000180012630 | 0x00012630
-`MtxCluSetClusterTmMapping` | 34 (0x22) | Exported Function | 0x0000000180011b40 | 0x00011b40
-`MtxCluSetDefaultClusterResource` | 35 (0x23) | Exported Function | 0x0000000180008790 | 0x00008790
-`MtxCluSetSecurityRegValue` | 8 (0x8) | Exported Function | 0x0000000180019e80 | 0x00019e80
-`MtxCluTakeOfflineDTCW` | 36 (0x24) | Exported Function | 0x0000000180019820 | 0x00019820
-`MtxCluVerifyLogPathInDependantDiskResource` | 37 (0x25) | Exported Function | 0x000000018000d580 | 0x0000d580
-`MtxCluGetResourceId` | 28 (0x1c) | Exported Function | 0x000000018000e3b0 | 0x0000e3b0
-`MtxCluGetNameFromResourceIdStringNonAdmin` | 27 (0x1b) | Exported Function | 0x0000000180010020 | 0x00010020
-`MtxCluGetNameFromResourceIdString` | 26 (0x1a) | Exported Function | 0x000000018000fea0 | 0x0000fea0
-`MtxCluGetDTCVirtualServerNameW` | 22 (0x16) | Exported Function | 0x000000018000d380 | 0x0000d380
-`MtxCluBringOnlineDTCW` | 11 (0xb) | Exported Function | 0x0000000180019ad0 | 0x00019ad0
-`MtxCluClearClusterTmMappings` | 12 (0xc) | Exported Function | 0x0000000180012080 | 0x00012080
-`MtxCluCreateClusterProxyTmInstance` | 13 (0xd) | Exported Function | 0x0000000180001e80 | 0x00001e80
-`MtxCluCreateClusterTmInstance` | 14 (0xe) | Exported Function | 0x0000000180001d10 | 0x00001d10
-`MtxCluCreateTmInstanceForVirtualServer` | 15 (0xf) | Exported Function | 0x0000000180001a40 | 0x00001a40
-`MtxCluEnumerateClusterTmMappings` | 16 (0x10) | Exported Function | 0x0000000180013060 | 0x00013060
-`MtxCluEnumerateDtcResources` | 17 (0x11) | Exported Function | 0x000000018000d320 | 0x0000d320
-`MtxCluVerifyLogPathIsValidCSV` | 38 (0x26) | Exported Function | 0x000000018000b280 | 0x0000b280
-`MtxCluEnumerateDtcResourcesEx` | 18 (0x12) | Exported Function | 0x000000018000ce70 | 0x0000ce70
-`MtxCluGetClusterResourceIdFromName` | 20 (0x14) | Exported Function | 0x00000001800114a0 | 0x000114a0
-`MtxCluGetComputerNameW` | 1 (0x1) | Exported Function | 0x00000001800192f0 | 0x000192f0
-`MtxCluGetDefaultClusterResource` | 23 (0x17) | Exported Function | 0x0000000180007820 | 0x00007820
-`MtxCluGetDefaultClusterResourceNonAdmin` | 24 (0x18) | Exported Function | 0x0000000180007bb0 | 0x00007bb0
-`MtxCluGetDtcDiskResourceDrive` | 25 (0x19) | Exported Function | 0x0000000180009f80 | 0x00009f80
-`MtxCluGetDTCResourceForResource` | 21 (0x15) | Exported Function | 0x00000001800073a0 | 0x000073a0
-`MtxCluGetDTCStatusW` | 2 (0x2) | Exported Function | 0x0000000180019540 | 0x00019540
-`MtxCluGetActiveClusterNode` | 19 (0x13) | Exported Function | 0x00000001800116f0 | 0x000116f0
-`Startup` | 9 (0x9) | Exported Function | 0x0000000180018a80 | 0x00018a80
+Function Name | Ordinal | Type
+-- | -- | --
+`MtxCluIsClusterPresent` | 4 | Exported Function
+`MtxCluGetVirtualServerToken` | 31 | Exported Function
+`MtxCluIsNetworkNameInLocalClusterW` | 5 | Exported Function
+`MtxCluIsClusterPresentExW` | 32 | Exported Function
+`MtxCluGetTmResource` | 30 | Exported Function
+`MtxCluGetResourceId` | 28 | Exported Function
+`MtxCluGetNameFromResourceIdStringNonAdmin` | 27 | Exported Function
+`MtxCluGetSecurityRegValue` | 3 | Exported Function
+`MtxCluGetResourceIdStringFromName` | 29 | Exported Function
+`MtxCluIsSameClusterW` | 6 | Exported Function
+`MtxCluVerifyLogPathInDependantDiskResource` | 37 | Exported Function
+`MtxCluTakeOfflineDTCW` | 36 | Exported Function
+`Startup` | 9 | Exported Function
+`MtxCluVerifyLogPathIsValidCSV` | 38 | Exported Function
+`MtxCluSetSecurityRegValue` | 8 | Exported Function
+`MtxCluRemoveClusterTmMappingByName` | 33 | Exported Function
+`MtxCluIsSameNodeW` | 7 | Exported Function
+`MtxCluSetDefaultClusterResource` | 35 | Exported Function
+`MtxCluSetClusterTmMapping` | 34 | Exported Function
+`MtxCluEnumerateClusterTmMappings` | 16 | Exported Function
+`MtxCluCreateTmInstanceForVirtualServer` | 15 | Exported Function
+`MtxCluEnumerateDtcResourcesEx` | 18 | Exported Function
+`MtxCluEnumerateDtcResources` | 17 | Exported Function
+`MtxCluCreateClusterTmInstance` | 14 | Exported Function
+`MtxCluBringOnlineDTCW` | 11 | Exported Function
+`FailedClusterAPIToEventLog` | 10 | Exported Function
+`MtxCluCreateClusterProxyTmInstance` | 13 | Exported Function
+`MtxCluClearClusterTmMappings` | 12 | Exported Function
+`MtxCluGetActiveClusterNode` | 19 | Exported Function
+`MtxCluGetDTCStatusW` | 2 | Exported Function
+`MtxCluGetDTCResourceForResource` | 21 | Exported Function
+`MtxCluGetNameFromResourceIdString` | 26 | Exported Function
+`MtxCluGetDTCVirtualServerNameW` | 22 | Exported Function
+`MtxCluGetDtcDiskResourceDrive` | 25 | Exported Function
+`MtxCluGetComputerNameW` | 1 | Exported Function
+`MtxCluGetClusterResourceIdFromName` | 20 | Exported Function
+`MtxCluGetDefaultClusterResourceNonAdmin` | 24 | Exported Function
+`MtxCluGetDefaultClusterResource` | 23 | Exported Function
 
 
 ## Signature

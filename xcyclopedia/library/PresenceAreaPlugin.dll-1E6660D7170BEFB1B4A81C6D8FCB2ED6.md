@@ -1,0 +1,94 @@
+﻿---
+title: PresenceAreaPlugin.dll | 
+excerpt: What is PresenceAreaPlugin.dll?
+---
+
+# PresenceAreaPlugin.dll 
+
+* File Path: `C:\Program Files (x86)\Cisco Systems\Cisco Jabber\Plugins\PresenceAreaPlugin\PresenceAreaPlugin.dll`
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `1E6660D7170BEFB1B4A81C6D8FCB2ED6`
+SHA1 | `A90D481B1EAB0E8DDDD748BCD0A4F7D851CA2613`
+SHA256 | `74D2411E99F44AE26ECBCF62DDE7C5D99323BB1093419ADE78249F2C2BAB1CE9`
+SHA384 | `FC287BEEA29093F911619E93D4301581FC4E53880F855E9875A1EA36E2EDF376FCE3EA5758F33CF664B8EF581FB1924F`
+SHA512 | `F6A54B46EA076FC627AE55C720A124E6B3B8BB7454EE1C64B4DC78F1AEC135FA3E73B00A9E517BED78EB21F7E1543A0E6A5FEFFC1AE4D49268771D09757E7635`
+SSDEEP | `12288:dxQHHRuelWarpha7Ip6HZ2NjLlDyBpB0tkbQ2P9XffKD:8xphJpUZ2NjLlDyBpB9Qi9PfKD`
+IMP | `C178F1D0C2AF40A9DAF77F7861137B59`
+PESHA1 | `986529AAC378C6F6B5D465005ED3DE3C05FC253D`
+PE256 | `6B8ADD036B044F0A1CBA7DAA34B5966266B8884D6300C21F99EC4E44D476CF81`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type
+-- | -- | --
+`protected: void __thiscall IdleManager::SetIdle(bool)` | 17 | Exported Function
+`protected: void __thiscall IdleManager::OnIdleTimerCheck(void)` | 15 | Exported Function
+`public: __thiscall IdleManager::IdleManager(struct IPluginRuntime *,class CSFUnified::ServiceFactory *)` | 4 | Exported Function
+`public: __thiscall IdleManager::IdleManager(class IdleManager const &)` | 3 | Exported Function
+`protected: virtual class std::shared_ptr<class CSFUnified::PresenceService> __thiscall IdleManager::getPresenceService(void)` | 23 | Exported Function
+`protected: virtual __int64 __thiscall IdleManager::getMsInterval(void)` | 22 | Exported Function
+`protected: virtual void __thiscall IdleManager::onPowerEvent(enum CSFSystemMonitor::PowerEventTypeEnum::PowerEventType)` | 25 | Exported Function
+`protected: virtual void __thiscall IdleManager::dispatchSetIdleToMain(bool)` | 20 | Exported Function
+`public: class IdleManager & __thiscall IdleManager::operator=(class IdleManager const &)` | 8 | Exported Function
+`public: void __thiscall IdleManager::SetConnected(bool)` | 16 | Exported Function
+`public: virtual __thiscall IdleManager::~IdleManager(void)` | 6 | Exported Function
+`public: void __thiscall IdleManager::SetSessionLocked(bool)` | 19 | Exported Function
+`public: void __thiscall IdleManager::SetLoggedIn(bool)` | 18 | Exported Function
+`public: class std::shared_ptr<class IdleManager> __thiscall std::enable_shared_from_this<class IdleManager>::shared_from_this(void)` | 27 | Exported Function
+`public: class std::shared_ptr<class IdleManager const > __thiscall std::enable_shared_from_this<class IdleManager>::shared_from_this(void)const ` | 28 | Exported Function
+`public: class std::weak_ptr<class IdleManager> __thiscall std::enable_shared_from_this<class IdleManager>::weak_from_this(void)` | 30 | Exported Function
+`public: class std::weak_ptr<class IdleManager const > __thiscall std::enable_shared_from_this<class IdleManager>::weak_from_this(void)const ` | 31 | Exported Function
+`protected: static int const IdleManager::IDLE_CHECK_PERIOD` | 14 | Exported Function
+`DllUnregisterServer` | 35 | Exported Function
+`DllRegisterServer` | 34 | Exported Function
+`private: bool __thiscall IdleManager::CheckAwayOnLockEnabled(void)` | 12 | Exported Function
+`private: bool __thiscall IdleManager::CheckAutoAwayEnabled(void)` | 11 | Exported Function
+`const IdleManager::``vftable'{for ``CSFUnified::IntervalFromPreActiveProvider'}` | 9 | Exported Function
+`const IdleManager::``vftable'{for ``CSFSystemMonitor::PowerEventObserver'}` | 10 | Exported Function
+`DllGetClassObject` | 33 | Exported Function
+`DllCanUnloadNow` | 32 | Exported Function
+`private: unsigned long __thiscall IdleManager::getAutoAwayTime(void)` | 21 | Exported Function
+`protected: __thiscall std::enable_shared_from_this<class IdleManager>::~enable_shared_from_this<class IdleManager>(void)` | 5 | Exported Function
+`protected: __thiscall std::enable_shared_from_this<class IdleManager>::enable_shared_from_this<class IdleManager>(void)` | 2 | Exported Function
+`protected: static int const IdleManager::DEFAULT_IDLE_TIME` | 13 | Exported Function
+`protected: class std::enable_shared_from_this<class IdleManager> & __thiscall std::enable_shared_from_this<class IdleManager>::operator=(class std::enable_shared_from_this<class IdleManager> const &)` | 7 | Exported Function
+`private: void __thiscall IdleManager::regAwayStatusChange(void)` | 26 | Exported Function
+`private: void __thiscall IdleManager::onConfigChanged(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)` | 24 | Exported Function
+`protected: __thiscall std::enable_shared_from_this<class IdleManager>::enable_shared_from_this<class IdleManager>(class std::enable_shared_from_this<class IdleManager> const &)` | 1 | Exported Function
+`private: void __thiscall IdleManager::unregAwayStatusChange(void)` | 29 | Exported Function
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `59C5C9F46EA82C4C743981566B64BD6C`
+* Thumbprint: `475DAEE5A6CC149389EFDE176DEA526C627D203A`
+* Issuer: CN=Symantec Class 3 SHA256 Code Signing CA - G2, OU=Symantec Trust Network, O=Symantec Corporation, C=US
+* Subject: CN=Cisco Systems Inc., O=Cisco Systems Inc., L=San Jose, S=California, C=US
+
+## File Metadata
+
+* Original Filename: 
+* Product Name: 
+* Company Name: 
+* File Version: 
+* Product Version: 
+* Language: 
+* Legal Copyright: 
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/74d2411e99f44ae26ecbcf62dde7c5d99323bb1093419ade78249f2c2bab1ce9/detection/
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

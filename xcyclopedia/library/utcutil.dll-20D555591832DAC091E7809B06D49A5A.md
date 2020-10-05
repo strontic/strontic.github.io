@@ -24,12 +24,12 @@ PE256 | `C3141934ECE7CAB3935B197AF716889F14A175B3B17FD4733F36C65DA0C73963`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DiskCleanupEnd` | 1 (0x1) | Exported Function | 0x000000018000db50 | 0x0000db50
-`DiskCleanupStart` | 2 (0x2) | Exported Function | 0x000000018000da90 | 0x0000da90
-`GetCommonAttributes` | 3 (0x3) | Exported Function | 0x00000001800075c0 | 0x000075c0
-`GetPropertyAlloc` | 4 (0x4) | Exported Function | 0x0000000180007650 | 0x00007650
+Function Name | Ordinal | Type
+-- | -- | --
+`GetCommonAttributes` | 3 | Exported Function
+`GetPropertyAlloc` | 4 | Exported Function
+`DiskCleanupEnd` | 1 | Exported Function
+`DiskCleanupStart` | 2 | Exported Function
 
 
 ## Signature

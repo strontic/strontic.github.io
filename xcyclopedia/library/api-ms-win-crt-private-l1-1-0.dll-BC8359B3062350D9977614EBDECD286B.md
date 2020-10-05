@@ -24,1172 +24,1172 @@ PE256 | `9313C0D1B3832980E11B0B13F28C4AB7430CF404B0BC66B4D9F0A86436E558CC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__AdjustPointer` | 10 (0xa) | Exported Function | ucrtbase.__AdjustPointer | 0x000040b5
-`_o__wcsset` | 781 (0x30d) | Exported Function | ucrtbase._o__wcsset | 0x0000b997
-`_o__wcsnset_s` | 780 (0x30c) | Exported Function | ucrtbase._o__wcsnset_s | 0x0000b975
-`_o__wcsnset` | 779 (0x30b) | Exported Function | ucrtbase._o__wcsnset | 0x0000b952
-`_o__wcsnicoll_l` | 778 (0x30a) | Exported Function | ucrtbase._o__wcsnicoll_l | 0x0000b92d
-`_o__wcsnicoll` | 777 (0x309) | Exported Function | ucrtbase._o__wcsnicoll | 0x0000b906
-`_o__wcsnicmp_l` | 776 (0x308) | Exported Function | ucrtbase._o__wcsnicmp_l | 0x0000b8e0
-`_o__wcsset_s` | 782 (0x30e) | Exported Function | ucrtbase._o__wcsset_s | 0x0000b9b8
-`_o__wcsnicmp` | 775 (0x307) | Exported Function | ucrtbase._o__wcsnicmp | 0x0000b8bb
-`_o__wcsncoll` | 773 (0x305) | Exported Function | ucrtbase._o__wcsncoll | 0x0000b871
-`_o__wcslwr_s_l` | 772 (0x304) | Exported Function | ucrtbase._o__wcslwr_s_l | 0x0000b84c
-`_o__wcslwr_s` | 771 (0x303) | Exported Function | ucrtbase._o__wcslwr_s | 0x0000b827
-`_o__wcslwr_l` | 770 (0x302) | Exported Function | ucrtbase._o__wcslwr_l | 0x0000b804
-`_o__wcslwr` | 769 (0x301) | Exported Function | ucrtbase._o__wcslwr | 0x0000b7e3
-`_o__wcsicoll_l` | 768 (0x300) | Exported Function | ucrtbase._o__wcsicoll_l | 0x0000b7c0
-`_o__wcsncoll_l` | 774 (0x306) | Exported Function | ucrtbase._o__wcsncoll_l | 0x0000b896
-`_o__wcsicoll` | 767 (0x2ff) | Exported Function | ucrtbase._o__wcsicoll | 0x0000b79b
-`_o__wcstod_l` | 783 (0x30f) | Exported Function | ucrtbase._o__wcstod_l | 0x0000b9db
-`_o__wcstoi64` | 785 (0x311) | Exported Function | ucrtbase._o__wcstoi64 | 0x0000ba21
-`_o__wcsupr_s_l` | 799 (0x31f) | Exported Function | ucrtbase._o__wcsupr_s_l | 0x0000bc2b
-`_o__wcsupr_s` | 798 (0x31e) | Exported Function | ucrtbase._o__wcsupr_s | 0x0000bc06
-`_o__wcsupr_l` | 797 (0x31d) | Exported Function | ucrtbase._o__wcsupr_l | 0x0000bbe3
-`_o__wcsupr` | 796 (0x31c) | Exported Function | ucrtbase._o__wcsupr | 0x0000bbc2
-`_o__wcstoull_l` | 795 (0x31b) | Exported Function | ucrtbase._o__wcstoull_l | 0x0000bb9f
-`_o__wcstoul_l` | 794 (0x31a) | Exported Function | ucrtbase._o__wcstoul_l | 0x0000bb79
-`_o__wcstof_l` | 784 (0x310) | Exported Function | ucrtbase._o__wcstof_l | 0x0000b9fe
-`_o__wcstoui64_l` | 793 (0x319) | Exported Function | ucrtbase._o__wcstoui64_l | 0x0000bb52
-`_o__wcstombs_s_l` | 791 (0x317) | Exported Function | ucrtbase._o__wcstombs_s_l | 0x0000bb03
-`_o__wcstombs_l` | 790 (0x316) | Exported Function | ucrtbase._o__wcstombs_l | 0x0000bada
-`_o__wcstoll_l` | 789 (0x315) | Exported Function | ucrtbase._o__wcstoll_l | 0x0000bab4
-`_o__wcstold_l` | 788 (0x314) | Exported Function | ucrtbase._o__wcstold_l | 0x0000ba8f
-`_o__wcstol_l` | 787 (0x313) | Exported Function | ucrtbase._o__wcstol_l | 0x0000ba6b
-`_o__wcstoi64_l` | 786 (0x312) | Exported Function | ucrtbase._o__wcstoi64_l | 0x0000ba46
-`_o__wcstoui64` | 792 (0x318) | Exported Function | ucrtbase._o__wcstoui64 | 0x0000bb2b
-`_o__wcsxfrm_l` | 800 (0x320) | Exported Function | ucrtbase._o__wcsxfrm_l | 0x0000bc51
-`_o__wcsicmp_l` | 766 (0x2fe) | Exported Function | ucrtbase._o__wcsicmp_l | 0x0000b777
-`_o__wcsftime_l` | 764 (0x2fc) | Exported Function | ucrtbase._o__wcsftime_l | 0x0000b730
-`_o__unlock_file` | 749 (0x2ed) | Exported Function | ucrtbase._o__unlock_file | 0x0000b51c
-`_o__unloaddll` | 748 (0x2ec) | Exported Function | ucrtbase._o__unloaddll | 0x0000b4f5
-`_o__unlink` | 747 (0x2eb) | Exported Function | ucrtbase._o__unlink | 0x0000b4d3
-`_o__ungetwch_nolock` | 746 (0x2ea) | Exported Function | ucrtbase._o__ungetwch_nolock | 0x0000b4ab
-`_o__ungetwch` | 745 (0x2e9) | Exported Function | ucrtbase._o__ungetwch | 0x0000b481
-`_o__ungetwc_nolock` | 744 (0x2e8) | Exported Function | ucrtbase._o__ungetwc_nolock | 0x0000b458
-`_o__utime32` | 750 (0x2ee) | Exported Function | ucrtbase._o__utime32 | 0x0000b541
-`_o__ungetch_nolock` | 743 (0x2e7) | Exported Function | ucrtbase._o__ungetch_nolock | 0x0000b429
-`_o__ungetc_nolock` | 741 (0x2e5) | Exported Function | ucrtbase._o__ungetc_nolock | 0x0000b3da
-`_o__umask_s` | 740 (0x2e4) | Exported Function | ucrtbase._o__umask_s | 0x0000b3b3
-`_o__umask` | 739 (0x2e3) | Exported Function | ucrtbase._o__umask | 0x0000b394
-`_o__ultow_s` | 738 (0x2e2) | Exported Function | ucrtbase._o__ultow_s | 0x0000b375
-`_o__ultow` | 737 (0x2e1) | Exported Function | ucrtbase._o__ultow | 0x0000b356
-`_o__ultoa_s` | 736 (0x2e0) | Exported Function | ucrtbase._o__ultoa_s | 0x0000b337
-`_o__ungetch` | 742 (0x2e6) | Exported Function | ucrtbase._o__ungetch | 0x0000b401
-`_o__wcsicmp` | 765 (0x2fd) | Exported Function | ucrtbase._o__wcsicmp | 0x0000b754
-`_o__utime64` | 751 (0x2ef) | Exported Function | ucrtbase._o__utime64 | 0x0000b562
-`_o__W_Getmonths` | 80 (0x50) | Exported Function | ucrtbase._o__W_Getmonths | 0x00004cd3
-`_o__Wcsftime` | 82 (0x52) | Exported Function | ucrtbase._o__Wcsftime | 0x00004d22
-`_o__wcserror_s` | 763 (0x2fb) | Exported Function | ucrtbase._o__wcserror_s | 0x0000b709
-`_o__wcserror` | 762 (0x2fa) | Exported Function | ucrtbase._o__wcserror | 0x0000b6e4
-`_o__wcsdup` | 761 (0x2f9) | Exported Function | ucrtbase._o__wcsdup | 0x0000b6c3
-`_o__wcscoll_l` | 760 (0x2f8) | Exported Function | ucrtbase._o__wcscoll_l | 0x0000b6a1
-`_o__wcreate_locale` | 759 (0x2f7) | Exported Function | ucrtbase._o__wcreate_locale | 0x0000b677
-`_o__W_Getdays` | 79 (0x4f) | Exported Function | ucrtbase._o__W_Getdays | 0x00004cac
-`_o__wcreat` | 758 (0x2f6) | Exported Function | ucrtbase._o__wcreat | 0x0000b650
-`_o__wchdir` | 756 (0x2f4) | Exported Function | ucrtbase._o__wchdir | 0x0000b612
-`_o__wasctime_s` | 755 (0x2f3) | Exported Function | ucrtbase._o__wasctime_s | 0x0000b5ef
-`_o__wasctime` | 754 (0x2f2) | Exported Function | ucrtbase._o__wasctime | 0x0000b5ca
-`_o__waccess_s` | 753 (0x2f1) | Exported Function | ucrtbase._o__waccess_s | 0x0000b5a6
-`_o__waccess` | 752 (0x2f0) | Exported Function | ucrtbase._o__waccess | 0x0000b583
-`_o__W_Gettnames` | 81 (0x51) | Exported Function | ucrtbase._o__W_Gettnames | 0x00004cfc
-`_o__wchmod` | 757 (0x2f5) | Exported Function | ucrtbase._o__wchmod | 0x0000b631
-`_o__wctime32` | 801 (0x321) | Exported Function | ucrtbase._o__wctime32 | 0x0000bc75
-`_o__wctime32_s` | 802 (0x322) | Exported Function | ucrtbase._o__wctime32_s | 0x0000bc9a
-`_o__wctime64` | 803 (0x323) | Exported Function | ucrtbase._o__wctime64 | 0x0000bcbf
-`_o__wsplitpath_s` | 854 (0x356) | Exported Function | ucrtbase._o__wsplitpath_s | 0x0000c41c
-`_o__wsplitpath` | 853 (0x355) | Exported Function | ucrtbase._o__wsplitpath | 0x0000c3f3
-`_o__wspawnvpe` | 852 (0x354) | Exported Function | ucrtbase._o__wspawnvpe | 0x0000c3cd
-`_o__wspawnvp` | 851 (0x353) | Exported Function | ucrtbase._o__wspawnvp | 0x0000c3a9
-`_o__wspawnve` | 850 (0x352) | Exported Function | ucrtbase._o__wspawnve | 0x0000c386
-`_o__wspawnv` | 849 (0x351) | Exported Function | ucrtbase._o__wspawnv | 0x0000c364
-`_o__wstat32` | 855 (0x357) | Exported Function | ucrtbase._o__wstat32 | 0x0000c442
-`_o__wsopen_s` | 848 (0x350) | Exported Function | ucrtbase._o__wsopen_s | 0x0000c342
-`_o__wsetlocale` | 846 (0x34e) | Exported Function | ucrtbase._o__wsetlocale | 0x0000c2ec
-`_o__wsearchenv_s` | 845 (0x34d) | Exported Function | ucrtbase._o__wsearchenv_s | 0x0000c2c3
-`_o__wsearchenv` | 844 (0x34c) | Exported Function | ucrtbase._o__wsearchenv | 0x0000c29a
-`_o__wrmdir` | 843 (0x34b) | Exported Function | ucrtbase._o__wrmdir | 0x0000c277
-`_o__write` | 842 (0x34a) | Exported Function | ucrtbase._o__write | 0x0000c259
-`_o__wrename` | 841 (0x349) | Exported Function | ucrtbase._o__wrename | 0x0000c23a
-`_o__wsopen_dispatch` | 847 (0x34f) | Exported Function | ucrtbase._o__wsopen_dispatch | 0x0000c318
-`_o__wremove` | 840 (0x348) | Exported Function | ucrtbase._o__wremove | 0x0000c219
-`_o__wstat32i64` | 856 (0x358) | Exported Function | ucrtbase._o__wstat32i64 | 0x0000c466
-`_o__wstat64i32` | 858 (0x35a) | Exported Function | ucrtbase._o__wstat64i32 | 0x0000c4ae
-`_o__wtol_l` | 872 (0x368) | Exported Function | ucrtbase._o__wtol_l | 0x0000c67c
-`_o__wtol` | 871 (0x367) | Exported Function | ucrtbase._o__wtol | 0x0000c65f
-`_o__wtoi_l` | 870 (0x366) | Exported Function | ucrtbase._o__wtoi_l | 0x0000c642
-`_o__wtoi64_l` | 869 (0x365) | Exported Function | ucrtbase._o__wtoi64_l | 0x0000c621
-`_o__wtoi64` | 868 (0x364) | Exported Function | ucrtbase._o__wtoi64 | 0x0000c600
-`_o__wtoi` | 867 (0x363) | Exported Function | ucrtbase._o__wtoi | 0x0000c5e3
-`_o__wstat64` | 857 (0x359) | Exported Function | ucrtbase._o__wstat64 | 0x0000c48a
-`_o__wtof_l` | 866 (0x362) | Exported Function | ucrtbase._o__wtof_l | 0x0000c5c6
-`_o__wtmpnam_s` | 864 (0x360) | Exported Function | ucrtbase._o__wtmpnam_s | 0x0000c589
-`_o__wsystem` | 863 (0x35f) | Exported Function | ucrtbase._o__wsystem | 0x0000c566
-`_o__wstrtime_s` | 862 (0x35e) | Exported Function | ucrtbase._o__wstrtime_s | 0x0000c542
-`_o__wstrtime` | 861 (0x35d) | Exported Function | ucrtbase._o__wstrtime | 0x0000c51d
-`_o__wstrdate_s` | 860 (0x35c) | Exported Function | ucrtbase._o__wstrdate_s | 0x0000c4f8
-`_o__wstrdate` | 859 (0x35b) | Exported Function | ucrtbase._o__wstrdate | 0x0000c4d3
-`_o__wtof` | 865 (0x361) | Exported Function | ucrtbase._o__wtof | 0x0000c5a9
-`_o__wputenv_s` | 839 (0x347) | Exported Function | ucrtbase._o__wputenv_s | 0x0000c1f6
-`_o__wputenv` | 838 (0x346) | Exported Function | ucrtbase._o__wputenv | 0x0000c1d3
-`_o__wpopen` | 837 (0x345) | Exported Function | ucrtbase._o__wpopen | 0x0000c1b3
-`_o__wfindnext32` | 817 (0x331) | Exported Function | ucrtbase._o__wfindnext32 | 0x0000bed8
-`_o__wfindfirst64i32` | 816 (0x330) | Exported Function | ucrtbase._o__wfindfirst64i32 | 0x0000beab
-`_o__wfindfirst64` | 815 (0x32f) | Exported Function | ucrtbase._o__wfindfirst64 | 0x0000be7d
-`_o__wfindfirst32i64` | 814 (0x32e) | Exported Function | ucrtbase._o__wfindfirst32i64 | 0x0000be4f
-`_o__wfindfirst32` | 813 (0x32d) | Exported Function | ucrtbase._o__wfindfirst32 | 0x0000be21
-`_o__wfdopen` | 812 (0x32c) | Exported Function | ucrtbase._o__wfdopen | 0x0000bdfb
-`_o__wfindnext32i64` | 818 (0x332) | Exported Function | ucrtbase._o__wfindnext32i64 | 0x0000bf04
-`_o__wexecvpe` | 811 (0x32b) | Exported Function | ucrtbase._o__wexecvpe | 0x0000bdd9
-`_o__wexecve` | 809 (0x329) | Exported Function | ucrtbase._o__wexecve | 0x0000bd96
-`_o__wexecv` | 808 (0x328) | Exported Function | ucrtbase._o__wexecv | 0x0000bd76
-`_o__wdupenv_s` | 807 (0x327) | Exported Function | ucrtbase._o__wdupenv_s | 0x0000bd54
-`_o__wctomb_s_l` | 806 (0x326) | Exported Function | ucrtbase._o__wctomb_s_l | 0x0000bd2e
-`_o__wctomb_l` | 805 (0x325) | Exported Function | ucrtbase._o__wctomb_l | 0x0000bd09
-`_o__wctime64_s` | 804 (0x324) | Exported Function | ucrtbase._o__wctime64_s | 0x0000bce4
-`_o__wexecvp` | 810 (0x32a) | Exported Function | ucrtbase._o__wexecvp | 0x0000bdb7
-`_o__wfindnext64` | 819 (0x333) | Exported Function | ucrtbase._o__wfindnext64 | 0x0000bf30
-`_o__wfindnext64i32` | 820 (0x334) | Exported Function | ucrtbase._o__wfindnext64i32 | 0x0000bf5c
-`_o__wfopen` | 821 (0x335) | Exported Function | ucrtbase._o__wfopen | 0x0000bf83
-`_o__wperror` | 836 (0x344) | Exported Function | ucrtbase._o__wperror | 0x0000c193
-`_o__wmktemp_s` | 835 (0x343) | Exported Function | ucrtbase._o__wmktemp_s | 0x0000c170
-`_o__wmktemp` | 834 (0x342) | Exported Function | ucrtbase._o__wmktemp | 0x0000c14d
-`_o__wmkdir` | 833 (0x341) | Exported Function | ucrtbase._o__wmkdir | 0x0000c12d
-`_o__wmakepath_s` | 832 (0x340) | Exported Function | ucrtbase._o__wmakepath_s | 0x0000c109
-`_o__wmakepath` | 831 (0x33f) | Exported Function | ucrtbase._o__wmakepath | 0x0000c0e2
-`_o__wgetenv_s` | 830 (0x33e) | Exported Function | ucrtbase._o__wgetenv_s | 0x0000c0bd
-`_o__wgetenv` | 829 (0x33d) | Exported Function | ucrtbase._o__wgetenv | 0x0000c09a
-`_o__wgetdcwd` | 828 (0x33c) | Exported Function | ucrtbase._o__wgetdcwd | 0x0000c078
-`_o__wgetcwd` | 827 (0x33b) | Exported Function | ucrtbase._o__wgetcwd | 0x0000c056
-`_o__wfullpath` | 826 (0x33a) | Exported Function | ucrtbase._o__wfullpath | 0x0000c033
-`_o__wfsopen` | 825 (0x339) | Exported Function | ucrtbase._o__wfsopen | 0x0000c010
-`_o__wfreopen_s` | 824 (0x338) | Exported Function | ucrtbase._o__wfreopen_s | 0x0000bfec
-`_o__wfreopen` | 823 (0x337) | Exported Function | ucrtbase._o__wfreopen | 0x0000bfc7
-`_o__wfopen_s` | 822 (0x336) | Exported Function | ucrtbase._o__wfopen_s | 0x0000bfa4
-`_o__ultoa` | 735 (0x2df) | Exported Function | ucrtbase._o__ultoa | 0x0000b318
-`_o__ui64tow_s` | 734 (0x2de) | Exported Function | ucrtbase._o__ui64tow_s | 0x0000b2f7
-`_o__ui64tow` | 733 (0x2dd) | Exported Function | ucrtbase._o__ui64tow | 0x0000b2d4
-`_o__ui64toa_s` | 732 (0x2dc) | Exported Function | ucrtbase._o__ui64toa_s | 0x0000b2b1
-`_o__recalloc` | 641 (0x281) | Exported Function | ucrtbase._o__recalloc | 0x0000a521
-`_o__realloc_base` | 640 (0x280) | Exported Function | ucrtbase._o__realloc_base | 0x0000a4fa
-`_o__read` | 639 (0x27f) | Exported Function | ucrtbase._o__read | 0x0000a4d7
-`_o__putws` | 638 (0x27e) | Exported Function | ucrtbase._o__putws | 0x0000a4bb
-`_o__putwch_nolock` | 637 (0x27d) | Exported Function | ucrtbase._o__putwch_nolock | 0x0000a496
-`_o__putwch` | 636 (0x27c) | Exported Function | ucrtbase._o__putwch | 0x0000a470
-`_o__register_onexit_function` | 642 (0x282) | Exported Function | ucrtbase._o__register_onexit_function | 0x0000a554
-`_o__putwc_nolock` | 635 (0x27b) | Exported Function | ucrtbase._o__putwc_nolock | 0x0000a44b
-`_o__putenv_s` | 633 (0x279) | Exported Function | ucrtbase._o__putenv_s | 0x0000a409
-`_o__putenv` | 632 (0x278) | Exported Function | ucrtbase._o__putenv | 0x0000a3e8
-`_o__putch_nolock` | 631 (0x277) | Exported Function | ucrtbase._o__putch_nolock | 0x0000a3c3
-`_o__putch` | 630 (0x276) | Exported Function | ucrtbase._o__putch | 0x0000a39f
-`_o__putc_nolock` | 629 (0x275) | Exported Function | ucrtbase._o__putc_nolock | 0x0000a37c
-`_o__purecall` | 628 (0x274) | Exported Function | ucrtbase._o__purecall | 0x0000a356
-`_o__putw` | 634 (0x27a) | Exported Function | ucrtbase._o__putw | 0x0000a428
-`_o__popen` | 627 (0x273) | Exported Function | ucrtbase._o__popen | 0x0000a336
-`_o__resetstkoflw` | 643 (0x283) | Exported Function | ucrtbase._o__resetstkoflw | 0x0000a58b
-`_o__rmtmp` | 645 (0x285) | Exported Function | ucrtbase._o__rmtmp | 0x0000a5cc
-`_o__set_thread_local_invalid_parameter_handler` | 659 (0x293) | Exported Function | ucrtbase._o__set_thread_local_invalid_parameter_handler | 0x0000a857
-`_o__set_new_mode` | 658 (0x292) | Exported Function | ucrtbase._o__set_new_mode | 0x0000a80e
-`_o__set_new_handler` | 657 (0x291) | Exported Function | ucrtbase._o__set_new_handler | 0x0000a7e0
-`_o__set_invalid_parameter_handler` | 656 (0x290) | Exported Function | ucrtbase._o__set_invalid_parameter_handler | 0x0000a7a1
-`_o__set_fmode` | 655 (0x28f) | Exported Function | ucrtbase._o__set_fmode | 0x0000a768
-`_o__set_errno` | 654 (0x28e) | Exported Function | ucrtbase._o__set_errno | 0x0000a743
-`_o__rmdir` | 644 (0x284) | Exported Function | ucrtbase._o__rmdir | 0x0000a5af
-`_o__set_doserrno` | 653 (0x28d) | Exported Function | ucrtbase._o__set_doserrno | 0x0000a71b
-`_o__set_abort_behavior` | 651 (0x28b) | Exported Function | ucrtbase._o__set_abort_behavior | 0x0000a6bf
-`_o__seh_filter_exe` | 650 (0x28a) | Exported Function | ucrtbase._o__seh_filter_exe | 0x0000a68c
-`_o__seh_filter_dll` | 649 (0x289) | Exported Function | ucrtbase._o__seh_filter_dll | 0x0000a65d
-`_o__searchenv_s` | 648 (0x288) | Exported Function | ucrtbase._o__searchenv_s | 0x0000a631
-`_o__searchenv` | 647 (0x287) | Exported Function | ucrtbase._o__searchenv | 0x0000a60a
-`_o__scalb` | 646 (0x286) | Exported Function | ucrtbase._o__scalb | 0x0000a5e9
-`_o__set_app_type` | 652 (0x28c) | Exported Function | ucrtbase._o__set_app_type | 0x0000a6f0
-`_o__pipe` | 626 (0x272) | Exported Function | ucrtbase._o__pipe | 0x0000a31a
-`_o__pclose` | 625 (0x271) | Exported Function | ucrtbase._o__pclose | 0x0000a2fd
-`_o__open_osfhandle` | 624 (0x270) | Exported Function | ucrtbase._o__open_osfhandle | 0x0000a2d6
-`_o__mbstrlen` | 604 (0x25c) | Exported Function | ucrtbase._o__mbstrlen | 0x0000a00e
-`_o__mbstowcs_s_l` | 603 (0x25b) | Exported Function | ucrtbase._o__mbstowcs_s_l | 0x00009fe7
-`_o__mbstowcs_l` | 602 (0x25a) | Exported Function | ucrtbase._o__mbstowcs_l | 0x00009fbe
-`_o__mbstok_s_l` | 601 (0x259) | Exported Function | ucrtbase._o__mbstok_s_l | 0x00009f97
-`_o__mbstok_s` | 600 (0x258) | Exported Function | ucrtbase._o__mbstok_s | 0x00009f72
-`_o__mbstok_l` | 599 (0x257) | Exported Function | ucrtbase._o__mbstok_l | 0x00009f4f
-`_o__mbstrlen_l` | 605 (0x25d) | Exported Function | ucrtbase._o__mbstrlen_l | 0x0000a033
-`_o__mbstok` | 598 (0x256) | Exported Function | ucrtbase._o__mbstok | 0x00009f2e
-`_o__mbsstr` | 596 (0x254) | Exported Function | ucrtbase._o__mbsstr | 0x00009eec
-`_o__mbsspnp_l` | 595 (0x253) | Exported Function | ucrtbase._o__mbsspnp_l | 0x00009eca
-`_o__mbsspnp` | 594 (0x252) | Exported Function | ucrtbase._o__mbsspnp | 0x00009ea7
-`_o__mbsspn_l` | 593 (0x251) | Exported Function | ucrtbase._o__mbsspn_l | 0x00009e85
-`_o__mbsspn` | 592 (0x250) | Exported Function | ucrtbase._o__mbsspn | 0x00009e64
-`_o__mbsset_s_l` | 591 (0x24f) | Exported Function | ucrtbase._o__mbsset_s_l | 0x00009e41
-`_o__mbsstr_l` | 597 (0x255) | Exported Function | ucrtbase._o__mbsstr_l | 0x00009f0d
-`_o__mbstrnlen` | 606 (0x25e) | Exported Function | ucrtbase._o__mbstrnlen | 0x0000a059
-`_o__mbstrnlen_l` | 607 (0x25f) | Exported Function | ucrtbase._o__mbstrnlen_l | 0x0000a080
-`_o__mbsupr` | 608 (0x260) | Exported Function | ucrtbase._o__mbsupr | 0x0000a0a4
-`_o__nextafter` | 623 (0x26f) | Exported Function | ucrtbase._o__nextafter | 0x0000a2ac
-`_o__msize` | 622 (0x26e) | Exported Function | ucrtbase._o__msize | 0x0000a28b
-`_o__mktime64` | 621 (0x26d) | Exported Function | ucrtbase._o__mktime64 | 0x0000a26b
-`_o__mktime32` | 620 (0x26c) | Exported Function | ucrtbase._o__mktime32 | 0x0000a248
-`_o__mktemp_s` | 619 (0x26b) | Exported Function | ucrtbase._o__mktemp_s | 0x0000a225
-`_o__mktemp` | 618 (0x26a) | Exported Function | ucrtbase._o__mktemp | 0x0000a204
-`_o__mkgmtime64` | 617 (0x269) | Exported Function | ucrtbase._o__mkgmtime64 | 0x0000a1e1
-`_o__mkgmtime32` | 616 (0x268) | Exported Function | ucrtbase._o__mkgmtime32 | 0x0000a1ba
-`_o__mkdir` | 615 (0x267) | Exported Function | ucrtbase._o__mkdir | 0x0000a198
-`_o__memicmp_l` | 614 (0x266) | Exported Function | ucrtbase._o__memicmp_l | 0x0000a177
-`_o__memicmp` | 613 (0x265) | Exported Function | ucrtbase._o__memicmp | 0x0000a154
-`_o__mbtowc_l` | 612 (0x264) | Exported Function | ucrtbase._o__mbtowc_l | 0x0000a132
-`_o__mbsupr_s_l` | 611 (0x263) | Exported Function | ucrtbase._o__mbsupr_s_l | 0x0000a10d
-`_o__mbsupr_s` | 610 (0x262) | Exported Function | ucrtbase._o__mbsupr_s | 0x0000a0e8
-`_o__mbsupr_l` | 609 (0x261) | Exported Function | ucrtbase._o__mbsupr_l | 0x0000a0c5
-`_o__seterrormode` | 660 (0x294) | Exported Function | ucrtbase._o__seterrormode | 0x0000a8a0
-`_o__wtoll` | 873 (0x369) | Exported Function | ucrtbase._o__wtoll | 0x0000c69a
-`_o__setmbcp` | 661 (0x295) | Exported Function | ucrtbase._o__setmbcp | 0x0000a8c6
-`_o__setsystime` | 663 (0x297) | Exported Function | ucrtbase._o__setsystime | 0x0000a90b
-`_o__strtoull_l` | 713 (0x2c9) | Exported Function | ucrtbase._o__strtoull_l | 0x0000b00d
-`_o__strtoul_l` | 712 (0x2c8) | Exported Function | ucrtbase._o__strtoul_l | 0x0000afe7
-`_o__strtoui64_l` | 711 (0x2c7) | Exported Function | ucrtbase._o__strtoui64_l | 0x0000afc0
-`_o__strtoui64` | 710 (0x2c6) | Exported Function | ucrtbase._o__strtoui64 | 0x0000af99
-`_o__strtoll_l` | 709 (0x2c5) | Exported Function | ucrtbase._o__strtoll_l | 0x0000af74
-`_o__strtold_l` | 708 (0x2c4) | Exported Function | ucrtbase._o__strtold_l | 0x0000af4f
-`_o__strupr` | 714 (0x2ca) | Exported Function | ucrtbase._o__strupr | 0x0000b030
-`_o__strtol_l` | 707 (0x2c3) | Exported Function | ucrtbase._o__strtol_l | 0x0000af2b
-`_o__strtoi64` | 705 (0x2c1) | Exported Function | ucrtbase._o__strtoi64 | 0x0000aee1
-`_o__strtof_l` | 704 (0x2c0) | Exported Function | ucrtbase._o__strtof_l | 0x0000aebe
-`_o__strtod_l` | 703 (0x2bf) | Exported Function | ucrtbase._o__strtod_l | 0x0000ae9b
-`_o__strtime_s` | 702 (0x2be) | Exported Function | ucrtbase._o__strtime_s | 0x0000ae77
-`_o__strtime` | 701 (0x2bd) | Exported Function | ucrtbase._o__strtime | 0x0000ae54
-`_o__strset_s` | 700 (0x2bc) | Exported Function | ucrtbase._o__strset_s | 0x0000ae32
-`_o__strtoi64_l` | 706 (0x2c2) | Exported Function | ucrtbase._o__strtoi64_l | 0x0000af06
-`_o__strnset_s` | 699 (0x2bb) | Exported Function | ucrtbase._o__strnset_s | 0x0000ae0e
-`_o__strupr_l` | 715 (0x2cb) | Exported Function | ucrtbase._o__strupr_l | 0x0000b051
-`_o__strupr_s_l` | 717 (0x2cd) | Exported Function | ucrtbase._o__strupr_s_l | 0x0000b099
-`_o__ui64toa` | 731 (0x2db) | Exported Function | ucrtbase._o__ui64toa | 0x0000b28e
-`_o__tzset` | 730 (0x2da) | Exported Function | ucrtbase._o__tzset | 0x0000b26f
-`_o__towupper_l` | 729 (0x2d9) | Exported Function | ucrtbase._o__towupper_l | 0x0000b24d
-`_o__towlower_l` | 728 (0x2d8) | Exported Function | ucrtbase._o__towlower_l | 0x0000b226
-`_o__toupper_l` | 727 (0x2d7) | Exported Function | ucrtbase._o__toupper_l | 0x0000b200
-`_o__toupper` | 726 (0x2d6) | Exported Function | ucrtbase._o__toupper | 0x0000b1dd
-`_o__strupr_s` | 716 (0x2cc) | Exported Function | ucrtbase._o__strupr_s | 0x0000b074
-`_o__tolower_l` | 725 (0x2d5) | Exported Function | ucrtbase._o__tolower_l | 0x0000b1ba
-`_o__timespec64_get` | 723 (0x2d3) | Exported Function | ucrtbase._o__timespec64_get | 0x0000b16f
-`_o__timespec32_get` | 722 (0x2d2) | Exported Function | ucrtbase._o__timespec32_get | 0x0000b140
-`_o__telli64` | 721 (0x2d1) | Exported Function | ucrtbase._o__telli64 | 0x0000b118
-`_o__tell` | 720 (0x2d0) | Exported Function | ucrtbase._o__tell | 0x0000b0fa
-`_o__swab` | 719 (0x2cf) | Exported Function | ucrtbase._o__swab | 0x0000b0df
-`_o__strxfrm_l` | 718 (0x2ce) | Exported Function | ucrtbase._o__strxfrm_l | 0x0000b0bf
-`_o__tolower` | 724 (0x2d4) | Exported Function | ucrtbase._o__tolower | 0x0000b197
-`_o__strnicoll_l` | 698 (0x2ba) | Exported Function | ucrtbase._o__strnicoll_l | 0x0000ade7
-`_o__strnicoll` | 697 (0x2b9) | Exported Function | ucrtbase._o__strnicoll | 0x0000adc0
-`_o__strnicmp_l` | 696 (0x2b8) | Exported Function | ucrtbase._o__strnicmp_l | 0x0000ad9a
-`_o__stat64i32` | 677 (0x2a5) | Exported Function | ucrtbase._o__stat64i32 | 0x0000aaf0
-`_o__stat64` | 676 (0x2a4) | Exported Function | ucrtbase._o__stat64 | 0x0000aace
-`_o__stat32i64` | 675 (0x2a3) | Exported Function | ucrtbase._o__stat32i64 | 0x0000aaac
-`_o__stat32` | 674 (0x2a2) | Exported Function | ucrtbase._o__stat32 | 0x0000aa8a
-`_o__splitpath_s` | 673 (0x2a1) | Exported Function | ucrtbase._o__splitpath_s | 0x0000aa66
-`_o__splitpath` | 672 (0x2a0) | Exported Function | ucrtbase._o__splitpath | 0x0000aa3f
-`_o__strcoll_l` | 678 (0x2a6) | Exported Function | ucrtbase._o__strcoll_l | 0x0000ab15
-`_o__spawnvpe` | 671 (0x29f) | Exported Function | ucrtbase._o__spawnvpe | 0x0000aa1b
-`_o__spawnve` | 669 (0x29d) | Exported Function | ucrtbase._o__spawnve | 0x0000a9d8
-`_o__spawnv` | 668 (0x29c) | Exported Function | ucrtbase._o__spawnv | 0x0000a9b8
-`_o__sopen_s` | 667 (0x29b) | Exported Function | ucrtbase._o__sopen_s | 0x0000a998
-`_o__sopen_dispatch` | 666 (0x29a) | Exported Function | ucrtbase._o__sopen_dispatch | 0x0000a970
-`_o__sopen` | 665 (0x299) | Exported Function | ucrtbase._o__sopen | 0x0000a94a
-`_o__sleep` | 664 (0x298) | Exported Function | ucrtbase._o__sleep | 0x0000a92d
-`_o__spawnvp` | 670 (0x29e) | Exported Function | ucrtbase._o__spawnvp | 0x0000a9f9
-`_o__strdate` | 679 (0x2a7) | Exported Function | ucrtbase._o__strdate | 0x0000ab38
-`_o__strdate_s` | 680 (0x2a8) | Exported Function | ucrtbase._o__strdate_s | 0x0000ab5b
-`_o__strdup` | 681 (0x2a9) | Exported Function | ucrtbase._o__strdup | 0x0000ab7d
-`_o__strnicmp` | 695 (0x2b7) | Exported Function | ucrtbase._o__strnicmp | 0x0000ad75
-`_o__strncoll_l` | 694 (0x2b6) | Exported Function | ucrtbase._o__strncoll_l | 0x0000ad50
-`_o__strncoll` | 693 (0x2b5) | Exported Function | ucrtbase._o__strncoll | 0x0000ad2b
-`_o__strlwr_s_l` | 692 (0x2b4) | Exported Function | ucrtbase._o__strlwr_s_l | 0x0000ad06
-`_o__strlwr_s` | 691 (0x2b3) | Exported Function | ucrtbase._o__strlwr_s | 0x0000ace1
-`_o__strlwr_l` | 690 (0x2b2) | Exported Function | ucrtbase._o__strlwr_l | 0x0000acbe
-`_o__strlwr` | 689 (0x2b1) | Exported Function | ucrtbase._o__strlwr | 0x0000ac9d
-`_o__stricoll_l` | 688 (0x2b0) | Exported Function | ucrtbase._o__stricoll_l | 0x0000ac7a
-`_o__stricoll` | 687 (0x2af) | Exported Function | ucrtbase._o__stricoll | 0x0000ac55
-`_o__stricmp_l` | 686 (0x2ae) | Exported Function | ucrtbase._o__stricmp_l | 0x0000ac31
-`_o__stricmp` | 685 (0x2ad) | Exported Function | ucrtbase._o__stricmp | 0x0000ac0e
-`_o__strftime_l` | 684 (0x2ac) | Exported Function | ucrtbase._o__strftime_l | 0x0000abea
-`_o__Strftime` | 78 (0x4e) | Exported Function | ucrtbase._o__Strftime | 0x00004c88
-`_o__strerror_s` | 683 (0x2ab) | Exported Function | ucrtbase._o__strerror_s | 0x0000abc3
-`_o__strerror` | 682 (0x2aa) | Exported Function | ucrtbase._o__strerror | 0x0000ab9e
-`_o__setmode` | 662 (0x296) | Exported Function | ucrtbase._o__setmode | 0x0000a8e7
-`_o__mbsset_s` | 590 (0x24e) | Exported Function | ucrtbase._o__mbsset_s | 0x00009e1c
-`_o__wtoll_l` | 874 (0x36a) | Exported Function | ucrtbase._o__wtoll_l | 0x0000c6b9
-`_o__wutime32` | 876 (0x36c) | Exported Function | ucrtbase._o__wutime32 | 0x0000c6fc
-`_o_roundl` | 1072 (0x430) | Exported Function | ucrtbase._o_roundl | 0x0000dd7b
-`_o_roundf` | 1071 (0x42f) | Exported Function | ucrtbase._o_roundf | 0x0000dd5e
-`_o_round` | 1070 (0x42e) | Exported Function | ucrtbase._o_round | 0x0000dd42
-`_o_rintl` | 1069 (0x42d) | Exported Function | ucrtbase._o_rintl | 0x0000dd27
-`_o_rintf` | 1068 (0x42c) | Exported Function | ucrtbase._o_rintf | 0x0000dd0c
-`_o_rint` | 1067 (0x42b) | Exported Function | ucrtbase._o_rint | 0x0000dcf2
-`_o_scalbln` | 1073 (0x431) | Exported Function | ucrtbase._o_scalbln | 0x0000dd99
-`_o_rewind` | 1066 (0x42a) | Exported Function | ucrtbase._o_rewind | 0x0000dcd7
-`_o_remquol` | 1064 (0x428) | Exported Function | ucrtbase._o_remquol | 0x0000dc9c
-`_o_remquof` | 1063 (0x427) | Exported Function | ucrtbase._o_remquof | 0x0000dc7d
-`_o_remquo` | 1062 (0x426) | Exported Function | ucrtbase._o_remquo | 0x0000dc5f
-`_o_remove` | 1061 (0x425) | Exported Function | ucrtbase._o_remove | 0x0000dc42
-`_o_remainderl` | 1060 (0x424) | Exported Function | ucrtbase._o_remainderl | 0x0000dc21
-`_o_remainderf` | 1059 (0x423) | Exported Function | ucrtbase._o_remainderf | 0x0000dbfc
-`_o_rename` | 1065 (0x429) | Exported Function | ucrtbase._o_rename | 0x0000dcba
-`_o_remainder` | 1058 (0x422) | Exported Function | ucrtbase._o_remainder | 0x0000dbd8
-`_o_scalblnf` | 1074 (0x432) | Exported Function | ucrtbase._o_scalblnf | 0x0000ddb9
-`_o_scalbn` | 1076 (0x434) | Exported Function | ucrtbase._o_scalbn | 0x0000ddf9
-`_o_strerror` | 1090 (0x442) | Exported Function | ucrtbase._o_strerror | 0x0000dfa5
-`_o_strcpy_s` | 1089 (0x441) | Exported Function | ucrtbase._o_strcpy_s | 0x0000df84
-`_o_strcoll` | 1088 (0x440) | Exported Function | ucrtbase._o_strcoll | 0x0000df64
-`_o_strcat_s` | 1087 (0x43f) | Exported Function | ucrtbase._o_strcat_s | 0x0000df44
-`_o_srand` | 1086 (0x43e) | Exported Function | ucrtbase._o_srand | 0x0000df26
-`_o_sqrt` | 1085 (0x43d) | Exported Function | ucrtbase._o_sqrt | 0x0000df0c
-`_o_scalblnl` | 1075 (0x433) | Exported Function | ucrtbase._o_scalblnl | 0x0000ddda
-`_o_sinh` | 1084 (0x43c) | Exported Function | ucrtbase._o_sinh | 0x0000def3
-`_o_setvbuf` | 1082 (0x43a) | Exported Function | ucrtbase._o_setvbuf | 0x0000dec0
-`_o_setlocale` | 1081 (0x439) | Exported Function | ucrtbase._o_setlocale | 0x0000de9f
-`_o_setbuf` | 1080 (0x438) | Exported Function | ucrtbase._o_setbuf | 0x0000de7f
-`_o_set_terminate` | 1079 (0x437) | Exported Function | ucrtbase._o_set_terminate | 0x0000de5b
-`_o_scalbnl` | 1078 (0x436) | Exported Function | ucrtbase._o_scalbnl | 0x0000de36
-`_o_scalbnf` | 1077 (0x435) | Exported Function | ucrtbase._o_scalbnf | 0x0000de17
-`_o_sin` | 1083 (0x43b) | Exported Function | ucrtbase._o_sin | 0x0000dedb
-`_o_strerror_s` | 1091 (0x443) | Exported Function | ucrtbase._o_strerror_s | 0x0000dfc8
-`_o_realloc` | 1057 (0x421) | Exported Function | ucrtbase._o_realloc | 0x0000dbb7
-`_o_rand` | 1055 (0x41f) | Exported Function | ucrtbase._o_rand | 0x0000db7e
-`_o_nearbyint` | 1036 (0x40c) | Exported Function | ucrtbase._o_nearbyint | 0x0000d924
-`_o_nanl` | 1035 (0x40b) | Exported Function | ucrtbase._o_nanl | 0x0000d906
-`_o_nanf` | 1034 (0x40a) | Exported Function | ucrtbase._o_nanf | 0x0000d8ed
-`_o_nan` | 1033 (0x409) | Exported Function | ucrtbase._o_nan | 0x0000d8d5
-`_o_modf` | 1032 (0x408) | Exported Function | ucrtbase._o_modf | 0x0000d8bd
-`_o_memset` | 1031 (0x407) | Exported Function | ucrtbase._o_memset | 0x0000d8a2
-`_o_nearbyintf` | 1037 (0x40d) | Exported Function | ucrtbase._o_nearbyintf | 0x0000d948
-`_o_memcpy_s` | 1030 (0x406) | Exported Function | ucrtbase._o_memcpy_s | 0x0000d883
-`_o_mbstowcs_s` | 1028 (0x404) | Exported Function | ucrtbase._o_mbstowcs_s | 0x0000d843
-`_o_mbstowcs` | 1027 (0x403) | Exported Function | ucrtbase._o_mbstowcs | 0x0000d820
-`_o_mbsrtowcs_s` | 1026 (0x402) | Exported Function | ucrtbase._o_mbsrtowcs_s | 0x0000d7fc
-`_o_mbsrtowcs` | 1025 (0x401) | Exported Function | ucrtbase._o_mbsrtowcs | 0x0000d7d7
-`_o_mbrtowc` | 1024 (0x400) | Exported Function | ucrtbase._o_mbrtowc | 0x0000d7b6
-`_o_mbrtoc32` | 1023 (0x3ff) | Exported Function | ucrtbase._o_mbrtoc32 | 0x0000d796
-`_o_mbtowc` | 1029 (0x405) | Exported Function | ucrtbase._o_mbtowc | 0x0000d864
-`_o_rand_s` | 1056 (0x420) | Exported Function | ucrtbase._o_rand_s | 0x0000db99
-`_o_nearbyintl` | 1038 (0x40e) | Exported Function | ucrtbase._o_nearbyintl | 0x0000d96d
-`_o_nextafterf` | 1040 (0x410) | Exported Function | ucrtbase._o_nextafterf | 0x0000d9b5
-`_o_raise` | 1054 (0x41e) | Exported Function | ucrtbase._o_raise | 0x0000db64
-`_o_qsort_s` | 1053 (0x41d) | Exported Function | ucrtbase._o_qsort_s | 0x0000db47
-`_o_qsort` | 1052 (0x41c) | Exported Function | ucrtbase._o_qsort | 0x0000db2a
-`_o_putwchar` | 1051 (0x41b) | Exported Function | ucrtbase._o_putwchar | 0x0000db0c
-`_o_putwc` | 1050 (0x41a) | Exported Function | ucrtbase._o_putwc | 0x0000daee
-`_o_puts` | 1049 (0x419) | Exported Function | ucrtbase._o_puts | 0x0000dad4
-`_o_nextafter` | 1039 (0x40f) | Exported Function | ucrtbase._o_nextafter | 0x0000d991
-`_o_putchar` | 1048 (0x418) | Exported Function | ucrtbase._o_putchar | 0x0000dab8
-`_o_powf` | 1046 (0x416) | Exported Function | ucrtbase._o_powf | 0x0000da83
-`_o_pow` | 1045 (0x415) | Exported Function | ucrtbase._o_pow | 0x0000da6b
-`_o_nexttowardl` | 1044 (0x414) | Exported Function | ucrtbase._o_nexttowardl | 0x0000da4c
-`_o_nexttowardf` | 1043 (0x413) | Exported Function | ucrtbase._o_nexttowardf | 0x0000da25
-`_o_nexttoward` | 1042 (0x412) | Exported Function | ucrtbase._o_nexttoward | 0x0000d9ff
-`_o_nextafterl` | 1041 (0x411) | Exported Function | ucrtbase._o_nextafterl | 0x0000d9da
-`_o_putc` | 1047 (0x417) | Exported Function | ucrtbase._o_putc | 0x0000da9c
-`_o_strftime` | 1092 (0x444) | Exported Function | ucrtbase._o_strftime | 0x0000dfeb
-`_o_strncat_s` | 1093 (0x445) | Exported Function | ucrtbase._o_strncat_s | 0x0000e00d
-`_o_strncpy_s` | 1094 (0x446) | Exported Function | ucrtbase._o_strncpy_s | 0x0000e030
-`_o_wmemmove_s` | 1145 (0x479) | Exported Function | ucrtbase._o_wmemmove_s | 0x0000e678
-`_o_wmemcpy_s` | 1144 (0x478) | Exported Function | ucrtbase._o_wmemcpy_s | 0x0000e654
-`_o_wctomb_s` | 1143 (0x477) | Exported Function | ucrtbase._o_wctomb_s | 0x0000e632
-`_o_wctomb` | 1142 (0x476) | Exported Function | ucrtbase._o_wctomb | 0x0000e613
-`_o_wctob` | 1141 (0x475) | Exported Function | ucrtbase._o_wctob | 0x0000e5f7
-`_o_wcstoull` | 1140 (0x474) | Exported Function | ucrtbase._o_wcstoull | 0x0000e5d9
-`_purecall` | 1146 (0x47a) | Exported Function | ucrtbase._purecall | 0x0000e699
-`_o_wcstoul` | 1139 (0x473) | Exported Function | ucrtbase._o_wcstoul | 0x0000e5b9
-`_o_wcstombs` | 1137 (0x471) | Exported Function | ucrtbase._o_wcstombs | 0x0000e574
-`_o_wcstoll` | 1136 (0x470) | Exported Function | ucrtbase._o_wcstoll | 0x0000e554
-`_o_wcstold` | 1135 (0x46f) | Exported Function | ucrtbase._o_wcstold | 0x0000e535
-`_o_wcstol` | 1134 (0x46e) | Exported Function | ucrtbase._o_wcstol | 0x0000e517
-`_o_wcstok_s` | 1133 (0x46d) | Exported Function | ucrtbase._o_wcstok_s | 0x0000e4f8
-`_o_wcstok` | 1132 (0x46c) | Exported Function | ucrtbase._o_wcstok | 0x0000e4d9
-`_o_wcstombs_s` | 1138 (0x472) | Exported Function | ucrtbase._o_wcstombs_s | 0x0000e597
-`_o_wcstof` | 1131 (0x46b) | Exported Function | ucrtbase._o_wcstof | 0x0000e4bc
-`_seh_longjmp_unwind` | 1147 (0x47b) | Exported Function | ucrtbase._seh_longjmp_unwind | 0x0000e6c0
-`_set_purecall_handler` | 1149 (0x47d) | Exported Function | ucrtbase._set_purecall_handler | 0x0000e726
-`wcschr` | 1162 (0x48a) | Exported Function | ucrtbase.wcschr | 0x0000e89a
-`unexpected` | 1161 (0x489) | Exported Function | ucrtbase.unexpected | 0x0000e87f
-`strstr` | 1160 (0x488) | Exported Function | ucrtbase.strstr | 0x0000e864
-`strrchr` | 1159 (0x487) | Exported Function | ucrtbase.strrchr | 0x0000e84c
-`strchr` | 1158 (0x486) | Exported Function | ucrtbase.strchr | 0x0000e834
-`set_unexpected` | 1157 (0x485) | Exported Function | ucrtbase.set_unexpected | 0x0000e815
-`_seh_longjmp_unwind4` | 1148 (0x47c) | Exported Function | ucrtbase._seh_longjmp_unwind4 | 0x0000e6f2
-`memmove` | 1156 (0x484) | Exported Function | ucrtbase.memmove | 0x0000e7f5
-`memcmp` | 1154 (0x482) | Exported Function | ucrtbase.memcmp | 0x0000e7c6
-`memchr` | 1153 (0x481) | Exported Function | ucrtbase.memchr | 0x0000e7af
-`longjmp` | 1152 (0x480) | Exported Function | ucrtbase.longjmp | 0x0000e797
-`_SetWinRTOutOfMemoryExceptionCallback` | 9 (0x9) | Exported Function | ucrtbase._SetWinRTOutOfMemoryExceptionCallback | 0x00004076
-`_setjmp3` | 1151 (0x47f) | Exported Function | ucrtbase._setjmp3 | 0x0000e77d
-`_set_se_translator` | 1150 (0x47e) | Exported Function | ucrtbase._set_se_translator | 0x0000e758
-`memcpy` | 1155 (0x483) | Exported Function | ucrtbase.memcpy | 0x0000e7dd
-`_o_wcstod` | 1130 (0x46a) | Exported Function | ucrtbase._o_wcstod | 0x0000e49f
-`_o_wcsrtombs_s` | 1129 (0x469) | Exported Function | ucrtbase._o_wcsrtombs_s | 0x0000e47d
-`_o_wcsrtombs` | 1128 (0x468) | Exported Function | ucrtbase._o_wcsrtombs | 0x0000e458
-`_o_tgamma` | 1108 (0x454) | Exported Function | ucrtbase._o_tgamma | 0x0000e1d3
-`_o_terminate` | 1107 (0x453) | Exported Function | ucrtbase._o_terminate | 0x0000e1b3
-`_o_tanh` | 1106 (0x452) | Exported Function | ucrtbase._o_tanh | 0x0000e195
-`_o_tan` | 1105 (0x451) | Exported Function | ucrtbase._o_tan | 0x0000e17d
-`_o_system` | 1104 (0x450) | Exported Function | ucrtbase._o_system | 0x0000e163
-`_o_strtoull` | 1103 (0x44f) | Exported Function | ucrtbase._o_strtoull | 0x0000e144
-`_o_tgammaf` | 1109 (0x455) | Exported Function | ucrtbase._o_tgammaf | 0x0000e1f1
-`_o_strtoul` | 1102 (0x44e) | Exported Function | ucrtbase._o_strtoul | 0x0000e124
-`_o_strtold` | 1100 (0x44c) | Exported Function | ucrtbase._o_strtold | 0x0000e0e6
-`_o_strtol` | 1099 (0x44b) | Exported Function | ucrtbase._o_strtol | 0x0000e0c8
-`_o_strtok_s` | 1098 (0x44a) | Exported Function | ucrtbase._o_strtok_s | 0x0000e0a9
-`_o_strtok` | 1097 (0x449) | Exported Function | ucrtbase._o_strtok | 0x0000e08a
-`_o_strtof` | 1096 (0x448) | Exported Function | ucrtbase._o_strtof | 0x0000e06d
-`_o_strtod` | 1095 (0x447) | Exported Function | ucrtbase._o_strtod | 0x0000e050
-`_o_strtoll` | 1101 (0x44d) | Exported Function | ucrtbase._o_strtoll | 0x0000e105
-`_o_tgammal` | 1110 (0x456) | Exported Function | ucrtbase._o_tgammal | 0x0000e210
-`_o_tmpfile_s` | 1111 (0x457) | Exported Function | ucrtbase._o_tmpfile_s | 0x0000e231
-`_o_tmpnam_s` | 1112 (0x458) | Exported Function | ucrtbase._o_tmpnam_s | 0x0000e253
-`_o_wcsncpy_s` | 1127 (0x467) | Exported Function | ucrtbase._o_wcsncpy_s | 0x0000e435
-`_o_wcsncat_s` | 1126 (0x466) | Exported Function | ucrtbase._o_wcsncat_s | 0x0000e412
-`_o_wcsftime` | 1125 (0x465) | Exported Function | ucrtbase._o_wcsftime | 0x0000e3f0
-`_o_wcscpy_s` | 1124 (0x464) | Exported Function | ucrtbase._o_wcscpy_s | 0x0000e3cf
-`_o_wcscpy` | 1123 (0x463) | Exported Function | ucrtbase._o_wcscpy | 0x0000e3b0
-`_o_wcscoll` | 1122 (0x462) | Exported Function | ucrtbase._o_wcscoll | 0x0000e392
-`_o_wcscat_s` | 1121 (0x461) | Exported Function | ucrtbase._o_wcscat_s | 0x0000e372
-`_o_wcrtomb_s` | 1120 (0x460) | Exported Function | ucrtbase._o_wcrtomb_s | 0x0000e350
-`_o_wcrtomb` | 1119 (0x45f) | Exported Function | ucrtbase._o_wcrtomb | 0x0000e32f
-`_o_ungetwc` | 1118 (0x45e) | Exported Function | ucrtbase._o_ungetwc | 0x0000e310
-`_o_ungetc` | 1117 (0x45d) | Exported Function | ucrtbase._o_ungetc | 0x0000e2f2
-`_o_towupper` | 1116 (0x45c) | Exported Function | ucrtbase._o_towupper | 0x0000e2d3
-`_o_towlower` | 1115 (0x45b) | Exported Function | ucrtbase._o_towlower | 0x0000e2b2
-`_o_toupper` | 1114 (0x45a) | Exported Function | ucrtbase._o_toupper | 0x0000e292
-`_o_tolower` | 1113 (0x459) | Exported Function | ucrtbase._o_tolower | 0x0000e273
-`_o_mbrtoc16` | 1022 (0x3fe) | Exported Function | ucrtbase._o_mbrtoc16 | 0x0000d775
-`_o_mbrlen` | 1021 (0x3fd) | Exported Function | ucrtbase._o_mbrlen | 0x0000d756
-`_o_mblen` | 1020 (0x3fc) | Exported Function | ucrtbase._o_mblen | 0x0000d73a
-`_o_malloc` | 1019 (0x3fb) | Exported Function | ucrtbase._o_malloc | 0x0000d71e
-`_o_fflush` | 927 (0x39f) | Exported Function | ucrtbase._o_fflush | 0x0000cc6c
-`_o_ferror` | 926 (0x39e) | Exported Function | ucrtbase._o_ferror | 0x0000cc4f
-`_o_feof` | 925 (0x39d) | Exported Function | ucrtbase._o_feof | 0x0000cc34
-`_o_fclose` | 924 (0x39c) | Exported Function | ucrtbase._o_fclose | 0x0000cc19
-`_o_fabs` | 923 (0x39b) | Exported Function | ucrtbase._o_fabs | 0x0000cbfe
-`_o_exp2l` | 922 (0x39a) | Exported Function | ucrtbase._o_exp2l | 0x0000cbe4
-`_o_fgetc` | 928 (0x3a0) | Exported Function | ucrtbase._o_fgetc | 0x0000cc88
-`_o_exp2f` | 921 (0x399) | Exported Function | ucrtbase._o_exp2f | 0x0000cbc9
-`_o_exp` | 919 (0x397) | Exported Function | ucrtbase._o_exp | 0x0000cb97
-`_o_exit` | 918 (0x396) | Exported Function | ucrtbase._o_exit | 0x0000cb7f
-`_o_erfl` | 917 (0x395) | Exported Function | ucrtbase._o_erfl | 0x0000cb66
-`_o_erff` | 916 (0x394) | Exported Function | ucrtbase._o_erff | 0x0000cb4d
-`_o_erfcl` | 915 (0x393) | Exported Function | ucrtbase._o_erfcl | 0x0000cb33
-`_o_erfcf` | 914 (0x392) | Exported Function | ucrtbase._o_erfcf | 0x0000cb18
-`_o_exp2` | 920 (0x398) | Exported Function | ucrtbase._o_exp2 | 0x0000cbaf
-`_o_erfc` | 913 (0x391) | Exported Function | ucrtbase._o_erfc | 0x0000cafe
-`_o_fgetpos` | 929 (0x3a1) | Exported Function | ucrtbase._o_fgetpos | 0x0000cca5
-`_o_fgetwc` | 931 (0x3a3) | Exported Function | ucrtbase._o_fgetwc | 0x0000ccde
-`_o_fread_s` | 945 (0x3b1) | Exported Function | ucrtbase._o_fread_s | 0x0000ce5b
-`_o_fread` | 944 (0x3b0) | Exported Function | ucrtbase._o_fread | 0x0000ce3e
-`_o_fputws` | 943 (0x3af) | Exported Function | ucrtbase._o_fputws | 0x0000ce22
-`_o_fputwc` | 942 (0x3ae) | Exported Function | ucrtbase._o_fputwc | 0x0000ce05
-`_o_fputs` | 941 (0x3ad) | Exported Function | ucrtbase._o_fputs | 0x0000cde9
-`_o_fputc` | 940 (0x3ac) | Exported Function | ucrtbase._o_fputc | 0x0000cdce
-`_o_fgets` | 930 (0x3a2) | Exported Function | ucrtbase._o_fgets | 0x0000ccc2
-`_o_fopen_s` | 939 (0x3ab) | Exported Function | ucrtbase._o_fopen_s | 0x0000cdb1
-`_o_fmod` | 937 (0x3a9) | Exported Function | ucrtbase._o_fmod | 0x0000cd7a
-`_o_fmal` | 936 (0x3a8) | Exported Function | ucrtbase._o_fmal | 0x0000cd61
-`_o_fmaf` | 935 (0x3a7) | Exported Function | ucrtbase._o_fmaf | 0x0000cd48
-`_o_fma` | 934 (0x3a6) | Exported Function | ucrtbase._o_fma | 0x0000cd30
-`_o_floor` | 933 (0x3a5) | Exported Function | ucrtbase._o_floor | 0x0000cd17
-`_o_fgetws` | 932 (0x3a4) | Exported Function | ucrtbase._o_fgetws | 0x0000ccfb
-`_o_fopen` | 938 (0x3aa) | Exported Function | ucrtbase._o_fopen | 0x0000cd94
-`_o_erf` | 912 (0x390) | Exported Function | ucrtbase._o_erf | 0x0000cae6
-`_o_cosh` | 911 (0x38f) | Exported Function | ucrtbase._o_cosh | 0x0000cace
-`_o_cos` | 910 (0x38e) | Exported Function | ucrtbase._o_cos | 0x0000cab6
-`_o_asinhf` | 890 (0x37a) | Exported Function | ucrtbase._o_asinhf | 0x0000c883
-`_o_asinh` | 889 (0x379) | Exported Function | ucrtbase._o_asinh | 0x0000c867
-`_o_asin` | 888 (0x378) | Exported Function | ucrtbase._o_asin | 0x0000c84d
-`_o_asctime_s` | 887 (0x377) | Exported Function | ucrtbase._o_asctime_s | 0x0000c82f
-`_o_asctime` | 886 (0x376) | Exported Function | ucrtbase._o_asctime | 0x0000c80e
-`_o_acoshl` | 885 (0x375) | Exported Function | ucrtbase._o_acoshl | 0x0000c7f0
-`_o_asinhl` | 891 (0x37b) | Exported Function | ucrtbase._o_asinhl | 0x0000c8a0
-`_o_acoshf` | 884 (0x374) | Exported Function | ucrtbase._o_acoshf | 0x0000c7d3
-`_o_acos` | 882 (0x372) | Exported Function | ucrtbase._o_acos | 0x0000c79d
-`_o_abort` | 881 (0x371) | Exported Function | ucrtbase._o_abort | 0x0000c783
-`_o__yn` | 880 (0x370) | Exported Function | ucrtbase._o__yn | 0x0000c76a
-`_o__y1` | 879 (0x36f) | Exported Function | ucrtbase._o__y1 | 0x0000c753
-`_o__y0` | 878 (0x36e) | Exported Function | ucrtbase._o__y0 | 0x0000c73c
-`_o__wutime64` | 877 (0x36d) | Exported Function | ucrtbase._o__wutime64 | 0x0000c71f
-`_o_acosh` | 883 (0x373) | Exported Function | ucrtbase._o_acosh | 0x0000c7b7
-`_o_atan` | 892 (0x37c) | Exported Function | ucrtbase._o_atan | 0x0000c8bb
-`_o_atan2` | 893 (0x37d) | Exported Function | ucrtbase._o_atan2 | 0x0000c8d5
-`_o_atanh` | 894 (0x37e) | Exported Function | ucrtbase._o_atanh | 0x0000c8f0
-`_o_clearerr_s` | 909 (0x38d) | Exported Function | ucrtbase._o_clearerr_s | 0x0000ca98
-`_o_clearerr` | 908 (0x38c) | Exported Function | ucrtbase._o_clearerr | 0x0000ca75
-`_o_ceil` | 907 (0x38b) | Exported Function | ucrtbase._o_ceil | 0x0000ca58
-`_o_cbrtf` | 906 (0x38a) | Exported Function | ucrtbase._o_cbrtf | 0x0000ca3e
-`_o_cbrt` | 905 (0x389) | Exported Function | ucrtbase._o_cbrt | 0x0000ca24
-`_o_calloc` | 904 (0x388) | Exported Function | ucrtbase._o_calloc | 0x0000ca09
-`_o_btowc` | 903 (0x387) | Exported Function | ucrtbase._o_btowc | 0x0000c9ed
-`_o_bsearch_s` | 902 (0x386) | Exported Function | ucrtbase._o_bsearch_s | 0x0000c9ce
-`_o_bsearch` | 901 (0x385) | Exported Function | ucrtbase._o_bsearch | 0x0000c9ad
-`_o_atoll` | 900 (0x384) | Exported Function | ucrtbase._o_atoll | 0x0000c990
-`_o_atol` | 899 (0x383) | Exported Function | ucrtbase._o_atol | 0x0000c976
-`_o_atoi` | 898 (0x382) | Exported Function | ucrtbase._o_atoi | 0x0000c95d
-`_o_atof` | 897 (0x381) | Exported Function | ucrtbase._o_atof | 0x0000c944
-`_o_atanhl` | 896 (0x380) | Exported Function | ucrtbase._o_atanhl | 0x0000c929
-`_o_atanhf` | 895 (0x37f) | Exported Function | ucrtbase._o_atanhf | 0x0000c90c
-`_o_free` | 946 (0x3b2) | Exported Function | ucrtbase._o_free | 0x0000ce77
-`_o__wunlink` | 875 (0x36b) | Exported Function | ucrtbase._o__wunlink | 0x0000c6da
-`_o_freopen` | 947 (0x3b3) | Exported Function | ucrtbase._o_freopen | 0x0000ce93
-`_o_frexp` | 949 (0x3b5) | Exported Function | ucrtbase._o_frexp | 0x0000ced3
-`_o_llroundl` | 1000 (0x3e8) | Exported Function | ucrtbase._o_llroundl | 0x0000d505
-`_o_llroundf` | 999 (0x3e7) | Exported Function | ucrtbase._o_llroundf | 0x0000d4e4
-`_o_llround` | 998 (0x3e6) | Exported Function | ucrtbase._o_llround | 0x0000d4c4
-`_o_llrintl` | 997 (0x3e5) | Exported Function | ucrtbase._o_llrintl | 0x0000d4a5
-`_o_llrintf` | 996 (0x3e4) | Exported Function | ucrtbase._o_llrintf | 0x0000d486
-`_o_llrint` | 995 (0x3e3) | Exported Function | ucrtbase._o_llrint | 0x0000d468
-`_o_localeconv` | 1001 (0x3e9) | Exported Function | ucrtbase._o_localeconv | 0x0000d528
-`_o_lgammal` | 994 (0x3e2) | Exported Function | ucrtbase._o_lgammal | 0x0000d44a
-`_o_lgamma` | 992 (0x3e0) | Exported Function | ucrtbase._o_lgamma | 0x0000d40d
-`_o_ldexp` | 991 (0x3df) | Exported Function | ucrtbase._o_ldexp | 0x0000d3f1
-`_o_isxdigit` | 990 (0x3de) | Exported Function | ucrtbase._o_isxdigit | 0x0000d3d3
-`_o_iswxdigit` | 989 (0x3dd) | Exported Function | ucrtbase._o_iswxdigit | 0x0000d3b1
-`_o_iswupper` | 988 (0x3dc) | Exported Function | ucrtbase._o_iswupper | 0x0000d38f
-`_o_iswspace` | 987 (0x3db) | Exported Function | ucrtbase._o_iswspace | 0x0000d36e
-`_o_lgammaf` | 993 (0x3e1) | Exported Function | ucrtbase._o_lgammaf | 0x0000d42b
-`_o_iswpunct` | 986 (0x3da) | Exported Function | ucrtbase._o_iswpunct | 0x0000d34d
-`_o_log` | 1002 (0x3ea) | Exported Function | ucrtbase._o_log | 0x0000d546
-`_o_log1p` | 1004 (0x3ec) | Exported Function | ucrtbase._o_log1p | 0x0000d57a
-`_o_lroundl` | 1018 (0x3fa) | Exported Function | ucrtbase._o_lroundl | 0x0000d700
-`_o_lroundf` | 1017 (0x3f9) | Exported Function | ucrtbase._o_lroundf | 0x0000d6e1
-`_o_lround` | 1016 (0x3f8) | Exported Function | ucrtbase._o_lround | 0x0000d6c3
-`_o_lrintl` | 1015 (0x3f7) | Exported Function | ucrtbase._o_lrintl | 0x0000d6a6
-`_o_lrintf` | 1014 (0x3f6) | Exported Function | ucrtbase._o_lrintf | 0x0000d689
-`_o_lrint` | 1013 (0x3f5) | Exported Function | ucrtbase._o_lrint | 0x0000d66d
-`_o_log10` | 1003 (0x3eb) | Exported Function | ucrtbase._o_log10 | 0x0000d55f
-`_o_logbl` | 1012 (0x3f4) | Exported Function | ucrtbase._o_logbl | 0x0000d652
-`_o_logb` | 1010 (0x3f2) | Exported Function | ucrtbase._o_logb | 0x0000d61d
-`_o_log2l` | 1009 (0x3f1) | Exported Function | ucrtbase._o_log2l | 0x0000d603
-`_o_log2f` | 1008 (0x3f0) | Exported Function | ucrtbase._o_log2f | 0x0000d5e8
-`_o_log2` | 1007 (0x3ef) | Exported Function | ucrtbase._o_log2 | 0x0000d5ce
-`_o_log1pl` | 1006 (0x3ee) | Exported Function | ucrtbase._o_log1pl | 0x0000d5b3
-`_o_log1pf` | 1005 (0x3ed) | Exported Function | ucrtbase._o_log1pf | 0x0000d596
-`_o_logbf` | 1011 (0x3f3) | Exported Function | ucrtbase._o_logbf | 0x0000d637
-`_o_iswprint` | 985 (0x3d9) | Exported Function | ucrtbase._o_iswprint | 0x0000d32c
-`_o_iswlower` | 984 (0x3d8) | Exported Function | ucrtbase._o_iswlower | 0x0000d30b
-`_o_iswgraph` | 983 (0x3d7) | Exported Function | ucrtbase._o_iswgraph | 0x0000d2ea
-`_o_is_wctype` | 963 (0x3c3) | Exported Function | ucrtbase._o_is_wctype | 0x0000d067
-`_o_hypot` | 962 (0x3c2) | Exported Function | ucrtbase._o_hypot | 0x0000d048
-`_o_getwchar` | 961 (0x3c1) | Exported Function | ucrtbase._o_getwchar | 0x0000d02a
-`_o_getwc` | 960 (0x3c0) | Exported Function | ucrtbase._o_getwc | 0x0000d00c
-`_o_gets_s` | 959 (0x3bf) | Exported Function | ucrtbase._o_gets_s | 0x0000cff0
-`_o_gets` | 958 (0x3be) | Exported Function | ucrtbase._o_gets | 0x0000cfd5
-`_o_isalnum` | 964 (0x3c4) | Exported Function | ucrtbase._o_isalnum | 0x0000d088
-`_o_getenv_s` | 957 (0x3bd) | Exported Function | ucrtbase._o_getenv_s | 0x0000cfb8
-`_o_getchar` | 955 (0x3bb) | Exported Function | ucrtbase._o_getchar | 0x0000cf7b
-`_o_getc` | 954 (0x3ba) | Exported Function | ucrtbase._o_getc | 0x0000cf5f
-`_o_fwrite` | 953 (0x3b9) | Exported Function | ucrtbase._o_fwrite | 0x0000cf44
-`_o_ftell` | 952 (0x3b8) | Exported Function | ucrtbase._o_ftell | 0x0000cf28
-`_o_fsetpos` | 951 (0x3b7) | Exported Function | ucrtbase._o_fsetpos | 0x0000cf0b
-`_o_fseek` | 950 (0x3b6) | Exported Function | ucrtbase._o_fseek | 0x0000ceee
-`_o_getenv` | 956 (0x3bc) | Exported Function | ucrtbase._o_getenv | 0x0000cf99
-`_o_isalpha` | 965 (0x3c5) | Exported Function | ucrtbase._o_isalpha | 0x0000d0a7
-`_o_isblank` | 966 (0x3c6) | Exported Function | ucrtbase._o_isblank | 0x0000d0c6
-`_o_iscntrl` | 967 (0x3c7) | Exported Function | ucrtbase._o_iscntrl | 0x0000d0e5
-`_o_iswdigit` | 982 (0x3d6) | Exported Function | ucrtbase._o_iswdigit | 0x0000d2c9
-`_o_iswctype` | 981 (0x3d5) | Exported Function | ucrtbase._o_iswctype | 0x0000d2a8
-`_o_iswcntrl` | 980 (0x3d4) | Exported Function | ucrtbase._o_iswcntrl | 0x0000d287
-`_o_iswblank` | 979 (0x3d3) | Exported Function | ucrtbase._o_iswblank | 0x0000d266
-`_o_iswascii` | 978 (0x3d2) | Exported Function | ucrtbase._o_iswascii | 0x0000d245
-`_o_iswalpha` | 977 (0x3d1) | Exported Function | ucrtbase._o_iswalpha | 0x0000d224
-`_o_iswalnum` | 976 (0x3d0) | Exported Function | ucrtbase._o_iswalnum | 0x0000d203
-`_o_isupper` | 975 (0x3cf) | Exported Function | ucrtbase._o_isupper | 0x0000d1e3
-`_o_isspace` | 974 (0x3ce) | Exported Function | ucrtbase._o_isspace | 0x0000d1c4
-`_o_ispunct` | 973 (0x3cd) | Exported Function | ucrtbase._o_ispunct | 0x0000d1a5
-`_o_isprint` | 972 (0x3cc) | Exported Function | ucrtbase._o_isprint | 0x0000d186
-`_o_islower` | 971 (0x3cb) | Exported Function | ucrtbase._o_islower | 0x0000d167
-`_o_isleadbyte` | 970 (0x3ca) | Exported Function | ucrtbase._o_isleadbyte | 0x0000d145
-`_o_isgraph` | 969 (0x3c9) | Exported Function | ucrtbase._o_isgraph | 0x0000d123
-`_o_isdigit` | 968 (0x3c8) | Exported Function | ucrtbase._o_isdigit | 0x0000d104
-`_o_freopen_s` | 948 (0x3b4) | Exported Function | ucrtbase._o_freopen_s | 0x0000ceb4
-`_o__mbsset_l` | 589 (0x24d) | Exported Function | ucrtbase._o__mbsset_l | 0x00009df9
-`_o__mbsset` | 588 (0x24c) | Exported Function | ucrtbase._o__mbsset | 0x00009dd8
-`_o__mbsrev_l` | 587 (0x24b) | Exported Function | ucrtbase._o__mbsrev_l | 0x00009db7
-`_o__creat` | 206 (0xce) | Exported Function | ucrtbase._o__creat | 0x0000641d
-`_o__cputws` | 205 (0xcd) | Exported Function | ucrtbase._o__cputws | 0x000063ff
-`_o__cputs` | 204 (0xcc) | Exported Function | ucrtbase._o__cputs | 0x000063e1
-`_o__controlfp_s` | 203 (0xcb) | Exported Function | ucrtbase._o__controlfp_s | 0x000063be
-`_o__configure_wide_argv` | 202 (0xca) | Exported Function | ucrtbase._o__configure_wide_argv | 0x0000638d
-`_o__configure_narrow_argv` | 201 (0xc9) | Exported Function | ucrtbase._o__configure_narrow_argv | 0x00006352
-`_o__create_locale` | 207 (0xcf) | Exported Function | ucrtbase._o__create_locale | 0x00006442
-`_o__configthreadlocale` | 200 (0xc8) | Exported Function | ucrtbase._o__configthreadlocale | 0x00006318
-`_o__close` | 198 (0xc6) | Exported Function | ucrtbase._o__close | 0x000062cf
-`_o__CItanh` | 74 (0x4a) | Exported Function | ucrtbase._o__CItanh | 0x00004bfc
-`_o__CItan` | 73 (0x49) | Exported Function | ucrtbase._o__CItan | 0x00004bde
-`_o__CIsqrt` | 72 (0x48) | Exported Function | ucrtbase._o__CIsqrt | 0x00004bc0
-`_o__CIsinh` | 71 (0x47) | Exported Function | ucrtbase._o__CIsinh | 0x00004ba1
-`_o__CIsin` | 70 (0x46) | Exported Function | ucrtbase._o__CIsin | 0x00004b83
-`_o__commit` | 199 (0xc7) | Exported Function | ucrtbase._o__commit | 0x000062ed
-`_o__CIpow` | 69 (0x45) | Exported Function | ucrtbase._o__CIpow | 0x00004b66
-`_o__crt_atexit` | 208 (0xd0) | Exported Function | ucrtbase._o__crt_atexit | 0x0000646c
-`_o__ctime64_s` | 210 (0xd2) | Exported Function | ucrtbase._o__ctime64_s | 0x000064b7
-`_o__dunscale` | 224 (0xe0) | Exported Function | ucrtbase._o__dunscale | 0x0000666a
-`_o__dtest` | 223 (0xdf) | Exported Function | ucrtbase._o__dtest | 0x0000664a
-`_o__dsin` | 222 (0xde) | Exported Function | ucrtbase._o__dsin | 0x0000662e
-`_o__dsign` | 221 (0xdd) | Exported Function | ucrtbase._o__dsign | 0x00006612
-`_o__dscale` | 220 (0xdc) | Exported Function | ucrtbase._o__dscale | 0x000065f4
-`_o__dpoly` | 219 (0xdb) | Exported Function | ucrtbase._o__dpoly | 0x000065d6
-`_o__ctime32_s` | 209 (0xd1) | Exported Function | ucrtbase._o__ctime32_s | 0x00006492
-`_o__dpcomp` | 218 (0xda) | Exported Function | ucrtbase._o__dpcomp | 0x000065b8
-`_o__dlog` | 216 (0xd8) | Exported Function | ucrtbase._o__dlog | 0x0000657e
-`_o__difftime64` | 215 (0xd7) | Exported Function | ucrtbase._o__difftime64 | 0x0000655d
-`_o__difftime32` | 214 (0xd6) | Exported Function | ucrtbase._o__difftime32 | 0x00006536
-`_o__dclass` | 213 (0xd5) | Exported Function | ucrtbase._o__dclass | 0x00006513
-`_o__d_int` | 212 (0xd4) | Exported Function | ucrtbase._o__d_int | 0x000064f5
-`_o__cwait` | 211 (0xd3) | Exported Function | ucrtbase._o__cwait | 0x000064d8
-`_o__dnorm` | 217 (0xd9) | Exported Function | ucrtbase._o__dnorm | 0x0000659a
-`_o__dup` | 225 (0xe1) | Exported Function | ucrtbase._o__dup | 0x00006688
-`_o__CIlog10` | 68 (0x44) | Exported Function | ucrtbase._o__CIlog10 | 0x00004b47
-`_o__CIfmod` | 66 (0x42) | Exported Function | ucrtbase._o__CIfmod | 0x00004b0a
-`_o__callnewh` | 186 (0xba) | Exported Function | ucrtbase._o__callnewh | 0x0000614c
-`_o__cabs` | 185 (0xb9) | Exported Function | ucrtbase._o__cabs | 0x0000612d
-`_o__beginthreadex` | 184 (0xb8) | Exported Function | ucrtbase._o__beginthreadex | 0x00006109
-`_o__beginthread` | 183 (0xb7) | Exported Function | ucrtbase._o__beginthread | 0x000060de
-`_o__beep` | 182 (0xb6) | Exported Function | ucrtbase._o__beep | 0x000060bc
-`_o__atoll_l` | 181 (0xb5) | Exported Function | ucrtbase._o__atoll_l | 0x0000609e
-`_o__calloc_base` | 187 (0xbb) | Exported Function | ucrtbase._o__calloc_base | 0x00006172
-`_o__atoldbl_l` | 180 (0xb4) | Exported Function | ucrtbase._o__atoldbl_l | 0x0000607b
-`_o__atol_l` | 178 (0xb2) | Exported Function | ucrtbase._o__atol_l | 0x00006038
-`_o__atoi_l` | 177 (0xb1) | Exported Function | ucrtbase._o__atoi_l | 0x00006019
-`_o__atoi64_l` | 176 (0xb0) | Exported Function | ucrtbase._o__atoi64_l | 0x00005ff8
-`_o__atoi64` | 175 (0xaf) | Exported Function | ucrtbase._o__atoi64 | 0x00005fd7
-`_o__atoflt_l` | 174 (0xae) | Exported Function | ucrtbase._o__atoflt_l | 0x00005fb6
-`_o__atoflt` | 173 (0xad) | Exported Function | ucrtbase._o__atoflt | 0x00005f95
-`_o__atoldbl` | 179 (0xb3) | Exported Function | ucrtbase._o__atoldbl | 0x00006058
-`_o__CIlog` | 67 (0x43) | Exported Function | ucrtbase._o__CIlog | 0x00004b28
-`_o__cexit` | 188 (0xbc) | Exported Function | ucrtbase._o__cexit | 0x00006195
-`_o__cgets_s` | 190 (0xbe) | Exported Function | ucrtbase._o__cgets_s | 0x000061d1
-`_o__CIexp` | 65 (0x41) | Exported Function | ucrtbase._o__CIexp | 0x00004aec
-`_o__CIcosh` | 64 (0x40) | Exported Function | ucrtbase._o__CIcosh | 0x00004ace
-`_o__CIcos` | 63 (0x3f) | Exported Function | ucrtbase._o__CIcos | 0x00004ab0
-`_o__CIatan2` | 62 (0x3e) | Exported Function | ucrtbase._o__CIatan2 | 0x00004a91
-`_o__CIatan` | 61 (0x3d) | Exported Function | ucrtbase._o__CIatan | 0x00004a71
-`_o__CIasin` | 60 (0x3c) | Exported Function | ucrtbase._o__CIasin | 0x00004a52
-`_o__cgets` | 189 (0xbd) | Exported Function | ucrtbase._o__cgets | 0x000061b2
-`_o__CIacos` | 59 (0x3b) | Exported Function | ucrtbase._o__CIacos | 0x00004a33
-`_o__chsize` | 196 (0xc4) | Exported Function | ucrtbase._o__chsize | 0x0000628e
-`_o__chmod` | 195 (0xc3) | Exported Function | ucrtbase._o__chmod | 0x00006270
-`_o__chdrive` | 194 (0xc2) | Exported Function | ucrtbase._o__chdrive | 0x00006251
-`_o__chdir` | 193 (0xc1) | Exported Function | ucrtbase._o__chdir | 0x00006232
-`_o__cgetws_s` | 192 (0xc0) | Exported Function | ucrtbase._o__cgetws_s | 0x00006212
-`_o__cgetws` | 191 (0xbf) | Exported Function | ucrtbase._o__cgetws | 0x000061f1
-`_o__chsize_s` | 197 (0xc5) | Exported Function | ucrtbase._o__chsize_s | 0x000062af
-`_o__dup2` | 226 (0xe2) | Exported Function | ucrtbase._o__dup2 | 0x000066a2
-`_o__dupenv_s` | 227 (0xe3) | Exported Function | ucrtbase._o__dupenv_s | 0x000066c1
-`_o__ecvt` | 228 (0xe4) | Exported Function | ucrtbase._o__ecvt | 0x000066e0
-`_o__fread_nolock` | 279 (0x117) | Exported Function | ucrtbase._o__fread_nolock | 0x00006e1b
-`_o__fputwchar` | 278 (0x116) | Exported Function | ucrtbase._o__fputwchar | 0x00006df3
-`_o__fputwc_nolock` | 277 (0x115) | Exported Function | ucrtbase._o__fputwc_nolock | 0x00006dca
-`_o__fputchar` | 276 (0x114) | Exported Function | ucrtbase._o__fputchar | 0x00006da2
-`_o__fputc_nolock` | 275 (0x113) | Exported Function | ucrtbase._o__fputc_nolock | 0x00006d7b
-`_o__fpclass` | 274 (0x112) | Exported Function | ucrtbase._o__fpclass | 0x00006d55
-`_o__fread_nolock_s` | 280 (0x118) | Exported Function | ucrtbase._o__fread_nolock_s | 0x00006e48
-`_o__flushall` | 273 (0x111) | Exported Function | ucrtbase._o__flushall | 0x00006d33
-`_o__findnext64` | 271 (0x10f) | Exported Function | ucrtbase._o__findnext64 | 0x00006ce1
-`_o__findnext32i64` | 270 (0x10e) | Exported Function | ucrtbase._o__findnext32i64 | 0x00006cb7
-`_o__findnext32` | 269 (0x10d) | Exported Function | ucrtbase._o__findnext32 | 0x00006c8d
-`_o__findfirst64i32` | 268 (0x10c) | Exported Function | ucrtbase._o__findfirst64i32 | 0x00006c62
-`_o__findfirst64` | 267 (0x10b) | Exported Function | ucrtbase._o__findfirst64 | 0x00006c36
-`_o__findfirst32i64` | 266 (0x10a) | Exported Function | ucrtbase._o__findfirst32i64 | 0x00006c0a
-`_o__findnext64i32` | 272 (0x110) | Exported Function | ucrtbase._o__findnext64i32 | 0x00006d0b
-`_o__findfirst32` | 265 (0x109) | Exported Function | ucrtbase._o__findfirst32 | 0x00006bde
-`_o__free_base` | 281 (0x119) | Exported Function | ucrtbase._o__free_base | 0x00006e72
-`_o__fseek_nolock` | 283 (0x11b) | Exported Function | ucrtbase._o__fseek_nolock | 0x00006ec3
-`_o__ftime64_s` | 297 (0x129) | Exported Function | ucrtbase._o__ftime64_s | 0x000070d4
-`_o__ftime64` | 296 (0x128) | Exported Function | ucrtbase._o__ftime64 | 0x000070b1
-`_o__ftime32_s` | 295 (0x127) | Exported Function | ucrtbase._o__ftime32_s | 0x0000708e
-`_o__ftime32` | 294 (0x126) | Exported Function | ucrtbase._o__ftime32 | 0x0000706b
-`_o__ftelli64_nolock` | 293 (0x125) | Exported Function | ucrtbase._o__ftelli64_nolock | 0x00007042
-`_o__ftelli64` | 292 (0x124) | Exported Function | ucrtbase._o__ftelli64 | 0x00007018
-`_o__free_locale` | 282 (0x11a) | Exported Function | ucrtbase._o__free_locale | 0x00006e99
-`_o__ftell_nolock` | 291 (0x123) | Exported Function | ucrtbase._o__ftell_nolock | 0x00006ff1
-`_o__fstat64` | 289 (0x121) | Exported Function | ucrtbase._o__fstat64 | 0x00006fa4
-`_o__fstat32i64` | 288 (0x120) | Exported Function | ucrtbase._o__fstat32i64 | 0x00006f80
-`_o__fstat32` | 287 (0x11f) | Exported Function | ucrtbase._o__fstat32 | 0x00006f5c
-`_o__fsopen` | 286 (0x11e) | Exported Function | ucrtbase._o__fsopen | 0x00006f3c
-`_o__fseeki64_nolock` | 285 (0x11d) | Exported Function | ucrtbase._o__fseeki64_nolock | 0x00006f14
-`_o__fseeki64` | 284 (0x11c) | Exported Function | ucrtbase._o__fseeki64 | 0x00006eea
-`_o__fstat64i32` | 290 (0x122) | Exported Function | ucrtbase._o__fstat64i32 | 0x00006fc8
-`_o__findclose` | 264 (0x108) | Exported Function | ucrtbase._o__findclose | 0x00006bb7
-`_o__fileno` | 263 (0x107) | Exported Function | ucrtbase._o__fileno | 0x00006b95
-`_o__filelengthi64` | 262 (0x106) | Exported Function | ucrtbase._o__filelengthi64 | 0x00006b6f
-`_o__fclose_nolock` | 242 (0xf2) | Exported Function | ucrtbase._o__fclose_nolock | 0x000068b9
-`_o__expand` | 241 (0xf1) | Exported Function | ucrtbase._o__expand | 0x00006893
-`_o__exit` | 240 (0xf0) | Exported Function | ucrtbase._o__exit | 0x00006876
-`_o__execvpe` | 239 (0xef) | Exported Function | ucrtbase._o__execvpe | 0x00006858
-`_o__execvp` | 238 (0xee) | Exported Function | ucrtbase._o__execvp | 0x00006838
-`_o__execve` | 237 (0xed) | Exported Function | ucrtbase._o__execve | 0x00006819
-`_o__fcloseall` | 243 (0xf3) | Exported Function | ucrtbase._o__fcloseall | 0x000068e2
-`_o__execv` | 236 (0xec) | Exported Function | ucrtbase._o__execv | 0x000067fb
-`_o__except1` | 234 (0xea) | Exported Function | ucrtbase._o__except1 | 0x000067a1
-`_o__errno` | 233 (0xe9) | Exported Function | ucrtbase._o__errno | 0x00006782
-`_o__eof` | 232 (0xe8) | Exported Function | ucrtbase._o__eof | 0x00006767
-`_o__endthreadex` | 231 (0xe7) | Exported Function | ucrtbase._o__endthreadex | 0x00006746
-`_o__endthread` | 230 (0xe6) | Exported Function | ucrtbase._o__endthread | 0x0000671f
-`_o__ecvt_s` | 229 (0xe5) | Exported Function | ucrtbase._o__ecvt_s | 0x000066fd
-`_o__execute_onexit_table` | 235 (0xeb) | Exported Function | ucrtbase._o__execute_onexit_table | 0x000067cf
-`_o__fcvt` | 244 (0xf4) | Exported Function | ucrtbase._o__fcvt | 0x00006902
-`_o__fcvt_s` | 245 (0xf5) | Exported Function | ucrtbase._o__fcvt_s | 0x0000691f
-`_o__fd_int` | 246 (0xf6) | Exported Function | ucrtbase._o__fd_int | 0x0000693e
-`_o__filelength` | 261 (0x105) | Exported Function | ucrtbase._o__filelength | 0x00006b45
-`_o__fgetwchar` | 260 (0x104) | Exported Function | ucrtbase._o__fgetwchar | 0x00006b1f
-`_o__fgetwc_nolock` | 259 (0x103) | Exported Function | ucrtbase._o__fgetwc_nolock | 0x00006af6
-`_o__fgetchar` | 258 (0x102) | Exported Function | ucrtbase._o__fgetchar | 0x00006ace
-`_o__fgetc_nolock` | 257 (0x101) | Exported Function | ucrtbase._o__fgetc_nolock | 0x00006aa7
-`_o__fflush_nolock` | 256 (0x100) | Exported Function | ucrtbase._o__fflush_nolock | 0x00006a7b
-`_o__fdsin` | 255 (0xff) | Exported Function | ucrtbase._o__fdsin | 0x00006a56
-`_o__fdsign` | 254 (0xfe) | Exported Function | ucrtbase._o__fdsign | 0x00006a38
-`_o__fdscale` | 253 (0xfd) | Exported Function | ucrtbase._o__fdscale | 0x00006a18
-`_o__fdpoly` | 252 (0xfc) | Exported Function | ucrtbase._o__fdpoly | 0x000069f8
-`_o__fdpcomp` | 251 (0xfb) | Exported Function | ucrtbase._o__fdpcomp | 0x000069d8
-`_o__fdopen` | 250 (0xfa) | Exported Function | ucrtbase._o__fdopen | 0x000069b8
-`_o__fdlog` | 249 (0xf9) | Exported Function | ucrtbase._o__fdlog | 0x0000699a
-`_o__fdexp` | 248 (0xf8) | Exported Function | ucrtbase._o__fdexp | 0x0000697d
-`_o__fdclass` | 247 (0xf7) | Exported Function | ucrtbase._o__fdclass | 0x0000695e
-`_o__atof_l` | 172 (0xac) | Exported Function | ucrtbase._o__atof_l | 0x00005f76
-`_o__atodbl_l` | 171 (0xab) | Exported Function | ucrtbase._o__atodbl_l | 0x00005f55
-`_o__atodbl` | 170 (0xaa) | Exported Function | ucrtbase._o__atodbl | 0x00005f34
-`_o__aligned_recalloc` | 169 (0xa9) | Exported Function | ucrtbase._o__aligned_recalloc | 0x00005f0b
-`_local_unwind2` | 56 (0x38) | Exported Function | ucrtbase._local_unwind2 | 0x000049ca
-`_IsExceptionObjectToBeDestroyed` | 5 (0x5) | Exported Function | ucrtbase._IsExceptionObjectToBeDestroyed | 0x00003fbc
-`_is_exception_typeof` | 55 (0x37) | Exported Function | ucrtbase._is_exception_typeof | 0x0000499d
-`_global_unwind2` | 54 (0x36) | Exported Function | ucrtbase._global_unwind2 | 0x0000496f
-`_get_unexpected` | 53 (0x35) | Exported Function | ucrtbase._get_unexpected | 0x00004946
-`_get_purecall_handler` | 52 (0x34) | Exported Function | ucrtbase._get_purecall_handler | 0x00004917
-`_local_unwind4` | 57 (0x39) | Exported Function | ucrtbase._local_unwind4 | 0x000049f1
-`_FindAndUnlinkFrame` | 4 (0x4) | Exported Function | ucrtbase._FindAndUnlinkFrame | 0x00003f7f
-`_except_handler3` | 50 (0x32) | Exported Function | ucrtbase._except_handler3 | 0x000048ae
-`_except_handler2` | 49 (0x31) | Exported Function | ucrtbase._except_handler2 | 0x00004883
-`_EH_prolog` | 3 (0x3) | Exported Function | ucrtbase._EH_prolog | 0x00003f57
-`_CxxThrowException` | 2 (0x2) | Exported Function | ucrtbase._CxxThrowException | 0x00003f30
-`_CreateFrameInfo` | 1 (0x1) | Exported Function | ucrtbase._CreateFrameInfo | 0x00003f03
-`_chkesp` | 48 (0x30) | Exported Function | ucrtbase._chkesp | 0x00004861
-`_except_handler4_common` | 51 (0x33) | Exported Function | ucrtbase._except_handler4_common | 0x000048e0
-`__unDNameEx` | 45 (0x2d) | Exported Function | ucrtbase.__unDNameEx | 0x000047dc
-`_longjmpex` | 58 (0x3a) | Exported Function | ucrtbase._longjmpex | 0x00004a14
-`_NLG_Return` | 7 (0x7) | Exported Function | ucrtbase._NLG_Return | 0x00004018
-`_o___conio_common_vcwscanf` | 95 (0x5f) | Exported Function | ucrtbase._o___conio_common_vcwscanf | 0x00005033
-`_o___conio_common_vcwprintf_s` | 94 (0x5e) | Exported Function | ucrtbase._o___conio_common_vcwprintf_s | 0x00004ff1
-`_o___conio_common_vcwprintf_p` | 93 (0x5d) | Exported Function | ucrtbase._o___conio_common_vcwprintf_p | 0x00004fac
-`_o___conio_common_vcwprintf` | 92 (0x5c) | Exported Function | ucrtbase._o___conio_common_vcwprintf | 0x00004f69
-`_o___conio_common_vcscanf` | 91 (0x5b) | Exported Function | ucrtbase._o___conio_common_vcscanf | 0x00004f2a
-`_o___conio_common_vcprintf_s` | 90 (0x5a) | Exported Function | ucrtbase._o___conio_common_vcprintf_s | 0x00004eea
-`_NLG_Dispatch2` | 6 (0x6) | Exported Function | ucrtbase._NLG_Dispatch2 | 0x00003ff4
-`_o___conio_common_vcprintf_p` | 89 (0x59) | Exported Function | ucrtbase._o___conio_common_vcprintf_p | 0x00004ea7
-`_o___acrt_iob_func` | 87 (0x57) | Exported Function | ucrtbase._o___acrt_iob_func | 0x00004e2f
-`_o____mb_cur_max_func` | 86 (0x56) | Exported Function | ucrtbase._o____mb_cur_max_func | 0x00004dfd
-`_o____lc_locale_name_func` | 85 (0x55) | Exported Function | ucrtbase._o____lc_locale_name_func | 0x00004dc4
-`_o____lc_collate_cp_func` | 84 (0x54) | Exported Function | ucrtbase._o____lc_collate_cp_func | 0x00004d88
-`_o____lc_codepage_func` | 83 (0x53) | Exported Function | ucrtbase._o____lc_codepage_func | 0x00004d4f
-`_NLG_Return2` | 8 (0x8) | Exported Function | ucrtbase._NLG_Return2 | 0x0000403a
-`_o___conio_common_vcprintf` | 88 (0x58) | Exported Function | ucrtbase._o___conio_common_vcprintf | 0x00004e66
-`__unDName` | 44 (0x2c) | Exported Function | ucrtbase.__unDName | 0x000047bd
-`__uncaught_exceptions` | 47 (0x2f) | Exported Function | ucrtbase.__uncaught_exceptions | 0x0000483a
-`__uncaught_exception` | 46 (0x2e) | Exported Function | ucrtbase.__uncaught_exception | 0x00004806
-`__dcrt_get_wide_environment_from_os` | 31 (0x1f) | Exported Function | ucrtbase.__dcrt_get_wide_environment_from_os | 0x000044ea
-`__CxxUnregisterExceptionObject` | 21 (0x15) | Exported Function | ucrtbase.__CxxUnregisterExceptionObject | 0x000042ef
-`__CxxRegisterExceptionObject` | 20 (0x14) | Exported Function | ucrtbase.__CxxRegisterExceptionObject | 0x000042aa
-`__CxxQueryExceptionSize` | 19 (0x13) | Exported Function | ucrtbase.__CxxQueryExceptionSize | 0x0000426c
-`__CxxLongjmpUnwind` | 18 (0x12) | Exported Function | ucrtbase.__CxxLongjmpUnwind | 0x00004238
-`__CxxFrameHandler3` | 17 (0x11) | Exported Function | ucrtbase.__CxxFrameHandler3 | 0x00004209
-`__dcrt_initial_narrow_environment` | 32 (0x20) | Exported Function | ucrtbase.__dcrt_initial_narrow_environment | 0x00004539
-`__CxxFrameHandler2` | 16 (0x10) | Exported Function | ucrtbase.__CxxFrameHandler2 | 0x000041da
-`__CxxExceptionFilter` | 14 (0xe) | Exported Function | ucrtbase.__CxxExceptionFilter | 0x0000417c
-`__CxxDetectRethrow` | 13 (0xd) | Exported Function | ucrtbase.__CxxDetectRethrow | 0x0000414b
-`__current_exception_context` | 30 (0x1e) | Exported Function | ucrtbase.__current_exception_context | 0x000044a1
-`__current_exception` | 29 (0x1d) | Exported Function | ucrtbase.__current_exception | 0x00004468
-`__BuildCatchObjectHelper` | 12 (0xc) | Exported Function | ucrtbase.__BuildCatchObjectHelper | 0x00004116
-`__BuildCatchObject` | 11 (0xb) | Exported Function | ucrtbase.__BuildCatchObject | 0x000040e1
-`__CxxFrameHandler` | 15 (0xf) | Exported Function | ucrtbase.__CxxFrameHandler | 0x000041ac
-`__DestructExceptionObject` | 22 (0x16) | Exported Function | ucrtbase.__DestructExceptionObject | 0x00004331
-`__FrameUnwindFilter` | 23 (0x17) | Exported Function | ucrtbase.__FrameUnwindFilter | 0x00004368
-`__GetPlatformExceptionInfo` | 24 (0x18) | Exported Function | ucrtbase.__GetPlatformExceptionInfo | 0x000043a0
-`__TypeMatch` | 28 (0x1c) | Exported Function | ucrtbase.__TypeMatch | 0x0000443f
-`__std_type_info_name` | 43 (0x2b) | Exported Function | ucrtbase.__std_type_info_name | 0x00004795
-`__std_type_info_hash` | 42 (0x2a) | Exported Function | ucrtbase.__std_type_info_hash | 0x00004762
-`__std_type_info_destroy_list` | 41 (0x29) | Exported Function | ucrtbase.__std_type_info_destroy_list | 0x00004727
-`__std_type_info_compare` | 40 (0x28) | Exported Function | ucrtbase.__std_type_info_compare | 0x000046e9
-`__std_terminate` | 39 (0x27) | Exported Function | ucrtbase.__std_terminate | 0x000046b8
-`__std_exception_destroy` | 38 (0x26) | Exported Function | ucrtbase.__std_exception_destroy | 0x00004687
-`__std_exception_copy` | 37 (0x25) | Exported Function | ucrtbase.__std_exception_copy | 0x00004651
-`__RTtypeid` | 27 (0x1b) | Exported Function | ucrtbase.__RTtypeid | 0x0000441f
-`__RTDynamicCast` | 26 (0x1a) | Exported Function | ucrtbase.__RTDynamicCast | 0x000043fb
-`__RTCastToVoid` | 25 (0x19) | Exported Function | ucrtbase.__RTCastToVoid | 0x000043d3
-`__report_gsfailure` | 36 (0x24) | Exported Function | ucrtbase.__report_gsfailure | 0x00004620
-`__processing_throw` | 35 (0x23) | Exported Function | ucrtbase.__processing_throw | 0x000045f1
-`__intrinsic_setjmp` | 34 (0x22) | Exported Function | ucrtbase.__intrinsic_setjmp | 0x000045c2
-`__intrinsic_abnormal_termination` | 33 (0x21) | Exported Function | ucrtbase.__intrinsic_abnormal_termination | 0x00004585
-`_o___daylight` | 96 (0x60) | Exported Function | ucrtbase._o___daylight | 0x00005065
-`_o__fullpath` | 298 (0x12a) | Exported Function | ucrtbase._o__fullpath | 0x000070f8
-`_o___dstbias` | 97 (0x61) | Exported Function | ucrtbase._o___dstbias | 0x00005089
-`_o___libm_sse2_acos` | 99 (0x63) | Exported Function | ucrtbase._o___libm_sse2_acos | 0x000050e4
-`_o___stdio_common_vsprintf_p` | 150 (0x96) | Exported Function | ucrtbase._o___stdio_common_vsprintf_p | 0x00005b24
-`_o___stdio_common_vsprintf` | 149 (0x95) | Exported Function | ucrtbase._o___stdio_common_vsprintf | 0x00005ae3
-`_o___stdio_common_vsnwprintf_s` | 148 (0x94) | Exported Function | ucrtbase._o___stdio_common_vsnwprintf_s | 0x00005aa0
-`_o___stdio_common_vsnprintf_s` | 147 (0x93) | Exported Function | ucrtbase._o___stdio_common_vsnprintf_s | 0x00005a5a
-`_o___stdio_common_vfwscanf` | 146 (0x92) | Exported Function | ucrtbase._o___stdio_common_vfwscanf | 0x00005a18
-`_o___stdio_common_vfwprintf_s` | 145 (0x91) | Exported Function | ucrtbase._o___stdio_common_vfwprintf_s | 0x000059d6
-`_o___stdio_common_vsprintf_s` | 151 (0x97) | Exported Function | ucrtbase._o___stdio_common_vsprintf_s | 0x00005b67
-`_o___stdio_common_vfwprintf_p` | 144 (0x90) | Exported Function | ucrtbase._o___stdio_common_vfwprintf_p | 0x00005991
-`_o___stdio_common_vfscanf` | 142 (0x8e) | Exported Function | ucrtbase._o___stdio_common_vfscanf | 0x0000590f
-`_o___stdio_common_vfprintf_s` | 141 (0x8d) | Exported Function | ucrtbase._o___stdio_common_vfprintf_s | 0x000058cf
-`_o___stdio_common_vfprintf_p` | 140 (0x8c) | Exported Function | ucrtbase._o___stdio_common_vfprintf_p | 0x0000588c
-`_o___stdio_common_vfprintf` | 139 (0x8b) | Exported Function | ucrtbase._o___stdio_common_vfprintf | 0x0000584b
-`_o___std_type_info_name` | 138 (0x8a) | Exported Function | ucrtbase._o___std_type_info_name | 0x0000580f
-`_o___std_type_info_destroy_list` | 137 (0x89) | Exported Function | ucrtbase._o___std_type_info_destroy_list | 0x000057ce
-`_o___stdio_common_vfwprintf` | 143 (0x8f) | Exported Function | ucrtbase._o___stdio_common_vfwprintf | 0x0000594e
-`_o___std_exception_destroy` | 136 (0x88) | Exported Function | ucrtbase._o___std_exception_destroy | 0x0000578a
-`_o___stdio_common_vsscanf` | 152 (0x98) | Exported Function | ucrtbase._o___stdio_common_vsscanf | 0x00005ba7
-`_o___stdio_common_vswprintf_p` | 154 (0x9a) | Exported Function | ucrtbase._o___stdio_common_vswprintf_p | 0x00005c29
-`_o__aligned_realloc` | 168 (0xa8) | Exported Function | ucrtbase._o__aligned_realloc | 0x00005ed9
-`_o__aligned_offset_recalloc` | 167 (0xa7) | Exported Function | ucrtbase._o__aligned_offset_recalloc | 0x00005ea0
-`_o__aligned_offset_realloc` | 166 (0xa6) | Exported Function | ucrtbase._o__aligned_offset_realloc | 0x00005e60
-`_o__aligned_offset_malloc` | 165 (0xa5) | Exported Function | ucrtbase._o__aligned_offset_malloc | 0x00005e22
-`_o__aligned_msize` | 164 (0xa4) | Exported Function | ucrtbase._o__aligned_msize | 0x00005ded
-`_o__aligned_malloc` | 163 (0xa3) | Exported Function | ucrtbase._o__aligned_malloc | 0x00005dbf
-`_o___stdio_common_vswprintf` | 153 (0x99) | Exported Function | ucrtbase._o___stdio_common_vswprintf | 0x00005be6
-`_o__aligned_free` | 162 (0xa2) | Exported Function | ucrtbase._o__aligned_free | 0x00005d92
-`_o__access` | 160 (0xa0) | Exported Function | ucrtbase._o__access | 0x00005d4a
-`_o___wcserror` | 159 (0x9f) | Exported Function | ucrtbase._o___wcserror | 0x00005d28
-`_o___tzname` | 158 (0x9e) | Exported Function | ucrtbase._o___tzname | 0x00005d05
-`_o___timezone` | 157 (0x9d) | Exported Function | ucrtbase._o___timezone | 0x00005ce2
-`_o___stdio_common_vswscanf` | 156 (0x9c) | Exported Function | ucrtbase._o___stdio_common_vswscanf | 0x00005cb0
-`_o___stdio_common_vswprintf_s` | 155 (0x9b) | Exported Function | ucrtbase._o___stdio_common_vswprintf_s | 0x00005c6e
-`_o__access_s` | 161 (0xa1) | Exported Function | ucrtbase._o__access_s | 0x00005d6b
-`_o___std_exception_copy` | 135 (0x87) | Exported Function | ucrtbase._o___std_exception_copy | 0x0000574e
-`_o___pwctype_func` | 134 (0x86) | Exported Function | ucrtbase._o___pwctype_func | 0x0000571b
-`_o___pctype_func` | 133 (0x85) | Exported Function | ucrtbase._o___pctype_func | 0x000056ef
-`_o___libm_sse2_logf` | 113 (0x71) | Exported Function | ucrtbase._o___libm_sse2_logf | 0x0000539a
-`_o___libm_sse2_log10f` | 112 (0x70) | Exported Function | ucrtbase._o___libm_sse2_log10f | 0x00005367
-`_o___libm_sse2_log10` | 111 (0x6f) | Exported Function | ucrtbase._o___libm_sse2_log10 | 0x00005333
-`_o___libm_sse2_log` | 110 (0x6e) | Exported Function | ucrtbase._o___libm_sse2_log | 0x00005302
-`_o___libm_sse2_expf` | 109 (0x6d) | Exported Function | ucrtbase._o___libm_sse2_expf | 0x000052d2
-`_o___libm_sse2_exp` | 108 (0x6c) | Exported Function | ucrtbase._o___libm_sse2_exp | 0x000052a2
-`_o___libm_sse2_pow` | 114 (0x72) | Exported Function | ucrtbase._o___libm_sse2_pow | 0x000053ca
-`_o___libm_sse2_cosf` | 107 (0x6b) | Exported Function | ucrtbase._o___libm_sse2_cosf | 0x00005272
-`_o___libm_sse2_atanf` | 105 (0x69) | Exported Function | ucrtbase._o___libm_sse2_atanf | 0x00005211
-`_o___libm_sse2_atan2` | 104 (0x68) | Exported Function | ucrtbase._o___libm_sse2_atan2 | 0x000051de
-`_o___libm_sse2_atan` | 103 (0x67) | Exported Function | ucrtbase._o___libm_sse2_atan | 0x000051ac
-`_o___libm_sse2_asinf` | 102 (0x66) | Exported Function | ucrtbase._o___libm_sse2_asinf | 0x0000517a
-`_o___libm_sse2_asin` | 101 (0x65) | Exported Function | ucrtbase._o___libm_sse2_asin | 0x00005148
-`_o___libm_sse2_acosf` | 100 (0x64) | Exported Function | ucrtbase._o___libm_sse2_acosf | 0x00005116
-`_o___libm_sse2_cos` | 106 (0x6a) | Exported Function | ucrtbase._o___libm_sse2_cos | 0x00005242
-`_o___libm_sse2_powf` | 115 (0x73) | Exported Function | ucrtbase._o___libm_sse2_powf | 0x000053fa
-`_o___libm_sse2_sin` | 116 (0x74) | Exported Function | ucrtbase._o___libm_sse2_sin | 0x0000542a
-`_o___libm_sse2_sinf` | 117 (0x75) | Exported Function | ucrtbase._o___libm_sse2_sinf | 0x0000545a
-`_o___p__wpgmptr` | 132 (0x84) | Exported Function | ucrtbase._o___p__wpgmptr | 0x000056c5
-`_o___p__wenviron` | 131 (0x83) | Exported Function | ucrtbase._o___p__wenviron | 0x0000569b
-`_o___p__wcmdln` | 130 (0x82) | Exported Function | ucrtbase._o___p__wcmdln | 0x00005672
-`_o___p__pgmptr` | 129 (0x81) | Exported Function | ucrtbase._o___p__pgmptr | 0x0000564b
-`_o___p__mbctype` | 128 (0x80) | Exported Function | ucrtbase._o___p__mbctype | 0x00005623
-`_o___p__mbcasemap` | 127 (0x7f) | Exported Function | ucrtbase._o___p__mbcasemap | 0x000055f8
-`_o___p__fmode` | 126 (0x7e) | Exported Function | ucrtbase._o___p__fmode | 0x000055cf
-`_o___p__environ` | 125 (0x7d) | Exported Function | ucrtbase._o___p__environ | 0x000055a8
-`_o___p__commode` | 124 (0x7c) | Exported Function | ucrtbase._o___p__commode | 0x0000557f
-`_o___p__acmdln` | 123 (0x7b) | Exported Function | ucrtbase._o___p__acmdln | 0x00005557
-`_o___p___wargv` | 122 (0x7a) | Exported Function | ucrtbase._o___p___wargv | 0x00005530
-`_o___p___argv` | 121 (0x79) | Exported Function | ucrtbase._o___p___argv | 0x0000550a
-`_o___p___argc` | 120 (0x78) | Exported Function | ucrtbase._o___p___argc | 0x000054e5
-`_o___libm_sse2_tanf` | 119 (0x77) | Exported Function | ucrtbase._o___libm_sse2_tanf | 0x000054ba
-`_o___libm_sse2_tan` | 118 (0x76) | Exported Function | ucrtbase._o___libm_sse2_tan | 0x0000548a
-`_o___fpe_flt_rounds` | 98 (0x62) | Exported Function | ucrtbase._o___fpe_flt_rounds | 0x000050b3
-`_o__futime32` | 299 (0x12b) | Exported Function | ucrtbase._o__futime32 | 0x0000711b
-`_o__futime64` | 300 (0x12c) | Exported Function | ucrtbase._o__futime64 | 0x0000713e
-`_o__fwrite_nolock` | 301 (0x12d) | Exported Function | ucrtbase._o__fwrite_nolock | 0x00007166
-`_o__mbctokata` | 495 (0x1ef) | Exported Function | ucrtbase._o__mbctokata | 0x00009086
-`_o__mbctohira_l` | 494 (0x1ee) | Exported Function | ucrtbase._o__mbctohira_l | 0x0000905f
-`_o__mbctohira` | 493 (0x1ed) | Exported Function | ucrtbase._o__mbctohira | 0x00009038
-`_o__mbclen_l` | 492 (0x1ec) | Exported Function | ucrtbase._o__mbclen_l | 0x00009014
-`_o__mbclen` | 491 (0x1eb) | Exported Function | ucrtbase._o__mbclen | 0x00008ff3
-`_o__mbcjmstojis_l` | 490 (0x1ea) | Exported Function | ucrtbase._o__mbcjmstojis_l | 0x00008fcd
-`_o__mbctokata_l` | 496 (0x1f0) | Exported Function | ucrtbase._o__mbctokata_l | 0x000090ad
-`_o__mbcjmstojis` | 489 (0x1e9) | Exported Function | ucrtbase._o__mbcjmstojis | 0x00008fa2
-`_o__mbcjistojms` | 487 (0x1e7) | Exported Function | ucrtbase._o__mbcjistojms | 0x00008f4c
-`_o__mbccpy_s_l` | 486 (0x1e6) | Exported Function | ucrtbase._o__mbccpy_s_l | 0x00008f24
-`_o__mbccpy_s` | 485 (0x1e5) | Exported Function | ucrtbase._o__mbccpy_s | 0x00008eff
-`_o__mbccpy_l` | 484 (0x1e4) | Exported Function | ucrtbase._o__mbccpy_l | 0x00008edc
-`_o__mbccpy` | 483 (0x1e3) | Exported Function | ucrtbase._o__mbccpy | 0x00008ebb
-`_o__mbbtype_l` | 482 (0x1e2) | Exported Function | ucrtbase._o__mbbtype_l | 0x00008e99
-`_o__mbcjistojms_l` | 488 (0x1e8) | Exported Function | ucrtbase._o__mbcjistojms_l | 0x00008f77
-`_o__mbbtype` | 481 (0x1e1) | Exported Function | ucrtbase._o__mbbtype | 0x00008e76
-`_o__mbctolower` | 497 (0x1f1) | Exported Function | ucrtbase._o__mbctolower | 0x000090d5
-`_o__mbctombb` | 499 (0x1f3) | Exported Function | ucrtbase._o__mbctombb | 0x00009125
-`_o__mbscoll_l` | 513 (0x201) | Exported Function | ucrtbase._o__mbscoll_l | 0x0000931c
-`_o__mbscoll` | 512 (0x200) | Exported Function | ucrtbase._o__mbscoll | 0x000092f9
-`_o__mbscmp_l` | 511 (0x1ff) | Exported Function | ucrtbase._o__mbscmp_l | 0x000092d7
-`_o__mbscmp` | 510 (0x1fe) | Exported Function | ucrtbase._o__mbscmp | 0x000092b6
-`_o__mbschr_l` | 509 (0x1fd) | Exported Function | ucrtbase._o__mbschr_l | 0x00009295
-`_o__mbschr` | 508 (0x1fc) | Exported Function | ucrtbase._o__mbschr | 0x00009274
-`_o__mbctolower_l` | 498 (0x1f2) | Exported Function | ucrtbase._o__mbctolower_l | 0x000090fe
-`_o__mbscat_s_l` | 507 (0x1fb) | Exported Function | ucrtbase._o__mbscat_s_l | 0x00009251
-`_o__mbsbtype_l` | 505 (0x1f9) | Exported Function | ucrtbase._o__mbsbtype_l | 0x00009207
-`_o__mbsbtype` | 504 (0x1f8) | Exported Function | ucrtbase._o__mbsbtype | 0x000091e2
-`_o__mblen_l` | 503 (0x1f7) | Exported Function | ucrtbase._o__mblen_l | 0x000091c0
-`_o__mbctoupper_l` | 502 (0x1f6) | Exported Function | ucrtbase._o__mbctoupper_l | 0x0000919a
-`_o__mbctoupper` | 501 (0x1f5) | Exported Function | ucrtbase._o__mbctoupper | 0x00009171
-`_o__mbctombb_l` | 500 (0x1f4) | Exported Function | ucrtbase._o__mbctombb_l | 0x0000914a
-`_o__mbscat_s` | 506 (0x1fa) | Exported Function | ucrtbase._o__mbscat_s | 0x0000922c
-`_o__mbbtombc_l` | 480 (0x1e0) | Exported Function | ucrtbase._o__mbbtombc_l | 0x00008e52
-`_o__mbbtombc` | 479 (0x1df) | Exported Function | ucrtbase._o__mbbtombc | 0x00008e2d
-`_o__malloc_base` | 478 (0x1de) | Exported Function | ucrtbase._o__malloc_base | 0x00008e07
-`_o__libm_sse2_sqrt_precise` | 458 (0x1ca) | Exported Function | ucrtbase._o__libm_sse2_sqrt_precise | 0x00008b24
-`_o__libm_sse2_sin_precise` | 457 (0x1c9) | Exported Function | ucrtbase._o__libm_sse2_sin_precise | 0x00008ae6
-`_o__libm_sse2_pow_precise` | 456 (0x1c8) | Exported Function | ucrtbase._o__libm_sse2_pow_precise | 0x00008aa9
-`_o__libm_sse2_log_precise` | 455 (0x1c7) | Exported Function | ucrtbase._o__libm_sse2_log_precise | 0x00008a6c
-`_o__libm_sse2_log10_precise` | 454 (0x1c6) | Exported Function | ucrtbase._o__libm_sse2_log10_precise | 0x00008a2d
-`_o__libm_sse2_exp_precise` | 453 (0x1c5) | Exported Function | ucrtbase._o__libm_sse2_exp_precise | 0x000089ee
-`_o__libm_sse2_tan_precise` | 459 (0x1cb) | Exported Function | ucrtbase._o__libm_sse2_tan_precise | 0x00008b62
-`_o__libm_sse2_cos_precise` | 452 (0x1c4) | Exported Function | ucrtbase._o__libm_sse2_cos_precise | 0x000089b1
-`_o__libm_sse2_asin_precise` | 450 (0x1c2) | Exported Function | ucrtbase._o__libm_sse2_asin_precise | 0x00008934
-`_o__libm_sse2_acos_precise` | 449 (0x1c1) | Exported Function | ucrtbase._o__libm_sse2_acos_precise | 0x000088f5
-`_o__lfind_s` | 448 (0x1c0) | Exported Function | ucrtbase._o__lfind_s | 0x000088c5
-`_o__lfind` | 447 (0x1bf) | Exported Function | ucrtbase._o__lfind | 0x000088a6
-`_o__ldunscale` | 446 (0x1be) | Exported Function | ucrtbase._o__ldunscale | 0x00008885
-`_o__ldtest` | 445 (0x1bd) | Exported Function | ucrtbase._o__ldtest | 0x00008863
-`_o__libm_sse2_atan_precise` | 451 (0x1c3) | Exported Function | ucrtbase._o__libm_sse2_atan_precise | 0x00008973
-`_o__loaddll` | 460 (0x1cc) | Exported Function | ucrtbase._o__loaddll | 0x00008b91
-`_o__localtime32` | 461 (0x1cd) | Exported Function | ucrtbase._o__localtime32 | 0x00008bb6
-`_o__localtime32_s` | 462 (0x1ce) | Exported Function | ucrtbase._o__localtime32_s | 0x00008be1
-`_o__makepath_s` | 477 (0x1dd) | Exported Function | ucrtbase._o__makepath_s | 0x00008ddf
-`_o__makepath` | 476 (0x1dc) | Exported Function | ucrtbase._o__makepath | 0x00008dba
-`_o__ltow_s` | 475 (0x1db) | Exported Function | ucrtbase._o__ltow_s | 0x00008d99
-`_o__ltow` | 474 (0x1da) | Exported Function | ucrtbase._o__ltow | 0x00008d7c
-`_o__ltoa_s` | 473 (0x1d9) | Exported Function | ucrtbase._o__ltoa_s | 0x00008d5f
-`_o__ltoa` | 472 (0x1d8) | Exported Function | ucrtbase._o__ltoa | 0x00008d42
-`_o__lseeki64` | 471 (0x1d7) | Exported Function | ucrtbase._o__lseeki64 | 0x00008d23
-`_o__lseek` | 470 (0x1d6) | Exported Function | ucrtbase._o__lseek | 0x00008d03
-`_o__lsearch_s` | 469 (0x1d5) | Exported Function | ucrtbase._o__lsearch_s | 0x00008ce2
-`_o__lsearch` | 468 (0x1d4) | Exported Function | ucrtbase._o__lsearch | 0x00008cbf
-`_o__logb` | 467 (0x1d3) | Exported Function | ucrtbase._o__logb | 0x00008ca1
-`_o__locking` | 466 (0x1d2) | Exported Function | ucrtbase._o__locking | 0x00008c83
-`_o__lock_file` | 465 (0x1d1) | Exported Function | ucrtbase._o__lock_file | 0x00008c60
-`_o__localtime64_s` | 464 (0x1d0) | Exported Function | ucrtbase._o__localtime64_s | 0x00008c37
-`_o__localtime64` | 463 (0x1cf) | Exported Function | ucrtbase._o__localtime64 | 0x00008c0c
-`_o__mbscpy_s` | 514 (0x202) | Exported Function | ucrtbase._o__mbscpy_s | 0x00009340
-`_o__ldsin` | 444 (0x1bc) | Exported Function | ucrtbase._o__ldsin | 0x00008845
-`_o__mbscpy_s_l` | 515 (0x203) | Exported Function | ucrtbase._o__mbscpy_s_l | 0x00009365
-`_o__mbscspn_l` | 517 (0x205) | Exported Function | ucrtbase._o__mbscspn_l | 0x000093ac
-`_o__mbsnextc` | 568 (0x238) | Exported Function | ucrtbase._o__mbsnextc | 0x00009b0a
-`_o__mbsncpy_s_l` | 567 (0x237) | Exported Function | ucrtbase._o__mbsncpy_s_l | 0x00009ae4
-`_o__mbsncpy_s` | 566 (0x236) | Exported Function | ucrtbase._o__mbsncpy_s | 0x00009abd
-`_o__mbsncpy_l` | 565 (0x235) | Exported Function | ucrtbase._o__mbsncpy_l | 0x00009a98
-`_o__mbsncpy` | 564 (0x234) | Exported Function | ucrtbase._o__mbsncpy | 0x00009a75
-`_o__mbsncoll_l` | 563 (0x233) | Exported Function | ucrtbase._o__mbsncoll_l | 0x00009a51
-`_o__mbsnextc_l` | 569 (0x239) | Exported Function | ucrtbase._o__mbsnextc_l | 0x00009b2f
-`_o__mbsncoll` | 562 (0x232) | Exported Function | ucrtbase._o__mbsncoll | 0x00009a2c
-`_o__mbsncmp` | 560 (0x230) | Exported Function | ucrtbase._o__mbsncmp | 0x000099e5
-`_o__mbsnccnt_l` | 559 (0x22f) | Exported Function | ucrtbase._o__mbsnccnt_l | 0x000099c1
-`_o__mbsnccnt` | 558 (0x22e) | Exported Function | ucrtbase._o__mbsnccnt | 0x0000999c
-`_o__mbsncat_s_l` | 557 (0x22d) | Exported Function | ucrtbase._o__mbsncat_s_l | 0x00009976
-`_o__mbsncat_s` | 556 (0x22c) | Exported Function | ucrtbase._o__mbsncat_s | 0x0000994f
-`_o__mbsncat_l` | 555 (0x22b) | Exported Function | ucrtbase._o__mbsncat_l | 0x0000992a
-`_o__mbsncmp_l` | 561 (0x231) | Exported Function | ucrtbase._o__mbsncmp_l | 0x00009a08
-`_o__mbsncat` | 554 (0x22a) | Exported Function | ucrtbase._o__mbsncat | 0x00009907
-`_o__mbsnicmp` | 570 (0x23a) | Exported Function | ucrtbase._o__mbsnicmp | 0x00009b54
-`_o__mbsnicoll` | 572 (0x23c) | Exported Function | ucrtbase._o__mbsnicoll | 0x00009b9f
-`_o__mbsrev` | 586 (0x24a) | Exported Function | ucrtbase._o__mbsrev | 0x00009d96
-`_o__mbsrchr_l` | 585 (0x249) | Exported Function | ucrtbase._o__mbsrchr_l | 0x00009d74
-`_o__mbsrchr` | 584 (0x248) | Exported Function | ucrtbase._o__mbsrchr | 0x00009d51
-`_o__mbspbrk_l` | 583 (0x247) | Exported Function | ucrtbase._o__mbspbrk_l | 0x00009d2e
-`_o__mbspbrk` | 582 (0x246) | Exported Function | ucrtbase._o__mbspbrk | 0x00009d0b
-`_o__mbsnset_s_l` | 581 (0x245) | Exported Function | ucrtbase._o__mbsnset_s_l | 0x00009ce6
-`_o__mbsnicmp_l` | 571 (0x23b) | Exported Function | ucrtbase._o__mbsnicmp_l | 0x00009b79
-`_o__mbsnset_s` | 580 (0x244) | Exported Function | ucrtbase._o__mbsnset_s | 0x00009cbf
-`_o__mbsnset` | 578 (0x242) | Exported Function | ucrtbase._o__mbsnset | 0x00009c77
-`_o__mbsnlen_l` | 577 (0x241) | Exported Function | ucrtbase._o__mbsnlen_l | 0x00009c54
-`_o__mbsnlen` | 576 (0x240) | Exported Function | ucrtbase._o__mbsnlen | 0x00009c31
-`_o__mbsninc_l` | 575 (0x23f) | Exported Function | ucrtbase._o__mbsninc_l | 0x00009c0e
-`_o__mbsninc` | 574 (0x23e) | Exported Function | ucrtbase._o__mbsninc | 0x00009beb
-`_o__mbsnicoll_l` | 573 (0x23d) | Exported Function | ucrtbase._o__mbsnicoll_l | 0x00009bc6
-`_o__mbsnset_l` | 579 (0x243) | Exported Function | ucrtbase._o__mbsnset_l | 0x00009c9a
-`_o__mbsnbset_s_l` | 553 (0x229) | Exported Function | ucrtbase._o__mbsnbset_s_l | 0x000098e1
-`_o__mbsnbset_s` | 552 (0x228) | Exported Function | ucrtbase._o__mbsnbset_s | 0x000098b8
-`_o__mbsnbset_l` | 551 (0x227) | Exported Function | ucrtbase._o__mbsnbset_l | 0x00009891
-`_o__mbslwr_s_l` | 531 (0x213) | Exported Function | ucrtbase._o__mbslwr_s_l | 0x0000958d
-`_o__mbslwr_s` | 530 (0x212) | Exported Function | ucrtbase._o__mbslwr_s | 0x00009568
-`_o__mbslwr_l` | 529 (0x211) | Exported Function | ucrtbase._o__mbslwr_l | 0x00009545
-`_o__mbslwr` | 528 (0x210) | Exported Function | ucrtbase._o__mbslwr | 0x00009524
-`_o__mbslen_l` | 527 (0x20f) | Exported Function | ucrtbase._o__mbslen_l | 0x00009503
-`_o__mbslen` | 526 (0x20e) | Exported Function | ucrtbase._o__mbslen | 0x000094e2
-`_o__mbsnbcat` | 532 (0x214) | Exported Function | ucrtbase._o__mbsnbcat | 0x000095b2
-`_o__mbsinc_l` | 525 (0x20d) | Exported Function | ucrtbase._o__mbsinc_l | 0x000094c1
-`_o__mbsicoll_l` | 523 (0x20b) | Exported Function | ucrtbase._o__mbsicoll_l | 0x0000947d
-`_o__mbsicoll` | 522 (0x20a) | Exported Function | ucrtbase._o__mbsicoll | 0x00009458
-`_o__mbsicmp_l` | 521 (0x209) | Exported Function | ucrtbase._o__mbsicmp_l | 0x00009434
-`_o__mbsicmp` | 520 (0x208) | Exported Function | ucrtbase._o__mbsicmp | 0x00009411
-`_o__mbsdec_l` | 519 (0x207) | Exported Function | ucrtbase._o__mbsdec_l | 0x000093ef
-`_o__mbsdec` | 518 (0x206) | Exported Function | ucrtbase._o__mbsdec | 0x000093ce
-`_o__mbsinc` | 524 (0x20c) | Exported Function | ucrtbase._o__mbsinc | 0x000094a0
-`_o__mbsnbcat_l` | 533 (0x215) | Exported Function | ucrtbase._o__mbsnbcat_l | 0x000095d7
-`_o__mbsnbcat_s` | 534 (0x216) | Exported Function | ucrtbase._o__mbsnbcat_s | 0x000095fe
-`_o__mbsnbcat_s_l` | 535 (0x217) | Exported Function | ucrtbase._o__mbsnbcat_s_l | 0x00009627
-`_o__mbsnbset` | 550 (0x226) | Exported Function | ucrtbase._o__mbsnbset | 0x0000986c
-`_o__mbsnbicoll_l` | 549 (0x225) | Exported Function | ucrtbase._o__mbsnbicoll_l | 0x00009845
-`_o__mbsnbicoll` | 548 (0x224) | Exported Function | ucrtbase._o__mbsnbicoll | 0x0000981c
-`_o__mbsnbicmp_l` | 547 (0x223) | Exported Function | ucrtbase._o__mbsnbicmp_l | 0x000097f4
-`_o__mbsnbicmp` | 546 (0x222) | Exported Function | ucrtbase._o__mbsnbicmp | 0x000097cd
-`_o__mbsnbcpy_s_l` | 545 (0x221) | Exported Function | ucrtbase._o__mbsnbcpy_s_l | 0x000097a5
-`_o__mbsnbcpy_s` | 544 (0x220) | Exported Function | ucrtbase._o__mbsnbcpy_s | 0x0000977c
-`_o__mbsnbcpy_l` | 543 (0x21f) | Exported Function | ucrtbase._o__mbsnbcpy_l | 0x00009755
-`_o__mbsnbcpy` | 542 (0x21e) | Exported Function | ucrtbase._o__mbsnbcpy | 0x00009730
-`_o__mbsnbcoll_l` | 541 (0x21d) | Exported Function | ucrtbase._o__mbsnbcoll_l | 0x0000970a
-`_o__mbsnbcoll` | 540 (0x21c) | Exported Function | ucrtbase._o__mbsnbcoll | 0x000096e3
-`_o__mbsnbcnt_l` | 539 (0x21b) | Exported Function | ucrtbase._o__mbsnbcnt_l | 0x000096bd
-`_o__mbsnbcnt` | 538 (0x21a) | Exported Function | ucrtbase._o__mbsnbcnt | 0x00009698
-`_o__mbsnbcmp_l` | 537 (0x219) | Exported Function | ucrtbase._o__mbsnbcmp_l | 0x00009673
-`_o__mbsnbcmp` | 536 (0x218) | Exported Function | ucrtbase._o__mbsnbcmp | 0x0000964e
-`_o__mbscspn` | 516 (0x204) | Exported Function | ucrtbase._o__mbscspn | 0x00009389
-`wcsrchr` | 1163 (0x48b) | Exported Function | ucrtbase.wcsrchr | 0x0000e8b2
-`_o__ldsign` | 443 (0x1bb) | Exported Function | ucrtbase._o__ldsign | 0x00008827
-`_o__ldpoly` | 441 (0x1b9) | Exported Function | ucrtbase._o__ldpoly | 0x000087e7
-`_o__heapmin` | 349 (0x15d) | Exported Function | ucrtbase._o__heapmin | 0x000079aa
-`_o__heapchk` | 348 (0x15c) | Exported Function | ucrtbase._o__heapchk | 0x00007989
-`_o__gmtime64_s` | 347 (0x15b) | Exported Function | ucrtbase._o__gmtime64_s | 0x00007965
-`_o__gmtime64` | 346 (0x15a) | Exported Function | ucrtbase._o__gmtime64 | 0x00007940
-`_o__gmtime32_s` | 345 (0x159) | Exported Function | ucrtbase._o__gmtime32_s | 0x0000791b
-`_o__gmtime32` | 344 (0x158) | Exported Function | ucrtbase._o__gmtime32 | 0x000078f6
-`_o__hypot` | 350 (0x15e) | Exported Function | ucrtbase._o__hypot | 0x000079c9
-`_o__getws_s` | 343 (0x157) | Exported Function | ucrtbase._o__getws_s | 0x000078d4
-`_o__getwche_nolock` | 341 (0x155) | Exported Function | ucrtbase._o__getwche_nolock | 0x0000788f
-`_o__getwche` | 340 (0x154) | Exported Function | ucrtbase._o__getwche | 0x00007867
-`_o__getwch_nolock` | 339 (0x153) | Exported Function | ucrtbase._o__getwch_nolock | 0x00007840
-`_o__getwch` | 338 (0x152) | Exported Function | ucrtbase._o__getwch | 0x0000781a
-`_o__getwc_nolock` | 337 (0x151) | Exported Function | ucrtbase._o__getwc_nolock | 0x000077f5
-`_o__getw` | 336 (0x150) | Exported Function | ucrtbase._o__getw | 0x000077d2
-`_o__getws` | 342 (0x156) | Exported Function | ucrtbase._o__getws | 0x000078b5
-`_o__Gettnames` | 77 (0x4d) | Exported Function | ucrtbase._o__Gettnames | 0x00004c64
-`_o__hypotf` | 351 (0x15f) | Exported Function | ucrtbase._o__hypotf | 0x000079e7
-`_o__i64toa_s` | 353 (0x161) | Exported Function | ucrtbase._o__i64toa_s | 0x00007a27
-`_o__ismbbalpha` | 367 (0x16f) | Exported Function | ucrtbase._o__ismbbalpha | 0x00007cdf
-`_o__ismbbalnum_l` | 366 (0x16e) | Exported Function | ucrtbase._o__ismbbalnum_l | 0x00007cb6
-`_o__ismbbalnum` | 365 (0x16d) | Exported Function | ucrtbase._o__ismbbalnum | 0x00007c8d
-`_o__isleadbyte_l` | 364 (0x16c) | Exported Function | ucrtbase._o__isleadbyte_l | 0x00007c64
-`_o__isctype_l` | 363 (0x16b) | Exported Function | ucrtbase._o__isctype_l | 0x00007c3c
-`_o__isctype` | 362 (0x16a) | Exported Function | ucrtbase._o__isctype | 0x00007c19
-`_o__i64toa` | 352 (0x160) | Exported Function | ucrtbase._o__i64toa | 0x00007a06
-`_o__isatty` | 361 (0x169) | Exported Function | ucrtbase._o__isatty | 0x00007bf9
-`_o__invalid_parameter_noinfo` | 359 (0x167) | Exported Function | ucrtbase._o__invalid_parameter_noinfo | 0x00007b73
-`_o__initialize_wide_environment` | 358 (0x166) | Exported Function | ucrtbase._o__initialize_wide_environment | 0x00007b2d
-`_o__initialize_onexit_table` | 357 (0x165) | Exported Function | ucrtbase._o__initialize_onexit_table | 0x00007ae8
-`_o__initialize_narrow_environment` | 356 (0x164) | Exported Function | ucrtbase._o__initialize_narrow_environment | 0x00007aa1
-`_o__i64tow_s` | 355 (0x163) | Exported Function | ucrtbase._o__i64tow_s | 0x00007a69
-`_o__i64tow` | 354 (0x162) | Exported Function | ucrtbase._o__i64tow | 0x00007a48
-`_o__invalid_parameter_noinfo_noreturn` | 360 (0x168) | Exported Function | ucrtbase._o__invalid_parameter_noinfo_noreturn | 0x00007bbf
-`_o__getsystime` | 335 (0x14f) | Exported Function | ucrtbase._o__getsystime | 0x000077b1
-`_o__Getmonths` | 76 (0x4c) | Exported Function | ucrtbase._o__Getmonths | 0x00004c3f
-`_o__getmbcp` | 334 (0x14e) | Exported Function | ucrtbase._o__getmbcp | 0x0000778d
-`_o__get_pgmptr` | 315 (0x13b) | Exported Function | ucrtbase._o__get_pgmptr | 0x00007429
-`_o__get_osfhandle` | 314 (0x13a) | Exported Function | ucrtbase._o__get_osfhandle | 0x000073ff
-`_o__get_narrow_winmain_command_line` | 313 (0x139) | Exported Function | ucrtbase._o__get_narrow_winmain_command_line | 0x000073c0
-`_o__get_invalid_parameter_handler` | 312 (0x138) | Exported Function | ucrtbase._o__get_invalid_parameter_handler | 0x00007371
-`_o__get_initial_wide_environment` | 311 (0x137) | Exported Function | ucrtbase._o__get_initial_wide_environment | 0x00007325
-`_o__get_initial_narrow_environment` | 310 (0x136) | Exported Function | ucrtbase._o__get_initial_narrow_environment | 0x000072d8
-`_o__get_stream_buffer_pointers` | 316 (0x13c) | Exported Function | ucrtbase._o__get_stream_buffer_pointers | 0x00007460
-`_o__get_heap_handle` | 309 (0x135) | Exported Function | ucrtbase._o__get_heap_handle | 0x00007298
-`_o__get_errno` | 307 (0x133) | Exported Function | ucrtbase._o__get_errno | 0x00007248
-`_o__get_dstbias` | 306 (0x132) | Exported Function | ucrtbase._o__get_dstbias | 0x00007221
-`_o__get_doserrno` | 305 (0x131) | Exported Function | ucrtbase._o__get_doserrno | 0x000071f7
-`_o__get_daylight` | 304 (0x130) | Exported Function | ucrtbase._o__get_daylight | 0x000071cc
-`_o__gcvt_s` | 303 (0x12f) | Exported Function | ucrtbase._o__gcvt_s | 0x000071a7
-`_o__gcvt` | 302 (0x12e) | Exported Function | ucrtbase._o__gcvt | 0x0000718a
-`_o__get_fmode` | 308 (0x134) | Exported Function | ucrtbase._o__get_fmode | 0x0000726d
-`_o__get_terminate` | 317 (0x13d) | Exported Function | ucrtbase._o__get_terminate | 0x0000749a
-`_o__get_thread_local_invalid_parameter_handler` | 318 (0x13e) | Exported Function | ucrtbase._o__get_thread_local_invalid_parameter_handler | 0x000074e4
-`_o__get_timezone` | 319 (0x13f) | Exported Function | ucrtbase._o__get_timezone | 0x0000752d
-`_o__getdrives` | 333 (0x14d) | Exported Function | ucrtbase._o__getdrives | 0x0000776a
-`_o__getdrive` | 332 (0x14c) | Exported Function | ucrtbase._o__getdrive | 0x00007746
-`_o__getdllprocaddr` | 331 (0x14b) | Exported Function | ucrtbase._o__getdllprocaddr | 0x0000771d
-`_o__getdiskfree` | 330 (0x14a) | Exported Function | ucrtbase._o__getdiskfree | 0x000076f1
-`_o__getdcwd` | 329 (0x149) | Exported Function | ucrtbase._o__getdcwd | 0x000076cc
-`_o__Getdays` | 75 (0x4b) | Exported Function | ucrtbase._o__Getdays | 0x00004c1c
-`_o__getcwd` | 328 (0x148) | Exported Function | ucrtbase._o__getcwd | 0x000076ac
-`_o__getche_nolock` | 327 (0x147) | Exported Function | ucrtbase._o__getche_nolock | 0x00007686
-`_o__getche` | 326 (0x146) | Exported Function | ucrtbase._o__getche | 0x00007660
-`_o__getch_nolock` | 325 (0x145) | Exported Function | ucrtbase._o__getch_nolock | 0x0000763b
-`_o__getch` | 324 (0x144) | Exported Function | ucrtbase._o__getch | 0x00007617
-`_o__getc_nolock` | 323 (0x143) | Exported Function | ucrtbase._o__getc_nolock | 0x000075f4
-`_o__get_wpgmptr` | 322 (0x142) | Exported Function | ucrtbase._o__get_wpgmptr | 0x000075cb
-`_o__get_wide_winmain_command_line` | 321 (0x141) | Exported Function | ucrtbase._o__get_wide_winmain_command_line | 0x00007590
-`_o__get_tzname` | 320 (0x140) | Exported Function | ucrtbase._o__get_tzname | 0x00007556
-`_o__ismbbalpha_l` | 368 (0x170) | Exported Function | ucrtbase._o__ismbbalpha_l | 0x00007d08
-`_o__ldscale` | 442 (0x1ba) | Exported Function | ucrtbase._o__ldscale | 0x00008807
-`_o__ismbbblank` | 369 (0x171) | Exported Function | ucrtbase._o__ismbbblank | 0x00007d31
-`_o__ismbbgraph` | 371 (0x173) | Exported Function | ucrtbase._o__ismbbgraph | 0x00007d83
-`_o__ismbcupper_l` | 422 (0x1a6) | Exported Function | ucrtbase._o__ismbcupper_l | 0x0000858a
-`_o__ismbcupper` | 421 (0x1a5) | Exported Function | ucrtbase._o__ismbcupper | 0x00008561
-`_o__ismbcsymbol_l` | 420 (0x1a4) | Exported Function | ucrtbase._o__ismbcsymbol_l | 0x00008537
-`_o__ismbcsymbol` | 419 (0x1a3) | Exported Function | ucrtbase._o__ismbcsymbol | 0x0000850c
-`_o__ismbcspace_l` | 418 (0x1a2) | Exported Function | ucrtbase._o__ismbcspace_l | 0x000084e2
-`_o__ismbcspace` | 417 (0x1a1) | Exported Function | ucrtbase._o__ismbcspace | 0x000084b9
-`_o__ismbslead` | 423 (0x1a7) | Exported Function | ucrtbase._o__ismbslead | 0x000085b2
-`_o__ismbcpunct_l` | 416 (0x1a0) | Exported Function | ucrtbase._o__ismbcpunct_l | 0x00008490
-`_o__ismbcprint_l` | 414 (0x19e) | Exported Function | ucrtbase._o__ismbcprint_l | 0x0000843e
-`_o__ismbcprint` | 413 (0x19d) | Exported Function | ucrtbase._o__ismbcprint | 0x00008415
-`_o__ismbclower_l` | 412 (0x19c) | Exported Function | ucrtbase._o__ismbclower_l | 0x000083ec
-`_o__ismbclower` | 411 (0x19b) | Exported Function | ucrtbase._o__ismbclower | 0x000083c3
-`_o__ismbclegal_l` | 410 (0x19a) | Exported Function | ucrtbase._o__ismbclegal_l | 0x0000839a
-`_o__ismbclegal` | 409 (0x199) | Exported Function | ucrtbase._o__ismbclegal | 0x00008371
-`_o__ismbcpunct` | 415 (0x19f) | Exported Function | ucrtbase._o__ismbcpunct | 0x00008467
-`_o__ismbcl2_l` | 408 (0x198) | Exported Function | ucrtbase._o__ismbcl2_l | 0x0000834b
-`_o__ismbslead_l` | 424 (0x1a8) | Exported Function | ucrtbase._o__ismbslead_l | 0x000085d9
-`_o__ismbstrail_l` | 426 (0x1aa) | Exported Function | ucrtbase._o__ismbstrail_l | 0x0000862a
-`_o__ldpcomp` | 440 (0x1b8) | Exported Function | ucrtbase._o__ldpcomp | 0x000087c7
-`_o__ldlog` | 439 (0x1b7) | Exported Function | ucrtbase._o__ldlog | 0x000087a8
-`_o__ldexp` | 438 (0x1b6) | Exported Function | ucrtbase._o__ldexp | 0x0000878b
-`_o__ldclass` | 437 (0x1b5) | Exported Function | ucrtbase._o__ldclass | 0x0000876c
-`_o__ld_int` | 436 (0x1b4) | Exported Function | ucrtbase._o__ld_int | 0x0000874c
-`_o__kbhit` | 435 (0x1b3) | Exported Function | ucrtbase._o__kbhit | 0x0000872e
-`_o__ismbstrail` | 425 (0x1a9) | Exported Function | ucrtbase._o__ismbstrail | 0x00008601
-`_o__jn` | 434 (0x1b2) | Exported Function | ucrtbase._o__jn | 0x00008714
-`_o__j0` | 432 (0x1b0) | Exported Function | ucrtbase._o__j0 | 0x000086e6
-`_o__itow_s` | 431 (0x1af) | Exported Function | ucrtbase._o__itow_s | 0x000086cb
-`_o__itow` | 430 (0x1ae) | Exported Function | ucrtbase._o__itow | 0x000086ae
-`_o__itoa_s` | 429 (0x1ad) | Exported Function | ucrtbase._o__itoa_s | 0x00008691
-`_o__itoa` | 428 (0x1ac) | Exported Function | ucrtbase._o__itoa | 0x00008674
-`_o__iswctype_l` | 427 (0x1ab) | Exported Function | ucrtbase._o__iswctype_l | 0x00008653
-`_o__j1` | 433 (0x1b1) | Exported Function | ucrtbase._o__j1 | 0x000086fd
-`_o__ismbcl2` | 407 (0x197) | Exported Function | ucrtbase._o__ismbcl2 | 0x00008328
-`_o__ismbcl1_l` | 406 (0x196) | Exported Function | ucrtbase._o__ismbcl1_l | 0x00008305
-`_o__ismbcl1` | 405 (0x195) | Exported Function | ucrtbase._o__ismbcl1 | 0x000082e2
-`_o__ismbbpunct` | 385 (0x181) | Exported Function | ucrtbase._o__ismbbpunct | 0x00007fc5
-`_o__ismbbprint_l` | 384 (0x180) | Exported Function | ucrtbase._o__ismbbprint_l | 0x00007f9c
-`_o__ismbbprint` | 383 (0x17f) | Exported Function | ucrtbase._o__ismbbprint | 0x00007f73
-`_o__ismbblead_l` | 382 (0x17e) | Exported Function | ucrtbase._o__ismbblead_l | 0x00007f4b
-`_o__ismbblead` | 381 (0x17d) | Exported Function | ucrtbase._o__ismbblead | 0x00007f24
-`_o__ismbbkpunct_l` | 380 (0x17c) | Exported Function | ucrtbase._o__ismbbkpunct_l | 0x00007efb
-`_o__ismbbpunct_l` | 386 (0x182) | Exported Function | ucrtbase._o__ismbbpunct_l | 0x00007fee
-`_o__ismbbkpunct` | 379 (0x17b) | Exported Function | ucrtbase._o__ismbbkpunct | 0x00007ed0
-`_o__ismbbkprint` | 377 (0x179) | Exported Function | ucrtbase._o__ismbbkprint | 0x00007e7a
-`_o__ismbbkana_l` | 376 (0x178) | Exported Function | ucrtbase._o__ismbbkana_l | 0x00007e51
-`_o__ismbbkana` | 375 (0x177) | Exported Function | ucrtbase._o__ismbbkana | 0x00007e2a
-`_o__ismbbkalnum_l` | 374 (0x176) | Exported Function | ucrtbase._o__ismbbkalnum_l | 0x00007e01
-`_o__ismbbkalnum` | 373 (0x175) | Exported Function | ucrtbase._o__ismbbkalnum | 0x00007dd6
-`_o__ismbbgraph_l` | 372 (0x174) | Exported Function | ucrtbase._o__ismbbgraph_l | 0x00007dac
-`_o__ismbbkprint_l` | 378 (0x17a) | Exported Function | ucrtbase._o__ismbbkprint_l | 0x00007ea5
-`_o__ismbbtrail` | 387 (0x183) | Exported Function | ucrtbase._o__ismbbtrail | 0x00008017
-`_o__ismbbtrail_l` | 388 (0x184) | Exported Function | ucrtbase._o__ismbbtrail_l | 0x00008040
-`_o__ismbcalnum` | 389 (0x185) | Exported Function | ucrtbase._o__ismbcalnum | 0x00008069
-`_o__ismbcl0_l` | 404 (0x194) | Exported Function | ucrtbase._o__ismbcl0_l | 0x000082bf
-`_o__ismbcl0` | 403 (0x193) | Exported Function | ucrtbase._o__ismbcl0 | 0x0000829c
-`_o__ismbckata_l` | 402 (0x192) | Exported Function | ucrtbase._o__ismbckata_l | 0x00008277
-`_o__ismbckata` | 401 (0x191) | Exported Function | ucrtbase._o__ismbckata | 0x00008250
-`_o__ismbchira_l` | 400 (0x190) | Exported Function | ucrtbase._o__ismbchira_l | 0x00008229
-`_o__ismbchira` | 399 (0x18f) | Exported Function | ucrtbase._o__ismbchira | 0x00008202
-`_o__ismbcgraph_l` | 398 (0x18e) | Exported Function | ucrtbase._o__ismbcgraph_l | 0x000081da
-`_o__ismbcgraph` | 397 (0x18d) | Exported Function | ucrtbase._o__ismbcgraph | 0x000081b1
-`_o__ismbcdigit_l` | 396 (0x18c) | Exported Function | ucrtbase._o__ismbcdigit_l | 0x00008188
-`_o__ismbcdigit` | 395 (0x18b) | Exported Function | ucrtbase._o__ismbcdigit | 0x0000815f
-`_o__ismbcblank_l` | 394 (0x18a) | Exported Function | ucrtbase._o__ismbcblank_l | 0x00008136
-`_o__ismbcblank` | 393 (0x189) | Exported Function | ucrtbase._o__ismbcblank | 0x0000810d
-`_o__ismbcalpha_l` | 392 (0x188) | Exported Function | ucrtbase._o__ismbcalpha_l | 0x000080e4
-`_o__ismbcalpha` | 391 (0x187) | Exported Function | ucrtbase._o__ismbcalpha | 0x000080bb
-`_o__ismbcalnum_l` | 390 (0x186) | Exported Function | ucrtbase._o__ismbcalnum_l | 0x00008092
-`_o__ismbbblank_l` | 370 (0x172) | Exported Function | ucrtbase._o__ismbbblank_l | 0x00007d5a
-`wcsstr` | 1164 (0x48c) | Exported Function | ucrtbase.wcsstr | 0x0000e8ca
+Function Name | Ordinal | Type
+-- | -- | --
+`_o__wcsnicoll` | 777 | Exported Function
+`_o__wcsnicoll_l` | 778 | Exported Function
+`_o__wcsnicmp` | 775 | Exported Function
+`_o__wcsnicmp_l` | 776 | Exported Function
+`_o__wcsnset` | 779 | Exported Function
+`_o__wcsset_s` | 782 | Exported Function
+`_o__wcstod_l` | 783 | Exported Function
+`_o__wcsnset_s` | 780 | Exported Function
+`_o__wcsset` | 781 | Exported Function
+`_o__wcsicoll_l` | 768 | Exported Function
+`_o__wcslwr` | 769 | Exported Function
+`_o__wcsicmp_l` | 766 | Exported Function
+`_o__wcsicoll` | 767 | Exported Function
+`_o__wcslwr_l` | 770 | Exported Function
+`_o__wcsncoll` | 773 | Exported Function
+`_o__wcsncoll_l` | 774 | Exported Function
+`_o__wcslwr_s` | 771 | Exported Function
+`_o__wcslwr_s_l` | 772 | Exported Function
+`_o__wcstoull_l` | 795 | Exported Function
+`_o__wcsupr` | 796 | Exported Function
+`_o__wcstoui64_l` | 793 | Exported Function
+`_o__wcstoul_l` | 794 | Exported Function
+`_o__wcsupr_l` | 797 | Exported Function
+`_o__wcsxfrm_l` | 800 | Exported Function
+`_o__wctime32` | 801 | Exported Function
+`_o__wcsupr_s` | 798 | Exported Function
+`_o__wcsupr_s_l` | 799 | Exported Function
+`_o__wcstoi64_l` | 786 | Exported Function
+`_o__wcstol_l` | 787 | Exported Function
+`_o__wcstof_l` | 784 | Exported Function
+`_o__wcstoi64` | 785 | Exported Function
+`_o__wcstold_l` | 788 | Exported Function
+`_o__wcstombs_s_l` | 791 | Exported Function
+`_o__wcstoui64` | 792 | Exported Function
+`_o__wcstoll_l` | 789 | Exported Function
+`_o__wcstombs_l` | 790 | Exported Function
+`_o__ungetwch` | 745 | Exported Function
+`_o__ungetwch_nolock` | 746 | Exported Function
+`_o__ungetch_nolock` | 743 | Exported Function
+`_o__ungetwc_nolock` | 744 | Exported Function
+`_o__unlink` | 747 | Exported Function
+`_o__utime32` | 750 | Exported Function
+`_o__utime64` | 751 | Exported Function
+`_o__unloaddll` | 748 | Exported Function
+`_o__unlock_file` | 749 | Exported Function
+`_o__ultoa_s` | 736 | Exported Function
+`_o__ultow` | 737 | Exported Function
+`_o__ui64tow_s` | 734 | Exported Function
+`_o__ultoa` | 735 | Exported Function
+`_o__ultow_s` | 738 | Exported Function
+`_o__ungetc_nolock` | 741 | Exported Function
+`_o__ungetch` | 742 | Exported Function
+`_o__umask` | 739 | Exported Function
+`_o__umask_s` | 740 | Exported Function
+`_o__wcscoll_l` | 760 | Exported Function
+`_o__wcsdup` | 761 | Exported Function
+`_o__wcreat` | 758 | Exported Function
+`_o__wcreate_locale` | 759 | Exported Function
+`_o__wcserror` | 762 | Exported Function
+`_o__wcsftime_l` | 764 | Exported Function
+`_o__wcsicmp` | 765 | Exported Function
+`_o__wcserror_s` | 763 | Exported Function
+`_o__Wcsftime` | 82 | Exported Function
+`_o__W_Gettnames` | 81 | Exported Function
+`_o__waccess` | 752 | Exported Function
+`_o__W_Getdays` | 79 | Exported Function
+`_o__W_Getmonths` | 80 | Exported Function
+`_o__waccess_s` | 753 | Exported Function
+`_o__wchdir` | 756 | Exported Function
+`_o__wchmod` | 757 | Exported Function
+`_o__wasctime` | 754 | Exported Function
+`_o__wasctime_s` | 755 | Exported Function
+`_o__wctime32_s` | 802 | Exported Function
+`_o__wspawnve` | 850 | Exported Function
+`_o__wspawnvp` | 851 | Exported Function
+`_o__wsopen_s` | 848 | Exported Function
+`_o__wspawnv` | 849 | Exported Function
+`_o__wspawnvpe` | 852 | Exported Function
+`_o__wstat32` | 855 | Exported Function
+`_o__wstat32i64` | 856 | Exported Function
+`_o__wsplitpath` | 853 | Exported Function
+`_o__wsplitpath_s` | 854 | Exported Function
+`_o__wrename` | 841 | Exported Function
+`_o__write` | 842 | Exported Function
+`_o__wputenv_s` | 839 | Exported Function
+`_o__wremove` | 840 | Exported Function
+`_o__wrmdir` | 843 | Exported Function
+`_o__wsetlocale` | 846 | Exported Function
+`_o__wsopen_dispatch` | 847 | Exported Function
+`_o__wsearchenv` | 844 | Exported Function
+`_o__wsearchenv_s` | 845 | Exported Function
+`_o__wtoi64` | 868 | Exported Function
+`_o__wtoi64_l` | 869 | Exported Function
+`_o__wtof_l` | 866 | Exported Function
+`_o__wtoi` | 867 | Exported Function
+`_o__wtoi_l` | 870 | Exported Function
+`_o__wtoll` | 873 | Exported Function
+`_o__wtoll_l` | 874 | Exported Function
+`_o__wtol` | 871 | Exported Function
+`_o__wtol_l` | 872 | Exported Function
+`_o__wstrdate` | 859 | Exported Function
+`_o__wstrdate_s` | 860 | Exported Function
+`_o__wstat64` | 857 | Exported Function
+`_o__wstat64i32` | 858 | Exported Function
+`_o__wstrtime` | 861 | Exported Function
+`_o__wtmpnam_s` | 864 | Exported Function
+`_o__wtof` | 865 | Exported Function
+`_o__wstrtime_s` | 862 | Exported Function
+`_o__wsystem` | 863 | Exported Function
+`_o__wfindfirst32i64` | 814 | Exported Function
+`_o__wfindfirst64` | 815 | Exported Function
+`_o__wfdopen` | 812 | Exported Function
+`_o__wfindfirst32` | 813 | Exported Function
+`_o__wfindfirst64i32` | 816 | Exported Function
+`_o__wfindnext64` | 819 | Exported Function
+`_o__wfindnext64i32` | 820 | Exported Function
+`_o__wfindnext32` | 817 | Exported Function
+`_o__wfindnext32i64` | 818 | Exported Function
+`_o__wctomb_l` | 805 | Exported Function
+`_o__wctomb_s_l` | 806 | Exported Function
+`_o__wctime64` | 803 | Exported Function
+`_o__wctime64_s` | 804 | Exported Function
+`_o__wdupenv_s` | 807 | Exported Function
+`_o__wexecvp` | 810 | Exported Function
+`_o__wexecvpe` | 811 | Exported Function
+`_o__wexecv` | 808 | Exported Function
+`_o__wexecve` | 809 | Exported Function
+`_o__wmakepath_s` | 832 | Exported Function
+`_o__wmkdir` | 833 | Exported Function
+`_o__wgetenv_s` | 830 | Exported Function
+`_o__wmakepath` | 831 | Exported Function
+`_o__wmktemp` | 834 | Exported Function
+`_o__wpopen` | 837 | Exported Function
+`_o__wputenv` | 838 | Exported Function
+`_o__wmktemp_s` | 835 | Exported Function
+`_o__wperror` | 836 | Exported Function
+`_o__wfreopen` | 823 | Exported Function
+`_o__wfreopen_s` | 824 | Exported Function
+`_o__wfopen` | 821 | Exported Function
+`_o__wfopen_s` | 822 | Exported Function
+`_o__wfsopen` | 825 | Exported Function
+`_o__wgetdcwd` | 828 | Exported Function
+`_o__wgetenv` | 829 | Exported Function
+`_o__wfullpath` | 826 | Exported Function
+`_o__wgetcwd` | 827 | Exported Function
+`_o__ui64tow` | 733 | Exported Function
+`_o__putwch` | 636 | Exported Function
+`_o__putwch_nolock` | 637 | Exported Function
+`_o__putw` | 634 | Exported Function
+`_o__putwc_nolock` | 635 | Exported Function
+`_o__putws` | 638 | Exported Function
+`_o__recalloc` | 641 | Exported Function
+`_o__register_onexit_function` | 642 | Exported Function
+`_o__read` | 639 | Exported Function
+`_o__realloc_base` | 640 | Exported Function
+`_o__popen` | 627 | Exported Function
+`_o__purecall` | 628 | Exported Function
+`_o__pclose` | 625 | Exported Function
+`_o__pipe` | 626 | Exported Function
+`_o__putc_nolock` | 629 | Exported Function
+`_o__putenv` | 632 | Exported Function
+`_o__putenv_s` | 633 | Exported Function
+`_o__putch` | 630 | Exported Function
+`_o__putch_nolock` | 631 | Exported Function
+`_o__set_errno` | 654 | Exported Function
+`_o__set_fmode` | 655 | Exported Function
+`_o__set_app_type` | 652 | Exported Function
+`_o__set_doserrno` | 653 | Exported Function
+`_o__set_invalid_parameter_handler` | 656 | Exported Function
+`_o__set_thread_local_invalid_parameter_handler` | 659 | Exported Function
+`_o__seterrormode` | 660 | Exported Function
+`_o__set_new_handler` | 657 | Exported Function
+`_o__set_new_mode` | 658 | Exported Function
+`_o__rmtmp` | 645 | Exported Function
+`_o__scalb` | 646 | Exported Function
+`_o__resetstkoflw` | 643 | Exported Function
+`_o__rmdir` | 644 | Exported Function
+`_o__searchenv` | 647 | Exported Function
+`_o__seh_filter_exe` | 650 | Exported Function
+`_o__set_abort_behavior` | 651 | Exported Function
+`_o__searchenv_s` | 648 | Exported Function
+`_o__seh_filter_dll` | 649 | Exported Function
+`_o__mbstok_s` | 600 | Exported Function
+`_o__mbstok_s_l` | 601 | Exported Function
+`_o__mbstok` | 598 | Exported Function
+`_o__mbstok_l` | 599 | Exported Function
+`_o__mbstowcs_l` | 602 | Exported Function
+`_o__mbstrlen_l` | 605 | Exported Function
+`_o__mbstrnlen` | 606 | Exported Function
+`_o__mbstowcs_s_l` | 603 | Exported Function
+`_o__mbstrlen` | 604 | Exported Function
+`_o__mbsset_s_l` | 591 | Exported Function
+`_o__mbsspn` | 592 | Exported Function
+`_o__mbsset_l` | 589 | Exported Function
+`_o__mbsset_s` | 590 | Exported Function
+`_o__mbsspn_l` | 593 | Exported Function
+`_o__mbsstr` | 596 | Exported Function
+`_o__mbsstr_l` | 597 | Exported Function
+`_o__mbsspnp` | 594 | Exported Function
+`_o__mbsspnp_l` | 595 | Exported Function
+`_o__mktemp` | 618 | Exported Function
+`_o__mktemp_s` | 619 | Exported Function
+`_o__mkgmtime32` | 616 | Exported Function
+`_o__mkgmtime64` | 617 | Exported Function
+`_o__mktime32` | 620 | Exported Function
+`_o__nextafter` | 623 | Exported Function
+`_o__open_osfhandle` | 624 | Exported Function
+`_o__mktime64` | 621 | Exported Function
+`_o__msize` | 622 | Exported Function
+`_o__mbsupr_l` | 609 | Exported Function
+`_o__mbsupr_s` | 610 | Exported Function
+`_o__mbstrnlen_l` | 607 | Exported Function
+`_o__mbsupr` | 608 | Exported Function
+`_o__mbsupr_s_l` | 611 | Exported Function
+`_o__memicmp_l` | 614 | Exported Function
+`_o__mkdir` | 615 | Exported Function
+`_o__mbtowc_l` | 612 | Exported Function
+`_o__memicmp` | 613 | Exported Function
+`_o__setmbcp` | 661 | Exported Function
+`_o__strtold_l` | 708 | Exported Function
+`_o__strtoll_l` | 709 | Exported Function
+`_o__strtoi64_l` | 706 | Exported Function
+`_o__strtol_l` | 707 | Exported Function
+`_o__strtoui64` | 710 | Exported Function
+`_o__strtoull_l` | 713 | Exported Function
+`_o__strupr` | 714 | Exported Function
+`_o__strtoui64_l` | 711 | Exported Function
+`_o__strtoul_l` | 712 | Exported Function
+`_o__strnset_s` | 699 | Exported Function
+`_o__strset_s` | 700 | Exported Function
+`_o__strnicoll` | 697 | Exported Function
+`_o__strnicoll_l` | 698 | Exported Function
+`_o__strtime` | 701 | Exported Function
+`_o__strtof_l` | 704 | Exported Function
+`_o__strtoi64` | 705 | Exported Function
+`_o__strtime_s` | 702 | Exported Function
+`_o__strtod_l` | 703 | Exported Function
+`_o__toupper` | 726 | Exported Function
+`_o__toupper_l` | 727 | Exported Function
+`_o__tolower` | 724 | Exported Function
+`_o__tolower_l` | 725 | Exported Function
+`_o__towlower_l` | 728 | Exported Function
+`_o__ui64toa` | 731 | Exported Function
+`_o__ui64toa_s` | 732 | Exported Function
+`_o__towupper_l` | 729 | Exported Function
+`_o__tzset` | 730 | Exported Function
+`_o__strupr_s_l` | 717 | Exported Function
+`_o__strxfrm_l` | 718 | Exported Function
+`_o__strupr_l` | 715 | Exported Function
+`_o__strupr_s` | 716 | Exported Function
+`_o__swab` | 719 | Exported Function
+`_o__timespec32_get` | 722 | Exported Function
+`_o__timespec64_get` | 723 | Exported Function
+`_o__tell` | 720 | Exported Function
+`_o__telli64` | 721 | Exported Function
+`_o__splitpath_s` | 673 | Exported Function
+`_o__stat32` | 674 | Exported Function
+`_o__spawnvpe` | 671 | Exported Function
+`_o__splitpath` | 672 | Exported Function
+`_o__stat32i64` | 675 | Exported Function
+`_o__strcoll_l` | 678 | Exported Function
+`_o__strdate` | 679 | Exported Function
+`_o__stat64` | 676 | Exported Function
+`_o__stat64i32` | 677 | Exported Function
+`_o__sleep` | 664 | Exported Function
+`_o__sopen` | 665 | Exported Function
+`_o__setmode` | 662 | Exported Function
+`_o__setsystime` | 663 | Exported Function
+`_o__sopen_dispatch` | 666 | Exported Function
+`_o__spawnve` | 669 | Exported Function
+`_o__spawnvp` | 670 | Exported Function
+`_o__sopen_s` | 667 | Exported Function
+`_o__spawnv` | 668 | Exported Function
+`_o__strlwr_l` | 690 | Exported Function
+`_o__strlwr_s` | 691 | Exported Function
+`_o__stricoll_l` | 688 | Exported Function
+`_o__strlwr` | 689 | Exported Function
+`_o__strlwr_s_l` | 692 | Exported Function
+`_o__strnicmp` | 695 | Exported Function
+`_o__strnicmp_l` | 696 | Exported Function
+`_o__strncoll` | 693 | Exported Function
+`_o__strncoll_l` | 694 | Exported Function
+`_o__strerror` | 682 | Exported Function
+`_o__strerror_s` | 683 | Exported Function
+`_o__strdate_s` | 680 | Exported Function
+`_o__strdup` | 681 | Exported Function
+`_o__Strftime` | 78 | Exported Function
+`_o__stricmp_l` | 686 | Exported Function
+`_o__stricoll` | 687 | Exported Function
+`_o__strftime_l` | 684 | Exported Function
+`_o__stricmp` | 685 | Exported Function
+`_o_rintf` | 1068 | Exported Function
+`_o_rintl` | 1069 | Exported Function
+`_o_rewind` | 1066 | Exported Function
+`_o_rint` | 1067 | Exported Function
+`_o_round` | 1070 | Exported Function
+`_o_scalbln` | 1073 | Exported Function
+`_o_scalblnf` | 1074 | Exported Function
+`_o_roundf` | 1071 | Exported Function
+`_o_roundl` | 1072 | Exported Function
+`_o_remainderf` | 1059 | Exported Function
+`_o_remainderl` | 1060 | Exported Function
+`_o_realloc` | 1057 | Exported Function
+`_o_remainder` | 1058 | Exported Function
+`_o_remove` | 1061 | Exported Function
+`_o_remquol` | 1064 | Exported Function
+`_o_rename` | 1065 | Exported Function
+`_o_remquo` | 1062 | Exported Function
+`_o_remquof` | 1063 | Exported Function
+`_o_srand` | 1086 | Exported Function
+`_o_strcat_s` | 1087 | Exported Function
+`_o_sinh` | 1084 | Exported Function
+`_o_sqrt` | 1085 | Exported Function
+`_o_strcoll` | 1088 | Exported Function
+`_o_strerror_s` | 1091 | Exported Function
+`_o_strftime` | 1092 | Exported Function
+`_o_strcpy_s` | 1089 | Exported Function
+`_o_strerror` | 1090 | Exported Function
+`_o_scalbnf` | 1077 | Exported Function
+`_o_scalbnl` | 1078 | Exported Function
+`_o_scalblnl` | 1075 | Exported Function
+`_o_scalbn` | 1076 | Exported Function
+`_o_set_terminate` | 1079 | Exported Function
+`_o_setvbuf` | 1082 | Exported Function
+`_o_sin` | 1083 | Exported Function
+`_o_setbuf` | 1080 | Exported Function
+`_o_setlocale` | 1081 | Exported Function
+`_o_modf` | 1032 | Exported Function
+`_o_nan` | 1033 | Exported Function
+`_o_memcpy_s` | 1030 | Exported Function
+`_o_memset` | 1031 | Exported Function
+`_o_nanf` | 1034 | Exported Function
+`_o_nearbyintf` | 1037 | Exported Function
+`_o_nearbyintl` | 1038 | Exported Function
+`_o_nanl` | 1035 | Exported Function
+`_o_nearbyint` | 1036 | Exported Function
+`_o_mbrtoc32` | 1023 | Exported Function
+`_o_mbrtowc` | 1024 | Exported Function
+`_o_mbrlen` | 1021 | Exported Function
+`_o_mbrtoc16` | 1022 | Exported Function
+`_o_mbsrtowcs` | 1025 | Exported Function
+`_o_mbstowcs_s` | 1028 | Exported Function
+`_o_mbtowc` | 1029 | Exported Function
+`_o_mbsrtowcs_s` | 1026 | Exported Function
+`_o_mbstowcs` | 1027 | Exported Function
+`_o_putwc` | 1050 | Exported Function
+`_o_putwchar` | 1051 | Exported Function
+`_o_putchar` | 1048 | Exported Function
+`_o_puts` | 1049 | Exported Function
+`_o_qsort` | 1052 | Exported Function
+`_o_rand` | 1055 | Exported Function
+`_o_rand_s` | 1056 | Exported Function
+`_o_qsort_s` | 1053 | Exported Function
+`_o_raise` | 1054 | Exported Function
+`_o_nextafterl` | 1041 | Exported Function
+`_o_nexttoward` | 1042 | Exported Function
+`_o_nextafter` | 1039 | Exported Function
+`_o_nextafterf` | 1040 | Exported Function
+`_o_nexttowardf` | 1043 | Exported Function
+`_o_powf` | 1046 | Exported Function
+`_o_putc` | 1047 | Exported Function
+`_o_nexttowardl` | 1044 | Exported Function
+`_o_pow` | 1045 | Exported Function
+`_o_strncat_s` | 1093 | Exported Function
+`_o_wctob` | 1141 | Exported Function
+`_o_wctomb` | 1142 | Exported Function
+`_o_wcstoul` | 1139 | Exported Function
+`_o_wcstoull` | 1140 | Exported Function
+`_o_wctomb_s` | 1143 | Exported Function
+`_purecall` | 1146 | Exported Function
+`_seh_longjmp_unwind` | 1147 | Exported Function
+`_o_wmemcpy_s` | 1144 | Exported Function
+`_o_wmemmove_s` | 1145 | Exported Function
+`_o_wcstok` | 1132 | Exported Function
+`_o_wcstok_s` | 1133 | Exported Function
+`_o_wcstod` | 1130 | Exported Function
+`_o_wcstof` | 1131 | Exported Function
+`_o_wcstol` | 1134 | Exported Function
+`_o_wcstombs` | 1137 | Exported Function
+`_o_wcstombs_s` | 1138 | Exported Function
+`_o_wcstold` | 1135 | Exported Function
+`_o_wcstoll` | 1136 | Exported Function
+`strchr` | 1158 | Exported Function
+`strrchr` | 1159 | Exported Function
+`memmove` | 1156 | Exported Function
+`set_unexpected` | 1157 | Exported Function
+`strstr` | 1160 | Exported Function
+`wcsrchr` | 1163 | Exported Function
+`wcsstr` | 1164 | Exported Function
+`unexpected` | 1161 | Exported Function
+`wcschr` | 1162 | Exported Function
+`_set_se_translator` | 1150 | Exported Function
+`_setjmp3` | 1151 | Exported Function
+`_seh_longjmp_unwind4` | 1148 | Exported Function
+`_set_purecall_handler` | 1149 | Exported Function
+`_SetWinRTOutOfMemoryExceptionCallback` | 9 | Exported Function
+`memcmp` | 1154 | Exported Function
+`memcpy` | 1155 | Exported Function
+`longjmp` | 1152 | Exported Function
+`memchr` | 1153 | Exported Function
+`_o_tan` | 1105 | Exported Function
+`_o_tanh` | 1106 | Exported Function
+`_o_strtoull` | 1103 | Exported Function
+`_o_system` | 1104 | Exported Function
+`_o_terminate` | 1107 | Exported Function
+`_o_tgammal` | 1110 | Exported Function
+`_o_tmpfile_s` | 1111 | Exported Function
+`_o_tgamma` | 1108 | Exported Function
+`_o_tgammaf` | 1109 | Exported Function
+`_o_strtof` | 1096 | Exported Function
+`_o_strtok` | 1097 | Exported Function
+`_o_strncpy_s` | 1094 | Exported Function
+`_o_strtod` | 1095 | Exported Function
+`_o_strtok_s` | 1098 | Exported Function
+`_o_strtoll` | 1101 | Exported Function
+`_o_strtoul` | 1102 | Exported Function
+`_o_strtol` | 1099 | Exported Function
+`_o_strtold` | 1100 | Exported Function
+`_o_wcscpy` | 1123 | Exported Function
+`_o_wcscpy_s` | 1124 | Exported Function
+`_o_wcscat_s` | 1121 | Exported Function
+`_o_wcscoll` | 1122 | Exported Function
+`_o_wcsftime` | 1125 | Exported Function
+`_o_wcsrtombs` | 1128 | Exported Function
+`_o_wcsrtombs_s` | 1129 | Exported Function
+`_o_wcsncat_s` | 1126 | Exported Function
+`_o_wcsncpy_s` | 1127 | Exported Function
+`_o_toupper` | 1114 | Exported Function
+`_o_towlower` | 1115 | Exported Function
+`_o_tmpnam_s` | 1112 | Exported Function
+`_o_tolower` | 1113 | Exported Function
+`_o_towupper` | 1116 | Exported Function
+`_o_wcrtomb` | 1119 | Exported Function
+`_o_wcrtomb_s` | 1120 | Exported Function
+`_o_ungetc` | 1117 | Exported Function
+`_o_ungetwc` | 1118 | Exported Function
+`_o_mblen` | 1020 | Exported Function
+`_o_exp2l` | 922 | Exported Function
+`_o_fabs` | 923 | Exported Function
+`_o_exp2` | 920 | Exported Function
+`_o_exp2f` | 921 | Exported Function
+`_o_fclose` | 924 | Exported Function
+`_o_fflush` | 927 | Exported Function
+`_o_fgetc` | 928 | Exported Function
+`_o_feof` | 925 | Exported Function
+`_o_ferror` | 926 | Exported Function
+`_o_erfc` | 913 | Exported Function
+`_o_erfcf` | 914 | Exported Function
+`_o_cosh` | 911 | Exported Function
+`_o_erf` | 912 | Exported Function
+`_o_erfcl` | 915 | Exported Function
+`_o_exit` | 918 | Exported Function
+`_o_exp` | 919 | Exported Function
+`_o_erff` | 916 | Exported Function
+`_o_erfl` | 917 | Exported Function
+`_o_fputc` | 940 | Exported Function
+`_o_fputs` | 941 | Exported Function
+`_o_fopen` | 938 | Exported Function
+`_o_fopen_s` | 939 | Exported Function
+`_o_fputwc` | 942 | Exported Function
+`_o_fread_s` | 945 | Exported Function
+`_o_free` | 946 | Exported Function
+`_o_fputws` | 943 | Exported Function
+`_o_fread` | 944 | Exported Function
+`_o_fgetwc` | 931 | Exported Function
+`_o_fgetws` | 932 | Exported Function
+`_o_fgetpos` | 929 | Exported Function
+`_o_fgets` | 930 | Exported Function
+`_o_floor` | 933 | Exported Function
+`_o_fmal` | 936 | Exported Function
+`_o_fmod` | 937 | Exported Function
+`_o_fma` | 934 | Exported Function
+`_o_fmaf` | 935 | Exported Function
+`_o_asctime` | 886 | Exported Function
+`_o_asctime_s` | 887 | Exported Function
+`_o_acoshf` | 884 | Exported Function
+`_o_acoshl` | 885 | Exported Function
+`_o_asin` | 888 | Exported Function
+`_o_asinhl` | 891 | Exported Function
+`_o_atan` | 892 | Exported Function
+`_o_asinh` | 889 | Exported Function
+`_o_asinhf` | 890 | Exported Function
+`_o__wutime64` | 877 | Exported Function
+`_o__y0` | 878 | Exported Function
+`_o__wunlink` | 875 | Exported Function
+`_o__wutime32` | 876 | Exported Function
+`_o__y1` | 879 | Exported Function
+`_o_acos` | 882 | Exported Function
+`_o_acosh` | 883 | Exported Function
+`_o__yn` | 880 | Exported Function
+`_o_abort` | 881 | Exported Function
+`_o_calloc` | 904 | Exported Function
+`_o_cbrt` | 905 | Exported Function
+`_o_bsearch_s` | 902 | Exported Function
+`_o_btowc` | 903 | Exported Function
+`_o_cbrtf` | 906 | Exported Function
+`_o_clearerr_s` | 909 | Exported Function
+`_o_cos` | 910 | Exported Function
+`_o_ceil` | 907 | Exported Function
+`_o_clearerr` | 908 | Exported Function
+`_o_atanhf` | 895 | Exported Function
+`_o_atanhl` | 896 | Exported Function
+`_o_atan2` | 893 | Exported Function
+`_o_atanh` | 894 | Exported Function
+`_o_atof` | 897 | Exported Function
+`_o_atoll` | 900 | Exported Function
+`_o_bsearch` | 901 | Exported Function
+`_o_atoi` | 898 | Exported Function
+`_o_atol` | 899 | Exported Function
+`_o_freopen` | 947 | Exported Function
+`_o_llrint` | 995 | Exported Function
+`_o_llrintf` | 996 | Exported Function
+`_o_lgammaf` | 993 | Exported Function
+`_o_lgammal` | 994 | Exported Function
+`_o_llrintl` | 997 | Exported Function
+`_o_llroundl` | 1000 | Exported Function
+`_o_localeconv` | 1001 | Exported Function
+`_o_llround` | 998 | Exported Function
+`_o_llroundf` | 999 | Exported Function
+`_o_iswpunct` | 986 | Exported Function
+`_o_iswspace` | 987 | Exported Function
+`_o_iswlower` | 984 | Exported Function
+`_o_iswprint` | 985 | Exported Function
+`_o_iswupper` | 988 | Exported Function
+`_o_ldexp` | 991 | Exported Function
+`_o_lgamma` | 992 | Exported Function
+`_o_iswxdigit` | 989 | Exported Function
+`_o_isxdigit` | 990 | Exported Function
+`_o_lrint` | 1013 | Exported Function
+`_o_lrintf` | 1014 | Exported Function
+`_o_logbf` | 1011 | Exported Function
+`_o_logbl` | 1012 | Exported Function
+`_o_lrintl` | 1015 | Exported Function
+`_o_lroundl` | 1018 | Exported Function
+`_o_malloc` | 1019 | Exported Function
+`_o_lround` | 1016 | Exported Function
+`_o_lroundf` | 1017 | Exported Function
+`_o_log1p` | 1004 | Exported Function
+`_o_log1pf` | 1005 | Exported Function
+`_o_log` | 1002 | Exported Function
+`_o_log10` | 1003 | Exported Function
+`_o_log1pl` | 1006 | Exported Function
+`_o_log2l` | 1009 | Exported Function
+`_o_logb` | 1010 | Exported Function
+`_o_log2` | 1007 | Exported Function
+`_o_log2f` | 1008 | Exported Function
+`_o_gets_s` | 959 | Exported Function
+`_o_getwc` | 960 | Exported Function
+`_o_getenv_s` | 957 | Exported Function
+`_o_gets` | 958 | Exported Function
+`_o_getwchar` | 961 | Exported Function
+`_o_isalnum` | 964 | Exported Function
+`_o_isalpha` | 965 | Exported Function
+`_o_hypot` | 962 | Exported Function
+`_o_is_wctype` | 963 | Exported Function
+`_o_fseek` | 950 | Exported Function
+`_o_fsetpos` | 951 | Exported Function
+`_o_freopen_s` | 948 | Exported Function
+`_o_frexp` | 949 | Exported Function
+`_o_ftell` | 952 | Exported Function
+`_o_getchar` | 955 | Exported Function
+`_o_getenv` | 956 | Exported Function
+`_o_fwrite` | 953 | Exported Function
+`_o_getc` | 954 | Exported Function
+`_o_iswalpha` | 977 | Exported Function
+`_o_iswascii` | 978 | Exported Function
+`_o_isupper` | 975 | Exported Function
+`_o_iswalnum` | 976 | Exported Function
+`_o_iswblank` | 979 | Exported Function
+`_o_iswdigit` | 982 | Exported Function
+`_o_iswgraph` | 983 | Exported Function
+`_o_iswcntrl` | 980 | Exported Function
+`_o_iswctype` | 981 | Exported Function
+`_o_isdigit` | 968 | Exported Function
+`_o_isgraph` | 969 | Exported Function
+`_o_isblank` | 966 | Exported Function
+`_o_iscntrl` | 967 | Exported Function
+`_o_isleadbyte` | 970 | Exported Function
+`_o_ispunct` | 973 | Exported Function
+`_o_isspace` | 974 | Exported Function
+`_o_islower` | 971 | Exported Function
+`_o_isprint` | 972 | Exported Function
+`_o__controlfp_s` | 203 | Exported Function
+`_o__cputs` | 204 | Exported Function
+`_o__configure_narrow_argv` | 201 | Exported Function
+`_o__configure_wide_argv` | 202 | Exported Function
+`_o__cputws` | 205 | Exported Function
+`_o__crt_atexit` | 208 | Exported Function
+`_o__ctime32_s` | 209 | Exported Function
+`_o__creat` | 206 | Exported Function
+`_o__create_locale` | 207 | Exported Function
+`_o__CIsinh` | 71 | Exported Function
+`_o__CIsqrt` | 72 | Exported Function
+`_o__CIpow` | 69 | Exported Function
+`_o__CIsin` | 70 | Exported Function
+`_o__CItan` | 73 | Exported Function
+`_o__commit` | 199 | Exported Function
+`_o__configthreadlocale` | 200 | Exported Function
+`_o__CItanh` | 74 | Exported Function
+`_o__close` | 198 | Exported Function
+`_o__dsign` | 221 | Exported Function
+`_o__dsin` | 222 | Exported Function
+`_o__dpoly` | 219 | Exported Function
+`_o__dscale` | 220 | Exported Function
+`_o__dtest` | 223 | Exported Function
+`_o__dup2` | 226 | Exported Function
+`_o__dupenv_s` | 227 | Exported Function
+`_o__dunscale` | 224 | Exported Function
+`_o__dup` | 225 | Exported Function
+`_o__d_int` | 212 | Exported Function
+`_o__dclass` | 213 | Exported Function
+`_o__ctime64_s` | 210 | Exported Function
+`_o__cwait` | 211 | Exported Function
+`_o__difftime32` | 214 | Exported Function
+`_o__dnorm` | 217 | Exported Function
+`_o__dpcomp` | 218 | Exported Function
+`_o__difftime64` | 215 | Exported Function
+`_o__dlog` | 216 | Exported Function
+`_o__beginthread` | 183 | Exported Function
+`_o__beginthreadex` | 184 | Exported Function
+`_o__atoll_l` | 181 | Exported Function
+`_o__beep` | 182 | Exported Function
+`_o__cabs` | 185 | Exported Function
+`_o__cexit` | 188 | Exported Function
+`_o__cgets` | 189 | Exported Function
+`_o__callnewh` | 186 | Exported Function
+`_o__calloc_base` | 187 | Exported Function
+`_o__atoflt_l` | 174 | Exported Function
+`_o__atoi64` | 175 | Exported Function
+`_o__atof_l` | 172 | Exported Function
+`_o__atoflt` | 173 | Exported Function
+`_o__atoi64_l` | 176 | Exported Function
+`_o__atoldbl` | 179 | Exported Function
+`_o__atoldbl_l` | 180 | Exported Function
+`_o__atoi_l` | 177 | Exported Function
+`_o__atol_l` | 178 | Exported Function
+`_o__CIatan2` | 62 | Exported Function
+`_o__CIcos` | 63 | Exported Function
+`_o__CIasin` | 60 | Exported Function
+`_o__CIatan` | 61 | Exported Function
+`_o__CIcosh` | 64 | Exported Function
+`_o__CIlog` | 67 | Exported Function
+`_o__CIlog10` | 68 | Exported Function
+`_o__CIexp` | 65 | Exported Function
+`_o__CIfmod` | 66 | Exported Function
+`_o__cgetws_s` | 192 | Exported Function
+`_o__chdir` | 193 | Exported Function
+`_o__cgets_s` | 190 | Exported Function
+`_o__cgetws` | 191 | Exported Function
+`_o__chdrive` | 194 | Exported Function
+`_o__chsize_s` | 197 | Exported Function
+`_o__CIacos` | 59 | Exported Function
+`_o__chmod` | 195 | Exported Function
+`_o__chsize` | 196 | Exported Function
+`_o__ecvt` | 228 | Exported Function
+`_o__fputchar` | 276 | Exported Function
+`_o__fputwc_nolock` | 277 | Exported Function
+`_o__fpclass` | 274 | Exported Function
+`_o__fputc_nolock` | 275 | Exported Function
+`_o__fputwchar` | 278 | Exported Function
+`_o__free_base` | 281 | Exported Function
+`_o__free_locale` | 282 | Exported Function
+`_o__fread_nolock` | 279 | Exported Function
+`_o__fread_nolock_s` | 280 | Exported Function
+`_o__findfirst64` | 267 | Exported Function
+`_o__findfirst64i32` | 268 | Exported Function
+`_o__findfirst32` | 265 | Exported Function
+`_o__findfirst32i64` | 266 | Exported Function
+`_o__findnext32` | 269 | Exported Function
+`_o__findnext64i32` | 272 | Exported Function
+`_o__flushall` | 273 | Exported Function
+`_o__findnext32i64` | 270 | Exported Function
+`_o__findnext64` | 271 | Exported Function
+`_o__ftime32` | 294 | Exported Function
+`_o__ftime32_s` | 295 | Exported Function
+`_o__ftelli64` | 292 | Exported Function
+`_o__ftelli64_nolock` | 293 | Exported Function
+`_o__ftime64` | 296 | Exported Function
+`_o__futime32` | 299 | Exported Function
+`_o__futime64` | 300 | Exported Function
+`_o__ftime64_s` | 297 | Exported Function
+`_o__fullpath` | 298 | Exported Function
+`_o__fseeki64_nolock` | 285 | Exported Function
+`_o__fsopen` | 286 | Exported Function
+`_o__fseek_nolock` | 283 | Exported Function
+`_o__fseeki64` | 284 | Exported Function
+`_o__fstat32` | 287 | Exported Function
+`_o__fstat64i32` | 290 | Exported Function
+`_o__ftell_nolock` | 291 | Exported Function
+`_o__fstat32i64` | 288 | Exported Function
+`_o__fstat64` | 289 | Exported Function
+`_o__exit` | 240 | Exported Function
+`_o__expand` | 241 | Exported Function
+`_o__execvp` | 238 | Exported Function
+`_o__execvpe` | 239 | Exported Function
+`_o__fclose_nolock` | 242 | Exported Function
+`_o__fcvt_s` | 245 | Exported Function
+`_o__fd_int` | 246 | Exported Function
+`_o__fcloseall` | 243 | Exported Function
+`_o__fcvt` | 244 | Exported Function
+`_o__endthreadex` | 231 | Exported Function
+`_o__eof` | 232 | Exported Function
+`_o__ecvt_s` | 229 | Exported Function
+`_o__endthread` | 230 | Exported Function
+`_o__errno` | 233 | Exported Function
+`_o__execv` | 236 | Exported Function
+`_o__execve` | 237 | Exported Function
+`_o__except1` | 234 | Exported Function
+`_o__execute_onexit_table` | 235 | Exported Function
+`_o__fgetchar` | 258 | Exported Function
+`_o__fgetwc_nolock` | 259 | Exported Function
+`_o__fflush_nolock` | 256 | Exported Function
+`_o__fgetc_nolock` | 257 | Exported Function
+`_o__fgetwchar` | 260 | Exported Function
+`_o__fileno` | 263 | Exported Function
+`_o__findclose` | 264 | Exported Function
+`_o__filelength` | 261 | Exported Function
+`_o__filelengthi64` | 262 | Exported Function
+`_o__fdlog` | 249 | Exported Function
+`_o__fdopen` | 250 | Exported Function
+`_o__fdclass` | 247 | Exported Function
+`_o__fdexp` | 248 | Exported Function
+`_o__fdpcomp` | 251 | Exported Function
+`_o__fdsign` | 254 | Exported Function
+`_o__fdsin` | 255 | Exported Function
+`_o__fdpoly` | 252 | Exported Function
+`_o__fdscale` | 253 | Exported Function
+`_o__atodbl_l` | 171 | Exported Function
+`_get_unexpected` | 53 | Exported Function
+`_global_unwind2` | 54 | Exported Function
+`_FindAndUnlinkFrame` | 4 | Exported Function
+`_get_purecall_handler` | 52 | Exported Function
+`_is_exception_typeof` | 55 | Exported Function
+`_local_unwind4` | 57 | Exported Function
+`_longjmpex` | 58 | Exported Function
+`_IsExceptionObjectToBeDestroyed` | 5 | Exported Function
+`_local_unwind2` | 56 | Exported Function
+`_chkesp` | 48 | Exported Function
+`_CreateFrameInfo` | 1 | Exported Function
+`__unDName` | 44 | Exported Function
+`__unDNameEx` | 45 | Exported Function
+`_CxxThrowException` | 2 | Exported Function
+`_except_handler3` | 50 | Exported Function
+`_except_handler4_common` | 51 | Exported Function
+`_EH_prolog` | 3 | Exported Function
+`_except_handler2` | 49 | Exported Function
+`_o___conio_common_vcscanf` | 91 | Exported Function
+`_o___conio_common_vcwprintf` | 92 | Exported Function
+`_o___conio_common_vcprintf_p` | 89 | Exported Function
+`_o___conio_common_vcprintf_s` | 90 | Exported Function
+`_o___conio_common_vcwprintf_p` | 93 | Exported Function
+`_o___daylight` | 96 | Exported Function
+`_o___dstbias` | 97 | Exported Function
+`_o___conio_common_vcwprintf_s` | 94 | Exported Function
+`_o___conio_common_vcwscanf` | 95 | Exported Function
+`_NLG_Return2` | 8 | Exported Function
+`_o____lc_codepage_func` | 83 | Exported Function
+`_NLG_Dispatch2` | 6 | Exported Function
+`_NLG_Return` | 7 | Exported Function
+`_o____lc_collate_cp_func` | 84 | Exported Function
+`_o___acrt_iob_func` | 87 | Exported Function
+`_o___conio_common_vcprintf` | 88 | Exported Function
+`_o____lc_locale_name_func` | 85 | Exported Function
+`_o____mb_cur_max_func` | 86 | Exported Function
+`__CxxQueryExceptionSize` | 19 | Exported Function
+`__CxxRegisterExceptionObject` | 20 | Exported Function
+`__CxxFrameHandler3` | 17 | Exported Function
+`__CxxLongjmpUnwind` | 18 | Exported Function
+`__CxxUnregisterExceptionObject` | 21 | Exported Function
+`__DestructExceptionObject` | 22 | Exported Function
+`__FrameUnwindFilter` | 23 | Exported Function
+`__dcrt_get_wide_environment_from_os` | 31 | Exported Function
+`__dcrt_initial_narrow_environment` | 32 | Exported Function
+`__BuildCatchObjectHelper` | 12 | Exported Function
+`__current_exception` | 29 | Exported Function
+`__AdjustPointer` | 10 | Exported Function
+`__BuildCatchObject` | 11 | Exported Function
+`__current_exception_context` | 30 | Exported Function
+`__CxxFrameHandler` | 15 | Exported Function
+`__CxxFrameHandler2` | 16 | Exported Function
+`__CxxDetectRethrow` | 13 | Exported Function
+`__CxxExceptionFilter` | 14 | Exported Function
+`__std_type_info_compare` | 40 | Exported Function
+`__std_type_info_destroy_list` | 41 | Exported Function
+`__std_exception_destroy` | 38 | Exported Function
+`__std_terminate` | 39 | Exported Function
+`__std_type_info_hash` | 42 | Exported Function
+`__uncaught_exception` | 46 | Exported Function
+`__uncaught_exceptions` | 47 | Exported Function
+`__std_type_info_name` | 43 | Exported Function
+`__TypeMatch` | 28 | Exported Function
+`__intrinsic_setjmp` | 34 | Exported Function
+`__processing_throw` | 35 | Exported Function
+`__GetPlatformExceptionInfo` | 24 | Exported Function
+`__intrinsic_abnormal_termination` | 33 | Exported Function
+`__report_gsfailure` | 36 | Exported Function
+`__RTtypeid` | 27 | Exported Function
+`__std_exception_copy` | 37 | Exported Function
+`__RTCastToVoid` | 25 | Exported Function
+`__RTDynamicCast` | 26 | Exported Function
+`_o___fpe_flt_rounds` | 98 | Exported Function
+`_o___stdio_common_vfwscanf` | 146 | Exported Function
+`_o___stdio_common_vsnprintf_s` | 147 | Exported Function
+`_o___stdio_common_vfwprintf_p` | 144 | Exported Function
+`_o___stdio_common_vfwprintf_s` | 145 | Exported Function
+`_o___stdio_common_vsnwprintf_s` | 148 | Exported Function
+`_o___stdio_common_vsprintf_s` | 151 | Exported Function
+`_o___stdio_common_vsscanf` | 152 | Exported Function
+`_o___stdio_common_vsprintf` | 149 | Exported Function
+`_o___stdio_common_vsprintf_p` | 150 | Exported Function
+`_o___std_type_info_destroy_list` | 137 | Exported Function
+`_o___std_type_info_name` | 138 | Exported Function
+`_o___std_exception_copy` | 135 | Exported Function
+`_o___std_exception_destroy` | 136 | Exported Function
+`_o___stdio_common_vfprintf` | 139 | Exported Function
+`_o___stdio_common_vfscanf` | 142 | Exported Function
+`_o___stdio_common_vfwprintf` | 143 | Exported Function
+`_o___stdio_common_vfprintf_p` | 140 | Exported Function
+`_o___stdio_common_vfprintf_s` | 141 | Exported Function
+`_o__aligned_msize` | 164 | Exported Function
+`_o__aligned_offset_malloc` | 165 | Exported Function
+`_o__aligned_free` | 162 | Exported Function
+`_o__aligned_malloc` | 163 | Exported Function
+`_o__aligned_offset_realloc` | 166 | Exported Function
+`_o__aligned_recalloc` | 169 | Exported Function
+`_o__atodbl` | 170 | Exported Function
+`_o__aligned_offset_recalloc` | 167 | Exported Function
+`_o__aligned_realloc` | 168 | Exported Function
+`_o___stdio_common_vswprintf_s` | 155 | Exported Function
+`_o___stdio_common_vswscanf` | 156 | Exported Function
+`_o___stdio_common_vswprintf` | 153 | Exported Function
+`_o___stdio_common_vswprintf_p` | 154 | Exported Function
+`_o___timezone` | 157 | Exported Function
+`_o__access` | 160 | Exported Function
+`_o__access_s` | 161 | Exported Function
+`_o___tzname` | 158 | Exported Function
+`_o___wcserror` | 159 | Exported Function
+`_o___libm_sse2_log` | 110 | Exported Function
+`_o___libm_sse2_log10` | 111 | Exported Function
+`_o___libm_sse2_exp` | 108 | Exported Function
+`_o___libm_sse2_expf` | 109 | Exported Function
+`_o___libm_sse2_log10f` | 112 | Exported Function
+`_o___libm_sse2_powf` | 115 | Exported Function
+`_o___libm_sse2_sin` | 116 | Exported Function
+`_o___libm_sse2_logf` | 113 | Exported Function
+`_o___libm_sse2_pow` | 114 | Exported Function
+`_o___libm_sse2_asin` | 101 | Exported Function
+`_o___libm_sse2_asinf` | 102 | Exported Function
+`_o___libm_sse2_acos` | 99 | Exported Function
+`_o___libm_sse2_acosf` | 100 | Exported Function
+`_o___libm_sse2_atan` | 103 | Exported Function
+`_o___libm_sse2_cos` | 106 | Exported Function
+`_o___libm_sse2_cosf` | 107 | Exported Function
+`_o___libm_sse2_atan2` | 104 | Exported Function
+`_o___libm_sse2_atanf` | 105 | Exported Function
+`_o___p__mbctype` | 128 | Exported Function
+`_o___p__pgmptr` | 129 | Exported Function
+`_o___p__fmode` | 126 | Exported Function
+`_o___p__mbcasemap` | 127 | Exported Function
+`_o___p__wcmdln` | 130 | Exported Function
+`_o___pctype_func` | 133 | Exported Function
+`_o___pwctype_func` | 134 | Exported Function
+`_o___p__wenviron` | 131 | Exported Function
+`_o___p__wpgmptr` | 132 | Exported Function
+`_o___libm_sse2_tanf` | 119 | Exported Function
+`_o___p___argc` | 120 | Exported Function
+`_o___libm_sse2_sinf` | 117 | Exported Function
+`_o___libm_sse2_tan` | 118 | Exported Function
+`_o___p___argv` | 121 | Exported Function
+`_o___p__commode` | 124 | Exported Function
+`_o___p__environ` | 125 | Exported Function
+`_o___p___wargv` | 122 | Exported Function
+`_o___p__acmdln` | 123 | Exported Function
+`_o__mbclen` | 491 | Exported Function
+`_o__mbclen_l` | 492 | Exported Function
+`_o__mbcjmstojis` | 489 | Exported Function
+`_o__mbcjmstojis_l` | 490 | Exported Function
+`_o__mbctohira` | 493 | Exported Function
+`_o__mbctokata_l` | 496 | Exported Function
+`_o__mbctolower` | 497 | Exported Function
+`_o__mbctohira_l` | 494 | Exported Function
+`_o__mbctokata` | 495 | Exported Function
+`_o__mbbtype_l` | 482 | Exported Function
+`_o__mbccpy` | 483 | Exported Function
+`_o__mbbtombc_l` | 480 | Exported Function
+`_o__mbbtype` | 481 | Exported Function
+`_o__mbccpy_l` | 484 | Exported Function
+`_o__mbcjistojms` | 487 | Exported Function
+`_o__mbcjistojms_l` | 488 | Exported Function
+`_o__mbccpy_s` | 485 | Exported Function
+`_o__mbccpy_s_l` | 486 | Exported Function
+`_o__mbschr_l` | 509 | Exported Function
+`_o__mbscmp` | 510 | Exported Function
+`_o__mbscat_s_l` | 507 | Exported Function
+`_o__mbschr` | 508 | Exported Function
+`_o__mbscmp_l` | 511 | Exported Function
+`_o__mbscpy_s` | 514 | Exported Function
+`_o__mbscpy_s_l` | 515 | Exported Function
+`_o__mbscoll` | 512 | Exported Function
+`_o__mbscoll_l` | 513 | Exported Function
+`_o__mbctombb_l` | 500 | Exported Function
+`_o__mbctoupper` | 501 | Exported Function
+`_o__mbctolower_l` | 498 | Exported Function
+`_o__mbctombb` | 499 | Exported Function
+`_o__mbctoupper_l` | 502 | Exported Function
+`_o__mbsbtype_l` | 505 | Exported Function
+`_o__mbscat_s` | 506 | Exported Function
+`_o__mblen_l` | 503 | Exported Function
+`_o__mbsbtype` | 504 | Exported Function
+`_o__libm_sse2_log_precise` | 455 | Exported Function
+`_o__libm_sse2_pow_precise` | 456 | Exported Function
+`_o__libm_sse2_exp_precise` | 453 | Exported Function
+`_o__libm_sse2_log10_precise` | 454 | Exported Function
+`_o__libm_sse2_sin_precise` | 457 | Exported Function
+`_o__loaddll` | 460 | Exported Function
+`_o__localtime32` | 461 | Exported Function
+`_o__libm_sse2_sqrt_precise` | 458 | Exported Function
+`_o__libm_sse2_tan_precise` | 459 | Exported Function
+`_o__ldunscale` | 446 | Exported Function
+`_o__lfind` | 447 | Exported Function
+`_o__ldsin` | 444 | Exported Function
+`_o__ldtest` | 445 | Exported Function
+`_o__lfind_s` | 448 | Exported Function
+`_o__libm_sse2_atan_precise` | 451 | Exported Function
+`_o__libm_sse2_cos_precise` | 452 | Exported Function
+`_o__libm_sse2_acos_precise` | 449 | Exported Function
+`_o__libm_sse2_asin_precise` | 450 | Exported Function
+`_o__ltoa_s` | 473 | Exported Function
+`_o__ltow` | 474 | Exported Function
+`_o__lseeki64` | 471 | Exported Function
+`_o__ltoa` | 472 | Exported Function
+`_o__ltow_s` | 475 | Exported Function
+`_o__malloc_base` | 478 | Exported Function
+`_o__mbbtombc` | 479 | Exported Function
+`_o__makepath` | 476 | Exported Function
+`_o__makepath_s` | 477 | Exported Function
+`_o__localtime64_s` | 464 | Exported Function
+`_o__lock_file` | 465 | Exported Function
+`_o__localtime32_s` | 462 | Exported Function
+`_o__localtime64` | 463 | Exported Function
+`_o__locking` | 466 | Exported Function
+`_o__lsearch_s` | 469 | Exported Function
+`_o__lseek` | 470 | Exported Function
+`_o__logb` | 467 | Exported Function
+`_o__lsearch` | 468 | Exported Function
+`_o__mbscspn` | 516 | Exported Function
+`_o__mbsncpy` | 564 | Exported Function
+`_o__mbsncpy_l` | 565 | Exported Function
+`_o__mbsncoll` | 562 | Exported Function
+`_o__mbsncoll_l` | 563 | Exported Function
+`_o__mbsncpy_s` | 566 | Exported Function
+`_o__mbsnextc_l` | 569 | Exported Function
+`_o__mbsnicmp` | 570 | Exported Function
+`_o__mbsncpy_s_l` | 567 | Exported Function
+`_o__mbsnextc` | 568 | Exported Function
+`_o__mbsncat_l` | 555 | Exported Function
+`_o__mbsncat_s` | 556 | Exported Function
+`_o__mbsnbset_s_l` | 553 | Exported Function
+`_o__mbsncat` | 554 | Exported Function
+`_o__mbsncat_s_l` | 557 | Exported Function
+`_o__mbsncmp` | 560 | Exported Function
+`_o__mbsncmp_l` | 561 | Exported Function
+`_o__mbsnccnt` | 558 | Exported Function
+`_o__mbsnccnt_l` | 559 | Exported Function
+`_o__mbspbrk` | 582 | Exported Function
+`_o__mbspbrk_l` | 583 | Exported Function
+`_o__mbsnset_s` | 580 | Exported Function
+`_o__mbsnset_s_l` | 581 | Exported Function
+`_o__mbsrchr` | 584 | Exported Function
+`_o__mbsrev_l` | 587 | Exported Function
+`_o__mbsset` | 588 | Exported Function
+`_o__mbsrchr_l` | 585 | Exported Function
+`_o__mbsrev` | 586 | Exported Function
+`_o__mbsnicoll_l` | 573 | Exported Function
+`_o__mbsninc` | 574 | Exported Function
+`_o__mbsnicmp_l` | 571 | Exported Function
+`_o__mbsnicoll` | 572 | Exported Function
+`_o__mbsninc_l` | 575 | Exported Function
+`_o__mbsnset` | 578 | Exported Function
+`_o__mbsnset_l` | 579 | Exported Function
+`_o__mbsnlen` | 576 | Exported Function
+`_o__mbsnlen_l` | 577 | Exported Function
+`_o__mbslwr` | 528 | Exported Function
+`_o__mbslwr_l` | 529 | Exported Function
+`_o__mbslen` | 526 | Exported Function
+`_o__mbslen_l` | 527 | Exported Function
+`_o__mbslwr_s` | 530 | Exported Function
+`_o__mbsnbcat_l` | 533 | Exported Function
+`_o__mbsnbcat_s` | 534 | Exported Function
+`_o__mbslwr_s_l` | 531 | Exported Function
+`_o__mbsnbcat` | 532 | Exported Function
+`_o__mbsdec_l` | 519 | Exported Function
+`_o__mbsicmp` | 520 | Exported Function
+`_o__mbscspn_l` | 517 | Exported Function
+`_o__mbsdec` | 518 | Exported Function
+`_o__mbsicmp_l` | 521 | Exported Function
+`_o__mbsinc` | 524 | Exported Function
+`_o__mbsinc_l` | 525 | Exported Function
+`_o__mbsicoll` | 522 | Exported Function
+`_o__mbsicoll_l` | 523 | Exported Function
+`_o__mbsnbicmp` | 546 | Exported Function
+`_o__mbsnbicmp_l` | 547 | Exported Function
+`_o__mbsnbcpy_s` | 544 | Exported Function
+`_o__mbsnbcpy_s_l` | 545 | Exported Function
+`_o__mbsnbicoll` | 548 | Exported Function
+`_o__mbsnbset_l` | 551 | Exported Function
+`_o__mbsnbset_s` | 552 | Exported Function
+`_o__mbsnbicoll_l` | 549 | Exported Function
+`_o__mbsnbset` | 550 | Exported Function
+`_o__mbsnbcmp_l` | 537 | Exported Function
+`_o__mbsnbcnt` | 538 | Exported Function
+`_o__mbsnbcat_s_l` | 535 | Exported Function
+`_o__mbsnbcmp` | 536 | Exported Function
+`_o__mbsnbcnt_l` | 539 | Exported Function
+`_o__mbsnbcpy` | 542 | Exported Function
+`_o__mbsnbcpy_l` | 543 | Exported Function
+`_o__mbsnbcoll` | 540 | Exported Function
+`_o__mbsnbcoll_l` | 541 | Exported Function
+`_o__ldsign` | 443 | Exported Function
+`_o__gmtime32_s` | 345 | Exported Function
+`_o__gmtime64` | 346 | Exported Function
+`_o__getws_s` | 343 | Exported Function
+`_o__gmtime32` | 344 | Exported Function
+`_o__gmtime64_s` | 347 | Exported Function
+`_o__hypot` | 350 | Exported Function
+`_o__hypotf` | 351 | Exported Function
+`_o__heapchk` | 348 | Exported Function
+`_o__heapmin` | 349 | Exported Function
+`_o__getw` | 336 | Exported Function
+`_o__getwc_nolock` | 337 | Exported Function
+`_o__getsystime` | 335 | Exported Function
+`_o__Gettnames` | 77 | Exported Function
+`_o__getwch` | 338 | Exported Function
+`_o__getwche_nolock` | 341 | Exported Function
+`_o__getws` | 342 | Exported Function
+`_o__getwch_nolock` | 339 | Exported Function
+`_o__getwche` | 340 | Exported Function
+`_o__isctype_l` | 363 | Exported Function
+`_o__isleadbyte_l` | 364 | Exported Function
+`_o__isatty` | 361 | Exported Function
+`_o__isctype` | 362 | Exported Function
+`_o__ismbbalnum` | 365 | Exported Function
+`_o__ismbbalpha_l` | 368 | Exported Function
+`_o__ismbbblank` | 369 | Exported Function
+`_o__ismbbalnum_l` | 366 | Exported Function
+`_o__ismbbalpha` | 367 | Exported Function
+`_o__i64tow` | 354 | Exported Function
+`_o__i64tow_s` | 355 | Exported Function
+`_o__i64toa` | 352 | Exported Function
+`_o__i64toa_s` | 353 | Exported Function
+`_o__initialize_narrow_environment` | 356 | Exported Function
+`_o__invalid_parameter_noinfo` | 359 | Exported Function
+`_o__invalid_parameter_noinfo_noreturn` | 360 | Exported Function
+`_o__initialize_onexit_table` | 357 | Exported Function
+`_o__initialize_wide_environment` | 358 | Exported Function
+`_o__get_invalid_parameter_handler` | 312 | Exported Function
+`_o__get_narrow_winmain_command_line` | 313 | Exported Function
+`_o__get_initial_narrow_environment` | 310 | Exported Function
+`_o__get_initial_wide_environment` | 311 | Exported Function
+`_o__get_osfhandle` | 314 | Exported Function
+`_o__get_terminate` | 317 | Exported Function
+`_o__get_thread_local_invalid_parameter_handler` | 318 | Exported Function
+`_o__get_pgmptr` | 315 | Exported Function
+`_o__get_stream_buffer_pointers` | 316 | Exported Function
+`_o__gcvt_s` | 303 | Exported Function
+`_o__get_daylight` | 304 | Exported Function
+`_o__fwrite_nolock` | 301 | Exported Function
+`_o__gcvt` | 302 | Exported Function
+`_o__get_doserrno` | 305 | Exported Function
+`_o__get_fmode` | 308 | Exported Function
+`_o__get_heap_handle` | 309 | Exported Function
+`_o__get_dstbias` | 306 | Exported Function
+`_o__get_errno` | 307 | Exported Function
+`_o__getdcwd` | 329 | Exported Function
+`_o__getdiskfree` | 330 | Exported Function
+`_o__getcwd` | 328 | Exported Function
+`_o__Getdays` | 75 | Exported Function
+`_o__getdllprocaddr` | 331 | Exported Function
+`_o__getmbcp` | 334 | Exported Function
+`_o__Getmonths` | 76 | Exported Function
+`_o__getdrive` | 332 | Exported Function
+`_o__getdrives` | 333 | Exported Function
+`_o__get_wide_winmain_command_line` | 321 | Exported Function
+`_o__get_wpgmptr` | 322 | Exported Function
+`_o__get_timezone` | 319 | Exported Function
+`_o__get_tzname` | 320 | Exported Function
+`_o__getc_nolock` | 323 | Exported Function
+`_o__getche` | 326 | Exported Function
+`_o__getche_nolock` | 327 | Exported Function
+`_o__getch` | 324 | Exported Function
+`_o__getch_nolock` | 325 | Exported Function
+`_o__ismbbblank_l` | 370 | Exported Function
+`_o__ismbcspace_l` | 418 | Exported Function
+`_o__ismbcsymbol` | 419 | Exported Function
+`_o__ismbcpunct_l` | 416 | Exported Function
+`_o__ismbcspace` | 417 | Exported Function
+`_o__ismbcsymbol_l` | 420 | Exported Function
+`_o__ismbslead` | 423 | Exported Function
+`_o__ismbslead_l` | 424 | Exported Function
+`_o__ismbcupper` | 421 | Exported Function
+`_o__ismbcupper_l` | 422 | Exported Function
+`_o__ismbclegal` | 409 | Exported Function
+`_o__ismbclegal_l` | 410 | Exported Function
+`_o__ismbcl2` | 407 | Exported Function
+`_o__ismbcl2_l` | 408 | Exported Function
+`_o__ismbclower` | 411 | Exported Function
+`_o__ismbcprint_l` | 414 | Exported Function
+`_o__ismbcpunct` | 415 | Exported Function
+`_o__ismbclower_l` | 412 | Exported Function
+`_o__ismbcprint` | 413 | Exported Function
+`_o__ld_int` | 436 | Exported Function
+`_o__ldclass` | 437 | Exported Function
+`_o__jn` | 434 | Exported Function
+`_o__kbhit` | 435 | Exported Function
+`_o__ldexp` | 438 | Exported Function
+`_o__ldpoly` | 441 | Exported Function
+`_o__ldscale` | 442 | Exported Function
+`_o__ldlog` | 439 | Exported Function
+`_o__ldpcomp` | 440 | Exported Function
+`_o__iswctype_l` | 427 | Exported Function
+`_o__itoa` | 428 | Exported Function
+`_o__ismbstrail` | 425 | Exported Function
+`_o__ismbstrail_l` | 426 | Exported Function
+`_o__itoa_s` | 429 | Exported Function
+`_o__j0` | 432 | Exported Function
+`_o__j1` | 433 | Exported Function
+`_o__itow` | 430 | Exported Function
+`_o__itow_s` | 431 | Exported Function
+`_o__ismbblead_l` | 382 | Exported Function
+`_o__ismbbprint` | 383 | Exported Function
+`_o__ismbbkpunct_l` | 380 | Exported Function
+`_o__ismbblead` | 381 | Exported Function
+`_o__ismbbprint_l` | 384 | Exported Function
+`_o__ismbbtrail` | 387 | Exported Function
+`_o__ismbbtrail_l` | 388 | Exported Function
+`_o__ismbbpunct` | 385 | Exported Function
+`_o__ismbbpunct_l` | 386 | Exported Function
+`_o__ismbbkalnum` | 373 | Exported Function
+`_o__ismbbkalnum_l` | 374 | Exported Function
+`_o__ismbbgraph` | 371 | Exported Function
+`_o__ismbbgraph_l` | 372 | Exported Function
+`_o__ismbbkana` | 375 | Exported Function
+`_o__ismbbkprint_l` | 378 | Exported Function
+`_o__ismbbkpunct` | 379 | Exported Function
+`_o__ismbbkana_l` | 376 | Exported Function
+`_o__ismbbkprint` | 377 | Exported Function
+`_o__ismbchira_l` | 400 | Exported Function
+`_o__ismbckata` | 401 | Exported Function
+`_o__ismbcgraph_l` | 398 | Exported Function
+`_o__ismbchira` | 399 | Exported Function
+`_o__ismbckata_l` | 402 | Exported Function
+`_o__ismbcl1` | 405 | Exported Function
+`_o__ismbcl1_l` | 406 | Exported Function
+`_o__ismbcl0` | 403 | Exported Function
+`_o__ismbcl0_l` | 404 | Exported Function
+`_o__ismbcalpha` | 391 | Exported Function
+`_o__ismbcalpha_l` | 392 | Exported Function
+`_o__ismbcalnum` | 389 | Exported Function
+`_o__ismbcalnum_l` | 390 | Exported Function
+`_o__ismbcblank` | 393 | Exported Function
+`_o__ismbcdigit_l` | 396 | Exported Function
+`_o__ismbcgraph` | 397 | Exported Function
+`_o__ismbcblank_l` | 394 | Exported Function
+`_o__ismbcdigit` | 395 | Exported Function
 
 
 ## Signature

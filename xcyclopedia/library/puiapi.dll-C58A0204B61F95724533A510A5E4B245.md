@@ -24,60 +24,60 @@ PE256 | `301FC35DE66F94C049C143EB80B96761703AABDA60E8BC72E987A498D40F9F08`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 49 (0x31) | Exported Function | 0x100037d0 | 0x000037d0
-`STRAPI_XMLSafeText` | 25 (0x19) | Exported Function | 0x100045f0 | 0x000045f0
-`STRBUF_AppendString` | 26 (0x1a) | Exported Function | 0x10005200 | 0x00005200
-`STRBUF_Create` | 27 (0x1b) | Exported Function | 0x100050b0 | 0x000050b0
-`STRBUF_CreateBSTR` | 28 (0x1c) | Exported Function | 0x10005140 | 0x00005140
-`STRBUF_DeleteSubstring` | 29 (0x1d) | Exported Function | 0x100052c0 | 0x000052c0
-`STRBUF_Destroy` | 30 (0x1e) | Exported Function | 0x10005190 | 0x00005190
-`STRBUF_FindAndReplace` | 31 (0x1f) | Exported Function | 0x10005340 | 0x00005340
-`STRBUF_Format` | 32 (0x20) | Exported Function | 0x10005450 | 0x00005450
-`STRBUF_InsertString` | 33 (0x21) | Exported Function | 0x10005290 | 0x00005290
-`STRBUF_MultiCat` | 34 (0x22) | Exported Function | 0x10005240 | 0x00005240
-`STRAPI_TrimString` | 24 (0x18) | Exported Function | 0x10004850 | 0x00004850
-`STRBUF_ToLower` | 35 (0x23) | Exported Function | 0x10005410 | 0x00005410
-`STRBUF_TrimLeft` | 37 (0x25) | Exported Function | 0x10005370 | 0x00005370
-`STRBUF_TrimRight` | 38 (0x26) | Exported Function | 0x100053a0 | 0x000053a0
-`STRBUF_Truncate` | 39 (0x27) | Exported Function | 0x100052f0 | 0x000052f0
-`STRBUF_Update` | 40 (0x28) | Exported Function | 0x100051d0 | 0x000051d0
-`XMLAPI_GetAttributeDouble` | 41 (0x29) | Exported Function | 0x10005810 | 0x00005810
-`XMLAPI_GetAttributeLong` | 42 (0x2a) | Exported Function | 0x10005650 | 0x00005650
-`XMLAPI_GetAttributeString` | 43 (0x2b) | Exported Function | 0x100058f0 | 0x000058f0
-`XMLAPI_GetAttributeULongLong` | 44 (0x2c) | Exported Function | 0x10005730 | 0x00005730
-`XMLAPI_SetAttributeDouble` | 45 (0x2d) | Exported Function | 0x100057a0 | 0x000057a0
-`XMLAPI_SetAttributeLong` | 46 (0x2e) | Exported Function | 0x100055e0 | 0x000055e0
-`STRBUF_ToUpper` | 36 (0x24) | Exported Function | 0x100053d0 | 0x000053d0
-`STRAPI_String2GUID` | 23 (0x17) | Exported Function | 0x10004810 | 0x00004810
-`STRAPI_MultiCat` | 22 (0x16) | Exported Function | 0x100042e0 | 0x000042e0
-`STRAPI_LoadString` | 21 (0x15) | Exported Function | 0x10004380 | 0x00004380
-`DllGetClassObject` | 50 (0x32) | Exported Function | 0x100037e0 | 0x000037e0
-`DllRegisterServer` | 51 (0x33) | Exported Function | 0x10003800 | 0x00003800
-`DllUnregisterServer` | 52 (0x34) | Exported Function | 0x10003800 | 0x00003800
-`PUIAPI_CreateInstance` | 1 (0x1) | Exported Function | 0x10003810 | 0x00003810
-`PUIAPI_GetErrorString` | 2 (0x2) | Exported Function | 0x1000b050 | 0x0000b050
-`PUIAPI_GetPrinter` | 3 (0x3) | Exported Function | 0x100038a0 | 0x000038a0
-`PUIAPI_IWaitNotify_CreateInstance` | 4 (0x4) | Exported Function | 0x10003f40 | 0x00003f40
-`PUIAPI_IWaitNotify_RegisterTimer` | 5 (0x5) | Exported Function | 0x10003f90 | 0x00003f90
-`PUIAPI_IWaitNotify_RegisterWaitObject` | 6 (0x6) | Exported Function | 0x10003f50 | 0x00003f50
-`PUIAPI_IWaitNotify_UnregisterCookie` | 7 (0x7) | Exported Function | 0x10003fd0 | 0x00003fd0
-`PUIAPI_ShowBrowseForPrinterDialog` | 8 (0x8) | Exported Function | 0x1000b100 | 0x0000b100
-`PUIAPI_ShowDetailsMessageBox` | 9 (0x9) | Exported Function | 0x1000af80 | 0x0000af80
-`PUIAPI_ShowDriverPackageRemovalUI` | 10 (0xa) | Exported Function | 0x1000b9b0 | 0x0000b9b0
-`STRAPI_ConvertCase` | 11 (0xb) | Exported Function | 0x10004900 | 0x00004900
-`STRAPI_CrackPrintUNCName` | 12 (0xc) | Exported Function | 0x10004f60 | 0x00004f60
-`STRAPI_FindAndReplace` | 13 (0xd) | Exported Function | 0x10004400 | 0x00004400
-`STRAPI_Format` | 14 (0xe) | Exported Function | 0x10004520 | 0x00004520
-`STRAPI_FormatMsg` | 15 (0xf) | Exported Function | 0x100045d0 | 0x000045d0
-`STRAPI_FormatMsgV` | 16 (0x10) | Exported Function | 0x10004540 | 0x00004540
-`STRAPI_FormatV` | 17 (0x11) | Exported Function | 0x100044a0 | 0x000044a0
-`STRAPI_GetJobStatusString` | 19 (0x13) | Exported Function | 0x10004ec0 | 0x00004ec0
-`STRAPI_GetPrinterStatusString` | 20 (0x14) | Exported Function | 0x10004e60 | 0x00004e60
-`STRAPI_GUID2String` | 18 (0x12) | Exported Function | 0x100047a0 | 0x000047a0
-`XMLAPI_SetAttributeString` | 47 (0x2f) | Exported Function | 0x10005880 | 0x00005880
-`XMLAPI_SetAttributeULongLong` | 48 (0x30) | Exported Function | 0x100056c0 | 0x000056c0
+Function Name | Ordinal | Type
+-- | -- | --
+`STRBUF_Format` | 32 | Exported Function
+`STRBUF_FindAndReplace` | 31 | Exported Function
+`STRBUF_Destroy` | 30 | Exported Function
+`STRBUF_ToLower` | 35 | Exported Function
+`STRBUF_MultiCat` | 34 | Exported Function
+`STRBUF_InsertString` | 33 | Exported Function
+`STRBUF_DeleteSubstring` | 29 | Exported Function
+`STRAPI_XMLSafeText` | 25 | Exported Function
+`STRAPI_TrimString` | 24 | Exported Function
+`STRAPI_String2GUID` | 23 | Exported Function
+`STRBUF_CreateBSTR` | 28 | Exported Function
+`STRBUF_Create` | 27 | Exported Function
+`STRBUF_AppendString` | 26 | Exported Function
+`XMLAPI_SetAttributeDouble` | 45 | Exported Function
+`XMLAPI_GetAttributeULongLong` | 44 | Exported Function
+`XMLAPI_GetAttributeString` | 43 | Exported Function
+`XMLAPI_SetAttributeULongLong` | 48 | Exported Function
+`XMLAPI_SetAttributeString` | 47 | Exported Function
+`XMLAPI_SetAttributeLong` | 46 | Exported Function
+`XMLAPI_GetAttributeLong` | 42 | Exported Function
+`STRBUF_TrimRight` | 38 | Exported Function
+`STRBUF_TrimLeft` | 37 | Exported Function
+`STRBUF_ToUpper` | 36 | Exported Function
+`XMLAPI_GetAttributeDouble` | 41 | Exported Function
+`STRBUF_Update` | 40 | Exported Function
+`STRBUF_Truncate` | 39 | Exported Function
+`PUIAPI_IWaitNotify_RegisterWaitObject` | 6 | Exported Function
+`PUIAPI_IWaitNotify_RegisterTimer` | 5 | Exported Function
+`PUIAPI_IWaitNotify_CreateInstance` | 4 | Exported Function
+`PUIAPI_ShowDetailsMessageBox` | 9 | Exported Function
+`PUIAPI_ShowBrowseForPrinterDialog` | 8 | Exported Function
+`PUIAPI_IWaitNotify_UnregisterCookie` | 7 | Exported Function
+`PUIAPI_GetPrinter` | 3 | Exported Function
+`DllRegisterServer` | 51 | Exported Function
+`DllGetClassObject` | 50 | Exported Function
+`DllCanUnloadNow` | 49 | Exported Function
+`PUIAPI_GetErrorString` | 2 | Exported Function
+`PUIAPI_CreateInstance` | 1 | Exported Function
+`DllUnregisterServer` | 52 | Exported Function
+`STRAPI_GetPrinterStatusString` | 20 | Exported Function
+`STRAPI_GetJobStatusString` | 19 | Exported Function
+`STRAPI_FormatV` | 17 | Exported Function
+`STRAPI_MultiCat` | 22 | Exported Function
+`STRAPI_LoadString` | 21 | Exported Function
+`STRAPI_GUID2String` | 18 | Exported Function
+`STRAPI_FormatMsgV` | 16 | Exported Function
+`STRAPI_CrackPrintUNCName` | 12 | Exported Function
+`STRAPI_ConvertCase` | 11 | Exported Function
+`PUIAPI_ShowDriverPackageRemovalUI` | 10 | Exported Function
+`STRAPI_FormatMsg` | 15 | Exported Function
+`STRAPI_Format` | 14 | Exported Function
+`STRAPI_FindAndReplace` | 13 | Exported Function
 
 
 ## Signature

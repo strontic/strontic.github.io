@@ -1,0 +1,897 @@
+﻿---
+title: MSVCR71.DLL | Microsoft C Runtime Library
+excerpt: What is MSVCR71.DLL?
+---
+
+# MSVCR71.DLL 
+
+* File Path: `C:\Program Files (x86)\Microsoft Office\root\Office16\ADDINS\MSVCR71.DLL`
+* Description: Microsoft C Runtime Library
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `106EBBC72688E4CF2662DD2AC1872EAF`
+SHA1 | `C9209085E70DE8863462FB10D7AE12993044E583`
+SHA256 | `76256F8D624A1DB8C6BA8B91EA1C21CAD1C0518D5DA44BBD5B93E679D0827C5A`
+SHA384 | `987D1940CE14387983E7CC775A5335C3DAF842B9920E47B7BEFA561B68B46D6AC3A548AF411BCF09B11EA6C5FF51FE6E`
+SHA512 | `0F2ECD978678510381EBE29446BA6A70FB7B57CFBB312FDF4412CECFD77E1091BE4AA02E1AE2723F10A1E8BE8CBB203744CE0005D7501BF489381EBA65784B7A`
+SSDEEP | `6144:+moPDZqPEqTFdepaAJFTj4QKam6Icll8FMciFMNrb3YgxYCXbCAO5nBBy:wZqPEqT2pxLbKSI84F7xC7Ly`
+IMP | `7ACC8C379C768A1ECD81EC502FF5F33E`
+PESHA1 | `45F96B4805AB7074F6EC572CF6BFEFA92D69D4E0`
+PE256 | `0DD76B1DBD376F6EABA577CE628F1AE7C93F58FBB7B634171F6E453781AE7FF5`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type
+-- | -- | --
+`_write` | 611 | Exported Function
+`_wrename` | 610 | Exported Function
+`_wremove` | 609 | Exported Function
+`_wsetlocale` | 614 | Exported Function
+`_wsearchenv` | 613 | Exported Function
+`_wrmdir` | 612 | Exported Function
+`_wputenv` | 608 | Exported Function
+`_wopen` | 604 | Exported Function
+`_wmktemp` | 603 | Exported Function
+`_wmkdir` | 602 | Exported Function
+`_wpopen` | 607 | Exported Function
+`_wpgmptr` | 606 | Exported Function
+`_wperror` | 605 | Exported Function
+`_wsplitpath` | 624 | Exported Function
+`_wspawnvpe` | 623 | Exported Function
+`_wspawnvp` | 622 | Exported Function
+`_wstati64` | 627 | Exported Function
+`_wstat64` | 626 | Exported Function
+`_wstat` | 625 | Exported Function
+`_wspawnve` | 621 | Exported Function
+`_wspawnle` | 617 | Exported Function
+`_wspawnl` | 616 | Exported Function
+`_wsopen` | 615 | Exported Function
+`_wspawnv` | 620 | Exported Function
+`_wspawnlpe` | 619 | Exported Function
+`_wspawnlp` | 618 | Exported Function
+`_wfindfirst` | 585 | Exported Function
+`_wfdopen` | 584 | Exported Function
+`_wexecvpe` | 583 | Exported Function
+`_wfindnext` | 588 | Exported Function
+`_wfindfirsti64` | 587 | Exported Function
+`_wfindfirst64` | 586 | Exported Function
+`_wexecvp` | 582 | Exported Function
+`_wexeclp` | 578 | Exported Function
+`_wexecle` | 577 | Exported Function
+`_wexecl` | 576 | Exported Function
+`_wexecve` | 581 | Exported Function
+`_wexecv` | 580 | Exported Function
+`_wexeclpe` | 579 | Exported Function
+`_winmajor` | 598 | Exported Function
+`_wgetenv` | 597 | Exported Function
+`_wgetdcwd` | 596 | Exported Function
+`_wmakepath` | 601 | Exported Function
+`_winver` | 600 | Exported Function
+`_winminor` | 599 | Exported Function
+`_wgetcwd` | 595 | Exported Function
+`_wfopen` | 591 | Exported Function
+`_wfindnexti64` | 590 | Exported Function
+`_wfindnext64` | 589 | Exported Function
+`_wfullpath` | 594 | Exported Function
+`_wfsopen` | 593 | Exported Function
+`_wfreopen` | 592 | Exported Function
+`const exception::``vftable'` | 28 | Exported Function
+`const bad_typeid::``vftable'` | 27 | Exported Function
+`const bad_cast::``vftable'` | 26 | Exported Function
+`ctime` | 661 | Exported Function
+`cosh` | 660 | Exported Function
+`cos` | 659 | Exported Function
+`const __non_rtti_object::``vftable'` | 25 | Exported Function
+`calloc` | 655 | Exported Function
+`bsearch` | 654 | Exported Function
+`atol` | 653 | Exported Function
+`clock` | 658 | Exported Function
+`clearerr` | 657 | Exported Function
+`ceil` | 656 | Exported Function
+`fgetc` | 671 | Exported Function
+`fflush` | 670 | Exported Function
+`ferror` | 669 | Exported Function
+`fgetwc` | 674 | Exported Function
+`fgets` | 673 | Exported Function
+`fgetpos` | 672 | Exported Function
+`feof` | 668 | Exported Function
+`exit` | 664 | Exported Function
+`div` | 663 | Exported Function
+`difftime` | 662 | Exported Function
+`fclose` | 667 | Exported Function
+`fabs` | 666 | Exported Function
+`exp` | 665 | Exported Function
+`_wunlink` | 637 | Exported Function
+`_wtol` | 636 | Exported Function
+`_wtoi64` | 635 | Exported Function
+`_XcptFilter` | 77 | Exported Function
+`_wutime64` | 639 | Exported Function
+`_wutime` | 638 | Exported Function
+`_wtoi` | 634 | Exported Function
+`_wsystem` | 630 | Exported Function
+`_wstrtime` | 629 | Exported Function
+`_wstrdate` | 628 | Exported Function
+`_wtof` | 633 | Exported Function
+`_wtmpnam` | 632 | Exported Function
+`_wtempnam` | 631 | Exported Function
+`atan2` | 649 | Exported Function
+`atan` | 648 | Exported Function
+`asin` | 647 | Exported Function
+`atoi` | 652 | Exported Function
+`atof` | 651 | Exported Function
+`atexit` | 650 | Exported Function
+`asctime` | 646 | Exported Function
+`_yn` | 642 | Exported Function
+`_y1` | 641 | Exported Function
+`_y0` | 640 | Exported Function
+`acos` | 645 | Exported Function
+`abs` | 644 | Exported Function
+`abort` | 643 | Exported Function
+`_wenviron` | 575 | Exported Function
+`_strcmpi` | 507 | Exported Function
+`_statusfp` | 506 | Exported Function
+`_stati64` | 505 | Exported Function
+`_strerror` | 510 | Exported Function
+`_strdup` | 509 | Exported Function
+`_strdate` | 508 | Exported Function
+`_stat64` | 504 | Exported Function
+`_spawnvp` | 500 | Exported Function
+`_spawnve` | 499 | Exported Function
+`_spawnv` | 498 | Exported Function
+`_stat` | 503 | Exported Function
+`_splitpath` | 502 | Exported Function
+`_spawnvpe` | 501 | Exported Function
+`_strset` | 519 | Exported Function
+`_strrev` | 518 | Exported Function
+`_strnset` | 517 | Exported Function
+`_strtoui64` | 522 | Exported Function
+`_strtoi64` | 521 | Exported Function
+`_strtime` | 520 | Exported Function
+`_strnicoll` | 516 | Exported Function
+`_stricoll` | 512 | Exported Function
+`_stricmp` | 511 | Exported Function
+`_Strftime` | 76 | Exported Function
+`_strnicmp` | 515 | Exported Function
+`_strncoll` | 514 | Exported Function
+`_strlwr` | 513 | Exported Function
+`_seterrormode` | 481 | Exported Function
+`_set_SSE2_enable` | 476 | Exported Function
+`_set_security_error_handler` | 480 | Exported Function
+`_setmaxstdio` | 484 | Exported Function
+`_setjmp3` | 483 | Exported Function
+`_setjmp` | 482 | Exported Function
+`_set_sbh_threshold` | 479 | Exported Function
+`_searchenv` | 474 | Exported Function
+`_scwprintf` | 473 | Exported Function
+`_scprintf` | 472 | Exported Function
+`_set_purecall_handler` | 478 | Exported Function
+`_set_error_mode` | 477 | Exported Function
+`_seh_longjmp_unwind` | 475 | Exported Function
+`_spawnl` | 494 | Exported Function
+`_sopen` | 493 | Exported Function
+`_snwscanf` | 492 | Exported Function
+`_spawnlpe` | 497 | Exported Function
+`_spawnlp` | 496 | Exported Function
+`_spawnle` | 495 | Exported Function
+`_snwprintf` | 491 | Exported Function
+`_setsystime` | 487 | Exported Function
+`_setmode` | 486 | Exported Function
+`_setmbcp` | 485 | Exported Function
+`_snscanf` | 490 | Exported Function
+`_snprintf` | 489 | Exported Function
+`_sleep` | 488 | Exported Function
+`_wcsdup` | 558 | Exported Function
+`_wcreat` | 557 | Exported Function
+`_wcmdln` | 556 | Exported Function
+`_wcsicoll` | 561 | Exported Function
+`_wcsicmp` | 560 | Exported Function
+`_wcserror` | 559 | Exported Function
+`_wchmod` | 555 | Exported Function
+`_vsnwprintf` | 551 | Exported Function
+`_vsnprintf` | 550 | Exported Function
+`_vscwprintf` | 549 | Exported Function
+`_wchdir` | 554 | Exported Function
+`_wasctime` | 553 | Exported Function
+`_waccess` | 552 | Exported Function
+`_wcsupr` | 571 | Exported Function
+`_wcstoui64` | 570 | Exported Function
+`_wcstoi64` | 569 | Exported Function
+`_wctype` | 574 | Exported Function
+`_wctime64` | 573 | Exported Function
+`_wctime` | 572 | Exported Function
+`_wcsset` | 568 | Exported Function
+`_wcsnicmp` | 564 | Exported Function
+`_wcsncoll` | 563 | Exported Function
+`_wcslwr` | 562 | Exported Function
+`_wcsrev` | 567 | Exported Function
+`_wcsnset` | 566 | Exported Function
+`_wcsnicoll` | 565 | Exported Function
+`_tolower` | 532 | Exported Function
+`_timezone` | 531 | Exported Function
+`_time64` | 530 | Exported Function
+`_tzset` | 535 | Exported Function
+`_tzname` | 534 | Exported Function
+`_toupper` | 533 | Exported Function
+`_tempnam` | 529 | Exported Function
+`_sys_errlist` | 525 | Exported Function
+`_swab` | 524 | Exported Function
+`_strupr` | 523 | Exported Function
+`_telli64` | 528 | Exported Function
+`_tell` | 527 | Exported Function
+`_sys_nerr` | 526 | Exported Function
+`_unlock` | 545 | Exported Function
+`_unloaddll` | 544 | Exported Function
+`_unlink` | 543 | Exported Function
+`_vscprintf` | 548 | Exported Function
+`_utime64` | 547 | Exported Function
+`_utime` | 546 | Exported Function
+`_ungetwch` | 542 | Exported Function
+`_ultoa` | 538 | Exported Function
+`_ui64tow` | 537 | Exported Function
+`_ui64toa` | 536 | Exported Function
+`_ungetch` | 541 | Exported Function
+`_umask` | 540 | Exported Function
+`_ultow` | 539 | Exported Function
+`strerror` | 779 | Exported Function
+`strcspn` | 778 | Exported Function
+`strcpy` | 777 | Exported Function
+`strncat` | 782 | Exported Function
+`strlen` | 781 | Exported Function
+`strftime` | 780 | Exported Function
+`strcoll` | 776 | Exported Function
+`sscanf` | 772 | Exported Function
+`srand` | 771 | Exported Function
+`sqrt` | 770 | Exported Function
+`strcmp` | 775 | Exported Function
+`strchr` | 774 | Exported Function
+`strcat` | 773 | Exported Function
+`strtoul` | 792 | Exported Function
+`strtol` | 791 | Exported Function
+`strtok` | 790 | Exported Function
+`swscanf` | 795 | Exported Function
+`swprintf` | 794 | Exported Function
+`strxfrm` | 793 | Exported Function
+`strtod` | 789 | Exported Function
+`strpbrk` | 785 | Exported Function
+`strncpy` | 784 | Exported Function
+`strncmp` | 783 | Exported Function
+`strstr` | 788 | Exported Function
+`strspn` | 787 | Exported Function
+`strrchr` | 786 | Exported Function
+`putwc` | 753 | Exported Function
+`puts` | 752 | Exported Function
+`putchar` | 751 | Exported Function
+`raise` | 756 | Exported Function
+`qsort` | 755 | Exported Function
+`putwchar` | 754 | Exported Function
+`putc` | 750 | Exported Function
+`public: virtual __thiscall type_info::~type_info(void)` | 16 | Exported Function
+`public: virtual __thiscall exception::~exception(void)` | 15 | Exported Function
+`public: virtual __thiscall bad_typeid::~bad_typeid(void)` | 14 | Exported Function
+`public: void __thiscall bad_typeid::``default constructor closure'(void)` | 30 | Exported Function
+`public: void __thiscall bad_cast::``default constructor closure'(void)` | 29 | Exported Function
+`public: virtual char const * __thiscall exception::what(void)const ` | 51 | Exported Function
+`signal` | 766 | Exported Function
+`setvbuf` | 765 | Exported Function
+`setlocale` | 764 | Exported Function
+`sprintf` | 769 | Exported Function
+`sinh` | 768 | Exported Function
+`sin` | 767 | Exported Function
+`setbuf` | 763 | Exported Function
+`remove` | 759 | Exported Function
+`realloc` | 758 | Exported Function
+`rand` | 757 | Exported Function
+`scanf` | 762 | Exported Function
+`rewind` | 761 | Exported Function
+`rename` | 760 | Exported Function
+`wcslen` | 821 | Exported Function
+`wcsftime` | 820 | Exported Function
+`wcscspn` | 819 | Exported Function
+`wcsncpy` | 824 | Exported Function
+`wcsncmp` | 823 | Exported Function
+`wcsncat` | 822 | Exported Function
+`wcscpy` | 818 | Exported Function
+`wcscat` | 814 | Exported Function
+`vwprintf` | 813 | Exported Function
+`vswprintf` | 812 | Exported Function
+`wcscoll` | 817 | Exported Function
+`wcscmp` | 816 | Exported Function
+`wcschr` | 815 | Exported Function
+`wcsxfrm` | 834 | Exported Function
+`wcstoul` | 833 | Exported Function
+`wcstombs` | 832 | Exported Function
+`wscanf` | 837 | Exported Function
+`wprintf` | 836 | Exported Function
+`wctomb` | 835 | Exported Function
+`wcstol` | 831 | Exported Function
+`wcsspn` | 827 | Exported Function
+`wcsrchr` | 826 | Exported Function
+`wcspbrk` | 825 | Exported Function
+`wcstok` | 830 | Exported Function
+`wcstod` | 829 | Exported Function
+`wcsstr` | 828 | Exported Function
+`towupper` | 805 | Exported Function
+`towlower` | 804 | Exported Function
+`toupper` | 803 | Exported Function
+`vfprintf` | 808 | Exported Function
+`ungetwc` | 807 | Exported Function
+`ungetc` | 806 | Exported Function
+`tolower` | 802 | Exported Function
+`tanh` | 798 | Exported Function
+`tan` | 797 | Exported Function
+`system` | 796 | Exported Function
+`tmpnam` | 801 | Exported Function
+`tmpfile` | 800 | Exported Function
+`time` | 799 | Exported Function
+`void __cdecl terminate(void)` | 47 | Exported Function
+`void __cdecl operator delete[](void *)` | 32 | Exported Function
+`void __cdecl operator delete(void *)` | 18 | Exported Function
+`vsprintf` | 811 | Exported Function
+`vprintf` | 810 | Exported Function
+`void __cdecl unexpected(void)` | 48 | Exported Function
+`void * __cdecl operator new[](unsigned int)` | 31 | Exported Function
+`void (__cdecl*__cdecl set_new_handler(void (__cdecl*)(void)))(void)` | 42 | Exported Function
+`void (__cdecl*__cdecl _set_se_translator(void (__cdecl*)(unsigned int,struct _EXCEPTION_POINTERS *)))(unsigned int,struct _EXCEPTION_POINTERS *)` | 38 | Exported Function
+`vfwprintf` | 809 | Exported Function
+`void * __cdecl operator new(unsigned int)` | 17 | Exported Function
+`void (__cdecl*__cdecl set_unexpected(void (__cdecl*)(void)))(void)` | 44 | Exported Function
+`void (__cdecl*__cdecl set_terminate(void (__cdecl*)(void)))(void)` | 43 | Exported Function
+`public: virtual __thiscall bad_cast::~bad_cast(void)` | 13 | Exported Function
+`is_wctype` | 702 | Exported Function
+`int __cdecl vswprintf(wchar_t *,unsigned int,wchar_t const *,char *)` | 50 | Exported Function
+`int __cdecl vswprintf(unsigned short *,unsigned int,unsigned short const *,char *)` | 49 | Exported Function
+`iscntrl` | 705 | Exported Function
+`isalpha` | 704 | Exported Function
+`isalnum` | 703 | Exported Function
+`int __cdecl swprintf(wchar_t *,unsigned int,wchar_t const *,...)` | 46 | Exported Function
+`int (__cdecl*__cdecl _set_new_handler(int (__cdecl*)(unsigned int)))(unsigned int)` | 36 | Exported Function
+`int (__cdecl*__cdecl _query_new_handler(void))(unsigned int)` | 34 | Exported Function
+`gmtime` | 701 | Exported Function
+`int __cdecl swprintf(unsigned short *,unsigned int,unsigned short const *,...)` | 45 | Exported Function
+`int __cdecl _set_new_mode(int)` | 37 | Exported Function
+`int __cdecl _query_new_mode(void)` | 35 | Exported Function
+`iswalpha` | 715 | Exported Function
+`iswalnum` | 714 | Exported Function
+`isupper` | 713 | Exported Function
+`iswctype` | 718 | Exported Function
+`iswcntrl` | 717 | Exported Function
+`iswascii` | 716 | Exported Function
+`isspace` | 712 | Exported Function
+`isleadbyte` | 708 | Exported Function
+`isgraph` | 707 | Exported Function
+`isdigit` | 706 | Exported Function
+`ispunct` | 711 | Exported Function
+`isprint` | 710 | Exported Function
+`islower` | 709 | Exported Function
+`fread` | 684 | Exported Function
+`fputws` | 683 | Exported Function
+`fputwc` | 682 | Exported Function
+`frexp` | 687 | Exported Function
+`freopen` | 686 | Exported Function
+`free` | 685 | Exported Function
+`fputs` | 681 | Exported Function
+`fmod` | 677 | Exported Function
+`floor` | 676 | Exported Function
+`fgetws` | 675 | Exported Function
+`fputc` | 680 | Exported Function
+`fprintf` | 679 | Exported Function
+`fopen` | 678 | Exported Function
+`getenv` | 697 | Exported Function
+`getchar` | 696 | Exported Function
+`getc` | 695 | Exported Function
+`getwchar` | 700 | Exported Function
+`getwc` | 699 | Exported Function
+`gets` | 698 | Exported Function
+`fwscanf` | 694 | Exported Function
+`fsetpos` | 690 | Exported Function
+`fseek` | 689 | Exported Function
+`fscanf` | 688 | Exported Function
+`fwrite` | 693 | Exported Function
+`fwprintf` | 692 | Exported Function
+`ftell` | 691 | Exported Function
+`public: __thiscall bad_cast::bad_cast(char const *)` | 6 | Exported Function
+`public: __thiscall bad_cast::bad_cast(char const * const &)` | 4 | Exported Function
+`public: __thiscall __non_rtti_object::__non_rtti_object(class __non_rtti_object const &)` | 1 | Exported Function
+`public: __thiscall bad_typeid::bad_typeid(class bad_typeid const &)` | 7 | Exported Function
+`public: __thiscall bad_typeid::bad_typeid(char const *)` | 8 | Exported Function
+`public: __thiscall bad_cast::bad_cast(class bad_cast const &)` | 5 | Exported Function
+`public: __thiscall __non_rtti_object::__non_rtti_object(char const *)` | 2 | Exported Function
+`perror` | 747 | Exported Function
+`modf` | 746 | Exported Function
+`mktime` | 745 | Exported Function
+`private: __thiscall bad_cast::bad_cast(char const * const *)` | 3 | Exported Function
+`printf` | 749 | Exported Function
+`pow` | 748 | Exported Function
+`public: int __thiscall type_info::before(class type_info const &)const ` | 39 | Exported Function
+`public: class exception & __thiscall exception::operator=(class exception const &)` | 22 | Exported Function
+`public: class bad_typeid & __thiscall bad_typeid::operator=(class bad_typeid const &)` | 21 | Exported Function
+`public: virtual __thiscall __non_rtti_object::~__non_rtti_object(void)` | 12 | Exported Function
+`public: int __thiscall type_info::operator==(class type_info const &)const ` | 23 | Exported Function
+`public: int __thiscall type_info::operator!=(class type_info const &)const ` | 24 | Exported Function
+`public: class bad_cast & __thiscall bad_cast::operator=(class bad_cast const &)` | 20 | Exported Function
+`public: __thiscall exception::exception(void)` | 11 | Exported Function
+`public: __thiscall exception::exception(class exception const &)` | 10 | Exported Function
+`public: __thiscall exception::exception(char const * const &)` | 9 | Exported Function
+`public: class __non_rtti_object & __thiscall __non_rtti_object::operator=(class __non_rtti_object const &)` | 19 | Exported Function
+`public: char const * __thiscall type_info::raw_name(void)const ` | 41 | Exported Function
+`public: char const * __thiscall type_info::name(void)const ` | 40 | Exported Function
+`labs` | 728 | Exported Function
+`isxdigit` | 727 | Exported Function
+`iswxdigit` | 726 | Exported Function
+`localeconv` | 731 | Exported Function
+`ldiv` | 730 | Exported Function
+`ldexp` | 729 | Exported Function
+`iswupper` | 725 | Exported Function
+`iswlower` | 721 | Exported Function
+`iswgraph` | 720 | Exported Function
+`iswdigit` | 719 | Exported Function
+`iswspace` | 724 | Exported Function
+`iswpunct` | 723 | Exported Function
+`iswprint` | 722 | Exported Function
+`memcmp` | 741 | Exported Function
+`memchr` | 740 | Exported Function
+`mbtowc` | 739 | Exported Function
+`memset` | 744 | Exported Function
+`memmove` | 743 | Exported Function
+`memcpy` | 742 | Exported Function
+`mbstowcs` | 738 | Exported Function
+`log10` | 734 | Exported Function
+`log` | 733 | Exported Function
+`localtime` | 732 | Exported Function
+`mblen` | 737 | Exported Function
+`malloc` | 736 | Exported Function
+`longjmp` | 735 | Exported Function
+`_scalb` | 471 | Exported Function
+`_CIasin` | 54 | Exported Function
+`_CIacos` | 53 | Exported Function
+`_chsize` | 214 | Exported Function
+`_CIcos` | 57 | Exported Function
+`_CIatan2` | 56 | Exported Function
+`_CIatan` | 55 | Exported Function
+`_chmod` | 213 | Exported Function
+`_chdir` | 209 | Exported Function
+`_cgetws` | 208 | Exported Function
+`_cgets` | 207 | Exported Function
+`_chkesp` | 212 | Exported Function
+`_chgsign` | 211 | Exported Function
+`_chdrive` | 210 | Exported Function
+`_CItan` | 67 | Exported Function
+`_CIsqrt` | 66 | Exported Function
+`_CIsinh` | 65 | Exported Function
+`_close` | 216 | Exported Function
+`_clearfp` | 215 | Exported Function
+`_CItanh` | 68 | Exported Function
+`_CIsin` | 64 | Exported Function
+`_CIfmod` | 60 | Exported Function
+`_CIexp` | 59 | Exported Function
+`_CIcosh` | 58 | Exported Function
+`_CIpow` | 63 | Exported Function
+`_CIlog10` | 62 | Exported Function
+`_CIlog` | 61 | Exported Function
+`_aligned_free` | 190 | Exported Function
+`_aexit_rtn` | 189 | Exported Function
+`_adjust_fdiv` | 188 | Exported Function
+`_aligned_offset_realloc` | 193 | Exported Function
+`_aligned_offset_malloc` | 192 | Exported Function
+`_aligned_malloc` | 191 | Exported Function
+`_adj_fptan` | 187 | Exported Function
+`_adj_fdivr_m64` | 183 | Exported Function
+`_adj_fdivr_m32i` | 182 | Exported Function
+`_adj_fdivr_m32` | 181 | Exported Function
+`_adj_fprem1` | 186 | Exported Function
+`_adj_fprem` | 185 | Exported Function
+`_adj_fpatan` | 184 | Exported Function
+`_c_exit` | 203 | Exported Function
+`_beginthreadex` | 202 | Exported Function
+`_beginthread` | 201 | Exported Function
+`_cexit` | 206 | Exported Function
+`_callnewh` | 205 | Exported Function
+`_cabs` | 204 | Exported Function
+`_beep` | 200 | Exported Function
+`_assert` | 196 | Exported Function
+`_amsg_exit` | 195 | Exported Function
+`_aligned_realloc` | 194 | Exported Function
+`_atoldbl` | 199 | Exported Function
+`_atoi64` | 198 | Exported Function
+`_atodbl` | 197 | Exported Function
+`_execvp` | 249 | Exported Function
+`_execve` | 248 | Exported Function
+`_execv` | 247 | Exported Function
+`_expand` | 252 | Exported Function
+`_exit` | 251 | Exported Function
+`_execvpe` | 250 | Exported Function
+`_execlpe` | 246 | Exported Function
+`_except_handler3` | 242 | Exported Function
+`_except_handler2` | 241 | Exported Function
+`_errno` | 240 | Exported Function
+`_execlp` | 245 | Exported Function
+`_execle` | 244 | Exported Function
+`_execl` | 243 | Exported Function
+`_fileno` | 262 | Exported Function
+`_filelengthi64` | 261 | Exported Function
+`_filelength` | 260 | Exported Function
+`_findfirst64` | 265 | Exported Function
+`_findfirst` | 264 | Exported Function
+`_findclose` | 263 | Exported Function
+`_fileinfo` | 259 | Exported Function
+`_fdopen` | 255 | Exported Function
+`_fcvt` | 254 | Exported Function
+`_fcloseall` | 253 | Exported Function
+`_filbuf` | 258 | Exported Function
+`_fgetwchar` | 257 | Exported Function
+`_fgetchar` | 256 | Exported Function
+`_CRT_RTC_INIT` | 69 | Exported Function
+`_creat` | 225 | Exported Function
+`_cputws` | 224 | Exported Function
+`_cwait` | 228 | Exported Function
+`_ctime64` | 227 | Exported Function
+`_cscanf` | 226 | Exported Function
+`_cputs` | 223 | Exported Function
+`_control87` | 219 | Exported Function
+`_commode` | 218 | Exported Function
+`_commit` | 217 | Exported Function
+`_cprintf` | 222 | Exported Function
+`_copysign` | 221 | Exported Function
+`_controlfp` | 220 | Exported Function
+`_endthread` | 236 | Exported Function
+`_EH_prolog` | 71 | Exported Function
+`_ecvt` | 235 | Exported Function
+`_eof` | 239 | Exported Function
+`_environ` | 238 | Exported Function
+`_endthreadex` | 237 | Exported Function
+`_dup2` | 234 | Exported Function
+`_CxxThrowException` | 70 | Exported Function
+`_cwscanf` | 230 | Exported Function
+`_cwprintf` | 229 | Exported Function
+`_dup` | 233 | Exported Function
+`_dstbias` | 232 | Exported Function
+`_daylight` | 231 | Exported Function
+`_adj_fdivr_m16i` | 180 | Exported Function
+`__iscsym` | 116 | Exported Function
+`__isascii` | 115 | Exported Function
+`__iob_func` | 114 | Exported Function
+`__lc_codepage` | 119 | Exported Function
+`__lc_clike` | 118 | Exported Function
+`__iscsymf` | 117 | Exported Function
+`__initenv` | 113 | Exported Function
+`__dllonexit` | 109 | Exported Function
+`__DestructExceptionObject` | 88 | Exported Function
+`__CxxUnregisterExceptionObject` | 87 | Exported Function
+`__getmainargs` | 112 | Exported Function
+`__fpecode` | 111 | Exported Function
+`__doserrno` | 110 | Exported Function
+`__p___winitenv` | 129 | Exported Function
+`__p___wargv` | 128 | Exported Function
+`__p___mb_cur_max` | 127 | Exported Function
+`__p__commode` | 132 | Exported Function
+`__p__amblksiz` | 131 | Exported Function
+`__p__acmdln` | 130 | Exported Function
+`__p___initenv` | 126 | Exported Function
+`__lconv_init` | 122 | Exported Function
+`__lc_handle` | 121 | Exported Function
+`__lc_collate_cp` | 120 | Exported Function
+`__p___argv` | 125 | Exported Function
+`__p___argc` | 124 | Exported Function
+`__mb_cur_max` | 123 | Exported Function
+`__badioinfo` | 101 | Exported Function
+`__argv` | 100 | Exported Function
+`__argc` | 99 | Exported Function
+`__crtCompareStringA` | 103 | Exported Function
+`__CppXcptFilter` | 78 | Exported Function
+`__buffer_overrun` | 102 | Exported Function
+`___unguarded_readlc_active_add_func` | 98 | Exported Function
+`___lc_collate_cp_func` | 94 | Exported Function
+`___lc_codepage_func` | 93 | Exported Function
+`$I10_OUTPUT` | 52 | Exported Function
+`___setlc_active_func` | 97 | Exported Function
+`___mb_cur_max_func` | 96 | Exported Function
+`___lc_handle_func` | 95 | Exported Function
+`__CxxFrameHandler` | 83 | Exported Function
+`__CxxExceptionFilter` | 82 | Exported Function
+`__CxxDetectRethrow` | 81 | Exported Function
+`__CxxRegisterExceptionObject` | 86 | Exported Function
+`__CxxQueryExceptionSize` | 85 | Exported Function
+`__CxxLongjmpUnwind` | 84 | Exported Function
+`__CxxCallUnwindVecDtor` | 80 | Exported Function
+`__crtGetStringTypeW` | 106 | Exported Function
+`__crtGetLocaleInfoW` | 105 | Exported Function
+`__crtCompareStringW` | 104 | Exported Function
+`__CxxCallUnwindDtor` | 79 | Exported Function
+`__crtLCMapStringW` | 108 | Exported Function
+`__crtLCMapStringA` | 107 | Exported Function
+`__toascii` | 164 | Exported Function
+`__threadid` | 163 | Exported Function
+`__threadhandle` | 162 | Exported Function
+`__unDNameEx` | 166 | Exported Function
+`__unDName` | 165 | Exported Function
+`__uncaught_exception` | 33 | Exported Function
+`__STRINGTOLD` | 92 | Exported Function
+`__set_app_type` | 158 | Exported Function
+`__security_error_handler` | 157 | Exported Function
+`__RTtypeid` | 91 | Exported Function
+`__setusermatherr` | 161 | Exported Function
+`__setlc_active` | 160 | Exported Function
+`__set_buffer_overrun_handler` | 159 | Exported Function
+`_adj_fdiv_m32` | 176 | Exported Function
+`_adj_fdiv_m16i` | 175 | Exported Function
+`_acmdln` | 174 | Exported Function
+`_adj_fdiv_r` | 179 | Exported Function
+`_adj_fdiv_m64` | 178 | Exported Function
+`_adj_fdiv_m32i` | 177 | Exported Function
+`_access` | 173 | Exported Function
+`__wcserror` | 169 | Exported Function
+`__wargv` | 168 | Exported Function
+`__unguarded_readlc_active` | 167 | Exported Function
+`_abnormal_termination` | 172 | Exported Function
+`__winitenv` | 171 | Exported Function
+`__wgetmainargs` | 170 | Exported Function
+`__p__pctype` | 142 | Exported Function
+`__p__osver` | 141 | Exported Function
+`__p__mbctype` | 140 | Exported Function
+`__p__timezone` | 145 | Exported Function
+`__p__pwctype` | 144 | Exported Function
+`__p__pgmptr` | 143 | Exported Function
+`__p__mbcasemap` | 139 | Exported Function
+`__p__environ` | 135 | Exported Function
+`__p__dstbias` | 134 | Exported Function
+`__p__daylight` | 133 | Exported Function
+`__p__iob` | 138 | Exported Function
+`__p__fmode` | 137 | Exported Function
+`__p__fileinfo` | 136 | Exported Function
+`__pwctype_func` | 155 | Exported Function
+`__pioinfo` | 154 | Exported Function
+`__pctype_func` | 153 | Exported Function
+`__RTDynamicCast` | 90 | Exported Function
+`__RTCastToVoid` | 89 | Exported Function
+`__pxcptinfoptrs` | 156 | Exported Function
+`__p__wpgmptr` | 152 | Exported Function
+`__p__wenviron` | 148 | Exported Function
+`__p__wcmdln` | 147 | Exported Function
+`__p__tzname` | 146 | Exported Function
+`__p__winver` | 151 | Exported Function
+`__p__winminor` | 150 | Exported Function
+`__p__winmajor` | 149 | Exported Function
+`_mbsicoll` | 402 | Exported Function
+`_mbsicmp` | 401 | Exported Function
+`_mbsdup` | 400 | Exported Function
+`_mbslwr` | 405 | Exported Function
+`_mbslen` | 404 | Exported Function
+`_mbsinc` | 403 | Exported Function
+`_mbsdec` | 399 | Exported Function
+`_mbscmp` | 395 | Exported Function
+`_mbschr` | 394 | Exported Function
+`_mbscat` | 393 | Exported Function
+`_mbscspn` | 398 | Exported Function
+`_mbscpy` | 397 | Exported Function
+`_mbscoll` | 396 | Exported Function
+`_mbsnccnt` | 415 | Exported Function
+`_mbsncat` | 414 | Exported Function
+`_mbsnbset` | 413 | Exported Function
+`_mbsncpy` | 418 | Exported Function
+`_mbsncoll` | 417 | Exported Function
+`_mbsncmp` | 416 | Exported Function
+`_mbsnbicoll` | 412 | Exported Function
+`_mbsnbcnt` | 408 | Exported Function
+`_mbsnbcmp` | 407 | Exported Function
+`_mbsnbcat` | 406 | Exported Function
+`_mbsnbicmp` | 411 | Exported Function
+`_mbsnbcpy` | 410 | Exported Function
+`_mbsnbcoll` | 409 | Exported Function
+`_ltoa` | 376 | Exported Function
+`_lseeki64` | 375 | Exported Function
+`_lseek` | 374 | Exported Function
+`_mbbtombc` | 379 | Exported Function
+`_makepath` | 378 | Exported Function
+`_ltow` | 377 | Exported Function
+`_lsearch` | 373 | Exported Function
+`_logb` | 369 | Exported Function
+`_locking` | 368 | Exported Function
+`_lock` | 367 | Exported Function
+`_lrotr` | 372 | Exported Function
+`_lrotl` | 371 | Exported Function
+`_longjmpex` | 370 | Exported Function
+`_mbctombb` | 389 | Exported Function
+`_mbctolower` | 388 | Exported Function
+`_mbctokata` | 387 | Exported Function
+`_mbsbtype` | 392 | Exported Function
+`_mbctype` | 391 | Exported Function
+`_mbctoupper` | 390 | Exported Function
+`_mbctohira` | 386 | Exported Function
+`_mbccpy` | 382 | Exported Function
+`_mbcasemap` | 381 | Exported Function
+`_mbbtype` | 380 | Exported Function
+`_mbclen` | 385 | Exported Function
+`_mbcjmstojis` | 384 | Exported Function
+`_mbcjistojms` | 383 | Exported Function
+`_purecall` | 454 | Exported Function
+`_popen` | 453 | Exported Function
+`_pipe` | 452 | Exported Function
+`_putw` | 457 | Exported Function
+`_putenv` | 456 | Exported Function
+`_putch` | 455 | Exported Function
+`_pgmptr` | 451 | Exported Function
+`_outpd` | 447 | Exported Function
+`_outp` | 446 | Exported Function
+`_osver` | 445 | Exported Function
+`_pctype` | 450 | Exported Function
+`_pclose` | 449 | Exported Function
+`_outpw` | 448 | Exported Function
+`_safe_fdiv` | 467 | Exported Function
+`_rotr` | 466 | Exported Function
+`_rotl` | 465 | Exported Function
+`_safe_fprem1` | 470 | Exported Function
+`_safe_fprem` | 469 | Exported Function
+`_safe_fdivr` | 468 | Exported Function
+`_rmtmp` | 464 | Exported Function
+`_pwctype` | 460 | Exported Function
+`_putws` | 459 | Exported Function
+`_putwch` | 458 | Exported Function
+`_rmdir` | 463 | Exported Function
+`_resetstkoflw` | 462 | Exported Function
+`_read` | 461 | Exported Function
+`_mbsspn` | 428 | Exported Function
+`_mbsset` | 427 | Exported Function
+`_mbsrev` | 426 | Exported Function
+`_mbstok` | 431 | Exported Function
+`_mbsstr` | 430 | Exported Function
+`_mbsspnp` | 429 | Exported Function
+`_mbsrchr` | 425 | Exported Function
+`_mbsnicoll` | 421 | Exported Function
+`_mbsnicmp` | 420 | Exported Function
+`_mbsnextc` | 419 | Exported Function
+`_mbspbrk` | 424 | Exported Function
+`_mbsnset` | 423 | Exported Function
+`_mbsninc` | 422 | Exported Function
+`_onexit` | 441 | Exported Function
+`_nextafter` | 440 | Exported Function
+`_msize` | 439 | Exported Function
+`_osplatform` | 444 | Exported Function
+`_open_osfhandle` | 443 | Exported Function
+`_open` | 442 | Exported Function
+`_mktime64` | 438 | Exported Function
+`_memccpy` | 434 | Exported Function
+`_mbsupr` | 433 | Exported Function
+`_mbstrlen` | 432 | Exported Function
+`_mktemp` | 437 | Exported Function
+`_mkdir` | 436 | Exported Function
+`_memicmp` | 435 | Exported Function
+`_localtime64` | 366 | Exported Function
+`_getdrives` | 300 | Exported Function
+`_getdrive` | 299 | Exported Function
+`_getdllprocaddr` | 298 | Exported Function
+`_Getmonths` | 73 | Exported Function
+`_getmbcp` | 302 | Exported Function
+`_getmaxstdio` | 301 | Exported Function
+`_getdiskfree` | 297 | Exported Function
+`_getche` | 294 | Exported Function
+`_getch` | 293 | Exported Function
+`_get_sbh_threshold` | 292 | Exported Function
+`_getdcwd` | 296 | Exported Function
+`_Getdays` | 72 | Exported Function
+`_getcwd` | 295 | Exported Function
+`_heapadd` | 311 | Exported Function
+`_gmtime64` | 310 | Exported Function
+`_global_unwind2` | 309 | Exported Function
+`_heapset` | 314 | Exported Function
+`_heapmin` | 313 | Exported Function
+`_heapchk` | 312 | Exported Function
+`_getws` | 308 | Exported Function
+`_Gettnames` | 74 | Exported Function
+`_getsystime` | 304 | Exported Function
+`_getpid` | 303 | Exported Function
+`_getwche` | 307 | Exported Function
+`_getwch` | 306 | Exported Function
+`_getw` | 305 | Exported Function
+`_fpieee_flt` | 275 | Exported Function
+`_fpclass` | 274 | Exported Function
+`_fmode` | 273 | Exported Function
+`_fputwchar` | 278 | Exported Function
+`_fputchar` | 277 | Exported Function
+`_fpreset` | 276 | Exported Function
+`_flushall` | 272 | Exported Function
+`_findnext64` | 268 | Exported Function
+`_findnext` | 267 | Exported Function
+`_findfirsti64` | 266 | Exported Function
+`_flsbuf` | 271 | Exported Function
+`_finite` | 270 | Exported Function
+`_findnexti64` | 269 | Exported Function
+`_futime64` | 288 | Exported Function
+`_futime` | 287 | Exported Function
+`_fullpath` | 286 | Exported Function
+`_get_osfhandle` | 291 | Exported Function
+`_get_heap_handle` | 290 | Exported Function
+`_gcvt` | 289 | Exported Function
+`_ftol` | 285 | Exported Function
+`_fstat64` | 281 | Exported Function
+`_fstat` | 280 | Exported Function
+`_fsopen` | 279 | Exported Function
+`_ftime64` | 284 | Exported Function
+`_ftime` | 283 | Exported Function
+`_fstati64` | 282 | Exported Function
+`_ismbcprint` | 349 | Exported Function
+`_ismbclower` | 348 | Exported Function
+`_ismbclegal` | 347 | Exported Function
+`_ismbcsymbol` | 352 | Exported Function
+`_ismbcspace` | 351 | Exported Function
+`_ismbcpunct` | 350 | Exported Function
+`_ismbcl2` | 346 | Exported Function
+`_ismbchira` | 342 | Exported Function
+`_ismbcgraph` | 341 | Exported Function
+`_ismbcdigit` | 340 | Exported Function
+`_ismbcl1` | 345 | Exported Function
+`_ismbcl0` | 344 | Exported Function
+`_ismbckata` | 343 | Exported Function
+`_kbhit` | 362 | Exported Function
+`_jn` | 361 | Exported Function
+`_j1` | 360 | Exported Function
+`_local_unwind2` | 365 | Exported Function
+`_loaddll` | 364 | Exported Function
+`_lfind` | 363 | Exported Function
+`_j0` | 359 | Exported Function
+`_ismbstrail` | 355 | Exported Function
+`_ismbslead` | 354 | Exported Function
+`_ismbcupper` | 353 | Exported Function
+`_itow` | 358 | Exported Function
+`_itoa` | 357 | Exported Function
+`_isnan` | 356 | Exported Function
+`_inpw` | 323 | Exported Function
+`_inpd` | 322 | Exported Function
+`_inp` | 321 | Exported Function
+`_isctype` | 326 | Exported Function
+`_isatty` | 325 | Exported Function
+`_iob` | 324 | Exported Function
+`_initterm` | 320 | Exported Function
+`_HUGE` | 75 | Exported Function
+`_heapwalk` | 316 | Exported Function
+`_heapused` | 315 | Exported Function
+`_i64tow` | 319 | Exported Function
+`_i64toa` | 318 | Exported Function
+`_hypot` | 317 | Exported Function
+`_ismbbpunct` | 336 | Exported Function
+`_ismbbprint` | 335 | Exported Function
+`_ismbblead` | 334 | Exported Function
+`_ismbcalpha` | 339 | Exported Function
+`_ismbcalnum` | 338 | Exported Function
+`_ismbbtrail` | 337 | Exported Function
+`_ismbbkpunct` | 333 | Exported Function
+`_ismbbgraph` | 329 | Exported Function
+`_ismbbalpha` | 328 | Exported Function
+`_ismbbalnum` | 327 | Exported Function
+`_ismbbkprint` | 332 | Exported Function
+`_ismbbkana` | 331 | Exported Function
+`_ismbbkalnum` | 330 | Exported Function
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000000CA6CD5321235C4E1550001000000CA`
+* Thumbprint: `67B1757863E3EFF760EA9EBB02849AF07D3A8080`
+* Issuer: CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: MSVCR71.DLL
+* Product Name: Microsoft Visual Studio .NET
+* Company Name: Microsoft Corporation
+* File Version: 7.10.3078.0
+* Product Version: 7.10.3078.0
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation.  All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/76256f8d624a1db8c6ba8b91ea1c21cad1c0518d5da44bbd5b93e679d0827c5a/detection/
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

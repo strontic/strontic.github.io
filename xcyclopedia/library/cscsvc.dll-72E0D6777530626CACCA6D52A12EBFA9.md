@@ -24,10 +24,10 @@ PE256 | `049B69F7722A8DB59A622CAEA805699250C00E09725A72A28BEF3831EC3774CB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CscServiceMain` | 1 (0x1) | Exported Function | 0x0000000180028340 | 0x00028340
-`CscTestGetInterface` | 2 (0x2) | Exported Function | 0x000000018004e870 | 0x0004e870
+Function Name | Ordinal | Type
+-- | -- | --
+`CscTestGetInterface` | 2 | Exported Function
+`CscServiceMain` | 1 | Exported Function
 
 
 ## Signature

@@ -23,9 +23,9 @@ PE256 | `93DA9DAC3ECA568D1DF8B6993808253985E8AE53AC38E850C12AB2AF491BA79A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializeHeatFramework` | 1 (0x1) | Exported Function | 0x10012c90 | 0x00012c90
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializeHeatFramework` | 1 | Exported Function
 
 
 ## Signature

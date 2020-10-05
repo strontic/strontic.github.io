@@ -24,933 +24,387 @@ PE256 | `D32D575120BC103B81A45D7B5D980747F1907A202EA59DD1F6E75B40D48FD395`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AssocCreate` | 500 (0x1f4) | Exported Function | 0x63193850 | 0x00013850
-`PathCommonPrefixW` | 655 (0x28f) | Exported Function | 0x63195070 | 0x00015070
-`PathCompactPathA` | 656 (0x290) | Exported Function | 0x6319d8a0 | 0x0001d8a0
-`PathCompactPathExA` | 657 (0x291) | Exported Function | 0x6319dbd0 | 0x0001dbd0
-`PathCompactPathExW` | 658 (0x292) | Exported Function | 0x63191d00 | 0x00011d00
-`PathCompactPathW` | 659 (0x293) | Exported Function | 0x631a1280 | 0x00021280
-`PathCreateFromUrlA` | 660 (0x294) | Exported Function | 0x6319a180 | 0x0001a180
-`PathCreateFromUrlAlloc` | 661 (0x295) | Exported Function | 0x6319a1a0 | 0x0001a1a0
-`PathCreateFromUrlW` | 662 (0x296) | Exported Function | 0x63194f10 | 0x00014f10
-`PathFileExistsA` | 663 (0x297) | Exported Function | 0x6319a1c0 | 0x0001a1c0
-`PathFileExistsAndAttributesW` | 446 (0x1be) | Exported Function | 0x631923d0 | 0x000123d0
-`PathFileExistsW` | 664 (0x298) | Exported Function | 0x63195ec0 | 0x00015ec0
-`PathCommonPrefixA` | 654 (0x28e) | Exported Function | 0x6319a160 | 0x0001a160
-`PathFindExtensionA` | 665 (0x299) | Exported Function | 0x6319a1e0 | 0x0001a1e0
-`PathFindFileNameA` | 667 (0x29b) | Exported Function | 0x63195280 | 0x00015280
-`PathFindFileNameW` | 668 (0x29c) | Exported Function | 0x63194e50 | 0x00014e50
-`PathFindNextComponentA` | 669 (0x29d) | Exported Function | 0x6319a200 | 0x0001a200
-`PathFindNextComponentW` | 670 (0x29e) | Exported Function | 0x6319a220 | 0x0001a220
-`PathFindOnPathA` | 671 (0x29f) | Exported Function | 0x6319df20 | 0x0001df20
-`PathFindOnPathW` | 672 (0x2a0) | Exported Function | 0x63191ce0 | 0x00011ce0
-`PathFindSuffixArrayA` | 673 (0x2a1) | Exported Function | 0x6319e1c0 | 0x0001e1c0
-`PathFindSuffixArrayW` | 674 (0x2a2) | Exported Function | 0x63195000 | 0x00015000
-`PathGetArgsA` | 675 (0x2a3) | Exported Function | 0x6319a240 | 0x0001a240
-`PathGetArgsW` | 676 (0x2a4) | Exported Function | 0x631954f0 | 0x000154f0
-`PathGetCharTypeA` | 677 (0x2a5) | Exported Function | 0x6319a260 | 0x0001a260
-`PathFindExtensionW` | 666 (0x29a) | Exported Function | 0x63194d60 | 0x00014d60
-`PathCombineW` | 653 (0x28d) | Exported Function | 0x63197330 | 0x00017330
-`PathCombineA` | 652 (0x28c) | Exported Function | 0x6319a140 | 0x0001a140
-`PathCanonicalizeW` | 651 (0x28b) | Exported Function | 0x6319a120 | 0x0001a120
-`Ordinal86` | 86 (0x56) | Exported Function | KERNEL32.GetProfileStringW | 0x00037a7c
-`Ordinal87` | 87 (0x57) | Exported Function | USER32.GetPropW | 0x00037a97
-`Ordinal88` | 88 (0x58) | Exported Function | KERNEL32.GetStringTypeExW | 0x00037adc
-`Ordinal89` | 89 (0x59) | Exported Function | KERNEL32.GetTempFileNameW | 0x00037b13
-`Ordinal90` | 90 (0x5a) | Exported Function | KERNEL32.GetTempPathW | 0x00037b2d
-`Ordinal91` | 91 (0x5b) | Exported Function | GDI32.GetTextExtentPoint32W | 0x00037b43
-`Ordinal92` | 92 (0x5c) | Exported Function | GDI32.GetTextFaceW | 0x00037b5f
-`Ordinal93` | 93 (0x5d) | Exported Function | GDI32.GetTextMetricsW | 0x00037b72
-`Ordinal94` | 94 (0x5e) | Exported Function | USER32.GetWindowLongW | 0x00037ba0
-`Ordinal95` | 95 (0x5f) | Exported Function | USER32.GetWindowTextW | 0x00037bd2
-`Ordinal96` | 96 (0x60) | Exported Function | USER32.GetWindowTextLengthW | 0x00037bb6
-`Ordinal97` | 97 (0x61) | Exported Function | KERNEL32.GetWindowsDirectoryW | 0x00037be8
-`Ordinal98` | 98 (0x62) | Exported Function | USER32.InsertMenuW | 0x00037dac
-`Ordinal99` | 99 (0x63) | Exported Function | USER32.IsDialogMessageW | 0x00037e77
-`ParseURLA` | 1 (0x1) | Exported Function | 0x6319a060 | 0x0001a060
-`ParseURLW` | 2 (0x2) | Exported Function | 0x6319a080 | 0x0001a080
-`PathAddBackslashA` | 610 (0x262) | Exported Function | 0x63195cc0 | 0x00015cc0
-`PathAddBackslashW` | 612 (0x264) | Exported Function | 0x63195480 | 0x00015480
-`PathAddExtensionA` | 620 (0x26c) | Exported Function | 0x6319a0a0 | 0x0001a0a0
-`PathAddExtensionW` | 622 (0x26e) | Exported Function | 0x6319a0c0 | 0x0001a0c0
-`PathAppendA` | 623 (0x26f) | Exported Function | 0x6319a0e0 | 0x0001a0e0
-`PathAppendW` | 624 (0x270) | Exported Function | 0x63195ea0 | 0x00015ea0
-`PathBuildRootA` | 625 (0x271) | Exported Function | 0x6319cc90 | 0x0001cc90
-`PathBuildRootW` | 649 (0x289) | Exported Function | 0x6319ccb0 | 0x0001ccb0
-`PathCanonicalizeA` | 650 (0x28a) | Exported Function | 0x6319a100 | 0x0001a100
-`PathGetCharTypeW` | 678 (0x2a6) | Exported Function | 0x631956e0 | 0x000156e0
-`PathGetDriveNumberA` | 679 (0x2a7) | Exported Function | 0x6319a280 | 0x0001a280
-`PathGetDriveNumberW` | 680 (0x2a8) | Exported Function | 0x631972f0 | 0x000172f0
-`PathIsContentTypeA` | 681 (0x2a9) | Exported Function | 0x6319e270 | 0x0001e270
-`PathMakePrettyA` | 711 (0x2c7) | Exported Function | 0x6319e580 | 0x0001e580
-`PathMakePrettyW` | 712 (0x2c8) | Exported Function | 0x63195700 | 0x00015700
-`PathMakeSystemFolderA` | 713 (0x2c9) | Exported Function | 0x6319e5f0 | 0x0001e5f0
-`PathMakeSystemFolderW` | 714 (0x2ca) | Exported Function | 0x631a1830 | 0x00021830
-`PathMatchSpecA` | 715 (0x2cb) | Exported Function | 0x6319a4c0 | 0x0001a4c0
-`PathMatchSpecExA` | 716 (0x2cc) | Exported Function | 0x6319a4e0 | 0x0001a4e0
-`PathMatchSpecExW` | 717 (0x2cd) | Exported Function | 0x6319a500 | 0x0001a500
-`PathMatchSpecW` | 718 (0x2ce) | Exported Function | 0x6319a520 | 0x0001a520
-`PathParseIconLocationA` | 719 (0x2cf) | Exported Function | 0x6319a540 | 0x0001a540
-`PathParseIconLocationW` | 720 (0x2d0) | Exported Function | 0x63195160 | 0x00015160
-`PathQuoteSpacesA` | 721 (0x2d1) | Exported Function | 0x6319a560 | 0x0001a560
-`PathQuoteSpacesW` | 722 (0x2d2) | Exported Function | 0x6319a580 | 0x0001a580
-`PathRelativePathToA` | 723 (0x2d3) | Exported Function | 0x6319a5a0 | 0x0001a5a0
-`PathRelativePathToW` | 724 (0x2d4) | Exported Function | 0x6319a5c0 | 0x0001a5c0
-`PathRemoveArgsA` | 725 (0x2d5) | Exported Function | 0x6319e710 | 0x0001e710
-`PathRemoveArgsW` | 726 (0x2d6) | Exported Function | 0x63195440 | 0x00015440
-`PathRemoveBackslashA` | 727 (0x2d7) | Exported Function | 0x6319a5e0 | 0x0001a5e0
-`PathRemoveBackslashW` | 728 (0x2d8) | Exported Function | 0x63195220 | 0x00015220
-`PathRemoveBlanksA` | 729 (0x2d9) | Exported Function | 0x6319a600 | 0x0001a600
-`PathRemoveBlanksW` | 730 (0x2da) | Exported Function | 0x631954e0 | 0x000154e0
-`PathRemoveExtensionA` | 731 (0x2db) | Exported Function | 0x6319a610 | 0x0001a610
-`PathRemoveExtensionW` | 732 (0x2dc) | Exported Function | 0x63195430 | 0x00015430
-`PathRemoveFileSpecA` | 733 (0x2dd) | Exported Function | 0x6319a620 | 0x0001a620
-`PathRemoveFileSpecW` | 734 (0x2de) | Exported Function | 0x63194f70 | 0x00014f70
-`PathRenameExtensionA` | 735 (0x2df) | Exported Function | 0x6319a640 | 0x0001a640
-`PathIsURLW` | 710 (0x2c6) | Exported Function | 0x63194e70 | 0x00014e70
-`Ordinal85` | 85 (0x55) | Exported Function | KERNEL32.GetPrivateProfileIntW | 0x00037a19
-`PathIsURLA` | 709 (0x2c5) | Exported Function | 0x6319a460 | 0x0001a460
-`PathIsUNCServerW` | 707 (0x2c3) | Exported Function | 0x6319a440 | 0x0001a440
-`PathIsContentTypeW` | 682 (0x2aa) | Exported Function | 0x631a15e0 | 0x000215e0
-`PathIsDirectoryA` | 683 (0x2ab) | Exported Function | 0x6319e300 | 0x0001e300
-`PathIsDirectoryEmptyA` | 684 (0x2ac) | Exported Function | 0x6319e3e0 | 0x0001e3e0
-`PathIsDirectoryEmptyW` | 685 (0x2ad) | Exported Function | 0x631a1670 | 0x00021670
-`PathIsDirectoryW` | 686 (0x2ae) | Exported Function | 0x63194f90 | 0x00014f90
-`PathIsFileSpecA` | 687 (0x2af) | Exported Function | 0x6319a2a0 | 0x0001a2a0
-`PathIsFileSpecW` | 688 (0x2b0) | Exported Function | 0x6319a2c0 | 0x0001a2c0
-`PathIsLFNFileSpecA` | 689 (0x2b1) | Exported Function | 0x6319a2e0 | 0x0001a2e0
-`PathIsLFNFileSpecW` | 690 (0x2b2) | Exported Function | 0x6319a300 | 0x0001a300
-`PathIsNetworkPathA` | 691 (0x2b3) | Exported Function | 0x6319ccd0 | 0x0001ccd0
-`PathIsNetworkPathW` | 692 (0x2b4) | Exported Function | 0x631954c0 | 0x000154c0
-`PathIsPrefixA` | 693 (0x2b5) | Exported Function | 0x6319a320 | 0x0001a320
-`PathIsPrefixW` | 694 (0x2b6) | Exported Function | 0x631953c0 | 0x000153c0
-`PathIsRelativeA` | 695 (0x2b7) | Exported Function | 0x6319a340 | 0x0001a340
-`PathIsRelativeW` | 696 (0x2b8) | Exported Function | 0x631954a0 | 0x000154a0
-`PathIsRootA` | 697 (0x2b9) | Exported Function | 0x6319a360 | 0x0001a360
-`PathIsRootW` | 698 (0x2ba) | Exported Function | 0x63196040 | 0x00016040
-`PathIsSameRootA` | 699 (0x2bb) | Exported Function | 0x6319a380 | 0x0001a380
-`PathIsSameRootW` | 700 (0x2bc) | Exported Function | 0x6319a3a0 | 0x0001a3a0
-`PathIsSystemFolderA` | 701 (0x2bd) | Exported Function | 0x6319e490 | 0x0001e490
-`PathIsSystemFolderW` | 702 (0x2be) | Exported Function | 0x631a1730 | 0x00021730
-`PathIsUNCA` | 703 (0x2bf) | Exported Function | 0x6319a3c0 | 0x0001a3c0
-`PathIsUNCServerA` | 704 (0x2c0) | Exported Function | 0x6319a3e0 | 0x0001a3e0
-`PathIsUNCServerShareA` | 705 (0x2c1) | Exported Function | 0x6319a400 | 0x0001a400
-`PathIsUNCServerShareW` | 706 (0x2c2) | Exported Function | 0x6319a420 | 0x0001a420
-`PathIsUNCW` | 708 (0x2c4) | Exported Function | 0x631952d0 | 0x000152d0
-`Ordinal84` | 84 (0x54) | Exported Function | GDI32.GetObjectW | 0x000379ee
-`Ordinal83` | 83 (0x53) | Exported Function | KERNEL32.GetModuleHandleW | 0x000379ba
-`Ordinal82` | 82 (0x52) | Exported Function | KERNEL32.SearchPathW | 0x000399f0
-`Ordinal560` | 560 (0x230) | Exported Function | SHCORE.#191 | 0x000399e4
-`Ordinal561` | 561 (0x231) | Exported Function | 0x631a0120 | 0x00020120
-`Ordinal562` | 562 (0x232) | Exported Function | 0x6319a050 | 0x0001a050
-`Ordinal563` | 563 (0x233) | Exported Function | SHUNIMPL.#167 | 0x00038c10
-`Ordinal564` | 564 (0x234) | Exported Function | SHUNIMPL.#182 | 0x00038ba0
-`Ordinal565` | 565 (0x235) | Exported Function | SHUNIMPL.#183 | 0x00038b92
-`Ordinal566` | 566 (0x236) | Exported Function | SHUNIMPL.#180 | 0x00038c64
-`Ordinal57` | 57 (0x39) | Exported Function | KERNEL32.DeleteFileW | 0x00037547
-`Ordinal571` | 571 (0x23b) | Exported Function | 0x631a5a00 | 0x00025a00
-`Ordinal572` | 572 (0x23c) | Exported Function | 0x63191620 | 0x00011620
-`Ordinal573` | 573 (0x23d) | Exported Function | SHUNIMPL.#349 | 0x000389e0
-`Ordinal574` | 574 (0x23e) | Exported Function | SHUNIMPL.#350 | 0x00038a26
-`Ordinal575` | 575 (0x23f) | Exported Function | 0x631a5210 | 0x00025210
-`Ordinal576` | 576 (0x240) | Exported Function | SHCORE.#127 | 0x00038902
-`Ordinal577` | 577 (0x241) | Exported Function | 0x631aa5c0 | 0x0002a5c0
-`Ordinal578` | 578 (0x242) | Exported Function | 0x631aa7a0 | 0x0002a7a0
-`Ordinal58` | 58 (0x3a) | Exported Function | USER32.DialogBoxIndirectParamW | 0x00037581
-`Ordinal580` | 580 (0x244) | Exported Function | 0x631a7570 | 0x00027570
-`Ordinal581` | 581 (0x245) | Exported Function | 0x63194420 | 0x00014420
-`Ordinal582` | 582 (0x246) | Exported Function | 0x631a7970 | 0x00027970
-`Ordinal583` | 583 (0x247) | Exported Function | 0x631a7780 | 0x00027780
-`Ordinal59` | 59 (0x3b) | Exported Function | USER32.DialogBoxParamW | 0x000375a0
-`Ordinal598` | 598 (0x256) | Exported Function | SHUNIMPL.#210 | 0x00038c9c
-`Ordinal599` | 599 (0x257) | Exported Function | SHCORE.#152 | 0x00039992
-`Ordinal6` | 6 (0x6) | Exported Function | 0x63191d60 | 0x00011d60
-`Ordinal56` | 56 (0x38) | Exported Function | USER32.DefWindowProcW | 0x0003751c
-`Ordinal60` | 60 (0x3c) | Exported Function | USER32.DispatchMessageW | 0x000375b7
-`Ordinal559` | 559 (0x22f) | Exported Function | SHUNIMPL.#443 | 0x00038c80
-`Ordinal557` | 557 (0x22d) | Exported Function | SHUNIMPL.#180 | 0x00038c72
-`Ordinal533` | 533 (0x215) | Exported Function | 0x631a9ba0 | 0x00029ba0
-`Ordinal534` | 534 (0x216) | Exported Function | 0x631aa3e0 | 0x0002a3e0
-`Ordinal535` | 535 (0x217) | Exported Function | 0x631aa3c0 | 0x0002a3c0
-`Ordinal536` | 536 (0x218) | Exported Function | 0x63196ec0 | 0x00016ec0
-`Ordinal537` | 537 (0x219) | Exported Function | 0x631a55a0 | 0x000255a0
-`Ordinal538` | 538 (0x21a) | Exported Function | 0x631a4f90 | 0x00024f90
-`Ordinal539` | 539 (0x21b) | Exported Function | 0x631a50c0 | 0x000250c0
-`Ordinal54` | 54 (0x36) | Exported Function | GDI32.CreateICW | 0x0003744c
-`Ordinal540` | 540 (0x21c) | Exported Function | 0x631a59a0 | 0x000259a0
-`Ordinal541` | 541 (0x21d) | Exported Function | 0x631a5ab0 | 0x00025ab0
-`Ordinal542` | 542 (0x21e) | Exported Function | 0x631a4be0 | 0x00024be0
-`Ordinal543` | 543 (0x21f) | Exported Function | GDI32.CreateColorSpaceW | 0x00037377
-`Ordinal544` | 544 (0x220) | Exported Function | 0x63193ce0 | 0x00013ce0
-`Ordinal545` | 545 (0x221) | Exported Function | 0x631a5710 | 0x00025710
-`Ordinal546` | 546 (0x222) | Exported Function | 0x631a4bf0 | 0x00024bf0
-`Ordinal547` | 547 (0x223) | Exported Function | SHUNIMPL.#173 | 0x00038946
-`Ordinal548` | 548 (0x224) | Exported Function | 0x63194130 | 0x00014130
-`Ordinal549` | 549 (0x225) | Exported Function | 0x631a9d30 | 0x00029d30
-`Ordinal55` | 55 (0x37) | Exported Function | USER32.CreateWindowExW | 0x000374ba
-`Ordinal550` | 550 (0x226) | Exported Function | SHUNIMPL.#174 | 0x0003899a
-`Ordinal551` | 551 (0x227) | Exported Function | SHUNIMPL.#175 | 0x000389c4
-`Ordinal552` | 552 (0x228) | Exported Function | SHUNIMPL.#176 | 0x00038bf4
-`Ordinal554` | 554 (0x22a) | Exported Function | SHUNIMPL.#177 | 0x00038c3a
-`Ordinal555` | 555 (0x22b) | Exported Function | SHUNIMPL.#178 | 0x00038c48
-`Ordinal556` | 556 (0x22c) | Exported Function | SHUNIMPL.#179 | 0x00038c56
-`Ordinal558` | 558 (0x22e) | Exported Function | SHUNIMPL.#181 | 0x00038bae
-`PathRenameExtensionW` | 736 (0x2e0) | Exported Function | 0x6319a660 | 0x0001a660
-`Ordinal600` | 600 (0x258) | Exported Function | SHCORE.#153 | 0x0003907c
-`Ordinal602` | 602 (0x25a) | Exported Function | SHUNIMPL.#351 | 0x00038a0a
-`Ordinal641` | 641 (0x281) | Exported Function | 0x631a9210 | 0x00029210
-`Ordinal642` | 642 (0x282) | Exported Function | SHUNIMPL.#442 | 0x00038c8e
-`Ordinal643` | 643 (0x283) | Exported Function | 0x631a1a60 | 0x00021a60
-`Ordinal644` | 644 (0x284) | Exported Function | SHCORE.#107 | 0x00037c7b
-`Ordinal645` | 645 (0x285) | Exported Function | SHCORE.#108 | 0x00037cd3
-`Ordinal646` | 646 (0x286) | Exported Function | SHCORE.#101 | 0x000394d5
-`Ordinal647` | 647 (0x287) | Exported Function | SHCORE.#100 | 0x000394e1
-`Ordinal648` | 648 (0x288) | Exported Function | SHCORE.#161 | 0x000399cc
-`Ordinal65` | 65 (0x41) | Exported Function | KERNEL32.FindFirstFileW | 0x000376ea
-`Ordinal66` | 66 (0x42) | Exported Function | KERNEL32.FindResourceW | 0x00037719
-`Ordinal67` | 67 (0x43) | Exported Function | USER32.FindWindowW | 0x00037745
-`Ordinal68` | 68 (0x44) | Exported Function | KERNEL32.FormatMessageW | 0x00037758
-`Ordinal69` | 69 (0x45) | Exported Function | USER32.GetClassInfoW | 0x000377fe
-`Ordinal70` | 70 (0x46) | Exported Function | USER32.GetClassLongW | 0x00037813
-`Ordinal71` | 71 (0x47) | Exported Function | USER32.GetClassNameW | 0x00037828
-`Ordinal72` | 72 (0x48) | Exported Function | USER32.GetClipboardFormatNameW | 0x0003783d
-`Ordinal73` | 73 (0x49) | Exported Function | KERNEL32.GetCurrentDirectoryW | 0x0003785c
-`Ordinal74` | 74 (0x4a) | Exported Function | USER32.GetDlgItemTextW | 0x00037892
-`Ordinal75` | 75 (0x4b) | Exported Function | KERNEL32.GetFileAttributesW | 0x000378ca
-`Ordinal76` | 76 (0x4c) | Exported Function | KERNEL32.GetFullPathNameW | 0x000378e6
-`Ordinal77` | 77 (0x4d) | Exported Function | KERNEL32.GetLocaleInfoW | 0x00037900
-`Ordinal78` | 78 (0x4e) | Exported Function | USER32.GetMenuStringW | 0x00037975
-`Ordinal79` | 79 (0x4f) | Exported Function | USER32.GetMessageW | 0x0003798b
-`Ordinal80` | 80 (0x50) | Exported Function | KERNEL32.GetModuleFileNameW | 0x0003799e
-`Ordinal81` | 81 (0x51) | Exported Function | KERNEL32.GetSystemDirectoryW | 0x00037af6
-`Ordinal640` | 640 (0x280) | Exported Function | 0x631a5af0 | 0x00025af0
-`Ordinal601` | 601 (0x259) | Exported Function | SHUNIMPL.#352 | 0x00038dde
-`Ordinal64` | 64 (0x40) | Exported Function | KERNEL32.EnumResourceNamesW | 0x0003766d
-`Ordinal638` | 638 (0x27e) | Exported Function | 0x631a5190 | 0x00025190
-`Ordinal603` | 603 (0x25b) | Exported Function | SHUNIMPL.#353 | 0x00038f12
-`Ordinal604` | 604 (0x25c) | Exported Function | SHUNIMPL.#354 | 0x00038f20
-`Ordinal605` | 605 (0x25d) | Exported Function | SHUNIMPL.#355 | 0x00038f04
-`Ordinal606` | 606 (0x25e) | Exported Function | SHUNIMPL.#356 | 0x00038f2e
-`Ordinal61` | 61 (0x3d) | Exported Function | USER32.DrawTextW | 0x00037619
-`Ordinal611` | 611 (0x263) | Exported Function | SHCORE.#141 | 0x00037d6b
-`Ordinal613` | 613 (0x265) | Exported Function | 0x631aa700 | 0x0002a700
-`Ordinal614` | 614 (0x266) | Exported Function | 0x631aa4e0 | 0x0002a4e0
-`Ordinal616` | 616 (0x268) | Exported Function | 0x631a9980 | 0x00029980
-`Ordinal617` | 617 (0x269) | Exported Function | 0x631915d0 | 0x000115d0
-`Ordinal618` | 618 (0x26a) | Exported Function | SHCORE.#190 | 0x000399d8
-`Ordinal619` | 619 (0x26b) | Exported Function | SHCORE.#192 | 0x00037de1
-`Ordinal62` | 62 (0x3e) | Exported Function | GDI32.EnumFontFamiliesW | 0x00037655
-`Ordinal621` | 621 (0x26d) | Exported Function | 0x631b1070 | 0x00031070
-`Ordinal626` | 626 (0x272) | Exported Function | 0x631aa170 | 0x0002a170
-`Ordinal627` | 627 (0x273) | Exported Function | SHCORE.#110 | 0x00039106
-`Ordinal628` | 628 (0x274) | Exported Function | SHCORE.#109 | 0x00039155
-`Ordinal63` | 63 (0x3f) | Exported Function | GDI32.EnumFontFamiliesExW | 0x0003763b
-`Ordinal631` | 631 (0x277) | Exported Function | 0x63198510 | 0x00018510
-`Ordinal632` | 632 (0x278) | Exported Function | SHCORE.#130 | 0x0003943a
-`Ordinal633` | 633 (0x279) | Exported Function | SHCORE.#131 | 0x00039446
-`Ordinal634` | 634 (0x27a) | Exported Function | SHCORE.#132 | 0x0003942e
-`Ordinal635` | 635 (0x27b) | Exported Function | 0x631929c0 | 0x000129c0
-`Ordinal636` | 636 (0x27c) | Exported Function | 0x631aa5e0 | 0x0002a5e0
-`Ordinal637` | 637 (0x27d) | Exported Function | 0x631aa7c0 | 0x0002a7c0
-`Ordinal639` | 639 (0x27f) | Exported Function | 0x631a59d0 | 0x000259d0
-`PathSearchAndQualifyA` | 737 (0x2e1) | Exported Function | 0x6319a680 | 0x0001a680
-`PathSearchAndQualifyW` | 738 (0x2e2) | Exported Function | 0x6319a6a0 | 0x0001a6a0
-`PathSetDlgItemPathA` | 739 (0x2e3) | Exported Function | 0x6319e740 | 0x0001e740
-`StrCmpNICW` | 154 (0x9a) | Exported Function | 0x631915b0 | 0x000115b0
-`StrCmpNIW` | 848 (0x350) | Exported Function | 0x6319ad00 | 0x0001ad00
-`StrCmpNW` | 849 (0x351) | Exported Function | 0x63193e60 | 0x00013e60
-`StrCmpW` | 850 (0x352) | Exported Function | 0x631930d0 | 0x000130d0
-`StrCpyNW` | 851 (0x353) | Exported Function | 0x6319ad20 | 0x0001ad20
-`StrCpyW` | 852 (0x354) | Exported Function | 0x631a2e60 | 0x00022e60
-`StrCSpnA` | 830 (0x33e) | Exported Function | 0x6319aaa0 | 0x0001aaa0
-`StrCSpnIA` | 831 (0x33f) | Exported Function | 0x6319aac0 | 0x0001aac0
-`StrCSpnIW` | 832 (0x340) | Exported Function | 0x6319aae0 | 0x0001aae0
-`StrCSpnW` | 833 (0x341) | Exported Function | 0x6319ab00 | 0x0001ab00
-`StrDupA` | 853 (0x355) | Exported Function | 0x6319ad80 | 0x0001ad80
-`StrDupW` | 854 (0x356) | Exported Function | 0x631949f0 | 0x000149f0
-`StrFormatByteSize64A` | 855 (0x357) | Exported Function | 0x631a2f20 | 0x00022f20
-`StrFormatByteSizeA` | 856 (0x358) | Exported Function | 0x631a2f70 | 0x00022f70
-`StrFormatByteSizeEx` | 857 (0x359) | Exported Function | 0x631a2f90 | 0x00022f90
-`StrFormatByteSizeW` | 858 (0x35a) | Exported Function | 0x631a2fc0 | 0x00022fc0
-`StrFormatKBSizeA` | 859 (0x35b) | Exported Function | 0x631a2fe0 | 0x00022fe0
-`StrFormatKBSizeW` | 860 (0x35c) | Exported Function | 0x631a3040 | 0x00023040
-`StrFromTimeIntervalA` | 861 (0x35d) | Exported Function | 0x631a34c0 | 0x000234c0
-`StrFromTimeIntervalW` | 862 (0x35e) | Exported Function | 0x631a3530 | 0x00023530
-`StrIsIntlEqualA` | 863 (0x35f) | Exported Function | 0x6319ada0 | 0x0001ada0
-`StrIsIntlEqualW` | 864 (0x360) | Exported Function | 0x6319adc0 | 0x0001adc0
-`StrNCatA` | 865 (0x361) | Exported Function | 0x631a2ea0 | 0x00022ea0
-`StrNCatW` | 866 (0x362) | Exported Function | 0x631a2ee0 | 0x00022ee0
-`StrPBrkA` | 867 (0x363) | Exported Function | 0x6319ade0 | 0x0001ade0
-`StrCmpNICA` | 153 (0x99) | Exported Function | 0x6319ace0 | 0x0001ace0
-`StrPBrkW` | 868 (0x364) | Exported Function | 0x6319ae00 | 0x0001ae00
-`StrCmpNIA` | 847 (0x34f) | Exported Function | 0x6319acc0 | 0x0001acc0
-`StrCmpNCA` | 151 (0x97) | Exported Function | 0x6319ac80 | 0x0001ac80
-`SHStrDupA` | 827 (0x33b) | Exported Function | 0x6319d120 | 0x0001d120
-`SHStrDupW` | 828 (0x33c) | Exported Function | 0x63195e60 | 0x00015e60
-`SHStripMneumonicA` | 203 (0xcb) | Exported Function | 0x631a6630 | 0x00026630
-`SHStripMneumonicW` | 225 (0xe1) | Exported Function | 0x631a6690 | 0x00026690
-`SHUnicodeToAnsi` | 217 (0xd9) | Exported Function | 0x63195c60 | 0x00015c60
-`SHUnicodeToAnsiCP` | 218 (0xda) | Exported Function | SHCORE.#151 | 0x00039986
-`SHUnicodeToUnicode` | 346 (0x15a) | Exported Function | 0x6319d140 | 0x0001d140
-`SHUnlockShared` | 9 (0x9) | Exported Function | 0x631a9290 | 0x00029290
-`StrCatBuffA` | 834 (0x342) | Exported Function | 0x6319ab20 | 0x0001ab20
-`StrCatBuffW` | 835 (0x343) | Exported Function | 0x6319ab40 | 0x0001ab40
-`StrCatChainW` | 836 (0x344) | Exported Function | 0x6319ab60 | 0x0001ab60
-`StrCatW` | 837 (0x345) | Exported Function | 0x631a2e20 | 0x00022e20
-`StrChrA` | 838 (0x346) | Exported Function | 0x6319ab80 | 0x0001ab80
-`StrChrIA` | 839 (0x347) | Exported Function | 0x6319aba0 | 0x0001aba0
-`StrChrIW` | 840 (0x348) | Exported Function | 0x63195240 | 0x00015240
-`StrChrNIW` | 841 (0x349) | Exported Function | 0x6319abc0 | 0x0001abc0
-`StrChrNW` | 842 (0x34a) | Exported Function | 0x6319abe0 | 0x0001abe0
-`StrChrW` | 843 (0x34b) | Exported Function | 0x63193aa0 | 0x00013aa0
-`StrCmpCA` | 155 (0x9b) | Exported Function | 0x6319ac00 | 0x0001ac00
-`StrCmpCW` | 156 (0x9c) | Exported Function | 0x63194ad0 | 0x00014ad0
-`StrCmpICA` | 157 (0x9d) | Exported Function | 0x63195260 | 0x00015260
-`StrCmpICW` | 158 (0x9e) | Exported Function | 0x63194f50 | 0x00014f50
-`StrCmpIW` | 844 (0x34c) | Exported Function | 0x6319ac20 | 0x0001ac20
-`StrCmpLogicalW` | 845 (0x34d) | Exported Function | 0x6319ac40 | 0x0001ac40
-`StrCmpNA` | 846 (0x34e) | Exported Function | 0x6319ac60 | 0x0001ac60
-`StrCmpNCW` | 152 (0x98) | Exported Function | 0x6319aca0 | 0x0001aca0
-`SHSkipJunction` | 826 (0x33a) | Exported Function | 0x631938d0 | 0x000138d0
-`StrRChrA` | 869 (0x365) | Exported Function | 0x6319ae20 | 0x0001ae20
-`StrRChrIW` | 871 (0x367) | Exported Function | 0x6319ae60 | 0x0001ae60
-`UrlCombineW` | 901 (0x385) | Exported Function | 0x631952b0 | 0x000152b0
-`UrlCompareA` | 902 (0x386) | Exported Function | 0x6319b0e0 | 0x0001b0e0
-`UrlCompareW` | 903 (0x387) | Exported Function | 0x6319b100 | 0x0001b100
-`UrlCreateFromPathA` | 904 (0x388) | Exported Function | 0x6319b120 | 0x0001b120
-`UrlCreateFromPathW` | 905 (0x389) | Exported Function | 0x6319b140 | 0x0001b140
-`UrlEscapeA` | 906 (0x38a) | Exported Function | 0x6319b160 | 0x0001b160
-`UrlEscapeW` | 907 (0x38b) | Exported Function | 0x63194f30 | 0x00014f30
-`UrlFixupW` | 462 (0x1ce) | Exported Function | 0x6319b180 | 0x0001b180
-`UrlGetLocationA` | 908 (0x38c) | Exported Function | 0x6319b1a0 | 0x0001b1a0
-`UrlGetLocationW` | 909 (0x38d) | Exported Function | 0x6319b1c0 | 0x0001b1c0
-`UrlGetPartA` | 910 (0x38e) | Exported Function | 0x6319b1e0 | 0x0001b1e0
-`UrlGetPartW` | 911 (0x38f) | Exported Function | 0x63194950 | 0x00014950
-`UrlHashA` | 912 (0x390) | Exported Function | 0x6319b200 | 0x0001b200
-`UrlHashW` | 913 (0x391) | Exported Function | 0x6319b220 | 0x0001b220
-`UrlIsA` | 914 (0x392) | Exported Function | 0x6319b240 | 0x0001b240
-`UrlIsNoHistoryA` | 915 (0x393) | Exported Function | 0x6319b260 | 0x0001b260
-`UrlIsNoHistoryW` | 916 (0x394) | Exported Function | 0x63195f80 | 0x00015f80
-`UrlIsOpaqueA` | 917 (0x395) | Exported Function | 0x6319b280 | 0x0001b280
-`UrlIsOpaqueW` | 918 (0x396) | Exported Function | 0x6319b2a0 | 0x0001b2a0
-`UrlIsW` | 919 (0x397) | Exported Function | 0x63194360 | 0x00014360
-`UrlUnescapeA` | 920 (0x398) | Exported Function | 0x6319b2c0 | 0x0001b2c0
-`UrlUnescapeW` | 921 (0x399) | Exported Function | 0x63194a10 | 0x00014a10
-`WhichPlatform` | 276 (0x114) | Exported Function | 0x631a6940 | 0x00026940
-`wnsprintfA` | 922 (0x39a) | Exported Function | 0x631a3c30 | 0x00023c30
-`wnsprintfW` | 923 (0x39b) | Exported Function | 0x631a3c70 | 0x00023c70
-`UrlCombineA` | 900 (0x384) | Exported Function | 0x6319b0c0 | 0x0001b0c0
-`StrRChrIA` | 870 (0x366) | Exported Function | 0x6319ae40 | 0x0001ae40
-`UrlCanonicalizeW` | 899 (0x383) | Exported Function | 0x63194a30 | 0x00014a30
-`UrlApplySchemeW` | 897 (0x381) | Exported Function | 0x6319b080 | 0x0001b080
-`StrRChrW` | 872 (0x368) | Exported Function | 0x6319ae80 | 0x0001ae80
-`StrRetToBSTR` | 875 (0x36b) | Exported Function | 0x631a3060 | 0x00023060
-`StrRetToBufA` | 876 (0x36c) | Exported Function | 0x631a3080 | 0x00023080
-`StrRetToBufW` | 877 (0x36d) | Exported Function | 0x63195d20 | 0x00015d20
-`StrRetToStrA` | 878 (0x36e) | Exported Function | 0x631a3110 | 0x00023110
-`StrRetToStrW` | 879 (0x36f) | Exported Function | 0x631a3190 | 0x00023190
-`StrRStrIA` | 873 (0x369) | Exported Function | 0x6319aea0 | 0x0001aea0
-`StrRStrIW` | 874 (0x36a) | Exported Function | 0x6319aec0 | 0x0001aec0
-`StrSpnA` | 880 (0x370) | Exported Function | 0x6319aee0 | 0x0001aee0
-`StrSpnW` | 881 (0x371) | Exported Function | 0x6319af00 | 0x0001af00
-`StrStrA` | 882 (0x372) | Exported Function | 0x6319af20 | 0x0001af20
-`StrStrIA` | 883 (0x373) | Exported Function | 0x63197370 | 0x00017370
-`StrStrIW` | 884 (0x374) | Exported Function | 0x63195140 | 0x00015140
-`StrStrNIW` | 885 (0x375) | Exported Function | 0x6319af40 | 0x0001af40
-`StrStrNW` | 886 (0x376) | Exported Function | 0x6319af60 | 0x0001af60
-`StrStrW` | 887 (0x377) | Exported Function | 0x6319af80 | 0x0001af80
-`StrToInt64ExA` | 888 (0x378) | Exported Function | 0x6319afa0 | 0x0001afa0
-`StrToInt64ExW` | 889 (0x379) | Exported Function | 0x6319afc0 | 0x0001afc0
-`StrToIntA` | 890 (0x37a) | Exported Function | 0x6319afe0 | 0x0001afe0
-`StrToIntExA` | 891 (0x37b) | Exported Function | 0x6319b000 | 0x0001b000
-`StrToIntExW` | 892 (0x37c) | Exported Function | 0x6319b020 | 0x0001b020
-`StrToIntW` | 893 (0x37d) | Exported Function | 0x63193d50 | 0x00013d50
-`StrTrimA` | 894 (0x37e) | Exported Function | 0x6319b040 | 0x0001b040
-`StrTrimW` | 895 (0x37f) | Exported Function | 0x63195c00 | 0x00015c00
-`UrlApplySchemeA` | 896 (0x380) | Exported Function | 0x6319b060 | 0x0001b060
-`UrlCanonicalizeA` | 898 (0x382) | Exported Function | 0x6319b0a0 | 0x0001b0a0
-`Ordinal532` | 532 (0x214) | Exported Function | 0x631aa780 | 0x0002a780
-`SHSetValueW` | 825 (0x339) | Exported Function | 0x63197220 | 0x00017220
-`SHSetThreadRef` | 823 (0x337) | Exported Function | 0x63197350 | 0x00017350
-`SHCreateThreadRef` | 763 (0x2fb) | Exported Function | 0x6319cd90 | 0x0001cd90
-`SHCreateThreadWithHandle` | 615 (0x267) | Exported Function | 0x631972a0 | 0x000172a0
-`SHCreateWorkerWindowW` | 278 (0x116) | Exported Function | 0x63195e80 | 0x00015e80
-`SHDeleteEmptyKeyA` | 764 (0x2fc) | Exported Function | 0x6319cdb0 | 0x0001cdb0
-`SHDeleteEmptyKeyW` | 765 (0x2fd) | Exported Function | 0x6319cdd0 | 0x0001cdd0
-`SHDeleteKeyA` | 766 (0x2fe) | Exported Function | 0x6319cdf0 | 0x0001cdf0
-`SHDeleteKeyW` | 767 (0x2ff) | Exported Function | 0x63196020 | 0x00016020
-`SHDeleteOrphanKeyA` | 768 (0x300) | Exported Function | SHUNIMPL.#446 | 0x00039240
-`SHDeleteOrphanKeyW` | 769 (0x301) | Exported Function | SHUNIMPL.#447 | 0x00039261
-`SHDeleteValueA` | 770 (0x302) | Exported Function | 0x6319ce10 | 0x0001ce10
-`SHDeleteValueW` | 771 (0x303) | Exported Function | 0x6319ce30 | 0x0001ce30
-`ShellMessageBoxA` | 829 (0x33d) | Exported Function | 0x6319f0d0 | 0x0001f0d0
-`ShellMessageBoxW` | 388 (0x184) | Exported Function | 0x631a27e0 | 0x000227e0
-`SHEnumKeyExA` | 772 (0x304) | Exported Function | 0x6319ce50 | 0x0001ce50
-`SHEnumKeyExW` | 773 (0x305) | Exported Function | 0x6319ce70 | 0x0001ce70
-`SHEnumValueA` | 774 (0x306) | Exported Function | 0x6319ce90 | 0x0001ce90
-`SHEnumValueW` | 775 (0x307) | Exported Function | 0x6319ceb0 | 0x0001ceb0
-`SHFormatDateTimeA` | 353 (0x161) | Exported Function | 0x631a20f0 | 0x000220f0
-`SHFormatDateTimeW` | 354 (0x162) | Exported Function | 0x631a2160 | 0x00022160
-`SHFreeShared` | 10 (0xa) | Exported Function | 0x631a91f0 | 0x000291f0
-`SHGetInverseCMAP` | 776 (0x308) | Exported Function | 0x631a3470 | 0x00023470
-`SHGetThreadRef` | 777 (0x309) | Exported Function | 0x6319ced0 | 0x0001ced0
-`SHGetValueA` | 778 (0x30a) | Exported Function | 0x6319cef0 | 0x0001cef0
-`SHGetValueW` | 779 (0x30b) | Exported Function | 0x63197120 | 0x00017120
-`SHGetViewStatePropertyBag` | 515 (0x203) | Exported Function | 0x63196100 | 0x00016100
-`SHCreateThread` | 16 (0x10) | Exported Function | 0x63197240 | 0x00017240
-`SHIsChildOrSelf` | 204 (0xcc) | Exported Function | 0x63193d10 | 0x00013d10
-`SHCreateStreamWrapper` | 762 (0x2fa) | Exported Function | SHUNIMPL.#471 | 0x00039177
-`SHCreateStreamOnFileEx` | 760 (0x2f8) | Exported Function | 0x6319cd70 | 0x0001cd70
-`PathSetDlgItemPathW` | 740 (0x2e4) | Exported Function | 0x631a1950 | 0x00021950
-`PathSkipRootA` | 741 (0x2e5) | Exported Function | 0x6319a6c0 | 0x0001a6c0
-`PathSkipRootW` | 742 (0x2e6) | Exported Function | 0x63195ce0 | 0x00015ce0
-`PathStripPathA` | 743 (0x2e7) | Exported Function | 0x6319a6e0 | 0x0001a6e0
-`PathStripPathW` | 744 (0x2e8) | Exported Function | 0x6319a6f0 | 0x0001a6f0
-`PathStripToRootA` | 745 (0x2e9) | Exported Function | 0x6319a700 | 0x0001a700
-`PathStripToRootW` | 746 (0x2ea) | Exported Function | 0x63195ca0 | 0x00015ca0
-`PathUndecorateA` | 749 (0x2ed) | Exported Function | 0x6319e870 | 0x0001e870
-`PathUndecorateW` | 750 (0x2ee) | Exported Function | 0x63195c20 | 0x00015c20
-`PathUnExpandEnvStringsA` | 747 (0x2eb) | Exported Function | 0x6319a720 | 0x0001a720
-`PathUnExpandEnvStringsW` | 748 (0x2ec) | Exported Function | 0x6319a740 | 0x0001a740
-`PathUnmakeSystemFolderA` | 751 (0x2ef) | Exported Function | 0x6319e920 | 0x0001e920
-`PathUnmakeSystemFolderW` | 752 (0x2f0) | Exported Function | 0x631a1a80 | 0x00021a80
-`PathUnquoteSpacesA` | 753 (0x2f1) | Exported Function | 0x6319a760 | 0x0001a760
-`PathUnquoteSpacesW` | 754 (0x2f2) | Exported Function | 0x63196000 | 0x00016000
-`QISearch` | 219 (0xdb) | Exported Function | 0x631930b0 | 0x000130b0
-`SHAllocShared` | 7 (0x7) | Exported Function | 0x631a91d0 | 0x000291d0
-`SHAnsiToAnsi` | 345 (0x159) | Exported Function | 0x6319ccf0 | 0x0001ccf0
-`SHAnsiToUnicode` | 215 (0xd7) | Exported Function | 0x63195c80 | 0x00015c80
-`SHAutoComplete` | 755 (0x2f3) | Exported Function | 0x631a54a0 | 0x000254a0
-`SHCopyKeyA` | 756 (0x2f4) | Exported Function | 0x6319cd10 | 0x0001cd10
-`SHCopyKeyW` | 757 (0x2f5) | Exported Function | 0x6319cd30 | 0x0001cd30
-`SHCreateMemStream` | 12 (0xc) | Exported Function | 0x63195200 | 0x00015200
-`SHCreateShellPalette` | 758 (0x2f6) | Exported Function | 0x631952f0 | 0x000152f0
-`SHCreateStreamOnFileA` | 759 (0x2f7) | Exported Function | 0x6319cd50 | 0x0001cd50
-`SHCreateStreamOnFileW` | 761 (0x2f9) | Exported Function | 0x63197280 | 0x00017280
-`SHSetValueA` | 824 (0x338) | Exported Function | 0x6319d100 | 0x0001d100
-`SHIsLowMemoryMachine` | 780 (0x30c) | Exported Function | 0x63195650 | 0x00015650
-`SHLockShared` | 8 (0x8) | Exported Function | 0x631a9250 | 0x00029250
-`SHRegGetIntW` | 280 (0x118) | Exported Function | 0x6319d030 | 0x0001d030
-`SHRegGetPathA` | 803 (0x323) | Exported Function | 0x6319d050 | 0x0001d050
-`SHRegGetPathW` | 804 (0x324) | Exported Function | 0x6319d070 | 0x0001d070
-`SHRegGetUSValueA` | 805 (0x325) | Exported Function | 0x6319a920 | 0x0001a920
-`SHRegGetUSValueW` | 806 (0x326) | Exported Function | 0x63197260 | 0x00017260
-`SHRegGetValueA` | 807 (0x327) | Exported Function | 0x6319d090 | 0x0001d090
-`SHRegGetValueFromHKCUHKLM` | 629 (0x275) | Exported Function | 0x63198180 | 0x00018180
-`SHRegGetValueW` | 808 (0x328) | Exported Function | 0x631953e0 | 0x000153e0
-`SHRegisterValidateTemplate` | 821 (0x335) | Exported Function | 0x631b1c90 | 0x00031c90
-`SHRegOpenUSKeyA` | 809 (0x329) | Exported Function | 0x6319a940 | 0x0001a940
-`SHRegOpenUSKeyW` | 810 (0x32a) | Exported Function | 0x6319a960 | 0x0001a960
-`SHRegQueryInfoUSKeyA` | 811 (0x32b) | Exported Function | 0x6319a980 | 0x0001a980
-`SHRegQueryInfoUSKeyW` | 812 (0x32c) | Exported Function | 0x6319a9a0 | 0x0001a9a0
-`SHRegQueryUSValueA` | 813 (0x32d) | Exported Function | 0x6319a9c0 | 0x0001a9c0
-`SHRegQueryUSValueW` | 814 (0x32e) | Exported Function | 0x6319a9e0 | 0x0001a9e0
-`SHRegSetPathA` | 815 (0x32f) | Exported Function | 0x6319d0b0 | 0x0001d0b0
-`SHRegSetPathW` | 816 (0x330) | Exported Function | 0x6319d0d0 | 0x0001d0d0
-`SHRegSetUSValueA` | 817 (0x331) | Exported Function | 0x6319aa00 | 0x0001aa00
-`SHRegSetUSValueW` | 818 (0x332) | Exported Function | 0x6319aa20 | 0x0001aa20
-`SHRegWriteUSValueA` | 819 (0x333) | Exported Function | 0x6319aa40 | 0x0001aa40
-`SHRegWriteUSValueW` | 820 (0x334) | Exported Function | 0x6319aa60 | 0x0001aa60
-`SHReleaseThreadRef` | 822 (0x336) | Exported Function | 0x6319d0f0 | 0x0001d0f0
-`SHRunIndirectRegClientCommand` | 467 (0x1d3) | Exported Function | 0x631a0ef0 | 0x00020ef0
-`SHSendMessageBroadcastA` | 432 (0x1b0) | Exported Function | 0x631a6380 | 0x00026380
-`SHSendMessageBroadcastW` | 433 (0x1b1) | Exported Function | 0x631a63b0 | 0x000263b0
-`SHRegGetBoolValueFromHKCUHKLM` | 630 (0x276) | Exported Function | 0x631984c0 | 0x000184c0
-`SHLoadIndirectString` | 487 (0x1e7) | Exported Function | 0x63195510 | 0x00015510
-`SHRegGetBoolUSValueW` | 802 (0x322) | Exported Function | 0x63197310 | 0x00017310
-`SHRegEnumUSValueW` | 800 (0x320) | Exported Function | 0x6319a8e0 | 0x0001a8e0
-`SHMessageBoxCheckA` | 185 (0xb9) | Exported Function | 0x631a5cd0 | 0x00025cd0
-`SHMessageBoxCheckW` | 191 (0xbf) | Exported Function | 0x631a6000 | 0x00026000
-`SHOpenRegStream2A` | 781 (0x30d) | Exported Function | 0x6319cf10 | 0x0001cf10
-`SHOpenRegStream2W` | 782 (0x30e) | Exported Function | 0x6319cf30 | 0x0001cf30
-`SHOpenRegStreamA` | 783 (0x30f) | Exported Function | 0x6319cf50 | 0x0001cf50
-`SHOpenRegStreamW` | 784 (0x310) | Exported Function | 0x6319cf70 | 0x0001cf70
-`SHPackDispParamsV` | 281 (0x119) | Exported Function | 0x631a8e90 | 0x00028e90
-`SHPinDllOfCLSID` | 236 (0xec) | Exported Function | 0x631918c0 | 0x000118c0
-`SHPropertyBag_ReadStrAlloc` | 567 (0x237) | Exported Function | 0x631aa560 | 0x0002a560
-`SHPropertyBag_WriteBSTR` | 570 (0x23a) | Exported Function | 0x631aa620 | 0x0002a620
-`SHQueryInfoKeyA` | 785 (0x311) | Exported Function | 0x6319cf90 | 0x0001cf90
-`SHQueryInfoKeyW` | 786 (0x312) | Exported Function | 0x6319cfb0 | 0x0001cfb0
-`SHQueryValueExA` | 787 (0x313) | Exported Function | 0x6319cfd0 | 0x0001cfd0
-`SHQueryValueExW` | 788 (0x314) | Exported Function | 0x6319cff0 | 0x0001cff0
-`SHRegCloseUSKey` | 789 (0x315) | Exported Function | 0x6319a7a0 | 0x0001a7a0
-`SHRegCreateUSKeyA` | 790 (0x316) | Exported Function | 0x6319a7c0 | 0x0001a7c0
-`SHRegCreateUSKeyW` | 791 (0x317) | Exported Function | 0x6319a7e0 | 0x0001a7e0
-`SHRegDeleteEmptyUSKeyA` | 792 (0x318) | Exported Function | 0x6319a800 | 0x0001a800
-`SHRegDeleteEmptyUSKeyW` | 793 (0x319) | Exported Function | 0x6319a820 | 0x0001a820
-`SHRegDeleteUSValueA` | 794 (0x31a) | Exported Function | 0x6319a840 | 0x0001a840
-`SHRegDeleteUSValueW` | 795 (0x31b) | Exported Function | 0x6319a860 | 0x0001a860
-`SHRegDuplicateHKey` | 796 (0x31c) | Exported Function | 0x6319d010 | 0x0001d010
-`SHRegEnumUSKeyA` | 797 (0x31d) | Exported Function | 0x6319a880 | 0x0001a880
-`SHRegEnumUSKeyW` | 798 (0x31e) | Exported Function | 0x6319a8a0 | 0x0001a8a0
-`SHRegEnumUSValueA` | 799 (0x31f) | Exported Function | 0x6319a8c0 | 0x0001a8c0
-`SHRegGetBoolUSValueA` | 801 (0x321) | Exported Function | 0x6319a900 | 0x0001a900
-`wvnsprintfA` | 924 (0x39c) | Exported Function | 0x631a3cb0 | 0x00023cb0
-`Ordinal531` | 531 (0x213) | Exported Function | 0x631aa580 | 0x0002a580
-`Ordinal53` | 53 (0x35) | Exported Function | GDI32.CreateFontIndirectW | 0x00037420
-`Ordinal216` | 216 (0xd8) | Exported Function | SHCORE.#150 | 0x00039070
-`Ordinal22` | 22 (0x16) | Exported Function | 0x631940f0 | 0x000140f0
-`Ordinal220` | 220 (0xdc) | Exported Function | 0x631a63e0 | 0x000263e0
-`Ordinal221` | 221 (0xdd) | Exported Function | 0x631a62d0 | 0x000262d0
-`Ordinal222` | 222 (0xde) | Exported Function | SHUNIMPL.#139 | 0x00038cc6
-`Ordinal223` | 223 (0xdf) | Exported Function | SHUNIMPL.#140 | 0x00038cfe
-`Ordinal224` | 224 (0xe0) | Exported Function | SHUNIMPL.#141 | 0x00038d0c
-`Ordinal226` | 226 (0xe2) | Exported Function | SHUNIMPL.#244 | 0x00038f90
-`Ordinal227` | 227 (0xe3) | Exported Function | SHUNIMPL.#245 | 0x00038f9e
-`Ordinal228` | 228 (0xe4) | Exported Function | 0x631b1e20 | 0x00031e20
-`Ordinal229` | 229 (0xe5) | Exported Function | 0x631b1f80 | 0x00031f80
-`Ordinal211` | 211 (0xd3) | Exported Function | 0x631a3230 | 0x00023230
-`Ordinal23` | 23 (0x17) | Exported Function | 0x631a3320 | 0x00023320
-`Ordinal231` | 231 (0xe7) | Exported Function | 0x63194c30 | 0x00014c30
-`Ordinal232` | 232 (0xe8) | Exported Function | 0x631b1f00 | 0x00031f00
-`Ordinal233` | 233 (0xe9) | Exported Function | 0x63194c60 | 0x00014c60
-`Ordinal234` | 234 (0xea) | Exported Function | 0x631b1d70 | 0x00031d70
-`Ordinal235` | 235 (0xeb) | Exported Function | 0x631b1da0 | 0x00031da0
-`Ordinal237` | 237 (0xed) | Exported Function | 0x631a6270 | 0x00026270
-`Ordinal238` | 238 (0xee) | Exported Function | 0x631a67a0 | 0x000267a0
-`Ordinal239` | 239 (0xef) | Exported Function | 0x63193f70 | 0x00013f70
-`Ordinal24` | 24 (0x18) | Exported Function | 0x63191c50 | 0x00011c50
-`Ordinal240` | 240 (0xf0) | Exported Function | 0x63193ca0 | 0x00013ca0
-`Ordinal241` | 241 (0xf1) | Exported Function | SHUNIMPL.#142 | 0x00038e86
-`Ordinal230` | 230 (0xe6) | Exported Function | 0x631b1e90 | 0x00031e90
-`Ordinal210` | 210 (0xd2) | Exported Function | 0x63197030 | 0x00017030
-`Ordinal21` | 21 (0x15) | Exported Function | 0x63194380 | 0x00014380
-`Ordinal209` | 209 (0xd1) | Exported Function | 0x631a3290 | 0x00023290
-`Ordinal180` | 180 (0xb4) | Exported Function | 0x631a6290 | 0x00026290
-`Ordinal181` | 181 (0xb5) | Exported Function | 0x631a56e0 | 0x000256e0
-`Ordinal182` | 182 (0xb6) | Exported Function | 0x631a55c0 | 0x000255c0
-`Ordinal183` | 183 (0xb7) | Exported Function | 0x631a6220 | 0x00026220
-`Ordinal186` | 186 (0xba) | Exported Function | 0x631a6570 | 0x00026570
-`Ordinal187` | 187 (0xbb) | Exported Function | 0x63194a50 | 0x00014a50
-`Ordinal188` | 188 (0xbc) | Exported Function | SHUNIMPL.#451 | 0x00038a18
-`Ordinal189` | 189 (0xbd) | Exported Function | SHUNIMPL.#452 | 0x000389ee
-`Ordinal19` | 19 (0x13) | Exported Function | 0x631952a0 | 0x000152a0
-`Ordinal190` | 190 (0xbe) | Exported Function | 0x631a4de0 | 0x00024de0
-`Ordinal192` | 192 (0xc0) | Exported Function | 0x631a5810 | 0x00025810
-`Ordinal193` | 193 (0xc1) | Exported Function | 0x63195180 | 0x00015180
-`Ordinal194` | 194 (0xc2) | Exported Function | SHCORE.#160 | 0x000399c0
-`Ordinal195` | 195 (0xc3) | Exported Function | 0x631a5b60 | 0x00025b60
-`Ordinal196` | 196 (0xc4) | Exported Function | SHUNIMPL.#243 | 0x00038e24
-`Ordinal197` | 197 (0xc5) | Exported Function | 0x631935d0 | 0x000135d0
-`Ordinal198` | 198 (0xc6) | Exported Function | 0x631a6340 | 0x00026340
-`Ordinal20` | 20 (0x14) | Exported Function | 0x63193230 | 0x00013230
-`Ordinal200` | 200 (0xc8) | Exported Function | 0x631a5440 | 0x00025440
-`Ordinal201` | 201 (0xc9) | Exported Function | 0x631a53b0 | 0x000253b0
-`Ordinal202` | 202 (0xca) | Exported Function | 0x631a52c0 | 0x000252c0
-`Ordinal205` | 205 (0xcd) | Exported Function | SHCORE.#124 | 0x000393f0
-`Ordinal206` | 206 (0xce) | Exported Function | SHCORE.#125 | 0x000393fc
-`Ordinal207` | 207 (0xcf) | Exported Function | SHUNIMPL.#453 | 0x000389b6
-`Ordinal208` | 208 (0xd0) | Exported Function | 0x63197140 | 0x00017140
-`Ordinal242` | 242 (0xf2) | Exported Function | SHUNIMPL.#143 | 0x00038e78
-`Ordinal243` | 243 (0xf3) | Exported Function | SHUNIMPL.#144 | 0x00038e4e
-`Ordinal244` | 244 (0xf4) | Exported Function | SHUNIMPL.#145 | 0x00038e94
-`Ordinal245` | 245 (0xf5) | Exported Function | SHUNIMPL.#146 | 0x00038ef6
-`Ordinal274` | 274 (0x112) | Exported Function | SHUNIMPL.#316 | 0x00038b22
-`Ordinal275` | 275 (0x113) | Exported Function | SHUNIMPL.#317 | 0x00038b14
-`Ordinal277` | 277 (0x115) | Exported Function | SHUNIMPL.#240 | 0x00038be6
-`Ordinal279` | 279 (0x117) | Exported Function | 0x631a5b30 | 0x00025b30
-`Ordinal28` | 28 (0x1c) | Exported Function | user32.IsCharAlphaNumericW | 0x00037e06
-`Ordinal282` | 282 (0x11a) | Exported Function | 0x631a8e70 | 0x00028e70
-`Ordinal283` | 283 (0x11b) | Exported Function | 0x631a8cb0 | 0x00028cb0
-`Ordinal284` | 284 (0x11c) | Exported Function | 0x631a8d40 | 0x00028d40
-`Ordinal285` | 285 (0x11d) | Exported Function | 0x631a8d10 | 0x00028d10
-`Ordinal286` | 286 (0x11e) | Exported Function | 0x631a8d90 | 0x00028d90
-`Ordinal287` | 287 (0x11f) | Exported Function | 0x631a8e00 | 0x00028e00
-`Ordinal288` | 288 (0x120) | Exported Function | 0x63195810 | 0x00015810
-`Ordinal289` | 289 (0x121) | Exported Function | WINMM.PlaySoundW | 0x000388a7
-`Ordinal290` | 290 (0x122) | Exported Function | SHUNIMPL.#247 | 0x00038d7c
-`Ordinal291` | 291 (0x123) | Exported Function | 0x631a5de0 | 0x00025de0
-`Ordinal292` | 292 (0x124) | Exported Function | 0x631a5f20 | 0x00025f20
-`Ordinal293` | 293 (0x125) | Exported Function | SHUNIMPL.#165 | 0x00038b5a
-`Ordinal294` | 294 (0x126) | Exported Function | 0x631b1680 | 0x00031680
-`Ordinal295` | 295 (0x127) | Exported Function | 0x631b1710 | 0x00031710
-`Ordinal296` | 296 (0x128) | Exported Function | SHUNIMPL.#314 | 0x00038938
-`Ordinal297` | 297 (0x129) | Exported Function | SHUNIMPL.#315 | 0x0003892a
-`Ordinal298` | 298 (0x12a) | Exported Function | KERNEL32.WritePrivateProfileStringW | 0x0003a0ff
-`Ordinal299` | 299 (0x12b) | Exported Function | GDI32.ExtTextOutW | 0x000376ac
-`Ordinal3` | 3 (0x3) | Exported Function | 0x6319de70 | 0x0001de70
-`Ordinal30` | 30 (0x1e) | Exported Function | 0x63199f90 | 0x00019f90
-`Ordinal273` | 273 (0x111) | Exported Function | SHUNIMPL.#164 | 0x00038e08
-`Ordinal18` | 18 (0x12) | Exported Function | 0x631930f0 | 0x000130f0
-`Ordinal272` | 272 (0x110) | Exported Function | SHUNIMPL.#163 | 0x00038dfa
-`Ordinal27` | 27 (0x1b) | Exported Function | user32.IsCharLowerW | 0x00037e35
-`Ordinal246` | 246 (0xf6) | Exported Function | SHUNIMPL.#147 | 0x00038ea2
-`Ordinal247` | 247 (0xf7) | Exported Function | SHUNIMPL.#148 | 0x00038ebe
-`Ordinal248` | 248 (0xf8) | Exported Function | SHUNIMPL.#149 | 0x00038eda
-`Ordinal249` | 249 (0xf9) | Exported Function | SHUNIMPL.#150 | 0x00038ecc
-`Ordinal25` | 25 (0x19) | Exported Function | user32.IsCharAlphaW | 0x00037e21
-`Ordinal250` | 250 (0xfa) | Exported Function | SHUNIMPL.#152 | 0x0003897e
-`Ordinal251` | 251 (0xfb) | Exported Function | SHUNIMPL.#153 | 0x00038eb0
-`Ordinal252` | 252 (0xfc) | Exported Function | SHUNIMPL.#154 | 0x00038ee8
-`Ordinal253` | 253 (0xfd) | Exported Function | SHUNIMPL.#155 | 0x00038e5c
-`Ordinal254` | 254 (0xfe) | Exported Function | SHUNIMPL.#156 | 0x00038e6a
-`Ordinal255` | 255 (0xff) | Exported Function | SHUNIMPL.#157 | 0x00038954
-`Ordinal257` | 257 (0x101) | Exported Function | 0x631a55f0 | 0x000255f0
-`Ordinal258` | 258 (0x102) | Exported Function | SHUNIMPL.#158 | 0x00038dd0
-`Ordinal259` | 259 (0x103) | Exported Function | SHUNIMPL.#159 | 0x00038e16
-`Ordinal26` | 26 (0x1a) | Exported Function | user32.IsCharUpperW | 0x00037e63
-`Ordinal260` | 260 (0x104) | Exported Function | SHCORE.#162 | 0x000395ee
-`Ordinal261` | 261 (0x105) | Exported Function | SHUNIMPL.#160 | 0x00038bca
-`Ordinal262` | 262 (0x106) | Exported Function | SHUNIMPL.#161 | 0x00038bd8
-`Ordinal263` | 263 (0x107) | Exported Function | 0x631a92d0 | 0x000292d0
-`Ordinal264` | 264 (0x108) | Exported Function | SHUNIMPL.#162 | 0x00038b68
-`Ordinal265` | 265 (0x109) | Exported Function | 0x631a92b0 | 0x000292b0
-`Ordinal266` | 266 (0x10a) | Exported Function | 0x631916f0 | 0x000116f0
-`Ordinal267` | 267 (0x10b) | Exported Function | 0x631924a0 | 0x000124a0
-`Ordinal268` | 268 (0x10c) | Exported Function | 0x63192570 | 0x00012570
-`Ordinal269` | 269 (0x10d) | Exported Function | 0x631a32d0 | 0x000232d0
-`Ordinal271` | 271 (0x10f) | Exported Function | 0x631a5880 | 0x00025880
-`Ordinal179` | 179 (0xb3) | Exported Function | 0x631a5c50 | 0x00025c50
-`Ordinal178` | 178 (0xb2) | Exported Function | 0x631a6190 | 0x00026190
-`Ordinal177` | 177 (0xb1) | Exported Function | 0x631a5c00 | 0x00025c00
-`IStream_Read` | 184 (0xb8) | Exported Function | 0x63195a40 | 0x00015a40
-`IStream_ReadPidl` | 512 (0x200) | Exported Function | 0x63194520 | 0x00014520
-`IStream_ReadStr` | 596 (0x254) | Exported Function | 0x6319cbc0 | 0x0001cbc0
-`IStream_Reset` | 213 (0xd5) | Exported Function | 0x6319cbe0 | 0x0001cbe0
-`IStream_Size` | 214 (0xd6) | Exported Function | 0x6319cc00 | 0x0001cc00
-`IStream_Write` | 212 (0xd4) | Exported Function | 0x6319cc40 | 0x0001cc40
-`IStream_WritePidl` | 513 (0x201) | Exported Function | 0x63195fa0 | 0x00015fa0
-`IStream_WriteStr` | 597 (0x255) | Exported Function | 0x6319cc20 | 0x0001cc20
-`IUnknown_AtomicRelease` | 169 (0xa9) | Exported Function | 0x6319cc60 | 0x0001cc60
-`IUnknown_Exec` | 164 (0xa4) | Exported Function | 0x63194d80 | 0x00014d80
-`IUnknown_GetSite` | 256 (0x100) | Exported Function | 0x6319cc70 | 0x0001cc70
-`IUnknown_GetWindow` | 172 (0xac) | Exported Function | 0x63193d70 | 0x00013d70
-`IUnknown_QueryService` | 176 (0xb0) | Exported Function | 0x631972d0 | 0x000172d0
-`IUnknown_QueryStatus` | 163 (0xa3) | Exported Function | 0x631a5020 | 0x00025020
-`IUnknown_Set` | 199 (0xc7) | Exported Function | 0x63195420 | 0x00015420
-`IUnknown_SetSite` | 174 (0xae) | Exported Function | 0x631916d0 | 0x000116d0
-`MLLoadLibraryA` | 377 (0x179) | Exported Function | 0x631a5370 | 0x00025370
-`MLLoadLibraryW` | 378 (0x17a) | Exported Function | 0x631a5390 | 0x00025390
-`Ordinal100` | 100 (0x64) | Exported Function | USER32.LoadAcceleratorsW | 0x00037ea9
-`Ordinal101` | 101 (0x65) | Exported Function | USER32.LoadBitmapW | 0x00037ec2
-`Ordinal102` | 102 (0x66) | Exported Function | USER32.LoadCursorW | 0x00037ed5
-`Ordinal103` | 103 (0x67) | Exported Function | USER32.LoadIconW | 0x00037ee8
-`Ordinal104` | 104 (0x68) | Exported Function | USER32.LoadImageW | 0x00037ef9
-`Ordinal105` | 105 (0x69) | Exported Function | KERNEL32.LoadLibraryExW | 0x00037f0b
-`Ordinal106` | 106 (0x6a) | Exported Function | USER32.LoadMenuW | 0x00037f39
-`IStream_Copy` | 568 (0x238) | Exported Function | 0x6319cba0 | 0x0001cba0
-`Ordinal107` | 107 (0x6b) | Exported Function | USER32.LoadStringW | 0x00037f4a
-`IsOS` | 437 (0x1b5) | Exported Function | 0x63195f60 | 0x00015f60
-`IsCharSpaceW` | 29 (0x1d) | Exported Function | 0x63195d00 | 0x00015d00
-`AssocGetPerceivedType` | 501 (0x1f5) | Exported Function | 0x631925c0 | 0x000125c0
-`AssocIsDangerous` | 502 (0x1f6) | Exported Function | 0x631a01b0 | 0x000201b0
-`AssocQueryKeyA` | 503 (0x1f7) | Exported Function | 0x631a0850 | 0x00020850
-`AssocQueryKeyW` | 504 (0x1f8) | Exported Function | 0x63193790 | 0x00013790
-`AssocQueryStringA` | 579 (0x243) | Exported Function | 0x631a0940 | 0x00020940
-`AssocQueryStringByKeyA` | 584 (0x248) | Exported Function | 0x631a0ac0 | 0x00020ac0
-`AssocQueryStringByKeyW` | 585 (0x249) | Exported Function | 0x631936d0 | 0x000136d0
-`AssocQueryStringW` | 586 (0x24a) | Exported Function | 0x63193610 | 0x00013610
-`ChrCmpIA` | 587 (0x24b) | Exported Function | 0x63199ef0 | 0x00019ef0
-`ChrCmpIW` | 588 (0x24c) | Exported Function | 0x63199f10 | 0x00019f10
-`ColorAdjustLuma` | 589 (0x24d) | Exported Function | 0x631a29e0 | 0x000229e0
-`ColorHLSToRGB` | 590 (0x24e) | Exported Function | 0x631a2a90 | 0x00022a90
-`ColorRGBToHLS` | 591 (0x24f) | Exported Function | 0x631a2bb0 | 0x00022bb0
-`ConnectToConnectionPoint` | 168 (0xa8) | Exported Function | 0x63195d40 | 0x00015d40
-`DelayLoadFailureHook` | 569 (0x239) | Exported Function | 0x631a2da0 | 0x00022da0
-`DllGetClassObject` | 592 (0x250) | Exported Function | 0x631a8a60 | 0x00028a60
-`DllGetVersion` | 593 (0x251) | Exported Function | 0x631a8990 | 0x00028990
-`GetAcceptLanguagesA` | 14 (0xe) | Exported Function | 0x63199f30 | 0x00019f30
-`GetAcceptLanguagesW` | 15 (0xf) | Exported Function | 0x63199f50 | 0x00019f50
-`GetMenuPosFromID` | 594 (0x252) | Exported Function | 0x63194af0 | 0x00014af0
-`GUIDFromStringW` | 270 (0x10e) | Exported Function | SHCORE.#200 | 0x00037780
-`HashData` | 595 (0x253) | Exported Function | 0x63199f70 | 0x00019f70
-`IntlStrEqWorkerA` | 607 (0x25f) | Exported Function | 0x6319ada0 | 0x0001ada0
-`IntlStrEqWorkerW` | 608 (0x260) | Exported Function | 0x6319adc0 | 0x0001adc0
-`IsCharSpaceA` | 609 (0x261) | Exported Function | 0x6319a010 | 0x0001a010
-`IsInternetESCEnabled` | 553 (0x229) | Exported Function | 0x6319a050 | 0x0001a050
-`Ordinal300` | 300 (0x12c) | Exported Function | GDI32.CreateFontW | 0x0003743a
-`Ordinal108` | 108 (0x6c) | Exported Function | USER32.MessageBoxIndirectW | 0x00037fc4
-`Ordinal11` | 11 (0xb) | Exported Function | 0x631a9270 | 0x00029270
-`Ordinal138` | 138 (0x8a) | Exported Function | USER32.SetDlgItemTextW | 0x00039a6d
-`Ordinal139` | 139 (0x8b) | Exported Function | USER32.SetMenuItemInfoW | 0x00039aa0
-`Ordinal140` | 140 (0x8c) | Exported Function | USER32.SetPropW | 0x00039ab8
-`Ordinal141` | 141 (0x8d) | Exported Function | USER32.SetWindowLongW | 0x00039ac8
-`Ordinal142` | 142 (0x8e) | Exported Function | USER32.SetWindowsHookExW | 0x00039af4
-`Ordinal143` | 143 (0x8f) | Exported Function | USER32.SetWindowTextW | 0x00039ade
-`Ordinal144` | 144 (0x90) | Exported Function | GDI32.StartDocW | 0x00039b8d
-`Ordinal145` | 145 (0x91) | Exported Function | USER32.SystemParametersInfoW | 0x00039ed5
-`Ordinal146` | 146 (0x92) | Exported Function | USER32.TranslateAcceleratorW | 0x00039f20
-`Ordinal147` | 147 (0x93) | Exported Function | USER32.UnregisterClassW | 0x00039f3d
-`Ordinal148` | 148 (0x94) | Exported Function | USER32.VkKeyScanW | 0x0003a0b9
-`Ordinal149` | 149 (0x95) | Exported Function | USER32.WinHelpW | 0x0003a0ef
-`Ordinal150` | 150 (0x96) | Exported Function | USER32.wvsprintfW | 0x0003a175
-`Ordinal159` | 159 (0x9f) | Exported Function | KERNEL32.CompareStringW | 0x000372df
-`Ordinal160` | 160 (0xa0) | Exported Function | 0x631a3e10 | 0x00023e10
-`Ordinal161` | 161 (0xa1) | Exported Function | SHUNIMPL.#472 | 0x00038b4c
-`Ordinal162` | 162 (0xa2) | Exported Function | 0x6319aa80 | 0x0001aa80
-`Ordinal165` | 165 (0xa5) | Exported Function | 0x631950f0 | 0x000150f0
-`Ordinal166` | 166 (0xa6) | Exported Function | SHCORE.#102 | 0x00039486
-`Ordinal167` | 167 (0xa7) | Exported Function | 0x631a64b0 | 0x000264b0
-`Ordinal17` | 17 (0x11) | Exported Function | 0x63194e90 | 0x00014e90
-`Ordinal170` | 170 (0xaa) | Exported Function | 0x6319efc0 | 0x0001efc0
-`Ordinal171` | 171 (0xab) | Exported Function | SHUNIMPL.#246 | 0x00038d36
-`Ordinal173` | 173 (0xad) | Exported Function | 0x63195ee0 | 0x00015ee0
-`Ordinal175` | 175 (0xaf) | Exported Function | SHCORE.#142 | 0x00037d04
-`Ordinal137` | 137 (0x89) | Exported Function | KERNEL32.SetCurrentDirectoryW | 0x00039a4f
-`Ordinal109` | 109 (0x6d) | Exported Function | USER32.ModifyMenuW | 0x00037ffe
-`Ordinal136` | 136 (0x88) | Exported Function | USER32.SendMessageW | 0x00039a3b
-`Ordinal134` | 134 (0x86) | Exported Function | USER32.RemovePropW | 0x00039032
-`Ordinal110` | 110 (0x6e) | Exported Function | GDI32.GetCharWidth32W | 0x000377b4
-`Ordinal111` | 111 (0x6f) | Exported Function | GDI32.GetCharacterPlacementW | 0x000377ca
-`Ordinal112` | 112 (0x70) | Exported Function | KERNEL32.CopyFileW | 0x00037345
-`Ordinal113` | 113 (0x71) | Exported Function | KERNEL32.MoveFileW | 0x00038011
-`Ordinal114` | 114 (0x72) | Exported Function | USER32.OemToCharW | 0x00038024
-`Ordinal115` | 115 (0x73) | Exported Function | KERNEL32.OutputDebugStringW | 0x0003804a
-`Ordinal116` | 116 (0x74) | Exported Function | USER32.PeekMessageW | 0x00038893
-`Ordinal117` | 117 (0x75) | Exported Function | USER32.PostMessageW | 0x000388b8
-`Ordinal118` | 118 (0x76) | Exported Function | USER32.PostThreadMessageW | 0x000388cc
-`Ordinal119` | 119 (0x77) | Exported Function | SHUNIMPL.#448 | 0x00038ac0
-`Ordinal120` | 120 (0x78) | Exported Function | 0x631a9060 | 0x00029060
-`Ordinal121` | 121 (0x79) | Exported Function | 0x631a9080 | 0x00029080
-`Ordinal122` | 122 (0x7a) | Exported Function | SHUNIMPL.#449 | 0x00038ace
-`Ordinal123` | 123 (0x7b) | Exported Function | 0x631a90c0 | 0x000290c0
-`Ordinal124` | 124 (0x7c) | Exported Function | 0x631a9120 | 0x00029120
-`Ordinal125` | 125 (0x7d) | Exported Function | 0x631a9100 | 0x00029100
-`Ordinal126` | 126 (0x7e) | Exported Function | 0x631a9150 | 0x00029150
-`Ordinal127` | 127 (0x7f) | Exported Function | 0x631a9190 | 0x00029190
-`Ordinal128` | 128 (0x80) | Exported Function | 0x631a9170 | 0x00029170
-`Ordinal129` | 129 (0x81) | Exported Function | SHUNIMPL.#450 | 0x00038adc
-`Ordinal13` | 13 (0xd) | Exported Function | SHUNIMPL.#429 | 0x00038aea
-`Ordinal130` | 130 (0x82) | Exported Function | 0x631a91b0 | 0x000291b0
-`Ordinal131` | 131 (0x83) | Exported Function | USER32.RegisterClassW | 0x00038fc4
-`Ordinal132` | 132 (0x84) | Exported Function | USER32.RegisterClipboardFormatW | 0x00038fda
-`Ordinal133` | 133 (0x85) | Exported Function | USER32.RegisterWindowMessageW | 0x00038ffa
-`Ordinal135` | 135 (0x87) | Exported Function | USER32.SendDlgItemMessageW | 0x00039a05
-`Ordinal301` | 301 (0x12d) | Exported Function | USER32.DrawTextExW | 0x00037606
-`Ordinal302` | 302 (0x12e) | Exported Function | USER32.GetMenuItemInfoW | 0x0003794c
-`Ordinal303` | 303 (0x12f) | Exported Function | USER32.InsertMenuItemW | 0x00037d95
-`Ordinal444` | 444 (0x1bc) | Exported Function | KERNEL32.GetSystemWindowsDirectoryW | 0x000393b1
-`Ordinal445` | 445 (0x1bd) | Exported Function | 0x6319dd60 | 0x0001dd60
-`Ordinal447` | 447 (0x1bf) | Exported Function | 0x6319d7e0 | 0x0001d7e0
-`Ordinal448` | 448 (0x1c0) | Exported Function | 0x631a1240 | 0x00021240
-`Ordinal449` | 449 (0x1c1) | Exported Function | 0x6319d810 | 0x0001d810
-`Ordinal45` | 45 (0x2d) | Exported Function | KERNEL32.CompareStringW | 0x000372f7
-`Ordinal450` | 450 (0x1c2) | Exported Function | 0x63192080 | 0x00012080
-`Ordinal451` | 451 (0x1c3) | Exported Function | 0x6319d7b0 | 0x0001d7b0
-`Ordinal452` | 452 (0x1c4) | Exported Function | 0x631a1210 | 0x00021210
-`Ordinal453` | 453 (0x1c5) | Exported Function | 0x6319d780 | 0x0001d780
-`Ordinal454` | 454 (0x1c6) | Exported Function | 0x63195760 | 0x00015760
-`Ordinal455` | 455 (0x1c7) | Exported Function | 0x6319a480 | 0x0001a480
-`Ordinal456` | 456 (0x1c8) | Exported Function | 0x6319a4a0 | 0x0001a4a0
-`Ordinal457` | 457 (0x1c9) | Exported Function | KERNEL32.GetLongPathNameW | 0x00037932
-`Ordinal458` | 458 (0x1ca) | Exported Function | KERNEL32.GetLongPathNameA | 0x00037918
-`Ordinal459` | 459 (0x1cb) | Exported Function | 0x6319a780 | 0x0001a780
-`Ordinal46` | 46 (0x2e) | Exported Function | USER32.CopyAcceleratorTableW | 0x00037328
-`Ordinal460` | 460 (0x1cc) | Exported Function | 0x63191490 | 0x00011490
-`Ordinal461` | 461 (0x1cd) | Exported Function | SHUNIMPL.#428 | 0x00038c1e
-`Ordinal463` | 463 (0x1cf) | Exported Function | 0x6319ec30 | 0x0001ec30
-`Ordinal464` | 464 (0x1d0) | Exported Function | 0x63194970 | 0x00014970
-`Ordinal465` | 465 (0x1d1) | Exported Function | 0x6319e850 | 0x0001e850
-`Ordinal466` | 466 (0x1d2) | Exported Function | 0x63195a60 | 0x00015a60
-`Ordinal468` | 468 (0x1d4) | Exported Function | 0x631a0d40 | 0x00020d40
-`Ordinal469` | 469 (0x1d5) | Exported Function | 0x631a0dd0 | 0x00020dd0
-`Ordinal443` | 443 (0x1bb) | Exported Function | KERNEL32.GetSystemWindowsDirectoryA | 0x0003938d
-`Ordinal47` | 47 (0x2f) | Exported Function | USER32.CreateAcceleratorTableW | 0x00037358
-`Ordinal442` | 442 (0x1ba) | Exported Function | KERNEL32.GetEnvironmentVariableW | 0x000378a9
-`Ordinal440` | 440 (0x1b8) | Exported Function | SHUNIMPL.#469 | 0x00038caa
-`Ordinal415` | 415 (0x19f) | Exported Function | SHUNIMPL.#322 | 0x00038d1a
-`Ordinal416` | 416 (0x1a0) | Exported Function | SHUNIMPL.#325 | 0x00038e40
-`Ordinal417` | 417 (0x1a1) | Exported Function | SHUNIMPL.#324 | 0x00038e32
-`Ordinal418` | 418 (0x1a2) | Exported Function | SHUNIMPL.#468 | 0x00038a6c
-`Ordinal419` | 419 (0x1a3) | Exported Function | SHELL32.SHFlushSFCache | 0x000392da
-`Ordinal42` | 42 (0x2a) | Exported Function | USER32.CharToOemW | 0x00037267
-`Ordinal420` | 420 (0x1a4) | Exported Function | SHUNIMPL.#241 | 0x00038d8a
-`Ordinal421` | 421 (0x1a5) | Exported Function | SHUNIMPL.#242 | 0x00038d44
-`Ordinal422` | 422 (0x1a6) | Exported Function | SHUNIMPL.#168 | 0x00038cd4
-`Ordinal423` | 423 (0x1a7) | Exported Function | SHUNIMPL.#169 | 0x00038ce2
-`Ordinal424` | 424 (0x1a8) | Exported Function | SHUNIMPL.#170 | 0x00038cf0
-`Ordinal425` | 425 (0x1a9) | Exported Function | USER32.DeleteMenu | 0x0003755c
-`Ordinal426` | 426 (0x1aa) | Exported Function | USER32.DestroyMenu | 0x0003756e
-`Ordinal427` | 427 (0x1ab) | Exported Function | USER32.TrackPopupMenu | 0x00039f0a
-`Ordinal428` | 428 (0x1ac) | Exported Function | USER32.TrackPopupMenuEx | 0x00039ef2
-`Ordinal429` | 429 (0x1ad) | Exported Function | SHUNIMPL.#331 | 0x00038a96
-`Ordinal43` | 43 (0x2b) | Exported Function | USER32.CharUpperW | 0x0003728f
-`Ordinal430` | 430 (0x1ae) | Exported Function | SHUNIMPL.#332 | 0x00038aa4
-`Ordinal431` | 431 (0x1af) | Exported Function | SHUNIMPL.#333 | 0x00038a5e
-`Ordinal434` | 434 (0x1b2) | Exported Function | USER32.SendMessageTimeoutW | 0x00039a20
-`Ordinal435` | 435 (0x1b3) | Exported Function | 0x631a4ba0 | 0x00024ba0
-`Ordinal436` | 436 (0x1b4) | Exported Function | 0x631a4bc0 | 0x00024bc0
-`Ordinal438` | 438 (0x1b6) | Exported Function | 0x631a2630 | 0x00022630
-`Ordinal439` | 439 (0x1b7) | Exported Function | SHCORE.#126 | 0x000394bc
-`Ordinal44` | 44 (0x2c) | Exported Function | USER32.CharUpperBuffW | 0x00037279
-`Ordinal441` | 441 (0x1b9) | Exported Function | SHUNIMPL.#470 | 0x00038cb8
-`Ordinal414` | 414 (0x19e) | Exported Function | SHUNIMPL.#323 | 0x00038d28
-`Ordinal470` | 470 (0x1d6) | Exported Function | SHUNIMPL.#346 | 0x000389fc
-`Ordinal472` | 472 (0x1d8) | Exported Function | 0x631aa210 | 0x0002a210
-`Ordinal50` | 50 (0x32) | Exported Function | KERNEL32.CreateDirectoryW | 0x000373db
-`Ordinal505` | 505 (0x1f9) | Exported Function | 0x631aa440 | 0x0002a440
-`Ordinal506` | 506 (0x1fa) | Exported Function | 0x631aa660 | 0x0002a660
-`Ordinal507` | 507 (0x1fb) | Exported Function | 0x631aa420 | 0x0002a420
-`Ordinal508` | 508 (0x1fc) | Exported Function | 0x631aa640 | 0x0002a640
-`Ordinal509` | 509 (0x1fd) | Exported Function | 0x63195090 | 0x00015090
-`Ordinal51` | 51 (0x33) | Exported Function | KERNEL32.CreateEventW | 0x000373f5
-`Ordinal510` | 510 (0x1fe) | Exported Function | 0x631a9230 | 0x00029230
-`Ordinal511` | 511 (0x1ff) | Exported Function | 0x63191fe0 | 0x00011fe0
-`Ordinal514` | 514 (0x202) | Exported Function | SHCORE.#140 | 0x00037d34
-`Ordinal516` | 516 (0x204) | Exported Function | 0x631914b0 | 0x000114b0
-`Ordinal517` | 517 (0x205) | Exported Function | 0x63192960 | 0x00012960
-`Ordinal518` | 518 (0x206) | Exported Function | 0x631a68d0 | 0x000268d0
-`Ordinal519` | 519 (0x207) | Exported Function | 0x631a67e0 | 0x000267e0
-`Ordinal52` | 52 (0x34) | Exported Function | KERNEL32.CreateFileW | 0x0003740b
-`Ordinal520` | 520 (0x208) | Exported Function | 0x631aa400 | 0x0002a400
-`Ordinal521` | 521 (0x209) | Exported Function | 0x631aa4a0 | 0x0002a4a0
-`Ordinal522` | 522 (0x20a) | Exported Function | 0x631aa6c0 | 0x0002a6c0
-`Ordinal523` | 523 (0x20b) | Exported Function | 0x631aa500 | 0x0002a500
-`Ordinal524` | 524 (0x20c) | Exported Function | 0x631aa720 | 0x0002a720
-`Ordinal525` | 525 (0x20d) | Exported Function | 0x631aa4c0 | 0x0002a4c0
-`Ordinal526` | 526 (0x20e) | Exported Function | 0x631aa6e0 | 0x0002a6e0
-`Ordinal527` | 527 (0x20f) | Exported Function | 0x631aa520 | 0x0002a520
-`Ordinal528` | 528 (0x210) | Exported Function | 0x631aa740 | 0x0002a740
-`Ordinal529` | 529 (0x211) | Exported Function | 0x631aa480 | 0x0002a480
-`Ordinal5` | 5 (0x5) | Exported Function | 0x6319df40 | 0x0001df40
-`Ordinal471` | 471 (0x1d7) | Exported Function | 0x63192e80 | 0x00012e80
-`Ordinal499` | 499 (0x1f3) | Exported Function | 0x631aa600 | 0x0002a600
-`Ordinal497` | 497 (0x1f1) | Exported Function | 0x631aa680 | 0x0002a680
-`Ordinal473` | 473 (0x1d9) | Exported Function | SHUNIMPL.#171 | 0x00038c2c
-`Ordinal474` | 474 (0x1da) | Exported Function | SHUNIMPL.#172 | 0x00038dec
-`Ordinal475` | 475 (0x1db) | Exported Function | SHUNIMPL.#211 | 0x0003898c
-`Ordinal476` | 476 (0x1dc) | Exported Function | SHCORE.#193 | 0x00039364
-`Ordinal477` | 477 (0x1dd) | Exported Function | 0x631aa3a0 | 0x0002a3a0
-`Ordinal478` | 478 (0x1de) | Exported Function | 0x63193540 | 0x00013540
-`Ordinal479` | 479 (0x1df) | Exported Function | 0x631934b0 | 0x000134b0
-`Ordinal48` | 48 (0x30) | Exported Function | GDI32.CreateDCW | 0x0003738f
-`Ordinal480` | 480 (0x1e0) | Exported Function | SHUNIMPL.#341 | 0x00038f74
-`Ordinal481` | 481 (0x1e1) | Exported Function | 0x631a4e80 | 0x00024e80
-`Ordinal482` | 482 (0x1e2) | Exported Function | SHUNIMPL.#369 | 0x00038d60
-`Ordinal483` | 483 (0x1e3) | Exported Function | SHUNIMPL.#370 | 0x00038d6e
-`Ordinal484` | 484 (0x1e4) | Exported Function | 0x631a4f00 | 0x00024f00
-`Ordinal485` | 485 (0x1e5) | Exported Function | SHCORE.#103 | 0x00037fb8
-`Ordinal486` | 486 (0x1e6) | Exported Function | SHCORE.#104 | 0x00037ff2
-`Ordinal488` | 488 (0x1e8) | Exported Function | SHUNIMPL.#347 | 0x00038bbc
-`Ordinal489` | 489 (0x1e9) | Exported Function | KERNEL32.GlobalAddAtomW | 0x00037c06
-`Ordinal49` | 49 (0x31) | Exported Function | USER32.CreateDialogParamW | 0x000373c1
-`Ordinal490` | 490 (0x1ea) | Exported Function | KERNEL32.GlobalFindAtomW | 0x00037c1e
-`Ordinal491` | 491 (0x1eb) | Exported Function | 0x631a5940 | 0x00025940
-`Ordinal492` | 492 (0x1ec) | Exported Function | SHUNIMPL.#357 | 0x00038ab2
-`Ordinal493` | 493 (0x1ed) | Exported Function | 0x631aa5a0 | 0x0002a5a0
-`Ordinal494` | 494 (0x1ee) | Exported Function | 0x631aa540 | 0x0002a540
-`Ordinal495` | 495 (0x1ef) | Exported Function | 0x631aa760 | 0x0002a760
-`Ordinal496` | 496 (0x1f0) | Exported Function | 0x631aa460 | 0x0002a460
-`Ordinal498` | 498 (0x1f2) | Exported Function | SHUNIMPL.#348 | 0x00038d98
-`Ordinal530` | 530 (0x212) | Exported Function | 0x631aa6a0 | 0x0002a6a0
-`Ordinal413` | 413 (0x19d) | Exported Function | 0x631a23f0 | 0x000223f0
-`Ordinal411` | 411 (0x19b) | Exported Function | SHUNIMPL.#238 | 0x0003891c
-`Ordinal330` | 330 (0x14a) | Exported Function | SHUNIMPL.#464 | 0x00038a34
-`Ordinal331` | 331 (0x14b) | Exported Function | 0x631a8fe0 | 0x00028fe0
-`Ordinal332` | 332 (0x14c) | Exported Function | USER32.CallMsgFilterW | 0x000371f0
-`Ordinal333` | 333 (0x14d) | Exported Function | SHELL32.SHBrowseForFolderW | 0x00039097
-`Ordinal334` | 334 (0x14e) | Exported Function | SHELL32.SHGetPathFromIDListW | 0x00039370
-`Ordinal335` | 335 (0x14f) | Exported Function | SHELL32.ShellExecuteExW | 0x00039b0d
-`Ordinal336` | 336 (0x150) | Exported Function | SHELL32.SHFileOperationW | 0x000392c1
-`Ordinal337` | 337 (0x151) | Exported Function | SHELL32.ExtractIconExW | 0x000376be
-`Ordinal338` | 338 (0x152) | Exported Function | KERNEL32.SetFileAttributesW | 0x00039a84
-`Ordinal339` | 339 (0x153) | Exported Function | KERNEL32.GetNumberFormatW | 0x000379d4
-`Ordinal34` | 34 (0x22) | Exported Function | 0x6319a030 | 0x0001a030
-`Ordinal340` | 340 (0x154) | Exported Function | USER32.MessageBoxW | 0x00037fdf
-`Ordinal341` | 341 (0x155) | Exported Function | KERNEL32.FindNextFileW | 0x00037702
-`Ordinal342` | 342 (0x156) | Exported Function | KERNEL32.InterlockedCompareExchange | 0x00039452
-`Ordinal343` | 343 (0x157) | Exported Function | SHUNIMPL.#166 | 0x00038dc2
-`Ordinal344` | 344 (0x158) | Exported Function | 0x631984f0 | 0x000184f0
-`Ordinal347` | 347 (0x15b) | Exported Function | 0x631a90a0 | 0x000290a0
-`Ordinal348` | 348 (0x15c) | Exported Function | 0x631a1cd0 | 0x00021cd0
-`Ordinal349` | 349 (0x15d) | Exported Function | 0x6319ec80 | 0x0001ec80
-`Ordinal35` | 35 (0x23) | Exported Function | 0x631a3390 | 0x00023390
-`Ordinal350` | 350 (0x15e) | Exported Function | 0x631a8b00 | 0x00028b00
-`Ordinal351` | 351 (0x15f) | Exported Function | 0x631a8b20 | 0x00028b20
-`Ordinal352` | 352 (0x160) | Exported Function | 0x631a8b50 | 0x00028b50
-`Ordinal355` | 355 (0x163) | Exported Function | 0x631a4c70 | 0x00024c70
-`Ordinal356` | 356 (0x164) | Exported Function | SHUNIMPL.#167 | 0x00038c02
-`Ordinal33` | 33 (0x21) | Exported Function | 0x63199fd0 | 0x00019fd0
-`Ordinal357` | 357 (0x165) | Exported Function | SHELL32.SHGetNewLinkInfoW | 0x0003934a
-`Ordinal329` | 329 (0x149) | Exported Function | SHUNIMPL.#463 | 0x00038970
-`Ordinal327` | 327 (0x147) | Exported Function | SHUNIMPL.#461 | 0x00038f4a
-`Ordinal304` | 304 (0x130) | Exported Function | GDI32.CreateMetaFileW | 0x0003745c
-`Ordinal305` | 305 (0x131) | Exported Function | KERNEL32.CreateMutexW | 0x00037472
-`Ordinal306` | 306 (0x132) | Exported Function | KERNEL32.ExpandEnvironmentStringsW | 0x00037689
-`Ordinal307` | 307 (0x133) | Exported Function | KERNEL32.CreateSemaphoreW | 0x000374a0
-`Ordinal308` | 308 (0x134) | Exported Function | KERNEL32.IsBadStringPtrW | 0x00037ded
-`Ordinal309` | 309 (0x135) | Exported Function | KERNEL32.LoadLibraryW | 0x00037f23
-`Ordinal31` | 31 (0x1f) | Exported Function | 0x63199ff0 | 0x00019ff0
-`Ordinal310` | 310 (0x136) | Exported Function | KERNEL32.GetTimeFormatW | 0x00037b88
-`Ordinal311` | 311 (0x137) | Exported Function | KERNEL32.GetDateFormatW | 0x0003787a
-`Ordinal312` | 312 (0x138) | Exported Function | KERNEL32.GetPrivateProfileStringW | 0x00037a38
-`Ordinal313` | 313 (0x139) | Exported Function | SHELL32.SHGetFileInfoW | 0x00039322
-`Ordinal314` | 314 (0x13a) | Exported Function | USER32.RegisterClassExW | 0x00038fac
-`Ordinal315` | 315 (0x13b) | Exported Function | USER32.GetClassInfoExW | 0x000377e7
-`Ordinal316` | 316 (0x13c) | Exported Function | 0x63193050 | 0x00013050
-`Ordinal317` | 317 (0x13d) | Exported Function | 0x63196e40 | 0x00016e40
-`Ordinal318` | 318 (0x13e) | Exported Function | SHELL32.DragQueryFileW | 0x000375ef
-`Ordinal319` | 319 (0x13f) | Exported Function | USER32.FindWindowExW | 0x00037730
-`Ordinal32` | 32 (0x20) | Exported Function | 0x63199fb0 | 0x00019fb0
-`Ordinal320` | 320 (0x140) | Exported Function | SHUNIMPL.#454 | 0x00038b30
-`Ordinal321` | 321 (0x141) | Exported Function | SHUNIMPL.#455 | 0x00038b3e
-`Ordinal322` | 322 (0x142) | Exported Function | SHUNIMPL.#456 | 0x00038f58
-`Ordinal323` | 323 (0x143) | Exported Function | SHUNIMPL.#457 | 0x00038f66
-`Ordinal324` | 324 (0x144) | Exported Function | SHUNIMPL.#458 | 0x00038af8
-`Ordinal325` | 325 (0x145) | Exported Function | SHUNIMPL.#459 | 0x00038b06
-`Ordinal326` | 326 (0x146) | Exported Function | SHUNIMPL.#460 | 0x00038f3c
-`Ordinal328` | 328 (0x148) | Exported Function | SHUNIMPL.#462 | 0x00038962
-`Ordinal412` | 412 (0x19c) | Exported Function | SHUNIMPL.#239 | 0x0003890e
-`Ordinal358` | 358 (0x166) | Exported Function | SHELL32.SHDefExtractIconW | 0x000391d5
-`Ordinal36` | 36 (0x24) | Exported Function | USER32.AppendMenuW | 0x0003713a
-`Ordinal39` | 39 (0x27) | Exported Function | USER32.CharLowerBuffW | 0x0003721d
-`Ordinal390` | 390 (0x186) | Exported Function | SHUNIMPL.#209 | 0x00038f82
-`Ordinal391` | 391 (0x187) | Exported Function | MPR.WNetGetLastErrorW | 0x0003a0cb
-`Ordinal392` | 392 (0x188) | Exported Function | USER32.EndDialog | 0x0003762a
-`Ordinal393` | 393 (0x189) | Exported Function | USER32.CreateDialogIndirectParamW | 0x0003739f
-`Ordinal394` | 394 (0x18a) | Exported Function | SHELL32.SHChangeNotify | 0x000390b2
-`Ordinal395` | 395 (0x18b) | Exported Function | USER32.WinHelpA | 0x00037f98
-`Ordinal396` | 396 (0x18c) | Exported Function | SHUNIMPL.#320 | 0x00038a7a
-`Ordinal397` | 397 (0x18d) | Exported Function | USER32.WinHelpW | 0x00037fa8
-`Ordinal398` | 398 (0x18e) | Exported Function | SHUNIMPL.#321 | 0x00038a88
-`Ordinal399` | 399 (0x18f) | Exported Function | 0x6319ad40 | 0x0001ad40
-`Ordinal4` | 4 (0x4) | Exported Function | 0x63191fa0 | 0x00011fa0
-`Ordinal40` | 40 (0x28) | Exported Function | USER32.CharNextW | 0x00037245
-`Ordinal400` | 400 (0x190) | Exported Function | 0x6319ad60 | 0x0001ad60
-`Ordinal401` | 401 (0x191) | Exported Function | COMDLG32.PageSetupDlgW | 0x00038066
-`Ordinal402` | 402 (0x192) | Exported Function | COMDLG32.PrintDlgW | 0x000388e6
-`Ordinal403` | 403 (0x193) | Exported Function | COMDLG32.GetOpenFileNameW | 0x000379ff
-`Ordinal404` | 404 (0x194) | Exported Function | SHUNIMPL.#313 | 0x000389d2
-`Ordinal405` | 405 (0x195) | Exported Function | SHUNIMPL.#466 | 0x00038a42
-`Ordinal406` | 406 (0x196) | Exported Function | SHUNIMPL.#467 | 0x00038a50
-`Ordinal407` | 407 (0x197) | Exported Function | 0x631a0500 | 0x00020500
-`Ordinal408` | 408 (0x198) | Exported Function | 0x631a06a0 | 0x000206a0
-`Ordinal409` | 409 (0x199) | Exported Function | 0x631a0280 | 0x00020280
-`Ordinal41` | 41 (0x29) | Exported Function | USER32.CharPrevW | 0x00037256
-`Ordinal410` | 410 (0x19a) | Exported Function | 0x631a01d0 | 0x000201d0
-`Ordinal389` | 389 (0x185) | Exported Function | COMDLG32.GetSaveFileNameW | 0x00037aa7
-`Ordinal359` | 359 (0x167) | Exported Function | KERNEL32.OpenEventW | 0x00038036
-`Ordinal387` | 387 (0x183) | Exported Function | SHUNIMPL.#340 | 0x00038db4
-`Ordinal385` | 385 (0x181) | Exported Function | SHUNIMPL.#338 | 0x00038d52
-`Ordinal360` | 360 (0x168) | Exported Function | KERNEL32.RemoveDirectoryW | 0x00039018
-`Ordinal361` | 361 (0x169) | Exported Function | KERNEL32.GetShortPathNameW | 0x00037ac1
-`Ordinal362` | 362 (0x16a) | Exported Function | SHUNIMPL.#465 | 0x000389a8
-`Ordinal363` | 363 (0x16b) | Exported Function | 0x631a5970 | 0x00025970
-`Ordinal364` | 364 (0x16c) | Exported Function | 0x6319ec10 | 0x0001ec10
-`Ordinal365` | 365 (0x16d) | Exported Function | 0x63192500 | 0x00012500
-`Ordinal366` | 366 (0x16e) | Exported Function | 0x631a90e0 | 0x000290e0
-`Ordinal367` | 367 (0x16f) | Exported Function | KERNEL32.WritePrivateProfileStructW | 0x0003a123
-`Ordinal368` | 368 (0x170) | Exported Function | KERNEL32.GetPrivateProfileStructW | 0x00037a5a
-`Ordinal369` | 369 (0x171) | Exported Function | KERNEL32.CreateProcessW | 0x00037488
-`Ordinal37` | 37 (0x25) | Exported Function | USER32.CallWindowProcW | 0x00037206
-`Ordinal370` | 370 (0x172) | Exported Function | SHELL32.ExtractIconW | 0x000376d5
-`Ordinal371` | 371 (0x173) | Exported Function | USER32.DdeInitializeW | 0x000374ef
-`Ordinal372` | 372 (0x174) | Exported Function | USER32.DdeCreateStringHandleW | 0x000374d1
-`Ordinal373` | 373 (0x175) | Exported Function | USER32.DdeQueryStringW | 0x00037505
-`Ordinal374` | 374 (0x176) | Exported Function | SHUNIMPL.#344 | 0x00038b76
-`Ordinal375` | 375 (0x177) | Exported Function | SHUNIMPL.#345 | 0x00038b84
-`Ordinal376` | 376 (0x178) | Exported Function | KERNEL32.GetThreadUILanguage | 0x00037f5d
-`Ordinal379` | 379 (0x17b) | Exported Function | SHELL32.Shell_GetCachedImageIndexW | 0x00039b6a
-`Ordinal38` | 38 (0x26) | Exported Function | USER32.CharLowerW | 0x00037233
-`Ordinal380` | 380 (0x17c) | Exported Function | SHELL32.Shell_GetCachedImageIndexA | 0x00039b47
-`Ordinal381` | 381 (0x17d) | Exported Function | 0x631a0100 | 0x00020100
-`Ordinal382` | 382 (0x17e) | Exported Function | 0x631b1fb0 | 0x00031fb0
-`Ordinal383` | 383 (0x17f) | Exported Function | 0x631b20d0 | 0x000320d0
-`Ordinal384` | 384 (0x180) | Exported Function | 0x631a6310 | 0x00026310
-`Ordinal386` | 386 (0x182) | Exported Function | SHUNIMPL.#339 | 0x00038da6
-`wvnsprintfW` | 925 (0x39d) | Exported Function | 0x631a3cf0 | 0x00023cf0
+Function Name | Ordinal | Type
+-- | -- | --
+`SHRegSetPathW` | 816 | Exported Function
+`SHRegSetUSValueA` | 817 | Exported Function
+`SHRegSetPathA` | 815 | Exported Function
+`SHRegQueryUSValueA` | 813 | Exported Function
+`SHRegQueryUSValueW` | 814 | Exported Function
+`SHRegSetUSValueW` | 818 | Exported Function
+`SHRunIndirectRegClientCommand` | 467 | Exported Function
+`SHSendMessageBroadcastA` | 432 | Exported Function
+`SHReleaseThreadRef` | 822 | Exported Function
+`SHRegWriteUSValueA` | 819 | Exported Function
+`SHRegWriteUSValueW` | 820 | Exported Function
+`SHRegQueryInfoUSKeyW` | 812 | Exported Function
+`SHRegGetUSValueW` | 806 | Exported Function
+`SHRegGetValueA` | 807 | Exported Function
+`SHRegGetUSValueA` | 805 | Exported Function
+`SHRegGetPathA` | 803 | Exported Function
+`SHRegGetPathW` | 804 | Exported Function
+`SHRegGetValueFromHKCUHKLM` | 629 | Exported Function
+`SHRegOpenUSKeyW` | 810 | Exported Function
+`SHRegQueryInfoUSKeyA` | 811 | Exported Function
+`SHRegOpenUSKeyA` | 809 | Exported Function
+`SHRegGetValueW` | 808 | Exported Function
+`SHRegisterValidateTemplate` | 821 | Exported Function
+`SHSendMessageBroadcastW` | 433 | Exported Function
+`StrCatW` | 837 | Exported Function
+`StrChrA` | 838 | Exported Function
+`StrCatChainW` | 836 | Exported Function
+`StrCatBuffA` | 834 | Exported Function
+`StrCatBuffW` | 835 | Exported Function
+`StrChrIA` | 839 | Exported Function
+`StrChrW` | 843 | Exported Function
+`StrCmpCA` | 155 | Exported Function
+`StrChrNW` | 842 | Exported Function
+`StrChrIW` | 840 | Exported Function
+`StrChrNIW` | 841 | Exported Function
+`SHUnlockShared` | 9 | Exported Function
+`SHSkipJunction` | 826 | Exported Function
+`SHStrDupA` | 827 | Exported Function
+`SHSetValueW` | 825 | Exported Function
+`SHSetThreadRef` | 823 | Exported Function
+`SHSetValueA` | 824 | Exported Function
+`SHStrDupW` | 828 | Exported Function
+`SHUnicodeToAnsiCP` | 218 | Exported Function
+`SHUnicodeToUnicode` | 346 | Exported Function
+`SHUnicodeToAnsi` | 217 | Exported Function
+`SHStripMneumonicA` | 203 | Exported Function
+`SHStripMneumonicW` | 225 | Exported Function
+`SHLoadIndirectString` | 487 | Exported Function
+`SHLockShared` | 8 | Exported Function
+`SHIsLowMemoryMachine` | 780 | Exported Function
+`SHGetViewStatePropertyBag` | 515 | Exported Function
+`SHIsChildOrSelf` | 204 | Exported Function
+`SHMessageBoxCheckA` | 185 | Exported Function
+`SHOpenRegStreamA` | 783 | Exported Function
+`SHOpenRegStreamW` | 784 | Exported Function
+`SHOpenRegStream2W` | 782 | Exported Function
+`SHMessageBoxCheckW` | 191 | Exported Function
+`SHOpenRegStream2A` | 781 | Exported Function
+`SHGetValueW` | 779 | Exported Function
+`SHEnumValueA` | 774 | Exported Function
+`SHEnumValueW` | 775 | Exported Function
+`SHEnumKeyExW` | 773 | Exported Function
+`ShellMessageBoxW` | 388 | Exported Function
+`SHEnumKeyExA` | 772 | Exported Function
+`SHFormatDateTimeA` | 353 | Exported Function
+`SHGetThreadRef` | 777 | Exported Function
+`SHGetValueA` | 778 | Exported Function
+`SHGetInverseCMAP` | 776 | Exported Function
+`SHFormatDateTimeW` | 354 | Exported Function
+`SHFreeShared` | 10 | Exported Function
+`SHPackDispParamsV` | 281 | Exported Function
+`SHRegEnumUSKeyA` | 797 | Exported Function
+`SHRegEnumUSKeyW` | 798 | Exported Function
+`SHRegDuplicateHKey` | 796 | Exported Function
+`SHRegDeleteUSValueA` | 794 | Exported Function
+`SHRegDeleteUSValueW` | 795 | Exported Function
+`SHRegEnumUSValueA` | 799 | Exported Function
+`SHRegGetBoolValueFromHKCUHKLM` | 630 | Exported Function
+`SHRegGetIntW` | 280 | Exported Function
+`SHRegGetBoolUSValueW` | 802 | Exported Function
+`SHRegEnumUSValueW` | 800 | Exported Function
+`SHRegGetBoolUSValueA` | 801 | Exported Function
+`SHRegDeleteEmptyUSKeyW` | 793 | Exported Function
+`SHQueryInfoKeyA` | 785 | Exported Function
+`SHQueryInfoKeyW` | 786 | Exported Function
+`SHPropertyBag_WriteBSTR` | 570 | Exported Function
+`SHPinDllOfCLSID` | 236 | Exported Function
+`SHPropertyBag_ReadStrAlloc` | 567 | Exported Function
+`SHQueryValueExA` | 787 | Exported Function
+`SHRegCreateUSKeyW` | 791 | Exported Function
+`SHRegDeleteEmptyUSKeyA` | 792 | Exported Function
+`SHRegCreateUSKeyA` | 790 | Exported Function
+`SHQueryValueExW` | 788 | Exported Function
+`SHRegCloseUSKey` | 789 | Exported Function
+`StrCmpCW` | 156 | Exported Function
+`UrlApplySchemeA` | 896 | Exported Function
+`UrlApplySchemeW` | 897 | Exported Function
+`StrTrimW` | 895 | Exported Function
+`StrToIntW` | 893 | Exported Function
+`StrTrimA` | 894 | Exported Function
+`UrlCanonicalizeA` | 898 | Exported Function
+`UrlCompareA` | 902 | Exported Function
+`UrlCompareW` | 903 | Exported Function
+`UrlCombineW` | 901 | Exported Function
+`UrlCanonicalizeW` | 899 | Exported Function
+`UrlCombineA` | 900 | Exported Function
+`StrToIntExW` | 892 | Exported Function
+`StrStrIW` | 884 | Exported Function
+`StrStrNIW` | 885 | Exported Function
+`StrStrIA` | 883 | Exported Function
+`StrSpnW` | 881 | Exported Function
+`StrStrA` | 882 | Exported Function
+`StrStrNW` | 886 | Exported Function
+`StrToIntA` | 890 | Exported Function
+`StrToIntExA` | 891 | Exported Function
+`StrToInt64ExW` | 889 | Exported Function
+`StrStrW` | 887 | Exported Function
+`StrToInt64ExA` | 888 | Exported Function
+`UrlCreateFromPathA` | 904 | Exported Function
+`UrlIsW` | 919 | Exported Function
+`UrlUnescapeA` | 920 | Exported Function
+`UrlIsOpaqueW` | 918 | Exported Function
+`UrlIsNoHistoryW` | 916 | Exported Function
+`UrlIsOpaqueA` | 917 | Exported Function
+`UrlUnescapeW` | 921 | Exported Function
+`wvnsprintfA` | 924 | Exported Function
+`wvnsprintfW` | 925 | Exported Function
+`wnsprintfW` | 923 | Exported Function
+`WhichPlatform` | 276 | Exported Function
+`wnsprintfA` | 922 | Exported Function
+`UrlIsNoHistoryA` | 915 | Exported Function
+`UrlFixupW` | 462 | Exported Function
+`UrlGetLocationA` | 908 | Exported Function
+`UrlEscapeW` | 907 | Exported Function
+`UrlCreateFromPathW` | 905 | Exported Function
+`UrlEscapeA` | 906 | Exported Function
+`UrlGetLocationW` | 909 | Exported Function
+`UrlHashW` | 913 | Exported Function
+`UrlIsA` | 914 | Exported Function
+`UrlHashA` | 912 | Exported Function
+`UrlGetPartA` | 910 | Exported Function
+`UrlGetPartW` | 911 | Exported Function
+`StrCSpnA` | 830 | Exported Function
+`StrCSpnIA` | 831 | Exported Function
+`StrCpyW` | 852 | Exported Function
+`StrCmpW` | 850 | Exported Function
+`StrCpyNW` | 851 | Exported Function
+`StrCSpnIW` | 832 | Exported Function
+`StrFormatByteSize64A` | 855 | Exported Function
+`StrFormatByteSizeA` | 856 | Exported Function
+`StrDupW` | 854 | Exported Function
+`StrCSpnW` | 833 | Exported Function
+`StrDupA` | 853 | Exported Function
+`StrCmpNW` | 849 | Exported Function
+`StrCmpLogicalW` | 845 | Exported Function
+`StrCmpNA` | 846 | Exported Function
+`StrCmpIW` | 844 | Exported Function
+`StrCmpICA` | 157 | Exported Function
+`StrCmpICW` | 158 | Exported Function
+`StrCmpNCA` | 151 | Exported Function
+`StrCmpNICW` | 154 | Exported Function
+`StrCmpNIW` | 848 | Exported Function
+`StrCmpNICA` | 153 | Exported Function
+`StrCmpNCW` | 152 | Exported Function
+`StrCmpNIA` | 847 | Exported Function
+`StrFormatByteSizeEx` | 857 | Exported Function
+`StrRetToBSTR` | 875 | Exported Function
+`StrRetToBufA` | 876 | Exported Function
+`StrRChrW` | 872 | Exported Function
+`StrRChrIA` | 870 | Exported Function
+`StrRChrIW` | 871 | Exported Function
+`StrRetToBufW` | 877 | Exported Function
+`StrRStrIW` | 874 | Exported Function
+`StrSpnA` | 880 | Exported Function
+`StrRStrIA` | 873 | Exported Function
+`StrRetToStrA` | 878 | Exported Function
+`StrRetToStrW` | 879 | Exported Function
+`StrRChrA` | 869 | Exported Function
+`StrFromTimeIntervalA` | 861 | Exported Function
+`StrFromTimeIntervalW` | 862 | Exported Function
+`StrFormatKBSizeW` | 860 | Exported Function
+`StrFormatByteSizeW` | 858 | Exported Function
+`StrFormatKBSizeA` | 859 | Exported Function
+`StrIsIntlEqualA` | 863 | Exported Function
+`StrPBrkA` | 867 | Exported Function
+`StrPBrkW` | 868 | Exported Function
+`StrNCatW` | 866 | Exported Function
+`StrIsIntlEqualW` | 864 | Exported Function
+`StrNCatA` | 865 | Exported Function
+`ShellMessageBoxA` | 829 | Exported Function
+`PathCommonPrefixA` | 654 | Exported Function
+`PathCommonPrefixW` | 655 | Exported Function
+`PathCombineW` | 653 | Exported Function
+`PathCanonicalizeW` | 651 | Exported Function
+`PathCombineA` | 652 | Exported Function
+`PathCompactPathA` | 656 | Exported Function
+`PathCreateFromUrlA` | 660 | Exported Function
+`PathCreateFromUrlAlloc` | 661 | Exported Function
+`PathCompactPathW` | 659 | Exported Function
+`PathCompactPathExA` | 657 | Exported Function
+`PathCompactPathExW` | 658 | Exported Function
+`PathCanonicalizeA` | 650 | Exported Function
+`PathAddBackslashA` | 610 | Exported Function
+`PathAddBackslashW` | 612 | Exported Function
+`ParseURLW` | 2 | Exported Function
+`MLLoadLibraryW` | 378 | Exported Function
+`ParseURLA` | 1 | Exported Function
+`PathAddExtensionA` | 620 | Exported Function
+`PathBuildRootA` | 625 | Exported Function
+`PathBuildRootW` | 649 | Exported Function
+`PathAppendW` | 624 | Exported Function
+`PathAddExtensionW` | 622 | Exported Function
+`PathAppendA` | 623 | Exported Function
+`PathCreateFromUrlW` | 662 | Exported Function
+`PathGetCharTypeA` | 677 | Exported Function
+`PathGetCharTypeW` | 678 | Exported Function
+`PathGetArgsW` | 676 | Exported Function
+`PathFindSuffixArrayW` | 674 | Exported Function
+`PathGetArgsA` | 675 | Exported Function
+`PathGetDriveNumberA` | 679 | Exported Function
+`PathIsDirectoryA` | 683 | Exported Function
+`PathIsDirectoryEmptyA` | 684 | Exported Function
+`PathIsContentTypeW` | 682 | Exported Function
+`PathGetDriveNumberW` | 680 | Exported Function
+`PathIsContentTypeA` | 681 | Exported Function
+`PathFindSuffixArrayA` | 673 | Exported Function
+`PathFindExtensionA` | 665 | Exported Function
+`PathFindExtensionW` | 666 | Exported Function
+`PathFileExistsW` | 664 | Exported Function
+`PathFileExistsA` | 663 | Exported Function
+`PathFileExistsAndAttributesW` | 446 | Exported Function
+`PathFindFileNameA` | 667 | Exported Function
+`PathFindOnPathA` | 671 | Exported Function
+`PathFindOnPathW` | 672 | Exported Function
+`PathFindNextComponentW` | 670 | Exported Function
+`PathFindFileNameW` | 668 | Exported Function
+`PathFindNextComponentA` | 669 | Exported Function
+`DelayLoadFailureHook` | 569 | Exported Function
+`DllGetClassObject` | 592 | Exported Function
+`ConnectToConnectionPoint` | 168 | Exported Function
+`ColorHLSToRGB` | 590 | Exported Function
+`ColorRGBToHLS` | 591 | Exported Function
+`DllGetVersion` | 593 | Exported Function
+`GUIDFromStringW` | 270 | Exported Function
+`HashData` | 595 | Exported Function
+`GetMenuPosFromID` | 594 | Exported Function
+`GetAcceptLanguagesA` | 14 | Exported Function
+`GetAcceptLanguagesW` | 15 | Exported Function
+`ColorAdjustLuma` | 589 | Exported Function
+`AssocQueryKeyA` | 503 | Exported Function
+`AssocQueryKeyW` | 504 | Exported Function
+`AssocIsDangerous` | 502 | Exported Function
+`AssocCreate` | 500 | Exported Function
+`AssocGetPerceivedType` | 501 | Exported Function
+`AssocQueryStringA` | 579 | Exported Function
+`ChrCmpIA` | 587 | Exported Function
+`ChrCmpIW` | 588 | Exported Function
+`AssocQueryStringW` | 586 | Exported Function
+`AssocQueryStringByKeyA` | 584 | Exported Function
+`AssocQueryStringByKeyW` | 585 | Exported Function
+`IntlStrEqWorkerA` | 607 | Exported Function
+`IUnknown_Exec` | 164 | Exported Function
+`IUnknown_GetSite` | 256 | Exported Function
+`IUnknown_AtomicRelease` | 169 | Exported Function
+`IStream_WritePidl` | 513 | Exported Function
+`IStream_WriteStr` | 597 | Exported Function
+`IUnknown_GetWindow` | 172 | Exported Function
+`IUnknown_SetSite` | 174 | Exported Function
+`MLLoadLibraryA` | 377 | Exported Function
+`IUnknown_Set` | 199 | Exported Function
+`IUnknown_QueryService` | 176 | Exported Function
+`IUnknown_QueryStatus` | 163 | Exported Function
+`IStream_Write` | 212 | Exported Function
+`IsInternetESCEnabled` | 553 | Exported Function
+`IsOS` | 437 | Exported Function
+`IsCharSpaceW` | 29 | Exported Function
+`IntlStrEqWorkerW` | 608 | Exported Function
+`IsCharSpaceA` | 609 | Exported Function
+`IStream_Copy` | 568 | Exported Function
+`IStream_Reset` | 213 | Exported Function
+`IStream_Size` | 214 | Exported Function
+`IStream_ReadStr` | 596 | Exported Function
+`IStream_Read` | 184 | Exported Function
+`IStream_ReadPidl` | 512 | Exported Function
+`PathIsDirectoryEmptyW` | 685 | Exported Function
+`PathUndecorateW` | 750 | Exported Function
+`PathUnExpandEnvStringsA` | 747 | Exported Function
+`PathUndecorateA` | 749 | Exported Function
+`PathStripToRootA` | 745 | Exported Function
+`PathStripToRootW` | 746 | Exported Function
+`PathUnExpandEnvStringsW` | 748 | Exported Function
+`PathUnquoteSpacesW` | 754 | Exported Function
+`QISearch` | 219 | Exported Function
+`PathUnquoteSpacesA` | 753 | Exported Function
+`PathUnmakeSystemFolderA` | 751 | Exported Function
+`PathUnmakeSystemFolderW` | 752 | Exported Function
+`PathStripPathW` | 744 | Exported Function
+`PathRenameExtensionW` | 736 | Exported Function
+`PathSearchAndQualifyA` | 737 | Exported Function
+`PathRenameExtensionA` | 735 | Exported Function
+`PathRemoveFileSpecA` | 733 | Exported Function
+`PathRemoveFileSpecW` | 734 | Exported Function
+`PathSearchAndQualifyW` | 738 | Exported Function
+`PathSkipRootW` | 742 | Exported Function
+`PathStripPathA` | 743 | Exported Function
+`PathSkipRootA` | 741 | Exported Function
+`PathSetDlgItemPathA` | 739 | Exported Function
+`PathSetDlgItemPathW` | 740 | Exported Function
+`SHAllocShared` | 7 | Exported Function
+`SHDeleteEmptyKeyA` | 764 | Exported Function
+`SHDeleteEmptyKeyW` | 765 | Exported Function
+`SHCreateWorkerWindowW` | 278 | Exported Function
+`SHCreateThreadRef` | 763 | Exported Function
+`SHCreateThreadWithHandle` | 615 | Exported Function
+`SHDeleteKeyA` | 766 | Exported Function
+`SHDeleteValueA` | 770 | Exported Function
+`SHDeleteValueW` | 771 | Exported Function
+`SHDeleteOrphanKeyW` | 769 | Exported Function
+`SHDeleteKeyW` | 767 | Exported Function
+`SHDeleteOrphanKeyA` | 768 | Exported Function
+`SHCreateThread` | 16 | Exported Function
+`SHCopyKeyA` | 756 | Exported Function
+`SHCopyKeyW` | 757 | Exported Function
+`SHAutoComplete` | 755 | Exported Function
+`SHAnsiToAnsi` | 345 | Exported Function
+`SHAnsiToUnicode` | 215 | Exported Function
+`SHCreateMemStream` | 12 | Exported Function
+`SHCreateStreamOnFileW` | 761 | Exported Function
+`SHCreateStreamWrapper` | 762 | Exported Function
+`SHCreateStreamOnFileEx` | 760 | Exported Function
+`SHCreateShellPalette` | 758 | Exported Function
+`SHCreateStreamOnFileA` | 759 | Exported Function
+`PathIsSystemFolderA` | 701 | Exported Function
+`PathIsSystemFolderW` | 702 | Exported Function
+`PathIsSameRootW` | 700 | Exported Function
+`PathIsRootW` | 698 | Exported Function
+`PathIsSameRootA` | 699 | Exported Function
+`PathIsUNCA` | 703 | Exported Function
+`PathIsUNCServerW` | 707 | Exported Function
+`PathIsUNCW` | 708 | Exported Function
+`PathIsUNCServerShareW` | 706 | Exported Function
+`PathIsUNCServerA` | 704 | Exported Function
+`PathIsUNCServerShareA` | 705 | Exported Function
+`PathIsRootA` | 697 | Exported Function
+`PathIsLFNFileSpecA` | 689 | Exported Function
+`PathIsLFNFileSpecW` | 690 | Exported Function
+`PathIsFileSpecW` | 688 | Exported Function
+`PathIsDirectoryW` | 686 | Exported Function
+`PathIsFileSpecA` | 687 | Exported Function
+`PathIsNetworkPathA` | 691 | Exported Function
+`PathIsRelativeA` | 695 | Exported Function
+`PathIsRelativeW` | 696 | Exported Function
+`PathIsPrefixW` | 694 | Exported Function
+`PathIsNetworkPathW` | 692 | Exported Function
+`PathIsPrefixA` | 693 | Exported Function
+`PathIsURLA` | 709 | Exported Function
+`PathRemoveArgsA` | 725 | Exported Function
+`PathRemoveArgsW` | 726 | Exported Function
+`PathRelativePathToW` | 724 | Exported Function
+`PathQuoteSpacesW` | 722 | Exported Function
+`PathRelativePathToA` | 723 | Exported Function
+`PathRemoveBackslashA` | 727 | Exported Function
+`PathRemoveExtensionA` | 731 | Exported Function
+`PathRemoveExtensionW` | 732 | Exported Function
+`PathRemoveBlanksW` | 730 | Exported Function
+`PathRemoveBackslashW` | 728 | Exported Function
+`PathRemoveBlanksA` | 729 | Exported Function
+`PathQuoteSpacesA` | 721 | Exported Function
+`PathMakeSystemFolderA` | 713 | Exported Function
+`PathMakeSystemFolderW` | 714 | Exported Function
+`PathMakePrettyW` | 712 | Exported Function
+`PathIsURLW` | 710 | Exported Function
+`PathMakePrettyA` | 711 | Exported Function
+`PathMatchSpecA` | 715 | Exported Function
+`PathParseIconLocationA` | 719 | Exported Function
+`PathParseIconLocationW` | 720 | Exported Function
+`PathMatchSpecW` | 718 | Exported Function
+`PathMatchSpecExA` | 716 | Exported Function
+`PathMatchSpecExW` | 717 | Exported Function
 
 
 ## Signature

@@ -24,14 +24,14 @@ PE256 | `FAE0934C42535D7F787365CFB436543D782AD54F2D97E4FDCE90A04DABB15AF6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018001ad80 | 0x0001ad80
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x000000018001ab80 | 0x0001ab80
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000018001ad00 | 0x0001ad00
-`WpcWebFilterCreate` | 4 (0x4) | Exported Function | 0x000000018001b6b0 | 0x0001b6b0
-`WpcWebFilterDestroy` | 5 (0x5) | Exported Function | 0x000000018001b830 | 0x0001b830
-`WpcWebFilterGet` | 6 (0x6) | Exported Function | 0x000000018001b780 | 0x0001b780
+Function Name | Ordinal | Type
+-- | -- | --
+`WpcWebFilterCreate` | 4 | Exported Function
+`WpcWebFilterDestroy` | 5 | Exported Function
+`WpcWebFilterGet` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

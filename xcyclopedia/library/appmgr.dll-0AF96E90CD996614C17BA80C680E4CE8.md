@@ -24,11 +24,11 @@ PE256 | `DBE347AF79D4B823A01C7AFE8374D185273A8B2080D5D8E3292ACD92300BA419`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018002d680 | 0x0002d680
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x000000018002d6f0 | 0x0002d6f0
-`GenerateScript` | 3 (0x3) | Exported Function | 0x000000018002ce00 | 0x0002ce00
+Function Name | Ordinal | Type
+-- | -- | --
+`GenerateScript` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

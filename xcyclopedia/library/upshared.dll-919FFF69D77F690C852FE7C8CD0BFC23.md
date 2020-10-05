@@ -24,18 +24,18 @@ PE256 | `6E0CFA10AF4C2D547501214F4D06E591B4C41BE0BAE5398474E99E53F4B24D21`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConvertJsonValueToVariant` | 1 (0x1) | Exported Function | 0x000000018000e540 | 0x0000e540
-`CreateQueryStringBuilder` | 2 (0x2) | Exported Function | 0x000000018000c300 | 0x0000c300
-`ExpandCabFile` | 3 (0x3) | Exported Function | 0x000000018000e7a0 | 0x0000e7a0
-`LoadJsonFromFile` | 4 (0x4) | Exported Function | 0x000000018000e520 | 0x0000e520
-`MapExceptionToHResult` | 5 (0x5) | Exported Function | 0x000000018000e420 | 0x0000e420
-`ParseJson` | 6 (0x6) | Exported Function | 0x000000018000e530 | 0x0000e530
-`SubmitRequestForData` | 7 (0x7) | Exported Function | 0x000000018000c620 | 0x0000c620
-`SubmitRequestForSettings` | 8 (0x8) | Exported Function | 0x000000018000d660 | 0x0000d660
-`ToBase64` | 9 (0x9) | Exported Function | 0x000000018000ee10 | 0x0000ee10
-`VerifySelfSignedImageFile` | 10 (0xa) | Exported Function | 0x000000018000e820 | 0x0000e820
+Function Name | Ordinal | Type
+-- | -- | --
+`SubmitRequestForData` | 7 | Exported Function
+`ParseJson` | 6 | Exported Function
+`SubmitRequestForSettings` | 8 | Exported Function
+`VerifySelfSignedImageFile` | 10 | Exported Function
+`ToBase64` | 9 | Exported Function
+`CreateQueryStringBuilder` | 2 | Exported Function
+`ConvertJsonValueToVariant` | 1 | Exported Function
+`ExpandCabFile` | 3 | Exported Function
+`MapExceptionToHResult` | 5 | Exported Function
+`LoadJsonFromFile` | 4 | Exported Function
 
 
 ## Signature

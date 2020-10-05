@@ -24,25 +24,25 @@ PE256 | `E25833F9064BD5D3A890BD4775A5DE260531A3BEAA95A51D05FB27392A12984E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x3008baf0 | 0x0008baf0
-`tsfGetKeyboardState` | 17 (0x11) | Exported Function | 0x3008df40 | 0x0008df40
-`tsfGetAsyncKeyState` | 15 (0xf) | Exported Function | 0x3008ded0 | 0x0008ded0
-`TextInputServerCreate` | 13 (0xd) | Exported Function | 0x3003e6f0 | 0x0003e6f0
-`TextInputHostSiteCreate` | 12 (0xc) | Exported Function | 0x3008de30 | 0x0008de30
-`TextInputHostGetCurrent` | 11 (0xb) | Exported Function | 0x3008ddc0 | 0x0008ddc0
-`TextInputHostCreateEx` | 10 (0xa) | Exported Function | 0x30038740 | 0x00038740
-`tsfGetKeyState` | 16 (0x10) | Exported Function | 0x30038790 | 0x00038790
-`TextInputHostCreate2` | 8 (0x8) | Exported Function | 0x3008dd30 | 0x0008dd30
-`TextInputClientCreate2` | 6 (0x6) | Exported Function | 0x30042380 | 0x00042380
-`TextInputClientCreate` | 7 (0x7) | Exported Function | 0x30037240 | 0x00037240
-`NavigateFocusInfoCreate` | 5 (0x5) | Exported Function | 0x3008dcb0 | 0x0008dcb0
-`InputFocusChanged` | 4 (0x4) | Exported Function | 0x3002e8d0 | 0x0002e8d0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x3008bb30 | 0x0008bb30
-`DllGetActivationFactory` | 1 (0x1) | Exported Function | 0x3008bb10 | 0x0008bb10
-`TextInputHostCreate` | 9 (0x9) | Exported Function | 0x300384f0 | 0x000384f0
-`TsfOneCreate` | 14 (0xe) | Exported Function | 0x300424b0 | 0x000424b0
+Function Name | Ordinal | Type
+-- | -- | --
+`TextInputHostSiteCreate` | 12 | Exported Function
+`TextInputServerCreate` | 13 | Exported Function
+`TextInputHostCreateEx` | 10 | Exported Function
+`TextInputHostGetCurrent` | 11 | Exported Function
+`tsfGetKeyState` | 16 | Exported Function
+`TsfOneCreate` | 14 | Exported Function
+`tsfGetAsyncKeyState` | 15 | Exported Function
+`tsfGetKeyboardState` | 17 | Exported Function
+`TextInputHostCreate2` | 8 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`InputFocusChanged` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 1 | Exported Function
+`TextInputClientCreate2` | 6 | Exported Function
+`TextInputHostCreate` | 9 | Exported Function
+`NavigateFocusInfoCreate` | 5 | Exported Function
+`TextInputClientCreate` | 7 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `529F7325AE2751FB77D13B4CEAE9E5052A436EF2741688BB115128A7CF7AD248`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NetScheduleJobAdd` | 1 (0x1) | Exported Function | 0x10001bc0 | 0x00001bc0
-`NetScheduleJobDel` | 2 (0x2) | Exported Function | 0x10001c80 | 0x00001c80
-`NetScheduleJobEnum` | 3 (0x3) | Exported Function | 0x10001d40 | 0x00001d40
-`NetScheduleJobGetInfo` | 4 (0x4) | Exported Function | 0x10001e40 | 0x00001e40
+Function Name | Ordinal | Type
+-- | -- | --
+`NetScheduleJobEnum` | 3 | Exported Function
+`NetScheduleJobGetInfo` | 4 | Exported Function
+`NetScheduleJobAdd` | 1 | Exported Function
+`NetScheduleJobDel` | 2 | Exported Function
 
 
 ## Signature

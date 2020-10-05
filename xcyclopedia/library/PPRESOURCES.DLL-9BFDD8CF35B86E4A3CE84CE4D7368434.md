@@ -1,0 +1,55 @@
+﻿---
+title: PPRESOURCES.DLL | Microsoft PowerPoint
+excerpt: What is PPRESOURCES.DLL?
+---
+
+# PPRESOURCES.DLL 
+
+* File Path: `C:\Program Files (x86)\Microsoft Office\root\Office16\PPRESOURCES.DLL`
+* Description: Microsoft PowerPoint
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `9BFDD8CF35B86E4A3CE84CE4D7368434`
+SHA1 | `9348DCA549E0F6F96C53BD913FF9C9831A7613D4`
+SHA256 | `3105C9FB7547F3E235EECFAABF927E5068DF20286BC957C6E6FD5084C9E4D09A`
+SHA384 | `1D8590AE0469A564C89C750E0A0511C2475C8F986F46D99607857C6D8C9A55566A0653E25661C687B289A6F03B09653D`
+SHA512 | `7F19AB4FB728B72DAB4A102C2FB62D54487B35E4FF3C04E1AC6476610939F49529B389D27C6E95DBE0E9DD50D1351D93569C43F48608F58465BBB87D1DE63C37`
+SSDEEP | `24576:I3GlUB8dWmHvhph3gLT+8rpq28BJ2OwH5FMg85Xhxl:I3+UB8dWEphYBsBJsHjMn5/l`
+IMP | `n/a`
+PESHA1 | `AC52B308E5A9E76E43334E7B51693DFDC80012FF`
+PE256 | `7AAF9D93FC126DB6B5CCA1A4EF81292DFE812BFB08A6BA855AF58DBA96B77008`
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000002CE7C9ACE7D905ED2B70000000002CE`
+* Thumbprint: `B10607FB914700B40F794610850C1DE0A21566C1`
+* Issuer: CN=Microsoft Code Signing PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: PPRESOURCES.DLL
+* Product Name: Microsoft Office
+* Company Name: Microsoft Corporation
+* File Version: 16.0.12527.20470
+* Product Version: 16.0.12527.20470
+* Language: English (United States)
+* Legal Copyright: 
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: Unknown
+* VirusTotal Link: n/a
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

@@ -24,11 +24,11 @@ PE256 | `F795F470816DC73D05CC2D4D9357DF9EB8A040D97BF051E13E60DB47A72B085D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000018000c700 | 0x0000c700
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000018000c720 | 0x0000c720
-`OpenThemeActionW` | 1 (0x1) | Exported Function | 0x0000000180016280 | 0x00016280
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenThemeActionW` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

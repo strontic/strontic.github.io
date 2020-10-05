@@ -24,36 +24,36 @@ PE256 | `451CCDE4373B865C78B99F134705C6B4103A32FF16D3F456CBB7999FD6C64AB7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NDdeGetErrorStringA` | 505 (0x1f9) | Exported Function | 0x522013a0 | 0x000013a0
-`NDdeSpecialCommandW` | 608 (0x260) | Exported Function | 0x522013b0 | 0x000013b0
-`NDdeSpecialCommandA` | 508 (0x1fc) | Exported Function | 0x522013b0 | 0x000013b0
-`NDdeShareSetInfoW` | 604 (0x25c) | Exported Function | 0x522013b0 | 0x000013b0
-`NDdeShareSetInfoA` | 504 (0x1f8) | Exported Function | 0x522013b0 | 0x000013b0
-`NDdeShareGetInfoW` | 603 (0x25b) | Exported Function | 0x522013d0 | 0x000013d0
-`NDdeShareGetInfoA` | 503 (0x1f7) | Exported Function | 0x522013d0 | 0x000013d0
-`NDdeShareEnumW` | 602 (0x25a) | Exported Function | 0x522013b0 | 0x000013b0
-`NDdeShareEnumA` | 502 (0x1f6) | Exported Function | 0x522013b0 | 0x000013b0
-`NDdeShareDelW` | 601 (0x259) | Exported Function | 0x522013a0 | 0x000013a0
-`NDdeShareDelA` | 501 (0x1f5) | Exported Function | 0x522013a0 | 0x000013a0
-`NDdeShareAddW` | 600 (0x258) | Exported Function | 0x52201390 | 0x00001390
-`NDdeShareAddA` | 500 (0x1f4) | Exported Function | 0x52201390 | 0x00001390
-`NDdeSetTrustedShareW` | 612 (0x264) | Exported Function | 0x522013a0 | 0x000013a0
-`NDdeSetTrustedShareA` | 512 (0x200) | Exported Function | 0x522013a0 | 0x000013a0
-`NDdeSetShareSecurityW` | 610 (0x262) | Exported Function | 0x522013c0 | 0x000013c0
-`NDdeSetShareSecurityA` | 510 (0x1fe) | Exported Function | 0x522013c0 | 0x000013c0
-`NDdeIsValidShareNameW` | 606 (0x25e) | Exported Function | 0x52201380 | 0x00001380
-`NDdeIsValidShareNameA` | 506 (0x1fa) | Exported Function | 0x52201380 | 0x00001380
-`NDdeIsValidAppTopicListW` | 607 (0x25f) | Exported Function | 0x52201380 | 0x00001380
-`NDdeIsValidAppTopicListA` | 507 (0x1fb) | Exported Function | 0x52201380 | 0x00001380
-`NDdeGetTrustedShareW` | 611 (0x263) | Exported Function | 0x52201390 | 0x00001390
-`NDdeGetTrustedShareA` | 511 (0x1ff) | Exported Function | 0x52201390 | 0x00001390
-`NDdeGetShareSecurityW` | 609 (0x261) | Exported Function | 0x522013b0 | 0x000013b0
-`NDdeGetShareSecurityA` | 509 (0x1fd) | Exported Function | 0x522013b0 | 0x000013b0
-`NDdeGetErrorStringW` | 605 (0x25d) | Exported Function | 0x522013a0 | 0x000013a0
-`NDdeTrustedShareEnumA` | 513 (0x201) | Exported Function | 0x522013b0 | 0x000013b0
-`NDdeTrustedShareEnumW` | 613 (0x265) | Exported Function | 0x522013b0 | 0x000013b0
+Function Name | Ordinal | Type
+-- | -- | --
+`NDdeShareEnumA` | 502 | Exported Function
+`NDdeShareEnumW` | 602 | Exported Function
+`NDdeShareGetInfoA` | 503 | Exported Function
+`NDdeShareDelW` | 601 | Exported Function
+`NDdeShareAddA` | 500 | Exported Function
+`NDdeShareAddW` | 600 | Exported Function
+`NDdeShareDelA` | 501 | Exported Function
+`NDdeSpecialCommandW` | 608 | Exported Function
+`NDdeTrustedShareEnumA` | 513 | Exported Function
+`NDdeTrustedShareEnumW` | 613 | Exported Function
+`NDdeSpecialCommandA` | 508 | Exported Function
+`NDdeShareGetInfoW` | 603 | Exported Function
+`NDdeShareSetInfoA` | 504 | Exported Function
+`NDdeShareSetInfoW` | 604 | Exported Function
+`NDdeGetTrustedShareA` | 511 | Exported Function
+`NDdeGetTrustedShareW` | 611 | Exported Function
+`NDdeIsValidAppTopicListA` | 507 | Exported Function
+`NDdeGetShareSecurityW` | 609 | Exported Function
+`NDdeGetErrorStringA` | 505 | Exported Function
+`NDdeGetErrorStringW` | 605 | Exported Function
+`NDdeGetShareSecurityA` | 509 | Exported Function
+`NDdeSetShareSecurityW` | 610 | Exported Function
+`NDdeSetTrustedShareA` | 512 | Exported Function
+`NDdeSetTrustedShareW` | 612 | Exported Function
+`NDdeSetShareSecurityA` | 510 | Exported Function
+`NDdeIsValidAppTopicListW` | 607 | Exported Function
+`NDdeIsValidShareNameA` | 506 | Exported Function
+`NDdeIsValidShareNameW` | 606 | Exported Function
 
 
 ## Signature

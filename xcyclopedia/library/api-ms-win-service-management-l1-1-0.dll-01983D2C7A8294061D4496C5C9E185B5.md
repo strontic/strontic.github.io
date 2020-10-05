@@ -24,15 +24,15 @@ PE256 | `439D6A3CA60A55772DC6B97209E41FC6A602A96C41475D4982F5D5949C84E3AB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseServiceHandle` | 1 (0x1) | Exported Function | advapi32.CloseServiceHandle | 0x0000110a
-`ControlServiceExW` | 2 (0x2) | Exported Function | advapi32.ControlServiceExW | 0x00001138
-`CreateServiceW` | 3 (0x3) | Exported Function | advapi32.CreateServiceW | 0x00001162
-`DeleteService` | 4 (0x4) | Exported Function | advapi32.DeleteService | 0x00001188
-`OpenSCManagerW` | 5 (0x5) | Exported Function | advapi32.OpenSCManagerW | 0x000011ae
-`OpenServiceW` | 6 (0x6) | Exported Function | advapi32.OpenServiceW | 0x000011d3
-`StartServiceW` | 7 (0x7) | Exported Function | advapi32.StartServiceW | 0x000011f7
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenSCManagerW` | 5 | Exported Function
+`OpenServiceW` | 6 | Exported Function
+`StartServiceW` | 7 | Exported Function
+`DeleteService` | 4 | Exported Function
+`CloseServiceHandle` | 1 | Exported Function
+`ControlServiceExW` | 2 | Exported Function
+`CreateServiceW` | 3 | Exported Function
 
 
 ## Signature

@@ -24,23 +24,23 @@ PE256 | `3E6ED5CC335CC86221A8D69D59C4F5AAC049EFC647BC4C6E046C74647432877C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CallbackProcessing_3216` | 5 (0x5) | Exported Function | 0x1000e5c0 | 0x0000e5c0
-`ConvertHr1632Thunk` | 14 (0xe) | Exported Function | 0x10007040 | 0x00007040
-`ConvertHr3216Thunk` | 15 (0xf) | Exported Function | 0x10007060 | 0x00007060
-`ConvertObjDescriptor` | 13 (0xd) | Exported Function | 0x10009a90 | 0x00009a90
-`CSm16ReleaseHandler_Release32` | 8 (0x8) | Exported Function | 0x10008f20 | 0x00008f20
-`IntOpInitialize` | 4 (0x4) | Exported Function | 0x10006f70 | 0x00006f70
-`IntOpUninitialize` | 16 (0x10) | Exported Function | 0x10006ff0 | 0x00006ff0
-`InvokeOn32` | 3 (0x3) | Exported Function | 0x10007550 | 0x00007550
-`IUnknownObj32` | 6 (0x6) | Exported Function | 0x10005030 | 0x00005030
-`RegisterOleWOWHandlers` | 19 (0x13) | Exported Function | 0x10009b10 | 0x00009b10
-`ThkAddAppCompatFlag` | 18 (0x12) | Exported Function | 0x10007080 | 0x00007080
-`ThkMgrInitialize` | 9 (0x9) | Exported Function | 0x10004ef0 | 0x00004ef0
-`ThkMgrUninitialize` | 10 (0xa) | Exported Function | 0x10004f50 | 0x00004f50
-`TransformHRESULT_1632` | 11 (0xb) | Exported Function | 0x100078b0 | 0x000078b0
-`TransformHRESULT_3216` | 12 (0xc) | Exported Function | 0x100078e0 | 0x000078e0
+Function Name | Ordinal | Type
+-- | -- | --
+`ThkAddAppCompatFlag` | 18 | Exported Function
+`RegisterOleWOWHandlers` | 19 | Exported Function
+`IUnknownObj32` | 6 | Exported Function
+`ThkMgrInitialize` | 9 | Exported Function
+`TransformHRESULT_3216` | 12 | Exported Function
+`TransformHRESULT_1632` | 11 | Exported Function
+`ThkMgrUninitialize` | 10 | Exported Function
+`InvokeOn32` | 3 | Exported Function
+`ConvertHr3216Thunk` | 15 | Exported Function
+`ConvertHr1632Thunk` | 14 | Exported Function
+`CallbackProcessing_3216` | 5 | Exported Function
+`ConvertObjDescriptor` | 13 | Exported Function
+`IntOpUninitialize` | 16 | Exported Function
+`IntOpInitialize` | 4 | Exported Function
+`CSm16ReleaseHandler_Release32` | 8 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `81BE0F9ED5512C9FAF6B7659DEAE7F8E18C015CC10DA87DEEDA4235E67948B4C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x10001370 | 0x00001370
+Function Name | Ordinal | Type
+-- | -- | --
+`DllMain` | 1 | Exported Function
 
 
 ## Signature

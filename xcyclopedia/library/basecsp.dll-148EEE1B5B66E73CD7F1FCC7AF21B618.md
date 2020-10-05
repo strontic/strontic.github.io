@@ -24,36 +24,36 @@ PE256 | `07E886A52DD78A8418485C19169A1D2028B04DBCDF76B0B132C159B7CFC3979D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CPAcquireContext` | 1 (0x1) | Exported Function | 0x00000001800078f0 | 0x000078f0
-`CPVerifySignature` | 26 (0x1a) | Exported Function | 0x0000000180009480 | 0x00009480
-`CPSignHash` | 25 (0x19) | Exported Function | 0x0000000180009310 | 0x00009310
-`CPSetProvParam` | 24 (0x18) | Exported Function | 0x0000000180008330 | 0x00008330
-`CPSetKeyParam` | 23 (0x17) | Exported Function | 0x00000001800080e0 | 0x000080e0
-`CPSetHashParam` | 22 (0x16) | Exported Function | 0x00000001800087d0 | 0x000087d0
-`CPReleaseContext` | 21 (0x15) | Exported Function | 0x0000000180007c80 | 0x00007c80
-`CPImportKey` | 20 (0x14) | Exported Function | 0x0000000180008b10 | 0x00008b10
-`CPHashSessionKey` | 19 (0x13) | Exported Function | 0x0000000180009220 | 0x00009220
-`CPHashData` | 18 (0x12) | Exported Function | 0x0000000180009120 | 0x00009120
-`CPGetUserKey` | 17 (0x11) | Exported Function | 0x0000000180009670 | 0x00009670
-`CPGetProvParam` | 16 (0x10) | Exported Function | 0x00000001800087a0 | 0x000087a0
-`CPGetKeyParam` | 15 (0xf) | Exported Function | 0x00000001800081e0 | 0x000081e0
-`CPGetHashParam` | 14 (0xe) | Exported Function | 0x00000001800088d0 | 0x000088d0
-`CPGenRandom` | 13 (0xd) | Exported Function | 0x00000001800095a0 | 0x000095a0
-`CPGenKey` | 12 (0xc) | Exported Function | 0x0000000180007d20 | 0x00007d20
-`CPExportKey` | 11 (0xb) | Exported Function | 0x00000001800089e0 | 0x000089e0
-`CPEncrypt` | 10 (0xa) | Exported Function | 0x0000000180008ce0 | 0x00008ce0
-`CPDuplicateKey` | 9 (0x9) | Exported Function | 0x00000001800099a0 | 0x000099a0
-`CPDuplicateHash` | 8 (0x8) | Exported Function | 0x00000001800097f0 | 0x000097f0
-`CPDestroyKey` | 7 (0x7) | Exported Function | 0x0000000180008090 | 0x00008090
-`CPDestroyHash` | 6 (0x6) | Exported Function | 0x0000000180009430 | 0x00009430
-`CPDeriveKey` | 5 (0x5) | Exported Function | 0x0000000180007ed0 | 0x00007ed0
-`CPDecrypt` | 4 (0x4) | Exported Function | 0x0000000180008e30 | 0x00008e30
-`CPCreateHash` | 3 (0x3) | Exported Function | 0x0000000180008f60 | 0x00008f60
-`CPAcquireContextW` | 2 (0x2) | Exported Function | 0x0000000180007c60 | 0x00007c60
-`DllRegisterServer` | 27 (0x1b) | Exported Function | 0x0000000180009be0 | 0x00009be0
-`DllUnregisterServer` | 28 (0x1c) | Exported Function | 0x0000000180009da0 | 0x00009da0
+Function Name | Ordinal | Type
+-- | -- | --
+`CPHashSessionKey` | 19 | Exported Function
+`CPImportKey` | 20 | Exported Function
+`CPReleaseContext` | 21 | Exported Function
+`CPHashData` | 18 | Exported Function
+`CPGetKeyParam` | 15 | Exported Function
+`CPGetProvParam` | 16 | Exported Function
+`CPGetUserKey` | 17 | Exported Function
+`CPVerifySignature` | 26 | Exported Function
+`DllRegisterServer` | 27 | Exported Function
+`DllUnregisterServer` | 28 | Exported Function
+`CPSignHash` | 25 | Exported Function
+`CPSetHashParam` | 22 | Exported Function
+`CPSetKeyParam` | 23 | Exported Function
+`CPSetProvParam` | 24 | Exported Function
+`CPDeriveKey` | 5 | Exported Function
+`CPDestroyHash` | 6 | Exported Function
+`CPDestroyKey` | 7 | Exported Function
+`CPDecrypt` | 4 | Exported Function
+`CPAcquireContext` | 1 | Exported Function
+`CPAcquireContextW` | 2 | Exported Function
+`CPCreateHash` | 3 | Exported Function
+`CPGenKey` | 12 | Exported Function
+`CPGenRandom` | 13 | Exported Function
+`CPGetHashParam` | 14 | Exported Function
+`CPExportKey` | 11 | Exported Function
+`CPDuplicateHash` | 8 | Exported Function
+`CPDuplicateKey` | 9 | Exported Function
+`CPEncrypt` | 10 | Exported Function
 
 
 ## Signature

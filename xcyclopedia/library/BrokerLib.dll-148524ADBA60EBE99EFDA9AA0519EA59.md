@@ -24,45 +24,45 @@ PE256 | `75BCDE12228F0BED65C18054263DCACEFFCCB6C061C6A97C91871D68259EB1B6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BrBufferFree` | 2 (0x2) | Exported Function | 0x0000000180001aa0 | 0x00001aa0
-`BrGetQuota` | 21 (0x15) | Exported Function | 0x000000018001e770 | 0x0001e770
-`BrIncQuota` | 22 (0x16) | Exported Function | 0x000000018001ea10 | 0x0001ea10
-`BrInitializeBrokerInstance` | 23 (0x17) | Exported Function | 0x000000018000cef0 | 0x0000cef0
-`BrInitializeBrokerInstance2` | 24 (0x18) | Exported Function | 0x000000018000dec0 | 0x0000dec0
-`BrLockBroker` | 25 (0x19) | Exported Function | 0x0000000180001970 | 0x00001970
-`BrQueryBrokeredApplicationState` | 26 (0x1a) | Exported Function | 0x0000000180003590 | 0x00003590
-`BrQueryBrokeredEvents` | 27 (0x1b) | Exported Function | 0x000000018000a440 | 0x0000a440
-`BrQueryBrokeredEvents2` | 28 (0x1c) | Exported Function | 0x0000000180001ca0 | 0x00001ca0
-`BrRegisterBrokeredEvent` | 29 (0x1d) | Exported Function | 0x000000018001ecd0 | 0x0001ecd0
-`BrRegisterStateChangeCallbacks` | 30 (0x1e) | Exported Function | 0x0000000180011140 | 0x00011140
-`BrSendActivatorControl` | 31 (0x1f) | Exported Function | 0x000000018001eea0 | 0x0001eea0
-`BrSetBrokeredAppStateName` | 32 (0x20) | Exported Function | 0x000000018001f030 | 0x0001f030
-`BrSignalBrokerEvent` | 33 (0x21) | Exported Function | 0x000000018001f180 | 0x0001f180
-`BrSignalBrokerEvent2` | 34 (0x22) | Exported Function | 0x0000000180001520 | 0x00001520
-`BrSignalBrokerEvent2Ex` | 35 (0x23) | Exported Function | 0x0000000180001550 | 0x00001550
-`BrGetPackageFullNameForBrokeredEvent` | 20 (0x14) | Exported Function | 0x000000018001e520 | 0x0001e520
-`BrUnlockBroker` | 36 (0x24) | Exported Function | 0x00000001800018e0 | 0x000018e0
-`BrGetBrokeredEventState` | 19 (0x13) | Exported Function | 0x0000000180008790 | 0x00008790
-`BrGetBrokeredAppStateName` | 17 (0x11) | Exported Function | 0x000000018001e3c0 | 0x0001e3c0
-`BrCheckCallerCapabilities` | 3 (0x3) | Exported Function | 0x000000018001d530 | 0x0001d530
-`BrCheckCallerCapabilities2` | 4 (0x4) | Exported Function | 0x000000018001d770 | 0x0001d770
-`BrCheckCallerIsAppContainer` | 5 (0x5) | Exported Function | 0x000000018001d980 | 0x0001d980
-`BrCreateBrokeredEvent` | 8 (0x8) | Exported Function | 0x000000018001db20 | 0x0001db20
-`BrCreateBrokeredEvent2` | 1 (0x1) | Exported Function | 0x000000018001d2a0 | 0x0001d2a0
-`BrCreateBrokerInstance` | 6 (0x6) | Exported Function | 0x000000018000cf60 | 0x0000cf60
-`BrCreateBrokerInstance2` | 7 (0x7) | Exported Function | 0x000000018000cff0 | 0x0000cff0
-`BrDecQuota` | 9 (0x9) | Exported Function | 0x000000018001dcc0 | 0x0001dcc0
-`BrDeleteBrokeredEvent` | 11 (0xb) | Exported Function | 0x000000018001df80 | 0x0001df80
-`BrDeleteBrokeredEvent2` | 12 (0xc) | Exported Function | 0x000000018001e0b0 | 0x0001e0b0
-`BrDeleteBrokerInstance` | 10 (0xa) | Exported Function | 0x000000018000e4d0 | 0x0000e4d0
-`BrFindBrokeredEvent` | 13 (0xd) | Exported Function | 0x0000000180008340 | 0x00008340
-`BrFindBrokeredEvent2` | 14 (0xe) | Exported Function | 0x0000000180008990 | 0x00008990
-`BrGetBrokeredAppState` | 15 (0xf) | Exported Function | 0x000000018001e240 | 0x0001e240
-`BrGetBrokeredAppState2` | 16 (0x10) | Exported Function | 0x00000001800036f0 | 0x000036f0
-`BrGetBrokeredEventInfo2` | 18 (0x12) | Exported Function | 0x00000001800013f0 | 0x000013f0
-`BrUnregisterBrokeredEvent` | 37 (0x25) | Exported Function | 0x000000018001f3b0 | 0x0001f3b0
+Function Name | Ordinal | Type
+-- | -- | --
+`BrQueryBrokeredApplicationState` | 26 | Exported Function
+`BrLockBroker` | 25 | Exported Function
+`BrQueryBrokeredEvents2` | 28 | Exported Function
+`BrQueryBrokeredEvents` | 27 | Exported Function
+`BrInitializeBrokerInstance2` | 24 | Exported Function
+`BrGetQuota` | 21 | Exported Function
+`BrGetPackageFullNameForBrokeredEvent` | 20 | Exported Function
+`BrInitializeBrokerInstance` | 23 | Exported Function
+`BrIncQuota` | 22 | Exported Function
+`BrSignalBrokerEvent2Ex` | 35 | Exported Function
+`BrSignalBrokerEvent2` | 34 | Exported Function
+`BrUnregisterBrokeredEvent` | 37 | Exported Function
+`BrUnlockBroker` | 36 | Exported Function
+`BrSignalBrokerEvent` | 33 | Exported Function
+`BrRegisterStateChangeCallbacks` | 30 | Exported Function
+`BrRegisterBrokeredEvent` | 29 | Exported Function
+`BrSetBrokeredAppStateName` | 32 | Exported Function
+`BrSendActivatorControl` | 31 | Exported Function
+`BrGetBrokeredEventState` | 19 | Exported Function
+`BrCreateBrokerInstance` | 6 | Exported Function
+`BrCreateBrokeredEvent2` | 1 | Exported Function
+`BrDecQuota` | 9 | Exported Function
+`BrCreateBrokerInstance2` | 7 | Exported Function
+`BrCreateBrokeredEvent` | 8 | Exported Function
+`BrCheckCallerCapabilities` | 3 | Exported Function
+`BrBufferFree` | 2 | Exported Function
+`BrCheckCallerIsAppContainer` | 5 | Exported Function
+`BrCheckCallerCapabilities2` | 4 | Exported Function
+`BrGetBrokeredAppState2` | 16 | Exported Function
+`BrGetBrokeredAppState` | 15 | Exported Function
+`BrGetBrokeredEventInfo2` | 18 | Exported Function
+`BrGetBrokeredAppStateName` | 17 | Exported Function
+`BrFindBrokeredEvent2` | 14 | Exported Function
+`BrDeleteBrokeredEvent2` | 12 | Exported Function
+`BrDeleteBrokeredEvent` | 11 | Exported Function
+`BrFindBrokeredEvent` | 13 | Exported Function
+`BrDeleteBrokerInstance` | 10 | Exported Function
 
 
 ## Signature

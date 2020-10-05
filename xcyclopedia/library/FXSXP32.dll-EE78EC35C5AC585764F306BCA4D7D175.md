@@ -24,10 +24,10 @@ PE256 | `5961F9130CA2084D91C1F954E4226431134AF312537BB8E1BCF2E8A398B21AD5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ServiceEntry` | 1 (0x1) | Exported Function | 0x6460b270 | 0x0000b270
-`XPProviderInit` | 2 (0x2) | Exported Function | 0x6460af30 | 0x0000af30
+Function Name | Ordinal | Type
+-- | -- | --
+`XPProviderInit` | 2 | Exported Function
+`ServiceEntry` | 1 | Exported Function
 
 
 ## Signature

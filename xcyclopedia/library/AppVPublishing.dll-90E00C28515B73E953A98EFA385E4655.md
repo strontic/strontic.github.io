@@ -24,11 +24,11 @@ PE256 | `839DE0305E24A4272A952AEE822FA997D3BC388E15B47FEF65F94BF1531D066B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Deinitialize` | 2 (0x2) | Exported Function | 0x000000018000ba40 | 0x0000ba40
-`GetComponent` | 3 (0x3) | Exported Function | 0x000000018000bb80 | 0x0000bb80
-`Initialize` | 1 (0x1) | Exported Function | 0x000000018000b880 | 0x0000b880
+Function Name | Ordinal | Type
+-- | -- | --
+`Initialize` | 1 | Exported Function
+`GetComponent` | 3 | Exported Function
+`Deinitialize` | 2 | Exported Function
 
 
 ## Signature

@@ -24,18 +24,18 @@ PE256 | `C71AA6CC9C1377F8A9396DEADDC0A3BC9667821D6626CF556363AE8389C7F60E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetAppInformationFromCloud` | 3 (0x3) | Exported Function | 0x0000000180002db0 | 0x00002db0
-`GetLayerFromGenome` | 4 (0x4) | Exported Function | 0x0000000180002b90 | 0x00002b90
-`GetMatchingInfo` | 5 (0x5) | Exported Function | 0x0000000180001d30 | 0x00001d30
-`GetTempFile` | 6 (0x6) | Exported Function | 0x0000000180001ba0 | 0x00001ba0
-`LaunchApplicationW` | 1 (0x1) | Exported Function | 0x0000000180002780 | 0x00002780
-`LogAeEvent` | 7 (0x7) | Exported Function | 0x0000000180002370 | 0x00002370
-`LogPCWDebugEvent` | 8 (0x8) | Exported Function | 0x0000000180002890 | 0x00002890
-`RetrieveFileAndProgramId` | 9 (0x9) | Exported Function | 0x00000001800026b0 | 0x000026b0
-`SanitizeFullPath` | 2 (0x2) | Exported Function | 0x0000000180002e90 | 0x00002e90
-`SendPcwWerReport` | 10 (0xa) | Exported Function | 0x0000000180001c50 | 0x00001c50
+Function Name | Ordinal | Type
+-- | -- | --
+`LogPCWDebugEvent` | 8 | Exported Function
+`LogAeEvent` | 7 | Exported Function
+`RetrieveFileAndProgramId` | 9 | Exported Function
+`SendPcwWerReport` | 10 | Exported Function
+`SanitizeFullPath` | 2 | Exported Function
+`GetLayerFromGenome` | 4 | Exported Function
+`GetAppInformationFromCloud` | 3 | Exported Function
+`GetMatchingInfo` | 5 | Exported Function
+`LaunchApplicationW` | 1 | Exported Function
+`GetTempFile` | 6 | Exported Function
 
 
 ## Signature

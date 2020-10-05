@@ -24,13 +24,13 @@ PE256 | `FD07750DB7F17347780E81999D552BE7AFD6441DBF08C6803487214C4BA09BAC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ShutdownExAnnotate` | 1 (0x1) | Exported Function | 0x10003730 | 0x00003730
-`ShutdownExDirtyDialog` | 2 (0x2) | Exported Function | 0x10003c80 | 0x00003c80
-`ShutdownExPrintReasons` | 3 (0x3) | Exported Function | 0x10003aa0 | 0x00003aa0
-`ShutdownExReasonCommentRequired` | 4 (0x4) | Exported Function | 0x10003c50 | 0x00003c50
-`ShutdownExRemoteDialog` | 5 (0x5) | Exported Function | 0x10003eb0 | 0x00003eb0
+Function Name | Ordinal | Type
+-- | -- | --
+`ShutdownExReasonCommentRequired` | 4 | Exported Function
+`ShutdownExRemoteDialog` | 5 | Exported Function
+`ShutdownExPrintReasons` | 3 | Exported Function
+`ShutdownExAnnotate` | 1 | Exported Function
+`ShutdownExDirtyDialog` | 2 | Exported Function
 
 
 ## Signature

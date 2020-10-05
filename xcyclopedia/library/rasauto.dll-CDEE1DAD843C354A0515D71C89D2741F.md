@@ -24,10 +24,10 @@ PE256 | `BEF98330BAB325ECE48C7D92A7E86266C3A3E16875B3AE29A2E5047C2256DE99`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ServiceMain` | 1 (0x1) | Exported Function | 0x000000018000dfb0 | 0x0000dfb0
-`SetAddressDisabledEx` | 2 (0x2) | Exported Function | 0x0000000180003e40 | 0x00003e40
+Function Name | Ordinal | Type
+-- | -- | --
+`SetAddressDisabledEx` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature

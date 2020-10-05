@@ -24,9 +24,9 @@ PE256 | `8834B533D958BCA4FEB9390EB8019DBAAA7420C1D6EF0ADD366D0BC3D70DBC43`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ExchEntryPoint` | 1 (0x1) | Exported Function | 0x642c4040 | 0x00004040
+Function Name | Ordinal | Type
+-- | -- | --
+`ExchEntryPoint` | 1 | Exported Function
 
 
 ## Signature

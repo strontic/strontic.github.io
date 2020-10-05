@@ -24,22 +24,22 @@ PE256 | `568C4DEE04C89FC27EA5FE7635DCAD7A29BB857F9840F25B52EFAF0104DC694B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SrmGetTracingContextPerThread` | 10 (0xa) | Exported Function | 0x0000000180003190 | 0x00003190
-`SrmGetTracingModuleInfo` | 15 (0xf) | Exported Function | 0x0000000180003230 | 0x00003230
-`SrmGetTracingSequenceNumber` | 11 (0xb) | Exported Function | 0x0000000180003220 | 0x00003220
-`SrmIsDebugFlagSet` | 16 (0x10) | Exported Function | 0x0000000180003290 | 0x00003290
-`SrmIsKernelDebuggerAttached` | 14 (0xe) | Exported Function | 0x0000000180004810 | 0x00004810
-`SrmIsTracingEnabled` | 5 (0x5) | Exported Function | 0x0000000180002fc0 | 0x00002fc0
-`SrmIsTracingEnabledOnFunction` | 8 (0x8) | Exported Function | 0x0000000180003040 | 0x00003040
-`SrmIsTracingEnabledOnModule` | 7 (0x7) | Exported Function | 0x0000000180002fe0 | 0x00002fe0
-`SrmIsTracingEnabledPerThread` | 6 (0x6) | Exported Function | 0x0000000180003010 | 0x00003010
-`SrmSetTracingContextPerThread` | 9 (0x9) | Exported Function | 0x0000000180003100 | 0x00003100
-`SrmTraceBinary` | 4 (0x4) | Exported Function | 0x0000000180002f40 | 0x00002f40
-`SrmTraceInitialize` | 1 (0x1) | Exported Function | 0x0000000180002e90 | 0x00002e90
-`SrmTraceMessage` | 3 (0x3) | Exported Function | 0x0000000180002ed0 | 0x00002ed0
-`SrmTraceUninitialize` | 2 (0x2) | Exported Function | 0x0000000180002eb0 | 0x00002eb0
+Function Name | Ordinal | Type
+-- | -- | --
+`SrmSetTracingContextPerThread` | 9 | Exported Function
+`SrmIsTracingEnabledPerThread` | 6 | Exported Function
+`SrmIsTracingEnabledOnModule` | 7 | Exported Function
+`SrmTraceBinary` | 4 | Exported Function
+`SrmTraceUninitialize` | 2 | Exported Function
+`SrmTraceMessage` | 3 | Exported Function
+`SrmTraceInitialize` | 1 | Exported Function
+`SrmGetTracingSequenceNumber` | 11 | Exported Function
+`SrmGetTracingModuleInfo` | 15 | Exported Function
+`SrmGetTracingContextPerThread` | 10 | Exported Function
+`SrmIsDebugFlagSet` | 16 | Exported Function
+`SrmIsTracingEnabledOnFunction` | 8 | Exported Function
+`SrmIsTracingEnabled` | 5 | Exported Function
+`SrmIsKernelDebuggerAttached` | 14 | Exported Function
 
 
 ## Signature

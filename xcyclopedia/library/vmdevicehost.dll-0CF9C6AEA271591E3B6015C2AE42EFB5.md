@@ -24,22 +24,22 @@ PE256 | `E3EE640B45DDDB7F54AF981BB47069336EF2F2458EE88E2EB5A42B80ADB9C19A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`HdvCreateDeviceInstance` | 1 (0x1) | Exported Function | 0x0000000180005d20 | 0x00005d20
-`HdvCreateGuestMemoryAperture` | 2 (0x2) | Exported Function | 0x00000001800061a0 | 0x000061a0
-`HdvDeliverGuestInterrupt` | 3 (0x3) | Exported Function | 0x00000001800062f0 | 0x000062f0
-`HdvDestroyGuestMemoryAperture` | 4 (0x4) | Exported Function | 0x0000000180006270 | 0x00006270
-`HdvInitializeDeviceHost` | 5 (0x5) | Exported Function | 0x0000000180005a40 | 0x00005a40
-`HdvInitializeDeviceHostForProxy` | 6 (0x6) | Exported Function | 0x0000000180005ae0 | 0x00005ae0
-`HdvProxyDeviceHost` | 7 (0x7) | Exported Function | 0x0000000180005e80 | 0x00005e80
-`HdvReadGuestMemory` | 8 (0x8) | Exported Function | 0x0000000180005fe0 | 0x00005fe0
-`HdvRegisterDoorbell` | 9 (0x9) | Exported Function | 0x0000000180006360 | 0x00006360
-`HdvRegisterDoorbellPage` | 10 (0xa) | Exported Function | 0x00000001800063f0 | 0x000063f0
-`HdvTeardownDeviceHost` | 11 (0xb) | Exported Function | 0x0000000180005c20 | 0x00005c20
-`HdvUnregisterDoorbell` | 12 (0xc) | Exported Function | 0x0000000180006470 | 0x00006470
-`HdvUnregisterDoorbellPage` | 13 (0xd) | Exported Function | 0x00000001800064f0 | 0x000064f0
-`HdvWriteGuestMemory` | 14 (0xe) | Exported Function | 0x00000001800060c0 | 0x000060c0
+Function Name | Ordinal | Type
+-- | -- | --
+`HdvRegisterDoorbellPage` | 10 | Exported Function
+`HdvRegisterDoorbell` | 9 | Exported Function
+`HdvReadGuestMemory` | 8 | Exported Function
+`HdvTeardownDeviceHost` | 11 | Exported Function
+`HdvWriteGuestMemory` | 14 | Exported Function
+`HdvUnregisterDoorbellPage` | 13 | Exported Function
+`HdvUnregisterDoorbell` | 12 | Exported Function
+`HdvDeliverGuestInterrupt` | 3 | Exported Function
+`HdvCreateGuestMemoryAperture` | 2 | Exported Function
+`HdvCreateDeviceInstance` | 1 | Exported Function
+`HdvDestroyGuestMemoryAperture` | 4 | Exported Function
+`HdvProxyDeviceHost` | 7 | Exported Function
+`HdvInitializeDeviceHostForProxy` | 6 | Exported Function
+`HdvInitializeDeviceHost` | 5 | Exported Function
 
 
 ## Signature

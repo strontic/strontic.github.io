@@ -24,9 +24,9 @@ PE256 | `621C42498FB2914D3968950DFDC35544627AA1228DDCD2332B01662CFB8274CA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DriverProc` | 1 (0x1) | Exported Function | 0x000000011c103900 | 0x00003900
+Function Name | Ordinal | Type
+-- | -- | --
+`DriverProc` | 1 | Exported Function
 
 
 ## Signature

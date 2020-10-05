@@ -24,30 +24,30 @@ PE256 | `A7AB7B6E028776B1B503C5C11FA4886323B53910BCBCA4EE8C834BA70A08F9BE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EfsUtilApplyGroupPolicy` | 1 (0x1) | Exported Function | 0x00000001800065b0 | 0x000065b0
-`EfsUtilSetCurrentKey` | 20 (0x14) | Exported Function | 0x0000000180002b10 | 0x00002b10
-`EfsUtilReleaseUserKey` | 19 (0x13) | Exported Function | 0x0000000180002290 | 0x00002290
-`EfsUtilReleaseProvider` | 18 (0x12) | Exported Function | 0x0000000180001460 | 0x00001460
-`EfsUtilParseDataRecoveryPolicy_1_1` | 17 (0x11) | Exported Function | 0x0000000180004370 | 0x00004370
-`EfsUtilIsSmartcardProvider` | 16 (0x10) | Exported Function | 0x00000001800014c0 | 0x000014c0
-`EfsUtilIsSmartcardKey` | 15 (0xf) | Exported Function | 0x00000001800021a0 | 0x000021a0
-`EfsUtilGetUserKey` | 14 (0xe) | Exported Function | 0x00000001800020d0 | 0x000020d0
-`EfsUtilGetSmartcardProviderName` | 13 (0xd) | Exported Function | 0x0000000180004040 | 0x00004040
-`EfsUtilGetPublicKeyType` | 12 (0xc) | Exported Function | 0x00000001800057d0 | 0x000057d0
-`EfsUtilGetProvider` | 11 (0xb) | Exported Function | 0x00000001800012b0 | 0x000012b0
-`EfsUtilGetCurrentUserInformation` | 10 (0xa) | Exported Function | 0x0000000180003d50 | 0x00003d50
-`EfsUtilGetCurrentKey_Deprecated` | 9 (0x9) | Exported Function | 0x0000000180004360 | 0x00004360
-`EfsUtilGetCurrentKey` | 8 (0x8) | Exported Function | 0x0000000180002960 | 0x00002960
-`EfsUtilGetCertNameFromCertContext` | 7 (0x7) | Exported Function | 0x0000000180004de0 | 0x00004de0
-`EfsUtilGetCertDisplayInformation` | 6 (0x6) | Exported Function | 0x0000000180004f90 | 0x00004f90
-`EfsUtilGetCertContextFromCertHash` | 5 (0x5) | Exported Function | 0x0000000180002c60 | 0x00002c60
-`EfsUtilFreeParsedRecoveryPolicy` | 4 (0x4) | Exported Function | 0x0000000180004c40 | 0x00004c40
-`EfsUtilCreateSelfSignedCertificate` | 3 (0x3) | Exported Function | 0x0000000180003550 | 0x00003550
-`EfsUtilCheckCurrentKeyCapabilities` | 2 (0x2) | Exported Function | 0x0000000180002920 | 0x00002920
-`EfsUtilSetSmartcardPin` | 21 (0x15) | Exported Function | 0x0000000180001580 | 0x00001580
-`EfsUtilSmartcardCredsNeededError` | 22 (0x16) | Exported Function | 0x0000000180001280 | 0x00001280
+Function Name | Ordinal | Type
+-- | -- | --
+`EfsUtilIsSmartcardKey` | 15 | Exported Function
+`EfsUtilIsSmartcardProvider` | 16 | Exported Function
+`EfsUtilGetUserKey` | 14 | Exported Function
+`EfsUtilGetPublicKeyType` | 12 | Exported Function
+`EfsUtilGetSmartcardProviderName` | 13 | Exported Function
+`EfsUtilParseDataRecoveryPolicy_1_1` | 17 | Exported Function
+`EfsUtilSetSmartcardPin` | 21 | Exported Function
+`EfsUtilSmartcardCredsNeededError` | 22 | Exported Function
+`EfsUtilSetCurrentKey` | 20 | Exported Function
+`EfsUtilReleaseProvider` | 18 | Exported Function
+`EfsUtilReleaseUserKey` | 19 | Exported Function
+`EfsUtilFreeParsedRecoveryPolicy` | 4 | Exported Function
+`EfsUtilGetCertContextFromCertHash` | 5 | Exported Function
+`EfsUtilCreateSelfSignedCertificate` | 3 | Exported Function
+`EfsUtilApplyGroupPolicy` | 1 | Exported Function
+`EfsUtilCheckCurrentKeyCapabilities` | 2 | Exported Function
+`EfsUtilGetCertDisplayInformation` | 6 | Exported Function
+`EfsUtilGetCurrentUserInformation` | 10 | Exported Function
+`EfsUtilGetProvider` | 11 | Exported Function
+`EfsUtilGetCurrentKey_Deprecated` | 9 | Exported Function
+`EfsUtilGetCertNameFromCertContext` | 7 | Exported Function
+`EfsUtilGetCurrentKey` | 8 | Exported Function
 
 
 ## Signature

@@ -24,15 +24,15 @@ PE256 | `7FAF044DA3C7DF87ABB6F99B5F0055D910160A09956C9A98622D5CCCEFB99156`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DeleteTaskNotification` | 1 (0x1) | Exported Function | 0x100086a0 | 0x000086a0
-`InitializeAdapter` | 2 (0x2) | Exported Function | 0x10008b60 | 0x00008b60
-`IsRegistering` | 3 (0x3) | Exported Function | 0x1001ea10 | 0x0001ea10
-`RegisterTaskNotification` | 4 (0x4) | Exported Function | 0x1001ee00 | 0x0001ee00
-`SetSdNotification` | 5 (0x5) | Exported Function | 0x1001f160 | 0x0001f160
-`ShutdownAdapter` | 6 (0x6) | Exported Function | 0x1001f2a0 | 0x0001f2a0
-`UpdateJobStatus` | 7 (0x7) | Exported Function | 0x1001f440 | 0x0001f440
+Function Name | Ordinal | Type
+-- | -- | --
+`SetSdNotification` | 5 | Exported Function
+`ShutdownAdapter` | 6 | Exported Function
+`UpdateJobStatus` | 7 | Exported Function
+`RegisterTaskNotification` | 4 | Exported Function
+`DeleteTaskNotification` | 1 | Exported Function
+`InitializeAdapter` | 2 | Exported Function
+`IsRegistering` | 3 | Exported Function
 
 
 ## Signature

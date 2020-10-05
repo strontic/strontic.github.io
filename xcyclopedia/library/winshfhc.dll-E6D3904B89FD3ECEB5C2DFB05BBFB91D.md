@@ -24,10 +24,9 @@ PE256 | `3AD0769AE2123255002154EE71D3D658A4764ECB2B84FA5A834476B8C5807A45`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MRTComponent_Generalize` | 102 (0x66) | Exported Function | 0x000000013a802000 | 0x00002000
-`Ordinal101` | 101 (0x65) | Exported Function | 0x000000013a8010b0 | 0x000010b0
+Function Name | Ordinal | Type
+-- | -- | --
+`MRTComponent_Generalize` | 102 | Exported Function
 
 
 ## Signature

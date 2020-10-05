@@ -24,14 +24,14 @@ PE256 | `7AD93D3989899F94027151FB7220EC55C44F817B562A36E275BA5AE982C3D6D4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InternetDeInitializeAutoProxyDll` | 102 (0x66) | Exported Function | 0x100023f0 | 0x000023f0
-`InternetDeInitializeAutoProxyDllEx` | 105 (0x69) | Exported Function | 0x100027f0 | 0x000027f0
-`InternetGetProxyInfo` | 103 (0x67) | Exported Function | 0x10002440 | 0x00002440
-`InternetGetProxyInfoEx` | 106 (0x6a) | Exported Function | 0x10002810 | 0x00002810
-`InternetInitializeAutoProxyDll` | 101 (0x65) | Exported Function | 0x10002200 | 0x00002200
-`InternetInitializeAutoProxyDllEx` | 104 (0x68) | Exported Function | 0x100026d0 | 0x000026d0
+Function Name | Ordinal | Type
+-- | -- | --
+`InternetGetProxyInfoEx` | 106 | Exported Function
+`InternetInitializeAutoProxyDll` | 101 | Exported Function
+`InternetInitializeAutoProxyDllEx` | 104 | Exported Function
+`InternetDeInitializeAutoProxyDll` | 102 | Exported Function
+`InternetDeInitializeAutoProxyDllEx` | 105 | Exported Function
+`InternetGetProxyInfo` | 103 | Exported Function
 
 
 ## Signature

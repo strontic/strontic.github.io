@@ -24,87 +24,87 @@ PE256 | `A375AD39D0698BD125C60E45CF601BF809D0E6A7B0BFA67659D81C81AE78C08A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LsAppendRunToCurrentSubline` | 8 (0x8) | Exported Function | 0x10018c40 | 0x00018c40
-`LsQueryLineDup` | 44 (0x2c) | Exported Function | 0x10003640 | 0x00003640
-`LsQueryLineCpPpoint` | 42 (0x2a) | Exported Function | 0x100041b0 | 0x000041b0
-`LsQueryFLineEmpty` | 45 (0x2d) | Exported Function | 0x1001b270 | 0x0001b270
-`LsQueryCpPpointSubline` | 47 (0x2f) | Exported Function | 0x1001b410 | 0x0001b410
-`LsPointXYFromPointUV` | 59 (0x3b) | Exported Function | 0x10003d90 | 0x00003d90
-`LsPointUV2FromPointUV1` | 60 (0x3c) | Exported Function | 0x10004c70 | 0x00004c70
-`LsModifyLineHeight` | 4 (0x4) | Exported Function | 0x10018bd0 | 0x00018bd0
-`LsQueryLinePointPcp` | 43 (0x2b) | Exported Function | 0x1001b2f0 | 0x0001b2f0
-`LsMatchPresSubline` | 17 (0x11) | Exported Function | 0x10019160 | 0x00019160
-`LsGetWarichuLsimethods` | 61 (0x3d) | Exported Function | 0x10005260 | 0x00005260
-`LsGetTatenakayokoLsimethods` | 63 (0x3f) | Exported Function | 0x10004fc0 | 0x00004fc0
-`LsGetSpecialEffectsSubline` | 19 (0x13) | Exported Function | 0x10019120 | 0x00019120
-`LsGetRubyLsimethods` | 62 (0x3e) | Exported Function | 0x1000fef0 | 0x0000fef0
-`LsGetReverseLsimethods` | 71 (0x47) | Exported Function | 0x10005070 | 0x00005070
-`LsGetMinDurBreaks` | 73 (0x49) | Exported Function | 0x10018b50 | 0x00018b50
-`LsGetLineDur` | 74 (0x4a) | Exported Function | 0x10018ad0 | 0x00018ad0
-`LsLwMultDivR` | 80 (0x50) | Exported Function | 0x10005180 | 0x00005180
-`LsGetHihLsimethods` | 66 (0x42) | Exported Function | 0x1000fe40 | 0x0000fe40
-`LsQueryPointPcpSubline` | 46 (0x2e) | Exported Function | 0x1001b450 | 0x0001b450
-`LsResetRMInCurrentSubline` | 9 (0x9) | Exported Function | 0x10019190 | 0x00019190
-`LsSetModWidthPairs` | 49 (0x31) | Exported Function | 0x10005720 | 0x00005720
-`LsSetExpansion` | 51 (0x33) | Exported Function | 0x1001b530 | 0x0001b530
-`LsSetDoc` | 48 (0x30) | Exported Function | 0x10005550 | 0x00005550
-`LsSetCompression` | 50 (0x32) | Exported Function | 0x1001b490 | 0x0001b490
-`LsSetBreakSubline` | 15 (0xf) | Exported Function | 0x100191e0 | 0x000191e0
-`LsSetBreaking` | 52 (0x34) | Exported Function | 0x100058e0 | 0x000058e0
-`LssbGetVisibleDcpInSubline` | 58 (0x3a) | Exported Function | 0x1001bb30 | 0x0001bb30
-`LsQueryTextCellDetails` | 67 (0x43) | Exported Function | 0x1001b3c0 | 0x0001b3c0
-`LssbGetPlsrunsFromSubline` | 56 (0x38) | Exported Function | 0x1001baf0 | 0x0001baf0
-`LssbGetNumberDnodesInSubline` | 57 (0x39) | Exported Function | 0x1001baa0 | 0x0001baa0
-`LssbGetDurTrailWithPensInSubline` | 78 (0x4e) | Exported Function | 0x1001ba70 | 0x0001ba70
-`LssbGetDurTrailInSubline` | 77 (0x4d) | Exported Function | 0x1001ba40 | 0x0001ba40
-`LssbGetDupSubline` | 54 (0x36) | Exported Function | 0x1001b9e0 | 0x0001b9e0
-`LssbFIsSublineEmpty` | 79 (0x4f) | Exported Function | 0x1001b9b0 | 0x0001b9b0
-`LssbFDonePresSubline` | 55 (0x37) | Exported Function | 0x10005320 | 0x00005320
-`LssbFDoneDisplay` | 70 (0x46) | Exported Function | 0x1001b970 | 0x0001b970
-`LssbGetObjDimSubline` | 53 (0x35) | Exported Function | 0x10001d00 | 0x00001d00
-`LsSqueezeSubline` | 64 (0x40) | Exported Function | 0x10019240 | 0x00019240
-`LsForceBreakSubline` | 14 (0xe) | Exported Function | 0x100190c0 | 0x000190c0
-`LsFindPrevBreakSubline` | 12 (0xc) | Exported Function | 0x10019060 | 0x00019060
-`LsdnFinishRegular` | 20 (0x14) | Exported Function | 0x10002f00 | 0x00002f00
-`LsdnFinishDeleteAll` | 25 (0x19) | Exported Function | 0x10019710 | 0x00019710
-`LsdnFinishDelete` | 22 (0x16) | Exported Function | 0x10019690 | 0x00019690
-`LsdnFinishBySubline` | 24 (0x18) | Exported Function | 0x10019510 | 0x00019510
-`LsdnFinishByPen` | 23 (0x17) | Exported Function | 0x100193c0 | 0x000193c0
-`LsdnFinishByOneChar` | 26 (0x1a) | Exported Function | 0x10019300 | 0x00019300
-`LsdnDistribute` | 37 (0x25) | Exported Function | 0x10019960 | 0x00019960
-`LsdnFinishRegularAddAdvancePen` | 21 (0x15) | Exported Function | 0x10019870 | 0x00019870
-`LsDisplaySubline` | 41 (0x29) | Exported Function | 0x10003a10 | 0x00003a10
-`LsDestroySubline` | 16 (0x10) | Exported Function | 0x10002cf0 | 0x00002cf0
-`LsDestroyLine` | 5 (0x5) | Exported Function | 0x100018d0 | 0x000018d0
-`LsDestroyContext` | 2 (0x2) | Exported Function | 0x10002a50 | 0x00002a50
-`LsCreateSubline` | 6 (0x6) | Exported Function | 0x100036c0 | 0x000036c0
-`LsCreateLine` | 3 (0x3) | Exported Function | 0x10008af0 | 0x00008af0
-`LsCreateContext` | 1 (0x1) | Exported Function | 0x10007df0 | 0x00007df0
-`LsCompressSubline` | 65 (0x41) | Exported Function | 0x10018dc0 | 0x00018dc0
-`LsDisplayLine` | 40 (0x28) | Exported Function | 0x10005a80 | 0x00005a80
-`LsFinishCurrentSubline` | 10 (0xa) | Exported Function | 0x10004540 | 0x00004540
-`LsdnGetCurTabInfo` | 35 (0x23) | Exported Function | 0x10019a50 | 0x00019a50
-`LsdnGetFormatDepth` | 69 (0x45) | Exported Function | 0x10019bf0 | 0x00019bf0
-`LsFindNextBreakSubline` | 13 (0xd) | Exported Function | 0x10019000 | 0x00019000
-`LsFetchAppendToCurrentSublineResume` | 68 (0x44) | Exported Function | 0x10018e20 | 0x00018e20
-`LsFetchAppendToCurrentSubline` | 7 (0x7) | Exported Function | 0x10003ef0 | 0x00003ef0
-`LsExpandSubline` | 18 (0x12) | Exported Function | 0x10018df0 | 0x00018df0
-`LsEnumSubline` | 75 (0x4b) | Exported Function | 0x1001a4e0 | 0x0001a4e0
-`LsEnumLine` | 72 (0x48) | Exported Function | 0x1001a530 | 0x0001a530
-`LsdnSubmitSublines` | 39 (0x27) | Exported Function | 0x1000f480 | 0x0000f480
-`LsdnGetDup` | 32 (0x20) | Exported Function | 0x10019b90 | 0x00019b90
-`LsdnSkipCurTab` | 36 (0x24) | Exported Function | 0x10019fc0 | 0x00019fc0
-`LsdnSetAbsBaseLine` | 33 (0x21) | Exported Function | 0x10019f00 | 0x00019f00
-`LsdnResolvePrevTab` | 34 (0x22) | Exported Function | 0x10019e80 | 0x00019e80
-`LsdnResetPenNode` | 30 (0x1e) | Exported Function | 0x10019d80 | 0x00019d80
-`LsdnResetObjDim` | 28 (0x1c) | Exported Function | 0x10019cf0 | 0x00019cf0
-`LsdnQueryPenNode` | 29 (0x1d) | Exported Function | 0x10019c90 | 0x00019c90
-`LsdnQueryObjDimRange` | 27 (0x1b) | Exported Function | 0x10010910 | 0x00010910
-`LsdnModifyParaEnding` | 76 (0x4c) | Exported Function | 0x10019c40 | 0x00019c40
-`LsdnSetRigidDup` | 31 (0x1f) | Exported Function | 0x10019f60 | 0x00019f60
-`LsTruncateSubline` | 11 (0xb) | Exported Function | 0x100192a0 | 0x000192a0
+Function Name | Ordinal | Type
+-- | -- | --
+`LsPointXYFromPointUV` | 59 | Exported Function
+`LsQueryCpPpointSubline` | 47 | Exported Function
+`LsModifyLineHeight` | 4 | Exported Function
+`LsPointUV2FromPointUV1` | 60 | Exported Function
+`LsQueryFLineEmpty` | 45 | Exported Function
+`LsQueryLinePointPcp` | 43 | Exported Function
+`LsQueryPointPcpSubline` | 46 | Exported Function
+`LsQueryLineCpPpoint` | 42 | Exported Function
+`LsQueryLineDup` | 44 | Exported Function
+`LsMatchPresSubline` | 17 | Exported Function
+`LsGetMinDurBreaks` | 73 | Exported Function
+`LsGetReverseLsimethods` | 71 | Exported Function
+`LsGetHihLsimethods` | 66 | Exported Function
+`LsGetLineDur` | 74 | Exported Function
+`LsGetRubyLsimethods` | 62 | Exported Function
+`LsGetWarichuLsimethods` | 61 | Exported Function
+`LsLwMultDivR` | 80 | Exported Function
+`LsGetSpecialEffectsSubline` | 19 | Exported Function
+`LsGetTatenakayokoLsimethods` | 63 | Exported Function
+`LsQueryTextCellDetails` | 67 | Exported Function
+`LsSetBreakSubline` | 15 | Exported Function
+`LsSetCompression` | 50 | Exported Function
+`LssbGetVisibleDcpInSubline` | 58 | Exported Function
+`LsSetBreaking` | 52 | Exported Function
+`LsSetDoc` | 48 | Exported Function
+`LsSqueezeSubline` | 64 | Exported Function
+`LsTruncateSubline` | 11 | Exported Function
+`LsSetExpansion` | 51 | Exported Function
+`LsSetModWidthPairs` | 49 | Exported Function
+`LssbGetPlsrunsFromSubline` | 56 | Exported Function
+`LssbFDonePresSubline` | 55 | Exported Function
+`LssbFIsSublineEmpty` | 79 | Exported Function
+`LsResetRMInCurrentSubline` | 9 | Exported Function
+`LssbFDoneDisplay` | 70 | Exported Function
+`LssbGetDupSubline` | 54 | Exported Function
+`LssbGetNumberDnodesInSubline` | 57 | Exported Function
+`LssbGetObjDimSubline` | 53 | Exported Function
+`LssbGetDurTrailInSubline` | 77 | Exported Function
+`LssbGetDurTrailWithPensInSubline` | 78 | Exported Function
+`LsForceBreakSubline` | 14 | Exported Function
+`LsdnFinishByPen` | 23 | Exported Function
+`LsdnFinishBySubline` | 24 | Exported Function
+`LsdnDistribute` | 37 | Exported Function
+`LsdnFinishByOneChar` | 26 | Exported Function
+`LsdnFinishDelete` | 22 | Exported Function
+`LsdnFinishRegularAddAdvancePen` | 21 | Exported Function
+`LsdnGetCurTabInfo` | 35 | Exported Function
+`LsdnFinishDeleteAll` | 25 | Exported Function
+`LsdnFinishRegular` | 20 | Exported Function
+`LsDisplaySubline` | 41 | Exported Function
+`LsCreateContext` | 1 | Exported Function
+`LsCreateLine` | 3 | Exported Function
+`LsAppendRunToCurrentSubline` | 8 | Exported Function
+`LsCompressSubline` | 65 | Exported Function
+`LsCreateSubline` | 6 | Exported Function
+`LsDestroySubline` | 16 | Exported Function
+`LsDisplayLine` | 40 | Exported Function
+`LsDestroyContext` | 2 | Exported Function
+`LsDestroyLine` | 5 | Exported Function
+`LsdnGetDup` | 32 | Exported Function
+`LsEnumSubline` | 75 | Exported Function
+`LsExpandSubline` | 18 | Exported Function
+`LsdnSubmitSublines` | 39 | Exported Function
+`LsEnumLine` | 72 | Exported Function
+`LsFetchAppendToCurrentSubline` | 7 | Exported Function
+`LsFindPrevBreakSubline` | 12 | Exported Function
+`LsFinishCurrentSubline` | 10 | Exported Function
+`LsFetchAppendToCurrentSublineResume` | 68 | Exported Function
+`LsFindNextBreakSubline` | 13 | Exported Function
+`LsdnSkipCurTab` | 36 | Exported Function
+`LsdnQueryObjDimRange` | 27 | Exported Function
+`LsdnQueryPenNode` | 29 | Exported Function
+`LsdnGetFormatDepth` | 69 | Exported Function
+`LsdnModifyParaEnding` | 76 | Exported Function
+`LsdnResetObjDim` | 28 | Exported Function
+`LsdnSetAbsBaseLine` | 33 | Exported Function
+`LsdnSetRigidDup` | 31 | Exported Function
+`LsdnResetPenNode` | 30 | Exported Function
+`LsdnResolvePrevTab` | 34 | Exported Function
 
 
 ## Signature

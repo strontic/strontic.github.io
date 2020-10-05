@@ -24,10 +24,10 @@ PE256 | `B2FB2C690615E81DC6B9F1D1758BAA2613C55403B5748C301CDB8FB7095E4859`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Ordinal227` | 227 (0xe3) | Exported Function | 0x10010520 | 0x00010520
-`SLIsGenuineLocal` | 228 (0xe4) | Exported Function | 0x10003bb0 | 0x00003bb0
+Function Name | Ordinal | Type
+-- | -- | --
+`SLIsGenuineLocal` | 228 | Exported Function
+`Ordinal227` | 227 | Exported Function
 
 
 ## Signature

@@ -24,31 +24,31 @@ PE256 | `95EFA10A4E9DE2EB60EE8E8D8D141247D67607079DEF61F1E1F690C6BD05A445`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DeviceAdvancedPropertiesA` | 17 (0x11) | Exported Function | 0x0000000180032100 | 0x00032100
-`DllGetClassObject` | 16 (0x10) | Exported Function | 0x0000000180004b20 | 0x00004b20
-`DllCanUnloadNow` | 15 (0xf) | Exported Function | 0x0000000180006720 | 0x00006720
-`DevicePropertiesW` | 8 (0x8) | Exported Function | 0x00000001800329c0 | 0x000329c0
-`DevicePropertiesExW` | 22 (0x16) | Exported Function | 0x0000000180032900 | 0x00032900
-`DevicePropertiesExA` | 21 (0x15) | Exported Function | 0x0000000180032810 | 0x00032810
-`DevicePropertiesA` | 7 (0x7) | Exported Function | 0x0000000180032730 | 0x00032730
-`DeviceProperties_RunDLLW` | 6 (0x6) | Exported Function | 0x0000000180032b40 | 0x00032b40
-`DeviceProperties_RunDLLA` | 5 (0x5) | Exported Function | 0x0000000180032a90 | 0x00032a90
-`DeviceProblenWizard_RunDLLW` | 24 (0x18) | Exported Function | 0x0000000180032690 | 0x00032690
-`DllRegisterServer` | 26 (0x1a) | Exported Function | 0x000000018000c160 | 0x0000c160
-`DeviceProblenWizard_RunDLLA` | 23 (0x17) | Exported Function | 0x00000001800325e0 | 0x000325e0
-`DeviceProblemWizardA` | 13 (0xd) | Exported Function | 0x0000000180032460 | 0x00032460
-`DeviceProblemTextW` | 12 (0xc) | Exported Function | 0x0000000180032440 | 0x00032440
-`DeviceProblemTextA` | 11 (0xb) | Exported Function | 0x0000000180032300 | 0x00032300
-`DeviceManager_ExecuteW` | 10 (0xa) | Exported Function | 0x0000000180032270 | 0x00032270
-`DeviceManager_ExecuteA` | 9 (0x9) | Exported Function | 0x0000000180032270 | 0x00032270
-`DeviceCreateHardwarePageEx` | 20 (0x14) | Exported Function | 0x0000000180039ee0 | 0x00039ee0
-`DeviceCreateHardwarePageCustom` | 25 (0x19) | Exported Function | 0x0000000180039dd0 | 0x00039dd0
-`DeviceCreateHardwarePage` | 19 (0x13) | Exported Function | 0x0000000180039db0 | 0x00039db0
-`DeviceAdvancedPropertiesW` | 18 (0x12) | Exported Function | 0x00000001800321c0 | 0x000321c0
-`DeviceProblemWizardW` | 14 (0xe) | Exported Function | 0x0000000180032530 | 0x00032530
-`DllUnregisterServer` | 27 (0x1b) | Exported Function | 0x000000018000c170 | 0x0000c170
+Function Name | Ordinal | Type
+-- | -- | --
+`DevicePropertiesA` | 7 | Exported Function
+`DevicePropertiesExA` | 21 | Exported Function
+`DeviceProperties_RunDLLW` | 6 | Exported Function
+`DeviceProblenWizard_RunDLLW` | 24 | Exported Function
+`DeviceProperties_RunDLLA` | 5 | Exported Function
+`DevicePropertiesExW` | 22 | Exported Function
+`DllRegisterServer` | 26 | Exported Function
+`DllUnregisterServer` | 27 | Exported Function
+`DllGetClassObject` | 16 | Exported Function
+`DevicePropertiesW` | 8 | Exported Function
+`DllCanUnloadNow` | 15 | Exported Function
+`DeviceProblenWizard_RunDLLA` | 23 | Exported Function
+`DeviceCreateHardwarePageCustom` | 25 | Exported Function
+`DeviceCreateHardwarePageEx` | 20 | Exported Function
+`DeviceCreateHardwarePage` | 19 | Exported Function
+`DeviceAdvancedPropertiesA` | 17 | Exported Function
+`DeviceAdvancedPropertiesW` | 18 | Exported Function
+`DeviceManager_ExecuteA` | 9 | Exported Function
+`DeviceProblemWizardA` | 13 | Exported Function
+`DeviceProblemWizardW` | 14 | Exported Function
+`DeviceProblemTextW` | 12 | Exported Function
+`DeviceManager_ExecuteW` | 10 | Exported Function
+`DeviceProblemTextA` | 11 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `900EE2525F7ED8E0862F8F654B5995EB64D0731A0D8BEA55DB9F6145EC90C99A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000017120bc30 | 0x0000bc30
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000017120be30 | 0x0000be30
-`Uninstall` | 1 (0x1) | Exported Function | 0x000000017120bc50 | 0x0000bc50
+Function Name | Ordinal | Type
+-- | -- | --
+`Uninstall` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

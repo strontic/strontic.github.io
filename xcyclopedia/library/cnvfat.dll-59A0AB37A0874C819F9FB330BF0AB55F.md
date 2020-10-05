@@ -24,10 +24,10 @@ PE256 | `C0348C19CD546FF75B1C34D88B0701051F13281176C7F7609EB8C50F0B5E12E2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConvertFAT` | 2 (0x2) | Exported Function | 0x0000000180001830 | 0x00001830
-`IsConversionAvailable` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`IsConversionAvailable` | 1 | Exported Function
+`ConvertFAT` | 2 | Exported Function
 
 
 ## Signature

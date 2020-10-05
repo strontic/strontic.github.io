@@ -24,18 +24,18 @@ PE256 | `55E06AC984BC08B8B45CAF734244009D71B31C622E5658EAE1691C88F64C3A19`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PdhUiBrowseCountersA` | 1 (0x1) | Exported Function | 0x0000000180001240 | 0x00001240
-`PdhUiBrowseCountersExA` | 2 (0x2) | Exported Function | 0x0000000180001970 | 0x00001970
-`PdhUiBrowseCountersExHA` | 3 (0x3) | Exported Function | 0x0000000180001710 | 0x00001710
-`PdhUiBrowseCountersExHW` | 4 (0x4) | Exported Function | 0x0000000180001610 | 0x00001610
-`PdhUiBrowseCountersExW` | 5 (0x5) | Exported Function | 0x00000001800017f0 | 0x000017f0
-`PdhUiBrowseCountersHA` | 6 (0x6) | Exported Function | 0x0000000180001100 | 0x00001100
-`PdhUiBrowseCountersHW` | 7 (0x7) | Exported Function | 0x0000000180001060 | 0x00001060
-`PdhUiBrowseCountersW` | 8 (0x8) | Exported Function | 0x00000001800011a0 | 0x000011a0
-`PdhUiSelectDataSourceA` | 9 (0x9) | Exported Function | 0x000000018000a860 | 0x0000a860
-`PdhUiSelectDataSourceW` | 10 (0xa) | Exported Function | 0x000000018000a700 | 0x0000a700
+Function Name | Ordinal | Type
+-- | -- | --
+`PdhUiBrowseCountersHW` | 7 | Exported Function
+`PdhUiBrowseCountersHA` | 6 | Exported Function
+`PdhUiBrowseCountersW` | 8 | Exported Function
+`PdhUiSelectDataSourceW` | 10 | Exported Function
+`PdhUiSelectDataSourceA` | 9 | Exported Function
+`PdhUiBrowseCountersExA` | 2 | Exported Function
+`PdhUiBrowseCountersA` | 1 | Exported Function
+`PdhUiBrowseCountersExHA` | 3 | Exported Function
+`PdhUiBrowseCountersExW` | 5 | Exported Function
+`PdhUiBrowseCountersExHW` | 4 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `5D709AE0FF90E2709680C0743F130A5096E8A26695FC02B5E5C508643689D106`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClassInstall32` | 1 (0x1) | Exported Function | 0x51b44550 | 0x00004550
+Function Name | Ordinal | Type
+-- | -- | --
+`ClassInstall32` | 1 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `B854AE7894F4852BE40F093F16A0B44360B4C0D384947A50DB22DBD686A5FC1F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MigrateBlueToThreshold` | 1 (0x1) | Exported Function | 0x0000000180004d30 | 0x00004d30
-`MigrateBlueToThresholdNeeded` | 2 (0x2) | Exported Function | 0x0000000180004e40 | 0x00004e40
+Function Name | Ordinal | Type
+-- | -- | --
+`MigrateBlueToThresholdNeeded` | 2 | Exported Function
+`MigrateBlueToThreshold` | 1 | Exported Function
 
 
 ## Signature

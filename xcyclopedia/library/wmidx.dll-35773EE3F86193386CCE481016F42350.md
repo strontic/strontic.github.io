@@ -24,9 +24,9 @@ PE256 | `8A950303D558FC8233CA01C0BBBAE47B4B0BAF8F4B7C107704AAF9914FCEF7E5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WMCreateASFChopper` | 1 (0x1) | Exported Function | 0x000000018000b360 | 0x0000b360
+Function Name | Ordinal | Type
+-- | -- | --
+`WMCreateASFChopper` | 1 | Exported Function
 
 
 ## Signature

@@ -24,16 +24,16 @@ PE256 | `82BB7BB415B1D0BC38A4C419C19E379AFE2FEE19AA94380AF627B045734E9F8C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateObject` | 2 (0x2) | Exported Function | 0x00000001800093e0 | 0x000093e0
-`CreateObject2` | 1 (0x1) | Exported Function | 0x00000001800094b0 | 0x000094b0
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x0000000180004f50 | 0x00004f50
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x0000000180009330 | 0x00009330
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x0000000180004f50 | 0x00004f50
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x0000000180004f50 | 0x00004f50
-`RegClass` | 3 (0x3) | Exported Function | 0x0000000180009700 | 0x00009700
-`UnregClass` | 4 (0x4) | Exported Function | 0x00000001800097e0 | 0x000097e0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 8 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`UnregClass` | 4 | Exported Function
+`RegClass` | 3 | Exported Function
+`CreateObject2` | 1 | Exported Function
+`CreateObject` | 2 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
 
 
 ## Signature

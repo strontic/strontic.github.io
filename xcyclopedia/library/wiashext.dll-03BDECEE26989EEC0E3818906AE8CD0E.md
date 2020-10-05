@@ -24,17 +24,17 @@ PE256 | `2DC71EE6F1D8EF703E693AE0B8CF48ADE84D8157E61CA68B0F637A8E29F5CFBC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddDeviceWasChosen` | 1 (0x1) | Exported Function | 0x00000001770011f0 | 0x000011f0
-`AddDeviceWasChosenA` | 2 (0x2) | Exported Function | 0x00000001770011f0 | 0x000011f0
-`AddDeviceWasChosenW` | 3 (0x3) | Exported Function | 0x00000001770011f0 | 0x000011f0
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x00000001770010e0 | 0x000010e0
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x0000000177001100 | 0x00001100
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x00000001770011d0 | 0x000011d0
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x00000001770011d0 | 0x000011d0
-`DoDeleteAllItems` | 9 (0x9) | Exported Function | 0x00000001770011e0 | 0x000011e0
-`MakeFullPidlForDevice` | 4 (0x4) | Exported Function | 0x0000000177001200 | 0x00001200
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 8 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`MakeFullPidlForDevice` | 4 | Exported Function
+`DoDeleteAllItems` | 9 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`AddDeviceWasChosenA` | 2 | Exported Function
+`AddDeviceWasChosen` | 1 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`AddDeviceWasChosenW` | 3 | Exported Function
 
 
 ## Signature

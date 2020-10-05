@@ -24,35 +24,35 @@ PE256 | `B419FB4BC8AB68DBDCE7AF6056C496532AAFFF125354C2763D26CFC31BCF9A9F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_aligned_free` | 1 (0x1) | Exported Function | ucrtbase._aligned_free | 0x00001293
-`free` | 25 (0x19) | Exported Function | ucrtbase.free | 0x00001608
-`calloc` | 24 (0x18) | Exported Function | ucrtbase.calloc | 0x000015f3
-`_set_new_mode` | 23 (0x17) | Exported Function | ucrtbase._set_new_mode | 0x000015d5
-`_recalloc` | 22 (0x16) | Exported Function | ucrtbase._recalloc | 0x000015b4
-`_realloc_base` | 21 (0x15) | Exported Function | ucrtbase._realloc_base | 0x00001593
-`_query_new_mode` | 20 (0x14) | Exported Function | ucrtbase._query_new_mode | 0x0000156c
-`_query_new_handler` | 19 (0x13) | Exported Function | ucrtbase._query_new_handler | 0x00001540
-`_msize` | 18 (0x12) | Exported Function | ucrtbase._msize | 0x0000151d
-`_malloc_base` | 17 (0x11) | Exported Function | ucrtbase._malloc_base | 0x00001500
-`_heapwalk` | 16 (0x10) | Exported Function | ucrtbase._heapwalk | 0x000014e0
-`_heapmin` | 15 (0xf) | Exported Function | ucrtbase._heapmin | 0x000014c4
-`malloc` | 26 (0x1a) | Exported Function | ucrtbase.malloc | 0x0000161d
-`_heapchk` | 14 (0xe) | Exported Function | ucrtbase._heapchk | 0x000014a9
-`_free_base` | 12 (0xc) | Exported Function | ucrtbase._free_base | 0x00001461
-`_expand` | 11 (0xb) | Exported Function | ucrtbase._expand | 0x00001445
-`_calloc_base` | 10 (0xa) | Exported Function | ucrtbase._calloc_base | 0x00001427
-`_callnewh` | 9 (0x9) | Exported Function | ucrtbase._callnewh | 0x00001407
-`_aligned_recalloc` | 8 (0x8) | Exported Function | ucrtbase._aligned_recalloc | 0x000013e2
-`_aligned_realloc` | 7 (0x7) | Exported Function | ucrtbase._aligned_realloc | 0x000013b6
-`_aligned_offset_recalloc` | 6 (0x6) | Exported Function | ucrtbase._aligned_offset_recalloc | 0x00001383
-`_aligned_offset_realloc` | 5 (0x5) | Exported Function | ucrtbase._aligned_offset_realloc | 0x00001349
-`_aligned_offset_malloc` | 4 (0x4) | Exported Function | ucrtbase._aligned_offset_malloc | 0x00001311
-`_aligned_msize` | 3 (0x3) | Exported Function | ucrtbase._aligned_msize | 0x000012e2
-`_aligned_malloc` | 2 (0x2) | Exported Function | ucrtbase._aligned_malloc | 0x000012ba
-`_get_heap_handle` | 13 (0xd) | Exported Function | ucrtbase._get_heap_handle | 0x00001486
-`realloc` | 27 (0x1b) | Exported Function | ucrtbase.realloc | 0x00001635
+Function Name | Ordinal | Type
+-- | -- | --
+`_msize` | 18 | Exported Function
+`_query_new_handler` | 19 | Exported Function
+`_query_new_mode` | 20 | Exported Function
+`_heapmin` | 15 | Exported Function
+`_heapwalk` | 16 | Exported Function
+`_malloc_base` | 17 | Exported Function
+`_realloc_base` | 21 | Exported Function
+`free` | 25 | Exported Function
+`malloc` | 26 | Exported Function
+`realloc` | 27 | Exported Function
+`_recalloc` | 22 | Exported Function
+`_set_new_mode` | 23 | Exported Function
+`calloc` | 24 | Exported Function
+`_heapchk` | 14 | Exported Function
+`_aligned_offset_malloc` | 4 | Exported Function
+`_aligned_offset_realloc` | 5 | Exported Function
+`_aligned_offset_recalloc` | 6 | Exported Function
+`_aligned_free` | 1 | Exported Function
+`_aligned_malloc` | 2 | Exported Function
+`_aligned_msize` | 3 | Exported Function
+`_aligned_realloc` | 7 | Exported Function
+`_expand` | 11 | Exported Function
+`_free_base` | 12 | Exported Function
+`_get_heap_handle` | 13 | Exported Function
+`_aligned_recalloc` | 8 | Exported Function
+`_callnewh` | 9 | Exported Function
+`_calloc_base` | 10 | Exported Function
 
 
 ## Signature

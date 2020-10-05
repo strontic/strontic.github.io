@@ -24,21 +24,21 @@ PE256 | `3B38B1C3187EA046FCB505FCA377BE184285768299C222556BE8996C13F8FFD0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConstructHiveLocation` | 1 (0x1) | Exported Function | 0x000000018004aff0 | 0x0004aff0
-`ConstructRegLocation` | 3 (0x3) | Exported Function | 0x0000000180002860 | 0x00002860
-`CreateLalInstance` | 4 (0x4) | Exported Function | 0x000000018004dd00 | 0x0004dd00
-`CreateSettingsEnginePriv` | 2 (0x2) | Exported Function | 0x000000018003e8e0 | 0x0003e8e0
-`CreateWcmEngineCore` | 5 (0x5) | Exported Function | 0x0000000180003c00 | 0x00003c00
-`DeleteCompilerObject` | 6 (0x6) | Exported Function | 0x000000018002d740 | 0x0002d740
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x00000001800021e0 | 0x000021e0
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x0000000180002130 | 0x00002130
-`DllRegisterServer` | 9 (0x9) | Exported Function | 0x0000000180002210 | 0x00002210
-`DllUnregisterServer` | 10 (0xa) | Exported Function | 0x00000001800023d0 | 0x000023d0
-`GetCompilerObject` | 11 (0xb) | Exported Function | 0x000000018002d680 | 0x0002d680
-`GetItemFromCoreObject` | 12 (0xc) | Exported Function | 0x000000018003f660 | 0x0003f660
-`SetLalCreator` | 13 (0xd) | Exported Function | 0x000000018004dd30 | 0x0004dd30
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 10 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`SetLalCreator` | 13 | Exported Function
+`GetItemFromCoreObject` | 12 | Exported Function
+`GetCompilerObject` | 11 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`CreateLalInstance` | 4 | Exported Function
+`ConstructRegLocation` | 3 | Exported Function
+`ConstructHiveLocation` | 1 | Exported Function
+`DeleteCompilerObject` | 6 | Exported Function
+`CreateWcmEngineCore` | 5 | Exported Function
+`CreateSettingsEnginePriv` | 2 | Exported Function
 
 
 ## Signature

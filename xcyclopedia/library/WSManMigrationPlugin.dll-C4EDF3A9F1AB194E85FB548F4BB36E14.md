@@ -24,35 +24,35 @@ PE256 | `B0CD628639A4DB3D1471A96CCC160D374BCE9F50F21008E80F4EC51751FDFEEE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`const SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::``vftable'` | 8 (0x8) | Exported Function | 0x10001808 | 0x00001808
-`public: virtual void __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Release(void)const ` | 20 (0x14) | Exported Function | 0x10006930 | 0x00006930
-`public: virtual void __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void)const ` | 9 (0x9) | Exported Function | 0x10006930 | 0x00006930
-`public: virtual bool __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Initialize(class IRequestContext &)` | 18 (0x12) | Exported Function | 0x100069a0 | 0x000069a0
-`public: virtual bool __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::DeInitialize(class IRequestContext &)` | 14 (0xe) | Exported Function | 0x10006940 | 0x00006940
-`public: unsigned long __thiscall CWSManCriticalSection::GetInitError(void)const ` | 15 (0xf) | Exported Function | 0x100061c0 | 0x000061c0
-`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const & __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::GetMap(void)const ` | 17 (0x11) | Exported Function | 0x100061c0 | 0x000061c0
-`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::GetMap(void)const ` | 16 (0x10) | Exported Function | 0x100061c0 | 0x000061c0
-`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::AsReference(void)` | 12 (0xc) | Exported Function | 0x10006ec0 | 0x00006ec0
-`public: bool __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquired(void)` | 11 (0xb) | Exported Function | 0x100072d0 | 0x000072d0
-`public: bool __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::IsValid(void)const ` | 19 (0x13) | Exported Function | 0x10006ed0 | 0x00006ed0
-`public: __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void)` | 6 (0x6) | Exported Function | 0x100072e0 | 0x000072e0
-`public: void __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::Reset(void)` | 21 (0x15) | Exported Function | 0x10007370 | 0x00007370
-`public: __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const &,bool)` | 3 (0x3) | Exported Function | 0x10007340 | 0x00007340
-`public: __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::SafeMap_Iterator<class Locale::Key,unsigned long>(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > &,bool)` | 2 (0x2) | Exported Function | 0x10006f70 | 0x00006f70
-`public: __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void)` | 4 (0x4) | Exported Function | 0x10006a60 | 0x00006a60
-`public: __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void)` | 1 (0x1) | Exported Function | 0x10006ad0 | 0x00006ad0
-`public: __thiscall CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void)` | 7 (0x7) | Exported Function | 0x100061d0 | 0x000061d0
-`protected: void __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::SkipOrphans(void)` | 22 (0x16) | Exported Function | 0x10007820 | 0x00007820
-`protected: class STLMap<class Locale::Key,unsigned long> & __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::Data(void)const ` | 13 (0xd) | Exported Function | 0x10007870 | 0x00007870
-`DllUnregisterServer` | 27 (0x1b) | Exported Function | 0x10003840 | 0x00003840
-`DllRegisterServer` | 26 (0x1a) | Exported Function | 0x100037e0 | 0x000037e0
-`DllMain` | 25 (0x19) | Exported Function | 0x100038f0 | 0x000038f0
-`DllGetClassObject` | 24 (0x18) | Exported Function | 0x100037b0 | 0x000037b0
-`DllCanUnloadNow` | 23 (0x17) | Exported Function | 0x100038c0 | 0x000038c0
-`public: __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::~SafeMap_Iterator<class Locale::Key,unsigned long>(void)` | 5 (0x5) | Exported Function | 0x10006ee0 | 0x00006ee0
-`public: void __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void)` | 10 (0xa) | Exported Function | 0x100077d0 | 0x000077d0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::AsReference(void)` | 12 | Exported Function
+`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::GetMap(void)const ` | 16 | Exported Function
+`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const & __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::GetMap(void)const ` | 17 | Exported Function
+`public: __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void)` | 6 | Exported Function
+`public: bool __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::IsValid(void)const ` | 19 | Exported Function
+`public: bool __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquired(void)` | 11 | Exported Function
+`public: unsigned long __thiscall CWSManCriticalSection::GetInitError(void)const ` | 15 | Exported Function
+`public: virtual void __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Release(void)const ` | 20 | Exported Function
+`public: void __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::Reset(void)` | 21 | Exported Function
+`public: void __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void)` | 10 | Exported Function
+`public: virtual bool __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::DeInitialize(class IRequestContext &)` | 14 | Exported Function
+`public: virtual bool __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Initialize(class IRequestContext &)` | 18 | Exported Function
+`public: virtual void __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void)const ` | 9 | Exported Function
+`public: __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const &,bool)` | 3 | Exported Function
+`DllMain` | 25 | Exported Function
+`DllRegisterServer` | 26 | Exported Function
+`DllUnregisterServer` | 27 | Exported Function
+`const SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::``vftable'` | 8 | Exported Function
+`DllCanUnloadNow` | 23 | Exported Function
+`DllGetClassObject` | 24 | Exported Function
+`protected: class STLMap<class Locale::Key,unsigned long> & __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::Data(void)const ` | 13 | Exported Function
+`public: __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void)` | 4 | Exported Function
+`public: __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::SafeMap_Iterator<class Locale::Key,unsigned long>(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > &,bool)` | 2 | Exported Function
+`public: __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::~SafeMap_Iterator<class Locale::Key,unsigned long>(void)` | 5 | Exported Function
+`protected: void __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::SkipOrphans(void)` | 22 | Exported Function
+`public: __thiscall CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void)` | 7 | Exported Function
+`public: __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void)` | 1 | Exported Function
 
 
 ## Signature

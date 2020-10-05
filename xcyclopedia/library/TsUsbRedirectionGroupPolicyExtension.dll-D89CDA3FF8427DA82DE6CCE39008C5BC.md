@@ -24,11 +24,11 @@ PE256 | `20A489B825BFD6F728B779A9DDAB21BD2A8F43A7C9724706461B05737DDE59EB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ExecuteProcessGroupPolicyEx` | 1 (0x1) | Exported Function | 0x0000000180001970 | 0x00001970
-`ExecuteProcessGroupPolicyExWithError` | 2 (0x2) | Exported Function | 0x0000000180001980 | 0x00001980
-`ProcessGroupPolicyEx` | 3 (0x3) | Exported Function | 0x00000001800011b0 | 0x000011b0
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessGroupPolicyEx` | 3 | Exported Function
+`ExecuteProcessGroupPolicyExWithError` | 2 | Exported Function
+`ExecuteProcessGroupPolicyEx` | 1 | Exported Function
 
 
 ## Signature

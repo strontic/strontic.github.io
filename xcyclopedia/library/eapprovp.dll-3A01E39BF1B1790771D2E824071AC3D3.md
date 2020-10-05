@@ -24,15 +24,15 @@ PE256 | `790A61D98CABF99D3019060865B84E673C315E9C41F2A0195BDCE03C5169AACF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EapProvPlugGetInfo` | 1 (0x1) | Exported Function | 0x100052c0 | 0x000052c0
-`EapProvPluginDeinitialize` | 2 (0x2) | Exported Function | 0x10004090 | 0x00004090
-`EapProvPluginInitialize` | 3 (0x3) | Exported Function | 0x10003f50 | 0x00003f50
-`EapProvPluginTestForAuthenticatingWlanInterfaces` | 4 (0x4) | Exported Function | 0x10004170 | 0x00004170
-`EapProvPluginWlanCloseHandle` | 5 (0x5) | Exported Function | 0x100051a0 | 0x000051a0
-`EapProvPluginWlanOpenHandle` | 6 (0x6) | Exported Function | 0x10005100 | 0x00005100
-`EapProvPluginWlanRegisterNotification` | 7 (0x7) | Exported Function | 0x10005220 | 0x00005220
+Function Name | Ordinal | Type
+-- | -- | --
+`EapProvPluginWlanCloseHandle` | 5 | Exported Function
+`EapProvPluginWlanOpenHandle` | 6 | Exported Function
+`EapProvPluginWlanRegisterNotification` | 7 | Exported Function
+`EapProvPluginTestForAuthenticatingWlanInterfaces` | 4 | Exported Function
+`EapProvPlugGetInfo` | 1 | Exported Function
+`EapProvPluginDeinitialize` | 2 | Exported Function
+`EapProvPluginInitialize` | 3 | Exported Function
 
 
 ## Signature

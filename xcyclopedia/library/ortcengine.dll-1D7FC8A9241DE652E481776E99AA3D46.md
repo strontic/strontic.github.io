@@ -24,11 +24,11 @@ PE256 | `57A979C0CBB6D000DC94E60049B77F0D66DB769CBEA249086F43BFA846A061AE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RtcOrtcAlloc` | 1 (0x1) | Exported Function | 0x00000001800089d0 | 0x000089d0
-`RtcOrtcFree` | 2 (0x2) | Exported Function | 0x00000001800089e0 | 0x000089e0
-`RtcOrtcGetBrokerFactory` | 3 (0x3) | Exported Function | 0x0000000180008a00 | 0x00008a00
+Function Name | Ordinal | Type
+-- | -- | --
+`RtcOrtcGetBrokerFactory` | 3 | Exported Function
+`RtcOrtcFree` | 2 | Exported Function
+`RtcOrtcAlloc` | 1 | Exported Function
 
 
 ## Signature

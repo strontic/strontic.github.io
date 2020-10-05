@@ -24,11 +24,11 @@ PE256 | `69C2E1C1F66D40DC1E3C8BF56B236194B0D39841B407456A93B1889369A5A6E2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CallBlockTabForDialogUntilActive` | 1 (0x1) | Exported Function | 0x0000000180002c90 | 0x00002c90
-`GetFlashShimHandler` | 2 (0x2) | Exported Function | 0x00000001800041a0 | 0x000041a0
-`RunAsAXHolder` | 3 (0x3) | Exported Function | 0x0000000180004520 | 0x00004520
+Function Name | Ordinal | Type
+-- | -- | --
+`RunAsAXHolder` | 3 | Exported Function
+`GetFlashShimHandler` | 2 | Exported Function
+`CallBlockTabForDialogUntilActive` | 1 | Exported Function
 
 
 ## Signature

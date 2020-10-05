@@ -24,20 +24,20 @@ PE256 | `6B1B38025C422B316F49DE63663C59EB708760B3D1EF56A5B6EF604C9377DB21`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CharLowerA` | 1 (0x1) | Exported Function | user32.CharLowerA | 0x000011f1
-`CharLowerBuffA` | 2 (0x2) | Exported Function | user32.CharLowerBuffA | 0x00001212
-`CharNextA` | 3 (0x3) | Exported Function | user32.CharNextA | 0x00001232
-`CharNextExA` | 4 (0x4) | Exported Function | user32.CharNextExA | 0x0000124f
-`CharPrevA` | 5 (0x5) | Exported Function | user32.CharPrevA | 0x0000126c
-`CharPrevExA` | 6 (0x6) | Exported Function | user32.CharPrevExA | 0x00001289
-`CharUpperA` | 7 (0x7) | Exported Function | user32.CharUpperA | 0x000012a7
-`CharUpperBuffA` | 8 (0x8) | Exported Function | user32.CharUpperBuffA | 0x000012c8
-`IsCharAlphaA` | 9 (0x9) | Exported Function | user32.IsCharAlphaA | 0x000012eb
-`IsCharAlphaNumericA` | 10 (0xa) | Exported Function | user32.IsCharAlphaNumericA | 0x00001313
-`IsCharLowerA` | 11 (0xb) | Exported Function | user32.IsCharLowerA | 0x0000133b
-`IsCharUpperA` | 12 (0xc) | Exported Function | user32.IsCharUpperA | 0x0000135c
+Function Name | Ordinal | Type
+-- | -- | --
+`IsCharAlphaA` | 9 | Exported Function
+`CharUpperBuffA` | 8 | Exported Function
+`CharUpperA` | 7 | Exported Function
+`IsCharUpperA` | 12 | Exported Function
+`IsCharLowerA` | 11 | Exported Function
+`IsCharAlphaNumericA` | 10 | Exported Function
+`CharNextA` | 3 | Exported Function
+`CharLowerBuffA` | 2 | Exported Function
+`CharLowerA` | 1 | Exported Function
+`CharPrevExA` | 6 | Exported Function
+`CharPrevA` | 5 | Exported Function
+`CharNextExA` | 4 | Exported Function
 
 
 ## Signature

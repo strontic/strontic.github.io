@@ -24,87 +24,87 @@ PE256 | `E5F3799608952D6CE96A7C6F68A57CC71A176F4297AD07F49C2E3C2634D354E3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ToplAddEdgeSetToGraph` | 1 (0x1) | Exported Function | 0x0000000180002140 | 0x00002140
-`ToplScheduleIsEqual` | 62 (0x3e) | Exported Function | 0x0000000180001930 | 0x00001930
-`ToplScheduleImport` | 61 (0x3d) | Exported Function | 0x0000000180001490 | 0x00001490
-`ToplScheduleExportReadonly` | 60 (0x3c) | Exported Function | 0x00000001800015f0 | 0x000015f0
-`ToplScheduleDuration` | 59 (0x3b) | Exported Function | 0x0000000180001980 | 0x00001980
-`ToplScheduleCreate` | 58 (0x3a) | Exported Function | 0x0000000180001770 | 0x00001770
-`ToplScheduleCacheDestroy` | 57 (0x39) | Exported Function | 0x00000001800013d0 | 0x000013d0
-`ToplScheduleCacheCreate` | 56 (0x38) | Exported Function | 0x0000000180001320 | 0x00001320
-`ToplScheduleMaxUnavailable` | 63 (0x3f) | Exported Function | 0x00000001800019b0 | 0x000019b0
-`ToplPScheduleValid` | 50 (0x32) | Exported Function | 0x0000000180001b30 | 0x00001b30
-`ToplListSetIter` | 48 (0x30) | Exported Function | 0x0000000180004aa0 | 0x00004aa0
-`ToplListRemoveElem` | 47 (0x2f) | Exported Function | 0x0000000180004b10 | 0x00004b10
-`ToplListNumberOfElements` | 46 (0x2e) | Exported Function | 0x0000000180004c00 | 0x00004c00
-`ToplListFree` | 45 (0x2d) | Exported Function | 0x00000001800049f0 | 0x000049f0
-`ToplListCreate` | 44 (0x2c) | Exported Function | 0x00000001800049c0 | 0x000049c0
-`ToplListAddElem` | 43 (0x2b) | Exported Function | 0x0000000180004b90 | 0x00004b90
-`ToplIterGetObject` | 42 (0x2a) | Exported Function | 0x0000000180004cd0 | 0x00004cd0
-`ToplMakeGraphState` | 49 (0x31) | Exported Function | 0x0000000180001cb0 | 0x00001cb0
-`ToplIterFree` | 41 (0x29) | Exported Function | 0x0000000180004c80 | 0x00004c80
-`ToplScheduleMerge` | 64 (0x40) | Exported Function | 0x0000000180001630 | 0x00001630
-`ToplScheduleValid` | 66 (0x42) | Exported Function | 0x0000000180001b00 | 0x00001b00
-`ToplVertexNumberOfOutEdges` | 77 (0x4d) | Exported Function | 0x0000000180005530 | 0x00005530
-`ToplVertexNumberOfInEdges` | 76 (0x4c) | Exported Function | 0x0000000180005480 | 0x00005480
-`ToplVertexInit` | 75 (0x4b) | Exported Function | 0x0000000180005330 | 0x00005330
-`ToplVertexGetParent` | 74 (0x4a) | Exported Function | 0x0000000180005690 | 0x00005690
-`ToplVertexGetOutEdge` | 73 (0x49) | Exported Function | 0x0000000180005580 | 0x00005580
-`ToplVertexGetInEdge` | 72 (0x48) | Exported Function | 0x00000001800054d0 | 0x000054d0
-`ToplVertexGetId` | 71 (0x47) | Exported Function | 0x0000000180005430 | 0x00005430
-`ToplScheduleNumEntries` | 65 (0x41) | Exported Function | 0x00000001800015d0 | 0x000015d0
-`ToplVertexFree` | 70 (0x46) | Exported Function | 0x00000001800052e0 | 0x000052e0
-`ToplVertexCreate` | 68 (0x44) | Exported Function | 0x00000001800052a0 | 0x000052a0
-`ToplSTHeapInit` | 55 (0x37) | Exported Function | 0x00000001800038d0 | 0x000038d0
-`ToplSTHeapExtractMin` | 54 (0x36) | Exported Function | 0x0000000180003bd0 | 0x00003bd0
-`ToplSTHeapDestroy` | 53 (0x35) | Exported Function | 0x0000000180003990 | 0x00003990
-`ToplSTHeapCostReduced` | 52 (0x34) | Exported Function | 0x0000000180003c50 | 0x00003c50
-`ToplSTHeapAdd` | 51 (0x33) | Exported Function | 0x0000000180003b80 | 0x00003b80
-`ToplSetAllocator` | 67 (0x43) | Exported Function | 0x00000001800046d0 | 0x000046d0
-`ToplVertexDestroy` | 69 (0x45) | Exported Function | 0x0000000180005390 | 0x00005390
-`ToplVertexSetId` | 78 (0x4e) | Exported Function | 0x00000001800053e0 | 0x000053e0
-`ToplIterCreate` | 40 (0x28) | Exported Function | 0x0000000180004c50 | 0x00004c50
-`ToplIsToplException` | 38 (0x26) | Exported Function | 0x0000000180005c90 | 0x00005c90
-`ToplEdgeSetVtx` | 17 (0x11) | Exported Function | 0x0000000180002050 | 0x00002050
-`ToplEdgeSetToVertex` | 16 (0x10) | Exported Function | 0x0000000180004eb0 | 0x00004eb0
-`ToplEdgeSetFromVertex` | 15 (0xf) | Exported Function | 0x0000000180004f80 | 0x00004f80
-`ToplEdgeInit` | 14 (0xe) | Exported Function | 0x0000000180004e20 | 0x00004e20
-`ToplEdgeGetWeight` | 13 (0xd) | Exported Function | 0x0000000180005250 | 0x00005250
-`ToplEdgeGetToVertex` | 12 (0xc) | Exported Function | 0x0000000180004f30 | 0x00004f30
-`ToplEdgeGetFromVertex` | 11 (0xb) | Exported Function | 0x0000000180005000 | 0x00005000
-`ToplEdgeSetWeight` | 18 (0x12) | Exported Function | 0x00000001800051f0 | 0x000051f0
-`ToplEdgeFree` | 10 (0xa) | Exported Function | 0x0000000180004dd0 | 0x00004dd0
-`ToplEdgeDestroy` | 8 (0x8) | Exported Function | 0x0000000180004e60 | 0x00004e60
-`ToplEdgeCreate` | 7 (0x7) | Exported Function | 0x0000000180004d90 | 0x00004d90
-`ToplEdgeAssociate` | 6 (0x6) | Exported Function | 0x0000000180005050 | 0x00005050
-`ToplDeleteSpanningTreeEdges` | 5 (0x5) | Exported Function | 0x00000001800035b0 | 0x000035b0
-`ToplDeleteGraphState` | 4 (0x4) | Exported Function | 0x0000000180003720 | 0x00003720
-`ToplDeleteComponents` | 3 (0x3) | Exported Function | 0x0000000180003670 | 0x00003670
-`ToplAddEdgeToGraph` | 2 (0x2) | Exported Function | 0x0000000180001f40 | 0x00001f40
-`ToplEdgeDisassociate` | 9 (0x9) | Exported Function | 0x0000000180005120 | 0x00005120
-`ToplIterAdvance` | 39 (0x27) | Exported Function | 0x0000000180004d30 | 0x00004d30
-`ToplFree` | 19 (0x13) | Exported Function | 0x00000001800048f0 | 0x000048f0
-`ToplGetSpanningTreeEdgesForVtx` | 21 (0x15) | Exported Function | 0x0000000180002d60 | 0x00002d60
-`ToplHeapIsEmpty` | 37 (0x25) | Exported Function | 0x0000000180004000 | 0x00004000
-`ToplHeapIsElementOf` | 36 (0x24) | Exported Function | 0x0000000180004010 | 0x00004010
-`ToplHeapInsert` | 35 (0x23) | Exported Function | 0x0000000180003f60 | 0x00003f60
-`ToplHeapExtractMin` | 34 (0x22) | Exported Function | 0x0000000180003f00 | 0x00003f00
-`ToplHeapDestroy` | 33 (0x21) | Exported Function | 0x0000000180004040 | 0x00004040
-`ToplHeapCreate` | 32 (0x20) | Exported Function | 0x0000000180003eb0 | 0x00003eb0
-`ToplGraphSetVertexIter` | 31 (0x1f) | Exported Function | 0x0000000180005940 | 0x00005940
-`ToplGetAlwaysSchedule` | 20 (0x14) | Exported Function | 0x0000000180001af0 | 0x00001af0
-`ToplGraphRemoveVertex` | 30 (0x1e) | Exported Function | 0x00000001800058c0 | 0x000058c0
-`ToplGraphMakeRing` | 28 (0x1c) | Exported Function | 0x0000000180005a00 | 0x00005a00
-`ToplGraphInit` | 27 (0x1b) | Exported Function | 0x0000000180005780 | 0x00005780
-`ToplGraphFree` | 26 (0x1a) | Exported Function | 0x0000000180005720 | 0x00005720
-`ToplGraphFindEdgesForMST` | 25 (0x19) | Exported Function | 0x0000000180005a90 | 0x00005a90
-`ToplGraphDestroy` | 24 (0x18) | Exported Function | 0x00000001800057e0 | 0x000057e0
-`ToplGraphCreate` | 23 (0x17) | Exported Function | 0x00000001800056e0 | 0x000056e0
-`ToplGraphAddVertex` | 22 (0x16) | Exported Function | 0x0000000180005830 | 0x00005830
-`ToplGraphNumberOfVertices` | 29 (0x1d) | Exported Function | 0x00000001800059b0 | 0x000059b0
-`ToplVertexSetParent` | 79 (0x4f) | Exported Function | 0x0000000180005600 | 0x00005600
+Function Name | Ordinal | Type
+-- | -- | --
+`ToplScheduleCreate` | 58 | Exported Function
+`ToplScheduleDuration` | 59 | Exported Function
+`ToplScheduleCacheCreate` | 56 | Exported Function
+`ToplScheduleCacheDestroy` | 57 | Exported Function
+`ToplScheduleExportReadonly` | 60 | Exported Function
+`ToplScheduleMaxUnavailable` | 63 | Exported Function
+`ToplScheduleMerge` | 64 | Exported Function
+`ToplScheduleImport` | 61 | Exported Function
+`ToplScheduleIsEqual` | 62 | Exported Function
+`ToplPScheduleValid` | 50 | Exported Function
+`ToplListAddElem` | 43 | Exported Function
+`ToplListCreate` | 44 | Exported Function
+`ToplIterFree` | 41 | Exported Function
+`ToplIterGetObject` | 42 | Exported Function
+`ToplListFree` | 45 | Exported Function
+`ToplListSetIter` | 48 | Exported Function
+`ToplMakeGraphState` | 49 | Exported Function
+`ToplListNumberOfElements` | 46 | Exported Function
+`ToplListRemoveElem` | 47 | Exported Function
+`ToplScheduleNumEntries` | 65 | Exported Function
+`ToplVertexGetOutEdge` | 73 | Exported Function
+`ToplVertexGetParent` | 74 | Exported Function
+`ToplVertexGetId` | 71 | Exported Function
+`ToplVertexGetInEdge` | 72 | Exported Function
+`ToplVertexInit` | 75 | Exported Function
+`ToplVertexSetId` | 78 | Exported Function
+`ToplVertexSetParent` | 79 | Exported Function
+`ToplVertexNumberOfInEdges` | 76 | Exported Function
+`ToplVertexNumberOfOutEdges` | 77 | Exported Function
+`ToplVertexFree` | 70 | Exported Function
+`ToplSTHeapAdd` | 51 | Exported Function
+`ToplSTHeapCostReduced` | 52 | Exported Function
+`ToplScheduleValid` | 66 | Exported Function
+`ToplSetAllocator` | 67 | Exported Function
+`ToplSTHeapDestroy` | 53 | Exported Function
+`ToplVertexCreate` | 68 | Exported Function
+`ToplVertexDestroy` | 69 | Exported Function
+`ToplSTHeapExtractMin` | 54 | Exported Function
+`ToplSTHeapInit` | 55 | Exported Function
+`ToplIterCreate` | 40 | Exported Function
+`ToplEdgeGetWeight` | 13 | Exported Function
+`ToplEdgeInit` | 14 | Exported Function
+`ToplEdgeGetFromVertex` | 11 | Exported Function
+`ToplEdgeGetToVertex` | 12 | Exported Function
+`ToplEdgeSetFromVertex` | 15 | Exported Function
+`ToplEdgeSetWeight` | 18 | Exported Function
+`ToplFree` | 19 | Exported Function
+`ToplEdgeSetToVertex` | 16 | Exported Function
+`ToplEdgeSetVtx` | 17 | Exported Function
+`ToplEdgeFree` | 10 | Exported Function
+`ToplDeleteComponents` | 3 | Exported Function
+`ToplDeleteGraphState` | 4 | Exported Function
+`ToplAddEdgeSetToGraph` | 1 | Exported Function
+`ToplAddEdgeToGraph` | 2 | Exported Function
+`ToplDeleteSpanningTreeEdges` | 5 | Exported Function
+`ToplEdgeDestroy` | 8 | Exported Function
+`ToplEdgeDisassociate` | 9 | Exported Function
+`ToplEdgeAssociate` | 6 | Exported Function
+`ToplEdgeCreate` | 7 | Exported Function
+`ToplGetAlwaysSchedule` | 20 | Exported Function
+`ToplHeapDestroy` | 33 | Exported Function
+`ToplHeapExtractMin` | 34 | Exported Function
+`ToplGraphSetVertexIter` | 31 | Exported Function
+`ToplHeapCreate` | 32 | Exported Function
+`ToplHeapInsert` | 35 | Exported Function
+`ToplIsToplException` | 38 | Exported Function
+`ToplIterAdvance` | 39 | Exported Function
+`ToplHeapIsElementOf` | 36 | Exported Function
+`ToplHeapIsEmpty` | 37 | Exported Function
+`ToplGraphRemoveVertex` | 30 | Exported Function
+`ToplGraphCreate` | 23 | Exported Function
+`ToplGraphDestroy` | 24 | Exported Function
+`ToplGetSpanningTreeEdgesForVtx` | 21 | Exported Function
+`ToplGraphAddVertex` | 22 | Exported Function
+`ToplGraphFindEdgesForMST` | 25 | Exported Function
+`ToplGraphMakeRing` | 28 | Exported Function
+`ToplGraphNumberOfVertices` | 29 | Exported Function
+`ToplGraphFree` | 26 | Exported Function
+`ToplGraphInit` | 27 | Exported Function
 
 
 ## Signature

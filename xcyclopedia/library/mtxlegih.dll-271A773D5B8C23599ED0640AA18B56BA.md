@@ -24,9 +24,9 @@ PE256 | `3B5E1BFDBA5A20664AB6281C40B00B06BBBCB1B26208EC6E21BAA779A32F22BC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TryLegInterfaceFirst` | 1 (0x1) | Exported Function | 0x100029c0 | 0x000029c0
+Function Name | Ordinal | Type
+-- | -- | --
+`TryLegInterfaceFirst` | 1 | Exported Function
 
 
 ## Signature

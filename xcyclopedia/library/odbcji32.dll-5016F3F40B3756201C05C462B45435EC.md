@@ -24,10 +24,10 @@ PE256 | `2061EB4C18CB13F118C3DD4A78AF1860E88BD670154FF03BE869D6BAEC3804EE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 500 (0x1f4) | Exported Function | 0x10001370 | 0x00001370
-`IntlLibHinst` | 1 (0x1) | Exported Function | 0x100013a0 | 0x000013a0
+Function Name | Ordinal | Type
+-- | -- | --
+`IntlLibHinst` | 1 | Exported Function
+`DllMain` | 500 | Exported Function
 
 
 ## Signature

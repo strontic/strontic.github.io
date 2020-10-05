@@ -24,9 +24,9 @@ PE256 | `59B822E8D635C21E93E8EE7E2060359D857F17166BE3C01C9F37B0BA3F32E23C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NetworkListManager_Generalize` | 1 (0x1) | Exported Function | 0x10001d90 | 0x00001d90
+Function Name | Ordinal | Type
+-- | -- | --
+`NetworkListManager_Generalize` | 1 | Exported Function
 
 
 ## Signature

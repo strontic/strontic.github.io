@@ -24,15 +24,15 @@ PE256 | `A64D6F74C2B219815B5A7D8CECB646E3C17050FC3E75B048227B8341FA252A26`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WlanIsActiveConsoleUser` | 1 (0x1) | Exported Function | wlanapi.WlanIsActiveConsoleUser | 0x000010f3
-`WlanSignalValueToBar` | 2 (0x2) | Exported Function | wlanapi.WlanSignalValueToBar | 0x00001128
-`WlanSignalValueToBarEx` | 3 (0x3) | Exported Function | wlanapi.WlanSignalValueToBarEx | 0x0000115c
-`WlanSsidToDisplayName` | 4 (0x4) | Exported Function | wlanapi.WlanSsidToDisplayName | 0x00001191
-`WlanStringToSsid` | 5 (0x5) | Exported Function | wlanapi.WlanStringToSsid | 0x000011c0
-`WlanStringToUtf8Ssid` | 6 (0x6) | Exported Function | wlanapi.WlanStringToUtf8Ssid | 0x000011ee
-`WlanUtf8SsidToDisplayName` | 7 (0x7) | Exported Function | wlanapi.WlanUtf8SsidToDisplayName | 0x00001225
+Function Name | Ordinal | Type
+-- | -- | --
+`WlanStringToSsid` | 5 | Exported Function
+`WlanStringToUtf8Ssid` | 6 | Exported Function
+`WlanUtf8SsidToDisplayName` | 7 | Exported Function
+`WlanSsidToDisplayName` | 4 | Exported Function
+`WlanIsActiveConsoleUser` | 1 | Exported Function
+`WlanSignalValueToBar` | 2 | Exported Function
+`WlanSignalValueToBarEx` | 3 | Exported Function
 
 
 ## Signature

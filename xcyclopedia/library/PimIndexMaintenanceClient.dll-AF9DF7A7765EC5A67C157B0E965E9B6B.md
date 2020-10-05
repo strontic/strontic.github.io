@@ -24,24 +24,24 @@ PE256 | `48D15FBD7726EBDA355EBB314C2EEB2E13FB143D0B4CCEEF942B8FF58152E3C0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateIndexedFilterClient` | 1 (0x1) | Exported Function | 0x10003050 | 0x00003050
-`CreatePOOMSortedAggregateDataSource` | 5 (0x5) | Exported Function | 0x10005280 | 0x00005280
-`GetDefaultContactsFilterSupplierSortOrder` | 2 (0x2) | Exported Function | 0x10005070 | 0x00005070
-`PimIM_RpcConnect` | 15 (0xf) | Exported Function | 0x10004d30 | 0x00004d30
-`PimIM_RpcDisconnect` | 16 (0x10) | Exported Function | 0x10004da0 | 0x00004da0
-`PimIMClient_CacheAggregateCacheFileMapping` | 6 (0x6) | Exported Function | 0x10009070 | 0x00009070
-`PimIMClient_Free` | 7 (0x7) | Exported Function | 0x10004dd0 | 0x00004dd0
-`PimIMClient_LoadAggregateCache` | 8 (0x8) | Exported Function | 0x100090a0 | 0x000090a0
-`PimIMClient_RebuildAggregateCache` | 9 (0x9) | Exported Function | 0x10008fe0 | 0x00008fe0
-`PimIMClient_ResetInprocService` | 10 (0xa) | Exported Function | 0x10004ec0 | 0x00004ec0
-`PimIMClient_Resume` | 11 (0xb) | Exported Function | 0x10009040 | 0x00009040
-`PimIMClient_Suspend` | 12 (0xc) | Exported Function | 0x10009010 | 0x00009010
-`PimIMClient_UpdateItems` | 13 (0xd) | Exported Function | 0x10008fb0 | 0x00008fb0
-`PimIMClient_UpdateStores` | 14 (0xe) | Exported Function | 0x10008f80 | 0x00008f80
-`WaitForCookie` | 3 (0x3) | Exported Function | 0x10004e00 | 0x00004e00
-`WaitForCookieValueToSet` | 4 (0x4) | Exported Function | 0x10004e80 | 0x00004e80
+Function Name | Ordinal | Type
+-- | -- | --
+`PimIMClient_Resume` | 11 | Exported Function
+`PimIMClient_Suspend` | 12 | Exported Function
+`PimIMClient_RebuildAggregateCache` | 9 | Exported Function
+`PimIMClient_ResetInprocService` | 10 | Exported Function
+`WaitForCookie` | 3 | Exported Function
+`WaitForCookieValueToSet` | 4 | Exported Function
+`PimIMClient_UpdateItems` | 13 | Exported Function
+`PimIMClient_UpdateStores` | 14 | Exported Function
+`GetDefaultContactsFilterSupplierSortOrder` | 2 | Exported Function
+`PimIM_RpcConnect` | 15 | Exported Function
+`CreateIndexedFilterClient` | 1 | Exported Function
+`CreatePOOMSortedAggregateDataSource` | 5 | Exported Function
+`PimIMClient_Free` | 7 | Exported Function
+`PimIMClient_LoadAggregateCache` | 8 | Exported Function
+`PimIM_RpcDisconnect` | 16 | Exported Function
+`PimIMClient_CacheAggregateCacheFileMapping` | 6 | Exported Function
 
 
 ## Signature

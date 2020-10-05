@@ -24,27 +24,27 @@ PE256 | `483A1929874C8A490A1260BF0CAAE012609607F434E31B60C2AEC551A93BCAB7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ZTraceClose` | 1 (0x1) | Exported Function | 0x10002b40 | 0x00002b40
-`ZTraceTestCopyTrace` | 17 (0x11) | Exported Function | 0x100028f0 | 0x000028f0
-`ZTraceReportPropagationNoThis` | 16 (0x10) | Exported Function | 0x10002ed0 | 0x00002ed0
-`ZTraceReportPropagationC` | 15 (0xf) | Exported Function | 0x10002fc0 | 0x00002fc0
-`ZTraceReportPropagation` | 14 (0xe) | Exported Function | 0x10002ea0 | 0x00002ea0
-`ZTraceReportOriginationNoThis` | 13 (0xd) | Exported Function | 0x10002f30 | 0x00002f30
-`ZTraceReportOriginationC` | 12 (0xc) | Exported Function | 0x10002f90 | 0x00002f90
-`ZTraceReportOrigination` | 11 (0xb) | Exported Function | 0x10002f00 | 0x00002f00
-`ZTraceTestForceClose` | 18 (0x12) | Exported Function | 0x10002900 | 0x00002900
-`ZTraceReportIgnoreNoThis` | 10 (0xa) | Exported Function | 0x10002e40 | 0x00002e40
-`ZTraceReportIgnore` | 8 (0x8) | Exported Function | 0x10002e20 | 0x00002e20
-`ZTraceInit` | 7 (0x7) | Exported Function | 0x10002b10 | 0x00002b10
-`ZTraceHelperVC` | 6 (0x6) | Exported Function | 0x10002f60 | 0x00002f60
-`ZTraceHelperV` | 5 (0x5) | Exported Function | 0x10002d90 | 0x00002d90
-`ZTraceHelperNoThis` | 4 (0x4) | Exported Function | 0x10002df0 | 0x00002df0
-`ZTraceHelper` | 3 (0x3) | Exported Function | 0x10002dc0 | 0x00002dc0
-`ZTraceEnabledHelper` | 2 (0x2) | Exported Function | 0x10002ba0 | 0x00002ba0
-`ZTraceReportIgnoreC` | 9 (0x9) | Exported Function | 0x10002ff0 | 0x00002ff0
-`ZTraceTestInit` | 19 (0x13) | Exported Function | 0x10002b30 | 0x00002b30
+Function Name | Ordinal | Type
+-- | -- | --
+`ZTraceReportOriginationNoThis` | 13 | Exported Function
+`ZTraceReportPropagation` | 14 | Exported Function
+`ZTraceReportOrigination` | 11 | Exported Function
+`ZTraceReportOriginationC` | 12 | Exported Function
+`ZTraceReportPropagationC` | 15 | Exported Function
+`ZTraceTestForceClose` | 18 | Exported Function
+`ZTraceTestInit` | 19 | Exported Function
+`ZTraceReportPropagationNoThis` | 16 | Exported Function
+`ZTraceTestCopyTrace` | 17 | Exported Function
+`ZTraceReportIgnoreNoThis` | 10 | Exported Function
+`ZTraceHelper` | 3 | Exported Function
+`ZTraceHelperNoThis` | 4 | Exported Function
+`ZTraceClose` | 1 | Exported Function
+`ZTraceEnabledHelper` | 2 | Exported Function
+`ZTraceHelperV` | 5 | Exported Function
+`ZTraceReportIgnore` | 8 | Exported Function
+`ZTraceReportIgnoreC` | 9 | Exported Function
+`ZTraceHelperVC` | 6 | Exported Function
+`ZTraceInit` | 7 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `2A919976E253FFFD3DEBB9A465FD0D40FBEC572EBD5CB130F3F4B758B7E5A0C8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateTdlMigrator` | 1 (0x1) | Exported Function | 0x000000018000a680 | 0x0000a680
-`CreateTdlMigratorForUser` | 2 (0x2) | Exported Function | 0x000000018000a4f0 | 0x0000a4f0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateTdlMigratorForUser` | 2 | Exported Function
+`CreateTdlMigrator` | 1 | Exported Function
 
 
 ## Signature

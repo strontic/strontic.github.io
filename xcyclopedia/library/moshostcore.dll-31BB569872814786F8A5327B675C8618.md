@@ -24,9 +24,9 @@ PE256 | `C5C6C42707522E3E331C675DD8A77E3D7C2722A87C4FB65E0B909B68B0F2509D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MosHostCore_ServiceManagerInstance` | 1 (0x1) | Exported Function | 0x0000000180009550 | 0x00009550
+Function Name | Ordinal | Type
+-- | -- | --
+`MosHostCore_ServiceManagerInstance` | 1 | Exported Function
 
 
 ## Signature

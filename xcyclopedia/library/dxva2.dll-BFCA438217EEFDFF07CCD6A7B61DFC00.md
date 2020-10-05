@@ -24,46 +24,46 @@ PE256 | `AFA37CD3E283442611D6C3B73734EF72E672547D7C944082A196F3D009B92677`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CapabilitiesRequestAndCapabilitiesReply` | 1 (0x1) | Exported Function | 0x1ff0e520 | 0x0000e520
-`GetTimingReport` | 22 (0x16) | Exported Function | 0x1ff0e600 | 0x0000e600
-`GetVCPFeatureAndVCPFeatureReply` | 23 (0x17) | Exported Function | 0x1ff0e670 | 0x0000e670
-`OPMGetVideoOutputForTarget` | 24 (0x18) | Exported Function | 0x1ff10000 | 0x00010000
-`OPMGetVideoOutputsFromHMONITOR` | 25 (0x19) | Exported Function | 0x1ff028d0 | 0x000028d0
-`OPMGetVideoOutputsFromIDirect3DDevice9Object` | 26 (0x1a) | Exported Function | 0x1ff062a0 | 0x000062a0
-`RestoreMonitorFactoryColorDefaults` | 27 (0x1b) | Exported Function | 0x1ff0ec90 | 0x0000ec90
-`RestoreMonitorFactoryDefaults` | 28 (0x1c) | Exported Function | 0x1ff0ecb0 | 0x0000ecb0
-`SaveCurrentMonitorSettings` | 29 (0x1d) | Exported Function | 0x1ff0ecd0 | 0x0000ecd0
-`SaveCurrentSettings` | 30 (0x1e) | Exported Function | 0x1ff0e6f0 | 0x0000e6f0
-`SetMonitorBrightness` | 31 (0x1f) | Exported Function | 0x1ff0ece0 | 0x0000ece0
-`SetMonitorColorTemperature` | 32 (0x20) | Exported Function | 0x1ff0ed00 | 0x0000ed00
-`SetMonitorContrast` | 33 (0x21) | Exported Function | 0x1ff0ed80 | 0x0000ed80
-`SetMonitorDisplayAreaPosition` | 34 (0x22) | Exported Function | 0x1ff0eda0 | 0x0000eda0
-`SetMonitorDisplayAreaSize` | 35 (0x23) | Exported Function | 0x1ff0ede0 | 0x0000ede0
-`SetMonitorRedGreenOrBlueDrive` | 36 (0x24) | Exported Function | 0x1ff0ee20 | 0x0000ee20
-`GetPhysicalMonitorsFromIDirect3DDevice9` | 21 (0x15) | Exported Function | 0x1ff0f410 | 0x0000f410
-`GetPhysicalMonitorsFromHMONITOR` | 20 (0x14) | Exported Function | 0x1ff0f3d0 | 0x0000f3d0
-`GetNumberOfPhysicalMonitorsFromIDirect3DDevice9` | 19 (0x13) | Exported Function | 0x1ff0f380 | 0x0000f380
-`GetNumberOfPhysicalMonitorsFromHMONITOR` | 18 (0x12) | Exported Function | 0x1ff027c0 | 0x000027c0
-`DegaussMonitor` | 5 (0x5) | Exported Function | 0x1ff0e910 | 0x0000e910
-`DestroyPhysicalMonitor` | 6 (0x6) | Exported Function | 0x1ff0f2f0 | 0x0000f2f0
-`DestroyPhysicalMonitors` | 7 (0x7) | Exported Function | 0x1ff0f320 | 0x0000f320
-`DXVA2CreateDirect3DDeviceManager9` | 2 (0x2) | Exported Function | 0x1ff04420 | 0x00004420
-`DXVA2CreateVideoService` | 3 (0x3) | Exported Function | 0x1ff04290 | 0x00004290
-`DXVAHD_CreateDevice` | 4 (0x4) | Exported Function | 0x1ff10be0 | 0x00010be0
-`GetCapabilitiesStringLength` | 8 (0x8) | Exported Function | 0x1ff0e590 | 0x0000e590
-`SetMonitorRedGreenOrBlueGain` | 37 (0x25) | Exported Function | 0x1ff0ee60 | 0x0000ee60
-`GetMonitorBrightness` | 9 (0x9) | Exported Function | 0x1ff0e930 | 0x0000e930
-`GetMonitorColorTemperature` | 11 (0xb) | Exported Function | 0x1ff0e9d0 | 0x0000e9d0
-`GetMonitorContrast` | 12 (0xc) | Exported Function | 0x1ff0ea90 | 0x0000ea90
-`GetMonitorDisplayAreaPosition` | 13 (0xd) | Exported Function | 0x1ff0eac0 | 0x0000eac0
-`GetMonitorDisplayAreaSize` | 14 (0xe) | Exported Function | 0x1ff0eb00 | 0x0000eb00
-`GetMonitorRedGreenOrBlueDrive` | 15 (0xf) | Exported Function | 0x1ff0eb40 | 0x0000eb40
-`GetMonitorRedGreenOrBlueGain` | 16 (0x10) | Exported Function | 0x1ff0eb80 | 0x0000eb80
-`GetMonitorTechnologyType` | 17 (0x11) | Exported Function | 0x1ff0ebc0 | 0x0000ebc0
-`GetMonitorCapabilities` | 10 (0xa) | Exported Function | 0x1ff0e960 | 0x0000e960
-`SetVCPFeature` | 38 (0x26) | Exported Function | 0x1ff0e760 | 0x0000e760
+Function Name | Ordinal | Type
+-- | -- | --
+`OPMGetVideoOutputsFromIDirect3DDevice9Object` | 26 | Exported Function
+`OPMGetVideoOutputsFromHMONITOR` | 25 | Exported Function
+`RestoreMonitorFactoryDefaults` | 28 | Exported Function
+`RestoreMonitorFactoryColorDefaults` | 27 | Exported Function
+`OPMGetVideoOutputForTarget` | 24 | Exported Function
+`GetPhysicalMonitorsFromIDirect3DDevice9` | 21 | Exported Function
+`GetPhysicalMonitorsFromHMONITOR` | 20 | Exported Function
+`GetVCPFeatureAndVCPFeatureReply` | 23 | Exported Function
+`GetTimingReport` | 22 | Exported Function
+`SaveCurrentMonitorSettings` | 29 | Exported Function
+`SetMonitorRedGreenOrBlueDrive` | 36 | Exported Function
+`SetMonitorDisplayAreaSize` | 35 | Exported Function
+`SetVCPFeature` | 38 | Exported Function
+`SetMonitorRedGreenOrBlueGain` | 37 | Exported Function
+`SetMonitorDisplayAreaPosition` | 34 | Exported Function
+`SetMonitorBrightness` | 31 | Exported Function
+`SaveCurrentSettings` | 30 | Exported Function
+`SetMonitorContrast` | 33 | Exported Function
+`SetMonitorColorTemperature` | 32 | Exported Function
+`DXVAHD_CreateDevice` | 4 | Exported Function
+`DXVA2CreateVideoService` | 3 | Exported Function
+`GetMonitorBrightness` | 9 | Exported Function
+`GetCapabilitiesStringLength` | 8 | Exported Function
+`DXVA2CreateDirect3DDeviceManager9` | 2 | Exported Function
+`DegaussMonitor` | 5 | Exported Function
+`CapabilitiesRequestAndCapabilitiesReply` | 1 | Exported Function
+`DestroyPhysicalMonitors` | 7 | Exported Function
+`DestroyPhysicalMonitor` | 6 | Exported Function
+`GetMonitorCapabilities` | 10 | Exported Function
+`GetMonitorTechnologyType` | 17 | Exported Function
+`GetMonitorRedGreenOrBlueGain` | 16 | Exported Function
+`GetNumberOfPhysicalMonitorsFromIDirect3DDevice9` | 19 | Exported Function
+`GetNumberOfPhysicalMonitorsFromHMONITOR` | 18 | Exported Function
+`GetMonitorRedGreenOrBlueDrive` | 15 | Exported Function
+`GetMonitorContrast` | 12 | Exported Function
+`GetMonitorColorTemperature` | 11 | Exported Function
+`GetMonitorDisplayAreaSize` | 14 | Exported Function
+`GetMonitorDisplayAreaPosition` | 13 | Exported Function
 
 
 ## Signature

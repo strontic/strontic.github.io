@@ -24,13 +24,13 @@ PE256 | `F115EBCB9E67D9A160905796108106698B2C7B3151F955009DFB0D9FF4955CAD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OnMachineUILanguageClear` | 1 (0x1) | Exported Function | 0x00000001800018b0 | 0x000018b0
-`OnMachineUILanguageInit` | 2 (0x2) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`OnMachineUILanguageSwitch` | 3 (0x3) | Exported Function | 0x0000000180001a90 | 0x00001a90
-`OnUILanguageAdd` | 4 (0x4) | Exported Function | 0x00000001800017f0 | 0x000017f0
-`OnUILanguageRemove` | 5 (0x5) | Exported Function | 0x0000000180001850 | 0x00001850
+Function Name | Ordinal | Type
+-- | -- | --
+`OnUILanguageAdd` | 4 | Exported Function
+`OnUILanguageRemove` | 5 | Exported Function
+`OnMachineUILanguageSwitch` | 3 | Exported Function
+`OnMachineUILanguageClear` | 1 | Exported Function
+`OnMachineUILanguageInit` | 2 | Exported Function
 
 
 ## Signature

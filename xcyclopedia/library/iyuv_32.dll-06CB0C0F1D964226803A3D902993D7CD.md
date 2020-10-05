@@ -24,12 +24,12 @@ PE256 | `ABD7E0DF95BB24581FAE11E1354BF6A17F4346E77178594CC7DDB13505B2E5AA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AboutDialogProc` | 1 (0x1) | Exported Function | 0x10006e90 | 0x00006e90
-`DllMain` | 2 (0x2) | Exported Function | 0x10007390 | 0x00007390
-`DriverDialogProc` | 3 (0x3) | Exported Function | 0x10006e50 | 0x00006e50
-`DriverProc` | 4 (0x4) | Exported Function | 0x10006fb0 | 0x00006fb0
+Function Name | Ordinal | Type
+-- | -- | --
+`DriverDialogProc` | 3 | Exported Function
+`DriverProc` | 4 | Exported Function
+`AboutDialogProc` | 1 | Exported Function
+`DllMain` | 2 | Exported Function
 
 
 ## Signature

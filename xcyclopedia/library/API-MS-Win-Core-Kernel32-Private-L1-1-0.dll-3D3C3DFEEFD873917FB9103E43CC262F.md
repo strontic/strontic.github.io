@@ -24,25 +24,25 @@ PE256 | `F616F066740C28726CF9467923802CA367A91E8CCA882231BCC24551FCD887AE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_lclose` | 12 (0xc) | Exported Function | kernel32._lclose | 0x000013e5
-`RemoveLocalAlternateComputerNameW` | 9 (0x9) | Exported Function | kernel32.RemoveLocalAlternateComputerNameW | 0x0000132a
-`RegisterWaitForInputIdle` | 8 (0x8) | Exported Function | kernel32.RegisterWaitForInputIdle | 0x000012e6
-`GetCalendarMonthsInYear` | 7 (0x7) | Exported Function | kernel32.GetCalendarMonthsInYear | 0x000012ac
-`EnumerateLocalComputerNamesW` | 6 (0x6) | Exported Function | kernel32.EnumerateLocalComputerNamesW | 0x0000126e
-`DosPathToSessionPathW` | 5 (0x5) | Exported Function | kernel32.DosPathToSessionPathW | 0x00001232
-`CompareCalendarDates` | 4 (0x4) | Exported Function | kernel32.CompareCalendarDates | 0x000011fe
-`SetLocalPrimaryComputerNameW` | 10 (0xa) | Exported Function | kernel32.SetLocalPrimaryComputerNameW | 0x00001372
-`CheckElevationEnabled` | 3 (0x3) | Exported Function | kernel32.CheckElevationEnabled | 0x000011ca
-`BaseSetLastNTError` | 1 (0x1) | Exported Function | kernel32.BaseSetLastNTError | 0x00001171
-`_lwrite` | 17 (0x11) | Exported Function | kernel32._lwrite | 0x0000145e
-`_lread` | 16 (0x10) | Exported Function | kernel32._lread | 0x00001446
-`_lopen` | 15 (0xf) | Exported Function | kernel32._lopen | 0x0000142f
-`_llseek` | 14 (0xe) | Exported Function | kernel32._llseek | 0x00001417
-`_lcreat` | 13 (0xd) | Exported Function | kernel32._lcreat | 0x000013fe
-`CheckElevation` | 2 (0x2) | Exported Function | kernel32.CheckElevation | 0x0000119c
-`Wow64EnableWow64FsRedirection` | 11 (0xb) | Exported Function | kernel32.Wow64EnableWow64FsRedirection | 0x000013b6
+Function Name | Ordinal | Type
+-- | -- | --
+`EnumerateLocalComputerNamesW` | 6 | Exported Function
+`GetCalendarMonthsInYear` | 7 | Exported Function
+`CompareCalendarDates` | 4 | Exported Function
+`DosPathToSessionPathW` | 5 | Exported Function
+`SetLocalPrimaryComputerNameW` | 10 | Exported Function
+`Wow64EnableWow64FsRedirection` | 11 | Exported Function
+`RegisterWaitForInputIdle` | 8 | Exported Function
+`RemoveLocalAlternateComputerNameW` | 9 | Exported Function
+`CheckElevationEnabled` | 3 | Exported Function
+`_llseek` | 14 | Exported Function
+`_lopen` | 15 | Exported Function
+`_lclose` | 12 | Exported Function
+`_lcreat` | 13 | Exported Function
+`BaseSetLastNTError` | 1 | Exported Function
+`CheckElevation` | 2 | Exported Function
+`_lread` | 16 | Exported Function
+`_lwrite` | 17 | Exported Function
 
 
 ## Signature

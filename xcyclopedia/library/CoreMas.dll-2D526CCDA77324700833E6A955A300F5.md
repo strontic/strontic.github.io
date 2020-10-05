@@ -23,32 +23,32 @@ PE256 | `37C1DEF538FF55207B4EFA5A6CD11001743969BF160153696BA5CB9247CE3E1F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateCustomUnimicSource` | 1 (0x1) | Exported Function | 0x000000018000f640 | 0x0000f640
-`RunUnimicProcessor` | 22 (0x16) | Exported Function | 0x0000000180012580 | 0x00012580
-`ReadUnimicSource` | 21 (0x15) | Exported Function | 0x000000018000f6d0 | 0x0000f6d0
-`GetUnimicSourceSampleRate` | 20 (0x14) | Exported Function | 0x000000018000f6f0 | 0x0000f6f0
-`GetUnimicSourceChannelCount` | 19 (0x13) | Exported Function | 0x000000018000f710 | 0x0000f710
-`GetUnimicSinkChannelCount` | 18 (0x12) | Exported Function | 0x000000018000f710 | 0x0000f710
-`GetUnimicProcessorOutputChannelCount` | 17 (0x11) | Exported Function | 0x000000018000f6f0 | 0x0000f6f0
-`GetUnimicProcessorInputChannelCount` | 16 (0x10) | Exported Function | 0x000000018000f710 | 0x0000f710
-`GetUnimicProcessorDelay` | 15 (0xf) | Exported Function | 0x000000018000f6d0 | 0x0000f6d0
-`GetUnimicFilterOutputPortCount` | 14 (0xe) | Exported Function | 0x000000018000f6d0 | 0x0000f6d0
-`GetUnimicFilterOutputPort` | 13 (0xd) | Exported Function | 0x00000001800124f0 | 0x000124f0
-`GetUnimicFilterInputPortCount` | 12 (0xc) | Exported Function | 0x000000018000f710 | 0x0000f710
-`DeleteUnimicSource` | 11 (0xb) | Exported Function | 0x000000018000f6b0 | 0x0000f6b0
-`DeleteUnimicSink` | 10 (0xa) | Exported Function | 0x000000018000f6b0 | 0x0000f6b0
-`DeleteUnimicProcessor` | 9 (0x9) | Exported Function | 0x00000001800125a0 | 0x000125a0
-`DeleteUnimicFilter` | 8 (0x8) | Exported Function | 0x000000018000f6b0 | 0x0000f6b0
-`CreateUnimicSourceFromWaveFile` | 7 (0x7) | Exported Function | 0x000000018000f330 | 0x0000f330
-`CreateUnimicSourceFromSplitChannelWaveFiles` | 6 (0x6) | Exported Function | 0x000000018000f390 | 0x0000f390
-`CreateUnimicSinkToWaveFile` | 5 (0x5) | Exported Function | 0x000000018000f730 | 0x0000f730
-`CreateUnimicSinkToSplitChannelWaveFiles` | 4 (0x4) | Exported Function | 0x000000018000f780 | 0x0000f780
-`CreateUnimicProcessor` | 3 (0x3) | Exported Function | 0x0000000180012510 | 0x00012510
-`CreateUnimicFilter` | 2 (0x2) | Exported Function | 0x000000018000fa10 | 0x0000fa10
-`SetUnimicFilterInputPort` | 23 (0x17) | Exported Function | 0x000000018000f6f0 | 0x0000f6f0
-`WriteUnimicSink` | 24 (0x18) | Exported Function | 0x000000018000f6d0 | 0x0000f6d0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetUnimicProcessorInputChannelCount` | 16 | Exported Function
+`GetUnimicProcessorOutputChannelCount` | 17 | Exported Function
+`GetUnimicSinkChannelCount` | 18 | Exported Function
+`GetUnimicFilterOutputPort` | 13 | Exported Function
+`GetUnimicFilterOutputPortCount` | 14 | Exported Function
+`GetUnimicProcessorDelay` | 15 | Exported Function
+`RunUnimicProcessor` | 22 | Exported Function
+`SetUnimicFilterInputPort` | 23 | Exported Function
+`WriteUnimicSink` | 24 | Exported Function
+`GetUnimicSourceChannelCount` | 19 | Exported Function
+`GetUnimicSourceSampleRate` | 20 | Exported Function
+`ReadUnimicSource` | 21 | Exported Function
+`CreateUnimicSinkToSplitChannelWaveFiles` | 4 | Exported Function
+`CreateUnimicSinkToWaveFile` | 5 | Exported Function
+`CreateUnimicSourceFromSplitChannelWaveFiles` | 6 | Exported Function
+`CreateCustomUnimicSource` | 1 | Exported Function
+`CreateUnimicFilter` | 2 | Exported Function
+`CreateUnimicProcessor` | 3 | Exported Function
+`DeleteUnimicSink` | 10 | Exported Function
+`DeleteUnimicSource` | 11 | Exported Function
+`GetUnimicFilterInputPortCount` | 12 | Exported Function
+`CreateUnimicSourceFromWaveFile` | 7 | Exported Function
+`DeleteUnimicFilter` | 8 | Exported Function
+`DeleteUnimicProcessor` | 9 | Exported Function
 
 
 ## Signature

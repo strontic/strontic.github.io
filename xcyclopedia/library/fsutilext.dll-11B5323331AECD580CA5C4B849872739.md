@@ -24,22 +24,22 @@ PE256 | `B3323281167318BC995586CE0B40F7A111E7C06409F36ED9E97AB169F67D2078`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CheckSonyMSWorker` | 1 (0x1) | Exported Function | 0x0000000180001a60 | 0x00001a60
-`DeviceInstIsRemovableWorker` | 2 (0x2) | Exported Function | 0x0000000180001990 | 0x00001990
-`FindFirstVolumeMountPointWStub` | 3 (0x3) | Exported Function | 0x0000000180001050 | 0x00001050
-`FindNextVolumeMountPointWStub` | 4 (0x4) | Exported Function | 0x0000000180001030 | 0x00001030
-`FindVolumeMountPointCloseStub` | 5 (0x5) | Exported Function | 0x0000000180001010 | 0x00001010
-`GetDeviceIDDiskFromDeviceIDVolumeWorker` | 6 (0x6) | Exported Function | 0x0000000180001340 | 0x00001340
-`GetDeviceInstanceWorker` | 7 (0x7) | Exported Function | 0x0000000180001710 | 0x00001710
-`GetRemovableDeviceInstRecursWorker` | 8 (0x8) | Exported Function | 0x00000001800019f0 | 0x000019f0
-`GetWidgetWorker` | 9 (0x9) | Exported Function | 0x0000000180001d40 | 0x00001d40
-`InvalidateFveWorker` | 10 (0xa) | Exported Function | 0x0000000180001e60 | 0x00001e60
-`SendWithSenseParseWorker` | 11 (0xb) | Exported Function | 0x0000000180002340 | 0x00002340
-`SetThreadUILanguageStub` | 12 (0xc) | Exported Function | 0x0000000180001090 | 0x00001090
-`SystemParametersInfoWStub` | 13 (0xd) | Exported Function | 0x0000000180001070 | 0x00001070
-`WaitForUnitAndReportProgressWorker` | 14 (0xe) | Exported Function | 0x00000001800025e0 | 0x000025e0
+Function Name | Ordinal | Type
+-- | -- | --
+`InvalidateFveWorker` | 10 | Exported Function
+`GetWidgetWorker` | 9 | Exported Function
+`GetRemovableDeviceInstRecursWorker` | 8 | Exported Function
+`SendWithSenseParseWorker` | 11 | Exported Function
+`WaitForUnitAndReportProgressWorker` | 14 | Exported Function
+`SystemParametersInfoWStub` | 13 | Exported Function
+`SetThreadUILanguageStub` | 12 | Exported Function
+`FindFirstVolumeMountPointWStub` | 3 | Exported Function
+`DeviceInstIsRemovableWorker` | 2 | Exported Function
+`CheckSonyMSWorker` | 1 | Exported Function
+`FindNextVolumeMountPointWStub` | 4 | Exported Function
+`GetDeviceInstanceWorker` | 7 | Exported Function
+`GetDeviceIDDiskFromDeviceIDVolumeWorker` | 6 | Exported Function
+`FindVolumeMountPointCloseStub` | 5 | Exported Function
 
 
 ## Signature

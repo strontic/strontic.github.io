@@ -24,9 +24,9 @@ PE256 | `DDDFBE2A2414275F5DF84FA35E72EB1F201133DEF7ECEA04045AB92128B61C90`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetUName` | 1 (0x1) | Exported Function | 0x74b01470 | 0x00001470
+Function Name | Ordinal | Type
+-- | -- | --
+`GetUName` | 1 | Exported Function
 
 
 ## Signature

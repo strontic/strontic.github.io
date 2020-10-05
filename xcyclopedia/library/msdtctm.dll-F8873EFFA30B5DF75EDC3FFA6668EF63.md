@@ -24,18 +24,18 @@ PE256 | `F4F8C80A58CF8237F347FCA7797C27F836F8D3EC1C746DA2AD3E8DB36208453C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ASCDefer` | 7 (0x7) | Exported Function | 0x000000018006d780 | 0x0006d780
-`ASCDeliverDeferred` | 6 (0x6) | Exported Function | 0x000000018006d820 | 0x0006d820
-`ASCGetSafeReference` | 8 (0x8) | Exported Function | 0x000000018006d6d0 | 0x0006d6d0
-`ASCWrapClassFactory` | 10 (0xa) | Exported Function | 0x000000018006d580 | 0x0006d580
-`ASCWrapObject` | 5 (0x5) | Exported Function | 0x000000018006d410 | 0x0006d410
-`CreateInstance` | 9 (0x9) | Exported Function | 0x0000000180013ab0 | 0x00013ab0
-`DllGetClassObject` | 11 (0xb) | Exported Function | 0x0000000180013fe0 | 0x00013fe0
-`DtcMainExt` | 4 (0x4) | Exported Function | 0x000000018006f330 | 0x0006f330
-`GetTipFunctionalityWorking` | 12 (0xc) | Exported Function | 0x000000018006f320 | 0x0006f320
-`SetTipFunctionalityWorking` | 13 (0xd) | Exported Function | 0x000000018006f310 | 0x0006f310
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 11 | Exported Function
+`CreateInstance` | 9 | Exported Function
+`DtcMainExt` | 4 | Exported Function
+`SetTipFunctionalityWorking` | 13 | Exported Function
+`GetTipFunctionalityWorking` | 12 | Exported Function
+`ASCDeliverDeferred` | 6 | Exported Function
+`ASCDefer` | 7 | Exported Function
+`ASCGetSafeReference` | 8 | Exported Function
+`ASCWrapObject` | 5 | Exported Function
+`ASCWrapClassFactory` | 10 | Exported Function
 
 
 ## Signature

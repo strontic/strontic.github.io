@@ -24,12 +24,12 @@ PE256 | `1EC8F8A4F05CE26A16EF9A989C3361846BA9BC4A34C002F5B0ED0CBF02F7F6D9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MI_Application_NewDeserializer_Binary` | 1 (0x1) | Exported Function | 0x1000af50 | 0x0000af50
-`MI_Application_NewSerializer_Binary` | 2 (0x2) | Exported Function | 0x1000a3e0 | 0x0000a3e0
-`NITS_PRESENCE_STUB` | 3 (0x3) | Exported Function | 0x10010b6c | 0x00010b6c
-`NITS_STUB` | 4 (0x4) | Exported Function | 0x10001178 | 0x00001178
+Function Name | Ordinal | Type
+-- | -- | --
+`NITS_PRESENCE_STUB` | 3 | Exported Function
+`NITS_STUB` | 4 | Exported Function
+`MI_Application_NewDeserializer_Binary` | 1 | Exported Function
+`MI_Application_NewSerializer_Binary` | 2 | Exported Function
 
 
 ## Signature

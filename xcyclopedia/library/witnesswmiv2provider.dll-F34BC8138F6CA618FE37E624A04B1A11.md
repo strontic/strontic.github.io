@@ -24,17 +24,17 @@ PE256 | `F6F3AE2C1686E1D98478D0E952EE729ACF93B186C0ADCFFF4DCBCA1BE2A1852D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180001490 | 0x00001490
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x00000001800014d0 | 0x000014d0
-`DllMain` | 3 (0x3) | Exported Function | 0x0000000180001180 | 0x00001180
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x00000001800013f0 | 0x000013f0
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x0000000180001440 | 0x00001440
-`GetProviderClassID` | 6 (0x6) | Exported Function | 0x00000001800011e0 | 0x000011e0
-`MI_Main` | 7 (0x7) | Exported Function | 0x0000000180001120 | 0x00001120
-`WitnessWmiInitialize` | 8 (0x8) | Exported Function | 0x0000000180002460 | 0x00002460
-`WitnessWmiTerminate` | 9 (0x9) | Exported Function | 0x0000000180002600 | 0x00002600
+Function Name | Ordinal | Type
+-- | -- | --
+`MI_Main` | 7 | Exported Function
+`GetProviderClassID` | 6 | Exported Function
+`WitnessWmiTerminate` | 9 | Exported Function
+`WitnessWmiInitialize` | 8 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllMain` | 3 | Exported Function
 
 
 ## Signature

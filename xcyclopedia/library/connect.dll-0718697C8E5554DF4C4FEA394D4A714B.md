@@ -24,23 +24,23 @@ PE256 | `E14B4C463E0FD33822047630FC6B6FA86B93987F92369A6DF648E8C96595CAA0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddConnectionOptionListEntries` | 1 (0x1) | Exported Function | 0x1000e9d0 | 0x0000e9d0
-`CreateVPNConnection` | 2 (0x2) | Exported Function | 0x1000e6b0 | 0x0000e6b0
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x1000ecd0 | 0x0000ecd0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x1000ecf0 | 0x0000ecf0
-`GetInternetConnected` | 5 (0x5) | Exported Function | 0x1000e500 | 0x0000e500
-`GetNetworkConnected` | 6 (0x6) | Exported Function | 0x1000e2f0 | 0x0000e2f0
-`GetVPNConnected` | 7 (0x7) | Exported Function | 0x1000e5e0 | 0x0000e5e0
-`HrIsInternetConnected` | 8 (0x8) | Exported Function | 0x1000eb20 | 0x0000eb20
-`HrIsInternetConnectedGUID` | 9 (0x9) | Exported Function | 0x1000eb70 | 0x0000eb70
-`IsInternetConnected` | 10 (0xa) | Exported Function | 0x1000e3c0 | 0x0000e3c0
-`IsInternetConnectedGUID` | 11 (0xb) | Exported Function | 0x1000e460 | 0x0000e460
-`IsUniqueConnectionName` | 12 (0xc) | Exported Function | 0x1000ea80 | 0x0000ea80
-`RegisterPageWithPage` | 13 (0xd) | Exported Function | 0x1000e780 | 0x0000e780
-`UnregisterPage` | 14 (0xe) | Exported Function | 0x1000e910 | 0x0000e910
-`UnregisterPagesLink` | 15 (0xf) | Exported Function | 0x1000e850 | 0x0000e850
+Function Name | Ordinal | Type
+-- | -- | --
+`IsInternetConnectedGUID` | 11 | Exported Function
+`IsInternetConnected` | 10 | Exported Function
+`HrIsInternetConnectedGUID` | 9 | Exported Function
+`IsUniqueConnectionName` | 12 | Exported Function
+`UnregisterPagesLink` | 15 | Exported Function
+`UnregisterPage` | 14 | Exported Function
+`RegisterPageWithPage` | 13 | Exported Function
+`HrIsInternetConnected` | 8 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`CreateVPNConnection` | 2 | Exported Function
+`AddConnectionOptionListEntries` | 1 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`GetVPNConnected` | 7 | Exported Function
+`GetNetworkConnected` | 6 | Exported Function
+`GetInternetConnected` | 5 | Exported Function
 
 
 ## Signature

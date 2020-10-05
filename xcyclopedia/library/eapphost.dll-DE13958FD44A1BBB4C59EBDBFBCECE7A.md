@@ -24,16 +24,16 @@ PE256 | `9A62794D09D8013DFD8E330F8AB3031052E3099532FAB8BF4257B4564B8A512C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180005e70 | 0x00005e70
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180005e90 | 0x00005e90
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x0000000180005dd0 | 0x00005dd0
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x0000000180005e20 | 0x00005e20
-`InitializeEapHost` | 6 (0x6) | Exported Function | 0x00000001800063c0 | 0x000063c0
-`OnSessionChange` | 1 (0x1) | Exported Function | 0x0000000180002ca0 | 0x00002ca0
-`StopServiceOnLowPower` | 7 (0x7) | Exported Function | 0x0000000180006600 | 0x00006600
-`UninitializeEapHost` | 8 (0x8) | Exported Function | 0x0000000180006420 | 0x00006420
+Function Name | Ordinal | Type
+-- | -- | --
+`OnSessionChange` | 1 | Exported Function
+`InitializeEapHost` | 6 | Exported Function
+`UninitializeEapHost` | 8 | Exported Function
+`StopServiceOnLowPower` | 7 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

@@ -24,14 +24,14 @@ PE256 | `1DE4200BD8EB880FB986EAA5FD21610071453F912F33E63997DA3D042411D073`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EthernetCspDeInit` | 1 (0x1) | Exported Function | 0x0000000180014710 | 0x00014710
-`EthernetCspInit` | 2 (0x2) | Exported Function | 0x0000000180006c10 | 0x00006c10
-`WlanCspDeInit` | 3 (0x3) | Exported Function | 0x0000000180014890 | 0x00014890
-`WlanCspInit` | 4 (0x4) | Exported Function | 0x0000000180006c20 | 0x00006c20
-`WwanCspDeInit` | 5 (0x5) | Exported Function | 0x00000001800148a0 | 0x000148a0
-`WwanCspInit` | 6 (0x6) | Exported Function | 0x0000000180006c30 | 0x00006c30
+Function Name | Ordinal | Type
+-- | -- | --
+`WlanCspInit` | 4 | Exported Function
+`WwanCspDeInit` | 5 | Exported Function
+`WwanCspInit` | 6 | Exported Function
+`EthernetCspDeInit` | 1 | Exported Function
+`EthernetCspInit` | 2 | Exported Function
+`WlanCspDeInit` | 3 | Exported Function
 
 
 ## Signature

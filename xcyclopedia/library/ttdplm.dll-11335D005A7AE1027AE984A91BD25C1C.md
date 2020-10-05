@@ -24,13 +24,13 @@ PE256 | `D68FA4D3BC9295B1F41222EEDF3AC07B65DC552C7347FE61741E1FCBDD6DDEA5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateModernAppToDelete` | 1 (0x1) | Exported Function | 0x00000001800023c0 | 0x000023c0
-`CreateModernAppToTrace` | 2 (0x2) | Exported Function | 0x00000001800022f0 | 0x000022f0
-`GetMaxPackageNameLength` | 3 (0x3) | Exported Function | 0x0000000180002400 | 0x00002400
-`GetPackageFromPid` | 4 (0x4) | Exported Function | 0x0000000180002410 | 0x00002410
-`SetPermisionsForFolder` | 5 (0x5) | Exported Function | 0x00000001800024c0 | 0x000024c0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetPackageFromPid` | 4 | Exported Function
+`SetPermisionsForFolder` | 5 | Exported Function
+`GetMaxPackageNameLength` | 3 | Exported Function
+`CreateModernAppToDelete` | 1 | Exported Function
+`CreateModernAppToTrace` | 2 | Exported Function
 
 
 ## Signature

@@ -24,16 +24,16 @@ PE256 | `7BB3555CEF33148A283990C1266D57473292FC189111D6D9709A3D97857601C7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EseShadowCreateShadow` | 1 (0x1) | Exported Function | 0x10004ca0 | 0x00004ca0
-`EseShadowCreateSimpleShadow` | 2 (0x2) | Exported Function | 0x10005180 | 0x00005180
-`EseShadowInit` | 3 (0x3) | Exported Function | 0x100034e0 | 0x000034e0
-`EseShadowMountShadow` | 4 (0x4) | Exported Function | 0x10003d40 | 0x00003d40
-`EseShadowMountSimpleShadow` | 5 (0x5) | Exported Function | 0x10003ef0 | 0x00003ef0
-`EseShadowPurgeShadow` | 6 (0x6) | Exported Function | 0x100054a0 | 0x000054a0
-`EseShadowTerm` | 7 (0x7) | Exported Function | 0x10003770 | 0x00003770
-`VssIdToString` | 8 (0x8) | Exported Function | 0x10003880 | 0x00003880
+Function Name | Ordinal | Type
+-- | -- | --
+`EseShadowPurgeShadow` | 6 | Exported Function
+`EseShadowMountSimpleShadow` | 5 | Exported Function
+`VssIdToString` | 8 | Exported Function
+`EseShadowTerm` | 7 | Exported Function
+`EseShadowCreateSimpleShadow` | 2 | Exported Function
+`EseShadowCreateShadow` | 1 | Exported Function
+`EseShadowMountShadow` | 4 | Exported Function
+`EseShadowInit` | 3 | Exported Function
 
 
 ## Signature

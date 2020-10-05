@@ -24,16 +24,16 @@ PE256 | `CDB7FFB56A7D2BAF099D0DDC729FF9B97EA60FADED43CD9DA4BBC26E1FAB3B35`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseWbemTextSource` | 1 (0x1) | Exported Function | 0x000000018000d1a0 | 0x0000d1a0
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x000000018000dfa0 | 0x0000dfa0
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x000000018000dfd0 | 0x0000dfd0
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x000000018000e090 | 0x0000e090
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x000000018000e340 | 0x0000e340
-`OpenWbemTextSource` | 2 (0x2) | Exported Function | 0x000000018000d330 | 0x0000d330
-`TextToWbemObject` | 3 (0x3) | Exported Function | 0x000000018000d960 | 0x0000d960
-`WbemObjectToText` | 4 (0x4) | Exported Function | 0x000000018000d980 | 0x0000d980
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenWbemTextSource` | 2 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`WbemObjectToText` | 4 | Exported Function
+`TextToWbemObject` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`CloseWbemTextSource` | 1 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `6E475E3592BE64A0A015DD9479722BD2E4CE40E3F92093AE70C965D14A5C5EDA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Dot3CreatePsPage` | 1 (0x1) | Exported Function | 0x1000e5b0 | 0x0000e5b0
+Function Name | Ordinal | Type
+-- | -- | --
+`Dot3CreatePsPage` | 1 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `6916773BE57FA5B9A91DCD93499E96B6DFA78CE8D801939059927ECD5EA43196`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DriverProc` | 1 (0x1) | Exported Function | 0x00000001800011a0 | 0x000011a0
-`widMessage` | 2 (0x2) | Exported Function | 0x0000000180002b10 | 0x00002b10
-`wodMessage` | 3 (0x3) | Exported Function | 0x0000000180003da0 | 0x00003da0
+Function Name | Ordinal | Type
+-- | -- | --
+`wodMessage` | 3 | Exported Function
+`widMessage` | 2 | Exported Function
+`DriverProc` | 1 | Exported Function
 
 
 ## Signature

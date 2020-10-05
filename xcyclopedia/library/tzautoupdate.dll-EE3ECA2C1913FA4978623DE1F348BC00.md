@@ -24,12 +24,12 @@ PE256 | `FC982CEB4F0CD582D0CCF9C7ED4F3F6EE4CD5A41F0518D8BE5379CF1F8898F21`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AttemptToUpdateTimeZone` | 3 (0x3) | Exported Function | 0x10006310 | 0x00006310
-`AttemptToUpdateTimeZoneAndEnableChangeDetection` | 4 (0x4) | Exported Function | 0x100062f0 | 0x000062f0
-`ServiceMain` | 1 (0x1) | Exported Function | 0x1000bdc0 | 0x0000bdc0
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x1000bc80 | 0x0000bc80
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 1 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`AttemptToUpdateTimeZone` | 3 | Exported Function
+`AttemptToUpdateTimeZoneAndEnableChangeDetection` | 4 | Exported Function
 
 
 ## Signature

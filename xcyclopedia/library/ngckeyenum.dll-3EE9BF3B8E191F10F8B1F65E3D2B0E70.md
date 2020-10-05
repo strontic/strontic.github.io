@@ -24,19 +24,19 @@ PE256 | `95CAA3B15961DDEA2695DF668FBA2411A2E673DD1E8B0E66072ACFC65B76F5ED`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NgcCredProvEnumLogonKeys` | 1 (0x1) | Exported Function | 0x0000000180005010 | 0x00005010
-`NgcCredProvFreeBuffer` | 2 (0x2) | Exported Function | 0x0000000180005410 | 0x00005410
-`NgcCredProvInvalidateLogonKeysCache` | 3 (0x3) | Exported Function | 0x00000001800052e0 | 0x000052e0
-`NgcSerializeConvenienceCredential` | 4 (0x4) | Exported Function | 0x00000001800042d0 | 0x000042d0
-`NgcSerializeConveniencePasswordChangeCredential` | 5 (0x5) | Exported Function | 0x00000001800049e0 | 0x000049e0
-`NgcSerializeKeyCredential` | 6 (0x6) | Exported Function | 0x0000000180004510 | 0x00004510
-`NgcSerializeKeyPasswordChangeCredential` | 7 (0x7) | Exported Function | 0x0000000180004bf0 | 0x00004bf0
-`NgcSerializeKeySspiCredential` | 8 (0x8) | Exported Function | 0x0000000180004f40 | 0x00004f40
-`NgcSerializeMsaPasswordCredential` | 9 (0x9) | Exported Function | 0x0000000180004870 | 0x00004870
-`NgcSerializePasswordCredential` | 10 (0xa) | Exported Function | 0x00000001800046b0 | 0x000046b0
-`NgcSerializeSmartCardCredential` | 11 (0xb) | Exported Function | 0x0000000180004e20 | 0x00004e20
+Function Name | Ordinal | Type
+-- | -- | --
+`NgcSerializeKeySspiCredential` | 8 | Exported Function
+`NgcSerializeKeyPasswordChangeCredential` | 7 | Exported Function
+`NgcSerializeMsaPasswordCredential` | 9 | Exported Function
+`NgcSerializeSmartCardCredential` | 11 | Exported Function
+`NgcSerializePasswordCredential` | 10 | Exported Function
+`NgcSerializeKeyCredential` | 6 | Exported Function
+`NgcCredProvFreeBuffer` | 2 | Exported Function
+`NgcCredProvEnumLogonKeys` | 1 | Exported Function
+`NgcCredProvInvalidateLogonKeysCache` | 3 | Exported Function
+`NgcSerializeConveniencePasswordChangeCredential` | 5 | Exported Function
+`NgcSerializeConvenienceCredential` | 4 | Exported Function
 
 
 ## Signature

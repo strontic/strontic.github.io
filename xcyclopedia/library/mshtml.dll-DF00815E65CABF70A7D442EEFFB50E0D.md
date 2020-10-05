@@ -24,52 +24,30 @@ PE256 | `F58C995A56CB553B4CA47FAC961B019B88A1E5C77838438A9E824E4783D166EB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClearPhishingFilterData` | 108 (0x6c) | Exported Function | 0x63bc97f0 | 0x006497f0
-`Ordinal123` | 123 (0x7b) | Exported Function | 0x639be150 | 0x0043e150
-`Ordinal124` | 124 (0x7c) | Exported Function | 0x63ed1f00 | 0x00951f00
-`Ordinal125` | 125 (0x7d) | Exported Function | 0x63ed1ce0 | 0x00951ce0
-`Ordinal126` | 126 (0x7e) | Exported Function | 0x63ed1ff0 | 0x00951ff0
-`Ordinal127` | 127 (0x7f) | Exported Function | 0x63ed1f60 | 0x00951f60
-`Ordinal128` | 128 (0x80) | Exported Function | 0x63ed1e30 | 0x00951e30
-`Ordinal129` | 129 (0x81) | Exported Function | 0x63efe5d0 | 0x0097e5d0
-`Ordinal130` | 130 (0x82) | Exported Function | 0x63efe5e0 | 0x0097e5e0
-`Ordinal122` | 122 (0x7a) | Exported Function | 0x639b6f60 | 0x00436f60
-`Ordinal131` | 131 (0x83) | Exported Function | 0x63d9de60 | 0x0081de60
-`Ordinal138` | 138 (0x8a) | Exported Function | 0x64566970 | 0x00fe6970
-`PrintHTML` | 133 (0x85) | Exported Function | 0x63d75230 | 0x007f5230
-`RunHTMLApplication` | 135 (0x87) | Exported Function | 0x63f094a0 | 0x009894a0
-`ShowHTMLDialog` | 136 (0x88) | Exported Function | 0x63d9dbf0 | 0x0081dbf0
-`ShowHTMLDialogEx` | 137 (0x89) | Exported Function | 0x63d9dc00 | 0x0081dc00
-`ShowModalDialog` | 139 (0x8b) | Exported Function | 0x63d9dd20 | 0x0081dd20
-`ShowModelessHTMLDialog` | 140 (0x8c) | Exported Function | 0x63d9dde0 | 0x0081dde0
-`TravelLogCreateInstance` | 141 (0x8d) | Exported Function | 0x638f7c40 | 0x00377c40
-`Ordinal134` | 134 (0x86) | Exported Function | 0x64566840 | 0x00fe6840
-`Ordinal121` | 121 (0x79) | Exported Function | 0x63ed1e50 | 0x00951e50
-`Ordinal120` | 120 (0x78) | Exported Function | 0x63ed1ea0 | 0x00951ea0
-`Ordinal107` | 107 (0x6b) | Exported Function | 0x639d4f60 | 0x00454f60
-`ConvertAndEscapePostData` | 109 (0x6d) | Exported Function | 0x63db9ab0 | 0x00839ab0
-`CreateCoreWebView` | 110 (0x6e) | Exported Function | 0x63edb7d0 | 0x0095b7d0
-`CreateHTMLPropertyPage` | 111 (0x6f) | Exported Function | 0x63bcbad0 | 0x0064bad0
-`DllCanUnloadNow` | 112 (0x70) | Exported Function | 0x63a79090 | 0x004f9090
-`DllEnumClassObjects` | 113 (0x71) | Exported Function | 0x63bc9130 | 0x00649130
-`DllGetClassObject` | 114 (0x72) | Exported Function | 0x639dcfe0 | 0x0045cfe0
-`GetColorValueFromString` | 115 (0x73) | Exported Function | 0x63d79810 | 0x007f9810
-`GetWebPlatformObject` | 116 (0x74) | Exported Function | 0x638996f0 | 0x003196f0
-`IEIsXMLNSRegistered` | 117 (0x75) | Exported Function | 0x63deaa50 | 0x0086aa50
-`IERegisterXMLNS` | 118 (0x76) | Exported Function | 0x63deaac0 | 0x0086aac0
-`InitializeLocalHtmlEngine` | 119 (0x77) | Exported Function | 0x639b7770 | 0x00437770
-`MatchExactGetIDsOfNames` | 132 (0x84) | Exported Function | 0x63d8bf60 | 0x0080bf60
-`Ordinal100` | 100 (0x64) | Exported Function | 0x64561760 | 0x00fe1760
-`Ordinal101` | 101 (0x65) | Exported Function | 0x645617b0 | 0x00fe17b0
-`Ordinal102` | 102 (0x66) | Exported Function | 0x64561800 | 0x00fe1800
-`Ordinal103` | 103 (0x67) | Exported Function | 0x645626d0 | 0x00fe26d0
-`Ordinal104` | 104 (0x68) | Exported Function | 0x64561700 | 0x00fe1700
-`Ordinal105` | 105 (0x69) | Exported Function | 0x639d71e0 | 0x004571e0
-`Ordinal106` | 106 (0x6a) | Exported Function | 0x63e16500 | 0x00896500
-`TravelLogStgCreateInstance` | 142 (0x8e) | Exported Function | 0x64534980 | 0x00fb4980
-`UninitializeLocalHtmlEngine` | 143 (0x8f) | Exported Function | 0x638decb0 | 0x0035ecb0
+Function Name | Ordinal | Type
+-- | -- | --
+`RunHTMLApplication` | 135 | Exported Function
+`ShowHTMLDialog` | 136 | Exported Function
+`PrintHTML` | 133 | Exported Function
+`InitializeLocalHtmlEngine` | 119 | Exported Function
+`MatchExactGetIDsOfNames` | 132 | Exported Function
+`ShowHTMLDialogEx` | 137 | Exported Function
+`TravelLogStgCreateInstance` | 142 | Exported Function
+`UninitializeLocalHtmlEngine` | 143 | Exported Function
+`TravelLogCreateInstance` | 141 | Exported Function
+`ShowModalDialog` | 139 | Exported Function
+`ShowModelessHTMLDialog` | 140 | Exported Function
+`CreateHTMLPropertyPage` | 111 | Exported Function
+`DllCanUnloadNow` | 112 | Exported Function
+`CreateCoreWebView` | 110 | Exported Function
+`ClearPhishingFilterData` | 108 | Exported Function
+`ConvertAndEscapePostData` | 109 | Exported Function
+`DllEnumClassObjects` | 113 | Exported Function
+`IEIsXMLNSRegistered` | 117 | Exported Function
+`IERegisterXMLNS` | 118 | Exported Function
+`GetWebPlatformObject` | 116 | Exported Function
+`DllGetClassObject` | 114 | Exported Function
+`GetColorValueFromString` | 115 | Exported Function
 
 
 ## Signature

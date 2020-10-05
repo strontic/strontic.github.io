@@ -24,19 +24,19 @@ PE256 | `3022F3ABD38F1F31CB3EDAB8581151C0FEBD65AFE71C10A95BB4792702A4E5EC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 11 (0xb) | Exported Function | 0x100018f0 | 0x000018f0
-`NcaEngineClose` | 1 (0x1) | Exported Function | 0x10001fa0 | 0x00001fa0
-`NcaEngineOpen` | 2 (0x2) | Exported Function | 0x10001dc0 | 0x00001dc0
-`NcaExecuteAndCaptureLogs` | 3 (0x3) | Exported Function | 0x10003100 | 0x00003100
-`NcaGetConfig` | 4 (0x4) | Exported Function | 0x10002d60 | 0x00002d60
-`NcaGetEvidenceCollectorResult` | 5 (0x5) | Exported Function | 0x10003270 | 0x00003270
-`NcaNetworkClose` | 6 (0x6) | Exported Function | 0x100025f0 | 0x000025f0
-`NcaNetworkOpen` | 7 (0x7) | Exported Function | 0x10002410 | 0x00002410
-`NcaStatusEventSubscribe` | 8 (0x8) | Exported Function | 0x10002860 | 0x00002860
-`NcaStatusEventUnsubscribe` | 9 (0x9) | Exported Function | 0x10002bb0 | 0x00002bb0
-`NcaToggleNamePreferenceState` | 10 (0xa) | Exported Function | 0x10002fa0 | 0x00002fa0
+Function Name | Ordinal | Type
+-- | -- | --
+`NcaNetworkOpen` | 7 | Exported Function
+`NcaNetworkClose` | 6 | Exported Function
+`NcaStatusEventSubscribe` | 8 | Exported Function
+`NcaToggleNamePreferenceState` | 10 | Exported Function
+`NcaStatusEventUnsubscribe` | 9 | Exported Function
+`NcaGetEvidenceCollectorResult` | 5 | Exported Function
+`NcaEngineClose` | 1 | Exported Function
+`DllMain` | 11 | Exported Function
+`NcaEngineOpen` | 2 | Exported Function
+`NcaGetConfig` | 4 | Exported Function
+`NcaExecuteAndCaptureLogs` | 3 | Exported Function
 
 
 ## Signature

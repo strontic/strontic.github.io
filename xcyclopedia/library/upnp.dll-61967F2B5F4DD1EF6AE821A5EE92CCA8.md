@@ -24,13 +24,13 @@ PE256 | `20323683A5F69CFC8283B18057F0F1B8A70F1557FC97C13468026F6272E7DC29`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 6 (0x6) | Exported Function | 0x0000000180003710 | 0x00003710
-`DllGetClassObject` | 7 (0x7) | Exported Function | 0x00000001800030b0 | 0x000030b0
-`DllRegisterServer` | 8 (0x8) | Exported Function | 0x000000018000cfe0 | 0x0000cfe0
-`DllUnregisterServer` | 9 (0x9) | Exported Function | 0x000000018000d080 | 0x0000d080
-`HrRehydratorCreateServiceObject` | 5 (0x5) | Exported Function | 0x000000018000f590 | 0x0000f590
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 9 | Exported Function
+`HrRehydratorCreateServiceObject` | 5 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
 
 
 ## Signature

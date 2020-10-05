@@ -24,16 +24,16 @@ PE256 | `1BDE0CA4897FD1979E17D54ACD4DB3BF0E8DF9525B3383667956B86BE7957D98`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 11 (0xb) | Exported Function | 0x10005960 | 0x00005960
-`DllUnregisterServer` | 12 (0xc) | Exported Function | 0x10005a20 | 0x00005a20
-`MsiSIPCreateIndirectData` | 9 (0x9) | Exported Function | 0x100040f0 | 0x000040f0
-`MsiSIPGetSignedDataMsg` | 6 (0x6) | Exported Function | 0x10004810 | 0x00004810
-`MsiSIPIsMyTypeOfFile` | 5 (0x5) | Exported Function | 0x100018d0 | 0x000018d0
-`MsiSIPPutSignedDataMsg` | 7 (0x7) | Exported Function | 0x100049c0 | 0x000049c0
-`MsiSIPRemoveSignedDataMsg` | 8 (0x8) | Exported Function | 0x10004b50 | 0x00004b50
-`MsiSIPVerifyIndirectData` | 10 (0xa) | Exported Function | 0x10004cb0 | 0x00004cb0
+Function Name | Ordinal | Type
+-- | -- | --
+`MsiSIPPutSignedDataMsg` | 7 | Exported Function
+`MsiSIPIsMyTypeOfFile` | 5 | Exported Function
+`MsiSIPVerifyIndirectData` | 10 | Exported Function
+`MsiSIPRemoveSignedDataMsg` | 8 | Exported Function
+`DllUnregisterServer` | 12 | Exported Function
+`DllRegisterServer` | 11 | Exported Function
+`MsiSIPGetSignedDataMsg` | 6 | Exported Function
+`MsiSIPCreateIndirectData` | 9 | Exported Function
 
 
 ## Signature

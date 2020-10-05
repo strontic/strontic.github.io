@@ -24,14 +24,14 @@ PE256 | `7CC5B2ECF1087D13F65D4685F4317A37481B69E44C394FC52A85EAEF119221D7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DeregisterEventSource` | 1 (0x1) | Exported Function | advapi32.DeregisterEventSource | 0x00001100
-`GetEventLogInformation` | 2 (0x2) | Exported Function | advapi32.GetEventLogInformation | 0x00001136
-`RegisterEventSourceA` | 3 (0x3) | Exported Function | advapi32.RegisterEventSourceA | 0x0000116b
-`RegisterEventSourceW` | 4 (0x4) | Exported Function | advapi32.RegisterEventSourceW | 0x0000119e
-`ReportEventA` | 5 (0x5) | Exported Function | advapi32.ReportEventA | 0x000011c9
-`ReportEventW` | 6 (0x6) | Exported Function | advapi32.ReportEventW | 0x000011ec
+Function Name | Ordinal | Type
+-- | -- | --
+`RegisterEventSourceW` | 4 | Exported Function
+`ReportEventA` | 5 | Exported Function
+`ReportEventW` | 6 | Exported Function
+`DeregisterEventSource` | 1 | Exported Function
+`GetEventLogInformation` | 2 | Exported Function
+`RegisterEventSourceA` | 3 | Exported Function
 
 
 ## Signature

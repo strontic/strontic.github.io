@@ -24,17 +24,17 @@ PE256 | `116D1571A09ACB8383D7B933E549DE172AB4544C137917B3D7888CDDB0B79936`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CredentialUpdateFree` | 4 (0x4) | Exported Function | 0x10019ce0 | 0x00019ce0
-`CredentialUpdateNotify` | 5 (0x5) | Exported Function | 0x10019d00 | 0x00019d00
-`CredentialUpdateRegister` | 2 (0x2) | Exported Function | 0x10019cc0 | 0x00019cc0
-`SpInitialize` | 1 (0x1) | Exported Function | 0x10003ee0 | 0x00003ee0
-`SpInstanceInit` | 32 (0x20) | Exported Function | 0x10003650 | 0x00003650
-`SpLsaModeInitialize` | 6 (0x6) | Exported Function | 0x100045b0 | 0x000045b0
-`SpUserModeInitialize` | 7 (0x7) | Exported Function | 0x10003560 | 0x00003560
-`SsiCredentialsUpdateFree` | 8 (0x8) | Exported Function | 0x1001d580 | 0x0001d580
-`SsiCredentialsUpdateNotify` | 3 (0x3) | Exported Function | 0x1001b520 | 0x0001b520
+Function Name | Ordinal | Type
+-- | -- | --
+`SpUserModeInitialize` | 7 | Exported Function
+`SpLsaModeInitialize` | 6 | Exported Function
+`SsiCredentialsUpdateNotify` | 3 | Exported Function
+`SsiCredentialsUpdateFree` | 8 | Exported Function
+`SpInstanceInit` | 32 | Exported Function
+`CredentialUpdateNotify` | 5 | Exported Function
+`CredentialUpdateFree` | 4 | Exported Function
+`SpInitialize` | 1 | Exported Function
+`CredentialUpdateRegister` | 2 | Exported Function
 
 
 ## Signature

@@ -24,25 +24,25 @@ PE256 | `0AB0CE50E564F9A8369C5FABA755F9D029B3A9DA03BC3F17623222D2FBA70BD8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Bcp47GetDistanceCString` | 1 (0x1) | Exported Function | 0x1000ee50 | 0x0000ee50
-`IsValidTag` | 15 (0xf) | Exported Function | 0x10010100 | 0x00010100
-`GetParentCompositeRegionCode` | 14 (0xe) | Exported Function | 0x10010480 | 0x00010480
-`GetMrtDisplayLanguageList` | 13 (0xd) | Exported Function | 0x1000efe0 | 0x0000efe0
-`GetLanguageDirectionality` | 12 (0xc) | Exported Function | 0x1000d2d0 | 0x0000d2d0
-`GetDistanceOfClosestLanguageInList` | 11 (0xb) | Exported Function | 0x10010170 | 0x00010170
-`GetCompositeRegionCode` | 10 (0xa) | Exported Function | 0x10010450 | 0x00010450
-`IsValidUnIsoRegionTag` | 16 (0x10) | Exported Function | 0x100103c0 | 0x000103c0
-`GetClosenessOfUnIsoRegionTags` | 9 (0x9) | Exported Function | 0x100103f0 | 0x000103f0
-`GetApplicationLanguagesWithUserLanguagesFallback` | 7 (0x7) | Exported Function | 0x1000d250 | 0x0000d250
-`FormatLanguageTag` | 6 (0x6) | Exported Function | 0x10010230 | 0x00010230
-`FormatLanguageList` | 5 (0x5) | Exported Function | 0x1000ffd0 | 0x0000ffd0
-`CompareBcp47Tags` | 4 (0x4) | Exported Function | 0x100102b0 | 0x000102b0
-`Bcp47IsValid` | 3 (0x3) | Exported Function | 0x1000fcc0 | 0x0000fcc0
-`Bcp47GetNeutralFormCString` | 2 (0x2) | Exported Function | 0x1000eef0 | 0x0000eef0
-`GetApplicationLayoutDirection` | 8 (0x8) | Exported Function | 0x1000d3a0 | 0x0000d3a0
-`IsWellFormedTag` | 17 (0x11) | Exported Function | 0x10010080 | 0x00010080
+Function Name | Ordinal | Type
+-- | -- | --
+`GetLanguageDirectionality` | 12 | Exported Function
+`GetMrtDisplayLanguageList` | 13 | Exported Function
+`GetCompositeRegionCode` | 10 | Exported Function
+`GetDistanceOfClosestLanguageInList` | 11 | Exported Function
+`IsValidUnIsoRegionTag` | 16 | Exported Function
+`IsWellFormedTag` | 17 | Exported Function
+`GetParentCompositeRegionCode` | 14 | Exported Function
+`IsValidTag` | 15 | Exported Function
+`GetClosenessOfUnIsoRegionTags` | 9 | Exported Function
+`Bcp47IsValid` | 3 | Exported Function
+`CompareBcp47Tags` | 4 | Exported Function
+`Bcp47GetDistanceCString` | 1 | Exported Function
+`Bcp47GetNeutralFormCString` | 2 | Exported Function
+`GetApplicationLanguagesWithUserLanguagesFallback` | 7 | Exported Function
+`GetApplicationLayoutDirection` | 8 | Exported Function
+`FormatLanguageList` | 5 | Exported Function
+`FormatLanguageTag` | 6 | Exported Function
 
 
 ## Signature

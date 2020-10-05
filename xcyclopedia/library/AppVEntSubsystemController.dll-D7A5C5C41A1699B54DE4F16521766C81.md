@@ -24,12 +24,12 @@ PE256 | `2AE3401B9E6E0EC7F3323CF948F94FC2303B2524E1E658DEBD0192246F5ADBC4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Deinitialize` | 2 (0x2) | Exported Function | 0x0000000180005f90 | 0x00005f90
-`GetComponent` | 3 (0x3) | Exported Function | 0x0000000180006140 | 0x00006140
-`GetVirtualEnvironmentUtils` | 4 (0x4) | Exported Function | 0x0000000180006260 | 0x00006260
-`Initialize` | 1 (0x1) | Exported Function | 0x0000000180005ef0 | 0x00005ef0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetVirtualEnvironmentUtils` | 4 | Exported Function
+`Initialize` | 1 | Exported Function
+`Deinitialize` | 2 | Exported Function
+`GetComponent` | 3 | Exported Function
 
 
 ## Signature

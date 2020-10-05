@@ -24,33 +24,33 @@ PE256 | `04C797E81C2BEE734F18B599FB5A8CEEB1B5B5681199FC7281EDAB22061BB0E9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Chkdsk` | 2 (0x2) | Exported Function | 0x44b86610 | 0x00006610
-`QueryLatestFileSystemVersion` | 23 (0x17) | Exported Function | 0x44b860d0 | 0x000060d0
-`QueryIsDiskCheckScheduledForNextBoot` | 22 (0x16) | Exported Function | 0x44b818d0 | 0x000018d0
-`QueryFileSystemName` | 21 (0x15) | Exported Function | 0x44b85d90 | 0x00005d90
-`QueryDeviceInformationByHandle` | 20 (0x14) | Exported Function | 0x44b85d30 | 0x00005d30
-`QueryDeviceInformation` | 19 (0x13) | Exported Function | 0x44b85be0 | 0x00005be0
-`QueryCorruptionStateByHandle` | 18 (0x12) | Exported Function | 0x44b87c30 | 0x00007c30
-`QueryCorruptionState` | 17 (0x11) | Exported Function | 0x44b87be0 | 0x00007be0
-`QueryAvailableFileSystemFormat` | 16 (0x10) | Exported Function | 0x44b85b40 | 0x00005b40
-`GetNextCorruptionInfo` | 15 (0xf) | Exported Function | 0x44b878e0 | 0x000078e0
-`GetFirstCorruptionInfo` | 1 (0x1) | Exported Function | 0x44b864c0 | 0x000064c0
-`QuerySupportedMedia` | 24 (0x18) | Exported Function | 0x44b86170 | 0x00006170
-`GetDefaultFileSystem` | 14 (0xe) | Exported Function | 0x44b85b20 | 0x00005b20
-`FreeCorruptionInfo` | 12 (0xc) | Exported Function | 0x44b87850 | 0x00007850
-`FormatEx2` | 10 (0xa) | Exported Function | 0x44b84d50 | 0x00004d50
-`FormatEx` | 11 (0xb) | Exported Function | 0x44b85500 | 0x00005500
-`Format` | 9 (0x9) | Exported Function | 0x44b847d0 | 0x000047d0
-`Extend` | 8 (0x8) | Exported Function | 0x44b88210 | 0x00008210
-`EnableVolumeIntegrity` | 7 (0x7) | Exported Function | 0x44b84750 | 0x00004750
-`EnableVolumeCompression` | 6 (0x6) | Exported Function | 0x44b846e0 | 0x000046e0
-`DiskCopy` | 5 (0x5) | Exported Function | 0x44b86490 | 0x00006490
-`ComputeFmMediaType` | 4 (0x4) | Exported Function | 0x44b84600 | 0x00004600
-`ChkdskEx` | 3 (0x3) | Exported Function | 0x44b869a0 | 0x000069a0
-`GetCorruptionInfoClose` | 13 (0xd) | Exported Function | 0x44b87880 | 0x00007880
-`SetLabel` | 25 (0x19) | Exported Function | 0x44b86280 | 0x00006280
+Function Name | Ordinal | Type
+-- | -- | --
+`QueryCorruptionState` | 17 | Exported Function
+`QueryCorruptionStateByHandle` | 18 | Exported Function
+`QueryDeviceInformation` | 19 | Exported Function
+`GetFirstCorruptionInfo` | 1 | Exported Function
+`GetNextCorruptionInfo` | 15 | Exported Function
+`QueryAvailableFileSystemFormat` | 16 | Exported Function
+`QueryLatestFileSystemVersion` | 23 | Exported Function
+`QuerySupportedMedia` | 24 | Exported Function
+`SetLabel` | 25 | Exported Function
+`QueryDeviceInformationByHandle` | 20 | Exported Function
+`QueryFileSystemName` | 21 | Exported Function
+`QueryIsDiskCheckScheduledForNextBoot` | 22 | Exported Function
+`GetDefaultFileSystem` | 14 | Exported Function
+`DiskCopy` | 5 | Exported Function
+`EnableVolumeCompression` | 6 | Exported Function
+`EnableVolumeIntegrity` | 7 | Exported Function
+`Chkdsk` | 2 | Exported Function
+`ChkdskEx` | 3 | Exported Function
+`ComputeFmMediaType` | 4 | Exported Function
+`FormatEx2` | 10 | Exported Function
+`FreeCorruptionInfo` | 12 | Exported Function
+`GetCorruptionInfoClose` | 13 | Exported Function
+`Extend` | 8 | Exported Function
+`Format` | 9 | Exported Function
+`FormatEx` | 11 | Exported Function
 
 
 ## Signature

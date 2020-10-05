@@ -24,32 +24,32 @@ PE256 | `46770CD1A7E3ADA80B6CAC1632136EF58581D7D7912121471265A7013EAF5B64`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x1000f220 | 0x0000f220
-`IASShutdown` | 22 (0x16) | Exported Function | 0x100056e0 | 0x000056e0
-`IASSetMaxThreadIdle` | 21 (0x15) | Exported Function | 0x10004ec0 | 0x00004ec0
-`IASSetMaxNumberOfThreads` | 20 (0x14) | Exported Function | 0x10004e80 | 0x00004e80
-`IASRequestThread` | 19 (0x13) | Exported Function | 0x10004e70 | 0x00004e70
-`IASReportSecurityEvent` | 18 (0x12) | Exported Function | 0x10004dc0 | 0x00004dc0
-`IASReportLicenseViolation` | 17 (0x11) | Exported Function | 0x1000e970 | 0x0000e970
-`IASReportEvent` | 16 (0x10) | Exported Function | 0x10004d00 | 0x00004d00
-`IASRegisterComponent` | 15 (0xf) | Exported Function | 0x10004f00 | 0x00004f00
-`IASRadiusCrypt` | 14 (0xe) | Exported Function | 0x10005790 | 0x00005790
-`IASInitialize` | 13 (0xd) | Exported Function | 0x100055e0 | 0x000055e0
-`IASGlobalUnlock` | 12 (0xc) | Exported Function | 0x10005d30 | 0x00005d30
-`IASGlobalLock` | 11 (0xb) | Exported Function | 0x10005d10 | 0x00005d10
-`IASGetProductLimits` | 10 (0xa) | Exported Function | 0x10005e10 | 0x00005e10
-`IASGetLocalDictionary` | 9 (0x9) | Exported Function | 0x10005c30 | 0x00005c30
-`IASGetHostByName` | 8 (0x8) | Exported Function | 0x10005900 | 0x00005900
-`IASGetDictionary` | 7 (0x7) | Exported Function | 0x10005b60 | 0x00005b60
-`IASAllocateUniqueID` | 6 (0x6) | Exported Function | 0x10005310 | 0x00005310
-`IASAdler32` | 5 (0x5) | Exported Function | 0x100052c0 | 0x000052c0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x1000f320 | 0x0000f320
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x1000f270 | 0x0000f270
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x1000f240 | 0x0000f240
-`IASUninitialize` | 23 (0x17) | Exported Function | 0x10005720 | 0x00005720
-`IASVariantChangeType` | 24 (0x18) | Exported Function | 0x10005330 | 0x00005330
+Function Name | Ordinal | Type
+-- | -- | --
+`IASReportEvent` | 16 | Exported Function
+`IASReportLicenseViolation` | 17 | Exported Function
+`IASReportSecurityEvent` | 18 | Exported Function
+`IASInitialize` | 13 | Exported Function
+`IASRadiusCrypt` | 14 | Exported Function
+`IASRegisterComponent` | 15 | Exported Function
+`IASShutdown` | 22 | Exported Function
+`IASUninitialize` | 23 | Exported Function
+`IASVariantChangeType` | 24 | Exported Function
+`IASRequestThread` | 19 | Exported Function
+`IASSetMaxNumberOfThreads` | 20 | Exported Function
+`IASSetMaxThreadIdle` | 21 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`IASAdler32` | 5 | Exported Function
+`IASAllocateUniqueID` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`IASGetProductLimits` | 10 | Exported Function
+`IASGlobalLock` | 11 | Exported Function
+`IASGlobalUnlock` | 12 | Exported Function
+`IASGetDictionary` | 7 | Exported Function
+`IASGetHostByName` | 8 | Exported Function
+`IASGetLocalDictionary` | 9 | Exported Function
 
 
 ## Signature

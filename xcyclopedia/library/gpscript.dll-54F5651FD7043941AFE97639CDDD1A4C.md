@@ -24,12 +24,12 @@ PE256 | `8049D5CAE7F4B219FEAE0CF9A71F2AAA0629E19C58D64F5A625A2770C4E6F096`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GenerateScriptsGroupPolicy` | 1 (0x1) | Exported Function | 0x0000000180004e50 | 0x00004e50
-`ProcessScriptsGroupPolicy` | 2 (0x2) | Exported Function | 0x0000000180004de0 | 0x00004de0
-`ProcessScriptsGroupPolicyEx` | 3 (0x3) | Exported Function | 0x0000000180004e10 | 0x00004e10
-`ScrRegGPOListToWbem` | 4 (0x4) | Exported Function | 0x0000000180003ea0 | 0x00003ea0
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessScriptsGroupPolicyEx` | 3 | Exported Function
+`ScrRegGPOListToWbem` | 4 | Exported Function
+`GenerateScriptsGroupPolicy` | 1 | Exported Function
+`ProcessScriptsGroupPolicy` | 2 | Exported Function
 
 
 ## Signature

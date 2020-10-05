@@ -24,23 +24,23 @@ PE256 | `6FCE92696F9B56489DFC0E0272969DCAAA8325873A402CEEFB5B2C3D8BFFD84F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CanShareFolder` | 1 (0x1) | Exported Function | 0x51415760 | 0x00015760
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x5141ac90 | 0x0001ac90
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x5141acb0 | 0x0001acb0
-`GetLocalPathFromNetResource` | 4 (0x4) | Exported Function | 0x51415820 | 0x00015820
-`GetLocalPathFromNetResourceA` | 5 (0x5) | Exported Function | 0x51415820 | 0x00015820
-`GetLocalPathFromNetResourceW` | 6 (0x6) | Exported Function | 0x51415840 | 0x00015840
-`GetNetResourceFromLocalPath` | 7 (0x7) | Exported Function | 0x51415880 | 0x00015880
-`GetNetResourceFromLocalPathA` | 8 (0x8) | Exported Function | 0x51415880 | 0x00015880
-`GetNetResourceFromLocalPathW` | 9 (0x9) | Exported Function | 0x5140a5d0 | 0x0000a5d0
-`IsFolderPrivateForUser` | 10 (0xa) | Exported Function | 0x5143ce40 | 0x0003ce40
-`IsPathShared` | 11 (0xb) | Exported Function | 0x514158a0 | 0x000158a0
-`IsPathSharedA` | 12 (0xc) | Exported Function | 0x514158a0 | 0x000158a0
-`IsPathSharedW` | 13 (0xd) | Exported Function | 0x5140a270 | 0x0000a270
-`SetFolderPermissionsForSharing` | 14 (0xe) | Exported Function | 0x5143d000 | 0x0003d000
-`ShowShareFolderUI` | 15 (0xf) | Exported Function | 0x514158c0 | 0x000158c0
+Function Name | Ordinal | Type
+-- | -- | --
+`IsPathShared` | 11 | Exported Function
+`IsFolderPrivateForUser` | 10 | Exported Function
+`GetNetResourceFromLocalPathW` | 9 | Exported Function
+`IsPathSharedA` | 12 | Exported Function
+`ShowShareFolderUI` | 15 | Exported Function
+`SetFolderPermissionsForSharing` | 14 | Exported Function
+`IsPathSharedW` | 13 | Exported Function
+`GetNetResourceFromLocalPathA` | 8 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CanShareFolder` | 1 | Exported Function
+`GetLocalPathFromNetResource` | 4 | Exported Function
+`GetNetResourceFromLocalPath` | 7 | Exported Function
+`GetLocalPathFromNetResourceW` | 6 | Exported Function
+`GetLocalPathFromNetResourceA` | 5 | Exported Function
 
 
 ## Signature

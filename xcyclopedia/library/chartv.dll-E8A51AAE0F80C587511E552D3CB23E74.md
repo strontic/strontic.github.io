@@ -24,16 +24,16 @@ PE256 | `50B56C9EE2E24B8CC504C2C1517EDE902F7826617CD3C5A2DB353A39E21BFE24`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CvCloseDataSource` | 1 (0x1) | Exported Function | 0x0000000180014c50 | 0x00014c50
-`CvCreateDataSource` | 2 (0x2) | Exported Function | 0x0000000180014ba0 | 0x00014ba0
-`CvGetData` | 3 (0x3) | Exported Function | 0x0000000180014ca0 | 0x00014ca0
-`CvGetDataSourceName` | 4 (0x4) | Exported Function | 0x0000000180014fe0 | 0x00014fe0
-`CvInitialize` | 5 (0x5) | Exported Function | 0x0000000180014a60 | 0x00014a60
-`CvSetData` | 6 (0x6) | Exported Function | 0x0000000180014c90 | 0x00014c90
-`CvSetDataSourceName` | 7 (0x7) | Exported Function | 0x0000000180014e30 | 0x00014e30
-`CvUninitialize` | 8 (0x8) | Exported Function | 0x0000000180014b70 | 0x00014b70
+Function Name | Ordinal | Type
+-- | -- | --
+`CvSetData` | 6 | Exported Function
+`CvInitialize` | 5 | Exported Function
+`CvUninitialize` | 8 | Exported Function
+`CvSetDataSourceName` | 7 | Exported Function
+`CvCreateDataSource` | 2 | Exported Function
+`CvCloseDataSource` | 1 | Exported Function
+`CvGetDataSourceName` | 4 | Exported Function
+`CvGetData` | 3 | Exported Function
 
 
 ## Signature

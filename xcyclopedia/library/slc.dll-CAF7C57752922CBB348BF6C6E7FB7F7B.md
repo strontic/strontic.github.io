@@ -24,48 +24,48 @@ PE256 | `C06C9DA054D406E90522CFF9E556B42CA7449993316DB4E4BDA182A1106EA496`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SLClose` | 4 (0x4) | Exported Function | SPPC.SLClose | 0x0001a43f
-`SLGetWindowsInformation` | 26 (0x1a) | Exported Function | 0x100019e0 | 0x000019e0
-`SLGetWindowsInformationDWORD` | 27 (0x1b) | Exported Function | 0x10001ae0 | 0x00001ae0
-`SLInstallLicense` | 28 (0x1c) | Exported Function | SPPC.SLInstallLicense | 0x0001a8c0
-`SLInstallProofOfPurchase` | 29 (0x1d) | Exported Function | SPPC.SLInstallProofOfPurchase | 0x0001a8ef
-`SLIsWindowsGenuineLocal` | 30 (0x1e) | Exported Function | 0x10001900 | 0x00001900
-`SLOpen` | 31 (0x1f) | Exported Function | SPPC.SLOpen | 0x0001a92c
-`SLpCheckProductKey` | 1 (0x1) | Exported Function | 0x10019240 | 0x00019240
-`SLGetSLIDList` | 24 (0x18) | Exported Function | SPPC.SLGetSLIDList | 0x0001a832
-`SLpGetGenuineLocal` | 2 (0x2) | Exported Function | SPPC.SLpGetGenuineLocal | 0x0001a406
-`SLReArmWindows` | 32 (0x20) | Exported Function | 0x1001a0b0 | 0x0001a0b0
-`SLRegisterEvent` | 33 (0x21) | Exported Function | SPPC.SLRegisterEvent | 0x0001a957
-`SLRegisterWindowsEvent` | 34 (0x22) | Exported Function | 0x10001ef0 | 0x00001ef0
-`SLSetCurrentProductKey` | 35 (0x23) | Exported Function | SPPC.SLSetCurrentProductKey | 0x0001a99a
-`SLSetGenuineInformation` | 36 (0x24) | Exported Function | SPPC.SLSetGenuineInformation | 0x0001a9ce
-`SLUninstallLicense` | 37 (0x25) | Exported Function | SPPC.SLUninstallLicense | 0x0001a9fe
-`SLUninstallProofOfPurchase` | 38 (0x26) | Exported Function | SPPC.SLUninstallProofOfPurchase | 0x0001aa31
-`SLpUpdateComponentTokens` | 3 (0x3) | Exported Function | 0x10019290 | 0x00019290
-`SLGetServiceInformation` | 25 (0x19) | Exported Function | SPPC.SLGetServiceInformation | 0x0001a85d
-`SLGetProductSkuInformation` | 23 (0x17) | Exported Function | SPPC.SLGetProductSkuInformation | 0x0001a804
-`SLGetPolicyInformationDWORD` | 22 (0x16) | Exported Function | SPPC.SLGetPolicyInformationDWORD | 0x0001a7c8
-`SLConsumeRight` | 5 (0x5) | Exported Function | SPPC.SLConsumeRight | 0x0001a45b
-`SLConsumeWindowsRight` | 6 (0x6) | Exported Function | 0x10019f60 | 0x00019f60
-`SLDepositOfflineConfirmationId` | 7 (0x7) | Exported Function | SPPC.SLDepositOfflineConfirmationId | 0x0001a4a4
-`SLDepositOfflineConfirmationIdEx` | 8 (0x8) | Exported Function | SPPC.SLDepositOfflineConfirmationIdEx | 0x0001a4e9
-`SLFireEvent` | 9 (0x9) | Exported Function | SPPC.SLFireEvent | 0x0001a51b
-`SLGenerateOfflineInstallationId` | 10 (0xa) | Exported Function | SPPC.SLGenerateOfflineInstallationId | 0x0001a54c
-`SLGenerateOfflineInstallationIdEx` | 11 (0xb) | Exported Function | SPPC.SLGenerateOfflineInstallationIdEx | 0x0001a593
-`SLGetApplicationInformation` | 12 (0xc) | Exported Function | SPPC.SLGetApplicationInformation | 0x0001a5d6
-`SLGetGenuineInformation` | 13 (0xd) | Exported Function | SPPC.SLGetGenuineInformation | 0x0001a60f
-`SLGetInstalledProductKeyIds` | 14 (0xe) | Exported Function | SPPC.SLGetInstalledProductKeyIds | 0x0001a648
-`SLGetLicense` | 15 (0xf) | Exported Function | SPPC.SLGetLicense | 0x0001a676
-`SLGetLicenseFileId` | 16 (0x10) | Exported Function | SPPC.SLGetLicenseFileId | 0x0001a69b
-`SLGetLicenseInformation` | 17 (0x11) | Exported Function | SPPC.SLGetLicenseInformation | 0x0001a6cb
-`SLGetLicensingStatusInformation` | 18 (0x12) | Exported Function | SPPC.SLGetLicensingStatusInformation | 0x0001a708
-`SLGetPKeyId` | 19 (0x13) | Exported Function | SPPC.SLGetPKeyId | 0x0001a739
-`SLGetPKeyInformation` | 20 (0x14) | Exported Function | SPPC.SLGetPKeyInformation | 0x0001a75f
-`SLGetPolicyInformation` | 21 (0x15) | Exported Function | SPPC.SLGetPolicyInformation | 0x0001a790
-`SLUnregisterEvent` | 39 (0x27) | Exported Function | SPPC.SLUnregisterEvent | 0x0001aa63
-`SLUnregisterWindowsEvent` | 40 (0x28) | Exported Function | 0x1001a110 | 0x0001a110
+Function Name | Ordinal | Type
+-- | -- | --
+`SLIsWindowsGenuineLocal` | 30 | Exported Function
+`SLInstallProofOfPurchase` | 29 | Exported Function
+`SLOpen` | 31 | Exported Function
+`SLpGetGenuineLocal` | 2 | Exported Function
+`SLpCheckProductKey` | 1 | Exported Function
+`SLGetSLIDList` | 24 | Exported Function
+`SLGetServiceInformation` | 25 | Exported Function
+`SLGetWindowsInformation` | 26 | Exported Function
+`SLInstallLicense` | 28 | Exported Function
+`SLGetWindowsInformationDWORD` | 27 | Exported Function
+`SLUninstallLicense` | 37 | Exported Function
+`SLSetGenuineInformation` | 36 | Exported Function
+`SLUninstallProofOfPurchase` | 38 | Exported Function
+`SLUnregisterWindowsEvent` | 40 | Exported Function
+`SLUnregisterEvent` | 39 | Exported Function
+`SLReArmWindows` | 32 | Exported Function
+`SLpUpdateComponentTokens` | 3 | Exported Function
+`SLRegisterEvent` | 33 | Exported Function
+`SLSetCurrentProductKey` | 35 | Exported Function
+`SLRegisterWindowsEvent` | 34 | Exported Function
+`SLGenerateOfflineInstallationId` | 10 | Exported Function
+`SLFireEvent` | 9 | Exported Function
+`SLGenerateOfflineInstallationIdEx` | 11 | Exported Function
+`SLGetGenuineInformation` | 13 | Exported Function
+`SLGetApplicationInformation` | 12 | Exported Function
+`SLConsumeRight` | 5 | Exported Function
+`SLClose` | 4 | Exported Function
+`SLConsumeWindowsRight` | 6 | Exported Function
+`SLDepositOfflineConfirmationIdEx` | 8 | Exported Function
+`SLDepositOfflineConfirmationId` | 7 | Exported Function
+`SLGetPKeyInformation` | 20 | Exported Function
+`SLGetPKeyId` | 19 | Exported Function
+`SLGetPolicyInformation` | 21 | Exported Function
+`SLGetProductSkuInformation` | 23 | Exported Function
+`SLGetPolicyInformationDWORD` | 22 | Exported Function
+`SLGetLicense` | 15 | Exported Function
+`SLGetInstalledProductKeyIds` | 14 | Exported Function
+`SLGetLicenseFileId` | 16 | Exported Function
+`SLGetLicensingStatusInformation` | 18 | Exported Function
+`SLGetLicenseInformation` | 17 | Exported Function
 
 
 ## Signature

@@ -24,16 +24,16 @@ PE256 | `F808423801C22E548677F5FF8D7B9F9F1DDA03AA3FD4591616B05A2573A73D01`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FreeInterfaceContextTable` | 1 (0x1) | Exported Function | 0x0000000180007550 | 0x00007550
-`GetInterfaceContextTableForHostName` | 2 (0x2) | Exported Function | 0x00000001800076d0 | 0x000076d0
-`OnDemandAddRouteRequest` | 3 (0x3) | Exported Function | 0x0000000180007e00 | 0x00007e00
-`OnDemandGetRoutingHint` | 4 (0x4) | Exported Function | 0x0000000180007f20 | 0x00007f20
-`OnDemandRegisterNotification` | 5 (0x5) | Exported Function | 0x00000001800010e0 | 0x000010e0
-`OnDemandRemoveMatchingRoute` | 6 (0x6) | Exported Function | 0x0000000180008010 | 0x00008010
-`OnDemandRemoveRouteRequest` | 7 (0x7) | Exported Function | 0x0000000180008100 | 0x00008100
-`OnDemandUnRegisterNotification` | 8 (0x8) | Exported Function | 0x0000000180008190 | 0x00008190
+Function Name | Ordinal | Type
+-- | -- | --
+`OnDemandRemoveMatchingRoute` | 6 | Exported Function
+`OnDemandRegisterNotification` | 5 | Exported Function
+`OnDemandUnRegisterNotification` | 8 | Exported Function
+`OnDemandRemoveRouteRequest` | 7 | Exported Function
+`GetInterfaceContextTableForHostName` | 2 | Exported Function
+`FreeInterfaceContextTable` | 1 | Exported Function
+`OnDemandGetRoutingHint` | 4 | Exported Function
+`OnDemandAddRouteRequest` | 3 | Exported Function
 
 
 ## Signature

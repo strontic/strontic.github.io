@@ -24,9 +24,9 @@ PE256 | `320D5B09447A4B44C0F01D7FD3F4B9469D48BE856D0DE676A5C1286534D6D481`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LsaManageSidNameMapping` | 1 (0x1) | Exported Function | advapi32.LsaManageSidNameMapping | 0x00001193
+Function Name | Ordinal | Type
+-- | -- | --
+`LsaManageSidNameMapping` | 1 | Exported Function
 
 
 ## Signature

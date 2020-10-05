@@ -24,45 +24,45 @@ PE256 | `7BEA366F69148BBB7DAA01D548D0F43B581769623DC90EB20E08B78F2DED696F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ContactToNameObject` | 27 (0x1b) | Exported Function | 0x000000018003d5b0 | 0x0003d5b0
-`DTC_XaForget` | 17 (0x11) | Exported Function | 0x0000000180016880 | 0x00016880
-`DTC_XaOpen` | 10 (0xa) | Exported Function | 0x00000001800154b0 | 0x000154b0
-`DTC_XaPrepare` | 13 (0xd) | Exported Function | 0x0000000180015f60 | 0x00015f60
-`DTC_XaRecover` | 16 (0x10) | Exported Function | 0x0000000180016600 | 0x00016600
-`DTC_XaRollback` | 15 (0xf) | Exported Function | 0x00000001800163f0 | 0x000163f0
-`DTC_XaStart` | 11 (0xb) | Exported Function | 0x0000000180015910 | 0x00015910
-`GetDtcLogPath` | 8 (0x8) | Exported Function | 0x00000001800058b0 | 0x000058b0
-`GetTmInstance` | 36 (0x24) | Exported Function | 0x0000000180009460 | 0x00009460
-`InstallContacts` | 37 (0x25) | Exported Function | 0x000000018003fad0 | 0x0003fad0
-`InstallDtc` | 38 (0x26) | Exported Function | 0x00000001800406d0 | 0x000406d0
-`InstallDtcClient` | 39 (0x27) | Exported Function | 0x000000018003fd80 | 0x0003fd80
-`RemoveDtc` | 40 (0x28) | Exported Function | 0x00000001800411e0 | 0x000411e0
-`ShutDownCM` | 24 (0x18) | Exported Function | 0x00000001800449e0 | 0x000449e0
-`SysPrepDtcCleanup` | 28 (0x1c) | Exported Function | 0x0000000180041d40 | 0x00041d40
-`SysPrepDtcGeneralize` | 29 (0x1d) | Exported Function | 0x0000000180041ee0 | 0x00041ee0
-`DTC_XaEnd` | 12 (0xc) | Exported Function | 0x0000000180015d10 | 0x00015d10
-`SysPrepDtcSpecialize` | 30 (0x1e) | Exported Function | 0x0000000180042080 | 0x00042080
-`DTC_XaComplete` | 18 (0x12) | Exported Function | 0x0000000180016910 | 0x00016910
-`DTC_XaClose` | 19 (0x13) | Exported Function | 0x00000001800169a0 | 0x000169a0
-`Create` | 5 (0x5) | Exported Function | 0x000000018003ce20 | 0x0003ce20
-`CreateInstance` | 6 (0x6) | Exported Function | 0x000000018000a140 | 0x0000a140
-`CreateLegacyTmInstance` | 20 (0x14) | Exported Function | 0x0000000180042360 | 0x00042360
-`CreateLocalTmInstance` | 21 (0x15) | Exported Function | 0x0000000180042350 | 0x00042350
-`CreateRemoteProxyTmInstance` | 22 (0x16) | Exported Function | 0x0000000180042460 | 0x00042460
-`CreateTmInstanceForRemoteAdmin` | 23 (0x17) | Exported Function | 0x00000001800425a0 | 0x000425a0
-`DeployDtc` | 31 (0x1f) | Exported Function | 0x000000018003f360 | 0x0003f360
-`DllGetClassObject` | 32 (0x20) | Exported Function | 0x0000000180004350 | 0x00004350
-`DllGetDtcConfigManager` | 7 (0x7) | Exported Function | 0x0000000180032b40 | 0x00032b40
-`DllGetDTCConnectionManager` | 25 (0x19) | Exported Function | 0x00000001800446e0 | 0x000446e0
-`DllGetDTCProxy` | 4 (0x4) | Exported Function | 0x0000000180004510 | 0x00004510
-`DllGetDTCUtilObject` | 26 (0x1a) | Exported Function | 0x0000000180044030 | 0x00044030
-`DllGetTransactionManagerCore` | 33 (0x21) | Exported Function | 0x0000000180009640 | 0x00009640
-`DllRegisterServer` | 34 (0x22) | Exported Function | 0x0000000180002380 | 0x00002380
-`DllUnregisterServer` | 35 (0x23) | Exported Function | 0x0000000180002380 | 0x00002380
-`DTC_XaCommit` | 14 (0xe) | Exported Function | 0x00000001800161b0 | 0x000161b0
-`UpgradeApplySuccess` | 9 (0x9) | Exported Function | 0x0000000180032850 | 0x00032850
+Function Name | Ordinal | Type
+-- | -- | --
+`DTC_XaStart` | 11 | Exported Function
+`DTC_XaRollback` | 15 | Exported Function
+`GetTmInstance` | 36 | Exported Function
+`GetDtcLogPath` | 8 | Exported Function
+`DTC_XaRecover` | 16 | Exported Function
+`DTC_XaForget` | 17 | Exported Function
+`DTC_XaEnd` | 12 | Exported Function
+`DTC_XaPrepare` | 13 | Exported Function
+`DTC_XaOpen` | 10 | Exported Function
+`SysPrepDtcGeneralize` | 29 | Exported Function
+`SysPrepDtcCleanup` | 28 | Exported Function
+`UpgradeApplySuccess` | 9 | Exported Function
+`SysPrepDtcSpecialize` | 30 | Exported Function
+`ShutDownCM` | 24 | Exported Function
+`InstallDtc` | 38 | Exported Function
+`InstallContacts` | 37 | Exported Function
+`RemoveDtc` | 40 | Exported Function
+`InstallDtcClient` | 39 | Exported Function
+`DTC_XaComplete` | 18 | Exported Function
+`CreateTmInstanceForRemoteAdmin` | 23 | Exported Function
+`CreateRemoteProxyTmInstance` | 22 | Exported Function
+`DllGetClassObject` | 32 | Exported Function
+`DeployDtc` | 31 | Exported Function
+`CreateLocalTmInstance` | 21 | Exported Function
+`Create` | 5 | Exported Function
+`ContactToNameObject` | 27 | Exported Function
+`CreateLegacyTmInstance` | 20 | Exported Function
+`CreateInstance` | 6 | Exported Function
+`DllUnregisterServer` | 35 | Exported Function
+`DllRegisterServer` | 34 | Exported Function
+`DTC_XaCommit` | 14 | Exported Function
+`DTC_XaClose` | 19 | Exported Function
+`DllGetTransactionManagerCore` | 33 | Exported Function
+`DllGetDTCConnectionManager` | 25 | Exported Function
+`DllGetDtcConfigManager` | 7 | Exported Function
+`DllGetDTCUtilObject` | 26 | Exported Function
+`DllGetDTCProxy` | 4 | Exported Function
 
 
 ## Signature

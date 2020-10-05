@@ -24,27 +24,27 @@ PE256 | `342F3C22C2BF883CF501620DA387A12087AF00DDDAF0F73609A30D0A4D260CE5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CryptXmlAddObject` | 1 (0x1) | Exported Function | 0x10005c30 | 0x00005c30
-`CryptXmlSetHMACSecret` | 17 (0x11) | Exported Function | 0x1000c080 | 0x0000c080
-`CryptXmlOpenToEncode` | 16 (0x10) | Exported Function | 0x1000b730 | 0x0000b730
-`CryptXmlOpenToDecode` | 15 (0xf) | Exported Function | 0x1000b5d0 | 0x0000b5d0
-`CryptXmlImportPublicKey` | 14 (0xe) | Exported Function | 0x1000a0b0 | 0x0000a0b0
-`CryptXmlGetTransforms` | 13 (0xd) | Exported Function | 0x1000b280 | 0x0000b280
-`CryptXmlGetStatus` | 12 (0xc) | Exported Function | 0x10006370 | 0x00006370
-`CryptXmlGetSignature` | 11 (0xb) | Exported Function | 0x10006300 | 0x00006300
-`CryptXmlSign` | 18 (0x12) | Exported Function | 0x1000c130 | 0x0000c130
-`CryptXmlGetReference` | 10 (0xa) | Exported Function | 0x10006290 | 0x00006290
-`CryptXmlGetAlgorithmInfo` | 8 (0x8) | Exported Function | 0x10004710 | 0x00004710
-`CryptXmlFindAlgorithmInfo` | 7 (0x7) | Exported Function | 0x10009fd0 | 0x00009fd0
-`CryptXmlEnumAlgorithmInfo` | 6 (0x6) | Exported Function | 0x10009ed0 | 0x00009ed0
-`CryptXmlEncode` | 5 (0x5) | Exported Function | 0x10007c50 | 0x00007c50
-`CryptXmlDigestReference` | 4 (0x4) | Exported Function | 0x10006c10 | 0x00006c10
-`CryptXmlCreateReference` | 3 (0x3) | Exported Function | 0x100065d0 | 0x000065d0
-`CryptXmlClose` | 2 (0x2) | Exported Function | 0x100061d0 | 0x000061d0
-`CryptXmlGetDocContext` | 9 (0x9) | Exported Function | 0x10006220 | 0x00006220
-`CryptXmlVerifySignature` | 19 (0x13) | Exported Function | 0x1000ca20 | 0x0000ca20
+Function Name | Ordinal | Type
+-- | -- | --
+`CryptXmlGetTransforms` | 13 | Exported Function
+`CryptXmlImportPublicKey` | 14 | Exported Function
+`CryptXmlGetSignature` | 11 | Exported Function
+`CryptXmlGetStatus` | 12 | Exported Function
+`CryptXmlOpenToDecode` | 15 | Exported Function
+`CryptXmlSign` | 18 | Exported Function
+`CryptXmlVerifySignature` | 19 | Exported Function
+`CryptXmlOpenToEncode` | 16 | Exported Function
+`CryptXmlSetHMACSecret` | 17 | Exported Function
+`CryptXmlGetReference` | 10 | Exported Function
+`CryptXmlCreateReference` | 3 | Exported Function
+`CryptXmlDigestReference` | 4 | Exported Function
+`CryptXmlAddObject` | 1 | Exported Function
+`CryptXmlClose` | 2 | Exported Function
+`CryptXmlEncode` | 5 | Exported Function
+`CryptXmlGetAlgorithmInfo` | 8 | Exported Function
+`CryptXmlGetDocContext` | 9 | Exported Function
+`CryptXmlEnumAlgorithmInfo` | 6 | Exported Function
+`CryptXmlFindAlgorithmInfo` | 7 | Exported Function
 
 
 ## Signature

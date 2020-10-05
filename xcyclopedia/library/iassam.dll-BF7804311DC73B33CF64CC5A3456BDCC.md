@@ -24,13 +24,13 @@ PE256 | `B4D0D4590615C22CFF4428E09192C963C12305F69BEA6729366F31D5CCF1AEB1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x00000001800023c0 | 0x000023c0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180002400 | 0x00002400
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180002490 | 0x00002490
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180002520 | 0x00002520
-`IASParmsQueryUserProperty` | 5 (0x5) | Exported Function | 0x0000000180004ea0 | 0x00004ea0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 4 | Exported Function
+`IASParmsQueryUserProperty` | 5 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

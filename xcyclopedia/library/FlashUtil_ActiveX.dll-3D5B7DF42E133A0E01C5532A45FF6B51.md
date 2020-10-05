@@ -24,9 +24,9 @@ PE256 | `BAD8989A96718C693C92B1C426A50DE129ED15F0C93A6481F17440BEC4DD8C07`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_Start@4` | 1 (0x1) | Exported Function | 0x1001f920 | 0x0001f920
+Function Name | Ordinal | Type
+-- | -- | --
+`_Start@4` | 1 | Exported Function
 
 
 ## Signature

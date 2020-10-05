@@ -24,22 +24,22 @@ PE256 | `B16943390CCD833667FE4C1DC3EA3998C4217CA24FE02DE6329C74D228F65D9A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BackupPerfRegistryToFileW` | 1 (0x1) | Exported Function | 0x100055c0 | 0x000055c0
-`InstallPerfDllA` | 2 (0x2) | Exported Function | 0x10010c20 | 0x00010c20
-`InstallPerfDllW` | 3 (0x3) | Exported Function | 0x100021f0 | 0x000021f0
-`LoadPerfCounterTextStringsA` | 4 (0x4) | Exported Function | 0x10010cb0 | 0x00010cb0
-`LoadPerfCounterTextStringsW` | 5 (0x5) | Exported Function | 0x10002110 | 0x00002110
-`LpAcquireInstallationMutex` | 6 (0x6) | Exported Function | 0x10012e50 | 0x00012e50
-`LpReleaseInstallationMutex` | 7 (0x7) | Exported Function | 0x10012e60 | 0x00012e60
-`RestorePerfRegistryFromFileW` | 8 (0x8) | Exported Function | 0x100123b0 | 0x000123b0
-`SetServiceAsTrustedA` | 9 (0x9) | Exported Function | 0x10010d50 | 0x00010d50
-`SetServiceAsTrustedW` | 10 (0xa) | Exported Function | 0x10010e00 | 0x00010e00
-`UnloadPerfCounterTextStringsA` | 11 (0xb) | Exported Function | 0x10011720 | 0x00011720
-`UnloadPerfCounterTextStringsW` | 12 (0xc) | Exported Function | 0x100022d0 | 0x000022d0
-`UpdatePerfNameFilesA` | 13 (0xd) | Exported Function | 0x10011160 | 0x00011160
-`UpdatePerfNameFilesW` | 14 (0xe) | Exported Function | 0x10011310 | 0x00011310
+Function Name | Ordinal | Type
+-- | -- | --
+`SetServiceAsTrustedW` | 10 | Exported Function
+`SetServiceAsTrustedA` | 9 | Exported Function
+`RestorePerfRegistryFromFileW` | 8 | Exported Function
+`UnloadPerfCounterTextStringsA` | 11 | Exported Function
+`UpdatePerfNameFilesW` | 14 | Exported Function
+`UpdatePerfNameFilesA` | 13 | Exported Function
+`UnloadPerfCounterTextStringsW` | 12 | Exported Function
+`InstallPerfDllW` | 3 | Exported Function
+`InstallPerfDllA` | 2 | Exported Function
+`BackupPerfRegistryToFileW` | 1 | Exported Function
+`LoadPerfCounterTextStringsA` | 4 | Exported Function
+`LpReleaseInstallationMutex` | 7 | Exported Function
+`LpAcquireInstallationMutex` | 6 | Exported Function
+`LoadPerfCounterTextStringsW` | 5 | Exported Function
 
 
 ## Signature

@@ -24,16 +24,16 @@ PE256 | `2DB43F7DE2F2C922232F3265E176C693457DF7A8F42817F8BD231DBE68706D8A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetLicensingTelemetryCommonData` | 1 (0x1) | Exported Function | 0x0000000180001e00 | 0x00001e00
-`InitRDLSTelemetryCommonData` | 2 (0x2) | Exported Function | 0x0000000180001e50 | 0x00001e50
-`LogRDLSSettingsTelemetryData` | 3 (0x3) | Exported Function | 0x0000000180003090 | 0x00003090
-`LogTSLSTelemetryEvent` | 4 (0x4) | Exported Function | 0x0000000180002f80 | 0x00002f80
-`LogTSLSTelemetryRDSEvent` | 5 (0x5) | Exported Function | 0x0000000180003060 | 0x00003060
-`RegisterAndEnableLicensingTelemetry` | 6 (0x6) | Exported Function | 0x0000000180001d10 | 0x00001d10
-`UnregisterLicensingTelemetry` | 7 (0x7) | Exported Function | 0x0000000180001dc0 | 0x00001dc0
-`UpdateRDLSTelemetryCommonData` | 8 (0x8) | Exported Function | 0x00000001800021a0 | 0x000021a0
+Function Name | Ordinal | Type
+-- | -- | --
+`RegisterAndEnableLicensingTelemetry` | 6 | Exported Function
+`LogTSLSTelemetryRDSEvent` | 5 | Exported Function
+`UpdateRDLSTelemetryCommonData` | 8 | Exported Function
+`UnregisterLicensingTelemetry` | 7 | Exported Function
+`InitRDLSTelemetryCommonData` | 2 | Exported Function
+`GetLicensingTelemetryCommonData` | 1 | Exported Function
+`LogTSLSTelemetryEvent` | 4 | Exported Function
+`LogRDLSSettingsTelemetryData` | 3 | Exported Function
 
 
 ## Signature

@@ -24,20 +24,20 @@ PE256 | `A06DCCCF7BA854608389B5473C87285A186844B70E8540ABF8B7C16D4C4B2E31`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AtaPropPageProvider` | 1 (0x1) | Exported Function | 0x70105e20 | 0x00005e20
-`CdromDisableDigitalPlayback` | 2 (0x2) | Exported Function | 0x701022c0 | 0x000022c0
-`CdromEnableDigitalPlayback` | 3 (0x3) | Exported Function | 0x701022b0 | 0x000022b0
-`CdromIsDigitalPlaybackEnabled` | 4 (0x4) | Exported Function | 0x701022b0 | 0x000022b0
-`CdromKnownGoodDigitalPlayback` | 5 (0x5) | Exported Function | 0x701022a0 | 0x000022a0
-`CdromSetDefaultDvdRegion` | 6 (0x6) | Exported Function | 0x70104b10 | 0x00004b10
-`DiskClassInstaller` | 7 (0x7) | Exported Function | 0x70102830 | 0x00002830
-`DiskPropPageProvider` | 8 (0x8) | Exported Function | 0x70102870 | 0x00002870
-`DvdClassInstaller` | 9 (0x9) | Exported Function | 0x70104b80 | 0x00004b80
-`DvdLauncher` | 10 (0xa) | Exported Function | 0x70104bf0 | 0x00004bf0
-`DvdPropPageProvider` | 11 (0xb) | Exported Function | 0x701041b0 | 0x000041b0
-`HdcCoInstaller` | 12 (0xc) | Exported Function | 0x70105d90 | 0x00005d90
+Function Name | Ordinal | Type
+-- | -- | --
+`DvdClassInstaller` | 9 | Exported Function
+`DiskPropPageProvider` | 8 | Exported Function
+`DiskClassInstaller` | 7 | Exported Function
+`HdcCoInstaller` | 12 | Exported Function
+`DvdPropPageProvider` | 11 | Exported Function
+`DvdLauncher` | 10 | Exported Function
+`CdromEnableDigitalPlayback` | 3 | Exported Function
+`CdromDisableDigitalPlayback` | 2 | Exported Function
+`AtaPropPageProvider` | 1 | Exported Function
+`CdromSetDefaultDvdRegion` | 6 | Exported Function
+`CdromKnownGoodDigitalPlayback` | 5 | Exported Function
+`CdromIsDigitalPlaybackEnabled` | 4 | Exported Function
 
 
 ## Signature

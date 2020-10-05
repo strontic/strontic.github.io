@@ -24,11 +24,10 @@ PE256 | `29F07F61A82266E0A35922168354487C9AEF0CBF53A9C424D401351373BF9DB8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x00000001800037b0 | 0x000037b0
-`DrvPopulateFilterServices` | 3 (0x3) | Exported Function | 0x00000001800034f0 | 0x000034f0
-`Ordinal1` | 1 (0x1) | Exported Function | 0x00000001800032b0 | 0x000032b0
+Function Name | Ordinal | Type
+-- | -- | --
+`DrvPopulateFilterServices` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

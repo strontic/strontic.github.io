@@ -24,13 +24,13 @@ PE256 | `23EB439ECD06F997801654CA2877E8E839727BF66F80B5EE844645C353C37DDA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConfigureUserArso` | 1 (0x1) | Exported Function | 0x0000000180001040 | 0x00001040
-`EnableDisableElevationForSessionWorker` | 2 (0x2) | Exported Function | 0x0000000180001010 | 0x00001010
-`NotifyInteractiveSessionLogoff` | 3 (0x3) | Exported Function | 0x0000000180001030 | 0x00001030
-`UpdateUserTokenSessionId` | 4 (0x4) | Exported Function | 0x0000000180001050 | 0x00001050
-`WinLogonExt` | 5 (0x5) | Exported Function | 0x0000000180001060 | 0x00001060
+Function Name | Ordinal | Type
+-- | -- | --
+`UpdateUserTokenSessionId` | 4 | Exported Function
+`WinLogonExt` | 5 | Exported Function
+`NotifyInteractiveSessionLogoff` | 3 | Exported Function
+`ConfigureUserArso` | 1 | Exported Function
+`EnableDisableElevationForSessionWorker` | 2 | Exported Function
 
 
 ## Signature

@@ -24,20 +24,20 @@ PE256 | `5F47BC348FBF69A50511A4154948AD8B6428EA860800D49E8DF61DEB6C321194`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NPAddConnection` | 1 (0x1) | Exported Function | 0x0000000180002fb0 | 0x00002fb0
-`NPAddConnection3` | 2 (0x2) | Exported Function | 0x0000000180001140 | 0x00001140
-`NPCancelConnection` | 3 (0x3) | Exported Function | 0x0000000180001470 | 0x00001470
-`NPCloseEnum` | 4 (0x4) | Exported Function | 0x0000000180002fe0 | 0x00002fe0
-`NPEnumResource` | 5 (0x5) | Exported Function | 0x0000000180003070 | 0x00003070
-`NPGetCaps` | 6 (0x6) | Exported Function | 0x0000000180001010 | 0x00001010
-`NPGetConnection` | 7 (0x7) | Exported Function | 0x00000001800030f0 | 0x000030f0
-`NPGetConnectionPerformance` | 49 (0x31) | Exported Function | 0x00000001800032f0 | 0x000032f0
-`NPGetResourceInformation` | 8 (0x8) | Exported Function | 0x0000000180003330 | 0x00003330
-`NPGetResourceParent` | 9 (0x9) | Exported Function | 0x0000000180003830 | 0x00003830
-`NPGetUniversalName` | 10 (0xa) | Exported Function | 0x0000000180003ae0 | 0x00003ae0
-`NPOpenEnum` | 12 (0xc) | Exported Function | 0x0000000180001090 | 0x00001090
+Function Name | Ordinal | Type
+-- | -- | --
+`NPGetResourceInformation` | 8 | Exported Function
+`NPGetConnectionPerformance` | 49 | Exported Function
+`NPGetConnection` | 7 | Exported Function
+`NPOpenEnum` | 12 | Exported Function
+`NPGetUniversalName` | 10 | Exported Function
+`NPGetResourceParent` | 9 | Exported Function
+`NPCancelConnection` | 3 | Exported Function
+`NPAddConnection3` | 2 | Exported Function
+`NPAddConnection` | 1 | Exported Function
+`NPGetCaps` | 6 | Exported Function
+`NPEnumResource` | 5 | Exported Function
+`NPCloseEnum` | 4 | Exported Function
 
 
 ## Signature

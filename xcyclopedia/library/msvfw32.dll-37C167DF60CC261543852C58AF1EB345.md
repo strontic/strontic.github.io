@@ -24,55 +24,55 @@ PE256 | `B2298B33E6C981378FE6A5B3403D9FB2B4244ECEDE586D5C40AACF7DC55EAF3D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DrawDibBegin` | 3 (0x3) | Exported Function | 0x1c102bb0 | 0x00002bb0
-`ICDrawBegin` | 28 (0x1c) | Exported Function | 0x1c102930 | 0x00002930
-`ICGetDisplayFormat` | 29 (0x1d) | Exported Function | 0x1c105ce0 | 0x00005ce0
-`ICGetInfo` | 30 (0x1e) | Exported Function | 0x1c105b90 | 0x00005b90
-`ICImageCompress` | 31 (0x1f) | Exported Function | 0x1c106c90 | 0x00006c90
-`ICImageDecompress` | 32 (0x20) | Exported Function | 0x1c106f20 | 0x00006f20
-`ICInfo` | 33 (0x21) | Exported Function | 0x1c103ef0 | 0x00003ef0
-`ICInstall` | 34 (0x22) | Exported Function | 0x1c105730 | 0x00005730
-`ICLocate` | 35 (0x23) | Exported Function | 0x1c104510 | 0x00004510
-`ICMThunk32` | 36 (0x24) | Exported Function | 0x1c1096e0 | 0x000096e0
-`ICDraw` | 27 (0x1b) | Exported Function | 0x1c101d00 | 0x00001d00
-`ICOpen` | 37 (0x25) | Exported Function | 0x1c104220 | 0x00004220
-`ICRemove` | 39 (0x27) | Exported Function | 0x1c105920 | 0x00005920
-`ICSendMessage` | 40 (0x28) | Exported Function | 0x1c101c90 | 0x00001c90
-`ICSeqCompressFrame` | 41 (0x29) | Exported Function | 0x1c106ba0 | 0x00006ba0
-`ICSeqCompressFrameEnd` | 42 (0x2a) | Exported Function | 0x1c106af0 | 0x00006af0
-`ICSeqCompressFrameStart` | 43 (0x2b) | Exported Function | 0x1c1068a0 | 0x000068a0
-`MCIWndCreate` | 44 (0x2c) | Exported Function | 0x1c10dba0 | 0x0000dba0
-`MCIWndCreateA` | 45 (0x2d) | Exported Function | 0x1c10dba0 | 0x0000dba0
-`MCIWndCreateW` | 46 (0x2e) | Exported Function | 0x1c10dae0 | 0x0000dae0
-`MCIWndRegisterClass` | 47 (0x2f) | Exported Function | 0x1c10da40 | 0x0000da40
-`ICOpenFunction` | 38 (0x26) | Exported Function | 0x1c104980 | 0x00004980
-`StretchDIB` | 48 (0x30) | Exported Function | 0x1c10b2b0 | 0x0000b2b0
-`ICDecompress` | 26 (0x1a) | Exported Function | 0x1c105c90 | 0x00005c90
-`ICCompressorChoose` | 24 (0x18) | Exported Function | 0x1c107180 | 0x00007180
-`DrawDibChangePalette` | 4 (0x4) | Exported Function | 0x1c10a170 | 0x0000a170
-`DrawDibClose` | 5 (0x5) | Exported Function | 0x1c109db0 | 0x00009db0
-`DrawDibDraw` | 6 (0x6) | Exported Function | 0x1c101d40 | 0x00001d40
-`DrawDibEnd` | 7 (0x7) | Exported Function | 0x1c10a120 | 0x0000a120
-`DrawDibGetBuffer` | 8 (0x8) | Exported Function | 0x1c10a460 | 0x0000a460
-`DrawDibGetPalette` | 9 (0x9) | Exported Function | 0x1c103ea0 | 0x00003ea0
-`DrawDibOpen` | 10 (0xa) | Exported Function | 0x1c104bc0 | 0x00004bc0
-`DrawDibProfileDisplay` | 11 (0xb) | Exported Function | 0x1c104c80 | 0x00004c80
-`DrawDibRealize` | 12 (0xc) | Exported Function | 0x1c102af0 | 0x00002af0
-`ICCompressorFree` | 25 (0x19) | Exported Function | 0x1c1067c0 | 0x000067c0
-`DrawDibSetPalette` | 13 (0xd) | Exported Function | 0x1c1029b0 | 0x000029b0
-`DrawDibStop` | 15 (0xf) | Exported Function | 0x1c103e50 | 0x00003e50
-`DrawDibTime` | 16 (0x10) | Exported Function | 0x1c10a160 | 0x0000a160
-`GetOpenFileNamePreview` | 17 (0x11) | Exported Function | 0x1c10d710 | 0x0000d710
-`GetOpenFileNamePreviewA` | 18 (0x12) | Exported Function | 0x1c10d710 | 0x0000d710
-`GetOpenFileNamePreviewW` | 19 (0x13) | Exported Function | 0x1c10d6d0 | 0x0000d6d0
-`GetSaveFileNamePreviewA` | 20 (0x14) | Exported Function | 0x1c10d730 | 0x0000d730
-`GetSaveFileNamePreviewW` | 21 (0x15) | Exported Function | 0x1c10d6f0 | 0x0000d6f0
-`ICClose` | 22 (0x16) | Exported Function | 0x1c104400 | 0x00004400
-`ICCompress` | 23 (0x17) | Exported Function | 0x1c105c20 | 0x00005c20
-`DrawDibStart` | 14 (0xe) | Exported Function | 0x1c103e00 | 0x00003e00
-`VideoForWindowsVersion` | 2 (0x2) | Exported Function | 0x1c104f30 | 0x00004f30
+Function Name | Ordinal | Type
+-- | -- | --
+`ICInstall` | 34 | Exported Function
+`ICInfo` | 33 | Exported Function
+`ICLocate` | 35 | Exported Function
+`ICOpen` | 37 | Exported Function
+`ICMThunk32` | 36 | Exported Function
+`ICImageDecompress` | 32 | Exported Function
+`ICDrawBegin` | 28 | Exported Function
+`ICDraw` | 27 | Exported Function
+`ICGetDisplayFormat` | 29 | Exported Function
+`ICImageCompress` | 31 | Exported Function
+`ICGetInfo` | 30 | Exported Function
+`ICOpenFunction` | 38 | Exported Function
+`MCIWndCreateW` | 46 | Exported Function
+`MCIWndCreateA` | 45 | Exported Function
+`MCIWndRegisterClass` | 47 | Exported Function
+`VideoForWindowsVersion` | 2 | Exported Function
+`StretchDIB` | 48 | Exported Function
+`MCIWndCreate` | 44 | Exported Function
+`ICSendMessage` | 40 | Exported Function
+`ICRemove` | 39 | Exported Function
+`ICSeqCompressFrame` | 41 | Exported Function
+`ICSeqCompressFrameStart` | 43 | Exported Function
+`ICSeqCompressFrameEnd` | 42 | Exported Function
+`ICDecompress` | 26 | Exported Function
+`DrawDibOpen` | 10 | Exported Function
+`DrawDibGetPalette` | 9 | Exported Function
+`DrawDibProfileDisplay` | 11 | Exported Function
+`DrawDibSetPalette` | 13 | Exported Function
+`DrawDibRealize` | 12 | Exported Function
+`DrawDibGetBuffer` | 8 | Exported Function
+`DrawDibChangePalette` | 4 | Exported Function
+`DrawDibBegin` | 3 | Exported Function
+`DrawDibClose` | 5 | Exported Function
+`DrawDibEnd` | 7 | Exported Function
+`DrawDibDraw` | 6 | Exported Function
+`DrawDibStart` | 14 | Exported Function
+`ICClose` | 22 | Exported Function
+`GetSaveFileNamePreviewW` | 21 | Exported Function
+`ICCompress` | 23 | Exported Function
+`ICCompressorFree` | 25 | Exported Function
+`ICCompressorChoose` | 24 | Exported Function
+`GetSaveFileNamePreviewA` | 20 | Exported Function
+`DrawDibTime` | 16 | Exported Function
+`DrawDibStop` | 15 | Exported Function
+`GetOpenFileNamePreview` | 17 | Exported Function
+`GetOpenFileNamePreviewW` | 19 | Exported Function
+`GetOpenFileNamePreviewA` | 18 | Exported Function
 
 
 ## Signature

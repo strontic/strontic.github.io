@@ -24,9 +24,9 @@ PE256 | `C7F11016753D4B5C1628C6A787BACCA379CC4846A7865127B120FCC7155C99E1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateCommandingEngine` | 1 (0x1) | Exported Function | 0x10008990 | 0x00008990
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateCommandingEngine` | 1 | Exported Function
 
 
 ## Signature

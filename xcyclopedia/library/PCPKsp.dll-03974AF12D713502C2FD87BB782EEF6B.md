@@ -24,12 +24,12 @@ PE256 | `B065137AFFD42D0019267E209C41759084A3A49647557FC95FB4A07B263026D6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllInstall` | 1 (0x1) | Exported Function | 0x0000000180035740 | 0x00035740
-`DllMain` | 3 (0x3) | Exported Function | 0x000000018002a240 | 0x0002a240
-`DllUnregisterServer` | 2 (0x2) | Exported Function | 0x00000001800357b0 | 0x000357b0
-`GetKeyStorageInterface` | 4 (0x4) | Exported Function | 0x0000000180022370 | 0x00022370
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 2 | Exported Function
+`GetKeyStorageInterface` | 4 | Exported Function
+`DllInstall` | 1 | Exported Function
+`DllMain` | 3 | Exported Function
 
 
 ## Signature

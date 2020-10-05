@@ -24,22 +24,22 @@ PE256 | `CF2E7B907ECA853B66DF9DB5F0AFA7B52D7CBA32EBC4DA0128471EBA12FC5B89`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TTCharToUnicode` | 1 (0x1) | Exported Function | 0x00000001484a2bc0 | 0x00002bc0
-`TTDeleteEmbeddedFont` | 2 (0x2) | Exported Function | 0x00000001484a2900 | 0x00002900
-`TTEmbedFont` | 3 (0x3) | Exported Function | 0x00000001484a1f00 | 0x00001f00
-`TTEmbedFontEx` | 4 (0x4) | Exported Function | 0x00000001484a3c30 | 0x00003c30
-`TTEmbedFontFromFileA` | 5 (0x5) | Exported Function | 0x00000001484a2040 | 0x00002040
-`TTEnableEmbeddingForFacename` | 6 (0x6) | Exported Function | 0x00000001484a2e40 | 0x00002e40
-`TTGetEmbeddedFontInfo` | 7 (0x7) | Exported Function | 0x00000001484a2800 | 0x00002800
-`TTGetEmbeddingType` | 8 (0x8) | Exported Function | 0x00000001484a2b00 | 0x00002b00
-`TTGetNewFontName` | 9 (0x9) | Exported Function | 0x00000001484a4010 | 0x00004010
-`TTIsEmbeddingEnabled` | 10 (0xa) | Exported Function | 0x00000001484a2d30 | 0x00002d30
-`TTIsEmbeddingEnabledForFacename` | 11 (0xb) | Exported Function | 0x00000001484a2de0 | 0x00002de0
-`TTLoadEmbeddedFont` | 12 (0xc) | Exported Function | 0x00000001484a2440 | 0x00002440
-`TTRunValidationTests` | 13 (0xd) | Exported Function | 0x00000001484a2d20 | 0x00002d20
-`TTRunValidationTestsEx` | 14 (0xe) | Exported Function | 0x00000001484a2d20 | 0x00002d20
+Function Name | Ordinal | Type
+-- | -- | --
+`TTIsEmbeddingEnabled` | 10 | Exported Function
+`TTGetNewFontName` | 9 | Exported Function
+`TTGetEmbeddingType` | 8 | Exported Function
+`TTIsEmbeddingEnabledForFacename` | 11 | Exported Function
+`TTRunValidationTestsEx` | 14 | Exported Function
+`TTRunValidationTests` | 13 | Exported Function
+`TTLoadEmbeddedFont` | 12 | Exported Function
+`TTEmbedFont` | 3 | Exported Function
+`TTDeleteEmbeddedFont` | 2 | Exported Function
+`TTCharToUnicode` | 1 | Exported Function
+`TTEmbedFontEx` | 4 | Exported Function
+`TTGetEmbeddedFontInfo` | 7 | Exported Function
+`TTEnableEmbeddingForFacename` | 6 | Exported Function
+`TTEmbedFontFromFileA` | 5 | Exported Function
 
 
 ## Signature

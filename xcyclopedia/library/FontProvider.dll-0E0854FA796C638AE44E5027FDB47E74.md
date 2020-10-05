@@ -24,9 +24,9 @@ PE256 | `AA9B00EBFA313D761140A80DE969538C9D774AAA49D9E5A340206F0D0DF38306`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateFontDownloadManager` | 1 (0x1) | Exported Function | 0x0000000180001ff0 | 0x00001ff0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateFontDownloadManager` | 1 | Exported Function
 
 
 ## Signature

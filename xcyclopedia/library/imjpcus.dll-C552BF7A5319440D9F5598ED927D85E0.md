@@ -24,10 +24,10 @@ PE256 | `8C4079D4E25C5BB04F0A71F7EB1E4E67AA5304022404505EF0AF0A0084DF34C9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 2 (0x2) | Exported Function | 0x000000018000b190 | 0x0000b190
-`OpenDetailDialog` | 1 (0x1) | Exported Function | 0x000000018000b1b0 | 0x0000b1b0
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenDetailDialog` | 1 | Exported Function
+`DllMain` | 2 | Exported Function
 
 
 ## Signature

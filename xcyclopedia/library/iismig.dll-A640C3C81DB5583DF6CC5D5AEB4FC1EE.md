@@ -24,14 +24,14 @@ PE256 | `3D4FB43F0D1AFCCC85F67BAFAFADF74C0B3050212B33D5272FE982E6985F4CEB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x00000001800022e0 | 0x000022e0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180002200 | 0x00002200
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x00000001800021c0 | 0x000021c0
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x00000001800021e0 | 0x000021e0
-`TriggerApply` | 1 (0x1) | Exported Function | 0x0000000180002350 | 0x00002350
-`TriggerGather` | 2 (0x2) | Exported Function | 0x00000001800022f0 | 0x000022f0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 6 | Exported Function
+`TriggerApply` | 1 | Exported Function
+`TriggerGather` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
 
 
 ## Signature

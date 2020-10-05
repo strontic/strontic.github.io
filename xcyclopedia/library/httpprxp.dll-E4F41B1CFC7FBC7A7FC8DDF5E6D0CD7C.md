@@ -24,16 +24,16 @@ PE256 | `199CD2D577C086AE2375113CA4C7039E1818FAFA9634C6656FB2CE35C28483E1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ProxyHelperGetProxyEventInformation` | 1 (0x1) | Exported Function | 0x0000000180001970 | 0x00001970
-`ProxyHelperProviderConnectToServer` | 2 (0x2) | Exported Function | 0x0000000180001e60 | 0x00001e60
-`ProxyHelperProviderDisconnectFromServer` | 3 (0x3) | Exported Function | 0x0000000180001f40 | 0x00001f40
-`ProxyHelperProviderFreeMemory` | 4 (0x4) | Exported Function | 0x0000000180001110 | 0x00001110
-`ProxyHelperProviderRegisterForEventNotification` | 5 (0x5) | Exported Function | 0x0000000180001270 | 0x00001270
-`ProxyHelperProviderSetProxyConfiguration` | 6 (0x6) | Exported Function | 0x0000000180001be0 | 0x00001be0
-`ProxyHelperProviderSetProxyCredentials` | 7 (0x7) | Exported Function | 0x0000000180001ce0 | 0x00001ce0
-`ProxyHelperProviderUnregisterEventNotification` | 8 (0x8) | Exported Function | 0x00000001800016d0 | 0x000016d0
+Function Name | Ordinal | Type
+-- | -- | --
+`ProxyHelperProviderSetProxyConfiguration` | 6 | Exported Function
+`ProxyHelperProviderRegisterForEventNotification` | 5 | Exported Function
+`ProxyHelperProviderUnregisterEventNotification` | 8 | Exported Function
+`ProxyHelperProviderSetProxyCredentials` | 7 | Exported Function
+`ProxyHelperProviderConnectToServer` | 2 | Exported Function
+`ProxyHelperGetProxyEventInformation` | 1 | Exported Function
+`ProxyHelperProviderFreeMemory` | 4 | Exported Function
+`ProxyHelperProviderDisconnectFromServer` | 3 | Exported Function
 
 
 ## Signature

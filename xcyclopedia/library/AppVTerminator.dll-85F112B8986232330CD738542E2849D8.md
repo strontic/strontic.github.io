@@ -24,9 +24,9 @@ PE256 | `D7884874A1BEB9421838955B61BE8121BD7D8FAE33E11ACD68FEB9B07CD45D3C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IllBeBack` | 1 (0x1) | Exported Function | 0x10001480 | 0x00001480
+Function Name | Ordinal | Type
+-- | -- | --
+`IllBeBack` | 1 | Exported Function
 
 
 ## Signature

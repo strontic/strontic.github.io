@@ -24,32 +24,32 @@ PE256 | `56CCD15A60A70DE9496CAB68A25A18031FBC0C6CFBB88D39E9BB2715F5BE3DCC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DsrGetDcNameEx2` | 1 (0x1) | Exported Function | 0x00000001800145c0 | 0x000145c0
-`NetIGetEncTypes` | 22 (0x16) | Exported Function | 0x0000000180025df0 | 0x00025df0
-`InitSecurityInterfaceW` | 21 (0x15) | Exported Function | 0x0000000180027b80 | 0x00027b80
-`I_NetNotifyTrustedDomain` | 20 (0x14) | Exported Function | 0x0000000180047530 | 0x00047530
-`I_NetNotifyRole` | 19 (0x13) | Exported Function | 0x0000000180005780 | 0x00005780
-`I_NetNotifyNtdsDsaDeletion` | 18 (0x12) | Exported Function | 0x0000000180047480 | 0x00047480
-`I_NetNotifyNetlogonDllHandle` | 17 (0x11) | Exported Function | 0x0000000180047410 | 0x00047410
-`I_NetNotifyMachineAccount` | 16 (0x10) | Exported Function | 0x0000000180008a10 | 0x00008a10
-`I_NetNotifyDsChange` | 15 (0xf) | Exported Function | 0x00000001800472e0 | 0x000472e0
-`I_NetNotifyDelta` | 14 (0xe) | Exported Function | 0x00000001800472c0 | 0x000472c0
-`I_NetLogonSetServiceBits` | 13 (0xd) | Exported Function | 0x0000000180006c40 | 0x00006c40
-`I_NetLogonSendToSamOnDc` | 12 (0xc) | Exported Function | 0x000000018004e900 | 0x0004e900
-`I_NetLogonReadChangeLog` | 11 (0xb) | Exported Function | 0x0000000180047c20 | 0x00047c20
-`I_NetLogonNewChangeLog` | 10 (0xa) | Exported Function | 0x0000000180047bd0 | 0x00047bd0
-`I_NetLogonMixedDomain` | 9 (0x9) | Exported Function | 0x0000000180064c90 | 0x00064c90
-`I_NetLogonLdapLookupEx` | 8 (0x8) | Exported Function | 0x000000018001b500 | 0x0001b500
-`I_NetLogonGetSerialNumber` | 7 (0x7) | Exported Function | 0x0000000180027550 | 0x00027550
-`I_NetLogonGetAuthDataEx` | 6 (0x6) | Exported Function | 0x000000018004e540 | 0x0004e540
-`I_NetLogonFree` | 5 (0x5) | Exported Function | 0x0000000180025d10 | 0x00025d10
-`I_NetLogonCloseChangeLog` | 4 (0x4) | Exported Function | 0x0000000180047b80 | 0x00047b80
-`I_NetLogonAppendChangeLog` | 3 (0x3) | Exported Function | 0x0000000180047b40 | 0x00047b40
-`I_NetLogonAddressToSiteName` | 2 (0x2) | Exported Function | 0x0000000180059360 | 0x00059360
-`NetILogonSamLogon` | 23 (0x17) | Exported Function | 0x0000000180012bb0 | 0x00012bb0
-`NlNetlogonMain` | 24 (0x18) | Exported Function | 0x0000000180023fb0 | 0x00023fb0
+Function Name | Ordinal | Type
+-- | -- | --
+`I_NetNotifyMachineAccount` | 16 | Exported Function
+`I_NetNotifyNetlogonDllHandle` | 17 | Exported Function
+`I_NetNotifyNtdsDsaDeletion` | 18 | Exported Function
+`I_NetLogonSetServiceBits` | 13 | Exported Function
+`I_NetNotifyDelta` | 14 | Exported Function
+`I_NetNotifyDsChange` | 15 | Exported Function
+`NetIGetEncTypes` | 22 | Exported Function
+`NetILogonSamLogon` | 23 | Exported Function
+`NlNetlogonMain` | 24 | Exported Function
+`I_NetNotifyRole` | 19 | Exported Function
+`I_NetNotifyTrustedDomain` | 20 | Exported Function
+`InitSecurityInterfaceW` | 21 | Exported Function
+`I_NetLogonCloseChangeLog` | 4 | Exported Function
+`I_NetLogonFree` | 5 | Exported Function
+`I_NetLogonGetAuthDataEx` | 6 | Exported Function
+`DsrGetDcNameEx2` | 1 | Exported Function
+`I_NetLogonAddressToSiteName` | 2 | Exported Function
+`I_NetLogonAppendChangeLog` | 3 | Exported Function
+`I_NetLogonNewChangeLog` | 10 | Exported Function
+`I_NetLogonReadChangeLog` | 11 | Exported Function
+`I_NetLogonSendToSamOnDc` | 12 | Exported Function
+`I_NetLogonGetSerialNumber` | 7 | Exported Function
+`I_NetLogonLdapLookupEx` | 8 | Exported Function
+`I_NetLogonMixedDomain` | 9 | Exported Function
 
 
 ## Signature

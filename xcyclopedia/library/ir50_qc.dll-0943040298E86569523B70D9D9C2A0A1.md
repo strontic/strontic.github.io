@@ -24,18 +24,18 @@ PE256 | `3F5503B823874E2E2024A50F5669B27EC9121E85FB4B3276C9014BB25E356082`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AllocInstanceData` | 2 (0x2) | Exported Function | ir50_qcoriginal.AllocInstanceData | 0x00001ec8
-`Compress` | 3 (0x3) | Exported Function | ir50_qcoriginal.Compress | 0x00001ef3
-`CompressBegin` | 1 (0x1) | Exported Function | 0x100013b0 | 0x000013b0
-`CompressEnd` | 4 (0x4) | Exported Function | ir50_qcoriginal.CompressEnd | 0x00001f18
-`CompressFramesInfo` | 5 (0x5) | Exported Function | ir50_qcoriginal.CompressFramesInfo | 0x00001f47
-`CompressQuery` | 6 (0x6) | Exported Function | ir50_qcoriginal.CompressQuery | 0x00001f78
-`DllMain` | 7 (0x7) | Exported Function | ir50_qcoriginal.DllMain | 0x00001f9e
-`FreeInstanceData` | 8 (0x8) | Exported Function | ir50_qcoriginal.FreeInstanceData | 0x00001fc7
-`SetCPUID` | 9 (0x9) | Exported Function | ir50_qcoriginal.SetCPUID | 0x00001ff1
-`SetScalability` | 10 (0xa) | Exported Function | ir50_qcoriginal.SetScalability | 0x00002019
+Function Name | Ordinal | Type
+-- | -- | --
+`DllMain` | 7 | Exported Function
+`CompressQuery` | 6 | Exported Function
+`FreeInstanceData` | 8 | Exported Function
+`SetScalability` | 10 | Exported Function
+`SetCPUID` | 9 | Exported Function
+`Compress` | 3 | Exported Function
+`AllocInstanceData` | 2 | Exported Function
+`CompressBegin` | 1 | Exported Function
+`CompressFramesInfo` | 5 | Exported Function
+`CompressEnd` | 4 | Exported Function
 
 
 ## Signature

@@ -24,21 +24,21 @@ PE256 | `E00A996BE0FB1033C28B3EE9442CFA6082D25CAF578916E7FDD4C43A58090177`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EdpAuditHarden` | 2 (0x2) | Exported Function | 0x0000000180003e10 | 0x00003e10
-`EdpAuditLogApplicationGenerated` | 3 (0x3) | Exported Function | 0x0000000180012890 | 0x00012890
-`EdpAuditLogApplicationLearning` | 4 (0x4) | Exported Function | 0x0000000180012a90 | 0x00012a90
-`EdpAuditLogDataCopied` | 5 (0x5) | Exported Function | 0x00000001800126b0 | 0x000126b0
-`EdpAuditLoggerRegister` | 8 (0x8) | Exported Function | 0x0000000180013050 | 0x00013050
-`EdpAuditLoggerUnregister` | 9 (0x9) | Exported Function | 0x0000000180013070 | 0x00013070
-`EdpAuditLogProtectionRemoved` | 6 (0x6) | Exported Function | 0x0000000180012ea0 | 0x00012ea0
-`EdpAuditLogSiteLearning` | 7 (0x7) | Exported Function | 0x0000000180012d30 | 0x00012d30
-`EdpAuditRead` | 10 (0xa) | Exported Function | 0x0000000180003eb0 | 0x00003eb0
-`EdpFlushTraces` | 1 (0x1) | Exported Function | 0x0000000180004560 | 0x00004560
-`EdpGetLogFullPathFromRelativePath` | 11 (0xb) | Exported Function | 0x0000000180003f80 | 0x00003f80
-`ReadAuditLogByCount` | 12 (0xc) | Exported Function | 0x00000001800052e0 | 0x000052e0
-`ReadAuditLogByTimeRange` | 13 (0xd) | Exported Function | 0x0000000180005190 | 0x00005190
+Function Name | Ordinal | Type
+-- | -- | --
+`EdpFlushTraces` | 1 | Exported Function
+`EdpAuditRead` | 10 | Exported Function
+`EdpAuditLogSiteLearning` | 7 | Exported Function
+`ReadAuditLogByTimeRange` | 13 | Exported Function
+`ReadAuditLogByCount` | 12 | Exported Function
+`EdpGetLogFullPathFromRelativePath` | 11 | Exported Function
+`EdpAuditLogProtectionRemoved` | 6 | Exported Function
+`EdpAuditLogApplicationLearning` | 4 | Exported Function
+`EdpAuditLogApplicationGenerated` | 3 | Exported Function
+`EdpAuditHarden` | 2 | Exported Function
+`EdpAuditLoggerUnregister` | 9 | Exported Function
+`EdpAuditLoggerRegister` | 8 | Exported Function
+`EdpAuditLogDataCopied` | 5 | Exported Function
 
 
 ## Signature

@@ -24,59 +24,59 @@ PE256 | `0A495A5A5B35A63AD473E290561FF20C2665F381D87384EDC5776F4C1F3D14EB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddLookaside` | 1 (0x1) | Exported Function | 0x10015c60 | 0x00015c60
-`FreeDesktopAppXLaunchContext` | 28 (0x1c) | Exported Function | 0x1001af80 | 0x0001af80
-`GetAppExecutionAliasApplicationUserModelId` | 29 (0x1d) | Exported Function | 0x1001cea0 | 0x0001cea0
-`GetAppExecutionAliasExecutable` | 30 (0x1e) | Exported Function | 0x1001cea0 | 0x0001cea0
-`GetAppExecutionAliasPackageFamilyName` | 31 (0x1f) | Exported Function | 0x1001cea0 | 0x0001cea0
-`GetAppExecutionAliasPackageFullName` | 32 (0x20) | Exported Function | 0x1001cea0 | 0x0001cea0
-`GetApplicationExecutableRelativePath` | 33 (0x21) | Exported Function | 0x1002ac90 | 0x0002ac90
-`GetDesktopAppXComRootHandle` | 34 (0x22) | Exported Function | 0x1002c150 | 0x0002c150
-`LeavePackageVirtualizationContext` | 35 (0x23) | Exported Function | 0x10045500 | 0x00045500
-`LoadAppExecutionAliasInfo` | 36 (0x24) | Exported Function | 0x1001cea0 | 0x0001cea0
-`MigrateWritablePackageRootData` | 37 (0x25) | Exported Function | 0x10022540 | 0x00022540
-`FreeDesktopAppXActivationInfo` | 27 (0x1b) | Exported Function | 0x1001d560 | 0x0001d560
-`OpenAppExecutionAlias` | 38 (0x26) | Exported Function | 0x1001ce90 | 0x0001ce90
-`PerformAppxLicenseRundown` | 40 (0x28) | Exported Function | 0x1001b170 | 0x0001b170
-`PersistAppExecutionAliasToFile` | 41 (0x29) | Exported Function | 0x1001ce90 | 0x0001ce90
-`PostCreateProcessDesktopAppXActivation` | 42 (0x2a) | Exported Function | 0x1001aca0 | 0x0001aca0
-`PrepareDesktopAppXActivation` | 43 (0x2b) | Exported Function | 0x1001a530 | 0x0001a530
-`RegisterDesktopAppXPackageFamily` | 44 (0x2c) | Exported Function | 0x1002a190 | 0x0002a190
-`RegisterDesktopAppXPackageFamilyIfNecessary` | 45 (0x2d) | Exported Function | 0x1002a3d0 | 0x0002a3d0
-`RemoveDesktopAppXMetadataForFolder` | 46 (0x2e) | Exported Function | 0x10022180 | 0x00022180
-`RemoveLookaside` | 47 (0x2f) | Exported Function | 0x10015cc0 | 0x00015cc0
-`SetDesktopAppXMetadataForFolder` | 48 (0x30) | Exported Function | 0x10022030 | 0x00022030
-`SetDesktopAppXMetadataForPackage` | 49 (0x31) | Exported Function | 0x10021fe0 | 0x00021fe0
-`OpenAppExecutionAliasForUser` | 39 (0x27) | Exported Function | 0x1001cea0 | 0x0001cea0
-`TryActivateDesktopAppXApplication` | 50 (0x32) | Exported Function | 0x10045cf0 | 0x00045cf0
-`FreeAppExecutionAliasInfoWithLicenseRundown` | 26 (0x1a) | Exported Function | 0x1001ced0 | 0x0001ced0
-`EnterPackageVirtualizationContext` | 24 (0x18) | Exported Function | 0x10045440 | 0x00045440
-`AddProcessToHeliumContainer` | 2 (0x2) | Exported Function | 0x1001b2d0 | 0x0001b2d0
-`CheckApplicationInCurrentPackage` | 4 (0x4) | Exported Function | 0x1001b1d0 | 0x0001b1d0
-`CheckAppXPackageBreakaway` | 3 (0x3) | Exported Function | 0x1001afa0 | 0x0001afa0
-`CloseAppExecutionAlias` | 5 (0x5) | Exported Function | 0x1001cec0 | 0x0001cec0
-`CloseJitvSilo` | 6 (0x6) | Exported Function | 0x10045180 | 0x00045180
-`CompleteAppExecutionAliasProcessCreation` | 7 (0x7) | Exported Function | 0x1001b0a0 | 0x0001b0a0
-`CreateAppExecutionAlias` | 8 (0x8) | Exported Function | 0x1001ceb0 | 0x0001ceb0
-`CreateDesktopAppXActivationInfo` | 9 (0x9) | Exported Function | 0x1001d4b0 | 0x0001d4b0
-`CreateDesktopAppXLocalCacheStructure` | 10 (0xa) | Exported Function | 0x100221f0 | 0x000221f0
-`CreateDesktopAppXTombstoneFile` | 11 (0xb) | Exported Function | 0x10022200 | 0x00022200
-`FreeAppExecutionAliasInfo` | 25 (0x19) | Exported Function | 0x1001cec0 | 0x0001cec0
-`CreateJitvSilo` | 12 (0xc) | Exported Function | 0x100450c0 | 0x000450c0
-`DetokenizeDesktopAppXOfflineRegistry` | 14 (0xe) | Exported Function | 0x100278f0 | 0x000278f0
-`DisableDesktopAppXDebuggingForPackage` | 15 (0xf) | Exported Function | 0x10046d40 | 0x00046d40
-`DllCanUnloadNow` | 16 (0x10) | Exported Function | 0x10013bd0 | 0x00013bd0
-`DllGetActivationFactory` | 17 (0x11) | Exported Function | 0x10013bb0 | 0x00013bb0
-`DllGetClassObject` | 18 (0x12) | Exported Function | 0x10013b60 | 0x00013b60
-`DoesPackageHaveElevationCapability` | 19 (0x13) | Exported Function | 0x1002b090 | 0x0002b090
-`DoesPackageHaveUIAccessCapability` | 20 (0x14) | Exported Function | 0x1002b0b0 | 0x0002b0b0
-`DoesPluginSupportCentennial` | 21 (0x15) | Exported Function | 0x100462a0 | 0x000462a0
-`EnableDesktopAppXDebuggingForPackage` | 22 (0x16) | Exported Function | 0x10046c40 | 0x00046c40
-`EnsureDesktopAppXPackageShutdown` | 23 (0x17) | Exported Function | 0x1001b0b0 | 0x0001b0b0
-`CurrentThreadIsInVirtualizationContext` | 13 (0xd) | Exported Function | 0x10045590 | 0x00045590
-`VerifyFileIsTrustedAndInPackage` | 51 (0x33) | Exported Function | 0x1001b2e0 | 0x0001b2e0
+Function Name | Ordinal | Type
+-- | -- | --
+`LeavePackageVirtualizationContext` | 35 | Exported Function
+`GetDesktopAppXComRootHandle` | 34 | Exported Function
+`GetApplicationExecutableRelativePath` | 33 | Exported Function
+`OpenAppExecutionAlias` | 38 | Exported Function
+`MigrateWritablePackageRootData` | 37 | Exported Function
+`LoadAppExecutionAliasInfo` | 36 | Exported Function
+`GetAppExecutionAliasApplicationUserModelId` | 29 | Exported Function
+`FreeDesktopAppXLaunchContext` | 28 | Exported Function
+`FreeDesktopAppXActivationInfo` | 27 | Exported Function
+`GetAppExecutionAliasPackageFullName` | 32 | Exported Function
+`GetAppExecutionAliasPackageFamilyName` | 31 | Exported Function
+`GetAppExecutionAliasExecutable` | 30 | Exported Function
+`OpenAppExecutionAliasForUser` | 39 | Exported Function
+`SetDesktopAppXMetadataForFolder` | 48 | Exported Function
+`RemoveLookaside` | 47 | Exported Function
+`RemoveDesktopAppXMetadataForFolder` | 46 | Exported Function
+`VerifyFileIsTrustedAndInPackage` | 51 | Exported Function
+`TryActivateDesktopAppXApplication` | 50 | Exported Function
+`SetDesktopAppXMetadataForPackage` | 49 | Exported Function
+`PostCreateProcessDesktopAppXActivation` | 42 | Exported Function
+`PersistAppExecutionAliasToFile` | 41 | Exported Function
+`PerformAppxLicenseRundown` | 40 | Exported Function
+`RegisterDesktopAppXPackageFamilyIfNecessary` | 45 | Exported Function
+`RegisterDesktopAppXPackageFamily` | 44 | Exported Function
+`PrepareDesktopAppXActivation` | 43 | Exported Function
+`FreeAppExecutionAliasInfoWithLicenseRundown` | 26 | Exported Function
+`CreateDesktopAppXActivationInfo` | 9 | Exported Function
+`CreateAppExecutionAlias` | 8 | Exported Function
+`CompleteAppExecutionAliasProcessCreation` | 7 | Exported Function
+`CreateJitvSilo` | 12 | Exported Function
+`CreateDesktopAppXTombstoneFile` | 11 | Exported Function
+`CreateDesktopAppXLocalCacheStructure` | 10 | Exported Function
+`CheckApplicationInCurrentPackage` | 4 | Exported Function
+`AddProcessToHeliumContainer` | 2 | Exported Function
+`AddLookaside` | 1 | Exported Function
+`CloseJitvSilo` | 6 | Exported Function
+`CloseAppExecutionAlias` | 5 | Exported Function
+`CheckAppXPackageBreakaway` | 3 | Exported Function
+`CurrentThreadIsInVirtualizationContext` | 13 | Exported Function
+`EnableDesktopAppXDebuggingForPackage` | 22 | Exported Function
+`DoesPluginSupportCentennial` | 21 | Exported Function
+`DoesPackageHaveUIAccessCapability` | 20 | Exported Function
+`FreeAppExecutionAliasInfo` | 25 | Exported Function
+`EnterPackageVirtualizationContext` | 24 | Exported Function
+`EnsureDesktopAppXPackageShutdown` | 23 | Exported Function
+`DllCanUnloadNow` | 16 | Exported Function
+`DisableDesktopAppXDebuggingForPackage` | 15 | Exported Function
+`DetokenizeDesktopAppXOfflineRegistry` | 14 | Exported Function
+`DoesPackageHaveElevationCapability` | 19 | Exported Function
+`DllGetClassObject` | 18 | Exported Function
+`DllGetActivationFactory` | 17 | Exported Function
 
 
 ## Signature

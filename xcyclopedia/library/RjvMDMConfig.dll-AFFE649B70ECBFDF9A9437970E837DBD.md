@@ -24,10 +24,10 @@ PE256 | `9CE62A1789CF36B4C4808E4FD0CFF0E755EC67C2774E42BC0F4F6D90EC33F2A5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Preserve` | 1 (0x1) | Exported Function | 0x0000000180001780 | 0x00001780
-`Restore` | 2 (0x2) | Exported Function | 0x0000000180001a80 | 0x00001a80
+Function Name | Ordinal | Type
+-- | -- | --
+`Restore` | 2 | Exported Function
+`Preserve` | 1 | Exported Function
 
 
 ## Signature

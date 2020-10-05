@@ -24,20 +24,20 @@ PE256 | `8080370D4EE7D6DBE73C558988341EB4DE8027FAA80B1A71260D06A0E10D9581`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DIFXAPISetLogCallbackA` | 1 (0x1) | Exported Function | 0x6100e260 | 0x0000e260
-`DIFXAPISetLogCallbackW` | 2 (0x2) | Exported Function | 0x6100e230 | 0x0000e230
-`DriverPackageGetPathA` | 3 (0x3) | Exported Function | 0x6100e110 | 0x0000e110
-`DriverPackageGetPathW` | 4 (0x4) | Exported Function | 0x6100e030 | 0x0000e030
-`DriverPackageInstallA` | 5 (0x5) | Exported Function | 0x6100dd80 | 0x0000dd80
-`DriverPackageInstallW` | 6 (0x6) | Exported Function | 0x6100dd30 | 0x0000dd30
-`DriverPackagePreinstallA` | 7 (0x7) | Exported Function | 0x6100dcd0 | 0x0000dcd0
-`DriverPackagePreinstallW` | 8 (0x8) | Exported Function | 0x6100dc60 | 0x0000dc60
-`DriverPackageUninstallA` | 9 (0x9) | Exported Function | 0x6100df00 | 0x0000df00
-`DriverPackageUninstallW` | 10 (0xa) | Exported Function | 0x6100deb0 | 0x0000deb0
-`SetDifxLogCallbackA` | 11 (0xb) | Exported Function | 0x6100e200 | 0x0000e200
-`SetDifxLogCallbackW` | 12 (0xc) | Exported Function | 0x6100e1d0 | 0x0000e1d0
+Function Name | Ordinal | Type
+-- | -- | --
+`DriverPackageUninstallA` | 9 | Exported Function
+`DriverPackagePreinstallW` | 8 | Exported Function
+`DriverPackagePreinstallA` | 7 | Exported Function
+`SetDifxLogCallbackW` | 12 | Exported Function
+`SetDifxLogCallbackA` | 11 | Exported Function
+`DriverPackageUninstallW` | 10 | Exported Function
+`DriverPackageGetPathA` | 3 | Exported Function
+`DIFXAPISetLogCallbackW` | 2 | Exported Function
+`DIFXAPISetLogCallbackA` | 1 | Exported Function
+`DriverPackageInstallW` | 6 | Exported Function
+`DriverPackageInstallA` | 5 | Exported Function
+`DriverPackageGetPathW` | 4 | Exported Function
 
 
 ## Signature

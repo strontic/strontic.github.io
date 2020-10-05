@@ -24,18 +24,18 @@ PE256 | `ECB8F487FE815F87CECA5B4F0108391F0C639197F1845359F89D27E1DE2619B5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateCatalog` | 1 (0x1) | Exported Function | 0x0000000180012770 | 0x00012770
-`CreateSearchBindCtx` | 2 (0x2) | Exported Function | 0x000000018000f260 | 0x0000f260
-`CreateVirtualItem` | 3 (0x3) | Exported Function | 0x0000000180012550 | 0x00012550
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x0000000180012fb0 | 0x00012fb0
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x0000000180013130 | 0x00013130
-`DllRegisterServer` | 9 (0x9) | Exported Function | 0x0000000180013240 | 0x00013240
-`DllUnregisterServer` | 10 (0xa) | Exported Function | 0x0000000180013520 | 0x00013520
-`FreeCatalog` | 4 (0x4) | Exported Function | 0x0000000180012c60 | 0x00012c60
-`GetBackupPathFromPidl` | 5 (0x5) | Exported Function | 0x000000018000faa0 | 0x0000faa0
-`ParsePIDL` | 6 (0x6) | Exported Function | 0x000000018000f140 | 0x0000f140
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 10 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
+`FreeCatalog` | 4 | Exported Function
+`ParsePIDL` | 6 | Exported Function
+`GetBackupPathFromPidl` | 5 | Exported Function
+`CreateSearchBindCtx` | 2 | Exported Function
+`CreateCatalog` | 1 | Exported Function
+`CreateVirtualItem` | 3 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
 
 
 ## Signature

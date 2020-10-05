@@ -24,12 +24,12 @@ PE256 | `623E415A5B8CC33C7201826F842D307745DDC3A0406770F03DC6AE2F7291E4A3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180003140 | 0x00003140
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x00000001800158d0 | 0x000158d0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180004a10 | 0x00004a10
-`ResolveConnectedSharePlatformToken` | 4 (0x4) | Exported Function | 0x0000000180023a70 | 0x00023a70
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 3 | Exported Function
+`ResolveConnectedSharePlatformToken` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 
 
 ## Signature

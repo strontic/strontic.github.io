@@ -24,9 +24,9 @@ PE256 | `4EAD58F028611510382D477131AA74E8516AAD2756A73D09FC8246F4CF4C3F94`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializePrintProvidor` | 1 (0x1) | Exported Function | 0x0000000180001b00 | 0x00001b00
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializePrintProvidor` | 1 | Exported Function
 
 
 ## Signature

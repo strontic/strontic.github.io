@@ -24,10 +24,10 @@ PE256 | `722C7471180FF394108E9F1740B0879B3D9F6BB4BA274864816F8144D9F0CC24`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CryptServiceMain` | 1 (0x1) | Exported Function | 0x0000000180008f70 | 0x00008f70
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x0000000180009db0 | 0x00009db0
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`CryptServiceMain` | 1 | Exported Function
 
 
 ## Signature

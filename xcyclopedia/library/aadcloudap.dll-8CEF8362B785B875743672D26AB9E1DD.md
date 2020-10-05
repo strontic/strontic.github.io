@@ -24,11 +24,11 @@ PE256 | `B62CDDCBF168C5AE496EFC6C73472B4C9EDE2C5445AD05332DABE83DFCA84B7E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloudAPPluginInitialize` | 1 (0x1) | Exported Function | 0x00000001800030e0 | 0x000030e0
-`DllRegisterServer` | 2 (0x2) | Exported Function | 0x00000001800034a0 | 0x000034a0
-`DllUnregisterServer` | 3 (0x3) | Exported Function | 0x00000001800034a0 | 0x000034a0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 3 | Exported Function
+`DllRegisterServer` | 2 | Exported Function
+`CloudAPPluginInitialize` | 1 | Exported Function
 
 
 ## Signature

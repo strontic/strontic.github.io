@@ -24,16 +24,16 @@ PE256 | `D01853F3A9FF00B04EE2A0C5528D1FACD0A9E016CF3E8EB7084B562538D1A7B1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDeviceInventory` | 6 (0x6) | Exported Function | 0x0000000180012b30 | 0x00012b30
-`CreateDeviceInventoryTC` | 3 (0x3) | Exported Function | 0x0000000180012b10 | 0x00012b10
-`CreateDeviceInventoryTC2` | 2 (0x2) | Exported Function | 0x0000000180012960 | 0x00012960
-`GetDevInventory` | 4 (0x4) | Exported Function | 0x0000000180013a00 | 0x00013a00
-`ReportDeviceAdd` | 7 (0x7) | Exported Function | 0x0000000180012820 | 0x00012820
-`ReportDeviceRemove` | 8 (0x8) | Exported Function | 0x00000001800125b0 | 0x000125b0
-`RunDeviceInventoryW` | 5 (0x5) | Exported Function | 0x0000000180013120 | 0x00013120
-`SetDevInvDebugCorrelationVector` | 1 (0x1) | Exported Function | 0x00000001800140a0 | 0x000140a0
+Function Name | Ordinal | Type
+-- | -- | --
+`ReportDeviceRemove` | 8 | Exported Function
+`ReportDeviceAdd` | 7 | Exported Function
+`SetDevInvDebugCorrelationVector` | 1 | Exported Function
+`RunDeviceInventoryW` | 5 | Exported Function
+`CreateDeviceInventoryTC` | 3 | Exported Function
+`CreateDeviceInventory` | 6 | Exported Function
+`GetDevInventory` | 4 | Exported Function
+`CreateDeviceInventoryTC2` | 2 | Exported Function
 
 
 ## Signature

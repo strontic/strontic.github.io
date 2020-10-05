@@ -24,109 +24,109 @@ PE256 | `E1147D9B7957D1D4D9EBD6623C9766E82050C33424C1AB5541631F276783B72E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BigStrcat` | 1 (0x1) | Exported Function | 0x10010880 | 0x00010880
-`Hash_EnumCallback` | 72 (0x48) | Exported Function | 0x1000bf50 | 0x0000bf50
-`Hash_DestroyCallback` | 71 (0x47) | Exported Function | 0x1000bbe0 | 0x0000bbe0
-`Hash_Destroy` | 70 (0x46) | Exported Function | 0x1000bb30 | 0x0000bb30
-`Hash_Delete` | 69 (0x45) | Exported Function | 0x1000bd80 | 0x0000bd80
-`Hash_Create` | 68 (0x44) | Exported Function | 0x1000ba80 | 0x0000ba80
-`GetPhoneUID` | 67 (0x43) | Exported Function | 0x1000ab70 | 0x0000ab70
-`GetPhoneNumber` | 66 (0x42) | Exported Function | 0x1000d360 | 0x0000d360
-`GetPGListRegKeyName` | 65 (0x41) | Exported Function | 0x1000c820 | 0x0000c820
-`GetIMSIByIccID` | 64 (0x40) | Exported Function | 0x1000ca10 | 0x0000ca10
-`GetIMSI` | 63 (0x3f) | Exported Function | 0x1000cf30 | 0x0000cf30
-`GetIMEI` | 62 (0x3e) | Exported Function | 0x1000d270 | 0x0000d270
-`GetICCID` | 61 (0x3d) | Exported Function | 0x1000d0d0 | 0x0000d0d0
-`GetHeader` | 60 (0x3c) | Exported Function | 0x1000b150 | 0x0000b150
-`EscapeStringW` | 59 (0x3b) | Exported Function | 0x10010a30 | 0x00010a30
-`EncodeBase64W` | 58 (0x3a) | Exported Function | 0x10004bb0 | 0x00004bb0
-`EncodeBase64` | 57 (0x39) | Exported Function | 0x10004ab0 | 0x00004ab0
-`DmWnfQuery` | 56 (0x38) | Exported Function | 0x10016b40 | 0x00016b40
-`DmWnfPublish` | 55 (0x37) | Exported Function | 0x10016cd0 | 0x00016cd0
-`DmWnfGetNotification` | 54 (0x36) | Exported Function | 0x10016bc0 | 0x00016bc0
-`DmUnregisterRoamingNotification` | 53 (0x35) | Exported Function | 0x1000c7e0 | 0x0000c7e0
-`DmStopContainerActivity` | 52 (0x34) | Exported Function | 0x10006940 | 0x00006940
-`Hash_Get` | 73 (0x49) | Exported Function | 0x1000be70 | 0x0000be70
-`Hash_Insert` | 74 (0x4a) | Exported Function | 0x1000bc20 | 0x0000bc20
-`Hash_SetBucketThreshold` | 75 (0x4b) | Exported Function | 0x1000c040 | 0x0000c040
-`HexStringToBinary` | 101 (0x65) | Exported Function | 0x10011450 | 0x00011450
-`SetConnectionPriority` | 97 (0x61) | Exported Function | 0x1000b310 | 0x0000b310
-`SafeWideCharToMultiByte` | 96 (0x60) | Exported Function | 0x10010f30 | 0x00010f30
-`SafeStringToDword` | 95 (0x5f) | Exported Function | 0x10011070 | 0x00011070
-`SafeMultiByteToWideChar` | 94 (0x5e) | Exported Function | 0x10010fd0 | 0x00010fd0
-`QueryPolicy` | 93 (0x5d) | Exported Function | 0x1000dba0 | 0x0000dba0
-`OmDmRegistryAllocAndGetString` | 82 (0x52) | Exported Function | 0x1000af80 | 0x0000af80
-`OmaDmRegistrySetString` | 92 (0x5c) | Exported Function | 0x1000ada0 | 0x0000ada0
-`OmaDmRegistrySetDWORD` | 91 (0x5b) | Exported Function | 0x1000ac50 | 0x0000ac50
-`OmaDmRegistrySetBinary` | 90 (0x5a) | Exported Function | 0x1000b020 | 0x0000b020
-`OmaDmRegistryRetrieveCurrentUsersHKCU` | 89 (0x59) | Exported Function | 0x1000b7d0 | 0x0000b7d0
-`DmStartContainerActivity` | 51 (0x33) | Exported Function | 0x10006780 | 0x00006780
-`OmaDmRegistryGetString` | 88 (0x58) | Exported Function | 0x1000aee0 | 0x0000aee0
-`OmaDmRegistryGetBinary` | 86 (0x56) | Exported Function | 0x1000b0b0 | 0x0000b0b0
-`OmaDmRegistryGetAllValues` | 85 (0x55) | Exported Function | 0x1000b600 | 0x0000b600
-`OmaDmRegistryGetAllSubKeys` | 84 (0x54) | Exported Function | 0x1000b430 | 0x0000b430
-`OmaDmRegistryDeleteValue` | 83 (0x53) | Exported Function | 0x1000ae50 | 0x0000ae50
-`MBToUnicode` | 81 (0x51) | Exported Function | 0x10010e00 | 0x00010e00
-`IsPhoneOS` | 80 (0x50) | Exported Function | 0x1000b3c0 | 0x0000b3c0
-`InvStrCmpW` | 79 (0x4f) | Exported Function | 0x10010b80 | 0x00010b80
-`InvStrCmpNW` | 78 (0x4e) | Exported Function | 0x10010c40 | 0x00010c40
-`InvStrCmpNIW` | 77 (0x4d) | Exported Function | 0x10010cb0 | 0x00010cb0
-`InvStrCmpIW` | 76 (0x4c) | Exported Function | 0x10010be0 | 0x00010be0
-`OmaDmRegistryGetDWORD` | 87 (0x57) | Exported Function | 0x1000ace0 | 0x0000ace0
-`SetPolicy` | 98 (0x62) | Exported Function | 0x1000dc80 | 0x0000dc80
-`DMSetDeviceClientID` | 7 (0x7) | Exported Function | 0x1000a710 | 0x0000a710
-`DmRevertToSelf` | 49 (0x31) | Exported Function | 0x100101a0 | 0x000101a0
-`DmGetIMEI` | 22 (0x16) | Exported Function | 0x1000c570 | 0x0000c570
-`DmGetFileSize` | 21 (0x15) | Exported Function | 0x10009340 | 0x00009340
-`DMGetDeviceClientID` | 6 (0x6) | Exported Function | 0x1000a680 | 0x0000a680
-`DmGetCurrentUserToken` | 20 (0x14) | Exported Function | 0x1000ffd0 | 0x0000ffd0
-`DmGetCurrentUserSid` | 19 (0x13) | Exported Function | 0x1000ffb0 | 0x0000ffb0
-`DMGetClientHardwareUID` | 5 (0x5) | Exported Function | 0x1000aa60 | 0x0000aa60
-`DmGetActiveUserSid` | 18 (0x12) | Exported Function | 0x100101f0 | 0x000101f0
-`DmGetAadUserToken` | 17 (0x11) | Exported Function | 0x100158b0 | 0x000158b0
-`DmGetAadDeviceToken` | 16 (0x10) | Exported Function | 0x10015940 | 0x00015940
-`DmEnumUsers` | 15 (0xf) | Exported Function | 0x100104a0 | 0x000104a0
-`DmDeleteTask` | 14 (0xe) | Exported Function | 0x1000f0d0 | 0x0000f0d0
-`DmCreateTask` | 13 (0xd) | Exported Function | 0x1000e520 | 0x0000e520
-`DmCreateFileSafe` | 12 (0xc) | Exported Function | 0x100098d0 | 0x000098d0
-`DmCopyDirectoryRecursive` | 11 (0xb) | Exported Function | 0x100093c0 | 0x000093c0
-`DmCheckIfAadAccountLoggedOn` | 10 (0xa) | Exported Function | 0x100159a0 | 0x000159a0
-`DmCancelGetUserPermissionAsync` | 9 (0x9) | Exported Function | 0x10016a50 | 0x00016a50
-`DecodeBase64W` | 8 (0x8) | Exported Function | 0x10004d70 | 0x00004d70
-`CreateBstrArray` | 4 (0x4) | Exported Function | 0x10011170 | 0x00011170
-`CopyString` | 3 (0x3) | Exported Function | 0x10010940 | 0x00010940
-`ComputeHmac` | 2 (0x2) | Exported Function | 0x1000a3a0 | 0x0000a3a0
-`BinaryToHexString` | 100 (0x64) | Exported Function | 0x100113b0 | 0x000113b0
-`DmGetSmbiosSerialNumber` | 23 (0x17) | Exported Function | 0x1000c340 | 0x0000c340
-`DmGetUserEditFieldInput` | 24 (0x18) | Exported Function | 0x100168f0 | 0x000168f0
-`DmGetUserPermission` | 25 (0x19) | Exported Function | 0x100168d0 | 0x000168d0
-`DmGetUserPermissionAsync` | 26 (0x1a) | Exported Function | 0x10016980 | 0x00016980
-`DmRequestAadUserToken` | 48 (0x30) | Exported Function | 0x10015910 | 0x00015910
-`DmRemoveToastNotificationByExecutablePath` | 47 (0x2f) | Exported Function | 0x10013700 | 0x00013700
-`DmRemoveToastNotification` | 46 (0x2e) | Exported Function | 0x10013620 | 0x00013620
-`DmReleaseContainer` | 45 (0x2d) | Exported Function | 0x10006a70 | 0x00006a70
-`DmRegisterRoamingNotification` | 44 (0x2c) | Exported Function | 0x1000c740 | 0x0000c740
-`DmRaiseToastNotificationAndWait` | 43 (0x2b) | Exported Function | 0x10012620 | 0x00012620
-`DmRaiseToastNotification` | 42 (0x2a) | Exported Function | 0x10013480 | 0x00013480
-`DmPlayNotificationSound` | 41 (0x29) | Exported Function | 0x10016aa0 | 0x00016aa0
-`DmMdmSign` | 40 (0x28) | Exported Function | 0x100076e0 | 0x000076e0
-`DmIsTaskScheduled` | 39 (0x27) | Exported Function | 0x1000f3b0 | 0x0000f3b0
-`DmRunTask` | 50 (0x32) | Exported Function | 0x1000e030 | 0x0000e030
-`DmIsSystemOrUserIsAdmin` | 38 (0x26) | Exported Function | 0x1000ff60 | 0x0000ff60
-`DmIsRunningInSystemContext` | 36 (0x24) | Exported Function | 0x1000ff90 | 0x0000ff90
-`DmIsDeviceRoaming` | 35 (0x23) | Exported Function | 0x1000c3f0 | 0x0000c3f0
-`DmIsDeviceConnected` | 34 (0x22) | Exported Function | 0x1000c360 | 0x0000c360
-`DmInvalidateAadUserToken` | 33 (0x21) | Exported Function | 0x100158e0 | 0x000158e0
-`DmInvalidateAadDeviceToken` | 32 (0x20) | Exported Function | 0x10015970 | 0x00015970
-`DmInitializeContainer` | 31 (0x1f) | Exported Function | 0x10006450 | 0x00006450
-`DmInformUser` | 30 (0x1e) | Exported Function | 0x100168b0 | 0x000168b0
-`DmImpersonate` | 29 (0x1d) | Exported Function | 0x100100c0 | 0x000100c0
-`DmGetUserTokenFromSid` | 28 (0x1c) | Exported Function | 0x1000fff0 | 0x0000fff0
-`DmGetUserSidFromToken` | 27 (0x1b) | Exported Function | 0x10010420 | 0x00010420
-`DmIsSystemOrAdmin` | 37 (0x25) | Exported Function | 0x1000ff30 | 0x0000ff30
-`UnicodeToMB` | 99 (0x63) | Exported Function | 0x10010d20 | 0x00010d20
+Function Name | Ordinal | Type
+-- | -- | --
+`GetPhoneUID` | 67 | Exported Function
+`Hash_Create` | 68 | Exported Function
+`Hash_Delete` | 69 | Exported Function
+`GetIMSIByIccID` | 64 | Exported Function
+`GetPGListRegKeyName` | 65 | Exported Function
+`GetPhoneNumber` | 66 | Exported Function
+`Hash_Get` | 73 | Exported Function
+`Hash_Insert` | 74 | Exported Function
+`Hash_SetBucketThreshold` | 75 | Exported Function
+`Hash_Destroy` | 70 | Exported Function
+`Hash_DestroyCallback` | 71 | Exported Function
+`Hash_EnumCallback` | 72 | Exported Function
+`GetIMSI` | 63 | Exported Function
+`DmWnfGetNotification` | 54 | Exported Function
+`DmWnfPublish` | 55 | Exported Function
+`DmWnfQuery` | 56 | Exported Function
+`DmStartContainerActivity` | 51 | Exported Function
+`DmStopContainerActivity` | 52 | Exported Function
+`DmUnregisterRoamingNotification` | 53 | Exported Function
+`GetHeader` | 60 | Exported Function
+`GetICCID` | 61 | Exported Function
+`GetIMEI` | 62 | Exported Function
+`EncodeBase64` | 57 | Exported Function
+`EncodeBase64W` | 58 | Exported Function
+`EscapeStringW` | 59 | Exported Function
+`OmaDmRegistrySetString` | 92 | Exported Function
+`OmDmRegistryAllocAndGetString` | 82 | Exported Function
+`QueryPolicy` | 93 | Exported Function
+`OmaDmRegistryRetrieveCurrentUsersHKCU` | 89 | Exported Function
+`OmaDmRegistrySetBinary` | 90 | Exported Function
+`OmaDmRegistrySetDWORD` | 91 | Exported Function
+`SetConnectionPriority` | 97 | Exported Function
+`SetPolicy` | 98 | Exported Function
+`UnicodeToMB` | 99 | Exported Function
+`SafeMultiByteToWideChar` | 94 | Exported Function
+`SafeStringToDword` | 95 | Exported Function
+`SafeWideCharToMultiByte` | 96 | Exported Function
+`OmaDmRegistryGetString` | 88 | Exported Function
+`InvStrCmpNW` | 78 | Exported Function
+`InvStrCmpW` | 79 | Exported Function
+`IsPhoneOS` | 80 | Exported Function
+`HexStringToBinary` | 101 | Exported Function
+`InvStrCmpIW` | 76 | Exported Function
+`InvStrCmpNIW` | 77 | Exported Function
+`OmaDmRegistryGetAllValues` | 85 | Exported Function
+`OmaDmRegistryGetBinary` | 86 | Exported Function
+`OmaDmRegistryGetDWORD` | 87 | Exported Function
+`MBToUnicode` | 81 | Exported Function
+`OmaDmRegistryDeleteValue` | 83 | Exported Function
+`OmaDmRegistryGetAllSubKeys` | 84 | Exported Function
+`DMSetDeviceClientID` | 7 | Exported Function
+`DMGetClientHardwareUID` | 5 | Exported Function
+`DmGetCurrentUserSid` | 19 | Exported Function
+`DmGetCurrentUserToken` | 20 | Exported Function
+`DmGetAadDeviceToken` | 16 | Exported Function
+`DmGetAadUserToken` | 17 | Exported Function
+`DmGetActiveUserSid` | 18 | Exported Function
+`DmGetSmbiosSerialNumber` | 23 | Exported Function
+`DmGetUserEditFieldInput` | 24 | Exported Function
+`DmGetUserPermission` | 25 | Exported Function
+`DMGetDeviceClientID` | 6 | Exported Function
+`DmGetFileSize` | 21 | Exported Function
+`DmGetIMEI` | 22 | Exported Function
+`DmEnumUsers` | 15 | Exported Function
+`CopyString` | 3 | Exported Function
+`CreateBstrArray` | 4 | Exported Function
+`DecodeBase64W` | 8 | Exported Function
+`BigStrcat` | 1 | Exported Function
+`BinaryToHexString` | 100 | Exported Function
+`ComputeHmac` | 2 | Exported Function
+`DmCreateFileSafe` | 12 | Exported Function
+`DmCreateTask` | 13 | Exported Function
+`DmDeleteTask` | 14 | Exported Function
+`DmCancelGetUserPermissionAsync` | 9 | Exported Function
+`DmCheckIfAadAccountLoggedOn` | 10 | Exported Function
+`DmCopyDirectoryRecursive` | 11 | Exported Function
+`DmRaiseToastNotification` | 42 | Exported Function
+`DmRaiseToastNotificationAndWait` | 43 | Exported Function
+`DmRegisterRoamingNotification` | 44 | Exported Function
+`DmIsTaskScheduled` | 39 | Exported Function
+`DmMdmSign` | 40 | Exported Function
+`DmPlayNotificationSound` | 41 | Exported Function
+`DmRequestAadUserToken` | 48 | Exported Function
+`DmRevertToSelf` | 49 | Exported Function
+`DmRunTask` | 50 | Exported Function
+`DmReleaseContainer` | 45 | Exported Function
+`DmRemoveToastNotification` | 46 | Exported Function
+`DmRemoveToastNotificationByExecutablePath` | 47 | Exported Function
+`DmIsSystemOrUserIsAdmin` | 38 | Exported Function
+`DmImpersonate` | 29 | Exported Function
+`DmInformUser` | 30 | Exported Function
+`DmInitializeContainer` | 31 | Exported Function
+`DmGetUserPermissionAsync` | 26 | Exported Function
+`DmGetUserSidFromToken` | 27 | Exported Function
+`DmGetUserTokenFromSid` | 28 | Exported Function
+`DmIsDeviceRoaming` | 35 | Exported Function
+`DmIsRunningInSystemContext` | 36 | Exported Function
+`DmIsSystemOrAdmin` | 37 | Exported Function
+`DmInvalidateAadDeviceToken` | 32 | Exported Function
+`DmInvalidateAadUserToken` | 33 | Exported Function
+`DmIsDeviceConnected` | 34 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `9514530C0DAB3EA9752DD288E0F468500A22EFF0E429F2ACD75D018771FFB84A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_DllMain@12` | 2 (0x2) | Exported Function | 0x10008e90 | 0x00008e90
-`CreateSpatialObjectDDIClientFactory` | 1 (0x1) | Exported Function | 0x1000ffa0 | 0x0000ffa0
-`PerceptionDeviceCreateFactory` | 3 (0x3) | Exported Function | 0x100100c0 | 0x000100c0
-`PerceptionDeviceSetCreateFactoryOverride` | 4 (0x4) | Exported Function | 0x10010120 | 0x00010120
+Function Name | Ordinal | Type
+-- | -- | --
+`PerceptionDeviceCreateFactory` | 3 | Exported Function
+`PerceptionDeviceSetCreateFactoryOverride` | 4 | Exported Function
+`_DllMain@12` | 2 | Exported Function
+`CreateSpatialObjectDDIClientFactory` | 1 | Exported Function
 
 
 ## Signature

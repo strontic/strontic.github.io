@@ -24,266 +24,266 @@ PE256 | `B212D160510C0B806190B674B30F18F341181FC85BA33E404C421107B4DA207F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`QueryNetconStatus` | 1 (0x1) | Exported Function | 0x1000bd30 | 0x0000bd30
-`WlanInitPlapParams` | 164 (0xa4) | Exported Function | 0x1001e5c0 | 0x0001e5c0
-`WlanInternalCancelFTMRequest` | 165 (0xa5) | Exported Function | 0x1000fd40 | 0x0000fd40
-`WlanInternalGetNetworkBssListWithFTMData` | 166 (0xa6) | Exported Function | 0x1000fef0 | 0x0000fef0
-`WlanInternalNonDisruptiveScan` | 167 (0xa7) | Exported Function | 0x1001e5e0 | 0x0001e5e0
-`WlanInternalNonDisruptiveScanEx` | 168 (0xa8) | Exported Function | 0x100100b0 | 0x000100b0
-`WlanInternalRequestFTM` | 169 (0xa9) | Exported Function | 0x10010370 | 0x00010370
-`WlanInternalScan` | 170 (0xaa) | Exported Function | 0x1001e600 | 0x0001e600
-`WlanIsActiveConsoleUser` | 171 (0xab) | Exported Function | 0x1002a040 | 0x0002a040
-`WlanIsNetworkSuppressed` | 172 (0xac) | Exported Function | 0x1001e710 | 0x0001e710
-`WlanIsUIRequestPending` | 173 (0xad) | Exported Function | 0x1001e870 | 0x0001e870
-`WlanLowPrivCloseHandle` | 174 (0xae) | Exported Function | 0x100224f0 | 0x000224f0
-`WlanLowPrivEnumInterfaces` | 175 (0xaf) | Exported Function | 0x10022690 | 0x00022690
-`WlanLowPrivFreeMemory` | 176 (0xb0) | Exported Function | 0x1000baf0 | 0x0000baf0
-`WlanIhvControl` | 163 (0xa3) | Exported Function | 0x10017ff0 | 0x00017ff0
-`WlanLowPrivNotifyVsIeProviderInt` | 177 (0xb1) | Exported Function | 0x10022860 | 0x00022860
-`WlanLowPrivQueryInterface` | 179 (0xb3) | Exported Function | 0x10022b40 | 0x00022b40
-`WlanLowPrivSetInterface` | 180 (0xb4) | Exported Function | 0x10022d20 | 0x00022d20
-`WlanNotifyVsIeProviderExInt` | 181 (0xb5) | Exported Function | 0x100218b0 | 0x000218b0
-`WlanNotifyVsIeProviderInt` | 182 (0xb6) | Exported Function | 0x100218e0 | 0x000218e0
-`WlanOpenHandle` | 183 (0xb7) | Exported Function | 0x1000a5a0 | 0x0000a5a0
-`WlanParseProfileXmlBasicSettings` | 184 (0xb8) | Exported Function | 0x10023520 | 0x00023520
-`WlanPrivateCanDeleteProfile` | 185 (0xb9) | Exported Function | 0x1000e770 | 0x0000e770
-`WlanPrivateClearAnqpCache` | 186 (0xba) | Exported Function | 0x1001e970 | 0x0001e970
-`WlanPrivateDeleteProfile` | 187 (0xbb) | Exported Function | 0x1000e970 | 0x0000e970
-`WlanPrivateEnableAnqpOsuRegistration` | 188 (0xbc) | Exported Function | 0x1001ea70 | 0x0001ea70
-`WlanPrivateGetAnqpCacheResponse` | 189 (0xbd) | Exported Function | 0x1001eb70 | 0x0001eb70
-`WlanPrivateGetAnqpOSUProviderList` | 190 (0xbe) | Exported Function | 0x1001ec80 | 0x0001ec80
-`WlanPrivateGetAnqpOsuRegistrationStatus` | 191 (0xbf) | Exported Function | 0x1001edf0 | 0x0001edf0
-`WlanLowPrivOpenHandle` | 178 (0xb2) | Exported Function | 0x10022890 | 0x00022890
-`WlanPrivateGetAvailableNetworkList` | 192 (0xc0) | Exported Function | 0x1000c130 | 0x0000c130
-`WlanHostedNetworkStopUsing` | 162 (0xa2) | Exported Function | 0x10017f50 | 0x00017f50
-`WlanHostedNetworkSetWCNSettings` | 160 (0xa0) | Exported Function | 0x1001e4e0 | 0x0001e4e0
-`WlanGetInterfaceCapability` | 132 (0x84) | Exported Function | 0x10016500 | 0x00016500
-`WlanGetMFPNegotiated` | 133 (0x85) | Exported Function | 0x1001daf0 | 0x0001daf0
-`WlanGetNetworkBssList` | 134 (0x86) | Exported Function | 0x10016710 | 0x00016710
-`WlanGetProfile` | 135 (0x87) | Exported Function | 0x1000c570 | 0x0000c570
-`WlanGetProfileCustomUserData` | 136 (0x88) | Exported Function | 0x10016930 | 0x00016930
-`WlanGetProfileEapUserDataInfo` | 137 (0x89) | Exported Function | 0x1001dbd0 | 0x0001dbd0
-`WlanGetProfileIndex` | 138 (0x8a) | Exported Function | 0x1000c000 | 0x0000c000
-`WlanGetProfileKeyInfo` | 139 (0x8b) | Exported Function | 0x1001dcc0 | 0x0001dcc0
-`WlanGetProfileList` | 140 (0x8c) | Exported Function | 0x10016b60 | 0x00016b60
-`WlanGetProfileMetadata` | 141 (0x8d) | Exported Function | 0x1000bec0 | 0x0000bec0
-`WlanGetProfileMetadataWithProfileGuid` | 142 (0x8e) | Exported Function | 0x1001ddc0 | 0x0001ddc0
-`WlanGetProfileSsidList` | 143 (0x8f) | Exported Function | 0x10023330 | 0x00023330
-`WlanGetRadioInformation` | 144 (0x90) | Exported Function | 0x1001e0b0 | 0x0001e0b0
-`WlanHostedNetworkStartUsing` | 161 (0xa1) | Exported Function | 0x10017ec0 | 0x00017ec0
-`WlanGetSecuritySettings` | 145 (0x91) | Exported Function | 0x10016d60 | 0x00016d60
-`WlanGetSupportedDeviceServices` | 147 (0x93) | Exported Function | 0x10016f80 | 0x00016f80
-`WlanHostedNetworkForceStart` | 148 (0x94) | Exported Function | 0x10017190 | 0x00017190
-`WlanHostedNetworkForceStop` | 149 (0x95) | Exported Function | 0x10017220 | 0x00017220
-`WlanHostedNetworkFreeWCNSettings` | 150 (0x96) | Exported Function | 0x1001e290 | 0x0001e290
-`WlanHostedNetworkHlpQueryEverUsed` | 151 (0x97) | Exported Function | 0x1001e330 | 0x0001e330
-`WlanHostedNetworkInitSettings` | 152 (0x98) | Exported Function | 0x100172b0 | 0x000172b0
-`WlanHostedNetworkQueryProperty` | 153 (0x99) | Exported Function | 0x10017340 | 0x00017340
-`WlanHostedNetworkQuerySecondaryKey` | 154 (0x9a) | Exported Function | 0x10017550 | 0x00017550
-`WlanHostedNetworkQueryStatus` | 155 (0x9b) | Exported Function | 0x100177e0 | 0x000177e0
-`WlanHostedNetworkQueryWCNSettings` | 156 (0x9c) | Exported Function | 0x1001e400 | 0x0001e400
-`WlanHostedNetworkRefreshSecuritySettings` | 157 (0x9d) | Exported Function | 0x100179d0 | 0x000179d0
-`WlanHostedNetworkSetProperty` | 158 (0x9e) | Exported Function | 0x10017a60 | 0x00017a60
-`WlanHostedNetworkSetSecondaryKey` | 159 (0x9f) | Exported Function | 0x10017c90 | 0x00017c90
-`WlanGetStoredRadioState` | 146 (0x92) | Exported Function | 0x1001e1a0 | 0x0001e1a0
-`WlanPrivateParseAnqpRawData` | 193 (0xc1) | Exported Function | 0x1001ef00 | 0x0001ef00
-`WlanPrivateQuery11adPairedConfig` | 194 (0xc2) | Exported Function | 0x10018250 | 0x00018250
-`WlanPrivateQueryInterface` | 195 (0xc3) | Exported Function | 0x10018400 | 0x00018400
-`WlanSetProfilePosition` | 229 (0xe5) | Exported Function | 0x1001a3f0 | 0x0001a3f0
-`WlanSetProtectedScenario` | 230 (0xe6) | Exported Function | 0x100106f0 | 0x000106f0
-`WlanSetPsdIEDataList` | 231 (0xe7) | Exported Function | 0x1001a600 | 0x0001a600
-`WlanSetSecuritySettings` | 232 (0xe8) | Exported Function | 0x1001a7a0 | 0x0001a7a0
-`WlanSetUIForwardingNetworkList` | 233 (0xe9) | Exported Function | 0x1001f790 | 0x0001f790
-`WlanSignalValueToBar` | 234 (0xea) | Exported Function | 0x1002a140 | 0x0002a140
-`WlanSignalValueToBarEx` | 235 (0xeb) | Exported Function | 0x1002a160 | 0x0002a160
-`WlanSsidToDisplayName` | 236 (0xec) | Exported Function | 0x1002a190 | 0x0002a190
-`WlanStartAP` | 237 (0xed) | Exported Function | 0x1001f880 | 0x0001f880
-`WlanStartMovementDetector` | 238 (0xee) | Exported Function | 0x10010710 | 0x00010710
-`WlanStopAP` | 239 (0xef) | Exported Function | 0x1001fb30 | 0x0001fb30
-`WlanStopMovementDetector` | 240 (0xf0) | Exported Function | 0x10010730 | 0x00010730
-`WlanStoreRadioStateOnEnteringAirPlaneMode` | 241 (0xf1) | Exported Function | 0x1001fc00 | 0x0001fc00
-`WlanSetProfileMetadata` | 228 (0xe4) | Exported Function | 0x1001f690 | 0x0001f690
-`WlanStringToSsid` | 242 (0xf2) | Exported Function | 0x1002a330 | 0x0002a330
-`WlanTryUpgradeCurrentConnectionAuthCipher` | 244 (0xf4) | Exported Function | 0x1001fcf0 | 0x0001fcf0
-`WlanUpdateBasicProfileSecurity` | 245 (0xf5) | Exported Function | 0x1001a990 | 0x0001a990
-`WlanUpdateProfileWithAuthCipher` | 246 (0xf6) | Exported Function | 0x100207f0 | 0x000207f0
-`WlanUtf8SsidToDisplayName` | 247 (0xf7) | Exported Function | 0x1002a4a0 | 0x0002a4a0
-`WlanVerifyProfileIpConfiguration` | 249 (0xf9) | Exported Function | 0x10010e40 | 0x00010e40
-`WlanVMgrQueryCurrentScenariosInt` | 248 (0xf8) | Exported Function | 0x10021910 | 0x00021910
-`WlanWcmDisconnect` | 250 (0xfa) | Exported Function | 0x10020a00 | 0x00020a00
-`WlanWcmGetInterface` | 251 (0xfb) | Exported Function | 0x10020ae0 | 0x00020ae0
-`WlanWcmGetProfileList` | 252 (0xfc) | Exported Function | 0x10020bd0 | 0x00020bd0
-`WlanWcmSetInterface` | 253 (0xfd) | Exported Function | 0x10020d30 | 0x00020d30
-`WlanWcmSetProfile` | 254 (0xfe) | Exported Function | 0x10020e20 | 0x00020e20
-`WlanWfdGetPeerInfo` | 256 (0x100) | Exported Function | 0x10021090 | 0x00021090
-`WlanWfdGOSetWCNSettings` | 255 (0xff) | Exported Function | 0x10020fb0 | 0x00020fb0
-`WlanStringToUtf8Ssid` | 243 (0xf3) | Exported Function | 0x1002a3e0 | 0x0002a3e0
-`WlanSetProfileListForOffload` | 227 (0xe3) | Exported Function | 0x1001a210 | 0x0001a210
-`WlanSetProfileList` | 226 (0xe2) | Exported Function | 0x1001a010 | 0x0001a010
-`WlanSetProfileEapXmlUserData` | 225 (0xe1) | Exported Function | 0x10019b00 | 0x00019b00
-`WlanPrivateRefreshAnqpCache` | 196 (0xc4) | Exported Function | 0x1001f010 | 0x0001f010
-`WlanPrivateSetInterface` | 197 (0xc5) | Exported Function | 0x100185c0 | 0x000185c0
-`WlanPrivateSetProfile` | 198 (0xc6) | Exported Function | 0x1000eb70 | 0x0000eb70
-`WlanProfileIpConfigurationGetAddressList` | 199 (0xc7) | Exported Function | 0x10010db0 | 0x00010db0
-`WlanProfileIpConfigurationGetDnsServerList` | 200 (0xc8) | Exported Function | 0x10010de0 | 0x00010de0
-`WlanProfileIpConfigurationGetGatewayList` | 201 (0xc9) | Exported Function | 0x10010e10 | 0x00010e10
-`WlanQueryAutoConfigParameter` | 202 (0xca) | Exported Function | 0x10018760 | 0x00018760
-`WlanQueryCreateAllUserProfileRestricted` | 203 (0xcb) | Exported Function | 0x100239f0 | 0x000239f0
-`WlanQueryInterface` | 204 (0xcc) | Exported Function | 0x1000c2f0 | 0x0000c2f0
-`WlanQueryPlapCredentials` | 205 (0xcd) | Exported Function | 0x1001f120 | 0x0001f120
-`WlanQueryPreConnectInput` | 206 (0xce) | Exported Function | 0x1001f220 | 0x0001f220
-`WlanQueryVirtualInterfaceType` | 207 (0xcf) | Exported Function | 0x1000bb40 | 0x0000bb40
-`WlanReasonCodeToString` | 208 (0xd0) | Exported Function | 0x10018960 | 0x00018960
-`WlanRefreshConnections` | 209 (0xd1) | Exported Function | 0x1001f3c0 | 0x0001f3c0
-`WlanRegisterDeviceServiceNotification` | 210 (0xd2) | Exported Function | 0x1000eda0 | 0x0000eda0
-`WlanRegisterNotification` | 211 (0xd3) | Exported Function | 0x1000bc40 | 0x0000bc40
-`WlanRegisterVirtualStationNotification` | 212 (0xd4) | Exported Function | 0x100189d0 | 0x000189d0
-`WlanRemoveUIForwardingNetworkList` | 213 (0xd5) | Exported Function | 0x1001f4d0 | 0x0001f4d0
-`WlanRenameProfile` | 214 (0xd6) | Exported Function | 0x10018bb0 | 0x00018bb0
-`WlanSaveTemporaryProfile` | 215 (0xd7) | Exported Function | 0x10018db0 | 0x00018db0
-`WlanScan` | 216 (0xd8) | Exported Function | 0x10018fe0 | 0x00018fe0
-`WlanSendUIResponse` | 217 (0xd9) | Exported Function | 0x1001f5b0 | 0x0001f5b0
-`WlanSetAllUserProfileRestricted` | 218 (0xda) | Exported Function | 0x10023ca0 | 0x00023ca0
-`WlanSetAutoConfigParameter` | 219 (0xdb) | Exported Function | 0x100191d0 | 0x000191d0
-`WlanSetFilterList` | 220 (0xdc) | Exported Function | 0x10019350 | 0x00019350
-`WlanSetInterface` | 221 (0xdd) | Exported Function | 0x100194e0 | 0x000194e0
-`WlanSetProfile` | 222 (0xde) | Exported Function | 0x10019680 | 0x00019680
-`WlanSetProfileCustomUserData` | 223 (0xdf) | Exported Function | 0x100196b0 | 0x000196b0
-`WlanSetProfileEapUserData` | 224 (0xe0) | Exported Function | 0x100198c0 | 0x000198c0
-`WlanGetFilterList` | 131 (0x83) | Exported Function | 0x10016350 | 0x00016350
-`WlanGetAvailableNetworkList2` | 129 (0x81) | Exported Function | 0x100161f0 | 0x000161f0
-`WlanGetAvailableNetworkList` | 130 (0x82) | Exported Function | 0x100162a0 | 0x000162a0
-`WlanGenerateProfileXmlBasicSettings` | 128 (0x80) | Exported Function | 0x10023040 | 0x00023040
-`WFDGetVisibleDevicesInt` | 35 (0x23) | Exported Function | 0x10021480 | 0x00021480
-`WFDIsInterfaceWiFiDirect` | 36 (0x24) | Exported Function | 0x1001bcd0 | 0x0001bcd0
-`WFDIsWiFiDirectRunningOnWiFiAdapter` | 37 (0x25) | Exported Function | 0x1001bdd0 | 0x0001bdd0
-`WFDLowPrivCancelOpenSessionInt` | 38 (0x26) | Exported Function | 0x100220e0 | 0x000220e0
-`WFDLowPrivCloseHandleInt` | 39 (0x27) | Exported Function | 0x10022100 | 0x00022100
-`WFDLowPrivCloseLegacySessionInt` | 40 (0x28) | Exported Function | 0x10022120 | 0x00022120
-`WFDLowPrivCloseSessionInt` | 41 (0x29) | Exported Function | 0x10022140 | 0x00022140
-`WFDLowPrivConfigureFirewallForSessionInt` | 42 (0x2a) | Exported Function | 0x10022160 | 0x00022160
-`WFDLowPrivDeclineDeviceApiConnectionRequestInt` | 43 (0x2b) | Exported Function | 0x10022180 | 0x00022180
-`WFDLowPrivGetPendingGroupRequestDetailsInt` | 44 (0x2c) | Exported Function | 0x100221a0 | 0x000221a0
-`WFDLowPrivGetSessionEndpointPairsInt` | 45 (0x2d) | Exported Function | 0x100221c0 | 0x000221c0
-`WFDLowPrivIsWfdSupportedInt` | 46 (0x2e) | Exported Function | 0x100221e0 | 0x000221e0
-`WFDLowPrivOpenHandleInt` | 47 (0x2f) | Exported Function | 0x10022200 | 0x00022200
-`WFDGetVisibleDevicesExInt` | 34 (0x22) | Exported Function | 0x10021460 | 0x00021460
-`WFDLowPrivOpenLegacySessionInt` | 48 (0x30) | Exported Function | 0x10022220 | 0x00022220
-`WFDLowPrivQueryPropertyInt` | 50 (0x32) | Exported Function | 0x10022280 | 0x00022280
-`WFDLowPrivRegisterNotificationInt` | 51 (0x33) | Exported Function | 0x100222a0 | 0x000222a0
-`WFDLowPrivRegisterVMgrCallerInt` | 52 (0x34) | Exported Function | 0x100222d0 | 0x000222d0
-`WFDLowPrivSetPropertyInt` | 53 (0x35) | Exported Function | 0x100222f0 | 0x000222f0
-`WFDLowPrivStartDeviceApiConnectionRequestListenerInt` | 54 (0x36) | Exported Function | 0x10022310 | 0x00022310
-`WFDLowPrivStartUsingGroupInt` | 55 (0x37) | Exported Function | 0x10022330 | 0x00022330
-`WFDLowPrivStopDeviceApiConnectionRequestListenerInt` | 56 (0x38) | Exported Function | 0x10022350 | 0x00022350
-`WFDLowPrivStopUsingGroupInt` | 57 (0x39) | Exported Function | 0x10022370 | 0x00022370
-`WFDLowPrivUnregisterVMgrCallerInt` | 58 (0x3a) | Exported Function | 0x10022390 | 0x00022390
-`WFDOpenHandle` | 59 (0x3b) | Exported Function | 0x1000b2c0 | 0x0000b2c0
-`WFDOpenHandleInt` | 60 (0x3c) | Exported Function | 0x1000b2c0 | 0x0000b2c0
-`WFDOpenLegacySession` | 61 (0x3d) | Exported Function | 0x1001abf0 | 0x0001abf0
-`WFDOpenLegacySessionInt` | 62 (0x3e) | Exported Function | 0x100214a0 | 0x000214a0
-`WFDLowPrivOpenSessionByDafObjectIdInt` | 49 (0x31) | Exported Function | 0x10022240 | 0x00022240
-`WFDGetSessionEndpointPairsInt` | 33 (0x21) | Exported Function | 0x10021440 | 0x00021440
-`WFDGetProfileKeyInfoInt` | 32 (0x20) | Exported Function | 0x10021410 | 0x00021410
-`WFDGetPrimaryAdapterStateInt` | 31 (0x1f) | Exported Function | 0x100213f0 | 0x000213f0
-`QueryNetconVirtualCharacteristic` | 2 (0x2) | Exported Function | 0x1001b4f0 | 0x0001b4f0
-`WFDAbortSessionInt` | 3 (0x3) | Exported Function | 0x100211a0 | 0x000211a0
-`WFDAcceptConnectRequestAndOpenSessionInt` | 4 (0x4) | Exported Function | 0x100107b0 | 0x000107b0
-`WFDAcceptGroupRequestAndOpenSessionInt` | 5 (0x5) | Exported Function | 0x100211c0 | 0x000211c0
-`WFDCancelConnectorPairWithOOB` | 6 (0x6) | Exported Function | 0x10021930 | 0x00021930
-`WFDCancelListenerPairWithOOB` | 7 (0x7) | Exported Function | 0x1001b5e0 | 0x0001b5e0
-`WFDCancelOpenSession` | 8 (0x8) | Exported Function | 0x1001ab90 | 0x0001ab90
-`WFDCancelOpenSessionInt` | 9 (0x9) | Exported Function | 0x1001ab90 | 0x0001ab90
-`WFDCloseHandle` | 10 (0xa) | Exported Function | 0x1001abb0 | 0x0001abb0
-`WFDCloseHandleInt` | 11 (0xb) | Exported Function | 0x1001abb0 | 0x0001abb0
-`WFDCloseLegacySessionInt` | 12 (0xc) | Exported Function | 0x10021200 | 0x00021200
-`WFDCloseOOBPairingSession` | 13 (0xd) | Exported Function | 0x1001b840 | 0x0001b840
-`WFDCloseSession` | 14 (0xe) | Exported Function | 0x1001abd0 | 0x0001abd0
-`WFDCloseSessionInt` | 15 (0xf) | Exported Function | 0x1001abd0 | 0x0001abd0
-`WFDConfigureFirewallForSessionInt` | 16 (0x10) | Exported Function | 0x10021220 | 0x00021220
-`WFDCreateDHPrivatePublicKeyPairInt` | 17 (0x11) | Exported Function | 0x10021240 | 0x00021240
-`WFDDeclineConnectRequestInt` | 18 (0x12) | Exported Function | 0x10021270 | 0x00021270
-`WFDDeclineGroupRequestInt` | 19 (0x13) | Exported Function | 0x10021290 | 0x00021290
-`WFDDiscoverDeviceServiceInformationInt` | 20 (0x14) | Exported Function | 0x100212b0 | 0x000212b0
-`WFDDiscoverDevicesExInt` | 21 (0x15) | Exported Function | 0x100212e0 | 0x000212e0
-`WFDDiscoverDevicesInt` | 22 (0x16) | Exported Function | 0x10021300 | 0x00021300
-`WFDFlushVisibleDeviceListInt` | 23 (0x17) | Exported Function | 0x10021320 | 0x00021320
-`WFDForceDisconnectInt` | 24 (0x18) | Exported Function | 0x10021340 | 0x00021340
-`WFDForceDisconnectLegacyPeerInt` | 25 (0x19) | Exported Function | 0x10021360 | 0x00021360
-`WFDFreeMemoryInt` | 26 (0x1a) | Exported Function | 0x1000baf0 | 0x0000baf0
-`WFDGetDefaultGroupProfileInt` | 27 (0x1b) | Exported Function | 0x10021380 | 0x00021380
-`WFDGetDeviceDescriptorForPendingRequestInt` | 28 (0x1c) | Exported Function | 0x100213a0 | 0x000213a0
-`WFDGetNFCCarrierConfigBlobInt` | 29 (0x1d) | Exported Function | 0x100213c0 | 0x000213c0
-`WFDGetOOBBlob` | 30 (0x1e) | Exported Function | 0x1001ba20 | 0x0001ba20
-`WFDPairCancelByDeviceAddressInt` | 63 (0x3f) | Exported Function | 0x100214c0 | 0x000214c0
-`WlanWfdStartGO` | 257 (0x101) | Exported Function | 0x10021190 | 0x00021190
-`WFDPairCancelInt` | 64 (0x40) | Exported Function | 0x100214e0 | 0x000214e0
-`WFDPairEnumerateCeremoniesInt` | 66 (0x42) | Exported Function | 0x100107e0 | 0x000107e0
-`WFDSvcLowPrivGetProvisioningInfoInt` | 100 (0x64) | Exported Function | 0x10022450 | 0x00022450
-`WFDSvcLowPrivGetSessionEndpointPairsInt` | 101 (0x65) | Exported Function | 0x10022480 | 0x00022480
-`WFDSvcLowPrivOpenAdvertiserSessionInt` | 102 (0x66) | Exported Function | 0x10010810 | 0x00010810
-`WFDSvcLowPrivOpenSeekerSessionInt` | 103 (0x67) | Exported Function | 0x10010840 | 0x00010840
-`WFDSvcLowPrivPublishServiceInt` | 104 (0x68) | Exported Function | 0x100224a0 | 0x000224a0
-`WFDSvcLowPrivUnpublishServiceInt` | 105 (0x69) | Exported Function | 0x100224d0 | 0x000224d0
-`WFDUnregisterVMgrCallerInt` | 106 (0x6a) | Exported Function | 0x10021830 | 0x00021830
-`WFDUpdateDeviceVisibility` | 107 (0x6b) | Exported Function | 0x1001ac40 | 0x0001ac40
-`WiFiDisplayResetSinkStateInt` | 108 (0x6c) | Exported Function | 0x10021850 | 0x00021850
-`WiFiDisplaySetSinkClientHandleInt` | 109 (0x6d) | Exported Function | 0x10021870 | 0x00021870
-`WiFiDisplaySetSinkStateInt` | 110 (0x6e) | Exported Function | 0x10021890 | 0x00021890
-`WlanAllocateMemory` | 111 (0x6f) | Exported Function | 0x10015380 | 0x00015380
-`WlanAllocateProfileIpConfiguration` | 112 (0x70) | Exported Function | 0x10010d20 | 0x00010d20
-`WFDSvcLowPrivConnectSessionInt` | 99 (0x63) | Exported Function | 0x10022430 | 0x00022430
-`WlanCancelPlap` | 113 (0x71) | Exported Function | 0x1001c530 | 0x0001c530
-`WlanConnect` | 115 (0x73) | Exported Function | 0x10015690 | 0x00015690
-`WlanConnectEx` | 116 (0x74) | Exported Function | 0x100156f0 | 0x000156f0
-`WlanConnectWithInput` | 117 (0x75) | Exported Function | 0x1001c610 | 0x0001c610
-`WlanDeinitPlapParams` | 118 (0x76) | Exported Function | 0x1001c7b0 | 0x0001c7b0
-`WlanDeleteProfile` | 119 (0x77) | Exported Function | 0x10015750 | 0x00015750
-`WlanDeviceServiceCommand` | 120 (0x78) | Exported Function | 0x10015780 | 0x00015780
-`WlanDisconnect` | 121 (0x79) | Exported Function | 0x10015a00 | 0x00015a00
-`WlanDoesBssMatchSecurity` | 123 (0x7b) | Exported Function | 0x1001d810 | 0x0001d810
-`WlanDoPlap` | 122 (0x7a) | Exported Function | 0x1001c7c0 | 0x0001c7c0
-`WlanEnumAllInterfaces` | 124 (0x7c) | Exported Function | 0x1001d9c0 | 0x0001d9c0
-`WlanEnumInterfaces` | 125 (0x7d) | Exported Function | 0x1000c7e0 | 0x0000c7e0
-`WlanExtractPsdIEDataList` | 126 (0x7e) | Exported Function | 0x10015be0 | 0x00015be0
-`WlanFreeMemory` | 127 (0x7f) | Exported Function | 0x1000baf0 | 0x0000baf0
-`WlanCloseHandle` | 114 (0x72) | Exported Function | 0x1000cdf0 | 0x0000cdf0
-`WFDSvcLowPrivConfigureSessionInt` | 98 (0x62) | Exported Function | 0x10022410 | 0x00022410
-`WFDSvcLowPrivCloseSessionInt` | 97 (0x61) | Exported Function | 0x100223f0 | 0x000223f0
-`WFDSvcLowPrivCancelSessionInt` | 96 (0x60) | Exported Function | 0x100223d0 | 0x000223d0
-`WFDPairSelectCeremonyInt` | 67 (0x43) | Exported Function | 0x10021520 | 0x00021520
-`WFDPairWithDeviceAndOpenSessionExInt` | 68 (0x44) | Exported Function | 0x10021540 | 0x00021540
-`WFDPairWithDeviceAndOpenSessionInt` | 69 (0x45) | Exported Function | 0x10021570 | 0x00021570
-`WFDParseOOBBlob` | 70 (0x46) | Exported Function | 0x1001bec0 | 0x0001bec0
-`WFDParseOOBBlobTypeAndGetPayloadInt` | 71 (0x47) | Exported Function | 0x1001bf70 | 0x0001bf70
-`WFDParseProfileXmlInt` | 72 (0x48) | Exported Function | 0x100215a0 | 0x000215a0
-`WFDParseWfaNfcCarrierConfigBlobInt` | 73 (0x49) | Exported Function | 0x100215c0 | 0x000215c0
-`WFDQueryPropertyInt` | 74 (0x4a) | Exported Function | 0x100215e0 | 0x000215e0
-`WFDRegisterNotificationInt` | 75 (0x4b) | Exported Function | 0x10021600 | 0x00021600
-`WFDRegisterVMgrCallerInt` | 76 (0x4c) | Exported Function | 0x10021630 | 0x00021630
-`WFDResetSelectedWfdMgrInt` | 77 (0x4d) | Exported Function | 0x10021650 | 0x00021650
-`WFDSetAdditionalIEsInt` | 78 (0x4e) | Exported Function | 0x10021670 | 0x00021670
-`WFDSetPropertyInt` | 79 (0x4f) | Exported Function | 0x10021680 | 0x00021680
-`WFDSetSecondaryDeviceTypeListInt` | 80 (0x50) | Exported Function | 0x100216a0 | 0x000216a0
-`WFDSetSelectedWfdMgrInt` | 81 (0x51) | Exported Function | 0x100216c0 | 0x000216c0
-`WFDStartBackgroundDiscoveryInt` | 82 (0x52) | Exported Function | 0x100216e0 | 0x000216e0
-`WFDStartConnectorPairWithOOB` | 83 (0x53) | Exported Function | 0x100219e0 | 0x000219e0
-`WFDStartListenerPairWithOOB` | 84 (0x54) | Exported Function | 0x1001c080 | 0x0001c080
-`WFDStartOffloadedDiscoveryInt` | 85 (0x55) | Exported Function | 0x10021700 | 0x00021700
-`WFDStartOpenSession` | 86 (0x56) | Exported Function | 0x1001ac10 | 0x0001ac10
-`WFDStartOpenSessionInt` | 87 (0x57) | Exported Function | 0x10021720 | 0x00021720
-`WFDStartUsingGroupExInt` | 88 (0x58) | Exported Function | 0x10021750 | 0x00021750
-`WFDStartUsingGroupInt` | 89 (0x59) | Exported Function | 0x10021770 | 0x00021770
-`WFDStopBackgroundDiscoveryInt` | 90 (0x5a) | Exported Function | 0x10021790 | 0x00021790
-`WFDStopDiscoverDevicesExInt` | 91 (0x5b) | Exported Function | 0x100217b0 | 0x000217b0
-`WFDStopDiscoverDevicesInt` | 92 (0x5c) | Exported Function | 0x100217d0 | 0x000217d0
-`WFDStopOffloadedDiscoveryInt` | 93 (0x5d) | Exported Function | 0x100217f0 | 0x000217f0
-`WFDStopUsingGroupInt` | 94 (0x5e) | Exported Function | 0x10021810 | 0x00021810
-`WFDSvcLowPrivAcceptSessionInt` | 95 (0x5f) | Exported Function | 0x100223b0 | 0x000223b0
-`WFDPairContinuePairWithDeviceInt` | 65 (0x41) | Exported Function | 0x10021500 | 0x00021500
-`WlanWfdStopGO` | 258 (0x102) | Exported Function | 0x10021190 | 0x00021190
+Function Name | Ordinal | Type
+-- | -- | --
+`WlanIsNetworkSuppressed` | 172 | Exported Function
+`WlanIsUIRequestPending` | 173 | Exported Function
+`WlanInternalScan` | 170 | Exported Function
+`WlanIsActiveConsoleUser` | 171 | Exported Function
+`WlanLowPrivFreeMemory` | 176 | Exported Function
+`WlanLowPrivNotifyVsIeProviderInt` | 177 | Exported Function
+`WlanLowPrivCloseHandle` | 174 | Exported Function
+`WlanLowPrivEnumInterfaces` | 175 | Exported Function
+`WlanInitPlapParams` | 164 | Exported Function
+`WlanInternalCancelFTMRequest` | 165 | Exported Function
+`WlanHostedNetworkStopUsing` | 162 | Exported Function
+`WlanIhvControl` | 163 | Exported Function
+`WlanInternalNonDisruptiveScanEx` | 168 | Exported Function
+`WlanInternalRequestFTM` | 169 | Exported Function
+`WlanInternalGetNetworkBssListWithFTMData` | 166 | Exported Function
+`WlanInternalNonDisruptiveScan` | 167 | Exported Function
+`WlanPrivateEnableAnqpOsuRegistration` | 188 | Exported Function
+`WlanPrivateGetAnqpCacheResponse` | 189 | Exported Function
+`WlanPrivateClearAnqpCache` | 186 | Exported Function
+`WlanPrivateDeleteProfile` | 187 | Exported Function
+`WlanPrivateGetAvailableNetworkList` | 192 | Exported Function
+`WlanPrivateParseAnqpRawData` | 193 | Exported Function
+`WlanPrivateGetAnqpOSUProviderList` | 190 | Exported Function
+`WlanPrivateGetAnqpOsuRegistrationStatus` | 191 | Exported Function
+`WlanLowPrivSetInterface` | 180 | Exported Function
+`WlanNotifyVsIeProviderExInt` | 181 | Exported Function
+`WlanLowPrivOpenHandle` | 178 | Exported Function
+`WlanLowPrivQueryInterface` | 179 | Exported Function
+`WlanParseProfileXmlBasicSettings` | 184 | Exported Function
+`WlanPrivateCanDeleteProfile` | 185 | Exported Function
+`WlanNotifyVsIeProviderInt` | 182 | Exported Function
+`WlanOpenHandle` | 183 | Exported Function
+`WlanGetProfileList` | 140 | Exported Function
+`WlanGetProfileMetadata` | 141 | Exported Function
+`WlanGetProfileIndex` | 138 | Exported Function
+`WlanGetProfileKeyInfo` | 139 | Exported Function
+`WlanGetRadioInformation` | 144 | Exported Function
+`WlanGetSecuritySettings` | 145 | Exported Function
+`WlanGetProfileMetadataWithProfileGuid` | 142 | Exported Function
+`WlanGetProfileSsidList` | 143 | Exported Function
+`WlanGetInterfaceCapability` | 132 | Exported Function
+`WlanGetMFPNegotiated` | 133 | Exported Function
+`WlanGetAvailableNetworkList2` | 129 | Exported Function
+`WlanGetFilterList` | 131 | Exported Function
+`WlanGetProfileCustomUserData` | 136 | Exported Function
+`WlanGetProfileEapUserDataInfo` | 137 | Exported Function
+`WlanGetNetworkBssList` | 134 | Exported Function
+`WlanGetProfile` | 135 | Exported Function
+`WlanHostedNetworkQueryWCNSettings` | 156 | Exported Function
+`WlanHostedNetworkRefreshSecuritySettings` | 157 | Exported Function
+`WlanHostedNetworkQuerySecondaryKey` | 154 | Exported Function
+`WlanHostedNetworkQueryStatus` | 155 | Exported Function
+`WlanHostedNetworkSetWCNSettings` | 160 | Exported Function
+`WlanHostedNetworkStartUsing` | 161 | Exported Function
+`WlanHostedNetworkSetProperty` | 158 | Exported Function
+`WlanHostedNetworkSetSecondaryKey` | 159 | Exported Function
+`WlanHostedNetworkForceStart` | 148 | Exported Function
+`WlanHostedNetworkForceStop` | 149 | Exported Function
+`WlanGetStoredRadioState` | 146 | Exported Function
+`WlanGetSupportedDeviceServices` | 147 | Exported Function
+`WlanHostedNetworkInitSettings` | 152 | Exported Function
+`WlanHostedNetworkQueryProperty` | 153 | Exported Function
+`WlanHostedNetworkFreeWCNSettings` | 150 | Exported Function
+`WlanHostedNetworkHlpQueryEverUsed` | 151 | Exported Function
+`WlanPrivateQuery11adPairedConfig` | 194 | Exported Function
+`WlanStartAP` | 237 | Exported Function
+`WlanStartMovementDetector` | 238 | Exported Function
+`WlanSignalValueToBarEx` | 235 | Exported Function
+`WlanSsidToDisplayName` | 236 | Exported Function
+`WlanStoreRadioStateOnEnteringAirPlaneMode` | 241 | Exported Function
+`WlanStringToSsid` | 242 | Exported Function
+`WlanStopAP` | 239 | Exported Function
+`WlanStopMovementDetector` | 240 | Exported Function
+`WlanSetProfilePosition` | 229 | Exported Function
+`WlanSetProtectedScenario` | 230 | Exported Function
+`WlanSetProfileListForOffload` | 227 | Exported Function
+`WlanSetProfileMetadata` | 228 | Exported Function
+`WlanSetUIForwardingNetworkList` | 233 | Exported Function
+`WlanSignalValueToBar` | 234 | Exported Function
+`WlanSetPsdIEDataList` | 231 | Exported Function
+`WlanSetSecuritySettings` | 232 | Exported Function
+`WlanWcmSetInterface` | 253 | Exported Function
+`WlanWcmSetProfile` | 254 | Exported Function
+`WlanWcmGetInterface` | 251 | Exported Function
+`WlanWcmGetProfileList` | 252 | Exported Function
+`WlanWfdStartGO` | 257 | Exported Function
+`WlanWfdStopGO` | 258 | Exported Function
+`WlanWfdGetPeerInfo` | 256 | Exported Function
+`WlanWfdGOSetWCNSettings` | 255 | Exported Function
+`WlanUpdateBasicProfileSecurity` | 245 | Exported Function
+`WlanUpdateProfileWithAuthCipher` | 246 | Exported Function
+`WlanStringToUtf8Ssid` | 243 | Exported Function
+`WlanTryUpgradeCurrentConnectionAuthCipher` | 244 | Exported Function
+`WlanVMgrQueryCurrentScenariosInt` | 248 | Exported Function
+`WlanWcmDisconnect` | 250 | Exported Function
+`WlanUtf8SsidToDisplayName` | 247 | Exported Function
+`WlanVerifyProfileIpConfiguration` | 249 | Exported Function
+`WlanQueryPlapCredentials` | 205 | Exported Function
+`WlanQueryPreConnectInput` | 206 | Exported Function
+`WlanQueryCreateAllUserProfileRestricted` | 203 | Exported Function
+`WlanQueryInterface` | 204 | Exported Function
+`WlanRefreshConnections` | 209 | Exported Function
+`WlanRegisterDeviceServiceNotification` | 210 | Exported Function
+`WlanQueryVirtualInterfaceType` | 207 | Exported Function
+`WlanReasonCodeToString` | 208 | Exported Function
+`WlanPrivateSetInterface` | 197 | Exported Function
+`WlanPrivateSetProfile` | 198 | Exported Function
+`WlanPrivateQueryInterface` | 195 | Exported Function
+`WlanPrivateRefreshAnqpCache` | 196 | Exported Function
+`WlanProfileIpConfigurationGetGatewayList` | 201 | Exported Function
+`WlanQueryAutoConfigParameter` | 202 | Exported Function
+`WlanProfileIpConfigurationGetAddressList` | 199 | Exported Function
+`WlanProfileIpConfigurationGetDnsServerList` | 200 | Exported Function
+`WlanSetInterface` | 221 | Exported Function
+`WlanSetProfile` | 222 | Exported Function
+`WlanSetAutoConfigParameter` | 219 | Exported Function
+`WlanSetFilterList` | 220 | Exported Function
+`WlanSetProfileEapXmlUserData` | 225 | Exported Function
+`WlanSetProfileList` | 226 | Exported Function
+`WlanSetProfileCustomUserData` | 223 | Exported Function
+`WlanSetProfileEapUserData` | 224 | Exported Function
+`WlanRemoveUIForwardingNetworkList` | 213 | Exported Function
+`WlanRenameProfile` | 214 | Exported Function
+`WlanRegisterNotification` | 211 | Exported Function
+`WlanRegisterVirtualStationNotification` | 212 | Exported Function
+`WlanSendUIResponse` | 217 | Exported Function
+`WlanSetAllUserProfileRestricted` | 218 | Exported Function
+`WlanSaveTemporaryProfile` | 215 | Exported Function
+`WlanScan` | 216 | Exported Function
+`WFDLowPrivDeclineDeviceApiConnectionRequestInt` | 43 | Exported Function
+`WFDLowPrivGetPendingGroupRequestDetailsInt` | 44 | Exported Function
+`WFDLowPrivCloseSessionInt` | 41 | Exported Function
+`WFDLowPrivConfigureFirewallForSessionInt` | 42 | Exported Function
+`WFDLowPrivOpenHandleInt` | 47 | Exported Function
+`WFDLowPrivOpenLegacySessionInt` | 48 | Exported Function
+`WFDLowPrivGetSessionEndpointPairsInt` | 45 | Exported Function
+`WFDLowPrivIsWfdSupportedInt` | 46 | Exported Function
+`WFDGetVisibleDevicesInt` | 35 | Exported Function
+`WFDIsInterfaceWiFiDirect` | 36 | Exported Function
+`WFDGetSessionEndpointPairsInt` | 33 | Exported Function
+`WFDGetVisibleDevicesExInt` | 34 | Exported Function
+`WFDLowPrivCloseHandleInt` | 39 | Exported Function
+`WFDLowPrivCloseLegacySessionInt` | 40 | Exported Function
+`WFDIsWiFiDirectRunningOnWiFiAdapter` | 37 | Exported Function
+`WFDLowPrivCancelOpenSessionInt` | 38 | Exported Function
+`WFDOpenHandle` | 59 | Exported Function
+`WFDOpenHandleInt` | 60 | Exported Function
+`WFDLowPrivStopUsingGroupInt` | 57 | Exported Function
+`WFDLowPrivUnregisterVMgrCallerInt` | 58 | Exported Function
+`WFDPairCancelByDeviceAddressInt` | 63 | Exported Function
+`WFDPairCancelInt` | 64 | Exported Function
+`WFDOpenLegacySession` | 61 | Exported Function
+`WFDOpenLegacySessionInt` | 62 | Exported Function
+`WFDLowPrivRegisterNotificationInt` | 51 | Exported Function
+`WFDLowPrivRegisterVMgrCallerInt` | 52 | Exported Function
+`WFDLowPrivOpenSessionByDafObjectIdInt` | 49 | Exported Function
+`WFDLowPrivQueryPropertyInt` | 50 | Exported Function
+`WFDLowPrivStartUsingGroupInt` | 55 | Exported Function
+`WFDLowPrivStopDeviceApiConnectionRequestListenerInt` | 56 | Exported Function
+`WFDLowPrivSetPropertyInt` | 53 | Exported Function
+`WFDLowPrivStartDeviceApiConnectionRequestListenerInt` | 54 | Exported Function
+`WFDCloseHandleInt` | 11 | Exported Function
+`WFDCloseLegacySessionInt` | 12 | Exported Function
+`WFDCancelOpenSessionInt` | 9 | Exported Function
+`WFDCloseHandle` | 10 | Exported Function
+`WFDCloseSessionInt` | 15 | Exported Function
+`WFDConfigureFirewallForSessionInt` | 16 | Exported Function
+`WFDCloseOOBPairingSession` | 13 | Exported Function
+`WFDCloseSession` | 14 | Exported Function
+`WFDAbortSessionInt` | 3 | Exported Function
+`WFDAcceptConnectRequestAndOpenSessionInt` | 4 | Exported Function
+`QueryNetconStatus` | 1 | Exported Function
+`QueryNetconVirtualCharacteristic` | 2 | Exported Function
+`WFDCancelListenerPairWithOOB` | 7 | Exported Function
+`WFDCancelOpenSession` | 8 | Exported Function
+`WFDAcceptGroupRequestAndOpenSessionInt` | 5 | Exported Function
+`WFDCancelConnectorPairWithOOB` | 6 | Exported Function
+`WFDGetDefaultGroupProfileInt` | 27 | Exported Function
+`WFDGetDeviceDescriptorForPendingRequestInt` | 28 | Exported Function
+`WFDForceDisconnectLegacyPeerInt` | 25 | Exported Function
+`WFDFreeMemoryInt` | 26 | Exported Function
+`WFDGetPrimaryAdapterStateInt` | 31 | Exported Function
+`WFDGetProfileKeyInfoInt` | 32 | Exported Function
+`WFDGetNFCCarrierConfigBlobInt` | 29 | Exported Function
+`WFDGetOOBBlob` | 30 | Exported Function
+`WFDDeclineGroupRequestInt` | 19 | Exported Function
+`WFDDiscoverDeviceServiceInformationInt` | 20 | Exported Function
+`WFDCreateDHPrivatePublicKeyPairInt` | 17 | Exported Function
+`WFDDeclineConnectRequestInt` | 18 | Exported Function
+`WFDFlushVisibleDeviceListInt` | 23 | Exported Function
+`WFDForceDisconnectInt` | 24 | Exported Function
+`WFDDiscoverDevicesExInt` | 21 | Exported Function
+`WFDDiscoverDevicesInt` | 22 | Exported Function
+`WFDPairContinuePairWithDeviceInt` | 65 | Exported Function
+`WiFiDisplayResetSinkStateInt` | 108 | Exported Function
+`WiFiDisplaySetSinkClientHandleInt` | 109 | Exported Function
+`WFDUnregisterVMgrCallerInt` | 106 | Exported Function
+`WFDUpdateDeviceVisibility` | 107 | Exported Function
+`WlanAllocateProfileIpConfiguration` | 112 | Exported Function
+`WlanCancelPlap` | 113 | Exported Function
+`WiFiDisplaySetSinkStateInt` | 110 | Exported Function
+`WlanAllocateMemory` | 111 | Exported Function
+`WFDSvcLowPrivGetProvisioningInfoInt` | 100 | Exported Function
+`WFDSvcLowPrivGetSessionEndpointPairsInt` | 101 | Exported Function
+`WFDSvcLowPrivConfigureSessionInt` | 98 | Exported Function
+`WFDSvcLowPrivConnectSessionInt` | 99 | Exported Function
+`WFDSvcLowPrivPublishServiceInt` | 104 | Exported Function
+`WFDSvcLowPrivUnpublishServiceInt` | 105 | Exported Function
+`WFDSvcLowPrivOpenAdvertiserSessionInt` | 102 | Exported Function
+`WFDSvcLowPrivOpenSeekerSessionInt` | 103 | Exported Function
+`WlanEnumAllInterfaces` | 124 | Exported Function
+`WlanEnumInterfaces` | 125 | Exported Function
+`WlanDoesBssMatchSecurity` | 123 | Exported Function
+`WlanDoPlap` | 122 | Exported Function
+`WlanGenerateProfileXmlBasicSettings` | 128 | Exported Function
+`WlanGetAvailableNetworkList` | 130 | Exported Function
+`WlanExtractPsdIEDataList` | 126 | Exported Function
+`WlanFreeMemory` | 127 | Exported Function
+`WlanConnectEx` | 116 | Exported Function
+`WlanConnectWithInput` | 117 | Exported Function
+`WlanCloseHandle` | 114 | Exported Function
+`WlanConnect` | 115 | Exported Function
+`WlanDeviceServiceCommand` | 120 | Exported Function
+`WlanDisconnect` | 121 | Exported Function
+`WlanDeinitPlapParams` | 118 | Exported Function
+`WlanDeleteProfile` | 119 | Exported Function
+`WFDRegisterVMgrCallerInt` | 76 | Exported Function
+`WFDResetSelectedWfdMgrInt` | 77 | Exported Function
+`WFDQueryPropertyInt` | 74 | Exported Function
+`WFDRegisterNotificationInt` | 75 | Exported Function
+`WFDSetSecondaryDeviceTypeListInt` | 80 | Exported Function
+`WFDSetSelectedWfdMgrInt` | 81 | Exported Function
+`WFDSetAdditionalIEsInt` | 78 | Exported Function
+`WFDSetPropertyInt` | 79 | Exported Function
+`WFDPairWithDeviceAndOpenSessionExInt` | 68 | Exported Function
+`WFDPairWithDeviceAndOpenSessionInt` | 69 | Exported Function
+`WFDPairEnumerateCeremoniesInt` | 66 | Exported Function
+`WFDPairSelectCeremonyInt` | 67 | Exported Function
+`WFDParseProfileXmlInt` | 72 | Exported Function
+`WFDParseWfaNfcCarrierConfigBlobInt` | 73 | Exported Function
+`WFDParseOOBBlob` | 70 | Exported Function
+`WFDParseOOBBlobTypeAndGetPayloadInt` | 71 | Exported Function
+`WFDStopDiscoverDevicesInt` | 92 | Exported Function
+`WFDStopOffloadedDiscoveryInt` | 93 | Exported Function
+`WFDStopBackgroundDiscoveryInt` | 90 | Exported Function
+`WFDStopDiscoverDevicesExInt` | 91 | Exported Function
+`WFDSvcLowPrivCancelSessionInt` | 96 | Exported Function
+`WFDSvcLowPrivCloseSessionInt` | 97 | Exported Function
+`WFDStopUsingGroupInt` | 94 | Exported Function
+`WFDSvcLowPrivAcceptSessionInt` | 95 | Exported Function
+`WFDStartListenerPairWithOOB` | 84 | Exported Function
+`WFDStartOffloadedDiscoveryInt` | 85 | Exported Function
+`WFDStartBackgroundDiscoveryInt` | 82 | Exported Function
+`WFDStartConnectorPairWithOOB` | 83 | Exported Function
+`WFDStartUsingGroupExInt` | 88 | Exported Function
+`WFDStartUsingGroupInt` | 89 | Exported Function
+`WFDStartOpenSession` | 86 | Exported Function
+`WFDStartOpenSessionInt` | 87 | Exported Function
 
 
 ## Signature

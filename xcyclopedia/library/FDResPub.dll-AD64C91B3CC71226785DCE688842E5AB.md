@@ -24,11 +24,11 @@ PE256 | `07F4AA8CACA986A75D660DAAF2022733C3C73B97821FFE92005BD84292FE72BD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FDResPub_MainHosted` | 1 (0x1) | Exported Function | 0x0000000180004410 | 0x00004410
-`ServiceMain` | 2 (0x2) | Exported Function | 0x0000000180003f70 | 0x00003f70
-`SvchostPushServiceGlobals` | 3 (0x3) | Exported Function | 0x0000000180004150 | 0x00004150
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 3 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`FDResPub_MainHosted` | 1 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `C52F92461536BD5677851FFAAC8223A802E7C3468D24C5472DCE3A2DD4687567`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateFileStream` | 1 (0x1) | Exported Function | 0x0000000180003fa0 | 0x00003fa0
-`ZipContainerCreateArchiveOnFile` | 2 (0x2) | Exported Function | 0x0000000180003dd0 | 0x00003dd0
-`ZipContainerInitialize` | 3 (0x3) | Exported Function | 0x0000000180003db0 | 0x00003db0
-`ZipContainerUninitialize` | 4 (0x4) | Exported Function | 0x0000000180003dc0 | 0x00003dc0
+Function Name | Ordinal | Type
+-- | -- | --
+`ZipContainerInitialize` | 3 | Exported Function
+`ZipContainerUninitialize` | 4 | Exported Function
+`CreateFileStream` | 1 | Exported Function
+`ZipContainerCreateArchiveOnFile` | 2 | Exported Function
 
 
 ## Signature

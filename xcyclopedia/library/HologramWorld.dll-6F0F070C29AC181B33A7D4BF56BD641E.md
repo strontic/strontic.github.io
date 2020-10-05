@@ -24,10 +24,10 @@ PE256 | `8F399D7685650D890BF6781C81E26015E81744FA25D8892A8989DC2047DF4A26`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDebugOverlay` | 1 (0x1) | Exported Function | 0x0000000180082cd0 | 0x00082cd0
-`GetSharedWorldFactory` | 2 (0x2) | Exported Function | 0x00000001800b45a0 | 0x000b45a0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetSharedWorldFactory` | 2 | Exported Function
+`CreateDebugOverlay` | 1 | Exported Function
 
 
 ## Signature

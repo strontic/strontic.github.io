@@ -24,12 +24,12 @@ PE256 | `E92A91A91816BF9793DB44249563FFEC52316721D4CCC66EDFCF876AE5DB0157`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConfigTranslator` | 1 (0x1) | Exported Function | 0x10002350 | 0x00002350
-`ConfigureDlgProc` | 2 (0x2) | Exported Function | 0x10002440 | 0x00002440
-`SQLDataSourceToDriver` | 3 (0x3) | Exported Function | 0x100014d0 | 0x000014d0
-`SQLDriverToDataSource` | 4 (0x4) | Exported Function | 0x10001400 | 0x00001400
+Function Name | Ordinal | Type
+-- | -- | --
+`SQLDataSourceToDriver` | 3 | Exported Function
+`SQLDriverToDataSource` | 4 | Exported Function
+`ConfigTranslator` | 1 | Exported Function
+`ConfigureDlgProc` | 2 | Exported Function
 
 
 ## Signature

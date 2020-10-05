@@ -24,16 +24,16 @@ PE256 | `E01D6A2ED9E53E9C5A504AA309146B0CCB6D4DC2C6E18D9E80B801A41D08A459`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AcmEngineApply` | 1 (0x1) | Exported Function | 0x000000018002e150 | 0x0002e150
-`AcmEngineCollect` | 2 (0x2) | Exported Function | 0x000000018002ced0 | 0x0002ced0
-`AcmEngineCreate` | 3 (0x3) | Exported Function | 0x000000018002ca00 | 0x0002ca00
-`AcmEngineDelete` | 4 (0x4) | Exported Function | 0x000000018002cac0 | 0x0002cac0
-`AcmEngineGenerateMigXml` | 5 (0x5) | Exported Function | 0x000000018002cd50 | 0x0002cd50
-`AcmEngineSetBaseWorkingDirectory` | 6 (0x6) | Exported Function | 0x000000018002cb00 | 0x0002cb00
-`AcmMatchPluginExecute` | 7 (0x7) | Exported Function | 0x000000018002c9d0 | 0x0002c9d0
-`ApplyMigrationShimsW` | 8 (0x8) | Exported Function | 0x0000000180001690 | 0x00001690
+Function Name | Ordinal | Type
+-- | -- | --
+`AcmEngineSetBaseWorkingDirectory` | 6 | Exported Function
+`AcmEngineGenerateMigXml` | 5 | Exported Function
+`ApplyMigrationShimsW` | 8 | Exported Function
+`AcmMatchPluginExecute` | 7 | Exported Function
+`AcmEngineCollect` | 2 | Exported Function
+`AcmEngineApply` | 1 | Exported Function
+`AcmEngineDelete` | 4 | Exported Function
+`AcmEngineCreate` | 3 | Exported Function
 
 
 ## Signature

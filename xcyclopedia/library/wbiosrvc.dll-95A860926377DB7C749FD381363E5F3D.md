@@ -24,13 +24,13 @@ PE256 | `BA7048F45CF2A1834BBCACAF8D1456F2BE8973873BCA992EE3DBD267394CC5DC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OutOfProcessExceptionEventCallback` | 1 (0x1) | Exported Function | 0x0000000180006080 | 0x00006080
-`OutOfProcessExceptionEventDebuggerLaunchCallback` | 2 (0x2) | Exported Function | 0x0000000180006400 | 0x00006400
-`OutOfProcessExceptionEventSignatureCallback` | 3 (0x3) | Exported Function | 0x0000000180006140 | 0x00006140
-`ServiceMain` | 4 (0x4) | Exported Function | 0x00000001800054f0 | 0x000054f0
-`SvchostPushServiceGlobals` | 5 (0x5) | Exported Function | 0x00000001800054e0 | 0x000054e0
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 4 | Exported Function
+`SvchostPushServiceGlobals` | 5 | Exported Function
+`OutOfProcessExceptionEventSignatureCallback` | 3 | Exported Function
+`OutOfProcessExceptionEventCallback` | 1 | Exported Function
+`OutOfProcessExceptionEventDebuggerLaunchCallback` | 2 | Exported Function
 
 
 ## Signature

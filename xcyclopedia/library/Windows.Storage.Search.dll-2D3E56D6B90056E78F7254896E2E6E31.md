@@ -24,34 +24,32 @@ PE256 | `6D25A29C917C56ED44BCBC9915911487A0EEBCE57EF03F980F4254F4CF5949D4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDefaultProviderResolver` | 2002 (0x7d2) | Exported Function | 0x10065290 | 0x00065290
-`SHCreateScopeItemFromShellItem` | 2023 (0x7e7) | Exported Function | 0x1001fdf0 | 0x0001fdf0
-`SHCreateScopeItemFromKnownFolder` | 2022 (0x7e6) | Exported Function | 0x1007a740 | 0x0007a740
-`SHCreateScopeItemFromIDList` | 2021 (0x7e5) | Exported Function | 0x1007a680 | 0x0007a680
-`SHCreateScopeFromShellItemArray` | 2020 (0x7e4) | Exported Function | 0x1007a4f0 | 0x0007a4f0
-`SHCreateScopeFromIDListsEx` | 2019 (0x7e3) | Exported Function | 0x1007a400 | 0x0007a400
-`SHCreateScope` | 2018 (0x7e2) | Exported Function | 0x1007a3e0 | 0x0007a3e0
-`SHCreateAutoListWithID` | 2017 (0x7e1) | Exported Function | 0x100464b0 | 0x000464b0
-`SHCreateAutoList` | 2016 (0x7e0) | Exported Function | 0x10046490 | 0x00046490
-`SEARCH_WriteAutoListContents` | 2015 (0x7df) | Exported Function | 0x10068d90 | 0x00068d90
-`SEARCH_RemoteLocationsCscStateCache_IsRemoteLocationInCsc` | 2014 (0x7de) | Exported Function | 0x10068d80 | 0x00068d80
-`Ordinal2001` | 2001 (0x7d1) | Exported Function | 0x100305a0 | 0x000305a0
-`Ordinal2000` | 2000 (0x7d0) | Exported Function | 0x1002ffb0 | 0x0002ffb0
-`IsShellItemInSearchIndex` | 2013 (0x7dd) | Exported Function | 0x10068c10 | 0x00068c10
-`IsMSSearchEnabled` | 2012 (0x7dc) | Exported Function | 0x1002d680 | 0x0002d680
-`GetScopeFolderType` | 2011 (0x7db) | Exported Function | 0x1007db30 | 0x0007db30
-`GetGatherAdmin` | 2010 (0x7da) | Exported Function | 0x100687b0 | 0x000687b0
-`DllUnregisterServer` | 2009 (0x7d9) | Exported Function | 0x1002d010 | 0x0002d010
-`DllRegisterServer` | 2008 (0x7d8) | Exported Function | 0x1002d010 | 0x0002d010
-`DllMain` | 2007 (0x7d7) | Exported Function | 0x1002f110 | 0x0002f110
-`DllGetClassObject` | 2006 (0x7d6) | Exported Function | 0x1000c830 | 0x0000c830
-`DllCanUnloadNow` | 2005 (0x7d5) | Exported Function | 0x10010860 | 0x00010860
-`CreateSingleVisibleInList` | 2004 (0x7d4) | Exported Function | 0x1007f2a0 | 0x0007f2a0
-`CreateResultSetFactory` | 2003 (0x7d3) | Exported Function | 0x10076c80 | 0x00076c80
-`SHCreateSearchIDListFromAutoList` | 2024 (0x7e8) | Exported Function | 0x10026850 | 0x00026850
-`SHCreateTransientVFolderIDList` | 2025 (0x7e9) | Exported Function | 0x1007de70 | 0x0007de70
+Function Name | Ordinal | Type
+-- | -- | --
+`SHCreateAutoListWithID` | 2017 | Exported Function
+`SHCreateScope` | 2018 | Exported Function
+`SHCreateScopeFromIDListsEx` | 2019 | Exported Function
+`SEARCH_RemoteLocationsCscStateCache_IsRemoteLocationInCsc` | 2014 | Exported Function
+`SEARCH_WriteAutoListContents` | 2015 | Exported Function
+`SHCreateAutoList` | 2016 | Exported Function
+`SHCreateScopeItemFromShellItem` | 2023 | Exported Function
+`SHCreateSearchIDListFromAutoList` | 2024 | Exported Function
+`SHCreateTransientVFolderIDList` | 2025 | Exported Function
+`SHCreateScopeFromShellItemArray` | 2020 | Exported Function
+`SHCreateScopeItemFromIDList` | 2021 | Exported Function
+`SHCreateScopeItemFromKnownFolder` | 2022 | Exported Function
+`DllCanUnloadNow` | 2005 | Exported Function
+`DllGetClassObject` | 2006 | Exported Function
+`DllMain` | 2007 | Exported Function
+`CreateDefaultProviderResolver` | 2002 | Exported Function
+`CreateResultSetFactory` | 2003 | Exported Function
+`CreateSingleVisibleInList` | 2004 | Exported Function
+`GetScopeFolderType` | 2011 | Exported Function
+`IsMSSearchEnabled` | 2012 | Exported Function
+`IsShellItemInSearchIndex` | 2013 | Exported Function
+`DllRegisterServer` | 2008 | Exported Function
+`DllUnregisterServer` | 2009 | Exported Function
+`GetGatherAdmin` | 2010 | Exported Function
 
 
 ## Signature

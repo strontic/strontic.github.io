@@ -24,9 +24,9 @@ PE256 | `31BDE841463BA6678C204E485DA6C171925EE87521DEFC8FCB9E83355DB9CD04`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IsDeviceEnrolled` | 1 (0x1) | Exported Function | 0x100049b0 | 0x000049b0
+Function Name | Ordinal | Type
+-- | -- | --
+`IsDeviceEnrolled` | 1 | Exported Function
 
 
 ## Signature

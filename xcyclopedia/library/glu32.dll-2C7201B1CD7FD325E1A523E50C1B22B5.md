@@ -24,60 +24,60 @@ PE256 | `37F507001692CB9D8777851D6736583E7139B084153D70E3C3DAC505BDD5A302`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`gluBeginCurve` | 1 (0x1) | Exported Function | 0x50e02140 | 0x00002140
-`gluNurbsProperty` | 29 (0x1d) | Exported Function | 0x50e026a0 | 0x000026a0
-`gluNurbsSurface` | 30 (0x1e) | Exported Function | 0x50e02560 | 0x00002560
-`gluOrtho2D` | 31 (0x1f) | Exported Function | 0x50e13b90 | 0x00013b90
-`gluPartialDisk` | 32 (0x20) | Exported Function | 0x50e102e0 | 0x000102e0
-`gluPerspective` | 33 (0x21) | Exported Function | 0x50e13c00 | 0x00013c00
-`gluPickMatrix` | 34 (0x22) | Exported Function | 0x50e14ee0 | 0x00014ee0
-`gluProject` | 35 (0x23) | Exported Function | 0x50e149b0 | 0x000149b0
-`gluPwlCurve` | 36 (0x24) | Exported Function | 0x50e023c0 | 0x000023c0
-`gluQuadricCallback` | 37 (0x25) | Exported Function | 0x50e0ee80 | 0x0000ee80
-`gluQuadricDrawStyle` | 38 (0x26) | Exported Function | 0x50e0ef80 | 0x0000ef80
-`gluNurbsCurve` | 28 (0x1c) | Exported Function | 0x50e02490 | 0x00002490
-`gluQuadricNormals` | 39 (0x27) | Exported Function | 0x50e0eec0 | 0x0000eec0
-`gluQuadricTexture` | 41 (0x29) | Exported Function | 0x50e0ef10 | 0x0000ef10
-`gluScaleImage` | 42 (0x2a) | Exported Function | 0x50e0d770 | 0x0000d770
-`gluSphere` | 43 (0x2b) | Exported Function | 0x50e115f0 | 0x000115f0
-`gluTessBeginContour` | 44 (0x2c) | Exported Function | 0x50e056b0 | 0x000056b0
-`gluTessBeginPolygon` | 45 (0x2d) | Exported Function | 0x50e05650 | 0x00005650
-`gluTessCallback` | 46 (0x2e) | Exported Function | 0x50e05000 | 0x00005000
-`gluTessEndContour` | 47 (0x2f) | Exported Function | 0x50e05700 | 0x00005700
-`gluTessEndPolygon` | 48 (0x30) | Exported Function | 0x50e05730 | 0x00005730
-`gluTessNormal` | 49 (0x31) | Exported Function | 0x50e04fb0 | 0x00004fb0
-`gluTessProperty` | 50 (0x32) | Exported Function | 0x50e04d10 | 0x00004d10
-`gluQuadricOrientation` | 40 (0x28) | Exported Function | 0x50e0ef30 | 0x0000ef30
-`gluNurbsCallback` | 27 (0x1b) | Exported Function | 0x50e02d70 | 0x00002d70
-`gluNextContour` | 26 (0x1a) | Exported Function | 0x50e05940 | 0x00005940
-`gluNewTess` | 25 (0x19) | Exported Function | 0x50e04970 | 0x00004970
-`gluBeginPolygon` | 2 (0x2) | Exported Function | 0x50e05910 | 0x00005910
-`gluBeginSurface` | 3 (0x3) | Exported Function | 0x50e020c0 | 0x000020c0
-`gluBeginTrim` | 4 (0x4) | Exported Function | 0x50e022c0 | 0x000022c0
-`gluBuild1DMipmaps` | 5 (0x5) | Exported Function | 0x50e0d920 | 0x0000d920
-`gluBuild2DMipmaps` | 6 (0x6) | Exported Function | 0x50e0dce0 | 0x0000dce0
-`gluCylinder` | 7 (0x7) | Exported Function | 0x50e0efd0 | 0x0000efd0
-`gluDeleteNurbsRenderer` | 8 (0x8) | Exported Function | 0x50e02010 | 0x00002010
-`gluDeleteQuadric` | 9 (0x9) | Exported Function | 0x50e0ee20 | 0x0000ee20
-`gluDeleteTess` | 10 (0xa) | Exported Function | 0x50e04ce0 | 0x00004ce0
-`gluDisk` | 11 (0xb) | Exported Function | 0x50e10280 | 0x00010280
-`gluEndCurve` | 12 (0xc) | Exported Function | 0x50e021c0 | 0x000021c0
-`gluEndPolygon` | 13 (0xd) | Exported Function | 0x50e05960 | 0x00005960
-`gluEndSurface` | 14 (0xe) | Exported Function | 0x50e02240 | 0x00002240
-`gluEndTrim` | 15 (0xf) | Exported Function | 0x50e02340 | 0x00002340
-`gluErrorString` | 16 (0x10) | Exported Function | 0x50e137c0 | 0x000137c0
-`gluErrorUnicodeStringEXT` | 17 (0x11) | Exported Function | 0x50e13710 | 0x00013710
-`gluGetNurbsProperty` | 18 (0x12) | Exported Function | 0x50e02b40 | 0x00002b40
-`gluGetString` | 19 (0x13) | Exported Function | 0x50e13870 | 0x00013870
-`gluGetTessProperty` | 20 (0x14) | Exported Function | 0x50e04ed0 | 0x00004ed0
-`gluLoadSamplingMatrices` | 21 (0x15) | Exported Function | 0x50e02610 | 0x00002610
-`gluLookAt` | 22 (0x16) | Exported Function | 0x50e14050 | 0x00014050
-`gluNewNurbsRenderer` | 23 (0x17) | Exported Function | 0x50e01f40 | 0x00001f40
-`gluNewQuadric` | 24 (0x18) | Exported Function | 0x50e0edc0 | 0x0000edc0
-`gluTessVertex` | 51 (0x33) | Exported Function | 0x50e054d0 | 0x000054d0
-`gluUnProject` | 52 (0x34) | Exported Function | 0x50e14c30 | 0x00014c30
+Function Name | Ordinal | Type
+-- | -- | --
+`gluPwlCurve` | 36 | Exported Function
+`gluProject` | 35 | Exported Function
+`gluPickMatrix` | 34 | Exported Function
+`gluQuadricNormals` | 39 | Exported Function
+`gluQuadricDrawStyle` | 38 | Exported Function
+`gluQuadricCallback` | 37 | Exported Function
+`gluPerspective` | 33 | Exported Function
+`gluNurbsProperty` | 29 | Exported Function
+`gluNurbsCurve` | 28 | Exported Function
+`gluNurbsCallback` | 27 | Exported Function
+`gluPartialDisk` | 32 | Exported Function
+`gluOrtho2D` | 31 | Exported Function
+`gluNurbsSurface` | 30 | Exported Function
+`gluTessNormal` | 49 | Exported Function
+`gluTessEndPolygon` | 48 | Exported Function
+`gluTessEndContour` | 47 | Exported Function
+`gluUnProject` | 52 | Exported Function
+`gluTessVertex` | 51 | Exported Function
+`gluTessProperty` | 50 | Exported Function
+`gluTessCallback` | 46 | Exported Function
+`gluScaleImage` | 42 | Exported Function
+`gluQuadricTexture` | 41 | Exported Function
+`gluQuadricOrientation` | 40 | Exported Function
+`gluTessBeginPolygon` | 45 | Exported Function
+`gluTessBeginContour` | 44 | Exported Function
+`gluSphere` | 43 | Exported Function
+`gluDeleteTess` | 10 | Exported Function
+`gluDeleteQuadric` | 9 | Exported Function
+`gluDeleteNurbsRenderer` | 8 | Exported Function
+`gluEndPolygon` | 13 | Exported Function
+`gluEndCurve` | 12 | Exported Function
+`gluDisk` | 11 | Exported Function
+`gluCylinder` | 7 | Exported Function
+`gluBeginSurface` | 3 | Exported Function
+`gluBeginPolygon` | 2 | Exported Function
+`gluBeginCurve` | 1 | Exported Function
+`gluBuild2DMipmaps` | 6 | Exported Function
+`gluBuild1DMipmaps` | 5 | Exported Function
+`gluBeginTrim` | 4 | Exported Function
+`gluNewNurbsRenderer` | 23 | Exported Function
+`gluLookAt` | 22 | Exported Function
+`gluLoadSamplingMatrices` | 21 | Exported Function
+`gluNextContour` | 26 | Exported Function
+`gluNewTess` | 25 | Exported Function
+`gluNewQuadric` | 24 | Exported Function
+`gluGetTessProperty` | 20 | Exported Function
+`gluErrorString` | 16 | Exported Function
+`gluEndTrim` | 15 | Exported Function
+`gluEndSurface` | 14 | Exported Function
+`gluGetString` | 19 | Exported Function
+`gluGetNurbsProperty` | 18 | Exported Function
+`gluErrorUnicodeStringEXT` | 17 | Exported Function
 
 
 ## Signature

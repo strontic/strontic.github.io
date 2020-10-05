@@ -24,11 +24,11 @@ PE256 | `067EC82724D38E8C04FEC39EAEBA540CDDDF109157BF2EBB98F5BC7B5F3B3AF5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RtlCaptureContext` | 1 (0x1) | Exported Function | ntdll.RtlCaptureContext | 0x0000119e
-`RtlCaptureStackBackTrace` | 2 (0x2) | Exported Function | ntdll.RtlCaptureStackBackTrace | 0x000011cf
-`RtlUnwind` | 3 (0x3) | Exported Function | ntdll.RtlUnwind | 0x000011f8
+Function Name | Ordinal | Type
+-- | -- | --
+`RtlUnwind` | 3 | Exported Function
+`RtlCaptureStackBackTrace` | 2 | Exported Function
+`RtlCaptureContext` | 1 | Exported Function
 
 
 ## Signature

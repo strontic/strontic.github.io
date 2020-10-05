@@ -24,10 +24,10 @@ PE256 | `CAD5429BA1241AFBE962DAA48F155294CB48BDC554A4EC35B8E379F7C919BD2A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10002820 | 0x00002820
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x10002850 | 0x00002850
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

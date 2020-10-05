@@ -24,9 +24,9 @@ PE256 | `0C4B073D6619BD923C44CAB33E018B6C2EF45B62B43081E555DA362951AF7483`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateIImeSystemDictInstance` | 10 (0xa) | Exported Function | 0x00000001800015c0 | 0x000015c0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateIImeSystemDictInstance` | 10 | Exported Function
 
 
 ## Signature

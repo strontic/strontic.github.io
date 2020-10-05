@@ -24,23 +24,23 @@ PE256 | `96292D933D4FF8FE4FE2201753EF592FF354DA639D692B0496659D14516CED85`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BrandingFormatString` | 1 (0x1) | Exported Function | 0x0000000180014f90 | 0x00014f90
-`BrandingFormatStringForEdition` | 2 (0x2) | Exported Function | 0x000000018001aa40 | 0x0001aa40
-`BrandingLoadBitmap` | 3 (0x3) | Exported Function | 0x000000018001ad30 | 0x0001ad30
-`BrandingLoadCursor` | 4 (0x4) | Exported Function | 0x000000018001ad60 | 0x0001ad60
-`BrandingLoadIcon` | 5 (0x5) | Exported Function | 0x000000018001ad90 | 0x0001ad90
-`BrandingLoadImage` | 6 (0x6) | Exported Function | 0x000000018001adc0 | 0x0001adc0
-`BrandingLoadNeutralStringForEdition` | 7 (0x7) | Exported Function | 0x0000000180005710 | 0x00005710
-`BrandingLoadString` | 8 (0x8) | Exported Function | 0x00000001800040a0 | 0x000040a0
-`BrandingLoadStringForEdition` | 9 (0x9) | Exported Function | 0x0000000180004210 | 0x00004210
-`EulaFreeBuffer` | 10 (0xa) | Exported Function | 0x0000000180014de0 | 0x00014de0
-`GetEULAFile` | 11 (0xb) | Exported Function | 0x00000001800210f0 | 0x000210f0
-`GetEULAInCurrentUILanguage` | 12 (0xc) | Exported Function | 0x0000000180021210 | 0x00021210
-`GetHinstanceByNameSpace` | 13 (0xd) | Exported Function | 0x0000000180005460 | 0x00005460
-`GetInstalledEULAPath` | 14 (0xe) | Exported Function | 0x0000000180021280 | 0x00021280
-`InstallEULA` | 15 (0xf) | Exported Function | 0x0000000180021530 | 0x00021530
+Function Name | Ordinal | Type
+-- | -- | --
+`GetEULAFile` | 11 | Exported Function
+`EulaFreeBuffer` | 10 | Exported Function
+`BrandingLoadStringForEdition` | 9 | Exported Function
+`GetEULAInCurrentUILanguage` | 12 | Exported Function
+`InstallEULA` | 15 | Exported Function
+`GetInstalledEULAPath` | 14 | Exported Function
+`GetHinstanceByNameSpace` | 13 | Exported Function
+`BrandingLoadString` | 8 | Exported Function
+`BrandingLoadBitmap` | 3 | Exported Function
+`BrandingFormatStringForEdition` | 2 | Exported Function
+`BrandingFormatString` | 1 | Exported Function
+`BrandingLoadCursor` | 4 | Exported Function
+`BrandingLoadNeutralStringForEdition` | 7 | Exported Function
+`BrandingLoadImage` | 6 | Exported Function
+`BrandingLoadIcon` | 5 | Exported Function
 
 
 ## Signature

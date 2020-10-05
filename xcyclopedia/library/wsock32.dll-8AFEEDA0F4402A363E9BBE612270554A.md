@@ -24,83 +24,83 @@ PE256 | `AD7AA2932369790B6BFE7349D25E215446253C642E855935C0092E0261EA6AED`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__WSAFDIsSet` | 151 (0x97) | Exported Function | ws2_32.__WSAFDIsSet | 0x00003957
-`shutdown` | 22 (0x16) | Exported Function | ws2_32.shutdown | 0x00003cf8
-`setsockopt` | 21 (0x15) | Exported Function | 0x52e813d0 | 0x000013d0
-`SetServiceW` | 1118 (0x45e) | Exported Function | MSWSOCK.SetServiceW | 0x00003619
-`SetServiceA` | 1117 (0x45d) | Exported Function | MSWSOCK.SetServiceA | 0x000035f9
-`sethostname` | 1105 (0x451) | Exported Function | MSWSOCK.sethostname | 0x00003cd0
-`sendto` | 20 (0x14) | Exported Function | ws2_32.sendto | 0x00003cb6
-`send` | 19 (0x13) | Exported Function | ws2_32.send | 0x00003ca3
-`select` | 18 (0x12) | Exported Function | ws2_32.select | 0x00003c90
-`s_perror` | 1108 (0x454) | Exported Function | MSWSOCK.s_perror | 0x00003c78
-`rresvport` | 1104 (0x450) | Exported Function | MSWSOCK.rresvport | 0x00003c5d
-`rexec` | 1103 (0x44f) | Exported Function | MSWSOCK.rexec | 0x00003c45
-`recvfrom` | 17 (0x11) | Exported Function | 0x52e81eb0 | 0x00001eb0
-`recv` | 16 (0x10) | Exported Function | 0x52e81e40 | 0x00001e40
-`rcmd` | 1102 (0x44e) | Exported Function | MSWSOCK.rcmd | 0x00003c24
-`ntohs` | 15 (0xf) | Exported Function | ws2_32.ntohs | 0x00003c12
-`socket` | 23 (0x17) | Exported Function | ws2_32.socket | 0x00003d0f
-`ntohl` | 14 (0xe) | Exported Function | ws2_32.ntohl | 0x00003bff
-`TransmitFile` | 1140 (0x474) | Exported Function | MSWSOCK.TransmitFile | 0x0000363a
-`WSAAsyncGetHostByAddr` | 102 (0x66) | Exported Function | ws2_32.WSAAsyncGetHostByAddr | 0x00003674
-`WSASetLastError` | 112 (0x70) | Exported Function | ws2_32.WSASetLastError | 0x000038e3
-`WSASetBlockingHook` | 109 (0x6d) | Exported Function | ws2_32.WSASetBlockingHook | 0x000038b9
-`WSARecvEx` | 1107 (0x453) | Exported Function | MSWSOCK.WSARecvEx | 0x00003894
-`WSApSetPostRoutine` | 1000 (0x3e8) | Exported Function | ws2_32.WSApSetPostRoutine | 0x000033a1
-`WSAIsBlocking` | 114 (0x72) | Exported Function | ws2_32.WSAIsBlocking | 0x00003875
-`WSAGetLastError` | 111 (0x6f) | Exported Function | ws2_32.WSAGetLastError | 0x00003850
-`WSACleanup` | 116 (0x74) | Exported Function | ws2_32.WSACleanup | 0x0000382e
-`WSACancelBlockingCall` | 113 (0x71) | Exported Function | ws2_32.WSACancelBlockingCall | 0x00003806
-`WSACancelAsyncRequest` | 108 (0x6c) | Exported Function | ws2_32.WSACancelAsyncRequest | 0x000037d3
-`WSAAsyncSelect` | 101 (0x65) | Exported Function | ws2_32.WSAAsyncSelect | 0x000037a7
-`WSAAsyncGetServByPort` | 106 (0x6a) | Exported Function | ws2_32.WSAAsyncGetServByPort | 0x0000377b
-`WSAAsyncGetServByName` | 107 (0x6b) | Exported Function | ws2_32.WSAAsyncGetServByName | 0x00003748
-`WSAAsyncGetProtoByNumber` | 104 (0x68) | Exported Function | ws2_32.WSAAsyncGetProtoByNumber | 0x00003712
-`WSAAsyncGetProtoByName` | 105 (0x69) | Exported Function | ws2_32.WSAAsyncGetProtoByName | 0x000036db
-`WSAAsyncGetHostByName` | 103 (0x67) | Exported Function | ws2_32.WSAAsyncGetHostByName | 0x000036a7
-`WEP` | 500 (0x1f4) | Exported Function | ws2_32.WEP | 0x00003653
-`WSAStartup` | 115 (0x73) | Exported Function | ws2_32.WSAStartup | 0x00003905
-`NPLoadNameSpaces` | 1130 (0x46a) | Exported Function | MSWSOCK.NPLoadNameSpaces | 0x000035d4
-`listen` | 13 (0xd) | Exported Function | ws2_32.listen | 0x00003beb
-`GetNameByTypeA` | 1115 (0x45b) | Exported Function | MSWSOCK.GetNameByTypeA | 0x000034ba
-`gethostname` | 57 (0x39) | Exported Function | ws2_32.gethostname | 0x00003a35
-`gethostbyname` | 52 (0x34) | Exported Function | ws2_32.gethostbyname | 0x00003a14
-`gethostbyaddr` | 51 (0x33) | Exported Function | ws2_32.gethostbyaddr | 0x000039f1
-`GetAddressByNameW` | 1110 (0x456) | Exported Function | MSWSOCK.GetAddressByNameW | 0x00003491
-`GetAddressByNameA` | 1109 (0x455) | Exported Function | MSWSOCK.GetAddressByNameA | 0x00003465
-`GetAcceptExSockaddrs` | 1142 (0x476) | Exported Function | MSWSOCK.GetAcceptExSockaddrs | 0x00003436
-`EnumProtocolsW` | 1112 (0x458) | Exported Function | MSWSOCK.EnumProtocolsW | 0x0000340a
-`EnumProtocolsA` | 1111 (0x457) | Exported Function | MSWSOCK.EnumProtocolsA | 0x000033e4
-`dn_expand` | 1106 (0x452) | Exported Function | MSWSOCK.dn_expand | 0x000039d1
-`connect` | 4 (0x4) | Exported Function | ws2_32.connect | 0x000039b8
-`closesocket` | 3 (0x3) | Exported Function | ws2_32.closesocket | 0x0000399d
-`bind` | 2 (0x2) | Exported Function | ws2_32.bind | 0x00003985
-`AcceptEx` | 1141 (0x475) | Exported Function | MSWSOCK.AcceptEx | 0x000033c4
-`accept` | 1 (0x1) | Exported Function | ws2_32.accept | 0x00003972
-`GetNameByTypeW` | 1116 (0x45c) | Exported Function | MSWSOCK.GetNameByTypeW | 0x000034e0
-`MigrateWinsockConfiguration` | 24 (0x18) | Exported Function | MSWSOCK.MigrateWinsockConfiguration | 0x0000359f
-`getnetbyname` | 1101 (0x44d) | Exported Function | MSWSOCK.getnetbyname | 0x00003a55
-`getprotobyname` | 53 (0x35) | Exported Function | ws2_32.getprotobyname | 0x00003a98
-`ioctlsocket` | 12 (0xc) | Exported Function | ws2_32.ioctlsocket | 0x00003bd1
-`inet_ntoa` | 11 (0xb) | Exported Function | ws2_32.inet_ntoa | 0x00003bb4
-`inet_network` | 1100 (0x44c) | Exported Function | MSWSOCK.inet_network | 0x00003b95
-`inet_addr` | 10 (0xa) | Exported Function | ws2_32.inet_addr | 0x00003b77
-`htons` | 9 (0x9) | Exported Function | ws2_32.htons | 0x00003b60
-`htonl` | 8 (0x8) | Exported Function | ws2_32.htonl | 0x00003b4d
-`GetTypeByNameW` | 1114 (0x45a) | Exported Function | MSWSOCK.GetTypeByNameW | 0x0000356c
-`GetTypeByNameA` | 1113 (0x459) | Exported Function | MSWSOCK.GetTypeByNameA | 0x00003546
-`getsockopt` | 7 (0x7) | Exported Function | 0x52e81dd0 | 0x00001dd0
-`getsockname` | 6 (0x6) | Exported Function | ws2_32.getsockname | 0x00003b29
-`GetServiceW` | 1120 (0x460) | Exported Function | MSWSOCK.GetServiceW | 0x00003523
-`GetServiceA` | 1119 (0x45f) | Exported Function | MSWSOCK.GetServiceA | 0x00003503
-`getservbyport` | 56 (0x38) | Exported Function | ws2_32.getservbyport | 0x00003b08
-`getservbyname` | 55 (0x37) | Exported Function | ws2_32.getservbyname | 0x00003ae5
-`getprotobynumber` | 54 (0x36) | Exported Function | ws2_32.getprotobynumber | 0x00003abf
-`getpeername` | 5 (0x5) | Exported Function | ws2_32.getpeername | 0x00003a76
-`WSAUnhookBlockingHook` | 110 (0x6e) | Exported Function | ws2_32.WSAUnhookBlockingHook | 0x0000392d
+Function Name | Ordinal | Type
+-- | -- | --
+`sethostname` | 1105 | Exported Function
+`SetServiceA` | 1117 | Exported Function
+`send` | 19 | Exported Function
+`sendto` | 20 | Exported Function
+`SetServiceW` | 1118 | Exported Function
+`socket` | 23 | Exported Function
+`TransmitFile` | 1140 | Exported Function
+`setsockopt` | 21 | Exported Function
+`shutdown` | 22 | Exported Function
+`rcmd` | 1102 | Exported Function
+`recv` | 16 | Exported Function
+`ntohl` | 14 | Exported Function
+`ntohs` | 15 | Exported Function
+`recvfrom` | 17 | Exported Function
+`s_perror` | 1108 | Exported Function
+`select` | 18 | Exported Function
+`rexec` | 1103 | Exported Function
+`rresvport` | 1104 | Exported Function
+`WEP` | 500 | Exported Function
+`WSAIsBlocking` | 114 | Exported Function
+`WSApSetPostRoutine` | 1000 | Exported Function
+`WSACleanup` | 116 | Exported Function
+`WSAGetLastError` | 111 | Exported Function
+`WSARecvEx` | 1107 | Exported Function
+`WSAStartup` | 115 | Exported Function
+`WSAUnhookBlockingHook` | 110 | Exported Function
+`WSASetBlockingHook` | 109 | Exported Function
+`WSASetLastError` | 112 | Exported Function
+`WSAAsyncGetProtoByName` | 105 | Exported Function
+`WSAAsyncGetProtoByNumber` | 104 | Exported Function
+`WSAAsyncGetHostByAddr` | 102 | Exported Function
+`WSAAsyncGetHostByName` | 103 | Exported Function
+`WSAAsyncGetServByName` | 107 | Exported Function
+`WSACancelAsyncRequest` | 108 | Exported Function
+`WSACancelBlockingCall` | 113 | Exported Function
+`WSAAsyncGetServByPort` | 106 | Exported Function
+`WSAAsyncSelect` | 101 | Exported Function
+`NPLoadNameSpaces` | 1130 | Exported Function
+`GetAddressByNameW` | 1110 | Exported Function
+`gethostbyaddr` | 51 | Exported Function
+`GetAcceptExSockaddrs` | 1142 | Exported Function
+`GetAddressByNameA` | 1109 | Exported Function
+`gethostbyname` | 52 | Exported Function
+`GetNameByTypeW` | 1116 | Exported Function
+`getnetbyname` | 1101 | Exported Function
+`gethostname` | 57 | Exported Function
+`GetNameByTypeA` | 1115 | Exported Function
+`AcceptEx` | 1141 | Exported Function
+`bind` | 2 | Exported Function
+`__WSAFDIsSet` | 151 | Exported Function
+`accept` | 1 | Exported Function
+`closesocket` | 3 | Exported Function
+`EnumProtocolsA` | 1111 | Exported Function
+`EnumProtocolsW` | 1112 | Exported Function
+`connect` | 4 | Exported Function
+`dn_expand` | 1106 | Exported Function
+`getpeername` | 5 | Exported Function
+`htons` | 9 | Exported Function
+`inet_addr` | 10 | Exported Function
+`GetTypeByNameW` | 1114 | Exported Function
+`htonl` | 8 | Exported Function
+`inet_network` | 1100 | Exported Function
+`listen` | 13 | Exported Function
+`MigrateWinsockConfiguration` | 24 | Exported Function
+`inet_ntoa` | 11 | Exported Function
+`ioctlsocket` | 12 | Exported Function
+`getservbyname` | 55 | Exported Function
+`getservbyport` | 56 | Exported Function
+`getprotobyname` | 53 | Exported Function
+`getprotobynumber` | 54 | Exported Function
+`GetServiceA` | 1119 | Exported Function
+`getsockopt` | 7 | Exported Function
+`GetTypeByNameA` | 1113 | Exported Function
+`GetServiceW` | 1120 | Exported Function
+`getsockname` | 6 | Exported Function
 
 
 ## Signature

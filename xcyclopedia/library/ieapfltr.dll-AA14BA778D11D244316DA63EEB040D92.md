@@ -24,21 +24,21 @@ PE256 | `95A1956CAC36C79F664AAB3AC403DA47F4F696AA6828149D68CAA3F059964595`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateIAppRep2` | 1 (0x1) | Exported Function | 0x72ec4bb0 | 0x00024bb0
-`CreateIAppRepParm2` | 2 (0x2) | Exported Function | 0x72ec4c40 | 0x00024c40
-`CreateIUrlReputationSolution2` | 3 (0x3) | Exported Function | 0x72ec4c50 | 0x00024c50
-`CreateUrlBlockBroker` | 4 (0x4) | Exported Function | 0x72eaaf50 | 0x0000af50
-`CreateUrlBlockClient` | 5 (0x5) | Exported Function | 0x72eaad20 | 0x0000ad20
-`DestroyUrlBlockBroker` | 6 (0x6) | Exported Function | 0x72ec4d60 | 0x00024d60
-`DestroyUrlBlockClient` | 7 (0x7) | Exported Function | 0x72ec4d70 | 0x00024d70
-`DllCanUnloadNow` | 8 (0x8) | Exported Function | 0x72ec4d80 | 0x00024d80
-`DllGetClassObject` | 9 (0x9) | Exported Function | 0x72ec4e10 | 0x00024e10
-`DllRegisterServer` | 10 (0xa) | Exported Function | 0x72ec4e80 | 0x00024e80
-`DllUnregisterServer` | 11 (0xb) | Exported Function | 0x72ec4ef0 | 0x00024ef0
-`GetUrlBlockBroker` | 12 (0xc) | Exported Function | 0x72ec4f60 | 0x00024f60
-`GetUrlBlockClient` | 13 (0xd) | Exported Function | 0x72ec4f80 | 0x00024f80
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 10 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
+`DllCanUnloadNow` | 8 | Exported Function
+`GetUrlBlockClient` | 13 | Exported Function
+`GetUrlBlockBroker` | 12 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
+`DestroyUrlBlockClient` | 7 | Exported Function
+`CreateIUrlReputationSolution2` | 3 | Exported Function
+`CreateIAppRepParm2` | 2 | Exported Function
+`CreateIAppRep2` | 1 | Exported Function
+`DestroyUrlBlockBroker` | 6 | Exported Function
+`CreateUrlBlockClient` | 5 | Exported Function
+`CreateUrlBlockBroker` | 4 | Exported Function
 
 
 ## Signature

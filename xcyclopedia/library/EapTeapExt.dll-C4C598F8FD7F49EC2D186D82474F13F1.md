@@ -24,10 +24,10 @@ PE256 | `AE721AAF7D982F4992764006F2C45A4DA0258C762173FF483CB156C289C1259C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TeapExt_EapPeerInvokeConfigUI` | 1 (0x1) | Exported Function | 0x1000d110 | 0x0000d110
-`TtlsExt_FreeMemoryExt` | 2 (0x2) | Exported Function | 0x100050a0 | 0x000050a0
+Function Name | Ordinal | Type
+-- | -- | --
+`TtlsExt_FreeMemoryExt` | 2 | Exported Function
+`TeapExt_EapPeerInvokeConfigUI` | 1 | Exported Function
 
 
 ## Signature

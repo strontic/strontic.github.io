@@ -24,11 +24,11 @@ PE256 | `5C582DF665505AB44F5ECFD9CD033B080A184B93F4A9DCE3936AB1DD93484C9E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000171214160 | 0x00014160
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000171207540 | 0x00007540
-`RouteTheCall` | 1 (0x1) | Exported Function | 0x00000001712104c0 | 0x000104c0
+Function Name | Ordinal | Type
+-- | -- | --
+`RouteTheCall` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

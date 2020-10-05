@@ -24,21 +24,21 @@ PE256 | `82369E1985FF98D92C0F7CBFAF347C2D3925EE726229B8695AA275DE0BE9766D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RtlAddFunctionTable` | 1 (0x1) | Exported Function | ntdll.RtlAddFunctionTable | 0x00001144
-`RtlCaptureContext` | 2 (0x2) | Exported Function | ntdll.RtlCaptureContext | 0x00001170
-`RtlCaptureStackBackTrace` | 3 (0x3) | Exported Function | ntdll.RtlCaptureStackBackTrace | 0x000011a1
-`RtlCompareMemory` | 4 (0x4) | Exported Function | ntdll.RtlCompareMemory | 0x000011d1
-`RtlDeleteFunctionTable` | 5 (0x5) | Exported Function | ntdll.RtlDeleteFunctionTable | 0x000011ff
-`RtlInstallFunctionTableCallback` | 6 (0x6) | Exported Function | ntdll.RtlInstallFunctionTableCallback | 0x0000123c
-`RtlLookupFunctionEntry` | 7 (0x7) | Exported Function | ntdll.RtlLookupFunctionEntry | 0x00001279
-`RtlPcToFileHeader` | 8 (0x8) | Exported Function | ntdll.RtlPcToFileHeader | 0x000012a8
-`RtlRaiseException` | 9 (0x9) | Exported Function | ntdll.RtlRaiseException | 0x000012d2
-`RtlRestoreContext` | 10 (0xa) | Exported Function | ntdll.RtlRestoreContext | 0x000012fc
-`RtlUnwind` | 11 (0xb) | Exported Function | ntdll.RtlUnwind | 0x0000131e
-`RtlUnwindEx` | 12 (0xc) | Exported Function | ntdll.RtlUnwindEx | 0x0000133a
-`RtlVirtualUnwind` | 13 (0xd) | Exported Function | ntdll.RtlVirtualUnwind | 0x0000135d
+Function Name | Ordinal | Type
+-- | -- | --
+`RtlRestoreContext` | 10 | Exported Function
+`RtlRaiseException` | 9 | Exported Function
+`RtlPcToFileHeader` | 8 | Exported Function
+`RtlVirtualUnwind` | 13 | Exported Function
+`RtlUnwindEx` | 12 | Exported Function
+`RtlUnwind` | 11 | Exported Function
+`RtlLookupFunctionEntry` | 7 | Exported Function
+`RtlCaptureStackBackTrace` | 3 | Exported Function
+`RtlCaptureContext` | 2 | Exported Function
+`RtlAddFunctionTable` | 1 | Exported Function
+`RtlInstallFunctionTableCallback` | 6 | Exported Function
+`RtlDeleteFunctionTable` | 5 | Exported Function
+`RtlCompareMemory` | 4 | Exported Function
 
 
 ## Signature

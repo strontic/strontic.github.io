@@ -24,10 +24,10 @@ PE256 | `6A301D78053FC87142C7E45DDDF14F8FA4F20242F59A58C85DB07EF5E7319A49`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180001ec0 | 0x00001ec0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180001ee0 | 0x00001ee0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

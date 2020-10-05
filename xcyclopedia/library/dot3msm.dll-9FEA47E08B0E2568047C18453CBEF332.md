@@ -24,29 +24,29 @@ PE256 | `CAA33B6EFE55BFD6C93DF7F82BE501F014B19D18F31912D7EC92A3A0F0029B8B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x10004d50 | 0x00004d50
-`Dot3MsmValidateProfile` | 19 (0x13) | Exported Function | 0x10007f10 | 0x00007f10
-`Dot3MsmUIResponse` | 18 (0x12) | Exported Function | 0x10008880 | 0x00008880
-`Dot3MsmSetRuntimeState` | 17 (0x11) | Exported Function | 0x1000a020 | 0x0000a020
-`Dot3MsmReAuthenticate` | 16 (0x10) | Exported Function | 0x1000a1f0 | 0x0000a1f0
-`Dot3MsmQueryState` | 15 (0xf) | Exported Function | 0x10008d30 | 0x00008d30
-`Dot3MsmQueryPendingUIRequest` | 14 (0xe) | Exported Function | 0x10008b60 | 0x00008b60
-`Dot3MsmQueryMediaState` | 13 (0xd) | Exported Function | 0x10008ec0 | 0x00008ec0
-`Dot3MsmOnMediaStateChange` | 12 (0xc) | Exported Function | 0x1000a5e0 | 0x0000a5e0
-`Dot3ReasonCodeMsmToString` | 20 (0x14) | Exported Function | 0x1000d560 | 0x0000d560
-`Dot3MsmInitAdapter` | 11 (0xb) | Exported Function | 0x10007fe0 | 0x00007fe0
-`Dot3MsmIndicateSessionChange` | 9 (0x9) | Exported Function | 0x100087a0 | 0x000087a0
-`Dot3MsmFreeProfile` | 8 (0x8) | Exported Function | 0x10008690 | 0x00008690
-`Dot3MsmFreeMemory` | 7 (0x7) | Exported Function | 0x100085a0 | 0x000085a0
-`Dot3MsmDisconnect` | 6 (0x6) | Exported Function | 0x10008450 | 0x00008450
-`Dot3MsmDeInitAdapter` | 5 (0x5) | Exported Function | 0x10008120 | 0x00008120
-`Dot3MsmDeInit` | 4 (0x4) | Exported Function | 0x10007d20 | 0x00007d20
-`Dot3MsmCreateDefaultProfile` | 3 (0x3) | Exported Function | 0x10007e70 | 0x00007e70
-`Dot3MsmConnect` | 2 (0x2) | Exported Function | 0x10008220 | 0x00008220
-`Dot3MsmInit` | 10 (0xa) | Exported Function | 0x10007bc0 | 0x00007bc0
-`Dot3SetPortAuthenticationState` | 21 (0x15) | Exported Function | 0x10009e00 | 0x00009e00
+Function Name | Ordinal | Type
+-- | -- | --
+`Dot3MsmQueryState` | 15 | Exported Function
+`Dot3MsmReAuthenticate` | 16 | Exported Function
+`Dot3MsmQueryPendingUIRequest` | 14 | Exported Function
+`Dot3MsmOnMediaStateChange` | 12 | Exported Function
+`Dot3MsmQueryMediaState` | 13 | Exported Function
+`Dot3ReasonCodeMsmToString` | 20 | Exported Function
+`Dot3SetPortAuthenticationState` | 21 | Exported Function
+`Dot3MsmValidateProfile` | 19 | Exported Function
+`Dot3MsmSetRuntimeState` | 17 | Exported Function
+`Dot3MsmUIResponse` | 18 | Exported Function
+`Dot3MsmInitAdapter` | 11 | Exported Function
+`Dot3MsmDeInit` | 4 | Exported Function
+`Dot3MsmDeInitAdapter` | 5 | Exported Function
+`Dot3MsmCreateDefaultProfile` | 3 | Exported Function
+`DllMain` | 1 | Exported Function
+`Dot3MsmConnect` | 2 | Exported Function
+`Dot3MsmIndicateSessionChange` | 9 | Exported Function
+`Dot3MsmInit` | 10 | Exported Function
+`Dot3MsmFreeProfile` | 8 | Exported Function
+`Dot3MsmDisconnect` | 6 | Exported Function
+`Dot3MsmFreeMemory` | 7 | Exported Function
 
 
 ## Signature

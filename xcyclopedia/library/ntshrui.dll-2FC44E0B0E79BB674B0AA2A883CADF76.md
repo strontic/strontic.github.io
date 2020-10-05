@@ -24,23 +24,23 @@ PE256 | `78FA49167B5E4CBAD577734E90714790F49AC73085D4C37E198B56E0D782B00D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CanShareFolder` | 1 (0x1) | Exported Function | 0x0000000180020b00 | 0x00020b00
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000018000a000 | 0x0000a000
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000018000eef0 | 0x0000eef0
-`GetLocalPathFromNetResource` | 4 (0x4) | Exported Function | 0x0000000180020c00 | 0x00020c00
-`GetLocalPathFromNetResourceA` | 5 (0x5) | Exported Function | 0x0000000180020c00 | 0x00020c00
-`GetLocalPathFromNetResourceW` | 6 (0x6) | Exported Function | 0x0000000180020c30 | 0x00020c30
-`GetNetResourceFromLocalPath` | 7 (0x7) | Exported Function | 0x0000000180020c00 | 0x00020c00
-`GetNetResourceFromLocalPathA` | 8 (0x8) | Exported Function | 0x0000000180020c00 | 0x00020c00
-`GetNetResourceFromLocalPathW` | 9 (0x9) | Exported Function | 0x000000018000ece0 | 0x0000ece0
-`IsFolderPrivateForUser` | 10 (0xa) | Exported Function | 0x00000001800495d0 | 0x000495d0
-`IsPathShared` | 11 (0xb) | Exported Function | 0x0000000180020c00 | 0x00020c00
-`IsPathSharedA` | 12 (0xc) | Exported Function | 0x0000000180020c00 | 0x00020c00
-`IsPathSharedW` | 13 (0xd) | Exported Function | 0x000000018000eba0 | 0x0000eba0
-`SetFolderPermissionsForSharing` | 14 (0xe) | Exported Function | 0x0000000180049860 | 0x00049860
-`ShowShareFolderUI` | 15 (0xf) | Exported Function | 0x0000000180020c90 | 0x00020c90
+Function Name | Ordinal | Type
+-- | -- | --
+`IsPathShared` | 11 | Exported Function
+`IsFolderPrivateForUser` | 10 | Exported Function
+`GetNetResourceFromLocalPathW` | 9 | Exported Function
+`IsPathSharedA` | 12 | Exported Function
+`ShowShareFolderUI` | 15 | Exported Function
+`SetFolderPermissionsForSharing` | 14 | Exported Function
+`IsPathSharedW` | 13 | Exported Function
+`GetNetResourceFromLocalPathA` | 8 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CanShareFolder` | 1 | Exported Function
+`GetLocalPathFromNetResource` | 4 | Exported Function
+`GetNetResourceFromLocalPath` | 7 | Exported Function
+`GetLocalPathFromNetResourceW` | 6 | Exported Function
+`GetLocalPathFromNetResourceA` | 5 | Exported Function
 
 
 ## Signature

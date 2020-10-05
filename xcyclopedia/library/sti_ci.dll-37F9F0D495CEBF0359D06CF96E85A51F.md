@@ -24,25 +24,25 @@ PE256 | `A49700317F70B82D1200713969BC09B10B0DD49EC53E5D1D9221180BCBC102E6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddDevice` | 1 (0x1) | Exported Function | 0x0000000180006ab0 | 0x00006ab0
-`WiaDestroyPortList` | 13 (0xd) | Exported Function | 0x0000000180007bc0 | 0x00007bc0
-`WiaCreatePortList` | 12 (0xc) | Exported Function | 0x0000000180001b20 | 0x00001b20
-`WiaAddDevice` | 11 (0xb) | Exported Function | 0x0000000180006910 | 0x00006910
-`UninstallWiaDevice` | 10 (0xa) | Exported Function | 0x0000000180014ee0 | 0x00014ee0
-`SetWiaDeviceProperty` | 9 (0x9) | Exported Function | 0x0000000180015a80 | 0x00015a80
-`InstallWiaService` | 8 (0x8) | Exported Function | 0x0000000180007610 | 0x00007610
-`WiaDeviceEnum` | 14 (0xe) | Exported Function | 0x00000001800079d0 | 0x000079d0
-`InstallWiaDevice` | 7 (0x7) | Exported Function | 0x00000001800143f0 | 0x000143f0
-`EnableWiaDevice` | 5 (0x5) | Exported Function | 0x0000000180015ca0 | 0x00015ca0
-`DisableWiaDevice` | 4 (0x4) | Exported Function | 0x0000000180015e00 | 0x00015e00
-`DestroyWiaDeviceList` | 3 (0x3) | Exported Function | 0x0000000180015630 | 0x00015630
-`CreateWiaDeviceList` | 2 (0x2) | Exported Function | 0x0000000180015140 | 0x00015140
-`CoinstallerEntry` | 17 (0x11) | Exported Function | 0x000000018000de10 | 0x0000de10
-`ClassInstall` | 16 (0x10) | Exported Function | 0x000000018000cac0 | 0x0000cac0
-`GetWiaDeviceProperty` | 6 (0x6) | Exported Function | 0x00000001800157e0 | 0x000157e0
-`WiaRemoveDevice` | 15 (0xf) | Exported Function | 0x00000001800069f0 | 0x000069f0
+Function Name | Ordinal | Type
+-- | -- | --
+`UninstallWiaDevice` | 10 | Exported Function
+`WiaAddDevice` | 11 | Exported Function
+`InstallWiaService` | 8 | Exported Function
+`SetWiaDeviceProperty` | 9 | Exported Function
+`WiaDeviceEnum` | 14 | Exported Function
+`WiaRemoveDevice` | 15 | Exported Function
+`WiaCreatePortList` | 12 | Exported Function
+`WiaDestroyPortList` | 13 | Exported Function
+`InstallWiaDevice` | 7 | Exported Function
+`CoinstallerEntry` | 17 | Exported Function
+`CreateWiaDeviceList` | 2 | Exported Function
+`AddDevice` | 1 | Exported Function
+`ClassInstall` | 16 | Exported Function
+`EnableWiaDevice` | 5 | Exported Function
+`GetWiaDeviceProperty` | 6 | Exported Function
+`DestroyWiaDeviceList` | 3 | Exported Function
+`DisableWiaDevice` | 4 | Exported Function
 
 
 ## Signature

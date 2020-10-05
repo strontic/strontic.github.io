@@ -24,19 +24,19 @@ PE256 | `B313F20503A11BF581FACF811728FCC6A8F84FF867C8A2F312E93ACD1A0F497C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180011e70 | 0x00011e70
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180011eb0 | 0x00011eb0
-`DllMain` | 3 (0x3) | Exported Function | 0x0000000180012160 | 0x00012160
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x0000000180011dd0 | 0x00011dd0
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x0000000180011e20 | 0x00011e20
-`GetProviderClassID` | 6 (0x6) | Exported Function | 0x0000000180011bc0 | 0x00011bc0
-`MI_Main` | 7 (0x7) | Exported Function | 0x0000000180012160 | 0x00012160
-`monitoring_platform_evaluatorFT_V1` | 11 (0xb) | Exported Function | 0x0000000180018900 | 0x00018900
-`MPEvalTrap` | 8 (0x8) | Exported Function | 0x0000000180018010 | 0x00018010
-`NITS_PRESENCE_STUB` | 9 (0x9) | Exported Function | 0x0000000180038780 | 0x00038780
-`NITS_STUB` | 10 (0xa) | Exported Function | 0x0000000180018160 | 0x00018160
+Function Name | Ordinal | Type
+-- | -- | --
+`monitoring_platform_evaluatorFT_V1` | 11 | Exported Function
+`MI_Main` | 7 | Exported Function
+`MPEvalTrap` | 8 | Exported Function
+`NITS_STUB` | 10 | Exported Function
+`NITS_PRESENCE_STUB` | 9 | Exported Function
+`GetProviderClassID` | 6 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllMain` | 3 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

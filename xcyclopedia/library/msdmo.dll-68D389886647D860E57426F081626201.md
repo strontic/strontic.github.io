@@ -24,23 +24,23 @@ PE256 | `5AE09ED1F4447815863256D4A98F4F5C29BC69AE46C337124CF7762C3142B6D7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DMOEnum` | 1 (0x1) | Exported Function | 0x0000000180002db0 | 0x00002db0
-`DMOGetName` | 2 (0x2) | Exported Function | 0x0000000180002ff0 | 0x00002ff0
-`DMOGetTypes` | 3 (0x3) | Exported Function | 0x00000001800030f0 | 0x000030f0
-`DMOGuidToStrA` | 4 (0x4) | Exported Function | 0x0000000180003f50 | 0x00003f50
-`DMOGuidToStrW` | 5 (0x5) | Exported Function | 0x0000000180004000 | 0x00004000
-`DMORegister` | 6 (0x6) | Exported Function | 0x0000000180003220 | 0x00003220
-`DMOStrToGuidA` | 7 (0x7) | Exported Function | 0x00000001800040b0 | 0x000040b0
-`DMOStrToGuidW` | 8 (0x8) | Exported Function | 0x00000001800041b0 | 0x000041b0
-`DMOUnregister` | 9 (0x9) | Exported Function | 0x0000000180003760 | 0x00003760
-`MoCopyMediaType` | 10 (0xa) | Exported Function | 0x0000000180001010 | 0x00001010
-`MoCreateMediaType` | 11 (0xb) | Exported Function | 0x00000001800011a0 | 0x000011a0
-`MoDeleteMediaType` | 12 (0xc) | Exported Function | 0x0000000180001230 | 0x00001230
-`MoDuplicateMediaType` | 13 (0xd) | Exported Function | 0x0000000180002100 | 0x00002100
-`MoFreeMediaType` | 14 (0xe) | Exported Function | 0x00000001800010f0 | 0x000010f0
-`MoInitMediaType` | 15 (0xf) | Exported Function | 0x0000000180001140 | 0x00001140
+Function Name | Ordinal | Type
+-- | -- | --
+`MoCreateMediaType` | 11 | Exported Function
+`MoCopyMediaType` | 10 | Exported Function
+`DMOUnregister` | 9 | Exported Function
+`MoDeleteMediaType` | 12 | Exported Function
+`MoInitMediaType` | 15 | Exported Function
+`MoFreeMediaType` | 14 | Exported Function
+`MoDuplicateMediaType` | 13 | Exported Function
+`DMOStrToGuidW` | 8 | Exported Function
+`DMOGetTypes` | 3 | Exported Function
+`DMOGetName` | 2 | Exported Function
+`DMOEnum` | 1 | Exported Function
+`DMOGuidToStrA` | 4 | Exported Function
+`DMOStrToGuidA` | 7 | Exported Function
+`DMORegister` | 6 | Exported Function
+`DMOGuidToStrW` | 5 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `460D76B3763F6B9E3219B0F604CCF0B3E88DA527B3E8039277471D81173770C3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`VpnCmOracleCheckVpnAvailability` | 1 (0x1) | Exported Function | 0x10003cf0 | 0x00003cf0
-`VpnCmOracleInitialize` | 2 (0x2) | Exported Function | 0x10003120 | 0x00003120
-`VpnCmOracleShutdown` | 3 (0x3) | Exported Function | 0x10003330 | 0x00003330
+Function Name | Ordinal | Type
+-- | -- | --
+`VpnCmOracleShutdown` | 3 | Exported Function
+`VpnCmOracleInitialize` | 2 | Exported Function
+`VpnCmOracleCheckVpnAvailability` | 1 | Exported Function
 
 
 ## Signature

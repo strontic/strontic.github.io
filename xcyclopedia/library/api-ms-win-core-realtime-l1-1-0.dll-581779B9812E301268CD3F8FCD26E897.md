@@ -24,13 +24,13 @@ PE256 | `0FA34716CB88F5FC07069C1B1569391CC9EE175D8DF69E396C6D1C0B2A047601`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`QueryIdleProcessorCycleTime` | 1 (0x1) | Exported Function | kernel32.dll.QueryIdleProcessorCycleTime | 0x000011ba
-`QueryIdleProcessorCycleTimeEx` | 2 (0x2) | Exported Function | kernel32.dll.QueryIdleProcessorCycleTimeEx | 0x00001201
-`QueryProcessCycleTime` | 3 (0x3) | Exported Function | kernel32.dll.QueryProcessCycleTime | 0x00001242
-`QueryThreadCycleTime` | 4 (0x4) | Exported Function | kernel32.dll.QueryThreadCycleTime | 0x0000127a
-`QueryUnbiasedInterruptTime` | 5 (0x5) | Exported Function | kernel32.dll.QueryUnbiasedInterruptTime | 0x000012b7
+Function Name | Ordinal | Type
+-- | -- | --
+`QueryThreadCycleTime` | 4 | Exported Function
+`QueryUnbiasedInterruptTime` | 5 | Exported Function
+`QueryProcessCycleTime` | 3 | Exported Function
+`QueryIdleProcessorCycleTime` | 1 | Exported Function
+`QueryIdleProcessorCycleTimeEx` | 2 | Exported Function
 
 
 ## Signature
@@ -62,6 +62,7 @@ Function Name | Ordinal | Type | Address | Relative Address
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 41
+[C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\Smart Tag\SmartTagInstall.exe](SmartTagInstall.exe-632AB2DBE46DE1E9BB0FB7B54B3BB05C.md) | 35
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 44
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 29
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 43

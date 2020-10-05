@@ -24,16 +24,16 @@ PE256 | `EA3F08368153829096D86D423B1BD2C5D1764BE76B31B2B4163EB49D52AB2505`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PcaGetFileInfoFromPath` | 1 (0x1) | Exported Function | 0x0000000180005d40 | 0x00005d40
-`PcaIsPcaDisabled` | 2 (0x2) | Exported Function | 0x0000000180002cb0 | 0x00002cb0
-`PcaLinkChildProcessToParent` | 3 (0x3) | Exported Function | 0x0000000180005f20 | 0x00005f20
-`PcaMonitorProcess` | 4 (0x4) | Exported Function | 0x00000001800010d0 | 0x000010d0
-`PcaMonitorProcess2` | 8 (0x8) | Exported Function | 0x00000001800010c0 | 0x000010c0
-`PcaNotifyMsiInstall` | 5 (0x5) | Exported Function | 0x00000001800060a0 | 0x000060a0
-`PcaNotifyStatusIcon` | 6 (0x6) | Exported Function | 0x0000000180006220 | 0x00006220
-`PcaSendToService` | 7 (0x7) | Exported Function | 0x0000000180002ec0 | 0x00002ec0
+Function Name | Ordinal | Type
+-- | -- | --
+`PcaNotifyMsiInstall` | 5 | Exported Function
+`PcaMonitorProcess2` | 8 | Exported Function
+`PcaSendToService` | 7 | Exported Function
+`PcaNotifyStatusIcon` | 6 | Exported Function
+`PcaIsPcaDisabled` | 2 | Exported Function
+`PcaGetFileInfoFromPath` | 1 | Exported Function
+`PcaMonitorProcess` | 4 | Exported Function
+`PcaLinkChildProcessToParent` | 3 | Exported Function
 
 
 ## Signature

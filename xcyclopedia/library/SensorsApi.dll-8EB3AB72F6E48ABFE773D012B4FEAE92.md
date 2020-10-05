@@ -24,45 +24,45 @@ PE256 | `68581F3A0875092CBD8ECAB53897129582DC93EDCFF5CE7691DB3C0894DE1F4E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 31 (0x1f) | Exported Function | 0x000000018000c9e0 | 0x0000c9e0
-`SensorPermissionsHandler` | 35 (0x23) | Exported Function | 0x000000018000d1b0 | 0x0000d1b0
-`SensorPermissionsHandlerA` | 36 (0x24) | Exported Function | 0x000000018000d1b0 | 0x0000d1b0
-`SensorPermissionsHandlerW` | 37 (0x25) | Exported Function | 0x000000018000d200 | 0x0000d200
-`SensorRegisterEventCOM` | 17 (0x11) | Exported Function | 0x0000000180013300 | 0x00013300
-`SensorSetAccThresholdsCOM` | 18 (0x12) | Exported Function | 0x0000000180013410 | 0x00013410
-`SensorSetAlsThresholdsCOM` | 19 (0x13) | Exported Function | 0x0000000180013640 | 0x00013640
-`SensorSetAlsWithColorThresholdsCOM` | 20 (0x14) | Exported Function | 0x0000000180013670 | 0x00013670
-`SensorSetBarThresholdsCOM` | 21 (0x15) | Exported Function | 0x0000000180013920 | 0x00013920
-`SensorSetFusThresholdsCOM` | 22 (0x16) | Exported Function | 0x0000000180013a40 | 0x00013a40
-`SensorSetGyrThresholdsCOM` | 23 (0x17) | Exported Function | 0x0000000180013c00 | 0x00013c00
-`SensorSetIntervalCOM` | 24 (0x18) | Exported Function | 0x0000000180013e30 | 0x00013e30
-`SensorSetMagThresholdsCOM` | 25 (0x19) | Exported Function | 0x0000000180014000 | 0x00014000
-`SensorSetOrientationSensorThresholdsCOM` | 26 (0x1a) | Exported Function | 0x0000000180014230 | 0x00014230
-`SensorSetThresholdsCOM` | 27 (0x1b) | Exported Function | 0x00000001800143b0 | 0x000143b0
-`SensorStartCollectionCOM` | 28 (0x1c) | Exported Function | 0x0000000180014580 | 0x00014580
-`SensorOpenByInterfaceCOM` | 16 (0x10) | Exported Function | 0x0000000180013120 | 0x00013120
-`SensorStopCOM` | 29 (0x1d) | Exported Function | 0x0000000180014690 | 0x00014690
-`SensorGetThresholdsCOM` | 15 (0xf) | Exported Function | 0x0000000180012b10 | 0x00012b10
-`SensorGetPropertiesCOM` | 13 (0xd) | Exported Function | 0x0000000180012590 | 0x00012590
-`DllGetClassObject` | 32 (0x20) | Exported Function | 0x000000018000cb90 | 0x0000cb90
-`DllRegisterServer` | 33 (0x21) | Exported Function | 0x000000018000cd00 | 0x0000cd00
-`DllUnregisterServer` | 34 (0x22) | Exported Function | 0x000000018000ce50 | 0x0000ce50
-`SensorCloseCOM` | 1 (0x1) | Exported Function | 0x0000000180010ea0 | 0x00010ea0
-`SensorEnableIdleOperationCOM` | 2 (0x2) | Exported Function | 0x0000000180011190 | 0x00011190
-`SensorGetAccDataCOM` | 3 (0x3) | Exported Function | 0x00000001800112a0 | 0x000112a0
-`SensorGetAlsDataCOM` | 4 (0x4) | Exported Function | 0x00000001800114b0 | 0x000114b0
-`SensorGetAlsDataWithColorCOM` | 5 (0x5) | Exported Function | 0x00000001800114e0 | 0x000114e0
-`SensorGetBarDataCOM` | 6 (0x6) | Exported Function | 0x0000000180011820 | 0x00011820
-`SensorGetCapabilitiesCollectionCOM` | 7 (0x7) | Exported Function | 0x0000000180011960 | 0x00011960
-`SensorGetDataCollectionCOM` | 8 (0x8) | Exported Function | 0x0000000180011b20 | 0x00011b20
-`SensorGetDeviceIdCOM` | 9 (0x9) | Exported Function | 0x0000000180011da0 | 0x00011da0
-`SensorGetFusDataCOM` | 10 (0xa) | Exported Function | 0x0000000180011fb0 | 0x00011fb0
-`SensorGetGyrDataCOM` | 11 (0xb) | Exported Function | 0x0000000180012160 | 0x00012160
-`SensorGetMagDataCOM` | 12 (0xc) | Exported Function | 0x0000000180012360 | 0x00012360
-`SensorGetPrxDataCOM` | 14 (0xe) | Exported Function | 0x0000000180012b00 | 0x00012b00
-`SensorUnregisterEventCOM` | 30 (0x1e) | Exported Function | 0x00000001800147c0 | 0x000147c0
+Function Name | Ordinal | Type
+-- | -- | --
+`SensorSetAlsThresholdsCOM` | 19 | Exported Function
+`SensorSetAccThresholdsCOM` | 18 | Exported Function
+`SensorSetBarThresholdsCOM` | 21 | Exported Function
+`SensorSetAlsWithColorThresholdsCOM` | 20 | Exported Function
+`SensorRegisterEventCOM` | 17 | Exported Function
+`SensorPermissionsHandler` | 35 | Exported Function
+`SensorOpenByInterfaceCOM` | 16 | Exported Function
+`SensorPermissionsHandlerW` | 37 | Exported Function
+`SensorPermissionsHandlerA` | 36 | Exported Function
+`SensorStartCollectionCOM` | 28 | Exported Function
+`SensorSetThresholdsCOM` | 27 | Exported Function
+`SensorUnregisterEventCOM` | 30 | Exported Function
+`SensorStopCOM` | 29 | Exported Function
+`SensorSetOrientationSensorThresholdsCOM` | 26 | Exported Function
+`SensorSetGyrThresholdsCOM` | 23 | Exported Function
+`SensorSetFusThresholdsCOM` | 22 | Exported Function
+`SensorSetMagThresholdsCOM` | 25 | Exported Function
+`SensorSetIntervalCOM` | 24 | Exported Function
+`SensorGetThresholdsCOM` | 15 | Exported Function
+`SensorGetAccDataCOM` | 3 | Exported Function
+`SensorEnableIdleOperationCOM` | 2 | Exported Function
+`SensorGetAlsDataWithColorCOM` | 5 | Exported Function
+`SensorGetAlsDataCOM` | 4 | Exported Function
+`SensorCloseCOM` | 1 | Exported Function
+`DllGetClassObject` | 32 | Exported Function
+`DllCanUnloadNow` | 31 | Exported Function
+`DllUnregisterServer` | 34 | Exported Function
+`DllRegisterServer` | 33 | Exported Function
+`SensorGetMagDataCOM` | 12 | Exported Function
+`SensorGetGyrDataCOM` | 11 | Exported Function
+`SensorGetPrxDataCOM` | 14 | Exported Function
+`SensorGetPropertiesCOM` | 13 | Exported Function
+`SensorGetFusDataCOM` | 10 | Exported Function
+`SensorGetCapabilitiesCollectionCOM` | 7 | Exported Function
+`SensorGetBarDataCOM` | 6 | Exported Function
+`SensorGetDeviceIdCOM` | 9 | Exported Function
+`SensorGetDataCollectionCOM` | 8 | Exported Function
 
 
 ## Signature

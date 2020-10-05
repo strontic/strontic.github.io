@@ -24,53 +24,53 @@ PE256 | `F8607D41BB2381A25807D5AC2B321ADF9D0082F845436F569CBD39A1817DF3AD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseTrace` | 1 (0x1) | Exported Function | api-ms-win-eventing-consumer-l1-1-0.CloseTrace | 0x0000125d
-`WmiDevInstToInstanceNameW` | 25 (0x19) | Exported Function | wmiclnt.WmiDevInstToInstanceNameW | 0x00001877
-`WmiEnumerateGuids` | 26 (0x1a) | Exported Function | wmiclnt.WmiEnumerateGuids | 0x000018ab
-`WmiExecuteMethodA` | 27 (0x1b) | Exported Function | wmiclnt.WmiExecuteMethodA | 0x000018d7
-`WmiExecuteMethodW` | 28 (0x1c) | Exported Function | wmiclnt.WmiExecuteMethodW | 0x00001903
-`WmiFileHandleToInstanceNameA` | 29 (0x1d) | Exported Function | wmiclnt.WmiFileHandleToInstanceNameA | 0x0000193a
-`WmiFileHandleToInstanceNameW` | 30 (0x1e) | Exported Function | wmiclnt.WmiFileHandleToInstanceNameW | 0x0000197c
-`WmiFreeBuffer` | 31 (0x1f) | Exported Function | wmiclnt.WmiFreeBuffer | 0x000019af
-`WmiMofEnumerateResourcesA` | 32 (0x20) | Exported Function | wmiclnt.WmiMofEnumerateResourcesA | 0x000019df
-`WmiMofEnumerateResourcesW` | 33 (0x21) | Exported Function | wmiclnt.WmiMofEnumerateResourcesW | 0x00001a1b
-`WmiNotificationRegistrationA` | 34 (0x22) | Exported Function | wmiclnt.WmiNotificationRegistrationA | 0x00001a5a
-`WmiNotificationRegistrationW` | 35 (0x23) | Exported Function | wmiclnt.WmiNotificationRegistrationW | 0x00001a9c
-`WmiOpenBlock` | 36 (0x24) | Exported Function | wmiclnt.WmiOpenBlock | 0x00001ace
-`WmiQueryAllDataA` | 37 (0x25) | Exported Function | wmiclnt.WmiQueryAllDataA | 0x00001af4
-`WmiQueryAllDataW` | 38 (0x26) | Exported Function | wmiclnt.WmiQueryAllDataW | 0x00001b1e
-`WmiQueryGuidInformation` | 39 (0x27) | Exported Function | wmiclnt.WmiQueryGuidInformation | 0x00001b4f
-`WmiQuerySingleInstanceA` | 40 (0x28) | Exported Function | wmiclnt.WmiQuerySingleInstanceA | 0x00001b87
-`WmiQuerySingleInstanceW` | 41 (0x29) | Exported Function | wmiclnt.WmiQuerySingleInstanceW | 0x00001bbf
-`WmiSetSingleInstanceA` | 42 (0x2a) | Exported Function | wmiclnt.WmiSetSingleInstanceA | 0x00001bf5
-`WmiSetSingleInstanceW` | 43 (0x2b) | Exported Function | wmiclnt.WmiSetSingleInstanceW | 0x00001c29
-`WmiDevInstToInstanceNameA` | 24 (0x18) | Exported Function | wmiclnt.WmiDevInstToInstanceNameA | 0x0000183b
-`WmiSetSingleItemA` | 44 (0x2c) | Exported Function | wmiclnt.WmiSetSingleItemA | 0x00001c59
-`WmiCloseBlock` | 23 (0x17) | Exported Function | wmiclnt.WmiCloseBlock | 0x0000180b
-`TraceEventInstance` | 21 (0x15) | Exported Function | ntdll.EtwTraceEventInstance | 0x0000178c
-`ControlTraceA` | 2 (0x2) | Exported Function | api-ms-win-eventing-legacy-l1-1-0.ControlTraceA | 0x0000129a
-`ControlTraceW` | 3 (0x3) | Exported Function | api-ms-win-eventing-controller-l1-1-0.ControlTraceW | 0x000012d8
-`CreateTraceInstanceId` | 4 (0x4) | Exported Function | ntdll.EtwCreateTraceInstanceId | 0x00001322
-`EnableTrace` | 5 (0x5) | Exported Function | api-ms-win-eventing-legacy-l1-1-0.EnableTrace | 0x0000134d
-`GetTraceEnableFlags` | 6 (0x6) | Exported Function | api-ms-win-eventing-classicprovider-l1-1-0.GetTraceEnableFlags | 0x0000138f
-`GetTraceEnableLevel` | 7 (0x7) | Exported Function | api-ms-win-eventing-classicprovider-l1-1-0.GetTraceEnableLevel | 0x000013e2
-`GetTraceLoggerHandle` | 8 (0x8) | Exported Function | api-ms-win-eventing-classicprovider-l1-1-0.GetTraceLoggerHandle | 0x00001436
-`OpenTraceA` | 9 (0x9) | Exported Function | api-ms-win-eventing-legacy-l1-1-0.OpenTraceA | 0x00001481
-`OpenTraceW` | 10 (0xa) | Exported Function | api-ms-win-eventing-consumer-l1-1-0.OpenTraceW | 0x000014b9
-`ProcessTrace` | 11 (0xb) | Exported Function | api-ms-win-eventing-consumer-l1-1-0.ProcessTrace | 0x000014f5
-`QueryAllTracesA` | 12 (0xc) | Exported Function | api-ms-win-eventing-legacy-l1-1-0.QueryAllTracesA | 0x00001536
-`QueryAllTracesW` | 13 (0xd) | Exported Function | api-ms-win-eventing-controller-l1-1-0.QueryAllTracesW | 0x00001578
-`RegisterTraceGuidsA` | 14 (0xe) | Exported Function | api-ms-win-eventing-obsolete-l1-1-0.RegisterTraceGuidsA | 0x000015c2
-`RegisterTraceGuidsW` | 15 (0xf) | Exported Function | api-ms-win-eventing-classicprovider-l1-1-0.RegisterTraceGuidsW | 0x0000160e
-`RemoveTraceCallback` | 16 (0x10) | Exported Function | api-ms-win-eventing-obsolete-l1-1-0.RemoveTraceCallback | 0x00001661
-`SetTraceCallback` | 17 (0x11) | Exported Function | api-ms-win-eventing-obsolete-l1-1-0.SetTraceCallback | 0x000016aa
-`StartTraceA` | 18 (0x12) | Exported Function | api-ms-win-eventing-legacy-l1-1-0.StartTraceA | 0x000016eb
-`StartTraceW` | 19 (0x13) | Exported Function | api-ms-win-eventing-controller-l1-1-0.StartTraceW | 0x00001725
-`TraceEvent` | 20 (0x14) | Exported Function | ntdll.EtwLogTraceEvent | 0x00001762
-`UnregisterTraceGuids` | 22 (0x16) | Exported Function | api-ms-win-eventing-classicprovider-l1-1-0.UnregisterTraceGuids | 0x000017bd
-`WmiSetSingleItemW` | 45 (0x2d) | Exported Function | wmiclnt.WmiSetSingleItemW | 0x00001c85
+Function Name | Ordinal | Type
+-- | -- | --
+`WmiFreeBuffer` | 31 | Exported Function
+`WmiFileHandleToInstanceNameW` | 30 | Exported Function
+`WmiMofEnumerateResourcesA` | 32 | Exported Function
+`WmiNotificationRegistrationA` | 34 | Exported Function
+`WmiMofEnumerateResourcesW` | 33 | Exported Function
+`WmiFileHandleToInstanceNameA` | 29 | Exported Function
+`WmiDevInstToInstanceNameW` | 25 | Exported Function
+`WmiDevInstToInstanceNameA` | 24 | Exported Function
+`WmiEnumerateGuids` | 26 | Exported Function
+`WmiExecuteMethodW` | 28 | Exported Function
+`WmiExecuteMethodA` | 27 | Exported Function
+`WmiSetSingleInstanceA` | 42 | Exported Function
+`WmiQuerySingleInstanceW` | 41 | Exported Function
+`WmiSetSingleInstanceW` | 43 | Exported Function
+`WmiSetSingleItemW` | 45 | Exported Function
+`WmiSetSingleItemA` | 44 | Exported Function
+`WmiQuerySingleInstanceA` | 40 | Exported Function
+`WmiOpenBlock` | 36 | Exported Function
+`WmiNotificationRegistrationW` | 35 | Exported Function
+`WmiQueryAllDataA` | 37 | Exported Function
+`WmiQueryGuidInformation` | 39 | Exported Function
+`WmiQueryAllDataW` | 38 | Exported Function
+`WmiCloseBlock` | 23 | Exported Function
+`GetTraceLoggerHandle` | 8 | Exported Function
+`GetTraceEnableLevel` | 7 | Exported Function
+`OpenTraceA` | 9 | Exported Function
+`ProcessTrace` | 11 | Exported Function
+`OpenTraceW` | 10 | Exported Function
+`GetTraceEnableFlags` | 6 | Exported Function
+`ControlTraceA` | 2 | Exported Function
+`CloseTrace` | 1 | Exported Function
+`ControlTraceW` | 3 | Exported Function
+`EnableTrace` | 5 | Exported Function
+`CreateTraceInstanceId` | 4 | Exported Function
+`StartTraceW` | 19 | Exported Function
+`StartTraceA` | 18 | Exported Function
+`TraceEvent` | 20 | Exported Function
+`UnregisterTraceGuids` | 22 | Exported Function
+`TraceEventInstance` | 21 | Exported Function
+`SetTraceCallback` | 17 | Exported Function
+`QueryAllTracesW` | 13 | Exported Function
+`QueryAllTracesA` | 12 | Exported Function
+`RegisterTraceGuidsA` | 14 | Exported Function
+`RemoveTraceCallback` | 16 | Exported Function
+`RegisterTraceGuidsW` | 15 | Exported Function
 
 
 ## Signature

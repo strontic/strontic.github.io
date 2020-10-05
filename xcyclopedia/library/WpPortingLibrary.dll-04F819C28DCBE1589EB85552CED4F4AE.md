@@ -24,43 +24,43 @@ PE256 | `47AB90B2D4AA78EC5B5A0F828A696FBF1F7884E996EC9FDA416C1711923B2184`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CmAcquireConnection` | 1 (0x1) | Exported Function | 0x100020f0 | 0x000020f0
-`Is_ShellStartReady_Available` | 20 (0x14) | Exported Function | 0x10002110 | 0x00002110
-`Is_TaskScheduler_Available` | 21 (0x15) | Exported Function | 0x10002110 | 0x00002110
-`Is_VoIPActiveCallState_Available` | 22 (0x16) | Exported Function | 0x10002110 | 0x00002110
-`PackageFullNameFromProductIdAndVersion` | 23 (0x17) | Exported Function | 0x100022c0 | 0x000022c0
-`PackageFullNameFromProductInfo` | 24 (0x18) | Exported Function | 0x10002410 | 0x00002410
-`ProductInfoFromPackageFullName` | 25 (0x19) | Exported Function | 0x10001510 | 0x00001510
-`Is_ShellReadyInternalState_Available` | 19 (0x13) | Exported Function | 0x10002110 | 0x00002110
-`QueryPhoneInformation` | 26 (0x1a) | Exported Function | 0x10002580 | 0x00002580
-`TaskSchedulerDeinit` | 28 (0x1c) | Exported Function | 0x100025c0 | 0x000025c0
-`TaskSchedulerDeleteSchedule` | 29 (0x1d) | Exported Function | 0x100025d0 | 0x000025d0
-`TaskSchedulerEnableSchedule` | 30 (0x1e) | Exported Function | 0x100025b0 | 0x000025b0
-`TaskSchedulerFreeSchedule` | 31 (0x1f) | Exported Function | 0x100025e0 | 0x000025e0
-`TaskSchedulerFreeScheduleStatistics` | 32 (0x20) | Exported Function | 0x100025e0 | 0x000025e0
-`TaskSchedulerGetPublishStateName` | 33 (0x21) | Exported Function | 0x100025b0 | 0x000025b0
-`TaskSchedulerCreateSchedule` | 27 (0x1b) | Exported Function | 0x100025b0 | 0x000025b0
-`TaskSchedulerGetSchedule` | 34 (0x22) | Exported Function | 0x100025f0 | 0x000025f0
-`Is_ProvisioningCompleteState_Available` | 18 (0x12) | Exported Function | 0x10002110 | 0x00002110
-`Is_GrantWPNoNetworkingRegistryAccess_Hack_Available` | 16 (0x10) | Exported Function | 0x10002110 | 0x00002110
-`CmApiDeinit` | 2 (0x2) | Exported Function | 0x10002020 | 0x00002020
-`CmApiInit` | 3 (0x3) | Exported Function | 0x10002100 | 0x00002100
-`CmCloseSession` | 4 (0x4) | Exported Function | 0x100020f0 | 0x000020f0
-`CmCreateSession` | 5 (0x5) | Exported Function | 0x10002110 | 0x00002110
-`CmGetFirstCandidateConnection` | 6 (0x6) | Exported Function | 0x10002120 | 0x00002120
-`CmReleaseConnection` | 7 (0x7) | Exported Function | 0x100020f0 | 0x000020f0
-`Is_OsBeginPostBootWorkState_Available` | 17 (0x11) | Exported Function | 0x10002110 | 0x00002110
-`CmSetDataActivityState` | 8 (0x8) | Exported Function | 0x10002130 | 0x00002130
-`GetDeviceUniqueID` | 10 (0xa) | Exported Function | 0x10002600 | 0x00002600
-`GetPhoneBuildInfo` | 11 (0xb) | Exported Function | 0x10002540 | 0x00002540
-`GetStorageDeviceInfo` | 12 (0xc) | Exported Function | 0x100025b0 | 0x000025b0
-`Is_AppXExecutionServiceReady_Available` | 13 (0xd) | Exported Function | 0x10002110 | 0x00002110
-`Is_BatterySaverState_Available` | 14 (0xe) | Exported Function | 0x10002110 | 0x00002110
-`Is_CmNet_Available` | 15 (0xf) | Exported Function | 0x10002110 | 0x00002110
-`GetAppStorageFolder` | 9 (0x9) | Exported Function | 0x100025b0 | 0x000025b0
-`TaskSchedulerInit` | 35 (0x23) | Exported Function | 0x100025c0 | 0x000025c0
+Function Name | Ordinal | Type
+-- | -- | --
+`PackageFullNameFromProductInfo` | 24 | Exported Function
+`PackageFullNameFromProductIdAndVersion` | 23 | Exported Function
+`QueryPhoneInformation` | 26 | Exported Function
+`ProductInfoFromPackageFullName` | 25 | Exported Function
+`Is_ShellStartReady_Available` | 20 | Exported Function
+`Is_ShellReadyInternalState_Available` | 19 | Exported Function
+`Is_VoIPActiveCallState_Available` | 22 | Exported Function
+`Is_TaskScheduler_Available` | 21 | Exported Function
+`TaskSchedulerCreateSchedule` | 27 | Exported Function
+`TaskSchedulerGetPublishStateName` | 33 | Exported Function
+`TaskSchedulerFreeScheduleStatistics` | 32 | Exported Function
+`TaskSchedulerInit` | 35 | Exported Function
+`TaskSchedulerGetSchedule` | 34 | Exported Function
+`TaskSchedulerDeleteSchedule` | 29 | Exported Function
+`TaskSchedulerDeinit` | 28 | Exported Function
+`TaskSchedulerFreeSchedule` | 31 | Exported Function
+`TaskSchedulerEnableSchedule` | 30 | Exported Function
+`Is_ProvisioningCompleteState_Available` | 18 | Exported Function
+`CmGetFirstCandidateConnection` | 6 | Exported Function
+`CmCreateSession` | 5 | Exported Function
+`CmSetDataActivityState` | 8 | Exported Function
+`CmReleaseConnection` | 7 | Exported Function
+`CmApiDeinit` | 2 | Exported Function
+`CmAcquireConnection` | 1 | Exported Function
+`CmCloseSession` | 4 | Exported Function
+`CmApiInit` | 3 | Exported Function
+`GetAppStorageFolder` | 9 | Exported Function
+`Is_CmNet_Available` | 15 | Exported Function
+`Is_BatterySaverState_Available` | 14 | Exported Function
+`Is_OsBeginPostBootWorkState_Available` | 17 | Exported Function
+`Is_GrantWPNoNetworkingRegistryAccess_Hack_Available` | 16 | Exported Function
+`GetPhoneBuildInfo` | 11 | Exported Function
+`GetDeviceUniqueID` | 10 | Exported Function
+`Is_AppXExecutionServiceReady_Available` | 13 | Exported Function
+`GetStorageDeviceInfo` | 12 | Exported Function
 
 
 ## Signature

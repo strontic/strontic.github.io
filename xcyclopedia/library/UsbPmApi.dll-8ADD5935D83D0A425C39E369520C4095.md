@@ -23,15 +23,15 @@ PE256 | `37033AF8E64A5E09E83B0B488FF0AC237DFB313E625697DF0A98A00DCBF74238`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`UsbPm_AssignConnectorPowerLevel` | 1 (0x1) | Exported Function | 0x0000000180001b20 | 0x00001b20
-`UsbPm_Deregister` | 2 (0x2) | Exported Function | 0x00000001800013b0 | 0x000013b0
-`UsbPm_Register` | 3 (0x3) | Exported Function | 0x0000000180001230 | 0x00001230
-`UsbPm_RetrieveConnectorProperties` | 4 (0x4) | Exported Function | 0x00000001800017f0 | 0x000017f0
-`UsbPm_RetrieveConnectorState` | 5 (0x5) | Exported Function | 0x00000001800019b0 | 0x000019b0
-`UsbPm_RetrieveHubConnectorHandles` | 6 (0x6) | Exported Function | 0x0000000180001620 | 0x00001620
-`UsbPm_RetrieveHubProperties` | 7 (0x7) | Exported Function | 0x0000000180001490 | 0x00001490
+Function Name | Ordinal | Type
+-- | -- | --
+`UsbPm_RetrieveConnectorState` | 5 | Exported Function
+`UsbPm_RetrieveHubConnectorHandles` | 6 | Exported Function
+`UsbPm_RetrieveHubProperties` | 7 | Exported Function
+`UsbPm_RetrieveConnectorProperties` | 4 | Exported Function
+`UsbPm_AssignConnectorPowerLevel` | 1 | Exported Function
+`UsbPm_Deregister` | 2 | Exported Function
+`UsbPm_Register` | 3 | Exported Function
 
 
 ## Signature

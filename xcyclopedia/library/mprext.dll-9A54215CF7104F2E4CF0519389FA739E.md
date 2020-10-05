@@ -24,19 +24,19 @@ PE256 | `E74DC7C4B22F5E301C9F84F7AF0511F79D68A684F11855809652EFC694A7E441`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DoBroadcastSystemMessageWorker` | 1 (0x1) | Exported Function | 0x10001600 | 0x00001600
-`DoCommandLinePromptWorker` | 2 (0x2) | Exported Function | 0x100016a0 | 0x000016a0
-`DoPasswordDialogWorker` | 3 (0x3) | Exported Function | 0x100016d0 | 0x000016d0
-`DoProfileErrorDialogWorker` | 4 (0x4) | Exported Function | 0x100017d0 | 0x000017d0
-`ShowReconnectDialogEndWorker` | 5 (0x5) | Exported Function | 0x10001af0 | 0x00001af0
-`ShowReconnectDialogUIWorker` | 6 (0x6) | Exported Function | 0x10001ac0 | 0x00001ac0
-`ShowReconnectDialogWorker` | 7 (0x7) | Exported Function | 0x10001a70 | 0x00001a70
-`WNetConnectionDialog1WWorker` | 8 (0x8) | Exported Function | 0x10001440 | 0x00001440
-`WNetConnectionDialogWorker` | 9 (0x9) | Exported Function | 0x10001580 | 0x00001580
-`WNetDisconnectDialog1WWorker` | 10 (0xa) | Exported Function | 0x100014f0 | 0x000014f0
-`WNetDisconnectDialogWorker` | 11 (0xb) | Exported Function | 0x100015d0 | 0x000015d0
+Function Name | Ordinal | Type
+-- | -- | --
+`WNetConnectionDialog1WWorker` | 8 | Exported Function
+`ShowReconnectDialogWorker` | 7 | Exported Function
+`WNetConnectionDialogWorker` | 9 | Exported Function
+`WNetDisconnectDialogWorker` | 11 | Exported Function
+`WNetDisconnectDialog1WWorker` | 10 | Exported Function
+`ShowReconnectDialogUIWorker` | 6 | Exported Function
+`DoCommandLinePromptWorker` | 2 | Exported Function
+`DoBroadcastSystemMessageWorker` | 1 | Exported Function
+`DoPasswordDialogWorker` | 3 | Exported Function
+`ShowReconnectDialogEndWorker` | 5 | Exported Function
+`DoProfileErrorDialogWorker` | 4 | Exported Function
 
 
 ## Signature

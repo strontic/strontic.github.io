@@ -24,18 +24,18 @@ PE256 | `6A5DA8839AB8B620CED11964A3957AF83BEDE7464452EAD1AB2800AEDE58AA3C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DuplicateCertificate` | 1 (0x1) | Exported Function | 0x10003960 | 0x00003960
-`FreeCertificate` | 2 (0x2) | Exported Function | 0x100039a0 | 0x000039a0
-`GeneratePrincipalName` | 3 (0x3) | Exported Function | 0x100039c0 | 0x000039c0
-`I_RpcExtInitializeExtensionPoint` | 4 (0x4) | Exported Function | 0x10002a80 | 0x00002a80
-`IndicatePortInUse` | 5 (0x5) | Exported Function | 0x10002430 | 0x00002430
-`IsMarshaledCredential` | 6 (0x6) | Exported Function | 0x100039f0 | 0x000039f0
-`MatchPrincipalName` | 7 (0x7) | Exported Function | 0x10003a10 | 0x00003a10
-`ProcessAndProvisionCertificate` | 8 (0x8) | Exported Function | 0x10003a40 | 0x00003a40
-`ResetIndicatedPortsInUse` | 9 (0x9) | Exported Function | 0x10002ae0 | 0x00002ae0
-`ValidatePrincipalName` | 10 (0xa) | Exported Function | 0x10003a90 | 0x00003a90
+Function Name | Ordinal | Type
+-- | -- | --
+`MatchPrincipalName` | 7 | Exported Function
+`IsMarshaledCredential` | 6 | Exported Function
+`ProcessAndProvisionCertificate` | 8 | Exported Function
+`ValidatePrincipalName` | 10 | Exported Function
+`ResetIndicatedPortsInUse` | 9 | Exported Function
+`FreeCertificate` | 2 | Exported Function
+`DuplicateCertificate` | 1 | Exported Function
+`GeneratePrincipalName` | 3 | Exported Function
+`IndicatePortInUse` | 5 | Exported Function
+`I_RpcExtInitializeExtensionPoint` | 4 | Exported Function
 
 
 ## Signature

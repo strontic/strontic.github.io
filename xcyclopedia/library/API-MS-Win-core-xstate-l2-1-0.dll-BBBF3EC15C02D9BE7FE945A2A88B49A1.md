@@ -24,14 +24,14 @@ PE256 | `044C83B4E80D5D2E033C4DB157EDDE149C4CD69BD311853112E64F803A863D51`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CopyContext` | 1 (0x1) | Exported Function | kernel32.CopyContext | 0x000011b2
-`GetEnabledXStateFeatures` | 2 (0x2) | Exported Function | kernel32.GetEnabledXStateFeatures | 0x000011e0
-`GetXStateFeaturesMask` | 3 (0x3) | Exported Function | kernel32.GetXStateFeaturesMask | 0x00001218
-`InitializeContext` | 4 (0x4) | Exported Function | kernel32.InitializeContext | 0x00001249
-`LocateXStateFeature` | 5 (0x5) | Exported Function | kernel32.LocateXStateFeature | 0x00001278
-`SetXStateFeaturesMask` | 6 (0x6) | Exported Function | kernel32.SetXStateFeaturesMask | 0x000012ab
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializeContext` | 4 | Exported Function
+`LocateXStateFeature` | 5 | Exported Function
+`SetXStateFeaturesMask` | 6 | Exported Function
+`CopyContext` | 1 | Exported Function
+`GetEnabledXStateFeatures` | 2 | Exported Function
+`GetXStateFeaturesMask` | 3 | Exported Function
 
 
 ## Signature

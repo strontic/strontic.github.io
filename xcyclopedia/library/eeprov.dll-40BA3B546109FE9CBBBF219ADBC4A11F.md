@@ -24,10 +24,10 @@ PE256 | `B6E58FF0BD1763C67B7994B302F063EF02EF6B95392858864F578ADD6B1E147E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SruInitializeProvider` | 1 (0x1) | Exported Function | 0x0000000180005b50 | 0x00005b50
-`SruUninitializeProvider` | 2 (0x2) | Exported Function | 0x0000000180005eb0 | 0x00005eb0
+Function Name | Ordinal | Type
+-- | -- | --
+`SruUninitializeProvider` | 2 | Exported Function
+`SruInitializeProvider` | 1 | Exported Function
 
 
 ## Signature

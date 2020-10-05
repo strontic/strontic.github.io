@@ -24,24 +24,24 @@ PE256 | `7E5B7D6B266A99F7F4DA7D631D28F40EA4DB63712087F1DD8E969F5BA2148041`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AgGlLoad` | 2 (0x2) | Exported Function | 0x0000000180069810 | 0x00069810
-`AgPdLoad` | 3 (0x3) | Exported Function | 0x000000018006a540 | 0x0006a540
-`AgTwLoad` | 4 (0x4) | Exported Function | 0x0000000180071630 | 0x00071630
-`CloseReadyBoostPerfData` | 5 (0x5) | Exported Function | 0x000000018004d4e0 | 0x0004d4e0
-`CollectReadyBoostPerfData` | 6 (0x6) | Exported Function | 0x0000000180067920 | 0x00067920
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x00000001800687f0 | 0x000687f0
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x0000000180068830 | 0x00068830
-`DllRegisterServer` | 9 (0x9) | Exported Function | 0x00000001800689c0 | 0x000689c0
-`DllUnregisterServer` | 10 (0xa) | Exported Function | 0x0000000180068a00 | 0x00068a00
-`GetProviderClassID` | 11 (0xb) | Exported Function | 0x0000000180068a40 | 0x00068a40
-`MI_Main` | 12 (0xc) | Exported Function | 0x0000000180068200 | 0x00068200
-`OpenReadyBoostPerfData` | 13 (0xd) | Exported Function | 0x0000000180067a50 | 0x00067a50
-`PfSvSysprepCleanup` | 14 (0xe) | Exported Function | 0x000000018007a5f0 | 0x0007a5f0
-`PfSvUnattendCallback` | 15 (0xf) | Exported Function | 0x000000018007abc0 | 0x0007abc0
-`PfSvWsSwapAssessmentTask` | 1 (0x1) | Exported Function | 0x0000000180068420 | 0x00068420
-`SysMtServiceMain` | 16 (0x10) | Exported Function | 0x0000000180067ef0 | 0x00067ef0
+Function Name | Ordinal | Type
+-- | -- | --
+`MI_Main` | 12 | Exported Function
+`OpenReadyBoostPerfData` | 13 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`GetProviderClassID` | 11 | Exported Function
+`PfSvWsSwapAssessmentTask` | 1 | Exported Function
+`SysMtServiceMain` | 16 | Exported Function
+`PfSvSysprepCleanup` | 14 | Exported Function
+`PfSvUnattendCallback` | 15 | Exported Function
+`AgTwLoad` | 4 | Exported Function
+`CloseReadyBoostPerfData` | 5 | Exported Function
+`AgGlLoad` | 2 | Exported Function
+`AgPdLoad` | 3 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
+`CollectReadyBoostPerfData` | 6 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
 
 
 ## Signature

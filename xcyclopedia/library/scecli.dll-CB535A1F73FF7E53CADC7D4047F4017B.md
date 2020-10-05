@@ -24,83 +24,83 @@ PE256 | `E3462A875FC07D28E1940EE8C47A5068C7B75DB207A67A3E4EA1B9AC34FA89AE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConvertSecurityDescriptorToText` | 1 (0x1) | Exported Function | 0x5fd19700 | 0x00019700
-`SceSetupRootSecurity` | 56 (0x38) | Exported Function | 0x5fd32570 | 0x00032570
-`SceSetupMoveSecurityFile` | 55 (0x37) | Exported Function | 0x5fd32490 | 0x00032490
-`SceSetupGenerateTemplate` | 54 (0x36) | Exported Function | 0x5fd32360 | 0x00032360
-`SceSetupConfigureServices` | 53 (0x35) | Exported Function | 0x5fd32280 | 0x00032280
-`SceSetupBackupSecurity` | 52 (0x34) | Exported Function | 0x5fd31aa0 | 0x00031aa0
-`SceSetDatabaseSetting` | 51 (0x33) | Exported Function | 0x5fd2e050 | 0x0002e050
-`SceRollbackTransaction` | 50 (0x32) | Exported Function | 0x5fd2dfd0 | 0x0002dfd0
-`SceRegisterRegValues` | 49 (0x31) | Exported Function | 0x5fd2dc10 | 0x0002dc10
-`SceProcessSecurityPolicyGPOEx` | 9 (0x9) | Exported Function | 0x5fd25e20 | 0x00025e20
-`SceProcessSecurityPolicyGPO` | 8 (0x8) | Exported Function | 0x5fd25cc0 | 0x00025cc0
-`SceOpenProfile` | 48 (0x30) | Exported Function | 0x5fd2da40 | 0x0002da40
-`SceOpenPolicy` | 7 (0x7) | Exported Function | 0x5fd27e00 | 0x00027e00
-`SceNotifyPolicyDelta` | 6 (0x6) | Exported Function | 0x5fd27d70 | 0x00027d70
-`SceLookupPrivRightName` | 47 (0x2f) | Exported Function | 0x5fd192b0 | 0x000192b0
-`SceIsSystemDatabase` | 46 (0x2e) | Exported Function | 0x5fd16a30 | 0x00016a30
-`SceSetupSystemByInfName` | 57 (0x39) | Exported Function | 0x5fd32bc0 | 0x00032bc0
-`SceGetTimeStamp` | 45 (0x2d) | Exported Function | 0x5fd2d7d0 | 0x0002d7d0
-`SceSetupUnwindSecurityFile` | 58 (0x3a) | Exported Function | 0x5fd33280 | 0x00033280
-`SceSetupUpdateSecurityKey` | 60 (0x3c) | Exported Function | 0x5fd33420 | 0x00033420
-`SceWrapperExportSecurityProfile` | 73 (0x49) | Exported Function | 0x5fd33c30 | 0x00033c30
-`SceUpdateSecurityProfile` | 72 (0x48) | Exported Function | 0x5fd2e3b0 | 0x0002e3b0
-`SceUpdateObjectInfo` | 71 (0x47) | Exported Function | 0x5fd2e210 | 0x0002e210
-`SceSysPrepOffline` | 11 (0xb) | Exported Function | 0x5fd2f4b0 | 0x0002f4b0
-`SceSysPrep` | 10 (0xa) | Exported Function | 0x5fd2f320 | 0x0002f320
-`SceSvcUpdateInfo` | 70 (0x46) | Exported Function | 0x5fd2e180 | 0x0002e180
-`SceSvcSetInformationTemplate` | 69 (0x45) | Exported Function | 0x5fd22b70 | 0x00022b70
-`SceSvcSetInfo` | 68 (0x44) | Exported Function | 0x5fd33aa0 | 0x00033aa0
-`SceSvcQueryInfo` | 67 (0x43) | Exported Function | 0x5fd33900 | 0x00033900
-`SceSvcGetInformationTemplate` | 66 (0x42) | Exported Function | 0x5fd1f780 | 0x0001f780
-`SceSvcFree` | 65 (0x41) | Exported Function | 0x5fd338e0 | 0x000338e0
-`SceSvcConvertTextToSD` | 64 (0x40) | Exported Function | 0x5fd338b0 | 0x000338b0
-`SceSvcConvertSDToText` | 63 (0x3f) | Exported Function | 0x5fd33880 | 0x00033880
-`SceStartTransaction` | 62 (0x3e) | Exported Function | 0x5fd2e100 | 0x0002e100
-`SceSetupUpdateSecurityService` | 61 (0x3d) | Exported Function | 0x5fd33740 | 0x00033740
-`SceSetupUpdateSecurityFile` | 59 (0x3b) | Exported Function | 0x5fd33370 | 0x00033370
-`SceWrapperImportSecurityProfile` | 74 (0x4a) | Exported Function | 0x5fd33c90 | 0x00033c90
-`SceGetServerProductType` | 44 (0x2c) | Exported Function | 0x5fd2d710 | 0x0002d710
-`SceGetScpProfileDescription` | 42 (0x2a) | Exported Function | 0x5fd2d420 | 0x0002d420
-`SceConfigureConvertedFileSecurity` | 4 (0x4) | Exported Function | 0x5fd2eee0 | 0x0002eee0
-`SceCompareSecurityDescriptors` | 23 (0x17) | Exported Function | 0x5fd19030 | 0x00019030
-`SceCompareNameList` | 22 (0x16) | Exported Function | 0x5fd18fb0 | 0x00018fb0
-`SceCommitTransaction` | 21 (0x15) | Exported Function | 0x5fd2c8c0 | 0x0002c8c0
-`SceCloseProfile` | 20 (0x14) | Exported Function | 0x5fd2c810 | 0x0002c810
-`SceBrowseDatabaseTable` | 19 (0x13) | Exported Function | 0x5fd2c660 | 0x0002c660
-`SceAppendSecurityProfileInfo` | 18 (0x12) | Exported Function | 0x5fd22b40 | 0x00022b40
-`SceAnalyzeSystem` | 17 (0x11) | Exported Function | 0x5fd2c430 | 0x0002c430
-`SceAddToObjectList` | 16 (0x10) | Exported Function | 0x5fd18f80 | 0x00018f80
-`SceAddToNameStatusList` | 15 (0xf) | Exported Function | 0x5fd18f60 | 0x00018f60
-`SceAddToNameList` | 14 (0xe) | Exported Function | 0x5fd18f30 | 0x00018f30
-`InitializeChangeNotify` | 3 (0x3) | Exported Function | 0x5fd09f20 | 0x00009f20
-`DllUnregisterServer` | 13 (0xd) | Exported Function | 0x5fd2ece0 | 0x0002ece0
-`DllRegisterServer` | 12 (0xc) | Exported Function | 0x5fd2e8b0 | 0x0002e8b0
-`DeltaNotify` | 2 (0x2) | Exported Function | 0x5fd27c60 | 0x00027c60
-`SceConfigureSystem` | 24 (0x18) | Exported Function | 0x5fd2c940 | 0x0002c940
-`SceGetSecurityProfileInfo` | 43 (0x2b) | Exported Function | 0x5fd2d4b0 | 0x0002d4b0
-`SceCopyBaseProfile` | 25 (0x19) | Exported Function | 0x5fd2ca70 | 0x0002ca70
-`SceDcPromoCreateGPOsInSysvol` | 27 (0x1b) | Exported Function | 0x5fd316b0 | 0x000316b0
-`SceGetObjectSecurity` | 41 (0x29) | Exported Function | 0x5fd2d350 | 0x0002d350
-`SceGetObjectChildren` | 40 (0x28) | Exported Function | 0x5fd2d260 | 0x0002d260
-`SceGetDbTime` | 39 (0x27) | Exported Function | 0x5fd2d100 | 0x0002d100
-`SceGetDatabaseSetting` | 38 (0x26) | Exported Function | 0x5fd2d000 | 0x0002d000
-`SceGetAreas` | 37 (0x25) | Exported Function | 0x5fd27a30 | 0x00027a30
-`SceGetAnalysisAreaSummary` | 36 (0x24) | Exported Function | 0x5fd2cf80 | 0x0002cf80
-`SceGenerateRollback` | 35 (0x23) | Exported Function | 0x5fd2ce00 | 0x0002ce00
-`SceGenerateGroupPolicy` | 5 (0x5) | Exported Function | 0x5fd24ce0 | 0x00024ce0
-`SceFreeProfileMemory` | 34 (0x22) | Exported Function | 0x5fd17960 | 0x00017960
-`SceFreeMemory` | 33 (0x21) | Exported Function | 0x5fd17400 | 0x00017400
-`SceEnumerateServices` | 32 (0x20) | Exported Function | 0x5fd190b0 | 0x000190b0
-`SceEnforceSecurityPolicyPropagation` | 31 (0x1f) | Exported Function | 0x5fd31a90 | 0x00031a90
-`SceDcPromoteSecurityEx` | 30 (0x1e) | Exported Function | 0x5fd31990 | 0x00031990
-`SceDcPromoteSecurity` | 29 (0x1d) | Exported Function | 0x5fd31970 | 0x00031970
-`SceDcPromoCreateGPOsInSysvolEx` | 28 (0x1c) | Exported Function | 0x5fd316e0 | 0x000316e0
-`SceCreateDirectory` | 26 (0x1a) | Exported Function | 0x5fd19090 | 0x00019090
-`SceWriteSecurityProfileInfo` | 75 (0x4b) | Exported Function | 0x5fd22d10 | 0x00022d10
+Function Name | Ordinal | Type
+-- | -- | --
+`SceSetupBackupSecurity` | 52 | Exported Function
+`SceSetupConfigureServices` | 53 | Exported Function
+`SceRollbackTransaction` | 50 | Exported Function
+`SceSetDatabaseSetting` | 51 | Exported Function
+`SceSetupGenerateTemplate` | 54 | Exported Function
+`SceSetupSystemByInfName` | 57 | Exported Function
+`SceSetupUnwindSecurityFile` | 58 | Exported Function
+`SceSetupMoveSecurityFile` | 55 | Exported Function
+`SceSetupRootSecurity` | 56 | Exported Function
+`SceLookupPrivRightName` | 47 | Exported Function
+`SceNotifyPolicyDelta` | 6 | Exported Function
+`SceGetTimeStamp` | 45 | Exported Function
+`SceIsSystemDatabase` | 46 | Exported Function
+`SceOpenPolicy` | 7 | Exported Function
+`SceProcessSecurityPolicyGPOEx` | 9 | Exported Function
+`SceRegisterRegValues` | 49 | Exported Function
+`SceOpenProfile` | 48 | Exported Function
+`SceProcessSecurityPolicyGPO` | 8 | Exported Function
+`SceSetupUpdateSecurityFile` | 59 | Exported Function
+`SceSysPrep` | 10 | Exported Function
+`SceSysPrepOffline` | 11 | Exported Function
+`SceSvcSetInformationTemplate` | 69 | Exported Function
+`SceSvcUpdateInfo` | 70 | Exported Function
+`SceUpdateObjectInfo` | 71 | Exported Function
+`SceWrapperImportSecurityProfile` | 74 | Exported Function
+`SceWriteSecurityProfileInfo` | 75 | Exported Function
+`SceUpdateSecurityProfile` | 72 | Exported Function
+`SceWrapperExportSecurityProfile` | 73 | Exported Function
+`SceStartTransaction` | 62 | Exported Function
+`SceSvcConvertSDToText` | 63 | Exported Function
+`SceSetupUpdateSecurityKey` | 60 | Exported Function
+`SceSetupUpdateSecurityService` | 61 | Exported Function
+`SceSvcConvertTextToSD` | 64 | Exported Function
+`SceSvcQueryInfo` | 67 | Exported Function
+`SceSvcSetInfo` | 68 | Exported Function
+`SceSvcFree` | 65 | Exported Function
+`SceSvcGetInformationTemplate` | 66 | Exported Function
+`SceGetServerProductType` | 44 | Exported Function
+`SceCloseProfile` | 20 | Exported Function
+`SceCommitTransaction` | 21 | Exported Function
+`SceAppendSecurityProfileInfo` | 18 | Exported Function
+`SceBrowseDatabaseTable` | 19 | Exported Function
+`SceCompareNameList` | 22 | Exported Function
+`SceConfigureSystem` | 24 | Exported Function
+`SceCopyBaseProfile` | 25 | Exported Function
+`SceCompareSecurityDescriptors` | 23 | Exported Function
+`SceConfigureConvertedFileSecurity` | 4 | Exported Function
+`DllRegisterServer` | 12 | Exported Function
+`DllUnregisterServer` | 13 | Exported Function
+`ConvertSecurityDescriptorToText` | 1 | Exported Function
+`DeltaNotify` | 2 | Exported Function
+`InitializeChangeNotify` | 3 | Exported Function
+`SceAddToObjectList` | 16 | Exported Function
+`SceAnalyzeSystem` | 17 | Exported Function
+`SceAddToNameList` | 14 | Exported Function
+`SceAddToNameStatusList` | 15 | Exported Function
+`SceCreateDirectory` | 26 | Exported Function
+`SceGetAreas` | 37 | Exported Function
+`SceGetDatabaseSetting` | 38 | Exported Function
+`SceGenerateRollback` | 35 | Exported Function
+`SceGetAnalysisAreaSummary` | 36 | Exported Function
+`SceGetDbTime` | 39 | Exported Function
+`SceGetScpProfileDescription` | 42 | Exported Function
+`SceGetSecurityProfileInfo` | 43 | Exported Function
+`SceGetObjectChildren` | 40 | Exported Function
+`SceGetObjectSecurity` | 41 | Exported Function
+`SceDcPromoteSecurity` | 29 | Exported Function
+`SceDcPromoteSecurityEx` | 30 | Exported Function
+`SceDcPromoCreateGPOsInSysvol` | 27 | Exported Function
+`SceDcPromoCreateGPOsInSysvolEx` | 28 | Exported Function
+`SceEnforceSecurityPolicyPropagation` | 31 | Exported Function
+`SceFreeProfileMemory` | 34 | Exported Function
+`SceGenerateGroupPolicy` | 5 | Exported Function
+`SceEnumerateServices` | 32 | Exported Function
+`SceFreeMemory` | 33 | Exported Function
 
 
 ## Signature

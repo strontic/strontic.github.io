@@ -24,10 +24,10 @@ PE256 | `CDD55D7D7288336241DBAE208CFF20933A62C11D97BEDEB3C68592685CA4778C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__ImagePolicyMetadata` | 2 (0x2) | Exported Function | 0x000000018000c060 | 0x0000c060
-`FxDriverEntryUm` | 1 (0x1) | Exported Function | 0x0000000180004770 | 0x00004770
+Function Name | Ordinal | Type
+-- | -- | --
+`FxDriverEntryUm` | 1 | Exported Function
+`__ImagePolicyMetadata` | 2 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `EA302AA1721FAEDE1B32BA6233C7ED9670AB024E4E9AF119C7B5A491460F1B6A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IsGameStreamingServer` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`IsGameStreamingServer` | 1 | Exported Function
 
 
 ## Signature

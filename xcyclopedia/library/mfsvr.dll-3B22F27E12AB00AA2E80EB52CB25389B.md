@@ -24,14 +24,14 @@ PE256 | `4D47BF1606B67E34B9118E15C9B483678EBD29BF8ECCE226F9D1A84C0E5193C0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x1003f7a0 | 0x0003f7a0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x1003fdc0 | 0x0003fdc0
-`MFCreateHDCPStatus` | 3 (0x3) | Exported Function | 0x1003f7d0 | 0x0003f7d0
-`MFCreateMediaEngineVideoOTA` | 4 (0x4) | Exported Function | 0x1003f8d0 | 0x0003f8d0
-`MFCreateOPMHelper` | 5 (0x5) | Exported Function | 0x1003f9d0 | 0x0003f9d0
-`MFCreateTimedTextRenderer` | 6 (0x6) | Exported Function | 0x1003fb60 | 0x0003fb60
+Function Name | Ordinal | Type
+-- | -- | --
+`MFCreateMediaEngineVideoOTA` | 4 | Exported Function
+`MFCreateOPMHelper` | 5 | Exported Function
+`MFCreateTimedTextRenderer` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`MFCreateHDCPStatus` | 3 | Exported Function
 
 
 ## Signature

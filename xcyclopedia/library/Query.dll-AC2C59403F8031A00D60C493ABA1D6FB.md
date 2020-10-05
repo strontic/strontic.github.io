@@ -24,18 +24,18 @@ PE256 | `6D0D2C2C39C7636B16715290C92C32A2E9C16C973284004239F6DDDFE49ED1A6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BindIFilterFromStorage` | 3 (0x3) | Exported Function | 0x0000000180009000 | 0x00009000
-`BindIFilterFromStream` | 4 (0x4) | Exported Function | 0x0000000180009100 | 0x00009100
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x0000000180002770 | 0x00002770
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x0000000180001440 | 0x00001440
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x0000000180008c10 | 0x00008c10
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x0000000180008d70 | 0x00008d70
-`LoadBinaryFilter` | 1 (0x1) | Exported Function | 0x0000000180008f00 | 0x00008f00
-`LoadIFilter` | 9 (0x9) | Exported Function | 0x0000000180009200 | 0x00009200
-`LoadIFilterEx` | 10 (0xa) | Exported Function | 0x0000000180009300 | 0x00009300
-`LoadTextFilter` | 2 (0x2) | Exported Function | 0x0000000180008f80 | 0x00008f80
+Function Name | Ordinal | Type
+-- | -- | --
+`LoadBinaryFilter` | 1 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`LoadIFilter` | 9 | Exported Function
+`LoadTextFilter` | 2 | Exported Function
+`LoadIFilterEx` | 10 | Exported Function
+`BindIFilterFromStream` | 4 | Exported Function
+`BindIFilterFromStorage` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
 
 
 ## Signature
@@ -76,6 +76,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [net_susp_dns_b64_queries.yml](https://github.com/Neo23x0/sigma/blob/master/rules/network/net_susp_dns_b64_queries.yml) | `title: Suspicious DNS Query with B64 Encoded String` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [net_susp_dns_b64_queries.yml](https://github.com/Neo23x0/sigma/blob/master/rules/network/net_susp_dns_b64_queries.yml) | `query:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [net_susp_telegram_api.yml](https://github.com/Neo23x0/sigma/blob/master/rules/network/net_susp_telegram_api.yml) | `query:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [net_wannacry_killswitch_domain.yml](https://github.com/Neo23x0/sigma/blob/master/rules/network/net_wannacry_killswitch_domain.yml) | `query:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [proxy_empire_ua_uri_combos.yml](https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_empire_ua_uri_combos.yml) | `cs-uri-query:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [proxy_susp_flash_download_loc.yml](https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_susp_flash_download_loc.yml) | `c-uri-query:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_apt_babyshark.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_babyshark.yml) | `- reg query "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default"` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)

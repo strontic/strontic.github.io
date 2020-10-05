@@ -24,19 +24,19 @@ PE256 | `208C95CC3E6F5F938F207A3DD6CEA072DC0FAE6CBDB522F88133715CFBA166CB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 11 (0xb) | Exported Function | 0x0000000180001120 | 0x00001120
-`NcaEngineClose` | 1 (0x1) | Exported Function | 0x00000001800019a0 | 0x000019a0
-`NcaEngineOpen` | 2 (0x2) | Exported Function | 0x0000000180001790 | 0x00001790
-`NcaExecuteAndCaptureLogs` | 3 (0x3) | Exported Function | 0x0000000180002e10 | 0x00002e10
-`NcaGetConfig` | 4 (0x4) | Exported Function | 0x00000001800029d0 | 0x000029d0
-`NcaGetEvidenceCollectorResult` | 5 (0x5) | Exported Function | 0x0000000180002fc0 | 0x00002fc0
-`NcaNetworkClose` | 6 (0x6) | Exported Function | 0x0000000180002130 | 0x00002130
-`NcaNetworkOpen` | 7 (0x7) | Exported Function | 0x0000000180001ef0 | 0x00001ef0
-`NcaStatusEventSubscribe` | 8 (0x8) | Exported Function | 0x00000001800023e0 | 0x000023e0
-`NcaStatusEventUnsubscribe` | 9 (0x9) | Exported Function | 0x0000000180002810 | 0x00002810
-`NcaToggleNamePreferenceState` | 10 (0xa) | Exported Function | 0x0000000180002c70 | 0x00002c70
+Function Name | Ordinal | Type
+-- | -- | --
+`NcaNetworkOpen` | 7 | Exported Function
+`NcaNetworkClose` | 6 | Exported Function
+`NcaStatusEventSubscribe` | 8 | Exported Function
+`NcaToggleNamePreferenceState` | 10 | Exported Function
+`NcaStatusEventUnsubscribe` | 9 | Exported Function
+`NcaGetEvidenceCollectorResult` | 5 | Exported Function
+`NcaEngineClose` | 1 | Exported Function
+`DllMain` | 11 | Exported Function
+`NcaEngineOpen` | 2 | Exported Function
+`NcaGetConfig` | 4 | Exported Function
+`NcaExecuteAndCaptureLogs` | 3 | Exported Function
 
 
 ## Signature

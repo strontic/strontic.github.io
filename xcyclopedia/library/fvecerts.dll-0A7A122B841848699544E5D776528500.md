@@ -24,23 +24,23 @@ PE256 | `9A98CBD80970748ED9A82B11933AAAFDD7E49EEB71EFF193BD2252B8226ACDB9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FveCertCanCertificateBeAdded` | 1 (0x1) | Exported Function | 0x100025a0 | 0x000025a0
-`FveCertCreateCertInfo` | 2 (0x2) | Exported Function | 0x10002420 | 0x00002420
-`FveCertCreateSelfSignedCertificate` | 3 (0x3) | Exported Function | 0x10002d10 | 0x00002d10
-`FveCertFilterForValidCertificates` | 4 (0x4) | Exported Function | 0x10002940 | 0x00002940
-`FveCertFindValidCertificates` | 5 (0x5) | Exported Function | 0x10002840 | 0x00002840
-`FveCertFreeCertInfo` | 6 (0x6) | Exported Function | 0x10002510 | 0x00002510
-`FveCertGetCertContextFromCert` | 7 (0x7) | Exported Function | 0x10002090 | 0x00002090
-`FveCertGetCertContextFromPfx` | 8 (0x8) | Exported Function | 0x10001bb0 | 0x00001bb0
-`FveCertGetCertHashFromCertContext` | 9 (0x9) | Exported Function | 0x10002390 | 0x00002390
-`FveCertGetPrivateKeyHandle` | 10 (0xa) | Exported Function | 0x10001890 | 0x00001890
-`FveCertGetPublicKeyHandle` | 11 (0xb) | Exported Function | 0x10001800 | 0x00001800
-`FveCertIsAlternateCert` | 12 (0xc) | Exported Function | 0x10002bd0 | 0x00002bd0
-`FveCertIsValidCertInfo` | 13 (0xd) | Exported Function | 0x10002540 | 0x00002540
-`FveCertSignData` | 14 (0xe) | Exported Function | 0x10002ea0 | 0x00002ea0
-`FveCertWritePfxFromCertContext` | 15 (0xf) | Exported Function | 0x10001ee0 | 0x00001ee0
+Function Name | Ordinal | Type
+-- | -- | --
+`FveCertGetPublicKeyHandle` | 11 | Exported Function
+`FveCertGetPrivateKeyHandle` | 10 | Exported Function
+`FveCertGetCertHashFromCertContext` | 9 | Exported Function
+`FveCertIsAlternateCert` | 12 | Exported Function
+`FveCertWritePfxFromCertContext` | 15 | Exported Function
+`FveCertSignData` | 14 | Exported Function
+`FveCertIsValidCertInfo` | 13 | Exported Function
+`FveCertGetCertContextFromPfx` | 8 | Exported Function
+`FveCertCreateSelfSignedCertificate` | 3 | Exported Function
+`FveCertCreateCertInfo` | 2 | Exported Function
+`FveCertCanCertificateBeAdded` | 1 | Exported Function
+`FveCertFilterForValidCertificates` | 4 | Exported Function
+`FveCertGetCertContextFromCert` | 7 | Exported Function
+`FveCertFreeCertInfo` | 6 | Exported Function
+`FveCertFindValidCertificates` | 5 | Exported Function
 
 
 ## Signature

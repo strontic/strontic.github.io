@@ -24,11 +24,11 @@ PE256 | `E0FE4CFABF24B1D4B69A49241413831246C8A190F7D8F41D544D5DDF19B5B4EE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseUsbPerformanceData` | 1 (0x1) | Exported Function | 0x0000000180001930 | 0x00001930
-`CollectUsbPerformanceData` | 2 (0x2) | Exported Function | 0x0000000180001650 | 0x00001650
-`OpenUsbPerformanceData` | 3 (0x3) | Exported Function | 0x0000000180001020 | 0x00001020
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenUsbPerformanceData` | 3 | Exported Function
+`CollectUsbPerformanceData` | 2 | Exported Function
+`CloseUsbPerformanceData` | 1 | Exported Function
 
 
 ## Signature

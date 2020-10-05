@@ -24,41 +24,41 @@ PE256 | `E0A6AF0A4F610EF2D4944BC1A0D85F4A22E7AEBB9B72E1FDE22A57FC96376EE5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AppxBundleSipCreateIndirectData` | 21 (0x15) | Exported Function | 0x00000001800079e0 | 0x000079e0
-`P7xSipPutSignedDataMsg` | 13 (0xd) | Exported Function | 0x000000018000d810 | 0x0000d810
-`P7xSipIsFileSupportedName` | 11 (0xb) | Exported Function | 0x00000001800020b0 | 0x000020b0
-`P7xSipGetSignedDataMsg` | 12 (0xc) | Exported Function | 0x000000018000d840 | 0x0000d840
-`P7xSipCreateIndirectData` | 15 (0xf) | Exported Function | 0x000000018000d810 | 0x0000d810
-`EappxSipVerifyIndirectData` | 28 (0x1c) | Exported Function | 0x000000018000d3b0 | 0x0000d3b0
-`EappxSipRemoveSignedDataMsg` | 26 (0x1a) | Exported Function | 0x000000018000d120 | 0x0000d120
-`EappxSipPutSignedDataMsg` | 25 (0x19) | Exported Function | 0x000000018000cf00 | 0x0000cf00
-`EappxSipIsFileSupportedName` | 23 (0x17) | Exported Function | 0x000000018000cc90 | 0x0000cc90
-`EappxSipGetSignedDataMsg` | 24 (0x18) | Exported Function | 0x000000018000cad0 | 0x0000cad0
-`EappxSipCreateIndirectData` | 27 (0x1b) | Exported Function | 0x000000018000c680 | 0x0000c680
-`EappxBundleSipVerifyIndirectData` | 34 (0x22) | Exported Function | 0x000000018000c220 | 0x0000c220
-`EappxBundleSipRemoveSignedDataMsg` | 32 (0x20) | Exported Function | 0x000000018000c090 | 0x0000c090
-`EappxBundleSipPutSignedDataMsg` | 31 (0x1f) | Exported Function | 0x000000018000be70 | 0x0000be70
-`EappxBundleSipIsFileSupportedName` | 29 (0x1d) | Exported Function | 0x000000018000bc40 | 0x0000bc40
-`P7xSipRemoveSignedDataMsg` | 14 (0xe) | Exported Function | 0x000000018000d810 | 0x0000d810
-`EappxBundleSipGetSignedDataMsg` | 30 (0x1e) | Exported Function | 0x000000018000ba80 | 0x0000ba80
-`DllUnregisterServer` | 37 (0x25) | Exported Function | 0x00000001800067c0 | 0x000067c0
-`DllRegisterServer` | 36 (0x24) | Exported Function | 0x00000001800064a0 | 0x000064a0
-`DllCanUnloadNow` | 35 (0x23) | Exported Function | 0x0000000180006470 | 0x00006470
-`AppxSipVerifyIndirectData` | 10 (0xa) | Exported Function | 0x000000018000ada0 | 0x0000ada0
-`AppxSipRemoveSignedDataMsg` | 8 (0x8) | Exported Function | 0x000000018000ab10 | 0x0000ab10
-`AppxSipPutSignedDataMsg` | 7 (0x7) | Exported Function | 0x000000018000a700 | 0x0000a700
-`AppxSipIsFileSupportedName` | 5 (0x5) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`AppxSipGetSignedDataMsg` | 6 (0x6) | Exported Function | 0x000000018000a4e0 | 0x0000a4e0
-`AppxSipCreateIndirectData` | 9 (0x9) | Exported Function | 0x00000001800099c0 | 0x000099c0
-`AppxBundleSipVerifyIndirectData` | 22 (0x16) | Exported Function | 0x0000000180008bd0 | 0x00008bd0
-`AppxBundleSipRemoveSignedDataMsg` | 20 (0x14) | Exported Function | 0x0000000180008940 | 0x00008940
-`AppxBundleSipPutSignedDataMsg` | 19 (0x13) | Exported Function | 0x0000000180008530 | 0x00008530
-`AppxBundleSipIsFileSupportedName` | 17 (0x11) | Exported Function | 0x0000000180001060 | 0x00001060
-`AppxBundleSipGetSignedDataMsg` | 18 (0x12) | Exported Function | 0x0000000180008310 | 0x00008310
-`EappxBundleSipCreateIndirectData` | 33 (0x21) | Exported Function | 0x000000018000b480 | 0x0000b480
-`P7xSipVerifyIndirectData` | 16 (0x10) | Exported Function | 0x000000018000d9e0 | 0x0000d9e0
+Function Name | Ordinal | Type
+-- | -- | --
+`EappxSipGetSignedDataMsg` | 24 | Exported Function
+`EappxSipCreateIndirectData` | 27 | Exported Function
+`EappxSipPutSignedDataMsg` | 25 | Exported Function
+`EappxSipIsFileSupportedName` | 23 | Exported Function
+`EappxBundleSipPutSignedDataMsg` | 31 | Exported Function
+`EappxBundleSipIsFileSupportedName` | 29 | Exported Function
+`EappxBundleSipVerifyIndirectData` | 34 | Exported Function
+`EappxBundleSipRemoveSignedDataMsg` | 32 | Exported Function
+`P7xSipPutSignedDataMsg` | 13 | Exported Function
+`P7xSipIsFileSupportedName` | 11 | Exported Function
+`P7xSipVerifyIndirectData` | 16 | Exported Function
+`P7xSipRemoveSignedDataMsg` | 14 | Exported Function
+`EappxSipVerifyIndirectData` | 28 | Exported Function
+`EappxSipRemoveSignedDataMsg` | 26 | Exported Function
+`P7xSipGetSignedDataMsg` | 12 | Exported Function
+`P7xSipCreateIndirectData` | 15 | Exported Function
+`EappxBundleSipGetSignedDataMsg` | 30 | Exported Function
+`AppxBundleSipVerifyIndirectData` | 22 | Exported Function
+`AppxBundleSipRemoveSignedDataMsg` | 20 | Exported Function
+`AppxSipGetSignedDataMsg` | 6 | Exported Function
+`AppxSipCreateIndirectData` | 9 | Exported Function
+`AppxBundleSipGetSignedDataMsg` | 18 | Exported Function
+`AppxBundleSipCreateIndirectData` | 21 | Exported Function
+`AppxBundleSipPutSignedDataMsg` | 19 | Exported Function
+`AppxBundleSipIsFileSupportedName` | 17 | Exported Function
+`DllRegisterServer` | 36 | Exported Function
+`DllCanUnloadNow` | 35 | Exported Function
+`EappxBundleSipCreateIndirectData` | 33 | Exported Function
+`DllUnregisterServer` | 37 | Exported Function
+`AppxSipPutSignedDataMsg` | 7 | Exported Function
+`AppxSipIsFileSupportedName` | 5 | Exported Function
+`AppxSipVerifyIndirectData` | 10 | Exported Function
+`AppxSipRemoveSignedDataMsg` | 8 | Exported Function
 
 
 ## Signature

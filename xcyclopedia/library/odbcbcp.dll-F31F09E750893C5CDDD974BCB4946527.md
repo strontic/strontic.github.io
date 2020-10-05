@@ -24,36 +24,36 @@ PE256 | `11C6D6EBBEFFCC690A4D15B404D9F7B6DAB74746CAA58659AF41BA79ADA97F6B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`bcp_batch` | 2 (0x2) | Exported Function | 0x10004730 | 0x00004730
-`SQLLinkedCatalogsA` | 23 (0x17) | Exported Function | 0x10006a40 | 0x00006a40
-`SQLInitEnumServers` | 25 (0x19) | Exported Function | 0x10006cf0 | 0x00006cf0
-`SQLGetNextEnumeration` | 26 (0x1a) | Exported Function | 0x10006da0 | 0x00006da0
-`SQLCloseEnumServers` | 27 (0x1b) | Exported Function | 0x10006de0 | 0x00006de0
-`LibMain` | 24 (0x18) | Exported Function | 0x10007f10 | 0x00007f10
-`dbprtypeW` | 17 (0x11) | Exported Function | 0x10006760 | 0x00006760
-`dbprtypeA` | 1 (0x1) | Exported Function | 0x10006440 | 0x00006440
-`bcp_writefmtW` | 20 (0x14) | Exported Function | 0x100062d0 | 0x000062d0
-`bcp_writefmtA` | 16 (0x10) | Exported Function | 0x10006190 | 0x00006190
-`bcp_setcolfmt` | 29 (0x1d) | Exported Function | 0x10006000 | 0x00006000
-`bcp_sendrow` | 14 (0xe) | Exported Function | 0x10005ea0 | 0x00005ea0
-`bcp_readfmtW` | 19 (0x13) | Exported Function | 0x10005d30 | 0x00005d30
-`bcp_readfmtA` | 15 (0xf) | Exported Function | 0x10005ba0 | 0x00005ba0
-`bcp_moretext` | 13 (0xd) | Exported Function | 0x10005a20 | 0x00005a20
-`bcp_initW` | 18 (0x12) | Exported Function | 0x10005860 | 0x00005860
-`bcp_initA` | 11 (0xb) | Exported Function | 0x10005630 | 0x00005630
-`bcp_getcolfmt` | 28 (0x1c) | Exported Function | 0x10005480 | 0x00005480
-`bcp_exec` | 12 (0xc) | Exported Function | 0x10005310 | 0x00005310
-`bcp_done` | 10 (0xa) | Exported Function | 0x100051b0 | 0x000051b0
-`bcp_control` | 9 (0x9) | Exported Function | 0x10005030 | 0x00005030
-`bcp_columns` | 8 (0x8) | Exported Function | 0x10004ec0 | 0x00004ec0
-`bcp_colptr` | 6 (0x6) | Exported Function | 0x10004d40 | 0x00004d40
-`bcp_collen` | 5 (0x5) | Exported Function | 0x10004bc0 | 0x00004bc0
-`bcp_colfmt` | 4 (0x4) | Exported Function | 0x10004a20 | 0x00004a20
-`bcp_bind` | 3 (0x3) | Exported Function | 0x10004880 | 0x00004880
-`SQLLinkedCatalogsW` | 22 (0x16) | Exported Function | 0x10006be0 | 0x00006be0
-`SQLLinkedServers` | 21 (0x15) | Exported Function | 0x10006a20 | 0x00006a20
+Function Name | Ordinal | Type
+-- | -- | --
+`bcp_writefmtW` | 20 | Exported Function
+`dbprtypeA` | 1 | Exported Function
+`dbprtypeW` | 17 | Exported Function
+`bcp_writefmtA` | 16 | Exported Function
+`bcp_readfmtW` | 19 | Exported Function
+`bcp_sendrow` | 14 | Exported Function
+`bcp_setcolfmt` | 29 | Exported Function
+`SQLLinkedCatalogsA` | 23 | Exported Function
+`SQLLinkedCatalogsW` | 22 | Exported Function
+`SQLLinkedServers` | 21 | Exported Function
+`SQLInitEnumServers` | 25 | Exported Function
+`LibMain` | 24 | Exported Function
+`SQLCloseEnumServers` | 27 | Exported Function
+`SQLGetNextEnumeration` | 26 | Exported Function
+`bcp_colptr` | 6 | Exported Function
+`bcp_columns` | 8 | Exported Function
+`bcp_control` | 9 | Exported Function
+`bcp_collen` | 5 | Exported Function
+`bcp_batch` | 2 | Exported Function
+`bcp_bind` | 3 | Exported Function
+`bcp_colfmt` | 4 | Exported Function
+`bcp_initW` | 18 | Exported Function
+`bcp_moretext` | 13 | Exported Function
+`bcp_readfmtA` | 15 | Exported Function
+`bcp_initA` | 11 | Exported Function
+`bcp_done` | 10 | Exported Function
+`bcp_exec` | 12 | Exported Function
+`bcp_getcolfmt` | 28 | Exported Function
 
 
 ## Signature

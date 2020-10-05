@@ -24,19 +24,19 @@ PE256 | `B879F1192DA5EA8080AE96F56FE12E8BF68C7A73EB34767C2D4135E6FA313B93`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SclAcquireRequiredPrivileges` | 1 (0x1) | Exported Function | 0x10007bd0 | 0x00007bd0
-`SclClearPendedRequest` | 2 (0x2) | Exported Function | 0x100091b0 | 0x000091b0
-`SclExecutePendedRequests` | 3 (0x3) | Exported Function | 0x1000bd50 | 0x0000bd50
-`SclExecuteRequest` | 4 (0x4) | Exported Function | 0x1000b9a0 | 0x0000b9a0
-`SclFreeRequest` | 5 (0x5) | Exported Function | 0x1000a130 | 0x0000a130
-`SclGetPendedRequest` | 6 (0x6) | Exported Function | 0x10009a20 | 0x00009a20
-`SclLoadStringResource` | 7 (0x7) | Exported Function | 0x1000d630 | 0x0000d630
-`SclPendedRequestExists` | 9 (0x9) | Exported Function | 0x1000a010 | 0x0000a010
-`SclPendRequest` | 8 (0x8) | Exported Function | 0x10009250 | 0x00009250
-`SclPreCompilePendedRequests` | 10 (0xa) | Exported Function | 0x1000bab0 | 0x0000bab0
-`SclReleasePrivileges` | 11 (0xb) | Exported Function | 0x10007d00 | 0x00007d00
+Function Name | Ordinal | Type
+-- | -- | --
+`SclPendedRequestExists` | 9 | Exported Function
+`SclLoadStringResource` | 7 | Exported Function
+`SclPendRequest` | 8 | Exported Function
+`SclReleasePrivileges` | 11 | Exported Function
+`SclPreCompilePendedRequests` | 10 | Exported Function
+`SclGetPendedRequest` | 6 | Exported Function
+`SclClearPendedRequest` | 2 | Exported Function
+`SclAcquireRequiredPrivileges` | 1 | Exported Function
+`SclExecutePendedRequests` | 3 | Exported Function
+`SclFreeRequest` | 5 | Exported Function
+`SclExecuteRequest` | 4 | Exported Function
 
 
 ## Signature

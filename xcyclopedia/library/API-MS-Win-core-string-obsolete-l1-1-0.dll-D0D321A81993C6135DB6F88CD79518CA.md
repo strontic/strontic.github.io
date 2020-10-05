@@ -24,18 +24,18 @@ PE256 | `CB0321EA93D06AF5B4D1344B0AE3369A24158840D7AA6D8D4810615958BB70DB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`lstrcatW` | 1 (0x1) | Exported Function | kernel32.lstrcatW | 0x00001120
-`lstrcmpA` | 2 (0x2) | Exported Function | kernel32.lstrcmpA | 0x0000113b
-`lstrcmpiA` | 4 (0x4) | Exported Function | kernel32.lstrcmpiA | 0x00001172
-`lstrcmpiW` | 5 (0x5) | Exported Function | kernel32.lstrcmpiW | 0x0000118f
-`lstrcmpW` | 3 (0x3) | Exported Function | kernel32.lstrcmpW | 0x00001156
-`lstrcpynA` | 7 (0x7) | Exported Function | kernel32.lstrcpynA | 0x000011c7
-`lstrcpynW` | 8 (0x8) | Exported Function | kernel32.lstrcpynW | 0x000011e4
-`lstrcpyW` | 6 (0x6) | Exported Function | kernel32.lstrcpyW | 0x000011ab
-`lstrlenA` | 9 (0x9) | Exported Function | kernel32.lstrlenA | 0x00001200
-`lstrlenW` | 10 (0xa) | Exported Function | kernel32.lstrlenW | 0x0000121b
+Function Name | Ordinal | Type
+-- | -- | --
+`lstrcpynW` | 8 | Exported Function
+`lstrcpynA` | 7 | Exported Function
+`lstrcpyW` | 6 | Exported Function
+`lstrlenW` | 10 | Exported Function
+`lstrlenA` | 9 | Exported Function
+`lstrcmpA` | 2 | Exported Function
+`lstrcatW` | 1 | Exported Function
+`lstrcmpiA` | 4 | Exported Function
+`lstrcmpW` | 3 | Exported Function
+`lstrcmpiW` | 5 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `5597692AC1D74A4ECC71F734EEF2621CE7AFC1645081D1A976DA97B92F23AA5B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetExclusionListFromRegistry` | 177 (0xb1) | Exported Function | 0x0000000180011fc0 | 0x00011fc0
-`GetUserChoiceForSlowLink` | 178 (0xb2) | Exported Function | 0x0000000180014800 | 0x00014800
-`GetUserPreferenceValue` | 179 (0xb3) | Exported Function | 0x0000000180044ab0 | 0x00044ab0
-`UserProfileServiceMain` | 176 (0xb0) | Exported Function | 0x0000000180014ce0 | 0x00014ce0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetUserPreferenceValue` | 179 | Exported Function
+`UserProfileServiceMain` | 176 | Exported Function
+`GetExclusionListFromRegistry` | 177 | Exported Function
+`GetUserChoiceForSlowLink` | 178 | Exported Function
 
 
 ## Signature

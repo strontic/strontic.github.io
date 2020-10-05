@@ -24,14 +24,14 @@ PE256 | `98420DA183746C89A9A0839003D23746E4DA18FAE5E7C8FC99F7B9767A3675BE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetLoggedOnUserCount` | 1 (0x1) | Exported Function | 0x10004e20 | 0x00004e20
-`PrimaryTerminalAndHookWorker` | 2 (0x2) | Exported Function | 0x10001dd0 | 0x00001dd0
-`StartLoadingFontsWorker` | 3 (0x3) | Exported Function | 0x10003540 | 0x00003540
-`UIStartupWorker` | 4 (0x4) | Exported Function | 0x10003d50 | 0x00003d50
-`WaitForWinstationShutdown` | 5 (0x5) | Exported Function | 0x10005080 | 0x00005080
-`WinStationSystemShutdownStartedWorker` | 6 (0x6) | Exported Function | 0x10005120 | 0x00005120
+Function Name | Ordinal | Type
+-- | -- | --
+`UIStartupWorker` | 4 | Exported Function
+`WaitForWinstationShutdown` | 5 | Exported Function
+`WinStationSystemShutdownStartedWorker` | 6 | Exported Function
+`GetLoggedOnUserCount` | 1 | Exported Function
+`PrimaryTerminalAndHookWorker` | 2 | Exported Function
+`StartLoadingFontsWorker` | 3 | Exported Function
 
 
 ## Signature

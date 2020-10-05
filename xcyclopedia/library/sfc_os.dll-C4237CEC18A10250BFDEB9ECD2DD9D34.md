@@ -24,26 +24,26 @@ PE256 | `5CE2CAF77757F1DEF7D4640B0DD3151CD207C46007E00291CA03BCA2120AE25E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BeginFileMapEnumeration` | 1 (0x1) | Exported Function | 0x0000000180004aa0 | 0x00004aa0
-`SfpVerifyFile` | 18 (0x12) | Exported Function | 0x0000000180004e90 | 0x00004e90
-`SfpInstallCatalog` | 17 (0x11) | Exported Function | 0x0000000180004e80 | 0x00004e80
-`SfpDeleteCatalog` | 16 (0x10) | Exported Function | 0x0000000180004e80 | 0x00004e80
-`SfcTerminateWatcherThread` | 15 (0xf) | Exported Function | 0x0000000180003810 | 0x00003810
-`SfcIsKeyProtected` | 14 (0xe) | Exported Function | 0x0000000180004ce0 | 0x00004ce0
-`SfcIsFileProtected` | 13 (0xd) | Exported Function | 0x0000000180001010 | 0x00001010
-`SfcInstallProtectedFiles` | 12 (0xc) | Exported Function | 0x0000000180003820 | 0x00003820
-`SfcInitProt` | 10 (0xa) | Exported Function | 0x0000000180004e80 | 0x00004e80
-`SfcInitiateScan` | 11 (0xb) | Exported Function | 0x0000000180003820 | 0x00003820
-`SfcGetNextProtectedFile` | 9 (0x9) | Exported Function | 0x0000000180004c40 | 0x00004c40
-`SfcFileException` | 8 (0x8) | Exported Function | 0x0000000180003820 | 0x00003820
-`SfcConnectToServer` | 7 (0x7) | Exported Function | 0x0000000180003820 | 0x00003820
-`SfcClose` | 6 (0x6) | Exported Function | 0x0000000180003810 | 0x00003810
-`GetNextFileMapContent` | 3 (0x3) | Exported Function | 0x0000000180004b70 | 0x00004b70
-`CloseFileMapEnumeration` | 2 (0x2) | Exported Function | 0x0000000180004b10 | 0x00004b10
-`SRSetRestorePointA` | 4 (0x4) | Exported Function | 0x0000000180004d20 | 0x00004d20
-`SRSetRestorePointW` | 5 (0x5) | Exported Function | 0x0000000180004dd0 | 0x00004dd0
+Function Name | Ordinal | Type
+-- | -- | --
+`SfcIsKeyProtected` | 14 | Exported Function
+`SfcTerminateWatcherThread` | 15 | Exported Function
+`SfcInstallProtectedFiles` | 12 | Exported Function
+`SfcIsFileProtected` | 13 | Exported Function
+`SfpDeleteCatalog` | 16 | Exported Function
+`SRSetRestorePointA` | 4 | Exported Function
+`SRSetRestorePointW` | 5 | Exported Function
+`SfpInstallCatalog` | 17 | Exported Function
+`SfpVerifyFile` | 18 | Exported Function
+`GetNextFileMapContent` | 3 | Exported Function
+`SfcClose` | 6 | Exported Function
+`BeginFileMapEnumeration` | 1 | Exported Function
+`CloseFileMapEnumeration` | 2 | Exported Function
+`SfcConnectToServer` | 7 | Exported Function
+`SfcInitiateScan` | 11 | Exported Function
+`SfcInitProt` | 10 | Exported Function
+`SfcFileException` | 8 | Exported Function
+`SfcGetNextProtectedFile` | 9 | Exported Function
 
 
 ## Signature

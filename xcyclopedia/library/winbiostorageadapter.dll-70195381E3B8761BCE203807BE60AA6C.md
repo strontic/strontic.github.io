@@ -24,9 +24,9 @@ PE256 | `8F1BA2BAD36D39C26D6DF956B5484E0C29FDB62D490CB6DD6411E2E1646AEDAA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WbioQueryStorageInterface` | 1 (0x1) | Exported Function | 0x000000018000d900 | 0x0000d900
+Function Name | Ordinal | Type
+-- | -- | --
+`WbioQueryStorageInterface` | 1 | Exported Function
 
 
 ## Signature

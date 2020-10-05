@@ -24,12 +24,12 @@ PE256 | `588ED15AD2C6A93F8C7389078A03F2AF988F697C15220ADC7E4AB0ACFC9DFE11`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InjectThread` | 1 (0x1) | Exported Function | 0x0000000180001330 | 0x00001330
-`ntdllLdrInitializeThunk` | 4 (0x4) | Exported Function | 0x0000000180003010 | 0x00003010
-`ParametersBlock` | 2 (0x2) | Exported Function | 0x0000000180003018 | 0x00003018
-`StubDllEntry` | 3 (0x3) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`ParametersBlock` | 2 | Exported Function
+`StubDllEntry` | 3 | Exported Function
+`InjectThread` | 1 | Exported Function
+`ntdllLdrInitializeThunk` | 4 | Exported Function
 
 
 ## Signature

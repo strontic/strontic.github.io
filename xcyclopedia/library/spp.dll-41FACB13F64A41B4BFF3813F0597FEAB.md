@@ -24,21 +24,21 @@ PE256 | `FB5B3EEE47FAB984D815DC2660C2CA6B4D666A1B187C208E4960903B0A708066`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x1001c250 | 0x0001c250
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x1001c270 | 0x0001c270
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x1001c290 | 0x0001c290
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x1001c2a0 | 0x0001c2a0
-`SppFreeBadWritersArray` | 5 (0x5) | Exported Function | 0x1001c4e0 | 0x0001c4e0
-`SppFreeClientPropArray` | 6 (0x6) | Exported Function | 0x1001c420 | 0x0001c420
-`SppFreeExternalGroupPropArray` | 7 (0x7) | Exported Function | 0x1001c490 | 0x0001c490
-`SppFreeGroupPropArray` | 8 (0x8) | Exported Function | 0x1001c3d0 | 0x0001c3d0
-`SppFreeMetadataProp` | 9 (0x9) | Exported Function | 0x1001c470 | 0x0001c470
-`SxTracerDebuggerBreak` | 10 (0xa) | Exported Function | 0x1001c590 | 0x0001c590
-`SxTracerGetThreadContextDebug` | 11 (0xb) | Exported Function | 0x1001c550 | 0x0001c550
-`SxTracerGetThreadContextRetail` | 12 (0xc) | Exported Function | 0x1001c530 | 0x0001c530
-`SxTracerShouldTrackFailure` | 13 (0xd) | Exported Function | 0x1001c570 | 0x0001c570
+Function Name | Ordinal | Type
+-- | -- | --
+`SxTracerDebuggerBreak` | 10 | Exported Function
+`SppFreeMetadataProp` | 9 | Exported Function
+`SppFreeGroupPropArray` | 8 | Exported Function
+`SxTracerShouldTrackFailure` | 13 | Exported Function
+`SxTracerGetThreadContextRetail` | 12 | Exported Function
+`SxTracerGetThreadContextDebug` | 11 | Exported Function
+`SppFreeExternalGroupPropArray` | 7 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`SppFreeClientPropArray` | 6 | Exported Function
+`SppFreeBadWritersArray` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

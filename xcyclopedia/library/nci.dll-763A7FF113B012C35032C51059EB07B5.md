@@ -24,10 +24,10 @@ PE256 | `0621E18DAF5E150142C1194F04B3CB682DF6F2A5A84B2B8CD262447794292BFF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NciGetConnectionName` | 1 (0x1) | Exported Function | 0x0000000180003dd0 | 0x00003dd0
-`NciSetConnectionName` | 2 (0x2) | Exported Function | 0x0000000180003e50 | 0x00003e50
+Function Name | Ordinal | Type
+-- | -- | --
+`NciSetConnectionName` | 2 | Exported Function
+`NciGetConnectionName` | 1 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `C8432E38DE7FA02EAC2FCF76C70B697F94CE01A3C4BFC20496DE4A74D3C7EC48`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetFileVersionInfoExW` | 1 (0x1) | Exported Function | version.GetFileVersionInfoExW | 0x000010e9
-`GetFileVersionInfoSizeExW` | 2 (0x2) | Exported Function | version.GetFileVersionInfoSizeExW | 0x00001121
-`VerFindFileW` | 3 (0x3) | Exported Function | version.VerFindFileW | 0x00001150
-`VerQueryValueW` | 4 (0x4) | Exported Function | version.VerQueryValueW | 0x00001174
+Function Name | Ordinal | Type
+-- | -- | --
+`VerFindFileW` | 3 | Exported Function
+`VerQueryValueW` | 4 | Exported Function
+`GetFileVersionInfoExW` | 1 | Exported Function
+`GetFileVersionInfoSizeExW` | 2 | Exported Function
 
 
 ## Signature

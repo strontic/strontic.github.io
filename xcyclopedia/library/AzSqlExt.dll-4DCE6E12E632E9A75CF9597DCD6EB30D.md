@@ -24,14 +24,14 @@ PE256 | `5B121F1853243E2B3B6AC34EB2FA1CB73F502F56E86D82D029FE5C6D933D0385`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__GetXpVersion` | 2 (0x2) | Exported Function | 0x10003080 | 0x00003080
-`AzGenerateAudit` | 1 (0x1) | Exported Function | 0x100031f0 | 0x000031f0
-`xp_AzManAddRole` | 3 (0x3) | Exported Function | 0x10004830 | 0x00004830
-`xp_AzManAddUserToRole` | 4 (0x4) | Exported Function | 0x10004850 | 0x00004850
-`xp_AzManDeleteRole` | 5 (0x5) | Exported Function | 0x10004810 | 0x00004810
-`xp_AzManRemoveUserFromRole` | 6 (0x6) | Exported Function | 0x100047f0 | 0x000047f0
+Function Name | Ordinal | Type
+-- | -- | --
+`xp_AzManAddUserToRole` | 4 | Exported Function
+`xp_AzManDeleteRole` | 5 | Exported Function
+`xp_AzManRemoveUserFromRole` | 6 | Exported Function
+`__GetXpVersion` | 2 | Exported Function
+`AzGenerateAudit` | 1 | Exported Function
+`xp_AzManAddRole` | 3 | Exported Function
 
 
 ## Signature

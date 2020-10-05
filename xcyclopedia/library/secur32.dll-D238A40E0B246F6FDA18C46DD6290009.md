@@ -24,109 +24,109 @@ PE256 | `BA0E409679AA832569B418AC053CA52654299F6B31D046A6D2EC30B3285969B3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AcceptSecurityContext` | 4 (0x4) | Exported Function | SSPICLI.AcceptSecurityContext | 0x000037d5
-`SeciFreeCallContext` | 73 (0x49) | Exported Function | SSPICLI.SeciFreeCallContext | 0x0000462f
-`SeciAllocateAndSetIPAddress` | 72 (0x48) | Exported Function | SSPICLI.SeciAllocateAndSetIPAddress | 0x000045f7
-`SeciAllocateAndSetCallFlags` | 71 (0x47) | Exported Function | SSPICLI.SeciAllocateAndSetCallFlags | 0x000045b7
-`SealMessage` | 70 (0x46) | Exported Function | SSPICLI.SealMessage | 0x00004587
-`SaslSetContextOption` | 69 (0x45) | Exported Function | SSPICLI.SaslSetContextOption | 0x0000455e
-`SaslInitializeSecurityContextW` | 68 (0x44) | Exported Function | SSPICLI.SaslInitializeSecurityContextW | 0x00004522
-`SaslInitializeSecurityContextA` | 67 (0x43) | Exported Function | SSPICLI.SaslInitializeSecurityContextA | 0x000044dc
-`SaslIdentifyPackageW` | 66 (0x42) | Exported Function | SSPICLI.SaslIdentifyPackageW | 0x000044a0
-`SaslIdentifyPackageA` | 65 (0x41) | Exported Function | SSPICLI.SaslIdentifyPackageA | 0x0000446e
-`SaslGetProfilePackageW` | 64 (0x40) | Exported Function | SSPICLI.SaslGetProfilePackageW | 0x0000443a
-`SaslGetProfilePackageA` | 63 (0x3f) | Exported Function | SSPICLI.SaslGetProfilePackageA | 0x00004404
-`SaslGetContextOption` | 62 (0x3e) | Exported Function | SSPICLI.SaslGetContextOption | 0x000043d0
-`SaslEnumerateProfilesW` | 61 (0x3d) | Exported Function | SSPICLI.SaslEnumerateProfilesW | 0x0000439c
-`SaslEnumerateProfilesA` | 60 (0x3c) | Exported Function | SSPICLI.SaslEnumerateProfilesA | 0x00004366
-`SaslAcceptSecurityContext` | 59 (0x3b) | Exported Function | SSPICLI.SaslAcceptSecurityContext | 0x0000432d
-`RevertSecurityContext` | 58 (0x3a) | Exported Function | SSPICLI.RevertSecurityContext | 0x000042f5
-`QuerySecurityPackageInfoW` | 57 (0x39) | Exported Function | SSPICLI.QuerySecurityPackageInfoW | 0x000042bd
-`QuerySecurityPackageInfoA` | 56 (0x38) | Exported Function | SSPICLI.QuerySecurityPackageInfoA | 0x00004281
-`QuerySecurityContextToken` | 55 (0x37) | Exported Function | SSPICLI.QuerySecurityContextToken | 0x00004245
-`QueryCredentialsAttributesW` | 54 (0x36) | Exported Function | SSPICLI.QueryCredentialsAttributesW | 0x00004207
-`QueryCredentialsAttributesA` | 53 (0x35) | Exported Function | SSPICLI.QueryCredentialsAttributesA | 0x000041c7
-`SecpFreeMemory` | 74 (0x4a) | Exported Function | 0x51b82930 | 0x00002930
-`SecpTranslateName` | 75 (0x4b) | Exported Function | 0x51b82940 | 0x00002940
-`SecpTranslateNameEx` | 76 (0x4c) | Exported Function | 0x51b82ec0 | 0x00002ec0
-`SetContextAttributesA` | 77 (0x4d) | Exported Function | SSPICLI.SetContextAttributesA | 0x00004696
-`TranslateNameW` | 99 (0x63) | Exported Function | 0x51b83150 | 0x00003150
-`TranslateNameA` | 98 (0x62) | Exported Function | 0x51b83020 | 0x00003020
-`SspiZeroAuthIdentity` | 97 (0x61) | Exported Function | SSPICLI.SspiZeroAuthIdentity | 0x00004af7
-`SspiValidateAuthIdentity` | 96 (0x60) | Exported Function | SSPICLI.SspiValidateAuthIdentity | 0x00004ac1
-`SspiUnmarshalAuthIdentity` | 95 (0x5f) | Exported Function | SSPICLI.SspiUnmarshalAuthIdentity | 0x00004a86
-`SspiPrepareForCredWrite` | 94 (0x5e) | Exported Function | SSPICLI.SspiPrepareForCredWrite | 0x00004a4c
-`SspiPrepareForCredRead` | 93 (0x5d) | Exported Function | SSPICLI.SspiPrepareForCredRead | 0x00004a15
-`SspiMarshalAuthIdentity` | 92 (0x5c) | Exported Function | SSPICLI.SspiMarshalAuthIdentity | 0x000049de
-`SspiLocalFree` | 91 (0x5b) | Exported Function | SSPICLI.SspiLocalFree | 0x000049b0
-`SspiIsAuthIdentityEncrypted` | 90 (0x5a) | Exported Function | SSPICLI.SspiIsAuthIdentityEncrypted | 0x0000497e
-`QueryContextAttributesW` | 52 (0x34) | Exported Function | SSPICLI.QueryContextAttributesW | 0x0000418b
-`SspiGetTargetHostName` | 89 (0x59) | Exported Function | SSPICLI.SspiGetTargetHostName | 0x00004944
-`SspiExcludePackage` | 87 (0x57) | Exported Function | SSPICLI.SspiExcludePackage | 0x000048e1
-`SspiEncryptAuthIdentity` | 86 (0x56) | Exported Function | SSPICLI.SspiEncryptAuthIdentity | 0x000048ae
-`SspiEncodeStringsAsAuthIdentity` | 85 (0x55) | Exported Function | SSPICLI.SspiEncodeStringsAsAuthIdentity | 0x0000486e
-`SspiEncodeAuthIdentityAsStrings` | 84 (0x54) | Exported Function | SSPICLI.SspiEncodeAuthIdentityAsStrings | 0x00004826
-`SspiDecryptAuthIdentity` | 83 (0x53) | Exported Function | SSPICLI.SspiDecryptAuthIdentity | 0x000047e6
-`SspiCopyAuthIdentity` | 82 (0x52) | Exported Function | SSPICLI.SspiCopyAuthIdentity | 0x000047b1
-`SspiCompareAuthIdentities` | 81 (0x51) | Exported Function | SSPICLI.SspiCompareAuthIdentities | 0x0000477a
-`SetCredentialsAttributesW` | 80 (0x50) | Exported Function | SSPICLI.SetCredentialsAttributesW | 0x0000473e
-`SetCredentialsAttributesA` | 79 (0x4f) | Exported Function | SSPICLI.SetCredentialsAttributesA | 0x00004702
-`SetContextAttributesW` | 78 (0x4e) | Exported Function | SSPICLI.SetContextAttributesW | 0x000046ca
-`SspiFreeAuthIdentity` | 88 (0x58) | Exported Function | SSPICLI.SspiFreeAuthIdentity | 0x00004911
-`UnsealMessage` | 100 (0x64) | Exported Function | SSPICLI.UnsealMessage | 0x00004b40
-`QueryContextAttributesA` | 51 (0x33) | Exported Function | SSPICLI.QueryContextAttributesA | 0x00004153
-`MakeSignature` | 50 (0x32) | Exported Function | SSPICLI.MakeSignature | 0x00004125
-`EnumerateSecurityPackagesW` | 23 (0x17) | Exported Function | SSPICLI.EnumerateSecurityPackagesW | 0x00003b90
-`EnumerateSecurityPackagesA` | 22 (0x16) | Exported Function | SSPICLI.EnumerateSecurityPackagesA | 0x00003b52
-`EncryptMessage` | 21 (0x15) | Exported Function | SSPICLI.EncryptMessage | 0x00003b20
-`DeleteSecurityPackageW` | 20 (0x14) | Exported Function | SSPICLI.DeleteSecurityPackageW | 0x00003af2
-`DeleteSecurityPackageA` | 19 (0x13) | Exported Function | SSPICLI.DeleteSecurityPackageA | 0x00003abc
-`DeleteSecurityContext` | 18 (0x12) | Exported Function | SSPICLI.DeleteSecurityContext | 0x00003a87
-`DecryptMessage` | 17 (0x11) | Exported Function | SSPICLI.DecryptMessage | 0x00003a5a
-`CredUnmarshalTargetInfo` | 16 (0x10) | Exported Function | SSPICLI.CredUnmarshalTargetInfo | 0x00003a2b
-`CredMarshalTargetInfo` | 15 (0xf) | Exported Function | SSPICLI.CredMarshalTargetInfo | 0x000039f5
-`CompleteAuthToken` | 14 (0xe) | Exported Function | SSPICLI.CompleteAuthToken | 0x000039c5
-`CollectLsaPerformanceData` | 2 (0x2) | Exported Function | 0x51b818c0 | 0x000018c0
-`CloseLsaPerformanceData` | 1 (0x1) | Exported Function | 0x51b81870 | 0x00001870
-`ChangeAccountPasswordW` | 13 (0xd) | Exported Function | SSPICLI.ChangeAccountPasswordW | 0x00003994
-`ChangeAccountPasswordA` | 12 (0xc) | Exported Function | SSPICLI.ChangeAccountPasswordA | 0x0000395e
-`ApplyControlToken` | 11 (0xb) | Exported Function | SSPICLI.ApplyControlToken | 0x0000392d
-`AddSecurityPackageW` | 10 (0xa) | Exported Function | SSPICLI.AddSecurityPackageW | 0x000038ff
-`AddSecurityPackageA` | 9 (0x9) | Exported Function | SSPICLI.AddSecurityPackageA | 0x000038cf
-`AddCredentialsW` | 8 (0x8) | Exported Function | SSPICLI.AddCredentialsW | 0x000038a3
-`AddCredentialsA` | 7 (0x7) | Exported Function | SSPICLI.AddCredentialsA | 0x0000387b
-`AcquireCredentialsHandleW` | 6 (0x6) | Exported Function | SSPICLI.AcquireCredentialsHandleW | 0x00003849
-`AcquireCredentialsHandleA` | 5 (0x5) | Exported Function | SSPICLI.AcquireCredentialsHandleA | 0x0000380d
-`ExportSecurityContext` | 24 (0x18) | Exported Function | SSPICLI.ExportSecurityContext | 0x00003bc9
-`FreeContextBuffer` | 25 (0x19) | Exported Function | SSPICLI.FreeContextBuffer | 0x00003bf9
-`FreeCredentialsHandle` | 26 (0x1a) | Exported Function | SSPICLI.FreeCredentialsHandle | 0x00003c29
-`GetComputerObjectNameA` | 27 (0x1b) | Exported Function | 0x51b82690 | 0x00002690
-`LsaUnregisterPolicyChangeNotification` | 49 (0x31) | Exported Function | SSPICLI.LsaUnregisterPolicyChangeNotification | 0x000040e9
-`LsaRegisterPolicyChangeNotification` | 48 (0x30) | Exported Function | SSPICLI.LsaRegisterPolicyChangeNotification | 0x00004097
-`LsaRegisterLogonProcess` | 47 (0x2f) | Exported Function | SSPICLI.LsaRegisterLogonProcess | 0x00004053
-`LsaLookupAuthenticationPackage` | 46 (0x2e) | Exported Function | SSPICLI.LsaLookupAuthenticationPackage | 0x00004014
-`LsaLogonUser` | 45 (0x2d) | Exported Function | SSPICLI.LsaLogonUser | 0x00003fe0
-`LsaGetLogonSessionData` | 44 (0x2c) | Exported Function | SSPICLI.LsaGetLogonSessionData | 0x00003fb4
-`LsaFreeReturnBuffer` | 43 (0x2b) | Exported Function | SSPICLI.LsaFreeReturnBuffer | 0x00003f81
-`LsaEnumerateLogonSessions` | 42 (0x2a) | Exported Function | SSPICLI.LsaEnumerateLogonSessions | 0x00003f4b
-`LsaDeregisterLogonProcess` | 41 (0x29) | Exported Function | SSPICLI.LsaDeregisterLogonProcess | 0x00003f0f
-`LsaConnectUntrusted` | 40 (0x28) | Exported Function | SSPICLI.LsaConnectUntrusted | 0x00003ed9
-`OpenLsaPerformanceData` | 3 (0x3) | Exported Function | 0x51b81c90 | 0x00001c90
-`LsaCallAuthenticationPackage` | 39 (0x27) | Exported Function | SSPICLI.LsaCallAuthenticationPackage | 0x00003ea0
-`InitSecurityInterfaceA` | 35 (0x23) | Exported Function | SSPICLI.InitSecurityInterfaceA | 0x00003db2
-`InitializeSecurityContextW` | 38 (0x26) | Exported Function | SSPICLI.InitializeSecurityContextW | 0x00003e60
-`InitializeSecurityContextA` | 37 (0x25) | Exported Function | SSPICLI.InitializeSecurityContextA | 0x00003e22
-`ImportSecurityContextW` | 34 (0x22) | Exported Function | SSPICLI.ImportSecurityContextW | 0x00003d7c
-`ImportSecurityContextA` | 33 (0x21) | Exported Function | SSPICLI.ImportSecurityContextA | 0x00003d46
-`ImpersonateSecurityContext` | 32 (0x20) | Exported Function | SSPICLI.ImpersonateSecurityContext | 0x00003d0c
-`GetUserNameExW` | 31 (0x1f) | Exported Function | SSPICLI.GetUserNameExW | 0x00003cda
-`GetUserNameExA` | 30 (0x1e) | Exported Function | SSPICLI.GetUserNameExA | 0x00003cb4
-`GetSecurityUserInfo` | 29 (0x1d) | Exported Function | SSPICLI.GetSecurityUserInfo | 0x00003c89
-`GetComputerObjectNameW` | 28 (0x1c) | Exported Function | 0x51b82790 | 0x00002790
-`InitSecurityInterfaceW` | 36 (0x24) | Exported Function | SSPICLI.InitSecurityInterfaceW | 0x00003de8
-`VerifySignature` | 101 (0x65) | Exported Function | SSPICLI.VerifySignature | 0x00004b66
+Function Name | Ordinal | Type
+-- | -- | --
+`SaslInitializeSecurityContextW` | 68 | Exported Function
+`SaslSetContextOption` | 69 | Exported Function
+`SealMessage` | 70 | Exported Function
+`SaslIdentifyPackageA` | 65 | Exported Function
+`SaslIdentifyPackageW` | 66 | Exported Function
+`SaslInitializeSecurityContextA` | 67 | Exported Function
+`SecpFreeMemory` | 74 | Exported Function
+`SecpTranslateName` | 75 | Exported Function
+`SecpTranslateNameEx` | 76 | Exported Function
+`SeciAllocateAndSetCallFlags` | 71 | Exported Function
+`SeciAllocateAndSetIPAddress` | 72 | Exported Function
+`SeciFreeCallContext` | 73 | Exported Function
+`SaslGetProfilePackageW` | 64 | Exported Function
+`QuerySecurityContextToken` | 55 | Exported Function
+`QuerySecurityPackageInfoA` | 56 | Exported Function
+`QuerySecurityPackageInfoW` | 57 | Exported Function
+`QueryContextAttributesW` | 52 | Exported Function
+`QueryCredentialsAttributesA` | 53 | Exported Function
+`QueryCredentialsAttributesW` | 54 | Exported Function
+`SaslEnumerateProfilesW` | 61 | Exported Function
+`SaslGetContextOption` | 62 | Exported Function
+`SaslGetProfilePackageA` | 63 | Exported Function
+`RevertSecurityContext` | 58 | Exported Function
+`SaslAcceptSecurityContext` | 59 | Exported Function
+`SaslEnumerateProfilesA` | 60 | Exported Function
+`SspiPrepareForCredRead` | 93 | Exported Function
+`SspiPrepareForCredWrite` | 94 | Exported Function
+`SspiUnmarshalAuthIdentity` | 95 | Exported Function
+`SspiIsAuthIdentityEncrypted` | 90 | Exported Function
+`SspiLocalFree` | 91 | Exported Function
+`SspiMarshalAuthIdentity` | 92 | Exported Function
+`TranslateNameW` | 99 | Exported Function
+`UnsealMessage` | 100 | Exported Function
+`VerifySignature` | 101 | Exported Function
+`SspiValidateAuthIdentity` | 96 | Exported Function
+`SspiZeroAuthIdentity` | 97 | Exported Function
+`TranslateNameA` | 98 | Exported Function
+`SspiGetTargetHostName` | 89 | Exported Function
+`SetCredentialsAttributesW` | 80 | Exported Function
+`SspiCompareAuthIdentities` | 81 | Exported Function
+`SspiCopyAuthIdentity` | 82 | Exported Function
+`SetContextAttributesA` | 77 | Exported Function
+`SetContextAttributesW` | 78 | Exported Function
+`SetCredentialsAttributesA` | 79 | Exported Function
+`SspiEncryptAuthIdentity` | 86 | Exported Function
+`SspiExcludePackage` | 87 | Exported Function
+`SspiFreeAuthIdentity` | 88 | Exported Function
+`SspiDecryptAuthIdentity` | 83 | Exported Function
+`SspiEncodeAuthIdentityAsStrings` | 84 | Exported Function
+`SspiEncodeStringsAsAuthIdentity` | 85 | Exported Function
+`QueryContextAttributesA` | 51 | Exported Function
+`DeleteSecurityContext` | 18 | Exported Function
+`DeleteSecurityPackageA` | 19 | Exported Function
+`DeleteSecurityPackageW` | 20 | Exported Function
+`CredMarshalTargetInfo` | 15 | Exported Function
+`CredUnmarshalTargetInfo` | 16 | Exported Function
+`DecryptMessage` | 17 | Exported Function
+`ExportSecurityContext` | 24 | Exported Function
+`FreeContextBuffer` | 25 | Exported Function
+`FreeCredentialsHandle` | 26 | Exported Function
+`EncryptMessage` | 21 | Exported Function
+`EnumerateSecurityPackagesA` | 22 | Exported Function
+`EnumerateSecurityPackagesW` | 23 | Exported Function
+`CompleteAuthToken` | 14 | Exported Function
+`AddCredentialsA` | 7 | Exported Function
+`AddCredentialsW` | 8 | Exported Function
+`AddSecurityPackageA` | 9 | Exported Function
+`AcceptSecurityContext` | 4 | Exported Function
+`AcquireCredentialsHandleA` | 5 | Exported Function
+`AcquireCredentialsHandleW` | 6 | Exported Function
+`ChangeAccountPasswordW` | 13 | Exported Function
+`CloseLsaPerformanceData` | 1 | Exported Function
+`CollectLsaPerformanceData` | 2 | Exported Function
+`AddSecurityPackageW` | 10 | Exported Function
+`ApplyControlToken` | 11 | Exported Function
+`ChangeAccountPasswordA` | 12 | Exported Function
+`LsaFreeReturnBuffer` | 43 | Exported Function
+`LsaGetLogonSessionData` | 44 | Exported Function
+`LsaLogonUser` | 45 | Exported Function
+`LsaConnectUntrusted` | 40 | Exported Function
+`LsaDeregisterLogonProcess` | 41 | Exported Function
+`LsaEnumerateLogonSessions` | 42 | Exported Function
+`LsaUnregisterPolicyChangeNotification` | 49 | Exported Function
+`MakeSignature` | 50 | Exported Function
+`OpenLsaPerformanceData` | 3 | Exported Function
+`LsaLookupAuthenticationPackage` | 46 | Exported Function
+`LsaRegisterLogonProcess` | 47 | Exported Function
+`LsaRegisterPolicyChangeNotification` | 48 | Exported Function
+`LsaCallAuthenticationPackage` | 39 | Exported Function
+`GetUserNameExA` | 30 | Exported Function
+`GetUserNameExW` | 31 | Exported Function
+`ImpersonateSecurityContext` | 32 | Exported Function
+`GetComputerObjectNameA` | 27 | Exported Function
+`GetComputerObjectNameW` | 28 | Exported Function
+`GetSecurityUserInfo` | 29 | Exported Function
+`InitializeSecurityContextW` | 38 | Exported Function
+`InitSecurityInterfaceA` | 35 | Exported Function
+`InitSecurityInterfaceW` | 36 | Exported Function
+`ImportSecurityContextA` | 33 | Exported Function
+`ImportSecurityContextW` | 34 | Exported Function
+`InitializeSecurityContextA` | 37 | Exported Function
 
 
 ## Signature

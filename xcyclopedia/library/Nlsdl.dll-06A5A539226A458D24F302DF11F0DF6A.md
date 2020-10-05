@@ -24,12 +24,12 @@ PE256 | `B647983C9AFC33A6256C65D1A4789A6D12BEFB10D2E5956FAB4BB8BF4C1B8506`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DownlevelGetParentLocaleLCID` | 1 (0x1) | Exported Function | 0x0000000180001130 | 0x00001130
-`DownlevelGetParentLocaleName` | 2 (0x2) | Exported Function | 0x0000000180001260 | 0x00001260
-`DownlevelLCIDToLocaleName` | 3 (0x3) | Exported Function | 0x0000000180001070 | 0x00001070
-`DownlevelLocaleNameToLCID` | 4 (0x4) | Exported Function | 0x0000000180001020 | 0x00001020
+Function Name | Ordinal | Type
+-- | -- | --
+`DownlevelLCIDToLocaleName` | 3 | Exported Function
+`DownlevelLocaleNameToLCID` | 4 | Exported Function
+`DownlevelGetParentLocaleLCID` | 1 | Exported Function
+`DownlevelGetParentLocaleName` | 2 | Exported Function
 
 
 ## Signature

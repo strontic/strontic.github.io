@@ -24,25 +24,25 @@ PE256 | `C67511F33750934C1E605ACF2FE5708B5D8AB69794586359E340DEEE71DA107E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 16 (0x10) | Exported Function | 0x0000000180004020 | 0x00004020
-`RemoveControlByName2` | 12 (0xc) | Exported Function | 0x00000001800073a0 | 0x000073a0
-`RemoveControlByName` | 13 (0xd) | Exported Function | 0x000000018000c6b0 | 0x0000c6b0
-`RemoveControlByHandle2` | 10 (0xa) | Exported Function | 0x00000001800072a0 | 0x000072a0
-`RemoveControlByHandle` | 11 (0xb) | Exported Function | 0x000000018000c6a0 | 0x0000c6a0
-`ReleaseControlHandle` | 9 (0x9) | Exported Function | 0x000000018000c670 | 0x0000c670
-`IsModuleRemovable` | 8 (0x8) | Exported Function | 0x000000018000c240 | 0x0000c240
-`RemoveExpiredControls` | 14 (0xe) | Exported Function | 0x0000000180002350 | 0x00002350
-`GetControlInfo` | 7 (0x7) | Exported Function | 0x000000018000b4a0 | 0x0000b4a0
-`FindNextControlArch` | 5 (0x5) | Exported Function | 0x000000018000b220 | 0x0000b220
-`FindNextControl` | 4 (0x4) | Exported Function | 0x000000018000b210 | 0x0000b210
-`FindFirstControlArch` | 3 (0x3) | Exported Function | 0x000000018000aff0 | 0x0000aff0
-`FindFirstControl` | 2 (0x2) | Exported Function | 0x000000018000afd0 | 0x0000afd0
-`FindControlClose` | 1 (0x1) | Exported Function | 0x000000018000afb0 | 0x0000afb0
-`DllGetClassObject` | 17 (0x11) | Exported Function | 0x00000001800021e0 | 0x000021e0
-`GetControlDependentFile` | 6 (0x6) | Exported Function | 0x000000018000b390 | 0x0000b390
-`SweepControlsByLastAccessDate` | 15 (0xf) | Exported Function | 0x000000018000c990 | 0x0000c990
+Function Name | Ordinal | Type
+-- | -- | --
+`RemoveControlByHandle` | 11 | Exported Function
+`RemoveControlByHandle2` | 10 | Exported Function
+`IsModuleRemovable` | 8 | Exported Function
+`ReleaseControlHandle` | 9 | Exported Function
+`RemoveExpiredControls` | 14 | Exported Function
+`SweepControlsByLastAccessDate` | 15 | Exported Function
+`RemoveControlByName` | 13 | Exported Function
+`RemoveControlByName2` | 12 | Exported Function
+`GetControlInfo` | 7 | Exported Function
+`FindControlClose` | 1 | Exported Function
+`FindFirstControl` | 2 | Exported Function
+`DllCanUnloadNow` | 16 | Exported Function
+`DllGetClassObject` | 17 | Exported Function
+`FindNextControlArch` | 5 | Exported Function
+`GetControlDependentFile` | 6 | Exported Function
+`FindFirstControlArch` | 3 | Exported Function
+`FindNextControl` | 4 | Exported Function
 
 
 ## Signature

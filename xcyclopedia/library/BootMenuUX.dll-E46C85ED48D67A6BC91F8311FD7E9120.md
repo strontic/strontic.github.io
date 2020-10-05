@@ -24,89 +24,89 @@ PE256 | `6F7BB5E77CC86851D1C735F57A1450A514BF228C04B6EA2D2B7FC00E44C70EF3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateAdvancedOptionsButton` | 1 (0x1) | Exported Function | 0x0000000180008bc0 | 0x00008bc0
-`CreateSetWallpaperPage` | 58 (0x3a) | Exported Function | 0x00000001800071f0 | 0x000071f0
-`CreateSelectOSPage` | 57 (0x39) | Exported Function | 0x0000000180006950 | 0x00006950
-`CreateRestartButton` | 56 (0x38) | Exported Function | 0x0000000180006620 | 0x00006620
-`CreateRecoveryToolsListButton` | 55 (0x37) | Exported Function | 0x0000000180005ec0 | 0x00005ec0
-`CreatePBRUseReconstructionButton` | 43 (0x2b) | Exported Function | 0x00000001800084e0 | 0x000084e0
-`CreatePBRUsePayloadButton` | 42 (0x2a) | Exported Function | 0x0000000180008430 | 0x00008430
-`CreatePBRResetPage` | 41 (0x29) | Exported Function | 0x0000000180006d40 | 0x00006d40
-`CreateShutdownButton` | 59 (0x3b) | Exported Function | 0x0000000180006300 | 0x00006300
-`CreatePBRResetButtonCollection` | 40 (0x28) | Exported Function | 0x00000001800059b0 | 0x000059b0
-`CreatePBRfactoryResetOsOnlyButton` | 51 (0x33) | Exported Function | 0x0000000180008590 | 0x00008590
-`CreatePBRFactoryResetNotKeepPackagesButton` | 38 (0x26) | Exported Function | 0x0000000180008380 | 0x00008380
-`CreatePBRFactoryResetKeepPackagesButton` | 37 (0x25) | Exported Function | 0x00000001800082d0 | 0x000082d0
-`CreatePBRfactoryResetDataEraseEnabled` | 50 (0x32) | Exported Function | 0x0000000180008850 | 0x00008850
-`CreatePBRfactoryResetDataEraseDisabled` | 49 (0x31) | Exported Function | 0x0000000180008900 | 0x00008900
-`CreatePBRfactoryResetContinueChecksButton` | 48 (0x30) | Exported Function | 0x00000001800086f0 | 0x000086f0
-`CreatePBRfactoryResetCancelOperationButton` | 47 (0x2f) | Exported Function | 0x00000001800087a0 | 0x000087a0
-`CreatePBRFinalPage` | 39 (0x27) | Exported Function | 0x0000000180007430 | 0x00007430
-`CreateSkippableSelectOSPage` | 60 (0x3c) | Exported Function | 0x00000001800069d0 | 0x000069d0
-`CreateTenSecondTimeoutAction` | 61 (0x3d) | Exported Function | 0x00000001800068d0 | 0x000068d0
-`CreateThirtySecondTimeoutAction` | 62 (0x3e) | Exported Function | 0x00000001800068f0 | 0x000068f0
-`InitializeSyncInterface` | 79 (0x4f) | Exported Function | 0x0000000180009050 | 0x00009050
-`InitializeSRTSyncInterface` | 78 (0x4e) | Exported Function | 0x00000001800090a0 | 0x000090a0
-`InitializePasswordDatabase` | 77 (0x4d) | Exported Function | 0x00000001800090d0 | 0x000090d0
-`CreateZeroSecondTimeoutAction` | 76 (0x4c) | Exported Function | 0x0000000180006890 | 0x00006890
-`CreateWinReTargetOSPage` | 75 (0x4b) | Exported Function | 0x0000000180006b80 | 0x00006b80
-`CreateWinReTargetOSButtonCollection` | 74 (0x4a) | Exported Function | 0x0000000180008170 | 0x00008170
-`CreateWinReSkipPage` | 73 (0x49) | Exported Function | 0x0000000180008f50 | 0x00008f50
-`CreateWiFiNetworkButtonCollection` | 72 (0x48) | Exported Function | 0x0000000180009180 | 0x00009180
-`CreateWiFiInitPage` | 71 (0x47) | Exported Function | 0x0000000180007510 | 0x00007510
-`CreateWiFiConnectButton` | 70 (0x46) | Exported Function | 0x00000001800092e0 | 0x000092e0
-`CreateUserSelectionPage` | 69 (0x45) | Exported Function | 0x0000000180006a60 | 0x00006a60
-`CreateUserNameButtonCollection` | 68 (0x44) | Exported Function | 0x00000001800077e0 | 0x000077e0
-`CreateUninstallToolsButtonCollection` | 67 (0x43) | Exported Function | 0x0000000180005a20 | 0x00005a20
-`CreateUninstallQualityUpdateConfirmButton` | 66 (0x42) | Exported Function | 0x0000000180008ea0 | 0x00008ea0
-`CreateUninstallPage` | 65 (0x41) | Exported Function | 0x0000000180006e10 | 0x00006e10
-`CreateTopLevelRecoveryToolsPage` | 64 (0x40) | Exported Function | 0x0000000180006c70 | 0x00006c70
-`CreateTopLevelRecoveryToolsButtonCollection` | 63 (0x3f) | Exported Function | 0x0000000180005940 | 0x00005940
-`CreatePBRfactoryResetBareMetalEnabled` | 46 (0x2e) | Exported Function | 0x00000001800089b0 | 0x000089b0
-`UtilBcdCloseSystemStore` | 80 (0x50) | Exported Function | 0x0000000180001bb0 | 0x00001bb0
-`CreatePBRfactoryResetBareMetalDisabled` | 45 (0x2d) | Exported Function | 0x0000000180008a60 | 0x00008a60
-`CreatePBRCancelButton` | 36 (0x24) | Exported Function | 0x0000000180008220 | 0x00008220
-`CreateDefaultOSButton` | 17 (0x11) | Exported Function | 0x00000001800061c0 | 0x000061c0
-`CreateCSRTFinalPage` | 14 (0xe) | Exported Function | 0x0000000180007350 | 0x00007350
-`CreateCloudRecoveryButton` | 16 (0x10) | Exported Function | 0x0000000180006500 | 0x00006500
-`CreateClearWallpaperPage` | 15 (0xf) | Exported Function | 0x00000001800072a0 | 0x000072a0
-`CreateBootableOSButtonCollection` | 13 (0xd) | Exported Function | 0x00000001800057b0 | 0x000057b0
-`CreateBootableDeviceButtonCollection` | 12 (0xc) | Exported Function | 0x00000001800058d0 | 0x000058d0
-`CreateBlackWallpaperButton` | 11 (0xb) | Exported Function | 0x0000000180008b10 | 0x00008b10
-`CreateDefaultOSButtonCollection` | 18 (0x12) | Exported Function | 0x0000000180005840 | 0x00005840
-`CreateBitlockerLandingPage` | 10 (0xa) | Exported Function | 0x0000000180007140 | 0x00007140
-`CreateBasicSystemResetButton` | 8 (0x8) | Exported Function | 0x0000000180008010 | 0x00008010
-`CreateBasicResetLandingPage` | 7 (0x7) | Exported Function | 0x0000000180007700 | 0x00007700
-`CreateBasicResetFinalChecksPage` | 6 (0x6) | Exported Function | 0x0000000180007510 | 0x00007510
-`CreateBareMetalRecoveryButton` | 5 (0x5) | Exported Function | 0x0000000180005ff0 | 0x00005ff0
-`CreateAdvancedStartupLaunchPage` | 4 (0x4) | Exported Function | 0x0000000180008d60 | 0x00008d60
-`CreateAdvancedStartupButton` | 3 (0x3) | Exported Function | 0x0000000180008c70 | 0x00008c70
-`CreateAdvancedRecoveryToolsButtonCollection` | 2 (0x2) | Exported Function | 0x0000000180005a90 | 0x00005a90
-`CreateBasicSystemResetLaunchPage` | 9 (0x9) | Exported Function | 0x0000000180006ee0 | 0x00006ee0
-`CreateDefaultOSListButton` | 19 (0x13) | Exported Function | 0x0000000180005c40 | 0x00005c40
-`CreateDeviceListButton` | 20 (0x14) | Exported Function | 0x0000000180005d70 | 0x00005d70
-`CreateDirectFactoryResetButton` | 21 (0x15) | Exported Function | 0x0000000180006400 | 0x00006400
-`CreatePayloadWiFiNetworksCollection` | 54 (0x36) | Exported Function | 0x0000000180009230 | 0x00009230
-`CreatePasswordPage` | 53 (0x35) | Exported Function | 0x0000000180006af0 | 0x00006af0
-`CreatePasswordButton` | 52 (0x34) | Exported Function | 0x0000000180007f60 | 0x00007f60
-`CreateOSListButton` | 34 (0x22) | Exported Function | 0x0000000180005b00 | 0x00005b00
-`CreateOneMinuteTimeoutAction` | 35 (0x23) | Exported Function | 0x0000000180006910 | 0x00006910
-`CreateLanguageButtonCollection` | 33 (0x21) | Exported Function | 0x0000000180007880 | 0x00007880
-`CreateKeyboardLayoutButtonCollection` | 32 (0x20) | Exported Function | 0x0000000180007a50 | 0x00007a50
-`CreateFlightRemovalProgressPage` | 31 (0x1f) | Exported Function | 0x00000001800075a0 | 0x000075a0
-`CreateFlightRemovalConfirmButton` | 30 (0x1e) | Exported Function | 0x0000000180008df0 | 0x00008df0
-`CreateFiveSecondTimeoutAction` | 29 (0x1d) | Exported Function | 0x00000001800068b0 | 0x000068b0
-`CreateFiveMinuteTimeoutAction` | 28 (0x1c) | Exported Function | 0x0000000180006930 | 0x00006930
-`CreateFirmwareSettingsButton` | 27 (0x1b) | Exported Function | 0x00000001800066d0 | 0x000066d0
-`CreateFactorySystemResetLaunchPage` | 26 (0x1a) | Exported Function | 0x0000000180007010 | 0x00007010
-`CreateFactorySystemResetButton` | 25 (0x19) | Exported Function | 0x00000001800080c0 | 0x000080c0
-`CreateFactoryResetLandingPage` | 24 (0x18) | Exported Function | 0x0000000180007620 | 0x00007620
-`CreateFactoryResetFinalChecksPage` | 23 (0x17) | Exported Function | 0x00000001800075a0 | 0x000075a0
-`CreateDownloadCloudPBRConfirmButton` | 22 (0x16) | Exported Function | 0x0000000180009390 | 0x00009390
-`CreatePBRfactoryResetAllVolumesButton` | 44 (0x2c) | Exported Function | 0x0000000180008640 | 0x00008640
-`UtilGetCurrentKeyboardLayout` | 81 (0x51) | Exported Function | 0x0000000180004660 | 0x00004660
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateRecoveryToolsListButton` | 55 | Exported Function
+`CreateRestartButton` | 56 | Exported Function
+`CreatePBRUseReconstructionButton` | 43 | Exported Function
+`CreatePBRResetPage` | 41 | Exported Function
+`CreatePBRUsePayloadButton` | 42 | Exported Function
+`CreateSkippableSelectOSPage` | 60 | Exported Function
+`CreateTenSecondTimeoutAction` | 61 | Exported Function
+`CreateShutdownButton` | 59 | Exported Function
+`CreateSelectOSPage` | 57 | Exported Function
+`CreateSetWallpaperPage` | 58 | Exported Function
+`CreatePBRfactoryResetDataEraseDisabled` | 49 | Exported Function
+`CreatePBRfactoryResetDataEraseEnabled` | 50 | Exported Function
+`CreatePBRfactoryResetContinueChecksButton` | 48 | Exported Function
+`CreatePBRfactoryResetBareMetalEnabled` | 46 | Exported Function
+`CreatePBRfactoryResetCancelOperationButton` | 47 | Exported Function
+`CreatePBRFinalPage` | 39 | Exported Function
+`CreatePBRResetButtonCollection` | 40 | Exported Function
+`CreatePBRfactoryResetOsOnlyButton` | 51 | Exported Function
+`CreatePBRFactoryResetKeepPackagesButton` | 37 | Exported Function
+`CreatePBRFactoryResetNotKeepPackagesButton` | 38 | Exported Function
+`CreateWinReTargetOSPage` | 75 | Exported Function
+`CreateZeroSecondTimeoutAction` | 76 | Exported Function
+`CreateWinReTargetOSButtonCollection` | 74 | Exported Function
+`CreateWiFiNetworkButtonCollection` | 72 | Exported Function
+`CreateWinReSkipPage` | 73 | Exported Function
+`UtilBcdCloseSystemStore` | 80 | Exported Function
+`UtilGetCurrentKeyboardLayout` | 81 | Exported Function
+`InitializeSyncInterface` | 79 | Exported Function
+`InitializePasswordDatabase` | 77 | Exported Function
+`InitializeSRTSyncInterface` | 78 | Exported Function
+`CreateUninstallPage` | 65 | Exported Function
+`CreateUninstallQualityUpdateConfirmButton` | 66 | Exported Function
+`CreateTopLevelRecoveryToolsPage` | 64 | Exported Function
+`CreateThirtySecondTimeoutAction` | 62 | Exported Function
+`CreateTopLevelRecoveryToolsButtonCollection` | 63 | Exported Function
+`CreateWiFiConnectButton` | 70 | Exported Function
+`CreateWiFiInitPage` | 71 | Exported Function
+`CreateUserSelectionPage` | 69 | Exported Function
+`CreateUninstallToolsButtonCollection` | 67 | Exported Function
+`CreateUserNameButtonCollection` | 68 | Exported Function
+`CreatePBRfactoryResetBareMetalDisabled` | 45 | Exported Function
+`CreateClearWallpaperPage` | 15 | Exported Function
+`CreateCloudRecoveryButton` | 16 | Exported Function
+`CreateBootableOSButtonCollection` | 13 | Exported Function
+`CreateBlackWallpaperButton` | 11 | Exported Function
+`CreateBootableDeviceButtonCollection` | 12 | Exported Function
+`CreateDefaultOSListButton` | 19 | Exported Function
+`CreateDeviceListButton` | 20 | Exported Function
+`CreateDefaultOSButtonCollection` | 18 | Exported Function
+`CreateCSRTFinalPage` | 14 | Exported Function
+`CreateDefaultOSButton` | 17 | Exported Function
+`CreateAdvancedStartupLaunchPage` | 4 | Exported Function
+`CreateBareMetalRecoveryButton` | 5 | Exported Function
+`CreateAdvancedStartupButton` | 3 | Exported Function
+`CreateAdvancedOptionsButton` | 1 | Exported Function
+`CreateAdvancedRecoveryToolsButtonCollection` | 2 | Exported Function
+`CreateBasicSystemResetLaunchPage` | 9 | Exported Function
+`CreateBitlockerLandingPage` | 10 | Exported Function
+`CreateBasicSystemResetButton` | 8 | Exported Function
+`CreateBasicResetFinalChecksPage` | 6 | Exported Function
+`CreateBasicResetLandingPage` | 7 | Exported Function
+`CreateOneMinuteTimeoutAction` | 35 | Exported Function
+`CreateOSListButton` | 34 | Exported Function
+`CreateLanguageButtonCollection` | 33 | Exported Function
+`CreateFlightRemovalProgressPage` | 31 | Exported Function
+`CreateKeyboardLayoutButtonCollection` | 32 | Exported Function
+`CreatePBRCancelButton` | 36 | Exported Function
+`CreatePBRfactoryResetAllVolumesButton` | 44 | Exported Function
+`CreatePayloadWiFiNetworksCollection` | 54 | Exported Function
+`CreatePasswordButton` | 52 | Exported Function
+`CreatePasswordPage` | 53 | Exported Function
+`CreateFactoryResetLandingPage` | 24 | Exported Function
+`CreateFactorySystemResetButton` | 25 | Exported Function
+`CreateFactoryResetFinalChecksPage` | 23 | Exported Function
+`CreateDirectFactoryResetButton` | 21 | Exported Function
+`CreateDownloadCloudPBRConfirmButton` | 22 | Exported Function
+`CreateFiveSecondTimeoutAction` | 29 | Exported Function
+`CreateFlightRemovalConfirmButton` | 30 | Exported Function
+`CreateFiveMinuteTimeoutAction` | 28 | Exported Function
+`CreateFactorySystemResetLaunchPage` | 26 | Exported Function
+`CreateFirmwareSettingsButton` | 27 | Exported Function
 
 
 ## Signature

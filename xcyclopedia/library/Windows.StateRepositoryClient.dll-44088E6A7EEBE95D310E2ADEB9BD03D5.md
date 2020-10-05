@@ -24,32 +24,32 @@ PE256 | `7BE98005E982A9A76847416EE50CDB4856BEE17C1355C425253683E1298ECAD2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x10009ab0 | 0x00009ab0
-`SRUpdatePackageStatusForUserFromToken` | 22 (0x16) | Exported Function | 0x1000dbd0 | 0x0000dbd0
-`SRUpdatePackageStatus` | 21 (0x15) | Exported Function | 0x1000daf0 | 0x0000daf0
-`SRRepair` | 20 (0x14) | Exported Function | 0x1000be40 | 0x0000be40
-`SRRemovePackageStatusForUserSid` | 19 (0x13) | Exported Function | 0x1000d9f0 | 0x0000d9f0
-`SRRemovePackageStatusForUserFromToken` | 18 (0x12) | Exported Function | 0x1000d970 | 0x0000d970
-`SRRemovePackageStatus` | 17 (0x11) | Exported Function | 0x1000d890 | 0x0000d890
-`SRPropertySetToDictionary` | 16 (0x10) | Exported Function | 0x1000c3f0 | 0x0000c3f0
-`SRGetStagedPackageOrigin` | 15 (0xf) | Exported Function | 0x1000bd00 | 0x0000bd00
-`SRGetPackageStatusForUserSid` | 14 (0xe) | Exported Function | 0x1000d6a0 | 0x0000d6a0
-`SRGetPackageStatusForUserFromToken` | 13 (0xd) | Exported Function | 0x1000d620 | 0x0000d620
-`SRGetPackageStatus` | 12 (0xc) | Exported Function | 0x1000d570 | 0x0000d570
-`SRGetPackageOriginForUser` | 11 (0xb) | Exported Function | 0x1000bae0 | 0x0000bae0
-`SRGetIsEffectiveSupportedUsersMultiple` | 10 (0xa) | Exported Function | 0x1000c2d0 | 0x0000c2d0
-`SRGetExternalLocation` | 1 (0x1) | Exported Function | 0x1000c550 | 0x0000c550
-`SRGetEffectivePackageStatusForUserSid` | 9 (0x9) | Exported Function | 0x1000d7d0 | 0x0000d7d0
-`SRGetEffectivePackageStatusForUserFromToken` | 8 (0x8) | Exported Function | 0x1000d750 | 0x0000d750
-`SRDictionaryToPropertySet` | 7 (0x7) | Exported Function | 0x1000c3a0 | 0x0000c3a0
-`SRDictionaryFree` | 6 (0x6) | Exported Function | 0x1000c520 | 0x0000c520
-`SRCheckIntegrity` | 5 (0x5) | Exported Function | 0x1000c0c0 | 0x0000c0c0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x10009b10 | 0x00009b10
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x10009af0 | 0x00009af0
-`SRUpdatePackageStatusForUserSid` | 23 (0x17) | Exported Function | 0x1000dc50 | 0x0000dc50
-`StateRepositoryDoMaintenanceTasks` | 24 (0x18) | Exported Function | 0x1000de50 | 0x0000de50
+Function Name | Ordinal | Type
+-- | -- | --
+`SRPropertySetToDictionary` | 16 | Exported Function
+`SRRemovePackageStatus` | 17 | Exported Function
+`SRRemovePackageStatusForUserFromToken` | 18 | Exported Function
+`SRGetPackageStatusForUserFromToken` | 13 | Exported Function
+`SRGetPackageStatusForUserSid` | 14 | Exported Function
+`SRGetStagedPackageOrigin` | 15 | Exported Function
+`SRUpdatePackageStatusForUserFromToken` | 22 | Exported Function
+`SRUpdatePackageStatusForUserSid` | 23 | Exported Function
+`StateRepositoryDoMaintenanceTasks` | 24 | Exported Function
+`SRRemovePackageStatusForUserSid` | 19 | Exported Function
+`SRRepair` | 20 | Exported Function
+`SRUpdatePackageStatus` | 21 | Exported Function
+`SRCheckIntegrity` | 5 | Exported Function
+`SRDictionaryFree` | 6 | Exported Function
+`SRDictionaryToPropertySet` | 7 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`SRGetIsEffectiveSupportedUsersMultiple` | 10 | Exported Function
+`SRGetPackageOriginForUser` | 11 | Exported Function
+`SRGetPackageStatus` | 12 | Exported Function
+`SRGetEffectivePackageStatusForUserFromToken` | 8 | Exported Function
+`SRGetEffectivePackageStatusForUserSid` | 9 | Exported Function
+`SRGetExternalLocation` | 1 | Exported Function
 
 
 ## Signature

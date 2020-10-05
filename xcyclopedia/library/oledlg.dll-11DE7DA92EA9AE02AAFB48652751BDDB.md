@@ -24,31 +24,31 @@ PE256 | `36393B7927D4A8F32DCEED0A890397B01C5691AF7DCA2CBE26680497D3AB76F0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OleUIAddVerbMenuA` | 1 (0x1) | Exported Function | 0x0000000180001e10 | 0x00001e10
-`OleUIPromptUserW` | 22 (0x16) | Exported Function | 0x0000000180004d20 | 0x00004d20
-`OleUIPromptUserA` | 10 (0xa) | Exported Function | 0x0000000180003eb0 | 0x00003eb0
-`OleUIPasteSpecialW` | 21 (0x15) | Exported Function | 0x0000000180011ac0 | 0x00011ac0
-`OleUIPasteSpecialA` | 4 (0x4) | Exported Function | 0x00000001800021a0 | 0x000021a0
-`OleUIObjectPropertiesW` | 20 (0x14) | Exported Function | 0x000000018000f080 | 0x0000f080
-`OleUIObjectPropertiesA` | 11 (0xb) | Exported Function | 0x00000001800037f0 | 0x000037f0
-`OleUIInsertObjectW` | 19 (0x13) | Exported Function | 0x000000018000c350 | 0x0000c350
-`OleUIInsertObjectA` | 3 (0x3) | Exported Function | 0x0000000180001f40 | 0x00001f40
-`OleUIEditLinksW` | 18 (0x12) | Exported Function | 0x000000018000a300 | 0x0000a300
-`OleUIUpdateLinksA` | 9 (0x9) | Exported Function | 0x0000000180003240 | 0x00003240
-`OleUIEditLinksA` | 5 (0x5) | Exported Function | 0x0000000180002a00 | 0x00002a00
-`OleUIConvertA` | 7 (0x7) | Exported Function | 0x0000000180002dc0 | 0x00002dc0
-`OleUIChangeSourceW` | 16 (0x10) | Exported Function | 0x00000001800099a0 | 0x000099a0
-`OleUIChangeSourceA` | 12 (0xc) | Exported Function | 0x0000000180003a40 | 0x00003a40
-`OleUIChangeIconW` | 15 (0xf) | Exported Function | 0x0000000180007e20 | 0x00007e20
-`OleUIChangeIconA` | 6 (0x6) | Exported Function | 0x0000000180002be0 | 0x00002be0
-`OleUICanConvertOrActivateAs` | 2 (0x2) | Exported Function | 0x0000000180007360 | 0x00007360
-`OleUIBusyW` | 14 (0xe) | Exported Function | 0x00000001800054c0 | 0x000054c0
-`OleUIBusyA` | 8 (0x8) | Exported Function | 0x0000000180003110 | 0x00003110
-`OleUIAddVerbMenuW` | 13 (0xd) | Exported Function | 0x00000001800044d0 | 0x000044d0
-`OleUIConvertW` | 17 (0x11) | Exported Function | 0x0000000180005be0 | 0x00005be0
-`OleUIUpdateLinksW` | 23 (0x17) | Exported Function | 0x0000000180005380 | 0x00005380
+Function Name | Ordinal | Type
+-- | -- | --
+`OleUIObjectPropertiesA` | 11 | Exported Function
+`OleUIObjectPropertiesW` | 20 | Exported Function
+`OleUIInsertObjectW` | 19 | Exported Function
+`OleUIEditLinksW` | 18 | Exported Function
+`OleUIInsertObjectA` | 3 | Exported Function
+`OleUIPasteSpecialA` | 4 | Exported Function
+`OleUIUpdateLinksA` | 9 | Exported Function
+`OleUIUpdateLinksW` | 23 | Exported Function
+`OleUIPromptUserW` | 22 | Exported Function
+`OleUIPasteSpecialW` | 21 | Exported Function
+`OleUIPromptUserA` | 10 | Exported Function
+`OleUIEditLinksA` | 5 | Exported Function
+`OleUIBusyW` | 14 | Exported Function
+`OleUICanConvertOrActivateAs` | 2 | Exported Function
+`OleUIBusyA` | 8 | Exported Function
+`OleUIAddVerbMenuA` | 1 | Exported Function
+`OleUIAddVerbMenuW` | 13 | Exported Function
+`OleUIChangeIconA` | 6 | Exported Function
+`OleUIConvertA` | 7 | Exported Function
+`OleUIConvertW` | 17 | Exported Function
+`OleUIChangeSourceW` | 16 | Exported Function
+`OleUIChangeIconW` | 15 | Exported Function
+`OleUIChangeSourceA` | 12 | Exported Function
 
 
 ## Signature

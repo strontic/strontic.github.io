@@ -24,12 +24,12 @@ PE256 | `21C3435101E759D484E540E26151AF8F87D1E8BF0BD068817654167696155F38`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FileTimeToISO8601String` | 1 (0x1) | Exported Function | 0x100025f0 | 0x000025f0
-`ISO8601StringToFileTime` | 2 (0x2) | Exported Function | 0x10002670 | 0x00002670
-`ISO8601StringToSystemTime` | 3 (0x3) | Exported Function | 0x10002700 | 0x00002700
-`SystemTimeToISO8601String` | 4 (0x4) | Exported Function | 0x10001640 | 0x00001640
+Function Name | Ordinal | Type
+-- | -- | --
+`ISO8601StringToSystemTime` | 3 | Exported Function
+`SystemTimeToISO8601String` | 4 | Exported Function
+`FileTimeToISO8601String` | 1 | Exported Function
+`ISO8601StringToFileTime` | 2 | Exported Function
 
 
 ## Signature

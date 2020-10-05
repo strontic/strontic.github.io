@@ -24,12 +24,12 @@ PE256 | `8A777E4627FCF9F08B6DC2C7861593098CF7D61F14E18BA065E12DCDDDC11E7D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreatePlatform` | 1 (0x1) | Exported Function | 0x1002fc30 | 0x0002fc30
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x1002fc10 | 0x0002fc10
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x1002fbf0 | 0x0002fbf0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x1002fc00 | 0x0002fc00
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 3 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`CreatePlatform` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `2695697997B7097833C14054DBA35EE9E37AA779992586DBA69E79B26AABEE76`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FC_CreateFCManager` | 1 (0x1) | Exported Function | 0x0000000180014440 | 0x00014440
-`FC_CreateFCRegistrar` | 2 (0x2) | Exported Function | 0x00000001800144d0 | 0x000144d0
+Function Name | Ordinal | Type
+-- | -- | --
+`FC_CreateFCRegistrar` | 2 | Exported Function
+`FC_CreateFCManager` | 1 | Exported Function
 
 
 ## Signature

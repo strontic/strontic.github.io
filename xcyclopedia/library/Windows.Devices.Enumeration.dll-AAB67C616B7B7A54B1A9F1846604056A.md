@@ -24,13 +24,13 @@ PE256 | `F90C55D44DC226BFAA1F38809B17DB1E874B7E757F851B44A658639C4C17E98E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AqsFreeDevQueryFilter` | 1 (0x1) | Exported Function | 0x000000018001ce30 | 0x0001ce30
-`AqsToDevQueryFilter` | 2 (0x2) | Exported Function | 0x0000000180003c10 | 0x00003c10
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180002e70 | 0x00002e70
-`DllGetActivationFactory` | 4 (0x4) | Exported Function | 0x0000000180002ee0 | 0x00002ee0
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x0000000180001a40 | 0x00001a40
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetActivationFactory` | 4 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`AqsFreeDevQueryFilter` | 1 | Exported Function
+`AqsToDevQueryFilter` | 2 | Exported Function
 
 
 ## Signature

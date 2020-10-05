@@ -24,10 +24,10 @@ PE256 | `6A786CD9592EEC2533DDDE4548FA6F342489BA938211A2B96E0F8695070129DF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ServiceMain` | 1 (0x1) | Exported Function | 0x000000018000b940 | 0x0000b940
-`VaultSvcStopCallback` | 2 (0x2) | Exported Function | 0x000000018001ff70 | 0x0001ff70
+Function Name | Ordinal | Type
+-- | -- | --
+`VaultSvcStopCallback` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature

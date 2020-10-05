@@ -1,0 +1,55 @@
+﻿---
+title: WWINTL.DLL | Microsoft Word
+excerpt: What is WWINTL.DLL?
+---
+
+# WWINTL.DLL 
+
+* File Path: `C:\Program Files (x86)\Microsoft Office\root\Office16\1033\WWINTL.DLL`
+* Description: Microsoft Word
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `318D7A13E6AB86B17605D17C9890EA40`
+SHA1 | `C71D52BF564E196EAE7D9D266AE200A3A3A3C27E`
+SHA256 | `4864B6EE325990F16515D9E0C49925CBEA3199530913D8690287D714A38B0334`
+SHA384 | `0C914B79EB26FFB98742431242A38809557AA05B11CC62128818333F0C4A4DB412F40114DA3B7C0FA383348D14745179`
+SHA512 | `907BB8AA5E5353133274467EA32947D05AF3349F943826DCAB89D2125ECEA1A00B054B16FEB6E231739979567E9034D09F3A503D008818FCE88BBFAAE3275964`
+SSDEEP | `12288:dxp7oFACPc7TJSSTuHZATMqkGXkX4VeWaaJsp1A/xGIUK:B02CkZSScAoqkGXkXVBn1A/xh3`
+IMP | `n/a`
+PESHA1 | `21C6BE8A51E9CA8A3D7065F1786204E6B6B1F351`
+PE256 | `775987C8E1B32692472B096CB89892E73F319362FE7FA5D469A3F844AB2313A3`
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000002CE7C9ACE7D905ED2B70000000002CE`
+* Thumbprint: `B10607FB914700B40F794610850C1DE0A21566C1`
+* Issuer: CN=Microsoft Code Signing PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: WWIntl.Dll
+* Product Name: Microsoft Office
+* Company Name: Microsoft Corporation
+* File Version: 16.0.12527.20122
+* Product Version: 16.0.12527.20122
+* Language: English (United States)
+* Legal Copyright: 
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/4864b6ee325990f16515d9e0c49925cbea3199530913d8690287d714a38b0334/detection/
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

@@ -24,12 +24,12 @@ PE256 | `651EE3238EEB9DCBDC9BE6B1460A0FBFBCAB65DDCC2076CA711730F9A53A673F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x5f881e80 | 0x00001e80
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x5f881e30 | 0x00001e30
-`PID_GetFFEffectSettingsFromMemory` | 3 (0x3) | Exported Function | 0x5f885110 | 0x00005110
-`PID_WriteFFEffectSettingsToMemory` | 4 (0x4) | Exported Function | 0x5f8850f0 | 0x000050f0
+Function Name | Ordinal | Type
+-- | -- | --
+`PID_GetFFEffectSettingsFromMemory` | 3 | Exported Function
+`PID_WriteFFEffectSettingsToMemory` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

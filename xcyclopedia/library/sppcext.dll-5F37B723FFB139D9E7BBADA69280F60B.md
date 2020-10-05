@@ -24,29 +24,29 @@ PE256 | `A30AE7768EED6CF067522DAB4D057E3BC18B36AB3A659C96F2273DAB2ADA933B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x00000001800269f0 | 0x000269f0
-`SLInstallPackage` | 19 (0x13) | Exported Function | 0x0000000180053720 | 0x00053720
-`SLInitialize` | 18 (0x12) | Exported Function | 0x000000018001f920 | 0x0001f920
-`SLGetTokenActivationGrants` | 17 (0x11) | Exported Function | 0x000000018002a3a0 | 0x0002a3a0
-`SLGetTokenActivationCertificates` | 16 (0x10) | Exported Function | 0x000000018002a710 | 0x0002a710
-`SLGetServerStatus` | 15 (0xf) | Exported Function | 0x000000018001f7b0 | 0x0001f7b0
-`SLGetReferralInformation` | 14 (0xe) | Exported Function | 0x0000000180052aa0 | 0x00052aa0
-`SLGetPackageToken` | 13 (0xd) | Exported Function | 0x0000000180052650 | 0x00052650
-`SLGetPackageProperties` | 12 (0xc) | Exported Function | 0x0000000180051c40 | 0x00051c40
-`SLSignTokenActivationChallenge` | 20 (0x14) | Exported Function | 0x000000018002b720 | 0x0002b720
-`SLGetPackageProductKey` | 11 (0xb) | Exported Function | 0x0000000180052860 | 0x00052860
-`SLGenerateTokenActivationChallenge` | 9 (0x9) | Exported Function | 0x000000018002ac20 | 0x0002ac20
-`SLFreeTokenActivationGrants` | 8 (0x8) | Exported Function | 0x000000018002a660 | 0x0002a660
-`SLFreeTokenActivationCertificates` | 7 (0x7) | Exported Function | 0x000000018002ab70 | 0x0002ab70
-`SLDepositTokenActivationResponse` | 6 (0x6) | Exported Function | 0x000000018002ad00 | 0x0002ad00
-`SLActivateProduct` | 5 (0x5) | Exported Function | 0x000000018001ee30 | 0x0001ee30
-`SLAcquireGenuineTicketForAppId` | 1 (0x1) | Exported Function | 0x0000000180036880 | 0x00036880
-`SLAcquireGenuineTicket` | 4 (0x4) | Exported Function | 0x00000001800366f0 | 0x000366f0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180026a40 | 0x00026a40
-`SLGetGenuineInformationEx` | 10 (0xa) | Exported Function | 0x0000000180036be0 | 0x00036be0
-`SLUninstallPackage` | 21 (0x15) | Exported Function | 0x0000000180053760 | 0x00053760
+Function Name | Ordinal | Type
+-- | -- | --
+`SLGetServerStatus` | 15 | Exported Function
+`SLGetTokenActivationCertificates` | 16 | Exported Function
+`SLGetReferralInformation` | 14 | Exported Function
+`SLGetPackageProperties` | 12 | Exported Function
+`SLGetPackageToken` | 13 | Exported Function
+`SLSignTokenActivationChallenge` | 20 | Exported Function
+`SLUninstallPackage` | 21 | Exported Function
+`SLInstallPackage` | 19 | Exported Function
+`SLGetTokenActivationGrants` | 17 | Exported Function
+`SLInitialize` | 18 | Exported Function
+`SLGetPackageProductKey` | 11 | Exported Function
+`SLAcquireGenuineTicketForAppId` | 1 | Exported Function
+`SLActivateProduct` | 5 | Exported Function
+`SLAcquireGenuineTicket` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`SLGenerateTokenActivationChallenge` | 9 | Exported Function
+`SLGetGenuineInformationEx` | 10 | Exported Function
+`SLFreeTokenActivationGrants` | 8 | Exported Function
+`SLDepositTokenActivationResponse` | 6 | Exported Function
+`SLFreeTokenActivationCertificates` | 7 | Exported Function
 
 
 ## Signature

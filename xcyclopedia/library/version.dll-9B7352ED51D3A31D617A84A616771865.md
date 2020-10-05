@@ -24,25 +24,25 @@ PE256 | `B0BEF8E5D3B98663FA5CCA7B6C1890137A0B959B7C7DBF1CF60FAC76808495A0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetFileVersionInfoA` | 1 (0x1) | Exported Function | 0x00000001800010f0 | 0x000010f0
-`VerLanguageNameW` | 15 (0xf) | Exported Function | KERNEL32.VerLanguageNameW | 0x00004e37
-`VerLanguageNameA` | 14 (0xe) | Exported Function | KERNEL32.VerLanguageNameA | 0x00004e0c
-`VerInstallFileW` | 13 (0xd) | Exported Function | 0x0000000180003320 | 0x00003320
-`VerInstallFileA` | 12 (0xc) | Exported Function | 0x0000000180001ef0 | 0x00001ef0
-`VerFindFileW` | 11 (0xb) | Exported Function | 0x0000000180002560 | 0x00002560
-`VerFindFileA` | 10 (0xa) | Exported Function | 0x0000000180001ed0 | 0x00001ed0
-`VerQueryValueA` | 16 (0x10) | Exported Function | 0x0000000180001030 | 0x00001030
-`GetFileVersionInfoW` | 9 (0x9) | Exported Function | 0x00000001800010d0 | 0x000010d0
-`GetFileVersionInfoSizeExW` | 7 (0x7) | Exported Function | 0x0000000180001090 | 0x00001090
-`GetFileVersionInfoSizeExA` | 6 (0x6) | Exported Function | 0x0000000180001eb0 | 0x00001eb0
-`GetFileVersionInfoSizeA` | 5 (0x5) | Exported Function | 0x0000000180001010 | 0x00001010
-`GetFileVersionInfoExW` | 4 (0x4) | Exported Function | 0x0000000180001070 | 0x00001070
-`GetFileVersionInfoExA` | 3 (0x3) | Exported Function | 0x0000000180001e90 | 0x00001e90
-`GetFileVersionInfoByHandle` | 2 (0x2) | Exported Function | 0x0000000180002370 | 0x00002370
-`GetFileVersionInfoSizeW` | 8 (0x8) | Exported Function | 0x00000001800010b0 | 0x000010b0
-`VerQueryValueW` | 17 (0x11) | Exported Function | 0x0000000180001050 | 0x00001050
+Function Name | Ordinal | Type
+-- | -- | --
+`VerInstallFileA` | 12 | Exported Function
+`VerInstallFileW` | 13 | Exported Function
+`VerFindFileA` | 10 | Exported Function
+`VerFindFileW` | 11 | Exported Function
+`VerQueryValueA` | 16 | Exported Function
+`VerQueryValueW` | 17 | Exported Function
+`VerLanguageNameA` | 14 | Exported Function
+`VerLanguageNameW` | 15 | Exported Function
+`GetFileVersionInfoW` | 9 | Exported Function
+`GetFileVersionInfoExA` | 3 | Exported Function
+`GetFileVersionInfoExW` | 4 | Exported Function
+`GetFileVersionInfoA` | 1 | Exported Function
+`GetFileVersionInfoByHandle` | 2 | Exported Function
+`GetFileVersionInfoSizeExW` | 7 | Exported Function
+`GetFileVersionInfoSizeW` | 8 | Exported Function
+`GetFileVersionInfoSizeA` | 5 | Exported Function
+`GetFileVersionInfoSizeExA` | 6 | Exported Function
 
 
 ## Signature

@@ -24,13 +24,13 @@ PE256 | `499329454AB9D3BF545BA69BAAF3519137BAAF23DA034CCA91E23A96438FEC4D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BamCreateSettingsClientLib` | 1 (0x1) | Exported Function | 0x0000000180001150 | 0x00001150
-`BamDestroySettingsClientLib` | 2 (0x2) | Exported Function | 0x0000000180001160 | 0x00001160
-`BamFreeQueriedApplications` | 3 (0x3) | Exported Function | 0x0000000180001700 | 0x00001700
-`BamQueryKnownApplications` | 4 (0x4) | Exported Function | 0x0000000180001610 | 0x00001610
-`BamSetUserManagementState` | 5 (0x5) | Exported Function | 0x0000000180001760 | 0x00001760
+Function Name | Ordinal | Type
+-- | -- | --
+`BamQueryKnownApplications` | 4 | Exported Function
+`BamSetUserManagementState` | 5 | Exported Function
+`BamFreeQueriedApplications` | 3 | Exported Function
+`BamCreateSettingsClientLib` | 1 | Exported Function
+`BamDestroySettingsClientLib` | 2 | Exported Function
 
 
 ## Signature

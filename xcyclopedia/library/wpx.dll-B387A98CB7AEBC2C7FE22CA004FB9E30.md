@@ -24,16 +24,16 @@ PE256 | `AFE72DA2E978483A584CFED192393A50BC45A434D5C8E0669A58F4BE68012C0D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WpxCreateConfig` | 1 (0x1) | Exported Function | 0x0000000180001220 | 0x00001220
-`WpxCreateWriteOpt` | 2 (0x2) | Exported Function | 0x0000000180052c00 | 0x00052c00
-`WpxGetAnswerFileType` | 3 (0x3) | Exported Function | 0x0000000180053040 | 0x00053040
-`WpxGetDeplSettings` | 4 (0x4) | Exported Function | 0x000000018002afd0 | 0x0002afd0
-`WpxResetDeplSettings` | 5 (0x5) | Exported Function | 0x000000018002b280 | 0x0002b280
-`WpxSetDeplSettings` | 6 (0x6) | Exported Function | 0x000000018002b140 | 0x0002b140
-`WpxSetLogger` | 7 (0x7) | Exported Function | 0x0000000180006b30 | 0x00006b30
-`WpxSetScratchDirectory` | 8 (0x8) | Exported Function | 0x0000000180007670 | 0x00007670
+Function Name | Ordinal | Type
+-- | -- | --
+`WpxSetDeplSettings` | 6 | Exported Function
+`WpxResetDeplSettings` | 5 | Exported Function
+`WpxSetScratchDirectory` | 8 | Exported Function
+`WpxSetLogger` | 7 | Exported Function
+`WpxCreateWriteOpt` | 2 | Exported Function
+`WpxCreateConfig` | 1 | Exported Function
+`WpxGetDeplSettings` | 4 | Exported Function
+`WpxGetAnswerFileType` | 3 | Exported Function
 
 
 ## Signature

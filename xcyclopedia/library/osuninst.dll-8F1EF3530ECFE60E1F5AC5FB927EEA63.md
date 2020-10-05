@@ -24,13 +24,13 @@ PE256 | `BEF18D882AFC38482338E3B5746AB536318D91AC7A62DAD2C7EE823004FFA91C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ExecuteUninstall` | 1 (0x1) | Exported Function | 0x100013a0 | 0x000013a0
-`GetUninstallImageSize` | 2 (0x2) | Exported Function | 0x100013b0 | 0x000013b0
-`IsUninstallImageValid` | 3 (0x3) | Exported Function | 0x10001380 | 0x00001380
-`ProvideUiAlerts` | 4 (0x4) | Exported Function | 0x100013c0 | 0x000013c0
-`RemoveUninstallImage` | 5 (0x5) | Exported Function | 0x10001390 | 0x00001390
+Function Name | Ordinal | Type
+-- | -- | --
+`ProvideUiAlerts` | 4 | Exported Function
+`RemoveUninstallImage` | 5 | Exported Function
+`IsUninstallImageValid` | 3 | Exported Function
+`ExecuteUninstall` | 1 | Exported Function
+`GetUninstallImageSize` | 2 | Exported Function
 
 
 ## Signature

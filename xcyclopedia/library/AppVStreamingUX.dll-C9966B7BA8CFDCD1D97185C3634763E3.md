@@ -24,12 +24,12 @@ PE256 | `BE5DBDA3F231D0E1EDDD74B443B6B937F8038B9AA59A75990BA07CF0A21C215F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Deinitialize` | 3 (0x3) | Exported Function | 0x00000001800053a0 | 0x000053a0
-`GetComponent` | 4 (0x4) | Exported Function | 0x00000001800054e0 | 0x000054e0
-`Initialize` | 1 (0x1) | Exported Function | 0x0000000180005330 | 0x00005330
-`InitializeISV` | 2 (0x2) | Exported Function | 0x0000000180005340 | 0x00005340
+Function Name | Ordinal | Type
+-- | -- | --
+`Initialize` | 1 | Exported Function
+`InitializeISV` | 2 | Exported Function
+`Deinitialize` | 3 | Exported Function
+`GetComponent` | 4 | Exported Function
 
 
 ## Signature

@@ -24,38 +24,38 @@ PE256 | `EF030CBF084D7C1406F84CEBB2250F1CD0FE689424DC119B69F8D090700E80A7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__conio_common_vcprintf` | 1 (0x1) | Exported Function | ucrtbase.__conio_common_vcprintf | 0x000012bc
-`_ungetch_nolock` | 28 (0x1c) | Exported Function | ucrtbase._ungetch_nolock | 0x000016bf
-`_ungetch` | 27 (0x1b) | Exported Function | ucrtbase._ungetch | 0x0000169d
-`_putwch_nolock` | 26 (0x1a) | Exported Function | ucrtbase._putwch_nolock | 0x0000167c
-`_putwch` | 25 (0x19) | Exported Function | ucrtbase._putwch | 0x0000165c
-`_putch_nolock` | 24 (0x18) | Exported Function | ucrtbase._putch_nolock | 0x0000163d
-`_putch` | 23 (0x17) | Exported Function | ucrtbase._putch | 0x0000161f
-`_getwche_nolock` | 22 (0x16) | Exported Function | ucrtbase._getwche_nolock | 0x000015ff
-`_getwche` | 21 (0x15) | Exported Function | ucrtbase._getwche | 0x000015dd
-`_getwch_nolock` | 20 (0x14) | Exported Function | ucrtbase._getwch_nolock | 0x000015bc
-`_getwch` | 19 (0x13) | Exported Function | ucrtbase._getwch | 0x0000159c
-`_getche_nolock` | 18 (0x12) | Exported Function | ucrtbase._getche_nolock | 0x0000157c
-`_getche` | 17 (0x11) | Exported Function | ucrtbase._getche | 0x0000155c
-`_getch_nolock` | 16 (0x10) | Exported Function | ucrtbase._getch_nolock | 0x0000153d
-`_getch` | 15 (0xf) | Exported Function | ucrtbase._getch | 0x0000151f
-`_cputws` | 14 (0xe) | Exported Function | ucrtbase._cputws | 0x00001507
-`_cputs` | 13 (0xd) | Exported Function | ucrtbase._cputs | 0x000014ef
-`_cgetws_s` | 12 (0xc) | Exported Function | ucrtbase._cgetws_s | 0x000014d5
-`_cgetws` | 11 (0xb) | Exported Function | ucrtbase._cgetws | 0x000014ba
-`_cgets_s` | 10 (0xa) | Exported Function | ucrtbase._cgets_s | 0x000014a0
-`_cgets` | 9 (0x9) | Exported Function | ucrtbase._cgets | 0x00001487
-`__conio_common_vcwscanf` | 8 (0x8) | Exported Function | ucrtbase.__conio_common_vcwscanf | 0x0000145f
-`__conio_common_vcwprintf_s` | 7 (0x7) | Exported Function | ucrtbase.__conio_common_vcwprintf_s | 0x00001423
-`__conio_common_vcwprintf_p` | 6 (0x6) | Exported Function | ucrtbase.__conio_common_vcwprintf_p | 0x000013e4
-`__conio_common_vcwprintf` | 5 (0x5) | Exported Function | ucrtbase.__conio_common_vcwprintf | 0x000013a7
-`__conio_common_vcscanf` | 4 (0x4) | Exported Function | ucrtbase.__conio_common_vcscanf | 0x0000136e
-`__conio_common_vcprintf_s` | 3 (0x3) | Exported Function | ucrtbase.__conio_common_vcprintf_s | 0x00001334
-`__conio_common_vcprintf_p` | 2 (0x2) | Exported Function | ucrtbase.__conio_common_vcprintf_p | 0x000012f7
-`_ungetwch` | 29 (0x1d) | Exported Function | ucrtbase._ungetwch | 0x000016e2
-`_ungetwch_nolock` | 30 (0x1e) | Exported Function | ucrtbase._ungetwch_nolock | 0x00001706
+Function Name | Ordinal | Type
+-- | -- | --
+`_getwch_nolock` | 20 | Exported Function
+`_getwche` | 21 | Exported Function
+`_getwche_nolock` | 22 | Exported Function
+`_getwch` | 19 | Exported Function
+`_getch_nolock` | 16 | Exported Function
+`_getche` | 17 | Exported Function
+`_getche_nolock` | 18 | Exported Function
+`_putch` | 23 | Exported Function
+`_ungetch_nolock` | 28 | Exported Function
+`_ungetwch` | 29 | Exported Function
+`_ungetwch_nolock` | 30 | Exported Function
+`_ungetch` | 27 | Exported Function
+`_putch_nolock` | 24 | Exported Function
+`_putwch` | 25 | Exported Function
+`_putwch_nolock` | 26 | Exported Function
+`__conio_common_vcwprintf` | 5 | Exported Function
+`__conio_common_vcwprintf_p` | 6 | Exported Function
+`__conio_common_vcwprintf_s` | 7 | Exported Function
+`__conio_common_vcscanf` | 4 | Exported Function
+`__conio_common_vcprintf` | 1 | Exported Function
+`__conio_common_vcprintf_p` | 2 | Exported Function
+`__conio_common_vcprintf_s` | 3 | Exported Function
+`__conio_common_vcwscanf` | 8 | Exported Function
+`_cputs` | 13 | Exported Function
+`_cputws` | 14 | Exported Function
+`_getch` | 15 | Exported Function
+`_cgetws_s` | 12 | Exported Function
+`_cgets` | 9 | Exported Function
+`_cgets_s` | 10 | Exported Function
+`_cgetws` | 11 | Exported Function
 
 
 ## Signature

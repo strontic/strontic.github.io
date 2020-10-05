@@ -24,25 +24,25 @@ PE256 | `F721CAB44CF84307784F847855343151DD0A04F9890B342D66DF25E7D1CF79B2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180001e70 | 0x00001e70
-`JpStreetsidePanoramaOperation_Create` | 15 (0xf) | Exported Function | 0x0000000180030d30 | 0x00030d30
-`JpStreetsideExperience_Create` | 14 (0xe) | Exported Function | 0x0000000180030a50 | 0x00030a50
-`JpRestrictedApiAccessCheck` | 13 (0xd) | Exported Function | 0x0000000180031070 | 0x00031070
-`JpOverviewMapControl_Create` | 12 (0xc) | Exported Function | 0x0000000180030910 | 0x00030910
-`JpMapStyleSheetFactory_Create` | 11 (0xb) | Exported Function | 0x00000001800362c0 | 0x000362c0
-`JpMapOverlayModel_Create` | 10 (0xa) | Exported Function | 0x0000000180032690 | 0x00032690
-`MapSettings_GetMosBingMapsKey` | 16 (0x10) | Exported Function | 0x0000000180031b30 | 0x00031b30
-`JpMapModel3DFrom3MFStreamOperation_Create` | 9 (0x9) | Exported Function | 0x0000000180030ee0 | 0x00030ee0
-`JpMapControlSettings_Create` | 6 (0x6) | Exported Function | 0x0000000180031780 | 0x00031780
-`JpMapControl_Create` | 7 (0x7) | Exported Function | 0x00000001800307b0 | 0x000307b0
-`JpIsUnifiedMapsStack` | 5 (0x5) | Exported Function | 0x00000001800310c0 | 0x000310c0
-`JpIs3DSupported` | 4 (0x4) | Exported Function | 0x00000001800310d0 | 0x000310d0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180001d80 | 0x00001d80
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x0000000180001ba0 | 0x00001ba0
-`JpMapFactory_Create` | 8 (0x8) | Exported Function | 0x0000000180032060 | 0x00032060
-`MapSettings_ResetMosKeys` | 17 (0x11) | Exported Function | 0x0000000180031c20 | 0x00031c20
+Function Name | Ordinal | Type
+-- | -- | --
+`JpOverviewMapControl_Create` | 12 | Exported Function
+`JpRestrictedApiAccessCheck` | 13 | Exported Function
+`JpMapOverlayModel_Create` | 10 | Exported Function
+`JpMapStyleSheetFactory_Create` | 11 | Exported Function
+`MapSettings_GetMosBingMapsKey` | 16 | Exported Function
+`MapSettings_ResetMosKeys` | 17 | Exported Function
+`JpStreetsideExperience_Create` | 14 | Exported Function
+`JpStreetsidePanoramaOperation_Create` | 15 | Exported Function
+`JpMapModel3DFrom3MFStreamOperation_Create` | 9 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`JpIs3DSupported` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`JpMapControlSettings_Create` | 6 | Exported Function
+`JpMapFactory_Create` | 8 | Exported Function
+`JpIsUnifiedMapsStack` | 5 | Exported Function
+`JpMapControl_Create` | 7 | Exported Function
 
 
 ## Signature

@@ -24,90 +24,88 @@ PE256 | `E94A7E2186AD2DD5A06A85986E3859FC4FD8733A9C0EBC32D2D830B9E17C7B14`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AppInstallerUpdateAllTask` | 60 (0x3c) | Exported Function | 0x0000000180066090 | 0x00066090
-`Ordinal1` | 1 (0x1) | Exported Function | 0x000000018005ef60 | 0x0005ef60
-`NotifyPackageStatusChanged` | 26 (0x1a) | Exported Function | 0x000000018006ac50 | 0x0006ac50
-`IsSharedAppsEnabled` | 59 (0x3b) | Exported Function | 0x000000018006aa60 | 0x0006aa60
-`IsPackageMetadataUnderSystemMetadata` | 64 (0x40) | Exported Function | 0x000000018006aa10 | 0x0006aa10
-`IsPackageInstalled` | 9 (0x9) | Exported Function | 0x000000018006a9a0 | 0x0006a9a0
-`HasPackageFamilyBeenRegisteredForUser` | 73 (0x49) | Exported Function | 0x000000018006a720 | 0x0006a720
-`GetPackageRegistrationStatusForUserAndDefaultAccount` | 68 (0x44) | Exported Function | 0x00000001800044d0 | 0x000044d0
-`Ordinal16` | 16 (0x10) | Exported Function | 0x0000000180069aa0 | 0x00069aa0
-`GetPackageRegistrationStatusForUser` | 58 (0x3a) | Exported Function | 0x000000018006a6e0 | 0x0006a6e0
-`GetNotificationPayloadForUser` | 41 (0x29) | Exported Function | 0x000000018006a5c0 | 0x0006a5c0
-`GetNotificationPayload` | 25 (0x19) | Exported Function | 0x000000018006a580 | 0x0006a580
-`GetMetadataRootForPackage` | 65 (0x41) | Exported Function | 0x0000000180003f90 | 0x00003f90
-`GetBundleApplicablePackages` | 48 (0x30) | Exported Function | 0x0000000180069b80 | 0x00069b80
-`GetApplicability5` | 49 (0x31) | Exported Function | 0x0000000180009d30 | 0x00009d30
-`GetApplicability4` | 32 (0x20) | Exported Function | 0x0000000180017150 | 0x00017150
-`GetApplicability2` | 20 (0x14) | Exported Function | 0x0000000180017150 | 0x00017150
-`GetPackageApplicabilityForUserLogon` | 15 (0xf) | Exported Function | 0x000000018006a6c0 | 0x0006a6c0
-`PopulateProtocolAndFTA` | 35 (0x23) | Exported Function | 0x000000018006ace0 | 0x0006ace0
-`PreRegisterPackagesInContainer` | 70 (0x46) | Exported Function | 0x000000018006ad60 | 0x0006ad60
-`RDSRecoverRequests` | 10 (0xa) | Exported Function | 0x000000018006ae30 | 0x0006ae30
-`UpdateDataSourceRegister` | 54 (0x36) | Exported Function | 0x000000018006b380 | 0x0006b380
-`UpdateDataSourceCancelRun` | 57 (0x39) | Exported Function | 0x000000018006b330 | 0x0006b330
-`UpdateDataSourceAddRange` | 55 (0x37) | Exported Function | 0x000000018006b2c0 | 0x0006b2c0
-`UpdateAgentGetDownloadRanges` | 52 (0x34) | Exported Function | 0x000000018006b220 | 0x0006b220
-`UpdateAgentGetDownloadingPackageCount` | 69 (0x45) | Exported Function | 0x000000018006b270 | 0x0006b270
-`UpdateAgentFreeDownloadRanges` | 62 (0x3e) | Exported Function | 0x000000018006b1f0 | 0x0006b1f0
-`UpdateAgentCreateDownload` | 51 (0x33) | Exported Function | 0x000000018006b150 | 0x0006b150
-`UpdateAgentCancelAllDownloads` | 53 (0x35) | Exported Function | 0x000000018006b110 | 0x0006b110
-`UnregisterNotificationForUser` | 40 (0x28) | Exported Function | 0x000000018000e450 | 0x0000e450
-`UnregisterNotification` | 24 (0x18) | Exported Function | 0x000000018006b0e0 | 0x0006b0e0
-`RequestContentGroupsForFullTrust` | 33 (0x21) | Exported Function | 0x000000018006b080 | 0x0006b080
-`RequestContentGroups` | 31 (0x1f) | Exported Function | 0x000000018006b020 | 0x0006b020
-`RepairPackageFileAcls` | 43 (0x2b) | Exported Function | 0x000000018006afb0 | 0x0006afb0
-`RemovePackageFromContainer` | 72 (0x48) | Exported Function | 0x000000018006aee0 | 0x0006aee0
-`RegisterNotificationForUser` | 39 (0x27) | Exported Function | 0x000000018000e020 | 0x0000e020
-`RegisterNotification` | 23 (0x17) | Exported Function | 0x000000018000e300 | 0x0000e300
-`ReArmAppxPreStageCleanupTask` | 13 (0xd) | Exported Function | 0x000000018006aec0 | 0x0006aec0
-`GetApplicability` | 2 (0x2) | Exported Function | 0x0000000180069b60 | 0x00069b60
-`GeneratePreInstalledPriFiles` | 34 (0x22) | Exported Function | 0x0000000180069af0 | 0x00069af0
-`FixJunctionsForAppsIfNecessary` | 36 (0x24) | Exported Function | 0x0000000180069a60 | 0x00069a60
-`EnsurePackageFamilyIsRegisteredBeforeActivation` | 44 (0x2c) | Exported Function | 0x0000000180069890 | 0x00069890
-`AppxPreStageCleanupRunTask` | 11 (0xb) | Exported Function | 0x0000000180067ca0 | 0x00067ca0
-`AppxPreRegisterPackage` | 12 (0xc) | Exported Function | 0x0000000180067b90 | 0x00067b90
-`AppxPreRegisterAllInboxPackages` | 28 (0x1c) | Exported Function | 0x0000000180067ac0 | 0x00067ac0
-`AppxPackageRepositoryRecoverUserInstalls` | 5 (0x5) | Exported Function | 0x0000000180017150 | 0x00017150
-`AppxPackageRepositoryRecoverStagedPackages` | 4 (0x4) | Exported Function | 0x0000000180017150 | 0x00017150
-`AppxIsStagedPackageStoreSigned` | 22 (0x16) | Exported Function | 0x0000000180067970 | 0x00067970
-`AppxGetStagedPackageFullNameFromFamilyName` | 21 (0x15) | Exported Function | 0x0000000180067350 | 0x00067350
-`AppxGetPackageInstalledLocation` | 18 (0x12) | Exported Function | 0x00000001800670a0 | 0x000670a0
-`AppxDoesSharedLocalFolderExistForFamilyName` | 77 (0x4d) | Exported Function | 0x0000000180066f20 | 0x00066f20
-`AppxDestagePackage` | 19 (0x13) | Exported Function | 0x0000000180066b90 | 0x00066b90
-`AppxDeletePackageFiles` | 7 (0x7) | Exported Function | 0x0000000180066ad0 | 0x00066ad0
-`AppxCreateSharedLocalFolderForFamilyName` | 76 (0x4c) | Exported Function | 0x0000000180066a80 | 0x00066a80
-`AppxCreateSharedLocalFolder` | 3 (0x3) | Exported Function | 0x0000000180066a30 | 0x00066a30
-`AppxCleanupWCIReparsePoints` | 42 (0x2a) | Exported Function | 0x0000000180066970 | 0x00066970
-`AppxCleanupSystemAppsMigratedToFOD` | 45 (0x2d) | Exported Function | 0x00000001800666c0 | 0x000666c0
-`AppxCleanupOrphanPackages` | 46 (0x2e) | Exported Function | 0x0000000180066680 | 0x00066680
-`AppxAddPackageToAllUserStoreForPbr` | 14 (0xe) | Exported Function | 0x00000001800660c0 | 0x000660c0
-`AppxRecoverUserInstallsForUpgrade` | 6 (0x6) | Exported Function | 0x0000000180017150 | 0x00017150
-`UpdateDataSourceRun` | 56 (0x38) | Exported Function | 0x000000018006b3f0 | 0x0006b3f0
-`AppxRegisterPackage` | 63 (0x3f) | Exported Function | 0x0000000180067cb0 | 0x00067cb0
-`AppxRemovePackageForAllUsers` | 30 (0x1e) | Exported Function | 0x0000000180067e10 | 0x00067e10
-`EnsurePackageFamiliesAreRegisteredInContainer` | 71 (0x47) | Exported Function | 0x00000001800697c0 | 0x000697c0
-`DllGetClassObject` | 82 (0x52) | Exported Function | 0x0000000180073250 | 0x00073250
-`DllGetActivationFactory` | 81 (0x51) | Exported Function | 0x0000000180003980 | 0x00003980
-`DllCanUnloadNow` | 80 (0x50) | Exported Function | 0x0000000180014dd0 | 0x00014dd0
-`DeleteApplicabilityInfoArray` | 50 (0x32) | Exported Function | 0x0000000180012080 | 0x00012080
-`CreateCanonicalPriFile` | 38 (0x26) | Exported Function | 0x0000000180069710 | 0x00069710
-`ClientGetAllPackagesToBeInstalledForUser` | 66 (0x42) | Exported Function | 0x00000001800695d0 | 0x000695d0
-`ClientDeleteAllPackagesFromMainPackageArray` | 67 (0x43) | Exported Function | 0x00000001800694b0 | 0x000694b0
-`CleanupProfileForUser` | 74 (0x4a) | Exported Function | 0x000000018001c690 | 0x0001c690
-`CheckForUpdatesAndWaitForInstallerIfNeeded` | 79 (0x4f) | Exported Function | 0x0000000180069360 | 0x00069360
-`CheckComCallerHasCapabilities` | 47 (0x2f) | Exported Function | 0x0000000180001d00 | 0x00001d00
-`CheckAppInstallerUpdateAvailability` | 61 (0x3d) | Exported Function | 0x0000000180069300 | 0x00069300
-`AppxValidatePackagesWithOptions` | 29 (0x1d) | Exported Function | 0x0000000180068ec0 | 0x00068ec0
-`AppxValidatePackages` | 78 (0x4e) | Exported Function | 0x0000000180068ea0 | 0x00068ea0
-`AppxStagePackage` | 17 (0x11) | Exported Function | 0x00000001800686d0 | 0x000686d0
-`AppxRequestRemovePackageForUser` | 8 (0x8) | Exported Function | 0x00000001800685a0 | 0x000685a0
-`AppxRemovePackageForUserSid` | 37 (0x25) | Exported Function | 0x0000000180067fa0 | 0x00067fa0
-`AppxRemoveAllPackagesForUserSid` | 75 (0x4b) | Exported Function | 0x000000018001c350 | 0x0001c350
-`VerifyPackage` | 27 (0x1b) | Exported Function | 0x000000018006b440 | 0x0006b440
+Function Name | Ordinal | Type
+-- | -- | --
+`HasPackageFamilyBeenRegisteredForUser` | 73 | Exported Function
+`IsPackageInstalled` | 9 | Exported Function
+`GetPackageRegistrationStatusForUserAndDefaultAccount` | 68 | Exported Function
+`GetPackageApplicabilityForUserLogon` | 15 | Exported Function
+`GetPackageRegistrationStatusForUser` | 58 | Exported Function
+`PopulateProtocolAndFTA` | 35 | Exported Function
+`PreRegisterPackagesInContainer` | 70 | Exported Function
+`NotifyPackageStatusChanged` | 26 | Exported Function
+`IsPackageMetadataUnderSystemMetadata` | 64 | Exported Function
+`IsSharedAppsEnabled` | 59 | Exported Function
+`GetApplicability2` | 20 | Exported Function
+`GetApplicability4` | 32 | Exported Function
+`GetApplicability` | 2 | Exported Function
+`FixJunctionsForAppsIfNecessary` | 36 | Exported Function
+`GeneratePreInstalledPriFiles` | 34 | Exported Function
+`GetNotificationPayload` | 25 | Exported Function
+`GetNotificationPayloadForUser` | 41 | Exported Function
+`GetMetadataRootForPackage` | 65 | Exported Function
+`GetApplicability5` | 49 | Exported Function
+`GetBundleApplicablePackages` | 48 | Exported Function
+`UpdateAgentGetDownloadingPackageCount` | 69 | Exported Function
+`UpdateAgentGetDownloadRanges` | 52 | Exported Function
+`UpdateAgentFreeDownloadRanges` | 62 | Exported Function
+`UpdateAgentCancelAllDownloads` | 53 | Exported Function
+`UpdateAgentCreateDownload` | 51 | Exported Function
+`UpdateDataSourceRun` | 56 | Exported Function
+`VerifyPackage` | 27 | Exported Function
+`UpdateDataSourceRegister` | 54 | Exported Function
+`UpdateDataSourceAddRange` | 55 | Exported Function
+`UpdateDataSourceCancelRun` | 57 | Exported Function
+`RegisterNotificationForUser` | 39 | Exported Function
+`RemovePackageFromContainer` | 72 | Exported Function
+`RegisterNotification` | 23 | Exported Function
+`RDSRecoverRequests` | 10 | Exported Function
+`ReArmAppxPreStageCleanupTask` | 13 | Exported Function
+`UnregisterNotification` | 24 | Exported Function
+`UnregisterNotificationForUser` | 40 | Exported Function
+`RequestContentGroupsForFullTrust` | 33 | Exported Function
+`RepairPackageFileAcls` | 43 | Exported Function
+`RequestContentGroups` | 31 | Exported Function
+`AppxPackageRepositoryRecoverStagedPackages` | 4 | Exported Function
+`AppxPackageRepositoryRecoverUserInstalls` | 5 | Exported Function
+`AppxIsStagedPackageStoreSigned` | 22 | Exported Function
+`AppxGetPackageInstalledLocation` | 18 | Exported Function
+`AppxGetStagedPackageFullNameFromFamilyName` | 21 | Exported Function
+`AppxRecoverUserInstallsForUpgrade` | 6 | Exported Function
+`AppxRegisterPackage` | 63 | Exported Function
+`AppxPreStageCleanupRunTask` | 11 | Exported Function
+`AppxPreRegisterAllInboxPackages` | 28 | Exported Function
+`AppxPreRegisterPackage` | 12 | Exported Function
+`AppxCleanupSystemAppsMigratedToFOD` | 45 | Exported Function
+`AppxCleanupWCIReparsePoints` | 42 | Exported Function
+`AppxCleanupOrphanPackages` | 46 | Exported Function
+`AppInstallerUpdateAllTask` | 60 | Exported Function
+`AppxAddPackageToAllUserStoreForPbr` | 14 | Exported Function
+`AppxDestagePackage` | 19 | Exported Function
+`AppxDoesSharedLocalFolderExistForFamilyName` | 77 | Exported Function
+`AppxDeletePackageFiles` | 7 | Exported Function
+`AppxCreateSharedLocalFolder` | 3 | Exported Function
+`AppxCreateSharedLocalFolderForFamilyName` | 76 | Exported Function
+`CreateCanonicalPriFile` | 38 | Exported Function
+`DeleteApplicabilityInfoArray` | 50 | Exported Function
+`ClientGetAllPackagesToBeInstalledForUser` | 66 | Exported Function
+`CleanupProfileForUser` | 74 | Exported Function
+`ClientDeleteAllPackagesFromMainPackageArray` | 67 | Exported Function
+`EnsurePackageFamiliesAreRegisteredInContainer` | 71 | Exported Function
+`EnsurePackageFamilyIsRegisteredBeforeActivation` | 44 | Exported Function
+`DllGetClassObject` | 82 | Exported Function
+`DllCanUnloadNow` | 80 | Exported Function
+`DllGetActivationFactory` | 81 | Exported Function
+`AppxRequestRemovePackageForUser` | 8 | Exported Function
+`AppxStagePackage` | 17 | Exported Function
+`AppxRemovePackageForUserSid` | 37 | Exported Function
+`AppxRemoveAllPackagesForUserSid` | 75 | Exported Function
+`AppxRemovePackageForAllUsers` | 30 | Exported Function
+`CheckComCallerHasCapabilities` | 47 | Exported Function
+`CheckForUpdatesAndWaitForInstallerIfNeeded` | 79 | Exported Function
+`CheckAppInstallerUpdateAvailability` | 61 | Exported Function
+`AppxValidatePackages` | 78 | Exported Function
+`AppxValidatePackagesWithOptions` | 29 | Exported Function
 
 
 ## Signature

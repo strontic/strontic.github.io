@@ -24,20 +24,20 @@ PE256 | `B250250F161098F67E8D2ECAEFD6041A5018D62AA040E10E794DDD9DBC9A5835`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CPlApplet` | 1 (0x1) | Exported Function | 0x00000001800021c0 | 0x000021c0
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180002630 | 0x00002630
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180002650 | 0x00002650
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x0000000180002620 | 0x00002620
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x0000000180002620 | 0x00002620
-`USBControllerBandwidthPage` | 6 (0x6) | Exported Function | 0x00000001800021c0 | 0x000021c0
-`USBControllerPropPageProvider` | 7 (0x7) | Exported Function | 0x0000000180002c50 | 0x00002c50
-`UsbControlPanelApplet` | 12 (0xc) | Exported Function | 0x00000001800021c0 | 0x000021c0
-`USBDevicePropPageProvider` | 8 (0x8) | Exported Function | 0x0000000180002fd0 | 0x00002fd0
-`USBErrorHandler` | 9 (0x9) | Exported Function | 0x0000000180003370 | 0x00003370
-`USBHubPowerPage` | 10 (0xa) | Exported Function | 0x00000001800021c0 | 0x000021c0
-`USBHubPropPageProvider` | 11 (0xb) | Exported Function | 0x00000001800030a0 | 0x000030a0
+Function Name | Ordinal | Type
+-- | -- | --
+`USBDevicePropPageProvider` | 8 | Exported Function
+`UsbControlPanelApplet` | 12 | Exported Function
+`USBControllerPropPageProvider` | 7 | Exported Function
+`USBHubPropPageProvider` | 11 | Exported Function
+`USBHubPowerPage` | 10 | Exported Function
+`USBErrorHandler` | 9 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CPlApplet` | 1 | Exported Function
+`USBControllerBandwidthPage` | 6 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

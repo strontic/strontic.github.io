@@ -24,11 +24,11 @@ PE256 | `B83BBDD3AFC2CA648D97BF5A3BFE51CABCE8CF3215E2F7EA2EC3E059A8CFAD51`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Dot11MsmDeInit` | 1 (0x1) | Exported Function | 0x0000000180002e60 | 0x00002e60
-`Dot11MsmInit` | 2 (0x2) | Exported Function | 0x0000000180002d00 | 0x00002d00
-`InitializeDll` | 3 (0x3) | Exported Function | 0x00000001800012f0 | 0x000012f0
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializeDll` | 3 | Exported Function
+`Dot11MsmInit` | 2 | Exported Function
+`Dot11MsmDeInit` | 1 | Exported Function
 
 
 ## Signature

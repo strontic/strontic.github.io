@@ -24,9 +24,9 @@ PE256 | `EC976449A7593E37D6F76BD23CC9D6E99F8A3BE365D2C28B5545D1BF77C8E953`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Netbios` | 1 (0x1) | Exported Function | 0x100014c0 | 0x000014c0
+Function Name | Ordinal | Type
+-- | -- | --
+`Netbios` | 1 | Exported Function
 
 
 ## Signature

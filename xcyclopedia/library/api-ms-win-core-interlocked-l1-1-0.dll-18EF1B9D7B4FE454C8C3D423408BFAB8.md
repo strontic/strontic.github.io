@@ -24,20 +24,20 @@ PE256 | `7E1E6729C15CA6DC991D3F20DAD1DF99C7FEB883EB479DE3F4C6FFB91DA0E2A8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializeSListHead` | 1 (0x1) | Exported Function | kernel32.InitializeSListHead | 0x000011fb
-`InterlockedCompareExchange` | 3 (0x3) | Exported Function | kernel32.InterlockedCompareExchange | 0x00001276
-`InterlockedCompareExchange64` | 2 (0x2) | Exported Function | kernel32.InterlockedCompareExchange64 | 0x00001235
-`InterlockedDecrement` | 4 (0x4) | Exported Function | kernel32.InterlockedDecrement | 0x000012af
-`InterlockedExchange` | 5 (0x5) | Exported Function | kernel32.InterlockedExchange | 0x000012e1
-`InterlockedExchangeAdd` | 6 (0x6) | Exported Function | kernel32.InterlockedExchangeAdd | 0x00001315
-`InterlockedFlushSList` | 7 (0x7) | Exported Function | kernel32.InterlockedFlushSList | 0x0000134b
-`InterlockedIncrement` | 8 (0x8) | Exported Function | kernel32.InterlockedIncrement | 0x0000137f
-`InterlockedPopEntrySList` | 9 (0x9) | Exported Function | kernel32.InterlockedPopEntrySList | 0x000013b6
-`InterlockedPushEntrySList` | 10 (0xa) | Exported Function | kernel32.InterlockedPushEntrySList | 0x000013f2
-`InterlockedPushListSList` | 11 (0xb) | Exported Function | kernel32.InterlockedPushListSList | 0x0000142e
-`QueryDepthSList` | 12 (0xc) | Exported Function | kernel32.QueryDepthSList | 0x00001460
+Function Name | Ordinal | Type
+-- | -- | --
+`InterlockedPopEntrySList` | 9 | Exported Function
+`InterlockedIncrement` | 8 | Exported Function
+`InterlockedFlushSList` | 7 | Exported Function
+`QueryDepthSList` | 12 | Exported Function
+`InterlockedPushListSList` | 11 | Exported Function
+`InterlockedPushEntrySList` | 10 | Exported Function
+`InterlockedCompareExchange64` | 2 | Exported Function
+`InterlockedCompareExchange` | 3 | Exported Function
+`InitializeSListHead` | 1 | Exported Function
+`InterlockedExchangeAdd` | 6 | Exported Function
+`InterlockedExchange` | 5 | Exported Function
+`InterlockedDecrement` | 4 | Exported Function
 
 
 ## Signature

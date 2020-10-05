@@ -24,10 +24,10 @@ PE256 | `C1B185EA52DF096C3D7D4027438A326F01266800D7821FF00A8D2A865EB6C896`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LpaSvcMain` | 1 (0x1) | Exported Function | 0x00000001800919e0 | 0x000919e0
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x00000001800919d0 | 0x000919d0
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`LpaSvcMain` | 1 | Exported Function
 
 
 ## Signature

@@ -24,20 +24,20 @@ PE256 | `2AE97628BD11429D4D8A72221CA17A2A647D261DE39DC570967B44A1F17EFEDD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x1004b4d0 | 0x0004b4d0
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x10045a30 | 0x00045a30
-`IsLicensedComponentAC3_ENC` | 1 (0x1) | Exported Function | 0x100a2330 | 0x000a2330
-`IsLicensedComponentDOLBY` | 2 (0x2) | Exported Function | 0x100a23a0 | 0x000a23a0
-`IsLicensedComponentMPEG2` | 3 (0x3) | Exported Function | 0x100a2410 | 0x000a2410
-`IsLicensedComponentMPEG2_ENC` | 4 (0x4) | Exported Function | 0x100a2480 | 0x000a2480
-`MFCreateByteCacheFile` | 7 (0x7) | Exported Function | 0x100ab5f0 | 0x000ab5f0
-`MFCreateCredentialCache` | 8 (0x8) | Exported Function | 0x10091090 | 0x00091090
-`MFCreateFileBlockMap` | 9 (0x9) | Exported Function | 0x10024c70 | 0x00024c70
-`MFCreatePartialSeekableByteStream` | 10 (0xa) | Exported Function | 0x10084370 | 0x00084370
-`MFCreateProxyLocator` | 11 (0xb) | Exported Function | 0x100968d0 | 0x000968d0
-`MFGetSupportedDLNAProfileInfo` | 12 (0xc) | Exported Function | 0x100a2ea0 | 0x000a2ea0
+Function Name | Ordinal | Type
+-- | -- | --
+`MFCreateFileBlockMap` | 9 | Exported Function
+`MFCreateCredentialCache` | 8 | Exported Function
+`MFCreateByteCacheFile` | 7 | Exported Function
+`MFGetSupportedDLNAProfileInfo` | 12 | Exported Function
+`MFCreateProxyLocator` | 11 | Exported Function
+`MFCreatePartialSeekableByteStream` | 10 | Exported Function
+`IsLicensedComponentAC3_ENC` | 1 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`IsLicensedComponentMPEG2_ENC` | 4 | Exported Function
+`IsLicensedComponentMPEG2` | 3 | Exported Function
+`IsLicensedComponentDOLBY` | 2 | Exported Function
 
 
 ## Signature

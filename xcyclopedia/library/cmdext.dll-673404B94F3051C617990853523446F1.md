@@ -24,22 +24,22 @@ PE256 | `119BBEF6B5FE24F4F31FD10FA85F1B9DC87BE28179D09B9B6C7649320D0E4B6C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CmdBatNotificationStub` | 1 (0x1) | Exported Function | 0x10001990 | 0x00001990
-`DoSHChangeNotify` | 2 (0x2) | Exported Function | 0x100026d0 | 0x000026d0
-`FindFirstStreamWStub` | 3 (0x3) | Exported Function | 0x100026e0 | 0x000026e0
-`FindNextStreamWStub` | 4 (0x4) | Exported Function | 0x10002700 | 0x00002700
-`GetBinaryTypeWStub` | 5 (0x5) | Exported Function | 0x10002720 | 0x00002720
-`GetVDMCurrentDirectoriesStub` | 6 (0x6) | Exported Function | 0x10002740 | 0x00002740
-`LookupAccountSidWStub` | 7 (0x7) | Exported Function | 0x10002760 | 0x00002760
-`MessageBeepStub` | 8 (0x8) | Exported Function | 0x10002780 | 0x00002780
-`QueryFullProcessImageNameWStub` | 9 (0x9) | Exported Function | 0x100027a0 | 0x000027a0
-`SaferWorker` | 10 (0xa) | Exported Function | 0x100018f0 | 0x000018f0
-`ShellExecuteWorker` | 11 (0xb) | Exported Function | 0x100019c0 | 0x000019c0
-`WNetAddConnection2WStub` | 12 (0xc) | Exported Function | 0x100027c0 | 0x000027c0
-`WNetCancelConnection2WStub` | 13 (0xd) | Exported Function | 0x100027e0 | 0x000027e0
-`WNetGetConnectionWStub` | 14 (0xe) | Exported Function | 0x10002800 | 0x00002800
+Function Name | Ordinal | Type
+-- | -- | --
+`SaferWorker` | 10 | Exported Function
+`QueryFullProcessImageNameWStub` | 9 | Exported Function
+`MessageBeepStub` | 8 | Exported Function
+`ShellExecuteWorker` | 11 | Exported Function
+`WNetGetConnectionWStub` | 14 | Exported Function
+`WNetCancelConnection2WStub` | 13 | Exported Function
+`WNetAddConnection2WStub` | 12 | Exported Function
+`FindFirstStreamWStub` | 3 | Exported Function
+`DoSHChangeNotify` | 2 | Exported Function
+`CmdBatNotificationStub` | 1 | Exported Function
+`FindNextStreamWStub` | 4 | Exported Function
+`LookupAccountSidWStub` | 7 | Exported Function
+`GetVDMCurrentDirectoriesStub` | 6 | Exported Function
+`GetBinaryTypeWStub` | 5 | Exported Function
 
 
 ## Signature

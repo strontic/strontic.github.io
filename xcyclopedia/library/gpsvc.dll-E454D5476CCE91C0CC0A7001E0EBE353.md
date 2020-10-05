@@ -24,21 +24,20 @@ PE256 | `5C5DF73F3AE655A77A707EF342333B5B975B5A3D1B497662633701F5E8CDDB47`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 109 (0x6d) | Exported Function | 0x0000000180095640 | 0x00095640
-`DllGetClassObject` | 110 (0x6e) | Exported Function | 0x0000000180095670 | 0x00095670
-`GenerateRsopPolicy` | 111 (0x6f) | Exported Function | 0x0000000180069440 | 0x00069440
-`GroupPolicyClientServiceMain` | 107 (0x6b) | Exported Function | 0x0000000180017df0 | 0x00017df0
-`IsSecureCachingDisabled` | 112 (0x70) | Exported Function | 0x0000000180021440 | 0x00021440
-`Ordinal106` | 106 (0x6a) | Exported Function | 0x0000000180098a60 | 0x00098a60
-`ProcessGroupPolicyCompletedExInternal` | 113 (0x71) | Exported Function | 0x0000000180073f60 | 0x00073f60
-`ProcessGroupPolicyCompletedInternal` | 114 (0x72) | Exported Function | 0x0000000180074e40 | 0x00074e40
-`RsopAccessCheckByTypeInternal` | 115 (0x73) | Exported Function | 0x00000001800984a0 | 0x000984a0
-`RsopFileAccessCheckInternal` | 116 (0x74) | Exported Function | 0x0000000180098800 | 0x00098800
-`RsopResetPolicySettingStatusInternal` | 117 (0x75) | Exported Function | 0x0000000180098ba0 | 0x00098ba0
-`RsopSetPolicySettingStatusInternal` | 118 (0x76) | Exported Function | 0x0000000180098ff0 | 0x00098ff0
-`SvchostPushServiceGlobals` | 108 (0x6c) | Exported Function | 0x000000018001c950 | 0x0001c950
+Function Name | Ordinal | Type
+-- | -- | --
+`RsopFileAccessCheckInternal` | 116 | Exported Function
+`RsopAccessCheckByTypeInternal` | 115 | Exported Function
+`ProcessGroupPolicyCompletedInternal` | 114 | Exported Function
+`SvchostPushServiceGlobals` | 108 | Exported Function
+`RsopSetPolicySettingStatusInternal` | 118 | Exported Function
+`RsopResetPolicySettingStatusInternal` | 117 | Exported Function
+`GenerateRsopPolicy` | 111 | Exported Function
+`DllGetClassObject` | 110 | Exported Function
+`DllCanUnloadNow` | 109 | Exported Function
+`ProcessGroupPolicyCompletedExInternal` | 113 | Exported Function
+`IsSecureCachingDisabled` | 112 | Exported Function
+`GroupPolicyClientServiceMain` | 107 | Exported Function
 
 
 ## Signature

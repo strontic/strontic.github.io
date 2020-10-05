@@ -24,10 +24,10 @@ PE256 | `F51AE6832C27D6AB5A5354033815B011EF3CFB2FBDC0B40665D8C9A37F46A2A2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OpenAdapter10` | 1 (0x1) | Exported Function | 0x0000000180001cb0 | 0x00001cb0
-`OpenAdapter10_2` | 2 (0x2) | Exported Function | 0x0000000180001de0 | 0x00001de0
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenAdapter10_2` | 2 | Exported Function
+`OpenAdapter10` | 1 | Exported Function
 
 
 ## Signature

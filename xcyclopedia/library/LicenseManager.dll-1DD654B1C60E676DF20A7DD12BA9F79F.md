@@ -24,28 +24,28 @@ PE256 | `380B61449153803B50FD22D8B27263F4EE09B59F54B7E106CF02A4312B7FED17`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x10064560 | 0x00064560
-`WnfEventHandlerForDeviceIdChange` | 2 (0x2) | Exported Function | 0x100646e0 | 0x000646e0
-`SetServiceStatusHandle` | 1 (0x1) | Exported Function | 0x1003fc30 | 0x0003fc30
-`ServiceReset` | 20 (0x14) | Exported Function | 0x10064890 | 0x00064890
-`ServicePrecacheLicenseForPackageResume` | 19 (0x13) | Exported Function | 0x10064870 | 0x00064870
-`ServicePackageSuspendedNotification` | 18 (0x12) | Exported Function | 0x10064840 | 0x00064840
-`ServicePackageRundownNotification` | 17 (0x11) | Exported Function | 0x10027610 | 0x00027610
-`ServiceOptionalPackageRundownNotification` | 16 (0x10) | Exported Function | 0x10064820 | 0x00064820
-`ServiceInitialize` | 15 (0xf) | Exported Function | 0x1001f8b0 | 0x0001f8b0
-`ServiceEnsureLicenseForPackageActivation` | 14 (0xe) | Exported Function | 0x100647f0 | 0x000647f0
-`ServiceEnsureLicenseForOptionalPackageUsage` | 13 (0xd) | Exported Function | 0x100647b0 | 0x000647b0
-`ServiceCreateApplicationLicenseManager` | 12 (0xc) | Exported Function | 0x10064750 | 0x00064750
-`ServiceCleanup` | 11 (0xb) | Exported Function | 0x10064740 | 0x00064740
-`ServiceBeginAcquireLicense` | 10 (0xa) | Exported Function | 0x1002ce10 | 0x0002ce10
-`LmCreateStandardServiceProvider` | 9 (0x9) | Exported Function | 0x10064600 | 0x00064600
-`LmCreateLicenseManager` | 8 (0x8) | Exported Function | 0x100645e0 | 0x000645e0
-`DllGetClassObject` | 7 (0x7) | Exported Function | 0x100645b0 | 0x000645b0
-`DllGetActivationFactory` | 6 (0x6) | Exported Function | 0x10064590 | 0x00064590
-`WnfEventHandlerForOfflinePcChange` | 3 (0x3) | Exported Function | 0x10064700 | 0x00064700
-`WnfEventHandlerForXboxTestNetworkConnectionComplete` | 4 (0x4) | Exported Function | 0x10064720 | 0x00064720
+Function Name | Ordinal | Type
+-- | -- | --
+`ServicePackageSuspendedNotification` | 18 | Exported Function
+`ServicePrecacheLicenseForPackageResume` | 19 | Exported Function
+`ServicePackageRundownNotification` | 17 | Exported Function
+`ServiceInitialize` | 15 | Exported Function
+`ServiceOptionalPackageRundownNotification` | 16 | Exported Function
+`WnfEventHandlerForOfflinePcChange` | 3 | Exported Function
+`WnfEventHandlerForXboxTestNetworkConnectionComplete` | 4 | Exported Function
+`WnfEventHandlerForDeviceIdChange` | 2 | Exported Function
+`ServiceReset` | 20 | Exported Function
+`SetServiceStatusHandle` | 1 | Exported Function
+`LmCreateLicenseManager` | 8 | Exported Function
+`LmCreateStandardServiceProvider` | 9 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllGetActivationFactory` | 6 | Exported Function
+`ServiceEnsureLicenseForOptionalPackageUsage` | 13 | Exported Function
+`ServiceEnsureLicenseForPackageActivation` | 14 | Exported Function
+`ServiceCreateApplicationLicenseManager` | 12 | Exported Function
+`ServiceBeginAcquireLicense` | 10 | Exported Function
+`ServiceCleanup` | 11 | Exported Function
 
 
 ## Signature

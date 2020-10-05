@@ -24,11 +24,11 @@ PE256 | `DCFE7A6F00DD0004718C7F648C05738D6A022A77620A91EACA5A7E8F717B6EDB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DwmIndirectCreate` | 1 (0x1) | Exported Function | 0x00000001800022e0 | 0x000022e0
-`DwmIndirectOutput` | 2 (0x2) | Exported Function | 0x0000000180002190 | 0x00002190
-`DwmIndirectSetDebugFlag` | 3 (0x3) | Exported Function | 0x0000000180002170 | 0x00002170
+Function Name | Ordinal | Type
+-- | -- | --
+`DwmIndirectSetDebugFlag` | 3 | Exported Function
+`DwmIndirectOutput` | 2 | Exported Function
+`DwmIndirectCreate` | 1 | Exported Function
 
 
 ## Signature

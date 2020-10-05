@@ -24,72 +24,72 @@ PE256 | `091FD065CA01223EADF43949FC7997DE530D85D760926666D5746D684B99BCE0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Wwan2CloseDeviceServiceCommandSession` | 1 (0x1) | Exported Function | 0x0000000180004010 | 0x00004010
-`WwanGetProfileIstream` | 35 (0x23) | Exported Function | 0x0000000180007530 | 0x00007530
-`WwanGetProfileList` | 36 (0x24) | Exported Function | 0x0000000180007730 | 0x00007730
-`WwanGetProfileListByPurpose` | 37 (0x25) | Exported Function | 0x0000000180007900 | 0x00007900
-`WwanGetProfileMetaData` | 38 (0x26) | Exported Function | 0x0000000180007ae0 | 0x00007ae0
-`WwanGetProfileState` | 39 (0x27) | Exported Function | 0x0000000180007d10 | 0x00007d10
-`WwanModemLogging` | 40 (0x28) | Exported Function | 0x0000000180007ef0 | 0x00007ef0
-`WwanOpenHandle` | 41 (0x29) | Exported Function | 0x00000001800012b0 | 0x000012b0
-`WwanQueryInterface` | 43 (0x2b) | Exported Function | 0x00000001800082a0 | 0x000082a0
-`WwanQueryInterfaceEx` | 44 (0x2c) | Exported Function | 0x00000001800084d0 | 0x000084d0
-`WwanQueryIPv6eHRPDControl` | 42 (0x2a) | Exported Function | 0x00000001800080e0 | 0x000080e0
-`WwanRegister` | 45 (0x2d) | Exported Function | 0x0000000180008700 | 0x00008700
-`WwanRegisterNotification` | 46 (0x2e) | Exported Function | 0x0000000180008920 | 0x00008920
-`WwanScan` | 47 (0x2f) | Exported Function | 0x0000000180008af0 | 0x00008af0
-`WwanGetProfileIndex` | 34 (0x22) | Exported Function | 0x00000001800073d0 | 0x000073d0
-`WwanSearchProfile` | 48 (0x30) | Exported Function | 0x0000000180008cf0 | 0x00008cf0
-`WwanSetDMConfigProfile` | 50 (0x32) | Exported Function | 0x00000001800090d0 | 0x000090d0
-`WwanSetInterface` | 52 (0x34) | Exported Function | 0x00000001800094c0 | 0x000094c0
-`WwanSetIPv6eHRPDControl` | 51 (0x33) | Exported Function | 0x00000001800092d0 | 0x000092d0
-`WwanSetNetworkQuietMode` | 53 (0x35) | Exported Function | 0x00000001800096e0 | 0x000096e0
-`WwanSetProfile` | 54 (0x36) | Exported Function | 0x0000000180009890 | 0x00009890
-`WwanSetProfileMetaData` | 55 (0x37) | Exported Function | 0x0000000180009ad0 | 0x00009ad0
-`WwanSetSmsConfiguration` | 56 (0x38) | Exported Function | 0x0000000180009cf0 | 0x00009cf0
-`WwanSmsDelete` | 57 (0x39) | Exported Function | 0x0000000180009ef0 | 0x00009ef0
-`WwanSmsRead` | 58 (0x3a) | Exported Function | 0x000000018000a0f0 | 0x0000a0f0
-`WwanSmsSend` | 59 (0x3b) | Exported Function | 0x000000018000a2f0 | 0x0000a2f0
-`WwanUiccCloseChannel` | 60 (0x3c) | Exported Function | 0x000000018000a510 | 0x0000a510
-`WwanUiccOpenChannel` | 61 (0x3d) | Exported Function | 0x000000018000a6f0 | 0x0000a6f0
-`WwanUiccSendApdu` | 62 (0x3e) | Exported Function | 0x000000018000a8e0 | 0x0000a8e0
-`WwanSetDMConfigBinary` | 49 (0x31) | Exported Function | 0x0000000180008ed0 | 0x00008ed0
-`WwanGetProfileHomeProviderName` | 33 (0x21) | Exported Function | 0x00000001800071f0 | 0x000071f0
-`WwanGetProfile` | 32 (0x20) | Exported Function | 0x0000000180006ff0 | 0x00006ff0
-`WwanGetInterfaceGuid` | 31 (0x1f) | Exported Function | 0x0000000180006fe0 | 0x00006fe0
-`Wwan2CloseDeviceServiceDataSession` | 2 (0x2) | Exported Function | 0x00000001800041c0 | 0x000041c0
-`Wwan2CloseHandle` | 3 (0x3) | Exported Function | 0x0000000180004370 | 0x00004370
-`Wwan2EnumerateDeviceServices` | 4 (0x4) | Exported Function | 0x00000001800045c0 | 0x000045c0
-`Wwan2OpenDeviceServiceCommandSession` | 5 (0x5) | Exported Function | 0x00000001800047b0 | 0x000047b0
-`Wwan2OpenDeviceServiceDataSession` | 6 (0x6) | Exported Function | 0x0000000180004960 | 0x00004960
-`Wwan2OpenHandle` | 7 (0x7) | Exported Function | 0x0000000180004b20 | 0x00004b20
-`Wwan2QueryDeviceServiceSupportedCommands` | 8 (0x8) | Exported Function | 0x0000000180004db0 | 0x00004db0
-`Wwan2QueryInterfaces` | 9 (0x9) | Exported Function | 0x0000000180004f60 | 0x00004f60
-`Wwan2RegisterNotification` | 10 (0xa) | Exported Function | 0x00000001800050c0 | 0x000050c0
-`Wwan2SendDeviceServiceCommand` | 11 (0xb) | Exported Function | 0x0000000180005290 | 0x00005290
-`Wwan2SubscribePowerStateEvents` | 12 (0xc) | Exported Function | 0x0000000180005470 | 0x00005470
-`Wwan2WriteDeviceServiceData` | 13 (0xd) | Exported Function | 0x0000000180005600 | 0x00005600
-`WwanActivateNotification` | 14 (0xe) | Exported Function | 0x00000001800057c0 | 0x000057c0
-`WwanAllocateMemory` | 15 (0xf) | Exported Function | 0x0000000180005960 | 0x00005960
-`WwanAuthChallenge` | 16 (0x10) | Exported Function | 0x0000000180005970 | 0x00005970
-`WwanCloseHandle` | 17 (0x11) | Exported Function | 0x0000000180005b90 | 0x00005b90
-`WwanConnect` | 18 (0x12) | Exported Function | 0x0000000180005e30 | 0x00005e30
-`WwanConnectAdditionalPdpContext` | 19 (0x13) | Exported Function | 0x0000000180005e70 | 0x00005e70
-`WwanConnectByActivityId` | 20 (0x14) | Exported Function | 0x0000000180006080 | 0x00006080
-`WwanConvertToInterfaceObject` | 21 (0x15) | Exported Function | 0x000000018000baf0 | 0x0000baf0
-`WwanDeleteDMConfigProfile` | 22 (0x16) | Exported Function | 0x0000000180006310 | 0x00006310
-`WwanDeleteProfile` | 23 (0x17) | Exported Function | 0x00000001800064d0 | 0x000064d0
-`WwanDisconnect` | 24 (0x18) | Exported Function | 0x00000001800066a0 | 0x000066a0
-`WwanEnumerateInterfaces` | 25 (0x19) | Exported Function | 0x0000000180006890 | 0x00006890
-`WwanFreeMemory` | 26 (0x1a) | Exported Function | 0x0000000180006a50 | 0x00006a50
-`WwanGetDMConfigBinary` | 27 (0x1b) | Exported Function | 0x0000000180006a80 | 0x00006a80
-`WwanGetDMConfigProfile` | 28 (0x1c) | Exported Function | 0x0000000180006c40 | 0x00006c40
-`WwanGetDMConfigProfileList` | 29 (0x1d) | Exported Function | 0x0000000180006e20 | 0x00006e20
-`WwanGetInfGuidAndProfileByProfileIndex` | 30 (0x1e) | Exported Function | 0x0000000180006fe0 | 0x00006fe0
-`WwanUiccSetTerminalCapability` | 63 (0x3f) | Exported Function | 0x000000018000aae0 | 0x0000aae0
-`WwanUssdRequest` | 64 (0x40) | Exported Function | 0x000000018000acb0 | 0x0000acb0
+Function Name | Ordinal | Type
+-- | -- | --
+`WwanQueryInterfaceEx` | 44 | Exported Function
+`WwanQueryIPv6eHRPDControl` | 42 | Exported Function
+`WwanOpenHandle` | 41 | Exported Function
+`WwanQueryInterface` | 43 | Exported Function
+`WwanScan` | 47 | Exported Function
+`WwanSearchProfile` | 48 | Exported Function
+`WwanRegister` | 45 | Exported Function
+`WwanRegisterNotification` | 46 | Exported Function
+`WwanGetProfileIstream` | 35 | Exported Function
+`WwanGetProfileList` | 36 | Exported Function
+`WwanGetProfileHomeProviderName` | 33 | Exported Function
+`WwanGetProfileIndex` | 34 | Exported Function
+`WwanGetProfileState` | 39 | Exported Function
+`WwanModemLogging` | 40 | Exported Function
+`WwanGetProfileListByPurpose` | 37 | Exported Function
+`WwanGetProfileMetaData` | 38 | Exported Function
+`WwanSmsSend` | 59 | Exported Function
+`WwanUiccCloseChannel` | 60 | Exported Function
+`WwanSmsDelete` | 57 | Exported Function
+`WwanSmsRead` | 58 | Exported Function
+`WwanUiccSetTerminalCapability` | 63 | Exported Function
+`WwanUssdRequest` | 64 | Exported Function
+`WwanUiccOpenChannel` | 61 | Exported Function
+`WwanUiccSendApdu` | 62 | Exported Function
+`WwanSetInterface` | 52 | Exported Function
+`WwanSetIPv6eHRPDControl` | 51 | Exported Function
+`WwanSetDMConfigBinary` | 49 | Exported Function
+`WwanSetDMConfigProfile` | 50 | Exported Function
+`WwanSetProfileMetaData` | 55 | Exported Function
+`WwanSetSmsConfiguration` | 56 | Exported Function
+`WwanSetNetworkQuietMode` | 53 | Exported Function
+`WwanSetProfile` | 54 | Exported Function
+`Wwan2SendDeviceServiceCommand` | 11 | Exported Function
+`Wwan2SubscribePowerStateEvents` | 12 | Exported Function
+`Wwan2QueryInterfaces` | 9 | Exported Function
+`Wwan2RegisterNotification` | 10 | Exported Function
+`WwanAllocateMemory` | 15 | Exported Function
+`WwanAuthChallenge` | 16 | Exported Function
+`Wwan2WriteDeviceServiceData` | 13 | Exported Function
+`WwanActivateNotification` | 14 | Exported Function
+`Wwan2CloseHandle` | 3 | Exported Function
+`Wwan2EnumerateDeviceServices` | 4 | Exported Function
+`Wwan2CloseDeviceServiceCommandSession` | 1 | Exported Function
+`Wwan2CloseDeviceServiceDataSession` | 2 | Exported Function
+`Wwan2OpenHandle` | 7 | Exported Function
+`Wwan2QueryDeviceServiceSupportedCommands` | 8 | Exported Function
+`Wwan2OpenDeviceServiceCommandSession` | 5 | Exported Function
+`Wwan2OpenDeviceServiceDataSession` | 6 | Exported Function
+`WwanGetDMConfigBinary` | 27 | Exported Function
+`WwanGetDMConfigProfile` | 28 | Exported Function
+`WwanEnumerateInterfaces` | 25 | Exported Function
+`WwanFreeMemory` | 26 | Exported Function
+`WwanGetInterfaceGuid` | 31 | Exported Function
+`WwanGetProfile` | 32 | Exported Function
+`WwanGetDMConfigProfileList` | 29 | Exported Function
+`WwanGetInfGuidAndProfileByProfileIndex` | 30 | Exported Function
+`WwanConnectAdditionalPdpContext` | 19 | Exported Function
+`WwanConnectByActivityId` | 20 | Exported Function
+`WwanCloseHandle` | 17 | Exported Function
+`WwanConnect` | 18 | Exported Function
+`WwanDeleteProfile` | 23 | Exported Function
+`WwanDisconnect` | 24 | Exported Function
+`WwanConvertToInterfaceObject` | 21 | Exported Function
+`WwanDeleteDMConfigProfile` | 22 | Exported Function
 
 
 ## Signature

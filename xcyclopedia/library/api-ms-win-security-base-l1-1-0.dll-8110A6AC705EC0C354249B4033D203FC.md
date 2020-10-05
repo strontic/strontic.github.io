@@ -24,105 +24,105 @@ PE256 | `67640066353D66C6D997F9D1841AF292EE60408676399037569F93196A06191B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AccessCheck` | 1 (0x1) | Exported Function | advapi32.AccessCheck | 0x00001542
-`IsValidSecurityDescriptor` | 70 (0x46) | Exported Function | advapi32.IsValidSecurityDescriptor | 0x000023bd
-`IsValidRelativeSecurityDescriptor` | 69 (0x45) | Exported Function | advapi32.IsValidRelativeSecurityDescriptor | 0x00002378
-`IsValidAcl` | 68 (0x44) | Exported Function | advapi32.IsValidAcl | 0x00002342
-`IsTokenRestricted` | 67 (0x43) | Exported Function | advapi32.IsTokenRestricted | 0x0000231c
-`InitializeSid` | 66 (0x42) | Exported Function | advapi32.InitializeSid | 0x000022f3
-`InitializeSecurityDescriptor` | 65 (0x41) | Exported Function | advapi32.InitializeSecurityDescriptor | 0x000022bf
-`InitializeAcl` | 64 (0x40) | Exported Function | advapi32.InitializeAcl | 0x0000228b
-`ImpersonateSelf` | 63 (0x3f) | Exported Function | advapi32.ImpersonateSelf | 0x00002264
-`ImpersonateLoggedOnUser` | 62 (0x3e) | Exported Function | advapi32.ImpersonateLoggedOnUser | 0x00002233
-`IsValidSid` | 71 (0x47) | Exported Function | advapi32.IsValidSid | 0x000023eb
-`ImpersonateAnonymousToken` | 61 (0x3d) | Exported Function | advapi32.ImpersonateAnonymousToken | 0x000021f8
-`GetTokenInformation` | 59 (0x3b) | Exported Function | advapi32.GetTokenInformation | 0x00002182
-`GetSidSubAuthorityCount` | 58 (0x3a) | Exported Function | advapi32.GetSidSubAuthorityCount | 0x0000214d
-`GetSidSubAuthority` | 57 (0x39) | Exported Function | advapi32.GetSidSubAuthority | 0x00002119
-`GetSidLengthRequired` | 56 (0x38) | Exported Function | advapi32.GetSidLengthRequired | 0x000020e8
-`GetSidIdentifierAuthority` | 55 (0x37) | Exported Function | advapi32.GetSidIdentifierAuthority | 0x000020b0
-`GetSecurityDescriptorSacl` | 54 (0x36) | Exported Function | advapi32.GetSecurityDescriptorSacl | 0x00002073
-`GetSecurityDescriptorRMControl` | 53 (0x35) | Exported Function | advapi32.GetSecurityDescriptorRMControl | 0x00002031
-`GetSecurityDescriptorOwner` | 52 (0x34) | Exported Function | advapi32.GetSecurityDescriptorOwner | 0x00001fee
-`GetSecurityDescriptorLength` | 51 (0x33) | Exported Function | advapi32.GetSecurityDescriptorLength | 0x00001fae
-`GetWindowsAccountDomainSid` | 60 (0x3c) | Exported Function | advapi32.GetWindowsAccountDomainSid | 0x000021ba
-`IsWellKnownSid` | 72 (0x48) | Exported Function | advapi32.IsWellKnownSid | 0x0000240e
-`MakeAbsoluteSD` | 74 (0x4a) | Exported Function | advapi32.MakeAbsoluteSD | 0x0000245e
-`MakeAbsoluteSD2` | 73 (0x49) | Exported Function | advapi32.MakeAbsoluteSD2 | 0x00002436
-`SetSecurityDescriptorRMControl` | 95 (0x5f) | Exported Function | advapi32.SetSecurityDescriptorRMControl | 0x000028d3
-`SetSecurityDescriptorOwner` | 94 (0x5e) | Exported Function | advapi32.SetSecurityDescriptorOwner | 0x00002890
-`SetSecurityDescriptorGroup` | 93 (0x5d) | Exported Function | advapi32.SetSecurityDescriptorGroup | 0x00002851
-`SetSecurityDescriptorDacl` | 92 (0x5c) | Exported Function | advapi32.SetSecurityDescriptorDacl | 0x00002813
-`SetSecurityDescriptorControl` | 91 (0x5b) | Exported Function | advapi32.SetSecurityDescriptorControl | 0x000027d3
-`SetSecurityAccessMask` | 90 (0x5a) | Exported Function | advapi32.SetSecurityAccessMask | 0x00002797
-`SetPrivateObjectSecurityEx` | 89 (0x59) | Exported Function | advapi32.SetPrivateObjectSecurityEx | 0x0000275d
-`SetPrivateObjectSecurity` | 88 (0x58) | Exported Function | advapi32.SetPrivateObjectSecurity | 0x00002720
-`SetKernelObjectSecurity` | 87 (0x57) | Exported Function | advapi32.SetKernelObjectSecurity | 0x000026e6
-`SetFileSecurityW` | 86 (0x56) | Exported Function | advapi32.SetFileSecurityW | 0x000026b4
-`SetAclInformation` | 85 (0x55) | Exported Function | advapi32.SetAclInformation | 0x00002688
-`RevertToSelf` | 84 (0x54) | Exported Function | advapi32.RevertToSelf | 0x00002660
-`QuerySecurityAccessMask` | 83 (0x53) | Exported Function | advapi32.QuerySecurityAccessMask | 0x00002632
-`PrivilegedServiceAuditAlarmW` | 82 (0x52) | Exported Function | advapi32.PrivilegedServiceAuditAlarmW | 0x000025f4
-`PrivilegeCheck` | 81 (0x51) | Exported Function | advapi32.PrivilegeCheck | 0x000025bf
-`ObjectPrivilegeAuditAlarmW` | 80 (0x50) | Exported Function | advapi32.ObjectPrivilegeAuditAlarmW | 0x0000258c
-`ObjectOpenAuditAlarmW` | 79 (0x4f) | Exported Function | advapi32.ObjectOpenAuditAlarmW | 0x00002552
-`ObjectDeleteAuditAlarmW` | 78 (0x4e) | Exported Function | advapi32.ObjectDeleteAuditAlarmW | 0x0000251b
-`ObjectCloseAuditAlarmW` | 77 (0x4d) | Exported Function | advapi32.ObjectCloseAuditAlarmW | 0x000024e3
-`MapGenericMask` | 76 (0x4c) | Exported Function | advapi32.MapGenericMask | 0x000024b4
-`MakeSelfRelativeSD` | 75 (0x4b) | Exported Function | advapi32.MakeSelfRelativeSD | 0x00002489
-`GetSecurityDescriptorGroup` | 50 (0x32) | Exported Function | advapi32.GetSecurityDescriptorGroup | 0x00001f6e
-`SetSecurityDescriptorSacl` | 96 (0x60) | Exported Function | advapi32.SetSecurityDescriptorSacl | 0x00002915
-`GetSecurityDescriptorDacl` | 49 (0x31) | Exported Function | advapi32.GetSecurityDescriptorDacl | 0x00001f30
-`GetPrivateObjectSecurity` | 47 (0x2f) | Exported Function | advapi32.GetPrivateObjectSecurity | 0x00001eb1
-`AllocateAndInitializeSid` | 21 (0x15) | Exported Function | advapi32.AllocateAndInitializeSid | 0x000019a7
-`AdjustTokenPrivileges` | 20 (0x14) | Exported Function | advapi32.AdjustTokenPrivileges | 0x0000196f
-`AdjustTokenGroups` | 19 (0x13) | Exported Function | advapi32.AdjustTokenGroups | 0x0000193e
-`AddMandatoryAce` | 18 (0x12) | Exported Function | advapi32.AddMandatoryAce | 0x00001913
-`AddAuditAccessObjectAce` | 17 (0x11) | Exported Function | advapi32.AddAuditAccessObjectAce | 0x000018e2
-`AddAuditAccessAceEx` | 16 (0x10) | Exported Function | advapi32.AddAuditAccessAceEx | 0x000018ad
-`AddAuditAccessAce` | 15 (0xf) | Exported Function | advapi32.AddAuditAccessAce | 0x0000187e
-`AddAce` | 14 (0xe) | Exported Function | advapi32.AddAce | 0x0000185c
-`AddAccessDeniedObjectAce` | 13 (0xd) | Exported Function | advapi32.AddAccessDeniedObjectAce | 0x00001833
-`AllocateLocallyUniqueId` | 22 (0x16) | Exported Function | advapi32.AllocateLocallyUniqueId | 0x000019e1
-`AddAccessDeniedAceEx` | 12 (0xc) | Exported Function | advapi32.AddAccessDeniedAceEx | 0x000017fc
-`AddAccessAllowedObjectAce` | 10 (0xa) | Exported Function | advapi32.AddAccessAllowedObjectAce | 0x00001795
-`AddAccessAllowedAceEx` | 9 (0x9) | Exported Function | advapi32.AddAccessAllowedAceEx | 0x0000175c
-`AddAccessAllowedAce` | 8 (0x8) | Exported Function | advapi32.AddAccessAllowedAce | 0x00001729
-`AccessCheckByTypeResultListAndAuditAlarmW` | 7 (0x7) | Exported Function | advapi32.AccessCheckByTypeResultListAndAuditAlarmW | 0x000016e2
-`AccessCheckByTypeResultListAndAuditAlarmByHandleW` | 6 (0x6) | Exported Function | advapi32.AccessCheckByTypeResultListAndAuditAlarmByHandleW | 0x0000167d
-`AccessCheckByTypeResultList` | 5 (0x5) | Exported Function | advapi32.AccessCheckByTypeResultList | 0x00001626
-`AccessCheckByTypeAndAuditAlarmW` | 4 (0x4) | Exported Function | advapi32.AccessCheckByTypeAndAuditAlarmW | 0x000015e1
-`AccessCheckByType` | 3 (0x3) | Exported Function | advapi32.AccessCheckByType | 0x000015a6
-`AccessCheckAndAuditAlarmW` | 2 (0x2) | Exported Function | advapi32.AccessCheckAndAuditAlarmW | 0x00001571
-`AddAccessDeniedAce` | 11 (0xb) | Exported Function | advapi32.AddAccessDeniedAce | 0x000017cb
-`AreAllAccessesGranted` | 23 (0x17) | Exported Function | advapi32.AreAllAccessesGranted | 0x00001a18
-`AreAnyAccessesGranted` | 24 (0x18) | Exported Function | advapi32.AreAnyAccessesGranted | 0x00001a4d
-`CheckTokenMembership` | 25 (0x19) | Exported Function | advapi32.CheckTokenMembership | 0x00001a81
-`GetLengthSid` | 46 (0x2e) | Exported Function | advapi32.GetLengthSid | 0x00001e82
-`GetKernelObjectSecurity` | 45 (0x2d) | Exported Function | advapi32.GetKernelObjectSecurity | 0x00001e54
-`GetFileSecurityW` | 44 (0x2c) | Exported Function | advapi32.GetFileSecurityW | 0x00001e22
-`GetAclInformation` | 43 (0x2b) | Exported Function | advapi32.GetAclInformation | 0x00001df6
-`GetAce` | 42 (0x2a) | Exported Function | advapi32.GetAce | 0x00001dd4
-`FreeSid` | 41 (0x29) | Exported Function | advapi32.FreeSid | 0x00001dbc
-`FindFirstFreeAce` | 40 (0x28) | Exported Function | advapi32.FindFirstFreeAce | 0x00001d9a
-`EqualSid` | 39 (0x27) | Exported Function | advapi32.EqualSid | 0x00001d77
-`EqualPrefixSid` | 38 (0x26) | Exported Function | advapi32.EqualPrefixSid | 0x00001d56
-`EqualDomainSid` | 37 (0x25) | Exported Function | advapi32.EqualDomainSid | 0x00001d2f
-`DuplicateTokenEx` | 36 (0x24) | Exported Function | advapi32.DuplicateTokenEx | 0x00001d06
-`DuplicateToken` | 35 (0x23) | Exported Function | advapi32.DuplicateToken | 0x00001cdd
-`DestroyPrivateObjectSecurity` | 34 (0x22) | Exported Function | advapi32.DestroyPrivateObjectSecurity | 0x00001ca8
-`DeleteAce` | 33 (0x21) | Exported Function | advapi32.DeleteAce | 0x00001c78
-`CreateWellKnownSid` | 32 (0x20) | Exported Function | advapi32.CreateWellKnownSid | 0x00001c52
-`CreateRestrictedToken` | 31 (0x1f) | Exported Function | advapi32.CreateRestrictedToken | 0x00001c20
-`CreatePrivateObjectSecurityWithMultipleInheritance` | 30 (0x1e) | Exported Function | advapi32.CreatePrivateObjectSecurityWithMultipleInheritance | 0x00001bce
-`CreatePrivateObjectSecurityEx` | 29 (0x1d) | Exported Function | advapi32.CreatePrivateObjectSecurityEx | 0x00001b74
-`CreatePrivateObjectSecurity` | 28 (0x1c) | Exported Function | advapi32.CreatePrivateObjectSecurity | 0x00001b31
-`CopySid` | 27 (0x1b) | Exported Function | advapi32.CopySid | 0x00001b04
-`ConvertToAutoInheritPrivateObjectSecurity` | 26 (0x1a) | Exported Function | advapi32.ConvertToAutoInheritPrivateObjectSecurity | 0x00001ac9
-`GetSecurityDescriptorControl` | 48 (0x30) | Exported Function | advapi32.GetSecurityDescriptorControl | 0x00001ef0
-`SetTokenInformation` | 97 (0x61) | Exported Function | advapi32.SetTokenInformation | 0x0000294c
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializeSecurityDescriptor` | 65 | Exported Function
+`InitializeSid` | 66 | Exported Function
+`IsTokenRestricted` | 67 | Exported Function
+`ImpersonateLoggedOnUser` | 62 | Exported Function
+`ImpersonateSelf` | 63 | Exported Function
+`InitializeAcl` | 64 | Exported Function
+`IsValidSid` | 71 | Exported Function
+`IsWellKnownSid` | 72 | Exported Function
+`MakeAbsoluteSD` | 74 | Exported Function
+`IsValidAcl` | 68 | Exported Function
+`IsValidRelativeSecurityDescriptor` | 69 | Exported Function
+`IsValidSecurityDescriptor` | 70 | Exported Function
+`GetSecurityDescriptorRMControl` | 53 | Exported Function
+`GetSecurityDescriptorSacl` | 54 | Exported Function
+`GetSidIdentifierAuthority` | 55 | Exported Function
+`GetSecurityDescriptorGroup` | 50 | Exported Function
+`GetSecurityDescriptorLength` | 51 | Exported Function
+`GetSecurityDescriptorOwner` | 52 | Exported Function
+`GetTokenInformation` | 59 | Exported Function
+`GetWindowsAccountDomainSid` | 60 | Exported Function
+`ImpersonateAnonymousToken` | 61 | Exported Function
+`GetSidLengthRequired` | 56 | Exported Function
+`GetSidSubAuthority` | 57 | Exported Function
+`GetSidSubAuthorityCount` | 58 | Exported Function
+`SetPrivateObjectSecurityEx` | 89 | Exported Function
+`SetSecurityAccessMask` | 90 | Exported Function
+`SetSecurityDescriptorControl` | 91 | Exported Function
+`SetFileSecurityW` | 86 | Exported Function
+`SetKernelObjectSecurity` | 87 | Exported Function
+`SetPrivateObjectSecurity` | 88 | Exported Function
+`SetSecurityDescriptorRMControl` | 95 | Exported Function
+`SetSecurityDescriptorSacl` | 96 | Exported Function
+`SetTokenInformation` | 97 | Exported Function
+`SetSecurityDescriptorDacl` | 92 | Exported Function
+`SetSecurityDescriptorGroup` | 93 | Exported Function
+`SetSecurityDescriptorOwner` | 94 | Exported Function
+`ObjectCloseAuditAlarmW` | 77 | Exported Function
+`ObjectDeleteAuditAlarmW` | 78 | Exported Function
+`ObjectOpenAuditAlarmW` | 79 | Exported Function
+`MakeAbsoluteSD2` | 73 | Exported Function
+`MakeSelfRelativeSD` | 75 | Exported Function
+`MapGenericMask` | 76 | Exported Function
+`QuerySecurityAccessMask` | 83 | Exported Function
+`RevertToSelf` | 84 | Exported Function
+`SetAclInformation` | 85 | Exported Function
+`ObjectPrivilegeAuditAlarmW` | 80 | Exported Function
+`PrivilegeCheck` | 81 | Exported Function
+`PrivilegedServiceAuditAlarmW` | 82 | Exported Function
+`GetSecurityDescriptorDacl` | 49 | Exported Function
+`AddAuditAccessAceEx` | 16 | Exported Function
+`AddAuditAccessObjectAce` | 17 | Exported Function
+`AddMandatoryAce` | 18 | Exported Function
+`AddAccessDeniedObjectAce` | 13 | Exported Function
+`AddAce` | 14 | Exported Function
+`AddAuditAccessAce` | 15 | Exported Function
+`AllocateLocallyUniqueId` | 22 | Exported Function
+`AreAllAccessesGranted` | 23 | Exported Function
+`AreAnyAccessesGranted` | 24 | Exported Function
+`AdjustTokenGroups` | 19 | Exported Function
+`AdjustTokenPrivileges` | 20 | Exported Function
+`AllocateAndInitializeSid` | 21 | Exported Function
+`AccessCheckByTypeAndAuditAlarmW` | 4 | Exported Function
+`AccessCheckByTypeResultList` | 5 | Exported Function
+`AccessCheckByTypeResultListAndAuditAlarmByHandleW` | 6 | Exported Function
+`AccessCheck` | 1 | Exported Function
+`AccessCheckAndAuditAlarmW` | 2 | Exported Function
+`AccessCheckByType` | 3 | Exported Function
+`AddAccessAllowedObjectAce` | 10 | Exported Function
+`AddAccessDeniedAce` | 11 | Exported Function
+`AddAccessDeniedAceEx` | 12 | Exported Function
+`AccessCheckByTypeResultListAndAuditAlarmW` | 7 | Exported Function
+`AddAccessAllowedAce` | 8 | Exported Function
+`AddAccessAllowedAceEx` | 9 | Exported Function
+`FindFirstFreeAce` | 40 | Exported Function
+`FreeSid` | 41 | Exported Function
+`GetAce` | 42 | Exported Function
+`EqualDomainSid` | 37 | Exported Function
+`EqualPrefixSid` | 38 | Exported Function
+`EqualSid` | 39 | Exported Function
+`GetLengthSid` | 46 | Exported Function
+`GetPrivateObjectSecurity` | 47 | Exported Function
+`GetSecurityDescriptorControl` | 48 | Exported Function
+`GetAclInformation` | 43 | Exported Function
+`GetFileSecurityW` | 44 | Exported Function
+`GetKernelObjectSecurity` | 45 | Exported Function
+`CreatePrivateObjectSecurity` | 28 | Exported Function
+`CreatePrivateObjectSecurityEx` | 29 | Exported Function
+`CreatePrivateObjectSecurityWithMultipleInheritance` | 30 | Exported Function
+`CheckTokenMembership` | 25 | Exported Function
+`ConvertToAutoInheritPrivateObjectSecurity` | 26 | Exported Function
+`CopySid` | 27 | Exported Function
+`DestroyPrivateObjectSecurity` | 34 | Exported Function
+`DuplicateToken` | 35 | Exported Function
+`DuplicateTokenEx` | 36 | Exported Function
+`CreateRestrictedToken` | 31 | Exported Function
+`CreateWellKnownSid` | 32 | Exported Function
+`DeleteAce` | 33 | Exported Function
 
 
 ## Signature

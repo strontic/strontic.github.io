@@ -24,14 +24,14 @@ PE256 | `23DB6D73E170B9A1BF58D017594301F12B120D68B0F261027C0BE8DD6A2D35F3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ModernColorGetGDILutFromHDC` | 1 (0x1) | Exported Function | 0x00000001800045f0 | 0x000045f0
-`ModernColorSetGDILut` | 2 (0x2) | Exported Function | 0x0000000180003fe0 | 0x00003fe0
-`ModernColorSetGDILutFromHDC` | 3 (0x3) | Exported Function | 0x0000000180004270 | 0x00004270
-`ModernColorSetLut` | 4 (0x4) | Exported Function | 0x0000000180004f40 | 0x00004f40
-`ModernColorSetMatrix` | 5 (0x5) | Exported Function | 0x0000000180003a90 | 0x00003a90
-`ModernColorSetMatrixFromHDC` | 6 (0x6) | Exported Function | 0x0000000180003c40 | 0x00003c40
+Function Name | Ordinal | Type
+-- | -- | --
+`ModernColorSetLut` | 4 | Exported Function
+`ModernColorSetMatrix` | 5 | Exported Function
+`ModernColorSetMatrixFromHDC` | 6 | Exported Function
+`ModernColorGetGDILutFromHDC` | 1 | Exported Function
+`ModernColorSetGDILut` | 2 | Exported Function
+`ModernColorSetGDILutFromHDC` | 3 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `518F90B30E2F81AEE6D0364F31C7E0FE9DBEF8D8D1964F86D76B3BA4E260D8BC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SysNotifyStartServer` | 1 (0x1) | Exported Function | 0x00000001800020a0 | 0x000020a0
-`SysNotifyStopServer` | 2 (0x2) | Exported Function | 0x00000001800024c0 | 0x000024c0
+Function Name | Ordinal | Type
+-- | -- | --
+`SysNotifyStopServer` | 2 | Exported Function
+`SysNotifyStartServer` | 1 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `C83091B75EDD538C6CE1417E36E4F48CE3A7E255405AE8BBB84BEEE8E76AE75E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ServiceMain` | 1 (0x1) | Exported Function | 0x10051340 | 0x00051340
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature

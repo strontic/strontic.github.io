@@ -24,24 +24,24 @@ PE256 | `6985E1D5099467B2B8647249087B5FA9D24D0B1DE6EDFC89AFF3B6396812B357`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConnectionCheckForData` | 13 (0xd) | Exported Function | 0x10003580 | 0x00003580
-`ConnectionClose` | 4 (0x4) | Exported Function | 0x10001e10 | 0x00001e10
-`ConnectionError` | 5 (0x5) | Exported Function | 0x100021a0 | 0x000021a0
-`ConnectionErrorW` | 15 (0xf) | Exported Function | 0x10002050 | 0x00002050
-`ConnectionMode` | 9 (0x9) | Exported Function | 0x10001db0 | 0x00001db0
-`ConnectionObjectSize` | 1 (0x1) | Exported Function | 0x10001ae0 | 0x00001ae0
-`ConnectionOpen` | 11 (0xb) | Exported Function | 0x10002620 | 0x00002620
-`ConnectionOpenW` | 14 (0xe) | Exported Function | 0x100024b0 | 0x000024b0
-`ConnectionRead` | 2 (0x2) | Exported Function | 0x10002a70 | 0x00002a70
-`ConnectionServerEnum` | 12 (0xc) | Exported Function | 0x100038d0 | 0x000038d0
-`ConnectionServerEnumW` | 16 (0x10) | Exported Function | 0x100036f0 | 0x000036f0
-`ConnectionStatus` | 10 (0xa) | Exported Function | 0x10001df0 | 0x00001df0
-`ConnectionTransact` | 7 (0x7) | Exported Function | 0x10003200 | 0x00003200
-`ConnectionVer` | 6 (0x6) | Exported Function | 0x10002040 | 0x00002040
-`ConnectionWrite` | 3 (0x3) | Exported Function | 0x10003010 | 0x00003010
-`ConnectionWriteOOB` | 8 (0x8) | Exported Function | 0x10001b20 | 0x00001b20
+Function Name | Ordinal | Type
+-- | -- | --
+`ConnectionServerEnumW` | 16 | Exported Function
+`ConnectionStatus` | 10 | Exported Function
+`ConnectionRead` | 2 | Exported Function
+`ConnectionServerEnum` | 12 | Exported Function
+`ConnectionWrite` | 3 | Exported Function
+`ConnectionWriteOOB` | 8 | Exported Function
+`ConnectionTransact` | 7 | Exported Function
+`ConnectionVer` | 6 | Exported Function
+`ConnectionError` | 5 | Exported Function
+`ConnectionErrorW` | 15 | Exported Function
+`ConnectionCheckForData` | 13 | Exported Function
+`ConnectionClose` | 4 | Exported Function
+`ConnectionOpen` | 11 | Exported Function
+`ConnectionOpenW` | 14 | Exported Function
+`ConnectionMode` | 9 | Exported Function
+`ConnectionObjectSize` | 1 | Exported Function
 
 
 ## Signature

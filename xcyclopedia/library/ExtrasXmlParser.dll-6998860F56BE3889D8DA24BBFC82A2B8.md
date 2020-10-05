@@ -24,11 +24,11 @@ PE256 | `620AE18ADBC140534678B61D7893666A8C3145AAA4F10429332DE7B7F2A6C094`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ParseExtrasXmlForExtensionInfo` | 1 (0x1) | Exported Function | 0x10002670 | 0x00002670
-`ParseExtrasXmlForNabSyncExtensionInfo` | 2 (0x2) | Exported Function | 0x100026a0 | 0x000026a0
-`ParseExtrasXmlForSmsInterceptExtensionInfo` | 3 (0x3) | Exported Function | 0x100026d0 | 0x000026d0
+Function Name | Ordinal | Type
+-- | -- | --
+`ParseExtrasXmlForSmsInterceptExtensionInfo` | 3 | Exported Function
+`ParseExtrasXmlForNabSyncExtensionInfo` | 2 | Exported Function
+`ParseExtrasXmlForExtensionInfo` | 1 | Exported Function
 
 
 ## Signature

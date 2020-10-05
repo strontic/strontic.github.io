@@ -24,56 +24,56 @@ PE256 | `E4FAF583EC0923B7B09F5664CA779ABF22CC34825CB82A6D5271B82ADA817E2A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseFindStorage` | 4 (0x4) | Exported Function | 0x0000000180002830 | 0x00002830
-`MountVolume` | 27 (0x1b) | Exported Function | 0x0000000180002d70 | 0x00002d70
-`MoveFileInheritSecurityW` | 28 (0x1c) | Exported Function | 0x0000000180003ac0 | 0x00003ac0
-`OpenStorageTypeSearch` | 29 (0x1d) | Exported Function | 0x00000001800027a0 | 0x000027a0
-`PredictStorageHealth` | 30 (0x1e) | Exported Function | 0x00000001800038b0 | 0x000038b0
-`ProcessStorageCardChange` | 31 (0x1f) | Exported Function | 0x0000000180003610 | 0x00003610
-`ProvisionForAppInstall` | 32 (0x20) | Exported Function | 0x0000000180003110 | 0x00003110
-`RebootToFlashingMode` | 33 (0x21) | Exported Function | 0x00000001800039c0 | 0x000039c0
-`RebootToUosFlashing` | 34 (0x22) | Exported Function | 0x0000000180003a40 | 0x00003a40
-`ResetPhoneEx` | 35 (0x23) | Exported Function | 0x0000000180003c80 | 0x00003c80
-`MIDL_user_free` | 26 (0x1a) | Exported Function | 0x0000000180002ce0 | 0x00002ce0
-`ResetStoragePolicySettings` | 36 (0x24) | Exported Function | 0x0000000180003720 | 0x00003720
-`SelectStorageVolume` | 38 (0x26) | Exported Function | 0x0000000180002870 | 0x00002870
-`SelectStorageVolumeEx` | 39 (0x27) | Exported Function | 0x0000000180002900 | 0x00002900
-`SetStoragePolicySettings` | 40 (0x28) | Exported Function | 0x0000000180003790 | 0x00003790
-`SetStorageSettings` | 41 (0x29) | Exported Function | 0x00000001800033b0 | 0x000033b0
-`TriggerBlinkCleanup` | 42 (0x2a) | Exported Function | 0x0000000180002cb0 | 0x00002cb0
-`TriggerDownloadsCleanup` | 43 (0x2b) | Exported Function | 0x0000000180002cb0 | 0x00002cb0
-`TriggerLowStorageNotification` | 44 (0x2c) | Exported Function | 0x00000001800034e0 | 0x000034e0
-`TriggerStorageCleanup` | 45 (0x2d) | Exported Function | 0x0000000180003460 | 0x00003460
-`TriggerStoragePolicies` | 46 (0x2e) | Exported Function | 0x0000000180003830 | 0x00003830
-`ScanVolume` | 37 (0x25) | Exported Function | 0x0000000180002f20 | 0x00002f20
-`MIDL_user_allocate` | 25 (0x19) | Exported Function | 0x0000000180002cc0 | 0x00002cc0
-`GetTopFolders` | 24 (0x18) | Exported Function | 0x0000000180002ba0 | 0x00002ba0
-`GetStorageUsageInfo` | 3 (0x3) | Exported Function | 0x00000001800079d0 | 0x000079d0
-`CloseFindStorageSearch` | 5 (0x5) | Exported Function | 0x0000000180002830 | 0x00002830
-`DismountVolume` | 6 (0x6) | Exported Function | 0x0000000180002e00 | 0x00002e00
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x0000000180008ca0 | 0x00008ca0
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x0000000180008d00 | 0x00008d00
-`DllRegisterServer` | 1 (0x1) | Exported Function | 0x0000000180002cb0 | 0x00002cb0
-`DllUnregisterServer` | 2 (0x2) | Exported Function | 0x0000000180002cb0 | 0x00002cb0
-`FinalizeVolume` | 9 (0x9) | Exported Function | 0x0000000180003280 | 0x00003280
-`FindNextStorageType` | 10 (0xa) | Exported Function | 0x00000001800029a0 | 0x000029a0
-`FindNextStorageTypeEx` | 11 (0xb) | Exported Function | 0x0000000180002a20 | 0x00002a20
-`FindNextStorageTypeExAsync` | 12 (0xc) | Exported Function | 0x0000000180002c30 | 0x00002c30
-`FormatVolume` | 13 (0xd) | Exported Function | 0x0000000180002e90 | 0x00002e90
-`GetAppSize` | 14 (0xe) | Exported Function | 0x0000000180002cb0 | 0x00002cb0
-`GetLastFailedSaveLocationPath` | 15 (0xf) | Exported Function | 0x0000000180003940 | 0x00003940
-`GetStorageDebugInfo` | 16 (0x10) | Exported Function | 0x0000000180002ab0 | 0x00002ab0
-`GetStorageDeviceInfo` | 17 (0x11) | Exported Function | 0x0000000180003190 | 0x00003190
-`GetStorageExecutionInfo` | 18 (0x12) | Exported Function | 0x0000000180002b20 | 0x00002b20
-`GetStorageInstanceCount` | 19 (0x13) | Exported Function | 0x0000000180002ff0 | 0x00002ff0
-`GetStorageInstanceCountForMaps` | 20 (0x14) | Exported Function | 0x0000000180003080 | 0x00003080
-`GetStoragePolicySettings` | 21 (0x15) | Exported Function | 0x0000000180003680 | 0x00003680
-`GetStorageSettings` | 22 (0x16) | Exported Function | 0x0000000180003300 | 0x00003300
-`GetStorageStateName` | 23 (0x17) | Exported Function | 0x0000000180003560 | 0x00003560
-`TriggerStorageTypeRefresh` | 47 (0x2f) | Exported Function | 0x0000000180002cb0 | 0x00002cb0
-`TriggerTempFileCleanup` | 48 (0x30) | Exported Function | 0x0000000180002cb0 | 0x00002cb0
+Function Name | Ordinal | Type
+-- | -- | --
+`RebootToFlashingMode` | 33 | Exported Function
+`ProvisionForAppInstall` | 32 | Exported Function
+`ProcessStorageCardChange` | 31 | Exported Function
+`ResetStoragePolicySettings` | 36 | Exported Function
+`ResetPhoneEx` | 35 | Exported Function
+`RebootToUosFlashing` | 34 | Exported Function
+`MountVolume` | 27 | Exported Function
+`MIDL_user_free` | 26 | Exported Function
+`MIDL_user_allocate` | 25 | Exported Function
+`PredictStorageHealth` | 30 | Exported Function
+`OpenStorageTypeSearch` | 29 | Exported Function
+`MoveFileInheritSecurityW` | 28 | Exported Function
+`TriggerStorageCleanup` | 45 | Exported Function
+`TriggerLowStorageNotification` | 44 | Exported Function
+`TriggerDownloadsCleanup` | 43 | Exported Function
+`TriggerTempFileCleanup` | 48 | Exported Function
+`TriggerStorageTypeRefresh` | 47 | Exported Function
+`TriggerStoragePolicies` | 46 | Exported Function
+`SelectStorageVolumeEx` | 39 | Exported Function
+`SelectStorageVolume` | 38 | Exported Function
+`ScanVolume` | 37 | Exported Function
+`TriggerBlinkCleanup` | 42 | Exported Function
+`SetStorageSettings` | 41 | Exported Function
+`SetStoragePolicySettings` | 40 | Exported Function
+`FindNextStorageType` | 10 | Exported Function
+`FinalizeVolume` | 9 | Exported Function
+`DllUnregisterServer` | 2 | Exported Function
+`FormatVolume` | 13 | Exported Function
+`FindNextStorageTypeExAsync` | 12 | Exported Function
+`FindNextStorageTypeEx` | 11 | Exported Function
+`DismountVolume` | 6 | Exported Function
+`CloseFindStorageSearch` | 5 | Exported Function
+`CloseFindStorage` | 4 | Exported Function
+`DllRegisterServer` | 1 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`GetStorageSettings` | 22 | Exported Function
+`GetStoragePolicySettings` | 21 | Exported Function
+`GetStorageInstanceCountForMaps` | 20 | Exported Function
+`GetTopFolders` | 24 | Exported Function
+`GetStorageUsageInfo` | 3 | Exported Function
+`GetStorageStateName` | 23 | Exported Function
+`GetStorageDebugInfo` | 16 | Exported Function
+`GetLastFailedSaveLocationPath` | 15 | Exported Function
+`GetAppSize` | 14 | Exported Function
+`GetStorageInstanceCount` | 19 | Exported Function
+`GetStorageExecutionInfo` | 18 | Exported Function
+`GetStorageDeviceInfo` | 17 | Exported Function
 
 
 ## Signature

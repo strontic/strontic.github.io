@@ -24,13 +24,13 @@ PE256 | `6B0713542BFAAC4ACD5DCF7D091A6CBCB39D7166367A8AB81061DE5B1A080C4C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SssBindServicingStack` | 1 (0x1) | Exported Function | 0x10007e50 | 0x00007e50
-`SssGetServicingStackFilePath` | 2 (0x2) | Exported Function | 0x10009460 | 0x00009460
-`SssGetServicingStackFilePathLength` | 3 (0x3) | Exported Function | 0x100092d0 | 0x000092d0
-`SssPreloadDownlevelDependencies` | 4 (0x4) | Exported Function | 0x10008bf0 | 0x00008bf0
-`SssReleaseServicingStack` | 5 (0x5) | Exported Function | 0x100096c0 | 0x000096c0
+Function Name | Ordinal | Type
+-- | -- | --
+`SssPreloadDownlevelDependencies` | 4 | Exported Function
+`SssReleaseServicingStack` | 5 | Exported Function
+`SssGetServicingStackFilePathLength` | 3 | Exported Function
+`SssBindServicingStack` | 1 | Exported Function
+`SssGetServicingStackFilePath` | 2 | Exported Function
 
 
 ## Signature

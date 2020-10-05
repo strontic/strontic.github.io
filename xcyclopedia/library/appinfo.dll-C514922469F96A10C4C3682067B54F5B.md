@@ -24,12 +24,12 @@ PE256 | `5A6E5606D86FB129A7250AA0885F713165DF60B780BFEFE9DE750310CA87D73D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AiDisableDesktopRpcInterface` | 1 (0x1) | Exported Function | 0x00000001800250c0 | 0x000250c0
-`AiEnableDesktopRpcInterface` | 2 (0x2) | Exported Function | 0x0000000180005250 | 0x00005250
-`ServiceMain` | 3 (0x3) | Exported Function | 0x0000000180004590 | 0x00004590
-`SvchostPushServiceGlobals` | 4 (0x4) | Exported Function | 0x0000000180004580 | 0x00004580
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 3 | Exported Function
+`SvchostPushServiceGlobals` | 4 | Exported Function
+`AiDisableDesktopRpcInterface` | 1 | Exported Function
+`AiEnableDesktopRpcInterface` | 2 | Exported Function
 
 
 ## Signature

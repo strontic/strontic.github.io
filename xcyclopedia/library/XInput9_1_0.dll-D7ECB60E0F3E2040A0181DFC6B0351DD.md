@@ -24,13 +24,13 @@ PE256 | `576C1C835D1DF5B40D71ED6C3C448AD793396B19B72D7E8CBF17C08DE2347347`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x100013f0 | 0x000013f0
-`XInputGetCapabilities` | 2 (0x2) | Exported Function | 0x10001530 | 0x00001530
-`XInputGetDSoundAudioDeviceGuids` | 3 (0x3) | Exported Function | 0x10001580 | 0x00001580
-`XInputGetState` | 4 (0x4) | Exported Function | 0x100014d0 | 0x000014d0
-`XInputSetState` | 5 (0x5) | Exported Function | 0x10001500 | 0x00001500
+Function Name | Ordinal | Type
+-- | -- | --
+`XInputGetState` | 4 | Exported Function
+`XInputSetState` | 5 | Exported Function
+`XInputGetDSoundAudioDeviceGuids` | 3 | Exported Function
+`DllMain` | 1 | Exported Function
+`XInputGetCapabilities` | 2 | Exported Function
 
 
 ## Signature

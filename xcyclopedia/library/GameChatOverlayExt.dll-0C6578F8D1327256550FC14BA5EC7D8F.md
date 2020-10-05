@@ -24,11 +24,11 @@ PE256 | `10A0B2B9924B90A70D6941FB94613A0C4DBD0F2C9B146D4BBE3D92D06C299FBE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GcoAddMessage` | 1 (0x1) | Exported Function | 0x10001650 | 0x00001650
-`GcoGetDesiredPosition` | 2 (0x2) | Exported Function | 0x100014f0 | 0x000014f0
-`GcoSetDesiredPosition` | 3 (0x3) | Exported Function | 0x100013d0 | 0x000013d0
+Function Name | Ordinal | Type
+-- | -- | --
+`GcoSetDesiredPosition` | 3 | Exported Function
+`GcoGetDesiredPosition` | 2 | Exported Function
+`GcoAddMessage` | 1 | Exported Function
 
 
 ## Signature

@@ -24,19 +24,19 @@ PE256 | `A363DFCBF0A95EF7B0C8C75CD33BF0ED6612CE3DDF7CA77A7748E7BB81F73473`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DpxCheckJobExists` | 1 (0x1) | Exported Function | 0x000000018004f280 | 0x0004f280
-`DpxCheckJobExistsEx` | 2 (0x2) | Exported Function | 0x000000018004f290 | 0x0004f290
-`DpxDeleteJob` | 3 (0x3) | Exported Function | 0x000000018004f2a0 | 0x0004f2a0
-`DpxDeleteJobEx` | 4 (0x4) | Exported Function | 0x000000018004f2b0 | 0x0004f2b0
-`DpxFreeMemory` | 5 (0x5) | Exported Function | 0x000000018004b9d0 | 0x0004b9d0
-`DpxNewJob` | 6 (0x6) | Exported Function | 0x0000000180048c40 | 0x00048c40
-`DpxNewJobEx` | 7 (0x7) | Exported Function | 0x000000018004f2c0 | 0x0004f2c0
-`DpxRestoreJob` | 8 (0x8) | Exported Function | 0x000000018004f2f0 | 0x0004f2f0
-`DpxRestoreJobEx` | 9 (0x9) | Exported Function | 0x000000018004f320 | 0x0004f320
-`DpxRestoreOrNewJob` | 10 (0xa) | Exported Function | 0x000000018004f350 | 0x0004f350
-`DpxRestoreOrNewJobEx` | 11 (0xb) | Exported Function | 0x000000018004f380 | 0x0004f380
+Function Name | Ordinal | Type
+-- | -- | --
+`DpxRestoreJob` | 8 | Exported Function
+`DpxNewJobEx` | 7 | Exported Function
+`DpxRestoreJobEx` | 9 | Exported Function
+`DpxRestoreOrNewJobEx` | 11 | Exported Function
+`DpxRestoreOrNewJob` | 10 | Exported Function
+`DpxNewJob` | 6 | Exported Function
+`DpxCheckJobExistsEx` | 2 | Exported Function
+`DpxCheckJobExists` | 1 | Exported Function
+`DpxDeleteJob` | 3 | Exported Function
+`DpxFreeMemory` | 5 | Exported Function
+`DpxDeleteJobEx` | 4 | Exported Function
 
 
 ## Signature

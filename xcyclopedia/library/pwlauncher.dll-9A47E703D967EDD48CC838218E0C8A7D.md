@@ -24,16 +24,16 @@ PE256 | `BBCFFBB34C391827EA1D582D51E4A4EF1349FB657CB6C5A4DE6302718A3031FD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x0000000180004500 | 0x00004500
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x0000000180004550 | 0x00004550
-`DllInstall` | 6 (0x6) | Exported Function | 0x00000001800048c0 | 0x000048c0
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x00000001800045d0 | 0x000045d0
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x0000000180004730 | 0x00004730
-`ProcessHibernateGroupPolicy` | 3 (0x3) | Exported Function | 0x0000000180008c70 | 0x00008c70
-`ProcessLauncherGroupPolicy` | 2 (0x2) | Exported Function | 0x0000000180008b40 | 0x00008b40
-`ShowPortableWorkspaceLauncherConfigurationUX` | 1 (0x1) | Exported Function | 0x0000000180008780 | 0x00008780
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessHibernateGroupPolicy` | 3 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`ShowPortableWorkspaceLauncherConfigurationUX` | 1 | Exported Function
+`ProcessLauncherGroupPolicy` | 2 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`DllInstall` | 6 | Exported Function
 
 
 ## Signature

@@ -24,44 +24,44 @@ PE256 | `97EB2537D30345DBC080C537709B6FA6D00B5E3EF8CFC9F6C4ADF42750848A43`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AcceptSecurityContext` | 2 (0x2) | Exported Function | SSPICLI.AcceptSecurityContext | 0x00069177
-`RevertSecurityContext` | 22 (0x16) | Exported Function | SSPICLI.RevertSecurityContext | 0x000695bd
-`SealMessage` | 23 (0x17) | Exported Function | SSPICLI.SealMessage | 0x000695e7
-`SpLsaModeInitialize` | 1 (0x1) | Exported Function | 0x58824290 | 0x00024290
-`SpUserModeInitialize` | 24 (0x18) | Exported Function | 0x58808970 | 0x00008970
-`SslCrackCertificate` | 25 (0x19) | Exported Function | 0x58839870 | 0x00039870
-`SslEmptyCacheA` | 26 (0x1a) | Exported Function | 0x5883dfa0 | 0x0003dfa0
-`QuerySecurityPackageInfoW` | 21 (0x15) | Exported Function | SSPICLI.QuerySecurityPackageInfoW | 0x00069585
-`SslEmptyCacheW` | 27 (0x1b) | Exported Function | 0x5883e010 | 0x0003e010
-`SslFreeCustomBuffer` | 29 (0x1d) | Exported Function | 0x58838aa0 | 0x00038aa0
-`SslGenerateRandomBits` | 30 (0x1e) | Exported Function | 0x58839ae0 | 0x00039ae0
-`SslGetExtensions` | 31 (0x1f) | Exported Function | 0x5883f290 | 0x0003f290
-`SslGetMaximumKeySize` | 32 (0x20) | Exported Function | 0x58839b00 | 0x00039b00
-`SslGetServerIdentity` | 33 (0x21) | Exported Function | 0x5883f690 | 0x0003f690
-`SslLoadCertificate` | 34 (0x22) | Exported Function | 0x5881ac00 | 0x0001ac00
-`SslFreeCertificate` | 28 (0x1c) | Exported Function | 0x58839ab0 | 0x00039ab0
-`QuerySecurityPackageInfoA` | 20 (0x14) | Exported Function | SSPICLI.QuerySecurityPackageInfoA | 0x00069549
-`QueryContextAttributesW` | 19 (0x13) | Exported Function | SSPICLI.QueryContextAttributesW | 0x0006950f
-`QueryContextAttributesA` | 18 (0x12) | Exported Function | SSPICLI.QueryContextAttributesA | 0x000694d7
-`AcquireCredentialsHandleA` | 3 (0x3) | Exported Function | SSPICLI.AcquireCredentialsHandleA | 0x000691af
-`AcquireCredentialsHandleW` | 4 (0x4) | Exported Function | SSPICLI.AcquireCredentialsHandleW | 0x000691eb
-`ApplyControlToken` | 5 (0x5) | Exported Function | SSPICLI.ApplyControlToken | 0x0006921f
-`CompleteAuthToken` | 6 (0x6) | Exported Function | SSPICLI.CompleteAuthToken | 0x0006924b
-`DeleteSecurityContext` | 7 (0x7) | Exported Function | SSPICLI.DeleteSecurityContext | 0x0006927b
-`EnumerateSecurityPackagesA` | 8 (0x8) | Exported Function | SSPICLI.EnumerateSecurityPackagesA | 0x000692b4
-`EnumerateSecurityPackagesW` | 9 (0x9) | Exported Function | SSPICLI.EnumerateSecurityPackagesW | 0x000692f2
-`FreeContextBuffer` | 10 (0xa) | Exported Function | SSPICLI.FreeContextBuffer | 0x00069327
-`FreeCredentialsHandle` | 11 (0xb) | Exported Function | SSPICLI.FreeCredentialsHandle | 0x00069357
-`ImpersonateSecurityContext` | 12 (0xc) | Exported Function | SSPICLI.ImpersonateSecurityContext | 0x00069390
-`InitializeSecurityContextA` | 15 (0xf) | Exported Function | SSPICLI.InitializeSecurityContextA | 0x0006943a
-`InitializeSecurityContextW` | 16 (0x10) | Exported Function | SSPICLI.InitializeSecurityContextW | 0x00069478
-`InitSecurityInterfaceA` | 13 (0xd) | Exported Function | SSPICLI.InitSecurityInterfaceA | 0x000693ca
-`InitSecurityInterfaceW` | 14 (0xe) | Exported Function | SSPICLI.InitSecurityInterfaceW | 0x00069400
-`MakeSignature` | 17 (0x11) | Exported Function | SSPICLI.MakeSignature | 0x000694a9
-`UnsealMessage` | 35 (0x23) | Exported Function | SSPICLI.UnsealMessage | 0x000696db
-`VerifySignature` | 36 (0x24) | Exported Function | SSPICLI.VerifySignature | 0x00069701
+Function Name | Ordinal | Type
+-- | -- | --
+`SslCrackCertificate` | 25 | Exported Function
+`SpUserModeInitialize` | 24 | Exported Function
+`SslEmptyCacheW` | 27 | Exported Function
+`SslEmptyCacheA` | 26 | Exported Function
+`SpLsaModeInitialize` | 1 | Exported Function
+`QuerySecurityPackageInfoW` | 21 | Exported Function
+`QuerySecurityPackageInfoA` | 20 | Exported Function
+`SealMessage` | 23 | Exported Function
+`RevertSecurityContext` | 22 | Exported Function
+`SslLoadCertificate` | 34 | Exported Function
+`SslGetServerIdentity` | 33 | Exported Function
+`VerifySignature` | 36 | Exported Function
+`UnsealMessage` | 35 | Exported Function
+`SslGetMaximumKeySize` | 32 | Exported Function
+`SslFreeCustomBuffer` | 29 | Exported Function
+`SslFreeCertificate` | 28 | Exported Function
+`SslGetExtensions` | 31 | Exported Function
+`SslGenerateRandomBits` | 30 | Exported Function
+`EnumerateSecurityPackagesA` | 8 | Exported Function
+`DeleteSecurityContext` | 7 | Exported Function
+`FreeContextBuffer` | 10 | Exported Function
+`EnumerateSecurityPackagesW` | 9 | Exported Function
+`CompleteAuthToken` | 6 | Exported Function
+`AcquireCredentialsHandleA` | 3 | Exported Function
+`AcceptSecurityContext` | 2 | Exported Function
+`ApplyControlToken` | 5 | Exported Function
+`AcquireCredentialsHandleW` | 4 | Exported Function
+`MakeSignature` | 17 | Exported Function
+`InitSecurityInterfaceW` | 14 | Exported Function
+`QueryContextAttributesW` | 19 | Exported Function
+`QueryContextAttributesA` | 18 | Exported Function
+`InitSecurityInterfaceA` | 13 | Exported Function
+`ImpersonateSecurityContext` | 12 | Exported Function
+`FreeCredentialsHandle` | 11 | Exported Function
+`InitializeSecurityContextW` | 16 | Exported Function
+`InitializeSecurityContextA` | 15 | Exported Function
 
 
 ## Signature

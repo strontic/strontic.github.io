@@ -1,0 +1,55 @@
+﻿---
+title: MICROSOFT.DATA.RECOMMENDATION.CLIENT.CORE.DLL | Client.Core
+excerpt: What is MICROSOFT.DATA.RECOMMENDATION.CLIENT.CORE.DLL?
+---
+
+# MICROSOFT.DATA.RECOMMENDATION.CLIENT.CORE.DLL 
+
+* File Path: `C:\Program Files (x86)\Microsoft Office\root\Office16\ADDINS\Power Map Excel Add-in\MICROSOFT.DATA.RECOMMENDATION.CLIENT.CORE.DLL`
+* Description: Client.Core
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `A919FDB7B9B8AB3C539FA2556C070C03`
+SHA1 | `CDE7BFB79C4260BFCE65BD35663738291C17824F`
+SHA256 | `D204464C0749C17D3F9458F65B1AD95DDF2D6E0458BA6FA751418A091C5EC4AC`
+SHA384 | `C5B0BFB75B2CD1AFD49DCE32B1B276FED6884B2996F6BF450D004BE8F53D955F29DF29C119CB73D23ACA138336CB800C`
+SHA512 | `8D45D141D517E679943B1EA14B6D9BA47E924E46B692B538B828A9EC57E4A50799022871E6593BCA3AFB5554A7293A326614BA30D34D5A9046448559924B2CB0`
+SSDEEP | `49152:WzLr6iAZyDuSXwoR4w8yZ6sm3RkQpr5dmujTzSLgCS:t`
+IMP | `DAE02F32A21E03CE65412F6E56942DAA`
+PESHA1 | `B7D05F1A5A97F2DA5F021FC182296293B4ACFD5D`
+PE256 | `FFED2E6C919748AC210B36C2E59E6BCD9C03F46D1BA2C01AA1622304B7EAF205`
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000000B011AF0A8BD03B9FDD0001000000B0`
+* Thumbprint: `108E2BA23632620C427C570B6D9DB51AC31387FE`
+* Issuer: CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: Microsoft.Data.Recommendation.Client.Core.dll
+* Product Name: Microsoft SQL Server
+* Company Name: Microsoft Corporation
+* File Version: 2011.0110.2213.85 ((orlando).131111-1334)
+* Product Version: 11.0.2213.85
+* Language: Language Neutral
+* Legal Copyright: Microsoft Corp. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/d204464c0749c17d3f9458f65b1ad95ddf2d6e0458ba6fa751418a091c5ec4ac/detection/
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

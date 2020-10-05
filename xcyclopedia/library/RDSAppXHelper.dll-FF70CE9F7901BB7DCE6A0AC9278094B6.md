@@ -24,11 +24,11 @@ PE256 | `DD9A2AE38E629A9175C0D40A3D2709BB8F5D22924658246FE7609A367B95BC53`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DestroyAppXHelper` | 1 (0x1) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`GetInstanceOfAppXPackageManager` | 2 (0x2) | Exported Function | 0x0000000180003130 | 0x00003130
-`InitializeAppXHelper` | 3 (0x3) | Exported Function | 0x0000000180001360 | 0x00001360
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializeAppXHelper` | 3 | Exported Function
+`GetInstanceOfAppXPackageManager` | 2 | Exported Function
+`DestroyAppXHelper` | 1 | Exported Function
 
 
 ## Signature

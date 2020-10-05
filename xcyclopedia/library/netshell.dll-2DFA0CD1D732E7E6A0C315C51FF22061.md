@@ -24,21 +24,21 @@ PE256 | `0D6CE336A37BCC1BFF98CEB1D072E5DC70F01A8355B73D1FE2093300B5FE1727`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x7460f9e0 | 0x0000f9e0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x7460fa10 | 0x0000fa10
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x7460fa90 | 0x0000fa90
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x7460fa90 | 0x0000fa90
-`HrCreateDesktopIcon` | 5 (0x5) | Exported Function | 0x7460fae0 | 0x0000fae0
-`HrGetIconFromMediaType` | 6 (0x6) | Exported Function | 0x7460fea0 | 0x0000fea0
-`HrGetIconFromMediaTypeEx` | 7 (0x7) | Exported Function | 0x7460fef0 | 0x0000fef0
-`HrLaunchConnection` | 8 (0x8) | Exported Function | 0x7460fbc0 | 0x0000fbc0
-`HrLaunchConnectionEx` | 9 (0x9) | Exported Function | 0x7460fca0 | 0x0000fca0
-`HrRenameConnection` | 10 (0xa) | Exported Function | 0x7460fde0 | 0x0000fde0
-`NcFreeNetconProperties` | 11 (0xb) | Exported Function | 0x7460faa0 | 0x0000faa0
-`NcIsValidConnectionName` | 12 (0xc) | Exported Function | 0x7460fac0 | 0x0000fac0
-`StartNCW` | 13 (0xd) | Exported Function | 0x7460ff20 | 0x0000ff20
+Function Name | Ordinal | Type
+-- | -- | --
+`HrRenameConnection` | 10 | Exported Function
+`HrLaunchConnectionEx` | 9 | Exported Function
+`HrLaunchConnection` | 8 | Exported Function
+`StartNCW` | 13 | Exported Function
+`NcIsValidConnectionName` | 12 | Exported Function
+`NcFreeNetconProperties` | 11 | Exported Function
+`HrGetIconFromMediaTypeEx` | 7 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`HrGetIconFromMediaType` | 6 | Exported Function
+`HrCreateDesktopIcon` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

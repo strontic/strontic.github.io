@@ -24,11 +24,11 @@ PE256 | `01DC7738431C8AE633BC12AFB829BCC59AB0CC95E71CEF8FFFAAE3B1F261A5CB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Sysprep_Generalize_Bcd` | 1 (0x1) | Exported Function | 0x00000001800010c0 | 0x000010c0
-`Sysprep_Offline_Specialize_Bcd` | 2 (0x2) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`Sysprep_Online_Specialize_Bcd` | 3 (0x3) | Exported Function | 0x00000001800014c0 | 0x000014c0
+Function Name | Ordinal | Type
+-- | -- | --
+`Sysprep_Online_Specialize_Bcd` | 3 | Exported Function
+`Sysprep_Offline_Specialize_Bcd` | 2 | Exported Function
+`Sysprep_Generalize_Bcd` | 1 | Exported Function
 
 
 ## Signature

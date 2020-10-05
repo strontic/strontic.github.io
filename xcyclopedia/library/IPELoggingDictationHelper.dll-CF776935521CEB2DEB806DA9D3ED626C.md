@@ -24,9 +24,9 @@ PE256 | `E99A9C2DA75B6AE5E93BF06B54FA9D1FD4062C55FDF5FDDBEEB2669C0F94EFB9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetIPELoggingHelper` | 1 (0x1) | Exported Function | 0x10002890 | 0x00002890
+Function Name | Ordinal | Type
+-- | -- | --
+`GetIPELoggingHelper` | 1 | Exported Function
 
 
 ## Signature

@@ -24,23 +24,23 @@ PE256 | `37FEBA34703F42AD2E334006ADFA7FF978FCFA811531F244D90A36E26F116021`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 15 (0xf) | Exported Function | 0x0000000180001e20 | 0x00001e20
-`FaxComposeFreeBuffer` | 1 (0x1) | Exported Function | 0x0000000180001d10 | 0x00001d10
-`HrAddressBookPreTranslateAccelerator` | 2 (0x2) | Exported Function | 0x0000000180001470 | 0x00001470
-`HrDeInitAddressBook` | 3 (0x3) | Exported Function | 0x0000000180001280 | 0x00001280
-`HrDeinitComposeFormDll` | 4 (0x4) | Exported Function | 0x00000001800010c0 | 0x000010c0
-`HrFaxComposePreTranslateAccelerator` | 5 (0x5) | Exported Function | 0x0000000180001ca0 | 0x00001ca0
-`HrFreeDraftsListViewInfo` | 6 (0x6) | Exported Function | 0x0000000180001bb0 | 0x00001bb0
-`HrGetDraftsListViewInfo` | 7 (0x7) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`HrInitAddressBook` | 8 (0x8) | Exported Function | 0x0000000180001220 | 0x00001220
-`HrInitComposeFormDll` | 9 (0x9) | Exported Function | 0x00000001800010b0 | 0x000010b0
-`HrInvokeAddressBook` | 10 (0xa) | Exported Function | 0x0000000180001560 | 0x00001560
-`HrNewFaxComposeUI` | 11 (0xb) | Exported Function | 0x00000001800016a0 | 0x000016a0
-`HrNewFaxComposeUIFromFile` | 12 (0xc) | Exported Function | 0x0000000180001740 | 0x00001740
-`HrNewTiffViewUIFromFile` | 13 (0xd) | Exported Function | 0x0000000180001780 | 0x00001780
-`HrSelectEmailRecipient` | 14 (0xe) | Exported Function | 0x0000000180001320 | 0x00001320
+Function Name | Ordinal | Type
+-- | -- | --
+`HrInvokeAddressBook` | 10 | Exported Function
+`HrInitComposeFormDll` | 9 | Exported Function
+`HrInitAddressBook` | 8 | Exported Function
+`HrNewFaxComposeUI` | 11 | Exported Function
+`HrSelectEmailRecipient` | 14 | Exported Function
+`HrNewTiffViewUIFromFile` | 13 | Exported Function
+`HrNewFaxComposeUIFromFile` | 12 | Exported Function
+`HrGetDraftsListViewInfo` | 7 | Exported Function
+`HrAddressBookPreTranslateAccelerator` | 2 | Exported Function
+`FaxComposeFreeBuffer` | 1 | Exported Function
+`DllMain` | 15 | Exported Function
+`HrDeInitAddressBook` | 3 | Exported Function
+`HrFreeDraftsListViewInfo` | 6 | Exported Function
+`HrFaxComposePreTranslateAccelerator` | 5 | Exported Function
+`HrDeinitComposeFormDll` | 4 | Exported Function
 
 
 ## Signature

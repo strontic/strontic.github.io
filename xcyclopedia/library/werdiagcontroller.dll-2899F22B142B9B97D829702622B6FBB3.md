@@ -24,11 +24,11 @@ PE256 | `DD4E951EAAA7375DBAF23767E4CBF48F629CBCAABF8CAB7AE69F5977FF28D3AD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`QueryOriginalBucket` | 1 (0x1) | Exported Function | 0x0000000180002110 | 0x00002110
-`StartAppRecorder` | 2 (0x2) | Exported Function | 0x0000000180002270 | 0x00002270
-`StartFDR` | 3 (0x3) | Exported Function | 0x0000000180003060 | 0x00003060
+Function Name | Ordinal | Type
+-- | -- | --
+`StartFDR` | 3 | Exported Function
+`StartAppRecorder` | 2 | Exported Function
+`QueryOriginalBucket` | 1 | Exported Function
 
 
 ## Signature

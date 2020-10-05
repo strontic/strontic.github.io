@@ -24,14 +24,14 @@ PE256 | `17CCC3D76445D2231ED0CB5DEAA27791FFDDC95EA2113D83567649901E2B0613`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AuthzGetAccountType` | 4 (0x4) | Exported Function | 0x0000000180004030 | 0x00004030
-`AuthzRequestTicketWithoutWindow` | 6 (0x6) | Exported Function | 0x0000000180003e40 | 0x00003e40
-`AuthzRequestTicketWithWindow` | 5 (0x5) | Exported Function | 0x0000000180003c10 | 0x00003c10
-`GetAccountType` | 1 (0x1) | Exported Function | 0x0000000180004ba0 | 0x00004ba0
-`RequestTicketWithoutWindow` | 3 (0x3) | Exported Function | 0x0000000180004b30 | 0x00004b30
-`RequestTicketWithWindow` | 2 (0x2) | Exported Function | 0x0000000180004ac0 | 0x00004ac0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetAccountType` | 1 | Exported Function
+`RequestTicketWithoutWindow` | 3 | Exported Function
+`RequestTicketWithWindow` | 2 | Exported Function
+`AuthzGetAccountType` | 4 | Exported Function
+`AuthzRequestTicketWithoutWindow` | 6 | Exported Function
+`AuthzRequestTicketWithWindow` | 5 | Exported Function
 
 
 ## Signature

@@ -24,19 +24,19 @@ PE256 | `98F4FC7CDCFAE6DD038290553A7B8FF5265AE652755D6F74510E5E98736FE4FD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDataCacheZ` | 2 (0x2) | Exported Function | 0x0000000180001eb0 | 0x00001eb0
-`CreateServerRequestsZ` | 3 (0x3) | Exported Function | 0x0000000180010f80 | 0x00010f80
-`LoadPropertyPageData` | 11 (0xb) | Exported Function | 0x000000018000e720 | 0x0000e720
-`public: __int64 __cdecl CDMNodeObj::GetLdmObjectId(void) __ptr64` | 5 (0x5) | Exported Function | 0x0000000180001260 | 0x00001260
-`public: class CString __cdecl CDataCache::GetServerName(void) __ptr64` | 9 (0x9) | Exported Function | 0x0000000180001430 | 0x00001430
-`public: class CWnd * __ptr64 __cdecl CTaskData::GetOcxFrameCWndPtr(void) __ptr64` | 7 (0x7) | Exported Function | 0x0000000180001480 | 0x00001480
-`public: unsigned long __cdecl CDataCache::GetDiskCount(void) __ptr64` | 4 (0x4) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`public: unsigned long __cdecl CDataCache::GetVolumeCount(void) __ptr64` | 10 (0xa) | Exported Function | 0x00000001800012b0 | 0x000012b0
-`public: unsigned long __cdecl CDMNodeObj::GetNumMembers(void) __ptr64` | 6 (0x6) | Exported Function | 0x0000000180001290 | 0x00001290
-`public: void __cdecl CDataCache::AddLDMObjMapEntry(struct _LDM_OBJ_MAP_ENTRY * __ptr64) __ptr64` | 1 (0x1) | Exported Function | 0x00000001800012c0 | 0x000012c0
-`public: void __cdecl CTaskData::GetRegionColorStructPtr(struct _REGION_COLORS * __ptr64 * __ptr64,int & __ptr64) __ptr64` | 8 (0x8) | Exported Function | 0x0000000180001490 | 0x00001490
+Function Name | Ordinal | Type
+-- | -- | --
+`public: unsigned long __cdecl CDataCache::GetVolumeCount(void) __ptr64` | 10 | Exported Function
+`public: unsigned long __cdecl CDataCache::GetDiskCount(void) __ptr64` | 4 | Exported Function
+`public: unsigned long __cdecl CDMNodeObj::GetNumMembers(void) __ptr64` | 6 | Exported Function
+`public: void __cdecl CTaskData::GetRegionColorStructPtr(struct _REGION_COLORS * __ptr64 * __ptr64,int & __ptr64) __ptr64` | 8 | Exported Function
+`public: void __cdecl CDataCache::AddLDMObjMapEntry(struct _LDM_OBJ_MAP_ENTRY * __ptr64) __ptr64` | 1 | Exported Function
+`public: class CWnd * __ptr64 __cdecl CTaskData::GetOcxFrameCWndPtr(void) __ptr64` | 7 | Exported Function
+`CreateServerRequestsZ` | 3 | Exported Function
+`CreateDataCacheZ` | 2 | Exported Function
+`LoadPropertyPageData` | 11 | Exported Function
+`public: class CString __cdecl CDataCache::GetServerName(void) __ptr64` | 9 | Exported Function
+`public: __int64 __cdecl CDMNodeObj::GetLdmObjectId(void) __ptr64` | 5 | Exported Function
 
 
 ## Signature

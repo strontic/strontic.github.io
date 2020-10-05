@@ -24,13 +24,13 @@ PE256 | `42A5B4AF807291B5D6410CE2C2F76FC86EFC25AA7A9306C4FCCC7965A5C6E3E6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x100049e0 | 0x000049e0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10004920 | 0x00004920
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x10004a00 | 0x00004a00
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x10004a00 | 0x00004a00
-`ShowPasswordDialog` | 1 (0x1) | Exported Function | 0x10004bb0 | 0x00004bb0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 5 | Exported Function
+`ShowPasswordDialog` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

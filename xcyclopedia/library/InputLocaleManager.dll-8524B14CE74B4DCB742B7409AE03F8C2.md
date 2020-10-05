@@ -24,9 +24,9 @@ PE256 | `D8ED1E3C2C27B8139DEB7201C961FCF680557F85A8056B04511C5136977149B9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InputLocaleManagerCreate` | 1 (0x1) | Exported Function | 0x000000014f905420 | 0x00005420
+Function Name | Ordinal | Type
+-- | -- | --
+`InputLocaleManagerCreate` | 1 | Exported Function
 
 
 ## Signature

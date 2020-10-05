@@ -24,24 +24,24 @@ PE256 | `B6F33D5FBB14CC3A0D873E0E32AFC31B5856F0ECA4977A0E9A14BBC3A5765CD6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Base64StrToSafeArray` | 1 (0x1) | Exported Function | 0x00000001800015c0 | 0x000015c0
-`ByteArrayToSafeArray` | 2 (0x2) | Exported Function | 0x0000000180001390 | 0x00001390
-`MultiStringToSafeArray` | 3 (0x3) | Exported Function | 0x00000001800017d0 | 0x000017d0
-`ReadBSTRFromStream` | 4 (0x4) | Exported Function | 0x0000000180002130 | 0x00002130
-`ReadBSTRFromStreamEx` | 5 (0x5) | Exported Function | 0x0000000180002000 | 0x00002000
-`ReadStringFromStream` | 6 (0x6) | Exported Function | 0x0000000180001dc0 | 0x00001dc0
-`ReadVariantFromStream` | 7 (0x7) | Exported Function | 0x0000000180002a20 | 0x00002a20
-`ReadVariantFromStreamEx` | 8 (0x8) | Exported Function | 0x0000000180002810 | 0x00002810
-`SafeArrayToBase64Str` | 9 (0x9) | Exported Function | 0x0000000180001700 | 0x00001700
-`SafeArrayToByteArray` | 10 (0xa) | Exported Function | 0x00000001800014a0 | 0x000014a0
-`SafeArrayToMultiString` | 11 (0xb) | Exported Function | 0x00000001800019d0 | 0x000019d0
-`WriteBSTRToStream` | 12 (0xc) | Exported Function | 0x0000000180001ff0 | 0x00001ff0
-`WriteBSTRToStreamEx` | 13 (0xd) | Exported Function | 0x0000000180001f10 | 0x00001f10
-`WriteStringToStream` | 14 (0xe) | Exported Function | 0x0000000180001c70 | 0x00001c70
-`WriteVariantToStream` | 15 (0xf) | Exported Function | 0x0000000180002800 | 0x00002800
-`WriteVariantToStreamEx` | 16 (0x10) | Exported Function | 0x0000000180002600 | 0x00002600
+Function Name | Ordinal | Type
+-- | -- | --
+`SafeArrayToMultiString` | 11 | Exported Function
+`WriteBSTRToStream` | 12 | Exported Function
+`SafeArrayToBase64Str` | 9 | Exported Function
+`SafeArrayToByteArray` | 10 | Exported Function
+`WriteVariantToStream` | 15 | Exported Function
+`WriteVariantToStreamEx` | 16 | Exported Function
+`WriteBSTRToStreamEx` | 13 | Exported Function
+`WriteStringToStream` | 14 | Exported Function
+`MultiStringToSafeArray` | 3 | Exported Function
+`ReadBSTRFromStream` | 4 | Exported Function
+`Base64StrToSafeArray` | 1 | Exported Function
+`ByteArrayToSafeArray` | 2 | Exported Function
+`ReadVariantFromStream` | 7 | Exported Function
+`ReadVariantFromStreamEx` | 8 | Exported Function
+`ReadBSTRFromStreamEx` | 5 | Exported Function
+`ReadStringFromStream` | 6 | Exported Function
 
 
 ## Signature

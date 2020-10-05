@@ -24,81 +24,81 @@ PE256 | `DB46D057A773FFD5BE769C5EE20B8ECA70473DEBEF9E697EB288B547B18A542A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180001070 | 0x00001070
-`UnattendCtxSetString` | 52 (0x34) | Exported Function | 0x00000001800017d0 | 0x000017d0
-`UnattendCtxSetNodeName` | 51 (0x33) | Exported Function | 0x0000000180003af0 | 0x00003af0
-`UnattendCtxSerializeToStreamFromNode` | 50 (0x32) | Exported Function | 0x0000000180004740 | 0x00004740
-`UnattendCtxSerializeToStream` | 49 (0x31) | Exported Function | 0x00000001800046b0 | 0x000046b0
-`UnattendCtxSerializeToBufferFromNode` | 48 (0x30) | Exported Function | 0x0000000180002540 | 0x00002540
-`UnattendCtxSerializeToBuffer` | 47 (0x2f) | Exported Function | 0x00000001800016c0 | 0x000016c0
-`UnattendCtxSetStringByNode` | 53 (0x35) | Exported Function | 0x0000000180003b40 | 0x00003b40
-`UnattendCtxSerializeSettingsStream` | 46 (0x2e) | Exported Function | 0x00000001800047c0 | 0x000047c0
-`UnattendCtxReplaceNode` | 44 (0x2c) | Exported Function | 0x0000000180003bb0 | 0x00003bb0
-`UnattendCtxReplaceMatchedNodesWithText` | 43 (0x2b) | Exported Function | 0x0000000180003680 | 0x00003680
-`UnattendCtxRemoveNode` | 42 (0x2a) | Exported Function | 0x00000001800038a0 | 0x000038a0
-`UnattendCtxRemoveAttr` | 41 (0x29) | Exported Function | 0x00000001800038f0 | 0x000038f0
-`UnattendCtxPrettyPrint` | 40 (0x28) | Exported Function | 0x00000001800025a0 | 0x000025a0
-`UnattendCtxOpenNodeByNode` | 39 (0x27) | Exported Function | 0x0000000180002210 | 0x00002210
-`UnattendCtxSerialize` | 45 (0x2d) | Exported Function | 0x0000000180001620 | 0x00001620
-`UnattendCtxSpliceTrees` | 54 (0x36) | Exported Function | 0x0000000180003e70 | 0x00003e70
-`UnattendDeserializeWithResults` | 55 (0x37) | Exported Function | 0x0000000180001080 | 0x00001080
-`UnattendEnumFree` | 56 (0x38) | Exported Function | 0x0000000180002c50 | 0x00002c50
-`UnattendIsPassUnusedInCtx` | 71 (0x47) | Exported Function | 0x00000001800065b0 | 0x000065b0
-`UnattendIsNodeValid` | 70 (0x46) | Exported Function | 0x00000001800022e0 | 0x000022e0
-`UnattendGetString` | 69 (0x45) | Exported Function | 0x00000001800011b0 | 0x000011b0
-`UnattendGetImplicitContext` | 68 (0x44) | Exported Function | 0x0000000180001120 | 0x00001120
-`UnattendGetFlag` | 67 (0x43) | Exported Function | 0x0000000180001220 | 0x00001220
-`UnattendGetFirstFailingSetting` | 66 (0x42) | Exported Function | 0x0000000180004060 | 0x00004060
-`UnattendGetCount` | 65 (0x41) | Exported Function | 0x0000000180001140 | 0x00001140
-`UnattendFreeSetting` | 64 (0x40) | Exported Function | 0x00000001800041f0 | 0x000041f0
-`UnattendFreeResults` | 63 (0x3f) | Exported Function | 0x0000000180004390 | 0x00004390
-`UnattendFreeNode` | 62 (0x3e) | Exported Function | 0x0000000180002300 | 0x00002300
-`UnattendFormatPath` | 61 (0x3d) | Exported Function | 0x00000001800043c0 | 0x000043c0
-`UnattendFindFileFromCmdLine` | 60 (0x3c) | Exported Function | 0x00000001800063e0 | 0x000063e0
-`UnattendFindAnswerFileWithResults` | 59 (0x3b) | Exported Function | 0x0000000180004f60 | 0x00004f60
-`UnattendFindAnswerFileSkipPantherFolder` | 58 (0x3a) | Exported Function | 0x0000000180005050 | 0x00005050
-`UnattendFindAnswerFile` | 57 (0x39) | Exported Function | 0x0000000180004a90 | 0x00004a90
-`UnattendCtxOpenNode` | 38 (0x26) | Exported Function | 0x0000000180002110 | 0x00002110
-`UnattendMarkPassUsedInCtx` | 72 (0x48) | Exported Function | 0x0000000180006510 | 0x00006510
-`UnattendCtxGetUlongByNode` | 37 (0x25) | Exported Function | 0x0000000180002f90 | 0x00002f90
-`UnattendCtxGetStringByNode` | 35 (0x23) | Exported Function | 0x0000000180002e00 | 0x00002e00
-`UnattendCtxDeserializeWithResults` | 15 (0xf) | Exported Function | 0x0000000180001270 | 0x00001270
-`UnattendCtxDeserializeString` | 14 (0xe) | Exported Function | 0x0000000180001500 | 0x00001500
-`UnattendCtxDeserializeFile` | 13 (0xd) | Exported Function | 0x00000001800013d0 | 0x000013d0
-`UnattendCtxDeserializeBuffer` | 12 (0xc) | Exported Function | 0x0000000180001540 | 0x00001540
-`UnattendCtxDeserialize` | 11 (0xb) | Exported Function | 0x0000000180001260 | 0x00001260
-`UnattendCtxCompareNodes` | 10 (0xa) | Exported Function | 0x0000000180001be0 | 0x00001be0
-`UnattendCtxEnumGet` | 16 (0x10) | Exported Function | 0x0000000180002cd0 | 0x00002cd0
-`UnattendCtxCommitModify` | 9 (0x9) | Exported Function | 0x00000001800035c0 | 0x000035c0
-`UnattendCtxCancelModify` | 7 (0x7) | Exported Function | 0x00000001800035e0 | 0x000035e0
-`UnattendCtxBeginModify` | 6 (0x6) | Exported Function | 0x0000000180003540 | 0x00003540
-`UnattendCtxAddOrModifyNodeText` | 5 (0x5) | Exported Function | 0x0000000180003630 | 0x00003630
-`UnattendCleanup` | 4 (0x4) | Exported Function | 0x00000001800010a0 | 0x000010a0
-`UnattendAddResults` | 3 (0x3) | Exported Function | 0x00000001800042e0 | 0x000042e0
-`DllMain` | 2 (0x2) | Exported Function | 0x0000000180001040 | 0x00001040
-`UnattendCtxCleanup` | 8 (0x8) | Exported Function | 0x0000000180001740 | 0x00001740
-`UnattendCtxEnumOrderedSubNodes` | 17 (0x11) | Exported Function | 0x0000000180002a60 | 0x00002a60
-`UnattendCtxGetCount` | 18 (0x12) | Exported Function | 0x0000000180001820 | 0x00001820
-`UnattendCtxGetCountByNode` | 19 (0x13) | Exported Function | 0x0000000180002d80 | 0x00002d80
-`UnattendCtxGetString` | 34 (0x22) | Exported Function | 0x0000000180001890 | 0x00001890
-`UnattendCtxGetShowUIFromNode` | 33 (0x21) | Exported Function | 0x00000001800030b0 | 0x000030b0
-`UnattendCtxGetShowUI` | 32 (0x20) | Exported Function | 0x0000000180001a80 | 0x00001a80
-`UnattendCtxGetRootNode` | 31 (0x1f) | Exported Function | 0x0000000180003260 | 0x00003260
-`UnattendCtxGetNodeValue` | 30 (0x1e) | Exported Function | 0x00000001800024f0 | 0x000024f0
-`UnattendCtxGetNodeChild` | 29 (0x1d) | Exported Function | 0x0000000180002430 | 0x00002430
-`UnattendCtxGetNodeAttr` | 28 (0x1c) | Exported Function | 0x0000000180002380 | 0x00002380
-`UnattendCtxGetLongByNode` | 27 (0x1b) | Exported Function | 0x0000000180002ef0 | 0x00002ef0
-`UnattendCtxGetLong` | 26 (0x1a) | Exported Function | 0x0000000180001930 | 0x00001930
-`UnattendCtxGetFlagByNode` | 25 (0x19) | Exported Function | 0x0000000180003030 | 0x00003030
-`UnattendCtxGetFlag` | 24 (0x18) | Exported Function | 0x00000001800019f0 | 0x000019f0
-`UnattendCtxGetExpandedStringByNode` | 23 (0x17) | Exported Function | 0x0000000180002e30 | 0x00002e30
-`UnattendCtxGetExpandedString` | 22 (0x16) | Exported Function | 0x00000001800018c0 | 0x000018c0
-`UnattendCtxGetEnumValueByNode` | 21 (0x15) | Exported Function | 0x0000000180003060 | 0x00003060
-`UnattendCtxGetEnumValue` | 20 (0x14) | Exported Function | 0x0000000180001a30 | 0x00001a30
-`UnattendCtxGetUlong` | 36 (0x24) | Exported Function | 0x0000000180001990 | 0x00001990
-`UnattendUsedPassesExistInCtx` | 73 (0x49) | Exported Function | 0x0000000180006690 | 0x00006690
+Function Name | Ordinal | Type
+-- | -- | --
+`UnattendCtxSerializeToStream` | 49 | Exported Function
+`UnattendCtxSerializeToStreamFromNode` | 50 | Exported Function
+`UnattendCtxSerializeToBuffer` | 47 | Exported Function
+`UnattendCtxSerializeToBufferFromNode` | 48 | Exported Function
+`UnattendCtxSetNodeName` | 51 | Exported Function
+`UnattendCtxSpliceTrees` | 54 | Exported Function
+`UnattendDeserializeWithResults` | 55 | Exported Function
+`UnattendCtxSetString` | 52 | Exported Function
+`UnattendCtxSetStringByNode` | 53 | Exported Function
+`UnattendCtxPrettyPrint` | 40 | Exported Function
+`UnattendCtxRemoveAttr` | 41 | Exported Function
+`UnattendCtxOpenNode` | 38 | Exported Function
+`UnattendCtxOpenNodeByNode` | 39 | Exported Function
+`UnattendCtxRemoveNode` | 42 | Exported Function
+`UnattendCtxSerialize` | 45 | Exported Function
+`UnattendCtxSerializeSettingsStream` | 46 | Exported Function
+`UnattendCtxReplaceMatchedNodesWithText` | 43 | Exported Function
+`UnattendCtxReplaceNode` | 44 | Exported Function
+`UnattendGetFlag` | 67 | Exported Function
+`UnattendGetImplicitContext` | 68 | Exported Function
+`UnattendGetCount` | 65 | Exported Function
+`UnattendGetFirstFailingSetting` | 66 | Exported Function
+`UnattendGetString` | 69 | Exported Function
+`UnattendMarkPassUsedInCtx` | 72 | Exported Function
+`UnattendUsedPassesExistInCtx` | 73 | Exported Function
+`UnattendIsNodeValid` | 70 | Exported Function
+`UnattendIsPassUnusedInCtx` | 71 | Exported Function
+`UnattendFindAnswerFileSkipPantherFolder` | 58 | Exported Function
+`UnattendFindAnswerFileWithResults` | 59 | Exported Function
+`UnattendEnumFree` | 56 | Exported Function
+`UnattendFindAnswerFile` | 57 | Exported Function
+`UnattendFindFileFromCmdLine` | 60 | Exported Function
+`UnattendFreeResults` | 63 | Exported Function
+`UnattendFreeSetting` | 64 | Exported Function
+`UnattendFormatPath` | 61 | Exported Function
+`UnattendFreeNode` | 62 | Exported Function
+`UnattendCtxGetUlongByNode` | 37 | Exported Function
+`UnattendCtxDeserializeBuffer` | 12 | Exported Function
+`UnattendCtxDeserializeFile` | 13 | Exported Function
+`UnattendCtxCompareNodes` | 10 | Exported Function
+`UnattendCtxDeserialize` | 11 | Exported Function
+`UnattendCtxDeserializeString` | 14 | Exported Function
+`UnattendCtxEnumOrderedSubNodes` | 17 | Exported Function
+`UnattendCtxGetCount` | 18 | Exported Function
+`UnattendCtxDeserializeWithResults` | 15 | Exported Function
+`UnattendCtxEnumGet` | 16 | Exported Function
+`UnattendAddResults` | 3 | Exported Function
+`UnattendCleanup` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllMain` | 2 | Exported Function
+`UnattendCtxAddOrModifyNodeText` | 5 | Exported Function
+`UnattendCtxCleanup` | 8 | Exported Function
+`UnattendCtxCommitModify` | 9 | Exported Function
+`UnattendCtxBeginModify` | 6 | Exported Function
+`UnattendCtxCancelModify` | 7 | Exported Function
+`UnattendCtxGetNodeValue` | 30 | Exported Function
+`UnattendCtxGetRootNode` | 31 | Exported Function
+`UnattendCtxGetNodeAttr` | 28 | Exported Function
+`UnattendCtxGetNodeChild` | 29 | Exported Function
+`UnattendCtxGetShowUI` | 32 | Exported Function
+`UnattendCtxGetStringByNode` | 35 | Exported Function
+`UnattendCtxGetUlong` | 36 | Exported Function
+`UnattendCtxGetShowUIFromNode` | 33 | Exported Function
+`UnattendCtxGetString` | 34 | Exported Function
+`UnattendCtxGetEnumValueByNode` | 21 | Exported Function
+`UnattendCtxGetExpandedString` | 22 | Exported Function
+`UnattendCtxGetCountByNode` | 19 | Exported Function
+`UnattendCtxGetEnumValue` | 20 | Exported Function
+`UnattendCtxGetExpandedStringByNode` | 23 | Exported Function
+`UnattendCtxGetLong` | 26 | Exported Function
+`UnattendCtxGetLongByNode` | 27 | Exported Function
+`UnattendCtxGetFlag` | 24 | Exported Function
+`UnattendCtxGetFlagByNode` | 25 | Exported Function
 
 
 ## Signature

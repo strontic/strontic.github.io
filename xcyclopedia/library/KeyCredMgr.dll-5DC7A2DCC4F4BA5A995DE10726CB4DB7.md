@@ -24,12 +24,12 @@ PE256 | `ED7BD7DA947A63048D2AF9CFD2C59F96190286C41E1D53B88C5B67112A01E40C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`KeyCredentialManagerFreeInformation` | 1 (0x1) | Exported Function | 0x100048a0 | 0x000048a0
-`KeyCredentialManagerGetInformation` | 2 (0x2) | Exported Function | 0x100047a0 | 0x000047a0
-`KeyCredentialManagerGetOperationErrorStates` | 3 (0x3) | Exported Function | 0x10004490 | 0x00004490
-`KeyCredentialManagerShowUIOperation` | 4 (0x4) | Exported Function | 0x100045e0 | 0x000045e0
+Function Name | Ordinal | Type
+-- | -- | --
+`KeyCredentialManagerGetOperationErrorStates` | 3 | Exported Function
+`KeyCredentialManagerShowUIOperation` | 4 | Exported Function
+`KeyCredentialManagerFreeInformation` | 1 | Exported Function
+`KeyCredentialManagerGetInformation` | 2 | Exported Function
 
 
 ## Signature

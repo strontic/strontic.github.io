@@ -24,9 +24,9 @@ PE256 | `5E02C027FF8242F7994ACFCF9E0F715E2CE13666B4DC67F7865431B0575175AC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InternetErrorDlgEx` | 1 (0x1) | Exported Function | 0x0000000180001120 | 0x00001120
+Function Name | Ordinal | Type
+-- | -- | --
+`InternetErrorDlgEx` | 1 | Exported Function
 
 
 ## Signature

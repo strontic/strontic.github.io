@@ -24,39 +24,39 @@ PE256 | `63171EF727E2B72C324EAC238889D906498132DE478B8D886905311CC3201803`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WinsABind` | 1 (0x1) | Exported Function | 0x0000000180001120 | 0x00001120
-`WinsUBind` | 29 (0x1d) | Exported Function | 0x0000000180001220 | 0x00001220
-`WinsTrigger` | 28 (0x1c) | Exported Function | 0x0000000180001460 | 0x00001460
-`WinsTombstoneDbRecs` | 27 (0x1b) | Exported Function | 0x00000001800020c0 | 0x000020c0
-`WinsTerm` | 26 (0x1a) | Exported Function | 0x00000001800015f0 | 0x000015f0
-`WinsSyncUp` | 25 (0x19) | Exported Function | 0x0000000180001f00 | 0x00001f00
-`WinsStatusWHdl` | 24 (0x18) | Exported Function | 0x0000000180001410 | 0x00001410
-`WinsStatusNew` | 23 (0x17) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`WinsStatus` | 22 (0x16) | Exported Function | 0x0000000180001370 | 0x00001370
-`WinsSetPriorityClass` | 21 (0x15) | Exported Function | 0x0000000180001740 | 0x00001740
-`WinsSetFlags` | 20 (0x14) | Exported Function | 0x0000000180002000 | 0x00002000
-`WinsRestoreEx` | 19 (0x13) | Exported Function | 0x00000001800017c0 | 0x000017c0
-`WinsRestore` | 18 (0x12) | Exported Function | 0x00000001800017d0 | 0x000017d0
-`WinsResetCounters` | 17 (0x11) | Exported Function | 0x0000000180001780 | 0x00001780
-`WinsUnbind` | 30 (0x1e) | Exported Function | 0x0000000180001230 | 0x00001230
-`WinsRecordAction` | 16 (0x10) | Exported Function | 0x0000000180001330 | 0x00001330
-`WinsGetNameAndAdd` | 14 (0xe) | Exported Function | 0x0000000180001f60 | 0x00001f60
-`WinsGetDbRecsByName` | 13 (0xd) | Exported Function | 0x0000000180002040 | 0x00002040
-`WinsGetDbRecs` | 12 (0xc) | Exported Function | 0x0000000180001590 | 0x00001590
-`WinsGetBrowserNames` | 11 (0xb) | Exported Function | 0x00000001800012e0 | 0x000012e0
-`WinsFreeMem` | 10 (0xa) | Exported Function | 0x00000001800012b0 | 0x000012b0
-`WinsDoStaticInit` | 9 (0x9) | Exported Function | 0x00000001800014b0 | 0x000014b0
-`WinsDoScavengingNew` | 8 (0x8) | Exported Function | 0x0000000180001540 | 0x00001540
-`WinsDoScavenging` | 7 (0x7) | Exported Function | 0x0000000180001500 | 0x00001500
-`WinsDeleteWins` | 6 (0x6) | Exported Function | 0x0000000180001fb0 | 0x00001fb0
-`WinsDelDbRecs` | 5 (0x5) | Exported Function | 0x0000000180001690 | 0x00001690
-`WinsCheckAccess` | 4 (0x4) | Exported Function | 0x0000000180002110 | 0x00002110
-`WinsBackup` | 3 (0x3) | Exported Function | 0x0000000180001640 | 0x00001640
-`WinsAllocMem` | 2 (0x2) | Exported Function | 0x0000000180001290 | 0x00001290
-`WinsPullRange` | 15 (0xf) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`WinsWorkerThdUpd` | 31 (0x1f) | Exported Function | 0x0000000180001ec0 | 0x00001ec0
+Function Name | Ordinal | Type
+-- | -- | --
+`WinsSetPriorityClass` | 21 | Exported Function
+`WinsStatus` | 22 | Exported Function
+`WinsStatusNew` | 23 | Exported Function
+`WinsSetFlags` | 20 | Exported Function
+`WinsResetCounters` | 17 | Exported Function
+`WinsRestore` | 18 | Exported Function
+`WinsRestoreEx` | 19 | Exported Function
+`WinsStatusWHdl` | 24 | Exported Function
+`WinsUBind` | 29 | Exported Function
+`WinsUnbind` | 30 | Exported Function
+`WinsWorkerThdUpd` | 31 | Exported Function
+`WinsTrigger` | 28 | Exported Function
+`WinsSyncUp` | 25 | Exported Function
+`WinsTerm` | 26 | Exported Function
+`WinsTombstoneDbRecs` | 27 | Exported Function
+`WinsRecordAction` | 16 | Exported Function
+`WinsDelDbRecs` | 5 | Exported Function
+`WinsDeleteWins` | 6 | Exported Function
+`WinsDoScavenging` | 7 | Exported Function
+`WinsCheckAccess` | 4 | Exported Function
+`WinsABind` | 1 | Exported Function
+`WinsAllocMem` | 2 | Exported Function
+`WinsBackup` | 3 | Exported Function
+`WinsDoScavengingNew` | 8 | Exported Function
+`WinsGetDbRecsByName` | 13 | Exported Function
+`WinsGetNameAndAdd` | 14 | Exported Function
+`WinsPullRange` | 15 | Exported Function
+`WinsGetDbRecs` | 12 | Exported Function
+`WinsDoStaticInit` | 9 | Exported Function
+`WinsFreeMem` | 10 | Exported Function
+`WinsGetBrowserNames` | 11 | Exported Function
 
 
 ## Signature

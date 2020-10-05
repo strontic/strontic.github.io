@@ -24,17 +24,17 @@ PE256 | `D72465519F1A2E01BF4578BD255C7AB7738B57E962E14DCE4E0A683D5CD8ADB0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180003970 | 0x00003970
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x00000001800039b0 | 0x000039b0
-`ShaderCache_AddValue` | 3 (0x3) | Exported Function | 0x00000001800034b0 | 0x000034b0
-`ShaderCache_Create` | 4 (0x4) | Exported Function | 0x0000000180002db0 | 0x00002db0
-`ShaderCache_Destroy` | 5 (0x5) | Exported Function | 0x0000000180002ef0 | 0x00002ef0
-`ShaderCache_FindValue` | 6 (0x6) | Exported Function | 0x0000000180003240 | 0x00003240
-`ShaderCache_Flush` | 7 (0x7) | Exported Function | 0x0000000180003720 | 0x00003720
-`ShaderCache_FreeValue` | 8 (0x8) | Exported Function | 0x0000000180003160 | 0x00003160
-`ShaderCache_GetDesc` | 9 (0x9) | Exported Function | 0x00000001800037f0 | 0x000037f0
+Function Name | Ordinal | Type
+-- | -- | --
+`ShaderCache_Flush` | 7 | Exported Function
+`ShaderCache_FindValue` | 6 | Exported Function
+`ShaderCache_GetDesc` | 9 | Exported Function
+`ShaderCache_FreeValue` | 8 | Exported Function
+`ShaderCache_Destroy` | 5 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`ShaderCache_Create` | 4 | Exported Function
+`ShaderCache_AddValue` | 3 | Exported Function
 
 
 ## Signature

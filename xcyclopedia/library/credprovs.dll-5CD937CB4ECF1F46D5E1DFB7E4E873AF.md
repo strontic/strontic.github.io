@@ -24,11 +24,11 @@ PE256 | `106E734F2EE7029EA00657FF4AD938B4B67721C07271A15514B622CDC6159D88`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreatePasswordProviderWrapperInstance` | 1 (0x1) | Exported Function | 0x0000000180030bb0 | 0x00030bb0
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180007400 | 0x00007400
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180005640 | 0x00005640
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CreatePasswordProviderWrapperInstance` | 1 | Exported Function
 
 
 ## Signature

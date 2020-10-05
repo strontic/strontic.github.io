@@ -24,10 +24,10 @@ PE256 | `F066C2F836440A34BE15B3D1D654632F89C1C3F92204EAFEFC80B04C86265626`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TokenBrokerGetEdgeSids` | 1 (0x1) | Exported Function | 0x10008b00 | 0x00008b00
-`TokenBrokerGetPushCookieMonikers` | 2 (0x2) | Exported Function | 0x10008ae0 | 0x00008ae0
+Function Name | Ordinal | Type
+-- | -- | --
+`TokenBrokerGetPushCookieMonikers` | 2 | Exported Function
+`TokenBrokerGetEdgeSids` | 1 | Exported Function
 
 
 ## Signature

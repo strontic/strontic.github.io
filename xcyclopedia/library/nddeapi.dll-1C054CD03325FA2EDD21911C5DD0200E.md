@@ -24,36 +24,36 @@ PE256 | `DC2F395DA1132DAFC31A5F471A523649593C6D8BC7BFB35BE8FC426F0A26E35C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NDdeGetErrorStringA` | 505 (0x1f9) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeSpecialCommandW` | 608 (0x260) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeSpecialCommandA` | 508 (0x1fc) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeShareSetInfoW` | 604 (0x25c) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeShareSetInfoA` | 504 (0x1f8) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeShareGetInfoW` | 603 (0x25b) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeShareGetInfoA` | 503 (0x1f7) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeShareEnumW` | 602 (0x25a) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeShareEnumA` | 502 (0x1f6) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeShareDelW` | 601 (0x259) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeShareDelA` | 501 (0x1f5) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeShareAddW` | 600 (0x258) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeShareAddA` | 500 (0x1f4) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeSetTrustedShareW` | 612 (0x264) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeSetTrustedShareA` | 512 (0x200) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeSetShareSecurityW` | 610 (0x262) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeSetShareSecurityA` | 510 (0x1fe) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeIsValidShareNameW` | 606 (0x25e) | Exported Function | 0x0000000180001010 | 0x00001010
-`NDdeIsValidShareNameA` | 506 (0x1fa) | Exported Function | 0x0000000180001010 | 0x00001010
-`NDdeIsValidAppTopicListW` | 607 (0x25f) | Exported Function | 0x0000000180001010 | 0x00001010
-`NDdeIsValidAppTopicListA` | 507 (0x1fb) | Exported Function | 0x0000000180001010 | 0x00001010
-`NDdeGetTrustedShareW` | 611 (0x263) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeGetTrustedShareA` | 511 (0x1ff) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeGetShareSecurityW` | 609 (0x261) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeGetShareSecurityA` | 509 (0x1fd) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeGetErrorStringW` | 605 (0x25d) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeTrustedShareEnumA` | 513 (0x201) | Exported Function | 0x0000000180001020 | 0x00001020
-`NDdeTrustedShareEnumW` | 613 (0x265) | Exported Function | 0x0000000180001020 | 0x00001020
+Function Name | Ordinal | Type
+-- | -- | --
+`NDdeShareEnumA` | 502 | Exported Function
+`NDdeShareEnumW` | 602 | Exported Function
+`NDdeShareGetInfoA` | 503 | Exported Function
+`NDdeShareDelW` | 601 | Exported Function
+`NDdeShareAddA` | 500 | Exported Function
+`NDdeShareAddW` | 600 | Exported Function
+`NDdeShareDelA` | 501 | Exported Function
+`NDdeSpecialCommandW` | 608 | Exported Function
+`NDdeTrustedShareEnumA` | 513 | Exported Function
+`NDdeTrustedShareEnumW` | 613 | Exported Function
+`NDdeSpecialCommandA` | 508 | Exported Function
+`NDdeShareGetInfoW` | 603 | Exported Function
+`NDdeShareSetInfoA` | 504 | Exported Function
+`NDdeShareSetInfoW` | 604 | Exported Function
+`NDdeGetTrustedShareA` | 511 | Exported Function
+`NDdeGetTrustedShareW` | 611 | Exported Function
+`NDdeIsValidAppTopicListA` | 507 | Exported Function
+`NDdeGetShareSecurityW` | 609 | Exported Function
+`NDdeGetErrorStringA` | 505 | Exported Function
+`NDdeGetErrorStringW` | 605 | Exported Function
+`NDdeGetShareSecurityA` | 509 | Exported Function
+`NDdeSetShareSecurityW` | 610 | Exported Function
+`NDdeSetTrustedShareA` | 512 | Exported Function
+`NDdeSetTrustedShareW` | 612 | Exported Function
+`NDdeSetShareSecurityA` | 510 | Exported Function
+`NDdeIsValidAppTopicListW` | 607 | Exported Function
+`NDdeIsValidShareNameA` | 506 | Exported Function
+`NDdeIsValidShareNameW` | 606 | Exported Function
 
 
 ## Signature

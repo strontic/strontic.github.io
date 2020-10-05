@@ -24,13 +24,13 @@ PE256 | `39E2C6FED3FC77828087EB52C6715E9BBB835116C0F89CF06B207224D4717ED0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x00000001800015b0 | 0x000015b0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180001600 | 0x00001600
-`DllMain` | 3 (0x3) | Exported Function | 0x0000000180001420 | 0x00001420
-`GetPlatformSpecificLockScreenAppLauncher` | 4 (0x4) | Exported Function | 0x0000000180004fc0 | 0x00004fc0
-`IsLockScreenActive` | 5 (0x5) | Exported Function | 0x0000000180004f90 | 0x00004f90
+Function Name | Ordinal | Type
+-- | -- | --
+`GetPlatformSpecificLockScreenAppLauncher` | 4 | Exported Function
+`IsLockScreenActive` | 5 | Exported Function
+`DllMain` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

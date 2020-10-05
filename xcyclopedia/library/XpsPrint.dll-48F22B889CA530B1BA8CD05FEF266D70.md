@@ -24,14 +24,11 @@ PE256 | `62EC154DD5EE3BEE5EF2C2ED5FB4D58FBA2A3701533B19418F671142233CC2C3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Ordinal2` | 2 (0x2) | Exported Function | 0x0000000180058150 | 0x00058150
-`Ordinal4` | 4 (0x4) | Exported Function | 0x0000000180058790 | 0x00058790
-`Ordinal5` | 5 (0x5) | Exported Function | 0x000000018005d090 | 0x0005d090
-`Ordinal6` | 6 (0x6) | Exported Function | 0x000000018005d1f0 | 0x0005d1f0
-`StartXpsPrintJob` | 3 (0x3) | Exported Function | 0x0000000180057e10 | 0x00057e10
-`StartXpsPrintJob1` | 7 (0x7) | Exported Function | 0x0000000180058560 | 0x00058560
+Function Name | Ordinal | Type
+-- | -- | --
+`StartXpsPrintJob1` | 7 | Exported Function
+`StartXpsPrintJob` | 3 | Exported Function
+`Ordinal2` | 2 | Exported Function
 
 
 ## Signature

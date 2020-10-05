@@ -24,41 +24,31 @@ PE256 | `69BE8F29B3793D4DDF1D42262ED8AF3489AD9526C31A0FAA91FFAD14AEE2E924`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Coml2DllGetClassObject` | 9 (0x9) | Exported Function | 0x10027260 | 0x00027260
-`StgSetTimes` | 31 (0x1f) | Exported Function | 0x1003df80 | 0x0003df80
-`StgOpenStorageOnILockBytes` | 30 (0x1e) | Exported Function | 0x10011870 | 0x00011870
-`StgOpenStorageEx` | 29 (0x1d) | Exported Function | 0x1002ce20 | 0x0002ce20
-`StgOpenStorage` | 28 (0x1c) | Exported Function | 0x10006bb0 | 0x00006bb0
-`StgOpenPropStg` | 27 (0x1b) | Exported Function | 0x100430e0 | 0x000430e0
-`StgIsStorageILockBytes` | 26 (0x1a) | Exported Function | 0x1003df00 | 0x0003df00
-`StgIsStorageFile` | 25 (0x19) | Exported Function | 0x1002e9d0 | 0x0002e9d0
-`StgCreateStorageEx` | 24 (0x18) | Exported Function | 0x1002cd30 | 0x0002cd30
-`StgCreatePropStg` | 23 (0x17) | Exported Function | 0x10042f90 | 0x00042f90
-`StgCreatePropSetStg` | 22 (0x16) | Exported Function | 0x10042eb0 | 0x00042eb0
-`StgCreateDocfileOnILockBytes` | 21 (0x15) | Exported Function | 0x100069a0 | 0x000069a0
-`StgCreateDocfile` | 20 (0x14) | Exported Function | 0x1002cd00 | 0x0002cd00
-`ReadClassStm` | 19 (0x13) | Exported Function | 0x1002f770 | 0x0002f770
-`ReadClassStg` | 18 (0x12) | Exported Function | 0x10029090 | 0x00029090
-`WriteClassStg` | 32 (0x20) | Exported Function | 0x1002a840 | 0x0002a840
-`PropStgNameToFmtId` | 17 (0x11) | Exported Function | 0x10042e50 | 0x00042e50
-`Ordinal7` | 7 (0x7) | Exported Function | 0x10043220 | 0x00043220
-`Ordinal6` | 6 (0x6) | Exported Function | 0x10043cb0 | 0x00043cb0
-`Ordinal5` | 5 (0x5) | Exported Function | 0x10043890 | 0x00043890
-`Ordinal4` | 4 (0x4) | Exported Function | 0x10043a30 | 0x00043a30
-`Ordinal3` | 3 (0x3) | Exported Function | 0x1004f3c0 | 0x0004f3c0
-`Ordinal2` | 2 (0x2) | Exported Function | 0x1004f520 | 0x0004f520
-`Ordinal12` | 12 (0xc) | Exported Function | 0x100526e0 | 0x000526e0
-`Ordinal11` | 11 (0xb) | Exported Function | 0x1003dce0 | 0x0003dce0
-`Ordinal1` | 1 (0x1) | Exported Function | 0x1004f5d0 | 0x0004f5d0
-`GetHGlobalFromILockBytes` | 16 (0x10) | Exported Function | 0x100525b0 | 0x000525b0
-`GetConvertStg` | 15 (0xf) | Exported Function | 0x100526b0 | 0x000526b0
-`FmtIdToPropStgName` | 14 (0xe) | Exported Function | 0x10042e10 | 0x00042e10
-`DllGetClassObject` | 13 (0xd) | Exported Function | 0x10027260 | 0x00027260
-`CreateILockBytesOnHGlobal` | 10 (0xa) | Exported Function | 0x100062d0 | 0x000062d0
-`Ordinal8` | 8 (0x8) | Exported Function | 0x10045c60 | 0x00045c60
-`WriteClassStm` | 33 (0x21) | Exported Function | 0x1002f820 | 0x0002f820
+Function Name | Ordinal | Type
+-- | -- | --
+`StgIsStorageILockBytes` | 26 | Exported Function
+`StgOpenPropStg` | 27 | Exported Function
+`StgIsStorageFile` | 25 | Exported Function
+`StgCreatePropStg` | 23 | Exported Function
+`StgCreateStorageEx` | 24 | Exported Function
+`StgOpenStorage` | 28 | Exported Function
+`WriteClassStg` | 32 | Exported Function
+`WriteClassStm` | 33 | Exported Function
+`StgSetTimes` | 31 | Exported Function
+`StgOpenStorageEx` | 29 | Exported Function
+`StgOpenStorageOnILockBytes` | 30 | Exported Function
+`StgCreatePropSetStg` | 22 | Exported Function
+`FmtIdToPropStgName` | 14 | Exported Function
+`GetConvertStg` | 15 | Exported Function
+`DllGetClassObject` | 13 | Exported Function
+`Coml2DllGetClassObject` | 9 | Exported Function
+`CreateILockBytesOnHGlobal` | 10 | Exported Function
+`GetHGlobalFromILockBytes` | 16 | Exported Function
+`StgCreateDocfile` | 20 | Exported Function
+`StgCreateDocfileOnILockBytes` | 21 | Exported Function
+`ReadClassStm` | 19 | Exported Function
+`PropStgNameToFmtId` | 17 | Exported Function
+`ReadClassStg` | 18 | Exported Function
 
 
 ## Signature

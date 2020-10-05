@@ -24,14 +24,14 @@ PE256 | `4A125E43AB9300AAFC435CF65328D4893CBB2030A5FBDE885F7FED25B7D6C02F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreatePerceptionSimulationManager` | 1 (0x1) | Exported Function | 0x00000001800600c0 | 0x000600c0
-`CreatePerceptionSimulationRecording` | 2 (0x2) | Exported Function | 0x0000000180060100 | 0x00060100
-`GetControlMode` | 3 (0x3) | Exported Function | 0x0000000180060360 | 0x00060360
-`GetIsUsingDriver` | 4 (0x4) | Exported Function | 0x0000000180060370 | 0x00060370
-`LoadPerceptionSimulationRecording` | 5 (0x5) | Exported Function | 0x0000000180060140 | 0x00060140
-`SetControlMode` | 6 (0x6) | Exported Function | 0x00000001800601f0 | 0x000601f0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetIsUsingDriver` | 4 | Exported Function
+`LoadPerceptionSimulationRecording` | 5 | Exported Function
+`SetControlMode` | 6 | Exported Function
+`CreatePerceptionSimulationManager` | 1 | Exported Function
+`CreatePerceptionSimulationRecording` | 2 | Exported Function
+`GetControlMode` | 3 | Exported Function
 
 
 ## Signature

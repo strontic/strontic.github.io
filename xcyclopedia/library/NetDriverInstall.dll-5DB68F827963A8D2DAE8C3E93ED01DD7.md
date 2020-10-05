@@ -24,14 +24,14 @@ PE256 | `56CA1A1673D917A51684F261D31299D2E3A92F2A1B89BC8B1722F31AFBE2322E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NetDriverInstallClose` | 1 (0x1) | Exported Function | 0x0000000180005550 | 0x00005550
-`NetDriverInstallCommit` | 2 (0x2) | Exported Function | 0x00000001800056f0 | 0x000056f0
-`NetDriverInstallInitialize` | 3 (0x3) | Exported Function | 0x0000000180005490 | 0x00005490
-`NetDriverInstallProcessAdditions` | 4 (0x4) | Exported Function | 0x0000000180005770 | 0x00005770
-`NetDriverInstallProcessRemovals` | 5 (0x5) | Exported Function | 0x00000001800057f0 | 0x000057f0
-`NetDriverInstallSync` | 6 (0x6) | Exported Function | 0x0000000180005670 | 0x00005670
+Function Name | Ordinal | Type
+-- | -- | --
+`NetDriverInstallProcessAdditions` | 4 | Exported Function
+`NetDriverInstallProcessRemovals` | 5 | Exported Function
+`NetDriverInstallSync` | 6 | Exported Function
+`NetDriverInstallClose` | 1 | Exported Function
+`NetDriverInstallCommit` | 2 | Exported Function
+`NetDriverInstallInitialize` | 3 | Exported Function
 
 
 ## Signature

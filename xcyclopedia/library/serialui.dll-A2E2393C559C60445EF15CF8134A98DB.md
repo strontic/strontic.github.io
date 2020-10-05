@@ -24,14 +24,14 @@ PE256 | `1A2B2AC28DFB4A90479471F73EF627ED957CC8E58F06ECC9C8DCEAD1BFA09310`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`drvCommConfigDialogA` | 3 (0x3) | Exported Function | 0x10002320 | 0x00002320
-`drvCommConfigDialogW` | 2 (0x2) | Exported Function | 0x10002330 | 0x00002330
-`drvGetDefaultCommConfigA` | 7 (0x7) | Exported Function | 0x10002320 | 0x00002320
-`drvGetDefaultCommConfigW` | 6 (0x6) | Exported Function | 0x100023c0 | 0x000023c0
-`drvSetDefaultCommConfigA` | 5 (0x5) | Exported Function | 0x10002320 | 0x00002320
-`drvSetDefaultCommConfigW` | 4 (0x4) | Exported Function | 0x10002460 | 0x00002460
+Function Name | Ordinal | Type
+-- | -- | --
+`drvGetDefaultCommConfigW` | 6 | Exported Function
+`drvSetDefaultCommConfigA` | 5 | Exported Function
+`drvSetDefaultCommConfigW` | 4 | Exported Function
+`drvCommConfigDialogA` | 3 | Exported Function
+`drvCommConfigDialogW` | 2 | Exported Function
+`drvGetDefaultCommConfigA` | 7 | Exported Function
 
 
 ## Signature

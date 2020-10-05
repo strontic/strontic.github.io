@@ -24,13 +24,13 @@ PE256 | `B4ED9CD14590EBF42E6D65FC6989A9CE57C54B2E0EB1E8BDEB15A2B6F35D3982`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SppPluginCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018008faa0 | 0x0008faa0
-`SppPluginCreateInstance` | 2 (0x2) | Exported Function | 0x000000018008fad0 | 0x0008fad0
-`SppPluginInitialize` | 3 (0x3) | Exported Function | 0x000000018008fb00 | 0x0008fb00
-`SppPluginShutdown` | 4 (0x4) | Exported Function | 0x000000018008fb30 | 0x0008fb30
-`SppPluginVersion` | 5 (0x5) | Exported Function | 0x000000018018cf30 | 0x0018cf30
+Function Name | Ordinal | Type
+-- | -- | --
+`SppPluginShutdown` | 4 | Exported Function
+`SppPluginVersion` | 5 | Exported Function
+`SppPluginInitialize` | 3 | Exported Function
+`SppPluginCanUnloadNow` | 1 | Exported Function
+`SppPluginCreateInstance` | 2 | Exported Function
 
 
 ## Signature

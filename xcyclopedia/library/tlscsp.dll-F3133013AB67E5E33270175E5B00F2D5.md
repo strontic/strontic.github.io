@@ -24,18 +24,18 @@ PE256 | `1E451BC62BA29858E3BB7D9A0FDCD04C1C6961CA8EA7EEDB145BD6F3DF4D92E0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LsCsp_DecryptEnvelopedData` | 7 (0x7) | Exported Function | 0x00000001800015c0 | 0x000015c0
-`LsCsp_EncryptHwid` | 6 (0x6) | Exported Function | 0x0000000180003250 | 0x00003250
-`LsCsp_GetServerData` | 5 (0x5) | Exported Function | 0x0000000180001b50 | 0x00001b50
-`LsCsp_RetrieveSecret` | 9 (0x9) | Exported Function | 0x0000000180005330 | 0x00005330
-`LsCsp_StoreSecret` | 8 (0x8) | Exported Function | 0x00000001800052a0 | 0x000052a0
-`TLSCspInit` | 1 (0x1) | Exported Function | 0x0000000180004ad0 | 0x00004ad0
-`TLSCspShutdown` | 2 (0x2) | Exported Function | 0x00000001800049b0 | 0x000049b0
-`TLSCspStartInstallCertificateThread` | 10 (0xa) | Exported Function | 0x0000000180004be0 | 0x00004be0
-`TLSFreeTSCertificate` | 4 (0x4) | Exported Function | 0x0000000180001150 | 0x00001150
-`TLSGetTSCertificate` | 3 (0x3) | Exported Function | 0x0000000180001080 | 0x00001080
+Function Name | Ordinal | Type
+-- | -- | --
+`TLSCspShutdown` | 2 | Exported Function
+`TLSCspInit` | 1 | Exported Function
+`TLSCspStartInstallCertificateThread` | 10 | Exported Function
+`TLSGetTSCertificate` | 3 | Exported Function
+`TLSFreeTSCertificate` | 4 | Exported Function
+`LsCsp_EncryptHwid` | 6 | Exported Function
+`LsCsp_DecryptEnvelopedData` | 7 | Exported Function
+`LsCsp_GetServerData` | 5 | Exported Function
+`LsCsp_StoreSecret` | 8 | Exported Function
+`LsCsp_RetrieveSecret` | 9 | Exported Function
 
 
 ## Signature

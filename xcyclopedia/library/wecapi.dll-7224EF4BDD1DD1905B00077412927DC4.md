@@ -24,25 +24,25 @@ PE256 | `66D88B4F39ECCDF480677DA62C83EA76BDF2A2B99265DD965F82592D7160560F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EcClose` | 3 (0x3) | Exported Function | 0x10004950 | 0x00004950
-`EcSaveSubscription` | 15 (0xf) | Exported Function | 0x10003f20 | 0x00003f20
-`EcRetrySubscription` | 14 (0xe) | Exported Function | 0x10004820 | 0x00004820
-`EcRemoveObjectArrayElement` | 13 (0xd) | Exported Function | 0x10004570 | 0x00004570
-`EcQuickConfig` | 2 (0x2) | Exported Function | 0x100049b0 | 0x000049b0
-`EcOpenSubscriptionEnum` | 12 (0xc) | Exported Function | 0x10003720 | 0x00003720
-`EcOpenSubscription` | 11 (0xb) | Exported Function | 0x10003a40 | 0x00003a40
-`EcSetObjectArrayProperty` | 16 (0x10) | Exported Function | 0x10004230 | 0x00004230
-`EcIsConfigRequired` | 1 (0x1) | Exported Function | 0x10004a10 | 0x00004a10
-`EcGetSubscriptionRunTimeStatus` | 9 (0x9) | Exported Function | 0x100045f0 | 0x000045f0
-`EcGetSubscriptionProperty` | 8 (0x8) | Exported Function | 0x10003d90 | 0x00003d90
-`EcGetObjectArraySize` | 7 (0x7) | Exported Function | 0x10004120 | 0x00004120
-`EcGetObjectArrayProperty` | 6 (0x6) | Exported Function | 0x10004360 | 0x00004360
-`EcEnumNextSubscription` | 5 (0x5) | Exported Function | 0x10003900 | 0x00003900
-`EcDeleteSubscription` | 4 (0x4) | Exported Function | 0x10003ff0 | 0x00003ff0
-`EcInsertObjectArrayElement` | 10 (0xa) | Exported Function | 0x100044f0 | 0x000044f0
-`EcSetSubscriptionProperty` | 17 (0x11) | Exported Function | 0x10003c60 | 0x00003c60
+Function Name | Ordinal | Type
+-- | -- | --
+`EcQuickConfig` | 2 | Exported Function
+`EcRemoveObjectArrayElement` | 13 | Exported Function
+`EcOpenSubscription` | 11 | Exported Function
+`EcOpenSubscriptionEnum` | 12 | Exported Function
+`EcSetObjectArrayProperty` | 16 | Exported Function
+`EcSetSubscriptionProperty` | 17 | Exported Function
+`EcRetrySubscription` | 14 | Exported Function
+`EcSaveSubscription` | 15 | Exported Function
+`EcIsConfigRequired` | 1 | Exported Function
+`EcEnumNextSubscription` | 5 | Exported Function
+`EcGetObjectArrayProperty` | 6 | Exported Function
+`EcClose` | 3 | Exported Function
+`EcDeleteSubscription` | 4 | Exported Function
+`EcGetSubscriptionRunTimeStatus` | 9 | Exported Function
+`EcInsertObjectArrayElement` | 10 | Exported Function
+`EcGetObjectArraySize` | 7 | Exported Function
+`EcGetSubscriptionProperty` | 8 | Exported Function
 
 
 ## Signature

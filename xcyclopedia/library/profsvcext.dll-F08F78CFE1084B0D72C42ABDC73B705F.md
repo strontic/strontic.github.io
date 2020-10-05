@@ -24,15 +24,15 @@ PE256 | `A40A79AA2C28BC95CF02584BFADD8C4D5ACC7AB93690AC9E2B3F0EF6C7C0E399`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConnectToRoamingVhdProfile` | 2 (0x2) | Exported Function | 0x00000001800117e0 | 0x000117e0
-`CreateRoamingProviderInstance` | 1 (0x1) | Exported Function | 0x0000000180003760 | 0x00003760
-`InitializeSuspendFolderPolicyAndUploadTaskConfig` | 3 (0x3) | Exported Function | 0x0000000180002620 | 0x00002620
-`RefreshSuspendFolderPolicyAndUploadTaskConfig` | 4 (0x4) | Exported Function | 0x0000000180011960 | 0x00011960
-`StartRoamingClassFactories` | 5 (0x5) | Exported Function | 0x00000001800039d0 | 0x000039d0
-`StopRoamingClassFactories` | 6 (0x6) | Exported Function | 0x0000000180011970 | 0x00011970
-`WaitForNetworkForRoamingProfile` | 7 (0x7) | Exported Function | 0x0000000180011980 | 0x00011980
+Function Name | Ordinal | Type
+-- | -- | --
+`StartRoamingClassFactories` | 5 | Exported Function
+`StopRoamingClassFactories` | 6 | Exported Function
+`WaitForNetworkForRoamingProfile` | 7 | Exported Function
+`RefreshSuspendFolderPolicyAndUploadTaskConfig` | 4 | Exported Function
+`ConnectToRoamingVhdProfile` | 2 | Exported Function
+`CreateRoamingProviderInstance` | 1 | Exported Function
+`InitializeSuspendFolderPolicyAndUploadTaskConfig` | 3 | Exported Function
 
 
 ## Signature

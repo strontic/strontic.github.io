@@ -24,12 +24,12 @@ PE256 | `F8148BC67E5F17B5B42ECF8BF9B310C47D95262839A6FDDF61AEC3A76C3158AD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateFile2` | 1 (0x1) | Exported Function | kernel32.CreateFile2 | 0x0000119c
-`GetTempPathW` | 2 (0x2) | Exported Function | kernel32.GetTempPathW | 0x000011be
-`GetVolumeNameForVolumeMountPointW` | 3 (0x3) | Exported Function | kernel32.GetVolumeNameForVolumeMountPointW | 0x000011f6
-`GetVolumePathNamesForVolumeNameW` | 4 (0x4) | Exported Function | kernel32.GetVolumePathNamesForVolumeNameW | 0x00001242
+Function Name | Ordinal | Type
+-- | -- | --
+`GetVolumeNameForVolumeMountPointW` | 3 | Exported Function
+`GetVolumePathNamesForVolumeNameW` | 4 | Exported Function
+`CreateFile2` | 1 | Exported Function
+`GetTempPathW` | 2 | Exported Function
 
 
 ## Signature

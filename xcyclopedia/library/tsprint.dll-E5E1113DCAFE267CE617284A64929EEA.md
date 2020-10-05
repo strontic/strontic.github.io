@@ -24,19 +24,19 @@ PE256 | `CE4B0BC3FE5B540D1DA50777527B4D7C96B9691B9FDA8EE39373BC869370EE9D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DevQueryPrintEx` | 258 (0x102) | Exported Function | 0x0000000180004170 | 0x00004170
-`DllCanUnloadNow` | 259 (0x103) | Exported Function | 0x00000001800081e0 | 0x000081e0
-`DllGetClassObject` | 260 (0x104) | Exported Function | 0x0000000180007ff0 | 0x00007ff0
-`DllMain` | 261 (0x105) | Exported Function | 0x00000001800066c0 | 0x000066c0
-`DrvConvertDevMode` | 255 (0xff) | Exported Function | 0x0000000180001920 | 0x00001920
-`DrvDeviceCapabilities` | 262 (0x106) | Exported Function | 0x00000001800018e0 | 0x000018e0
-`DrvDevicePropertySheets` | 263 (0x107) | Exported Function | 0x0000000180002790 | 0x00002790
-`DrvDocumentPropertySheets` | 264 (0x108) | Exported Function | 0x00000001800040e0 | 0x000040e0
-`DrvPrinterEvent` | 256 (0x100) | Exported Function | 0x0000000180001340 | 0x00001340
-`DrvSplDeviceCaps` | 254 (0xfe) | Exported Function | 0x00000001800015f0 | 0x000015f0
-`MxdcGetPDEVAdjustment` | 257 (0x101) | Exported Function | 0x0000000180004180 | 0x00004180
+Function Name | Ordinal | Type
+-- | -- | --
+`DrvDocumentPropertySheets` | 264 | Exported Function
+`DrvDevicePropertySheets` | 263 | Exported Function
+`DrvPrinterEvent` | 256 | Exported Function
+`MxdcGetPDEVAdjustment` | 257 | Exported Function
+`DrvSplDeviceCaps` | 254 | Exported Function
+`DrvDeviceCapabilities` | 262 | Exported Function
+`DllCanUnloadNow` | 259 | Exported Function
+`DevQueryPrintEx` | 258 | Exported Function
+`DllGetClassObject` | 260 | Exported Function
+`DrvConvertDevMode` | 255 | Exported Function
+`DllMain` | 261 | Exported Function
 
 
 ## Signature

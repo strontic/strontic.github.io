@@ -24,10 +24,10 @@ PE256 | `B684DA3046CD3CC6843294383237CA40B83A040EBC97408FEAD2A9D479A7B92A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DdcGetDeviceClaimsForUser` | 1 (0x1) | Exported Function | 0x00000001800010f0 | 0x000010f0
-`FreeDeviceClaimsResponse` | 2 (0x2) | Exported Function | 0x0000000180001120 | 0x00001120
+Function Name | Ordinal | Type
+-- | -- | --
+`FreeDeviceClaimsResponse` | 2 | Exported Function
+`DdcGetDeviceClaimsForUser` | 1 | Exported Function
 
 
 ## Signature

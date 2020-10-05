@@ -24,12 +24,12 @@ PE256 | `1704043566C44A936E73DAC8CAD2F2D6DE556B2D6F0B151D7FB97F963CEB7A78`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConvertSecurityDescriptorToStringSecurityDescriptorW` | 1 (0x1) | Exported Function | advapi32.ConvertSecurityDescriptorToStringSecurityDescriptorW | 0x00001109
-`ConvertSidToStringSidW` | 2 (0x2) | Exported Function | advapi32.ConvertSidToStringSidW | 0x0000115e
-`ConvertStringSecurityDescriptorToSecurityDescriptorW` | 3 (0x3) | Exported Function | advapi32.ConvertStringSecurityDescriptorToSecurityDescriptorW | 0x000011b3
-`ConvertStringSidToSidW` | 4 (0x4) | Exported Function | advapi32.ConvertStringSidToSidW | 0x00001208
+Function Name | Ordinal | Type
+-- | -- | --
+`ConvertStringSecurityDescriptorToSecurityDescriptorW` | 3 | Exported Function
+`ConvertStringSidToSidW` | 4 | Exported Function
+`ConvertSecurityDescriptorToStringSecurityDescriptorW` | 1 | Exported Function
+`ConvertSidToStringSidW` | 2 | Exported Function
 
 
 ## Signature

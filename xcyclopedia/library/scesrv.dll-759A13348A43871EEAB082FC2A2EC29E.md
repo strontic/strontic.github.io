@@ -24,10 +24,10 @@ PE256 | `9D9EE771631555CFCC93955ED4F0AB642486A3F4CA37599ACA63ED4DACA64025`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ScesrvInitializeServer` | 1 (0x1) | Exported Function | 0x0000000180001ed0 | 0x00001ed0
-`ScesrvTerminateServer` | 2 (0x2) | Exported Function | 0x0000000180052260 | 0x00052260
+Function Name | Ordinal | Type
+-- | -- | --
+`ScesrvTerminateServer` | 2 | Exported Function
+`ScesrvInitializeServer` | 1 | Exported Function
 
 
 ## Signature

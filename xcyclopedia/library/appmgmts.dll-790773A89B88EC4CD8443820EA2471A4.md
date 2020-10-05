@@ -24,27 +24,27 @@ PE256 | `8BDB6FC4371543FC8316E40A70ABD1FBCB8E21A90206CCC7174FD0C2A1474D8F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CsCreateClassStore` | 2 (0x2) | Exported Function | 0x739149f0 | 0x000149f0
-`ReleasePackageDetail` | 17 (0x11) | Exported Function | 0x73914ea0 | 0x00014ea0
-`ReleaseAppCategoryInfoList` | 16 (0x10) | Exported Function | 0x73914e20 | 0x00014e20
-`ProcessGroupPolicyObjectsEx` | 15 (0xf) | Exported Function | 0x7390ca30 | 0x0000ca30
-`IID_IClassAdmin` | 14 (0xe) | Exported Function | 0x73903b08 | 0x00003b08
-`GenerateGroupPolicy` | 13 (0xd) | Exported Function | 0x7390ce10 | 0x0000ce10
-`DllGetClassObject` | 12 (0xc) | Exported Function | 0x73913350 | 0x00013350
-`DllCanUnloadNow` | 11 (0xb) | Exported Function | 0x73913330 | 0x00013330
-`ReleasePackageInfo` | 18 (0x12) | Exported Function | 0x73914d20 | 0x00014d20
-`CsUnregisterAppCategory` | 10 (0xa) | Exported Function | 0x73914b90 | 0x00014b90
-`CsServerGetClassStore` | 9 (0x9) | Exported Function | 0x73914ad0 | 0x00014ad0
-`CsRegisterAppCategory` | 8 (0x8) | Exported Function | 0x73914b20 | 0x00014b20
-`CsGetClassStorePath` | 7 (0x7) | Exported Function | 0x73914c70 | 0x00014c70
-`CsGetClassStore` | 6 (0x6) | Exported Function | 0x73914ab0 | 0x00014ab0
-`CsGetClassAccess` | 5 (0x5) | Exported Function | 0x739148f0 | 0x000148f0
-`CsGetAppCategories` | 4 (0x4) | Exported Function | 0x73914c00 | 0x00014c00
-`CsEnumApps` | 3 (0x3) | Exported Function | 0x73914930 | 0x00014930
-`CsSetOptions` | 1 (0x1) | Exported Function | 0x73915060 | 0x00015060
-`ServiceMain` | 19 (0x13) | Exported Function | 0x7390e470 | 0x0000e470
+Function Name | Ordinal | Type
+-- | -- | --
+`GenerateGroupPolicy` | 13 | Exported Function
+`IID_IClassAdmin` | 14 | Exported Function
+`DllCanUnloadNow` | 11 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`ProcessGroupPolicyObjectsEx` | 15 | Exported Function
+`ReleasePackageInfo` | 18 | Exported Function
+`ServiceMain` | 19 | Exported Function
+`ReleaseAppCategoryInfoList` | 16 | Exported Function
+`ReleasePackageDetail` | 17 | Exported Function
+`CsUnregisterAppCategory` | 10 | Exported Function
+`CsGetAppCategories` | 4 | Exported Function
+`CsGetClassAccess` | 5 | Exported Function
+`CsCreateClassStore` | 2 | Exported Function
+`CsEnumApps` | 3 | Exported Function
+`CsGetClassStore` | 6 | Exported Function
+`CsServerGetClassStore` | 9 | Exported Function
+`CsSetOptions` | 1 | Exported Function
+`CsGetClassStorePath` | 7 | Exported Function
+`CsRegisterAppCategory` | 8 | Exported Function
 
 
 ## Signature

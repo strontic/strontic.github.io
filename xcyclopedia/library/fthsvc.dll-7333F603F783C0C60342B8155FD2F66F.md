@@ -24,13 +24,13 @@ PE256 | `C977B7E10285A617F7B8D6C5182704AD68BB08B305048DF6AE5FFB272A45ACC3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FthSysprepSpecialize` | 1 (0x1) | Exported Function | 0x0000000180008d10 | 0x00008d10
-`FthSysprepSpecializeOffline` | 2 (0x2) | Exported Function | 0x0000000180008e60 | 0x00008e60
-`WdiDiagnosticModuleMain` | 3 (0x3) | Exported Function | 0x0000000180001260 | 0x00001260
-`WdiGetDiagnosticModuleInterfaceVersion` | 4 (0x4) | Exported Function | 0x0000000180001230 | 0x00001230
-`WdiHandleInstance` | 5 (0x5) | Exported Function | 0x0000000180001400 | 0x00001400
+Function Name | Ordinal | Type
+-- | -- | --
+`WdiGetDiagnosticModuleInterfaceVersion` | 4 | Exported Function
+`WdiHandleInstance` | 5 | Exported Function
+`WdiDiagnosticModuleMain` | 3 | Exported Function
+`FthSysprepSpecialize` | 1 | Exported Function
+`FthSysprepSpecializeOffline` | 2 | Exported Function
 
 
 ## Signature

@@ -24,22 +24,22 @@ PE256 | `3D62B8D3AE5FD7FD7978E124733C3545E9DBDFD335065F5F1B29E0BC63E450C1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x00000001800012c0 | 0x000012c0
-`FhQueryConfiguredUsersCount` | 2 (0x2) | Exported Function | 0x00000001800015b0 | 0x000015b0
-`FhServiceBlockBackup` | 3 (0x3) | Exported Function | 0x0000000180002460 | 0x00002460
-`FhServiceClearProtectionState` | 4 (0x4) | Exported Function | 0x00000001800026d0 | 0x000026d0
-`FhServiceClosePipe` | 5 (0x5) | Exported Function | 0x0000000180002020 | 0x00002020
-`FhServiceEnterMaintenanceMode` | 6 (0x6) | Exported Function | 0x00000001800027c0 | 0x000027c0
-`FhServiceExitMaintenanceMode` | 7 (0x7) | Exported Function | 0x00000001800029b0 | 0x000029b0
-`FhServiceMigrationFinished` | 8 (0x8) | Exported Function | 0x0000000180002b70 | 0x00002b70
-`FhServiceMigrationStarting` | 9 (0x9) | Exported Function | 0x0000000180002a90 | 0x00002a90
-`FhServiceOpenPipe` | 10 (0xa) | Exported Function | 0x0000000180001c20 | 0x00001c20
-`FhServiceReloadConfiguration` | 11 (0xb) | Exported Function | 0x0000000180002370 | 0x00002370
-`FhServiceStartBackup` | 12 (0xc) | Exported Function | 0x0000000180002190 | 0x00002190
-`FhServiceStopBackup` | 13 (0xd) | Exported Function | 0x0000000180002280 | 0x00002280
-`FhServiceUnblockBackup` | 14 (0xe) | Exported Function | 0x00000001800025e0 | 0x000025e0
+Function Name | Ordinal | Type
+-- | -- | --
+`FhServiceOpenPipe` | 10 | Exported Function
+`FhServiceMigrationStarting` | 9 | Exported Function
+`FhServiceMigrationFinished` | 8 | Exported Function
+`FhServiceReloadConfiguration` | 11 | Exported Function
+`FhServiceUnblockBackup` | 14 | Exported Function
+`FhServiceStopBackup` | 13 | Exported Function
+`FhServiceStartBackup` | 12 | Exported Function
+`FhServiceBlockBackup` | 3 | Exported Function
+`FhQueryConfiguredUsersCount` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
+`FhServiceClearProtectionState` | 4 | Exported Function
+`FhServiceExitMaintenanceMode` | 7 | Exported Function
+`FhServiceEnterMaintenanceMode` | 6 | Exported Function
+`FhServiceClosePipe` | 5 | Exported Function
 
 
 ## Signature

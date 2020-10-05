@@ -24,9 +24,9 @@ PE256 | `BC77C30CBB7C34BAB8FAC1B4CA2BBE496E348328DF7F4AC2402B79BC48212DAF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WcnEapPluginGetInfo` | 1 (0x1) | Exported Function | 0x0000000180001950 | 0x00001950
+Function Name | Ordinal | Type
+-- | -- | --
+`WcnEapPluginGetInfo` | 1 | Exported Function
 
 
 ## Signature

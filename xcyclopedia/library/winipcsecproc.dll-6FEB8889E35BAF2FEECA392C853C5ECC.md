@@ -24,36 +24,36 @@ PE256 | `E919B867FF927ED56E2A80FE9665B6BBFD78B242D1A6859D8D212624597B7ADF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IpcSPAttest` | 1 (0x1) | Exported Function | 0x0000000180004260 | 0x00004260
-`IpcSPIsActivated` | 26 (0x1a) | Exported Function | 0x0000000180006550 | 0x00006550
-`IpcSPInitialize` | 25 (0x19) | Exported Function | 0x00000001800041a0 | 0x000041a0
-`IpcSPGetProcAddress` | 24 (0x18) | Exported Function | 0x0000000180005c60 | 0x00005c60
-`IpcSPGetInfo` | 23 (0x17) | Exported Function | 0x00000001800055c0 | 0x000055c0
-`IpcSPGetCurrentTime` | 22 (0x16) | Exported Function | 0x0000000180005450 | 0x00005450
-`IpcSPGetBoundRightKey` | 21 (0x15) | Exported Function | 0x0000000180006610 | 0x00006610
-`IpcSPEncryptUpdate` | 20 (0x14) | Exported Function | 0x00000001800046a0 | 0x000046a0
-`IpcSPEncryptFinal` | 19 (0x13) | Exported Function | 0x00000001800046a0 | 0x000046a0
-`IpcSPEncrypt` | 18 (0x12) | Exported Function | 0x00000001800052c0 | 0x000052c0
-`IpcSPEnablePublishingLicense` | 17 (0x11) | Exported Function | 0x0000000180005200 | 0x00005200
-`IpcSPEnableAndEncrypt` | 16 (0x10) | Exported Function | 0x0000000180005eb0 | 0x00005eb0
-`IpcSPDecryptWithRac` | 15 (0xf) | Exported Function | 0x0000000180005060 | 0x00005060
-`IpcSPDecryptUpdate` | 14 (0xe) | Exported Function | 0x00000001800046a0 | 0x000046a0
-`IpcSPDecryptFinal` | 13 (0xd) | Exported Function | 0x00000001800046a0 | 0x000046a0
-`IpcSPDecrypt` | 12 (0xc) | Exported Function | 0x0000000180004ed0 | 0x00004ed0
-`IpcSPCreateSecurityProcessor` | 11 (0xb) | Exported Function | 0x0000000180004c70 | 0x00004c70
-`IpcSPCreatePCE` | 10 (0xa) | Exported Function | 0x00000001800046a0 | 0x000046a0
-`IpcSPCreateMachineCerts` | 9 (0x9) | Exported Function | 0x00000001800059c0 | 0x000059c0
-`IpcSPCreateEncryptor` | 8 (0x8) | Exported Function | 0x0000000180004aa0 | 0x00004aa0
-`IpcSPCreateEnablingPrincipal` | 7 (0x7) | Exported Function | 0x0000000180004880 | 0x00004880
-`IpcSPCreateDecryptor` | 6 (0x6) | Exported Function | 0x00000001800046b0 | 0x000046b0
-`IpcSPCommit` | 5 (0x5) | Exported Function | 0x00000001800046a0 | 0x000046a0
-`IpcSPCloseHandle` | 4 (0x4) | Exported Function | 0x0000000180004600 | 0x00004600
-`IpcSPCheckEnvironmentSecurity` | 3 (0x3) | Exported Function | 0x0000000180004690 | 0x00004690
-`IpcSPBindLicense` | 2 (0x2) | Exported Function | 0x0000000180004420 | 0x00004420
-`IpcSPLoadLibrary` | 27 (0x1b) | Exported Function | 0x0000000180005a80 | 0x00005a80
-`IpcSPSign` | 28 (0x1c) | Exported Function | 0x0000000180005800 | 0x00005800
+Function Name | Ordinal | Type
+-- | -- | --
+`IpcSPEncryptFinal` | 19 | Exported Function
+`IpcSPEncryptUpdate` | 20 | Exported Function
+`IpcSPGetBoundRightKey` | 21 | Exported Function
+`IpcSPEncrypt` | 18 | Exported Function
+`IpcSPDecryptWithRac` | 15 | Exported Function
+`IpcSPEnableAndEncrypt` | 16 | Exported Function
+`IpcSPEnablePublishingLicense` | 17 | Exported Function
+`IpcSPIsActivated` | 26 | Exported Function
+`IpcSPLoadLibrary` | 27 | Exported Function
+`IpcSPSign` | 28 | Exported Function
+`IpcSPInitialize` | 25 | Exported Function
+`IpcSPGetCurrentTime` | 22 | Exported Function
+`IpcSPGetInfo` | 23 | Exported Function
+`IpcSPGetProcAddress` | 24 | Exported Function
+`IpcSPCommit` | 5 | Exported Function
+`IpcSPCreateDecryptor` | 6 | Exported Function
+`IpcSPCreateEnablingPrincipal` | 7 | Exported Function
+`IpcSPCloseHandle` | 4 | Exported Function
+`IpcSPAttest` | 1 | Exported Function
+`IpcSPBindLicense` | 2 | Exported Function
+`IpcSPCheckEnvironmentSecurity` | 3 | Exported Function
+`IpcSPDecrypt` | 12 | Exported Function
+`IpcSPDecryptFinal` | 13 | Exported Function
+`IpcSPDecryptUpdate` | 14 | Exported Function
+`IpcSPCreateSecurityProcessor` | 11 | Exported Function
+`IpcSPCreateEncryptor` | 8 | Exported Function
+`IpcSPCreateMachineCerts` | 9 | Exported Function
+`IpcSPCreatePCE` | 10 | Exported Function
 
 
 ## Signature

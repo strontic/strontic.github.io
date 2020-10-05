@@ -24,15 +24,15 @@ PE256 | `19A662889779B000D32BE53FEB5437246CE8103AC1C662C9D4B3D6FD1D44A3AB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetErrorMode` | 1 (0x1) | Exported Function | kernel32.GetErrorMode | 0x00001104
-`GetLastError` | 2 (0x2) | Exported Function | kernel32.GetLastError | 0x00001127
-`RaiseException` | 3 (0x3) | Exported Function | kernel32.RaiseException | 0x0000114c
-`SetErrorMode` | 4 (0x4) | Exported Function | kernel32.SetErrorMode | 0x00001171
-`SetLastError` | 5 (0x5) | Exported Function | kernel32.SetLastError | 0x00001194
-`SetUnhandledExceptionFilter` | 6 (0x6) | Exported Function | kernel32.SetUnhandledExceptionFilter | 0x000011c6
-`UnhandledExceptionFilter` | 7 (0x7) | Exported Function | kernel32.UnhandledExceptionFilter | 0x00001204
+Function Name | Ordinal | Type
+-- | -- | --
+`SetLastError` | 5 | Exported Function
+`SetUnhandledExceptionFilter` | 6 | Exported Function
+`UnhandledExceptionFilter` | 7 | Exported Function
+`SetErrorMode` | 4 | Exported Function
+`GetErrorMode` | 1 | Exported Function
+`GetLastError` | 2 | Exported Function
+`RaiseException` | 3 | Exported Function
 
 
 ## Signature
@@ -64,6 +64,7 @@ Function Name | Ordinal | Type | Address | Relative Address
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 41
+[C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\Smart Tag\SmartTagInstall.exe](SmartTagInstall.exe-632AB2DBE46DE1E9BB0FB7B54B3BB05C.md) | 33
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 46
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 25
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 43

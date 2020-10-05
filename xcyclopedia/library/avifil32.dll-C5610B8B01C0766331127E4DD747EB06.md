@@ -24,84 +24,84 @@ PE256 | `2ED51E1AF4089418DC84A71C44E0616FC1B6AA463F2D67F04A6B91E75837FEDC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AVIBuildFilter` | 1 (0x1) | Exported Function | 0x000000011c308000 | 0x00008000
-`AVIStreamSetFormat` | 55 (0x37) | Exported Function | 0x000000011c307040 | 0x00007040
-`AVIStreamSampleToTime` | 54 (0x36) | Exported Function | 0x000000011c3074e0 | 0x000074e0
-`AVIStreamRelease` | 53 (0x35) | Exported Function | 0x000000011c306da0 | 0x00006da0
-`AVIStreamReadFormat` | 52 (0x34) | Exported Function | 0x000000011c307020 | 0x00007020
-`AVIStreamReadData` | 51 (0x33) | Exported Function | 0x000000011c307250 | 0x00007250
-`AVIStreamRead` | 50 (0x32) | Exported Function | 0x000000011c307290 | 0x00007290
-`AVIStreamOpenFromFileW` | 49 (0x31) | Exported Function | 0x000000011c3075e0 | 0x000075e0
-`AVIStreamOpenFromFileA` | 48 (0x30) | Exported Function | 0x000000011c307670 | 0x00007670
-`AVIStreamOpenFromFile` | 47 (0x2f) | Exported Function | 0x000000011c307670 | 0x00007670
-`AVIStreamLength` | 46 (0x2e) | Exported Function | 0x000000011c307390 | 0x00007390
-`AVIStreamInfoW` | 45 (0x2d) | Exported Function | 0x000000011c307080 | 0x00007080
-`AVIStreamInfoA` | 44 (0x2c) | Exported Function | 0x000000011c3070e0 | 0x000070e0
-`AVIStreamInfo` | 43 (0x2b) | Exported Function | 0x000000011c3070e0 | 0x000070e0
-`AVIStreamGetFrameOpen` | 42 (0x2a) | Exported Function | 0x000000011c313fe0 | 0x00013fe0
-`AVIStreamGetFrameClose` | 41 (0x29) | Exported Function | 0x000000011c314110 | 0x00014110
-`AVIStreamStart` | 56 (0x38) | Exported Function | 0x000000011c307320 | 0x00007320
-`AVIStreamGetFrame` | 40 (0x28) | Exported Function | 0x000000011c314140 | 0x00014140
-`AVIStreamTimeToSample` | 57 (0x39) | Exported Function | 0x000000011c3073f0 | 0x000073f0
-`AVIStreamWriteData` | 59 (0x3b) | Exported Function | 0x000000011c307270 | 0x00007270
-`IID_IAVIFile` | 74 (0x4a) | Exported Function | 0x000000011c319270 | 0x00019270
-`IID_IAVIEditStream` | 73 (0x49) | Exported Function | 0x000000011c3192c0 | 0x000192c0
-`EditStreamSetNameW` | 72 (0x48) | Exported Function | 0x000000011c310ec0 | 0x00010ec0
-`EditStreamSetNameA` | 71 (0x47) | Exported Function | 0x000000011c310fe0 | 0x00010fe0
-`EditStreamSetName` | 70 (0x46) | Exported Function | 0x000000011c310fe0 | 0x00010fe0
-`EditStreamSetInfoW` | 69 (0x45) | Exported Function | 0x000000011c310d00 | 0x00010d00
-`EditStreamSetInfoA` | 68 (0x44) | Exported Function | 0x000000011c310da0 | 0x00010da0
-`EditStreamSetInfo` | 67 (0x43) | Exported Function | 0x000000011c310da0 | 0x00010da0
-`EditStreamPaste` | 66 (0x42) | Exported Function | 0x000000011c310bb0 | 0x00010bb0
-`EditStreamCut` | 65 (0x41) | Exported Function | 0x000000011c310a70 | 0x00010a70
-`EditStreamCopy` | 64 (0x40) | Exported Function | 0x000000011c310b10 | 0x00010b10
-`EditStreamClone` | 63 (0x3f) | Exported Function | 0x000000011c310c70 | 0x00010c70
-`DllGetClassObject` | 62 (0x3e) | Exported Function | 0x000000011c306260 | 0x00006260
-`DllCanUnloadNow` | 61 (0x3d) | Exported Function | 0x000000011c308320 | 0x00008320
-`CreateEditableStream` | 60 (0x3c) | Exported Function | 0x000000011c3113e0 | 0x000113e0
-`AVIStreamWrite` | 58 (0x3a) | Exported Function | 0x000000011c3072d0 | 0x000072d0
-`AVIStreamFindSample` | 39 (0x27) | Exported Function | 0x000000011c307210 | 0x00007210
-`AVIStreamEndStreaming` | 38 (0x26) | Exported Function | 0x000000011c307850 | 0x00007850
-`AVIStreamCreate` | 37 (0x25) | Exported Function | 0x000000011c307700 | 0x00007700
-`AVIFileOpen` | 16 (0x10) | Exported Function | 0x000000011c306cc0 | 0x00006cc0
-`AVIFileInit` | 15 (0xf) | Exported Function | 0x000000011c306810 | 0x00006810
-`AVIFileInfoW` | 14 (0xe) | Exported Function | 0x000000011c306dc0 | 0x00006dc0
-`AVIFileInfoA` | 13 (0xd) | Exported Function | 0x000000011c306e20 | 0x00006e20
-`AVIFileInfo` | 12 (0xc) | Exported Function | 0x000000011c306e20 | 0x00006e20
-`AVIFileGetStream` | 11 (0xb) | Exported Function | 0x000000011c306f10 | 0x00006f10
-`AVIFileExit` | 10 (0xa) | Exported Function | 0x000000011c306830 | 0x00006830
-`AVIFileEndRecord` | 9 (0x9) | Exported Function | 0x000000011c307060 | 0x00007060
-`AVIFileCreateStreamW` | 8 (0x8) | Exported Function | 0x000000011c306f30 | 0x00006f30
-`AVIFileCreateStreamA` | 7 (0x7) | Exported Function | 0x000000011c306f50 | 0x00006f50
-`AVIFileCreateStream` | 6 (0x6) | Exported Function | 0x000000011c306f30 | 0x00006f30
-`AVIFileAddRef` | 5 (0x5) | Exported Function | 0x000000011c306d80 | 0x00006d80
-`AVIClearClipboard` | 4 (0x4) | Exported Function | 0x000000011c3041e0 | 0x000041e0
-`AVIBuildFilterW` | 3 (0x3) | Exported Function | 0x000000011c307a30 | 0x00007a30
-`AVIBuildFilterA` | 2 (0x2) | Exported Function | 0x000000011c308000 | 0x00008000
-`AVIFileOpenA` | 17 (0x11) | Exported Function | 0x000000011c306cc0 | 0x00006cc0
-`AVIFileOpenW` | 18 (0x12) | Exported Function | 0x000000011c306ae0 | 0x00006ae0
-`AVIFileReadData` | 19 (0x13) | Exported Function | 0x000000011c307040 | 0x00007040
-`AVIFileRelease` | 20 (0x14) | Exported Function | 0x000000011c306da0 | 0x00006da0
-`AVIStreamBeginStreaming` | 36 (0x24) | Exported Function | 0x000000011c3077c0 | 0x000077c0
-`AVIStreamAddRef` | 35 (0x23) | Exported Function | 0x000000011c306d80 | 0x00006d80
-`AVISaveW` | 34 (0x22) | Exported Function | 0x000000011c301010 | 0x00001010
-`AVISaveVW` | 33 (0x21) | Exported Function | 0x000000011c301610 | 0x00001610
-`AVISaveVA` | 32 (0x20) | Exported Function | 0x000000011c301400 | 0x00001400
-`AVISaveV` | 31 (0x1f) | Exported Function | 0x000000011c301400 | 0x00001400
-`AVISaveOptionsFree` | 30 (0x1e) | Exported Function | 0x000000011c3025e0 | 0x000025e0
-`IID_IAVIStream` | 75 (0x4b) | Exported Function | 0x000000011c319280 | 0x00019280
-`AVISaveOptions` | 29 (0x1d) | Exported Function | 0x000000011c302480 | 0x00002480
-`AVISave` | 27 (0x1b) | Exported Function | 0x000000011c301200 | 0x00001200
-`AVIPutFileOnClipboard` | 26 (0x1a) | Exported Function | 0x000000011c303e10 | 0x00003e10
-`AVIMakeStreamFromClipboard` | 25 (0x19) | Exported Function | 0x000000011c310500 | 0x00010500
-`AVIMakeFileFromStreams` | 24 (0x18) | Exported Function | 0x000000011c310070 | 0x00010070
-`AVIMakeCompressedStream` | 23 (0x17) | Exported Function | 0x000000011c3078d0 | 0x000078d0
-`AVIGetFromClipboard` | 22 (0x16) | Exported Function | 0x000000011c304000 | 0x00004000
-`AVIFileWriteData` | 21 (0x15) | Exported Function | 0x000000011c307020 | 0x00007020
-`AVISaveA` | 28 (0x1c) | Exported Function | 0x000000011c301200 | 0x00001200
-`IID_IGetFrame` | 76 (0x4c) | Exported Function | 0x000000011c3192a0 | 0x000192a0
+Function Name | Ordinal | Type
+-- | -- | --
+`AVIStreamReadData` | 51 | Exported Function
+`AVIStreamReadFormat` | 52 | Exported Function
+`AVIStreamOpenFromFileW` | 49 | Exported Function
+`AVIStreamRead` | 50 | Exported Function
+`AVIStreamRelease` | 53 | Exported Function
+`AVIStreamStart` | 56 | Exported Function
+`AVIStreamTimeToSample` | 57 | Exported Function
+`AVIStreamSampleToTime` | 54 | Exported Function
+`AVIStreamSetFormat` | 55 | Exported Function
+`AVIStreamOpenFromFileA` | 48 | Exported Function
+`AVIStreamGetFrameClose` | 41 | Exported Function
+`AVIStreamGetFrameOpen` | 42 | Exported Function
+`AVIStreamFindSample` | 39 | Exported Function
+`AVIStreamGetFrame` | 40 | Exported Function
+`AVIStreamInfo` | 43 | Exported Function
+`AVIStreamLength` | 46 | Exported Function
+`AVIStreamOpenFromFile` | 47 | Exported Function
+`AVIStreamInfoA` | 44 | Exported Function
+`AVIStreamInfoW` | 45 | Exported Function
+`EditStreamSetName` | 70 | Exported Function
+`EditStreamSetNameA` | 71 | Exported Function
+`EditStreamSetInfoA` | 68 | Exported Function
+`EditStreamSetInfoW` | 69 | Exported Function
+`EditStreamSetNameW` | 72 | Exported Function
+`IID_IAVIStream` | 75 | Exported Function
+`IID_IGetFrame` | 76 | Exported Function
+`IID_IAVIEditStream` | 73 | Exported Function
+`IID_IAVIFile` | 74 | Exported Function
+`EditStreamSetInfo` | 67 | Exported Function
+`CreateEditableStream` | 60 | Exported Function
+`DllCanUnloadNow` | 61 | Exported Function
+`AVIStreamWrite` | 58 | Exported Function
+`AVIStreamWriteData` | 59 | Exported Function
+`DllGetClassObject` | 62 | Exported Function
+`EditStreamCut` | 65 | Exported Function
+`EditStreamPaste` | 66 | Exported Function
+`EditStreamClone` | 63 | Exported Function
+`EditStreamCopy` | 64 | Exported Function
+`AVIFileInfoA` | 13 | Exported Function
+`AVIFileInfoW` | 14 | Exported Function
+`AVIFileGetStream` | 11 | Exported Function
+`AVIFileInfo` | 12 | Exported Function
+`AVIFileInit` | 15 | Exported Function
+`AVIFileOpenW` | 18 | Exported Function
+`AVIFileReadData` | 19 | Exported Function
+`AVIFileOpen` | 16 | Exported Function
+`AVIFileOpenA` | 17 | Exported Function
+`AVIFileExit` | 10 | Exported Function
+`AVIBuildFilterW` | 3 | Exported Function
+`AVIClearClipboard` | 4 | Exported Function
+`AVIBuildFilter` | 1 | Exported Function
+`AVIBuildFilterA` | 2 | Exported Function
+`AVIFileAddRef` | 5 | Exported Function
+`AVIFileCreateStreamW` | 8 | Exported Function
+`AVIFileEndRecord` | 9 | Exported Function
+`AVIFileCreateStream` | 6 | Exported Function
+`AVIFileCreateStreamA` | 7 | Exported Function
+`AVISaveVA` | 32 | Exported Function
+`AVISaveVW` | 33 | Exported Function
+`AVISaveOptionsFree` | 30 | Exported Function
+`AVISaveV` | 31 | Exported Function
+`AVISaveW` | 34 | Exported Function
+`AVIStreamCreate` | 37 | Exported Function
+`AVIStreamEndStreaming` | 38 | Exported Function
+`AVIStreamAddRef` | 35 | Exported Function
+`AVIStreamBeginStreaming` | 36 | Exported Function
+`AVISaveOptions` | 29 | Exported Function
+`AVIGetFromClipboard` | 22 | Exported Function
+`AVIMakeCompressedStream` | 23 | Exported Function
+`AVIFileRelease` | 20 | Exported Function
+`AVIFileWriteData` | 21 | Exported Function
+`AVIMakeFileFromStreams` | 24 | Exported Function
+`AVISave` | 27 | Exported Function
+`AVISaveA` | 28 | Exported Function
+`AVIMakeStreamFromClipboard` | 25 | Exported Function
+`AVIPutFileOnClipboard` | 26 | Exported Function
 
 
 ## Signature

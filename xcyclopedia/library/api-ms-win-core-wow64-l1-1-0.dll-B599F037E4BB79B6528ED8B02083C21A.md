@@ -24,11 +24,11 @@ PE256 | `41CE5F7FA7016A98484ED9C304565637E47BA0CEBC0A4B90245F5E95D65E4500`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IsWow64Process` | 1 (0x1) | Exported Function | kernel32.IsWow64Process | 0x000010d6
-`Wow64DisableWow64FsRedirection` | 2 (0x2) | Exported Function | kernel32.Wow64DisableWow64FsRedirection | 0x0000110d
-`Wow64RevertWow64FsRedirection` | 3 (0x3) | Exported Function | kernel32.Wow64RevertWow64FsRedirection | 0x00001153
+Function Name | Ordinal | Type
+-- | -- | --
+`Wow64RevertWow64FsRedirection` | 3 | Exported Function
+`Wow64DisableWow64FsRedirection` | 2 | Exported Function
+`IsWow64Process` | 1 | Exported Function
 
 
 ## Signature

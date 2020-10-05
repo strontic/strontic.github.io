@@ -24,17 +24,17 @@ PE256 | `0FCAE0C46AE51D5CA3CEA2F8067535BEDBC91CC7D99B7D7FC411D4FF564E94DA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 1 (0x1) | Exported Function | 0x00000001800017a0 | 0x000017a0
-`DllUnregisterServer` | 2 (0x2) | Exported Function | 0x00000001800017a0 | 0x000017a0
-`HrGetPnpDeviceStatus` | 3 (0x3) | Exported Function | 0x0000000180001e90 | 0x00001e90
-`HrLanConnectionNameFromGuidOrPath` | 4 (0x4) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`HrPnpInstanceIdFromGuid` | 5 (0x5) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`HrQueryLanMediaState` | 6 (0x6) | Exported Function | 0x0000000180001cd0 | 0x00001cd0
-`NetManDiagFromCommandArgs` | 7 (0x7) | Exported Function | 0x0000000180010610 | 0x00010610
-`ServiceMain` | 8 (0x8) | Exported Function | 0x00000001800016a0 | 0x000016a0
-`SvchostPushServiceGlobals` | 9 (0x9) | Exported Function | 0x0000000180006520 | 0x00006520
+Function Name | Ordinal | Type
+-- | -- | --
+`NetManDiagFromCommandArgs` | 7 | Exported Function
+`HrQueryLanMediaState` | 6 | Exported Function
+`SvchostPushServiceGlobals` | 9 | Exported Function
+`ServiceMain` | 8 | Exported Function
+`HrPnpInstanceIdFromGuid` | 5 | Exported Function
+`DllUnregisterServer` | 2 | Exported Function
+`DllRegisterServer` | 1 | Exported Function
+`HrLanConnectionNameFromGuidOrPath` | 4 | Exported Function
+`HrGetPnpDeviceStatus` | 3 | Exported Function
 
 
 ## Signature

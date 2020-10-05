@@ -24,11 +24,11 @@ PE256 | `B882B5F59DF404F69BC25153722F7F01CF68316A8EAFB7329AD7522D99A3D461`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180005d30 | 0x00005d30
-`ServiceMain` | 1 (0x1) | Exported Function | 0x0000000180005d80 | 0x00005d80
-`SvchostPushServiceGlobalsEx` | 2 (0x2) | Exported Function | 0x00000001800059a0 | 0x000059a0
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobalsEx` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

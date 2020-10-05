@@ -24,9 +24,9 @@ PE256 | `EE20C8ABA8E061D9807190A8E9EAF89BDBA98D750B4772A721E26C1BD9698346`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreatePackageFactory` | 1 (0x1) | Exported Function | 0x0000000180010c50 | 0x00010c50
+Function Name | Ordinal | Type
+-- | -- | --
+`CreatePackageFactory` | 1 | Exported Function
 
 
 ## Signature

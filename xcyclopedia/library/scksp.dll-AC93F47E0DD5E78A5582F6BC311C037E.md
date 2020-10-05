@@ -24,10 +24,10 @@ PE256 | `4063FED102E167A66F379E9BA6A16104D0BB047B814702F4A6C56B0460B994C3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x0000000180001540 | 0x00001540
-`GetKeyStorageInterface` | 2 (0x2) | Exported Function | 0x000000018000b6e0 | 0x0000b6e0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetKeyStorageInterface` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
 
 
 ## Signature

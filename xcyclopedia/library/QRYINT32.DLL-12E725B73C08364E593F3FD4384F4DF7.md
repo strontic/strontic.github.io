@@ -1,0 +1,55 @@
+﻿---
+title: QRYINT32.DLL | Microsoft Query
+excerpt: What is QRYINT32.DLL?
+---
+
+# QRYINT32.DLL 
+
+* File Path: `C:\Program Files (x86)\Microsoft Office\root\Office16\1033\QRYINT32.DLL`
+* Description: Microsoft Query
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `12E725B73C08364E593F3FD4384F4DF7`
+SHA1 | `CE24C39BDCE798C2913457727EEB174D50CA6B5B`
+SHA256 | `A8AD95E4FE48DC078E0129255F9BD44DDB194C20D4ABA3FAA1671B0BE826CB2A`
+SHA384 | `81A78BF9989E23FBAFCDFB70E2B740F399E9E79D31A2365C570F669A03399ED3BF120DCD604051D5C754399E930EB94E`
+SHA512 | `5887620E840A963A13E6ADF2B7812E730164331B9A9ABEA8E077570C9375D801311B1C6DC846DCC934171D865ED80046290934A0B55597A7ADB65CBB91327332`
+SSDEEP | `1536:tNmzzz29A8MzM2MX2pH8U1vZO3TyN4lODgaoHHyrE27Ex9y7937rku7bAP:ivZO32N4cDga/AxIRt7sP`
+IMP | `n/a`
+PESHA1 | `D4CC763015777D73CF88F60DEE61CE713B608DF5`
+PE256 | `BDEFECE9685BFBAA278D79FCB79E5D274B1C350BF7A0E86E1203054EF275751A`
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000014096A9EE7056FECC07000100000140`
+* Thumbprint: `98ED99A67886D020C564923B7DF25E9AC019DF26`
+* Issuer: CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: QRYINT32.DLL
+* Product Name: Microsoft Office 2016
+* Company Name: Microsoft Corporation
+* File Version: 16.0.8326.2076
+* Product Version: 16.0.8326.2076
+* Language: English (United States)
+* Legal Copyright: 
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/a8ad95e4fe48dc078e0129255f9bd44ddb194c20d4aba3faa1671b0be826cb2a/detection/
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

@@ -24,19 +24,19 @@ PE256 | `9C546109A5F19FB48A9ECB5EF86D155E1AFE575C6A9C915C9E336E273878BA13`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x000000018002db70 | 0x0002db70
-`DllGetActivationFactory` | 4 (0x4) | Exported Function | 0x000000018002dba0 | 0x0002dba0
-`GetAppInventoryCore` | 1 (0x1) | Exported Function | 0x000000018001a860 | 0x0001a860
-`PicAmiClose` | 5 (0x5) | Exported Function | 0x00000001800164c0 | 0x000164c0
-`PicAmiInitialize` | 6 (0x6) | Exported Function | 0x000000018002d080 | 0x0002d080
-`PicFreeFileInfo` | 7 (0x7) | Exported Function | 0x0000000180016260 | 0x00016260
-`PicRetrieveFileInfo` | 8 (0x8) | Exported Function | 0x0000000180012810 | 0x00012810
-`PicRetrieveFileInfoAppx` | 9 (0x9) | Exported Function | 0x000000018002d090 | 0x0002d090
-`PicRetrieveFileLastRunTime` | 10 (0xa) | Exported Function | 0x000000018002d260 | 0x0002d260
-`PicUpdateFileLastRunTime` | 11 (0xb) | Exported Function | 0x000000018002d350 | 0x0002d350
-`UpdateSoftwareInventoryTC2` | 2 (0x2) | Exported Function | 0x0000000180036f30 | 0x00036f30
+Function Name | Ordinal | Type
+-- | -- | --
+`PicRetrieveFileInfoAppx` | 9 | Exported Function
+`PicRetrieveFileInfo` | 8 | Exported Function
+`PicRetrieveFileLastRunTime` | 10 | Exported Function
+`UpdateSoftwareInventoryTC2` | 2 | Exported Function
+`PicUpdateFileLastRunTime` | 11 | Exported Function
+`PicFreeFileInfo` | 7 | Exported Function
+`DllGetActivationFactory` | 4 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`GetAppInventoryCore` | 1 | Exported Function
+`PicAmiInitialize` | 6 | Exported Function
+`PicAmiClose` | 5 | Exported Function
 
 
 ## Signature

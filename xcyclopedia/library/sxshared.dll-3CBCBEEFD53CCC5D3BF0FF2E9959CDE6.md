@@ -24,20 +24,20 @@ PE256 | `C9FEF91F1E9815AEF3C9C18118D2A223CECE3D36598DF7CA62A2D1CFEE1EB672`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x10002ce0 | 0x00002ce0
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x10002d00 | 0x00002d00
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x10002d20 | 0x00002d20
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x10002d30 | 0x00002d30
-`GetLastFailureAsHRESULT` | 1 (0x1) | Exported Function | 0x10001910 | 0x00001910
-`HRESULTFromNTSTATUS` | 2 (0x2) | Exported Function | 0x10001980 | 0x00001980
-`SxTracerDebuggerBreak` | 9 (0x9) | Exported Function | 0x100025b0 | 0x000025b0
-`SxTracerGetThreadContextDebug` | 10 (0xa) | Exported Function | 0x10002d40 | 0x00002d40
-`SxTracerGetThreadContextRetail` | 11 (0xb) | Exported Function | 0x10001b80 | 0x00001b80
-`SxTracerShouldTrackFailure` | 12 (0xc) | Exported Function | 0x10001b60 | 0x00001b60
-`Win32FromHRESULT` | 3 (0x3) | Exported Function | 0x100019f0 | 0x000019f0
-`Win32FromNTSTATUS` | 4 (0x4) | Exported Function | 0x10001b30 | 0x00001b30
+Function Name | Ordinal | Type
+-- | -- | --
+`SxTracerGetThreadContextRetail` | 11 | Exported Function
+`SxTracerGetThreadContextDebug` | 10 | Exported Function
+`SxTracerDebuggerBreak` | 9 | Exported Function
+`Win32FromNTSTATUS` | 4 | Exported Function
+`Win32FromHRESULT` | 3 | Exported Function
+`SxTracerShouldTrackFailure` | 12 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`HRESULTFromNTSTATUS` | 2 | Exported Function
+`GetLastFailureAsHRESULT` | 1 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
 
 
 ## Signature

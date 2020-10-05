@@ -24,9 +24,9 @@ PE256 | `753D6E0E4E84D83623D0B566BE31C6EED5CBD4967242EB611AB8CBE68A2560C6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ServerDllInitialization` | 1 (0x1) | Exported Function | 0x0000000180005100 | 0x00005100
+Function Name | Ordinal | Type
+-- | -- | --
+`ServerDllInitialization` | 1 | Exported Function
 
 
 ## Signature

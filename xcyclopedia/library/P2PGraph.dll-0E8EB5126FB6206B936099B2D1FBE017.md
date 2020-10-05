@@ -24,48 +24,48 @@ PE256 | `8C3C1CBA23BBF8C630304FF70767D19D33A120A2D7427C424B250AB11C183B80`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PeerGraphAddRecord` | 3 (0x3) | Exported Function | 0x10006770 | 0x00006770
-`PeerGraphListen` | 24 (0x18) | Exported Function | 0x10006090 | 0x00006090
-`PeerGraphOpen` | 25 (0x19) | Exported Function | 0x10005ed0 | 0x00005ed0
-`PeerGraphOpenDirectConnection` | 26 (0x1a) | Exported Function | 0x10006bc0 | 0x00006bc0
-`PeerGraphPeerTimeToUniversalTime` | 27 (0x1b) | Exported Function | 0x10006ee0 | 0x00006ee0
-`PeerGraphRegisterEvent` | 28 (0x1c) | Exported Function | 0x10006530 | 0x00006530
-`PeerGraphSearchRecords` | 29 (0x1d) | Exported Function | 0x100069b0 | 0x000069b0
-`PeerGraphSendData` | 30 (0x1e) | Exported Function | 0x10006c40 | 0x00006c40
-`PeerGraphImportDatabase` | 23 (0x17) | Exported Function | 0x10006ac0 | 0x00006ac0
-`PeerGraphSetNodeAttributes` | 31 (0x1f) | Exported Function | 0x100064b0 | 0x000064b0
-`PeerGraphSetProperties` | 33 (0x21) | Exported Function | 0x10006330 | 0x00006330
-`PeerGraphShutdown` | 34 (0x22) | Exported Function | 0x10005b40 | 0x00005b40
-`PeerGraphStartup` | 35 (0x23) | Exported Function | 0x10005a30 | 0x00005a30
-`PeerGraphSuspendTimers` | 36 (0x24) | Exported Function | 0x10006010 | 0x00006010
-`PeerGraphUniversalTimeToPeerTime` | 37 (0x25) | Exported Function | 0x10006f70 | 0x00006f70
-`PeerGraphUnregisterEvent` | 38 (0x26) | Exported Function | 0x100065e0 | 0x000065e0
-`PeerGraphUpdateRecord` | 39 (0x27) | Exported Function | 0x100067f0 | 0x000067f0
-`PeerGraphSetPresence` | 32 (0x20) | Exported Function | 0x10006e60 | 0x00006e60
-`PeerGraphGetStatus` | 22 (0x16) | Exported Function | 0x10006430 | 0x00006430
-`PeerGraphGetRecord` | 21 (0x15) | Exported Function | 0x100066f0 | 0x000066f0
-`PeerGraphGetProperties` | 20 (0x14) | Exported Function | 0x100062b0 | 0x000062b0
-`PeerGraphClose` | 4 (0x4) | Exported Function | 0x10006190 | 0x00006190
-`PeerGraphCloseDirectConnection` | 5 (0x5) | Exported Function | 0x10006cc0 | 0x00006cc0
-`PeerGraphConnect` | 6 (0x6) | Exported Function | 0x10006110 | 0x00006110
-`PeerGraphCreate` | 7 (0x7) | Exported Function | 0x10005d90 | 0x00005d90
-`PeerGraphDelete` | 8 (0x8) | Exported Function | 0x10006260 | 0x00006260
-`PeerGraphDeleteRecord` | 9 (0x9) | Exported Function | 0x10006870 | 0x00006870
-`PeerGraphEndEnumeration` | 10 (0xa) | Exported Function | 0x10005d00 | 0x00005d00
-`PeerGraphEnumConnections` | 11 (0xb) | Exported Function | 0x10006d40 | 0x00006d40
-`PeerGraphEnumNodes` | 12 (0xc) | Exported Function | 0x10006dd0 | 0x00006dd0
-`PeerGraphEnumRecords` | 13 (0xd) | Exported Function | 0x10006910 | 0x00006910
-`PeerGraphExportDatabase` | 14 (0xe) | Exported Function | 0x10006a40 | 0x00006a40
-`PeerGraphForceStopPresencePrivate` | 1 (0x1) | Exported Function | 0x10007000 | 0x00007000
-`PeerGraphFreeData` | 15 (0xf) | Exported Function | 0x10005bb0 | 0x00005bb0
-`PeerGraphGetEventData` | 16 (0x10) | Exported Function | 0x10006670 | 0x00006670
-`PeerGraphGetItemCount` | 17 (0x11) | Exported Function | 0x10005c00 | 0x00005c00
-`PeerGraphGetNextItem` | 18 (0x12) | Exported Function | 0x10005c80 | 0x00005c80
-`PeerGraphGetNodeInfo` | 19 (0x13) | Exported Function | 0x100063b0 | 0x000063b0
-`PeerGraphValidateDeferredRecords` | 40 (0x28) | Exported Function | 0x10006b40 | 0x00006b40
-`pMemoryHelper` | 2 (0x2) | Exported Function | 0x10052054 | 0x00052054
+Function Name | Ordinal | Type
+-- | -- | --
+`PeerGraphRegisterEvent` | 28 | Exported Function
+`PeerGraphPeerTimeToUniversalTime` | 27 | Exported Function
+`PeerGraphSearchRecords` | 29 | Exported Function
+`PeerGraphSetNodeAttributes` | 31 | Exported Function
+`PeerGraphSendData` | 30 | Exported Function
+`PeerGraphImportDatabase` | 23 | Exported Function
+`PeerGraphGetStatus` | 22 | Exported Function
+`PeerGraphListen` | 24 | Exported Function
+`PeerGraphOpenDirectConnection` | 26 | Exported Function
+`PeerGraphOpen` | 25 | Exported Function
+`PeerGraphUnregisterEvent` | 38 | Exported Function
+`PeerGraphUniversalTimeToPeerTime` | 37 | Exported Function
+`PeerGraphUpdateRecord` | 39 | Exported Function
+`pMemoryHelper` | 2 | Exported Function
+`PeerGraphValidateDeferredRecords` | 40 | Exported Function
+`PeerGraphSetProperties` | 33 | Exported Function
+`PeerGraphSetPresence` | 32 | Exported Function
+`PeerGraphShutdown` | 34 | Exported Function
+`PeerGraphSuspendTimers` | 36 | Exported Function
+`PeerGraphStartup` | 35 | Exported Function
+`PeerGraphDeleteRecord` | 9 | Exported Function
+`PeerGraphDelete` | 8 | Exported Function
+`PeerGraphEndEnumeration` | 10 | Exported Function
+`PeerGraphEnumNodes` | 12 | Exported Function
+`PeerGraphEnumConnections` | 11 | Exported Function
+`PeerGraphClose` | 4 | Exported Function
+`PeerGraphAddRecord` | 3 | Exported Function
+`PeerGraphCloseDirectConnection` | 5 | Exported Function
+`PeerGraphCreate` | 7 | Exported Function
+`PeerGraphConnect` | 6 | Exported Function
+`PeerGraphGetNextItem` | 18 | Exported Function
+`PeerGraphGetItemCount` | 17 | Exported Function
+`PeerGraphGetNodeInfo` | 19 | Exported Function
+`PeerGraphGetRecord` | 21 | Exported Function
+`PeerGraphGetProperties` | 20 | Exported Function
+`PeerGraphExportDatabase` | 14 | Exported Function
+`PeerGraphEnumRecords` | 13 | Exported Function
+`PeerGraphForceStopPresencePrivate` | 1 | Exported Function
+`PeerGraphGetEventData` | 16 | Exported Function
+`PeerGraphFreeData` | 15 | Exported Function
 
 
 ## Signature

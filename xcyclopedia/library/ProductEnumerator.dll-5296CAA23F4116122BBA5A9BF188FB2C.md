@@ -24,9 +24,9 @@ PE256 | `19F2A53095136D1D7FEBF2D5822A005EDD19A1F4AA376CF28E8403E0A9F70F82`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PE_CreateProductEnumerator` | 1 (0x1) | Exported Function | 0x0000000180001190 | 0x00001190
+Function Name | Ordinal | Type
+-- | -- | --
+`PE_CreateProductEnumerator` | 1 | Exported Function
 
 
 ## Signature

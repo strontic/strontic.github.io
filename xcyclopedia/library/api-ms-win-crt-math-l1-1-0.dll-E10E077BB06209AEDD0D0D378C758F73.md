@@ -24,298 +24,298 @@ PE256 | `A32D4AC7D309A4527403AB4E2962D33C84A413853849FDF5091C1507AD2ABB31`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__setusermatherr` | 10 (0xa) | Exported Function | ucrtbase.__setusermatherr | 0x00001dc9
-`fmaxf` | 197 (0xc5) | Exported Function | ucrtbase.fmaxf | 0x00002e67
-`fmax` | 196 (0xc4) | Exported Function | ucrtbase.fmax | 0x00002e53
-`fmal` | 195 (0xc3) | Exported Function | ucrtbase.fmal | 0x00002e40
-`fmaf` | 194 (0xc2) | Exported Function | ucrtbase.fmaf | 0x00002e2d
-`fma` | 193 (0xc1) | Exported Function | ucrtbase.fma | 0x00002e1b
-`floorf` | 192 (0xc0) | Exported Function | ucrtbase.floorf | 0x00002e07
-`fmaxl` | 198 (0xc6) | Exported Function | ucrtbase.fmaxl | 0x00002e7c
-`floor` | 191 (0xbf) | Exported Function | ucrtbase.floor | 0x00002df1
-`fdimf` | 189 (0xbd) | Exported Function | ucrtbase.fdimf | 0x00002dc7
-`fdim` | 188 (0xbc) | Exported Function | ucrtbase.fdim | 0x00002db3
-`fabs` | 187 (0xbb) | Exported Function | ucrtbase.fabs | 0x00002da0
-`expm1l` | 186 (0xba) | Exported Function | ucrtbase.expm1l | 0x00002d8b
-`expm1f` | 185 (0xb9) | Exported Function | ucrtbase.expm1f | 0x00002d74
-`expm1` | 184 (0xb8) | Exported Function | ucrtbase.expm1 | 0x00002d5e
-`fdiml` | 190 (0xbe) | Exported Function | ucrtbase.fdiml | 0x00002ddc
-`expf` | 183 (0xb7) | Exported Function | ucrtbase.expf | 0x00002d4a
-`fmin` | 199 (0xc7) | Exported Function | ucrtbase.fmin | 0x00002e90
-`fminl` | 201 (0xc9) | Exported Function | ucrtbase.fminl | 0x00002eb9
-`llrintl` | 215 (0xd7) | Exported Function | ucrtbase.llrintl | 0x00002ff3
-`llrintf` | 214 (0xd6) | Exported Function | ucrtbase.llrintf | 0x00002fda
-`llrint` | 213 (0xd5) | Exported Function | ucrtbase.llrint | 0x00002fc2
-`lgammal` | 212 (0xd4) | Exported Function | ucrtbase.lgammal | 0x00002faa
-`lgammaf` | 211 (0xd3) | Exported Function | ucrtbase.lgammaf | 0x00002f91
-`lgamma` | 210 (0xd2) | Exported Function | ucrtbase.lgamma | 0x00002f79
-`fminf` | 200 (0xc8) | Exported Function | ucrtbase.fminf | 0x00002ea4
-`ldexp` | 209 (0xd1) | Exported Function | ucrtbase.ldexp | 0x00002f63
-`ilogbf` | 207 (0xcf) | Exported Function | ucrtbase.ilogbf | 0x00002f36
-`ilogb` | 206 (0xce) | Exported Function | ucrtbase.ilogb | 0x00002f20
-`hypot` | 205 (0xcd) | Exported Function | ucrtbase.hypot | 0x00002f0b
-`frexp` | 204 (0xcc) | Exported Function | ucrtbase.frexp | 0x00002ef6
-`fmodf` | 203 (0xcb) | Exported Function | ucrtbase.fmodf | 0x00002ee1
-`fmod` | 202 (0xca) | Exported Function | ucrtbase.fmod | 0x00002ecd
-`ilogbl` | 208 (0xd0) | Exported Function | ucrtbase.ilogbl | 0x00002f4d
-`llround` | 216 (0xd8) | Exported Function | ucrtbase.llround | 0x0000300c
-`exp2l` | 182 (0xb6) | Exported Function | ucrtbase.exp2l | 0x00002d36
-`exp2` | 180 (0xb4) | Exported Function | ucrtbase.exp2 | 0x00002d0d
-`csinhf` | 161 (0xa1) | Exported Function | ucrtbase.csinhf | 0x00002b84
-`csinh` | 160 (0xa0) | Exported Function | ucrtbase.csinh | 0x00002b6e
-`csinf` | 159 (0x9f) | Exported Function | ucrtbase.csinf | 0x00002b59
-`csin` | 158 (0x9e) | Exported Function | ucrtbase.csin | 0x00002b45
-`creall` | 157 (0x9d) | Exported Function | ucrtbase.creall | 0x00002b30
-`crealf` | 156 (0x9c) | Exported Function | ucrtbase.crealf | 0x00002b19
-`csinhl` | 162 (0xa2) | Exported Function | ucrtbase.csinhl | 0x00002b9b
-`creal` | 155 (0x9b) | Exported Function | ucrtbase.creal | 0x00002b03
-`cprojf` | 153 (0x99) | Exported Function | ucrtbase.cprojf | 0x00002ad6
-`cproj` | 152 (0x98) | Exported Function | ucrtbase.cproj | 0x00002ac0
-`cpowl` | 151 (0x97) | Exported Function | ucrtbase.cpowl | 0x00002aab
-`cpowf` | 150 (0x96) | Exported Function | ucrtbase.cpowf | 0x00002a96
-`cpow` | 149 (0x95) | Exported Function | ucrtbase.cpow | 0x00002a82
-`coshf` | 148 (0x94) | Exported Function | ucrtbase.coshf | 0x00002a6e
-`cprojl` | 154 (0x9a) | Exported Function | ucrtbase.cprojl | 0x00002aed
-`exp2f` | 181 (0xb5) | Exported Function | ucrtbase.exp2f | 0x00002d21
-`csinl` | 163 (0xa3) | Exported Function | ucrtbase.csinl | 0x00002bb1
-`csqrtf` | 165 (0xa5) | Exported Function | ucrtbase.csqrtf | 0x00002bdc
-`exp` | 179 (0xb3) | Exported Function | ucrtbase.exp | 0x00002cfb
-`erfl` | 178 (0xb2) | Exported Function | ucrtbase.erfl | 0x00002ce9
-`erff` | 177 (0xb1) | Exported Function | ucrtbase.erff | 0x00002cd6
-`erfcl` | 176 (0xb0) | Exported Function | ucrtbase.erfcl | 0x00002cc2
-`erfcf` | 175 (0xaf) | Exported Function | ucrtbase.erfcf | 0x00002cad
-`erfc` | 174 (0xae) | Exported Function | ucrtbase.erfc | 0x00002c99
-`csqrt` | 164 (0xa4) | Exported Function | ucrtbase.csqrt | 0x00002bc6
-`erf` | 173 (0xad) | Exported Function | ucrtbase.erf | 0x00002c87
-`ctanhl` | 171 (0xab) | Exported Function | ucrtbase.ctanhl | 0x00002c5e
-`ctanhf` | 170 (0xaa) | Exported Function | ucrtbase.ctanhf | 0x00002c47
-`ctanh` | 169 (0xa9) | Exported Function | ucrtbase.ctanh | 0x00002c31
-`ctanf` | 168 (0xa8) | Exported Function | ucrtbase.ctanf | 0x00002c1c
-`ctan` | 167 (0xa7) | Exported Function | ucrtbase.ctan | 0x00002c08
-`csqrtl` | 166 (0xa6) | Exported Function | ucrtbase.csqrtl | 0x00002bf3
-`ctanl` | 172 (0xac) | Exported Function | ucrtbase.ctanl | 0x00002c74
-`llroundf` | 217 (0xd9) | Exported Function | ucrtbase.llroundf | 0x00003026
-`llroundl` | 218 (0xda) | Exported Function | ucrtbase.llroundl | 0x00003041
-`log` | 219 (0xdb) | Exported Function | ucrtbase.log | 0x00003057
-`scalblnf` | 270 (0x10e) | Exported Function | ucrtbase.scalblnf | 0x00003509
-`scalbln` | 269 (0x10d) | Exported Function | ucrtbase.scalbln | 0x000034ef
-`roundl` | 268 (0x10c) | Exported Function | ucrtbase.roundl | 0x000034d7
-`roundf` | 267 (0x10b) | Exported Function | ucrtbase.roundf | 0x000034c0
-`round` | 266 (0x10a) | Exported Function | ucrtbase.round | 0x000034aa
-`rintl` | 265 (0x109) | Exported Function | ucrtbase.rintl | 0x00003495
-`scalblnl` | 271 (0x10f) | Exported Function | ucrtbase.scalblnl | 0x00003524
-`rintf` | 264 (0x108) | Exported Function | ucrtbase.rintf | 0x00003480
-`remquol` | 262 (0x106) | Exported Function | ucrtbase.remquol | 0x00003456
-`remquof` | 261 (0x105) | Exported Function | ucrtbase.remquof | 0x0000343d
-`remquo` | 260 (0x104) | Exported Function | ucrtbase.remquo | 0x00003425
-`remainderl` | 259 (0x103) | Exported Function | ucrtbase.remainderl | 0x0000340a
-`remainderf` | 258 (0x102) | Exported Function | ucrtbase.remainderf | 0x000033eb
-`remainder` | 257 (0x101) | Exported Function | ucrtbase.remainder | 0x000033cd
-`rint` | 263 (0x107) | Exported Function | ucrtbase.rint | 0x0000346c
-`powf` | 256 (0x100) | Exported Function | ucrtbase.powf | 0x000033b5
-`scalbn` | 272 (0x110) | Exported Function | ucrtbase.scalbn | 0x0000353d
-`scalbnl` | 274 (0x112) | Exported Function | ucrtbase.scalbnl | 0x0000356e
-`trunc` | 288 (0x120) | Exported Function | ucrtbase.trunc | 0x0000368e
-`tgammal` | 287 (0x11f) | Exported Function | ucrtbase.tgammal | 0x00003677
-`tgammaf` | 286 (0x11e) | Exported Function | ucrtbase.tgammaf | 0x0000365e
-`tgamma` | 285 (0x11d) | Exported Function | ucrtbase.tgamma | 0x00003646
-`tanhf` | 284 (0x11c) | Exported Function | ucrtbase.tanhf | 0x00003630
-`tanh` | 283 (0x11b) | Exported Function | ucrtbase.tanh | 0x0000361c
-`scalbnf` | 273 (0x111) | Exported Function | ucrtbase.scalbnf | 0x00003555
-`tanf` | 282 (0x11a) | Exported Function | ucrtbase.tanf | 0x00003609
-`sqrtf` | 280 (0x118) | Exported Function | ucrtbase.sqrtf | 0x000035e4
-`sqrt` | 279 (0x117) | Exported Function | ucrtbase.sqrt | 0x000035d0
-`sinhf` | 278 (0x116) | Exported Function | ucrtbase.sinhf | 0x000035bc
-`sinh` | 277 (0x115) | Exported Function | ucrtbase.sinh | 0x000035a8
-`sinf` | 276 (0x114) | Exported Function | ucrtbase.sinf | 0x00003595
-`sin` | 275 (0x113) | Exported Function | ucrtbase.sin | 0x00003583
-`tan` | 281 (0x119) | Exported Function | ucrtbase.tan | 0x000035f7
-`pow` | 255 (0xff) | Exported Function | ucrtbase.pow | 0x000033a3
-`norml` | 254 (0xfe) | Exported Function | ucrtbase.norml | 0x00003390
-`normf` | 253 (0xfd) | Exported Function | ucrtbase.normf | 0x0000337b
-`lrintf` | 233 (0xe9) | Exported Function | ucrtbase.lrintf | 0x0000317c
-`lrint` | 232 (0xe8) | Exported Function | ucrtbase.lrint | 0x00003166
-`logf` | 231 (0xe7) | Exported Function | ucrtbase.logf | 0x00003152
-`logbl` | 230 (0xe6) | Exported Function | ucrtbase.logbl | 0x0000313e
-`logbf` | 229 (0xe5) | Exported Function | ucrtbase.logbf | 0x00003129
-`logb` | 228 (0xe4) | Exported Function | ucrtbase.logb | 0x00003115
-`lrintl` | 234 (0xea) | Exported Function | ucrtbase.lrintl | 0x00003193
-`log2l` | 227 (0xe3) | Exported Function | ucrtbase.log2l | 0x00003101
-`log2` | 225 (0xe1) | Exported Function | ucrtbase.log2 | 0x000030d8
-`log1pl` | 224 (0xe0) | Exported Function | ucrtbase.log1pl | 0x000030c3
-`log1pf` | 223 (0xdf) | Exported Function | ucrtbase.log1pf | 0x000030ac
-`log1p` | 222 (0xde) | Exported Function | ucrtbase.log1p | 0x00003096
-`log10f` | 221 (0xdd) | Exported Function | ucrtbase.log10f | 0x00003080
-`log10` | 220 (0xdc) | Exported Function | ucrtbase.log10 | 0x0000306a
-`log2f` | 226 (0xe2) | Exported Function | ucrtbase.log2f | 0x000030ec
-`lround` | 235 (0xeb) | Exported Function | ucrtbase.lround | 0x000031aa
-`lroundf` | 236 (0xec) | Exported Function | ucrtbase.lroundf | 0x000031c2
-`lroundl` | 237 (0xed) | Exported Function | ucrtbase.lroundl | 0x000031db
-`norm` | 252 (0xfc) | Exported Function | ucrtbase.norm | 0x00003367
-`nexttowardl` | 251 (0xfb) | Exported Function | ucrtbase.nexttowardl | 0x0000334d
-`nexttowardf` | 250 (0xfa) | Exported Function | ucrtbase.nexttowardf | 0x0000332c
-`nexttoward` | 249 (0xf9) | Exported Function | ucrtbase.nexttoward | 0x0000330c
-`nextafterl` | 248 (0xf8) | Exported Function | ucrtbase.nextafterl | 0x000032ed
-`nextafterf` | 247 (0xf7) | Exported Function | ucrtbase.nextafterf | 0x000032ce
-`nextafter` | 246 (0xf6) | Exported Function | ucrtbase.nextafter | 0x000032b0
-`nearbyintl` | 245 (0xf5) | Exported Function | ucrtbase.nearbyintl | 0x00003292
-`nearbyintf` | 244 (0xf4) | Exported Function | ucrtbase.nearbyintf | 0x00003273
-`nearbyint` | 243 (0xf3) | Exported Function | ucrtbase.nearbyint | 0x00003255
-`nanl` | 242 (0xf2) | Exported Function | ucrtbase.nanl | 0x0000323d
-`nanf` | 241 (0xf1) | Exported Function | ucrtbase.nanf | 0x0000322a
-`nan` | 240 (0xf0) | Exported Function | ucrtbase.nan | 0x00003218
-`modff` | 239 (0xef) | Exported Function | ucrtbase.modff | 0x00003205
-`modf` | 238 (0xee) | Exported Function | ucrtbase.modf | 0x000031f1
-`cosh` | 147 (0x93) | Exported Function | ucrtbase.cosh | 0x00002a5a
-`cosf` | 146 (0x92) | Exported Function | ucrtbase.cosf | 0x00002a47
-`cos` | 145 (0x91) | Exported Function | ucrtbase.cos | 0x00002a35
-`copysignl` | 144 (0x90) | Exported Function | ucrtbase.copysignl | 0x00002a1e
-`_LCmulcc` | 8 (0x8) | Exported Function | ucrtbase._LCmulcc | 0x00001d8b
-`_LCbuild` | 7 (0x7) | Exported Function | ucrtbase._LCbuild | 0x00001d70
-`_jn` | 53 (0x35) | Exported Function | ucrtbase._jn | 0x00002209
-`_j1` | 52 (0x34) | Exported Function | ucrtbase._j1 | 0x000021f8
-`_j0` | 51 (0x33) | Exported Function | ucrtbase._j0 | 0x000021e7
-`_isnanf` | 50 (0x32) | Exported Function | ucrtbase._isnanf | 0x000021d2
-`_LCmulcr` | 9 (0x9) | Exported Function | ucrtbase._LCmulcr | 0x00001da6
-`_isnan` | 49 (0x31) | Exported Function | ucrtbase._isnan | 0x000021ba
-`_hypot` | 47 (0x2f) | Exported Function | ucrtbase._hypot | 0x0000218a
-`_get_FMA3_enable` | 46 (0x2e) | Exported Function | ucrtbase._get_FMA3_enable | 0x00002169
-`_fpclassf` | 45 (0x2d) | Exported Function | ucrtbase._fpclassf | 0x00002145
-`_fpclass` | 44 (0x2c) | Exported Function | ucrtbase._fpclass | 0x00002129
-`_finitef` | 43 (0x2b) | Exported Function | ucrtbase._finitef | 0x0000210e
-`_finite` | 42 (0x2a) | Exported Function | ucrtbase._finite | 0x000020f4
-`_hypotf` | 48 (0x30) | Exported Function | ucrtbase._hypotf | 0x000021a2
-`_fdunscale` | 41 (0x29) | Exported Function | ucrtbase._fdunscale | 0x000020d8
-`_ld_int` | 54 (0x36) | Exported Function | ucrtbase._ld_int | 0x0000221e
-`_ldexp` | 56 (0x38) | Exported Function | ucrtbase._ldexp | 0x00002251
-`_scalbf` | 70 (0x46) | Exported Function | ucrtbase._scalbf | 0x000023ba
-`_scalb` | 69 (0x45) | Exported Function | ucrtbase._scalb | 0x000023a2
-`_nextafterf` | 68 (0x44) | Exported Function | ucrtbase._nextafterf | 0x00002386
-`_nextafter` | 67 (0x43) | Exported Function | ucrtbase._nextafter | 0x00002366
-`_logbf` | 66 (0x42) | Exported Function | ucrtbase._logbf | 0x0000234b
-`_logb` | 65 (0x41) | Exported Function | ucrtbase._logb | 0x00002335
-`_ldclass` | 55 (0x37) | Exported Function | ucrtbase._ldclass | 0x00002238
-`_ldunscale` | 64 (0x40) | Exported Function | ucrtbase._ldunscale | 0x0000231b
-`_ldsin` | 62 (0x3e) | Exported Function | ucrtbase._ldsin | 0x000022e7
-`_ldsign` | 61 (0x3d) | Exported Function | ucrtbase._ldsign | 0x000022cf
-`_ldscale` | 60 (0x3c) | Exported Function | ucrtbase._ldscale | 0x000022b5
-`_ldpoly` | 59 (0x3b) | Exported Function | ucrtbase._ldpoly | 0x0000229b
-`_ldpcomp` | 58 (0x3a) | Exported Function | ucrtbase._ldpcomp | 0x00002281
-`_ldlog` | 57 (0x39) | Exported Function | ucrtbase._ldlog | 0x00002268
-`_ldtest` | 63 (0x3f) | Exported Function | ucrtbase._ldtest | 0x000022ff
-`_fdtest` | 40 (0x28) | Exported Function | ucrtbase._fdtest | 0x000020bc
-`_fdsin` | 39 (0x27) | Exported Function | ucrtbase._fdsin | 0x000020a4
-`_fdsign` | 38 (0x26) | Exported Function | ucrtbase._fdsign | 0x0000208c
-`_dpcomp` | 21 (0x15) | Exported Function | ucrtbase._dpcomp | 0x00001ee5
-`_dnorm` | 20 (0x14) | Exported Function | ucrtbase._dnorm | 0x00001ecd
-`_dlog` | 19 (0x13) | Exported Function | ucrtbase._dlog | 0x00001eb7
-`_dexp` | 18 (0x12) | Exported Function | ucrtbase._dexp | 0x00001ea2
-`_dclass` | 17 (0x11) | Exported Function | ucrtbase._dclass | 0x00001e8b
-`_d_int` | 16 (0x10) | Exported Function | ucrtbase._d_int | 0x00001e73
-`_dpoly` | 22 (0x16) | Exported Function | ucrtbase._dpoly | 0x00001efd
-`_copysignf` | 15 (0xf) | Exported Function | ucrtbase._copysignf | 0x00001e58
-`_Cmulcr` | 3 (0x3) | Exported Function | ucrtbase._Cmulcr | 0x00001d05
-`_Cmulcc` | 2 (0x2) | Exported Function | ucrtbase._Cmulcc | 0x00001cec
-`_chgsignf` | 13 (0xd) | Exported Function | ucrtbase._chgsignf | 0x00001e1d
-`_chgsign` | 12 (0xc) | Exported Function | ucrtbase._chgsign | 0x00001e01
-`_Cbuild` | 1 (0x1) | Exported Function | ucrtbase._Cbuild | 0x00001cd3
-`_cabs` | 11 (0xb) | Exported Function | ucrtbase._cabs | 0x00001de9
-`_copysign` | 14 (0xe) | Exported Function | ucrtbase._copysign | 0x00001e3a
-`_dscale` | 23 (0x17) | Exported Function | ucrtbase._dscale | 0x00001f15
-`_dsign` | 24 (0x18) | Exported Function | ucrtbase._dsign | 0x00001f2d
-`_dsin` | 25 (0x19) | Exported Function | ucrtbase._dsin | 0x00001f43
-`_fdscale` | 37 (0x25) | Exported Function | ucrtbase._fdscale | 0x00002072
-`_fdpoly` | 36 (0x24) | Exported Function | ucrtbase._fdpoly | 0x00002058
-`_fdpcomp` | 35 (0x23) | Exported Function | ucrtbase._fdpcomp | 0x0000203e
-`_fdopen` | 34 (0x22) | Exported Function | ucrtbase._fdopen | 0x00002024
-`_fdnorm` | 33 (0x21) | Exported Function | ucrtbase._fdnorm | 0x0000200b
-`_fdlog` | 32 (0x20) | Exported Function | ucrtbase._fdlog | 0x00001ff3
-`_fdexp` | 31 (0x1f) | Exported Function | ucrtbase._fdexp | 0x00001fdc
-`_fdclass` | 30 (0x1e) | Exported Function | ucrtbase._fdclass | 0x00001fc3
-`_fd_int` | 29 (0x1d) | Exported Function | ucrtbase._fd_int | 0x00001fa9
-`_FCmulcr` | 6 (0x6) | Exported Function | ucrtbase._FCmulcr | 0x00001d55
-`_FCmulcc` | 5 (0x5) | Exported Function | ucrtbase._FCmulcc | 0x00001d3a
-`_FCbuild` | 4 (0x4) | Exported Function | ucrtbase._FCbuild | 0x00001d1f
-`_except1` | 28 (0x1c) | Exported Function | ucrtbase._except1 | 0x00001f8f
-`_dunscale` | 27 (0x1b) | Exported Function | ucrtbase._dunscale | 0x00001f73
-`_dtest` | 26 (0x1a) | Exported Function | ucrtbase._dtest | 0x00001f59
-`_set_FMA3_enable` | 71 (0x47) | Exported Function | ucrtbase._set_FMA3_enable | 0x000023dc
-`truncf` | 289 (0x121) | Exported Function | ucrtbase.truncf | 0x000036a4
-`_y0` | 72 (0x48) | Exported Function | ucrtbase._y0 | 0x000023fa
-`_yn` | 74 (0x4a) | Exported Function | ucrtbase._yn | 0x0000241c
-`ceil` | 125 (0x7d) | Exported Function | ucrtbase.ceil | 0x00002876
-`ccosl` | 124 (0x7c) | Exported Function | ucrtbase.ccosl | 0x00002862
-`ccoshl` | 123 (0x7b) | Exported Function | ucrtbase.ccoshl | 0x0000284c
-`ccoshf` | 122 (0x7a) | Exported Function | ucrtbase.ccoshf | 0x00002835
-`ccosh` | 121 (0x79) | Exported Function | ucrtbase.ccosh | 0x0000281f
-`ccosf` | 120 (0x78) | Exported Function | ucrtbase.ccosf | 0x0000280a
-`ceilf` | 126 (0x7e) | Exported Function | ucrtbase.ceilf | 0x0000288a
-`ccos` | 119 (0x77) | Exported Function | ucrtbase.ccos | 0x000027f6
-`cbrtf` | 117 (0x75) | Exported Function | ucrtbase.cbrtf | 0x000027cd
-`cbrt` | 116 (0x74) | Exported Function | ucrtbase.cbrt | 0x000027b9
-`catanl` | 115 (0x73) | Exported Function | ucrtbase.catanl | 0x000027a4
-`catanhl` | 114 (0x72) | Exported Function | ucrtbase.catanhl | 0x0000278c
-`catanhf` | 113 (0x71) | Exported Function | ucrtbase.catanhf | 0x00002773
-`catanh` | 112 (0x70) | Exported Function | ucrtbase.catanh | 0x0000275b
-`cbrtl` | 118 (0x76) | Exported Function | ucrtbase.cbrtl | 0x000027e2
-`catanf` | 111 (0x6f) | Exported Function | ucrtbase.catanf | 0x00002744
-`cexp` | 127 (0x7f) | Exported Function | ucrtbase.cexp | 0x0000289e
-`cexpl` | 129 (0x81) | Exported Function | ucrtbase.cexpl | 0x000028c7
-`copysignf` | 143 (0x8f) | Exported Function | ucrtbase.copysignf | 0x00002a01
-`copysign` | 142 (0x8e) | Exported Function | ucrtbase.copysign | 0x000029e5
-`conjl` | 141 (0x8d) | Exported Function | ucrtbase.conjl | 0x000029cd
-`conjf` | 140 (0x8c) | Exported Function | ucrtbase.conjf | 0x000029b8
-`conj` | 139 (0x8b) | Exported Function | ucrtbase.conj | 0x000029a4
-`clogl` | 138 (0x8a) | Exported Function | ucrtbase.clogl | 0x00002990
-`cexpf` | 128 (0x80) | Exported Function | ucrtbase.cexpf | 0x000028b2
-`clogf` | 137 (0x89) | Exported Function | ucrtbase.clogf | 0x0000297b
-`clog10f` | 135 (0x87) | Exported Function | ucrtbase.clog10f | 0x0000294b
-`clog10` | 134 (0x86) | Exported Function | ucrtbase.clog10 | 0x00002933
-`clog` | 133 (0x85) | Exported Function | ucrtbase.clog | 0x0000291e
-`cimagl` | 132 (0x84) | Exported Function | ucrtbase.cimagl | 0x00002909
-`cimagf` | 131 (0x83) | Exported Function | ucrtbase.cimagf | 0x000028f2
-`cimag` | 130 (0x82) | Exported Function | ucrtbase.cimag | 0x000028dc
-`clog10l` | 136 (0x88) | Exported Function | ucrtbase.clog10l | 0x00002964
-`catan` | 110 (0x6e) | Exported Function | ucrtbase.catan | 0x0000272e
-`casinl` | 109 (0x6d) | Exported Function | ucrtbase.casinl | 0x00002718
-`casinhl` | 108 (0x6c) | Exported Function | ucrtbase.casinhl | 0x00002700
-`atanf` | 88 (0x58) | Exported Function | ucrtbase.atanf | 0x00002544
-`atan2f` | 87 (0x57) | Exported Function | ucrtbase.atan2f | 0x0000252e
-`atan2` | 86 (0x56) | Exported Function | ucrtbase.atan2 | 0x00002518
-`atan` | 85 (0x55) | Exported Function | ucrtbase.atan | 0x00002504
-`asinhl` | 84 (0x54) | Exported Function | ucrtbase.asinhl | 0x000024ef
-`asinhf` | 83 (0x53) | Exported Function | ucrtbase.asinhf | 0x000024d8
-`atanh` | 89 (0x59) | Exported Function | ucrtbase.atanh | 0x00002559
-`asinh` | 82 (0x52) | Exported Function | ucrtbase.asinh | 0x000024c2
-`asin` | 80 (0x50) | Exported Function | ucrtbase.asin | 0x00002499
-`acoshl` | 79 (0x4f) | Exported Function | ucrtbase.acoshl | 0x00002484
-`acoshf` | 78 (0x4e) | Exported Function | ucrtbase.acoshf | 0x0000246d
-`acosh` | 77 (0x4d) | Exported Function | ucrtbase.acosh | 0x00002457
-`acosf` | 76 (0x4c) | Exported Function | ucrtbase.acosf | 0x00002442
-`acos` | 75 (0x4b) | Exported Function | ucrtbase.acos | 0x0000242e
-`asinf` | 81 (0x51) | Exported Function | ucrtbase.asinf | 0x000024ad
-`atanhf` | 90 (0x5a) | Exported Function | ucrtbase.atanhf | 0x0000256f
-`atanhl` | 91 (0x5b) | Exported Function | ucrtbase.atanhl | 0x00002586
-`cabs` | 92 (0x5c) | Exported Function | ucrtbase.cabs | 0x0000259b
-`casinhf` | 107 (0x6b) | Exported Function | ucrtbase.casinhf | 0x000026e7
-`casinh` | 106 (0x6a) | Exported Function | ucrtbase.casinh | 0x000026cf
-`casinf` | 105 (0x69) | Exported Function | ucrtbase.casinf | 0x000026b8
-`casin` | 104 (0x68) | Exported Function | ucrtbase.casin | 0x000026a2
-`cargl` | 103 (0x67) | Exported Function | ucrtbase.cargl | 0x0000268d
-`cargf` | 102 (0x66) | Exported Function | ucrtbase.cargf | 0x00002678
-`carg` | 101 (0x65) | Exported Function | ucrtbase.carg | 0x00002664
-`cacosl` | 100 (0x64) | Exported Function | ucrtbase.cacosl | 0x0000264f
-`cacoshl` | 99 (0x63) | Exported Function | ucrtbase.cacoshl | 0x00002637
-`cacoshf` | 98 (0x62) | Exported Function | ucrtbase.cacoshf | 0x0000261e
-`cacosh` | 97 (0x61) | Exported Function | ucrtbase.cacosh | 0x00002606
-`cacosf` | 96 (0x60) | Exported Function | ucrtbase.cacosf | 0x000025ef
-`cacos` | 95 (0x5f) | Exported Function | ucrtbase.cacos | 0x000025d9
-`cabsl` | 94 (0x5e) | Exported Function | ucrtbase.cabsl | 0x000025c4
-`cabsf` | 93 (0x5d) | Exported Function | ucrtbase.cabsf | 0x000025af
-`_y1` | 73 (0x49) | Exported Function | ucrtbase._y1 | 0x0000240b
-`truncl` | 290 (0x122) | Exported Function | ucrtbase.truncl | 0x000036bb
+Function Name | Ordinal | Type
+-- | -- | --
+`fma` | 193 | Exported Function
+`fmaf` | 194 | Exported Function
+`floor` | 191 | Exported Function
+`floorf` | 192 | Exported Function
+`fmal` | 195 | Exported Function
+`fmaxl` | 198 | Exported Function
+`fmin` | 199 | Exported Function
+`fmax` | 196 | Exported Function
+`fmaxf` | 197 | Exported Function
+`expm1` | 184 | Exported Function
+`expm1f` | 185 | Exported Function
+`exp2l` | 182 | Exported Function
+`expf` | 183 | Exported Function
+`expm1l` | 186 | Exported Function
+`fdimf` | 189 | Exported Function
+`fdiml` | 190 | Exported Function
+`fabs` | 187 | Exported Function
+`fdim` | 188 | Exported Function
+`lgammaf` | 211 | Exported Function
+`lgammal` | 212 | Exported Function
+`ldexp` | 209 | Exported Function
+`lgamma` | 210 | Exported Function
+`llrint` | 213 | Exported Function
+`llround` | 216 | Exported Function
+`llroundf` | 217 | Exported Function
+`llrintf` | 214 | Exported Function
+`llrintl` | 215 | Exported Function
+`fmod` | 202 | Exported Function
+`fmodf` | 203 | Exported Function
+`fminf` | 200 | Exported Function
+`fminl` | 201 | Exported Function
+`frexp` | 204 | Exported Function
+`ilogbf` | 207 | Exported Function
+`ilogbl` | 208 | Exported Function
+`hypot` | 205 | Exported Function
+`ilogb` | 206 | Exported Function
+`creall` | 157 | Exported Function
+`csin` | 158 | Exported Function
+`creal` | 155 | Exported Function
+`crealf` | 156 | Exported Function
+`csinf` | 159 | Exported Function
+`csinhl` | 162 | Exported Function
+`csinl` | 163 | Exported Function
+`csinh` | 160 | Exported Function
+`csinhf` | 161 | Exported Function
+`coshf` | 148 | Exported Function
+`cpow` | 149 | Exported Function
+`cosf` | 146 | Exported Function
+`cosh` | 147 | Exported Function
+`cpowf` | 150 | Exported Function
+`cprojf` | 153 | Exported Function
+`cprojl` | 154 | Exported Function
+`cpowl` | 151 | Exported Function
+`cproj` | 152 | Exported Function
+`erfcf` | 175 | Exported Function
+`erfcl` | 176 | Exported Function
+`erf` | 173 | Exported Function
+`erfc` | 174 | Exported Function
+`erff` | 177 | Exported Function
+`exp2` | 180 | Exported Function
+`exp2f` | 181 | Exported Function
+`erfl` | 178 | Exported Function
+`exp` | 179 | Exported Function
+`csqrtl` | 166 | Exported Function
+`ctan` | 167 | Exported Function
+`csqrt` | 164 | Exported Function
+`csqrtf` | 165 | Exported Function
+`ctanf` | 168 | Exported Function
+`ctanhl` | 171 | Exported Function
+`ctanl` | 172 | Exported Function
+`ctanh` | 169 | Exported Function
+`ctanhf` | 170 | Exported Function
+`llroundl` | 218 | Exported Function
+`round` | 266 | Exported Function
+`roundf` | 267 | Exported Function
+`rintf` | 264 | Exported Function
+`rintl` | 265 | Exported Function
+`roundl` | 268 | Exported Function
+`scalblnl` | 271 | Exported Function
+`scalbn` | 272 | Exported Function
+`scalbln` | 269 | Exported Function
+`scalblnf` | 270 | Exported Function
+`remainder` | 257 | Exported Function
+`remainderf` | 258 | Exported Function
+`pow` | 255 | Exported Function
+`powf` | 256 | Exported Function
+`remainderl` | 259 | Exported Function
+`remquol` | 262 | Exported Function
+`rint` | 263 | Exported Function
+`remquo` | 260 | Exported Function
+`remquof` | 261 | Exported Function
+`tanhf` | 284 | Exported Function
+`tgamma` | 285 | Exported Function
+`tanf` | 282 | Exported Function
+`tanh` | 283 | Exported Function
+`tgammaf` | 286 | Exported Function
+`truncf` | 289 | Exported Function
+`truncl` | 290 | Exported Function
+`tgammal` | 287 | Exported Function
+`trunc` | 288 | Exported Function
+`sin` | 275 | Exported Function
+`sinf` | 276 | Exported Function
+`scalbnf` | 273 | Exported Function
+`scalbnl` | 274 | Exported Function
+`sinh` | 277 | Exported Function
+`sqrtf` | 280 | Exported Function
+`tan` | 281 | Exported Function
+`sinhf` | 278 | Exported Function
+`sqrt` | 279 | Exported Function
+`logbl` | 230 | Exported Function
+`logf` | 231 | Exported Function
+`logb` | 228 | Exported Function
+`logbf` | 229 | Exported Function
+`lrint` | 232 | Exported Function
+`lround` | 235 | Exported Function
+`lroundf` | 236 | Exported Function
+`lrintf` | 233 | Exported Function
+`lrintl` | 234 | Exported Function
+`log10f` | 221 | Exported Function
+`log1p` | 222 | Exported Function
+`log` | 219 | Exported Function
+`log10` | 220 | Exported Function
+`log1pf` | 223 | Exported Function
+`log2f` | 226 | Exported Function
+`log2l` | 227 | Exported Function
+`log1pl` | 224 | Exported Function
+`log2` | 225 | Exported Function
+`nextafterl` | 248 | Exported Function
+`nexttoward` | 249 | Exported Function
+`nextafter` | 246 | Exported Function
+`nextafterf` | 247 | Exported Function
+`nexttowardf` | 250 | Exported Function
+`normf` | 253 | Exported Function
+`norml` | 254 | Exported Function
+`nexttowardl` | 251 | Exported Function
+`norm` | 252 | Exported Function
+`modff` | 239 | Exported Function
+`nan` | 240 | Exported Function
+`lroundl` | 237 | Exported Function
+`modf` | 238 | Exported Function
+`nanf` | 241 | Exported Function
+`nearbyintf` | 244 | Exported Function
+`nearbyintl` | 245 | Exported Function
+`nanl` | 242 | Exported Function
+`nearbyint` | 243 | Exported Function
+`_j0` | 51 | Exported Function
+`_j1` | 52 | Exported Function
+`_isnan` | 49 | Exported Function
+`_isnanf` | 50 | Exported Function
+`_jn` | 53 | Exported Function
+`_LCmulcr` | 9 | Exported Function
+`_ld_int` | 54 | Exported Function
+`_LCbuild` | 7 | Exported Function
+`_LCmulcc` | 8 | Exported Function
+`_finite` | 42 | Exported Function
+`_finitef` | 43 | Exported Function
+`_fdtest` | 40 | Exported Function
+`_fdunscale` | 41 | Exported Function
+`_fpclass` | 44 | Exported Function
+`_hypot` | 47 | Exported Function
+`_hypotf` | 48 | Exported Function
+`_fpclassf` | 45 | Exported Function
+`_get_FMA3_enable` | 46 | Exported Function
+`_logbf` | 66 | Exported Function
+`_nextafter` | 67 | Exported Function
+`_ldunscale` | 64 | Exported Function
+`_logb` | 65 | Exported Function
+`_nextafterf` | 68 | Exported Function
+`_set_FMA3_enable` | 71 | Exported Function
+`_y0` | 72 | Exported Function
+`_scalb` | 69 | Exported Function
+`_scalbf` | 70 | Exported Function
+`_ldlog` | 57 | Exported Function
+`_ldpcomp` | 58 | Exported Function
+`_ldclass` | 55 | Exported Function
+`_ldexp` | 56 | Exported Function
+`_ldpoly` | 59 | Exported Function
+`_ldsin` | 62 | Exported Function
+`_ldtest` | 63 | Exported Function
+`_ldscale` | 60 | Exported Function
+`_ldsign` | 61 | Exported Function
+`_dexp` | 18 | Exported Function
+`_dlog` | 19 | Exported Function
+`_d_int` | 16 | Exported Function
+`_dclass` | 17 | Exported Function
+`_dnorm` | 20 | Exported Function
+`_dscale` | 23 | Exported Function
+`_dsign` | 24 | Exported Function
+`_dpcomp` | 21 | Exported Function
+`_dpoly` | 22 | Exported Function
+`_Cbuild` | 1 | Exported Function
+`_chgsign` | 12 | Exported Function
+`__setusermatherr` | 10 | Exported Function
+`_cabs` | 11 | Exported Function
+`_chgsignf` | 13 | Exported Function
+`_copysign` | 14 | Exported Function
+`_copysignf` | 15 | Exported Function
+`_Cmulcc` | 2 | Exported Function
+`_Cmulcr` | 3 | Exported Function
+`_fdnorm` | 33 | Exported Function
+`_fdopen` | 34 | Exported Function
+`_fdexp` | 31 | Exported Function
+`_fdlog` | 32 | Exported Function
+`_fdpcomp` | 35 | Exported Function
+`_fdsign` | 38 | Exported Function
+`_fdsin` | 39 | Exported Function
+`_fdpoly` | 36 | Exported Function
+`_fdscale` | 37 | Exported Function
+`_dunscale` | 27 | Exported Function
+`_except1` | 28 | Exported Function
+`_dsin` | 25 | Exported Function
+`_dtest` | 26 | Exported Function
+`_FCbuild` | 4 | Exported Function
+`_fd_int` | 29 | Exported Function
+`_fdclass` | 30 | Exported Function
+`_FCmulcc` | 5 | Exported Function
+`_FCmulcr` | 6 | Exported Function
+`_y1` | 73 | Exported Function
+`ccosh` | 121 | Exported Function
+`ccoshf` | 122 | Exported Function
+`ccos` | 119 | Exported Function
+`ccosf` | 120 | Exported Function
+`ccoshl` | 123 | Exported Function
+`ceilf` | 126 | Exported Function
+`cexp` | 127 | Exported Function
+`ccosl` | 124 | Exported Function
+`ceil` | 125 | Exported Function
+`catanh` | 112 | Exported Function
+`catanhf` | 113 | Exported Function
+`catan` | 110 | Exported Function
+`catanf` | 111 | Exported Function
+`catanhl` | 114 | Exported Function
+`cbrtf` | 117 | Exported Function
+`cbrtl` | 118 | Exported Function
+`catanl` | 115 | Exported Function
+`cbrt` | 116 | Exported Function
+`conj` | 139 | Exported Function
+`conjf` | 140 | Exported Function
+`clogf` | 137 | Exported Function
+`clogl` | 138 | Exported Function
+`conjl` | 141 | Exported Function
+`copysignl` | 144 | Exported Function
+`cos` | 145 | Exported Function
+`copysign` | 142 | Exported Function
+`copysignf` | 143 | Exported Function
+`cimag` | 130 | Exported Function
+`cimagf` | 131 | Exported Function
+`cexpf` | 128 | Exported Function
+`cexpl` | 129 | Exported Function
+`cimagl` | 132 | Exported Function
+`clog10f` | 135 | Exported Function
+`clog10l` | 136 | Exported Function
+`clog` | 133 | Exported Function
+`clog10` | 134 | Exported Function
+`atan` | 85 | Exported Function
+`atan2` | 86 | Exported Function
+`asinhf` | 83 | Exported Function
+`asinhl` | 84 | Exported Function
+`atan2f` | 87 | Exported Function
+`atanhf` | 90 | Exported Function
+`atanhl` | 91 | Exported Function
+`atanf` | 88 | Exported Function
+`atanh` | 89 | Exported Function
+`acosf` | 76 | Exported Function
+`acosh` | 77 | Exported Function
+`_yn` | 74 | Exported Function
+`acos` | 75 | Exported Function
+`acoshf` | 78 | Exported Function
+`asinf` | 81 | Exported Function
+`asinh` | 82 | Exported Function
+`acoshl` | 79 | Exported Function
+`asin` | 80 | Exported Function
+`cargl` | 103 | Exported Function
+`casin` | 104 | Exported Function
+`carg` | 101 | Exported Function
+`cargf` | 102 | Exported Function
+`casinf` | 105 | Exported Function
+`casinhl` | 108 | Exported Function
+`casinl` | 109 | Exported Function
+`casinh` | 106 | Exported Function
+`casinhf` | 107 | Exported Function
+`cabsl` | 94 | Exported Function
+`cacos` | 95 | Exported Function
+`cabs` | 92 | Exported Function
+`cabsf` | 93 | Exported Function
+`cacosf` | 96 | Exported Function
+`cacoshl` | 99 | Exported Function
+`cacosl` | 100 | Exported Function
+`cacosh` | 97 | Exported Function
+`cacoshf` | 98 | Exported Function
 
 
 ## Signature

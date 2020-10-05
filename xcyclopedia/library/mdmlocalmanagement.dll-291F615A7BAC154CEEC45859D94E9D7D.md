@@ -24,11 +24,11 @@ PE256 | `886534EE75064BB0B9FFA31D258F341192BCB7EDF1A83353114D5059FCF700D5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ApplyLocalManagementSyncML` | 1 (0x1) | Exported Function | 0x0000000180003b40 | 0x00003b40
-`RegisterDeviceWithLocalManagement` | 2 (0x2) | Exported Function | 0x0000000180003a20 | 0x00003a20
-`UnregisterDeviceWithLocalManagement` | 3 (0x3) | Exported Function | 0x0000000180003c40 | 0x00003c40
+Function Name | Ordinal | Type
+-- | -- | --
+`UnregisterDeviceWithLocalManagement` | 3 | Exported Function
+`RegisterDeviceWithLocalManagement` | 2 | Exported Function
+`ApplyLocalManagementSyncML` | 1 | Exported Function
 
 
 ## Signature

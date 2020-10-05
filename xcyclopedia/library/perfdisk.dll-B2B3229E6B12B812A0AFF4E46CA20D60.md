@@ -24,11 +24,11 @@ PE256 | `27CD196156CBCF3298368D7893850287F6F49D8D491CAABFED6D68AF59B3BDF8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseDiskObject` | 1 (0x1) | Exported Function | 0x10002b60 | 0x00002b60
-`CollectDiskObjectData` | 2 (0x2) | Exported Function | 0x10002880 | 0x00002880
-`OpenDiskObject` | 3 (0x3) | Exported Function | 0x10002750 | 0x00002750
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenDiskObject` | 3 | Exported Function
+`CollectDiskObjectData` | 2 | Exported Function
+`CloseDiskObject` | 1 | Exported Function
 
 
 ## Signature

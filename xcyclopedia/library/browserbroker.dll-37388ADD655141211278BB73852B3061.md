@@ -24,9 +24,9 @@ PE256 | `4750FA7928E20B228218DBF5F851DCD12F713DA746D2E19496196E3C55E3619D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`COMServerDllMain` | 1 (0x1) | Exported Function | 0x000000018000b7d0 | 0x0000b7d0
+Function Name | Ordinal | Type
+-- | -- | --
+`COMServerDllMain` | 1 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `05C1D4999942F74FD206BB5189CB79131166DF2D4DDA8615537CFAB5E50BD6CF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x00000001800044e0 | 0x000044e0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x00000001800046a0 | 0x000046a0
-`LaunchErcAppW` | 1 (0x1) | Exported Function | 0x0000000180013c20 | 0x00013c20
-`ShowCEIPDialogW` | 2 (0x2) | Exported Function | 0x0000000180014d10 | 0x00014d10
+Function Name | Ordinal | Type
+-- | -- | --
+`LaunchErcAppW` | 1 | Exported Function
+`ShowCEIPDialogW` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

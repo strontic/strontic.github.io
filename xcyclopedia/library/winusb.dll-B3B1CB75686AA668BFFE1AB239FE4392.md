@@ -24,45 +24,45 @@ PE256 | `6AADDB401C80E170DF29313091A3E807325FC234DECECEDCC00780EFA8B5A3BB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WinUsb_AbortPipe` | 1 (0x1) | Exported Function | 0x10002ee0 | 0x00002ee0
-`WinUsb_QueryPipeEx` | 21 (0x15) | Exported Function | 0x100015d0 | 0x000015d0
-`WinUsb_ReadIsochPipe` | 22 (0x16) | Exported Function | 0x10003a80 | 0x00003a80
-`WinUsb_ReadIsochPipeAsap` | 23 (0x17) | Exported Function | 0x10003a50 | 0x00003a50
-`WinUsb_ReadPipe` | 24 (0x18) | Exported Function | 0x100028f0 | 0x000028f0
-`WinUsb_RegisterIsochBuffer` | 25 (0x19) | Exported Function | 0x100032c0 | 0x000032c0
-`WinUsb_ResetPipe` | 26 (0x1a) | Exported Function | 0x10002d90 | 0x00002d90
-`WinUsb_ResetPipeAsync` | 27 (0x1b) | Exported Function | 0x10002d00 | 0x00002d00
-`WinUsb_SetCurrentAlternateSetting` | 28 (0x1c) | Exported Function | 0x10002200 | 0x00002200
-`WinUsb_SetCurrentAlternateSettingAsync` | 29 (0x1d) | Exported Function | 0x100020d0 | 0x000020d0
-`WinUsb_SetPipePolicy` | 30 (0x1e) | Exported Function | 0x10002450 | 0x00002450
-`WinUsb_SetPowerPolicy` | 31 (0x1f) | Exported Function | 0x100026a0 | 0x000026a0
-`WinUsb_StartTrackingForTimeSync` | 32 (0x20) | Exported Function | 0x10003ab0 | 0x00003ab0
-`WinUsb_StopTrackingForTimeSync` | 33 (0x21) | Exported Function | 0x10003c90 | 0x00003c90
-`WinUsb_UnregisterIsochBuffer` | 34 (0x22) | Exported Function | 0x10003420 | 0x00003420
-`WinUsb_WriteIsochPipe` | 35 (0x23) | Exported Function | 0x10003770 | 0x00003770
-`WinUsb_QueryPipe` | 20 (0x14) | Exported Function | 0x10002390 | 0x00002390
-`WinUsb_WriteIsochPipeAsap` | 36 (0x24) | Exported Function | 0x10003740 | 0x00003740
-`WinUsb_QueryInterfaceSettings` | 19 (0x13) | Exported Function | 0x10001e80 | 0x00001e80
-`WinUsb_ParseDescriptors` | 17 (0x11) | Exported Function | 0x10001440 | 0x00001440
-`WinUsb_AbortPipeAsync` | 2 (0x2) | Exported Function | 0x10002e50 | 0x00002e50
-`WinUsb_ControlTransfer` | 3 (0x3) | Exported Function | 0x10002b90 | 0x00002b90
-`WinUsb_FlushPipe` | 4 (0x4) | Exported Function | 0x10002fa0 | 0x00002fa0
-`WinUsb_Free` | 5 (0x5) | Exported Function | 0x10001c50 | 0x00001c50
-`WinUsb_GetAdjustedFrameNumber` | 6 (0x6) | Exported Function | 0x10003200 | 0x00003200
-`WinUsb_GetAssociatedInterface` | 7 (0x7) | Exported Function | 0x10001cd0 | 0x00001cd0
-`WinUsb_GetCurrentAlternateSetting` | 8 (0x8) | Exported Function | 0x100022c0 | 0x000022c0
-`WinUsb_GetCurrentFrameNumber` | 9 (0x9) | Exported Function | 0x10003100 | 0x00003100
-`WinUsb_GetCurrentFrameNumberAndQpc` | 10 (0xa) | Exported Function | 0x10003ba0 | 0x00003ba0
-`WinUsb_GetDescriptor` | 11 (0xb) | Exported Function | 0x10001fd0 | 0x00001fd0
-`WinUsb_GetOverlappedResult` | 12 (0xc) | Exported Function | 0x10003080 | 0x00003080
-`WinUsb_GetPipePolicy` | 13 (0xd) | Exported Function | 0x100025a0 | 0x000025a0
-`WinUsb_GetPowerPolicy` | 14 (0xe) | Exported Function | 0x100027f0 | 0x000027f0
-`WinUsb_Initialize` | 15 (0xf) | Exported Function | 0x10001720 | 0x00001720
-`WinUsb_ParseConfigurationDescriptor` | 16 (0x10) | Exported Function | 0x100014a0 | 0x000014a0
-`WinUsb_QueryDeviceInformation` | 18 (0x12) | Exported Function | 0x10001ef0 | 0x00001ef0
-`WinUsb_WritePipe` | 37 (0x25) | Exported Function | 0x10002a40 | 0x00002a40
+Function Name | Ordinal | Type
+-- | -- | --
+`WinUsb_ResetPipe` | 26 | Exported Function
+`WinUsb_RegisterIsochBuffer` | 25 | Exported Function
+`WinUsb_SetCurrentAlternateSetting` | 28 | Exported Function
+`WinUsb_ResetPipeAsync` | 27 | Exported Function
+`WinUsb_ReadPipe` | 24 | Exported Function
+`WinUsb_QueryPipeEx` | 21 | Exported Function
+`WinUsb_QueryPipe` | 20 | Exported Function
+`WinUsb_ReadIsochPipeAsap` | 23 | Exported Function
+`WinUsb_ReadIsochPipe` | 22 | Exported Function
+`WinUsb_WriteIsochPipe` | 35 | Exported Function
+`WinUsb_UnregisterIsochBuffer` | 34 | Exported Function
+`WinUsb_WritePipe` | 37 | Exported Function
+`WinUsb_WriteIsochPipeAsap` | 36 | Exported Function
+`WinUsb_StopTrackingForTimeSync` | 33 | Exported Function
+`WinUsb_SetPipePolicy` | 30 | Exported Function
+`WinUsb_SetCurrentAlternateSettingAsync` | 29 | Exported Function
+`WinUsb_StartTrackingForTimeSync` | 32 | Exported Function
+`WinUsb_SetPowerPolicy` | 31 | Exported Function
+`WinUsb_QueryInterfaceSettings` | 19 | Exported Function
+`WinUsb_GetAssociatedInterface` | 7 | Exported Function
+`WinUsb_GetAdjustedFrameNumber` | 6 | Exported Function
+`WinUsb_GetCurrentFrameNumber` | 9 | Exported Function
+`WinUsb_GetCurrentAlternateSetting` | 8 | Exported Function
+`WinUsb_Free` | 5 | Exported Function
+`WinUsb_AbortPipeAsync` | 2 | Exported Function
+`WinUsb_AbortPipe` | 1 | Exported Function
+`WinUsb_FlushPipe` | 4 | Exported Function
+`WinUsb_ControlTransfer` | 3 | Exported Function
+`WinUsb_ParseConfigurationDescriptor` | 16 | Exported Function
+`WinUsb_Initialize` | 15 | Exported Function
+`WinUsb_QueryDeviceInformation` | 18 | Exported Function
+`WinUsb_ParseDescriptors` | 17 | Exported Function
+`WinUsb_GetPowerPolicy` | 14 | Exported Function
+`WinUsb_GetDescriptor` | 11 | Exported Function
+`WinUsb_GetCurrentFrameNumberAndQpc` | 10 | Exported Function
+`WinUsb_GetPipePolicy` | 13 | Exported Function
+`WinUsb_GetOverlappedResult` | 12 | Exported Function
 
 
 ## Signature

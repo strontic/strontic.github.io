@@ -24,18 +24,18 @@ PE256 | `66BCE4B53216A3228111225092E4F6A85417C452A568BDE21766113DB83F7F43`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreatePackageGroupDescriptorDocumentFromFile` | 8 (0x8) | Exported Function | 0x0000000180034ef0 | 0x00034ef0
-`CreatePackageGroupDescriptorDocumentFromXML` | 7 (0x7) | Exported Function | 0x0000000180034ee0 | 0x00034ee0
-`CreatePackageMachinePolicyDocument` | 1 (0x1) | Exported Function | 0x0000000180034ca0 | 0x00034ca0
-`CreatePackageMachinePolicyDocumentFromFile` | 3 (0x3) | Exported Function | 0x0000000180034db0 | 0x00034db0
-`CreatePackageMachinePolicyDocumentFromXML` | 2 (0x2) | Exported Function | 0x0000000180034da0 | 0x00034da0
-`CreatePackageUserPolicyDocument` | 4 (0x4) | Exported Function | 0x0000000180034dc0 | 0x00034dc0
-`CreatePackageUserPolicyDocumentFromFile` | 6 (0x6) | Exported Function | 0x0000000180034ed0 | 0x00034ed0
-`CreatePackageUserPolicyDocumentFromXML` | 5 (0x5) | Exported Function | 0x0000000180034ec0 | 0x00034ec0
-`CreatePublishingDescriptorDocumentFromFile` | 10 (0xa) | Exported Function | 0x0000000180034f10 | 0x00034f10
-`CreatePublishingDescriptorDocumentFromXML` | 9 (0x9) | Exported Function | 0x0000000180034f00 | 0x00034f00
+Function Name | Ordinal | Type
+-- | -- | --
+`CreatePackageUserPolicyDocumentFromFile` | 6 | Exported Function
+`CreatePackageUserPolicyDocument` | 4 | Exported Function
+`CreatePackageUserPolicyDocumentFromXML` | 5 | Exported Function
+`CreatePublishingDescriptorDocumentFromXML` | 9 | Exported Function
+`CreatePublishingDescriptorDocumentFromFile` | 10 | Exported Function
+`CreatePackageGroupDescriptorDocumentFromXML` | 7 | Exported Function
+`CreatePackageGroupDescriptorDocumentFromFile` | 8 | Exported Function
+`CreatePackageMachinePolicyDocument` | 1 | Exported Function
+`CreatePackageMachinePolicyDocumentFromXML` | 2 | Exported Function
+`CreatePackageMachinePolicyDocumentFromFile` | 3 | Exported Function
 
 
 ## Signature

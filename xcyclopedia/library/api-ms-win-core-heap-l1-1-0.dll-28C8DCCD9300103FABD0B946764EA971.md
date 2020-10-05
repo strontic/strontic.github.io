@@ -24,24 +24,24 @@ PE256 | `6AC802D29C50DC1AC284FB1955C8474630B10A28C9074F65C2D31146D51322CF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetProcessHeap` | 1 (0x1) | Exported Function | kernel32.GetProcessHeap | 0x00001157
-`GetProcessHeaps` | 2 (0x2) | Exported Function | kernel32.GetProcessHeaps | 0x0000117f
-`HeapAlloc` | 3 (0x3) | Exported Function | kernel32.HeapAlloc | 0x000011a2
-`HeapCompact` | 4 (0x4) | Exported Function | kernel32.HeapCompact | 0x000011c1
-`HeapCreate` | 5 (0x5) | Exported Function | kernel32.HeapCreate | 0x000011e1
-`HeapDestroy` | 6 (0x6) | Exported Function | kernel32.HeapDestroy | 0x00001201
-`HeapFree` | 7 (0x7) | Exported Function | kernel32.HeapFree | 0x0000121f
-`HeapLock` | 8 (0x8) | Exported Function | kernel32.HeapLock | 0x0000123a
-`HeapQueryInformation` | 9 (0x9) | Exported Function | kernel32.HeapQueryInformation | 0x00001261
-`HeapReAlloc` | 10 (0xa) | Exported Function | kernel32.HeapReAlloc | 0x0000128b
-`HeapSetInformation` | 11 (0xb) | Exported Function | kernel32.HeapSetInformation | 0x000012b3
-`HeapSize` | 12 (0xc) | Exported Function | kernel32.HeapSize | 0x000012d8
-`HeapSummary` | 13 (0xd) | Exported Function | kernel32.HeapSummary | 0x000012f6
-`HeapUnlock` | 14 (0xe) | Exported Function | kernel32.HeapUnlock | 0x00001316
-`HeapValidate` | 15 (0xf) | Exported Function | kernel32.HeapValidate | 0x00001337
-`HeapWalk` | 16 (0x10) | Exported Function | kernel32.HeapWalk | 0x00001356
+Function Name | Ordinal | Type
+-- | -- | --
+`HeapSetInformation` | 11 | Exported Function
+`HeapSize` | 12 | Exported Function
+`HeapQueryInformation` | 9 | Exported Function
+`HeapReAlloc` | 10 | Exported Function
+`HeapValidate` | 15 | Exported Function
+`HeapWalk` | 16 | Exported Function
+`HeapSummary` | 13 | Exported Function
+`HeapUnlock` | 14 | Exported Function
+`HeapAlloc` | 3 | Exported Function
+`HeapCompact` | 4 | Exported Function
+`GetProcessHeap` | 1 | Exported Function
+`GetProcessHeaps` | 2 | Exported Function
+`HeapFree` | 7 | Exported Function
+`HeapLock` | 8 | Exported Function
+`HeapCreate` | 5 | Exported Function
+`HeapDestroy` | 6 | Exported Function
 
 
 ## Signature

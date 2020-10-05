@@ -24,12 +24,12 @@ PE256 | `44FE8DF6EE873820B8015F5D796B624EEE20A6C93A3CAB44C9FFDB879D022245`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DWMGhostCleanup` | 1 (0x1) | Exported Function | 0x00000001800065e0 | 0x000065e0
-`DWMGhostHandleGhostMsg` | 2 (0x2) | Exported Function | 0x0000000180009090 | 0x00009090
-`DWMGhostInitialize` | 3 (0x3) | Exported Function | 0x00000001800065c0 | 0x000065c0
-`DWMGhostSetInShutdown` | 4 (0x4) | Exported Function | 0x00000001800065d0 | 0x000065d0
+Function Name | Ordinal | Type
+-- | -- | --
+`DWMGhostInitialize` | 3 | Exported Function
+`DWMGhostSetInShutdown` | 4 | Exported Function
+`DWMGhostCleanup` | 1 | Exported Function
+`DWMGhostHandleGhostMsg` | 2 | Exported Function
 
 
 ## Signature

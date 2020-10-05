@@ -24,15 +24,15 @@ PE256 | `2814F509C05311F2C1A151DFD4B8D9546FD356E245D759655D2CAD819FB47FBB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllGetClassObject` | 1 (0x1) | Exported Function | 0x10026a60 | 0x00026a60
-`DllRegisterServer` | 2 (0x2) | Exported Function | 0x10026a90 | 0x00026a90
-`DllUnregisterServer` | 3 (0x3) | Exported Function | 0x10026ab0 | 0x00026ab0
-`DtcPerfClose` | 4 (0x4) | Exported Function | 0x10029e50 | 0x00029e50
-`DtcPerfCollect` | 5 (0x5) | Exported Function | 0x10029840 | 0x00029840
-`DtcPerfOpen` | 6 (0x6) | Exported Function | 0x100295f0 | 0x000295f0
-`PerfDllRegisterServer` | 7 (0x7) | Exported Function | 0x10029090 | 0x00029090
+Function Name | Ordinal | Type
+-- | -- | --
+`DtcPerfCollect` | 5 | Exported Function
+`DtcPerfOpen` | 6 | Exported Function
+`PerfDllRegisterServer` | 7 | Exported Function
+`DtcPerfClose` | 4 | Exported Function
+`DllGetClassObject` | 1 | Exported Function
+`DllRegisterServer` | 2 | Exported Function
+`DllUnregisterServer` | 3 | Exported Function
 
 
 ## Signature

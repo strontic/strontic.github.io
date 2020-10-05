@@ -24,16 +24,16 @@ PE256 | `2D5780EA9B4943DA64B5EF03C8333CD44B6EBC99C56E843AC0B7B6A569D2E7F7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x1000a910 | 0x0000a910
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x1000a940 | 0x0000a940
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x1000a970 | 0x0000a970
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x1000a9d0 | 0x0000a9d0
-`LoadBinFromEnabledLayoutOrTipFile` | 1 (0x1) | Exported Function | 0x1001c100 | 0x0001c100
-`LoadRegFromFile` | 2 (0x2) | Exported Function | 0x1001bbc0 | 0x0001bbc0
-`LogMessageLayoutOrTip` | 3 (0x3) | Exported Function | 0x1000de30 | 0x0000de30
-`SaveKeysToFile` | 4 (0x4) | Exported Function | 0x1001b6f0 | 0x0001b6f0
+Function Name | Ordinal | Type
+-- | -- | --
+`LoadRegFromFile` | 2 | Exported Function
+`LoadBinFromEnabledLayoutOrTipFile` | 1 | Exported Function
+`SaveKeysToFile` | 4 | Exported Function
+`LogMessageLayoutOrTip` | 3 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
 
 
 ## Signature

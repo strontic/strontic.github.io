@@ -24,62 +24,62 @@ PE256 | `945F9D77EB3C1707BAACFC2BE6C443AF175DDCBB0BF11762E11E4AF672AA5559`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddLocalAlternateComputerNameW` | 1 (0x1) | Exported Function | kernel32.AddLocalAlternateComputerNameW | 0x000012ee
-`GetSystemPowerStatus` | 30 (0x1e) | Exported Function | kernel32.GetSystemPowerStatus | 0x00001823
-`GetSystemWow64DirectoryA` | 31 (0x1f) | Exported Function | kernel32.GetSystemWow64DirectoryA | 0x0000185a
-`GetSystemWow64DirectoryW` | 32 (0x20) | Exported Function | kernel32.GetSystemWow64DirectoryW | 0x00001895
-`GetTapeParameters` | 33 (0x21) | Exported Function | kernel32.GetTapeParameters | 0x000018c9
-`GetTempPathA` | 34 (0x22) | Exported Function | kernel32.GetTempPathA | 0x000018f1
-`GetThreadSelectorEntry` | 35 (0x23) | Exported Function | kernel32.GetThreadSelectorEntry | 0x0000191e
-`GlobalMemoryStatus` | 36 (0x24) | Exported Function | kernel32.GlobalMemoryStatus | 0x00001951
-`LoadLibraryA` | 37 (0x25) | Exported Function | kernel32.LoadLibraryA | 0x0000197a
-`LoadLibraryW` | 38 (0x26) | Exported Function | kernel32.LoadLibraryW | 0x0000199d
-`MoveFileA` | 39 (0x27) | Exported Function | kernel32.MoveFileA | 0x000019bd
-`MoveFileExA` | 40 (0x28) | Exported Function | kernel32.MoveFileExA | 0x000019dc
-`MoveFileW` | 41 (0x29) | Exported Function | kernel32.MoveFileW | 0x000019fb
-`MulDiv` | 42 (0x2a) | Exported Function | kernel32.MulDiv | 0x00001a15
-`OpenFile` | 43 (0x2b) | Exported Function | kernel32.OpenFile | 0x00001a2e
-`PulseEvent` | 44 (0x2c) | Exported Function | kernel32.PulseEvent | 0x00001a4b
-`RaiseFailFastException` | 45 (0x2d) | Exported Function | kernel32.RaiseFailFastException | 0x00001a76
-`RegisterWaitForSingleObject` | 46 (0x2e) | Exported Function | kernel32.RegisterWaitForSingleObject | 0x00001ab2
-`SetConsoleTitleA` | 47 (0x2f) | Exported Function | kernel32.SetConsoleTitleA | 0x00001ae8
-`SetFileCompletionNotificationModes` | 48 (0x30) | Exported Function | kernel32.SetFileCompletionNotificationModes | 0x00001b25
-`SetHandleCount` | 49 (0x31) | Exported Function | kernel32.SetHandleCount | 0x00001b60
-`SetMailslotInfo` | 50 (0x32) | Exported Function | kernel32.SetMailslotInfo | 0x00001b88
-`SetVolumeLabelW` | 51 (0x33) | Exported Function | kernel32.SetVolumeLabelW | 0x00001bb1
-`UnregisterWait` | 52 (0x34) | Exported Function | kernel32.UnregisterWait | 0x00001bd9
-`GetStringTypeExA` | 29 (0x1d) | Exported Function | kernel32.GetStringTypeExA | 0x000017f4
-`GetStartupInfoA` | 28 (0x1c) | Exported Function | kernel32.GetStartupInfoA | 0x000017ca
-`GetShortPathNameA` | 27 (0x1b) | Exported Function | kernel32.GetShortPathNameA | 0x0000179f
-`GetNamedPipeServerProcessId` | 26 (0x1a) | Exported Function | kernel32.GetNamedPipeServerProcessId | 0x00001768
-`BackupRead` | 2 (0x2) | Exported Function | kernel32.BackupRead | 0x00001321
-`BackupWrite` | 3 (0x3) | Exported Function | kernel32.BackupWrite | 0x00001341
-`BindIoCompletionCallback` | 4 (0x4) | Exported Function | kernel32.BindIoCompletionCallback | 0x0000136f
-`CopyFileA` | 5 (0x5) | Exported Function | kernel32.CopyFileA | 0x0000139b
-`CopyFileW` | 6 (0x6) | Exported Function | kernel32.CopyFileW | 0x000013b8
-`CreateFileMappingA` | 7 (0x7) | Exported Function | kernel32.CreateFileMappingA | 0x000013de
-`CreateFileTransactedW` | 8 (0x8) | Exported Function | kernel32.CreateFileTransactedW | 0x00001410
-`CreateMailslotA` | 9 (0x9) | Exported Function | kernel32.CreateMailslotA | 0x0000143f
-`CreateNamedPipeA` | 10 (0xa) | Exported Function | kernel32.CreateNamedPipeA | 0x00001469
-`CreateSemaphoreW` | 11 (0xb) | Exported Function | kernel32.CreateSemaphoreW | 0x00001494
-`DnsHostnameToComputerNameW` | 12 (0xc) | Exported Function | kernel32.DnsHostnameToComputerNameW | 0x000014c9
-`WaitForMultipleObjects` | 54 (0x36) | Exported Function | kernel32.WaitForMultipleObjects | 0x00001c4b
-`DosDateTimeToFileTime` | 13 (0xd) | Exported Function | kernel32.DosDateTimeToFileTime | 0x00001503
-`FatalAppExitW` | 15 (0xf) | Exported Function | kernel32.FatalAppExitW | 0x00001555
-`FileTimeToDosDateTime` | 16 (0x10) | Exported Function | kernel32.FileTimeToDosDateTime | 0x00001582
-`FindResourceA` | 17 (0x11) | Exported Function | kernel32.FindResourceA | 0x000015af
-`FindResourceExA` | 18 (0x12) | Exported Function | kernel32.FindResourceExA | 0x000015d6
-`FindResourceW` | 19 (0x13) | Exported Function | kernel32.FindResourceW | 0x000015fd
-`GetComputerNameA` | 20 (0x14) | Exported Function | kernel32.GetComputerNameA | 0x00001625
-`GetComputerNameW` | 21 (0x15) | Exported Function | kernel32.GetComputerNameW | 0x00001650
-`GetConsoleWindow` | 22 (0x16) | Exported Function | kernel32.GetConsoleWindow | 0x0000167b
-`GetDurationFormatEx` | 23 (0x17) | Exported Function | kernel32.GetDurationFormatEx | 0x000016a9
-`GetMaximumProcessorGroupCount` | 24 (0x18) | Exported Function | kernel32.GetMaximumProcessorGroupCount | 0x000016e4
-`GetNamedPipeClientProcessId` | 25 (0x19) | Exported Function | kernel32.GetNamedPipeClientProcessId | 0x00001727
-`FatalAppExitA` | 14 (0xe) | Exported Function | kernel32.FatalAppExitA | 0x00001530
-`WTSGetActiveConsoleSessionId` | 53 (0x35) | Exported Function | kernel32.WTSGetActiveConsoleSessionId | 0x00001c0e
+Function Name | Ordinal | Type
+-- | -- | --
+`LoadLibraryA` | 37 | Exported Function
+`GlobalMemoryStatus` | 36 | Exported Function
+`GetThreadSelectorEntry` | 35 | Exported Function
+`MoveFileExA` | 40 | Exported Function
+`MoveFileA` | 39 | Exported Function
+`LoadLibraryW` | 38 | Exported Function
+`GetTempPathA` | 34 | Exported Function
+`GetSystemPowerStatus` | 30 | Exported Function
+`GetStringTypeExA` | 29 | Exported Function
+`GetStartupInfoA` | 28 | Exported Function
+`GetTapeParameters` | 33 | Exported Function
+`GetSystemWow64DirectoryW` | 32 | Exported Function
+`GetSystemWow64DirectoryA` | 31 | Exported Function
+`MoveFileW` | 41 | Exported Function
+`SetVolumeLabelW` | 51 | Exported Function
+`SetMailslotInfo` | 50 | Exported Function
+`SetHandleCount` | 49 | Exported Function
+`WTSGetActiveConsoleSessionId` | 53 | Exported Function
+`WaitForMultipleObjects` | 54 | Exported Function
+`UnregisterWait` | 52 | Exported Function
+`SetFileCompletionNotificationModes` | 48 | Exported Function
+`PulseEvent` | 44 | Exported Function
+`OpenFile` | 43 | Exported Function
+`MulDiv` | 42 | Exported Function
+`SetConsoleTitleA` | 47 | Exported Function
+`RegisterWaitForSingleObject` | 46 | Exported Function
+`RaiseFailFastException` | 45 | Exported Function
+`CreateNamedPipeA` | 10 | Exported Function
+`CreateMailslotA` | 9 | Exported Function
+`CreateFileTransactedW` | 8 | Exported Function
+`DosDateTimeToFileTime` | 13 | Exported Function
+`DnsHostnameToComputerNameW` | 12 | Exported Function
+`CreateSemaphoreW` | 11 | Exported Function
+`CreateFileMappingA` | 7 | Exported Function
+`BackupWrite` | 3 | Exported Function
+`BackupRead` | 2 | Exported Function
+`AddLocalAlternateComputerNameW` | 1 | Exported Function
+`CopyFileW` | 6 | Exported Function
+`CopyFileA` | 5 | Exported Function
+`BindIoCompletionCallback` | 4 | Exported Function
+`FatalAppExitA` | 14 | Exported Function
+`GetMaximumProcessorGroupCount` | 24 | Exported Function
+`GetDurationFormatEx` | 23 | Exported Function
+`GetConsoleWindow` | 22 | Exported Function
+`GetShortPathNameA` | 27 | Exported Function
+`GetNamedPipeServerProcessId` | 26 | Exported Function
+`GetNamedPipeClientProcessId` | 25 | Exported Function
+`GetComputerNameW` | 21 | Exported Function
+`FindResourceA` | 17 | Exported Function
+`FileTimeToDosDateTime` | 16 | Exported Function
+`FatalAppExitW` | 15 | Exported Function
+`GetComputerNameA` | 20 | Exported Function
+`FindResourceW` | 19 | Exported Function
+`FindResourceExA` | 18 | Exported Function
 
 
 ## Signature

@@ -24,17 +24,17 @@ PE256 | `E0567996BA420C76DC5DC563E0739264F0448DCFAC67EA29AD222E6EF073556E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EnumSystemFirmwareTables` | 1 (0x1) | Exported Function | kernel32.EnumSystemFirmwareTables | 0x0000111e
-`GetNativeSystemInfo` | 2 (0x2) | Exported Function | kernel32.GetNativeSystemInfo | 0x00001154
-`GetOsSafeBootMode` | 3 (0x3) | Exported Function | kernel32.GetOsSafeBootMode | 0x00001183
-`GetProductInfo` | 4 (0x4) | Exported Function | kernel32.GetProductInfo | 0x000011ad
-`GetSystemFirmwareTable` | 5 (0x5) | Exported Function | kernel32.GetSystemFirmwareTable | 0x000011dc
-`GetSystemTimePreciseAsFileTime` | 6 (0x6) | Exported Function | kernel32.GetSystemTimePreciseAsFileTime | 0x0000121b
-`SetComputerNameExW` | 7 (0x7) | Exported Function | kernel32.SetComputerNameExW | 0x00001256
-`SetSystemTime` | 8 (0x8) | Exported Function | kernel32.SetSystemTime | 0x00001280
-`VerSetConditionMask` | 9 (0x9) | Exported Function | kernel32.VerSetConditionMask | 0x000012ab
+Function Name | Ordinal | Type
+-- | -- | --
+`SetComputerNameExW` | 7 | Exported Function
+`GetSystemTimePreciseAsFileTime` | 6 | Exported Function
+`VerSetConditionMask` | 9 | Exported Function
+`SetSystemTime` | 8 | Exported Function
+`GetSystemFirmwareTable` | 5 | Exported Function
+`GetNativeSystemInfo` | 2 | Exported Function
+`EnumSystemFirmwareTables` | 1 | Exported Function
+`GetProductInfo` | 4 | Exported Function
+`GetOsSafeBootMode` | 3 | Exported Function
 
 
 ## Signature

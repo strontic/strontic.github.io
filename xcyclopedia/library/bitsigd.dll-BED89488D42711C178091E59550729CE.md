@@ -24,10 +24,10 @@ PE256 | `FC98E335D2BE1C5D129093B491C7D3BB5C8AA486235092E9985A27921394FE82`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializeEx` | 1 (0x1) | Exported Function | 0x00000001800031a0 | 0x000031a0
-`UninitializeEx` | 2 (0x2) | Exported Function | 0x00000001800014b0 | 0x000014b0
+Function Name | Ordinal | Type
+-- | -- | --
+`UninitializeEx` | 2 | Exported Function
+`InitializeEx` | 1 | Exported Function
 
 
 ## Signature

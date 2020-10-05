@@ -24,20 +24,20 @@ PE256 | `8259E1A50CA56771C1B44DC1729AD8F6EB64378E3E1E26C62A54476EB6A1349B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CallbackInitOnline` | 4 (0x4) | Exported Function | 0x00000001800034f0 | 0x000034f0
-`CallbackInitWin32` | 5 (0x5) | Exported Function | 0x0000000180003460 | 0x00003460
-`CallbackInitWinPE` | 6 (0x6) | Exported Function | 0x00000001800034f0 | 0x000034f0
-`CallbackRegisterAllTasks` | 7 (0x7) | Exported Function | 0x0000000180003550 | 0x00003550
-`CallbackReportEstimates` | 8 (0x8) | Exported Function | 0x0000000180003ba0 | 0x00003ba0
-`CallbackTerminate` | 9 (0x9) | Exported Function | 0x0000000180003510 | 0x00003510
-`GetProgressObject` | 10 (0xa) | Exported Function | 0x00000001800011a0 | 0x000011a0
-`ModuleInitialize` | 11 (0xb) | Exported Function | 0x0000000180003380 | 0x00003380
-`OnlineProgress` | 1 (0x1) | Exported Function | 0x00000001800032c0 | 0x000032c0
-`PutProgressEstimateOnBlackboard` | 12 (0xc) | Exported Function | 0x0000000180003ad0 | 0x00003ad0
-`Win32Progress` | 2 (0x2) | Exported Function | 0x0000000180003140 | 0x00003140
-`WinPEProgress` | 3 (0x3) | Exported Function | 0x0000000180003200 | 0x00003200
+Function Name | Ordinal | Type
+-- | -- | --
+`OnlineProgress` | 1 | Exported Function
+`ModuleInitialize` | 11 | Exported Function
+`GetProgressObject` | 10 | Exported Function
+`WinPEProgress` | 3 | Exported Function
+`Win32Progress` | 2 | Exported Function
+`PutProgressEstimateOnBlackboard` | 12 | Exported Function
+`CallbackInitWinPE` | 6 | Exported Function
+`CallbackInitWin32` | 5 | Exported Function
+`CallbackInitOnline` | 4 | Exported Function
+`CallbackTerminate` | 9 | Exported Function
+`CallbackReportEstimates` | 8 | Exported Function
+`CallbackRegisterAllTasks` | 7 | Exported Function
 
 
 ## Signature

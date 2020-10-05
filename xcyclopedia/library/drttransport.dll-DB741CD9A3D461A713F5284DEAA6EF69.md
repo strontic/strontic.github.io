@@ -24,10 +24,10 @@ PE256 | `9D4BE0840D734028474011BC30EC732BC188A2E49B159D58AD071F0083FF75C4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DrtCreateIpv6UdpTransport` | 1 (0x1) | Exported Function | 0x10001f10 | 0x00001f10
-`DrtDeleteIpv6UdpTransport` | 2 (0x2) | Exported Function | 0x10001f80 | 0x00001f80
+Function Name | Ordinal | Type
+-- | -- | --
+`DrtDeleteIpv6UdpTransport` | 2 | Exported Function
+`DrtCreateIpv6UdpTransport` | 1 | Exported Function
 
 
 ## Signature

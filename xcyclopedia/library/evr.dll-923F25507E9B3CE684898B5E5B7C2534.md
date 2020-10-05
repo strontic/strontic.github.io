@@ -24,36 +24,36 @@ PE256 | `9B5604627EAE93FEFAA8FBB097BE2AF553191C0A7A0E1EBF74F47E56F040D102`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000011ff1f0f0 | 0x0001f0f0
-`MFInitVideoFormat` | 26 (0x1a) | Exported Function | 0x000000011ff3efe0 | 0x0003efe0
-`MFGetUncompressedVideoFormat` | 1 (0x1) | Exported Function | 0x000000011ff3edc0 | 0x0003edc0
-`MFGetStrideForBitmapInfoHeader` | 25 (0x19) | Exported Function | 0x000000011ff3efa0 | 0x0003efa0
-`MFGetPlaneSize` | 24 (0x18) | Exported Function | 0x000000011ff3ef80 | 0x0003ef80
-`MFCreateVideoSampleFromSurface` | 23 (0x17) | Exported Function | 0x000000011ff4bba0 | 0x0004bba0
-`MFCreateVideoSampleAllocator` | 22 (0x16) | Exported Function | 0x000000011ff57a10 | 0x00057a10
-`MFCreateVideoPresenter2` | 21 (0x15) | Exported Function | 0x000000011ff4c4b0 | 0x0004c4b0
-`MFCreateVideoPresenter` | 20 (0x14) | Exported Function | 0x000000011ff4c440 | 0x0004c440
-`MFCreateVideoOTA` | 19 (0x13) | Exported Function | 0x000000011ff17000 | 0x00017000
-`MFCreateVideoMixerAndPresenter` | 18 (0x12) | Exported Function | 0x000000011ff3e980 | 0x0003e980
-`MFCreateVideoMixer` | 17 (0x11) | Exported Function | 0x000000011ff11e90 | 0x00011e90
-`MFCreateVideoMediaTypeFromVideoInfoHeader2` | 16 (0x10) | Exported Function | 0x000000011ff3ef20 | 0x0003ef20
-`MFCreateVideoMediaTypeFromVideoInfoHeader` | 15 (0xf) | Exported Function | 0x000000011ff3ef40 | 0x0003ef40
-`MFCreateVideoMediaTypeFromSubtype` | 14 (0xe) | Exported Function | 0x000000011ff3ef00 | 0x0003ef00
-`MFCreateVideoMediaTypeFromBitMapInfoHeader` | 13 (0xd) | Exported Function | 0x000000011ff3eea0 | 0x0003eea0
-`MFCreateVideoMediaType` | 12 (0xc) | Exported Function | 0x000000011ff3ef60 | 0x0003ef60
-`MFCreateDXSurfaceBuffer` | 11 (0xb) | Exported Function | 0x000000011ff3ee80 | 0x0003ee80
-`MFCopyImage` | 10 (0xa) | Exported Function | 0x000000011ff3ee60 | 0x0003ee60
-`MFConvertToFP16Array` | 9 (0x9) | Exported Function | 0x000000011ff3ee40 | 0x0003ee40
-`MFConvertFromFP16Array` | 8 (0x8) | Exported Function | 0x000000011ff3ee20 | 0x0003ee20
-`MFConvertColorInfoToDXVA` | 7 (0x7) | Exported Function | 0x000000011ff3ee00 | 0x0003ee00
-`MFConvertColorInfoFromDXVA` | 6 (0x6) | Exported Function | 0x000000011ff3ede0 | 0x0003ede0
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x000000011ff3e970 | 0x0003e970
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x000000011ff3e960 | 0x0003e960
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000011ff10410 | 0x00010410
-`MFInitVideoFormat_RGB` | 27 (0x1b) | Exported Function | 0x000000011ff3efc0 | 0x0003efc0
-`MFIsFormatYUV` | 28 (0x1c) | Exported Function | 0x000000011ff0e850 | 0x0000e850
+Function Name | Ordinal | Type
+-- | -- | --
+`MFCreateVideoPresenter` | 20 | Exported Function
+`MFCreateVideoPresenter2` | 21 | Exported Function
+`MFCreateVideoSampleAllocator` | 22 | Exported Function
+`MFCreateVideoOTA` | 19 | Exported Function
+`MFCreateVideoMediaTypeFromVideoInfoHeader2` | 16 | Exported Function
+`MFCreateVideoMixer` | 17 | Exported Function
+`MFCreateVideoMixerAndPresenter` | 18 | Exported Function
+`MFInitVideoFormat` | 26 | Exported Function
+`MFInitVideoFormat_RGB` | 27 | Exported Function
+`MFIsFormatYUV` | 28 | Exported Function
+`MFGetUncompressedVideoFormat` | 1 | Exported Function
+`MFCreateVideoSampleFromSurface` | 23 | Exported Function
+`MFGetPlaneSize` | 24 | Exported Function
+`MFGetStrideForBitmapInfoHeader` | 25 | Exported Function
+`MFConvertColorInfoFromDXVA` | 6 | Exported Function
+`MFConvertColorInfoToDXVA` | 7 | Exported Function
+`MFConvertFromFP16Array` | 8 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`MFCreateVideoMediaTypeFromBitMapInfoHeader` | 13 | Exported Function
+`MFCreateVideoMediaTypeFromSubtype` | 14 | Exported Function
+`MFCreateVideoMediaTypeFromVideoInfoHeader` | 15 | Exported Function
+`MFCreateVideoMediaType` | 12 | Exported Function
+`MFConvertToFP16Array` | 9 | Exported Function
+`MFCopyImage` | 10 | Exported Function
+`MFCreateDXSurfaceBuffer` | 11 | Exported Function
 
 
 ## Signature

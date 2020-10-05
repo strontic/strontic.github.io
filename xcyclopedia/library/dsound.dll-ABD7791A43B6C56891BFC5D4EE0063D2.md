@@ -24,20 +24,20 @@ PE256 | `6ABBD2BADAE1AEF87431350D4A944B4C5B29FC8D3B875E38DABFAD145A72707F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DirectSoundCaptureCreate` | 6 (0x6) | Exported Function | 0x510bbe50 | 0x0003be50
-`DirectSoundCaptureCreate8` | 12 (0xc) | Exported Function | 0x510bbd30 | 0x0003bd30
-`DirectSoundCaptureEnumerateA` | 7 (0x7) | Exported Function | 0x510bbf60 | 0x0003bf60
-`DirectSoundCaptureEnumerateW` | 8 (0x8) | Exported Function | 0x510bbf80 | 0x0003bf80
-`DirectSoundCreate` | 1 (0x1) | Exported Function | 0x510bbfa0 | 0x0003bfa0
-`DirectSoundCreate8` | 11 (0xb) | Exported Function | 0x510b02d0 | 0x000302d0
-`DirectSoundEnumerateA` | 2 (0x2) | Exported Function | 0x510bc0b0 | 0x0003c0b0
-`DirectSoundEnumerateW` | 3 (0x3) | Exported Function | 0x510bc0d0 | 0x0003c0d0
-`DirectSoundFullDuplexCreate` | 10 (0xa) | Exported Function | 0x510bc0f0 | 0x0003c0f0
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x510c5060 | 0x00045060
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x510ad060 | 0x0002d060
-`GetDeviceID` | 9 (0x9) | Exported Function | 0x510bc3c0 | 0x0003c3c0
+Function Name | Ordinal | Type
+-- | -- | --
+`DirectSoundFullDuplexCreate` | 10 | Exported Function
+`DirectSoundEnumerateW` | 3 | Exported Function
+`DirectSoundEnumerateA` | 2 | Exported Function
+`GetDeviceID` | 9 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DirectSoundCaptureEnumerateA` | 7 | Exported Function
+`DirectSoundCaptureCreate8` | 12 | Exported Function
+`DirectSoundCaptureCreate` | 6 | Exported Function
+`DirectSoundCreate8` | 11 | Exported Function
+`DirectSoundCreate` | 1 | Exported Function
+`DirectSoundCaptureEnumerateW` | 8 | Exported Function
 
 
 ## Signature

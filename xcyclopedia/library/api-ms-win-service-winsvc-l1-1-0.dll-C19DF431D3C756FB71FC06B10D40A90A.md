@@ -24,34 +24,34 @@ PE256 | `D4528106A63FAFE824BB4E3ADC5D6DB3016E7B60F477E4EADCB27FDF32D28A63`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ChangeServiceConfig2A` | 1 (0x1) | Exported Function | advapi32.ChangeServiceConfig2A | 0x000011c7
-`RegisterServiceCtrlHandlerW` | 24 (0x18) | Exported Function | advapi32.RegisterServiceCtrlHandlerW | 0x00001650
-`RegisterServiceCtrlHandlerExA` | 23 (0x17) | Exported Function | advapi32.RegisterServiceCtrlHandlerExA | 0x0000160d
-`RegisterServiceCtrlHandlerA` | 22 (0x16) | Exported Function | advapi32.RegisterServiceCtrlHandlerA | 0x000015ca
-`QueryServiceStatus` | 21 (0x15) | Exported Function | advapi32.QueryServiceStatus | 0x00001592
-`QueryServiceConfigA` | 20 (0x14) | Exported Function | advapi32.QueryServiceConfigA | 0x00001562
-`QueryServiceConfig2A` | 19 (0x13) | Exported Function | advapi32.QueryServiceConfig2A | 0x00001530
-`OpenServiceA` | 18 (0x12) | Exported Function | advapi32.OpenServiceA | 0x00001505
-`OpenSCManagerA` | 17 (0x11) | Exported Function | advapi32.OpenSCManagerA | 0x000014e0
-`NotifyServiceStatusChangeA` | 16 (0x10) | Exported Function | advapi32.NotifyServiceStatusChangeA | 0x000014ad
-`I_ScValidatePnPService` | 15 (0xf) | Exported Function | advapi32.I_ScValidatePnPService | 0x00001472
-`I_ScSendTSMessage` | 14 (0xe) | Exported Function | advapi32.I_ScSendTSMessage | 0x00001440
-`I_ScSendPnPMessage` | 13 (0xd) | Exported Function | advapi32.I_ScSendPnPMessage | 0x00001412
-`I_ScRpcBindW` | 12 (0xc) | Exported Function | advapi32.I_ScRpcBindW | 0x000013e9
-`I_ScRpcBindA` | 11 (0xb) | Exported Function | advapi32.I_ScRpcBindA | 0x000013c6
-`I_ScQueryServiceConfig` | 10 (0xa) | Exported Function | advapi32.I_ScQueryServiceConfig | 0x00001399
-`I_ScPnPGetServiceName` | 9 (0x9) | Exported Function | advapi32.I_ScPnPGetServiceName | 0x00001363
-`I_ScIsSecurityProcess` | 8 (0x8) | Exported Function | advapi32.I_ScIsSecurityProcess | 0x0000132e
-`I_ScBroadcastServiceControlMessage` | 7 (0x7) | Exported Function | advapi32.I_ScBroadcastServiceControlMessage | 0x000012ec
-`I_QueryTagInformation` | 6 (0x6) | Exported Function | advapi32.I_QueryTagInformation | 0x000012aa
-`CreateServiceA` | 5 (0x5) | Exported Function | advapi32.CreateServiceA | 0x0000127c
-`ControlServiceExA` | 4 (0x4) | Exported Function | advapi32.ControlServiceExA | 0x00001252
-`ControlService` | 3 (0x3) | Exported Function | advapi32.ControlService | 0x00001228
-`ChangeServiceConfigA` | 2 (0x2) | Exported Function | advapi32.ChangeServiceConfigA | 0x000011fb
-`StartServiceA` | 25 (0x19) | Exported Function | advapi32.StartServiceA | 0x00001683
-`StartServiceCtrlDispatcherA` | 26 (0x1a) | Exported Function | advapi32.StartServiceCtrlDispatcherA | 0x000016b6
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenSCManagerA` | 17 | Exported Function
+`OpenServiceA` | 18 | Exported Function
+`QueryServiceConfig2A` | 19 | Exported Function
+`I_ScSendTSMessage` | 14 | Exported Function
+`I_ScValidatePnPService` | 15 | Exported Function
+`NotifyServiceStatusChangeA` | 16 | Exported Function
+`QueryServiceConfigA` | 20 | Exported Function
+`RegisterServiceCtrlHandlerW` | 24 | Exported Function
+`StartServiceA` | 25 | Exported Function
+`StartServiceCtrlDispatcherA` | 26 | Exported Function
+`QueryServiceStatus` | 21 | Exported Function
+`RegisterServiceCtrlHandlerA` | 22 | Exported Function
+`RegisterServiceCtrlHandlerExA` | 23 | Exported Function
+`ControlServiceExA` | 4 | Exported Function
+`CreateServiceA` | 5 | Exported Function
+`I_QueryTagInformation` | 6 | Exported Function
+`ChangeServiceConfig2A` | 1 | Exported Function
+`ChangeServiceConfigA` | 2 | Exported Function
+`ControlService` | 3 | Exported Function
+`I_ScBroadcastServiceControlMessage` | 7 | Exported Function
+`I_ScRpcBindA` | 11 | Exported Function
+`I_ScRpcBindW` | 12 | Exported Function
+`I_ScSendPnPMessage` | 13 | Exported Function
+`I_ScIsSecurityProcess` | 8 | Exported Function
+`I_ScPnPGetServiceName` | 9 | Exported Function
+`I_ScQueryServiceConfig` | 10 | Exported Function
 
 
 ## Signature

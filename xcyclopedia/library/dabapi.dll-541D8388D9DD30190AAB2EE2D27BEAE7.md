@@ -24,12 +24,12 @@ PE256 | `2D84612C4BC62B47E628230D754B0B856DCFBB8C5045347876211A861CD63BBE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DabApiBufferFree` | 1 (0x1) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`DabGetLastScheduledRunTime` | 2 (0x2) | Exported Function | 0x0000000180001260 | 0x00001260
-`DabRegisterTriggerConsumer` | 3 (0x3) | Exported Function | 0x0000000180001010 | 0x00001010
-`DabUnregisterTriggerConsumer` | 4 (0x4) | Exported Function | 0x0000000180001210 | 0x00001210
+Function Name | Ordinal | Type
+-- | -- | --
+`DabRegisterTriggerConsumer` | 3 | Exported Function
+`DabUnregisterTriggerConsumer` | 4 | Exported Function
+`DabApiBufferFree` | 1 | Exported Function
+`DabGetLastScheduledRunTime` | 2 | Exported Function
 
 
 ## Signature

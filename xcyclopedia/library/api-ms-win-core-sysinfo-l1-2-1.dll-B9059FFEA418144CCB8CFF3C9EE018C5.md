@@ -24,13 +24,13 @@ PE256 | `8A4B5D4C5FF9676F84EBDAA2A819FA27EA9E7791AD5E8ABECB5AD7296F20F023`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DnsHostnameToComputerNameExW` | 1 (0x1) | Exported Function | kernel32.DnsHostnameToComputerNameExW | 0x000011ba
-`GetPhysicallyInstalledSystemMemory` | 2 (0x2) | Exported Function | kernel32.GetPhysicallyInstalledSystemMemory | 0x00001203
-`InstallELAMCertificateInfo` | 3 (0x3) | Exported Function | kernel32.InstallELAMCertificateInfo | 0x0000124a
-`SetComputerNameEx2W` | 4 (0x4) | Exported Function | kernel32.SetComputerNameEx2W | 0x00001282
-`SetSystemTimeAdjustment` | 5 (0x5) | Exported Function | kernel32.SetSystemTimeAdjustment | 0x000012b7
+Function Name | Ordinal | Type
+-- | -- | --
+`SetComputerNameEx2W` | 4 | Exported Function
+`SetSystemTimeAdjustment` | 5 | Exported Function
+`InstallELAMCertificateInfo` | 3 | Exported Function
+`DnsHostnameToComputerNameExW` | 1 | Exported Function
+`GetPhysicallyInstalledSystemMemory` | 2 | Exported Function
 
 
 ## Signature

@@ -23,9 +23,9 @@ PE256 | `6AB0FC478513809382ECA17B9C23B69331F3DF919F0C923F4FA0F7FFD5574179`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateHeatProcessor` | 1 (0x1) | Exported Function | 0x10009f30 | 0x00009f30
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateHeatProcessor` | 1 | Exported Function
 
 
 ## Signature

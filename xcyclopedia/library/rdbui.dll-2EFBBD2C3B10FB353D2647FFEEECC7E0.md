@@ -24,13 +24,13 @@ PE256 | `2AAC2204EA9E4A8A0B478075979A7AA8A67754C119DF04EF6186A7ED0A8E8A9D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180005380 | 0x00005380
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x00000001800053c0 | 0x000053c0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x0000000180005500 | 0x00005500
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x00000001800055e0 | 0x000055e0
-`RDBMgmtLaunchPropertiesW` | 1 (0x1) | Exported Function | 0x00000001800056c0 | 0x000056c0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 5 | Exported Function
+`RDBMgmtLaunchPropertiesW` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

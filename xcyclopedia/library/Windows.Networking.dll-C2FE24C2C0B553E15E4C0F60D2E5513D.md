@@ -24,16 +24,15 @@ PE256 | `9561CC703E420F76ACD485F1D65F084CD57537C2D9606A18A4C95B47F7238AED`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x10091280 | 0x00091280
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x10091170 | 0x00091170
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x10091190 | 0x00091190
-`DllMain` | 5 (0x5) | Exported Function | 0x10091220 | 0x00091220
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x10091200 | 0x00091200
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x100911e0 | 0x000911e0
-`Ordinal1` | 1 (0x1) | Exported Function | 0x10091840 | 0x00091840
-`SetSocketMediaStreamingMode` | 8 (0x8) | Exported Function | 0x100918f0 | 0x000918f0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 6 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`SetSocketMediaStreamingMode` | 8 | Exported Function
+`DllMain` | 5 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

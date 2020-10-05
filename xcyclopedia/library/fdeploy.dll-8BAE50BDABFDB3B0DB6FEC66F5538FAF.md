@@ -24,11 +24,11 @@ PE256 | `69DF52DAE88683CB83525A0573C021D7C227DC265E216942E2C3590C1DDF9B54`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GenerateGroupPolicy` | 2 (0x2) | Exported Function | 0x000000018000c1d0 | 0x0000c1d0
-`ProcessGroupPolicyEx` | 3 (0x3) | Exported Function | 0x000000018000c240 | 0x0000c240
-`ProcessWmiPolicy` | 1 (0x1) | Exported Function | 0x000000018000c3e0 | 0x0000c3e0
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessWmiPolicy` | 1 | Exported Function
+`ProcessGroupPolicyEx` | 3 | Exported Function
+`GenerateGroupPolicy` | 2 | Exported Function
 
 
 ## Signature

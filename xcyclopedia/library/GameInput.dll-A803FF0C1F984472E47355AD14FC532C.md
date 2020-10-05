@@ -24,11 +24,11 @@ PE256 | `650B72CFA984EB278F965F957A899A6552308364EF08431D89B2783BF35A2D83`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x100027e0 | 0x000027e0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10002840 | 0x00002840
-`GameInputCreate` | 1 (0x1) | Exported Function | 0x10002770 | 0x00002770
+Function Name | Ordinal | Type
+-- | -- | --
+`GameInputCreate` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

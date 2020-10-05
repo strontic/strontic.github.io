@@ -24,22 +24,22 @@ PE256 | `C32E2F0B1B368E0039C9480BC6ED91BA2BEF11FDD370CA327395583A6D62642C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetDiagnosticFunctions` | 1 (0x1) | Exported Function | 0x0000000180017970 | 0x00017970
-`InitHelperDll` | 2 (0x2) | Exported Function | 0x0000000180017620 | 0x00017620
-`RutlAlloc` | 3 (0x3) | Exported Function | 0x00000001800189f0 | 0x000189f0
-`RutlAssignmentFromTokenAndDword` | 4 (0x4) | Exported Function | 0x0000000180018e00 | 0x00018e00
-`RutlAssignmentFromTokens` | 5 (0x5) | Exported Function | 0x0000000180018cc0 | 0x00018cc0
-`RutlCloseDumpFile` | 6 (0x6) | Exported Function | 0x00000001800189d0 | 0x000189d0
-`RutlCreateDumpFile` | 7 (0x7) | Exported Function | 0x0000000180018940 | 0x00018940
-`RutlDwordDup` | 8 (0x8) | Exported Function | 0x0000000180018b10 | 0x00018b10
-`RutlFree` | 9 (0x9) | Exported Function | 0x0000000180018a40 | 0x00018a40
-`RutlGetOsVersion` | 10 (0xa) | Exported Function | 0x0000000180018b40 | 0x00018b40
-`RutlGetTagToken` | 11 (0xb) | Exported Function | 0x0000000180018620 | 0x00018620
-`RutlIsHelpToken` | 12 (0xc) | Exported Function | 0x0000000180018c70 | 0x00018c70
-`RutlParse` | 13 (0xd) | Exported Function | 0x0000000180019200 | 0x00019200
-`RutlStrDup` | 14 (0xe) | Exported Function | 0x0000000180018a80 | 0x00018a80
+Function Name | Ordinal | Type
+-- | -- | --
+`RutlGetOsVersion` | 10 | Exported Function
+`RutlFree` | 9 | Exported Function
+`RutlDwordDup` | 8 | Exported Function
+`RutlGetTagToken` | 11 | Exported Function
+`RutlStrDup` | 14 | Exported Function
+`RutlParse` | 13 | Exported Function
+`RutlIsHelpToken` | 12 | Exported Function
+`RutlAlloc` | 3 | Exported Function
+`InitHelperDll` | 2 | Exported Function
+`GetDiagnosticFunctions` | 1 | Exported Function
+`RutlAssignmentFromTokenAndDword` | 4 | Exported Function
+`RutlCreateDumpFile` | 7 | Exported Function
+`RutlCloseDumpFile` | 6 | Exported Function
+`RutlAssignmentFromTokens` | 5 | Exported Function
 
 
 ## Signature

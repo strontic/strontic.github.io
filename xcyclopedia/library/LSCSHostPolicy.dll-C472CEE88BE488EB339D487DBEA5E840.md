@@ -24,10 +24,10 @@ PE256 | `39C3E2390DB687E8FF7DF06EE0041F88A51CB88192627F258076DFA349C3168E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateInstanceOfHostPolicy` | 1 (0x1) | Exported Function | 0x0000000180002650 | 0x00002650
-`ReleaseInstanceOfHostPolicy` | 2 (0x2) | Exported Function | 0x0000000180002980 | 0x00002980
+Function Name | Ordinal | Type
+-- | -- | --
+`ReleaseInstanceOfHostPolicy` | 2 | Exported Function
+`CreateInstanceOfHostPolicy` | 1 | Exported Function
 
 
 ## Signature

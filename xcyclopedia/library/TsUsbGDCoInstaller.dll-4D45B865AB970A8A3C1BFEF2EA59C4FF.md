@@ -24,9 +24,9 @@ PE256 | `C8094D8A0D12146400ADE35B7FD97BAC37F2CEE61DF0D97D946CD3139CB00EFA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TsUsbGDCoInstaller` | 1 (0x1) | Exported Function | 0x00000001800010b0 | 0x000010b0
+Function Name | Ordinal | Type
+-- | -- | --
+`TsUsbGDCoInstaller` | 1 | Exported Function
 
 
 ## Signature

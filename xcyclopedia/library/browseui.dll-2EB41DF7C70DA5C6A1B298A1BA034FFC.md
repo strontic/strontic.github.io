@@ -24,35 +24,9 @@ PE256 | `78857F2B4C36DD447F2BC5CD8161E0324FB5CA1FC2B8FB5D4AD144C67B99CFF7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllGetVersion` | 104 (0x68) | Exported Function | 0x71501db0 | 0x00001db0
-`Ordinal137` | 137 (0x89) | Exported Function | SHUNIMPL.#278 | 0x00002a75
-`Ordinal136` | 136 (0x88) | Exported Function | SHUNIMPL.#277 | 0x000029f7
-`Ordinal135` | 135 (0x87) | Exported Function | SHUNIMPL.#276 | 0x0000295d
-`Ordinal134` | 134 (0x86) | Exported Function | SHUNIMPL.#275 | 0x00002a13
-`Ordinal133` | 133 (0x85) | Exported Function | SHUNIMPL.#118 | 0x00002941
-`Ordinal131` | 131 (0x83) | Exported Function | SHUNIMPL.#117 | 0x00002979
-`Ordinal130` | 130 (0x82) | Exported Function | SHUNIMPL.#116 | 0x0000294f
-`Ordinal129` | 129 (0x81) | Exported Function | SHUNIMPL.#115 | 0x00002925
-`Ordinal128` | 128 (0x80) | Exported Function | SHUNIMPL.#114 | 0x00002933
-`Ordinal127` | 127 (0x7f) | Exported Function | SHUNIMPL.#113 | 0x00002a21
-`Ordinal126` | 126 (0x7e) | Exported Function | SHUNIMPL.#274 | 0x000029e9
-`Ordinal138` | 138 (0x8a) | Exported Function | SHUNIMPL.#233 | 0x00002a67
-`Ordinal125` | 125 (0x7d) | Exported Function | SHUNIMPL.#273 | 0x00002a4b
-`Ordinal123` | 123 (0x7b) | Exported Function | SHUNIMPL.#271 | 0x000029cd
-`Ordinal122` | 122 (0x7a) | Exported Function | SHUNIMPL.#270 | 0x0000296b
-`Ordinal121` | 121 (0x79) | Exported Function | SHUNIMPL.#112 | 0x00002a59
-`Ordinal120` | 120 (0x78) | Exported Function | SHUNIMPL.#232 | 0x000029a3
-`Ordinal118` | 118 (0x76) | Exported Function | SHUNIMPL.#269 | 0x00002a83
-`Ordinal107` | 107 (0x6b) | Exported Function | SHUNIMPL.#111 | 0x00002a05
-`Ordinal106` | 106 (0x6a) | Exported Function | SHUNIMPL.#110 | 0x000029bf
-`Ordinal105` | 105 (0x69) | Exported Function | SHUNIMPL.#268 | 0x000029db
-`Ordinal103` | 103 (0x67) | Exported Function | SHUNIMPL.#267 | 0x00002a3d
-`Ordinal102` | 102 (0x66) | Exported Function | SHUNIMPL.#266 | 0x00002a2f
-`Ordinal101` | 101 (0x65) | Exported Function | SHUNIMPL.#109 | 0x00002987
-`Ordinal124` | 124 (0x7c) | Exported Function | SHUNIMPL.#272 | 0x00002995
-`Ordinal139` | 139 (0x8b) | Exported Function | SHUNIMPL.#279 | 0x000029b1
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetVersion` | 104 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `1878FE6404909C183AC01CAA56FF221B54E3C98C24FF3295E62E9EF182A8C546`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FlsAlloc` | 1 (0x1) | Exported Function | kernel32.FlsAlloc | 0x0000119b
-`FlsFree` | 2 (0x2) | Exported Function | kernel32.FlsFree | 0x000011b5
-`FlsGetValue` | 3 (0x3) | Exported Function | kernel32.FlsGetValue | 0x000011d2
-`FlsSetValue` | 4 (0x4) | Exported Function | kernel32.FlsSetValue | 0x000011f3
+Function Name | Ordinal | Type
+-- | -- | --
+`FlsGetValue` | 3 | Exported Function
+`FlsSetValue` | 4 | Exported Function
+`FlsAlloc` | 1 | Exported Function
+`FlsFree` | 2 | Exported Function
 
 
 ## Signature

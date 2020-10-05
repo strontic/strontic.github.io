@@ -24,18 +24,18 @@ PE256 | `959534002F3AF6D653D8423587F481F5B5B9A7C58AFB39E06560538D5A8D0147`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AreDvdCodecsEnabled` | 1 (0x1) | Exported Function | 0x10008120 | 0x00008120
-`GetMediaComponentPackageInfo` | 2 (0x2) | Exported Function | 0x1000d730 | 0x0000d730
-`GetMediaExtensionCommunicationFactory` | 3 (0x3) | Exported Function | 0x100068e0 | 0x000068e0
-`GetNetworkRequestCount` | 4 (0x4) | Exported Function | 0x100085b0 | 0x000085b0
-`GetServerForPMP` | 5 (0x5) | Exported Function | 0x10006c80 | 0x00006c80
-`InstantiateComponentFromPackage` | 6 (0x6) | Exported Function | 0x10006a80 | 0x00006a80
-`IsMediaBehaviorEnabled` | 7 (0x7) | Exported Function | 0x100082f0 | 0x000082f0
-`RegisterServerForPMP` | 8 (0x8) | Exported Function | 0x10006e00 | 0x00006e00
-`RequireNetworkDuringMediaTaskCompletion` | 9 (0x9) | Exported Function | 0x10008590 | 0x00008590
-`UnregisterServerForPMP` | 10 (0xa) | Exported Function | 0x10006f80 | 0x00006f80
+Function Name | Ordinal | Type
+-- | -- | --
+`IsMediaBehaviorEnabled` | 7 | Exported Function
+`InstantiateComponentFromPackage` | 6 | Exported Function
+`RegisterServerForPMP` | 8 | Exported Function
+`UnregisterServerForPMP` | 10 | Exported Function
+`RequireNetworkDuringMediaTaskCompletion` | 9 | Exported Function
+`GetMediaComponentPackageInfo` | 2 | Exported Function
+`AreDvdCodecsEnabled` | 1 | Exported Function
+`GetMediaExtensionCommunicationFactory` | 3 | Exported Function
+`GetServerForPMP` | 5 | Exported Function
+`GetNetworkRequestCount` | 4 | Exported Function
 
 
 ## Signature

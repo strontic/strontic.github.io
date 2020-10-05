@@ -24,40 +24,40 @@ PE256 | `A44211400C9C6D482C5759FC46D4B324FF5A281A4A71A1575126302352F9C816`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MFCheckProcessCapabilities` | 1 (0x1) | Exported Function | 0x0000000180027820 | 0x00027820
-`MFPublishSensorProfiles` | 30 (0x1e) | Exported Function | 0x0000000180028ea0 | 0x00028ea0
-`MFLoadSensorProfiles` | 29 (0x1d) | Exported Function | 0x0000000180029090 | 0x00029090
-`MFLoadSensorGroupFromRegistry` | 28 (0x1c) | Exported Function | 0x0000000180029920 | 0x00029920
-`MFIsStreamAvailableToAppPackage` | 27 (0x1b) | Exported Function | 0x0000000180026d80 | 0x00026d80
-`MFIsSensorGroupName` | 26 (0x1a) | Exported Function | 0x00000001800255b0 | 0x000255b0
-`MFInitializeSensorGroupStore` | 25 (0x19) | Exported Function | 0x0000000180025260 | 0x00025260
-`MFGetSGCH` | 19 (0x13) | Exported Function | 0x0000000180029c70 | 0x00029c70
-`MFGetSensorOrientation` | 24 (0x18) | Exported Function | 0x0000000180029ba0 | 0x00029ba0
-`MFGetSensorGroupPropertyName` | 23 (0x17) | Exported Function | 0x0000000180029e10 | 0x00029e10
-`MFGetSensorGroupAttributesFromId` | 22 (0x16) | Exported Function | 0x0000000180027c40 | 0x00027c40
-`MFGetSensorDeviceRegistryProperty` | 21 (0x15) | Exported Function | 0x0000000180026a50 | 0x00026a50
-`MFGetSensorDeviceProperty` | 20 (0x14) | Exported Function | 0x00000001800266c0 | 0x000266c0
-`MFGetDeviceFromSGHash` | 18 (0x12) | Exported Function | 0x0000000180028380 | 0x00028380
-`MFGetDeviceFromFSUniqueId` | 17 (0x11) | Exported Function | 0x0000000180028680 | 0x00028680
-`MFDeleteSensorGroupById` | 16 (0x10) | Exported Function | 0x0000000180025310 | 0x00025310
-`MFCreateTranslatedMediaType` | 15 (0xf) | Exported Function | 0x0000000180026a90 | 0x00026a90
-`MFCreateSensorStream` | 14 (0xe) | Exported Function | 0x0000000180026700 | 0x00026700
-`MFCreateSensorProfileWithFlags` | 13 (0xd) | Exported Function | 0x0000000180028fb0 | 0x00028fb0
-`MFCreateSensorProfileCollection` | 12 (0xc) | Exported Function | 0x0000000180028cc0 | 0x00028cc0
-`MFCreateSensorProfile` | 11 (0xb) | Exported Function | 0x0000000180028ec0 | 0x00028ec0
-`MFCreateSensorGroupIdManager` | 10 (0xa) | Exported Function | 0x00000001800266b0 | 0x000266b0
-`MFCreateSensorGroupCollection` | 9 (0x9) | Exported Function | 0x0000000180025d80 | 0x00025d80
-`MFCreateSensorGroupById` | 8 (0x8) | Exported Function | 0x0000000180025640 | 0x00025640
-`MFCreateSensorGroup` | 7 (0x7) | Exported Function | 0x00000001800261d0 | 0x000261d0
-`MFCreateSensorActivityMonitor` | 6 (0x6) | Exported Function | 0x0000000180028960 | 0x00028960
-`MFCreateRelativePanelWatcher` | 5 (0x5) | Exported Function | 0x0000000180029f70 | 0x00029f70
-`MFCreatePassthroughTranslatedMediaType` | 4 (0x4) | Exported Function | 0x0000000180026c10 | 0x00026c10
-`MFCreatePackageFamilyNameTag` | 3 (0x3) | Exported Function | 0x0000000180026ef0 | 0x00026ef0
-`MFCloneSensorProfile` | 2 (0x2) | Exported Function | 0x00000001800295f0 | 0x000295f0
-`MFSensorProfileParseFilterSetString` | 31 (0x1f) | Exported Function | 0x0000000180028b60 | 0x00028b60
-`MFValidateSensorProfile` | 32 (0x20) | Exported Function | 0x0000000180029610 | 0x00029610
+Function Name | Ordinal | Type
+-- | -- | --
+`MFGetSensorGroupPropertyName` | 23 | Exported Function
+`MFGetSensorGroupAttributesFromId` | 22 | Exported Function
+`MFGetSGCH` | 19 | Exported Function
+`MFGetSensorOrientation` | 24 | Exported Function
+`MFGetDeviceFromSGHash` | 18 | Exported Function
+`MFGetDeviceFromFSUniqueId` | 17 | Exported Function
+`MFGetSensorDeviceRegistryProperty` | 21 | Exported Function
+`MFGetSensorDeviceProperty` | 20 | Exported Function
+`MFPublishSensorProfiles` | 30 | Exported Function
+`MFLoadSensorProfiles` | 29 | Exported Function
+`MFValidateSensorProfile` | 32 | Exported Function
+`MFSensorProfileParseFilterSetString` | 31 | Exported Function
+`MFIsSensorGroupName` | 26 | Exported Function
+`MFInitializeSensorGroupStore` | 25 | Exported Function
+`MFLoadSensorGroupFromRegistry` | 28 | Exported Function
+`MFIsStreamAvailableToAppPackage` | 27 | Exported Function
+`MFCreateSensorActivityMonitor` | 6 | Exported Function
+`MFCreateRelativePanelWatcher` | 5 | Exported Function
+`MFCreateSensorGroupById` | 8 | Exported Function
+`MFCreateSensorGroup` | 7 | Exported Function
+`MFCloneSensorProfile` | 2 | Exported Function
+`MFCheckProcessCapabilities` | 1 | Exported Function
+`MFCreatePassthroughTranslatedMediaType` | 4 | Exported Function
+`MFCreatePackageFamilyNameTag` | 3 | Exported Function
+`MFCreateSensorStream` | 14 | Exported Function
+`MFCreateSensorProfileWithFlags` | 13 | Exported Function
+`MFDeleteSensorGroupById` | 16 | Exported Function
+`MFCreateTranslatedMediaType` | 15 | Exported Function
+`MFCreateSensorGroupIdManager` | 10 | Exported Function
+`MFCreateSensorGroupCollection` | 9 | Exported Function
+`MFCreateSensorProfileCollection` | 12 | Exported Function
+`MFCreateSensorProfile` | 11 | Exported Function
 
 
 ## Signature

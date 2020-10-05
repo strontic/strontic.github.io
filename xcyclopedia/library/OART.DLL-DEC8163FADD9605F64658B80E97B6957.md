@@ -1,0 +1,55 @@
+﻿---
+title: OART.DLL | Microsoft OfficeArt
+excerpt: What is OART.DLL?
+---
+
+# OART.DLL 
+
+* File Path: `C:\Program Files (x86)\Microsoft Office\root\Office16\OART.DLL`
+* Description: Microsoft OfficeArt
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `DEC8163FADD9605F64658B80E97B6957`
+SHA1 | `CC5B78A286FB833A8E5D9694F9EDAE9545A1FE6E`
+SHA256 | `8E5DBCFA95E463808FF1C91E78DB5B5A984C0E24832780C757398ADE13180F1D`
+SHA384 | `D8875CCC2CCB823A01FC1774CFEE0BAB80EF7DAE8BB62498071A4387E2857B0F120A4D0856C5995D7F2398F9A6793B65`
+SHA512 | `D0B7B9393EEFC8B8F246030836C075A7E2B5463ABA04C45D17C833DAE76E3EF2E4D933DA90DF025C9F61184D47B5D6EC055A4245D846214ECCBFFC3C0079501D`
+SSDEEP | `196608:a7NfUDxMkdqufV1N+JWx7YLD3So01YtzGXTsJgEdSDWm:qAekdlfLMLD3So01YUXTs2`
+IMP | `BC334CF224A20FE3C1F81D3DDFFAFB15`
+PESHA1 | `2D58769B3991CCCB033EC7533AA4D0BF3F1EAA57`
+PE256 | `F5AB6FE96A3AD90BA64A821D7A03181BC4C213F3414AD90AF61797152A82E573`
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000002CE7C9ACE7D905ED2B70000000002CE`
+* Thumbprint: `B10607FB914700B40F794610850C1DE0A21566C1`
+* Issuer: CN=Microsoft Code Signing PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: OART.DLL
+* Product Name: Microsoft Office
+* Company Name: Microsoft Corporation
+* File Version: 16.0.12527.20474
+* Product Version: 16.0.12527.20474
+* Language: English (United States)
+* Legal Copyright: 
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/8e5dbcfa95e463808ff1c91e78db5b5a984c0e24832780c757398ade13180f1d/detection/
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

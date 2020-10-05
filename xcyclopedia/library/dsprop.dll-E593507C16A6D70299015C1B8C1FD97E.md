@@ -24,31 +24,31 @@ PE256 | `8BFDB1E85E3336A823BC46B7A58543D87CCB823586BDFCAFE7D69511DEB55C83`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ADsPropCheckIfWritable` | 10 (0xa) | Exported Function | 0x0000000180004010 | 0x00004010
-`PostADsPropSheet` | 23 (0x17) | Exported Function | 0x0000000180007400 | 0x00007400
-`MsgBox` | 7 (0x7) | Exported Function | 0x0000000180001860 | 0x00001860
-`IsSheetAlreadyUp` | 22 (0x16) | Exported Function | 0x0000000180005310 | 0x00005310
-`FindSheet` | 6 (0x6) | Exported Function | 0x00000001800052d0 | 0x000052d0
-`ErrMsgParam` | 5 (0x5) | Exported Function | 0x0000000180001750 | 0x00001750
-`ErrMsg` | 4 (0x4) | Exported Function | 0x0000000180001730 | 0x00001730
-`DSPROP_GetGCSearchOnDomain` | 3 (0x3) | Exported Function | 0x0000000180008860 | 0x00008860
-`DllUnregisterServer` | 21 (0x15) | Exported Function | 0x0000000180001ed0 | 0x00001ed0
-`DllRegisterServer` | 20 (0x14) | Exported Function | 0x0000000180001b80 | 0x00001b80
-`ReportError` | 8 (0x8) | Exported Function | 0x0000000180001670 | 0x00001670
-`DllGetClassObject` | 19 (0x13) | Exported Function | 0x0000000180001a60 | 0x00001a60
-`CrackName` | 2 (0x2) | Exported Function | 0x00000001800081e0 | 0x000081e0
-`CheckADsError` | 1 (0x1) | Exported Function | 0x0000000180001490 | 0x00001490
-`BringSheetToForeground` | 17 (0x11) | Exported Function | 0x0000000180005290 | 0x00005290
-`ADsPropShowErrorDialog` | 16 (0x10) | Exported Function | 0x00000001800040d0 | 0x000040d0
-`ADsPropSetHwndWithTitle` | 15 (0xf) | Exported Function | 0x0000000180003f90 | 0x00003f90
-`ADsPropSetHwnd` | 14 (0xe) | Exported Function | 0x0000000180004000 | 0x00004000
-`ADsPropSendErrorMessage` | 13 (0xd) | Exported Function | 0x0000000180004090 | 0x00004090
-`ADsPropGetInitInfo` | 12 (0xc) | Exported Function | 0x0000000180003f10 | 0x00003f10
-`ADsPropCreateNotifyObj` | 11 (0xb) | Exported Function | 0x0000000180003f00 | 0x00003f00
-`DllCanUnloadNow` | 18 (0x12) | Exported Function | 0x0000000180001b60 | 0x00001b60
-`Smart_PADS_ATTR_INFO__Empty` | 9 (0x9) | Exported Function | 0x0000000180003600 | 0x00003600
+Function Name | Ordinal | Type
+-- | -- | --
+`ErrMsg` | 4 | Exported Function
+`ErrMsgParam` | 5 | Exported Function
+`DSPROP_GetGCSearchOnDomain` | 3 | Exported Function
+`DllRegisterServer` | 20 | Exported Function
+`DllUnregisterServer` | 21 | Exported Function
+`FindSheet` | 6 | Exported Function
+`ReportError` | 8 | Exported Function
+`Smart_PADS_ATTR_INFO__Empty` | 9 | Exported Function
+`PostADsPropSheet` | 23 | Exported Function
+`IsSheetAlreadyUp` | 22 | Exported Function
+`MsgBox` | 7 | Exported Function
+`DllGetClassObject` | 19 | Exported Function
+`ADsPropSendErrorMessage` | 13 | Exported Function
+`ADsPropSetHwnd` | 14 | Exported Function
+`ADsPropGetInitInfo` | 12 | Exported Function
+`ADsPropCheckIfWritable` | 10 | Exported Function
+`ADsPropCreateNotifyObj` | 11 | Exported Function
+`ADsPropSetHwndWithTitle` | 15 | Exported Function
+`CrackName` | 2 | Exported Function
+`DllCanUnloadNow` | 18 | Exported Function
+`CheckADsError` | 1 | Exported Function
+`ADsPropShowErrorDialog` | 16 | Exported Function
+`BringSheetToForeground` | 17 | Exported Function
 
 
 ## Signature

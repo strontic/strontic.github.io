@@ -24,840 +24,484 @@ PE256 | `DB8DF5FFB4A57EBDFD6A5445D08D8B546D6694A5D7B5AEA41742DF7D58BC9003`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AppCompat_RunDLLW` | 255 (0xff) | Exported Function | 0x000000018021f060 | 0x0021f060
-`SHELL32_CDBurn_Erase` | 360 (0x168) | Exported Function | 0x00000001802a4f50 | 0x002a4f50
-`SHELL32_CDBurn_GetCDInfo` | 361 (0x169) | Exported Function | 0x00000001802a4fb0 | 0x002a4fb0
-`SHELL32_CDBurn_GetLiveFSDiscInfo` | 362 (0x16a) | Exported Function | 0x00000001802a4fc0 | 0x002a4fc0
-`SHELL32_CDBurn_GetStagingPathOrNormalPath` | 363 (0x16b) | Exported Function | 0x00000001800d0b40 | 0x000d0b40
-`SHELL32_CDBurn_GetTaskInfo` | 364 (0x16c) | Exported Function | 0x00000001802a4fd0 | 0x002a4fd0
-`SHELL32_CDBurn_IsBlankDisc` | 365 (0x16d) | Exported Function | 0x00000001802a4fe0 | 0x002a4fe0
-`SHELL32_CDBurn_IsBlankDisc2` | 366 (0x16e) | Exported Function | 0x00000001802a4ff0 | 0x002a4ff0
-`SHELL32_CDBurn_IsLiveFS` | 367 (0x16f) | Exported Function | 0x00000001802a5050 | 0x002a5050
-`SHELL32_CDBurn_OnDeviceChange` | 368 (0x170) | Exported Function | 0x00000001802a5060 | 0x002a5060
-`SHELL32_CDBurn_OnEject` | 369 (0x171) | Exported Function | 0x00000001802a5070 | 0x002a5070
-`SHELL32_CDBurn_DriveSupportedForDataBurn` | 359 (0x167) | Exported Function | 0x00000001802a4f40 | 0x002a4f40
-`SHELL32_CDBurn_OnMediaChange` | 370 (0x172) | Exported Function | 0x00000001802a50f0 | 0x002a50f0
-`SHELL32_CDefFolderMenu_Create2Ex` | 372 (0x174) | Exported Function | 0x00000001802a5160 | 0x002a5160
-`SHELL32_CDefFolderMenu_MergeMenu` | 373 (0x175) | Exported Function | 0x00000001802a51c0 | 0x002a51c0
-`SHELL32_CDrives_CreateSFVCB` | 376 (0x178) | Exported Function | 0x00000001802a51f0 | 0x002a51f0
-`SHELL32_CDrivesContextMenu_Create` | 374 (0x176) | Exported Function | 0x00000001802a51d0 | 0x002a51d0
-`SHELL32_CDrivesDropTarget_Create` | 375 (0x177) | Exported Function | 0x00000001802a51e0 | 0x002a51e0
-`SHELL32_CFillPropertiesTask_CreateInstance` | 379 (0x17b) | Exported Function | 0x00000001800d9790 | 0x000d9790
-`SHELL32_CFSDropTarget_CreateInstance` | 377 (0x179) | Exported Function | 0x0000000180043130 | 0x00043130
-`SHELL32_CFSFolderCallback_Create` | 378 (0x17a) | Exported Function | 0x00000001800d8650 | 0x000d8650
-`SHELL32_CLibraryDropTarget_CreateInstance` | 380 (0x17c) | Exported Function | 0x00000001802a5250 | 0x002a5250
-`SHELL32_CLocationContextMenu_Create` | 381 (0x17d) | Exported Function | 0x00000001800d8f70 | 0x000d8f70
-`SHELL32_CDefFolderMenu_Create2` | 371 (0x173) | Exported Function | 0x00000001802a5100 | 0x002a5100
-`SHELL32_CLocationFolderUI_CreateInstance` | 382 (0x17e) | Exported Function | 0x00000001802a5260 | 0x002a5260
-`SHELL32_CDBurn_CloseSession` | 358 (0x166) | Exported Function | 0x00000001802a4f30 | 0x002a4f30
-`SHELL32_CanDisplayWin8CopyDialog` | 396 (0x18c) | Exported Function | 0x00000001802a53a0 | 0x002a53a0
-`SHCreateProcessAsUserW` | 347 (0x15b) | Exported Function | 0x00000001801dd340 | 0x001dd340
-`SHCreatePropSheetExtArray` | 168 (0xa8) | Exported Function | 0x000000018010a4c0 | 0x0010a4c0
-`SHCreateQueryCancelAutoPlayMoniker` | 348 (0x15c) | Exported Function | 0x000000018010d110 | 0x0010d110
-`SHCreateShellFolderView` | 256 (0x100) | Exported Function | 0x0000000180087c50 | 0x00087c50
-`SHCreateShellFolderViewEx` | 174 (0xae) | Exported Function | 0x00000001802a1480 | 0x002a1480
-`SHCreateShellItem` | 349 (0x15d) | Exported Function | 0x00000001800fb560 | 0x000fb560
-`SHCreateShellItemArray` | 350 (0x15e) | Exported Function | 0x00000001801be4a0 | 0x001be4a0
-`SHCreateShellItemArrayFromDataObject` | 351 (0x15f) | Exported Function | 0x000000018002d480 | 0x0002d480
-`SHCreateShellItemArrayFromIDLists` | 352 (0x160) | Exported Function | 0x00000001800d4f60 | 0x000d4f60
-`SHCreateShellItemArrayFromShellItem` | 353 (0x161) | Exported Function | 0x000000018002db50 | 0x0002db50
-`SHELL32_CCommonPlacesFolder_CreateInstance` | 357 (0x165) | Exported Function | 0x00000001802a4f20 | 0x002a4f20
-`SHCreateStdEnumFmtEtc` | 74 (0x4a) | Exported Function | 0x00000001801ad710 | 0x001ad710
-`SHDefExtractIconW` | 6 (0x6) | Exported Function | 0x000000018004ccc0 | 0x0004ccc0
-`SHDestroyPropSheetExtArray` | 169 (0xa9) | Exported Function | 0x000000018010a5a0 | 0x0010a5a0
-`SHDoDragDrop` | 88 (0x58) | Exported Function | 0x0000000180250960 | 0x00250960
-`SheChangeDirA` | 562 (0x232) | Exported Function | 0x00000001801b1a50 | 0x001b1a50
-`SheChangeDirExW` | 563 (0x233) | Exported Function | 0x00000001801b1ad0 | 0x001b1ad0
-`SheGetDirA` | 564 (0x234) | Exported Function | 0x00000001801b20e0 | 0x001b20e0
-`SHELL32_AddToBackIconTable` | 354 (0x162) | Exported Function | 0x000000018004a0c0 | 0x0004a0c0
-`SHELL32_AddToFrontIconTable` | 355 (0x163) | Exported Function | 0x0000000180049700 | 0x00049700
-`SHELL32_AreAllItemsAvailable` | 356 (0x164) | Exported Function | 0x000000018005db30 | 0x0005db30
-`SHELL32_CallFileCopyHooks` | 395 (0x18b) | Exported Function | 0x00000001802a5350 | 0x002a5350
-`SHDefExtractIconA` | 3 (0x3) | Exported Function | 0x0000000180263c50 | 0x00263c50
-`SHCreateLocalServerRunDll` | 346 (0x15a) | Exported Function | 0x000000018002e980 | 0x0002e980
-`SHELL32_CloseAutoplayPrompt` | 397 (0x18d) | Exported Function | 0x00000001802a53d0 | 0x002a53d0
-`SHELL32_CMountPoint_DoAutorunPrompt` | 384 (0x180) | Exported Function | 0x00000001802a5280 | 0x002a5280
-`SHELL32_GetAppIDRoot` | 414 (0x19e) | Exported Function | 0x00000001802a5530 | 0x002a5530
-`SHELL32_GetCommandProviderForFolderType` | 415 (0x19f) | Exported Function | 0x00000001802a5540 | 0x002a5540
-`SHELL32_GetDiskCleanupPath` | 417 (0x1a1) | Exported Function | 0x00000001802a5560 | 0x002a5560
-`SHELL32_GetDPIAdjustedLogicalSize` | 416 (0x1a0) | Exported Function | 0x00000001800d3bc0 | 0x000d3bc0
-`SHELL32_GetFileNameFromBrowse` | 418 (0x1a2) | Exported Function | 0x00000001802a5570 | 0x002a5570
-`SHELL32_GetIconOverlayManager` | 419 (0x1a3) | Exported Function | 0x00000001800d2620 | 0x000d2620
-`SHELL32_GetLinkInfoData` | 420 (0x1a4) | Exported Function | 0x00000001802a5580 | 0x002a5580
-`SHELL32_GetRatingBucket` | 421 (0x1a5) | Exported Function | 0x00000001802a55a0 | 0x002a55a0
-`SHELL32_GetSqmableFileName` | 422 (0x1a6) | Exported Function | 0x00000001802a55d0 | 0x002a55d0
-`SHELL32_GetThumbnailAdornerFromFactory` | 423 (0x1a7) | Exported Function | 0x00000001802a55e0 | 0x002a55e0
-`SHELL32_GenerateAppID` | 413 (0x19d) | Exported Function | 0x00000001802a5520 | 0x002a5520
-`SHELL32_GetThumbnailAdornerFromFactory2` | 424 (0x1a8) | Exported Function | 0x00000001800092a0 | 0x000092a0
-`SHELL32_IconCache_AboutToExtractIcons` | 430 (0x1ae) | Exported Function | 0x00000001800d7a30 | 0x000d7a30
-`SHELL32_IconCache_DoneExtractingIcons` | 431 (0x1af) | Exported Function | 0x00000001800d7840 | 0x000d7840
-`SHELL32_IconCache_ExpandEnvAndSearchPath` | 432 (0x1b0) | Exported Function | 0x00000001800cf8f0 | 0x000cf8f0
-`SHELL32_IconCache_RememberRecentlyExtractedIconsW` | 433 (0x1b1) | Exported Function | 0x00000001800c13f0 | 0x000c13f0
-`SHELL32_IconCacheCreate` | 426 (0x1aa) | Exported Function | 0x000000018009a070 | 0x0009a070
-`SHELL32_IconCacheDestroy` | 427 (0x1ab) | Exported Function | 0x00000001800a2380 | 0x000a2380
-`SHELL32_IconCacheHandleAssociationChanged` | 428 (0x1ac) | Exported Function | 0x00000001802a5600 | 0x002a5600
-`SHELL32_IconCacheRestore` | 429 (0x1ad) | Exported Function | 0x000000018009a080 | 0x0009a080
-`SHELL32_IconOverlayManagerInit` | 434 (0x1b2) | Exported Function | 0x000000018009edc0 | 0x0009edc0
-`SHELL32_IsGetKeyboardLayoutPresent` | 435 (0x1b3) | Exported Function | 0x00000001800d3900 | 0x000d3900
-`SHELL32_HandleUnrecognizedFileSystem` | 425 (0x1a9) | Exported Function | 0x00000001802a55f0 | 0x002a55f0
-`SHELL32_CMountPoint_DoAutorun` | 383 (0x17f) | Exported Function | 0x00000001802a5270 | 0x002a5270
-`SHELL32_FreeEncryptedFileKeyInfo` | 412 (0x19c) | Exported Function | 0x00000001802a5500 | 0x002a5500
-`SHELL32_EncryptedFileKeyInfo` | 410 (0x19a) | Exported Function | 0x00000001802a54d0 | 0x002a54d0
-`SHELL32_CMountPoint_IsAutoRunDriveAndEnabledByPolicy` | 385 (0x181) | Exported Function | 0x00000001802a52b0 | 0x002a52b0
-`SHELL32_CMountPoint_ProcessAutoRunFile` | 386 (0x182) | Exported Function | 0x00000001802a52c0 | 0x002a52c0
-`SHELL32_CMountPoint_WantAutorunUI` | 387 (0x183) | Exported Function | 0x00000001802a52d0 | 0x002a52d0
-`SHELL32_CMountPoint_WantAutorunUIGetReady` | 388 (0x184) | Exported Function | 0x00000001802a52e0 | 0x002a52e0
-`SHELL32_CNetFolderUI_CreateInstance` | 389 (0x185) | Exported Function | 0x00000001802a52f0 | 0x002a52f0
-`SHELL32_CommandLineFromMsiDescriptor` | 398 (0x18e) | Exported Function | 0x00000001802a53e0 | 0x002a53e0
-`SHELL32_CopySecondaryTiles` | 399 (0x18f) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`SHELL32_CPL_CategoryIdArrayFromVariant` | 390 (0x186) | Exported Function | 0x00000001800e5800 | 0x000e5800
-`SHELL32_CPL_IsLegacyCanonicalNameListedUnderKey` | 391 (0x187) | Exported Function | 0x00000001802a5300 | 0x002a5300
-`SHELL32_CPL_ModifyWowDisplayName` | 392 (0x188) | Exported Function | 0x00000001802a5320 | 0x002a5320
-`SHELL32_EnumCommonTasks` | 411 (0x19b) | Exported Function | 0x00000001802a54f0 | 0x002a54f0
-`SHELL32_Create_IEnumUICommand` | 407 (0x197) | Exported Function | 0x000000018024bb90 | 0x0024bb90
-`SHELL32_CreateConflictInterrupt` | 401 (0x191) | Exported Function | 0x00000001802a5410 | 0x002a5410
-`SHELL32_CreateDefaultOperationDataProvider` | 402 (0x192) | Exported Function | 0x00000001802a5420 | 0x002a5420
-`SHELL32_CreateFileFolderContextMenu` | 403 (0x193) | Exported Function | 0x00000001802a54a0 | 0x002a54a0
-`SHELL32_CreateLinkInfoW` | 404 (0x194) | Exported Function | 0x00000001800d3af0 | 0x000d3af0
-`SHELL32_CreateQosRecorder` | 405 (0x195) | Exported Function | 0x00000001800d9de0 | 0x000d9de0
-`SHELL32_CreateSharePointView` | 406 (0x196) | Exported Function | 0x00000001802a54b0 | 0x002a54b0
-`SHELL32_CRecentDocsContextMenu_CreateInstance` | 393 (0x189) | Exported Function | 0x00000001802a5330 | 0x002a5330
-`SHELL32_CTransferConfirmation_CreateInstance` | 394 (0x18a) | Exported Function | 0x00000001802a5340 | 0x002a5340
-`SHELL32_DestroyLinkInfo` | 408 (0x198) | Exported Function | 0x00000001800d3ad0 | 0x000d3ad0
-`SHELL32_EncryptDirectory` | 409 (0x199) | Exported Function | 0x00000001802a54c0 | 0x002a54c0
-`SHELL32_CreateConfirmationInterrupt` | 400 (0x190) | Exported Function | 0x00000001802a5400 | 0x002a5400
-`SHELL32_IsSystemUpgradeInProgress` | 436 (0x1b4) | Exported Function | 0x00000001800f1570 | 0x000f1570
-`SHCreateItemWithParent` | 345 (0x159) | Exported Function | 0x0000000180065570 | 0x00065570
-`SHCreateItemFromRelativeName` | 343 (0x157) | Exported Function | 0x0000000180229180 | 0x00229180
-`Ordinal95` | 95 (0x5f) | Exported Function | 0x0000000180068750 | 0x00068750
-`Ordinal96` | 96 (0x60) | Exported Function | SHUNIMPL.#43 | 0x006c3b28
-`Ordinal97` | 97 (0x61) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`Ordinal970` | 970 (0x3ca) | Exported Function | 0x00000001802169e0 | 0x002169e0
-`Ordinal971` | 971 (0x3cb) | Exported Function | 0x00000001802289d0 | 0x002289d0
-`Ordinal972` | 972 (0x3cc) | Exported Function | 0x0000000180241690 | 0x00241690
-`Ordinal99` | 99 (0x63) | Exported Function | 0x000000018005ae40 | 0x0005ae40
-`PathCleanupSpec` | 171 (0xab) | Exported Function | 0x00000001800ac090 | 0x000ac090
-`PathGetShortPath` | 92 (0x5c) | Exported Function | 0x0000000180235f70 | 0x00235f70
-`PathIsExe` | 43 (0x2b) | Exported Function | 0x00000001800d5bd0 | 0x000d5bd0
-`Ordinal946` | 946 (0x3b2) | Exported Function | 0x00000001802297b0 | 0x002297b0
-`PathIsSlowA` | 240 (0xf0) | Exported Function | 0x0000000180236260 | 0x00236260
-`PathMakeUniqueName` | 47 (0x2f) | Exported Function | 0x0000000180236400 | 0x00236400
-`PathQualify` | 49 (0x31) | Exported Function | 0x0000000180236800 | 0x00236800
-`PathResolve` | 51 (0x33) | Exported Function | 0x00000001800fdc20 | 0x000fdc20
-`PathYetAnotherMakeUniqueName` | 75 (0x4b) | Exported Function | 0x0000000180236920 | 0x00236920
-`PickIconDlg` | 62 (0x3e) | Exported Function | 0x00000001801b1230 | 0x001b1230
-`PifMgr_CloseProperties` | 13 (0xd) | Exported Function | 0x00000001801b1a40 | 0x001b1a40
-`PifMgr_GetProperties` | 10 (0xa) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`PifMgr_OpenProperties` | 9 (0x9) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`PifMgr_SetProperties` | 11 (0xb) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`PrepareDiscForBurnRunDllW` | 135 (0x87) | Exported Function | 0x00000001801c6e70 | 0x001c6e70
-`PathIsSlowW` | 239 (0xef) | Exported Function | 0x00000001802362c0 | 0x002362c0
-`PrintersGetCommand_RunDLL` | 138 (0x8a) | Exported Function | 0x00000001801d5da0 | 0x001d5da0
-`Ordinal945` | 945 (0x3b1) | Exported Function | 0x0000000180278680 | 0x00278680
-`Ordinal943` | 943 (0x3af) | Exported Function | 0x00000001804b2ef0 | 0x004b2ef0
-`Ordinal909` | 909 (0x38d) | Exported Function | SHUNIMPL.#477 | 0x006c36cc
-`Ordinal91` | 91 (0x5b) | Exported Function | 0x0000000180217550 | 0x00217550
-`Ordinal910` | 910 (0x38e) | Exported Function | 0x000000018023fd50 | 0x0023fd50
-`Ordinal911` | 911 (0x38f) | Exported Function | 0x0000000180208b00 | 0x00208b00
-`Ordinal912` | 912 (0x390) | Exported Function | 0x000000018024a1f0 | 0x0024a1f0
-`Ordinal913` | 913 (0x391) | Exported Function | 0x000000018024aa60 | 0x0024aa60
-`Ordinal914` | 914 (0x392) | Exported Function | 0x00000001801be300 | 0x001be300
-`Ordinal915` | 915 (0x393) | Exported Function | 0x00000001800a5880 | 0x000a5880
-`Ordinal916` | 916 (0x394) | Exported Function | 0x0000000180028d60 | 0x00028d60
-`Ordinal922` | 922 (0x39a) | Exported Function | 0x00000001802b5f10 | 0x002b5f10
-`Ordinal944` | 944 (0x3b0) | Exported Function | 0x0000000180229cb0 | 0x00229cb0
-`Ordinal923` | 923 (0x39b) | Exported Function | 0x000000018002e760 | 0x0002e760
-`Ordinal927` | 927 (0x39f) | Exported Function | 0x0000000180291630 | 0x00291630
-`Ordinal928` | 928 (0x3a0) | Exported Function | 0x00000001802a4e90 | 0x002a4e90
-`Ordinal93` | 93 (0x5d) | Exported Function | shcore.Win32CreateDirectory | 0x006c5d07
-`Ordinal930` | 930 (0x3a2) | Exported Function | 0x0000000180235d80 | 0x00235d80
-`Ordinal932` | 932 (0x3a4) | Exported Function | 0x00000001801be580 | 0x001be580
-`Ordinal933` | 933 (0x3a5) | Exported Function | 0x00000001801be520 | 0x001be520
-`Ordinal938` | 938 (0x3aa) | Exported Function | 0x000000018027c870 | 0x0027c870
-`Ordinal939` | 939 (0x3ab) | Exported Function | 0x000000018004a710 | 0x0004a710
-`Ordinal94` | 94 (0x5e) | Exported Function | 0x00000001801b0c30 | 0x001b0c30
-`Ordinal940` | 940 (0x3ac) | Exported Function | 0x00000001801be460 | 0x001be460
-`Ordinal924` | 924 (0x39c) | Exported Function | 0x000000018002e520 | 0x0002e520
-`SHCreateItemInKnownFolder` | 344 (0x158) | Exported Function | 0x00000001800676c0 | 0x000676c0
-`PrintersGetCommand_RunDLLA` | 139 (0x8b) | Exported Function | 0x00000001801d5da0 | 0x001d5da0
-`ReadCabinetState` | 654 (0x28e) | Exported Function | 0x0000000180095f40 | 0x00095f40
-`SHChangeNotify` | 328 (0x148) | Exported Function | 0x0000000180060880 | 0x00060880
-`SHChangeNotifyDeregister` | 4 (0x4) | Exported Function | 0x000000018005d7d0 | 0x0005d7d0
-`SHChangeNotifyRegister` | 2 (0x2) | Exported Function | 0x000000018005fb00 | 0x0005fb00
-`SHChangeNotifyRegisterThread` | 329 (0x149) | Exported Function | 0x00000001800a73d0 | 0x000a73d0
-`SHChangeNotifySuspendResume` | 330 (0x14a) | Exported Function | 0x000000018027c990 | 0x0027c990
-`SHCloneSpecialIDList` | 89 (0x59) | Exported Function | 0x00000001800d3ee0 | 0x000d3ee0
-`SHCLSIDFromString` | 147 (0x93) | Exported Function | 0x000000018008c7b0 | 0x0008c7b0
-`SHCoCreateInstance` | 102 (0x66) | Exported Function | 0x00000001800c0930 | 0x000c0930
-`SHCoCreateInstanceWorker` | 331 (0x14b) | Exported Function | 0x0000000180287c90 | 0x00287c90
-`SHCreateAssociationRegistration` | 332 (0x14c) | Exported Function | 0x00000001800b5480 | 0x000b5480
-`SHChangeNotification_Unlock` | 645 (0x285) | Exported Function | 0x00000001800bf480 | 0x000bf480
-`SHCreateCategoryEnum` | 333 (0x14d) | Exported Function | 0x000000018028f3a0 | 0x0028f3a0
-`SHCreateDefaultContextMenu` | 335 (0x14f) | Exported Function | 0x0000000180045d10 | 0x00045d10
-`SHCreateDefaultExtractIcon` | 336 (0x150) | Exported Function | 0x00000001800e2ca0 | 0x000e2ca0
-`SHCreateDefaultPropertiesOp` | 337 (0x151) | Exported Function | 0x000000018027cda0 | 0x0027cda0
-`SHCreateDirectory` | 165 (0xa5) | Exported Function | 0x0000000180217070 | 0x00217070
-`SHCreateDirectoryExA` | 338 (0x152) | Exported Function | 0x0000000180217050 | 0x00217050
-`SHCreateDirectoryExW` | 339 (0x153) | Exported Function | 0x000000018002de00 | 0x0002de00
-`SHCreateDrvExtIcon` | 340 (0x154) | Exported Function | 0x0000000180291940 | 0x00291940
-`SHCreateFileExtractIconW` | 743 (0x2e7) | Exported Function | 0x0000000180229070 | 0x00229070
-`SHCreateItemFromIDList` | 341 (0x155) | Exported Function | 0x00000001800662c0 | 0x000662c0
-`SHCreateItemFromParsingName` | 342 (0x156) | Exported Function | 0x0000000180058510 | 0x00058510
-`SHCreateDataObject` | 334 (0x14e) | Exported Function | 0x000000018001a870 | 0x0001a870
-`PrintersGetCommand_RunDLLW` | 150 (0x96) | Exported Function | 0x00000001801d5e90 | 0x001d5e90
-`SHChangeNotification_Lock` | 644 (0x284) | Exported Function | 0x00000001800b92c0 | 0x000b92c0
-`SHBrowseForFolderA` | 326 (0x146) | Exported Function | 0x0000000180286e60 | 0x00286e60
-`RealDriveType` | 524 (0x20c) | Exported Function | 0x0000000180255740 | 0x00255740
-`RealShellExecuteA` | 199 (0xc7) | Exported Function | 0x00000001801dafe0 | 0x001dafe0
-`RealShellExecuteExA` | 207 (0xcf) | Exported Function | 0x00000001801dafe0 | 0x001dafe0
-`RealShellExecuteExW` | 208 (0xd0) | Exported Function | 0x00000001801dafe0 | 0x001dafe0
-`RealShellExecuteW` | 226 (0xe2) | Exported Function | 0x00000001801dafe0 | 0x001dafe0
-`RegenerateUserEnvironment` | 314 (0x13a) | Exported Function | 0x00000001801b36b0 | 0x001b36b0
-`RestartDialog` | 59 (0x3b) | Exported Function | 0x00000001802515b0 | 0x002515b0
-`RestartDialogEx` | 730 (0x2da) | Exported Function | 0x00000001802515c0 | 0x002515c0
-`RunAsNewUser_RunDLLW` | 315 (0x13b) | Exported Function | 0x00000001801b8ed0 | 0x001b8ed0
-`SetCurrentProcessExplicitAppUserModelID` | 561 (0x231) | Exported Function | 0x000000018010d5a0 | 0x0010d5a0
-`SHBrowseForFolderW` | 327 (0x147) | Exported Function | 0x0000000180287090 | 0x00287090
-`SHAddDefaultPropertiesByExt` | 316 (0x13c) | Exported Function | 0x00000001800f0ad0 | 0x000f0ad0
-`SHAddToRecentDocs` | 317 (0x13d) | Exported Function | 0x000000018010d290 | 0x0010d290
-`SHAlloc` | 196 (0xc4) | Exported Function | 0x00000001800d0860 | 0x000d0860
-`SHAppBarMessage` | 318 (0x13e) | Exported Function | 0x0000000180255780 | 0x00255780
-`SHAssocEnumHandlers` | 319 (0x13f) | Exported Function | 0x0000000180022490 | 0x00022490
-`SHAssocEnumHandlersForProtocolByApplication` | 320 (0x140) | Exported Function | 0x00000001802827c0 | 0x002827c0
-`SHBindToFolderIDListParent` | 321 (0x141) | Exported Function | 0x00000001800469b0 | 0x000469b0
-`SHBindToFolderIDListParentEx` | 322 (0x142) | Exported Function | 0x00000001800469e0 | 0x000469e0
-`SHBindToObject` | 323 (0x143) | Exported Function | 0x0000000180068fb0 | 0x00068fb0
-`SHBindToParent` | 324 (0x144) | Exported Function | 0x0000000180065640 | 0x00065640
-`SHBrowseForFolder` | 325 (0x145) | Exported Function | 0x0000000180286e60 | 0x00286e60
-`SHAddFromPropSheetExtArray` | 167 (0xa7) | Exported Function | 0x000000018027d100 | 0x0027d100
-`Ordinal907` | 907 (0x38b) | Exported Function | 0x0000000180269410 | 0x00269410
-`SHELL32_IsValidLinkInfo` | 437 (0x1b5) | Exported Function | 0x00000001800d1790 | 0x000d1790
-`SHELL32_LegacyEnumTasks` | 439 (0x1b7) | Exported Function | 0x00000001802a5620 | 0x002a5620
-`SHILCreateFromPath` | 28 (0x1c) | Exported Function | 0x0000000180270140 | 0x00270140
-`SHInvokePrinterCommandA` | 539 (0x21b) | Exported Function | 0x00000001801d6d30 | 0x001d6d30
-`SHInvokePrinterCommandW` | 540 (0x21c) | Exported Function | 0x00000001801d6e20 | 0x001d6e20
-`SHIsFileAvailableOffline` | 541 (0x21d) | Exported Function | 0x0000000180217c90 | 0x00217c90
-`SHLimitInputEdit` | 747 (0x2eb) | Exported Function | 0x00000001802b31e0 | 0x002b31e0
-`SHLoadInProc` | 542 (0x21e) | Exported Function | 0x00000001800d8f70 | 0x000d8f70
-`SHLoadNonloadedIconOverlayIdentifiers` | 543 (0x21f) | Exported Function | 0x0000000180217f50 | 0x00217f50
-`SHMapPIDLToSystemImageListIndex` | 77 (0x4d) | Exported Function | 0x00000001800d7190 | 0x000d7190
-`SHMultiFileProperties` | 716 (0x2cc) | Exported Function | 0x00000001802b3ea0 | 0x002b3ea0
-`SHObjectProperties` | 178 (0xb2) | Exported Function | 0x00000001802055e0 | 0x002055e0
-`SHHelpShortcuts_RunDLLW` | 238 (0xee) | Exported Function | 0x0000000180205430 | 0x00205430
-`SHOpenFolderAndSelectItems` | 544 (0x220) | Exported Function | 0x0000000180229b40 | 0x00229b40
-`SHOpenWithDialog` | 545 (0x221) | Exported Function | 0x00000001801c32c0 | 0x001c32c0
-`SHParseDisplayName` | 546 (0x222) | Exported Function | 0x0000000180064900 | 0x00064900
-`SHPathPrepareForWriteA` | 547 (0x223) | Exported Function | 0x00000001801be540 | 0x001be540
-`SHPathPrepareForWriteW` | 548 (0x224) | Exported Function | 0x00000001801be560 | 0x001be560
-`SHPropStgCreate` | 685 (0x2ad) | Exported Function | 0x0000000180255a90 | 0x00255a90
-`SHPropStgReadMultiple` | 688 (0x2b0) | Exported Function | 0x0000000180255ab0 | 0x00255ab0
-`SHPropStgWriteMultiple` | 689 (0x2b1) | Exported Function | 0x0000000180255ad0 | 0x00255ad0
-`SHQueryRecycleBinA` | 549 (0x225) | Exported Function | 0x00000001802b54b0 | 0x002b54b0
-`SHQueryRecycleBinW` | 550 (0x226) | Exported Function | 0x00000001802b5540 | 0x002b5540
-`SHQueryUserNotificationState` | 551 (0x227) | Exported Function | 0x0000000180255af0 | 0x00255af0
-`SHOpenPropSheetW` | 80 (0x50) | Exported Function | 0x00000001802b3ec0 | 0x002b3ec0
-`SHRemoveLocalizedName` | 552 (0x228) | Exported Function | 0x0000000180229f80 | 0x00229f80
-`SHHelpShortcuts_RunDLLA` | 229 (0xe5) | Exported Function | 0x0000000180205380 | 0x00205380
-`SHHandleUpdateImage` | 193 (0xc1) | Exported Function | 0x000000018027ca50 | 0x0027ca50
-`SHGetMalloc` | 515 (0x203) | Exported Function | 0x00000001801053b0 | 0x001053b0
-`SHGetNameFromIDList` | 516 (0x204) | Exported Function | 0x000000018002c970 | 0x0002c970
-`SHGetNewLinkInfo` | 517 (0x205) | Exported Function | 0x00000001802298b0 | 0x002298b0
-`SHGetNewLinkInfoA` | 179 (0xb3) | Exported Function | 0x00000001802298b0 | 0x002298b0
-`SHGetNewLinkInfoW` | 180 (0xb4) | Exported Function | 0x00000001802299d0 | 0x002299d0
-`SHGetPathFromIDList` | 518 (0x206) | Exported Function | 0x0000000180217700 | 0x00217700
-`SHGetPathFromIDListA` | 519 (0x207) | Exported Function | 0x0000000180217700 | 0x00217700
-`SHGetPathFromIDListEx` | 527 (0x20f) | Exported Function | 0x00000001800ba470 | 0x000ba470
-`SHGetPathFromIDListW` | 528 (0x210) | Exported Function | 0x00000001800688f0 | 0x000688f0
-`SHGetPropertyStoreForWindow` | 529 (0x211) | Exported Function | 0x00000001800adfa0 | 0x000adfa0
-`SHHelpShortcuts_RunDLL` | 228 (0xe4) | Exported Function | 0x0000000180205380 | 0x00205380
-`SHGetPropertyStoreFromIDList` | 530 (0x212) | Exported Function | 0x0000000180229a00 | 0x00229a00
-`SHGetRealIDL` | 98 (0x62) | Exported Function | 0x0000000180217820 | 0x00217820
-`SHGetSetFolderCustomSettings` | 709 (0x2c5) | Exported Function | 0x00000001801aec70 | 0x001aec70
-`SHGetSetSettings` | 68 (0x44) | Exported Function | 0x0000000180098f20 | 0x00098f20
-`SHGetSettings` | 532 (0x214) | Exported Function | 0x00000001802b2140 | 0x002b2140
-`SHGetSpecialFolderLocation` | 533 (0x215) | Exported Function | 0x00000001800d35b0 | 0x000d35b0
-`SHGetSpecialFolderPathA` | 534 (0x216) | Exported Function | 0x0000000180255a30 | 0x00255a30
-`SHGetSpecialFolderPathW` | 535 (0x217) | Exported Function | 0x00000001800d4b00 | 0x000d4b00
-`SHGetStockIconInfo` | 536 (0x218) | Exported Function | 0x00000001800e1a80 | 0x000e1a80
-`SHGetTemporaryPropertyForItem` | 537 (0x219) | Exported Function | 0x000000018008a720 | 0x0008a720
-`SHGetUnreadMailCountW` | 538 (0x21a) | Exported Function | 0x0000000180217840 | 0x00217840
-`SHGetPropertyStoreFromParsingName` | 531 (0x213) | Exported Function | 0x0000000180229a90 | 0x00229a90
-`SHGetLocalizedName` | 514 (0x202) | Exported Function | 0x0000000180229700 | 0x00229700
-`SHReplaceFromPropSheetExtArray` | 170 (0xaa) | Exported Function | 0x000000018027d190 | 0x0027d190
-`SHRestricted` | 100 (0x64) | Exported Function | 0x00000001800643a0 | 0x000643a0
-`StrCmpNIA` | 590 (0x24e) | Exported Function | 0x00000001801131c0 | 0x001131c0
-`StrCmpNIW` | 591 (0x24f) | Exported Function | 0x00000001801131d0 | 0x001131d0
-`StrCmpNW` | 592 (0x250) | Exported Function | 0x00000001801131e0 | 0x001131e0
-`StrNCmpA` | 593 (0x251) | Exported Function | 0x00000001801affd0 | 0x001affd0
-`StrNCmpIA` | 594 (0x252) | Exported Function | 0x00000001801b0090 | 0x001b0090
-`StrNCmpIW` | 595 (0x253) | Exported Function | 0x00000001801b0150 | 0x001b0150
-`StrNCmpW` | 596 (0x254) | Exported Function | 0x00000001801b0220 | 0x001b0220
-`StrRChrA` | 597 (0x255) | Exported Function | 0x00000001801131f0 | 0x001131f0
-`StrRChrIA` | 598 (0x256) | Exported Function | 0x0000000180113200 | 0x00113200
-`StrRChrIW` | 599 (0x257) | Exported Function | 0x0000000180113210 | 0x00113210
-`StrCmpNA` | 589 (0x24d) | Exported Function | 0x00000001801131b0 | 0x001131b0
-`StrRChrW` | 600 (0x258) | Exported Function | 0x0000000180113220 | 0x00113220
-`StrRStrIA` | 602 (0x25a) | Exported Function | 0x0000000180113230 | 0x00113230
-`StrRStrIW` | 603 (0x25b) | Exported Function | 0x0000000180113240 | 0x00113240
-`StrRStrW` | 604 (0x25c) | Exported Function | 0x00000001801b03f0 | 0x001b03f0
-`StrStrA` | 605 (0x25d) | Exported Function | 0x0000000180113250 | 0x00113250
-`StrStrIA` | 606 (0x25e) | Exported Function | 0x0000000180113260 | 0x00113260
-`StrStrIW` | 607 (0x25f) | Exported Function | 0x0000000180113270 | 0x00113270
-`StrStrW` | 608 (0x260) | Exported Function | 0x0000000180113280 | 0x00113280
-`UsersLibrariesFolderUI_CreateInstance` | 609 (0x261) | Exported Function | 0x0000000180029110 | 0x00029110
-`WaitForExplorerRestartW` | 611 (0x263) | Exported Function | 0x0000000180254a60 | 0x00254a60
-`Win32DeleteFile` | 164 (0xa4) | Exported Function | 0x00000001801b0c20 | 0x001b0c20
-`StrRStrA` | 601 (0x259) | Exported Function | 0x00000001801b0310 | 0x001b0310
-`SHResolveLibrary` | 553 (0x229) | Exported Function | 0x0000000180255ba0 | 0x00255ba0
-`StrChrW` | 588 (0x24c) | Exported Function | 0x00000001801131a0 | 0x001131a0
-`StrChrIA` | 586 (0x24a) | Exported Function | 0x0000000180113180 | 0x00113180
-`SHSetDefaultProperties` | 554 (0x22a) | Exported Function | 0x000000018027cee0 | 0x0027cee0
-`SHSetFolderPathA` | 231 (0xe7) | Exported Function | 0x0000000180255bc0 | 0x00255bc0
-`SHSetFolderPathW` | 232 (0xe8) | Exported Function | 0x0000000180255be0 | 0x00255be0
-`SHSetInstanceExplorer` | 176 (0xb0) | Exported Function | 0x00000001800d35d0 | 0x000d35d0
-`SHSetKnownFolderPath` | 555 (0x22b) | Exported Function | 0x0000000180255c00 | 0x00255c00
-`SHSetLocalizedName` | 556 (0x22c) | Exported Function | 0x000000018022a020 | 0x0022a020
-`SHSetTemporaryPropertyForItem` | 557 (0x22d) | Exported Function | 0x000000018008aa00 | 0x0008aa00
-`SHSetUnreadMailCountW` | 558 (0x22e) | Exported Function | 0x00000001802180d0 | 0x002180d0
-`SHShellFolderView_Message` | 73 (0x49) | Exported Function | 0x00000001802a1530 | 0x002a1530
-`SHShowManageLibraryUI` | 559 (0x22f) | Exported Function | 0x00000001804eafb0 | 0x004eafb0
-`StrChrIW` | 587 (0x24b) | Exported Function | 0x0000000180113190 | 0x00113190
-`SHSimpleIDListFromPath` | 162 (0xa2) | Exported Function | 0x0000000180218300 | 0x00218300
-`SHTestTokenMembership` | 245 (0xf5) | Exported Function | 0x00000001800d1cf0 | 0x000d1cf0
-`SHUpdateImageA` | 191 (0xbf) | Exported Function | 0x000000018027cb10 | 0x0027cb10
-`SHUpdateImageW` | 192 (0xc0) | Exported Function | 0x000000018027cb80 | 0x0027cb80
-`SHUpdateRecycleBinIcon` | 560 (0x230) | Exported Function | 0x00000001800d37a0 | 0x000d37a0
-`SHValidateUNC` | 173 (0xad) | Exported Function | 0x0000000180264a00 | 0x00264a00
-`SignalFileOpen` | 103 (0x67) | Exported Function | 0x00000001800b9700 | 0x000b9700
-`StateRepoNewMenuCache_EnsureCacheAsync` | 583 (0x247) | Exported Function | 0x00000001800a4ef0 | 0x000a4ef0
-`StateRepoNewMenuCache_RebuildCacheAsync` | 584 (0x248) | Exported Function | 0x00000001800a0d90 | 0x000a0d90
-`StgMakeUniqueName` | 682 (0x2aa) | Exported Function | 0x00000001802c5ab0 | 0x002c5ab0
-`StrChrA` | 585 (0x249) | Exported Function | 0x0000000180113170 | 0x00113170
-`SHStartNetConnectionDialogW` | 14 (0xe) | Exported Function | 0x00000001802a5760 | 0x002a5760
-`SHELL32_LegacyEnumSpecialTasksByType` | 438 (0x1b6) | Exported Function | 0x00000001802a5610 | 0x002a5610
-`SHGetKnownFolderPath` | 513 (0x201) | Exported Function | 0x00000001800d31c0 | 0x000d31c0
-`SHGetKnownFolderIDList` | 511 (0x1ff) | Exported Function | 0x00000001800d4ec0 | 0x000d4ec0
-`SHELL32_SHLaunchPropSheet` | 464 (0x1d0) | Exported Function | 0x00000001802a5730 | 0x002a5730
-`SHELL32_SHLogILFromFSIL` | 465 (0x1d1) | Exported Function | 0x00000001802a5740 | 0x002a5740
-`SHELL32_SHOpenWithDialog` | 466 (0x1d2) | Exported Function | 0x00000001802a5750 | 0x002a5750
-`SHELL32_ShowHideIconOnlyOnDesktop` | 471 (0x1d7) | Exported Function | 0x00000001802a5780 | 0x002a5780
-`SHELL32_SHStartNetConnectionDialogW` | 467 (0x1d3) | Exported Function | 0x00000001802a5760 | 0x002a5760
-`SHELL32_SHUICommandFromGUID` | 468 (0x1d4) | Exported Function | 0x0000000180262e20 | 0x00262e20
-`SHELL32_SimpleRatingToFilterCondition` | 472 (0x1d8) | Exported Function | 0x00000001802a5790 | 0x002a5790
-`SHELL32_StampIconForFile` | 473 (0x1d9) | Exported Function | 0x00000001802a57a0 | 0x002a57a0
-`SHELL32_SuspendUndo` | 474 (0x1da) | Exported Function | 0x00000001800d3b10 | 0x000d3b10
-`SHELL32_TryVirtualDiscImageDriveEject` | 475 (0x1db) | Exported Function | 0x00000001802a5800 | 0x002a5800
-`SHELL32_SHIsVirtualDevice` | 463 (0x1cf) | Exported Function | 0x00000001802a5720 | 0x002a5720
-`SHELL32_VerifySaferTrust` | 476 (0x1dc) | Exported Function | 0x00000001800c86d0 | 0x000c86d0
-`Shell_GetCachedImageIndexA` | 577 (0x241) | Exported Function | 0x0000000180263d00 | 0x00263d00
-`Shell_GetCachedImageIndexW` | 578 (0x242) | Exported Function | 0x000000018004df40 | 0x0004df40
-`Shell_GetImageLists` | 71 (0x47) | Exported Function | 0x00000001800d0f70 | 0x000d0f70
-`Shell_MergeMenus` | 67 (0x43) | Exported Function | 0x00000001800448c0 | 0x000448c0
-`Shell_NotifyIcon` | 579 (0x243) | Exported Function | 0x0000000180255c40 | 0x00255c40
-`Shell_NotifyIconA` | 580 (0x244) | Exported Function | 0x0000000180255c40 | 0x00255c40
-`Shell_NotifyIconGetRect` | 581 (0x245) | Exported Function | 0x0000000180109cc0 | 0x00109cc0
-`Shell_NotifyIconW` | 582 (0x246) | Exported Function | 0x0000000180048190 | 0x00048190
-`ShellAboutA` | 566 (0x236) | Exported Function | 0x00000001802c55f0 | 0x002c55f0
-`ShellAboutW` | 567 (0x237) | Exported Function | 0x00000001802c5720 | 0x002c5720
-`Shell_GetCachedImageIndex` | 72 (0x48) | Exported Function | 0x0000000180263cf0 | 0x00263cf0
-`ShellExec_RunDLL` | 568 (0x238) | Exported Function | 0x00000001801dd370 | 0x001dd370
-`SHELL32_SHGetUserNameW` | 462 (0x1ce) | Exported Function | 0x000000018010d180 | 0x0010d180
-`SHELL32_SHFormatDriveAsync` | 460 (0x1cc) | Exported Function | 0x00000001802a5700 | 0x002a5700
-`SHELL32_LookupBackIconIndex` | 440 (0x1b8) | Exported Function | 0x000000018004dba0 | 0x0004dba0
-`SHELL32_LookupFrontIconIndex` | 441 (0x1b9) | Exported Function | 0x00000001800b4a70 | 0x000b4a70
-`SHELL32_NormalizeRating` | 442 (0x1ba) | Exported Function | 0x00000001802a5630 | 0x002a5630
-`SHELL32_NotifyLinkTrackingServiceOfMove` | 443 (0x1bb) | Exported Function | 0x00000001802a5640 | 0x002a5640
-`SHELL32_PifMgr_CloseProperties` | 444 (0x1bc) | Exported Function | 0x00000001801b1a40 | 0x001b1a40
-`SHELL32_PifMgr_GetProperties` | 445 (0x1bd) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`SHELL32_PifMgr_OpenProperties` | 446 (0x1be) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`SHELL32_PifMgr_SetProperties` | 447 (0x1bf) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`SHELL32_Printers_CreateBindInfo` | 448 (0x1c0) | Exported Function | 0x00000001802a5650 | 0x002a5650
-`SHELL32_Printjob_GetPidl` | 449 (0x1c1) | Exported Function | 0x00000001802a5660 | 0x002a5660
-`SHELL32_SHGetThreadUndoManager` | 461 (0x1cd) | Exported Function | 0x00000001802a5710 | 0x002a5710
-`SHELL32_PurgeSystemIcon` | 450 (0x1c2) | Exported Function | 0x00000001802a5670 | 0x002a5670
-`SHELL32_ResolveLinkInfoW` | 452 (0x1c4) | Exported Function | 0x00000001802a5680 | 0x002a5680
-`SHELL32_SendToMenu_InvokeTargetedCommand` | 469 (0x1d5) | Exported Function | 0x00000001804b56c0 | 0x004b56c0
-`SHELL32_SendToMenu_VerifyTargetedCommand` | 470 (0x1d6) | Exported Function | 0x00000001804b5710 | 0x004b5710
-`SHELL32_SHAddSparseIcon` | 453 (0x1c5) | Exported Function | 0x00000001802a56a0 | 0x002a56a0
-`SHELL32_SHCreateByValueOperationInterrupt` | 454 (0x1c6) | Exported Function | 0x00000001802a56b0 | 0x002a56b0
-`SHELL32_SHCreateDefaultContextMenu` | 455 (0x1c7) | Exported Function | 0x00000001800d5f60 | 0x000d5f60
-`SHELL32_SHCreateLocalServer` | 456 (0x1c8) | Exported Function | 0x00000001802a56c0 | 0x002a56c0
-`SHELL32_SHCreateShellFolderView` | 457 (0x1c9) | Exported Function | 0x0000000180087c40 | 0x00087c40
-`SHELL32_SHDuplicateEncryptionInfoFile` | 458 (0x1ca) | Exported Function | 0x00000001802a56d0 | 0x002a56d0
-`SHELL32_SHEncryptFile` | 459 (0x1cb) | Exported Function | 0x00000001802a56f0 | 0x002a56f0
-`SHELL32_RefreshOverlayImages` | 451 (0x1c3) | Exported Function | 0x000000018009ed60 | 0x0009ed60
-`SHGetKnownFolderItem` | 512 (0x200) | Exported Function | 0x00000001800d4ea0 | 0x000d4ea0
-`ShellExec_RunDLLA` | 569 (0x239) | Exported Function | 0x00000001801dd370 | 0x001dd370
-`ShellExecuteA` | 571 (0x23b) | Exported Function | 0x00000001801dd580 | 0x001dd580
-`SHGetDataFromIDListW` | 490 (0x1ea) | Exported Function | 0x00000001800c3d80 | 0x000c3d80
-`SHGetDesktopFolder` | 491 (0x1eb) | Exported Function | 0x00000001800d5b70 | 0x000d5b70
-`SHGetDiskFreeSpaceA` | 492 (0x1ec) | Exported Function | 0x0000000180229660 | 0x00229660
-`SHGetDiskFreeSpaceExA` | 493 (0x1ed) | Exported Function | 0x0000000180229660 | 0x00229660
-`SHGetDiskFreeSpaceExW` | 494 (0x1ee) | Exported Function | 0x00000001802296e0 | 0x002296e0
-`SHGetDriveMedia` | 495 (0x1ef) | Exported Function | 0x00000001802b1030 | 0x002b1030
-`SHGetFileInfo` | 496 (0x1f0) | Exported Function | 0x0000000180027820 | 0x00027820
-`SHGetFileInfoA` | 497 (0x1f1) | Exported Function | 0x0000000180027820 | 0x00027820
-`SHGetFileInfoW` | 498 (0x1f2) | Exported Function | 0x000000018006d130 | 0x0006d130
-`SHGetFolderLocation` | 499 (0x1f3) | Exported Function | 0x000000018002ec20 | 0x0002ec20
-`SHGetDataFromIDListA` | 489 (0x1e9) | Exported Function | 0x0000000180229550 | 0x00229550
-`SHGetFolderPathA` | 500 (0x1f4) | Exported Function | 0x00000001802559f0 | 0x002559f0
-`SHGetFolderPathAndSubDirW` | 502 (0x1f6) | Exported Function | 0x00000001800d6260 | 0x000d6260
-`SHGetFolderPathEx` | 503 (0x1f7) | Exported Function | 0x0000000180029ba0 | 0x00029ba0
-`SHGetFolderPathW` | 504 (0x1f8) | Exported Function | 0x00000001800b94c0 | 0x000b94c0
-`SHGetIconOverlayIndexA` | 506 (0x1fa) | Exported Function | 0x00000001802b1890 | 0x002b1890
-`SHGetIconOverlayIndexW` | 507 (0x1fb) | Exported Function | 0x00000001802b1910 | 0x002b1910
-`SHGetIDListFromObject` | 505 (0x1f9) | Exported Function | 0x00000001800661d0 | 0x000661d0
-`SHGetImageList` | 727 (0x2d7) | Exported Function | 0x000000018004a8f0 | 0x0004a8f0
-`SHGetInstanceExplorer` | 508 (0x1fc) | Exported Function | 0x00000001800d4f80 | 0x000d4f80
-`SHGetItemFromDataObject` | 509 (0x1fd) | Exported Function | 0x0000000180041d90 | 0x00041d90
-`SHGetItemFromObject` | 510 (0x1fe) | Exported Function | 0x0000000180088380 | 0x00088380
-`SHGetFolderPathAndSubDirA` | 501 (0x1f5) | Exported Function | 0x0000000180255a10 | 0x00255a10
-`ShellExec_RunDLLW` | 570 (0x23a) | Exported Function | 0x00000001801dd420 | 0x001dd420
-`SHGetAttributesFromDataObject` | 750 (0x2ee) | Exported Function | 0x000000018000bbc0 | 0x0000bbc0
-`SHFree` | 195 (0xc3) | Exported Function | 0x00000001800ba340 | 0x000ba340
-`ShellExecuteEx` | 572 (0x23c) | Exported Function | 0x00000001801dd620 | 0x001dd620
-`ShellExecuteExA` | 573 (0x23d) | Exported Function | 0x00000001801dd620 | 0x001dd620
-`ShellExecuteExW` | 574 (0x23e) | Exported Function | 0x000000018005cba0 | 0x0005cba0
-`ShellExecuteW` | 575 (0x23f) | Exported Function | 0x0000000180107f40 | 0x00107f40
-`ShellHookProc` | 576 (0x240) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`ShellMessageBoxA` | 183 (0xb7) | Exported Function | shlwapi.ShellMessageBoxA | 0x006c5a68
-`ShellMessageBoxW` | 182 (0xb6) | Exported Function | shlwapi.ShellMessageBoxW | 0x006c5a92
-`SHEmptyRecycleBinA` | 477 (0x1dd) | Exported Function | 0x00000001802a5c10 | 0x002a5c10
-`SHEmptyRecycleBinW` | 478 (0x1de) | Exported Function | 0x00000001802a5ca0 | 0x002a5ca0
-`SHEnableServiceObject` | 479 (0x1df) | Exported Function | 0x00000001800496e0 | 0x000496e0
-`SHFreeNameMappings` | 488 (0x1e8) | Exported Function | 0x00000001801be500 | 0x001be500
-`SHEnumerateUnreadMailAccountsW` | 480 (0x1e0) | Exported Function | 0x00000001802172c0 | 0x002172c0
-`SHEvaluateSystemCommandTemplate` | 481 (0x1e1) | Exported Function | 0x000000018006edb0 | 0x0006edb0
-`SHExecuteErrorMessageBox` | 482 (0x1e2) | Exported Function | 0x00000001802a8050 | 0x002a8050
-`SHExtractIconsW` | 483 (0x1e3) | Exported Function | 0x00000001801ae8b0 | 0x001ae8b0
-`SHFileOperation` | 484 (0x1e4) | Exported Function | 0x00000001801be4c0 | 0x001be4c0
-`SHFileOperationA` | 485 (0x1e5) | Exported Function | 0x00000001801be4c0 | 0x001be4c0
-`SHFileOperationW` | 486 (0x1e6) | Exported Function | 0x00000001801be4e0 | 0x001be4e0
-`SHFind_InitMenuPopup` | 149 (0x95) | Exported Function | 0x00000001802a8bc0 | 0x002a8bc0
-`SHFindFiles` | 90 (0x5a) | Exported Function | 0x0000000180217620 | 0x00217620
-`SHFlushSFCache` | 526 (0x20e) | Exported Function | 0x00000001802a9290 | 0x002a9290
-`SHFormatDrive` | 487 (0x1e7) | Exported Function | 0x000000018021f470 | 0x0021f470
-`SheSetCurDrive` | 565 (0x235) | Exported Function | 0x00000001801b2330 | 0x001b2330
-`Ordinal906` | 906 (0x38a) | Exported Function | 0x00000001800d6190 | 0x000d6190
-`Ordinal905` | 905 (0x389) | Exported Function | 0x000000018010d090 | 0x0010d090
-`Ordinal904` | 904 (0x388) | Exported Function | 0x0000000180255c20 | 0x00255c20
-`Ordinal156` | 156 (0x9c) | Exported Function | 0x00000001800ba340 | 0x000ba340
-`Ordinal158` | 158 (0x9e) | Exported Function | SHUNIMPL.#389 | 0x006c378a
-`Ordinal159` | 159 (0x9f) | Exported Function | shlwapi.PathIsDirectoryW | 0x006c31bb
-`Ordinal160` | 160 (0xa0) | Exported Function | 0x0000000180271000 | 0x00271000
-`Ordinal161` | 161 (0xa1) | Exported Function | SHUNIMPL.#214 | 0x006c3ad6
-`Ordinal163` | 163 (0xa3) | Exported Function | SHUNIMPL.#52 | 0x006c3b35
-`Ordinal166` | 166 (0xa6) | Exported Function | SHUNIMPL.#53 | 0x006c3435
-`Ordinal172` | 172 (0xac) | Exported Function | 0x00000001802292b0 | 0x002292b0
-`Ordinal175` | 175 (0xaf) | Exported Function | 0x00000001800d4b00 | 0x000d4b00
-`Ordinal177` | 177 (0xb1) | Exported Function | SHUNIMPL.#54 | 0x006c34b0
-`Ordinal151` | 151 (0x97) | Exported Function | SHUNIMPL.#51 | 0x006c3a27
-`Ordinal181` | 181 (0xb5) | Exported Function | 0x00000001800d46b0 | 0x000d46b0
-`Ordinal185` | 185 (0xb9) | Exported Function | SHUNIMPL.#390 | 0x006c39c6
-`Ordinal186` | 186 (0xba) | Exported Function | 0x000000018026fce0 | 0x0026fce0
-`Ordinal187` | 187 (0xbb) | Exported Function | SHUNIMPL.#235 | 0x006c36e8
-`Ordinal188` | 188 (0xbc) | Exported Function | 0x00000001800cf300 | 0x000cf300
-`Ordinal194` | 194 (0xc2) | Exported Function | 0x000000018010a4d0 | 0x0010a4d0
-`Ordinal197` | 197 (0xc5) | Exported Function | SHUNIMPL.#55 | 0x006c39b9
-`Ordinal198` | 198 (0xc6) | Exported Function | SHUNIMPL.#56 | 0x006c37cd
-`Ordinal20` | 20 (0x14) | Exported Function | 0x0000000180065740 | 0x00065740
-`Ordinal200` | 200 (0xc8) | Exported Function | 0x00000001800a6c50 | 0x000a6c50
-`Ordinal2000` | 2000 (0x7d0) | Exported Function | 0x0000000180278970 | 0x00278970
-`Ordinal184` | 184 (0xb8) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`Ordinal2001` | 2001 (0x7d1) | Exported Function | 0x00000001802c67a0 | 0x002c67a0
-`Ordinal15` | 15 (0xf) | Exported Function | 0x000000018026fcc0 | 0x0026fcc0
-`Ordinal146` | 146 (0x92) | Exported Function | SHUNIMPL.#49 | 0x006c37b3
-`Ordinal113` | 113 (0x71) | Exported Function | SHUNIMPL.#11 | 0x006c3525
-`Ordinal114` | 114 (0x72) | Exported Function | SHUNIMPL.#12 | 0x006c3532
-`Ordinal115` | 115 (0x73) | Exported Function | SHUNIMPL.#13 | 0x006c350c
-`Ordinal116` | 116 (0x74) | Exported Function | SHUNIMPL.#14 | 0x006c3696
-`Ordinal117` | 117 (0x75) | Exported Function | SHUNIMPL.#15 | 0x006c3565
-`Ordinal118` | 118 (0x76) | Exported Function | SHUNIMPL.#16 | 0x006c3599
-`Ordinal12` | 12 (0xc) | Exported Function | 0x00000001802b6170 | 0x002b6170
-`Ordinal120` | 120 (0x78) | Exported Function | SHUNIMPL.#17 | 0x006c34f2
-`Ordinal121` | 121 (0x79) | Exported Function | SHUNIMPL.#44 | 0x006c3925
-`Ordinal122` | 122 (0x7a) | Exported Function | SHUNIMPL.#45 | 0x006c37c0
-`Ordinal148` | 148 (0x94) | Exported Function | SHUNIMPL.#50 | 0x006c3a5d
-`Ordinal123` | 123 (0x7b) | Exported Function | SHUNIMPL.#46 | 0x006c393f
-`Ordinal126` | 126 (0x7e) | Exported Function | SHUNIMPL.#47 | 0x006c3a85
-`Ordinal127` | 127 (0x7f) | Exported Function | SHUNIMPL.#371 | 0x006c3b1a
-`Ordinal128` | 128 (0x80) | Exported Function | 0x000000018006c100 | 0x0006c100
-`Ordinal130` | 130 (0x82) | Exported Function | SHUNIMPL.#48 | 0x006c34a3
-`Ordinal140` | 140 (0x8c) | Exported Function | SHUNIMPL.#19 | 0x006c3572
-`Ordinal141` | 141 (0x8d) | Exported Function | SHUNIMPL.#20 | 0x006c357f
-`Ordinal142` | 142 (0x8e) | Exported Function | SHUNIMPL.#21 | 0x006c358c
-`Ordinal143` | 143 (0x8f) | Exported Function | SHUNIMPL.#22 | 0x006c35bf
-`Ordinal144` | 144 (0x90) | Exported Function | SHUNIMPL.#23 | 0x006c35d8
-`Ordinal145` | 145 (0x91) | Exported Function | shlwapi.PathFindOnPathW | 0x006c3161
-`Ordinal124` | 124 (0x7c) | Exported Function | SHUNIMPL.#18 | 0x006c34ff
-`Ordinal112` | 112 (0x70) | Exported Function | SHUNIMPL.#10 | 0x006c367c
-`Ordinal201` | 201 (0xc9) | Exported Function | 0x00000001800a7330 | 0x000a7330
-`Ordinal203` | 203 (0xcb) | Exported Function | 0x0000000180213e20 | 0x00213e20
-`Ordinal237` | 237 (0xed) | Exported Function | 0x00000001800d3900 | 0x000d3900
-`Ordinal241` | 241 (0xf1) | Exported Function | 0x00000001800f1410 | 0x000f1410
-`Ordinal242` | 242 (0xf2) | Exported Function | SHUNIMPL.#373 | 0x006c3976
-`Ordinal243` | 243 (0xf3) | Exported Function | SHUNIMPL.#374 | 0x006c3ae4
-`Ordinal244` | 244 (0xf4) | Exported Function | 0x00000001800a0400 | 0x000a0400
-`Ordinal246` | 246 (0xf6) | Exported Function | SHUNIMPL.#375 | 0x006c39e2
-`Ordinal247` | 247 (0xf7) | Exported Function | SHUNIMPL.#376 | 0x006c394c
-`Ordinal248` | 248 (0xf8) | Exported Function | SHUNIMPL.#377 | 0x006c39ab
-`Ordinal249` | 249 (0xf9) | Exported Function | shlwapi.PathParseIconLocationW | 0x006c3285
-`Ordinal250` | 250 (0xfa) | Exported Function | shlwapi.PathRemoveExtensionW | 0x006c32fb
-`Ordinal236` | 236 (0xec) | Exported Function | 0x00000001802707c0 | 0x002707c0
-`Ordinal251` | 251 (0xfb) | Exported Function | shlwapi.PathRemoveArgsW | 0x006c32c9
-`Ordinal253` | 253 (0xfd) | Exported Function | SHUNIMPL.#378 | 0x006c39fd
-`Ordinal254` | 254 (0xfe) | Exported Function | 0x0000000180251490 | 0x00251490
-`Ordinal257` | 257 (0x101) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`Ordinal258` | 258 (0x102) | Exported Function | 0x000000018010aa70 | 0x0010aa70
-`Ordinal259` | 259 (0x103) | Exported Function | 0x00000001800d3900 | 0x000d3900
-`Ordinal26` | 26 (0x1a) | Exported Function | SHUNIMPL.#36 | 0x006c36f6
-`Ordinal260` | 260 (0x104) | Exported Function | 0x00000001802412c0 | 0x002412c0
-`Ordinal261` | 261 (0x105) | Exported Function | 0x00000001802abd90 | 0x002abd90
-`Ordinal262` | 262 (0x106) | Exported Function | 0x00000001802ac0d0 | 0x002ac0d0
-`Ordinal264` | 264 (0x108) | Exported Function | 0x00000001802412f0 | 0x002412f0
-`Ordinal252` | 252 (0xfc) | Exported Function | api-ms-win-core-url-l1.PathIsURLW | 0x006c3239
-`Ordinal202` | 202 (0xca) | Exported Function | SHUNIMPL.#57 | 0x006c34ca
-`Ordinal235` | 235 (0xeb) | Exported Function | SHUNIMPL.#212 | 0x006c3a6a
-`Ordinal233` | 233 (0xe9) | Exported Function | SHUNIMPL.#58 | 0x006c399e
-`Ordinal204` | 204 (0xcc) | Exported Function | 0x0000000180218870 | 0x00218870
-`Ordinal205` | 205 (0xcd) | Exported Function | 0x00000001801d6ab0 | 0x001d6ab0
-`Ordinal206` | 206 (0xce) | Exported Function | 0x00000001800a7780 | 0x000a7780
-`Ordinal209` | 209 (0xd1) | Exported Function | 0x0000000180215c30 | 0x00215c30
-`Ordinal210` | 210 (0xd2) | Exported Function | 0x0000000180216470 | 0x00216470
-`Ordinal211` | 211 (0xd3) | Exported Function | 0x00000001800dc4f0 | 0x000dc4f0
-`Ordinal212` | 212 (0xd4) | Exported Function | 0x00000001801d6780 | 0x001d6780
-`Ordinal213` | 213 (0xd5) | Exported Function | 0x00000001801d6bf0 | 0x001d6bf0
-`Ordinal214` | 214 (0xd6) | Exported Function | 0x00000001801d6d10 | 0x001d6d10
-`Ordinal215` | 215 (0xd7) | Exported Function | 0x00000001802a5760 | 0x002a5760
-`Ordinal234` | 234 (0xea) | Exported Function | SHUNIMPL.#59 | 0x006c3af2
-`Ordinal216` | 216 (0xd8) | Exported Function | SHUNIMPL.#24 | 0x006c3662
-`Ordinal218` | 218 (0xda) | Exported Function | SHUNIMPL.#26 | 0x006c362f
-`Ordinal219` | 219 (0xdb) | Exported Function | SHUNIMPL.#27 | 0x006c363c
-`Ordinal220` | 220 (0xdc) | Exported Function | SHUNIMPL.#28 | 0x006c35f1
-`Ordinal221` | 221 (0xdd) | Exported Function | SHUNIMPL.#29 | 0x006c35b2
-`Ordinal222` | 222 (0xde) | Exported Function | SHUNIMPL.#30 | 0x006c360a
-`Ordinal223` | 223 (0xdf) | Exported Function | SHUNIMPL.#31 | 0x006c366f
-`Ordinal224` | 224 (0xe0) | Exported Function | SHUNIMPL.#32 | 0x006c354c
-`Ordinal225` | 225 (0xe1) | Exported Function | SHUNIMPL.#33 | 0x006c3655
-`Ordinal227` | 227 (0xe3) | Exported Function | SHUNIMPL.#34 | 0x006c353f
-`Ordinal230` | 230 (0xe6) | Exported Function | SHUNIMPL.#372 | 0x006c36a3
-`Ordinal217` | 217 (0xd9) | Exported Function | SHUNIMPL.#25 | 0x006c3689
-`Ordinal265` | 265 (0x109) | Exported Function | 0x0000000180264ba0 | 0x00264ba0
-`Ordinal111` | 111 (0x6f) | Exported Function | SHUNIMPL.#9 | 0x006c3649
-`Ordinal109` | 109 (0x6d) | Exported Function | SHUNIMPL.#7 | 0x006c3623
-`DllCanUnloadNow` | 277 (0x115) | Exported Function | 0x00000001800b94e0 | 0x000b94e0
-`DllGetActivationFactory` | 278 (0x116) | Exported Function | 0x00000001801b7aa0 | 0x001b7aa0
-`DllGetClassObject` | 279 (0x117) | Exported Function | 0x000000018006c100 | 0x0006c100
-`DllGetVersion` | 280 (0x118) | Exported Function | 0x0000000180254610 | 0x00254610
-`DllInstall` | 281 (0x119) | Exported Function | 0x00000001802546e0 | 0x002546e0
-`DllRegisterServer` | 282 (0x11a) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`DllUnregisterServer` | 283 (0x11b) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`DoEnvironmentSubstA` | 284 (0x11c) | Exported Function | 0x00000001801adc40 | 0x001adc40
-`DoEnvironmentSubstW` | 285 (0x11d) | Exported Function | 0x00000001801adcf0 | 0x001adcf0
-`DragAcceptFiles` | 286 (0x11e) | Exported Function | 0x00000001800d2d90 | 0x000d2d90
-`DAD_ShowDragImage` | 137 (0x89) | Exported Function | 0x00000001800d3900 | 0x000d3900
-`DragFinish` | 287 (0x11f) | Exported Function | 0x00000001801b24e0 | 0x001b24e0
-`DragQueryFileA` | 289 (0x121) | Exported Function | 0x00000001801b2500 | 0x001b2500
-`DragQueryFileAorW` | 290 (0x122) | Exported Function | 0x00000001801b2530 | 0x001b2530
-`DragQueryFileW` | 291 (0x123) | Exported Function | 0x00000001801b2800 | 0x001b2800
-`DragQueryPoint` | 292 (0x124) | Exported Function | 0x00000001801b29d0 | 0x001b29d0
-`DriveType` | 64 (0x40) | Exported Function | 0x0000000180255740 | 0x00255740
-`DuplicateIcon` | 293 (0x125) | Exported Function | 0x00000001800b6b00 | 0x000b6b00
-`ExtractAssociatedIconA` | 294 (0x126) | Exported Function | 0x00000001801ade20 | 0x001ade20
-`ExtractAssociatedIconExA` | 295 (0x127) | Exported Function | 0x00000001801adf10 | 0x001adf10
-`ExtractAssociatedIconExW` | 296 (0x128) | Exported Function | 0x00000001801ae000 | 0x001ae000
-`ExtractAssociatedIconW` | 297 (0x129) | Exported Function | 0x00000001801ae270 | 0x001ae270
-`DragQueryFile` | 288 (0x120) | Exported Function | 0x00000001801b2500 | 0x001b2500
-`ExtractIconA` | 298 (0x12a) | Exported Function | 0x00000001801ae340 | 0x001ae340
-`DAD_SetDragImage` | 136 (0x88) | Exported Function | 0x00000001800d3900 | 0x000d3900
-`DAD_DragLeave` | 132 (0x84) | Exported Function | 0x0000000180250820 | 0x00250820
-`AssocCreateForClasses` | 263 (0x107) | Exported Function | 0x0000000180043a10 | 0x00043a10
-`AssocElemCreateForKey` | 267 (0x10b) | Exported Function | 0x0000000180226920 | 0x00226920
-`AssocGetDetailsOfPropKey` | 268 (0x10c) | Exported Function | 0x0000000180226bc0 | 0x00226bc0
-`CDefFolderMenu_Create2` | 701 (0x2bd) | Exported Function | 0x000000018022dff0 | 0x0022dff0
-`CheckEscapesW` | 269 (0x10d) | Exported Function | 0x00000001802359a0 | 0x002359a0
-`CIDLData_CreateFromIDArray` | 83 (0x53) | Exported Function | 0x000000018022edf0 | 0x0022edf0
-`CommandLineToArgvW` | 272 (0x110) | Exported Function | 0x00000001800baa40 | 0x000baa40
-`Control_RunDLL` | 273 (0x111) | Exported Function | 0x0000000180238c50 | 0x00238c50
-`Control_RunDLLA` | 274 (0x112) | Exported Function | 0x0000000180238c50 | 0x00238c50
-`Control_RunDLLAsUserW` | 275 (0x113) | Exported Function | 0x0000000180238cd0 | 0x00238cd0
-`DAD_DragMove` | 134 (0x86) | Exported Function | 0x0000000180250860 | 0x00250860
-`Control_RunDLLW` | 276 (0x114) | Exported Function | 0x0000000180238d10 | 0x00238d10
-`CreateStorageItemFromPath_FullTrustCaller_ForPackage` | 936 (0x3a8) | Exported Function | 0x00000001801be380 | 0x001be380
-`CreateStorageItemFromPath_PartialTrustCaller` | 920 (0x398) | Exported Function | 0x00000001801be3a0 | 0x001be3a0
-`CreateStorageItemFromShellItem_FullTrustCaller` | 921 (0x399) | Exported Function | 0x00000001801be3c0 | 0x001be3c0
-`CreateStorageItemFromShellItem_FullTrustCaller_ForPackage` | 925 (0x39d) | Exported Function | 0x000000018002e500 | 0x0002e500
-`CreateStorageItemFromShellItem_FullTrustCaller_ForPackage_WithProcessHandle` | 929 (0x3a1) | Exported Function | 0x00000001801be3e0 | 0x001be3e0
-`CreateStorageItemFromShellItem_FullTrustCaller_UseImplicitFlagsAndPackage` | 931 (0x3a3) | Exported Function | 0x00000001801be400 | 0x001be400
-`CStorageItem_GetValidatedStorageItemObject` | 937 (0x3a9) | Exported Function | 0x00000001801be320 | 0x001be320
-`DAD_AutoScroll` | 129 (0x81) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`DAD_DragEnterEx` | 131 (0x83) | Exported Function | 0x00000001800d3900 | 0x000d3900
-`DAD_DragEnterEx2` | 22 (0x16) | Exported Function | 0x0000000180250720 | 0x00250720
-`CreateStorageItemFromPath_FullTrustCaller` | 935 (0x3a7) | Exported Function | 0x00000001801be360 | 0x001be360
-`Ordinal110` | 110 (0x6e) | Exported Function | SHUNIMPL.#8 | 0x006c3519
-`ExtractIconEx` | 299 (0x12b) | Exported Function | 0x00000001801ae3d0 | 0x001ae3d0
-`ExtractIconExW` | 301 (0x12d) | Exported Function | 0x00000001800ab8b0 | 0x000ab8b0
-`InternalExtractIconListW` | 309 (0x135) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`IsDesktopExplorerProcess` | 942 (0x3ae) | Exported Function | 0x00000001800a0c00 | 0x000a0c00
-`IsLFNDrive` | 119 (0x77) | Exported Function | 0x00000001800d3900 | 0x000d3900
-`IsLFNDriveA` | 41 (0x29) | Exported Function | 0x00000001800d3900 | 0x000d3900
-`IsLFNDriveW` | 42 (0x2a) | Exported Function | 0x00000001800d3900 | 0x000d3900
-`IsNetDrive` | 66 (0x42) | Exported Function | 0x0000000180255760 | 0x00255760
-`IsProcessAnExplorer` | 941 (0x3ad) | Exported Function | 0x00000001800c1120 | 0x000c1120
-`IsUserAnAdmin` | 680 (0x2a8) | Exported Function | 0x00000001802707a0 | 0x002707a0
-`LaunchMSHelp_RunDLLW` | 310 (0x136) | Exported Function | 0x00000001801b7c50 | 0x001b7c50
-`OpenAs_RunDLL` | 81 (0x51) | Exported Function | 0x00000001800df2f0 | 0x000df2f0
-`InternalExtractIconListA` | 308 (0x134) | Exported Function | 0x000000018010d5c0 | 0x0010d5c0
-`OpenAs_RunDLLA` | 125 (0x7d) | Exported Function | 0x00000001800df2f0 | 0x000df2f0
-`OpenRegStream` | 85 (0x55) | Exported Function | 0x00000001800d4b20 | 0x000d4b20
-`Options_RunDLL` | 311 (0x137) | Exported Function | 0x00000001804b4440 | 0x004b4440
-`Options_RunDLLA` | 312 (0x138) | Exported Function | 0x00000001804b4440 | 0x004b4440
-`Options_RunDLLW` | 313 (0x139) | Exported Function | 0x00000001804b44a0 | 0x004b44a0
-`Ordinal101` | 101 (0x65) | Exported Function | SHUNIMPL.#1 | 0x006c3617
-`Ordinal104` | 104 (0x68) | Exported Function | SHUNIMPL.#2 | 0x006c3559
-`Ordinal105` | 105 (0x69) | Exported Function | SHUNIMPL.#3 | 0x006c35a6
-`Ordinal106` | 106 (0x6a) | Exported Function | SHUNIMPL.#4 | 0x006c35cc
-`Ordinal107` | 107 (0x6b) | Exported Function | SHUNIMPL.#5 | 0x006c35e5
-`Ordinal108` | 108 (0x6c) | Exported Function | SHUNIMPL.#6 | 0x006c35fe
-`OpenAs_RunDLLW` | 133 (0x85) | Exported Function | 0x00000001801c22a0 | 0x001c22a0
-`ExtractIconExA` | 300 (0x12c) | Exported Function | 0x00000001801ae3d0 | 0x001ae3d0
-`InitNetworkAddressControl` | 307 (0x133) | Exported Function | 0x0000000180270540 | 0x00270540
-`ILRemoveLastID` | 17 (0x11) | Exported Function | 0x0000000180088240 | 0x00088240
-`ExtractIconW` | 302 (0x12e) | Exported Function | 0x00000001801ae450 | 0x001ae450
-`FindExecutableA` | 303 (0x12f) | Exported Function | 0x0000000180264520 | 0x00264520
-`FindExecutableW` | 304 (0x130) | Exported Function | 0x0000000180264600 | 0x00264600
-`FreeIconList` | 305 (0x131) | Exported Function | 0x00000001800df2f0 | 0x000df2f0
-`GetCurrentProcessExplicitAppUserModelID` | 306 (0x132) | Exported Function | 0x00000001802651e0 | 0x002651e0
-`GetFileNameFromBrowse` | 63 (0x3f) | Exported Function | 0x00000001802680e0 | 0x002680e0
-`GetSystemPersistedStorageItemList` | 919 (0x397) | Exported Function | 0x00000001801be420 | 0x001be420
-`ILAppendID` | 154 (0x9a) | Exported Function | 0x000000018026fa50 | 0x0026fa50
-`ILClone` | 18 (0x12) | Exported Function | 0x0000000180065740 | 0x00065740
-`ILCloneFirst` | 19 (0x13) | Exported Function | 0x00000001800adaa0 | 0x000adaa0
-`ILSaveToStream` | 27 (0x1b) | Exported Function | 0x0000000180270000 | 0x00270000
-`ILCombine` | 25 (0x19) | Exported Function | 0x0000000180065840 | 0x00065840
-`ILCreateFromPathA` | 189 (0xbd) | Exported Function | 0x000000018026fb40 | 0x0026fb40
-`ILCreateFromPathW` | 190 (0xbe) | Exported Function | 0x000000018026fc70 | 0x0026fc70
-`ILFindChild` | 24 (0x18) | Exported Function | 0x00000001800d3c40 | 0x000d3c40
-`ILFindLastID` | 16 (0x10) | Exported Function | 0x0000000180065710 | 0x00065710
-`ILFree` | 155 (0x9b) | Exported Function | 0x00000001800ba340 | 0x000ba340
-`ILGetNext` | 153 (0x99) | Exported Function | 0x000000018010a310 | 0x0010a310
-`ILGetSize` | 152 (0x98) | Exported Function | 0x00000001800b42c0 | 0x000b42c0
-`ILIsEqual` | 21 (0x15) | Exported Function | 0x000000018006c6c0 | 0x0006c6c0
-`ILIsParent` | 23 (0x17) | Exported Function | 0x00000001800d1fc0 | 0x000d1fc0
-`ILLoadFromStreamEx` | 846 (0x34e) | Exported Function | 0x000000018026feb0 | 0x0026feb0
-`ILCreateFromPath` | 157 (0x9d) | Exported Function | 0x000000018026fc70 | 0x0026fc70
-`Ordinal266` | 266 (0x10a) | Exported Function | 0x0000000180264e00 | 0x00264e00
-`Ordinal270` | 270 (0x10e) | Exported Function | 0x00000001802aaed0 | 0x002aaed0
-`Ordinal271` | 271 (0x10f) | Exported Function | 0x00000001802b6210 | 0x002b6210
-`Ordinal830` | 830 (0x33e) | Exported Function | 0x00000001801fd260 | 0x001fd260
-`Ordinal831` | 831 (0x33f) | Exported Function | 0x0000000180217090 | 0x00217090
-`Ordinal832` | 832 (0x340) | Exported Function | SHUNIMPL.#387 | 0x006c3a19
-`Ordinal833` | 833 (0x341) | Exported Function | 0x0000000180255a70 | 0x00255a70
-`Ordinal834` | 834 (0x342) | Exported Function | SHUNIMPL.#254 | 0x006c387d
-`Ordinal835` | 835 (0x343) | Exported Function | SHUNIMPL.#255 | 0x006c3899
-`Ordinal836` | 836 (0x344) | Exported Function | SHUNIMPL.#256 | 0x006c388b
-`Ordinal837` | 837 (0x345) | Exported Function | SHUNIMPL.#257 | 0x006c38b5
-`Ordinal838` | 838 (0x346) | Exported Function | SHUNIMPL.#258 | 0x006c38a7
-`Ordinal839` | 839 (0x347) | Exported Function | SHUNIMPL.#259 | 0x006c345d
-`Ordinal829` | 829 (0x33d) | Exported Function | 0x000000018022e850 | 0x0022e850
-`Ordinal84` | 84 (0x54) | Exported Function | SHUNIMPL.#40 | 0x006c39f0
-`Ordinal841` | 841 (0x349) | Exported Function | SHUNIMPL.#424 | 0x006c3909
-`Ordinal842` | 842 (0x34a) | Exported Function | SHUNIMPL.#425 | 0x006c3917
-`Ordinal843` | 843 (0x34b) | Exported Function | SHUNIMPL.#386 | 0x006c3968
-`Ordinal844` | 844 (0x34c) | Exported Function | 0x00000001802549c0 | 0x002549c0
-`Ordinal845` | 845 (0x34d) | Exported Function | 0x00000001801b9ba0 | 0x001b9ba0
-`Ordinal847` | 847 (0x34f) | Exported Function | 0x00000001801bb3f0 | 0x001bb3f0
-`Ordinal848` | 848 (0x350) | Exported Function | 0x0000000180282830 | 0x00282830
-`Ordinal849` | 849 (0x351) | Exported Function | 0x00000001801bb550 | 0x001bb550
-`Ordinal850` | 850 (0x352) | Exported Function | 0x000000018009eb40 | 0x0009eb40
-`Ordinal851` | 851 (0x353) | Exported Function | 0x0000000180209f60 | 0x00209f60
-`Ordinal840` | 840 (0x348) | Exported Function | 0x00000001802709d0 | 0x002709d0
-`Ordinal852` | 852 (0x354) | Exported Function | SHUNIMPL.#391 | 0x006c39d4
-`Ordinal828` | 828 (0x33c) | Exported Function | 0x000000018022e340 | 0x0022e340
-`Ordinal826` | 826 (0x33a) | Exported Function | SHUNIMPL.#252 | 0x006c3837
-`Ordinal79` | 79 (0x4f) | Exported Function | SHUNIMPL.#38 | 0x006c3b42
-`Ordinal790` | 790 (0x316) | Exported Function | 0x0000000180229b20 | 0x00229b20
-`Ordinal791` | 791 (0x317) | Exported Function | 0x00000001802a0c90 | 0x002a0c90
-`Ordinal792` | 792 (0x318) | Exported Function | 0x0000000180097540 | 0x00097540
-`Ordinal8` | 8 (0x8) | Exported Function | SHUNIMPL.#193 | 0x006c3a4f
-`Ordinal810` | 810 (0x32a) | Exported Function | 0x00000001802abdc0 | 0x002abdc0
-`Ordinal811` | 811 (0x32b) | Exported Function | 0x00000001802abbc0 | 0x002abbc0
-`Ordinal812` | 812 (0x32c) | Exported Function | 0x0000000180508030 | 0x00508030
-`Ordinal813` | 813 (0x32d) | Exported Function | 0x00000001805080d0 | 0x005080d0
-`Ordinal814` | 814 (0x32e) | Exported Function | 0x00000001801bb5a0 | 0x001bb5a0
-`Ordinal827` | 827 (0x33b) | Exported Function | SHUNIMPL.#253 | 0x006c38df
-`Ordinal815` | 815 (0x32f) | Exported Function | 0x00000001801bb510 | 0x001bb510
-`Ordinal817` | 817 (0x331) | Exported Function | 0x0000000180201590 | 0x00201590
-`Ordinal818` | 818 (0x332) | Exported Function | 0x00000001801bb590 | 0x001bb590
-`Ordinal819` | 819 (0x333) | Exported Function | 0x00000001801bb700 | 0x001bb700
-`Ordinal82` | 82 (0x52) | Exported Function | SHUNIMPL.#39 | 0x006c34bd
-`Ordinal820` | 820 (0x334) | Exported Function | SHUNIMPL.#249 | 0x006c3829
-`Ordinal821` | 821 (0x335) | Exported Function | SHUNIMPL.#250 | 0x006c38d1
-`Ordinal822` | 822 (0x336) | Exported Function | SHUNIMPL.#251 | 0x006c38c3
-`Ordinal823` | 823 (0x337) | Exported Function | 0x0000000180039ed0 | 0x00039ed0
-`Ordinal824` | 824 (0x338) | Exported Function | 0x0000000180088ec0 | 0x00088ec0
-`Ordinal825` | 825 (0x339) | Exported Function | 0x00000001801eb160 | 0x001eb160
-`Ordinal816` | 816 (0x330) | Exported Function | 0x00000001801fe020 | 0x001fe020
-`Ordinal789` | 789 (0x315) | Exported Function | 0x00000001802a0d80 | 0x002a0d80
-`Ordinal853` | 853 (0x355) | Exported Function | 0x000000018006aec0 | 0x0006aec0
-`Ordinal856` | 856 (0x358) | Exported Function | SHUNIMPL.#423 | 0x006c3427
-`Ordinal882` | 882 (0x372) | Exported Function | 0x00000001802a6d40 | 0x002a6d40
-`Ordinal883` | 883 (0x373) | Exported Function | 0x0000000180506510 | 0x00506510
-`Ordinal884` | 884 (0x374) | Exported Function | 0x0000000180250b20 | 0x00250b20
-`Ordinal885` | 885 (0x375) | Exported Function | 0x00000001800894f0 | 0x000894f0
-`Ordinal886` | 886 (0x376) | Exported Function | 0x0000000180217e50 | 0x00217e50
-`Ordinal887` | 887 (0x377) | Exported Function | 0x0000000180287d60 | 0x00287d60
-`Ordinal888` | 888 (0x378) | Exported Function | 0x00000001802b34c0 | 0x002b34c0
-`Ordinal889` | 889 (0x379) | Exported Function | SHUNIMPL.#474 | 0x006c3703
-`Ordinal890` | 890 (0x37a) | Exported Function | SHUNIMPL.#475 | 0x006c3442
-`Ordinal891` | 891 (0x37b) | Exported Function | 0x0000000180273f10 | 0x00273f10
-`Ordinal881` | 881 (0x371) | Exported Function | 0x00000001802a6be0 | 0x002a6be0
-`Ordinal892` | 892 (0x37c) | Exported Function | SHUNIMPL.#476 | 0x006c36be
-`Ordinal894` | 894 (0x37e) | Exported Function | 0x00000001801be440 | 0x001be440
-`Ordinal895` | 895 (0x37f) | Exported Function | 0x00000001800c1de0 | 0x000c1de0
-`Ordinal896` | 896 (0x380) | Exported Function | 0x00000001801be340 | 0x001be340
-`Ordinal897` | 897 (0x381) | Exported Function | 0x00000001802b8fa0 | 0x002b8fa0
-`Ordinal898` | 898 (0x382) | Exported Function | 0x00000001802292e0 | 0x002292e0
-`Ordinal899` | 899 (0x383) | Exported Function | 0x00000001800d5f70 | 0x000d5f70
-`Ordinal900` | 900 (0x384) | Exported Function | 0x00000001800cfbd0 | 0x000cfbd0
-`Ordinal901` | 901 (0x385) | Exported Function | 0x00000001804ab110 | 0x004ab110
-`Ordinal902` | 902 (0x386) | Exported Function | SHUNIMPL.#473 | 0x006c3711
-`Ordinal903` | 903 (0x387) | Exported Function | 0x000000018010ca30 | 0x0010ca30
-`Ordinal893` | 893 (0x37d) | Exported Function | 0x0000000180047530 | 0x00047530
-`Ordinal854` | 854 (0x356) | Exported Function | SHUNIMPL.#260 | 0x006c371f
-`Ordinal880` | 880 (0x370) | Exported Function | 0x0000000180214690 | 0x00214690
-`Ordinal877` | 877 (0x36d) | Exported Function | 0x0000000180262d70 | 0x00262d70
-`Ordinal857` | 857 (0x359) | Exported Function | SHUNIMPL.#426 | 0x006c3419
-`Ordinal858` | 858 (0x35a) | Exported Function | SHUNIMPL.#392 | 0x006c377c
-`Ordinal859` | 859 (0x35b) | Exported Function | 0x00000001802ca240 | 0x002ca240
-`Ordinal86` | 86 (0x56) | Exported Function | SHUNIMPL.#41 | 0x006c3abc
-`Ordinal860` | 860 (0x35c) | Exported Function | 0x0000000180020a00 | 0x00020a00
-`Ordinal861` | 861 (0x35d) | Exported Function | SHUNIMPL.#261 | 0x006c38ed
-`Ordinal862` | 862 (0x35e) | Exported Function | 0x00000001802700a0 | 0x002700a0
-`Ordinal863` | 863 (0x35f) | Exported Function | SHUNIMPL.#262 | 0x006c36da
-`Ordinal864` | 864 (0x360) | Exported Function | 0x0000000180269a50 | 0x00269a50
-`Ordinal865` | 865 (0x361) | Exported Function | 0x0000000180216020 | 0x00216020
-`Ordinal878` | 878 (0x36e) | Exported Function | 0x0000000180262bf0 | 0x00262bf0
-`Ordinal866` | 866 (0x362) | Exported Function | 0x0000000180287d20 | 0x00287d20
-`Ordinal868` | 868 (0x364) | Exported Function | SHUNIMPL.#264 | 0x006c3479
-`Ordinal869` | 869 (0x365) | Exported Function | SHUNIMPL.#384 | 0x006c3798
-`Ordinal87` | 87 (0x57) | Exported Function | SHUNIMPL.#42 | 0x006c3ac9
-`Ordinal870` | 870 (0x366) | Exported Function | 0x00000001800d5c90 | 0x000d5c90
-`Ordinal871` | 871 (0x367) | Exported Function | 0x00000001801bf030 | 0x001bf030
-`Ordinal872` | 872 (0x368) | Exported Function | SHUNIMPL.#265 | 0x006c3861
-`Ordinal873` | 873 (0x369) | Exported Function | 0x0000000180097480 | 0x00097480
-`Ordinal874` | 874 (0x36a) | Exported Function | 0x00000001800fed80 | 0x000fed80
-`Ordinal875` | 875 (0x36b) | Exported Function | 0x00000001800fed00 | 0x000fed00
-`Ordinal876` | 876 (0x36c) | Exported Function | 0x0000000180262990 | 0x00262990
-`Ordinal867` | 867 (0x363) | Exported Function | SHUNIMPL.#263 | 0x006c346b
-`Ordinal788` | 788 (0x314) | Exported Function | 0x00000001802a0ce0 | 0x002a0ce0
-`Ordinal787` | 787 (0x313) | Exported Function | 0x0000000180097420 | 0x00097420
-`Ordinal786` | 786 (0x312) | Exported Function | SHUNIMPL.#237 | 0x006c3845
-`Ordinal55` | 55 (0x37) | Exported Function | shlwapi.PathQuoteSpacesW | 0x006c32b0
-`Ordinal56` | 56 (0x38) | Exported Function | shlwapi.PathUnquoteSpacesW | 0x006c3370
-`Ordinal57` | 57 (0x39) | Exported Function | shlwapi.PathGetDriveNumberW | 0x006c318e
-`Ordinal58` | 58 (0x3a) | Exported Function | 0x00000001802165b0 | 0x002165b0
-`Ordinal60` | 60 (0x3c) | Exported Function | 0x00000001802514b0 | 0x002514b0
-`Ordinal61` | 61 (0x3d) | Exported Function | 0x0000000180102c60 | 0x00102c60
-`Ordinal640` | 640 (0x280) | Exported Function | SHUNIMPL.#64 | 0x006c3762
-`Ordinal641` | 641 (0x281) | Exported Function | SHUNIMPL.#65 | 0x006c3755
-`Ordinal643` | 643 (0x283) | Exported Function | SHUNIMPL.#66 | 0x006c37e7
-`Ordinal646` | 646 (0x286) | Exported Function | SHUNIMPL.#67 | 0x006c3801
-`Ordinal54` | 54 (0x36) | Exported Function | 0x0000000180251590 | 0x00251590
-`Ordinal648` | 648 (0x288) | Exported Function | SHUNIMPL.#379 | 0x006c3b0c
-`Ordinal650` | 650 (0x28a) | Exported Function | shlwapi.PathIsSameRootW | 0x006c31f6
-`Ordinal651` | 651 (0x28b) | Exported Function | 0x00000001801ada80 | 0x001ada80
-`Ordinal653` | 653 (0x28d) | Exported Function | SHUNIMPL.#68 | 0x006c37a6
-`Ordinal660` | 660 (0x294) | Exported Function | 0x00000001800a23b0 | 0x000a23b0
-`Ordinal681` | 681 (0x2a9) | Exported Function | SHUNIMPL.#428 | 0x006c395a
-`Ordinal683` | 683 (0x2ab) | Exported Function | 0x00000001800da790 | 0x000da790
-`Ordinal684` | 684 (0x2ac) | Exported Function | 0x00000001800da790 | 0x000da790
-`Ordinal69` | 69 (0x45) | Exported Function | 0x0000000180270e60 | 0x00270e60
-`Ordinal690` | 690 (0x2b2) | Exported Function | 0x0000000180255a50 | 0x00255a50
-`Ordinal691` | 691 (0x2b3) | Exported Function | SHUNIMPL.#216 | 0x006c38fb
-`Ordinal65` | 65 (0x41) | Exported Function | 0x00000001800df2f0 | 0x000df2f0
-`Ordinal7` | 7 (0x7) | Exported Function | SHUNIMPL.#192 | 0x006c3a41
-`Ordinal53` | 53 (0x35) | Exported Function | SHUNIMPL.#388 | 0x006c372d
-`Ordinal523` | 523 (0x20b) | Exported Function | SHUNIMPL.#63 | 0x006c3932
-`Ordinal29` | 29 (0x1d) | Exported Function | 0x0000000180235fe0 | 0x00235fe0
-`Ordinal30` | 30 (0x1e) | Exported Function | shlwapi.PathBuildRootW | 0x006c30f0
-`Ordinal31` | 31 (0x1f) | Exported Function | shlwapi.PathFindExtensionW | 0x006c312c
-`Ordinal32` | 32 (0x20) | Exported Function | shlwapi.PathAddBackslashW | 0x006c30d6
-`Ordinal33` | 33 (0x21) | Exported Function | shlwapi.PathRemoveBlanksW | 0x006c32e1
-`Ordinal34` | 34 (0x22) | Exported Function | shlwapi.PathFindFileNameW | 0x006c3147
-`Ordinal35` | 35 (0x23) | Exported Function | 0x0000000180236820 | 0x00236820
-`Ordinal36` | 36 (0x24) | Exported Function | 0x0000000180235b20 | 0x00235b20
-`Ordinal37` | 37 (0x25) | Exported Function | shlwapi.PathCombineW | 0x006c3117
-`Ordinal38` | 38 (0x26) | Exported Function | shlwapi.PathStripPathW | 0x006c3340
-`Ordinal525` | 525 (0x20d) | Exported Function | SHUNIMPL.#234 | 0x006c34e4
-`Ordinal39` | 39 (0x27) | Exported Function | shlwapi.PathIsUNCW | 0x006c3226
-`Ordinal44` | 44 (0x2c) | Exported Function | 0x0000000180238cf0 | 0x00238cf0
-`Ordinal45` | 45 (0x2d) | Exported Function | 0x0000000180235d30 | 0x00235d30
-`Ordinal46` | 46 (0x2e) | Exported Function | shlwapi.PathMatchSpecW | 0x006c326e
-`Ordinal48` | 48 (0x30) | Exported Function | shlwapi.PathSetDlgItemPathW | 0x006c3324
-`Ordinal5` | 5 (0x5) | Exported Function | SHUNIMPL.#35 | 0x006c37f4
-`Ordinal50` | 50 (0x32) | Exported Function | shlwapi.PathStripToRootW | 0x006c3357
-`Ordinal52` | 52 (0x34) | Exported Function | shlwapi.PathGetArgsW | 0x006c3179
-`Ordinal520` | 520 (0x208) | Exported Function | SHUNIMPL.#60 | 0x006c37da
-`Ordinal521` | 521 (0x209) | Exported Function | SHUNIMPL.#61 | 0x006c3a34
-`Ordinal522` | 522 (0x20a) | Exported Function | SHUNIMPL.#62 | 0x006c3aff
-`Ordinal40` | 40 (0x28) | Exported Function | shlwapi.PathIsRelativeW | 0x006c31de
-`Ordinal70` | 70 (0x46) | Exported Function | 0x00000001801adb80 | 0x001adb80
-`Ordinal700` | 700 (0x2bc) | Exported Function | SHUNIMPL.#380 | 0x006c340b
-`Ordinal702` | 702 (0x2be) | Exported Function | 0x000000018022e260 | 0x0022e260
-`Ordinal753` | 753 (0x2f1) | Exported Function | 0x00000001800d5a00 | 0x000d5a00
-`Ordinal754` | 754 (0x2f2) | Exported Function | 0x00000001802b3440 | 0x002b3440
-`Ordinal755` | 755 (0x2f3) | Exported Function | 0x0000000180216850 | 0x00216850
-`Ordinal756` | 756 (0x2f4) | Exported Function | SHUNIMPL.#77 | 0x006c34d7
-`Ordinal757` | 757 (0x2f5) | Exported Function | 0x0000000180103950 | 0x00103950
-`Ordinal758` | 758 (0x2f6) | Exported Function | 0x000000018001f900 | 0x0001f900
-`Ordinal759` | 759 (0x2f7) | Exported Function | 0x000000018001f850 | 0x0001f850
-`Ordinal76` | 76 (0x4c) | Exported Function | 0x00000001801b2820 | 0x001b2820
-`Ordinal760` | 760 (0x2f8) | Exported Function | 0x00000001801be480 | 0x001be480
-`Ordinal761` | 761 (0x2f9) | Exported Function | 0x000000018027c950 | 0x0027c950
-`Ordinal752` | 752 (0x2f0) | Exported Function | 0x0000000180270c20 | 0x00270c20
-`Ordinal762` | 762 (0x2fa) | Exported Function | SHUNIMPL.#383 | 0x006c3487
-`Ordinal764` | 764 (0x2fc) | Exported Function | 0x0000000180072980 | 0x00072980
-`Ordinal765` | 765 (0x2fd) | Exported Function | 0x00000001802827e0 | 0x002827e0
-`Ordinal766` | 766 (0x2fe) | Exported Function | SHUNIMPL.#385 | 0x006c381b
-`Ordinal767` | 767 (0x2ff) | Exported Function | 0x00000001800d9790 | 0x000d9790
-`Ordinal777` | 777 (0x309) | Exported Function | 0x00000001800231c0 | 0x000231c0
-`Ordinal778` | 778 (0x30a) | Exported Function | 0x00000001800f08a0 | 0x000f08a0
-`Ordinal779` | 779 (0x30b) | Exported Function | 0x0000000180215f70 | 0x00215f70
-`Ordinal78` | 78 (0x4e) | Exported Function | SHUNIMPL.#37 | 0x006c376f
-`Ordinal781` | 781 (0x30d) | Exported Function | 0x000000018027ed70 | 0x0027ed70
-`Ordinal782` | 782 (0x30e) | Exported Function | 0x0000000180268140 | 0x00268140
-`Ordinal763` | 763 (0x2fb) | Exported Function | 0x000000018024bbc0 | 0x0024bbc0
-`Ordinal751` | 751 (0x2ef) | Exported Function | 0x0000000180218340 | 0x00218340
-`Ordinal749` | 749 (0x2ed) | Exported Function | SHUNIMPL.#76 | 0x006c3991
-`Ordinal748` | 748 (0x2ec) | Exported Function | 0x00000001802b3180 | 0x002b3180
-`Ordinal703` | 703 (0x2bf) | Exported Function | SHLWAPI.#269 | 0x006c2e7c
-`Ordinal704` | 704 (0x2c0) | Exported Function | SHLWAPI.#270 | 0x006c2e89
-`Ordinal707` | 707 (0x2c3) | Exported Function | SHUNIMPL.#69 | 0x006c3a78
-`Ordinal708` | 708 (0x2c4) | Exported Function | SHUNIMPL.#70 | 0x006c3984
-`Ordinal711` | 711 (0x2c7) | Exported Function | 0x00000001802140f0 | 0x002140f0
-`Ordinal712` | 712 (0x2c8) | Exported Function | SHUNIMPL.#71 | 0x006c380e
-`Ordinal713` | 713 (0x2c9) | Exported Function | 0x0000000180236360 | 0x00236360
-`Ordinal714` | 714 (0x2ca) | Exported Function | 0x0000000180109050 | 0x00109050
-`Ordinal715` | 715 (0x2cb) | Exported Function | SHUNIMPL.#191 | 0x006c386f
-`Ordinal719` | 719 (0x2cf) | Exported Function | SHUNIMPL.#478 | 0x006c3a92
-`Ordinal720` | 720 (0x2d0) | Exported Function | SHUNIMPL.#72 | 0x006c373b
-`Ordinal721` | 721 (0x2d1) | Exported Function | SHUNIMPL.#73 | 0x006c3748
-`Ordinal722` | 722 (0x2d2) | Exported Function | SHUNIMPL.#236 | 0x006c3853
-`Ordinal723` | 723 (0x2d3) | Exported Function | 0x00000001800c7ab0 | 0x000c7ab0
-`Ordinal724` | 724 (0x2d4) | Exported Function | SHUNIMPL.#381 | 0x006c3a0b
-`Ordinal725` | 725 (0x2d5) | Exported Function | SHUNIMPL.#74 | 0x006c36b1
-`Ordinal726` | 726 (0x2d6) | Exported Function | SHUNIMPL.#75 | 0x006c3450
-`Ordinal731` | 731 (0x2db) | Exported Function | SHUNIMPL.#479 | 0x006c3aae
-`Ordinal732` | 732 (0x2dc) | Exported Function | SHUNIMPL.#480 | 0x006c3aa0
-`Ordinal733` | 733 (0x2dd) | Exported Function | 0x00000001800d38b0 | 0x000d38b0
-`Ordinal740` | 740 (0x2e4) | Exported Function | 0x0000000180293e40 | 0x00293e40
-`Ordinal744` | 744 (0x2e8) | Exported Function | 0x000000018024bb90 | 0x0024bb90
-`Ordinal745` | 745 (0x2e9) | Exported Function | SHUNIMPL.#382 | 0x006c3495
-`WOWShellExecute` | 610 (0x262) | Exported Function | 0x00000001801dd730 | 0x001dd730
-`WriteCabinetState` | 652 (0x28c) | Exported Function | 0x000000018002d1b0 | 0x0002d1b0
+Function Name | Ordinal | Type
+-- | -- | --
+`ShellAboutW` | 567 | Exported Function
+`ShellExec_RunDLL` | 568 | Exported Function
+`ShellExec_RunDLLA` | 569 | Exported Function
+`ShellAboutA` | 566 | Exported Function
+`Shell_NotifyIconA` | 580 | Exported Function
+`Shell_NotifyIconGetRect` | 581 | Exported Function
+`Shell_NotifyIconW` | 582 | Exported Function
+`ShellExecuteExW` | 574 | Exported Function
+`ShellExecuteW` | 575 | Exported Function
+`ShellHookProc` | 576 | Exported Function
+`ShellExecuteExA` | 573 | Exported Function
+`ShellExec_RunDLLW` | 570 | Exported Function
+`ShellExecuteA` | 571 | Exported Function
+`ShellExecuteEx` | 572 | Exported Function
+`Shell_NotifyIcon` | 579 | Exported Function
+`SHELL32_SimpleRatingToFilterCondition` | 472 | Exported Function
+`SHELL32_StampIconForFile` | 473 | Exported Function
+`SHELL32_SuspendUndo` | 474 | Exported Function
+`SHELL32_SHUICommandFromGUID` | 468 | Exported Function
+`SHELL32_SHOpenWithDialog` | 466 | Exported Function
+`SHELL32_ShowHideIconOnlyOnDesktop` | 471 | Exported Function
+`SHELL32_SHStartNetConnectionDialogW` | 467 | Exported Function
+`Shell_GetCachedImageIndexW` | 578 | Exported Function
+`Shell_GetImageLists` | 71 | Exported Function
+`Shell_MergeMenus` | 67 | Exported Function
+`Shell_GetCachedImageIndexA` | 577 | Exported Function
+`SHELL32_TryVirtualDiscImageDriveEject` | 475 | Exported Function
+`SHELL32_VerifySaferTrust` | 476 | Exported Function
+`Shell_GetCachedImageIndex` | 72 | Exported Function
+`ShellMessageBoxA` | 183 | Exported Function
+`SHGetDataFromIDListA` | 489 | Exported Function
+`SHGetDataFromIDListW` | 490 | Exported Function
+`SHGetDesktopFolder` | 491 | Exported Function
+`SHGetAttributesFromDataObject` | 750 | Exported Function
+`SHFormatDrive` | 487 | Exported Function
+`SHFree` | 195 | Exported Function
+`SHFreeNameMappings` | 488 | Exported Function
+`SHGetFileInfo` | 496 | Exported Function
+`SHGetFileInfoA` | 497 | Exported Function
+`SHGetFileInfoW` | 498 | Exported Function
+`SHGetDriveMedia` | 495 | Exported Function
+`SHGetDiskFreeSpaceA` | 492 | Exported Function
+`SHGetDiskFreeSpaceExA` | 493 | Exported Function
+`SHGetDiskFreeSpaceExW` | 494 | Exported Function
+`SHFlushSFCache` | 526 | Exported Function
+`SHEnumerateUnreadMailAccountsW` | 480 | Exported Function
+`SheSetCurDrive` | 565 | Exported Function
+`SHEvaluateSystemCommandTemplate` | 481 | Exported Function
+`SHEnableServiceObject` | 479 | Exported Function
+`ShellMessageBoxW` | 182 | Exported Function
+`SHEmptyRecycleBinA` | 477 | Exported Function
+`SHEmptyRecycleBinW` | 478 | Exported Function
+`SHFileOperationW` | 486 | Exported Function
+`SHFind_InitMenuPopup` | 149 | Exported Function
+`SHFindFiles` | 90 | Exported Function
+`SHFileOperationA` | 485 | Exported Function
+`SHExecuteErrorMessageBox` | 482 | Exported Function
+`SHExtractIconsW` | 483 | Exported Function
+`SHFileOperation` | 484 | Exported Function
+`SHELL32_SHLogILFromFSIL` | 465 | Exported Function
+`SHELL32_IconCache_DoneExtractingIcons` | 431 | Exported Function
+`SHELL32_IconCache_ExpandEnvAndSearchPath` | 432 | Exported Function
+`SHELL32_IconCache_RememberRecentlyExtractedIconsW` | 433 | Exported Function
+`SHELL32_IconCache_AboutToExtractIcons` | 430 | Exported Function
+`SHELL32_GetThumbnailAdornerFromFactory` | 423 | Exported Function
+`SHELL32_GetThumbnailAdornerFromFactory2` | 424 | Exported Function
+`SHELL32_HandleUnrecognizedFileSystem` | 425 | Exported Function
+`SHELL32_IconOverlayManagerInit` | 434 | Exported Function
+`SHELL32_IsGetKeyboardLayoutPresent` | 435 | Exported Function
+`SHELL32_IsSystemUpgradeInProgress` | 436 | Exported Function
+`SHELL32_IconCacheRestore` | 429 | Exported Function
+`SHELL32_IconCacheCreate` | 426 | Exported Function
+`SHELL32_IconCacheDestroy` | 427 | Exported Function
+`SHELL32_IconCacheHandleAssociationChanged` | 428 | Exported Function
+`SHELL32_GetSqmableFileName` | 422 | Exported Function
+`SHELL32_FreeEncryptedFileKeyInfo` | 412 | Exported Function
+`SHELL32_GenerateAppID` | 413 | Exported Function
+`SHELL32_GetAppIDRoot` | 414 | Exported Function
+`SHELL32_EnumCommonTasks` | 411 | Exported Function
+`SHELL32_DestroyLinkInfo` | 408 | Exported Function
+`SHELL32_EncryptDirectory` | 409 | Exported Function
+`SHELL32_EncryptedFileKeyInfo` | 410 | Exported Function
+`SHELL32_GetIconOverlayManager` | 419 | Exported Function
+`SHELL32_GetLinkInfoData` | 420 | Exported Function
+`SHELL32_GetRatingBucket` | 421 | Exported Function
+`SHELL32_GetFileNameFromBrowse` | 418 | Exported Function
+`SHELL32_GetCommandProviderForFolderType` | 415 | Exported Function
+`SHELL32_GetDiskCleanupPath` | 417 | Exported Function
+`SHELL32_GetDPIAdjustedLogicalSize` | 416 | Exported Function
+`SHELL32_IsValidLinkInfo` | 437 | Exported Function
+`SHELL32_SHCreateDefaultContextMenu` | 455 | Exported Function
+`SHELL32_SHCreateLocalServer` | 456 | Exported Function
+`SHELL32_SHCreateShellFolderView` | 457 | Exported Function
+`SHELL32_SHCreateByValueOperationInterrupt` | 454 | Exported Function
+`SHELL32_SendToMenu_InvokeTargetedCommand` | 469 | Exported Function
+`SHELL32_SendToMenu_VerifyTargetedCommand` | 470 | Exported Function
+`SHELL32_SHAddSparseIcon` | 453 | Exported Function
+`SHELL32_SHGetUserNameW` | 462 | Exported Function
+`SHELL32_SHIsVirtualDevice` | 463 | Exported Function
+`SHELL32_SHLaunchPropSheet` | 464 | Exported Function
+`SHELL32_SHGetThreadUndoManager` | 461 | Exported Function
+`SHELL32_SHDuplicateEncryptionInfoFile` | 458 | Exported Function
+`SHELL32_SHEncryptFile` | 459 | Exported Function
+`SHELL32_SHFormatDriveAsync` | 460 | Exported Function
+`SHELL32_ResolveLinkInfoW` | 452 | Exported Function
+`SHELL32_NormalizeRating` | 442 | Exported Function
+`SHELL32_NotifyLinkTrackingServiceOfMove` | 443 | Exported Function
+`SHELL32_PifMgr_CloseProperties` | 444 | Exported Function
+`SHELL32_LookupFrontIconIndex` | 441 | Exported Function
+`SHELL32_LegacyEnumSpecialTasksByType` | 438 | Exported Function
+`SHELL32_LegacyEnumTasks` | 439 | Exported Function
+`SHELL32_LookupBackIconIndex` | 440 | Exported Function
+`SHELL32_Printjob_GetPidl` | 449 | Exported Function
+`SHELL32_PurgeSystemIcon` | 450 | Exported Function
+`SHELL32_RefreshOverlayImages` | 451 | Exported Function
+`SHELL32_Printers_CreateBindInfo` | 448 | Exported Function
+`SHELL32_PifMgr_GetProperties` | 445 | Exported Function
+`SHELL32_PifMgr_OpenProperties` | 446 | Exported Function
+`SHELL32_PifMgr_SetProperties` | 447 | Exported Function
+`SHSimpleIDListFromPath` | 162 | Exported Function
+`SHStartNetConnectionDialogW` | 14 | Exported Function
+`SHTestTokenMembership` | 245 | Exported Function
+`SHShowManageLibraryUI` | 559 | Exported Function
+`SHSetTemporaryPropertyForItem` | 557 | Exported Function
+`SHSetUnreadMailCountW` | 558 | Exported Function
+`SHShellFolderView_Message` | 73 | Exported Function
+`SignalFileOpen` | 103 | Exported Function
+`StateRepoNewMenuCache_EnsureCacheAsync` | 583 | Exported Function
+`StateRepoNewMenuCache_RebuildCacheAsync` | 584 | Exported Function
+`SHValidateUNC` | 173 | Exported Function
+`SHUpdateImageA` | 191 | Exported Function
+`SHUpdateImageW` | 192 | Exported Function
+`SHUpdateRecycleBinIcon` | 560 | Exported Function
+`SHSetLocalizedName` | 556 | Exported Function
+`SHQueryUserNotificationState` | 551 | Exported Function
+`SHRemoveLocalizedName` | 552 | Exported Function
+`SHReplaceFromPropSheetExtArray` | 170 | Exported Function
+`SHQueryRecycleBinW` | 550 | Exported Function
+`SHPropStgReadMultiple` | 688 | Exported Function
+`SHPropStgWriteMultiple` | 689 | Exported Function
+`SHQueryRecycleBinA` | 549 | Exported Function
+`SHSetFolderPathW` | 232 | Exported Function
+`SHSetInstanceExplorer` | 176 | Exported Function
+`SHSetKnownFolderPath` | 555 | Exported Function
+`SHSetFolderPathA` | 231 | Exported Function
+`SHResolveLibrary` | 553 | Exported Function
+`SHRestricted` | 100 | Exported Function
+`SHSetDefaultProperties` | 554 | Exported Function
+`StgMakeUniqueName` | 682 | Exported Function
+`StrRStrW` | 604 | Exported Function
+`StrStrA` | 605 | Exported Function
+`StrStrIA` | 606 | Exported Function
+`StrRStrIW` | 603 | Exported Function
+`StrRChrW` | 600 | Exported Function
+`StrRStrA` | 601 | Exported Function
+`StrRStrIA` | 602 | Exported Function
+`Win32DeleteFile` | 164 | Exported Function
+`WOWShellExecute` | 610 | Exported Function
+`WriteCabinetState` | 652 | Exported Function
+`WaitForExplorerRestartW` | 611 | Exported Function
+`StrStrIW` | 607 | Exported Function
+`StrStrW` | 608 | Exported Function
+`UsersLibrariesFolderUI_CreateInstance` | 609 | Exported Function
+`StrRChrIW` | 599 | Exported Function
+`StrCmpNA` | 589 | Exported Function
+`StrCmpNIA` | 590 | Exported Function
+`StrCmpNIW` | 591 | Exported Function
+`StrChrW` | 588 | Exported Function
+`StrChrA` | 585 | Exported Function
+`StrChrIA` | 586 | Exported Function
+`StrChrIW` | 587 | Exported Function
+`StrNCmpW` | 596 | Exported Function
+`StrRChrA` | 597 | Exported Function
+`StrRChrIA` | 598 | Exported Function
+`StrNCmpIW` | 595 | Exported Function
+`StrCmpNW` | 592 | Exported Function
+`StrNCmpA` | 593 | Exported Function
+`StrNCmpIA` | 594 | Exported Function
+`SHPropStgCreate` | 685 | Exported Function
+`SHGetNewLinkInfo` | 517 | Exported Function
+`SHGetNewLinkInfoA` | 179 | Exported Function
+`SHGetNewLinkInfoW` | 180 | Exported Function
+`SHGetNameFromIDList` | 516 | Exported Function
+`SHGetKnownFolderPath` | 513 | Exported Function
+`SHGetLocalizedName` | 514 | Exported Function
+`SHGetMalloc` | 515 | Exported Function
+`SHGetPropertyStoreForWindow` | 529 | Exported Function
+`SHGetPropertyStoreFromIDList` | 530 | Exported Function
+`SHGetPropertyStoreFromParsingName` | 531 | Exported Function
+`SHGetPathFromIDListW` | 528 | Exported Function
+`SHGetPathFromIDList` | 518 | Exported Function
+`SHGetPathFromIDListA` | 519 | Exported Function
+`SHGetPathFromIDListEx` | 527 | Exported Function
+`SHGetKnownFolderItem` | 512 | Exported Function
+`SHGetFolderPathEx` | 503 | Exported Function
+`SHGetFolderPathW` | 504 | Exported Function
+`SHGetIconOverlayIndexA` | 506 | Exported Function
+`SHGetFolderPathAndSubDirW` | 502 | Exported Function
+`SHGetFolderLocation` | 499 | Exported Function
+`SHGetFolderPathA` | 500 | Exported Function
+`SHGetFolderPathAndSubDirA` | 501 | Exported Function
+`SHGetItemFromDataObject` | 509 | Exported Function
+`SHGetItemFromObject` | 510 | Exported Function
+`SHGetKnownFolderIDList` | 511 | Exported Function
+`SHGetInstanceExplorer` | 508 | Exported Function
+`SHGetIconOverlayIndexW` | 507 | Exported Function
+`SHGetIDListFromObject` | 505 | Exported Function
+`SHGetImageList` | 727 | Exported Function
+`SHGetRealIDL` | 98 | Exported Function
+`SHLoadNonloadedIconOverlayIdentifiers` | 543 | Exported Function
+`SHMapPIDLToSystemImageListIndex` | 77 | Exported Function
+`SHMultiFileProperties` | 716 | Exported Function
+`SHLoadInProc` | 542 | Exported Function
+`SHInvokePrinterCommandW` | 540 | Exported Function
+`SHIsFileAvailableOffline` | 541 | Exported Function
+`SHLimitInputEdit` | 747 | Exported Function
+`SHParseDisplayName` | 546 | Exported Function
+`SHPathPrepareForWriteA` | 547 | Exported Function
+`SHPathPrepareForWriteW` | 548 | Exported Function
+`SHOpenWithDialog` | 545 | Exported Function
+`SHObjectProperties` | 178 | Exported Function
+`SHOpenFolderAndSelectItems` | 544 | Exported Function
+`SHOpenPropSheetW` | 80 | Exported Function
+`SHInvokePrinterCommandA` | 539 | Exported Function
+`SHGetSpecialFolderPathA` | 534 | Exported Function
+`SHGetSpecialFolderPathW` | 535 | Exported Function
+`SHGetStockIconInfo` | 536 | Exported Function
+`SHGetSpecialFolderLocation` | 533 | Exported Function
+`SHGetSetFolderCustomSettings` | 709 | Exported Function
+`SHGetSetSettings` | 68 | Exported Function
+`SHGetSettings` | 532 | Exported Function
+`SHHelpShortcuts_RunDLLA` | 229 | Exported Function
+`SHHelpShortcuts_RunDLLW` | 238 | Exported Function
+`SHILCreateFromPath` | 28 | Exported Function
+`SHHelpShortcuts_RunDLL` | 228 | Exported Function
+`SHGetTemporaryPropertyForItem` | 537 | Exported Function
+`SHGetUnreadMailCountW` | 538 | Exported Function
+`SHHandleUpdateImage` | 193 | Exported Function
+`InternalExtractIconListW` | 309 | Exported Function
+`IsDesktopExplorerProcess` | 942 | Exported Function
+`IsLFNDrive` | 119 | Exported Function
+`InternalExtractIconListA` | 308 | Exported Function
+`ILRemoveLastID` | 17 | Exported Function
+`ILSaveToStream` | 27 | Exported Function
+`InitNetworkAddressControl` | 307 | Exported Function
+`IsUserAnAdmin` | 680 | Exported Function
+`LaunchMSHelp_RunDLLW` | 310 | Exported Function
+`OpenAs_RunDLL` | 81 | Exported Function
+`IsProcessAnExplorer` | 941 | Exported Function
+`IsLFNDriveA` | 41 | Exported Function
+`IsLFNDriveW` | 42 | Exported Function
+`IsNetDrive` | 66 | Exported Function
+`ILLoadFromStreamEx` | 846 | Exported Function
+`ILCreateFromPath` | 157 | Exported Function
+`ILCreateFromPathA` | 189 | Exported Function
+`ILCreateFromPathW` | 190 | Exported Function
+`ILCombine` | 25 | Exported Function
+`ILAppendID` | 154 | Exported Function
+`ILClone` | 18 | Exported Function
+`ILCloneFirst` | 19 | Exported Function
+`ILGetSize` | 152 | Exported Function
+`ILIsEqual` | 21 | Exported Function
+`ILIsParent` | 23 | Exported Function
+`ILGetNext` | 153 | Exported Function
+`ILFindChild` | 24 | Exported Function
+`ILFindLastID` | 16 | Exported Function
+`ILFree` | 155 | Exported Function
+`OpenAs_RunDLLA` | 125 | Exported Function
+`PrepareDiscForBurnRunDllW` | 135 | Exported Function
+`PrintersGetCommand_RunDLL` | 138 | Exported Function
+`PrintersGetCommand_RunDLLA` | 139 | Exported Function
+`PifMgr_SetProperties` | 11 | Exported Function
+`PifMgr_CloseProperties` | 13 | Exported Function
+`PifMgr_GetProperties` | 10 | Exported Function
+`PifMgr_OpenProperties` | 9 | Exported Function
+`RealShellExecuteExA` | 207 | Exported Function
+`RealShellExecuteExW` | 208 | Exported Function
+`RealShellExecuteW` | 226 | Exported Function
+`RealShellExecuteA` | 199 | Exported Function
+`PrintersGetCommand_RunDLLW` | 150 | Exported Function
+`ReadCabinetState` | 654 | Exported Function
+`RealDriveType` | 524 | Exported Function
+`PickIconDlg` | 62 | Exported Function
+`Options_RunDLLW` | 313 | Exported Function
+`PathCleanupSpec` | 171 | Exported Function
+`PathGetShortPath` | 92 | Exported Function
+`Options_RunDLLA` | 312 | Exported Function
+`OpenAs_RunDLLW` | 133 | Exported Function
+`OpenRegStream` | 85 | Exported Function
+`Options_RunDLL` | 311 | Exported Function
+`PathQualify` | 49 | Exported Function
+`PathResolve` | 51 | Exported Function
+`PathYetAnotherMakeUniqueName` | 75 | Exported Function
+`PathMakeUniqueName` | 47 | Exported Function
+`PathIsExe` | 43 | Exported Function
+`PathIsSlowA` | 240 | Exported Function
+`PathIsSlowW` | 239 | Exported Function
+`GetSystemPersistedStorageItemList` | 919 | Exported Function
+`CStorageItem_GetValidatedStorageItemObject` | 937 | Exported Function
+`DAD_AutoScroll` | 129 | Exported Function
+`DAD_DragEnterEx` | 131 | Exported Function
+`CreateStorageItemFromShellItem_FullTrustCaller_UseImplicitFlagsAndPackage` | 931 | Exported Function
+`CreateStorageItemFromShellItem_FullTrustCaller` | 921 | Exported Function
+`CreateStorageItemFromShellItem_FullTrustCaller_ForPackage` | 925 | Exported Function
+`CreateStorageItemFromShellItem_FullTrustCaller_ForPackage_WithProcessHandle` | 929 | Exported Function
+`DAD_ShowDragImage` | 137 | Exported Function
+`DllCanUnloadNow` | 277 | Exported Function
+`DllGetActivationFactory` | 278 | Exported Function
+`DAD_SetDragImage` | 136 | Exported Function
+`DAD_DragEnterEx2` | 22 | Exported Function
+`DAD_DragLeave` | 132 | Exported Function
+`DAD_DragMove` | 134 | Exported Function
+`CreateStorageItemFromPath_PartialTrustCaller` | 920 | Exported Function
+`CDefFolderMenu_Create2` | 701 | Exported Function
+`CheckEscapesW` | 269 | Exported Function
+`CIDLData_CreateFromIDArray` | 83 | Exported Function
+`AssocGetDetailsOfPropKey` | 268 | Exported Function
+`AppCompat_RunDLLW` | 255 | Exported Function
+`AssocCreateForClasses` | 263 | Exported Function
+`AssocElemCreateForKey` | 267 | Exported Function
+`Control_RunDLLW` | 276 | Exported Function
+`CreateStorageItemFromPath_FullTrustCaller` | 935 | Exported Function
+`CreateStorageItemFromPath_FullTrustCaller_ForPackage` | 936 | Exported Function
+`Control_RunDLLAsUserW` | 275 | Exported Function
+`CommandLineToArgvW` | 272 | Exported Function
+`Control_RunDLL` | 273 | Exported Function
+`Control_RunDLLA` | 274 | Exported Function
+`DllGetClassObject` | 279 | Exported Function
+`ExtractIconA` | 298 | Exported Function
+`ExtractIconEx` | 299 | Exported Function
+`ExtractIconExA` | 300 | Exported Function
+`ExtractAssociatedIconW` | 297 | Exported Function
+`ExtractAssociatedIconA` | 294 | Exported Function
+`ExtractAssociatedIconExA` | 295 | Exported Function
+`ExtractAssociatedIconExW` | 296 | Exported Function
+`FreeIconList` | 305 | Exported Function
+`GetCurrentProcessExplicitAppUserModelID` | 306 | Exported Function
+`GetFileNameFromBrowse` | 63 | Exported Function
+`FindExecutableW` | 304 | Exported Function
+`ExtractIconExW` | 301 | Exported Function
+`ExtractIconW` | 302 | Exported Function
+`FindExecutableA` | 303 | Exported Function
+`DuplicateIcon` | 293 | Exported Function
+`DoEnvironmentSubstA` | 284 | Exported Function
+`DoEnvironmentSubstW` | 285 | Exported Function
+`DragAcceptFiles` | 286 | Exported Function
+`DllUnregisterServer` | 283 | Exported Function
+`DllGetVersion` | 280 | Exported Function
+`DllInstall` | 281 | Exported Function
+`DllRegisterServer` | 282 | Exported Function
+`DragQueryFileW` | 291 | Exported Function
+`DragQueryPoint` | 292 | Exported Function
+`DriveType` | 64 | Exported Function
+`DragQueryFileAorW` | 290 | Exported Function
+`DragFinish` | 287 | Exported Function
+`DragQueryFile` | 288 | Exported Function
+`DragQueryFileA` | 289 | Exported Function
+`SHELL32_CDBurn_IsBlankDisc2` | 366 | Exported Function
+`SHELL32_CDBurn_IsLiveFS` | 367 | Exported Function
+`SHELL32_CDBurn_OnDeviceChange` | 368 | Exported Function
+`SHELL32_CDBurn_IsBlankDisc` | 365 | Exported Function
+`SHELL32_CDBurn_GetLiveFSDiscInfo` | 362 | Exported Function
+`SHELL32_CDBurn_GetStagingPathOrNormalPath` | 363 | Exported Function
+`SHELL32_CDBurn_GetTaskInfo` | 364 | Exported Function
+`SHELL32_CDefFolderMenu_MergeMenu` | 373 | Exported Function
+`SHELL32_CDrives_CreateSFVCB` | 376 | Exported Function
+`SHELL32_CDrivesContextMenu_Create` | 374 | Exported Function
+`SHELL32_CDefFolderMenu_Create2Ex` | 372 | Exported Function
+`SHELL32_CDBurn_OnEject` | 369 | Exported Function
+`SHELL32_CDBurn_OnMediaChange` | 370 | Exported Function
+`SHELL32_CDefFolderMenu_Create2` | 371 | Exported Function
+`SHELL32_CDBurn_GetCDInfo` | 361 | Exported Function
+`SheGetDirA` | 564 | Exported Function
+`SHELL32_AddToBackIconTable` | 354 | Exported Function
+`SHELL32_AddToFrontIconTable` | 355 | Exported Function
+`SheChangeDirExW` | 563 | Exported Function
+`SHDestroyPropSheetExtArray` | 169 | Exported Function
+`SHDoDragDrop` | 88 | Exported Function
+`SheChangeDirA` | 562 | Exported Function
+`SHELL32_CDBurn_CloseSession` | 358 | Exported Function
+`SHELL32_CDBurn_DriveSupportedForDataBurn` | 359 | Exported Function
+`SHELL32_CDBurn_Erase` | 360 | Exported Function
+`SHELL32_CCommonPlacesFolder_CreateInstance` | 357 | Exported Function
+`SHELL32_AreAllItemsAvailable` | 356 | Exported Function
+`SHELL32_CallFileCopyHooks` | 395 | Exported Function
+`SHELL32_CanDisplayWin8CopyDialog` | 396 | Exported Function
+`SHELL32_CDrivesDropTarget_Create` | 375 | Exported Function
+`SHELL32_Create_IEnumUICommand` | 407 | Exported Function
+`SHELL32_CreateConfirmationInterrupt` | 400 | Exported Function
+`SHELL32_CreateConflictInterrupt` | 401 | Exported Function
+`SHELL32_CPL_ModifyWowDisplayName` | 392 | Exported Function
+`SHELL32_CopySecondaryTiles` | 399 | Exported Function
+`SHELL32_CPL_CategoryIdArrayFromVariant` | 390 | Exported Function
+`SHELL32_CPL_IsLegacyCanonicalNameListedUnderKey` | 391 | Exported Function
+`SHELL32_CreateSharePointView` | 406 | Exported Function
+`SHELL32_CRecentDocsContextMenu_CreateInstance` | 393 | Exported Function
+`SHELL32_CTransferConfirmation_CreateInstance` | 394 | Exported Function
+`SHELL32_CreateQosRecorder` | 405 | Exported Function
+`SHELL32_CreateDefaultOperationDataProvider` | 402 | Exported Function
+`SHELL32_CreateFileFolderContextMenu` | 403 | Exported Function
+`SHELL32_CreateLinkInfoW` | 404 | Exported Function
+`SHELL32_CommandLineFromMsiDescriptor` | 398 | Exported Function
+`SHELL32_CLocationContextMenu_Create` | 381 | Exported Function
+`SHELL32_CLocationFolderUI_CreateInstance` | 382 | Exported Function
+`SHELL32_CloseAutoplayPrompt` | 397 | Exported Function
+`SHELL32_CLibraryDropTarget_CreateInstance` | 380 | Exported Function
+`SHELL32_CFillPropertiesTask_CreateInstance` | 379 | Exported Function
+`SHELL32_CFSDropTarget_CreateInstance` | 377 | Exported Function
+`SHELL32_CFSFolderCallback_Create` | 378 | Exported Function
+`SHELL32_CMountPoint_WantAutorunUI` | 387 | Exported Function
+`SHELL32_CMountPoint_WantAutorunUIGetReady` | 388 | Exported Function
+`SHELL32_CNetFolderUI_CreateInstance` | 389 | Exported Function
+`SHELL32_CMountPoint_ProcessAutoRunFile` | 386 | Exported Function
+`SHELL32_CMountPoint_DoAutorun` | 383 | Exported Function
+`SHELL32_CMountPoint_DoAutorunPrompt` | 384 | Exported Function
+`SHELL32_CMountPoint_IsAutoRunDriveAndEnabledByPolicy` | 385 | Exported Function
+`SHDefExtractIconW` | 6 | Exported Function
+`SHChangeNotification_Lock` | 644 | Exported Function
+`SHChangeNotification_Unlock` | 645 | Exported Function
+`SHChangeNotify` | 328 | Exported Function
+`SHBrowseForFolderW` | 327 | Exported Function
+`SHBindToParent` | 324 | Exported Function
+`SHBrowseForFolder` | 325 | Exported Function
+`SHBrowseForFolderA` | 326 | Exported Function
+`SHCloneSpecialIDList` | 89 | Exported Function
+`SHCLSIDFromString` | 147 | Exported Function
+`SHCoCreateInstance` | 102 | Exported Function
+`SHChangeNotifySuspendResume` | 330 | Exported Function
+`SHChangeNotifyDeregister` | 4 | Exported Function
+`SHChangeNotifyRegister` | 2 | Exported Function
+`SHChangeNotifyRegisterThread` | 329 | Exported Function
+`SHBindToObject` | 323 | Exported Function
+`SetCurrentProcessExplicitAppUserModelID` | 561 | Exported Function
+`SHAddDefaultPropertiesByExt` | 316 | Exported Function
+`SHAddFromPropSheetExtArray` | 167 | Exported Function
+`RunAsNewUser_RunDLLW` | 315 | Exported Function
+`RegenerateUserEnvironment` | 314 | Exported Function
+`RestartDialog` | 59 | Exported Function
+`RestartDialogEx` | 730 | Exported Function
+`SHAssocEnumHandlersForProtocolByApplication` | 320 | Exported Function
+`SHBindToFolderIDListParent` | 321 | Exported Function
+`SHBindToFolderIDListParentEx` | 322 | Exported Function
+`SHAssocEnumHandlers` | 319 | Exported Function
+`SHAddToRecentDocs` | 317 | Exported Function
+`SHAlloc` | 196 | Exported Function
+`SHAppBarMessage` | 318 | Exported Function
+`SHCoCreateInstanceWorker` | 331 | Exported Function
+`SHCreateQueryCancelAutoPlayMoniker` | 348 | Exported Function
+`SHCreateShellFolderView` | 256 | Exported Function
+`SHCreateShellFolderViewEx` | 174 | Exported Function
+`SHCreatePropSheetExtArray` | 168 | Exported Function
+`SHCreateItemWithParent` | 345 | Exported Function
+`SHCreateLocalServerRunDll` | 346 | Exported Function
+`SHCreateProcessAsUserW` | 347 | Exported Function
+`SHCreateShellItemArrayFromShellItem` | 353 | Exported Function
+`SHCreateStdEnumFmtEtc` | 74 | Exported Function
+`SHDefExtractIconA` | 3 | Exported Function
+`SHCreateShellItemArrayFromIDLists` | 352 | Exported Function
+`SHCreateShellItem` | 349 | Exported Function
+`SHCreateShellItemArray` | 350 | Exported Function
+`SHCreateShellItemArrayFromDataObject` | 351 | Exported Function
+`SHCreateItemInKnownFolder` | 344 | Exported Function
+`SHCreateDefaultExtractIcon` | 336 | Exported Function
+`SHCreateDefaultPropertiesOp` | 337 | Exported Function
+`SHCreateDirectory` | 165 | Exported Function
+`SHCreateDefaultContextMenu` | 335 | Exported Function
+`SHCreateAssociationRegistration` | 332 | Exported Function
+`SHCreateCategoryEnum` | 333 | Exported Function
+`SHCreateDataObject` | 334 | Exported Function
+`SHCreateItemFromIDList` | 341 | Exported Function
+`SHCreateItemFromParsingName` | 342 | Exported Function
+`SHCreateItemFromRelativeName` | 343 | Exported Function
+`SHCreateFileExtractIconW` | 743 | Exported Function
+`SHCreateDirectoryExA` | 338 | Exported Function
+`SHCreateDirectoryExW` | 339 | Exported Function
+`SHCreateDrvExtIcon` | 340 | Exported Function
 
 
 ## Signature

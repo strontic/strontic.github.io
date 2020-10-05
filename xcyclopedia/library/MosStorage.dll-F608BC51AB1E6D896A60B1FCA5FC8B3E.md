@@ -24,40 +24,40 @@ PE256 | `F45AF9CE5C2BC65BA962B0E21ABB6D0885DDFF38B1532EBD0770433EB102FD00`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MosQueryAnyPackagesFromPath` | 1 (0x1) | Exported Function | 0x0000000180008d30 | 0x00008d30
-`MosStorageSetMigrationState` | 29 (0x1d) | Exported Function | 0x0000000180006c30 | 0x00006c30
-`MosStorageSetMapsRepairAttempts` | 28 (0x1c) | Exported Function | 0x0000000180008280 | 0x00008280
-`MosStorageSetLocation` | 27 (0x1b) | Exported Function | 0x0000000180007280 | 0x00007280
-`MosStorageResetPreferredLocationIfNotPresent` | 26 (0x1a) | Exported Function | 0x0000000180006aa0 | 0x00006aa0
-`MosStorageResetPreferredLocationIfDefined` | 25 (0x19) | Exported Function | 0x00000001800069e0 | 0x000069e0
-`MosStorageResetCacheValues` | 24 (0x18) | Exported Function | 0x0000000180007690 | 0x00007690
-`MosStorageIsStorageStateValid` | 23 (0x17) | Exported Function | 0x00000001800065a0 | 0x000065a0
-`MosStorageGetWhetherSpaceAvailable` | 22 (0x16) | Exported Function | 0x0000000180007af0 | 0x00007af0
-`MosStorageGetTotalMapDataInBytes` | 21 (0x15) | Exported Function | 0x00000001800066a0 | 0x000066a0
-`MosStorageGetSystemDataDirectory` | 20 (0x14) | Exported Function | 0x0000000180007770 | 0x00007770
-`MosStorageGetStorageSizesInBytes` | 19 (0x13) | Exported Function | 0x0000000180006840 | 0x00006840
-`MosStorageGetStorageDeviceDataFromDeviceGuid` | 18 (0x12) | Exported Function | 0x0000000180006600 | 0x00006600
-`MosStorageGetResourceDirectory` | 17 (0x11) | Exported Function | 0x00000001800078e0 | 0x000078e0
-`MosStorageGetMigrationState` | 16 (0x10) | Exported Function | 0x0000000180006bd0 | 0x00006bd0
-`MosStorageGetMapsRepairAttempts` | 15 (0xf) | Exported Function | 0x00000001800081d0 | 0x000081d0
-`MosStorageGetMapDataMaxBrowseCacheSizeInBytes` | 14 (0xe) | Exported Function | 0x0000000180007a40 | 0x00007a40
-`MosStorageGetLocations` | 13 (0xd) | Exported Function | 0x0000000180006ca0 | 0x00006ca0
-`MosStorageGetDefaultExternalStorage` | 12 (0xc) | Exported Function | 0x00000001800075c0 | 0x000075c0
-`MosStorageGetDataDirectory` | 11 (0xb) | Exported Function | 0x0000000180007780 | 0x00007780
-`MosStorageGetCurrentLocation` | 10 (0xa) | Exported Function | 0x0000000180007680 | 0x00007680
-`MosStorageGetBrowseCacheSizeInMBytes` | 9 (0x9) | Exported Function | 0x00000001800079a0 | 0x000079a0
-`MosStorageEnsureMapDataDirectoryReturnPath` | 8 (0x8) | Exported Function | 0x0000000180007f90 | 0x00007f90
-`MosStorageEnsureMapDataDirectory` | 7 (0x7) | Exported Function | 0x0000000180007d60 | 0x00007d60
-`MosStorageEnsureIsAppContainerCompliant` | 6 (0x6) | Exported Function | 0x00000001800080a0 | 0x000080a0
-`MosStorageDumpConfiguration` | 5 (0x5) | Exported Function | 0x0000000180007bd0 | 0x00007bd0
-`MosStorage_SetServiceCallbacks` | 32 (0x20) | Exported Function | 0x0000000180004770 | 0x00004770
-`MosQueryPackagesFromPath` | 4 (0x4) | Exported Function | 0x0000000180008df0 | 0x00008df0
-`MosQueryPackages` | 3 (0x3) | Exported Function | 0x0000000180008c80 | 0x00008c80
-`MosQueryCatalogExists` | 2 (0x2) | Exported Function | 0x0000000180009a30 | 0x00009a30
-`MosStorageUseDefaultExternalStorage` | 30 (0x1e) | Exported Function | 0x00000001800074e0 | 0x000074e0
-`MosStorageValidateLocation` | 31 (0x1f) | Exported Function | 0x0000000180006d40 | 0x00006d40
+Function Name | Ordinal | Type
+-- | -- | --
+`MosStorageGetTotalMapDataInBytes` | 21 | Exported Function
+`MosStorageGetSystemDataDirectory` | 20 | Exported Function
+`MosStorageIsStorageStateValid` | 23 | Exported Function
+`MosStorageGetWhetherSpaceAvailable` | 22 | Exported Function
+`MosStorageGetResourceDirectory` | 17 | Exported Function
+`MosStorageGetMigrationState` | 16 | Exported Function
+`MosStorageGetStorageSizesInBytes` | 19 | Exported Function
+`MosStorageGetStorageDeviceDataFromDeviceGuid` | 18 | Exported Function
+`MosStorageSetMigrationState` | 29 | Exported Function
+`MosStorageSetMapsRepairAttempts` | 28 | Exported Function
+`MosStorageValidateLocation` | 31 | Exported Function
+`MosStorageUseDefaultExternalStorage` | 30 | Exported Function
+`MosStorageResetPreferredLocationIfDefined` | 25 | Exported Function
+`MosStorageResetCacheValues` | 24 | Exported Function
+`MosStorageSetLocation` | 27 | Exported Function
+`MosStorageResetPreferredLocationIfNotPresent` | 26 | Exported Function
+`MosStorageDumpConfiguration` | 5 | Exported Function
+`MosStorage_SetServiceCallbacks` | 32 | Exported Function
+`MosStorageEnsureMapDataDirectory` | 7 | Exported Function
+`MosStorageEnsureIsAppContainerCompliant` | 6 | Exported Function
+`MosQueryCatalogExists` | 2 | Exported Function
+`MosQueryAnyPackagesFromPath` | 1 | Exported Function
+`MosQueryPackagesFromPath` | 4 | Exported Function
+`MosQueryPackages` | 3 | Exported Function
+`MosStorageGetLocations` | 13 | Exported Function
+`MosStorageGetDefaultExternalStorage` | 12 | Exported Function
+`MosStorageGetMapsRepairAttempts` | 15 | Exported Function
+`MosStorageGetMapDataMaxBrowseCacheSizeInBytes` | 14 | Exported Function
+`MosStorageGetBrowseCacheSizeInMBytes` | 9 | Exported Function
+`MosStorageEnsureMapDataDirectoryReturnPath` | 8 | Exported Function
+`MosStorageGetDataDirectory` | 11 | Exported Function
+`MosStorageGetCurrentLocation` | 10 | Exported Function
 
 
 ## Signature

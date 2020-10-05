@@ -24,10 +24,10 @@ PE256 | `A3E7FC1DA47676A49C1548EBDF1CD904FE58FB38AD319F345B711455C1B1786A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetDateFormatEx` | 1 (0x1) | Exported Function | kernel32.GetDateFormatEx | 0x00001190
-`GetTimeFormatEx` | 2 (0x2) | Exported Function | kernel32.GetTimeFormatEx | 0x000011b9
+Function Name | Ordinal | Type
+-- | -- | --
+`GetTimeFormatEx` | 2 | Exported Function
+`GetDateFormatEx` | 1 | Exported Function
 
 
 ## Signature

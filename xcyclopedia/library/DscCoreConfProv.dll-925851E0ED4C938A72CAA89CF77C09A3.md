@@ -24,18 +24,18 @@ PE256 | `A5E0F60536240AFDE0E79DB81A8E275A16732DE2458E100227A5FA1F9B906B5B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10006d90 | 0x00006d90
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x10006dc0 | 0x00006dc0
-`DllMain` | 3 (0x3) | Exported Function | 0x10006b40 | 0x00006b40
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x10006d00 | 0x00006d00
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x10006d50 | 0x00006d50
-`GetProviderClassID` | 6 (0x6) | Exported Function | 0x10006b90 | 0x00006b90
-`MI_Main` | 7 (0x7) | Exported Function | 0x10006af0 | 0x00006af0
-`NativeProviderTraps` | 10 (0xa) | Exported Function | 0x10001620 | 0x00001620
-`NITS_PRESENCE_STUB` | 8 (0x8) | Exported Function | 0x1001f7b8 | 0x0001f7b8
-`NITS_STUB` | 9 (0x9) | Exported Function | 0x10001638 | 0x00001638
+Function Name | Ordinal | Type
+-- | -- | --
+`MI_Main` | 7 | Exported Function
+`GetProviderClassID` | 6 | Exported Function
+`NativeProviderTraps` | 10 | Exported Function
+`NITS_STUB` | 9 | Exported Function
+`NITS_PRESENCE_STUB` | 8 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllMain` | 3 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

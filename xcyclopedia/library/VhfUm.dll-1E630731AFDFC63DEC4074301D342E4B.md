@@ -23,13 +23,13 @@ PE256 | `0D681A8EFAFB9D213A6420A2AAB6EA311E804506F894BAA4AD7B0956D3AC18BD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`VhfAsyncOperationComplete` | 1 (0x1) | Exported Function | 0x0000000180002450 | 0x00002450
-`VhfCreate` | 2 (0x2) | Exported Function | 0x0000000180001c00 | 0x00001c00
-`VhfDelete` | 3 (0x3) | Exported Function | 0x0000000180001ed0 | 0x00001ed0
-`VhfReadReportSubmit` | 4 (0x4) | Exported Function | 0x0000000180002280 | 0x00002280
-`VhfStart` | 5 (0x5) | Exported Function | 0x00000001800020e0 | 0x000020e0
+Function Name | Ordinal | Type
+-- | -- | --
+`VhfReadReportSubmit` | 4 | Exported Function
+`VhfStart` | 5 | Exported Function
+`VhfDelete` | 3 | Exported Function
+`VhfAsyncOperationComplete` | 1 | Exported Function
+`VhfCreate` | 2 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `13C1BD8AAD5D76963A1FE87877C0DE9F6CE671634CD6D534099F13C6BEA5A801`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CompileEffectDescription` | 1 (0x1) | Exported Function | 0x000000018000d840 | 0x0000d840
-`CreateEffectDescription` | 2 (0x2) | Exported Function | 0x000000018000ed10 | 0x0000ed10
-`DeserializeEffectDescription` | 3 (0x3) | Exported Function | 0x0000000180002cc0 | 0x00002cc0
-`SerializeEffectDescription` | 4 (0x4) | Exported Function | 0x000000018000a670 | 0x0000a670
+Function Name | Ordinal | Type
+-- | -- | --
+`DeserializeEffectDescription` | 3 | Exported Function
+`SerializeEffectDescription` | 4 | Exported Function
+`CompileEffectDescription` | 1 | Exported Function
+`CreateEffectDescription` | 2 | Exported Function
 
 
 ## Signature

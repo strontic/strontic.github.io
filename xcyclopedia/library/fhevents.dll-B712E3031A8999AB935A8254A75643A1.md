@@ -24,11 +24,11 @@ PE256 | `1228B3FB8A2969118A5F6344DAD908AFA94622ED990643F9F91C81962A5073ED`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DpElGetNextEvent` | 1 (0x1) | Exported Function | 0x0000000180003430 | 0x00003430
-`DpElReleaseObjects` | 2 (0x2) | Exported Function | 0x0000000180003440 | 0x00003440
-`DpElScanEvents` | 3 (0x3) | Exported Function | 0x0000000180003300 | 0x00003300
+Function Name | Ordinal | Type
+-- | -- | --
+`DpElScanEvents` | 3 | Exported Function
+`DpElReleaseObjects` | 2 | Exported Function
+`DpElGetNextEvent` | 1 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `BBF4BBA31F5EFAE45A445045CECD59ED1D376A6276384AEB9F52B891962D9076`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x10003510 | 0x00003510
-`DllGetActivationFactory` | 1 (0x1) | Exported Function | 0x100034f0 | 0x000034f0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x10003540 | 0x00003540
-`QueryACGPolicyForDriverId` | 2 (0x2) | Exported Function | 0x10002dc0 | 0x00002dc0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 4 | Exported Function
+`QueryACGPolicyForDriverId` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetActivationFactory` | 1 | Exported Function
 
 
 ## Signature

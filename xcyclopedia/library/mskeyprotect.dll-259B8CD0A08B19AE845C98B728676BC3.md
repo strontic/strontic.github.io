@@ -24,11 +24,11 @@ PE256 | `45A36ADC43596D9E451DF9BB0FD4FF70DFE40A75A79695354246D9F6AC8587EB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetKeyProtectionInterface` | 1 (0x1) | Exported Function | 0x10005360 | 0x00005360
-`KeyFileProtectSessionTicket` | 2 (0x2) | Exported Function | 0x100069c0 | 0x000069c0
-`KeyFileUnprotectSessionTicket` | 3 (0x3) | Exported Function | 0x10006d60 | 0x00006d60
+Function Name | Ordinal | Type
+-- | -- | --
+`KeyFileUnprotectSessionTicket` | 3 | Exported Function
+`KeyFileProtectSessionTicket` | 2 | Exported Function
+`GetKeyProtectionInterface` | 1 | Exported Function
 
 
 ## Signature

@@ -24,20 +24,15 @@ PE256 | `8EF6B1F0F8FF926B10F461905A8959E1F0B761560C2E954766A256BB059638EB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateControlInput` | 1601 (0x641) | Exported Function | 0x0000000180062620 | 0x00062620
-`CreateControlInputEx` | 1603 (0x643) | Exported Function | 0x000000018000bc70 | 0x0000bc70
-`DllCanUnloadNow` | 1501 (0x5dd) | Exported Function | 0x0000000180027bb0 | 0x00027bb0
-`DllGetActivationFactory` | 1502 (0x5de) | Exported Function | 0x0000000180025510 | 0x00025510
-`DllGetClassObject` | 1503 (0x5df) | Exported Function | 0x0000000180027060 | 0x00027060
-`DllRegisterServer` | 1504 (0x5e0) | Exported Function | 0x00000001800577c0 | 0x000577c0
-`DllUnregisterServer` | 1505 (0x5e1) | Exported Function | 0x00000001800577f0 | 0x000577f0
-`Ordinal1500` | 1500 (0x5dc) | Exported Function | 0x000000018000da30 | 0x0000da30
-`Ordinal1600` | 1600 (0x640) | Exported Function | 0x00000001800099d0 | 0x000099d0
-`Ordinal1602` | 1602 (0x642) | Exported Function | 0x000000018005ee30 | 0x0005ee30
-`Ordinal1604` | 1604 (0x644) | Exported Function | 0x000000018005ee70 | 0x0005ee70
-`Ordinal1700` | 1700 (0x6a4) | Exported Function | 0x000000018000f5d0 | 0x0000f5d0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 1503 | Exported Function
+`DllRegisterServer` | 1504 | Exported Function
+`DllUnregisterServer` | 1505 | Exported Function
+`DllGetActivationFactory` | 1502 | Exported Function
+`CreateControlInput` | 1601 | Exported Function
+`CreateControlInputEx` | 1603 | Exported Function
+`DllCanUnloadNow` | 1501 | Exported Function
 
 
 ## Signature

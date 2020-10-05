@@ -24,36 +24,36 @@ PE256 | `165C3817B2D47E85D4D16ED5BE63FDDE09FDB9A18CDA9C70F0D7D482E6E9FCA8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllInstall` | 4 (0x4) | Exported Function | 0x0000000180021a70 | 0x00021a70
-`W32TimeVerifyJoinConfig` | 26 (0x1a) | Exported Function | 0x0000000180021fa0 | 0x00021fa0
-`W32TimeSyncNow` | 25 (0x19) | Exported Function | 0x000000018003f810 | 0x0003f810
-`W32TimeSetConfig` | 24 (0x18) | Exported Function | 0x000000018003fe10 | 0x0003fe10
-`W32TimeQueryStatus` | 23 (0x17) | Exported Function | 0x000000018003f5e0 | 0x0003f5e0
-`W32TimeQuerySource` | 22 (0x16) | Exported Function | 0x000000018003f3b0 | 0x0003f3b0
-`W32TimeQueryNTPProviderStatus` | 20 (0x14) | Exported Function | 0x000000018003f140 | 0x0003f140
-`W32TimeQueryNtpProviderConfiguration` | 21 (0x15) | Exported Function | 0x000000018003f160 | 0x0003f160
-`W32TimeQueryHardwareProviderStatus` | 19 (0x13) | Exported Function | 0x000000018003f120 | 0x0003f120
-`W32TimeQueryConfiguration` | 18 (0x12) | Exported Function | 0x000000018003eef0 | 0x0003eef0
-`W32TimeQueryConfig` | 17 (0x11) | Exported Function | 0x000000018003fd70 | 0x0003fd70
-`W32TimeLog` | 16 (0x10) | Exported Function | 0x000000018003ed50 | 0x0003ed50
-`W32TimeGetNetlogonServiceBits` | 15 (0xf) | Exported Function | 0x000000018003ebb0 | 0x0003ebb0
-`W32TimeDeleteConfig` | 14 (0xe) | Exported Function | 0x000000018003fd00 | 0x0003fd00
-`W32TimeDcPromo` | 13 (0xd) | Exported Function | 0x0000000180021c70 | 0x00021c70
-`W32TimeBufferFree` | 12 (0xc) | Exported Function | 0x0000000180035cb0 | 0x00035cb0
-`TimeProvOpen` | 11 (0xb) | Exported Function | 0x000000018001fd70 | 0x0001fd70
-`TimeProvCommand` | 10 (0xa) | Exported Function | 0x000000018001fd20 | 0x0001fd20
-`TimeProvClose` | 9 (0x9) | Exported Function | 0x000000018001fcb0 | 0x0001fcb0
-`SvchostPushServiceGlobals` | 8 (0x8) | Exported Function | 0x00000001800328c0 | 0x000328c0
-`SvchostEntry_W32Time` | 7 (0x7) | Exported Function | 0x0000000180032880 | 0x00032880
-`fnW32TmSetServiceStatus` | 3 (0x3) | Exported Function | 0x0000000180069c00 | 0x00069c00
-`fnW32TmRegisterServiceCtrlHandlerEx` | 2 (0x2) | Exported Function | 0x0000000180069c08 | 0x00069c08
-`fnW32TmI_ScSetServiceBits` | 1 (0x1) | Exported Function | 0x0000000180069bf8 | 0x00069bf8
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x0000000180021c50 | 0x00021c50
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x0000000180021c00 | 0x00021c00
-`W32TimeVerifyUnjoinConfig` | 27 (0x1b) | Exported Function | 0x0000000180022140 | 0x00022140
-`W32TmServiceMain` | 28 (0x1c) | Exported Function | 0x00000001800328d0 | 0x000328d0
+Function Name | Ordinal | Type
+-- | -- | --
+`W32TimeQueryHardwareProviderStatus` | 19 | Exported Function
+`W32TimeQueryNtpProviderConfiguration` | 21 | Exported Function
+`W32TimeQueryNTPProviderStatus` | 20 | Exported Function
+`W32TimeQueryConfiguration` | 18 | Exported Function
+`W32TimeGetNetlogonServiceBits` | 15 | Exported Function
+`W32TimeLog` | 16 | Exported Function
+`W32TimeQueryConfig` | 17 | Exported Function
+`W32TimeVerifyJoinConfig` | 26 | Exported Function
+`W32TimeVerifyUnjoinConfig` | 27 | Exported Function
+`W32TmServiceMain` | 28 | Exported Function
+`W32TimeSyncNow` | 25 | Exported Function
+`W32TimeQuerySource` | 22 | Exported Function
+`W32TimeQueryStatus` | 23 | Exported Function
+`W32TimeSetConfig` | 24 | Exported Function
+`fnW32TmRegisterServiceCtrlHandlerEx` | 2 | Exported Function
+`fnW32TmSetServiceStatus` | 3 | Exported Function
+`SvchostEntry_W32Time` | 7 | Exported Function
+`fnW32TmI_ScSetServiceBits` | 1 | Exported Function
+`DllInstall` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`W32TimeBufferFree` | 12 | Exported Function
+`W32TimeDcPromo` | 13 | Exported Function
+`W32TimeDeleteConfig` | 14 | Exported Function
+`TimeProvOpen` | 11 | Exported Function
+`SvchostPushServiceGlobals` | 8 | Exported Function
+`TimeProvClose` | 9 | Exported Function
+`TimeProvCommand` | 10 | Exported Function
 
 
 ## Signature

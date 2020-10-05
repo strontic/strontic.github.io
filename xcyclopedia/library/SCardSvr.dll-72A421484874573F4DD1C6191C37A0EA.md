@@ -24,11 +24,11 @@ PE256 | `909DF6A1242288BA91DE9E3FA54B58F79885DE48EB6A49E0192ECE1D41B4EFE3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CalaisMain` | 1 (0x1) | Exported Function | 0x00000001800098a0 | 0x000098a0
-`InitSmartCardService` | 2 (0x2) | Exported Function | 0x000000018000a320 | 0x0000a320
-`SvchostPushServiceGlobals` | 3 (0x3) | Exported Function | 0x000000018000a370 | 0x0000a370
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 3 | Exported Function
+`InitSmartCardService` | 2 | Exported Function
+`CalaisMain` | 1 | Exported Function
 
 
 ## Signature

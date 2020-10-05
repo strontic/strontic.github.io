@@ -24,28 +24,28 @@ PE256 | `F98E28792F7EBCE982D1E72EB415765E6E879FC861681BF0FF35E2AA0A6EA16B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AvCreateTaskIndex` | 1 (0x1) | Exported Function | 0x78b01760 | 0x00001760
-`AvTaskIndexYield` | 18 (0x12) | Exported Function | 0x78b01510 | 0x00001510
-`AvSetMultimediaMode` | 17 (0x11) | Exported Function | 0x78b019b0 | 0x000019b0
-`AvSetMmThreadPriority` | 16 (0x10) | Exported Function | 0x78b01a10 | 0x00001a10
-`AvSetMmThreadCharacteristicsW` | 15 (0xf) | Exported Function | 0x78b01820 | 0x00001820
-`AvSetMmThreadCharacteristicsA` | 14 (0xe) | Exported Function | 0x78b01570 | 0x00001570
-`AvSetMmMaxThreadCharacteristicsW` | 13 (0xd) | Exported Function | 0x78b02320 | 0x00002320
-`AvSetMmMaxThreadCharacteristicsA` | 12 (0xc) | Exported Function | 0x78b02300 | 0x00002300
-`AvRtWaitOnThreadOrderingGroup` | 11 (0xb) | Exported Function | 0x78b02280 | 0x00002280
-`AvRtLeaveThreadOrderingGroup` | 10 (0xa) | Exported Function | 0x78b02280 | 0x00002280
-`AvRtJoinThreadOrderingGroup` | 9 (0x9) | Exported Function | 0x78b022a0 | 0x000022a0
-`AvRtDeleteThreadOrderingGroup` | 8 (0x8) | Exported Function | 0x78b02280 | 0x00002280
-`AvRtCreateThreadOrderingGroupExW` | 7 (0x7) | Exported Function | 0x78b02260 | 0x00002260
-`AvRtCreateThreadOrderingGroupExA` | 6 (0x6) | Exported Function | 0x78b02260 | 0x00002260
-`AvRtCreateThreadOrderingGroup` | 5 (0x5) | Exported Function | 0x78b02240 | 0x00002240
-`AvRevertMmThreadCharacteristics` | 4 (0x4) | Exported Function | 0x78b01bf0 | 0x00001bf0
-`AvQueryTaskIndexValue` | 3 (0x3) | Exported Function | 0x78b022c0 | 0x000022c0
-`AvQuerySystemResponsiveness` | 2 (0x2) | Exported Function | 0x78b01720 | 0x00001720
-`AvTaskIndexYieldCancel` | 19 (0x13) | Exported Function | 0x78b016b0 | 0x000016b0
-`AvThreadOpenTaskIndex` | 20 (0x14) | Exported Function | 0x78b016e0 | 0x000016e0
+Function Name | Ordinal | Type
+-- | -- | --
+`AvSetMmThreadCharacteristicsA` | 14 | Exported Function
+`AvSetMmThreadCharacteristicsW` | 15 | Exported Function
+`AvSetMmMaxThreadCharacteristicsW` | 13 | Exported Function
+`AvRtWaitOnThreadOrderingGroup` | 11 | Exported Function
+`AvSetMmMaxThreadCharacteristicsA` | 12 | Exported Function
+`AvTaskIndexYieldCancel` | 19 | Exported Function
+`AvThreadOpenTaskIndex` | 20 | Exported Function
+`AvTaskIndexYield` | 18 | Exported Function
+`AvSetMmThreadPriority` | 16 | Exported Function
+`AvSetMultimediaMode` | 17 | Exported Function
+`AvRevertMmThreadCharacteristics` | 4 | Exported Function
+`AvRtCreateThreadOrderingGroup` | 5 | Exported Function
+`AvQueryTaskIndexValue` | 3 | Exported Function
+`AvCreateTaskIndex` | 1 | Exported Function
+`AvQuerySystemResponsiveness` | 2 | Exported Function
+`AvRtJoinThreadOrderingGroup` | 9 | Exported Function
+`AvRtLeaveThreadOrderingGroup` | 10 | Exported Function
+`AvRtDeleteThreadOrderingGroup` | 8 | Exported Function
+`AvRtCreateThreadOrderingGroupExA` | 6 | Exported Function
+`AvRtCreateThreadOrderingGroupExW` | 7 | Exported Function
 
 
 ## Signature

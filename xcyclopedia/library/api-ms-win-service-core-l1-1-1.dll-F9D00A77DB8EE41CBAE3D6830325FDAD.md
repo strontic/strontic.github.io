@@ -24,11 +24,11 @@ PE256 | `AB287A4AFAB8F5BB79334D00C67603CA75E50A124690416755C57427F9A7DC9E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EnumDependentServicesW` | 1 (0x1) | Exported Function | advapi32.EnumDependentServicesW | 0x000011a0
-`EnumServicesStatusExW` | 2 (0x2) | Exported Function | advapi32.EnumServicesStatusExW | 0x000011d6
-`QueryServiceDynamicInformation` | 3 (0x3) | Exported Function | advapi32.QueryServiceDynamicInformation | 0x00001214
+Function Name | Ordinal | Type
+-- | -- | --
+`QueryServiceDynamicInformation` | 3 | Exported Function
+`EnumServicesStatusExW` | 2 | Exported Function
+`EnumDependentServicesW` | 1 | Exported Function
 
 
 ## Signature

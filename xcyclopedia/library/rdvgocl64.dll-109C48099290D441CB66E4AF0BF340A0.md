@@ -24,11 +24,11 @@ PE256 | `18D97430D200788A6ECD85066C550F56B3679317693BFAA15D85768A4B7AD7F0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`clGetExtensionFunctionAddress` | 2 (0x2) | Exported Function | 0x0000000180001b90 | 0x00001b90
-`clIcdGetPlatformIDsKHR` | 3 (0x3) | Exported Function | 0x0000000180001c60 | 0x00001c60
-`DllMain` | 1 (0x1) | Exported Function | 0x0000000180002380 | 0x00002380
+Function Name | Ordinal | Type
+-- | -- | --
+`DllMain` | 1 | Exported Function
+`clIcdGetPlatformIDsKHR` | 3 | Exported Function
+`clGetExtensionFunctionAddress` | 2 | Exported Function
 
 
 ## Signature

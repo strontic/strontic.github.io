@@ -24,80 +24,80 @@ PE256 | `645B955B9793E7DD51A5857B744EFED41BD6BD0636F135886CD81BD6F961F503`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__daylight` | 9 (0x9) | Exported Function | ucrtbase.__daylight | 0x0000154a
-`_W_Getmonths` | 6 (0x6) | Exported Function | ucrtbase._W_Getmonths | 0x000014e9
-`_W_Getdays` | 5 (0x5) | Exported Function | ucrtbase._W_Getdays | 0x000014c8
-`_utime64` | 54 (0x36) | Exported Function | ucrtbase._utime64 | 0x00001ac9
-`_utime32` | 53 (0x35) | Exported Function | ucrtbase._utime32 | 0x00001aae
-`_tzset` | 52 (0x34) | Exported Function | ucrtbase._tzset | 0x00001a95
-`_timespec64_get` | 51 (0x33) | Exported Function | ucrtbase._timespec64_get | 0x00001a75
-`_W_Gettnames` | 7 (0x7) | Exported Function | ucrtbase._W_Gettnames | 0x0000150c
-`_timespec32_get` | 50 (0x32) | Exported Function | ucrtbase._timespec32_get | 0x00001a4c
-`_time32` | 48 (0x30) | Exported Function | ucrtbase._time32 | 0x00001a12
-`_strtime_s` | 47 (0x2f) | Exported Function | ucrtbase._strtime_s | 0x000019f6
-`_strtime` | 46 (0x2e) | Exported Function | ucrtbase._strtime | 0x000019d9
-`_strftime_l` | 45 (0x2d) | Exported Function | ucrtbase._strftime_l | 0x000019bb
-`_Strftime` | 4 (0x4) | Exported Function | ucrtbase._Strftime | 0x000014aa
-`_strdate_s` | 44 (0x2c) | Exported Function | ucrtbase._strdate_s | 0x0000199b
-`_time64` | 49 (0x31) | Exported Function | ucrtbase._time64 | 0x00001a2b
-`_strdate` | 43 (0x2b) | Exported Function | ucrtbase._strdate | 0x0000197e
-`_wasctime` | 55 (0x37) | Exported Function | ucrtbase._wasctime | 0x00001ae5
-`_Wcsftime` | 8 (0x8) | Exported Function | ucrtbase._Wcsftime | 0x0000152c
-`clock` | 70 (0x46) | Exported Function | ucrtbase.clock | 0x00001ca8
-`asctime_s` | 69 (0x45) | Exported Function | ucrtbase.asctime_s | 0x00001c8f
-`asctime` | 68 (0x44) | Exported Function | ucrtbase.asctime | 0x00001c74
-`_wutime64` | 67 (0x43) | Exported Function | ucrtbase._wutime64 | 0x00001c59
-`_wutime32` | 66 (0x42) | Exported Function | ucrtbase._wutime32 | 0x00001c3c
-`_wstrtime_s` | 65 (0x41) | Exported Function | ucrtbase._wstrtime_s | 0x00001c1d
-`_wasctime_s` | 56 (0x38) | Exported Function | ucrtbase._wasctime_s | 0x00001b04
-`_wstrtime` | 64 (0x40) | Exported Function | ucrtbase._wstrtime | 0x00001bfe
-`_wstrdate` | 62 (0x3e) | Exported Function | ucrtbase._wstrdate | 0x00001bc0
-`_wctime64_s` | 61 (0x3d) | Exported Function | ucrtbase._wctime64_s | 0x00001ba1
-`_wctime64` | 60 (0x3c) | Exported Function | ucrtbase._wctime64 | 0x00001b82
-`_wctime32_s` | 59 (0x3b) | Exported Function | ucrtbase._wctime32_s | 0x00001b63
-`_wctime32` | 58 (0x3a) | Exported Function | ucrtbase._wctime32 | 0x00001b44
-`_wcsftime_l` | 57 (0x39) | Exported Function | ucrtbase._wcsftime_l | 0x00001b25
-`_wstrdate_s` | 63 (0x3f) | Exported Function | ucrtbase._wstrdate_s | 0x00001bdf
-`_setsystime` | 42 (0x2a) | Exported Function | ucrtbase._setsystime | 0x00001960
-`_mktime64` | 41 (0x29) | Exported Function | ucrtbase._mktime64 | 0x00001941
-`_mktime32` | 40 (0x28) | Exported Function | ucrtbase._mktime32 | 0x00001924
-`_futime32` | 23 (0x17) | Exported Function | ucrtbase._futime32 | 0x000016e9
-`_ftime64_s` | 22 (0x16) | Exported Function | ucrtbase._ftime64_s | 0x000016cb
-`_ftime64` | 21 (0x15) | Exported Function | ucrtbase._ftime64 | 0x000016ae
-`_ftime32_s` | 20 (0x14) | Exported Function | ucrtbase._ftime32_s | 0x00001691
-`_ftime32` | 19 (0x13) | Exported Function | ucrtbase._ftime32 | 0x00001674
-`_difftime64` | 18 (0x12) | Exported Function | ucrtbase._difftime64 | 0x00001656
-`_futime64` | 24 (0x18) | Exported Function | ucrtbase._futime64 | 0x00001706
-`_difftime32` | 17 (0x11) | Exported Function | ucrtbase._difftime32 | 0x00001635
-`_ctime64` | 15 (0xf) | Exported Function | ucrtbase._ctime64 | 0x000015f8
-`_ctime32_s` | 14 (0xe) | Exported Function | ucrtbase._ctime32_s | 0x000015db
-`_ctime32` | 13 (0xd) | Exported Function | ucrtbase._ctime32 | 0x000015be
-`__tzname` | 12 (0xc) | Exported Function | ucrtbase.__tzname | 0x000015a3
-`__timezone` | 11 (0xb) | Exported Function | ucrtbase.__timezone | 0x00001586
-`__dstbias` | 10 (0xa) | Exported Function | ucrtbase.__dstbias | 0x00001568
-`_ctime64_s` | 16 (0x10) | Exported Function | ucrtbase._ctime64_s | 0x00001615
-`_get_daylight` | 25 (0x19) | Exported Function | ucrtbase._get_daylight | 0x00001727
-`_get_dstbias` | 26 (0x1a) | Exported Function | ucrtbase._get_dstbias | 0x0000174b
-`_get_timezone` | 27 (0x1b) | Exported Function | ucrtbase._get_timezone | 0x0000176f
-`_mkgmtime64` | 39 (0x27) | Exported Function | ucrtbase._mkgmtime64 | 0x00001905
-`_mkgmtime32` | 38 (0x26) | Exported Function | ucrtbase._mkgmtime32 | 0x000018e4
-`_localtime64_s` | 37 (0x25) | Exported Function | ucrtbase._localtime64_s | 0x000018c0
-`_localtime64` | 36 (0x24) | Exported Function | ucrtbase._localtime64 | 0x0000189b
-`_localtime32_s` | 35 (0x23) | Exported Function | ucrtbase._localtime32_s | 0x00001876
-`_localtime32` | 34 (0x22) | Exported Function | ucrtbase._localtime32 | 0x00001851
-`_gmtime64_s` | 33 (0x21) | Exported Function | ucrtbase._gmtime64_s | 0x0000182f
-`_gmtime64` | 32 (0x20) | Exported Function | ucrtbase._gmtime64 | 0x00001810
-`_gmtime32_s` | 31 (0x1f) | Exported Function | ucrtbase._gmtime32_s | 0x000017f1
-`_gmtime32` | 30 (0x1e) | Exported Function | ucrtbase._gmtime32 | 0x000017d2
-`_Gettnames` | 3 (0x3) | Exported Function | ucrtbase._Gettnames | 0x0000148c
-`_getsystime` | 29 (0x1d) | Exported Function | ucrtbase._getsystime | 0x000017b3
-`_Getmonths` | 2 (0x2) | Exported Function | ucrtbase._Getmonths | 0x0000146d
-`_Getdays` | 1 (0x1) | Exported Function | ucrtbase._Getdays | 0x00001450
-`_get_tzname` | 28 (0x1c) | Exported Function | ucrtbase._get_tzname | 0x00001792
-`strftime` | 71 (0x47) | Exported Function | ucrtbase.strftime | 0x00001cc0
-`wcsftime` | 72 (0x48) | Exported Function | ucrtbase.wcsftime | 0x00001cdb
+Function Name | Ordinal | Type
+-- | -- | --
+`_tzset` | 52 | Exported Function
+`_utime32` | 53 | Exported Function
+`_timespec32_get` | 50 | Exported Function
+`_timespec64_get` | 51 | Exported Function
+`_utime64` | 54 | Exported Function
+`_W_Gettnames` | 7 | Exported Function
+`_wasctime` | 55 | Exported Function
+`_W_Getdays` | 5 | Exported Function
+`_W_Getmonths` | 6 | Exported Function
+`_strdate_s` | 44 | Exported Function
+`_Strftime` | 4 | Exported Function
+`_setsystime` | 42 | Exported Function
+`_strdate` | 43 | Exported Function
+`_strftime_l` | 45 | Exported Function
+`_time32` | 48 | Exported Function
+`_time64` | 49 | Exported Function
+`_strtime` | 46 | Exported Function
+`_strtime_s` | 47 | Exported Function
+`_wutime32` | 66 | Exported Function
+`_wutime64` | 67 | Exported Function
+`_wstrtime` | 64 | Exported Function
+`_wstrtime_s` | 65 | Exported Function
+`asctime` | 68 | Exported Function
+`strftime` | 71 | Exported Function
+`wcsftime` | 72 | Exported Function
+`asctime_s` | 69 | Exported Function
+`clock` | 70 | Exported Function
+`_wcsftime_l` | 57 | Exported Function
+`_wctime32` | 58 | Exported Function
+`_wasctime_s` | 56 | Exported Function
+`_Wcsftime` | 8 | Exported Function
+`_wctime32_s` | 59 | Exported Function
+`_wstrdate` | 62 | Exported Function
+`_wstrdate_s` | 63 | Exported Function
+`_wctime64` | 60 | Exported Function
+`_wctime64_s` | 61 | Exported Function
+`_ftime32_s` | 20 | Exported Function
+`_ftime64` | 21 | Exported Function
+`_difftime64` | 18 | Exported Function
+`_ftime32` | 19 | Exported Function
+`_ftime64_s` | 22 | Exported Function
+`_get_daylight` | 25 | Exported Function
+`_get_dstbias` | 26 | Exported Function
+`_futime32` | 23 | Exported Function
+`_futime64` | 24 | Exported Function
+`__timezone` | 11 | Exported Function
+`__tzname` | 12 | Exported Function
+`__daylight` | 9 | Exported Function
+`__dstbias` | 10 | Exported Function
+`_ctime32` | 13 | Exported Function
+`_ctime64_s` | 16 | Exported Function
+`_difftime32` | 17 | Exported Function
+`_ctime32_s` | 14 | Exported Function
+`_ctime64` | 15 | Exported Function
+`_localtime32_s` | 35 | Exported Function
+`_localtime64` | 36 | Exported Function
+`_gmtime64_s` | 33 | Exported Function
+`_localtime32` | 34 | Exported Function
+`_localtime64_s` | 37 | Exported Function
+`_mktime32` | 40 | Exported Function
+`_mktime64` | 41 | Exported Function
+`_mkgmtime32` | 38 | Exported Function
+`_mkgmtime64` | 39 | Exported Function
+`_Getdays` | 1 | Exported Function
+`_Getmonths` | 2 | Exported Function
+`_get_timezone` | 27 | Exported Function
+`_get_tzname` | 28 | Exported Function
+`_getsystime` | 29 | Exported Function
+`_gmtime32_s` | 31 | Exported Function
+`_gmtime64` | 32 | Exported Function
+`_Gettnames` | 3 | Exported Function
+`_gmtime32` | 30 | Exported Function
 
 
 ## Signature

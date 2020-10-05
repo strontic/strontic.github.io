@@ -24,34 +24,34 @@ PE256 | `8966AA1830B6679DB34C9154B07C3535C09320E231B7117A0A1DEF7B283F76D2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AwaitAppointmentActivation` | 3 (0x3) | Exported Function | 0x1000cb60 | 0x0000cb60
-`ShowReplaceAppointment` | 24 (0x18) | Exported Function | 0x1000d8d0 | 0x0000d8d0
-`ShowRemoveAppointmentAsync` | 23 (0x17) | Exported Function | 0x1000d840 | 0x0000d840
-`ShowRemoveAppointment` | 22 (0x16) | Exported Function | 0x1000d7a0 | 0x0000d7a0
-`ShowCalendarChooserAsync` | 21 (0x15) | Exported Function | 0x1000d720 | 0x0000d720
-`ShowCalendarChooser` | 20 (0x14) | Exported Function | 0x1000d680 | 0x0000d680
-`ShowAppointmentDetails` | 19 (0x13) | Exported Function | 0x1000d460 | 0x0000d460
-`ShowAddAppointmentAsync` | 18 (0x12) | Exported Function | 0x1000d3d0 | 0x0000d3d0
-`ShowAddAppointment` | 17 (0x11) | Exported Function | 0x1000d330 | 0x0000d330
-`SerializeCalendarIdResult` | 2 (0x2) | Exported Function | 0x10009f30 | 0x00009f30
-`SerializeAppointmentIdsResult` | 1 (0x1) | Exported Function | 0x10009e60 | 0x00009e60
-`ReleaseActivationArgs` | 16 (0x10) | Exported Function | 0x1000f300 | 0x0000f300
-`GetWindowIdOfHost` | 15 (0xf) | Exported Function | 0x100104f0 | 0x000104f0
-`GetReplaceAppointmentArgument` | 14 (0xe) | Exported Function | 0x1000d190 | 0x0000d190
-`GetRemoveAppointmentArgument` | 13 (0xd) | Exported Function | 0x1000d020 | 0x0000d020
-`GetProxyDllInfo` | 12 (0xc) | Exported Function | 0x10009900 | 0x00009900
-`GetLegacyAppointmentDetailsArgumentString` | 11 (0xb) | Exported Function | 0x100100d0 | 0x000100d0
-`GetCalendarChooserArgument` | 10 (0xa) | Exported Function | 0x1000ce20 | 0x0000ce20
-`GetAddAppointmentArgument` | 9 (0x9) | Exported Function | 0x1000cd00 | 0x0000cd00
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x100063c0 | 0x000063c0
-`DllGetActivationFactory` | 7 (0x7) | Exported Function | 0x10009c90 | 0x00009c90
-`DllCanUnloadNow` | 6 (0x6) | Exported Function | 0x100060f0 | 0x000060f0
-`DeserializeAppointment` | 5 (0x5) | Exported Function | 0x1000f190 | 0x0000f190
-`DeserializeActivationArgs` | 4 (0x4) | Exported Function | 0x1000ee50 | 0x0000ee50
-`ShowReplaceAppointmentAsync` | 25 (0x19) | Exported Function | 0x1000d970 | 0x0000d970
-`ShowTimeFrame` | 26 (0x1a) | Exported Function | 0x1000da00 | 0x0000da00
+Function Name | Ordinal | Type
+-- | -- | --
+`ShowAddAppointment` | 17 | Exported Function
+`ShowAddAppointmentAsync` | 18 | Exported Function
+`ShowAppointmentDetails` | 19 | Exported Function
+`ReleaseActivationArgs` | 16 | Exported Function
+`SerializeAppointmentIdsResult` | 1 | Exported Function
+`SerializeCalendarIdResult` | 2 | Exported Function
+`ShowCalendarChooser` | 20 | Exported Function
+`ShowReplaceAppointment` | 24 | Exported Function
+`ShowReplaceAppointmentAsync` | 25 | Exported Function
+`ShowTimeFrame` | 26 | Exported Function
+`ShowCalendarChooserAsync` | 21 | Exported Function
+`ShowRemoveAppointment` | 22 | Exported Function
+`ShowRemoveAppointmentAsync` | 23 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`DllGetActivationFactory` | 7 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`AwaitAppointmentActivation` | 3 | Exported Function
+`DeserializeActivationArgs` | 4 | Exported Function
+`DeserializeAppointment` | 5 | Exported Function
+`GetAddAppointmentArgument` | 9 | Exported Function
+`GetRemoveAppointmentArgument` | 13 | Exported Function
+`GetReplaceAppointmentArgument` | 14 | Exported Function
+`GetWindowIdOfHost` | 15 | Exported Function
+`GetCalendarChooserArgument` | 10 | Exported Function
+`GetLegacyAppointmentDetailsArgumentString` | 11 | Exported Function
+`GetProxyDllInfo` | 12 | Exported Function
 
 
 ## Signature

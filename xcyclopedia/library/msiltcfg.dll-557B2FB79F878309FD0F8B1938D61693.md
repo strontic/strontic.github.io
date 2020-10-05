@@ -24,22 +24,22 @@ PE256 | `CDEF0176D96A55938ECF21B08D1DFF11ACBC2FF651315274B512C38C771E9EC3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MsiAdvertiseScriptW` | 8 (0x8) | Exported Function | 0x10001910 | 0x00001910
-`MsiConfigureProductExW` | 12 (0xc) | Exported Function | 0x10001ac0 | 0x00001ac0
-`MsiDecomposeDescriptorW` | 1 (0x1) | Exported Function | 0x10001670 | 0x00001670
-`MsiGetComponentPathW` | 2 (0x2) | Exported Function | 0x100016e0 | 0x000016e0
-`MsiGetProductInfoW` | 3 (0x3) | Exported Function | 0x10001750 | 0x00001750
-`MsiIsProductElevatedW` | 10 (0xa) | Exported Function | 0x100019e0 | 0x000019e0
-`MsiProvideComponentFromDescriptorW` | 4 (0x4) | Exported Function | 0x100017c0 | 0x000017c0
-`MsiQueryFeatureStateFromDescriptorW` | 6 (0x6) | Exported Function | 0x100018a0 | 0x000018a0
-`MsiQueryFeatureStateW` | 5 (0x5) | Exported Function | 0x10001830 | 0x00001830
-`MsiQueryProductStateW` | 9 (0x9) | Exported Function | 0x10001980 | 0x00001980
-`MsiReinstallProductW` | 11 (0xb) | Exported Function | 0x10001a50 | 0x00001a50
-`MsiSetInternalUI` | 7 (0x7) | Exported Function | 0x10001900 | 0x00001900
-`RestartMsi` | 14 (0xe) | Exported Function | 0x10001b60 | 0x00001b60
-`ShutdownMsi` | 13 (0xd) | Exported Function | 0x10001b30 | 0x00001b30
+Function Name | Ordinal | Type
+-- | -- | --
+`MsiQueryProductStateW` | 9 | Exported Function
+`MsiQueryFeatureStateW` | 5 | Exported Function
+`MsiQueryFeatureStateFromDescriptorW` | 6 | Exported Function
+`MsiReinstallProductW` | 11 | Exported Function
+`ShutdownMsi` | 13 | Exported Function
+`RestartMsi` | 14 | Exported Function
+`MsiSetInternalUI` | 7 | Exported Function
+`MsiDecomposeDescriptorW` | 1 | Exported Function
+`MsiConfigureProductExW` | 12 | Exported Function
+`MsiAdvertiseScriptW` | 8 | Exported Function
+`MsiGetComponentPathW` | 2 | Exported Function
+`MsiProvideComponentFromDescriptorW` | 4 | Exported Function
+`MsiIsProductElevatedW` | 10 | Exported Function
+`MsiGetProductInfoW` | 3 | Exported Function
 
 
 ## Signature

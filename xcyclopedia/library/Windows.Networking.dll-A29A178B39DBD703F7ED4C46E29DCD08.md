@@ -24,16 +24,15 @@ PE256 | `25E6D3FCBBE90FE8228B7B9E370AE61DD47A53A534F8FE1CB07D9BAB5D2A02B6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000018006e870 | 0x0006e870
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x000000018006e480 | 0x0006e480
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x000000018006e660 | 0x0006e660
-`DllMain` | 5 (0x5) | Exported Function | 0x000000018006e7f0 | 0x0006e7f0
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x000000018006e7c0 | 0x0006e7c0
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x000000018006e790 | 0x0006e790
-`Ordinal1` | 1 (0x1) | Exported Function | 0x000000018006ed20 | 0x0006ed20
-`SetSocketMediaStreamingMode` | 8 (0x8) | Exported Function | 0x000000018006ede0 | 0x0006ede0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 6 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`SetSocketMediaStreamingMode` | 8 | Exported Function
+`DllMain` | 5 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

@@ -24,16 +24,16 @@ PE256 | `6E3117040C5E929FE00AA9CAFBD0E1DCDC197DA4C8A5A26BC30A1C23718F69FB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CompareStringEx` | 1 (0x1) | Exported Function | kernel32.CompareStringEx | 0x0000110a
-`CompareStringOrdinal` | 2 (0x2) | Exported Function | kernel32.CompareStringOrdinal | 0x00001138
-`CompareStringW` | 3 (0x3) | Exported Function | kernel32.CompareStringW | 0x00001165
-`FoldStringW` | 4 (0x4) | Exported Function | kernel32.FoldStringW | 0x00001189
-`GetStringTypeExW` | 5 (0x5) | Exported Function | kernel32.GetStringTypeExW | 0x000011af
-`GetStringTypeW` | 6 (0x6) | Exported Function | kernel32.GetStringTypeW | 0x000011d8
-`MultiByteToWideChar` | 7 (0x7) | Exported Function | kernel32.MultiByteToWideChar | 0x00001204
-`WideCharToMultiByte` | 8 (0x8) | Exported Function | kernel32.WideCharToMultiByte | 0x00001235
+Function Name | Ordinal | Type
+-- | -- | --
+`GetStringTypeW` | 6 | Exported Function
+`GetStringTypeExW` | 5 | Exported Function
+`WideCharToMultiByte` | 8 | Exported Function
+`MultiByteToWideChar` | 7 | Exported Function
+`CompareStringOrdinal` | 2 | Exported Function
+`CompareStringEx` | 1 | Exported Function
+`FoldStringW` | 4 | Exported Function
+`CompareStringW` | 3 | Exported Function
 
 
 ## Signature

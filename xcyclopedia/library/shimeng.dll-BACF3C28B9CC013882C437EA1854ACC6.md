@@ -24,19 +24,19 @@ PE256 | `5CB0F0E4F6B1607A981BDBFC4C695C0BE618BDDBA402E4EBBA03A72660EEADF9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SE_DllLoaded` | 1 (0x1) | Exported Function | APPHELP.SE_DllLoaded | 0x0000249f
-`SE_DllUnloaded` | 2 (0x2) | Exported Function | APPHELP.SE_DllUnloaded | 0x000024c3
-`SE_DynamicShim` | 3 (0x3) | Exported Function | APPHELP.SE_DynamicShim | 0x000024e9
-`SE_GetHookAPIs` | 4 (0x4) | Exported Function | APPHELP.SE_GetHookAPIs | 0x0000250f
-`SE_GetMaxShimCount` | 5 (0x5) | Exported Function | APPHELP.SE_GetMaxShimCount | 0x00002539
-`SE_GetProcAddressIgnoreIncExc` | 6 (0x6) | Exported Function | APPHELP.SE_GetProcAddressIgnoreIncExc | 0x00002572
-`SE_GetShimCount` | 7 (0x7) | Exported Function | APPHELP.SE_GetShimCount | 0x000025a8
-`SE_InstallAfterInit` | 8 (0x8) | Exported Function | APPHELP.SE_InstallAfterInit | 0x000025d4
-`SE_InstallBeforeInit` | 9 (0x9) | Exported Function | APPHELP.SE_InstallBeforeInit | 0x00002605
-`SE_IsShimDll` | 10 (0xa) | Exported Function | APPHELP.SE_IsShimDll | 0x0000262f
-`SE_ProcessDying` | 11 (0xb) | Exported Function | APPHELP.SE_ProcessDying | 0x00002654
+Function Name | Ordinal | Type
+-- | -- | --
+`SE_InstallAfterInit` | 8 | Exported Function
+`SE_GetShimCount` | 7 | Exported Function
+`SE_InstallBeforeInit` | 9 | Exported Function
+`SE_ProcessDying` | 11 | Exported Function
+`SE_IsShimDll` | 10 | Exported Function
+`SE_GetProcAddressIgnoreIncExc` | 6 | Exported Function
+`SE_DllUnloaded` | 2 | Exported Function
+`SE_DllLoaded` | 1 | Exported Function
+`SE_DynamicShim` | 3 | Exported Function
+`SE_GetMaxShimCount` | 5 | Exported Function
+`SE_GetHookAPIs` | 4 | Exported Function
 
 
 ## Signature

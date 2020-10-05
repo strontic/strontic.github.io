@@ -24,23 +24,23 @@ PE256 | `8F57B0588C504238A99405A9D3C99DBC75424FF0F17E75B77ED4EBF21C1FD531`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180007770 | 0x00007770
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180007790 | 0x00007790
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x00000001800078c0 | 0x000078c0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x00000001800079b0 | 0x000079b0
-`RasTlsExt_FreeMemory` | 5 (0x5) | Exported Function | 0x00000001800012d0 | 0x000012d0
-`RasTlsExt_GetConfigCacheOnlyCertValidation` | 6 (0x6) | Exported Function | 0x00000001800012c0 | 0x000012c0
-`RasTlsExt_GetConfigForceNotDomainJoined` | 7 (0x7) | Exported Function | 0x00000001800012c0 | 0x000012c0
-`RasTlsExt_GetPinUserBlob` | 8 (0x8) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`RasTlsExt_GetServerCertDetails` | 9 (0x9) | Exported Function | 0x0000000180001690 | 0x00001690
-`RasTlsExt_PackUserBlob` | 10 (0xa) | Exported Function | 0x00000001800015c0 | 0x000015c0
-`RasTlsExt_SelectCertificate` | 11 (0xb) | Exported Function | 0x0000000180001690 | 0x00001690
-`RasTlsExt_ShowHelp` | 12 (0xc) | Exported Function | 0x00000001800012c0 | 0x000012c0
-`RasTlsExt_UnpackUserBlob` | 13 (0xd) | Exported Function | 0x0000000180001440 | 0x00001440
-`RasTlsExt_ValidateServer` | 14 (0xe) | Exported Function | 0x0000000180001690 | 0x00001690
-`RasTlsExt_ValidateServerDialogProc` | 15 (0xf) | Exported Function | 0x00000001800016a0 | 0x000016a0
+Function Name | Ordinal | Type
+-- | -- | --
+`RasTlsExt_SelectCertificate` | 11 | Exported Function
+`RasTlsExt_PackUserBlob` | 10 | Exported Function
+`RasTlsExt_GetServerCertDetails` | 9 | Exported Function
+`RasTlsExt_ShowHelp` | 12 | Exported Function
+`RasTlsExt_ValidateServerDialogProc` | 15 | Exported Function
+`RasTlsExt_ValidateServer` | 14 | Exported Function
+`RasTlsExt_UnpackUserBlob` | 13 | Exported Function
+`RasTlsExt_GetPinUserBlob` | 8 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`RasTlsExt_GetConfigForceNotDomainJoined` | 7 | Exported Function
+`RasTlsExt_GetConfigCacheOnlyCertValidation` | 6 | Exported Function
+`RasTlsExt_FreeMemory` | 5 | Exported Function
 
 
 ## Signature

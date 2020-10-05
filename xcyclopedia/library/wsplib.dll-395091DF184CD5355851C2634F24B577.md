@@ -24,10 +24,10 @@ PE256 | `CDB062DFCA17C6CE538339450C29D1E956804E53BE6BC9C9CA25EE2B14C7C361`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DecodeWspHeaders` | 1 (0x1) | Exported Function | 0x0000000180003aa0 | 0x00003aa0
-`FreeWspHeaders` | 2 (0x2) | Exported Function | 0x0000000180003be0 | 0x00003be0
+Function Name | Ordinal | Type
+-- | -- | --
+`FreeWspHeaders` | 2 | Exported Function
+`DecodeWspHeaders` | 1 | Exported Function
 
 
 ## Signature

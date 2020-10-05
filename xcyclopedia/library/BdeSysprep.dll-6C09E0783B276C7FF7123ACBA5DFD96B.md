@@ -24,9 +24,9 @@ PE256 | `4E7021F74DC8F015AEFDD35822AECA7B6779DA06A28CB63E2746EA6E32C281F3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ValidateBitLockerState` | 1 (0x1) | Exported Function | 0x0000000180001020 | 0x00001020
+Function Name | Ordinal | Type
+-- | -- | --
+`ValidateBitLockerState` | 1 | Exported Function
 
 
 ## Signature

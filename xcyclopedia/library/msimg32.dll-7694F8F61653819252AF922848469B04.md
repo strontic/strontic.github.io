@@ -24,13 +24,13 @@ PE256 | `BC6D145DCFC73DAC39B8EFD241377E9261D095E0BF9AC810C09FC2C29B21BE99`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AlphaBlend` | 2 (0x2) | Exported Function | 0x0000000180001010 | 0x00001010
-`DllInitialize` | 3 (0x3) | Exported Function | 0x0000000180001170 | 0x00001170
-`GradientFill` | 4 (0x4) | Exported Function | 0x00000001800015b0 | 0x000015b0
-`TransparentBlt` | 5 (0x5) | Exported Function | 0x0000000180001520 | 0x00001520
-`vSetDdrawflag` | 1 (0x1) | Exported Function | 0x0000000180001510 | 0x00001510
+Function Name | Ordinal | Type
+-- | -- | --
+`TransparentBlt` | 5 | Exported Function
+`vSetDdrawflag` | 1 | Exported Function
+`GradientFill` | 4 | Exported Function
+`AlphaBlend` | 2 | Exported Function
+`DllInitialize` | 3 | Exported Function
 
 
 ## Signature

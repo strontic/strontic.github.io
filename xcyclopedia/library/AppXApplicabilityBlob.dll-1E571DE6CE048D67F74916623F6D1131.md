@@ -24,15 +24,15 @@ PE256 | `795067D74EDB3200B8D10ECA10F3E8C3763A8A5D321D9320513B6CD110184CB2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateSerializedBundleManifestStatement` | 1 (0x1) | Exported Function | 0x000000018001c0e0 | 0x0001c0e0
-`GetApplicabilityFactory` | 2 (0x2) | Exported Function | 0x0000000180004320 | 0x00004320
-`IsAppx` | 3 (0x3) | Exported Function | 0x0000000180004490 | 0x00004490
-`IsModernApp` | 4 (0x4) | Exported Function | 0x00000001800220f0 | 0x000220f0
-`IsPreThresholdDesktop` | 5 (0x5) | Exported Function | 0x0000000180022100 | 0x00022100
-`IsPreThresholdPhone` | 6 (0x6) | Exported Function | 0x00000001800044a0 | 0x000044a0
-`IsXAP` | 7 (0x7) | Exported Function | 0x0000000180022120 | 0x00022120
+Function Name | Ordinal | Type
+-- | -- | --
+`IsPreThresholdDesktop` | 5 | Exported Function
+`IsPreThresholdPhone` | 6 | Exported Function
+`IsXAP` | 7 | Exported Function
+`IsModernApp` | 4 | Exported Function
+`CreateSerializedBundleManifestStatement` | 1 | Exported Function
+`GetApplicabilityFactory` | 2 | Exported Function
+`IsAppx` | 3 | Exported Function
 
 
 ## Signature

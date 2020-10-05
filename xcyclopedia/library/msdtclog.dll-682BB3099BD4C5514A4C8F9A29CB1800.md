@@ -24,15 +24,15 @@ PE256 | `79BD964F57E7720E193042AEBEB4147071BC7A117158DF42E085001B70999AB1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateInstance` | 1 (0x1) | Exported Function | 0x0000000180005b50 | 0x00005b50
-`DeleteInstance` | 2 (0x2) | Exported Function | 0x0000000180005bd0 | 0x00005bd0
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x0000000180008210 | 0x00008210
-`DllGetDTCLOG` | 4 (0x4) | Exported Function | 0x0000000180008320 | 0x00008320
-`DllGetDTCLOG2` | 3 (0x3) | Exported Function | 0x0000000180008390 | 0x00008390
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x00000001800083a0 | 0x000083a0
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x0000000180008820 | 0x00008820
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetDTCLOG2` | 3 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`DllGetDTCLOG` | 4 | Exported Function
+`CreateInstance` | 1 | Exported Function
+`DeleteInstance` | 2 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
 
 
 ## Signature

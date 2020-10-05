@@ -24,33 +24,33 @@ PE256 | `A797E00CAE5BC5DD60E23C083269A7115D4259C4CF5A89680C155587DDBA1358`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MdmClearAllHashes` | 1 (0x1) | Exported Function | 0x0000000180003b40 | 0x00003b40
-`MdmUpdateStatus` | 23 (0x17) | Exported Function | 0x0000000180002930 | 0x00002930
-`MdmShouldRegisterDevice` | 22 (0x16) | Exported Function | 0x0000000180002680 | 0x00002680
-`MdmSetFindMyDevice` | 21 (0x15) | Exported Function | 0x0000000180003e30 | 0x00003e30
-`MdmSendRequestToCSWithDelegation` | 20 (0x14) | Exported Function | 0x0000000180002d10 | 0x00002d10
-`MdmSendRequestToCS` | 19 (0x13) | Exported Function | 0x0000000180002be0 | 0x00002be0
-`MdmRegisterUserDevice` | 18 (0x12) | Exported Function | 0x0000000180002820 | 0x00002820
-`MdmRegisterDevice` | 17 (0x11) | Exported Function | 0x0000000180002590 | 0x00002590
-`MdmProtectionStateChanged` | 16 (0x10) | Exported Function | 0x00000001800038d0 | 0x000038d0
-`MdmParseNonEncryptedRequest` | 15 (0xf) | Exported Function | 0x0000000180001890 | 0x00001890
-`MdmParseLockCommand` | 14 (0xe) | Exported Function | 0x00000001800022f0 | 0x000022f0
-`MdmUsersAuthorizedToSeeLocation` | 24 (0x18) | Exported Function | 0x0000000180004100 | 0x00004100
-`MdmParseLocateCommand` | 13 (0xd) | Exported Function | 0x0000000180002410 | 0x00002410
-`MdmParseCommandData` | 11 (0xb) | Exported Function | 0x0000000180002170 | 0x00002170
-`MdmMobileNetworksChanged` | 10 (0xa) | Exported Function | 0x0000000180003660 | 0x00003660
-`MdmIsRegisteredWithService` | 9 (0x9) | Exported Function | 0x00000001800031b0 | 0x000031b0
-`MdmIsFindMyDeviceEnabled` | 8 (0x8) | Exported Function | 0x0000000180003bf0 | 0x00003bf0
-`MdmHandlePushNotification` | 7 (0x7) | Exported Function | 0x0000000180001560 | 0x00001560
-`MdmGetSidsByConnectedCids` | 6 (0x6) | Exported Function | 0x0000000180004010 | 0x00004010
-`MdmGetServiceTarget` | 5 (0x5) | Exported Function | 0x0000000180002e40 | 0x00002e40
-`MdmGetLocation` | 4 (0x4) | Exported Function | 0x00000001800030c0 | 0x000030c0
-`MdmEnumerateUsers` | 3 (0x3) | Exported Function | 0x0000000180003ef0 | 0x00003ef0
-`MdmConnectedAccountsChanged` | 2 (0x2) | Exported Function | 0x00000001800032e0 | 0x000032e0
-`MdmParseEncryptedRequest` | 12 (0xc) | Exported Function | 0x0000000180001c90 | 0x00001c90
-`MdmUsersAuthorizedToSeeLocationAsString` | 25 (0x19) | Exported Function | 0x00000001800042a0 | 0x000042a0
+Function Name | Ordinal | Type
+-- | -- | --
+`MdmRegisterDevice` | 17 | Exported Function
+`MdmRegisterUserDevice` | 18 | Exported Function
+`MdmSendRequestToCS` | 19 | Exported Function
+`MdmParseLockCommand` | 14 | Exported Function
+`MdmParseNonEncryptedRequest` | 15 | Exported Function
+`MdmProtectionStateChanged` | 16 | Exported Function
+`MdmUpdateStatus` | 23 | Exported Function
+`MdmUsersAuthorizedToSeeLocation` | 24 | Exported Function
+`MdmUsersAuthorizedToSeeLocationAsString` | 25 | Exported Function
+`MdmSendRequestToCSWithDelegation` | 20 | Exported Function
+`MdmSetFindMyDevice` | 21 | Exported Function
+`MdmShouldRegisterDevice` | 22 | Exported Function
+`MdmParseLocateCommand` | 13 | Exported Function
+`MdmGetLocation` | 4 | Exported Function
+`MdmGetServiceTarget` | 5 | Exported Function
+`MdmGetSidsByConnectedCids` | 6 | Exported Function
+`MdmClearAllHashes` | 1 | Exported Function
+`MdmConnectedAccountsChanged` | 2 | Exported Function
+`MdmEnumerateUsers` | 3 | Exported Function
+`MdmMobileNetworksChanged` | 10 | Exported Function
+`MdmParseCommandData` | 11 | Exported Function
+`MdmParseEncryptedRequest` | 12 | Exported Function
+`MdmHandlePushNotification` | 7 | Exported Function
+`MdmIsFindMyDeviceEnabled` | 8 | Exported Function
+`MdmIsRegisteredWithService` | 9 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `F7C0224FDBD887AED5A436369E57FBC762499E461FEB6741B5592660C0D0CA0E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WlanSvcPAL_GetFunctionTable` | 1 (0x1) | Exported Function | 0x0000000180002cf0 | 0x00002cf0
+Function Name | Ordinal | Type
+-- | -- | --
+`WlanSvcPAL_GetFunctionTable` | 1 | Exported Function
 
 
 ## Signature

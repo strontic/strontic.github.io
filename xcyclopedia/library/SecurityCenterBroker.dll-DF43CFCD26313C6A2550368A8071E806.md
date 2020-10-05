@@ -24,12 +24,12 @@ PE256 | `394312C996A5668F1314602D924B09F6BAEA67F1C037939C792CE48D60A149D9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x00000001800050d0 | 0x000050d0
-`DllMain` | 3 (0x3) | Exported Function | 0x0000000180004f00 | 0x00004f00
-`RegisterSecurityCenterBroker` | 4 (0x4) | Exported Function | 0x0000000180004a50 | 0x00004a50
-`UnregisterSecurityCenterBroker` | 1 (0x1) | Exported Function | 0x0000000180004c40 | 0x00004c40
+Function Name | Ordinal | Type
+-- | -- | --
+`RegisterSecurityCenterBroker` | 4 | Exported Function
+`UnregisterSecurityCenterBroker` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllMain` | 3 | Exported Function
 
 
 ## Signature

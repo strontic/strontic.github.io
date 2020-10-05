@@ -24,20 +24,20 @@ PE256 | `67C3C21E508E9671F28461A8CC1CAEC13BDE58961AE49CD429D187EA9AFBE486`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10032010 | 0x00032010
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x10032040 | 0x00032040
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10032060 | 0x00032060
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x10032090 | 0x00032090
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x100320d0 | 0x000320d0
-`SpellerCheck` | 6 (0x6) | Exported Function | 0x1005a080 | 0x0005a080
-`SpellerCloseLex` | 7 (0x7) | Exported Function | 0x1005a3b0 | 0x0005a3b0
-`SpellerGetOptions` | 8 (0x8) | Exported Function | 0x1005a7a0 | 0x0005a7a0
-`SpellerInit` | 9 (0x9) | Exported Function | 0x1005aa90 | 0x0005aa90
-`SpellerOpenLex` | 10 (0xa) | Exported Function | 0x1005ab00 | 0x0005ab00
-`SpellerSetOptions` | 11 (0xb) | Exported Function | 0x1005b060 | 0x0005b060
-`SpellerTerminate` | 12 (0xc) | Exported Function | 0x1005b2d0 | 0x0005b2d0
+Function Name | Ordinal | Type
+-- | -- | --
+`SpellerInit` | 9 | Exported Function
+`SpellerGetOptions` | 8 | Exported Function
+`SpellerCloseLex` | 7 | Exported Function
+`SpellerTerminate` | 12 | Exported Function
+`SpellerSetOptions` | 11 | Exported Function
+`SpellerOpenLex` | 10 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`SpellerCheck` | 6 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

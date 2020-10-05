@@ -24,10 +24,10 @@ PE256 | `CE13856F48015EF82BA52C6C0AAD667E2991E536D59776C8EF282DC47E1CDFA0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DriverProc` | 1 (0x1) | Exported Function | 0x1c00a910 | 0x0000a910
-`KeyboardHookProc` | 2 (0x2) | Exported Function | 0x1c00e4a0 | 0x0000e4a0
+Function Name | Ordinal | Type
+-- | -- | --
+`KeyboardHookProc` | 2 | Exported Function
+`DriverProc` | 1 | Exported Function
 
 
 ## Signature

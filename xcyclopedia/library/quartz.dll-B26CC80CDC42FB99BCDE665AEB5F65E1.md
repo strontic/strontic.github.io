@@ -24,16 +24,16 @@ PE256 | `228E476D32A1C7A417A840813735496D1091FA11218CFA3C747F6F5F1B0DDEF1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AMGetErrorTextA` | 1 (0x1) | Exported Function | 0x0000000135532a40 | 0x00032a40
-`AMGetErrorTextW` | 2 (0x2) | Exported Function | 0x0000000135532b20 | 0x00032b20
-`AmpFactorToDB` | 3 (0x3) | Exported Function | 0x00000001355329a0 | 0x000329a0
-`DBToAmpFactor` | 4 (0x4) | Exported Function | 0x0000000135532a00 | 0x00032a00
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x0000000135504e90 | 0x00004e90
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x0000000135503cc0 | 0x00003cc0
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x0000000135532610 | 0x00032610
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x0000000135532800 | 0x00032800
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`AMGetErrorTextW` | 2 | Exported Function
+`AMGetErrorTextA` | 1 | Exported Function
+`DBToAmpFactor` | 4 | Exported Function
+`AmpFactorToDB` | 3 | Exported Function
 
 
 ## Signature

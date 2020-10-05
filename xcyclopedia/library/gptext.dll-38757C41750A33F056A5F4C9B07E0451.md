@@ -24,14 +24,14 @@ PE256 | `553D4B5806D7B213857F9970641040F3F4424CF6C343722CED3051B2231801E5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x4a383300 | 0x00003300
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x4a383320 | 0x00003320
-`ProcessConnectivityPlatformPolicy` | 1 (0x1) | Exported Function | 0x4a382020 | 0x00002020
-`ProcessEQoSPolicy` | 2 (0x2) | Exported Function | 0x4a383020 | 0x00003020
-`ProcessPSCHEDPolicy` | 3 (0x3) | Exported Function | 0x4a383530 | 0x00003530
-`ProcessTCPIPPolicy` | 4 (0x4) | Exported Function | 0x4a382020 | 0x00002020
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessEQoSPolicy` | 2 | Exported Function
+`ProcessPSCHEDPolicy` | 3 | Exported Function
+`ProcessTCPIPPolicy` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`ProcessConnectivityPlatformPolicy` | 1 | Exported Function
 
 
 ## Signature

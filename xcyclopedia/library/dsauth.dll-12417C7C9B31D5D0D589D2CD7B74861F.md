@@ -24,32 +24,32 @@ PE256 | `0EF9C4FD90DEBCBEA93A4BD6CDE82CE092A704B625E89D5D1AB8640C48E7035A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DhcpAddServerDS` | 1 (0x1) | Exported Function | 0x0000000180007a60 | 0x00007a60
-`StoreSearchGetNext` | 22 (0x16) | Exported Function | 0x0000000180001c10 | 0x00001c10
-`StoreInitHandle` | 21 (0x15) | Exported Function | 0x0000000180001220 | 0x00001220
-`StoreGetHandle` | 20 (0x14) | Exported Function | 0x0000000180001820 | 0x00001820
-`StoreEndSearch` | 19 (0x13) | Exported Function | 0x0000000180001bb0 | 0x00001bb0
-`StoreDeleteObject` | 18 (0x12) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`StoreCreateObjectVA` | 17 (0x11) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`StoreCollectAttributes` | 16 (0x10) | Exported Function | 0x0000000180002e20 | 0x00002e20
-`StoreCleanupHandle` | 15 (0xf) | Exported Function | 0x0000000180001550 | 0x00001550
-`StoreBeginSearch` | 14 (0xe) | Exported Function | 0x0000000180001b30 | 0x00001b30
-`DhcpEnumServersDS` | 13 (0xd) | Exported Function | 0x0000000180007750 | 0x00007750
-`DhcpDsValidateService` | 12 (0xc) | Exported Function | 0x00000001800082e0 | 0x000082e0
-`DhcpDsSetLists` | 11 (0xb) | Exported Function | 0x0000000180004930 | 0x00004930
-`DhcpDsInitDS` | 10 (0xa) | Exported Function | 0x0000000180008120 | 0x00008120
-`DhcpDsGetRoot` | 9 (0x9) | Exported Function | 0x0000000180004100 | 0x00004100
-`DhcpDsGetLists` | 8 (0x8) | Exported Function | 0x0000000180004330 | 0x00004330
-`DhcpDsGetAttribs` | 7 (0x7) | Exported Function | 0x00000001800045b0 | 0x000045b0
-`DhcpDsEnumServers` | 6 (0x6) | Exported Function | 0x0000000180007130 | 0x00007130
-`DhcpDsDelServer` | 5 (0x5) | Exported Function | 0x0000000180006a10 | 0x00006a10
-`DhcpDsCleanupDS` | 4 (0x4) | Exported Function | 0x0000000180008130 | 0x00008130
-`DhcpDsAddServer` | 3 (0x3) | Exported Function | 0x0000000180006430 | 0x00006430
-`DhcpDeleteServerDS` | 2 (0x2) | Exported Function | 0x0000000180008090 | 0x00008090
-`StoreSetSearchOneLevel` | 23 (0x17) | Exported Function | 0x00000001800019b0 | 0x000019b0
-`StoreSetSearchSubTree` | 24 (0x18) | Exported Function | 0x0000000180001a70 | 0x00001a70
+Function Name | Ordinal | Type
+-- | -- | --
+`StoreCollectAttributes` | 16 | Exported Function
+`StoreCreateObjectVA` | 17 | Exported Function
+`StoreDeleteObject` | 18 | Exported Function
+`DhcpEnumServersDS` | 13 | Exported Function
+`StoreBeginSearch` | 14 | Exported Function
+`StoreCleanupHandle` | 15 | Exported Function
+`StoreSearchGetNext` | 22 | Exported Function
+`StoreSetSearchOneLevel` | 23 | Exported Function
+`StoreSetSearchSubTree` | 24 | Exported Function
+`StoreEndSearch` | 19 | Exported Function
+`StoreGetHandle` | 20 | Exported Function
+`StoreInitHandle` | 21 | Exported Function
+`DhcpDsCleanupDS` | 4 | Exported Function
+`DhcpDsDelServer` | 5 | Exported Function
+`DhcpDsEnumServers` | 6 | Exported Function
+`DhcpAddServerDS` | 1 | Exported Function
+`DhcpDeleteServerDS` | 2 | Exported Function
+`DhcpDsAddServer` | 3 | Exported Function
+`DhcpDsInitDS` | 10 | Exported Function
+`DhcpDsSetLists` | 11 | Exported Function
+`DhcpDsValidateService` | 12 | Exported Function
+`DhcpDsGetAttribs` | 7 | Exported Function
+`DhcpDsGetLists` | 8 | Exported Function
+`DhcpDsGetRoot` | 9 | Exported Function
 
 
 ## Signature

@@ -24,14 +24,14 @@ PE256 | `626B059B7983584FF5C77D9D35D3E701A2ED5C12746F9441604C11B74659AF99`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10035510 | 0x00035510
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x1003b3b0 | 0x0003b3b0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10034d30 | 0x00034d30
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x1006bb10 | 0x0006bb10
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x1006bb30 | 0x0006bb30
-`WpcTimeRestrictionsCreateLocalOverride` | 6 (0x6) | Exported Function | 0x1006bcb0 | 0x0006bcb0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`WpcTimeRestrictionsCreateLocalOverride` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

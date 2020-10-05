@@ -24,9 +24,9 @@ PE256 | `54F6089751E0DFE8D61A866BFAEB9BCE7958B0D3A364E0E33F25C11D0E1CA88D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetXformInfo` | 2 (0x2) | Exported Function | 0x0000000180002a40 | 0x00002a40
+Function Name | Ordinal | Type
+-- | -- | --
+`GetXformInfo` | 2 | Exported Function
 
 
 ## Signature

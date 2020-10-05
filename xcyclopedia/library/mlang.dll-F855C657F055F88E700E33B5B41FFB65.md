@@ -24,20 +24,20 @@ PE256 | `623F0A1009D6A83FF6DDDDAF1B25C4B48D43403002C35B230A81ABBAB56E4249`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConvertINetMultiByteToUnicode` | 113 (0x71) | Exported Function | 0x5e217d00 | 0x00017d00
-`ConvertINetReset` | 114 (0x72) | Exported Function | 0x5e20bd90 | 0x0000bd90
-`ConvertINetString` | 111 (0x6f) | Exported Function | 0x5e217d30 | 0x00017d30
-`ConvertINetUnicodeToMultiByte` | 112 (0x70) | Exported Function | 0x5e20a470 | 0x0000a470
-`DllCanUnloadNow` | 115 (0x73) | Exported Function | 0x5e20bd60 | 0x0000bd60
-`DllGetClassObject` | 116 (0x74) | Exported Function | 0x5e20b540 | 0x0000b540
-`GetGlobalFontLinkObject` | 117 (0x75) | Exported Function | 0x5e220410 | 0x00020410
-`IsConvertINetStringAvailable` | 110 (0x6e) | Exported Function | 0x5e20f0c0 | 0x0000f0c0
-`LcidToRfc1766A` | 120 (0x78) | Exported Function | 0x5e220490 | 0x00020490
-`LcidToRfc1766W` | 121 (0x79) | Exported Function | 0x5e20faf0 | 0x0000faf0
-`Rfc1766ToLcidA` | 122 (0x7a) | Exported Function | 0x5e220580 | 0x00020580
-`Rfc1766ToLcidW` | 123 (0x7b) | Exported Function | 0x5e20f980 | 0x0000f980
+Function Name | Ordinal | Type
+-- | -- | --
+`LcidToRfc1766A` | 120 | Exported Function
+`IsConvertINetStringAvailable` | 110 | Exported Function
+`GetGlobalFontLinkObject` | 117 | Exported Function
+`Rfc1766ToLcidW` | 123 | Exported Function
+`Rfc1766ToLcidA` | 122 | Exported Function
+`LcidToRfc1766W` | 121 | Exported Function
+`ConvertINetString` | 111 | Exported Function
+`ConvertINetReset` | 114 | Exported Function
+`ConvertINetMultiByteToUnicode` | 113 | Exported Function
+`DllGetClassObject` | 116 | Exported Function
+`DllCanUnloadNow` | 115 | Exported Function
+`ConvertINetUnicodeToMultiByte` | 112 | Exported Function
 
 
 ## Signature

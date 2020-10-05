@@ -24,992 +24,978 @@ PE256 | `9DCEAA4833C0DB111D211A7498101531A269355917554E8DE1A207ECCB39483C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AbortDoc` | 1011 (0x3f3) | Exported Function | 0x000000018000caf0 | 0x0000caf0
-`GetEnhMetaFileDescriptionA` | 1655 (0x677) | Exported Function | 0x000000018000d7f0 | 0x0000d7f0
-`GetEnhMetaFileDescriptionW` | 1656 (0x678) | Exported Function | 0x000000018000a2c0 | 0x0000a2c0
-`GetEnhMetaFileHeader` | 1657 (0x679) | Exported Function | 0x00000001800079f0 | 0x000079f0
-`GetEnhMetaFilePaletteEntries` | 1658 (0x67a) | Exported Function | 0x0000000180007a90 | 0x00007a90
-`GetEnhMetaFilePixelFormat` | 1659 (0x67b) | Exported Function | 0x000000018000a2e0 | 0x0000a2e0
-`GetEnhMetaFileW` | 1660 (0x67c) | Exported Function | 0x0000000180007ab0 | 0x00007ab0
-`GetETM` | 1650 (0x672) | Exported Function | 0x000000018000a260 | 0x0000a260
-`GetEUDCTimeStamp` | 1651 (0x673) | Exported Function | 0x000000018000a280 | 0x0000a280
-`GetEUDCTimeStampExW` | 1652 (0x674) | Exported Function | 0x000000018000a2a0 | 0x0000a2a0
-`GetFontAssocStatus` | 1661 (0x67d) | Exported Function | 0x000000018000a300 | 0x0000a300
-`GetFontData` | 1662 (0x67e) | Exported Function | 0x0000000180004e40 | 0x00004e40
-`GetFontFileData` | 1663 (0x67f) | Exported Function | 0x00000001800074b0 | 0x000074b0
-`GetEnhMetaFileBits` | 1654 (0x676) | Exported Function | 0x000000018000d790 | 0x0000d790
-`GetFontFileInfo` | 1664 (0x680) | Exported Function | 0x00000001800074d0 | 0x000074d0
-`GetFontRealizationInfo` | 1666 (0x682) | Exported Function | 0x00000001800074f0 | 0x000074f0
-`GetFontResourceInfoW` | 1667 (0x683) | Exported Function | 0x000000018000a340 | 0x0000a340
-`GetFontUnicodeRanges` | 1668 (0x684) | Exported Function | 0x00000001800064d0 | 0x000064d0
-`GetGlyphIndicesA` | 1669 (0x685) | Exported Function | 0x000000018000a360 | 0x0000a360
-`GetGlyphIndicesW` | 1670 (0x686) | Exported Function | 0x0000000180007510 | 0x00007510
-`GetGlyphOutline` | 1671 (0x687) | Exported Function | 0x000000018000d850 | 0x0000d850
-`GetGlyphOutlineA` | 1672 (0x688) | Exported Function | 0x000000018000d870 | 0x0000d870
-`GetGlyphOutlineW` | 1673 (0x689) | Exported Function | 0x00000001800054d0 | 0x000054d0
-`GetGlyphOutlineWow` | 1674 (0x68a) | Exported Function | 0x000000018000a380 | 0x0000a380
-`GetGraphicsMode` | 1675 (0x68b) | Exported Function | 0x000000018000a3a0 | 0x0000a3a0
-`GetHFONT` | 1676 (0x68c) | Exported Function | 0x000000018000a3c0 | 0x0000a3c0
-`GetICMProfileA` | 1677 (0x68d) | Exported Function | 0x000000018000a3e0 | 0x0000a3e0
-`GetFontLanguageInfo` | 1665 (0x681) | Exported Function | 0x000000018000a320 | 0x0000a320
-`GetEnhMetaFileA` | 1653 (0x675) | Exported Function | 0x000000018000d750 | 0x0000d750
-`GetDIBits` | 1647 (0x66f) | Exported Function | 0x0000000180004560 | 0x00004560
-`GetDIBColorTable` | 1646 (0x66e) | Exported Function | 0x0000000180006db0 | 0x00006db0
-`GetCharABCWidthsFloatW` | 1622 (0x656) | Exported Function | 0x000000018000a0c0 | 0x0000a0c0
-`GetCharABCWidthsI` | 1623 (0x657) | Exported Function | 0x000000018000a0e0 | 0x0000a0e0
-`GetCharABCWidthsW` | 1624 (0x658) | Exported Function | 0x00000001800073d0 | 0x000073d0
-`GetCharacterPlacementA` | 1633 (0x661) | Exported Function | 0x000000018000a180 | 0x0000a180
-`GetCharacterPlacementW` | 1634 (0x662) | Exported Function | 0x000000018000a1a0 | 0x0000a1a0
-`GetCharWidth32A` | 1625 (0x659) | Exported Function | 0x0000000180007470 | 0x00007470
-`GetCharWidth32W` | 1626 (0x65a) | Exported Function | 0x000000018000a100 | 0x0000a100
-`GetCharWidthA` | 1627 (0x65b) | Exported Function | 0x000000018000d690 | 0x0000d690
-`GetCharWidthFloatA` | 1628 (0x65c) | Exported Function | 0x000000018000a120 | 0x0000a120
-`GetCharWidthFloatW` | 1629 (0x65d) | Exported Function | 0x000000018000a140 | 0x0000a140
-`GetCharWidthI` | 1630 (0x65e) | Exported Function | 0x000000018000a160 | 0x0000a160
-`GetCharWidthInfo` | 1631 (0x65f) | Exported Function | 0x00000001800064c0 | 0x000064c0
-`GetCharWidthW` | 1632 (0x660) | Exported Function | 0x0000000180007490 | 0x00007490
-`GetClipBox` | 1635 (0x663) | Exported Function | 0x0000000180004a00 | 0x00004a00
-`GetClipRgn` | 1636 (0x664) | Exported Function | 0x0000000180003f30 | 0x00003f30
-`GetColorAdjustment` | 1637 (0x665) | Exported Function | 0x000000018000a1c0 | 0x0000a1c0
-`GetColorSpace` | 1638 (0x666) | Exported Function | 0x000000018000a1e0 | 0x0000a1e0
-`GetCOPPCompatibleOPMInformation` | 1614 (0x64e) | Exported Function | 0x0000000180006470 | 0x00006470
-`GetCurrentDpiInfo` | 1639 (0x667) | Exported Function | 0x00000001800050e0 | 0x000050e0
-`GetCurrentObject` | 1640 (0x668) | Exported Function | 0x0000000180004880 | 0x00004880
-`GetCurrentPositionEx` | 1641 (0x669) | Exported Function | 0x000000018000d700 | 0x0000d700
-`GetDCBrushColor` | 1642 (0x66a) | Exported Function | 0x0000000180006760 | 0x00006760
-`GetDCDpiScaleValue` | 1643 (0x66b) | Exported Function | 0x000000018000a200 | 0x0000a200
-`GetDCOrgEx` | 1644 (0x66c) | Exported Function | 0x0000000180006780 | 0x00006780
-`GetDCPenColor` | 1645 (0x66d) | Exported Function | 0x000000018000a220 | 0x0000a220
-`GetDeviceCaps` | 1648 (0x670) | Exported Function | 0x0000000180003290 | 0x00003290
-`GetDeviceGammaRamp` | 1649 (0x671) | Exported Function | 0x000000018000a240 | 0x0000a240
-`GetICMProfileW` | 1678 (0x68e) | Exported Function | 0x000000018000a400 | 0x0000a400
-`GetKerningPairs` | 1679 (0x68f) | Exported Function | 0x000000018000d900 | 0x0000d900
-`GetKerningPairsA` | 1680 (0x690) | Exported Function | 0x000000018000d900 | 0x0000d900
-`GetKerningPairsW` | 1681 (0x691) | Exported Function | 0x0000000180007530 | 0x00007530
-`GetRgnBox` | 1714 (0x6b2) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`GetROP2` | 1709 (0x6ad) | Exported Function | 0x000000018000da70 | 0x0000da70
-`GetStockObject` | 1715 (0x6b3) | Exported Function | 0x0000000180003910 | 0x00003910
-`GetStretchBltMode` | 1716 (0x6b4) | Exported Function | 0x000000018000a580 | 0x0000a580
-`GetStringBitmapA` | 1717 (0x6b5) | Exported Function | 0x000000018000a5a0 | 0x0000a5a0
-`GetStringBitmapW` | 1718 (0x6b6) | Exported Function | 0x0000000180006530 | 0x00006530
-`GetSuggestedOPMProtectedOutputArraySize` | 1719 (0x6b7) | Exported Function | 0x0000000180006540 | 0x00006540
-`GetSystemPaletteEntries` | 1720 (0x6b8) | Exported Function | 0x00000001800052e0 | 0x000052e0
-`GetSystemPaletteUse` | 1721 (0x6b9) | Exported Function | 0x000000018000a5c0 | 0x0000a5c0
-`GetTextAlign` | 1722 (0x6ba) | Exported Function | 0x0000000180005040 | 0x00005040
-`GetTextCharacterExtra` | 1723 (0x6bb) | Exported Function | 0x000000018000db00 | 0x0000db00
-`GetTextCharset` | 1724 (0x6bc) | Exported Function | 0x0000000180007590 | 0x00007590
-`GetTextCharsetInfo` | 1725 (0x6bd) | Exported Function | 0x0000000180006550 | 0x00006550
-`GetTextColor` | 1726 (0x6be) | Exported Function | 0x0000000180005000 | 0x00005000
-`GetTextExtentExPointA` | 1727 (0x6bf) | Exported Function | 0x000000018000db40 | 0x0000db40
-`GetTextExtentExPointI` | 1728 (0x6c0) | Exported Function | 0x000000018000dbd0 | 0x0000dbd0
-`GetTextExtentExPointW` | 1729 (0x6c1) | Exported Function | 0x000000018000dc60 | 0x0000dc60
-`GetTextExtentExPointWPri` | 1730 (0x6c2) | Exported Function | 0x000000018000a5e0 | 0x0000a5e0
-`GetTextExtentPoint32A` | 1731 (0x6c3) | Exported Function | 0x000000018000dcf0 | 0x0000dcf0
-`GetTextExtentPoint32W` | 1732 (0x6c4) | Exported Function | 0x00000001800013d0 | 0x000013d0
-`GetTextExtentPointA` | 1733 (0x6c5) | Exported Function | 0x000000018000dd60 | 0x0000dd60
-`GetTextExtentPointI` | 1734 (0x6c6) | Exported Function | 0x000000018000ddd0 | 0x0000ddd0
-`GetTextExtentPointW` | 1735 (0x6c7) | Exported Function | 0x0000000180004f90 | 0x00004f90
-`GetTextFaceA` | 1736 (0x6c8) | Exported Function | 0x000000018000de40 | 0x0000de40
-`GetTextFaceAliasW` | 1737 (0x6c9) | Exported Function | 0x000000018000a600 | 0x0000a600
-`GetTextFaceW` | 1738 (0x6ca) | Exported Function | 0x00000001800075b0 | 0x000075b0
-`GetTextMetricsA` | 1739 (0x6cb) | Exported Function | 0x0000000180001060 | 0x00001060
-`GetRelAbs` | 1713 (0x6b1) | Exported Function | 0x000000018000a560 | 0x0000a560
-`GetCharABCWidthsFloatI` | 1621 (0x655) | Exported Function | 0x000000018000a0a0 | 0x0000a0a0
-`GetRegionData` | 1712 (0x6b0) | Exported Function | 0x0000000180003c90 | 0x00003c90
-`GetRandomRgn` | 1710 (0x6ae) | Exported Function | 0x0000000180008310 | 0x00008310
-`GetLayout` | 1682 (0x692) | Exported Function | 0x0000000180006820 | 0x00006820
-`GetLogColorSpaceA` | 1683 (0x693) | Exported Function | 0x000000018000a420 | 0x0000a420
-`GetLogColorSpaceW` | 1684 (0x694) | Exported Function | 0x000000018000a440 | 0x0000a440
-`GetMapMode` | 1685 (0x695) | Exported Function | 0x0000000180006dd0 | 0x00006dd0
-`GetMetaFileA` | 1686 (0x696) | Exported Function | 0x000000018000a460 | 0x0000a460
-`GetMetaFileBitsEx` | 1687 (0x697) | Exported Function | 0x000000018000d960 | 0x0000d960
-`GetMetaFileW` | 1688 (0x698) | Exported Function | 0x000000018000a480 | 0x0000a480
-`GetMetaRgn` | 1689 (0x699) | Exported Function | 0x000000018000a4a0 | 0x0000a4a0
-`GetMiterLimit` | 1690 (0x69a) | Exported Function | 0x000000018000a4c0 | 0x0000a4c0
-`GetNearestColor` | 1691 (0x69b) | Exported Function | 0x000000018000a4e0 | 0x0000a4e0
-`GetNearestPaletteIndex` | 1692 (0x69c) | Exported Function | 0x000000018000d9c0 | 0x0000d9c0
-`GetNumberOfPhysicalMonitors` | 1693 (0x69d) | Exported Function | 0x00000001800064e0 | 0x000064e0
-`GetObjectA` | 1696 (0x6a0) | Exported Function | 0x00000001800047a0 | 0x000047a0
-`GetObjectType` | 1697 (0x6a1) | Exported Function | 0x0000000180003d10 | 0x00003d10
-`GetObjectW` | 1698 (0x6a2) | Exported Function | 0x0000000180003f80 | 0x00003f80
-`GetOPMInformation` | 1694 (0x69e) | Exported Function | 0x00000001800064f0 | 0x000064f0
-`GetOPMRandomNumber` | 1695 (0x69f) | Exported Function | 0x0000000180006500 | 0x00006500
-`GetOutlineTextMetricsA` | 1699 (0x6a3) | Exported Function | 0x000000018000da10 | 0x0000da10
-`GetOutlineTextMetricsW` | 1700 (0x6a4) | Exported Function | 0x0000000180007550 | 0x00007550
-`GetPaletteEntries` | 1701 (0x6a5) | Exported Function | 0x0000000180005460 | 0x00005460
-`GetPath` | 1702 (0x6a6) | Exported Function | 0x000000018000a500 | 0x0000a500
-`GetPhysicalMonitorDescription` | 1703 (0x6a7) | Exported Function | 0x0000000180006510 | 0x00006510
-`GetPhysicalMonitors` | 1704 (0x6a8) | Exported Function | 0x0000000180006520 | 0x00006520
-`GetPixel` | 1705 (0x6a9) | Exported Function | 0x0000000180005260 | 0x00005260
-`GetPixelFormat` | 1706 (0x6aa) | Exported Function | 0x000000018000a520 | 0x0000a520
-`GetPolyFillMode` | 1707 (0x6ab) | Exported Function | 0x000000018000a540 | 0x0000a540
-`GetProcessSessionFonts` | 1708 (0x6ac) | Exported Function | 0x0000000180007570 | 0x00007570
-`GetRasterizerCaps` | 1711 (0x6af) | Exported Function | 0x000000018000dab0 | 0x0000dab0
-`GetTextMetricsW` | 1740 (0x6cc) | Exported Function | 0x0000000180003e70 | 0x00003e70
-`GetCharABCWidthsFloatA` | 1620 (0x654) | Exported Function | 0x000000018000a080 | 0x0000a080
-`GetCertificateSizeByHandle` | 1618 (0x652) | Exported Function | 0x00000001800064b0 | 0x000064b0
-`GdiEndDocEMF` | 1530 (0x5fa) | Exported Function | 0x0000000180009800 | 0x00009800
-`GdiEndPageEMF` | 1531 (0x5fb) | Exported Function | 0x0000000180009820 | 0x00009820
-`GdiEntry1` | 1532 (0x5fc) | Exported Function | 0x0000000180009840 | 0x00009840
-`GdiEntry10` | 1533 (0x5fd) | Exported Function | 0x0000000180009860 | 0x00009860
-`GdiEntry11` | 1534 (0x5fe) | Exported Function | 0x0000000180009880 | 0x00009880
-`GdiEntry12` | 1535 (0x5ff) | Exported Function | 0x00000001800098a0 | 0x000098a0
-`GdiEntry13` | 1536 (0x600) | Exported Function | 0x0000000180004370 | 0x00004370
-`GdiEntry14` | 1537 (0x601) | Exported Function | 0x00000001800098c0 | 0x000098c0
-`GdiEntry15` | 1538 (0x602) | Exported Function | 0x00000001800098e0 | 0x000098e0
-`GdiEntry16` | 1539 (0x603) | Exported Function | 0x0000000180009900 | 0x00009900
-`GdiEntry2` | 1540 (0x604) | Exported Function | 0x0000000180009920 | 0x00009920
-`GdiEntry3` | 1541 (0x605) | Exported Function | 0x0000000180009940 | 0x00009940
-`GdiDrawStream` | 1529 (0x5f9) | Exported Function | 0x00000001800097e0 | 0x000097e0
-`GdiEntry4` | 1542 (0x606) | Exported Function | 0x0000000180009960 | 0x00009960
-`GdiEntry6` | 1544 (0x608) | Exported Function | 0x00000001800099a0 | 0x000099a0
-`GdiEntry7` | 1545 (0x609) | Exported Function | 0x00000001800099c0 | 0x000099c0
-`GdiEntry8` | 1546 (0x60a) | Exported Function | 0x00000001800099e0 | 0x000099e0
-`GdiEntry9` | 1547 (0x60b) | Exported Function | 0x0000000180009a00 | 0x00009a00
-`GdiFixUpHandle` | 1548 (0x60c) | Exported Function | 0x0000000180009a20 | 0x00009a20
-`GdiFlush` | 1549 (0x60d) | Exported Function | 0x0000000180006c90 | 0x00006c90
-`GdiFullscreenControl` | 1550 (0x60e) | Exported Function | 0x0000000180006420 | 0x00006420
-`GdiGetBatchLimit` | 1551 (0x60f) | Exported Function | 0x0000000180009a40 | 0x00009a40
-`GdiGetBitmapBitsSize` | 1552 (0x610) | Exported Function | 0x0000000180009a60 | 0x00009a60
-`GdiGetCharDimensions` | 1553 (0x611) | Exported Function | 0x0000000180009a80 | 0x00009a80
-`GdiGetCodePage` | 1554 (0x612) | Exported Function | 0x0000000180009aa0 | 0x00009aa0
-`GdiGetDC` | 1555 (0x613) | Exported Function | 0x0000000180009ac0 | 0x00009ac0
-`GdiEntry5` | 1543 (0x607) | Exported Function | 0x0000000180009980 | 0x00009980
-`GdiDllInitialize` | 1528 (0x5f8) | Exported Function | 0x00000001800082f0 | 0x000082f0
-`GdiDescribePixelFormat` | 1527 (0x5f7) | Exported Function | 0x00000001800097c0 | 0x000097c0
-`GdiDeleteSpoolFileHandle` | 1526 (0x5f6) | Exported Function | 0x00000001800097a0 | 0x000097a0
-`g_systemCallFilterId` | 1973 (0x7b5) | Exported Function | 0x00000001800237a0 | 0x000237a0
-`Gdi32DllInitialize` | 1500 (0x5dc) | Exported Function | 0x00000001800048d0 | 0x000048d0
-`GdiAddFontResourceW` | 1501 (0x5dd) | Exported Function | 0x0000000180009460 | 0x00009460
-`GdiAddGlsBounds` | 1502 (0x5de) | Exported Function | 0x0000000180009480 | 0x00009480
-`GdiAddGlsRecord` | 1503 (0x5df) | Exported Function | 0x00000001800094a0 | 0x000094a0
-`GdiAddInitialFonts` | 1504 (0x5e0) | Exported Function | 0x00000001800094c0 | 0x000094c0
-`GdiAlphaBlend` | 1505 (0x5e1) | Exported Function | 0x0000000180006bf0 | 0x00006bf0
-`GdiArtificialDecrementDriver` | 1506 (0x5e2) | Exported Function | 0x00000001800094e0 | 0x000094e0
-`GdiBatchLimit` | 1507 (0x5e3) | Exported Function | 0x0000000180023790 | 0x00023790
-`GdiCleanCacheDC` | 1508 (0x5e4) | Exported Function | 0x0000000180009500 | 0x00009500
-`GdiComment` | 1509 (0x5e5) | Exported Function | 0x000000018000d630 | 0x0000d630
-`GdiConsoleTextOut` | 1510 (0x5e6) | Exported Function | 0x0000000180009520 | 0x00009520
-`GdiConvertAndCheckDC` | 1511 (0x5e7) | Exported Function | 0x0000000180009540 | 0x00009540
-`GdiConvertBitmap` | 1512 (0x5e8) | Exported Function | 0x0000000180009560 | 0x00009560
-`GdiConvertBitmapV5` | 1513 (0x5e9) | Exported Function | 0x0000000180009580 | 0x00009580
-`GdiConvertBrush` | 1514 (0x5ea) | Exported Function | 0x00000001800095a0 | 0x000095a0
-`GdiConvertDC` | 1515 (0x5eb) | Exported Function | 0x00000001800095c0 | 0x000095c0
-`GdiConvertEnhMetaFile` | 1516 (0x5ec) | Exported Function | 0x00000001800095e0 | 0x000095e0
-`GdiConvertFont` | 1517 (0x5ed) | Exported Function | 0x0000000180009600 | 0x00009600
-`GdiConvertMetaFilePict` | 1518 (0x5ee) | Exported Function | 0x0000000180009620 | 0x00009620
-`GdiConvertPalette` | 1519 (0x5ef) | Exported Function | 0x0000000180009640 | 0x00009640
-`GdiConvertRegion` | 1520 (0x5f0) | Exported Function | 0x0000000180009660 | 0x00009660
-`GdiConvertToDevmodeW` | 1521 (0x5f1) | Exported Function | 0x0000000180009680 | 0x00009680
-`GdiCreateLocalEnhMetaFile` | 1522 (0x5f2) | Exported Function | 0x00000001800096a0 | 0x000096a0
-`GdiCreateLocalMetaFilePict` | 1523 (0x5f3) | Exported Function | 0x00000001800096c0 | 0x000096c0
-`GdiCurrentProcessSplWow64` | 1524 (0x5f4) | Exported Function | 0x00000001800096e0 | 0x000096e0
-`GdiDeleteLocalDC` | 1525 (0x5f5) | Exported Function | 0x0000000180009780 | 0x00009780
-`GdiGetDevmodeForPage` | 1556 (0x614) | Exported Function | 0x0000000180009ae0 | 0x00009ae0
-`GdiGetEntry` | 1557 (0x615) | Exported Function | 0x00000001800026b0 | 0x000026b0
-`GdiGetLocalBrush` | 1558 (0x616) | Exported Function | 0x0000000180009b00 | 0x00009b00
-`GdiGetLocalDC` | 1559 (0x617) | Exported Function | 0x0000000180009b20 | 0x00009b20
-`GdiSetAttrs` | 1590 (0x636) | Exported Function | 0x0000000180009e60 | 0x00009e60
-`GdiSetBatchLimit` | 1591 (0x637) | Exported Function | 0x0000000180009e80 | 0x00009e80
-`GdiSetLastError` | 1592 (0x638) | Exported Function | 0x0000000180005350 | 0x00005350
-`GdiSetPixelFormat` | 1593 (0x639) | Exported Function | 0x0000000180009ea0 | 0x00009ea0
-`GdiSetServerAttr` | 1594 (0x63a) | Exported Function | 0x0000000180009ec0 | 0x00009ec0
-`GdiStartDocEMF` | 1595 (0x63b) | Exported Function | 0x0000000180009ee0 | 0x00009ee0
-`GdiStartPageEMF` | 1596 (0x63c) | Exported Function | 0x0000000180009f00 | 0x00009f00
-`GdiSupportsFontChangeEvent` | 1597 (0x63d) | Exported Function | 0x0000000180008300 | 0x00008300
-`GdiSwapBuffers` | 1598 (0x63e) | Exported Function | 0x0000000180009f20 | 0x00009f20
-`GdiTrackHCreate` | 1599 (0x63f) | Exported Function | 0x0000000180009f40 | 0x00009f40
-`GdiTrackHDelete` | 1600 (0x640) | Exported Function | 0x0000000180009f60 | 0x00009f60
-`GdiTransparentBlt` | 1601 (0x641) | Exported Function | 0x0000000180006d50 | 0x00006d50
-`GdiValidateHandle` | 1602 (0x642) | Exported Function | 0x0000000180009f80 | 0x00009f80
-`GetArcDirection` | 1603 (0x643) | Exported Function | 0x0000000180009fa0 | 0x00009fa0
-`GetAspectRatioFilterEx` | 1604 (0x644) | Exported Function | 0x0000000180009fc0 | 0x00009fc0
-`GetBitmapAttributes` | 1605 (0x645) | Exported Function | 0x0000000180009fe0 | 0x00009fe0
-`GetBitmapBits` | 1606 (0x646) | Exported Function | 0x0000000180005080 | 0x00005080
-`GetBitmapDimensionEx` | 1607 (0x647) | Exported Function | 0x000000018000a000 | 0x0000a000
-`GetBitmapDpiScaleValue` | 1608 (0x648) | Exported Function | 0x0000000180006460 | 0x00006460
-`GetBkColor` | 1609 (0x649) | Exported Function | 0x0000000180004f50 | 0x00004f50
-`GetBkMode` | 1610 (0x64a) | Exported Function | 0x0000000180006d70 | 0x00006d70
-`GetBoundsRect` | 1611 (0x64b) | Exported Function | 0x000000018000a020 | 0x0000a020
-`GetBrushAttributes` | 1612 (0x64c) | Exported Function | 0x000000018000a040 | 0x0000a040
-`GetBrushOrgEx` | 1613 (0x64d) | Exported Function | 0x0000000180006d90 | 0x00006d90
-`GetCertificate` | 1615 (0x64f) | Exported Function | 0x0000000180006480 | 0x00006480
-`GetCertificateByHandle` | 1616 (0x650) | Exported Function | 0x0000000180006490 | 0x00006490
-`GetCertificateSize` | 1617 (0x651) | Exported Function | 0x00000001800064a0 | 0x000064a0
-`GdiResetDCEMF` | 1589 (0x635) | Exported Function | 0x0000000180009e40 | 0x00009e40
-`GetCharABCWidthsA` | 1619 (0x653) | Exported Function | 0x000000018000a060 | 0x0000a060
-`GdiReleaseLocalDC` | 1588 (0x634) | Exported Function | 0x0000000180009e20 | 0x00009e20
-`GdiRealizationInfo` | 1586 (0x632) | Exported Function | 0x0000000180009e00 | 0x00009e00
-`GdiGetLocalFont` | 1560 (0x618) | Exported Function | 0x0000000180009b40 | 0x00009b40
-`GdiGetPageCount` | 1561 (0x619) | Exported Function | 0x0000000180009b60 | 0x00009b60
-`GdiGetPageHandle` | 1562 (0x61a) | Exported Function | 0x0000000180009b80 | 0x00009b80
-`GdiGetSpoolFileHandle` | 1563 (0x61b) | Exported Function | 0x0000000180009ba0 | 0x00009ba0
-`GdiGetSpoolMessage` | 1564 (0x61c) | Exported Function | 0x0000000180006430 | 0x00006430
-`GdiGetVariationStoreDelta` | 1565 (0x61d) | Exported Function | 0x0000000180009bc0 | 0x00009bc0
-`GdiGradientFill` | 1566 (0x61e) | Exported Function | 0x0000000180006d30 | 0x00006d30
-`GdiInitializeLanguagePack` | 1568 (0x620) | Exported Function | 0x0000000180009be0 | 0x00009be0
-`GdiInitSpool` | 1567 (0x61f) | Exported Function | 0x0000000180006440 | 0x00006440
-`GdiIsMetaFileDC` | 1569 (0x621) | Exported Function | 0x0000000180009c00 | 0x00009c00
-`GdiIsMetaPrintDC` | 1570 (0x622) | Exported Function | 0x0000000180009c20 | 0x00009c20
-`GdiIsPlayMetafileDC` | 1571 (0x623) | Exported Function | 0x0000000180009c40 | 0x00009c40
-`GdiIsScreenDC` | 1572 (0x624) | Exported Function | 0x0000000180009c60 | 0x00009c60
-`GdiIsTrackingEnabled` | 1573 (0x625) | Exported Function | 0x0000000180009c80 | 0x00009c80
-`GdiIsUMPDSandboxingEnabled` | 1574 (0x626) | Exported Function | 0x0000000180009ca0 | 0x00009ca0
-`GdiLoadType1Fonts` | 1575 (0x627) | Exported Function | 0x0000000180009cc0 | 0x00009cc0
-`GdiPlayDCScript` | 1576 (0x628) | Exported Function | 0x0000000180009ce0 | 0x00009ce0
-`GdiPlayEMF` | 1577 (0x629) | Exported Function | 0x0000000180009d00 | 0x00009d00
-`GdiPlayJournal` | 1578 (0x62a) | Exported Function | 0x0000000180009d20 | 0x00009d20
-`GdiPlayPageEMF` | 1579 (0x62b) | Exported Function | 0x0000000180009d40 | 0x00009d40
-`GdiPlayPrivatePageEMF` | 1580 (0x62c) | Exported Function | 0x0000000180009d60 | 0x00009d60
-`GdiPlayScript` | 1581 (0x62d) | Exported Function | 0x0000000180009d80 | 0x00009d80
-`gdiPlaySpoolStream` | 1974 (0x7b6) | Exported Function | 0x000000018000ad40 | 0x0000ad40
-`GdiPrinterThunk` | 1582 (0x62e) | Exported Function | 0x0000000180009da0 | 0x00009da0
-`GdiProcessSetup` | 1583 (0x62f) | Exported Function | 0x0000000180009dc0 | 0x00009dc0
-`GdiQueryFonts` | 1584 (0x630) | Exported Function | 0x0000000180006450 | 0x00006450
-`GdiQueryTable` | 1585 (0x631) | Exported Function | 0x0000000180009de0 | 0x00009de0
-`GdiReleaseDC` | 1587 (0x633) | Exported Function | 0x00000001800030f0 | 0x000030f0
-`ftsWordBreak` | 1970 (0x7b2) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ftsWordBreak | 0x00020b1e
-`GetTransform` | 1741 (0x6cd) | Exported Function | 0x000000018000a620 | 0x0000a620
-`GetViewportOrgEx` | 1743 (0x6cf) | Exported Function | 0x0000000180004750 | 0x00004750
-`SelectObject` | 1881 (0x759) | Exported Function | 0x0000000180003660 | 0x00003660
-`SelectPalette` | 1882 (0x75a) | Exported Function | 0x0000000180004ef0 | 0x00004ef0
-`semDxTrimNotification` | 1981 (0x7bd) | Exported Function | 0x0000000180023800 | 0x00023800
-`SetAbortProc` | 1883 (0x75b) | Exported Function | 0x000000018000a980 | 0x0000a980
-`SetArcDirection` | 1884 (0x75c) | Exported Function | 0x000000018000a9a0 | 0x0000a9a0
-`SetBitmapAttributes` | 1885 (0x75d) | Exported Function | 0x000000018000a9c0 | 0x0000a9c0
-`SetBitmapBits` | 1886 (0x75e) | Exported Function | 0x0000000180004bb0 | 0x00004bb0
-`SetBitmapDimensionEx` | 1887 (0x75f) | Exported Function | 0x000000018000a9e0 | 0x0000a9e0
-`SetBkColor` | 1888 (0x760) | Exported Function | 0x0000000180003ee0 | 0x00003ee0
-`SetBkMode` | 1889 (0x761) | Exported Function | 0x0000000180003ad0 | 0x00003ad0
-`SetBoundsRect` | 1890 (0x762) | Exported Function | 0x000000018000aa00 | 0x0000aa00
-`SetBrushAttributes` | 1891 (0x763) | Exported Function | 0x000000018000aa20 | 0x0000aa20
-`SelectFontLocal` | 1880 (0x758) | Exported Function | 0x000000018000a960 | 0x0000a960
-`SetBrushOrgEx` | 1892 (0x764) | Exported Function | 0x0000000180006eb0 | 0x00006eb0
-`SetColorSpace` | 1894 (0x766) | Exported Function | 0x000000018000aa60 | 0x0000aa60
-`SetDCBrushColor` | 1895 (0x767) | Exported Function | 0x0000000180006840 | 0x00006840
-`SetDCPenColor` | 1896 (0x768) | Exported Function | 0x000000018000aa80 | 0x0000aa80
-`SetDeviceGammaRamp` | 1900 (0x76c) | Exported Function | 0x00000001800080a0 | 0x000080a0
-`SetDIBColorTable` | 1897 (0x769) | Exported Function | 0x0000000180006ed0 | 0x00006ed0
-`SetDIBits` | 1898 (0x76a) | Exported Function | 0x00000001800044d0 | 0x000044d0
-`SetDIBitsToDevice` | 1899 (0x76b) | Exported Function | 0x0000000180006ef0 | 0x00006ef0
-`SetEnhMetaFileBits` | 1901 (0x76d) | Exported Function | 0x0000000180007af0 | 0x00007af0
-`SetFontEnumeration` | 1902 (0x76e) | Exported Function | 0x000000018000aaa0 | 0x0000aaa0
-`SetGraphicsMode` | 1903 (0x76f) | Exported Function | 0x0000000180006f10 | 0x00006f10
-`SetICMMode` | 1904 (0x770) | Exported Function | 0x0000000180004c10 | 0x00004c10
-`SetICMProfileA` | 1905 (0x771) | Exported Function | 0x000000018000aac0 | 0x0000aac0
-`SetColorAdjustment` | 1893 (0x765) | Exported Function | 0x000000018000aa40 | 0x0000aa40
-`SelectClipRgn` | 1879 (0x757) | Exported Function | 0x0000000180003e00 | 0x00003e00
-`SelectClipPath` | 1878 (0x756) | Exported Function | 0x0000000180005740 | 0x00005740
-`SelectBrushLocal` | 1877 (0x755) | Exported Function | 0x000000018000a940 | 0x0000a940
-`ScriptGetLogicalWidths` | 1850 (0x73a) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptGetLogicalWidths | 0x0001fd69
-`ScriptGetProperties` | 1851 (0x73b) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptGetProperties | 0x0001fdac
-`ScriptIsComplex` | 1852 (0x73c) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptIsComplex | 0x0001fde8
-`ScriptItemize` | 1853 (0x73d) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptItemize | 0x0001fe2d
-`ScriptItemizeOpenType` | 1854 (0x73e) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptItemizeOpenType | 0x0001fe69
-`ScriptJustify` | 1855 (0x73f) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptJustify | 0x0001feb4
-`ScriptLayout` | 1856 (0x740) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptLayout | 0x0001fef6
-`ScriptPlace` | 1857 (0x741) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptPlace | 0x0001ff36
-`ScriptPlaceOpenType` | 1858 (0x742) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptPlaceOpenType | 0x0001ff6e
-`ScriptPositionSingleGlyph` | 1859 (0x743) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptPositionSingleGlyph | 0x0001ffc3
-`ScriptRecordDigitSubstitution` | 1860 (0x744) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptRecordDigitSubstitution | 0x00020022
-`ScriptShape` | 1861 (0x745) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptShape | 0x00020073
-`ScriptShapeOpenType` | 1862 (0x746) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptShapeOpenType | 0x000200ab
-`ScriptString_pcOutChars` | 1873 (0x751) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptString_pcOutChars | 0x000203da
-`ScriptString_pLogAttr` | 1871 (0x74f) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptString_pLogAttr | 0x00020347
-`ScriptString_pSize` | 1872 (0x750) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptString_pSize | 0x00020388
-`ScriptStringAnalyse` | 1863 (0x747) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptStringAnalyse | 0x000200fa
-`ScriptStringCPtoX` | 1864 (0x748) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptStringCPtoX | 0x00020138
-`ScriptStringFree` | 1865 (0x749) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptStringFree | 0x00020182
-`ScriptStringGetLogicalWidths` | 1866 (0x74a) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptStringGetLogicalWidths | 0x000201c8
-`ScriptStringGetOrder` | 1867 (0x74b) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptStringGetOrder | 0x00020221
-`ScriptStringOut` | 1868 (0x74c) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptStringOut | 0x0002026d
-`ScriptStringValidate` | 1869 (0x74d) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptStringValidate | 0x000202b9
-`ScriptStringXtoCP` | 1870 (0x74e) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptStringXtoCP | 0x000202f8
-`ScriptSubstituteSingleGlyph` | 1874 (0x752) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptSubstituteSingleGlyph | 0x00020435
-`ScriptTextOut` | 1875 (0x753) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptTextOut | 0x00020477
-`ScriptXtoCP` | 1876 (0x754) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptXtoCP | 0x000204a9
-`SetICMProfileW` | 1906 (0x772) | Exported Function | 0x000000018000aae0 | 0x0000aae0
-`SetLayout` | 1907 (0x773) | Exported Function | 0x0000000180006f30 | 0x00006f30
-`SetLayoutWidth` | 1908 (0x774) | Exported Function | 0x000000018000ab00 | 0x0000ab00
-`SetMagicColors` | 1909 (0x775) | Exported Function | 0x0000000180006640 | 0x00006640
-`StretchBlt` | 1941 (0x795) | Exported Function | 0x0000000180004ce0 | 0x00004ce0
-`StretchDIBits` | 1942 (0x796) | Exported Function | 0x0000000180004000 | 0x00004000
-`STROBJ_bEnum` | 1827 (0x723) | Exported Function | 0x00000001800065d0 | 0x000065d0
-`STROBJ_bEnumPositionsOnly` | 1828 (0x724) | Exported Function | 0x00000001800065e0 | 0x000065e0
-`STROBJ_bGetAdvanceWidths` | 1829 (0x725) | Exported Function | 0x00000001800065f0 | 0x000065f0
-`STROBJ_dwGetCodePage` | 1830 (0x726) | Exported Function | 0x0000000180006600 | 0x00006600
-`STROBJ_vEnumStart` | 1831 (0x727) | Exported Function | 0x0000000180006610 | 0x00006610
-`StrokeAndFillPath` | 1943 (0x797) | Exported Function | 0x000000018000ac20 | 0x0000ac20
-`StrokePath` | 1944 (0x798) | Exported Function | 0x000000018000e640 | 0x0000e640
-`SwapBuffers` | 1945 (0x799) | Exported Function | 0x0000000180006f70 | 0x00006f70
-`TextOutA` | 1946 (0x79a) | Exported Function | 0x000000018000e680 | 0x0000e680
-`TextOutW` | 1947 (0x79b) | Exported Function | 0x0000000180007610 | 0x00007610
-`TranslateCharsetInfo` | 1948 (0x79c) | Exported Function | 0x0000000180004290 | 0x00004290
-`UnloadNetworkFonts` | 1949 (0x79d) | Exported Function | 0x000000018000ac40 | 0x0000ac40
-`UnrealizeObject` | 1950 (0x79e) | Exported Function | 0x000000018000e6f0 | 0x0000e6f0
-`UpdateColors` | 1951 (0x79f) | Exported Function | 0x000000018000e730 | 0x0000e730
-`UpdateICMRegKeyA` | 1952 (0x7a0) | Exported Function | 0x000000018000ac60 | 0x0000ac60
-`UpdateICMRegKeyW` | 1953 (0x7a1) | Exported Function | 0x000000018000ac80 | 0x0000ac80
-`UspAllocCache` | 1954 (0x7a2) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.UspAllocCache | 0x00020976
-`UspAllocTemp` | 1955 (0x7a3) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.UspAllocTemp | 0x000209b8
-`UspFreeMem` | 1956 (0x7a4) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.UspFreeMem | 0x000209f7
-`vSetPldc` | 1982 (0x7be) | Exported Function | 0x0000000180005b00 | 0x00005b00
-`WidenPath` | 1957 (0x7a5) | Exported Function | 0x000000018000aca0 | 0x0000aca0
-`XFORMOBJ_bApplyXform` | 1958 (0x7a6) | Exported Function | 0x0000000180006660 | 0x00006660
-`XFORMOBJ_iGetXform` | 1959 (0x7a7) | Exported Function | 0x0000000180006670 | 0x00006670
-`XLATEOBJ_cGetPalette` | 1960 (0x7a8) | Exported Function | 0x0000000180006680 | 0x00006680
-`XLATEOBJ_hGetColorTransform` | 1961 (0x7a9) | Exported Function | 0x0000000180006690 | 0x00006690
-`StartPage` | 1940 (0x794) | Exported Function | 0x00000001800059f0 | 0x000059f0
-`ScriptGetGlyphABCWidth` | 1849 (0x739) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptGetGlyphABCWidth | 0x0001fd14
-`StartFormPage` | 1939 (0x793) | Exported Function | 0x000000018000ac00 | 0x0000ac00
-`StartDocA` | 1937 (0x791) | Exported Function | 0x000000018000e5a0 | 0x0000e5a0
-`SetMapMode` | 1910 (0x776) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`SetMapperFlags` | 1911 (0x777) | Exported Function | 0x000000018000ab20 | 0x0000ab20
-`SetMetaFileBitsEx` | 1912 (0x778) | Exported Function | 0x000000018000e400 | 0x0000e400
-`SetMetaRgn` | 1913 (0x779) | Exported Function | 0x0000000180008340 | 0x00008340
-`SetMiterLimit` | 1914 (0x77a) | Exported Function | 0x00000001800056c0 | 0x000056c0
-`SetOPMSigningKeyAndSequenceNumbers` | 1915 (0x77b) | Exported Function | 0x0000000180006650 | 0x00006650
-`SetPaletteEntries` | 1916 (0x77c) | Exported Function | 0x000000018000e450 | 0x0000e450
-`SetPixel` | 1917 (0x77d) | Exported Function | 0x00000001800053b0 | 0x000053b0
-`SetPixelFormat` | 1918 (0x77e) | Exported Function | 0x0000000180006f50 | 0x00006f50
-`SetPixelV` | 1919 (0x77f) | Exported Function | 0x000000018000ab40 | 0x0000ab40
-`SetPolyFillMode` | 1920 (0x780) | Exported Function | 0x0000000180005720 | 0x00005720
-`SetRectRgn` | 1922 (0x782) | Exported Function | 0x0000000180001680 | 0x00001680
-`SetRelAbs` | 1923 (0x783) | Exported Function | 0x000000018000ab60 | 0x0000ab60
-`SetROP2` | 1921 (0x781) | Exported Function | 0x0000000180001010 | 0x00001010
-`SetStretchBltMode` | 1924 (0x784) | Exported Function | 0x0000000180004240 | 0x00004240
-`SetSystemPaletteUse` | 1925 (0x785) | Exported Function | 0x000000018000ab80 | 0x0000ab80
-`SetTextAlign` | 1926 (0x786) | Exported Function | 0x0000000180003b20 | 0x00003b20
-`SetTextCharacterExtra` | 1927 (0x787) | Exported Function | 0x00000001800075f0 | 0x000075f0
-`SetTextColor` | 1928 (0x788) | Exported Function | 0x0000000180003c40 | 0x00003c40
-`SetTextJustification` | 1929 (0x789) | Exported Function | 0x000000018000aba0 | 0x0000aba0
-`SetViewportExtEx` | 1930 (0x78a) | Exported Function | 0x000000018000e4c0 | 0x0000e4c0
-`SetViewportOrgEx` | 1931 (0x78b) | Exported Function | 0x0000000180004130 | 0x00004130
-`SetVirtualResolution` | 1932 (0x78c) | Exported Function | 0x000000018000abc0 | 0x0000abc0
-`SetWindowExtEx` | 1934 (0x78e) | Exported Function | 0x000000018000e530 | 0x0000e530
-`SetWindowOrgEx` | 1935 (0x78f) | Exported Function | 0x0000000180004390 | 0x00004390
-`SetWinMetaFileBits` | 1933 (0x78d) | Exported Function | 0x000000018000abe0 | 0x0000abe0
-`SetWorldTransform` | 1936 (0x790) | Exported Function | 0x00000001800041a0 | 0x000041a0
-`StartDocW` | 1938 (0x792) | Exported Function | 0x000000018000e5f0 | 0x0000e5f0
-`GetViewportExtEx` | 1742 (0x6ce) | Exported Function | 0x000000018000a640 | 0x0000a640
-`ScriptGetFontScriptTags` | 1848 (0x738) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptGetFontScriptTags | 0x0001fcbe
-`ScriptGetFontLanguageTags` | 1846 (0x736) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptGetFontLanguageTags | 0x0001fc0e
-`LPtoDP` | 1756 (0x6dc) | Exported Function | 0x0000000180004400 | 0x00004400
-`MaskBlt` | 1772 (0x6ec) | Exported Function | 0x000000018000a6c0 | 0x0000a6c0
-`MirrorRgn` | 1773 (0x6ed) | Exported Function | 0x000000018000a6e0 | 0x0000a6e0
-`ModerncoreCreateICW` | 1774 (0x6ee) | Exported Function | 0x000000018000c700 | 0x0000c700
-`ModerncoreDeleteDC` | 1775 (0x6ef) | Exported Function | 0x000000018000c7a0 | 0x0000c7a0
-`ModerncoreGdiInit` | 1776 (0x6f0) | Exported Function | 0x0000000180008320 | 0x00008320
-`ModifyWorldTransform` | 1777 (0x6f1) | Exported Function | 0x000000018000a700 | 0x0000a700
-`MoveToEx` | 1778 (0x6f2) | Exported Function | 0x0000000180003a60 | 0x00003a60
-`NamedEscape` | 1779 (0x6f3) | Exported Function | 0x000000018000a720 | 0x0000a720
-`OffsetClipRgn` | 1780 (0x6f4) | Exported Function | 0x000000018000a740 | 0x0000a740
-`OffsetRgn` | 1781 (0x6f5) | Exported Function | 0x0000000180001740 | 0x00001740
-`OffsetViewportOrgEx` | 1782 (0x6f6) | Exported Function | 0x0000000180006e50 | 0x00006e50
-`LpkUseGDIWidthCache` | 1769 (0x6e9) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.LpkUseGDIWidthCache | 0x0001f52c
-`OffsetWindowOrgEx` | 1783 (0x6f7) | Exported Function | 0x0000000180006e70 | 0x00006e70
-`Ordinal1001` | 1001 (0x3e9) | Exported Function | 0x0000000180008040 | 0x00008040
-`Ordinal1002` | 1002 (0x3ea) | Exported Function | 0x0000000180008060 | 0x00008060
-`Ordinal1003` | 1003 (0x3eb) | Exported Function | 0x0000000180007fa0 | 0x00007fa0
-`Ordinal1004` | 1004 (0x3ec) | Exported Function | 0x0000000180004de0 | 0x00004de0
-`Ordinal1005` | 1005 (0x3ed) | Exported Function | 0x0000000180008080 | 0x00008080
-`Ordinal1006` | 1006 (0x3ee) | Exported Function | 0x0000000180007f80 | 0x00007f80
-`Ordinal1007` | 1007 (0x3ef) | Exported Function | 0x0000000180007fe0 | 0x00007fe0
-`Ordinal1008` | 1008 (0x3f0) | Exported Function | 0x000000018000d1b0 | 0x0000d1b0
-`Ordinal1009` | 1009 (0x3f1) | Exported Function | 0x0000000180008000 | 0x00008000
-`Ordinal1010` | 1010 (0x3f2) | Exported Function | 0x0000000180007fc0 | 0x00007fc0
-`Ordinal1013` | 1013 (0x3f5) | Exported Function | 0x0000000180007ee0 | 0x00007ee0
-`Ordinal1015` | 1015 (0x3f7) | Exported Function | 0x000000018000c2f0 | 0x0000c2f0
-`Ordinal1000` | 1000 (0x3e8) | Exported Function | 0x0000000180008020 | 0x00008020
-`LpkTabbedTextOut` | 1768 (0x6e8) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.LpkTabbedTextOut | 0x0001f4e0
-`LpkPSMTextOut` | 1766 (0x6e6) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.LpkPSMTextOut | 0x0001f45d
-`LpkPresent` | 1767 (0x6e7) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.LpkPresent | 0x0001f49d
-`GetWindowExtEx` | 1745 (0x6d1) | Exported Function | 0x0000000180006df0 | 0x00006df0
-`GetWindowOrgEx` | 1746 (0x6d2) | Exported Function | 0x0000000180006e10 | 0x00006e10
-`GetWinMetaFileBits` | 1744 (0x6d0) | Exported Function | 0x0000000180007ad0 | 0x00007ad0
-`GetWorldTransform` | 1747 (0x6d3) | Exported Function | 0x0000000180006e30 | 0x00006e30
-`ghICM` | 1975 (0x7b7) | Exported Function | 0x00000001800237e0 | 0x000237e0
-`gMaxGdiHandleCount` | 1971 (0x7b3) | Exported Function | 0x00000001800237d0 | 0x000237d0
-`gW32PID` | 1972 (0x7b4) | Exported Function | 0x00000001800237e8 | 0x000237e8
-`hGetPEBHandle` | 1976 (0x7b8) | Exported Function | 0x00000001800018f0 | 0x000018f0
-`HT_Get8BPPFormatPalette` | 1748 (0x6d4) | Exported Function | 0x0000000180006560 | 0x00006560
-`HT_Get8BPPMaskPalette` | 1749 (0x6d5) | Exported Function | 0x0000000180006570 | 0x00006570
-`InternalDeleteDC` | 1750 (0x6d6) | Exported Function | 0x0000000180002cf0 | 0x00002cf0
-`InternalDeleteObject` | 1751 (0x6d7) | Exported Function | 0x00000001800021b0 | 0x000021b0
-`IntersectClipRect` | 1752 (0x6d8) | Exported Function | 0x0000000180004340 | 0x00004340
-`InvertRgn` | 1753 (0x6d9) | Exported Function | 0x000000018000dea0 | 0x0000dea0
-`IsValidEnhMetaRecord` | 1754 (0x6da) | Exported Function | 0x000000018000a660 | 0x0000a660
-`IsValidEnhMetaRecordOffExt` | 1755 (0x6db) | Exported Function | 0x000000018000a680 | 0x0000a680
-`LineDDA` | 1757 (0x6dd) | Exported Function | 0x000000018000a6a0 | 0x0000a6a0
-`LineTo` | 1758 (0x6de) | Exported Function | 0x00000001800058b0 | 0x000058b0
-`LpkDrawTextEx` | 1759 (0x6df) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.LpkDrawTextEx | 0x0001f2c3
-`LpkEditControl` | 1760 (0x6e0) | Exported Function | 0x0000000180023720 | 0x00023720
-`LpkExtTextOut` | 1761 (0x6e1) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.LpkExtTextOut | 0x0001f315
-`LpkGetCharacterPlacement` | 1762 (0x6e2) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.LpkGetCharacterPlacement | 0x0001f363
-`LpkGetEditControl` | 1763 (0x6e3) | Exported Function | 0x0000000180005130 | 0x00005130
-`LpkGetTextExtentExPoint` | 1764 (0x6e4) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.LpkGetTextExtentExPoint | 0x0001f3cd
-`LpkInitialize` | 1765 (0x6e5) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.LpkInitialize | 0x0001f41a
-`LpkpEditControlSize` | 1770 (0x6ea) | Exported Function | 0x000000018001134c | 0x0001134c
-`LpkpInitializeEditControl` | 1771 (0x6eb) | Exported Function | 0x0000000180004b00 | 0x00004b00
-`Ordinal1016` | 1016 (0x3f8) | Exported Function | 0x00000001800052c0 | 0x000052c0
-`PaintRgn` | 1789 (0x6fd) | Exported Function | 0x000000018000a760 | 0x0000a760
-`PatBlt` | 1790 (0x6fe) | Exported Function | 0x0000000180003d80 | 0x00003d80
-`PATHOBJ_bEnum` | 1784 (0x6f8) | Exported Function | 0x0000000180006580 | 0x00006580
-`RectInRegion` | 1813 (0x715) | Exported Function | 0x000000018000c9c0 | 0x0000c9c0
-`RectVisible` | 1814 (0x716) | Exported Function | 0x00000001800042f0 | 0x000042f0
-`RemoveFontMemResourceEx` | 1816 (0x718) | Exported Function | 0x00000001800075d0 | 0x000075d0
-`RemoveFontResourceA` | 1817 (0x719) | Exported Function | 0x000000018000e250 | 0x0000e250
-`RemoveFontResourceExA` | 1818 (0x71a) | Exported Function | 0x000000018000a880 | 0x0000a880
-`RemoveFontResourceExW` | 1819 (0x71b) | Exported Function | 0x000000018000a8a0 | 0x0000a8a0
-`RemoveFontResourceTracking` | 1820 (0x71c) | Exported Function | 0x000000018000a8c0 | 0x0000a8c0
-`RemoveFontResourceW` | 1821 (0x71d) | Exported Function | 0x000000018000e290 | 0x0000e290
-`ResetDCA` | 1822 (0x71e) | Exported Function | 0x000000018000a8e0 | 0x0000a8e0
-`ResetDCW` | 1823 (0x71f) | Exported Function | 0x000000018000e2d0 | 0x0000e2d0
-`ResizePalette` | 1824 (0x720) | Exported Function | 0x000000018000e320 | 0x0000e320
-`RestoreDC` | 1825 (0x721) | Exported Function | 0x00000001800040e0 | 0x000040e0
-`RoundRect` | 1826 (0x722) | Exported Function | 0x000000018000e370 | 0x0000e370
-`SaveDC` | 1832 (0x728) | Exported Function | 0x00000001800041f0 | 0x000041f0
-`ScaleRgn` | 1833 (0x729) | Exported Function | 0x0000000180006620 | 0x00006620
-`ScaleValues` | 1834 (0x72a) | Exported Function | 0x0000000180006630 | 0x00006630
-`ScaleViewportExtEx` | 1835 (0x72b) | Exported Function | 0x000000018000a900 | 0x0000a900
-`ScaleWindowExtEx` | 1836 (0x72c) | Exported Function | 0x000000018000a920 | 0x0000a920
-`ScriptApplyDigitSubstitution` | 1837 (0x72d) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptApplyDigitSubstitution | 0x0001f973
-`ScriptApplyLogicalWidth` | 1838 (0x72e) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptApplyLogicalWidth | 0x0001f9cf
-`ScriptBreak` | 1839 (0x72f) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptBreak | 0x0001fa1a
-`ScriptCacheGetHeight` | 1841 (0x731) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptCacheGetHeight | 0x0001fa92
-`ScriptCPtoX` | 1840 (0x730) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptCPtoX | 0x0001fa4a
-`ScriptFreeCache` | 1842 (0x732) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptFreeCache | 0x0001fade
-`ScriptGetCMap` | 1843 (0x733) | Exported Function | ext-ms-win-usp10-l1-1-0.ScriptGetCMap | 0x0001fb14
-`ScriptGetFontAlternateGlyphs` | 1844 (0x734) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptGetFontAlternateGlyphs | 0x0001fb57
-`ScriptGetFontFeatureTags` | 1845 (0x735) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptGetFontFeatureTags | 0x0001fbb4
-`Rectangle` | 1815 (0x717) | Exported Function | 0x0000000180005b80 | 0x00005b80
-`ScriptGetFontProperties` | 1847 (0x737) | Exported Function | ext-ms-win-gdi-internal-desktop-l1-1-0.ScriptGetFontProperties | 0x0001fc67
-`RealizePalette` | 1812 (0x714) | Exported Function | 0x0000000180005810 | 0x00005810
-`PtVisible` | 1810 (0x712) | Exported Function | 0x000000018000a840 | 0x0000a840
-`PATHOBJ_bEnumClipLines` | 1785 (0x6f9) | Exported Function | 0x0000000180006590 | 0x00006590
-`PATHOBJ_vEnumStart` | 1786 (0x6fa) | Exported Function | 0x00000001800065a0 | 0x000065a0
-`PATHOBJ_vEnumStartClipLines` | 1787 (0x6fb) | Exported Function | 0x00000001800065b0 | 0x000065b0
-`PATHOBJ_vGetBounds` | 1788 (0x6fc) | Exported Function | 0x00000001800065c0 | 0x000065c0
-`PathToRegion` | 1791 (0x6ff) | Exported Function | 0x0000000180007d60 | 0x00007d60
-`pGdiDevCaps` | 1977 (0x7b9) | Exported Function | 0x00000001800237c0 | 0x000237c0
-`pGdiSharedHandleTable` | 1978 (0x7ba) | Exported Function | 0x00000001800237d8 | 0x000237d8
-`pGdiSharedMemory` | 1979 (0x7bb) | Exported Function | 0x0000000180023798 | 0x00023798
-`Pie` | 1792 (0x700) | Exported Function | 0x000000018000def0 | 0x0000def0
-`PlayEnhMetaFile` | 1793 (0x701) | Exported Function | 0x000000018000dfa0 | 0x0000dfa0
-`PlayEnhMetaFileRecord` | 1794 (0x702) | Exported Function | 0x000000018000a780 | 0x0000a780
-`PlayMetaFile` | 1795 (0x703) | Exported Function | 0x000000018000e000 | 0x0000e000
-`PlayMetaFileRecord` | 1796 (0x704) | Exported Function | 0x000000018000a7a0 | 0x0000a7a0
-`pldcGet` | 1980 (0x7bc) | Exported Function | 0x0000000180005600 | 0x00005600
-`PlgBlt` | 1797 (0x705) | Exported Function | 0x0000000180006e90 | 0x00006e90
-`PolyBezier` | 1798 (0x706) | Exported Function | 0x000000018000e050 | 0x0000e050
-`PolyBezierTo` | 1799 (0x707) | Exported Function | 0x0000000180005850 | 0x00005850
-`PolyDraw` | 1800 (0x708) | Exported Function | 0x000000018000e0b0 | 0x0000e0b0
-`Polygon` | 1806 (0x70e) | Exported Function | 0x000000018000e190 | 0x0000e190
-`Polyline` | 1807 (0x70f) | Exported Function | 0x000000018000e1f0 | 0x0000e1f0
-`PolylineTo` | 1808 (0x710) | Exported Function | 0x0000000180005910 | 0x00005910
-`PolyPatBlt` | 1801 (0x709) | Exported Function | 0x000000018000a7c0 | 0x0000a7c0
-`PolyPolygon` | 1802 (0x70a) | Exported Function | 0x000000018000e120 | 0x0000e120
-`PolyPolyline` | 1803 (0x70b) | Exported Function | 0x000000018000a7e0 | 0x0000a7e0
-`PolyTextOutA` | 1804 (0x70c) | Exported Function | 0x000000018000a800 | 0x0000a800
-`PolyTextOutW` | 1805 (0x70d) | Exported Function | 0x000000018000a820 | 0x0000a820
-`PtInRegion` | 1809 (0x711) | Exported Function | 0x0000000180008330 | 0x00008330
-`QueryFontAssocStatus` | 1811 (0x713) | Exported Function | 0x000000018000a860 | 0x0000a860
-`FrameRgn` | 1499 (0x5db) | Exported Function | 0x000000018000d5b0 | 0x0000d5b0
-`fpClosePrinter` | 1969 (0x7b1) | Exported Function | 0x00000001800237c8 | 0x000237c8
-`FONTOBJ_vGetInfo` | 1492 (0x5d4) | Exported Function | 0x0000000180006410 | 0x00006410
-`D3DKMTEnumAdapters2` | 1164 (0x48c) | Exported Function | WIN32U.NtGdiDdDDIEnumAdapters2 | 0x0001ad3b
-`D3DKMTEnumAdapters3` | 1165 (0x48d) | Exported Function | WIN32U.NtDxgkEnumAdapters3 | 0x0001ad6e
-`D3DKMTEscape` | 1166 (0x48e) | Exported Function | WIN32U.NtGdiDdDDIEscape | 0x0001ad96
-`D3DKMTEvict` | 1167 (0x48f) | Exported Function | WIN32U.NtGdiDdDDIEvict | 0x0001adba
-`D3DKMTExtractBundleObject` | 1168 (0x490) | Exported Function | WIN32U.NtGdiDdDDIExtractBundleObject | 0x0001adeb
-`D3DKMTFlipOverlay` | 1169 (0x491) | Exported Function | WIN32U.NtGdiDdDDIFlipOverlay | 0x0001ae22
-`D3DKMTFlushHeapTransitions` | 1170 (0x492) | Exported Function | WIN32U.NtGdiDdDDIFlushHeapTransitions | 0x0001ae5a
-`D3DKMTFreeGpuVirtualAddress` | 1171 (0x493) | Exported Function | WIN32U.NtGdiDdDDIFreeGpuVirtualAddress | 0x0001ae9c
-`D3DKMTGetAllocationPriority` | 1172 (0x494) | Exported Function | WIN32U.NtGdiDdDDIGetAllocationPriority | 0x0001aedf
-`D3DKMTGetAvailableTrackedWorkloadIndex` | 1173 (0x495) | Exported Function | WIN32U.NtDxgkGetAvailableTrackedWorkloadIndex | 0x0001af2d
-`D3DKMTGetCachedHybridQueryValue` | 1174 (0x496) | Exported Function | WIN32U.NtGdiDdDDIGetCachedHybridQueryValue | 0x0001af7b
-`D3DKMTGetContextInProcessSchedulingPriority` | 1175 (0x497) | Exported Function | WIN32U.NtGdiDdDDIGetContextInProcessSchedulingPriority | 0x0001afd2
-`D3DKMTEnumAdapters` | 1163 (0x48b) | Exported Function | WIN32U.NtGdiDdDDIEnumAdapters | 0x0001ad09
-`D3DKMTGetContextSchedulingPriority` | 1176 (0x498) | Exported Function | WIN32U.NtGdiDdDDIGetContextSchedulingPriority | 0x0001b02c
-`D3DKMTGetDisplayModeList` | 1179 (0x49b) | Exported Function | WIN32U.NtGdiDdDDIGetDisplayModeList | 0x0001b0f1
-`D3DKMTGetDWMVerticalBlankEvent` | 1177 (0x499) | Exported Function | WIN32U.NtGdiDdDDIGetDWMVerticalBlankEvent | 0x0001b079
-`D3DKMTGetMemoryBudgetTarget` | 1180 (0x49c) | Exported Function | WIN32U.NtGdiDdDDIGetMemoryBudgetTarget | 0x0001b131
-`D3DKMTGetMultiPlaneOverlayCaps` | 1181 (0x49d) | Exported Function | WIN32U.NtGdiDdDDIGetMultiPlaneOverlayCaps | 0x0001b177
-`D3DKMTGetMultisampleMethodList` | 1182 (0x49e) | Exported Function | WIN32U.NtGdiDdDDIGetMultisampleMethodList | 0x0001b1c0
-`D3DKMTGetOverlayState` | 1183 (0x49f) | Exported Function | WIN32U.NtGdiDdDDIGetOverlayState | 0x0001b200
-`D3DKMTGetPostCompositionCaps` | 1184 (0x4a0) | Exported Function | WIN32U.NtGdiDdDDIGetPostCompositionCaps | 0x0001b23e
-`D3DKMTGetPresentHistory` | 1185 (0x4a1) | Exported Function | WIN32U.NtGdiDdDDIGetPresentHistory | 0x0001b27e
-`D3DKMTGetPresentQueueEvent` | 1186 (0x4a2) | Exported Function | WIN32U.NtGdiDdDDIGetPresentQueueEvent | 0x0001b2bc
-`D3DKMTGetProcessDeviceRemovalSupport` | 1187 (0x4a3) | Exported Function | WIN32U.NtGdiDdDDIGetProcessDeviceRemovalSupport | 0x0001b307
-`D3DKMTGetProcessList` | 1188 (0x4a4) | Exported Function | WIN32U.NtDxgkGetProcessList | 0x0001b34c
-`D3DKMTGetProcessSchedulingPriorityBand` | 1189 (0x4a5) | Exported Function | WIN32U.NtGdiDdDDIGetProcessSchedulingPriorityBand | 0x0001b38f
-`D3DKMTGetDeviceState` | 1178 (0x49a) | Exported Function | WIN32U.NtGdiDdDDIGetDeviceState | 0x0001b0b8
-`D3DKMTDuplicateHandle` | 1162 (0x48a) | Exported Function | WIN32U.NtDxgkDuplicateHandle | 0x0001acd9
-`D3DKMTDispMgrTargetOperation` | 1160 (0x488) | Exported Function | WIN32U.NtGdiDdDDIDispMgrTargetOperation | 0x0001ac5e
-`D3DKMTDispMgrSourceOperation` | 1159 (0x487) | Exported Function | WIN32U.NtGdiDdDDIDispMgrSourceOperation | 0x0001ac19
-`D3DKMTCreateKeyedMutex2` | 1133 (0x46d) | Exported Function | WIN32U.NtGdiDdDDICreateKeyedMutex2 | 0x0001a61e
-`D3DKMTCreateOutputDupl` | 1134 (0x46e) | Exported Function | WIN32U.NtGdiDdDDICreateOutputDupl | 0x0001a658
-`D3DKMTCreateOverlay` | 1135 (0x46f) | Exported Function | WIN32U.NtGdiDdDDICreateOverlay | 0x0001a68e
-`D3DKMTCreatePagingQueue` | 1136 (0x470) | Exported Function | WIN32U.NtGdiDdDDICreatePagingQueue | 0x0001a6c5
-`D3DKMTCreateProtectedSession` | 1137 (0x471) | Exported Function | WIN32U.NtGdiDdDDICreateProtectedSession | 0x0001a705
-`D3DKMTCreateSwapChain` | 1138 (0x472) | Exported Function | WIN32U.NtGdiDdDDICreateSwapChain | 0x0001a743
-`D3DKMTCreateSynchronizationObject` | 1139 (0x473) | Exported Function | 0x0000000180004c60 | 0x00004c60
-`D3DKMTCreateSynchronizationObject2` | 1140 (0x474) | Exported Function | WIN32U.NtGdiDdDDICreateSynchronizationObject | 0x0001a7a9
-`D3DKMTCreateTrackedWorkload` | 1141 (0x475) | Exported Function | WIN32U.NtDxgkCreateTrackedWorkload | 0x0001a7f2
-`D3DKMTDDisplayEnum` | 1142 (0x476) | Exported Function | WIN32U.NtGdiDdDDIDDisplayEnum | 0x0001a828
-`D3DKMTDestroyAllocation` | 1143 (0x477) | Exported Function | WIN32U.NtGdiDdDDIDestroyAllocation | 0x0001a85e
-`D3DKMTDestroyAllocation2` | 1144 (0x478) | Exported Function | WIN32U.NtGdiDdDDIDestroyAllocation2 | 0x0001a89a
-`D3DKMTDestroyContext` | 1145 (0x479) | Exported Function | WIN32U.NtGdiDdDDIDestroyContext | 0x0001a8d3
-`D3DKMTDestroyDCFromMemory` | 1146 (0x47a) | Exported Function | WIN32U.NtGdiDdDDIDestroyDCFromMemory | 0x0001a90d
-`D3DKMTDestroyDevice` | 1147 (0x47b) | Exported Function | WIN32U.NtGdiDdDDIDestroyDevice | 0x0001a946
-`D3DKMTDestroyHwContext` | 1148 (0x47c) | Exported Function | WIN32U.NtGdiDdDDIDestroyHwContext | 0x0001a97c
-`D3DKMTDestroyHwQueue` | 1149 (0x47d) | Exported Function | WIN32U.NtGdiDdDDIDestroyHwQueue | 0x0001a9b3
-`D3DKMTDestroyKeyedMutex` | 1150 (0x47e) | Exported Function | WIN32U.NtGdiDdDDIDestroyKeyedMutex | 0x0001a9eb
-`D3DKMTDestroyOutputDupl` | 1151 (0x47f) | Exported Function | WIN32U.NtGdiDdDDIDestroyOutputDupl | 0x0001aa26
-`D3DKMTDestroyOverlay` | 1152 (0x480) | Exported Function | WIN32U.NtGdiDdDDIDestroyOverlay | 0x0001aa5e
-`D3DKMTDestroyPagingQueue` | 1153 (0x481) | Exported Function | WIN32U.NtGdiDdDDIDestroyPagingQueue | 0x0001aa97
-`D3DKMTDestroyProtectedSession` | 1154 (0x482) | Exported Function | WIN32U.NtGdiDdDDIDestroyProtectedSession | 0x0001aad9
-`D3DKMTDestroySynchronizationObject` | 1155 (0x483) | Exported Function | WIN32U.NtGdiDdDDIDestroySynchronizationObject | 0x0001ab25
-`D3DKMTDestroyTrackedWorkload` | 1156 (0x484) | Exported Function | WIN32U.NtDxgkDestroyTrackedWorkload | 0x0001ab70
-`D3DKMTDisplayPortOperation` | 1161 (0x489) | Exported Function | WIN32U.NtDxgkDisplayPortOperation | 0x0001aca1
-`D3DKMTDispMgrCreate` | 1157 (0x485) | Exported Function | WIN32U.NtGdiDdDDIDispMgrCreate | 0x0001aba8
-`D3DKMTDispMgrOperation` | 1158 (0x486) | Exported Function | WIN32U.NtDxgkDispMgrOperation | 0x0001abde
-`D3DKMTGetProcessSchedulingPriorityClass` | 1190 (0x4a6) | Exported Function | WIN32U.NtGdiDdDDIGetProcessSchedulingPriorityClass | 0x0001b3e9
-`D3DKMTGetResourcePresentPrivateDriverData` | 1191 (0x4a7) | Exported Function | WIN32U.NtGdiDdDDIGetResourcePresentPrivateDriverData | 0x0001b446
-`D3DKMTGetRuntimeData` | 1192 (0x4a8) | Exported Function | WIN32U.NtGdiDdDDIGetRuntimeData | 0x0001b490
-`D3DKMTGetScanLine` | 1193 (0x4a9) | Exported Function | WIN32U.NtGdiDdDDIGetScanLine | 0x0001b4c2
-`D3DKMTOpenResource2` | 1225 (0x4c9) | Exported Function | WIN32U.NtGdiDdDDIOpenResource | 0x0001bca2
-`D3DKMTOpenResourceFromNtHandle` | 1226 (0x4ca) | Exported Function | WIN32U.NtGdiDdDDIOpenResourceFromNtHandle | 0x0001bcdf
-`D3DKMTOpenSwapChain` | 1227 (0x4cb) | Exported Function | WIN32U.NtGdiDdDDIOpenSwapChain | 0x0001bd1d
-`D3DKMTOpenSynchronizationObject` | 1231 (0x4cf) | Exported Function | WIN32U.NtGdiDdDDIOpenSynchronizationObject | 0x0001be4d
-`D3DKMTOpenSyncObjectFromNtHandle` | 1228 (0x4cc) | Exported Function | WIN32U.NtGdiDdDDIOpenSyncObjectFromNtHandle | 0x0001bd5d
-`D3DKMTOpenSyncObjectFromNtHandle2` | 1229 (0x4cd) | Exported Function | WIN32U.NtGdiDdDDIOpenSyncObjectFromNtHandle2 | 0x0001bdab
-`D3DKMTOpenSyncObjectNtHandleFromName` | 1230 (0x4ce) | Exported Function | WIN32U.NtGdiDdDDIOpenSyncObjectNtHandleFromName | 0x0001bdfd
-`D3DKMTOutputDuplGetFrameInfo` | 1232 (0x4d0) | Exported Function | WIN32U.NtGdiDdDDIOutputDuplGetFrameInfo | 0x0001be95
-`D3DKMTOutputDuplGetMetaData` | 1233 (0x4d1) | Exported Function | WIN32U.NtGdiDdDDIOutputDuplGetMetaData | 0x0001bed9
-`D3DKMTOutputDuplGetPointerShapeData` | 1234 (0x4d2) | Exported Function | WIN32U.NtGdiDdDDIOutputDuplGetPointerShapeData | 0x0001bf24
-`D3DKMTOutputDuplPresent` | 1235 (0x4d3) | Exported Function | WIN32U.NtGdiDdDDIOutputDuplPresent | 0x0001bf6b
-`D3DKMTOutputDuplPresentToHwQueue` | 1236 (0x4d4) | Exported Function | WIN32U.NtDxgkOutputDuplPresentToHwQueue | 0x0001bfaf
-`D3DKMTOutputDuplReleaseFrame` | 1237 (0x4d5) | Exported Function | WIN32U.NtGdiDdDDIOutputDuplReleaseFrame | 0x0001bff4
-`D3DKMTPinDirectFlipResources` | 1238 (0x4d6) | Exported Function | 0x00000001800011c0 | 0x000011c0
-`D3DKMTPinResources` | 1239 (0x4d7) | Exported Function | WIN32U.NtDxgkPinResources | 0x0001c04c
-`D3DKMTPollDisplayChildren` | 1240 (0x4d8) | Exported Function | WIN32U.NtGdiDdDDIPollDisplayChildren | 0x0001c080
-`D3DKMTPresent` | 1241 (0x4d9) | Exported Function | WIN32U.NtGdiDdDDIPresent | 0x0001c0b3
-`D3DKMTPresentMultiPlaneOverlay` | 1242 (0x4da) | Exported Function | WIN32U.NtGdiDdDDIPresentMultiPlaneOverlay | 0x0001c0eb
-`D3DKMTPresentMultiPlaneOverlay2` | 1243 (0x4db) | Exported Function | WIN32U.NtGdiDdDDIPresentMultiPlaneOverlay2 | 0x0001c135
-`D3DKMTPresentMultiPlaneOverlay3` | 1244 (0x4dc) | Exported Function | WIN32U.NtGdiDdDDIPresentMultiPlaneOverlay3 | 0x0001c180
-`D3DKMTPresentRedirected` | 1245 (0x4dd) | Exported Function | WIN32U.NtGdiDdDDIPresentRedirected | 0x0001c1c3
-`D3DKMTQueryAdapterInfo` | 1246 (0x4de) | Exported Function | WIN32U.NtGdiDdDDIQueryAdapterInfo | 0x0001c1fd
-`D3DKMTQueryAllocationResidency` | 1247 (0x4df) | Exported Function | WIN32U.NtGdiDdDDIQueryAllocationResidency | 0x0001c23e
-`D3DKMTQueryClockCalibration` | 1248 (0x4e0) | Exported Function | WIN32U.NtGdiDdDDIQueryClockCalibration | 0x0001c284
-`D3DKMTQueryFSEBlock` | 1249 (0x4e1) | Exported Function | WIN32U.NtGdiDdDDIQueryFSEBlock | 0x0001c2bf
-`D3DKMTQueryProcessOfferInfo` | 1250 (0x4e2) | Exported Function | WIN32U.NtGdiDdDDIQueryProcessOfferInfo | 0x0001c2fa
-`D3DKMTQueryProtectedSessionInfoFromNtHandle` | 1251 (0x4e3) | Exported Function | WIN32U.NtGdiDdDDIQueryProtectedSessionInfoFromNtHandle | 0x0001c34d
-`D3DKMTOpenResource` | 1224 (0x4c8) | Exported Function | 0x00000001800045f0 | 0x000045f0
-`D3DKMTCreateKeyedMutex` | 1132 (0x46c) | Exported Function | WIN32U.NtGdiDdDDICreateKeyedMutex | 0x0001a5e4
-`D3DKMTOpenProtectedSessionFromNtHandle` | 1223 (0x4c7) | Exported Function | WIN32U.NtGdiDdDDIOpenProtectedSessionFromNtHandle | 0x0001bc49
-`D3DKMTOpenKeyedMutexFromNtHandle` | 1221 (0x4c5) | Exported Function | WIN32U.NtGdiDdDDIOpenKeyedMutexFromNtHandle | 0x0001bbb5
-`D3DKMTGetSetSwapChainMetadata` | 1194 (0x4aa) | Exported Function | WIN32U.NtGdiDdDDIGetSetSwapChainMetadata | 0x0001b4fd
-`D3DKMTGetSharedPrimaryHandle` | 1195 (0x4ab) | Exported Function | WIN32U.NtGdiDdDDIGetSharedPrimaryHandle | 0x0001b543
-`D3DKMTGetSharedResourceAdapterLuid` | 1196 (0x4ac) | Exported Function | WIN32U.NtGdiDdDDIGetSharedResourceAdapterLuid | 0x0001b58e
-`D3DKMTGetTrackedWorkloadStatistics` | 1197 (0x4ad) | Exported Function | WIN32U.NtDxgkGetTrackedWorkloadStatistics | 0x0001b5df
-`D3DKMTGetYieldPercentage` | 1198 (0x4ae) | Exported Function | WIN32U.NtGdiDdDDIGetYieldPercentage | 0x0001b622
-`D3DKMTInvalidateActiveVidPn` | 1199 (0x4af) | Exported Function | WIN32U.NtGdiDdDDIInvalidateActiveVidPn | 0x0001b662
-`D3DKMTInvalidateCache` | 1200 (0x4b0) | Exported Function | WIN32U.NtGdiDdDDIInvalidateCache | 0x0001b69f
-`D3DKMTLock` | 1201 (0x4b1) | Exported Function | WIN32U.NtGdiDdDDILock | 0x0001b6cb
-`D3DKMTLock2` | 1202 (0x4b2) | Exported Function | WIN32U.NtGdiDdDDILock2 | 0x0001b6ed
-`D3DKMTMakeResident` | 1203 (0x4b3) | Exported Function | WIN32U.NtGdiDdDDIMakeResident | 0x0001b717
-`D3DKMTMapGpuVirtualAddress` | 1204 (0x4b4) | Exported Function | WIN32U.NtGdiDdDDIMapGpuVirtualAddress | 0x0001b750
-`D3DKMTMarkDeviceAsError` | 1205 (0x4b5) | Exported Function | WIN32U.NtGdiDdDDIMarkDeviceAsError | 0x0001b78e
-`D3DKMTNetDispGetNextChunkInfo` | 1206 (0x4b6) | Exported Function | WIN32U.NtGdiDdDDINetDispGetNextChunkInfo | 0x0001b7cf
-`D3DKMTNetDispQueryMiracastDisplayDeviceStatus` | 1207 (0x4b7) | Exported Function | WIN32U.NtGdiDdDDINetDispQueryMiracastDisplayDeviceStatus | 0x0001b826
-`D3DKMTNetDispQueryMiracastDisplayDeviceSupport` | 1208 (0x4b8) | Exported Function | WIN32U.NtGdiDdDDINetDispQueryMiracastDisplayDeviceSupport | 0x0001b88e
-`D3DKMTNetDispStartMiracastDisplayDevice` | 1209 (0x4b9) | Exported Function | 0x000000018000c310 | 0x0000c310
-`D3DKMTNetDispStartMiracastDisplayDevice2` | 1210 (0x4ba) | Exported Function | 0x000000018000c330 | 0x0000c330
-`D3DKMTNetDispStartMiracastDisplayDeviceEx` | 1211 (0x4bb) | Exported Function | WIN32U.NtGdiDdDDINetDispStartMiracastDisplayDevice | 0x0001b943
-`D3DKMTNetDispStopMiracastDisplayDevice` | 1212 (0x4bc) | Exported Function | WIN32U.NtGdiDdDDINetDispStopMiracastDisplayDevice | 0x0001b99d
-`D3DKMTOfferAllocations` | 1213 (0x4bd) | Exported Function | WIN32U.NtGdiDdDDIOfferAllocations | 0x0001b9e6
-`D3DKMTOpenAdapterFromDeviceName` | 1214 (0x4be) | Exported Function | WIN32U.NtGdiDdDDIOpenAdapterFromDeviceName | 0x0001ba28
-`D3DKMTOpenAdapterFromGdiDisplayName` | 1215 (0x4bf) | Exported Function | 0x00000001800010b0 | 0x000010b0
-`D3DKMTOpenAdapterFromHdc` | 1216 (0x4c0) | Exported Function | 0x0000000180002710 | 0x00002710
-`D3DKMTOpenAdapterFromLuid` | 1217 (0x4c1) | Exported Function | WIN32U.NtGdiDdDDIOpenAdapterFromLuid | 0x0001baaa
-`D3DKMTOpenBundleObjectNtHandleFromName` | 1218 (0x4c2) | Exported Function | WIN32U.NtGdiDdDDIOpenBundleObjectNtHandleFromName | 0x0001baf6
-`D3DKMTOpenKeyedMutex` | 1219 (0x4c3) | Exported Function | WIN32U.NtGdiDdDDIOpenKeyedMutex | 0x0001bb3d
-`D3DKMTOpenKeyedMutex2` | 1220 (0x4c4) | Exported Function | WIN32U.NtGdiDdDDIOpenKeyedMutex2 | 0x0001bb73
-`D3DKMTOpenNtHandleFromName` | 1222 (0x4c6) | Exported Function | WIN32U.NtGdiDdDDIOpenNtHandleFromName | 0x0001bbfc
-`D3DKMTQueryProtectedSessionStatus` | 1252 (0x4e4) | Exported Function | WIN32U.NtGdiDdDDIQueryProtectedSessionStatus | 0x0001c3a6
-`D3DKMTCreateHwQueue` | 1131 (0x46b) | Exported Function | WIN32U.NtGdiDdDDICreateHwQueue | 0x0001a5ae
-`D3DKMTCreateDevice` | 1129 (0x469) | Exported Function | WIN32U.NtGdiDdDDICreateDevice | 0x0001a545
-`CLIPOBJ_cEnumStart` | 1036 (0x40c) | Exported Function | 0x0000000180006080 | 0x00006080
-`CLIPOBJ_ppoGetPath` | 1037 (0x40d) | Exported Function | 0x0000000180006090 | 0x00006090
-`CloseEnhMetaFile` | 1044 (0x414) | Exported Function | 0x000000018000ccb0 | 0x0000ccb0
-`CloseFigure` | 1045 (0x415) | Exported Function | 0x0000000180005970 | 0x00005970
-`CloseMetaFile` | 1046 (0x416) | Exported Function | 0x000000018000cd20 | 0x0000cd20
-`ColorCorrectPalette` | 1047 (0x417) | Exported Function | 0x0000000180008560 | 0x00008560
-`ColorMatchToTarget` | 1048 (0x418) | Exported Function | 0x0000000180008580 | 0x00008580
-`CombineRgn` | 1049 (0x419) | Exported Function | 0x0000000180001a60 | 0x00001a60
-`CombineTransform` | 1050 (0x41a) | Exported Function | 0x00000001800085a0 | 0x000085a0
-`ConfigureOPMProtectedOutput` | 1051 (0x41b) | Exported Function | 0x00000001800060a0 | 0x000060a0
-`CopyEnhMetaFileA` | 1052 (0x41c) | Exported Function | 0x00000001800085c0 | 0x000085c0
-`CopyEnhMetaFileW` | 1053 (0x41d) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`CLIPOBJ_bEnum` | 1035 (0x40b) | Exported Function | 0x0000000180006070 | 0x00006070
-`CopyMetaFileA` | 1054 (0x41e) | Exported Function | 0x0000000180008600 | 0x00008600
-`CreateBitmap` | 1056 (0x420) | Exported Function | 0x0000000180004460 | 0x00004460
-`CreateBitmapFromDxSurface` | 1057 (0x421) | Exported Function | 0x00000001800060b0 | 0x000060b0
-`CreateBitmapFromDxSurface2` | 1058 (0x422) | Exported Function | 0x00000001800060c0 | 0x000060c0
-`CreateBitmapIndirect` | 1059 (0x423) | Exported Function | 0x000000018000cd60 | 0x0000cd60
-`CreateBrushIndirect` | 1060 (0x424) | Exported Function | 0x0000000180004e00 | 0x00004e00
-`CreateColorSpaceA` | 1061 (0x425) | Exported Function | 0x0000000180008640 | 0x00008640
-`CreateColorSpaceW` | 1062 (0x426) | Exported Function | 0x0000000180008660 | 0x00008660
-`CreateCompatibleBitmap` | 1063 (0x427) | Exported Function | 0x0000000180004aa0 | 0x00004aa0
-`CreateCompatibleDC` | 1064 (0x428) | Exported Function | 0x0000000180003b70 | 0x00003b70
-`CreateDCA` | 1065 (0x429) | Exported Function | 0x0000000180004990 | 0x00004990
-`CreateDCExW` | 2000 (0x7d0) | Exported Function | 0x0000000180008680 | 0x00008680
-`CreateDCW` | 1066 (0x42a) | Exported Function | 0x0000000180001450 | 0x00001450
-`CopyMetaFileW` | 1055 (0x41f) | Exported Function | 0x0000000180008620 | 0x00008620
-`ClearBrushAttributes` | 1043 (0x413) | Exported Function | 0x0000000180008540 | 0x00008540
-`ClearBitmapAttributes` | 1042 (0x412) | Exported Function | 0x0000000180008520 | 0x00008520
-`Chord` | 1041 (0x411) | Exported Function | 0x0000000180008500 | 0x00008500
-`AbortPath` | 1012 (0x3f4) | Exported Function | 0x0000000180008360 | 0x00008360
-`AddFontMemResourceEx` | 1017 (0x3f9) | Exported Function | 0x0000000180007270 | 0x00007270
-`AddFontResourceA` | 1018 (0x3fa) | Exported Function | 0x000000018000cb10 | 0x0000cb10
-`AddFontResourceExA` | 1019 (0x3fb) | Exported Function | 0x0000000180008400 | 0x00008400
-`AddFontResourceExW` | 1020 (0x3fc) | Exported Function | 0x0000000180008420 | 0x00008420
-`AddFontResourceTracking` | 1021 (0x3fd) | Exported Function | 0x0000000180008440 | 0x00008440
-`AddFontResourceW` | 1022 (0x3fe) | Exported Function | 0x000000018000cb50 | 0x0000cb50
-`AngleArc` | 1023 (0x3ff) | Exported Function | 0x0000000180008460 | 0x00008460
-`AnimatePalette` | 1024 (0x400) | Exported Function | 0x000000018000cb90 | 0x0000cb90
-`AnyLinkedFonts` | 1025 (0x401) | Exported Function | 0x0000000180008480 | 0x00008480
-`Arc` | 1026 (0x402) | Exported Function | 0x000000018000cc00 | 0x0000cc00
-`ArcTo` | 1027 (0x403) | Exported Function | 0x00000001800084a0 | 0x000084a0
-`bCreateDCW` | 1964 (0x7ac) | Exported Function | 0x00000001800014d0 | 0x000014d0
-`bDeleteLDC` | 1965 (0x7ad) | Exported Function | 0x0000000180005bf0 | 0x00005bf0
-`BeginGdiRendering` | 1032 (0x408) | Exported Function | 0x0000000180006060 | 0x00006060
-`BeginPath` | 1033 (0x409) | Exported Function | 0x00000001800057d0 | 0x000057d0
-`bInitSystemAndFontsDirectoriesW` | 1966 (0x7ae) | Exported Function | 0x000000018000ace0 | 0x0000ace0
-`BitBlt` | 1034 (0x40a) | Exported Function | 0x0000000180003980 | 0x00003980
-`bMakePathNameW` | 1967 (0x7af) | Exported Function | 0x000000018000ad00 | 0x0000ad00
-`BRUSHOBJ_hGetColorTransform` | 1028 (0x404) | Exported Function | 0x0000000180006020 | 0x00006020
-`BRUSHOBJ_pvAllocRbrush` | 1029 (0x405) | Exported Function | 0x0000000180006030 | 0x00006030
-`BRUSHOBJ_pvGetRbrush` | 1030 (0x406) | Exported Function | 0x0000000180006040 | 0x00006040
-`BRUSHOBJ_ulGetBrushColor` | 1031 (0x407) | Exported Function | 0x0000000180006050 | 0x00006050
-`CancelDC` | 1038 (0x40e) | Exported Function | 0x00000001800084c0 | 0x000084c0
-`cGetTTFFromFOT` | 1968 (0x7b0) | Exported Function | 0x000000018000ad20 | 0x0000ad20
-`CheckColorsInGamut` | 1039 (0x40f) | Exported Function | 0x00000001800084e0 | 0x000084e0
-`ChoosePixelFormat` | 1040 (0x410) | Exported Function | 0x0000000180006ab0 | 0x00006ab0
-`CreateDIBitmap` | 1070 (0x42e) | Exported Function | 0x0000000180004800 | 0x00004800
-`CreateDIBPatternBrush` | 1067 (0x42b) | Exported Function | 0x00000001800086a0 | 0x000086a0
-`CreateDIBPatternBrushPt` | 1068 (0x42c) | Exported Function | 0x0000000180006b50 | 0x00006b50
-`CreateDIBSection` | 1069 (0x42d) | Exported Function | 0x0000000180002820 | 0x00002820
-`CreateScaledCompatibleBitmap` | 1102 (0x44e) | Exported Function | 0x0000000180008840 | 0x00008840
-`CreateSessionMappedDIBSection` | 1103 (0x44f) | Exported Function | 0x00000001800088e0 | 0x000088e0
-`CreateSolidBrush` | 1104 (0x450) | Exported Function | 0x0000000180004b70 | 0x00004b70
-`D3DKMTAbandonSwapChain` | 1105 (0x451) | Exported Function | WIN32U.NtGdiDdDDIAbandonSwapChain | 0x00019f34
-`D3DKMTAcquireKeyedMutex` | 1106 (0x452) | Exported Function | WIN32U.NtGdiDdDDIAcquireKeyedMutex | 0x00019f6e
-`D3DKMTAcquireKeyedMutex2` | 1107 (0x453) | Exported Function | WIN32U.NtGdiDdDDIAcquireKeyedMutex2 | 0x00019faa
-`D3DKMTAcquireSwapChain` | 1108 (0x454) | Exported Function | WIN32U.NtGdiDdDDIAcquireSwapChain | 0x00019fe5
-`D3DKMTAddSurfaceToSwapChain` | 1109 (0x455) | Exported Function | WIN32U.NtGdiDdDDIAddSurfaceToSwapChain | 0x0001a023
-`D3DKMTAdjustFullscreenGamma` | 1110 (0x456) | Exported Function | WIN32U.NtGdiDdDDIAdjustFullscreenGamma | 0x0001a066
-`D3DKMTCacheHybridQueryValue` | 1111 (0x457) | Exported Function | WIN32U.NtGdiDdDDICacheHybridQueryValue | 0x0001a0a9
-`D3DKMTChangeVideoMemoryReservation` | 1112 (0x458) | Exported Function | WIN32U.NtGdiDdDDIChangeVideoMemoryReservation | 0x0001a0f3
-`D3DKMTCheckExclusiveOwnership` | 1113 (0x459) | Exported Function | WIN32U.NtGdiDdDDICheckExclusiveOwnership | 0x0001a13f
-`D3DKMTCheckMonitorPowerState` | 1114 (0x45a) | Exported Function | WIN32U.NtGdiDdDDICheckMonitorPowerState | 0x0001a185
-`D3DKMTCheckMultiPlaneOverlaySupport` | 1115 (0x45b) | Exported Function | WIN32U.NtGdiDdDDICheckMultiPlaneOverlaySupport | 0x0001a1d1
-`D3DKMTCheckMultiPlaneOverlaySupport2` | 1116 (0x45c) | Exported Function | WIN32U.NtGdiDdDDICheckMultiPlaneOverlaySupport2 | 0x0001a225
-`D3DKMTCheckMultiPlaneOverlaySupport3` | 1117 (0x45d) | Exported Function | WIN32U.NtGdiDdDDICheckMultiPlaneOverlaySupport3 | 0x0001a27a
-`D3DKMTCheckOcclusion` | 1118 (0x45e) | Exported Function | WIN32U.NtGdiDdDDICheckOcclusion | 0x0001a2bf
-`D3DKMTCheckSharedResourceAccess` | 1119 (0x45f) | Exported Function | WIN32U.NtGdiDdDDICheckSharedResourceAccess | 0x0001a2ff
-`D3DKMTCheckVidPnExclusiveOwnership` | 1120 (0x460) | Exported Function | WIN32U.NtGdiDdDDICheckVidPnExclusiveOwnership | 0x0001a34d
-`D3DKMTCloseAdapter` | 1121 (0x461) | Exported Function | WIN32U.NtGdiDdDDICloseAdapter | 0x0001a38e
-`D3DKMTConfigureSharedResource` | 1122 (0x462) | Exported Function | WIN32U.NtGdiDdDDIConfigureSharedResource | 0x0001a3ca
-`D3DKMTCreateAllocation` | 1123 (0x463) | Exported Function | 0x0000000180003770 | 0x00003770
-`D3DKMTCreateAllocation2` | 1124 (0x464) | Exported Function | WIN32U.NtGdiDdDDICreateAllocation | 0x0001a422
-`D3DKMTCreateBundleObject` | 1125 (0x465) | Exported Function | WIN32U.NtGdiDdDDICreateBundleObject | 0x0001a45d
-`D3DKMTCreateContext` | 1126 (0x466) | Exported Function | WIN32U.NtGdiDdDDICreateContext | 0x0001a495
-`D3DKMTCreateContextVirtual` | 1127 (0x467) | Exported Function | WIN32U.NtGdiDdDDICreateContextVirtual | 0x0001a4cf
-`D3DKMTCreateDCFromMemory` | 1128 (0x468) | Exported Function | WIN32U.NtGdiDdDDICreateDCFromMemory | 0x0001a50e
-`CreateScalableFontResourceW` | 1101 (0x44d) | Exported Function | 0x000000018000d060 | 0x0000d060
-`D3DKMTCreateHwContext` | 1130 (0x46a) | Exported Function | WIN32U.NtGdiDdDDICreateHwContext | 0x0001a579
-`CreateScalableFontResourceA` | 1100 (0x44c) | Exported Function | 0x0000000180008820 | 0x00008820
-`CreateRectRgnIndirect` | 1098 (0x44a) | Exported Function | 0x0000000180002900 | 0x00002900
-`CreateDiscardableBitmap` | 1072 (0x430) | Exported Function | 0x0000000180008760 | 0x00008760
-`CreateDPIScaledDIBSection` | 1071 (0x42f) | Exported Function | 0x00000001800086c0 | 0x000086c0
-`CreateEllipticRgn` | 1073 (0x431) | Exported Function | 0x0000000180008780 | 0x00008780
-`CreateEllipticRgnIndirect` | 1074 (0x432) | Exported Function | 0x000000018000cda0 | 0x0000cda0
-`CreateEnhMetaFileA` | 1075 (0x433) | Exported Function | 0x000000018000cde0 | 0x0000cde0
-`CreateEnhMetaFileW` | 1076 (0x434) | Exported Function | 0x0000000180007930 | 0x00007930
-`CreateFontA` | 1077 (0x435) | Exported Function | 0x000000018000ce50 | 0x0000ce50
-`CreateFontIndirectA` | 1078 (0x436) | Exported Function | 0x000000018000cf30 | 0x0000cf30
-`CreateFontIndirectExA` | 1079 (0x437) | Exported Function | 0x00000001800087a0 | 0x000087a0
-`CreateFontIndirectExW` | 1080 (0x438) | Exported Function | 0x00000001800087c0 | 0x000087c0
-`CreateFontIndirectW` | 1081 (0x439) | Exported Function | 0x0000000180001630 | 0x00001630
-`CreateFontW` | 1082 (0x43a) | Exported Function | 0x0000000180001210 | 0x00001210
-`CreateHalftonePalette` | 1083 (0x43b) | Exported Function | 0x0000000180005560 | 0x00005560
-`CreateHatchBrush` | 1084 (0x43c) | Exported Function | 0x00000001800087e0 | 0x000087e0
-`CreateICA` | 1085 (0x43d) | Exported Function | 0x0000000180008800 | 0x00008800
-`CreateICW` | 1086 (0x43e) | Exported Function | 0x0000000180005a70 | 0x00005a70
-`CreateMetaFileA` | 1087 (0x43f) | Exported Function | 0x000000018000cf70 | 0x0000cf70
-`CreateMetaFileW` | 1088 (0x440) | Exported Function | 0x00000001800079d0 | 0x000079d0
-`CreateOPMProtectedOutput` | 1089 (0x441) | Exported Function | 0x00000001800060d0 | 0x000060d0
-`CreateOPMProtectedOutputs` | 1090 (0x442) | Exported Function | 0x00000001800060e0 | 0x000060e0
-`CreatePalette` | 1091 (0x443) | Exported Function | 0x0000000180005370 | 0x00005370
-`CreatePatternBrush` | 1092 (0x444) | Exported Function | 0x0000000180005420 | 0x00005420
-`CreatePen` | 1093 (0x445) | Exported Function | 0x0000000180005d20 | 0x00005d20
-`CreatePenIndirect` | 1094 (0x446) | Exported Function | 0x000000018000cfb0 | 0x0000cfb0
-`CreatePolygonRgn` | 1096 (0x448) | Exported Function | 0x000000018000c810 | 0x0000c810
-`CreatePolyPolygonRgn` | 1095 (0x447) | Exported Function | 0x000000018000cff0 | 0x0000cff0
-`CreateRectRgn` | 1097 (0x449) | Exported Function | 0x0000000180002920 | 0x00002920
-`CreateRoundRectRgn` | 1099 (0x44b) | Exported Function | 0x0000000180004ec0 | 0x00004ec0
-`D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName` | 1253 (0x4e5) | Exported Function | WIN32U.NtGdiDdDDIQueryRemoteVidPnSourceFromGdiDisplayName | 0x0001c402
-`D3DKMTQueryResourceInfo` | 1254 (0x4e6) | Exported Function | WIN32U.NtGdiDdDDIQueryResourceInfo | 0x0001c454
-`D3DKMTQueryResourceInfoFromNtHandle` | 1255 (0x4e7) | Exported Function | WIN32U.NtGdiDdDDIQueryResourceInfoFromNtHandle | 0x0001c49b
-`EnableEUDC` | 1410 (0x582) | Exported Function | 0x00000001800061b0 | 0x000061b0
-`EndDoc` | 1411 (0x583) | Exported Function | 0x0000000180005ce0 | 0x00005ce0
-`EndFormPage` | 1412 (0x584) | Exported Function | 0x00000001800090a0 | 0x000090a0
-`EndGdiRendering` | 1413 (0x585) | Exported Function | 0x00000001800061c0 | 0x000061c0
-`EndPage` | 1414 (0x586) | Exported Function | 0x0000000180005a30 | 0x00005a30
-`EndPath` | 1415 (0x587) | Exported Function | 0x0000000180005790 | 0x00005790
-`EngAcquireSemaphore` | 1416 (0x588) | Exported Function | 0x00000001800090c0 | 0x000090c0
-`EngAlphaBlend` | 1417 (0x589) | Exported Function | 0x00000001800061d0 | 0x000061d0
-`EngAssociateSurface` | 1418 (0x58a) | Exported Function | 0x00000001800061e0 | 0x000061e0
-`EngBitBlt` | 1419 (0x58b) | Exported Function | 0x00000001800061f0 | 0x000061f0
-`EngCheckAbort` | 1420 (0x58c) | Exported Function | 0x0000000180006200 | 0x00006200
-`EngComputeGlyphSet` | 1421 (0x58d) | Exported Function | 0x00000001800090e0 | 0x000090e0
-`Ellipse` | 1409 (0x581) | Exported Function | 0x000000018000d220 | 0x0000d220
-`EngCopyBits` | 1422 (0x58e) | Exported Function | 0x0000000180006210 | 0x00006210
-`EngCreateClip` | 1424 (0x590) | Exported Function | 0x0000000180006230 | 0x00006230
-`EngCreateDeviceBitmap` | 1425 (0x591) | Exported Function | 0x0000000180006240 | 0x00006240
-`EngCreateDeviceSurface` | 1426 (0x592) | Exported Function | 0x0000000180006250 | 0x00006250
-`EngCreatePalette` | 1427 (0x593) | Exported Function | 0x0000000180006260 | 0x00006260
-`EngCreateSemaphore` | 1428 (0x594) | Exported Function | 0x0000000180009100 | 0x00009100
-`EngDeleteClip` | 1429 (0x595) | Exported Function | 0x0000000180006270 | 0x00006270
-`EngDeletePalette` | 1430 (0x596) | Exported Function | 0x0000000180006280 | 0x00006280
-`EngDeletePath` | 1431 (0x597) | Exported Function | 0x0000000180006290 | 0x00006290
-`EngDeleteSemaphore` | 1432 (0x598) | Exported Function | 0x0000000180009120 | 0x00009120
-`EngDeleteSurface` | 1433 (0x599) | Exported Function | 0x00000001800062a0 | 0x000062a0
-`EngEraseSurface` | 1434 (0x59a) | Exported Function | 0x00000001800062b0 | 0x000062b0
-`EngFillPath` | 1435 (0x59b) | Exported Function | 0x00000001800062c0 | 0x000062c0
-`EngCreateBitmap` | 1423 (0x58f) | Exported Function | 0x0000000180006220 | 0x00006220
-`DxTrimNotificationListHead` | 1408 (0x580) | Exported Function | 0x00000001800237b0 | 0x000237b0
-`DwmCreatedBitmapRemotingOutput` | 1014 (0x3f6) | Exported Function | 0x0000000180009080 | 0x00009080
-`DrawEscape` | 1407 (0x57f) | Exported Function | 0x0000000180009060 | 0x00009060
-`DdEntry48` | 1381 (0x565) | Exported Function | 0x0000000180008e60 | 0x00008e60
-`DdEntry49` | 1382 (0x566) | Exported Function | 0x0000000180008e80 | 0x00008e80
-`DdEntry5` | 1383 (0x567) | Exported Function | 0x0000000180008ea0 | 0x00008ea0
-`DdEntry50` | 1384 (0x568) | Exported Function | 0x0000000180008ec0 | 0x00008ec0
-`DdEntry51` | 1385 (0x569) | Exported Function | 0x0000000180008ee0 | 0x00008ee0
-`DdEntry52` | 1386 (0x56a) | Exported Function | 0x0000000180008f00 | 0x00008f00
-`DdEntry53` | 1387 (0x56b) | Exported Function | 0x0000000180008f20 | 0x00008f20
-`DdEntry54` | 1388 (0x56c) | Exported Function | 0x0000000180008f40 | 0x00008f40
-`DdEntry55` | 1389 (0x56d) | Exported Function | 0x0000000180008f60 | 0x00008f60
-`DdEntry56` | 1390 (0x56e) | Exported Function | 0x0000000180008f80 | 0x00008f80
-`DdEntry6` | 1391 (0x56f) | Exported Function | 0x0000000180008fa0 | 0x00008fa0
-`DdEntry7` | 1392 (0x570) | Exported Function | 0x0000000180008fc0 | 0x00008fc0
-`DdEntry8` | 1393 (0x571) | Exported Function | 0x0000000180008fe0 | 0x00008fe0
-`DdEntry9` | 1394 (0x572) | Exported Function | 0x0000000180009000 | 0x00009000
-`DdNotifyFullscreenSpriteUpdate` | 1395 (0x573) | Exported Function | 0x0000000180006170 | 0x00006170
-`DdQueryVisRgnUniqueness` | 1396 (0x574) | Exported Function | 0x0000000180006180 | 0x00006180
-`DeleteColorSpace` | 1397 (0x575) | Exported Function | 0x00000001800082e0 | 0x000082e0
-`DeleteDC` | 1398 (0x576) | Exported Function | 0x0000000180002c70 | 0x00002c70
-`DeleteEnhMetaFile` | 1399 (0x577) | Exported Function | 0x000000018000d130 | 0x0000d130
-`DeleteMetaFile` | 1400 (0x578) | Exported Function | 0x000000018000d170 | 0x0000d170
-`DeleteObject` | 1401 (0x579) | Exported Function | 0x0000000180002130 | 0x00002130
-`DescribePixelFormat` | 1402 (0x57a) | Exported Function | 0x0000000180009020 | 0x00009020
-`DestroyOPMProtectedOutput` | 1403 (0x57b) | Exported Function | 0x0000000180006190 | 0x00006190
-`DestroyPhysicalMonitorInternal` | 1404 (0x57c) | Exported Function | 0x00000001800061a0 | 0x000061a0
-`DeviceCapabilitiesExA` | 1405 (0x57d) | Exported Function | 0x0000000180009040 | 0x00009040
-`DeviceCapabilitiesExW` | 1406 (0x57e) | Exported Function | ext-ms-win-gdi-desktop-l1-1-0.DeviceCapabilitiesExA | 0x0001db67
-`DPtoLP` | 1335 (0x537) | Exported Function | 0x000000018000d0d0 | 0x0000d0d0
-`EngFindResource` | 1436 (0x59c) | Exported Function | 0x0000000180009140 | 0x00009140
-`EngFreeModule` | 1437 (0x59d) | Exported Function | 0x0000000180009160 | 0x00009160
-`EngGetCurrentCodePage` | 1438 (0x59e) | Exported Function | 0x0000000180009180 | 0x00009180
-`EngGetDriverName` | 1439 (0x59f) | Exported Function | 0x00000001800091a0 | 0x000091a0
-`EnumMetaFile` | 1471 (0x5bf) | Exported Function | 0x000000018000d400 | 0x0000d400
-`EnumObjects` | 1472 (0x5c0) | Exported Function | 0x00000001800066c0 | 0x000066c0
-`EqualRgn` | 1473 (0x5c1) | Exported Function | 0x0000000180001140 | 0x00001140
-`Escape` | 1474 (0x5c2) | Exported Function | 0x000000018000d470 | 0x0000d470
-`EudcLoadLinkW` | 1475 (0x5c3) | Exported Function | 0x0000000180009360 | 0x00009360
-`EudcUnloadLinkW` | 1476 (0x5c4) | Exported Function | 0x0000000180009380 | 0x00009380
-`ExcludeClipRect` | 1477 (0x5c5) | Exported Function | 0x0000000180008140 | 0x00008140
-`ExtCreatePen` | 1478 (0x5c6) | Exported Function | 0x00000001800093a0 | 0x000093a0
-`ExtCreateRegion` | 1479 (0x5c7) | Exported Function | 0x0000000180002760 | 0x00002760
-`ExtEscape` | 1480 (0x5c8) | Exported Function | 0x0000000180005c60 | 0x00005c60
-`ExtFloodFill` | 1481 (0x5c9) | Exported Function | 0x00000001800093c0 | 0x000093c0
-`ExtSelectClipRgn` | 1482 (0x5ca) | Exported Function | 0x0000000180003be0 | 0x00003be0
-`ExtTextOutA` | 1483 (0x5cb) | Exported Function | 0x000000018000d4f0 | 0x0000d4f0
-`ExtTextOutW` | 1484 (0x5cc) | Exported Function | 0x00000001800036d0 | 0x000036d0
-`FillPath` | 1493 (0x5d5) | Exported Function | 0x00000001800059b0 | 0x000059b0
-`FillRgn` | 1494 (0x5d6) | Exported Function | 0x000000018000d590 | 0x0000d590
-`FixBrushOrgEx` | 1495 (0x5d7) | Exported Function | 0x00000001800093e0 | 0x000093e0
-`FlattenPath` | 1496 (0x5d8) | Exported Function | 0x0000000180009400 | 0x00009400
-`FloodFill` | 1497 (0x5d9) | Exported Function | 0x0000000180009420 | 0x00009420
-`FontIsLinked` | 1498 (0x5da) | Exported Function | 0x0000000180009440 | 0x00009440
-`FONTOBJ_cGetAllGlyphHandles` | 1485 (0x5cd) | Exported Function | 0x00000001800063a0 | 0x000063a0
-`FONTOBJ_cGetGlyphs` | 1486 (0x5ce) | Exported Function | 0x00000001800063b0 | 0x000063b0
-`FONTOBJ_pfdg` | 1488 (0x5d0) | Exported Function | 0x00000001800063d0 | 0x000063d0
-`FONTOBJ_pifi` | 1489 (0x5d1) | Exported Function | 0x00000001800063e0 | 0x000063e0
-`FONTOBJ_pQueryGlyphAttrs` | 1487 (0x5cf) | Exported Function | 0x00000001800063c0 | 0x000063c0
-`FONTOBJ_pvTrueTypeFontFile` | 1490 (0x5d2) | Exported Function | 0x00000001800063f0 | 0x000063f0
-`FONTOBJ_pxoGetXform` | 1491 (0x5d3) | Exported Function | 0x0000000180006400 | 0x00006400
-`EnumICMProfilesW` | 1470 (0x5be) | Exported Function | 0x0000000180009340 | 0x00009340
-`DdEntry47` | 1380 (0x564) | Exported Function | 0x0000000180008e40 | 0x00008e40
-`EnumICMProfilesA` | 1469 (0x5bd) | Exported Function | 0x0000000180009320 | 0x00009320
-`EnumFontsA` | 1467 (0x5bb) | Exported Function | 0x0000000180009300 | 0x00009300
-`EngGetPrinterDataFileName` | 1440 (0x5a0) | Exported Function | 0x00000001800091c0 | 0x000091c0
-`EngGradientFill` | 1441 (0x5a1) | Exported Function | 0x00000001800062d0 | 0x000062d0
-`EngLineTo` | 1442 (0x5a2) | Exported Function | 0x00000001800062e0 | 0x000062e0
-`EngLoadModule` | 1443 (0x5a3) | Exported Function | 0x00000001800091e0 | 0x000091e0
-`EngLockSurface` | 1444 (0x5a4) | Exported Function | 0x00000001800062f0 | 0x000062f0
-`EngMarkBandingSurface` | 1445 (0x5a5) | Exported Function | 0x0000000180006300 | 0x00006300
-`EngMultiByteToUnicodeN` | 1446 (0x5a6) | Exported Function | 0x0000000180009200 | 0x00009200
-`EngMultiByteToWideChar` | 1447 (0x5a7) | Exported Function | 0x0000000180009220 | 0x00009220
-`EngPaint` | 1448 (0x5a8) | Exported Function | 0x0000000180006310 | 0x00006310
-`EngPlgBlt` | 1449 (0x5a9) | Exported Function | 0x0000000180006320 | 0x00006320
-`EngQueryEMFInfo` | 1450 (0x5aa) | Exported Function | 0x0000000180009240 | 0x00009240
-`EngQueryLocalTime` | 1451 (0x5ab) | Exported Function | 0x0000000180009260 | 0x00009260
-`EngReleaseSemaphore` | 1452 (0x5ac) | Exported Function | 0x0000000180009280 | 0x00009280
-`EngStretchBlt` | 1453 (0x5ad) | Exported Function | 0x0000000180006330 | 0x00006330
-`EngStretchBltROP` | 1454 (0x5ae) | Exported Function | 0x0000000180006340 | 0x00006340
-`EngStrokeAndFillPath` | 1455 (0x5af) | Exported Function | 0x0000000180006350 | 0x00006350
-`EngStrokePath` | 1456 (0x5b0) | Exported Function | 0x0000000180006360 | 0x00006360
-`EngTextOut` | 1457 (0x5b1) | Exported Function | 0x0000000180006370 | 0x00006370
-`EngTransparentBlt` | 1458 (0x5b2) | Exported Function | 0x0000000180006380 | 0x00006380
-`EngUnicodeToMultiByteN` | 1459 (0x5b3) | Exported Function | 0x00000001800092a0 | 0x000092a0
-`EngUnlockSurface` | 1460 (0x5b4) | Exported Function | 0x0000000180006390 | 0x00006390
-`EngWideCharToMultiByte` | 1461 (0x5b5) | Exported Function | 0x00000001800092c0 | 0x000092c0
-`EnumEnhMetaFile` | 1462 (0x5b6) | Exported Function | 0x000000018000d290 | 0x0000d290
-`EnumFontFamiliesA` | 1463 (0x5b7) | Exported Function | 0x000000018000d310 | 0x0000d310
-`EnumFontFamiliesExA` | 1464 (0x5b8) | Exported Function | 0x000000018000d380 | 0x0000d380
-`EnumFontFamiliesExW` | 1465 (0x5b9) | Exported Function | 0x0000000180007310 | 0x00007310
-`EnumFontFamiliesW` | 1466 (0x5ba) | Exported Function | 0x00000001800092e0 | 0x000092e0
-`EnumFontsW` | 1468 (0x5bc) | Exported Function | 0x00000001800073b0 | 0x000073b0
-`DdEntry46` | 1379 (0x563) | Exported Function | 0x0000000180008e20 | 0x00008e20
-`DdEntry45` | 1378 (0x562) | Exported Function | 0x0000000180008e00 | 0x00008e00
-`DdEntry44` | 1377 (0x561) | Exported Function | 0x0000000180008de0 | 0x00008de0
-`D3DKMTSetStereoEnabled` | 1287 (0x507) | Exported Function | WIN32U.NtGdiDdDDISetStereoEnabled | 0x0001ccf5
-`D3DKMTSetSyncRefreshCountWaitTarget` | 1288 (0x508) | Exported Function | WIN32U.NtGdiDdDDISetSyncRefreshCountWaitTarget | 0x0001cd3b
-`D3DKMTSetVidPnSourceHwProtection` | 1289 (0x509) | Exported Function | WIN32U.NtGdiDdDDISetVidPnSourceHwProtection | 0x0001cd8b
-`D3DKMTSetVidPnSourceOwner` | 1290 (0x50a) | Exported Function | 0x0000000180005d80 | 0x00005d80
-`D3DKMTSetVidPnSourceOwner1` | 1291 (0x50b) | Exported Function | 0x00000001800055b0 | 0x000055b0
-`D3DKMTSetVidPnSourceOwner2` | 1292 (0x50c) | Exported Function | WIN32U.NtGdiDdDDISetVidPnSourceOwner | 0x0001ce07
-`D3DKMTSetYieldPercentage` | 1293 (0x50d) | Exported Function | WIN32U.NtGdiDdDDISetYieldPercentage | 0x0001ce45
-`D3DKMTSharedPrimaryLockNotification` | 1295 (0x50f) | Exported Function | WIN32U.NtGdiDdDDISharedPrimaryLockNotification | 0x0001cebe
-`D3DKMTSharedPrimaryUnLockNotification` | 1296 (0x510) | Exported Function | WIN32U.NtGdiDdDDISharedPrimaryUnLockNotification | 0x0001cf13
-`D3DKMTShareObjects` | 1294 (0x50e) | Exported Function | WIN32U.NtGdiDdDDIShareObjects | 0x0001ce7c
-`D3DKMTSignalSynchronizationObject` | 1297 (0x511) | Exported Function | 0x000000018000c410 | 0x0000c410
-`D3DKMTSignalSynchronizationObject2` | 1298 (0x512) | Exported Function | WIN32U.NtGdiDdDDISignalSynchronizationObject | 0x0001cf89
-`D3DKMTSignalSynchronizationObjectFromCpu` | 1299 (0x513) | Exported Function | WIN32U.NtGdiDdDDISignalSynchronizationObjectFromCpu | 0x0001cfdf
-`D3DKMTSignalSynchronizationObjectFromGpu` | 1300 (0x514) | Exported Function | WIN32U.NtGdiDdDDISignalSynchronizationObjectFromGpu | 0x0001d03c
-`D3DKMTSignalSynchronizationObjectFromGpu2` | 1301 (0x515) | Exported Function | WIN32U.NtGdiDdDDISignalSynchronizationObjectFromGpu2 | 0x0001d09a
-`D3DKMTSubmitCommand` | 1302 (0x516) | Exported Function | WIN32U.NtGdiDdDDISubmitCommand | 0x0001d0e3
-`D3DKMTSubmitCommandToHwQueue` | 1303 (0x517) | Exported Function | WIN32U.NtGdiDdDDISubmitCommandToHwQueue | 0x0001d11f
-`D3DKMTSubmitPresentBltToHwQueue` | 1304 (0x518) | Exported Function | WIN32U.NtDxgkSubmitPresentBltToHwQueue | 0x0001d167
-`D3DKMTSubmitPresentToHwQueue` | 1305 (0x519) | Exported Function | WIN32U.NtDxgkSubmitPresentToHwQueue | 0x0001d1ab
-`D3DKMTSubmitSignalSyncObjectsToHwQueue` | 1306 (0x51a) | Exported Function | WIN32U.NtGdiDdDDISubmitSignalSyncObjectsToHwQueue | 0x0001d1f6
-`D3DKMTSubmitWaitForSyncObjectsToHwQueue` | 1307 (0x51b) | Exported Function | WIN32U.NtGdiDdDDISubmitWaitForSyncObjectsToHwQueue | 0x0001d250
-`D3DKMTTrimProcessCommitment` | 1308 (0x51c) | Exported Function | WIN32U.NtGdiDdDDITrimProcessCommitment | 0x0001d29f
-`D3DKMTUnlock` | 1310 (0x51e) | Exported Function | WIN32U.NtGdiDdDDIUnlock | 0x0001d31e
-`D3DKMTUnlock2` | 1311 (0x51f) | Exported Function | WIN32U.NtGdiDdDDIUnlock2 | 0x0001d344
-`D3DKMTUnOrderedPresentSwapChain` | 1309 (0x51d) | Exported Function | WIN32U.NtGdiDdDDIUnOrderedPresentSwapChain | 0x0001d2e6
-`D3DKMTUnpinDirectFlipResources` | 1312 (0x520) | Exported Function | 0x0000000180001180 | 0x00001180
-`D3DKMTUnpinResources` | 1313 (0x521) | Exported Function | WIN32U.NtDxgkUnpinResources | 0x0001d391
-`D3DKMTSetStablePowerState` | 1286 (0x506) | Exported Function | WIN32U.NtGdiDdDDISetStablePowerState | 0x0001ccb9
-`D3DKMTUnregisterTrimNotification` | 1314 (0x522) | Exported Function | 0x0000000180005140 | 0x00005140
-`D3DKMTSetQueuedLimit` | 1285 (0x505) | Exported Function | WIN32U.NtGdiDdDDISetQueuedLimit | 0x0001cc7f
-`D3DKMTSetProcessSchedulingPriorityBand` | 1283 (0x503) | Exported Function | WIN32U.NtGdiDdDDISetProcessSchedulingPriorityBand | 0x0001cbdd
-`D3DKMTQueryStatistics` | 1256 (0x4e8) | Exported Function | WIN32U.NtGdiDdDDIQueryStatistics | 0x0001c4e0
-`D3DKMTQueryVideoMemoryInfo` | 1258 (0x4ea) | Exported Function | WIN32U.NtGdiDdDDIQueryVideoMemoryInfo | 0x0001c56d
-`D3DKMTQueryVidPnExclusiveOwnership` | 1257 (0x4e9) | Exported Function | WIN32U.NtGdiDdDDIQueryVidPnExclusiveOwnership | 0x0001c524
-`D3DKMTReclaimAllocations` | 1259 (0x4eb) | Exported Function | WIN32U.NtGdiDdDDIReclaimAllocations | 0x0001c5ac
-`D3DKMTReclaimAllocations2` | 1260 (0x4ec) | Exported Function | WIN32U.NtGdiDdDDIReclaimAllocations2 | 0x0001c5ea
-`D3DKMTRegisterTrimNotification` | 1261 (0x4ed) | Exported Function | 0x00000001800051d0 | 0x000051d0
-`D3DKMTRegisterVailProcess` | 1262 (0x4ee) | Exported Function | WIN32U.NtDxgkRegisterVailProcess | 0x0001c648
-`D3DKMTReleaseKeyedMutex` | 1263 (0x4ef) | Exported Function | WIN32U.NtGdiDdDDIReleaseKeyedMutex | 0x0001c681
-`D3DKMTReleaseKeyedMutex2` | 1264 (0x4f0) | Exported Function | WIN32U.NtGdiDdDDIReleaseKeyedMutex2 | 0x0001c6bd
-`D3DKMTReleaseProcessVidPnSourceOwners` | 1265 (0x4f1) | Exported Function | WIN32U.NtGdiDdDDIReleaseProcessVidPnSourceOwners | 0x0001c707
-`D3DKMTReleaseSwapChain` | 1266 (0x4f2) | Exported Function | WIN32U.NtGdiDdDDIReleaseSwapChain | 0x0001c74f
-`D3DKMTRemoveSurfaceFromSwapChain` | 1267 (0x4f3) | Exported Function | WIN32U.NtGdiDdDDIRemoveSurfaceFromSwapChain | 0x0001c792
-`D3DKMTRender` | 1268 (0x4f4) | Exported Function | WIN32U.NtGdiDdDDIRender | 0x0001c7cb
-`D3DKMTReserveGpuVirtualAddress` | 1269 (0x4f5) | Exported Function | WIN32U.NtGdiDdDDIReserveGpuVirtualAddress | 0x0001c802
-`D3DKMTResetTrackedWorkloadStatistics` | 1270 (0x4f6) | Exported Function | WIN32U.NtDxgkResetTrackedWorkloadStatistics | 0x0001c851
-`D3DKMTSetAllocationPriority` | 1271 (0x4f7) | Exported Function | WIN32U.NtGdiDdDDISetAllocationPriority | 0x0001c899
-`D3DKMTSetContextInProcessSchedulingPriority` | 1272 (0x4f8) | Exported Function | WIN32U.NtGdiDdDDISetContextInProcessSchedulingPriority | 0x0001c8ec
-`D3DKMTSetContextSchedulingPriority` | 1273 (0x4f9) | Exported Function | WIN32U.NtGdiDdDDISetContextSchedulingPriority | 0x0001c946
-`D3DKMTSetDisplayMode` | 1274 (0x4fa) | Exported Function | WIN32U.NtGdiDdDDISetDisplayMode | 0x0001c989
-`D3DKMTSetDisplayPrivateDriverFormat` | 1275 (0x4fb) | Exported Function | 0x000000018000c3f0 | 0x0000c3f0
-`D3DKMTSetDodIndirectSwapchain` | 1276 (0x4fc) | Exported Function | WIN32U.NtGdiDdDDISetDodIndirectSwapchain | 0x0001c9eb
-`D3DKMTSetFSEBlock` | 1277 (0x4fd) | Exported Function | WIN32U.NtGdiDdDDISetFSEBlock | 0x0001ca26
-`D3DKMTSetGammaRamp` | 1278 (0x4fe) | Exported Function | WIN32U.NtGdiDdDDISetGammaRamp | 0x0001ca56
-`D3DKMTSetHwProtectionTeardownRecovery` | 1279 (0x4ff) | Exported Function | WIN32U.NtGdiDdDDISetHwProtectionTeardownRecovery | 0x0001ca9a
-`D3DKMTSetMemoryBudgetTarget` | 1280 (0x500) | Exported Function | WIN32U.NtGdiDdDDISetMemoryBudgetTarget | 0x0001cae7
-`D3DKMTSetMonitorColorSpaceTransform` | 1281 (0x501) | Exported Function | WIN32U.NtGdiDdDDISetMonitorColorSpaceTransform | 0x0001cb32
-`D3DKMTSetProcessDeviceRemovalSupport` | 1282 (0x502) | Exported Function | WIN32U.NtGdiDdDDISetProcessDeviceRemovalSupport | 0x0001cb86
-`D3DKMTSetProcessSchedulingPriorityClass` | 1284 (0x504) | Exported Function | WIN32U.NtGdiDdDDISetProcessSchedulingPriorityClass | 0x0001cc37
-`XLATEOBJ_iXlate` | 1962 (0x7aa) | Exported Function | 0x00000001800066a0 | 0x000066a0
-`D3DKMTUpdateAllocationProperty` | 1315 (0x523) | Exported Function | WIN32U.NtGdiDdDDIUpdateAllocationProperty | 0x0001d3ed
-`D3DKMTUpdateOverlay` | 1317 (0x525) | Exported Function | WIN32U.NtGdiDdDDIUpdateOverlay | 0x0001d472
-`DdEntry2` | 1350 (0x546) | Exported Function | 0x0000000180008a80 | 0x00008a80
-`DdEntry20` | 1351 (0x547) | Exported Function | 0x0000000180008aa0 | 0x00008aa0
-`DdEntry21` | 1352 (0x548) | Exported Function | 0x0000000180008ac0 | 0x00008ac0
-`DdEntry22` | 1353 (0x549) | Exported Function | 0x0000000180008ae0 | 0x00008ae0
-`DdEntry23` | 1354 (0x54a) | Exported Function | 0x0000000180008b00 | 0x00008b00
-`DdEntry24` | 1355 (0x54b) | Exported Function | 0x0000000180008b20 | 0x00008b20
-`DdEntry25` | 1356 (0x54c) | Exported Function | 0x0000000180008b40 | 0x00008b40
-`DdEntry26` | 1357 (0x54d) | Exported Function | 0x0000000180008b60 | 0x00008b60
-`DdEntry27` | 1358 (0x54e) | Exported Function | 0x0000000180008b80 | 0x00008b80
-`DdEntry28` | 1359 (0x54f) | Exported Function | 0x0000000180008ba0 | 0x00008ba0
-`DdEntry29` | 1360 (0x550) | Exported Function | 0x0000000180008bc0 | 0x00008bc0
-`DdEntry3` | 1361 (0x551) | Exported Function | 0x0000000180008be0 | 0x00008be0
-`DdEntry30` | 1362 (0x552) | Exported Function | 0x0000000180008c00 | 0x00008c00
-`DdEntry31` | 1363 (0x553) | Exported Function | 0x0000000180008c20 | 0x00008c20
-`DdEntry32` | 1364 (0x554) | Exported Function | 0x0000000180008c40 | 0x00008c40
-`DdEntry33` | 1365 (0x555) | Exported Function | 0x0000000180008c60 | 0x00008c60
-`DdEntry34` | 1366 (0x556) | Exported Function | 0x0000000180008c80 | 0x00008c80
-`DdEntry35` | 1367 (0x557) | Exported Function | 0x0000000180008ca0 | 0x00008ca0
-`DdEntry36` | 1368 (0x558) | Exported Function | 0x0000000180008cc0 | 0x00008cc0
-`DdEntry37` | 1369 (0x559) | Exported Function | 0x0000000180008ce0 | 0x00008ce0
-`DdEntry38` | 1370 (0x55a) | Exported Function | 0x0000000180008d00 | 0x00008d00
-`DdEntry39` | 1371 (0x55b) | Exported Function | 0x0000000180008d20 | 0x00008d20
-`DdEntry4` | 1372 (0x55c) | Exported Function | 0x0000000180008d40 | 0x00008d40
-`DdEntry40` | 1373 (0x55d) | Exported Function | 0x0000000180008d60 | 0x00008d60
-`DdEntry41` | 1374 (0x55e) | Exported Function | 0x0000000180008d80 | 0x00008d80
-`DdEntry42` | 1375 (0x55f) | Exported Function | 0x0000000180008da0 | 0x00008da0
-`DdEntry43` | 1376 (0x560) | Exported Function | 0x0000000180008dc0 | 0x00008dc0
-`DdEntry19` | 1349 (0x545) | Exported Function | 0x0000000180008a60 | 0x00008a60
-`D3DKMTUpdateGpuVirtualAddress` | 1316 (0x524) | Exported Function | WIN32U.NtGdiDdDDIUpdateGpuVirtualAddress | 0x0001d435
-`DdEntry18` | 1348 (0x544) | Exported Function | 0x0000000180008a40 | 0x00008a40
-`DdEntry16` | 1346 (0x542) | Exported Function | 0x0000000180008a00 | 0x00008a00
-`D3DKMTUpdateTrackedWorkload` | 1318 (0x526) | Exported Function | WIN32U.NtDxgkUpdateTrackedWorkload | 0x0001d4ad
-`D3DKMTVailConnect` | 1319 (0x527) | Exported Function | WIN32U.NtDxgkVailConnect | 0x0001d4e2
-`D3DKMTVailDisconnect` | 1320 (0x528) | Exported Function | WIN32U.NtDxgkVailDisconnect | 0x0001d510
-`D3DKMTVailPromoteCompositionSurface` | 1321 (0x529) | Exported Function | WIN32U.NtDxgkVailPromoteCompositionSurface | 0x0001d550
-`D3DKMTWaitForIdle` | 1322 (0x52a) | Exported Function | WIN32U.NtGdiDdDDIWaitForIdle | 0x0001d58d
-`D3DKMTWaitForSynchronizationObject` | 1323 (0x52b) | Exported Function | 0x000000018000c4d0 | 0x0000c4d0
-`D3DKMTWaitForSynchronizationObject2` | 1324 (0x52c) | Exported Function | WIN32U.NtGdiDdDDIWaitForSynchronizationObject | 0x0001d5f1
-`D3DKMTWaitForSynchronizationObjectFromCpu` | 1325 (0x52d) | Exported Function | WIN32U.NtGdiDdDDIWaitForSynchronizationObjectFromCpu | 0x0001d649
-`D3DKMTWaitForSynchronizationObjectFromGpu` | 1326 (0x52e) | Exported Function | WIN32U.NtGdiDdDDIWaitForSynchronizationObjectFromGpu | 0x0001d6a8
-`D3DKMTWaitForVerticalBlankEvent` | 1327 (0x52f) | Exported Function | WIN32U.NtGdiDdDDIWaitForVerticalBlankEvent | 0x0001d6fd
-`D3DKMTWaitForVerticalBlankEvent2` | 1328 (0x530) | Exported Function | WIN32U.NtGdiDdDDIWaitForVerticalBlankEvent2 | 0x0001d749
-`DDCCIGetCapabilitiesString` | 1329 (0x531) | Exported Function | 0x00000001800060f0 | 0x000060f0
-`DDCCIGetCapabilitiesStringLength` | 1330 (0x532) | Exported Function | 0x0000000180006100 | 0x00006100
-`DDCCIGetTimingReport` | 1331 (0x533) | Exported Function | 0x0000000180006110 | 0x00006110
-`DDCCIGetVCPFeature` | 1332 (0x534) | Exported Function | 0x0000000180006120 | 0x00006120
-`DDCCISaveCurrentSettings` | 1333 (0x535) | Exported Function | 0x0000000180006130 | 0x00006130
-`DDCCISetVCPFeature` | 1334 (0x536) | Exported Function | 0x0000000180006140 | 0x00006140
-`DdCreateFullscreenSprite` | 1336 (0x538) | Exported Function | 0x0000000180006150 | 0x00006150
-`DdDestroyFullscreenSprite` | 1337 (0x539) | Exported Function | 0x0000000180006160 | 0x00006160
-`DdEntry0` | 1338 (0x53a) | Exported Function | 0x0000000180008900 | 0x00008900
-`DdEntry1` | 1339 (0x53b) | Exported Function | 0x0000000180008920 | 0x00008920
-`DdEntry10` | 1340 (0x53c) | Exported Function | 0x0000000180008940 | 0x00008940
-`DdEntry11` | 1341 (0x53d) | Exported Function | 0x0000000180008960 | 0x00008960
-`DdEntry12` | 1342 (0x53e) | Exported Function | 0x0000000180008980 | 0x00008980
-`DdEntry13` | 1343 (0x53f) | Exported Function | 0x00000001800089a0 | 0x000089a0
-`DdEntry14` | 1344 (0x540) | Exported Function | 0x00000001800089c0 | 0x000089c0
-`DdEntry15` | 1345 (0x541) | Exported Function | 0x00000001800089e0 | 0x000089e0
-`DdEntry17` | 1347 (0x543) | Exported Function | 0x0000000180008a20 | 0x00008a20
-`XLATEOBJ_piVector` | 1963 (0x7ab) | Exported Function | 0x000000018000acc0 | 0x0000acc0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetEnhMetaFileA` | 1653 | Exported Function
+`GetDIBits` | 1647 | Exported Function
+`GetDIBColorTable` | 1646 | Exported Function
+`GetEnhMetaFileBits` | 1654 | Exported Function
+`GetEnhMetaFileHeader` | 1657 | Exported Function
+`GetEnhMetaFileDescriptionW` | 1656 | Exported Function
+`GetEnhMetaFileDescriptionA` | 1655 | Exported Function
+`GetDeviceGammaRamp` | 1649 | Exported Function
+`GetDCBrushColor` | 1642 | Exported Function
+`GetCurrentPositionEx` | 1641 | Exported Function
+`GetCurrentObject` | 1640 | Exported Function
+`GetDCDpiScaleValue` | 1643 | Exported Function
+`GetDeviceCaps` | 1648 | Exported Function
+`GetDCPenColor` | 1645 | Exported Function
+`GetDCOrgEx` | 1644 | Exported Function
+`GetFontLanguageInfo` | 1665 | Exported Function
+`GetFontFileInfo` | 1664 | Exported Function
+`GetFontFileData` | 1663 | Exported Function
+`GetFontRealizationInfo` | 1666 | Exported Function
+`GetGlyphIndicesA` | 1669 | Exported Function
+`GetFontUnicodeRanges` | 1668 | Exported Function
+`GetFontResourceInfoW` | 1667 | Exported Function
+`GetFontData` | 1662 | Exported Function
+`GetEnhMetaFileW` | 1660 | Exported Function
+`GetEnhMetaFilePixelFormat` | 1659 | Exported Function
+`GetEnhMetaFilePaletteEntries` | 1658 | Exported Function
+`GetETM` | 1650 | Exported Function
+`GetFontAssocStatus` | 1661 | Exported Function
+`GetEUDCTimeStampExW` | 1652 | Exported Function
+`GetEUDCTimeStamp` | 1651 | Exported Function
+`GetCharABCWidthsFloatI` | 1621 | Exported Function
+`GetCharABCWidthsFloatA` | 1620 | Exported Function
+`GetCharABCWidthsA` | 1619 | Exported Function
+`GetCharABCWidthsFloatW` | 1622 | Exported Function
+`GetCharacterPlacementA` | 1633 | Exported Function
+`GetCharABCWidthsW` | 1624 | Exported Function
+`GetCharABCWidthsI` | 1623 | Exported Function
+`GetCertificateSizeByHandle` | 1618 | Exported Function
+`GetBrushAttributes` | 1612 | Exported Function
+`GetBoundsRect` | 1611 | Exported Function
+`GetBkMode` | 1610 | Exported Function
+`GetBrushOrgEx` | 1613 | Exported Function
+`GetCertificateSize` | 1617 | Exported Function
+`GetCertificateByHandle` | 1616 | Exported Function
+`GetCertificate` | 1615 | Exported Function
+`GetClipRgn` | 1636 | Exported Function
+`GetClipBox` | 1635 | Exported Function
+`GetCharWidthW` | 1632 | Exported Function
+`GetColorAdjustment` | 1637 | Exported Function
+`GetCurrentDpiInfo` | 1639 | Exported Function
+`GetCOPPCompatibleOPMInformation` | 1614 | Exported Function
+`GetColorSpace` | 1638 | Exported Function
+`GetCharWidthInfo` | 1631 | Exported Function
+`GetCharWidth32W` | 1626 | Exported Function
+`GetCharWidth32A` | 1625 | Exported Function
+`GetCharacterPlacementW` | 1634 | Exported Function
+`GetCharWidthA` | 1627 | Exported Function
+`GetCharWidthI` | 1630 | Exported Function
+`GetCharWidthFloatW` | 1629 | Exported Function
+`GetCharWidthFloatA` | 1628 | Exported Function
+`GetGlyphIndicesW` | 1670 | Exported Function
+`GetRegionData` | 1712 | Exported Function
+`GetRasterizerCaps` | 1711 | Exported Function
+`GetRandomRgn` | 1710 | Exported Function
+`GetRelAbs` | 1713 | Exported Function
+`GetStockObject` | 1715 | Exported Function
+`GetROP2` | 1709 | Exported Function
+`GetRgnBox` | 1714 | Exported Function
+`GetProcessSessionFonts` | 1708 | Exported Function
+`GetPhysicalMonitorDescription` | 1703 | Exported Function
+`GetPath` | 1702 | Exported Function
+`GetPaletteEntries` | 1701 | Exported Function
+`GetPhysicalMonitors` | 1704 | Exported Function
+`GetPolyFillMode` | 1707 | Exported Function
+`GetPixelFormat` | 1706 | Exported Function
+`GetPixel` | 1705 | Exported Function
+`GetTextColor` | 1726 | Exported Function
+`GetTextCharsetInfo` | 1725 | Exported Function
+`GetTextCharset` | 1724 | Exported Function
+`GetTextExtentExPointA` | 1727 | Exported Function
+`GetTextExtentExPointWPri` | 1730 | Exported Function
+`GetTextExtentExPointW` | 1729 | Exported Function
+`GetTextExtentExPointI` | 1728 | Exported Function
+`GetTextCharacterExtra` | 1723 | Exported Function
+`GetStringBitmapW` | 1718 | Exported Function
+`GetStringBitmapA` | 1717 | Exported Function
+`GetStretchBltMode` | 1716 | Exported Function
+`GetSuggestedOPMProtectedOutputArraySize` | 1719 | Exported Function
+`GetTextAlign` | 1722 | Exported Function
+`GetSystemPaletteUse` | 1721 | Exported Function
+`GetSystemPaletteEntries` | 1720 | Exported Function
+`GetKerningPairsW` | 1681 | Exported Function
+`GetKerningPairsA` | 1680 | Exported Function
+`GetKerningPairs` | 1679 | Exported Function
+`GetLayout` | 1682 | Exported Function
+`GetMapMode` | 1685 | Exported Function
+`GetLogColorSpaceW` | 1684 | Exported Function
+`GetLogColorSpaceA` | 1683 | Exported Function
+`GetICMProfileW` | 1678 | Exported Function
+`GetGlyphOutlineW` | 1673 | Exported Function
+`GetGlyphOutlineA` | 1672 | Exported Function
+`GetGlyphOutline` | 1671 | Exported Function
+`GetGlyphOutlineWow` | 1674 | Exported Function
+`GetICMProfileA` | 1677 | Exported Function
+`GetHFONT` | 1676 | Exported Function
+`GetGraphicsMode` | 1675 | Exported Function
+`GetObjectW` | 1698 | Exported Function
+`GetObjectType` | 1697 | Exported Function
+`GetObjectA` | 1696 | Exported Function
+`GetOPMInformation` | 1694 | Exported Function
+`GetOutlineTextMetricsW` | 1700 | Exported Function
+`GetOutlineTextMetricsA` | 1699 | Exported Function
+`GetOPMRandomNumber` | 1695 | Exported Function
+`GetNumberOfPhysicalMonitors` | 1693 | Exported Function
+`GetMetaFileW` | 1688 | Exported Function
+`GetMetaFileBitsEx` | 1687 | Exported Function
+`GetMetaFileA` | 1686 | Exported Function
+`GetMetaRgn` | 1689 | Exported Function
+`GetNearestPaletteIndex` | 1692 | Exported Function
+`GetNearestColor` | 1691 | Exported Function
+`GetMiterLimit` | 1690 | Exported Function
+`GdiEndDocEMF` | 1530 | Exported Function
+`GdiDrawStream` | 1529 | Exported Function
+`GdiDllInitialize` | 1528 | Exported Function
+`GdiEndPageEMF` | 1531 | Exported Function
+`GdiEntry11` | 1534 | Exported Function
+`GdiEntry10` | 1533 | Exported Function
+`GdiEntry1` | 1532 | Exported Function
+`GdiDescribePixelFormat` | 1527 | Exported Function
+`GdiCreateLocalEnhMetaFile` | 1522 | Exported Function
+`GdiConvertToDevmodeW` | 1521 | Exported Function
+`GdiConvertRegion` | 1520 | Exported Function
+`GdiCreateLocalMetaFilePict` | 1523 | Exported Function
+`GdiDeleteSpoolFileHandle` | 1526 | Exported Function
+`GdiDeleteLocalDC` | 1525 | Exported Function
+`GdiCurrentProcessSplWow64` | 1524 | Exported Function
+`GdiEntry7` | 1545 | Exported Function
+`GdiEntry6` | 1544 | Exported Function
+`GdiEntry5` | 1543 | Exported Function
+`GdiEntry8` | 1546 | Exported Function
+`GdiFlush` | 1549 | Exported Function
+`GdiFixUpHandle` | 1548 | Exported Function
+`GdiEntry9` | 1547 | Exported Function
+`GdiEntry4` | 1542 | Exported Function
+`GdiEntry14` | 1537 | Exported Function
+`GdiEntry13` | 1536 | Exported Function
+`GdiEntry12` | 1535 | Exported Function
+`GdiEntry15` | 1538 | Exported Function
+`GdiEntry3` | 1541 | Exported Function
+`GdiEntry2` | 1540 | Exported Function
+`GdiEntry16` | 1539 | Exported Function
+`Gdi32DllInitialize` | 1500 | Exported Function
+`g_systemCallFilterId` | 1973 | Exported Function
+`ftsWordBreak` | 1970 | Exported Function
+`GdiAddFontResourceW` | 1501 | Exported Function
+`GdiAddInitialFonts` | 1504 | Exported Function
+`GdiAddGlsRecord` | 1503 | Exported Function
+`GdiAddGlsBounds` | 1502 | Exported Function
+`FrameRgn` | 1499 | Exported Function
+`FONTOBJ_pQueryGlyphAttrs` | 1487 | Exported Function
+`FONTOBJ_pifi` | 1489 | Exported Function
+`FONTOBJ_pfdg` | 1488 | Exported Function
+`FONTOBJ_pvTrueTypeFontFile` | 1490 | Exported Function
+`fpClosePrinter` | 1969 | Exported Function
+`FONTOBJ_vGetInfo` | 1492 | Exported Function
+`FONTOBJ_pxoGetXform` | 1491 | Exported Function
+`GdiConvertDC` | 1515 | Exported Function
+`GdiConvertBrush` | 1514 | Exported Function
+`GdiConvertBitmapV5` | 1513 | Exported Function
+`GdiConvertEnhMetaFile` | 1516 | Exported Function
+`GdiConvertPalette` | 1519 | Exported Function
+`GdiConvertMetaFilePict` | 1518 | Exported Function
+`GdiConvertFont` | 1517 | Exported Function
+`GdiConvertBitmap` | 1512 | Exported Function
+`GdiBatchLimit` | 1507 | Exported Function
+`GdiArtificialDecrementDriver` | 1506 | Exported Function
+`GdiAlphaBlend` | 1505 | Exported Function
+`GdiCleanCacheDC` | 1508 | Exported Function
+`GdiConvertAndCheckDC` | 1511 | Exported Function
+`GdiConsoleTextOut` | 1510 | Exported Function
+`GdiComment` | 1509 | Exported Function
+`GdiFullscreenControl` | 1550 | Exported Function
+`GdiSetAttrs` | 1590 | Exported Function
+`GdiResetDCEMF` | 1589 | Exported Function
+`GdiReleaseLocalDC` | 1588 | Exported Function
+`GdiSetBatchLimit` | 1591 | Exported Function
+`GdiSetServerAttr` | 1594 | Exported Function
+`GdiSetPixelFormat` | 1593 | Exported Function
+`GdiSetLastError` | 1592 | Exported Function
+`GdiReleaseDC` | 1587 | Exported Function
+`GdiPrinterThunk` | 1582 | Exported Function
+`gdiPlaySpoolStream` | 1974 | Exported Function
+`GdiPlayScript` | 1581 | Exported Function
+`GdiProcessSetup` | 1583 | Exported Function
+`GdiRealizationInfo` | 1586 | Exported Function
+`GdiQueryTable` | 1585 | Exported Function
+`GdiQueryFonts` | 1584 | Exported Function
+`GetBitmapAttributes` | 1605 | Exported Function
+`GetAspectRatioFilterEx` | 1604 | Exported Function
+`GetArcDirection` | 1603 | Exported Function
+`GetBitmapBits` | 1606 | Exported Function
+`GetBkColor` | 1609 | Exported Function
+`GetBitmapDpiScaleValue` | 1608 | Exported Function
+`GetBitmapDimensionEx` | 1607 | Exported Function
+`GdiValidateHandle` | 1602 | Exported Function
+`GdiSupportsFontChangeEvent` | 1597 | Exported Function
+`GdiStartPageEMF` | 1596 | Exported Function
+`GdiStartDocEMF` | 1595 | Exported Function
+`GdiSwapBuffers` | 1598 | Exported Function
+`GdiTransparentBlt` | 1601 | Exported Function
+`GdiTrackHDelete` | 1600 | Exported Function
+`GdiTrackHCreate` | 1599 | Exported Function
+`GdiGetPageCount` | 1561 | Exported Function
+`GdiGetLocalFont` | 1560 | Exported Function
+`GdiGetLocalDC` | 1559 | Exported Function
+`GdiGetPageHandle` | 1562 | Exported Function
+`GdiGetVariationStoreDelta` | 1565 | Exported Function
+`GdiGetSpoolMessage` | 1564 | Exported Function
+`GdiGetSpoolFileHandle` | 1563 | Exported Function
+`GdiGetLocalBrush` | 1558 | Exported Function
+`GdiGetCharDimensions` | 1553 | Exported Function
+`GdiGetBitmapBitsSize` | 1552 | Exported Function
+`GdiGetBatchLimit` | 1551 | Exported Function
+`GdiGetCodePage` | 1554 | Exported Function
+`GdiGetEntry` | 1557 | Exported Function
+`GdiGetDevmodeForPage` | 1556 | Exported Function
+`GdiGetDC` | 1555 | Exported Function
+`GdiPlayDCScript` | 1576 | Exported Function
+`GdiLoadType1Fonts` | 1575 | Exported Function
+`GdiIsUMPDSandboxingEnabled` | 1574 | Exported Function
+`GdiPlayEMF` | 1577 | Exported Function
+`GdiPlayPrivatePageEMF` | 1580 | Exported Function
+`GdiPlayPageEMF` | 1579 | Exported Function
+`GdiPlayJournal` | 1578 | Exported Function
+`GdiIsTrackingEnabled` | 1573 | Exported Function
+`GdiInitSpool` | 1567 | Exported Function
+`GdiInitializeLanguagePack` | 1568 | Exported Function
+`GdiGradientFill` | 1566 | Exported Function
+`GdiIsMetaFileDC` | 1569 | Exported Function
+`GdiIsScreenDC` | 1572 | Exported Function
+`GdiIsPlayMetafileDC` | 1571 | Exported Function
+`GdiIsMetaPrintDC` | 1570 | Exported Function
+`GetTextExtentPoint32A` | 1731 | Exported Function
+`SetBkMode` | 1889 | Exported Function
+`SetBkColor` | 1888 | Exported Function
+`SetBitmapDimensionEx` | 1887 | Exported Function
+`SetBoundsRect` | 1890 | Exported Function
+`SetColorAdjustment` | 1893 | Exported Function
+`SetBrushOrgEx` | 1892 | Exported Function
+`SetBrushAttributes` | 1891 | Exported Function
+`SetBitmapBits` | 1886 | Exported Function
+`SelectPalette` | 1882 | Exported Function
+`SelectObject` | 1881 | Exported Function
+`SelectFontLocal` | 1880 | Exported Function
+`semDxTrimNotification` | 1981 | Exported Function
+`SetBitmapAttributes` | 1885 | Exported Function
+`SetArcDirection` | 1884 | Exported Function
+`SetAbortProc` | 1883 | Exported Function
+`SetICMMode` | 1904 | Exported Function
+`SetGraphicsMode` | 1903 | Exported Function
+`SetFontEnumeration` | 1902 | Exported Function
+`SetICMProfileA` | 1905 | Exported Function
+`SetLayoutWidth` | 1908 | Exported Function
+`SetLayout` | 1907 | Exported Function
+`SetICMProfileW` | 1906 | Exported Function
+`SetEnhMetaFileBits` | 1901 | Exported Function
+`SetDCPenColor` | 1896 | Exported Function
+`SetDCBrushColor` | 1895 | Exported Function
+`SetColorSpace` | 1894 | Exported Function
+`SetDeviceGammaRamp` | 1900 | Exported Function
+`SetDIBitsToDevice` | 1899 | Exported Function
+`SetDIBits` | 1898 | Exported Function
+`SetDIBColorTable` | 1897 | Exported Function
+`ScriptRecordDigitSubstitution` | 1860 | Exported Function
+`ScriptPositionSingleGlyph` | 1859 | Exported Function
+`ScriptPlaceOpenType` | 1858 | Exported Function
+`ScriptShape` | 1861 | Exported Function
+`ScriptString_pLogAttr` | 1871 | Exported Function
+`ScriptString_pcOutChars` | 1873 | Exported Function
+`ScriptShapeOpenType` | 1862 | Exported Function
+`ScriptPlace` | 1857 | Exported Function
+`ScriptIsComplex` | 1852 | Exported Function
+`ScriptGetProperties` | 1851 | Exported Function
+`ScriptGetLogicalWidths` | 1850 | Exported Function
+`ScriptItemize` | 1853 | Exported Function
+`ScriptLayout` | 1856 | Exported Function
+`ScriptJustify` | 1855 | Exported Function
+`ScriptItemizeOpenType` | 1854 | Exported Function
+`ScriptTextOut` | 1875 | Exported Function
+`ScriptSubstituteSingleGlyph` | 1874 | Exported Function
+`ScriptStringXtoCP` | 1870 | Exported Function
+`ScriptXtoCP` | 1876 | Exported Function
+`SelectClipRgn` | 1879 | Exported Function
+`SelectClipPath` | 1878 | Exported Function
+`SelectBrushLocal` | 1877 | Exported Function
+`ScriptStringValidate` | 1869 | Exported Function
+`ScriptStringCPtoX` | 1864 | Exported Function
+`ScriptStringAnalyse` | 1863 | Exported Function
+`ScriptString_pSize` | 1872 | Exported Function
+`ScriptStringFree` | 1865 | Exported Function
+`ScriptStringOut` | 1868 | Exported Function
+`ScriptStringGetOrder` | 1867 | Exported Function
+`ScriptStringGetLogicalWidths` | 1866 | Exported Function
+`SetMagicColors` | 1909 | Exported Function
+`SwapBuffers` | 1945 | Exported Function
+`StrokePath` | 1944 | Exported Function
+`StrokeAndFillPath` | 1943 | Exported Function
+`TextOutA` | 1946 | Exported Function
+`UnloadNetworkFonts` | 1949 | Exported Function
+`TranslateCharsetInfo` | 1948 | Exported Function
+`TextOutW` | 1947 | Exported Function
+`STROBJ_vEnumStart` | 1831 | Exported Function
+`StretchDIBits` | 1942 | Exported Function
+`StretchBlt` | 1941 | Exported Function
+`StartPage` | 1940 | Exported Function
+`STROBJ_bEnum` | 1827 | Exported Function
+`STROBJ_dwGetCodePage` | 1830 | Exported Function
+`STROBJ_bGetAdvanceWidths` | 1829 | Exported Function
+`STROBJ_bEnumPositionsOnly` | 1828 | Exported Function
+`XFORMOBJ_iGetXform` | 1959 | Exported Function
+`XFORMOBJ_bApplyXform` | 1958 | Exported Function
+`WidenPath` | 1957 | Exported Function
+`XLATEOBJ_cGetPalette` | 1960 | Exported Function
+`XLATEOBJ_piVector` | 1963 | Exported Function
+`XLATEOBJ_iXlate` | 1962 | Exported Function
+`XLATEOBJ_hGetColorTransform` | 1961 | Exported Function
+`vSetPldc` | 1982 | Exported Function
+`UpdateICMRegKeyA` | 1952 | Exported Function
+`UpdateColors` | 1951 | Exported Function
+`UnrealizeObject` | 1950 | Exported Function
+`UpdateICMRegKeyW` | 1953 | Exported Function
+`UspFreeMem` | 1956 | Exported Function
+`UspAllocTemp` | 1955 | Exported Function
+`UspAllocCache` | 1954 | Exported Function
+`SetPolyFillMode` | 1920 | Exported Function
+`SetPixelV` | 1919 | Exported Function
+`SetPixelFormat` | 1918 | Exported Function
+`SetRectRgn` | 1922 | Exported Function
+`SetStretchBltMode` | 1924 | Exported Function
+`SetROP2` | 1921 | Exported Function
+`SetRelAbs` | 1923 | Exported Function
+`SetPixel` | 1917 | Exported Function
+`SetMetaFileBitsEx` | 1912 | Exported Function
+`SetMapperFlags` | 1911 | Exported Function
+`SetMapMode` | 1910 | Exported Function
+`SetMetaRgn` | 1913 | Exported Function
+`SetPaletteEntries` | 1916 | Exported Function
+`SetOPMSigningKeyAndSequenceNumbers` | 1915 | Exported Function
+`SetMiterLimit` | 1914 | Exported Function
+`SetWinMetaFileBits` | 1933 | Exported Function
+`SetWindowOrgEx` | 1935 | Exported Function
+`SetWindowExtEx` | 1934 | Exported Function
+`SetWorldTransform` | 1936 | Exported Function
+`StartFormPage` | 1939 | Exported Function
+`StartDocW` | 1938 | Exported Function
+`StartDocA` | 1937 | Exported Function
+`SetVirtualResolution` | 1932 | Exported Function
+`SetTextCharacterExtra` | 1927 | Exported Function
+`SetTextAlign` | 1926 | Exported Function
+`SetSystemPaletteUse` | 1925 | Exported Function
+`SetTextColor` | 1928 | Exported Function
+`SetViewportOrgEx` | 1931 | Exported Function
+`SetViewportExtEx` | 1930 | Exported Function
+`SetTextJustification` | 1929 | Exported Function
+`LpkPSMTextOut` | 1766 | Exported Function
+`LpkPresent` | 1767 | Exported Function
+`LpkpInitializeEditControl` | 1771 | Exported Function
+`LpkTabbedTextOut` | 1768 | Exported Function
+`MaskBlt` | 1772 | Exported Function
+`LPtoDP` | 1756 | Exported Function
+`LpkUseGDIWidthCache` | 1769 | Exported Function
+`LpkpEditControlSize` | 1770 | Exported Function
+`LpkExtTextOut` | 1761 | Exported Function
+`LpkEditControl` | 1760 | Exported Function
+`LpkDrawTextEx` | 1759 | Exported Function
+`LpkGetCharacterPlacement` | 1762 | Exported Function
+`LpkInitialize` | 1765 | Exported Function
+`LpkGetTextExtentExPoint` | 1764 | Exported Function
+`LpkGetEditControl` | 1763 | Exported Function
+`OffsetWindowOrgEx` | 1783 | Exported Function
+`OffsetViewportOrgEx` | 1782 | Exported Function
+`OffsetRgn` | 1781 | Exported Function
+`PaintRgn` | 1789 | Exported Function
+`PATHOBJ_bEnumClipLines` | 1785 | Exported Function
+`PATHOBJ_bEnum` | 1784 | Exported Function
+`PatBlt` | 1790 | Exported Function
+`OffsetClipRgn` | 1780 | Exported Function
+`ModerncoreDeleteDC` | 1775 | Exported Function
+`ModerncoreCreateICW` | 1774 | Exported Function
+`MirrorRgn` | 1773 | Exported Function
+`ModerncoreGdiInit` | 1776 | Exported Function
+`NamedEscape` | 1779 | Exported Function
+`MoveToEx` | 1778 | Exported Function
+`ModifyWorldTransform` | 1777 | Exported Function
+`GetViewportExtEx` | 1742 | Exported Function
+`GetTransform` | 1741 | Exported Function
+`GetTextMetricsW` | 1740 | Exported Function
+`GetViewportOrgEx` | 1743 | Exported Function
+`GetWinMetaFileBits` | 1744 | Exported Function
+`GetWindowOrgEx` | 1746 | Exported Function
+`GetWindowExtEx` | 1745 | Exported Function
+`GetTextMetricsA` | 1739 | Exported Function
+`GetTextExtentPointI` | 1734 | Exported Function
+`GetTextExtentPointA` | 1733 | Exported Function
+`GetTextExtentPoint32W` | 1732 | Exported Function
+`GetTextExtentPointW` | 1735 | Exported Function
+`GetTextFaceW` | 1738 | Exported Function
+`GetTextFaceAliasW` | 1737 | Exported Function
+`GetTextFaceA` | 1736 | Exported Function
+`InvertRgn` | 1753 | Exported Function
+`IntersectClipRect` | 1752 | Exported Function
+`InternalDeleteObject` | 1751 | Exported Function
+`IsValidEnhMetaRecord` | 1754 | Exported Function
+`LineTo` | 1758 | Exported Function
+`LineDDA` | 1757 | Exported Function
+`IsValidEnhMetaRecordOffExt` | 1755 | Exported Function
+`InternalDeleteDC` | 1750 | Exported Function
+`gMaxGdiHandleCount` | 1971 | Exported Function
+`ghICM` | 1975 | Exported Function
+`GetWorldTransform` | 1747 | Exported Function
+`gW32PID` | 1972 | Exported Function
+`HT_Get8BPPMaskPalette` | 1749 | Exported Function
+`HT_Get8BPPFormatPalette` | 1748 | Exported Function
+`hGetPEBHandle` | 1976 | Exported Function
+`PATHOBJ_vEnumStart` | 1786 | Exported Function
+`RestoreDC` | 1825 | Exported Function
+`ResizePalette` | 1824 | Exported Function
+`ResetDCW` | 1823 | Exported Function
+`RoundRect` | 1826 | Exported Function
+`ScaleValues` | 1834 | Exported Function
+`ScaleRgn` | 1833 | Exported Function
+`SaveDC` | 1832 | Exported Function
+`ResetDCA` | 1822 | Exported Function
+`RemoveFontResourceA` | 1817 | Exported Function
+`RemoveFontMemResourceEx` | 1816 | Exported Function
+`RectVisible` | 1814 | Exported Function
+`RemoveFontResourceExA` | 1818 | Exported Function
+`RemoveFontResourceW` | 1821 | Exported Function
+`RemoveFontResourceTracking` | 1820 | Exported Function
+`RemoveFontResourceExW` | 1819 | Exported Function
+`ScriptGetFontFeatureTags` | 1845 | Exported Function
+`ScriptGetFontAlternateGlyphs` | 1844 | Exported Function
+`ScriptGetCMap` | 1843 | Exported Function
+`ScriptGetFontLanguageTags` | 1846 | Exported Function
+`ScriptGetGlyphABCWidth` | 1849 | Exported Function
+`ScriptGetFontScriptTags` | 1848 | Exported Function
+`ScriptGetFontProperties` | 1847 | Exported Function
+`ScriptFreeCache` | 1842 | Exported Function
+`ScriptApplyDigitSubstitution` | 1837 | Exported Function
+`ScaleWindowExtEx` | 1836 | Exported Function
+`ScaleViewportExtEx` | 1835 | Exported Function
+`ScriptApplyLogicalWidth` | 1838 | Exported Function
+`ScriptCPtoX` | 1840 | Exported Function
+`ScriptCacheGetHeight` | 1841 | Exported Function
+`ScriptBreak` | 1839 | Exported Function
+`PlayMetaFileRecord` | 1796 | Exported Function
+`PlayMetaFile` | 1795 | Exported Function
+`PlayEnhMetaFileRecord` | 1794 | Exported Function
+`pldcGet` | 1980 | Exported Function
+`PolyBezierTo` | 1799 | Exported Function
+`PolyBezier` | 1798 | Exported Function
+`PlgBlt` | 1797 | Exported Function
+`PlayEnhMetaFile` | 1793 | Exported Function
+`PathToRegion` | 1791 | Exported Function
+`PATHOBJ_vGetBounds` | 1788 | Exported Function
+`PATHOBJ_vEnumStartClipLines` | 1787 | Exported Function
+`pGdiDevCaps` | 1977 | Exported Function
+`Pie` | 1792 | Exported Function
+`pGdiSharedMemory` | 1979 | Exported Function
+`pGdiSharedHandleTable` | 1978 | Exported Function
+`PtVisible` | 1810 | Exported Function
+`PtInRegion` | 1809 | Exported Function
+`PolyTextOutW` | 1805 | Exported Function
+`QueryFontAssocStatus` | 1811 | Exported Function
+`RectInRegion` | 1813 | Exported Function
+`Rectangle` | 1815 | Exported Function
+`RealizePalette` | 1812 | Exported Function
+`PolyTextOutA` | 1804 | Exported Function
+`Polyline` | 1807 | Exported Function
+`Polygon` | 1806 | Exported Function
+`PolyDraw` | 1800 | Exported Function
+`PolylineTo` | 1808 | Exported Function
+`PolyPolyline` | 1803 | Exported Function
+`PolyPolygon` | 1802 | Exported Function
+`PolyPatBlt` | 1801 | Exported Function
+`D3DKMTFlushHeapTransitions` | 1170 | Exported Function
+`D3DKMTFlipOverlay` | 1169 | Exported Function
+`D3DKMTExtractBundleObject` | 1168 | Exported Function
+`D3DKMTFreeGpuVirtualAddress` | 1171 | Exported Function
+`D3DKMTGetCachedHybridQueryValue` | 1174 | Exported Function
+`D3DKMTGetAvailableTrackedWorkloadIndex` | 1173 | Exported Function
+`D3DKMTGetAllocationPriority` | 1172 | Exported Function
+`D3DKMTEvict` | 1167 | Exported Function
+`D3DKMTDuplicateHandle` | 1162 | Exported Function
+`D3DKMTDispMgrTargetOperation` | 1160 | Exported Function
+`D3DKMTDispMgrSourceOperation` | 1159 | Exported Function
+`D3DKMTEnumAdapters` | 1163 | Exported Function
+`D3DKMTEscape` | 1166 | Exported Function
+`D3DKMTEnumAdapters3` | 1165 | Exported Function
+`D3DKMTEnumAdapters2` | 1164 | Exported Function
+`D3DKMTGetPresentHistory` | 1185 | Exported Function
+`D3DKMTGetPostCompositionCaps` | 1184 | Exported Function
+`D3DKMTGetOverlayState` | 1183 | Exported Function
+`D3DKMTGetPresentQueueEvent` | 1186 | Exported Function
+`D3DKMTGetProcessSchedulingPriorityBand` | 1189 | Exported Function
+`D3DKMTGetProcessList` | 1188 | Exported Function
+`D3DKMTGetProcessDeviceRemovalSupport` | 1187 | Exported Function
+`D3DKMTGetMultisampleMethodList` | 1182 | Exported Function
+`D3DKMTGetDeviceState` | 1178 | Exported Function
+`D3DKMTGetContextSchedulingPriority` | 1176 | Exported Function
+`D3DKMTGetContextInProcessSchedulingPriority` | 1175 | Exported Function
+`D3DKMTGetDisplayModeList` | 1179 | Exported Function
+`D3DKMTGetMultiPlaneOverlayCaps` | 1181 | Exported Function
+`D3DKMTGetMemoryBudgetTarget` | 1180 | Exported Function
+`D3DKMTGetDWMVerticalBlankEvent` | 1177 | Exported Function
+`D3DKMTCreateSynchronizationObject2` | 1140 | Exported Function
+`D3DKMTCreateSynchronizationObject` | 1139 | Exported Function
+`D3DKMTCreateSwapChain` | 1138 | Exported Function
+`D3DKMTCreateTrackedWorkload` | 1141 | Exported Function
+`D3DKMTDestroyAllocation2` | 1144 | Exported Function
+`D3DKMTDestroyAllocation` | 1143 | Exported Function
+`D3DKMTDDisplayEnum` | 1142 | Exported Function
+`D3DKMTCreateProtectedSession` | 1137 | Exported Function
+`D3DKMTCreateKeyedMutex` | 1132 | Exported Function
+`D3DKMTCreateHwQueue` | 1131 | Exported Function
+`D3DKMTCreateHwContext` | 1130 | Exported Function
+`D3DKMTCreateKeyedMutex2` | 1133 | Exported Function
+`D3DKMTCreatePagingQueue` | 1136 | Exported Function
+`D3DKMTCreateOverlay` | 1135 | Exported Function
+`D3DKMTCreateOutputDupl` | 1134 | Exported Function
+`D3DKMTDestroySynchronizationObject` | 1155 | Exported Function
+`D3DKMTDestroyProtectedSession` | 1154 | Exported Function
+`D3DKMTDestroyPagingQueue` | 1153 | Exported Function
+`D3DKMTDestroyTrackedWorkload` | 1156 | Exported Function
+`D3DKMTDispMgrOperation` | 1158 | Exported Function
+`D3DKMTDispMgrCreate` | 1157 | Exported Function
+`D3DKMTDisplayPortOperation` | 1161 | Exported Function
+`D3DKMTDestroyOverlay` | 1152 | Exported Function
+`D3DKMTDestroyDevice` | 1147 | Exported Function
+`D3DKMTDestroyDCFromMemory` | 1146 | Exported Function
+`D3DKMTDestroyContext` | 1145 | Exported Function
+`D3DKMTDestroyHwContext` | 1148 | Exported Function
+`D3DKMTDestroyOutputDupl` | 1151 | Exported Function
+`D3DKMTDestroyKeyedMutex` | 1150 | Exported Function
+`D3DKMTDestroyHwQueue` | 1149 | Exported Function
+`D3DKMTGetProcessSchedulingPriorityClass` | 1190 | Exported Function
+`D3DKMTOpenSyncObjectNtHandleFromName` | 1230 | Exported Function
+`D3DKMTOpenSyncObjectFromNtHandle2` | 1229 | Exported Function
+`D3DKMTOpenSyncObjectFromNtHandle` | 1228 | Exported Function
+`D3DKMTOutputDuplGetFrameInfo` | 1232 | Exported Function
+`D3DKMTOutputDuplPresent` | 1235 | Exported Function
+`D3DKMTOutputDuplGetPointerShapeData` | 1234 | Exported Function
+`D3DKMTOutputDuplGetMetaData` | 1233 | Exported Function
+`D3DKMTOpenSynchronizationObject` | 1231 | Exported Function
+`D3DKMTOpenProtectedSessionFromNtHandle` | 1223 | Exported Function
+`D3DKMTOpenNtHandleFromName` | 1222 | Exported Function
+`D3DKMTOpenKeyedMutexFromNtHandle` | 1221 | Exported Function
+`D3DKMTOpenResource` | 1224 | Exported Function
+`D3DKMTOpenSwapChain` | 1227 | Exported Function
+`D3DKMTOpenResourceFromNtHandle` | 1226 | Exported Function
+`D3DKMTOpenResource2` | 1225 | Exported Function
+`D3DKMTQueryAdapterInfo` | 1246 | Exported Function
+`D3DKMTPresentRedirected` | 1245 | Exported Function
+`D3DKMTPresentMultiPlaneOverlay3` | 1244 | Exported Function
+`D3DKMTQueryAllocationResidency` | 1247 | Exported Function
+`D3DKMTQueryProcessOfferInfo` | 1250 | Exported Function
+`D3DKMTQueryFSEBlock` | 1249 | Exported Function
+`D3DKMTQueryClockCalibration` | 1248 | Exported Function
+`D3DKMTPresentMultiPlaneOverlay2` | 1243 | Exported Function
+`D3DKMTPinDirectFlipResources` | 1238 | Exported Function
+`D3DKMTOutputDuplReleaseFrame` | 1237 | Exported Function
+`D3DKMTOutputDuplPresentToHwQueue` | 1236 | Exported Function
+`D3DKMTPinResources` | 1239 | Exported Function
+`D3DKMTPresentMultiPlaneOverlay` | 1242 | Exported Function
+`D3DKMTPresent` | 1241 | Exported Function
+`D3DKMTPollDisplayChildren` | 1240 | Exported Function
+`D3DKMTLock` | 1201 | Exported Function
+`D3DKMTInvalidateCache` | 1200 | Exported Function
+`D3DKMTInvalidateActiveVidPn` | 1199 | Exported Function
+`D3DKMTLock2` | 1202 | Exported Function
+`D3DKMTMarkDeviceAsError` | 1205 | Exported Function
+`D3DKMTMapGpuVirtualAddress` | 1204 | Exported Function
+`D3DKMTMakeResident` | 1203 | Exported Function
+`D3DKMTGetYieldPercentage` | 1198 | Exported Function
+`D3DKMTGetScanLine` | 1193 | Exported Function
+`D3DKMTGetRuntimeData` | 1192 | Exported Function
+`D3DKMTGetResourcePresentPrivateDriverData` | 1191 | Exported Function
+`D3DKMTGetSetSwapChainMetadata` | 1194 | Exported Function
+`D3DKMTGetTrackedWorkloadStatistics` | 1197 | Exported Function
+`D3DKMTGetSharedResourceAdapterLuid` | 1196 | Exported Function
+`D3DKMTGetSharedPrimaryHandle` | 1195 | Exported Function
+`D3DKMTOpenAdapterFromHdc` | 1216 | Exported Function
+`D3DKMTOpenAdapterFromGdiDisplayName` | 1215 | Exported Function
+`D3DKMTOpenAdapterFromDeviceName` | 1214 | Exported Function
+`D3DKMTOpenAdapterFromLuid` | 1217 | Exported Function
+`D3DKMTOpenKeyedMutex2` | 1220 | Exported Function
+`D3DKMTOpenKeyedMutex` | 1219 | Exported Function
+`D3DKMTOpenBundleObjectNtHandleFromName` | 1218 | Exported Function
+`D3DKMTOfferAllocations` | 1213 | Exported Function
+`D3DKMTNetDispQueryMiracastDisplayDeviceSupport` | 1208 | Exported Function
+`D3DKMTNetDispQueryMiracastDisplayDeviceStatus` | 1207 | Exported Function
+`D3DKMTNetDispGetNextChunkInfo` | 1206 | Exported Function
+`D3DKMTNetDispStartMiracastDisplayDevice` | 1209 | Exported Function
+`D3DKMTNetDispStopMiracastDisplayDevice` | 1212 | Exported Function
+`D3DKMTNetDispStartMiracastDisplayDeviceEx` | 1211 | Exported Function
+`D3DKMTNetDispStartMiracastDisplayDevice2` | 1210 | Exported Function
+`CombineTransform` | 1050 | Exported Function
+`CombineRgn` | 1049 | Exported Function
+`ColorMatchToTarget` | 1048 | Exported Function
+`ConfigureOPMProtectedOutput` | 1051 | Exported Function
+`CopyMetaFileA` | 1054 | Exported Function
+`CopyEnhMetaFileW` | 1053 | Exported Function
+`CopyEnhMetaFileA` | 1052 | Exported Function
+`ColorCorrectPalette` | 1047 | Exported Function
+`CLIPOBJ_cEnumStart` | 1036 | Exported Function
+`CLIPOBJ_bEnum` | 1035 | Exported Function
+`ClearBrushAttributes` | 1043 | Exported Function
+`CLIPOBJ_ppoGetPath` | 1037 | Exported Function
+`CloseMetaFile` | 1046 | Exported Function
+`CloseFigure` | 1045 | Exported Function
+`CloseEnhMetaFile` | 1044 | Exported Function
+`CreateDCA` | 1065 | Exported Function
+`CreateCompatibleDC` | 1064 | Exported Function
+`CreateCompatibleBitmap` | 1063 | Exported Function
+`CreateDCExW` | 2000 | Exported Function
+`CreateDIBPatternBrush` | 1067 | Exported Function
+`CreateDIBitmap` | 1070 | Exported Function
+`CreateDCW` | 1066 | Exported Function
+`CreateColorSpaceW` | 1062 | Exported Function
+`CreateBitmapFromDxSurface` | 1057 | Exported Function
+`CreateBitmap` | 1056 | Exported Function
+`CopyMetaFileW` | 1055 | Exported Function
+`CreateBitmapFromDxSurface2` | 1058 | Exported Function
+`CreateColorSpaceA` | 1061 | Exported Function
+`CreateBrushIndirect` | 1060 | Exported Function
+`CreateBitmapIndirect` | 1059 | Exported Function
+`AnyLinkedFonts` | 1025 | Exported Function
+`AnimatePalette` | 1024 | Exported Function
+`AngleArc` | 1023 | Exported Function
+`Arc` | 1026 | Exported Function
+`bDeleteLDC` | 1965 | Exported Function
+`bCreateDCW` | 1964 | Exported Function
+`ArcTo` | 1027 | Exported Function
+`AddFontResourceW` | 1022 | Exported Function
+`AddFontMemResourceEx` | 1017 | Exported Function
+`AbortPath` | 1012 | Exported Function
+`AbortDoc` | 1011 | Exported Function
+`AddFontResourceA` | 1018 | Exported Function
+`AddFontResourceTracking` | 1021 | Exported Function
+`AddFontResourceExW` | 1020 | Exported Function
+`AddFontResourceExA` | 1019 | Exported Function
+`cGetTTFFromFOT` | 1968 | Exported Function
+`CancelDC` | 1038 | Exported Function
+`BRUSHOBJ_ulGetBrushColor` | 1031 | Exported Function
+`CheckColorsInGamut` | 1039 | Exported Function
+`ClearBitmapAttributes` | 1042 | Exported Function
+`Chord` | 1041 | Exported Function
+`ChoosePixelFormat` | 1040 | Exported Function
+`BRUSHOBJ_pvGetRbrush` | 1030 | Exported Function
+`bInitSystemAndFontsDirectoriesW` | 1966 | Exported Function
+`BeginPath` | 1033 | Exported Function
+`BeginGdiRendering` | 1032 | Exported Function
+`BitBlt` | 1034 | Exported Function
+`BRUSHOBJ_pvAllocRbrush` | 1029 | Exported Function
+`BRUSHOBJ_hGetColorTransform` | 1028 | Exported Function
+`bMakePathNameW` | 1967 | Exported Function
+`CreateDIBPatternBrushPt` | 1068 | Exported Function
+`D3DKMTAdjustFullscreenGamma` | 1110 | Exported Function
+`D3DKMTAddSurfaceToSwapChain` | 1109 | Exported Function
+`D3DKMTAcquireSwapChain` | 1108 | Exported Function
+`D3DKMTCacheHybridQueryValue` | 1111 | Exported Function
+`D3DKMTCheckMonitorPowerState` | 1114 | Exported Function
+`D3DKMTCheckExclusiveOwnership` | 1113 | Exported Function
+`D3DKMTChangeVideoMemoryReservation` | 1112 | Exported Function
+`D3DKMTAcquireKeyedMutex2` | 1107 | Exported Function
+`CreateScaledCompatibleBitmap` | 1102 | Exported Function
+`CreateScalableFontResourceW` | 1101 | Exported Function
+`CreateScalableFontResourceA` | 1100 | Exported Function
+`CreateSessionMappedDIBSection` | 1103 | Exported Function
+`D3DKMTAcquireKeyedMutex` | 1106 | Exported Function
+`D3DKMTAbandonSwapChain` | 1105 | Exported Function
+`CreateSolidBrush` | 1104 | Exported Function
+`D3DKMTCreateBundleObject` | 1125 | Exported Function
+`D3DKMTCreateAllocation2` | 1124 | Exported Function
+`D3DKMTCreateAllocation` | 1123 | Exported Function
+`D3DKMTCreateContext` | 1126 | Exported Function
+`D3DKMTCreateDevice` | 1129 | Exported Function
+`D3DKMTCreateDCFromMemory` | 1128 | Exported Function
+`D3DKMTCreateContextVirtual` | 1127 | Exported Function
+`D3DKMTConfigureSharedResource` | 1122 | Exported Function
+`D3DKMTCheckMultiPlaneOverlaySupport3` | 1117 | Exported Function
+`D3DKMTCheckMultiPlaneOverlaySupport2` | 1116 | Exported Function
+`D3DKMTCheckMultiPlaneOverlaySupport` | 1115 | Exported Function
+`D3DKMTCheckOcclusion` | 1118 | Exported Function
+`D3DKMTCloseAdapter` | 1121 | Exported Function
+`D3DKMTCheckVidPnExclusiveOwnership` | 1120 | Exported Function
+`D3DKMTCheckSharedResourceAccess` | 1119 | Exported Function
+`CreateFontIndirectExW` | 1080 | Exported Function
+`CreateFontIndirectExA` | 1079 | Exported Function
+`CreateFontIndirectA` | 1078 | Exported Function
+`CreateFontIndirectW` | 1081 | Exported Function
+`CreateHatchBrush` | 1084 | Exported Function
+`CreateHalftonePalette` | 1083 | Exported Function
+`CreateFontW` | 1082 | Exported Function
+`CreateFontA` | 1077 | Exported Function
+`CreateDPIScaledDIBSection` | 1071 | Exported Function
+`CreateDiscardableBitmap` | 1072 | Exported Function
+`CreateDIBSection` | 1069 | Exported Function
+`CreateEllipticRgn` | 1073 | Exported Function
+`CreateEnhMetaFileW` | 1076 | Exported Function
+`CreateEnhMetaFileA` | 1075 | Exported Function
+`CreateEllipticRgnIndirect` | 1074 | Exported Function
+`CreatePolygonRgn` | 1096 | Exported Function
+`CreatePenIndirect` | 1094 | Exported Function
+`CreatePen` | 1093 | Exported Function
+`CreatePolyPolygonRgn` | 1095 | Exported Function
+`CreateRoundRectRgn` | 1099 | Exported Function
+`CreateRectRgnIndirect` | 1098 | Exported Function
+`CreateRectRgn` | 1097 | Exported Function
+`CreatePatternBrush` | 1092 | Exported Function
+`CreateMetaFileA` | 1087 | Exported Function
+`CreateICW` | 1086 | Exported Function
+`CreateICA` | 1085 | Exported Function
+`CreateMetaFileW` | 1088 | Exported Function
+`CreatePalette` | 1091 | Exported Function
+`CreateOPMProtectedOutputs` | 1090 | Exported Function
+`CreateOPMProtectedOutput` | 1089 | Exported Function
+`D3DKMTQueryProtectedSessionInfoFromNtHandle` | 1251 | Exported Function
+`EndFormPage` | 1412 | Exported Function
+`EndDoc` | 1411 | Exported Function
+`EnableEUDC` | 1410 | Exported Function
+`EndGdiRendering` | 1413 | Exported Function
+`EngAcquireSemaphore` | 1416 | Exported Function
+`EndPath` | 1415 | Exported Function
+`EndPage` | 1414 | Exported Function
+`Ellipse` | 1409 | Exported Function
+`DeviceCapabilitiesExW` | 1406 | Exported Function
+`DeviceCapabilitiesExA` | 1405 | Exported Function
+`DestroyPhysicalMonitorInternal` | 1404 | Exported Function
+`DPtoLP` | 1335 | Exported Function
+`DxTrimNotificationListHead` | 1408 | Exported Function
+`DwmCreatedBitmapRemotingOutput` | 1014 | Exported Function
+`DrawEscape` | 1407 | Exported Function
+`EngCreatePalette` | 1427 | Exported Function
+`EngCreateDeviceSurface` | 1426 | Exported Function
+`EngCreateDeviceBitmap` | 1425 | Exported Function
+`EngCreateSemaphore` | 1428 | Exported Function
+`EngDeletePath` | 1431 | Exported Function
+`EngDeletePalette` | 1430 | Exported Function
+`EngDeleteClip` | 1429 | Exported Function
+`EngCreateClip` | 1424 | Exported Function
+`EngBitBlt` | 1419 | Exported Function
+`EngAssociateSurface` | 1418 | Exported Function
+`EngAlphaBlend` | 1417 | Exported Function
+`EngCheckAbort` | 1420 | Exported Function
+`EngCreateBitmap` | 1423 | Exported Function
+`EngCopyBits` | 1422 | Exported Function
+`EngComputeGlyphSet` | 1421 | Exported Function
+`DdEntry50` | 1384 | Exported Function
+`DdEntry5` | 1383 | Exported Function
+`DdEntry49` | 1382 | Exported Function
+`DdEntry51` | 1385 | Exported Function
+`DdEntry54` | 1388 | Exported Function
+`DdEntry53` | 1387 | Exported Function
+`DdEntry52` | 1386 | Exported Function
+`DdEntry48` | 1381 | Exported Function
+`DdEntry43` | 1376 | Exported Function
+`DdEntry42` | 1375 | Exported Function
+`DdEntry41` | 1374 | Exported Function
+`DdEntry44` | 1377 | Exported Function
+`DdEntry47` | 1380 | Exported Function
+`DdEntry46` | 1379 | Exported Function
+`DdEntry45` | 1378 | Exported Function
+`DeleteEnhMetaFile` | 1399 | Exported Function
+`DeleteDC` | 1398 | Exported Function
+`DeleteColorSpace` | 1397 | Exported Function
+`DeleteMetaFile` | 1400 | Exported Function
+`DestroyOPMProtectedOutput` | 1403 | Exported Function
+`DescribePixelFormat` | 1402 | Exported Function
+`DeleteObject` | 1401 | Exported Function
+`DdQueryVisRgnUniqueness` | 1396 | Exported Function
+`DdEntry6` | 1391 | Exported Function
+`DdEntry56` | 1390 | Exported Function
+`DdEntry55` | 1389 | Exported Function
+`DdEntry7` | 1392 | Exported Function
+`DdNotifyFullscreenSpriteUpdate` | 1395 | Exported Function
+`DdEntry9` | 1394 | Exported Function
+`DdEntry8` | 1393 | Exported Function
+`EngDeleteSemaphore` | 1432 | Exported Function
+`EqualRgn` | 1473 | Exported Function
+`EnumObjects` | 1472 | Exported Function
+`EnumMetaFile` | 1471 | Exported Function
+`Escape` | 1474 | Exported Function
+`ExcludeClipRect` | 1477 | Exported Function
+`EudcUnloadLinkW` | 1476 | Exported Function
+`EudcLoadLinkW` | 1475 | Exported Function
+`EnumICMProfilesW` | 1470 | Exported Function
+`EnumFontFamiliesExW` | 1465 | Exported Function
+`EnumFontFamiliesExA` | 1464 | Exported Function
+`EnumFontFamiliesA` | 1463 | Exported Function
+`EnumFontFamiliesW` | 1466 | Exported Function
+`EnumICMProfilesA` | 1469 | Exported Function
+`EnumFontsW` | 1468 | Exported Function
+`EnumFontsA` | 1467 | Exported Function
+`FlattenPath` | 1496 | Exported Function
+`FixBrushOrgEx` | 1495 | Exported Function
+`FillRgn` | 1494 | Exported Function
+`FloodFill` | 1497 | Exported Function
+`FONTOBJ_cGetGlyphs` | 1486 | Exported Function
+`FONTOBJ_cGetAllGlyphHandles` | 1485 | Exported Function
+`FontIsLinked` | 1498 | Exported Function
+`FillPath` | 1493 | Exported Function
+`ExtEscape` | 1480 | Exported Function
+`ExtCreateRegion` | 1479 | Exported Function
+`ExtCreatePen` | 1478 | Exported Function
+`ExtFloodFill` | 1481 | Exported Function
+`ExtTextOutW` | 1484 | Exported Function
+`ExtTextOutA` | 1483 | Exported Function
+`ExtSelectClipRgn` | 1482 | Exported Function
+`EngLoadModule` | 1443 | Exported Function
+`EngLineTo` | 1442 | Exported Function
+`EngGradientFill` | 1441 | Exported Function
+`EngLockSurface` | 1444 | Exported Function
+`EngMultiByteToWideChar` | 1447 | Exported Function
+`EngMultiByteToUnicodeN` | 1446 | Exported Function
+`EngMarkBandingSurface` | 1445 | Exported Function
+`EngGetPrinterDataFileName` | 1440 | Exported Function
+`EngFillPath` | 1435 | Exported Function
+`EngEraseSurface` | 1434 | Exported Function
+`EngDeleteSurface` | 1433 | Exported Function
+`EngFindResource` | 1436 | Exported Function
+`EngGetDriverName` | 1439 | Exported Function
+`EngGetCurrentCodePage` | 1438 | Exported Function
+`EngFreeModule` | 1437 | Exported Function
+`EngTransparentBlt` | 1458 | Exported Function
+`EngTextOut` | 1457 | Exported Function
+`EngStrokePath` | 1456 | Exported Function
+`EngUnicodeToMultiByteN` | 1459 | Exported Function
+`EnumEnhMetaFile` | 1462 | Exported Function
+`EngWideCharToMultiByte` | 1461 | Exported Function
+`EngUnlockSurface` | 1460 | Exported Function
+`EngStrokeAndFillPath` | 1455 | Exported Function
+`EngQueryEMFInfo` | 1450 | Exported Function
+`EngPlgBlt` | 1449 | Exported Function
+`EngPaint` | 1448 | Exported Function
+`EngQueryLocalTime` | 1451 | Exported Function
+`EngStretchBltROP` | 1454 | Exported Function
+`EngStretchBlt` | 1453 | Exported Function
+`EngReleaseSemaphore` | 1452 | Exported Function
+`D3DKMTSetVidPnSourceOwner2` | 1292 | Exported Function
+`D3DKMTSetVidPnSourceOwner1` | 1291 | Exported Function
+`D3DKMTSetVidPnSourceOwner` | 1290 | Exported Function
+`D3DKMTSetYieldPercentage` | 1293 | Exported Function
+`D3DKMTShareObjects` | 1294 | Exported Function
+`D3DKMTSharedPrimaryUnLockNotification` | 1296 | Exported Function
+`D3DKMTSharedPrimaryLockNotification` | 1295 | Exported Function
+`D3DKMTSetVidPnSourceHwProtection` | 1289 | Exported Function
+`D3DKMTSetProcessSchedulingPriorityClass` | 1284 | Exported Function
+`D3DKMTSetProcessSchedulingPriorityBand` | 1283 | Exported Function
+`D3DKMTSetProcessDeviceRemovalSupport` | 1282 | Exported Function
+`D3DKMTSetQueuedLimit` | 1285 | Exported Function
+`D3DKMTSetSyncRefreshCountWaitTarget` | 1288 | Exported Function
+`D3DKMTSetStereoEnabled` | 1287 | Exported Function
+`D3DKMTSetStablePowerState` | 1286 | Exported Function
+`D3DKMTSubmitWaitForSyncObjectsToHwQueue` | 1307 | Exported Function
+`D3DKMTSubmitSignalSyncObjectsToHwQueue` | 1306 | Exported Function
+`D3DKMTSubmitPresentToHwQueue` | 1305 | Exported Function
+`D3DKMTTrimProcessCommitment` | 1308 | Exported Function
+`D3DKMTUnOrderedPresentSwapChain` | 1309 | Exported Function
+`D3DKMTUnlock2` | 1311 | Exported Function
+`D3DKMTUnlock` | 1310 | Exported Function
+`D3DKMTSubmitPresentBltToHwQueue` | 1304 | Exported Function
+`D3DKMTSignalSynchronizationObjectFromCpu` | 1299 | Exported Function
+`D3DKMTSignalSynchronizationObject2` | 1298 | Exported Function
+`D3DKMTSignalSynchronizationObject` | 1297 | Exported Function
+`D3DKMTSignalSynchronizationObjectFromGpu` | 1300 | Exported Function
+`D3DKMTSubmitCommandToHwQueue` | 1303 | Exported Function
+`D3DKMTSubmitCommand` | 1302 | Exported Function
+`D3DKMTSignalSynchronizationObjectFromGpu2` | 1301 | Exported Function
+`D3DKMTRegisterVailProcess` | 1262 | Exported Function
+`D3DKMTRegisterTrimNotification` | 1261 | Exported Function
+`D3DKMTReclaimAllocations2` | 1260 | Exported Function
+`D3DKMTReleaseKeyedMutex` | 1263 | Exported Function
+`D3DKMTReleaseSwapChain` | 1266 | Exported Function
+`D3DKMTReleaseProcessVidPnSourceOwners` | 1265 | Exported Function
+`D3DKMTReleaseKeyedMutex2` | 1264 | Exported Function
+`D3DKMTReclaimAllocations` | 1259 | Exported Function
+`D3DKMTQueryResourceInfo` | 1254 | Exported Function
+`D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName` | 1253 | Exported Function
+`D3DKMTQueryProtectedSessionStatus` | 1252 | Exported Function
+`D3DKMTQueryResourceInfoFromNtHandle` | 1255 | Exported Function
+`D3DKMTQueryVidPnExclusiveOwnership` | 1257 | Exported Function
+`D3DKMTQueryVideoMemoryInfo` | 1258 | Exported Function
+`D3DKMTQueryStatistics` | 1256 | Exported Function
+`D3DKMTSetFSEBlock` | 1277 | Exported Function
+`D3DKMTSetDodIndirectSwapchain` | 1276 | Exported Function
+`D3DKMTSetDisplayPrivateDriverFormat` | 1275 | Exported Function
+`D3DKMTSetGammaRamp` | 1278 | Exported Function
+`D3DKMTSetMonitorColorSpaceTransform` | 1281 | Exported Function
+`D3DKMTSetMemoryBudgetTarget` | 1280 | Exported Function
+`D3DKMTSetHwProtectionTeardownRecovery` | 1279 | Exported Function
+`D3DKMTSetDisplayMode` | 1274 | Exported Function
+`D3DKMTReserveGpuVirtualAddress` | 1269 | Exported Function
+`D3DKMTRender` | 1268 | Exported Function
+`D3DKMTRemoveSurfaceFromSwapChain` | 1267 | Exported Function
+`D3DKMTResetTrackedWorkloadStatistics` | 1270 | Exported Function
+`D3DKMTSetContextSchedulingPriority` | 1273 | Exported Function
+`D3DKMTSetContextInProcessSchedulingPriority` | 1272 | Exported Function
+`D3DKMTSetAllocationPriority` | 1271 | Exported Function
+`D3DKMTUnpinDirectFlipResources` | 1312 | Exported Function
+`DdEntry23` | 1354 | Exported Function
+`DdEntry22` | 1353 | Exported Function
+`DdEntry21` | 1352 | Exported Function
+`DdEntry24` | 1355 | Exported Function
+`DdEntry27` | 1358 | Exported Function
+`DdEntry26` | 1357 | Exported Function
+`DdEntry25` | 1356 | Exported Function
+`DdEntry20` | 1351 | Exported Function
+`DdEntry16` | 1346 | Exported Function
+`DdEntry15` | 1345 | Exported Function
+`DdEntry14` | 1344 | Exported Function
+`DdEntry17` | 1347 | Exported Function
+`DdEntry2` | 1350 | Exported Function
+`DdEntry19` | 1349 | Exported Function
+`DdEntry18` | 1348 | Exported Function
+`DdEntry37` | 1369 | Exported Function
+`DdEntry36` | 1368 | Exported Function
+`DdEntry35` | 1367 | Exported Function
+`DdEntry38` | 1370 | Exported Function
+`DdEntry40` | 1373 | Exported Function
+`DdEntry4` | 1372 | Exported Function
+`DdEntry39` | 1371 | Exported Function
+`DdEntry34` | 1366 | Exported Function
+`DdEntry3` | 1361 | Exported Function
+`DdEntry29` | 1360 | Exported Function
+`DdEntry28` | 1359 | Exported Function
+`DdEntry30` | 1362 | Exported Function
+`DdEntry33` | 1365 | Exported Function
+`DdEntry32` | 1364 | Exported Function
+`DdEntry31` | 1363 | Exported Function
+`D3DKMTWaitForSynchronizationObject` | 1323 | Exported Function
+`D3DKMTWaitForIdle` | 1322 | Exported Function
+`D3DKMTVailPromoteCompositionSurface` | 1321 | Exported Function
+`D3DKMTWaitForSynchronizationObject2` | 1324 | Exported Function
+`D3DKMTWaitForVerticalBlankEvent` | 1327 | Exported Function
+`D3DKMTWaitForSynchronizationObjectFromGpu` | 1326 | Exported Function
+`D3DKMTWaitForSynchronizationObjectFromCpu` | 1325 | Exported Function
+`D3DKMTVailDisconnect` | 1320 | Exported Function
+`D3DKMTUpdateAllocationProperty` | 1315 | Exported Function
+`D3DKMTUnregisterTrimNotification` | 1314 | Exported Function
+`D3DKMTUnpinResources` | 1313 | Exported Function
+`D3DKMTUpdateGpuVirtualAddress` | 1316 | Exported Function
+`D3DKMTVailConnect` | 1319 | Exported Function
+`D3DKMTUpdateTrackedWorkload` | 1318 | Exported Function
+`D3DKMTUpdateOverlay` | 1317 | Exported Function
+`DdEntry1` | 1339 | Exported Function
+`DdEntry0` | 1338 | Exported Function
+`DdDestroyFullscreenSprite` | 1337 | Exported Function
+`DdEntry10` | 1340 | Exported Function
+`DdEntry13` | 1343 | Exported Function
+`DdEntry12` | 1342 | Exported Function
+`DdEntry11` | 1341 | Exported Function
+`DdCreateFullscreenSprite` | 1336 | Exported Function
+`DDCCIGetCapabilitiesStringLength` | 1330 | Exported Function
+`DDCCIGetCapabilitiesString` | 1329 | Exported Function
+`D3DKMTWaitForVerticalBlankEvent2` | 1328 | Exported Function
+`DDCCIGetTimingReport` | 1331 | Exported Function
+`DDCCISetVCPFeature` | 1334 | Exported Function
+`DDCCISaveCurrentSettings` | 1333 | Exported Function
+`DDCCIGetVCPFeature` | 1332 | Exported Function
 
 
 ## Signature

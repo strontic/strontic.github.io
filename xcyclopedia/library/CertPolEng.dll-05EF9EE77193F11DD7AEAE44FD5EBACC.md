@@ -24,22 +24,22 @@ PE256 | `383756FD66479282185FC6366E8EC6DD40C532398B82BDCEDC3D45F8257DE3A0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IntPstGetCertificate` | 1 (0x1) | Exported Function | 0x10013670 | 0x00013670
-`IntPstGetNameIdentifierForCertificate` | 2 (0x2) | Exported Function | 0x100136d0 | 0x000136d0
-`IntPstGetTrustAnchors` | 3 (0x3) | Exported Function | 0x10007660 | 0x00007660
-`IntPstMapCertificateToProvider` | 4 (0x4) | Exported Function | 0x10013730 | 0x00013730
-`IntPstMapUserCredsToProvider` | 5 (0x5) | Exported Function | 0x10009ad0 | 0x00009ad0
-`IntPstValidate` | 6 (0x6) | Exported Function | 0x10013790 | 0x00013790
-`PstAcquirePrivateKey` | 7 (0x7) | Exported Function | 0x10013800 | 0x00013800
-`PstGetCertificateChain` | 8 (0x8) | Exported Function | 0x100138e0 | 0x000138e0
-`PstGetCertificates` | 9 (0x9) | Exported Function | 0x10013940 | 0x00013940
-`PstGetTrustAnchors` | 10 (0xa) | Exported Function | 0x100139b0 | 0x000139b0
-`PstGetTrustAnchorsEx` | 11 (0xb) | Exported Function | 0x100139e0 | 0x000139e0
-`PstGetUserNameForCertificate` | 12 (0xc) | Exported Function | 0x10013a90 | 0x00013a90
-`PstMapCertificate` | 13 (0xd) | Exported Function | 0x10013af0 | 0x00013af0
-`PstValidate` | 14 (0xe) | Exported Function | 0x10013b50 | 0x00013b50
+Function Name | Ordinal | Type
+-- | -- | --
+`PstGetTrustAnchors` | 10 | Exported Function
+`PstGetCertificates` | 9 | Exported Function
+`PstGetCertificateChain` | 8 | Exported Function
+`PstGetTrustAnchorsEx` | 11 | Exported Function
+`PstValidate` | 14 | Exported Function
+`PstMapCertificate` | 13 | Exported Function
+`PstGetUserNameForCertificate` | 12 | Exported Function
+`IntPstGetTrustAnchors` | 3 | Exported Function
+`IntPstGetNameIdentifierForCertificate` | 2 | Exported Function
+`IntPstGetCertificate` | 1 | Exported Function
+`IntPstMapCertificateToProvider` | 4 | Exported Function
+`PstAcquirePrivateKey` | 7 | Exported Function
+`IntPstValidate` | 6 | Exported Function
+`IntPstMapUserCredsToProvider` | 5 | Exported Function
 
 
 ## Signature

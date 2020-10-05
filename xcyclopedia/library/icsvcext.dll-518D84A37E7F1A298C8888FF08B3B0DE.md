@@ -24,12 +24,12 @@ PE256 | `3FDA1B6D08D635738530D0910123FF98747AD30948B99155CD96CE4D02FCE4B2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 1 (0x1) | Exported Function | 0x0000000180005580 | 0x00005580
-`DllUnregisterServer` | 2 (0x2) | Exported Function | 0x0000000180005580 | 0x00005580
-`RdvServiceMain` | 3 (0x3) | Exported Function | 0x0000000180005590 | 0x00005590
-`VssServiceMain` | 4 (0x4) | Exported Function | 0x00000001800055b0 | 0x000055b0
+Function Name | Ordinal | Type
+-- | -- | --
+`RdvServiceMain` | 3 | Exported Function
+`VssServiceMain` | 4 | Exported Function
+`DllRegisterServer` | 1 | Exported Function
+`DllUnregisterServer` | 2 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `05FB0331A89AB85E5E580CFEA50FEF38A8AD866B55C566A284F8A09FAF7CA7F2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ProcessGroupPolicy` | 1 (0x1) | Exported Function | 0x0000000180001a10 | 0x00001a10
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessGroupPolicy` | 1 | Exported Function
 
 
 ## Signature

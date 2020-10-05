@@ -24,11 +24,11 @@ PE256 | `ED1AE264984AF8389F015E0CFAB980ACCF95213797DE85C2F217D341827066CD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180005440 | 0x00005440
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180005460 | 0x00005460
-`RunIHVPages` | 3 (0x3) | Exported Function | 0x00000001800054a0 | 0x000054a0
+Function Name | Ordinal | Type
+-- | -- | --
+`RunIHVPages` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

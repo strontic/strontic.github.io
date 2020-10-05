@@ -1,0 +1,1770 @@
+﻿---
+title: msvcr110.dll | Microsoft C Runtime Library
+excerpt: What is msvcr110.dll?
+---
+
+# msvcr110.dll 
+
+* File Path: `C:\Program Files (x86)\Microsoft Office\root\vfs\SystemX86\msvcr110.dll`
+* Description: Microsoft C Runtime Library
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `4BA25D2CBE1587A841DCFB8C8C4A6EA6`
+SHA1 | `52693D4B5E0B55A929099B680348C3932F2C3C62`
+SHA256 | `B30160E759115E24425B9BCDF606EF6EBCE4657487525EDE7F1AC40B90FF7E49`
+SHA384 | `04EEF462BE80BCFE06BA374934B3759116E825B5D3A4E9A44ABBAD0B3F8DDF3478A23C366C764A788A3273BAFA85771C`
+SHA512 | `82E86EC67A5C6CDDF2230872F66560F4B0C3E4C1BB672507BBB8446A8D6F62512CBD0475FE23B619DB3A67BB870F4F742761CF1F87D50DB7F14076F54006F6C6`
+SSDEEP | `12288:TmCyHcMpK7QdgD+9Tr8r3FmJciMgLFWkA8qTWu+FVlofpJCjNdr12iqwZeq:TmCyHNIQdTryVmCipIkqTWu+Fr`
+IMP | `E057A95F8936F77238B048F253956B3B`
+PESHA1 | `7F48286B9A08172F0BA153124C4344C3D6A427BE`
+PE256 | `D228178808CF5644DA803EBC8DB4D0F76F2B9648B2246CEE3143706E3A90259D`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type
+-- | -- | --
+`atan` | 1468 | Exported Function
+`atan2` | 1469 | Exported Function
+`atexit` | 1470 | Exported Function
+`asctime` | 1465 | Exported Function
+`asctime_s` | 1466 | Exported Function
+`asin` | 1467 | Exported Function
+`atof` | 1471 | Exported Function
+`bool __cdecl __ExceptionPtrToBool(void const *)` | 275 | Exported Function
+`bsearch` | 1474 | Exported Function
+`bsearch_s` | 1475 | Exported Function
+`atoi` | 1472 | Exported Function
+`atol` | 1473 | Exported Function
+`bool __cdecl __ExceptionPtrCompare(void const *,void const *)` | 267 | Exported Function
+`_wunlink` | 1456 | Exported Function
+`_wutime32` | 1457 | Exported Function
+`_wutime64` | 1458 | Exported Function
+`_wtoi_l` | 1453 | Exported Function
+`_wtol` | 1454 | Exported Function
+`_wtol_l` | 1455 | Exported Function
+`_XcptFilter` | 369 | Exported Function
+`abort` | 1462 | Exported Function
+`abs` | 1463 | Exported Function
+`acos` | 1464 | Exported Function
+`_y0` | 1459 | Exported Function
+`_y1` | 1460 | Exported Function
+`_yn` | 1461 | Exported Function
+`btowc` | 1476 | Exported Function
+`fclose` | 1488 | Exported Function
+`feof` | 1489 | Exported Function
+`ferror` | 1490 | Exported Function
+`exit` | 1485 | Exported Function
+`exp` | 1486 | Exported Function
+`fabs` | 1487 | Exported Function
+`fflush` | 1491 | Exported Function
+`fgetwc` | 1495 | Exported Function
+`fgetws` | 1496 | Exported Function
+`floor` | 1497 | Exported Function
+`fgetc` | 1492 | Exported Function
+`fgetpos` | 1493 | Exported Function
+`fgets` | 1494 | Exported Function
+`clearerr_s` | 1480 | Exported Function
+`clock` | 1481 | Exported Function
+`const std::__non_rtti_object::``vftable'` | 126 | Exported Function
+`calloc` | 1477 | Exported Function
+`ceil` | 1478 | Exported Function
+`clearerr` | 1479 | Exported Function
+`const std::bad_cast::``vftable'` | 127 | Exported Function
+`cosh` | 1483 | Exported Function
+`div` | 1484 | Exported Function
+`enum Concurrency::IResourceManager::OSVersion __cdecl Concurrency::GetOSVersion(void)` | 155 | Exported Function
+`const std::bad_typeid::``vftable'` | 128 | Exported Function
+`const std::exception::``vftable'` | 129 | Exported Function
+`cos` | 1482 | Exported Function
+`_wrename` | 1416 | Exported Function
+`_write` | 1417 | Exported Function
+`_wrmdir` | 1418 | Exported Function
+`_wputenv` | 1413 | Exported Function
+`_wputenv_s` | 1414 | Exported Function
+`_wremove` | 1415 | Exported Function
+`_wscanf_l` | 1419 | Exported Function
+`_wsetlocale` | 1423 | Exported Function
+`_wsopen` | 1424 | Exported Function
+`_wsopen_s` | 1425 | Exported Function
+`_wscanf_s_l` | 1420 | Exported Function
+`_wsearchenv` | 1421 | Exported Function
+`_wsearchenv_s` | 1422 | Exported Function
+`_wmktemp` | 1403 | Exported Function
+`_wmktemp_s` | 1404 | Exported Function
+`_wopen` | 1405 | Exported Function
+`_wmakepath` | 1400 | Exported Function
+`_wmakepath_s` | 1401 | Exported Function
+`_wmkdir` | 1402 | Exported Function
+`_wperror` | 1406 | Exported Function
+`_wprintf_p` | 1410 | Exported Function
+`_wprintf_p_l` | 1411 | Exported Function
+`_wprintf_s_l` | 1412 | Exported Function
+`_wpgmptr` | 1407 | Exported Function
+`_wpopen` | 1408 | Exported Function
+`_wprintf_l` | 1409 | Exported Function
+`_wspawnl` | 1426 | Exported Function
+`_wstrtime_s` | 1443 | Exported Function
+`_wsystem` | 1444 | Exported Function
+`_wtempnam` | 1445 | Exported Function
+`_wstrdate` | 1440 | Exported Function
+`_wstrdate_s` | 1441 | Exported Function
+`_wstrtime` | 1442 | Exported Function
+`_wtmpnam` | 1446 | Exported Function
+`_wtoi` | 1450 | Exported Function
+`_wtoi64` | 1451 | Exported Function
+`_wtoi64_l` | 1452 | Exported Function
+`_wtmpnam_s` | 1447 | Exported Function
+`_wtof` | 1448 | Exported Function
+`_wtof_l` | 1449 | Exported Function
+`_wspawnv` | 1430 | Exported Function
+`_wspawnve` | 1431 | Exported Function
+`_wspawnvp` | 1432 | Exported Function
+`_wspawnle` | 1427 | Exported Function
+`_wspawnlp` | 1428 | Exported Function
+`_wspawnlpe` | 1429 | Exported Function
+`_wspawnvpe` | 1433 | Exported Function
+`_wstat32i64` | 1437 | Exported Function
+`_wstat64` | 1438 | Exported Function
+`_wstat64i32` | 1439 | Exported Function
+`_wsplitpath` | 1434 | Exported Function
+`_wsplitpath_s` | 1435 | Exported Function
+`_wstat32` | 1436 | Exported Function
+`fmod` | 1498 | Exported Function
+`iswpunct` | 1552 | Exported Function
+`iswspace` | 1553 | Exported Function
+`iswupper` | 1554 | Exported Function
+`iswgraph` | 1549 | Exported Function
+`iswlower` | 1550 | Exported Function
+`iswprint` | 1551 | Exported Function
+`iswxdigit` | 1555 | Exported Function
+`ldiv` | 1559 | Exported Function
+`llabs` | 1560 | Exported Function
+`lldiv` | 1561 | Exported Function
+`isxdigit` | 1556 | Exported Function
+`labs` | 1557 | Exported Function
+`ldexp` | 1558 | Exported Function
+`isprint` | 1539 | Exported Function
+`ispunct` | 1540 | Exported Function
+`isspace` | 1541 | Exported Function
+`isgraph` | 1536 | Exported Function
+`isleadbyte` | 1537 | Exported Function
+`islower` | 1538 | Exported Function
+`isupper` | 1542 | Exported Function
+`iswcntrl` | 1546 | Exported Function
+`iswctype` | 1547 | Exported Function
+`iswdigit` | 1548 | Exported Function
+`iswalnum` | 1543 | Exported Function
+`iswalpha` | 1544 | Exported Function
+`iswascii` | 1545 | Exported Function
+`localeconv` | 1562 | Exported Function
+`memcpy` | 1577 | Exported Function
+`memcpy_s` | 1578 | Exported Function
+`memmove` | 1579 | Exported Function
+`mbtowc` | 1574 | Exported Function
+`memchr` | 1575 | Exported Function
+`memcmp` | 1576 | Exported Function
+`memmove_s` | 1580 | Exported Function
+`pow` | 1584 | Exported Function
+`printf` | 1585 | Exported Function
+`printf_s` | 1586 | Exported Function
+`memset` | 1581 | Exported Function
+`modf` | 1582 | Exported Function
+`perror` | 1583 | Exported Function
+`long __cdecl Concurrency::EnableTracing(void)` | 150 | Exported Function
+`longjmp` | 1565 | Exported Function
+`malloc` | 1566 | Exported Function
+`log` | 1563 | Exported Function
+`log10` | 1564 | Exported Function
+`long __cdecl Concurrency::DisableTracing(void)` | 149 | Exported Function
+`mblen` | 1567 | Exported Function
+`mbsrtowcs_s` | 1571 | Exported Function
+`mbstowcs` | 1572 | Exported Function
+`mbstowcs_s` | 1573 | Exported Function
+`mbrlen` | 1568 | Exported Function
+`mbrtowc` | 1569 | Exported Function
+`mbsrtowcs` | 1570 | Exported Function
+`fseek` | 1515 | Exported Function
+`fsetpos` | 1516 | Exported Function
+`ftell` | 1517 | Exported Function
+`frexp` | 1512 | Exported Function
+`fscanf` | 1513 | Exported Function
+`fscanf_s` | 1514 | Exported Function
+`fwprintf` | 1518 | Exported Function
+`fwscanf_s` | 1522 | Exported Function
+`getc` | 1523 | Exported Function
+`getchar` | 1524 | Exported Function
+`fwprintf_s` | 1519 | Exported Function
+`fwrite` | 1520 | Exported Function
+`fwscanf` | 1521 | Exported Function
+`fprintf_s` | 1502 | Exported Function
+`fputc` | 1503 | Exported Function
+`fputs` | 1504 | Exported Function
+`fopen` | 1499 | Exported Function
+`fopen_s` | 1500 | Exported Function
+`fprintf` | 1501 | Exported Function
+`fputwc` | 1505 | Exported Function
+`free` | 1509 | Exported Function
+`freopen` | 1510 | Exported Function
+`freopen_s` | 1511 | Exported Function
+`fputws` | 1506 | Exported Function
+`fread` | 1507 | Exported Function
+`fread_s` | 1508 | Exported Function
+`getenv` | 1525 | Exported Function
+`int __cdecl _wopen(wchar_t const *,int,int)` | 291 | Exported Function
+`int __cdecl _wsopen(wchar_t const *,int,int,int)` | 292 | Exported Function
+`int __cdecl swprintf(unsigned short *,unsigned int,unsigned short const *,...)` | 314 | Exported Function
+`int __cdecl _ValidateExecute(int (__stdcall*)(void))` | 261 | Exported Function
+`int __cdecl _ValidateRead(void const *,unsigned int)` | 262 | Exported Function
+`int __cdecl _ValidateWrite(void *,unsigned int)` | 263 | Exported Function
+`int __cdecl swprintf(wchar_t *,unsigned int,wchar_t const *,...)` | 315 | Exported Function
+`isalpha` | 1533 | Exported Function
+`iscntrl` | 1534 | Exported Function
+`isdigit` | 1535 | Exported Function
+`int __cdecl vswprintf(wchar_t *,unsigned int,wchar_t const *,char *)` | 324 | Exported Function
+`is_wctype` | 1531 | Exported Function
+`isalnum` | 1532 | Exported Function
+`getwc` | 1529 | Exported Function
+`getwchar` | 1530 | Exported Function
+`int (__cdecl*__cdecl _query_new_handler(void))(unsigned int)` | 282 | Exported Function
+`getenv_s` | 1526 | Exported Function
+`gets` | 1527 | Exported Function
+`gets_s` | 1528 | Exported Function
+`int (__cdecl*__cdecl _set_new_handler(int (__cdecl*)(unsigned int)))(unsigned int)` | 285 | Exported Function
+`int __cdecl _query_new_mode(void)` | 283 | Exported Function
+`int __cdecl _set_new_mode(int)` | 286 | Exported Function
+`int __cdecl _sopen(char const *,int,int,int)` | 289 | Exported Function
+`int (__cdecl*__cdecl _set_new_handler(int))(unsigned int)` | 284 | Exported Function
+`int __cdecl _is_exception_typeof(class type_info const &,struct _EXCEPTION_POINTERS *)` | 279 | Exported Function
+`int __cdecl _open(char const *,int,int)` | 281 | Exported Function
+`_wgetenv_s` | 1399 | Exported Function
+`_vcprintf` | 1259 | Exported Function
+`_vcprintf_l` | 1260 | Exported Function
+`_vcprintf_p` | 1261 | Exported Function
+`_Unlock_shared_ptr_spin_lock` | 364 | Exported Function
+`_utime32` | 1257 | Exported Function
+`_utime64` | 1258 | Exported Function
+`_vcprintf_p_l` | 1262 | Exported Function
+`_vcwprintf_l` | 1266 | Exported Function
+`_vcwprintf_p` | 1267 | Exported Function
+`_vcwprintf_p_l` | 1268 | Exported Function
+`_vcprintf_s` | 1263 | Exported Function
+`_vcprintf_s_l` | 1264 | Exported Function
+`_vcwprintf` | 1265 | Exported Function
+`_ungetc_nolock` | 1247 | Exported Function
+`_ungetch` | 1248 | Exported Function
+`_ungetch_nolock` | 1249 | Exported Function
+`_ultow_s` | 1244 | Exported Function
+`_umask` | 1245 | Exported Function
+`_umask_s` | 1246 | Exported Function
+`_ungetwc_nolock` | 1250 | Exported Function
+`_unloaddll` | 1254 | Exported Function
+`_unlock` | 1255 | Exported Function
+`_unlock_file` | 1256 | Exported Function
+`_ungetwch` | 1251 | Exported Function
+`_ungetwch_nolock` | 1252 | Exported Function
+`_unlink` | 1253 | Exported Function
+`_vcwprintf_s` | 1269 | Exported Function
+`_vscprintf_p_l` | 1286 | Exported Function
+`_vscwprintf` | 1287 | Exported Function
+`_vscwprintf_l` | 1288 | Exported Function
+`_vscprintf` | 1283 | Exported Function
+`_vscprintf_l` | 1284 | Exported Function
+`_vscprintf_p` | 1285 | Exported Function
+`_vscwprintf_p` | 1289 | Exported Function
+`_vsnprintf_c_l` | 1293 | Exported Function
+`_vsnprintf_l` | 1294 | Exported Function
+`_vsnprintf_s` | 1295 | Exported Function
+`_vscwprintf_p_l` | 1290 | Exported Function
+`_vsnprintf` | 1291 | Exported Function
+`_vsnprintf_c` | 1292 | Exported Function
+`_vfprintf_p_l` | 1273 | Exported Function
+`_vfprintf_s_l` | 1274 | Exported Function
+`_vfwprintf_l` | 1275 | Exported Function
+`_vcwprintf_s_l` | 1270 | Exported Function
+`_vfprintf_l` | 1271 | Exported Function
+`_vfprintf_p` | 1272 | Exported Function
+`_vfwprintf_p` | 1276 | Exported Function
+`_vprintf_p` | 1280 | Exported Function
+`_vprintf_p_l` | 1281 | Exported Function
+`_vprintf_s_l` | 1282 | Exported Function
+`_vfwprintf_p_l` | 1277 | Exported Function
+`_vfwprintf_s_l` | 1278 | Exported Function
+`_vprintf_l` | 1279 | Exported Function
+`_strupr` | 1207 | Exported Function
+`_strupr_l` | 1208 | Exported Function
+`_strupr_s` | 1209 | Exported Function
+`_strtoui64` | 1204 | Exported Function
+`_strtoui64_l` | 1205 | Exported Function
+`_strtoul_l` | 1206 | Exported Function
+`_strupr_s_l` | 1210 | Exported Function
+`_swprintf_c` | 1214 | Exported Function
+`_swprintf_c_l` | 1215 | Exported Function
+`_swprintf_p` | 1216 | Exported Function
+`_strxfrm_l` | 1211 | Exported Function
+`_swab` | 1212 | Exported Function
+`_swprintf` | 1213 | Exported Function
+`_strnset_s` | 1194 | Exported Function
+`_strrev` | 1195 | Exported Function
+`_strset` | 1196 | Exported Function
+`_strnicoll` | 1191 | Exported Function
+`_strnicoll_l` | 1192 | Exported Function
+`_strnset` | 1193 | Exported Function
+`_strset_s` | 1197 | Exported Function
+`_strtoi64` | 1201 | Exported Function
+`_strtoi64_l` | 1202 | Exported Function
+`_strtol_l` | 1203 | Exported Function
+`_strtime` | 1198 | Exported Function
+`_strtime_s` | 1199 | Exported Function
+`_strtod_l` | 1200 | Exported Function
+`_swprintf_p_l` | 1217 | Exported Function
+`_towupper_l` | 1234 | Exported Function
+`_tzname` | 1235 | Exported Function
+`_tzset` | 1236 | Exported Function
+`_toupper` | 1231 | Exported Function
+`_toupper_l` | 1232 | Exported Function
+`_towlower_l` | 1233 | Exported Function
+`_ui64toa` | 1237 | Exported Function
+`_ultoa` | 1241 | Exported Function
+`_ultoa_s` | 1242 | Exported Function
+`_ultow` | 1243 | Exported Function
+`_ui64toa_s` | 1238 | Exported Function
+`_ui64tow` | 1239 | Exported Function
+`_ui64tow_s` | 1240 | Exported Function
+`_sys_errlist` | 1221 | Exported Function
+`_sys_nerr` | 1222 | Exported Function
+`_tell` | 1223 | Exported Function
+`_swprintf_s_l` | 1218 | Exported Function
+`_swscanf_l` | 1219 | Exported Function
+`_swscanf_s_l` | 1220 | Exported Function
+`_telli64` | 1224 | Exported Function
+`_timezone` | 1228 | Exported Function
+`_tolower` | 1229 | Exported Function
+`_tolower_l` | 1230 | Exported Function
+`_tempnam` | 1225 | Exported Function
+`_time32` | 1226 | Exported Function
+`_time64` | 1227 | Exported Function
+`_vsnprintf_s_l` | 1296 | Exported Function
+`_wcsupr_s_l` | 1362 | Exported Function
+`_wcsxfrm_l` | 1363 | Exported Function
+`_wctime32` | 1364 | Exported Function
+`_wcsupr` | 1359 | Exported Function
+`_wcsupr_l` | 1360 | Exported Function
+`_wcsupr_s` | 1361 | Exported Function
+`_wctime32_s` | 1365 | Exported Function
+`_wctomb_s_l` | 1369 | Exported Function
+`_wctype` | 1370 | Exported Function
+`_wdupenv_s` | 1371 | Exported Function
+`_wctime64` | 1366 | Exported Function
+`_wctime64_s` | 1367 | Exported Function
+`_wctomb_l` | 1368 | Exported Function
+`_wcsset_s` | 1349 | Exported Function
+`_wcstod_l` | 1350 | Exported Function
+`_wcstoi64` | 1351 | Exported Function
+`_wcsnset_s` | 1346 | Exported Function
+`_wcsrev` | 1347 | Exported Function
+`_wcsset` | 1348 | Exported Function
+`_wcstoi64_l` | 1352 | Exported Function
+`_wcstoui64` | 1356 | Exported Function
+`_wcstoui64_l` | 1357 | Exported Function
+`_wcstoul_l` | 1358 | Exported Function
+`_wcstol_l` | 1353 | Exported Function
+`_wcstombs_l` | 1354 | Exported Function
+`_wcstombs_s_l` | 1355 | Exported Function
+`_wenviron` | 1372 | Exported Function
+`_wfindnext64i32` | 1389 | Exported Function
+`_wfopen` | 1390 | Exported Function
+`_wfopen_s` | 1391 | Exported Function
+`_wfindnext32` | 1386 | Exported Function
+`_wfindnext32i64` | 1387 | Exported Function
+`_wfindnext64` | 1388 | Exported Function
+`_wfreopen` | 1392 | Exported Function
+`_wgetcwd` | 1396 | Exported Function
+`_wgetdcwd` | 1397 | Exported Function
+`_wgetenv` | 1398 | Exported Function
+`_wfreopen_s` | 1393 | Exported Function
+`_wfsopen` | 1394 | Exported Function
+`_wfullpath` | 1395 | Exported Function
+`_wexeclpe` | 1376 | Exported Function
+`_wexecv` | 1377 | Exported Function
+`_wexecve` | 1378 | Exported Function
+`_wexecl` | 1373 | Exported Function
+`_wexecle` | 1374 | Exported Function
+`_wexeclp` | 1375 | Exported Function
+`_wexecvp` | 1379 | Exported Function
+`_wfindfirst32i64` | 1383 | Exported Function
+`_wfindfirst64` | 1384 | Exported Function
+`_wfindfirst64i32` | 1385 | Exported Function
+`_wexecvpe` | 1380 | Exported Function
+`_wfdopen` | 1381 | Exported Function
+`_wfindfirst32` | 1382 | Exported Function
+`_vwprintf_p` | 1313 | Exported Function
+`_vwprintf_p_l` | 1314 | Exported Function
+`_vwprintf_s_l` | 1315 | Exported Function
+`_vswprintf_p_l` | 1310 | Exported Function
+`_vswprintf_s_l` | 1311 | Exported Function
+`_vwprintf_l` | 1312 | Exported Function
+`_W_Getdays` | 365 | Exported Function
+`_waccess_s` | 1317 | Exported Function
+`_wasctime` | 1318 | Exported Function
+`_wasctime_s` | 1319 | Exported Function
+`_W_Getmonths` | 366 | Exported Function
+`_W_Gettnames` | 367 | Exported Function
+`_waccess` | 1316 | Exported Function
+`_vsnwprintf_s_l` | 1300 | Exported Function
+`_vsprintf_l` | 1301 | Exported Function
+`_vsprintf_p` | 1302 | Exported Function
+`_vsnwprintf` | 1297 | Exported Function
+`_vsnwprintf_l` | 1298 | Exported Function
+`_vsnwprintf_s` | 1299 | Exported Function
+`_vsprintf_p_l` | 1303 | Exported Function
+`_vswprintf_c_l` | 1307 | Exported Function
+`_vswprintf_l` | 1308 | Exported Function
+`_vswprintf_p` | 1309 | Exported Function
+`_vsprintf_s_l` | 1304 | Exported Function
+`_vswprintf` | 1305 | Exported Function
+`_vswprintf_c` | 1306 | Exported Function
+`_wassert` | 1320 | Exported Function
+`_wcslwr_l` | 1336 | Exported Function
+`_wcslwr_s` | 1337 | Exported Function
+`_wcslwr_s_l` | 1338 | Exported Function
+`_wcsicoll` | 1333 | Exported Function
+`_wcsicoll_l` | 1334 | Exported Function
+`_wcslwr` | 1335 | Exported Function
+`_wcsncoll` | 1339 | Exported Function
+`_wcsnicoll` | 1343 | Exported Function
+`_wcsnicoll_l` | 1344 | Exported Function
+`_wcsnset` | 1345 | Exported Function
+`_wcsncoll_l` | 1340 | Exported Function
+`_wcsnicmp` | 1341 | Exported Function
+`_wcsnicmp_l` | 1342 | Exported Function
+`_wcreat` | 1324 | Exported Function
+`_wcreate_locale` | 1325 | Exported Function
+`_wcscoll_l` | 1326 | Exported Function
+`_wchdir` | 1321 | Exported Function
+`_wchmod` | 1322 | Exported Function
+`_wcmdln` | 1323 | Exported Function
+`_wcsdup` | 1327 | Exported Function
+`_wcsftime_l` | 1330 | Exported Function
+`_wcsicmp` | 1331 | Exported Function
+`_wcsicmp_l` | 1332 | Exported Function
+`_wcserror` | 1328 | Exported Function
+`_wcserror_s` | 1329 | Exported Function
+`_Wcsftime` | 368 | Exported Function
+`private: __thiscall Concurrency::details::_CancellationTokenState::_CancellationTokenState(void)` | 6 | Exported Function
+`strcat` | 1615 | Exported Function
+`strcat_s` | 1616 | Exported Function
+`strchr` | 1617 | Exported Function
+`srand` | 1612 | Exported Function
+`sscanf` | 1613 | Exported Function
+`sscanf_s` | 1614 | Exported Function
+`strcmp` | 1618 | Exported Function
+`strcspn` | 1622 | Exported Function
+`strerror` | 1623 | Exported Function
+`strerror_s` | 1624 | Exported Function
+`strcoll` | 1619 | Exported Function
+`strcpy` | 1620 | Exported Function
+`strcpy_s` | 1621 | Exported Function
+`scanf_s` | 1602 | Exported Function
+`setbuf` | 1603 | Exported Function
+`setlocale` | 1604 | Exported Function
+`rename` | 1599 | Exported Function
+`rewind` | 1600 | Exported Function
+`scanf` | 1601 | Exported Function
+`setvbuf` | 1605 | Exported Function
+`sprintf` | 1609 | Exported Function
+`sprintf_s` | 1610 | Exported Function
+`sqrt` | 1611 | Exported Function
+`signal` | 1606 | Exported Function
+`sin` | 1607 | Exported Function
+`sinh` | 1608 | Exported Function
+`strftime` | 1625 | Exported Function
+`struct Concurrency::details::_CONCRT_TRACE_INFO const * __cdecl Concurrency::_GetConcRTTraceInfo(void)` | 203 | Exported Function
+`struct Concurrency::IResourceManager * __cdecl Concurrency::CreateResourceManager(void)` | 144 | Exported Function
+`strxfrm` | 1642 | Exported Function
+`strtok_s` | 1639 | Exported Function
+`strtol` | 1640 | Exported Function
+`strtoul` | 1641 | Exported Function
+`swprintf_s` | 1643 | Exported Function
+`tan` | 1647 | Exported Function
+`tanh` | 1648 | Exported Function
+`tmpfile` | 1649 | Exported Function
+`swscanf` | 1644 | Exported Function
+`swscanf_s` | 1645 | Exported Function
+`system` | 1646 | Exported Function
+`strncmp` | 1629 | Exported Function
+`strncpy` | 1630 | Exported Function
+`strncpy_s` | 1631 | Exported Function
+`strlen` | 1626 | Exported Function
+`strncat` | 1627 | Exported Function
+`strncat_s` | 1628 | Exported Function
+`strnlen` | 1632 | Exported Function
+`strstr` | 1636 | Exported Function
+`strtod` | 1637 | Exported Function
+`strtok` | 1638 | Exported Function
+`strpbrk` | 1633 | Exported Function
+`strrchr` | 1634 | Exported Function
+`strspn` | 1635 | Exported Function
+`public: void __thiscall Concurrency::details::_ReentrantBlockingLock::_Release(void)` | 225 | Exported Function
+`public: void __thiscall Concurrency::details::_ReentrantLock::_Acquire(void)` | 182 | Exported Function
+`public: void __thiscall Concurrency::details::_ReentrantLock::_Release(void)` | 226 | Exported Function
+`public: void __thiscall Concurrency::details::_ReaderWriterLock::_ReleaseRead(void)` | 229 | Exported Function
+`public: void __thiscall Concurrency::details::_ReaderWriterLock::_ReleaseWrite(void)` | 230 | Exported Function
+`public: void __thiscall Concurrency::details::_ReentrantBlockingLock::_Acquire(void)` | 181 | Exported Function
+`public: void __thiscall Concurrency::details::_ReentrantPPLLock::_Acquire(void *)` | 183 | Exported Function
+`public: void __thiscall Concurrency::details::_SpinWait<0>::``default constructor closure'(void)` | 131 | Exported Function
+`public: void __thiscall Concurrency::details::_SpinWait<1>::_SetSpinCount(unsigned int)` | 241 | Exported Function
+`public: void __thiscall Concurrency::details::_SpinWait<1>::``default constructor closure'(void)` | 130 | Exported Function
+`public: void __thiscall Concurrency::details::_ReentrantPPLLock::_Release(void)` | 227 | Exported Function
+`public: void __thiscall Concurrency::details::_Scheduler::``default constructor closure'(void)` | 133 | Exported Function
+`public: void __thiscall Concurrency::details::_SpinWait<0>::_SetSpinCount(unsigned int)` | 242 | Exported Function
+`public: void __thiscall Concurrency::details::_Condition_variable::notify_all(void)` | 302 | Exported Function
+`public: void __thiscall Concurrency::details::_Condition_variable::notify_one(void)` | 303 | Exported Function
+`public: void __thiscall Concurrency::details::_Condition_variable::wait(class Concurrency::critical_section &)` | 326 | Exported Function
+`public: void __thiscall Concurrency::details::_CancellationTokenState::_Cancel(void)` | 186 | Exported Function
+`public: void __thiscall Concurrency::details::_CancellationTokenState::_DeregisterCallback(class Concurrency::details::_CancellationTokenRegistration *)` | 197 | Exported Function
+`public: void __thiscall Concurrency::details::_CancellationTokenState::_RegisterCallback(class Concurrency::details::_CancellationTokenRegistration *)` | 222 | Exported Function
+`public: void __thiscall Concurrency::details::_Context::``default constructor closure'(void)` | 132 | Exported Function
+`public: void __thiscall Concurrency::details::_NonReentrantPPLLock::_Release(void)` | 224 | Exported Function
+`public: void __thiscall Concurrency::details::_ReaderWriterLock::_AcquireRead(void)` | 184 | Exported Function
+`public: void __thiscall Concurrency::details::_ReaderWriterLock::_AcquireWrite(void)` | 185 | Exported Function
+`public: void __thiscall Concurrency::details::_NonReentrantBlockingLock::_Acquire(void)` | 179 | Exported Function
+`public: void __thiscall Concurrency::details::_NonReentrantBlockingLock::_Release(void)` | 223 | Exported Function
+`public: void __thiscall Concurrency::details::_NonReentrantPPLLock::_Acquire(void *)` | 180 | Exported Function
+`public: void __thiscall Concurrency::details::_StructuredTaskCollection::_Cancel(void)` | 187 | Exported Function
+`puts` | 1589 | Exported Function
+`putwc` | 1590 | Exported Function
+`putwchar` | 1591 | Exported Function
+`public: void __thiscall type_info::_type_info_dtor_internal_method(void)` | 290 | Exported Function
+`putc` | 1587 | Exported Function
+`putchar` | 1588 | Exported Function
+`qsort` | 1592 | Exported Function
+`rand_s` | 1596 | Exported Function
+`realloc` | 1597 | Exported Function
+`remove` | 1598 | Exported Function
+`qsort_s` | 1593 | Exported Function
+`raise` | 1594 | Exported Function
+`rand` | 1595 | Exported Function
+`public: void __thiscall Concurrency::details::_TaskCollection::_Schedule(class Concurrency::details::_UnrealizedChore *)` | 238 | Exported Function
+`public: void __thiscall Concurrency::details::_TaskCollection::_Schedule(class Concurrency::details::_UnrealizedChore *,class Concurrency::location *)` | 239 | Exported Function
+`public: void __thiscall Concurrency::event::reset(void)` | 305 | Exported Function
+`public: void __thiscall Concurrency::details::_StructuredTaskCollection::_Schedule(class Concurrency::details::_UnrealizedChore *)` | 236 | Exported Function
+`public: void __thiscall Concurrency::details::_StructuredTaskCollection::_Schedule(class Concurrency::details::_UnrealizedChore *,class Concurrency::location *)` | 237 | Exported Function
+`public: void __thiscall Concurrency::details::_TaskCollection::_Cancel(void)` | 188 | Exported Function
+`public: void __thiscall Concurrency::event::set(void)` | 306 | Exported Function
+`public: void __thiscall Concurrency::SchedulerPolicy::SetConcurrencyLimits(unsigned int,unsigned int)` | 173 | Exported Function
+`public: void __thiscall std::bad_cast::``default constructor closure'(void)` | 134 | Exported Function
+`public: void __thiscall std::bad_typeid::``default constructor closure'(void)` | 135 | Exported Function
+`public: void __thiscall Concurrency::reader_writer_lock::lock(void)` | 298 | Exported Function
+`public: void __thiscall Concurrency::reader_writer_lock::lock_read(void)` | 299 | Exported Function
+`public: void __thiscall Concurrency::reader_writer_lock::unlock(void)` | 323 | Exported Function
+`tmpfile_s` | 1650 | Exported Function
+`wcschr` | 1674 | Exported Function
+`wcscmp` | 1675 | Exported Function
+`wcscoll` | 1676 | Exported Function
+`wcrtomb_s` | 1671 | Exported Function
+`wcscat` | 1672 | Exported Function
+`wcscat_s` | 1673 | Exported Function
+`wcscpy` | 1677 | Exported Function
+`wcslen` | 1681 | Exported Function
+`wcsncat` | 1682 | Exported Function
+`wcsncat_s` | 1683 | Exported Function
+`wcscpy_s` | 1678 | Exported Function
+`wcscspn` | 1679 | Exported Function
+`wcsftime` | 1680 | Exported Function
+`void __cdecl terminate(void)` | 316 | Exported Function
+`void __cdecl unexpected(void)` | 321 | Exported Function
+`vprintf` | 1663 | Exported Function
+`void __cdecl operator delete(void *,int,char const *,int)` | 116 | Exported Function
+`void __cdecl operator delete[](void *)` | 138 | Exported Function
+`void __cdecl operator delete[](void *,int,char const *,int)` | 139 | Exported Function
+`vprintf_s` | 1664 | Exported Function
+`vwprintf` | 1668 | Exported Function
+`vwprintf_s` | 1669 | Exported Function
+`wcrtomb` | 1670 | Exported Function
+`vsprintf` | 1665 | Exported Function
+`vsprintf_s` | 1666 | Exported Function
+`vswprintf_s` | 1667 | Exported Function
+`wcsncmp` | 1684 | Exported Function
+`wcsxfrm` | 1701 | Exported Function
+`wctob` | 1702 | Exported Function
+`wctomb` | 1703 | Exported Function
+`wcstombs` | 1698 | Exported Function
+`wcstombs_s` | 1699 | Exported Function
+`wcstoul` | 1700 | Exported Function
+`wctomb_s` | 1704 | Exported Function
+`wprintf_s` | 1708 | Exported Function
+`wscanf` | 1709 | Exported Function
+`wscanf_s` | 1710 | Exported Function
+`wmemcpy_s` | 1705 | Exported Function
+`wmemmove_s` | 1706 | Exported Function
+`wprintf` | 1707 | Exported Function
+`wcspbrk` | 1688 | Exported Function
+`wcsrchr` | 1689 | Exported Function
+`wcsrtombs` | 1690 | Exported Function
+`wcsncpy` | 1685 | Exported Function
+`wcsncpy_s` | 1686 | Exported Function
+`wcsnlen` | 1687 | Exported Function
+`wcsrtombs_s` | 1691 | Exported Function
+`wcstok` | 1695 | Exported Function
+`wcstok_s` | 1696 | Exported Function
+`wcstol` | 1697 | Exported Function
+`wcsspn` | 1692 | Exported Function
+`wcsstr` | 1693 | Exported Function
+`wcstod` | 1694 | Exported Function
+`vfwprintf` | 1661 | Exported Function
+`vfwprintf_s` | 1662 | Exported Function
+`void (__cdecl*__cdecl _set_se_translator(int))(unsigned int,struct _EXCEPTION_POINTERS *)` | 287 | Exported Function
+`unsigned long __cdecl Concurrency::details::Log2(unsigned int)` | 166 | Exported Function
+`vfprintf` | 1659 | Exported Function
+`vfprintf_s` | 1660 | Exported Function
+`void (__cdecl*__cdecl _set_se_translator(void (__cdecl*)(unsigned int,struct _EXCEPTION_POINTERS *)))(unsigned int,struct _EXCEPTION_POINTERS *)` | 288 | Exported Function
+`void (__cdecl*__cdecl set_unexpected(int))(void)` | 312 | Exported Function
+`void (__cdecl*__cdecl set_unexpected(void (__cdecl*)(void)))(void)` | 313 | Exported Function
+`void * __cdecl Concurrency::Alloc(unsigned int)` | 140 | Exported Function
+`void (__cdecl*__cdecl set_new_handler(void (__cdecl*)(void)))(void)` | 307 | Exported Function
+`void (__cdecl*__cdecl set_terminate(int))(void)` | 310 | Exported Function
+`void (__cdecl*__cdecl set_terminate(void (__cdecl*)(void)))(void)` | 311 | Exported Function
+`toupper` | 1654 | Exported Function
+`towlower` | 1655 | Exported Function
+`towupper` | 1656 | Exported Function
+`tmpnam` | 1651 | Exported Function
+`tmpnam_s` | 1652 | Exported Function
+`tolower` | 1653 | Exported Function
+`ungetc` | 1657 | Exported Function
+`unsigned int __cdecl Concurrency::GetProcessorCount(void)` | 158 | Exported Function
+`unsigned int __cdecl Concurrency::GetProcessorNodeCount(void)` | 159 | Exported Function
+`unsigned int __cdecl Concurrency::GetSchedulerId(void)` | 160 | Exported Function
+`ungetwc` | 1658 | Exported Function
+`unsigned int __cdecl Concurrency::details::_GetConcurrency(void)` | 204 | Exported Function
+`unsigned int __cdecl Concurrency::GetExecutionContextId(void)` | 153 | Exported Function
+`void * __cdecl Concurrency::details::GetSharedTimerQueue(void)` | 161 | Exported Function
+`void __cdecl Concurrency::details::_ConcRT_CoreAssert(char const *,char const *,int)` | 191 | Exported Function
+`void __cdecl Concurrency::details::_ConcRT_Trace(int,wchar_t const *,...)` | 192 | Exported Function
+`void __cdecl Concurrency::details::_ReportUnobservedException(void)` | 231 | Exported Function
+`void __cdecl _invalid_parameter(unsigned short const *,unsigned short const *,unsigned short const *,unsigned int,unsigned int)` | 278 | Exported Function
+`void __cdecl Concurrency::_Trace_agents(enum Concurrency::Agents_EventType,__int64,...)` | 252 | Exported Function
+`void __cdecl Concurrency::_Trace_ppl_function(struct _GUID const &,unsigned char,enum Concurrency::ConcRT_EventType)` | 253 | Exported Function
+`void __cdecl Concurrency::details::_SetUnobservedExceptionHandler(void (__cdecl*)(void))` | 243 | Exported Function
+`void __cdecl Concurrency::set_task_execution_resources(unsigned short,struct _GROUP_AFFINITY *)` | 308 | Exported Function
+`void __cdecl Concurrency::wait(unsigned int)` | 325 | Exported Function
+`void __cdecl operator delete(void *)` | 115 | Exported Function
+`void __cdecl Concurrency::details::_UnderlyingYield(void)` | 260 | Exported Function
+`void __cdecl Concurrency::Free(void *)` | 151 | Exported Function
+`void __cdecl Concurrency::set_task_execution_resources(unsigned long)` | 309 | Exported Function
+`void * __cdecl operator new[](unsigned int,int,char const *,int)` | 137 | Exported Function
+`void __cdecl __ExceptionPtrAssign(void *,void const *)` | 266 | Exported Function
+`void __cdecl __ExceptionPtrCopy(void *,void const *)` | 268 | Exported Function
+`void * __cdecl operator new(unsigned int)` | 113 | Exported Function
+`void * __cdecl operator new(unsigned int,int,char const *,int)` | 114 | Exported Function
+`void * __cdecl operator new[](unsigned int)` | 136 | Exported Function
+`void __cdecl __ExceptionPtrCopyException(void *,void const *,void const *)` | 269 | Exported Function
+`void __cdecl __ExceptionPtrRethrow(void const *)` | 273 | Exported Function
+`void __cdecl __ExceptionPtrSwap(void *,void *)` | 274 | Exported Function
+`void __cdecl _inconsistency(void)` | 277 | Exported Function
+`void __cdecl __ExceptionPtrCreate(void *)` | 270 | Exported Function
+`void __cdecl __ExceptionPtrCurrentException(void *)` | 271 | Exported Function
+`void __cdecl __ExceptionPtrDestroy(void *)` | 272 | Exported Function
+`public: void __thiscall Concurrency::critical_section::unlock(void)` | 322 | Exported Function
+`public: __thiscall Concurrency::improper_lock::improper_lock(char const *)` | 47 | Exported Function
+`public: __thiscall Concurrency::improper_lock::improper_lock(void)` | 48 | Exported Function
+`public: __thiscall Concurrency::improper_scheduler_attach::improper_scheduler_attach(char const *)` | 49 | Exported Function
+`public: __thiscall Concurrency::details::_TaskCollection::~_TaskCollection(void)` | 100 | Exported Function
+`public: __thiscall Concurrency::event::event(void)` | 42 | Exported Function
+`public: __thiscall Concurrency::event::~event(void)` | 106 | Exported Function
+`public: __thiscall Concurrency::improper_scheduler_attach::improper_scheduler_attach(void)` | 50 | Exported Function
+`public: __thiscall Concurrency::improper_scheduler_reference::improper_scheduler_reference(void)` | 54 | Exported Function
+`public: __thiscall Concurrency::invalid_link_target::invalid_link_target(char const *)` | 55 | Exported Function
+`public: __thiscall Concurrency::invalid_link_target::invalid_link_target(void)` | 56 | Exported Function
+`public: __thiscall Concurrency::improper_scheduler_detach::improper_scheduler_detach(char const *)` | 51 | Exported Function
+`public: __thiscall Concurrency::improper_scheduler_detach::improper_scheduler_detach(void)` | 52 | Exported Function
+`public: __thiscall Concurrency::improper_scheduler_reference::improper_scheduler_reference(char const *)` | 53 | Exported Function
+`public: __thiscall Concurrency::details::_ReentrantPPLLock::_Scoped_lock::_Scoped_lock(class Concurrency::details::_ReentrantPPLLock &)` | 20 | Exported Function
+`public: __thiscall Concurrency::details::_ReentrantPPLLock::_Scoped_lock::~_Scoped_lock(void)` | 98 | Exported Function
+`public: __thiscall Concurrency::details::_Scheduler::_Scheduler(class Concurrency::Scheduler *)` | 18 | Exported Function
+`public: __thiscall Concurrency::details::_ReentrantBlockingLock::~_ReentrantBlockingLock(void)` | 96 | Exported Function
+`public: __thiscall Concurrency::details::_ReentrantLock::_ReentrantLock(void)` | 16 | Exported Function
+`public: __thiscall Concurrency::details::_ReentrantPPLLock::_ReentrantPPLLock(void)` | 17 | Exported Function
+`public: __thiscall Concurrency::details::_SpinLock::_SpinLock(long volatile &)` | 21 | Exported Function
+`public: __thiscall Concurrency::details::_StructuredTaskCollection::_StructuredTaskCollection(class Concurrency::details::_CancellationTokenState *)` | 22 | Exported Function
+`public: __thiscall Concurrency::details::_TaskCollection::_TaskCollection(class Concurrency::details::_CancellationTokenState *)` | 23 | Exported Function
+`public: __thiscall Concurrency::details::_TaskCollection::_TaskCollection(void)` | 24 | Exported Function
+`public: __thiscall Concurrency::details::_SpinLock::~_SpinLock(void)` | 99 | Exported Function
+`public: __thiscall Concurrency::details::_SpinWait<0>::_SpinWait<0>(void (__cdecl*)(void))` | 2 | Exported Function
+`public: __thiscall Concurrency::details::_SpinWait<1>::_SpinWait<1>(void (__cdecl*)(void))` | 1 | Exported Function
+`public: __thiscall Concurrency::invalid_multiple_scheduling::invalid_multiple_scheduling(char const *)` | 57 | Exported Function
+`public: __thiscall Concurrency::nested_scheduler_missing_detach::nested_scheduler_missing_detach(void)` | 74 | Exported Function
+`public: __thiscall Concurrency::operation_timed_out::operation_timed_out(char const *)` | 75 | Exported Function
+`public: __thiscall Concurrency::operation_timed_out::operation_timed_out(void)` | 76 | Exported Function
+`public: __thiscall Concurrency::missing_wait::missing_wait(char const *)` | 71 | Exported Function
+`public: __thiscall Concurrency::missing_wait::missing_wait(void)` | 72 | Exported Function
+`public: __thiscall Concurrency::nested_scheduler_missing_detach::nested_scheduler_missing_detach(char const *)` | 73 | Exported Function
+`public: __thiscall Concurrency::reader_writer_lock::reader_writer_lock(void)` | 77 | Exported Function
+`public: __thiscall Concurrency::reader_writer_lock::scoped_lock_read::~scoped_lock_read(void)` | 111 | Exported Function
+`public: __thiscall Concurrency::reader_writer_lock::~reader_writer_lock(void)` | 108 | Exported Function
+`public: __thiscall Concurrency::scheduler_not_attached::scheduler_not_attached(char const *)` | 78 | Exported Function
+`public: __thiscall Concurrency::reader_writer_lock::scoped_lock::scoped_lock(class Concurrency::reader_writer_lock &)` | 85 | Exported Function
+`public: __thiscall Concurrency::reader_writer_lock::scoped_lock::~scoped_lock(void)` | 110 | Exported Function
+`public: __thiscall Concurrency::reader_writer_lock::scoped_lock_read::scoped_lock_read(class Concurrency::reader_writer_lock &)` | 86 | Exported Function
+`public: __thiscall Concurrency::invalid_oversubscribe_operation::invalid_oversubscribe_operation(char const *)` | 61 | Exported Function
+`public: __thiscall Concurrency::invalid_oversubscribe_operation::invalid_oversubscribe_operation(void)` | 62 | Exported Function
+`public: __thiscall Concurrency::invalid_scheduler_policy_key::invalid_scheduler_policy_key(char const *)` | 63 | Exported Function
+`public: __thiscall Concurrency::invalid_multiple_scheduling::invalid_multiple_scheduling(void)` | 58 | Exported Function
+`public: __thiscall Concurrency::invalid_operation::invalid_operation(char const *)` | 59 | Exported Function
+`public: __thiscall Concurrency::invalid_operation::invalid_operation(void)` | 60 | Exported Function
+`public: __thiscall Concurrency::invalid_scheduler_policy_key::invalid_scheduler_policy_key(void)` | 64 | Exported Function
+`public: __thiscall Concurrency::invalid_scheduler_policy_value::invalid_scheduler_policy_value(void)` | 68 | Exported Function
+`public: __thiscall Concurrency::message_not_found::message_not_found(char const *)` | 69 | Exported Function
+`public: __thiscall Concurrency::message_not_found::message_not_found(void)` | 70 | Exported Function
+`public: __thiscall Concurrency::invalid_scheduler_policy_thread_specification::invalid_scheduler_policy_thread_specification(char const *)` | 65 | Exported Function
+`public: __thiscall Concurrency::invalid_scheduler_policy_thread_specification::invalid_scheduler_policy_thread_specification(void)` | 66 | Exported Function
+`public: __thiscall Concurrency::invalid_scheduler_policy_value::invalid_scheduler_policy_value(char const *)` | 67 | Exported Function
+`protected: unsigned long __thiscall Concurrency::details::_SpinWait<0>::_NumberOfSpins(void)` | 218 | Exported Function
+`protected: unsigned long __thiscall Concurrency::details::_SpinWait<1>::_NumberOfSpins(void)` | 217 | Exported Function
+`protected: virtual __thiscall Concurrency::details::_Timer::~_Timer(void)` | 101 | Exported Function
+`protected: __thiscall Concurrency::details::_Timer::_Timer(unsigned int,bool)` | 25 | Exported Function
+`protected: bool __thiscall Concurrency::details::_SpinWait<0>::_ShouldSpinAgain(void)` | 245 | Exported Function
+`protected: bool __thiscall Concurrency::details::_SpinWait<1>::_ShouldSpinAgain(void)` | 244 | Exported Function
+`protected: void __thiscall Concurrency::details::_SpinWait<0>::_DoYield(void)` | 201 | Exported Function
+`protected: void __thiscall Concurrency::details::_Timer::_Start(void)` | 249 | Exported Function
+`protected: void __thiscall Concurrency::details::_Timer::_Stop(void)` | 250 | Exported Function
+`protected: void __thiscall Concurrency::details::_UnrealizedChore::_CheckTaskCollection(void)` | 189 | Exported Function
+`protected: void __thiscall Concurrency::details::_SpinWait<0>::_Reset(void)` | 233 | Exported Function
+`protected: void __thiscall Concurrency::details::_SpinWait<1>::_DoYield(void)` | 200 | Exported Function
+`protected: void __thiscall Concurrency::details::_SpinWait<1>::_Reset(void)` | 232 | Exported Function
+`private: static unsigned int & __cdecl Concurrency::details::_StackGuard::_GetCurrentInlineDepth(void)` | 205 | Exported Function
+`private: static void __cdecl type_info::_Type_info_dtor(class type_info *)` | 258 | Exported Function
+`private: static void __cdecl type_info::_Type_info_dtor_internal(class type_info *)` | 259 | Exported Function
+`private: __thiscall std::bad_cast::bad_cast(char const * const *)` | 28 | Exported Function
+`private: static char const * __cdecl type_info::_Name_base(class type_info const *,struct __type_info_node *)` | 213 | Exported Function
+`private: static char const * __cdecl type_info::_Name_base_internal(class type_info const *,struct __type_info_node *)` | 214 | Exported Function
+`private: virtual void __thiscall Concurrency::details::_AsyncTaskCollection::_Destroy(void)` | 198 | Exported Function
+`private: void __thiscall Concurrency::details::_StructuredTaskCollection::_CleanupToken(void)` | 190 | Exported Function
+`private: void __thiscall std::exception::_Copy_str(char const *)` | 194 | Exported Function
+`private: void __thiscall std::exception::_Tidy(void)` | 251 | Exported Function
+`private: virtual void __thiscall Concurrency::details::_CancellationTokenState::_Destroy(void)` | 199 | Exported Function
+`private: void __thiscall Concurrency::details::_CancellationTokenRegistration::_Invoke(void)` | 209 | Exported Function
+`private: void __thiscall Concurrency::details::_StructuredTaskCollection::_Abort(void)` | 178 | Exported Function
+`public: __cdecl Concurrency::SchedulerPolicy::SchedulerPolicy(unsigned int,...)` | 3 | Exported Function
+`public: __thiscall Concurrency::details::_Context::_Context(class Concurrency::Context *)` | 9 | Exported Function
+`public: __thiscall Concurrency::details::_Interruption_exception::_Interruption_exception(char const *)` | 10 | Exported Function
+`public: __thiscall Concurrency::details::_Interruption_exception::_Interruption_exception(void)` | 11 | Exported Function
+`public: __thiscall Concurrency::details::_Cancellation_beacon::~_Cancellation_beacon(void)` | 93 | Exported Function
+`public: __thiscall Concurrency::details::_Condition_variable::_Condition_variable(void)` | 8 | Exported Function
+`public: __thiscall Concurrency::details::_Condition_variable::~_Condition_variable(void)` | 94 | Exported Function
+`public: __thiscall Concurrency::details::_NonReentrantBlockingLock::_NonReentrantBlockingLock(void)` | 12 | Exported Function
+`public: __thiscall Concurrency::details::_NonReentrantPPLLock::_Scoped_lock::~_Scoped_lock(void)` | 97 | Exported Function
+`public: __thiscall Concurrency::details::_ReaderWriterLock::_ReaderWriterLock(void)` | 14 | Exported Function
+`public: __thiscall Concurrency::details::_ReentrantBlockingLock::_ReentrantBlockingLock(void)` | 15 | Exported Function
+`public: __thiscall Concurrency::details::_NonReentrantBlockingLock::~_NonReentrantBlockingLock(void)` | 95 | Exported Function
+`public: __thiscall Concurrency::details::_NonReentrantPPLLock::_NonReentrantPPLLock(void)` | 13 | Exported Function
+`public: __thiscall Concurrency::details::_NonReentrantPPLLock::_Scoped_lock::_Scoped_lock(class Concurrency::details::_NonReentrantPPLLock &)` | 19 | Exported Function
+`public: __thiscall Concurrency::context_self_unblock::context_self_unblock(void)` | 36 | Exported Function
+`public: __thiscall Concurrency::context_unblock_unbalanced::context_unblock_unbalanced(char const *)` | 37 | Exported Function
+`public: __thiscall Concurrency::context_unblock_unbalanced::context_unblock_unbalanced(void)` | 38 | Exported Function
+`public: __thiscall Concurrency::bad_target::bad_target(char const *)` | 31 | Exported Function
+`public: __thiscall Concurrency::bad_target::bad_target(void)` | 32 | Exported Function
+`public: __thiscall Concurrency::context_self_unblock::context_self_unblock(char const *)` | 35 | Exported Function
+`public: __thiscall Concurrency::critical_section::critical_section(void)` | 39 | Exported Function
+`public: __thiscall Concurrency::default_scheduler_exists::default_scheduler_exists(char const *)` | 40 | Exported Function
+`public: __thiscall Concurrency::default_scheduler_exists::default_scheduler_exists(void)` | 41 | Exported Function
+`public: __thiscall Concurrency::details::_Cancellation_beacon::_Cancellation_beacon(void)` | 7 | Exported Function
+`public: __thiscall Concurrency::critical_section::scoped_lock::scoped_lock(class Concurrency::critical_section &)` | 84 | Exported Function
+`public: __thiscall Concurrency::critical_section::scoped_lock::~scoped_lock(void)` | 109 | Exported Function
+`public: __thiscall Concurrency::critical_section::~critical_section(void)` | 105 | Exported Function
+`public: __thiscall Concurrency::scheduler_not_attached::scheduler_not_attached(void)` | 79 | Exported Function
+`public: static class Concurrency::SchedulerPolicy __cdecl Concurrency::CurrentScheduler::GetPolicy(void)` | 156 | Exported Function
+`public: static unsigned int __cdecl Concurrency::Context::Id(void)` | 162 | Exported Function
+`public: static unsigned int __cdecl Concurrency::Context::ScheduleGroupId(void)` | 170 | Exported Function
+`public: static class Concurrency::ScheduleGroup * __cdecl Concurrency::CurrentScheduler::CreateScheduleGroup(void)` | 146 | Exported Function
+`public: static class Concurrency::Scheduler * __cdecl Concurrency::CurrentScheduler::Get(void)` | 152 | Exported Function
+`public: static class Concurrency::Scheduler * __cdecl Concurrency::Scheduler::Create(class Concurrency::SchedulerPolicy const &)` | 143 | Exported Function
+`public: static unsigned int __cdecl Concurrency::Context::VirtualProcessorId(void)` | 176 | Exported Function
+`public: static unsigned int __cdecl Concurrency::details::_CurrentScheduler::_Id(void)` | 208 | Exported Function
+`public: static unsigned int __cdecl Concurrency::details::_SpinCount::_Value(void)` | 264 | Exported Function
+`public: static unsigned int __cdecl Concurrency::event::wait_for_multiple(class Concurrency::event * *,unsigned int,bool,unsigned int)` | 329 | Exported Function
+`public: static unsigned int __cdecl Concurrency::CurrentScheduler::GetNumberOfVirtualProcessors(void)` | 154 | Exported Function
+`public: static unsigned int __cdecl Concurrency::CurrentScheduler::Id(void)` | 163 | Exported Function
+`public: static unsigned int __cdecl Concurrency::details::_CurrentScheduler::_GetNumberOfVirtualProcessors(void)` | 206 | Exported Function
+`public: static bool __cdecl Concurrency::CurrentScheduler::IsAvailableLocation(class Concurrency::location const &)` | 164 | Exported Function
+`public: static class Concurrency::Context * __cdecl Concurrency::Context::CurrentContext(void)` | 147 | Exported Function
+`public: static class Concurrency::details::_AsyncTaskCollection * __cdecl Concurrency::details::_AsyncTaskCollection::_NewCollection(class Concurrency::details::_CancellationTokenState *)` | 215 | Exported Function
+`public: enum Concurrency::details::_TaskCollectionStatus __stdcall Concurrency::details::_TaskCollection::_RunAndWait(class Concurrency::details::_UnrealizedChore *)` | 235 | Exported Function
+`public: long __thiscall Concurrency::scheduler_resource_allocation_error::get_error_code(void)const ` | 296 | Exported Function
+`public: static bool __cdecl Concurrency::Context::IsCurrentTaskCollectionCanceling(void)` | 165 | Exported Function
+`public: static class Concurrency::details::_CancellationTokenState * __cdecl Concurrency::details::_CancellationTokenState::_NewTokenState(void)` | 216 | Exported Function
+`public: static class Concurrency::location __cdecl Concurrency::location::current(void)` | 294 | Exported Function
+`public: static class Concurrency::location __cdecl Concurrency::location::from_numa_node(unsigned short)` | 295 | Exported Function
+`public: static class Concurrency::ScheduleGroup * __cdecl Concurrency::CurrentScheduler::CreateScheduleGroup(class Concurrency::location &)` | 145 | Exported Function
+`public: static class Concurrency::details::_Context __cdecl Concurrency::details::_Context::_CurrentContext(void)` | 195 | Exported Function
+`public: static class Concurrency::details::_Scheduler __cdecl Concurrency::details::_CurrentScheduler::_Get(void)` | 202 | Exported Function
+`public: static class Concurrency::location __cdecl Concurrency::location::_Current_node(void)` | 196 | Exported Function
+`public: static void __cdecl Concurrency::Context::_SpinYield(void)` | 248 | Exported Function
+`public: unsigned int __thiscall Concurrency::SchedulerPolicy::GetPolicyValue(enum Concurrency::PolicyElementKey)const ` | 157 | Exported Function
+`public: unsigned int __thiscall Concurrency::SchedulerPolicy::SetPolicyValue(enum Concurrency::PolicyElementKey,unsigned int)` | 175 | Exported Function
+`public: virtual __thiscall Concurrency::details::_CancellationTokenState::~_CancellationTokenState(void)` | 92 | Exported Function
+`public: unsigned int __thiscall Concurrency::details::_Scheduler::_Reference(void)` | 220 | Exported Function
+`public: unsigned int __thiscall Concurrency::details::_Scheduler::_Release(void)` | 228 | Exported Function
+`public: unsigned int __thiscall Concurrency::event::wait(unsigned int)` | 327 | Exported Function
+`public: virtual __thiscall std::__non_rtti_object::~__non_rtti_object(void)` | 102 | Exported Function
+`public: virtual __thiscall type_info::~type_info(void)` | 112 | Exported Function
+`public: virtual char const * __thiscall std::exception::what(void)const ` | 330 | Exported Function
+`public: void __thiscall Concurrency::critical_section::lock(void)` | 297 | Exported Function
+`public: virtual __thiscall std::bad_cast::~bad_cast(void)` | 103 | Exported Function
+`public: virtual __thiscall std::bad_typeid::~bad_typeid(void)` | 104 | Exported Function
+`public: virtual __thiscall std::exception::~exception(void)` | 107 | Exported Function
+`public: static void __cdecl Concurrency::CurrentScheduler::Create(class Concurrency::SchedulerPolicy const &)` | 142 | Exported Function
+`public: static void __cdecl Concurrency::CurrentScheduler::Detach(void)` | 148 | Exported Function
+`public: static void __cdecl Concurrency::CurrentScheduler::RegisterShutdownEvent(void *)` | 168 | Exported Function
+`public: static void __cdecl Concurrency::Context::Block(void)` | 141 | Exported Function
+`public: static void __cdecl Concurrency::Context::Oversubscribe(bool)` | 167 | Exported Function
+`public: static void __cdecl Concurrency::Context::Yield(void)` | 177 | Exported Function
+`public: static void __cdecl Concurrency::CurrentScheduler::ScheduleTask(void (__cdecl*)(void *),void *)` | 171 | Exported Function
+`public: static void __cdecl Concurrency::details::_CurrentScheduler::_ScheduleTask(void (__cdecl*)(void *),void *)` | 240 | Exported Function
+`public: static void __cdecl Concurrency::Scheduler::ResetDefaultSchedulerPolicy(void)` | 169 | Exported Function
+`public: static void __cdecl Concurrency::Scheduler::SetDefaultSchedulerPolicy(class Concurrency::SchedulerPolicy const &)` | 174 | Exported Function
+`public: static void __cdecl Concurrency::CurrentScheduler::ScheduleTask(void (__cdecl*)(void *),void *,class Concurrency::location &)` | 172 | Exported Function
+`public: static void __cdecl Concurrency::details::_Context::_Oversubscribe(bool)` | 219 | Exported Function
+`public: static void __cdecl Concurrency::details::_Context::_Yield(void)` | 265 | Exported Function
+`public: __thiscall std::bad_typeid::bad_typeid(class std::bad_typeid const &)` | 33 | Exported Function
+`public: __thiscall std::exception::exception(char const * const &)` | 43 | Exported Function
+`public: __thiscall std::exception::exception(char const * const &,int)` | 44 | Exported Function
+`public: __thiscall std::bad_cast::bad_cast(char const *)` | 30 | Exported Function
+`public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)` | 29 | Exported Function
+`public: __thiscall std::bad_typeid::bad_typeid(char const *)` | 34 | Exported Function
+`public: __thiscall std::exception::exception(class std::exception const &)` | 45 | Exported Function
+`public: bool __thiscall Concurrency::details::_Cancellation_beacon::_Confirm_cancel(void)` | 193 | Exported Function
+`public: bool __thiscall Concurrency::details::_Condition_variable::wait_for(class Concurrency::critical_section &,unsigned int)` | 328 | Exported Function
+`public: bool __thiscall Concurrency::details::_Context::_IsSynchronouslyBlocked(void)const ` | 212 | Exported Function
+`public: __thiscall std::exception::exception(void)` | 46 | Exported Function
+`public: bool __thiscall Concurrency::critical_section::try_lock(void)` | 317 | Exported Function
+`public: bool __thiscall Concurrency::critical_section::try_lock_for(unsigned int)` | 319 | Exported Function
+`public: __thiscall Concurrency::scheduler_worker_creation_error::scheduler_worker_creation_error(long)` | 82 | Exported Function
+`public: __thiscall Concurrency::SchedulerPolicy::SchedulerPolicy(class Concurrency::SchedulerPolicy const &)` | 4 | Exported Function
+`public: __thiscall Concurrency::SchedulerPolicy::SchedulerPolicy(void)` | 5 | Exported Function
+`public: __thiscall Concurrency::scheduler_resource_allocation_error::scheduler_resource_allocation_error(char const *,long)` | 81 | Exported Function
+`public: __thiscall Concurrency::scheduler_resource_allocation_error::scheduler_resource_allocation_error(long)` | 80 | Exported Function
+`public: __thiscall Concurrency::scheduler_worker_creation_error::scheduler_worker_creation_error(char const *,long)` | 83 | Exported Function
+`public: __thiscall Concurrency::SchedulerPolicy::~SchedulerPolicy(void)` | 91 | Exported Function
+`public: __thiscall Concurrency::unsupported_os::unsupported_os(void)` | 90 | Exported Function
+`public: __thiscall std::__non_rtti_object::__non_rtti_object(char const *)` | 27 | Exported Function
+`public: __thiscall std::__non_rtti_object::__non_rtti_object(class std::__non_rtti_object const &)` | 26 | Exported Function
+`public: __thiscall Concurrency::task_canceled::task_canceled(char const *)` | 87 | Exported Function
+`public: __thiscall Concurrency::task_canceled::task_canceled(void)` | 88 | Exported Function
+`public: __thiscall Concurrency::unsupported_os::unsupported_os(char const *)` | 89 | Exported Function
+`public: bool __thiscall Concurrency::details::_NonReentrantBlockingLock::_TryAcquire(void)` | 254 | Exported Function
+`public: class Concurrency::details::_CancellationTokenRegistration * __thiscall Concurrency::details::_CancellationTokenState::_RegisterCallback(void (__cdecl*)(void *),void *,int)` | 221 | Exported Function
+`public: class Concurrency::details::_SpinWait<0> & __thiscall Concurrency::details::_SpinWait<0>::operator=(class Concurrency::details::_SpinWait<0> const &)` | 118 | Exported Function
+`public: class Concurrency::details::_SpinWait<1> & __thiscall Concurrency::details::_SpinWait<1>::operator=(class Concurrency::details::_SpinWait<1> const &)` | 117 | Exported Function
+`public: char const * __thiscall type_info::name(struct __type_info_node *)const ` | 300 | Exported Function
+`public: char const * __thiscall type_info::raw_name(void)const ` | 304 | Exported Function
+`public: class Concurrency::critical_section & __thiscall Concurrency::critical_section::native_handle(void)` | 301 | Exported Function
+`public: class Concurrency::Scheduler * __thiscall Concurrency::details::_Scheduler::_GetScheduler(void)` | 207 | Exported Function
+`public: class std::bad_typeid & __thiscall std::bad_typeid::operator=(class std::bad_typeid const &)` | 122 | Exported Function
+`public: class std::exception & __thiscall std::exception::operator=(class std::exception const &)` | 123 | Exported Function
+`public: enum Concurrency::details::_TaskCollectionStatus __stdcall Concurrency::details::_StructuredTaskCollection::_RunAndWait(class Concurrency::details::_UnrealizedChore *)` | 234 | Exported Function
+`public: class Concurrency::SchedulerPolicy & __thiscall Concurrency::SchedulerPolicy::operator=(class Concurrency::SchedulerPolicy const &)` | 119 | Exported Function
+`public: class std::__non_rtti_object & __thiscall std::__non_rtti_object::operator=(class std::__non_rtti_object const &)` | 120 | Exported Function
+`public: class std::bad_cast & __thiscall std::bad_cast::operator=(class std::bad_cast const &)` | 121 | Exported Function
+`public: bool __thiscall Concurrency::details::_SpinWait<0>::_SpinOnce(void)` | 247 | Exported Function
+`public: bool __thiscall Concurrency::details::_SpinWait<1>::_SpinOnce(void)` | 246 | Exported Function
+`public: bool __thiscall Concurrency::details::_StructuredTaskCollection::_IsCanceling(void)` | 210 | Exported Function
+`public: bool __thiscall Concurrency::details::_ReaderWriterLock::_TryAcquireWrite(void)` | 257 | Exported Function
+`public: bool __thiscall Concurrency::details::_ReentrantBlockingLock::_TryAcquire(void)` | 255 | Exported Function
+`public: bool __thiscall Concurrency::details::_ReentrantLock::_TryAcquire(void)` | 256 | Exported Function
+`public: bool __thiscall Concurrency::details::_TaskCollection::_IsCanceling(void)` | 211 | Exported Function
+`public: bool __thiscall type_info::operator!=(class type_info const &)const ` | 125 | Exported Function
+`public: bool __thiscall type_info::operator==(class type_info const &)const ` | 124 | Exported Function
+`public: char const * __thiscall type_info::_name_internal_method(struct __type_info_node *)const ` | 280 | Exported Function
+`public: bool __thiscall Concurrency::reader_writer_lock::try_lock(void)` | 318 | Exported Function
+`public: bool __thiscall Concurrency::reader_writer_lock::try_lock_read(void)` | 320 | Exported Function
+`public: bool __thiscall type_info::before(class type_info const &)const ` | 293 | Exported Function
+`_execv` | 630 | Exported Function
+`_execve` | 631 | Exported Function
+`_execvp` | 632 | Exported Function
+`_execle` | 627 | Exported Function
+`_execlp` | 628 | Exported Function
+`_execlpe` | 629 | Exported Function
+`_execvpe` | 633 | Exported Function
+`_fcloseall` | 637 | Exported Function
+`_fcvt` | 638 | Exported Function
+`_fcvt_s` | 639 | Exported Function
+`_exit` | 634 | Exported Function
+`_expand` | 635 | Exported Function
+`_fclose_nolock` | 636 | Exported Function
+`_EH_prolog` | 352 | Exported Function
+`_endthread` | 618 | Exported Function
+`_endthreadex` | 619 | Exported Function
+`_dupenv_s` | 615 | Exported Function
+`_ecvt` | 616 | Exported Function
+`_ecvt_s` | 617 | Exported Function
+`_environ` | 620 | Exported Function
+`_except_handler3` | 624 | Exported Function
+`_except_handler4_common` | 625 | Exported Function
+`_execl` | 626 | Exported Function
+`_eof` | 621 | Exported Function
+`_errno` | 622 | Exported Function
+`_except_handler2` | 623 | Exported Function
+`_fdopen` | 640 | Exported Function
+`_findnext64` | 656 | Exported Function
+`_findnext64i32` | 657 | Exported Function
+`_finite` | 658 | Exported Function
+`_findfirst64i32` | 653 | Exported Function
+`_findnext32` | 654 | Exported Function
+`_findnext32i64` | 655 | Exported Function
+`_flsbuf` | 659 | Exported Function
+`_fpieee_flt` | 663 | Exported Function
+`_fpreset` | 664 | Exported Function
+`_fprintf_l` | 665 | Exported Function
+`_flushall` | 660 | Exported Function
+`_fmode` | 661 | Exported Function
+`_fpclass` | 662 | Exported Function
+`_fgetwchar` | 644 | Exported Function
+`_filbuf` | 645 | Exported Function
+`_filelength` | 646 | Exported Function
+`_fflush_nolock` | 641 | Exported Function
+`_fgetchar` | 642 | Exported Function
+`_fgetwc_nolock` | 643 | Exported Function
+`_filelengthi64` | 647 | Exported Function
+`_findfirst32` | 650 | Exported Function
+`_findfirst32i64` | 651 | Exported Function
+`_findfirst64` | 652 | Exported Function
+`_fileno` | 648 | Exported Function
+`_FindAndUnlinkFrame` | 353 | Exported Function
+`_findclose` | 649 | Exported Function
+`_cprintf_s` | 582 | Exported Function
+`_cprintf_s_l` | 583 | Exported Function
+`_cputs` | 584 | Exported Function
+`_cprintf_l` | 579 | Exported Function
+`_cprintf_p` | 580 | Exported Function
+`_cprintf_p_l` | 581 | Exported Function
+`_cputws` | 585 | Exported Function
+`_crt_debugger_hook` | 588 | Exported Function
+`_CRT_RTC_INIT` | 348 | Exported Function
+`_CRT_RTC_INITW` | 349 | Exported Function
+`_creat` | 586 | Exported Function
+`_create_locale` | 587 | Exported Function
+`_CreateFrameInfo` | 350 | Exported Function
+`_clearfp` | 569 | Exported Function
+`_close` | 570 | Exported Function
+`_commit` | 571 | Exported Function
+`_CIsqrt` | 345 | Exported Function
+`_CItan` | 346 | Exported Function
+`_CItanh` | 347 | Exported Function
+`_commode` | 572 | Exported Function
+`_controlfp_s` | 576 | Exported Function
+`_copysign` | 577 | Exported Function
+`_cprintf` | 578 | Exported Function
+`_configthreadlocale` | 573 | Exported Function
+`_control87` | 574 | Exported Function
+`_controlfp` | 575 | Exported Function
+`_cscanf` | 589 | Exported Function
+`_cwscanf_s` | 606 | Exported Function
+`_cwscanf_s_l` | 607 | Exported Function
+`_CxxThrowException` | 351 | Exported Function
+`_cwprintf_s_l` | 603 | Exported Function
+`_cwscanf` | 604 | Exported Function
+`_cwscanf_l` | 605 | Exported Function
+`_daylight` | 608 | Exported Function
+`_dstbias` | 612 | Exported Function
+`_dup` | 613 | Exported Function
+`_dup2` | 614 | Exported Function
+`_difftime32` | 609 | Exported Function
+`_difftime64` | 610 | Exported Function
+`_dosmaperr` | 611 | Exported Function
+`_ctime32` | 593 | Exported Function
+`_ctime32_s` | 594 | Exported Function
+`_ctime64` | 595 | Exported Function
+`_cscanf_l` | 590 | Exported Function
+`_cscanf_s` | 591 | Exported Function
+`_cscanf_s_l` | 592 | Exported Function
+`_ctime64_s` | 596 | Exported Function
+`_cwprintf_p` | 600 | Exported Function
+`_cwprintf_p_l` | 601 | Exported Function
+`_cwprintf_s` | 602 | Exported Function
+`_cwait` | 597 | Exported Function
+`_cwprintf` | 598 | Exported Function
+`_cwprintf_l` | 599 | Exported Function
+`_fprintf_p` | 666 | Exported Function
+`_getdrive` | 735 | Exported Function
+`_getdrives` | 736 | Exported Function
+`_getmaxstdio` | 737 | Exported Function
+`_getdcwd` | 732 | Exported Function
+`_getdiskfree` | 733 | Exported Function
+`_getdllprocaddr` | 734 | Exported Function
+`_getmbcp` | 738 | Exported Function
+`_getsystime` | 741 | Exported Function
+`_Gettnames` | 356 | Exported Function
+`_getw` | 742 | Exported Function
+`_Getmonths` | 355 | Exported Function
+`_getpid` | 739 | Exported Function
+`_getptd` | 740 | Exported Function
+`_get_tzname` | 723 | Exported Function
+`_get_unexpected` | 724 | Exported Function
+`_get_wpgmptr` | 725 | Exported Function
+`_get_purecall_handler` | 720 | Exported Function
+`_get_terminate` | 721 | Exported Function
+`_get_timezone` | 722 | Exported Function
+`_getc_nolock` | 726 | Exported Function
+`_getche_nolock` | 730 | Exported Function
+`_getcwd` | 731 | Exported Function
+`_Getdays` | 354 | Exported Function
+`_getch` | 727 | Exported Function
+`_getch_nolock` | 728 | Exported Function
+`_getche` | 729 | Exported Function
+`_getwch` | 743 | Exported Function
+`_HUGE` | 357 | Exported Function
+`_hypot` | 760 | Exported Function
+`_hypotf` | 761 | Exported Function
+`_heapset` | 757 | Exported Function
+`_heapused` | 758 | Exported Function
+`_heapwalk` | 759 | Exported Function
+`_i64toa` | 762 | Exported Function
+`_initptd` | 766 | Exported Function
+`_initterm` | 767 | Exported Function
+`_initterm_e` | 768 | Exported Function
+`_i64toa_s` | 763 | Exported Function
+`_i64tow` | 764 | Exported Function
+`_i64tow_s` | 765 | Exported Function
+`_getws` | 747 | Exported Function
+`_getws_s` | 748 | Exported Function
+`_global_unwind2` | 749 | Exported Function
+`_getwch_nolock` | 744 | Exported Function
+`_getwche` | 745 | Exported Function
+`_getwche_nolock` | 746 | Exported Function
+`_gmtime32` | 750 | Exported Function
+`_heapadd` | 754 | Exported Function
+`_heapchk` | 755 | Exported Function
+`_heapmin` | 756 | Exported Function
+`_gmtime32_s` | 751 | Exported Function
+`_gmtime64` | 752 | Exported Function
+`_gmtime64_s` | 753 | Exported Function
+`_fsopen` | 683 | Exported Function
+`_fstat32` | 684 | Exported Function
+`_fstat32i64` | 685 | Exported Function
+`_fseek_nolock` | 680 | Exported Function
+`_fseeki64` | 681 | Exported Function
+`_fseeki64_nolock` | 682 | Exported Function
+`_fstat64` | 686 | Exported Function
+`_ftelli64_nolock` | 690 | Exported Function
+`_ftime32` | 691 | Exported Function
+`_ftime32_s` | 692 | Exported Function
+`_fstat64i32` | 687 | Exported Function
+`_ftell_nolock` | 688 | Exported Function
+`_ftelli64` | 689 | Exported Function
+`_fputwc_nolock` | 670 | Exported Function
+`_fputwchar` | 671 | Exported Function
+`_fread_nolock` | 672 | Exported Function
+`_fprintf_p_l` | 667 | Exported Function
+`_fprintf_s_l` | 668 | Exported Function
+`_fputchar` | 669 | Exported Function
+`_fread_nolock_s` | 673 | Exported Function
+`_freefls` | 677 | Exported Function
+`_fscanf_l` | 678 | Exported Function
+`_fscanf_s_l` | 679 | Exported Function
+`_free_locale` | 674 | Exported Function
+`_freea` | 675 | Exported Function
+`_freea_s` | 676 | Exported Function
+`_ftime64` | 693 | Exported Function
+`_get_doserrno` | 710 | Exported Function
+`_get_dstbias` | 711 | Exported Function
+`_get_errno` | 712 | Exported Function
+`_gcvt_s` | 707 | Exported Function
+`_get_current_locale` | 708 | Exported Function
+`_get_daylight` | 709 | Exported Function
+`_get_fmode` | 713 | Exported Function
+`_get_output_format` | 717 | Exported Function
+`_get_pgmptr` | 718 | Exported Function
+`_get_printf_count_output` | 719 | Exported Function
+`_get_heap_handle` | 714 | Exported Function
+`_get_invalid_parameter_handler` | 715 | Exported Function
+`_get_osfhandle` | 716 | Exported Function
+`_futime32` | 697 | Exported Function
+`_futime64` | 698 | Exported Function
+`_fwprintf_l` | 699 | Exported Function
+`_ftime64_s` | 694 | Exported Function
+`_ftol` | 695 | Exported Function
+`_fullpath` | 696 | Exported Function
+`_fwprintf_p` | 700 | Exported Function
+`_fwscanf_l` | 704 | Exported Function
+`_fwscanf_s_l` | 705 | Exported Function
+`_gcvt` | 706 | Exported Function
+`_fwprintf_p_l` | 701 | Exported Function
+`_fwprintf_s_l` | 702 | Exported Function
+`_fwrite_nolock` | 703 | Exported Function
+`_CIsinh` | 344 | Exported Function
+`__iswcsym` | 444 | Exported Function
+`__iswcsymf` | 445 | Exported Function
+`__lconv` | 446 | Exported Function
+`__isascii` | 441 | Exported Function
+`__iscsym` | 442 | Exported Function
+`__iscsymf` | 443 | Exported Function
+`__lconv_init` | 447 | Exported Function
+`__libm_sse2_asinf` | 451 | Exported Function
+`__libm_sse2_atan` | 452 | Exported Function
+`__libm_sse2_atan2` | 453 | Exported Function
+`__libm_sse2_acos` | 448 | Exported Function
+`__libm_sse2_acosf` | 449 | Exported Function
+`__libm_sse2_asin` | 450 | Exported Function
+`__dstbias` | 432 | Exported Function
+`__fpecode` | 433 | Exported Function
+`__FrameUnwindFilter` | 384 | Exported Function
+`__DestructExceptionObject` | 383 | Exported Function
+`__dllonexit` | 430 | Exported Function
+`__doserrno` | 431 | Exported Function
+`__free_locale` | 434 | Exported Function
+`__getmainargs` | 438 | Exported Function
+`__initenv` | 439 | Exported Function
+`__iob_func` | 440 | Exported Function
+`__get_current_locale` | 435 | Exported Function
+`__get_flsindex` | 436 | Exported Function
+`__get_tlsindex` | 437 | Exported Function
+`__libm_sse2_atanf` | 454 | Exported Function
+`__p___argv` | 471 | Exported Function
+`__p___initenv` | 472 | Exported Function
+`__p___mb_cur_max` | 473 | Exported Function
+`__libm_sse2_tanf` | 468 | Exported Function
+`__mb_cur_max` | 469 | Exported Function
+`__p___argc` | 470 | Exported Function
+`__p___wargv` | 474 | Exported Function
+`__p__daylight` | 478 | Exported Function
+`__p__dstbias` | 479 | Exported Function
+`__p__environ` | 480 | Exported Function
+`__p___winitenv` | 475 | Exported Function
+`__p__acmdln` | 476 | Exported Function
+`__p__commode` | 477 | Exported Function
+`__libm_sse2_expf` | 458 | Exported Function
+`__libm_sse2_log` | 459 | Exported Function
+`__libm_sse2_log10` | 460 | Exported Function
+`__libm_sse2_cos` | 455 | Exported Function
+`__libm_sse2_cosf` | 456 | Exported Function
+`__libm_sse2_exp` | 457 | Exported Function
+`__libm_sse2_log10f` | 461 | Exported Function
+`__libm_sse2_sin` | 465 | Exported Function
+`__libm_sse2_sinf` | 466 | Exported Function
+`__libm_sse2_tan` | 467 | Exported Function
+`__libm_sse2_logf` | 462 | Exported Function
+`__libm_sse2_pow` | 463 | Exported Function
+`__libm_sse2_powf` | 464 | Exported Function
+`__control87_2` | 402 | Exported Function
+`__CppXcptFilter` | 373 | Exported Function
+`__create_locale` | 403 | Exported Function
+`__BuildCatchObject` | 371 | Exported Function
+`__BuildCatchObjectHelper` | 372 | Exported Function
+`__clean_type_info_names_internal` | 401 | Exported Function
+`__crtCompareStringA` | 404 | Exported Function
+`__crtEnumSystemLocalesEx` | 409 | Exported Function
+`__crtFlsAlloc` | 410 | Exported Function
+`__crtFlsFree` | 411 | Exported Function
+`__crtCompareStringEx` | 405 | Exported Function
+`__crtCompareStringW` | 406 | Exported Function
+`__crtCreateSymbolicLinkW` | 408 | Exported Function
+`___lc_collate_cp_func` | 392 | Exported Function
+`___lc_locale_name_func` | 393 | Exported Function
+`___mb_cur_max_func` | 394 | Exported Function
+`$I10_OUTPUT` | 331 | Exported Function
+`___crtCreateSemaphoreExW@24` | 407 | Exported Function
+`___lc_codepage_func` | 391 | Exported Function
+`___mb_cur_max_l_func` | 395 | Exported Function
+`__argc` | 398 | Exported Function
+`__argv` | 399 | Exported Function
+`__badioinfo` | 400 | Exported Function
+`___setlc_active_func` | 396 | Exported Function
+`___unguarded_readlc_active_add_func` | 397 | Exported Function
+`__AdjustPointer` | 370 | Exported Function
+`__crtFlsGetValue` | 412 | Exported Function
+`__CxxDetectRethrow` | 374 | Exported Function
+`__CxxExceptionFilter` | 375 | Exported Function
+`__CxxFrameHandler` | 376 | Exported Function
+`__crtSetUnhandledExceptionFilter` | 426 | Exported Function
+`__crtTerminateProcess` | 427 | Exported Function
+`__crtUnhandledException` | 428 | Exported Function
+`__CxxFrameHandler2` | 377 | Exported Function
+`__CxxRegisterExceptionObject` | 381 | Exported Function
+`__CxxUnregisterExceptionObject` | 382 | Exported Function
+`__daylight` | 429 | Exported Function
+`__CxxFrameHandler3` | 378 | Exported Function
+`__CxxLongjmpUnwind` | 379 | Exported Function
+`__CxxQueryExceptionSize` | 380 | Exported Function
+`__crtGetShowWindowMode` | 416 | Exported Function
+`__crtGetTimeFormatEx` | 417 | Exported Function
+`__crtGetUserDefaultLocaleName` | 418 | Exported Function
+`__crtFlsSetValue` | 413 | Exported Function
+`__crtGetDateFormatEx` | 414 | Exported Function
+`__crtGetLocaleInfoEx` | 415 | Exported Function
+`__crtInitializeCriticalSectionEx` | 419 | Exported Function
+`__crtLCMapStringEx` | 423 | Exported Function
+`__crtLCMapStringW` | 424 | Exported Function
+`__crtSetThreadStackGuarantee` | 425 | Exported Function
+`__crtIsPackagedApp` | 420 | Exported Function
+`__crtIsValidLocaleName` | 421 | Exported Function
+`__crtLCMapStringA` | 422 | Exported Function
+`__p__fmode` | 481 | Exported Function
+`_atol_l` | 544 | Exported Function
+`_atoldbl` | 545 | Exported Function
+`_atoldbl_l` | 546 | Exported Function
+`_atoi64` | 541 | Exported Function
+`_atoi64_l` | 542 | Exported Function
+`_atoi_l` | 543 | Exported Function
+`_beep` | 547 | Exported Function
+`_byteswap_ulong` | 551 | Exported Function
+`_byteswap_ushort` | 552 | Exported Function
+`_c_exit` | 553 | Exported Function
+`_beginthread` | 548 | Exported Function
+`_beginthreadex` | 549 | Exported Function
+`_byteswap_uint64` | 550 | Exported Function
+`_aligned_offset_recalloc` | 531 | Exported Function
+`_aligned_realloc` | 532 | Exported Function
+`_aligned_recalloc` | 533 | Exported Function
+`_aligned_msize` | 528 | Exported Function
+`_aligned_offset_malloc` | 529 | Exported Function
+`_aligned_offset_realloc` | 530 | Exported Function
+`_amsg_exit` | 534 | Exported Function
+`_atof_l` | 538 | Exported Function
+`_atoflt` | 539 | Exported Function
+`_atoflt_l` | 540 | Exported Function
+`_assert` | 535 | Exported Function
+`_atodbl` | 536 | Exported Function
+`_atodbl_l` | 537 | Exported Function
+`_cabs` | 554 | Exported Function
+`_CIatan` | 334 | Exported Function
+`_CIatan2` | 335 | Exported Function
+`_CIcos` | 336 | Exported Function
+`_chsize_s` | 568 | Exported Function
+`_CIacos` | 332 | Exported Function
+`_CIasin` | 333 | Exported Function
+`_CIcosh` | 337 | Exported Function
+`_CIlog10` | 341 | Exported Function
+`_CIpow` | 342 | Exported Function
+`_CIsin` | 343 | Exported Function
+`_CIexp` | 338 | Exported Function
+`_CIfmod` | 339 | Exported Function
+`_CIlog` | 340 | Exported Function
+`_cgets` | 558 | Exported Function
+`_cgets_s` | 559 | Exported Function
+`_cgetws` | 560 | Exported Function
+`_callnewh` | 555 | Exported Function
+`_calloc_crt` | 556 | Exported Function
+`_cexit` | 557 | Exported Function
+`_cgetws_s` | 561 | Exported Function
+`_chkesp` | 565 | Exported Function
+`_chmod` | 566 | Exported Function
+`_chsize` | 567 | Exported Function
+`_chdir` | 562 | Exported Function
+`_chdrive` | 563 | Exported Function
+`_chgsign` | 564 | Exported Function
+`__RTCastToVoid` | 385 | Exported Function
+`__RTDynamicCast` | 386 | Exported Function
+`__RTtypeid` | 387 | Exported Function
+`__pwctype_func` | 495 | Exported Function
+`__pxcptinfoptrs` | 496 | Exported Function
+`__report_gsfailure` | 497 | Exported Function
+`__set_app_type` | 498 | Exported Function
+`__STRINGTOLD_L` | 389 | Exported Function
+`__strncnt` | 501 | Exported Function
+`__swprintf_l` | 502 | Exported Function
+`__setlc_active` | 499 | Exported Function
+`__setusermatherr` | 500 | Exported Function
+`__STRINGTOLD` | 388 | Exported Function
+`__p__pctype` | 485 | Exported Function
+`__p__pgmptr` | 486 | Exported Function
+`__p__pwctype` | 487 | Exported Function
+`__p__iob` | 482 | Exported Function
+`__p__mbcasemap` | 483 | Exported Function
+`__p__mbctype` | 484 | Exported Function
+`__p__timezone` | 488 | Exported Function
+`__p__wpgmptr` | 492 | Exported Function
+`__pctype_func` | 493 | Exported Function
+`__pioinfo` | 494 | Exported Function
+`__p__tzname` | 489 | Exported Function
+`__p__wcmdln` | 490 | Exported Function
+`__p__wenviron` | 491 | Exported Function
+`__sys_errlist` | 503 | Exported Function
+`__wcsncnt` | 518 | Exported Function
+`__wgetmainargs` | 519 | Exported Function
+`__winitenv` | 520 | Exported Function
+`__wargv` | 515 | Exported Function
+`__wcserror` | 516 | Exported Function
+`__wcserror_s` | 517 | Exported Function
+`_abnormal_termination` | 521 | Exported Function
+`_acmdln` | 525 | Exported Function
+`_aligned_free` | 526 | Exported Function
+`_aligned_malloc` | 527 | Exported Function
+`_abs64` | 522 | Exported Function
+`_access` | 523 | Exported Function
+`_access_s` | 524 | Exported Function
+`__timezone` | 507 | Exported Function
+`__toascii` | 508 | Exported Function
+`__TypeMatch` | 390 | Exported Function
+`__sys_nerr` | 504 | Exported Function
+`__threadhandle` | 505 | Exported Function
+`__threadid` | 506 | Exported Function
+`__tzname` | 509 | Exported Function
+`__unDNameHelper` | 512 | Exported Function
+`__unguarded_readlc_active` | 513 | Exported Function
+`__vswprintf_l` | 514 | Exported Function
+`__uncaught_exception` | 276 | Exported Function
+`__unDName` | 510 | Exported Function
+`__unDNameEx` | 511 | Exported Function
+`_inp` | 769 | Exported Function
+`_mkgmtime32` | 1051 | Exported Function
+`_mkgmtime64` | 1052 | Exported Function
+`_mktemp` | 1053 | Exported Function
+`_memicmp` | 1048 | Exported Function
+`_memicmp_l` | 1049 | Exported Function
+`_mkdir` | 1050 | Exported Function
+`_mktemp_s` | 1054 | Exported Function
+`_nextafter` | 1058 | Exported Function
+`_NLG_Dispatch2` | 360 | Exported Function
+`_NLG_Return` | 361 | Exported Function
+`_mktime32` | 1055 | Exported Function
+`_mktime64` | 1056 | Exported Function
+`_msize` | 1057 | Exported Function
+`_mbstrlen` | 1038 | Exported Function
+`_mbstrlen_l` | 1039 | Exported Function
+`_mbstrnlen` | 1040 | Exported Function
+`_mbstok_s_l` | 1035 | Exported Function
+`_mbstowcs_l` | 1036 | Exported Function
+`_mbstowcs_s_l` | 1037 | Exported Function
+`_mbstrnlen_l` | 1041 | Exported Function
+`_mbsupr_s_l` | 1045 | Exported Function
+`_mbtowc_l` | 1046 | Exported Function
+`_memccpy` | 1047 | Exported Function
+`_mbsupr` | 1042 | Exported Function
+`_mbsupr_l` | 1043 | Exported Function
+`_mbsupr_s` | 1044 | Exported Function
+`_NLG_Return2` | 362 | Exported Function
+`_putch` | 1075 | Exported Function
+`_putch_nolock` | 1076 | Exported Function
+`_putenv` | 1077 | Exported Function
+`_printf_p_l` | 1072 | Exported Function
+`_printf_s_l` | 1073 | Exported Function
+`_purecall` | 1074 | Exported Function
+`_putenv_s` | 1078 | Exported Function
+`_putws` | 1082 | Exported Function
+`_pwctype` | 1083 | Exported Function
+`_read` | 1084 | Exported Function
+`_putw` | 1079 | Exported Function
+`_putwch` | 1080 | Exported Function
+`_putwch_nolock` | 1081 | Exported Function
+`_outp` | 1062 | Exported Function
+`_outpd` | 1063 | Exported Function
+`_outpw` | 1064 | Exported Function
+`_onexit` | 1059 | Exported Function
+`_open` | 1060 | Exported Function
+`_open_osfhandle` | 1061 | Exported Function
+`_pclose` | 1065 | Exported Function
+`_popen` | 1069 | Exported Function
+`_printf_l` | 1070 | Exported Function
+`_printf_p` | 1071 | Exported Function
+`_pctype` | 1066 | Exported Function
+`_pgmptr` | 1067 | Exported Function
+`_pipe` | 1068 | Exported Function
+`_mbsncpy` | 998 | Exported Function
+`_mbsncpy_l` | 999 | Exported Function
+`_mbsncpy_s` | 1000 | Exported Function
+`_mbsncmp_l` | 995 | Exported Function
+`_mbsncoll` | 996 | Exported Function
+`_mbsncoll_l` | 997 | Exported Function
+`_mbsncpy_s_l` | 1001 | Exported Function
+`_mbsnicmp_l` | 1005 | Exported Function
+`_mbsnicoll` | 1006 | Exported Function
+`_mbsnicoll_l` | 1007 | Exported Function
+`_mbsnextc` | 1002 | Exported Function
+`_mbsnextc_l` | 1003 | Exported Function
+`_mbsnicmp` | 1004 | Exported Function
+`_mbsnbset_l` | 985 | Exported Function
+`_mbsnbset_s` | 986 | Exported Function
+`_mbsnbset_s_l` | 987 | Exported Function
+`_mbsnbicoll` | 982 | Exported Function
+`_mbsnbicoll_l` | 983 | Exported Function
+`_mbsnbset` | 984 | Exported Function
+`_mbsncat` | 988 | Exported Function
+`_mbsnccnt` | 992 | Exported Function
+`_mbsnccnt_l` | 993 | Exported Function
+`_mbsncmp` | 994 | Exported Function
+`_mbsncat_l` | 989 | Exported Function
+`_mbsncat_s` | 990 | Exported Function
+`_mbsncat_s_l` | 991 | Exported Function
+`_mbsninc` | 1008 | Exported Function
+`_mbsset_s_l` | 1025 | Exported Function
+`_mbsspn` | 1026 | Exported Function
+`_mbsspn_l` | 1027 | Exported Function
+`_mbsset` | 1022 | Exported Function
+`_mbsset_l` | 1023 | Exported Function
+`_mbsset_s` | 1024 | Exported Function
+`_mbsspnp` | 1028 | Exported Function
+`_mbstok` | 1032 | Exported Function
+`_mbstok_l` | 1033 | Exported Function
+`_mbstok_s` | 1034 | Exported Function
+`_mbsspnp_l` | 1029 | Exported Function
+`_mbsstr` | 1030 | Exported Function
+`_mbsstr_l` | 1031 | Exported Function
+`_mbsnset` | 1012 | Exported Function
+`_mbsnset_l` | 1013 | Exported Function
+`_mbsnset_s` | 1014 | Exported Function
+`_mbsninc_l` | 1009 | Exported Function
+`_mbsnlen` | 1010 | Exported Function
+`_mbsnlen_l` | 1011 | Exported Function
+`_mbsnset_s_l` | 1015 | Exported Function
+`_mbsrchr_l` | 1019 | Exported Function
+`_mbsrev` | 1020 | Exported Function
+`_mbsrev_l` | 1021 | Exported Function
+`_mbspbrk` | 1016 | Exported Function
+`_mbspbrk_l` | 1017 | Exported Function
+`_mbsrchr` | 1018 | Exported Function
+`_realloc_crt` | 1085 | Exported Function
+`_spawnve` | 1155 | Exported Function
+`_spawnvp` | 1156 | Exported Function
+`_spawnvpe` | 1157 | Exported Function
+`_spawnlp` | 1152 | Exported Function
+`_spawnlpe` | 1153 | Exported Function
+`_spawnv` | 1154 | Exported Function
+`_splitpath` | 1158 | Exported Function
+`_sprintf_p_l` | 1162 | Exported Function
+`_sprintf_s_l` | 1163 | Exported Function
+`_sscanf_l` | 1164 | Exported Function
+`_splitpath_s` | 1159 | Exported Function
+`_sprintf_l` | 1160 | Exported Function
+`_sprintf_p` | 1161 | Exported Function
+`_snwprintf_s` | 1142 | Exported Function
+`_snwprintf_s_l` | 1143 | Exported Function
+`_snwscanf` | 1144 | Exported Function
+`_snscanf_s_l` | 1139 | Exported Function
+`_snwprintf` | 1140 | Exported Function
+`_snwprintf_l` | 1141 | Exported Function
+`_snwscanf_l` | 1145 | Exported Function
+`_sopen_s` | 1149 | Exported Function
+`_spawnl` | 1150 | Exported Function
+`_spawnle` | 1151 | Exported Function
+`_snwscanf_s` | 1146 | Exported Function
+`_snwscanf_s_l` | 1147 | Exported Function
+`_sopen` | 1148 | Exported Function
+`_sscanf_s_l` | 1165 | Exported Function
+`_stricoll` | 1181 | Exported Function
+`_stricoll_l` | 1182 | Exported Function
+`_strlwr` | 1183 | Exported Function
+`_strftime_l` | 1178 | Exported Function
+`_stricmp` | 1179 | Exported Function
+`_stricmp_l` | 1180 | Exported Function
+`_strlwr_l` | 1184 | Exported Function
+`_strncoll_l` | 1188 | Exported Function
+`_strnicmp` | 1189 | Exported Function
+`_strnicmp_l` | 1190 | Exported Function
+`_strlwr_s` | 1185 | Exported Function
+`_strlwr_s_l` | 1186 | Exported Function
+`_strncoll` | 1187 | Exported Function
+`_stat64i32` | 1169 | Exported Function
+`_statusfp` | 1170 | Exported Function
+`_statusfp2` | 1171 | Exported Function
+`_stat32` | 1166 | Exported Function
+`_stat32i64` | 1167 | Exported Function
+`_stat64` | 1168 | Exported Function
+`_strcoll_l` | 1172 | Exported Function
+`_strerror` | 1176 | Exported Function
+`_strerror_s` | 1177 | Exported Function
+`_Strftime` | 363 | Exported Function
+`_strdate` | 1173 | Exported Function
+`_strdate_s` | 1174 | Exported Function
+`_strdup` | 1175 | Exported Function
+`_scwprintf` | 1102 | Exported Function
+`_scwprintf_l` | 1103 | Exported Function
+`_scwprintf_p` | 1104 | Exported Function
+`_scprintf_l` | 1099 | Exported Function
+`_scprintf_p` | 1100 | Exported Function
+`_scprintf_p_l` | 1101 | Exported Function
+`_scwprintf_p_l` | 1105 | Exported Function
+`_seh_longjmp_unwind4` | 1108 | Exported Function
+`_set_abort_behavior` | 1111 | Exported Function
+`_set_controlfp` | 1112 | Exported Function
+`_searchenv` | 1106 | Exported Function
+`_searchenv_s` | 1107 | Exported Function
+`_seh_longjmp_unwind` | 1109 | Exported Function
+`_rmdir` | 1089 | Exported Function
+`_rmtmp` | 1090 | Exported Function
+`_rotl` | 1091 | Exported Function
+`_recalloc` | 1086 | Exported Function
+`_recalloc_crt` | 1087 | Exported Function
+`_resetstkoflw` | 1088 | Exported Function
+`_rotl64` | 1092 | Exported Function
+`_scanf_l` | 1096 | Exported Function
+`_scanf_s_l` | 1097 | Exported Function
+`_scprintf` | 1098 | Exported Function
+`_rotr` | 1093 | Exported Function
+`_rotr64` | 1094 | Exported Function
+`_scalb` | 1095 | Exported Function
+`_set_doserrno` | 1113 | Exported Function
+`_sleep` | 1129 | Exported Function
+`_snprintf` | 1130 | Exported Function
+`_snprintf_c` | 1131 | Exported Function
+`_setmbcp` | 1126 | Exported Function
+`_setmode` | 1127 | Exported Function
+`_setsystime` | 1128 | Exported Function
+`_snprintf_c_l` | 1132 | Exported Function
+`_snscanf` | 1136 | Exported Function
+`_snscanf_l` | 1137 | Exported Function
+`_snscanf_s` | 1138 | Exported Function
+`_snprintf_l` | 1133 | Exported Function
+`_snprintf_s` | 1134 | Exported Function
+`_snprintf_s_l` | 1135 | Exported Function
+`_set_invalid_parameter_handler` | 1117 | Exported Function
+`_set_malloc_crt_max_wait` | 1118 | Exported Function
+`_set_output_format` | 1119 | Exported Function
+`_set_errno` | 1114 | Exported Function
+`_set_error_mode` | 1115 | Exported Function
+`_set_fmode` | 1116 | Exported Function
+`_set_printf_count_output` | 1120 | Exported Function
+`_setjmp` | 1123 | Exported Function
+`_setjmp3` | 1124 | Exported Function
+`_setmaxstdio` | 1125 | Exported Function
+`_set_purecall_handler` | 1121 | Exported Function
+`_set_SSE2_enable` | 1110 | Exported Function
+`_seterrormode` | 1122 | Exported Function
+`_mbsnbicmp_l` | 981 | Exported Function
+`_ismbcsymbol_l` | 838 | Exported Function
+`_ismbcupper` | 839 | Exported Function
+`_ismbcupper_l` | 840 | Exported Function
+`_ismbcspace` | 835 | Exported Function
+`_ismbcspace_l` | 836 | Exported Function
+`_ismbcsymbol` | 837 | Exported Function
+`_ismbslead` | 841 | Exported Function
+`_isnan` | 845 | Exported Function
+`_isprint_l` | 846 | Exported Function
+`_ispunct_l` | 847 | Exported Function
+`_ismbslead_l` | 842 | Exported Function
+`_ismbstrail` | 843 | Exported Function
+`_ismbstrail_l` | 844 | Exported Function
+`_ismbcl2` | 825 | Exported Function
+`_ismbcl2_l` | 826 | Exported Function
+`_ismbclegal` | 827 | Exported Function
+`_ismbcl0_l` | 822 | Exported Function
+`_ismbcl1` | 823 | Exported Function
+`_ismbcl1_l` | 824 | Exported Function
+`_ismbclegal_l` | 828 | Exported Function
+`_ismbcprint_l` | 832 | Exported Function
+`_ismbcpunct` | 833 | Exported Function
+`_ismbcpunct_l` | 834 | Exported Function
+`_ismbclower` | 829 | Exported Function
+`_ismbclower_l` | 830 | Exported Function
+`_ismbcprint` | 831 | Exported Function
+`_isspace_l` | 848 | Exported Function
+`_itoa` | 865 | Exported Function
+`_itoa_s` | 866 | Exported Function
+`_itow` | 867 | Exported Function
+`_iswupper_l` | 862 | Exported Function
+`_iswxdigit_l` | 863 | Exported Function
+`_isxdigit_l` | 864 | Exported Function
+`_itow_s` | 868 | Exported Function
+`_kbhit` | 872 | Exported Function
+`_lfind` | 873 | Exported Function
+`_lfind_s` | 874 | Exported Function
+`_j0` | 869 | Exported Function
+`_j1` | 870 | Exported Function
+`_jn` | 871 | Exported Function
+`_iswcntrl_l` | 852 | Exported Function
+`_iswcsym_l` | 853 | Exported Function
+`_iswcsymf_l` | 854 | Exported Function
+`_isupper_l` | 849 | Exported Function
+`_iswalnum_l` | 850 | Exported Function
+`_iswalpha_l` | 851 | Exported Function
+`_iswctype_l` | 855 | Exported Function
+`_iswprint_l` | 859 | Exported Function
+`_iswpunct_l` | 860 | Exported Function
+`_iswspace_l` | 861 | Exported Function
+`_iswdigit_l` | 856 | Exported Function
+`_iswgraph_l` | 857 | Exported Function
+`_iswlower_l` | 858 | Exported Function
+`_isleadbyte_l` | 785 | Exported Function
+`_islower_l` | 786 | Exported Function
+`_ismbbalnum` | 787 | Exported Function
+`_isdigit_l` | 783 | Exported Function
+`_IsExceptionObjectToBeDestroyed` | 358 | Exported Function
+`_isgraph_l` | 784 | Exported Function
+`_ismbbalnum_l` | 788 | Exported Function
+`_ismbbgraph_l` | 792 | Exported Function
+`_ismbbkalnum` | 793 | Exported Function
+`_ismbbkalnum_l` | 794 | Exported Function
+`_ismbbalpha` | 789 | Exported Function
+`_ismbbalpha_l` | 790 | Exported Function
+`_ismbbgraph` | 791 | Exported Function
+`_invalid_parameter_noinfo` | 773 | Exported Function
+`_invalid_parameter_noinfo_noreturn` | 774 | Exported Function
+`_invoke_watson` | 775 | Exported Function
+`_inpd` | 770 | Exported Function
+`_inpw` | 771 | Exported Function
+`_invalid_parameter` | 772 | Exported Function
+`_iob` | 776 | Exported Function
+`_iscntrl_l` | 780 | Exported Function
+`_isctype` | 781 | Exported Function
+`_isctype_l` | 782 | Exported Function
+`_isalnum_l` | 777 | Exported Function
+`_isalpha_l` | 778 | Exported Function
+`_isatty` | 779 | Exported Function
+`_ismbbkana` | 795 | Exported Function
+`_ismbcalpha_l` | 812 | Exported Function
+`_ismbcdigit` | 813 | Exported Function
+`_ismbcdigit_l` | 814 | Exported Function
+`_ismbcalnum` | 809 | Exported Function
+`_ismbcalnum_l` | 810 | Exported Function
+`_ismbcalpha` | 811 | Exported Function
+`_ismbcgraph` | 815 | Exported Function
+`_ismbckata` | 819 | Exported Function
+`_ismbckata_l` | 820 | Exported Function
+`_ismbcl0` | 821 | Exported Function
+`_ismbcgraph_l` | 816 | Exported Function
+`_ismbchira` | 817 | Exported Function
+`_ismbchira_l` | 818 | Exported Function
+`_ismbbkpunct` | 799 | Exported Function
+`_ismbbkpunct_l` | 800 | Exported Function
+`_ismbblead` | 801 | Exported Function
+`_ismbbkana_l` | 796 | Exported Function
+`_ismbbkprint` | 797 | Exported Function
+`_ismbbkprint_l` | 798 | Exported Function
+`_ismbblead_l` | 802 | Exported Function
+`_ismbbpunct_l` | 806 | Exported Function
+`_ismbbtrail` | 807 | Exported Function
+`_ismbbtrail_l` | 808 | Exported Function
+`_ismbbprint` | 803 | Exported Function
+`_ismbbprint_l` | 804 | Exported Function
+`_ismbbpunct` | 805 | Exported Function
+`_libm_sse2_acos_precise` | 875 | Exported Function
+`_mbscmp` | 944 | Exported Function
+`_mbscmp_l` | 945 | Exported Function
+`_mbscoll` | 946 | Exported Function
+`_mbscat_s_l` | 941 | Exported Function
+`_mbschr` | 942 | Exported Function
+`_mbschr_l` | 943 | Exported Function
+`_mbscoll_l` | 947 | Exported Function
+`_mbscspn_l` | 951 | Exported Function
+`_mbsdec` | 952 | Exported Function
+`_mbsdec_l` | 953 | Exported Function
+`_mbscpy_s` | 948 | Exported Function
+`_mbscpy_s_l` | 949 | Exported Function
+`_mbscspn` | 950 | Exported Function
+`_mbctolower_l` | 931 | Exported Function
+`_mbctombb` | 932 | Exported Function
+`_mbctombb_l` | 933 | Exported Function
+`_mbctokata` | 928 | Exported Function
+`_mbctokata_l` | 929 | Exported Function
+`_mbctolower` | 930 | Exported Function
+`_mbctoupper` | 934 | Exported Function
+`_mbsbtype` | 938 | Exported Function
+`_mbsbtype_l` | 939 | Exported Function
+`_mbscat_s` | 940 | Exported Function
+`_mbctoupper_l` | 935 | Exported Function
+`_mbctype` | 936 | Exported Function
+`_mblen_l` | 937 | Exported Function
+`_mbsicmp` | 954 | Exported Function
+`_mbsnbcmp_l` | 971 | Exported Function
+`_mbsnbcnt` | 972 | Exported Function
+`_mbsnbcnt_l` | 973 | Exported Function
+`_mbsnbcat_s` | 968 | Exported Function
+`_mbsnbcat_s_l` | 969 | Exported Function
+`_mbsnbcmp` | 970 | Exported Function
+`_mbsnbcoll` | 974 | Exported Function
+`_mbsnbcpy_s` | 978 | Exported Function
+`_mbsnbcpy_s_l` | 979 | Exported Function
+`_mbsnbicmp` | 980 | Exported Function
+`_mbsnbcoll_l` | 975 | Exported Function
+`_mbsnbcpy` | 976 | Exported Function
+`_mbsnbcpy_l` | 977 | Exported Function
+`_mbsinc` | 958 | Exported Function
+`_mbsinc_l` | 959 | Exported Function
+`_mbslen` | 960 | Exported Function
+`_mbsicmp_l` | 955 | Exported Function
+`_mbsicoll` | 956 | Exported Function
+`_mbsicoll_l` | 957 | Exported Function
+`_mbslen_l` | 961 | Exported Function
+`_mbslwr_s_l` | 965 | Exported Function
+`_mbsnbcat` | 966 | Exported Function
+`_mbsnbcat_l` | 967 | Exported Function
+`_mbslwr` | 962 | Exported Function
+`_mbslwr_l` | 963 | Exported Function
+`_mbslwr_s` | 964 | Exported Function
+`_localtime64_s` | 892 | Exported Function
+`_lock` | 893 | Exported Function
+`_lock_file` | 894 | Exported Function
+`_localtime32` | 889 | Exported Function
+`_localtime32_s` | 890 | Exported Function
+`_localtime64` | 891 | Exported Function
+`_Lock_shared_ptr_spin_lock` | 359 | Exported Function
+`_lrotl` | 898 | Exported Function
+`_lrotr` | 899 | Exported Function
+`_lsearch` | 900 | Exported Function
+`_locking` | 895 | Exported Function
+`_logb` | 896 | Exported Function
+`_longjmpex` | 897 | Exported Function
+`_libm_sse2_exp_precise` | 879 | Exported Function
+`_libm_sse2_log10_precise` | 880 | Exported Function
+`_libm_sse2_log_precise` | 881 | Exported Function
+`_libm_sse2_asin_precise` | 876 | Exported Function
+`_libm_sse2_atan_precise` | 877 | Exported Function
+`_libm_sse2_cos_precise` | 878 | Exported Function
+`_libm_sse2_pow_precise` | 882 | Exported Function
+`_loaddll` | 886 | Exported Function
+`_local_unwind2` | 887 | Exported Function
+`_local_unwind4` | 888 | Exported Function
+`_libm_sse2_sin_precise` | 883 | Exported Function
+`_libm_sse2_sqrt_precise` | 884 | Exported Function
+`_libm_sse2_tan_precise` | 885 | Exported Function
+`_lsearch_s` | 901 | Exported Function
+`_mbccpy_s` | 918 | Exported Function
+`_mbccpy_s_l` | 919 | Exported Function
+`_mbcjistojms` | 920 | Exported Function
+`_mbcasemap` | 915 | Exported Function
+`_mbccpy` | 916 | Exported Function
+`_mbccpy_l` | 917 | Exported Function
+`_mbcjistojms_l` | 921 | Exported Function
+`_mbclen_l` | 925 | Exported Function
+`_mbctohira` | 926 | Exported Function
+`_mbctohira_l` | 927 | Exported Function
+`_mbcjmstojis` | 922 | Exported Function
+`_mbcjmstojis_l` | 923 | Exported Function
+`_mbclen` | 924 | Exported Function
+`_ltoa_s` | 905 | Exported Function
+`_ltow` | 906 | Exported Function
+`_ltow_s` | 907 | Exported Function
+`_lseek` | 902 | Exported Function
+`_lseeki64` | 903 | Exported Function
+`_ltoa` | 904 | Exported Function
+`_makepath` | 908 | Exported Function
+`_mbbtombc_l` | 912 | Exported Function
+`_mbbtype` | 913 | Exported Function
+`_mbbtype_l` | 914 | Exported Function
+`_makepath_s` | 909 | Exported Function
+`_malloc_crt` | 910 | Exported Function
+`_mbbtombc` | 911 | Exported Function
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000009D1E8D27AEB8F3D83800010000009D`
+* Thumbprint: `AC1FD0922A4A2A6E5779ACDD628747C28394B0B9`
+* Issuer: CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: msvcr110.dll
+* Product Name: Microsoft Visual Studio 2012
+* Company Name: Microsoft Corporation
+* File Version: 11.00.51106.1 built by: Q11REL
+* Product Version: 11.00.51106.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/b30160e759115e24425b9bcdf606ef6ebce4657487525ede7f1ac40b90ff7e49/detection/
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

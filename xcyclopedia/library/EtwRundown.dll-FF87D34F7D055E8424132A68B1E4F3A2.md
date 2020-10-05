@@ -24,10 +24,10 @@ PE256 | `E5A090A2A31D99633BBE5EA6A88C8078DD75D0B9ADB00C997F8A3D900E5E296D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EtwLogHeapRundown` | 1 (0x1) | Exported Function | 0x0000000180003270 | 0x00003270
-`EtwLogSysConfigRundown` | 2 (0x2) | Exported Function | 0x0000000180001200 | 0x00001200
+Function Name | Ordinal | Type
+-- | -- | --
+`EtwLogSysConfigRundown` | 2 | Exported Function
+`EtwLogHeapRundown` | 1 | Exported Function
 
 
 ## Signature

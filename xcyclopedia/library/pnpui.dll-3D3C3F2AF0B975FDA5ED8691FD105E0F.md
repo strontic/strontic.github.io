@@ -24,15 +24,15 @@ PE256 | `7E6B8AB6E46E90460011EBF095ED5DA491886F818CDCF8F21291F8EBC4D8E30E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 6 (0x6) | Exported Function | 0x0000000180004970 | 0x00004970
-`DllGetClassObject` | 7 (0x7) | Exported Function | 0x0000000180004990 | 0x00004990
-`InstallSecurityPrompt` | 1 (0x1) | Exported Function | 0x00000001800020b0 | 0x000020b0
-`InstallSecurityPromptLUA` | 2 (0x2) | Exported Function | 0x0000000180003310 | 0x00003310
-`InstallSecurityPromptRunDllW` | 3 (0x3) | Exported Function | 0x0000000180002b70 | 0x00002b70
-`NotifyDevicesNeedRebootRunDllW` | 4 (0x4) | Exported Function | 0x0000000180004b70 | 0x00004b70
-`SimplifiedDINotificationW` | 5 (0x5) | Exported Function | 0x00000001800025b0 | 0x000025b0
+Function Name | Ordinal | Type
+-- | -- | --
+`InstallSecurityPromptRunDllW` | 3 | Exported Function
+`NotifyDevicesNeedRebootRunDllW` | 4 | Exported Function
+`SimplifiedDINotificationW` | 5 | Exported Function
+`InstallSecurityPromptLUA` | 2 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
+`InstallSecurityPrompt` | 1 | Exported Function
 
 
 ## Signature

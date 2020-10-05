@@ -24,23 +24,23 @@ PE256 | `85BD275E8B7FD2EF459ADED3C9BDC7BFE098A5D119E3B9E032300C08247C9FBA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateString` | 1 (0x1) | Exported Function | 0x107eaa50 | 0x007eaa50
-`CreateXamlUIPresenter` | 2 (0x2) | Exported Function | 0x105c8b20 | 0x005c8b20
-`DeleteString` | 3 (0x3) | Exported Function | 0x107eaa90 | 0x007eaa90
-`DisableDeferredInvoke` | 4 (0x4) | Exported Function | 0x105c8b40 | 0x005c8b40
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x1031c3e0 | 0x0031c3e0
-`DllGetActivationFactory` | 6 (0x6) | Exported Function | 0x1039b290 | 0x0039b290
-`DllMain` | 7 (0x7) | Exported Function | 0x10483890 | 0x00483890
-`GetDependencyObjectAddress` | 8 (0x8) | Exported Function | 0x105c8b50 | 0x005c8b50
-`GetErrorContextIndex` | 9 (0x9) | Exported Function | 0x105c8b90 | 0x005c8b90
-`GetGlobalModuleParams` | 10 (0xa) | Exported Function | 0x105c8bb0 | 0x005c8bb0
-`GetStringLen` | 11 (0xb) | Exported Function | 0x107eaab0 | 0x007eaab0
-`GetStringRawBuffer` | 12 (0xc) | Exported Function | 0x107eaad0 | 0x007eaad0
-`InitializeXamlDiagnosticsEx` | 13 (0xd) | Exported Function | 0x105c8be0 | 0x005c8be0
-`OverrideXamlMetadataProvider` | 14 (0xe) | Exported Function | 0x105c8e10 | 0x005c8e10
-`OverrideXamlResourcePropertyBag` | 15 (0xf) | Exported Function | 0x105c8e30 | 0x005c8e30
+Function Name | Ordinal | Type
+-- | -- | --
+`GetStringLen` | 11 | Exported Function
+`GetGlobalModuleParams` | 10 | Exported Function
+`GetErrorContextIndex` | 9 | Exported Function
+`GetStringRawBuffer` | 12 | Exported Function
+`OverrideXamlResourcePropertyBag` | 15 | Exported Function
+`OverrideXamlMetadataProvider` | 14 | Exported Function
+`InitializeXamlDiagnosticsEx` | 13 | Exported Function
+`GetDependencyObjectAddress` | 8 | Exported Function
+`DeleteString` | 3 | Exported Function
+`CreateXamlUIPresenter` | 2 | Exported Function
+`CreateString` | 1 | Exported Function
+`DisableDeferredInvoke` | 4 | Exported Function
+`DllMain` | 7 | Exported Function
+`DllGetActivationFactory` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
 
 
 ## Signature

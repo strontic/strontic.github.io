@@ -24,21 +24,21 @@ PE256 | `E60CD85C8C31C16EE4FA26662A780A4923C0B652D5CC63682504017C403399AE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateComponentLibraryTS` | 2 (0x2) | Exported Function | 0x10026bf0 | 0x00026bf0
-`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x1000d640 | 0x0000d640
-`DllGetClassObject` | 10 (0xa) | Exported Function | 0x1000d660 | 0x0000d660
-`DllRegisterServer` | 11 (0xb) | Exported Function | 0x1000d690 | 0x0000d690
-`DllUnregisterServer` | 12 (0xc) | Exported Function | 0x1000d6d0 | 0x0000d6d0
-`GetAppImport` | 13 (0xd) | Exported Function | 0x1000d6f0 | 0x0000d6f0
-`GetCatalogCRMClerk` | 3 (0x3) | Exported Function | 0x100281a0 | 0x000281a0
-`long __stdcall CancelWriteICR(struct IComponentRecords * *)` | 1 (0x1) | Exported Function | 0x1000d470 | 0x0000d470
-`long __stdcall GetReadICR(int,struct IComponentRecords * *)` | 4 (0x4) | Exported Function | 0x1000d490 | 0x0000d490
-`long __stdcall GetWriteICR(struct IComponentRecords * *)` | 5 (0x5) | Exported Function | 0x1000d430 | 0x0000d430
-`long __stdcall SaveWriteICR(struct IComponentRecords * *)` | 8 (0x8) | Exported Function | 0x1000d450 | 0x0000d450
-`OpenComponentLibraryTS` | 6 (0x6) | Exported Function | 0x10026c60 | 0x00026c60
-`void __stdcall ReleaseReadICR(struct IComponentRecords * *)` | 7 (0x7) | Exported Function | 0x1000d4c0 | 0x0000d4c0
+Function Name | Ordinal | Type
+-- | -- | --
+`long __stdcall GetWriteICR(struct IComponentRecords * *)` | 5 | Exported Function
+`long __stdcall GetReadICR(int,struct IComponentRecords * *)` | 4 | Exported Function
+`long __stdcall CancelWriteICR(struct IComponentRecords * *)` | 1 | Exported Function
+`void __stdcall ReleaseReadICR(struct IComponentRecords * *)` | 7 | Exported Function
+`OpenComponentLibraryTS` | 6 | Exported Function
+`long __stdcall SaveWriteICR(struct IComponentRecords * *)` | 8 | Exported Function
+`GetCatalogCRMClerk` | 3 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`CreateComponentLibraryTS` | 2 | Exported Function
+`GetAppImport` | 13 | Exported Function
+`DllUnregisterServer` | 12 | Exported Function
+`DllRegisterServer` | 11 | Exported Function
 
 
 ## Signature

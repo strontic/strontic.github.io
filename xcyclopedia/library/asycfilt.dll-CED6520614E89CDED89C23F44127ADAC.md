@@ -24,10 +24,10 @@ PE256 | `0F95445CE1C4CBD8F91537BBD3BEE135A0BAD1C37083EB849EB219E53F58B5B0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x1000da90 | 0x0000da90
-`FilterCreateInstance` | 2 (0x2) | Exported Function | 0x1000d920 | 0x0000d920
+Function Name | Ordinal | Type
+-- | -- | --
+`FilterCreateInstance` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

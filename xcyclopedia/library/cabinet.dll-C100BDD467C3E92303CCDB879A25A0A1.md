@@ -24,34 +24,34 @@ PE256 | `E6F24AE9EFAA3E87EE33616283B90F51DC64A9902EFC310B2399F9384E361A14`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseCompressor` | 35 (0x23) | Exported Function | 0x00000001800040b0 | 0x000040b0
-`ResetDecompressor` | 44 (0x2c) | Exported Function | 0x0000000180015480 | 0x00015480
-`ResetCompressor` | 34 (0x22) | Exported Function | 0x0000000180015400 | 0x00015400
-`QueryDecompressorInformation` | 42 (0x2a) | Exported Function | 0x00000001800153e0 | 0x000153e0
-`QueryCompressorInformation` | 32 (0x20) | Exported Function | 0x0000000180015330 | 0x00015330
-`GetDllVersion` | 1 (0x1) | Exported Function | 0x000000018000b940 | 0x0000b940
-`FDITruncateCabinet` | 24 (0x18) | Exported Function | 0x000000018000cd50 | 0x0000cd50
-`FDIIsCabinet` | 21 (0x15) | Exported Function | 0x0000000180008e20 | 0x00008e20
-`FDIDestroy` | 23 (0x17) | Exported Function | 0x00000001800072b0 | 0x000072b0
-`FDICreate` | 20 (0x14) | Exported Function | 0x0000000180008d10 | 0x00008d10
-`FDICopy` | 22 (0x16) | Exported Function | 0x0000000180005f00 | 0x00005f00
-`FCIFlushFolder` | 12 (0xc) | Exported Function | 0x000000018000e980 | 0x0000e980
-`FCIFlushCabinet` | 13 (0xd) | Exported Function | 0x000000018000e8f0 | 0x0000e8f0
-`FCIDestroy` | 14 (0xe) | Exported Function | 0x000000018000e880 | 0x0000e880
-`FCICreate` | 10 (0xa) | Exported Function | 0x000000018000e5b0 | 0x0000e5b0
-`FCIAddFile` | 11 (0xb) | Exported Function | 0x000000018000e450 | 0x0000e450
-`Extract` | 3 (0x3) | Exported Function | 0x000000018000c630 | 0x0000c630
-`DllGetVersion` | 2 (0x2) | Exported Function | 0x000000018000b8a0 | 0x0000b8a0
-`DeleteExtractedFiles` | 4 (0x4) | Exported Function | 0x000000018000c560 | 0x0000c560
-`Decompress` | 43 (0x2b) | Exported Function | 0x0000000180004450 | 0x00004450
-`CreateDecompressor` | 40 (0x28) | Exported Function | 0x00000001800041f0 | 0x000041f0
-`CreateCompressor` | 30 (0x1e) | Exported Function | 0x00000001800040c0 | 0x000040c0
-`Compress` | 33 (0x21) | Exported Function | 0x0000000180004070 | 0x00004070
-`CloseDecompressor` | 45 (0x2d) | Exported Function | 0x0000000180004200 | 0x00004200
-`SetCompressorInformation` | 31 (0x1f) | Exported Function | 0x0000000180015490 | 0x00015490
-`SetDecompressorInformation` | 41 (0x29) | Exported Function | 0x0000000180015540 | 0x00015540
+Function Name | Ordinal | Type
+-- | -- | --
+`FDIDestroy` | 23 | Exported Function
+`FDIIsCabinet` | 21 | Exported Function
+`FDITruncateCabinet` | 24 | Exported Function
+`FCIFlushFolder` | 12 | Exported Function
+`FDICopy` | 22 | Exported Function
+`FDICreate` | 20 | Exported Function
+`GetDllVersion` | 1 | Exported Function
+`ResetDecompressor` | 44 | Exported Function
+`SetCompressorInformation` | 31 | Exported Function
+`SetDecompressorInformation` | 41 | Exported Function
+`QueryCompressorInformation` | 32 | Exported Function
+`QueryDecompressorInformation` | 42 | Exported Function
+`ResetCompressor` | 34 | Exported Function
+`CreateCompressor` | 30 | Exported Function
+`CreateDecompressor` | 40 | Exported Function
+`Decompress` | 43 | Exported Function
+`CloseCompressor` | 35 | Exported Function
+`CloseDecompressor` | 45 | Exported Function
+`Compress` | 33 | Exported Function
+`DeleteExtractedFiles` | 4 | Exported Function
+`FCICreate` | 10 | Exported Function
+`FCIDestroy` | 14 | Exported Function
+`FCIFlushCabinet` | 13 | Exported Function
+`DllGetVersion` | 2 | Exported Function
+`Extract` | 3 | Exported Function
+`FCIAddFile` | 11 | Exported Function
 
 
 ## Signature

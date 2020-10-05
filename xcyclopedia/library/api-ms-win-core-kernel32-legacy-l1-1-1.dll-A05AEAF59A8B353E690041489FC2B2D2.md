@@ -24,23 +24,23 @@ PE256 | `42FF2724625037E26ED14F1E73C3680816995C301CC97231AA95A74D0D5555E6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FindFirstVolumeMountPointW` | 1 (0x1) | Exported Function | kernel32.FindFirstVolumeMountPointW | 0x00001164
-`FindNextVolumeMountPointW` | 2 (0x2) | Exported Function | kernel32.FindNextVolumeMountPointW | 0x000011a2
-`FindVolumeMountPointClose` | 3 (0x3) | Exported Function | kernel32.FindVolumeMountPointClose | 0x000011df
-`GetFileAttributesTransactedW` | 4 (0x4) | Exported Function | kernel32.GetFileAttributesTransactedW | 0x0000121f
-`GetFirmwareType` | 5 (0x5) | Exported Function | kernel32.GetFirmwareType | 0x00001255
-`GetNumaAvailableMemoryNodeEx` | 6 (0x6) | Exported Function | kernel32.GetNumaAvailableMemoryNodeEx | 0x0000128b
-`GetNumaNodeProcessorMask` | 7 (0x7) | Exported Function | kernel32.GetNumaNodeProcessorMask | 0x000012ca
-`GetNumaProcessorNodeEx` | 8 (0x8) | Exported Function | kernel32.GetNumaProcessorNodeEx | 0x00001303
-`PowerClearRequest` | 9 (0x9) | Exported Function | kernel32.PowerClearRequest | 0x00001335
-`PowerCreateRequest` | 10 (0xa) | Exported Function | kernel32.PowerCreateRequest | 0x00001363
-`PowerSetRequest` | 11 (0xb) | Exported Function | kernel32.PowerSetRequest | 0x0000138f
-`SetDllDirectoryW` | 12 (0xc) | Exported Function | kernel32.SetDllDirectoryW | 0x000013b9
-`SetThreadIdealProcessor` | 13 (0xd) | Exported Function | kernel32.SetThreadIdealProcessor | 0x000013eb
-`SetVolumeMountPointW` | 14 (0xe) | Exported Function | kernel32.SetVolumeMountPointW | 0x00001421
-`VerifyVersionInfoW` | 15 (0xf) | Exported Function | kernel32.VerifyVersionInfoW | 0x00001452
+Function Name | Ordinal | Type
+-- | -- | --
+`PowerSetRequest` | 11 | Exported Function
+`PowerCreateRequest` | 10 | Exported Function
+`PowerClearRequest` | 9 | Exported Function
+`SetDllDirectoryW` | 12 | Exported Function
+`VerifyVersionInfoW` | 15 | Exported Function
+`SetVolumeMountPointW` | 14 | Exported Function
+`SetThreadIdealProcessor` | 13 | Exported Function
+`GetNumaProcessorNodeEx` | 8 | Exported Function
+`FindVolumeMountPointClose` | 3 | Exported Function
+`FindNextVolumeMountPointW` | 2 | Exported Function
+`FindFirstVolumeMountPointW` | 1 | Exported Function
+`GetFileAttributesTransactedW` | 4 | Exported Function
+`GetNumaNodeProcessorMask` | 7 | Exported Function
+`GetNumaAvailableMemoryNodeEx` | 6 | Exported Function
+`GetFirmwareType` | 5 | Exported Function
 
 
 ## Signature

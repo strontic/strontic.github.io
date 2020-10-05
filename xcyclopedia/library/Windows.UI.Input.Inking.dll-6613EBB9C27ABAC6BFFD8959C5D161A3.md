@@ -24,12 +24,12 @@ PE256 | `1BAACF08F3ECCD6A94AF8D9C25B31471433221903F74379E937C04DCEF6B830E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDCompositionDirectInkFactoryPartner` | 4 (0x4) | Exported Function | 0x1004c4f0 | 0x0004c4f0
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10046f80 | 0x00046f80
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x10046f40 | 0x00046f40
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10046f60 | 0x00046f60
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`CreateDCompositionDirectInkFactoryPartner` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

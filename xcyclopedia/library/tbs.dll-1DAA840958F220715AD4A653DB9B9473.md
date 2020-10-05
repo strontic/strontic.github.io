@@ -24,29 +24,29 @@ PE256 | `494B4E599DD986AB14BCF49DAE609765489139430912FCCF4977EA280CB602D0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetDeviceID` | 3 (0x3) | Exported Function | 0x000000018000f380 | 0x0000f380
-`Tbsip_Submit_Command_NonBlocking` | 19 (0x13) | Exported Function | 0x0000000180001160 | 0x00001160
-`Tbsip_Submit_Command` | 18 (0x12) | Exported Function | 0x0000000180001ab0 | 0x00001ab0
-`Tbsip_Context_Close` | 17 (0x11) | Exported Function | 0x00000001800054e0 | 0x000054e0
-`Tbsip_Cancel_Commands` | 16 (0x10) | Exported Function | 0x000000018000e4d0 | 0x0000e4d0
-`Tbsi_ShaHash` | 15 (0xf) | Exported Function | 0x000000018000f850 | 0x0000f850
-`Tbsi_Revoke_Attestation` | 14 (0xe) | Exported Function | 0x000000018000e440 | 0x0000e440
-`Tbsi_Physical_Presence_Command` | 13 (0xd) | Exported Function | 0x0000000180001940 | 0x00001940
-`Tbsi_GetDeviceInfo` | 9 (0x9) | Exported Function | 0x0000000180002e80 | 0x00002e80
-`Tbsip_TestInterruptInformation` | 20 (0x14) | Exported Function | 0x000000018000e510 | 0x0000e510
-`Tbsi_Get_TCG_Logs` | 2 (0x2) | Exported Function | 0x000000018000c370 | 0x0000c370
-`Tbsi_Get_TCG_Log` | 11 (0xb) | Exported Function | 0x000000018000e400 | 0x0000e400
-`Tbsi_Get_OwnerAuth` | 10 (0xa) | Exported Function | 0x000000018000dc60 | 0x0000dc60
-`Tbsi_FilterLog` | 8 (0x8) | Exported Function | 0x000000018000f590 | 0x0000f590
-`Tbsi_Create_Windows_Key` | 7 (0x7) | Exported Function | 0x000000018000dbb0 | 0x0000dbb0
-`Tbsi_Create_Attestation_From_Log` | 1 (0x1) | Exported Function | 0x000000018000ec70 | 0x0000ec70
-`Tbsi_Context_Create` | 6 (0x6) | Exported Function | 0x0000000180002c00 | 0x00002c00
-`GetDeviceIDWithTimeout` | 5 (0x5) | Exported Function | 0x0000000180004420 | 0x00004420
-`GetDeviceIDString` | 4 (0x4) | Exported Function | 0x00000001800041b0 | 0x000041b0
-`Tbsi_Get_TCG_Log_Ex` | 12 (0xc) | Exported Function | 0x00000001800011a0 | 0x000011a0
-`Tbsip_TestMorBit` | 21 (0x15) | Exported Function | 0x000000018000e5d0 | 0x0000e5d0
+Function Name | Ordinal | Type
+-- | -- | --
+`Tbsi_ShaHash` | 15 | Exported Function
+`Tbsip_Cancel_Commands` | 16 | Exported Function
+`Tbsi_Revoke_Attestation` | 14 | Exported Function
+`Tbsi_GetDeviceInfo` | 9 | Exported Function
+`Tbsi_Physical_Presence_Command` | 13 | Exported Function
+`Tbsip_TestInterruptInformation` | 20 | Exported Function
+`Tbsip_TestMorBit` | 21 | Exported Function
+`Tbsip_Submit_Command_NonBlocking` | 19 | Exported Function
+`Tbsip_Context_Close` | 17 | Exported Function
+`Tbsip_Submit_Command` | 18 | Exported Function
+`Tbsi_Get_TCG_Logs` | 2 | Exported Function
+`Tbsi_Context_Create` | 6 | Exported Function
+`Tbsi_Create_Attestation_From_Log` | 1 | Exported Function
+`GetDeviceIDWithTimeout` | 5 | Exported Function
+`GetDeviceID` | 3 | Exported Function
+`GetDeviceIDString` | 4 | Exported Function
+`Tbsi_Get_TCG_Log` | 11 | Exported Function
+`Tbsi_Get_TCG_Log_Ex` | 12 | Exported Function
+`Tbsi_Get_OwnerAuth` | 10 | Exported Function
+`Tbsi_Create_Windows_Key` | 7 | Exported Function
+`Tbsi_FilterLog` | 8 | Exported Function
 
 
 ## Signature

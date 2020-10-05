@@ -24,11 +24,11 @@ PE256 | `FC3615335046358B07A7D7459546C8412A8D12889AFEFFC74E6B7D11FD2D39D9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x1001b470 | 0x0001b470
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x1001b400 | 0x0001b400
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x1001b420 | 0x0001b420
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 3 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

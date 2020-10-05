@@ -24,14 +24,14 @@ PE256 | `46F55392CA53E882B01C078BD1B710837A1DA7143436370852711B5940E58FA3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_IsProcessHooked@0` | 6 (0x6) | Exported Function | 0x10050160 | 0x00050160
-`APIExportForDetours` | 1 (0x1) | Exported Function | 0x1004f230 | 0x0004f230
-`CurrentThreadIsVirtualized` | 4 (0x4) | Exported Function | 0x10050170 | 0x00050170
-`RequestUnhookedFunctionList` | 2 (0x2) | Exported Function | 0x1004e3a0 | 0x0004e3a0
-`VirtualizeCurrentProcess` | 5 (0x5) | Exported Function | 0x100501f0 | 0x000501f0
-`VirtualizeCurrentThread` | 3 (0x3) | Exported Function | 0x10050190 | 0x00050190
+Function Name | Ordinal | Type
+-- | -- | --
+`RequestUnhookedFunctionList` | 2 | Exported Function
+`VirtualizeCurrentProcess` | 5 | Exported Function
+`VirtualizeCurrentThread` | 3 | Exported Function
+`_IsProcessHooked@0` | 6 | Exported Function
+`APIExportForDetours` | 1 | Exported Function
+`CurrentThreadIsVirtualized` | 4 | Exported Function
 
 
 ## Signature

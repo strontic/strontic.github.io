@@ -24,11 +24,11 @@ PE256 | `CF9FA032EE0C70A22C5C49396719111C589EA256311CEC68C52CC83216DABA59`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 2 (0x2) | Exported Function | 0x0000000180017db0 | 0x00017db0
-`DllUnregisterServer` | 3 (0x3) | Exported Function | 0x0000000180017f40 | 0x00017f40
-`ProcessHVSIPolicy` | 1 (0x1) | Exported Function | 0x0000000180017c60 | 0x00017c60
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessHVSIPolicy` | 1 | Exported Function
+`DllUnregisterServer` | 3 | Exported Function
+`DllRegisterServer` | 2 | Exported Function
 
 
 ## Signature

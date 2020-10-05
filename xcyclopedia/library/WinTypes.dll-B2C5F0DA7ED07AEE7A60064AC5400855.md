@@ -24,19 +24,19 @@ PE256 | `A7D6ADE1289675951BB628BC3E547CA22C16C87A30A655DF84A280485425E78E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10073800 | 0x00073800
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x1006e6a0 | 0x0006e6a0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x1006d4f0 | 0x0006d4f0
-`RoCreateNonAgilePropertySet` | 4 (0x4) | Exported Function | 0x1006a200 | 0x0006a200
-`RoCreatePropertySetSerializer` | 5 (0x5) | Exported Function | 0x1005c960 | 0x0005c960
-`RoGetBufferMarshaler` | 6 (0x6) | Exported Function | 0x10068470 | 0x00068470
-`RoGetMetaDataFile` | 7 (0x7) | Exported Function | 0x1006f150 | 0x0006f150
-`RoIsApiContractMajorVersionPresent` | 8 (0x8) | Exported Function | 0x10092ce0 | 0x00092ce0
-`RoIsApiContractPresent` | 9 (0x9) | Exported Function | 0x10092d20 | 0x00092d20
-`RoParseTypeName` | 10 (0xa) | Exported Function | 0x1006dfc0 | 0x0006dfc0
-`RoResolveNamespace` | 11 (0xb) | Exported Function | 0x100b5ad0 | 0x000b5ad0
+Function Name | Ordinal | Type
+-- | -- | --
+`RoIsApiContractMajorVersionPresent` | 8 | Exported Function
+`RoGetMetaDataFile` | 7 | Exported Function
+`RoIsApiContractPresent` | 9 | Exported Function
+`RoResolveNamespace` | 11 | Exported Function
+`RoParseTypeName` | 10 | Exported Function
+`RoGetBufferMarshaler` | 6 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`RoCreatePropertySetSerializer` | 5 | Exported Function
+`RoCreateNonAgilePropertySet` | 4 | Exported Function
 
 
 ## Signature

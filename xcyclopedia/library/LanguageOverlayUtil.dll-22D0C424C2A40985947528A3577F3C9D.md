@@ -24,32 +24,32 @@ PE256 | `EDD140F630240DE0603C70C53482A5DAFD9EFFE050B9A8FC4FE9BBEF44A1B119`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddLanguageToMachineLanguageList` | 3 (0x3) | Exported Function | 0x1000b560 | 0x0000b560
-`OpenOverlayPaths` | 22 (0x16) | Exported Function | 0x1000a100 | 0x0000a100
-`OnMachineUILanguageSwitch` | 2 (0x2) | Exported Function | 0x1000c5a0 | 0x0000c5a0
-`OnMachineUILanguageInit` | 1 (0x1) | Exported Function | 0x1000c520 | 0x0000c520
-`IsLocalExperiencePackReadyForRemoval` | 21 (0x15) | Exported Function | 0x1000ba00 | 0x0000ba00
-`IsLegacyLanguagePackInstalledForLanguage` | 20 (0x14) | Exported Function | 0x1000c160 | 0x0000c160
-`IsGroupingUserLanguagesNeeded` | 19 (0x13) | Exported Function | 0x1000d1d0 | 0x0000d1d0
-`InvalidateLanguageResourceCaches` | 18 (0x12) | Exported Function | 0x10009ab0 | 0x00009ab0
-`GroupUserLanguages` | 17 (0x11) | Exported Function | 0x1000d2e0 | 0x0000d2e0
-`GetWindowsUpdateServer` | 16 (0x10) | Exported Function | 0x1000d3e0 | 0x0000d3e0
-`GetOverlayFilePath` | 15 (0xf) | Exported Function | 0x10008610 | 0x00008610
-`GetLanguagesNotInUse` | 14 (0xe) | Exported Function | 0x1000da10 | 0x0000da10
-`GetLanguagesInUse` | 13 (0xd) | Exported Function | 0x1000dc00 | 0x0000dc00
-`GetLanguageOverlayPackageFamilyName` | 12 (0xc) | Exported Function | 0x10009b00 | 0x00009b00
-`GetLanguageDataForLogging` | 11 (0xb) | Exported Function | 0x1000e800 | 0x0000e800
-`GetBcp47TagFromPackageFamilyName` | 10 (0xa) | Exported Function | 0x10009df0 | 0x00009df0
-`FetchLanguageOverlayPackageForFirstLogon` | 9 (0x9) | Exported Function | 0x1000f0b0 | 0x0000f0b0
-`EnumOverlayPaths` | 5 (0x5) | Exported Function | 0x1000a1e0 | 0x0000a1e0
-`EnumerateSupportedUILanguages` | 8 (0x8) | Exported Function | 0x100089b0 | 0x000089b0
-`EnumerateInstalledMachineLanguagePacks` | 7 (0x7) | Exported Function | 0x1000baf0 | 0x0000baf0
-`EnumerateInstalledLocalExperiencePacks` | 6 (0x6) | Exported Function | 0x1000cf90 | 0x0000cf90
-`CloseOverlayPaths` | 4 (0x4) | Exported Function | 0x1000a2e0 | 0x0000a2e0
-`OverlaySetPreferredUILanguages` | 23 (0x17) | Exported Function | 0x1000e500 | 0x0000e500
-`RemoveLanguageFromMachineLanguageList` | 24 (0x18) | Exported Function | 0x1000b6b0 | 0x0000b6b0
+Function Name | Ordinal | Type
+-- | -- | --
+`InvalidateLanguageResourceCaches` | 18 | Exported Function
+`IsGroupingUserLanguagesNeeded` | 19 | Exported Function
+`IsLegacyLanguagePackInstalledForLanguage` | 20 | Exported Function
+`GetOverlayFilePath` | 15 | Exported Function
+`GetWindowsUpdateServer` | 16 | Exported Function
+`GroupUserLanguages` | 17 | Exported Function
+`OpenOverlayPaths` | 22 | Exported Function
+`OverlaySetPreferredUILanguages` | 23 | Exported Function
+`RemoveLanguageFromMachineLanguageList` | 24 | Exported Function
+`IsLocalExperiencePackReadyForRemoval` | 21 | Exported Function
+`OnMachineUILanguageInit` | 1 | Exported Function
+`OnMachineUILanguageSwitch` | 2 | Exported Function
+`EnumerateInstalledMachineLanguagePacks` | 7 | Exported Function
+`EnumerateSupportedUILanguages` | 8 | Exported Function
+`EnumOverlayPaths` | 5 | Exported Function
+`AddLanguageToMachineLanguageList` | 3 | Exported Function
+`CloseOverlayPaths` | 4 | Exported Function
+`EnumerateInstalledLocalExperiencePacks` | 6 | Exported Function
+`GetLanguageOverlayPackageFamilyName` | 12 | Exported Function
+`GetLanguagesInUse` | 13 | Exported Function
+`GetLanguagesNotInUse` | 14 | Exported Function
+`FetchLanguageOverlayPackageForFirstLogon` | 9 | Exported Function
+`GetBcp47TagFromPackageFamilyName` | 10 | Exported Function
+`GetLanguageDataForLogging` | 11 | Exported Function
 
 
 ## Signature

@@ -24,26 +24,16 @@ PE256 | `2B778EF17E9EE8193A9083D0C26795EF5A11CE97F8882C105EA36610D6DE00A7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 259 (0x103) | Exported Function | 0x52b04040 | 0x00004040
-`Ordinal519` | 519 (0x207) | Exported Function | 0x52b0ae20 | 0x0000ae20
-`Ordinal518` | 518 (0x206) | Exported Function | 0x52b0b180 | 0x0000b180
-`Ordinal517` | 517 (0x205) | Exported Function | 0x52b0b070 | 0x0000b070
-`Ordinal516` | 516 (0x204) | Exported Function | 0x52b0b0c0 | 0x0000b0c0
-`Ordinal515` | 515 (0x203) | Exported Function | 0x52b0aca0 | 0x0000aca0
-`Ordinal514` | 514 (0x202) | Exported Function | 0x52b0ab00 | 0x0000ab00
-`Ordinal513` | 513 (0x201) | Exported Function | 0x52b0a8d0 | 0x0000a8d0
-`Ordinal512` | 512 (0x200) | Exported Function | 0x52b0a770 | 0x0000a770
-`OpenSavedDsQueryW` | 257 (0x101) | Exported Function | 0x52b04270 | 0x00004270
-`OpenSavedDsQuery` | 256 (0x100) | Exported Function | 0x52b04290 | 0x00004290
-`OpenQueryWindow` | 258 (0x102) | Exported Function | 0x52b04160 | 0x00004160
-`DllUnregisterServer` | 263 (0x107) | Exported Function | 0x52b04100 | 0x00004100
-`DllRegisterServer` | 262 (0x106) | Exported Function | 0x52b040f0 | 0x000040f0
-`DllInstall` | 261 (0x105) | Exported Function | 0x52b04110 | 0x00004110
-`DllGetClassObject` | 260 (0x104) | Exported Function | 0x52b04060 | 0x00004060
-`Ordinal520` | 520 (0x208) | Exported Function | 0x52b0afe0 | 0x0000afe0
-`Ordinal521` | 521 (0x209) | Exported Function | 0x52b0b110 | 0x0000b110
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenQueryWindow` | 258 | Exported Function
+`DllUnregisterServer` | 263 | Exported Function
+`OpenSavedDsQueryW` | 257 | Exported Function
+`OpenSavedDsQuery` | 256 | Exported Function
+`DllGetClassObject` | 260 | Exported Function
+`DllCanUnloadNow` | 259 | Exported Function
+`DllRegisterServer` | 262 | Exported Function
+`DllInstall` | 261 | Exported Function
 
 
 ## Signature

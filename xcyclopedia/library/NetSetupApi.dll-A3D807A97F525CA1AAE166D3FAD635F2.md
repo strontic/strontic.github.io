@@ -24,29 +24,29 @@ PE256 | `C79BFAE20DAB84D345163D7194072046004A6E4E97649C60E945DA7F6BDF2163`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NetSetupClose` | 1 (0x1) | Exported Function | 0x000000018000e790 | 0x0000e790
-`NetSetupValidateTransaction` | 19 (0x13) | Exported Function | 0x000000018000f130 | 0x0000f130
-`NetSetupSynchronizeDevices` | 18 (0x12) | Exported Function | 0x000000018000f0f0 | 0x0000f0f0
-`NetSetupSetObjectProperties` | 17 (0x11) | Exported Function | 0x000000018000f030 | 0x0000f030
-`NetSetupSerializeFilter` | 16 (0x10) | Exported Function | 0x000000018000efc0 | 0x0000efc0
-`NetSetupRollback` | 15 (0xf) | Exported Function | 0x000000018000ef60 | 0x0000ef60
-`NetSetupOpenAdvancedPropertyKey` | 14 (0xe) | Exported Function | 0x000000018000ef00 | 0x0000ef00
-`NetSetupInitialize` | 13 (0xd) | Exported Function | 0x000000018000ed90 | 0x0000ed90
-`NetSetupGetObjects` | 12 (0xc) | Exported Function | 0x000000018000eca0 | 0x0000eca0
-`OnMachineUILanguageInit` | 20 (0x14) | Exported Function | 0x000000018000f5e0 | 0x0000f5e0
-`NetSetupGetObjectPropertyKeys` | 11 (0xb) | Exported Function | 0x000000018000ebe0 | 0x0000ebe0
-`NetSetupFreeSerializedFilter` | 9 (0x9) | Exported Function | 0x000000018000eae0 | 0x0000eae0
-`NetSetupFreeObjects` | 8 (0x8) | Exported Function | 0x000000018000ea80 | 0x0000ea80
-`NetSetupFreeObjectProperties` | 7 (0x7) | Exported Function | 0x000000018000ea20 | 0x0000ea20
-`NetSetupDeleteObject` | 6 (0x6) | Exported Function | 0x000000018000e990 | 0x0000e990
-`NetSetupCreateObjectQuery` | 5 (0x5) | Exported Function | 0x000000018000e8f0 | 0x0000e8f0
-`NetSetupCreateObject` | 4 (0x4) | Exported Function | 0x000000018000e840 | 0x0000e840
-`NetSetupCommit` | 3 (0x3) | Exported Function | 0x000000018000e7e0 | 0x0000e7e0
-`NetSetupCloseObjectQuery` | 2 (0x2) | Exported Function | 0x000000018000e7d0 | 0x0000e7d0
-`NetSetupGetObjectProperties` | 10 (0xa) | Exported Function | 0x000000018000eb10 | 0x0000eb10
-`OnMachineUILanguageSwitch` | 21 (0x15) | Exported Function | 0x000000018000f6c0 | 0x0000f6c0
+Function Name | Ordinal | Type
+-- | -- | --
+`NetSetupRollback` | 15 | Exported Function
+`NetSetupSerializeFilter` | 16 | Exported Function
+`NetSetupOpenAdvancedPropertyKey` | 14 | Exported Function
+`NetSetupGetObjects` | 12 | Exported Function
+`NetSetupInitialize` | 13 | Exported Function
+`OnMachineUILanguageInit` | 20 | Exported Function
+`OnMachineUILanguageSwitch` | 21 | Exported Function
+`NetSetupValidateTransaction` | 19 | Exported Function
+`NetSetupSetObjectProperties` | 17 | Exported Function
+`NetSetupSynchronizeDevices` | 18 | Exported Function
+`NetSetupGetObjectPropertyKeys` | 11 | Exported Function
+`NetSetupCreateObject` | 4 | Exported Function
+`NetSetupCreateObjectQuery` | 5 | Exported Function
+`NetSetupCommit` | 3 | Exported Function
+`NetSetupClose` | 1 | Exported Function
+`NetSetupCloseObjectQuery` | 2 | Exported Function
+`NetSetupFreeSerializedFilter` | 9 | Exported Function
+`NetSetupGetObjectProperties` | 10 | Exported Function
+`NetSetupFreeObjects` | 8 | Exported Function
+`NetSetupDeleteObject` | 6 | Exported Function
+`NetSetupFreeObjectProperties` | 7 | Exported Function
 
 
 ## Signature

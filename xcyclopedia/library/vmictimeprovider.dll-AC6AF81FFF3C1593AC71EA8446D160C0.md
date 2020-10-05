@@ -24,11 +24,11 @@ PE256 | `DDC24E8253B7307564CC36B128AB0BDA277D9830DDE854BBF7CA61A24F166043`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TimeProvClose` | 1 (0x1) | Exported Function | 0x0000000180004c60 | 0x00004c60
-`TimeProvCommand` | 2 (0x2) | Exported Function | 0x0000000180004db0 | 0x00004db0
-`TimeProvOpen` | 3 (0x3) | Exported Function | 0x0000000180005140 | 0x00005140
+Function Name | Ordinal | Type
+-- | -- | --
+`TimeProvOpen` | 3 | Exported Function
+`TimeProvCommand` | 2 | Exported Function
+`TimeProvClose` | 1 | Exported Function
 
 
 ## Signature

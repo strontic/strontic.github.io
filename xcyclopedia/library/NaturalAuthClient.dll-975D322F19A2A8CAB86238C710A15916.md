@@ -24,23 +24,23 @@ PE256 | `BB3B6B831ECB0B686C3EDBB3F89DE292D38EA80968B26535D85968A1110E06A1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CdfPluginRegisterDevice` | 1 (0x1) | Exported Function | 0x0000000180001d90 | 0x00001d90
-`CdfPluginUnregisterDevice` | 2 (0x2) | Exported Function | 0x0000000180001dc0 | 0x00001dc0
-`CdfPluginUpdatePresenceState` | 3 (0x3) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`NaDeviceUnlockStart` | 4 (0x4) | Exported Function | 0x0000000180001410 | 0x00001410
-`NaDeviceUnlockStop` | 5 (0x5) | Exported Function | 0x0000000180001440 | 0x00001440
-`NaDynamicLockForceEvaluate` | 6 (0x6) | Exported Function | 0x0000000180001370 | 0x00001370
-`NaDynamicLockShouldIgnoreDisplayRequestActivity` | 7 (0x7) | Exported Function | 0x00000001800013e0 | 0x000013e0
-`NaDynamicLockShouldIgnoreUserActivity` | 8 (0x8) | Exported Function | 0x00000001800013b0 | 0x000013b0
-`NaDynamicLockShouldSkipGracePeriod` | 9 (0x9) | Exported Function | 0x0000000180001380 | 0x00001380
-`NaDynamicLockStart` | 10 (0xa) | Exported Function | 0x0000000180001350 | 0x00001350
-`NaDynamicLockStop` | 11 (0xb) | Exported Function | 0x0000000180001360 | 0x00001360
-`NaRuleQuery` | 12 (0xc) | Exported Function | 0x00000001800012c0 | 0x000012c0
-`NaRuleRegister` | 13 (0xd) | Exported Function | 0x0000000180001290 | 0x00001290
-`NaRuleUnregister` | 14 (0xe) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`NaRuleValidate` | 15 (0xf) | Exported Function | 0x0000000180001320 | 0x00001320
+Function Name | Ordinal | Type
+-- | -- | --
+`NaDynamicLockStop` | 11 | Exported Function
+`NaDynamicLockStart` | 10 | Exported Function
+`NaDynamicLockShouldSkipGracePeriod` | 9 | Exported Function
+`NaRuleQuery` | 12 | Exported Function
+`NaRuleValidate` | 15 | Exported Function
+`NaRuleUnregister` | 14 | Exported Function
+`NaRuleRegister` | 13 | Exported Function
+`NaDynamicLockShouldIgnoreUserActivity` | 8 | Exported Function
+`CdfPluginUpdatePresenceState` | 3 | Exported Function
+`CdfPluginUnregisterDevice` | 2 | Exported Function
+`CdfPluginRegisterDevice` | 1 | Exported Function
+`NaDeviceUnlockStart` | 4 | Exported Function
+`NaDynamicLockShouldIgnoreDisplayRequestActivity` | 7 | Exported Function
+`NaDynamicLockForceEvaluate` | 6 | Exported Function
+`NaDeviceUnlockStop` | 5 | Exported Function
 
 
 ## Signature

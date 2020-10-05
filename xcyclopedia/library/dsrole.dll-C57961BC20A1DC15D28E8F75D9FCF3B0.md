@@ -24,10 +24,10 @@ PE256 | `C2EEE5428B22A871DB8571FEC66FBF69B645FF9BEDE05E3716DEDF4B37188F5A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DsRoleFreeMemory` | 1 (0x1) | Exported Function | 0x10001ae0 | 0x00001ae0
-`DsRoleGetPrimaryDomainInformation` | 2 (0x2) | Exported Function | 0x10001840 | 0x00001840
+Function Name | Ordinal | Type
+-- | -- | --
+`DsRoleGetPrimaryDomainInformation` | 2 | Exported Function
+`DsRoleFreeMemory` | 1 | Exported Function
 
 
 ## Signature

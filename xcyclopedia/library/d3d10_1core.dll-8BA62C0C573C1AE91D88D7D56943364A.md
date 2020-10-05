@@ -24,48 +24,48 @@ PE256 | `E8E24BE1F1073B742918CB7EDD67540059E60F864906AC9E703270FD8E6A6B58`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`D3D10CoreCreateDevice1` | 14 (0xe) | Exported Function | 0x10002d40 | 0x00002d40
-`D3DKMTOpenResource` | 31 (0x1f) | Exported Function | 0x10002ad0 | 0x00002ad0
-`D3DKMTPresent` | 6 (0x6) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTQueryAdapterInfo` | 7 (0x7) | Exported Function | 0x10002950 | 0x00002950
-`D3DKMTQueryAllocationResidency` | 32 (0x20) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTQueryResourceInfo` | 33 (0x21) | Exported Function | 0x10002ad0 | 0x00002ad0
-`D3DKMTRender` | 34 (0x22) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTSetAllocationPriority` | 35 (0x23) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTOpenAdapterFromHdc` | 30 (0x1e) | Exported Function | 0x10002aa0 | 0x00002aa0
-`D3DKMTSetContextSchedulingPriority` | 36 (0x24) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTSetDisplayPrivateDriverFormat` | 8 (0x8) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTSetGammaRamp` | 38 (0x26) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTSetVidPnSourceOwner` | 39 (0x27) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTSignalSynchronizationObject` | 9 (0x9) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTUnlock` | 10 (0xa) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTWaitForSynchronizationObject` | 11 (0xb) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTWaitForVerticalBlankEvent` | 40 (0x28) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTSetDisplayMode` | 37 (0x25) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTLock` | 29 (0x1d) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTGetSharedPrimaryHandle` | 28 (0x1c) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTGetRuntimeData` | 27 (0x1b) | Exported Function | 0x10002940 | 0x00002940
-`D3D10CoreGetSupportedVersions` | 15 (0xf) | Exported Function | 0x10002d50 | 0x00002d50
-`D3D10CoreGetVersion` | 16 (0x10) | Exported Function | 0x10002d60 | 0x00002d60
-`D3D10CoreRegisterLayers` | 17 (0x11) | Exported Function | 0x10002d70 | 0x00002d70
-`D3DKMTCloseAdapter` | 1 (0x1) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTCreateAllocation` | 18 (0x12) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTCreateContext` | 19 (0x13) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTCreateDevice` | 20 (0x14) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTCreateSynchronizationObject` | 21 (0x15) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTDestroyAllocation` | 2 (0x2) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTDestroyContext` | 3 (0x3) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTDestroyDevice` | 4 (0x4) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTDestroySynchronizationObject` | 5 (0x5) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTEscape` | 22 (0x16) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTGetContextSchedulingPriority` | 23 (0x17) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTGetDeviceState` | 24 (0x18) | Exported Function | 0x10002a50 | 0x00002a50
-`D3DKMTGetDisplayModeList` | 25 (0x19) | Exported Function | 0x10002940 | 0x00002940
-`D3DKMTGetMultisampleMethodList` | 26 (0x1a) | Exported Function | 0x10002940 | 0x00002940
-`OpenAdapter10` | 12 (0xc) | Exported Function | 0x100029d0 | 0x000029d0
-`OpenAdapter10_2` | 13 (0xd) | Exported Function | 0x10002a10 | 0x00002a10
+Function Name | Ordinal | Type
+-- | -- | --
+`D3DKMTQueryResourceInfo` | 33 | Exported Function
+`D3DKMTQueryAllocationResidency` | 32 | Exported Function
+`D3DKMTRender` | 34 | Exported Function
+`D3DKMTSetContextSchedulingPriority` | 36 | Exported Function
+`D3DKMTSetAllocationPriority` | 35 | Exported Function
+`D3DKMTOpenAdapterFromHdc` | 30 | Exported Function
+`D3DKMTLock` | 29 | Exported Function
+`D3DKMTOpenResource` | 31 | Exported Function
+`D3DKMTQueryAdapterInfo` | 7 | Exported Function
+`D3DKMTPresent` | 6 | Exported Function
+`D3DKMTWaitForSynchronizationObject` | 11 | Exported Function
+`D3DKMTUnlock` | 10 | Exported Function
+`D3DKMTWaitForVerticalBlankEvent` | 40 | Exported Function
+`OpenAdapter10_2` | 13 | Exported Function
+`OpenAdapter10` | 12 | Exported Function
+`D3DKMTSetDisplayPrivateDriverFormat` | 8 | Exported Function
+`D3DKMTSetDisplayMode` | 37 | Exported Function
+`D3DKMTSetGammaRamp` | 38 | Exported Function
+`D3DKMTSignalSynchronizationObject` | 9 | Exported Function
+`D3DKMTSetVidPnSourceOwner` | 39 | Exported Function
+`D3DKMTCreateContext` | 19 | Exported Function
+`D3DKMTCreateAllocation` | 18 | Exported Function
+`D3DKMTCreateDevice` | 20 | Exported Function
+`D3DKMTDestroyAllocation` | 2 | Exported Function
+`D3DKMTCreateSynchronizationObject` | 21 | Exported Function
+`D3D10CoreGetSupportedVersions` | 15 | Exported Function
+`D3D10CoreCreateDevice1` | 14 | Exported Function
+`D3D10CoreGetVersion` | 16 | Exported Function
+`D3DKMTCloseAdapter` | 1 | Exported Function
+`D3D10CoreRegisterLayers` | 17 | Exported Function
+`D3DKMTGetDisplayModeList` | 25 | Exported Function
+`D3DKMTGetDeviceState` | 24 | Exported Function
+`D3DKMTGetMultisampleMethodList` | 26 | Exported Function
+`D3DKMTGetSharedPrimaryHandle` | 28 | Exported Function
+`D3DKMTGetRuntimeData` | 27 | Exported Function
+`D3DKMTDestroyDevice` | 4 | Exported Function
+`D3DKMTDestroyContext` | 3 | Exported Function
+`D3DKMTDestroySynchronizationObject` | 5 | Exported Function
+`D3DKMTGetContextSchedulingPriority` | 23 | Exported Function
+`D3DKMTEscape` | 22 | Exported Function
 
 
 ## Signature

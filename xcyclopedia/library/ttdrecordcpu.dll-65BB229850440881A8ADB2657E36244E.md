@@ -24,51 +24,51 @@ PE256 | `C83683A51AFABD2E98CC0AD370A67B339027E773E5687F20A43FAE64A7B3C1E5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClearClientTlsValueForThreadId` | 1 (0x1) | Exported Function | 0x100215a0 | 0x000215a0
-`SetThreadNative` | 23 (0x17) | Exported Function | 0x100213d0 | 0x000213d0
-`StartEmulatingCurrentThread` | 24 (0x18) | Exported Function | 0x100217a0 | 0x000217a0
-`StopEmulatingCurrentThread` | 25 (0x19) | Exported Function | 0x100217f0 | 0x000217f0
-`StubDllEntry` | 26 (0x1a) | Exported Function | 0x10081860 | 0x00081860
-`StubDllEntryWow64` | 27 (0x1b) | Exported Function | 0x10081890 | 0x00081890
-`TriggerOSNotification` | 28 (0x1c) | Exported Function | 0x1001a420 | 0x0001a420
-`TryPauseSimulation` | 29 (0x1d) | Exported Function | 0x10081070 | 0x00081070
-`TtdWriterAddCustomEvent` | 30 (0x1e) | Exported Function | 0x10076ef0 | 0x00076ef0
-`SetRuntimeOptions` | 22 (0x16) | Exported Function | 0x10021d30 | 0x00021d30
-`TtdWriterDumpHeaps` | 31 (0x1f) | Exported Function | 0x10076ed0 | 0x00076ed0
-`TtdWriterDumpSnapshot` | 33 (0x21) | Exported Function | 0x10076e90 | 0x00076e90
-`TtdWriterGetFileName` | 34 (0x22) | Exported Function | 0x10076e70 | 0x00076e70
-`TtdWriterGetState` | 35 (0x23) | Exported Function | 0x10076f90 | 0x00076f90
-`TtdWriterGetThrottleState` | 36 (0x24) | Exported Function | 0x10076f40 | 0x00076f40
-`TtdWriterRelease` | 37 (0x25) | Exported Function | 0x10076e50 | 0x00076e50
-`TtdWriterResetThrottle` | 38 (0x26) | Exported Function | 0x10076f70 | 0x00076f70
-`TtdWriterResumeRecording` | 39 (0x27) | Exported Function | 0x10076bc0 | 0x00076bc0
-`TtdWriterStartRecordingCurrentThread` | 40 (0x28) | Exported Function | 0x10076f10 | 0x00076f10
-`TtdWriterDumpModuleData` | 32 (0x20) | Exported Function | 0x10076eb0 | 0x00076eb0
-`TtdWriterStopRecordingCurrentThread` | 41 (0x29) | Exported Function | 0x10076b20 | 0x00076b20
-`RunCallbackWithSmartContextForCurrentThread` | 21 (0x15) | Exported Function | 0x10021540 | 0x00021540
-`ResetMaxInstructionsToEmulate` | 19 (0x13) | Exported Function | 0x10021970 | 0x00021970
-`FlushCodeCaches` | 2 (0x2) | Exported Function | 0x10021de0 | 0x00021de0
-`g_ttdConstants` | 43 (0x2b) | Exported Function | 0x101075c0 | 0x001075c0
-`GetClientTlsValueForCurrentThread` | 3 (0x3) | Exported Function | 0x10021600 | 0x00021600
-`GetInstructionCounts` | 4 (0x4) | Exported Function | 0x100218b0 | 0x000218b0
-`GetRegisterOffsets` | 5 (0x5) | Exported Function | 0x10021e00 | 0x00021e00
-`InitializeEmulateOnlyClient` | 6 (0x6) | Exported Function | 0x10021e40 | 0x00021e40
-`InitializeGlobalState` | 7 (0x7) | Exported Function | 0x10021370 | 0x00021370
-`InitializeNirvanaClient` | 8 (0x8) | Exported Function | 0x100736e0 | 0x000736e0
-`ResumeSimulation` | 20 (0x14) | Exported Function | 0x10021a00 | 0x00021a00
-`InitializeRecorder` | 9 (0x9) | Exported Function | 0x10076d50 | 0x00076d50
-`InjectThread` | 11 (0xb) | Exported Function | 0x10081810 | 0x00081810
-`IsEmulatingCurrentThread` | 12 (0xc) | Exported Function | 0x10021850 | 0x00021850
-`IsSimulating` | 13 (0xd) | Exported Function | 0x10081075 | 0x00081075
-`OpenWriter` | 14 (0xe) | Exported Function | 0x10076c50 | 0x00076c50
-`ParametersBlock` | 15 (0xf) | Exported Function | 0x10127a5c | 0x00127a5c
-`RegisterInstrumentationCallbacks` | 16 (0x10) | Exported Function | 0x10021f20 | 0x00021f20
-`RegisterRecordCallbacks` | 17 (0x11) | Exported Function | 0x10022050 | 0x00022050
-`RequestUnhookedFunctions` | 18 (0x12) | Exported Function | 0x10022580 | 0x00022580
-`InitializeSmartCpuClient` | 10 (0xa) | Exported Function | 0x10021330 | 0x00021330
-`TtdWriterTryPauseRecording` | 42 (0x2a) | Exported Function | 0x10076bb0 | 0x00076bb0
+Function Name | Ordinal | Type
+-- | -- | --
+`TriggerOSNotification` | 28 | Exported Function
+`StubDllEntryWow64` | 27 | Exported Function
+`TryPauseSimulation` | 29 | Exported Function
+`TtdWriterDumpHeaps` | 31 | Exported Function
+`TtdWriterAddCustomEvent` | 30 | Exported Function
+`SetThreadNative` | 23 | Exported Function
+`SetRuntimeOptions` | 22 | Exported Function
+`StartEmulatingCurrentThread` | 24 | Exported Function
+`StubDllEntry` | 26 | Exported Function
+`StopEmulatingCurrentThread` | 25 | Exported Function
+`TtdWriterDumpModuleData` | 32 | Exported Function
+`TtdWriterResumeRecording` | 39 | Exported Function
+`TtdWriterResetThrottle` | 38 | Exported Function
+`TtdWriterStartRecordingCurrentThread` | 40 | Exported Function
+`TtdWriterTryPauseRecording` | 42 | Exported Function
+`TtdWriterStopRecordingCurrentThread` | 41 | Exported Function
+`TtdWriterGetFileName` | 34 | Exported Function
+`TtdWriterDumpSnapshot` | 33 | Exported Function
+`TtdWriterGetState` | 35 | Exported Function
+`TtdWriterRelease` | 37 | Exported Function
+`TtdWriterGetThrottleState` | 36 | Exported Function
+`RunCallbackWithSmartContextForCurrentThread` | 21 | Exported Function
+`InitializeEmulateOnlyClient` | 6 | Exported Function
+`GetRegisterOffsets` | 5 | Exported Function
+`InitializeGlobalState` | 7 | Exported Function
+`InitializeRecorder` | 9 | Exported Function
+`InitializeNirvanaClient` | 8 | Exported Function
+`FlushCodeCaches` | 2 | Exported Function
+`ClearClientTlsValueForThreadId` | 1 | Exported Function
+`g_ttdConstants` | 43 | Exported Function
+`GetInstructionCounts` | 4 | Exported Function
+`GetClientTlsValueForCurrentThread` | 3 | Exported Function
+`InitializeSmartCpuClient` | 10 | Exported Function
+`RegisterRecordCallbacks` | 17 | Exported Function
+`RegisterInstrumentationCallbacks` | 16 | Exported Function
+`RequestUnhookedFunctions` | 18 | Exported Function
+`ResumeSimulation` | 20 | Exported Function
+`ResetMaxInstructionsToEmulate` | 19 | Exported Function
+`IsEmulatingCurrentThread` | 12 | Exported Function
+`InjectThread` | 11 | Exported Function
+`IsSimulating` | 13 | Exported Function
+`ParametersBlock` | 15 | Exported Function
+`OpenWriter` | 14 | Exported Function
 
 
 ## Signature

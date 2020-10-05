@@ -24,69 +24,69 @@ PE256 | `557F358154ED5C96115E18450D7C0CED700B049CF18F15F1D7A0E2DC30C3685C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`QISearch` | 1 (0x1) | Exported Function | shlwapi.QISearch | 0x0000131f
-`StrCSpnW` | 6 (0x6) | Exported Function | shlwapi.StrCSpnW | 0x000013bd
-`StrDupA` | 34 (0x22) | Exported Function | shlwapi.StrDupA | 0x000016c8
-`StrDupW` | 35 (0x23) | Exported Function | shlwapi.StrDupW | 0x000016e0
-`StrIsIntlEqualA` | 36 (0x24) | Exported Function | shlwapi.StrIsIntlEqualA | 0x00001700
-`StrIsIntlEqualW` | 37 (0x25) | Exported Function | shlwapi.StrIsIntlEqualW | 0x00001728
-`StrPBrkA` | 38 (0x26) | Exported Function | shlwapi.StrPBrkA | 0x00001749
-`StrPBrkW` | 39 (0x27) | Exported Function | shlwapi.StrPBrkW | 0x00001763
-`StrRChrA` | 40 (0x28) | Exported Function | shlwapi.StrRChrA | 0x0000177d
-`StrRChrIA` | 41 (0x29) | Exported Function | shlwapi.StrRChrIA | 0x00001798
-`StrRChrIW` | 42 (0x2a) | Exported Function | shlwapi.StrRChrIW | 0x000017b4
-`StrRChrW` | 43 (0x2b) | Exported Function | shlwapi.StrRChrW | 0x000017cf
-`StrRStrIA` | 44 (0x2c) | Exported Function | shlwapi.StrRStrIA | 0x000017ea
-`StrRStrIW` | 45 (0x2d) | Exported Function | shlwapi.StrRStrIW | 0x00001806
-`StrSpnA` | 46 (0x2e) | Exported Function | shlwapi.StrSpnA | 0x00001820
-`StrSpnW` | 47 (0x2f) | Exported Function | shlwapi.StrSpnW | 0x00001838
-`StrStrA` | 48 (0x30) | Exported Function | shlwapi.StrStrA | 0x00001850
-`StrStrIA` | 49 (0x31) | Exported Function | shlwapi.StrStrIA | 0x00001869
-`StrStrIW` | 50 (0x32) | Exported Function | shlwapi.StrStrIW | 0x00001883
-`StrStrNIW` | 51 (0x33) | Exported Function | shlwapi.StrStrNIW | 0x0000189e
-`StrStrNW` | 52 (0x34) | Exported Function | shlwapi.StrStrNW | 0x000018b9
-`StrStrW` | 53 (0x35) | Exported Function | shlwapi.StrStrW | 0x000018d2
-`StrToInt64ExA` | 54 (0x36) | Exported Function | shlwapi.StrToInt64ExA | 0x000018f0
-`StrToInt64ExW` | 55 (0x37) | Exported Function | shlwapi.StrToInt64ExW | 0x00001914
-`StrToIntA` | 56 (0x38) | Exported Function | shlwapi.StrToIntA | 0x00001934
-`StrToIntExA` | 57 (0x39) | Exported Function | shlwapi.StrToIntExA | 0x00001952
-`StrToIntExW` | 58 (0x3a) | Exported Function | shlwapi.StrToIntExW | 0x00001972
-`StrToIntW` | 59 (0x3b) | Exported Function | shlwapi.StrToIntW | 0x00001990
-`StrCSpnIW` | 5 (0x5) | Exported Function | shlwapi.StrCSpnIW | 0x000013a2
-`StrTrimA` | 60 (0x3c) | Exported Function | shlwapi.StrTrimA | 0x000019ab
-`StrCSpnIA` | 4 (0x4) | Exported Function | shlwapi.StrCSpnIA | 0x00001386
-`StrCpyNXW` | 33 (0x21) | Exported Function | shlwapi.StrCpyNXW | 0x000016ae
-`SHLoadIndirectString` | 2 (0x2) | Exported Function | shlwapi.SHLoadIndirectString | 0x00001345
-`StrCatBuffA` | 7 (0x7) | Exported Function | shlwapi.StrCatBuffA | 0x000013da
-`StrCatBuffW` | 8 (0x8) | Exported Function | shlwapi.StrCatBuffW | 0x000013fa
-`StrCatChainW` | 9 (0x9) | Exported Function | shlwapi.StrCatChainW | 0x0000141b
-`StrChrA` | 10 (0xa) | Exported Function | shlwapi.StrChrA | 0x00001438
-`StrChrIA` | 11 (0xb) | Exported Function | shlwapi.StrChrIA | 0x00001451
-`StrChrIW` | 12 (0xc) | Exported Function | shlwapi.StrChrIW | 0x0000146b
-`StrChrNIW` | 13 (0xd) | Exported Function | shlwapi.StrChrNIW | 0x00001486
-`StrChrNW` | 14 (0xe) | Exported Function | shlwapi.StrChrNW | 0x000014a1
-`StrChrW` | 15 (0xf) | Exported Function | shlwapi.StrChrW | 0x000014ba
-`StrCmpCA` | 16 (0x10) | Exported Function | shlwapi.StrCmpCA | 0x000014d3
-`StrCmpCW` | 17 (0x11) | Exported Function | shlwapi.StrCmpCW | 0x000014ed
-`StrCmpICA` | 18 (0x12) | Exported Function | shlwapi.StrCmpICA | 0x00001508
-`StrCmpICW` | 19 (0x13) | Exported Function | shlwapi.StrCmpICW | 0x00001524
-`StrCmpIW` | 20 (0x14) | Exported Function | shlwapi.StrCmpIW | 0x0000153f
-`StrCmpLogicalW` | 21 (0x15) | Exported Function | shlwapi.StrCmpLogicalW | 0x0000155f
-`StrCmpNA` | 22 (0x16) | Exported Function | shlwapi.StrCmpNA | 0x0000157f
-`StrCmpNCA` | 23 (0x17) | Exported Function | shlwapi.StrCmpNCA | 0x0000159a
-`StrCmpNCW` | 24 (0x18) | Exported Function | shlwapi.StrCmpNCW | 0x000015b6
-`StrCmpNIA` | 25 (0x19) | Exported Function | shlwapi.StrCmpNIA | 0x000015d2
-`StrCmpNICA` | 26 (0x1a) | Exported Function | shlwapi.StrCmpNICA | 0x000015ef
-`StrCmpNICW` | 27 (0x1b) | Exported Function | shlwapi.StrCmpNICW | 0x0000160d
-`StrCmpNIW` | 28 (0x1c) | Exported Function | shlwapi.StrCmpNIW | 0x0000162a
-`StrCmpNW` | 29 (0x1d) | Exported Function | shlwapi.StrCmpNW | 0x00001645
-`StrCmpW` | 30 (0x1e) | Exported Function | shlwapi.StrCmpW | 0x0000165e
-`StrCpyNW` | 31 (0x1f) | Exported Function | shlwapi.StrCpyNW | 0x00001677
-`StrCpyNXA` | 32 (0x20) | Exported Function | shlwapi.StrCpyNXA | 0x00001692
-`StrCSpnA` | 3 (0x3) | Exported Function | shlwapi.StrCSpnA | 0x0000136b
-`StrTrimW` | 61 (0x3d) | Exported Function | shlwapi.StrTrimW | 0x000019c5
+Function Name | Ordinal | Type
+-- | -- | --
+`StrRChrIW` | 42 | Exported Function
+`StrRChrIA` | 41 | Exported Function
+`StrRChrA` | 40 | Exported Function
+`StrRChrW` | 43 | Exported Function
+`StrSpnA` | 46 | Exported Function
+`StrRStrIW` | 45 | Exported Function
+`StrRStrIA` | 44 | Exported Function
+`StrPBrkW` | 39 | Exported Function
+`StrDupA` | 34 | Exported Function
+`StrCSpnW` | 6 | Exported Function
+`StrCSpnIW` | 5 | Exported Function
+`StrDupW` | 35 | Exported Function
+`StrPBrkA` | 38 | Exported Function
+`StrIsIntlEqualW` | 37 | Exported Function
+`StrIsIntlEqualA` | 36 | Exported Function
+`StrToIntExA` | 57 | Exported Function
+`StrToIntA` | 56 | Exported Function
+`StrToInt64ExW` | 55 | Exported Function
+`StrToIntExW` | 58 | Exported Function
+`StrTrimW` | 61 | Exported Function
+`StrTrimA` | 60 | Exported Function
+`StrToIntW` | 59 | Exported Function
+`StrToInt64ExA` | 54 | Exported Function
+`StrStrIA` | 49 | Exported Function
+`StrStrA` | 48 | Exported Function
+`StrSpnW` | 47 | Exported Function
+`StrStrIW` | 50 | Exported Function
+`StrStrW` | 53 | Exported Function
+`StrStrNW` | 52 | Exported Function
+`StrStrNIW` | 51 | Exported Function
+`StrCSpnIA` | 4 | Exported Function
+`StrChrW` | 15 | Exported Function
+`StrChrNW` | 14 | Exported Function
+`StrChrNIW` | 13 | Exported Function
+`StrCmpCA` | 16 | Exported Function
+`StrCmpICW` | 19 | Exported Function
+`StrCmpICA` | 18 | Exported Function
+`StrCmpCW` | 17 | Exported Function
+`StrChrIW` | 12 | Exported Function
+`StrCatBuffA` | 7 | Exported Function
+`SHLoadIndirectString` | 2 | Exported Function
+`QISearch` | 1 | Exported Function
+`StrCatBuffW` | 8 | Exported Function
+`StrChrIA` | 11 | Exported Function
+`StrChrA` | 10 | Exported Function
+`StrCatChainW` | 9 | Exported Function
+`StrCmpW` | 30 | Exported Function
+`StrCmpNW` | 29 | Exported Function
+`StrCmpNIW` | 28 | Exported Function
+`StrCpyNW` | 31 | Exported Function
+`StrCSpnA` | 3 | Exported Function
+`StrCpyNXW` | 33 | Exported Function
+`StrCpyNXA` | 32 | Exported Function
+`StrCmpNICW` | 27 | Exported Function
+`StrCmpNA` | 22 | Exported Function
+`StrCmpLogicalW` | 21 | Exported Function
+`StrCmpIW` | 20 | Exported Function
+`StrCmpNCA` | 23 | Exported Function
+`StrCmpNICA` | 26 | Exported Function
+`StrCmpNIA` | 25 | Exported Function
+`StrCmpNCW` | 24 | Exported Function
 
 
 ## Signature

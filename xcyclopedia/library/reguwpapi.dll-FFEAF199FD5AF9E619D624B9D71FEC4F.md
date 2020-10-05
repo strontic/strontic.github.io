@@ -24,22 +24,22 @@ PE256 | `C36C9326F405BEA242135332485512EDF6C87F454DB3845232598FF9DD3E789E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RegCopyTreeFromApp` | 1 (0x1) | Exported Function | 0x10002bc0 | 0x00002bc0
-`RegCreateKeyFromApp` | 2 (0x2) | Exported Function | 0x10002750 | 0x00002750
-`RegDeleteKeyFromApp` | 3 (0x3) | Exported Function | 0x10002930 | 0x00002930
-`RegDeleteTreeFromApp` | 4 (0x4) | Exported Function | 0x10002c10 | 0x00002c10
-`RegDeleteValueFromApp` | 5 (0x5) | Exported Function | 0x10002990 | 0x00002990
-`RegEnumKeyFromApp` | 6 (0x6) | Exported Function | 0x100029d0 | 0x000029d0
-`RegEnumValueFromApp` | 7 (0x7) | Exported Function | 0x10002a20 | 0x00002a20
-`RegGetValueFromApp` | 8 (0x8) | Exported Function | 0x10002b50 | 0x00002b50
-`RegLoadAppKeyFromApp` | 9 (0x9) | Exported Function | 0x100026e0 | 0x000026e0
-`RegOpenKeyFromApp` | 10 (0xa) | Exported Function | 0x10002830 | 0x00002830
-`RegQueryInfoKeyFromApp` | 11 (0xb) | Exported Function | 0x10002a70 | 0x00002a70
-`RegQueryMultipleValuesFromApp` | 12 (0xc) | Exported Function | 0x10002c50 | 0x00002c50
-`RegQueryValueFromApp` | 13 (0xd) | Exported Function | 0x10002ad0 | 0x00002ad0
-`RegSetValueFromApp` | 14 (0xe) | Exported Function | 0x10002b10 | 0x00002b10
+Function Name | Ordinal | Type
+-- | -- | --
+`RegOpenKeyFromApp` | 10 | Exported Function
+`RegLoadAppKeyFromApp` | 9 | Exported Function
+`RegGetValueFromApp` | 8 | Exported Function
+`RegQueryInfoKeyFromApp` | 11 | Exported Function
+`RegSetValueFromApp` | 14 | Exported Function
+`RegQueryValueFromApp` | 13 | Exported Function
+`RegQueryMultipleValuesFromApp` | 12 | Exported Function
+`RegDeleteKeyFromApp` | 3 | Exported Function
+`RegCreateKeyFromApp` | 2 | Exported Function
+`RegCopyTreeFromApp` | 1 | Exported Function
+`RegDeleteTreeFromApp` | 4 | Exported Function
+`RegEnumValueFromApp` | 7 | Exported Function
+`RegEnumKeyFromApp` | 6 | Exported Function
+`RegDeleteValueFromApp` | 5 | Exported Function
 
 
 ## Signature

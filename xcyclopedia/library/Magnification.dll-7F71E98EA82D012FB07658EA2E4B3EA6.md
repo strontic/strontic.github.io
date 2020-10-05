@@ -24,29 +24,29 @@ PE256 | `9C7110D6405FF948D553742E8A9E8745E6DAD7A8A204620AAA3A496241C05AB0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MagGetColorEffect` | 3 (0x3) | Exported Function | 0x10001e50 | 0x00001e50
-`MagSetWindowTransform` | 19 (0x13) | Exported Function | 0x10001b70 | 0x00001b70
-`MagSetWindowSource` | 18 (0x12) | Exported Function | 0x10001ab0 | 0x00001ab0
-`MagSetWindowFilterList` | 17 (0x11) | Exported Function | 0x10001c10 | 0x00001c10
-`MagSetLensUseBitmapSmoothing` | 2 (0x2) | Exported Function | 0x10001ec0 | 0x00001ec0
-`MagSetInputTransform` | 16 (0x10) | Exported Function | 0x10002ff0 | 0x00002ff0
-`MagSetImageScalingCallback` | 15 (0xf) | Exported Function | 0x10001d30 | 0x00001d30
-`MagSetFullscreenUseBitmapSmoothing` | 1 (0x1) | Exported Function | 0x10002f50 | 0x00002f50
-`MagSetFullscreenTransform` | 14 (0xe) | Exported Function | 0x10002e40 | 0x00002e40
-`MagShowSystemCursor` | 20 (0x14) | Exported Function | 0x10003040 | 0x00003040
-`MagSetFullscreenColorEffect` | 13 (0xd) | Exported Function | 0x10002f10 | 0x00002f10
-`MagInitialize` | 11 (0xb) | Exported Function | 0x10001a00 | 0x00001a00
-`MagGetWindowTransform` | 10 (0xa) | Exported Function | 0x10001bd0 | 0x00001bd0
-`MagGetWindowSource` | 9 (0x9) | Exported Function | 0x10001b30 | 0x00001b30
-`MagGetWindowFilterList` | 8 (0x8) | Exported Function | 0x10001ca0 | 0x00001ca0
-`MagGetInputTransform` | 7 (0x7) | Exported Function | 0x10002f90 | 0x00002f90
-`MagGetImageScalingCallback` | 6 (0x6) | Exported Function | 0x10001d90 | 0x00001d90
-`MagGetFullscreenTransform` | 5 (0x5) | Exported Function | 0x10002e00 | 0x00002e00
-`MagGetFullscreenColorEffect` | 4 (0x4) | Exported Function | 0x10002ed0 | 0x00002ed0
-`MagSetColorEffect` | 12 (0xc) | Exported Function | 0x10001df0 | 0x00001df0
-`MagUninitialize` | 21 (0x15) | Exported Function | 0x10001a60 | 0x00001a60
+Function Name | Ordinal | Type
+-- | -- | --
+`MagSetInputTransform` | 16 | Exported Function
+`MagSetLensUseBitmapSmoothing` | 2 | Exported Function
+`MagSetImageScalingCallback` | 15 | Exported Function
+`MagSetFullscreenTransform` | 14 | Exported Function
+`MagSetFullscreenUseBitmapSmoothing` | 1 | Exported Function
+`MagShowSystemCursor` | 20 | Exported Function
+`MagUninitialize` | 21 | Exported Function
+`MagSetWindowTransform` | 19 | Exported Function
+`MagSetWindowFilterList` | 17 | Exported Function
+`MagSetWindowSource` | 18 | Exported Function
+`MagSetFullscreenColorEffect` | 13 | Exported Function
+`MagGetImageScalingCallback` | 6 | Exported Function
+`MagGetInputTransform` | 7 | Exported Function
+`MagGetFullscreenTransform` | 5 | Exported Function
+`MagGetColorEffect` | 3 | Exported Function
+`MagGetFullscreenColorEffect` | 4 | Exported Function
+`MagInitialize` | 11 | Exported Function
+`MagSetColorEffect` | 12 | Exported Function
+`MagGetWindowTransform` | 10 | Exported Function
+`MagGetWindowFilterList` | 8 | Exported Function
+`MagGetWindowSource` | 9 | Exported Function
 
 
 ## Signature

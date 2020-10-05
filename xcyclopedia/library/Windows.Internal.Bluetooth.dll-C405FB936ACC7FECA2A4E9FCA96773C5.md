@@ -24,13 +24,13 @@ PE256 | `B70E14A2A4979434F1DB9CDDE413C9D6125974620FFF5D38012E89058F412CE4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BthEvtBrCreateBroker` | 2 (0x2) | Exported Function | 0x000000018001d230 | 0x0001d230
-`BthEvtBrDeleteBroker` | 3 (0x3) | Exported Function | 0x000000018001d300 | 0x0001d300
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x0000000180009bb0 | 0x00009bb0
-`DllGetActivationFactory` | 1 (0x1) | Exported Function | 0x00000001800099d0 | 0x000099d0
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x0000000180009c20 | 0x00009c20
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetActivationFactory` | 1 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`BthEvtBrCreateBroker` | 2 | Exported Function
+`BthEvtBrDeleteBroker` | 3 | Exported Function
 
 
 ## Signature

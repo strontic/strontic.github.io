@@ -24,13 +24,13 @@ PE256 | `690DC52657DD763497E38BD82C95D29D689D7734471E5A508FF6E2A50FCA839F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180010060 | 0x00010060
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x0000000180010090 | 0x00010090
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x00000001800100d0 | 0x000100d0
-`ShutdownLockAppHostServer` | 4 (0x4) | Exported Function | 0x0000000180010120 | 0x00010120
-`StartLockAppHostServer` | 5 (0x5) | Exported Function | 0x0000000180010150 | 0x00010150
+Function Name | Ordinal | Type
+-- | -- | --
+`ShutdownLockAppHostServer` | 4 | Exported Function
+`StartLockAppHostServer` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 
 
 ## Signature

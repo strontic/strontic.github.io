@@ -1,0 +1,55 @@
+﻿---
+title: MSO20SKYPEWIN32.DLL | Microsoft Office 2016 component
+excerpt: What is MSO20SKYPEWIN32.DLL?
+---
+
+# MSO20SKYPEWIN32.DLL 
+
+* File Path: `C:\Program Files (x86)\Microsoft Office\root\Office16\SkypeSrv\MSO20SKYPEWIN32.DLL`
+* Description: Microsoft Office 2016 component
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `53FCD2F47B76D3ED2CAF57CD8DD4A329`
+SHA1 | `7D5D6320C32576656EEEB6E0F87CC6CB38747F49`
+SHA256 | `F104BF1B4A9CAF8DDF8F7CB0FB91F3D828A44AD17EAD40034A5852CE22C5CD16`
+SHA384 | `850CB797E0D92AF5D08C6B683009D0D4F75C1BBEC13B9D3CE9EA33D5FB1D9238279ED685E22234E6069A00FDE375DBA2`
+SHA512 | `3EE3DDDC28573EC35679B4B32FF537290762E2F8960C6831052EAB1E0684662F3A76FBE67569AE8D240070C379DFEDC13344EEB4CADCC54134028F56A7052E99`
+SSDEEP | `6144:9rLVl2YiI4JOTA19fZpw/HbUkhKxGgTBfLAN8f+/2c:7lZ54ITA3fZyQkQBTp+F`
+IMP | `9DDD9C659967B8D0EF7A820245D07AA5`
+PESHA1 | `58C476E738D32EF22ABA7611866F972E3EFCD264`
+PE256 | `136B1AC5839CEEFE57C088F07B77B6735A215F511598037FD3A68EE8C92E03F4`
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000014096A9EE7056FECC07000100000140`
+* Thumbprint: `98ED99A67886D020C564923B7DF25E9AC019DF26`
+* Issuer: CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: Mso20SkypeWin32.dll
+* Product Name: Microsoft Office 2016
+* Company Name: Microsoft Corporation
+* File Version: 16.0.8027.1015
+* Product Version: 16.0.8027.1015
+* Language: English (United States)
+* Legal Copyright: 
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/f104bf1b4a9caf8ddf8f7cb0fb91f3d828a44ad17ead40034a5852ce22c5cd16/detection/
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

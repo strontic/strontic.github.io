@@ -24,18 +24,18 @@ PE256 | `CC4BE54006BDCC20A5AB2E38BD84BBA18CE25FD139C72BE0B9C2068B6823E36B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CPlApplet` | 1 (0x1) | Exported Function | 0x100035a0 | 0x000035a0
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x10002740 | 0x00002740
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10002760 | 0x00002760
-`DllMain` | 4 (0x4) | Exported Function | 0x10003640 | 0x00003640
-`KRShowKeyMgr` | 5 (0x5) | Exported Function | 0x100036b0 | 0x000036b0
-`PRShowRestoreFromMsginaW` | 6 (0x6) | Exported Function | 0x100071e0 | 0x000071e0
-`PRShowRestoreWizardExW` | 7 (0x7) | Exported Function | 0x100071e0 | 0x000071e0
-`PRShowRestoreWizardW` | 8 (0x8) | Exported Function | 0x10006f00 | 0x00006f00
-`PRShowSaveFromMsginaW` | 9 (0x9) | Exported Function | 0x100071b0 | 0x000071b0
-`PRShowSaveWizardExW` | 10 (0xa) | Exported Function | 0x10007150 | 0x00007150
+Function Name | Ordinal | Type
+-- | -- | --
+`PRShowRestoreWizardExW` | 7 | Exported Function
+`PRShowRestoreFromMsginaW` | 6 | Exported Function
+`PRShowRestoreWizardW` | 8 | Exported Function
+`PRShowSaveWizardExW` | 10 | Exported Function
+`PRShowSaveFromMsginaW` | 9 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CPlApplet` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`KRShowKeyMgr` | 5 | Exported Function
+`DllMain` | 4 | Exported Function
 
 
 ## Signature

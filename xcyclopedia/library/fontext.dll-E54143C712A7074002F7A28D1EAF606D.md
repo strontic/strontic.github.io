@@ -24,12 +24,12 @@ PE256 | `DF5D299A94A61A00DE832B1E1997DC2FA114FA48DA207F43AA269FEACBAEA3EA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x1001a650 | 0x0001a650
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x1001a500 | 0x0001a500
-`DownloadAndInstallOptionalFontsAsync` | 1 (0x1) | Exported Function | 0x10026bd0 | 0x00026bd0
-`InstallFontFile` | 2 (0x2) | Exported Function | 0x1001f1d0 | 0x0001f1d0
+Function Name | Ordinal | Type
+-- | -- | --
+`DownloadAndInstallOptionalFontsAsync` | 1 | Exported Function
+`InstallFontFile` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

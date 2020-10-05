@@ -24,13 +24,13 @@ PE256 | `13DFFCDE53C097D5A7A3BB7864C4CEA23F60BD2992428330AD2903F7166EEC43`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x00000001800021d0 | 0x000021d0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180002200 | 0x00002200
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180002330 | 0x00002330
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180002460 | 0x00002460
-`RDPAPI_CreateInstance` | 5 (0x5) | Exported Function | 0x00000001800024a0 | 0x000024a0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 4 | Exported Function
+`RDPAPI_CreateInstance` | 5 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

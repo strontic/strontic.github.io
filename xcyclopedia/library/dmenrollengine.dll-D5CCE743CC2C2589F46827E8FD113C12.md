@@ -24,44 +24,44 @@ PE256 | `9DE3606D48880D49961106138491347EFF410685FD73AA76BD466021D8C02D4D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_IsManagementRegistrationAllowed` | 16 (0x10) | Exported Function | 0x0000000180037450 | 0x00037450
-`GetEnrollmentDiscoveryService` | 29 (0x1d) | Exported Function | 0x0000000180036d50 | 0x00036d50
-`GetEnrollmentPartnerOpaqueID` | 30 (0x1e) | Exported Function | 0x0000000180036d80 | 0x00036d80
-`GetEnrollmentSID` | 31 (0x1f) | Exported Function | 0x0000000180036db0 | 0x00036db0
-`GetEnrollmentState` | 32 (0x20) | Exported Function | 0x0000000180036de0 | 0x00036de0
-`GetEnrollmentType` | 33 (0x21) | Exported Function | 0x0000000180004640 | 0x00004640
-`GetEnrollmentUPN` | 34 (0x22) | Exported Function | 0x0000000180036e10 | 0x00036e10
-`GetEnrollmentClientContext` | 7 (0x7) | Exported Function | 0x0000000180039ef0 | 0x00039ef0
-`GetProviderID` | 11 (0xb) | Exported Function | 0x0000000180036e40 | 0x00036e40
-`OpenEnrollmentsHKEY` | 9 (0x9) | Exported Function | 0x0000000180036e70 | 0x00036e70
-`SetEnrollmentAadResourceUrl` | 8 (0x8) | Exported Function | 0x0000000180036e80 | 0x00036e80
-`SetEnrollmentAadSendDeviceToken` | 17 (0x11) | Exported Function | 0x0000000180036f00 | 0x00036f00
-`SetEnrollmentDormant` | 15 (0xf) | Exported Function | 0x0000000180036f30 | 0x00036f30
-`SetEnrollmentPartnerOpaqueID` | 36 (0x24) | Exported Function | 0x0000000180036fb0 | 0x00036fb0
-`SetEnrollmentUPN` | 13 (0xd) | Exported Function | 0x0000000180036fe0 | 0x00036fe0
-`MmpcDiscoverEndpoint` | 35 (0x23) | Exported Function | 0x000000018000f470 | 0x0000f470
-`GetEnrollmentClientCertThumbprint` | 28 (0x1c) | Exported Function | 0x0000000180036d20 | 0x00036d20
-`GetEnrollmentCertStore` | 27 (0x1b) | Exported Function | 0x0000000180036cf0 | 0x00036cf0
-`GetEnrollmentAadSendDeviceToken` | 26 (0x1a) | Exported Function | 0x0000000180036cc0 | 0x00036cc0
-`AutoEnrollMDM` | 18 (0x12) | Exported Function | 0x00000001800301a0 | 0x000301a0
-`CleanupExpiredOMADMSessions` | 3 (0x3) | Exported Function | 0x000000018003aac0 | 0x0003aac0
-`DiscoverEndpoint` | 1 (0x1) | Exported Function | 0x000000018000ede0 | 0x0000ede0
-`DiscoverEndpointEx` | 5 (0x5) | Exported Function | 0x000000018000ee40 | 0x0000ee40
-`DllCanUnloadNow` | 19 (0x13) | Exported Function | 0x0000000180031c40 | 0x00031c40
-`DllGetActivationFactory` | 20 (0x14) | Exported Function | 0x0000000180031c70 | 0x00031c70
-`DllGetClassObject` | 21 (0x15) | Exported Function | 0x0000000180031cb0 | 0x00031cb0
-`EnableLogging` | 4 (0x4) | Exported Function | 0x000000018003e850 | 0x0003e850
-`EnrollEngineInitialize` | 22 (0x16) | Exported Function | 0x00000001800303f0 | 0x000303f0
-`FindDiscoveryService` | 2 (0x2) | Exported Function | 0x0000000180050450 | 0x00050450
-`FindDiscoveryServiceEx` | 6 (0x6) | Exported Function | 0x000000018000f010 | 0x0000f010
-`FreeMmpcDiscoveryResultsData` | 23 (0x17) | Exported Function | 0x000000018000f420 | 0x0000f420
-`GetCertificatePolicy` | 24 (0x18) | Exported Function | 0x000000018003a6b0 | 0x0003a6b0
-`GetDatabaseManagerInstance` | 10 (0xa) | Exported Function | 0x0000000180005be0 | 0x00005be0
-`GetEnrollmentAadResourceUrl` | 25 (0x19) | Exported Function | 0x0000000180036c90 | 0x00036c90
-`SetProviderID` | 12 (0xc) | Exported Function | 0x0000000180037060 | 0x00037060
-`SwitchAADLinkedEnrollment` | 14 (0xe) | Exported Function | 0x0000000180037090 | 0x00037090
+Function Name | Ordinal | Type
+-- | -- | --
+`GetEnrollmentType` | 33 | Exported Function
+`GetEnrollmentState` | 32 | Exported Function
+`GetProviderID` | 11 | Exported Function
+`GetEnrollmentUPN` | 34 | Exported Function
+`GetEnrollmentSID` | 31 | Exported Function
+`GetEnrollmentClientContext` | 7 | Exported Function
+`GetEnrollmentClientCertThumbprint` | 28 | Exported Function
+`GetEnrollmentPartnerOpaqueID` | 30 | Exported Function
+`GetEnrollmentDiscoveryService` | 29 | Exported Function
+`SetEnrollmentUPN` | 13 | Exported Function
+`SetEnrollmentPartnerOpaqueID` | 36 | Exported Function
+`SwitchAADLinkedEnrollment` | 14 | Exported Function
+`SetProviderID` | 12 | Exported Function
+`SetEnrollmentDormant` | 15 | Exported Function
+`OpenEnrollmentsHKEY` | 9 | Exported Function
+`MmpcDiscoverEndpoint` | 35 | Exported Function
+`SetEnrollmentAadSendDeviceToken` | 17 | Exported Function
+`SetEnrollmentAadResourceUrl` | 8 | Exported Function
+`DllGetActivationFactory` | 20 | Exported Function
+`DllCanUnloadNow` | 19 | Exported Function
+`EnableLogging` | 4 | Exported Function
+`DllGetClassObject` | 21 | Exported Function
+`DiscoverEndpointEx` | 5 | Exported Function
+`AutoEnrollMDM` | 18 | Exported Function
+`_IsManagementRegistrationAllowed` | 16 | Exported Function
+`DiscoverEndpoint` | 1 | Exported Function
+`CleanupExpiredOMADMSessions` | 3 | Exported Function
+`GetEnrollmentAadResourceUrl` | 25 | Exported Function
+`GetDatabaseManagerInstance` | 10 | Exported Function
+`GetEnrollmentCertStore` | 27 | Exported Function
+`GetEnrollmentAadSendDeviceToken` | 26 | Exported Function
+`GetCertificatePolicy` | 24 | Exported Function
+`FindDiscoveryService` | 2 | Exported Function
+`EnrollEngineInitialize` | 22 | Exported Function
+`FreeMmpcDiscoveryResultsData` | 23 | Exported Function
+`FindDiscoveryServiceEx` | 6 | Exported Function
 
 
 ## Signature

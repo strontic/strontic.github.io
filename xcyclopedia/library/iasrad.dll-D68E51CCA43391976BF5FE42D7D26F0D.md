@@ -24,17 +24,17 @@ PE256 | `1AB106A7675D16C6B52B919EB74DA6D8FD5144F3079B27CEA8F19D27CFA7B68C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 6 (0x6) | Exported Function | 0x1000c210 | 0x0000c210
-`DllGetClassObject` | 7 (0x7) | Exported Function | 0x1000c230 | 0x0000c230
-`DllRegisterServer` | 8 (0x8) | Exported Function | 0x1000c260 | 0x0000c260
-`DllUnregisterServer` | 9 (0x9) | Exported Function | 0x1000c280 | 0x0000c280
-`public: long __thiscall VSAFilter::initialize(void)` | 1 (0x1) | Exported Function | 0x10015430 | 0x00015430
-`public: long __thiscall VSAFilter::radiusFromIAS(struct IAttributesRaw *,int)const ` | 2 (0x2) | Exported Function | 0x10015550 | 0x00015550
-`public: long __thiscall VSAFilter::radiusToIAS(struct IAttributesRaw *)const ` | 4 (0x4) | Exported Function | 0x10015470 | 0x00015470
-`public: long __thiscall VSAFilter::radiusToIAS(unsigned char *,unsigned long,class IASTL::IASAttributeVector &)const ` | 3 (0x3) | Exported Function | 0x10015790 | 0x00015790
-`public: long __thiscall VSAFilter::shutdown(void)` | 5 (0x5) | Exported Function | 0x10015440 | 0x00015440
+Function Name | Ordinal | Type
+-- | -- | --
+`public: long __thiscall VSAFilter::radiusToIAS(struct IAttributesRaw *)const ` | 4 | Exported Function
+`public: long __thiscall VSAFilter::radiusFromIAS(struct IAttributesRaw *,int)const ` | 2 | Exported Function
+`public: long __thiscall VSAFilter::shutdown(void)` | 5 | Exported Function
+`public: long __thiscall VSAFilter::radiusToIAS(unsigned char *,unsigned long,class IASTL::IASAttributeVector &)const ` | 3 | Exported Function
+`public: long __thiscall VSAFilter::initialize(void)` | 1 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`DllUnregisterServer` | 9 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
 
 
 ## Signature

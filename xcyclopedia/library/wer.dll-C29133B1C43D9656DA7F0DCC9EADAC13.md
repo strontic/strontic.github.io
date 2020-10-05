@@ -24,153 +24,153 @@ PE256 | `1A7F3D7295DE7D9D72A2528E231C1F2F6DBB25F96812D8D777D35436E7331943`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseThreadWaitChainSession` | 94 (0x5e) | Exported Function | 0x1001cf50 | 0x0001cf50
-`WerpSetExitListeners` | 141 (0x8d) | Exported Function | 0x10027550 | 0x00027550
-`WerpSetIntegratorReportId` | 142 (0x8e) | Exported Function | 0x10024430 | 0x00024430
-`WerpSetIptEnabled` | 143 (0x8f) | Exported Function | 0x100243c0 | 0x000243c0
-`WerpSetProcessTimelines` | 68 (0x44) | Exported Function | 0x10025210 | 0x00025210
-`WerpSetQuickDumpType` | 69 (0x45) | Exported Function | 0x100272a0 | 0x000272a0
-`WerpSetReportApplicationIdentity` | 70 (0x46) | Exported Function | 0x10025040 | 0x00025040
-`WerpSetEventName` | 67 (0x43) | Exported Function | 0x10023380 | 0x00023380
-`WerpSetReportFlags` | 71 (0x47) | Exported Function | 0x100233e0 | 0x000233e0
-`WerpSetReportIsFatal` | 73 (0x49) | Exported Function | 0x10027240 | 0x00027240
-`WerpSetReportNamespaceParameter` | 74 (0x4a) | Exported Function | 0x10024bc0 | 0x00024bc0
-`WerpSetReportOption` | 144 (0x90) | Exported Function | 0x100271c0 | 0x000271c0
-`WerpSetReportTime` | 75 (0x4b) | Exported Function | 0x10020f00 | 0x00020f00
-`WerpSetReportUploadContextToken` | 76 (0x4c) | Exported Function | 0x10021df0 | 0x00021df0
-`WerpSetTelemetryAppParams` | 77 (0x4d) | Exported Function | 0x100250b0 | 0x000250b0
-`WerpSetReportInformation` | 72 (0x48) | Exported Function | 0x100220f0 | 0x000220f0
-`WerpSetTelemetryKernelParams` | 78 (0x4e) | Exported Function | 0x100251b0 | 0x000251b0
-`WerpSetDynamicParameter` | 66 (0x42) | Exported Function | 0x10021e80 | 0x00021e80
-`WerpSetCallBack` | 139 (0x8b) | Exported Function | 0x10022180 | 0x00022180
-`WerpIsTransportAvailable` | 54 (0x36) | Exported Function | 0x10021900 | 0x00021900
-`WerpLoadReport` | 137 (0x89) | Exported Function | 0x10020540 | 0x00020540
-`WerpLoadReportFromBuffer` | 55 (0x37) | Exported Function | 0x10020570 | 0x00020570
-`WerpOpenMachineArchive` | 56 (0x38) | Exported Function | 0x1001f920 | 0x0001f920
-`WerpOpenMachineQueue` | 57 (0x39) | Exported Function | 0x1001f5f0 | 0x0001f5f0
-`WerpPromptUser` | 58 (0x3a) | Exported Function | 0x10022400 | 0x00022400
-`WerpSetDefaultUserConsent` | 140 (0x8c) | Exported Function | 0x100246a0 | 0x000246a0
-`WerpPruneStore` | 59 (0x3b) | Exported Function | 0x10024880 | 0x00024880
-`WerpReportSetMaxProcessHoldMilliseconds` | 61 (0x3d) | Exported Function | 0x100275c0 | 0x000275c0
-`WerpReportSprintfParameter` | 62 (0x3e) | Exported Function | 0x10024e70 | 0x00024e70
-`WerpReserveMachineQueueReportDir` | 63 (0x3f) | Exported Function | 0x10024c40 | 0x00024c40
-`WerpResetTransientImageCacheStatistics` | 64 (0x40) | Exported Function | 0x10027df0 | 0x00027df0
-`WerpRestartApplication` | 65 (0x41) | Exported Function | 0x10022ca0 | 0x00022ca0
-`WerpSetAuxiliaryArchivePath` | 138 (0x8a) | Exported Function | 0x10024ea0 | 0x00024ea0
-`WerpReportCancel` | 60 (0x3c) | Exported Function | 0x100241c0 | 0x000241c0
-`WerpSetTelemetryServiceParams` | 79 (0x4f) | Exported Function | 0x10025130 | 0x00025130
-`WerpSetTtdStatus` | 145 (0x91) | Exported Function | 0x10027300 | 0x00027300
-`WerpShowUpsellUI` | 80 (0x50) | Exported Function | 0x10023f50 | 0x00023f50
-`WerReportSetUIOption` | 106 (0x6a) | Exported Function | 0x1001e4b0 | 0x0001e4b0
-`WerReportSubmit` | 107 (0x6b) | Exported Function | 0x1001e550 | 0x0001e550
-`WerStoreClose` | 108 (0x6c) | Exported Function | 0x10025fd0 | 0x00025fd0
-`WerStoreGetFirstReportKey` | 109 (0x6d) | Exported Function | 0x10026050 | 0x00026050
-`WerStoreGetNextReportKey` | 110 (0x6e) | Exported Function | 0x10026160 | 0x00026160
-`WerStoreGetReportCount` | 111 (0x6f) | Exported Function | 0x10026300 | 0x00026300
-`WerReportSetParameter` | 105 (0x69) | Exported Function | 0x1001e0d0 | 0x0001e0d0
-`WerStoreGetSizeOnDisk` | 112 (0x70) | Exported Function | 0x10026310 | 0x00026310
-`WerStorePurge` | 114 (0x72) | Exported Function | 0x10024940 | 0x00024940
-`WerStoreQueryReportMetadataV1` | 115 (0x73) | Exported Function | 0x100263a0 | 0x000263a0
-`WerStoreQueryReportMetadataV2` | 116 (0x74) | Exported Function | 0x10026730 | 0x00026730
-`WerStoreQueryReportMetadataV3` | 117 (0x75) | Exported Function | 0x10026b60 | 0x00026b60
-`WerStoreUploadReport` | 118 (0x76) | Exported Function | 0x10026f50 | 0x00026f50
-`WerSysprepCleanup` | 1 (0x1) | Exported Function | 0x1001eeb0 | 0x0001eeb0
-`WerStoreOpen` | 113 (0x71) | Exported Function | 0x10025e40 | 0x00025e40
-`WerReportCreate` | 104 (0x68) | Exported Function | 0x1001d9a0 | 0x0001d9a0
-`WerReportCloseHandle` | 103 (0x67) | Exported Function | 0x1001e7e0 | 0x0001e7e0
-`WerReportAddFile` | 102 (0x66) | Exported Function | 0x1001e310 | 0x0001e310
-`WerpStitchedMinidumpVmPostReadCallback` | 81 (0x51) | Exported Function | 0x10028b50 | 0x00028b50
-`WerpStitchedMinidumpVmPreReadCallback` | 82 (0x52) | Exported Function | 0x10028c80 | 0x00028c80
-`WerpStitchedMinidumpVmQueryCallback` | 83 (0x53) | Exported Function | 0x100283a0 | 0x000283a0
-`WerpSubmitReportFromStore` | 84 (0x54) | Exported Function | 0x10020600 | 0x00020600
-`WerpTraceAuxMemDumpStatistics` | 85 (0x55) | Exported Function | 0x10025820 | 0x00025820
-`WerpTraceDuration` | 86 (0x56) | Exported Function | 0x10025ad0 | 0x00025ad0
-`WerpTraceImageCacheStatistics` | 87 (0x57) | Exported Function | 0x10025930 | 0x00025930
-`WerpTraceSnapshotStatistics` | 88 (0x58) | Exported Function | 0x10025490 | 0x00025490
-`WerpTraceStitchedDumpWriterStatistics` | 89 (0x59) | Exported Function | 0x10025ac0 | 0x00025ac0
-`WerpTraceUnmappedVaRangesStatistics` | 90 (0x5a) | Exported Function | 0x100257a0 | 0x000257a0
-`WerpUnmapProcessViews` | 91 (0x5b) | Exported Function | 0x10025270 | 0x00025270
-`WerpValidateReportKey` | 92 (0x5c) | Exported Function | 0x10024d70 | 0x00024d70
-`WerpWalkGatherBlocks` | 93 (0x5d) | Exported Function | 0x10023c40 | 0x00023c40
-`WerRemoveExcludedApplication` | 100 (0x64) | Exported Function | 0x1001ebf0 | 0x0001ebf0
-`WerReportAddDump` | 101 (0x65) | Exported Function | 0x1001e680 | 0x0001e680
-`WerpIsOnBattery` | 53 (0x35) | Exported Function | 0x10024b20 | 0x00024b20
-`WerSysprepGeneralize` | 2 (0x2) | Exported Function | 0x1001ed40 | 0x0001ed40
-`WerpIsDisabled` | 136 (0x88) | Exported Function | 0x10024250 | 0x00024250
-`WerpHashApplicationParameters` | 51 (0x33) | Exported Function | 0x10024f10 | 0x00024f10
-`WerpAuxmdFree` | 125 (0x7d) | Exported Function | 0x10029ec0 | 0x00029ec0
-`WerpAuxmdFreeCopyBuffer` | 126 (0x7e) | Exported Function | 0x10029e90 | 0x00029e90
-`WerpAuxmdHashVaRanges` | 127 (0x7f) | Exported Function | 0x10029b70 | 0x00029b70
-`WerpAuxmdInitialize` | 128 (0x80) | Exported Function | 0x10029dc0 | 0x00029dc0
-`WerpAuxmdMapFile` | 129 (0x81) | Exported Function | 0x10029d40 | 0x00029d40
-`WerpCancelUpload` | 11 (0xb) | Exported Function | 0x10022570 | 0x00022570
-`WerpAuxmdDumpRegisteredBlocks` | 124 (0x7c) | Exported Function | 0x10029a50 | 0x00029a50
-`WerpCleanWer` | 12 (0xc) | Exported Function | 0x100214d0 | 0x000214d0
-`WerpCreateIntegratorReportId` | 130 (0x82) | Exported Function | 0x100245e0 | 0x000245e0
-`WerpCreateMachineStore` | 14 (0xe) | Exported Function | 0x1001f4a0 | 0x0001f4a0
-`WerpDeleteReport` | 15 (0xf) | Exported Function | 0x100205a0 | 0x000205a0
-`WerpDestroyWerString` | 16 (0x10) | Exported Function | 0x1001ff90 | 0x0001ff90
-`WerpEnumerateStoreNext` | 17 (0x11) | Exported Function | 0x10020030 | 0x00020030
-`WerpEnumerateStoreStart` | 18 (0x12) | Exported Function | 0x1001ffd0 | 0x0001ffd0
-`WerpCloseStore` | 13 (0xd) | Exported Function | 0x10020170 | 0x00020170
-`WerpExtractReportFiles` | 131 (0x83) | Exported Function | 0x10022940 | 0x00022940
-`WerpAuxmdDumpProcessImages` | 123 (0x7b) | Exported Function | 0x100294f0 | 0x000294f0
-`WerpAddTerminationReason` | 122 (0x7a) | Exported Function | 0x1001f340 | 0x0001f340
-`GetThreadWaitChain` | 95 (0x5f) | Exported Function | 0x1001cfb0 | 0x0001cfb0
-`OpenThreadWaitChainSession` | 96 (0x60) | Exported Function | 0x1001ce90 | 0x0001ce90
-`RegisterWaitChainCOMCallback` | 97 (0x61) | Exported Function | 0x1001cdf0 | 0x0001cdf0
-`WerAddExcludedApplication` | 98 (0x62) | Exported Function | 0x1001ea80 | 0x0001ea80
-`WerFreeString` | 99 (0x63) | Exported Function | 0x10025e30 | 0x00025e30
-`WerpAddAppCompatData` | 4 (0x4) | Exported Function | 0x10022600 | 0x00022600
-`WerpArchiveReport` | 10 (0xa) | Exported Function | 0x10023f80 | 0x00023f80
-`WerpAddFile` | 119 (0x77) | Exported Function | 0x10021a90 | 0x00021a90
-`WerpAddFileCallback` | 121 (0x79) | Exported Function | 0x10021bf0 | 0x00021bf0
-`WerpAddIfRegisteredForAppLocalDump` | 5 (0x5) | Exported Function | 0x10023570 | 0x00023570
-`WerpAddMemoryBlock` | 6 (0x6) | Exported Function | 0x10021ca0 | 0x00021ca0
-`WerpAddRegisteredDataToReport` | 7 (0x7) | Exported Function | 0x100239b0 | 0x000239b0
-`WerpAddRegisteredDumpsToReport` | 8 (0x8) | Exported Function | 0x10023850 | 0x00023850
-`WerpAddRegisteredMetadataToReport` | 9 (0x9) | Exported Function | 0x10023720 | 0x00023720
-`WerpAddFileBuffer` | 120 (0x78) | Exported Function | 0x10021b40 | 0x00021b40
-`WerpFlushImageCache` | 19 (0x13) | Exported Function | 0x10027cf0 | 0x00027cf0
-`WerpForceDeferredCollection` | 20 (0x14) | Exported Function | 0x10025c40 | 0x00025c40
-`WerpFreeString` | 132 (0x84) | Exported Function | 0x10024670 | 0x00024670
-`WerpGetReportInformation` | 38 (0x26) | Exported Function | 0x10022090 | 0x00022090
-`WerpGetReportSettings` | 39 (0x27) | Exported Function | 0x10024320 | 0x00024320
-`WerpGetReportTime` | 40 (0x28) | Exported Function | 0x10020e40 | 0x00020e40
-`WerpGetReportType` | 41 (0x29) | Exported Function | 0x100223a0 | 0x000223a0
-`WerpGetResponseId` | 42 (0x2a) | Exported Function | 0x10020dc0 | 0x00020dc0
-`WerpGetSigParamByIndex` | 43 (0x2b) | Exported Function | 0x10020cf0 | 0x00020cf0
-`WerpGetReportId` | 37 (0x25) | Exported Function | 0x10024500 | 0x00024500
-`WerpGetStoreLocation` | 135 (0x87) | Exported Function | 0x100221e0 | 0x000221e0
-`WerpGetStoreType` | 45 (0x2d) | Exported Function | 0x100222f0 | 0x000222f0
-`WerpGetTextFromReport` | 46 (0x2e) | Exported Function | 0x10022020 | 0x00022020
-`WerpGetUIParamByIndex` | 47 (0x2f) | Exported Function | 0x10020d60 | 0x00020d60
-`WerpGetUploadTime` | 48 (0x30) | Exported Function | 0x10020ea0 | 0x00020ea0
-`WerpGetWerStringData` | 49 (0x31) | Exported Function | 0x1001ff70 | 0x0001ff70
-`WerpGetWow64Process` | 50 (0x32) | Exported Function | 0x10024810 | 0x00024810
-`WerpGetStorePath` | 44 (0x2c) | Exported Function | 0x1001f940 | 0x0001f940
-`WerpGetReportFlags` | 36 (0x24) | Exported Function | 0x10023440 | 0x00023440
-`WerpGetReportFinalConsent` | 35 (0x23) | Exported Function | 0x10022510 | 0x00022510
-`WerpGetReportCount` | 34 (0x22) | Exported Function | 0x100200e0 | 0x000200e0
-`WerpFreeUnmappedVaRanges` | 21 (0x15) | Exported Function | 0x10025460 | 0x00025460
-`WerpGetBucketId` | 22 (0x16) | Exported Function | 0x10020f60 | 0x00020f60
-`WerpGetDynamicParameter` | 23 (0x17) | Exported Function | 0x10021f40 | 0x00021f40
-`WerpGetEventType` | 24 (0x18) | Exported Function | 0x10020c30 | 0x00020c30
-`WerpGetExtendedDiagData` | 25 (0x19) | Exported Function | 0x10023cf0 | 0x00023cf0
-`WerpGetFileByIndex` | 26 (0x1a) | Exported Function | 0x100213f0 | 0x000213f0
-`WerpGetFilePathByIndex` | 27 (0x1b) | Exported Function | 0x10021290 | 0x00021290
-`WerpGetIntegratorReportId` | 133 (0x85) | Exported Function | 0x10024490 | 0x00024490
-`WerpGetLegacyBucketId` | 28 (0x1c) | Exported Function | 0x10021080 | 0x00021080
-`WerpGetLoadedModuleByIndex` | 29 (0x1d) | Exported Function | 0x10021340 | 0x00021340
-`WerpGetNumFiles` | 30 (0x1e) | Exported Function | 0x100211a0 | 0x000211a0
-`WerpGetNumLoadedModules` | 31 (0x1f) | Exported Function | 0x10021230 | 0x00021230
-`WerpGetNumSigParams` | 32 (0x20) | Exported Function | 0x10020c90 | 0x00020c90
-`WerpGetPathOfWERTempDirectory` | 33 (0x21) | Exported Function | 0x1001fb80 | 0x0001fb80
-`WerpGetReportConsent` | 134 (0x86) | Exported Function | 0x10022430 | 0x00022430
-`WerpInitializeImageCache` | 52 (0x34) | Exported Function | 0x10027db0 | 0x00027db0
-`WerUnattendedSetup` | 3 (0x3) | Exported Function | 0x1001ef80 | 0x0001ef80
+Function Name | Ordinal | Type
+-- | -- | --
+`WerpSetReportApplicationIdentity` | 70 | Exported Function
+`WerpSetQuickDumpType` | 69 | Exported Function
+`WerpSetReportInformation` | 72 | Exported Function
+`WerpSetReportFlags` | 71 | Exported Function
+`WerpSetProcessTimelines` | 68 | Exported Function
+`WerpSetExitListeners` | 141 | Exported Function
+`WerpSetEventName` | 67 | Exported Function
+`WerpSetIptEnabled` | 143 | Exported Function
+`WerpSetIntegratorReportId` | 142 | Exported Function
+`WerpSetTelemetryKernelParams` | 78 | Exported Function
+`WerpSetTelemetryAppParams` | 77 | Exported Function
+`WerpSetTtdStatus` | 145 | Exported Function
+`WerpSetTelemetryServiceParams` | 79 | Exported Function
+`WerpSetReportUploadContextToken` | 76 | Exported Function
+`WerpSetReportNamespaceParameter` | 74 | Exported Function
+`WerpSetReportIsFatal` | 73 | Exported Function
+`WerpSetReportTime` | 75 | Exported Function
+`WerpSetReportOption` | 144 | Exported Function
+`WerpPromptUser` | 58 | Exported Function
+`WerpOpenMachineQueue` | 57 | Exported Function
+`WerpReportCancel` | 60 | Exported Function
+`WerpPruneStore` | 59 | Exported Function
+`WerpOpenMachineArchive` | 56 | Exported Function
+`WerpIsTransportAvailable` | 54 | Exported Function
+`WerpIsOnBattery` | 53 | Exported Function
+`WerpLoadReportFromBuffer` | 55 | Exported Function
+`WerpLoadReport` | 137 | Exported Function
+`WerpSetCallBack` | 139 | Exported Function
+`WerpSetAuxiliaryArchivePath` | 138 | Exported Function
+`WerpSetDynamicParameter` | 66 | Exported Function
+`WerpSetDefaultUserConsent` | 140 | Exported Function
+`WerpRestartApplication` | 65 | Exported Function
+`WerpReportSprintfParameter` | 62 | Exported Function
+`WerpReportSetMaxProcessHoldMilliseconds` | 61 | Exported Function
+`WerpResetTransientImageCacheStatistics` | 64 | Exported Function
+`WerpReserveMachineQueueReportDir` | 63 | Exported Function
+`WerStoreGetNextReportKey` | 110 | Exported Function
+`WerStoreGetFirstReportKey` | 109 | Exported Function
+`WerStoreGetSizeOnDisk` | 112 | Exported Function
+`WerStoreGetReportCount` | 111 | Exported Function
+`WerStoreClose` | 108 | Exported Function
+`WerReportSetParameter` | 105 | Exported Function
+`WerReportCreate` | 104 | Exported Function
+`WerReportSubmit` | 107 | Exported Function
+`WerReportSetUIOption` | 106 | Exported Function
+`WerSysprepCleanup` | 1 | Exported Function
+`WerStoreUploadReport` | 118 | Exported Function
+`WerUnattendedSetup` | 3 | Exported Function
+`WerSysprepGeneralize` | 2 | Exported Function
+`WerStoreQueryReportMetadataV3` | 117 | Exported Function
+`WerStorePurge` | 114 | Exported Function
+`WerStoreOpen` | 113 | Exported Function
+`WerStoreQueryReportMetadataV2` | 116 | Exported Function
+`WerStoreQueryReportMetadataV1` | 115 | Exported Function
+`WerpTraceDuration` | 86 | Exported Function
+`WerpTraceAuxMemDumpStatistics` | 85 | Exported Function
+`WerpTraceSnapshotStatistics` | 88 | Exported Function
+`WerpTraceImageCacheStatistics` | 87 | Exported Function
+`WerpSubmitReportFromStore` | 84 | Exported Function
+`WerpStitchedMinidumpVmPostReadCallback` | 81 | Exported Function
+`WerpShowUpsellUI` | 80 | Exported Function
+`WerpStitchedMinidumpVmQueryCallback` | 83 | Exported Function
+`WerpStitchedMinidumpVmPreReadCallback` | 82 | Exported Function
+`WerReportAddDump` | 101 | Exported Function
+`WerRemoveExcludedApplication` | 100 | Exported Function
+`WerReportCloseHandle` | 103 | Exported Function
+`WerReportAddFile` | 102 | Exported Function
+`WerpWalkGatherBlocks` | 93 | Exported Function
+`WerpTraceUnmappedVaRangesStatistics` | 90 | Exported Function
+`WerpTraceStitchedDumpWriterStatistics` | 89 | Exported Function
+`WerpValidateReportKey` | 92 | Exported Function
+`WerpUnmapProcessViews` | 91 | Exported Function
+`WerpIsDisabled` | 136 | Exported Function
+`WerpCancelUpload` | 11 | Exported Function
+`WerpAuxmdMapFile` | 129 | Exported Function
+`WerpCloseStore` | 13 | Exported Function
+`WerpCleanWer` | 12 | Exported Function
+`WerpAuxmdInitialize` | 128 | Exported Function
+`WerpAuxmdFree` | 125 | Exported Function
+`WerpAuxmdDumpRegisteredBlocks` | 124 | Exported Function
+`WerpAuxmdHashVaRanges` | 127 | Exported Function
+`WerpAuxmdFreeCopyBuffer` | 126 | Exported Function
+`WerpExtractReportFiles` | 131 | Exported Function
+`WerpEnumerateStoreStart` | 18 | Exported Function
+`WerpForceDeferredCollection` | 20 | Exported Function
+`WerpFlushImageCache` | 19 | Exported Function
+`WerpEnumerateStoreNext` | 17 | Exported Function
+`WerpCreateMachineStore` | 14 | Exported Function
+`WerpCreateIntegratorReportId` | 130 | Exported Function
+`WerpDestroyWerString` | 16 | Exported Function
+`WerpDeleteReport` | 15 | Exported Function
+`WerpAddAppCompatData` | 4 | Exported Function
+`WerFreeString` | 99 | Exported Function
+`WerpAddFileBuffer` | 120 | Exported Function
+`WerpAddFile` | 119 | Exported Function
+`WerAddExcludedApplication` | 98 | Exported Function
+`GetThreadWaitChain` | 95 | Exported Function
+`CloseThreadWaitChainSession` | 94 | Exported Function
+`RegisterWaitChainCOMCallback` | 97 | Exported Function
+`OpenThreadWaitChainSession` | 96 | Exported Function
+`WerpAddTerminationReason` | 122 | Exported Function
+`WerpAddRegisteredMetadataToReport` | 9 | Exported Function
+`WerpAuxmdDumpProcessImages` | 123 | Exported Function
+`WerpArchiveReport` | 10 | Exported Function
+`WerpAddRegisteredDumpsToReport` | 8 | Exported Function
+`WerpAddIfRegisteredForAppLocalDump` | 5 | Exported Function
+`WerpAddFileCallback` | 121 | Exported Function
+`WerpAddRegisteredDataToReport` | 7 | Exported Function
+`WerpAddMemoryBlock` | 6 | Exported Function
+`WerpGetResponseId` | 42 | Exported Function
+`WerpGetReportType` | 41 | Exported Function
+`WerpGetStoreLocation` | 135 | Exported Function
+`WerpGetSigParamByIndex` | 43 | Exported Function
+`WerpGetReportTime` | 40 | Exported Function
+`WerpGetReportId` | 37 | Exported Function
+`WerpGetReportFlags` | 36 | Exported Function
+`WerpGetReportSettings` | 39 | Exported Function
+`WerpGetReportInformation` | 38 | Exported Function
+`WerpGetWow64Process` | 50 | Exported Function
+`WerpGetWerStringData` | 49 | Exported Function
+`WerpInitializeImageCache` | 52 | Exported Function
+`WerpHashApplicationParameters` | 51 | Exported Function
+`WerpGetUploadTime` | 48 | Exported Function
+`WerpGetStoreType` | 45 | Exported Function
+`WerpGetStorePath` | 44 | Exported Function
+`WerpGetUIParamByIndex` | 47 | Exported Function
+`WerpGetTextFromReport` | 46 | Exported Function
+`WerpGetFileByIndex` | 26 | Exported Function
+`WerpGetExtendedDiagData` | 25 | Exported Function
+`WerpGetIntegratorReportId` | 133 | Exported Function
+`WerpGetFilePathByIndex` | 27 | Exported Function
+`WerpGetEventType` | 24 | Exported Function
+`WerpFreeUnmappedVaRanges` | 21 | Exported Function
+`WerpFreeString` | 132 | Exported Function
+`WerpGetDynamicParameter` | 23 | Exported Function
+`WerpGetBucketId` | 22 | Exported Function
+`WerpGetReportConsent` | 134 | Exported Function
+`WerpGetPathOfWERTempDirectory` | 33 | Exported Function
+`WerpGetReportFinalConsent` | 35 | Exported Function
+`WerpGetReportCount` | 34 | Exported Function
+`WerpGetNumSigParams` | 32 | Exported Function
+`WerpGetLoadedModuleByIndex` | 29 | Exported Function
+`WerpGetLegacyBucketId` | 28 | Exported Function
+`WerpGetNumLoadedModules` | 31 | Exported Function
+`WerpGetNumFiles` | 30 | Exported Function
 
 
 ## Signature

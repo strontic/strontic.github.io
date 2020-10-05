@@ -24,14 +24,14 @@ PE256 | `49CD0887330631E248CA545C2174B6658E73886156F209428A9F9CB322BB4F3D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CacheSettingsDlg` | 5 (0x5) | Exported Function | 0x00000001800378c0 | 0x000378c0
-`CacheSettingsDlg2` | 6 (0x6) | Exported Function | 0x0000000180037840 | 0x00037840
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x0000000180006130 | 0x00006130
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x00000001800061a0 | 0x000061a0
-`DllRegisterServer` | 9 (0x9) | Exported Function | 0x000000018001aff0 | 0x0001aff0
-`DllUnregisterServer` | 10 (0xa) | Exported Function | 0x000000018001c180 | 0x0001c180
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 8 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`CacheSettingsDlg` | 5 | Exported Function
+`CacheSettingsDlg2` | 6 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
 
 
 ## Signature

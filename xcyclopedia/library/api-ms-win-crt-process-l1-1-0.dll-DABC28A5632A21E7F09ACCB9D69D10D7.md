@@ -24,44 +24,44 @@ PE256 | `16868E2E8F74F79405590A5051FA6E83FD14500626645C17A07309C1094CCAA6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_beep` | 1 (0x1) | Exported Function | ucrtbase._beep | 0x000012e8
-`_wexecl` | 21 (0x15) | Exported Function | ucrtbase._wexecl | 0x000014f0
-`_wexecle` | 22 (0x16) | Exported Function | ucrtbase._wexecle | 0x0000150a
-`_wexeclp` | 23 (0x17) | Exported Function | ucrtbase._wexeclp | 0x00001525
-`_wexeclpe` | 24 (0x18) | Exported Function | ucrtbase._wexeclpe | 0x00001541
-`_wexecv` | 25 (0x19) | Exported Function | ucrtbase._wexecv | 0x0000155c
-`_wexecve` | 26 (0x1a) | Exported Function | ucrtbase._wexecve | 0x00001576
-`_unloaddll` | 20 (0x14) | Exported Function | ucrtbase._unloaddll | 0x000014d4
-`_wexecvp` | 27 (0x1b) | Exported Function | ucrtbase._wexecvp | 0x00001591
-`_wspawnl` | 29 (0x1d) | Exported Function | ucrtbase._wspawnl | 0x000015c9
-`_wspawnle` | 30 (0x1e) | Exported Function | ucrtbase._wspawnle | 0x000015e5
-`_wspawnlp` | 31 (0x1f) | Exported Function | ucrtbase._wspawnlp | 0x00001602
-`_wspawnlpe` | 32 (0x20) | Exported Function | ucrtbase._wspawnlpe | 0x00001620
-`_wspawnv` | 33 (0x21) | Exported Function | ucrtbase._wspawnv | 0x0000163d
-`_wspawnve` | 34 (0x22) | Exported Function | ucrtbase._wspawnve | 0x00001659
-`_wexecvpe` | 28 (0x1c) | Exported Function | ucrtbase._wexecvpe | 0x000015ad
-`_spawnvpe` | 19 (0x13) | Exported Function | ucrtbase._spawnvpe | 0x000014b6
-`_spawnvp` | 18 (0x12) | Exported Function | ucrtbase._spawnvp | 0x0000149a
-`_spawnve` | 17 (0x11) | Exported Function | ucrtbase._spawnve | 0x0000147f
-`_cwait` | 2 (0x2) | Exported Function | ucrtbase._cwait | 0x000012fe
-`_execl` | 3 (0x3) | Exported Function | ucrtbase._execl | 0x00001315
-`_execle` | 4 (0x4) | Exported Function | ucrtbase._execle | 0x0000132d
-`_execlp` | 5 (0x5) | Exported Function | ucrtbase._execlp | 0x00001346
-`_execlpe` | 6 (0x6) | Exported Function | ucrtbase._execlpe | 0x00001360
-`_execv` | 7 (0x7) | Exported Function | ucrtbase._execv | 0x00001379
-`_execve` | 8 (0x8) | Exported Function | ucrtbase._execve | 0x00001391
-`_execvp` | 9 (0x9) | Exported Function | ucrtbase._execvp | 0x000013aa
-`_execvpe` | 10 (0xa) | Exported Function | ucrtbase._execvpe | 0x000013c4
-`_loaddll` | 11 (0xb) | Exported Function | ucrtbase._loaddll | 0x000013df
-`_spawnl` | 12 (0xc) | Exported Function | ucrtbase._spawnl | 0x000013f9
-`_spawnle` | 13 (0xd) | Exported Function | ucrtbase._spawnle | 0x00001413
-`_spawnlp` | 14 (0xe) | Exported Function | ucrtbase._spawnlp | 0x0000142e
-`_spawnlpe` | 15 (0xf) | Exported Function | ucrtbase._spawnlpe | 0x0000144a
-`_spawnv` | 16 (0x10) | Exported Function | ucrtbase._spawnv | 0x00001465
-`_wspawnvp` | 35 (0x23) | Exported Function | ucrtbase._wspawnvp | 0x00001676
-`_wspawnvpe` | 36 (0x24) | Exported Function | ucrtbase._wspawnvpe | 0x00001694
+Function Name | Ordinal | Type
+-- | -- | --
+`_wexecv` | 25 | Exported Function
+`_wexeclpe` | 24 | Exported Function
+`_wexecvp` | 27 | Exported Function
+`_wexecve` | 26 | Exported Function
+`_wexeclp` | 23 | Exported Function
+`_unloaddll` | 20 | Exported Function
+`_spawnvpe` | 19 | Exported Function
+`_wexecle` | 22 | Exported Function
+`_wexecl` | 21 | Exported Function
+`_wspawnve` | 34 | Exported Function
+`_wspawnv` | 33 | Exported Function
+`_wspawnvpe` | 36 | Exported Function
+`_wspawnvp` | 35 | Exported Function
+`_wspawnlpe` | 32 | Exported Function
+`_wspawnl` | 29 | Exported Function
+`_wexecvpe` | 28 | Exported Function
+`_wspawnlp` | 31 | Exported Function
+`_wspawnle` | 30 | Exported Function
+`_execv` | 7 | Exported Function
+`_execlpe` | 6 | Exported Function
+`_execvp` | 9 | Exported Function
+`_execve` | 8 | Exported Function
+`_execlp` | 5 | Exported Function
+`_cwait` | 2 | Exported Function
+`_beep` | 1 | Exported Function
+`_execle` | 4 | Exported Function
+`_execl` | 3 | Exported Function
+`_spawnv` | 16 | Exported Function
+`_spawnlpe` | 15 | Exported Function
+`_spawnvp` | 18 | Exported Function
+`_spawnve` | 17 | Exported Function
+`_spawnlp` | 14 | Exported Function
+`_loaddll` | 11 | Exported Function
+`_execvpe` | 10 | Exported Function
+`_spawnle` | 13 | Exported Function
+`_spawnl` | 12 | Exported Function
 
 
 ## Signature

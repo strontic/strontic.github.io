@@ -24,10 +24,10 @@ PE256 | `5C2FFA716696E1C78080B970D711E3E0C8B7409491CFC90D0E673AE8D57CB973`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DiscpLoadGPSettings` | 1 (0x1) | Exported Function | 0x0000000180001330 | 0x00001330
-`DllMain` | 2 (0x2) | Exported Function | 0x0000000180001440 | 0x00001440
+Function Name | Ordinal | Type
+-- | -- | --
+`DllMain` | 2 | Exported Function
+`DiscpLoadGPSettings` | 1 | Exported Function
 
 
 ## Signature

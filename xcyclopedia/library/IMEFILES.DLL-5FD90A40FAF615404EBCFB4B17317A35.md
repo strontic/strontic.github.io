@@ -24,17 +24,17 @@ PE256 | `F6ECA0D970138B56D4F1063533B3D4E2540ABF4613D475F94222E13B7EF9F204`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x1000b9b0 | 0x0000b9b0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x1000b9f0 | 0x0000b9f0
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x1000ba50 | 0x0000ba50
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x1000ba90 | 0x0000ba90
-`FNRM_CleanupGarbageFiles` | 5 (0x5) | Exported Function | 0x1000bb90 | 0x0000bb90
-`FNRM_GetActiveFile` | 6 (0x6) | Exported Function | 0x1000bb20 | 0x0000bb20
-`FNRM_GetRegistrationLevel` | 7 (0x7) | Exported Function | 0x1000bba0 | 0x0000bba0
-`FNRM_SetActiveFile` | 8 (0x8) | Exported Function | 0x1000bb40 | 0x0000bb40
-`FNRM_UnregisterAllPerUserFilesExcept` | 9 (0x9) | Exported Function | 0x1000bb60 | 0x0000bb60
+Function Name | Ordinal | Type
+-- | -- | --
+`FNRM_GetRegistrationLevel` | 7 | Exported Function
+`FNRM_GetActiveFile` | 6 | Exported Function
+`FNRM_UnregisterAllPerUserFilesExcept` | 9 | Exported Function
+`FNRM_SetActiveFile` | 8 | Exported Function
+`FNRM_CleanupGarbageFiles` | 5 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

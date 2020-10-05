@@ -24,36 +24,36 @@ PE256 | `C1A3663741DF97F30B3F9038D9CC485D349D126BC4F1B7FD6396CC82AFA73094`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AccessibleChildren` | 6 (0x6) | Exported Function | 0x618bf920 | 0x0003f920
-`ObjectFromLresult` | 26 (0x1a) | Exported Function | 0x6189a3c0 | 0x0001a3c0
-`LresultFromObject` | 25 (0x19) | Exported Function | 0x61898db0 | 0x00018db0
-`LIBID_Accessibility` | 24 (0x18) | Exported Function | 0x61888d60 | 0x00008d60
-`IID_IAccessibleHandler` | 23 (0x17) | Exported Function | 0x61886c20 | 0x00006c20
-`IID_IAccessible` | 22 (0x16) | Exported Function | 0x61885dc0 | 0x00005dc0
-`GetStateTextW` | 21 (0x15) | Exported Function | 0x618bfa10 | 0x0003fa10
-`GetStateTextA` | 20 (0x14) | Exported Function | 0x618bf9e0 | 0x0003f9e0
-`GetRoleTextW` | 19 (0x13) | Exported Function | 0x6189be90 | 0x0001be90
-`GetRoleTextA` | 18 (0x12) | Exported Function | 0x618bf9b0 | 0x0003f9b0
-`GetProcessHandleFromHwnd` | 17 (0x11) | Exported Function | 0x61897550 | 0x00017550
-`GetOleaccVersionInfo` | 16 (0x10) | Exported Function | 0x61897960 | 0x00017960
-`DllUnregisterServer` | 2 (0x2) | Exported Function | 0x6189b810 | 0x0001b810
-`DllRegisterServer` | 1 (0x1) | Exported Function | 0x6189b810 | 0x0001b810
-`DllGetClassObject` | 15 (0xf) | Exported Function | 0x6189a500 | 0x0001a500
-`DllCanUnloadNow` | 14 (0xe) | Exported Function | 0x6189b780 | 0x0001b780
-`CreateStdAccessibleProxyW` | 13 (0xd) | Exported Function | 0x6188a630 | 0x0000a630
-`CreateStdAccessibleProxyA` | 12 (0xc) | Exported Function | 0x618bf980 | 0x0003f980
-`CreateStdAccessibleObject` | 11 (0xb) | Exported Function | 0x61897930 | 0x00017930
-`AccSetRunningUtilityState` | 5 (0x5) | Exported Function | 0x618bf8f0 | 0x0003f8f0
-`AccNotifyTouchInteraction` | 4 (0x4) | Exported Function | 0x618bf8c0 | 0x0003f8c0
-`AccGetRunningUtilityState` | 3 (0x3) | Exported Function | 0x618bf030 | 0x0003f030
-`AccessibleObjectFromWindowTimeout` | 10 (0xa) | Exported Function | 0x61890a20 | 0x00010a20
-`AccessibleObjectFromWindow` | 9 (0x9) | Exported Function | 0x61898ce0 | 0x00018ce0
-`AccessibleObjectFromPoint` | 8 (0x8) | Exported Function | 0x6188b470 | 0x0000b470
-`AccessibleObjectFromEvent` | 7 (0x7) | Exported Function | 0x618bf950 | 0x0003f950
-`PropMgrClient_LookupProp` | 27 (0x1b) | Exported Function | 0x61895360 | 0x00015360
-`WindowFromAccessibleObject` | 28 (0x1c) | Exported Function | 0x61895600 | 0x00015600
+Function Name | Ordinal | Type
+-- | -- | --
+`GetRoleTextW` | 19 | Exported Function
+`GetStateTextA` | 20 | Exported Function
+`GetStateTextW` | 21 | Exported Function
+`GetRoleTextA` | 18 | Exported Function
+`DllUnregisterServer` | 2 | Exported Function
+`GetOleaccVersionInfo` | 16 | Exported Function
+`GetProcessHandleFromHwnd` | 17 | Exported Function
+`ObjectFromLresult` | 26 | Exported Function
+`PropMgrClient_LookupProp` | 27 | Exported Function
+`WindowFromAccessibleObject` | 28 | Exported Function
+`LresultFromObject` | 25 | Exported Function
+`IID_IAccessible` | 22 | Exported Function
+`IID_IAccessibleHandler` | 23 | Exported Function
+`LIBID_Accessibility` | 24 | Exported Function
+`AccessibleObjectFromWindowTimeout` | 10 | Exported Function
+`AccGetRunningUtilityState` | 3 | Exported Function
+`AccNotifyTouchInteraction` | 4 | Exported Function
+`AccessibleObjectFromWindow` | 9 | Exported Function
+`AccessibleChildren` | 6 | Exported Function
+`AccessibleObjectFromEvent` | 7 | Exported Function
+`AccessibleObjectFromPoint` | 8 | Exported Function
+`DllCanUnloadNow` | 14 | Exported Function
+`DllGetClassObject` | 15 | Exported Function
+`DllRegisterServer` | 1 | Exported Function
+`CreateStdAccessibleProxyW` | 13 | Exported Function
+`AccSetRunningUtilityState` | 5 | Exported Function
+`CreateStdAccessibleObject` | 11 | Exported Function
+`CreateStdAccessibleProxyA` | 12 | Exported Function
 
 
 ## Signature

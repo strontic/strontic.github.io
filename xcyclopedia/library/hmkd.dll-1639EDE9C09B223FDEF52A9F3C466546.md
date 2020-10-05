@@ -24,12 +24,12 @@ PE256 | `1A28DC4B63D93D03CC5D5BFF180AF7D091BD3A18A90758AD5AA17F79258DBA9A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`HMKDCreateHmacKey` | 1 (0x1) | Exported Function | 0x0000000180001070 | 0x00001070
-`HMKDDeriveKey` | 2 (0x2) | Exported Function | 0x0000000180003660 | 0x00003660
-`HMKDGetHmacStatus` | 3 (0x3) | Exported Function | 0x0000000180001640 | 0x00001640
-`HMKDImportHmacKey` | 4 (0x4) | Exported Function | 0x00000001800018e0 | 0x000018e0
+Function Name | Ordinal | Type
+-- | -- | --
+`HMKDGetHmacStatus` | 3 | Exported Function
+`HMKDImportHmacKey` | 4 | Exported Function
+`HMKDCreateHmacKey` | 1 | Exported Function
+`HMKDDeriveKey` | 2 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `4C94DA3DA829F44658C00F04C068E78704515C071C81D9E05813781B4F26389E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WppAutoLogGetDefaultHandle` | 1 (0x1) | Exported Function | 0x00000001800017c0 | 0x000017c0
-`WppAutoLogStart` | 2 (0x2) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`WppAutoLogStop` | 3 (0x3) | Exported Function | 0x00000001800015d0 | 0x000015d0
-`WppAutoLogTrace` | 4 (0x4) | Exported Function | 0x0000000180001630 | 0x00001630
+Function Name | Ordinal | Type
+-- | -- | --
+`WppAutoLogStop` | 3 | Exported Function
+`WppAutoLogTrace` | 4 | Exported Function
+`WppAutoLogGetDefaultHandle` | 1 | Exported Function
+`WppAutoLogStart` | 2 | Exported Function
 
 
 ## Signature

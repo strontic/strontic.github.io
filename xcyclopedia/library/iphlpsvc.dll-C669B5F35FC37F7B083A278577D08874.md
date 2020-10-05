@@ -24,11 +24,11 @@ PE256 | `AA605CE3C3CEA981C893489629776CF49F6D4180589D8488C3FA58146C008A82`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IphlpsvcSysprepGeneralize` | 1 (0x1) | Exported Function | 0x00000001800300b0 | 0x000300b0
-`ServiceMain` | 2 (0x2) | Exported Function | 0x00000001800146e0 | 0x000146e0
-`SvchostPushServiceGlobals` | 3 (0x3) | Exported Function | 0x0000000180016a40 | 0x00016a40
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 3 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`IphlpsvcSysprepGeneralize` | 1 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `D1E0DCF402EBFB6E6183AC0F9ECAE65E8B560CFB95F67F155374A19F7560F3B6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180016bb0 | 0x00016bb0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180016c20 | 0x00016c20
-`InvokeCAPEACLEditor` | 1 (0x1) | Exported Function | 0x0000000180032850 | 0x00032850
-`TranslateAceMasksAndCondition` | 2 (0x2) | Exported Function | 0x0000000180032370 | 0x00032370
+Function Name | Ordinal | Type
+-- | -- | --
+`InvokeCAPEACLEditor` | 1 | Exported Function
+`TranslateAceMasksAndCondition` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

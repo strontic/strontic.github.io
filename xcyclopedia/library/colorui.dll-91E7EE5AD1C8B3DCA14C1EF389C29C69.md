@@ -24,14 +24,14 @@ PE256 | `E013CE22B7AF3E247D57636594558512FEE00B5A807205E666CAB1A51654B5F9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180003b70 | 0x00003b70
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180003bc0 | 0x00003bc0
-`DllMain` | 4 (0x4) | Exported Function | 0x0000000180003dc0 | 0x00003dc0
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x0000000180003d40 | 0x00003d40
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x0000000180003d80 | 0x00003d80
-`LaunchColorCpl` | 1 (0x1) | Exported Function | 0x0000000180003f30 | 0x00003f30
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`LaunchColorCpl` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllMain` | 4 | Exported Function
 
 
 ## Signature

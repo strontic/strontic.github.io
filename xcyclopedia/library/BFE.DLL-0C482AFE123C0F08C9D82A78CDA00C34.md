@@ -24,12 +24,12 @@ PE256 | `257187F4CA570A0C87A04D6E5984A5F2A4B202A43A686B269DBF978AE7AA73FB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BfeGetDirectDispatchTable` | 1 (0x1) | Exported Function | 0x0000000180023780 | 0x00023780
-`BfeOnServiceStartTypeChange` | 2 (0x2) | Exported Function | 0x000000018003da90 | 0x0003da90
-`BfeServiceMain` | 3 (0x3) | Exported Function | 0x0000000180022a50 | 0x00022a50
-`SvchostPushServiceGlobals` | 4 (0x4) | Exported Function | 0x0000000180023850 | 0x00023850
+Function Name | Ordinal | Type
+-- | -- | --
+`BfeServiceMain` | 3 | Exported Function
+`SvchostPushServiceGlobals` | 4 | Exported Function
+`BfeGetDirectDispatchTable` | 1 | Exported Function
+`BfeOnServiceStartTypeChange` | 2 | Exported Function
 
 
 ## Signature

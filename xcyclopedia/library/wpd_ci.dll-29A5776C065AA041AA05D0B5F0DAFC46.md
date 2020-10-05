@@ -24,13 +24,13 @@ PE256 | `E9E6193722AD73FF116048D9DD8937AD0936B7561926DD71081434C12FE0B910`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CoDeviceInstall` | 1 (0x1) | Exported Function | 0x0000000180002740 | 0x00002740
-`DoCmd` | 2 (0x2) | Exported Function | 0x0000000180002980 | 0x00002980
-`MigrateMTPDevicesInstalledAsMSC` | 3 (0x3) | Exported Function | 0x0000000180002c50 | 0x00002c50
-`RescanBus` | 4 (0x4) | Exported Function | 0x0000000180008270 | 0x00008270
-`WpdClassInstaller` | 5 (0x5) | Exported Function | 0x0000000180001ec0 | 0x00001ec0
+Function Name | Ordinal | Type
+-- | -- | --
+`RescanBus` | 4 | Exported Function
+`WpdClassInstaller` | 5 | Exported Function
+`MigrateMTPDevicesInstalledAsMSC` | 3 | Exported Function
+`CoDeviceInstall` | 1 | Exported Function
+`DoCmd` | 2 | Exported Function
 
 
 ## Signature

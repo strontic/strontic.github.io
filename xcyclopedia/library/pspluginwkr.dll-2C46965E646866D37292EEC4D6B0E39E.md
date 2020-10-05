@@ -24,16 +24,16 @@ PE256 | `83080DE5174C22C9DEAD8042D77C62C7C9A3058C873EAC5E694ABB58D78EF160`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitPlugin` | 1 (0x1) | Exported Function | 0x45e3d099 | 0x0001d099
-`WSManPluginCommand` | 2 (0x2) | Exported Function | 0x45e3d1ac | 0x0001d1ac
-`WSManPluginReceive` | 3 (0x3) | Exported Function | 0x45e3d268 | 0x0001d268
-`WSManPluginReleaseCommandContext` | 4 (0x4) | Exported Function | 0x45e3d1ca | 0x0001d1ca
-`WSManPluginReleaseShellContext` | 5 (0x5) | Exported Function | 0x45e3d102 | 0x0001d102
-`WSManPluginSend` | 6 (0x6) | Exported Function | 0x45e3d21a | 0x0001d21a
-`WSManPluginShell` | 7 (0x7) | Exported Function | 0x45e3d0e4 | 0x0001d0e4
-`WSManPluginSignal` | 8 (0x8) | Exported Function | 0x45e3d2b8 | 0x0001d2b8
+Function Name | Ordinal | Type
+-- | -- | --
+`WSManPluginSend` | 6 | Exported Function
+`WSManPluginReleaseShellContext` | 5 | Exported Function
+`WSManPluginSignal` | 8 | Exported Function
+`WSManPluginShell` | 7 | Exported Function
+`WSManPluginCommand` | 2 | Exported Function
+`InitPlugin` | 1 | Exported Function
+`WSManPluginReleaseCommandContext` | 4 | Exported Function
+`WSManPluginReceive` | 3 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `88BA0E76F3E3860576F2190300EDD31B97F57F3B3D2288D52F7FFD73109E847B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetKeyStorageInterface` | 1 (0x1) | Exported Function | 0x1000a260 | 0x0000a260
-`SetAuditingInterface` | 3 (0x3) | Exported Function | 0x1000f880 | 0x0000f880
-`SKCacheFlush` | 2 (0x2) | Exported Function | 0x1000aab0 | 0x0000aab0
+Function Name | Ordinal | Type
+-- | -- | --
+`SKCacheFlush` | 2 | Exported Function
+`SetAuditingInterface` | 3 | Exported Function
+`GetKeyStorageInterface` | 1 | Exported Function
 
 
 ## Signature

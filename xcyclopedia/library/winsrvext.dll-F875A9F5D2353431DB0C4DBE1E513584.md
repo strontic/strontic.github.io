@@ -24,9 +24,9 @@ PE256 | `FDABAD1AFFCFEBA39FCC872839EDB9D28C905ABD392FC03EEDCE10CF8474FC98`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`UserServerDllInitializationExt` | 1 (0x1) | Exported Function | 0x0000000180001370 | 0x00001370
+Function Name | Ordinal | Type
+-- | -- | --
+`UserServerDllInitializationExt` | 1 | Exported Function
 
 
 ## Signature

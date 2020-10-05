@@ -24,13 +24,13 @@ PE256 | `8559F81A0894F79AC736696398440B1EA96A7917E01C54A2627186CAA8D8FF0F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NgcLocalAddCredential` | 1 (0x1) | Exported Function | 0x10006130 | 0x00006130
-`NgcLocalAddCredentialSilent` | 2 (0x2) | Exported Function | 0x10006270 | 0x00006270
-`NgcLocalChangeCredential` | 3 (0x3) | Exported Function | 0x10006400 | 0x00006400
-`NgcLocalFindCredential` | 4 (0x4) | Exported Function | 0x10006570 | 0x00006570
-`NgcLocalRemoveCredential` | 5 (0x5) | Exported Function | 0x10006650 | 0x00006650
+Function Name | Ordinal | Type
+-- | -- | --
+`NgcLocalFindCredential` | 4 | Exported Function
+`NgcLocalRemoveCredential` | 5 | Exported Function
+`NgcLocalChangeCredential` | 3 | Exported Function
+`NgcLocalAddCredential` | 1 | Exported Function
+`NgcLocalAddCredentialSilent` | 2 | Exported Function
 
 
 ## Signature

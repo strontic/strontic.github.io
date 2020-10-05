@@ -24,22 +24,22 @@ PE256 | `5B0CBE220F0136FC65EF0A54ECE13BEC5E6B8F87745EAF352919C09810B4BFED`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetPrivateProfileIntA` | 1 (0x1) | Exported Function | kernel32.GetPrivateProfileIntA | 0x00001154
-`GetPrivateProfileIntW` | 2 (0x2) | Exported Function | kernel32.GetPrivateProfileIntW | 0x00001189
-`GetPrivateProfileSectionW` | 3 (0x3) | Exported Function | kernel32.GetPrivateProfileSectionW | 0x000011c2
-`GetPrivateProfileStringA` | 4 (0x4) | Exported Function | kernel32.GetPrivateProfileStringA | 0x000011fe
-`GetPrivateProfileStringW` | 5 (0x5) | Exported Function | kernel32.GetPrivateProfileStringW | 0x00001239
-`GetProfileIntA` | 6 (0x6) | Exported Function | kernel32.GetProfileIntA | 0x0000126a
-`GetProfileIntW` | 7 (0x7) | Exported Function | kernel32.GetProfileIntW | 0x00001291
-`GetProfileSectionA` | 8 (0x8) | Exported Function | kernel32.GetProfileSectionA | 0x000012bc
-`GetProfileSectionW` | 9 (0x9) | Exported Function | kernel32.GetProfileSectionW | 0x000012eb
-`GetProfileStringA` | 10 (0xa) | Exported Function | kernel32.GetProfileStringA | 0x00001319
-`GetProfileStringW` | 11 (0xb) | Exported Function | kernel32.GetProfileStringW | 0x00001346
-`WritePrivateProfileSectionA` | 12 (0xc) | Exported Function | kernel32.WritePrivateProfileSectionA | 0x0000137d
-`WritePrivateProfileStringA` | 13 (0xd) | Exported Function | kernel32.WritePrivateProfileStringA | 0x000013bd
-`WritePrivateProfileStringW` | 14 (0xe) | Exported Function | kernel32.WritePrivateProfileStringW | 0x000013fc
+Function Name | Ordinal | Type
+-- | -- | --
+`GetProfileStringA` | 10 | Exported Function
+`GetProfileSectionW` | 9 | Exported Function
+`GetProfileSectionA` | 8 | Exported Function
+`GetProfileStringW` | 11 | Exported Function
+`WritePrivateProfileStringW` | 14 | Exported Function
+`WritePrivateProfileStringA` | 13 | Exported Function
+`WritePrivateProfileSectionA` | 12 | Exported Function
+`GetPrivateProfileSectionW` | 3 | Exported Function
+`GetPrivateProfileIntW` | 2 | Exported Function
+`GetPrivateProfileIntA` | 1 | Exported Function
+`GetPrivateProfileStringA` | 4 | Exported Function
+`GetProfileIntW` | 7 | Exported Function
+`GetProfileIntA` | 6 | Exported Function
+`GetPrivateProfileStringW` | 5 | Exported Function
 
 
 ## Signature

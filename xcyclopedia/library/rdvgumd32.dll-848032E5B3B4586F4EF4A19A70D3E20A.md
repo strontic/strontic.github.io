@@ -24,9 +24,9 @@ PE256 | `B1FF1832C796EAC9DDB99583E7F18F4BE8C8BCBD6468EBB7C65310A390493A7D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OpenAdapter` | 1 (0x1) | Exported Function | 0x1000a900 | 0x0000a900
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenAdapter` | 1 | Exported Function
 
 
 ## Signature

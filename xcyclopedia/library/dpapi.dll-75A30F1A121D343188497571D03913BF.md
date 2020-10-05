@@ -24,15 +24,15 @@ PE256 | `66DA5299C01D867481B434A8FCFFB31478150AC8A6614502C31973E804CB7DD0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CryptProtectDataNoUI` | 1 (0x1) | Exported Function | 0x10001720 | 0x00001720
-`CryptProtectMemory` | 2 (0x2) | Exported Function | 0x10001d60 | 0x00001d60
-`CryptResetMachineCredentials` | 3 (0x3) | Exported Function | 0x10002ab0 | 0x00002ab0
-`CryptUnprotectDataNoUI` | 4 (0x4) | Exported Function | 0x10001980 | 0x00001980
-`CryptUnprotectMemory` | 5 (0x5) | Exported Function | 0x10001d90 | 0x00001d90
-`CryptUpdateProtectedState` | 6 (0x6) | Exported Function | 0x10002890 | 0x00002890
-`iCryptIdentifyProtection` | 7 (0x7) | Exported Function | 0x10001c10 | 0x00001c10
+Function Name | Ordinal | Type
+-- | -- | --
+`CryptUnprotectMemory` | 5 | Exported Function
+`CryptUpdateProtectedState` | 6 | Exported Function
+`iCryptIdentifyProtection` | 7 | Exported Function
+`CryptUnprotectDataNoUI` | 4 | Exported Function
+`CryptProtectDataNoUI` | 1 | Exported Function
+`CryptProtectMemory` | 2 | Exported Function
+`CryptResetMachineCredentials` | 3 | Exported Function
 
 
 ## Signature

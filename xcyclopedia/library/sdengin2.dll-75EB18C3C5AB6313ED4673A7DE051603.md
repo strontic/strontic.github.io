@@ -24,15 +24,15 @@ PE256 | `8C3727120C5E5D5729B13D48DAE49284F4E59C5F5522E27E4BB7B94FBDF968DB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180050420 | 0x00050420
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x00000001800508e0 | 0x000508e0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180050440 | 0x00050440
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x0000000180050460 | 0x00050460
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x0000000180050520 | 0x00050520
-`ExecuteScheduledBackup` | 1 (0x1) | Exported Function | 0x00000001800508d0 | 0x000508d0
-`SdCheck` | 7 (0x7) | Exported Function | 0x00000001800014e0 | 0x000014e0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 6 | Exported Function
+`ExecuteScheduledBackup` | 1 | Exported Function
+`SdCheck` | 7 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

@@ -24,14 +24,14 @@ PE256 | `EF2DF81BEF51D3733F51C7129A37516CFB26E60BE12D2BF85657210C4323B769`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180001ee0 | 0x00001ee0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180001f00 | 0x00001f00
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x0000000180001f30 | 0x00001f30
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x0000000180001f50 | 0x00001f50
-`FaxModemCoClassInstaller` | 1 (0x1) | Exported Function | 0x0000000180001710 | 0x00001710
-`SecureFaxServiceDirectories` | 2 (0x2) | Exported Function | 0x00000001800013e0 | 0x000013e0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 6 | Exported Function
+`FaxModemCoClassInstaller` | 1 | Exported Function
+`SecureFaxServiceDirectories` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
 
 
 ## Signature

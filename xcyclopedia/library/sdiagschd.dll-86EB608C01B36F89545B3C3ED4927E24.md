@@ -24,12 +24,12 @@ PE256 | `D397D01D480522BAACA54BABD13C80C8ACAFFC44A1AE27AEB4B51F183D2A2119`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x00000001800058f0 | 0x000058f0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180005910 | 0x00005910
-`EnableScheduledDiagnostics` | 3 (0x3) | Exported Function | 0x0000000180006060 | 0x00006060
-`GetScheduledDiagnosticsExecutionLevel` | 4 (0x4) | Exported Function | 0x0000000180006190 | 0x00006190
+Function Name | Ordinal | Type
+-- | -- | --
+`EnableScheduledDiagnostics` | 3 | Exported Function
+`GetScheduledDiagnosticsExecutionLevel` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

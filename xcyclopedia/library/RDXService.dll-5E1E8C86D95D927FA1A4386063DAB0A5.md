@@ -24,13 +24,13 @@ PE256 | `E94311C8F350B6D78AC43D9E062404E343061E93C875C4C92E95498A70282C94`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x000000018000b330 | 0x0000b330
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x000000018000b3a0 | 0x0000b3a0
-`GetProxyDllInfo` | 5 (0x5) | Exported Function | 0x0000000180003340 | 0x00003340
-`OpenRDXDocumentW` | 1 (0x1) | Exported Function | 0x000000018000b4d0 | 0x0000b4d0
-`ServiceMain` | 2 (0x2) | Exported Function | 0x000000018000b2d0 | 0x0000b2d0
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenRDXDocumentW` | 1 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`GetProxyDllInfo` | 5 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

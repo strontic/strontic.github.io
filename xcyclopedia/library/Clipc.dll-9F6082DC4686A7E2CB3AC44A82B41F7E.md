@@ -24,30 +24,30 @@ PE256 | `AFEA3EF77D21CDF2CD9DDDF2994342249D95F5F6331E9A66FF9C2B548BE4B87F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClipCallServer` | 3 (0x3) | Exported Function | 0x10004ea0 | 0x00004ea0
-`GetOfflineDeviceUniqueID` | 2 (0x2) | Exported Function | 0x10005c80 | 0x00005c80
-`GetExchangeDeviceUniqueID` | 1 (0x1) | Exported Function | 0x10005f90 | 0x00005f90
-`ClipUninstallLicense` | 20 (0x14) | Exported Function | 0x10004540 | 0x00004540
-`ClipRefreshLicense` | 19 (0x13) | Exported Function | 0x10005550 | 0x00005550
-`ClipQueryAssociateId` | 18 (0x12) | Exported Function | 0x10004780 | 0x00004780
-`ClipOpen` | 17 (0x11) | Exported Function | 0x100041c0 | 0x000041c0
-`ClipInstallLicense` | 16 (0x10) | Exported Function | 0x100042d0 | 0x000042d0
-`ClipGetSubscriptionStatus` | 15 (0xf) | Exported Function | 0x10006210 | 0x00006210
-`ClipGetQueryResults` | 14 (0xe) | Exported Function | 0x10004b90 | 0x00004b90
-`ClipGetLicenseData` | 13 (0xd) | Exported Function | 0x10004620 | 0x00004620
-`ClipGetLicenseAndPolicyForPfn` | 12 (0xc) | Exported Function | 0x10006380 | 0x00006380
-`ClipGetFileIdFromAssociateId` | 11 (0xb) | Exported Function | 0x10004d80 | 0x00004d80
-`ClipGetDeviceHardwareData` | 10 (0xa) | Exported Function | 0x10006780 | 0x00006780
-`ClipGetAssociatedResults` | 9 (0x9) | Exported Function | 0x10004950 | 0x00004950
-`ClipGenerateDeviceLicenseRequest` | 8 (0x8) | Exported Function | 0x100051c0 | 0x000051c0
-`ClipGenerateClientChallengeData` | 7 (0x7) | Exported Function | 0x100053f0 | 0x000053f0
-`ClipGatherDiagnostics` | 6 (0x6) | Exported Function | 0x10005660 | 0x00005660
-`ClipClose` | 5 (0x5) | Exported Function | 0x10004240 | 0x00004240
-`ClipCleanUpState` | 4 (0x4) | Exported Function | 0x10005820 | 0x00005820
-`SLQueryLicenseValueFromApp` | 22 (0x16) | Exported Function | 0x10006110 | 0x00006110
-`SLQueryLicenseValueFromApp2` | 21 (0x15) | Exported Function | 0x100061a0 | 0x000061a0
+Function Name | Ordinal | Type
+-- | -- | --
+`ClipOpen` | 17 | Exported Function
+`ClipQueryAssociateId` | 18 | Exported Function
+`ClipInstallLicense` | 16 | Exported Function
+`ClipGetQueryResults` | 14 | Exported Function
+`ClipGetSubscriptionStatus` | 15 | Exported Function
+`ClipRefreshLicense` | 19 | Exported Function
+`SLQueryLicenseValueFromApp` | 22 | Exported Function
+`SLQueryLicenseValueFromApp2` | 21 | Exported Function
+`GetOfflineDeviceUniqueID` | 2 | Exported Function
+`ClipUninstallLicense` | 20 | Exported Function
+`GetExchangeDeviceUniqueID` | 1 | Exported Function
+`ClipGatherDiagnostics` | 6 | Exported Function
+`ClipGenerateClientChallengeData` | 7 | Exported Function
+`ClipClose` | 5 | Exported Function
+`ClipCallServer` | 3 | Exported Function
+`ClipCleanUpState` | 4 | Exported Function
+`ClipGenerateDeviceLicenseRequest` | 8 | Exported Function
+`ClipGetLicenseAndPolicyForPfn` | 12 | Exported Function
+`ClipGetLicenseData` | 13 | Exported Function
+`ClipGetFileIdFromAssociateId` | 11 | Exported Function
+`ClipGetAssociatedResults` | 9 | Exported Function
+`ClipGetDeviceHardwareData` | 10 | Exported Function
 
 
 ## Signature

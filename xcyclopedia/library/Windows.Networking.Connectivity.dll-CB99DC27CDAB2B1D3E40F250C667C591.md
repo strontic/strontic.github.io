@@ -24,18 +24,18 @@ PE256 | `1E0FDEC0DB9096736A36B6C21F80254048BA15C4E2710E224DC02627D4B45A0C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180003320 | 0x00003320
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x0000000180003f50 | 0x00003f50
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180003cb0 | 0x00003cb0
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x000000018002ad50 | 0x0002ad50
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x000000018002ad80 | 0x0002ad80
-`FixDisabledComponentsForTeredo` | 7 (0x7) | Exported Function | 0x000000018002a760 | 0x0002a760
-`RefreshTeredoClientState` | 8 (0x8) | Exported Function | 0x000000018002a810 | 0x0002a810
-`SetHostNameMediaStreamingMode` | 1 (0x1) | Exported Function | 0x000000018002a3f0 | 0x0002a3f0
-`TeredoExtAcquireTeredoConsumerHandle` | 9 (0x9) | Exported Function | 0x000000018002a8c0 | 0x0002a8c0
-`TeredoExtReleaseTeredoConsumerHandle` | 10 (0xa) | Exported Function | 0x000000018002a990 | 0x0002a990
+Function Name | Ordinal | Type
+-- | -- | --
+`RefreshTeredoClientState` | 8 | Exported Function
+`FixDisabledComponentsForTeredo` | 7 | Exported Function
+`SetHostNameMediaStreamingMode` | 1 | Exported Function
+`TeredoExtReleaseTeredoConsumerHandle` | 10 | Exported Function
+`TeredoExtAcquireTeredoConsumerHandle` | 9 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
 
 
 ## Signature

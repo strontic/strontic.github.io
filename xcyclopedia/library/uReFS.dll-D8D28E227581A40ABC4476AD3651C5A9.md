@@ -24,21 +24,21 @@ PE256 | `C62B84E04E8E185DD8A39070AD81F1F76C2561B04CE7276AD5B08764F0A8CFC6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Chkdsk` | 5 (0x5) | Exported Function | 0x100182e0 | 0x000182e0
-`ChkdskEx` | 6 (0x6) | Exported Function | 0x10018390 | 0x00018390
-`Extend` | 7 (0x7) | Exported Function | 0x1001b810 | 0x0001b810
-`Format` | 8 (0x8) | Exported Function | 0x10018500 | 0x00018500
-`FormatEx` | 9 (0x9) | Exported Function | 0x100186d0 | 0x000186d0
-`GetFilesystemInformation` | 10 (0xa) | Exported Function | 0x100183a0 | 0x000183a0
-`public: __thiscall REFS_SA::REFS_SA(void)` | 1 (0x1) | Exported Function | 0x1001b060 | 0x0001b060
-`public: __thiscall REFS_UPCASE_TABLE::REFS_UPCASE_TABLE(void)` | 2 (0x2) | Exported Function | 0x1001b890 | 0x0001b890
-`public: unsigned char __thiscall REFS_SA::Initialize(class LOG_IO_DP_DRIVE *,class MESSAGE *)` | 11 (0xb) | Exported Function | 0x1001b190 | 0x0001b190
-`public: virtual __thiscall REFS_SA::~REFS_SA(void)` | 3 (0x3) | Exported Function | 0x1001b150 | 0x0001b150
-`public: virtual __thiscall REFS_UPCASE_TABLE::~REFS_UPCASE_TABLE(void)` | 4 (0x4) | Exported Function | 0x1001b8c0 | 0x0001b8c0
-`Recover` | 12 (0xc) | Exported Function | 0x100189e0 | 0x000189e0
-`SetOriginalVolumeName` | 13 (0xd) | Exported Function | 0x100182f0 | 0x000182f0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: virtual __thiscall REFS_SA::~REFS_SA(void)` | 3 | Exported Function
+`public: unsigned char __thiscall REFS_SA::Initialize(class LOG_IO_DP_DRIVE *,class MESSAGE *)` | 11 | Exported Function
+`public: __thiscall REFS_UPCASE_TABLE::REFS_UPCASE_TABLE(void)` | 2 | Exported Function
+`SetOriginalVolumeName` | 13 | Exported Function
+`Recover` | 12 | Exported Function
+`public: virtual __thiscall REFS_UPCASE_TABLE::~REFS_UPCASE_TABLE(void)` | 4 | Exported Function
+`public: __thiscall REFS_SA::REFS_SA(void)` | 1 | Exported Function
+`Extend` | 7 | Exported Function
+`ChkdskEx` | 6 | Exported Function
+`Chkdsk` | 5 | Exported Function
+`GetFilesystemInformation` | 10 | Exported Function
+`FormatEx` | 9 | Exported Function
+`Format` | 8 | Exported Function
 
 
 ## Signature

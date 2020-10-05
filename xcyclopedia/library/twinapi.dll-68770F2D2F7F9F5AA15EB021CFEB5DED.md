@@ -24,26 +24,12 @@ PE256 | `FB04613865CC099DFE631594C76A8DD7C4F6816D8FDDF58CC9D48F6D527F87FD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 16 (0x10) | Exported Function | 0x000000018000a780 | 0x0000a780
-`Ordinal6` | 6 (0x6) | Exported Function | 0x00000001800193a0 | 0x000193a0
-`Ordinal5` | 5 (0x5) | Exported Function | 0x00000001800193e0 | 0x000193e0
-`Ordinal4` | 4 (0x4) | Exported Function | 0x0000000180019320 | 0x00019320
-`Ordinal3` | 3 (0x3) | Exported Function | 0x0000000180019360 | 0x00019360
-`Ordinal2` | 2 (0x2) | Exported Function | 0x0000000180019380 | 0x00019380
-`Ordinal15` | 15 (0xf) | Exported Function | 0x0000000180019300 | 0x00019300
-`Ordinal14` | 14 (0xe) | Exported Function | 0x00000001800193c0 | 0x000193c0
-`Ordinal13` | 13 (0xd) | Exported Function | 0x000000018000cd50 | 0x0000cd50
-`Ordinal12` | 12 (0xc) | Exported Function | 0x0000000180019340 | 0x00019340
-`Ordinal11` | 11 (0xb) | Exported Function | 0x000000018000b9d0 | 0x0000b9d0
-`Ordinal10` | 10 (0xa) | Exported Function | 0x000000018000c9e0 | 0x0000c9e0
-`Ordinal1` | 1 (0x1) | Exported Function | 0x000000018000cda0 | 0x0000cda0
-`GetMetroMode` | 8 (0x8) | Exported Function | 0x000000018003ad60 | 0x0003ad60
-`DllGetClassObject` | 18 (0x12) | Exported Function | 0x000000018000a420 | 0x0000a420
-`DllGetActivationFactory` | 17 (0x11) | Exported Function | 0x000000018000b5d0 | 0x0000b5d0
-`Ordinal7` | 7 (0x7) | Exported Function | 0x000000018003ab80 | 0x0003ab80
-`Ordinal9` | 9 (0x9) | Exported Function | 0x000000018000ebe0 | 0x0000ebe0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 18 | Exported Function
+`GetMetroMode` | 8 | Exported Function
+`DllCanUnloadNow` | 16 | Exported Function
+`DllGetActivationFactory` | 17 | Exported Function
 
 
 ## Signature

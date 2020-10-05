@@ -24,13 +24,13 @@ PE256 | `2C9D6798780FE649A60D6E7ECB2593C380457E3D98E1CA99EB2687A7CF58FFF5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CleanupUDSGlobals` | 1 (0x1) | Exported Function | 0x000000018005b610 | 0x0005b610
-`CreateInprocConnectionHandle` | 2 (0x2) | Exported Function | 0x000000018005c2b0 | 0x0005c2b0
-`ServiceMain` | 3 (0x3) | Exported Function | 0x000000018005c510 | 0x0005c510
-`SvchostPushServiceGlobals` | 4 (0x4) | Exported Function | 0x000000018005c520 | 0x0005c520
-`TeardownInprocConnectionHandle` | 5 (0x5) | Exported Function | 0x000000018005c530 | 0x0005c530
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 4 | Exported Function
+`TeardownInprocConnectionHandle` | 5 | Exported Function
+`ServiceMain` | 3 | Exported Function
+`CleanupUDSGlobals` | 1 | Exported Function
+`CreateInprocConnectionHandle` | 2 | Exported Function
 
 
 ## Signature

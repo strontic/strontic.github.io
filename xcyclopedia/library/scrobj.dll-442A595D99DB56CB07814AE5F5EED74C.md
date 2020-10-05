@@ -24,19 +24,19 @@ PE256 | `B12BE105B5D83755E8DF16592EA64A335B9694266A665AA6FB16564329DE104F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x10009a30 | 0x00009a30
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x10008480 | 0x00008480
-`DllInstall` | 5 (0x5) | Exported Function | 0x100178c0 | 0x000178c0
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x10017910 | 0x00017910
-`DllRegisterServerEx` | 7 (0x7) | Exported Function | 0x100179c0 | 0x000179c0
-`DllRegisterServerExA` | 8 (0x8) | Exported Function | 0x100179c0 | 0x000179c0
-`DllRegisterServerExW` | 9 (0x9) | Exported Function | 0x10017a10 | 0x00017a10
-`DllUnregisterServer` | 10 (0xa) | Exported Function | 0x10017a60 | 0x00017a60
-`DllUnregisterServerEx` | 11 (0xb) | Exported Function | 0x10017b40 | 0x00017b40
-`GenerateTypeLib` | 1 (0x1) | Exported Function | 0x100175a0 | 0x000175a0
-`GenerateTypeLibW` | 2 (0x2) | Exported Function | 0x10017630 | 0x00017630
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 10 | Exported Function
+`DllRegisterServerExW` | 9 | Exported Function
+`DllUnregisterServerEx` | 11 | Exported Function
+`GenerateTypeLibW` | 2 | Exported Function
+`GenerateTypeLib` | 1 | Exported Function
+`DllRegisterServerExA` | 8 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllInstall` | 5 | Exported Function
+`DllRegisterServerEx` | 7 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
 
 
 ## Signature

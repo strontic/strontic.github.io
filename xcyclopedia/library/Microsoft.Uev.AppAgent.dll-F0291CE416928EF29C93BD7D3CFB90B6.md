@@ -24,9 +24,9 @@ PE256 | `C161AAEBF03D59045741889ACD2C3229E96E3D812851AE5116DF9E906F93EE13`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OrdinalOne` | 1 (0x1) | Exported Function | 0x000000018001f0f0 | 0x0001f0f0
+Function Name | Ordinal | Type
+-- | -- | --
+`OrdinalOne` | 1 | Exported Function
 
 
 ## Signature

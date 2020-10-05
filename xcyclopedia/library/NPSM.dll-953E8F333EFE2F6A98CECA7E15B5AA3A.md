@@ -24,15 +24,15 @@ PE256 | `93AA104421183B38854D40E7AE4E051334F6F71ED0045459016B14D59FACACD3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180002c40 | 0x00002c40
-`DllGetActivationFactory` | 4 (0x4) | Exported Function | 0x0000000180002970 | 0x00002970
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x0000000180002b50 | 0x00002b50
-`RegisterNowPlayingSessionManagerFactory` | 1 (0x1) | Exported Function | 0x0000000180003320 | 0x00003320
-`ServiceMain` | 6 (0x6) | Exported Function | 0x0000000180003350 | 0x00003350
-`SvchostPushServiceGlobals` | 7 (0x7) | Exported Function | 0x00000001800034f0 | 0x000034f0
-`UnregisterNowPlayingSessionManagerFactory` | 2 (0x2) | Exported Function | 0x0000000180003280 | 0x00003280
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 6 | Exported Function
+`SvchostPushServiceGlobals` | 7 | Exported Function
+`UnregisterNowPlayingSessionManagerFactory` | 2 | Exported Function
+`RegisterNowPlayingSessionManagerFactory` | 1 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetActivationFactory` | 4 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
 
 
 ## Signature

@@ -24,37 +24,37 @@ PE256 | `74278B4D4FE47C27F0BE7CD72962D768310F29709F7D385A0BE3214B2C7CB326`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`D3DAssemble` | 1 (0x1) | Exported Function | 0x1016cad0 | 0x0016cad0
-`D3DStripShader` | 28 (0x1c) | Exported Function | 0x1016e200 | 0x0016e200
-`D3DSetBlobPart` | 27 (0x1b) | Exported Function | 0x1016ddc0 | 0x0016ddc0
-`D3DReturnFailure1` | 26 (0x1a) | Exported Function | 0x1016f1d0 | 0x0016f1d0
-`D3DReflectLibrary` | 25 (0x19) | Exported Function | 0x100a0790 | 0x000a0790
-`D3DReflect` | 24 (0x18) | Exported Function | 0x100a0670 | 0x000a0670
-`D3DReadFileToBlob` | 23 (0x17) | Exported Function | 0x1016b230 | 0x0016b230
-`D3DPreprocess` | 22 (0x16) | Exported Function | 0x1016d740 | 0x0016d740
-`D3DLoadModule` | 21 (0x15) | Exported Function | 0x100a0980 | 0x000a0980
-`D3DGetTraceInstructionOffsets` | 20 (0x14) | Exported Function | 0x100a0610 | 0x000a0610
-`D3DGetOutputSignatureBlob` | 19 (0x13) | Exported Function | 0x1016e1c0 | 0x0016e1c0
-`D3DGetInputSignatureBlob` | 18 (0x12) | Exported Function | 0x1016e1a0 | 0x0016e1a0
-`D3DGetInputAndOutputSignatureBlob` | 17 (0x11) | Exported Function | 0x1016e1e0 | 0x0016e1e0
-`D3DWriteBlobToFile` | 29 (0x1d) | Exported Function | 0x1016b410 | 0x0016b410
-`D3DGetDebugInfo` | 16 (0x10) | Exported Function | 0x1016e180 | 0x0016e180
-`D3DDisassembleRegion` | 14 (0xe) | Exported Function | 0x100a05e0 | 0x000a05e0
-`D3DDisassemble11Trace` | 12 (0xc) | Exported Function | 0x100a0640 | 0x000a0640
-`D3DDisassemble10Effect` | 11 (0xb) | Exported Function | 0x100ae4f0 | 0x000ae4f0
-`D3DDisassemble` | 13 (0xd) | Exported Function | 0x100a05b0 | 0x000a05b0
-`D3DDecompressShaders` | 10 (0xa) | Exported Function | 0x1016f000 | 0x0016f000
-`D3DCreateLinker` | 9 (0x9) | Exported Function | 0x100a0900 | 0x000a0900
-`D3DCreateFunctionLinkingGraph` | 8 (0x8) | Exported Function | 0x100a0a70 | 0x000a0a70
-`D3DCreateBlob` | 7 (0x7) | Exported Function | 0x100a08d0 | 0x000a08d0
-`D3DCompressShaders` | 6 (0x6) | Exported Function | 0x1016ed20 | 0x0016ed20
-`D3DCompileFromFile` | 5 (0x5) | Exported Function | 0x1016c990 | 0x0016c990
-`D3DCompile2` | 3 (0x3) | Exported Function | 0x1016c920 | 0x0016c920
-`D3DCompile` | 4 (0x4) | Exported Function | 0x1016c8b0 | 0x0016c8b0
-`D3DGetBlobPart` | 15 (0xf) | Exported Function | 0x1016dd90 | 0x0016dd90
-`DebugSetMute` | 2 (0x2) | Exported Function | 0x100a0b90 | 0x000a0b90
+Function Name | Ordinal | Type
+-- | -- | --
+`D3DLoadModule` | 21 | Exported Function
+`D3DPreprocess` | 22 | Exported Function
+`D3DReadFileToBlob` | 23 | Exported Function
+`D3DGetTraceInstructionOffsets` | 20 | Exported Function
+`D3DGetInputAndOutputSignatureBlob` | 17 | Exported Function
+`D3DGetInputSignatureBlob` | 18 | Exported Function
+`D3DGetOutputSignatureBlob` | 19 | Exported Function
+`D3DStripShader` | 28 | Exported Function
+`D3DWriteBlobToFile` | 29 | Exported Function
+`DebugSetMute` | 2 | Exported Function
+`D3DSetBlobPart` | 27 | Exported Function
+`D3DReflect` | 24 | Exported Function
+`D3DReflectLibrary` | 25 | Exported Function
+`D3DReturnFailure1` | 26 | Exported Function
+`D3DGetDebugInfo` | 16 | Exported Function
+`D3DCompressShaders` | 6 | Exported Function
+`D3DCreateBlob` | 7 | Exported Function
+`D3DCreateFunctionLinkingGraph` | 8 | Exported Function
+`D3DCompileFromFile` | 5 | Exported Function
+`D3DAssemble` | 1 | Exported Function
+`D3DCompile` | 4 | Exported Function
+`D3DCompile2` | 3 | Exported Function
+`D3DDisassemble11Trace` | 12 | Exported Function
+`D3DDisassembleRegion` | 14 | Exported Function
+`D3DGetBlobPart` | 15 | Exported Function
+`D3DDisassemble10Effect` | 11 | Exported Function
+`D3DCreateLinker` | 9 | Exported Function
+`D3DDecompressShaders` | 10 | Exported Function
+`D3DDisassemble` | 13 | Exported Function
 
 
 ## Signature

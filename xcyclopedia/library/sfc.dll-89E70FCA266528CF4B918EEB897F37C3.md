@@ -24,24 +24,16 @@ PE256 | `8AA68B12B452B9928B533A6403CD7E8D5C1B791F978FC324BB224FBF5E75DA90`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Ordinal1` | 1 (0x1) | Exported Function | sfc_os.SfcInitProt | 0x000011f9
-`Ordinal2` | 2 (0x2) | Exported Function | sfc_os.SfcTerminateWatcherThread | 0x0000129b
-`Ordinal3` | 3 (0x3) | Exported Function | sfc_os.SfcConnectToServer | 0x00001190
-`Ordinal4` | 4 (0x4) | Exported Function | sfc_os.SfcClose | 0x00001180
-`Ordinal5` | 5 (0x5) | Exported Function | sfc_os.SfcFileException | 0x000011aa
-`Ordinal6` | 6 (0x6) | Exported Function | sfc_os.SfcInitiateScan | 0x0000120c
-`Ordinal7` | 7 (0x7) | Exported Function | sfc_os.SfcInstallProtectedFiles | 0x00001223
-`Ordinal8` | 8 (0x8) | Exported Function | sfc_os.SfpInstallCatalog | 0x000012d4
-`Ordinal9` | 9 (0x9) | Exported Function | sfc_os.SfpDeleteCatalog | 0x000012bc
-`SfcGetNextProtectedFile` | 13 (0xd) | Exported Function | sfc_os.SfcGetNextProtectedFile | 0x000011da
-`SfcIsFileProtected` | 14 (0xe) | Exported Function | sfc_os.SfcIsFileProtected | 0x00001256
-`SfcIsKeyProtected` | 15 (0xf) | Exported Function | sfc_os.SfcIsKeyProtected | 0x00001282
-`SfpVerifyFile` | 16 (0x10) | Exported Function | sfc_os.SfpVerifyFile | 0x000012fb
-`SRSetRestorePoint` | 10 (0xa) | Exported Function | sfc_os.SRSetRestorePointA | 0x0000110c
-`SRSetRestorePointA` | 11 (0xb) | Exported Function | sfc_os.SRSetRestorePointA | 0x00001139
-`SRSetRestorePointW` | 12 (0xc) | Exported Function | sfc_os.SRSetRestorePointW | 0x00001166
+Function Name | Ordinal | Type
+-- | -- | --
+`SRSetRestorePoint` | 10 | Exported Function
+`SfpVerifyFile` | 16 | Exported Function
+`SRSetRestorePointW` | 12 | Exported Function
+`SRSetRestorePointA` | 11 | Exported Function
+`SfcGetNextProtectedFile` | 13 | Exported Function
+`Ordinal1` | 1 | Exported Function
+`SfcIsKeyProtected` | 15 | Exported Function
+`SfcIsFileProtected` | 14 | Exported Function
 
 
 ## Signature

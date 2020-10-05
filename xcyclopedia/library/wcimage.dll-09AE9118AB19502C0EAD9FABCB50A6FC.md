@@ -24,22 +24,22 @@ PE256 | `A4279BD8EFB42F29895C29F8DFEF9CDDD61DADC30746812F576585787D4B1600`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WcCompressFile` | 1 (0x1) | Exported Function | 0x0000000180007a10 | 0x00007a10
-`WcCompressFileAsync` | 2 (0x2) | Exported Function | 0x0000000180007bb0 | 0x00007bb0
-`WcConvertToReparsePoint` | 3 (0x3) | Exported Function | 0x0000000180004e40 | 0x00004e40
-`WcCreateContainerImageFromPortableBaseLayer` | 4 (0x4) | Exported Function | 0x00000001800064a0 | 0x000064a0
-`WcCreateContainerImageFromWim` | 5 (0x5) | Exported Function | 0x0000000180004860 | 0x00004860
-`WcCreateContainerImageFromWimEx` | 6 (0x6) | Exported Function | 0x0000000180004890 | 0x00004890
-`WcDismountVirtualDisk` | 7 (0x7) | Exported Function | 0x00000001800087c0 | 0x000087c0
-`WcDismountVirtualDiskFromHandle` | 8 (0x8) | Exported Function | 0x00000001800089b0 | 0x000089b0
-`WcEnsurePathExists` | 9 (0x9) | Exported Function | 0x0000000180006d90 | 0x00006d90
-`WcExpandContainerWim` | 10 (0xa) | Exported Function | 0x0000000180003430 | 0x00003430
-`WcMountVirtualDisk` | 11 (0xb) | Exported Function | 0x0000000180007e20 | 0x00007e20
-`WcProcessContainerLayer` | 12 (0xc) | Exported Function | 0x0000000180004b10 | 0x00004b10
-`WcSetVirtualDiskAttributes` | 13 (0xd) | Exported Function | 0x0000000180008ab0 | 0x00008ab0
-`WcWaitForPendingFileCompressionOperations` | 14 (0xe) | Exported Function | 0x0000000180007c80 | 0x00007c80
+Function Name | Ordinal | Type
+-- | -- | --
+`WcExpandContainerWim` | 10 | Exported Function
+`WcEnsurePathExists` | 9 | Exported Function
+`WcDismountVirtualDiskFromHandle` | 8 | Exported Function
+`WcMountVirtualDisk` | 11 | Exported Function
+`WcWaitForPendingFileCompressionOperations` | 14 | Exported Function
+`WcSetVirtualDiskAttributes` | 13 | Exported Function
+`WcProcessContainerLayer` | 12 | Exported Function
+`WcConvertToReparsePoint` | 3 | Exported Function
+`WcCompressFileAsync` | 2 | Exported Function
+`WcCompressFile` | 1 | Exported Function
+`WcCreateContainerImageFromPortableBaseLayer` | 4 | Exported Function
+`WcDismountVirtualDisk` | 7 | Exported Function
+`WcCreateContainerImageFromWimEx` | 6 | Exported Function
+`WcCreateContainerImageFromWim` | 5 | Exported Function
 
 
 ## Signature

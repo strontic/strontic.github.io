@@ -24,13 +24,13 @@ PE256 | `3B771A12B6B8FD4A5496BA0CA0D7BC932D71486065EFFB962C02AD7C5A93313A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CAPISysPrep_Generalize` | 1 (0x1) | Exported Function | 0x10002d80 | 0x00002d80
-`CryptoSysPrep_Clean` | 2 (0x2) | Exported Function | 0x100035e0 | 0x000035e0
-`CryptoSysPrep_Specialize` | 3 (0x3) | Exported Function | 0x100031d0 | 0x000031d0
-`CryptoSysPrep_Specialize_Clone` | 4 (0x4) | Exported Function | 0x100031e0 | 0x000031e0
-`CryptoSysPrep_Specialize_Offline` | 5 (0x5) | Exported Function | 0x100031f0 | 0x000031f0
+Function Name | Ordinal | Type
+-- | -- | --
+`CryptoSysPrep_Specialize_Clone` | 4 | Exported Function
+`CryptoSysPrep_Specialize_Offline` | 5 | Exported Function
+`CryptoSysPrep_Specialize` | 3 | Exported Function
+`CAPISysPrep_Generalize` | 1 | Exported Function
+`CryptoSysPrep_Clean` | 2 | Exported Function
 
 
 ## Signature

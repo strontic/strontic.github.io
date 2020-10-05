@@ -24,24 +24,24 @@ PE256 | `F0DA69F29C16D57A5ACF76FB09D2BB607DC0E1E3DD2FB72A6F8D221B7AFFBDB2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateFileMappingW` | 1 (0x1) | Exported Function | kernel32.dll.CreateFileMappingW | 0x0000115d
-`FlushViewOfFile` | 2 (0x2) | Exported Function | kernel32.dll.FlushViewOfFile | 0x0000118d
-`MapViewOfFile` | 3 (0x3) | Exported Function | kernel32.dll.MapViewOfFile | 0x000011b8
-`MapViewOfFileEx` | 4 (0x4) | Exported Function | kernel32.dll.MapViewOfFileEx | 0x000011e3
-`OpenFileMappingW` | 5 (0x5) | Exported Function | kernel32.dll.OpenFileMappingW | 0x00001211
-`ReadProcessMemory` | 6 (0x6) | Exported Function | kernel32.dll.ReadProcessMemory | 0x00001241
-`UnmapViewOfFile` | 7 (0x7) | Exported Function | kernel32.dll.UnmapViewOfFile | 0x00001270
-`VirtualAlloc` | 8 (0x8) | Exported Function | kernel32.dll.VirtualAlloc | 0x0000129a
-`VirtualAllocEx` | 9 (0x9) | Exported Function | kernel32.dll.VirtualAllocEx | 0x000012c3
-`VirtualFree` | 10 (0xa) | Exported Function | kernel32.dll.VirtualFree | 0x000012eb
-`VirtualFreeEx` | 11 (0xb) | Exported Function | kernel32.dll.VirtualFreeEx | 0x00001312
-`VirtualProtect` | 12 (0xc) | Exported Function | kernel32.dll.VirtualProtect | 0x0000133c
-`VirtualProtectEx` | 13 (0xd) | Exported Function | kernel32.dll.VirtualProtectEx | 0x00001369
-`VirtualQuery` | 14 (0xe) | Exported Function | kernel32.dll.VirtualQuery | 0x00001394
-`VirtualQueryEx` | 15 (0xf) | Exported Function | kernel32.dll.VirtualQueryEx | 0x000013bd
-`WriteProcessMemory` | 16 (0x10) | Exported Function | kernel32.dll.WriteProcessMemory | 0x000013ec
+Function Name | Ordinal | Type
+-- | -- | --
+`VirtualFreeEx` | 11 | Exported Function
+`VirtualProtect` | 12 | Exported Function
+`VirtualAllocEx` | 9 | Exported Function
+`VirtualFree` | 10 | Exported Function
+`VirtualQueryEx` | 15 | Exported Function
+`WriteProcessMemory` | 16 | Exported Function
+`VirtualProtectEx` | 13 | Exported Function
+`VirtualQuery` | 14 | Exported Function
+`MapViewOfFile` | 3 | Exported Function
+`MapViewOfFileEx` | 4 | Exported Function
+`CreateFileMappingW` | 1 | Exported Function
+`FlushViewOfFile` | 2 | Exported Function
+`UnmapViewOfFile` | 7 | Exported Function
+`VirtualAlloc` | 8 | Exported Function
+`OpenFileMappingW` | 5 | Exported Function
+`ReadProcessMemory` | 6 | Exported Function
 
 
 ## Signature

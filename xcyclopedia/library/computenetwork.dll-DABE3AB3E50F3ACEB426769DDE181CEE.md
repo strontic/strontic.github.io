@@ -24,56 +24,56 @@ PE256 | `E2466DDCFB231E80474C3D01EB4E5231552711E8C873D7F1418ED4C254F0912C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`HcnCloseEndpoint` | 19 (0x13) | Exported Function | 0x0000000180005790 | 0x00005790
-`HcnModifyLoadBalancer` | 36 (0x24) | Exported Function | 0x0000000180005a20 | 0x00005a20
-`HcnModifyNamespace` | 37 (0x25) | Exported Function | 0x0000000180005000 | 0x00005000
-`HcnModifyNetwork` | 38 (0x26) | Exported Function | 0x0000000180004700 | 0x00004700
-`HcnModifySdnRoute` | 10 (0xa) | Exported Function | 0x0000000180005ee0 | 0x00005ee0
-`HcnOpenEndpoint` | 39 (0x27) | Exported Function | 0x00000001800054b0 | 0x000054b0
-`HcnOpenGuestNetworkService` | 11 (0xb) | Exported Function | 0x00000001800062f0 | 0x000062f0
-`HcnOpenLoadBalancer` | 40 (0x28) | Exported Function | 0x0000000180005970 | 0x00005970
-`HcnOpenNamespace` | 41 (0x29) | Exported Function | 0x0000000180004f50 | 0x00004f50
-`HcnOpenNetwork` | 42 (0x2a) | Exported Function | 0x0000000180004470 | 0x00004470
-`HcnModifyGuestNetworkService` | 9 (0x9) | Exported Function | 0x00000001800063a0 | 0x000063a0
-`HcnOpenSdnRoute` | 12 (0xc) | Exported Function | 0x0000000180005e30 | 0x00005e30
-`HcnQueryGuestNetworkServiceProperties` | 13 (0xd) | Exported Function | 0x0000000180006460 | 0x00006460
-`HcnQueryLoadBalancerProperties` | 44 (0x2c) | Exported Function | 0x0000000180005ae0 | 0x00005ae0
-`HcnQueryNamespaceProperties` | 45 (0x2d) | Exported Function | 0x00000001800050c0 | 0x000050c0
-`HcnQueryNetworkProperties` | 46 (0x2e) | Exported Function | 0x00000001800048c0 | 0x000048c0
-`HcnQuerySdnRouteProperties` | 14 (0xe) | Exported Function | 0x0000000180005fa0 | 0x00005fa0
-`HcnRegisterGuestNetworkServiceCallback` | 15 (0xf) | Exported Function | 0x0000000180006940 | 0x00006940
-`HcnRegisterNetworkCallback` | 16 (0x10) | Exported Function | 0x0000000180006a50 | 0x00006a50
-`HcnRegisterServiceCallback` | 47 (0x2f) | Exported Function | 0x0000000180006630 | 0x00006630
-`HcnUnregisterGuestNetworkServiceCallback` | 17 (0x11) | Exported Function | 0x00000001800069f0 | 0x000069f0
-`HcnQueryEndpointProperties` | 43 (0x2b) | Exported Function | 0x0000000180005620 | 0x00005620
-`HcnModifyEndpoint` | 35 (0x23) | Exported Function | 0x0000000180005560 | 0x00005560
-`HcnEnumerateSdnRoutes` | 8 (0x8) | Exported Function | 0x0000000180005cb0 | 0x00005cb0
-`HcnEnumerateNetworks` | 34 (0x22) | Exported Function | 0x0000000180003f00 | 0x00003f00
-`HcnCloseGuestNetworkService` | 1 (0x1) | Exported Function | 0x00000001800065d0 | 0x000065d0
-`HcnCloseLoadBalancer` | 20 (0x14) | Exported Function | 0x0000000180005c50 | 0x00005c50
-`HcnCloseNamespace` | 21 (0x15) | Exported Function | 0x0000000180005230 | 0x00005230
-`HcnCloseNetwork` | 22 (0x16) | Exported Function | 0x0000000180004c90 | 0x00004c90
-`HcnCloseSdnRoute` | 2 (0x2) | Exported Function | 0x0000000180006110 | 0x00006110
-`HcnCreateEndpoint` | 23 (0x17) | Exported Function | 0x0000000180005350 | 0x00005350
-`HcnCreateGuestNetworkService` | 3 (0x3) | Exported Function | 0x0000000180006230 | 0x00006230
-`HcnCreateLoadBalancer` | 24 (0x18) | Exported Function | 0x00000001800058b0 | 0x000058b0
-`HcnCreateNamespace` | 25 (0x19) | Exported Function | 0x0000000180004e90 | 0x00004e90
-`HcnCreateNetwork` | 26 (0x1a) | Exported Function | 0x00000001800041b0 | 0x000041b0
-`HcnCreateSdnRoute` | 4 (0x4) | Exported Function | 0x0000000180005d70 | 0x00005d70
-`HcnDeleteEndpoint` | 27 (0x1b) | Exported Function | 0x0000000180005710 | 0x00005710
-`HcnDeleteGuestNetworkService` | 5 (0x5) | Exported Function | 0x0000000180006550 | 0x00006550
-`HcnDeleteLoadBalancer` | 28 (0x1c) | Exported Function | 0x0000000180005bd0 | 0x00005bd0
-`HcnDeleteNamespace` | 29 (0x1d) | Exported Function | 0x00000001800051b0 | 0x000051b0
-`HcnDeleteNetwork` | 30 (0x1e) | Exported Function | 0x0000000180004a60 | 0x00004a60
-`HcnDeleteSdnRoute` | 6 (0x6) | Exported Function | 0x0000000180006090 | 0x00006090
-`HcnEnumerateEndpoints` | 31 (0x1f) | Exported Function | 0x0000000180005290 | 0x00005290
-`HcnEnumerateGuestNetworkServices` | 7 (0x7) | Exported Function | 0x0000000180006170 | 0x00006170
-`HcnEnumerateLoadBalancers` | 32 (0x20) | Exported Function | 0x00000001800057f0 | 0x000057f0
-`HcnEnumerateNamespaces` | 33 (0x21) | Exported Function | 0x0000000180004dd0 | 0x00004dd0
-`HcnUnregisterNetworkCallback` | 18 (0x12) | Exported Function | 0x0000000180006b00 | 0x00006b00
-`HcnUnregisterServiceCallback` | 48 (0x30) | Exported Function | 0x0000000180006880 | 0x00006880
+Function Name | Ordinal | Type
+-- | -- | --
+`HcnOpenLoadBalancer` | 40 | Exported Function
+`HcnOpenGuestNetworkService` | 11 | Exported Function
+`HcnOpenEndpoint` | 39 | Exported Function
+`HcnOpenSdnRoute` | 12 | Exported Function
+`HcnOpenNetwork` | 42 | Exported Function
+`HcnOpenNamespace` | 41 | Exported Function
+`HcnModifyLoadBalancer` | 36 | Exported Function
+`HcnModifyGuestNetworkService` | 9 | Exported Function
+`HcnModifyEndpoint` | 35 | Exported Function
+`HcnModifySdnRoute` | 10 | Exported Function
+`HcnModifyNetwork` | 38 | Exported Function
+`HcnModifyNamespace` | 37 | Exported Function
+`HcnRegisterServiceCallback` | 47 | Exported Function
+`HcnRegisterNetworkCallback` | 16 | Exported Function
+`HcnRegisterGuestNetworkServiceCallback` | 15 | Exported Function
+`HcnUnregisterServiceCallback` | 48 | Exported Function
+`HcnUnregisterNetworkCallback` | 18 | Exported Function
+`HcnUnregisterGuestNetworkServiceCallback` | 17 | Exported Function
+`HcnQueryLoadBalancerProperties` | 44 | Exported Function
+`HcnQueryGuestNetworkServiceProperties` | 13 | Exported Function
+`HcnQueryEndpointProperties` | 43 | Exported Function
+`HcnQuerySdnRouteProperties` | 14 | Exported Function
+`HcnQueryNetworkProperties` | 46 | Exported Function
+`HcnQueryNamespaceProperties` | 45 | Exported Function
+`HcnCreateLoadBalancer` | 24 | Exported Function
+`HcnCreateGuestNetworkService` | 3 | Exported Function
+`HcnCreateEndpoint` | 23 | Exported Function
+`HcnCreateSdnRoute` | 4 | Exported Function
+`HcnCreateNetwork` | 26 | Exported Function
+`HcnCreateNamespace` | 25 | Exported Function
+`HcnCloseLoadBalancer` | 20 | Exported Function
+`HcnCloseGuestNetworkService` | 1 | Exported Function
+`HcnCloseEndpoint` | 19 | Exported Function
+`HcnCloseSdnRoute` | 2 | Exported Function
+`HcnCloseNetwork` | 22 | Exported Function
+`HcnCloseNamespace` | 21 | Exported Function
+`HcnEnumerateLoadBalancers` | 32 | Exported Function
+`HcnEnumerateGuestNetworkServices` | 7 | Exported Function
+`HcnEnumerateEndpoints` | 31 | Exported Function
+`HcnEnumerateSdnRoutes` | 8 | Exported Function
+`HcnEnumerateNetworks` | 34 | Exported Function
+`HcnEnumerateNamespaces` | 33 | Exported Function
+`HcnDeleteLoadBalancer` | 28 | Exported Function
+`HcnDeleteGuestNetworkService` | 5 | Exported Function
+`HcnDeleteEndpoint` | 27 | Exported Function
+`HcnDeleteSdnRoute` | 6 | Exported Function
+`HcnDeleteNetwork` | 30 | Exported Function
+`HcnDeleteNamespace` | 29 | Exported Function
 
 
 ## Signature

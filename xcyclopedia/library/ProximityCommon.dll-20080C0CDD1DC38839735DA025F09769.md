@@ -24,22 +24,11 @@ PE256 | `643871398DDE1E157D04C96544E3B5188C653F6CE7D70BBEC7D885202EBFAF13`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x10008710 | 0x00008710
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x10008730 | 0x00008730
-`GetProxyDllInfo` | 3 (0x3) | Exported Function | 0x10008760 | 0x00008760
-`Ordinal10` | 10 (0xa) | Exported Function | 0x10008980 | 0x00008980
-`Ordinal19` | 19 (0x13) | Exported Function | 0x10008780 | 0x00008780
-`Ordinal20` | 20 (0x14) | Exported Function | 0x10012480 | 0x00012480
-`Ordinal21` | 21 (0x15) | Exported Function | 0x10006b60 | 0x00006b60
-`Ordinal22` | 22 (0x16) | Exported Function | 0x1000d250 | 0x0000d250
-`Ordinal23` | 23 (0x17) | Exported Function | 0x10009430 | 0x00009430
-`Ordinal24` | 24 (0x18) | Exported Function | 0x1000bee0 | 0x0000bee0
-`Ordinal25` | 25 (0x19) | Exported Function | 0x10012d40 | 0x00012d40
-`Ordinal26` | 26 (0x1a) | Exported Function | 0x100102d0 | 0x000102d0
-`Ordinal27` | 27 (0x1b) | Exported Function | 0x100098e0 | 0x000098e0
-`Ordinal28` | 28 (0x1c) | Exported Function | 0x10007170 | 0x00007170
+Function Name | Ordinal | Type
+-- | -- | --
+`GetProxyDllInfo` | 3 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
 
 
 ## Signature

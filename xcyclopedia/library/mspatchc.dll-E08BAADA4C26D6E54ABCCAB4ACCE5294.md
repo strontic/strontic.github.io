@@ -24,22 +24,22 @@ PE256 | `79C78EF2FCEF3BA3E1FCB6ED7E073C39C2397BDDCDDF944D3636BF7E6836A277`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreatePatchFileA` | 1 (0x1) | Exported Function | 0x0000000158f22770 | 0x00002770
-`CreatePatchFileByHandles` | 2 (0x2) | Exported Function | 0x0000000158f22830 | 0x00002830
-`CreatePatchFileByHandlesEx` | 3 (0x3) | Exported Function | 0x0000000158f24eb0 | 0x00004eb0
-`CreatePatchFileExA` | 4 (0x4) | Exported Function | 0x0000000158f228a0 | 0x000028a0
-`CreatePatchFileExW` | 5 (0x5) | Exported Function | 0x0000000158f22b10 | 0x00002b10
-`CreatePatchFileW` | 6 (0x6) | Exported Function | 0x0000000158f227d0 | 0x000027d0
-`ExtractPatchHeaderToFileA` | 7 (0x7) | Exported Function | 0x0000000158f24f00 | 0x00004f00
-`ExtractPatchHeaderToFileByHandles` | 8 (0x8) | Exported Function | 0x0000000158f250c0 | 0x000050c0
-`ExtractPatchHeaderToFileW` | 9 (0x9) | Exported Function | 0x0000000158f24fe0 | 0x00004fe0
-`GetFilePatchSignatureA` | 10 (0xa) | Exported Function | 0x0000000158f212a0 | 0x000012a0
-`GetFilePatchSignatureByBuffer` | 11 (0xb) | Exported Function | 0x0000000158f215e0 | 0x000015e0
-`GetFilePatchSignatureByHandle` | 12 (0xc) | Exported Function | 0x0000000158f21500 | 0x00001500
-`GetFilePatchSignatureW` | 13 (0xd) | Exported Function | 0x0000000158f21380 | 0x00001380
-`NormalizeFileForPatchSignature` | 14 (0xe) | Exported Function | 0x0000000158f21140 | 0x00001140
+Function Name | Ordinal | Type
+-- | -- | --
+`GetFilePatchSignatureA` | 10 | Exported Function
+`ExtractPatchHeaderToFileW` | 9 | Exported Function
+`ExtractPatchHeaderToFileByHandles` | 8 | Exported Function
+`GetFilePatchSignatureByBuffer` | 11 | Exported Function
+`NormalizeFileForPatchSignature` | 14 | Exported Function
+`GetFilePatchSignatureW` | 13 | Exported Function
+`GetFilePatchSignatureByHandle` | 12 | Exported Function
+`CreatePatchFileByHandlesEx` | 3 | Exported Function
+`CreatePatchFileByHandles` | 2 | Exported Function
+`CreatePatchFileA` | 1 | Exported Function
+`CreatePatchFileExA` | 4 | Exported Function
+`ExtractPatchHeaderToFileA` | 7 | Exported Function
+`CreatePatchFileW` | 6 | Exported Function
+`CreatePatchFileExW` | 5 | Exported Function
 
 
 ## Signature

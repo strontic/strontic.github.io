@@ -24,23 +24,23 @@ PE256 | `8B042650582DBA94CA5FF628ABCBC80C1FA246D80D063AE1405076F1D467B85F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EapHostPeerConfigBlob2Xml` | 1 (0x1) | Exported Function | 0x100164b0 | 0x000164b0
-`EapHostPeerConfigXml2Blob` | 2 (0x2) | Exported Function | 0x100170e0 | 0x000170e0
-`EapHostPeerCreateMethodConfiguration` | 3 (0x3) | Exported Function | 0x10017960 | 0x00017960
-`EapHostPeerCredentialsXml2Blob` | 4 (0x4) | Exported Function | 0x10017b30 | 0x00017b30
-`EapHostPeerFreeErrorMemory` | 5 (0x5) | Exported Function | 0x10018380 | 0x00018380
-`EapHostPeerFreeMemory` | 6 (0x6) | Exported Function | 0x10018490 | 0x00018490
-`EapHostPeerGetMethodProperties` | 7 (0x7) | Exported Function | 0x10018520 | 0x00018520
-`EapHostPeerGetMethods` | 8 (0x8) | Exported Function | 0x100189a0 | 0x000189a0
-`EapHostPeerInvokeConfigUI` | 9 (0x9) | Exported Function | 0x10018d60 | 0x00018d60
-`EapHostPeerInvokeIdentityUI` | 10 (0xa) | Exported Function | 0x10019180 | 0x00019180
-`EapHostPeerInvokeInteractiveUI` | 11 (0xb) | Exported Function | 0x10019690 | 0x00019690
-`EapHostPeerQueryCredentialInputFields` | 12 (0xc) | Exported Function | 0x10019fa0 | 0x00019fa0
-`EapHostPeerQueryInteractiveUIInputFields` | 13 (0xd) | Exported Function | 0x1001a330 | 0x0001a330
-`EapHostPeerQueryUIBlobFromInteractiveUIInputFields` | 14 (0xe) | Exported Function | 0x1001aa00 | 0x0001aa00
-`EapHostPeerQueryUserBlobFromCredentialInputFields` | 15 (0xf) | Exported Function | 0x1001b270 | 0x0001b270
+Function Name | Ordinal | Type
+-- | -- | --
+`EapHostPeerInvokeInteractiveUI` | 11 | Exported Function
+`EapHostPeerInvokeIdentityUI` | 10 | Exported Function
+`EapHostPeerInvokeConfigUI` | 9 | Exported Function
+`EapHostPeerQueryCredentialInputFields` | 12 | Exported Function
+`EapHostPeerQueryUserBlobFromCredentialInputFields` | 15 | Exported Function
+`EapHostPeerQueryUIBlobFromInteractiveUIInputFields` | 14 | Exported Function
+`EapHostPeerQueryInteractiveUIInputFields` | 13 | Exported Function
+`EapHostPeerGetMethods` | 8 | Exported Function
+`EapHostPeerCreateMethodConfiguration` | 3 | Exported Function
+`EapHostPeerConfigXml2Blob` | 2 | Exported Function
+`EapHostPeerConfigBlob2Xml` | 1 | Exported Function
+`EapHostPeerCredentialsXml2Blob` | 4 | Exported Function
+`EapHostPeerGetMethodProperties` | 7 | Exported Function
+`EapHostPeerFreeMemory` | 6 | Exported Function
+`EapHostPeerFreeErrorMemory` | 5 | Exported Function
 
 
 ## Signature

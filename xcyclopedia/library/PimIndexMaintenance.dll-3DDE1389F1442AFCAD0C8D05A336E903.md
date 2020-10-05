@@ -24,12 +24,12 @@ PE256 | `6438C178CEE44554F7974C510542B1A2357AEA20793537A2870FFC75F5B3D647`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateInprocPimimConnectionHandle` | 1 (0x1) | Exported Function | 0x0000000180001750 | 0x00001750
-`PimIMService_ResetInprocService` | 2 (0x2) | Exported Function | 0x0000000180001960 | 0x00001960
-`ServiceMain` | 3 (0x3) | Exported Function | 0x0000000180002930 | 0x00002930
-`SvchostPushServiceGlobals` | 4 (0x4) | Exported Function | 0x0000000180002920 | 0x00002920
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 3 | Exported Function
+`SvchostPushServiceGlobals` | 4 | Exported Function
+`CreateInprocPimimConnectionHandle` | 1 | Exported Function
+`PimIMService_ResetInprocService` | 2 | Exported Function
 
 
 ## Signature

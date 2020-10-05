@@ -24,12 +24,12 @@ PE256 | `B45AC5FE8CA25FE2FC2E1EA2A35B3C7602273569DEC7C28DDFA197C11E7AA1D2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`XblGameSave_GetUserStorageRoot` | 1 (0x1) | Exported Function | 0x0000000180004a90 | 0x00004a90
-`XblGameSave_NTMSCreateInstance` | 2 (0x2) | Exported Function | 0x0000000180004a10 | 0x00004a10
-`XblGameSave_NTMSServerStart` | 3 (0x3) | Exported Function | 0x0000000180004890 | 0x00004890
-`XblGameSave_NTMSServerStop` | 4 (0x4) | Exported Function | 0x00000001800048d0 | 0x000048d0
+Function Name | Ordinal | Type
+-- | -- | --
+`XblGameSave_NTMSServerStart` | 3 | Exported Function
+`XblGameSave_NTMSServerStop` | 4 | Exported Function
+`XblGameSave_GetUserStorageRoot` | 1 | Exported Function
+`XblGameSave_NTMSCreateInstance` | 2 | Exported Function
 
 
 ## Signature

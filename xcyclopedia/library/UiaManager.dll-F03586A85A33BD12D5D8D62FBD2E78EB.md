@@ -24,13 +24,13 @@ PE256 | `711BF27D93A429061D38973F01E19F47CD838FF9BA27978927246826419AC55E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180001820 | 0x00001820
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x00000001800039f0 | 0x000039f0
-`GetProxyDllInfo` | 5 (0x5) | Exported Function | 0x000000018001aa60 | 0x0001aa60
-`UiaInitCrossMachineConnection` | 1 (0x1) | Exported Function | 0x00000001800582e0 | 0x000582e0
-`UiaInitCrossMachineConnectionW` | 2 (0x2) | Exported Function | 0x00000001800582e0 | 0x000582e0
+Function Name | Ordinal | Type
+-- | -- | --
+`UiaInitCrossMachineConnection` | 1 | Exported Function
+`UiaInitCrossMachineConnectionW` | 2 | Exported Function
+`GetProxyDllInfo` | 5 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

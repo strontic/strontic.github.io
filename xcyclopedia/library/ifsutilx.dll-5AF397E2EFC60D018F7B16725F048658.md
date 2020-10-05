@@ -24,14 +24,14 @@ PE256 | `2AAA6ED4F2A5BB4D79D58BBF0D0F40C70E3E3EFBAE3CB8DB7A60CBA1B1C69120`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CheckSnapshotPresence` | 1 (0x1) | Exported Function | 0x10001e80 | 0x00001e80
-`CreateVolumeSnapshot` | 2 (0x2) | Exported Function | 0x10001930 | 0x00001930
-`GetSnapshotErrorMessage` | 3 (0x3) | Exported Function | 0x10001f20 | 0x00001f20
-`InitializeCOM` | 4 (0x4) | Exported Function | 0x10001fa0 | 0x00001fa0
-`ReleaseVolumeSnapshot` | 5 (0x5) | Exported Function | 0x10001df0 | 0x00001df0
-`UninitializeCOM` | 6 (0x6) | Exported Function | 0x10002010 | 0x00002010
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializeCOM` | 4 | Exported Function
+`ReleaseVolumeSnapshot` | 5 | Exported Function
+`UninitializeCOM` | 6 | Exported Function
+`CheckSnapshotPresence` | 1 | Exported Function
+`CreateVolumeSnapshot` | 2 | Exported Function
+`GetSnapshotErrorMessage` | 3 | Exported Function
 
 
 ## Signature

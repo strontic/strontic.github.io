@@ -24,13 +24,13 @@ PE256 | `DF6C43B20921855184CE4283CD9D1F52D65221E7C74BD1A9CB1ABED130D961C6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DSSCreateSharedFileTokenEx` | 4 (0x4) | Exported Function | 0x0000000180009660 | 0x00009660
-`DSSFreeToken` | 5 (0x5) | Exported Function | 0x0000000180009c60 | 0x00009c60
-`InitializeService` | 1 (0x1) | Exported Function | 0x00000001800065e0 | 0x000065e0
-`ServiceMain` | 2 (0x2) | Exported Function | 0x0000000180006b30 | 0x00006b30
-`SvchostPushServiceGlobals` | 3 (0x3) | Exported Function | 0x0000000180006890 | 0x00006890
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 2 | Exported Function
+`SvchostPushServiceGlobals` | 3 | Exported Function
+`InitializeService` | 1 | Exported Function
+`DSSCreateSharedFileTokenEx` | 4 | Exported Function
+`DSSFreeToken` | 5 | Exported Function
 
 
 ## Signature

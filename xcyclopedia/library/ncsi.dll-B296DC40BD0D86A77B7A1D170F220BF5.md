@@ -24,19 +24,19 @@ PE256 | `4018011A3B21EBF50FC474DA9B019AE8038EFC69DE420797468A7FD4E4982643`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NcsiAllocateAndGetConnectivityStatusSet` | 1 (0x1) | Exported Function | 0x000000018000ad90 | 0x0000ad90
-`NcsiDeregisterConnectivityStatusChange` | 2 (0x2) | Exported Function | 0x0000000180052050 | 0x00052050
-`NcsiFreeConnectivityStatusSet` | 3 (0x3) | Exported Function | 0x0000000180009d40 | 0x00009d40
-`NcsiGetCaptivePortalHosts` | 4 (0x4) | Exported Function | 0x00000001800520e0 | 0x000520e0
-`NcsiGetWebProbeConfig` | 5 (0x5) | Exported Function | 0x000000018002beb0 | 0x0002beb0
-`NcsiIdentifyUserSpecificProxies` | 6 (0x6) | Exported Function | 0x0000000180022410 | 0x00022410
-`NcsiNotifySessionChange` | 7 (0x7) | Exported Function | 0x00000001800213c0 | 0x000213c0
-`NcsiPerformRefresh` | 8 (0x8) | Exported Function | 0x0000000180052350 | 0x00052350
-`NcsiPerformReprobe` | 9 (0x9) | Exported Function | 0x0000000180052570 | 0x00052570
-`NcsiRegisterConnectivityStatusChange` | 10 (0xa) | Exported Function | 0x0000000180027ac0 | 0x00027ac0
-`NcsiUpdateClientPresence` | 11 (0xb) | Exported Function | 0x0000000180024880 | 0x00024880
+Function Name | Ordinal | Type
+-- | -- | --
+`NcsiPerformRefresh` | 8 | Exported Function
+`NcsiNotifySessionChange` | 7 | Exported Function
+`NcsiPerformReprobe` | 9 | Exported Function
+`NcsiUpdateClientPresence` | 11 | Exported Function
+`NcsiRegisterConnectivityStatusChange` | 10 | Exported Function
+`NcsiIdentifyUserSpecificProxies` | 6 | Exported Function
+`NcsiDeregisterConnectivityStatusChange` | 2 | Exported Function
+`NcsiAllocateAndGetConnectivityStatusSet` | 1 | Exported Function
+`NcsiFreeConnectivityStatusSet` | 3 | Exported Function
+`NcsiGetWebProbeConfig` | 5 | Exported Function
+`NcsiGetCaptivePortalHosts` | 4 | Exported Function
 
 
 ## Signature

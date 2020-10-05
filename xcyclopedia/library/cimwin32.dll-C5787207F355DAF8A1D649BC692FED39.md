@@ -24,20 +24,20 @@ PE256 | `F3C4641BD05A3D86F2D3DFBE3DD5E888344CC96C17AE28B8D48DCABD16AD3178`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`class Win32SecurityDescriptor MySecurityDescriptor` | 6 (0x6) | Exported Function | 0x00000001801ee130 | 0x001ee130
-`const CTcpMib::``vftable'` | 5 (0x5) | Exported Function | 0x000000018013f040 | 0x0013f040
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x000000018000cf70 | 0x0000cf70
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x000000018000ccd0 | 0x0000ccd0
-`DllRegisterServer` | 9 (0x9) | Exported Function | 0x000000018003a630 | 0x0003a630
-`DllUnregisterServer` | 10 (0xa) | Exported Function | 0x000000018003a6a0 | 0x0003a6a0
-`GetSDFromWin32SecurityDescriptor` | 11 (0xb) | Exported Function | 0x0000000180114e20 | 0x00114e20
-`public: __cdecl CTcpMib::CTcpMib(class CTcpMib const & __ptr64) __ptr64` | 1 (0x1) | Exported Function | 0x00000001800acdf0 | 0x000acdf0
-`public: __cdecl CTcpMib::CTcpMib(void) __ptr64` | 2 (0x2) | Exported Function | 0x00000001800acdf0 | 0x000acdf0
-`public: class CTcpMib & __ptr64 __cdecl CTcpMib::operator=(class CTcpMib const & __ptr64) __ptr64` | 4 (0x4) | Exported Function | 0x00000001800ace30 | 0x000ace30
-`public: virtual __cdecl CTcpMib::~CTcpMib(void) __ptr64` | 3 (0x3) | Exported Function | 0x00000001800ace10 | 0x000ace10
-`SetWin32SecurityDescriptorFromSD` | 12 (0xc) | Exported Function | 0x0000000180114f00 | 0x00114f00
+Function Name | Ordinal | Type
+-- | -- | --
+`public: __cdecl CTcpMib::CTcpMib(void) __ptr64` | 2 | Exported Function
+`public: __cdecl CTcpMib::CTcpMib(class CTcpMib const & __ptr64) __ptr64` | 1 | Exported Function
+`GetSDFromWin32SecurityDescriptor` | 11 | Exported Function
+`SetWin32SecurityDescriptorFromSD` | 12 | Exported Function
+`public: virtual __cdecl CTcpMib::~CTcpMib(void) __ptr64` | 3 | Exported Function
+`public: class CTcpMib & __ptr64 __cdecl CTcpMib::operator=(class CTcpMib const & __ptr64) __ptr64` | 4 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`const CTcpMib::``vftable'` | 5 | Exported Function
+`class Win32SecurityDescriptor MySecurityDescriptor` | 6 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
 
 
 ## Signature

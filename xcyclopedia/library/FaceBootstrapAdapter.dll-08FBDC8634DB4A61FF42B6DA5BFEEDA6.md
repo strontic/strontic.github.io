@@ -23,11 +23,11 @@ PE256 | `10FEDBD6BF77C18235D7531A21D778E3A05662BD6C3D4D3B85281504B50446F9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WbioQueryEngineInterface` | 1 (0x1) | Exported Function | 0x000000018000d310 | 0x0000d310
-`WbioQuerySensorInterface` | 2 (0x2) | Exported Function | 0x000000018000d2f0 | 0x0000d2f0
-`WbioQueryStorageInterface` | 3 (0x3) | Exported Function | 0x000000018000d330 | 0x0000d330
+Function Name | Ordinal | Type
+-- | -- | --
+`WbioQueryStorageInterface` | 3 | Exported Function
+`WbioQuerySensorInterface` | 2 | Exported Function
+`WbioQueryEngineInterface` | 1 | Exported Function
 
 
 ## Signature

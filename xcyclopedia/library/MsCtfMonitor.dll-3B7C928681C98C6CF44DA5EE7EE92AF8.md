@@ -24,15 +24,15 @@ PE256 | `4E48673F772933367CE69BE6AF585D934EAF14C079B60B494A455D1931183FC0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018000fb10 | 0x0000fb10
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x00000001800070d0 | 0x000070d0
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x000000018000fb30 | 0x0000fb30
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x000000018000fd50 | 0x0000fd50
-`DoMsCtfMonitor` | 5 (0x5) | Exported Function | 0x00000001800033f0 | 0x000033f0
-`InitLocalMsCtfMonitor` | 6 (0x6) | Exported Function | 0x0000000180010260 | 0x00010260
-`UninitLocalMsCtfMonitor` | 7 (0x7) | Exported Function | 0x0000000180010350 | 0x00010350
+Function Name | Ordinal | Type
+-- | -- | --
+`DoMsCtfMonitor` | 5 | Exported Function
+`InitLocalMsCtfMonitor` | 6 | Exported Function
+`UninitLocalMsCtfMonitor` | 7 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

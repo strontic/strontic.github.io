@@ -24,12 +24,12 @@ PE256 | `72D1B8EB1A09B23B278DFD3AC09D33E6995D5DD509B618847630A6B305DFF0C4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllGetClassObject` | 1 (0x1) | Exported Function | 0x100013b0 | 0x000013b0
-`GetObjectContext` | 2 (0x2) | Exported Function | COMSVCS.GetObjectContext | 0x00001e7d
-`MTSCreateActivity` | 3 (0x3) | Exported Function | COMSVCS.MTSCreateActivity | 0x00001ea8
-`SafeRef` | 4 (0x4) | Exported Function | COMSVCS.SafeRef | 0x00001eca
+Function Name | Ordinal | Type
+-- | -- | --
+`MTSCreateActivity` | 3 | Exported Function
+`SafeRef` | 4 | Exported Function
+`DllGetClassObject` | 1 | Exported Function
+`GetObjectContext` | 2 | Exported Function
 
 
 ## Signature

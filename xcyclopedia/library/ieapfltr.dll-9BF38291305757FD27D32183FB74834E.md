@@ -24,21 +24,21 @@ PE256 | `4FB7FA1084A2EDD12664C457F980FA5C865DACCBCF18BFA3A4309883BF2C299B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateIAppRep2` | 1 (0x1) | Exported Function | 0x000000018001e2c0 | 0x0001e2c0
-`CreateIAppRepParm2` | 2 (0x2) | Exported Function | 0x000000018001e340 | 0x0001e340
-`CreateIUrlReputationSolution2` | 3 (0x3) | Exported Function | 0x000000018001e350 | 0x0001e350
-`CreateUrlBlockBroker` | 4 (0x4) | Exported Function | 0x0000000180002590 | 0x00002590
-`CreateUrlBlockClient` | 5 (0x5) | Exported Function | 0x0000000180002580 | 0x00002580
-`DestroyUrlBlockBroker` | 6 (0x6) | Exported Function | 0x000000018001e470 | 0x0001e470
-`DestroyUrlBlockClient` | 7 (0x7) | Exported Function | 0x000000018001e4d0 | 0x0001e4d0
-`DllCanUnloadNow` | 8 (0x8) | Exported Function | 0x000000018001e530 | 0x0001e530
-`DllGetClassObject` | 9 (0x9) | Exported Function | 0x000000018001e5d0 | 0x0001e5d0
-`DllRegisterServer` | 10 (0xa) | Exported Function | 0x000000018001e680 | 0x0001e680
-`DllUnregisterServer` | 11 (0xb) | Exported Function | 0x000000018001e750 | 0x0001e750
-`GetUrlBlockBroker` | 12 (0xc) | Exported Function | 0x000000018001e7d0 | 0x0001e7d0
-`GetUrlBlockClient` | 13 (0xd) | Exported Function | 0x000000018001e7e0 | 0x0001e7e0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 10 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
+`DllCanUnloadNow` | 8 | Exported Function
+`GetUrlBlockClient` | 13 | Exported Function
+`GetUrlBlockBroker` | 12 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
+`DestroyUrlBlockClient` | 7 | Exported Function
+`CreateIUrlReputationSolution2` | 3 | Exported Function
+`CreateIAppRepParm2` | 2 | Exported Function
+`CreateIAppRep2` | 1 | Exported Function
+`DestroyUrlBlockBroker` | 6 | Exported Function
+`CreateUrlBlockClient` | 5 | Exported Function
+`CreateUrlBlockBroker` | 4 | Exported Function
 
 
 ## Signature

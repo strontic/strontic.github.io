@@ -24,10 +24,10 @@ PE256 | `7EF6E7F381E70276DE7ECC0E22418669640827184C92586A8C82815C74173558`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NetSetupServiceMain` | 1 (0x1) | Exported Function | 0x0000000180005590 | 0x00005590
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x0000000180005580 | 0x00005580
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`NetSetupServiceMain` | 1 | Exported Function
 
 
 ## Signature

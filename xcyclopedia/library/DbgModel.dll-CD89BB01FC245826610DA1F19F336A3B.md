@@ -24,9 +24,9 @@ PE256 | `6CD35232E0FBA2BD409498020FBBFA73421E46BE843310252B3A9E6ACA0CF59F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDataModelManager` | 1 (0x1) | Exported Function | 0x0000000180011a60 | 0x00011a60
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateDataModelManager` | 1 | Exported Function
 
 
 ## Signature

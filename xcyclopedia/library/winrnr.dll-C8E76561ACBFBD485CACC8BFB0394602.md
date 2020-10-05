@@ -24,11 +24,11 @@ PE256 | `7958C71A79F00FC7A9B4F8F5833587CB7D663A04E417F4999FD86B06E56E214C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InstallNTDSProvider` | 1 (0x1) | Exported Function | 0x5c8045c0 | 0x000045c0
-`NSPStartup` | 2 (0x2) | Exported Function | 0x5c801d10 | 0x00001d10
-`RemoveNTDSProvider` | 3 (0x3) | Exported Function | 0x5c805e40 | 0x00005e40
+Function Name | Ordinal | Type
+-- | -- | --
+`RemoveNTDSProvider` | 3 | Exported Function
+`NSPStartup` | 2 | Exported Function
+`InstallNTDSProvider` | 1 | Exported Function
 
 
 ## Signature

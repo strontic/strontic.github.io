@@ -24,31 +24,31 @@ PE256 | `5451E7B9783F9EBD72C7D13A9F6464471A31A3BB785F951B58D287A2E3F8757A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DevQueryPrintEx` | 258 (0x102) | Exported Function | 0x10057a50 | 0x00057a50
-`MxdcGetPDEVAdjustment` | 256 (0x100) | Exported Function | 0x10058840 | 0x00058840
-`GetStandardMessageForPrinterStatus` | 300 (0x12c) | Exported Function | 0x1005a7a0 | 0x0005a7a0
-`DrvUpgradePrinter` | 274 (0x112) | Exported Function | 0x10058410 | 0x00058410
-`DrvSplDeviceCaps` | 254 (0xfe) | Exported Function | 0x10058750 | 0x00058750
-`DrvResetConfigCache` | 255 (0xff) | Exported Function | 0x100586e0 | 0x000586e0
-`DrvQueryJobAttributes` | 273 (0x111) | Exported Function | 0x100583a0 | 0x000583a0
-`DrvQueryColorProfile` | 272 (0x110) | Exported Function | 0x10058330 | 0x00058330
-`DrvPrinterEvent` | 271 (0x10f) | Exported Function | 0x10058180 | 0x00058180
-`DrvPopulateFilterServices` | 270 (0x10e) | Exported Function | 0x100585b0 | 0x000585b0
-`NotifyEntry` | 275 (0x113) | Exported Function | 0x1005a480 | 0x0005a480
-`DrvDriverEvent` | 269 (0x10d) | Exported Function | 0x10058050 | 0x00058050
-`DrvDocumentEvent` | 267 (0x10b) | Exported Function | 0x10057eb0 | 0x00057eb0
-`DrvDevicePropertySheets` | 266 (0x10a) | Exported Function | 0x10057df0 | 0x00057df0
-`DrvDeviceCapabilities` | 265 (0x109) | Exported Function | 0x10057d20 | 0x00057d20
-`DrvConvertDevMode` | 264 (0x108) | Exported Function | 0x10057b30 | 0x00057b30
-`DllUnregisterServer` | 263 (0x107) | Exported Function | 0x100595e0 | 0x000595e0
-`DllRegisterServer` | 262 (0x106) | Exported Function | 0x100593d0 | 0x000593d0
-`DllMain` | 261 (0x105) | Exported Function | 0x10059920 | 0x00059920
-`DllGetClassObject` | 260 (0x104) | Exported Function | 0x10059860 | 0x00059860
-`DllCanUnloadNow` | 259 (0x103) | Exported Function | 0x100597f0 | 0x000597f0
-`DrvDocumentPropertySheets` | 268 (0x10c) | Exported Function | 0x10057f80 | 0x00057f80
-`ServiceMain` | 257 (0x101) | Exported Function | 0x1005a9b0 | 0x0005a9b0
+Function Name | Ordinal | Type
+-- | -- | --
+`DrvQueryJobAttributes` | 273 | Exported Function
+`DrvResetConfigCache` | 255 | Exported Function
+`DrvQueryColorProfile` | 272 | Exported Function
+`DrvPopulateFilterServices` | 270 | Exported Function
+`DrvPrinterEvent` | 271 | Exported Function
+`DrvSplDeviceCaps` | 254 | Exported Function
+`NotifyEntry` | 275 | Exported Function
+`ServiceMain` | 257 | Exported Function
+`MxdcGetPDEVAdjustment` | 256 | Exported Function
+`DrvUpgradePrinter` | 274 | Exported Function
+`GetStandardMessageForPrinterStatus` | 300 | Exported Function
+`DrvDriverEvent` | 269 | Exported Function
+`DllMain` | 261 | Exported Function
+`DllRegisterServer` | 262 | Exported Function
+`DllGetClassObject` | 260 | Exported Function
+`DevQueryPrintEx` | 258 | Exported Function
+`DllCanUnloadNow` | 259 | Exported Function
+`DllUnregisterServer` | 263 | Exported Function
+`DrvDocumentEvent` | 267 | Exported Function
+`DrvDocumentPropertySheets` | 268 | Exported Function
+`DrvDevicePropertySheets` | 266 | Exported Function
+`DrvConvertDevMode` | 264 | Exported Function
+`DrvDeviceCapabilities` | 265 | Exported Function
 
 
 ## Signature

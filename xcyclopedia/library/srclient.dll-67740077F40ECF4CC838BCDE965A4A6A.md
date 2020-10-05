@@ -24,21 +24,21 @@ PE256 | `63C0ADBE005FA25773F5F26EC180E564CAA86D36D4DF7DEC04035BE0CC21124A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DisableSR` | 3 (0x3) | Exported Function | 0x10004320 | 0x00004320
-`DisableSRInternal` | 4 (0x4) | Exported Function | 0x10004390 | 0x00004390
-`EnableSR` | 5 (0x5) | Exported Function | 0x10004240 | 0x00004240
-`EnableSREx` | 6 (0x6) | Exported Function | 0x100041d0 | 0x000041d0
-`EnableSRInternal` | 7 (0x7) | Exported Function | 0x100042b0 | 0x000042b0
-`SetSRStateAfterSetup` | 13 (0xd) | Exported Function | 0x10004400 | 0x00004400
-`SRNewSystemId` | 8 (0x8) | Exported Function | 0x10004640 | 0x00004640
-`SRRemoveRestorePoint` | 9 (0x9) | Exported Function | 0x100045d0 | 0x000045d0
-`SRSetRestorePointA` | 10 (0xa) | Exported Function | 0x100044e0 | 0x000044e0
-`SRSetRestorePointInternal` | 11 (0xb) | Exported Function | 0x10004550 | 0x00004550
-`SRSetRestorePointW` | 12 (0xc) | Exported Function | 0x10004460 | 0x00004460
-`SysprepCleanup` | 1 (0x1) | Exported Function | 0x100079e0 | 0x000079e0
-`SysprepGeneralize` | 2 (0x2) | Exported Function | 0x10007a00 | 0x00007a00
+Function Name | Ordinal | Type
+-- | -- | --
+`SRSetRestorePointInternal` | 11 | Exported Function
+`SRSetRestorePointA` | 10 | Exported Function
+`SRRemoveRestorePoint` | 9 | Exported Function
+`SysprepGeneralize` | 2 | Exported Function
+`SysprepCleanup` | 1 | Exported Function
+`SRSetRestorePointW` | 12 | Exported Function
+`SRNewSystemId` | 8 | Exported Function
+`EnableSR` | 5 | Exported Function
+`DisableSRInternal` | 4 | Exported Function
+`DisableSR` | 3 | Exported Function
+`SetSRStateAfterSetup` | 13 | Exported Function
+`EnableSRInternal` | 7 | Exported Function
+`EnableSREx` | 6 | Exported Function
 
 
 ## Signature

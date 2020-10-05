@@ -24,21 +24,21 @@ PE256 | `78E4DD09CF6A230EB9DB6FA82FA80F402BB4E09DDE79DAD6D97F4E77ED4E50BF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CopyFileFromAppW` | 1 (0x1) | Exported Function | 0x0000000180011c80 | 0x00011c80
-`CreateDirectoryFromAppW` | 2 (0x2) | Exported Function | 0x0000000180011e00 | 0x00011e00
-`CreateFile2FromAppW` | 3 (0x3) | Exported Function | 0x00000001800120d0 | 0x000120d0
-`CreateFileFromAppW` | 4 (0x4) | Exported Function | 0x00000001800122f0 | 0x000122f0
-`DeleteFileFromAppW` | 5 (0x5) | Exported Function | 0x0000000180012360 | 0x00012360
-`DllCanUnloadNow` | 6 (0x6) | Exported Function | 0x0000000180012d10 | 0x00012d10
-`DllGetActivationFactory` | 7 (0x7) | Exported Function | 0x0000000180012b20 | 0x00012b20
-`FindFirstFileExFromAppW` | 8 (0x8) | Exported Function | 0x0000000180012430 | 0x00012430
-`GetFileAttributesExFromAppW` | 9 (0x9) | Exported Function | 0x00000001800125a0 | 0x000125a0
-`MoveFileFromAppW` | 10 (0xa) | Exported Function | 0x0000000180012680 | 0x00012680
-`RemoveDirectoryFromAppW` | 11 (0xb) | Exported Function | 0x0000000180012760 | 0x00012760
-`ReplaceFileFromAppW` | 12 (0xc) | Exported Function | 0x0000000180012830 | 0x00012830
-`SetFileAttributesFromAppW` | 13 (0xd) | Exported Function | 0x0000000180012940 | 0x00012940
+Function Name | Ordinal | Type
+-- | -- | --
+`MoveFileFromAppW` | 10 | Exported Function
+`GetFileAttributesExFromAppW` | 9 | Exported Function
+`FindFirstFileExFromAppW` | 8 | Exported Function
+`SetFileAttributesFromAppW` | 13 | Exported Function
+`ReplaceFileFromAppW` | 12 | Exported Function
+`RemoveDirectoryFromAppW` | 11 | Exported Function
+`DllGetActivationFactory` | 7 | Exported Function
+`CreateFile2FromAppW` | 3 | Exported Function
+`CreateDirectoryFromAppW` | 2 | Exported Function
+`CopyFileFromAppW` | 1 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`DeleteFileFromAppW` | 5 | Exported Function
+`CreateFileFromAppW` | 4 | Exported Function
 
 
 ## Signature

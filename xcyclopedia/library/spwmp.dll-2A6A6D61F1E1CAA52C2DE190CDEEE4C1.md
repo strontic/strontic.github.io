@@ -24,10 +24,10 @@ PE256 | `1D454CEC5BA962DD4220C7F8A108680853CC55BE1E89A41409E1A5B21A32BB68`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Sysprep_Clean_WMP` | 1 (0x1) | Exported Function | 0x10001650 | 0x00001650
-`Sysprep_Generalize_WMP` | 2 (0x2) | Exported Function | 0x10001660 | 0x00001660
+Function Name | Ordinal | Type
+-- | -- | --
+`Sysprep_Generalize_WMP` | 2 | Exported Function
+`Sysprep_Clean_WMP` | 1 | Exported Function
 
 
 ## Signature

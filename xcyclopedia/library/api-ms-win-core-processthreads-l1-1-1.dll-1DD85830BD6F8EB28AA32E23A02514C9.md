@@ -24,22 +24,22 @@ PE256 | `7F0983BB60B548EBE9FA91DC31D2CDFCF37BF31D8DC6EFB740CDA060DF4277F9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FlushInstructionCache` | 1 (0x1) | Exported Function | kernel32.FlushInstructionCache | 0x00001154
-`GetCurrentProcessorNumber` | 2 (0x2) | Exported Function | kernel32.GetCurrentProcessorNumber | 0x0000118d
-`GetCurrentProcessorNumberEx` | 3 (0x3) | Exported Function | kernel32.GetCurrentProcessorNumberEx | 0x000011cc
-`GetCurrentThreadStackLimits` | 4 (0x4) | Exported Function | kernel32.GetCurrentThreadStackLimits | 0x0000120d
-`GetProcessHandleCount` | 5 (0x5) | Exported Function | kernel32.GetProcessHandleCount | 0x00001248
-`GetProcessMitigationPolicy` | 6 (0x6) | Exported Function | kernel32.GetProcessMitigationPolicy | 0x00001282
-`GetThreadContext` | 7 (0x7) | Exported Function | kernel32.GetThreadContext | 0x000012b7
-`GetThreadIdealProcessorEx` | 8 (0x8) | Exported Function | kernel32.GetThreadIdealProcessorEx | 0x000012eb
-`GetThreadTimes` | 9 (0x9) | Exported Function | kernel32.GetThreadTimes | 0x0000131d
-`IsProcessorFeaturePresent` | 10 (0xa) | Exported Function | kernel32.IsProcessorFeaturePresent | 0x0000134f
-`OpenProcess` | 11 (0xb) | Exported Function | kernel32.OpenProcess | 0x0000137e
-`SetProcessMitigationPolicy` | 12 (0xc) | Exported Function | kernel32.SetProcessMitigationPolicy | 0x000013ae
-`SetThreadContext` | 13 (0xd) | Exported Function | kernel32.SetThreadContext | 0x000013e3
-`SetThreadIdealProcessorEx` | 14 (0xe) | Exported Function | kernel32.SetThreadIdealProcessorEx | 0x00001417
+Function Name | Ordinal | Type
+-- | -- | --
+`IsProcessorFeaturePresent` | 10 | Exported Function
+`GetThreadTimes` | 9 | Exported Function
+`GetThreadIdealProcessorEx` | 8 | Exported Function
+`OpenProcess` | 11 | Exported Function
+`SetThreadIdealProcessorEx` | 14 | Exported Function
+`SetThreadContext` | 13 | Exported Function
+`SetProcessMitigationPolicy` | 12 | Exported Function
+`GetCurrentProcessorNumberEx` | 3 | Exported Function
+`GetCurrentProcessorNumber` | 2 | Exported Function
+`FlushInstructionCache` | 1 | Exported Function
+`GetCurrentThreadStackLimits` | 4 | Exported Function
+`GetThreadContext` | 7 | Exported Function
+`GetProcessMitigationPolicy` | 6 | Exported Function
+`GetProcessHandleCount` | 5 | Exported Function
 
 
 ## Signature

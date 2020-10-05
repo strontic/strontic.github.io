@@ -24,9 +24,9 @@ PE256 | `0A4A589E4B721B969D4DB385EE17A9B60CAE695707229B04CBDCD8C81BAF0F51`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OnUserProfileChanged` | 1 (0x1) | Exported Function | 0x10006200 | 0x00006200
+Function Name | Ordinal | Type
+-- | -- | --
+`OnUserProfileChanged` | 1 | Exported Function
 
 
 ## Signature

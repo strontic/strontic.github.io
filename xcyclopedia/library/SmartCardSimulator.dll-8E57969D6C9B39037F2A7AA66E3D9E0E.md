@@ -24,23 +24,23 @@ PE256 | `9435BBB0A73670BB6B56FA49E88272FE08FC2B2170FB9D34229357F84DCDDA72`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 11 (0xb) | Exported Function | 0x00000001800248b0 | 0x000248b0
-`DllGetClassObject` | 12 (0xc) | Exported Function | 0x0000000180024ac0 | 0x00024ac0
-`DllRegisterServer` | 13 (0xd) | Exported Function | 0x0000000180024cf0 | 0x00024cf0
-`DllUnregisterServer` | 14 (0xe) | Exported Function | 0x0000000180024f00 | 0x00024f00
-`Microsoft_WDF_UMDF_Version` | 15 (0xf) | Exported Function | 0x00000001800a2430 | 0x000a2430
-`VGidsSimulatorCreate` | 1 (0x1) | Exported Function | 0x0000000180026b30 | 0x00026b30
-`VGidsSimulatorDestroy` | 2 (0x2) | Exported Function | 0x0000000180026d70 | 0x00026d70
-`VGidsSimulatorReadProperties` | 3 (0x3) | Exported Function | 0x00000001800275b0 | 0x000275b0
-`VGidsSimulatorWriteProperties` | 4 (0x4) | Exported Function | 0x0000000180026fa0 | 0x00026fa0
-`VTransportClose` | 5 (0x5) | Exported Function | 0x0000000180025d20 | 0x00025d20
-`VTransportDeinitialize` | 6 (0x6) | Exported Function | 0x0000000180025630 | 0x00025630
-`VTransportInitialize` | 7 (0x7) | Exported Function | 0x0000000180025110 | 0x00025110
-`VTransportOpen` | 8 (0x8) | Exported Function | 0x0000000180025850 | 0x00025850
-`VTransportReceive` | 9 (0x9) | Exported Function | 0x0000000180026460 | 0x00026460
-`VTransportTransmit` | 10 (0xa) | Exported Function | 0x0000000180025f90 | 0x00025f90
+Function Name | Ordinal | Type
+-- | -- | --
+`VTransportDeinitialize` | 6 | Exported Function
+`VTransportClose` | 5 | Exported Function
+`VGidsSimulatorWriteProperties` | 4 | Exported Function
+`VTransportInitialize` | 7 | Exported Function
+`VTransportTransmit` | 10 | Exported Function
+`VTransportReceive` | 9 | Exported Function
+`VTransportOpen` | 8 | Exported Function
+`VGidsSimulatorReadProperties` | 3 | Exported Function
+`DllRegisterServer` | 13 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`DllCanUnloadNow` | 11 | Exported Function
+`DllUnregisterServer` | 14 | Exported Function
+`VGidsSimulatorDestroy` | 2 | Exported Function
+`VGidsSimulatorCreate` | 1 | Exported Function
+`Microsoft_WDF_UMDF_Version` | 15 | Exported Function
 
 
 ## Signature

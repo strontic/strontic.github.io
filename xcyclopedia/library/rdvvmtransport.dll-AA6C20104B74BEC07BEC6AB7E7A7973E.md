@@ -24,11 +24,11 @@ PE256 | `1913261357385A59D124E663EEC2472DBB58C43FAB58E560E480052E69CC86E5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RdvTransport_CreateInstance` | 1 (0x1) | Exported Function | 0x10003660 | 0x00003660
-`RdvTransport_GetInstance` | 2 (0x2) | Exported Function | 0x10003940 | 0x00003940
-`RdvTransport_TerminateInstance` | 3 (0x3) | Exported Function | 0x100039a0 | 0x000039a0
+Function Name | Ordinal | Type
+-- | -- | --
+`RdvTransport_TerminateInstance` | 3 | Exported Function
+`RdvTransport_GetInstance` | 2 | Exported Function
+`RdvTransport_CreateInstance` | 1 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `A4FDB5AB242949871E1AAE2C53C1E435450EC0F7B164CBE4E8072A7E5015EFB4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WinJsonCloseHandle` | 1 (0x1) | Exported Function | 0x00000001800047e0 | 0x000047e0
-`WinJsonSendRequest` | 2 (0x2) | Exported Function | 0x0000000180003970 | 0x00003970
-`WinJsonSendRequestAsync` | 3 (0x3) | Exported Function | 0x0000000180003b30 | 0x00003b30
+Function Name | Ordinal | Type
+-- | -- | --
+`WinJsonSendRequestAsync` | 3 | Exported Function
+`WinJsonSendRequest` | 2 | Exported Function
+`WinJsonCloseHandle` | 1 | Exported Function
 
 
 ## Signature

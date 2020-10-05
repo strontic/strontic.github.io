@@ -24,14 +24,14 @@ PE256 | `3A7FD363834B9549671F88802D910F634BA4AB60501E947509B0252A76922084`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`const SmartCardBiManager::``vftable'` | 3 (0x3) | Exported Function | 0x0000000180009068 | 0x00009068
-`DllMain` | 6 (0x6) | Exported Function | 0x00000001800067c0 | 0x000067c0
-`protected: __cdecl SmartCardBiManager::SmartCardBiManager(void) __ptr64` | 1 (0x1) | Exported Function | 0x00000001800039d0 | 0x000039d0
-`public: static class SmartCardBiManager * __ptr64 __cdecl SmartCardBiManager::Instance(void)` | 5 (0x5) | Exported Function | 0x0000000180005010 | 0x00005010
-`public: static long __cdecl SmartCardBiManager::Initialize(void)` | 4 (0x4) | Exported Function | 0x0000000180005020 | 0x00005020
-`public: virtual __cdecl SmartCardBiManager::~SmartCardBiManager(void) __ptr64` | 2 (0x2) | Exported Function | 0x00000001800039f0 | 0x000039f0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: static class SmartCardBiManager * __ptr64 __cdecl SmartCardBiManager::Instance(void)` | 5 | Exported Function
+`public: static long __cdecl SmartCardBiManager::Initialize(void)` | 4 | Exported Function
+`public: virtual __cdecl SmartCardBiManager::~SmartCardBiManager(void) __ptr64` | 2 | Exported Function
+`const SmartCardBiManager::``vftable'` | 3 | Exported Function
+`DllMain` | 6 | Exported Function
+`protected: __cdecl SmartCardBiManager::SmartCardBiManager(void) __ptr64` | 1 | Exported Function
 
 
 ## Signature

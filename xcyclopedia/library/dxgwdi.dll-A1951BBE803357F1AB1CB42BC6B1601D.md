@@ -24,11 +24,11 @@ PE256 | `38D474294BC1E73795758F24610683FBA2472B3DA4C3A3A99ECCC4524F17A6FD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WdiDiagnosticModuleMain` | 1 (0x1) | Exported Function | 0x0000000180002340 | 0x00002340
-`WdiGetDiagnosticModuleInterfaceVersion` | 2 (0x2) | Exported Function | 0x0000000180002330 | 0x00002330
-`WdiHandleInstance` | 3 (0x3) | Exported Function | 0x0000000180002360 | 0x00002360
+Function Name | Ordinal | Type
+-- | -- | --
+`WdiHandleInstance` | 3 | Exported Function
+`WdiGetDiagnosticModuleInterfaceVersion` | 2 | Exported Function
+`WdiDiagnosticModuleMain` | 1 | Exported Function
 
 
 ## Signature

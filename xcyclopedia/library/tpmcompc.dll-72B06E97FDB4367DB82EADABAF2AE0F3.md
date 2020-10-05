@@ -24,10 +24,10 @@ PE256 | `7FD6D0E07D9538FAB23FE9D5931EBFE64A25B3429FF58209E2776F8C83091DAD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CHOOSER2_PickTargetComputer` | 1 (0x1) | Exported Function | 0x0000000180001720 | 0x00001720
-`DllMain` | 2 (0x2) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`DllMain` | 2 | Exported Function
+`CHOOSER2_PickTargetComputer` | 1 | Exported Function
 
 
 ## Signature

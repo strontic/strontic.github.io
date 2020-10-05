@@ -24,13 +24,13 @@ PE256 | `E74DCA96E1B4958995F5A27770D8A87D3647AFA282B3128C232083F295262B18`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`KdInitialize` | 1 (0x1) | Exported Function | 0x00000001c00011b0 | 0x000011b0
-`KdPower` | 2 (0x2) | Exported Function | 0x00000001c0001010 | 0x00001010
-`KdReceivePacket` | 3 (0x3) | Exported Function | 0x00000001c0001290 | 0x00001290
-`KdSendPacket` | 4 (0x4) | Exported Function | 0x00000001c00012c0 | 0x000012c0
-`KdSetHiberRange` | 5 (0x5) | Exported Function | 0x00000001c0001030 | 0x00001030
+Function Name | Ordinal | Type
+-- | -- | --
+`KdSendPacket` | 4 | Exported Function
+`KdSetHiberRange` | 5 | Exported Function
+`KdReceivePacket` | 3 | Exported Function
+`KdInitialize` | 1 | Exported Function
+`KdPower` | 2 | Exported Function
 
 
 ## Signature

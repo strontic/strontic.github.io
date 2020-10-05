@@ -24,37 +24,37 @@ PE256 | `5D231FC9217C135E8BDC22706E99A93172675663907AEE285DBDADEBA208B271`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BeginRegisterPropChangeNotificationEx` | 1 (0x1) | Exported Function | 0x10007ea0 | 0x00007ea0
-`RegisterServiceEx` | 27 (0x1b) | Exported Function | 0x10003a10 | 0x00003a10
-`RegisterService` | 26 (0x1a) | Exported Function | 0x10008660 | 0x00008660
-`RegisterNotificationEx` | 25 (0x19) | Exported Function | 0x10008550 | 0x00008550
-`RegisterNotification` | 24 (0x18) | Exported Function | 0x100021e0 | 0x000021e0
-`RegisterAliveNotificationOnNetworkEx` | 23 (0x17) | Exported Function | 0x100084f0 | 0x000084f0
-`GetNextServiceEx` | 22 (0x16) | Exported Function | 0x10008d90 | 0x00008d90
-`GetNextService` | 21 (0x15) | Exported Function | 0x10008d00 | 0x00008d00
-`GetFirstServiceEx` | 20 (0x14) | Exported Function | 0x10008c60 | 0x00008c60
-`GetFirstService` | 19 (0x13) | Exported Function | 0x10008bd0 | 0x00008bd0
-`FreeSsdpMessageEx` | 18 (0x12) | Exported Function | 0x100041c0 | 0x000041c0
-`FreeSsdpMessage` | 17 (0x11) | Exported Function | 0x100074f0 | 0x000074f0
-`FindServicesOnNetworkCallbackEx` | 16 (0x10) | Exported Function | 0x10003ea0 | 0x00003ea0
-`SsdpCleanup` | 28 (0x1c) | Exported Function | 0x10002b70 | 0x00002b70
-`FindServicesEx` | 15 (0xf) | Exported Function | 0x10008bb0 | 0x00008bb0
-`FindServicesCancel` | 13 (0xd) | Exported Function | 0x100038a0 | 0x000038a0
-`FindServicesCallbackEx` | 12 (0xc) | Exported Function | 0x10008b70 | 0x00008b70
-`FindServicesCallback` | 11 (0xb) | Exported Function | 0x10008b30 | 0x00008b30
-`FindServices` | 10 (0xa) | Exported Function | 0x100028a0 | 0x000028a0
-`EndRegisterPropChangeNotificationEx` | 9 (0x9) | Exported Function | 0x100083a0 | 0x000083a0
-`EnableFirewallRule` | 8 (0x8) | Exported Function | 0x100094a0 | 0x000094a0
-`DisableFirewallRule` | 7 (0x7) | Exported Function | 0x10009380 | 0x00009380
-`DHSetICSOff` | 4 (0x4) | Exported Function | 0x10009360 | 0x00009360
-`DHSetICSInterfaces` | 3 (0x3) | Exported Function | 0x10009330 | 0x00009330
-`DeregisterService` | 6 (0x6) | Exported Function | 0x10003b60 | 0x00003b60
-`DeregisterNotification` | 5 (0x5) | Exported Function | 0x10008120 | 0x00008120
-`CleanupCache` | 2 (0x2) | Exported Function | 0x10006c80 | 0x00006c80
-`FindServicesClose` | 14 (0xe) | Exported Function | 0x10004250 | 0x00004250
-`SsdpStartup` | 29 (0x1d) | Exported Function | 0x10002ec0 | 0x00002ec0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetFirstServiceEx` | 20 | Exported Function
+`GetNextService` | 21 | Exported Function
+`GetNextServiceEx` | 22 | Exported Function
+`GetFirstService` | 19 | Exported Function
+`FindServicesOnNetworkCallbackEx` | 16 | Exported Function
+`FreeSsdpMessage` | 17 | Exported Function
+`FreeSsdpMessageEx` | 18 | Exported Function
+`RegisterServiceEx` | 27 | Exported Function
+`SsdpCleanup` | 28 | Exported Function
+`SsdpStartup` | 29 | Exported Function
+`RegisterService` | 26 | Exported Function
+`RegisterAliveNotificationOnNetworkEx` | 23 | Exported Function
+`RegisterNotification` | 24 | Exported Function
+`RegisterNotificationEx` | 25 | Exported Function
+`FindServicesEx` | 15 | Exported Function
+`DHSetICSInterfaces` | 3 | Exported Function
+`DHSetICSOff` | 4 | Exported Function
+`DisableFirewallRule` | 7 | Exported Function
+`DeregisterService` | 6 | Exported Function
+`BeginRegisterPropChangeNotificationEx` | 1 | Exported Function
+`CleanupCache` | 2 | Exported Function
+`DeregisterNotification` | 5 | Exported Function
+`FindServicesCallbackEx` | 12 | Exported Function
+`FindServicesCancel` | 13 | Exported Function
+`FindServicesClose` | 14 | Exported Function
+`FindServicesCallback` | 11 | Exported Function
+`EnableFirewallRule` | 8 | Exported Function
+`EndRegisterPropChangeNotificationEx` | 9 | Exported Function
+`FindServices` | 10 | Exported Function
 
 
 ## Signature

@@ -24,26 +24,26 @@ PE256 | `E117C05A7A028106C7BAADDF99500333936CC4FC158E9446F32CA85789721263`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DestroyAddressParser` | 1 (0x1) | Exported Function | 0x10005a60 | 0x00005a60
-`SetState` | 16 (0x10) | Exported Function | 0x10005c80 | 0x00005c80
-`SetPostalCode` | 15 (0xf) | Exported Function | 0x10005cb0 | 0x00005cb0
-`SetFullAddress` | 14 (0xe) | Exported Function | 0x10005bf0 | 0x00005bf0
-`SetCountryName` | 13 (0xd) | Exported Function | 0x10005ce0 | 0x00005ce0
-`SetCity` | 12 (0xc) | Exported Function | 0x10005c50 | 0x00005c50
-`RebuildAddress` | 11 (0xb) | Exported Function | 0x10005bd0 | 0x00005bd0
-`ParseAddress` | 10 (0xa) | Exported Function | 0x10005ba0 | 0x00005ba0
-`GetStreet` | 9 (0x9) | Exported Function | 0x10005b40 | 0x00005b40
-`GetState` | 8 (0x8) | Exported Function | 0x10005b10 | 0x00005b10
-`GetPostalCode` | 7 (0x7) | Exported Function | 0x10005a80 | 0x00005a80
-`GetNewAddressParser` | 6 (0x6) | Exported Function | 0x100059f0 | 0x000059f0
-`GetFullAddress` | 5 (0x5) | Exported Function | 0x10005b70 | 0x00005b70
-`GetCountryStringFromIndex` | 4 (0x4) | Exported Function | 0x10005d00 | 0x00005d00
-`GetCountryName` | 3 (0x3) | Exported Function | 0x10005ab0 | 0x00005ab0
-`GetCity` | 2 (0x2) | Exported Function | 0x10005ae0 | 0x00005ae0
-`SetStreet` | 17 (0x11) | Exported Function | 0x10005c20 | 0x00005c20
-`UpdateDefCountry` | 18 (0x12) | Exported Function | 0x10005d50 | 0x00005d50
+Function Name | Ordinal | Type
+-- | -- | --
+`SetCity` | 12 | Exported Function
+`SetCountryName` | 13 | Exported Function
+`ParseAddress` | 10 | Exported Function
+`RebuildAddress` | 11 | Exported Function
+`SetFullAddress` | 14 | Exported Function
+`SetStreet` | 17 | Exported Function
+`UpdateDefCountry` | 18 | Exported Function
+`SetPostalCode` | 15 | Exported Function
+`SetState` | 16 | Exported Function
+`GetCountryName` | 3 | Exported Function
+`GetCountryStringFromIndex` | 4 | Exported Function
+`DestroyAddressParser` | 1 | Exported Function
+`GetCity` | 2 | Exported Function
+`GetFullAddress` | 5 | Exported Function
+`GetState` | 8 | Exported Function
+`GetStreet` | 9 | Exported Function
+`GetNewAddressParser` | 6 | Exported Function
+`GetPostalCode` | 7 | Exported Function
 
 
 ## Signature

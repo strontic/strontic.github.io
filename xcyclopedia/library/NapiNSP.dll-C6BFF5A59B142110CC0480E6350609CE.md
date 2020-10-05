@@ -24,10 +24,10 @@ PE256 | `B176D203D1D835DFC99CE87FE1777BC11BA0454424D35DF4016AE6360F5F7F6C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x0000000180002410 | 0x00002410
-`NSPStartup` | 2 (0x2) | Exported Function | 0x0000000180001200 | 0x00001200
+Function Name | Ordinal | Type
+-- | -- | --
+`NSPStartup` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
 
 
 ## Signature

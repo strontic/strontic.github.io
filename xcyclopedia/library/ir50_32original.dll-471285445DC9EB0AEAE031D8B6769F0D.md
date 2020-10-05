@@ -24,16 +24,16 @@ PE256 | `047C7A3E6F6A334DB75940C9EEB188C2BABBC085BDB4E392CF40133A921D5520`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AboutDialogProc` | 1 (0x1) | Exported Function | 0x100442a0 | 0x000442a0
-`ConfigureDialogProc` | 2 (0x2) | Exported Function | 0x10044490 | 0x00044490
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x1007605a | 0x0007605a
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x10075f90 | 0x00075f90
-`DllMain` | 5 (0x5) | Exported Function | 0x10046200 | 0x00046200
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x1004be60 | 0x0004be60
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x1004c420 | 0x0004c420
-`DriverProc` | 8 (0x8) | Exported Function | 0x100454c0 | 0x000454c0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 6 | Exported Function
+`DllMain` | 5 | Exported Function
+`DriverProc` | 8 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`ConfigureDialogProc` | 2 | Exported Function
+`AboutDialogProc` | 1 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

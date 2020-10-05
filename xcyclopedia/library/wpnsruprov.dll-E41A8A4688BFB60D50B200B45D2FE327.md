@@ -24,12 +24,12 @@ PE256 | `03BF574958F26785D649486A7A00C296F10E265F6F2F3003A8A5092316EB108D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180001690 | 0x00001690
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x00000001800016b0 | 0x000016b0
-`SruInitializeProvider` | 3 (0x3) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`SruUninitializeProvider` | 4 (0x4) | Exported Function | 0x0000000180002230 | 0x00002230
+Function Name | Ordinal | Type
+-- | -- | --
+`SruInitializeProvider` | 3 | Exported Function
+`SruUninitializeProvider` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

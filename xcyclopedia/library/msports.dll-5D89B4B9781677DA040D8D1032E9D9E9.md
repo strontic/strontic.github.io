@@ -24,19 +24,19 @@ PE256 | `B75A1B6888BE69B09F2A96614247B3A01553BE0EA8D11B026116028083F10D2B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ComDBClaimNextFreePort` | 1 (0x1) | Exported Function | 0x0000000170104830 | 0x00004830
-`ComDBClaimPort` | 2 (0x2) | Exported Function | 0x0000000170104950 | 0x00004950
-`ComDBClose` | 3 (0x3) | Exported Function | 0x0000000170104520 | 0x00004520
-`ComDBGetCurrentPortUsage` | 4 (0x4) | Exported Function | 0x00000001701046e0 | 0x000046e0
-`ComDBOpen` | 5 (0x5) | Exported Function | 0x0000000170104080 | 0x00004080
-`ComDBReleasePort` | 6 (0x6) | Exported Function | 0x0000000170104a80 | 0x00004a80
-`ComDBResizeDatabase` | 7 (0x7) | Exported Function | 0x0000000170104b10 | 0x00004b10
-`ParallelPortPropPageProvider` | 8 (0x8) | Exported Function | 0x00000001701083b0 | 0x000083b0
-`PortsClassInstaller` | 9 (0x9) | Exported Function | 0x0000000170104e20 | 0x00004e20
-`SerialDisplayAdvancedSettings` | 10 (0xa) | Exported Function | 0x00000001701011c0 | 0x000011c0
-`SerialPortPropPageProvider` | 11 (0xb) | Exported Function | 0x0000000170107080 | 0x00007080
+Function Name | Ordinal | Type
+-- | -- | --
+`ParallelPortPropPageProvider` | 8 | Exported Function
+`ComDBResizeDatabase` | 7 | Exported Function
+`PortsClassInstaller` | 9 | Exported Function
+`SerialPortPropPageProvider` | 11 | Exported Function
+`SerialDisplayAdvancedSettings` | 10 | Exported Function
+`ComDBReleasePort` | 6 | Exported Function
+`ComDBClaimPort` | 2 | Exported Function
+`ComDBClaimNextFreePort` | 1 | Exported Function
+`ComDBClose` | 3 | Exported Function
+`ComDBOpen` | 5 | Exported Function
+`ComDBGetCurrentPortUsage` | 4 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `48140C3230628E03D0DB08D40CA6DB644597B6B55F5F83792A0E89C3A332A16C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SubServiceScmNotification` | 1 (0x1) | Exported Function | 0x0000000180001090 | 0x00001090
-`SubServiceStart` | 2 (0x2) | Exported Function | 0x0000000180003350 | 0x00003350
-`SubServiceStop` | 3 (0x3) | Exported Function | 0x0000000180008e60 | 0x00008e60
+Function Name | Ordinal | Type
+-- | -- | --
+`SubServiceStop` | 3 | Exported Function
+`SubServiceStart` | 2 | Exported Function
+`SubServiceScmNotification` | 1 | Exported Function
 
 
 ## Signature

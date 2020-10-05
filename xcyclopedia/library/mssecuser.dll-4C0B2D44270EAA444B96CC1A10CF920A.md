@@ -24,25 +24,25 @@ PE256 | `0AAE4A4B26A151B99651A5F0128FB8C09BE206D8D82D85587DEBD31E47C7163C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SecClearRegistryOperations` | 1 (0x1) | Exported Function | 0x0000000180002f20 | 0x00002f20
-`SecUnregisterConsumer` | 15 (0xf) | Exported Function | 0x0000000180001bc0 | 0x00001bc0
-`SecSetRegistryOperations` | 14 (0xe) | Exported Function | 0x0000000180002ec0 | 0x00002ec0
-`SecSetFileMonitorOperations` | 13 (0xd) | Exported Function | 0x000000018000cac0 | 0x0000cac0
-`SecSetConfiguration` | 12 (0xc) | Exported Function | 0x000000018000a2c0 | 0x0000a2c0
-`SecRequestOplock` | 11 (0xb) | Exported Function | 0x0000000180002bb0 | 0x00002bb0
-`SecRegisterConsumer` | 10 (0xa) | Exported Function | 0x0000000180001a80 | 0x00001a80
-`SecWriteFileDlpEA` | 16 (0x10) | Exported Function | 0x0000000180002a40 | 0x00002a40
-`SecIsKernelIntegrityEnabled` | 9 (0x9) | Exported Function | 0x00000001800025e0 | 0x000025e0
-`SecGetProcessInfo` | 7 (0x7) | Exported Function | 0x0000000180002760 | 0x00002760
-`SecGetFileHashes` | 6 (0x6) | Exported Function | 0x0000000180002220 | 0x00002220
-`SecGetDriverVersion` | 5 (0x5) | Exported Function | 0x0000000180002570 | 0x00002570
-`SecGetCiInformation` | 4 (0x4) | Exported Function | 0x0000000180002ca0 | 0x00002ca0
-`SecDeleteSessionFilter` | 3 (0x3) | Exported Function | 0x0000000180002700 | 0x00002700
-`SecCreateSessionFilter` | 2 (0x2) | Exported Function | 0x0000000180002650 | 0x00002650
-`SecGetUserLibVersion` | 8 (0x8) | Exported Function | 0x0000000180002620 | 0x00002620
-`SecWriteFileHashEA` | 17 (0x11) | Exported Function | 0x0000000180002900 | 0x00002900
+Function Name | Ordinal | Type
+-- | -- | --
+`SecSetConfiguration` | 12 | Exported Function
+`SecSetFileMonitorOperations` | 13 | Exported Function
+`SecRegisterConsumer` | 10 | Exported Function
+`SecRequestOplock` | 11 | Exported Function
+`SecWriteFileDlpEA` | 16 | Exported Function
+`SecWriteFileHashEA` | 17 | Exported Function
+`SecSetRegistryOperations` | 14 | Exported Function
+`SecUnregisterConsumer` | 15 | Exported Function
+`SecIsKernelIntegrityEnabled` | 9 | Exported Function
+`SecDeleteSessionFilter` | 3 | Exported Function
+`SecGetCiInformation` | 4 | Exported Function
+`SecClearRegistryOperations` | 1 | Exported Function
+`SecCreateSessionFilter` | 2 | Exported Function
+`SecGetProcessInfo` | 7 | Exported Function
+`SecGetUserLibVersion` | 8 | Exported Function
+`SecGetDriverVersion` | 5 | Exported Function
+`SecGetFileHashes` | 6 | Exported Function
 
 
 ## Signature

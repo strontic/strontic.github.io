@@ -24,30 +24,30 @@ PE256 | `E0D5EA7C383174E86422FCA44105815794C27F1C87EDC99EFCC7930D00F84DBD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TcAddFilter` | 1 (0x1) | Exported Function | 0x0000000180001e10 | 0x00001e10
-`TcSetFlowW` | 20 (0x14) | Exported Function | 0x0000000180002790 | 0x00002790
-`TcSetFlowA` | 19 (0x13) | Exported Function | 0x0000000180002890 | 0x00002890
-`TcRegisterClient` | 18 (0x12) | Exported Function | 0x0000000180001010 | 0x00001010
-`TcQueryInterface` | 17 (0x11) | Exported Function | 0x00000001800021f0 | 0x000021f0
-`TcQueryFlowW` | 16 (0x10) | Exported Function | 0x0000000180002590 | 0x00002590
-`TcQueryFlowA` | 15 (0xf) | Exported Function | 0x00000001800026c0 | 0x000026c0
-`TcOpenInterfaceW` | 14 (0xe) | Exported Function | 0x0000000180001420 | 0x00001420
-`TcOpenInterfaceA` | 13 (0xd) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`TcModifyFlow` | 12 (0xc) | Exported Function | 0x0000000180001b90 | 0x00001b90
-`TcGetInterfaceList` | 11 (0xb) | Exported Function | 0x00000001800030a0 | 0x000030a0
-`TcGetFlowNameW` | 10 (0xa) | Exported Function | 0x0000000180002960 | 0x00002960
-`TcGetFlowNameA` | 9 (0x9) | Exported Function | 0x0000000180002a50 | 0x00002a50
-`TcEnumerateInterfaces` | 8 (0x8) | Exported Function | 0x00000001800011d0 | 0x000011d0
-`TcEnumerateFlows` | 7 (0x7) | Exported Function | 0x0000000180002b10 | 0x00002b10
-`TcDeregisterClient` | 6 (0x6) | Exported Function | 0x0000000180002080 | 0x00002080
-`TcDeleteFlow` | 5 (0x5) | Exported Function | 0x0000000180001cd0 | 0x00001cd0
-`TcDeleteFilter` | 4 (0x4) | Exported Function | 0x0000000180001fd0 | 0x00001fd0
-`TcCloseInterface` | 3 (0x3) | Exported Function | 0x00000001800017c0 | 0x000017c0
-`TcAddFlow` | 2 (0x2) | Exported Function | 0x0000000180001a70 | 0x00001a70
-`TcSetInterface` | 21 (0x15) | Exported Function | 0x0000000180002460 | 0x00002460
-`TcSetSocketFlow` | 22 (0x16) | Exported Function | 0x0000000180002f80 | 0x00002f80
+Function Name | Ordinal | Type
+-- | -- | --
+`TcQueryFlowA` | 15 | Exported Function
+`TcQueryFlowW` | 16 | Exported Function
+`TcOpenInterfaceW` | 14 | Exported Function
+`TcModifyFlow` | 12 | Exported Function
+`TcOpenInterfaceA` | 13 | Exported Function
+`TcQueryInterface` | 17 | Exported Function
+`TcSetInterface` | 21 | Exported Function
+`TcSetSocketFlow` | 22 | Exported Function
+`TcSetFlowW` | 20 | Exported Function
+`TcRegisterClient` | 18 | Exported Function
+`TcSetFlowA` | 19 | Exported Function
+`TcDeleteFilter` | 4 | Exported Function
+`TcDeleteFlow` | 5 | Exported Function
+`TcCloseInterface` | 3 | Exported Function
+`TcAddFilter` | 1 | Exported Function
+`TcAddFlow` | 2 | Exported Function
+`TcDeregisterClient` | 6 | Exported Function
+`TcGetFlowNameW` | 10 | Exported Function
+`TcGetInterfaceList` | 11 | Exported Function
+`TcGetFlowNameA` | 9 | Exported Function
+`TcEnumerateFlows` | 7 | Exported Function
+`TcEnumerateInterfaces` | 8 | Exported Function
 
 
 ## Signature

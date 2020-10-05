@@ -24,14 +24,14 @@ PE256 | `3AC639DF615A69841C7D1BE149984284F7E82BAB80746A7767095C57876D040F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializeSListHead` | 1 (0x1) | Exported Function | kernel32.InitializeSListHead | 0x000010ff
-`InterlockedFlushSList` | 2 (0x2) | Exported Function | kernel32.InterlockedFlushSList | 0x00001132
-`InterlockedPopEntrySList` | 3 (0x3) | Exported Function | kernel32.InterlockedPopEntrySList | 0x0000116a
-`InterlockedPushEntrySList` | 4 (0x4) | Exported Function | kernel32.InterlockedPushEntrySList | 0x000011a6
-`InterlockedPushListSList` | 5 (0x5) | Exported Function | kernel32.InterlockedPushListSList | 0x000011e2
-`QueryDepthSList` | 6 (0x6) | Exported Function | kernel32.QueryDepthSList | 0x00001214
+Function Name | Ordinal | Type
+-- | -- | --
+`InterlockedPushEntrySList` | 4 | Exported Function
+`InterlockedPushListSList` | 5 | Exported Function
+`QueryDepthSList` | 6 | Exported Function
+`InitializeSListHead` | 1 | Exported Function
+`InterlockedFlushSList` | 2 | Exported Function
+`InterlockedPopEntrySList` | 3 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `9C87BC0AA0579A29E6579D8B1AF8B29A6699F5F59601CF635FF0D28EA4322E81`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DabInitialize` | 1 (0x1) | Exported Function | 0x0000000180007d00 | 0x00007d00
-`DabPowerStateChanged` | 2 (0x2) | Exported Function | 0x0000000180010360 | 0x00010360
-`DabSessionStateChanged` | 3 (0x3) | Exported Function | 0x0000000180007390 | 0x00007390
-`DabTerminate` | 4 (0x4) | Exported Function | 0x0000000180010370 | 0x00010370
+Function Name | Ordinal | Type
+-- | -- | --
+`DabSessionStateChanged` | 3 | Exported Function
+`DabTerminate` | 4 | Exported Function
+`DabInitialize` | 1 | Exported Function
+`DabPowerStateChanged` | 2 | Exported Function
 
 
 ## Signature

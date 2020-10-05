@@ -24,9 +24,9 @@ PE256 | `AE40C8E8D719A4C88310A87C1834035C2915A8052D43AEC7757A4F0EEBC2D784`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Sysprep_Generalize_MountPointManager` | 1 (0x1) | Exported Function | 0x0000000180001040 | 0x00001040
+Function Name | Ordinal | Type
+-- | -- | --
+`Sysprep_Generalize_MountPointManager` | 1 | Exported Function
 
 
 ## Signature

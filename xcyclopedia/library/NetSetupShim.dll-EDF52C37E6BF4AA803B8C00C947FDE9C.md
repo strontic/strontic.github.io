@@ -24,14 +24,14 @@ PE256 | `E035E185BF8BD36062C1DCEDC69E35BFE4B9A293C72532FEE79D47BF9C869CF5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180017b70 | 0x00017b70
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180017bb0 | 0x00017bb0
-`NetSetupCreateBindingMap` | 3 (0x3) | Exported Function | 0x0000000180037d90 | 0x00037d90
-`NetSetupExportDatabase` | 4 (0x4) | Exported Function | 0x0000000180038120 | 0x00038120
-`NetSetupResetBindings` | 5 (0x5) | Exported Function | 0x0000000180038180 | 0x00038180
-`NetSetupShimExecuteInfSection` | 6 (0x6) | Exported Function | 0x00000001800315d0 | 0x000315d0
+Function Name | Ordinal | Type
+-- | -- | --
+`NetSetupExportDatabase` | 4 | Exported Function
+`NetSetupResetBindings` | 5 | Exported Function
+`NetSetupShimExecuteInfSection` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`NetSetupCreateBindingMap` | 3 | Exported Function
 
 
 ## Signature

@@ -23,10 +23,10 @@ PE256 | `0DFE12ABFA750C609F58CF5007D0C1DD780B36320857D1A0B1051597D0FDB032`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateFaceCache` | 1 (0x1) | Exported Function | 0x000000018003d920 | 0x0003d920
-`CreateInfraredFaceProcessor` | 2 (0x2) | Exported Function | 0x000000018003fbd0 | 0x0003fbd0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateInfraredFaceProcessor` | 2 | Exported Function
+`CreateFaceCache` | 1 | Exported Function
 
 
 ## Signature

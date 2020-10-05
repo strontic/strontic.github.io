@@ -24,12 +24,12 @@ PE256 | `7533757D0F7F8CD400CE6739203B8A2C8ACF053DE85ACA6B921AD95A55103302`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ServiceTriggerEnumerateTransferredSockets` | 1 (0x1) | Exported Function | 0x0000000180001810 | 0x00001810
-`ServiceTriggerRetrieveSocketContext` | 2 (0x2) | Exported Function | 0x0000000180001880 | 0x00001880
-`ServiceTriggerRetrieveSockets` | 3 (0x3) | Exported Function | 0x0000000180001900 | 0x00001900
-`ServiceTriggerTransferSocketOwnership` | 4 (0x4) | Exported Function | 0x00000001800017d0 | 0x000017d0
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceTriggerRetrieveSockets` | 3 | Exported Function
+`ServiceTriggerTransferSocketOwnership` | 4 | Exported Function
+`ServiceTriggerEnumerateTransferredSockets` | 1 | Exported Function
+`ServiceTriggerRetrieveSocketContext` | 2 | Exported Function
 
 
 ## Signature

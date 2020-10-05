@@ -24,28 +24,28 @@ PE256 | `247AE21995ACB10461FC4CA2897361FD799E985F43FE54CF15C90A6A36BF0265`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TelLib_Cleanup` | 1 (0x1) | Exported Function | 0x00000001800129c0 | 0x000129c0
-`TelLib_SetTimerValue` | 18 (0x12) | Exported Function | 0x0000000180013450 | 0x00013450
-`TelLib_SetProxyInfo` | 17 (0x11) | Exported Function | 0x0000000180012ca0 | 0x00012ca0
-`TelLib_SetNetworkState` | 16 (0x10) | Exported Function | 0x0000000180013390 | 0x00013390
-`TelLib_SetNetworkImpersonationContext` | 15 (0xf) | Exported Function | 0x0000000180012c40 | 0x00012c40
-`TelLib_SetNetworkActivityCallback` | 14 (0xe) | Exported Function | 0x00000001800135b0 | 0x000135b0
-`TelLib_SetGeneralQuietMode` | 13 (0xd) | Exported Function | 0x00000001800132d0 | 0x000132d0
-`TelLib_SetDiskQuota` | 12 (0xc) | Exported Function | 0x0000000180012ba0 | 0x00012ba0
-`TelLib_SetDiskActivityCallback` | 11 (0xb) | Exported Function | 0x0000000180013680 | 0x00013680
-`TelLib_SetDailyUploadQuota` | 10 (0xa) | Exported Function | 0x0000000180012b00 | 0x00012b00
-`TelLib_SetConnectedStandby` | 9 (0x9) | Exported Function | 0x0000000180013330 | 0x00013330
-`TelLib_SetBatteryState` | 8 (0x8) | Exported Function | 0x00000001800131d0 | 0x000131d0
-`TelLib_SetBandwidthExceededChangedCallback` | 7 (0x7) | Exported Function | 0x00000001800134e0 | 0x000134e0
-`TelLib_SetAgentConnectivityCallback` | 6 (0x6) | Exported Function | 0x0000000180013820 | 0x00013820
-`TelLib_Initialize` | 5 (0x5) | Exported Function | 0x00000001800124a0 | 0x000124a0
-`TelLib_ForceUpload` | 4 (0x4) | Exported Function | 0x00000001800138f0 | 0x000138f0
-`TelLib_EventWrite` | 3 (0x3) | Exported Function | 0x0000000180013970 | 0x00013970
-`TelLib_ConfigureSetting` | 2 (0x2) | Exported Function | 0x0000000180013040 | 0x00013040
-`TelLib_SetUploadFailedCallback` | 19 (0x13) | Exported Function | 0x0000000180013750 | 0x00013750
-`TelLib_SetUploadUrls` | 20 (0x14) | Exported Function | 0x0000000180012dd0 | 0x00012dd0
+Function Name | Ordinal | Type
+-- | -- | --
+`TelLib_SetNetworkActivityCallback` | 14 | Exported Function
+`TelLib_SetNetworkImpersonationContext` | 15 | Exported Function
+`TelLib_SetGeneralQuietMode` | 13 | Exported Function
+`TelLib_SetDiskActivityCallback` | 11 | Exported Function
+`TelLib_SetDiskQuota` | 12 | Exported Function
+`TelLib_SetUploadFailedCallback` | 19 | Exported Function
+`TelLib_SetUploadUrls` | 20 | Exported Function
+`TelLib_SetTimerValue` | 18 | Exported Function
+`TelLib_SetNetworkState` | 16 | Exported Function
+`TelLib_SetProxyInfo` | 17 | Exported Function
+`TelLib_ForceUpload` | 4 | Exported Function
+`TelLib_Initialize` | 5 | Exported Function
+`TelLib_EventWrite` | 3 | Exported Function
+`TelLib_Cleanup` | 1 | Exported Function
+`TelLib_ConfigureSetting` | 2 | Exported Function
+`TelLib_SetConnectedStandby` | 9 | Exported Function
+`TelLib_SetDailyUploadQuota` | 10 | Exported Function
+`TelLib_SetBatteryState` | 8 | Exported Function
+`TelLib_SetAgentConnectivityCallback` | 6 | Exported Function
+`TelLib_SetBandwidthExceededChangedCallback` | 7 | Exported Function
 
 
 ## Signature

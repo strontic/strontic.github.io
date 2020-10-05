@@ -24,12 +24,12 @@ PE256 | `C5FEC61A9D2DC1ED814BFCE844CAB9C9B86F54944482C789E4DE029B7A655B91`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AtlThunk_AllocateData` | 1 (0x1) | Exported Function | 0x100069e0 | 0x000069e0
-`AtlThunk_DataToCode` | 2 (0x2) | Exported Function | 0x10006810 | 0x00006810
-`AtlThunk_FreeData` | 3 (0x3) | Exported Function | 0x10006b60 | 0x00006b60
-`AtlThunk_InitData` | 4 (0x4) | Exported Function | 0x10006b30 | 0x00006b30
+Function Name | Ordinal | Type
+-- | -- | --
+`AtlThunk_FreeData` | 3 | Exported Function
+`AtlThunk_InitData` | 4 | Exported Function
+`AtlThunk_AllocateData` | 1 | Exported Function
+`AtlThunk_DataToCode` | 2 | Exported Function
 
 
 ## Signature

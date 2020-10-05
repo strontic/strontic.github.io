@@ -24,19 +24,19 @@ PE256 | `4D45D0FF211CB9EE16DF4177B58C022F8C3A00110E1A5600AD57E033C5B8DD71`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCancelAuthentication` | 2 (0x2) | Exported Function | 0x6a7e35c0 | 0x001e35c0
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x6a7e35b0 | 0x001e35b0
-`DllDeleteSavedCreds` | 3 (0x3) | Exported Function | 0x6a7e35d0 | 0x001e35d0
-`DllGetClaimsToken` | 4 (0x4) | Exported Function | 0x6a7e35f0 | 0x001e35f0
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x6a7e3620 | 0x001e3620
-`DllGetTscCtlVer` | 6 (0x6) | Exported Function | 0x6a7e3640 | 0x001e3640
-`DllLogoffClaimsToken` | 7 (0x7) | Exported Function | 0x6a7e3650 | 0x001e3650
-`DllRegisterServer` | 8 (0x8) | Exported Function | 0x6a7e36a0 | 0x001e36a0
-`DllSetAuthProperties` | 9 (0x9) | Exported Function | 0x6a7e36b0 | 0x001e36b0
-`DllSetClaimsToken` | 10 (0xa) | Exported Function | 0x6a7e36e0 | 0x001e36e0
-`DllUnregisterServer` | 11 (0xb) | Exported Function | 0x6a7e3720 | 0x001e3720
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 8 | Exported Function
+`DllLogoffClaimsToken` | 7 | Exported Function
+`DllSetAuthProperties` | 9 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
+`DllSetClaimsToken` | 10 | Exported Function
+`DllGetTscCtlVer` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllCancelAuthentication` | 2 | Exported Function
+`DllDeleteSavedCreds` | 3 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllGetClaimsToken` | 4 | Exported Function
 
 
 ## Signature

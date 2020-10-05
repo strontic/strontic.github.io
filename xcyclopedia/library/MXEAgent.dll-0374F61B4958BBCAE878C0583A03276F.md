@@ -24,28 +24,28 @@ PE256 | `1653AA88DAF72E2D8AE0BCA50DCE483802B0B6B43B0C13A3D5BB18CD62FA95AD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`const Mig::CMXEAgent::``vbtable'` | 9 (0x9) | Exported Function | 0x00000001800334f8 | 0x000334f8
-`public: virtual void __cdecl Mig::CMXEAgent::Init(class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64,class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 18 (0x12) | Exported Function | 0x0000000180001a80 | 0x00001a80
-`public: virtual void __cdecl Mig::CMXEAgent::Init(class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 17 (0x11) | Exported Function | 0x0000000180001e20 | 0x00001e20
-`public: virtual void __cdecl Mig::CMXEAgent::Done(int) __ptr64` | 16 (0x10) | Exported Function | 0x00000001800025b0 | 0x000025b0
-`public: virtual void __cdecl Mig::CMXEAgent::AdjustRules(class Mig::CMigUnit * __ptr64,class Mig::CMigUnit * __ptr64) __ptr64` | 14 (0xe) | Exported Function | 0x0000000180003080 | 0x00003080
-`public: virtual void __cdecl Mig::CMXEAgent::AddGatherInfo(class Mig::CMigUnit * __ptr64,struct ICancelable * __ptr64) __ptr64` | 12 (0xc) | Exported Function | 0x0000000180002bf0 | 0x00002bf0
-`public: virtual void __cdecl Mig::CMXEAgent::AddApplyInfo(class Mig::CMigUnit * __ptr64) __ptr64` | 11 (0xb) | Exported Function | 0x0000000180002f30 | 0x00002f30
-`public: virtual class Mig::CMigUnitList * __ptr64 __cdecl Mig::CMXEAgent::Detect(class Mig::CUserContext * __ptr64,struct ICancelable * __ptr64) __ptr64` | 15 (0xf) | Exported Function | 0x0000000180002610 | 0x00002610
-`public: virtual __cdecl Mig::CMXEAgent::~CMXEAgent(void) __ptr64` | 4 (0x4) | Exported Function | 0x00000001800016f0 | 0x000016f0
-`public: class Mig::CMXEAgent & __ptr64 __cdecl Mig::CMXEAgent::operator=(class Mig::CMXEAgent const & __ptr64) __ptr64` | 6 (0x6) | Exported Function | 0x0000000180001820 | 0x00001820
-`public: class Mig::CMXEAgent & __ptr64 __cdecl Mig::CMXEAgent::operator=(class Mig::CMXEAgent && __ptr64) __ptr64` | 5 (0x5) | Exported Function | 0x0000000180001820 | 0x00001820
-`public: __cdecl Mig::CMXEAgent::CMXEAgent(class UnBCL::String * __ptr64) __ptr64` | 3 (0x3) | Exported Function | 0x00000001800019b0 | 0x000019b0
-`public: __cdecl Mig::CMXEAgent::CMXEAgent(class Mig::CMXEAgent const & __ptr64) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180001700 | 0x00001700
-`public: __cdecl Mig::CMXEAgent::CMXEAgent(class Mig::CMXEAgent && __ptr64) __ptr64` | 1 (0x1) | Exported Function | 0x0000000180001790 | 0x00001790
-`protected: void __cdecl Mig::CMXEAgent::AddXmlFile(class UnBCL::String * __ptr64) __ptr64` | 13 (0xd) | Exported Function | 0x0000000180003200 | 0x00003200
-`LoadAgent` | 20 (0x14) | Exported Function | 0x0000000180001930 | 0x00001930
-`const Mig::CMXEAgent::``vftable'{for ``Mig::CMXEAgent'}` | 7 (0x7) | Exported Function | 0x0000000180026be8 | 0x00026be8
-`const Mig::CMXEAgent::``vftable'{for ``Mig::CAgent'}` | 8 (0x8) | Exported Function | 0x0000000180025d80 | 0x00025d80
-`public: virtual void __cdecl Mig::CMXEAgent::InitApply(class Mig::CPlatform * __ptr64,class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 19 (0x13) | Exported Function | 0x0000000180002cf0 | 0x00002cf0
-`public: void __cdecl Mig::CMXEAgent::``vbase destructor'(void) __ptr64` | 10 (0xa) | Exported Function | 0x0000000180001910 | 0x00001910
+Function Name | Ordinal | Type
+-- | -- | --
+`public: virtual void __cdecl Mig::CMXEAgent::AddGatherInfo(class Mig::CMigUnit * __ptr64,struct ICancelable * __ptr64) __ptr64` | 12 | Exported Function
+`public: virtual void __cdecl Mig::CMXEAgent::AdjustRules(class Mig::CMigUnit * __ptr64,class Mig::CMigUnit * __ptr64) __ptr64` | 14 | Exported Function
+`public: virtual void __cdecl Mig::CMXEAgent::AddApplyInfo(class Mig::CMigUnit * __ptr64) __ptr64` | 11 | Exported Function
+`public: virtual __cdecl Mig::CMXEAgent::~CMXEAgent(void) __ptr64` | 4 | Exported Function
+`public: virtual class Mig::CMigUnitList * __ptr64 __cdecl Mig::CMXEAgent::Detect(class Mig::CUserContext * __ptr64,struct ICancelable * __ptr64) __ptr64` | 15 | Exported Function
+`public: virtual void __cdecl Mig::CMXEAgent::InitApply(class Mig::CPlatform * __ptr64,class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 19 | Exported Function
+`public: void __cdecl Mig::CMXEAgent::``vbase destructor'(void) __ptr64` | 10 | Exported Function
+`public: virtual void __cdecl Mig::CMXEAgent::Init(class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64,class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 18 | Exported Function
+`public: virtual void __cdecl Mig::CMXEAgent::Done(int) __ptr64` | 16 | Exported Function
+`public: virtual void __cdecl Mig::CMXEAgent::Init(class Mig::CPlatform * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 17 | Exported Function
+`LoadAgent` | 20 | Exported Function
+`protected: void __cdecl Mig::CMXEAgent::AddXmlFile(class UnBCL::String * __ptr64) __ptr64` | 13 | Exported Function
+`const Mig::CMXEAgent::``vftable'{for ``Mig::CMXEAgent'}` | 7 | Exported Function
+`const Mig::CMXEAgent::``vbtable'` | 9 | Exported Function
+`const Mig::CMXEAgent::``vftable'{for ``Mig::CAgent'}` | 8 | Exported Function
+`public: class Mig::CMXEAgent & __ptr64 __cdecl Mig::CMXEAgent::operator=(class Mig::CMXEAgent && __ptr64) __ptr64` | 5 | Exported Function
+`public: class Mig::CMXEAgent & __ptr64 __cdecl Mig::CMXEAgent::operator=(class Mig::CMXEAgent const & __ptr64) __ptr64` | 6 | Exported Function
+`public: __cdecl Mig::CMXEAgent::CMXEAgent(class UnBCL::String * __ptr64) __ptr64` | 3 | Exported Function
+`public: __cdecl Mig::CMXEAgent::CMXEAgent(class Mig::CMXEAgent && __ptr64) __ptr64` | 1 | Exported Function
+`public: __cdecl Mig::CMXEAgent::CMXEAgent(class Mig::CMXEAgent const & __ptr64) __ptr64` | 2 | Exported Function
 
 
 ## Signature

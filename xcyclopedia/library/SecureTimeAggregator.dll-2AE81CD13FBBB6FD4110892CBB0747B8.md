@@ -24,12 +24,12 @@ PE256 | `9956529C1F328F55090F7BD81B0C516D918F5749D3539F86A98018483BD29450`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AggregateSSLHandshakeTime` | 1 (0x1) | Exported Function | 0x0000000180005530 | 0x00005530
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180005720 | 0x00005720
-`GetSecureTime` | 3 (0x3) | Exported Function | 0x0000000180005630 | 0x00005630
-`UnInitialize` | 4 (0x4) | Exported Function | 0x00000001800056f0 | 0x000056f0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetSecureTime` | 3 | Exported Function
+`UnInitialize` | 4 | Exported Function
+`AggregateSSLHandshakeTime` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

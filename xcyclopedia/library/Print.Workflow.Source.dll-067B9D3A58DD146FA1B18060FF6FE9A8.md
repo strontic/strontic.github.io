@@ -24,19 +24,19 @@ PE256 | `DA815B4EA8376DF596F6CA4261514E7C365B8E7F0DF229BACEB6BB761D60AB88`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 11 (0xb) | Exported Function | 0x10006390 | 0x00006390
-`WfpAbortSession` | 1 (0x1) | Exported Function | 0x10009fc0 | 0x00009fc0
-`WfpCloseSession` | 2 (0x2) | Exported Function | 0x1000a0f0 | 0x0000a0f0
-`WfpCreateWorkflowSession` | 3 (0x3) | Exported Function | 0x10008f60 | 0x00008f60
-`WfpGetOutputFileName` | 4 (0x4) | Exported Function | 0x100094b0 | 0x000094b0
-`WfpGetWorkFlowStream` | 5 (0x5) | Exported Function | 0x10009d40 | 0x00009d40
-`WfpSetJobInfo` | 6 (0x6) | Exported Function | 0x10009a90 | 0x00009a90
-`WfpSetOutputFileName` | 7 (0x7) | Exported Function | 0x10009330 | 0x00009330
-`WfpSetPrintTicket` | 8 (0x8) | Exported Function | 0x100095e0 | 0x000095e0
-`WfpSetXpsDataType` | 9 (0x9) | Exported Function | 0x10009c10 | 0x00009c10
-`WfpWaitforJobCompletion` | 10 (0xa) | Exported Function | 0x10009e80 | 0x00009e80
+Function Name | Ordinal | Type
+-- | -- | --
+`WfpSetOutputFileName` | 7 | Exported Function
+`WfpSetJobInfo` | 6 | Exported Function
+`WfpSetPrintTicket` | 8 | Exported Function
+`WfpWaitforJobCompletion` | 10 | Exported Function
+`WfpSetXpsDataType` | 9 | Exported Function
+`WfpGetWorkFlowStream` | 5 | Exported Function
+`WfpAbortSession` | 1 | Exported Function
+`DllCanUnloadNow` | 11 | Exported Function
+`WfpCloseSession` | 2 | Exported Function
+`WfpGetOutputFileName` | 4 | Exported Function
+`WfpCreateWorkflowSession` | 3 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `D4294B57129A5516C7F953685FA88E9EC104FF85B578DED71B90807E431DBF12`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializeLsaExtension` | 1 (0x1) | Exported Function | 0x000000018000c4b0 | 0x0000c4b0
-`QueryLsaInterface` | 2 (0x2) | Exported Function | 0x000000018000cb70 | 0x0000cb70
+Function Name | Ordinal | Type
+-- | -- | --
+`QueryLsaInterface` | 2 | Exported Function
+`InitializeLsaExtension` | 1 | Exported Function
 
 
 ## Signature

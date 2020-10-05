@@ -24,15 +24,15 @@ PE256 | `D2FE922AA2107817C6994321FC8D5B25E3C070C4CC26E95058F88A8F23556E55`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DeleteApplicationEligibilityForPrelaunch` | 1 (0x1) | Exported Function | 0x00000001800037e0 | 0x000037e0
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180001c20 | 0x00001c20
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x0000000180001a40 | 0x00001a40
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180001ca0 | 0x00001ca0
-`IsApplicationEligibleForPrelaunch` | 5 (0x5) | Exported Function | 0x0000000180003250 | 0x00003250
-`IsApplicationOptedOutOfPrelaunch` | 6 (0x6) | Exported Function | 0x00000001800032a0 | 0x000032a0
-`RecordApplicationEligibilityForPrelaunch` | 7 (0x7) | Exported Function | 0x0000000180003490 | 0x00003490
+Function Name | Ordinal | Type
+-- | -- | --
+`IsApplicationEligibleForPrelaunch` | 5 | Exported Function
+`IsApplicationOptedOutOfPrelaunch` | 6 | Exported Function
+`RecordApplicationEligibilityForPrelaunch` | 7 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DeleteApplicationEligibilityForPrelaunch` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
 
 
 ## Signature

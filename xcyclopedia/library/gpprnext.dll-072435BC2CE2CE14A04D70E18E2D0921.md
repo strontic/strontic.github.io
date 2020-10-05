@@ -24,16 +24,16 @@ PE256 | `E8C841AD76E351231588F6B8255C3271963E943447C763D02307BFE017C648F7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180001280 | 0x00001280
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180001260 | 0x00001260
-`DllMain` | 3 (0x3) | Exported Function | 0x00000001800010e0 | 0x000010e0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x0000000180001290 | 0x00001290
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`PrinterGenerateGroupPolicy` | 6 (0x6) | Exported Function | 0x00000001800019a0 | 0x000019a0
-`PrinterProcessGroupPolicy` | 7 (0x7) | Exported Function | 0x0000000180001770 | 0x00001770
-`PrinterProcessGroupPolicyEx` | 8 (0x8) | Exported Function | 0x00000001800017c0 | 0x000017c0
+Function Name | Ordinal | Type
+-- | -- | --
+`PrinterGenerateGroupPolicy` | 6 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`PrinterProcessGroupPolicyEx` | 8 | Exported Function
+`PrinterProcessGroupPolicy` | 7 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllMain` | 3 | Exported Function
 
 
 ## Signature

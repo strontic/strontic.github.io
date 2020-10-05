@@ -24,14 +24,14 @@ PE256 | `0E94883DCB3C22F3C8D4D44A9B26C3441795E046EFE1C95C0B1BE746E1EE709B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BootstrapReleaseUnusedResources` | 1 (0x1) | Exported Function | 0x00000001800cea00 | 0x000cea00
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x00000001800cea00 | 0x000cea00
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x00000001800cbb20 | 0x000cbb20
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x00000001800cc040 | 0x000cc040
-`MSPRMFDllCanUnloadNow` | 5 (0x5) | Exported Function | 0x00000001800cea00 | 0x000cea00
-`MSPRMFGetClassObject` | 6 (0x6) | Exported Function | 0x00000001800cc340 | 0x000cc340
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 4 | Exported Function
+`MSPRMFDllCanUnloadNow` | 5 | Exported Function
+`MSPRMFGetClassObject` | 6 | Exported Function
+`BootstrapReleaseUnusedResources` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
 
 
 ## Signature

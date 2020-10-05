@@ -24,13 +24,13 @@ PE256 | `3686094F2CC60254A6CD3EF327C702B96C6E95BF526AC1C913532CE9FB9B9DC6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DrvSetupInstallDriver` | 1 (0x1) | Exported Function | 0x000000018000a6a0 | 0x0000a6a0
-`DrvSetupInstallWuDriver` | 2 (0x2) | Exported Function | 0x00000001800023b0 | 0x000023b0
-`DrvSetupUninstallDriver` | 3 (0x3) | Exported Function | 0x000000018000adc0 | 0x0000adc0
-`DrvSetupUninstallWuDrivers` | 4 (0x4) | Exported Function | 0x0000000180002d00 | 0x00002d00
-`pDrvSetupUninstallDriver` | 5 (0x5) | Exported Function | 0x000000018000af20 | 0x0000af20
+Function Name | Ordinal | Type
+-- | -- | --
+`DrvSetupUninstallWuDrivers` | 4 | Exported Function
+`pDrvSetupUninstallDriver` | 5 | Exported Function
+`DrvSetupUninstallDriver` | 3 | Exported Function
+`DrvSetupInstallDriver` | 1 | Exported Function
+`DrvSetupInstallWuDriver` | 2 | Exported Function
 
 
 ## Signature

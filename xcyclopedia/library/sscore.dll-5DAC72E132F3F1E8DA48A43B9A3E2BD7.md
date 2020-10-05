@@ -24,56 +24,56 @@ PE256 | `460473A47D7E4C04FAAF5CB7DAF97A98006313EF2705A214D34F777E6ED5930F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SsCoreAliasAdd` | 1 (0x1) | Exported Function | 0x0000000180003000 | 0x00003000
-`SsCoreSessionDel` | 27 (0x1b) | Exported Function | 0x0000000180003dd0 | 0x00003dd0
-`SsCoreSessionDelForInstance` | 28 (0x1c) | Exported Function | 0x0000000180003df0 | 0x00003df0
-`SsCoreSessionEnlist` | 29 (0x1d) | Exported Function | 0x0000000180003e80 | 0x00003e80
-`SsCoreSessionEnum` | 30 (0x1e) | Exported Function | 0x0000000180003f30 | 0x00003f30
-`SsCoreSessionEnumForInstance` | 31 (0x1f) | Exported Function | 0x0000000180003f80 | 0x00003f80
-`SsCoreSetMaxClusterDialect` | 32 (0x20) | Exported Function | 0x0000000180004150 | 0x00004150
-`SsCoreShareAdd` | 33 (0x21) | Exported Function | 0x00000001800041c0 | 0x000041c0
-`SsCoreShareAddEx` | 34 (0x22) | Exported Function | 0x0000000180001010 | 0x00001010
-`SsCoreShareAddForInstance` | 35 (0x23) | Exported Function | 0x0000000180004200 | 0x00004200
-`SsCoreServerTransportSetInfo` | 26 (0x1a) | Exported Function | 0x0000000180003d00 | 0x00003d00
-`SsCoreShareCleanup` | 36 (0x24) | Exported Function | 0x00000001800043f0 | 0x000043f0
-`SsCoreShareDelForInstance` | 38 (0x26) | Exported Function | 0x0000000180004450 | 0x00004450
-`SsCoreShareGetInfo` | 39 (0x27) | Exported Function | 0x0000000180004520 | 0x00004520
-`SsCoreShareGetInfoForInstance` | 40 (0x28) | Exported Function | 0x0000000180004550 | 0x00004550
-`SsCoreShareSetInfo` | 41 (0x29) | Exported Function | 0x00000001800046f0 | 0x000046f0
-`SsCoreShareSetInfoForInstance` | 42 (0x2a) | Exported Function | 0x0000000180004740 | 0x00004740
-`SsCoreShareShutdownForScope` | 43 (0x2b) | Exported Function | 0x0000000180004910 | 0x00004910
-`SsCoreStartCsvVolumeDrain` | 44 (0x2c) | Exported Function | 0x00000001800049f0 | 0x000049f0
-`SsCoreStartInstance` | 45 (0x2d) | Exported Function | 0x0000000180004a70 | 0x00004a70
-`SsCoreStopInstance` | 46 (0x2e) | Exported Function | 0x0000000180004b00 | 0x00004b00
-`SsCoreShareDel` | 37 (0x25) | Exported Function | 0x0000000180004430 | 0x00004430
-`SsCoreRegisterNetnameForMultichannel` | 25 (0x19) | Exported Function | 0x0000000180003ce0 | 0x00003ce0
-`SsCoreRefreshSrvCredentialHandle` | 24 (0x18) | Exported Function | 0x0000000180003c80 | 0x00003c80
-`SsCoreOpenInstance` | 23 (0x17) | Exported Function | 0x0000000180001440 | 0x00001440
-`SsCoreAliasAddEx` | 2 (0x2) | Exported Function | 0x0000000180003010 | 0x00003010
-`SsCoreAliasDel` | 3 (0x3) | Exported Function | 0x0000000180003130 | 0x00003130
-`SsCoreAliasDelEx` | 4 (0x4) | Exported Function | 0x0000000180003140 | 0x00003140
-`SsCoreCertificatesUpdate` | 5 (0x5) | Exported Function | 0x00000001800033b0 | 0x000033b0
-`SsCoreCloseInstance` | 6 (0x6) | Exported Function | 0x0000000180001570 | 0x00001570
-`SsCoreCompleteCsvVolumeDrain` | 7 (0x7) | Exported Function | 0x0000000180003410 | 0x00003410
-`SsCoreDeregisterNetnameForMultichannel` | 8 (0x8) | Exported Function | 0x0000000180003490 | 0x00003490
-`SsCoreFileDel` | 9 (0x9) | Exported Function | 0x00000001800034c0 | 0x000034c0
-`SsCoreFileDelForInstance` | 10 (0xa) | Exported Function | 0x00000001800034e0 | 0x000034e0
-`SsCoreFileEnum` | 11 (0xb) | Exported Function | 0x0000000180003570 | 0x00003570
-`SsCoreFileEnumForInstance` | 12 (0xc) | Exported Function | 0x00000001800035d0 | 0x000035d0
-`SsCoreFileNotifyClose` | 13 (0xd) | Exported Function | 0x00000001800037d0 | 0x000037d0
-`SsCoreFileNotifyCloseForInstance` | 14 (0xe) | Exported Function | 0x00000001800037f0 | 0x000037f0
-`SsCoreFreeBuffer` | 15 (0xf) | Exported Function | 0x0000000180003880 | 0x00003880
-`SsCoreInitialize` | 16 (0x10) | Exported Function | 0x00000001800038a0 | 0x000038a0
-`SsCoreInitializeEx` | 17 (0x11) | Exported Function | 0x00000001800038b0 | 0x000038b0
-`SsCoreInvalidationRequest` | 18 (0x12) | Exported Function | 0x00000001800039d0 | 0x000039d0
-`SsCoreLockVolumes` | 19 (0x13) | Exported Function | 0x0000000180003ad0 | 0x00003ad0
-`SsCoreMarkAsClusterSvc` | 20 (0x14) | Exported Function | 0x0000000180003b40 | 0x00003b40
-`SsCoreNodeResetInfo` | 21 (0x15) | Exported Function | 0x0000000180003bb0 | 0x00003bb0
-`SsCoreNodeSetInfo` | 22 (0x16) | Exported Function | 0x0000000180003be0 | 0x00003be0
-`SsCoreUninitialize` | 47 (0x2f) | Exported Function | 0x0000000180004b90 | 0x00004b90
-`SsCoreUnlockVolumes` | 48 (0x30) | Exported Function | 0x0000000180004c20 | 0x00004c20
+Function Name | Ordinal | Type
+-- | -- | --
+`SsCoreShareAdd` | 33 | Exported Function
+`SsCoreSetMaxClusterDialect` | 32 | Exported Function
+`SsCoreSessionEnumForInstance` | 31 | Exported Function
+`SsCoreShareCleanup` | 36 | Exported Function
+`SsCoreShareAddForInstance` | 35 | Exported Function
+`SsCoreShareAddEx` | 34 | Exported Function
+`SsCoreSessionDel` | 27 | Exported Function
+`SsCoreServerTransportSetInfo` | 26 | Exported Function
+`SsCoreRegisterNetnameForMultichannel` | 25 | Exported Function
+`SsCoreSessionEnum` | 30 | Exported Function
+`SsCoreSessionEnlist` | 29 | Exported Function
+`SsCoreSessionDelForInstance` | 28 | Exported Function
+`SsCoreStartInstance` | 45 | Exported Function
+`SsCoreStartCsvVolumeDrain` | 44 | Exported Function
+`SsCoreShareShutdownForScope` | 43 | Exported Function
+`SsCoreUnlockVolumes` | 48 | Exported Function
+`SsCoreUninitialize` | 47 | Exported Function
+`SsCoreStopInstance` | 46 | Exported Function
+`SsCoreShareGetInfo` | 39 | Exported Function
+`SsCoreShareDelForInstance` | 38 | Exported Function
+`SsCoreShareDel` | 37 | Exported Function
+`SsCoreShareSetInfoForInstance` | 42 | Exported Function
+`SsCoreShareSetInfo` | 41 | Exported Function
+`SsCoreShareGetInfoForInstance` | 40 | Exported Function
+`SsCoreFileDel` | 9 | Exported Function
+`SsCoreDeregisterNetnameForMultichannel` | 8 | Exported Function
+`SsCoreCompleteCsvVolumeDrain` | 7 | Exported Function
+`SsCoreFileEnumForInstance` | 12 | Exported Function
+`SsCoreFileEnum` | 11 | Exported Function
+`SsCoreFileDelForInstance` | 10 | Exported Function
+`SsCoreAliasDel` | 3 | Exported Function
+`SsCoreAliasAddEx` | 2 | Exported Function
+`SsCoreAliasAdd` | 1 | Exported Function
+`SsCoreCloseInstance` | 6 | Exported Function
+`SsCoreCertificatesUpdate` | 5 | Exported Function
+`SsCoreAliasDelEx` | 4 | Exported Function
+`SsCoreNodeResetInfo` | 21 | Exported Function
+`SsCoreMarkAsClusterSvc` | 20 | Exported Function
+`SsCoreLockVolumes` | 19 | Exported Function
+`SsCoreRefreshSrvCredentialHandle` | 24 | Exported Function
+`SsCoreOpenInstance` | 23 | Exported Function
+`SsCoreNodeSetInfo` | 22 | Exported Function
+`SsCoreFreeBuffer` | 15 | Exported Function
+`SsCoreFileNotifyCloseForInstance` | 14 | Exported Function
+`SsCoreFileNotifyClose` | 13 | Exported Function
+`SsCoreInvalidationRequest` | 18 | Exported Function
+`SsCoreInitializeEx` | 17 | Exported Function
+`SsCoreInitialize` | 16 | Exported Function
 
 
 ## Signature

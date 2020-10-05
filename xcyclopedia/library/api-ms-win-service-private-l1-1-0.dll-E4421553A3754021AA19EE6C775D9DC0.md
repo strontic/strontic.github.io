@@ -24,25 +24,25 @@ PE256 | `6D3A926AF71CFA2A49EDF5226F97A4C8624D07C2EC3B3135BE1D91C24120BDA0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`I_QueryTagInformation` | 1 (0x1) | Exported Function | advapi32.I_QueryTagInformation | 0x0000116e
-`SubscribeServiceChangeNotifications` | 15 (0xf) | Exported Function | advapi32.SubscribeServiceChangeNotifications | 0x0000146e
-`I_ScValidatePnPService` | 14 (0xe) | Exported Function | advapi32.I_ScValidatePnPService | 0x0000142a
-`I_ScUnregisterDeviceNotification` | 13 (0xd) | Exported Function | advapi32.I_ScUnregisterDeviceNotification | 0x000013e9
-`I_ScSetServiceBitsW` | 12 (0xc) | Exported Function | advapi32.I_ScSetServiceBitsW | 0x000013ab
-`I_ScSetServiceBitsA` | 11 (0xb) | Exported Function | advapi32.I_ScSetServiceBitsA | 0x0000137a
-`I_ScSendTSMessage` | 10 (0xa) | Exported Function | advapi32.I_ScSendTSMessage | 0x0000134b
-`UnsubscribeServiceChangeNotifications` | 16 (0x10) | Exported Function | advapi32.UnsubscribeServiceChangeNotifications | 0x000014c1
-`I_ScSendPnPMessage` | 9 (0x9) | Exported Function | advapi32.I_ScSendPnPMessage | 0x0000131d
-`I_ScRpcBindA` | 7 (0x7) | Exported Function | advapi32.I_ScRpcBindA | 0x000012d1
-`I_ScRegisterDeviceNotification` | 6 (0x6) | Exported Function | advapi32.I_ScRegisterDeviceNotification | 0x0000129c
-`I_ScQueryServiceConfig` | 5 (0x5) | Exported Function | advapi32.I_ScQueryServiceConfig | 0x0000125d
-`I_ScPnPGetServiceName` | 4 (0x4) | Exported Function | advapi32.I_ScPnPGetServiceName | 0x00001227
-`I_ScIsSecurityProcess` | 3 (0x3) | Exported Function | advapi32.I_ScIsSecurityProcess | 0x000011f2
-`I_ScBroadcastServiceControlMessage` | 2 (0x2) | Exported Function | advapi32.I_ScBroadcastServiceControlMessage | 0x000011b0
-`I_ScRpcBindW` | 8 (0x8) | Exported Function | advapi32.I_ScRpcBindW | 0x000012f4
-`WaitServiceState` | 17 (0x11) | Exported Function | advapi32.WaitServiceState | 0x00001501
+Function Name | Ordinal | Type
+-- | -- | --
+`I_ScSetServiceBitsW` | 12 | Exported Function
+`I_ScUnregisterDeviceNotification` | 13 | Exported Function
+`I_ScSendTSMessage` | 10 | Exported Function
+`I_ScSetServiceBitsA` | 11 | Exported Function
+`UnsubscribeServiceChangeNotifications` | 16 | Exported Function
+`WaitServiceState` | 17 | Exported Function
+`I_ScValidatePnPService` | 14 | Exported Function
+`SubscribeServiceChangeNotifications` | 15 | Exported Function
+`I_ScSendPnPMessage` | 9 | Exported Function
+`I_ScIsSecurityProcess` | 3 | Exported Function
+`I_ScPnPGetServiceName` | 4 | Exported Function
+`I_QueryTagInformation` | 1 | Exported Function
+`I_ScBroadcastServiceControlMessage` | 2 | Exported Function
+`I_ScRpcBindA` | 7 | Exported Function
+`I_ScRpcBindW` | 8 | Exported Function
+`I_ScQueryServiceConfig` | 5 | Exported Function
+`I_ScRegisterDeviceNotification` | 6 | Exported Function
 
 
 ## Signature

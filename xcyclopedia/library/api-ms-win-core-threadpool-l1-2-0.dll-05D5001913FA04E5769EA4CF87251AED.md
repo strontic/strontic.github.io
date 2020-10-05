@@ -24,45 +24,45 @@ PE256 | `373B38A7A2AEF5B29492D0864DADC87FABDA648689A1BAE96349A73B31CD51AE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CallbackMayRunLong` | 1 (0x1) | Exported Function | kernel32.CallbackMayRunLong | 0x00001233
-`ReleaseMutexWhenCallbackReturns` | 21 (0x15) | Exported Function | kernel32.ReleaseMutexWhenCallbackReturns | 0x000016c2
-`ReleaseSemaphoreWhenCallbackReturns` | 22 (0x16) | Exported Function | kernel32.ReleaseSemaphoreWhenCallbackReturns | 0x0000170f
-`SetEventWhenCallbackReturns` | 23 (0x17) | Exported Function | kernel32.SetEventWhenCallbackReturns | 0x00001758
-`SetThreadpoolStackInformation` | 24 (0x18) | Exported Function | kernel32.SetThreadpoolStackInformation | 0x0000179b
-`SetThreadpoolThreadMaximum` | 25 (0x19) | Exported Function | kernel32.SetThreadpoolThreadMaximum | 0x000017dd
-`SetThreadpoolThreadMinimum` | 26 (0x1a) | Exported Function | kernel32.SetThreadpoolThreadMinimum | 0x0000181c
-`SetThreadpoolTimer` | 27 (0x1b) | Exported Function | kernel32.SetThreadpoolTimer | 0x00001853
-`SetThreadpoolTimerEx` | 28 (0x1c) | Exported Function | kernel32.SetThreadpoolTimerEx | 0x00001884
-`SetThreadpoolWait` | 29 (0x1d) | Exported Function | kernel32.SetThreadpoolWait | 0x000018b4
-`SetThreadpoolWaitEx` | 30 (0x1e) | Exported Function | kernel32.SetThreadpoolWaitEx | 0x000018e3
-`StartThreadpoolIo` | 31 (0x1f) | Exported Function | kernel32.StartThreadpoolIo | 0x00001912
-`SubmitThreadpoolWork` | 32 (0x20) | Exported Function | kernel32.SubmitThreadpoolWork | 0x00001942
-`TrySubmitThreadpoolCallback` | 33 (0x21) | Exported Function | kernel32.TrySubmitThreadpoolCallback | 0x0000197c
-`WaitForThreadpoolIoCallbacks` | 34 (0x22) | Exported Function | kernel32.WaitForThreadpoolIoCallbacks | 0x000019be
-`WaitForThreadpoolTimerCallbacks` | 35 (0x23) | Exported Function | kernel32.WaitForThreadpoolTimerCallbacks | 0x00001a04
-`QueryThreadpoolStackInformation` | 20 (0x14) | Exported Function | kernel32.QueryThreadpoolStackInformation | 0x00001679
-`WaitForThreadpoolWaitCallbacks` | 36 (0x24) | Exported Function | kernel32.WaitForThreadpoolWaitCallbacks | 0x00001a4c
-`LeaveCriticalSectionWhenCallbackReturns` | 19 (0x13) | Exported Function | kernel32.LeaveCriticalSectionWhenCallbackReturns | 0x00001628
-`FreeLibraryWhenCallbackReturns` | 17 (0x11) | Exported Function | kernel32.FreeLibraryWhenCallbackReturns | 0x000015a5
-`CancelThreadpoolIo` | 2 (0x2) | Exported Function | kernel32.CancelThreadpoolIo | 0x00001262
-`CloseThreadpool` | 3 (0x3) | Exported Function | kernel32.CloseThreadpool | 0x0000128e
-`CloseThreadpoolCleanupGroup` | 4 (0x4) | Exported Function | kernel32.CloseThreadpoolCleanupGroup | 0x000012c3
-`CloseThreadpoolCleanupGroupMembers` | 5 (0x5) | Exported Function | kernel32.CloseThreadpoolCleanupGroupMembers | 0x0000130b
-`CloseThreadpoolIo` | 6 (0x6) | Exported Function | kernel32.CloseThreadpoolIo | 0x00001349
-`CloseThreadpoolTimer` | 7 (0x7) | Exported Function | kernel32.CloseThreadpoolTimer | 0x00001379
-`CloseThreadpoolWait` | 8 (0x8) | Exported Function | kernel32.CloseThreadpoolWait | 0x000013ab
-`CloseThreadpoolWork` | 9 (0x9) | Exported Function | kernel32.CloseThreadpoolWork | 0x000013dc
-`CreateThreadpool` | 10 (0xa) | Exported Function | kernel32.CreateThreadpool | 0x0000140a
-`CreateThreadpoolCleanupGroup` | 11 (0xb) | Exported Function | kernel32.CreateThreadpoolCleanupGroup | 0x00001441
-`CreateThreadpoolIo` | 12 (0xc) | Exported Function | kernel32.CreateThreadpoolIo | 0x0000147a
-`CreateThreadpoolTimer` | 13 (0xd) | Exported Function | kernel32.CreateThreadpoolTimer | 0x000014ac
-`CreateThreadpoolWait` | 14 (0xe) | Exported Function | kernel32.CreateThreadpoolWait | 0x000014e0
-`CreateThreadpoolWork` | 15 (0xf) | Exported Function | kernel32.CreateThreadpoolWork | 0x00001513
-`DisassociateCurrentThreadFromCallback` | 16 (0x10) | Exported Function | kernel32.DisassociateCurrentThreadFromCallback | 0x00001557
-`IsThreadpoolTimerSet` | 18 (0x12) | Exported Function | kernel32.IsThreadpoolTimerSet | 0x000015e2
-`WaitForThreadpoolWorkCallbacks` | 37 (0x25) | Exported Function | kernel32.WaitForThreadpoolWorkCallbacks | 0x00001a93
+Function Name | Ordinal | Type
+-- | -- | --
+`SetThreadpoolThreadMinimum` | 26 | Exported Function
+`SetThreadpoolThreadMaximum` | 25 | Exported Function
+`SetThreadpoolTimerEx` | 28 | Exported Function
+`SetThreadpoolTimer` | 27 | Exported Function
+`SetThreadpoolStackInformation` | 24 | Exported Function
+`ReleaseMutexWhenCallbackReturns` | 21 | Exported Function
+`QueryThreadpoolStackInformation` | 20 | Exported Function
+`SetEventWhenCallbackReturns` | 23 | Exported Function
+`ReleaseSemaphoreWhenCallbackReturns` | 22 | Exported Function
+`WaitForThreadpoolTimerCallbacks` | 35 | Exported Function
+`WaitForThreadpoolIoCallbacks` | 34 | Exported Function
+`WaitForThreadpoolWorkCallbacks` | 37 | Exported Function
+`WaitForThreadpoolWaitCallbacks` | 36 | Exported Function
+`TrySubmitThreadpoolCallback` | 33 | Exported Function
+`SetThreadpoolWaitEx` | 30 | Exported Function
+`SetThreadpoolWait` | 29 | Exported Function
+`SubmitThreadpoolWork` | 32 | Exported Function
+`StartThreadpoolIo` | 31 | Exported Function
+`LeaveCriticalSectionWhenCallbackReturns` | 19 | Exported Function
+`CloseThreadpoolTimer` | 7 | Exported Function
+`CloseThreadpoolIo` | 6 | Exported Function
+`CloseThreadpoolWork` | 9 | Exported Function
+`CloseThreadpoolWait` | 8 | Exported Function
+`CloseThreadpoolCleanupGroupMembers` | 5 | Exported Function
+`CancelThreadpoolIo` | 2 | Exported Function
+`CallbackMayRunLong` | 1 | Exported Function
+`CloseThreadpoolCleanupGroup` | 4 | Exported Function
+`CloseThreadpool` | 3 | Exported Function
+`DisassociateCurrentThreadFromCallback` | 16 | Exported Function
+`CreateThreadpoolWork` | 15 | Exported Function
+`IsThreadpoolTimerSet` | 18 | Exported Function
+`FreeLibraryWhenCallbackReturns` | 17 | Exported Function
+`CreateThreadpoolWait` | 14 | Exported Function
+`CreateThreadpoolCleanupGroup` | 11 | Exported Function
+`CreateThreadpool` | 10 | Exported Function
+`CreateThreadpoolTimer` | 13 | Exported Function
+`CreateThreadpoolIo` | 12 | Exported Function
 
 
 ## Signature

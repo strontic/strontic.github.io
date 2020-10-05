@@ -24,45 +24,45 @@ PE256 | `554CDD29754E716BC82394DB0089426DB6C3260C4A73572916F08EC80B74E9B4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ReleaseCLStmtResources` | 6 (0x6) | Exported Function | 0x1000c970 | 0x0000c970
-`SQLMoreResults` | 61 (0x3d) | Exported Function | 0x1000a580 | 0x0000a580
-`SQLNativeSql` | 62 (0x3e) | Exported Function | 0x1000a670 | 0x0000a670
-`SQLNumParams` | 63 (0x3f) | Exported Function | 0x1000a820 | 0x0000a820
-`SQLParamData` | 48 (0x30) | Exported Function | 0x1000a910 | 0x0000a910
-`SQLParamOptions` | 64 (0x40) | Exported Function | 0x1000a9c0 | 0x0000a9c0
-`SQLPrepare` | 19 (0x13) | Exported Function | 0x1000aa90 | 0x0000aa90
-`SQLPutData` | 49 (0x31) | Exported Function | 0x1000ab60 | 0x0000ab60
-`SQLRowCount` | 20 (0x14) | Exported Function | 0x1000ac10 | 0x0000ac10
-`SQLSetConnectAttr` | 39 (0x27) | Exported Function | 0x1000ae90 | 0x0000ae90
-`SQLSetConnectOption` | 50 (0x32) | Exported Function | 0x1000aec0 | 0x0000aec0
-`SQLSetDescField` | 73 (0x49) | Exported Function | 0x1000b6b0 | 0x0000b6b0
-`SQLSetDescRec` | 74 (0x4a) | Exported Function | 0x1000bc50 | 0x0000bc50
-`SQLSetPos` | 68 (0x44) | Exported Function | 0x1000aee0 | 0x0000aee0
-`SQLSetScrollOptions` | 69 (0x45) | Exported Function | 0x1000b050 | 0x0000b050
-`SQLSetStmtAttr` | 76 (0x4c) | Exported Function | 0x1000b0c0 | 0x0000b0c0
-`SQLGetStmtOption` | 46 (0x2e) | Exported Function | 0x1000a1a0 | 0x0000a1a0
-`SQLSetStmtOption` | 51 (0x33) | Exported Function | 0x1000b400 | 0x0000b400
-`SQLGetStmtAttr` | 38 (0x26) | Exported Function | 0x1000b370 | 0x0000b370
-`SQLGetDescRec` | 34 (0x22) | Exported Function | 0x1000c7b0 | 0x0000c7b0
-`SQLBindCol` | 4 (0x4) | Exported Function | 0x10009110 | 0x00009110
-`SQLBindParameter` | 72 (0x48) | Exported Function | 0x10009340 | 0x00009340
-`SQLBulkOperations` | 78 (0x4e) | Exported Function | 0x1000b020 | 0x0000b020
-`SQLCancel` | 5 (0x5) | Exported Function | 0x10009420 | 0x00009420
-`SQLCloseCursor` | 26 (0x1a) | Exported Function | 0x10009c30 | 0x00009c30
-`SQLEndTran` | 29 (0x1d) | Exported Function | 0x1000b690 | 0x0000b690
-`SQLExecDirect` | 11 (0xb) | Exported Function | 0x10009640 | 0x00009640
-`SQLExecute` | 12 (0xc) | Exported Function | 0x10009710 | 0x00009710
-`SQLExtendedFetch` | 59 (0x3b) | Exported Function | 0x100097b0 | 0x000097b0
-`SQLFetch` | 13 (0xd) | Exported Function | 0x100098e0 | 0x000098e0
-`SQLFetchScroll` | 30 (0x1e) | Exported Function | 0x100099d0 | 0x000099d0
-`SQLFreeHandle` | 31 (0x1f) | Exported Function | 0x10009b50 | 0x00009b50
-`SQLFreeStmt` | 16 (0x10) | Exported Function | 0x10009d60 | 0x00009d60
-`SQLGetData` | 43 (0x2b) | Exported Function | 0x10009de0 | 0x00009de0
-`SQLGetDescField` | 33 (0x21) | Exported Function | 0x1000c3d0 | 0x0000c3d0
-`SQLGetInfo` | 45 (0x2d) | Exported Function | 0x10009ec0 | 0x00009ec0
-`SQLTransact` | 23 (0x17) | Exported Function | 0x1000bf50 | 0x0000bf50
+Function Name | Ordinal | Type
+-- | -- | --
+`SQLPrepare` | 19 | Exported Function
+`SQLParamOptions` | 64 | Exported Function
+`SQLRowCount` | 20 | Exported Function
+`SQLPutData` | 49 | Exported Function
+`SQLParamData` | 48 | Exported Function
+`SQLMoreResults` | 61 | Exported Function
+`SQLGetStmtOption` | 46 | Exported Function
+`SQLNumParams` | 63 | Exported Function
+`SQLNativeSql` | 62 | Exported Function
+`SQLSetStmtAttr` | 76 | Exported Function
+`SQLSetScrollOptions` | 69 | Exported Function
+`SQLTransact` | 23 | Exported Function
+`SQLSetStmtOption` | 51 | Exported Function
+`SQLSetPos` | 68 | Exported Function
+`SQLSetConnectOption` | 50 | Exported Function
+`SQLSetConnectAttr` | 39 | Exported Function
+`SQLSetDescRec` | 74 | Exported Function
+`SQLSetDescField` | 73 | Exported Function
+`SQLGetStmtAttr` | 38 | Exported Function
+`SQLEndTran` | 29 | Exported Function
+`SQLCloseCursor` | 26 | Exported Function
+`SQLExecute` | 12 | Exported Function
+`SQLExecDirect` | 11 | Exported Function
+`SQLCancel` | 5 | Exported Function
+`SQLBindCol` | 4 | Exported Function
+`ReleaseCLStmtResources` | 6 | Exported Function
+`SQLBulkOperations` | 78 | Exported Function
+`SQLBindParameter` | 72 | Exported Function
+`SQLGetDescField` | 33 | Exported Function
+`SQLGetData` | 43 | Exported Function
+`SQLGetInfo` | 45 | Exported Function
+`SQLGetDescRec` | 34 | Exported Function
+`SQLFreeStmt` | 16 | Exported Function
+`SQLFetch` | 13 | Exported Function
+`SQLExtendedFetch` | 59 | Exported Function
+`SQLFreeHandle` | 31 | Exported Function
+`SQLFetchScroll` | 30 | Exported Function
 
 
 ## Signature

@@ -24,14 +24,14 @@ PE256 | `A89959AE80B7F395C773C43B76B420D01848A374A5E271F3298A0719BE12EEBD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DirectInput8Create` | 1 (0x1) | Exported Function | 0x100033f0 | 0x000033f0
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x10013510 | 0x00013510
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x100135b0 | 0x000135b0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x1001fc90 | 0x0001fc90
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x1001fea0 | 0x0001fea0
-`GetdfDIJoystick` | 6 (0x6) | Exported Function | 0x1000adc0 | 0x0000adc0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`GetdfDIJoystick` | 6 | Exported Function
+`DirectInput8Create` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

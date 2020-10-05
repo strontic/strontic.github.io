@@ -24,10 +24,10 @@ PE256 | `62AA020E8BF1FC3E55D518D42D3CB3BD1EE99DB016D385A4F83CE3B35175AE9B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MI_Application_InitializeV1` | 1 (0x1) | Exported Function | 0x10007200 | 0x00007200
-`mi_clientFT_V1` | 2 (0x2) | Exported Function | 0x10017000 | 0x00017000
+Function Name | Ordinal | Type
+-- | -- | --
+`mi_clientFT_V1` | 2 | Exported Function
+`MI_Application_InitializeV1` | 1 | Exported Function
 
 
 ## Signature

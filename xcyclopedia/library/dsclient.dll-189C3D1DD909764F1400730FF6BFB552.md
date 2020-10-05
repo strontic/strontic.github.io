@@ -24,17 +24,17 @@ PE256 | `8415024DF5ACF63AFDF6C2875502511F151A6B2088DE731CA7DB8660EC8EA29A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DSCopyFromSharedFile` | 1 (0x1) | Exported Function | 0x0000000180002f70 | 0x00002f70
-`DSCreateSharedFileToken` | 2 (0x2) | Exported Function | 0x0000000180003020 | 0x00003020
-`DSDelegateSharingToken` | 3 (0x3) | Exported Function | 0x0000000180003140 | 0x00003140
-`DSFreeString` | 4 (0x4) | Exported Function | 0x00000001800031f0 | 0x000031f0
-`DSGetSharedFileName` | 5 (0x5) | Exported Function | 0x0000000180003210 | 0x00003210
-`DSGetSharingTokenInformation` | 6 (0x6) | Exported Function | 0x00000001800032c0 | 0x000032c0
-`DSOpenSharedFile` | 7 (0x7) | Exported Function | 0x0000000180003390 | 0x00003390
-`DSRemoveExpiredTokens` | 8 (0x8) | Exported Function | 0x0000000180003450 | 0x00003450
-`DSRemoveSharingToken` | 9 (0x9) | Exported Function | 0x0000000180003500 | 0x00003500
+Function Name | Ordinal | Type
+-- | -- | --
+`DSOpenSharedFile` | 7 | Exported Function
+`DSGetSharingTokenInformation` | 6 | Exported Function
+`DSRemoveSharingToken` | 9 | Exported Function
+`DSRemoveExpiredTokens` | 8 | Exported Function
+`DSGetSharedFileName` | 5 | Exported Function
+`DSCreateSharedFileToken` | 2 | Exported Function
+`DSCopyFromSharedFile` | 1 | Exported Function
+`DSFreeString` | 4 | Exported Function
+`DSDelegateSharingToken` | 3 | Exported Function
 
 
 ## Signature

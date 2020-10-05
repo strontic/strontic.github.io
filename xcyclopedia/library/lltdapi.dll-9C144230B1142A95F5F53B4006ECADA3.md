@@ -24,14 +24,14 @@ PE256 | `328DC0808362479239314ACDDA10831B00961F4DC336FFA1A3FAB1041089C25C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180001160 | 0x00001160
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180001180 | 0x00001180
-`LLTDCreateEnumerator` | 3 (0x3) | Exported Function | 0x00000001800024b0 | 0x000024b0
-`LLTDCreateMapFromXML` | 4 (0x4) | Exported Function | 0x0000000180003460 | 0x00003460
-`LLTDCreateMapper` | 5 (0x5) | Exported Function | 0x0000000180001fd0 | 0x00001fd0
-`LLTDCreateNode` | 6 (0x6) | Exported Function | 0x00000001800049e0 | 0x000049e0
+Function Name | Ordinal | Type
+-- | -- | --
+`LLTDCreateMapFromXML` | 4 | Exported Function
+`LLTDCreateMapper` | 5 | Exported Function
+`LLTDCreateNode` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`LLTDCreateEnumerator` | 3 | Exported Function
 
 
 ## Signature

@@ -24,22 +24,16 @@ PE256 | `642E95B5DE1FCFB1C7C3FE9052AF846FD7F19E79CBE65BFA0879C52B077CFD4A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x10001b30 | 0x00001b30
-`Ordinal100` | 100 (0x64) | Exported Function | 0x10001f40 | 0x00001f40
-`Ordinal101` | 101 (0x65) | Exported Function | 0x10002840 | 0x00002840
-`Ordinal102` | 102 (0x66) | Exported Function | 0x10002960 | 0x00002960
-`Ordinal103` | 103 (0x67) | Exported Function | 0x10002490 | 0x00002490
-`Ordinal104` | 104 (0x68) | Exported Function | 0x10002560 | 0x00002560
-`Ordinal108` | 108 (0x6c) | Exported Function | 0x10002180 | 0x00002180
-`XInputEnable` | 5 (0x5) | Exported Function | 0x100023f0 | 0x000023f0
-`XInputGetAudioDeviceIds` | 10 (0xa) | Exported Function | 0x10002a40 | 0x00002a40
-`XInputGetBatteryInformation` | 7 (0x7) | Exported Function | 0x10002650 | 0x00002650
-`XInputGetCapabilities` | 4 (0x4) | Exported Function | 0x100022e0 | 0x000022e0
-`XInputGetKeystroke` | 8 (0x8) | Exported Function | 0x10002d50 | 0x00002d50
-`XInputGetState` | 2 (0x2) | Exported Function | 0x10001df0 | 0x00001df0
-`XInputSetState` | 3 (0x3) | Exported Function | 0x10002060 | 0x00002060
+Function Name | Ordinal | Type
+-- | -- | --
+`XInputGetKeystroke` | 8 | Exported Function
+`XInputGetCapabilities` | 4 | Exported Function
+`XInputSetState` | 3 | Exported Function
+`XInputGetState` | 2 | Exported Function
+`XInputEnable` | 5 | Exported Function
+`DllMain` | 1 | Exported Function
+`XInputGetBatteryInformation` | 7 | Exported Function
+`XInputGetAudioDeviceIds` | 10 | Exported Function
 
 
 ## Signature

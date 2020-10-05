@@ -24,51 +24,51 @@ PE256 | `8B51EFB097AC0125C26698EB5F842CAB4D7DA16875345751247B28300A856896`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreatePlatformInterface` | 1 (0x1) | Exported Function | 0x10060250 | 0x00060250
-`opus_multistream_packet_pad` | 24 (0x18) | Exported Function | 0x10139c40 | 0x00139c40
-`opus_multistream_packet_unpad` | 25 (0x19) | Exported Function | 0x10139ce0 | 0x00139ce0
-`opus_packet_get_bandwidth` | 26 (0x1a) | Exported Function | 0x10134a30 | 0x00134a30
-`opus_packet_get_nb_channels` | 27 (0x1b) | Exported Function | 0x10134a80 | 0x00134a80
-`opus_packet_get_nb_frames` | 28 (0x1c) | Exported Function | 0x10134aa0 | 0x00134aa0
-`opus_packet_get_nb_samples` | 29 (0x1d) | Exported Function | 0x10134ae0 | 0x00134ae0
-`opus_packet_get_samples_per_frame` | 30 (0x1e) | Exported Function | 0x10134b20 | 0x00134b20
-`opus_packet_pad` | 31 (0x1f) | Exported Function | 0x10139e10 | 0x00139e10
-`opus_get_version_string` | 23 (0x17) | Exported Function | 0x1013f6b0 | 0x0013f6b0
-`opus_packet_parse` | 32 (0x20) | Exported Function | 0x1013dcc0 | 0x0013dcc0
-`opus_pcm_soft_clip` | 34 (0x22) | Exported Function | 0x1013dfc0 | 0x0013dfc0
-`opus_repacketizer_cat` | 35 (0x23) | Exported Function | 0x10139f20 | 0x00139f20
-`opus_repacketizer_create` | 36 (0x24) | Exported Function | 0x10139ff0 | 0x00139ff0
-`opus_repacketizer_destroy` | 37 (0x25) | Exported Function | 0x101330f0 | 0x001330f0
-`opus_repacketizer_get_nb_frames` | 38 (0x26) | Exported Function | 0x1013a010 | 0x0013a010
-`opus_repacketizer_get_size` | 39 (0x27) | Exported Function | 0x1013a020 | 0x0013a020
-`opus_repacketizer_init` | 40 (0x28) | Exported Function | 0x1013a030 | 0x0013a030
-`opus_repacketizer_out` | 41 (0x29) | Exported Function | 0x1013a040 | 0x0013a040
-`opus_packet_unpad` | 33 (0x21) | Exported Function | 0x10139eb0 | 0x00139eb0
-`opus_repacketizer_out_range` | 42 (0x2a) | Exported Function | 0x1013a060 | 0x0013a060
-`opus_encoder_init` | 22 (0x16) | Exported Function | 0x10133150 | 0x00133150
-`opus_encoder_destroy` | 20 (0x14) | Exported Function | 0x101330f0 | 0x001330f0
-`CreatePlatformInterfaceEx` | 5 (0x5) | Exported Function | 0x100602d0 | 0x000602d0
-`CreatePlatformInterfaceEx2` | 2 (0x2) | Exported Function | 0x10060270 | 0x00060270
-`CreatePlatformInterfaceEx3` | 3 (0x3) | Exported Function | 0x10060290 | 0x00060290
-`CreatePlatformInterfaceEx4` | 4 (0x4) | Exported Function | 0x100602b0 | 0x000602b0
-`CreateVideoTranscoderInterface` | 6 (0x6) | Exported Function | 0x1026a920 | 0x0026a920
-`CreateVideoTranscoderInterfaceEx` | 7 (0x7) | Exported Function | 0x1026b400 | 0x0026b400
-`opus_decode` | 8 (0x8) | Exported Function | 0x10133a40 | 0x00133a40
-`opus_decode_float` | 9 (0x9) | Exported Function | 0x10133b40 | 0x00133b40
-`opus_encoder_get_size` | 21 (0x15) | Exported Function | 0x10133100 | 0x00133100
-`opus_decoder_create` | 10 (0xa) | Exported Function | 0x10134700 | 0x00134700
-`opus_decoder_destroy` | 12 (0xc) | Exported Function | 0x101330f0 | 0x001330f0
-`opus_decoder_get_nb_samples` | 13 (0xd) | Exported Function | 0x101348d0 | 0x001348d0
-`opus_decoder_get_size` | 14 (0xe) | Exported Function | 0x101348f0 | 0x001348f0
-`opus_decoder_init` | 15 (0xf) | Exported Function | 0x10134940 | 0x00134940
-`opus_encode` | 16 (0x10) | Exported Function | 0x10130930 | 0x00130930
-`opus_encode_float` | 17 (0x11) | Exported Function | 0x10130a10 | 0x00130a10
-`opus_encoder_create` | 18 (0x12) | Exported Function | 0x10132a20 | 0x00132a20
-`opus_encoder_ctl` | 19 (0x13) | Exported Function | 0x10132ae0 | 0x00132ae0
-`opus_decoder_ctl` | 11 (0xb) | Exported Function | 0x101347a0 | 0x001347a0
-`opus_strerror` | 43 (0x2b) | Exported Function | 0x1013f6c0 | 0x0013f6c0
+Function Name | Ordinal | Type
+-- | -- | --
+`opus_packet_get_nb_samples` | 29 | Exported Function
+`opus_packet_get_nb_frames` | 28 | Exported Function
+`opus_packet_get_samples_per_frame` | 30 | Exported Function
+`opus_packet_parse` | 32 | Exported Function
+`opus_packet_pad` | 31 | Exported Function
+`opus_multistream_packet_pad` | 24 | Exported Function
+`opus_get_version_string` | 23 | Exported Function
+`opus_multistream_packet_unpad` | 25 | Exported Function
+`opus_packet_get_nb_channels` | 27 | Exported Function
+`opus_packet_get_bandwidth` | 26 | Exported Function
+`opus_packet_unpad` | 33 | Exported Function
+`opus_repacketizer_init` | 40 | Exported Function
+`opus_repacketizer_get_size` | 39 | Exported Function
+`opus_repacketizer_out` | 41 | Exported Function
+`opus_strerror` | 43 | Exported Function
+`opus_repacketizer_out_range` | 42 | Exported Function
+`opus_repacketizer_cat` | 35 | Exported Function
+`opus_pcm_soft_clip` | 34 | Exported Function
+`opus_repacketizer_create` | 36 | Exported Function
+`opus_repacketizer_get_nb_frames` | 38 | Exported Function
+`opus_repacketizer_destroy` | 37 | Exported Function
+`opus_encoder_init` | 22 | Exported Function
+`CreateVideoTranscoderInterfaceEx` | 7 | Exported Function
+`CreateVideoTranscoderInterface` | 6 | Exported Function
+`opus_decode` | 8 | Exported Function
+`opus_decoder_create` | 10 | Exported Function
+`opus_decode_float` | 9 | Exported Function
+`CreatePlatformInterfaceEx` | 5 | Exported Function
+`CreatePlatformInterface` | 1 | Exported Function
+`CreatePlatformInterfaceEx2` | 2 | Exported Function
+`CreatePlatformInterfaceEx4` | 4 | Exported Function
+`CreatePlatformInterfaceEx3` | 3 | Exported Function
+`opus_decoder_ctl` | 11 | Exported Function
+`opus_encoder_create` | 18 | Exported Function
+`opus_encode_float` | 17 | Exported Function
+`opus_encoder_ctl` | 19 | Exported Function
+`opus_encoder_get_size` | 21 | Exported Function
+`opus_encoder_destroy` | 20 | Exported Function
+`opus_decoder_get_nb_samples` | 13 | Exported Function
+`opus_decoder_destroy` | 12 | Exported Function
+`opus_decoder_get_size` | 14 | Exported Function
+`opus_encode` | 16 | Exported Function
+`opus_decoder_init` | 15 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `728476F1121ED5F950CB20B43FEC459C9478B7A5C8B582E78E170757CEB83605`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DWriteCreateFactory` | 1 (0x1) | Exported Function | 0x100a0700 | 0x000a0700
+Function Name | Ordinal | Type
+-- | -- | --
+`DWriteCreateFactory` | 1 | Exported Function
 
 
 ## Signature

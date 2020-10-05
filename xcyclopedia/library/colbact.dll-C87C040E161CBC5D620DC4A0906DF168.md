@@ -24,15 +24,15 @@ PE256 | `2C11817B353C472946075F7680BA583C3D0A0B4F8CF8B2FB421F21C3258C7EFC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllGetClassObject` | 1 (0x1) | Exported Function | 0x10003910 | 0x00003910
-`DllRegisterServer` | 2 (0x2) | Exported Function | 0x10003a40 | 0x00003a40
-`DllUnregisterServer` | 3 (0x3) | Exported Function | 0x10003ad0 | 0x00003ad0
-`GetClassInfoForCurrentUser` | 4 (0x4) | Exported Function | 0x10006820 | 0x00006820
-`GetDefaultPartitionForCurrentUser` | 5 (0x5) | Exported Function | 0x100066b0 | 0x000066b0
-`GetDefaultPartitionForSid` | 6 (0x6) | Exported Function | 0x10006340 | 0x00006340
-`PartitionAccessCheck` | 7 (0x7) | Exported Function | 0x100063b0 | 0x000063b0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetDefaultPartitionForCurrentUser` | 5 | Exported Function
+`GetDefaultPartitionForSid` | 6 | Exported Function
+`PartitionAccessCheck` | 7 | Exported Function
+`GetClassInfoForCurrentUser` | 4 | Exported Function
+`DllGetClassObject` | 1 | Exported Function
+`DllRegisterServer` | 2 | Exported Function
+`DllUnregisterServer` | 3 | Exported Function
 
 
 ## Signature

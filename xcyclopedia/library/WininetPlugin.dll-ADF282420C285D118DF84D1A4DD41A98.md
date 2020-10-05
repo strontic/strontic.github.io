@@ -24,18 +24,18 @@ PE256 | `3598F1A4CD3BAF9447FB36FE5AA5C963457960F4D08D86EEF01737B101F809B7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10001bf0 | 0x00001bf0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x10001c00 | 0x00001c00
-`DllMain` | 3 (0x3) | Exported Function | 0x10001aa0 | 0x00001aa0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x10001bf0 | 0x00001bf0
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x10001bf0 | 0x00001bf0
-`EnumerateCacheEntriesFromIndexDatFile` | 6 (0x6) | Exported Function | 0x10002480 | 0x00002480
-`EnumerateNewCacheForCurrentUser` | 7 (0x7) | Exported Function | 0x100021c0 | 0x000021c0
-`EnumerateOldCacheForCurrentUser` | 8 (0x8) | Exported Function | 0x10002360 | 0x00002360
-`MigrateCacheForCurrentUser` | 9 (0x9) | Exported Function | 0x10002000 | 0x00002000
-`MigrateCacheForUser` | 10 (0xa) | Exported Function | 0x10001d90 | 0x00001d90
+Function Name | Ordinal | Type
+-- | -- | --
+`EnumerateNewCacheForCurrentUser` | 7 | Exported Function
+`EnumerateCacheEntriesFromIndexDatFile` | 6 | Exported Function
+`EnumerateOldCacheForCurrentUser` | 8 | Exported Function
+`MigrateCacheForUser` | 10 | Exported Function
+`MigrateCacheForCurrentUser` | 9 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllMain` | 3 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

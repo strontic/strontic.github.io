@@ -24,17 +24,17 @@ PE256 | `F91C1042C9C6F5DBFE2FC3D7FB843D43A62A4C08CFDDB1BF95B104718523DAB4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 6 (0x6) | Exported Function | 0x0000000180006c60 | 0x00006c60
-`DllGetClassObject` | 7 (0x7) | Exported Function | 0x0000000180006c80 | 0x00006c80
-`DllRegisterServer` | 8 (0x8) | Exported Function | 0x0000000180006cb0 | 0x00006cb0
-`DllUnregisterServer` | 9 (0x9) | Exported Function | 0x0000000180006cd0 | 0x00006cd0
-`public: long __cdecl VSAFilter::initialize(void) __ptr64` | 1 (0x1) | Exported Function | 0x0000000180011de0 | 0x00011de0
-`public: long __cdecl VSAFilter::radiusFromIAS(struct IAttributesRaw * __ptr64,int)const __ptr64` | 2 (0x2) | Exported Function | 0x0000000180012010 | 0x00012010
-`public: long __cdecl VSAFilter::radiusToIAS(struct IAttributesRaw * __ptr64)const __ptr64` | 4 (0x4) | Exported Function | 0x0000000180011e30 | 0x00011e30
-`public: long __cdecl VSAFilter::radiusToIAS(unsigned char * __ptr64,unsigned long,class IASTL::IASAttributeVector & __ptr64)const __ptr64` | 3 (0x3) | Exported Function | 0x00000001800123f0 | 0x000123f0
-`public: long __cdecl VSAFilter::shutdown(void) __ptr64` | 5 (0x5) | Exported Function | 0x0000000180011df0 | 0x00011df0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: long __cdecl VSAFilter::radiusToIAS(struct IAttributesRaw * __ptr64)const __ptr64` | 4 | Exported Function
+`public: long __cdecl VSAFilter::radiusFromIAS(struct IAttributesRaw * __ptr64,int)const __ptr64` | 2 | Exported Function
+`public: long __cdecl VSAFilter::shutdown(void) __ptr64` | 5 | Exported Function
+`public: long __cdecl VSAFilter::radiusToIAS(unsigned char * __ptr64,unsigned long,class IASTL::IASAttributeVector & __ptr64)const __ptr64` | 3 | Exported Function
+`public: long __cdecl VSAFilter::initialize(void) __ptr64` | 1 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`DllUnregisterServer` | 9 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
 
 
 ## Signature

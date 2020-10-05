@@ -24,10 +24,10 @@ PE256 | `4ADF28878EE144ECC1893ED168D060D58C0CB5A72CDC058F9BB3036856EBB622`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InstallLocalFaxPrinter` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
-`UninstallLocalFaxPrinter` | 2 (0x2) | Exported Function | 0x0000000180001040 | 0x00001040
+Function Name | Ordinal | Type
+-- | -- | --
+`UninstallLocalFaxPrinter` | 2 | Exported Function
+`InstallLocalFaxPrinter` | 1 | Exported Function
 
 
 ## Signature

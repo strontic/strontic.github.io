@@ -24,19 +24,19 @@ PE256 | `C2E30C63E3117A54963635B360E91B96097DFEA7353931373C69895776495EEC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WcDetachFilter` | 1 (0x1) | Exported Function | 0x00000001800024b0 | 0x000024b0
-`WciConfigureVolume` | 4 (0x4) | Exported Function | 0x00000001800025a0 | 0x000025a0
-`WciGetUnions` | 5 (0x5) | Exported Function | 0x0000000180001010 | 0x00001010
-`WciReadReparsePointData` | 6 (0x6) | Exported Function | 0x0000000180002b00 | 0x00002b00
-`WciRemoveRoot` | 7 (0x7) | Exported Function | 0x0000000180002350 | 0x00002350
-`WciSetReparsePointData` | 8 (0x8) | Exported Function | 0x0000000180003230 | 0x00003230
-`WciSetReparsePointDataEx` | 9 (0x9) | Exported Function | 0x0000000180003110 | 0x00003110
-`WciSetTombstone` | 10 (0xa) | Exported Function | 0x0000000180003250 | 0x00003250
-`WciSetupFilter` | 11 (0xb) | Exported Function | 0x0000000180001fc0 | 0x00001fc0
-`WcRemoveReparseData` | 2 (0x2) | Exported Function | 0x0000000180002da0 | 0x00002da0
-`WcRemoveTombstoneReparseData` | 3 (0x3) | Exported Function | 0x0000000180002dd0 | 0x00002dd0
+Function Name | Ordinal | Type
+-- | -- | --
+`WciSetTombstone` | 10 | Exported Function
+`WciSetReparsePointDataEx` | 9 | Exported Function
+`WciSetupFilter` | 11 | Exported Function
+`WcRemoveTombstoneReparseData` | 3 | Exported Function
+`WcRemoveReparseData` | 2 | Exported Function
+`WciSetReparsePointData` | 8 | Exported Function
+`WciConfigureVolume` | 4 | Exported Function
+`WcDetachFilter` | 1 | Exported Function
+`WciGetUnions` | 5 | Exported Function
+`WciRemoveRoot` | 7 | Exported Function
+`WciReadReparsePointData` | 6 | Exported Function
 
 
 ## Signature

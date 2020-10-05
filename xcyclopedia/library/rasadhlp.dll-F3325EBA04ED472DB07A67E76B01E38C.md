@@ -24,12 +24,12 @@ PE256 | `8BAB652EAB72D1B9F6464726D65F19538C22C70FBC3E6016EBB782C998068F00`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AcsHlpNbConnection` | 1 (0x1) | Exported Function | 0x00000001800021c0 | 0x000021c0
-`WSAttemptAutodialAddr` | 2 (0x2) | Exported Function | 0x0000000180002780 | 0x00002780
-`WSAttemptAutodialName` | 3 (0x3) | Exported Function | 0x0000000180001010 | 0x00001010
-`WSNoteSuccessfulHostentLookup` | 4 (0x4) | Exported Function | 0x00000001800028a0 | 0x000028a0
+Function Name | Ordinal | Type
+-- | -- | --
+`WSAttemptAutodialName` | 3 | Exported Function
+`WSNoteSuccessfulHostentLookup` | 4 | Exported Function
+`AcsHlpNbConnection` | 1 | Exported Function
+`WSAttemptAutodialAddr` | 2 | Exported Function
 
 
 ## Signature

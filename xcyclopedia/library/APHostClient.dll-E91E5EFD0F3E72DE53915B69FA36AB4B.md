@@ -24,10 +24,10 @@ PE256 | `01A1646E2035E2B339828E080946C015E30C91B45C66543683B0B89011E653EE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ApHostServerStatus_EnsureServerReady` | 1 (0x1) | Exported Function | 0x10005ad0 | 0x00005ad0
-`CreateAPHostClient` | 2 (0x2) | Exported Function | 0x10005a60 | 0x00005a60
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateAPHostClient` | 2 | Exported Function
+`ApHostServerStatus_EnsureServerReady` | 1 | Exported Function
 
 
 ## Signature

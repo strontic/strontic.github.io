@@ -23,12 +23,12 @@ PE256 | `E5A0CF36C2EC29102BEA77732335907A031D23CA15E20458FF2C5D6AF68CEF94`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TraceExGenerateDump` | 1 (0x1) | Exported Function | 0x0000000180001420 | 0x00001420
-`TraceExGenerateMiniReport` | 2 (0x2) | Exported Function | 0x0000000180001450 | 0x00001450
-`TraceExGenerateReport` | 3 (0x3) | Exported Function | 0x0000000180001360 | 0x00001360
-`TraceExRunDiagnostic` | 4 (0x4) | Exported Function | 0x0000000180001470 | 0x00001470
+Function Name | Ordinal | Type
+-- | -- | --
+`TraceExGenerateReport` | 3 | Exported Function
+`TraceExRunDiagnostic` | 4 | Exported Function
+`TraceExGenerateDump` | 1 | Exported Function
+`TraceExGenerateMiniReport` | 2 | Exported Function
 
 
 ## Signature

@@ -24,24 +24,24 @@ PE256 | `0FCF72F22AA9F2F6B8C97DE303CE06B11084E5787848320B480D14EB39F6A81D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateFileMappingFromApp` | 1 (0x1) | Exported Function | kernel32.dll.CreateFileMappingFromApp | 0x00001163
-`CreateFileMappingNumaW` | 2 (0x2) | Exported Function | kernel32.dll.CreateFileMappingNumaW | 0x000011a0
-`CreateMemoryResourceNotification` | 3 (0x3) | Exported Function | kernel32.dll.CreateMemoryResourceNotification | 0x000011e5
-`GetLargePageMinimum` | 4 (0x4) | Exported Function | kernel32.dll.GetLargePageMinimum | 0x00001227
-`GetProcessWorkingSetSizeEx` | 5 (0x5) | Exported Function | kernel32.dll.GetProcessWorkingSetSizeEx | 0x00001263
-`GetSystemFileCacheSize` | 6 (0x6) | Exported Function | kernel32.dll.GetSystemFileCacheSize | 0x000012a2
-`GetWriteWatch` | 7 (0x7) | Exported Function | kernel32.dll.GetWriteWatch | 0x000012d4
-`MapViewOfFileFromApp` | 8 (0x8) | Exported Function | kernel32.dll.MapViewOfFileFromApp | 0x00001304
-`PrefetchVirtualMemory` | 9 (0x9) | Exported Function | kernel32.dll.PrefetchVirtualMemory | 0x0000133c
-`QueryMemoryResourceNotification` | 10 (0xa) | Exported Function | kernel32.dll.QueryMemoryResourceNotification | 0x0000137f
-`ResetWriteWatch` | 11 (0xb) | Exported Function | kernel32.dll.ResetWriteWatch | 0x000013bc
-`SetProcessWorkingSetSizeEx` | 12 (0xc) | Exported Function | kernel32.dll.SetProcessWorkingSetSizeEx | 0x000013f4
-`SetSystemFileCacheSize` | 13 (0xd) | Exported Function | kernel32.dll.SetSystemFileCacheSize | 0x00001433
-`UnmapViewOfFileEx` | 14 (0xe) | Exported Function | kernel32.dll.UnmapViewOfFileEx | 0x00001469
-`VirtualLock` | 15 (0xf) | Exported Function | kernel32.dll.VirtualLock | 0x00001494
-`VirtualUnlock` | 16 (0x10) | Exported Function | kernel32.dll.VirtualUnlock | 0x000014bb
+Function Name | Ordinal | Type
+-- | -- | --
+`ResetWriteWatch` | 11 | Exported Function
+`SetProcessWorkingSetSizeEx` | 12 | Exported Function
+`PrefetchVirtualMemory` | 9 | Exported Function
+`QueryMemoryResourceNotification` | 10 | Exported Function
+`VirtualLock` | 15 | Exported Function
+`VirtualUnlock` | 16 | Exported Function
+`SetSystemFileCacheSize` | 13 | Exported Function
+`UnmapViewOfFileEx` | 14 | Exported Function
+`CreateMemoryResourceNotification` | 3 | Exported Function
+`GetLargePageMinimum` | 4 | Exported Function
+`CreateFileMappingFromApp` | 1 | Exported Function
+`CreateFileMappingNumaW` | 2 | Exported Function
+`GetWriteWatch` | 7 | Exported Function
+`MapViewOfFileFromApp` | 8 | Exported Function
+`GetProcessWorkingSetSizeEx` | 5 | Exported Function
+`GetSystemFileCacheSize` | 6 | Exported Function
 
 
 ## Signature

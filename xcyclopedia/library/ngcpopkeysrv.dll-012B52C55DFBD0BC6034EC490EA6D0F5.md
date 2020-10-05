@@ -24,23 +24,23 @@ PE256 | `CBD57CF146748C124967657F9FE1DC2AA5A4BB426C6DAB9600EB2BA89FFC2846`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NgcGetPregenKey` | 1 (0x1) | Exported Function | 0x00000001800156f0 | 0x000156f0
-`NgcPregenKey` | 2 (0x2) | Exported Function | 0x00000001800180b0 | 0x000180b0
-`NgcTriggerTask` | 3 (0x3) | Exported Function | 0x0000000180014920 | 0x00014920
-`s_NgcDecryptWithSymmetricPopKey` | 4 (0x4) | Exported Function | 0x000000018000dd90 | 0x0000dd90
-`s_NgcDeleteSymmetricPopKeyTransportKey` | 5 (0x5) | Exported Function | 0x000000018000c8e0 | 0x0000c8e0
-`s_NgcEncryptWithSymmetricPopKey` | 6 (0x6) | Exported Function | 0x000000018000d870 | 0x0000d870
-`s_NgcGetKeyAttestationForContainerService` | 7 (0x7) | Exported Function | 0x000000018000cb00 | 0x0000cb00
-`s_NgcGetPregenKeyState` | 8 (0x8) | Exported Function | 0x0000000180016720 | 0x00016720
-`s_NgcGetPregenUserKey` | 9 (0x9) | Exported Function | 0x0000000180015dc0 | 0x00015dc0
-`s_NgcGetSymmetricPopKeyTransportKey` | 10 (0xa) | Exported Function | 0x000000018000c2a0 | 0x0000c2a0
-`s_NgcGetSymmetricPopKeyTransportKeyName` | 11 (0xb) | Exported Function | 0x000000018000be20 | 0x0000be20
-`s_NgcImportSymmetricPopKey` | 12 (0xc) | Exported Function | 0x000000018000b900 | 0x0000b900
-`s_NgcRenewKeyAttestation` | 13 (0xd) | Exported Function | 0x000000018000cd40 | 0x0000cd40
-`s_NgcSignWithSymmetricPopKey` | 14 (0xe) | Exported Function | 0x000000018000cf60 | 0x0000cf60
-`s_NgcVerifyWithSymmetricPopKey` | 15 (0xf) | Exported Function | 0x000000018000d420 | 0x0000d420
+Function Name | Ordinal | Type
+-- | -- | --
+`s_NgcGetSymmetricPopKeyTransportKeyName` | 11 | Exported Function
+`s_NgcGetSymmetricPopKeyTransportKey` | 10 | Exported Function
+`s_NgcGetPregenUserKey` | 9 | Exported Function
+`s_NgcImportSymmetricPopKey` | 12 | Exported Function
+`s_NgcVerifyWithSymmetricPopKey` | 15 | Exported Function
+`s_NgcSignWithSymmetricPopKey` | 14 | Exported Function
+`s_NgcRenewKeyAttestation` | 13 | Exported Function
+`s_NgcGetPregenKeyState` | 8 | Exported Function
+`NgcTriggerTask` | 3 | Exported Function
+`NgcPregenKey` | 2 | Exported Function
+`NgcGetPregenKey` | 1 | Exported Function
+`s_NgcDecryptWithSymmetricPopKey` | 4 | Exported Function
+`s_NgcGetKeyAttestationForContainerService` | 7 | Exported Function
+`s_NgcEncryptWithSymmetricPopKey` | 6 | Exported Function
+`s_NgcDeleteSymmetricPopKeyTransportKey` | 5 | Exported Function
 
 
 ## Signature

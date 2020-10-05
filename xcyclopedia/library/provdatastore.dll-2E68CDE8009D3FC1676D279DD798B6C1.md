@@ -24,14 +24,14 @@ PE256 | `183595A3BD19E6E463B399A0DC52A57282407B74F29D2D4C60F4C53274ED6B3E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x0000000180004690 | 0x00004690
-`DllGetActivationFactory` | 5 (0x5) | Exported Function | 0x00000001800043c0 | 0x000043c0
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x00000001800045a0 | 0x000045a0
-`MvDsGetInfoFromMcc` | 1 (0x1) | Exported Function | 0x0000000180005d50 | 0x00005d50
-`MvGetMccFromGeoId` | 2 (0x2) | Exported Function | 0x0000000180006250 | 0x00006250
-`ValidateMnc` | 3 (0x3) | Exported Function | 0x0000000180005f10 | 0x00005f10
+Function Name | Ordinal | Type
+-- | -- | --
+`MvDsGetInfoFromMcc` | 1 | Exported Function
+`MvGetMccFromGeoId` | 2 | Exported Function
+`ValidateMnc` | 3 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DllGetActivationFactory` | 5 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
 
 
 ## Signature

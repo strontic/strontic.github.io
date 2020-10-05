@@ -24,15 +24,15 @@ PE256 | `5CE481C99D10168DB18E0A1E6B82FBE25626073C1FA9337666F0CE545500E57E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ServiceMain` | 1 (0x1) | Exported Function | 0x0000000180042660 | 0x00042660
-`StateRepository_DataAccessLayer_DatabaseCache_Add` | 3 (0x3) | Exported Function | 0x0000000180093660 | 0x00093660
-`StateRepository_DataAccessLayer_DatabaseCache_Get` | 4 (0x4) | Exported Function | 0x00000001800936a0 | 0x000936a0
-`StateRepository_Initialize` | 5 (0x5) | Exported Function | 0x00000001800936f0 | 0x000936f0
-`StateRepository_Service_UpdateStatus` | 6 (0x6) | Exported Function | 0x000000018009c7b0 | 0x0009c7b0
-`StateRepository_Shutdown` | 7 (0x7) | Exported Function | 0x0000000180093700 | 0x00093700
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x000000018005ae40 | 0x0005ae40
+Function Name | Ordinal | Type
+-- | -- | --
+`StateRepository_Service_UpdateStatus` | 6 | Exported Function
+`StateRepository_Shutdown` | 7 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`StateRepository_Initialize` | 5 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`StateRepository_DataAccessLayer_DatabaseCache_Add` | 3 | Exported Function
+`StateRepository_DataAccessLayer_DatabaseCache_Get` | 4 | Exported Function
 
 
 ## Signature

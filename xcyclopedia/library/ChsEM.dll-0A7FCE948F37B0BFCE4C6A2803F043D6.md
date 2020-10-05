@@ -24,14 +24,14 @@ PE256 | `801501492ABF219B8770A0D7FB0FFA70B18FB95862D96A08F6DEB8E77D3AD536`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DestroyMtf` | 1 (0x1) | Exported Function | 0x0000000150590330 | 0x00010330
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000015058cfe0 | 0x0000cfe0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000015058cf00 | 0x0000cf00
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x000000015058d310 | 0x0000d310
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x000000015058d320 | 0x0000d320
-`SetupMtf` | 6 (0x6) | Exported Function | 0x00000001505902f0 | 0x000102f0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`SetupMtf` | 6 | Exported Function
+`DestroyMtf` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

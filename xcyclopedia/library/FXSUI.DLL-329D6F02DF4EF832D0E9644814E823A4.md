@@ -24,19 +24,19 @@ PE256 | `FD0C9FFAE7040412C4CC1012E8A3983D1A45F5F4350D74CCC7A2F93165B4703E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DevQueryPrintEx` | 1 (0x1) | Exported Function | 0x000000016450e310 | 0x0000e310
-`DrvAdvancedDocumentProperties` | 2 (0x2) | Exported Function | 0x000000016450c740 | 0x0000c740
-`DrvConvertDevMode` | 3 (0x3) | Exported Function | 0x000000016450c810 | 0x0000c810
-`DrvDeviceCapabilities` | 4 (0x4) | Exported Function | 0x0000000164501c30 | 0x00001c30
-`DrvDevicePropertySheets` | 5 (0x5) | Exported Function | 0x000000016450f790 | 0x0000f790
-`DrvDocumentEvent` | 6 (0x6) | Exported Function | 0x000000016450b190 | 0x0000b190
-`DrvDocumentProperties` | 7 (0x7) | Exported Function | 0x000000016450c660 | 0x0000c660
-`DrvDocumentPropertySheets` | 8 (0x8) | Exported Function | 0x000000016450c320 | 0x0000c320
-`DrvDriverEvent` | 9 (0x9) | Exported Function | 0x000000016450e330 | 0x0000e330
-`DrvPrinterEvent` | 10 (0xa) | Exported Function | 0x000000016450e860 | 0x0000e860
-`PrinterProperties` | 11 (0xb) | Exported Function | 0x000000016450fe70 | 0x0000fe70
+Function Name | Ordinal | Type
+-- | -- | --
+`DrvDocumentPropertySheets` | 8 | Exported Function
+`DrvDocumentProperties` | 7 | Exported Function
+`DrvDriverEvent` | 9 | Exported Function
+`PrinterProperties` | 11 | Exported Function
+`DrvPrinterEvent` | 10 | Exported Function
+`DrvDocumentEvent` | 6 | Exported Function
+`DrvAdvancedDocumentProperties` | 2 | Exported Function
+`DevQueryPrintEx` | 1 | Exported Function
+`DrvConvertDevMode` | 3 | Exported Function
+`DrvDevicePropertySheets` | 5 | Exported Function
+`DrvDeviceCapabilities` | 4 | Exported Function
 
 
 ## Signature

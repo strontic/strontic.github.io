@@ -24,9 +24,9 @@ PE256 | `86543BF6D187DEE277966112E0FCE70F6D3E9F2523E53DD9E100A84C8034598F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IsTextUnicode` | 1 (0x1) | Exported Function | advapi32.IsTextUnicode | 0x000010c0
+Function Name | Ordinal | Type
+-- | -- | --
+`IsTextUnicode` | 1 | Exported Function
 
 
 ## Signature

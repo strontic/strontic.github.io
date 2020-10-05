@@ -24,21 +24,21 @@ PE256 | `4F509202C110324682D3E042F20DC990F876897E1CA857B25C06A7FECB42545C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`D3DFree` | 1 (0x1) | Exported Function | 0x740035c0 | 0x000035c0
-`D3DMalloc` | 2 (0x2) | Exported Function | 0x74003530 | 0x00003530
-`D3DRealloc` | 3 (0x3) | Exported Function | 0x74003570 | 0x00003570
-`Direct3D_HALCleanUp` | 8 (0x8) | Exported Function | 0x74009620 | 0x00009620
-`Direct3DCreate` | 7 (0x7) | Exported Function | 0x74008570 | 0x00008570
-`Direct3DCreateDevice` | 4 (0x4) | Exported Function | 0x74004e20 | 0x00004e20
-`Direct3DCreateTexture` | 5 (0x5) | Exported Function | 0x740074a0 | 0x000074a0
-`Direct3DGetSWRastZPixFmts` | 6 (0x6) | Exported Function | 0x74019960 | 0x00019960
-`FlushD3DDevices` | 10 (0xa) | Exported Function | 0x74009300 | 0x00009300
-`FlushD3DDevices2` | 9 (0x9) | Exported Function | 0x74009340 | 0x00009340
-`PaletteAssociateNotify` | 11 (0xb) | Exported Function | 0x74009220 | 0x00009220
-`PaletteUpdateNotify` | 12 (0xc) | Exported Function | 0x740091b0 | 0x000091b0
-`SurfaceFlipNotify` | 13 (0xd) | Exported Function | 0x74009290 | 0x00009290
+Function Name | Ordinal | Type
+-- | -- | --
+`FlushD3DDevices2` | 9 | Exported Function
+`FlushD3DDevices` | 10 | Exported Function
+`Direct3DGetSWRastZPixFmts` | 6 | Exported Function
+`SurfaceFlipNotify` | 13 | Exported Function
+`PaletteUpdateNotify` | 12 | Exported Function
+`PaletteAssociateNotify` | 11 | Exported Function
+`Direct3DCreateTexture` | 5 | Exported Function
+`D3DRealloc` | 3 | Exported Function
+`D3DMalloc` | 2 | Exported Function
+`D3DFree` | 1 | Exported Function
+`Direct3DCreateDevice` | 4 | Exported Function
+`Direct3DCreate` | 7 | Exported Function
+`Direct3D_HALCleanUp` | 8 | Exported Function
 
 
 ## Signature

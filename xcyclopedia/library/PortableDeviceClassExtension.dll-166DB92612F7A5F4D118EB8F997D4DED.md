@@ -24,13 +24,13 @@ PE256 | `C8D8BDCB1DDB7976E528B64F2AD22B7BD21EA9C052E88A4BABAF07B5EE3062EE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x100029b0 | 0x000029b0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x100029e0 | 0x000029e0
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x10002a30 | 0x00002a30
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x10002a70 | 0x00002a70
-`Microsoft_WDF_UMDF_Version` | 5 (0x5) | Exported Function | 0x1000e12c | 0x0000e12c
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 4 | Exported Function
+`Microsoft_WDF_UMDF_Version` | 5 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

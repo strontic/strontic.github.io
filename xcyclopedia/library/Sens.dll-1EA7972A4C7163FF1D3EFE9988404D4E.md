@@ -24,13 +24,13 @@ PE256 | `BB70AC5D12CADB2463A7565D583A01ACA7942DC3D216B5366078F003DA80C3B2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SensNotifyNetconEvent` | 3 (0x3) | Exported Function | 0x000000018000c430 | 0x0000c430
-`SensNotifyRasEvent` | 4 (0x4) | Exported Function | 0x000000018000c5a0 | 0x0000c5a0
-`SensNotifyWinlogonEvent` | 5 (0x5) | Exported Function | 0x00000001800011f0 | 0x000011f0
-`ServiceMain` | 1 (0x1) | Exported Function | 0x0000000180004b30 | 0x00004b30
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x0000000180005bb0 | 0x00005bb0
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 1 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`SensNotifyWinlogonEvent` | 5 | Exported Function
+`SensNotifyNetconEvent` | 3 | Exported Function
+`SensNotifyRasEvent` | 4 | Exported Function
 
 
 ## Signature

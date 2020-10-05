@@ -24,83 +24,83 @@ PE256 | `615FD59F37D035D1F6E051E625131C957F1EA43AE8EC9A825DD3427AA979135B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CompareFileTime` | 1 (0x1) | Exported Function | kernel32.CompareFileTime | 0x000013a6
-`LocalFileTimeToFileTime` | 54 (0x36) | Exported Function | kernel32.LocalFileTimeToFileTime | 0x00001d23
-`GetVolumePathNameW` | 53 (0x35) | Exported Function | kernel32.GetVolumePathNameW | 0x00001cef
-`GetVolumeInformationW` | 52 (0x34) | Exported Function | kernel32.GetVolumeInformationW | 0x00001cbd
-`GetVolumeInformationByHandleW` | 51 (0x33) | Exported Function | kernel32.GetVolumeInformationByHandleW | 0x00001c80
-`GetTempFileNameW` | 50 (0x32) | Exported Function | kernel32.GetTempFileNameW | 0x00001c48
-`GetShortPathNameW` | 49 (0x31) | Exported Function | kernel32.GetShortPathNameW | 0x00001c1c
-`GetLongPathNameW` | 48 (0x30) | Exported Function | kernel32.GetLongPathNameW | 0x00001bf0
-`GetLongPathNameA` | 47 (0x2f) | Exported Function | kernel32.GetLongPathNameA | 0x00001bc5
-`GetLogicalDriveStringsW` | 45 (0x2d) | Exported Function | kernel32.GetLogicalDriveStringsW | 0x00001b68
-`GetLogicalDrives` | 46 (0x2e) | Exported Function | kernel32.GetLogicalDrives | 0x00001b9a
-`GetFullPathNameW` | 44 (0x2c) | Exported Function | kernel32.GetFullPathNameW | 0x00001b36
-`GetFullPathNameA` | 43 (0x2b) | Exported Function | kernel32.GetFullPathNameA | 0x00001b0b
-`GetFinalPathNameByHandleW` | 42 (0x2a) | Exported Function | kernel32.GetFinalPathNameByHandleW | 0x00001ad7
-`GetFinalPathNameByHandleA` | 41 (0x29) | Exported Function | kernel32.GetFinalPathNameByHandleA | 0x00001a9a
-`GetFileType` | 40 (0x28) | Exported Function | kernel32.GetFileType | 0x00001a6b
-`LockFile` | 55 (0x37) | Exported Function | kernel32.LockFile | 0x00001d4d
-`GetFileTime` | 39 (0x27) | Exported Function | kernel32.GetFileTime | 0x00001a4a
-`LockFileEx` | 56 (0x38) | Exported Function | kernel32.LockFileEx | 0x00001d6a
-`ReadFile` | 58 (0x3a) | Exported Function | kernel32.ReadFile | 0x00001db0
-`WriteFile` | 73 (0x49) | Exported Function | kernel32.WriteFile | 0x0000200a
-`UnlockFileEx` | 72 (0x48) | Exported Function | kernel32.UnlockFileEx | 0x00001fea
-`UnlockFile` | 71 (0x47) | Exported Function | kernel32.UnlockFile | 0x00001fc9
-`SetFileValidData` | 70 (0x46) | Exported Function | kernel32.SetFileValidData | 0x00001fa4
-`SetFileTime` | 69 (0x45) | Exported Function | kernel32.SetFileTime | 0x00001f7e
-`SetFilePointerEx` | 68 (0x44) | Exported Function | kernel32.SetFilePointerEx | 0x00001f58
-`SetFilePointer` | 67 (0x43) | Exported Function | kernel32.SetFilePointer | 0x00001f2f
-`SetFileInformationByHandle` | 66 (0x42) | Exported Function | kernel32.SetFileInformationByHandle | 0x00001efc
-`SetFileAttributesW` | 65 (0x41) | Exported Function | kernel32.SetFileAttributesW | 0x00001ec5
-`SetFileAttributesA` | 64 (0x40) | Exported Function | kernel32.SetFileAttributesA | 0x00001e96
-`SetEndOfFile` | 63 (0x3f) | Exported Function | kernel32.SetEndOfFile | 0x00001e6d
-`RemoveDirectoryW` | 62 (0x3e) | Exported Function | kernel32.RemoveDirectoryW | 0x00001e46
-`RemoveDirectoryA` | 61 (0x3d) | Exported Function | kernel32.RemoveDirectoryA | 0x00001e1b
-`ReadFileScatter` | 60 (0x3c) | Exported Function | kernel32.ReadFileScatter | 0x00001df1
-`ReadFileEx` | 59 (0x3b) | Exported Function | kernel32.ReadFileEx | 0x00001dcd
-`QueryDosDeviceW` | 57 (0x39) | Exported Function | kernel32.QueryDosDeviceW | 0x00001d8e
-`WriteFileEx` | 74 (0x4a) | Exported Function | kernel32.WriteFileEx | 0x00002029
-`GetFileSizeEx` | 38 (0x26) | Exported Function | kernel32.GetFileSizeEx | 0x00001a27
-`GetFileInformationByHandle` | 36 (0x24) | Exported Function | kernel32.GetFileInformationByHandle | 0x000019d4
-`FindFirstFileExA` | 16 (0x10) | Exported Function | kernel32.FindFirstFileExA | 0x00001652
-`FindFirstFileA` | 15 (0xf) | Exported Function | kernel32.FindFirstFileA | 0x00001629
-`FindFirstChangeNotificationW` | 14 (0xe) | Exported Function | kernel32.FindFirstChangeNotificationW | 0x000015f4
-`FindFirstChangeNotificationA` | 13 (0xd) | Exported Function | kernel32.FindFirstChangeNotificationA | 0x000015b1
-`FindCloseChangeNotification` | 12 (0xc) | Exported Function | kernel32.FindCloseChangeNotification | 0x0000156f
-`FindClose` | 11 (0xb) | Exported Function | kernel32.FindClose | 0x00001540
-`FileTimeToLocalFileTime` | 10 (0xa) | Exported Function | kernel32.FileTimeToLocalFileTime | 0x00001515
-`DeleteVolumeMountPointW` | 9 (0x9) | Exported Function | kernel32.DeleteVolumeMountPointW | 0x000014dc
-`DeleteFileW` | 8 (0x8) | Exported Function | kernel32.DeleteFileW | 0x000014af
-`DeleteFileA` | 7 (0x7) | Exported Function | kernel32.DeleteFileA | 0x0000148e
-`DefineDosDeviceW` | 6 (0x6) | Exported Function | kernel32.DefineDosDeviceW | 0x00001468
-`CreateFileW` | 5 (0x5) | Exported Function | kernel32.CreateFileW | 0x00001442
-`CreateFileA` | 4 (0x4) | Exported Function | kernel32.CreateFileA | 0x00001421
-`CreateDirectoryW` | 3 (0x3) | Exported Function | kernel32.CreateDirectoryW | 0x000013fb
-`CreateDirectoryA` | 2 (0x2) | Exported Function | kernel32.CreateDirectoryA | 0x000013d0
-`FindFirstFileExW` | 17 (0x11) | Exported Function | kernel32.FindFirstFileExW | 0x0000167d
-`GetFileSize` | 37 (0x25) | Exported Function | kernel32.GetFileSize | 0x00001a04
-`FindFirstFileW` | 18 (0x12) | Exported Function | kernel32.FindFirstFileW | 0x000016a6
-`FindNextChangeNotification` | 20 (0x14) | Exported Function | kernel32.FindNextChangeNotification | 0x00001704
-`GetFileAttributesW` | 35 (0x23) | Exported Function | kernel32.GetFileAttributesW | 0x0000199d
-`GetFileAttributesExW` | 34 (0x22) | Exported Function | kernel32.GetFileAttributesExW | 0x0000196c
-`GetFileAttributesExA` | 33 (0x21) | Exported Function | kernel32.GetFileAttributesExA | 0x00001939
-`GetFileAttributesA` | 32 (0x20) | Exported Function | kernel32.GetFileAttributesA | 0x00001908
-`GetDriveTypeW` | 31 (0x1f) | Exported Function | kernel32.GetDriveTypeW | 0x000018de
-`GetDriveTypeA` | 30 (0x1e) | Exported Function | kernel32.GetDriveTypeA | 0x000018b9
-`GetDiskFreeSpaceW` | 29 (0x1d) | Exported Function | kernel32.GetDiskFreeSpaceW | 0x00001890
-`GetDiskFreeSpaceExW` | 28 (0x1c) | Exported Function | kernel32.GetDiskFreeSpaceExW | 0x00001861
-`GetDiskFreeSpaceExA` | 27 (0x1b) | Exported Function | kernel32.GetDiskFreeSpaceExA | 0x00001830
-`GetDiskFreeSpaceA` | 26 (0x1a) | Exported Function | kernel32.GetDiskFreeSpaceA | 0x00001801
-`FlushFileBuffers` | 25 (0x19) | Exported Function | kernel32.FlushFileBuffers | 0x000017d5
-`FindVolumeClose` | 24 (0x18) | Exported Function | kernel32.FindVolumeClose | 0x000017ab
-`FindNextVolumeW` | 23 (0x17) | Exported Function | kernel32.FindNextVolumeW | 0x00001782
-`FindNextFileW` | 22 (0x16) | Exported Function | kernel32.FindNextFileW | 0x0000175b
-`FindNextFileA` | 21 (0x15) | Exported Function | kernel32.FindNextFileA | 0x00001736
-`FindFirstVolumeW` | 19 (0x13) | Exported Function | kernel32.FindFirstVolumeW | 0x000016cf
-`WriteFileGather` | 75 (0x4b) | Exported Function | kernel32.WriteFileGather | 0x0000204e
+Function Name | Ordinal | Type
+-- | -- | --
+`GetTempFileNameW` | 50 | Exported Function
+`GetVolumeInformationByHandleW` | 51 | Exported Function
+`GetLongPathNameW` | 48 | Exported Function
+`GetShortPathNameW` | 49 | Exported Function
+`GetVolumeInformationW` | 52 | Exported Function
+`LockFile` | 55 | Exported Function
+`LockFileEx` | 56 | Exported Function
+`GetVolumePathNameW` | 53 | Exported Function
+`LocalFileTimeToFileTime` | 54 | Exported Function
+`GetFinalPathNameByHandleA` | 41 | Exported Function
+`GetFinalPathNameByHandleW` | 42 | Exported Function
+`GetFileTime` | 39 | Exported Function
+`GetFileType` | 40 | Exported Function
+`GetFullPathNameA` | 43 | Exported Function
+`GetLogicalDriveStringsW` | 45 | Exported Function
+`GetLongPathNameA` | 47 | Exported Function
+`GetFullPathNameW` | 44 | Exported Function
+`GetLogicalDrives` | 46 | Exported Function
+`QueryDosDeviceW` | 57 | Exported Function
+`SetFileTime` | 69 | Exported Function
+`SetFileValidData` | 70 | Exported Function
+`SetFilePointer` | 67 | Exported Function
+`SetFilePointerEx` | 68 | Exported Function
+`UnlockFile` | 71 | Exported Function
+`WriteFileEx` | 74 | Exported Function
+`WriteFileGather` | 75 | Exported Function
+`UnlockFileEx` | 72 | Exported Function
+`WriteFile` | 73 | Exported Function
+`ReadFileScatter` | 60 | Exported Function
+`RemoveDirectoryA` | 61 | Exported Function
+`ReadFile` | 58 | Exported Function
+`ReadFileEx` | 59 | Exported Function
+`RemoveDirectoryW` | 62 | Exported Function
+`SetFileAttributesW` | 65 | Exported Function
+`SetFileInformationByHandle` | 66 | Exported Function
+`SetEndOfFile` | 63 | Exported Function
+`SetFileAttributesA` | 64 | Exported Function
+`GetFileSizeEx` | 38 | Exported Function
+`FindCloseChangeNotification` | 12 | Exported Function
+`FindFirstChangeNotificationA` | 13 | Exported Function
+`FileTimeToLocalFileTime` | 10 | Exported Function
+`FindClose` | 11 | Exported Function
+`FindFirstChangeNotificationW` | 14 | Exported Function
+`FindFirstFileExW` | 17 | Exported Function
+`FindFirstFileW` | 18 | Exported Function
+`FindFirstFileA` | 15 | Exported Function
+`FindFirstFileExA` | 16 | Exported Function
+`CreateDirectoryW` | 3 | Exported Function
+`CreateFileA` | 4 | Exported Function
+`CompareFileTime` | 1 | Exported Function
+`CreateDirectoryA` | 2 | Exported Function
+`CreateFileW` | 5 | Exported Function
+`DeleteFileW` | 8 | Exported Function
+`DeleteVolumeMountPointW` | 9 | Exported Function
+`DefineDosDeviceW` | 6 | Exported Function
+`DeleteFileA` | 7 | Exported Function
+`FindFirstVolumeW` | 19 | Exported Function
+`GetDriveTypeW` | 31 | Exported Function
+`GetFileAttributesA` | 32 | Exported Function
+`GetDiskFreeSpaceW` | 29 | Exported Function
+`GetDriveTypeA` | 30 | Exported Function
+`GetFileAttributesExA` | 33 | Exported Function
+`GetFileInformationByHandle` | 36 | Exported Function
+`GetFileSize` | 37 | Exported Function
+`GetFileAttributesExW` | 34 | Exported Function
+`GetFileAttributesW` | 35 | Exported Function
+`FindNextFileW` | 22 | Exported Function
+`FindNextVolumeW` | 23 | Exported Function
+`FindNextChangeNotification` | 20 | Exported Function
+`FindNextFileA` | 21 | Exported Function
+`FindVolumeClose` | 24 | Exported Function
+`GetDiskFreeSpaceExA` | 27 | Exported Function
+`GetDiskFreeSpaceExW` | 28 | Exported Function
+`FlushFileBuffers` | 25 | Exported Function
+`GetDiskFreeSpaceA` | 26 | Exported Function
 
 
 ## Signature

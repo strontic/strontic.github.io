@@ -24,52 +24,52 @@ PE256 | `BF1271E3075F47B9C8DBB4A95671E3459A17AB3B8AAA25973BD445F4D36DCA10`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AzAddPropertyItem` | 1 (0x1) | Exported Function | 0x0000000180038e90 | 0x00038e90
-`AzRemovePropertyItem` | 25 (0x19) | Exported Function | 0x0000000180039260 | 0x00039260
-`AzRoleCreate` | 26 (0x1a) | Exported Function | 0x000000018003caa0 | 0x0003caa0
-`AzRoleDelete` | 27 (0x1b) | Exported Function | 0x000000018003cc80 | 0x0003cc80
-`AzRoleEnum` | 28 (0x1c) | Exported Function | 0x000000018003cbe0 | 0x0003cbe0
-`AzRoleOpen` | 29 (0x1d) | Exported Function | 0x000000018003cb40 | 0x0003cb40
-`AzScopeCreate` | 30 (0x1e) | Exported Function | 0x0000000180049120 | 0x00049120
-`AzScopeDelete` | 31 (0x1f) | Exported Function | 0x0000000180049230 | 0x00049230
-`AzScopeEnum` | 32 (0x20) | Exported Function | 0x0000000180049200 | 0x00049200
-`AzOperationOpen` | 24 (0x18) | Exported Function | 0x000000018004a930 | 0x0004a930
-`AzScopeOpen` | 33 (0x21) | Exported Function | 0x0000000180049160 | 0x00049160
-`AzSubmit` | 35 (0x23) | Exported Function | 0x000000018004c780 | 0x0004c780
-`AzTaskCreate` | 36 (0x24) | Exported Function | 0x000000018004a140 | 0x0004a140
-`AzTaskDelete` | 37 (0x25) | Exported Function | 0x000000018004a320 | 0x0004a320
-`AzTaskEnum` | 38 (0x26) | Exported Function | 0x000000018004a280 | 0x0004a280
-`AzTaskOpen` | 39 (0x27) | Exported Function | 0x000000018004a1e0 | 0x0004a1e0
-`AzUpdateCache` | 40 (0x28) | Exported Function | 0x0000000180025ab0 | 0x00025ab0
-`DllCanUnloadNow` | 41 (0x29) | Exported Function | 0x0000000180003b00 | 0x00003b00
-`DllGetClassObject` | 42 (0x2a) | Exported Function | 0x0000000180003b20 | 0x00003b20
-`AzSetProperty` | 34 (0x22) | Exported Function | 0x0000000180025b50 | 0x00025b50
-`AzOperationEnum` | 23 (0x17) | Exported Function | 0x000000018004a970 | 0x0004a970
-`AzOperationDelete` | 22 (0x16) | Exported Function | 0x000000018004a9a0 | 0x0004a9a0
-`AzOperationCreate` | 21 (0x15) | Exported Function | 0x000000018004a8f0 | 0x0004a8f0
-`AzApplicationClose` | 2 (0x2) | Exported Function | 0x0000000180027e30 | 0x00027e30
-`AzApplicationCreate` | 3 (0x3) | Exported Function | 0x0000000180027d20 | 0x00027d20
-`AzApplicationDelete` | 4 (0x4) | Exported Function | 0x0000000180028000 | 0x00028000
-`AzApplicationEnum` | 5 (0x5) | Exported Function | 0x0000000180027fd0 | 0x00027fd0
-`AzApplicationOpen` | 6 (0x6) | Exported Function | 0x0000000180027d60 | 0x00027d60
-`AzAuthorizationStoreDelete` | 7 (0x7) | Exported Function | 0x0000000180025b60 | 0x00025b60
-`AzCloseHandle` | 8 (0x8) | Exported Function | 0x0000000180025c10 | 0x00025c10
-`AzContextAccessCheck` | 9 (0x9) | Exported Function | 0x0000000180031e70 | 0x00031e70
-`AzContextGetAssignedScopesPage` | 10 (0xa) | Exported Function | 0x0000000180032f60 | 0x00032f60
-`AzContextGetRoles` | 11 (0xb) | Exported Function | 0x00000001800342d0 | 0x000342d0
-`AzFreeMemory` | 12 (0xc) | Exported Function | 0x0000000180025d90 | 0x00025d90
-`AzGetProperty` | 13 (0xd) | Exported Function | 0x0000000180025b30 | 0x00025b30
-`AzGroupCreate` | 14 (0xe) | Exported Function | 0x000000018003c3e0 | 0x0003c3e0
-`AzGroupDelete` | 15 (0xf) | Exported Function | 0x000000018003c600 | 0x0003c600
-`AzGroupEnum` | 16 (0x10) | Exported Function | 0x000000018003c540 | 0x0003c540
-`AzGroupOpen` | 17 (0x11) | Exported Function | 0x000000018003c490 | 0x0003c490
-`AzInitialize` | 18 (0x12) | Exported Function | 0x00000001800254d0 | 0x000254d0
-`AzInitializeContextFromName` | 19 (0x13) | Exported Function | 0x0000000180031200 | 0x00031200
-`AzInitializeContextFromToken` | 20 (0x14) | Exported Function | 0x0000000180030c30 | 0x00030c30
-`DllRegisterServer` | 43 (0x2b) | Exported Function | 0x0000000180003c50 | 0x00003c50
-`DllUnregisterServer` | 44 (0x2c) | Exported Function | 0x0000000180003d50 | 0x00003d50
+Function Name | Ordinal | Type
+-- | -- | --
+`AzScopeCreate` | 30 | Exported Function
+`AzRoleOpen` | 29 | Exported Function
+`AzScopeDelete` | 31 | Exported Function
+`AzScopeOpen` | 33 | Exported Function
+`AzScopeEnum` | 32 | Exported Function
+`AzRoleEnum` | 28 | Exported Function
+`AzOperationOpen` | 24 | Exported Function
+`AzOperationEnum` | 23 | Exported Function
+`AzRemovePropertyItem` | 25 | Exported Function
+`AzRoleDelete` | 27 | Exported Function
+`AzRoleCreate` | 26 | Exported Function
+`DllCanUnloadNow` | 41 | Exported Function
+`AzUpdateCache` | 40 | Exported Function
+`DllGetClassObject` | 42 | Exported Function
+`DllUnregisterServer` | 44 | Exported Function
+`DllRegisterServer` | 43 | Exported Function
+`AzTaskOpen` | 39 | Exported Function
+`AzSubmit` | 35 | Exported Function
+`AzSetProperty` | 34 | Exported Function
+`AzTaskCreate` | 36 | Exported Function
+`AzTaskEnum` | 38 | Exported Function
+`AzTaskDelete` | 37 | Exported Function
+`AzCloseHandle` | 8 | Exported Function
+`AzAuthorizationStoreDelete` | 7 | Exported Function
+`AzContextAccessCheck` | 9 | Exported Function
+`AzContextGetRoles` | 11 | Exported Function
+`AzContextGetAssignedScopesPage` | 10 | Exported Function
+`AzApplicationOpen` | 6 | Exported Function
+`AzApplicationClose` | 2 | Exported Function
+`AzAddPropertyItem` | 1 | Exported Function
+`AzApplicationCreate` | 3 | Exported Function
+`AzApplicationEnum` | 5 | Exported Function
+`AzApplicationDelete` | 4 | Exported Function
+`AzInitializeContextFromName` | 19 | Exported Function
+`AzInitialize` | 18 | Exported Function
+`AzInitializeContextFromToken` | 20 | Exported Function
+`AzOperationDelete` | 22 | Exported Function
+`AzOperationCreate` | 21 | Exported Function
+`AzGroupOpen` | 17 | Exported Function
+`AzGetProperty` | 13 | Exported Function
+`AzFreeMemory` | 12 | Exported Function
+`AzGroupCreate` | 14 | Exported Function
+`AzGroupEnum` | 16 | Exported Function
+`AzGroupDelete` | 15 | Exported Function
 
 
 ## Signature

@@ -24,43 +24,43 @@ PE256 | `3308FB5C6E3F92045B305D8CA45592A38013E01A515EFF04BE42DAC28BB0718B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AssignMemoryToSocDomain` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
-`GetTaggedDataSize` | 20 (0x14) | Exported Function | 0x0000000180001910 | 0x00001910
-`GetTpmBindingInfo` | 21 (0x15) | Exported Function | 0x0000000180001930 | 0x00001930
-`IsSecureProcess` | 22 (0x16) | Exported Function | 0x0000000180001240 | 0x00001240
-`MapSecureIo` | 23 (0x17) | Exported Function | 0x0000000180001c40 | 0x00001c40
-`OpenCurrentExtension` | 24 (0x18) | Exported Function | 0x0000000180001360 | 0x00001360
-`OpenSecureSection` | 25 (0x19) | Exported Function | 0x00000001800013a0 | 0x000013a0
-`GetTaggedData` | 19 (0x13) | Exported Function | 0x0000000180001920 | 0x00001920
-`PostMailbox` | 26 (0x1a) | Exported Function | 0x00000001800013e0 | 0x000013e0
-`QuerySecureDeviceInformation` | 28 (0x1c) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`SecureStorageGet` | 29 (0x1d) | Exported Function | 0x00000001800014d0 | 0x000014d0
-`SecureStoragePut` | 30 (0x1e) | Exported Function | 0x0000000180001480 | 0x00001480
-`SetDmaTargetProperties` | 31 (0x1f) | Exported Function | 0x0000000180001dc0 | 0x00001dc0
-`SetPolicyExtension` | 32 (0x20) | Exported Function | 0x0000000180001e20 | 0x00001e20
-`UnmapSecureIo` | 33 (0x21) | Exported Function | 0x0000000180001ca0 | 0x00001ca0
-`ProtectSecureIo` | 27 (0x1b) | Exported Function | 0x0000000180001430 | 0x00001430
-`UpdateSecureDeviceState` | 34 (0x22) | Exported Function | 0x0000000180001d20 | 0x00001d20
-`GetSignedReport` | 18 (0x12) | Exported Function | 0x0000000180001670 | 0x00001670
-`GetSecureIdentitySigningKey` | 16 (0x10) | Exported Function | 0x00000001800012e0 | 0x000012e0
-`AwaitSmc` | 2 (0x2) | Exported Function | 0x0000000180001080 | 0x00001080
-`CreateSecureDevice` | 3 (0x3) | Exported Function | 0x0000000180001ce0 | 0x00001ce0
-`CreateSecureSection` | 4 (0x4) | Exported Function | 0x00000001800010c0 | 0x000010c0
-`CreateSecureSectionSpecifyPages` | 5 (0x5) | Exported Function | 0x0000000180001120 | 0x00001120
-`DecryptData` | 6 (0x6) | Exported Function | 0x0000000180001840 | 0x00001840
-`DecryptISKBoundData` | 7 (0x7) | Exported Function | 0x00000001800015c0 | 0x000015c0
-`GetSeedFromIumKernelState` | 17 (0x11) | Exported Function | 0x00000001800019d0 | 0x000019d0
-`DmaMapMemory` | 8 (0x8) | Exported Function | 0x0000000180001ba0 | 0x00001ba0
-`EncryptData` | 10 (0xa) | Exported Function | 0x0000000180001770 | 0x00001770
-`FlushSecureSectionBuffers` | 11 (0xb) | Exported Function | 0x00000001800011c0 | 0x000011c0
-`GetDmaEnabler` | 12 (0xc) | Exported Function | 0x0000000180001b30 | 0x00001b30
-`GetExposedSecureSection` | 13 (0xd) | Exported Function | 0x0000000180001200 | 0x00001200
-`GetFipsModeFromIumKernelState` | 14 (0xe) | Exported Function | 0x0000000180001a90 | 0x00001a90
-`GetSecureIdentityKey` | 15 (0xf) | Exported Function | 0x0000000180001260 | 0x00001260
-`EmitSmc` | 9 (0x9) | Exported Function | 0x0000000180001180 | 0x00001180
-`VbsVmSysCall` | 35 (0x23) | Exported Function | 0x0000000180001520 | 0x00001520
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenCurrentExtension` | 24 | Exported Function
+`MapSecureIo` | 23 | Exported Function
+`PostMailbox` | 26 | Exported Function
+`OpenSecureSection` | 25 | Exported Function
+`GetTaggedDataSize` | 20 | Exported Function
+`GetTaggedData` | 19 | Exported Function
+`IsSecureProcess` | 22 | Exported Function
+`GetTpmBindingInfo` | 21 | Exported Function
+`ProtectSecureIo` | 27 | Exported Function
+`UnmapSecureIo` | 33 | Exported Function
+`SetPolicyExtension` | 32 | Exported Function
+`VbsVmSysCall` | 35 | Exported Function
+`UpdateSecureDeviceState` | 34 | Exported Function
+`SecureStorageGet` | 29 | Exported Function
+`QuerySecureDeviceInformation` | 28 | Exported Function
+`SetDmaTargetProperties` | 31 | Exported Function
+`SecureStoragePut` | 30 | Exported Function
+`GetSignedReport` | 18 | Exported Function
+`DecryptData` | 6 | Exported Function
+`CreateSecureSectionSpecifyPages` | 5 | Exported Function
+`DmaMapMemory` | 8 | Exported Function
+`DecryptISKBoundData` | 7 | Exported Function
+`AwaitSmc` | 2 | Exported Function
+`AssignMemoryToSocDomain` | 1 | Exported Function
+`CreateSecureSection` | 4 | Exported Function
+`CreateSecureDevice` | 3 | Exported Function
+`EmitSmc` | 9 | Exported Function
+`GetSecureIdentityKey` | 15 | Exported Function
+`GetFipsModeFromIumKernelState` | 14 | Exported Function
+`GetSeedFromIumKernelState` | 17 | Exported Function
+`GetSecureIdentitySigningKey` | 16 | Exported Function
+`FlushSecureSectionBuffers` | 11 | Exported Function
+`EncryptData` | 10 | Exported Function
+`GetExposedSecureSection` | 13 | Exported Function
+`GetDmaEnabler` | 12 | Exported Function
 
 
 ## Signature

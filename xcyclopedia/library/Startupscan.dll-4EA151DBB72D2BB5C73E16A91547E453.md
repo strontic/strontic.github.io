@@ -24,13 +24,13 @@ PE256 | `7815B8AC85AD4008F9DFDB480012D91B69D192380F46F2B4D58856E1E7F408DF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 5 (0x5) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`SusResetNotification` | 1 (0x1) | Exported Function | 0x0000000180001240 | 0x00001240
-`SusRunOEMTaskOffline` | 2 (0x2) | Exported Function | 0x0000000180001180 | 0x00001180
-`SusRunOEMTaskOnline` | 3 (0x3) | Exported Function | 0x00000001800011e0 | 0x000011e0
-`SusRunTask` | 4 (0x4) | Exported Function | 0x0000000180001130 | 0x00001130
+Function Name | Ordinal | Type
+-- | -- | --
+`SusRunOEMTaskOnline` | 3 | Exported Function
+`SusRunTask` | 4 | Exported Function
+`SusRunOEMTaskOffline` | 2 | Exported Function
+`DllMain` | 5 | Exported Function
+`SusResetNotification` | 1 | Exported Function
 
 
 ## Signature

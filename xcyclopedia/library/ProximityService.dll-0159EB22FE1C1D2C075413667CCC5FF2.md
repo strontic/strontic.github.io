@@ -24,16 +24,15 @@ PE256 | `CD20484F9FE273D713DCCC2C527BA9327C47FE8A7303AE6B435FF486354A8DC8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CleanupProximityService` | 13 (0xd) | Exported Function | 0x0000000180006580 | 0x00006580
-`GetProximityClientCount` | 12 (0xc) | Exported Function | 0x0000000180001140 | 0x00001140
-`InitProximityService` | 10 (0xa) | Exported Function | 0x0000000180002470 | 0x00002470
-`InitProximityServiceEx` | 15 (0xf) | Exported Function | 0x0000000180006610 | 0x00006610
-`Ordinal14` | 14 (0xe) | Exported Function | 0x0000000180002500 | 0x00002500
-`ServiceMain` | 16 (0x10) | Exported Function | 0x0000000180006ab0 | 0x00006ab0
-`SessionChangedEvent` | 11 (0xb) | Exported Function | 0x0000000180001980 | 0x00001980
-`SvchostPushServiceGlobals` | 17 (0x11) | Exported Function | 0x0000000180007570 | 0x00007570
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 16 | Exported Function
+`SessionChangedEvent` | 11 | Exported Function
+`SvchostPushServiceGlobals` | 17 | Exported Function
+`InitProximityServiceEx` | 15 | Exported Function
+`CleanupProximityService` | 13 | Exported Function
+`GetProximityClientCount` | 12 | Exported Function
+`InitProximityService` | 10 | Exported Function
 
 
 ## Signature

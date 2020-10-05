@@ -24,14 +24,14 @@ PE256 | `8C044E57DCB0306BA2E9E6DE4A3DBE36A66F1A1AB9F0BE48AA202C73AE5080C9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x100053c0 | 0x000053c0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x100053e0 | 0x000053e0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x10005420 | 0x00005420
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x10005480 | 0x00005480
-`Dot3ACCanShowBalloon` | 6 (0x6) | Exported Function | 0x10005530 | 0x00005530
-`Dot3ACOnBalloonClick` | 1 (0x1) | Exported Function | 0x10005490 | 0x00005490
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 5 | Exported Function
+`Dot3ACCanShowBalloon` | 6 | Exported Function
+`Dot3ACOnBalloonClick` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

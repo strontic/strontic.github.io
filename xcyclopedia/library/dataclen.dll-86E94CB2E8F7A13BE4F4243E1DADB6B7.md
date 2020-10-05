@@ -24,31 +24,31 @@ PE256 | `DE6351E6292329ED182699A8C97B45ABCA955D15EB177DADFD6E0BA20156FAC5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`const CDataDrivenCleaner::``vftable'` | 5 (0x5) | Exported Function | 0x1000107c | 0x0000107c
-`public: virtual long __stdcall CDataDrivenCleaner::ShowProperties(struct HWND__ *)` | 20 (0x14) | Exported Function | 0x10004930 | 0x00004930
-`public: virtual long __stdcall CDataDrivenCleaner::QueryInterface(struct _GUID const &,void * *)` | 18 (0x12) | Exported Function | 0x10004110 | 0x00004110
-`public: virtual long __stdcall CDataDrivenCleaner::Purge(unsigned __int64,struct IEmptyVolumeCacheCallBack *)` | 16 (0x10) | Exported Function | 0x10004750 | 0x00004750
-`public: virtual long __stdcall CDataDrivenCleaner::Initialize(struct HKEY__ *,unsigned short const *,unsigned short * *,unsigned short * *,unsigned long *)` | 13 (0xd) | Exported Function | 0x10004180 | 0x00004180
-`public: virtual long __stdcall CDataDrivenCleaner::GetSpaceUsed(unsigned __int64 *,struct IEmptyVolumeCacheCallBack *)` | 12 (0xc) | Exported Function | 0x10004660 | 0x00004660
-`public: virtual long __stdcall CDataDrivenCleaner::Deactivate(unsigned long *)` | 9 (0x9) | Exported Function | 0x10004940 | 0x00004940
-`public: int __thiscall CDataDrivenCleaner::AddFolders(unsigned short const *)` | 7 (0x7) | Exported Function | 0x100053f0 | 0x000053f0
-`public: class CDataDrivenCleaner & __thiscall CDataDrivenCleaner::operator=(class CDataDrivenCleaner const &)` | 4 (0x4) | Exported Function | 0x10003ba0 | 0x00003ba0
-`public: __thiscall CDataDrivenCleaner::~CDataDrivenCleaner(void)` | 3 (0x3) | Exported Function | 0x100040c0 | 0x000040c0
-`public: virtual unsigned long __stdcall CDataDrivenCleaner::AddRef(void)` | 8 (0x8) | Exported Function | 0x10003e50 | 0x00003e50
-`public: __thiscall CDataDrivenCleaner::CDataDrivenCleaner(void)` | 2 (0x2) | Exported Function | 0x10004070 | 0x00004070
-`protected: void __thiscall CDataDrivenCleaner::PurgeFiles(struct IEmptyVolumeCacheCallBack *,unsigned __int64)` | 17 (0x11) | Exported Function | 0x10005180 | 0x00005180
-`protected: void __thiscall CDataDrivenCleaner::FreeList(struct tag_CleanFileStruct *)` | 11 (0xb) | Exported Function | 0x100053b0 | 0x000053b0
-`protected: void __thiscall CDataDrivenCleaner::ExecuteCmd(unsigned short *,int)` | 10 (0xa) | Exported Function | 0x100048b0 | 0x000048b0
-`protected: struct tag_CleanFileStruct * __thiscall CDataDrivenCleaner::MergeSortList(struct tag_CleanFileStruct *)` | 15 (0xf) | Exported Function | 0x100052f0 | 0x000052f0
-`protected: int __thiscall CDataDrivenCleaner::WalkForUsedSpace(unsigned short const *,struct IEmptyVolumeCacheCallBack *,int)` | 21 (0x15) | Exported Function | 0x100049c0 | 0x000049c0
-`protected: int __thiscall CDataDrivenCleaner::LastAccessisOK(struct _FILETIME)` | 14 (0xe) | Exported Function | 0x10004980 | 0x00004980
-`protected: int __thiscall CDataDrivenCleaner::AddFileToList(unsigned short const *,union _ULARGE_INTEGER,struct _FILETIME,int,int)` | 6 (0x6) | Exported Function | 0x10005040 | 0x00005040
-`DllGetClassObject` | 23 (0x17) | Exported Function | 0x10003cb0 | 0x00003cb0
-`DllCanUnloadNow` | 22 (0x16) | Exported Function | 0x10003e20 | 0x00003e20
-`public: __thiscall CDataDrivenCleaner::CDataDrivenCleaner(class CDataDrivenCleaner const &)` | 1 (0x1) | Exported Function | 0x10003ad0 | 0x00003ad0
-`public: virtual unsigned long __stdcall CDataDrivenCleaner::Release(void)` | 19 (0x13) | Exported Function | 0x10004140 | 0x00004140
+Function Name | Ordinal | Type
+-- | -- | --
+`public: virtual long __stdcall CDataDrivenCleaner::Deactivate(unsigned long *)` | 9 | Exported Function
+`public: virtual long __stdcall CDataDrivenCleaner::GetSpaceUsed(unsigned __int64 *,struct IEmptyVolumeCacheCallBack *)` | 12 | Exported Function
+`public: int __thiscall CDataDrivenCleaner::AddFolders(unsigned short const *)` | 7 | Exported Function
+`public: __thiscall CDataDrivenCleaner::~CDataDrivenCleaner(void)` | 3 | Exported Function
+`public: class CDataDrivenCleaner & __thiscall CDataDrivenCleaner::operator=(class CDataDrivenCleaner const &)` | 4 | Exported Function
+`public: virtual long __stdcall CDataDrivenCleaner::Initialize(struct HKEY__ *,unsigned short const *,unsigned short * *,unsigned short * *,unsigned long *)` | 13 | Exported Function
+`public: virtual unsigned long __stdcall CDataDrivenCleaner::AddRef(void)` | 8 | Exported Function
+`public: virtual unsigned long __stdcall CDataDrivenCleaner::Release(void)` | 19 | Exported Function
+`public: virtual long __stdcall CDataDrivenCleaner::ShowProperties(struct HWND__ *)` | 20 | Exported Function
+`public: virtual long __stdcall CDataDrivenCleaner::Purge(unsigned __int64,struct IEmptyVolumeCacheCallBack *)` | 16 | Exported Function
+`public: virtual long __stdcall CDataDrivenCleaner::QueryInterface(struct _GUID const &,void * *)` | 18 | Exported Function
+`public: __thiscall CDataDrivenCleaner::CDataDrivenCleaner(void)` | 2 | Exported Function
+`protected: int __thiscall CDataDrivenCleaner::AddFileToList(unsigned short const *,union _ULARGE_INTEGER,struct _FILETIME,int,int)` | 6 | Exported Function
+`protected: int __thiscall CDataDrivenCleaner::LastAccessisOK(struct _FILETIME)` | 14 | Exported Function
+`DllGetClassObject` | 23 | Exported Function
+`const CDataDrivenCleaner::``vftable'` | 5 | Exported Function
+`DllCanUnloadNow` | 22 | Exported Function
+`protected: int __thiscall CDataDrivenCleaner::WalkForUsedSpace(unsigned short const *,struct IEmptyVolumeCacheCallBack *,int)` | 21 | Exported Function
+`protected: void __thiscall CDataDrivenCleaner::PurgeFiles(struct IEmptyVolumeCacheCallBack *,unsigned __int64)` | 17 | Exported Function
+`public: __thiscall CDataDrivenCleaner::CDataDrivenCleaner(class CDataDrivenCleaner const &)` | 1 | Exported Function
+`protected: void __thiscall CDataDrivenCleaner::FreeList(struct tag_CleanFileStruct *)` | 11 | Exported Function
+`protected: struct tag_CleanFileStruct * __thiscall CDataDrivenCleaner::MergeSortList(struct tag_CleanFileStruct *)` | 15 | Exported Function
+`protected: void __thiscall CDataDrivenCleaner::ExecuteCmd(unsigned short *,int)` | 10 | Exported Function
 
 
 ## Signature

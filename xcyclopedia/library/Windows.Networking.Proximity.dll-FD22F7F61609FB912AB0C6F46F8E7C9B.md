@@ -24,12 +24,12 @@ PE256 | `D107F1C25653FC8717217E1B57AA8F0D45B9B0671C715C14B96B11EAF32E93C1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x10008190 | 0x00008190
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x10008150 | 0x00008150
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x10008170 | 0x00008170
-`ProximityConnect` | 1 (0x1) | Exported Function | 0x100082c0 | 0x000082c0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 4 | Exported Function
+`ProximityConnect` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
 
 
 ## Signature

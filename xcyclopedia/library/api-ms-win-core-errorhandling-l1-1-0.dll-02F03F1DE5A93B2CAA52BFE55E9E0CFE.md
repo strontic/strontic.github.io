@@ -24,15 +24,15 @@ PE256 | `B19C19B127406FEC2B5636C570157474E767F8A4BD09CAD123CAAF299EE19C5E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetErrorMode` | 1 (0x1) | Exported Function | kernel32.GetErrorMode | 0x000011c4
-`GetLastError` | 2 (0x2) | Exported Function | kernel32.GetLastError | 0x000011e7
-`RaiseException` | 3 (0x3) | Exported Function | kernel32.RaiseException | 0x0000120c
-`SetErrorMode` | 4 (0x4) | Exported Function | kernel32.SetErrorMode | 0x00001231
-`SetLastError` | 5 (0x5) | Exported Function | kernel32.SetLastError | 0x00001254
-`SetUnhandledExceptionFilter` | 6 (0x6) | Exported Function | kernel32.SetUnhandledExceptionFilter | 0x00001286
-`UnhandledExceptionFilter` | 7 (0x7) | Exported Function | kernel32.UnhandledExceptionFilter | 0x000012c4
+Function Name | Ordinal | Type
+-- | -- | --
+`SetLastError` | 5 | Exported Function
+`SetUnhandledExceptionFilter` | 6 | Exported Function
+`UnhandledExceptionFilter` | 7 | Exported Function
+`SetErrorMode` | 4 | Exported Function
+`GetErrorMode` | 1 | Exported Function
+`GetLastError` | 2 | Exported Function
+`RaiseException` | 3 | Exported Function
 
 
 ## Signature

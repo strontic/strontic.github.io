@@ -24,14 +24,14 @@ PE256 | `7E7A0CFA102A6EC36E15636D3109940CE0A558332068050EA173A5B96A0C4153`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x100030e0 | 0x000030e0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x10003c70 | 0x00003c70
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x10005ba0 | 0x00005ba0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x10005bc0 | 0x00005bc0
-`MsimtfIsGuidMapEnable` | 5 (0x5) | Exported Function | 0x100028e0 | 0x000028e0
-`MsimtfIsWindowFiltered` | 6 (0x6) | Exported Function | 0x10003b60 | 0x00003b60
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 4 | Exported Function
+`MsimtfIsGuidMapEnable` | 5 | Exported Function
+`MsimtfIsWindowFiltered` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

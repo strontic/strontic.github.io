@@ -24,38 +24,38 @@ PE256 | `C3C826CE5A33221B393B114D961565861A4B9AE6A5A921FE72F7A28DD8B1C93C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LANIdFreeCollection` | 1 (0x1) | Exported Function | 0x1000ec50 | 0x0000ec50
-`NlaRefreshQuery` | 29 (0x1d) | Exported Function | 0x1000a0b0 | 0x0000a0b0
-`NlaQueryNetSignatures` | 28 (0x1c) | Exported Function | 0x10003f60 | 0x00003f60
-`NlaQueryNetDataEx` | 27 (0x1b) | Exported Function | 0x10002f80 | 0x00002f80
-`NlaQueryNetData` | 26 (0x1a) | Exported Function | 0x10002a30 | 0x00002a30
-`NlaOr` | 25 (0x19) | Exported Function | 0x1000a010 | 0x0000a010
-`NlaOpenQuery` | 24 (0x18) | Exported Function | 0x10009f90 | 0x00009f90
-`NlaNotEqual` | 23 (0x17) | Exported Function | 0x10009f00 | 0x00009f00
-`NlaIndicateReprobe` | 22 (0x16) | Exported Function | 0x10009ea0 | 0x00009ea0
-`NlaGetIntranetCapability` | 21 (0x15) | Exported Function | 0x10009e00 | 0x00009e00
-`NlaGetInternetCapability` | 20 (0x14) | Exported Function | 0x10009d70 | 0x00009d70
-`NlaGetCaptivePortalHosts` | 19 (0x13) | Exported Function | 0x10009d10 | 0x00009d10
-`NlaEqualNetSignatures` | 18 (0x12) | Exported Function | 0x10009bd0 | 0x00009bd0
-`NlaEqual` | 17 (0x11) | Exported Function | 0x10009b40 | 0x00009b40
-`NlaDeleteTypeSet` | 16 (0x10) | Exported Function | 0x10006de0 | 0x00006de0
-`NlaDeletePluginRequests` | 15 (0xf) | Exported Function | 0x10009ae0 | 0x00009ae0
-`NlaDeleteFilter` | 14 (0xe) | Exported Function | 0x10009a30 | 0x00009a30
-`NlaDeleteDataSet` | 13 (0xd) | Exported Function | 0x100021c0 | 0x000021c0
-`NlaDecomposeNetSignature` | 12 (0xc) | Exported Function | 0x100098b0 | 0x000098b0
-`NlaCreateTypeSet` | 11 (0xb) | Exported Function | 0x10006c40 | 0x00006c40
-`NlaCreatePluginRequests` | 10 (0xa) | Exported Function | 0x10009840 | 0x00009840
-`NlaCreateFilter` | 9 (0x9) | Exported Function | 0x100097e0 | 0x000097e0
-`NlaComposeNetSignature` | 8 (0x8) | Exported Function | 0x100096d0 | 0x000096d0
-`NlaCloseQuery` | 7 (0x7) | Exported Function | 0x10006950 | 0x00006950
-`NlaAnd` | 6 (0x6) | Exported Function | 0x10009630 | 0x00009630
-`NlaAddToTypeSet` | 5 (0x5) | Exported Function | 0x10006ba0 | 0x00006ba0
-`NlaAddToPluginRequests` | 4 (0x4) | Exported Function | 0x10009500 | 0x00009500
-`LANIdRetrieveCollection` | 2 (0x2) | Exported Function | 0x10005500 | 0x00005500
-`NlaRegisterQuery` | 30 (0x1e) | Exported Function | 0x10006130 | 0x00006130
-`NSPStartup` | 3 (0x3) | Exported Function | 0x10006c90 | 0x00006c90
+Function Name | Ordinal | Type
+-- | -- | --
+`NlaGetIntranetCapability` | 21 | Exported Function
+`NlaIndicateReprobe` | 22 | Exported Function
+`NlaNotEqual` | 23 | Exported Function
+`NlaGetInternetCapability` | 20 | Exported Function
+`NlaEqual` | 17 | Exported Function
+`NlaEqualNetSignatures` | 18 | Exported Function
+`NlaGetCaptivePortalHosts` | 19 | Exported Function
+`NlaOpenQuery` | 24 | Exported Function
+`NlaRefreshQuery` | 29 | Exported Function
+`NlaRegisterQuery` | 30 | Exported Function
+`NSPStartup` | 3 | Exported Function
+`NlaQueryNetSignatures` | 28 | Exported Function
+`NlaOr` | 25 | Exported Function
+`NlaQueryNetData` | 26 | Exported Function
+`NlaQueryNetDataEx` | 27 | Exported Function
+`NlaAnd` | 6 | Exported Function
+`NlaCloseQuery` | 7 | Exported Function
+`NlaComposeNetSignature` | 8 | Exported Function
+`NlaAddToTypeSet` | 5 | Exported Function
+`LANIdFreeCollection` | 1 | Exported Function
+`LANIdRetrieveCollection` | 2 | Exported Function
+`NlaAddToPluginRequests` | 4 | Exported Function
+`NlaCreateFilter` | 9 | Exported Function
+`NlaDeleteFilter` | 14 | Exported Function
+`NlaDeletePluginRequests` | 15 | Exported Function
+`NlaDeleteTypeSet` | 16 | Exported Function
+`NlaDeleteDataSet` | 13 | Exported Function
+`NlaCreatePluginRequests` | 10 | Exported Function
+`NlaCreateTypeSet` | 11 | Exported Function
+`NlaDecomposeNetSignature` | 12 | Exported Function
 
 
 ## Signature

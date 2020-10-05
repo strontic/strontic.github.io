@@ -24,13 +24,13 @@ PE256 | `6D104258FEEDA7D318B3B4871465466FC2A6861ECA445713629CCD9003F1A1BC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10005dc0 | 0x00005dc0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x10005e00 | 0x00005e00
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x10005e30 | 0x00005e30
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x10005e30 | 0x00005e30
-`InitTimelineInfoSources` | 5 (0x5) | Exported Function | 0x10005e40 | 0x00005e40
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 4 | Exported Function
+`InitTimelineInfoSources` | 5 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

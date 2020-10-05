@@ -24,23 +24,23 @@ PE256 | `78AE5D8A09E1AE32EF41258EF35AA25714BEDE24656E5DC31F63D842F531D0A0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AssertFail` | 13 (0xd) | Exported Function | 0x100060b0 | 0x000060b0
-`VssGetTracingContextPerThread` | 10 (0xa) | Exported Function | 0x10003d50 | 0x00003d50
-`VssGetTracingModuleInfo` | 12 (0xc) | Exported Function | 0x10007a10 | 0x00007a10
-`VssGetTracingSequenceNumber` | 11 (0xb) | Exported Function | 0x10007a60 | 0x00007a60
-`VssIsKernelDebuggerAttached` | 15 (0xf) | Exported Function | 0x10007a80 | 0x00007a80
-`VssIsTracingEnabled` | 5 (0x5) | Exported Function | 0x10003d30 | 0x00003d30
-`VssIsTracingEnabledOnFunction` | 8 (0x8) | Exported Function | 0x10007ac0 | 0x00007ac0
-`VssIsTracingEnabledOnModule` | 7 (0x7) | Exported Function | 0x10007b10 | 0x00007b10
-`VssIsTracingEnabledPerThread` | 6 (0x6) | Exported Function | 0x10007b60 | 0x00007b60
-`VssSetDebugReport` | 14 (0xe) | Exported Function | 0x10007ba0 | 0x00007ba0
-`VssSetTracingContextPerThread` | 9 (0x9) | Exported Function | 0x10003d00 | 0x00003d00
-`VssTraceBinary` | 4 (0x4) | Exported Function | 0x10007bc0 | 0x00007bc0
-`VssTraceInitialize` | 1 (0x1) | Exported Function | 0x10003e60 | 0x00003e60
-`VssTraceMessage` | 3 (0x3) | Exported Function | 0x10007c10 | 0x00007c10
-`VssTraceUninitialize` | 2 (0x2) | Exported Function | 0x10003da0 | 0x00003da0
+Function Name | Ordinal | Type
+-- | -- | --
+`VssSetTracingContextPerThread` | 9 | Exported Function
+`VssSetDebugReport` | 14 | Exported Function
+`VssIsTracingEnabledPerThread` | 6 | Exported Function
+`VssTraceBinary` | 4 | Exported Function
+`VssTraceUninitialize` | 2 | Exported Function
+`VssTraceMessage` | 3 | Exported Function
+`VssTraceInitialize` | 1 | Exported Function
+`VssIsTracingEnabledOnModule` | 7 | Exported Function
+`VssGetTracingModuleInfo` | 12 | Exported Function
+`VssGetTracingContextPerThread` | 10 | Exported Function
+`AssertFail` | 13 | Exported Function
+`VssGetTracingSequenceNumber` | 11 | Exported Function
+`VssIsTracingEnabledOnFunction` | 8 | Exported Function
+`VssIsTracingEnabled` | 5 | Exported Function
+`VssIsKernelDebuggerAttached` | 15 | Exported Function
 
 
 ## Signature

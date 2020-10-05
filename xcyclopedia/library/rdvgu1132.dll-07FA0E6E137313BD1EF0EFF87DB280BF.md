@@ -24,10 +24,10 @@ PE256 | `D9E40A1436C29941CDAC1CF275327C59B548487AFC9624AFC0F76CDB67271314`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OpenAdapter10` | 1 (0x1) | Exported Function | 0x100042c0 | 0x000042c0
-`OpenAdapter10_2` | 2 (0x2) | Exported Function | 0x100043d0 | 0x000043d0
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenAdapter10_2` | 2 | Exported Function
+`OpenAdapter10` | 1 | Exported Function
 
 
 ## Signature

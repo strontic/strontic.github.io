@@ -24,38 +24,38 @@ PE256 | `A425409A4886699584E82933E5C89E1F3DC48163493EFA10786266D3A0DDD09A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PshedAllocateMemory` | 1 (0x1) | Exported Function | 0x00000001c000ca90 | 0x0000ca90
-`PshedSynchronizeExecution` | 28 (0x1c) | Exported Function | 0x00000001c00027e0 | 0x000027e0
-`PshedSetHalEnlightenments` | 27 (0x1b) | Exported Function | 0x00000001c00027a0 | 0x000027a0
-`PshedSetErrorSourceInfo` | 26 (0x1a) | Exported Function | 0x00000001c0001680 | 0x00001680
-`PshedRetrieveErrorInfo` | 25 (0x19) | Exported Function | 0x00000001c0001010 | 0x00001010
-`PshedRegisterPlugin` | 24 (0x18) | Exported Function | 0x00000001c000c4b0 | 0x0000c4b0
-`PshedReadErrorRecord` | 23 (0x17) | Exported Function | 0x00000001c0001320 | 0x00001320
-`PshedMarkHiberPhase` | 22 (0x16) | Exported Function | 0x00000001c0001b70 | 0x00001b70
-`PshedIsSystemWheaEnabled` | 21 (0x15) | Exported Function | 0x00000001c0002300 | 0x00002300
-`PshedInjectError` | 20 (0x14) | Exported Function | 0x00000001c0001a00 | 0x00001a00
-`PshedInitProc` | 18 (0x12) | Exported Function | 0x00000001c0002710 | 0x00002710
-`PshedInitialize` | 19 (0x13) | Exported Function | 0x00000001c000f4b0 | 0x0000f4b0
-`PshedInitGlobal` | 17 (0x11) | Exported Function | 0x00000001c00026d0 | 0x000026d0
-`PshedInitAvailable` | 16 (0x10) | Exported Function | 0x00000001c00026b0 | 0x000026b0
-`PshedGetInjectionCapabilities` | 15 (0xf) | Exported Function | 0x00000001c00018e0 | 0x000018e0
-`PshedGetHalEnlightenments` | 14 (0xe) | Exported Function | 0x00000001c00027c0 | 0x000027c0
-`PshedGetErrorSourceInfo` | 13 (0xd) | Exported Function | 0x00000001c00015c0 | 0x000015c0
-`PshedGetBootErrorPacket` | 12 (0xc) | Exported Function | 0x00000001c0002000 | 0x00002000
-`PshedGetAllErrorSources` | 11 (0xb) | Exported Function | 0x00000001c000c2f0 | 0x0000c2f0
-`PshedFreeMemory` | 10 (0xa) | Exported Function | 0x00000001c000cac0 | 0x0000cac0
-`PshedFinalizeErrorRecord` | 9 (0x9) | Exported Function | 0x00000001c0001420 | 0x00001420
-`PshedEnableErrorSource` | 8 (0x8) | Exported Function | 0x00000001c0001750 | 0x00001750
-`PshedDoPfa` | 7 (0x7) | Exported Function | 0x00000001c0002750 | 0x00002750
-`PshedDisableErrorSource` | 6 (0x6) | Exported Function | 0x00000001c0001810 | 0x00001810
-`PshedClearErrorRecord` | 5 (0x5) | Exported Function | 0x00000001c00013f0 | 0x000013f0
-`PshedBugCheckSystem` | 4 (0x4) | Exported Function | 0x00000001c00015a0 | 0x000015a0
-`PshedAttemptErrorRecovery` | 3 (0x3) | Exported Function | 0x00000001c00014e0 | 0x000014e0
-`PshedArePluginsPresent` | 2 (0x2) | Exported Function | 0x00000001c0001be0 | 0x00001be0
-`PshedUnregisterPlugin` | 29 (0x1d) | Exported Function | 0x00000001c000c9e0 | 0x0000c9e0
-`PshedWriteErrorRecord` | 30 (0x1e) | Exported Function | 0x00000001c00011c0 | 0x000011c0
+Function Name | Ordinal | Type
+-- | -- | --
+`PshedInjectError` | 20 | Exported Function
+`PshedIsSystemWheaEnabled` | 21 | Exported Function
+`PshedMarkHiberPhase` | 22 | Exported Function
+`PshedInitProc` | 18 | Exported Function
+`PshedInitAvailable` | 16 | Exported Function
+`PshedInitGlobal` | 17 | Exported Function
+`PshedInitialize` | 19 | Exported Function
+`PshedReadErrorRecord` | 23 | Exported Function
+`PshedSynchronizeExecution` | 28 | Exported Function
+`PshedUnregisterPlugin` | 29 | Exported Function
+`PshedWriteErrorRecord` | 30 | Exported Function
+`PshedSetHalEnlightenments` | 27 | Exported Function
+`PshedRegisterPlugin` | 24 | Exported Function
+`PshedRetrieveErrorInfo` | 25 | Exported Function
+`PshedSetErrorSourceInfo` | 26 | Exported Function
+`PshedClearErrorRecord` | 5 | Exported Function
+`PshedDisableErrorSource` | 6 | Exported Function
+`PshedDoPfa` | 7 | Exported Function
+`PshedBugCheckSystem` | 4 | Exported Function
+`PshedAllocateMemory` | 1 | Exported Function
+`PshedArePluginsPresent` | 2 | Exported Function
+`PshedAttemptErrorRecovery` | 3 | Exported Function
+`PshedEnableErrorSource` | 8 | Exported Function
+`PshedGetErrorSourceInfo` | 13 | Exported Function
+`PshedGetHalEnlightenments` | 14 | Exported Function
+`PshedGetInjectionCapabilities` | 15 | Exported Function
+`PshedGetBootErrorPacket` | 12 | Exported Function
+`PshedFinalizeErrorRecord` | 9 | Exported Function
+`PshedFreeMemory` | 10 | Exported Function
+`PshedGetAllErrorSources` | 11 | Exported Function
 
 
 ## Signature

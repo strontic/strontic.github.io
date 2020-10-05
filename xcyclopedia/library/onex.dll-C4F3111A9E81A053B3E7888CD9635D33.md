@@ -24,36 +24,36 @@ PE256 | `FC29205F8640B1B37E10F0715446C92496BBA5D82C738DEB91DFC8552C36FC55`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OneXAddEapAttributes` | 1 (0x1) | Exported Function | 0x0000000180020c70 | 0x00020c70
-`OneXUIResponse` | 26 (0x1a) | Exported Function | 0x0000000180023cf0 | 0x00023cf0
-`OneXStopAuthentication` | 25 (0x19) | Exported Function | 0x0000000180023b00 | 0x00023b00
-`OneXStartAuthentication` | 24 (0x18) | Exported Function | 0x0000000180023900 | 0x00023900
-`OneXSetRuntimeState` | 23 (0x17) | Exported Function | 0x0000000180023740 | 0x00023740
-`OneXSetAuthParams` | 22 (0x16) | Exported Function | 0x00000001800234e0 | 0x000234e0
-`OneXRestartReasonCodeToString` | 21 (0x15) | Exported Function | 0x00000001800233b0 | 0x000233b0
-`OneXReasonCodeToString` | 20 (0x14) | Exported Function | 0x0000000180023280 | 0x00023280
-`OneXQueryStatistics` | 19 (0x13) | Exported Function | 0x0000000180023060 | 0x00023060
-`OneXQueryState` | 18 (0x12) | Exported Function | 0x0000000180022e90 | 0x00022e90
-`OneXQueryPendingUIRequest` | 17 (0x11) | Exported Function | 0x0000000180022c50 | 0x00022c50
-`OneXQueryAuthParams` | 16 (0x10) | Exported Function | 0x0000000180022a30 | 0x00022a30
-`OneXInitialize` | 15 (0xf) | Exported Function | 0x0000000180022910 | 0x00022910
-`OneXIndicateSessionChange` | 14 (0xe) | Exported Function | 0x0000000180022740 | 0x00022740
-`OneXIndicatePacket` | 13 (0xd) | Exported Function | 0x0000000180022520 | 0x00022520
-`OneXFreeMemory` | 12 (0xc) | Exported Function | 0x0000000180022470 | 0x00022470
-`OneXFreeAuthParams` | 11 (0xb) | Exported Function | 0x00000001800223f0 | 0x000223f0
-`OneXForceAuthenticatedState` | 10 (0xa) | Exported Function | 0x0000000180022210 | 0x00022210
-`OneXDestroySupplicantPort` | 9 (0x9) | Exported Function | 0x0000000180022070 | 0x00022070
-`OneXDeInitialize` | 8 (0x8) | Exported Function | 0x0000000180021f10 | 0x00021f10
-`OneXCreateSupplicantPort` | 7 (0x7) | Exported Function | 0x0000000180021c80 | 0x00021c80
-`OneXCreateDiscoveryProfiles` | 6 (0x6) | Exported Function | 0x0000000180021a40 | 0x00021a40
-`OneXCreateDefaultProfile` | 5 (0x5) | Exported Function | 0x0000000180021830 | 0x00021830
-`OneXCopyAuthParams` | 4 (0x4) | Exported Function | 0x00000001800215f0 | 0x000215f0
-`OneXCompareAuthParams` | 3 (0x3) | Exported Function | 0x0000000180021040 | 0x00021040
-`OneXAddTLV` | 2 (0x2) | Exported Function | 0x0000000180020e60 | 0x00020e60
-`OneXUpdatePortProfile` | 27 (0x1b) | Exported Function | 0x0000000180023f50 | 0x00023f50
-`OneXUpdateProfilePostDiscovery` | 28 (0x1c) | Exported Function | 0x0000000180024200 | 0x00024200
+Function Name | Ordinal | Type
+-- | -- | --
+`OneXQueryStatistics` | 19 | Exported Function
+`OneXReasonCodeToString` | 20 | Exported Function
+`OneXRestartReasonCodeToString` | 21 | Exported Function
+`OneXQueryState` | 18 | Exported Function
+`OneXInitialize` | 15 | Exported Function
+`OneXQueryAuthParams` | 16 | Exported Function
+`OneXQueryPendingUIRequest` | 17 | Exported Function
+`OneXUIResponse` | 26 | Exported Function
+`OneXUpdatePortProfile` | 27 | Exported Function
+`OneXUpdateProfilePostDiscovery` | 28 | Exported Function
+`OneXStopAuthentication` | 25 | Exported Function
+`OneXSetAuthParams` | 22 | Exported Function
+`OneXSetRuntimeState` | 23 | Exported Function
+`OneXStartAuthentication` | 24 | Exported Function
+`OneXCreateDefaultProfile` | 5 | Exported Function
+`OneXCreateDiscoveryProfiles` | 6 | Exported Function
+`OneXCreateSupplicantPort` | 7 | Exported Function
+`OneXCopyAuthParams` | 4 | Exported Function
+`OneXAddEapAttributes` | 1 | Exported Function
+`OneXAddTLV` | 2 | Exported Function
+`OneXCompareAuthParams` | 3 | Exported Function
+`OneXFreeMemory` | 12 | Exported Function
+`OneXIndicatePacket` | 13 | Exported Function
+`OneXIndicateSessionChange` | 14 | Exported Function
+`OneXFreeAuthParams` | 11 | Exported Function
+`OneXDeInitialize` | 8 | Exported Function
+`OneXDestroySupplicantPort` | 9 | Exported Function
+`OneXForceAuthenticatedState` | 10 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `53FA6EDF7F38EF195B0A8457FAABFB7F56C579BF8A18350AE36D13F9A1B56EAB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x10004be0 | 0x00004be0
-`DriverProc` | 2 (0x2) | Exported Function | 0x100027f0 | 0x000027f0
-`VfwWdm` | 3 (0x3) | Exported Function | 0x10004c80 | 0x00004c80
+Function Name | Ordinal | Type
+-- | -- | --
+`VfwWdm` | 3 | Exported Function
+`DriverProc` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
 
 
 ## Signature

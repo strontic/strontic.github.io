@@ -24,28 +24,28 @@ PE256 | `D6318CB63344623D223FF1F66599583BF6A1C81429D741C3057AD73B81D0F5CF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AvCreateTaskIndex` | 1 (0x1) | Exported Function | 0x00000001800014b0 | 0x000014b0
-`AvTaskIndexYield` | 18 (0x12) | Exported Function | 0x00000001800011e0 | 0x000011e0
-`AvSetMultimediaMode` | 17 (0x11) | Exported Function | 0x0000000180001270 | 0x00001270
-`AvSetMmThreadPriority` | 16 (0x10) | Exported Function | 0x00000001800017c0 | 0x000017c0
-`AvSetMmThreadCharacteristicsW` | 15 (0xf) | Exported Function | 0x0000000180001560 | 0x00001560
-`AvSetMmThreadCharacteristicsA` | 14 (0xe) | Exported Function | 0x0000000180001480 | 0x00001480
-`AvSetMmMaxThreadCharacteristicsW` | 13 (0xd) | Exported Function | 0x00000001800020d0 | 0x000020d0
-`AvSetMmMaxThreadCharacteristicsA` | 12 (0xc) | Exported Function | 0x00000001800020a0 | 0x000020a0
-`AvRtWaitOnThreadOrderingGroup` | 11 (0xb) | Exported Function | 0x0000000180002030 | 0x00002030
-`AvRtLeaveThreadOrderingGroup` | 10 (0xa) | Exported Function | 0x0000000180002030 | 0x00002030
-`AvRtJoinThreadOrderingGroup` | 9 (0x9) | Exported Function | 0x0000000180002030 | 0x00002030
-`AvRtDeleteThreadOrderingGroup` | 8 (0x8) | Exported Function | 0x0000000180002030 | 0x00002030
-`AvRtCreateThreadOrderingGroupExW` | 7 (0x7) | Exported Function | 0x0000000180002030 | 0x00002030
-`AvRtCreateThreadOrderingGroupExA` | 6 (0x6) | Exported Function | 0x0000000180002030 | 0x00002030
-`AvRtCreateThreadOrderingGroup` | 5 (0x5) | Exported Function | 0x0000000180002030 | 0x00002030
-`AvRevertMmThreadCharacteristics` | 4 (0x4) | Exported Function | 0x0000000180001300 | 0x00001300
-`AvQueryTaskIndexValue` | 3 (0x3) | Exported Function | 0x0000000180002060 | 0x00002060
-`AvQuerySystemResponsiveness` | 2 (0x2) | Exported Function | 0x0000000180001430 | 0x00001430
-`AvTaskIndexYieldCancel` | 19 (0x13) | Exported Function | 0x0000000180001330 | 0x00001330
-`AvThreadOpenTaskIndex` | 20 (0x14) | Exported Function | 0x00000001800013e0 | 0x000013e0
+Function Name | Ordinal | Type
+-- | -- | --
+`AvSetMmThreadCharacteristicsA` | 14 | Exported Function
+`AvSetMmThreadCharacteristicsW` | 15 | Exported Function
+`AvSetMmMaxThreadCharacteristicsW` | 13 | Exported Function
+`AvRtWaitOnThreadOrderingGroup` | 11 | Exported Function
+`AvSetMmMaxThreadCharacteristicsA` | 12 | Exported Function
+`AvTaskIndexYieldCancel` | 19 | Exported Function
+`AvThreadOpenTaskIndex` | 20 | Exported Function
+`AvTaskIndexYield` | 18 | Exported Function
+`AvSetMmThreadPriority` | 16 | Exported Function
+`AvSetMultimediaMode` | 17 | Exported Function
+`AvRevertMmThreadCharacteristics` | 4 | Exported Function
+`AvRtCreateThreadOrderingGroup` | 5 | Exported Function
+`AvQueryTaskIndexValue` | 3 | Exported Function
+`AvCreateTaskIndex` | 1 | Exported Function
+`AvQuerySystemResponsiveness` | 2 | Exported Function
+`AvRtJoinThreadOrderingGroup` | 9 | Exported Function
+`AvRtLeaveThreadOrderingGroup` | 10 | Exported Function
+`AvRtDeleteThreadOrderingGroup` | 8 | Exported Function
+`AvRtCreateThreadOrderingGroupExA` | 6 | Exported Function
+`AvRtCreateThreadOrderingGroupExW` | 7 | Exported Function
 
 
 ## Signature

@@ -24,17 +24,15 @@ PE256 | `470F0B5E42A48BFEFB2B90DBCA83187CE4FA5BBE86CE330273587EB569000C2E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateHolographicCompositor` | 103 (0x67) | Exported Function | 0x0000000180042200 | 0x00042200
-`DwmInitializeEngine` | 104 (0x68) | Exported Function | 0x00000001800426d0 | 0x000426d0
-`DwmInitializePort` | 105 (0x69) | Exported Function | 0x0000000180042710 | 0x00042710
-`DwmRenderDesktopForDDA` | 106 (0x6a) | Exported Function | 0x00000001800078f0 | 0x000078f0
-`DwmShutdownEngine` | 107 (0x6b) | Exported Function | 0x00000001800078f0 | 0x000078f0
-`DwmVersionCheck` | 108 (0x6c) | Exported Function | 0x00000001800078f0 | 0x000078f0
-`GetMPCInputPostProcessor` | 109 (0x6d) | Exported Function | 0x0000000180063ad0 | 0x00063ad0
-`Ordinal101` | 101 (0x65) | Exported Function | 0x00000001800425e0 | 0x000425e0
-`Ordinal102` | 102 (0x66) | Exported Function | 0x0000000180042590 | 0x00042590
+Function Name | Ordinal | Type
+-- | -- | --
+`DwmShutdownEngine` | 107 | Exported Function
+`DwmVersionCheck` | 108 | Exported Function
+`GetMPCInputPostProcessor` | 109 | Exported Function
+`DwmRenderDesktopForDDA` | 106 | Exported Function
+`CreateHolographicCompositor` | 103 | Exported Function
+`DwmInitializeEngine` | 104 | Exported Function
+`DwmInitializePort` | 105 | Exported Function
 
 
 ## Signature

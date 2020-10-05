@@ -24,12 +24,12 @@ PE256 | `2AB6474EFEDF75C8F52A0FBC120F6B343D02C11E3B40F181C3275B6C5162BF00`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DisplayApphelpDialog` | 1 (0x1) | Exported Function | 0x10008530 | 0x00008530
-`PcaLaunchApplicationWithConsent` | 2 (0x2) | Exported Function | 0x10008570 | 0x00008570
-`PcaPersistSettingsAndLaunchApplication` | 3 (0x3) | Exported Function | 0x10008430 | 0x00008430
-`PcaShowDialog` | 4 (0x4) | Exported Function | 0x100052c0 | 0x000052c0
+Function Name | Ordinal | Type
+-- | -- | --
+`PcaPersistSettingsAndLaunchApplication` | 3 | Exported Function
+`PcaShowDialog` | 4 | Exported Function
+`DisplayApphelpDialog` | 1 | Exported Function
+`PcaLaunchApplicationWithConsent` | 2 | Exported Function
 
 
 ## Signature

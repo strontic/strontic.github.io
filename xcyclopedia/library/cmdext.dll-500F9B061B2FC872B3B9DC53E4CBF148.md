@@ -24,22 +24,22 @@ PE256 | `6298D3839788C0B4A4A3409DDB34137F9D1B953F68F858AC99DD974546DEB0D9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CmdBatNotificationStub` | 1 (0x1) | Exported Function | 0x00000001800011a0 | 0x000011a0
-`DoSHChangeNotify` | 2 (0x2) | Exported Function | 0x0000000180002440 | 0x00002440
-`FindFirstStreamWStub` | 3 (0x3) | Exported Function | 0x0000000180002460 | 0x00002460
-`FindNextStreamWStub` | 4 (0x4) | Exported Function | 0x0000000180002480 | 0x00002480
-`GetBinaryTypeWStub` | 5 (0x5) | Exported Function | 0x00000001800024a0 | 0x000024a0
-`GetVDMCurrentDirectoriesStub` | 6 (0x6) | Exported Function | 0x00000001800024c0 | 0x000024c0
-`LookupAccountSidWStub` | 7 (0x7) | Exported Function | 0x00000001800024e0 | 0x000024e0
-`MessageBeepStub` | 8 (0x8) | Exported Function | 0x0000000180002500 | 0x00002500
-`QueryFullProcessImageNameWStub` | 9 (0x9) | Exported Function | 0x0000000180002520 | 0x00002520
-`SaferWorker` | 10 (0xa) | Exported Function | 0x00000001800010b0 | 0x000010b0
-`ShellExecuteWorker` | 11 (0xb) | Exported Function | 0x0000000180002540 | 0x00002540
-`WNetAddConnection2WStub` | 12 (0xc) | Exported Function | 0x0000000180002670 | 0x00002670
-`WNetCancelConnection2WStub` | 13 (0xd) | Exported Function | 0x0000000180002690 | 0x00002690
-`WNetGetConnectionWStub` | 14 (0xe) | Exported Function | 0x00000001800026b0 | 0x000026b0
+Function Name | Ordinal | Type
+-- | -- | --
+`SaferWorker` | 10 | Exported Function
+`QueryFullProcessImageNameWStub` | 9 | Exported Function
+`MessageBeepStub` | 8 | Exported Function
+`ShellExecuteWorker` | 11 | Exported Function
+`WNetGetConnectionWStub` | 14 | Exported Function
+`WNetCancelConnection2WStub` | 13 | Exported Function
+`WNetAddConnection2WStub` | 12 | Exported Function
+`FindFirstStreamWStub` | 3 | Exported Function
+`DoSHChangeNotify` | 2 | Exported Function
+`CmdBatNotificationStub` | 1 | Exported Function
+`FindNextStreamWStub` | 4 | Exported Function
+`LookupAccountSidWStub` | 7 | Exported Function
+`GetVDMCurrentDirectoriesStub` | 6 | Exported Function
+`GetBinaryTypeWStub` | 5 | Exported Function
 
 
 ## Signature

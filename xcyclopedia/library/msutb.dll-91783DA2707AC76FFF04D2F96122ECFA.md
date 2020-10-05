@@ -24,16 +24,16 @@ PE256 | `CD8146FCA8679B44F3B76E0F5850ADB1AF1A6D395F3319267E7460C7D1A12AC7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClosePopupTipbar` | 1 (0x1) | Exported Function | 0x10011860 | 0x00011860
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x10008890 | 0x00008890
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x100088b0 | 0x000088b0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x100088d0 | 0x000088d0
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x100088e0 | 0x000088e0
-`GetChildTipbar` | 6 (0x6) | Exported Function | 0x10011920 | 0x00011920
-`GetPopupTipbar` | 7 (0x7) | Exported Function | 0x10011950 | 0x00011950
-`SetRegisterLangBand` | 8 (0x8) | Exported Function | 0x10008a10 | 0x00008a10
+Function Name | Ordinal | Type
+-- | -- | --
+`GetChildTipbar` | 6 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`SetRegisterLangBand` | 8 | Exported Function
+`GetPopupTipbar` | 7 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`ClosePopupTipbar` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

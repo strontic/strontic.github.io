@@ -24,11 +24,11 @@ PE256 | `66DBA46C559C4B9B1C38B943BC05EFC9FDB9C0F18CB058A436C8F1F2771DEBB0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IsDestinationReachableA` | 1 (0x1) | Exported Function | 0x0000000180001110 | 0x00001110
-`IsDestinationReachableW` | 2 (0x2) | Exported Function | 0x0000000180001110 | 0x00001110
-`IsNetworkAlive` | 3 (0x3) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`IsNetworkAlive` | 3 | Exported Function
+`IsDestinationReachableW` | 2 | Exported Function
+`IsDestinationReachableA` | 1 | Exported Function
 
 
 ## Signature

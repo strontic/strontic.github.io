@@ -24,17 +24,17 @@ PE256 | `6B057239A63B7AD4039F0FF68545A422EB01ADC08312C5AAF73086A07DFD000C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SnmpMgrClose` | 1 (0x1) | Exported Function | 0x5f7028b0 | 0x000028b0
-`SnmpMgrCtl` | 2 (0x2) | Exported Function | 0x5f702840 | 0x00002840
-`SnmpMgrGetTrap` | 3 (0x3) | Exported Function | 0x5f702ae0 | 0x00002ae0
-`SnmpMgrGetTrapEx` | 4 (0x4) | Exported Function | 0x5f702b10 | 0x00002b10
-`SnmpMgrOidToStr` | 5 (0x5) | Exported Function | 0x5f702a80 | 0x00002a80
-`SnmpMgrOpen` | 6 (0x6) | Exported Function | 0x5f7027b0 | 0x000027b0
-`SnmpMgrRequest` | 7 (0x7) | Exported Function | 0x5f702940 | 0x00002940
-`SnmpMgrStrToOid` | 8 (0x8) | Exported Function | 0x5f702a50 | 0x00002a50
-`SnmpMgrTrapListen` | 9 (0x9) | Exported Function | 0x5f702ab0 | 0x00002ab0
+Function Name | Ordinal | Type
+-- | -- | --
+`SnmpMgrRequest` | 7 | Exported Function
+`SnmpMgrOpen` | 6 | Exported Function
+`SnmpMgrTrapListen` | 9 | Exported Function
+`SnmpMgrStrToOid` | 8 | Exported Function
+`SnmpMgrOidToStr` | 5 | Exported Function
+`SnmpMgrCtl` | 2 | Exported Function
+`SnmpMgrClose` | 1 | Exported Function
+`SnmpMgrGetTrapEx` | 4 | Exported Function
+`SnmpMgrGetTrap` | 3 | Exported Function
 
 
 ## Signature

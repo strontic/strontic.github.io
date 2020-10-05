@@ -24,103 +24,103 @@ PE256 | `EAD71CCEF683C65C1B209E552A417B82FE041A3D178B9A68743DCD278A94ACC7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConstructPartialMsgIfA` | 4 (0x4) | Exported Function | 0x000000018001d8f0 | 0x0001d8f0
-`WdsLogRegStockProviders` | 68 (0x44) | Exported Function | 0x0000000180022ed0 | 0x00022ed0
-`WdsLogRegisterProvider` | 69 (0x45) | Exported Function | 0x0000000180022f80 | 0x00022f80
-`WdsLogDestroy` | 67 (0x43) | Exported Function | 0x0000000180022980 | 0x00022980
-`WdsLogCreate` | 66 (0x42) | Exported Function | 0x00000001800228f0 | 0x000228f0
-`WdsLockExecutionGroup` | 65 (0x41) | Exported Function | 0x000000018000efd0 | 0x0000efd0
-`WdsLockBlackboardValue` | 64 (0x40) | Exported Function | 0x000000018001bca0 | 0x0001bca0
-`WdsIterateQueue` | 63 (0x3f) | Exported Function | 0x000000018000ef70 | 0x0000ef70
-`WdsIterateOfflineQueue` | 62 (0x3e) | Exported Function | 0x000000018000ee50 | 0x0000ee50
-`WdsIsDiagnosticModeEnabled` | 61 (0x3d) | Exported Function | 0x000000018001ec50 | 0x0001ec50
-`WdsLogStructuredException` | 70 (0x46) | Exported Function | 0x000000018001ec60 | 0x0001ec60
-`WdsInitializeDataUInt64` | 60 (0x3c) | Exported Function | 0x000000018000ee30 | 0x0000ee30
-`WdsInitializeDataStringW` | 58 (0x3a) | Exported Function | 0x000000018000ed70 | 0x0000ed70
-`WdsInitializeDataStringA` | 57 (0x39) | Exported Function | 0x000000018000ecd0 | 0x0000ecd0
-`WdsInitializeDataBinary` | 56 (0x38) | Exported Function | 0x000000018000ec30 | 0x0000ec30
-`WdsInitializeCallbackArray` | 55 (0x37) | Exported Function | 0x0000000180006f40 | 0x00006f40
-`WdsInitialize` | 54 (0x36) | Exported Function | 0x000000018000ea30 | 0x0000ea30
-`WdsGetTempDir` | 53 (0x35) | Exported Function | 0x000000018000e880 | 0x0000e880
-`WdsGetSetupLog` | 52 (0x34) | Exported Function | 0x000000018001eb80 | 0x0001eb80
-`WdsGetPointer` | 1 (0x1) | Exported Function | 0x0000000180001480 | 0x00001480
-`WdsGetCurrentExecutionGroup` | 51 (0x33) | Exported Function | 0x000000018000e850 | 0x0000e850
-`WdsInitializeDataUInt32` | 59 (0x3b) | Exported Function | 0x000000018000ee10 | 0x0000ee10
-`WdsGetBlackboardValue` | 50 (0x32) | Exported Function | 0x000000018001bb70 | 0x0001bb70
-`WdsLogUnRegisterProvider` | 72 (0x48) | Exported Function | 0x0000000180023150 | 0x00023150
-`WdsPackCollection` | 73 (0x49) | Exported Function | 0x000000018000eff0 | 0x0000eff0
-`WdsUnsubscribe` | 93 (0x5d) | Exported Function | 0x000000018000f9a0 | 0x0000f9a0
-`WdsUnpackCollection` | 92 (0x5c) | Exported Function | 0x000000018000f650 | 0x0000f650
-`WdsUnlockExecutionGroup` | 91 (0x5b) | Exported Function | 0x000000018000f630 | 0x0000f630
-`WdsTerminate` | 90 (0x5a) | Exported Function | 0x000000018000f5b0 | 0x0000f5b0
-`WdsSubscribeEx` | 89 (0x59) | Exported Function | 0x000000018000f570 | 0x0000f570
-`WdsSetupLogMessageW` | 88 (0x58) | Exported Function | 0x0000000180020040 | 0x00020040
-`WdsSetupLogMessageA` | 87 (0x57) | Exported Function | 0x000000018001fd00 | 0x0001fd00
-`WdsSetupLogInit` | 86 (0x56) | Exported Function | 0x000000018001ef90 | 0x0001ef90
-`WdsSetupLogDestroy` | 85 (0x55) | Exported Function | 0x000000018001eeb0 | 0x0001eeb0
-`WdsLogUnRegStockProviders` | 71 (0x47) | Exported Function | 0x00000001800230d0 | 0x000230d0
-`WdsSetUILanguage` | 84 (0x54) | Exported Function | 0x000000018000f550 | 0x0000f550
-`WdsSetBlackboardValue` | 82 (0x52) | Exported Function | 0x000000018001bdc0 | 0x0001bdc0
-`WdsSetAssertFlags` | 81 (0x51) | Exported Function | 0x000000018001ee90 | 0x0001ee90
-`WdsSeqFree` | 80 (0x50) | Exported Function | 0x0000000180002f00 | 0x00002f00
-`WdsSeqAlloc` | 79 (0x4f) | Exported Function | 0x000000018000f4c0 | 0x0000f4c0
-`WdsPublishOffline` | 78 (0x4e) | Exported Function | 0x000000018000f350 | 0x0000f350
-`WdsPublishImmediateEx` | 77 (0x4d) | Exported Function | 0x000000018000f310 | 0x0000f310
-`WdsPublishImmediateAsync` | 76 (0x4c) | Exported Function | 0x000000018000f2c0 | 0x0000f2c0
-`WdsPublishEx` | 75 (0x4b) | Exported Function | 0x000000018000f270 | 0x0000f270
-`WdsPublish` | 74 (0x4a) | Exported Function | 0x000000018000f220 | 0x0000f220
-`WdsSetNextExecutionGroup` | 83 (0x53) | Exported Function | 0x000000018000f530 | 0x0000f530
-`WdsUnsubscribeEx` | 94 (0x5e) | Exported Function | 0x000000018000f9c0 | 0x0000f9c0
-`WdsGetBlackboardUintPtr` | 49 (0x31) | Exported Function | 0x000000018001ba10 | 0x0001ba10
-`WdsGetBlackboardStringA` | 47 (0x2f) | Exported Function | 0x000000018001b650 | 0x0001b650
-`WdsCollectionGetValue` | 22 (0x16) | Exported Function | 0x000000018000d470 | 0x0000d470
-`WdsCollectionAddValue` | 21 (0x15) | Exported Function | 0x000000018000d3e0 | 0x0000d3e0
-`WdsAllocCollection` | 20 (0x14) | Exported Function | 0x000000018000d3c0 | 0x0000d3c0
-`WdsAddUsmtLogStack` | 19 (0x13) | Exported Function | 0x000000018001e000 | 0x0001e000
-`WdsAddModule` | 18 (0x12) | Exported Function | 0x000000018000d300 | 0x0000d300
-`WdsAbortBlackboardItemEnum` | 17 (0x11) | Exported Function | 0x000000018001acb0 | 0x0001acb0
-`StartMinorTask` | 16 (0x10) | Exported Function | 0x000000018001dfb0 | 0x0001dfb0
-`StartMajorTask` | 15 (0xf) | Exported Function | 0x000000018001deb0 | 0x0001deb0
-`GetMinorTaskA` | 14 (0xe) | Exported Function | 0x000000018001de40 | 0x0001de40
-`WdsCopyBlackboardItems` | 23 (0x17) | Exported Function | 0x000000018001ad70 | 0x0001ad70
-`GetMinorTask` | 13 (0xd) | Exported Function | 0x000000018001ddd0 | 0x0001ddd0
-`GetMajorTask` | 11 (0xb) | Exported Function | 0x000000018001dd20 | 0x0001dd20
-`g_Kernel32` | 2 (0x2) | Exported Function | 0x000000018003c1a0 | 0x0003c1a0
-`g_bEnableDiagnosticMode` | 3 (0x3) | Exported Function | 0x000000018003c3a0 | 0x0003c3a0
-`EndMinorTask` | 10 (0xa) | Exported Function | 0x000000018001dcd0 | 0x0001dcd0
-`EndMajorTask` | 9 (0x9) | Exported Function | 0x000000018001dc90 | 0x0001dc90
-`CurrentIP` | 8 (0x8) | Exported Function | 0x000000018001dc80 | 0x0001dc80
-`ConstructPartialMsgVW` | 7 (0x7) | Exported Function | 0x000000018001daa0 | 0x0001daa0
-`ConstructPartialMsgVA` | 6 (0x6) | Exported Function | 0x000000018001d970 | 0x0001d970
-`ConstructPartialMsgIfW` | 5 (0x5) | Exported Function | 0x000000018001d930 | 0x0001d930
-`GetMajorTaskA` | 12 (0xc) | Exported Function | 0x000000018001dd70 | 0x0001dd70
-`WdsGetBlackboardStringW` | 48 (0x30) | Exported Function | 0x000000018001b870 | 0x0001b870
-`WdsCopyBlackboardItemsEx` | 24 (0x18) | Exported Function | 0x000000018001ad90 | 0x0001ad90
-`WdsDeleteBlackboardValue` | 26 (0x1a) | Exported Function | 0x000000018001b0d0 | 0x0001b0d0
-`WdsGetBlackboardBinaryData` | 46 (0x2e) | Exported Function | 0x000000018001b4d0 | 0x0001b4d0
-`WdsGetAssertFlags` | 45 (0x2d) | Exported Function | 0x000000018001eb60 | 0x0001eb60
-`WdsGenericSetupLogInit` | 44 (0x2c) | Exported Function | 0x000000018001e6c0 | 0x0001e6c0
-`WdsFreeData` | 43 (0x2b) | Exported Function | 0x000000018000e7e0 | 0x0000e7e0
-`WdsFreeCollection` | 42 (0x2a) | Exported Function | 0x000000018000e790 | 0x0000e790
-`WdsExitImmediatelyEx` | 41 (0x29) | Exported Function | 0x000000018000e6c0 | 0x0000e6c0
-`WdsExitImmediately` | 40 (0x28) | Exported Function | 0x000000018000e6a0 | 0x0000e6a0
-`WdsExecuteWorkQueueEx` | 39 (0x27) | Exported Function | 0x000000018000e660 | 0x0000e660
-`WdsExecuteWorkQueue2` | 38 (0x26) | Exported Function | 0x000000018000dea0 | 0x0000dea0
-`WdsCreateBlackboard` | 25 (0x19) | Exported Function | 0x000000018001b070 | 0x0001b070
-`WdsExecuteWorkQueue` | 37 (0x25) | Exported Function | 0x000000018000d760 | 0x0000d760
-`WdsEnumNextBlackboardItem` | 35 (0x23) | Exported Function | 0x000000018001b420 | 0x0001b420
-`WdsEnumFirstCollectionValue` | 34 (0x22) | Exported Function | 0x000000018000d720 | 0x0000d720
-`WdsEnumFirstBlackboardItem` | 33 (0x21) | Exported Function | 0x000000018001b210 | 0x0001b210
-`WdsEnableExitEx` | 32 (0x20) | Exported Function | 0x000000018000d650 | 0x0000d650
-`WdsEnableExit` | 31 (0x1f) | Exported Function | 0x000000018000d630 | 0x0000d630
-`WdsEnableDiagnosticMode` | 30 (0x1e) | Exported Function | 0x000000018001e6b0 | 0x0001e6b0
-`WdsDuplicateData` | 29 (0x1d) | Exported Function | 0x000000018000d500 | 0x0000d500
-`WdsDestroyBlackboard` | 28 (0x1c) | Exported Function | 0x000000018001b1c0 | 0x0001b1c0
-`WdsDeleteEvent` | 27 (0x1b) | Exported Function | 0x000000018000d4e0 | 0x0000d4e0
-`WdsEnumNextCollectionValue` | 36 (0x24) | Exported Function | 0x000000018000d740 | 0x0000d740
-`WdsValidBlackboard` | 95 (0x5f) | Exported Function | 0x000000018001bfd0 | 0x0001bfd0
+Function Name | Ordinal | Type
+-- | -- | --
+`WdsLockBlackboardValue` | 64 | Exported Function
+`WdsLockExecutionGroup` | 65 | Exported Function
+`WdsIterateQueue` | 63 | Exported Function
+`WdsIsDiagnosticModeEnabled` | 61 | Exported Function
+`WdsIterateOfflineQueue` | 62 | Exported Function
+`WdsLogCreate` | 66 | Exported Function
+`WdsLogStructuredException` | 70 | Exported Function
+`WdsLogUnRegisterProvider` | 72 | Exported Function
+`WdsLogRegStockProviders` | 68 | Exported Function
+`WdsLogDestroy` | 67 | Exported Function
+`WdsLogRegisterProvider` | 69 | Exported Function
+`WdsInitializeDataUInt64` | 60 | Exported Function
+`WdsGetSetupLog` | 52 | Exported Function
+`WdsGetTempDir` | 53 | Exported Function
+`WdsGetPointer` | 1 | Exported Function
+`WdsGetBlackboardValue` | 50 | Exported Function
+`WdsGetCurrentExecutionGroup` | 51 | Exported Function
+`WdsInitialize` | 54 | Exported Function
+`WdsInitializeDataStringW` | 58 | Exported Function
+`WdsInitializeDataUInt32` | 59 | Exported Function
+`WdsInitializeDataStringA` | 57 | Exported Function
+`WdsInitializeCallbackArray` | 55 | Exported Function
+`WdsInitializeDataBinary` | 56 | Exported Function
+`WdsLogUnRegStockProviders` | 71 | Exported Function
+`WdsSetupLogMessageW` | 88 | Exported Function
+`WdsSubscribeEx` | 89 | Exported Function
+`WdsSetupLogMessageA` | 87 | Exported Function
+`WdsSetupLogDestroy` | 85 | Exported Function
+`WdsSetupLogInit` | 86 | Exported Function
+`WdsTerminate` | 90 | Exported Function
+`WdsUnsubscribeEx` | 94 | Exported Function
+`WdsValidBlackboard` | 95 | Exported Function
+`WdsUnsubscribe` | 93 | Exported Function
+`WdsUnlockExecutionGroup` | 91 | Exported Function
+`WdsUnpackCollection` | 92 | Exported Function
+`WdsSetUILanguage` | 84 | Exported Function
+`WdsPublishImmediateAsync` | 76 | Exported Function
+`WdsPublishImmediateEx` | 77 | Exported Function
+`WdsPublishEx` | 75 | Exported Function
+`WdsPackCollection` | 73 | Exported Function
+`WdsPublish` | 74 | Exported Function
+`WdsPublishOffline` | 78 | Exported Function
+`WdsSetBlackboardValue` | 82 | Exported Function
+`WdsSetNextExecutionGroup` | 83 | Exported Function
+`WdsSetAssertFlags` | 81 | Exported Function
+`WdsSeqAlloc` | 79 | Exported Function
+`WdsSeqFree` | 80 | Exported Function
+`WdsGetBlackboardUintPtr` | 49 | Exported Function
+`WdsAbortBlackboardItemEnum` | 17 | Exported Function
+`WdsAddModule` | 18 | Exported Function
+`StartMinorTask` | 16 | Exported Function
+`GetMinorTaskA` | 14 | Exported Function
+`StartMajorTask` | 15 | Exported Function
+`WdsAddUsmtLogStack` | 19 | Exported Function
+`WdsCopyBlackboardItems` | 23 | Exported Function
+`WdsCopyBlackboardItemsEx` | 24 | Exported Function
+`WdsCollectionGetValue` | 22 | Exported Function
+`WdsAllocCollection` | 20 | Exported Function
+`WdsCollectionAddValue` | 21 | Exported Function
+`GetMinorTask` | 13 | Exported Function
+`ConstructPartialMsgVW` | 7 | Exported Function
+`CurrentIP` | 8 | Exported Function
+`ConstructPartialMsgVA` | 6 | Exported Function
+`ConstructPartialMsgIfA` | 4 | Exported Function
+`ConstructPartialMsgIfW` | 5 | Exported Function
+`EndMajorTask` | 9 | Exported Function
+`GetMajorTask` | 11 | Exported Function
+`GetMajorTaskA` | 12 | Exported Function
+`g_Kernel32` | 2 | Exported Function
+`EndMinorTask` | 10 | Exported Function
+`g_bEnableDiagnosticMode` | 3 | Exported Function
+`WdsCreateBlackboard` | 25 | Exported Function
+`WdsExitImmediatelyEx` | 41 | Exported Function
+`WdsFreeCollection` | 42 | Exported Function
+`WdsExitImmediately` | 40 | Exported Function
+`WdsExecuteWorkQueue2` | 38 | Exported Function
+`WdsExecuteWorkQueueEx` | 39 | Exported Function
+`WdsFreeData` | 43 | Exported Function
+`WdsGetBlackboardStringA` | 47 | Exported Function
+`WdsGetBlackboardStringW` | 48 | Exported Function
+`WdsGetBlackboardBinaryData` | 46 | Exported Function
+`WdsGenericSetupLogInit` | 44 | Exported Function
+`WdsGetAssertFlags` | 45 | Exported Function
+`WdsExecuteWorkQueue` | 37 | Exported Function
+`WdsDuplicateData` | 29 | Exported Function
+`WdsEnableDiagnosticMode` | 30 | Exported Function
+`WdsDestroyBlackboard` | 28 | Exported Function
+`WdsDeleteBlackboardValue` | 26 | Exported Function
+`WdsDeleteEvent` | 27 | Exported Function
+`WdsEnableExit` | 31 | Exported Function
+`WdsEnumNextBlackboardItem` | 35 | Exported Function
+`WdsEnumNextCollectionValue` | 36 | Exported Function
+`WdsEnumFirstCollectionValue` | 34 | Exported Function
+`WdsEnableExitEx` | 32 | Exported Function
+`WdsEnumFirstBlackboardItem` | 33 | Exported Function
 
 
 ## Signature

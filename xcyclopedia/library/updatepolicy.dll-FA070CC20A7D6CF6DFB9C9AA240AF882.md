@@ -24,21 +24,21 @@ PE256 | `08ACE95E85D408ECE24DD566C18448A94234F8EED92BE683F606C1650A44B2AB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 10 (0xa) | Exported Function | 0x1000bff0 | 0x0000bff0
-`DllGetClassObject` | 11 (0xb) | Exported Function | 0x1000c010 | 0x0000c010
-`DllRegisterServer` | 12 (0xc) | Exported Function | 0x1000c020 | 0x0000c020
-`DllUnregisterServer` | 13 (0xd) | Exported Function | 0x1000c080 | 0x0000c080
-`GetAutoUpdatePolicy` | 1 (0x1) | Exported Function | 0x10018520 | 0x00018520
-`GetEnterprisePolicyName` | 2 (0x2) | Exported Function | 0x10012fa0 | 0x00012fa0
-`GetSkuUpdateManagementGroup` | 3 (0x3) | Exported Function | 0x10018980 | 0x00018980
-`GetUpdatePolicyName` | 4 (0x4) | Exported Function | 0x10018320 | 0x00018320
-`ReadPolicy` | 5 (0x5) | Exported Function | 0x10018120 | 0x00018120
-`ReadPolicyWithFallback` | 6 (0x6) | Exported Function | 0x100128e0 | 0x000128e0
-`ReleaseAutoUpdatePolicy` | 7 (0x7) | Exported Function | 0x1001a040 | 0x0001a040
-`ReleaseEnterprisePolicyValue` | 8 (0x8) | Exported Function | 0x100134f0 | 0x000134f0
-`ReleaseUpdatePolicyValue` | 9 (0x9) | Exported Function | 0x1001a000 | 0x0001a000
+Function Name | Ordinal | Type
+-- | -- | --
+`ReadPolicyWithFallback` | 6 | Exported Function
+`ReadPolicy` | 5 | Exported Function
+`GetUpdatePolicyName` | 4 | Exported Function
+`ReleaseUpdatePolicyValue` | 9 | Exported Function
+`ReleaseEnterprisePolicyValue` | 8 | Exported Function
+`ReleaseAutoUpdatePolicy` | 7 | Exported Function
+`GetSkuUpdateManagementGroup` | 3 | Exported Function
+`DllRegisterServer` | 12 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`GetEnterprisePolicyName` | 2 | Exported Function
+`GetAutoUpdatePolicy` | 1 | Exported Function
+`DllUnregisterServer` | 13 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `C5F8E62F1D4F020D61BAD33118BF2A952A5494F610D41EAD485EEF7E95047C10`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WSPStartup` | 1 (0x1) | Exported Function | MSWSOCK.WSPStartup | 0x000010a7
+Function Name | Ordinal | Type
+-- | -- | --
+`WSPStartup` | 1 | Exported Function
 
 
 ## Signature

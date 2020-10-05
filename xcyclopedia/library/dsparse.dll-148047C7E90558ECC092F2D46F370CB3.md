@@ -24,28 +24,28 @@ PE256 | `209380DA9CAF4B6BDA94DB62D545CC6E36B324DFE5A164AD2E50E212DBF94A3E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DsCrackSpn2A` | 1 (0x1) | Exported Function | 0x10002560 | 0x00002560
-`DsQuoteRdnValueW` | 18 (0x12) | Exported Function | 0x10003f20 | 0x00003f20
-`DsQuoteRdnValueA` | 17 (0x11) | Exported Function | 0x10003db0 | 0x00003db0
-`DsMakeSpnW` | 16 (0x10) | Exported Function | 0x10003300 | 0x00003300
-`DsMakeSpnA` | 15 (0xf) | Exported Function | 0x10003160 | 0x00003160
-`DsMakeSpn2W` | 14 (0xe) | Exported Function | 0x10002ec0 | 0x00002ec0
-`DsIsMangledRdnValueW` | 13 (0xd) | Exported Function | 0x10003d10 | 0x00003d10
-`DsIsMangledRdnValueA` | 12 (0xc) | Exported Function | 0x10003cb0 | 0x00003cb0
-`DsIsMangledDnW` | 11 (0xb) | Exported Function | 0x10003c40 | 0x00003c40
-`DsIsMangledDnA` | 10 (0xa) | Exported Function | 0x10003bf0 | 0x00003bf0
-`DsGetRdnW` | 9 (0x9) | Exported Function | 0x10003b40 | 0x00003b40
-`DsCrackUnquotedMangledRdnW` | 8 (0x8) | Exported Function | 0x10003aa0 | 0x00003aa0
-`DsCrackUnquotedMangledRdnA` | 7 (0x7) | Exported Function | 0x10003a40 | 0x00003a40
-`DsCrackSpnW` | 6 (0x6) | Exported Function | 0x10002cf0 | 0x00002cf0
-`DsCrackSpnA` | 5 (0x5) | Exported Function | 0x10002ac0 | 0x00002ac0
-`DsCrackSpn4W` | 4 (0x4) | Exported Function | 0x100028b0 | 0x000028b0
-`DsCrackSpn3W` | 3 (0x3) | Exported Function | 0x10002780 | 0x00002780
-`DsCrackSpn2W` | 2 (0x2) | Exported Function | 0x10001620 | 0x00001620
-`DsUnquoteRdnValueA` | 19 (0x13) | Exported Function | 0x10003fd0 | 0x00003fd0
-`DsUnquoteRdnValueW` | 20 (0x14) | Exported Function | 0x10004140 | 0x00004140
+Function Name | Ordinal | Type
+-- | -- | --
+`DsMakeSpn2W` | 14 | Exported Function
+`DsMakeSpnA` | 15 | Exported Function
+`DsIsMangledRdnValueW` | 13 | Exported Function
+`DsIsMangledDnW` | 11 | Exported Function
+`DsIsMangledRdnValueA` | 12 | Exported Function
+`DsUnquoteRdnValueA` | 19 | Exported Function
+`DsUnquoteRdnValueW` | 20 | Exported Function
+`DsQuoteRdnValueW` | 18 | Exported Function
+`DsMakeSpnW` | 16 | Exported Function
+`DsQuoteRdnValueA` | 17 | Exported Function
+`DsCrackSpn4W` | 4 | Exported Function
+`DsCrackSpnA` | 5 | Exported Function
+`DsCrackSpn3W` | 3 | Exported Function
+`DsCrackSpn2A` | 1 | Exported Function
+`DsCrackSpn2W` | 2 | Exported Function
+`DsGetRdnW` | 9 | Exported Function
+`DsIsMangledDnA` | 10 | Exported Function
+`DsCrackUnquotedMangledRdnW` | 8 | Exported Function
+`DsCrackSpnW` | 6 | Exported Function
+`DsCrackUnquotedMangledRdnA` | 7 | Exported Function
 
 
 ## Signature

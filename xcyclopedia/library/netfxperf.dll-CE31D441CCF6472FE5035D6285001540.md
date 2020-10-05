@@ -24,12 +24,12 @@ PE256 | `04772E555A9B168ECE0F0477E3413D52E57949C00D357B750D73344CF771B792`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClosePerformanceData` | 1 (0x1) | Exported Function | 0x100046e0 | 0x000046e0
-`CollectPerformanceData` | 2 (0x2) | Exported Function | 0x10004710 | 0x00004710
-`OpenPerformanceData` | 3 (0x3) | Exported Function | 0x100046a0 | 0x000046a0
-`TraceServiceStart` | 4 (0x4) | Exported Function | 0x10004750 | 0x00004750
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenPerformanceData` | 3 | Exported Function
+`TraceServiceStart` | 4 | Exported Function
+`ClosePerformanceData` | 1 | Exported Function
+`CollectPerformanceData` | 2 | Exported Function
 
 
 ## Signature

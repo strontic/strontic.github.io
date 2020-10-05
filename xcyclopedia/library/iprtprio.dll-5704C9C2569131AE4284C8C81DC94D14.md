@@ -24,13 +24,13 @@ PE256 | `989E1BB2C67C1E826C852C24403687B62223AA4AE1A7CAB6BB377D075EB35B6F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CleanUpIpPriority` | 1 (0x1) | Exported Function | 0x0000000180001440 | 0x00001440
-`ComputeRouteMetric` | 2 (0x2) | Exported Function | 0x00000001800010a0 | 0x000010a0
-`ComputeRouteMetricEx` | 3 (0x3) | Exported Function | 0x00000001800010b0 | 0x000010b0
-`GetPriorityInfo` | 4 (0x4) | Exported Function | 0x0000000180001340 | 0x00001340
-`SetPriorityInfo` | 5 (0x5) | Exported Function | 0x0000000180001150 | 0x00001150
+Function Name | Ordinal | Type
+-- | -- | --
+`GetPriorityInfo` | 4 | Exported Function
+`SetPriorityInfo` | 5 | Exported Function
+`ComputeRouteMetricEx` | 3 | Exported Function
+`CleanUpIpPriority` | 1 | Exported Function
+`ComputeRouteMetric` | 2 | Exported Function
 
 
 ## Signature

@@ -24,15 +24,15 @@ PE256 | `B8C0264C368AF729D702EDD7281B73F31B24CC583004FD8B332B7B6D8B34B0A8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AwaitContactPickerResults` | 1 (0x1) | Exported Function | 0x100075c0 | 0x000075c0
-`ContactToVCardString` | 2 (0x2) | Exported Function | 0x100085e0 | 0x000085e0
-`DeserializeContactFromString` | 3 (0x3) | Exported Function | 0x10008660 | 0x00008660
-`SerializeContactToString` | 4 (0x4) | Exported Function | 0x100086f0 | 0x000086f0
-`SerializeContactToVCard` | 5 (0x5) | Exported Function | 0x100046c0 | 0x000046c0
-`ShowContactPickerAsync` | 6 (0x6) | Exported Function | 0x10007940 | 0x00007940
-`VCardStringToContact` | 7 (0x7) | Exported Function | 0x10008770 | 0x00008770
+Function Name | Ordinal | Type
+-- | -- | --
+`SerializeContactToVCard` | 5 | Exported Function
+`ShowContactPickerAsync` | 6 | Exported Function
+`VCardStringToContact` | 7 | Exported Function
+`SerializeContactToString` | 4 | Exported Function
+`AwaitContactPickerResults` | 1 | Exported Function
+`ContactToVCardString` | 2 | Exported Function
+`DeserializeContactFromString` | 3 | Exported Function
 
 
 ## Signature

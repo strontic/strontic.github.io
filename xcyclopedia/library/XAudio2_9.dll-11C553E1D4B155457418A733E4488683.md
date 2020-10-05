@@ -24,18 +24,18 @@ PE256 | `A13A599B6F7A5ED2D32288CC6F61A1E6AE36F2047AB477D4CFA3FCCDE98B2D8A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateAudioReverb` | 2 (0x2) | Exported Function | 0x10060480 | 0x00060480
-`CreateAudioReverbV2_8` | 7 (0x7) | Exported Function | 0x10060530 | 0x00060530
-`CreateAudioVolumeMeter` | 3 (0x3) | Exported Function | 0x100603e0 | 0x000603e0
-`CreateFX` | 4 (0x4) | Exported Function | 0x10082550 | 0x00082550
-`X3DAudioCalculate` | 5 (0x5) | Exported Function | 0x1005ff90 | 0x0005ff90
-`X3DAudioInitialize` | 6 (0x6) | Exported Function | 0x1005e930 | 0x0005e930
-`XAudio2Create` | 1 (0x1) | Exported Function | 0x10021cf0 | 0x00021cf0
-`XAudio2CreateV2_9` | 8 (0x8) | Exported Function | 0x10021cf0 | 0x00021cf0
-`XAudio2CreateWithSharedContexts` | 10 (0xa) | Exported Function | 0x10021d50 | 0x00021d50
-`XAudio2CreateWithVersionInfo` | 9 (0x9) | Exported Function | 0x10021d20 | 0x00021d20
+Function Name | Ordinal | Type
+-- | -- | --
+`XAudio2Create` | 1 | Exported Function
+`X3DAudioInitialize` | 6 | Exported Function
+`XAudio2CreateV2_9` | 8 | Exported Function
+`XAudio2CreateWithVersionInfo` | 9 | Exported Function
+`XAudio2CreateWithSharedContexts` | 10 | Exported Function
+`CreateAudioReverbV2_8` | 7 | Exported Function
+`CreateAudioReverb` | 2 | Exported Function
+`CreateAudioVolumeMeter` | 3 | Exported Function
+`X3DAudioCalculate` | 5 | Exported Function
+`CreateFX` | 4 | Exported Function
 
 
 ## Signature

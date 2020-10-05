@@ -24,9 +24,9 @@ PE256 | `ADDFA105BE24EFE4243D85099BDDC9444216867CD8DF2FBBE0615A3F75C77FD9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PrivCopyFileExW` | 1 (0x1) | Exported Function | kernel32.PrivCopyFileExW | 0x0000118e
+Function Name | Ordinal | Type
+-- | -- | --
+`PrivCopyFileExW` | 1 | Exported Function
 
 
 ## Signature

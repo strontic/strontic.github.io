@@ -24,10 +24,10 @@ PE256 | `6A04E738B65330AED741B019A0C6D7172E4FF2CCCFB0F09D6CA5407E3E2D394F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SHGetFolderPathA` | 1 (0x1) | Exported Function | 0x0000000171301010 | 0x00001010
-`SHGetFolderPathW` | 2 (0x2) | Exported Function | 0x0000000171301970 | 0x00001970
+Function Name | Ordinal | Type
+-- | -- | --
+`SHGetFolderPathW` | 2 | Exported Function
+`SHGetFolderPathA` | 1 | Exported Function
 
 
 ## Signature

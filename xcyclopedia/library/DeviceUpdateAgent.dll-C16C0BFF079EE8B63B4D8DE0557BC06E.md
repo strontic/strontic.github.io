@@ -24,9 +24,9 @@ PE256 | `812E092CE8EB14E266299FA64F7F0F2E8F4B34AF13FA45A0BCD6ECBB9BFA9688`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDeploymentSessionEx` | 1 (0x1) | Exported Function | 0x00000001800028b0 | 0x000028b0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateDeploymentSessionEx` | 1 | Exported Function
 
 
 ## Signature

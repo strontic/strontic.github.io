@@ -24,56 +24,56 @@ PE256 | `9FB11EAB57A258066EE44F53EBB3B48482C025DCD770CE1B7B15396EFAF16E41`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CfAbortOperation` | 1 (0x1) | Exported Function | 0x0000000180001de0 | 0x00001de0
-`CfOpenFileWithOplock` | 27 (0x1b) | Exported Function | 0x0000000180002c30 | 0x00002c30
-`CfOpenProgressEvent` | 28 (0x1c) | Exported Function | 0x00000001800013b0 | 0x000013b0
-`CfQueryProgress` | 29 (0x1d) | Exported Function | 0x0000000180001470 | 0x00001470
-`CfQuerySyncProviderStatus` | 30 (0x1e) | Exported Function | 0x000000018000b9c0 | 0x0000b9c0
-`CfReferenceProtectedHandle` | 31 (0x1f) | Exported Function | 0x0000000180003280 | 0x00003280
-`CfRegisterSyncRoot` | 32 (0x20) | Exported Function | 0x0000000180005eb0 | 0x00005eb0
-`CfReleaseProtectedHandle` | 33 (0x21) | Exported Function | 0x00000001800032d0 | 0x000032d0
-`CfReleaseTransferKey` | 34 (0x22) | Exported Function | 0x00000001800032d0 | 0x000032d0
-`CfReportProviderProgress` | 35 (0x23) | Exported Function | 0x0000000180001840 | 0x00001840
-`CfOpenAppPolicy` | 26 (0x1a) | Exported Function | 0x0000000180002410 | 0x00002410
-`CfReportProviderProgress2` | 36 (0x24) | Exported Function | 0x0000000180001870 | 0x00001870
-`CfRetrieveProperties` | 38 (0x26) | Exported Function | 0x000000018000dad0 | 0x0000dad0
-`CfRevertPlaceholder` | 39 (0x27) | Exported Function | 0x000000018000c8f0 | 0x0000c8f0
-`CfSetAppPolicy` | 40 (0x28) | Exported Function | 0x0000000180002740 | 0x00002740
-`CfSetCorrelationVector` | 41 (0x29) | Exported Function | 0x000000018000d030 | 0x0000d030
-`CfSetInSyncState` | 42 (0x2a) | Exported Function | 0x000000018000ce40 | 0x0000ce40
-`CfSetPinState` | 43 (0x2b) | Exported Function | 0x000000018000ccd0 | 0x0000ccd0
-`CfStoreProperties` | 44 (0x2c) | Exported Function | 0x000000018000da20 | 0x0000da20
-`CfUnlockProperties` | 45 (0x2d) | Exported Function | 0x000000018000d970 | 0x0000d970
-`CfUnregisterSyncRoot` | 46 (0x2e) | Exported Function | 0x0000000180007070 | 0x00007070
-`CfReportSyncStatus` | 37 (0x25) | Exported Function | 0x000000018000bab0 | 0x0000bab0
-`CfLockProperties` | 25 (0x19) | Exported Function | 0x000000018000d890 | 0x0000d890
-`CfHydratePlaceholder` | 24 (0x18) | Exported Function | 0x000000018000c9f0 | 0x0000c9f0
-`CfGetWin32HandleFromProtectedHandle` | 23 (0x17) | Exported Function | 0x00000001800032b0 | 0x000032b0
-`CfCloseAppPolicy` | 2 (0x2) | Exported Function | 0x00000001800024c0 | 0x000024c0
-`CfCloseHandle` | 3 (0x3) | Exported Function | 0x00000001800032e0 | 0x000032e0
-`CfConnectSyncRoot` | 4 (0x4) | Exported Function | 0x0000000180007360 | 0x00007360
-`CfConvertToPlaceholder` | 5 (0x5) | Exported Function | 0x000000018000c2d0 | 0x0000c2d0
-`CfCreatePlaceholders` | 6 (0x6) | Exported Function | 0x000000018000c050 | 0x0000c050
-`CfDehydratePlaceholder` | 7 (0x7) | Exported Function | 0x000000018000cca0 | 0x0000cca0
-`CfDehydratePlaceholderEx` | 8 (0x8) | Exported Function | 0x000000018000cb00 | 0x0000cb00
-`CfDisconnectSyncRoot` | 9 (0x9) | Exported Function | 0x0000000180007f90 | 0x00007f90
-`CfEnumAppPolicy` | 10 (0xa) | Exported Function | 0x00000001800024f0 | 0x000024f0
-`CfExecute` | 11 (0xb) | Exported Function | 0x000000018000ae80 | 0x0000ae80
-`CfGetCorrelationVector` | 12 (0xc) | Exported Function | 0x000000018000d160 | 0x0000d160
-`CfGetLastSyncStatus` | 13 (0xd) | Exported Function | 0x0000000180002380 | 0x00002380
-`CfGetPlaceholderInfo` | 14 (0xe) | Exported Function | 0x000000018000d270 | 0x0000d270
-`CfGetPlaceholderRangeInfo` | 15 (0xf) | Exported Function | 0x000000018000d670 | 0x0000d670
-`CfGetPlaceholderStateFromAttributeTag` | 16 (0x10) | Exported Function | 0x0000000180013400 | 0x00013400
-`CfGetPlaceholderStateFromFileInfo` | 17 (0x11) | Exported Function | 0x0000000180013410 | 0x00013410
-`CfGetPlaceholderStateFromFindData` | 18 (0x12) | Exported Function | 0x00000001800134d0 | 0x000134d0
-`CfGetPlatformInfo` | 19 (0x13) | Exported Function | 0x000000018000d230 | 0x0000d230
-`CfGetSyncRootInfoByHandle` | 20 (0x14) | Exported Function | 0x000000018000d400 | 0x0000d400
-`CfGetSyncRootInfoByPath` | 21 (0x15) | Exported Function | 0x000000018000d590 | 0x0000d590
-`CfGetTransferKey` | 22 (0x16) | Exported Function | 0x000000018000cf90 | 0x0000cf90
-`CfUpdatePlaceholder` | 47 (0x2f) | Exported Function | 0x000000018000c4f0 | 0x0000c4f0
-`CfUpdateSyncProviderStatus` | 48 (0x30) | Exported Function | 0x000000018000b260 | 0x0000b260
+Function Name | Ordinal | Type
+-- | -- | --
+`CfReleaseProtectedHandle` | 33 | Exported Function
+`CfRegisterSyncRoot` | 32 | Exported Function
+`CfReferenceProtectedHandle` | 31 | Exported Function
+`CfReportProviderProgress2` | 36 | Exported Function
+`CfReportProviderProgress` | 35 | Exported Function
+`CfReleaseTransferKey` | 34 | Exported Function
+`CfOpenFileWithOplock` | 27 | Exported Function
+`CfOpenAppPolicy` | 26 | Exported Function
+`CfLockProperties` | 25 | Exported Function
+`CfQuerySyncProviderStatus` | 30 | Exported Function
+`CfQueryProgress` | 29 | Exported Function
+`CfOpenProgressEvent` | 28 | Exported Function
+`CfUnlockProperties` | 45 | Exported Function
+`CfStoreProperties` | 44 | Exported Function
+`CfSetPinState` | 43 | Exported Function
+`CfUpdateSyncProviderStatus` | 48 | Exported Function
+`CfUpdatePlaceholder` | 47 | Exported Function
+`CfUnregisterSyncRoot` | 46 | Exported Function
+`CfRevertPlaceholder` | 39 | Exported Function
+`CfRetrieveProperties` | 38 | Exported Function
+`CfReportSyncStatus` | 37 | Exported Function
+`CfSetInSyncState` | 42 | Exported Function
+`CfSetCorrelationVector` | 41 | Exported Function
+`CfSetAppPolicy` | 40 | Exported Function
+`CfDisconnectSyncRoot` | 9 | Exported Function
+`CfDehydratePlaceholderEx` | 8 | Exported Function
+`CfDehydratePlaceholder` | 7 | Exported Function
+`CfGetCorrelationVector` | 12 | Exported Function
+`CfExecute` | 11 | Exported Function
+`CfEnumAppPolicy` | 10 | Exported Function
+`CfCloseHandle` | 3 | Exported Function
+`CfCloseAppPolicy` | 2 | Exported Function
+`CfAbortOperation` | 1 | Exported Function
+`CfCreatePlaceholders` | 6 | Exported Function
+`CfConvertToPlaceholder` | 5 | Exported Function
+`CfConnectSyncRoot` | 4 | Exported Function
+`CfGetSyncRootInfoByPath` | 21 | Exported Function
+`CfGetSyncRootInfoByHandle` | 20 | Exported Function
+`CfGetPlatformInfo` | 19 | Exported Function
+`CfHydratePlaceholder` | 24 | Exported Function
+`CfGetWin32HandleFromProtectedHandle` | 23 | Exported Function
+`CfGetTransferKey` | 22 | Exported Function
+`CfGetPlaceholderRangeInfo` | 15 | Exported Function
+`CfGetPlaceholderInfo` | 14 | Exported Function
+`CfGetLastSyncStatus` | 13 | Exported Function
+`CfGetPlaceholderStateFromFindData` | 18 | Exported Function
+`CfGetPlaceholderStateFromFileInfo` | 17 | Exported Function
+`CfGetPlaceholderStateFromAttributeTag` | 16 | Exported Function
 
 
 ## Signature

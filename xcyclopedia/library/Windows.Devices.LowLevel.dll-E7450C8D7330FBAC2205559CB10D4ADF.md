@@ -24,12 +24,12 @@ PE256 | `21C684884BC8FBC025247D116621B2158F3A5FA73A90F2E8B4F7B99B0816C08A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10021890 | 0x00021890
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x10021870 | 0x00021870
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x100218c0 | 0x000218c0
-`GetProxyDllInfo` | 4 (0x4) | Exported Function | 0x1004ec50 | 0x0004ec50
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 3 | Exported Function
+`GetProxyDllInfo` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 
 
 ## Signature

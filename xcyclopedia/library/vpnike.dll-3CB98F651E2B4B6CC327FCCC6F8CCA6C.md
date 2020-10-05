@@ -24,14 +24,14 @@ PE256 | `B3013D9A6221206FF854AEC60AD7FE02EC7BCC049EC692491D0F4602350D92E8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializeProtocolEngine` | 2 (0x2) | Exported Function | 0x0000000180006eb0 | 0x00006eb0
-`InitializeServerProtocolEngine` | 3 (0x3) | Exported Function | 0x00000001800072b0 | 0x000072b0
-`SendMessageToProtocolEngine` | 4 (0x4) | Exported Function | 0x0000000180007280 | 0x00007280
-`UninitializeProtocolEngine` | 5 (0x5) | Exported Function | 0x00000001800071b0 | 0x000071b0
-`UninitializeServerProtocolEngine` | 6 (0x6) | Exported Function | 0x0000000180007690 | 0x00007690
-`VpnIkeRoamToBestCostInterface` | 1 (0x1) | Exported Function | 0x0000000180007710 | 0x00007710
+Function Name | Ordinal | Type
+-- | -- | --
+`UninitializeProtocolEngine` | 5 | Exported Function
+`UninitializeServerProtocolEngine` | 6 | Exported Function
+`VpnIkeRoamToBestCostInterface` | 1 | Exported Function
+`InitializeProtocolEngine` | 2 | Exported Function
+`InitializeServerProtocolEngine` | 3 | Exported Function
+`SendMessageToProtocolEngine` | 4 | Exported Function
 
 
 ## Signature

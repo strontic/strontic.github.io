@@ -24,15 +24,15 @@ PE256 | `AEB9FCB1D079C347E74DCAD26CFCCFAEA57FC5A3992871B82C37A7EA1057983C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateAudioReverb` | 2 (0x2) | Exported Function | xaudio2_9.CreateAudioReverbV2_8 | 0x000010ee
-`CreateAudioVolumeMeter` | 3 (0x3) | Exported Function | xaudio2_9.CreateAudioVolumeMeter | 0x00001125
-`CreateFX` | 4 (0x4) | Exported Function | xaudio2_9.CreateFX | 0x0000114f
-`X3DAudioCalculate` | 5 (0x5) | Exported Function | xaudio2_9.X3DAudioCalculate | 0x00001174
-`X3DAudioInitialize` | 6 (0x6) | Exported Function | xaudio2_9.X3DAudioInitialize | 0x000011a3
-`XAudio2Create` | 1 (0x1) | Exported Function | xaudio2_9.XAudio2Create | 0x000011ce
-`XAudio2CreateWithVersionInfo` | 7 (0x7) | Exported Function | xaudio2_9.XAudio2CreateWithVersionInfo | 0x00001203
+Function Name | Ordinal | Type
+-- | -- | --
+`X3DAudioInitialize` | 6 | Exported Function
+`XAudio2Create` | 1 | Exported Function
+`XAudio2CreateWithVersionInfo` | 7 | Exported Function
+`X3DAudioCalculate` | 5 | Exported Function
+`CreateAudioReverb` | 2 | Exported Function
+`CreateAudioVolumeMeter` | 3 | Exported Function
+`CreateFX` | 4 | Exported Function
 
 
 ## Signature

@@ -24,24 +24,24 @@ PE256 | `93EE5380A5F873E5E996DA72F299E5D8E373F682D9313886D55661ABDAFF5C1D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AllocateAttributes` | 1 (0x1) | Exported Function | 0x0000000180005f70 | 0x00005f70
-`ConfigureIas` | 2 (0x2) | Exported Function | 0x0000000180006640 | 0x00006640
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180005230 | 0x00005230
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180005250 | 0x00005250
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x0000000180005280 | 0x00005280
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x00000001800052a0 | 0x000052a0
-`DoRequest` | 7 (0x7) | Exported Function | 0x0000000180006030 | 0x00006030
-`DoRequestAsync` | 8 (0x8) | Exported Function | 0x00000001800069f0 | 0x000069f0
-`FreeAttributes` | 9 (0x9) | Exported Function | 0x0000000180005ff0 | 0x00005ff0
-`GetOptionIas` | 10 (0xa) | Exported Function | 0x00000001800072d0 | 0x000072d0
-`InitializeIas` | 11 (0xb) | Exported Function | 0x00000001800052d0 | 0x000052d0
-`MemAllocIas` | 12 (0xc) | Exported Function | 0x0000000180006990 | 0x00006990
-`MemFreeIas` | 13 (0xd) | Exported Function | 0x00000001800069b0 | 0x000069b0
-`MemReallocIas` | 14 (0xe) | Exported Function | 0x00000001800069d0 | 0x000069d0
-`SetOptionIas` | 15 (0xf) | Exported Function | 0x00000001800070b0 | 0x000070b0
-`ShutdownIas` | 16 (0x10) | Exported Function | 0x0000000180005af0 | 0x00005af0
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializeIas` | 11 | Exported Function
+`MemAllocIas` | 12 | Exported Function
+`FreeAttributes` | 9 | Exported Function
+`GetOptionIas` | 10 | Exported Function
+`SetOptionIas` | 15 | Exported Function
+`ShutdownIas` | 16 | Exported Function
+`MemFreeIas` | 13 | Exported Function
+`MemReallocIas` | 14 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`AllocateAttributes` | 1 | Exported Function
+`ConfigureIas` | 2 | Exported Function
+`DoRequest` | 7 | Exported Function
+`DoRequestAsync` | 8 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
 
 
 ## Signature

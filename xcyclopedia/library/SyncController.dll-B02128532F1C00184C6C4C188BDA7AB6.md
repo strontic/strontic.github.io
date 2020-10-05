@@ -24,25 +24,25 @@ PE256 | `9FAF6B3093736EB3F4EB2167BE49F665FBD0788190D070A882764F70909A28DA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AccountsMgmtAdviseAccount` | 1 (0x1) | Exported Function | 0x100189f0 | 0x000189f0
-`AccountsMgmtVerifyExchangeMailBoxTokenAuth` | 15 (0xf) | Exported Function | 0x1001c130 | 0x0001c130
-`AccountsMgmtUnadviseAccount` | 14 (0xe) | Exported Function | 0x10018c00 | 0x00018c00
-`AccountsMgmtSyncAccountAndWaitForCompletion` | 13 (0xd) | Exported Function | 0x100185a0 | 0x000185a0
-`AccountsMgmtSyncAccount` | 12 (0xc) | Exported Function | 0x10018460 | 0x00018460
-`AccountsMgmtSaveAccountProperties` | 11 (0xb) | Exported Function | 0x10018810 | 0x00018810
-`AccountsMgmtQueryAccountProperties` | 10 (0xa) | Exported Function | 0x100186e0 | 0x000186e0
-`DllCanUnloadNow` | 16 (0x10) | Exported Function | 0x100162c0 | 0x000162c0
-`AccountsMgmtMayIgnoreInvalidServerCertificate` | 9 (0x9) | Exported Function | 0x1001e910 | 0x0001e910
-`AccountsMgmtEnumAccounts` | 7 (0x7) | Exported Function | 0x10018940 | 0x00018940
-`AccountsMgmtDiscoverExchangeServerConfig` | 6 (0x6) | Exported Function | 0x1001bea0 | 0x0001bea0
-`AccountsMgmtDeleteAccount` | 5 (0x5) | Exported Function | 0x10018290 | 0x00018290
-`AccountsMgmtCreateAccount` | 4 (0x4) | Exported Function | 0x10018190 | 0x00018190
-`AccountsMgmtConvertWebAccountIdToAppSpecificId` | 3 (0x3) | Exported Function | 0x100183d0 | 0x000183d0
-`AccountsMgmtConvertWebAccountIdFromAppSpecificId` | 2 (0x2) | Exported Function | 0x10018340 | 0x00018340
-`AccountsMgmtGetNotifications` | 8 (0x8) | Exported Function | 0x10018d60 | 0x00018d60
-`DllGetClassObject` | 17 (0x11) | Exported Function | 0x100162f0 | 0x000162f0
+Function Name | Ordinal | Type
+-- | -- | --
+`AccountsMgmtSyncAccount` | 12 | Exported Function
+`AccountsMgmtSyncAccountAndWaitForCompletion` | 13 | Exported Function
+`AccountsMgmtQueryAccountProperties` | 10 | Exported Function
+`AccountsMgmtSaveAccountProperties` | 11 | Exported Function
+`DllCanUnloadNow` | 16 | Exported Function
+`DllGetClassObject` | 17 | Exported Function
+`AccountsMgmtUnadviseAccount` | 14 | Exported Function
+`AccountsMgmtVerifyExchangeMailBoxTokenAuth` | 15 | Exported Function
+`AccountsMgmtMayIgnoreInvalidServerCertificate` | 9 | Exported Function
+`AccountsMgmtConvertWebAccountIdToAppSpecificId` | 3 | Exported Function
+`AccountsMgmtCreateAccount` | 4 | Exported Function
+`AccountsMgmtAdviseAccount` | 1 | Exported Function
+`AccountsMgmtConvertWebAccountIdFromAppSpecificId` | 2 | Exported Function
+`AccountsMgmtEnumAccounts` | 7 | Exported Function
+`AccountsMgmtGetNotifications` | 8 | Exported Function
+`AccountsMgmtDeleteAccount` | 5 | Exported Function
+`AccountsMgmtDiscoverExchangeServerConfig` | 6 | Exported Function
 
 
 ## Signature

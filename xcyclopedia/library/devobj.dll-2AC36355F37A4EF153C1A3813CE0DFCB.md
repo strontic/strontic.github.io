@@ -24,60 +24,60 @@ PE256 | `58C312DAD8C095077540121502329F7AD0CAC5A64F5520B0AA8205EDA0B1D1B2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DevObjBuildClassInfoList` | 1 (0x1) | Exported Function | 0x000000018000a8a0 | 0x0000a8a0
-`DevObjGetDeviceInterfaceAlias` | 29 (0x1d) | Exported Function | 0x0000000180001010 | 0x00001010
-`DevObjGetDeviceInterfaceDetail` | 30 (0x1e) | Exported Function | 0x0000000180003960 | 0x00003960
-`DevObjGetDeviceInterfaceProperty` | 31 (0x1f) | Exported Function | 0x0000000180002130 | 0x00002130
-`DevObjGetDeviceInterfacePropertyKeys` | 32 (0x20) | Exported Function | 0x00000001800140a0 | 0x000140a0
-`DevObjGetDeviceProperty` | 33 (0x21) | Exported Function | 0x0000000180003620 | 0x00003620
-`DevObjGetDevicePropertyKeys` | 34 (0x22) | Exported Function | 0x0000000180014250 | 0x00014250
-`DevObjGetDeviceRegistryProperty` | 35 (0x23) | Exported Function | 0x0000000180006250 | 0x00006250
-`DevObjLocateDevice` | 36 (0x24) | Exported Function | 0x000000018000f350 | 0x0000f350
-`DevObjOpenClassRegKey` | 37 (0x25) | Exported Function | 0x00000001800143e0 | 0x000143e0
-`DevObjOpenDeviceInfo` | 39 (0x27) | Exported Function | 0x00000001800015b0 | 0x000015b0
-`DevObjGetDeviceInstanceId` | 28 (0x1c) | Exported Function | 0x00000001800017f0 | 0x000017f0
-`DevObjOpenDeviceInterface` | 40 (0x28) | Exported Function | 0x0000000180001d10 | 0x00001d10
-`DevObjOpenDevRegKey` | 38 (0x26) | Exported Function | 0x0000000180006680 | 0x00006680
-`DevObjRegisterDeviceInfo` | 42 (0x2a) | Exported Function | 0x000000018000c210 | 0x0000c210
-`DevObjRemoveDeviceInterface` | 43 (0x2b) | Exported Function | 0x000000018000cae0 | 0x0000cae0
-`DevObjRestartDevices` | 44 (0x2c) | Exported Function | 0x000000018000f530 | 0x0000f530
-`DevObjSetClassProperty` | 45 (0x2d) | Exported Function | 0x00000001800147d0 | 0x000147d0
-`DevObjSetClassRegistryProperty` | 46 (0x2e) | Exported Function | 0x00000001800148d0 | 0x000148d0
-`DevObjSetDeviceInfoDetail` | 47 (0x2f) | Exported Function | 0x000000018000cca0 | 0x0000cca0
-`DevObjSetDeviceInterfaceDefault` | 48 (0x30) | Exported Function | 0x000000018000cde0 | 0x0000cde0
-`DevObjSetDeviceInterfaceProperty` | 49 (0x31) | Exported Function | 0x0000000180006ab0 | 0x00006ab0
-`DevObjSetDeviceProperty` | 50 (0x32) | Exported Function | 0x0000000180006d10 | 0x00006d10
-`DevObjOpenDeviceInterfaceRegKey` | 41 (0x29) | Exported Function | 0x00000001800145d0 | 0x000145d0
-`DevObjGetDeviceInfoListDetail` | 27 (0x1b) | Exported Function | 0x00000001800024b0 | 0x000024b0
-`DevObjGetDeviceInfoListClass` | 26 (0x1a) | Exported Function | 0x000000018000c0f0 | 0x0000c0f0
-`DevObjGetDeviceInfoDetail` | 25 (0x19) | Exported Function | 0x000000018000bfb0 | 0x0000bfb0
-`DevObjChangeState` | 2 (0x2) | Exported Function | 0x000000018000df70 | 0x0000df70
-`DevObjClassGuidsFromName` | 3 (0x3) | Exported Function | 0x000000018000ac10 | 0x0000ac10
-`DevObjClassNameFromGuid` | 4 (0x4) | Exported Function | 0x000000018000aec0 | 0x0000aec0
-`DevObjCreateClassDeviceInfoList` | 5 (0x5) | Exported Function | 0x000000018000b1f0 | 0x0000b1f0
-`DevObjCreateDeviceInfo` | 7 (0x7) | Exported Function | 0x000000018000b390 | 0x0000b390
-`DevObjCreateDeviceInfoList` | 8 (0x8) | Exported Function | 0x00000001800012c0 | 0x000012c0
-`DevObjCreateDeviceInterface` | 9 (0x9) | Exported Function | 0x000000018000ba30 | 0x0000ba30
-`DevObjCreateDeviceInterfaceRegKey` | 10 (0xa) | Exported Function | 0x0000000180013710 | 0x00013710
-`DevObjCreateDevRegKey` | 6 (0x6) | Exported Function | 0x00000001800134d0 | 0x000134d0
-`DevObjDeleteAllInterfacesForDevice` | 11 (0xb) | Exported Function | 0x000000018000bd00 | 0x0000bd00
-`DevObjDeleteDevice` | 13 (0xd) | Exported Function | 0x000000018000eb40 | 0x0000eb40
-`DevObjDeleteDeviceInfo` | 14 (0xe) | Exported Function | 0x000000018000be50 | 0x0000be50
-`DevObjDeleteDeviceInterfaceData` | 15 (0xf) | Exported Function | 0x0000000180006920 | 0x00006920
-`DevObjDeleteDeviceInterfaceRegKey` | 16 (0x10) | Exported Function | 0x0000000180013b80 | 0x00013b80
-`DevObjDeleteDevRegKey` | 12 (0xc) | Exported Function | 0x0000000180013a00 | 0x00013a00
-`DevObjDestroyDeviceInfoList` | 17 (0x11) | Exported Function | 0x0000000180003f90 | 0x00003f90
-`DevObjEnumDeviceInfo` | 18 (0x12) | Exported Function | 0x0000000180005680 | 0x00005680
-`DevObjEnumDeviceInterfaces` | 19 (0x13) | Exported Function | 0x0000000180003040 | 0x00003040
-`DevObjGetClassDescription` | 20 (0x14) | Exported Function | 0x000000018000b040 | 0x0000b040
-`DevObjGetClassDevs` | 21 (0x15) | Exported Function | 0x00000001800043c0 | 0x000043c0
-`DevObjGetClassProperty` | 22 (0x16) | Exported Function | 0x0000000180013d50 | 0x00013d50
-`DevObjGetClassPropertyKeys` | 23 (0x17) | Exported Function | 0x0000000180013e60 | 0x00013e60
-`DevObjGetClassRegistryProperty` | 24 (0x18) | Exported Function | 0x0000000180013f50 | 0x00013f50
-`DevObjSetDeviceRegistryProperty` | 51 (0x33) | Exported Function | 0x0000000180014a00 | 0x00014a00
-`DevObjUninstallDevice` | 52 (0x34) | Exported Function | 0x000000018000f970 | 0x0000f970
+Function Name | Ordinal | Type
+-- | -- | --
+`DevObjLocateDevice` | 36 | Exported Function
+`DevObjGetDeviceRegistryProperty` | 35 | Exported Function
+`DevObjGetDevicePropertyKeys` | 34 | Exported Function
+`DevObjOpenDeviceInterface` | 40 | Exported Function
+`DevObjOpenDeviceInfo` | 39 | Exported Function
+`DevObjOpenClassRegKey` | 37 | Exported Function
+`DevObjGetDeviceProperty` | 33 | Exported Function
+`DevObjGetDeviceInterfaceAlias` | 29 | Exported Function
+`DevObjGetDeviceInstanceId` | 28 | Exported Function
+`DevObjGetDeviceInfoListDetail` | 27 | Exported Function
+`DevObjGetDeviceInterfacePropertyKeys` | 32 | Exported Function
+`DevObjGetDeviceInterfaceProperty` | 31 | Exported Function
+`DevObjGetDeviceInterfaceDetail` | 30 | Exported Function
+`DevObjSetDeviceInterfaceProperty` | 49 | Exported Function
+`DevObjSetDeviceInterfaceDefault` | 48 | Exported Function
+`DevObjSetDeviceInfoDetail` | 47 | Exported Function
+`DevObjUninstallDevice` | 52 | Exported Function
+`DevObjSetDeviceRegistryProperty` | 51 | Exported Function
+`DevObjSetDeviceProperty` | 50 | Exported Function
+`DevObjSetClassRegistryProperty` | 46 | Exported Function
+`DevObjRegisterDeviceInfo` | 42 | Exported Function
+`DevObjOpenDevRegKey` | 38 | Exported Function
+`DevObjOpenDeviceInterfaceRegKey` | 41 | Exported Function
+`DevObjSetClassProperty` | 45 | Exported Function
+`DevObjRestartDevices` | 44 | Exported Function
+`DevObjRemoveDeviceInterface` | 43 | Exported Function
+`DevObjCreateDevRegKey` | 6 | Exported Function
+`DevObjCreateDeviceInterfaceRegKey` | 10 | Exported Function
+`DevObjCreateDeviceInterface` | 9 | Exported Function
+`DevObjDeleteDeviceInfo` | 14 | Exported Function
+`DevObjDeleteDevice` | 13 | Exported Function
+`DevObjDeleteAllInterfacesForDevice` | 11 | Exported Function
+`DevObjCreateDeviceInfoList` | 8 | Exported Function
+`DevObjClassGuidsFromName` | 3 | Exported Function
+`DevObjChangeState` | 2 | Exported Function
+`DevObjBuildClassInfoList` | 1 | Exported Function
+`DevObjCreateDeviceInfo` | 7 | Exported Function
+`DevObjCreateClassDeviceInfoList` | 5 | Exported Function
+`DevObjClassNameFromGuid` | 4 | Exported Function
+`DevObjGetClassPropertyKeys` | 23 | Exported Function
+`DevObjGetClassProperty` | 22 | Exported Function
+`DevObjGetClassDevs` | 21 | Exported Function
+`DevObjGetDeviceInfoListClass` | 26 | Exported Function
+`DevObjGetDeviceInfoDetail` | 25 | Exported Function
+`DevObjGetClassRegistryProperty` | 24 | Exported Function
+`DevObjGetClassDescription` | 20 | Exported Function
+`DevObjDeleteDevRegKey` | 12 | Exported Function
+`DevObjDeleteDeviceInterfaceRegKey` | 16 | Exported Function
+`DevObjDeleteDeviceInterfaceData` | 15 | Exported Function
+`DevObjEnumDeviceInterfaces` | 19 | Exported Function
+`DevObjEnumDeviceInfo` | 18 | Exported Function
+`DevObjDestroyDeviceInfoList` | 17 | Exported Function
 
 
 ## Signature

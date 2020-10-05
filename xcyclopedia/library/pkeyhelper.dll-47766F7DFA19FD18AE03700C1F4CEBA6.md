@@ -24,20 +24,20 @@ PE256 | `B75F394D759E32D39CD0836A4740BE4E44809355A57BF06F8541E578D3241554`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetBootPolicySetForEdition` | 1 (0x1) | Exported Function | 0x0000000180007d60 | 0x00007d60
-`GetCompositionEditionForVirtualEdition` | 2 (0x2) | Exported Function | 0x00000001800079f0 | 0x000079f0
-`GetDefaultProductKeyForPfn` | 3 (0x3) | Exported Function | 0x0000000180007510 | 0x00007510
-`GetEditionIdFromName` | 4 (0x4) | Exported Function | 0x00000001800073c0 | 0x000073c0
-`GetEditionNameFromId` | 5 (0x5) | Exported Function | 0x00000001800074a0 | 0x000074a0
-`GetProductKeyFromContentId` | 6 (0x6) | Exported Function | 0x0000000180007910 | 0x00007910
-`GetVirtualEditionsForCompositionEdition` | 7 (0x7) | Exported Function | 0x0000000180007ae0 | 0x00007ae0
-`IsDefaultPKey` | 8 (0x8) | Exported Function | 0x0000000180007780 | 0x00007780
-`SkuGetProductKeyForEdition` | 9 (0x9) | Exported Function | 0x0000000180007e90 | 0x00007e90
-`SkuGetUpgradeProductKey` | 10 (0xa) | Exported Function | 0x0000000180006f30 | 0x00006f30
-`SkuGetUpgradeProductKeyEx` | 11 (0xb) | Exported Function | 0x00000001800020e0 | 0x000020e0
-`SkuGetUpgradeProductKeyFromDownlevelEdition` | 12 (0xc) | Exported Function | 0x0000000180006f90 | 0x00006f90
+Function Name | Ordinal | Type
+-- | -- | --
+`SkuGetProductKeyForEdition` | 9 | Exported Function
+`IsDefaultPKey` | 8 | Exported Function
+`GetVirtualEditionsForCompositionEdition` | 7 | Exported Function
+`SkuGetUpgradeProductKeyFromDownlevelEdition` | 12 | Exported Function
+`SkuGetUpgradeProductKeyEx` | 11 | Exported Function
+`SkuGetUpgradeProductKey` | 10 | Exported Function
+`GetDefaultProductKeyForPfn` | 3 | Exported Function
+`GetCompositionEditionForVirtualEdition` | 2 | Exported Function
+`GetBootPolicySetForEdition` | 1 | Exported Function
+`GetProductKeyFromContentId` | 6 | Exported Function
+`GetEditionNameFromId` | 5 | Exported Function
+`GetEditionIdFromName` | 4 | Exported Function
 
 
 ## Signature

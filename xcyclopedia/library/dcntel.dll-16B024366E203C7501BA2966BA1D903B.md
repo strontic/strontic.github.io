@@ -24,15 +24,15 @@ PE256 | `9BD2BA7CD626C239896C008FBF4D05B3DF73CD1800B7A1B618A91BBEF2EE0790`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetCensusPropertyAlloc` | 1 (0x1) | Exported Function | 0x0000000180006f20 | 0x00006f20
-`GetCensusRegistryLocation` | 2 (0x2) | Exported Function | 0x0000000180007210 | 0x00007210
-`RunSystemContextCensus` | 3 (0x3) | Exported Function | 0x00000001800068f0 | 0x000068f0
-`RunUserContextCensus` | 4 (0x4) | Exported Function | 0x0000000180006a50 | 0x00006a50
-`SetCustomTrigger` | 5 (0x5) | Exported Function | 0x0000000180006ea0 | 0x00006ea0
-`SetCustomTriggerEx` | 6 (0x6) | Exported Function | 0x0000000180006a60 | 0x00006a60
-`SysprepCleanupEnableCustomTrigger` | 7 (0x7) | Exported Function | 0x0000000180006ec0 | 0x00006ec0
+Function Name | Ordinal | Type
+-- | -- | --
+`SetCustomTrigger` | 5 | Exported Function
+`SetCustomTriggerEx` | 6 | Exported Function
+`SysprepCleanupEnableCustomTrigger` | 7 | Exported Function
+`RunUserContextCensus` | 4 | Exported Function
+`GetCensusPropertyAlloc` | 1 | Exported Function
+`GetCensusRegistryLocation` | 2 | Exported Function
+`RunSystemContextCensus` | 3 | Exported Function
 
 
 ## Signature

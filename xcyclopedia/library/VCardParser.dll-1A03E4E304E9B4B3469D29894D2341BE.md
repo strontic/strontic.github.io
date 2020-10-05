@@ -24,14 +24,14 @@ PE256 | `7FFEF86CCFCA5B2BAE396D4B32595ACF954EA31FEC6212D31D35858017D8AAB3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateCardParser` | 2 (0x2) | Exported Function | 0x0000000180001eb0 | 0x00001eb0
-`CreateCardParserEx` | 3 (0x3) | Exported Function | 0x0000000180002060 | 0x00002060
-`CreateCardParserExA` | 4 (0x4) | Exported Function | 0x0000000180001ec0 | 0x00001ec0
-`CreateICalGen` | 5 (0x5) | Exported Function | 0x00000001800098d0 | 0x000098d0
-`CreateVCardGen` | 6 (0x6) | Exported Function | 0x000000018000f190 | 0x0000f190
-`EncodeQP` | 1 (0x1) | Exported Function | 0x0000000180001510 | 0x00001510
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateICalGen` | 5 | Exported Function
+`CreateVCardGen` | 6 | Exported Function
+`EncodeQP` | 1 | Exported Function
+`CreateCardParser` | 2 | Exported Function
+`CreateCardParserEx` | 3 | Exported Function
+`CreateCardParserExA` | 4 | Exported Function
 
 
 ## Signature

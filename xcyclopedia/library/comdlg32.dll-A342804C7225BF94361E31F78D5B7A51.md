@@ -24,38 +24,36 @@ PE256 | `F65B8B35DDAD736AA76F28AC6B1BF51562BE9E0CA4D78EAA1BD03EFAF6690A3D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ChooseColorA` | 102 (0x66) | Exported Function | 0x520d5840 | 0x00055840
-`ReplaceTextW` | 125 (0x7d) | Exported Function | 0x520e20f0 | 0x000620f0
-`ReplaceTextA` | 124 (0x7c) | Exported Function | 0x520e20d0 | 0x000620d0
-`PrintDlgW` | 123 (0x7b) | Exported Function | 0x520b99d0 | 0x000399d0
-`PrintDlgExW` | 122 (0x7a) | Exported Function | 0x52102540 | 0x00082540
-`PrintDlgExA` | 121 (0x79) | Exported Function | 0x521024d0 | 0x000824d0
-`PrintDlgA` | 120 (0x78) | Exported Function | 0x520e71c0 | 0x000671c0
-`PageSetupDlgW` | 119 (0x77) | Exported Function | 0x520e6960 | 0x00066960
-`PageSetupDlgA` | 118 (0x76) | Exported Function | 0x520e6830 | 0x00066830
-`Ordinal101` | 101 (0x65) | Exported Function | 0x52100020 | 0x00080020
-`Ordinal100` | 100 (0x64) | Exported Function | 0x520e3df0 | 0x00063df0
-`LoadAlterBitmap` | 117 (0x75) | Exported Function | 0x520d9280 | 0x00059280
-`GetSaveFileNameW` | 116 (0x74) | Exported Function | 0x520dd3e0 | 0x0005d3e0
-`GetSaveFileNameA` | 115 (0x73) | Exported Function | 0x520dd3c0 | 0x0005d3c0
-`GetOpenFileNameW` | 114 (0x72) | Exported Function | 0x520dd310 | 0x0005d310
-`GetOpenFileNameA` | 113 (0x71) | Exported Function | 0x520dd2e0 | 0x0005d2e0
-`GetFileTitleW` | 112 (0x70) | Exported Function | 0x520dcf30 | 0x0005cf30
-`GetFileTitleA` | 111 (0x6f) | Exported Function | 0x520dce30 | 0x0005ce30
-`FindTextW` | 110 (0x6e) | Exported Function | 0x520e1c20 | 0x00061c20
-`FindTextA` | 109 (0x6d) | Exported Function | 0x520e1c00 | 0x00061c00
-`dwOKSubclass` | 129 (0x81) | Exported Function | 0x520e1670 | 0x00061670
-`dwLBSubclass` | 128 (0x80) | Exported Function | 0x520e15e0 | 0x000615e0
-`DllGetClassObject` | 108 (0x6c) | Exported Function | 0x520bbbf0 | 0x0003bbf0
-`DllCanUnloadNow` | 107 (0x6b) | Exported Function | 0x520bdb20 | 0x0003db20
-`CommDlgExtendedError` | 106 (0x6a) | Exported Function | 0x520d9170 | 0x00059170
-`ChooseFontW` | 105 (0x69) | Exported Function | 0x520e2950 | 0x00062950
-`ChooseFontA` | 104 (0x68) | Exported Function | 0x520e2710 | 0x00062710
-`ChooseColorW` | 103 (0x67) | Exported Function | 0x520d5980 | 0x00055980
-`Ssync_ANSI_UNICODE_Struct_For_WOW` | 126 (0x7e) | Exported Function | 0x520d93c0 | 0x000593c0
-`WantArrows` | 127 (0x7f) | Exported Function | 0x520d7620 | 0x00057620
+Function Name | Ordinal | Type
+-- | -- | --
+`PageSetupDlgA` | 118 | Exported Function
+`PageSetupDlgW` | 119 | Exported Function
+`PrintDlgA` | 120 | Exported Function
+`LoadAlterBitmap` | 117 | Exported Function
+`GetOpenFileNameW` | 114 | Exported Function
+`GetSaveFileNameA` | 115 | Exported Function
+`GetSaveFileNameW` | 116 | Exported Function
+`ReplaceTextW` | 125 | Exported Function
+`Ssync_ANSI_UNICODE_Struct_For_WOW` | 126 | Exported Function
+`WantArrows` | 127 | Exported Function
+`ReplaceTextA` | 124 | Exported Function
+`PrintDlgExA` | 121 | Exported Function
+`PrintDlgExW` | 122 | Exported Function
+`PrintDlgW` | 123 | Exported Function
+`CommDlgExtendedError` | 106 | Exported Function
+`DllCanUnloadNow` | 107 | Exported Function
+`DllGetClassObject` | 108 | Exported Function
+`ChooseFontW` | 105 | Exported Function
+`ChooseColorA` | 102 | Exported Function
+`ChooseColorW` | 103 | Exported Function
+`ChooseFontA` | 104 | Exported Function
+`GetFileTitleA` | 111 | Exported Function
+`GetFileTitleW` | 112 | Exported Function
+`GetOpenFileNameA` | 113 | Exported Function
+`FindTextW` | 110 | Exported Function
+`dwLBSubclass` | 128 | Exported Function
+`dwOKSubclass` | 129 | Exported Function
+`FindTextA` | 109 | Exported Function
 
 
 ## Signature

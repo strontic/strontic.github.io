@@ -24,12 +24,12 @@ PE256 | `76BE8391E560F9546DBF6F7E2D61271FDA98279442C7EB1C54E4F295B91748C4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CatDbOfflineRebuildDatabasesRundll32W` | 1 (0x1) | Exported Function | 0x0000000180009430 | 0x00009430
-`CatDbOfflineRebuildDatabasesW` | 4 (0x4) | Exported Function | 0x0000000180009450 | 0x00009450
-`CryptCATAdminCatalogDatabase` | 2 (0x2) | Exported Function | 0x0000000180009440 | 0x00009440
-`CryptsvcDllCtrl` | 3 (0x3) | Exported Function | 0x0000000180001de0 | 0x00001de0
+Function Name | Ordinal | Type
+-- | -- | --
+`CryptCATAdminCatalogDatabase` | 2 | Exported Function
+`CryptsvcDllCtrl` | 3 | Exported Function
+`CatDbOfflineRebuildDatabasesRundll32W` | 1 | Exported Function
+`CatDbOfflineRebuildDatabasesW` | 4 | Exported Function
 
 
 ## Signature

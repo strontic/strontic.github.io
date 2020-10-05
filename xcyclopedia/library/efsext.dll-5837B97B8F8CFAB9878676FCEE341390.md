@@ -24,20 +24,20 @@ PE256 | `4AE56CC8B33D0211345C998BAAE005F7C84BDD02B28ADA9E72FF786E4A7214D0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EdpPlatform_QueryUserSessionState` | 1 (0x1) | Exported Function | 0x10004cc0 | 0x00004cc0
-`EdpPlatform_RegisterUserSessionNotification` | 2 (0x2) | Exported Function | 0x10004c80 | 0x00004c80
-`EdpPlatform_ShowDialog` | 3 (0x3) | Exported Function | 0x10004aa0 | 0x00004aa0
-`EdpPlatform_ShowUI` | 4 (0x4) | Exported Function | 0x10004c50 | 0x00004c50
-`EdpPlatform_UnregisterUserSessionNotification` | 5 (0x5) | Exported Function | 0x10004370 | 0x00004370
-`EfsPlatform_GetCallerID` | 6 (0x6) | Exported Function | 0x10004600 | 0x00004600
-`EfsPlatform_IsCallerAutomaticallyDelegated` | 7 (0x7) | Exported Function | 0x10004680 | 0x00004680
-`EfsPlatform_LaunchPromptUI` | 8 (0x8) | Exported Function | 0x10004740 | 0x00004740
-`EfsPlatform_SuspendNotificationsAndEncryptFile` | 9 (0x9) | Exported Function | 0x10004590 | 0x00004590
-`EfsPlatform_UnpackSecurePin` | 10 (0xa) | Exported Function | 0x100048d0 | 0x000048d0
-`FVE_LaunchConsentPromptUI` | 11 (0xb) | Exported Function | 0x10004f20 | 0x00004f20
-`FVE_LaunchSDCardUI` | 12 (0xc) | Exported Function | 0x10005070 | 0x00005070
+Function Name | Ordinal | Type
+-- | -- | --
+`EfsPlatform_SuspendNotificationsAndEncryptFile` | 9 | Exported Function
+`EfsPlatform_LaunchPromptUI` | 8 | Exported Function
+`EfsPlatform_IsCallerAutomaticallyDelegated` | 7 | Exported Function
+`FVE_LaunchSDCardUI` | 12 | Exported Function
+`FVE_LaunchConsentPromptUI` | 11 | Exported Function
+`EfsPlatform_UnpackSecurePin` | 10 | Exported Function
+`EdpPlatform_ShowDialog` | 3 | Exported Function
+`EdpPlatform_RegisterUserSessionNotification` | 2 | Exported Function
+`EdpPlatform_QueryUserSessionState` | 1 | Exported Function
+`EfsPlatform_GetCallerID` | 6 | Exported Function
+`EdpPlatform_UnregisterUserSessionNotification` | 5 | Exported Function
+`EdpPlatform_ShowUI` | 4 | Exported Function
 
 
 ## Signature

@@ -24,19 +24,19 @@ PE256 | `CB98034562C64C561D5AF5285A3F7A48633365E1DFE6DEFE902F5F158ADF34AA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 5 (0x5) | Exported Function | 0x45a27f50 | 0x00027f50
-`KerbCreateTokenFromTicketForKdc` | 6 (0x6) | Exported Function | 0x45a4a4b0 | 0x0004a4b0
-`KerbDomainChangeCallback` | 2 (0x2) | Exported Function | 0x45a39330 | 0x00039330
-`Kerberos` | 10 (0xa) | Exported Function | 0x45a0bf90 | 0x0000bf90
-`KerbIsInitialized` | 7 (0x7) | Exported Function | 0x45a3af60 | 0x0003af60
-`KerbKdcCallBack` | 8 (0x8) | Exported Function | 0x45a3af70 | 0x0003af70
-`KerbMakeKdcCall` | 9 (0x9) | Exported Function | 0x45a54920 | 0x00054920
-`SpInitialize` | 1 (0x1) | Exported Function | 0x45a21130 | 0x00021130
-`SpInstanceInit` | 32 (0x20) | Exported Function | 0x45a25c70 | 0x00025c70
-`SpLsaModeInitialize` | 3 (0x3) | Exported Function | 0x45a1fe00 | 0x0001fe00
-`SpUserModeInitialize` | 4 (0x4) | Exported Function | 0x45a25b10 | 0x00025b10
+Function Name | Ordinal | Type
+-- | -- | --
+`SpInitialize` | 1 | Exported Function
+`KerbMakeKdcCall` | 9 | Exported Function
+`SpInstanceInit` | 32 | Exported Function
+`SpUserModeInitialize` | 4 | Exported Function
+`SpLsaModeInitialize` | 3 | Exported Function
+`KerbKdcCallBack` | 8 | Exported Function
+`KerbCreateTokenFromTicketForKdc` | 6 | Exported Function
+`DllMain` | 5 | Exported Function
+`KerbDomainChangeCallback` | 2 | Exported Function
+`KerbIsInitialized` | 7 | Exported Function
+`Kerberos` | 10 | Exported Function
 
 
 ## Signature

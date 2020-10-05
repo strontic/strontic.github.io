@@ -24,15 +24,15 @@ PE256 | `676F8EBD2D7C36C54029ABC83A8D2ED5355C3D151C400AFDACCE216658DB6C9E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GMSAAdd` | 1 (0x1) | Exported Function | 0x10004bc0 | 0x00004bc0
-`GMSACheckIfExistsInAD` | 2 (0x2) | Exported Function | 0x10004710 | 0x00004710
-`GMSACleanup` | 3 (0x3) | Exported Function | 0x10001ea0 | 0x00001ea0
-`GMSADelete` | 4 (0x4) | Exported Function | 0x10004920 | 0x00004920
-`GMSAGetPassword` | 5 (0x5) | Exported Function | 0x100042e0 | 0x000042e0
-`GMSAInit` | 6 (0x6) | Exported Function | 0x10001ca0 | 0x00001ca0
-`GMSARefreshPasswords` | 7 (0x7) | Exported Function | 0x10001f80 | 0x00001f80
+Function Name | Ordinal | Type
+-- | -- | --
+`GMSAGetPassword` | 5 | Exported Function
+`GMSAInit` | 6 | Exported Function
+`GMSARefreshPasswords` | 7 | Exported Function
+`GMSADelete` | 4 | Exported Function
+`GMSAAdd` | 1 | Exported Function
+`GMSACheckIfExistsInAD` | 2 | Exported Function
+`GMSACleanup` | 3 | Exported Function
 
 
 ## Signature

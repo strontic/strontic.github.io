@@ -24,13 +24,13 @@ PE256 | `3B8FBD141E273F39C7A9DA91F2FBCF204C804D81B8C20914FC7DB6D289FEE124`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CleanupHotspotProfiles` | 1 (0x1) | Exported Function | 0x10007970 | 0x00007970
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x10007930 | 0x00007930
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x10007860 | 0x00007860
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x10007880 | 0x00007880
-`RegisterHotspotProfile` | 5 (0x5) | Exported Function | 0x10007950 | 0x00007950
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 4 | Exported Function
+`RegisterHotspotProfile` | 5 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
+`CleanupHotspotProfiles` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

@@ -24,201 +24,201 @@ PE256 | `375EA8BC251AC1733E822446F3E8E09419C5B18C7B8DCDF730B7BFAAE6E45FC3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WsAbandonCall` | 1 (0x1) | Exported Function | 0x000000018005dbf0 | 0x0005dbf0
-`WsReadToStartElement` | 123 (0x7b) | Exported Function | 0x000000018005f140 | 0x0005f140
-`WsReadType` | 124 (0x7c) | Exported Function | 0x000000018005f180 | 0x0005f180
-`WsReadValue` | 125 (0x7d) | Exported Function | 0x000000018005f200 | 0x0005f200
-`WsReadXmlBuffer` | 126 (0x7e) | Exported Function | 0x000000018005f240 | 0x0005f240
-`WsReadXmlBufferFromBytes` | 127 (0x7f) | Exported Function | 0x000000018000cdc0 | 0x0000cdc0
-`WsReceiveMessage` | 128 (0x80) | Exported Function | 0x000000018005f270 | 0x0005f270
-`WsRegisterOperationForCancel` | 129 (0x81) | Exported Function | 0x000000018005f320 | 0x0005f320
-`WsRemoveCustomHeader` | 130 (0x82) | Exported Function | 0x000000018005f360 | 0x0005f360
-`WsRemoveHeader` | 131 (0x83) | Exported Function | 0x000000018005f390 | 0x0005f390
-`WsReadStartElement` | 122 (0x7a) | Exported Function | 0x000000018005f120 | 0x0005f120
-`WsRemoveMappedHeader` | 132 (0x84) | Exported Function | 0x0000000180035490 | 0x00035490
-`WsRequestReply` | 134 (0x86) | Exported Function | 0x0000000180035080 | 0x00035080
-`WsRequestSecurityToken` | 135 (0x87) | Exported Function | 0x000000018005f3d0 | 0x0005f3d0
-`WsResetChannel` | 136 (0x88) | Exported Function | 0x000000018005f410 | 0x0005f410
-`WsResetError` | 137 (0x89) | Exported Function | 0x000000018005f430 | 0x0005f430
-`WsResetHeap` | 138 (0x8a) | Exported Function | 0x0000000180016320 | 0x00016320
-`WsResetListener` | 139 (0x8b) | Exported Function | 0x000000018005f450 | 0x0005f450
-`WsResetMessage` | 140 (0x8c) | Exported Function | 0x0000000180009b40 | 0x00009b40
-`WsResetMetadata` | 141 (0x8d) | Exported Function | 0x000000018005f470 | 0x0005f470
-`WsResetServiceHost` | 142 (0x8e) | Exported Function | 0x000000018005f490 | 0x0005f490
-`WsRemoveNode` | 133 (0x85) | Exported Function | 0x000000018005f3b0 | 0x0005f3b0
-`WsResetServiceProxy` | 143 (0x8f) | Exported Function | 0x000000018005f4b0 | 0x0005f4b0
-`WsReadStartAttribute` | 121 (0x79) | Exported Function | 0x000000018005f100 | 0x0005f100
-`WsReadNode` | 119 (0x77) | Exported Function | 0x000000018005f0a0 | 0x0005f0a0
-`WsOpenListener` | 99 (0x63) | Exported Function | 0x000000018005ec00 | 0x0005ec00
-`WsOpenServiceHost` | 100 (0x64) | Exported Function | 0x000000018005ec30 | 0x0005ec30
-`WsOpenServiceProxy` | 101 (0x65) | Exported Function | 0x0000000180003fb0 | 0x00003fb0
-`WsPullBytes` | 102 (0x66) | Exported Function | 0x000000018005ec50 | 0x0005ec50
-`WsPushBytes` | 103 (0x67) | Exported Function | 0x000000018005ec80 | 0x0005ec80
-`WsReadArray` | 104 (0x68) | Exported Function | 0x000000018005ecb0 | 0x0005ecb0
-`WsReadAttribute` | 105 (0x69) | Exported Function | 0x000000018005ed50 | 0x0005ed50
-`WsReadBody` | 106 (0x6a) | Exported Function | 0x000000018005eda0 | 0x0005eda0
-`WsReadBytes` | 107 (0x6b) | Exported Function | 0x000000018005edf0 | 0x0005edf0
-`WsReadQualifiedName` | 120 (0x78) | Exported Function | 0x000000018005f0c0 | 0x0005f0c0
-`WsReadChars` | 108 (0x6c) | Exported Function | 0x000000018005ee30 | 0x0005ee30
-`WsReadElement` | 110 (0x6e) | Exported Function | 0x000000018005eeb0 | 0x0005eeb0
-`WsReadEndAttribute` | 111 (0x6f) | Exported Function | 0x000000018005ef00 | 0x0005ef00
-`WsReadEndElement` | 112 (0x70) | Exported Function | 0x000000018005ef20 | 0x0005ef20
-`WsReadEndpointAddressExtension` | 113 (0x71) | Exported Function | 0x000000018005ef40 | 0x0005ef40
-`WsReadEnvelopeEnd` | 114 (0x72) | Exported Function | 0x000000018005efb0 | 0x0005efb0
-`WsReadEnvelopeStart` | 115 (0x73) | Exported Function | 0x000000018005efd0 | 0x0005efd0
-`WsReadMessageEnd` | 116 (0x74) | Exported Function | 0x000000018005f010 | 0x0005f010
-`WsReadMessageStart` | 117 (0x75) | Exported Function | 0x000000018005f040 | 0x0005f040
-`WsReadMetadata` | 118 (0x76) | Exported Function | 0x000000018005f070 | 0x0005f070
-`WsReadCharsUtf8` | 109 (0x6d) | Exported Function | 0x000000018005ee70 | 0x0005ee70
-`WsRevokeSecurityContext` | 144 (0x90) | Exported Function | 0x000000018005f4d0 | 0x0005f4d0
-`WsSendFaultMessageForError` | 145 (0x91) | Exported Function | 0x000000018005f4f0 | 0x0005f4f0
-`WsSendMessage` | 146 (0x92) | Exported Function | 0x000000018005f560 | 0x0005f560
-`WsWriteCharsUtf8` | 172 (0xac) | Exported Function | 0x000000018005fbe0 | 0x0005fbe0
-`WsWriteElement` | 173 (0xad) | Exported Function | 0x000000018005fc10 | 0x0005fc10
-`WsWriteEndAttribute` | 174 (0xae) | Exported Function | 0x000000018005fc50 | 0x0005fc50
-`WsWriteEndCData` | 175 (0xaf) | Exported Function | 0x000000018005fc70 | 0x0005fc70
-`WsWriteEndElement` | 176 (0xb0) | Exported Function | 0x000000018005fc90 | 0x0005fc90
-`WsWriteEndStartElement` | 177 (0xb1) | Exported Function | 0x000000018005fcb0 | 0x0005fcb0
-`WsWriteEnvelopeEnd` | 178 (0xb2) | Exported Function | 0x000000018005fcd0 | 0x0005fcd0
-`WsWriteEnvelopeStart` | 179 (0xb3) | Exported Function | 0x000000018005fcf0 | 0x0005fcf0
-`WsWriteMessageEnd` | 180 (0xb4) | Exported Function | 0x000000018005fd30 | 0x0005fd30
-`WsWriteChars` | 171 (0xab) | Exported Function | 0x000000018005fbb0 | 0x0005fbb0
-`WsWriteMessageStart` | 181 (0xb5) | Exported Function | 0x000000018005fd60 | 0x0005fd60
-`WsWriteQualifiedName` | 183 (0xb7) | Exported Function | 0x000000018005fdb0 | 0x0005fdb0
-`WsWriteStartAttribute` | 184 (0xb8) | Exported Function | 0x000000018005fdf0 | 0x0005fdf0
-`WsWriteStartCData` | 185 (0xb9) | Exported Function | 0x000000018005fe30 | 0x0005fe30
-`WsWriteStartElement` | 186 (0xba) | Exported Function | 0x000000018005fe50 | 0x0005fe50
-`WsWriteText` | 187 (0xbb) | Exported Function | 0x000000018005fe90 | 0x0005fe90
-`WsWriteType` | 188 (0xbc) | Exported Function | 0x000000018005feb0 | 0x0005feb0
-`WsWriteValue` | 189 (0xbd) | Exported Function | 0x000000018005ff20 | 0x0005ff20
-`WsWriteXmlBuffer` | 190 (0xbe) | Exported Function | 0x000000018005ff60 | 0x0005ff60
-`WsWriteXmlBufferToBytes` | 191 (0xbf) | Exported Function | 0x0000000180030ea0 | 0x00030ea0
-`WsWriteNode` | 182 (0xb6) | Exported Function | 0x000000018005fd90 | 0x0005fd90
-`WsWriteBytes` | 170 (0xaa) | Exported Function | 0x000000018005fb80 | 0x0005fb80
-`WsWriteBody` | 169 (0xa9) | Exported Function | 0x000000018005fb40 | 0x0005fb40
-`WsWriteAttribute` | 168 (0xa8) | Exported Function | 0x000000018005fb00 | 0x0005fb00
-`WsSendReplyMessage` | 147 (0x93) | Exported Function | 0x000000018005f5d0 | 0x0005f5d0
-`WsSetChannelProperty` | 148 (0x94) | Exported Function | 0x000000018005f660 | 0x0005f660
-`WsSetErrorProperty` | 149 (0x95) | Exported Function | 0x000000018005f6a0 | 0x0005f6a0
-`WsSetFaultErrorDetail` | 150 (0x96) | Exported Function | 0x000000018005f6d0 | 0x0005f6d0
-`WsSetFaultErrorProperty` | 151 (0x97) | Exported Function | 0x000000018005f710 | 0x0005f710
-`WsSetHeader` | 152 (0x98) | Exported Function | 0x000000018005f740 | 0x0005f740
-`WsSetInput` | 153 (0x99) | Exported Function | 0x000000018005f790 | 0x0005f790
-`WsSetInputToBuffer` | 154 (0x9a) | Exported Function | 0x000000018005f7d0 | 0x0005f7d0
-`WsSetListenerProperty` | 155 (0x9b) | Exported Function | 0x000000018005f810 | 0x0005f810
-`WsSetMessageProperty` | 156 (0x9c) | Exported Function | 0x000000018005f850 | 0x0005f850
-`WsSetOutput` | 157 (0x9d) | Exported Function | 0x000000018005f890 | 0x0005f890
-`WsSetOutputToBuffer` | 158 (0x9e) | Exported Function | 0x000000018005f8d0 | 0x0005f8d0
-`WsSetReaderPosition` | 159 (0x9f) | Exported Function | 0x000000018005f910 | 0x0005f910
-`WsSetWriterPosition` | 160 (0xa0) | Exported Function | 0x000000018005f930 | 0x0005f930
-`WsShutdownSessionChannel` | 161 (0xa1) | Exported Function | 0x000000018005f950 | 0x0005f950
-`WsSkipNode` | 162 (0xa2) | Exported Function | 0x000000018005f970 | 0x0005f970
-`WsStartReaderCanonicalization` | 163 (0xa3) | Exported Function | 0x000000018005f990 | 0x0005f990
-`WsStartWriterCanonicalization` | 164 (0xa4) | Exported Function | 0x000000018005f9d0 | 0x0005f9d0
-`WsTrimXmlWhitespace` | 165 (0xa5) | Exported Function | 0x000000018005fa10 | 0x0005fa10
-`WsVerifyXmlNCName` | 166 (0xa6) | Exported Function | 0x000000018005fa50 | 0x0005fa50
-`WsWriteArray` | 167 (0xa7) | Exported Function | 0x000000018005fa70 | 0x0005fa70
-`WsOpenChannel` | 98 (0x62) | Exported Function | 0x0000000180032ee0 | 0x00032ee0
-`WsWriteXmlnsAttribute` | 192 (0xc0) | Exported Function | 0x000000018005ff80 | 0x0005ff80
-`WsMoveWriter` | 97 (0x61) | Exported Function | 0x000000018005ebd0 | 0x0005ebd0
-`WsMatchPolicyAlternative` | 95 (0x5f) | Exported Function | 0x000000018005eb60 | 0x0005eb60
-`WsCreateFaultFromError` | 26 (0x1a) | Exported Function | 0x000000018005df00 | 0x0005df00
-`WsCreateHeap` | 27 (0x1b) | Exported Function | 0x0000000180031930 | 0x00031930
-`WsCreateListener` | 28 (0x1c) | Exported Function | 0x000000018005df40 | 0x0005df40
-`WsCreateMessage` | 29 (0x1d) | Exported Function | 0x000000018005df90 | 0x0005df90
-`WsCreateMessageForChannel` | 30 (0x1e) | Exported Function | 0x0000000180009670 | 0x00009670
-`WsCreateMetadata` | 31 (0x1f) | Exported Function | 0x000000018005dfd0 | 0x0005dfd0
-`WsCreateReader` | 32 (0x20) | Exported Function | 0x0000000180036210 | 0x00036210
-`WsCreateServiceEndpointFromTemplate` | 33 (0x21) | Exported Function | 0x000000018005e000 | 0x0005e000
-`WsCreateServiceHost` | 34 (0x22) | Exported Function | 0x000000018005e0c0 | 0x0005e0c0
-`WsCreateError` | 25 (0x19) | Exported Function | 0x0000000180034980 | 0x00034980
-`WsCreateServiceProxy` | 35 (0x23) | Exported Function | 0x0000000180001010 | 0x00001010
-`WsCreateWriter` | 37 (0x25) | Exported Function | 0x0000000180036e90 | 0x00036e90
-`WsCreateXmlBuffer` | 38 (0x26) | Exported Function | 0x000000018005e1a0 | 0x0005e1a0
-`WsCreateXmlSecurityToken` | 39 (0x27) | Exported Function | 0x000000018000d240 | 0x0000d240
-`WsDateTimeToFileTime` | 40 (0x28) | Exported Function | 0x000000018002dbf0 | 0x0002dbf0
-`WsDecodeUrl` | 41 (0x29) | Exported Function | 0x000000018005e1e0 | 0x0005e1e0
-`WsEncodeUrl` | 42 (0x2a) | Exported Function | 0x000000018005e220 | 0x0005e220
-`WsEndReaderCanonicalization` | 43 (0x2b) | Exported Function | 0x000000018005e260 | 0x0005e260
-`WsEndWriterCanonicalization` | 44 (0x2c) | Exported Function | 0x000000018005e280 | 0x0005e280
-`WsFileTimeToDateTime` | 45 (0x2d) | Exported Function | 0x000000018002d910 | 0x0002d910
-`WsCreateServiceProxyFromTemplate` | 36 (0x24) | Exported Function | 0x000000018005e100 | 0x0005e100
-`WsFillBody` | 46 (0x2e) | Exported Function | 0x000000018005e2a0 | 0x0005e2a0
-`WsCreateChannelForListener` | 24 (0x18) | Exported Function | 0x000000018005dec0 | 0x0005dec0
-`WsCopyNode` | 22 (0x16) | Exported Function | 0x000000018005dea0 | 0x0005dea0
-`WsAbandonMessage` | 2 (0x2) | Exported Function | 0x000000018005dc10 | 0x0005dc10
-`WsAbortChannel` | 3 (0x3) | Exported Function | 0x000000018005dc30 | 0x0005dc30
-`WsAbortListener` | 4 (0x4) | Exported Function | 0x000000018005dc50 | 0x0005dc50
-`WsAbortServiceHost` | 5 (0x5) | Exported Function | 0x000000018005dc70 | 0x0005dc70
-`WsAbortServiceProxy` | 6 (0x6) | Exported Function | 0x000000018005dc90 | 0x0005dc90
-`WsAcceptChannel` | 7 (0x7) | Exported Function | 0x000000018005dcb0 | 0x0005dcb0
-`WsAddCustomHeader` | 8 (0x8) | Exported Function | 0x000000018005dce0 | 0x0005dce0
-`WsAddErrorString` | 9 (0x9) | Exported Function | 0x000000018005dd30 | 0x0005dd30
-`WsAddMappedHeader` | 10 (0xa) | Exported Function | 0x000000018002d8d0 | 0x0002d8d0
-`WsCreateChannel` | 23 (0x17) | Exported Function | 0x0000000180009210 | 0x00009210
-`WsAddressMessage` | 11 (0xb) | Exported Function | 0x000000018005dd50 | 0x0005dd50
-`WsAsyncExecute` | 13 (0xd) | Exported Function | 0x000000018005dda0 | 0x0005dda0
-`WsCall` | 14 (0xe) | Exported Function | 0x0000000180002070 | 0x00002070
-`WsCheckMustUnderstandHeaders` | 15 (0xf) | Exported Function | 0x000000018005dde0 | 0x0005dde0
-`WsCloseChannel` | 16 (0x10) | Exported Function | 0x00000001800092a0 | 0x000092a0
-`WsCloseListener` | 17 (0x11) | Exported Function | 0x000000018005de00 | 0x0005de00
-`WsCloseServiceHost` | 18 (0x12) | Exported Function | 0x000000018005de20 | 0x0005de20
-`WsCloseServiceProxy` | 19 (0x13) | Exported Function | 0x0000000180003910 | 0x00003910
-`WsCombineUrl` | 20 (0x14) | Exported Function | 0x000000018005de40 | 0x0005de40
-`WsCopyError` | 21 (0x15) | Exported Function | 0x000000018005de80 | 0x0005de80
-`WsAlloc` | 12 (0xc) | Exported Function | 0x000000018005dd70 | 0x0005dd70
-`WsFillReader` | 47 (0x2f) | Exported Function | 0x000000018005e2d0 | 0x0005e2d0
-`WsFindAttribute` | 48 (0x30) | Exported Function | 0x000000018005e300 | 0x0005e300
-`WsFlushBody` | 49 (0x31) | Exported Function | 0x000000018005e340 | 0x0005e340
-`WsGetMetadataEndpoints` | 75 (0x4b) | Exported Function | 0x000000018005e7c0 | 0x0005e7c0
-`WsGetMetadataProperty` | 76 (0x4c) | Exported Function | 0x000000018005e7e0 | 0x0005e7e0
-`WsGetMissingMetadataDocumentAddress` | 77 (0x4d) | Exported Function | 0x000000018005e820 | 0x0005e820
-`WsGetNamespaceFromPrefix` | 78 (0x4e) | Exported Function | 0x000000018005e840 | 0x0005e840
-`WsGetOperationContextProperty` | 79 (0x4f) | Exported Function | 0x000000018005e880 | 0x0005e880
-`WsGetPolicyAlternativeCount` | 80 (0x50) | Exported Function | 0x000000018005e8c0 | 0x0005e8c0
-`WsGetPolicyProperty` | 81 (0x51) | Exported Function | 0x000000018005e8e0 | 0x0005e8e0
-`WsGetPrefixFromNamespace` | 82 (0x52) | Exported Function | 0x000000018005e920 | 0x0005e920
-`WsGetReaderNode` | 83 (0x53) | Exported Function | 0x000000018005e960 | 0x0005e960
-`WsGetMessageProperty` | 74 (0x4a) | Exported Function | 0x000000018005e780 | 0x0005e780
-`WsGetReaderPosition` | 84 (0x54) | Exported Function | 0x000000018005e980 | 0x0005e980
-`WsGetSecurityContextProperty` | 86 (0x56) | Exported Function | 0x000000018005e9e0 | 0x0005e9e0
-`WsGetSecurityTokenProperty` | 87 (0x57) | Exported Function | 0x00000001800341b0 | 0x000341b0
-`WsGetServiceHostProperty` | 88 (0x58) | Exported Function | 0x000000018005ea20 | 0x0005ea20
-`WsGetServiceProxyProperty` | 89 (0x59) | Exported Function | 0x000000018005ea60 | 0x0005ea60
-`WsGetWriterPosition` | 90 (0x5a) | Exported Function | 0x000000018005eaa0 | 0x0005eaa0
-`WsGetWriterProperty` | 91 (0x5b) | Exported Function | 0x000000018005eac0 | 0x0005eac0
-`WsGetXmlAttribute` | 92 (0x5c) | Exported Function | 0x000000018005eb00 | 0x0005eb00
-`WsInitializeMessage` | 93 (0x5d) | Exported Function | 0x0000000180034600 | 0x00034600
-`WsMarkHeaderAsUnderstood` | 94 (0x5e) | Exported Function | 0x000000018005eb40 | 0x0005eb40
-`WsGetReaderProperty` | 85 (0x55) | Exported Function | 0x000000018005e9a0 | 0x0005e9a0
-`WsGetMappedHeader` | 73 (0x49) | Exported Function | 0x000000018005e6e0 | 0x0005e6e0
-`WsGetListenerProperty` | 72 (0x48) | Exported Function | 0x000000018005e6a0 | 0x0005e6a0
-`WsGetHeapProperty` | 71 (0x47) | Exported Function | 0x000000018005e660 | 0x0005e660
-`WsFlushWriter` | 50 (0x32) | Exported Function | 0x000000018005e370 | 0x0005e370
-`WsFreeChannel` | 51 (0x33) | Exported Function | 0x0000000180009350 | 0x00009350
-`WsFreeError` | 52 (0x34) | Exported Function | 0x000000018000cbd0 | 0x0000cbd0
-`WsFreeHeap` | 53 (0x35) | Exported Function | 0x000000018000e590 | 0x0000e590
-`WsFreeListener` | 54 (0x36) | Exported Function | 0x000000018005e3a0 | 0x0005e3a0
-`WsFreeMessage` | 55 (0x37) | Exported Function | 0x000000018000df70 | 0x0000df70
-`WsFreeMetadata` | 56 (0x38) | Exported Function | 0x000000018005e3c0 | 0x0005e3c0
-`WsFreeReader` | 57 (0x39) | Exported Function | 0x000000018000dca0 | 0x0000dca0
-`WsFreeSecurityToken` | 58 (0x3a) | Exported Function | 0x000000018000db60 | 0x0000db60
-`WsFreeServiceHost` | 59 (0x3b) | Exported Function | 0x000000018005e3e0 | 0x0005e3e0
-`WsFreeServiceProxy` | 60 (0x3c) | Exported Function | 0x0000000180004540 | 0x00004540
-`WsFreeWriter` | 61 (0x3d) | Exported Function | 0x0000000180037270 | 0x00037270
-`WsGetChannelProperty` | 62 (0x3e) | Exported Function | 0x000000018005e400 | 0x0005e400
-`WsGetCustomHeader` | 63 (0x3f) | Exported Function | 0x000000018005e440 | 0x0005e440
-`WsGetDictionary` | 64 (0x40) | Exported Function | 0x000000018005e4e0 | 0x0005e4e0
-`WsGetErrorProperty` | 65 (0x41) | Exported Function | 0x000000018005e500 | 0x0005e500
-`WsGetErrorString` | 66 (0x42) | Exported Function | 0x000000018005e530 | 0x0005e530
-`WsGetFaultErrorDetail` | 67 (0x43) | Exported Function | 0x000000018005e550 | 0x0005e550
-`WsGetFaultErrorProperty` | 68 (0x44) | Exported Function | 0x000000018005e590 | 0x0005e590
-`WsGetHeader` | 69 (0x45) | Exported Function | 0x000000018005e5c0 | 0x0005e5c0
-`WsGetHeaderAttributes` | 70 (0x46) | Exported Function | 0x000000018005e630 | 0x0005e630
-`WsMoveReader` | 96 (0x60) | Exported Function | 0x000000018005eba0 | 0x0005eba0
-`WsXmlStringEquals` | 193 (0xc1) | Exported Function | 0x000000018005ffc0 | 0x0005ffc0
+Function Name | Ordinal | Type
+-- | -- | --
+`WsRemoveCustomHeader` | 130 | Exported Function
+`WsRegisterOperationForCancel` | 129 | Exported Function
+`WsReceiveMessage` | 128 | Exported Function
+`WsRemoveNode` | 133 | Exported Function
+`WsRemoveMappedHeader` | 132 | Exported Function
+`WsRemoveHeader` | 131 | Exported Function
+`WsReadType` | 124 | Exported Function
+`WsReadToStartElement` | 123 | Exported Function
+`WsReadStartElement` | 122 | Exported Function
+`WsReadXmlBufferFromBytes` | 127 | Exported Function
+`WsReadXmlBuffer` | 126 | Exported Function
+`WsReadValue` | 125 | Exported Function
+`WsResetServiceHost` | 142 | Exported Function
+`WsResetMetadata` | 141 | Exported Function
+`WsResetMessage` | 140 | Exported Function
+`WsSendFaultMessageForError` | 145 | Exported Function
+`WsRevokeSecurityContext` | 144 | Exported Function
+`WsResetServiceProxy` | 143 | Exported Function
+`WsResetChannel` | 136 | Exported Function
+`WsRequestSecurityToken` | 135 | Exported Function
+`WsRequestReply` | 134 | Exported Function
+`WsResetListener` | 139 | Exported Function
+`WsResetHeap` | 138 | Exported Function
+`WsResetError` | 137 | Exported Function
+`WsReadBody` | 106 | Exported Function
+`WsReadAttribute` | 105 | Exported Function
+`WsReadArray` | 104 | Exported Function
+`WsReadCharsUtf8` | 109 | Exported Function
+`WsReadChars` | 108 | Exported Function
+`WsReadBytes` | 107 | Exported Function
+`WsOpenServiceHost` | 100 | Exported Function
+`WsOpenListener` | 99 | Exported Function
+`WsOpenChannel` | 98 | Exported Function
+`WsPushBytes` | 103 | Exported Function
+`WsPullBytes` | 102 | Exported Function
+`WsOpenServiceProxy` | 101 | Exported Function
+`WsReadMetadata` | 118 | Exported Function
+`WsReadMessageStart` | 117 | Exported Function
+`WsReadMessageEnd` | 116 | Exported Function
+`WsReadStartAttribute` | 121 | Exported Function
+`WsReadQualifiedName` | 120 | Exported Function
+`WsReadNode` | 119 | Exported Function
+`WsReadEndElement` | 112 | Exported Function
+`WsReadEndAttribute` | 111 | Exported Function
+`WsReadElement` | 110 | Exported Function
+`WsReadEnvelopeStart` | 115 | Exported Function
+`WsReadEnvelopeEnd` | 114 | Exported Function
+`WsReadEndpointAddressExtension` | 113 | Exported Function
+`WsWriteEnvelopeEnd` | 178 | Exported Function
+`WsWriteEndStartElement` | 177 | Exported Function
+`WsWriteEndElement` | 176 | Exported Function
+`WsWriteMessageStart` | 181 | Exported Function
+`WsWriteMessageEnd` | 180 | Exported Function
+`WsWriteEnvelopeStart` | 179 | Exported Function
+`WsWriteCharsUtf8` | 172 | Exported Function
+`WsWriteChars` | 171 | Exported Function
+`WsWriteBytes` | 170 | Exported Function
+`WsWriteEndCData` | 175 | Exported Function
+`WsWriteEndAttribute` | 174 | Exported Function
+`WsWriteElement` | 173 | Exported Function
+`WsWriteXmlBuffer` | 190 | Exported Function
+`WsWriteValue` | 189 | Exported Function
+`WsWriteType` | 188 | Exported Function
+`WsXmlStringEquals` | 193 | Exported Function
+`WsWriteXmlnsAttribute` | 192 | Exported Function
+`WsWriteXmlBufferToBytes` | 191 | Exported Function
+`WsWriteStartAttribute` | 184 | Exported Function
+`WsWriteQualifiedName` | 183 | Exported Function
+`WsWriteNode` | 182 | Exported Function
+`WsWriteText` | 187 | Exported Function
+`WsWriteStartElement` | 186 | Exported Function
+`WsWriteStartCData` | 185 | Exported Function
+`WsSetInputToBuffer` | 154 | Exported Function
+`WsSetInput` | 153 | Exported Function
+`WsSetHeader` | 152 | Exported Function
+`WsSetOutput` | 157 | Exported Function
+`WsSetMessageProperty` | 156 | Exported Function
+`WsSetListenerProperty` | 155 | Exported Function
+`WsSetChannelProperty` | 148 | Exported Function
+`WsSendReplyMessage` | 147 | Exported Function
+`WsSendMessage` | 146 | Exported Function
+`WsSetFaultErrorProperty` | 151 | Exported Function
+`WsSetFaultErrorDetail` | 150 | Exported Function
+`WsSetErrorProperty` | 149 | Exported Function
+`WsVerifyXmlNCName` | 166 | Exported Function
+`WsTrimXmlWhitespace` | 165 | Exported Function
+`WsStartWriterCanonicalization` | 164 | Exported Function
+`WsWriteBody` | 169 | Exported Function
+`WsWriteAttribute` | 168 | Exported Function
+`WsWriteArray` | 167 | Exported Function
+`WsSetWriterPosition` | 160 | Exported Function
+`WsSetReaderPosition` | 159 | Exported Function
+`WsSetOutputToBuffer` | 158 | Exported Function
+`WsStartReaderCanonicalization` | 163 | Exported Function
+`WsSkipNode` | 162 | Exported Function
+`WsShutdownSessionChannel` | 161 | Exported Function
+`WsMoveWriter` | 97 | Exported Function
+`WsCreateServiceEndpointFromTemplate` | 33 | Exported Function
+`WsCreateReader` | 32 | Exported Function
+`WsCreateMetadata` | 31 | Exported Function
+`WsCreateServiceProxyFromTemplate` | 36 | Exported Function
+`WsCreateServiceProxy` | 35 | Exported Function
+`WsCreateServiceHost` | 34 | Exported Function
+`WsCreateHeap` | 27 | Exported Function
+`WsCreateFaultFromError` | 26 | Exported Function
+`WsCreateError` | 25 | Exported Function
+`WsCreateMessageForChannel` | 30 | Exported Function
+`WsCreateMessage` | 29 | Exported Function
+`WsCreateListener` | 28 | Exported Function
+`WsFileTimeToDateTime` | 45 | Exported Function
+`WsEndWriterCanonicalization` | 44 | Exported Function
+`WsEndReaderCanonicalization` | 43 | Exported Function
+`WsFindAttribute` | 48 | Exported Function
+`WsFillReader` | 47 | Exported Function
+`WsFillBody` | 46 | Exported Function
+`WsCreateXmlSecurityToken` | 39 | Exported Function
+`WsCreateXmlBuffer` | 38 | Exported Function
+`WsCreateWriter` | 37 | Exported Function
+`WsEncodeUrl` | 42 | Exported Function
+`WsDecodeUrl` | 41 | Exported Function
+`WsDateTimeToFileTime` | 40 | Exported Function
+`WsAddErrorString` | 9 | Exported Function
+`WsAddCustomHeader` | 8 | Exported Function
+`WsAcceptChannel` | 7 | Exported Function
+`WsAlloc` | 12 | Exported Function
+`WsAddressMessage` | 11 | Exported Function
+`WsAddMappedHeader` | 10 | Exported Function
+`WsAbortChannel` | 3 | Exported Function
+`WsAbandonMessage` | 2 | Exported Function
+`WsAbandonCall` | 1 | Exported Function
+`WsAbortServiceProxy` | 6 | Exported Function
+`WsAbortServiceHost` | 5 | Exported Function
+`WsAbortListener` | 4 | Exported Function
+`WsCopyError` | 21 | Exported Function
+`WsCombineUrl` | 20 | Exported Function
+`WsCloseServiceProxy` | 19 | Exported Function
+`WsCreateChannelForListener` | 24 | Exported Function
+`WsCreateChannel` | 23 | Exported Function
+`WsCopyNode` | 22 | Exported Function
+`WsCheckMustUnderstandHeaders` | 15 | Exported Function
+`WsCall` | 14 | Exported Function
+`WsAsyncExecute` | 13 | Exported Function
+`WsCloseServiceHost` | 18 | Exported Function
+`WsCloseListener` | 17 | Exported Function
+`WsCloseChannel` | 16 | Exported Function
+`WsGetPolicyProperty` | 81 | Exported Function
+`WsGetPolicyAlternativeCount` | 80 | Exported Function
+`WsGetOperationContextProperty` | 79 | Exported Function
+`WsGetReaderPosition` | 84 | Exported Function
+`WsGetReaderNode` | 83 | Exported Function
+`WsGetPrefixFromNamespace` | 82 | Exported Function
+`WsGetMetadataEndpoints` | 75 | Exported Function
+`WsGetMessageProperty` | 74 | Exported Function
+`WsGetMappedHeader` | 73 | Exported Function
+`WsGetNamespaceFromPrefix` | 78 | Exported Function
+`WsGetMissingMetadataDocumentAddress` | 77 | Exported Function
+`WsGetMetadataProperty` | 76 | Exported Function
+`WsInitializeMessage` | 93 | Exported Function
+`WsGetXmlAttribute` | 92 | Exported Function
+`WsGetWriterProperty` | 91 | Exported Function
+`WsMoveReader` | 96 | Exported Function
+`WsMatchPolicyAlternative` | 95 | Exported Function
+`WsMarkHeaderAsUnderstood` | 94 | Exported Function
+`WsGetSecurityTokenProperty` | 87 | Exported Function
+`WsGetSecurityContextProperty` | 86 | Exported Function
+`WsGetReaderProperty` | 85 | Exported Function
+`WsGetWriterPosition` | 90 | Exported Function
+`WsGetServiceProxyProperty` | 89 | Exported Function
+`WsGetServiceHostProperty` | 88 | Exported Function
+`WsFreeReader` | 57 | Exported Function
+`WsFreeMetadata` | 56 | Exported Function
+`WsFreeMessage` | 55 | Exported Function
+`WsFreeServiceProxy` | 60 | Exported Function
+`WsFreeServiceHost` | 59 | Exported Function
+`WsFreeSecurityToken` | 58 | Exported Function
+`WsFreeChannel` | 51 | Exported Function
+`WsFlushWriter` | 50 | Exported Function
+`WsFlushBody` | 49 | Exported Function
+`WsFreeListener` | 54 | Exported Function
+`WsFreeHeap` | 53 | Exported Function
+`WsFreeError` | 52 | Exported Function
+`WsGetHeader` | 69 | Exported Function
+`WsGetFaultErrorProperty` | 68 | Exported Function
+`WsGetFaultErrorDetail` | 67 | Exported Function
+`WsGetListenerProperty` | 72 | Exported Function
+`WsGetHeapProperty` | 71 | Exported Function
+`WsGetHeaderAttributes` | 70 | Exported Function
+`WsGetCustomHeader` | 63 | Exported Function
+`WsGetChannelProperty` | 62 | Exported Function
+`WsFreeWriter` | 61 | Exported Function
+`WsGetErrorString` | 66 | Exported Function
+`WsGetErrorProperty` | 65 | Exported Function
+`WsGetDictionary` | 64 | Exported Function
 
 
 ## Signature

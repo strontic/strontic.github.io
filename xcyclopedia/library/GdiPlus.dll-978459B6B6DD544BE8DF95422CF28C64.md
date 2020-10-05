@@ -24,639 +24,638 @@ PE256 | `DC9923F0BD4445B34D919A4EB30C5E7F10337990F90288FF91DB96D339AABA4F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GdipAddPathArc` | 1 (0x1) | Exported Function | 0x10068030 | 0x00068030
-`GdipIsClipEmpty` | 398 (0x18e) | Exported Function | 0x1009f770 | 0x0009f770
-`GdipIsEmptyRegion` | 399 (0x18f) | Exported Function | 0x1009f7f0 | 0x0009f7f0
-`GdipIsEqualRegion` | 400 (0x190) | Exported Function | 0x1009f8e0 | 0x0009f8e0
-`GdipIsInfiniteRegion` | 401 (0x191) | Exported Function | 0x10057c00 | 0x00057c00
-`GdipIsMatrixEqual` | 402 (0x192) | Exported Function | 0x1009fa40 | 0x0009fa40
-`GdipIsMatrixIdentity` | 403 (0x193) | Exported Function | 0x1006d870 | 0x0006d870
-`GdipIsMatrixInvertible` | 404 (0x194) | Exported Function | 0x1009fb00 | 0x0009fb00
-`GdipIsOutlineVisiblePathPoint` | 405 (0x195) | Exported Function | 0x1009fb80 | 0x0009fb80
-`GdipIsOutlineVisiblePathPointI` | 406 (0x196) | Exported Function | 0x1009fd10 | 0x0009fd10
-`GdipIsStyleAvailable` | 407 (0x197) | Exported Function | 0x1009fd70 | 0x0009fd70
-`GdipIsVisibleClipEmpty` | 408 (0x198) | Exported Function | 0x1009fdf0 | 0x0009fdf0
-`GdipIsVisiblePathPoint` | 409 (0x199) | Exported Function | 0x1009fe70 | 0x0009fe70
-`GdipIsVisiblePathPointI` | 410 (0x19a) | Exported Function | 0x1009ff90 | 0x0009ff90
-`GdipIsVisiblePoint` | 411 (0x19b) | Exported Function | 0x1009ffe0 | 0x0009ffe0
-`GdipIsVisiblePointI` | 412 (0x19c) | Exported Function | 0x100a0070 | 0x000a0070
-`GdipInvertMatrix` | 397 (0x18d) | Exported Function | 0x1009f700 | 0x0009f700
-`GdipInitializePalette` | 623 (0x26f) | Exported Function | 0x1009f660 | 0x0009f660
-`GdipImageSetAbort` | 624 (0x270) | Exported Function | 0x1009f5d0 | 0x0009f5d0
-`GdipImageSelectActiveFrame` | 396 (0x18c) | Exported Function | 0x1009f550 | 0x0009f550
-`GdipGetStringFormatTrimming` | 381 (0x17d) | Exported Function | 0x1009f230 | 0x0009f230
-`GdipGetTextContrast` | 382 (0x17e) | Exported Function | 0x1009f2b0 | 0x0009f2b0
-`GdipGetTextRenderingHint` | 383 (0x17f) | Exported Function | 0x1009f320 | 0x0009f320
-`GdipGetTextureImage` | 384 (0x180) | Exported Function | 0x100691a0 | 0x000691a0
-`GdipGetTextureTransform` | 385 (0x181) | Exported Function | 0x1009c9a0 | 0x0009c9a0
-`GdipGetTextureWrapMode` | 386 (0x182) | Exported Function | 0x1006e2c0 | 0x0006e2c0
-`GdipGetVisibleClipBounds` | 387 (0x183) | Exported Function | 0x1009f390 | 0x0009f390
-`GdipIsVisibleRect` | 413 (0x19d) | Exported Function | 0x100a00c0 | 0x000a00c0
-`GdipGetVisibleClipBoundsI` | 388 (0x184) | Exported Function | 0x1009f400 | 0x0009f400
-`GdipGraphicsClear` | 390 (0x186) | Exported Function | 0x10041f00 | 0x00041f00
-`GdipGraphicsSetAbort` | 625 (0x271) | Exported Function | 0x1009f4e0 | 0x0009f4e0
-`GdipImageForceValidation` | 391 (0x187) | Exported Function | 0x100693c0 | 0x000693c0
-`GdipImageGetFrameCount` | 392 (0x188) | Exported Function | 0x10054110 | 0x00054110
-`GdipImageGetFrameDimensionsCount` | 393 (0x189) | Exported Function | 0x10053d00 | 0x00053d00
-`GdipImageGetFrameDimensionsList` | 394 (0x18a) | Exported Function | 0x10053d90 | 0x00053d90
-`GdipImageRotateFlip` | 395 (0x18b) | Exported Function | 0x100460e0 | 0x000460e0
-`GdipGetWorldTransform` | 389 (0x185) | Exported Function | 0x1006c7b0 | 0x0006c7b0
-`GdipIsVisibleRectI` | 414 (0x19e) | Exported Function | 0x100a0160 | 0x000a0160
-`GdipIsVisibleRegionPoint` | 415 (0x19f) | Exported Function | 0x100a01d0 | 0x000a01d0
-`GdipIsVisibleRegionPointI` | 416 (0x1a0) | Exported Function | 0x100a02e0 | 0x000a02e0
-`GdipNewPrivateFontCollection` | 433 (0x1b1) | Exported Function | 0x100a0a90 | 0x000a0a90
-`GdipPathIterCopyData` | 434 (0x1b2) | Exported Function | 0x100a0b30 | 0x000a0b30
-`GdipPathIterEnumerate` | 435 (0x1b3) | Exported Function | 0x100a0bd0 | 0x000a0bd0
-`GdipPathIterGetCount` | 436 (0x1b4) | Exported Function | 0x100a0c70 | 0x000a0c70
-`GdipPathIterGetSubpathCount` | 437 (0x1b5) | Exported Function | 0x100a0d00 | 0x000a0d00
-`GdipPathIterHasCurve` | 438 (0x1b6) | Exported Function | 0x100a0d90 | 0x000a0d90
-`GdipPathIterIsValid` | 439 (0x1b7) | Exported Function | 0x100a0e10 | 0x000a0e10
-`GdipNewInstalledFontCollection` | 432 (0x1b0) | Exported Function | 0x100a0a30 | 0x000a0a30
-`GdipPathIterNextMarker` | 440 (0x1b8) | Exported Function | 0x100a0ea0 | 0x000a0ea0
-`GdipPathIterNextPathType` | 442 (0x1ba) | Exported Function | 0x100a0fd0 | 0x000a0fd0
-`GdipPathIterNextSubpath` | 443 (0x1bb) | Exported Function | 0x100a1070 | 0x000a1070
-`GdipPathIterNextSubpathPath` | 444 (0x1bc) | Exported Function | 0x100a1120 | 0x000a1120
-`GdipPathIterRewind` | 445 (0x1bd) | Exported Function | 0x100a11c0 | 0x000a11c0
-`GdipPlayMetafileRecord` | 446 (0x1be) | Exported Function | 0x100a1250 | 0x000a1250
-`GdipPlayTSClientRecord` | 630 (0x276) | Exported Function | 0x100a12f0 | 0x000a12f0
-`GdipPrivateAddFontFile` | 447 (0x1bf) | Exported Function | 0x100a1750 | 0x000a1750
-`GdipPathIterNextMarkerPath` | 441 (0x1b9) | Exported Function | 0x100a0f40 | 0x000a0f40
-`GdipGetStringFormatTabStops` | 380 (0x17c) | Exported Function | 0x1009f1a0 | 0x0009f1a0
-`GdipMultiplyWorldTransform` | 431 (0x1af) | Exported Function | 0x100a0970 | 0x000a0970
-`GdipMultiplyPenTransform` | 429 (0x1ad) | Exported Function | 0x100a08c0 | 0x000a08c0
-`GdipIsVisibleRegionRect` | 417 (0x1a1) | Exported Function | 0x100a0330 | 0x000a0330
-`GdipIsVisibleRegionRectI` | 418 (0x1a2) | Exported Function | 0x100a0460 | 0x000a0460
-`GdipLoadImageFromFile` | 419 (0x1a3) | Exported Function | 0x100535c0 | 0x000535c0
-`GdipLoadImageFromFileICM` | 420 (0x1a4) | Exported Function | 0x100a04d0 | 0x000a04d0
-`GdipLoadImageFromStream` | 421 (0x1a5) | Exported Function | 0x10051980 | 0x00051980
-`GdipLoadImageFromStreamICM` | 422 (0x1a6) | Exported Function | 0x10054940 | 0x00054940
-`GdiplusNotificationHook` | 606 (0x25e) | Exported Function | 0x100a5900 | 0x000a5900
-`GdipMultiplyTextureTransform` | 430 (0x1ae) | Exported Function | 0x100a0800 | 0x000a0800
-`GdiplusNotificationUnhook` | 607 (0x25f) | Exported Function | 0x100a5960 | 0x000a5960
-`GdiplusStartup` | 609 (0x261) | Exported Function | 0x100747f0 | 0x000747f0
-`GdipMeasureCharacterRanges` | 423 (0x1a7) | Exported Function | 0x100a0590 | 0x000a0590
-`GdipMeasureDriverString` | 424 (0x1a8) | Exported Function | 0x100a06a0 | 0x000a06a0
-`GdipMeasureString` | 425 (0x1a9) | Exported Function | 0x10060aa0 | 0x00060aa0
-`GdipMultiplyLineTransform` | 426 (0x1aa) | Exported Function | 0x100a0800 | 0x000a0800
-`GdipMultiplyMatrix` | 427 (0x1ab) | Exported Function | 0x10069770 | 0x00069770
-`GdipMultiplyPathGradientTransform` | 428 (0x1ac) | Exported Function | 0x100a0800 | 0x000a0800
-`GdiplusShutdown` | 608 (0x260) | Exported Function | 0x100741d0 | 0x000741d0
-`GdipPrivateAddMemoryFont` | 448 (0x1c0) | Exported Function | 0x100a17c0 | 0x000a17c0
-`GdipGetStringFormatTabStopCount` | 379 (0x17b) | Exported Function | 0x1009f120 | 0x0009f120
-`GdipGetStringFormatLineAlign` | 377 (0x179) | Exported Function | 0x1009f040 | 0x0009f040
-`GdipGetPathGradientPresetBlendCount` | 322 (0x142) | Exported Function | 0x1009c7f0 | 0x0009c7f0
-`GdipGetPathGradientRect` | 323 (0x143) | Exported Function | 0x1009c880 | 0x0009c880
-`GdipGetPathGradientRectI` | 324 (0x144) | Exported Function | 0x1009c900 | 0x0009c900
-`GdipGetPathGradientSurroundColorCount` | 325 (0x145) | Exported Function | 0x1009d570 | 0x0009d570
-`GdipGetPathGradientSurroundColorsWithCount` | 326 (0x146) | Exported Function | 0x1009d600 | 0x0009d600
-`GdipGetPathGradientTransform` | 327 (0x147) | Exported Function | 0x1009c9a0 | 0x0009c9a0
-`GdipGetPathGradientWrapMode` | 328 (0x148) | Exported Function | 0x1009ca50 | 0x0009ca50
-`GdipGetPathLastPoint` | 329 (0x149) | Exported Function | 0x1009d6e0 | 0x0009d6e0
-`GdipGetPathPoints` | 330 (0x14a) | Exported Function | 0x1009d760 | 0x0009d760
-`GdipGetPathPointsI` | 331 (0x14b) | Exported Function | 0x1009d810 | 0x0009d810
-`GdipGetPathTypes` | 332 (0x14c) | Exported Function | 0x1009d8f0 | 0x0009d8f0
-`GdipGetPathWorldBounds` | 333 (0x14d) | Exported Function | 0x1009d990 | 0x0009d990
-`GdipGetPathWorldBoundsI` | 334 (0x14e) | Exported Function | 0x1009dad0 | 0x0009dad0
-`GdipGetPenBrushFill` | 335 (0x14f) | Exported Function | 0x1009dc10 | 0x0009dc10
-`GdipGetPenColor` | 336 (0x150) | Exported Function | 0x1006d5c0 | 0x0006d5c0
-`GdipGetPathGradientPresetBlend` | 321 (0x141) | Exported Function | 0x1009d440 | 0x0009d440
-`GdipGetPathGradientPointCount` | 320 (0x140) | Exported Function | 0x1009d3c0 | 0x0009d3c0
-`GdipGetPathGradientPath` | 319 (0x13f) | Exported Function | 0x1009d390 | 0x0009d390
-`GdipGetPathGradientGammaCorrection` | 318 (0x13e) | Exported Function | 0x1009d310 | 0x0009d310
-`GdipGetMetafileHeaderFromEmf` | 302 (0x12e) | Exported Function | 0x1009ccf0 | 0x0009ccf0
-`GdipGetMetafileHeaderFromFile` | 303 (0x12f) | Exported Function | 0x1009cd30 | 0x0009cd30
-`GdipGetMetafileHeaderFromMetafile` | 304 (0x130) | Exported Function | 0x1009cd70 | 0x0009cd70
-`GdipGetMetafileHeaderFromStream` | 305 (0x131) | Exported Function | 0x1009cdf0 | 0x0009cdf0
-`GdipGetMetafileHeaderFromWmf` | 306 (0x132) | Exported Function | 0x1009ce40 | 0x0009ce40
-`GdipGetNearestColor` | 307 (0x133) | Exported Function | 0x1009ce90 | 0x0009ce90
-`GdipGetPageScale` | 308 (0x134) | Exported Function | 0x1009cf10 | 0x0009cf10
-`GdipGetPenCompoundArray` | 337 (0x151) | Exported Function | 0x1009dca0 | 0x0009dca0
-`GdipGetPageUnit` | 309 (0x135) | Exported Function | 0x1009cf80 | 0x0009cf80
-`GdipGetPathFillMode` | 311 (0x137) | Exported Function | 0x1009d070 | 0x0009d070
-`GdipGetPathGradientBlend` | 312 (0x138) | Exported Function | 0x1009d100 | 0x0009d100
-`GdipGetPathGradientBlendCount` | 313 (0x139) | Exported Function | 0x1009c510 | 0x0009c510
-`GdipGetPathGradientCenterColor` | 314 (0x13a) | Exported Function | 0x1009bf30 | 0x0009bf30
-`GdipGetPathGradientCenterPoint` | 315 (0x13b) | Exported Function | 0x1009d190 | 0x0009d190
-`GdipGetPathGradientCenterPointI` | 316 (0x13c) | Exported Function | 0x1009d210 | 0x0009d210
-`GdipGetPathGradientFocusScales` | 317 (0x13d) | Exported Function | 0x1009d280 | 0x0009d280
-`GdipGetPathData` | 310 (0x136) | Exported Function | 0x1009cff0 | 0x0009cff0
-`GdipGetPenCompoundCount` | 338 (0x152) | Exported Function | 0x1009dd20 | 0x0009dd20
-`GdipGetPenCustomEndCap` | 339 (0x153) | Exported Function | 0x1009dda0 | 0x0009dda0
-`GdipGetPenCustomStartCap` | 340 (0x154) | Exported Function | 0x1009de20 | 0x0009de20
-`GdipGetPropertySize` | 361 (0x169) | Exported Function | 0x1006d020 | 0x0006d020
-`GdipGetRegionBounds` | 362 (0x16a) | Exported Function | 0x1009e6a0 | 0x0009e6a0
-`GdipGetRegionBoundsI` | 363 (0x16b) | Exported Function | 0x1009e770 | 0x0009e770
-`GdipGetRegionData` | 364 (0x16c) | Exported Function | 0x1009e8a0 | 0x0009e8a0
-`GdipGetRegionDataSize` | 365 (0x16d) | Exported Function | 0x1009e940 | 0x0009e940
-`GdipGetRegionHRgn` | 366 (0x16e) | Exported Function | 0x1009e9e0 | 0x0009e9e0
-`GdipGetRegionScans` | 367 (0x16f) | Exported Function | 0x1009eac0 | 0x0009eac0
-`GdipGetPropertyItemSize` | 360 (0x168) | Exported Function | 0x1005f0e0 | 0x0005f0e0
-`GdipGetRegionScansCount` | 368 (0x170) | Exported Function | 0x1009eb90 | 0x0009eb90
-`GdipGetRenderingOrigin` | 370 (0x172) | Exported Function | 0x1009ed30 | 0x0009ed30
-`GdipGetSmoothingMode` | 371 (0x173) | Exported Function | 0x10069b20 | 0x00069b20
-`GdipGetSolidFillColor` | 372 (0x174) | Exported Function | 0x1009edc0 | 0x0009edc0
-`GdipGetStringFormatAlign` | 373 (0x175) | Exported Function | 0x1009ee50 | 0x0009ee50
-`GdipGetStringFormatDigitSubstitution` | 374 (0x176) | Exported Function | 0x1009eed0 | 0x0009eed0
-`GdipGetStringFormatFlags` | 375 (0x177) | Exported Function | 0x1009ef40 | 0x0009ef40
-`GdipGetStringFormatHotkeyPrefix` | 376 (0x178) | Exported Function | 0x1009efc0 | 0x0009efc0
-`GdipGetRegionScansI` | 369 (0x171) | Exported Function | 0x1009ec60 | 0x0009ec60
-`GdipGetStringFormatMeasurableCharacterRangeCount` | 378 (0x17a) | Exported Function | 0x1009f0c0 | 0x0009f0c0
-`GdipGetPropertyItem` | 359 (0x167) | Exported Function | 0x1006e340 | 0x0006e340
-`GdipGetPropertyCount` | 357 (0x165) | Exported Function | 0x1009e5c0 | 0x0009e5c0
-`GdipGetPenDashArray` | 341 (0x155) | Exported Function | 0x1009dea0 | 0x0009dea0
-`GdipGetPenDashCap197819` | 342 (0x156) | Exported Function | 0x1009df20 | 0x0009df20
-`GdipGetPenDashCount` | 343 (0x157) | Exported Function | 0x1009dfa0 | 0x0009dfa0
-`GdipGetPenDashOffset` | 344 (0x158) | Exported Function | 0x1009e020 | 0x0009e020
-`GdipGetPenDashStyle` | 345 (0x159) | Exported Function | 0x1009e0a0 | 0x0009e0a0
-`GdipGetPenEndCap` | 346 (0x15a) | Exported Function | 0x1009e120 | 0x0009e120
-`GdipGetPenFillType` | 347 (0x15b) | Exported Function | 0x1006d750 | 0x0006d750
-`GdipGetPropertyIdList` | 358 (0x166) | Exported Function | 0x1009e630 | 0x0009e630
-`GdipGetPenLineJoin` | 348 (0x15c) | Exported Function | 0x1009e1a0 | 0x0009e1a0
-`GdipGetPenMode` | 350 (0x15e) | Exported Function | 0x1009e2a0 | 0x0009e2a0
-`GdipGetPenStartCap` | 351 (0x15f) | Exported Function | 0x1009e320 | 0x0009e320
-`GdipGetPenTransform` | 352 (0x160) | Exported Function | 0x1009e3a0 | 0x0009e3a0
-`GdipGetPenUnit` | 353 (0x161) | Exported Function | 0x1009e450 | 0x0009e450
-`GdipGetPenWidth` | 354 (0x162) | Exported Function | 0x1006da20 | 0x0006da20
-`GdipGetPixelOffsetMode` | 355 (0x163) | Exported Function | 0x1009e4d0 | 0x0009e4d0
-`GdipGetPointCount` | 356 (0x164) | Exported Function | 0x1009e540 | 0x0009e540
-`GdipGetPenMiterLimit` | 349 (0x15d) | Exported Function | 0x1009e220 | 0x0009e220
-`GdipGetMetafileDownLevelRasterizationLimit` | 301 (0x12d) | Exported Function | 0x1009cc30 | 0x0009cc30
-`GdipRecordMetafile` | 449 (0x1c1) | Exported Function | 0x100272c0 | 0x000272c0
-`GdipRecordMetafileFileNameI` | 451 (0x1c3) | Exported Function | 0x100a1930 | 0x000a1930
-`GdipSetPenDashCap197819` | 550 (0x226) | Exported Function | 0x100a4220 | 0x000a4220
-`GdipSetPenDashOffset` | 551 (0x227) | Exported Function | 0x100a42a0 | 0x000a42a0
-`GdipSetPenDashStyle` | 552 (0x228) | Exported Function | 0x10069490 | 0x00069490
-`GdipSetPenEndCap` | 553 (0x229) | Exported Function | 0x1006c870 | 0x0006c870
-`GdipSetPenLineCap197819` | 554 (0x22a) | Exported Function | 0x100a4320 | 0x000a4320
-`GdipSetPenLineJoin` | 555 (0x22b) | Exported Function | 0x1006ccd0 | 0x0006ccd0
-`GdipSetPenMiterLimit` | 556 (0x22c) | Exported Function | 0x100a43b0 | 0x000a43b0
-`GdipSetPenMode` | 557 (0x22d) | Exported Function | 0x100a4430 | 0x000a4430
-`GdipSetPenStartCap` | 558 (0x22e) | Exported Function | 0x1006c910 | 0x0006c910
-`GdipSetPenTransform` | 559 (0x22f) | Exported Function | 0x100a44b0 | 0x000a44b0
-`GdipSetPenUnit` | 560 (0x230) | Exported Function | 0x100a4560 | 0x000a4560
-`GdipSetPenWidth` | 561 (0x231) | Exported Function | 0x100690a0 | 0x000690a0
-`GdipSetPixelOffsetMode` | 562 (0x232) | Exported Function | 0x10045870 | 0x00045870
-`GdipSetPropertyItem` | 563 (0x233) | Exported Function | 0x10055250 | 0x00055250
-`GdipSetRenderingOrigin` | 564 (0x234) | Exported Function | 0x100a45f0 | 0x000a45f0
-`GdipSetPenDashArray` | 549 (0x225) | Exported Function | 0x100a41a0 | 0x000a41a0
-`GdipSetPenCustomStartCap` | 548 (0x224) | Exported Function | 0x100a40e0 | 0x000a40e0
-`GdipSetPenCustomEndCap` | 547 (0x223) | Exported Function | 0x100a4020 | 0x000a4020
-`GdipSetPenCompoundArray` | 546 (0x222) | Exported Function | 0x100a3fa0 | 0x000a3fa0
-`GdipSetPathGradientBlend` | 530 (0x212) | Exported Function | 0x100a3830 | 0x000a3830
-`GdipSetPathGradientCenterColor` | 531 (0x213) | Exported Function | 0x100a38d0 | 0x000a38d0
-`GdipSetPathGradientCenterPoint` | 532 (0x214) | Exported Function | 0x100a3950 | 0x000a3950
-`GdipSetPathGradientCenterPointI` | 533 (0x215) | Exported Function | 0x100a39e0 | 0x000a39e0
-`GdipSetPathGradientFocusScales` | 534 (0x216) | Exported Function | 0x100a3a40 | 0x000a3a40
-`GdipSetPathGradientGammaCorrection` | 535 (0x217) | Exported Function | 0x100a3ac0 | 0x000a3ac0
-`GdipSetPathGradientLinearBlend` | 536 (0x218) | Exported Function | 0x100a33c0 | 0x000a33c0
-`GdipSetSmoothingMode` | 565 (0x235) | Exported Function | 0x1002d990 | 0x0002d990
-`GdipSetPathGradientPath` | 537 (0x219) | Exported Function | 0x1009d390 | 0x0009d390
-`GdipSetPathGradientSigmaBlend` | 539 (0x21b) | Exported Function | 0x100a3cb0 | 0x000a3cb0
-`GdipSetPathGradientSurroundColorsWithCount` | 540 (0x21c) | Exported Function | 0x100a3d40 | 0x000a3d40
-`GdipSetPathGradientTransform` | 541 (0x21d) | Exported Function | 0x100a35c0 | 0x000a35c0
-`GdipSetPathGradientWrapMode` | 542 (0x21e) | Exported Function | 0x100a3ea0 | 0x000a3ea0
-`GdipSetPathMarker` | 543 (0x21f) | Exported Function | 0x100a3f20 | 0x000a3f20
-`GdipSetPenBrushFill` | 544 (0x220) | Exported Function | 0x10050fd0 | 0x00050fd0
-`GdipSetPenColor` | 545 (0x221) | Exported Function | 0x1004dd20 | 0x0004dd20
-`GdipSetPathGradientPresetBlend` | 538 (0x21a) | Exported Function | 0x100a3b40 | 0x000a3b40
-`GdipSetSolidFillColor` | 566 (0x236) | Exported Function | 0x10069020 | 0x00069020
-`GdipSetStringFormatAlign` | 567 (0x237) | Exported Function | 0x100a4660 | 0x000a4660
-`GdipSetStringFormatDigitSubstitution` | 568 (0x238) | Exported Function | 0x100a46e0 | 0x000a46e0
-`GdipTransformPointsI` | 589 (0x24d) | Exported Function | 0x100a4ec0 | 0x000a4ec0
-`GdipTransformRegion` | 590 (0x24e) | Exported Function | 0x100a5050 | 0x000a5050
-`GdipTranslateClip` | 591 (0x24f) | Exported Function | 0x100a5100 | 0x000a5100
-`GdipTranslateClipI` | 592 (0x250) | Exported Function | 0x100a5180 | 0x000a5180
-`GdipTranslateLineTransform` | 593 (0x251) | Exported Function | 0x100a51d0 | 0x000a51d0
-`GdipTranslateMatrix` | 594 (0x252) | Exported Function | 0x10065f00 | 0x00065f00
-`GdipTranslatePathGradientTransform` | 595 (0x253) | Exported Function | 0x100a51d0 | 0x000a51d0
-`GdipTransformPoints` | 588 (0x24c) | Exported Function | 0x100a4e40 | 0x000a4e40
-`GdipTranslatePenTransform` | 596 (0x254) | Exported Function | 0x100a5270 | 0x000a5270
-`GdipTranslateRegionI` | 598 (0x256) | Exported Function | 0x100a5380 | 0x000a5380
-`GdipTranslateTextureTransform` | 599 (0x257) | Exported Function | 0x10065e60 | 0x00065e60
-`GdipTranslateWorldTransform` | 600 (0x258) | Exported Function | 0x10065f90 | 0x00065f90
-`GdipVectorTransformMatrixPoints` | 601 (0x259) | Exported Function | 0x100a53d0 | 0x000a53d0
-`GdipVectorTransformMatrixPointsI` | 602 (0x25a) | Exported Function | 0x100a5450 | 0x000a5450
-`GdipWarpPath` | 603 (0x25b) | Exported Function | 0x100a55f0 | 0x000a55f0
-`GdipWidenPath` | 604 (0x25c) | Exported Function | 0x100a5700 | 0x000a5700
-`GdipTranslateRegion` | 597 (0x255) | Exported Function | 0x100a5310 | 0x000a5310
-`GdipSetPathFillMode` | 529 (0x211) | Exported Function | 0x1006b960 | 0x0006b960
-`GdipTransformPath` | 587 (0x24b) | Exported Function | 0x100a4d90 | 0x000a4d90
-`GdipTransformMatrixPoints` | 585 (0x249) | Exported Function | 0x10028c20 | 0x00028c20
-`GdipSetStringFormatFlags` | 569 (0x239) | Exported Function | 0x100a4750 | 0x000a4750
-`GdipSetStringFormatHotkeyPrefix` | 570 (0x23a) | Exported Function | 0x100a47d0 | 0x000a47d0
-`GdipSetStringFormatLineAlign` | 571 (0x23b) | Exported Function | 0x100a4850 | 0x000a4850
-`GdipSetStringFormatMeasurableCharacterRanges` | 572 (0x23c) | Exported Function | 0x100a48d0 | 0x000a48d0
-`GdipSetStringFormatTabStops` | 573 (0x23d) | Exported Function | 0x100a4940 | 0x000a4940
-`GdipSetStringFormatTrimming` | 574 (0x23e) | Exported Function | 0x100a49d0 | 0x000a49d0
-`GdipSetTextContrast` | 575 (0x23f) | Exported Function | 0x100a4a50 | 0x000a4a50
-`GdipTransformMatrixPointsI` | 586 (0x24a) | Exported Function | 0x10028ca0 | 0x00028ca0
-`GdipSetTextRenderingHint` | 576 (0x240) | Exported Function | 0x100a4ac0 | 0x000a4ac0
-`GdipSetTextureWrapMode` | 578 (0x242) | Exported Function | 0x1006e200 | 0x0006e200
-`GdipSetWorldTransform` | 579 (0x243) | Exported Function | 0x1006d430 | 0x0006d430
-`GdipShearMatrix` | 580 (0x244) | Exported Function | 0x100a4b40 | 0x000a4b40
-`GdipStartPathFigure` | 581 (0x245) | Exported Function | 0x100a4bd0 | 0x000a4bd0
-`GdipStringFormatGetGenericDefault` | 582 (0x246) | Exported Function | 0x100a4c60 | 0x000a4c60
-`GdipStringFormatGetGenericTypographic` | 583 (0x247) | Exported Function | 0x100a4cc0 | 0x000a4cc0
-`GdipTestControl` | 584 (0x248) | Exported Function | 0x100a4d20 | 0x000a4d20
-`GdipSetTextureTransform` | 577 (0x241) | Exported Function | 0x100a35c0 | 0x000a35c0
-`GdipRecordMetafileFileName` | 450 (0x1c2) | Exported Function | 0x100a1830 | 0x000a1830
-`GdipSetPageUnit` | 528 (0x210) | Exported Function | 0x1006e750 | 0x0006e750
-`GdipSetMetafileDownLevelRasterizationLimit` | 526 (0x20e) | Exported Function | 0x100a3700 | 0x000a3700
-`GdipRotateTextureTransform` | 472 (0x1d8) | Exported Function | 0x100a2020 | 0x000a2020
-`GdipRotateWorldTransform` | 473 (0x1d9) | Exported Function | 0x1006a1e0 | 0x0006a1e0
-`GdipSaveAdd` | 474 (0x1da) | Exported Function | 0x100a2150 | 0x000a2150
-`GdipSaveAddImage` | 475 (0x1db) | Exported Function | 0x100a21d0 | 0x000a21d0
-`GdipSaveGraphics` | 476 (0x1dc) | Exported Function | 0x1006efa0 | 0x0006efa0
-`GdipSaveImageToFile` | 477 (0x1dd) | Exported Function | 0x10069a60 | 0x00069a60
-`GdipSaveImageToStream` | 478 (0x1de) | Exported Function | 0x1006dac0 | 0x0006dac0
-`GdipScaleLineTransform` | 479 (0x1df) | Exported Function | 0x100a2250 | 0x000a2250
-`GdipScaleMatrix` | 480 (0x1e0) | Exported Function | 0x1006b8d0 | 0x0006b8d0
-`GdipScalePathGradientTransform` | 481 (0x1e1) | Exported Function | 0x100a2250 | 0x000a2250
-`GdipScalePenTransform` | 482 (0x1e2) | Exported Function | 0x100a22f0 | 0x000a22f0
-`GdipScaleTextureTransform` | 483 (0x1e3) | Exported Function | 0x100a2250 | 0x000a2250
-`GdipScaleWorldTransform` | 484 (0x1e4) | Exported Function | 0x100a2390 | 0x000a2390
-`GdipSetAdjustableArrowCapFillState` | 485 (0x1e5) | Exported Function | 0x100a2420 | 0x000a2420
-`GdipSetAdjustableArrowCapHeight` | 486 (0x1e6) | Exported Function | 0x100a24b0 | 0x000a24b0
-`GdipRotatePenTransform` | 471 (0x1d7) | Exported Function | 0x100a20c0 | 0x000a20c0
-`GdipRotatePathGradientTransform` | 470 (0x1d6) | Exported Function | 0x100a2020 | 0x000a2020
-`GdipRotateMatrix` | 469 (0x1d5) | Exported Function | 0x1006a2d0 | 0x0006a2d0
-`GdipRotateLineTransform` | 468 (0x1d4) | Exported Function | 0x100a2020 | 0x000a2020
-`GdipRecordMetafileI` | 452 (0x1c4) | Exported Function | 0x100a19d0 | 0x000a19d0
-`GdipRecordMetafileStream` | 453 (0x1c5) | Exported Function | 0x100a1a70 | 0x000a1a70
-`GdipRecordMetafileStreamI` | 454 (0x1c6) | Exported Function | 0x100a1b70 | 0x000a1b70
-`GdipReleaseDC` | 455 (0x1c7) | Exported Function | 0x100258d0 | 0x000258d0
-`GdipRemovePropertyItem` | 456 (0x1c8) | Exported Function | 0x100a1c10 | 0x000a1c10
-`GdipResetClip` | 457 (0x1c9) | Exported Function | 0x1006b780 | 0x0006b780
-`GdipResetImageAttributes` | 458 (0x1ca) | Exported Function | 0x100a1c80 | 0x000a1c80
-`GdipSetAdjustableArrowCapMiddleInset` | 487 (0x1e7) | Exported Function | 0x100a2530 | 0x000a2530
-`GdipResetLineTransform` | 459 (0x1cb) | Exported Function | 0x100a1d30 | 0x000a1d30
-`GdipResetPath` | 461 (0x1cd) | Exported Function | 0x100a1e20 | 0x000a1e20
-`GdipResetPathGradientTransform` | 462 (0x1ce) | Exported Function | 0x100a1d30 | 0x000a1d30
-`GdipResetPenTransform` | 463 (0x1cf) | Exported Function | 0x100a1eb0 | 0x000a1eb0
-`GdipResetTextureTransform` | 464 (0x1d0) | Exported Function | 0x100a1d30 | 0x000a1d30
-`GdipResetWorldTransform` | 465 (0x1d1) | Exported Function | 0x1006f030 | 0x0006f030
-`GdipRestoreGraphics` | 466 (0x1d2) | Exported Function | 0x100a1f30 | 0x000a1f30
-`GdipReversePath` | 467 (0x1d3) | Exported Function | 0x100a1fa0 | 0x000a1fa0
-`GdipResetPageTransform` | 460 (0x1cc) | Exported Function | 0x100a1db0 | 0x000a1db0
-`GdipSetAdjustableArrowCapWidth` | 488 (0x1e8) | Exported Function | 0x100a25b0 | 0x000a25b0
-`GdipSetClipGraphics` | 489 (0x1e9) | Exported Function | 0x100a2630 | 0x000a2630
-`GdipSetClipHrgn` | 490 (0x1ea) | Exported Function | 0x100a26f0 | 0x000a26f0
-`GdipSetImageAttributesRemapTable` | 510 (0x1fe) | Exported Function | 0x100a2f40 | 0x000a2f40
-`GdipSetImageAttributesThreshold` | 511 (0x1ff) | Exported Function | 0x100a2fd0 | 0x000a2fd0
-`GdipSetImageAttributesToIdentity` | 512 (0x200) | Exported Function | 0x100a3060 | 0x000a3060
-`GdipSetImageAttributesWrapMode` | 513 (0x201) | Exported Function | 0x100a3120 | 0x000a3120
-`GdipSetImagePalette` | 514 (0x202) | Exported Function | 0x100a31b0 | 0x000a31b0
-`GdipSetInfinite` | 515 (0x203) | Exported Function | 0x100a3250 | 0x000a3250
-`GdipSetInterpolationMode` | 516 (0x204) | Exported Function | 0x10041b30 | 0x00041b30
-`GdipSetImageAttributesOutputChannelColorProfile` | 509 (0x1fd) | Exported Function | 0x100a2eb0 | 0x000a2eb0
-`GdipSetLineBlend` | 517 (0x205) | Exported Function | 0x100449d0 | 0x000449d0
-`GdipSetLineGammaCorrection` | 519 (0x207) | Exported Function | 0x100a3360 | 0x000a3360
-`GdipSetLineLinearBlend` | 520 (0x208) | Exported Function | 0x100a33c0 | 0x000a33c0
-`GdipSetLinePresetBlend` | 521 (0x209) | Exported Function | 0x100a3450 | 0x000a3450
-`GdipSetLineSigmaBlend` | 522 (0x20a) | Exported Function | 0x10066510 | 0x00066510
-`GdipSetLineTransform` | 523 (0x20b) | Exported Function | 0x100a35c0 | 0x000a35c0
-`GdipSetLineWrapMode` | 524 (0x20c) | Exported Function | 0x100a3670 | 0x000a3670
-`GdipSetMatrixElements` | 525 (0x20d) | Exported Function | 0x1005b070 | 0x0005b070
-`GdipSetLineColors` | 518 (0x206) | Exported Function | 0x100a32d0 | 0x000a32d0
-`GdipSetPageScale` | 527 (0x20f) | Exported Function | 0x100a37b0 | 0x000a37b0
-`GdipSetImageAttributesOutputChannel` | 508 (0x1fc) | Exported Function | 0x100a2e20 | 0x000a2e20
-`GdipSetImageAttributesGamma` | 506 (0x1fa) | Exported Function | 0x100a2d00 | 0x000a2d00
-`GdipSetClipPath` | 491 (0x1eb) | Exported Function | 0x100a2780 | 0x000a2780
-`GdipSetClipRect` | 492 (0x1ec) | Exported Function | 0x1002bb30 | 0x0002bb30
-`GdipSetClipRectI` | 493 (0x1ed) | Exported Function | 0x1002bac0 | 0x0002bac0
-`GdipSetClipRegion` | 494 (0x1ee) | Exported Function | 0x100a2850 | 0x000a2850
-`GdipSetCompositingMode` | 495 (0x1ef) | Exported Function | 0x100250a0 | 0x000250a0
-`GdipSetCompositingQuality` | 496 (0x1f0) | Exported Function | 0x1006cd90 | 0x0006cd90
-`GdipSetCustomLineCapBaseCap` | 497 (0x1f1) | Exported Function | 0x100a2920 | 0x000a2920
-`GdipSetImageAttributesNoOp` | 507 (0x1fb) | Exported Function | 0x100a2d90 | 0x000a2d90
-`GdipSetCustomLineCapBaseInset` | 498 (0x1f2) | Exported Function | 0x100a29a0 | 0x000a29a0
-`GdipSetCustomLineCapStrokeJoin` | 500 (0x1f4) | Exported Function | 0x100a2aa0 | 0x000a2aa0
-`GdipSetCustomLineCapWidthScale` | 501 (0x1f5) | Exported Function | 0x100a2b20 | 0x000a2b20
-`GdipSetEffectParameters` | 617 (0x269) | Exported Function | 0x100a2ba0 | 0x000a2ba0
-`GdipSetEmpty` | 502 (0x1f6) | Exported Function | 0x100a2c00 | 0x000a2c00
-`GdipSetImageAttributesCachedBackground` | 503 (0x1f7) | Exported Function | 0x100a2c80 | 0x000a2c80
-`GdipSetImageAttributesColorKeys` | 504 (0x1f8) | Exported Function | 0x10041c00 | 0x00041c00
-`GdipSetImageAttributesColorMatrix` | 505 (0x1f9) | Exported Function | 0x1006dbb0 | 0x0006dbb0
-`GdipSetCustomLineCapStrokeCaps` | 499 (0x1f3) | Exported Function | 0x100a2a20 | 0x000a2a20
-`GdipWindingModeOutline` | 605 (0x25d) | Exported Function | 0x100a5820 | 0x000a5820
-`GdipGetMatrixElements` | 300 (0x12c) | Exported Function | 0x1006b6b0 | 0x0006b6b0
-`GdipGetLogFontA` | 298 (0x12a) | Exported Function | 0x1009cad0 | 0x0009cad0
-`GdipCreateLineBrush` | 92 (0x5c) | Exported Function | 0x10096840 | 0x00096840
-`GdipCreateLineBrushFromRect` | 93 (0x5d) | Exported Function | 0x10044cb0 | 0x00044cb0
-`GdipCreateLineBrushFromRectI` | 94 (0x5e) | Exported Function | 0x10044bf0 | 0x00044bf0
-`GdipCreateLineBrushFromRectWithAngle` | 95 (0x5f) | Exported Function | 0x10096900 | 0x00096900
-`GdipCreateLineBrushFromRectWithAngleI` | 96 (0x60) | Exported Function | 0x100969c0 | 0x000969c0
-`GdipCreateLineBrushI` | 97 (0x61) | Exported Function | 0x10096a70 | 0x00096a70
-`GdipCreateMatrix` | 101 (0x65) | Exported Function | 0x10062590 | 0x00062590
-`GdipCreateMatrix2` | 98 (0x62) | Exported Function | 0x10062440 | 0x00062440
-`GdipCreateMatrix3` | 99 (0x63) | Exported Function | 0x10096b30 | 0x00096b30
-`GdipCreateMatrix3I` | 100 (0x64) | Exported Function | 0x10096bd0 | 0x00096bd0
-`GdipCreateMetafileFromEmf` | 102 (0x66) | Exported Function | 0x10096cf0 | 0x00096cf0
-`GdipCreateMetafileFromFile` | 103 (0x67) | Exported Function | 0x10096dc0 | 0x00096dc0
-`GdipCreateMetafileFromStream` | 104 (0x68) | Exported Function | 0x10096f60 | 0x00096f60
-`GdipCreateMetafileFromWmf` | 105 (0x69) | Exported Function | 0x10097030 | 0x00097030
-`GdipCreateMetafileFromWmfFile` | 106 (0x6a) | Exported Function | 0x10097100 | 0x00097100
-`GdipCreateImageAttributes` | 91 (0x5b) | Exported Function | 0x10041cb0 | 0x00041cb0
-`GdipCreateHICONFromBitmap` | 88 (0x58) | Exported Function | 0x1005eba0 | 0x0005eba0
-`GdipCreateHBITMAPFromBitmap` | 87 (0x57) | Exported Function | 0x100406b0 | 0x000406b0
-`GdipCreateHatchBrush` | 90 (0x5a) | Exported Function | 0x10096780 | 0x00096780
-`GdipCreateBitmapFromScan0` | 73 (0x49) | Exported Function | 0x10040aa0 | 0x00040aa0
-`GdipCreateBitmapFromStream` | 74 (0x4a) | Exported Function | 0x10070fa0 | 0x00070fa0
-`GdipCreateBitmapFromStreamICM` | 75 (0x4b) | Exported Function | 0x10096160 | 0x00096160
-`GdipCreateCachedBitmap` | 76 (0x4c) | Exported Function | 0x10069c40 | 0x00069c40
-`GdipCreateCustomLineCap` | 77 (0x4d) | Exported Function | 0x100962d0 | 0x000962d0
-`GdipCreateEffect` | 613 (0x265) | Exported Function | 0x10096460 | 0x00096460
-`GdipCreateFont` | 78 (0x4e) | Exported Function | 0x10062830 | 0x00062830
-`GdipCreatePath` | 109 (0x6d) | Exported Function | 0x1004b3b0 | 0x0004b3b0
-`GdipCreateFontFamilyFromName` | 79 (0x4f) | Exported Function | 0x10056b50 | 0x00056b50
-`GdipCreateFontFromLogfontA` | 81 (0x51) | Exported Function | 0x10096590 | 0x00096590
-`GdipCreateFontFromLogfontW` | 82 (0x52) | Exported Function | 0x10060e20 | 0x00060e20
-`GdipCreateFromHDC` | 84 (0x54) | Exported Function | 0x100309e0 | 0x000309e0
-`GdipCreateFromHDC2` | 83 (0x53) | Exported Function | 0x10096680 | 0x00096680
-`GdipCreateFromHWND` | 85 (0x55) | Exported Function | 0x10066de0 | 0x00066de0
-`GdipCreateFromHWNDICM` | 86 (0x56) | Exported Function | 0x10096700 | 0x00096700
-`GdipCreateHalftonePalette` | 89 (0x59) | Exported Function | 0x1006f1e0 | 0x0006f1e0
-`GdipCreateFontFromDC` | 80 (0x50) | Exported Function | 0x100964b0 | 0x000964b0
-`GdipCreatePath2` | 107 (0x6b) | Exported Function | 0x100971d0 | 0x000971d0
-`GdipCreatePath2I` | 108 (0x6c) | Exported Function | 0x10097270 | 0x00097270
-`GdipCreatePathGradient` | 110 (0x6e) | Exported Function | 0x100973c0 | 0x000973c0
-`GdipDeleteCachedBitmap` | 131 (0x83) | Exported Function | 0x1006a7c0 | 0x0006a7c0
-`GdipDeleteCustomLineCap` | 132 (0x84) | Exported Function | 0x10097cb0 | 0x00097cb0
-`GdipDeleteEffect` | 614 (0x266) | Exported Function | 0x10097d20 | 0x00097d20
-`GdipDeleteFont` | 133 (0x85) | Exported Function | 0x1006ca20 | 0x0006ca20
-`GdipDeleteFontFamily` | 134 (0x86) | Exported Function | 0x10097d70 | 0x00097d70
-`GdipDeleteGraphics` | 135 (0x87) | Exported Function | 0x1003d470 | 0x0003d470
-`GdipDeleteMatrix` | 136 (0x88) | Exported Function | 0x100686e0 | 0x000686e0
-`GdipDeleteBrush` | 130 (0x82) | Exported Function | 0x1004a670 | 0x0004a670
-`GdipDeletePath` | 137 (0x89) | Exported Function | 0x10067eb0 | 0x00067eb0
-`GdipDeletePen` | 139 (0x8b) | Exported Function | 0x1004e7c0 | 0x0004e7c0
-`GdipDeletePrivateFontCollection` | 140 (0x8c) | Exported Function | 0x10097e90 | 0x00097e90
-`GdipDeleteRegion` | 141 (0x8d) | Exported Function | 0x1006d670 | 0x0006d670
-`GdipDeleteStringFormat` | 142 (0x8e) | Exported Function | 0x10097f20 | 0x00097f20
-`GdipDisposeImage` | 143 (0x8f) | Exported Function | 0x10073ae0 | 0x00073ae0
-`GdipDisposeImageAttributes` | 144 (0x90) | Exported Function | 0x10041de0 | 0x00041de0
-`GdipDrawArc` | 145 (0x91) | Exported Function | 0x10097f90 | 0x00097f90
-`GdipDeletePathIter` | 138 (0x8a) | Exported Function | 0x10097e20 | 0x00097e20
-`GdipCreateBitmapFromResource` | 72 (0x48) | Exported Function | 0x1006a960 | 0x0006a960
-`GdipCreateTextureIAI` | 129 (0x81) | Exported Function | 0x10097c50 | 0x00097c50
-`GdipCreateTexture2I` | 126 (0x7e) | Exported Function | 0x10097a50 | 0x00097a50
-`GdipCreatePathGradientFromPath` | 111 (0x6f) | Exported Function | 0x10097450 | 0x00097450
-`GdipCreatePathGradientI` | 112 (0x70) | Exported Function | 0x100974e0 | 0x000974e0
-`GdipCreatePathIter` | 113 (0x71) | Exported Function | 0x100975d0 | 0x000975d0
-`GdipCreatePen1` | 114 (0x72) | Exported Function | 0x1004dc00 | 0x0004dc00
-`GdipCreatePen2` | 115 (0x73) | Exported Function | 0x10054460 | 0x00054460
-`GdipCreateRegion` | 116 (0x74) | Exported Function | 0x10057e10 | 0x00057e10
-`GdipCreateRegionHrgn` | 117 (0x75) | Exported Function | 0x10097670 | 0x00097670
-`GdipCreateTextureIA` | 128 (0x80) | Exported Function | 0x10097af0 | 0x00097af0
-`GdipCreateRegionPath` | 118 (0x76) | Exported Function | 0x10097710 | 0x00097710
-`GdipCreateRegionRectI` | 120 (0x78) | Exported Function | 0x10057fb0 | 0x00057fb0
-`GdipCreateRegionRgnData` | 121 (0x79) | Exported Function | 0x100977e0 | 0x000977e0
-`GdipCreateSolidFill` | 122 (0x7a) | Exported Function | 0x10068640 | 0x00068640
-`GdipCreateStreamOnFile` | 123 (0x7b) | Exported Function | 0x10076e00 | 0x00076e00
-`GdipCreateStringFormat` | 124 (0x7c) | Exported Function | 0x10097880 | 0x00097880
-`GdipCreateTexture` | 127 (0x7f) | Exported Function | 0x1004a870 | 0x0004a870
-`GdipCreateTexture2` | 125 (0x7d) | Exported Function | 0x10097930 | 0x00097930
-`GdipCreateRegionRect` | 119 (0x77) | Exported Function | 0x10058050 | 0x00058050
-`GdipDrawArcI` | 146 (0x92) | Exported Function | 0x10098080 | 0x00098080
-`GdipCreateBitmapFromHICON` | 71 (0x47) | Exported Function | 0x1006ae90 | 0x0006ae90
-`GdipCreateBitmapFromGraphics` | 69 (0x45) | Exported Function | 0x1006b2c0 | 0x0006b2c0
-`GdipAddPathLineI` | 22 (0x16) | Exported Function | 0x1005dad0 | 0x0005dad0
-`GdipAddPathPath` | 23 (0x17) | Exported Function | 0x100944f0 | 0x000944f0
-`GdipAddPathPie` | 24 (0x18) | Exported Function | 0x10094570 | 0x00094570
-`GdipAddPathPieI` | 25 (0x19) | Exported Function | 0x10094620 | 0x00094620
-`GdipAddPathPolygon` | 26 (0x1a) | Exported Function | 0x100946a0 | 0x000946a0
-`GdipAddPathPolygonI` | 27 (0x1b) | Exported Function | 0x10094730 | 0x00094730
-`GdipAddPathRectangle` | 28 (0x1c) | Exported Function | 0x100947f0 | 0x000947f0
-`GdipAddPathRectangleI` | 29 (0x1d) | Exported Function | 0x10094890 | 0x00094890
-`GdipAddPathRectangles` | 30 (0x1e) | Exported Function | 0x10094900 | 0x00094900
-`GdipAddPathRectanglesI` | 31 (0x1f) | Exported Function | 0x10094990 | 0x00094990
-`GdipAddPathString` | 32 (0x20) | Exported Function | 0x10094a60 | 0x00094a60
-`GdipAddPathStringI` | 33 (0x21) | Exported Function | 0x10094b80 | 0x00094b80
-`GdipAlloc` | 34 (0x22) | Exported Function | 0x100657b0 | 0x000657b0
-`GdipBeginContainer` | 36 (0x24) | Exported Function | 0x10094ca0 | 0x00094ca0
-`GdipBeginContainer2` | 35 (0x23) | Exported Function | 0x10094c10 | 0x00094c10
-`GdipAddPathLine2I` | 20 (0x14) | Exported Function | 0x10094430 | 0x00094430
-`GdipAddPathLine2` | 19 (0x13) | Exported Function | 0x100943a0 | 0x000943a0
-`GdipAddPathLine` | 21 (0x15) | Exported Function | 0x1005db40 | 0x0005db40
-`GdipAddPathEllipseI` | 18 (0x12) | Exported Function | 0x10094330 | 0x00094330
-`GdipAddPathArcI` | 2 (0x2) | Exported Function | 0x10067fb0 | 0x00067fb0
-`GdipAddPathBezier` | 3 (0x3) | Exported Function | 0x100938d0 | 0x000938d0
-`GdipAddPathBezierI` | 4 (0x4) | Exported Function | 0x10093990 | 0x00093990
-`GdipAddPathBeziers` | 5 (0x5) | Exported Function | 0x10093a30 | 0x00093a30
-`GdipAddPathBeziersI` | 6 (0x6) | Exported Function | 0x10093ac0 | 0x00093ac0
-`GdipAddPathClosedCurve` | 9 (0x9) | Exported Function | 0x10093ce0 | 0x00093ce0
-`GdipAddPathClosedCurve2` | 7 (0x7) | Exported Function | 0x10093b80 | 0x00093b80
-`GdipBeginContainerI` | 37 (0x25) | Exported Function | 0x10094d40 | 0x00094d40
-`GdipAddPathClosedCurve2I` | 8 (0x8) | Exported Function | 0x10093c10 | 0x00093c10
-`GdipAddPathCurve` | 15 (0xf) | Exported Function | 0x10094120 | 0x00094120
-`GdipAddPathCurve2` | 11 (0xb) | Exported Function | 0x10093e40 | 0x00093e40
-`GdipAddPathCurve2I` | 12 (0xc) | Exported Function | 0x10093ee0 | 0x00093ee0
-`GdipAddPathCurve3` | 13 (0xd) | Exported Function | 0x10093fb0 | 0x00093fb0
-`GdipAddPathCurve3I` | 14 (0xe) | Exported Function | 0x10094050 | 0x00094050
-`GdipAddPathCurveI` | 16 (0x10) | Exported Function | 0x100941c0 | 0x000941c0
-`GdipAddPathEllipse` | 17 (0x11) | Exported Function | 0x10094290 | 0x00094290
-`GdipAddPathClosedCurveI` | 10 (0xa) | Exported Function | 0x10093d80 | 0x00093d80
-`GdipBitmapApplyEffect` | 619 (0x26b) | Exported Function | 0x10094e20 | 0x00094e20
-`GdipBitmapConvertFormat` | 622 (0x26e) | Exported Function | 0x10094eb0 | 0x00094eb0
-`GdipBitmapCreateApplyEffect` | 618 (0x26a) | Exported Function | 0x10094f60 | 0x00094f60
-`GdipCloneStringFormat` | 56 (0x38) | Exported Function | 0x10095800 | 0x00095800
-`GdipClosePathFigure` | 57 (0x39) | Exported Function | 0x10095890 | 0x00095890
-`GdipClosePathFigures` | 58 (0x3a) | Exported Function | 0x10095920 | 0x00095920
-`GdipCombineRegionPath` | 59 (0x3b) | Exported Function | 0x100959b0 | 0x000959b0
-`GdipCombineRegionRect` | 60 (0x3c) | Exported Function | 0x10095a80 | 0x00095a80
-`GdipCombineRegionRectI` | 61 (0x3d) | Exported Function | 0x10095b10 | 0x00095b10
-`GdipCombineRegionRegion` | 62 (0x3e) | Exported Function | 0x10095b90 | 0x00095b90
-`GdipCloneRegion` | 55 (0x37) | Exported Function | 0x10095730 | 0x00095730
-`GdipComment` | 63 (0x3f) | Exported Function | 0x10095c60 | 0x00095c60
-`GdipConvertToEmfPlusToFile` | 628 (0x274) | Exported Function | 0x10095d70 | 0x00095d70
-`GdipConvertToEmfPlusToStream` | 629 (0x275) | Exported Function | 0x10095e00 | 0x00095e00
-`GdipCreateAdjustableArrowCap` | 64 (0x40) | Exported Function | 0x10095e90 | 0x00095e90
-`GdipCreateBitmapFromDirectDrawSurface` | 65 (0x41) | Exported Function | 0x10095f30 | 0x00095f30
-`GdipCreateBitmapFromFile` | 66 (0x42) | Exported Function | 0x10054560 | 0x00054560
-`GdipCreateBitmapFromFileICM` | 67 (0x43) | Exported Function | 0x10095ff0 | 0x00095ff0
-`GdipCreateBitmapFromGdiDib` | 68 (0x44) | Exported Function | 0x10025130 | 0x00025130
-`GdipConvertToEmfPlus` | 627 (0x273) | Exported Function | 0x10095ce0 | 0x00095ce0
-`GdipCreateBitmapFromHBITMAP` | 70 (0x46) | Exported Function | 0x10041ac0 | 0x00041ac0
-`GdipClonePen` | 54 (0x36) | Exported Function | 0x100956a0 | 0x000956a0
-`GdipCloneMatrix` | 52 (0x34) | Exported Function | 0x10062500 | 0x00062500
-`GdipBitmapGetHistogram` | 620 (0x26c) | Exported Function | 0x10094fd0 | 0x00094fd0
-`GdipBitmapGetHistogramSize` | 621 (0x26d) | Exported Function | 0x10095070 | 0x00095070
-`GdipBitmapGetPixel` | 38 (0x26) | Exported Function | 0x100950b0 | 0x000950b0
-`GdipBitmapLockBits` | 39 (0x27) | Exported Function | 0x10073750 | 0x00073750
-`GdipBitmapSetPixel` | 40 (0x28) | Exported Function | 0x1005f930 | 0x0005f930
-`GdipBitmapSetResolution` | 41 (0x29) | Exported Function | 0x1006b1f0 | 0x0006b1f0
-`GdipBitmapUnlockBits` | 42 (0x2a) | Exported Function | 0x10073800 | 0x00073800
-`GdipClonePath` | 53 (0x35) | Exported Function | 0x10095610 | 0x00095610
-`GdipClearPathMarkers` | 43 (0x2b) | Exported Function | 0x10095140 | 0x00095140
-`GdipCloneBitmapAreaI` | 45 (0x2d) | Exported Function | 0x10095230 | 0x00095230
-`GdipCloneBrush` | 46 (0x2e) | Exported Function | 0x100952f0 | 0x000952f0
-`GdipCloneCustomLineCap` | 47 (0x2f) | Exported Function | 0x10095390 | 0x00095390
-`GdipCloneFont` | 48 (0x30) | Exported Function | 0x10095460 | 0x00095460
-`GdipCloneFontFamily` | 49 (0x31) | Exported Function | 0x100954f0 | 0x000954f0
-`GdipCloneImage` | 50 (0x32) | Exported Function | 0x10069290 | 0x00069290
-`GdipCloneImageAttributes` | 51 (0x33) | Exported Function | 0x10095580 | 0x00095580
-`GdipCloneBitmapArea` | 44 (0x2c) | Exported Function | 0x100951c0 | 0x000951c0
-`GdipGetLogFontW` | 299 (0x12b) | Exported Function | 0x1009cb80 | 0x0009cb80
-`GdipDrawBezier` | 147 (0x93) | Exported Function | 0x10098100 | 0x00098100
-`GdipDrawBeziers` | 149 (0x95) | Exported Function | 0x100982a0 | 0x000982a0
-`GdipGetDpiX` | 246 (0xf6) | Exported Function | 0x1009b970 | 0x0009b970
-`GdipGetDpiY` | 247 (0xf7) | Exported Function | 0x1006ef30 | 0x0006ef30
-`GdipGetEffectParameters` | 616 (0x268) | Exported Function | 0x1009ba40 | 0x0009ba40
-`GdipGetEffectParameterSize` | 615 (0x267) | Exported Function | 0x1009b9e0 | 0x0009b9e0
-`GdipGetEmHeight` | 248 (0xf8) | Exported Function | 0x10060bb0 | 0x00060bb0
-`GdipGetEncoderParameterList` | 249 (0xf9) | Exported Function | 0x1009baa0 | 0x0009baa0
-`GdipGetEncoderParameterListSize` | 250 (0xfa) | Exported Function | 0x1009bb20 | 0x0009bb20
-`GdipGetFamily` | 251 (0xfb) | Exported Function | 0x10060fa0 | 0x00060fa0
-`GdipGetFamilyName` | 252 (0xfc) | Exported Function | 0x1009bba0 | 0x0009bba0
-`GdipGetFontCollectionFamilyCount` | 253 (0xfd) | Exported Function | 0x1009bc10 | 0x0009bc10
-`GdipGetFontCollectionFamilyList` | 254 (0xfe) | Exported Function | 0x1009bc80 | 0x0009bc80
-`GdipGetFontHeight` | 255 (0xff) | Exported Function | 0x10061120 | 0x00061120
-`GdipGetFontHeightGivenDPI` | 256 (0x100) | Exported Function | 0x1009bd00 | 0x0009bd00
-`GdipGetFontSize` | 257 (0x101) | Exported Function | 0x100613d0 | 0x000613d0
-`GdipGetFontStyle` | 258 (0x102) | Exported Function | 0x10061020 | 0x00061020
-`GdipGetDC` | 245 (0xf5) | Exported Function | 0x10025ae0 | 0x00025ae0
-`GdipGetCustomLineCapWidthScale` | 244 (0xf4) | Exported Function | 0x1009b8f0 | 0x0009b8f0
-`GdipGetCustomLineCapType` | 243 (0xf3) | Exported Function | 0x1009b860 | 0x0009b860
-`GdipGetCustomLineCapStrokeJoin` | 242 (0xf2) | Exported Function | 0x1009b7d0 | 0x0009b7d0
-`GdipGetAdjustableArrowCapFillState` | 226 (0xe2) | Exported Function | 0x1009b1c0 | 0x0009b1c0
-`GdipGetAdjustableArrowCapHeight` | 227 (0xe3) | Exported Function | 0x1009b240 | 0x0009b240
-`GdipGetAdjustableArrowCapMiddleInset` | 228 (0xe4) | Exported Function | 0x1009b2c0 | 0x0009b2c0
-`GdipGetAdjustableArrowCapWidth` | 229 (0xe5) | Exported Function | 0x1009b340 | 0x0009b340
-`GdipGetAllPropertyItems` | 230 (0xe6) | Exported Function | 0x10068ac0 | 0x00068ac0
-`GdipGetBrushType` | 231 (0xe7) | Exported Function | 0x1009b3c0 | 0x0009b3c0
-`GdipGetCellAscent` | 232 (0xe8) | Exported Function | 0x1009b440 | 0x0009b440
-`GdipGetFontUnit` | 259 (0x103) | Exported Function | 0x100610a0 | 0x000610a0
-`GdipGetCellDescent` | 233 (0xe9) | Exported Function | 0x1009b4d0 | 0x0009b4d0
-`GdipGetClipBounds` | 235 (0xeb) | Exported Function | 0x1009b560 | 0x0009b560
-`GdipGetClipBoundsI` | 236 (0xec) | Exported Function | 0x100672a0 | 0x000672a0
-`GdipGetCompositingMode` | 237 (0xed) | Exported Function | 0x1006c390 | 0x0006c390
-`GdipGetCompositingQuality` | 238 (0xee) | Exported Function | 0x1009b5d0 | 0x0009b5d0
-`GdipGetCustomLineCapBaseCap` | 239 (0xef) | Exported Function | 0x1009b640 | 0x0009b640
-`GdipGetCustomLineCapBaseInset` | 240 (0xf0) | Exported Function | 0x1009b6c0 | 0x0009b6c0
-`GdipGetCustomLineCapStrokeCaps` | 241 (0xf1) | Exported Function | 0x1009b740 | 0x0009b740
-`GdipGetClip` | 234 (0xea) | Exported Function | 0x10057cf0 | 0x00057cf0
-`GdipGetGenericFontFamilyMonospace` | 260 (0x104) | Exported Function | 0x1009bd80 | 0x0009bd80
-`GdipGetGenericFontFamilySansSerif` | 261 (0x105) | Exported Function | 0x1009bde0 | 0x0009bde0
-`GdipGetGenericFontFamilySerif` | 262 (0x106) | Exported Function | 0x1009be40 | 0x0009be40
-`GdipGetImageThumbnail` | 282 (0x11a) | Exported Function | 0x1009c2c0 | 0x0009c2c0
-`GdipGetImageType` | 283 (0x11b) | Exported Function | 0x10069bc0 | 0x00069bc0
-`GdipGetImageVerticalResolution` | 284 (0x11c) | Exported Function | 0x1009c360 | 0x0009c360
-`GdipGetImageWidth` | 285 (0x11d) | Exported Function | 0x1006f6f0 | 0x0006f6f0
-`GdipGetInterpolationMode` | 286 (0x11e) | Exported Function | 0x1009c410 | 0x0009c410
-`GdipGetLineBlend` | 287 (0x11f) | Exported Function | 0x1009c480 | 0x0009c480
-`GdipGetLineBlendCount` | 288 (0x120) | Exported Function | 0x1009c510 | 0x0009c510
-`GdipGetImageRawFormat` | 281 (0x119) | Exported Function | 0x100655a0 | 0x000655a0
-`GdipGetLineColors` | 289 (0x121) | Exported Function | 0x1009c5a0 | 0x0009c5a0
-`GdipGetLinePresetBlend` | 291 (0x123) | Exported Function | 0x1009c6a0 | 0x0009c6a0
-`GdipGetLinePresetBlendCount` | 292 (0x124) | Exported Function | 0x1009c7f0 | 0x0009c7f0
-`GdipGetLineRect` | 293 (0x125) | Exported Function | 0x1009c880 | 0x0009c880
-`GdipGetLineRectI` | 294 (0x126) | Exported Function | 0x1009c900 | 0x0009c900
-`GdipGetLineSpacing` | 295 (0x127) | Exported Function | 0x10060c40 | 0x00060c40
-`GdipGetLineTransform` | 296 (0x128) | Exported Function | 0x1009c9a0 | 0x0009c9a0
-`GdipGetLineWrapMode` | 297 (0x129) | Exported Function | 0x1009ca50 | 0x0009ca50
-`GdipGetLineGammaCorrection` | 290 (0x122) | Exported Function | 0x1009c630 | 0x0009c630
-`GdipFree` | 225 (0xe1) | Exported Function | 0x100662f0 | 0x000662f0
-`GdipGetImagePixelFormat` | 280 (0x118) | Exported Function | 0x1006f800 | 0x0006f800
-`GdipGetImagePalette` | 278 (0x116) | Exported Function | 0x100414d0 | 0x000414d0
-`GdipGetHatchBackgroundColor` | 263 (0x107) | Exported Function | 0x1009bea0 | 0x0009bea0
-`GdipGetHatchForegroundColor` | 264 (0x108) | Exported Function | 0x1009bf30 | 0x0009bf30
-`GdipGetHatchStyle` | 265 (0x109) | Exported Function | 0x1009bfc0 | 0x0009bfc0
-`GdipGetHemfFromMetafile` | 266 (0x10a) | Exported Function | 0x1006c6f0 | 0x0006c6f0
-`GdipGetImageAttributesAdjustedPalette` | 267 (0x10b) | Exported Function | 0x1009c050 | 0x0009c050
-`GdipGetImageBounds` | 268 (0x10c) | Exported Function | 0x1006e920 | 0x0006e920
-`GdipGetImageDecoders` | 269 (0x10d) | Exported Function | 0x1006d1d0 | 0x0006d1d0
-`GdipGetImagePaletteSize` | 279 (0x117) | Exported Function | 0x100415e0 | 0x000415e0
-`GdipGetImageDecodersSize` | 270 (0x10e) | Exported Function | 0x1006d360 | 0x0006d360
-`GdipGetImageEncoders` | 272 (0x110) | Exported Function | 0x100660b0 | 0x000660b0
-`GdipGetImageEncodersSize` | 273 (0x111) | Exported Function | 0x10066240 | 0x00066240
-`GdipGetImageFlags` | 274 (0x112) | Exported Function | 0x1006e870 | 0x0006e870
-`GdipGetImageGraphicsContext` | 275 (0x113) | Exported Function | 0x100438b0 | 0x000438b0
-`GdipGetImageHeight` | 276 (0x114) | Exported Function | 0x1006f910 | 0x0006f910
-`GdipGetImageHorizontalResolution` | 277 (0x115) | Exported Function | 0x1009c180 | 0x0009c180
-`GdipGetImageItemData` | 612 (0x264) | Exported Function | 0x1009c230 | 0x0009c230
-`GdipGetImageDimension` | 271 (0x10f) | Exported Function | 0x1009c0f0 | 0x0009c0f0
-`GdipDrawBezierI` | 148 (0x94) | Exported Function | 0x10098200 | 0x00098200
-`GdipFlush` | 224 (0xe0) | Exported Function | 0x1009b160 | 0x0009b160
-`GdipFindNextImageItem` | 611 (0x263) | Exported Function | 0x1009b0d0 | 0x0009b0d0
-`GdipDrawImagePoints` | 169 (0xa9) | Exported Function | 0x100990d0 | 0x000990d0
-`GdipDrawImagePointsI` | 170 (0xaa) | Exported Function | 0x100991f0 | 0x000991f0
-`GdipDrawImagePointsRect` | 171 (0xab) | Exported Function | 0x100992c0 | 0x000992c0
-`GdipDrawImagePointsRectI` | 172 (0xac) | Exported Function | 0x100994d0 | 0x000994d0
-`GdipDrawImageRect` | 173 (0xad) | Exported Function | 0x100479e0 | 0x000479e0
-`GdipDrawImageRectI` | 174 (0xae) | Exported Function | 0x10047ba0 | 0x00047ba0
-`GdipDrawImageRectRect` | 175 (0xaf) | Exported Function | 0x10036320 | 0x00036320
-`GdipDrawImageRectRectI` | 176 (0xb0) | Exported Function | 0x1005f010 | 0x0005f010
-`GdipDrawLine` | 177 (0xb1) | Exported Function | 0x1006ecf0 | 0x0006ecf0
-`GdipDrawLineI` | 178 (0xb2) | Exported Function | 0x1006ec80 | 0x0006ec80
-`GdipDrawLines` | 179 (0xb3) | Exported Function | 0x10025da0 | 0x00025da0
-`GdipDrawLinesI` | 180 (0xb4) | Exported Function | 0x10025e80 | 0x00025e80
-`GdipDrawPath` | 181 (0xb5) | Exported Function | 0x1006bae0 | 0x0006bae0
-`GdipDrawPie` | 182 (0xb6) | Exported Function | 0x10099630 | 0x00099630
-`GdipDrawPieI` | 183 (0xb7) | Exported Function | 0x10099720 | 0x00099720
-`GdipDrawImagePointRectI` | 168 (0xa8) | Exported Function | 0x10066850 | 0x00066850
-`GdipDrawImagePointRect` | 167 (0xa7) | Exported Function | 0x100668e0 | 0x000668e0
-`GdipDrawImageI` | 166 (0xa6) | Exported Function | 0x10066a20 | 0x00066a20
-`GdipDrawImageFX` | 626 (0x272) | Exported Function | 0x10098ff0 | 0x00098ff0
-`GdipDrawBeziersI` | 150 (0x96) | Exported Function | 0x10098370 | 0x00098370
-`GdipDrawCachedBitmap` | 151 (0x97) | Exported Function | 0x10063e80 | 0x00063e80
-`GdipDrawClosedCurve` | 154 (0x9a) | Exported Function | 0x100985f0 | 0x000985f0
-`GdipDrawClosedCurve2` | 152 (0x98) | Exported Function | 0x10098440 | 0x00098440
-`GdipDrawClosedCurve2I` | 153 (0x99) | Exported Function | 0x10098520 | 0x00098520
-`GdipDrawClosedCurveI` | 155 (0x9b) | Exported Function | 0x100986d0 | 0x000986d0
-`GdipDrawCurve` | 160 (0xa0) | Exported Function | 0x10098b30 | 0x00098b30
-`GdipDrawPolygon` | 184 (0xb8) | Exported Function | 0x10028de0 | 0x00028de0
-`GdipDrawCurve2` | 156 (0x9c) | Exported Function | 0x100987a0 | 0x000987a0
-`GdipDrawCurve3` | 158 (0x9e) | Exported Function | 0x10098960 | 0x00098960
-`GdipDrawCurve3I` | 159 (0x9f) | Exported Function | 0x10098a50 | 0x00098a50
-`GdipDrawCurveI` | 161 (0xa1) | Exported Function | 0x10098c20 | 0x00098c20
-`GdipDrawDriverString` | 162 (0xa2) | Exported Function | 0x10098cf0 | 0x00098cf0
-`GdipDrawEllipse` | 163 (0xa3) | Exported Function | 0x10098ea0 | 0x00098ea0
-`GdipDrawEllipseI` | 164 (0xa4) | Exported Function | 0x10098f80 | 0x00098f80
-`GdipDrawImage` | 165 (0xa5) | Exported Function | 0x10066a70 | 0x00066a70
-`GdipDrawCurve2I` | 157 (0x9d) | Exported Function | 0x10098890 | 0x00098890
-`GdipDrawPolygonI` | 185 (0xb9) | Exported Function | 0x10028ec0 | 0x00028ec0
-`GdipDrawRectangle` | 186 (0xba) | Exported Function | 0x100486b0 | 0x000486b0
-`GdipDrawRectangleI` | 187 (0xbb) | Exported Function | 0x100487c0 | 0x000487c0
-`GdipFillClosedCurveI` | 208 (0xd0) | Exported Function | 0x1009a910 | 0x0009a910
-`GdipFillEllipse` | 209 (0xd1) | Exported Function | 0x100681e0 | 0x000681e0
-`GdipFillEllipseI` | 210 (0xd2) | Exported Function | 0x1009a9e0 | 0x0009a9e0
-`GdipFillPath` | 211 (0xd3) | Exported Function | 0x1009aa50 | 0x0009aa50
-`GdipFillPie` | 212 (0xd4) | Exported Function | 0x1009ab60 | 0x0009ab60
-`GdipFillPieI` | 213 (0xd5) | Exported Function | 0x1009ac50 | 0x0009ac50
-`GdipFillPolygon` | 216 (0xd8) | Exported Function | 0x10029110 | 0x00029110
-`GdipFillClosedCurve2I` | 206 (0xce) | Exported Function | 0x1009a740 | 0x0009a740
-`GdipFillPolygon2` | 214 (0xd6) | Exported Function | 0x1009acd0 | 0x0009acd0
-`GdipFillPolygonI` | 217 (0xd9) | Exported Function | 0x10029020 | 0x00029020
-`GdipFillRectangle` | 218 (0xda) | Exported Function | 0x10044e40 | 0x00044e40
-`GdipFillRectangleI` | 219 (0xdb) | Exported Function | 0x10044db0 | 0x00044db0
-`GdipFillRectangles` | 220 (0xdc) | Exported Function | 0x1009ae80 | 0x0009ae80
-`GdipFillRectanglesI` | 221 (0xdd) | Exported Function | 0x1009af60 | 0x0009af60
-`GdipFillRegion` | 222 (0xde) | Exported Function | 0x10057ea0 | 0x00057ea0
-`GdipFindFirstImageItem` | 610 (0x262) | Exported Function | 0x1009b040 | 0x0009b040
-`GdipFillPolygon2I` | 215 (0xd7) | Exported Function | 0x1009adb0 | 0x0009adb0
-`GdipFlattenPath` | 223 (0xdf) | Exported Function | 0x1006dd90 | 0x0006dd90
-`GdipFillClosedCurve2` | 205 (0xcd) | Exported Function | 0x1009a650 | 0x0009a650
-`GdipEnumerateMetafileSrcRectDestRectI` | 204 (0xcc) | Exported Function | 0x1009a580 | 0x0009a580
-`GdipDrawRectangles` | 188 (0xbc) | Exported Function | 0x100997a0 | 0x000997a0
-`GdipDrawRectanglesI` | 189 (0xbd) | Exported Function | 0x10099870 | 0x00099870
-`GdipDrawString` | 190 (0xbe) | Exported Function | 0x10061270 | 0x00061270
-`GdipEmfToWmfBits` | 191 (0xbf) | Exported Function | 0x1004fdc0 | 0x0004fdc0
-`GdipEndContainer` | 192 (0xc0) | Exported Function | 0x10099950 | 0x00099950
-`GdipEnumerateMetafileDestPoint` | 193 (0xc1) | Exported Function | 0x100999c0 | 0x000999c0
-`GdipEnumerateMetafileDestPointI` | 194 (0xc2) | Exported Function | 0x10099b00 | 0x00099b00
-`GdipFillClosedCurve` | 207 (0xcf) | Exported Function | 0x1009a820 | 0x0009a820
-`GdipEnumerateMetafileDestPoints` | 195 (0xc3) | Exported Function | 0x10099b60 | 0x00099b60
-`GdipEnumerateMetafileDestRect` | 197 (0xc5) | Exported Function | 0x10099da0 | 0x00099da0
-`GdipEnumerateMetafileDestRectI` | 198 (0xc6) | Exported Function | 0x10099ee0 | 0x00099ee0
-`GdipEnumerateMetafileSrcRectDestPoint` | 199 (0xc7) | Exported Function | 0x10099f60 | 0x00099f60
-`GdipEnumerateMetafileSrcRectDestPointI` | 200 (0xc8) | Exported Function | 0x1009a0b0 | 0x0009a0b0
-`GdipEnumerateMetafileSrcRectDestPoints` | 201 (0xc9) | Exported Function | 0x1009a160 | 0x0009a160
-`GdipEnumerateMetafileSrcRectDestPointsI` | 202 (0xca) | Exported Function | 0x1009a2c0 | 0x0009a2c0
-`GdipEnumerateMetafileSrcRectDestRect` | 203 (0xcb) | Exported Function | 0x1009a430 | 0x0009a430
-`GdipEnumerateMetafileDestPointsI` | 196 (0xc4) | Exported Function | 0x10099ca0 | 0x00099ca0
-`Ordinal631` | 631 (0x277) | Exported Function | 0x10096e90 | 0x00096e90
+Function Name | Ordinal | Type
+-- | -- | --
+`GdipIsMatrixEqual` | 402 | Exported Function
+`GdipIsInfiniteRegion` | 401 | Exported Function
+`GdipIsMatrixInvertible` | 404 | Exported Function
+`GdipIsMatrixIdentity` | 403 | Exported Function
+`GdipIsEqualRegion` | 400 | Exported Function
+`GdipInvertMatrix` | 397 | Exported Function
+`GdipInitializePalette` | 623 | Exported Function
+`GdipIsEmptyRegion` | 399 | Exported Function
+`GdipIsClipEmpty` | 398 | Exported Function
+`GdipIsOutlineVisiblePathPoint` | 405 | Exported Function
+`GdipIsVisiblePointI` | 412 | Exported Function
+`GdipIsVisiblePoint` | 411 | Exported Function
+`GdipIsVisibleRectI` | 414 | Exported Function
+`GdipIsVisibleRect` | 413 | Exported Function
+`GdipIsVisiblePathPointI` | 410 | Exported Function
+`GdipIsStyleAvailable` | 407 | Exported Function
+`GdipIsOutlineVisiblePathPointI` | 406 | Exported Function
+`GdipIsVisiblePathPoint` | 409 | Exported Function
+`GdipIsVisibleClipEmpty` | 408 | Exported Function
+`GdipImageSetAbort` | 624 | Exported Function
+`GdipGetTextureTransform` | 385 | Exported Function
+`GdipGetTextureImage` | 384 | Exported Function
+`GdipGetVisibleClipBounds` | 387 | Exported Function
+`GdipGetTextureWrapMode` | 386 | Exported Function
+`GdipGetTextRenderingHint` | 383 | Exported Function
+`GdipGetStringFormatTabStops` | 380 | Exported Function
+`GdipGetStringFormatTabStopCount` | 379 | Exported Function
+`GdipGetTextContrast` | 382 | Exported Function
+`GdipGetStringFormatTrimming` | 381 | Exported Function
+`GdipGetVisibleClipBoundsI` | 388 | Exported Function
+`GdipImageGetFrameDimensionsList` | 394 | Exported Function
+`GdipImageGetFrameDimensionsCount` | 393 | Exported Function
+`GdipImageSelectActiveFrame` | 396 | Exported Function
+`GdipImageRotateFlip` | 395 | Exported Function
+`GdipImageGetFrameCount` | 392 | Exported Function
+`GdipGraphicsClear` | 390 | Exported Function
+`GdipGetWorldTransform` | 389 | Exported Function
+`GdipImageForceValidation` | 391 | Exported Function
+`GdipGraphicsSetAbort` | 625 | Exported Function
+`GdipPathIterGetSubpathCount` | 437 | Exported Function
+`GdipPathIterGetCount` | 436 | Exported Function
+`GdipPathIterIsValid` | 439 | Exported Function
+`GdipPathIterHasCurve` | 438 | Exported Function
+`GdipPathIterEnumerate` | 435 | Exported Function
+`GdipNewInstalledFontCollection` | 432 | Exported Function
+`GdipMultiplyWorldTransform` | 431 | Exported Function
+`GdipPathIterCopyData` | 434 | Exported Function
+`GdipNewPrivateFontCollection` | 433 | Exported Function
+`GdipPathIterNextMarker` | 440 | Exported Function
+`GdipPlayTSClientRecord` | 630 | Exported Function
+`GdipPlayMetafileRecord` | 446 | Exported Function
+`GdipPrivateAddMemoryFont` | 448 | Exported Function
+`GdipPrivateAddFontFile` | 447 | Exported Function
+`GdipPathIterRewind` | 445 | Exported Function
+`GdipPathIterNextPathType` | 442 | Exported Function
+`GdipPathIterNextMarkerPath` | 441 | Exported Function
+`GdipPathIterNextSubpathPath` | 444 | Exported Function
+`GdipPathIterNextSubpath` | 443 | Exported Function
+`GdipMultiplyTextureTransform` | 430 | Exported Function
+`GdipLoadImageFromStream` | 421 | Exported Function
+`GdipLoadImageFromFileICM` | 420 | Exported Function
+`GdiplusNotificationHook` | 606 | Exported Function
+`GdipLoadImageFromStreamICM` | 422 | Exported Function
+`GdipLoadImageFromFile` | 419 | Exported Function
+`GdipIsVisibleRegionPointI` | 416 | Exported Function
+`GdipIsVisibleRegionPoint` | 415 | Exported Function
+`GdipIsVisibleRegionRectI` | 418 | Exported Function
+`GdipIsVisibleRegionRect` | 417 | Exported Function
+`GdiplusNotificationUnhook` | 607 | Exported Function
+`GdipMultiplyMatrix` | 427 | Exported Function
+`GdipMultiplyLineTransform` | 426 | Exported Function
+`GdipMultiplyPenTransform` | 429 | Exported Function
+`GdipMultiplyPathGradientTransform` | 428 | Exported Function
+`GdipMeasureString` | 425 | Exported Function
+`GdiplusStartup` | 609 | Exported Function
+`GdiplusShutdown` | 608 | Exported Function
+`GdipMeasureDriverString` | 424 | Exported Function
+`GdipMeasureCharacterRanges` | 423 | Exported Function
+`GdipGetStringFormatMeasurableCharacterRangeCount` | 378 | Exported Function
+`GdipGetPathGradientSurroundColorsWithCount` | 326 | Exported Function
+`GdipGetPathGradientSurroundColorCount` | 325 | Exported Function
+`GdipGetPathGradientWrapMode` | 328 | Exported Function
+`GdipGetPathGradientTransform` | 327 | Exported Function
+`GdipGetPathGradientRectI` | 324 | Exported Function
+`GdipGetPathGradientPresetBlend` | 321 | Exported Function
+`GdipGetPathGradientPointCount` | 320 | Exported Function
+`GdipGetPathGradientRect` | 323 | Exported Function
+`GdipGetPathGradientPresetBlendCount` | 322 | Exported Function
+`GdipGetPathLastPoint` | 329 | Exported Function
+`GdipGetPenColor` | 336 | Exported Function
+`GdipGetPenBrushFill` | 335 | Exported Function
+`GdipGetPenCompoundCount` | 338 | Exported Function
+`GdipGetPenCompoundArray` | 337 | Exported Function
+`GdipGetPathWorldBoundsI` | 334 | Exported Function
+`GdipGetPathPointsI` | 331 | Exported Function
+`GdipGetPathPoints` | 330 | Exported Function
+`GdipGetPathWorldBounds` | 333 | Exported Function
+`GdipGetPathTypes` | 332 | Exported Function
+`GdipGetPathGradientPath` | 319 | Exported Function
+`GdipGetMetafileHeaderFromWmf` | 306 | Exported Function
+`GdipGetMetafileHeaderFromStream` | 305 | Exported Function
+`GdipGetPageScale` | 308 | Exported Function
+`GdipGetNearestColor` | 307 | Exported Function
+`GdipGetMetafileHeaderFromMetafile` | 304 | Exported Function
+`GdipGetMetafileDownLevelRasterizationLimit` | 301 | Exported Function
+`GdipGetMatrixElements` | 300 | Exported Function
+`GdipGetMetafileHeaderFromFile` | 303 | Exported Function
+`GdipGetMetafileHeaderFromEmf` | 302 | Exported Function
+`GdipGetPageUnit` | 309 | Exported Function
+`GdipGetPathGradientCenterPointI` | 316 | Exported Function
+`GdipGetPathGradientCenterPoint` | 315 | Exported Function
+`GdipGetPathGradientGammaCorrection` | 318 | Exported Function
+`GdipGetPathGradientFocusScales` | 317 | Exported Function
+`GdipGetPathGradientCenterColor` | 314 | Exported Function
+`GdipGetPathFillMode` | 311 | Exported Function
+`GdipGetPathData` | 310 | Exported Function
+`GdipGetPathGradientBlendCount` | 313 | Exported Function
+`GdipGetPathGradientBlend` | 312 | Exported Function
+`GdipGetRegionDataSize` | 365 | Exported Function
+`GdipGetRegionData` | 364 | Exported Function
+`GdipGetRegionScans` | 367 | Exported Function
+`GdipGetRegionHRgn` | 366 | Exported Function
+`GdipGetRegionBoundsI` | 363 | Exported Function
+`GdipGetPropertyItemSize` | 360 | Exported Function
+`GdipGetPropertyItem` | 359 | Exported Function
+`GdipGetRegionBounds` | 362 | Exported Function
+`GdipGetPropertySize` | 361 | Exported Function
+`GdipGetRegionScansCount` | 368 | Exported Function
+`GdipGetStringFormatFlags` | 375 | Exported Function
+`GdipGetStringFormatDigitSubstitution` | 374 | Exported Function
+`GdipGetStringFormatLineAlign` | 377 | Exported Function
+`GdipGetStringFormatHotkeyPrefix` | 376 | Exported Function
+`GdipGetStringFormatAlign` | 373 | Exported Function
+`GdipGetRenderingOrigin` | 370 | Exported Function
+`GdipGetRegionScansI` | 369 | Exported Function
+`GdipGetSolidFillColor` | 372 | Exported Function
+`GdipGetSmoothingMode` | 371 | Exported Function
+`GdipGetPropertyIdList` | 358 | Exported Function
+`GdipGetPenDashStyle` | 345 | Exported Function
+`GdipGetPenDashOffset` | 344 | Exported Function
+`GdipGetPenFillType` | 347 | Exported Function
+`GdipGetPenEndCap` | 346 | Exported Function
+`GdipGetPenDashCount` | 343 | Exported Function
+`GdipGetPenCustomStartCap` | 340 | Exported Function
+`GdipGetPenCustomEndCap` | 339 | Exported Function
+`GdipGetPenDashCap197819` | 342 | Exported Function
+`GdipGetPenDashArray` | 341 | Exported Function
+`GdipGetPenLineJoin` | 348 | Exported Function
+`GdipGetPixelOffsetMode` | 355 | Exported Function
+`GdipGetPenWidth` | 354 | Exported Function
+`GdipGetPropertyCount` | 357 | Exported Function
+`GdipGetPointCount` | 356 | Exported Function
+`GdipGetPenUnit` | 353 | Exported Function
+`GdipGetPenMode` | 350 | Exported Function
+`GdipGetPenMiterLimit` | 349 | Exported Function
+`GdipGetPenTransform` | 352 | Exported Function
+`GdipGetPenStartCap` | 351 | Exported Function
+`GdipRecordMetafile` | 449 | Exported Function
+`GdipSetPenLineCap197819` | 554 | Exported Function
+`GdipSetPenEndCap` | 553 | Exported Function
+`GdipSetPenMiterLimit` | 556 | Exported Function
+`GdipSetPenLineJoin` | 555 | Exported Function
+`GdipSetPenDashStyle` | 552 | Exported Function
+`GdipSetPenDashArray` | 549 | Exported Function
+`GdipSetPenCustomStartCap` | 548 | Exported Function
+`GdipSetPenDashOffset` | 551 | Exported Function
+`GdipSetPenDashCap197819` | 550 | Exported Function
+`GdipSetPenMode` | 557 | Exported Function
+`GdipSetRenderingOrigin` | 564 | Exported Function
+`GdipSetPropertyItem` | 563 | Exported Function
+`GdipSetSolidFillColor` | 566 | Exported Function
+`GdipSetSmoothingMode` | 565 | Exported Function
+`GdipSetPixelOffsetMode` | 562 | Exported Function
+`GdipSetPenTransform` | 559 | Exported Function
+`GdipSetPenStartCap` | 558 | Exported Function
+`GdipSetPenWidth` | 561 | Exported Function
+`GdipSetPenUnit` | 560 | Exported Function
+`GdipSetPenCustomEndCap` | 547 | Exported Function
+`GdipSetPathGradientFocusScales` | 534 | Exported Function
+`GdipSetPathGradientCenterPointI` | 533 | Exported Function
+`GdipSetPathGradientLinearBlend` | 536 | Exported Function
+`GdipSetPathGradientGammaCorrection` | 535 | Exported Function
+`GdipSetPathGradientCenterPoint` | 532 | Exported Function
+`GdipSetPathFillMode` | 529 | Exported Function
+`GdipSetPageUnit` | 528 | Exported Function
+`GdipSetPathGradientCenterColor` | 531 | Exported Function
+`GdipSetPathGradientBlend` | 530 | Exported Function
+`GdipSetPathGradientPath` | 537 | Exported Function
+`GdipSetPenBrushFill` | 544 | Exported Function
+`GdipSetPathMarker` | 543 | Exported Function
+`GdipSetPenCompoundArray` | 546 | Exported Function
+`GdipSetPenColor` | 545 | Exported Function
+`GdipSetPathGradientWrapMode` | 542 | Exported Function
+`GdipSetPathGradientSigmaBlend` | 539 | Exported Function
+`GdipSetPathGradientPresetBlend` | 538 | Exported Function
+`GdipSetPathGradientTransform` | 541 | Exported Function
+`GdipSetPathGradientSurroundColorsWithCount` | 540 | Exported Function
+`GdipTranslateLineTransform` | 593 | Exported Function
+`GdipTranslateClipI` | 592 | Exported Function
+`GdipTranslatePathGradientTransform` | 595 | Exported Function
+`GdipTranslateMatrix` | 594 | Exported Function
+`GdipTranslateClip` | 591 | Exported Function
+`GdipTransformPoints` | 588 | Exported Function
+`GdipTransformPath` | 587 | Exported Function
+`GdipTransformRegion` | 590 | Exported Function
+`GdipTransformPointsI` | 589 | Exported Function
+`GdipTranslatePenTransform` | 596 | Exported Function
+`GdipWarpPath` | 603 | Exported Function
+`GdipVectorTransformMatrixPointsI` | 602 | Exported Function
+`GdipWindingModeOutline` | 605 | Exported Function
+`GdipWidenPath` | 604 | Exported Function
+`GdipVectorTransformMatrixPoints` | 601 | Exported Function
+`GdipTranslateRegionI` | 598 | Exported Function
+`GdipTranslateRegion` | 597 | Exported Function
+`GdipTranslateWorldTransform` | 600 | Exported Function
+`GdipTranslateTextureTransform` | 599 | Exported Function
+`GdipTransformMatrixPointsI` | 586 | Exported Function
+`GdipSetStringFormatTabStops` | 573 | Exported Function
+`GdipSetStringFormatMeasurableCharacterRanges` | 572 | Exported Function
+`GdipSetTextContrast` | 575 | Exported Function
+`GdipSetStringFormatTrimming` | 574 | Exported Function
+`GdipSetStringFormatLineAlign` | 571 | Exported Function
+`GdipSetStringFormatDigitSubstitution` | 568 | Exported Function
+`GdipSetStringFormatAlign` | 567 | Exported Function
+`GdipSetStringFormatHotkeyPrefix` | 570 | Exported Function
+`GdipSetStringFormatFlags` | 569 | Exported Function
+`GdipSetTextRenderingHint` | 576 | Exported Function
+`GdipStringFormatGetGenericTypographic` | 583 | Exported Function
+`GdipStringFormatGetGenericDefault` | 582 | Exported Function
+`GdipTransformMatrixPoints` | 585 | Exported Function
+`GdipTestControl` | 584 | Exported Function
+`GdipStartPathFigure` | 581 | Exported Function
+`GdipSetTextureWrapMode` | 578 | Exported Function
+`GdipSetTextureTransform` | 577 | Exported Function
+`GdipShearMatrix` | 580 | Exported Function
+`GdipSetWorldTransform` | 579 | Exported Function
+`GdipSetPageScale` | 527 | Exported Function
+`GdipSaveGraphics` | 476 | Exported Function
+`GdipSaveAddImage` | 475 | Exported Function
+`GdipSaveImageToStream` | 478 | Exported Function
+`GdipSaveImageToFile` | 477 | Exported Function
+`GdipSaveAdd` | 474 | Exported Function
+`GdipRotatePenTransform` | 471 | Exported Function
+`GdipRotatePathGradientTransform` | 470 | Exported Function
+`GdipRotateWorldTransform` | 473 | Exported Function
+`GdipRotateTextureTransform` | 472 | Exported Function
+`GdipScaleLineTransform` | 479 | Exported Function
+`GdipSetAdjustableArrowCapHeight` | 486 | Exported Function
+`GdipSetAdjustableArrowCapFillState` | 485 | Exported Function
+`GdipSetAdjustableArrowCapWidth` | 488 | Exported Function
+`GdipSetAdjustableArrowCapMiddleInset` | 487 | Exported Function
+`GdipScaleWorldTransform` | 484 | Exported Function
+`GdipScalePathGradientTransform` | 481 | Exported Function
+`GdipScaleMatrix` | 480 | Exported Function
+`GdipScaleTextureTransform` | 483 | Exported Function
+`GdipScalePenTransform` | 482 | Exported Function
+`GdipRotateMatrix` | 469 | Exported Function
+`GdipRemovePropertyItem` | 456 | Exported Function
+`GdipReleaseDC` | 455 | Exported Function
+`GdipResetImageAttributes` | 458 | Exported Function
+`GdipResetClip` | 457 | Exported Function
+`GdipRecordMetafileStreamI` | 454 | Exported Function
+`GdipRecordMetafileFileNameI` | 451 | Exported Function
+`GdipRecordMetafileFileName` | 450 | Exported Function
+`GdipRecordMetafileStream` | 453 | Exported Function
+`GdipRecordMetafileI` | 452 | Exported Function
+`GdipResetLineTransform` | 459 | Exported Function
+`GdipRestoreGraphics` | 466 | Exported Function
+`GdipResetWorldTransform` | 465 | Exported Function
+`GdipRotateLineTransform` | 468 | Exported Function
+`GdipReversePath` | 467 | Exported Function
+`GdipResetTextureTransform` | 464 | Exported Function
+`GdipResetPath` | 461 | Exported Function
+`GdipResetPageTransform` | 460 | Exported Function
+`GdipResetPenTransform` | 463 | Exported Function
+`GdipResetPathGradientTransform` | 462 | Exported Function
+`GdipSetImagePalette` | 514 | Exported Function
+`GdipSetImageAttributesWrapMode` | 513 | Exported Function
+`GdipSetInterpolationMode` | 516 | Exported Function
+`GdipSetInfinite` | 515 | Exported Function
+`GdipSetImageAttributesToIdentity` | 512 | Exported Function
+`GdipSetImageAttributesOutputChannelColorProfile` | 509 | Exported Function
+`GdipSetImageAttributesOutputChannel` | 508 | Exported Function
+`GdipSetImageAttributesThreshold` | 511 | Exported Function
+`GdipSetImageAttributesRemapTable` | 510 | Exported Function
+`GdipSetLineBlend` | 517 | Exported Function
+`GdipSetLineWrapMode` | 524 | Exported Function
+`GdipSetLineTransform` | 523 | Exported Function
+`GdipSetMetafileDownLevelRasterizationLimit` | 526 | Exported Function
+`GdipSetMatrixElements` | 525 | Exported Function
+`GdipSetLineSigmaBlend` | 522 | Exported Function
+`GdipSetLineGammaCorrection` | 519 | Exported Function
+`GdipSetLineColors` | 518 | Exported Function
+`GdipSetLinePresetBlend` | 521 | Exported Function
+`GdipSetLineLinearBlend` | 520 | Exported Function
+`GdipSetImageAttributesNoOp` | 507 | Exported Function
+`GdipSetCompositingMode` | 495 | Exported Function
+`GdipSetClipRegion` | 494 | Exported Function
+`GdipSetCustomLineCapBaseCap` | 497 | Exported Function
+`GdipSetCompositingQuality` | 496 | Exported Function
+`GdipSetClipRectI` | 493 | Exported Function
+`GdipSetClipHrgn` | 490 | Exported Function
+`GdipSetClipGraphics` | 489 | Exported Function
+`GdipSetClipRect` | 492 | Exported Function
+`GdipSetClipPath` | 491 | Exported Function
+`GdipSetCustomLineCapBaseInset` | 498 | Exported Function
+`GdipSetImageAttributesColorKeys` | 504 | Exported Function
+`GdipSetImageAttributesCachedBackground` | 503 | Exported Function
+`GdipSetImageAttributesGamma` | 506 | Exported Function
+`GdipSetImageAttributesColorMatrix` | 505 | Exported Function
+`GdipSetEmpty` | 502 | Exported Function
+`GdipSetCustomLineCapStrokeJoin` | 500 | Exported Function
+`GdipSetCustomLineCapStrokeCaps` | 499 | Exported Function
+`GdipSetEffectParameters` | 617 | Exported Function
+`GdipSetCustomLineCapWidthScale` | 501 | Exported Function
+`GdipCreateLineBrushI` | 97 | Exported Function
+`GdipCreateLineBrushFromRectWithAngleI` | 96 | Exported Function
+`GdipCreateMatrix2` | 98 | Exported Function
+`GdipCreateMatrix` | 101 | Exported Function
+`GdipCreateLineBrushFromRectWithAngle` | 95 | Exported Function
+`GdipCreateLineBrush` | 92 | Exported Function
+`GdipCreateImageAttributes` | 91 | Exported Function
+`GdipCreateLineBrushFromRectI` | 94 | Exported Function
+`GdipCreateLineBrushFromRect` | 93 | Exported Function
+`GdipCreateMatrix3` | 99 | Exported Function
+`GdipCreatePath` | 109 | Exported Function
+`GdipCreateMetafileFromWmfFile` | 106 | Exported Function
+`GdipCreatePath2I` | 108 | Exported Function
+`GdipCreatePath2` | 107 | Exported Function
+`GdipCreateMetafileFromWmf` | 105 | Exported Function
+`GdipCreateMetafileFromEmf` | 102 | Exported Function
+`GdipCreateMatrix3I` | 100 | Exported Function
+`GdipCreateMetafileFromStream` | 104 | Exported Function
+`GdipCreateMetafileFromFile` | 103 | Exported Function
+`GdipCreateHICONFromBitmap` | 88 | Exported Function
+`GdipCreateEffect` | 613 | Exported Function
+`GdipCreateCustomLineCap` | 77 | Exported Function
+`GdipCreateFontFamilyFromName` | 79 | Exported Function
+`GdipCreateFont` | 78 | Exported Function
+`GdipCreateCachedBitmap` | 76 | Exported Function
+`GdipCreateBitmapFromScan0` | 73 | Exported Function
+`GdipCreateBitmapFromResource` | 72 | Exported Function
+`GdipCreateBitmapFromStreamICM` | 75 | Exported Function
+`GdipCreateBitmapFromStream` | 74 | Exported Function
+`GdipCreateFontFromDC` | 80 | Exported Function
+`GdipCreateHalftonePalette` | 89 | Exported Function
+`GdipCreateFromHWNDICM` | 86 | Exported Function
+`GdipCreateHBITMAPFromBitmap` | 87 | Exported Function
+`GdipCreateHatchBrush` | 90 | Exported Function
+`GdipCreateFromHWND` | 85 | Exported Function
+`GdipCreateFontFromLogfontW` | 82 | Exported Function
+`GdipCreateFontFromLogfontA` | 81 | Exported Function
+`GdipCreateFromHDC2` | 83 | Exported Function
+`GdipCreateFromHDC` | 84 | Exported Function
+`GdipDeleteGraphics` | 135 | Exported Function
+`GdipDeleteFontFamily` | 134 | Exported Function
+`GdipDeletePath` | 137 | Exported Function
+`GdipDeleteMatrix` | 136 | Exported Function
+`GdipDeleteFont` | 133 | Exported Function
+`GdipDeleteCachedBitmap` | 131 | Exported Function
+`GdipDeleteBrush` | 130 | Exported Function
+`GdipDeleteEffect` | 614 | Exported Function
+`GdipDeleteCustomLineCap` | 132 | Exported Function
+`GdipDeletePathIter` | 138 | Exported Function
+`GdipDrawArc` | 145 | Exported Function
+`GdipDisposeImageAttributes` | 144 | Exported Function
+`GdipDrawBezier` | 147 | Exported Function
+`GdipDrawArcI` | 146 | Exported Function
+`GdipDisposeImage` | 143 | Exported Function
+`GdipDeletePrivateFontCollection` | 140 | Exported Function
+`GdipDeletePen` | 139 | Exported Function
+`GdipDeleteStringFormat` | 142 | Exported Function
+`GdipDeleteRegion` | 141 | Exported Function
+`GdipCreateTextureIAI` | 129 | Exported Function
+`GdipCreateRegion` | 116 | Exported Function
+`GdipCreatePen2` | 115 | Exported Function
+`GdipCreateRegionPath` | 118 | Exported Function
+`GdipCreateRegionHrgn` | 117 | Exported Function
+`GdipCreatePen1` | 114 | Exported Function
+`GdipCreatePathGradientFromPath` | 111 | Exported Function
+`GdipCreatePathGradient` | 110 | Exported Function
+`GdipCreatePathIter` | 113 | Exported Function
+`GdipCreatePathGradientI` | 112 | Exported Function
+`GdipCreateRegionRect` | 119 | Exported Function
+`GdipCreateTexture2` | 125 | Exported Function
+`GdipCreateTexture` | 127 | Exported Function
+`GdipCreateTextureIA` | 128 | Exported Function
+`GdipCreateTexture2I` | 126 | Exported Function
+`GdipCreateStringFormat` | 124 | Exported Function
+`GdipCreateRegionRgnData` | 121 | Exported Function
+`GdipCreateRegionRectI` | 120 | Exported Function
+`GdipCreateStreamOnFile` | 123 | Exported Function
+`GdipCreateSolidFill` | 122 | Exported Function
+`GdipCreateBitmapFromHICON` | 71 | Exported Function
+`GdipAddPathPolygonI` | 27 | Exported Function
+`GdipAddPathPolygon` | 26 | Exported Function
+`GdipAddPathRectangleI` | 29 | Exported Function
+`GdipAddPathRectangle` | 28 | Exported Function
+`GdipAddPathPieI` | 25 | Exported Function
+`GdipAddPathLineI` | 22 | Exported Function
+`GdipAddPathLine2I` | 20 | Exported Function
+`GdipAddPathPie` | 24 | Exported Function
+`GdipAddPathPath` | 23 | Exported Function
+`GdipAddPathRectangles` | 30 | Exported Function
+`GdipBeginContainerI` | 37 | Exported Function
+`GdipBeginContainer2` | 35 | Exported Function
+`GdipBitmapConvertFormat` | 622 | Exported Function
+`GdipBitmapApplyEffect` | 619 | Exported Function
+`GdipBeginContainer` | 36 | Exported Function
+`GdipAddPathString` | 32 | Exported Function
+`GdipAddPathRectanglesI` | 31 | Exported Function
+`GdipAlloc` | 34 | Exported Function
+`GdipAddPathStringI` | 33 | Exported Function
+`GdipAddPathLine2` | 19 | Exported Function
+`GdipAddPathClosedCurve` | 9 | Exported Function
+`GdipAddPathBeziersI` | 6 | Exported Function
+`GdipAddPathClosedCurve2I` | 8 | Exported Function
+`GdipAddPathClosedCurve2` | 7 | Exported Function
+`GdipAddPathBeziers` | 5 | Exported Function
+`GdipAddPathArcI` | 2 | Exported Function
+`GdipAddPathArc` | 1 | Exported Function
+`GdipAddPathBezierI` | 4 | Exported Function
+`GdipAddPathBezier` | 3 | Exported Function
+`GdipAddPathClosedCurveI` | 10 | Exported Function
+`GdipAddPathEllipse` | 17 | Exported Function
+`GdipAddPathCurveI` | 16 | Exported Function
+`GdipAddPathLine` | 21 | Exported Function
+`GdipAddPathEllipseI` | 18 | Exported Function
+`GdipAddPathCurve3I` | 14 | Exported Function
+`GdipAddPathCurve2` | 11 | Exported Function
+`GdipAddPathCurve` | 15 | Exported Function
+`GdipAddPathCurve3` | 13 | Exported Function
+`GdipAddPathCurve2I` | 12 | Exported Function
+`GdipCombineRegionRectI` | 61 | Exported Function
+`GdipCombineRegionRect` | 60 | Exported Function
+`GdipComment` | 63 | Exported Function
+`GdipCombineRegionRegion` | 62 | Exported Function
+`GdipCombineRegionPath` | 59 | Exported Function
+`GdipCloneStringFormat` | 56 | Exported Function
+`GdipCloneRegion` | 55 | Exported Function
+`GdipClosePathFigures` | 58 | Exported Function
+`GdipClosePathFigure` | 57 | Exported Function
+`GdipConvertToEmfPlus` | 627 | Exported Function
+`GdipCreateBitmapFromGdiDib` | 68 | Exported Function
+`GdipCreateBitmapFromFileICM` | 67 | Exported Function
+`GdipCreateBitmapFromHBITMAP` | 70 | Exported Function
+`GdipCreateBitmapFromGraphics` | 69 | Exported Function
+`GdipCreateBitmapFromFile` | 66 | Exported Function
+`GdipConvertToEmfPlusToStream` | 629 | Exported Function
+`GdipConvertToEmfPlusToFile` | 628 | Exported Function
+`GdipCreateBitmapFromDirectDrawSurface` | 65 | Exported Function
+`GdipCreateAdjustableArrowCap` | 64 | Exported Function
+`GdipClonePen` | 54 | Exported Function
+`GdipBitmapSetResolution` | 41 | Exported Function
+`GdipBitmapSetPixel` | 40 | Exported Function
+`GdipClearPathMarkers` | 43 | Exported Function
+`GdipBitmapUnlockBits` | 42 | Exported Function
+`GdipBitmapLockBits` | 39 | Exported Function
+`GdipBitmapGetHistogram` | 620 | Exported Function
+`GdipBitmapCreateApplyEffect` | 618 | Exported Function
+`GdipBitmapGetPixel` | 38 | Exported Function
+`GdipBitmapGetHistogramSize` | 621 | Exported Function
+`GdipCloneBitmapArea` | 44 | Exported Function
+`GdipCloneImageAttributes` | 51 | Exported Function
+`GdipCloneImage` | 50 | Exported Function
+`GdipClonePath` | 53 | Exported Function
+`GdipCloneMatrix` | 52 | Exported Function
+`GdipCloneFontFamily` | 49 | Exported Function
+`GdipCloneBrush` | 46 | Exported Function
+`GdipCloneBitmapAreaI` | 45 | Exported Function
+`GdipCloneFont` | 48 | Exported Function
+`GdipCloneCustomLineCap` | 47 | Exported Function
+`GdipDrawBezierI` | 148 | Exported Function
+`GdipGetEncoderParameterList` | 249 | Exported Function
+`GdipGetEmHeight` | 248 | Exported Function
+`GdipGetFamily` | 251 | Exported Function
+`GdipGetEncoderParameterListSize` | 250 | Exported Function
+`GdipGetEffectParameterSize` | 615 | Exported Function
+`GdipGetDpiX` | 246 | Exported Function
+`GdipGetDC` | 245 | Exported Function
+`GdipGetEffectParameters` | 616 | Exported Function
+`GdipGetDpiY` | 247 | Exported Function
+`GdipGetFamilyName` | 252 | Exported Function
+`GdipGetFontUnit` | 259 | Exported Function
+`GdipGetFontStyle` | 258 | Exported Function
+`GdipGetGenericFontFamilySansSerif` | 261 | Exported Function
+`GdipGetGenericFontFamilyMonospace` | 260 | Exported Function
+`GdipGetFontSize` | 257 | Exported Function
+`GdipGetFontCollectionFamilyList` | 254 | Exported Function
+`GdipGetFontCollectionFamilyCount` | 253 | Exported Function
+`GdipGetFontHeightGivenDPI` | 256 | Exported Function
+`GdipGetFontHeight` | 255 | Exported Function
+`GdipGetCustomLineCapWidthScale` | 244 | Exported Function
+`GdipGetBrushType` | 231 | Exported Function
+`GdipGetAllPropertyItems` | 230 | Exported Function
+`GdipGetCellDescent` | 233 | Exported Function
+`GdipGetCellAscent` | 232 | Exported Function
+`GdipGetAdjustableArrowCapWidth` | 229 | Exported Function
+`GdipGetAdjustableArrowCapFillState` | 226 | Exported Function
+`GdipFree` | 225 | Exported Function
+`GdipGetAdjustableArrowCapMiddleInset` | 228 | Exported Function
+`GdipGetAdjustableArrowCapHeight` | 227 | Exported Function
+`GdipGetClip` | 234 | Exported Function
+`GdipGetCustomLineCapStrokeCaps` | 241 | Exported Function
+`GdipGetCustomLineCapBaseInset` | 240 | Exported Function
+`GdipGetCustomLineCapType` | 243 | Exported Function
+`GdipGetCustomLineCapStrokeJoin` | 242 | Exported Function
+`GdipGetCustomLineCapBaseCap` | 239 | Exported Function
+`GdipGetClipBoundsI` | 236 | Exported Function
+`GdipGetClipBounds` | 235 | Exported Function
+`GdipGetCompositingQuality` | 238 | Exported Function
+`GdipGetCompositingMode` | 237 | Exported Function
+`GdipGetLineBlend` | 287 | Exported Function
+`GdipGetInterpolationMode` | 286 | Exported Function
+`GdipGetLineColors` | 289 | Exported Function
+`GdipGetLineBlendCount` | 288 | Exported Function
+`GdipGetImageWidth` | 285 | Exported Function
+`GdipGetImageThumbnail` | 282 | Exported Function
+`GdipGetImageRawFormat` | 281 | Exported Function
+`GdipGetImageVerticalResolution` | 284 | Exported Function
+`GdipGetImageType` | 283 | Exported Function
+`GdipGetLineGammaCorrection` | 290 | Exported Function
+`GdipGetLineWrapMode` | 297 | Exported Function
+`GdipGetLineTransform` | 296 | Exported Function
+`GdipGetLogFontW` | 299 | Exported Function
+`GdipGetLogFontA` | 298 | Exported Function
+`GdipGetLineSpacing` | 295 | Exported Function
+`GdipGetLinePresetBlendCount` | 292 | Exported Function
+`GdipGetLinePresetBlend` | 291 | Exported Function
+`GdipGetLineRectI` | 294 | Exported Function
+`GdipGetLineRect` | 293 | Exported Function
+`GdipGetImagePixelFormat` | 280 | Exported Function
+`GdipGetImageBounds` | 268 | Exported Function
+`GdipGetImageAttributesAdjustedPalette` | 267 | Exported Function
+`GdipGetImageDecodersSize` | 270 | Exported Function
+`GdipGetImageDecoders` | 269 | Exported Function
+`GdipGetHemfFromMetafile` | 266 | Exported Function
+`GdipGetHatchBackgroundColor` | 263 | Exported Function
+`GdipGetGenericFontFamilySerif` | 262 | Exported Function
+`GdipGetHatchStyle` | 265 | Exported Function
+`GdipGetHatchForegroundColor` | 264 | Exported Function
+`GdipGetImageDimension` | 271 | Exported Function
+`GdipGetImageItemData` | 612 | Exported Function
+`GdipGetImageHorizontalResolution` | 277 | Exported Function
+`GdipGetImagePaletteSize` | 279 | Exported Function
+`GdipGetImagePalette` | 278 | Exported Function
+`GdipGetImageHeight` | 276 | Exported Function
+`GdipGetImageEncodersSize` | 273 | Exported Function
+`GdipGetImageEncoders` | 272 | Exported Function
+`GdipGetImageGraphicsContext` | 275 | Exported Function
+`GdipGetImageFlags` | 274 | Exported Function
+`GdipFlush` | 224 | Exported Function
+`GdipDrawImageRectI` | 174 | Exported Function
+`GdipDrawImageRect` | 173 | Exported Function
+`GdipDrawImageRectRectI` | 176 | Exported Function
+`GdipDrawImageRectRect` | 175 | Exported Function
+`GdipDrawImagePointsRectI` | 172 | Exported Function
+`GdipDrawImagePoints` | 169 | Exported Function
+`GdipDrawImagePointRectI` | 168 | Exported Function
+`GdipDrawImagePointsRect` | 171 | Exported Function
+`GdipDrawImagePointsI` | 170 | Exported Function
+`GdipDrawLine` | 177 | Exported Function
+`GdipDrawPolygon` | 184 | Exported Function
+`GdipDrawPieI` | 183 | Exported Function
+`GdipDrawRectangle` | 186 | Exported Function
+`GdipDrawPolygonI` | 185 | Exported Function
+`GdipDrawPie` | 182 | Exported Function
+`GdipDrawLines` | 179 | Exported Function
+`GdipDrawLineI` | 178 | Exported Function
+`GdipDrawPath` | 181 | Exported Function
+`GdipDrawLinesI` | 180 | Exported Function
+`GdipDrawImagePointRect` | 167 | Exported Function
+`GdipDrawClosedCurveI` | 155 | Exported Function
+`GdipDrawClosedCurve2I` | 153 | Exported Function
+`GdipDrawCurve2` | 156 | Exported Function
+`GdipDrawCurve` | 160 | Exported Function
+`GdipDrawClosedCurve2` | 152 | Exported Function
+`GdipDrawBeziersI` | 150 | Exported Function
+`GdipDrawBeziers` | 149 | Exported Function
+`GdipDrawClosedCurve` | 154 | Exported Function
+`GdipDrawCachedBitmap` | 151 | Exported Function
+`GdipDrawCurve2I` | 157 | Exported Function
+`GdipDrawImage` | 165 | Exported Function
+`GdipDrawEllipseI` | 164 | Exported Function
+`GdipDrawImageI` | 166 | Exported Function
+`GdipDrawImageFX` | 626 | Exported Function
+`GdipDrawEllipse` | 163 | Exported Function
+`GdipDrawCurve3I` | 159 | Exported Function
+`GdipDrawCurve3` | 158 | Exported Function
+`GdipDrawDriverString` | 162 | Exported Function
+`GdipDrawCurveI` | 161 | Exported Function
+`GdipFillPieI` | 213 | Exported Function
+`GdipFillPie` | 212 | Exported Function
+`GdipFillPolygon2` | 214 | Exported Function
+`GdipFillPolygon` | 216 | Exported Function
+`GdipFillPath` | 211 | Exported Function
+`GdipFillClosedCurveI` | 208 | Exported Function
+`GdipFillClosedCurve2I` | 206 | Exported Function
+`GdipFillEllipseI` | 210 | Exported Function
+`GdipFillEllipse` | 209 | Exported Function
+`GdipFillPolygon2I` | 215 | Exported Function
+`GdipFindFirstImageItem` | 610 | Exported Function
+`GdipFillRegion` | 222 | Exported Function
+`GdipFlattenPath` | 223 | Exported Function
+`GdipFindNextImageItem` | 611 | Exported Function
+`GdipFillRectanglesI` | 221 | Exported Function
+`GdipFillRectangle` | 218 | Exported Function
+`GdipFillPolygonI` | 217 | Exported Function
+`GdipFillRectangles` | 220 | Exported Function
+`GdipFillRectangleI` | 219 | Exported Function
+`GdipFillClosedCurve2` | 205 | Exported Function
+`GdipEnumerateMetafileDestPoint` | 193 | Exported Function
+`GdipEndContainer` | 192 | Exported Function
+`GdipEnumerateMetafileDestPoints` | 195 | Exported Function
+`GdipEnumerateMetafileDestPointI` | 194 | Exported Function
+`GdipEmfToWmfBits` | 191 | Exported Function
+`GdipDrawRectangles` | 188 | Exported Function
+`GdipDrawRectangleI` | 187 | Exported Function
+`GdipDrawString` | 190 | Exported Function
+`GdipDrawRectanglesI` | 189 | Exported Function
+`GdipEnumerateMetafileDestPointsI` | 196 | Exported Function
+`GdipEnumerateMetafileSrcRectDestRect` | 203 | Exported Function
+`GdipEnumerateMetafileSrcRectDestPointsI` | 202 | Exported Function
+`GdipFillClosedCurve` | 207 | Exported Function
+`GdipEnumerateMetafileSrcRectDestRectI` | 204 | Exported Function
+`GdipEnumerateMetafileSrcRectDestPoints` | 201 | Exported Function
+`GdipEnumerateMetafileDestRectI` | 198 | Exported Function
+`GdipEnumerateMetafileDestRect` | 197 | Exported Function
+`GdipEnumerateMetafileSrcRectDestPointI` | 200 | Exported Function
+`GdipEnumerateMetafileSrcRectDestPoint` | 199 | Exported Function
 
 
 ## Signature

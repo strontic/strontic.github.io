@@ -24,9 +24,9 @@ PE256 | `91E63B3DE157827FFF2DA3813AA639C503EBB6EAA5C79AC4C345046E76200E3F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloudAPPluginInitialize` | 1 (0x1) | Exported Function | 0x0000000180004040 | 0x00004040
+Function Name | Ordinal | Type
+-- | -- | --
+`CloudAPPluginInitialize` | 1 | Exported Function
 
 
 ## Signature

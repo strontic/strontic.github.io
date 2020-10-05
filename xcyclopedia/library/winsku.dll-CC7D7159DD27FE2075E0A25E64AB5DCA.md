@@ -24,10 +24,10 @@ PE256 | `A46A1F1B4308407D3CA145224746B3BD7B32229D4E3AA6AFFD3AF96E709B3674`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SkuFreeBuffer` | 1 (0x1) | Exported Function | 0x00000001800014c0 | 0x000014c0
-`SkuGetEditionEulaFilePath` | 2 (0x2) | Exported Function | 0x0000000180002d90 | 0x00002d90
+Function Name | Ordinal | Type
+-- | -- | --
+`SkuGetEditionEulaFilePath` | 2 | Exported Function
+`SkuFreeBuffer` | 1 | Exported Function
 
 
 ## Signature

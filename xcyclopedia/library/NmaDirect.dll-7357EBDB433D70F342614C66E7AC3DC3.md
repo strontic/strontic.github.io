@@ -24,13 +24,13 @@ PE256 | `0D67B1257B84650576FBD66C43B092B3EB17A4C85D5E9ABAF80E836CAE3EEF01`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10007db0 | 0x00007db0
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x10007d70 | 0x00007d70
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10007d90 | 0x00007d90
-`NmaDirect_OverrideUserLocation` | 4 (0x4) | Exported Function | 0x100090c0 | 0x000090c0
-`NmaDirect_StartGuidanceWithSimulatedRoute` | 5 (0x5) | Exported Function | 0x10009030 | 0x00009030
+Function Name | Ordinal | Type
+-- | -- | --
+`NmaDirect_OverrideUserLocation` | 4 | Exported Function
+`NmaDirect_StartGuidanceWithSimulatedRoute` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 
 
 ## Signature

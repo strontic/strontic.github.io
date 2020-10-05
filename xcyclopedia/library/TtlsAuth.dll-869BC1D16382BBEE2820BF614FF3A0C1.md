@@ -24,15 +24,15 @@ PE256 | `5001A6480C71D247B2ED03FCAB05A43FA6D46CA50F248E1CE726F2A85D99B56D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180007ec0 | 0x00007ec0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180007ee0 | 0x00007ee0
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180008010 | 0x00008010
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180008100 | 0x00008100
-`EapPeerFreeErrorMemory` | 5 (0x5) | Exported Function | 0x0000000180004890 | 0x00004890
-`EapPeerFreeMemory` | 6 (0x6) | Exported Function | 0x0000000180004870 | 0x00004870
-`EapPeerGetInfo` | 7 (0x7) | Exported Function | 0x0000000180003300 | 0x00003300
+Function Name | Ordinal | Type
+-- | -- | --
+`EapPeerFreeErrorMemory` | 5 | Exported Function
+`EapPeerFreeMemory` | 6 | Exported Function
+`EapPeerGetInfo` | 7 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

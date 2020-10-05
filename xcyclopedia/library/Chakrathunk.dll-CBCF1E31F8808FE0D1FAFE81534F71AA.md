@@ -24,16 +24,16 @@ PE256 | `DB7AB50BA06057458C1EE85F921E4E22F535CDC1AD8301FE1EE2ED031DC7044F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`JsThunk_AllocateData` | 1 (0x1) | Exported Function | 0x10004270 | 0x00004270
-`JsThunk_Cleanup` | 2 (0x2) | Exported Function | 0x10004580 | 0x00004580
-`JsThunk_CleanupDefer` | 3 (0x3) | Exported Function | 0x100045f0 | 0x000045f0
-`JsThunk_CleanupFinish` | 4 (0x4) | Exported Function | 0x10004620 | 0x00004620
-`JsThunk_DataToCode` | 5 (0x5) | Exported Function | 0x100046a0 | 0x000046a0
-`JsThunk_GetSize` | 6 (0x6) | Exported Function | 0x100046c0 | 0x000046c0
-`JsThunk_InitData` | 7 (0x7) | Exported Function | 0x100046d0 | 0x000046d0
-`JsThunk_Is` | 8 (0x8) | Exported Function | 0x100046f0 | 0x000046f0
+Function Name | Ordinal | Type
+-- | -- | --
+`JsThunk_GetSize` | 6 | Exported Function
+`JsThunk_DataToCode` | 5 | Exported Function
+`JsThunk_Is` | 8 | Exported Function
+`JsThunk_InitData` | 7 | Exported Function
+`JsThunk_Cleanup` | 2 | Exported Function
+`JsThunk_AllocateData` | 1 | Exported Function
+`JsThunk_CleanupFinish` | 4 | Exported Function
+`JsThunk_CleanupDefer` | 3 | Exported Function
 
 
 ## Signature

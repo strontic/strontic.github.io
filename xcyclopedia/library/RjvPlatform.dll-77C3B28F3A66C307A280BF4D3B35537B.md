@@ -24,10 +24,10 @@ PE256 | `7774C20EDE23CAB8A0D57039366E93368FB6FC59CCE3813CCE13FFEA75647FD6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RejuvShutdown` | 1 (0x1) | Exported Function | 0x0000000180004f80 | 0x00004f80
-`RejuvStartup` | 2 (0x2) | Exported Function | 0x0000000180005030 | 0x00005030
+Function Name | Ordinal | Type
+-- | -- | --
+`RejuvStartup` | 2 | Exported Function
+`RejuvShutdown` | 1 | Exported Function
 
 
 ## Signature

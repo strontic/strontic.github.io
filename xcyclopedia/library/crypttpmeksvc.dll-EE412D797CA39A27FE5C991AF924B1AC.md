@@ -24,16 +24,16 @@ PE256 | `4E216BAB37D24A47DCDE71FAED00B111146B7C2D793D1762FFCB0C1DF7572F9A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CryptsvcDllCtrl` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
-`EKCliAuthorityKeyGetInfo` | 2 (0x2) | Exported Function | 0x00000001800072f0 | 0x000072f0
-`EKCliTpmEndorsementKeyDecryptSCEPChallenge` | 3 (0x3) | Exported Function | 0x0000000180007460 | 0x00007460
-`EKCliTpmEndorsementKeyGetInfo` | 4 (0x4) | Exported Function | 0x0000000180007600 | 0x00007600
-`EKCliTpmGetManufacturerInfo` | 5 (0x5) | Exported Function | 0x0000000180007690 | 0x00007690
-`FreeCMCResponse` | 6 (0x6) | Exported Function | 0x00000001800034a0 | 0x000034a0
-`IsCmcResponseForAttestation` | 7 (0x7) | Exported Function | 0x00000001800035b0 | 0x000035b0
-`ParseCMCResponse` | 8 (0x8) | Exported Function | 0x0000000180003640 | 0x00003640
+Function Name | Ordinal | Type
+-- | -- | --
+`FreeCMCResponse` | 6 | Exported Function
+`EKCliTpmGetManufacturerInfo` | 5 | Exported Function
+`ParseCMCResponse` | 8 | Exported Function
+`IsCmcResponseForAttestation` | 7 | Exported Function
+`EKCliAuthorityKeyGetInfo` | 2 | Exported Function
+`CryptsvcDllCtrl` | 1 | Exported Function
+`EKCliTpmEndorsementKeyGetInfo` | 4 | Exported Function
+`EKCliTpmEndorsementKeyDecryptSCEPChallenge` | 3 | Exported Function
 
 
 ## Signature

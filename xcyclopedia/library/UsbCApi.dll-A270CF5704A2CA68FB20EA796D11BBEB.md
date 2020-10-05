@@ -24,18 +24,18 @@ PE256 | `CCC1BB81B247EC0C1B0AC0803F665BE8A71ED7C5905C52F55E8F519C38703126`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`UsbCApi_DeregisterConsumer` | 1 (0x1) | Exported Function | 0x0000000180001450 | 0x00001450
-`UsbCApi_FreeProviders` | 2 (0x2) | Exported Function | 0x00000001800019b0 | 0x000019b0
-`UsbCApi_GetConnectorProperties` | 3 (0x3) | Exported Function | 0x0000000180001610 | 0x00001610
-`UsbCApi_GetConnectorState` | 4 (0x4) | Exported Function | 0x0000000180001830 | 0x00001830
-`UsbCApi_GetProviderInformation` | 5 (0x5) | Exported Function | 0x0000000180001540 | 0x00001540
-`UsbCApi_GetProviders` | 6 (0x6) | Exported Function | 0x0000000180001910 | 0x00001910
-`UsbCApi_IsEqualChangeStamps` | 7 (0x7) | Exported Function | 0x00000001800017a0 | 0x000017a0
-`UsbCApi_RegisterConsumer` | 8 (0x8) | Exported Function | 0x0000000180001300 | 0x00001300
-`UsbCApi_SetConnectorDataRole` | 9 (0x9) | Exported Function | 0x0000000180001a50 | 0x00001a50
-`UsbCApi_SetConnectorPowerRole` | 10 (0xa) | Exported Function | 0x0000000180001c30 | 0x00001c30
+Function Name | Ordinal | Type
+-- | -- | --
+`UsbCApi_IsEqualChangeStamps` | 7 | Exported Function
+`UsbCApi_GetProviders` | 6 | Exported Function
+`UsbCApi_RegisterConsumer` | 8 | Exported Function
+`UsbCApi_SetConnectorPowerRole` | 10 | Exported Function
+`UsbCApi_SetConnectorDataRole` | 9 | Exported Function
+`UsbCApi_FreeProviders` | 2 | Exported Function
+`UsbCApi_DeregisterConsumer` | 1 | Exported Function
+`UsbCApi_GetConnectorProperties` | 3 | Exported Function
+`UsbCApi_GetProviderInformation` | 5 | Exported Function
+`UsbCApi_GetConnectorState` | 4 | Exported Function
 
 
 ## Signature

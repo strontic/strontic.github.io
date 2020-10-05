@@ -24,19 +24,19 @@ PE256 | `691CAD7767257520E9339F4C8937F32E7349C124916BFE6B7B51BDE37A677611`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AsrAddSifEntryA` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
-`AsrAddSifEntryW` | 2 (0x2) | Exported Function | 0x0000000180001010 | 0x00001010
-`AsrCreateStateFileA` | 3 (0x3) | Exported Function | 0x0000000180001010 | 0x00001010
-`AsrCreateStateFileW` | 4 (0x4) | Exported Function | 0x0000000180001010 | 0x00001010
-`AsrFreeContext` | 5 (0x5) | Exported Function | 0x0000000180001010 | 0x00001010
-`AsrRestorePlugPlayRegistryData` | 6 (0x6) | Exported Function | 0x0000000180001010 | 0x00001010
-`GetAnswerFileSetting` | 7 (0x7) | Exported Function | 0x0000000180001010 | 0x00001010
-`SetupChangeFontSize` | 8 (0x8) | Exported Function | 0x0000000180001050 | 0x00001050
-`SetupInfObjectInstallActionW` | 9 (0x9) | Exported Function | SETUPAPI.InstallHinfSectionW | 0x00004bef
-`SetupSetDisplay` | 10 (0xa) | Exported Function | 0x0000000180001060 | 0x00001060
-`WaitForSamService` | 11 (0xb) | Exported Function | 0x00000001800015c0 | 0x000015c0
+Function Name | Ordinal | Type
+-- | -- | --
+`SetupChangeFontSize` | 8 | Exported Function
+`GetAnswerFileSetting` | 7 | Exported Function
+`SetupInfObjectInstallActionW` | 9 | Exported Function
+`WaitForSamService` | 11 | Exported Function
+`SetupSetDisplay` | 10 | Exported Function
+`AsrRestorePlugPlayRegistryData` | 6 | Exported Function
+`AsrAddSifEntryW` | 2 | Exported Function
+`AsrAddSifEntryA` | 1 | Exported Function
+`AsrCreateStateFileA` | 3 | Exported Function
+`AsrFreeContext` | 5 | Exported Function
+`AsrCreateStateFileW` | 4 | Exported Function
 
 
 ## Signature

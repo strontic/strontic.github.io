@@ -24,10 +24,10 @@ PE256 | `EFD75CB4B9DCE8D1A7DFF9E560BA73597AAA41DF6FBE504C068571BF4D8FF62D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FwRpcAPIsInitialize` | 1 (0x1) | Exported Function | 0x10005050 | 0x00005050
-`FwRpcAPIsShutdown` | 2 (0x2) | Exported Function | 0x10005160 | 0x00005160
+Function Name | Ordinal | Type
+-- | -- | --
+`FwRpcAPIsShutdown` | 2 | Exported Function
+`FwRpcAPIsInitialize` | 1 | Exported Function
 
 
 ## Signature

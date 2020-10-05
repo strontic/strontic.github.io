@@ -24,37 +24,37 @@ PE256 | `4230742D007C01739ECCDC8483A7ACF7F2C5C0BB43BCC7C20EEA5FCE4501EE4A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Wow64AllocateHeap` | 2 (0x2) | Exported Function | 0x0000000180021fe0 | 0x00021fe0
-`Wow64SystemServiceEx` | 27 (0x1b) | Exported Function | 0x0000000180008ed0 | 0x00008ed0
-`Wow64SuspendLocalThread` | 26 (0x1a) | Exported Function | 0x0000000180021740 | 0x00021740
-`Wow64SuspendLocalProcess` | 25 (0x19) | Exported Function | 0x0000000180021590 | 0x00021590
-`Wow64ShallowThunkSIZE_T64TO32` | 24 (0x18) | Exported Function | 0x000000018000e830 | 0x0000e830
-`Wow64ShallowThunkSIZE_T32TO64` | 23 (0x17) | Exported Function | 0x000000018000c2d0 | 0x0000c2d0
-`Wow64ShallowThunkAllocSecurityQualityOfService32TO64_FNC` | 22 (0x16) | Exported Function | 0x0000000180009f20 | 0x00009f20
-`Wow64ShallowThunkAllocObjectAttributes32TO64_FNC` | 21 (0x15) | Exported Function | 0x0000000180009790 | 0x00009790
-`Wow64RaiseException` | 20 (0x14) | Exported Function | 0x0000000180020a50 | 0x00020a50
-`Wow64ProcessPendingCrossProcessItems` | 19 (0x13) | Exported Function | 0x0000000180023650 | 0x00023650
-`Wow64PrepareForException` | 18 (0x12) | Exported Function | 0x0000000180019bc0 | 0x00019bc0
-`Wow64PrepareForDebuggerAttach` | 17 (0x11) | Exported Function | 0x0000000180022300 | 0x00022300
-`Wow64PassExceptionToGuest` | 16 (0x10) | Exported Function | 0x00000001800220f0 | 0x000220f0
-`Wow64ValidateUserCallTarget` | 28 (0x1c) | Exported Function | 0x0000000180022cb0 | 0x00022cb0
-`Wow64NotifyUnsimulateComplete` | 15 (0xf) | Exported Function | 0x0000000180020f10 | 0x00020f10
-`Wow64LdrpInitialize` | 13 (0xd) | Exported Function | 0x0000000180003190 | 0x00003190
-`Wow64KiUserCallbackDispatcher` | 12 (0xc) | Exported Function | 0x0000000180003410 | 0x00003410
-`Wow64IsStackExtentsCheckEnforced` | 11 (0xb) | Exported Function | 0x0000000180001be0 | 0x00001be0
-`Wow64IsControlFlowGuardEnforced` | 10 (0xa) | Exported Function | NTDLL.LdrControlFlowGuardEnforced | 0x00049655
-`Wow64FreeThreadHeap` | 9 (0x9) | Exported Function | 0x00000001800102c0 | 0x000102c0
-`Wow64FreeHeap` | 8 (0x8) | Exported Function | 0x0000000180022010 | 0x00022010
-`Wow64EmulateAtlThunk` | 7 (0x7) | Exported Function | 0x0000000180022a30 | 0x00022a30
-`Wow64DispatchExceptionCHPE` | 6 (0x6) | Exported Function | 0x00000001800208b0 | 0x000208b0
-`Wow64CheckIfNXEnabled` | 5 (0x5) | Exported Function | 0x0000000180022990 | 0x00022990
-`Wow64ApcRoutine` | 4 (0x4) | Exported Function | 0x00000001800010a0 | 0x000010a0
-`Wow64AllocThreadHeap` | 1 (0x1) | Exported Function | 0x0000000180010390 | 0x00010390
-`Wow64AllocateTemp` | 3 (0x3) | Exported Function | 0x0000000180010330 | 0x00010330
-`Wow64LogPrint` | 14 (0xe) | Exported Function | 0x0000000180009fe0 | 0x00009fe0
-`Wow64ValidateUserCallTargetFilter` | 29 (0x1d) | Exported Function | 0x0000000180022dd0 | 0x00022dd0
+Function Name | Ordinal | Type
+-- | -- | --
+`Wow64RaiseException` | 20 | Exported Function
+`Wow64ShallowThunkAllocObjectAttributes32TO64_FNC` | 21 | Exported Function
+`Wow64ShallowThunkAllocSecurityQualityOfService32TO64_FNC` | 22 | Exported Function
+`Wow64ProcessPendingCrossProcessItems` | 19 | Exported Function
+`Wow64PassExceptionToGuest` | 16 | Exported Function
+`Wow64PrepareForDebuggerAttach` | 17 | Exported Function
+`Wow64PrepareForException` | 18 | Exported Function
+`Wow64SystemServiceEx` | 27 | Exported Function
+`Wow64ValidateUserCallTarget` | 28 | Exported Function
+`Wow64ValidateUserCallTargetFilter` | 29 | Exported Function
+`Wow64SuspendLocalThread` | 26 | Exported Function
+`Wow64ShallowThunkSIZE_T32TO64` | 23 | Exported Function
+`Wow64ShallowThunkSIZE_T64TO32` | 24 | Exported Function
+`Wow64SuspendLocalProcess` | 25 | Exported Function
+`Wow64NotifyUnsimulateComplete` | 15 | Exported Function
+`Wow64CheckIfNXEnabled` | 5 | Exported Function
+`Wow64DispatchExceptionCHPE` | 6 | Exported Function
+`Wow64EmulateAtlThunk` | 7 | Exported Function
+`Wow64ApcRoutine` | 4 | Exported Function
+`Wow64AllocateHeap` | 2 | Exported Function
+`Wow64AllocateTemp` | 3 | Exported Function
+`Wow64AllocThreadHeap` | 1 | Exported Function
+`Wow64KiUserCallbackDispatcher` | 12 | Exported Function
+`Wow64LdrpInitialize` | 13 | Exported Function
+`Wow64LogPrint` | 14 | Exported Function
+`Wow64IsStackExtentsCheckEnforced` | 11 | Exported Function
+`Wow64FreeHeap` | 8 | Exported Function
+`Wow64FreeThreadHeap` | 9 | Exported Function
+`Wow64IsControlFlowGuardEnforced` | 10 | Exported Function
 
 
 ## Signature

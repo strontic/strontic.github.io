@@ -24,12 +24,12 @@ PE256 | `1E0045CA50A5893BDCB31D0F02F128FCA5F86372DDE67711FC326E9872683E66`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RunDll32Main` | 3 (0x3) | Exported Function | 0x0000000180178d50 | 0x00178d50
-`ServiceMain` | 1 (0x1) | Exported Function | 0x0000000180177e30 | 0x00177e30
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x0000000180178940 | 0x00178940
-`UtcSysprepGeneralize` | 4 (0x4) | Exported Function | 0x0000000180178ef0 | 0x00178ef0
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`UtcSysprepGeneralize` | 4 | Exported Function
+`RunDll32Main` | 3 | Exported Function
+`ServiceMain` | 1 | Exported Function
 
 
 ## Signature

@@ -24,15 +24,15 @@ PE256 | `D9C359B2761FA284465DB4DE7804B5BC44AF4F5A56441B8876B62FFBCF0092A6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AdhEngineClose` | 1 (0x1) | Exported Function | 0x00000001800019a0 | 0x000019a0
-`AdhEngineOpen` | 2 (0x2) | Exported Function | 0x0000000180001790 | 0x00001790
-`AdhGetConfig` | 3 (0x3) | Exported Function | 0x0000000180002570 | 0x00002570
-`AdhGetEvidenceCollectorResult` | 4 (0x4) | Exported Function | 0x0000000180002800 | 0x00002800
-`AdhStatusEventSubscribe` | 5 (0x5) | Exported Function | 0x0000000180001ec0 | 0x00001ec0
-`AdhStatusEventUnsubscribe` | 6 (0x6) | Exported Function | 0x00000001800022f0 | 0x000022f0
-`DllMain` | 7 (0x7) | Exported Function | 0x0000000180001120 | 0x00001120
+Function Name | Ordinal | Type
+-- | -- | --
+`AdhStatusEventSubscribe` | 5 | Exported Function
+`AdhStatusEventUnsubscribe` | 6 | Exported Function
+`DllMain` | 7 | Exported Function
+`AdhGetEvidenceCollectorResult` | 4 | Exported Function
+`AdhEngineClose` | 1 | Exported Function
+`AdhEngineOpen` | 2 | Exported Function
+`AdhGetConfig` | 3 | Exported Function
 
 
 ## Signature

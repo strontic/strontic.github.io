@@ -24,43 +24,43 @@ PE256 | `4F7D4EB42852026F16997D3E759C11344DC4F0C24D92ADEBDA191C6749132933`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmSessionPlayingSupported` | 20 (0x14) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmSmtcSubscriptionStateSupported` | 21 (0x15) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmSoundLevelSupported` | 22 (0x16) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmSwitchSoftNonToHardNonInteractiveSupported` | 23 (0x17) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmUnregisterAppClosureNotificationSupported` | 24 (0x18) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmUnregisterAppManagerNotificationSupported` | 25 (0x19) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmReportHostedAppStateChangeSupported` | 19 (0x13) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmUnregisterPlaybackManagerNotificationsSupported` | 26 (0x1a) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsTSRegisterAudioProtocolNotificationSupported` | 28 (0x1c) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsTSServiceSessionChangeSupported` | 29 (0x1d) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsTSSessionGetAudioProtocolSupported` | 30 (0x1e) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsTSSessionIdAudioProtocolSupported` | 31 (0x1f) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsTSSessionIdRegisterVolumeTrackerForSessionSupported` | 32 (0x20) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsTSSessionIdStreamStartedSupported` | 33 (0x21) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsScreenReaderStateSupported` | 27 (0x1b) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsTSSessionIdStreamStoppedSupported` | 34 (0x22) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmReportApplicationStateSupported` | 18 (0x12) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmReportAppClosingSupported` | 16 (0x10) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsApmDuckingGainForIdSupported` | 2 (0x2) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsApmLayoutGainForIdSupported` | 3 (0x3) | Exported Function | 0x0000000180001020 | 0x00001020
-`IsApmRegisterProxyAudioProcessSupported` | 4 (0x4) | Exported Function | 0x0000000180001020 | 0x00001020
-`IsDataRangeForEndpointSupported` | 5 (0x5) | Exported Function | 0x0000000180001020 | 0x00001020
-`IsHdAudioProtocolNotifyRundownSupported` | 7 (0x7) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsHHostEdappManagerContextRundownSupported` | 6 (0x6) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmReportAppInteractivityChangeSupported` | 17 (0x11) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmAllowMediaPlaybackForAppSupported` | 8 (0x8) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmLaunchBackgroundTaskSupported` | 10 (0xa) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmPlayingSupported` | 12 (0xc) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmPlayToStreamStateChangedSupported` | 11 (0xb) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmRegisterAppClosureNotificationSupported` | 13 (0xd) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmRegisterAppManagerNotificationSupported` | 14 (0xe) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmRegisterPlaybackManagerNotificationsSupported` | 15 (0xf) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsPbmCastingAppStateChangedSupported` | 9 (0x9) | Exported Function | 0x0000000180001010 | 0x00001010
-`IsTSUnregisterAudioProtocolNotificationSupported` | 35 (0x23) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`IsPbmUnregisterAppClosureNotificationSupported` | 24 | Exported Function
+`IsPbmSwitchSoftNonToHardNonInteractiveSupported` | 23 | Exported Function
+`IsPbmUnregisterPlaybackManagerNotificationsSupported` | 26 | Exported Function
+`IsPbmUnregisterAppManagerNotificationSupported` | 25 | Exported Function
+`IsPbmSessionPlayingSupported` | 20 | Exported Function
+`IsPbmReportHostedAppStateChangeSupported` | 19 | Exported Function
+`IsPbmSoundLevelSupported` | 22 | Exported Function
+`IsPbmSmtcSubscriptionStateSupported` | 21 | Exported Function
+`IsScreenReaderStateSupported` | 27 | Exported Function
+`IsTSSessionIdStreamStartedSupported` | 33 | Exported Function
+`IsTSSessionIdRegisterVolumeTrackerForSessionSupported` | 32 | Exported Function
+`IsTSUnregisterAudioProtocolNotificationSupported` | 35 | Exported Function
+`IsTSSessionIdStreamStoppedSupported` | 34 | Exported Function
+`IsTSServiceSessionChangeSupported` | 29 | Exported Function
+`IsTSRegisterAudioProtocolNotificationSupported` | 28 | Exported Function
+`IsTSSessionIdAudioProtocolSupported` | 31 | Exported Function
+`IsTSSessionGetAudioProtocolSupported` | 30 | Exported Function
+`IsPbmReportApplicationStateSupported` | 18 | Exported Function
+`IsHdAudioProtocolNotifyRundownSupported` | 7 | Exported Function
+`IsDataRangeForEndpointSupported` | 5 | Exported Function
+`IsPbmAllowMediaPlaybackForAppSupported` | 8 | Exported Function
+`IsHHostEdappManagerContextRundownSupported` | 6 | Exported Function
+`IsApmDuckingGainForIdSupported` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
+`IsApmRegisterProxyAudioProcessSupported` | 4 | Exported Function
+`IsApmLayoutGainForIdSupported` | 3 | Exported Function
+`IsPbmCastingAppStateChangedSupported` | 9 | Exported Function
+`IsPbmRegisterPlaybackManagerNotificationsSupported` | 15 | Exported Function
+`IsPbmRegisterAppManagerNotificationSupported` | 14 | Exported Function
+`IsPbmReportAppInteractivityChangeSupported` | 17 | Exported Function
+`IsPbmReportAppClosingSupported` | 16 | Exported Function
+`IsPbmPlayingSupported` | 12 | Exported Function
+`IsPbmLaunchBackgroundTaskSupported` | 10 | Exported Function
+`IsPbmRegisterAppClosureNotificationSupported` | 13 | Exported Function
+`IsPbmPlayToStreamStateChangedSupported` | 11 | Exported Function
 
 
 ## Signature

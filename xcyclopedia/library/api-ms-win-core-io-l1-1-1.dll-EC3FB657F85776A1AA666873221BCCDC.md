@@ -24,11 +24,11 @@ PE256 | `A8CFC46A21A8938F8A4E41FC7C0BAE08C7EB43EC4F2110561C014C66B32170D4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CancelIo` | 1 (0x1) | Exported Function | kernel32.CancelIo | 0x0000118d
-`CancelSynchronousIo` | 2 (0x2) | Exported Function | kernel32.CancelSynchronousIo | 0x000011b3
-`GetOverlappedResultEx` | 3 (0x3) | Exported Function | kernel32.GetOverlappedResultEx | 0x000011e6
+Function Name | Ordinal | Type
+-- | -- | --
+`GetOverlappedResultEx` | 3 | Exported Function
+`CancelSynchronousIo` | 2 | Exported Function
+`CancelIo` | 1 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `2DC095D061A1CF0A133CA09B4B57EA70431EBC3D8BDA30AD2F2F2D6350A036B7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PadHelp_HandleContextPopup` | 1 (0x1) | Exported Function | 0x00000001800014f0 | 0x000014f0
-`PadHelp_HandleHelp` | 2 (0x2) | Exported Function | 0x0000000180001270 | 0x00001270
+Function Name | Ordinal | Type
+-- | -- | --
+`PadHelp_HandleHelp` | 2 | Exported Function
+`PadHelp_HandleContextPopup` | 1 | Exported Function
 
 
 ## Signature

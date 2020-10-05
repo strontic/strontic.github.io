@@ -24,34 +24,34 @@ PE256 | `FF575022B4323DEE60707E12E35615A83F55858DDC589C1D29D5794D96286058`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CheckDriverSoftwareDependenciesSatisfied` | 1 (0x1) | Exported Function | 0x61b262c0 | 0x000262c0
-`SetInternetPolicies` | 21 (0x15) | Exported Function | 0x61b1ee20 | 0x0001ee20
-`SetDriverPackageRestorePoint` | 20 (0x14) | Exported Function | 0x61b0cc20 | 0x0000cc20
-`QueryWindowsUpdateDriverStatus` | 19 (0x13) | Exported Function | 0x61b13c20 | 0x00013c20
-`pDiRunFinishInstallOperations` | 26 (0x1a) | Exported Function | 0x61b14510 | 0x00014510
-`pDiDoNullDriverInstall` | 25 (0x19) | Exported Function | 0x61b14480 | 0x00014480
-`pDiDoDeviceInstallAsAdmin` | 24 (0x18) | Exported Function | 0x61b14360 | 0x00014360
-`InstallWindowsUpdateDrivers` | 18 (0x12) | Exported Function | 0x61b13720 | 0x00013720
-`InstallWindowsUpdateDriverEx` | 17 (0x11) | Exported Function | 0x61b13630 | 0x00013630
-`InstallWindowsUpdateDriver` | 16 (0x10) | Exported Function | 0x61b13610 | 0x00013610
-`InstallSelectedDriver` | 15 (0xf) | Exported Function | 0x61b13550 | 0x00013550
-`InstallNewDevice` | 14 (0xe) | Exported Function | 0x61b134e0 | 0x000134e0
-`InstallLegacyDeviceDriver` | 13 (0xd) | Exported Function | 0x61b0b5d0 | 0x0000b5d0
-`GetInternetPolicies` | 12 (0xc) | Exported Function | 0x61b1dbb0 | 0x0001dbb0
-`DiUninstallDriverW` | 11 (0xb) | Exported Function | 0x61b13160 | 0x00013160
-`DiUninstallDriverA` | 10 (0xa) | Exported Function | 0x61b130f0 | 0x000130f0
-`DiUninstallDevice` | 9 (0x9) | Exported Function | 0x61b12f70 | 0x00012f70
-`DiShowUpdateDriver` | 8 (0x8) | Exported Function | 0x61b12e00 | 0x00012e00
-`DiShowUpdateDevice` | 7 (0x7) | Exported Function | 0x61b12c40 | 0x00012c40
-`DiRollbackDriver` | 6 (0x6) | Exported Function | 0x61b1be90 | 0x0001be90
-`DiInstallDriverW` | 5 (0x5) | Exported Function | 0x61b129a0 | 0x000129a0
-`DiInstallDriverA` | 4 (0x4) | Exported Function | 0x61b12930 | 0x00012930
-`DiInstallDevice` | 3 (0x3) | Exported Function | 0x61b12370 | 0x00012370
-`DeviceInternetSettingUiW` | 2 (0x2) | Exported Function | 0x61b1fa20 | 0x0001fa20
-`UpdateDriverForPlugAndPlayDevicesA` | 22 (0x16) | Exported Function | 0x61b13d50 | 0x00013d50
-`UpdateDriverForPlugAndPlayDevicesW` | 23 (0x17) | Exported Function | 0x61b13e00 | 0x00013e00
+Function Name | Ordinal | Type
+-- | -- | --
+`InstallWindowsUpdateDriverEx` | 17 | Exported Function
+`InstallWindowsUpdateDrivers` | 18 | Exported Function
+`pDiDoDeviceInstallAsAdmin` | 24 | Exported Function
+`InstallNewDevice` | 14 | Exported Function
+`InstallSelectedDriver` | 15 | Exported Function
+`InstallWindowsUpdateDriver` | 16 | Exported Function
+`pDiDoNullDriverInstall` | 25 | Exported Function
+`SetInternetPolicies` | 21 | Exported Function
+`UpdateDriverForPlugAndPlayDevicesA` | 22 | Exported Function
+`UpdateDriverForPlugAndPlayDevicesW` | 23 | Exported Function
+`pDiRunFinishInstallOperations` | 26 | Exported Function
+`QueryWindowsUpdateDriverStatus` | 19 | Exported Function
+`SetDriverPackageRestorePoint` | 20 | Exported Function
+`DiInstallDriverA` | 4 | Exported Function
+`DiInstallDriverW` | 5 | Exported Function
+`DiRollbackDriver` | 6 | Exported Function
+`CheckDriverSoftwareDependenciesSatisfied` | 1 | Exported Function
+`DeviceInternetSettingUiW` | 2 | Exported Function
+`DiInstallDevice` | 3 | Exported Function
+`DiShowUpdateDevice` | 7 | Exported Function
+`DiUninstallDriverW` | 11 | Exported Function
+`GetInternetPolicies` | 12 | Exported Function
+`InstallLegacyDeviceDriver` | 13 | Exported Function
+`DiShowUpdateDriver` | 8 | Exported Function
+`DiUninstallDevice` | 9 | Exported Function
+`DiUninstallDriverA` | 10 | Exported Function
 
 
 ## Signature

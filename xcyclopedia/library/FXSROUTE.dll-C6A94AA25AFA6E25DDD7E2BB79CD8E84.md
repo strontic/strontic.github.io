@@ -24,18 +24,18 @@ PE256 | `995D89C997772A15EDA19C1D5680DFF3192ED3C7B2F7A40A4CE8C8A0DECF1988`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FaxExtInitializeConfig` | 5 (0x5) | Exported Function | 0x0000000164804150 | 0x00004150
-`FaxRouteConfigure` | 1 (0x1) | Exported Function | 0x0000000164802980 | 0x00002980
-`FaxRouteDeviceChangeNotification` | 6 (0x6) | Exported Function | 0x0000000164802aa0 | 0x00002aa0
-`FaxRouteDeviceEnable` | 7 (0x7) | Exported Function | 0x0000000164802990 | 0x00002990
-`FaxRouteEmail` | 2 (0x2) | Exported Function | 0x0000000164802660 | 0x00002660
-`FaxRouteGetRoutingInfo` | 8 (0x8) | Exported Function | 0x0000000164805660 | 0x00005660
-`FaxRouteInitialize` | 9 (0x9) | Exported Function | 0x00000001648014d0 | 0x000014d0
-`FaxRoutePrint` | 3 (0x3) | Exported Function | 0x0000000164801710 | 0x00001710
-`FaxRouteSetRoutingInfo` | 10 (0xa) | Exported Function | 0x00000001648054a0 | 0x000054a0
-`FaxRouteStore` | 4 (0x4) | Exported Function | 0x0000000164801990 | 0x00001990
+Function Name | Ordinal | Type
+-- | -- | --
+`FaxRouteInitialize` | 9 | Exported Function
+`FaxRouteGetRoutingInfo` | 8 | Exported Function
+`FaxRoutePrint` | 3 | Exported Function
+`FaxRouteStore` | 4 | Exported Function
+`FaxRouteSetRoutingInfo` | 10 | Exported Function
+`FaxRouteConfigure` | 1 | Exported Function
+`FaxExtInitializeConfig` | 5 | Exported Function
+`FaxRouteDeviceChangeNotification` | 6 | Exported Function
+`FaxRouteEmail` | 2 | Exported Function
+`FaxRouteDeviceEnable` | 7 | Exported Function
 
 
 ## Signature

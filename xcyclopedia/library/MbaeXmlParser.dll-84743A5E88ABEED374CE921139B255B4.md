@@ -24,15 +24,15 @@ PE256 | `A9F51445BB341FFF4923435D8CBAAB8C155982A1E368B21782A458BEF4E4E7CE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`const MbaeXmlParser::``vftable'` | 6 (0x6) | Exported Function | 0x0000000180008030 | 0x00008030
-`public: __cdecl MbaeXmlParser::MbaeXmlParser(class MbaeXmlParser && __ptr64) __ptr64` | 1 (0x1) | Exported Function | 0x0000000180001260 | 0x00001260
-`public: __cdecl MbaeXmlParser::MbaeXmlParser(class MbaeXmlParser const & __ptr64) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180001260 | 0x00001260
-`public: __cdecl MbaeXmlParser::MbaeXmlParser(void) __ptr64` | 3 (0x3) | Exported Function | 0x0000000180001260 | 0x00001260
-`public: class MbaeXmlParser & __ptr64 __cdecl MbaeXmlParser::operator=(class MbaeXmlParser && __ptr64) __ptr64` | 4 (0x4) | Exported Function | 0x0000000180001280 | 0x00001280
-`public: class MbaeXmlParser & __ptr64 __cdecl MbaeXmlParser::operator=(class MbaeXmlParser const & __ptr64) __ptr64` | 5 (0x5) | Exported Function | 0x0000000180001280 | 0x00001280
-`public: static long __cdecl MbaeXmlParser::Create(class MbaeXmlParser * __ptr64 * __ptr64)` | 7 (0x7) | Exported Function | 0x00000001800012d0 | 0x000012d0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: class MbaeXmlParser & __ptr64 __cdecl MbaeXmlParser::operator=(class MbaeXmlParser && __ptr64) __ptr64` | 4 | Exported Function
+`public: class MbaeXmlParser & __ptr64 __cdecl MbaeXmlParser::operator=(class MbaeXmlParser const & __ptr64) __ptr64` | 5 | Exported Function
+`public: static long __cdecl MbaeXmlParser::Create(class MbaeXmlParser * __ptr64 * __ptr64)` | 7 | Exported Function
+`public: __cdecl MbaeXmlParser::MbaeXmlParser(void) __ptr64` | 3 | Exported Function
+`const MbaeXmlParser::``vftable'` | 6 | Exported Function
+`public: __cdecl MbaeXmlParser::MbaeXmlParser(class MbaeXmlParser && __ptr64) __ptr64` | 1 | Exported Function
+`public: __cdecl MbaeXmlParser::MbaeXmlParser(class MbaeXmlParser const & __ptr64) __ptr64` | 2 | Exported Function
 
 
 ## Signature

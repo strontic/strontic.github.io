@@ -24,18 +24,18 @@ PE256 | `0DD35BE19490C530FAA82BA5E4471F144F1B29B7CDF9CE78241C8B3DBA89B832`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TokenBindingDeleteAllBindings` | 1 (0x1) | Exported Function | 0x00000001800031b0 | 0x000031b0
-`TokenBindingDeleteBinding` | 2 (0x2) | Exported Function | 0x0000000180003210 | 0x00003210
-`TokenBindingGenerateBinding` | 3 (0x3) | Exported Function | 0x0000000180003270 | 0x00003270
-`TokenBindingGenerateID` | 4 (0x4) | Exported Function | 0x0000000180003700 | 0x00003700
-`TokenBindingGenerateIDForUri` | 5 (0x5) | Exported Function | 0x0000000180003880 | 0x00003880
-`TokenBindingGenerateMessage` | 6 (0x6) | Exported Function | 0x0000000180003a20 | 0x00003a20
-`TokenBindingGetHighestSupportedVersion` | 7 (0x7) | Exported Function | 0x00000001800013d0 | 0x000013d0
-`TokenBindingGetKeyTypesClient` | 8 (0x8) | Exported Function | 0x0000000180001010 | 0x00001010
-`TokenBindingGetKeyTypesServer` | 9 (0x9) | Exported Function | 0x00000001800054b0 | 0x000054b0
-`TokenBindingVerifyMessage` | 10 (0xa) | Exported Function | 0x0000000180005530 | 0x00005530
+Function Name | Ordinal | Type
+-- | -- | --
+`TokenBindingGetHighestSupportedVersion` | 7 | Exported Function
+`TokenBindingGenerateMessage` | 6 | Exported Function
+`TokenBindingGetKeyTypesClient` | 8 | Exported Function
+`TokenBindingVerifyMessage` | 10 | Exported Function
+`TokenBindingGetKeyTypesServer` | 9 | Exported Function
+`TokenBindingDeleteBinding` | 2 | Exported Function
+`TokenBindingDeleteAllBindings` | 1 | Exported Function
+`TokenBindingGenerateBinding` | 3 | Exported Function
+`TokenBindingGenerateIDForUri` | 5 | Exported Function
+`TokenBindingGenerateID` | 4 | Exported Function
 
 
 ## Signature

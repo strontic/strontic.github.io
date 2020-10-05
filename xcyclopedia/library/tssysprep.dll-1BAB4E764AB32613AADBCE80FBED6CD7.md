@@ -24,21 +24,21 @@ PE256 | `E8F20DA6783E9E9BCD4C64BC7CF554F0B37E437E238B8B2D00296AE3206B6674`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AppsrvSysPrepGeneralize` | 1 (0x1) | Exported Function | 0x0000000180002930 | 0x00002930
-`AppsrvSysPrepSpecializeOffline` | 2 (0x2) | Exported Function | 0x0000000180002b90 | 0x00002b90
-`AppsrvSysPrepSpecializeOnline` | 3 (0x3) | Exported Function | 0x0000000180002d70 | 0x00002d70
-`CBrokerSysPrepGeneralize` | 4 (0x4) | Exported Function | 0x00000001800032e0 | 0x000032e0
-`CBrokerSysPrepSpecializeOffline` | 5 (0x5) | Exported Function | 0x0000000180003540 | 0x00003540
-`CBrokerSysPrepSpecializeOnline` | 6 (0x6) | Exported Function | 0x0000000180003720 | 0x00003720
-`LSMSysPrepBackup` | 7 (0x7) | Exported Function | 0x00000001800010c0 | 0x000010c0
-`LSMSysPrepRestoreOffline` | 8 (0x8) | Exported Function | 0x0000000180001290 | 0x00001290
-`LSMSysPrepRestoreOnline` | 9 (0x9) | Exported Function | 0x0000000180001450 | 0x00001450
-`RCMSysPrepGeneralize` | 10 (0xa) | Exported Function | 0x0000000180001610 | 0x00001610
-`RdpSysPrepGeneralize` | 11 (0xb) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`RdpSysPrepRestoreOffline` | 12 (0xc) | Exported Function | 0x0000000180001a70 | 0x00001a70
-`RdpSysPrepRestoreOnline` | 13 (0xd) | Exported Function | 0x00000001800017c0 | 0x000017c0
+Function Name | Ordinal | Type
+-- | -- | --
+`RCMSysPrepGeneralize` | 10 | Exported Function
+`LSMSysPrepRestoreOnline` | 9 | Exported Function
+`LSMSysPrepRestoreOffline` | 8 | Exported Function
+`RdpSysPrepRestoreOnline` | 13 | Exported Function
+`RdpSysPrepRestoreOffline` | 12 | Exported Function
+`RdpSysPrepGeneralize` | 11 | Exported Function
+`LSMSysPrepBackup` | 7 | Exported Function
+`AppsrvSysPrepSpecializeOnline` | 3 | Exported Function
+`AppsrvSysPrepSpecializeOffline` | 2 | Exported Function
+`AppsrvSysPrepGeneralize` | 1 | Exported Function
+`CBrokerSysPrepSpecializeOnline` | 6 | Exported Function
+`CBrokerSysPrepSpecializeOffline` | 5 | Exported Function
+`CBrokerSysPrepGeneralize` | 4 | Exported Function
 
 
 ## Signature

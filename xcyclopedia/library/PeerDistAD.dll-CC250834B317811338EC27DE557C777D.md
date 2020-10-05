@@ -24,9 +24,9 @@ PE256 | `0280418798EA69BE19271B9D861AB4A5DACD1F1FEF0F612B160AAF03C763EEF3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PeerDistADGetFunctions` | 1 (0x1) | Exported Function | 0x00000001800012d0 | 0x000012d0
+Function Name | Ordinal | Type
+-- | -- | --
+`PeerDistADGetFunctions` | 1 | Exported Function
 
 
 ## Signature

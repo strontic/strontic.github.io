@@ -24,96 +24,96 @@ PE256 | `CAC542C4C273F3807B62017E6EA39E5F6E4EDD8C9636463C75972E2A5D08F48B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IsCharBlankW` | 1 (0x1) | Exported Function | shlwapi.IsCharBlankW | 0x0000142f
-`PathRemoveBackslashA` | 64 (0x40) | Exported Function | shlwapi.PathRemoveBackslashA | 0x00001e53
-`PathRelativePathToW` | 63 (0x3f) | Exported Function | shlwapi.PathRelativePathToW | 0x00001e22
-`PathRelativePathToA` | 62 (0x3e) | Exported Function | shlwapi.PathRelativePathToA | 0x00001df2
-`PathQuoteSpacesW` | 61 (0x3d) | Exported Function | shlwapi.PathQuoteSpacesW | 0x00001dc5
-`PathQuoteSpacesA` | 60 (0x3c) | Exported Function | shlwapi.PathQuoteSpacesA | 0x00001d9b
-`PathParseIconLocationW` | 59 (0x3b) | Exported Function | shlwapi.PathParseIconLocationW | 0x00001d6b
-`PathParseIconLocationA` | 58 (0x3a) | Exported Function | shlwapi.PathParseIconLocationA | 0x00001d35
-`PathMatchSpecW` | 57 (0x39) | Exported Function | shlwapi.PathMatchSpecW | 0x00001d07
-`PathRemoveBackslashW` | 65 (0x41) | Exported Function | shlwapi.PathRemoveBackslashW | 0x00001e85
-`PathMatchSpecExW` | 56 (0x38) | Exported Function | shlwapi.PathMatchSpecExW | 0x00001cdf
-`PathMatchSpecA` | 54 (0x36) | Exported Function | shlwapi.PathMatchSpecA | 0x00001c8d
-`PathIsValidCharW` | 53 (0x35) | Exported Function | shlwapi.PathIsValidCharW | 0x00001c65
-`PathIsValidCharA` | 52 (0x34) | Exported Function | shlwapi.PathIsValidCharA | 0x00001c3b
-`PathIsUNCW` | 51 (0x33) | Exported Function | shlwapi.PathIsUNCW | 0x00001c17
-`PathIsUNCServerW` | 50 (0x32) | Exported Function | shlwapi.PathIsUNCServerW | 0x00001bf3
-`PathIsUNCServerShareW` | 49 (0x31) | Exported Function | shlwapi.PathIsUNCServerShareW | 0x00001bc4
-`PathIsUNCServerShareA` | 48 (0x30) | Exported Function | shlwapi.PathIsUNCServerShareA | 0x00001b90
-`PathIsUNCServerA` | 47 (0x2f) | Exported Function | shlwapi.PathIsUNCServerA | 0x00001b61
-`PathMatchSpecExA` | 55 (0x37) | Exported Function | shlwapi.PathMatchSpecExA | 0x00001cb5
-`PathIsUNCA` | 46 (0x2e) | Exported Function | shlwapi.PathIsUNCA | 0x00001b3d
-`PathRemoveBlanksA` | 66 (0x42) | Exported Function | shlwapi.PathRemoveBlanksA | 0x00001eb4
-`PathRemoveExtensionA` | 68 (0x44) | Exported Function | shlwapi.PathRemoveExtensionA | 0x00001f0f
-`SHExpandEnvironmentStringsA` | 86 (0x56) | Exported Function | shlwapi.SHExpandEnvironmentStringsA | 0x0000225a
-`PathUnquoteSpacesW` | 85 (0x55) | Exported Function | shlwapi.PathUnquoteSpacesW | 0x00002223
-`PathUnquoteSpacesA` | 84 (0x54) | Exported Function | shlwapi.PathUnquoteSpacesA | 0x000021f5
-`PathUnExpandEnvStringsW` | 83 (0x53) | Exported Function | shlwapi.PathUnExpandEnvStringsW | 0x000021c2
-`PathUnExpandEnvStringsA` | 82 (0x52) | Exported Function | shlwapi.PathUnExpandEnvStringsA | 0x0000218a
-`PathStripToRootW` | 81 (0x51) | Exported Function | shlwapi.PathStripToRootW | 0x00002159
-`PathStripToRootA` | 80 (0x50) | Exported Function | shlwapi.PathStripToRootA | 0x0000212f
-`PathStripPathW` | 79 (0x4f) | Exported Function | shlwapi.PathStripPathW | 0x00002107
-`PathRemoveBlanksW` | 67 (0x43) | Exported Function | shlwapi.PathRemoveBlanksW | 0x00001ee0
-`PathStripPathA` | 78 (0x4e) | Exported Function | shlwapi.PathStripPathA | 0x000020e1
-`PathSkipRootA` | 76 (0x4c) | Exported Function | shlwapi.PathSkipRootA | 0x00002098
-`PathSearchAndQualifyW` | 75 (0x4b) | Exported Function | shlwapi.PathSearchAndQualifyW | 0x0000206c
-`PathSearchAndQualifyA` | 74 (0x4a) | Exported Function | shlwapi.PathSearchAndQualifyA | 0x00002038
-`PathRenameExtensionW` | 73 (0x49) | Exported Function | shlwapi.PathRenameExtensionW | 0x00002005
-`PathRenameExtensionA` | 72 (0x48) | Exported Function | shlwapi.PathRenameExtensionA | 0x00001fd3
-`PathRemoveFileSpecW` | 71 (0x47) | Exported Function | shlwapi.PathRemoveFileSpecW | 0x00001fa2
-`PathRemoveFileSpecA` | 70 (0x46) | Exported Function | shlwapi.PathRemoveFileSpecA | 0x00001f72
-`PathRemoveExtensionW` | 69 (0x45) | Exported Function | shlwapi.PathRemoveExtensionW | 0x00001f41
-`PathSkipRootW` | 77 (0x4d) | Exported Function | shlwapi.PathSkipRootW | 0x000020bc
-`PathIsSameRootW` | 45 (0x2d) | Exported Function | shlwapi.PathIsSameRootW | 0x00001b1a
-`PathIsSameRootA` | 44 (0x2c) | Exported Function | shlwapi.PathIsSameRootA | 0x00001af2
-`PathIsRootW` | 43 (0x2b) | Exported Function | shlwapi.PathIsRootW | 0x00001ace
-`PathCommonPrefixW` | 19 (0x13) | Exported Function | shlwapi.PathCommonPrefixW | 0x000016dc
-`PathCommonPrefixA` | 18 (0x12) | Exported Function | shlwapi.PathCommonPrefixA | 0x000016b0
-`PathCombineW` | 17 (0x11) | Exported Function | shlwapi.PathCombineW | 0x00001689
-`PathCombineA` | 16 (0x10) | Exported Function | shlwapi.PathCombineA | 0x00001667
-`PathCanonicalizeW` | 15 (0xf) | Exported Function | shlwapi.PathCanonicalizeW | 0x00001640
-`PathCanonicalizeA` | 14 (0xe) | Exported Function | shlwapi.PathCanonicalizeA | 0x00001614
-`PathAppendW` | 13 (0xd) | Exported Function | shlwapi.PathAppendW | 0x000015ee
-`PathAppendA` | 12 (0xc) | Exported Function | shlwapi.PathAppendA | 0x000015ce
-`PathFileExistsA` | 20 (0x14) | Exported Function | shlwapi.PathFileExistsA | 0x00001706
-`PathAddExtensionW` | 11 (0xb) | Exported Function | shlwapi.PathAddExtensionW | 0x000015a8
-`PathAddBackslashW` | 9 (0x9) | Exported Function | shlwapi.PathAddBackslashW | 0x00001550
-`PathAddBackslashA` | 8 (0x8) | Exported Function | shlwapi.PathAddBackslashA | 0x00001524
-`IsCharXDigitW` | 7 (0x7) | Exported Function | shlwapi.IsCharXDigitW | 0x000014fc
-`IsCharSpaceW` | 6 (0x6) | Exported Function | shlwapi.IsCharSpaceW | 0x000014d9
-`IsCharSpaceA` | 5 (0x5) | Exported Function | shlwapi.IsCharSpaceA | 0x000014b7
-`IsCharPunctW` | 4 (0x4) | Exported Function | shlwapi.IsCharPunctW | 0x00001495
-`IsCharDigitW` | 3 (0x3) | Exported Function | shlwapi.IsCharDigitW | 0x00001473
-`IsCharCntrlW` | 2 (0x2) | Exported Function | shlwapi.IsCharCntrlW | 0x00001451
-`PathAddExtensionA` | 10 (0xa) | Exported Function | shlwapi.PathAddExtensionA | 0x0000157c
-`PathFileExistsW` | 21 (0x15) | Exported Function | shlwapi.PathFileExistsW | 0x0000172e
-`PathFindExtensionA` | 22 (0x16) | Exported Function | shlwapi.PathFindExtensionA | 0x00001759
-`PathFindExtensionW` | 23 (0x17) | Exported Function | shlwapi.PathFindExtensionW | 0x00001787
-`PathIsRootA` | 42 (0x2a) | Exported Function | shlwapi.PathIsRootA | 0x00001aae
-`PathIsRelativeW` | 41 (0x29) | Exported Function | shlwapi.PathIsRelativeW | 0x00001a8a
-`PathIsRelativeA` | 40 (0x28) | Exported Function | shlwapi.PathIsRelativeA | 0x00001a62
-`PathIsPrefixW` | 39 (0x27) | Exported Function | shlwapi.PathIsPrefixW | 0x00001a3c
-`PathIsPrefixA` | 38 (0x26) | Exported Function | shlwapi.PathIsPrefixA | 0x00001a18
-`PathIsLFNFileSpecW` | 37 (0x25) | Exported Function | shlwapi.PathIsLFNFileSpecW | 0x000019ef
-`PathIsLFNFileSpecA` | 36 (0x24) | Exported Function | shlwapi.PathIsLFNFileSpecA | 0x000019c1
-`PathIsFileSpecW` | 35 (0x23) | Exported Function | shlwapi.PathIsFileSpecW | 0x00001996
-`PathIsFileSpecA` | 34 (0x22) | Exported Function | shlwapi.PathIsFileSpecA | 0x0000196e
-`PathGetDriveNumberW` | 33 (0x21) | Exported Function | shlwapi.PathGetDriveNumberW | 0x00001942
-`PathGetDriveNumberA` | 32 (0x20) | Exported Function | shlwapi.PathGetDriveNumberA | 0x00001912
-`PathGetCharTypeW` | 31 (0x1f) | Exported Function | shlwapi.PathGetCharTypeW | 0x000018e5
-`PathGetCharTypeA` | 30 (0x1e) | Exported Function | shlwapi.PathGetCharTypeA | 0x000018bb
-`PathGetArgsW` | 29 (0x1d) | Exported Function | shlwapi.PathGetArgsW | 0x00001895
-`PathGetArgsA` | 28 (0x1c) | Exported Function | shlwapi.PathGetArgsA | 0x00001873
-`PathFindNextComponentW` | 27 (0x1b) | Exported Function | shlwapi.PathFindNextComponentW | 0x00001847
-`PathFindNextComponentA` | 26 (0x1a) | Exported Function | shlwapi.PathFindNextComponentA | 0x00001811
-`PathFindFileNameW` | 25 (0x19) | Exported Function | shlwapi.PathFindFileNameW | 0x000017e0
-`PathFindFileNameA` | 24 (0x18) | Exported Function | shlwapi.PathFindFileNameA | 0x000017b4
-`SHExpandEnvironmentStringsW` | 87 (0x57) | Exported Function | shlwapi.SHExpandEnvironmentStringsW | 0x0000229a
-`SHTruncateString` | 88 (0x58) | Exported Function | shlwapi.SHTruncateString | 0x000022cf
+Function Name | Ordinal | Type
+-- | -- | --
+`PathParseIconLocationW` | 59 | Exported Function
+`PathQuoteSpacesA` | 60 | Exported Function
+`PathParseIconLocationA` | 58 | Exported Function
+`PathMatchSpecExW` | 56 | Exported Function
+`PathMatchSpecW` | 57 | Exported Function
+`PathQuoteSpacesW` | 61 | Exported Function
+`PathRemoveBackslashW` | 65 | Exported Function
+`PathRemoveBlanksA` | 66 | Exported Function
+`PathRemoveBackslashA` | 64 | Exported Function
+`PathRelativePathToA` | 62 | Exported Function
+`PathRelativePathToW` | 63 | Exported Function
+`PathIsUNCServerShareA` | 48 | Exported Function
+`PathIsUNCServerShareW` | 49 | Exported Function
+`PathIsUNCServerA` | 47 | Exported Function
+`PathIsSameRootW` | 45 | Exported Function
+`PathIsUNCA` | 46 | Exported Function
+`PathIsUNCServerW` | 50 | Exported Function
+`PathMatchSpecA` | 54 | Exported Function
+`PathMatchSpecExA` | 55 | Exported Function
+`PathIsValidCharW` | 53 | Exported Function
+`PathIsUNCW` | 51 | Exported Function
+`PathIsValidCharA` | 52 | Exported Function
+`PathStripToRootW` | 81 | Exported Function
+`PathUnExpandEnvStringsA` | 82 | Exported Function
+`PathStripToRootA` | 80 | Exported Function
+`PathStripPathA` | 78 | Exported Function
+`PathStripPathW` | 79 | Exported Function
+`PathUnExpandEnvStringsW` | 83 | Exported Function
+`SHExpandEnvironmentStringsW` | 87 | Exported Function
+`SHTruncateString` | 88 | Exported Function
+`SHExpandEnvironmentStringsA` | 86 | Exported Function
+`PathUnquoteSpacesA` | 84 | Exported Function
+`PathUnquoteSpacesW` | 85 | Exported Function
+`PathRemoveFileSpecA` | 70 | Exported Function
+`PathRemoveFileSpecW` | 71 | Exported Function
+`PathRemoveExtensionW` | 69 | Exported Function
+`PathRemoveBlanksW` | 67 | Exported Function
+`PathRemoveExtensionA` | 68 | Exported Function
+`PathRenameExtensionA` | 72 | Exported Function
+`PathSkipRootA` | 76 | Exported Function
+`PathSkipRootW` | 77 | Exported Function
+`PathSearchAndQualifyW` | 75 | Exported Function
+`PathRenameExtensionW` | 73 | Exported Function
+`PathSearchAndQualifyA` | 74 | Exported Function
+`PathCanonicalizeW` | 15 | Exported Function
+`PathCombineA` | 16 | Exported Function
+`PathCanonicalizeA` | 14 | Exported Function
+`PathAppendA` | 12 | Exported Function
+`PathAppendW` | 13 | Exported Function
+`PathCombineW` | 17 | Exported Function
+`PathFileExistsW` | 21 | Exported Function
+`PathFindExtensionA` | 22 | Exported Function
+`PathFileExistsA` | 20 | Exported Function
+`PathCommonPrefixA` | 18 | Exported Function
+`PathCommonPrefixW` | 19 | Exported Function
+`IsCharPunctW` | 4 | Exported Function
+`IsCharSpaceA` | 5 | Exported Function
+`IsCharDigitW` | 3 | Exported Function
+`IsCharBlankW` | 1 | Exported Function
+`IsCharCntrlW` | 2 | Exported Function
+`IsCharSpaceW` | 6 | Exported Function
+`PathAddExtensionA` | 10 | Exported Function
+`PathAddExtensionW` | 11 | Exported Function
+`PathAddBackslashW` | 9 | Exported Function
+`IsCharXDigitW` | 7 | Exported Function
+`PathAddBackslashA` | 8 | Exported Function
+`PathIsLFNFileSpecW` | 37 | Exported Function
+`PathIsPrefixA` | 38 | Exported Function
+`PathIsLFNFileSpecA` | 36 | Exported Function
+`PathIsFileSpecA` | 34 | Exported Function
+`PathIsFileSpecW` | 35 | Exported Function
+`PathIsPrefixW` | 39 | Exported Function
+`PathIsRootW` | 43 | Exported Function
+`PathIsSameRootA` | 44 | Exported Function
+`PathIsRootA` | 42 | Exported Function
+`PathIsRelativeA` | 40 | Exported Function
+`PathIsRelativeW` | 41 | Exported Function
+`PathFindNextComponentA` | 26 | Exported Function
+`PathFindNextComponentW` | 27 | Exported Function
+`PathFindFileNameW` | 25 | Exported Function
+`PathFindExtensionW` | 23 | Exported Function
+`PathFindFileNameA` | 24 | Exported Function
+`PathGetArgsA` | 28 | Exported Function
+`PathGetDriveNumberA` | 32 | Exported Function
+`PathGetDriveNumberW` | 33 | Exported Function
+`PathGetCharTypeW` | 31 | Exported Function
+`PathGetArgsW` | 29 | Exported Function
+`PathGetCharTypeA` | 30 | Exported Function
 
 
 ## Signature

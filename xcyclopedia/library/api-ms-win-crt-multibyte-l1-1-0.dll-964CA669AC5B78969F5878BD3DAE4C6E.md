@@ -24,208 +24,208 @@ PE256 | `E70A4E56E2F1B86D4DB3BBAB45B24573CBDAB6B02BC654319E1EE1B926EFE484`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__p__mbcasemap` | 1 (0x1) | Exported Function | ucrtbase.__p__mbcasemap | 0x0000195b
-`_mbsnbcoll` | 128 (0x80) | Exported Function | ucrtbase._mbsnbcoll | 0x00002972
-`_mbsnbcoll_l` | 129 (0x81) | Exported Function | ucrtbase._mbsnbcoll_l | 0x00002993
-`_mbsnbcpy` | 130 (0x82) | Exported Function | ucrtbase._mbsnbcpy | 0x000029b3
-`_mbsnbcpy_l` | 131 (0x83) | Exported Function | ucrtbase._mbsnbcpy_l | 0x000029d2
-`_mbsnbcpy_s` | 132 (0x84) | Exported Function | ucrtbase._mbsnbcpy_s | 0x000029f3
-`_mbsnbcpy_s_l` | 133 (0x85) | Exported Function | ucrtbase._mbsnbcpy_s_l | 0x00002a16
-`_mbsnbicmp` | 134 (0x86) | Exported Function | ucrtbase._mbsnbicmp | 0x00002a38
-`_mbsnbicmp_l` | 135 (0x87) | Exported Function | ucrtbase._mbsnbicmp_l | 0x00002a59
-`_mbsnbicoll` | 136 (0x88) | Exported Function | ucrtbase._mbsnbicoll | 0x00002a7b
-`_mbsnbicoll_l` | 137 (0x89) | Exported Function | ucrtbase._mbsnbicoll_l | 0x00002a9e
-`_mbsnbset` | 138 (0x8a) | Exported Function | ucrtbase._mbsnbset | 0x00002abf
-`_mbsnbset_l` | 139 (0x8b) | Exported Function | ucrtbase._mbsnbset_l | 0x00002ade
-`_mbsnbset_s` | 140 (0x8c) | Exported Function | ucrtbase._mbsnbset_s | 0x00002aff
-`_mbsnbset_s_l` | 141 (0x8d) | Exported Function | ucrtbase._mbsnbset_s_l | 0x00002b22
-`_mbsncat` | 142 (0x8e) | Exported Function | ucrtbase._mbsncat | 0x00002b42
-`_mbsncat_l` | 143 (0x8f) | Exported Function | ucrtbase._mbsncat_l | 0x00002b5f
-`_mbsncat_s` | 144 (0x90) | Exported Function | ucrtbase._mbsncat_s | 0x00002b7e
-`_mbsncat_s_l` | 145 (0x91) | Exported Function | ucrtbase._mbsncat_s_l | 0x00002b9f
-`_mbsnccnt` | 146 (0x92) | Exported Function | ucrtbase._mbsnccnt | 0x00002bbf
-`_mbsnccnt_l` | 147 (0x93) | Exported Function | ucrtbase._mbsnccnt_l | 0x00002bde
-`_mbsncmp` | 148 (0x94) | Exported Function | ucrtbase._mbsncmp | 0x00002bfc
-`_mbsnbcnt_l` | 127 (0x7f) | Exported Function | ucrtbase._mbsnbcnt_l | 0x00002952
-`_mbsncmp_l` | 149 (0x95) | Exported Function | ucrtbase._mbsncmp_l | 0x00002c19
-`_mbsnbcnt` | 126 (0x7e) | Exported Function | ucrtbase._mbsnbcnt | 0x00002933
-`_mbsnbcmp` | 124 (0x7c) | Exported Function | ucrtbase._mbsnbcmp | 0x000028f5
-`_mbscspn` | 103 (0x67) | Exported Function | ucrtbase._mbscspn | 0x0000268f
-`_mbscspn_l` | 104 (0x68) | Exported Function | ucrtbase._mbscspn_l | 0x000026ac
-`_mbsdec` | 105 (0x69) | Exported Function | ucrtbase._mbsdec | 0x000026c8
-`_mbsdec_l` | 106 (0x6a) | Exported Function | ucrtbase._mbsdec_l | 0x000026e3
-`_mbsdup` | 107 (0x6b) | Exported Function | ucrtbase._mbsdup | 0x000026fe
-`_mbsicmp` | 108 (0x6c) | Exported Function | ucrtbase._mbsicmp | 0x00002718
-`_mbsicmp_l` | 109 (0x6d) | Exported Function | ucrtbase._mbsicmp_l | 0x00002735
-`_mbsicoll` | 110 (0x6e) | Exported Function | ucrtbase._mbsicoll | 0x00002753
-`_mbsicoll_l` | 111 (0x6f) | Exported Function | ucrtbase._mbsicoll_l | 0x00002772
-`_mbsinc` | 112 (0x70) | Exported Function | ucrtbase._mbsinc | 0x0000278f
-`_mbsinc_l` | 113 (0x71) | Exported Function | ucrtbase._mbsinc_l | 0x000027aa
-`_mbslen` | 114 (0x72) | Exported Function | ucrtbase._mbslen | 0x000027c5
-`_mbslen_l` | 115 (0x73) | Exported Function | ucrtbase._mbslen_l | 0x000027e0
-`_mbslwr` | 116 (0x74) | Exported Function | ucrtbase._mbslwr | 0x000027fb
-`_mbslwr_l` | 117 (0x75) | Exported Function | ucrtbase._mbslwr_l | 0x00002816
-`_mbslwr_s` | 118 (0x76) | Exported Function | ucrtbase._mbslwr_s | 0x00002833
-`_mbslwr_s_l` | 119 (0x77) | Exported Function | ucrtbase._mbslwr_s_l | 0x00002852
-`_mbsnbcat` | 120 (0x78) | Exported Function | ucrtbase._mbsnbcat | 0x00002871
-`_mbsnbcat_l` | 121 (0x79) | Exported Function | ucrtbase._mbsnbcat_l | 0x00002890
-`_mbsnbcat_s` | 122 (0x7a) | Exported Function | ucrtbase._mbsnbcat_s | 0x000028b1
-`_mbsnbcat_s_l` | 123 (0x7b) | Exported Function | ucrtbase._mbsnbcat_s_l | 0x000028d4
-`_mbsnbcmp_l` | 125 (0x7d) | Exported Function | ucrtbase._mbsnbcmp_l | 0x00002914
-`_mbscpy_s_l` | 102 (0x66) | Exported Function | ucrtbase._mbscpy_s_l | 0x00002671
-`_mbsncoll` | 150 (0x96) | Exported Function | ucrtbase._mbsncoll | 0x00002c37
-`_mbsncpy` | 152 (0x98) | Exported Function | ucrtbase._mbsncpy | 0x00002c74
-`_mbsset_s` | 178 (0xb2) | Exported Function | ucrtbase._mbsset_s | 0x00002f7f
-`_mbsset_s_l` | 179 (0xb3) | Exported Function | ucrtbase._mbsset_s_l | 0x00002f9e
-`_mbsspn` | 180 (0xb4) | Exported Function | ucrtbase._mbsspn | 0x00002fbb
-`_mbsspn_l` | 181 (0xb5) | Exported Function | ucrtbase._mbsspn_l | 0x00002fd6
-`_mbsspnp` | 182 (0xb6) | Exported Function | ucrtbase._mbsspnp | 0x00002ff2
-`_mbsspnp_l` | 183 (0xb7) | Exported Function | ucrtbase._mbsspnp_l | 0x0000300f
-`_mbsstr` | 184 (0xb8) | Exported Function | ucrtbase._mbsstr | 0x0000302b
-`_mbsstr_l` | 185 (0xb9) | Exported Function | ucrtbase._mbsstr_l | 0x00003046
-`_mbstok` | 186 (0xba) | Exported Function | ucrtbase._mbstok | 0x00003061
-`_mbstok_l` | 187 (0xbb) | Exported Function | ucrtbase._mbstok_l | 0x0000307c
-`_mbstok_s` | 188 (0xbc) | Exported Function | ucrtbase._mbstok_s | 0x00003099
-`_mbstok_s_l` | 189 (0xbd) | Exported Function | ucrtbase._mbstok_s_l | 0x000030b8
-`_mbstowcs_l` | 190 (0xbe) | Exported Function | ucrtbase._mbstowcs_l | 0x000030d9
-`_mbstowcs_s_l` | 191 (0xbf) | Exported Function | ucrtbase._mbstowcs_s_l | 0x000030fc
-`_mbstrlen` | 192 (0xc0) | Exported Function | ucrtbase._mbstrlen | 0x0000311d
-`_mbstrlen_l` | 193 (0xc1) | Exported Function | ucrtbase._mbstrlen_l | 0x0000313c
-`_mbstrnlen` | 194 (0xc2) | Exported Function | ucrtbase._mbstrnlen | 0x0000315c
-`_mbstrnlen_l` | 195 (0xc3) | Exported Function | ucrtbase._mbstrnlen_l | 0x0000317d
-`_mbsupr` | 196 (0xc4) | Exported Function | ucrtbase._mbsupr | 0x0000319b
-`_mbsupr_l` | 197 (0xc5) | Exported Function | ucrtbase._mbsupr_l | 0x000031b6
-`_mbsupr_s` | 198 (0xc6) | Exported Function | ucrtbase._mbsupr_s | 0x000031d3
-`_mbsset_l` | 177 (0xb1) | Exported Function | ucrtbase._mbsset_l | 0x00002f62
-`_mbsncoll_l` | 151 (0x97) | Exported Function | ucrtbase._mbsncoll_l | 0x00002c56
-`_mbsset` | 176 (0xb0) | Exported Function | ucrtbase._mbsset | 0x00002f47
-`_mbsrev` | 174 (0xae) | Exported Function | ucrtbase._mbsrev | 0x00002f11
-`_mbsncpy_l` | 153 (0x99) | Exported Function | ucrtbase._mbsncpy_l | 0x00002c91
-`_mbsncpy_s` | 154 (0x9a) | Exported Function | ucrtbase._mbsncpy_s | 0x00002cb0
-`_mbsncpy_s_l` | 155 (0x9b) | Exported Function | ucrtbase._mbsncpy_s_l | 0x00002cd1
-`_mbsnextc` | 156 (0x9c) | Exported Function | ucrtbase._mbsnextc | 0x00002cf1
-`_mbsnextc_l` | 157 (0x9d) | Exported Function | ucrtbase._mbsnextc_l | 0x00002d10
-`_mbsnicmp` | 158 (0x9e) | Exported Function | ucrtbase._mbsnicmp | 0x00002d2f
-`_mbsnicmp_l` | 159 (0x9f) | Exported Function | ucrtbase._mbsnicmp_l | 0x00002d4e
-`_mbsnicoll` | 160 (0xa0) | Exported Function | ucrtbase._mbsnicoll | 0x00002d6e
-`_mbsnicoll_l` | 161 (0xa1) | Exported Function | ucrtbase._mbsnicoll_l | 0x00002d8f
-`_mbsninc` | 162 (0xa2) | Exported Function | ucrtbase._mbsninc | 0x00002dae
-`_mbsninc_l` | 163 (0xa3) | Exported Function | ucrtbase._mbsninc_l | 0x00002dcb
-`_mbsnlen` | 164 (0xa4) | Exported Function | ucrtbase._mbsnlen | 0x00002de8
-`_mbsnlen_l` | 165 (0xa5) | Exported Function | ucrtbase._mbsnlen_l | 0x00002e05
-`_mbsnset` | 166 (0xa6) | Exported Function | ucrtbase._mbsnset | 0x00002e22
-`_mbsnset_l` | 167 (0xa7) | Exported Function | ucrtbase._mbsnset_l | 0x00002e3f
-`_mbsnset_s` | 168 (0xa8) | Exported Function | ucrtbase._mbsnset_s | 0x00002e5e
-`_mbsnset_s_l` | 169 (0xa9) | Exported Function | ucrtbase._mbsnset_s_l | 0x00002e7f
-`_mbspbrk` | 170 (0xaa) | Exported Function | ucrtbase._mbspbrk | 0x00002e9e
-`_mbspbrk_l` | 171 (0xab) | Exported Function | ucrtbase._mbspbrk_l | 0x00002ebb
-`_mbsrchr` | 172 (0xac) | Exported Function | ucrtbase._mbsrchr | 0x00002ed8
-`_mbsrchr_l` | 173 (0xad) | Exported Function | ucrtbase._mbsrchr_l | 0x00002ef5
-`_mbsrev_l` | 175 (0xaf) | Exported Function | ucrtbase._mbsrev_l | 0x00002f2c
-`_mbscpy_s` | 101 (0x65) | Exported Function | ucrtbase._mbscpy_s | 0x00002652
-`_mbscoll_l` | 100 (0x64) | Exported Function | ucrtbase._mbscoll_l | 0x00002634
-`_mbscoll` | 99 (0x63) | Exported Function | ucrtbase._mbscoll | 0x00002617
-`_ismbcalnum` | 27 (0x1b) | Exported Function | ucrtbase._ismbcalnum | 0x00001cee
-`_ismbcalnum_l` | 28 (0x1c) | Exported Function | ucrtbase._ismbcalnum_l | 0x00001d11
-`_ismbcalpha` | 29 (0x1d) | Exported Function | ucrtbase._ismbcalpha | 0x00001d34
-`_ismbcalpha_l` | 30 (0x1e) | Exported Function | ucrtbase._ismbcalpha_l | 0x00001d57
-`_ismbcblank` | 31 (0x1f) | Exported Function | ucrtbase._ismbcblank | 0x00001d7a
-`_ismbcblank_l` | 32 (0x20) | Exported Function | ucrtbase._ismbcblank_l | 0x00001d9d
-`_ismbcdigit` | 33 (0x21) | Exported Function | ucrtbase._ismbcdigit | 0x00001dc0
-`_ismbcdigit_l` | 34 (0x22) | Exported Function | ucrtbase._ismbcdigit_l | 0x00001de3
-`_ismbcgraph` | 35 (0x23) | Exported Function | ucrtbase._ismbcgraph | 0x00001e06
-`_ismbcgraph_l` | 36 (0x24) | Exported Function | ucrtbase._ismbcgraph_l | 0x00001e29
-`_ismbchira` | 37 (0x25) | Exported Function | ucrtbase._ismbchira | 0x00001e4b
-`_ismbchira_l` | 38 (0x26) | Exported Function | ucrtbase._ismbchira_l | 0x00001e6c
-`_ismbckata` | 39 (0x27) | Exported Function | ucrtbase._ismbckata | 0x00001e8d
-`_ismbckata_l` | 40 (0x28) | Exported Function | ucrtbase._ismbckata_l | 0x00001eae
-`_ismbcl0` | 41 (0x29) | Exported Function | ucrtbase._ismbcl0 | 0x00001ecd
-`_ismbcl0_l` | 42 (0x2a) | Exported Function | ucrtbase._ismbcl0_l | 0x00001eea
-`_ismbcl1` | 43 (0x2b) | Exported Function | ucrtbase._ismbcl1 | 0x00001f07
-`_ismbcl1_l` | 44 (0x2c) | Exported Function | ucrtbase._ismbcl1_l | 0x00001f24
-`_ismbcl2` | 45 (0x2d) | Exported Function | ucrtbase._ismbcl2 | 0x00001f41
-`_ismbcl2_l` | 46 (0x2e) | Exported Function | ucrtbase._ismbcl2_l | 0x00001f5e
-`_ismbclegal` | 47 (0x2f) | Exported Function | ucrtbase._ismbclegal | 0x00001f7e
-`_ismbbtrail_l` | 26 (0x1a) | Exported Function | ucrtbase._ismbbtrail_l | 0x00001ccb
-`_ismbclegal_l` | 48 (0x30) | Exported Function | ucrtbase._ismbclegal_l | 0x00001fa1
-`_ismbbtrail` | 25 (0x19) | Exported Function | ucrtbase._ismbbtrail | 0x00001ca8
-`_ismbbpunct` | 23 (0x17) | Exported Function | ucrtbase._ismbbpunct | 0x00001c62
-`__p__mbctype` | 2 (0x2) | Exported Function | ucrtbase.__p__mbctype | 0x00001980
-`_ismbbalnum` | 3 (0x3) | Exported Function | ucrtbase._ismbbalnum | 0x000019a2
-`_ismbbalnum_l` | 4 (0x4) | Exported Function | ucrtbase._ismbbalnum_l | 0x000019c5
-`_ismbbalpha` | 5 (0x5) | Exported Function | ucrtbase._ismbbalpha | 0x000019e8
-`_ismbbalpha_l` | 6 (0x6) | Exported Function | ucrtbase._ismbbalpha_l | 0x00001a0b
-`_ismbbblank` | 7 (0x7) | Exported Function | ucrtbase._ismbbblank | 0x00001a2e
-`_ismbbblank_l` | 8 (0x8) | Exported Function | ucrtbase._ismbbblank_l | 0x00001a51
-`_ismbbgraph` | 9 (0x9) | Exported Function | ucrtbase._ismbbgraph | 0x00001a74
-`_ismbbgraph_l` | 10 (0xa) | Exported Function | ucrtbase._ismbbgraph_l | 0x00001a97
-`_ismbbkalnum` | 11 (0xb) | Exported Function | ucrtbase._ismbbkalnum | 0x00001abb
-`_ismbbkalnum_l` | 12 (0xc) | Exported Function | ucrtbase._ismbbkalnum_l | 0x00001ae0
-`_ismbbkana` | 13 (0xd) | Exported Function | ucrtbase._ismbbkana | 0x00001b03
-`_ismbbkana_l` | 14 (0xe) | Exported Function | ucrtbase._ismbbkana_l | 0x00001b24
-`_ismbbkprint` | 15 (0xf) | Exported Function | ucrtbase._ismbbkprint | 0x00001b47
-`_ismbbkprint_l` | 16 (0x10) | Exported Function | ucrtbase._ismbbkprint_l | 0x00001b6c
-`_ismbbkpunct` | 17 (0x11) | Exported Function | ucrtbase._ismbbkpunct | 0x00001b91
-`_ismbbkpunct_l` | 18 (0x12) | Exported Function | ucrtbase._ismbbkpunct_l | 0x00001bb6
-`_ismbblead` | 19 (0x13) | Exported Function | ucrtbase._ismbblead | 0x00001bd9
-`_ismbblead_l` | 20 (0x14) | Exported Function | ucrtbase._ismbblead_l | 0x00001bfa
-`_ismbbprint` | 21 (0x15) | Exported Function | ucrtbase._ismbbprint | 0x00001c1c
-`_ismbbprint_l` | 22 (0x16) | Exported Function | ucrtbase._ismbbprint_l | 0x00001c3f
-`_ismbbpunct_l` | 24 (0x18) | Exported Function | ucrtbase._ismbbpunct_l | 0x00001c85
-`_ismbclower` | 49 (0x31) | Exported Function | ucrtbase._ismbclower | 0x00001fc4
-`_ismbclower_l` | 50 (0x32) | Exported Function | ucrtbase._ismbclower_l | 0x00001fe7
-`_ismbcprint` | 51 (0x33) | Exported Function | ucrtbase._ismbcprint | 0x0000200a
-`_mbclen` | 78 (0x4e) | Exported Function | ucrtbase._mbclen | 0x0000238f
-`_mbclen_l` | 79 (0x4f) | Exported Function | ucrtbase._mbclen_l | 0x000023aa
-`_mbctohira` | 80 (0x50) | Exported Function | ucrtbase._mbctohira | 0x000023c8
-`_mbctohira_l` | 81 (0x51) | Exported Function | ucrtbase._mbctohira_l | 0x000023e9
-`_mbctokata` | 82 (0x52) | Exported Function | ucrtbase._mbctokata | 0x0000240a
-`_mbctokata_l` | 83 (0x53) | Exported Function | ucrtbase._mbctokata_l | 0x0000242b
-`_mbctolower` | 84 (0x54) | Exported Function | ucrtbase._mbctolower | 0x0000244d
-`_mbctolower_l` | 85 (0x55) | Exported Function | ucrtbase._mbctolower_l | 0x00002470
-`_mbctombb` | 86 (0x56) | Exported Function | ucrtbase._mbctombb | 0x00002491
-`_mbctombb_l` | 87 (0x57) | Exported Function | ucrtbase._mbctombb_l | 0x000024b0
-`_mbctoupper` | 88 (0x58) | Exported Function | ucrtbase._mbctoupper | 0x000024d1
-`_mbctoupper_l` | 89 (0x59) | Exported Function | ucrtbase._mbctoupper_l | 0x000024f4
-`_mblen_l` | 90 (0x5a) | Exported Function | ucrtbase._mblen_l | 0x00002514
-`_mbsbtype` | 91 (0x5b) | Exported Function | ucrtbase._mbsbtype | 0x00002530
-`_mbsbtype_l` | 92 (0x5c) | Exported Function | ucrtbase._mbsbtype_l | 0x0000254f
-`_mbscat_s` | 93 (0x5d) | Exported Function | ucrtbase._mbscat_s | 0x0000256e
-`_mbscat_s_l` | 94 (0x5e) | Exported Function | ucrtbase._mbscat_s_l | 0x0000258d
-`_mbschr` | 95 (0x5f) | Exported Function | ucrtbase._mbschr | 0x000025aa
-`_mbschr_l` | 96 (0x60) | Exported Function | ucrtbase._mbschr_l | 0x000025c5
-`_mbscmp` | 97 (0x61) | Exported Function | ucrtbase._mbscmp | 0x000025e0
-`_mbscmp_l` | 98 (0x62) | Exported Function | ucrtbase._mbscmp_l | 0x000025fb
-`_mbcjmstojis_l` | 77 (0x4d) | Exported Function | ucrtbase._mbcjmstojis_l | 0x0000236f
-`_mbcjmstojis` | 76 (0x4c) | Exported Function | ucrtbase._mbcjmstojis | 0x0000234a
-`_mbcjistojms_l` | 75 (0x4b) | Exported Function | ucrtbase._mbcjistojms_l | 0x00002325
-`_mbcjistojms` | 74 (0x4a) | Exported Function | ucrtbase._mbcjistojms | 0x00002300
-`_ismbcprint_l` | 52 (0x34) | Exported Function | ucrtbase._ismbcprint_l | 0x0000202d
-`_ismbcpunct` | 53 (0x35) | Exported Function | ucrtbase._ismbcpunct | 0x00002050
-`_ismbcpunct_l` | 54 (0x36) | Exported Function | ucrtbase._ismbcpunct_l | 0x00002073
-`_ismbcspace` | 55 (0x37) | Exported Function | ucrtbase._ismbcspace | 0x00002096
-`_ismbcspace_l` | 56 (0x38) | Exported Function | ucrtbase._ismbcspace_l | 0x000020b9
-`_ismbcsymbol` | 57 (0x39) | Exported Function | ucrtbase._ismbcsymbol | 0x000020dd
-`_ismbcsymbol_l` | 58 (0x3a) | Exported Function | ucrtbase._ismbcsymbol_l | 0x00002102
-`_ismbcupper` | 59 (0x3b) | Exported Function | ucrtbase._ismbcupper | 0x00002126
-`_ismbcupper_l` | 60 (0x3c) | Exported Function | ucrtbase._ismbcupper_l | 0x00002149
-`_ismbslead` | 61 (0x3d) | Exported Function | ucrtbase._ismbslead | 0x0000216b
-`_mbsupr_s_l` | 199 (0xc7) | Exported Function | ucrtbase._mbsupr_s_l | 0x000031f2
-`_ismbslead_l` | 62 (0x3e) | Exported Function | ucrtbase._ismbslead_l | 0x0000218c
-`_ismbstrail_l` | 64 (0x40) | Exported Function | ucrtbase._ismbstrail_l | 0x000021d1
-`_mbbtombc` | 65 (0x41) | Exported Function | ucrtbase._mbbtombc | 0x000021f2
-`_mbbtombc_l` | 66 (0x42) | Exported Function | ucrtbase._mbbtombc_l | 0x00002211
-`_mbbtype` | 67 (0x43) | Exported Function | ucrtbase._mbbtype | 0x0000222f
-`_mbbtype_l` | 68 (0x44) | Exported Function | ucrtbase._mbbtype_l | 0x0000224c
-`_mbcasemap` | 69 (0x45) | Exported Function | ucrtbase._mbcasemap | 0x0000226b
-`_mbccpy` | 70 (0x46) | Exported Function | ucrtbase._mbccpy | 0x00002287
-`_mbccpy_l` | 71 (0x47) | Exported Function | ucrtbase._mbccpy_l | 0x000022a2
-`_mbccpy_s` | 72 (0x48) | Exported Function | ucrtbase._mbccpy_s | 0x000022bf
-`_mbccpy_s_l` | 73 (0x49) | Exported Function | ucrtbase._mbccpy_s_l | 0x000022de
-`_ismbstrail` | 63 (0x3f) | Exported Function | ucrtbase._ismbstrail | 0x000021ae
-`_mbtowc_l` | 200 (0xc8) | Exported Function | ucrtbase._mbtowc_l | 0x00003211
+Function Name | Ordinal | Type
+-- | -- | --
+`_mbsnbicmp` | 134 | Exported Function
+`_mbsnbcpy_s_l` | 133 | Exported Function
+`_mbsnbcpy_s` | 132 | Exported Function
+`_mbsnbicoll_l` | 137 | Exported Function
+`_mbsnbicoll` | 136 | Exported Function
+`_mbsnbicmp_l` | 135 | Exported Function
+`_mbsnbcoll` | 128 | Exported Function
+`_mbsnbcnt_l` | 127 | Exported Function
+`_mbsnbcnt` | 126 | Exported Function
+`_mbsnbcpy_l` | 131 | Exported Function
+`_mbsnbcpy` | 130 | Exported Function
+`_mbsnbcoll_l` | 129 | Exported Function
+`_mbsnbset` | 138 | Exported Function
+`_mbsnccnt_l` | 147 | Exported Function
+`_mbsnccnt` | 146 | Exported Function
+`_mbsncat_s_l` | 145 | Exported Function
+`_mbsncoll` | 150 | Exported Function
+`_mbsncmp_l` | 149 | Exported Function
+`_mbsncmp` | 148 | Exported Function
+`_mbsnbset_s_l` | 141 | Exported Function
+`_mbsnbset_s` | 140 | Exported Function
+`_mbsnbset_l` | 139 | Exported Function
+`_mbsncat_s` | 144 | Exported Function
+`_mbsncat_l` | 143 | Exported Function
+`_mbsncat` | 142 | Exported Function
+`_mbsicmp_l` | 109 | Exported Function
+`_mbsicmp` | 108 | Exported Function
+`_mbsdup` | 107 | Exported Function
+`_mbsinc` | 112 | Exported Function
+`_mbsicoll_l` | 111 | Exported Function
+`_mbsicoll` | 110 | Exported Function
+`_mbscspn` | 103 | Exported Function
+`_mbscpy_s_l` | 102 | Exported Function
+`_mbscpy_s` | 101 | Exported Function
+`_mbsdec_l` | 106 | Exported Function
+`_mbsdec` | 105 | Exported Function
+`_mbscspn_l` | 104 | Exported Function
+`_mbsinc_l` | 113 | Exported Function
+`_mbsnbcat_s` | 122 | Exported Function
+`_mbsnbcat_l` | 121 | Exported Function
+`_mbsnbcat` | 120 | Exported Function
+`_mbsnbcmp_l` | 125 | Exported Function
+`_mbsnbcmp` | 124 | Exported Function
+`_mbsnbcat_s_l` | 123 | Exported Function
+`_mbslwr` | 116 | Exported Function
+`_mbslen_l` | 115 | Exported Function
+`_mbslen` | 114 | Exported Function
+`_mbslwr_s_l` | 119 | Exported Function
+`_mbslwr_s` | 118 | Exported Function
+`_mbslwr_l` | 117 | Exported Function
+`_mbsstr` | 184 | Exported Function
+`_mbsspnp_l` | 183 | Exported Function
+`_mbsspnp` | 182 | Exported Function
+`_mbstok_l` | 187 | Exported Function
+`_mbstok` | 186 | Exported Function
+`_mbsstr_l` | 185 | Exported Function
+`_mbsset_s` | 178 | Exported Function
+`_mbsset_l` | 177 | Exported Function
+`_mbsset` | 176 | Exported Function
+`_mbsspn_l` | 181 | Exported Function
+`_mbsspn` | 180 | Exported Function
+`_mbsset_s_l` | 179 | Exported Function
+`_mbstok_s` | 188 | Exported Function
+`_mbsupr_l` | 197 | Exported Function
+`_mbsupr` | 196 | Exported Function
+`_mbstrnlen_l` | 195 | Exported Function
+`_mbtowc_l` | 200 | Exported Function
+`_mbsupr_s_l` | 199 | Exported Function
+`_mbsupr_s` | 198 | Exported Function
+`_mbstowcs_s_l` | 191 | Exported Function
+`_mbstowcs_l` | 190 | Exported Function
+`_mbstok_s_l` | 189 | Exported Function
+`_mbstrnlen` | 194 | Exported Function
+`_mbstrlen_l` | 193 | Exported Function
+`_mbstrlen` | 192 | Exported Function
+`_mbsnicmp_l` | 159 | Exported Function
+`_mbsnicmp` | 158 | Exported Function
+`_mbsnextc_l` | 157 | Exported Function
+`_mbsninc` | 162 | Exported Function
+`_mbsnicoll_l` | 161 | Exported Function
+`_mbsnicoll` | 160 | Exported Function
+`_mbsncpy_l` | 153 | Exported Function
+`_mbsncpy` | 152 | Exported Function
+`_mbsncoll_l` | 151 | Exported Function
+`_mbsnextc` | 156 | Exported Function
+`_mbsncpy_s_l` | 155 | Exported Function
+`_mbsncpy_s` | 154 | Exported Function
+`_mbsninc_l` | 163 | Exported Function
+`_mbsrchr` | 172 | Exported Function
+`_mbspbrk_l` | 171 | Exported Function
+`_mbspbrk` | 170 | Exported Function
+`_mbsrev_l` | 175 | Exported Function
+`_mbsrev` | 174 | Exported Function
+`_mbsrchr_l` | 173 | Exported Function
+`_mbsnset` | 166 | Exported Function
+`_mbsnlen_l` | 165 | Exported Function
+`_mbsnlen` | 164 | Exported Function
+`_mbsnset_s_l` | 169 | Exported Function
+`_mbsnset_s` | 168 | Exported Function
+`_mbsnset_l` | 167 | Exported Function
+`_ismbcdigit_l` | 34 | Exported Function
+`_ismbcdigit` | 33 | Exported Function
+`_ismbcblank_l` | 32 | Exported Function
+`_ismbchira` | 37 | Exported Function
+`_ismbcgraph_l` | 36 | Exported Function
+`_ismbcgraph` | 35 | Exported Function
+`_ismbcalnum_l` | 28 | Exported Function
+`_ismbcalnum` | 27 | Exported Function
+`_ismbbtrail_l` | 26 | Exported Function
+`_ismbcblank` | 31 | Exported Function
+`_ismbcalpha_l` | 30 | Exported Function
+`_ismbcalpha` | 29 | Exported Function
+`_ismbchira_l` | 38 | Exported Function
+`_ismbclegal` | 47 | Exported Function
+`_ismbcl2_l` | 46 | Exported Function
+`_ismbcl2` | 45 | Exported Function
+`_ismbclower_l` | 50 | Exported Function
+`_ismbclower` | 49 | Exported Function
+`_ismbclegal_l` | 48 | Exported Function
+`_ismbcl0` | 41 | Exported Function
+`_ismbckata_l` | 40 | Exported Function
+`_ismbckata` | 39 | Exported Function
+`_ismbcl1_l` | 44 | Exported Function
+`_ismbcl1` | 43 | Exported Function
+`_ismbcl0_l` | 42 | Exported Function
+`_ismbbgraph` | 9 | Exported Function
+`_ismbbblank_l` | 8 | Exported Function
+`_ismbbblank` | 7 | Exported Function
+`_ismbbkalnum_l` | 12 | Exported Function
+`_ismbbkalnum` | 11 | Exported Function
+`_ismbbgraph_l` | 10 | Exported Function
+`_ismbbalnum` | 3 | Exported Function
+`__p__mbctype` | 2 | Exported Function
+`__p__mbcasemap` | 1 | Exported Function
+`_ismbbalpha_l` | 6 | Exported Function
+`_ismbbalpha` | 5 | Exported Function
+`_ismbbalnum_l` | 4 | Exported Function
+`_ismbbkana` | 13 | Exported Function
+`_ismbbprint_l` | 22 | Exported Function
+`_ismbbprint` | 21 | Exported Function
+`_ismbblead_l` | 20 | Exported Function
+`_ismbbtrail` | 25 | Exported Function
+`_ismbbpunct_l` | 24 | Exported Function
+`_ismbbpunct` | 23 | Exported Function
+`_ismbbkprint_l` | 16 | Exported Function
+`_ismbbkprint` | 15 | Exported Function
+`_ismbbkana_l` | 14 | Exported Function
+`_ismbblead` | 19 | Exported Function
+`_ismbbkpunct_l` | 18 | Exported Function
+`_ismbbkpunct` | 17 | Exported Function
+`_mbctolower` | 84 | Exported Function
+`_mbctokata_l` | 83 | Exported Function
+`_mbctokata` | 82 | Exported Function
+`_mbctombb_l` | 87 | Exported Function
+`_mbctombb` | 86 | Exported Function
+`_mbctolower_l` | 85 | Exported Function
+`_mbclen` | 78 | Exported Function
+`_mbcjmstojis_l` | 77 | Exported Function
+`_mbcjmstojis` | 76 | Exported Function
+`_mbctohira_l` | 81 | Exported Function
+`_mbctohira` | 80 | Exported Function
+`_mbclen_l` | 79 | Exported Function
+`_mbctoupper` | 88 | Exported Function
+`_mbscmp` | 97 | Exported Function
+`_mbschr_l` | 96 | Exported Function
+`_mbschr` | 95 | Exported Function
+`_mbscoll_l` | 100 | Exported Function
+`_mbscoll` | 99 | Exported Function
+`_mbscmp_l` | 98 | Exported Function
+`_mbsbtype` | 91 | Exported Function
+`_mblen_l` | 90 | Exported Function
+`_mbctoupper_l` | 89 | Exported Function
+`_mbscat_s_l` | 94 | Exported Function
+`_mbscat_s` | 93 | Exported Function
+`_mbsbtype_l` | 92 | Exported Function
+`_ismbcupper` | 59 | Exported Function
+`_ismbcsymbol_l` | 58 | Exported Function
+`_ismbcsymbol` | 57 | Exported Function
+`_ismbslead_l` | 62 | Exported Function
+`_ismbslead` | 61 | Exported Function
+`_ismbcupper_l` | 60 | Exported Function
+`_ismbcpunct` | 53 | Exported Function
+`_ismbcprint_l` | 52 | Exported Function
+`_ismbcprint` | 51 | Exported Function
+`_ismbcspace_l` | 56 | Exported Function
+`_ismbcspace` | 55 | Exported Function
+`_ismbcpunct_l` | 54 | Exported Function
+`_ismbstrail` | 63 | Exported Function
+`_mbccpy_s` | 72 | Exported Function
+`_mbccpy_l` | 71 | Exported Function
+`_mbccpy` | 70 | Exported Function
+`_mbcjistojms_l` | 75 | Exported Function
+`_mbcjistojms` | 74 | Exported Function
+`_mbccpy_s_l` | 73 | Exported Function
+`_mbbtombc_l` | 66 | Exported Function
+`_mbbtombc` | 65 | Exported Function
+`_ismbstrail_l` | 64 | Exported Function
+`_mbcasemap` | 69 | Exported Function
+`_mbbtype_l` | 68 | Exported Function
+`_mbbtype` | 67 | Exported Function
 
 
 ## Signature

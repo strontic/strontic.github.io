@@ -24,19 +24,19 @@ PE256 | `79A6B7FA8E23709791E0AB5C8924C5F7360CB0C850A51BD90EA7E36D5318461D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BiRtCreateEventForApp` | 5 (0x5) | Exported Function | 0x1000d110 | 0x0000d110
-`BiRtDeleteEventForApp` | 6 (0x6) | Exported Function | 0x1000acb0 | 0x0000acb0
-`BiRtEnumerateBrokeredEvents` | 7 (0x7) | Exported Function | 0x10037860 | 0x00037860
-`BiRtIsValidActivationTypeForEventType` | 8 (0x8) | Exported Function | 0x1000cbf0 | 0x0000cbf0
-`BiRtQueryBrokerEventId` | 9 (0x9) | Exported Function | 0x10037a80 | 0x00037a80
-`BiRtRegisterWorkItem` | 10 (0xa) | Exported Function | 0x1000cc60 | 0x0000cc60
-`BiRtRegisterWorkItemClsid` | 11 (0xb) | Exported Function | 0x10037b10 | 0x00037b10
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10017da0 | 0x00017da0
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x10017660 | 0x00017660
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10022370 | 0x00022370
-`DllMain` | 4 (0x4) | Exported Function | 0x10019470 | 0x00019470
+Function Name | Ordinal | Type
+-- | -- | --
+`DllCanUnloadNow` | 1 | Exported Function
+`BiRtRegisterWorkItemClsid` | 11 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllMain` | 4 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`BiRtRegisterWorkItem` | 10 | Exported Function
+`BiRtDeleteEventForApp` | 6 | Exported Function
+`BiRtCreateEventForApp` | 5 | Exported Function
+`BiRtEnumerateBrokeredEvents` | 7 | Exported Function
+`BiRtQueryBrokerEventId` | 9 | Exported Function
+`BiRtIsValidActivationTypeForEventType` | 8 | Exported Function
 
 
 ## Signature

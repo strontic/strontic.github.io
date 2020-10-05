@@ -24,22 +24,22 @@ PE256 | `2F9C98A90442EB53FEA457E91A81E953B3A8EE7D805D53DE90E4594FC42AA8F3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetDiagnosticFunctions` | 1 (0x1) | Exported Function | 0x10024390 | 0x00024390
-`InitHelperDll` | 2 (0x2) | Exported Function | 0x100240f0 | 0x000240f0
-`RutlAlloc` | 3 (0x3) | Exported Function | 0x10024ff0 | 0x00024ff0
-`RutlAssignmentFromTokenAndDword` | 4 (0x4) | Exported Function | 0x100252f0 | 0x000252f0
-`RutlAssignmentFromTokens` | 5 (0x5) | Exported Function | 0x10025210 | 0x00025210
-`RutlCloseDumpFile` | 6 (0x6) | Exported Function | 0x10024fe0 | 0x00024fe0
-`RutlCreateDumpFile` | 7 (0x7) | Exported Function | 0x10024f80 | 0x00024f80
-`RutlDwordDup` | 8 (0x8) | Exported Function | 0x100250c0 | 0x000250c0
-`RutlFree` | 9 (0x9) | Exported Function | 0x10025020 | 0x00025020
-`RutlGetOsVersion` | 10 (0xa) | Exported Function | 0x100250f0 | 0x000250f0
-`RutlGetTagToken` | 11 (0xb) | Exported Function | 0x10024d50 | 0x00024d50
-`RutlIsHelpToken` | 12 (0xc) | Exported Function | 0x100251d0 | 0x000251d0
-`RutlParse` | 13 (0xd) | Exported Function | 0x10025590 | 0x00025590
-`RutlStrDup` | 14 (0xe) | Exported Function | 0x10025050 | 0x00025050
+Function Name | Ordinal | Type
+-- | -- | --
+`RutlGetOsVersion` | 10 | Exported Function
+`RutlFree` | 9 | Exported Function
+`RutlDwordDup` | 8 | Exported Function
+`RutlGetTagToken` | 11 | Exported Function
+`RutlStrDup` | 14 | Exported Function
+`RutlParse` | 13 | Exported Function
+`RutlIsHelpToken` | 12 | Exported Function
+`RutlAlloc` | 3 | Exported Function
+`InitHelperDll` | 2 | Exported Function
+`GetDiagnosticFunctions` | 1 | Exported Function
+`RutlAssignmentFromTokenAndDword` | 4 | Exported Function
+`RutlCreateDumpFile` | 7 | Exported Function
+`RutlCloseDumpFile` | 6 | Exported Function
+`RutlAssignmentFromTokens` | 5 | Exported Function
 
 
 ## Signature

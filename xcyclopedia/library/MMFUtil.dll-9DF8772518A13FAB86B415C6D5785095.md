@@ -24,15 +24,15 @@ PE256 | `2B61AFB6F1CB81195F32AE7F421E10E7CE3777AE30D0BBB990EBB5338C4FC0D3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DisplayAVIBox` | 1 (0x1) | Exported Function | 0x0000000180002270 | 0x00002270
-`DisplayUserMessage` | 2 (0x2) | Exported Function | 0x00000001800022d0 | 0x000022d0
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x00000001800026e0 | 0x000026e0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180002700 | 0x00002700
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x0000000180002730 | 0x00002730
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x0000000180002750 | 0x00002750
-`ErrorStringEx` | 7 (0x7) | Exported Function | 0x0000000180001e90 | 0x00001e90
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`ErrorStringEx` | 7 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DisplayAVIBox` | 1 | Exported Function
+`DisplayUserMessage` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

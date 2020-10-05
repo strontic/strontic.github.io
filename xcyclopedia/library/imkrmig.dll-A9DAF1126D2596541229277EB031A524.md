@@ -24,11 +24,11 @@ PE256 | `228E09B26819E12A32F6C3FFD110C6A128430BCA352A93E5A93E663F7410EB73`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ApplySuccess` | 1 (0x1) | Exported Function | 0x00000001800035c0 | 0x000035c0
-`Gather` | 2 (0x2) | Exported Function | 0x0000000180003420 | 0x00003420
-`PreApply` | 3 (0x3) | Exported Function | 0x00000001800034f0 | 0x000034f0
+Function Name | Ordinal | Type
+-- | -- | --
+`PreApply` | 3 | Exported Function
+`Gather` | 2 | Exported Function
+`ApplySuccess` | 1 | Exported Function
 
 
 ## Signature

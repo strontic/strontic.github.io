@@ -23,10 +23,10 @@ PE256 | `810D20DA8C8247AA3F6C88DD29766145F3C48156BD25E2A709EBEED37265A4AE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RegisterComputeSystem` | 1 (0x1) | Exported Function | 0x00000001800073a0 | 0x000073a0
-`UnregisterComputeSystem` | 2 (0x2) | Exported Function | 0x0000000180007a40 | 0x00007a40
+Function Name | Ordinal | Type
+-- | -- | --
+`UnregisterComputeSystem` | 2 | Exported Function
+`RegisterComputeSystem` | 1 | Exported Function
 
 
 ## Signature

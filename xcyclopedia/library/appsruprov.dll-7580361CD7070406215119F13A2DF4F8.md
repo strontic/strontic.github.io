@@ -24,16 +24,16 @@ PE256 | `8D2D9B9818ABE0B9B6BB1CE9D171A1EC36F56F1EE1521E1BE18ABCCDD8E0DC2B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 2 (0x2) | Exported Function | 0x0000000180003030 | 0x00003030
-`LogMemoryPerfCounters` | 1 (0x1) | Exported Function | 0x000000018000c3e0 | 0x0000c3e0
-`LogMemoryPerfCountersPeriodically` | 3 (0x3) | Exported Function | 0x000000018000e2e0 | 0x0000e2e0
-`PsmQueryApplicationPerformanceInformation` | 4 (0x4) | Exported Function | 0x0000000180021180 | 0x00021180
-`PsmQueryApplicationPerformanceInformation2` | 5 (0x5) | Exported Function | 0x00000001800211a0 | 0x000211a0
-`PsmQueryQuotaInformation` | 6 (0x6) | Exported Function | 0x0000000180021280 | 0x00021280
-`SruInitializeProvider` | 7 (0x7) | Exported Function | 0x0000000180005d40 | 0x00005d40
-`SruUninitializeProvider` | 8 (0x8) | Exported Function | 0x0000000180006230 | 0x00006230
+Function Name | Ordinal | Type
+-- | -- | --
+`PsmQueryQuotaInformation` | 6 | Exported Function
+`PsmQueryApplicationPerformanceInformation2` | 5 | Exported Function
+`SruUninitializeProvider` | 8 | Exported Function
+`SruInitializeProvider` | 7 | Exported Function
+`LogMemoryPerfCounters` | 1 | Exported Function
+`DllMain` | 2 | Exported Function
+`PsmQueryApplicationPerformanceInformation` | 4 | Exported Function
+`LogMemoryPerfCountersPeriodically` | 3 | Exported Function
 
 
 ## Signature

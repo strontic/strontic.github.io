@@ -24,32 +24,32 @@ PE256 | `C1616B05B26B793A5226886DC39CBE4EADAD3C80D3C158557742F9A824771F8F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IumAssignMemoryToSocDomain` | 1 (0x1) | Exported Function | 0x0000000180001140 | 0x00001140
-`IumSetPolicyExtension` | 22 (0x16) | Exported Function | 0x0000000180001290 | 0x00001290
-`IumSetDmaTargetProperties` | 21 (0x15) | Exported Function | 0x0000000180001280 | 0x00001280
-`IumSecureStoragePut` | 20 (0x14) | Exported Function | 0x0000000180001270 | 0x00001270
-`IumSecureStorageGet` | 19 (0x13) | Exported Function | 0x0000000180001260 | 0x00001260
-`IumQuerySecureDeviceInformation` | 18 (0x12) | Exported Function | 0x0000000180001250 | 0x00001250
-`IumProtectSecureIo` | 17 (0x11) | Exported Function | 0x0000000180001240 | 0x00001240
-`IumPostMailbox` | 16 (0x10) | Exported Function | 0x0000000180001230 | 0x00001230
-`IumOpenSecureSection` | 15 (0xf) | Exported Function | 0x0000000180001220 | 0x00001220
-`IumOpenCurrentExtension` | 14 (0xe) | Exported Function | 0x0000000180001210 | 0x00001210
-`IumMapSecureIo` | 13 (0xd) | Exported Function | 0x0000000180001200 | 0x00001200
-`IumGetIdk` | 12 (0xc) | Exported Function | 0x00000001800011f0 | 0x000011f0
-`IumGetExposedSecureSection` | 11 (0xb) | Exported Function | 0x00000001800011e0 | 0x000011e0
-`IumGetDmaEnabler` | 10 (0xa) | Exported Function | 0x00000001800011d0 | 0x000011d0
-`IumFlushSecureSectionBuffers` | 9 (0x9) | Exported Function | 0x00000001800011c0 | 0x000011c0
-`IumEmitSmc` | 8 (0x8) | Exported Function | 0x00000001800011b0 | 0x000011b0
-`IumDmaMapMemory` | 7 (0x7) | Exported Function | 0x00000001800011a0 | 0x000011a0
-`IumCrypto` | 6 (0x6) | Exported Function | 0x0000000180001190 | 0x00001190
-`IumCreateSecureSectionSpecifyPages` | 5 (0x5) | Exported Function | 0x0000000180001180 | 0x00001180
-`IumCreateSecureSection` | 4 (0x4) | Exported Function | 0x0000000180001170 | 0x00001170
-`IumCreateSecureDevice` | 3 (0x3) | Exported Function | 0x0000000180001160 | 0x00001160
-`IumAwaitSmc` | 2 (0x2) | Exported Function | 0x0000000180001150 | 0x00001150
-`IumUnmapSecureIo` | 23 (0x17) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`IumUpdateSecureDeviceState` | 24 (0x18) | Exported Function | 0x00000001800012b0 | 0x000012b0
+Function Name | Ordinal | Type
+-- | -- | --
+`IumPostMailbox` | 16 | Exported Function
+`IumProtectSecureIo` | 17 | Exported Function
+`IumQuerySecureDeviceInformation` | 18 | Exported Function
+`IumMapSecureIo` | 13 | Exported Function
+`IumOpenCurrentExtension` | 14 | Exported Function
+`IumOpenSecureSection` | 15 | Exported Function
+`IumSetPolicyExtension` | 22 | Exported Function
+`IumUnmapSecureIo` | 23 | Exported Function
+`IumUpdateSecureDeviceState` | 24 | Exported Function
+`IumSecureStorageGet` | 19 | Exported Function
+`IumSecureStoragePut` | 20 | Exported Function
+`IumSetDmaTargetProperties` | 21 | Exported Function
+`IumCreateSecureSection` | 4 | Exported Function
+`IumCreateSecureSectionSpecifyPages` | 5 | Exported Function
+`IumCrypto` | 6 | Exported Function
+`IumAssignMemoryToSocDomain` | 1 | Exported Function
+`IumAwaitSmc` | 2 | Exported Function
+`IumCreateSecureDevice` | 3 | Exported Function
+`IumGetDmaEnabler` | 10 | Exported Function
+`IumGetExposedSecureSection` | 11 | Exported Function
+`IumGetIdk` | 12 | Exported Function
+`IumDmaMapMemory` | 7 | Exported Function
+`IumEmitSmc` | 8 | Exported Function
+`IumFlushSecureSectionBuffers` | 9 | Exported Function
 
 
 ## Signature

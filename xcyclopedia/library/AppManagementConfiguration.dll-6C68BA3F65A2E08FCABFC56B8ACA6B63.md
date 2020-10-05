@@ -24,13 +24,13 @@ PE256 | `75E6AB90381392A73B0F6620F78824DE046A959FFA9A5623DBAEA0B319319EDD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x1000ab30 | 0x0000ab30
-`DllGetActivationFactory` | 4 (0x4) | Exported Function | 0x1000aaf0 | 0x0000aaf0
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x1000ab10 | 0x0000ab10
-`ProcessAppVPolicy` | 1 (0x1) | Exported Function | 0x1000cd50 | 0x0000cd50
-`ProcessUevPolicy` | 2 (0x2) | Exported Function | 0x1000ceb0 | 0x0000ceb0
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessAppVPolicy` | 1 | Exported Function
+`ProcessUevPolicy` | 2 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetActivationFactory` | 4 | Exported Function
 
 
 ## Signature

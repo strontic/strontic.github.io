@@ -24,20 +24,20 @@ PE256 | `1CFBC7FCBD3A8018FBD4821DE7DB6E5CAE952FBC0D55024BF0B9268863C383D4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EapPeerConfigBlob2Xml` | 4 (0x4) | Exported Function | 0x0000000180004fa0 | 0x00004fa0
-`EapPeerConfigXml2Blob` | 5 (0x5) | Exported Function | 0x0000000180004cc0 | 0x00004cc0
-`EapPeerCredentialsXml2Blob` | 6 (0x6) | Exported Function | 0x0000000180005250 | 0x00005250
-`EapPeerFreeErrorMemory` | 7 (0x7) | Exported Function | 0x0000000180004680 | 0x00004680
-`EapPeerFreeMemory` | 8 (0x8) | Exported Function | 0x00000001800045d0 | 0x000045d0
-`EapPeerGetConfigBlobAndUserBlob` | 9 (0x9) | Exported Function | 0x0000000180006420 | 0x00006420
-`EapPeerGetIdentityPageGuid` | 1 (0x1) | Exported Function | 0x0000000180005b90 | 0x00005b90
-`EapPeerInvokeConfigUI` | 10 (0xa) | Exported Function | 0x00000001800047a0 | 0x000047a0
-`EapPeerInvokeIdentityUI` | 11 (0xb) | Exported Function | 0x00000001800057a0 | 0x000057a0
-`EapPeerInvokeInteractiveUI` | 12 (0xc) | Exported Function | 0x0000000180005600 | 0x00005600
-`InternalFunction01` | 2 (0x2) | Exported Function | 0x0000000180006830 | 0x00006830
-`InternalFunction02` | 3 (0x3) | Exported Function | 0x00000001800075b0 | 0x000075b0
+Function Name | Ordinal | Type
+-- | -- | --
+`EapPeerInvokeIdentityUI` | 11 | Exported Function
+`EapPeerInvokeConfigUI` | 10 | Exported Function
+`EapPeerGetIdentityPageGuid` | 1 | Exported Function
+`InternalFunction02` | 3 | Exported Function
+`InternalFunction01` | 2 | Exported Function
+`EapPeerInvokeInteractiveUI` | 12 | Exported Function
+`EapPeerCredentialsXml2Blob` | 6 | Exported Function
+`EapPeerConfigXml2Blob` | 5 | Exported Function
+`EapPeerConfigBlob2Xml` | 4 | Exported Function
+`EapPeerGetConfigBlobAndUserBlob` | 9 | Exported Function
+`EapPeerFreeMemory` | 8 | Exported Function
+`EapPeerFreeErrorMemory` | 7 | Exported Function
 
 
 ## Signature

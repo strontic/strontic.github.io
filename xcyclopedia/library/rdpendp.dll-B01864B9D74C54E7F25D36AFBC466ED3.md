@@ -24,13 +24,13 @@ PE256 | `3CDE0252147B9C6714A4CDAAFD70954C57AFBCC3EDDA80F39F283B1DA1A34731`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180001800 | 0x00001800
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x00000001800018b0 | 0x000018b0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x0000000180001a50 | 0x00001a50
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x0000000180001a50 | 0x00001a50
-`GetTSAudioEndpointEnumeratorForSession` | 1 (0x1) | Exported Function | 0x0000000180020d90 | 0x00020d90
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 5 | Exported Function
+`GetTSAudioEndpointEnumeratorForSession` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

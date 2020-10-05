@@ -24,21 +24,21 @@ PE256 | `1A6EF27E9AAE0D74D4E67D38E6D06A7633A5216D81EB9142F6965655AB312AB4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EdpAuditHarden` | 2 (0x2) | Exported Function | 0x10005dd0 | 0x00005dd0
-`EdpAuditLogApplicationGenerated` | 3 (0x3) | Exported Function | 0x10010f60 | 0x00010f60
-`EdpAuditLogApplicationLearning` | 4 (0x4) | Exported Function | 0x10011050 | 0x00011050
-`EdpAuditLogDataCopied` | 5 (0x5) | Exported Function | 0x10010e30 | 0x00010e30
-`EdpAuditLoggerRegister` | 8 (0x8) | Exported Function | 0x10011390 | 0x00011390
-`EdpAuditLoggerUnregister` | 9 (0x9) | Exported Function | 0x100113b0 | 0x000113b0
-`EdpAuditLogProtectionRemoved` | 6 (0x6) | Exported Function | 0x100112a0 | 0x000112a0
-`EdpAuditLogSiteLearning` | 7 (0x7) | Exported Function | 0x100111c0 | 0x000111c0
-`EdpAuditRead` | 10 (0xa) | Exported Function | 0x10005e50 | 0x00005e50
-`EdpFlushTraces` | 1 (0x1) | Exported Function | 0x100063d0 | 0x000063d0
-`EdpGetLogFullPathFromRelativePath` | 11 (0xb) | Exported Function | 0x10005f10 | 0x00005f10
-`ReadAuditLogByCount` | 12 (0xc) | Exported Function | 0x10006ee0 | 0x00006ee0
-`ReadAuditLogByTimeRange` | 13 (0xd) | Exported Function | 0x10006de0 | 0x00006de0
+Function Name | Ordinal | Type
+-- | -- | --
+`EdpFlushTraces` | 1 | Exported Function
+`EdpAuditRead` | 10 | Exported Function
+`EdpAuditLogSiteLearning` | 7 | Exported Function
+`ReadAuditLogByTimeRange` | 13 | Exported Function
+`ReadAuditLogByCount` | 12 | Exported Function
+`EdpGetLogFullPathFromRelativePath` | 11 | Exported Function
+`EdpAuditLogProtectionRemoved` | 6 | Exported Function
+`EdpAuditLogApplicationLearning` | 4 | Exported Function
+`EdpAuditLogApplicationGenerated` | 3 | Exported Function
+`EdpAuditHarden` | 2 | Exported Function
+`EdpAuditLoggerUnregister` | 9 | Exported Function
+`EdpAuditLoggerRegister` | 8 | Exported Function
+`EdpAuditLogDataCopied` | 5 | Exported Function
 
 
 ## Signature

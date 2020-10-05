@@ -24,17 +24,17 @@ PE256 | `0C821238A19282F16EAC9C453E7713EE70784025C8A53531049EE8534B52D0FF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateSystemInputHost` | 9 (0x9) | Exported Function | 0x000000018001ee60 | 0x0001ee60
-`IsSystemInputHostStandalone` | 1 (0x1) | Exported Function | 0x0000000180064ec0 | 0x00064ec0
-`NotifyInputSinkParented` | 2 (0x2) | Exported Function | 0x0000000180015370 | 0x00015370
-`NotifyInputSinkRemoved` | 3 (0x3) | Exported Function | 0x0000000180013fb0 | 0x00013fb0
-`Register3DCompositor` | 4 (0x4) | Exported Function | 0x0000000180068490 | 0x00068490
-`RegisterManipulationThread` | 5 (0x5) | Exported Function | 0x000000018003b4d0 | 0x0003b4d0
-`SetManipulationInputTarget` | 6 (0x6) | Exported Function | 0x00000001800684f0 | 0x000684f0
-`StopAndEndInertia` | 7 (0x7) | Exported Function | 0x0000000180068550 | 0x00068550
-`Unregister3DCompositor` | 8 (0x8) | Exported Function | 0x00000001800684c0 | 0x000684c0
+Function Name | Ordinal | Type
+-- | -- | --
+`SetManipulationInputTarget` | 6 | Exported Function
+`RegisterManipulationThread` | 5 | Exported Function
+`Unregister3DCompositor` | 8 | Exported Function
+`StopAndEndInertia` | 7 | Exported Function
+`Register3DCompositor` | 4 | Exported Function
+`IsSystemInputHostStandalone` | 1 | Exported Function
+`CreateSystemInputHost` | 9 | Exported Function
+`NotifyInputSinkRemoved` | 3 | Exported Function
+`NotifyInputSinkParented` | 2 | Exported Function
 
 
 ## Signature

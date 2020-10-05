@@ -24,31 +24,31 @@ PE256 | `7365CDD2C5169914CE7201E19FC8C2F9CE7202C389B897AAA0C03D781C7E6B50`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LuiAddProfile` | 1 (0x1) | Exported Function | 0x0000000180001d40 | 0x00001d40
-`LuiSetUserAuthenticationMode` | 21 (0x15) | Exported Function | 0x0000000180002a20 | 0x00002a20
-`LuiSetProfileNickname` | 20 (0x14) | Exported Function | 0x0000000180002910 | 0x00002910
-`LuiSetEsimPolicy` | 19 (0x13) | Exported Function | 0x0000000180002810 | 0x00002810
-`LuiSetDefaultSmdpAddress` | 18 (0x12) | Exported Function | 0x0000000180002720 | 0x00002720
-`LuiRequestProvisioningProfile` | 17 (0x11) | Exported Function | 0x0000000180002640 | 0x00002640
-`LuiReleaseProvisioningProfile` | 16 (0x10) | Exported Function | 0x0000000180002570 | 0x00002570
-`LuiRegisterForLpaNotifications` | 15 (0xf) | Exported Function | 0x0000000180001950 | 0x00001950
-`LuiRegisterForEsimNotifications` | 14 (0xe) | Exported Function | 0x0000000180001a00 | 0x00001a00
-`LuiRegisterForEnterpriseEsimNotifications` | 13 (0xd) | Exported Function | 0x0000000180001ba0 | 0x00001ba0
-`LuiVerifyClientToken` | 22 (0x16) | Exported Function | 0x0000000180002af0 | 0x00002af0
-`LuiRegisterForAllProfileNotifications` | 12 (0xc) | Exported Function | 0x0000000180001ad0 | 0x00001ad0
-`LuiProcessActivationCode` | 10 (0xa) | Exported Function | 0x0000000180002470 | 0x00002470
-`LuiOpenHandle` | 9 (0x9) | Exported Function | 0x0000000180001740 | 0x00001740
-`LuiInstallProfile` | 8 (0x8) | Exported Function | 0x0000000180002350 | 0x00002350
-`LuiEnableProfile` | 7 (0x7) | Exported Function | 0x0000000180002260 | 0x00002260
-`LuiDiscoverProfiles` | 6 (0x6) | Exported Function | 0x0000000180002150 | 0x00002150
-`LuiDisableProfile` | 5 (0x5) | Exported Function | 0x0000000180002060 | 0x00002060
-`LuiDeleteProfile` | 4 (0x4) | Exported Function | 0x0000000180001f70 | 0x00001f70
-`LuiCloseHandle` | 3 (0x3) | Exported Function | 0x0000000180001880 | 0x00001880
-`LuiCancelOperation` | 2 (0x2) | Exported Function | 0x0000000180001e90 | 0x00001e90
-`LuiRegisterForAllEnterpriseProfileNotifications` | 11 (0xb) | Exported Function | 0x0000000180001c70 | 0x00001c70
-`LuiWipeEsim` | 23 (0x17) | Exported Function | 0x0000000180002ba0 | 0x00002ba0
+Function Name | Ordinal | Type
+-- | -- | --
+`LuiReleaseProvisioningProfile` | 16 | Exported Function
+`LuiRequestProvisioningProfile` | 17 | Exported Function
+`LuiRegisterForLpaNotifications` | 15 | Exported Function
+`LuiRegisterForEnterpriseEsimNotifications` | 13 | Exported Function
+`LuiRegisterForEsimNotifications` | 14 | Exported Function
+`LuiSetDefaultSmdpAddress` | 18 | Exported Function
+`LuiVerifyClientToken` | 22 | Exported Function
+`LuiWipeEsim` | 23 | Exported Function
+`LuiSetUserAuthenticationMode` | 21 | Exported Function
+`LuiSetEsimPolicy` | 19 | Exported Function
+`LuiSetProfileNickname` | 20 | Exported Function
+`LuiRegisterForAllProfileNotifications` | 12 | Exported Function
+`LuiDeleteProfile` | 4 | Exported Function
+`LuiDisableProfile` | 5 | Exported Function
+`LuiCloseHandle` | 3 | Exported Function
+`LuiAddProfile` | 1 | Exported Function
+`LuiCancelOperation` | 2 | Exported Function
+`LuiDiscoverProfiles` | 6 | Exported Function
+`LuiProcessActivationCode` | 10 | Exported Function
+`LuiRegisterForAllEnterpriseProfileNotifications` | 11 | Exported Function
+`LuiOpenHandle` | 9 | Exported Function
+`LuiEnableProfile` | 7 | Exported Function
+`LuiInstallProfile` | 8 | Exported Function
 
 
 ## Signature

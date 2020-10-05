@@ -24,14 +24,14 @@ PE256 | `27481D96851E091E67CEB8A289D88817B01C40776C875BC53EC49A01C9E13FDC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EnumResourceLanguagesExA` | 1 (0x1) | Exported Function | kernel32.EnumResourceLanguagesExA | 0x000011c6
-`EnumResourceLanguagesExW` | 2 (0x2) | Exported Function | kernel32.EnumResourceLanguagesExW | 0x00001201
-`EnumResourceNamesExA` | 3 (0x3) | Exported Function | kernel32.EnumResourceNamesExA | 0x00001238
-`EnumResourceNamesExW` | 4 (0x4) | Exported Function | kernel32.EnumResourceNamesExW | 0x0000126b
-`EnumResourceTypesExA` | 5 (0x5) | Exported Function | kernel32.EnumResourceTypesExA | 0x0000129e
-`EnumResourceTypesExW` | 6 (0x6) | Exported Function | kernel32.EnumResourceTypesExW | 0x000012d1
+Function Name | Ordinal | Type
+-- | -- | --
+`EnumResourceNamesExW` | 4 | Exported Function
+`EnumResourceTypesExA` | 5 | Exported Function
+`EnumResourceTypesExW` | 6 | Exported Function
+`EnumResourceLanguagesExA` | 1 | Exported Function
+`EnumResourceLanguagesExW` | 2 | Exported Function
+`EnumResourceNamesExA` | 3 | Exported Function
 
 
 ## Signature

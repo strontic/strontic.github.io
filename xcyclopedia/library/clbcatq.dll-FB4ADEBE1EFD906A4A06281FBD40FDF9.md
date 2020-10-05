@@ -24,40 +24,40 @@ PE256 | `84D6A5C4AFF0C407614F7B253953835773DF6525C5F11C0CAA783F6DB6DB68B2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ActivatorUpdateForIsRouterChanges` | 1 (0x1) | Exported Function | 0x1002a550 | 0x0002a550
-`SetupSave` | 32 (0x20) | Exported Function | 0x1002a010 | 0x0002a010
-`SetupOpen` | 31 (0x1f) | Exported Function | 0x10029fe0 | 0x00029fe0
-`SetSetupSave` | 30 (0x1e) | Exported Function | 0x10029ff0 | 0x00029ff0
-`SetSetupOpen` | 29 (0x1d) | Exported Function | 0x10029fc0 | 0x00029fc0
-`ServerGetApplicationType` | 28 (0x1c) | Exported Function | 0x10029970 | 0x00029970
-`OpenComponentLibraryOnStreamEx` | 27 (0x1b) | Exported Function | 0x1002fc00 | 0x0002fc00
-`OpenComponentLibraryOnMemEx` | 26 (0x1a) | Exported Function | 0x1002fc80 | 0x0002fc80
-`OpenComponentLibraryEx` | 25 (0x19) | Exported Function | 0x1002fb90 | 0x0002fb90
-`InprocServer32FromString` | 24 (0x18) | Exported Function | 0x10029dd0 | 0x00029dd0
-`GetSimpleTableDispenser` | 23 (0x17) | Exported Function | 0x1001d670 | 0x0001d670
-`GetGlobalBabyJITEnabled` | 5 (0x5) | Exported Function | 0x1001e6c0 | 0x0001e6c0
-`GetComputerObject` | 22 (0x16) | Exported Function | 0x1001d650 | 0x0001d650
-`GetCatalogObject2` | 20 (0x14) | Exported Function | 0x1001d5c0 | 0x0001d5c0
-`GetCatalogObject` | 21 (0x15) | Exported Function | 0x1001d530 | 0x0001d530
-`DowngradeAPL` | 4 (0x4) | Exported Function | 0x1002b650 | 0x0002b650
-`DllUnregisterServer` | 19 (0x13) | Exported Function | 0x1001d470 | 0x0001d470
-`DllRegisterServer` | 18 (0x12) | Exported Function | 0x1001d3c0 | 0x0001d3c0
-`DllGetClassObject` | 17 (0x11) | Exported Function | 0x1001d290 | 0x0001d290
-`DllCanUnloadNow` | 16 (0x10) | Exported Function | 0x1001d280 | 0x0001d280
-`DeleteAllActivatorsForClsid` | 3 (0x3) | Exported Function | 0x1002af50 | 0x0002af50
-`CreateComponentLibraryEx` | 15 (0xf) | Exported Function | 0x1002fb20 | 0x0002fb20
-`CoRegCleanup` | 2 (0x2) | Exported Function | 0x1002f920 | 0x0002f920
-`ComPlusRemoteAccessEnabled` | 14 (0xe) | Exported Function | 0x1001d860 | 0x0001d860
-`ComPlusPartitionsEnabled` | 13 (0xd) | Exported Function | 0x1001d6d0 | 0x0001d6d0
-`ComPlusMigrate` | 12 (0xc) | Exported Function | 0x1002b840 | 0x0002b840
-`ComPlusEnableRemoteAccess` | 11 (0xb) | Exported Function | 0x1001d920 | 0x0001d920
-`ComPlusEnablePartitions` | 10 (0xa) | Exported Function | 0x1001d7c0 | 0x0001d7c0
-`CLSIDFromStringByBitness` | 8 (0x8) | Exported Function | 0x10029e50 | 0x00029e50
-`CheckMemoryGates` | 9 (0x9) | Exported Function | 0x100289c0 | 0x000289c0
-`UpdateFromAppChange` | 6 (0x6) | Exported Function | 0x1002a940 | 0x0002a940
-`UpdateFromComponentChange` | 7 (0x7) | Exported Function | 0x1002a220 | 0x0002a220
+Function Name | Ordinal | Type
+-- | -- | --
+`InprocServer32FromString` | 24 | Exported Function
+`GetSimpleTableDispenser` | 23 | Exported Function
+`OpenComponentLibraryOnMemEx` | 26 | Exported Function
+`OpenComponentLibraryEx` | 25 | Exported Function
+`GetCatalogObject2` | 20 | Exported Function
+`GetCatalogObject` | 21 | Exported Function
+`GetGlobalBabyJITEnabled` | 5 | Exported Function
+`GetComputerObject` | 22 | Exported Function
+`SetupSave` | 32 | Exported Function
+`SetupOpen` | 31 | Exported Function
+`UpdateFromComponentChange` | 7 | Exported Function
+`UpdateFromAppChange` | 6 | Exported Function
+`ServerGetApplicationType` | 28 | Exported Function
+`OpenComponentLibraryOnStreamEx` | 27 | Exported Function
+`SetSetupSave` | 30 | Exported Function
+`SetSetupOpen` | 29 | Exported Function
+`ComPlusMigrate` | 12 | Exported Function
+`ComPlusEnableRemoteAccess` | 11 | Exported Function
+`ComPlusRemoteAccessEnabled` | 14 | Exported Function
+`ComPlusPartitionsEnabled` | 13 | Exported Function
+`CheckMemoryGates` | 9 | Exported Function
+`ActivatorUpdateForIsRouterChanges` | 1 | Exported Function
+`ComPlusEnablePartitions` | 10 | Exported Function
+`CLSIDFromStringByBitness` | 8 | Exported Function
+`DllRegisterServer` | 18 | Exported Function
+`DllGetClassObject` | 17 | Exported Function
+`DowngradeAPL` | 4 | Exported Function
+`DllUnregisterServer` | 19 | Exported Function
+`CreateComponentLibraryEx` | 15 | Exported Function
+`CoRegCleanup` | 2 | Exported Function
+`DllCanUnloadNow` | 16 | Exported Function
+`DeleteAllActivatorsForClsid` | 3 | Exported Function
 
 
 ## Signature

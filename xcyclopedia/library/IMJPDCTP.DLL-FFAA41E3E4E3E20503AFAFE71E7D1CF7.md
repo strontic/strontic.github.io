@@ -24,10 +24,10 @@ PE256 | `CE5E134DCF2DA7C0E15AF2AD5DDBC7CE595775CF13D52E7BAD09609F722CE941`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OpenDicTool` | 1 (0x1) | Exported Function | 0x0000000180002600 | 0x00002600
-`OpenRegisterWord` | 2 (0x2) | Exported Function | 0x0000000180002770 | 0x00002770
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenRegisterWord` | 2 | Exported Function
+`OpenDicTool` | 1 | Exported Function
 
 
 ## Signature

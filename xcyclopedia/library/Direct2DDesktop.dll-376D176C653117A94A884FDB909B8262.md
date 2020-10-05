@@ -24,9 +24,9 @@ PE256 | `E5BA6649D5B2D3854E688C39DBD329E887103205E626EA6CF4C7343CF65E2816`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateMetafileRenderer` | 1 (0x1) | Exported Function | 0x10002b60 | 0x00002b60
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateMetafileRenderer` | 1 | Exported Function
 
 
 ## Signature

@@ -24,245 +24,245 @@ PE256 | `5F39FA988A4CB173A20EB282215708D1868A5A23FEC2C4015ED68A37E78A5AFE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AcquireStateLock` | 2 (0x2) | Exported Function | 0x0000000180003050 | 0x00003050
-`IsSideloadingPolicyApplied` | 152 (0x98) | Exported Function | 0x0000000180003990 | 0x00003990
-`OpenPackageInfoByFullName` | 153 (0x99) | Exported Function | 0x00000001800039a0 | 0x000039a0
-`OpenPackageInfoByFullNameForMachine` | 154 (0x9a) | Exported Function | 0x00000001800039b0 | 0x000039b0
-`OpenPackageInfoByFullNameForUser` | 155 (0x9b) | Exported Function | 0x00000001800039c0 | 0x000039c0
-`OpenState` | 156 (0x9c) | Exported Function | 0x00000001800039d0 | 0x000039d0
-`OpenStateAtom` | 157 (0x9d) | Exported Function | 0x00000001800039e0 | 0x000039e0
-`OpenStateExplicit` | 158 (0x9e) | Exported Function | 0x00000001800039f0 | 0x000039f0
-`OpenStateExplicitForUserSid` | 159 (0x9f) | Exported Function | 0x0000000180003a00 | 0x00003a00
-`OpenStateExplicitForUserSidString` | 160 (0xa0) | Exported Function | 0x0000000180003a10 | 0x00003a10
-`OverrideRoamingDataModificationTimesInRange` | 161 (0xa1) | Exported Function | 0x0000000180003a20 | 0x00003a20
-`PackageFamilyNameFromFullName` | 162 (0xa2) | Exported Function | 0x0000000180003a30 | 0x00003a30
-`PackageFamilyNameFromFullNameA` | 163 (0xa3) | Exported Function | 0x0000000180003a40 | 0x00003a40
-`PackageFamilyNameFromId` | 164 (0xa4) | Exported Function | 0x0000000180003a50 | 0x00003a50
-`PackageFamilyNameFromIdA` | 165 (0xa5) | Exported Function | 0x0000000180003a60 | 0x00003a60
-`PackageFamilyNameFromProductId` | 166 (0xa6) | Exported Function | 0x0000000180003a70 | 0x00003a70
-`PackageFullNameFromId` | 167 (0xa7) | Exported Function | 0x0000000180003a80 | 0x00003a80
-`PackageFullNameFromIdA` | 168 (0xa8) | Exported Function | 0x0000000180003a90 | 0x00003a90
-`PackageFullNameFromProductId` | 169 (0xa9) | Exported Function | 0x0000000180003aa0 | 0x00003aa0
-`PackageIdFromFullName` | 170 (0xaa) | Exported Function | 0x0000000180003ab0 | 0x00003ab0
-`PackageIdFromFullNameA` | 171 (0xab) | Exported Function | 0x0000000180003ac0 | 0x00003ac0
-`PackageIdFromProductId` | 172 (0xac) | Exported Function | 0x0000000180003ad0 | 0x00003ad0
-`PackageNameAndPublisherIdFromFamilyName` | 173 (0xad) | Exported Function | 0x0000000180003ae0 | 0x00003ae0
-`PackageNameAndPublisherIdFromFamilyNameA` | 174 (0xae) | Exported Function | 0x0000000180003af0 | 0x00003af0
-`PackageRelativeApplicationIdFromProductId` | 175 (0xaf) | Exported Function | 0x0000000180003b00 | 0x00003b00
-`PackageSidFromFamilyName` | 176 (0xb0) | Exported Function | 0x0000000180003b10 | 0x00003b10
-`IsSideloadingEnabled` | 151 (0x97) | Exported Function | 0x0000000180003980 | 0x00003980
-`IsOnDemandRegistrationSupportedForExtensionCategory` | 150 (0x96) | Exported Function | 0x0000000180003970 | 0x00003970
-`IsMrtResourceRedirectionEnabled` | 149 (0x95) | Exported Function | 0x0000000180003960 | 0x00003960
-`IsDeveloperModePolicyApplied` | 148 (0x94) | Exported Function | 0x0000000180003950 | 0x00003950
-`GetProtocolProperty` | 122 (0x7a) | Exported Function | 0x00000001800037b0 | 0x000037b0
-`GetPublisherCacheFolder` | 123 (0x7b) | Exported Function | 0x00000001800037c0 | 0x000037c0
-`GetPublisherRootFolder` | 124 (0x7c) | Exported Function | 0x00000001800037d0 | 0x000037d0
-`GetRoamingLastObservedChangeTime` | 125 (0x7d) | Exported Function | 0x00000001800037e0 | 0x000037e0
-`GetSecureSystemAppDataFolder` | 126 (0x7e) | Exported Function | 0x00000001800037f0 | 0x000037f0
-`GetSerializedAtomBytes` | 127 (0x7f) | Exported Function | 0x0000000180003800 | 0x00003800
-`GetSharedLocalFolder` | 128 (0x80) | Exported Function | 0x0000000180003810 | 0x00003810
-`GetStagedPackageOrigin` | 129 (0x81) | Exported Function | 0x0000000180003820 | 0x00003820
-`GetStagedPackagePathByFullName` | 130 (0x82) | Exported Function | 0x0000000180003830 | 0x00003830
-`GetStagedPackagePathByFullName2` | 131 (0x83) | Exported Function | 0x0000000180003840 | 0x00003840
-`GetStateContainerDepth` | 132 (0x84) | Exported Function | 0x0000000180003850 | 0x00003850
-`GetStateFolder` | 133 (0x85) | Exported Function | 0x0000000180003860 | 0x00003860
-`PackageSidFromProductId` | 1 (0x1) | Exported Function | 0x0000000180003040 | 0x00003040
-`GetStateRootFolder` | 134 (0x86) | Exported Function | 0x0000000180003870 | 0x00003870
-`GetStateSettingsFolder` | 136 (0x88) | Exported Function | 0x0000000180003890 | 0x00003890
-`GetStateVersion` | 137 (0x89) | Exported Function | 0x00000001800038a0 | 0x000038a0
-`GetSystemAppDataFolder` | 138 (0x8a) | Exported Function | 0x00000001800038b0 | 0x000038b0
-`GetSystemAppDataKey` | 139 (0x8b) | Exported Function | 0x00000001800038c0 | 0x000038c0
-`GetSystemMetadataPath` | 140 (0x8c) | Exported Function | 0x00000001800038d0 | 0x000038d0
-`GetSystemMetadataPathForPackage` | 141 (0x8d) | Exported Function | 0x00000001800038e0 | 0x000038e0
-`GetSystemMetadataPathForPackageFamily` | 142 (0x8e) | Exported Function | 0x00000001800038f0 | 0x000038f0
-`GetSystemStateRootFolder` | 143 (0x8f) | Exported Function | 0x0000000180003900 | 0x00003900
-`GetTargetPlatformContext` | 144 (0x90) | Exported Function | 0x0000000180003910 | 0x00003910
-`IncrementPackageStatusVersion` | 145 (0x91) | Exported Function | 0x0000000180003920 | 0x00003920
-`InvalidateAppModelVersionCache` | 146 (0x92) | Exported Function | 0x0000000180003930 | 0x00003930
-`IsDeveloperModeEnabled` | 147 (0x93) | Exported Function | 0x0000000180003940 | 0x00003940
-`GetStateRootFolderBase` | 135 (0x87) | Exported Function | 0x0000000180003880 | 0x00003880
-`ParseApplicationUserModelId` | 177 (0xb1) | Exported Function | 0x0000000180003b20 | 0x00003b20
-`ParseApplicationUserModelIdA` | 178 (0xb2) | Exported Function | 0x0000000180003b30 | 0x00003b30
-`ProductIdFromPackageFamilyName` | 179 (0xb3) | Exported Function | 0x0000000180003b40 | 0x00003b40
-`SetExtensionProperty` | 210 (0xd2) | Exported Function | 0x0000000180003c70 | 0x00003c70
-`SetIsDeveloperModeEnabled` | 211 (0xd3) | Exported Function | 0x0000000180003c80 | 0x00003c80
-`SetIsSideloadingEnabled` | 212 (0xd4) | Exported Function | 0x0000000180003c90 | 0x00003c90
-`SetProtocolProperty` | 213 (0xd5) | Exported Function | 0x0000000180003ca0 | 0x00003ca0
-`SetRoamingLastObservedChangeTime` | 214 (0xd6) | Exported Function | 0x0000000180003cb0 | 0x00003cb0
-`SetStateVersion` | 215 (0xd7) | Exported Function | 0x0000000180003cc0 | 0x00003cc0
-`SharedLocalIsEnabled` | 216 (0xd8) | Exported Function | 0x0000000180003cd0 | 0x00003cd0
-`SubscribeStateChangeNotification` | 217 (0xd9) | Exported Function | 0x0000000180003ce0 | 0x00003ce0
-`UnregisterStateChangeNotification` | 218 (0xda) | Exported Function | 0x0000000180003cf0 | 0x00003cf0
-`UnregisterStateLock` | 219 (0xdb) | Exported Function | 0x0000000180003d00 | 0x00003d00
-`UnsubscribeStateChangeNotification` | 220 (0xdc) | Exported Function | 0x0000000180003d10 | 0x00003d10
-`UpdatePackageStatus` | 221 (0xdd) | Exported Function | 0x0000000180003d20 | 0x00003d20
-`SaveStateRootFolderPath` | 209 (0xd1) | Exported Function | 0x0000000180003c60 | 0x00003c60
-`UpdatePackageStatusForUser` | 222 (0xde) | Exported Function | 0x0000000180003d30 | 0x00003d30
-`VerifyApplicationUserModelId` | 224 (0xe0) | Exported Function | 0x0000000180003d50 | 0x00003d50
-`VerifyApplicationUserModelIdA` | 225 (0xe1) | Exported Function | 0x0000000180003d60 | 0x00003d60
-`VerifyPackageFamilyName` | 226 (0xe2) | Exported Function | 0x0000000180003d70 | 0x00003d70
-`VerifyPackageFamilyNameA` | 227 (0xe3) | Exported Function | 0x0000000180003d80 | 0x00003d80
-`VerifyPackageFullName` | 228 (0xe4) | Exported Function | 0x0000000180003d90 | 0x00003d90
-`VerifyPackageFullNameA` | 229 (0xe5) | Exported Function | 0x0000000180003da0 | 0x00003da0
-`VerifyPackageId` | 230 (0xe6) | Exported Function | 0x0000000180003db0 | 0x00003db0
-`VerifyPackageIdA` | 231 (0xe7) | Exported Function | 0x0000000180003dc0 | 0x00003dc0
-`VerifyPackagePublisher` | 232 (0xe8) | Exported Function | 0x0000000180003dd0 | 0x00003dd0
-`VerifyPackagePublisherA` | 233 (0xe9) | Exported Function | 0x0000000180003de0 | 0x00003de0
-`VerifyPackageRelativeApplicationId` | 234 (0xea) | Exported Function | 0x0000000180003df0 | 0x00003df0
-`VerifyPackageRelativeApplicationIdA` | 235 (0xeb) | Exported Function | 0x0000000180003e00 | 0x00003e00
-`UpdatePackageStatusForUserSid` | 223 (0xdf) | Exported Function | 0x0000000180003d40 | 0x00003d40
-`GetProtocolAumid` | 121 (0x79) | Exported Function | 0x00000001800037a0 | 0x000037a0
-`SaveAlternatePackageRootPath` | 208 (0xd0) | Exported Function | 0x0000000180003c50 | 0x00003c50
-`RemovePackageStatusForUser` | 206 (0xce) | Exported Function | 0x0000000180003c30 | 0x00003c30
-`PsmActivateApplicationByToken` | 180 (0xb4) | Exported Function | 0x00000001800047e0 | 0x000047e0
-`PsmAdjustActivationToken` | 181 (0xb5) | Exported Function | 0x0000000180004960 | 0x00004960
-`PsmAdjustActivationTokenEx` | 182 (0xb6) | Exported Function | 0x0000000180001130 | 0x00001130
-`PsmAdjustActivationTokenPkgClaim` | 183 (0xb7) | Exported Function | 0x00000001800049b0 | 0x000049b0
-`PsmAdjustActivationTokenWithDynamicId` | 184 (0xb8) | Exported Function | 0x0000000180004af0 | 0x00004af0
-`PsmCreateBrokerToken` | 185 (0xb9) | Exported Function | 0x0000000180001140 | 0x00001140
-`PsmCreateMatchToken` | 186 (0xba) | Exported Function | 0x0000000180004b40 | 0x00004b40
-`PsmQueryBackgroundActivationType` | 187 (0xbb) | Exported Function | 0x0000000180001010 | 0x00001010
-`PsmRegisterApplicationProcess` | 188 (0xbc) | Exported Function | 0x00000001800025c0 | 0x000025c0
-`PsmRegisterDesktopProcess` | 189 (0xbd) | Exported Function | 0x0000000180004dd0 | 0x00004dd0
-`PsmRegisterDesktopProcessWithAppContainerToken` | 190 (0xbe) | Exported Function | 0x00000001800025d0 | 0x000025d0
-`PsmRegisterServiceProcess` | 191 (0xbf) | Exported Function | 0x00000001800024c0 | 0x000024c0
-`ResetState` | 207 (0xcf) | Exported Function | 0x0000000180003c40 | 0x00003c40
-`PublisherFromPackageFullName` | 193 (0xc1) | Exported Function | 0x0000000180003b60 | 0x00003b60
-`QueryStateAtomValueInfo` | 194 (0xc2) | Exported Function | 0x0000000180003b70 | 0x00003b70
-`QueryStateContainerCreatedNew` | 195 (0xc3) | Exported Function | 0x0000000180003b80 | 0x00003b80
-`QueryStateContainerItemInfo` | 196 (0xc4) | Exported Function | 0x0000000180003b90 | 0x00003b90
-`ReadStateAtomValue` | 197 (0xc5) | Exported Function | 0x0000000180003ba0 | 0x00003ba0
-`ReadStateContainerValue` | 198 (0xc6) | Exported Function | 0x0000000180003bb0 | 0x00003bb0
-`RefreshPackageInfo` | 199 (0xc7) | Exported Function | 0x0000000180003bc0 | 0x00003bc0
-`RegisterStateChangeNotification` | 200 (0xc8) | Exported Function | 0x0000000180003bd0 | 0x00003bd0
-`RegisterStateLock` | 201 (0xc9) | Exported Function | 0x0000000180003be0 | 0x00003be0
-`ReleaseStateLock` | 202 (0xca) | Exported Function | 0x0000000180003bf0 | 0x00003bf0
-`RemoveExtensionProgIds` | 203 (0xcb) | Exported Function | 0x0000000180003c00 | 0x00003c00
-`RemovePackageFromFamilyXref` | 204 (0xcc) | Exported Function | 0x0000000180003c10 | 0x00003c10
-`RemovePackageStatus` | 205 (0xcd) | Exported Function | 0x0000000180003c20 | 0x00003c20
-`PublishStateChangeNotification` | 192 (0xc0) | Exported Function | 0x0000000180003b50 | 0x00003b50
-`WriteStateAtomValue` | 236 (0xec) | Exported Function | 0x0000000180003e10 | 0x00003e10
-`GetPackageVolumeSisPath` | 119 (0x77) | Exported Function | 0x0000000180003780 | 0x00003780
-`GetPackageStatusForUserSid` | 117 (0x75) | Exported Function | 0x0000000180003760 | 0x00003760
-`ClosePackageInfo` | 33 (0x21) | Exported Function | 0x0000000180003230 | 0x00003230
-`CloseState` | 34 (0x22) | Exported Function | 0x0000000180003240 | 0x00003240
-`CloseStateAtom` | 35 (0x23) | Exported Function | 0x0000000180003250 | 0x00003250
-`CloseStateChangeNotification` | 36 (0x24) | Exported Function | 0x0000000180003260 | 0x00003260
-`CloseStateContainer` | 37 (0x25) | Exported Function | 0x0000000180003270 | 0x00003270
-`CloseStateLock` | 38 (0x26) | Exported Function | 0x0000000180003280 | 0x00003280
-`CommitStateAtom` | 39 (0x27) | Exported Function | 0x0000000180003290 | 0x00003290
-`CouldMultiUserAppsBehaviorBePossibleForPackage` | 40 (0x28) | Exported Function | 0x00000001800032a0 | 0x000032a0
-`CreateStateAtom` | 41 (0x29) | Exported Function | 0x00000001800032b0 | 0x000032b0
-`CreateStateChangeNotification` | 42 (0x2a) | Exported Function | 0x00000001800032c0 | 0x000032c0
-`CreateStateContainer` | 43 (0x2b) | Exported Function | 0x00000001800032d0 | 0x000032d0
-`CreateStateLock` | 44 (0x2c) | Exported Function | 0x00000001800032e0 | 0x000032e0
-`CreateStateSubcontainer` | 45 (0x2d) | Exported Function | 0x00000001800032f0 | 0x000032f0
-`DeleteStateAtomValue` | 46 (0x2e) | Exported Function | 0x0000000180003300 | 0x00003300
-`DeleteStateContainer` | 47 (0x2f) | Exported Function | 0x0000000180003310 | 0x00003310
-`DeleteStateContainerValue` | 48 (0x30) | Exported Function | 0x0000000180003320 | 0x00003320
-`DuplicateStateContainerHandle` | 49 (0x31) | Exported Function | 0x0000000180003330 | 0x00003330
-`EnumerateExtensionNames` | 50 (0x32) | Exported Function | 0x0000000180003340 | 0x00003340
-`EnumerateStateAtomValues` | 51 (0x33) | Exported Function | 0x0000000180003350 | 0x00003350
-`EnumerateStateContainerItems` | 52 (0x34) | Exported Function | 0x0000000180003360 | 0x00003360
-`ExtensionProgIdExists` | 53 (0x35) | Exported Function | 0x0000000180003370 | 0x00003370
-`FindPackagesByPackageFamily` | 54 (0x36) | Exported Function | 0x0000000180003380 | 0x00003380
-`FormatApplicationUserModelId` | 55 (0x37) | Exported Function | 0x0000000180003390 | 0x00003390
-`FormatApplicationUserModelIdA` | 56 (0x38) | Exported Function | 0x00000001800033a0 | 0x000033a0
-`GenerateProcThreadAttributeBlob` | 57 (0x39) | Exported Function | 0x00000001800022c0 | 0x000022c0
-`CheckIfStateChangeNotificationExists` | 32 (0x20) | Exported Function | 0x0000000180003220 | 0x00003220
-`BuildProcThreadAttributeListFromBlob` | 31 (0x1f) | Exported Function | 0x00000001800020c0 | 0x000020c0
-`AppXUpdatePackageCapabilities` | 29 (0x1d) | Exported Function | 0x0000000180003200 | 0x00003200
-`AppXLookupMoniker` | 28 (0x1c) | Exported Function | 0x00000001800031f0 | 0x000031f0
-`AddDependencyToProcessPackageGraph` | 3 (0x3) | Exported Function | 0x0000000180003060 | 0x00003060
-`AddExtensionProgId` | 4 (0x4) | Exported Function | 0x0000000180003070 | 0x00003070
-`AddPackageToFamilyXref` | 5 (0x5) | Exported Function | 0x0000000180003080 | 0x00003080
-`AppContainerDeriveSidFromMoniker` | 6 (0x6) | Exported Function | 0x0000000180003090 | 0x00003090
-`AppContainerFreeMemory` | 7 (0x7) | Exported Function | 0x00000001800030a0 | 0x000030a0
-`AppContainerLookupDisplayNameMrtReference` | 8 (0x8) | Exported Function | 0x00000001800030b0 | 0x000030b0
-`AppContainerLookupMoniker` | 9 (0x9) | Exported Function | 0x00000001800030c0 | 0x000030c0
-`AppContainerRegisterSid` | 10 (0xa) | Exported Function | 0x00000001800030d0 | 0x000030d0
-`AppContainerUnregisterSid` | 11 (0xb) | Exported Function | 0x00000001800030e0 | 0x000030e0
-`ApplicationUserModelIdFromProductId` | 30 (0x1e) | Exported Function | 0x0000000180003210 | 0x00003210
-`AppPolicyGetClrCompat` | 12 (0xc) | Exported Function | 0x00000001800030f0 | 0x000030f0
-`AppPolicyGetCreateFileAccess` | 13 (0xd) | Exported Function | 0x0000000180003100 | 0x00003100
-`GetAlternatePackageRoots` | 58 (0x3a) | Exported Function | 0x00000001800033b0 | 0x000033b0
-`AppPolicyGetLifecycleManagement` | 14 (0xe) | Exported Function | 0x0000000180003110 | 0x00003110
-`AppPolicyGetProcessTerminationMethod` | 16 (0x10) | Exported Function | 0x0000000180003130 | 0x00003130
-`AppPolicyGetShowDeveloperDiagnostic` | 17 (0x11) | Exported Function | 0x0000000180003140 | 0x00003140
-`AppPolicyGetThreadInitializationType` | 18 (0x12) | Exported Function | 0x0000000180003150 | 0x00003150
-`AppPolicyGetWindowingModel` | 19 (0x13) | Exported Function | 0x0000000180003160 | 0x00003160
-`AppXFreeMemory` | 20 (0x14) | Exported Function | 0x0000000180003170 | 0x00003170
-`AppXGetApplicationData` | 21 (0x15) | Exported Function | 0x0000000180003180 | 0x00003180
-`AppXGetDevelopmentMode` | 22 (0x16) | Exported Function | 0x0000000180003190 | 0x00003190
-`AppXGetOSMaxVersionTested` | 23 (0x17) | Exported Function | 0x00000001800031a0 | 0x000031a0
-`AppXGetOSMinVersion` | 24 (0x18) | Exported Function | 0x00000001800031b0 | 0x000031b0
-`AppXGetPackageCapabilities` | 25 (0x19) | Exported Function | 0x00000001800031c0 | 0x000031c0
-`AppXGetPackageSid` | 26 (0x1a) | Exported Function | 0x00000001800031d0 | 0x000031d0
-`AppXLookupDisplayName` | 27 (0x1b) | Exported Function | 0x00000001800031e0 | 0x000031e0
-`AppPolicyGetMediaFoundationCodecLoading` | 15 (0xf) | Exported Function | 0x0000000180003120 | 0x00003120
-`GetAppDataFolder` | 59 (0x3b) | Exported Function | 0x00000001800033c0 | 0x000033c0
-`GetApplicationUserModelId` | 61 (0x3d) | Exported Function | 0x00000001800033e0 | 0x000033e0
-`GetApplicationUserModelIdFromToken` | 62 (0x3e) | Exported Function | 0x00000001800033f0 | 0x000033f0
-`GetPackageFamilyName` | 92 (0x5c) | Exported Function | 0x00000001800035d0 | 0x000035d0
-`GetPackageFamilyNameFromProgId` | 93 (0x5d) | Exported Function | 0x00000001800035e0 | 0x000035e0
-`GetPackageFamilyNameFromToken` | 94 (0x5e) | Exported Function | 0x00000001800035f0 | 0x000035f0
-`GetPackageFullName` | 95 (0x5f) | Exported Function | 0x0000000180003600 | 0x00003600
-`GetPackageFullNameFromToken` | 96 (0x60) | Exported Function | 0x0000000180003610 | 0x00003610
-`GetPackageGlobalizationContext` | 97 (0x61) | Exported Function | 0x0000000180003620 | 0x00003620
-`GetPackageGlobalizationProperty` | 98 (0x62) | Exported Function | 0x0000000180003630 | 0x00003630
-`GetPackageId` | 99 (0x63) | Exported Function | 0x0000000180003640 | 0x00003640
-`GetPackageInfo` | 100 (0x64) | Exported Function | 0x0000000180003650 | 0x00003650
-`GetPackageInfo2` | 101 (0x65) | Exported Function | 0x0000000180003660 | 0x00003660
-`GetPackageInfo3` | 102 (0x66) | Exported Function | 0x0000000180003670 | 0x00003670
-`GetPackageInstallTime` | 103 (0x67) | Exported Function | 0x0000000180003680 | 0x00003680
-`GetPackageContext` | 91 (0x5b) | Exported Function | 0x00000001800035c0 | 0x000035c0
-`GetPackageOSMaxVersionTested` | 104 (0x68) | Exported Function | 0x0000000180003690 | 0x00003690
-`GetPackagePathByFullName` | 106 (0x6a) | Exported Function | 0x00000001800036b0 | 0x000036b0
-`GetPackagePathByFullName2` | 107 (0x6b) | Exported Function | 0x00000001800036c0 | 0x000036c0
-`GetPackagePathOnVolume` | 108 (0x6c) | Exported Function | 0x00000001800036d0 | 0x000036d0
-`GetPackageProperty` | 109 (0x6d) | Exported Function | 0x00000001800036e0 | 0x000036e0
-`GetPackagePropertyString` | 110 (0x6e) | Exported Function | 0x00000001800036f0 | 0x000036f0
-`GetPackageResourcesContext` | 111 (0x6f) | Exported Function | 0x0000000180003700 | 0x00003700
-`GetPackageResourcesProperty` | 112 (0x70) | Exported Function | 0x0000000180003710 | 0x00003710
-`GetPackagesByPackageFamily` | 120 (0x78) | Exported Function | 0x0000000180003790 | 0x00003790
-`GetPackageSecurityContext` | 113 (0x71) | Exported Function | 0x0000000180003720 | 0x00003720
-`GetPackageSecurityProperty` | 114 (0x72) | Exported Function | 0x0000000180003730 | 0x00003730
-`GetPackageStatus` | 115 (0x73) | Exported Function | 0x0000000180003740 | 0x00003740
-`GetPackageStatusForUser` | 116 (0x74) | Exported Function | 0x0000000180003750 | 0x00003750
-`GetPackagePath` | 105 (0x69) | Exported Function | 0x00000001800036a0 | 0x000036a0
-`GetPackageTargetPlatformProperty` | 118 (0x76) | Exported Function | 0x0000000180003770 | 0x00003770
-`GetPackageApplicationResourcesContext` | 90 (0x5a) | Exported Function | 0x00000001800035b0 | 0x000035b0
-`GetPackageApplicationProperty` | 88 (0x58) | Exported Function | 0x0000000180003590 | 0x00003590
-`GetAppModelVersion` | 60 (0x3c) | Exported Function | 0x00000001800033d0 | 0x000033d0
-`GetCurrentApplicationUserModelId` | 63 (0x3f) | Exported Function | 0x0000000180003400 | 0x00003400
-`GetCurrentPackageApplicationContext` | 64 (0x40) | Exported Function | 0x0000000180003410 | 0x00003410
-`GetCurrentPackageApplicationResourcesContext` | 65 (0x41) | Exported Function | 0x0000000180003420 | 0x00003420
-`GetCurrentPackageContext` | 66 (0x42) | Exported Function | 0x0000000180003430 | 0x00003430
-`GetCurrentPackageFamilyName` | 67 (0x43) | Exported Function | 0x0000000180003440 | 0x00003440
-`GetCurrentPackageFullName` | 68 (0x44) | Exported Function | 0x0000000180003450 | 0x00003450
-`GetCurrentPackageGlobalizationContext` | 69 (0x45) | Exported Function | 0x0000000180003460 | 0x00003460
-`GetCurrentPackageId` | 70 (0x46) | Exported Function | 0x0000000180003470 | 0x00003470
-`GetCurrentPackageInfo` | 71 (0x47) | Exported Function | 0x0000000180003480 | 0x00003480
-`GetCurrentPackageInfo2` | 72 (0x48) | Exported Function | 0x0000000180003490 | 0x00003490
-`GetCurrentPackageInfo3` | 73 (0x49) | Exported Function | 0x00000001800034a0 | 0x000034a0
-`GetPackageApplicationPropertyString` | 89 (0x59) | Exported Function | 0x00000001800035a0 | 0x000035a0
-`GetCurrentPackagePath` | 74 (0x4a) | Exported Function | 0x00000001800034b0 | 0x000034b0
-`GetCurrentPackageResourcesContext` | 76 (0x4c) | Exported Function | 0x00000001800034d0 | 0x000034d0
-`GetCurrentPackageSecurityContext` | 77 (0x4d) | Exported Function | 0x00000001800034e0 | 0x000034e0
-`GetCurrentTargetPlatformContext` | 78 (0x4e) | Exported Function | 0x00000001800034f0 | 0x000034f0
-`GetEffectivePackageStatusForUser` | 79 (0x4f) | Exported Function | 0x0000000180003500 | 0x00003500
-`GetEffectivePackageStatusForUserSid` | 80 (0x50) | Exported Function | 0x0000000180003510 | 0x00003510
-`GetExtensionApplicationUserModelId` | 81 (0x51) | Exported Function | 0x0000000180003520 | 0x00003520
-`GetExtensionProgIds` | 82 (0x52) | Exported Function | 0x0000000180003530 | 0x00003530
-`GetExtensionProperty` | 83 (0x53) | Exported Function | 0x0000000180003540 | 0x00003540
-`GetExtensionProperty2` | 84 (0x54) | Exported Function | 0x0000000180003550 | 0x00003550
-`GetHivePath` | 85 (0x55) | Exported Function | 0x0000000180003560 | 0x00003560
-`GetPackageApplicationContext` | 86 (0x56) | Exported Function | 0x0000000180003570 | 0x00003570
-`GetPackageApplicationIds` | 87 (0x57) | Exported Function | 0x0000000180003580 | 0x00003580
-`GetCurrentPackagePath2` | 75 (0x4b) | Exported Function | 0x00000001800034c0 | 0x000034c0
-`WriteStateContainerValue` | 237 (0xed) | Exported Function | 0x0000000180003e20 | 0x00003e20
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenStateExplicitForUserSidString` | 160 | Exported Function
+`OpenStateExplicitForUserSid` | 159 | Exported Function
+`OpenStateExplicit` | 158 | Exported Function
+`OverrideRoamingDataModificationTimesInRange` | 161 | Exported Function
+`PackageFamilyNameFromId` | 164 | Exported Function
+`PackageFamilyNameFromFullNameA` | 163 | Exported Function
+`PackageFamilyNameFromFullName` | 162 | Exported Function
+`OpenPackageInfoByFullName` | 153 | Exported Function
+`IsSideloadingPolicyApplied` | 152 | Exported Function
+`IsSideloadingEnabled` | 151 | Exported Function
+`OpenPackageInfoByFullNameForMachine` | 154 | Exported Function
+`OpenStateAtom` | 157 | Exported Function
+`OpenState` | 156 | Exported Function
+`OpenPackageInfoByFullNameForUser` | 155 | Exported Function
+`PackageFamilyNameFromIdA` | 165 | Exported Function
+`PackageRelativeApplicationIdFromProductId` | 175 | Exported Function
+`PackageNameAndPublisherIdFromFamilyNameA` | 174 | Exported Function
+`PackageNameAndPublisherIdFromFamilyName` | 173 | Exported Function
+`PackageSidFromFamilyName` | 176 | Exported Function
+`ParseApplicationUserModelIdA` | 178 | Exported Function
+`ParseApplicationUserModelId` | 177 | Exported Function
+`PackageSidFromProductId` | 1 | Exported Function
+`PackageFullNameFromIdA` | 168 | Exported Function
+`PackageFullNameFromId` | 167 | Exported Function
+`PackageFamilyNameFromProductId` | 166 | Exported Function
+`PackageFullNameFromProductId` | 169 | Exported Function
+`PackageIdFromProductId` | 172 | Exported Function
+`PackageIdFromFullNameA` | 171 | Exported Function
+`PackageIdFromFullName` | 170 | Exported Function
+`IsOnDemandRegistrationSupportedForExtensionCategory` | 150 | Exported Function
+`GetStagedPackagePathByFullName` | 130 | Exported Function
+`GetStagedPackageOrigin` | 129 | Exported Function
+`GetSharedLocalFolder` | 128 | Exported Function
+`GetStagedPackagePathByFullName2` | 131 | Exported Function
+`GetStateRootFolder` | 134 | Exported Function
+`GetStateFolder` | 133 | Exported Function
+`GetStateContainerDepth` | 132 | Exported Function
+`GetPublisherCacheFolder` | 123 | Exported Function
+`GetProtocolProperty` | 122 | Exported Function
+`GetProtocolAumid` | 121 | Exported Function
+`GetPublisherRootFolder` | 124 | Exported Function
+`GetSerializedAtomBytes` | 127 | Exported Function
+`GetSecureSystemAppDataFolder` | 126 | Exported Function
+`GetRoamingLastObservedChangeTime` | 125 | Exported Function
+`GetStateRootFolderBase` | 135 | Exported Function
+`IncrementPackageStatusVersion` | 145 | Exported Function
+`GetTargetPlatformContext` | 144 | Exported Function
+`GetSystemStateRootFolder` | 143 | Exported Function
+`InvalidateAppModelVersionCache` | 146 | Exported Function
+`IsMrtResourceRedirectionEnabled` | 149 | Exported Function
+`IsDeveloperModePolicyApplied` | 148 | Exported Function
+`IsDeveloperModeEnabled` | 147 | Exported Function
+`GetSystemAppDataFolder` | 138 | Exported Function
+`GetStateVersion` | 137 | Exported Function
+`GetStateSettingsFolder` | 136 | Exported Function
+`GetSystemAppDataKey` | 139 | Exported Function
+`GetSystemMetadataPathForPackageFamily` | 142 | Exported Function
+`GetSystemMetadataPathForPackage` | 141 | Exported Function
+`GetSystemMetadataPath` | 140 | Exported Function
+`UnregisterStateChangeNotification` | 218 | Exported Function
+`SubscribeStateChangeNotification` | 217 | Exported Function
+`SharedLocalIsEnabled` | 216 | Exported Function
+`UnregisterStateLock` | 219 | Exported Function
+`UpdatePackageStatusForUser` | 222 | Exported Function
+`UpdatePackageStatus` | 221 | Exported Function
+`UnsubscribeStateChangeNotification` | 220 | Exported Function
+`SetIsDeveloperModeEnabled` | 211 | Exported Function
+`SetExtensionProperty` | 210 | Exported Function
+`SaveStateRootFolderPath` | 209 | Exported Function
+`SetIsSideloadingEnabled` | 212 | Exported Function
+`SetStateVersion` | 215 | Exported Function
+`SetRoamingLastObservedChangeTime` | 214 | Exported Function
+`SetProtocolProperty` | 213 | Exported Function
+`UpdatePackageStatusForUserSid` | 223 | Exported Function
+`VerifyPackagePublisherA` | 233 | Exported Function
+`VerifyPackagePublisher` | 232 | Exported Function
+`VerifyPackageIdA` | 231 | Exported Function
+`VerifyPackageRelativeApplicationId` | 234 | Exported Function
+`WriteStateContainerValue` | 237 | Exported Function
+`WriteStateAtomValue` | 236 | Exported Function
+`VerifyPackageRelativeApplicationIdA` | 235 | Exported Function
+`VerifyPackageFamilyName` | 226 | Exported Function
+`VerifyApplicationUserModelIdA` | 225 | Exported Function
+`VerifyApplicationUserModelId` | 224 | Exported Function
+`VerifyPackageFamilyNameA` | 227 | Exported Function
+`VerifyPackageId` | 230 | Exported Function
+`VerifyPackageFullNameA` | 229 | Exported Function
+`VerifyPackageFullName` | 228 | Exported Function
+`SaveAlternatePackageRootPath` | 208 | Exported Function
+`PsmRegisterApplicationProcess` | 188 | Exported Function
+`PsmQueryBackgroundActivationType` | 187 | Exported Function
+`PsmCreateMatchToken` | 186 | Exported Function
+`PsmRegisterDesktopProcess` | 189 | Exported Function
+`PublisherFromPackageFullName` | 193 | Exported Function
+`PsmRegisterServiceProcess` | 191 | Exported Function
+`PsmRegisterDesktopProcessWithAppContainerToken` | 190 | Exported Function
+`PsmAdjustActivationToken` | 181 | Exported Function
+`PsmActivateApplicationByToken` | 180 | Exported Function
+`ProductIdFromPackageFamilyName` | 179 | Exported Function
+`PsmAdjustActivationTokenEx` | 182 | Exported Function
+`PsmCreateBrokerToken` | 185 | Exported Function
+`PsmAdjustActivationTokenWithDynamicId` | 184 | Exported Function
+`PsmAdjustActivationTokenPkgClaim` | 183 | Exported Function
+`PublishStateChangeNotification` | 192 | Exported Function
+`RemoveExtensionProgIds` | 203 | Exported Function
+`ReleaseStateLock` | 202 | Exported Function
+`RegisterStateLock` | 201 | Exported Function
+`RemovePackageFromFamilyXref` | 204 | Exported Function
+`ResetState` | 207 | Exported Function
+`RemovePackageStatusForUser` | 206 | Exported Function
+`RemovePackageStatus` | 205 | Exported Function
+`QueryStateContainerItemInfo` | 196 | Exported Function
+`QueryStateContainerCreatedNew` | 195 | Exported Function
+`QueryStateAtomValueInfo` | 194 | Exported Function
+`ReadStateAtomValue` | 197 | Exported Function
+`RegisterStateChangeNotification` | 200 | Exported Function
+`RefreshPackageInfo` | 199 | Exported Function
+`ReadStateContainerValue` | 198 | Exported Function
+`GetPackageVolumeSisPath` | 119 | Exported Function
+`CreateStateAtom` | 41 | Exported Function
+`CouldMultiUserAppsBehaviorBePossibleForPackage` | 40 | Exported Function
+`CommitStateAtom` | 39 | Exported Function
+`CreateStateChangeNotification` | 42 | Exported Function
+`CreateStateSubcontainer` | 45 | Exported Function
+`CreateStateLock` | 44 | Exported Function
+`CreateStateContainer` | 43 | Exported Function
+`CloseState` | 34 | Exported Function
+`ClosePackageInfo` | 33 | Exported Function
+`CheckIfStateChangeNotificationExists` | 32 | Exported Function
+`CloseStateAtom` | 35 | Exported Function
+`CloseStateLock` | 38 | Exported Function
+`CloseStateContainer` | 37 | Exported Function
+`CloseStateChangeNotification` | 36 | Exported Function
+`DeleteStateAtomValue` | 46 | Exported Function
+`FormatApplicationUserModelIdA` | 56 | Exported Function
+`FormatApplicationUserModelId` | 55 | Exported Function
+`FindPackagesByPackageFamily` | 54 | Exported Function
+`GenerateProcThreadAttributeBlob` | 57 | Exported Function
+`GetApplicationUserModelId` | 61 | Exported Function
+`GetAppDataFolder` | 59 | Exported Function
+`GetAlternatePackageRoots` | 58 | Exported Function
+`DuplicateStateContainerHandle` | 49 | Exported Function
+`DeleteStateContainerValue` | 48 | Exported Function
+`DeleteStateContainer` | 47 | Exported Function
+`EnumerateExtensionNames` | 50 | Exported Function
+`ExtensionProgIdExists` | 53 | Exported Function
+`EnumerateStateContainerItems` | 52 | Exported Function
+`EnumerateStateAtomValues` | 51 | Exported Function
+`BuildProcThreadAttributeListFromBlob` | 31 | Exported Function
+`AppContainerUnregisterSid` | 11 | Exported Function
+`AppContainerRegisterSid` | 10 | Exported Function
+`AppContainerLookupMoniker` | 9 | Exported Function
+`ApplicationUserModelIdFromProductId` | 30 | Exported Function
+`AppPolicyGetLifecycleManagement` | 14 | Exported Function
+`AppPolicyGetCreateFileAccess` | 13 | Exported Function
+`AppPolicyGetClrCompat` | 12 | Exported Function
+`AddExtensionProgId` | 4 | Exported Function
+`AddDependencyToProcessPackageGraph` | 3 | Exported Function
+`AcquireStateLock` | 2 | Exported Function
+`AddPackageToFamilyXref` | 5 | Exported Function
+`AppContainerLookupDisplayNameMrtReference` | 8 | Exported Function
+`AppContainerFreeMemory` | 7 | Exported Function
+`AppContainerDeriveSidFromMoniker` | 6 | Exported Function
+`AppPolicyGetMediaFoundationCodecLoading` | 15 | Exported Function
+`AppXGetPackageCapabilities` | 25 | Exported Function
+`AppXGetOSMinVersion` | 24 | Exported Function
+`AppXGetOSMaxVersionTested` | 23 | Exported Function
+`AppXGetPackageSid` | 26 | Exported Function
+`AppXUpdatePackageCapabilities` | 29 | Exported Function
+`AppXLookupMoniker` | 28 | Exported Function
+`AppXLookupDisplayName` | 27 | Exported Function
+`AppPolicyGetThreadInitializationType` | 18 | Exported Function
+`AppPolicyGetShowDeveloperDiagnostic` | 17 | Exported Function
+`AppPolicyGetProcessTerminationMethod` | 16 | Exported Function
+`AppPolicyGetWindowingModel` | 19 | Exported Function
+`AppXGetDevelopmentMode` | 22 | Exported Function
+`AppXGetApplicationData` | 21 | Exported Function
+`AppXFreeMemory` | 20 | Exported Function
+`GetPackageInfo` | 100 | Exported Function
+`GetPackageId` | 99 | Exported Function
+`GetPackageGlobalizationProperty` | 98 | Exported Function
+`GetPackageInfo2` | 101 | Exported Function
+`GetPackageOSMaxVersionTested` | 104 | Exported Function
+`GetPackageInstallTime` | 103 | Exported Function
+`GetPackageInfo3` | 102 | Exported Function
+`GetPackageFamilyNameFromProgId` | 93 | Exported Function
+`GetPackageFamilyName` | 92 | Exported Function
+`GetPackageContext` | 91 | Exported Function
+`GetPackageFamilyNameFromToken` | 94 | Exported Function
+`GetPackageGlobalizationContext` | 97 | Exported Function
+`GetPackageFullNameFromToken` | 96 | Exported Function
+`GetPackageFullName` | 95 | Exported Function
+`GetPackagePath` | 105 | Exported Function
+`GetPackageSecurityProperty` | 114 | Exported Function
+`GetPackageSecurityContext` | 113 | Exported Function
+`GetPackagesByPackageFamily` | 120 | Exported Function
+`GetPackageStatus` | 115 | Exported Function
+`GetPackageTargetPlatformProperty` | 118 | Exported Function
+`GetPackageStatusForUserSid` | 117 | Exported Function
+`GetPackageStatusForUser` | 116 | Exported Function
+`GetPackagePathOnVolume` | 108 | Exported Function
+`GetPackagePathByFullName2` | 107 | Exported Function
+`GetPackagePathByFullName` | 106 | Exported Function
+`GetPackageProperty` | 109 | Exported Function
+`GetPackageResourcesProperty` | 112 | Exported Function
+`GetPackageResourcesContext` | 111 | Exported Function
+`GetPackagePropertyString` | 110 | Exported Function
+`GetPackageApplicationResourcesContext` | 90 | Exported Function
+`GetCurrentPackageId` | 70 | Exported Function
+`GetCurrentPackageGlobalizationContext` | 69 | Exported Function
+`GetCurrentPackageFullName` | 68 | Exported Function
+`GetCurrentPackageInfo` | 71 | Exported Function
+`GetCurrentPackagePath` | 74 | Exported Function
+`GetCurrentPackageInfo3` | 73 | Exported Function
+`GetCurrentPackageInfo2` | 72 | Exported Function
+`GetCurrentApplicationUserModelId` | 63 | Exported Function
+`GetAppModelVersion` | 60 | Exported Function
+`GetApplicationUserModelIdFromToken` | 62 | Exported Function
+`GetCurrentPackageApplicationContext` | 64 | Exported Function
+`GetCurrentPackageFamilyName` | 67 | Exported Function
+`GetCurrentPackageContext` | 66 | Exported Function
+`GetCurrentPackageApplicationResourcesContext` | 65 | Exported Function
+`GetCurrentPackagePath2` | 75 | Exported Function
+`GetHivePath` | 85 | Exported Function
+`GetExtensionProperty2` | 84 | Exported Function
+`GetExtensionProperty` | 83 | Exported Function
+`GetPackageApplicationContext` | 86 | Exported Function
+`GetPackageApplicationPropertyString` | 89 | Exported Function
+`GetPackageApplicationProperty` | 88 | Exported Function
+`GetPackageApplicationIds` | 87 | Exported Function
+`GetCurrentTargetPlatformContext` | 78 | Exported Function
+`GetCurrentPackageSecurityContext` | 77 | Exported Function
+`GetCurrentPackageResourcesContext` | 76 | Exported Function
+`GetEffectivePackageStatusForUser` | 79 | Exported Function
+`GetExtensionProgIds` | 82 | Exported Function
+`GetExtensionApplicationUserModelId` | 81 | Exported Function
+`GetEffectivePackageStatusForUserSid` | 80 | Exported Function
 
 
 ## Signature

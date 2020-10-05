@@ -24,18 +24,18 @@ PE256 | `12F1FBF4076DFE032D4CB6572869ADBF76B789A5C6E716B31912454EA4F0AB78`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AppRepComputeImageHash` | 1 (0x1) | Exported Function | 0x100014d0 | 0x000014d0
-`AppRepComputeImageHashWithOffset` | 2 (0x2) | Exported Function | 0x100014c0 | 0x000014c0
-`AppRepComputeSignatureInfo` | 3 (0x3) | Exported Function | 0x100014d0 | 0x000014d0
-`AppRepFreeAttributeLib` | 4 (0x4) | Exported Function | 0x100014b0 | 0x000014b0
-`AppRepInitializeAttributeLib` | 5 (0x5) | Exported Function | 0x100014a0 | 0x000014a0
-`AppRepParameterCleanup` | 6 (0x6) | Exported Function | 0x10001490 | 0x00001490
-`AppRepPartialTelemetryCleanup` | 7 (0x7) | Exported Function | 0x10001490 | 0x00001490
-`RepGetFileInformation` | 8 (0x8) | Exported Function | 0x10001480 | 0x00001480
-`RepInformUserAction` | 9 (0x9) | Exported Function | 0x10001470 | 0x00001470
-`ReputationInfoCleanup` | 10 (0xa) | Exported Function | 0x10001490 | 0x00001490
+Function Name | Ordinal | Type
+-- | -- | --
+`AppRepPartialTelemetryCleanup` | 7 | Exported Function
+`AppRepParameterCleanup` | 6 | Exported Function
+`RepGetFileInformation` | 8 | Exported Function
+`ReputationInfoCleanup` | 10 | Exported Function
+`RepInformUserAction` | 9 | Exported Function
+`AppRepComputeImageHashWithOffset` | 2 | Exported Function
+`AppRepComputeImageHash` | 1 | Exported Function
+`AppRepComputeSignatureInfo` | 3 | Exported Function
+`AppRepInitializeAttributeLib` | 5 | Exported Function
+`AppRepFreeAttributeLib` | 4 | Exported Function
 
 
 ## Signature

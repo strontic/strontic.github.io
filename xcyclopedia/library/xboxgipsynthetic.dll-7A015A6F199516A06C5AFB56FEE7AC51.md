@@ -23,21 +23,21 @@ PE256 | `E67F90F4D59B6E6C8C759B7D59182B43EBB96E393D6F30522F8F4C1BEEE03F63`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x10004200 | 0x00004200
-`SyntheticController_AddAudioHeadset` | 2 (0x2) | Exported Function | 0x10003f70 | 0x00003f70
-`SyntheticController_Connect` | 3 (0x3) | Exported Function | 0x10004030 | 0x00004030
-`SyntheticController_CreateController` | 4 (0x4) | Exported Function | 0x10003ec0 | 0x00003ec0
-`SyntheticController_Disconnect` | 5 (0x5) | Exported Function | 0x10004070 | 0x00004070
-`SyntheticController_GetDeviceId` | 6 (0x6) | Exported Function | 0x100040b0 | 0x000040b0
-`SyntheticController_RegisterReportCallback` | 7 (0x7) | Exported Function | 0x100040f0 | 0x000040f0
-`SyntheticController_RemoveAudioHeadset` | 8 (0x8) | Exported Function | 0x10003fb0 | 0x00003fb0
-`SyntheticController_RemoveController` | 9 (0x9) | Exported Function | 0x10003f30 | 0x00003f30
-`SyntheticController_SendAudio` | 10 (0xa) | Exported Function | 0x10003ff0 | 0x00003ff0
-`SyntheticController_SendReport` | 11 (0xb) | Exported Function | 0x100041c0 | 0x000041c0
-`SyntheticController_SetTargetProcess` | 12 (0xc) | Exported Function | 0x10004170 | 0x00004170
-`SyntheticController_UnregisterReportCallback` | 13 (0xd) | Exported Function | 0x10004130 | 0x00004130
+Function Name | Ordinal | Type
+-- | -- | --
+`SyntheticController_SendAudio` | 10 | Exported Function
+`SyntheticController_RemoveController` | 9 | Exported Function
+`SyntheticController_RemoveAudioHeadset` | 8 | Exported Function
+`SyntheticController_UnregisterReportCallback` | 13 | Exported Function
+`SyntheticController_SetTargetProcess` | 12 | Exported Function
+`SyntheticController_SendReport` | 11 | Exported Function
+`SyntheticController_RegisterReportCallback` | 7 | Exported Function
+`SyntheticController_Connect` | 3 | Exported Function
+`SyntheticController_AddAudioHeadset` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
+`SyntheticController_GetDeviceId` | 6 | Exported Function
+`SyntheticController_Disconnect` | 5 | Exported Function
+`SyntheticController_CreateController` | 4 | Exported Function
 
 
 ## Signature

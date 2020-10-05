@@ -24,13 +24,13 @@ PE256 | `C6643F38D42EBACE9EFCB7BF109B5B871206BD318350D2FDD43E89277D3D5902`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Close` | 1 (0x1) | Exported Function | 0x600073a0 | 0x000073a0
-`Collect` | 2 (0x2) | Exported Function | 0x60007110 | 0x00007110
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x60007450 | 0x00007450
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x60007630 | 0x00007630
-`Open` | 5 (0x5) | Exported Function | 0x60006ff0 | 0x00006ff0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 4 | Exported Function
+`Open` | 5 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`Close` | 1 | Exported Function
+`Collect` | 2 | Exported Function
 
 
 ## Signature

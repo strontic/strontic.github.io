@@ -24,12 +24,12 @@ PE256 | `1FFA40F180CF9D9964623AF0F8320CE75536B1486D6E29DCBB2B82857CC7C862`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SnmpExtensionInit` | 1 (0x1) | Exported Function | 0x00000001800019a0 | 0x000019a0
-`SnmpExtensionInitEx` | 2 (0x2) | Exported Function | 0x0000000180001ac0 | 0x00001ac0
-`SnmpExtensionQuery` | 3 (0x3) | Exported Function | 0x0000000180001b10 | 0x00001b10
-`SnmpExtensionTrap` | 4 (0x4) | Exported Function | 0x0000000180001b40 | 0x00001b40
+Function Name | Ordinal | Type
+-- | -- | --
+`SnmpExtensionQuery` | 3 | Exported Function
+`SnmpExtensionTrap` | 4 | Exported Function
+`SnmpExtensionInit` | 1 | Exported Function
+`SnmpExtensionInitEx` | 2 | Exported Function
 
 
 ## Signature

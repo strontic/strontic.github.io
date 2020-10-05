@@ -24,22 +24,22 @@ PE256 | `A91115BD57099E28E1D68B7AFB1F023DEC46D67AB11232E0F9589B9BFD659FA5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreatePatchFileA` | 1 (0x1) | Exported Function | 0x58f232f0 | 0x000032f0
-`CreatePatchFileByHandles` | 2 (0x2) | Exported Function | 0x58f233b0 | 0x000033b0
-`CreatePatchFileByHandlesEx` | 3 (0x3) | Exported Function | 0x58f24e20 | 0x00004e20
-`CreatePatchFileExA` | 4 (0x4) | Exported Function | 0x58f23400 | 0x00003400
-`CreatePatchFileExW` | 5 (0x5) | Exported Function | 0x58f235a0 | 0x000035a0
-`CreatePatchFileW` | 6 (0x6) | Exported Function | 0x58f23350 | 0x00003350
-`ExtractPatchHeaderToFileA` | 7 (0x7) | Exported Function | 0x58f24e50 | 0x00004e50
-`ExtractPatchHeaderToFileByHandles` | 8 (0x8) | Exported Function | 0x58f24f50 | 0x00004f50
-`ExtractPatchHeaderToFileW` | 9 (0x9) | Exported Function | 0x58f24ed0 | 0x00004ed0
-`GetFilePatchSignatureA` | 10 (0xa) | Exported Function | 0x58f22240 | 0x00002240
-`GetFilePatchSignatureByBuffer` | 11 (0xb) | Exported Function | 0x58f223e0 | 0x000023e0
-`GetFilePatchSignatureByHandle` | 12 (0xc) | Exported Function | 0x58f22370 | 0x00002370
-`GetFilePatchSignatureW` | 13 (0xd) | Exported Function | 0x58f222a0 | 0x000022a0
-`NormalizeFileForPatchSignature` | 14 (0xe) | Exported Function | 0x58f22110 | 0x00002110
+Function Name | Ordinal | Type
+-- | -- | --
+`GetFilePatchSignatureA` | 10 | Exported Function
+`ExtractPatchHeaderToFileW` | 9 | Exported Function
+`ExtractPatchHeaderToFileByHandles` | 8 | Exported Function
+`GetFilePatchSignatureByBuffer` | 11 | Exported Function
+`NormalizeFileForPatchSignature` | 14 | Exported Function
+`GetFilePatchSignatureW` | 13 | Exported Function
+`GetFilePatchSignatureByHandle` | 12 | Exported Function
+`CreatePatchFileByHandlesEx` | 3 | Exported Function
+`CreatePatchFileByHandles` | 2 | Exported Function
+`CreatePatchFileA` | 1 | Exported Function
+`CreatePatchFileExA` | 4 | Exported Function
+`ExtractPatchHeaderToFileA` | 7 | Exported Function
+`CreatePatchFileW` | 6 | Exported Function
+`CreatePatchFileExW` | 5 | Exported Function
 
 
 ## Signature

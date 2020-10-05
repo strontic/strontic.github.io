@@ -24,15 +24,15 @@ PE256 | `415A355285716E0E3B19A0B65105C106432B2ABDF21FE8C9BB9F58A3337A8AC5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ImplatMuxDispatch` | 1 (0x1) | Exported Function | 0x000000018001f1a8 | 0x0001f1a8
-`ImplatMuxMemberUninstall` | 2 (0x2) | Exported Function | 0x000000018001f148 | 0x0001f148
-`ImplatMuxModified` | 3 (0x3) | Exported Function | 0x000000018001f190 | 0x0001f190
-`ImplatMuxVirtualInterfaceChanged` | 4 (0x4) | Exported Function | 0x000000018001f160 | 0x0001f160
-`ImplatMuxVirtualInterfaces` | 5 (0x5) | Exported Function | 0x000000018001f178 | 0x0001f178
-`ImplatTransactionDispatch` | 6 (0x6) | Exported Function | 0x000000018001f120 | 0x0001f120
-`ImplatVmsBinding` | 7 (0x7) | Exported Function | 0x000000018001f1c0 | 0x0001f1c0
+Function Name | Ordinal | Type
+-- | -- | --
+`ImplatMuxVirtualInterfaces` | 5 | Exported Function
+`ImplatTransactionDispatch` | 6 | Exported Function
+`ImplatVmsBinding` | 7 | Exported Function
+`ImplatMuxVirtualInterfaceChanged` | 4 | Exported Function
+`ImplatMuxDispatch` | 1 | Exported Function
+`ImplatMuxMemberUninstall` | 2 | Exported Function
+`ImplatMuxModified` | 3 | Exported Function
 
 
 ## Signature

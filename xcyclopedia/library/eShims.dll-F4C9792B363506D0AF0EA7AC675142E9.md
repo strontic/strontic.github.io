@@ -24,19 +24,19 @@ PE256 | `A51148B19CA6B178FD57B45BC273B38A61D3E9D641139F8F72F827D4D83F6633`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IEShims_CreateFileW` | 2 (0x2) | Exported Function | 0x0000000180013430 | 0x00013430
-`IEShims_FindClose` | 3 (0x3) | Exported Function | 0x0000000180013540 | 0x00013540
-`IEShims_FindFirstFileW` | 4 (0x4) | Exported Function | 0x00000001800135a0 | 0x000135a0
-`IEShims_GetFileAttributesExW` | 5 (0x5) | Exported Function | 0x0000000180013130 | 0x00013130
-`IEShims_GetFileAttributesW` | 6 (0x6) | Exported Function | 0x0000000180013650 | 0x00013650
-`IEShims_GetFullPathNameW` | 7 (0x7) | Exported Function | 0x0000000180013750 | 0x00013750
-`IEShims_GetLongPathNameW` | 8 (0x8) | Exported Function | 0x0000000180013930 | 0x00013930
-`IEShims_Initialize` | 9 (0x9) | Exported Function | 0x0000000180002000 | 0x00002000
-`IEShims_Uninitialize` | 10 (0xa) | Exported Function | 0x0000000180012e60 | 0x00012e60
-`IEShims_WNetGetConnectionW` | 11 (0xb) | Exported Function | 0x0000000180013290 | 0x00013290
-`RegisterFlashShimHandler` | 1 (0x1) | Exported Function | 0x0000000180010440 | 0x00010440
+Function Name | Ordinal | Type
+-- | -- | --
+`IEShims_Initialize` | 9 | Exported Function
+`IEShims_GetLongPathNameW` | 8 | Exported Function
+`IEShims_Uninitialize` | 10 | Exported Function
+`RegisterFlashShimHandler` | 1 | Exported Function
+`IEShims_WNetGetConnectionW` | 11 | Exported Function
+`IEShims_GetFullPathNameW` | 7 | Exported Function
+`IEShims_FindClose` | 3 | Exported Function
+`IEShims_CreateFileW` | 2 | Exported Function
+`IEShims_FindFirstFileW` | 4 | Exported Function
+`IEShims_GetFileAttributesW` | 6 | Exported Function
+`IEShims_GetFileAttributesExW` | 5 | Exported Function
 
 
 ## Signature

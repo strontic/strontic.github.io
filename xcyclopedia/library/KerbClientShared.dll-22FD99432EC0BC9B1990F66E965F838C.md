@@ -24,46 +24,46 @@ PE256 | `77580FE76100BCFB68F510EE06F34AB657C31F2D7CD70D3282A2A52EA771745A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`KerbClientAlloc` | 1 (0x1) | Exported Function | 0x100036b0 | 0x000036b0
-`KerbClientSharedCleanup` | 22 (0x16) | Exported Function | 0x10006110 | 0x00006110
-`KerbClientSharedInit` | 23 (0x17) | Exported Function | 0x10003ba0 | 0x00003ba0
-`KerbClientTransformStoredCred` | 24 (0x18) | Exported Function | 0x10004e70 | 0x00004e70
-`KerbClientUnpackAsn1BufferVoid` | 25 (0x19) | Exported Function | 0x10008c40 | 0x00008c40
-`KerbClientUnpackKdcReplyBody` | 26 (0x1a) | Exported Function | 0x10007f70 | 0x00007f70
-`KerbClientUpdateSharedConfiguration` | 27 (0x1b) | Exported Function | 0x10003d90 | 0x00003d90
-`KerbClientVerifyChecksum` | 28 (0x1c) | Exported Function | 0x10007af0 | 0x00007af0
-`KerbClientVerifyEncryptedChallengePaData` | 29 (0x1d) | Exported Function | 0x10006ae0 | 0x00006ae0
-`KerbClientVerifyFastArmoredKdcReply` | 30 (0x1e) | Exported Function | 0x10006c30 | 0x00006c30
-`KerbClientVerifyFastArmoredKerbError` | 31 (0x1f) | Exported Function | 0x10007150 | 0x00007150
-`KerbClientVerifyFastArmoredTgsReply` | 32 (0x20) | Exported Function | 0x10007570 | 0x00007570
-`KerbDHCreateBCryptKey` | 33 (0x21) | Exported Function | 0x100081d0 | 0x000081d0
-`KerbDHGetLegacyDHParameters` | 34 (0x22) | Exported Function | 0x10008470 | 0x00008470
-`KerbDHGetLittleEndianPublicKey` | 35 (0x23) | Exported Function | 0x100086d0 | 0x000086d0
-`KerbDHGetSharedSecretFromCapiKeyBuffer` | 36 (0x24) | Exported Function | 0x10008910 | 0x00008910
-`KerbClientParseKeyListReplyPaData` | 21 (0x15) | Exported Function | 0x10005430 | 0x00005430
-`KerbClientPackAsn1Buffer` | 20 (0x14) | Exported Function | 0x10003750 | 0x00003750
-`KerbClientPackApReply` | 19 (0x13) | Exported Function | 0x10007e20 | 0x00007e20
-`KerbClientFreeSupplementalCredentials` | 18 (0x12) | Exported Function | 0x100060a0 | 0x000060a0
-`KerbClientAllocateStoredCred` | 2 (0x2) | Exported Function | 0x10004de0 | 0x00004de0
-`KerbClientBuildAsReqAuthenticator` | 3 (0x3) | Exported Function | 0x10005230 | 0x00005230
-`KerbClientBuildEncryptedAuthData` | 4 (0x4) | Exported Function | 0x100077a0 | 0x000077a0
-`KerbClientBuildExplicitArmorKey` | 5 (0x5) | Exported Function | 0x10006490 | 0x00006490
-`KerbClientBuildFastArmoredKdcRequest` | 6 (0x6) | Exported Function | 0x10006570 | 0x00006570
-`KerbClientBuildFastChallenge` | 7 (0x7) | Exported Function | 0x10004f80 | 0x00004f80
-`KerbClientBuildKeyList` | 8 (0x8) | Exported Function | 0x10002b50 | 0x00002b50
-`KerbKdcReplyContainsTgt` | 37 (0x25) | Exported Function | 0x10008d40 | 0x00008d40
-`KerbClientBuildStrengthenedReplyKey` | 9 (0x9) | Exported Function | 0x10006960 | 0x00006960
-`KerbClientComputeTgsChecksum` | 11 (0xb) | Exported Function | 0x100078c0 | 0x000078c0
-`KerbClientDecryptApReply` | 12 (0xc) | Exported Function | 0x10007cb0 | 0x00007cb0
-`KerbClientDecryptPacCredentials` | 13 (0xd) | Exported Function | 0x10007d70 | 0x00007d70
-`KerbClientDeriveFastChallengeKey` | 14 (0xe) | Exported Function | 0x10006aa0 | 0x00006aa0
-`KerbClientDuplicateStoredCred` | 15 (0xf) | Exported Function | 0x10004e50 | 0x00004e50
-`KerbClientFree` | 16 (0x10) | Exported Function | 0x10006070 | 0x00006070
-`KerbClientFreeStoredCred` | 17 (0x11) | Exported Function | 0x10006200 | 0x00006200
-`KerbClientBuildTicketArmorKey` | 10 (0xa) | Exported Function | 0x10006a00 | 0x00006a00
-`KerbPackKdcReplyWithEncryptedSessionKey` | 38 (0x26) | Exported Function | 0x100055b0 | 0x000055b0
+Function Name | Ordinal | Type
+-- | -- | --
+`KerbClientUnpackKdcReplyBody` | 26 | Exported Function
+`KerbClientUnpackAsn1BufferVoid` | 25 | Exported Function
+`KerbClientVerifyChecksum` | 28 | Exported Function
+`KerbClientUpdateSharedConfiguration` | 27 | Exported Function
+`KerbClientTransformStoredCred` | 24 | Exported Function
+`KerbClientParseKeyListReplyPaData` | 21 | Exported Function
+`KerbClientPackAsn1Buffer` | 20 | Exported Function
+`KerbClientSharedInit` | 23 | Exported Function
+`KerbClientSharedCleanup` | 22 | Exported Function
+`KerbClientVerifyEncryptedChallengePaData` | 29 | Exported Function
+`KerbDHGetSharedSecretFromCapiKeyBuffer` | 36 | Exported Function
+`KerbDHGetLittleEndianPublicKey` | 35 | Exported Function
+`KerbPackKdcReplyWithEncryptedSessionKey` | 38 | Exported Function
+`KerbKdcReplyContainsTgt` | 37 | Exported Function
+`KerbDHGetLegacyDHParameters` | 34 | Exported Function
+`KerbClientVerifyFastArmoredKerbError` | 31 | Exported Function
+`KerbClientVerifyFastArmoredKdcReply` | 30 | Exported Function
+`KerbDHCreateBCryptKey` | 33 | Exported Function
+`KerbClientVerifyFastArmoredTgsReply` | 32 | Exported Function
+`KerbClientBuildFastChallenge` | 7 | Exported Function
+`KerbClientBuildFastArmoredKdcRequest` | 6 | Exported Function
+`KerbClientBuildStrengthenedReplyKey` | 9 | Exported Function
+`KerbClientBuildKeyList` | 8 | Exported Function
+`KerbClientBuildExplicitArmorKey` | 5 | Exported Function
+`KerbClientAllocateStoredCred` | 2 | Exported Function
+`KerbClientAlloc` | 1 | Exported Function
+`KerbClientBuildEncryptedAuthData` | 4 | Exported Function
+`KerbClientBuildAsReqAuthenticator` | 3 | Exported Function
+`KerbClientBuildTicketArmorKey` | 10 | Exported Function
+`KerbClientFreeStoredCred` | 17 | Exported Function
+`KerbClientFree` | 16 | Exported Function
+`KerbClientPackApReply` | 19 | Exported Function
+`KerbClientFreeSupplementalCredentials` | 18 | Exported Function
+`KerbClientDuplicateStoredCred` | 15 | Exported Function
+`KerbClientDecryptApReply` | 12 | Exported Function
+`KerbClientComputeTgsChecksum` | 11 | Exported Function
+`KerbClientDeriveFastChallengeKey` | 14 | Exported Function
+`KerbClientDecryptPacCredentials` | 13 | Exported Function
 
 
 ## Signature

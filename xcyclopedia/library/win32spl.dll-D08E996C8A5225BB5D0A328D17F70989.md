@@ -24,11 +24,11 @@ PE256 | `3AAF6827C483AB7C0B5CB2DC3A8F184FF4A3177AB76AD8B4C54F83DF3F76B2F5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x0000000180014350 | 0x00014350
-`InitializePrintMonitor2` | 2 (0x2) | Exported Function | 0x0000000180053eb0 | 0x00053eb0
-`InitializePrintProvidor` | 3 (0x3) | Exported Function | 0x00000001800014b0 | 0x000014b0
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializePrintProvidor` | 3 | Exported Function
+`InitializePrintMonitor2` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
 
 
 ## Signature

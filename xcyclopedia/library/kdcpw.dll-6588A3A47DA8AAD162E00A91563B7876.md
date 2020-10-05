@@ -24,19 +24,19 @@ PE256 | `DF78AD42BC0E2159FCC47185E58F38BB78A4B350411B5686B1F42114706B54EC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CredentialUpdateFree` | 1 (0x1) | Exported Function | 0x00000001800015b0 | 0x000015b0
-`CredentialUpdateNotify` | 3 (0x3) | Exported Function | 0x0000000180001450 | 0x00001450
-`CredentialUpdateNotify2` | 2 (0x2) | Exported Function | 0x0000000180001500 | 0x00001500
-`CredentialUpdateRegister` | 5 (0x5) | Exported Function | 0x00000001800015e0 | 0x000015e0
-`CredentialUpdateRegister2` | 4 (0x4) | Exported Function | 0x0000000180001610 | 0x00001610
-`InitializeChangeNotify` | 10 (0xa) | Exported Function | 0x0000000180001440 | 0x00001440
-`PasswordChangeNotify` | 11 (0xb) | Exported Function | 0x0000000180001430 | 0x00001430
-`RegisterMappedEntrypoints` | 6 (0x6) | Exported Function | 0x0000000180001640 | 0x00001640
-`StrongNtowfFree` | 7 (0x7) | Exported Function | 0x00000001800015b0 | 0x000015b0
-`StrongNtowfNotify` | 8 (0x8) | Exported Function | 0x00000001800017c0 | 0x000017c0
-`StrongNtowfRegister` | 9 (0x9) | Exported Function | 0x0000000180001790 | 0x00001790
+Function Name | Ordinal | Type
+-- | -- | --
+`RegisterMappedEntrypoints` | 6 | Exported Function
+`PasswordChangeNotify` | 11 | Exported Function
+`StrongNtowfFree` | 7 | Exported Function
+`StrongNtowfRegister` | 9 | Exported Function
+`StrongNtowfNotify` | 8 | Exported Function
+`InitializeChangeNotify` | 10 | Exported Function
+`CredentialUpdateNotify` | 3 | Exported Function
+`CredentialUpdateFree` | 1 | Exported Function
+`CredentialUpdateNotify2` | 2 | Exported Function
+`CredentialUpdateRegister2` | 4 | Exported Function
+`CredentialUpdateRegister` | 5 | Exported Function
 
 
 ## Signature

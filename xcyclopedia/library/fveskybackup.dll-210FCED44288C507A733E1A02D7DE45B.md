@@ -24,12 +24,12 @@ PE256 | `0609BCF3DDF884050334334BBA4CA2979EEA18A71F1AB4AEDC7C013FFAD929D4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FveBackupRecoveryPasswordToCloudDomain` | 1 (0x1) | Exported Function | 0x0000000180003630 | 0x00003630
-`FveBackupRecoveryPasswordToSkyDrive` | 2 (0x2) | Exported Function | 0x0000000180001450 | 0x00001450
-`FveDeleteRecoveryPasswordsFromCloudDomain` | 3 (0x3) | Exported Function | 0x0000000180006260 | 0x00006260
-`FveGetAllRecoveryPasswordsFromCloudDomain` | 4 (0x4) | Exported Function | 0x0000000180006bc0 | 0x00006bc0
+Function Name | Ordinal | Type
+-- | -- | --
+`FveDeleteRecoveryPasswordsFromCloudDomain` | 3 | Exported Function
+`FveGetAllRecoveryPasswordsFromCloudDomain` | 4 | Exported Function
+`FveBackupRecoveryPasswordToCloudDomain` | 1 | Exported Function
+`FveBackupRecoveryPasswordToSkyDrive` | 2 | Exported Function
 
 
 ## Signature

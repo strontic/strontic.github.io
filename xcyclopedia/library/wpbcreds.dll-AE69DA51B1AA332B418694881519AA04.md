@@ -24,15 +24,15 @@ PE256 | `32D5E77E63D50B81E1CD407C289A784A15CD3953E8824CDB524D3D72561A0A95`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WpbcCleanup` | 1 (0x1) | Exported Function | 0x10004770 | 0x00004770
-`WpbcCreateRemoveTestCredentials` | 2 (0x2) | Exported Function | 0x10004ae0 | 0x00004ae0
-`WpbcCreateTestPin` | 3 (0x3) | Exported Function | 0x10004870 | 0x00004870
-`WpbcExportCredentials` | 4 (0x4) | Exported Function | 0x10004ff0 | 0x00004ff0
-`WpbcGetPinInfo` | 5 (0x5) | Exported Function | 0x10004c20 | 0x00004c20
-`WpbcInitialize` | 6 (0x6) | Exported Function | 0x100046a0 | 0x000046a0
-`WpbcVerifyUser` | 7 (0x7) | Exported Function | 0x10004d90 | 0x00004d90
+Function Name | Ordinal | Type
+-- | -- | --
+`WpbcGetPinInfo` | 5 | Exported Function
+`WpbcInitialize` | 6 | Exported Function
+`WpbcVerifyUser` | 7 | Exported Function
+`WpbcExportCredentials` | 4 | Exported Function
+`WpbcCleanup` | 1 | Exported Function
+`WpbcCreateRemoveTestCredentials` | 2 | Exported Function
+`WpbcCreateTestPin` | 3 | Exported Function
 
 
 ## Signature

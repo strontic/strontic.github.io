@@ -24,25 +24,25 @@ PE256 | `35327615AB8C449A0E540D2FBA72A8CD7D501395B780A09680306592FFCE64D8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IpNatHlpFree` | 1 (0x1) | Exported Function | 0x10004230 | 0x00004230
-`V2IpNatHlpStopDhcpServer` | 15 (0xf) | Exported Function | 0x10004590 | 0x00004590
-`V2IpNatHlpStartSharingInternalPrefix` | 14 (0xe) | Exported Function | 0x100042b0 | 0x000042b0
-`V2IpNatHlpStartDnsServer` | 13 (0xd) | Exported Function | 0x10004680 | 0x00004680
-`V2IpNatHlpStartDhcpServer` | 12 (0xc) | Exported Function | 0x100044a0 | 0x000044a0
-`V2IpNatHlpEnumDnsState` | 11 (0xb) | Exported Function | 0x10004910 | 0x00004910
-`V2IpNatHlpEnumDhcpState` | 10 (0xa) | Exported Function | 0x10004860 | 0x00004860
-`V2IpNatHlpStopDnsServer` | 16 (0x10) | Exported Function | 0x10004770 | 0x00004770
-`V2IpNatHlpDeleteStaticMapping` | 9 (0x9) | Exported Function | 0x10004ad0 | 0x00004ad0
-`IpNatHlpUpdateSharingSettingsFromStorage` | 7 (0x7) | Exported Function | 0x10004180 | 0x00004180
-`IpNatHlpStopSharing` | 6 (0x6) | Exported Function | 0x10003e30 | 0x00003e30
-`IpNatHlpStopDhcpServer` | 5 (0x5) | Exported Function | 0x10004090 | 0x00004090
-`IpNatHlpStartSharing` | 4 (0x4) | Exported Function | 0x10003d60 | 0x00003d60
-`IpNatHlpStartDhcpServer` | 3 (0x3) | Exported Function | 0x10003fa0 | 0x00003fa0
-`IpNatHlpGetConnectedDevices` | 2 (0x2) | Exported Function | 0x10003ef0 | 0x00003ef0
-`V2IpNatHlpCreateStaticMapping` | 8 (0x8) | Exported Function | 0x100049c0 | 0x000049c0
-`V2IpNatHlpStopSharingInternalPrefix` | 17 (0x11) | Exported Function | 0x100043b0 | 0x000043b0
+Function Name | Ordinal | Type
+-- | -- | --
+`V2IpNatHlpStartDhcpServer` | 12 | Exported Function
+`V2IpNatHlpStartDnsServer` | 13 | Exported Function
+`V2IpNatHlpEnumDhcpState` | 10 | Exported Function
+`V2IpNatHlpEnumDnsState` | 11 | Exported Function
+`V2IpNatHlpStopDnsServer` | 16 | Exported Function
+`V2IpNatHlpStopSharingInternalPrefix` | 17 | Exported Function
+`V2IpNatHlpStartSharingInternalPrefix` | 14 | Exported Function
+`V2IpNatHlpStopDhcpServer` | 15 | Exported Function
+`V2IpNatHlpDeleteStaticMapping` | 9 | Exported Function
+`IpNatHlpStartDhcpServer` | 3 | Exported Function
+`IpNatHlpStartSharing` | 4 | Exported Function
+`IpNatHlpFree` | 1 | Exported Function
+`IpNatHlpGetConnectedDevices` | 2 | Exported Function
+`IpNatHlpUpdateSharingSettingsFromStorage` | 7 | Exported Function
+`V2IpNatHlpCreateStaticMapping` | 8 | Exported Function
+`IpNatHlpStopDhcpServer` | 5 | Exported Function
+`IpNatHlpStopSharing` | 6 | Exported Function
 
 
 ## Signature

@@ -24,15 +24,15 @@ PE256 | `FAF9DFE38CD02D091D2DD199E0665A0B09F56ABFB9C1244AD7DB3A32CDCDD85A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x100042b0 | 0x000042b0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x100044d0 | 0x000044d0
-`DllInstall` | 4 (0x4) | Exported Function | 0x100042a0 | 0x000042a0
-`DllMain` | 5 (0x5) | Exported Function | 0x10004210 | 0x00004210
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x100042f0 | 0x000042f0
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x100042d0 | 0x000042d0
-`UsePPWForPrintTo` | 1 (0x1) | Exported Function | 0x10004570 | 0x00004570
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 6 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`UsePPWForPrintTo` | 1 | Exported Function
+`DllMain` | 5 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllInstall` | 4 | Exported Function
 
 
 ## Signature

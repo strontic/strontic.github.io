@@ -24,39 +24,39 @@ PE256 | `30806A1541D37B0989CAA717901648033A7A267D8024193C781C4643E8606F40`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseEnumServers` | 22 (0x16) | Exported Function | 0x1000c910 | 0x0000c910
-`TermSession` | 26 (0x1a) | Exported Function | 0x100167c0 | 0x000167c0
-`InitSSPIPackage` | 23 (0x17) | Exported Function | 0x100069a0 | 0x000069a0
-`InitSessionEx` | 29 (0x1d) | Exported Function | 0x100164e0 | 0x000164e0
-`InitSession` | 25 (0x19) | Exported Function | 0x100164d0 | 0x000164d0
-`InitEnumServers` | 20 (0x14) | Exported Function | 0x1000eaf0 | 0x0000eaf0
-`GetNextEnumeration` | 21 (0x15) | Exported Function | 0x1000e500 | 0x0000e500
-`GenClientContextEx` | 31 (0x1f) | Exported Function | 0x10016000 | 0x00016000
-`GenClientContext` | 27 (0x1b) | Exported Function | 0x10015fe0 | 0x00015fe0
-`ConnectionWriteOOB` | 5 (0x5) | Exported Function | 0x1000e260 | 0x0000e260
-`ConnectionWrite` | 3 (0x3) | Exported Function | 0x1000de40 | 0x0000de40
-`ConnectionVer` | 12 (0xc) | Exported Function | 0x1000de30 | 0x0000de30
-`ConnectionTransact` | 4 (0x4) | Exported Function | 0x1000dd90 | 0x0000dd90
-`ConnectionStatus` | 7 (0x7) | Exported Function | 0x1000dd80 | 0x0000dd80
-`TermSessionEx` | 30 (0x1e) | Exported Function | 0x100167d0 | 0x000167d0
-`ConnectionSqlVer` | 13 (0xd) | Exported Function | 0x1000dd50 | 0x0000dd50
-`ConnectionServerEnum` | 14 (0xe) | Exported Function | 0x1000dbe0 | 0x0000dbe0
-`ConnectionRead` | 2 (0x2) | Exported Function | 0x1000d260 | 0x0000d260
-`ConnectionOption` | 18 (0x12) | Exported Function | 0x1000ced0 | 0x0000ced0
-`ConnectionOpenW` | 16 (0x10) | Exported Function | 0x10007430 | 0x00007430
-`ConnectionOpen` | 8 (0x8) | Exported Function | 0x100074b0 | 0x000074b0
-`ConnectionObjectSize` | 1 (0x1) | Exported Function | 0x10008700 | 0x00008700
-`ConnectionMode` | 6 (0x6) | Exported Function | 0x10009240 | 0x00009240
-`ConnectionGetSvrUser` | 19 (0x13) | Exported Function | 0x1000cc60 | 0x0000cc60
-`ConnectionFlushCache` | 28 (0x1c) | Exported Function | 0x1000cc40 | 0x0000cc40
-`ConnectionErrorW` | 17 (0x11) | Exported Function | 0x10008690 | 0x00008690
-`ConnectionError` | 11 (0xb) | Exported Function | 0x1000cc00 | 0x0000cc00
-`ConnectionClose` | 9 (0x9) | Exported Function | 0x1000cab0 | 0x0000cab0
-`ConnectionCheckForData` | 10 (0xa) | Exported Function | 0x1000c980 | 0x0000c980
-`ConnectionServerEnumW` | 15 (0xf) | Exported Function | 0x1000dcf0 | 0x0000dcf0
-`TermSSPIPackage` | 24 (0x18) | Exported Function | 0x100086d0 | 0x000086d0
+Function Name | Ordinal | Type
+-- | -- | --
+`ConnectionWriteOOB` | 5 | Exported Function
+`GenClientContext` | 27 | Exported Function
+`GenClientContextEx` | 31 | Exported Function
+`ConnectionWrite` | 3 | Exported Function
+`ConnectionStatus` | 7 | Exported Function
+`ConnectionTransact` | 4 | Exported Function
+`ConnectionVer` | 12 | Exported Function
+`GetNextEnumeration` | 21 | Exported Function
+`TermSession` | 26 | Exported Function
+`TermSessionEx` | 30 | Exported Function
+`TermSSPIPackage` | 24 | Exported Function
+`InitSSPIPackage` | 23 | Exported Function
+`InitEnumServers` | 20 | Exported Function
+`InitSession` | 25 | Exported Function
+`InitSessionEx` | 29 | Exported Function
+`ConnectionSqlVer` | 13 | Exported Function
+`ConnectionErrorW` | 17 | Exported Function
+`ConnectionFlushCache` | 28 | Exported Function
+`ConnectionGetSvrUser` | 19 | Exported Function
+`ConnectionError` | 11 | Exported Function
+`CloseEnumServers` | 22 | Exported Function
+`ConnectionCheckForData` | 10 | Exported Function
+`ConnectionClose` | 9 | Exported Function
+`ConnectionMode` | 6 | Exported Function
+`ConnectionRead` | 2 | Exported Function
+`ConnectionServerEnum` | 14 | Exported Function
+`ConnectionServerEnumW` | 15 | Exported Function
+`ConnectionOption` | 18 | Exported Function
+`ConnectionObjectSize` | 1 | Exported Function
+`ConnectionOpen` | 8 | Exported Function
+`ConnectionOpenW` | 16 | Exported Function
 
 
 ## Signature

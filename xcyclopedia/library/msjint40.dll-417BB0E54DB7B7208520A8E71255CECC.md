@@ -24,9 +24,9 @@ PE256 | `447E1C8E910B628CE3A769D54FD0C4FF6A172BC01529AFA858A200C66330BDF7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CchLszOfId2` | 2 (0x2) | Exported Function | 0x100010e0 | 0x000010e0
+Function Name | Ordinal | Type
+-- | -- | --
+`CchLszOfId2` | 2 | Exported Function
 
 
 ## Signature

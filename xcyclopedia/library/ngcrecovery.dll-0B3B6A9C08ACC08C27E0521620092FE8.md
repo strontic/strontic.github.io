@@ -24,13 +24,13 @@ PE256 | `9BF4642F1F01850DC43E127BA7582F088855C9864FB296940222C290A8B046FF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NgcIsPinRecoveryEnabled` | 1 (0x1) | Exported Function | 0x0000000180018900 | 0x00018900
-`NgcProtectPinRecoverySecret` | 2 (0x2) | Exported Function | 0x0000000180018da0 | 0x00018da0
-`NgcRecoverPin` | 3 (0x3) | Exported Function | 0x0000000180019760 | 0x00019760
-`NgcRecoverPinSilent` | 4 (0x4) | Exported Function | 0x000000018001a140 | 0x0001a140
-`NgcVerifyPinRecoverySecret` | 5 (0x5) | Exported Function | 0x000000018001aa50 | 0x0001aa50
+Function Name | Ordinal | Type
+-- | -- | --
+`NgcRecoverPinSilent` | 4 | Exported Function
+`NgcVerifyPinRecoverySecret` | 5 | Exported Function
+`NgcRecoverPin` | 3 | Exported Function
+`NgcIsPinRecoveryEnabled` | 1 | Exported Function
+`NgcProtectPinRecoverySecret` | 2 | Exported Function
 
 
 ## Signature

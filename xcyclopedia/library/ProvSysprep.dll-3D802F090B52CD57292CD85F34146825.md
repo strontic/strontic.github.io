@@ -24,11 +24,11 @@ PE256 | `D5FADCF8B116E4288F2F701A452647706EDD250CABD8EDA2A2CE89AD649601E1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ProvPackageSysprepGeneralize` | 1 (0x1) | Exported Function | 0x0000000180003ec0 | 0x00003ec0
-`ProvPackageSysprepSpecialize` | 2 (0x2) | Exported Function | 0x0000000180003f90 | 0x00003f90
-`ProvPackageSysprepSpecializeOffline` | 3 (0x3) | Exported Function | 0x0000000180003fd0 | 0x00003fd0
+Function Name | Ordinal | Type
+-- | -- | --
+`ProvPackageSysprepSpecializeOffline` | 3 | Exported Function
+`ProvPackageSysprepSpecialize` | 2 | Exported Function
+`ProvPackageSysprepGeneralize` | 1 | Exported Function
 
 
 ## Signature

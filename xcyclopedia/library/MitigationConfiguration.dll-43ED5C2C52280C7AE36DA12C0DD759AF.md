@@ -24,16 +24,16 @@ PE256 | `6E5758BDB819F9D4E420E84A6BDB1C2D140A1C51C45A793BBE13585C77683100`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x100057a0 | 0x000057a0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x100057c0 | 0x000057c0
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x10005850 | 0x00005850
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x10005850 | 0x00005850
-`ExportMitigation` | 5 (0x5) | Exported Function | 0x10009a90 | 0x00009a90
-`ImportMitigation` | 6 (0x6) | Exported Function | 0x10006960 | 0x00006960
-`ValidateXML` | 7 (0x7) | Exported Function | 0x100064f0 | 0x000064f0
-`ValidateXMLFromManaged` | 8 (0x8) | Exported Function | 0x100066a0 | 0x000066a0
+Function Name | Ordinal | Type
+-- | -- | --
+`ImportMitigation` | 6 | Exported Function
+`ExportMitigation` | 5 | Exported Function
+`ValidateXMLFromManaged` | 8 | Exported Function
+`ValidateXML` | 7 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

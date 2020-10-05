@@ -24,21 +24,21 @@ PE256 | `A9A8CBB8456F786AB7C98782359AA10B70C27A17DC477306FC2EA979F8335B0B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Ordinal2` | 2 (0x2) | Exported Function | SHUNIMPL.#412 | 0x0000df9f
-`ThemesOnCreateSession` | 7 (0x7) | Exported Function | 0x100030a0 | 0x000030a0
-`ThemesOnDisconnect` | 12 (0xc) | Exported Function | 0x100085e0 | 0x000085e0
-`ThemesOnEarlyCreateSession` | 13 (0xd) | Exported Function | 0x10003200 | 0x00003200
-`ThemesOnLogoff` | 10 (0xa) | Exported Function | 0x10002690 | 0x00002690
-`ThemesOnLogon` | 9 (0x9) | Exported Function | 0x100058a0 | 0x000058a0
-`ThemesOnReconnect` | 11 (0xb) | Exported Function | 0x1000bc60 | 0x0000bc60
-`ThemesOnTerminateSession` | 8 (0x8) | Exported Function | 0x100026b0 | 0x000026b0
-`ThemeUserLogoff` | 3 (0x3) | Exported Function | 0x1000bbc0 | 0x0000bbc0
-`ThemeUserLogon` | 4 (0x4) | Exported Function | 0x1000bbf0 | 0x0000bbf0
-`ThemeUserStartShell` | 5 (0x5) | Exported Function | 0x1000bc30 | 0x0000bc30
-`ThemeUserTSReconnect` | 6 (0x6) | Exported Function | 0x1000bc50 | 0x0000bc50
-`ThemeWatchForStart` | 1 (0x1) | Exported Function | 0x10003230 | 0x00003230
+Function Name | Ordinal | Type
+-- | -- | --
+`ThemeUserLogon` | 4 | Exported Function
+`ThemeUserLogoff` | 3 | Exported Function
+`ThemesOnTerminateSession` | 8 | Exported Function
+`ThemeWatchForStart` | 1 | Exported Function
+`ThemeUserTSReconnect` | 6 | Exported Function
+`ThemeUserStartShell` | 5 | Exported Function
+`ThemesOnReconnect` | 11 | Exported Function
+`ThemesOnDisconnect` | 12 | Exported Function
+`ThemesOnCreateSession` | 7 | Exported Function
+`Ordinal2` | 2 | Exported Function
+`ThemesOnLogon` | 9 | Exported Function
+`ThemesOnLogoff` | 10 | Exported Function
+`ThemesOnEarlyCreateSession` | 13 | Exported Function
 
 
 ## Signature

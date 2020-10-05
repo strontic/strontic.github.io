@@ -24,70 +24,70 @@ PE256 | `2040BE0E246DA700F65062C405B3151237F1D7E438FF88B09CBC5CA4520A5045`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`I_RpcNsGetBuffer` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsGroupMbrInqBeginA` | 34 (0x22) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsGroupMbrInqBeginW` | 35 (0x23) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsGroupMbrInqDone` | 36 (0x24) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsGroupMbrInqNextA` | 37 (0x25) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsGroupMbrInqNextW` | 38 (0x26) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsGroupMbrRemoveA` | 39 (0x27) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsGroupMbrRemoveW` | 40 (0x28) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsMgmtBindingUnexportA` | 41 (0x29) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsMgmtBindingUnexportW` | 42 (0x2a) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsMgmtEntryCreateA` | 43 (0x2b) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsMgmtEntryCreateW` | 44 (0x2c) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsMgmtEntryDeleteA` | 45 (0x2d) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsMgmtEntryDeleteW` | 46 (0x2e) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsMgmtEntryInqIfIdsA` | 47 (0x2f) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsMgmtEntryInqIfIdsW` | 48 (0x30) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsMgmtHandleSetExpAge` | 49 (0x31) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsMgmtInqExpAge` | 50 (0x32) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsMgmtSetExpAge` | 51 (0x33) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsProfileDeleteA` | 52 (0x34) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsProfileDeleteW` | 53 (0x35) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsProfileEltAddA` | 54 (0x36) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsProfileEltAddW` | 55 (0x37) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsProfileEltInqBeginA` | 56 (0x38) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsProfileEltInqBeginW` | 57 (0x39) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsProfileEltInqDone` | 58 (0x3a) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsProfileEltInqNextA` | 59 (0x3b) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsProfileEltInqNextW` | 60 (0x3c) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsGroupMbrAddW` | 33 (0x21) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsGroupMbrAddA` | 32 (0x20) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsGroupDeleteW` | 31 (0x1f) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsGroupDeleteA` | 30 (0x1e) | Exported Function | 0x0000000180001010 | 0x00001010
-`I_RpcNsNegotiateTransferSyntax` | 2 (0x2) | Exported Function | 0x0000000180001010 | 0x00001010
-`I_RpcNsRaiseException` | 3 (0x3) | Exported Function | 0x0000000180001050 | 0x00001050
-`I_RpcNsSendReceive` | 4 (0x4) | Exported Function | 0x0000000180001010 | 0x00001010
-`I_RpcReBindBuffer` | 5 (0x5) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcIfIdVectorFree` | 6 (0x6) | Exported Function | RPCRT4.RpcIfIdVectorFree | 0x0000285c
-`RpcNsBindingExportA` | 7 (0x7) | Exported Function | 0x0000000180001030 | 0x00001030
-`RpcNsBindingExportPnPA` | 8 (0x8) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingExportPnPW` | 9 (0x9) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingExportW` | 10 (0xa) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingImportBeginA` | 11 (0xb) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingImportBeginW` | 12 (0xc) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingImportDone` | 13 (0xd) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingImportNext` | 14 (0xe) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsProfileEltRemoveA` | 61 (0x3d) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingLookupBeginA` | 15 (0xf) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingLookupDone` | 17 (0x11) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingLookupNext` | 18 (0x12) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingSelect` | 19 (0x13) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingUnexportA` | 20 (0x14) | Exported Function | 0x0000000180001030 | 0x00001030
-`RpcNsBindingUnexportPnPA` | 21 (0x15) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingUnexportPnPW` | 22 (0x16) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingUnexportW` | 23 (0x17) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsEntryExpandNameA` | 24 (0x18) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsEntryExpandNameW` | 25 (0x19) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsEntryObjectInqBeginA` | 26 (0x1a) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsEntryObjectInqBeginW` | 27 (0x1b) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsEntryObjectInqDone` | 28 (0x1c) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsEntryObjectInqNext` | 29 (0x1d) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsBindingLookupBeginW` | 16 (0x10) | Exported Function | 0x0000000180001010 | 0x00001010
-`RpcNsProfileEltRemoveW` | 62 (0x3e) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`RpcNsMgmtBindingUnexportW` | 42 | Exported Function
+`RpcNsMgmtBindingUnexportA` | 41 | Exported Function
+`RpcNsGroupMbrRemoveW` | 40 | Exported Function
+`RpcNsMgmtEntryCreateA` | 43 | Exported Function
+`RpcNsMgmtEntryDeleteW` | 46 | Exported Function
+`RpcNsMgmtEntryDeleteA` | 45 | Exported Function
+`RpcNsMgmtEntryCreateW` | 44 | Exported Function
+`RpcNsGroupMbrRemoveA` | 39 | Exported Function
+`RpcNsGroupMbrInqBeginA` | 34 | Exported Function
+`RpcNsGroupMbrAddW` | 33 | Exported Function
+`RpcNsGroupMbrAddA` | 32 | Exported Function
+`RpcNsGroupMbrInqBeginW` | 35 | Exported Function
+`RpcNsGroupMbrInqNextW` | 38 | Exported Function
+`RpcNsGroupMbrInqNextA` | 37 | Exported Function
+`RpcNsGroupMbrInqDone` | 36 | Exported Function
+`RpcNsMgmtEntryInqIfIdsA` | 47 | Exported Function
+`RpcNsProfileEltInqDone` | 58 | Exported Function
+`RpcNsProfileEltInqBeginW` | 57 | Exported Function
+`RpcNsProfileEltInqBeginA` | 56 | Exported Function
+`RpcNsProfileEltInqNextA` | 59 | Exported Function
+`RpcNsProfileEltRemoveW` | 62 | Exported Function
+`RpcNsProfileEltRemoveA` | 61 | Exported Function
+`RpcNsProfileEltInqNextW` | 60 | Exported Function
+`RpcNsProfileEltAddW` | 55 | Exported Function
+`RpcNsMgmtInqExpAge` | 50 | Exported Function
+`RpcNsMgmtHandleSetExpAge` | 49 | Exported Function
+`RpcNsMgmtEntryInqIfIdsW` | 48 | Exported Function
+`RpcNsMgmtSetExpAge` | 51 | Exported Function
+`RpcNsProfileEltAddA` | 54 | Exported Function
+`RpcNsProfileDeleteW` | 53 | Exported Function
+`RpcNsProfileDeleteA` | 52 | Exported Function
+`RpcNsBindingImportBeginA` | 11 | Exported Function
+`RpcNsBindingExportW` | 10 | Exported Function
+`RpcNsBindingExportPnPW` | 9 | Exported Function
+`RpcNsBindingImportBeginW` | 12 | Exported Function
+`RpcNsBindingLookupBeginA` | 15 | Exported Function
+`RpcNsBindingImportNext` | 14 | Exported Function
+`RpcNsBindingImportDone` | 13 | Exported Function
+`RpcNsBindingExportPnPA` | 8 | Exported Function
+`I_RpcNsRaiseException` | 3 | Exported Function
+`I_RpcNsNegotiateTransferSyntax` | 2 | Exported Function
+`I_RpcNsGetBuffer` | 1 | Exported Function
+`I_RpcNsSendReceive` | 4 | Exported Function
+`RpcNsBindingExportA` | 7 | Exported Function
+`RpcIfIdVectorFree` | 6 | Exported Function
+`I_RpcReBindBuffer` | 5 | Exported Function
+`RpcNsBindingLookupBeginW` | 16 | Exported Function
+`RpcNsEntryObjectInqBeginW` | 27 | Exported Function
+`RpcNsEntryObjectInqBeginA` | 26 | Exported Function
+`RpcNsEntryExpandNameW` | 25 | Exported Function
+`RpcNsEntryObjectInqDone` | 28 | Exported Function
+`RpcNsGroupDeleteW` | 31 | Exported Function
+`RpcNsGroupDeleteA` | 30 | Exported Function
+`RpcNsEntryObjectInqNext` | 29 | Exported Function
+`RpcNsEntryExpandNameA` | 24 | Exported Function
+`RpcNsBindingSelect` | 19 | Exported Function
+`RpcNsBindingLookupNext` | 18 | Exported Function
+`RpcNsBindingLookupDone` | 17 | Exported Function
+`RpcNsBindingUnexportA` | 20 | Exported Function
+`RpcNsBindingUnexportW` | 23 | Exported Function
+`RpcNsBindingUnexportPnPW` | 22 | Exported Function
+`RpcNsBindingUnexportPnPA` | 21 | Exported Function
 
 
 ## Signature

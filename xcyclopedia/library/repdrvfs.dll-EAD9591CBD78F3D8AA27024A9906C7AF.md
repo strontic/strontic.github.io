@@ -24,16 +24,16 @@ PE256 | `52FC430D83F9628E66CEE7F99CB0AACCFF8FBF5D17A968FCBD6EDB009B81420C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x0000000180001ed0 | 0x00001ed0
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x0000000180001fd0 | 0x00001fd0
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x0000000180049e50 | 0x00049e50
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x000000018004a020 | 0x0004a020
-`ResetRepository` | 1 (0x1) | Exported Function | 0x0000000180046c00 | 0x00046c00
-`RestoreWMIRepository` | 2 (0x2) | Exported Function | 0x0000000180041c70 | 0x00041c70
-`SalvageRepository` | 3 (0x3) | Exported Function | 0x0000000180046c80 | 0x00046c80
-`VerifyRepository` | 4 (0x4) | Exported Function | 0x0000000180047c00 | 0x00047c00
+Function Name | Ordinal | Type
+-- | -- | --
+`RestoreWMIRepository` | 2 | Exported Function
+`ResetRepository` | 1 | Exported Function
+`VerifyRepository` | 4 | Exported Function
+`SalvageRepository` | 3 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
 
 
 ## Signature

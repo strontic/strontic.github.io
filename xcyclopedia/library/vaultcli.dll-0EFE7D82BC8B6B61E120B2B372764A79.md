@@ -24,32 +24,25 @@ PE256 | `7FFA59479AA6A42BDAE81378B650AB840A48462511C81F4640C214C7586B0920`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 108 (0x6c) | Exported Function | 0x1000fd90 | 0x0000fd90
-`VaultGetItemType` | 122 (0x7a) | Exported Function | 0x100166f0 | 0x000166f0
-`VaultGetItem` | 121 (0x79) | Exported Function | 0x10016640 | 0x00016640
-`VaultGetInformation` | 120 (0x78) | Exported Function | 0x100165b0 | 0x000165b0
-`VaultFree` | 119 (0x77) | Exported Function | 0x100159f0 | 0x000159f0
-`VaultFindItems` | 118 (0x76) | Exported Function | 0x100164e0 | 0x000164e0
-`VaultEnumerateVaults` | 117 (0x75) | Exported Function | 0x10016430 | 0x00016430
-`VaultEnumerateItemTypes` | 115 (0x73) | Exported Function | 0x10016270 | 0x00016270
-`VaultEnumerateItems` | 116 (0x74) | Exported Function | 0x10016370 | 0x00016370
-`VaultDeleteItemType` | 114 (0x72) | Exported Function | 0x100161b0 | 0x000161b0
-`VaultCreateItemType` | 113 (0x71) | Exported Function | 0x100160f0 | 0x000160f0
-`VaultCloseVault` | 112 (0x70) | Exported Function | 0x1000fe90 | 0x0000fe90
-`VaultAddItem` | 111 (0x6f) | Exported Function | 0x10016060 | 0x00016060
-`Ordinal107` | 107 (0x6b) | Exported Function | 0x10015bc0 | 0x00015bc0
-`Ordinal106` | 106 (0x6a) | Exported Function | 0x10015920 | 0x00015920
-`Ordinal105` | 105 (0x69) | Exported Function | 0x10015eb0 | 0x00015eb0
-`Ordinal104` | 104 (0x68) | Exported Function | 0x10015e10 | 0x00015e10
-`Ordinal103` | 103 (0x67) | Exported Function | 0x10015a80 | 0x00015a80
-`Ordinal102` | 102 (0x66) | Exported Function | 0x10015d50 | 0x00015d50
-`Ordinal101` | 101 (0x65) | Exported Function | 0x10015b20 | 0x00015b20
-`DllGetClassObject` | 110 (0x6e) | Exported Function | 0x1000dce0 | 0x0000dce0
-`DllGetActivationFactory` | 109 (0x6d) | Exported Function | 0x1000fc90 | 0x0000fc90
-`VaultOpenVault` | 123 (0x7b) | Exported Function | 0x1000fe10 | 0x0000fe10
-`VaultRemoveItem` | 124 (0x7c) | Exported Function | 0x100167a0 | 0x000167a0
+Function Name | Ordinal | Type
+-- | -- | --
+`VaultFree` | 119 | Exported Function
+`VaultGetInformation` | 120 | Exported Function
+`VaultEnumerateVaults` | 117 | Exported Function
+`VaultFindItems` | 118 | Exported Function
+`VaultOpenVault` | 123 | Exported Function
+`VaultRemoveItem` | 124 | Exported Function
+`VaultGetItem` | 121 | Exported Function
+`VaultGetItemType` | 122 | Exported Function
+`VaultEnumerateItemTypes` | 115 | Exported Function
+`DllGetClassObject` | 110 | Exported Function
+`VaultAddItem` | 111 | Exported Function
+`DllCanUnloadNow` | 108 | Exported Function
+`DllGetActivationFactory` | 109 | Exported Function
+`VaultDeleteItemType` | 114 | Exported Function
+`VaultEnumerateItems` | 116 | Exported Function
+`VaultCloseVault` | 112 | Exported Function
+`VaultCreateItemType` | 113 | Exported Function
 
 
 ## Signature

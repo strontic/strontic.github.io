@@ -24,41 +24,41 @@ PE256 | `74020B94BA3C724F975E4C049F6FBE85F1C88B39F32C11F2912A3E5AEC017EB5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000018000a510 | 0x0000a510
-`WspSendIndication` | 31 (0x1f) | Exported Function | 0x000000018000e790 | 0x0000e790
-`WspRunMethodAsJob` | 30 (0x1e) | Exported Function | 0x000000018000df30 | 0x0000df30
-`WspReferencesOfRemoteInstance` | 29 (0x1d) | Exported Function | 0x000000018000cdc0 | 0x0000cdc0
-`WspProviderExit` | 28 (0x1c) | Exported Function | 0x000000018000c010 | 0x0000c010
-`WspProviderEnter` | 27 (0x1b) | Exported Function | 0x000000018000be40 | 0x0000be40
-`WspPostSubsystemAssociationReferenceObject` | 26 (0x1a) | Exported Function | 0x000000018000e910 | 0x0000e910
-`WspPostAssociation` | 25 (0x19) | Exported Function | 0x000000018000ef70 | 0x0000ef70
-`WspPackObjectId` | 24 (0x18) | Exported Function | 0x000000018000c030 | 0x0000c030
-`WspIsRemoteRequest` | 23 (0x17) | Exported Function | 0x000000018000d110 | 0x0000d110
-`WspIsRemoteInstance` | 22 (0x16) | Exported Function | 0x000000018000cb60 | 0x0000cb60
-`WspIsAutomaticClusteringEnabled` | 21 (0x15) | Exported Function | 0x000000018000c8d0 | 0x0000c8d0
-`WspInvokeRemoteMethod` | 20 (0x14) | Exported Function | 0x000000018000cf90 | 0x0000cf90
-`WspGuidToString` | 19 (0x13) | Exported Function | 0x000000018000bd30 | 0x0000bd30
-`WspGetSubsystemFilter` | 18 (0x12) | Exported Function | 0x000000018000cb30 | 0x0000cb30
-`WspUnpackObjectId` | 32 (0x20) | Exported Function | 0x000000018000c490 | 0x0000c490
-`WspGetRemoteInstance` | 17 (0x11) | Exported Function | 0x000000018000cc70 | 0x0000cc70
-`WspFreeString` | 15 (0xf) | Exported Function | 0x000000018000bc70 | 0x0000bc70
-`WspEnumerateRemoteInstances` | 14 (0xe) | Exported Function | 0x000000018000c9e0 | 0x0000c9e0
-`WspCreateJob` | 13 (0xd) | Exported Function | 0x000000018000dd10 | 0x0000dd10
-`WspCompleteMethod` | 12 (0xc) | Exported Function | 0x000000018000e530 | 0x0000e530
-`WspCheckMinimumSubsystemVersion` | 1 (0x1) | Exported Function | 0x000000018000d460 | 0x0000d460
-`SmpUnload` | 11 (0xb) | Exported Function | 0x000000018000ad10 | 0x0000ad10
-`SetShutdownCallback` | 10 (0xa) | Exported Function | 0x000000018000ad00 | 0x0000ad00
-`PreShutdown` | 9 (0x9) | Exported Function | 0x000000018000ad20 | 0x0000ad20
-`MI_Main` | 8 (0x8) | Exported Function | 0x000000018000aca0 | 0x0000aca0
-`GetProviderClassID` | 7 (0x7) | Exported Function | 0x000000018000a260 | 0x0000a260
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x000000018000a4c0 | 0x0000a4c0
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x000000018000a470 | 0x0000a470
-`DllMain` | 4 (0x4) | Exported Function | 0x000000018000a1d0 | 0x0000a1d0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000018000a550 | 0x0000a550
-`WspGetClassName` | 16 (0x10) | Exported Function | 0x000000018000c9b0 | 0x0000c9b0
-`WspUpdateMethod` | 33 (0x21) | Exported Function | 0x000000018000e250 | 0x0000e250
+Function Name | Ordinal | Type
+-- | -- | --
+`WspIsRemoteRequest` | 23 | Exported Function
+`WspIsRemoteInstance` | 22 | Exported Function
+`WspPostAssociation` | 25 | Exported Function
+`WspPackObjectId` | 24 | Exported Function
+`WspGuidToString` | 19 | Exported Function
+`WspGetSubsystemFilter` | 18 | Exported Function
+`WspIsAutomaticClusteringEnabled` | 21 | Exported Function
+`WspInvokeRemoteMethod` | 20 | Exported Function
+`WspSendIndication` | 31 | Exported Function
+`WspRunMethodAsJob` | 30 | Exported Function
+`WspUpdateMethod` | 33 | Exported Function
+`WspUnpackObjectId` | 32 | Exported Function
+`WspProviderEnter` | 27 | Exported Function
+`WspPostSubsystemAssociationReferenceObject` | 26 | Exported Function
+`WspReferencesOfRemoteInstance` | 29 | Exported Function
+`WspProviderExit` | 28 | Exported Function
+`WspGetRemoteInstance` | 17 | Exported Function
+`GetProviderClassID` | 7 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`PreShutdown` | 9 | Exported Function
+`MI_Main` | 8 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllMain` | 4 | Exported Function
+`WspEnumerateRemoteInstances` | 14 | Exported Function
+`WspCreateJob` | 13 | Exported Function
+`WspGetClassName` | 16 | Exported Function
+`WspFreeString` | 15 | Exported Function
+`SmpUnload` | 11 | Exported Function
+`SetShutdownCallback` | 10 | Exported Function
+`WspCompleteMethod` | 12 | Exported Function
+`WspCheckMinimumSubsystemVersion` | 1 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `5C46F5E6E820B575B64D647B9E31AA7EA473FA2758FE02CAA99DB3FCAE789BB1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SrvEndTask` | 1 (0x1) | Exported Function | 0x0000000180001690 | 0x00001690
-`UserCreateCallbackThread` | 2 (0x2) | Exported Function | 0x0000000180001800 | 0x00001800
-`UserHardError` | 3 (0x3) | Exported Function | 0x0000000180001a30 | 0x00001a30
-`UserServerDllInitialization` | 4 (0x4) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`UserHardError` | 3 | Exported Function
+`UserServerDllInitialization` | 4 | Exported Function
+`SrvEndTask` | 1 | Exported Function
+`UserCreateCallbackThread` | 2 | Exported Function
 
 
 ## Signature

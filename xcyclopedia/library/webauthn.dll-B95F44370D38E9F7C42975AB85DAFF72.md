@@ -24,63 +24,63 @@ PE256 | `16A34A58733A1C634B6D8ECCFDA6841F6350D5913728CDE5FDBFB935812C6D1D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CryptsvcDllCtrl` | 1 (0x1) | Exported Function | 0x1001fc70 | 0x0001fc70
-`WebAuthNCtapResetDevice` | 30 (0x1e) | Exported Function | 0x100112c0 | 0x000112c0
-`WebAuthNCtapRpcGetAssertionUserList` | 31 (0x1f) | Exported Function | 0x100135b0 | 0x000135b0
-`WebAuthNCtapRpcGetCborCommand` | 32 (0x20) | Exported Function | 0x10013490 | 0x00013490
-`WebAuthNCtapRpcSelectGetAssertion` | 33 (0x21) | Exported Function | 0x100138d0 | 0x000138d0
-`WebAuthNCtapSendCommand` | 34 (0x22) | Exported Function | 0x10012df0 | 0x00012df0
-`WebAuthNCtapSetClientPin` | 35 (0x23) | Exported Function | 0x100110a0 | 0x000110a0
-`WebAuthNCtapStartDeviceChangeNotify` | 36 (0x24) | Exported Function | 0x10013de0 | 0x00013de0
-`WebAuthNCtapStopDeviceChangeNotify` | 37 (0x25) | Exported Function | 0x10013df0 | 0x00013df0
-`WebAuthNCtapVerifyGetAssertion` | 38 (0x26) | Exported Function | 0x10012bd0 | 0x00012bd0
-`WebAuthNDecodeAccountInformation` | 39 (0x27) | Exported Function | 0x1001d490 | 0x0001d490
-`WebAuthNDeletePlatformCredential` | 40 (0x28) | Exported Function | 0x1001d520 | 0x0001d520
-`WebAuthNCtapParseAuthenticatorData` | 29 (0x1d) | Exported Function | 0x10012d60 | 0x00012d60
-`WebAuthNEncodeAccountInformation` | 41 (0x29) | Exported Function | 0x1001d400 | 0x0001d400
-`WebAuthNFreeCredentialAttestation` | 43 (0x2b) | Exported Function | 0x1000fdf0 | 0x0000fdf0
-`WebAuthNFreeDecodedAccountInformation` | 44 (0x2c) | Exported Function | 0x100122a0 | 0x000122a0
-`WebAuthNFreeEncodedAccountInformation` | 45 (0x2d) | Exported Function | 0x100122a0 | 0x000122a0
-`WebAuthNFreePlatformCredentials` | 46 (0x2e) | Exported Function | 0x10016460 | 0x00016460
-`WebAuthNFreeUserEntityList` | 47 (0x2f) | Exported Function | 0x100122a0 | 0x000122a0
-`WebAuthNGetApiVersionNumber` | 48 (0x30) | Exported Function | 0x10018e60 | 0x00018e60
-`WebAuthNGetCancellationId` | 49 (0x31) | Exported Function | 0x10018e10 | 0x00018e10
-`WebAuthNGetCoseAlgorithmIdentifier` | 50 (0x32) | Exported Function | 0x100181c0 | 0x000181c0
-`WebAuthNGetCredentialIdFromAuthenticatorData` | 51 (0x33) | Exported Function | 0x10013e00 | 0x00013e00
-`WebAuthNGetErrorName` | 52 (0x34) | Exported Function | 0x100133e0 | 0x000133e0
-`WebAuthNGetPlatformCredentials` | 53 (0x35) | Exported Function | 0x1001d9b0 | 0x0001d9b0
-`WebAuthNFreeAssertion` | 42 (0x2a) | Exported Function | 0x100122a0 | 0x000122a0
-`WebAuthNGetW3CExceptionDOMError` | 54 (0x36) | Exported Function | 0x10013410 | 0x00013410
-`WebAuthNCtapManageSetPin` | 28 (0x1c) | Exported Function | 0x10015c00 | 0x00015c00
-`WebAuthNCtapManageResetDevice` | 26 (0x1a) | Exported Function | 0x10015910 | 0x00015910
-`I_WebAuthNCtapDecodeGetAssertionRpcResponse` | 2 (0x2) | Exported Function | 0x10011cc0 | 0x00011cc0
-`I_WebAuthNCtapDecodeMakeCredentialRpcResponse` | 3 (0x3) | Exported Function | 0x10010150 | 0x00010150
-`I_WebAuthNCtapEncodeGetAssertionRpcRequest` | 4 (0x4) | Exported Function | 0x10011880 | 0x00011880
-`I_WebAuthNCtapEncodeMakeCredentialRpcRequest` | 5 (0x5) | Exported Function | 0x1000fe40 | 0x0000fe40
-`WebAuthNAuthenticatorGetAssertion` | 6 (0x6) | Exported Function | 0x100188a0 | 0x000188a0
-`WebAuthNAuthenticatorMakeCredential` | 7 (0x7) | Exported Function | 0x100182a0 | 0x000182a0
-`WebAuthNCancelCurrentOperation` | 8 (0x8) | Exported Function | 0x10018e40 | 0x00018e40
-`WebAuthNCtapChangeClientPin` | 9 (0x9) | Exported Function | 0x10011180 | 0x00011180
-`WebAuthNCtapChangeClientPinForSelectedDevice` | 10 (0xa) | Exported Function | 0x10012990 | 0x00012990
-`WebAuthNCtapFreeSelectedDeviceInformation` | 11 (0xb) | Exported Function | 0x100122a0 | 0x000122a0
-`WebAuthNCtapGetAssertion` | 12 (0xc) | Exported Function | 0x100122c0 | 0x000122c0
-`WebAuthNCtapManageSelect` | 27 (0x1b) | Exported Function | 0x10015850 | 0x00015850
-`WebAuthNCtapGetSupportedTransports` | 13 (0xd) | Exported Function | 0x10013af0 | 0x00013af0
-`WebAuthNCtapIsStopSendCommandError` | 15 (0xf) | Exported Function | 0x10013440 | 0x00013440
-`WebAuthNCtapMakeCredential` | 16 (0x10) | Exported Function | 0x10011330 | 0x00011330
-`WebAuthNCtapManageAuthenticatePin` | 17 (0x11) | Exported Function | 0x10015b00 | 0x00015b00
-`WebAuthNCtapManageCancelEnrollFingerprint` | 18 (0x12) | Exported Function | 0x10016050 | 0x00016050
-`WebAuthNCtapManageChangePin` | 19 (0x13) | Exported Function | 0x10015ce0 | 0x00015ce0
-`WebAuthNCtapManageClose` | 20 (0x14) | Exported Function | 0x10015350 | 0x00015350
-`WebAuthNCtapManageDeleteCredential` | 21 (0x15) | Exported Function | 0x100168f0 | 0x000168f0
-`WebAuthNCtapManageEnrollFingerprint` | 22 (0x16) | Exported Function | 0x10015e30 | 0x00015e30
-`WebAuthNCtapManageFreeDisplayCredentials` | 23 (0x17) | Exported Function | 0x10016460 | 0x00016460
-`WebAuthNCtapManageGetDisplayCredentials` | 24 (0x18) | Exported Function | 0x100164b0 | 0x000164b0
-`WebAuthNCtapManageRemoveFingerprints` | 25 (0x19) | Exported Function | 0x10016100 | 0x00016100
-`WebAuthNCtapGetWnfLocalizedString` | 14 (0xe) | Exported Function | 0x10016970 | 0x00016970
-`WebAuthNIsUserVerifyingPlatformAuthenticatorAvailable` | 55 (0x37) | Exported Function | 0x1001d250 | 0x0001d250
+Function Name | Ordinal | Type
+-- | -- | --
+`WebAuthNCtapVerifyGetAssertion` | 38 | Exported Function
+`WebAuthNCtapStopDeviceChangeNotify` | 37 | Exported Function
+`WebAuthNCtapStartDeviceChangeNotify` | 36 | Exported Function
+`WebAuthNEncodeAccountInformation` | 41 | Exported Function
+`WebAuthNDeletePlatformCredential` | 40 | Exported Function
+`WebAuthNDecodeAccountInformation` | 39 | Exported Function
+`WebAuthNCtapSetClientPin` | 35 | Exported Function
+`WebAuthNCtapRpcGetAssertionUserList` | 31 | Exported Function
+`WebAuthNCtapResetDevice` | 30 | Exported Function
+`WebAuthNCtapParseAuthenticatorData` | 29 | Exported Function
+`WebAuthNCtapSendCommand` | 34 | Exported Function
+`WebAuthNCtapRpcSelectGetAssertion` | 33 | Exported Function
+`WebAuthNCtapRpcGetCborCommand` | 32 | Exported Function
+`WebAuthNFreeAssertion` | 42 | Exported Function
+`WebAuthNGetErrorName` | 52 | Exported Function
+`WebAuthNGetCredentialIdFromAuthenticatorData` | 51 | Exported Function
+`WebAuthNGetCoseAlgorithmIdentifier` | 50 | Exported Function
+`WebAuthNIsUserVerifyingPlatformAuthenticatorAvailable` | 55 | Exported Function
+`WebAuthNGetW3CExceptionDOMError` | 54 | Exported Function
+`WebAuthNGetPlatformCredentials` | 53 | Exported Function
+`WebAuthNGetCancellationId` | 49 | Exported Function
+`WebAuthNFreeEncodedAccountInformation` | 45 | Exported Function
+`WebAuthNFreeDecodedAccountInformation` | 44 | Exported Function
+`WebAuthNFreeCredentialAttestation` | 43 | Exported Function
+`WebAuthNGetApiVersionNumber` | 48 | Exported Function
+`WebAuthNFreeUserEntityList` | 47 | Exported Function
+`WebAuthNFreePlatformCredentials` | 46 | Exported Function
+`WebAuthNCtapManageSetPin` | 28 | Exported Function
+`WebAuthNCtapChangeClientPinForSelectedDevice` | 10 | Exported Function
+`WebAuthNCtapChangeClientPin` | 9 | Exported Function
+`WebAuthNCancelCurrentOperation` | 8 | Exported Function
+`WebAuthNCtapGetSupportedTransports` | 13 | Exported Function
+`WebAuthNCtapGetAssertion` | 12 | Exported Function
+`WebAuthNCtapFreeSelectedDeviceInformation` | 11 | Exported Function
+`WebAuthNAuthenticatorMakeCredential` | 7 | Exported Function
+`I_WebAuthNCtapDecodeMakeCredentialRpcResponse` | 3 | Exported Function
+`I_WebAuthNCtapDecodeGetAssertionRpcResponse` | 2 | Exported Function
+`CryptsvcDllCtrl` | 1 | Exported Function
+`WebAuthNAuthenticatorGetAssertion` | 6 | Exported Function
+`I_WebAuthNCtapEncodeMakeCredentialRpcRequest` | 5 | Exported Function
+`I_WebAuthNCtapEncodeGetAssertionRpcRequest` | 4 | Exported Function
+`WebAuthNCtapGetWnfLocalizedString` | 14 | Exported Function
+`WebAuthNCtapManageGetDisplayCredentials` | 24 | Exported Function
+`WebAuthNCtapManageFreeDisplayCredentials` | 23 | Exported Function
+`WebAuthNCtapManageEnrollFingerprint` | 22 | Exported Function
+`WebAuthNCtapManageSelect` | 27 | Exported Function
+`WebAuthNCtapManageResetDevice` | 26 | Exported Function
+`WebAuthNCtapManageRemoveFingerprints` | 25 | Exported Function
+`WebAuthNCtapManageDeleteCredential` | 21 | Exported Function
+`WebAuthNCtapManageAuthenticatePin` | 17 | Exported Function
+`WebAuthNCtapMakeCredential` | 16 | Exported Function
+`WebAuthNCtapIsStopSendCommandError` | 15 | Exported Function
+`WebAuthNCtapManageClose` | 20 | Exported Function
+`WebAuthNCtapManageChangePin` | 19 | Exported Function
+`WebAuthNCtapManageCancelEnrollFingerprint` | 18 | Exported Function
 
 
 ## Signature

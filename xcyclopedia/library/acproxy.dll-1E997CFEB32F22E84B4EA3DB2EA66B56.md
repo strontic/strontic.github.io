@@ -24,9 +24,9 @@ PE256 | `03153250D4D47834C6E16F6CBAE1E8341EEB3429381AF677CFE5019316B790E5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PerformAutochkOperations` | 1 (0x1) | Exported Function | 0x0000000180001220 | 0x00001220
+Function Name | Ordinal | Type
+-- | -- | --
+`PerformAutochkOperations` | 1 | Exported Function
 
 
 ## Signature

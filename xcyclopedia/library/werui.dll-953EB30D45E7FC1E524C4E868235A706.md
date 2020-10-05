@@ -24,27 +24,27 @@ PE256 | `47BA3E4D87CEAEF6774174FE12FE5C26FF0C8DA73E80E62EECC2A6B1CCAC39A8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WerUICreate` | 2 (0x2) | Exported Function | 0x10004110 | 0x00004110
-`WerUIUpdateStateProgress` | 10 (0xa) | Exported Function | 0x100044c0 | 0x000044c0
-`WerUITerminate` | 9 (0x9) | Exported Function | 0x10004370 | 0x00004370
-`WerUIStart` | 8 (0x8) | Exported Function | 0x10004220 | 0x00004220
-`WerUIShowUpsell` | 7 (0x7) | Exported Function | 0x10004560 | 0x00004560
-`WerUIReportSilentProcessExit` | 1 (0x1) | Exported Function | 0x1000af80 | 0x0000af80
-`WerUIpUIHandleWERWindowMsg` | 19 (0x13) | Exported Function | 0x10004010 | 0x00004010
-`WerUIpTaskDialogIndirect` | 18 (0x12) | Exported Function | 0x100040d0 | 0x000040d0
-`WerUIUpdateUIForState` | 11 (0xb) | Exported Function | 0x10004430 | 0x00004430
-`WerUIpSetWindowSubclass` | 17 (0x11) | Exported Function | 0x100040a0 | 0x000040a0
-`WerUIPromptForSecondLevel` | 5 (0x5) | Exported Function | 0x10004300 | 0x00004300
-`WerUIpRemoveWindowSubclass` | 16 (0x10) | Exported Function | 0x100040f0 | 0x000040f0
-`WerUIpHeadlessOrImersive` | 15 (0xf) | Exported Function | 0x10004030 | 0x00004030
-`WerUIpDefSubclassProc` | 14 (0xe) | Exported Function | 0x10004080 | 0x00004080
-`WerUIpCheckWindow` | 13 (0xd) | Exported Function | 0x10003ea0 | 0x00003ea0
-`WerUIGetUserSelection` | 4 (0x4) | Exported Function | 0x10004290 | 0x00004290
-`WerUIDelete` | 3 (0x3) | Exported Function | 0x100041c0 | 0x000041c0
-`WerUIPromptUser` | 6 (0x6) | Exported Function | 0x100045c0 | 0x000045c0
-`WerUIWaitForUserAction` | 12 (0xc) | Exported Function | 0x100043d0 | 0x000043d0
+Function Name | Ordinal | Type
+-- | -- | --
+`WerUIReportSilentProcessExit` | 1 | Exported Function
+`WerUIShowUpsell` | 7 | Exported Function
+`WerUIpTaskDialogIndirect` | 18 | Exported Function
+`WerUIpUIHandleWERWindowMsg` | 19 | Exported Function
+`WerUIStart` | 8 | Exported Function
+`WerUIUpdateUIForState` | 11 | Exported Function
+`WerUIWaitForUserAction` | 12 | Exported Function
+`WerUITerminate` | 9 | Exported Function
+`WerUIUpdateStateProgress` | 10 | Exported Function
+`WerUIpSetWindowSubclass` | 17 | Exported Function
+`WerUIGetUserSelection` | 4 | Exported Function
+`WerUIpCheckWindow` | 13 | Exported Function
+`WerUICreate` | 2 | Exported Function
+`WerUIDelete` | 3 | Exported Function
+`WerUIpDefSubclassProc` | 14 | Exported Function
+`WerUIPromptForSecondLevel` | 5 | Exported Function
+`WerUIPromptUser` | 6 | Exported Function
+`WerUIpHeadlessOrImersive` | 15 | Exported Function
+`WerUIpRemoveWindowSubclass` | 16 | Exported Function
 
 
 ## Signature

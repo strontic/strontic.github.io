@@ -24,19 +24,19 @@ PE256 | `585143DAF921230A019E9657C68775BC19F90144B6302031DAC7AABAE5D01FBF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDataCacheZ` | 2 (0x2) | Exported Function | 0x100032f0 | 0x000032f0
-`CreateServerRequestsZ` | 3 (0x3) | Exported Function | 0x10010140 | 0x00010140
-`LoadPropertyPageData` | 11 (0xb) | Exported Function | 0x1000d8f0 | 0x0000d8f0
-`public: __int64 __thiscall CDMNodeObj::GetLdmObjectId(void)` | 5 (0x5) | Exported Function | 0x100029e0 | 0x000029e0
-`public: class CString __thiscall CDataCache::GetServerName(void)` | 9 (0x9) | Exported Function | 0x10002ab0 | 0x00002ab0
-`public: class CWnd * __thiscall CTaskData::GetOcxFrameCWndPtr(void)` | 7 (0x7) | Exported Function | 0x10002af0 | 0x00002af0
-`public: unsigned long __thiscall CDataCache::GetDiskCount(void)` | 4 (0x4) | Exported Function | 0x10002a10 | 0x00002a10
-`public: unsigned long __thiscall CDataCache::GetVolumeCount(void)` | 10 (0xa) | Exported Function | 0x10002a20 | 0x00002a20
-`public: unsigned long __thiscall CDMNodeObj::GetNumMembers(void)` | 6 (0x6) | Exported Function | 0x10002a00 | 0x00002a00
-`public: void __thiscall CDataCache::AddLDMObjMapEntry(struct _LDM_OBJ_MAP_ENTRY *)` | 1 (0x1) | Exported Function | 0x10002a30 | 0x00002a30
-`public: void __thiscall CTaskData::GetRegionColorStructPtr(struct _REGION_COLORS * *,int &)` | 8 (0x8) | Exported Function | 0x10002b00 | 0x00002b00
+Function Name | Ordinal | Type
+-- | -- | --
+`public: unsigned long __thiscall CDataCache::GetVolumeCount(void)` | 10 | Exported Function
+`public: unsigned long __thiscall CDataCache::GetDiskCount(void)` | 4 | Exported Function
+`public: unsigned long __thiscall CDMNodeObj::GetNumMembers(void)` | 6 | Exported Function
+`public: void __thiscall CTaskData::GetRegionColorStructPtr(struct _REGION_COLORS * *,int &)` | 8 | Exported Function
+`public: void __thiscall CDataCache::AddLDMObjMapEntry(struct _LDM_OBJ_MAP_ENTRY *)` | 1 | Exported Function
+`public: class CWnd * __thiscall CTaskData::GetOcxFrameCWndPtr(void)` | 7 | Exported Function
+`CreateServerRequestsZ` | 3 | Exported Function
+`CreateDataCacheZ` | 2 | Exported Function
+`LoadPropertyPageData` | 11 | Exported Function
+`public: class CString __thiscall CDataCache::GetServerName(void)` | 9 | Exported Function
+`public: __int64 __thiscall CDMNodeObj::GetLdmObjectId(void)` | 5 | Exported Function
 
 
 ## Signature

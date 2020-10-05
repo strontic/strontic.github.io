@@ -24,19 +24,19 @@ PE256 | `65F546D261C0CF401BEA172DEA5D7CB65BE04FE2A1E3084E98D61B8F5D7ADE3C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AuthBrokerClearThreadClientContext` | 2 (0x2) | Exported Function | 0x00000001800138d0 | 0x000138d0
-`AuthBrokerCreateClientContext` | 3 (0x3) | Exported Function | 0x0000000180002880 | 0x00002880
-`AuthBrokerFreeClientContext` | 4 (0x4) | Exported Function | 0x0000000180002a40 | 0x00002a40
-`AuthBrokerSetThreadClientContext` | 5 (0x5) | Exported Function | 0x00000001800139d0 | 0x000139d0
-`DllCanUnloadNow` | 6 (0x6) | Exported Function | 0x000000018000f080 | 0x0000f080
-`DllGetActivationFactory` | 7 (0x7) | Exported Function | 0x000000018000f0d0 | 0x0000f0d0
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x000000018000f110 | 0x0000f110
-`DllInstall` | 9 (0x9) | Exported Function | 0x0000000180013b20 | 0x00013b20
-`DllRegisterServer` | 10 (0xa) | Exported Function | 0x0000000180002f30 | 0x00002f30
-`FindCallingThreadImmersiveWindow` | 1 (0x1) | Exported Function | 0x000000018000f240 | 0x0000f240
-`PurgeAuthHostSsoCache` | 11 (0xb) | Exported Function | 0x0000000180013b90 | 0x00013b90
+Function Name | Ordinal | Type
+-- | -- | --
+`DllInstall` | 9 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllRegisterServer` | 10 | Exported Function
+`PurgeAuthHostSsoCache` | 11 | Exported Function
+`FindCallingThreadImmersiveWindow` | 1 | Exported Function
+`DllGetActivationFactory` | 7 | Exported Function
+`AuthBrokerCreateClientContext` | 3 | Exported Function
+`AuthBrokerClearThreadClientContext` | 2 | Exported Function
+`AuthBrokerFreeClientContext` | 4 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`AuthBrokerSetThreadClientContext` | 5 | Exported Function
 
 
 ## Signature

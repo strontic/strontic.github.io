@@ -24,17 +24,17 @@ PE256 | `F711501B9F17E57A54E20EBC8F89C859483E139CE32498E625E343C8675732F7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TetheringStationConnect` | 1 (0x1) | Exported Function | 0x000000018000c160 | 0x0000c160
-`TetheringStationDeinitialize` | 2 (0x2) | Exported Function | 0x000000018000bc90 | 0x0000bc90
-`TetheringStationDisconnect` | 3 (0x3) | Exported Function | 0x000000018000c280 | 0x0000c280
-`TetheringStationEnumerate` | 4 (0x4) | Exported Function | 0x000000018000c000 | 0x0000c000
-`TetheringStationFreeMemory` | 5 (0x5) | Exported Function | 0x000000018000c640 | 0x0000c640
-`TetheringStationInitialize` | 6 (0x6) | Exported Function | 0x000000018000bb00 | 0x0000bb00
-`TetheringStationRefresh` | 7 (0x7) | Exported Function | 0x000000018000bea0 | 0x0000bea0
-`TetheringStationRegisterForNotification` | 8 (0x8) | Exported Function | 0x000000018000c3e0 | 0x0000c3e0
-`TetheringStationUnregisterForNotification` | 9 (0x9) | Exported Function | 0x000000018000c4f0 | 0x0000c4f0
+Function Name | Ordinal | Type
+-- | -- | --
+`TetheringStationRefresh` | 7 | Exported Function
+`TetheringStationInitialize` | 6 | Exported Function
+`TetheringStationUnregisterForNotification` | 9 | Exported Function
+`TetheringStationRegisterForNotification` | 8 | Exported Function
+`TetheringStationFreeMemory` | 5 | Exported Function
+`TetheringStationDeinitialize` | 2 | Exported Function
+`TetheringStationConnect` | 1 | Exported Function
+`TetheringStationEnumerate` | 4 | Exported Function
+`TetheringStationDisconnect` | 3 | Exported Function
 
 
 ## Signature

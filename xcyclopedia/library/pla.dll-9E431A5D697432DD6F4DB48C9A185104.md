@@ -24,23 +24,23 @@ PE256 | `0481A599369022FF37BEDE1E83F620D1C82A4E4C63C8421F0252276F779B340B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180006e50 | 0x00006e50
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180006e70 | 0x00006e70
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x0000000180001240 | 0x00001240
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x0000000180001240 | 0x00001240
-`PlaDeleteReport` | 7 (0x7) | Exported Function | 0x0000000180120970 | 0x00120970
-`PlaExpandTaskArguments` | 8 (0x8) | Exported Function | 0x00000001800fdd50 | 0x000fdd50
-`PlaExtractCabinet` | 9 (0x9) | Exported Function | 0x0000000180120ac0 | 0x00120ac0
-`PlaGetLegacyAlertActionsFlagsFromString` | 10 (0xa) | Exported Function | 0x00000001800d9aa0 | 0x000d9aa0
-`PlaGetLegacyAlertActionsStringFromFlags` | 11 (0xb) | Exported Function | 0x00000001800d9f10 | 0x000d9f10
-`PlaGetServerCapabilities` | 12 (0xc) | Exported Function | 0x00000001800381f0 | 0x000381f0
-`PlaHost` | 13 (0xd) | Exported Function | 0x00000001800fefc0 | 0x000fefc0
-`PlaServer` | 14 (0xe) | Exported Function | 0x0000000180007110 | 0x00007110
-`PlaUpgrade` | 15 (0xf) | Exported Function | 0x000000018000aeb0 | 0x0000aeb0
-`ServiceMain` | 1 (0x1) | Exported Function | 0x0000000180007af0 | 0x00007af0
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x0000000180007f70 | 0x00007f70
+Function Name | Ordinal | Type
+-- | -- | --
+`PlaHost` | 13 | Exported Function
+`PlaGetServerCapabilities` | 12 | Exported Function
+`PlaGetLegacyAlertActionsStringFromFlags` | 11 | Exported Function
+`PlaServer` | 14 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`PlaUpgrade` | 15 | Exported Function
+`PlaGetLegacyAlertActionsFlagsFromString` | 10 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`PlaExtractCabinet` | 9 | Exported Function
+`PlaExpandTaskArguments` | 8 | Exported Function
+`PlaDeleteReport` | 7 | Exported Function
 
 
 ## Signature

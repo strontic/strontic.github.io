@@ -24,10 +24,10 @@ PE256 | `4FAA033671CDEDD64569FA12CB87A613CBB859DE4AAE16183319E0994029222C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EncryptDumpFile` | 1 (0x1) | Exported Function | 0x10001c40 | 0x00001c40
-`EncryptDumpStream` | 2 (0x2) | Exported Function | 0x10001d20 | 0x00001d20
+Function Name | Ordinal | Type
+-- | -- | --
+`EncryptDumpStream` | 2 | Exported Function
+`EncryptDumpFile` | 1 | Exported Function
 
 
 ## Signature

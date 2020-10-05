@@ -24,22 +24,15 @@ PE256 | `266D1223A9B1420BC0E7B4D5B7B0AC152C5738728A6CF1777AD91505C8552226`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x000000018005fee0 | 0x0005fee0
-`DllGetActivationFactory` | 10 (0xa) | Exported Function | 0x000000018006f830 | 0x0006f830
-`DllGetClassObject` | 11 (0xb) | Exported Function | 0x00000001800a7960 | 0x000a7960
-`IEGetWriteableFolderPath` | 12 (0xc) | Exported Function | 0x00000001800eb160 | 0x000eb160
-`IEIsInPrivateBrowsing` | 8 (0x8) | Exported Function | 0x00000001800eb140 | 0x000eb140
-`IEIsProtectedModeProcess` | 13 (0xd) | Exported Function | 0x00000001800eb230 | 0x000eb230
-`IERefreshElevationPolicy` | 14 (0xe) | Exported Function | 0x000000018006fb80 | 0x0006fb80
-`Ordinal1` | 1 (0x1) | Exported Function | 0x0000000180064da0 | 0x00064da0
-`Ordinal2` | 2 (0x2) | Exported Function | 0x0000000180068c50 | 0x00068c50
-`Ordinal3` | 3 (0x3) | Exported Function | 0x0000000180069860 | 0x00069860
-`Ordinal4` | 4 (0x4) | Exported Function | 0x000000018006ea10 | 0x0006ea10
-`Ordinal5` | 5 (0x5) | Exported Function | 0x0000000180068a50 | 0x00068a50
-`Ordinal6` | 6 (0x6) | Exported Function | 0x0000000180066260 | 0x00066260
-`Ordinal7` | 7 (0x7) | Exported Function | 0x00000001800b9a20 | 0x000b9a20
+Function Name | Ordinal | Type
+-- | -- | --
+`IEIsInPrivateBrowsing` | 8 | Exported Function
+`IEIsProtectedModeProcess` | 13 | Exported Function
+`IERefreshElevationPolicy` | 14 | Exported Function
+`IEGetWriteableFolderPath` | 12 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`DllGetActivationFactory` | 10 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
 
 
 ## Signature

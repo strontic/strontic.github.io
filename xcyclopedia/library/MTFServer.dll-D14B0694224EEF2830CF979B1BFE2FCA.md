@@ -24,17 +24,17 @@ PE256 | `FA7F7A2EDBFAC5F7B9147B019B4F704139007AD3CC396904215F8F4014F43294`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000014f7853a0 | 0x000053a0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x000000014f785270 | 0x00005270
-`MTF_Close` | 3 (0x3) | Exported Function | 0x000000014f7851e0 | 0x000051e0
-`MTF_Deinit` | 4 (0x4) | Exported Function | 0x000000014f785150 | 0x00005150
-`MTF_GetServer` | 5 (0x5) | Exported Function | 0x000000014f785220 | 0x00005220
-`MTF_Init` | 7 (0x7) | Exported Function | 0x000000014f785050 | 0x00005050
-`MTF_IOControl` | 6 (0x6) | Exported Function | 0x000000014f7851d0 | 0x000051d0
-`MTF_Open` | 8 (0x8) | Exported Function | 0x000000014f7851e0 | 0x000051e0
-`MTF_SetPrivateMode` | 9 (0x9) | Exported Function | 0x000000014f7851f0 | 0x000051f0
+Function Name | Ordinal | Type
+-- | -- | --
+`MTF_IOControl` | 6 | Exported Function
+`MTF_Init` | 7 | Exported Function
+`MTF_SetPrivateMode` | 9 | Exported Function
+`MTF_Open` | 8 | Exported Function
+`MTF_GetServer` | 5 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`MTF_Deinit` | 4 | Exported Function
+`MTF_Close` | 3 | Exported Function
 
 
 ## Signature

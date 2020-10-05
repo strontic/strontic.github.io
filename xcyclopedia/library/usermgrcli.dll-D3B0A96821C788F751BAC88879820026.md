@@ -24,56 +24,56 @@ PE256 | `ED726B2B41A676778FD938BF9F77CBCF2BD29B0CCC3F1AD66919C547E890C3BE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CamCleanupDisardedCandidateAccounts` | 1 (0x1) | Exported Function | 0x0000000180003860 | 0x00003860
-`UMgrGetSessionActiveShellUserToken` | 27 (0x1b) | Exported Function | 0x0000000180009650 | 0x00009650
-`UMgrInformFlags` | 28 (0x1c) | Exported Function | 0x0000000180003930 | 0x00003930
-`UMgrInformUserLogoff` | 29 (0x1d) | Exported Function | 0x0000000180003850 | 0x00003850
-`UMgrInformUserLogon` | 30 (0x1e) | Exported Function | 0x00000001800039d0 | 0x000039d0
-`UMgrIsAllowedToActivateAsUser` | 31 (0x1f) | Exported Function | 0x0000000180001aa0 | 0x00001aa0
-`UMgrLaunchShell` | 32 (0x20) | Exported Function | 0x00000001800039b0 | 0x000039b0
-`UMgrLaunchShellInfrastructureHost` | 33 (0x21) | Exported Function | 0x00000001800039a0 | 0x000039a0
-`UMgrLogonUser` | 34 (0x22) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`UMgrOpenProcessHandleForAccess` | 35 (0x23) | Exported Function | 0x00000001800011a0 | 0x000011a0
-`UMgrGetImpersonationTokenForContext` | 26 (0x1a) | Exported Function | 0x0000000180009620 | 0x00009620
-`UMgrOpenProcessTokenForQuery` | 36 (0x24) | Exported Function | 0x0000000180001100 | 0x00001100
-`UMgrQueryDefaultAccountToken` | 37 (0x25) | Exported Function | 0x0000000180003c40 | 0x00003c40
-`UMgrQuerySessionUserToken` | 38 (0x26) | Exported Function | 0x0000000180009680 | 0x00009680
-`UMgrQuerySessionVirtualAccountToken` | 39 (0x27) | Exported Function | 0x00000001800096b0 | 0x000096b0
-`UMgrQueryUserContext` | 40 (0x28) | Exported Function | 0x00000001800023f0 | 0x000023f0
-`UMgrQueryUserContextFromName` | 41 (0x29) | Exported Function | 0x00000001800096e0 | 0x000096e0
-`UMgrQueryUserContextFromSid` | 42 (0x2a) | Exported Function | 0x0000000180009710 | 0x00009710
-`UMgrQueryUserToken` | 43 (0x2b) | Exported Function | 0x0000000180001f50 | 0x00001f50
-`UMgrQueryUserTokenFromName` | 44 (0x2c) | Exported Function | 0x0000000180009740 | 0x00009740
-`UMgrQueryUserTokenFromSid` | 45 (0x2d) | Exported Function | 0x0000000180009770 | 0x00009770
-`UMgrpGetRegistryLocation` | 48 (0x30) | Exported Function | 0x00000001800097e0 | 0x000097e0
-`UMgrGetDefaultSignInAccount` | 25 (0x19) | Exported Function | 0x0000000180009610 | 0x00009610
-`UMgrGetConstrainedUserToken` | 24 (0x18) | Exported Function | 0x00000001800016a0 | 0x000016a0
-`UMgrGetCachedCredentials` | 23 (0x17) | Exported Function | 0x00000001800095e0 | 0x000095e0
-`CamConnectCandidateUser` | 2 (0x2) | Exported Function | 0x0000000180009210 | 0x00009210
-`CamFreeAuthBuffer` | 3 (0x3) | Exported Function | 0x0000000180009250 | 0x00009250
-`CamFreeBuffer` | 4 (0x4) | Exported Function | 0x00000001800092a0 | 0x000092a0
-`CamGetCandidateAccountCredz` | 5 (0x5) | Exported Function | 0x00000001800092d0 | 0x000092d0
-`CamGetCandidateUserSessionIds` | 6 (0x6) | Exported Function | 0x0000000180009300 | 0x00009300
-`CamGetNonCandidateUserSessionIds` | 7 (0x7) | Exported Function | 0x0000000180009330 | 0x00009330
-`CamIsCandidateUser` | 8 (0x8) | Exported Function | 0x0000000180003b80 | 0x00003b80
-`CamIsEphemeralCandidateUser` | 9 (0x9) | Exported Function | 0x0000000180009360 | 0x00009360
-`CamRefreshCandidateUser` | 10 (0xa) | Exported Function | 0x0000000180009390 | 0x00009390
-`IsInteractiveUserSession` | 11 (0xb) | Exported Function | 0x00000001800097f0 | 0x000097f0
-`QueryActiveSession` | 12 (0xc) | Exported Function | 0x0000000180009860 | 0x00009860
-`QueryUserToken` | 13 (0xd) | Exported Function | 0x00000001800098e0 | 0x000098e0
-`RegisterUsertokenForNoWinlogon` | 14 (0xe) | Exported Function | 0x00000001800099d0 | 0x000099d0
-`UMgrChangeSessionActiveShellUser` | 15 (0xf) | Exported Function | 0x0000000180009480 | 0x00009480
-`UMgrChangeSessionUserToken` | 16 (0x10) | Exported Function | 0x00000001800094b0 | 0x000094b0
-`UMgrClearDefaultSignInAccount` | 17 (0x11) | Exported Function | 0x00000001800094c0 | 0x000094c0
-`UMgrConnectLocalUser` | 18 (0x12) | Exported Function | 0x00000001800094d0 | 0x000094d0
-`UMgrDisconnectLocalUser` | 19 (0x13) | Exported Function | 0x0000000180009520 | 0x00009520
-`UMgrEnumerateSessionUsers` | 20 (0x14) | Exported Function | 0x00000001800017f0 | 0x000017f0
-`UMgrFreeSessionUsers` | 21 (0x15) | Exported Function | 0x0000000180001250 | 0x00001250
-`UMgrFreeUserCredentials` | 22 (0x16) | Exported Function | 0x0000000180009580 | 0x00009580
-`UMgrSetCachedCredentials` | 46 (0x2e) | Exported Function | 0x00000001800097a0 | 0x000097a0
-`UMgrSetShellInformation` | 47 (0x2f) | Exported Function | 0x00000001800039c0 | 0x000039c0
+Function Name | Ordinal | Type
+-- | -- | --
+`UMgrLaunchShellInfrastructureHost` | 33 | Exported Function
+`UMgrLaunchShell` | 32 | Exported Function
+`UMgrIsAllowedToActivateAsUser` | 31 | Exported Function
+`UMgrOpenProcessTokenForQuery` | 36 | Exported Function
+`UMgrOpenProcessHandleForAccess` | 35 | Exported Function
+`UMgrLogonUser` | 34 | Exported Function
+`UMgrGetSessionActiveShellUserToken` | 27 | Exported Function
+`UMgrGetImpersonationTokenForContext` | 26 | Exported Function
+`UMgrGetDefaultSignInAccount` | 25 | Exported Function
+`UMgrInformUserLogon` | 30 | Exported Function
+`UMgrInformUserLogoff` | 29 | Exported Function
+`UMgrInformFlags` | 28 | Exported Function
+`UMgrQueryUserTokenFromName` | 44 | Exported Function
+`UMgrQueryUserToken` | 43 | Exported Function
+`UMgrQueryUserContextFromSid` | 42 | Exported Function
+`UMgrSetShellInformation` | 47 | Exported Function
+`UMgrSetCachedCredentials` | 46 | Exported Function
+`UMgrQueryUserTokenFromSid` | 45 | Exported Function
+`UMgrQuerySessionUserToken` | 38 | Exported Function
+`UMgrQueryDefaultAccountToken` | 37 | Exported Function
+`UMgrpGetRegistryLocation` | 48 | Exported Function
+`UMgrQueryUserContextFromName` | 41 | Exported Function
+`UMgrQueryUserContext` | 40 | Exported Function
+`UMgrQuerySessionVirtualAccountToken` | 39 | Exported Function
+`CamIsEphemeralCandidateUser` | 9 | Exported Function
+`CamIsCandidateUser` | 8 | Exported Function
+`CamGetNonCandidateUserSessionIds` | 7 | Exported Function
+`QueryActiveSession` | 12 | Exported Function
+`IsInteractiveUserSession` | 11 | Exported Function
+`CamRefreshCandidateUser` | 10 | Exported Function
+`CamFreeAuthBuffer` | 3 | Exported Function
+`CamConnectCandidateUser` | 2 | Exported Function
+`CamCleanupDisardedCandidateAccounts` | 1 | Exported Function
+`CamGetCandidateUserSessionIds` | 6 | Exported Function
+`CamGetCandidateAccountCredz` | 5 | Exported Function
+`CamFreeBuffer` | 4 | Exported Function
+`UMgrFreeSessionUsers` | 21 | Exported Function
+`UMgrEnumerateSessionUsers` | 20 | Exported Function
+`UMgrDisconnectLocalUser` | 19 | Exported Function
+`UMgrGetConstrainedUserToken` | 24 | Exported Function
+`UMgrGetCachedCredentials` | 23 | Exported Function
+`UMgrFreeUserCredentials` | 22 | Exported Function
+`UMgrChangeSessionActiveShellUser` | 15 | Exported Function
+`RegisterUsertokenForNoWinlogon` | 14 | Exported Function
+`QueryUserToken` | 13 | Exported Function
+`UMgrConnectLocalUser` | 18 | Exported Function
+`UMgrClearDefaultSignInAccount` | 17 | Exported Function
+`UMgrChangeSessionUserToken` | 16 | Exported Function
 
 
 ## Signature

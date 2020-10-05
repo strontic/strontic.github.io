@@ -24,13 +24,13 @@ PE256 | `2AA4038079D4F1F44595E258639DD6F0E25ABDD1EB4C091D147E6C55A9DB8EA3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreatePropertiesFromRecurrencePattern` | 1 (0x1) | Exported Function | 0x0000000180032f30 | 0x00032f30
-`CreateRecurrencePatternFromProperties` | 2 (0x2) | Exported Function | 0x00000001800337b0 | 0x000337b0
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180032280 | 0x00032280
-`DllGetActivationFactory` | 4 (0x4) | Exported Function | 0x00000001800322e0 | 0x000322e0
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x0000000180032320 | 0x00032320
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetActivationFactory` | 4 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`CreatePropertiesFromRecurrencePattern` | 1 | Exported Function
+`CreateRecurrencePatternFromProperties` | 2 | Exported Function
 
 
 ## Signature

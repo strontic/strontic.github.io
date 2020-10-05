@@ -24,391 +24,391 @@ PE256 | `01CFCE53D87ADEEB4382A66A69FE32D5B5C95790655C18C4C08CBD8483AF9579`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`D3DRMColorGetAlpha` | 1 (0x1) | Exported Function | 0x78d02c40 | 0x00002c40
-`glRectd` | 262 (0x106) | Exported Function | 0x78d0cec0 | 0x0000cec0
-`glReadPixels` | 261 (0x105) | Exported Function | 0x78d0ce80 | 0x0000ce80
-`glReadBuffer` | 260 (0x104) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos4sv` | 259 (0x103) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos4s` | 258 (0x102) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glRasterPos4iv` | 257 (0x101) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos4i` | 256 (0x100) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glRasterPos4fv` | 255 (0xff) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos4f` | 254 (0xfe) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glRectdv` | 263 (0x107) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glRasterPos4dv` | 253 (0xfd) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos3sv` | 251 (0xfb) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos3s` | 250 (0xfa) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glRasterPos3iv` | 249 (0xf9) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos3i` | 248 (0xf8) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glRasterPos3fv` | 247 (0xf7) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos3f` | 246 (0xf6) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glRasterPos3dv` | 245 (0xf5) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos3d` | 244 (0xf4) | Exported Function | 0x78d0ceb0 | 0x0000ceb0
-`glRasterPos2sv` | 243 (0xf3) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos4d` | 252 (0xfc) | Exported Function | 0x78d0cec0 | 0x0000cec0
-`glRasterPos2s` | 242 (0xf2) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glRectf` | 264 (0x108) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glRecti` | 266 (0x10a) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glTexCoord1iv` | 286 (0x11e) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord1i` | 285 (0x11d) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord1fv` | 284 (0x11c) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord1f` | 283 (0x11b) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord1dv` | 282 (0x11a) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord1d` | 281 (0x119) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glStencilOp` | 280 (0x118) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glStencilMask` | 279 (0x117) | Exported Function | 0x78d07340 | 0x00007340
-`glStencilFunc` | 278 (0x116) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glRectfv` | 265 (0x109) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glShadeModel` | 277 (0x115) | Exported Function | 0x78d090c0 | 0x000090c0
-`glScissor` | 275 (0x113) | Exported Function | 0x78d08fe0 | 0x00008fe0
-`glScalef` | 274 (0x112) | Exported Function | 0x78d08f10 | 0x00008f10
-`glScaled` | 273 (0x111) | Exported Function | 0x78d0ceb0 | 0x0000ceb0
-`glRotatef` | 272 (0x110) | Exported Function | 0x78d08c70 | 0x00008c70
-`glRotated` | 271 (0x10f) | Exported Function | 0x78d0cec0 | 0x0000cec0
-`glRenderMode` | 270 (0x10e) | Exported Function | 0x78d0cef0 | 0x0000cef0
-`glRectsv` | 269 (0x10d) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glRects` | 268 (0x10c) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glRectiv` | 267 (0x10b) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glSelectBuffer` | 276 (0x114) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glTexCoord1s` | 287 (0x11f) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos2iv` | 241 (0xf1) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos2fv` | 239 (0xef) | Exported Function | 0x78d07340 | 0x00007340
-`glPassThrough` | 214 (0xd6) | Exported Function | 0x78d07340 | 0x00007340
-`glOrtho` | 213 (0xd5) | Exported Function | 0x78d08970 | 0x00008970
-`glNormalPointer` | 212 (0xd4) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glNormal3sv` | 211 (0xd3) | Exported Function | 0x78d07340 | 0x00007340
-`glNormal3s` | 210 (0xd2) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glNormal3iv` | 209 (0xd1) | Exported Function | 0x78d07340 | 0x00007340
-`glNormal3i` | 208 (0xd0) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glNormal3fv` | 207 (0xcf) | Exported Function | 0x78d08940 | 0x00008940
-`glNormal3f` | 206 (0xce) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glPixelMapfv` | 215 (0xd7) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glNormal3dv` | 205 (0xcd) | Exported Function | 0x78d07340 | 0x00007340
-`glNormal3bv` | 203 (0xcb) | Exported Function | 0x78d08900 | 0x00008900
-`glNormal3b` | 202 (0xca) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glNewList` | 201 (0xc9) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glMultMatrixf` | 200 (0xc8) | Exported Function | 0x78d08890 | 0x00008890
-`glMultMatrixd` | 199 (0xc7) | Exported Function | 0x78d08800 | 0x00008800
-`glMatrixMode` | 198 (0xc6) | Exported Function | 0x78d07420 | 0x00007420
-`glMaterialiv` | 197 (0xc5) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glMateriali` | 196 (0xc4) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glMaterialfv` | 195 (0xc3) | Exported Function | 0x78d08600 | 0x00008600
-`glNormal3d` | 204 (0xcc) | Exported Function | 0x78d0ceb0 | 0x0000ceb0
-`glRasterPos2i` | 240 (0xf0) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glPixelMapuiv` | 216 (0xd8) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glPixelStoref` | 218 (0xda) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glRasterPos2f` | 238 (0xee) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glRasterPos2dv` | 237 (0xed) | Exported Function | 0x78d07340 | 0x00007340
-`glRasterPos2d` | 236 (0xec) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glPushName` | 235 (0xeb) | Exported Function | 0x78d07340 | 0x00007340
-`glPushMatrix` | 234 (0xea) | Exported Function | 0x78d08c10 | 0x00008c10
-`glPushClientAttrib` | 233 (0xe9) | Exported Function | 0x78d07340 | 0x00007340
-`glPushAttrib` | 232 (0xe8) | Exported Function | 0x78d08bd0 | 0x00008bd0
-`glPrioritizeTextures` | 231 (0xe7) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glPopName` | 230 (0xe6) | Exported Function | 0x78d0cee0 | 0x0000cee0
-`glPixelMapusv` | 217 (0xd9) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glPopMatrix` | 229 (0xe5) | Exported Function | 0x78d08b10 | 0x00008b10
-`glPopAttrib` | 227 (0xe3) | Exported Function | 0x78d08ae0 | 0x00008ae0
-`glPolygonStipple` | 226 (0xe2) | Exported Function | 0x78d07340 | 0x00007340
-`glPolygonOffset` | 225 (0xe1) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glPolygonMode` | 224 (0xe0) | Exported Function | 0x78d08a80 | 0x00008a80
-`glPointSize` | 223 (0xdf) | Exported Function | 0x78d07340 | 0x00007340
-`glPixelZoom` | 222 (0xde) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glPixelTransferi` | 221 (0xdd) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glPixelTransferf` | 220 (0xdc) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glPixelStorei` | 219 (0xdb) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glPopClientAttrib` | 228 (0xe4) | Exported Function | 0x78d0cee0 | 0x0000cee0
-`glMaterialf` | 194 (0xc2) | Exported Function | 0x78d085a0 | 0x000085a0
-`glTexCoord1sv` | 288 (0x120) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord2dv` | 290 (0x122) | Exported Function | 0x78d07340 | 0x00007340
-`glVertexPointer` | 358 (0x166) | Exported Function | 0x78d0a4b0 | 0x0000a4b0
-`glVertex4sv` | 357 (0x165) | Exported Function | 0x78d0a290 | 0x0000a290
-`glVertex4s` | 356 (0x164) | Exported Function | 0x78d0a430 | 0x0000a430
-`glVertex4iv` | 355 (0x163) | Exported Function | 0x78d0a1b0 | 0x0000a1b0
-`glVertex4i` | 354 (0x162) | Exported Function | 0x78d0a3d0 | 0x0000a3d0
-`glVertex4fv` | 353 (0x161) | Exported Function | 0x78d0a0f0 | 0x0000a0f0
-`glVertex4f` | 352 (0x160) | Exported Function | 0x78d0a370 | 0x0000a370
-`glVertex4dv` | 351 (0x15f) | Exported Function | 0x78d0a030 | 0x0000a030
-`glVertex4d` | 350 (0x15e) | Exported Function | 0x78d0a310 | 0x0000a310
-`glViewport` | 359 (0x167) | Exported Function | 0x78d072f0 | 0x000072f0
-`glVertex3sv` | 349 (0x15d) | Exported Function | 0x78d0a290 | 0x0000a290
-`glVertex3iv` | 347 (0x15b) | Exported Function | 0x78d0a1b0 | 0x0000a1b0
-`glVertex3i` | 346 (0x15a) | Exported Function | 0x78d0a150 | 0x0000a150
-`glVertex3fv` | 345 (0x159) | Exported Function | 0x78d0a0f0 | 0x0000a0f0
-`glVertex3f` | 344 (0x158) | Exported Function | 0x78d0a090 | 0x0000a090
-`glVertex3dv` | 343 (0x157) | Exported Function | 0x78d0a030 | 0x0000a030
-`glVertex3d` | 342 (0x156) | Exported Function | 0x78d09fd0 | 0x00009fd0
-`glVertex2sv` | 341 (0x155) | Exported Function | 0x78d09f60 | 0x00009f60
-`glVertex2s` | 340 (0x154) | Exported Function | 0x78d09ef0 | 0x00009ef0
-`glVertex2iv` | 339 (0x153) | Exported Function | 0x78d09e90 | 0x00009e90
-`glVertex3s` | 348 (0x15c) | Exported Function | 0x78d0a210 | 0x0000a210
-`glVertex2i` | 338 (0x152) | Exported Function | 0x78d09e30 | 0x00009e30
-`NotifyShims` | 23 (0x17) | Exported Function | 0x78d0ed20 | 0x0000ed20
-`wglCopyContext` | 361 (0x169) | Exported Function | 0x78d07f90 | 0x00007f90
-`wglUseFontBitmapsW` | 375 (0x177) | Exported Function | 0x78d07f90 | 0x00007f90
-`wglUseFontBitmapsA` | 374 (0x176) | Exported Function | 0x78d07f90 | 0x00007f90
-`wglSwapLayerBuffers` | 373 (0x175) | Exported Function | 0x78d07f90 | 0x00007f90
-`wglSwapBuffers` | 372 (0x174) | Exported Function | 0x78d0cd90 | 0x0000cd90
-`wglShareLists` | 371 (0x173) | Exported Function | 0x78d07f90 | 0x00007f90
-`wglSetPixelFormat` | 370 (0x172) | Exported Function | 0x78d0cd80 | 0x0000cd80
-`wglSetLayerPaletteEntries` | 369 (0x171) | Exported Function | 0x78d07f90 | 0x00007f90
-`wglRealizeLayerPalette` | 368 (0x170) | Exported Function | 0x78d07f90 | 0x00007f90
-`wglMakeCurrent` | 383 (0x17f) | Exported Function | 0x78d0cd60 | 0x0000cd60
-`wglChoosePixelFormat` | 360 (0x168) | Exported Function | 0x78d0a4f0 | 0x0000a4f0
-`wglGetProcAddress` | 382 (0x17e) | Exported Function | 0x78d0cc30 | 0x0000cc30
-`wglGetLayerPaletteEntries` | 366 (0x16e) | Exported Function | 0x78d07f90 | 0x00007f90
-`wglGetDefaultProcAddress` | 365 (0x16d) | Exported Function | 0x78d07f90 | 0x00007f90
-`wglGetCurrentDC` | 381 (0x17d) | Exported Function | 0x78d0cc00 | 0x0000cc00
-`wglGetCurrentContext` | 380 (0x17c) | Exported Function | 0x78d0cbf0 | 0x0000cbf0
-`wglDescribePixelFormat` | 364 (0x16c) | Exported Function | 0x78d0cb30 | 0x0000cb30
-`wglDescribeLayerPlane` | 363 (0x16b) | Exported Function | 0x78d07f90 | 0x00007f90
-`wglDeleteContext` | 379 (0x17b) | Exported Function | 0x78d0c980 | 0x0000c980
-`wglCreateLayerContext` | 362 (0x16a) | Exported Function | 0x78d07f90 | 0x00007f90
-`wglCreateContext` | 378 (0x17a) | Exported Function | 0x78d0a510 | 0x0000a510
-`wglGetPixelFormat` | 367 (0x16f) | Exported Function | 0x78d0cc20 | 0x0000cc20
-`glTexCoord2d` | 289 (0x121) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glVertex2fv` | 337 (0x151) | Exported Function | 0x78d09dd0 | 0x00009dd0
-`glVertex2dv` | 335 (0x14f) | Exported Function | 0x78d09d10 | 0x00009d10
-`glTexCoord4iv` | 310 (0x136) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord4i` | 309 (0x135) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glTexCoord4fv` | 308 (0x134) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord4f` | 307 (0x133) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glTexCoord4dv` | 306 (0x132) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord4d` | 305 (0x131) | Exported Function | 0x78d0cec0 | 0x0000cec0
-`glTexCoord3sv` | 304 (0x130) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord3s` | 303 (0x12f) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glTexCoord3iv` | 302 (0x12e) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord4s` | 311 (0x137) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glTexCoord3i` | 301 (0x12d) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glTexCoord3f` | 299 (0x12b) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glTexCoord3dv` | 298 (0x12a) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord3d` | 297 (0x129) | Exported Function | 0x78d0ceb0 | 0x0000ceb0
-`glTexCoord2sv` | 296 (0x128) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord2s` | 295 (0x127) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glTexCoord2iv` | 294 (0x126) | Exported Function | 0x78d07340 | 0x00007340
-`glTexCoord2i` | 293 (0x125) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glTexCoord2fv` | 292 (0x124) | Exported Function | 0x78d09120 | 0x00009120
-`glTexCoord2f` | 291 (0x123) | Exported Function | 0x78d09100 | 0x00009100
-`glTexCoord3fv` | 300 (0x12c) | Exported Function | 0x78d07340 | 0x00007340
-`glVertex2f` | 336 (0x150) | Exported Function | 0x78d09d70 | 0x00009d70
-`glTexCoord4sv` | 312 (0x138) | Exported Function | 0x78d07340 | 0x00007340
-`glTexEnvf` | 314 (0x13a) | Exported Function | 0x78d091a0 | 0x000091a0
-`glVertex2d` | 334 (0x14e) | Exported Function | 0x78d09cb0 | 0x00009cb0
-`glTranslatef` | 333 (0x14d) | Exported Function | 0x78d09bc0 | 0x00009bc0
-`glTranslated` | 332 (0x14c) | Exported Function | 0x78d0ceb0 | 0x0000ceb0
-`glTexSubImage2D` | 331 (0x14b) | Exported Function | 0x78d09800 | 0x00009800
-`glTexSubImage1D` | 330 (0x14a) | Exported Function | 0x78d0ce80 | 0x0000ce80
-`glTexParameteriv` | 329 (0x149) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glTexParameteri` | 328 (0x148) | Exported Function | 0x78d09b90 | 0x00009b90
-`glTexParameterfv` | 327 (0x147) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glTexParameterf` | 326 (0x146) | Exported Function | 0x78d09940 | 0x00009940
-`glTexCoordPointer` | 313 (0x139) | Exported Function | 0x78d09150 | 0x00009150
-`glTexImage2D` | 325 (0x145) | Exported Function | 0x78d09280 | 0x00009280
-`glTexGeniv` | 323 (0x143) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glTexGeni` | 322 (0x142) | Exported Function | 0x78d09220 | 0x00009220
-`glTexGenfv` | 321 (0x141) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glTexGenf` | 320 (0x140) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glTexGendv` | 319 (0x13f) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glTexGend` | 318 (0x13e) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glTexEnviv` | 317 (0x13d) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glTexEnvi` | 316 (0x13c) | Exported Function | 0x78d091e0 | 0x000091e0
-`glTexEnvfv` | 315 (0x13b) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glTexImage1D` | 324 (0x144) | Exported Function | 0x78d0cec0 | 0x0000cec0
-`wglUseFontOutlinesA` | 376 (0x178) | Exported Function | 0x78d07f90 | 0x00007f90
-`glMapGrid2f` | 193 (0xc1) | Exported Function | 0x78d0ceb0 | 0x0000ceb0
-`glMapGrid1f` | 191 (0xbf) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glColor4uiv` | 70 (0x46) | Exported Function | 0x78d07340 | 0x00007340
-`glColor4ui` | 69 (0x45) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glColor4ubv` | 68 (0x44) | Exported Function | 0x78d063a0 | 0x000063a0
-`glColor4ub` | 67 (0x43) | Exported Function | 0x78d06360 | 0x00006360
-`glColor4sv` | 66 (0x42) | Exported Function | 0x78d07340 | 0x00007340
-`glColor4s` | 65 (0x41) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glColor4iv` | 64 (0x40) | Exported Function | 0x78d07340 | 0x00007340
-`glColor4i` | 63 (0x3f) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glColor4fv` | 62 (0x3e) | Exported Function | 0x78d06480 | 0x00006480
-`glColor4us` | 71 (0x47) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glColor4f` | 61 (0x3d) | Exported Function | 0x78d063e0 | 0x000063e0
-`glColor4d` | 59 (0x3b) | Exported Function | 0x78d0cec0 | 0x0000cec0
-`glColor4bv` | 58 (0x3a) | Exported Function | 0x78d07340 | 0x00007340
-`glColor4b` | 57 (0x39) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glColor3usv` | 56 (0x38) | Exported Function | 0x78d07340 | 0x00007340
-`glColor3us` | 55 (0x37) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glColor3uiv` | 54 (0x36) | Exported Function | 0x78d07340 | 0x00007340
-`glColor3ui` | 53 (0x35) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glColor3ubv` | 52 (0x34) | Exported Function | 0x78d06320 | 0x00006320
-`glColor3ub` | 51 (0x33) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glColor4dv` | 60 (0x3c) | Exported Function | 0x78d07340 | 0x00007340
-`glColor3sv` | 50 (0x32) | Exported Function | 0x78d07340 | 0x00007340
-`glColor4usv` | 72 (0x48) | Exported Function | 0x78d07340 | 0x00007340
-`glColorMaterial` | 74 (0x4a) | Exported Function | 0x78d07480 | 0x00007480
-`glEdgeFlagPointer` | 94 (0x5e) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glEdgeFlag` | 93 (0x5d) | Exported Function | 0x78d07340 | 0x00007340
-`glDrawPixels` | 92 (0x5c) | Exported Function | 0x78d0ced0 | 0x0000ced0
-`glDrawElements` | 91 (0x5b) | Exported Function | 0x78d069a0 | 0x000069a0
-`glDrawBuffer` | 90 (0x5a) | Exported Function | 0x78d07340 | 0x00007340
-`glDrawArrays` | 89 (0x59) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glDisableClientState` | 88 (0x58) | Exported Function | 0x78d079d0 | 0x000079d0
-`glDisable` | 87 (0x57) | Exported Function | 0x78d07680 | 0x00007680
-`glDepthRange` | 86 (0x56) | Exported Function | 0x78d06780 | 0x00006780
-`glColorMask` | 73 (0x49) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glDepthMask` | 85 (0x55) | Exported Function | 0x78d06740 | 0x00006740
-`glDeleteTextures` | 83 (0x53) | Exported Function | 0x78d065e0 | 0x000065e0
-`glDeleteLists` | 82 (0x52) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glCullFace` | 81 (0x51) | Exported Function | 0x78d06570 | 0x00006570
-`glCopyTexSubImage2D` | 80 (0x50) | Exported Function | 0x78d0cec0 | 0x0000cec0
-`glCopyTexSubImage1D` | 79 (0x4f) | Exported Function | 0x78d0ceb0 | 0x0000ceb0
-`glCopyTexImage2D` | 78 (0x4e) | Exported Function | 0x78d0cec0 | 0x0000cec0
-`glCopyTexImage1D` | 77 (0x4d) | Exported Function | 0x78d0ce80 | 0x0000ce80
-`glCopyPixels` | 76 (0x4c) | Exported Function | 0x78d0ced0 | 0x0000ced0
-`glColorPointer` | 75 (0x4b) | Exported Function | 0x78d06520 | 0x00006520
-`glDepthFunc` | 84 (0x54) | Exported Function | 0x78d066b0 | 0x000066b0
-`glEdgeFlagv` | 95 (0x5f) | Exported Function | 0x78d07340 | 0x00007340
-`glColor3s` | 49 (0x31) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glColor3i` | 47 (0x2f) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`Direct3DRMCreate` | 21 (0x15) | Exported Function | 0x78d02970 | 0x00002970
-`D3DRMVectorSubtract` | 20 (0x14) | Exported Function | 0x78d02c80 | 0x00002c80
-`D3DRMVectorScale` | 19 (0x13) | Exported Function | 0x78d03130 | 0x00003130
-`D3DRMVectorRotate` | 18 (0x12) | Exported Function | 0x78d03300 | 0x00003300
-`D3DRMVectorReflect` | 17 (0x11) | Exported Function | 0x78d02cf0 | 0x00002cf0
-`D3DRMVectorRandom` | 16 (0x10) | Exported Function | 0x78d03270 | 0x00003270
-`D3DRMVectorNormalize` | 15 (0xf) | Exported Function | 0x78d02f40 | 0x00002f40
-`D3DRMVectorModulus` | 14 (0xe) | Exported Function | 0x78d02de0 | 0x00002de0
-`D3DRMVectorDotProduct` | 13 (0xd) | Exported Function | 0x78d02db0 | 0x00002db0
-`GetHookAPIs` | 22 (0x16) | Exported Function | 0x78d0ed80 | 0x0000ed80
-`D3DRMVectorCrossProduct` | 12 (0xc) | Exported Function | 0x78d02d50 | 0x00002d50
-`D3DRMQuaternionSlerp` | 10 (0xa) | Exported Function | 0x78d03440 | 0x00003440
-`D3DRMQuaternionMultiply` | 9 (0x9) | Exported Function | 0x78d031c0 | 0x000031c0
-`D3DRMQuaternionFromRotation` | 8 (0x8) | Exported Function | 0x78d03160 | 0x00003160
-`D3DRMMatrixFromQuaternion` | 7 (0x7) | Exported Function | 0x78d03050 | 0x00003050
-`D3DRMCreateColorRGBA` | 6 (0x6) | Exported Function | 0x78d02a70 | 0x00002a70
-`D3DRMCreateColorRGB` | 5 (0x5) | Exported Function | 0x78d02990 | 0x00002990
-`D3DRMColorGetRed` | 4 (0x4) | Exported Function | 0x78d02b80 | 0x00002b80
-`D3DRMColorGetGreen` | 3 (0x3) | Exported Function | 0x78d02bc0 | 0x00002bc0
-`D3DRMColorGetBlue` | 2 (0x2) | Exported Function | 0x78d02c00 | 0x00002c00
-`D3DRMVectorAdd` | 11 (0xb) | Exported Function | 0x78d02cc0 | 0x00002cc0
-`glColor3iv` | 48 (0x30) | Exported Function | 0x78d07340 | 0x00007340
-`glAccum` | 24 (0x18) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glAreTexturesResident` | 26 (0x1a) | Exported Function | 0x78d0ce70 | 0x0000ce70
-`glColor3fv` | 46 (0x2e) | Exported Function | 0x78d062a0 | 0x000062a0
-`glColor3f` | 45 (0x2d) | Exported Function | 0x78d06220 | 0x00006220
-`glColor3dv` | 44 (0x2c) | Exported Function | 0x78d07340 | 0x00007340
-`glColor3d` | 43 (0x2b) | Exported Function | 0x78d0ceb0 | 0x0000ceb0
-`glColor3bv` | 42 (0x2a) | Exported Function | 0x78d07340 | 0x00007340
-`glColor3b` | 41 (0x29) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glClipPlane` | 40 (0x28) | Exported Function | 0x78d06080 | 0x00006080
-`glClearStencil` | 39 (0x27) | Exported Function | 0x78d05f00 | 0x00005f00
-`glClearIndex` | 38 (0x26) | Exported Function | 0x78d07340 | 0x00007340
-`glAlphaFunc` | 25 (0x19) | Exported Function | 0x78d05b50 | 0x00005b50
-`glClearDepth` | 37 (0x25) | Exported Function | 0x78d06030 | 0x00006030
-`glClearAccum` | 35 (0x23) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glClear` | 34 (0x22) | Exported Function | 0x78d05f20 | 0x00005f20
-`glCallLists` | 33 (0x21) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glCallList` | 32 (0x20) | Exported Function | 0x78d07340 | 0x00007340
-`glBlendFunc` | 31 (0x1f) | Exported Function | 0x78d05df0 | 0x00005df0
-`glBitmap` | 30 (0x1e) | Exported Function | 0x78d0ce80 | 0x0000ce80
-`glBindTexture` | 29 (0x1d) | Exported Function | 0x78d05dc0 | 0x00005dc0
-`glBegin` | 28 (0x1c) | Exported Function | 0x78d05d30 | 0x00005d30
-`glArrayElement` | 27 (0x1b) | Exported Function | 0x78d05c00 | 0x00005c00
-`glClearColor` | 36 (0x24) | Exported Function | 0x78d05fb0 | 0x00005fb0
-`glMapGrid2d` | 192 (0xc0) | Exported Function | 0x78d0cf20 | 0x0000cf20
-`glEnable` | 96 (0x60) | Exported Function | 0x78d07a30 | 0x00007a30
-`glEnd` | 98 (0x62) | Exported Function | 0x78d06840 | 0x00006840
-`glInterleavedArrays` | 166 (0xa6) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glInitNames` | 165 (0xa5) | Exported Function | 0x78d0cee0 | 0x0000cee0
-`glIndexubv` | 164 (0xa4) | Exported Function | 0x78d07340 | 0x00007340
-`glIndexub` | 163 (0xa3) | Exported Function | 0x78d07340 | 0x00007340
-`glIndexsv` | 162 (0xa2) | Exported Function | 0x78d07340 | 0x00007340
-`glIndexs` | 161 (0xa1) | Exported Function | 0x78d07340 | 0x00007340
-`glIndexPointer` | 154 (0x9a) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glIndexMask` | 153 (0x99) | Exported Function | 0x78d07340 | 0x00007340
-`glIndexiv` | 160 (0xa0) | Exported Function | 0x78d07340 | 0x00007340
-`glIsEnabled` | 167 (0xa7) | Exported Function | 0x78d0cf00 | 0x0000cf00
-`glIndexi` | 159 (0x9f) | Exported Function | 0x78d07340 | 0x00007340
-`glIndexf` | 157 (0x9d) | Exported Function | 0x78d07340 | 0x00007340
-`glIndexdv` | 156 (0x9c) | Exported Function | 0x78d07340 | 0x00007340
-`glIndexd` | 155 (0x9b) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glHint` | 152 (0x98) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glGetTexParameteriv` | 151 (0x97) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glGetTexParameterfv` | 150 (0x96) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glGetTexLevelParameteriv` | 149 (0x95) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glGetTexLevelParameterfv` | 148 (0x94) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glGetTexImage` | 147 (0x93) | Exported Function | 0x78d0ced0 | 0x0000ced0
-`glIndexfv` | 158 (0x9e) | Exported Function | 0x78d07340 | 0x00007340
-`glGetTexGeniv` | 146 (0x92) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glIsList` | 168 (0xa8) | Exported Function | 0x78d0cf00 | 0x0000cf00
-`glLightf` | 174 (0xae) | Exported Function | 0x78d08160 | 0x00008160
-`glMapGrid1d` | 190 (0xbe) | Exported Function | 0x78d0ced0 | 0x0000ced0
-`glMap2f` | 189 (0xbd) | Exported Function | 0x78d0cf20 | 0x0000cf20
-`glMap2d` | 188 (0xbc) | Exported Function | 0x78d0cf10 | 0x0000cf10
-`glMap1f` | 187 (0xbb) | Exported Function | 0x78d0ceb0 | 0x0000ceb0
-`glMap1d` | 186 (0xba) | Exported Function | 0x78d0cec0 | 0x0000cec0
-`glLogicOp` | 185 (0xb9) | Exported Function | 0x78d07340 | 0x00007340
-`glLoadName` | 184 (0xb8) | Exported Function | 0x78d07340 | 0x00007340
-`glLoadMatrixf` | 183 (0xb7) | Exported Function | 0x78d08500 | 0x00008500
-`glLoadMatrixd` | 182 (0xb6) | Exported Function | 0x78d07340 | 0x00007340
-`glIsTexture` | 169 (0xa9) | Exported Function | 0x78d08120 | 0x00008120
-`glLoadIdentity` | 181 (0xb5) | Exported Function | 0x78d07350 | 0x00007350
-`glLineWidth` | 179 (0xb3) | Exported Function | 0x78d07340 | 0x00007340
-`glLineStipple` | 178 (0xb2) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glLightModeliv` | 173 (0xad) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glLightModeli` | 172 (0xac) | Exported Function | 0x78d084c0 | 0x000084c0
-`glLightModelfv` | 171 (0xab) | Exported Function | 0x78d083d0 | 0x000083d0
-`glLightModelf` | 170 (0xaa) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glLightiv` | 177 (0xb1) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glLighti` | 176 (0xb0) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glLightfv` | 175 (0xaf) | Exported Function | 0x78d08200 | 0x00008200
-`glListBase` | 180 (0xb4) | Exported Function | 0x78d07340 | 0x00007340
-`glEnableClientState` | 97 (0x61) | Exported Function | 0x78d07d00 | 0x00007d00
-`glGetTexGenfv` | 145 (0x91) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glGetTexEnviv` | 143 (0x8f) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glFogiv` | 118 (0x76) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glFogi` | 117 (0x75) | Exported Function | 0x78d07de0 | 0x00007de0
-`glFogfv` | 116 (0x74) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glFogf` | 115 (0x73) | Exported Function | 0x78d07d60 | 0x00007d60
-`glFlush` | 114 (0x72) | Exported Function | 0x78d0cee0 | 0x0000cee0
-`glFinish` | 113 (0x71) | Exported Function | 0x78d0cee0 | 0x0000cee0
-`glFeedbackBuffer` | 112 (0x70) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glEvalPoint2` | 111 (0x6f) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glEvalPoint1` | 110 (0x6e) | Exported Function | 0x78d07340 | 0x00007340
-`glFrontFace` | 119 (0x77) | Exported Function | 0x78d072d0 | 0x000072d0
-`glEvalMesh2` | 109 (0x6d) | Exported Function | 0x78d0ced0 | 0x0000ced0
-`glEvalCoord2fv` | 107 (0x6b) | Exported Function | 0x78d07340 | 0x00007340
-`glEvalCoord2f` | 106 (0x6a) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glEvalCoord2dv` | 105 (0x69) | Exported Function | 0x78d07340 | 0x00007340
-`glEvalCoord2d` | 104 (0x68) | Exported Function | 0x78d0cea0 | 0x0000cea0
-`glEvalCoord1fv` | 103 (0x67) | Exported Function | 0x78d07340 | 0x00007340
-`glEvalCoord1f` | 102 (0x66) | Exported Function | 0x78d07340 | 0x00007340
-`glEvalCoord1dv` | 101 (0x65) | Exported Function | 0x78d07340 | 0x00007340
-`glEvalCoord1d` | 100 (0x64) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glEndList` | 99 (0x63) | Exported Function | 0x78d0cee0 | 0x0000cee0
-`glEvalMesh1` | 108 (0x6c) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glGetTexGendv` | 144 (0x90) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glFrustum` | 120 (0x78) | Exported Function | 0x78d07e10 | 0x00007e10
-`glGenTextures` | 122 (0x7a) | Exported Function | 0x78d07f30 | 0x00007f30
-`glGetTexEnvfv` | 142 (0x8e) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glGetString` | 141 (0x8d) | Exported Function | 0x78d080b0 | 0x000080b0
-`glGetPolygonStipple` | 140 (0x8c) | Exported Function | 0x78d07340 | 0x00007340
-`glGetPointerv` | 139 (0x8b) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glGetPixelMapusv` | 138 (0x8a) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glGetPixelMapuiv` | 137 (0x89) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glGetPixelMapfv` | 136 (0x88) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glGetMaterialiv` | 135 (0x87) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glGetMaterialfv` | 134 (0x86) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glGenLists` | 121 (0x79) | Exported Function | 0x78d0cef0 | 0x0000cef0
-`glGetMapiv` | 133 (0x85) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glGetMapdv` | 131 (0x83) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glGetLightiv` | 130 (0x82) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glGetLightfv` | 129 (0x81) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`glGetIntegerv` | 128 (0x80) | Exported Function | 0x78d07ff0 | 0x00007ff0
-`glGetFloatv` | 127 (0x7f) | Exported Function | 0x78d07fa0 | 0x00007fa0
-`glGetError` | 126 (0x7e) | Exported Function | 0x78d07f90 | 0x00007f90
-`glGetDoublev` | 125 (0x7d) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glGetClipPlane` | 124 (0x7c) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glGetBooleanv` | 123 (0x7b) | Exported Function | 0x78d08ad0 | 0x00008ad0
-`glGetMapfv` | 132 (0x84) | Exported Function | 0x78d0ce90 | 0x0000ce90
-`wglUseFontOutlinesW` | 377 (0x179) | Exported Function | 0x78d07f90 | 0x00007f90
+Function Name | Ordinal | Type
+-- | -- | --
+`glRasterPos4iv` | 257 | Exported Function
+`glRasterPos4s` | 258 | Exported Function
+`glRasterPos4i` | 256 | Exported Function
+`glRasterPos4f` | 254 | Exported Function
+`glRasterPos4fv` | 255 | Exported Function
+`glRasterPos4sv` | 259 | Exported Function
+`glRectdv` | 263 | Exported Function
+`glRectf` | 264 | Exported Function
+`glRectd` | 262 | Exported Function
+`glReadBuffer` | 260 | Exported Function
+`glReadPixels` | 261 | Exported Function
+`glRasterPos4dv` | 253 | Exported Function
+`glRasterPos3dv` | 245 | Exported Function
+`glRasterPos3f` | 246 | Exported Function
+`glRasterPos3d` | 244 | Exported Function
+`glRasterPos2s` | 242 | Exported Function
+`glRasterPos2sv` | 243 | Exported Function
+`glRasterPos3fv` | 247 | Exported Function
+`glRasterPos3sv` | 251 | Exported Function
+`glRasterPos4d` | 252 | Exported Function
+`glRasterPos3s` | 250 | Exported Function
+`glRasterPos3i` | 248 | Exported Function
+`glRasterPos3iv` | 249 | Exported Function
+`glRectfv` | 265 | Exported Function
+`glTexCoord1d` | 281 | Exported Function
+`glTexCoord1dv` | 282 | Exported Function
+`glStencilOp` | 280 | Exported Function
+`glStencilFunc` | 278 | Exported Function
+`glStencilMask` | 279 | Exported Function
+`glTexCoord1f` | 283 | Exported Function
+`glTexCoord1s` | 287 | Exported Function
+`glTexCoord1sv` | 288 | Exported Function
+`glTexCoord1iv` | 286 | Exported Function
+`glTexCoord1fv` | 284 | Exported Function
+`glTexCoord1i` | 285 | Exported Function
+`glShadeModel` | 277 | Exported Function
+`glRectsv` | 269 | Exported Function
+`glRenderMode` | 270 | Exported Function
+`glRects` | 268 | Exported Function
+`glRecti` | 266 | Exported Function
+`glRectiv` | 267 | Exported Function
+`glRotated` | 271 | Exported Function
+`glScissor` | 275 | Exported Function
+`glSelectBuffer` | 276 | Exported Function
+`glScalef` | 274 | Exported Function
+`glRotatef` | 272 | Exported Function
+`glScaled` | 273 | Exported Function
+`glRasterPos2iv` | 241 | Exported Function
+`glNormal3iv` | 209 | Exported Function
+`glNormal3s` | 210 | Exported Function
+`glNormal3i` | 208 | Exported Function
+`glNormal3f` | 206 | Exported Function
+`glNormal3fv` | 207 | Exported Function
+`glNormal3sv` | 211 | Exported Function
+`glPixelMapfv` | 215 | Exported Function
+`glPixelMapuiv` | 216 | Exported Function
+`glPassThrough` | 214 | Exported Function
+`glNormalPointer` | 212 | Exported Function
+`glOrtho` | 213 | Exported Function
+`glNormal3dv` | 205 | Exported Function
+`glMaterialiv` | 197 | Exported Function
+`glMatrixMode` | 198 | Exported Function
+`glMateriali` | 196 | Exported Function
+`glMaterialf` | 194 | Exported Function
+`glMaterialfv` | 195 | Exported Function
+`glMultMatrixd` | 199 | Exported Function
+`glNormal3bv` | 203 | Exported Function
+`glNormal3d` | 204 | Exported Function
+`glNormal3b` | 202 | Exported Function
+`glMultMatrixf` | 200 | Exported Function
+`glNewList` | 201 | Exported Function
+`glPixelMapusv` | 217 | Exported Function
+`glPushClientAttrib` | 233 | Exported Function
+`glPushMatrix` | 234 | Exported Function
+`glPushAttrib` | 232 | Exported Function
+`glPopName` | 230 | Exported Function
+`glPrioritizeTextures` | 231 | Exported Function
+`glPushName` | 235 | Exported Function
+`glRasterPos2fv` | 239 | Exported Function
+`glRasterPos2i` | 240 | Exported Function
+`glRasterPos2f` | 238 | Exported Function
+`glRasterPos2d` | 236 | Exported Function
+`glRasterPos2dv` | 237 | Exported Function
+`glPopMatrix` | 229 | Exported Function
+`glPixelTransferi` | 221 | Exported Function
+`glPixelZoom` | 222 | Exported Function
+`glPixelTransferf` | 220 | Exported Function
+`glPixelStoref` | 218 | Exported Function
+`glPixelStorei` | 219 | Exported Function
+`glPointSize` | 223 | Exported Function
+`glPopAttrib` | 227 | Exported Function
+`glPopClientAttrib` | 228 | Exported Function
+`glPolygonStipple` | 226 | Exported Function
+`glPolygonMode` | 224 | Exported Function
+`glPolygonOffset` | 225 | Exported Function
+`glTexCoord2d` | 289 | Exported Function
+`glVertex4fv` | 353 | Exported Function
+`glVertex4i` | 354 | Exported Function
+`glVertex4f` | 352 | Exported Function
+`glVertex4d` | 350 | Exported Function
+`glVertex4dv` | 351 | Exported Function
+`glVertex4iv` | 355 | Exported Function
+`glViewport` | 359 | Exported Function
+`NotifyShims` | 23 | Exported Function
+`glVertexPointer` | 358 | Exported Function
+`glVertex4s` | 356 | Exported Function
+`glVertex4sv` | 357 | Exported Function
+`glVertex3sv` | 349 | Exported Function
+`glVertex2sv` | 341 | Exported Function
+`glVertex3d` | 342 | Exported Function
+`glVertex2s` | 340 | Exported Function
+`glVertex2i` | 338 | Exported Function
+`glVertex2iv` | 339 | Exported Function
+`glVertex3dv` | 343 | Exported Function
+`glVertex3iv` | 347 | Exported Function
+`glVertex3s` | 348 | Exported Function
+`glVertex3i` | 346 | Exported Function
+`glVertex3f` | 344 | Exported Function
+`glVertex3fv` | 345 | Exported Function
+`wglChoosePixelFormat` | 360 | Exported Function
+`wglSetPixelFormat` | 370 | Exported Function
+`wglShareLists` | 371 | Exported Function
+`wglSetLayerPaletteEntries` | 369 | Exported Function
+`wglMakeCurrent` | 383 | Exported Function
+`wglRealizeLayerPalette` | 368 | Exported Function
+`wglSwapBuffers` | 372 | Exported Function
+`wglUseFontOutlinesA` | 376 | Exported Function
+`wglUseFontOutlinesW` | 377 | Exported Function
+`wglUseFontBitmapsW` | 375 | Exported Function
+`wglSwapLayerBuffers` | 373 | Exported Function
+`wglUseFontBitmapsA` | 374 | Exported Function
+`wglGetProcAddress` | 382 | Exported Function
+`wglDeleteContext` | 379 | Exported Function
+`wglDescribeLayerPlane` | 363 | Exported Function
+`wglCreateLayerContext` | 362 | Exported Function
+`wglCopyContext` | 361 | Exported Function
+`wglCreateContext` | 378 | Exported Function
+`wglDescribePixelFormat` | 364 | Exported Function
+`wglGetLayerPaletteEntries` | 366 | Exported Function
+`wglGetPixelFormat` | 367 | Exported Function
+`wglGetDefaultProcAddress` | 365 | Exported Function
+`wglGetCurrentContext` | 380 | Exported Function
+`wglGetCurrentDC` | 381 | Exported Function
+`glVertex2fv` | 337 | Exported Function
+`glTexCoord4d` | 305 | Exported Function
+`glTexCoord4dv` | 306 | Exported Function
+`glTexCoord3sv` | 304 | Exported Function
+`glTexCoord3iv` | 302 | Exported Function
+`glTexCoord3s` | 303 | Exported Function
+`glTexCoord4f` | 307 | Exported Function
+`glTexCoord4s` | 311 | Exported Function
+`glTexCoord4sv` | 312 | Exported Function
+`glTexCoord4iv` | 310 | Exported Function
+`glTexCoord4fv` | 308 | Exported Function
+`glTexCoord4i` | 309 | Exported Function
+`glTexCoord3i` | 301 | Exported Function
+`glTexCoord2i` | 293 | Exported Function
+`glTexCoord2iv` | 294 | Exported Function
+`glTexCoord2fv` | 292 | Exported Function
+`glTexCoord2dv` | 290 | Exported Function
+`glTexCoord2f` | 291 | Exported Function
+`glTexCoord2s` | 295 | Exported Function
+`glTexCoord3f` | 299 | Exported Function
+`glTexCoord3fv` | 300 | Exported Function
+`glTexCoord3dv` | 298 | Exported Function
+`glTexCoord2sv` | 296 | Exported Function
+`glTexCoord3d` | 297 | Exported Function
+`glTexCoordPointer` | 313 | Exported Function
+`glTexParameteriv` | 329 | Exported Function
+`glTexSubImage1D` | 330 | Exported Function
+`glTexParameteri` | 328 | Exported Function
+`glTexParameterf` | 326 | Exported Function
+`glTexParameterfv` | 327 | Exported Function
+`glTexSubImage2D` | 331 | Exported Function
+`glVertex2dv` | 335 | Exported Function
+`glVertex2f` | 336 | Exported Function
+`glVertex2d` | 334 | Exported Function
+`glTranslated` | 332 | Exported Function
+`glTranslatef` | 333 | Exported Function
+`glTexImage2D` | 325 | Exported Function
+`glTexEnviv` | 317 | Exported Function
+`glTexGend` | 318 | Exported Function
+`glTexEnvi` | 316 | Exported Function
+`glTexEnvf` | 314 | Exported Function
+`glTexEnvfv` | 315 | Exported Function
+`glTexGendv` | 319 | Exported Function
+`glTexGeniv` | 323 | Exported Function
+`glTexImage1D` | 324 | Exported Function
+`glTexGeni` | 322 | Exported Function
+`glTexGenf` | 320 | Exported Function
+`glTexGenfv` | 321 | Exported Function
+`glMapGrid2f` | 193 | Exported Function
+`glColor4s` | 65 | Exported Function
+`glColor4sv` | 66 | Exported Function
+`glColor4iv` | 64 | Exported Function
+`glColor4fv` | 62 | Exported Function
+`glColor4i` | 63 | Exported Function
+`glColor4ub` | 67 | Exported Function
+`glColor4us` | 71 | Exported Function
+`glColor4usv` | 72 | Exported Function
+`glColor4uiv` | 70 | Exported Function
+`glColor4ubv` | 68 | Exported Function
+`glColor4ui` | 69 | Exported Function
+`glColor4f` | 61 | Exported Function
+`glColor3ui` | 53 | Exported Function
+`glColor3uiv` | 54 | Exported Function
+`glColor3ubv` | 52 | Exported Function
+`glColor3sv` | 50 | Exported Function
+`glColor3ub` | 51 | Exported Function
+`glColor3us` | 55 | Exported Function
+`glColor4d` | 59 | Exported Function
+`glColor4dv` | 60 | Exported Function
+`glColor4bv` | 58 | Exported Function
+`glColor3usv` | 56 | Exported Function
+`glColor4b` | 57 | Exported Function
+`glColorMask` | 73 | Exported Function
+`glDrawArrays` | 89 | Exported Function
+`glDrawBuffer` | 90 | Exported Function
+`glDisableClientState` | 88 | Exported Function
+`glDepthRange` | 86 | Exported Function
+`glDisable` | 87 | Exported Function
+`glDrawElements` | 91 | Exported Function
+`glEdgeFlagv` | 95 | Exported Function
+`glEnable` | 96 | Exported Function
+`glEdgeFlagPointer` | 94 | Exported Function
+`glDrawPixels` | 92 | Exported Function
+`glEdgeFlag` | 93 | Exported Function
+`glDepthMask` | 85 | Exported Function
+`glCopyTexImage1D` | 77 | Exported Function
+`glCopyTexImage2D` | 78 | Exported Function
+`glCopyPixels` | 76 | Exported Function
+`glColorMaterial` | 74 | Exported Function
+`glColorPointer` | 75 | Exported Function
+`glCopyTexSubImage1D` | 79 | Exported Function
+`glDeleteTextures` | 83 | Exported Function
+`glDepthFunc` | 84 | Exported Function
+`glDeleteLists` | 82 | Exported Function
+`glCopyTexSubImage2D` | 80 | Exported Function
+`glCullFace` | 81 | Exported Function
+`glColor3s` | 49 | Exported Function
+`D3DRMVectorRandom` | 16 | Exported Function
+`D3DRMVectorReflect` | 17 | Exported Function
+`D3DRMVectorNormalize` | 15 | Exported Function
+`D3DRMVectorDotProduct` | 13 | Exported Function
+`D3DRMVectorModulus` | 14 | Exported Function
+`D3DRMVectorRotate` | 18 | Exported Function
+`GetHookAPIs` | 22 | Exported Function
+`glAccum` | 24 | Exported Function
+`Direct3DRMCreate` | 21 | Exported Function
+`D3DRMVectorScale` | 19 | Exported Function
+`D3DRMVectorSubtract` | 20 | Exported Function
+`D3DRMVectorCrossProduct` | 12 | Exported Function
+`D3DRMColorGetRed` | 4 | Exported Function
+`D3DRMCreateColorRGB` | 5 | Exported Function
+`D3DRMColorGetGreen` | 3 | Exported Function
+`D3DRMColorGetAlpha` | 1 | Exported Function
+`D3DRMColorGetBlue` | 2 | Exported Function
+`D3DRMCreateColorRGBA` | 6 | Exported Function
+`D3DRMQuaternionSlerp` | 10 | Exported Function
+`D3DRMVectorAdd` | 11 | Exported Function
+`D3DRMQuaternionMultiply` | 9 | Exported Function
+`D3DRMMatrixFromQuaternion` | 7 | Exported Function
+`D3DRMQuaternionFromRotation` | 8 | Exported Function
+`glAlphaFunc` | 25 | Exported Function
+`glColor3b` | 41 | Exported Function
+`glColor3bv` | 42 | Exported Function
+`glClipPlane` | 40 | Exported Function
+`glClearIndex` | 38 | Exported Function
+`glClearStencil` | 39 | Exported Function
+`glColor3d` | 43 | Exported Function
+`glColor3i` | 47 | Exported Function
+`glColor3iv` | 48 | Exported Function
+`glColor3fv` | 46 | Exported Function
+`glColor3dv` | 44 | Exported Function
+`glColor3f` | 45 | Exported Function
+`glClearDepth` | 37 | Exported Function
+`glBindTexture` | 29 | Exported Function
+`glBitmap` | 30 | Exported Function
+`glBegin` | 28 | Exported Function
+`glAreTexturesResident` | 26 | Exported Function
+`glArrayElement` | 27 | Exported Function
+`glBlendFunc` | 31 | Exported Function
+`glClearAccum` | 35 | Exported Function
+`glClearColor` | 36 | Exported Function
+`glClear` | 34 | Exported Function
+`glCallList` | 32 | Exported Function
+`glCallLists` | 33 | Exported Function
+`glEnableClientState` | 97 | Exported Function
+`glIndexs` | 161 | Exported Function
+`glIndexsv` | 162 | Exported Function
+`glIndexPointer` | 154 | Exported Function
+`glIndexiv` | 160 | Exported Function
+`glIndexMask` | 153 | Exported Function
+`glIndexub` | 163 | Exported Function
+`glIsEnabled` | 167 | Exported Function
+`glIsList` | 168 | Exported Function
+`glInterleavedArrays` | 166 | Exported Function
+`glIndexubv` | 164 | Exported Function
+`glInitNames` | 165 | Exported Function
+`glIndexi` | 159 | Exported Function
+`glGetTexLevelParameteriv` | 149 | Exported Function
+`glGetTexParameterfv` | 150 | Exported Function
+`glGetTexLevelParameterfv` | 148 | Exported Function
+`glGetTexGeniv` | 146 | Exported Function
+`glGetTexImage` | 147 | Exported Function
+`glGetTexParameteriv` | 151 | Exported Function
+`glIndexf` | 157 | Exported Function
+`glIndexfv` | 158 | Exported Function
+`glIndexdv` | 156 | Exported Function
+`glHint` | 152 | Exported Function
+`glIndexd` | 155 | Exported Function
+`glIsTexture` | 169 | Exported Function
+`glLogicOp` | 185 | Exported Function
+`glMap1d` | 186 | Exported Function
+`glLoadName` | 184 | Exported Function
+`glLoadMatrixd` | 182 | Exported Function
+`glLoadMatrixf` | 183 | Exported Function
+`glMap1f` | 187 | Exported Function
+`glMapGrid1f` | 191 | Exported Function
+`glMapGrid2d` | 192 | Exported Function
+`glMapGrid1d` | 190 | Exported Function
+`glMap2d` | 188 | Exported Function
+`glMap2f` | 189 | Exported Function
+`glLoadIdentity` | 181 | Exported Function
+`glLightiv` | 177 | Exported Function
+`glLightModelf` | 170 | Exported Function
+`glLighti` | 176 | Exported Function
+`glLightf` | 174 | Exported Function
+`glLightfv` | 175 | Exported Function
+`glLightModelfv` | 171 | Exported Function
+`glLineWidth` | 179 | Exported Function
+`glListBase` | 180 | Exported Function
+`glLineStipple` | 178 | Exported Function
+`glLightModeli` | 172 | Exported Function
+`glLightModeliv` | 173 | Exported Function
+`glGetTexGenfv` | 145 | Exported Function
+`glFinish` | 113 | Exported Function
+`glFlush` | 114 | Exported Function
+`glFeedbackBuffer` | 112 | Exported Function
+`glEvalPoint1` | 110 | Exported Function
+`glEvalPoint2` | 111 | Exported Function
+`glFogf` | 115 | Exported Function
+`glFrontFace` | 119 | Exported Function
+`glFrustum` | 120 | Exported Function
+`glFogiv` | 118 | Exported Function
+`glFogfv` | 116 | Exported Function
+`glFogi` | 117 | Exported Function
+`glEvalMesh2` | 109 | Exported Function
+`glEvalCoord1dv` | 101 | Exported Function
+`glEvalCoord1f` | 102 | Exported Function
+`glEvalCoord1d` | 100 | Exported Function
+`glEnd` | 98 | Exported Function
+`glEndList` | 99 | Exported Function
+`glEvalCoord1fv` | 103 | Exported Function
+`glEvalCoord2fv` | 107 | Exported Function
+`glEvalMesh1` | 108 | Exported Function
+`glEvalCoord2f` | 106 | Exported Function
+`glEvalCoord2d` | 104 | Exported Function
+`glEvalCoord2dv` | 105 | Exported Function
+`glGenLists` | 121 | Exported Function
+`glGetPixelMapuiv` | 137 | Exported Function
+`glGetPixelMapusv` | 138 | Exported Function
+`glGetPixelMapfv` | 136 | Exported Function
+`glGetMaterialfv` | 134 | Exported Function
+`glGetMaterialiv` | 135 | Exported Function
+`glGetPointerv` | 139 | Exported Function
+`glGetTexEnviv` | 143 | Exported Function
+`glGetTexGendv` | 144 | Exported Function
+`glGetTexEnvfv` | 142 | Exported Function
+`glGetPolygonStipple` | 140 | Exported Function
+`glGetString` | 141 | Exported Function
+`glGetMapiv` | 133 | Exported Function
+`glGetDoublev` | 125 | Exported Function
+`glGetError` | 126 | Exported Function
+`glGetClipPlane` | 124 | Exported Function
+`glGenTextures` | 122 | Exported Function
+`glGetBooleanv` | 123 | Exported Function
+`glGetFloatv` | 127 | Exported Function
+`glGetMapdv` | 131 | Exported Function
+`glGetMapfv` | 132 | Exported Function
+`glGetLightiv` | 130 | Exported Function
+`glGetIntegerv` | 128 | Exported Function
+`glGetLightfv` | 129 | Exported Function
 
 
 ## Signature

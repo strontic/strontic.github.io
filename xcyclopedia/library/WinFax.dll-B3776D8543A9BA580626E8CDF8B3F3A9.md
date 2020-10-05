@@ -24,64 +24,64 @@ PE256 | `1E5B6787699D00AE0232B5FAF415782FF0E2848646E2182B968B0AEC250AE1B2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FaxAbort` | 1 (0x1) | Exported Function | 0x646c1c80 | 0x00001c80
-`FaxGetRoutingInfoW` | 31 (0x1f) | Exported Function | 0x646c20b0 | 0x000020b0
-`FaxInitializeEventQueue` | 32 (0x20) | Exported Function | 0x646c20d0 | 0x000020d0
-`FaxOpenPort` | 33 (0x21) | Exported Function | 0x646c20f0 | 0x000020f0
-`FaxPrintCoverPageA` | 34 (0x22) | Exported Function | 0x646c2110 | 0x00002110
-`FaxPrintCoverPageW` | 35 (0x23) | Exported Function | 0x646c2130 | 0x00002130
-`FaxRegisterRoutingExtensionW` | 36 (0x24) | Exported Function | 0x646c27a0 | 0x000027a0
-`FaxRegisterServiceProviderW` | 37 (0x25) | Exported Function | 0x646c2150 | 0x00002150
-`FaxSendDocumentA` | 38 (0x26) | Exported Function | 0x646c27c0 | 0x000027c0
-`FaxSendDocumentForBroadcastA` | 39 (0x27) | Exported Function | 0x646c2800 | 0x00002800
-`FaxSendDocumentForBroadcastW` | 40 (0x28) | Exported Function | 0x646c2820 | 0x00002820
-`FaxSendDocumentW` | 41 (0x29) | Exported Function | 0x646c27e0 | 0x000027e0
-`FaxGetRoutingInfoA` | 30 (0x1e) | Exported Function | 0x646c2090 | 0x00002090
-`FaxSetConfigurationA` | 42 (0x2a) | Exported Function | 0x646c2840 | 0x00002840
-`FaxSetGlobalRoutingInfoA` | 44 (0x2c) | Exported Function | 0x646c2880 | 0x00002880
-`FaxSetGlobalRoutingInfoW` | 45 (0x2d) | Exported Function | 0x646c28a0 | 0x000028a0
-`FaxSetJobA` | 46 (0x2e) | Exported Function | 0x646c28c0 | 0x000028c0
-`FaxSetJobW` | 47 (0x2f) | Exported Function | 0x646c28e0 | 0x000028e0
-`FaxSetLoggingCategoriesA` | 48 (0x30) | Exported Function | 0x646c2900 | 0x00002900
-`FaxSetLoggingCategoriesW` | 49 (0x31) | Exported Function | 0x646c2920 | 0x00002920
-`FaxSetPortA` | 50 (0x32) | Exported Function | 0x646c2940 | 0x00002940
-`FaxSetPortW` | 51 (0x33) | Exported Function | 0x646c2960 | 0x00002960
-`FaxSetRoutingInfoA` | 52 (0x34) | Exported Function | 0x646c2980 | 0x00002980
-`FaxSetRoutingInfoW` | 53 (0x35) | Exported Function | 0x646c29a0 | 0x000029a0
-`FaxStartPrintJobA` | 54 (0x36) | Exported Function | 0x646c29c0 | 0x000029c0
-`FaxSetConfigurationW` | 43 (0x2b) | Exported Function | 0x646c2860 | 0x00002860
-`FaxGetPortW` | 29 (0x1d) | Exported Function | 0x646c2070 | 0x00002070
-`FaxGetPortA` | 28 (0x1c) | Exported Function | 0x646c2050 | 0x00002050
-`FaxGetPageData` | 27 (0x1b) | Exported Function | 0x646c2030 | 0x00002030
-`FaxAccessCheck` | 2 (0x2) | Exported Function | 0x646c1ca0 | 0x00001ca0
-`FaxClose` | 3 (0x3) | Exported Function | 0x646c1cc0 | 0x00001cc0
-`FaxCompleteJobParamsA` | 4 (0x4) | Exported Function | 0x646c1ce0 | 0x00001ce0
-`FaxCompleteJobParamsW` | 5 (0x5) | Exported Function | 0x646c1d00 | 0x00001d00
-`FaxConnectFaxServerA` | 6 (0x6) | Exported Function | 0x646c1d20 | 0x00001d20
-`FaxConnectFaxServerW` | 7 (0x7) | Exported Function | 0x646c1d80 | 0x00001d80
-`FaxEnableRoutingMethodA` | 8 (0x8) | Exported Function | 0x646c1de0 | 0x00001de0
-`FaxEnableRoutingMethodW` | 9 (0x9) | Exported Function | 0x646c1e00 | 0x00001e00
-`FaxEnumGlobalRoutingInfoA` | 10 (0xa) | Exported Function | 0x646c1e20 | 0x00001e20
-`FaxEnumGlobalRoutingInfoW` | 11 (0xb) | Exported Function | 0x646c1e40 | 0x00001e40
-`FaxEnumJobsA` | 12 (0xc) | Exported Function | 0x646c1e60 | 0x00001e60
-`FaxEnumJobsW` | 13 (0xd) | Exported Function | 0x646c1e80 | 0x00001e80
-`FaxEnumPortsA` | 14 (0xe) | Exported Function | 0x646c1ea0 | 0x00001ea0
-`FaxEnumPortsW` | 15 (0xf) | Exported Function | 0x646c1ec0 | 0x00001ec0
-`FaxEnumRoutingMethodsA` | 16 (0x10) | Exported Function | 0x646c1ee0 | 0x00001ee0
-`FaxEnumRoutingMethodsW` | 17 (0x11) | Exported Function | 0x646c1f00 | 0x00001f00
-`FaxFreeBuffer` | 18 (0x12) | Exported Function | 0x646c1f20 | 0x00001f20
-`FaxGetConfigurationA` | 19 (0x13) | Exported Function | 0x646c1f30 | 0x00001f30
-`FaxGetConfigurationW` | 20 (0x14) | Exported Function | 0x646c1f50 | 0x00001f50
-`FaxGetDeviceStatusA` | 21 (0x15) | Exported Function | 0x646c1f70 | 0x00001f70
-`FaxGetDeviceStatusW` | 22 (0x16) | Exported Function | 0x646c1f90 | 0x00001f90
-`FaxGetJobA` | 23 (0x17) | Exported Function | 0x646c1fb0 | 0x00001fb0
-`FaxGetJobW` | 24 (0x18) | Exported Function | 0x646c1fd0 | 0x00001fd0
-`FaxGetLoggingCategoriesA` | 25 (0x19) | Exported Function | 0x646c1ff0 | 0x00001ff0
-`FaxGetLoggingCategoriesW` | 26 (0x1a) | Exported Function | 0x646c2010 | 0x00002010
-`FaxStartPrintJobW` | 55 (0x37) | Exported Function | 0x646c29e0 | 0x000029e0
-`FaxUnregisterServiceProviderW` | 56 (0x38) | Exported Function | 0x646c2640 | 0x00002640
+Function Name | Ordinal | Type
+-- | -- | --
+`FaxSendDocumentA` | 38 | Exported Function
+`FaxRegisterServiceProviderW` | 37 | Exported Function
+`FaxRegisterRoutingExtensionW` | 36 | Exported Function
+`FaxSendDocumentForBroadcastA` | 39 | Exported Function
+`FaxSetConfigurationA` | 42 | Exported Function
+`FaxSendDocumentW` | 41 | Exported Function
+`FaxSendDocumentForBroadcastW` | 40 | Exported Function
+`FaxGetRoutingInfoW` | 31 | Exported Function
+`FaxGetRoutingInfoA` | 30 | Exported Function
+`FaxGetPortW` | 29 | Exported Function
+`FaxInitializeEventQueue` | 32 | Exported Function
+`FaxPrintCoverPageW` | 35 | Exported Function
+`FaxPrintCoverPageA` | 34 | Exported Function
+`FaxOpenPort` | 33 | Exported Function
+`FaxSetRoutingInfoA` | 52 | Exported Function
+`FaxSetPortW` | 51 | Exported Function
+`FaxSetPortA` | 50 | Exported Function
+`FaxSetRoutingInfoW` | 53 | Exported Function
+`FaxUnregisterServiceProviderW` | 56 | Exported Function
+`FaxStartPrintJobW` | 55 | Exported Function
+`FaxStartPrintJobA` | 54 | Exported Function
+`FaxSetGlobalRoutingInfoW` | 45 | Exported Function
+`FaxSetGlobalRoutingInfoA` | 44 | Exported Function
+`FaxSetConfigurationW` | 43 | Exported Function
+`FaxSetJobA` | 46 | Exported Function
+`FaxSetLoggingCategoriesW` | 49 | Exported Function
+`FaxSetLoggingCategoriesA` | 48 | Exported Function
+`FaxSetJobW` | 47 | Exported Function
+`FaxEnumGlobalRoutingInfoA` | 10 | Exported Function
+`FaxEnableRoutingMethodW` | 9 | Exported Function
+`FaxEnableRoutingMethodA` | 8 | Exported Function
+`FaxEnumGlobalRoutingInfoW` | 11 | Exported Function
+`FaxEnumPortsA` | 14 | Exported Function
+`FaxEnumJobsW` | 13 | Exported Function
+`FaxEnumJobsA` | 12 | Exported Function
+`FaxClose` | 3 | Exported Function
+`FaxAccessCheck` | 2 | Exported Function
+`FaxAbort` | 1 | Exported Function
+`FaxCompleteJobParamsA` | 4 | Exported Function
+`FaxConnectFaxServerW` | 7 | Exported Function
+`FaxConnectFaxServerA` | 6 | Exported Function
+`FaxCompleteJobParamsW` | 5 | Exported Function
+`FaxGetJobW` | 24 | Exported Function
+`FaxGetJobA` | 23 | Exported Function
+`FaxGetDeviceStatusW` | 22 | Exported Function
+`FaxGetLoggingCategoriesA` | 25 | Exported Function
+`FaxGetPortA` | 28 | Exported Function
+`FaxGetPageData` | 27 | Exported Function
+`FaxGetLoggingCategoriesW` | 26 | Exported Function
+`FaxEnumRoutingMethodsW` | 17 | Exported Function
+`FaxEnumRoutingMethodsA` | 16 | Exported Function
+`FaxEnumPortsW` | 15 | Exported Function
+`FaxFreeBuffer` | 18 | Exported Function
+`FaxGetDeviceStatusA` | 21 | Exported Function
+`FaxGetConfigurationW` | 20 | Exported Function
+`FaxGetConfigurationA` | 19 | Exported Function
 
 
 ## Signature

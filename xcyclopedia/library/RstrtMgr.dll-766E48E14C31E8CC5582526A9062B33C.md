@@ -24,20 +24,20 @@ PE256 | `83003DFE96310E2E003DE0C0C1148C69C3000BADD03365C29EC49A39A2775325`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RmAddFilter` | 1 (0x1) | Exported Function | 0x10007710 | 0x00007710
-`RmCancelCurrentTask` | 2 (0x2) | Exported Function | 0x10007780 | 0x00007780
-`RmEndSession` | 3 (0x3) | Exported Function | 0x100077e0 | 0x000077e0
-`RmGetFilterList` | 4 (0x4) | Exported Function | 0x10007840 | 0x00007840
-`RmGetList` | 5 (0x5) | Exported Function | 0x100078b0 | 0x000078b0
-`RmJoinSession` | 6 (0x6) | Exported Function | 0x10007910 | 0x00007910
-`RmRegisterResources` | 7 (0x7) | Exported Function | 0x10007a20 | 0x00007a20
-`RmRemoveFilter` | 8 (0x8) | Exported Function | 0x10007a90 | 0x00007a90
-`RmReserveHeap` | 9 (0x9) | Exported Function | 0x10007b00 | 0x00007b00
-`RmRestart` | 10 (0xa) | Exported Function | 0x10007c30 | 0x00007c30
-`RmShutdown` | 11 (0xb) | Exported Function | 0x10007c90 | 0x00007c90
-`RmStartSession` | 12 (0xc) | Exported Function | 0x10007cf0 | 0x00007cf0
+Function Name | Ordinal | Type
+-- | -- | --
+`RmReserveHeap` | 9 | Exported Function
+`RmRemoveFilter` | 8 | Exported Function
+`RmRegisterResources` | 7 | Exported Function
+`RmStartSession` | 12 | Exported Function
+`RmShutdown` | 11 | Exported Function
+`RmRestart` | 10 | Exported Function
+`RmEndSession` | 3 | Exported Function
+`RmCancelCurrentTask` | 2 | Exported Function
+`RmAddFilter` | 1 | Exported Function
+`RmJoinSession` | 6 | Exported Function
+`RmGetList` | 5 | Exported Function
+`RmGetFilterList` | 4 | Exported Function
 
 
 ## Signature

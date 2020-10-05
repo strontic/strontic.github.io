@@ -24,9 +24,9 @@ PE256 | `B3DC4C9BD227967404EF2D89BE508737CD1814C26A541CD67532B0294C6F67D0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IsThreadAFiber` | 1 (0x1) | Exported Function | kernel32.IsThreadAFiber | 0x000010c3
+Function Name | Ordinal | Type
+-- | -- | --
+`IsThreadAFiber` | 1 | Exported Function
 
 
 ## Signature

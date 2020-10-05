@@ -24,16 +24,16 @@ PE256 | `A31EF89F99F8692C337D571F0C631C5052F97995F9174CC52BD08ABBFCE06240`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetTraceEnableFlags` | 1 (0x1) | Exported Function | advapi32.GetTraceEnableFlags | 0x000011eb
-`GetTraceEnableLevel` | 2 (0x2) | Exported Function | advapi32.GetTraceEnableLevel | 0x0000121c
-`GetTraceLoggerHandle` | 3 (0x3) | Exported Function | advapi32.GetTraceLoggerHandle | 0x0000124e
-`RegisterTraceGuidsW` | 4 (0x4) | Exported Function | advapi32.RegisterTraceGuidsW | 0x00001280
-`TraceEvent` | 5 (0x5) | Exported Function | advapi32.TraceEvent | 0x000012a8
-`TraceMessage` | 6 (0x6) | Exported Function | advapi32.TraceMessage | 0x000012c9
-`TraceMessageVa` | 7 (0x7) | Exported Function | advapi32.TraceMessageVa | 0x000012ee
-`UnregisterTraceGuids` | 8 (0x8) | Exported Function | advapi32.UnregisterTraceGuids | 0x0000131b
+Function Name | Ordinal | Type
+-- | -- | --
+`TraceMessage` | 6 | Exported Function
+`TraceEvent` | 5 | Exported Function
+`UnregisterTraceGuids` | 8 | Exported Function
+`TraceMessageVa` | 7 | Exported Function
+`GetTraceEnableLevel` | 2 | Exported Function
+`GetTraceEnableFlags` | 1 | Exported Function
+`RegisterTraceGuidsW` | 4 | Exported Function
+`GetTraceLoggerHandle` | 3 | Exported Function
 
 
 ## Signature

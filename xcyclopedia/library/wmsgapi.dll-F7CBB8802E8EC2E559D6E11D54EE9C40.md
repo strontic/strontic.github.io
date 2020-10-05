@@ -24,14 +24,14 @@ PE256 | `70F4F6D2E0F4ADEC5157035A8A1B9B6B176D71E9E767BAC92879E1933FFACE4F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WmsgBroadcastMessage` | 1 (0x1) | Exported Function | 0x100029c0 | 0x000029c0
-`WmsgBroadcastNotifyMessage` | 2 (0x2) | Exported Function | 0x10002a10 | 0x00002a10
-`WmsgPostMessage` | 3 (0x3) | Exported Function | 0x10002a60 | 0x00002a60
-`WmsgPostNotifyMessage` | 4 (0x4) | Exported Function | 0x10002ab0 | 0x00002ab0
-`WmsgSendMessage` | 5 (0x5) | Exported Function | 0x100017b0 | 0x000017b0
-`WmsgSendPSPMessage` | 6 (0x6) | Exported Function | 0x10002b00 | 0x00002b00
+Function Name | Ordinal | Type
+-- | -- | --
+`WmsgPostNotifyMessage` | 4 | Exported Function
+`WmsgSendMessage` | 5 | Exported Function
+`WmsgSendPSPMessage` | 6 | Exported Function
+`WmsgBroadcastMessage` | 1 | Exported Function
+`WmsgBroadcastNotifyMessage` | 2 | Exported Function
+`WmsgPostMessage` | 3 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `E6528499DFF3952DE3AFFFEDA739C3B5406B785CEE92505780F3B8E8E69D1577`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RegisterDataMarketRPCInterface` | 1 (0x1) | Exported Function | 0x0000000180004730 | 0x00004730
-`UnregisterDataMarketRPCInterface` | 2 (0x2) | Exported Function | 0x0000000180004660 | 0x00004660
+Function Name | Ordinal | Type
+-- | -- | --
+`UnregisterDataMarketRPCInterface` | 2 | Exported Function
+`RegisterDataMarketRPCInterface` | 1 | Exported Function
 
 
 ## Signature

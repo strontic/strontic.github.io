@@ -24,84 +24,84 @@ PE256 | `453A92A7FAFE85DACAA7201B7BD0EBBCCE798C143CD91DFC83BD03EAA5377495`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CtfImeAssociateFocus` | 2 (0x2) | Exported Function | 0x100348c0 | 0x000348c0
-`TF_GetGlobalCompartment` | 55 (0x37) | Exported Function | 0x10066f20 | 0x00066f20
-`TF_GetCompatibleKeyboardLayout` | 54 (0x36) | Exported Function | 0x10066e60 | 0x00066e60
-`TF_GetAppCompatFlags` | 53 (0x35) | Exported Function | 0x100384e0 | 0x000384e0
-`TF_CUASAppFix` | 41 (0x29) | Exported Function | 0x1004b340 | 0x0004b340
-`TF_CreateThreadMgr` | 52 (0x34) | Exported Function | 0x10048260 | 0x00048260
-`TF_CreateLangBarMgr` | 51 (0x33) | Exported Function | 0x1001e650 | 0x0001e650
-`TF_CreateLangBarItemMgr` | 50 (0x32) | Exported Function | 0x10066e40 | 0x00066e40
-`TF_CreateInputProcessorProfiles` | 49 (0x31) | Exported Function | 0x10020910 | 0x00020910
-`TF_CreateDisplayAttributeMgr` | 48 (0x30) | Exported Function | 0x10049df0 | 0x00049df0
-`TF_CreateCTFWatchdogMutex` | 44 (0x2c) | Exported Function | 0x1004d7a0 | 0x0004d7a0
-`TF_CreateCicLoadWinStaMutex` | 47 (0x2f) | Exported Function | 0x1004d640 | 0x0004d640
-`TF_CreateCicLoadMutex` | 46 (0x2e) | Exported Function | 0x10045d40 | 0x00045d40
-`TF_CreateCategoryMgr` | 45 (0x2d) | Exported Function | 0x10049dd0 | 0x00049dd0
-`TF_CleanUpPrivateMessages` | 43 (0x2b) | Exported Function | 0x10020a60 | 0x00020a60
-`TF_CanUninitialize` | 42 (0x2a) | Exported Function | 0x100205b0 | 0x000205b0
-`TF_GetInitSystemFlags` | 56 (0x38) | Exported Function | 0x1002ac70 | 0x0002ac70
-`TextInputClientWrapperCreate` | 76 (0x4c) | Exported Function | 0x10029e20 | 0x00029e20
-`TF_GetInputScope` | 57 (0x39) | Exported Function | 0x10038470 | 0x00038470
-`TF_GetThreadFlags` | 59 (0x3b) | Exported Function | 0x10044e50 | 0x00044e50
-`TF_SetThreadFlags` | 73 (0x49) | Exported Function | 0x10047280 | 0x00047280
-`TF_SetShowFloatingStatus` | 72 (0x48) | Exported Function | 0x1007b800 | 0x0007b800
-`TF_SetDefaultRemoteKeyboardLayout` | 71 (0x47) | Exported Function | 0x1004be10 | 0x0004be10
-`TF_SendLangBandMsg` | 70 (0x46) | Exported Function | 0x10067090 | 0x00067090
-`TF_RunInputCPL` | 1 (0x1) | Exported Function | 0x10066b70 | 0x00066b70
-`TF_PostAllThreadMsg` | 69 (0x45) | Exported Function | 0x10020720 | 0x00020720
-`TF_Notify` | 68 (0x44) | Exported Function | 0x10030880 | 0x00030880
-`TF_MapCompatibleKeyboardTip` | 67 (0x43) | Exported Function | 0x10067070 | 0x00067070
-`TF_MapCompatibleHKL` | 66 (0x42) | Exported Function | 0x10067050 | 0x00067050
-`TF_IsThreadWithFlags` | 65 (0x41) | Exported Function | 0x10047760 | 0x00047760
-`TF_IsLanguageBarEnabled` | 64 (0x40) | Exported Function | 0x10066f80 | 0x00066f80
-`TF_IsCtfmonRunning` | 63 (0x3f) | Exported Function | 0x1004d8b0 | 0x0004d8b0
-`TF_InvalidAssemblyListCacheIfExist` | 62 (0x3e) | Exported Function | 0x10047210 | 0x00047210
-`TF_InitSystem` | 61 (0x3d) | Exported Function | 0x10043c60 | 0x00043c60
-`TF_GetThreadMgr` | 60 (0x3c) | Exported Function | 0x10066f30 | 0x00066f30
-`TF_GetShowFloatingStatus` | 58 (0x3a) | Exported Function | 0x1007b7e0 | 0x0007b7e0
-`SetInputScopeXML` | 38 (0x26) | Exported Function | 0x10078a50 | 0x00078a50
-`SetInputScopes2` | 39 (0x27) | Exported Function | 0x100463f0 | 0x000463f0
-`SetInputScopes` | 40 (0x28) | Exported Function | 0x1004b810 | 0x0004b810
-`CtfImeInquireExW` | 17 (0x11) | Exported Function | 0x100421a0 | 0x000421a0
-`CtfImeInquire` | 16 (0x10) | Exported Function | 0x10066d10 | 0x00066d10
-`CtfImeGetRegisterWordStyle` | 15 (0xf) | Exported Function | 0x10066cf0 | 0x00066cf0
-`CtfImeGetGuidAtom` | 14 (0xe) | Exported Function | 0x10066cd0 | 0x00066cd0
-`CtfImeEscapeEx` | 13 (0xd) | Exported Function | 0x10066cb0 | 0x00066cb0
-`CtfImeEscape` | 12 (0xc) | Exported Function | 0x10066c90 | 0x00066c90
-`CtfImeEnumRegisterWord` | 11 (0xb) | Exported Function | 0x10066c70 | 0x00066c70
-`CtfImeDispatchDefImeMessage` | 10 (0xa) | Exported Function | 0x10040310 | 0x00040310
-`CtfImeDestroyThreadMgr` | 9 (0x9) | Exported Function | 0x10024380 | 0x00024380
-`CtfImeDestroyInputContext` | 8 (0x8) | Exported Function | 0x10041c60 | 0x00041c60
-`CtfImeDestroy` | 7 (0x7) | Exported Function | 0x10066c50 | 0x00066c50
-`CtfImeCreateThreadMgr` | 6 (0x6) | Exported Function | 0x10029750 | 0x00029750
-`CtfImeCreateInputContext` | 5 (0x5) | Exported Function | 0x1003e900 | 0x0003e900
-`CtfImeConversionList` | 4 (0x4) | Exported Function | 0x10066c30 | 0x00066c30
-`CtfImeConfigure` | 3 (0x3) | Exported Function | 0x10066c10 | 0x00066c10
-`CtfImeIsGuidMapEnable` | 18 (0x12) | Exported Function | 0x10066d30 | 0x00066d30
-`CtfImeIsIME` | 19 (0x13) | Exported Function | 0x1001fa40 | 0x0001fa40
-`CtfImeProcessCicHotkey` | 20 (0x14) | Exported Function | 0x100346e0 | 0x000346e0
-`CtfImeProcessKey` | 21 (0x15) | Exported Function | 0x10038e50 | 0x00038e50
-`SetInputScope` | 37 (0x25) | Exported Function | 0x10046420 | 0x00046420
-`InputFocusMonitorCreate` | 36 (0x24) | Exported Function | 0x1004c790 | 0x0004c790
-`HasDeferredInputForCoreDispatcher` | 35 (0x23) | Exported Function | 0x10037960 | 0x00037960
-`DllUnregisterServer` | 34 (0x22) | Exported Function | 0x10065da0 | 0x00065da0
-`DllRegisterServer` | 33 (0x21) | Exported Function | 0x10065ac0 | 0x00065ac0
-`DllGetClassObject` | 32 (0x20) | Exported Function | 0x10046d20 | 0x00046d20
-`DllCanUnloadNow` | 31 (0x1f) | Exported Function | 0x100204f0 | 0x000204f0
-`TF_UninitSystem` | 74 (0x4a) | Exported Function | 0x1004c200 | 0x0004c200
-`CtfNotifyIME` | 30 (0x1e) | Exported Function | 0x1001ad00 | 0x0001ad00
-`CtfImeToAsciiEx` | 28 (0x1c) | Exported Function | 0x10066df0 | 0x00066df0
-`CtfImeSetFocus` | 27 (0x1b) | Exported Function | 0x10066dc0 | 0x00066dc0
-`CtfImeSetCompositionString` | 26 (0x1a) | Exported Function | 0x10066d90 | 0x00066d90
-`CtfImeSetActiveContext` | 25 (0x19) | Exported Function | 0x100353f0 | 0x000353f0
-`CtfImeSelectEx` | 24 (0x18) | Exported Function | 0x1003eca0 | 0x0003eca0
-`CtfImeSelect` | 23 (0x17) | Exported Function | 0x10066d70 | 0x00066d70
-`CtfImeRegisterWord` | 22 (0x16) | Exported Function | 0x10066d50 | 0x00066d50
-`CtfImeUnregisterWord` | 29 (0x1d) | Exported Function | 0x10066e20 | 0x00066e20
-`TF_WaitForInitialized` | 75 (0x4b) | Exported Function | 0x10020a60 | 0x00020a60
+Function Name | Ordinal | Type
+-- | -- | --
+`TF_CreateThreadMgr` | 52 | Exported Function
+`TF_CUASAppFix` | 41 | Exported Function
+`TF_CreateLangBarItemMgr` | 50 | Exported Function
+`TF_CreateLangBarMgr` | 51 | Exported Function
+`TF_GetAppCompatFlags` | 53 | Exported Function
+`TF_GetInitSystemFlags` | 56 | Exported Function
+`TF_GetInputScope` | 57 | Exported Function
+`TF_GetCompatibleKeyboardLayout` | 54 | Exported Function
+`TF_GetGlobalCompartment` | 55 | Exported Function
+`TF_CreateInputProcessorProfiles` | 49 | Exported Function
+`TF_CanUninitialize` | 42 | Exported Function
+`TF_CleanUpPrivateMessages` | 43 | Exported Function
+`SetInputScopeXML` | 38 | Exported Function
+`TextInputClientWrapperCreate` | 76 | Exported Function
+`TF_CreateCategoryMgr` | 45 | Exported Function
+`TF_CreateCTFWatchdogMutex` | 44 | Exported Function
+`TF_CreateDisplayAttributeMgr` | 48 | Exported Function
+`TF_CreateCicLoadMutex` | 46 | Exported Function
+`TF_CreateCicLoadWinStaMutex` | 47 | Exported Function
+`TF_RunInputCPL` | 1 | Exported Function
+`TF_SendLangBandMsg` | 70 | Exported Function
+`TF_Notify` | 68 | Exported Function
+`TF_PostAllThreadMsg` | 69 | Exported Function
+`TF_SetDefaultRemoteKeyboardLayout` | 71 | Exported Function
+`TF_UninitSystem` | 74 | Exported Function
+`TF_WaitForInitialized` | 75 | Exported Function
+`TF_SetShowFloatingStatus` | 72 | Exported Function
+`TF_SetThreadFlags` | 73 | Exported Function
+`TF_MapCompatibleKeyboardTip` | 67 | Exported Function
+`TF_GetThreadMgr` | 60 | Exported Function
+`TF_InitSystem` | 61 | Exported Function
+`TF_GetShowFloatingStatus` | 58 | Exported Function
+`TF_GetThreadFlags` | 59 | Exported Function
+`TF_InvalidAssemblyListCacheIfExist` | 62 | Exported Function
+`TF_IsThreadWithFlags` | 65 | Exported Function
+`TF_MapCompatibleHKL` | 66 | Exported Function
+`TF_IsCtfmonRunning` | 63 | Exported Function
+`TF_IsLanguageBarEnabled` | 64 | Exported Function
+`CtfImeGetGuidAtom` | 14 | Exported Function
+`CtfImeGetRegisterWordStyle` | 15 | Exported Function
+`CtfImeEscape` | 12 | Exported Function
+`CtfImeEscapeEx` | 13 | Exported Function
+`CtfImeInquire` | 16 | Exported Function
+`CtfImeIsIME` | 19 | Exported Function
+`CtfImeProcessCicHotkey` | 20 | Exported Function
+`CtfImeInquireExW` | 17 | Exported Function
+`CtfImeIsGuidMapEnable` | 18 | Exported Function
+`CtfImeEnumRegisterWord` | 11 | Exported Function
+`CtfImeConversionList` | 4 | Exported Function
+`CtfImeCreateInputContext` | 5 | Exported Function
+`CtfImeAssociateFocus` | 2 | Exported Function
+`CtfImeConfigure` | 3 | Exported Function
+`CtfImeCreateThreadMgr` | 6 | Exported Function
+`CtfImeDestroyThreadMgr` | 9 | Exported Function
+`CtfImeDispatchDefImeMessage` | 10 | Exported Function
+`CtfImeDestroy` | 7 | Exported Function
+`CtfImeDestroyInputContext` | 8 | Exported Function
+`DllRegisterServer` | 33 | Exported Function
+`DllUnregisterServer` | 34 | Exported Function
+`DllCanUnloadNow` | 31 | Exported Function
+`DllGetClassObject` | 32 | Exported Function
+`HasDeferredInputForCoreDispatcher` | 35 | Exported Function
+`SetInputScopes` | 40 | Exported Function
+`SetInputScopes2` | 39 | Exported Function
+`InputFocusMonitorCreate` | 36 | Exported Function
+`SetInputScope` | 37 | Exported Function
+`CtfNotifyIME` | 30 | Exported Function
+`CtfImeSelect` | 23 | Exported Function
+`CtfImeSelectEx` | 24 | Exported Function
+`CtfImeProcessKey` | 21 | Exported Function
+`CtfImeRegisterWord` | 22 | Exported Function
+`CtfImeSetActiveContext` | 25 | Exported Function
+`CtfImeToAsciiEx` | 28 | Exported Function
+`CtfImeUnregisterWord` | 29 | Exported Function
+`CtfImeSetCompositionString` | 26 | Exported Function
+`CtfImeSetFocus` | 27 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `1941565B7886316DFFFF1EED019ACFCB9734D42E5051C7F22EEFE76D625CAD73`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateSpeechPalHelperFactory` | 1 (0x1) | Exported Function | 0x00000001800070e0 | 0x000070e0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateSpeechPalHelperFactory` | 1 | Exported Function
 
 
 ## Signature

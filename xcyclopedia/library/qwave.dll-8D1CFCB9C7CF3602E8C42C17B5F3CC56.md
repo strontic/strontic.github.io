@@ -24,22 +24,22 @@ PE256 | `AB0325303533221DFF7F0F009405AA0501DFB17B3DF406B7321D0674CBE690F2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`QDLHPathDiagnostics` | 1 (0x1) | Exported Function | 0x10017ad0 | 0x00017ad0
-`QDLHStartDiagnosingPath` | 2 (0x2) | Exported Function | 0x100179b0 | 0x000179b0
-`QOSAddSocketToFlow` | 3 (0x3) | Exported Function | 0x10018240 | 0x00018240
-`QOSCancel` | 4 (0x4) | Exported Function | 0x100187b0 | 0x000187b0
-`QOSCloseHandle` | 5 (0x5) | Exported Function | 0x10017f00 | 0x00017f00
-`QOSCreateHandle` | 6 (0x6) | Exported Function | 0x10017da0 | 0x00017da0
-`QOSEnumerateFlows` | 7 (0x7) | Exported Function | 0x10018160 | 0x00018160
-`QOSNotifyFlow` | 8 (0x8) | Exported Function | 0x100186b0 | 0x000186b0
-`QOSQueryFlow` | 9 (0x9) | Exported Function | 0x100185b0 | 0x000185b0
-`QOSRemoveSocketFromFlow` | 10 (0xa) | Exported Function | 0x100183c0 | 0x000183c0
-`QOSSetFlow` | 11 (0xb) | Exported Function | 0x100184b0 | 0x000184b0
-`QOSStartTrackingClient` | 12 (0xc) | Exported Function | 0x10017f20 | 0x00017f20
-`QOSStopTrackingClient` | 13 (0xd) | Exported Function | 0x10018040 | 0x00018040
-`ServiceMain` | 14 (0xe) | Exported Function | 0x10004430 | 0x00004430
+Function Name | Ordinal | Type
+-- | -- | --
+`QOSRemoveSocketFromFlow` | 10 | Exported Function
+`QOSQueryFlow` | 9 | Exported Function
+`QOSNotifyFlow` | 8 | Exported Function
+`QOSSetFlow` | 11 | Exported Function
+`ServiceMain` | 14 | Exported Function
+`QOSStopTrackingClient` | 13 | Exported Function
+`QOSStartTrackingClient` | 12 | Exported Function
+`QOSAddSocketToFlow` | 3 | Exported Function
+`QDLHStartDiagnosingPath` | 2 | Exported Function
+`QDLHPathDiagnostics` | 1 | Exported Function
+`QOSCancel` | 4 | Exported Function
+`QOSEnumerateFlows` | 7 | Exported Function
+`QOSCreateHandle` | 6 | Exported Function
+`QOSCloseHandle` | 5 | Exported Function
 
 
 ## Signature

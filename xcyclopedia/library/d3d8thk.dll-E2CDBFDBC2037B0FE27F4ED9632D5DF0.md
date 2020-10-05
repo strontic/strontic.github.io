@@ -24,64 +24,64 @@ PE256 | `9C7E21A3B650450EC388F96223BE312BB7ADD124FEC50EF6FA49C6EAF1782B0C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OsThunkD3dContextCreate` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
-`OsThunkDdGetDriverInfo` | 31 (0x1f) | Exported Function | 0x00000001800011f0 | 0x000011f0
-`OsThunkDdGetDriverState` | 32 (0x20) | Exported Function | 0x0000000180001200 | 0x00001200
-`OsThunkDdGetDxHandle` | 33 (0x21) | Exported Function | 0x0000000180001210 | 0x00001210
-`OsThunkDdGetFlipStatus` | 34 (0x22) | Exported Function | 0x0000000180001220 | 0x00001220
-`OsThunkDdGetInternalMoCompInfo` | 35 (0x23) | Exported Function | 0x0000000180001230 | 0x00001230
-`OsThunkDdGetMoCompBuffInfo` | 36 (0x24) | Exported Function | 0x0000000180001240 | 0x00001240
-`OsThunkDdGetMoCompFormats` | 37 (0x25) | Exported Function | 0x0000000180001250 | 0x00001250
-`OsThunkDdGetMoCompGuids` | 38 (0x26) | Exported Function | 0x0000000180001260 | 0x00001260
-`OsThunkDdGetScanLine` | 39 (0x27) | Exported Function | 0x0000000180001270 | 0x00001270
-`OsThunkDdLock` | 40 (0x28) | Exported Function | 0x0000000180001280 | 0x00001280
-`OsThunkDdLockD3D` | 41 (0x29) | Exported Function | 0x0000000180001290 | 0x00001290
-`OsThunkDdGetDC` | 30 (0x1e) | Exported Function | 0x00000001800011e0 | 0x000011e0
-`OsThunkDdQueryDirectDrawObject` | 42 (0x2a) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`OsThunkDdReenableDirectDrawObject` | 44 (0x2c) | Exported Function | 0x00000001800012c0 | 0x000012c0
-`OsThunkDdReleaseDC` | 45 (0x2d) | Exported Function | 0x00000001800012d0 | 0x000012d0
-`OsThunkDdRenderMoComp` | 46 (0x2e) | Exported Function | 0x00000001800012e0 | 0x000012e0
-`OsThunkDdResetVisrgn` | 47 (0x2f) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`OsThunkDdSetColorKey` | 48 (0x30) | Exported Function | 0x0000000180001300 | 0x00001300
-`OsThunkDdSetExclusiveMode` | 49 (0x31) | Exported Function | 0x0000000180001310 | 0x00001310
-`OsThunkDdSetGammaRamp` | 50 (0x32) | Exported Function | 0x0000000180001320 | 0x00001320
-`OsThunkDdSetOverlayPosition` | 51 (0x33) | Exported Function | 0x0000000180001330 | 0x00001330
-`OsThunkDdUnattachSurface` | 52 (0x34) | Exported Function | 0x0000000180001340 | 0x00001340
-`OsThunkDdUnlock` | 53 (0x35) | Exported Function | 0x0000000180001350 | 0x00001350
-`OsThunkDdUnlockD3D` | 54 (0x36) | Exported Function | 0x0000000180001360 | 0x00001360
-`OsThunkDdQueryMoCompStatus` | 43 (0x2b) | Exported Function | 0x00000001800012b0 | 0x000012b0
-`OsThunkDdGetBltStatus` | 29 (0x1d) | Exported Function | 0x00000001800011d0 | 0x000011d0
-`OsThunkDdGetAvailDriverMemory` | 28 (0x1c) | Exported Function | 0x00000001800011c0 | 0x000011c0
-`OsThunkDdFlipToGDISurface` | 27 (0x1b) | Exported Function | 0x00000001800011b0 | 0x000011b0
-`OsThunkD3dContextDestroy` | 2 (0x2) | Exported Function | 0x0000000180001020 | 0x00001020
-`OsThunkD3dContextDestroyAll` | 3 (0x3) | Exported Function | 0x0000000180001030 | 0x00001030
-`OsThunkD3dDrawPrimitives2` | 4 (0x4) | Exported Function | 0x0000000180001040 | 0x00001040
-`OsThunkD3dValidateTextureStageState` | 5 (0x5) | Exported Function | 0x0000000180001050 | 0x00001050
-`OsThunkDdAddAttachedSurface` | 6 (0x6) | Exported Function | 0x0000000180001060 | 0x00001060
-`OsThunkDdAlphaBlt` | 7 (0x7) | Exported Function | 0x0000000180001070 | 0x00001070
-`OsThunkDdAttachSurface` | 8 (0x8) | Exported Function | 0x0000000180001080 | 0x00001080
-`OsThunkDdBeginMoCompFrame` | 9 (0x9) | Exported Function | 0x0000000180001090 | 0x00001090
-`OsThunkDdBlt` | 10 (0xa) | Exported Function | 0x00000001800010a0 | 0x000010a0
-`OsThunkDdCanCreateD3DBuffer` | 11 (0xb) | Exported Function | 0x00000001800010b0 | 0x000010b0
-`OsThunkDdCanCreateSurface` | 12 (0xc) | Exported Function | 0x00000001800010c0 | 0x000010c0
-`OsThunkDdColorControl` | 13 (0xd) | Exported Function | 0x00000001800010d0 | 0x000010d0
-`OsThunkDdCreateD3DBuffer` | 14 (0xe) | Exported Function | 0x00000001800010e0 | 0x000010e0
-`OsThunkDdCreateDirectDrawObject` | 15 (0xf) | Exported Function | 0x00000001800010f0 | 0x000010f0
-`OsThunkDdCreateMoComp` | 16 (0x10) | Exported Function | 0x0000000180001100 | 0x00001100
-`OsThunkDdCreateSurface` | 17 (0x11) | Exported Function | 0x0000000180001110 | 0x00001110
-`OsThunkDdCreateSurfaceEx` | 18 (0x12) | Exported Function | 0x0000000180001120 | 0x00001120
-`OsThunkDdCreateSurfaceObject` | 19 (0x13) | Exported Function | 0x0000000180001130 | 0x00001130
-`OsThunkDdDeleteDirectDrawObject` | 20 (0x14) | Exported Function | 0x0000000180001140 | 0x00001140
-`OsThunkDdDeleteSurfaceObject` | 21 (0x15) | Exported Function | 0x0000000180001150 | 0x00001150
-`OsThunkDdDestroyD3DBuffer` | 22 (0x16) | Exported Function | 0x0000000180001160 | 0x00001160
-`OsThunkDdDestroyMoComp` | 23 (0x17) | Exported Function | 0x0000000180001170 | 0x00001170
-`OsThunkDdDestroySurface` | 24 (0x18) | Exported Function | 0x0000000180001180 | 0x00001180
-`OsThunkDdEndMoCompFrame` | 25 (0x19) | Exported Function | 0x0000000180001190 | 0x00001190
-`OsThunkDdFlip` | 26 (0x1a) | Exported Function | 0x00000001800011a0 | 0x000011a0
-`OsThunkDdUpdateOverlay` | 55 (0x37) | Exported Function | 0x0000000180001370 | 0x00001370
-`OsThunkDdWaitForVerticalBlank` | 56 (0x38) | Exported Function | 0x0000000180001380 | 0x00001380
+Function Name | Ordinal | Type
+-- | -- | --
+`OsThunkDdGetMoCompGuids` | 38 | Exported Function
+`OsThunkDdGetMoCompFormats` | 37 | Exported Function
+`OsThunkDdGetMoCompBuffInfo` | 36 | Exported Function
+`OsThunkDdGetScanLine` | 39 | Exported Function
+`OsThunkDdQueryDirectDrawObject` | 42 | Exported Function
+`OsThunkDdLockD3D` | 41 | Exported Function
+`OsThunkDdLock` | 40 | Exported Function
+`OsThunkDdGetDriverInfo` | 31 | Exported Function
+`OsThunkDdGetDC` | 30 | Exported Function
+`OsThunkDdGetBltStatus` | 29 | Exported Function
+`OsThunkDdGetDriverState` | 32 | Exported Function
+`OsThunkDdGetInternalMoCompInfo` | 35 | Exported Function
+`OsThunkDdGetFlipStatus` | 34 | Exported Function
+`OsThunkDdGetDxHandle` | 33 | Exported Function
+`OsThunkDdUnattachSurface` | 52 | Exported Function
+`OsThunkDdSetOverlayPosition` | 51 | Exported Function
+`OsThunkDdSetGammaRamp` | 50 | Exported Function
+`OsThunkDdUnlock` | 53 | Exported Function
+`OsThunkDdWaitForVerticalBlank` | 56 | Exported Function
+`OsThunkDdUpdateOverlay` | 55 | Exported Function
+`OsThunkDdUnlockD3D` | 54 | Exported Function
+`OsThunkDdReleaseDC` | 45 | Exported Function
+`OsThunkDdReenableDirectDrawObject` | 44 | Exported Function
+`OsThunkDdQueryMoCompStatus` | 43 | Exported Function
+`OsThunkDdRenderMoComp` | 46 | Exported Function
+`OsThunkDdSetExclusiveMode` | 49 | Exported Function
+`OsThunkDdSetColorKey` | 48 | Exported Function
+`OsThunkDdResetVisrgn` | 47 | Exported Function
+`OsThunkDdBlt` | 10 | Exported Function
+`OsThunkDdBeginMoCompFrame` | 9 | Exported Function
+`OsThunkDdAttachSurface` | 8 | Exported Function
+`OsThunkDdCanCreateD3DBuffer` | 11 | Exported Function
+`OsThunkDdCreateD3DBuffer` | 14 | Exported Function
+`OsThunkDdColorControl` | 13 | Exported Function
+`OsThunkDdCanCreateSurface` | 12 | Exported Function
+`OsThunkD3dContextDestroyAll` | 3 | Exported Function
+`OsThunkD3dContextDestroy` | 2 | Exported Function
+`OsThunkD3dContextCreate` | 1 | Exported Function
+`OsThunkD3dDrawPrimitives2` | 4 | Exported Function
+`OsThunkDdAlphaBlt` | 7 | Exported Function
+`OsThunkDdAddAttachedSurface` | 6 | Exported Function
+`OsThunkD3dValidateTextureStageState` | 5 | Exported Function
+`OsThunkDdDestroySurface` | 24 | Exported Function
+`OsThunkDdDestroyMoComp` | 23 | Exported Function
+`OsThunkDdDestroyD3DBuffer` | 22 | Exported Function
+`OsThunkDdEndMoCompFrame` | 25 | Exported Function
+`OsThunkDdGetAvailDriverMemory` | 28 | Exported Function
+`OsThunkDdFlipToGDISurface` | 27 | Exported Function
+`OsThunkDdFlip` | 26 | Exported Function
+`OsThunkDdCreateSurface` | 17 | Exported Function
+`OsThunkDdCreateMoComp` | 16 | Exported Function
+`OsThunkDdCreateDirectDrawObject` | 15 | Exported Function
+`OsThunkDdCreateSurfaceEx` | 18 | Exported Function
+`OsThunkDdDeleteSurfaceObject` | 21 | Exported Function
+`OsThunkDdDeleteDirectDrawObject` | 20 | Exported Function
+`OsThunkDdCreateSurfaceObject` | 19 | Exported Function
 
 
 ## Signature

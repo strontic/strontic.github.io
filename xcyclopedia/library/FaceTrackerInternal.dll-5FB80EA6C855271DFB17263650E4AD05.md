@@ -23,9 +23,9 @@ PE256 | `68BBA17B89B16B4723FA2E26CBA27D33B840BA0FC9465250A0820CF4AB79A6BA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateFaceTrackerInternal` | 1 (0x1) | Exported Function | 0x00000001800899e0 | 0x000899e0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateFaceTrackerInternal` | 1 | Exported Function
 
 
 ## Signature

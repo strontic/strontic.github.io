@@ -24,32 +24,32 @@ PE256 | `D49C6E09CCED251D178EC52DC7B4924EFFF9F7B1D7CFCB645BF737C3CF809BE3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DavCancelConnectionsToServer` | 1 (0x1) | Exported Function | 0x10004820 | 0x00004820
-`NPGetUniversalName` | 22 (0x16) | Exported Function | 0x1000c7e0 | 0x0000c7e0
-`NPGetResourceParent` | 21 (0x15) | Exported Function | 0x1000c300 | 0x0000c300
-`NPGetResourceInformation` | 20 (0x14) | Exported Function | 0x1000bca0 | 0x0000bca0
-`NPGetConnection` | 19 (0x13) | Exported Function | 0x1000b800 | 0x0000b800
-`NPGetCaps` | 18 (0x12) | Exported Function | 0x10002a90 | 0x00002a90
-`NPFormatNetworkName` | 17 (0x11) | Exported Function | 0x1000b6c0 | 0x0000b6c0
-`NPEnumResource` | 16 (0x10) | Exported Function | 0x1000aae0 | 0x0000aae0
-`NPCloseEnum` | 15 (0xf) | Exported Function | 0x1000a990 | 0x0000a990
-`NPCancelConnection` | 14 (0xe) | Exported Function | 0x10002c10 | 0x00002c10
-`NPAddConnection3` | 12 (0xc) | Exported Function | 0x10008d70 | 0x00008d70
-`NPAddConnection` | 13 (0xd) | Exported Function | 0x1000a930 | 0x0000a930
-`DllMain` | 11 (0xb) | Exported Function | 0x10003910 | 0x00003910
-`DllGetClassObject` | 10 (0xa) | Exported Function | 0x1000f700 | 0x0000f700
-`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x1000f6e0 | 0x0000f6e0
-`DavUnregisterAuthCallback` | 8 (0x8) | Exported Function | 0x10008640 | 0x00008640
-`DavSetCookieW` | 7 (0x7) | Exported Function | 0x10007cf0 | 0x00007cf0
-`DavRegisterAuthCallback` | 6 (0x6) | Exported Function | 0x10007350 | 0x00007350
-`DavInvalidateCache` | 5 (0x5) | Exported Function | 0x10006260 | 0x00006260
-`DavGetTheLockOwnerOfTheFile` | 4 (0x4) | Exported Function | 0x10005f30 | 0x00005f30
-`DavGetDiskSpaceUsage` | 3 (0x3) | Exported Function | 0x10005c40 | 0x00005c40
-`DavFreeUsedDiskSpace` | 2 (0x2) | Exported Function | 0x10005670 | 0x00005670
-`NPGetUser` | 23 (0x17) | Exported Function | 0x1000cd90 | 0x0000cd90
-`NPOpenEnum` | 24 (0x18) | Exported Function | 0x100027a0 | 0x000027a0
+Function Name | Ordinal | Type
+-- | -- | --
+`NPEnumResource` | 16 | Exported Function
+`NPFormatNetworkName` | 17 | Exported Function
+`NPGetCaps` | 18 | Exported Function
+`NPAddConnection3` | 12 | Exported Function
+`NPCancelConnection` | 14 | Exported Function
+`NPCloseEnum` | 15 | Exported Function
+`NPGetUniversalName` | 22 | Exported Function
+`NPGetUser` | 23 | Exported Function
+`NPOpenEnum` | 24 | Exported Function
+`NPGetConnection` | 19 | Exported Function
+`NPGetResourceInformation` | 20 | Exported Function
+`NPGetResourceParent` | 21 | Exported Function
+`DavGetTheLockOwnerOfTheFile` | 4 | Exported Function
+`DavInvalidateCache` | 5 | Exported Function
+`DavRegisterAuthCallback` | 6 | Exported Function
+`DavCancelConnectionsToServer` | 1 | Exported Function
+`DavFreeUsedDiskSpace` | 2 | Exported Function
+`DavGetDiskSpaceUsage` | 3 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`DllMain` | 11 | Exported Function
+`NPAddConnection` | 13 | Exported Function
+`DavSetCookieW` | 7 | Exported Function
+`DavUnregisterAuthCallback` | 8 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
 
 
 ## Signature

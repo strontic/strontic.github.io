@@ -24,19 +24,19 @@ PE256 | `37A384027CE03E6192565B096CDCCFC2E5B4BD64E3822B9503269F0184517DBC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x000000018000eea0 | 0x0000eea0
-`DllGetClassObject` | 10 (0xa) | Exported Function | 0x000000018000ee10 | 0x0000ee10
-`DllRegisterServer` | 11 (0xb) | Exported Function | 0x000000018000ef00 | 0x0000ef00
-`public: __int64 __cdecl CDMNodeObj::GetLdmObjectId(void) __ptr64` | 3 (0x3) | Exported Function | 0x00000001800010f0 | 0x000010f0
-`public: class CString __cdecl CDataCache::GetServerName(void) __ptr64` | 7 (0x7) | Exported Function | 0x00000001800012c0 | 0x000012c0
-`public: class CWnd * __ptr64 __cdecl CTaskData::GetOcxFrameCWndPtr(void) __ptr64` | 5 (0x5) | Exported Function | 0x0000000180001380 | 0x00001380
-`public: unsigned long __cdecl CDataCache::GetDiskCount(void) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180001130 | 0x00001130
-`public: unsigned long __cdecl CDataCache::GetVolumeCount(void) __ptr64` | 8 (0x8) | Exported Function | 0x0000000180001140 | 0x00001140
-`public: unsigned long __cdecl CDMNodeObj::GetNumMembers(void) __ptr64` | 4 (0x4) | Exported Function | 0x0000000180001120 | 0x00001120
-`public: void __cdecl CDataCache::AddLDMObjMapEntry(struct _LDM_OBJ_MAP_ENTRY * __ptr64) __ptr64` | 1 (0x1) | Exported Function | 0x0000000180001150 | 0x00001150
-`public: void __cdecl CTaskData::GetRegionColorStructPtr(struct _REGION_COLORS * __ptr64 * __ptr64,int & __ptr64) __ptr64` | 6 (0x6) | Exported Function | 0x0000000180001390 | 0x00001390
+Function Name | Ordinal | Type
+-- | -- | --
+`public: unsigned long __cdecl CDataCache::GetVolumeCount(void) __ptr64` | 8 | Exported Function
+`public: unsigned long __cdecl CDataCache::GetDiskCount(void) __ptr64` | 2 | Exported Function
+`public: unsigned long __cdecl CDMNodeObj::GetNumMembers(void) __ptr64` | 4 | Exported Function
+`public: void __cdecl CTaskData::GetRegionColorStructPtr(struct _REGION_COLORS * __ptr64 * __ptr64,int & __ptr64) __ptr64` | 6 | Exported Function
+`public: void __cdecl CDataCache::AddLDMObjMapEntry(struct _LDM_OBJ_MAP_ENTRY * __ptr64) __ptr64` | 1 | Exported Function
+`public: class CWnd * __ptr64 __cdecl CTaskData::GetOcxFrameCWndPtr(void) __ptr64` | 5 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`DllRegisterServer` | 11 | Exported Function
+`public: class CString __cdecl CDataCache::GetServerName(void) __ptr64` | 7 | Exported Function
+`public: __int64 __cdecl CDMNodeObj::GetLdmObjectId(void) __ptr64` | 3 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `42760E9BA05EF7BA99CE5B96ED5640F3173D7B6B722C610D276710D1F31075F2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180023e40 | 0x00023e40
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180020590 | 0x00020590
-`MFCreateAVIMediaSink` | 3 (0x3) | Exported Function | 0x00000001800ac960 | 0x000ac960
-`MFCreateWAVEMediaSink` | 4 (0x4) | Exported Function | 0x0000000180089f50 | 0x00089f50
+Function Name | Ordinal | Type
+-- | -- | --
+`MFCreateAVIMediaSink` | 3 | Exported Function
+`MFCreateWAVEMediaSink` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

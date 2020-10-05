@@ -24,46 +24,46 @@ PE256 | `EC1A3E748B965F62CB5910D5FA122FF5293FC46D23A03C2279B7C667FDDC4F00`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CGMIsAdministrator` | 25 (0x19) | Exported Function | 0x10015e20 | 0x00015e20
-`public: class CComPlusComponent & __thiscall CComPlusComponent::operator=(class CComPlusComponent const &)` | 10 (0xa) | Exported Function | 0x1000d0e0 | 0x0000d0e0
-`public: class CComPlusInterface & __thiscall CComPlusInterface::operator=(class CComPlusInterface &&)` | 11 (0xb) | Exported Function | 0x1000d0e0 | 0x0000d0e0
-`public: class CComPlusInterface & __thiscall CComPlusInterface::operator=(class CComPlusInterface const &)` | 12 (0xc) | Exported Function | 0x1000d0e0 | 0x0000d0e0
-`public: class CComPlusMethod & __thiscall CComPlusMethod::operator=(class CComPlusMethod const &)` | 13 (0xd) | Exported Function | 0x1000d2d0 | 0x0000d2d0
-`public: class CComPlusObject & __thiscall CComPlusObject::operator=(class CComPlusObject const &)` | 14 (0xe) | Exported Function | 0x1000d0e0 | 0x0000d0e0
-`public: class CComPlusTypelib & __thiscall CComPlusTypelib::operator=(class CComPlusTypelib const &)` | 15 (0xf) | Exported Function | 0x1000d080 | 0x0000d080
-`public: struct ITypeLib * __thiscall CComPlusTypelib::GetITypeLib(void)` | 20 (0x14) | Exported Function | 0x1000d070 | 0x0000d070
-`public: virtual __thiscall CComPlusComponent::~CComPlusComponent(void)` | 7 (0x7) | Exported Function | 0x1000d1a0 | 0x0000d1a0
-`public: virtual __thiscall CComPlusInterface::~CComPlusInterface(void)` | 8 (0x8) | Exported Function | 0x1000d1a0 | 0x0000d1a0
-`QueryUserDllW` | 35 (0x23) | Exported Function | 0x1000da50 | 0x0000da50
-`RegDBBackup` | 21 (0x15) | Exported Function | 0x100151e0 | 0x000151e0
-`RegDBRestore` | 22 (0x16) | Exported Function | 0x100152d0 | 0x000152d0
-`RunMTSToCom` | 36 (0x24) | Exported Function | 0x1000ee70 | 0x0000ee70
-`StartMTSTOCOM` | 23 (0x17) | Exported Function | 0x10013ab0 | 0x00013ab0
-`SysprepComplus` | 38 (0x26) | Exported Function | 0x1000e300 | 0x0000e300
-`public: class CComPlusComponent & __thiscall CComPlusComponent::operator=(class CComPlusComponent &&)` | 9 (0x9) | Exported Function | 0x1000d0e0 | 0x0000d0e0
-`public: __thiscall CComPlusObject::CComPlusObject(class CComPlusObject const &)` | 6 (0x6) | Exported Function | 0x1000d0a0 | 0x0000d0a0
-`public: __thiscall CComPlusMethod::CComPlusMethod(class CComPlusMethod const &)` | 5 (0x5) | Exported Function | 0x1000d290 | 0x0000d290
-`public: __thiscall CComPlusInterface::CComPlusInterface(class CComPlusInterface const &)` | 4 (0x4) | Exported Function | 0x1000d260 | 0x0000d260
-`COMPlusUninstallActionW` | 26 (0x1a) | Exported Function | 0x10013810 | 0x00013810
-`const CComPlusComponent::``vftable'` | 16 (0x10) | Exported Function | 0x100015f4 | 0x000015f4
-`const CComPlusInterface::``vftable'` | 17 (0x11) | Exported Function | 0x100015a0 | 0x000015a0
-`const CComPlusMethod::``vftable'` | 18 (0x12) | Exported Function | 0x1000154c | 0x0000154c
-`const CComPlusObject::``vftable'` | 19 (0x13) | Exported Function | 0x10001648 | 0x00001648
-`CreateComRegDBWriter` | 27 (0x1b) | Exported Function | 0x10014860 | 0x00014860
-`DestroyComRegDBWriter` | 28 (0x1c) | Exported Function | 0x100148b0 | 0x000148b0
-`SysprepComplus2` | 37 (0x25) | Exported Function | 0x1000e320 | 0x0000e320
-`DllCanUnloadNow` | 29 (0x1d) | Exported Function | 0x1000d650 | 0x0000d650
-`DllRegisterServer` | 31 (0x1f) | Exported Function | 0x1000d730 | 0x0000d730
-`DllUnregisterServer` | 32 (0x20) | Exported Function | 0x1000d860 | 0x0000d860
-`FindAssemblyModulesW` | 33 (0x21) | Exported Function | 0x10014d40 | 0x00014d40
-`ManagedRequestW` | 34 (0x22) | Exported Function | 0x1000e460 | 0x0000e460
-`public: __thiscall CComPlusComponent::CComPlusComponent(class CComPlusComponent &&)` | 1 (0x1) | Exported Function | 0x1000d1b0 | 0x0000d1b0
-`public: __thiscall CComPlusComponent::CComPlusComponent(class CComPlusComponent const &)` | 2 (0x2) | Exported Function | 0x1000d1b0 | 0x0000d1b0
-`public: __thiscall CComPlusInterface::CComPlusInterface(class CComPlusInterface &&)` | 3 (0x3) | Exported Function | 0x1000d260 | 0x0000d260
-`DllGetClassObject` | 30 (0x1e) | Exported Function | 0x1000d660 | 0x0000d660
-`WinlogonHandlePendingInfOperations` | 24 (0x18) | Exported Function | 0x10013f00 | 0x00013f00
+Function Name | Ordinal | Type
+-- | -- | --
+`public: class CComPlusObject & __thiscall CComPlusObject::operator=(class CComPlusObject const &)` | 14 | Exported Function
+`public: class CComPlusMethod & __thiscall CComPlusMethod::operator=(class CComPlusMethod const &)` | 13 | Exported Function
+`public: struct ITypeLib * __thiscall CComPlusTypelib::GetITypeLib(void)` | 20 | Exported Function
+`public: class CComPlusTypelib & __thiscall CComPlusTypelib::operator=(class CComPlusTypelib const &)` | 15 | Exported Function
+`public: class CComPlusInterface & __thiscall CComPlusInterface::operator=(class CComPlusInterface const &)` | 12 | Exported Function
+`public: class CComPlusComponent & __thiscall CComPlusComponent::operator=(class CComPlusComponent &&)` | 9 | Exported Function
+`public: __thiscall CComPlusObject::CComPlusObject(class CComPlusObject const &)` | 6 | Exported Function
+`public: class CComPlusInterface & __thiscall CComPlusInterface::operator=(class CComPlusInterface &&)` | 11 | Exported Function
+`public: class CComPlusComponent & __thiscall CComPlusComponent::operator=(class CComPlusComponent const &)` | 10 | Exported Function
+`public: virtual __thiscall CComPlusComponent::~CComPlusComponent(void)` | 7 | Exported Function
+`SysprepComplus` | 38 | Exported Function
+`StartMTSTOCOM` | 23 | Exported Function
+`WinlogonHandlePendingInfOperations` | 24 | Exported Function
+`SysprepComplus2` | 37 | Exported Function
+`RunMTSToCom` | 36 | Exported Function
+`QueryUserDllW` | 35 | Exported Function
+`public: virtual __thiscall CComPlusInterface::~CComPlusInterface(void)` | 8 | Exported Function
+`RegDBRestore` | 22 | Exported Function
+`RegDBBackup` | 21 | Exported Function
+`CreateComRegDBWriter` | 27 | Exported Function
+`const CComPlusObject::``vftable'` | 19 | Exported Function
+`DllCanUnloadNow` | 29 | Exported Function
+`DestroyComRegDBWriter` | 28 | Exported Function
+`const CComPlusMethod::``vftable'` | 18 | Exported Function
+`COMPlusUninstallActionW` | 26 | Exported Function
+`CGMIsAdministrator` | 25 | Exported Function
+`const CComPlusInterface::``vftable'` | 17 | Exported Function
+`const CComPlusComponent::``vftable'` | 16 | Exported Function
+`DllGetClassObject` | 30 | Exported Function
+`public: __thiscall CComPlusInterface::CComPlusInterface(class CComPlusInterface &&)` | 3 | Exported Function
+`public: __thiscall CComPlusComponent::CComPlusComponent(class CComPlusComponent const &)` | 2 | Exported Function
+`public: __thiscall CComPlusMethod::CComPlusMethod(class CComPlusMethod const &)` | 5 | Exported Function
+`public: __thiscall CComPlusInterface::CComPlusInterface(class CComPlusInterface const &)` | 4 | Exported Function
+`public: __thiscall CComPlusComponent::CComPlusComponent(class CComPlusComponent &&)` | 1 | Exported Function
+`DllUnregisterServer` | 32 | Exported Function
+`DllRegisterServer` | 31 | Exported Function
+`ManagedRequestW` | 34 | Exported Function
+`FindAssemblyModulesW` | 33 | Exported Function
 
 
 ## Signature

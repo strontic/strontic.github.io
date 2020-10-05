@@ -24,11 +24,11 @@ PE256 | `E2CC8F526EA3C30198A99AA7E1D00C15F876DA28E9B38B63AE81B813518BD7A5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetExtensionVersion` | 1 (0x1) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`HttpExtensionProc` | 2 (0x2) | Exported Function | 0x0000000180001390 | 0x00001390
-`TerminateExtension` | 3 (0x3) | Exported Function | 0x0000000180001760 | 0x00001760
+Function Name | Ordinal | Type
+-- | -- | --
+`TerminateExtension` | 3 | Exported Function
+`HttpExtensionProc` | 2 | Exported Function
+`GetExtensionVersion` | 1 | Exported Function
 
 
 ## Signature

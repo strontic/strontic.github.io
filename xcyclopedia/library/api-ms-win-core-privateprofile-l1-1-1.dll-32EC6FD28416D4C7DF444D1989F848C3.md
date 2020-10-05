@@ -24,10 +24,10 @@ PE256 | `A5068EAEF6BEB46F556349DBC0DF28717B9D8806FA061F4C4D68ECD710E5F57D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetPrivateProfileSectionA` | 1 (0x1) | Exported Function | kernel32.GetPrivateProfileSectionA | 0x000011a0
-`WritePrivateProfileSectionW` | 2 (0x2) | Exported Function | kernel32.WritePrivateProfileSectionW | 0x000011df
+Function Name | Ordinal | Type
+-- | -- | --
+`WritePrivateProfileSectionW` | 2 | Exported Function
+`GetPrivateProfileSectionA` | 1 | Exported Function
 
 
 ## Signature

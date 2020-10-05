@@ -24,10 +24,10 @@ PE256 | `E4C3CBEBEB6A2B1ACBC41B8B6ACE2BE8D7FD955A05F485516DFBB450D291768E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NetpCertProviderInitialize` | 1 (0x1) | Exported Function | 0x00000001800010a0 | 0x000010a0
-`NetpPolProviderInitialize` | 2 (0x2) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`NetpPolProviderInitialize` | 2 | Exported Function
+`NetpCertProviderInitialize` | 1 | Exported Function
 
 
 ## Signature

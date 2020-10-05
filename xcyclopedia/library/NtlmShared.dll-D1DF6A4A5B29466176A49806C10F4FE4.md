@@ -24,36 +24,36 @@ PE256 | `ECA1417B3941536C8BB7320B3EACC2E9524BF224452099F65F4897E89F3B45BC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MsvpCachePasswordsToCredential` | 1 (0x1) | Exported Function | 0x10002d10 | 0x00002d10
-`NtlmSharedFree` | 26 (0x1a) | Exported Function | 0x10007130 | 0x00007130
-`NtlmSharedCleanup` | 25 (0x19) | Exported Function | 0x10007090 | 0x00007090
-`NtlmSharedAllocatePrivateHeap` | 24 (0x18) | Exported Function | 0x10007160 | 0x00007160
-`NtlmSharedAllocate` | 23 (0x17) | Exported Function | 0x10007100 | 0x00007100
-`NtLmAlterRtlEqualUnicodeString` | 22 (0x16) | Exported Function | 0x10007240 | 0x00007240
-`MsvpValidateSupplementalCredsBuffer` | 21 (0x15) | Exported Function | 0x10007d00 | 0x00007d00
-`MsvpValidateSupplementalCreds` | 20 (0x14) | Exported Function | 0x10007cd0 | 0x00007cd0
-`MsvpUpdateSharedConfiguration` | 19 (0x13) | Exported Function | 0x100071c0 | 0x000071c0
-`MsvpPutClearOwfsInPrimaryCredential` | 18 (0x12) | Exported Function | 0x10002990 | 0x00002990
-`MsvpPasswordValidate` | 17 (0x11) | Exported Function | 0x10007730 | 0x00007730
-`MsvpNtlm3ValidateResponse` | 16 (0x10) | Exported Function | 0x10007560 | 0x00007560
-`MsvpNtlm3Response` | 15 (0xf) | Exported Function | 0x10002570 | 0x00002570
-`MsvpMakeSecretPasswordNT5` | 14 (0xe) | Exported Function | 0x10002900 | 0x00002900
-`MsvpLm3ValidateResponse` | 13 (0xd) | Exported Function | 0x100074c0 | 0x000074c0
-`MsvpLm3Response` | 12 (0xc) | Exported Function | 0x10002450 | 0x00002450
-`MsvpLm20GetNtlm3ChallengeResponse` | 11 (0xb) | Exported Function | 0x10002690 | 0x00002690
-`MsvpGMSACred` | 10 (0xa) | Exported Function | 0x10006f10 | 0x00006f10
-`MsvpDeriveSecureCredKey` | 9 (0x9) | Exported Function | 0x10002a90 | 0x00002a90
-`MsvpDecryptDpapiMasterKey` | 8 (0x8) | Exported Function | 0x10002d70 | 0x00002d70
-`MsvpCredentialToCachePasswords` | 7 (0x7) | Exported Function | 0x10002cc0 | 0x00002cc0
-`MsvpComputeSaltedHashedPassword` | 6 (0x6) | Exported Function | 0x100027e0 | 0x000027e0
-`MsvpCompareCredentials` | 5 (0x5) | Exported Function | 0x10002c10 | 0x00002c10
-`MsvpCalculateNtlm3Owf` | 4 (0x4) | Exported Function | 0x10002390 | 0x00002390
-`MsvpCalculateNtlm2SessionKeys` | 3 (0x3) | Exported Function | 0x10002320 | 0x00002320
-`MsvpCalculateNtlm2Challenge` | 2 (0x2) | Exported Function | 0x10002270 | 0x00002270
-`NtlmSharedFreePrivateHeap` | 27 (0x1b) | Exported Function | 0x10007190 | 0x00007190
-`NtlmSharedInit` | 28 (0x1c) | Exported Function | 0x10006f60 | 0x00006f60
+Function Name | Ordinal | Type
+-- | -- | --
+`MsvpUpdateSharedConfiguration` | 19 | Exported Function
+`MsvpValidateSupplementalCreds` | 20 | Exported Function
+`MsvpValidateSupplementalCredsBuffer` | 21 | Exported Function
+`MsvpPutClearOwfsInPrimaryCredential` | 18 | Exported Function
+`MsvpNtlm3Response` | 15 | Exported Function
+`MsvpNtlm3ValidateResponse` | 16 | Exported Function
+`MsvpPasswordValidate` | 17 | Exported Function
+`NtlmSharedFree` | 26 | Exported Function
+`NtlmSharedFreePrivateHeap` | 27 | Exported Function
+`NtlmSharedInit` | 28 | Exported Function
+`NtlmSharedCleanup` | 25 | Exported Function
+`NtLmAlterRtlEqualUnicodeString` | 22 | Exported Function
+`NtlmSharedAllocate` | 23 | Exported Function
+`NtlmSharedAllocatePrivateHeap` | 24 | Exported Function
+`MsvpCompareCredentials` | 5 | Exported Function
+`MsvpComputeSaltedHashedPassword` | 6 | Exported Function
+`MsvpCredentialToCachePasswords` | 7 | Exported Function
+`MsvpCalculateNtlm3Owf` | 4 | Exported Function
+`MsvpCachePasswordsToCredential` | 1 | Exported Function
+`MsvpCalculateNtlm2Challenge` | 2 | Exported Function
+`MsvpCalculateNtlm2SessionKeys` | 3 | Exported Function
+`MsvpLm3Response` | 12 | Exported Function
+`MsvpLm3ValidateResponse` | 13 | Exported Function
+`MsvpMakeSecretPasswordNT5` | 14 | Exported Function
+`MsvpLm20GetNtlm3ChallengeResponse` | 11 | Exported Function
+`MsvpDecryptDpapiMasterKey` | 8 | Exported Function
+`MsvpDeriveSecureCredKey` | 9 | Exported Function
+`MsvpGMSACred` | 10 | Exported Function
 
 
 ## Signature

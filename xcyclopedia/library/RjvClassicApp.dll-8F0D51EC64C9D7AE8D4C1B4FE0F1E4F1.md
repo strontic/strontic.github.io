@@ -24,11 +24,11 @@ PE256 | `436ABCEF301527AE39DFB43E27982074CF6D2EEBAE08AD47F28CE05F98A68D8C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRejuvenationHandler` | 3 (0x3) | Exported Function | 0x00000001800095a0 | 0x000095a0
-`GetICBAppList` | 1 (0x1) | Exported Function | 0x0000000180003cd0 | 0x00003cd0
-`GetWIMAppList` | 2 (0x2) | Exported Function | 0x0000000180003bc0 | 0x00003bc0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetWIMAppList` | 2 | Exported Function
+`GetICBAppList` | 1 | Exported Function
+`DllRejuvenationHandler` | 3 | Exported Function
 
 
 ## Signature

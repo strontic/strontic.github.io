@@ -24,42 +24,42 @@ PE256 | `22212351117FA29B143F9C152BA199D63B138E8A9A2914A04AE317BDB4F2DC60`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BuildISO8601String` | 1 (0x1) | Exported Function | 0x10008050 | 0x00008050
-`WriteMapiBodiesFromMimeReader` | 29 (0x1d) | Exported Function | 0x10009630 | 0x00009630
-`WriteInputStreamToNetworkStream` | 28 (0x1c) | Exported Function | 0x1000a530 | 0x0000a530
-`SyncNormalizePhoneNumber` | 27 (0x1b) | Exported Function | 0x1000a870 | 0x0000a870
-`StringCompareWithWildcard` | 26 (0x1a) | Exported Function | 0x1000b4c0 | 0x0000b4c0
-`SetSmProviderInfo` | 25 (0x19) | Exported Function | 0x1000acf0 | 0x0000acf0
-`SetDplPropertyForStore` | 24 (0x18) | Exported Function | 0x1000b940 | 0x0000b940
-`SetDataProtectionPropertyForStore` | 23 (0x17) | Exported Function | 0x1000b890 | 0x0000b890
-`SearchDelimitedList` | 22 (0x16) | Exported Function | 0x1000b6d0 | 0x0000b6d0
-`ParseISO8601String` | 21 (0x15) | Exported Function | 0x100082e0 | 0x000082e0
-`IsDPLInEffect` | 19 (0x13) | Exported Function | 0x1000c210 | 0x0000c210
-`IsDomainInDelimitedList` | 20 (0x14) | Exported Function | 0x1000b6d0 | 0x0000b6d0
-`GetSmRecipientType` | 18 (0x12) | Exported Function | 0x1000a840 | 0x0000a840
-`GetSmProviderInfo` | 17 (0x11) | Exported Function | 0x1000abd0 | 0x0000abd0
-`GetProtectionPolicyState` | 16 (0x10) | Exported Function | 0x1000be70 | 0x0000be70
-`GetProtectedDomainList` | 15 (0xf) | Exported Function | 0x1000bd50 | 0x0000bd50
-`GetMimeStreamFromMMSMessage` | 13 (0xd) | Exported Function | 0x1000d3a0 | 0x0000d3a0
-`GetMimeStreamFromMessage` | 14 (0xe) | Exported Function | 0x1000d240 | 0x0000d240
-`BuildISO8601StringFromSysTime` | 2 (0x2) | Exported Function | 0x10007f60 | 0x00007f60
-`CopyMimeAttachmentsToMapi` | 3 (0x3) | Exported Function | 0x1000a150 | 0x0000a150
-`CreateTemporaryFileStream` | 32 (0x20) | Exported Function | 0x1000a7c0 | 0x0000a7c0
-`DllCanUnloadNow` | 33 (0x21) | Exported Function | 0x100078a0 | 0x000078a0
-`DllGetClassObject` | 34 (0x22) | Exported Function | 0x100078c0 | 0x000078c0
-`DownloadToVirtualStream` | 4 (0x4) | Exported Function | 0x1000a670 | 0x0000a670
-`WriteMapiBodiesFromMimeStream` | 30 (0x1e) | Exported Function | 0x100094b0 | 0x000094b0
-`FindMatchingNameForAddress` | 5 (0x5) | Exported Function | 0x1000a9d0 | 0x0000a9d0
-`GetAccountManagedState` | 7 (0x7) | Exported Function | 0x1000c020 | 0x0000c020
-`GetDataProtectionPropertyForStore` | 8 (0x8) | Exported Function | 0x1000baf0 | 0x0000baf0
-`GetDomainFromAccountName` | 9 (0x9) | Exported Function | 0x1000b9f0 | 0x0000b9f0
-`GetDomainNamesForEmailSyncList` | 10 (0xa) | Exported Function | 0x1000c2c0 | 0x0000c2c0
-`GetDplPropertyForStore` | 11 (0xb) | Exported Function | 0x1000bbb0 | 0x0000bbb0
-`GetIStoreForAccountGuid` | 12 (0xc) | Exported Function | 0x1000b6f0 | 0x0000b6f0
-`GetAccountDomainForAccountAccessor` | 6 (0x6) | Exported Function | 0x1000bc60 | 0x0000bc60
-`WriteMapiBodiesFromMimeStreamEx` | 31 (0x1f) | Exported Function | 0x10009500 | 0x00009500
+Function Name | Ordinal | Type
+-- | -- | --
+`IsDPLInEffect` | 19 | Exported Function
+`IsDomainInDelimitedList` | 20 | Exported Function
+`SearchDelimitedList` | 22 | Exported Function
+`ParseISO8601String` | 21 | Exported Function
+`GetProtectionPolicyState` | 16 | Exported Function
+`GetProtectedDomainList` | 15 | Exported Function
+`GetSmRecipientType` | 18 | Exported Function
+`GetSmProviderInfo` | 17 | Exported Function
+`SetDataProtectionPropertyForStore` | 23 | Exported Function
+`WriteMapiBodiesFromMimeReader` | 29 | Exported Function
+`WriteInputStreamToNetworkStream` | 28 | Exported Function
+`WriteMapiBodiesFromMimeStreamEx` | 31 | Exported Function
+`WriteMapiBodiesFromMimeStream` | 30 | Exported Function
+`SetSmProviderInfo` | 25 | Exported Function
+`SetDplPropertyForStore` | 24 | Exported Function
+`SyncNormalizePhoneNumber` | 27 | Exported Function
+`StringCompareWithWildcard` | 26 | Exported Function
+`DllGetClassObject` | 34 | Exported Function
+`DllCanUnloadNow` | 33 | Exported Function
+`FindMatchingNameForAddress` | 5 | Exported Function
+`DownloadToVirtualStream` | 4 | Exported Function
+`BuildISO8601StringFromSysTime` | 2 | Exported Function
+`BuildISO8601String` | 1 | Exported Function
+`CreateTemporaryFileStream` | 32 | Exported Function
+`CopyMimeAttachmentsToMapi` | 3 | Exported Function
+`GetAccountDomainForAccountAccessor` | 6 | Exported Function
+`GetIStoreForAccountGuid` | 12 | Exported Function
+`GetDplPropertyForStore` | 11 | Exported Function
+`GetMimeStreamFromMMSMessage` | 13 | Exported Function
+`GetMimeStreamFromMessage` | 14 | Exported Function
+`GetDataProtectionPropertyForStore` | 8 | Exported Function
+`GetAccountManagedState` | 7 | Exported Function
+`GetDomainNamesForEmailSyncList` | 10 | Exported Function
+`GetDomainFromAccountName` | 9 | Exported Function
 
 
 ## Signature

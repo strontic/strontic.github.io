@@ -24,23 +24,23 @@ PE256 | `BB0877EEBE86C5EFF1B9C8ABCDE718119EB6F7E5F825914CA085B93F6E14554E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WSHAddressToString` | 1 (0x1) | Exported Function | 0x10002380 | 0x00002380
-`WSHEnumProtocols` | 2 (0x2) | Exported Function | 0x10002080 | 0x00002080
-`WSHGetProviderGuid` | 3 (0x3) | Exported Function | 0x10002480 | 0x00002480
-`WSHGetSockaddrType` | 4 (0x4) | Exported Function | 0x10001b90 | 0x00001b90
-`WSHGetSocketInformation` | 5 (0x5) | Exported Function | 0x10001c70 | 0x00001c70
-`WSHGetWildcardSockaddr` | 7 (0x7) | Exported Function | 0x10001cc0 | 0x00001cc0
-`WSHGetWinsockMapping` | 8 (0x8) | Exported Function | 0x10001d30 | 0x00001d30
-`WSHGetWSAProtocolInfo` | 6 (0x6) | Exported Function | 0x10002320 | 0x00002320
-`WSHIoctl` | 9 (0x9) | Exported Function | 0x100024d0 | 0x000024d0
-`WSHJoinLeaf` | 10 (0xa) | Exported Function | 0x10002270 | 0x00002270
-`WSHNotify` | 11 (0xb) | Exported Function | 0x10002000 | 0x00002000
-`WSHOpenSocket` | 13 (0xd) | Exported Function | 0x10001fd0 | 0x00001fd0
-`WSHOpenSocket2` | 12 (0xc) | Exported Function | 0x10001da0 | 0x00001da0
-`WSHSetSocketInformation` | 14 (0xe) | Exported Function | 0x10002050 | 0x00002050
-`WSHStringToAddress` | 15 (0xf) | Exported Function | 0x10002400 | 0x00002400
+Function Name | Ordinal | Type
+-- | -- | --
+`WSHNotify` | 11 | Exported Function
+`WSHJoinLeaf` | 10 | Exported Function
+`WSHIoctl` | 9 | Exported Function
+`WSHOpenSocket` | 13 | Exported Function
+`WSHStringToAddress` | 15 | Exported Function
+`WSHSetSocketInformation` | 14 | Exported Function
+`WSHOpenSocket2` | 12 | Exported Function
+`WSHGetWSAProtocolInfo` | 6 | Exported Function
+`WSHGetProviderGuid` | 3 | Exported Function
+`WSHEnumProtocols` | 2 | Exported Function
+`WSHAddressToString` | 1 | Exported Function
+`WSHGetSockaddrType` | 4 | Exported Function
+`WSHGetWinsockMapping` | 8 | Exported Function
+`WSHGetWildcardSockaddr` | 7 | Exported Function
+`WSHGetSocketInformation` | 5 | Exported Function
 
 
 ## Signature

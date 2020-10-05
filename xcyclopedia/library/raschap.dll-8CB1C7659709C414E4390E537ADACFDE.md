@@ -24,31 +24,31 @@ PE256 | `B6A9F7CA8229FCFA74399EDCA20C27CBD79EA2B53D65B535C5B32C19AC104DA9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RasCpEnumProtocolIds` | 4 (0x4) | Exported Function | 0x7322ced0 | 0x0000ced0
-`RasEapQueryUIBlobFromInteractiveUIInputFields` | 21 (0x15) | Exported Function | 0x7322b470 | 0x0000b470
-`RasEapQueryInteractiveUIInputFields` | 20 (0x14) | Exported Function | 0x7322b2b0 | 0x0000b2b0
-`RasEapQueryCredentialInputFields` | 19 (0x13) | Exported Function | 0x7322aa20 | 0x0000aa20
-`RasEapInvokeInteractiveUI` | 18 (0x12) | Exported Function | 0x73229490 | 0x00009490
-`RasEapInvokeConfigUI` | 17 (0x11) | Exported Function | 0x73229420 | 0x00009420
-`RasEapGetNextPageGuid` | 16 (0x10) | Exported Function | 0x7322b900 | 0x0000b900
-`RasEapGetMethodProperties` | 15 (0xf) | Exported Function | 0x73229640 | 0x00009640
-`RasEapGetInfo` | 14 (0xe) | Exported Function | 0x73228f20 | 0x00008f20
-`RasEapGetIdentityPageGuid` | 13 (0xd) | Exported Function | 0x7322b960 | 0x0000b960
-`RasEapQueryUserBlobFromCredentialInputFields` | 22 (0x16) | Exported Function | 0x7322b0b0 | 0x0000b0b0
-`RasEapGetIdentity` | 12 (0xc) | Exported Function | 0x73229290 | 0x00009290
-`RasEapGetConfigBlobAndUserBlob` | 10 (0xa) | Exported Function | 0x7322b990 | 0x0000b990
-`RasEapFreeMemory` | 9 (0x9) | Exported Function | 0x73229470 | 0x00009470
-`RasEapCreateUserProperties2` | 3 (0x3) | Exported Function | 0x73233c50 | 0x00013c50
-`RasEapCreateUserProperties` | 8 (0x8) | Exported Function | 0x73233b70 | 0x00013b70
-`RasEapCreateMethodConfiguration` | 7 (0x7) | Exported Function | 0x732294e0 | 0x000094e0
-`RasEapCreateConnectionPropertiesXml` | 2 (0x2) | Exported Function | 0x732340d0 | 0x000140d0
-`RasEapCreateConnectionProperties2` | 1 (0x1) | Exported Function | 0x732343a0 | 0x000143a0
-`RasEapCreateConnectionProperties` | 6 (0x6) | Exported Function | 0x732342c0 | 0x000142c0
-`RasCpGetInfo` | 5 (0x5) | Exported Function | 0x7322cf20 | 0x0000cf20
-`RasEapGetCredentials` | 11 (0xb) | Exported Function | 0x73228fd0 | 0x00008fd0
-`RasEapSetRetryFlag` | 23 (0x17) | Exported Function | 0x732291e0 | 0x000091e0
+Function Name | Ordinal | Type
+-- | -- | --
+`RasEapGetNextPageGuid` | 16 | Exported Function
+`RasEapInvokeConfigUI` | 17 | Exported Function
+`RasEapGetMethodProperties` | 15 | Exported Function
+`RasEapGetIdentityPageGuid` | 13 | Exported Function
+`RasEapGetInfo` | 14 | Exported Function
+`RasEapInvokeInteractiveUI` | 18 | Exported Function
+`RasEapQueryUserBlobFromCredentialInputFields` | 22 | Exported Function
+`RasEapSetRetryFlag` | 23 | Exported Function
+`RasEapQueryUIBlobFromInteractiveUIInputFields` | 21 | Exported Function
+`RasEapQueryCredentialInputFields` | 19 | Exported Function
+`RasEapQueryInteractiveUIInputFields` | 20 | Exported Function
+`RasEapGetIdentity` | 12 | Exported Function
+`RasEapCreateConnectionProperties2` | 1 | Exported Function
+`RasEapCreateConnectionPropertiesXml` | 2 | Exported Function
+`RasEapCreateConnectionProperties` | 6 | Exported Function
+`RasCpEnumProtocolIds` | 4 | Exported Function
+`RasCpGetInfo` | 5 | Exported Function
+`RasEapCreateMethodConfiguration` | 7 | Exported Function
+`RasEapGetConfigBlobAndUserBlob` | 10 | Exported Function
+`RasEapGetCredentials` | 11 | Exported Function
+`RasEapFreeMemory` | 9 | Exported Function
+`RasEapCreateUserProperties` | 8 | Exported Function
+`RasEapCreateUserProperties2` | 3 | Exported Function
 
 
 ## Signature

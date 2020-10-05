@@ -24,26 +24,16 @@ PE256 | `63A2D8689D6FDF313FB8129F386E0644581ABEAACC2080281690D30FFAD458B6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 259 (0x103) | Exported Function | 0x0000000180001ad0 | 0x00001ad0
-`Ordinal519` | 519 (0x207) | Exported Function | 0x000000018000aa60 | 0x0000aa60
-`Ordinal518` | 518 (0x206) | Exported Function | 0x000000018000af50 | 0x0000af50
-`Ordinal517` | 517 (0x205) | Exported Function | 0x000000018000ad90 | 0x0000ad90
-`Ordinal516` | 516 (0x204) | Exported Function | 0x000000018000ae20 | 0x0000ae20
-`Ordinal515` | 515 (0x203) | Exported Function | 0x000000018000a850 | 0x0000a850
-`Ordinal514` | 514 (0x202) | Exported Function | 0x000000018000a650 | 0x0000a650
-`Ordinal513` | 513 (0x201) | Exported Function | 0x000000018000a420 | 0x0000a420
-`Ordinal512` | 512 (0x200) | Exported Function | 0x000000018000a2d0 | 0x0000a2d0
-`OpenSavedDsQueryW` | 257 (0x101) | Exported Function | 0x0000000180001de0 | 0x00001de0
-`OpenSavedDsQuery` | 256 (0x100) | Exported Function | 0x0000000180001df0 | 0x00001df0
-`OpenQueryWindow` | 258 (0x102) | Exported Function | 0x0000000180001c70 | 0x00001c70
-`DllUnregisterServer` | 263 (0x107) | Exported Function | 0x0000000180001bb0 | 0x00001bb0
-`DllRegisterServer` | 262 (0x106) | Exported Function | 0x0000000180001b90 | 0x00001b90
-`DllInstall` | 261 (0x105) | Exported Function | 0x0000000180001bd0 | 0x00001bd0
-`DllGetClassObject` | 260 (0x104) | Exported Function | 0x0000000180001af0 | 0x00001af0
-`Ordinal520` | 520 (0x208) | Exported Function | 0x000000018000acb0 | 0x0000acb0
-`Ordinal521` | 521 (0x209) | Exported Function | 0x000000018000ae90 | 0x0000ae90
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenQueryWindow` | 258 | Exported Function
+`DllUnregisterServer` | 263 | Exported Function
+`OpenSavedDsQueryW` | 257 | Exported Function
+`OpenSavedDsQuery` | 256 | Exported Function
+`DllGetClassObject` | 260 | Exported Function
+`DllCanUnloadNow` | 259 | Exported Function
+`DllRegisterServer` | 262 | Exported Function
+`DllInstall` | 261 | Exported Function
 
 
 ## Signature

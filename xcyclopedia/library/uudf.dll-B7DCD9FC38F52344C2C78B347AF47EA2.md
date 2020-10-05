@@ -24,26 +24,26 @@ PE256 | `069C7D6F6F2D4F1A6D91DD9E624573383AC5B1E22A9EF4B16382B31950B6F0AA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Chkdsk` | 13 (0xd) | Exported Function | 0x1000c370 | 0x0000c370
-`public: virtual __thiscall UDF_SA::~UDF_SA(void)` | 7 (0x7) | Exported Function | 0x10015d90 | 0x00015d90
-`public: virtual __thiscall UDF_LVOL::~UDF_LVOL(void)` | 6 (0x6) | Exported Function | 0x10010c70 | 0x00010c70
-`public: virtual __thiscall METADATA_PARTITION::~METADATA_PARTITION(void)` | 5 (0x5) | Exported Function | 0x10016e10 | 0x00016e10
-`public: unsigned char __thiscall UDF_SA::Initialize(class LOG_IO_DP_DRIVE *,class MESSAGE *,unsigned short)` | 10 (0xa) | Exported Function | 0x10015dc0 | 0x00015dc0
-`public: unsigned char __thiscall UDF_LVOL::ReadFromDisk(class UDF_SA *,class MESSAGE *,class VDS *)` | 12 (0xc) | Exported Function | 0x10011070 | 0x00011070
-`public: unsigned char __thiscall UDF_LVOL::CreateOnDisk(class UDF_SA *,class MESSAGE *,class VDS *,struct EXTENTAD *,unsigned long,struct EXTENTAD *)` | 9 (0x9) | Exported Function | 0x100113c0 | 0x000113c0
-`public: enum FORMAT_ERROR_CODE __thiscall UDF_VOL::Initialize(class WSTRING const *,class MESSAGE *,unsigned char,unsigned short,unsigned char,unsigned char,unsigned char)` | 11 (0xb) | Exported Function | 0x10016030 | 0x00016030
-`public: __thiscall UDF_VOL::UDF_VOL(void)` | 4 (0x4) | Exported Function | 0x10015fd0 | 0x00015fd0
-`public: __thiscall UDF_SA::UDF_SA(void)` | 3 (0x3) | Exported Function | 0x10015cb0 | 0x00015cb0
-`public: __thiscall UDF_LVOL::UDF_LVOL(void)` | 2 (0x2) | Exported Function | 0x10010a10 | 0x00010a10
-`public: __thiscall METADATA_PARTITION::METADATA_PARTITION(void)` | 1 (0x1) | Exported Function | 0x10016d10 | 0x00016d10
-`GetFilesystemInformation` | 17 (0x11) | Exported Function | 0x1000c7f0 | 0x0000c7f0
-`FormatEx` | 16 (0x10) | Exported Function | 0x1000cc80 | 0x0000cc80
-`Format` | 15 (0xf) | Exported Function | 0x1000c9c0 | 0x0000c9c0
-`ChkdskEx` | 14 (0xe) | Exported Function | 0x1000c4e0 | 0x0000c4e0
-`public: virtual __thiscall UDF_VOL::~UDF_VOL(void)` | 8 (0x8) | Exported Function | 0x10016000 | 0x00016000
-`Recover` | 18 (0x12) | Exported Function | 0x1000d160 | 0x0000d160
+Function Name | Ordinal | Type
+-- | -- | --
+`public: unsigned char __thiscall UDF_LVOL::ReadFromDisk(class UDF_SA *,class MESSAGE *,class VDS *)` | 12 | Exported Function
+`public: unsigned char __thiscall UDF_SA::Initialize(class LOG_IO_DP_DRIVE *,class MESSAGE *,unsigned short)` | 10 | Exported Function
+`public: enum FORMAT_ERROR_CODE __thiscall UDF_VOL::Initialize(class WSTRING const *,class MESSAGE *,unsigned char,unsigned short,unsigned char,unsigned char,unsigned char)` | 11 | Exported Function
+`public: unsigned char __thiscall UDF_LVOL::CreateOnDisk(class UDF_SA *,class MESSAGE *,class VDS *,struct EXTENTAD *,unsigned long,struct EXTENTAD *)` | 9 | Exported Function
+`public: virtual __thiscall METADATA_PARTITION::~METADATA_PARTITION(void)` | 5 | Exported Function
+`public: virtual __thiscall UDF_VOL::~UDF_VOL(void)` | 8 | Exported Function
+`Recover` | 18 | Exported Function
+`public: virtual __thiscall UDF_LVOL::~UDF_LVOL(void)` | 6 | Exported Function
+`public: virtual __thiscall UDF_SA::~UDF_SA(void)` | 7 | Exported Function
+`Format` | 15 | Exported Function
+`FormatEx` | 16 | Exported Function
+`Chkdsk` | 13 | Exported Function
+`ChkdskEx` | 14 | Exported Function
+`GetFilesystemInformation` | 17 | Exported Function
+`public: __thiscall UDF_SA::UDF_SA(void)` | 3 | Exported Function
+`public: __thiscall UDF_VOL::UDF_VOL(void)` | 4 | Exported Function
+`public: __thiscall METADATA_PARTITION::METADATA_PARTITION(void)` | 1 | Exported Function
+`public: __thiscall UDF_LVOL::UDF_LVOL(void)` | 2 | Exported Function
 
 
 ## Signature

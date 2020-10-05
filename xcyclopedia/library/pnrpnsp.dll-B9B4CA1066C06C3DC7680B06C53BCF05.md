@@ -24,9 +24,9 @@ PE256 | `29FDC5642E3F12D8CB7E42D54E9FCF439F528943A64856C96ABC2638B0B7CA4F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NSPStartup` | 1 (0x1) | Exported Function | 0x00000001800015e0 | 0x000015e0
+Function Name | Ordinal | Type
+-- | -- | --
+`NSPStartup` | 1 | Exported Function
 
 
 ## Signature

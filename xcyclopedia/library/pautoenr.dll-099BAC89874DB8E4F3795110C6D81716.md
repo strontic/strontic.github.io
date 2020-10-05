@@ -24,11 +24,11 @@ PE256 | `B630CA00321F3F96EC64A9DE871AFDAF5DD6D4E60836C97AE9E5101FC979BB99`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CertAutoEnrollment` | 2 (0x2) | Exported Function | 0x66486510 | 0x00006510
-`CertAutoRemove` | 3 (0x3) | Exported Function | 0x66486520 | 0x00006520
-`DimsProvEntry` | 1 (0x1) | Exported Function | 0x66482350 | 0x00002350
+Function Name | Ordinal | Type
+-- | -- | --
+`DimsProvEntry` | 1 | Exported Function
+`CertAutoRemove` | 3 | Exported Function
+`CertAutoEnrollment` | 2 | Exported Function
 
 
 ## Signature

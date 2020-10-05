@@ -24,16 +24,16 @@ PE256 | `B7546B0A7842FE06D4FDE7F87673E9B626A44A87CAA32FAEB6B19AB53FB46E7F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IdpConfigAddPolicy` | 1 (0x1) | Exported Function | 0x1005fd90 | 0x0005fd90
-`IdpConfigAllocateAndGetPolicy` | 2 (0x2) | Exported Function | 0x10061030 | 0x00061030
-`IdpConfigFreePolicy` | 3 (0x3) | Exported Function | 0x10061080 | 0x00061080
-`IdpConfigInitDefaultPolicy` | 4 (0x4) | Exported Function | 0x10060650 | 0x00060650
-`IdpConfigRemovePolicy` | 5 (0x5) | Exported Function | 0x1005ff70 | 0x0005ff70
-`InitHelperDll` | 6 (0x6) | Exported Function | 0x1005bfb0 | 0x0005bfb0
-`WfpCaptureExportedW` | 7 (0x7) | Exported Function | 0x1005e050 | 0x0005e050
-`WfpCaptureStop` | 8 (0x8) | Exported Function | 0x1005e5f0 | 0x0005e5f0
+Function Name | Ordinal | Type
+-- | -- | --
+`InitHelperDll` | 6 | Exported Function
+`IdpConfigRemovePolicy` | 5 | Exported Function
+`WfpCaptureStop` | 8 | Exported Function
+`WfpCaptureExportedW` | 7 | Exported Function
+`IdpConfigAllocateAndGetPolicy` | 2 | Exported Function
+`IdpConfigAddPolicy` | 1 | Exported Function
+`IdpConfigInitDefaultPolicy` | 4 | Exported Function
+`IdpConfigFreePolicy` | 3 | Exported Function
 
 
 ## Signature

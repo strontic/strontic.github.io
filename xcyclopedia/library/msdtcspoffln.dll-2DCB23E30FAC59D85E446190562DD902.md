@@ -24,9 +24,9 @@ PE256 | `8456243A4D95BF97110A036548EA4D803B7822F7F075A87AA2EC522048E63EEE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SysPrepDtcOfflineSpecialize` | 1 (0x1) | Exported Function | 0x100017f0 | 0x000017f0
+Function Name | Ordinal | Type
+-- | -- | --
+`SysPrepDtcOfflineSpecialize` | 1 | Exported Function
 
 
 ## Signature

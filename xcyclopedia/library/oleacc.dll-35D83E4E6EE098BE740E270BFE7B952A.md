@@ -24,36 +24,36 @@ PE256 | `D2CAF847A4EA7053B8A2A7C8E320A899531FFE585D16EB363C2EDAD5E1B295E6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AccessibleChildren` | 6 (0x6) | Exported Function | 0x000000018000a370 | 0x0000a370
-`ObjectFromLresult` | 26 (0x1a) | Exported Function | 0x000000018000e240 | 0x0000e240
-`LresultFromObject` | 25 (0x19) | Exported Function | 0x00000001800081d0 | 0x000081d0
-`LIBID_Accessibility` | 24 (0x18) | Exported Function | 0x000000018004ea60 | 0x0004ea60
-`IID_IAccessibleHandler` | 23 (0x17) | Exported Function | 0x000000018004ca98 | 0x0004ca98
-`IID_IAccessible` | 22 (0x16) | Exported Function | 0x000000018004baf0 | 0x0004baf0
-`GetStateTextW` | 21 (0x15) | Exported Function | 0x000000018003e770 | 0x0003e770
-`GetStateTextA` | 20 (0x14) | Exported Function | 0x000000018003e720 | 0x0003e720
-`GetRoleTextW` | 19 (0x13) | Exported Function | 0x0000000180003290 | 0x00003290
-`GetRoleTextA` | 18 (0x12) | Exported Function | 0x000000018003e6d0 | 0x0003e6d0
-`GetProcessHandleFromHwnd` | 17 (0x11) | Exported Function | 0x000000018000c740 | 0x0000c740
-`GetOleaccVersionInfo` | 16 (0x10) | Exported Function | 0x000000018003e680 | 0x0003e680
-`DllUnregisterServer` | 2 (0x2) | Exported Function | 0x000000018000ca90 | 0x0000ca90
-`DllRegisterServer` | 1 (0x1) | Exported Function | 0x000000018000ca90 | 0x0000ca90
-`DllGetClassObject` | 15 (0xf) | Exported Function | 0x00000001800034a0 | 0x000034a0
-`DllCanUnloadNow` | 14 (0xe) | Exported Function | 0x000000018000c440 | 0x0000c440
-`CreateStdAccessibleProxyW` | 13 (0xd) | Exported Function | 0x0000000180009a20 | 0x00009a20
-`CreateStdAccessibleProxyA` | 12 (0xc) | Exported Function | 0x000000018003e630 | 0x0003e630
-`CreateStdAccessibleObject` | 11 (0xb) | Exported Function | 0x000000018000e160 | 0x0000e160
-`AccSetRunningUtilityState` | 5 (0x5) | Exported Function | 0x000000018003e530 | 0x0003e530
-`AccNotifyTouchInteraction` | 4 (0x4) | Exported Function | 0x000000018003e4a0 | 0x0003e4a0
-`AccGetRunningUtilityState` | 3 (0x3) | Exported Function | 0x000000018003d910 | 0x0003d910
-`AccessibleObjectFromWindowTimeout` | 10 (0xa) | Exported Function | 0x0000000180002c00 | 0x00002c00
-`AccessibleObjectFromWindow` | 9 (0x9) | Exported Function | 0x0000000180005320 | 0x00005320
-`AccessibleObjectFromPoint` | 8 (0x8) | Exported Function | 0x000000018003e5e0 | 0x0003e5e0
-`AccessibleObjectFromEvent` | 7 (0x7) | Exported Function | 0x000000018003e580 | 0x0003e580
-`PropMgrClient_LookupProp` | 27 (0x1b) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`WindowFromAccessibleObject` | 28 (0x1c) | Exported Function | 0x000000018000a210 | 0x0000a210
+Function Name | Ordinal | Type
+-- | -- | --
+`GetRoleTextW` | 19 | Exported Function
+`GetStateTextA` | 20 | Exported Function
+`GetStateTextW` | 21 | Exported Function
+`GetRoleTextA` | 18 | Exported Function
+`DllUnregisterServer` | 2 | Exported Function
+`GetOleaccVersionInfo` | 16 | Exported Function
+`GetProcessHandleFromHwnd` | 17 | Exported Function
+`ObjectFromLresult` | 26 | Exported Function
+`PropMgrClient_LookupProp` | 27 | Exported Function
+`WindowFromAccessibleObject` | 28 | Exported Function
+`LresultFromObject` | 25 | Exported Function
+`IID_IAccessible` | 22 | Exported Function
+`IID_IAccessibleHandler` | 23 | Exported Function
+`LIBID_Accessibility` | 24 | Exported Function
+`AccessibleObjectFromWindowTimeout` | 10 | Exported Function
+`AccGetRunningUtilityState` | 3 | Exported Function
+`AccNotifyTouchInteraction` | 4 | Exported Function
+`AccessibleObjectFromWindow` | 9 | Exported Function
+`AccessibleChildren` | 6 | Exported Function
+`AccessibleObjectFromEvent` | 7 | Exported Function
+`AccessibleObjectFromPoint` | 8 | Exported Function
+`DllCanUnloadNow` | 14 | Exported Function
+`DllGetClassObject` | 15 | Exported Function
+`DllRegisterServer` | 1 | Exported Function
+`CreateStdAccessibleProxyW` | 13 | Exported Function
+`AccSetRunningUtilityState` | 5 | Exported Function
+`CreateStdAccessibleObject` | 11 | Exported Function
+`CreateStdAccessibleProxyA` | 12 | Exported Function
 
 
 ## Signature

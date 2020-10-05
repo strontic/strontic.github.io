@@ -24,17 +24,17 @@ PE256 | `A4ADDDDA8AB5E25865C55FB63B380AEE08485FEC63DF72218513790A2B8DE86F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CalculateCensusId` | 1 (0x1) | Exported Function | 0x00000001800431c0 | 0x000431c0
-`DoCensusRun` | 2 (0x2) | Exported Function | 0x0000000180022c60 | 0x00022c60
-`EnumerateOfficeAddins` | 3 (0x3) | Exported Function | 0x0000000180026fc0 | 0x00026fc0
-`EnumerateOfficeDocuments` | 4 (0x4) | Exported Function | 0x0000000180027280 | 0x00027280
-`GetCITDataApr` | 5 (0x5) | Exported Function | 0x0000000180035ad0 | 0x00035ad0
-`GetCITTelemetryPoints` | 6 (0x6) | Exported Function | 0x0000000180035b60 | 0x00035b60
-`RunGeneralTelemetry` | 7 (0x7) | Exported Function | 0x000000018004d660 | 0x0004d660
-`RunInUserCxtW` | 8 (0x8) | Exported Function | 0x00000001800229a0 | 0x000229a0
-`SysprepCleanupEnableCustomTrigger` | 9 (0x9) | Exported Function | 0x00000001800431f0 | 0x000431f0
+Function Name | Ordinal | Type
+-- | -- | --
+`RunGeneralTelemetry` | 7 | Exported Function
+`GetCITTelemetryPoints` | 6 | Exported Function
+`SysprepCleanupEnableCustomTrigger` | 9 | Exported Function
+`RunInUserCxtW` | 8 | Exported Function
+`GetCITDataApr` | 5 | Exported Function
+`DoCensusRun` | 2 | Exported Function
+`CalculateCensusId` | 1 | Exported Function
+`EnumerateOfficeDocuments` | 4 | Exported Function
+`EnumerateOfficeAddins` | 3 | Exported Function
 
 
 ## Signature

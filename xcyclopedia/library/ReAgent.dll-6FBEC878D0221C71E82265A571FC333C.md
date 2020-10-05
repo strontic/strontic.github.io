@@ -24,66 +24,66 @@ PE256 | `8C5ADD5055CB1275D00525EE52A17D634B91B40459686B51791A6109C48FAF98`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WinRE_Generalize` | 7 (0x7) | Exported Function | 0x1004fbd0 | 0x0004fbd0
-`WinReOpenLogInstance` | 32 (0x20) | Exported Function | 0x10056090 | 0x00056090
-`WinRePostBCDRepair` | 33 (0x21) | Exported Function | 0x10051380 | 0x00051380
-`WinReQueueRecoveryBoot` | 34 (0x22) | Exported Function | 0x10051710 | 0x00051710
-`WinReReinstall` | 35 (0x23) | Exported Function | 0x1004c220 | 0x0004c220
-`WinReRemoveTrustedBootApp` | 36 (0x24) | Exported Function | 0x10051860 | 0x00051860
-`WinReRepair` | 37 (0x25) | Exported Function | 0x100518e0 | 0x000518e0
-`WinReRestoreConfigAfterPBR` | 4 (0x4) | Exported Function | 0x10054700 | 0x00054700
-`WinReRestoreLogFiles` | 38 (0x26) | Exported Function | 0x100562a0 | 0x000562a0
-`WinReSetBootApp` | 39 (0x27) | Exported Function | 0x10051da0 | 0x00051da0
-`WinReSetConfig` | 40 (0x28) | Exported Function | 0x10051e30 | 0x00051e30
-`WinReSetCustomization` | 41 (0x29) | Exported Function | 0x10052430 | 0x00052430
-`WinReSetError` | 42 (0x2a) | Exported Function | 0x10046c70 | 0x00046c70
-`WinReSetNarratorScheduled` | 43 (0x2b) | Exported Function | 0x10052720 | 0x00052720
-`WinReSetRecoveryAction` | 44 (0x2c) | Exported Function | 0x100528a0 | 0x000528a0
-`WinReSetTriggerFile` | 45 (0x2d) | Exported Function | 0x10056320 | 0x00056320
-`WinReSetupBackupWinRE` | 46 (0x2e) | Exported Function | 0x10056fc0 | 0x00056fc0
-`WinReSetupCheckWinRE` | 47 (0x2f) | Exported Function | 0x10058000 | 0x00058000
-`WinReSetupInstall` | 48 (0x30) | Exported Function | 0x1003d000 | 0x0003d000
-`WinReSetupMigrateData` | 49 (0x31) | Exported Function | 0x10058140 | 0x00058140
-`WinReSetupRemoveWinRE` | 50 (0x32) | Exported Function | 0x1003def0 | 0x0003def0
-`WinReSetupRestoreWinREEx` | 51 (0x33) | Exported Function | 0x10058550 | 0x00058550
-`WinReSetupSetImage` | 52 (0x34) | Exported Function | 0x10058640 | 0x00058640
-`WinReUnInstall` | 53 (0x35) | Exported Function | 0x10052be0 | 0x00052be0
-`WinReUpdateLogInstance` | 54 (0x36) | Exported Function | 0x10056520 | 0x00056520
-`WinREUseNewPBRImage` | 6 (0x6) | Exported Function | 0x1004f8e0 | 0x0004f8e0
-`WinReOobeInstall` | 31 (0x1f) | Exported Function | 0x10051160 | 0x00051160
-`WinReIsWinPE` | 30 (0x1e) | Exported Function | 0x10046c60 | 0x00046c60
-`WinReIsWimBootEnabled` | 29 (0x1d) | Exported Function | 0x100510e0 | 0x000510e0
-`WinReIsInstalledOnSystemPartition` | 28 (0x1c) | Exported Function | 0x10050c80 | 0x00050c80
-`WinRE_Specialize` | 1 (0x1) | Exported Function | 0x1004bcc0 | 0x0004bcc0
-`WinRE_Specialize_Offline` | 2 (0x2) | Exported Function | 0x1004bd40 | 0x0004bd40
-`WinReAddTrustedBootApp` | 8 (0x8) | Exported Function | 0x1004fc10 | 0x0004fc10
-`WinRECheckGuid` | 5 (0x5) | Exported Function | 0x1004f7f0 | 0x0004f7f0
-`WinReClearBootApp` | 9 (0x9) | Exported Function | 0x1004fc90 | 0x0004fc90
-`WinReClearError` | 10 (0xa) | Exported Function | 0x10046690 | 0x00046690
-`WinReClearOemImagePath` | 3 (0x3) | Exported Function | 0x1004e320 | 0x0004e320
-`WinReConfigureTask` | 11 (0xb) | Exported Function | 0x1004fd20 | 0x0004fd20
-`WinReCopyDiagnosticFiles` | 12 (0xc) | Exported Function | 0x10050220 | 0x00050220
-`WinReCopyLogFilesToRamdisk` | 13 (0xd) | Exported Function | 0x10055b90 | 0x00055b90
-`WinReCreateLogInstance` | 14 (0xe) | Exported Function | 0x10055c10 | 0x00055c10
-`WinReCreateLogInstanceEx` | 15 (0xf) | Exported Function | 0x10055c40 | 0x00055c40
-`WinReValidateRecoveryWim` | 55 (0x37) | Exported Function | 0x10052c60 | 0x00052c60
-`WinReDeleteLogFiles` | 16 (0x10) | Exported Function | 0x10055d40 | 0x00055d40
-`winreGetBinaryArch` | 58 (0x3a) | Exported Function | 0x10059e70 | 0x00059e70
-`WinReGetConfig` | 17 (0x11) | Exported Function | 0x100466a0 | 0x000466a0
-`WinReGetCustomization` | 18 (0x12) | Exported Function | 0x100502b0 | 0x000502b0
-`WinReGetError` | 19 (0x13) | Exported Function | 0x10046c50 | 0x00046c50
-`WinReGetLogDirPath` | 20 (0x14) | Exported Function | 0x10055e00 | 0x00055e00
-`WinReGetTrustedBootApps` | 21 (0x15) | Exported Function | 0x100505d0 | 0x000505d0
-`WinReGetWIMInfo` | 22 (0x16) | Exported Function | 0x10050650 | 0x00050650
-`WinReHashBootApp` | 23 (0x17) | Exported Function | 0x10050810 | 0x00050810
-`WinReHashWimFile` | 24 (0x18) | Exported Function | 0x100508a0 | 0x000508a0
-`WinReInitiateOfflineScanning` | 25 (0x19) | Exported Function | 0x10050910 | 0x00050910
-`WinReInstall` | 26 (0x1a) | Exported Function | 0x1004c100 | 0x0004c100
-`WinReInstallOnTargetOS` | 27 (0x1b) | Exported Function | 0x1004c180 | 0x0004c180
-`winreFindInstallMedia` | 57 (0x39) | Exported Function | 0x100591c0 | 0x000591c0
-`WinReValidateWimFile` | 56 (0x38) | Exported Function | 0x100530b0 | 0x000530b0
+Function Name | Ordinal | Type
+-- | -- | --
+`WinReRestoreLogFiles` | 38 | Exported Function
+`WinReRestoreConfigAfterPBR` | 4 | Exported Function
+`WinReRepair` | 37 | Exported Function
+`WinReSetBootApp` | 39 | Exported Function
+`WinReSetError` | 42 | Exported Function
+`WinReSetCustomization` | 41 | Exported Function
+`WinReSetConfig` | 40 | Exported Function
+`WinReOpenLogInstance` | 32 | Exported Function
+`WinReOobeInstall` | 31 | Exported Function
+`WinReIsWinPE` | 30 | Exported Function
+`WinRePostBCDRepair` | 33 | Exported Function
+`WinReRemoveTrustedBootApp` | 36 | Exported Function
+`WinReReinstall` | 35 | Exported Function
+`WinReQueueRecoveryBoot` | 34 | Exported Function
+`WinReSetNarratorScheduled` | 43 | Exported Function
+`WinReUnInstall` | 53 | Exported Function
+`WinReSetupSetImage` | 52 | Exported Function
+`WinReSetupRestoreWinREEx` | 51 | Exported Function
+`WinReUpdateLogInstance` | 54 | Exported Function
+`WinReValidateWimFile` | 56 | Exported Function
+`WinReValidateRecoveryWim` | 55 | Exported Function
+`WinREUseNewPBRImage` | 6 | Exported Function
+`WinReSetupBackupWinRE` | 46 | Exported Function
+`WinReSetTriggerFile` | 45 | Exported Function
+`WinReSetRecoveryAction` | 44 | Exported Function
+`WinReSetupCheckWinRE` | 47 | Exported Function
+`WinReSetupRemoveWinRE` | 50 | Exported Function
+`WinReSetupMigrateData` | 49 | Exported Function
+`WinReSetupInstall` | 48 | Exported Function
+`WinReCopyDiagnosticFiles` | 12 | Exported Function
+`WinReConfigureTask` | 11 | Exported Function
+`WinReClearOemImagePath` | 3 | Exported Function
+`WinReCopyLogFilesToRamdisk` | 13 | Exported Function
+`WinReDeleteLogFiles` | 16 | Exported Function
+`WinReCreateLogInstanceEx` | 15 | Exported Function
+`WinReCreateLogInstance` | 14 | Exported Function
+`WinRE_Specialize_Offline` | 2 | Exported Function
+`WinRE_Specialize` | 1 | Exported Function
+`WinRE_Generalize` | 7 | Exported Function
+`WinReAddTrustedBootApp` | 8 | Exported Function
+`WinReClearError` | 10 | Exported Function
+`WinReClearBootApp` | 9 | Exported Function
+`WinRECheckGuid` | 5 | Exported Function
+`winreFindInstallMedia` | 57 | Exported Function
+`WinReInitiateOfflineScanning` | 25 | Exported Function
+`WinReHashWimFile` | 24 | Exported Function
+`WinReHashBootApp` | 23 | Exported Function
+`WinReInstall` | 26 | Exported Function
+`WinReIsWimBootEnabled` | 29 | Exported Function
+`WinReIsInstalledOnSystemPartition` | 28 | Exported Function
+`WinReInstallOnTargetOS` | 27 | Exported Function
+`WinReGetCustomization` | 18 | Exported Function
+`WinReGetConfig` | 17 | Exported Function
+`winreGetBinaryArch` | 58 | Exported Function
+`WinReGetError` | 19 | Exported Function
+`WinReGetWIMInfo` | 22 | Exported Function
+`WinReGetTrustedBootApps` | 21 | Exported Function
+`WinReGetLogDirPath` | 20 | Exported Function
 
 
 ## Signature

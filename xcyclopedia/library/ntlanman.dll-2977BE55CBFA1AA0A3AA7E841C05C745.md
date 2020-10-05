@@ -24,33 +24,33 @@ PE256 | `84B18F732BAA02A1155FB97854E67C557AE20249274EA0994E34804F094DF6B7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 14 (0xe) | Exported Function | 0x00000001800031b0 | 0x000031b0
-`RegisterAppInstanceVersion` | 21 (0x15) | Exported Function | 0x0000000180006770 | 0x00006770
-`RegisterAppInstance` | 20 (0x14) | Exported Function | 0x00000001800066b0 | 0x000066b0
-`QueryAppInstanceVersion` | 19 (0x13) | Exported Function | 0x00000001800065d0 | 0x000065d0
-`NPOpenEnum` | 33 (0x21) | Exported Function | 0x0000000180001040 | 0x00001040
-`NPGetUser` | 16 (0x10) | Exported Function | 0x0000000180006320 | 0x00006320
-`NPGetUniversalName` | 40 (0x28) | Exported Function | 0x0000000180005d00 | 0x00005d00
-`NPGetResourceParent` | 41 (0x29) | Exported Function | 0x0000000180006310 | 0x00006310
-`NPGetResourceInformation` | 52 (0x34) | Exported Function | 0x00000001800062a0 | 0x000062a0
-`NPGetReconnectFlags` | 53 (0x35) | Exported Function | 0x0000000180005cd0 | 0x00005cd0
-`NPGetPersistentUseOptionsForConnection` | 56 (0x38) | Exported Function | 0x00000001800031a0 | 0x000031a0
-`ResetAllAppInstanceVersions` | 22 (0x16) | Exported Function | 0x0000000180006830 | 0x00006830
-`NPGetConnectionPerformance` | 49 (0x31) | Exported Function | 0x0000000180006260 | 0x00006260
-`NPGetConnection` | 12 (0xc) | Exported Function | 0x0000000180005b50 | 0x00005b50
-`NPGetCaps` | 13 (0xd) | Exported Function | 0x0000000180001600 | 0x00001600
-`NPFormatNetworkName` | 36 (0x24) | Exported Function | 0x00000001800061b0 | 0x000061b0
-`NPEnumResource` | 34 (0x22) | Exported Function | 0x00000001800016b0 | 0x000016b0
-`NPCloseEnum` | 35 (0x23) | Exported Function | 0x0000000180001940 | 0x00001940
-`NPCancelConnection` | 18 (0x12) | Exported Function | 0x0000000180006160 | 0x00006160
-`NPAddConnection4` | 55 (0x37) | Exported Function | 0x0000000180005fc0 | 0x00005fc0
-`NPAddConnection3` | 38 (0x26) | Exported Function | 0x0000000180005db0 | 0x00005db0
-`NPAddConnection` | 17 (0x11) | Exported Function | 0x0000000180005d80 | 0x00005d80
-`I_SystemFocusDialog` | 15 (0xf) | Exported Function | 0x0000000180006390 | 0x00006390
-`NPGetConnection3` | 54 (0x36) | Exported Function | 0x00000001800061c0 | 0x000061c0
-`SetAppInstanceCsvFlags` | 23 (0x17) | Exported Function | 0x00000001800068a0 | 0x000068a0
+Function Name | Ordinal | Type
+-- | -- | --
+`NPGetResourceParent` | 41 | Exported Function
+`NPGetUniversalName` | 40 | Exported Function
+`NPGetUser` | 16 | Exported Function
+`NPGetPersistentUseOptionsForConnection` | 56 | Exported Function
+`NPGetReconnectFlags` | 53 | Exported Function
+`NPGetResourceInformation` | 52 | Exported Function
+`RegisterAppInstanceVersion` | 21 | Exported Function
+`ResetAllAppInstanceVersions` | 22 | Exported Function
+`SetAppInstanceCsvFlags` | 23 | Exported Function
+`NPOpenEnum` | 33 | Exported Function
+`QueryAppInstanceVersion` | 19 | Exported Function
+`RegisterAppInstance` | 20 | Exported Function
+`NPGetConnectionPerformance` | 49 | Exported Function
+`NPAddConnection3` | 38 | Exported Function
+`NPAddConnection4` | 55 | Exported Function
+`NPCancelConnection` | 18 | Exported Function
+`DllMain` | 14 | Exported Function
+`I_SystemFocusDialog` | 15 | Exported Function
+`NPAddConnection` | 17 | Exported Function
+`NPGetCaps` | 13 | Exported Function
+`NPGetConnection` | 12 | Exported Function
+`NPGetConnection3` | 54 | Exported Function
+`NPCloseEnum` | 35 | Exported Function
+`NPEnumResource` | 34 | Exported Function
+`NPFormatNetworkName` | 36 | Exported Function
 
 
 ## Signature

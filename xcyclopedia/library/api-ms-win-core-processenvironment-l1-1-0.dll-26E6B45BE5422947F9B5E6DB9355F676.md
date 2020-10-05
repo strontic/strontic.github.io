@@ -24,29 +24,29 @@ PE256 | `57F75B2ABEAA497653CBD1FEAEC25565813AF74E1CDDDA928312B4C87D9C3A3B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ExpandEnvironmentStringsA` | 1 (0x1) | Exported Function | kernel32.ExpandEnvironmentStringsA | 0x00001272
-`SetEnvironmentVariableW` | 19 (0x13) | Exported Function | kernel32.SetEnvironmentVariableW | 0x0000160c
-`SetEnvironmentVariableA` | 18 (0x12) | Exported Function | kernel32.SetEnvironmentVariableA | 0x000015d3
-`SetEnvironmentStringsW` | 17 (0x11) | Exported Function | kernel32.SetEnvironmentStringsW | 0x0000159b
-`SetCurrentDirectoryW` | 16 (0x10) | Exported Function | kernel32.SetCurrentDirectoryW | 0x00001566
-`SetCurrentDirectoryA` | 15 (0xf) | Exported Function | kernel32.SetCurrentDirectoryA | 0x00001533
-`SearchPathW` | 14 (0xe) | Exported Function | kernel32.SearchPathW | 0x00001509
-`GetStdHandle` | 13 (0xd) | Exported Function | kernel32.GetStdHandle | 0x000014e7
-`GetEnvironmentVariableW` | 12 (0xc) | Exported Function | kernel32.GetEnvironmentVariableW | 0x000014b9
-`SetStdHandle` | 20 (0x14) | Exported Function | kernel32.SetStdHandle | 0x0000163a
-`GetEnvironmentVariableA` | 11 (0xb) | Exported Function | kernel32.GetEnvironmentVariableA | 0x00001480
-`GetEnvironmentStrings` | 9 (0x9) | Exported Function | kernel32.GetEnvironmentStrings | 0x00001412
-`GetCurrentDirectoryW` | 8 (0x8) | Exported Function | kernel32.GetCurrentDirectoryW | 0x000013de
-`GetCurrentDirectoryA` | 7 (0x7) | Exported Function | kernel32.GetCurrentDirectoryA | 0x000013ab
-`GetCommandLineW` | 6 (0x6) | Exported Function | kernel32.GetCommandLineW | 0x0000137d
-`GetCommandLineA` | 5 (0x5) | Exported Function | kernel32.GetCommandLineA | 0x00001354
-`FreeEnvironmentStringsW` | 4 (0x4) | Exported Function | kernel32.FreeEnvironmentStringsW | 0x00001323
-`FreeEnvironmentStringsA` | 3 (0x3) | Exported Function | kernel32.FreeEnvironmentStringsA | 0x000012ea
-`ExpandEnvironmentStringsW` | 2 (0x2) | Exported Function | kernel32.ExpandEnvironmentStringsW | 0x000012af
-`GetEnvironmentStringsW` | 10 (0xa) | Exported Function | kernel32.GetEnvironmentStringsW | 0x00001448
-`SetStdHandleEx` | 21 (0x15) | Exported Function | kernel32.SetStdHandleEx | 0x0000165f
+Function Name | Ordinal | Type
+-- | -- | --
+`SetCurrentDirectoryA` | 15 | Exported Function
+`SetCurrentDirectoryW` | 16 | Exported Function
+`SearchPathW` | 14 | Exported Function
+`GetEnvironmentVariableW` | 12 | Exported Function
+`GetStdHandle` | 13 | Exported Function
+`SetStdHandle` | 20 | Exported Function
+`SetStdHandleEx` | 21 | Exported Function
+`SetEnvironmentVariableW` | 19 | Exported Function
+`SetEnvironmentStringsW` | 17 | Exported Function
+`SetEnvironmentVariableA` | 18 | Exported Function
+`GetEnvironmentVariableA` | 11 | Exported Function
+`FreeEnvironmentStringsW` | 4 | Exported Function
+`GetCommandLineA` | 5 | Exported Function
+`FreeEnvironmentStringsA` | 3 | Exported Function
+`ExpandEnvironmentStringsA` | 1 | Exported Function
+`ExpandEnvironmentStringsW` | 2 | Exported Function
+`GetEnvironmentStrings` | 9 | Exported Function
+`GetEnvironmentStringsW` | 10 | Exported Function
+`GetCurrentDirectoryW` | 8 | Exported Function
+`GetCommandLineW` | 6 | Exported Function
+`GetCurrentDirectoryA` | 7 | Exported Function
 
 
 ## Signature
@@ -78,6 +78,7 @@ Function Name | Ordinal | Type | Address | Relative Address
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 46
+[C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\Smart Tag\SmartTagInstall.exe](SmartTagInstall.exe-632AB2DBE46DE1E9BB0FB7B54B3BB05C.md) | 38
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 49
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 25
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 44

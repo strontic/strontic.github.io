@@ -24,11 +24,11 @@ PE256 | `7F9DE1F591C102422611088E022543B85A87331FE11FCFE7DCFCBDC955580421`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NetpJoinProvider2OLInitialize` | 1 (0x1) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`NetpJoinProvider3OLInitialize` | 2 (0x2) | Exported Function | 0x0000000180001570 | 0x00001570
-`NetpJoinProviderOLInitialize` | 3 (0x3) | Exported Function | 0x0000000180002550 | 0x00002550
+Function Name | Ordinal | Type
+-- | -- | --
+`NetpJoinProviderOLInitialize` | 3 | Exported Function
+`NetpJoinProvider3OLInitialize` | 2 | Exported Function
+`NetpJoinProvider2OLInitialize` | 1 | Exported Function
 
 
 ## Signature

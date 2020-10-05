@@ -24,11 +24,11 @@ PE256 | `9DF1049802121CCC0C107D29BCA50A2DCF7D51CFF80106C7AF9FB61958BCD13E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClosePerformanceData` | 1 (0x1) | Exported Function | 0x100039a0 | 0x000039a0
-`CollectPerformanceData` | 2 (0x2) | Exported Function | 0x10002190 | 0x00002190
-`OpenPerformanceData` | 3 (0x3) | Exported Function | 0x10001a00 | 0x00001a00
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenPerformanceData` | 3 | Exported Function
+`CollectPerformanceData` | 2 | Exported Function
+`ClosePerformanceData` | 1 | Exported Function
 
 
 ## Signature

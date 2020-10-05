@@ -24,13 +24,13 @@ PE256 | `D59B46C588B6EC8872D6F102272A06D1419007158FC487C16167B405207D1E85`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CDefFolderMenu_MergeMenu` | 1 (0x1) | Exported Function | 0x000000014005bb20 | 0x0005bb20
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000140003580 | 0x00003580
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000140003170 | 0x00003170
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x000000014006c380 | 0x0006c380
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x000000014006c3f0 | 0x0006c3f0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`CDefFolderMenu_MergeMenu` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

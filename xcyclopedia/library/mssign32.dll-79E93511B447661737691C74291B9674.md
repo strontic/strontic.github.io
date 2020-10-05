@@ -24,44 +24,44 @@ PE256 | `DFA9A5E26607149214F759D8E946BB08E4D56F8413B03DC1882DF6712CA7760A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 1 (0x1) | Exported Function | 0x600824d0 | 0x000024d0
-`PvkPrivateKeySaveToMemory` | 21 (0x15) | Exported Function | 0x60082020 | 0x00002020
-`PvkPrivateKeySaveToMemoryA` | 22 (0x16) | Exported Function | 0x600820b0 | 0x000020b0
-`SignerAddTimeStampResponse` | 24 (0x18) | Exported Function | 0x60082170 | 0x00002170
-`SignerAddTimeStampResponseEx` | 25 (0x19) | Exported Function | 0x600821a0 | 0x000021a0
-`SignerCreateTimeStampRequest` | 26 (0x1a) | Exported Function | 0x600821d0 | 0x000021d0
-`SignerFreeSignerContext` | 27 (0x1b) | Exported Function | 0x60082260 | 0x00002260
-`PvkPrivateKeySaveA` | 20 (0x14) | Exported Function | 0x60081ff0 | 0x00001ff0
-`SignError` | 23 (0x17) | Exported Function | 0x60082140 | 0x00002140
-`SignerSignEx` | 31 (0x1f) | Exported Function | 0x600822d0 | 0x000022d0
-`SignerSignEx2` | 29 (0x1d) | Exported Function | 0x60082310 | 0x00002310
-`SignerSignEx3` | 30 (0x1e) | Exported Function | 0x60082350 | 0x00002350
-`SignerTimeStamp` | 32 (0x20) | Exported Function | 0x60082390 | 0x00002390
-`SignerTimeStampEx` | 35 (0x23) | Exported Function | 0x600823c0 | 0x000023c0
-`SignerTimeStampEx2` | 33 (0x21) | Exported Function | 0x600823f0 | 0x000023f0
-`SignerSign` | 28 (0x1c) | Exported Function | 0x600822a0 | 0x000022a0
-`PvkPrivateKeySave` | 19 (0x13) | Exported Function | 0x60081fc0 | 0x00001fc0
-`PvkPrivateKeyReleaseContextA` | 18 (0x12) | Exported Function | 0x60081f70 | 0x00001f70
-`PvkPrivateKeyReleaseContext` | 17 (0x11) | Exported Function | 0x60081f20 | 0x00001f20
-`DllUnregisterServer` | 2 (0x2) | Exported Function | 0x600824d0 | 0x000024d0
-`FreeCryptProvFromCert` | 3 (0x3) | Exported Function | 0x60081b30 | 0x00001b30
-`FreeCryptProvFromCertEx` | 4 (0x4) | Exported Function | 0x60081b80 | 0x00001b80
-`GetCryptProvFromCert` | 5 (0x5) | Exported Function | 0x60081bd0 | 0x00001bd0
-`GetCryptProvFromCertEx` | 6 (0x6) | Exported Function | 0x60081c30 | 0x00001c30
-`PvkFreeCryptProv` | 7 (0x7) | Exported Function | 0x60081cd0 | 0x00001cd0
-`PvkGetCryptProv` | 8 (0x8) | Exported Function | 0x60081ca0 | 0x00001ca0
-`PvkPrivateKeyAcquireContext` | 9 (0x9) | Exported Function | 0x60081d00 | 0x00001d00
-`PvkPrivateKeyAcquireContextA` | 10 (0xa) | Exported Function | 0x60081d40 | 0x00001d40
-`PvkPrivateKeyAcquireContextFromMemory` | 11 (0xb) | Exported Function | 0x60081d80 | 0x00001d80
-`PvkPrivateKeyAcquireContextFromMemoryA` | 12 (0xc) | Exported Function | 0x60081dd0 | 0x00001dd0
-`PvkPrivateKeyLoad` | 13 (0xd) | Exported Function | 0x60081e20 | 0x00001e20
-`PvkPrivateKeyLoadA` | 14 (0xe) | Exported Function | 0x60081e60 | 0x00001e60
-`PvkPrivateKeyLoadFromMemory` | 15 (0xf) | Exported Function | 0x60081ea0 | 0x00001ea0
-`PvkPrivateKeyLoadFromMemoryA` | 16 (0x10) | Exported Function | 0x60081ee0 | 0x00001ee0
-`SignerTimeStampEx3` | 34 (0x22) | Exported Function | 0x60082420 | 0x00002420
-`SpcGetCertFromKey` | 36 (0x24) | Exported Function | 0x600824a0 | 0x000024a0
+Function Name | Ordinal | Type
+-- | -- | --
+`SignerCreateTimeStampRequest` | 26 | Exported Function
+`SignerAddTimeStampResponseEx` | 25 | Exported Function
+`SignError` | 23 | Exported Function
+`SignerFreeSignerContext` | 27 | Exported Function
+`SignerAddTimeStampResponse` | 24 | Exported Function
+`PvkPrivateKeySaveA` | 20 | Exported Function
+`PvkPrivateKeySave` | 19 | Exported Function
+`PvkPrivateKeySaveToMemoryA` | 22 | Exported Function
+`PvkPrivateKeySaveToMemory` | 21 | Exported Function
+`SignerTimeStampEx2` | 33 | Exported Function
+`SignerTimeStampEx` | 35 | Exported Function
+`SpcGetCertFromKey` | 36 | Exported Function
+`SignerTimeStampEx3` | 34 | Exported Function
+`SignerTimeStamp` | 32 | Exported Function
+`SignerSignEx` | 31 | Exported Function
+`SignerSign` | 28 | Exported Function
+`SignerSignEx3` | 30 | Exported Function
+`SignerSignEx2` | 29 | Exported Function
+`PvkFreeCryptProv` | 7 | Exported Function
+`GetCryptProvFromCertEx` | 6 | Exported Function
+`PvkPrivateKeyAcquireContext` | 9 | Exported Function
+`PvkGetCryptProv` | 8 | Exported Function
+`GetCryptProvFromCert` | 5 | Exported Function
+`DllUnregisterServer` | 2 | Exported Function
+`DllRegisterServer` | 1 | Exported Function
+`FreeCryptProvFromCertEx` | 4 | Exported Function
+`FreeCryptProvFromCert` | 3 | Exported Function
+`PvkPrivateKeyLoadFromMemoryA` | 16 | Exported Function
+`PvkPrivateKeyLoadFromMemory` | 15 | Exported Function
+`PvkPrivateKeyReleaseContextA` | 18 | Exported Function
+`PvkPrivateKeyReleaseContext` | 17 | Exported Function
+`PvkPrivateKeyLoadA` | 14 | Exported Function
+`PvkPrivateKeyAcquireContextFromMemory` | 11 | Exported Function
+`PvkPrivateKeyAcquireContextA` | 10 | Exported Function
+`PvkPrivateKeyLoad` | 13 | Exported Function
+`PvkPrivateKeyAcquireContextFromMemoryA` | 12 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `A230AAEF2AF2884FF9E6E594EC08409DA04ECE64BFB0C1C6DCA95967F2BC6925`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CPlApplet` | 1 (0x1) | Exported Function | 0x0000000180001630 | 0x00001630
+Function Name | Ordinal | Type
+-- | -- | --
+`CPlApplet` | 1 | Exported Function
 
 
 ## Signature

@@ -24,78 +24,78 @@ PE256 | `909818565F801E3A94AD64020CE0DBF18DC1EC5D2476DAF1116E38DFB22F7CCE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DiscpAddStringToMultiSzList` | 1 (0x1) | Exported Function | 0x10002cc0 | 0x00002cc0
-`DiscpIsStringInList` | 38 (0x26) | Exported Function | 0x10002c70 | 0x00002c70
-`DiscpLoadSystemLibrary` | 39 (0x27) | Exported Function | 0x10003290 | 0x00003290
-`DiscpMapiSCSIString` | 40 (0x28) | Exported Function | 0x10003dc0 | 0x00003dc0
-`DiscpOpenRegistryKey` | 41 (0x29) | Exported Function | 0x10002250 | 0x00002250
-`DiscpPadDataBlock` | 42 (0x2a) | Exported Function | 0x10001ee0 | 0x00001ee0
-`DiscpParseAllData` | 43 (0x2b) | Exported Function | 0x10001840 | 0x00001840
-`DiscpParseKeyValue` | 44 (0x2c) | Exported Function | 0x10002940 | 0x00002940
-`DiscpParseSingleInstance` | 45 (0x2d) | Exported Function | 0x10001a80 | 0x00001a80
-`DiscpPnpDeviceInterfaceToInstanceName` | 46 (0x2e) | Exported Function | 0x10001f80 | 0x00001f80
-`DiscpQueryAllData` | 47 (0x2f) | Exported Function | 0x10001580 | 0x00001580
-`DiscpQuerySingleInstance` | 48 (0x30) | Exported Function | 0x10001770 | 0x00001770
-`DiscpRegCloseKey` | 49 (0x31) | Exported Function | 0x10002240 | 0x00002240
-`DiscpRegisterDebugMask` | 50 (0x32) | Exported Function | 0x100042a0 | 0x000042a0
-`DiscpRegisterDeviceInterfaceNotification` | 51 (0x33) | Exported Function | 0x100037c0 | 0x000037c0
-`DiscpRegisterForDeviceInterfaceNotfication` | 52 (0x34) | Exported Function | 0x100037c0 | 0x000037c0
-`DiscpRegisterHeap` | 53 (0x35) | Exported Function | 0x10002220 | 0x00002220
-`DiscpRemoveStringFromMultiSzList` | 54 (0x36) | Exported Function | 0x10002db0 | 0x00002db0
-`Discpxtoi` | 69 (0x45) | Exported Function | 0x10002e50 | 0x00002e50
-`DiscpValidateiSCSIString` | 67 (0x43) | Exported Function | 0x10004070 | 0x00004070
-`DiscpUTF8ToUnicode` | 63 (0x3f) | Exported Function | 0x10002a20 | 0x00002a20
-`DiscpUnicodeToUTF8` | 66 (0x42) | Exported Function | 0x10002be0 | 0x00002be0
-`DiscpUnicodeToAnsiSize` | 65 (0x41) | Exported Function | 0x10001cc0 | 0x00001cc0
-`DiscpUnicodeToAnsi` | 64 (0x40) | Exported Function | 0x10001af0 | 0x00001af0
-`DiscpIsDNSAddress` | 37 (0x25) | Exported Function | 0x10002600 | 0x00002600
-`DiscpULongAddList` | 62 (0x3e) | Exported Function | 0x10003d70 | 0x00003d70
-`DiscpTextAddrToBinary` | 60 (0x3c) | Exported Function | 0x10002630 | 0x00002630
-`DiscpSockAddrToText` | 59 (0x3b) | Exported Function | 0x100043a0 | 0x000043a0
-`DiscpSetRegistryValue` | 58 (0x3a) | Exported Function | 0x100022d0 | 0x000022d0
-`DiscpSendIrpRequest` | 57 (0x39) | Exported Function | 0x10003780 | 0x00003780
-`DiscpReportEventlogWithStatus` | 56 (0x38) | Exported Function | 0x10003c10 | 0x00003c10
-`DiscpReportEventlog` | 55 (0x37) | Exported Function | 0x10003b60 | 0x00003b60
-`DiscpTimebomb` | 61 (0x3d) | Exported Function | 0x10003d30 | 0x00003d30
-`DiscpIdKeyToString` | 36 (0x24) | Exported Function | 0x10004360 | 0x00004360
-`DiscpGuidToString` | 35 (0x23) | Exported Function | 0x100042b0 | 0x000042b0
-`DiscpGetStringFromDataBlock` | 34 (0x22) | Exported Function | 0x10001f20 | 0x00001f20
-`DiscpDisableLogToFile` | 15 (0xf) | Exported Function | 0x10004350 | 0x00004350
-`DiscpDisableEventlog` | 14 (0xe) | Exported Function | 0x10003d10 | 0x00003d10
-`DiscpDecryptBuffer` | 13 (0xd) | Exported Function | 0x10002fc0 | 0x00002fc0
-`DiscpDebugPrintX` | 12 (0xc) | Exported Function | 0x10004350 | 0x00004350
-`DiscpCopyUnicodeString` | 11 (0xb) | Exported Function | 0x100030b0 | 0x000030b0
-`DiscpCopyToCountedString` | 10 (0xa) | Exported Function | 0x10002900 | 0x00002900
-`DiscpDisableWinsock` | 16 (0x10) | Exported Function | 0x10002770 | 0x00002770
-`DiscpCopyStringToAnsi` | 9 (0x9) | Exported Function | 0x10001e70 | 0x00001e70
-`DiscpAnsiToUnicodeSize` | 7 (0x7) | Exported Function | 0x10001d30 | 0x00001d30
-`DiscpAnsiToUnicode` | 6 (0x6) | Exported Function | 0x10001bd0 | 0x00001bd0
-`DiscpAnsiCharsToString` | 5 (0x5) | Exported Function | 0x10003050 | 0x00003050
-`DiscpAllocProcessMemory` | 4 (0x4) | Exported Function | 0x10003230 | 0x00003230
-`DiscpAllocMemory` | 3 (0x3) | Exported Function | 0x100031f0 | 0x000031f0
-`DiscpAlignDataStruct` | 2 (0x2) | Exported Function | 0x10002ed0 | 0x00002ed0
-`DiscpCopyString` | 8 (0x8) | Exported Function | 0x10001da0 | 0x00001da0
-`DiscpXtoI` | 68 (0x44) | Exported Function | 0x10002e50 | 0x00002e50
-`DiscpDisestablishIrpPump` | 17 (0x11) | Exported Function | 0x100036a0 | 0x000036a0
-`DiscpEnableEventlog` | 19 (0x13) | Exported Function | 0x10003ce0 | 0x00003ce0
-`DiscpGetRegistryValue` | 33 (0x21) | Exported Function | 0x10002510 | 0x00002510
-`DiscpGetPnpDeviceId` | 32 (0x20) | Exported Function | 0x10003830 | 0x00003830
-`DiscpGenerateiScsiNameFromComputerName` | 31 (0x1f) | Exported Function | 0x10003110 | 0x00003110
-`DiscpFreeProcessMemory` | 30 (0x1e) | Exported Function | 0x10003260 | 0x00003260
-`DiscpFreeMemory` | 29 (0x1d) | Exported Function | 0x10003210 | 0x00003210
-`DiscpFreeDeviceInterfaceList` | 28 (0x1c) | Exported Function | 0x10003b10 | 0x00003b10
-`DiscpDuplicateString` | 18 (0x12) | Exported Function | 0x100038b0 | 0x000038b0
-`DiscpExecuteMethod` | 27 (0x1b) | Exported Function | 0x10001650 | 0x00001650
-`DiscpEstablishIrpPump` | 25 (0x19) | Exported Function | 0x10003550 | 0x00003550
-`DiscpEnumerateRegistryValues` | 24 (0x18) | Exported Function | 0x10002380 | 0x00002380
-`DiscpEnumerateDeviceInterfaces` | 23 (0x17) | Exported Function | 0x10003910 | 0x00003910
-`DiscpEncryptBuffer` | 22 (0x16) | Exported Function | 0x10002f10 | 0x00002f10
-`DiscpEnableWinsock` | 21 (0x15) | Exported Function | 0x10002720 | 0x00002720
-`DiscpEnableLogToFile` | 20 (0x14) | Exported Function | 0x10004340 | 0x00004340
-`DiscpEstablishTCPSocket` | 26 (0x1a) | Exported Function | 0x100027a0 | 0x000027a0
-`DllMain` | 70 (0x46) | Exported Function | 0x10002200 | 0x00002200
+Function Name | Ordinal | Type
+-- | -- | --
+`DiscpQueryAllData` | 47 | Exported Function
+`DiscpQuerySingleInstance` | 48 | Exported Function
+`DiscpParseSingleInstance` | 45 | Exported Function
+`DiscpPnpDeviceInterfaceToInstanceName` | 46 | Exported Function
+`DiscpRegisterDeviceInterfaceNotification` | 51 | Exported Function
+`DiscpRegisterForDeviceInterfaceNotfication` | 52 | Exported Function
+`DiscpRegCloseKey` | 49 | Exported Function
+`DiscpRegisterDebugMask` | 50 | Exported Function
+`DiscpParseKeyValue` | 44 | Exported Function
+`DiscpIsStringInList` | 38 | Exported Function
+`DiscpLoadSystemLibrary` | 39 | Exported Function
+`DiscpIdKeyToString` | 36 | Exported Function
+`DiscpIsDNSAddress` | 37 | Exported Function
+`DiscpPadDataBlock` | 42 | Exported Function
+`DiscpParseAllData` | 43 | Exported Function
+`DiscpMapiSCSIString` | 40 | Exported Function
+`DiscpOpenRegistryKey` | 41 | Exported Function
+`DiscpRegisterHeap` | 53 | Exported Function
+`DiscpUnicodeToUTF8` | 66 | Exported Function
+`DiscpUTF8ToUnicode` | 63 | Exported Function
+`DiscpUnicodeToAnsi` | 64 | Exported Function
+`DiscpUnicodeToAnsiSize` | 65 | Exported Function
+`DiscpXtoI` | 68 | Exported Function
+`DllMain` | 70 | Exported Function
+`DiscpValidateiSCSIString` | 67 | Exported Function
+`Discpxtoi` | 69 | Exported Function
+`DiscpULongAddList` | 62 | Exported Function
+`DiscpReportEventlogWithStatus` | 56 | Exported Function
+`DiscpSendIrpRequest` | 57 | Exported Function
+`DiscpRemoveStringFromMultiSzList` | 54 | Exported Function
+`DiscpReportEventlog` | 55 | Exported Function
+`DiscpTextAddrToBinary` | 60 | Exported Function
+`DiscpTimebomb` | 61 | Exported Function
+`DiscpSetRegistryValue` | 58 | Exported Function
+`DiscpSockAddrToText` | 59 | Exported Function
+`DiscpDebugPrintX` | 12 | Exported Function
+`DiscpDecryptBuffer` | 13 | Exported Function
+`DiscpCopyToCountedString` | 10 | Exported Function
+`DiscpCopyUnicodeString` | 11 | Exported Function
+`DiscpDisableWinsock` | 16 | Exported Function
+`DiscpDisestablishIrpPump` | 17 | Exported Function
+`DiscpDisableEventlog` | 14 | Exported Function
+`DiscpDisableLogToFile` | 15 | Exported Function
+`DiscpCopyStringToAnsi` | 9 | Exported Function
+`DiscpAllocMemory` | 3 | Exported Function
+`DiscpAllocProcessMemory` | 4 | Exported Function
+`DiscpAddStringToMultiSzList` | 1 | Exported Function
+`DiscpAlignDataStruct` | 2 | Exported Function
+`DiscpAnsiToUnicodeSize` | 7 | Exported Function
+`DiscpCopyString` | 8 | Exported Function
+`DiscpAnsiCharsToString` | 5 | Exported Function
+`DiscpAnsiToUnicode` | 6 | Exported Function
+`DiscpDuplicateString` | 18 | Exported Function
+`DiscpFreeProcessMemory` | 30 | Exported Function
+`DiscpGenerateiScsiNameFromComputerName` | 31 | Exported Function
+`DiscpFreeDeviceInterfaceList` | 28 | Exported Function
+`DiscpFreeMemory` | 29 | Exported Function
+`DiscpGetStringFromDataBlock` | 34 | Exported Function
+`DiscpGuidToString` | 35 | Exported Function
+`DiscpGetPnpDeviceId` | 32 | Exported Function
+`DiscpGetRegistryValue` | 33 | Exported Function
+`DiscpExecuteMethod` | 27 | Exported Function
+`DiscpEnableWinsock` | 21 | Exported Function
+`DiscpEncryptBuffer` | 22 | Exported Function
+`DiscpEnableEventlog` | 19 | Exported Function
+`DiscpEnableLogToFile` | 20 | Exported Function
+`DiscpEstablishIrpPump` | 25 | Exported Function
+`DiscpEstablishTCPSocket` | 26 | Exported Function
+`DiscpEnumerateDeviceInterfaces` | 23 | Exported Function
+`DiscpEnumerateRegistryValues` | 24 | Exported Function
 
 
 ## Signature

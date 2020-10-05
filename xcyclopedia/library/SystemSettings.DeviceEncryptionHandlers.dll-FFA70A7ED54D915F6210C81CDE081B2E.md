@@ -24,12 +24,12 @@ PE256 | `8124275E6F0C07916B17D9BBEB5288B88B6C1DC3C66A1E3B00B8E6CA5EF602D3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180004820 | 0x00004820
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180004730 | 0x00004730
-`GetActualDeviceEncryptionUIState` | 3 (0x3) | Exported Function | 0x0000000180004a10 | 0x00004a10
-`GetSetting` | 4 (0x4) | Exported Function | 0x0000000180004880 | 0x00004880
+Function Name | Ordinal | Type
+-- | -- | --
+`GetActualDeviceEncryptionUIState` | 3 | Exported Function
+`GetSetting` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

@@ -24,40 +24,40 @@ PE256 | `CE1BC9777013A1F789AFB2F6EA22175367273E063D346264422BF273F7363B6A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NatAcquirePortReservation` | 16 (0x10) | Exported Function | 0x0000000180008c80 | 0x00008c80
-`RegisterProtocol` | 14 (0xe) | Exported Function | 0x0000000180004570 | 0x00004570
-`NhWriteStreamSocket` | 13 (0xd) | Exported Function | 0x00000001800079f0 | 0x000079f0
-`NhWriteDatagramSocket` | 12 (0xc) | Exported Function | 0x0000000180007780 | 0x00007780
-`NhReleaseBuffer` | 11 (0xb) | Exported Function | 0x0000000180001750 | 0x00001750
-`NhReadStreamSocket` | 10 (0xa) | Exported Function | 0x0000000180007450 | 0x00007450
-`NhReadDatagramSocket` | 9 (0x9) | Exported Function | 0x0000000180007100 | 0x00007100
-`NhInitializeTraceManagement` | 8 (0x8) | Exported Function | 0x0000000180004b90 | 0x00004b90
-`NhInitializeBufferManagement` | 7 (0x7) | Exported Function | 0x00000001800016a0 | 0x000016a0
-`NhDeleteSocket` | 6 (0x6) | Exported Function | 0x0000000180006c90 | 0x00006c90
-`NhCreateStreamSocket` | 5 (0x5) | Exported Function | 0x0000000180006920 | 0x00006920
-`NhCreateDatagramSocket` | 4 (0x4) | Exported Function | 0x0000000180006230 | 0x00006230
-`NhAcquireVariableLengthBuffer` | 3 (0x3) | Exported Function | 0x0000000180001430 | 0x00001430
-`NhAcquireFixedLengthBuffer` | 2 (0x2) | Exported Function | 0x00000001800013d0 | 0x000013d0
-`NhAcceptStreamSocket` | 1 (0x1) | Exported Function | 0x0000000180005a80 | 0x00005a80
-`NatShutdownTranslator` | 31 (0x1f) | Exported Function | 0x000000018000a950 | 0x0000a950
-`NatShutdownPortReservation` | 30 (0x1e) | Exported Function | 0x0000000180009300 | 0x00009300
-`NatReleasePortReservation` | 29 (0x1d) | Exported Function | 0x0000000180009200 | 0x00009200
-`NatQueryInformationRedirectHandle` | 28 (0x1c) | Exported Function | 0x000000018000a8e0 | 0x0000a8e0
-`NatQueryInformationRedirect` | 27 (0x1b) | Exported Function | 0x000000018000a630 | 0x0000a630
-`NatLookupAndQueryInformationSessionMapping` | 26 (0x1a) | Exported Function | 0x0000000180009d60 | 0x00009d60
-`NatInitializeTranslator` | 25 (0x19) | Exported Function | 0x0000000180009b90 | 0x00009b90
-`NatInitializePortReservation` | 24 (0x18) | Exported Function | 0x0000000180008db0 | 0x00008db0
-`NatCreateRedirectEx` | 23 (0x17) | Exported Function | 0x0000000180009940 | 0x00009940
-`NatCreateRedirect` | 22 (0x16) | Exported Function | 0x00000001800098a0 | 0x000098a0
-`NatCreateDynamicRedirectEx` | 21 (0x15) | Exported Function | 0x0000000180009820 | 0x00009820
-`NatCreateDynamicRedirect` | 20 (0x14) | Exported Function | 0x00000001800097b0 | 0x000097b0
-`NatCreateDynamicFullRedirect` | 19 (0x13) | Exported Function | 0x0000000180009560 | 0x00009560
-`NatCancelRedirect` | 18 (0x12) | Exported Function | 0x0000000180009410 | 0x00009410
-`NatCancelDynamicRedirect` | 17 (0x11) | Exported Function | 0x0000000180009380 | 0x00009380
-`ServiceMain` | 32 (0x20) | Exported Function | 0x000000018003e730 | 0x0003e730
-`SvchostPushServiceGlobals` | 15 (0xf) | Exported Function | 0x000000018003e3e0 | 0x0003e3e0
+Function Name | Ordinal | Type
+-- | -- | --
+`NhDeleteSocket` | 6 | Exported Function
+`NhCreateStreamSocket` | 5 | Exported Function
+`NhInitializeTraceManagement` | 8 | Exported Function
+`NhInitializeBufferManagement` | 7 | Exported Function
+`NhAcquireFixedLengthBuffer` | 2 | Exported Function
+`NhAcceptStreamSocket` | 1 | Exported Function
+`NhCreateDatagramSocket` | 4 | Exported Function
+`NhAcquireVariableLengthBuffer` | 3 | Exported Function
+`RegisterProtocol` | 14 | Exported Function
+`NhWriteStreamSocket` | 13 | Exported Function
+`SvchostPushServiceGlobals` | 15 | Exported Function
+`ServiceMain` | 32 | Exported Function
+`NhReadStreamSocket` | 10 | Exported Function
+`NhReadDatagramSocket` | 9 | Exported Function
+`NhWriteDatagramSocket` | 12 | Exported Function
+`NhReleaseBuffer` | 11 | Exported Function
+`NatCreateDynamicRedirectEx` | 21 | Exported Function
+`NatCreateDynamicRedirect` | 20 | Exported Function
+`NatCreateRedirectEx` | 23 | Exported Function
+`NatCreateRedirect` | 22 | Exported Function
+`NatCancelDynamicRedirect` | 17 | Exported Function
+`NatAcquirePortReservation` | 16 | Exported Function
+`NatCreateDynamicFullRedirect` | 19 | Exported Function
+`NatCancelRedirect` | 18 | Exported Function
+`NatReleasePortReservation` | 29 | Exported Function
+`NatQueryInformationRedirectHandle` | 28 | Exported Function
+`NatShutdownTranslator` | 31 | Exported Function
+`NatShutdownPortReservation` | 30 | Exported Function
+`NatInitializeTranslator` | 25 | Exported Function
+`NatInitializePortReservation` | 24 | Exported Function
+`NatQueryInformationRedirect` | 27 | Exported Function
+`NatLookupAndQueryInformationSessionMapping` | 26 | Exported Function
 
 
 ## Signature

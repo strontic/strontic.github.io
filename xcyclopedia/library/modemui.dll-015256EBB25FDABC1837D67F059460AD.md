@@ -24,22 +24,22 @@ PE256 | `D3914C69ABF85DC5A04F73440C1468294B594603A15430E59E7F29D24EA6F3E8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CountryRunOnce` | 9 (0x9) | Exported Function | 0x0000000180012950 | 0x00012950
-`drvCommConfigDialogA` | 3 (0x3) | Exported Function | 0x000000018000f660 | 0x0000f660
-`drvCommConfigDialogW` | 2 (0x2) | Exported Function | 0x000000018000f670 | 0x0000f670
-`drvGetDefaultCommConfigA` | 7 (0x7) | Exported Function | 0x000000018000f660 | 0x0000f660
-`drvGetDefaultCommConfigW` | 6 (0x6) | Exported Function | 0x000000018000f680 | 0x0000f680
-`drvSetDefaultCommConfigA` | 5 (0x5) | Exported Function | 0x000000018000f660 | 0x0000f660
-`drvSetDefaultCommConfigW` | 4 (0x4) | Exported Function | 0x000000018000f730 | 0x0000f730
-`InvokeControlPanel` | 12 (0xc) | Exported Function | 0x00000001800042a0 | 0x000042a0
-`ModemCplDlgProc` | 13 (0xd) | Exported Function | 0x00000001800070e0 | 0x000070e0
-`ModemPropPagesProvider` | 14 (0xe) | Exported Function | 0x000000018000faa0 | 0x0000faa0
-`QueryModemForCountrySettings` | 15 (0xf) | Exported Function | 0x00000001800120f0 | 0x000120f0
-`UnimodemDevConfigDialog` | 8 (0x8) | Exported Function | 0x000000018000fa60 | 0x0000fa60
-`UnimodemGetDefaultCommConfig` | 10 (0xa) | Exported Function | 0x000000018000f8b0 | 0x0000f8b0
-`UnimodemGetExtendedCaps` | 11 (0xb) | Exported Function | 0x00000001800036d0 | 0x000036d0
+Function Name | Ordinal | Type
+-- | -- | --
+`ModemPropPagesProvider` | 14 | Exported Function
+`ModemCplDlgProc` | 13 | Exported Function
+`InvokeControlPanel` | 12 | Exported Function
+`QueryModemForCountrySettings` | 15 | Exported Function
+`UnimodemGetExtendedCaps` | 11 | Exported Function
+`UnimodemGetDefaultCommConfig` | 10 | Exported Function
+`UnimodemDevConfigDialog` | 8 | Exported Function
+`drvCommConfigDialogW` | 2 | Exported Function
+`drvCommConfigDialogA` | 3 | Exported Function
+`CountryRunOnce` | 9 | Exported Function
+`drvGetDefaultCommConfigA` | 7 | Exported Function
+`drvSetDefaultCommConfigW` | 4 | Exported Function
+`drvSetDefaultCommConfigA` | 5 | Exported Function
+`drvGetDefaultCommConfigW` | 6 | Exported Function
 
 
 ## Signature

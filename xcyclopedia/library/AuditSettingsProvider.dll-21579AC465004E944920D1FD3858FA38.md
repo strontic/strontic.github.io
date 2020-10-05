@@ -23,9 +23,9 @@ PE256 | `9E9F6041F0BA987856F2D90CE924D8ADEE05E2FFAF6DA201875D5C6BD20F4760`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateSettingsProvider` | 1 (0x1) | Exported Function | 0x0000000180003bc0 | 0x00003bc0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateSettingsProvider` | 1 | Exported Function
 
 
 ## Signature

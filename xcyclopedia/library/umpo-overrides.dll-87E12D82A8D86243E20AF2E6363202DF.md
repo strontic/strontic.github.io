@@ -24,11 +24,11 @@ PE256 | `FD1174D9DD96A79788D26F5D35A9AF13452BFFEECA655E2FF881DEEB2788F690`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`UmpoDisablePowerSettingOverrideUpdates` | 1 (0x1) | Exported Function | 0x0000000180007d60 | 0x00007d60
-`UmpoEnablePowerSettingOverrideUpdates` | 2 (0x2) | Exported Function | 0x0000000180007cf0 | 0x00007cf0
-`UmpoGetPowerSettingOverrides` | 3 (0x3) | Exported Function | 0x0000000180007ce0 | 0x00007ce0
+Function Name | Ordinal | Type
+-- | -- | --
+`UmpoGetPowerSettingOverrides` | 3 | Exported Function
+`UmpoEnablePowerSettingOverrideUpdates` | 2 | Exported Function
+`UmpoDisablePowerSettingOverrideUpdates` | 1 | Exported Function
 
 
 ## Signature

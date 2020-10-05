@@ -23,58 +23,58 @@ PE256 | `19ADED264E638AD4BBB677F48E004C17E22AD4D14BFCD971BAC7E2CB834617A5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`UwfCfgAddFileExclusion` | 1 (0x1) | Exported Function | 0x0000000180012070 | 0x00012070
-`UwfCfgGetVolumeProtected` | 28 (0x1c) | Exported Function | 0x0000000180011930 | 0x00011930
-`UwfCfgGetVolumes` | 29 (0x1d) | Exported Function | 0x0000000180011400 | 0x00011400
-`UwfCfgGetWarningThreshold` | 30 (0x1e) | Exported Function | 0x000000018000f990 | 0x0000f990
-`UwfCfgRemoveFileExclusion` | 31 (0x1f) | Exported Function | 0x0000000180012150 | 0x00012150
-`UwfCfgRemoveRegExclusion` | 32 (0x20) | Exported Function | 0x0000000180011260 | 0x00011260
-`UwfCfgRemoveVolume` | 33 (0x21) | Exported Function | 0x0000000180011800 | 0x00011800
-`UwfCfgResetSettings` | 34 (0x22) | Exported Function | 0x000000018000f3e0 | 0x0000f3e0
-`UwfCfgRestartSystem` | 35 (0x23) | Exported Function | 0x000000018000f500 | 0x0000f500
-`UwfCfgSetCriticalThreshold` | 36 (0x24) | Exported Function | 0x000000018000f8a0 | 0x0000f8a0
-`UwfCfgSetFilterEnabled` | 37 (0x25) | Exported Function | 0x0000000180010770 | 0x00010770
-`UwfCfgSetHormEnabled` | 38 (0x26) | Exported Function | 0x0000000180010a80 | 0x00010a80
-`UwfCfgSetOverlayFlags` | 39 (0x27) | Exported Function | 0x00000001800101b0 | 0x000101b0
-`UwfCfgSetOverlayMaximumSize` | 40 (0x28) | Exported Function | 0x0000000180010350 | 0x00010350
-`UwfCfgSetOverlayType` | 41 (0x29) | Exported Function | 0x0000000180010050 | 0x00010050
-`UwfCfgSetPersistDomainSecretKey` | 42 (0x2a) | Exported Function | 0x0000000180010ca0 | 0x00010ca0
-`UwfCfgSetPersistTSCAL` | 43 (0x2b) | Exported Function | 0x0000000180010e60 | 0x00010e60
-`UwfCfgSetResetPersistentOverlay` | 44 (0x2c) | Exported Function | 0x00000001800122c0 | 0x000122c0
-`UwfCfgSetResetPersistentOverlaySavedMode` | 45 (0x2d) | Exported Function | 0x0000000180012440 | 0x00012440
-`UwfCfgSetServicingModeEnabled` | 46 (0x2e) | Exported Function | 0x00000001800104a0 | 0x000104a0
-`UwfCfgSetVolumeBindByDriveLetter` | 47 (0x2f) | Exported Function | 0x0000000180011c40 | 0x00011c40
-`UwfCfgSetVolumeProtected` | 48 (0x30) | Exported Function | 0x0000000180011a20 | 0x00011a20
-`UwfCfgGetVolumeBindByDriveLetter` | 27 (0x1b) | Exported Function | 0x0000000180011b50 | 0x00011b50
-`UwfCfgGetShutdownPending` | 26 (0x1a) | Exported Function | 0x000000018000fb20 | 0x0000fb20
-`UwfCfgGetServicingModeEnabled` | 25 (0x19) | Exported Function | 0x00000001800103c0 | 0x000103c0
-`UwfCfgGetResetPersistentOverlaySavedMode` | 24 (0x18) | Exported Function | 0x0000000180012370 | 0x00012370
-`UwfCfgAddRegExclusion` | 2 (0x2) | Exported Function | 0x0000000180011190 | 0x00011190
-`UwfCfgAddVolume` | 3 (0x3) | Exported Function | 0x00000001800116c0 | 0x000116c0
-`UwfCfgCommitFile` | 4 (0x4) | Exported Function | 0x000000018000fbb0 | 0x0000fbb0
-`UwfCfgCommitFileDeletion` | 5 (0x5) | Exported Function | 0x000000018000fcd0 | 0x0000fcd0
-`UwfCfgCommitRegistry` | 6 (0x6) | Exported Function | 0x000000018000fe30 | 0x0000fe30
-`UwfCfgCommitRegistryDeletion` | 7 (0x7) | Exported Function | 0x000000018000fef0 | 0x0000fef0
-`UwfCfgDoesFileExclusionExist` | 8 (0x8) | Exported Function | 0x0000000180011e10 | 0x00011e10
-`UwfCfgDoesRegExclusionExist` | 9 (0x9) | Exported Function | 0x0000000180010f20 | 0x00010f20
-`UwfCfgDoesVolumeExist` | 10 (0xa) | Exported Function | 0x0000000180011330 | 0x00011330
-`UwfCfgGetCriticalThreshold` | 11 (0xb) | Exported Function | 0x000000018000f800 | 0x0000f800
-`UwfCfgSetWarningThreshold` | 49 (0x31) | Exported Function | 0x000000018000fa30 | 0x0000fa30
-`UwfCfgGetDriveLetter` | 12 (0xc) | Exported Function | 0x0000000180011d20 | 0x00011d20
-`UwfCfgGetFilterEnabled` | 14 (0xe) | Exported Function | 0x0000000180010690 | 0x00010690
-`UwfCfgGetHormEnabled` | 15 (0xf) | Exported Function | 0x00000001800109e0 | 0x000109e0
-`UwfCfgGetOverlayFlags` | 16 (0x10) | Exported Function | 0x0000000180010110 | 0x00010110
-`UwfCfgGetOverlayInformation` | 17 (0x11) | Exported Function | 0x000000018000f570 | 0x0000f570
-`UwfCfgGetOverlayMaximumSize` | 18 (0x12) | Exported Function | 0x00000001800102a0 | 0x000102a0
-`UwfCfgGetOverlayType` | 19 (0x13) | Exported Function | 0x000000018000ffb0 | 0x0000ffb0
-`UwfCfgGetPersistDomainSecretKey` | 20 (0x14) | Exported Function | 0x0000000180010bb0 | 0x00010bb0
-`UwfCfgGetPersistTSCAL` | 21 (0x15) | Exported Function | 0x0000000180010d60 | 0x00010d60
-`UwfCfgGetRegExclusions` | 22 (0x16) | Exported Function | 0x0000000180011030 | 0x00011030
-`UwfCfgGetResetPersistentOverlay` | 23 (0x17) | Exported Function | 0x0000000180012230 | 0x00012230
-`UwfCfgGetFileExclusions` | 13 (0xd) | Exported Function | 0x0000000180011f00 | 0x00011f00
-`UwfCfgShutdownSystem` | 50 (0x32) | Exported Function | 0x000000018000f490 | 0x0000f490
+Function Name | Ordinal | Type
+-- | -- | --
+`UwfCfgResetSettings` | 34 | Exported Function
+`UwfCfgRemoveVolume` | 33 | Exported Function
+`UwfCfgRemoveRegExclusion` | 32 | Exported Function
+`UwfCfgSetFilterEnabled` | 37 | Exported Function
+`UwfCfgSetCriticalThreshold` | 36 | Exported Function
+`UwfCfgRestartSystem` | 35 | Exported Function
+`UwfCfgGetVolumeProtected` | 28 | Exported Function
+`UwfCfgGetVolumeBindByDriveLetter` | 27 | Exported Function
+`UwfCfgGetShutdownPending` | 26 | Exported Function
+`UwfCfgRemoveFileExclusion` | 31 | Exported Function
+`UwfCfgGetWarningThreshold` | 30 | Exported Function
+`UwfCfgGetVolumes` | 29 | Exported Function
+`UwfCfgSetHormEnabled` | 38 | Exported Function
+`UwfCfgSetVolumeBindByDriveLetter` | 47 | Exported Function
+`UwfCfgSetServicingModeEnabled` | 46 | Exported Function
+`UwfCfgSetResetPersistentOverlaySavedMode` | 45 | Exported Function
+`UwfCfgShutdownSystem` | 50 | Exported Function
+`UwfCfgSetWarningThreshold` | 49 | Exported Function
+`UwfCfgSetVolumeProtected` | 48 | Exported Function
+`UwfCfgSetOverlayType` | 41 | Exported Function
+`UwfCfgSetOverlayMaximumSize` | 40 | Exported Function
+`UwfCfgSetOverlayFlags` | 39 | Exported Function
+`UwfCfgSetResetPersistentOverlay` | 44 | Exported Function
+`UwfCfgSetPersistTSCAL` | 43 | Exported Function
+`UwfCfgSetPersistDomainSecretKey` | 42 | Exported Function
+`UwfCfgDoesRegExclusionExist` | 9 | Exported Function
+`UwfCfgDoesFileExclusionExist` | 8 | Exported Function
+`UwfCfgCommitRegistryDeletion` | 7 | Exported Function
+`UwfCfgGetDriveLetter` | 12 | Exported Function
+`UwfCfgGetCriticalThreshold` | 11 | Exported Function
+`UwfCfgDoesVolumeExist` | 10 | Exported Function
+`UwfCfgAddVolume` | 3 | Exported Function
+`UwfCfgAddRegExclusion` | 2 | Exported Function
+`UwfCfgAddFileExclusion` | 1 | Exported Function
+`UwfCfgCommitRegistry` | 6 | Exported Function
+`UwfCfgCommitFileDeletion` | 5 | Exported Function
+`UwfCfgCommitFile` | 4 | Exported Function
+`UwfCfgGetFileExclusions` | 13 | Exported Function
+`UwfCfgGetRegExclusions` | 22 | Exported Function
+`UwfCfgGetPersistTSCAL` | 21 | Exported Function
+`UwfCfgGetPersistDomainSecretKey` | 20 | Exported Function
+`UwfCfgGetServicingModeEnabled` | 25 | Exported Function
+`UwfCfgGetResetPersistentOverlaySavedMode` | 24 | Exported Function
+`UwfCfgGetResetPersistentOverlay` | 23 | Exported Function
+`UwfCfgGetOverlayFlags` | 16 | Exported Function
+`UwfCfgGetHormEnabled` | 15 | Exported Function
+`UwfCfgGetFilterEnabled` | 14 | Exported Function
+`UwfCfgGetOverlayType` | 19 | Exported Function
+`UwfCfgGetOverlayMaximumSize` | 18 | Exported Function
+`UwfCfgGetOverlayInformation` | 17 | Exported Function
 
 
 ## Signature

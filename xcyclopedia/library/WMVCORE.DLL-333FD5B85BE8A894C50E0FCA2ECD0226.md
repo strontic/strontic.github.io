@@ -24,29 +24,29 @@ PE256 | `8E8C874635D71B2A4AAB41C52E1FA87ACD706F118860C18FD771C6E1DEAE5436`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 8 (0x8) | Exported Function | 0x00000001800290d0 | 0x000290d0
-`WMIsAvailableOffline` | 6 (0x6) | Exported Function | 0x000000018004b240 | 0x0004b240
-`WMCreateWriterPushSink` | 20 (0x14) | Exported Function | 0x00000001800c13a0 | 0x000c13a0
-`WMCreateWriterPriv` | 19 (0x13) | Exported Function | 0x0000000180092600 | 0x00092600
-`WMCreateWriterNetworkSink` | 18 (0x12) | Exported Function | 0x00000001800b2a50 | 0x000b2a50
-`WMCreateWriterFileSink` | 17 (0x11) | Exported Function | 0x00000001800af9e0 | 0x000af9e0
-`WMCreateWriter` | 16 (0x10) | Exported Function | 0x0000000180092590 | 0x00092590
-`WMCreateSyncReaderPriv` | 5 (0x5) | Exported Function | 0x0000000180037120 | 0x00037120
-`WMCreateSyncReader` | 15 (0xf) | Exported Function | 0x00000001800371c0 | 0x000371c0
-`WMIsContentProtected` | 21 (0x15) | Exported Function | 0x000000018002e430 | 0x0002e430
-`WMCreateReaderPriv` | 14 (0xe) | Exported Function | 0x0000000180003490 | 0x00003490
-`WMCreateProfileManager` | 12 (0xc) | Exported Function | 0x00000001800de880 | 0x000de880
-`WMCreateLicenseRevocationAgentPrivate` | 4 (0x4) | Exported Function | 0x000000018000a410 | 0x0000a410
-`WMCreateIndexer` | 11 (0xb) | Exported Function | 0x0000000180103f80 | 0x00103f80
-`WMCreateEditor` | 10 (0xa) | Exported Function | 0x0000000180014100 | 0x00014100
-`WMCreateBackupRestorerPrivate` | 3 (0x3) | Exported Function | 0x000000018000a410 | 0x0000a410
-`WMCreateBackupRestorer` | 9 (0x9) | Exported Function | 0x000000018000a410 | 0x0000a410
-`WMCheckURLScheme` | 2 (0x2) | Exported Function | 0x000000018003b1e0 | 0x0003b1e0
-`WMCheckURLExtension` | 1 (0x1) | Exported Function | 0x000000018003aeb0 | 0x0003aeb0
-`WMCreateReader` | 13 (0xd) | Exported Function | 0x0000000180003260 | 0x00003260
-`WMValidateData` | 7 (0x7) | Exported Function | 0x000000018003b270 | 0x0003b270
+Function Name | Ordinal | Type
+-- | -- | --
+`WMCreateWriterFileSink` | 17 | Exported Function
+`WMCreateWriterNetworkSink` | 18 | Exported Function
+`WMCreateWriter` | 16 | Exported Function
+`WMCreateSyncReader` | 15 | Exported Function
+`WMCreateSyncReaderPriv` | 5 | Exported Function
+`WMIsContentProtected` | 21 | Exported Function
+`WMValidateData` | 7 | Exported Function
+`WMIsAvailableOffline` | 6 | Exported Function
+`WMCreateWriterPriv` | 19 | Exported Function
+`WMCreateWriterPushSink` | 20 | Exported Function
+`WMCreateReaderPriv` | 14 | Exported Function
+`WMCreateBackupRestorer` | 9 | Exported Function
+`WMCreateBackupRestorerPrivate` | 3 | Exported Function
+`WMCheckURLScheme` | 2 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`WMCheckURLExtension` | 1 | Exported Function
+`WMCreateProfileManager` | 12 | Exported Function
+`WMCreateReader` | 13 | Exported Function
+`WMCreateLicenseRevocationAgentPrivate` | 4 | Exported Function
+`WMCreateEditor` | 10 | Exported Function
+`WMCreateIndexer` | 11 | Exported Function
 
 
 ## Signature

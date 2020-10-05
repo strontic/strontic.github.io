@@ -24,13 +24,13 @@ PE256 | `8740105F84AA7B0E4EF68CCAC3B1EBF1B52EDD71FAD696CF3F1329461D39BDF9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateMergedTraceFile` | 1 (0x1) | Exported Function | 0x0000000180001e40 | 0x00001e40
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`StartHeapTrace` | 3 (0x3) | Exported Function | 0x0000000180001f00 | 0x00001f00
-`StartKernelTrace` | 4 (0x4) | Exported Function | 0x0000000180001af0 | 0x00001af0
-`UpdateHeapTrace` | 5 (0x5) | Exported Function | 0x0000000180001f50 | 0x00001f50
+Function Name | Ordinal | Type
+-- | -- | --
+`StartKernelTrace` | 4 | Exported Function
+`UpdateHeapTrace` | 5 | Exported Function
+`StartHeapTrace` | 3 | Exported Function
+`CreateMergedTraceFile` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

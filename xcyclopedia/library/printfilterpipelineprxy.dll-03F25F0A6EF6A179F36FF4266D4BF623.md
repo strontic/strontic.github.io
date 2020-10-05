@@ -24,18 +24,18 @@ PE256 | `5180EA7FB9DBDB80FA48F9F3C252050B89EE137BF291FD61905E9476BF1D130C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClosePrintProcessor` | 2 (0x2) | Exported Function | 0x0000000180001660 | 0x00001660
-`ControlPrintProcessor` | 3 (0x3) | Exported Function | 0x0000000180001690 | 0x00001690
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x00000001800041c0 | 0x000041c0
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x0000000180004120 | 0x00004120
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x0000000180004200 | 0x00004200
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x0000000180004240 | 0x00004240
-`EnumPrintProcessorDatatypesW` | 8 (0x8) | Exported Function | 0x00000001800012b0 | 0x000012b0
-`GetPrintProcessorCapabilities` | 1 (0x1) | Exported Function | 0x00000001800013f0 | 0x000013f0
-`OpenPrintProcessor` | 9 (0x9) | Exported Function | 0x00000001800014b0 | 0x000014b0
-`PrintDocumentOnPrintProcessor` | 10 (0xa) | Exported Function | 0x00000001800015f0 | 0x000015f0
+Function Name | Ordinal | Type
+-- | -- | --
+`EnumPrintProcessorDatatypesW` | 8 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`GetPrintProcessorCapabilities` | 1 | Exported Function
+`PrintDocumentOnPrintProcessor` | 10 | Exported Function
+`OpenPrintProcessor` | 9 | Exported Function
+`ControlPrintProcessor` | 3 | Exported Function
+`ClosePrintProcessor` | 2 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
 
 
 ## Signature

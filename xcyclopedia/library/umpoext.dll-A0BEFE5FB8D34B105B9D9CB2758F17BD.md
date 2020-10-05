@@ -24,10 +24,10 @@ PE256 | `4BD6758E914A50672A0943746809CC4BDA8B8632A8EEBD90BC8B60FBA5E76C87`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x0000000180006300 | 0x00006300
-`ExtensionInit` | 2 (0x2) | Exported Function | 0x0000000180004bb0 | 0x00004bb0
+Function Name | Ordinal | Type
+-- | -- | --
+`ExtensionInit` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
 
 
 ## Signature

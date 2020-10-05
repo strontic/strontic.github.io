@@ -24,30 +24,30 @@ PE256 | `66F5D9A1F1F8488AA589EEB46EBE8E7057964FEC2EFDC52407B364F74D138756`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`class std::shared_ptr<struct Windows::ChangeTracking::IFileChangeClientManager> __cdecl GetFileChangeClientManagerInstance(void)` | 7 (0x7) | Exported Function | 0x00000001600502b0 | 0x000502b0
-`public: virtual long __cdecl CSearchServiceObj::Shutdown(void) __ptr64` | 14 (0xe) | Exported Function | 0x0000000160082ad0 | 0x00082ad0
-`public: virtual long __cdecl CSearchServiceObj::SetServiceStatusObj(struct IDCOMServiceStatus * __ptr64) __ptr64` | 13 (0xd) | Exported Function | 0x00000001600c3b40 | 0x000c3b40
-`public: virtual long __cdecl CSearchServiceObj::PostServiceStartup(void) __ptr64` | 12 (0xc) | Exported Function | 0x00000001600c2e90 | 0x000c2e90
-`public: virtual long __cdecl CSearchServiceObj::LogonNotification(unsigned long) __ptr64` | 11 (0xb) | Exported Function | 0x00000001600c45a0 | 0x000c45a0
-`public: virtual long __cdecl CSearchServiceObj::LogoffNotification(unsigned long) __ptr64` | 10 (0xa) | Exported Function | 0x00000001600c4cc0 | 0x000c4cc0
-`public: virtual long __cdecl CSearchServiceObj::Initialize(bool,unsigned long,class std::vector<class ReIndexPatternInfo,class std::allocator<class ReIndexPatternInfo> > const * __ptr64) __ptr64` | 9 (0x9) | Exported Function | 0x000000016009a8a0 | 0x0009a8a0
-`public: virtual long __cdecl CSearchServiceObj::HandleDplKeyChange(void) __ptr64` | 8 (0x8) | Exported Function | 0x000000016012eb30 | 0x0012eb30
-`public: static void __cdecl CSearchServiceObj::Cleanup(void)` | 6 (0x6) | Exported Function | 0x000000016008c280 | 0x0008c280
-`public: class CSearchServiceObj & __ptr64 __cdecl CSearchServiceObj::operator=(class CSearchServiceObj const & __ptr64) __ptr64` | 4 (0x4) | Exported Function | 0x00000001601221e0 | 0x001221e0
-`public: __cdecl CSearchServiceObj::~CSearchServiceObj(void) __ptr64` | 3 (0x3) | Exported Function | 0x000000016008bf90 | 0x0008bf90
-`public: __cdecl CSearchServiceObj::CSearchServiceObj(void) __ptr64` | 2 (0x2) | Exported Function | 0x00000001600b20d0 | 0x000b20d0
-`public: __cdecl CSearchServiceObj::CSearchServiceObj(class CSearchServiceObj const & __ptr64) __ptr64` | 1 (0x1) | Exported Function | 0x0000000160120fb0 | 0x00120fb0
-`MSSrch_SysPrep_Cleanup` | 22 (0x16) | Exported Function | 0x0000000160132180 | 0x00132180
-`GetCatalogManager` | 21 (0x15) | Exported Function | 0x000000016012d420 | 0x0012d420
-`DllUnregisterServer` | 20 (0x14) | Exported Function | 0x000000016012d410 | 0x0012d410
-`DllRegisterServer` | 19 (0x13) | Exported Function | 0x000000016012d3a0 | 0x0012d3a0
-`DllGetClassObject` | 18 (0x12) | Exported Function | 0x0000000160077ce0 | 0x00077ce0
-`DllCanUnloadNow` | 17 (0x11) | Exported Function | 0x0000000160075050 | 0x00075050
-`const CSearchServiceObj::``vftable'` | 5 (0x5) | Exported Function | 0x00000001601f1980 | 0x001f1980
-`public: virtual long __cdecl CSearchServiceObj::Start(void) __ptr64` | 15 (0xf) | Exported Function | 0x00000001600bb810 | 0x000bb810
-`public: virtual long __cdecl CSearchServiceObj::Stop(int) __ptr64` | 16 (0x10) | Exported Function | 0x0000000160082b50 | 0x00082b50
+Function Name | Ordinal | Type
+-- | -- | --
+`public: virtual long __cdecl CSearchServiceObj::Initialize(bool,unsigned long,class std::vector<class ReIndexPatternInfo,class std::allocator<class ReIndexPatternInfo> > const * __ptr64) __ptr64` | 9 | Exported Function
+`public: virtual long __cdecl CSearchServiceObj::LogoffNotification(unsigned long) __ptr64` | 10 | Exported Function
+`public: virtual long __cdecl CSearchServiceObj::HandleDplKeyChange(void) __ptr64` | 8 | Exported Function
+`public: class CSearchServiceObj & __ptr64 __cdecl CSearchServiceObj::operator=(class CSearchServiceObj const & __ptr64) __ptr64` | 4 | Exported Function
+`public: static void __cdecl CSearchServiceObj::Cleanup(void)` | 6 | Exported Function
+`public: virtual long __cdecl CSearchServiceObj::LogonNotification(unsigned long) __ptr64` | 11 | Exported Function
+`public: virtual long __cdecl CSearchServiceObj::Start(void) __ptr64` | 15 | Exported Function
+`public: virtual long __cdecl CSearchServiceObj::Stop(int) __ptr64` | 16 | Exported Function
+`public: virtual long __cdecl CSearchServiceObj::Shutdown(void) __ptr64` | 14 | Exported Function
+`public: virtual long __cdecl CSearchServiceObj::PostServiceStartup(void) __ptr64` | 12 | Exported Function
+`public: virtual long __cdecl CSearchServiceObj::SetServiceStatusObj(struct IDCOMServiceStatus * __ptr64) __ptr64` | 13 | Exported Function
+`DllGetClassObject` | 18 | Exported Function
+`DllRegisterServer` | 19 | Exported Function
+`DllCanUnloadNow` | 17 | Exported Function
+`class std::shared_ptr<struct Windows::ChangeTracking::IFileChangeClientManager> __cdecl GetFileChangeClientManagerInstance(void)` | 7 | Exported Function
+`const CSearchServiceObj::``vftable'` | 5 | Exported Function
+`DllUnregisterServer` | 20 | Exported Function
+`public: __cdecl CSearchServiceObj::CSearchServiceObj(void) __ptr64` | 2 | Exported Function
+`public: __cdecl CSearchServiceObj::~CSearchServiceObj(void) __ptr64` | 3 | Exported Function
+`public: __cdecl CSearchServiceObj::CSearchServiceObj(class CSearchServiceObj const & __ptr64) __ptr64` | 1 | Exported Function
+`GetCatalogManager` | 21 | Exported Function
+`MSSrch_SysPrep_Cleanup` | 22 | Exported Function
 
 
 ## Signature

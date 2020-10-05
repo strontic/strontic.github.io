@@ -24,18 +24,18 @@ PE256 | `84450AE0015E74180E97C6632940AC31FE03738C6924B31266AA291C2CF83532`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_GetCoCreateInstanceAsAdminHandle` | 6 (0x6) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`_RemoveShieldIcon` | 7 (0x7) | Exported Function | 0x00000001800014b0 | 0x000014b0
-`_SetShieldButton` | 8 (0x8) | Exported Function | 0x00000001800014f0 | 0x000014f0
-`_SetShieldIcon` | 9 (0x9) | Exported Function | 0x0000000180001410 | 0x00001410
-`_ThrowErrorBox` | 10 (0xa) | Exported Function | 0x0000000180001260 | 0x00001260
-`DllAddRef` | 1 (0x1) | Exported Function | 0x00000001800010f0 | 0x000010f0
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180001110 | 0x00001110
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180001150 | 0x00001150
-`DllMain` | 4 (0x4) | Exported Function | 0x00000001800010c0 | 0x000010c0
-`DllRelease` | 5 (0x5) | Exported Function | 0x0000000180001100 | 0x00001100
+Function Name | Ordinal | Type
+-- | -- | --
+`DllCanUnloadNow` | 2 | Exported Function
+`DllAddRef` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllRelease` | 5 | Exported Function
+`DllMain` | 4 | Exported Function
+`_RemoveShieldIcon` | 7 | Exported Function
+`_GetCoCreateInstanceAsAdminHandle` | 6 | Exported Function
+`_SetShieldButton` | 8 | Exported Function
+`_ThrowErrorBox` | 10 | Exported Function
+`_SetShieldIcon` | 9 | Exported Function
 
 
 ## Signature

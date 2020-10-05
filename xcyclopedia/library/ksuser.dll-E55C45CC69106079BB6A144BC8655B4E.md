@@ -24,16 +24,16 @@ PE256 | `EB65A187FC55D90AB2E015336C196A6ACF4228DAAF89B8DC789588C9A7A3E294`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`KsCreateAllocator` | 2 (0x2) | Exported Function | 0x5ef816e0 | 0x000016e0
-`KsCreateAllocator2` | 1 (0x1) | Exported Function | 0x5ef818c0 | 0x000018c0
-`KsCreateClock` | 4 (0x4) | Exported Function | 0x5ef81710 | 0x00001710
-`KsCreateClock2` | 3 (0x3) | Exported Function | 0x5ef818f0 | 0x000018f0
-`KsCreatePin` | 6 (0x6) | Exported Function | 0x5ef81740 | 0x00001740
-`KsCreatePin2` | 5 (0x5) | Exported Function | 0x5ef81920 | 0x00001920
-`KsCreateTopologyNode` | 8 (0x8) | Exported Function | 0x5ef81780 | 0x00001780
-`KsCreateTopologyNode2` | 7 (0x7) | Exported Function | 0x5ef81960 | 0x00001960
+Function Name | Ordinal | Type
+-- | -- | --
+`KsCreatePin2` | 5 | Exported Function
+`KsCreatePin` | 6 | Exported Function
+`KsCreateTopologyNode2` | 7 | Exported Function
+`KsCreateTopologyNode` | 8 | Exported Function
+`KsCreateAllocator2` | 1 | Exported Function
+`KsCreateAllocator` | 2 | Exported Function
+`KsCreateClock2` | 3 | Exported Function
+`KsCreateClock` | 4 | Exported Function
 
 
 ## Signature

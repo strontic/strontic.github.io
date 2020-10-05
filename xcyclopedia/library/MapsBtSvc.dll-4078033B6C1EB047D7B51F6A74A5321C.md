@@ -24,20 +24,20 @@ PE256 | `11DD5B57553C759366906D53BAC3A24C36F4C0C17E8BB11D81C5F698F10FD8EA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MapsBackgroundTransferClassFactory_Register` | 1 (0x1) | Exported Function | 0x0000000180002280 | 0x00002280
-`MapsBackgroundTransferClassFactory_Revoke` | 2 (0x2) | Exported Function | 0x00000001800023c0 | 0x000023c0
-`MapsBackgroundTransferService_CreateOrFindJob` | 3 (0x3) | Exported Function | 0x0000000180002e00 | 0x00002e00
-`MapsBackgroundTransferService_FreeJob` | 4 (0x4) | Exported Function | 0x0000000180002c60 | 0x00002c60
-`MapsBackgroundTransferService_GetIsAnyJobWaiting` | 5 (0x5) | Exported Function | 0x0000000180004260 | 0x00004260
-`MapsBackgroundTransferService_RegisterCallbacks` | 6 (0x6) | Exported Function | 0x0000000180003b70 | 0x00003b70
-`MapsBackgroundTransferService_SetNetworkCostPolicy` | 7 (0x7) | Exported Function | 0x0000000180004200 | 0x00004200
-`MapsBackgroundTransferService_SetPowerPolicy` | 8 (0x8) | Exported Function | 0x00000001800041a0 | 0x000041a0
-`MapsBackgroundTransferService_SetPriority` | 9 (0x9) | Exported Function | 0x0000000180004140 | 0x00004140
-`MapsBackgroundTransferService_SetServiceCallbacks` | 12 (0xc) | Exported Function | 0x0000000180001a20 | 0x00001a20
-`MapsBackgroundTransferService_TakeBitsSnapshot` | 10 (0xa) | Exported Function | 0x00000001800043b0 | 0x000043b0
-`MapsBackgroundTransferService_UnregisterCallbacks` | 11 (0xb) | Exported Function | 0x0000000180003d20 | 0x00003d20
+Function Name | Ordinal | Type
+-- | -- | --
+`MapsBackgroundTransferService_SetPriority` | 9 | Exported Function
+`MapsBackgroundTransferService_SetPowerPolicy` | 8 | Exported Function
+`MapsBackgroundTransferService_SetNetworkCostPolicy` | 7 | Exported Function
+`MapsBackgroundTransferService_UnregisterCallbacks` | 11 | Exported Function
+`MapsBackgroundTransferService_TakeBitsSnapshot` | 10 | Exported Function
+`MapsBackgroundTransferService_SetServiceCallbacks` | 12 | Exported Function
+`MapsBackgroundTransferService_CreateOrFindJob` | 3 | Exported Function
+`MapsBackgroundTransferClassFactory_Revoke` | 2 | Exported Function
+`MapsBackgroundTransferClassFactory_Register` | 1 | Exported Function
+`MapsBackgroundTransferService_RegisterCallbacks` | 6 | Exported Function
+`MapsBackgroundTransferService_GetIsAnyJobWaiting` | 5 | Exported Function
+`MapsBackgroundTransferService_FreeJob` | 4 | Exported Function
 
 
 ## Signature

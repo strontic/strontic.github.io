@@ -24,39 +24,39 @@ PE256 | `CA4371437A384FDBB8F367C759B9B11FBB024792DF154BCFF39CF4B822E89FD4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SRCache_AllocStringBuffer` | 28 (0x1c) | Exported Function | 0x0000000180002e10 | 0x00002e10
-`SRCacheManager_Open` | 25 (0x19) | Exported Function | 0x0000000180001200 | 0x00001200
-`SRCacheManager_GetProperty_UInt64` | 24 (0x18) | Exported Function | 0x0000000180007b50 | 0x00007b50
-`SRCacheManager_GetProperty_UInt32` | 23 (0x17) | Exported Function | 0x0000000180003120 | 0x00003120
-`SRCacheManager_DeleteContext` | 22 (0x16) | Exported Function | 0x0000000180007ab0 | 0x00007ab0
-`SRCacheManager_Close` | 21 (0x15) | Exported Function | 0x00000001800017d0 | 0x000017d0
-`SRCacheContext_SetField_UInt64` | 20 (0x14) | Exported Function | 0x00000001800030c0 | 0x000030c0
-`SRCacheContext_SetField_UInt32` | 19 (0x13) | Exported Function | 0x0000000180002db0 | 0x00002db0
-`SRCacheContext_SetField_String` | 18 (0x12) | Exported Function | 0x0000000180001bb0 | 0x00001bb0
-`SRCacheContext_SetField_MultiString` | 17 (0x11) | Exported Function | 0x0000000180002e80 | 0x00002e80
-`SRCacheContext_OpenSubContext` | 16 (0x10) | Exported Function | 0x0000000180001970 | 0x00001970
-`SRCacheContext_Open` | 15 (0xf) | Exported Function | 0x00000001800010c0 | 0x000010c0
-`SRCacheContext_IsEmpty` | 14 (0xe) | Exported Function | 0x0000000180001b20 | 0x00001b20
-`SRCacheContext_HasSubKeys` | 13 (0xd) | Exported Function | 0x0000000180007a50 | 0x00007a50
-`SRCacheManager_SetProperty_UInt32` | 26 (0x1a) | Exported Function | 0x00000001800032e0 | 0x000032e0
-`SRCacheContext_GetField_UInt64` | 12 (0xc) | Exported Function | 0x0000000180001860 | 0x00001860
-`SRCacheContext_GetField_String` | 10 (0xa) | Exported Function | 0x0000000180001440 | 0x00001440
-`SRCacheContext_GetField_MultiString` | 9 (0x9) | Exported Function | 0x00000001800079d0 | 0x000079d0
-`SRCacheContext_EnumerateIndex` | 8 (0x8) | Exported Function | 0x0000000180007990 | 0x00007990
-`SRCacheContext_EnumerateData` | 7 (0x7) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`SRCacheContext_DeleteIfEmpty` | 6 (0x6) | Exported Function | 0x0000000180007950 | 0x00007950
-`SRCacheContext_DeleteField` | 5 (0x5) | Exported Function | 0x0000000180007910 | 0x00007910
-`SRCacheContext_Delete` | 4 (0x4) | Exported Function | 0x0000000180007890 | 0x00007890
-`SRCacheContext_CreateSubContext` | 3 (0x3) | Exported Function | 0x0000000180001c50 | 0x00001c50
-`SRCacheContext_Create` | 2 (0x2) | Exported Function | 0x0000000180002cd0 | 0x00002cd0
-`SRCacheContext_Close` | 1 (0x1) | Exported Function | 0x0000000180001630 | 0x00001630
-`SRCache_GetDefaultAccountSid` | 31 (0x1f) | Exported Function | 0x0000000180007da0 | 0x00007da0
-`SRCache_Free` | 30 (0x1e) | Exported Function | 0x00000001800018f0 | 0x000018f0
-`SRCache_DuplicateString` | 29 (0x1d) | Exported Function | 0x0000000180007cd0 | 0x00007cd0
-`SRCacheContext_GetField_UInt32` | 11 (0xb) | Exported Function | 0x0000000180001670 | 0x00001670
-`SRCacheManager_SetProperty_UInt64` | 27 (0x1b) | Exported Function | 0x0000000180003280 | 0x00003280
+Function Name | Ordinal | Type
+-- | -- | --
+`SRCacheContext_SetField_MultiString` | 17 | Exported Function
+`SRCacheContext_SetField_String` | 18 | Exported Function
+`SRCacheContext_SetField_UInt32` | 19 | Exported Function
+`SRCacheContext_OpenSubContext` | 16 | Exported Function
+`SRCacheContext_HasSubKeys` | 13 | Exported Function
+`SRCacheContext_IsEmpty` | 14 | Exported Function
+`SRCacheContext_Open` | 15 | Exported Function
+`SRCacheContext_SetField_UInt64` | 20 | Exported Function
+`SRCacheManager_Open` | 25 | Exported Function
+`SRCacheManager_SetProperty_UInt32` | 26 | Exported Function
+`SRCacheManager_SetProperty_UInt64` | 27 | Exported Function
+`SRCacheManager_GetProperty_UInt64` | 24 | Exported Function
+`SRCacheManager_Close` | 21 | Exported Function
+`SRCacheManager_DeleteContext` | 22 | Exported Function
+`SRCacheManager_GetProperty_UInt32` | 23 | Exported Function
+`SRCacheContext_GetField_UInt64` | 12 | Exported Function
+`SRCacheContext_Close` | 1 | Exported Function
+`SRCacheContext_Create` | 2 | Exported Function
+`SRCacheContext_CreateSubContext` | 3 | Exported Function
+`SRCache_GetDefaultAccountSid` | 31 | Exported Function
+`SRCache_AllocStringBuffer` | 28 | Exported Function
+`SRCache_DuplicateString` | 29 | Exported Function
+`SRCache_Free` | 30 | Exported Function
+`SRCacheContext_Delete` | 4 | Exported Function
+`SRCacheContext_GetField_MultiString` | 9 | Exported Function
+`SRCacheContext_GetField_String` | 10 | Exported Function
+`SRCacheContext_GetField_UInt32` | 11 | Exported Function
+`SRCacheContext_EnumerateIndex` | 8 | Exported Function
+`SRCacheContext_DeleteField` | 5 | Exported Function
+`SRCacheContext_DeleteIfEmpty` | 6 | Exported Function
+`SRCacheContext_EnumerateData` | 7 | Exported Function
 
 
 ## Signature

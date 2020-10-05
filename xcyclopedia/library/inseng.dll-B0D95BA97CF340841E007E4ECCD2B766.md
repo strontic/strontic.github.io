@@ -24,17 +24,17 @@ PE256 | `8E30A47D23B3ED6388A00D85011047860AD7B28B312FBFAE6CE017A8698BEF73`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CheckForVersionConflict` | 1 (0x1) | Exported Function | 0x00000001610115b0 | 0x000115b0
-`CheckTrust` | 2 (0x2) | Exported Function | 0x00000001610108d0 | 0x000108d0
-`CheckTrustEx` | 3 (0x3) | Exported Function | 0x00000001610101e0 | 0x000101e0
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x000000016100ed90 | 0x0000ed90
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x000000016100ecf0 | 0x0000ecf0
-`DownloadFile` | 6 (0x6) | Exported Function | 0x0000000161011af0 | 0x00011af0
-`GetICifFileFromFile` | 7 (0x7) | Exported Function | 0x0000000161002c40 | 0x00002c40
-`GetICifRWFileFromFile` | 8 (0x8) | Exported Function | 0x0000000161002d30 | 0x00002d30
-`PurgeDownloadDirectory` | 9 (0x9) | Exported Function | 0x000000016100ef20 | 0x0000ef20
+Function Name | Ordinal | Type
+-- | -- | --
+`GetICifFileFromFile` | 7 | Exported Function
+`DownloadFile` | 6 | Exported Function
+`PurgeDownloadDirectory` | 9 | Exported Function
+`GetICifRWFileFromFile` | 8 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`CheckTrust` | 2 | Exported Function
+`CheckForVersionConflict` | 1 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`CheckTrustEx` | 3 | Exported Function
 
 
 ## Signature

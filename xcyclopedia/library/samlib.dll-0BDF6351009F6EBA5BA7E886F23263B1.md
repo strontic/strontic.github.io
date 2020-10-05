@@ -24,78 +24,78 @@ PE256 | `0F1085F695367C9E756FC8919F55AECB392E75F23DA268ADE81BFD1EF03F548D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OnMachineUILanguageInit` | 1 (0x1) | Exported Function | 0x4d189ec0 | 0x00009ec0
-`SamLookupDomainInSamServer` | 29 (0x1d) | Exported Function | 0x4d184600 | 0x00004600
-`SamLookupIdsInDomain` | 30 (0x1e) | Exported Function | 0x4d1858c0 | 0x000058c0
-`SamLookupNamesInDomain` | 32 (0x20) | Exported Function | 0x4d1847e0 | 0x000047e0
-`SamLookupNamesInDomain2` | 31 (0x1f) | Exported Function | 0x4d185d80 | 0x00005d80
-`SamOpenAlias` | 33 (0x21) | Exported Function | 0x4d1857b0 | 0x000057b0
-`SamOpenDomain` | 34 (0x22) | Exported Function | 0x4d1850c0 | 0x000050c0
-`SamOpenGroup` | 35 (0x23) | Exported Function | 0x4d18c280 | 0x0000c280
-`SamOpenUser` | 36 (0x24) | Exported Function | 0x4d184850 | 0x00004850
-`SamPerformGenericOperation` | 37 (0x25) | Exported Function | 0x4d184000 | 0x00004000
-`SamQueryDisplayInformation` | 38 (0x26) | Exported Function | 0x4d18c430 | 0x0000c430
-`SamQueryInformationAlias` | 39 (0x27) | Exported Function | 0x4d18c680 | 0x0000c680
-`SamQueryInformationDomain` | 40 (0x28) | Exported Function | 0x4d190b60 | 0x00010b60
-`SamQueryInformationGroup` | 41 (0x29) | Exported Function | 0x4d18c7f0 | 0x0000c7f0
-`SamQueryInformationUser` | 42 (0x2a) | Exported Function | 0x4d184d10 | 0x00004d10
-`SamQueryLocalizableAccountsInDomain` | 43 (0x2b) | Exported Function | 0x4d18ca30 | 0x0000ca30
-`SamQuerySecurityObject` | 44 (0x2c) | Exported Function | 0x4d184300 | 0x00004300
-`SamRegisterObjectChangeNotification` | 45 (0x2d) | Exported Function | 0x4d183eb0 | 0x00003eb0
-`SamTestPrivateFunctionsUser` | 59 (0x3b) | Exported Function | 0x4d18e140 | 0x0000e140
-`SamTestPrivateFunctionsDomain` | 58 (0x3a) | Exported Function | 0x4d18e100 | 0x0000e100
-`SamShutdownSamServer` | 57 (0x39) | Exported Function | 0x4d18e080 | 0x0000e080
-`SamSetSecurityObject` | 56 (0x38) | Exported Function | 0x4d18de90 | 0x0000de90
-`SamSetMemberAttributesOfGroup` | 55 (0x37) | Exported Function | 0x4d18dd10 | 0x0000dd10
-`SamSetInformationUser` | 54 (0x36) | Exported Function | 0x4d18d5c0 | 0x0000d5c0
-`SamiSyncDSRMPasswordFromAccount` | 70 (0x46) | Exported Function | 0x4d18f240 | 0x0000f240
-`SamSetInformationGroup` | 53 (0x35) | Exported Function | 0x4d18d450 | 0x0000d450
-`SamSetInformationAlias` | 51 (0x33) | Exported Function | 0x4d18d180 | 0x0000d180
-`SamRidToSid` | 50 (0x32) | Exported Function | 0x4d184c40 | 0x00004c40
-`SamRemoveMultipleMembersFromAlias` | 49 (0x31) | Exported Function | 0x4d18d000 | 0x0000d000
-`SamRemoveMemberFromGroup` | 48 (0x30) | Exported Function | 0x4d18ce90 | 0x0000ce90
-`SamRemoveMemberFromForeignDomain` | 47 (0x2f) | Exported Function | 0x4d18cd30 | 0x0000cd30
-`SamRemoveMemberFromAlias` | 46 (0x2e) | Exported Function | 0x4d18cbd0 | 0x0000cbd0
-`SamSetInformationDomain` | 52 (0x34) | Exported Function | 0x4d18d2f0 | 0x0000d2f0
-`SamiSetDSRMPasswordOWF` | 69 (0x45) | Exported Function | 0x4d18f1f0 | 0x0000f1f0
-`SamiSetDSRMPassword` | 68 (0x44) | Exported Function | 0x4d18f1a0 | 0x0000f1a0
-`SamiSetBootKeyInformation` | 67 (0x43) | Exported Function | 0x4d18f030 | 0x0000f030
-`SamDeleteGroup` | 15 (0xf) | Exported Function | 0x4d18b8f0 | 0x0000b8f0
-`SamDeleteAlias` | 14 (0xe) | Exported Function | 0x4d18b780 | 0x0000b780
-`SamCreateUserInDomain` | 13 (0xd) | Exported Function | 0x4d18b5d0 | 0x0000b5d0
-`SamCreateUser2InDomain` | 12 (0xc) | Exported Function | 0x4d18b2c0 | 0x0000b2c0
-`SamCreateGroupInDomain` | 11 (0xb) | Exported Function | 0x4d18b110 | 0x0000b110
-`SamCreateAliasInDomain` | 10 (0xa) | Exported Function | 0x4d18af60 | 0x0000af60
-`SamDeleteUser` | 16 (0x10) | Exported Function | 0x4d18ba60 | 0x0000ba60
-`SamConnectWithCreds` | 9 (0x9) | Exported Function | 0x4d1909e0 | 0x000109e0
-`SamCloseHandle` | 7 (0x7) | Exported Function | 0x4d185250 | 0x00005250
-`SamChangePasswordUser2` | 5 (0x5) | Exported Function | 0x4d18aaf0 | 0x0000aaf0
-`SamChangePasswordUser` | 6 (0x6) | Exported Function | 0x4d18acd0 | 0x0000acd0
-`SamAddMultipleMembersToAlias` | 4 (0x4) | Exported Function | 0x4d18a970 | 0x0000a970
-`SamAddMemberToGroup` | 3 (0x3) | Exported Function | 0x4d18a800 | 0x0000a800
-`SamAddMemberToAlias` | 2 (0x2) | Exported Function | 0x4d185610 | 0x00005610
-`SamConnect` | 8 (0x8) | Exported Function | 0x4d184de0 | 0x00004de0
-`SamUnregisterObjectChangeNotification` | 60 (0x3c) | Exported Function | 0x4d183f60 | 0x00003f60
-`SamEnumerateAliasesInDomain` | 17 (0x11) | Exported Function | 0x4d18bbd0 | 0x0000bbd0
-`SamEnumerateGroupsInDomain` | 19 (0x13) | Exported Function | 0x4d18bd80 | 0x0000bd80
-`SamiLmChangePasswordUser` | 66 (0x42) | Exported Function | 0x4d18eea0 | 0x0000eea0
-`SamiEncryptPasswords` | 65 (0x41) | Exported Function | 0x4d189c10 | 0x00009c10
-`SamiChangePasswordUser2` | 63 (0x3f) | Exported Function | 0x4d18e7b0 | 0x0000e7b0
-`SamiChangePasswordUser` | 64 (0x40) | Exported Function | 0x4d18eb00 | 0x0000eb00
-`SamiChangeKeys` | 62 (0x3e) | Exported Function | 0x4d18e390 | 0x0000e390
-`SamGetMembersInGroup` | 28 (0x1c) | Exported Function | 0x4d18c0c0 | 0x0000c0c0
-`SamEnumerateDomainsInSamServer` | 18 (0x12) | Exported Function | 0x4d1846d0 | 0x000046d0
-`SamGetMembersInAlias` | 27 (0x1b) | Exported Function | 0x4d1856b0 | 0x000056b0
-`SamGetDisplayEnumerationIndex` | 25 (0x19) | Exported Function | 0x4d18bf30 | 0x0000bf30
-`SamGetCompatibilityMode` | 24 (0x18) | Exported Function | 0x4d1840e0 | 0x000040e0
-`SamGetAliasMembership` | 23 (0x17) | Exported Function | 0x4d1844e0 | 0x000044e0
-`SamFreeMemory` | 22 (0x16) | Exported Function | 0x4d183d20 | 0x00003d20
-`SamEnumerateUsersInDomain2` | 20 (0x14) | Exported Function | 0x4d184080 | 0x00004080
-`SamEnumerateUsersInDomain` | 21 (0x15) | Exported Function | 0x4d184150 | 0x00004150
-`SamGetGroupsForUser` | 26 (0x1a) | Exported Function | 0x4d1843f0 | 0x000043f0
-`SamValidatePassword` | 61 (0x3d) | Exported Function | 0x4d18e180 | 0x0000e180
+Function Name | Ordinal | Type
+-- | -- | --
+`SamQueryDisplayInformation` | 38 | Exported Function
+`SamQueryInformationAlias` | 39 | Exported Function
+`SamOpenUser` | 36 | Exported Function
+`SamPerformGenericOperation` | 37 | Exported Function
+`SamQueryInformationUser` | 42 | Exported Function
+`SamQueryLocalizableAccountsInDomain` | 43 | Exported Function
+`SamQueryInformationDomain` | 40 | Exported Function
+`SamQueryInformationGroup` | 41 | Exported Function
+`SamOpenGroup` | 35 | Exported Function
+`SamLookupDomainInSamServer` | 29 | Exported Function
+`SamLookupIdsInDomain` | 30 | Exported Function
+`SamiSetDSRMPasswordOWF` | 69 | Exported Function
+`SamiSyncDSRMPasswordFromAccount` | 70 | Exported Function
+`SamOpenAlias` | 33 | Exported Function
+`SamOpenDomain` | 34 | Exported Function
+`SamLookupNamesInDomain` | 32 | Exported Function
+`SamLookupNamesInDomain2` | 31 | Exported Function
+`SamQuerySecurityObject` | 44 | Exported Function
+`SamSetSecurityObject` | 56 | Exported Function
+`SamShutdownSamServer` | 57 | Exported Function
+`SamSetInformationUser` | 54 | Exported Function
+`SamSetMemberAttributesOfGroup` | 55 | Exported Function
+`SamUnregisterObjectChangeNotification` | 60 | Exported Function
+`SamValidatePassword` | 61 | Exported Function
+`SamTestPrivateFunctionsDomain` | 58 | Exported Function
+`SamTestPrivateFunctionsUser` | 59 | Exported Function
+`SamSetInformationGroup` | 53 | Exported Function
+`SamRemoveMemberFromForeignDomain` | 47 | Exported Function
+`SamRemoveMemberFromGroup` | 48 | Exported Function
+`SamRegisterObjectChangeNotification` | 45 | Exported Function
+`SamRemoveMemberFromAlias` | 46 | Exported Function
+`SamSetInformationAlias` | 51 | Exported Function
+`SamSetInformationDomain` | 52 | Exported Function
+`SamRemoveMultipleMembersFromAlias` | 49 | Exported Function
+`SamRidToSid` | 50 | Exported Function
+`SamCreateUser2InDomain` | 12 | Exported Function
+`SamCreateUserInDomain` | 13 | Exported Function
+`SamCreateAliasInDomain` | 10 | Exported Function
+`SamCreateGroupInDomain` | 11 | Exported Function
+`SamDeleteUser` | 16 | Exported Function
+`SamEnumerateAliasesInDomain` | 17 | Exported Function
+`SamDeleteAlias` | 14 | Exported Function
+`SamDeleteGroup` | 15 | Exported Function
+`SamConnectWithCreds` | 9 | Exported Function
+`SamAddMemberToGroup` | 3 | Exported Function
+`SamAddMultipleMembersToAlias` | 4 | Exported Function
+`OnMachineUILanguageInit` | 1 | Exported Function
+`SamAddMemberToAlias` | 2 | Exported Function
+`SamCloseHandle` | 7 | Exported Function
+`SamConnect` | 8 | Exported Function
+`SamChangePasswordUser` | 6 | Exported Function
+`SamChangePasswordUser2` | 5 | Exported Function
+`SamEnumerateDomainsInSamServer` | 18 | Exported Function
+`SamiChangePasswordUser` | 64 | Exported Function
+`SamiChangePasswordUser2` | 63 | Exported Function
+`SamGetMembersInGroup` | 28 | Exported Function
+`SamiChangeKeys` | 62 | Exported Function
+`SamiSetBootKeyInformation` | 67 | Exported Function
+`SamiSetDSRMPassword` | 68 | Exported Function
+`SamiEncryptPasswords` | 65 | Exported Function
+`SamiLmChangePasswordUser` | 66 | Exported Function
+`SamGetMembersInAlias` | 27 | Exported Function
+`SamEnumerateUsersInDomain2` | 20 | Exported Function
+`SamFreeMemory` | 22 | Exported Function
+`SamEnumerateGroupsInDomain` | 19 | Exported Function
+`SamEnumerateUsersInDomain` | 21 | Exported Function
+`SamGetDisplayEnumerationIndex` | 25 | Exported Function
+`SamGetGroupsForUser` | 26 | Exported Function
+`SamGetAliasMembership` | 23 | Exported Function
+`SamGetCompatibilityMode` | 24 | Exported Function
 
 
 ## Signature

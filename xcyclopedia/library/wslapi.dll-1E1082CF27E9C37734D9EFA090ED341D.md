@@ -24,15 +24,15 @@ PE256 | `467E282715887CC405F0AAA77FA1C93DC5BC03FF59B28CF74C3525280B210FE0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WslConfigureDistribution` | 1 (0x1) | Exported Function | 0x0000000180001110 | 0x00001110
-`WslGetDistributionConfiguration` | 2 (0x2) | Exported Function | 0x0000000180001200 | 0x00001200
-`WslIsDistributionRegistered` | 3 (0x3) | Exported Function | 0x00000001800023a0 | 0x000023a0
-`WslLaunch` | 4 (0x4) | Exported Function | 0x0000000180002ca0 | 0x00002ca0
-`WslLaunchInteractive` | 5 (0x5) | Exported Function | 0x0000000180002db0 | 0x00002db0
-`WslRegisterDistribution` | 6 (0x6) | Exported Function | 0x0000000180002480 | 0x00002480
-`WslUnregisterDistribution` | 7 (0x7) | Exported Function | 0x0000000180002570 | 0x00002570
+Function Name | Ordinal | Type
+-- | -- | --
+`WslLaunchInteractive` | 5 | Exported Function
+`WslRegisterDistribution` | 6 | Exported Function
+`WslUnregisterDistribution` | 7 | Exported Function
+`WslLaunch` | 4 | Exported Function
+`WslConfigureDistribution` | 1 | Exported Function
+`WslGetDistributionConfiguration` | 2 | Exported Function
+`WslIsDistributionRegistered` | 3 | Exported Function
 
 
 ## Signature

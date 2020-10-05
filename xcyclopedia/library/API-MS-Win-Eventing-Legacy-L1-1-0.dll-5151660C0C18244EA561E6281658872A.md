@@ -24,22 +24,22 @@ PE256 | `56D0F4A36FDBA65B9CC47F82E4FA77AFD2996B5AB14B4721FA348A041908B9AA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ControlTraceA` | 1 (0x1) | Exported Function | advapi32.ControlTraceA | 0x00001148
-`EnableTrace` | 2 (0x2) | Exported Function | advapi32.EnableTrace | 0x0000116b
-`EnableTraceEx` | 3 (0x3) | Exported Function | advapi32.EnableTraceEx | 0x0000118e
-`EnumerateTraceGuids` | 4 (0x4) | Exported Function | advapi32.EnumerateTraceGuids | 0x000011b9
-`FlushTraceA` | 5 (0x5) | Exported Function | advapi32.FlushTraceA | 0x000011e2
-`FlushTraceW` | 6 (0x6) | Exported Function | advapi32.FlushTraceW | 0x00001203
-`OpenTraceA` | 7 (0x7) | Exported Function | advapi32.OpenTraceA | 0x00001223
-`QueryAllTracesA` | 8 (0x8) | Exported Function | advapi32.QueryAllTracesA | 0x00001247
-`QueryTraceA` | 9 (0x9) | Exported Function | advapi32.QueryTraceA | 0x0000126c
-`QueryTraceW` | 10 (0xa) | Exported Function | advapi32.QueryTraceW | 0x0000128d
-`StartTraceA` | 11 (0xb) | Exported Function | advapi32.StartTraceA | 0x000012ae
-`StopTraceA` | 12 (0xc) | Exported Function | advapi32.StopTraceA | 0x000012ce
-`UpdateTraceA` | 13 (0xd) | Exported Function | advapi32.UpdateTraceA | 0x000012ef
-`UpdateTraceW` | 14 (0xe) | Exported Function | advapi32.UpdateTraceW | 0x00001312
+Function Name | Ordinal | Type
+-- | -- | --
+`QueryTraceW` | 10 | Exported Function
+`QueryTraceA` | 9 | Exported Function
+`QueryAllTracesA` | 8 | Exported Function
+`StartTraceA` | 11 | Exported Function
+`UpdateTraceW` | 14 | Exported Function
+`UpdateTraceA` | 13 | Exported Function
+`StopTraceA` | 12 | Exported Function
+`EnableTraceEx` | 3 | Exported Function
+`EnableTrace` | 2 | Exported Function
+`ControlTraceA` | 1 | Exported Function
+`EnumerateTraceGuids` | 4 | Exported Function
+`OpenTraceA` | 7 | Exported Function
+`FlushTraceW` | 6 | Exported Function
+`FlushTraceA` | 5 | Exported Function
 
 
 ## Signature

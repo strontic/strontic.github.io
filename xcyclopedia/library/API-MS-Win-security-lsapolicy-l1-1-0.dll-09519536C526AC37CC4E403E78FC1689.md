@@ -24,30 +24,30 @@ PE256 | `AC248E48D7E6585C2BEEA528B2C39DCDF6A1FAA7D9AAFD27458BD1F8E1E9748E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LsaAddAccountRights` | 1 (0x1) | Exported Function | advapi32.LsaAddAccountRights | 0x000011a1
-`LsaSetInformationPolicy` | 20 (0x14) | Exported Function | advapi32.LsaSetInformationPolicy | 0x00001526
-`LsaRetrievePrivateData` | 19 (0x13) | Exported Function | advapi32.LsaRetrievePrivateData | 0x000014ee
-`LsaRemoveAccountRights` | 18 (0x12) | Exported Function | advapi32.LsaRemoveAccountRights | 0x000014b7
-`LsaQuerySecret` | 17 (0x11) | Exported Function | advapi32.LsaQuerySecret | 0x00001488
-`LsaQueryInformationPolicy` | 16 (0x10) | Exported Function | advapi32.LsaQueryInformationPolicy | 0x00001456
-`LsaOpenSecret` | 15 (0xf) | Exported Function | advapi32.LsaOpenSecret | 0x00001425
-`LsaOpenPolicy` | 14 (0xe) | Exported Function | advapi32.LsaOpenPolicy | 0x00001400
-`LsaLookupSids2` | 13 (0xd) | Exported Function | advapi32.LsaLookupSids2 | 0x000013da
-`LsaLookupSids` | 12 (0xc) | Exported Function | advapi32.LsaLookupSids | 0x000013b4
-`LsaLookupNames2` | 11 (0xb) | Exported Function | advapi32.LsaLookupNames2 | 0x0000138d
-`LsaICLookupSidsWithCreds` | 10 (0xa) | Exported Function | advapi32.LsaICLookupSidsWithCreds | 0x0000135b
-`LsaICLookupSids` | 9 (0x9) | Exported Function | advapi32.LsaICLookupSids | 0x00001329
-`LsaICLookupNamesWithCreds` | 8 (0x8) | Exported Function | advapi32.LsaICLookupNamesWithCreds | 0x000012f6
-`LsaICLookupNames` | 7 (0x7) | Exported Function | advapi32.LsaICLookupNames | 0x000012c2
-`LsaFreeMemory` | 6 (0x6) | Exported Function | advapi32.LsaFreeMemory | 0x0000129a
-`LsaEnumerateAccountsWithUserRight` | 5 (0x5) | Exported Function | advapi32.LsaEnumerateAccountsWithUserRight | 0x00001261
-`LsaEnumerateAccountRights` | 4 (0x4) | Exported Function | advapi32.LsaEnumerateAccountRights | 0x0000121c
-`LsaCreateSecret` | 3 (0x3) | Exported Function | advapi32.LsaCreateSecret | 0x000011e9
-`LsaClose` | 2 (0x2) | Exported Function | advapi32.LsaClose | 0x000011c7
-`LsaSetSecret` | 21 (0x15) | Exported Function | advapi32.LsaSetSecret | 0x00001554
-`LsaStorePrivateData` | 22 (0x16) | Exported Function | advapi32.LsaStorePrivateData | 0x0000157e
+Function Name | Ordinal | Type
+-- | -- | --
+`LsaOpenSecret` | 15 | Exported Function
+`LsaQueryInformationPolicy` | 16 | Exported Function
+`LsaOpenPolicy` | 14 | Exported Function
+`LsaLookupSids` | 12 | Exported Function
+`LsaLookupSids2` | 13 | Exported Function
+`LsaQuerySecret` | 17 | Exported Function
+`LsaSetSecret` | 21 | Exported Function
+`LsaStorePrivateData` | 22 | Exported Function
+`LsaSetInformationPolicy` | 20 | Exported Function
+`LsaRemoveAccountRights` | 18 | Exported Function
+`LsaRetrievePrivateData` | 19 | Exported Function
+`LsaEnumerateAccountRights` | 4 | Exported Function
+`LsaEnumerateAccountsWithUserRight` | 5 | Exported Function
+`LsaCreateSecret` | 3 | Exported Function
+`LsaAddAccountRights` | 1 | Exported Function
+`LsaClose` | 2 | Exported Function
+`LsaFreeMemory` | 6 | Exported Function
+`LsaICLookupSidsWithCreds` | 10 | Exported Function
+`LsaLookupNames2` | 11 | Exported Function
+`LsaICLookupSids` | 9 | Exported Function
+`LsaICLookupNames` | 7 | Exported Function
+`LsaICLookupNamesWithCreds` | 8 | Exported Function
 
 
 ## Signature

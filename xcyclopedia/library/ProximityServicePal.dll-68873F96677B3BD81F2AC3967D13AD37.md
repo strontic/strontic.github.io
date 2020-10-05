@@ -24,35 +24,35 @@ PE256 | `0FD30E2C9048BD2DCF169CA5B0532BAD7B06B0D7D4B5858C3F960AFD30D209FE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PAL_AllowNetworkInterface` | 1 (0x1) | Exported Function | 0x0000000180004dd0 | 0x00004dd0
-`PAL_UnregisterConnectedStandbyNotification` | 24 (0x18) | Exported Function | 0x0000000180005a40 | 0x00005a40
-`PAL_ServiceQueryTransientObjectSecurityAttribute` | 23 (0x17) | Exported Function | 0x0000000180004df0 | 0x00004df0
-`PAL_ServiceFreeTransientObjectSecurityAttribute` | 22 (0x16) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`PAL_RegisterConsoleDisplayStateNotifications` | 21 (0x15) | Exported Function | 0x0000000180001090 | 0x00001090
-`PAL_RegisterConnectedStandbyNotification` | 20 (0x14) | Exported Function | 0x00000001800058c0 | 0x000058c0
-`PAL_OpenProcessForQuery` | 19 (0x13) | Exported Function | 0x0000000180005860 | 0x00005860
-`PAL_IsMachineDomainJoined` | 18 (0x12) | Exported Function | 0x00000001800056f0 | 0x000056f0
-`PAL_IsInteractiveApplicationId` | 17 (0x11) | Exported Function | 0x0000000180005430 | 0x00005430
-`PAL_HasWFDHardwareSupport` | 16 (0x10) | Exported Function | 0x0000000180005420 | 0x00005420
-`PAL_GetConsoleSessionInfo` | 15 (0xf) | Exported Function | 0x0000000180001390 | 0x00001390
-`PAL_GetCallingApplicationInfo` | 14 (0xe) | Exported Function | 0x00000001800050d0 | 0x000050d0
-`PAL_UnregisterConsoleDisplayStateNotifications` | 25 (0x19) | Exported Function | 0x0000000180005ba0 | 0x00005ba0
-`PAL_FWResetIndicatedTupleInUse` | 13 (0xd) | Exported Function | 0x0000000180001730 | 0x00001730
-`PAL_DeleteUnicastIpAddressEntry` | 11 (0xb) | Exported Function | 0x0000000180005040 | 0x00005040
-`PAL_CreateUnicastIpAddressEntry` | 10 (0xa) | Exported Function | 0x0000000180005020 | 0x00005020
-`PAL_CreateForegroundNotifier` | 9 (0x9) | Exported Function | 0x0000000180005010 | 0x00005010
-`PAL_ConvertAppIdToPackageName` | 8 (0x8) | Exported Function | 0x0000000180005000 | 0x00005000
-`PAL_CoCreateInstanceInSession` | 27 (0x1b) | Exported Function | 0x0000000180006c10 | 0x00006c10
-`PAL_BluetoothOpenFirewall` | 7 (0x7) | Exported Function | 0x0000000180004e00 | 0x00004e00
-`PAL_BluetoothFindRadioClose` | 6 (0x6) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`PAL_BluetoothFindFirstRadio` | 5 (0x5) | Exported Function | 0x0000000180004df0 | 0x00004df0
-`PAL_BluetoothFindFirstDevice` | 4 (0x4) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`PAL_BluetoothFindDeviceClose` | 3 (0x3) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`PAL_BluetoothEnableDiscovery` | 2 (0x2) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`PAL_FWIndicateTupleInUse` | 12 (0xc) | Exported Function | 0x0000000180005060 | 0x00005060
-`PAL_VerifyCallerIsElevated` | 26 (0x1a) | Exported Function | 0x0000000180005be0 | 0x00005be0
+Function Name | Ordinal | Type
+-- | -- | --
+`PAL_IsInteractiveApplicationId` | 17 | Exported Function
+`PAL_IsMachineDomainJoined` | 18 | Exported Function
+`PAL_OpenProcessForQuery` | 19 | Exported Function
+`PAL_GetCallingApplicationInfo` | 14 | Exported Function
+`PAL_GetConsoleSessionInfo` | 15 | Exported Function
+`PAL_HasWFDHardwareSupport` | 16 | Exported Function
+`PAL_RegisterConnectedStandbyNotification` | 20 | Exported Function
+`PAL_UnregisterConnectedStandbyNotification` | 24 | Exported Function
+`PAL_UnregisterConsoleDisplayStateNotifications` | 25 | Exported Function
+`PAL_VerifyCallerIsElevated` | 26 | Exported Function
+`PAL_RegisterConsoleDisplayStateNotifications` | 21 | Exported Function
+`PAL_ServiceFreeTransientObjectSecurityAttribute` | 22 | Exported Function
+`PAL_ServiceQueryTransientObjectSecurityAttribute` | 23 | Exported Function
+`PAL_FWResetIndicatedTupleInUse` | 13 | Exported Function
+`PAL_BluetoothFindFirstDevice` | 4 | Exported Function
+`PAL_BluetoothFindFirstRadio` | 5 | Exported Function
+`PAL_BluetoothFindRadioClose` | 6 | Exported Function
+`PAL_AllowNetworkInterface` | 1 | Exported Function
+`PAL_BluetoothEnableDiscovery` | 2 | Exported Function
+`PAL_BluetoothFindDeviceClose` | 3 | Exported Function
+`PAL_BluetoothOpenFirewall` | 7 | Exported Function
+`PAL_CreateUnicastIpAddressEntry` | 10 | Exported Function
+`PAL_DeleteUnicastIpAddressEntry` | 11 | Exported Function
+`PAL_FWIndicateTupleInUse` | 12 | Exported Function
+`PAL_CoCreateInstanceInSession` | 27 | Exported Function
+`PAL_ConvertAppIdToPackageName` | 8 | Exported Function
+`PAL_CreateForegroundNotifier` | 9 | Exported Function
 
 
 ## Signature

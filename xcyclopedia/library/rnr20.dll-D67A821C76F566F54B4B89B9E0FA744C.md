@@ -24,9 +24,9 @@ PE256 | `C03D77D9E235C519F2B8C2864E472460CCEC93D69AD18FFEE93AB64C441BD1F4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NSPStartup` | 1 (0x1) | Exported Function | MSWSOCK.NSPStartup | 0x000010a7
+Function Name | Ordinal | Type
+-- | -- | --
+`NSPStartup` | 1 | Exported Function
 
 
 ## Signature

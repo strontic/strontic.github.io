@@ -24,14 +24,14 @@ PE256 | `176C39970EC05CF29D54D1BBB19490D170801929B4D073239E7BB972DA1B28E0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x5a8012d0 | 0x000012d0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x5a8012e0 | 0x000012e0
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x5a8012d0 | 0x000012d0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x5a8012d0 | 0x000012d0
-`PStoreCreateInstance` | 5 (0x5) | Exported Function | 0x5a8012f0 | 0x000012f0
-`PStoreEnumProviders` | 6 (0x6) | Exported Function | 0x5a801310 | 0x00001310
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 4 | Exported Function
+`PStoreCreateInstance` | 5 | Exported Function
+`PStoreEnumProviders` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

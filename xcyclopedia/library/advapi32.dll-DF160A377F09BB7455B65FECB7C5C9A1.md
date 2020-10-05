@@ -24,866 +24,865 @@ PE256 | `4099C1839B161DF6D37F31C364C960C5EC7A715E2E93B9873E44BC9C29684744`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`A_SHAFinal` | 1002 (0x3ea) | Exported Function | NTDLL.A_SHAFinal | 0x00091468
-`PerfRegQueryValue` | 1565 (0x61d) | Exported Function | 0x00000001800093d0 | 0x000093d0
-`PerfRegSetValue` | 1566 (0x61e) | Exported Function | 0x0000000180051da0 | 0x00051da0
-`PerfSetCounterRefValue` | 1567 (0x61f) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfSetCounterRefValue | 0x00094a3d
-`PerfSetCounterSetInfo` | 1568 (0x620) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfSetCounterSetInfo | 0x00094a8e
-`PerfSetULongCounterValue` | 1569 (0x621) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfSetULongCounterValue | 0x00094ae1
-`PerfSetULongLongCounterValue` | 1570 (0x622) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfSetULongLongCounterValue | 0x00094b3b
-`PerfStartProvider` | 1571 (0x623) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfStartProvider | 0x00094b8e
-`PerfStartProviderEx` | 1572 (0x624) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfStartProviderEx | 0x00094bd8
-`PerfStopProvider` | 1573 (0x625) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfStopProvider | 0x00094c21
-`PrivilegeCheck` | 1574 (0x626) | Exported Function | 0x000000018002e950 | 0x0002e950
-`PerfRegQueryInfoKey` | 1564 (0x61c) | Exported Function | 0x000000018001acf0 | 0x0001acf0
-`PrivilegedServiceAuditAlarmA` | 1575 (0x627) | Exported Function | 0x0000000180047160 | 0x00047160
-`ProcessIdleTasks` | 1577 (0x629) | Exported Function | 0x000000018002fb80 | 0x0002fb80
-`ProcessIdleTasksW` | 1578 (0x62a) | Exported Function | 0x000000018002fc10 | 0x0002fc10
-`ProcessTrace` | 1579 (0x62b) | Exported Function | 0x0000000180017a30 | 0x00017a30
-`QueryAllTracesA` | 1580 (0x62c) | Exported Function | 0x000000018001da90 | 0x0001da90
-`QueryAllTracesW` | 1581 (0x62d) | Exported Function | 0x00000001800042b0 | 0x000042b0
-`QueryLocalUserServiceName` | 1582 (0x62e) | Exported Function | 0x000000018001dc40 | 0x0001dc40
-`QueryRecoveryAgentsOnEncryptedFile` | 1583 (0x62f) | Exported Function | 0x000000018002caf0 | 0x0002caf0
-`QuerySecurityAccessMask` | 1584 (0x630) | Exported Function | 0x000000018002e990 | 0x0002e990
-`QueryServiceConfig2A` | 1585 (0x631) | Exported Function | 0x000000018002e9b0 | 0x0002e9b0
-`QueryServiceConfig2W` | 1586 (0x632) | Exported Function | 0x000000018001d0c0 | 0x0001d0c0
-`PrivilegedServiceAuditAlarmW` | 1576 (0x628) | Exported Function | 0x000000018002e970 | 0x0002e970
-`PerfRegEnumValue` | 1563 (0x61b) | Exported Function | 0x0000000180051c00 | 0x00051c00
-`PerfRegEnumKey` | 1562 (0x61a) | Exported Function | 0x0000000180051ba0 | 0x00051ba0
-`PerfRegCloseKey` | 1561 (0x619) | Exported Function | 0x0000000180011f20 | 0x00011f20
-`OpenThreadToken` | 1539 (0x603) | Exported Function | 0x0000000180016790 | 0x00016790
-`OpenThreadWaitChainSession` | 1540 (0x604) | Exported Function | 0x0000000180060ec0 | 0x00060ec0
-`OpenTraceA` | 1541 (0x605) | Exported Function | 0x00000001800417a0 | 0x000417a0
-`OpenTraceW` | 1542 (0x606) | Exported Function | 0x00000001800179f0 | 0x000179f0
-`OperationEnd` | 1543 (0x607) | Exported Function | 0x000000018002f540 | 0x0002f540
-`OperationStart` | 1544 (0x608) | Exported Function | 0x000000018002f640 | 0x0002f640
-`Ordinal1000` | 1000 (0x3e8) | Exported Function | 0x0000000180037410 | 0x00037410
-`PerfAddCounters` | 1545 (0x609) | Exported Function | 0x0000000180001010 | 0x00001010
-`PerfCloseQueryHandle` | 1546 (0x60a) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`PerfCreateInstance` | 1547 (0x60b) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfCreateInstance | 0x000946b1
-`PerfDecrementULongCounterValue` | 1548 (0x60c) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfDecrementULongCounterValue | 0x00094707
-`PerfDecrementULongLongCounterValue` | 1549 (0x60d) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfDecrementULongLongCounterValue | 0x0009476d
-`PerfDeleteCounters` | 1550 (0x60e) | Exported Function | 0x0000000180042260 | 0x00042260
-`PerfDeleteInstance` | 1551 (0x60f) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfDeleteInstance | 0x000947da
-`PerfEnumerateCounterSet` | 1552 (0x610) | Exported Function | 0x0000000180005da0 | 0x00005da0
-`PerfEnumerateCounterSetInstances` | 1553 (0x611) | Exported Function | 0x0000000180002b40 | 0x00002b40
-`PerfIncrementULongCounterValue` | 1554 (0x612) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfIncrementULongCounterValue | 0x00094869
-`PerfIncrementULongLongCounterValue` | 1555 (0x613) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfIncrementULongLongCounterValue | 0x000948cf
-`PerfOpenQueryHandle` | 1556 (0x614) | Exported Function | 0x0000000180003d60 | 0x00003d60
-`PerfQueryCounterData` | 1557 (0x615) | Exported Function | 0x0000000180001b10 | 0x00001b10
-`PerfQueryCounterInfo` | 1558 (0x616) | Exported Function | 0x00000001800010e0 | 0x000010e0
-`PerfQueryCounterSetRegistrationInfo` | 1559 (0x617) | Exported Function | 0x0000000180005b80 | 0x00005b80
-`PerfQueryInstance` | 1560 (0x618) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfQueryInstance | 0x0009498a
-`QueryServiceConfigA` | 1587 (0x633) | Exported Function | 0x000000018002e9d0 | 0x0002e9d0
-`QueryServiceConfigW` | 1588 (0x634) | Exported Function | 0x00000001800178f0 | 0x000178f0
-`QueryServiceDynamicInformation` | 1589 (0x635) | Exported Function | 0x000000018002e9f0 | 0x0002e9f0
-`QueryServiceLockStatusA` | 1590 (0x636) | Exported Function | 0x0000000180044df0 | 0x00044df0
-`RegDeleteKeyExA` | 1618 (0x652) | Exported Function | 0x000000018002ea70 | 0x0002ea70
-`RegDeleteKeyExW` | 1619 (0x653) | Exported Function | 0x000000018002ea90 | 0x0002ea90
-`RegDeleteKeyTransactedA` | 1620 (0x654) | Exported Function | 0x0000000180042d70 | 0x00042d70
-`RegDeleteKeyTransactedW` | 1621 (0x655) | Exported Function | 0x00000001800441a0 | 0x000441a0
-`RegDeleteKeyValueA` | 1622 (0x656) | Exported Function | 0x000000018002eab0 | 0x0002eab0
-`RegDeleteKeyValueW` | 1623 (0x657) | Exported Function | 0x000000018001d1e0 | 0x0001d1e0
-`RegDeleteKeyW` | 1624 (0x658) | Exported Function | 0x0000000180016ae0 | 0x00016ae0
-`RegDeleteTreeA` | 1625 (0x659) | Exported Function | 0x000000018002ead0 | 0x0002ead0
-`RegDeleteTreeW` | 1626 (0x65a) | Exported Function | 0x000000018002eaf0 | 0x0002eaf0
-`RegDeleteValueA` | 1627 (0x65b) | Exported Function | 0x00000001800042d0 | 0x000042d0
-`RegDeleteValueW` | 1628 (0x65c) | Exported Function | 0x00000001800194e0 | 0x000194e0
-`RegDisablePredefinedCache` | 1629 (0x65d) | Exported Function | 0x00000001800178a0 | 0x000178a0
-`RegDisablePredefinedCacheEx` | 1630 (0x65e) | Exported Function | 0x000000018002eb10 | 0x0002eb10
-`RegDisableReflectionKey` | 1631 (0x65f) | Exported Function | 0x0000000180019260 | 0x00019260
-`RegEnableReflectionKey` | 1632 (0x660) | Exported Function | 0x0000000180019260 | 0x00019260
-`RegEnumKeyA` | 1633 (0x661) | Exported Function | 0x000000018001ba70 | 0x0001ba70
-`RegEnumKeyExA` | 1634 (0x662) | Exported Function | 0x0000000180003f90 | 0x00003f90
-`RegEnumKeyExW` | 1635 (0x663) | Exported Function | 0x00000001800157a0 | 0x000157a0
-`RegEnumKeyW` | 1636 (0x664) | Exported Function | 0x0000000180016460 | 0x00016460
-`RegEnumValueA` | 1637 (0x665) | Exported Function | 0x000000018002eb30 | 0x0002eb30
-`RegEnumValueW` | 1638 (0x666) | Exported Function | 0x0000000180016700 | 0x00016700
-`RegFlushKey` | 1639 (0x667) | Exported Function | 0x000000018001b080 | 0x0001b080
-`RegGetKeySecurity` | 1640 (0x668) | Exported Function | 0x000000018001cfc0 | 0x0001cfc0
-`RegDeleteKeyA` | 1617 (0x651) | Exported Function | 0x0000000180003f30 | 0x00003f30
-`OpenServiceW` | 1538 (0x602) | Exported Function | 0x0000000180017880 | 0x00017880
-`RegCreateKeyW` | 1616 (0x650) | Exported Function | 0x0000000180016d90 | 0x00016d90
-`RegCreateKeyTransactedA` | 1614 (0x64e) | Exported Function | 0x0000000180042b80 | 0x00042b80
-`QueryServiceLockStatusW` | 1591 (0x637) | Exported Function | 0x0000000180044f80 | 0x00044f80
-`QueryServiceObjectSecurity` | 1592 (0x638) | Exported Function | 0x000000018002ea10 | 0x0002ea10
-`QueryServiceStatus` | 1593 (0x639) | Exported Function | 0x000000018001d110 | 0x0001d110
-`QueryServiceStatusEx` | 1594 (0x63a) | Exported Function | 0x0000000180017990 | 0x00017990
-`QueryTraceA` | 1595 (0x63b) | Exported Function | 0x0000000180041620 | 0x00041620
-`QueryTraceProcessingHandle` | 1596 (0x63c) | Exported Function | 0x000000018002ea30 | 0x0002ea30
-`QueryTraceW` | 1597 (0x63d) | Exported Function | 0x000000018001d0e0 | 0x0001d0e0
-`QueryUserServiceName` | 1598 (0x63e) | Exported Function | 0x000000018001dc50 | 0x0001dc50
-`QueryUserServiceNameForContext` | 1599 (0x63f) | Exported Function | 0x000000018001dc60 | 0x0001dc60
-`QueryUsersOnEncryptedFile` | 1600 (0x640) | Exported Function | 0x000000018002cb70 | 0x0002cb70
-`ReadEncryptedFileRaw` | 1601 (0x641) | Exported Function | 0x000000018002cbf0 | 0x0002cbf0
-`ReadEventLogA` | 1602 (0x642) | Exported Function | 0x000000018004fc60 | 0x0004fc60
-`ReadEventLogW` | 1603 (0x643) | Exported Function | 0x000000018004fd00 | 0x0004fd00
-`RegCloseKey` | 1604 (0x644) | Exported Function | 0x0000000180016750 | 0x00016750
-`RegConnectRegistryA` | 1605 (0x645) | Exported Function | 0x0000000180042740 | 0x00042740
-`RegConnectRegistryExA` | 1606 (0x646) | Exported Function | 0x0000000180042760 | 0x00042760
-`RegConnectRegistryExW` | 1607 (0x647) | Exported Function | 0x000000018001b710 | 0x0001b710
-`RegConnectRegistryW` | 1608 (0x648) | Exported Function | 0x000000018001b6f0 | 0x0001b6f0
-`RegCopyTreeA` | 1609 (0x649) | Exported Function | 0x0000000180042a70 | 0x00042a70
-`RegCopyTreeW` | 1610 (0x64a) | Exported Function | 0x000000018002ea50 | 0x0002ea50
-`RegCreateKeyA` | 1611 (0x64b) | Exported Function | 0x0000000180042af0 | 0x00042af0
-`RegCreateKeyExA` | 1612 (0x64c) | Exported Function | 0x00000001800176c0 | 0x000176c0
-`RegCreateKeyExW` | 1613 (0x64d) | Exported Function | 0x0000000180016ac0 | 0x00016ac0
-`RegCreateKeyTransactedW` | 1615 (0x64f) | Exported Function | 0x000000018001c670 | 0x0001c670
-`RegGetValueA` | 1641 (0x669) | Exported Function | 0x000000018002eb80 | 0x0002eb80
-`OpenServiceA` | 1537 (0x601) | Exported Function | 0x000000018002e930 | 0x0002e930
-`OpenSCManagerA` | 1535 (0x5ff) | Exported Function | 0x0000000180017b10 | 0x00017b10
-`LsaICLookupNamesWithCreds` | 1459 (0x5b3) | Exported Function | 0x000000018002e5d0 | 0x0002e5d0
-`LsaICLookupSids` | 1460 (0x5b4) | Exported Function | 0x000000018002e650 | 0x0002e650
-`LsaICLookupSidsWithCreds` | 1461 (0x5b5) | Exported Function | 0x000000018002e660 | 0x0002e660
-`LsaLookupNames` | 1462 (0x5b6) | Exported Function | 0x0000000180031030 | 0x00031030
-`LsaLookupNames2` | 1463 (0x5b7) | Exported Function | 0x000000018002e6e0 | 0x0002e6e0
-`LsaLookupPrivilegeDisplayName` | 1464 (0x5b8) | Exported Function | 0x00000001800311c0 | 0x000311c0
-`LsaLookupPrivilegeName` | 1465 (0x5b9) | Exported Function | 0x00000001800314d0 | 0x000314d0
-`LsaLookupPrivilegeValue` | 1466 (0x5ba) | Exported Function | 0x000000018000f900 | 0x0000f900
-`LsaLookupSids` | 1467 (0x5bb) | Exported Function | 0x000000018001b820 | 0x0001b820
-`LsaLookupSids2` | 1468 (0x5bc) | Exported Function | 0x000000018002e6f0 | 0x0002e6f0
-`LsaICLookupNames` | 1458 (0x5b2) | Exported Function | 0x000000018002e570 | 0x0002e570
-`LsaManageSidNameMapping` | 1469 (0x5bd) | Exported Function | 0x0000000180032650 | 0x00032650
-`LsaOpenAccount` | 1471 (0x5bf) | Exported Function | 0x0000000180031590 | 0x00031590
-`LsaOpenPolicy` | 1472 (0x5c0) | Exported Function | 0x000000018001ba30 | 0x0001ba30
-`LsaOpenPolicySce` | 1473 (0x5c1) | Exported Function | 0x00000001800316a0 | 0x000316a0
-`LsaOpenSecret` | 1474 (0x5c2) | Exported Function | 0x000000018002e700 | 0x0002e700
-`LsaOpenTrustedDomain` | 1475 (0x5c3) | Exported Function | 0x00000001800317b0 | 0x000317b0
-`LsaOpenTrustedDomainByName` | 1476 (0x5c4) | Exported Function | 0x00000001800327b0 | 0x000327b0
-`LsaQueryCAPs` | 1477 (0x5c5) | Exported Function | 0x00000001800318c0 | 0x000318c0
-`LsaQueryDomainInformationPolicy` | 1478 (0x5c6) | Exported Function | 0x00000001800328c0 | 0x000328c0
-`LsaQueryForestTrustInformation` | 1479 (0x5c7) | Exported Function | 0x0000000180032970 | 0x00032970
-`LsaQueryInformationPolicy` | 1481 (0x5c9) | Exported Function | 0x000000018001ba40 | 0x0001ba40
-`LsaNtStatusToWinError` | 1470 (0x5be) | Exported Function | 0x0000000180015e00 | 0x00015e00
-`LsaGetUserName` | 1457 (0x5b1) | Exported Function | 0x00000001800119e0 | 0x000119e0
-`LsaGetSystemAccessAccount` | 1456 (0x5b0) | Exported Function | 0x0000000180030fa0 | 0x00030fa0
-`LsaGetRemoteUserName` | 1455 (0x5af) | Exported Function | 0x0000000180030da0 | 0x00030da0
-`LookupPrivilegeValueW` | 1432 (0x598) | Exported Function | 0x000000018000f7f0 | 0x0000f7f0
-`LookupSecurityDescriptorPartsA` | 1433 (0x599) | Exported Function | 0x000000018003ca50 | 0x0003ca50
-`LookupSecurityDescriptorPartsW` | 1434 (0x59a) | Exported Function | 0x000000018003cd20 | 0x0003cd20
-`LsaAddAccountRights` | 1435 (0x59b) | Exported Function | 0x000000018002e520 | 0x0002e520
-`LsaAddPrivilegesToAccount` | 1436 (0x59c) | Exported Function | 0x0000000180030510 | 0x00030510
-`LsaClearAuditLog` | 1437 (0x59d) | Exported Function | 0x00000001800305a0 | 0x000305a0
-`LsaClose` | 1438 (0x59e) | Exported Function | 0x000000018001ba20 | 0x0001ba20
-`LsaCreateAccount` | 1439 (0x59f) | Exported Function | 0x0000000180030630 | 0x00030630
-`LsaCreateSecret` | 1440 (0x5a0) | Exported Function | 0x000000018002e530 | 0x0002e530
-`LsaCreateTrustedDomain` | 1441 (0x5a1) | Exported Function | 0x0000000180030740 | 0x00030740
-`LsaCreateTrustedDomainEx` | 1442 (0x5a2) | Exported Function | 0x0000000180032380 | 0x00032380
-`LsaDelete` | 1443 (0x5a3) | Exported Function | 0x000000018002e540 | 0x0002e540
-`LsaDeleteTrustedDomain` | 1444 (0x5a4) | Exported Function | 0x00000001800324d0 | 0x000324d0
-`LsaEnumerateAccountRights` | 1445 (0x5a5) | Exported Function | 0x000000018002e550 | 0x0002e550
-`LsaEnumerateAccounts` | 1446 (0x5a6) | Exported Function | 0x0000000180030850 | 0x00030850
-`LsaEnumerateAccountsWithUserRight` | 1447 (0x5a7) | Exported Function | 0x000000018002e560 | 0x0002e560
-`LsaEnumeratePrivileges` | 1448 (0x5a8) | Exported Function | 0x0000000180030930 | 0x00030930
-`LsaEnumeratePrivilegesOfAccount` | 1449 (0x5a9) | Exported Function | 0x0000000180030a10 | 0x00030a10
-`LsaEnumerateTrustedDomains` | 1450 (0x5aa) | Exported Function | 0x0000000180030aa0 | 0x00030aa0
-`LsaEnumerateTrustedDomainsEx` | 1451 (0x5ab) | Exported Function | 0x0000000180032560 | 0x00032560
-`LsaFreeMemory` | 1452 (0x5ac) | Exported Function | 0x000000018001b850 | 0x0001b850
-`LsaGetAppliedCAPIDs` | 1453 (0x5ad) | Exported Function | 0x0000000180030b90 | 0x00030b90
-`LsaGetQuotasForAccount` | 1454 (0x5ae) | Exported Function | 0x0000000180030d10 | 0x00030d10
-`LsaQueryInfoTrustedDomain` | 1480 (0x5c8) | Exported Function | 0x0000000180031a40 | 0x00031a40
-`LsaQuerySecret` | 1482 (0x5ca) | Exported Function | 0x000000018002e710 | 0x0002e710
-`LsaQuerySecurityObject` | 1483 (0x5cb) | Exported Function | 0x0000000180031b20 | 0x00031b20
-`LsaQueryTrustedDomainInfo` | 1484 (0x5cc) | Exported Function | 0x0000000180032a10 | 0x00032a10
-`MSChapSrvChangePassword` | 1508 (0x5e4) | Exported Function | 0x000000018002ef20 | 0x0002ef20
-`MSChapSrvChangePassword2` | 1509 (0x5e5) | Exported Function | 0x000000018002f1e0 | 0x0002f1e0
-`NotifyBootConfigStatus` | 1514 (0x5ea) | Exported Function | 0x000000018001c610 | 0x0001c610
-`NotifyChangeEventLog` | 1515 (0x5eb) | Exported Function | 0x000000018004f990 | 0x0004f990
-`NotifyServiceStatusChange` | 1516 (0x5ec) | Exported Function | 0x000000018001dc10 | 0x0001dc10
-`NotifyServiceStatusChangeA` | 1517 (0x5ed) | Exported Function | 0x000000018002e830 | 0x0002e830
-`NotifyServiceStatusChangeW` | 1518 (0x5ee) | Exported Function | 0x000000018001d150 | 0x0001d150
-`NpGetUserName` | 1519 (0x5ef) | Exported Function | 0x0000000180047ea0 | 0x00047ea0
-`ObjectCloseAuditAlarmA` | 1520 (0x5f0) | Exported Function | 0x0000000180046d70 | 0x00046d70
-`ObjectCloseAuditAlarmW` | 1521 (0x5f1) | Exported Function | 0x000000018002e850 | 0x0002e850
-`ObjectDeleteAuditAlarmA` | 1522 (0x5f2) | Exported Function | 0x0000000180046e20 | 0x00046e20
-`ObjectDeleteAuditAlarmW` | 1523 (0x5f3) | Exported Function | 0x000000018002e870 | 0x0002e870
-`ObjectOpenAuditAlarmA` | 1524 (0x5f4) | Exported Function | 0x0000000180046ed0 | 0x00046ed0
-`ObjectOpenAuditAlarmW` | 1525 (0x5f5) | Exported Function | 0x000000018002e890 | 0x0002e890
-`ObjectPrivilegeAuditAlarmA` | 1526 (0x5f6) | Exported Function | 0x0000000180047090 | 0x00047090
-`ObjectPrivilegeAuditAlarmW` | 1527 (0x5f7) | Exported Function | 0x000000018002e910 | 0x0002e910
-`OpenBackupEventLogA` | 1528 (0x5f8) | Exported Function | 0x000000018004f9d0 | 0x0004f9d0
-`OpenBackupEventLogW` | 1529 (0x5f9) | Exported Function | 0x000000018004faf0 | 0x0004faf0
-`OpenEncryptedFileRawA` | 1530 (0x5fa) | Exported Function | 0x000000018002c9c0 | 0x0002c9c0
-`OpenEncryptedFileRawW` | 1531 (0x5fb) | Exported Function | 0x000000018002ca80 | 0x0002ca80
-`OpenEventLogA` | 1532 (0x5fc) | Exported Function | 0x000000018004fbd0 | 0x0004fbd0
-`OpenEventLogW` | 1533 (0x5fd) | Exported Function | 0x000000018001c0d0 | 0x0001c0d0
-`OpenProcessToken` | 1534 (0x5fe) | Exported Function | 0x00000001800167b0 | 0x000167b0
-`MIDL_user_free_Ext` | 1507 (0x5e3) | Exported Function | 0x0000000180016c60 | 0x00016c60
-`OpenSCManagerW` | 1536 (0x600) | Exported Function | 0x0000000180017660 | 0x00017660
-`MD5Update` | 1506 (0x5e2) | Exported Function | NTDLL.MD5Update | 0x00094384
-`MD5Final` | 1504 (0x5e0) | Exported Function | NTDLL.MD5Final | 0x00094355
-`LsaQueryTrustedDomainInfoByName` | 1485 (0x5cd) | Exported Function | 0x0000000180032b00 | 0x00032b00
-`LsaRemoveAccountRights` | 1486 (0x5ce) | Exported Function | 0x000000018002e720 | 0x0002e720
-`LsaRemovePrivilegesFromAccount` | 1487 (0x5cf) | Exported Function | 0x0000000180031bf0 | 0x00031bf0
-`LsaRetrievePrivateData` | 1488 (0x5d0) | Exported Function | 0x000000018002e730 | 0x0002e730
-`LsaSetCAPs` | 1489 (0x5d1) | Exported Function | 0x0000000180031c90 | 0x00031c90
-`LsaSetDomainInformationPolicy` | 1490 (0x5d2) | Exported Function | 0x0000000180032bb0 | 0x00032bb0
-`LsaSetForestTrustInformation` | 1491 (0x5d3) | Exported Function | 0x0000000180032c50 | 0x00032c50
-`LsaSetInformationPolicy` | 1492 (0x5d4) | Exported Function | 0x000000018002e740 | 0x0002e740
-`LsaSetInformationTrustedDomain` | 1493 (0x5d5) | Exported Function | 0x0000000180031de0 | 0x00031de0
-`LsaSetQuotasForAccount` | 1494 (0x5d6) | Exported Function | 0x0000000180032040 | 0x00032040
-`LsaSetSecret` | 1495 (0x5d7) | Exported Function | 0x000000018002e750 | 0x0002e750
-`LsaSetSecurityObject` | 1496 (0x5d8) | Exported Function | 0x00000001800320d0 | 0x000320d0
-`LsaSetSystemAccessAccount` | 1497 (0x5d9) | Exported Function | 0x0000000180032230 | 0x00032230
-`LsaSetTrustedDomainInfoByName` | 1498 (0x5da) | Exported Function | 0x0000000180032d10 | 0x00032d10
-`LsaSetTrustedDomainInformation` | 1499 (0x5db) | Exported Function | 0x0000000180032f90 | 0x00032f90
-`LsaStorePrivateData` | 1500 (0x5dc) | Exported Function | 0x000000018002e7c0 | 0x0002e7c0
-`MakeAbsoluteSD` | 1510 (0x5e6) | Exported Function | 0x000000018001ce60 | 0x0001ce60
-`MakeAbsoluteSD2` | 1511 (0x5e7) | Exported Function | 0x000000018002e7d0 | 0x0002e7d0
-`MakeSelfRelativeSD` | 1512 (0x5e8) | Exported Function | 0x000000018002e7f0 | 0x0002e7f0
-`MapGenericMask` | 1513 (0x5e9) | Exported Function | 0x000000018002e810 | 0x0002e810
-`MD4Final` | 1501 (0x5dd) | Exported Function | NTDLL.MD4Final | 0x0009430d
-`MD4Init` | 1502 (0x5de) | Exported Function | NTDLL.MD4Init | 0x00094324
-`MD4Update` | 1503 (0x5df) | Exported Function | NTDLL.MD4Update | 0x0009433c
-`MD5Init` | 1505 (0x5e1) | Exported Function | NTDLL.MD5Init | 0x0009436c
-`RegGetValueW` | 1642 (0x66a) | Exported Function | 0x000000018001b040 | 0x0001b040
-`RegisterEventSourceA` | 1686 (0x696) | Exported Function | 0x000000018004fd90 | 0x0004fd90
-`RegisterEventSourceW` | 1687 (0x697) | Exported Function | 0x00000001800183a0 | 0x000183a0
-`SystemFunction012` | 1780 (0x6f4) | Exported Function | CRYPTSP.SystemFunction012 | 0x00095e10
-`SystemFunction013` | 1781 (0x6f5) | Exported Function | CRYPTSP.SystemFunction013 | 0x00095e3c
-`SystemFunction014` | 1782 (0x6f6) | Exported Function | CRYPTSP.SystemFunction014 | 0x00095e68
-`SystemFunction015` | 1783 (0x6f7) | Exported Function | CRYPTSP.SystemFunction015 | 0x00095e94
-`SystemFunction016` | 1784 (0x6f8) | Exported Function | CRYPTSP.SystemFunction016 | 0x00095ec0
-`SystemFunction017` | 1785 (0x6f9) | Exported Function | 0x000000018002fc50 | 0x0002fc50
-`SystemFunction018` | 1786 (0x6fa) | Exported Function | CRYPTSP.SystemFunction018 | 0x00095efe
-`SystemFunction019` | 1787 (0x6fb) | Exported Function | 0x000000018002fcb0 | 0x0002fcb0
-`SystemFunction020` | 1788 (0x6fc) | Exported Function | CRYPTSP.SystemFunction020 | 0x00095f3c
-`SystemFunction021` | 1789 (0x6fd) | Exported Function | CRYPTSP.SystemFunction021 | 0x00095f68
-`SystemFunction011` | 1779 (0x6f3) | Exported Function | CRYPTSP.SystemFunction011 | 0x00095de4
-`SystemFunction022` | 1790 (0x6fe) | Exported Function | CRYPTSP.SystemFunction022 | 0x00095f94
-`SystemFunction024` | 1792 (0x700) | Exported Function | CRYPTSP.SystemFunction024 | 0x00095fec
-`SystemFunction025` | 1793 (0x701) | Exported Function | CRYPTSP.SystemFunction025 | 0x00096018
-`SystemFunction026` | 1794 (0x702) | Exported Function | CRYPTSP.SystemFunction026 | 0x00096044
-`SystemFunction027` | 1795 (0x703) | Exported Function | CRYPTSP.SystemFunction027 | 0x00096070
-`SystemFunction028` | 1796 (0x704) | Exported Function | CRYPTBASE.SystemFunction028 | 0x0009609c
-`SystemFunction029` | 1797 (0x705) | Exported Function | CRYPTBASE.SystemFunction029 | 0x000960ca
-`SystemFunction030` | 1798 (0x706) | Exported Function | CRYPTSP.SystemFunction030 | 0x000960f8
-`SystemFunction031` | 1799 (0x707) | Exported Function | CRYPTSP.SystemFunction031 | 0x00096124
-`SystemFunction032` | 1800 (0x708) | Exported Function | CRYPTSP.SystemFunction032 | 0x00096150
-`SystemFunction033` | 1801 (0x709) | Exported Function | CRYPTSP.SystemFunction033 | 0x0009617c
-`SystemFunction023` | 1791 (0x6ff) | Exported Function | CRYPTSP.SystemFunction023 | 0x00095fc0
-`SystemFunction010` | 1778 (0x6f2) | Exported Function | CRYPTSP.SystemFunction010 | 0x00095db8
-`SystemFunction009` | 1777 (0x6f1) | Exported Function | CRYPTSP.SystemFunction009 | 0x00095d8c
-`SystemFunction008` | 1776 (0x6f0) | Exported Function | CRYPTSP.SystemFunction008 | 0x00095d60
-`SetServiceBits` | 1753 (0x6d9) | Exported Function | 0x0000000180045130 | 0x00045130
-`SetServiceObjectSecurity` | 1754 (0x6da) | Exported Function | 0x000000018002ee60 | 0x0002ee60
-`SetServiceStatus` | 1755 (0x6db) | Exported Function | 0x0000000180017860 | 0x00017860
-`SetThreadToken` | 1756 (0x6dc) | Exported Function | 0x0000000180016d50 | 0x00016d50
-`SetTokenInformation` | 1757 (0x6dd) | Exported Function | 0x000000018002ee80 | 0x0002ee80
-`SetTraceCallback` | 1758 (0x6de) | Exported Function | sechost.SetTraceCallback | 0x00095b41
-`SetUserFileEncryptionKey` | 1759 (0x6df) | Exported Function | 0x000000018002cc90 | 0x0002cc90
-`SetUserFileEncryptionKeyEx` | 1760 (0x6e0) | Exported Function | 0x000000018002ccf0 | 0x0002ccf0
-`StartServiceA` | 1761 (0x6e1) | Exported Function | 0x000000018002eea0 | 0x0002eea0
-`StartServiceCtrlDispatcherA` | 1762 (0x6e2) | Exported Function | 0x000000018001bcb0 | 0x0001bcb0
-`StartServiceCtrlDispatcherW` | 1763 (0x6e3) | Exported Function | 0x0000000180017a70 | 0x00017a70
-`StartServiceW` | 1764 (0x6e4) | Exported Function | 0x000000018001d0f0 | 0x0001d0f0
-`StartTraceA` | 1765 (0x6e5) | Exported Function | 0x000000018001daa0 | 0x0001daa0
-`StartTraceW` | 1766 (0x6e6) | Exported Function | 0x0000000180004290 | 0x00004290
-`StopTraceA` | 1767 (0x6e7) | Exported Function | 0x0000000180041640 | 0x00041640
-`StopTraceW` | 1768 (0x6e8) | Exported Function | 0x000000018002eec0 | 0x0002eec0
-`SystemFunction001` | 1769 (0x6e9) | Exported Function | CRYPTBASE.SystemFunction001 | 0x00095c22
-`SystemFunction002` | 1770 (0x6ea) | Exported Function | CRYPTBASE.SystemFunction002 | 0x00095c50
-`SystemFunction003` | 1771 (0x6eb) | Exported Function | CRYPTBASE.SystemFunction003 | 0x00095c7e
-`SystemFunction004` | 1772 (0x6ec) | Exported Function | CRYPTBASE.SystemFunction004 | 0x00095cac
-`SystemFunction005` | 1773 (0x6ed) | Exported Function | CRYPTBASE.SystemFunction005 | 0x00095cda
-`SystemFunction006` | 1774 (0x6ee) | Exported Function | CRYPTSP.SystemFunction006 | 0x00095d08
-`SystemFunction007` | 1775 (0x6ef) | Exported Function | CRYPTSP.SystemFunction007 | 0x00095d34
-`SystemFunction034` | 1802 (0x70a) | Exported Function | CRYPTBASE.SystemFunction034 | 0x000961a8
-`SystemFunction035` | 1803 (0x70b) | Exported Function | CRYPTSP.CheckSignatureInFile | 0x000961d6
-`SystemFunction036` | 1804 (0x70c) | Exported Function | CRYPTBASE.SystemFunction036 | 0x00096205
-`SystemFunction040` | 1805 (0x70d) | Exported Function | CRYPTBASE.SystemFunction040 | 0x00096233
-`WmiExecuteMethodW` | 1833 (0x729) | Exported Function | 0x00000001800585c0 | 0x000585c0
-`WmiFileHandleToInstanceNameA` | 1834 (0x72a) | Exported Function | 0x0000000180058940 | 0x00058940
-`WmiFileHandleToInstanceNameW` | 1835 (0x72b) | Exported Function | 0x0000000180058bb0 | 0x00058bb0
-`WmiFreeBuffer` | 1836 (0x72c) | Exported Function | 0x0000000180058db0 | 0x00058db0
-`WmiMofEnumerateResourcesA` | 1837 (0x72d) | Exported Function | 0x000000018005a780 | 0x0005a780
-`WmiMofEnumerateResourcesW` | 1838 (0x72e) | Exported Function | 0x000000018005a9c0 | 0x0005a9c0
-`WmiNotificationRegistrationA` | 1839 (0x72f) | Exported Function | 0x0000000180058e00 | 0x00058e00
-`WmiNotificationRegistrationW` | 1840 (0x730) | Exported Function | 0x0000000180058e90 | 0x00058e90
-`WmiOpenBlock` | 1841 (0x731) | Exported Function | 0x0000000180058f20 | 0x00058f20
-`WmiQueryAllDataA` | 1842 (0x732) | Exported Function | 0x0000000180059020 | 0x00059020
-`WmiQueryAllDataMultipleA` | 1843 (0x733) | Exported Function | 0x0000000180059090 | 0x00059090
-`WmiQueryAllDataMultipleW` | 1844 (0x734) | Exported Function | 0x0000000180059120 | 0x00059120
-`WmiQueryAllDataW` | 1845 (0x735) | Exported Function | 0x0000000180059350 | 0x00059350
-`WmiQueryGuidInformation` | 1846 (0x736) | Exported Function | 0x00000001800595c0 | 0x000595c0
-`WmiQuerySingleInstanceA` | 1847 (0x737) | Exported Function | 0x0000000180059680 | 0x00059680
-`WmiQuerySingleInstanceMultipleA` | 1848 (0x738) | Exported Function | 0x0000000180059770 | 0x00059770
-`WmiQuerySingleInstanceMultipleW` | 1849 (0x739) | Exported Function | 0x0000000180059920 | 0x00059920
-`WmiQuerySingleInstanceW` | 1850 (0x73a) | Exported Function | 0x0000000180059b80 | 0x00059b80
-`WmiReceiveNotificationsA` | 1851 (0x73b) | Exported Function | 0x0000000180059e10 | 0x00059e10
-`WmiReceiveNotificationsW` | 1852 (0x73c) | Exported Function | 0x0000000180059e90 | 0x00059e90
-`WmiSetSingleInstanceA` | 1853 (0x73d) | Exported Function | 0x0000000180059f10 | 0x00059f10
-`WmiSetSingleInstanceW` | 1854 (0x73e) | Exported Function | 0x0000000180059fe0 | 0x00059fe0
-`WmiSetSingleItemA` | 1855 (0x73f) | Exported Function | 0x000000018005a1d0 | 0x0005a1d0
-`WmiExecuteMethodA` | 1832 (0x728) | Exported Function | 0x00000001800584c0 | 0x000584c0
-`SetSecurityInfoExW` | 1752 (0x6d8) | Exported Function | 0x000000018003fc20 | 0x0003fc20
-`WmiEnumerateGuids` | 1831 (0x727) | Exported Function | 0x00000001800582f0 | 0x000582f0
-`WmiDevInstToInstanceNameA` | 1829 (0x725) | Exported Function | 0x0000000180058110 | 0x00058110
-`SystemFunction041` | 1806 (0x70e) | Exported Function | CRYPTBASE.SystemFunction041 | 0x00096261
-`TraceEvent` | 1807 (0x70f) | Exported Function | ntdll.EtwLogTraceEvent | 0x00096288
-`TraceEventInstance` | 1808 (0x710) | Exported Function | ntdll.EtwTraceEventInstance | 0x000962b2
-`TraceMessage` | 1809 (0x711) | Exported Function | ntdll.EtwTraceMessage | 0x000962db
-`TraceMessageVa` | 1810 (0x712) | Exported Function | ntdll.EtwTraceMessageVa | 0x00096300
-`TraceQueryInformation` | 1811 (0x713) | Exported Function | api-ms-win-eventing-controller-l1-1-0.TraceQueryInformation | 0x0009632e
-`TraceSetInformation` | 1812 (0x714) | Exported Function | 0x000000018002eee0 | 0x0002eee0
-`TreeResetNamedSecurityInfoA` | 1813 (0x715) | Exported Function | 0x000000018003c8d0 | 0x0003c8d0
-`TreeResetNamedSecurityInfoW` | 1814 (0x716) | Exported Function | 0x0000000180004020 | 0x00004020
-`TreeSetNamedSecurityInfoA` | 1815 (0x717) | Exported Function | 0x000000018003c8d0 | 0x0003c8d0
-`TreeSetNamedSecurityInfoW` | 1816 (0x718) | Exported Function | 0x000000018003d230 | 0x0003d230
-`TrusteeAccessToObjectA` | 1817 (0x719) | Exported Function | 0x000000018003ff30 | 0x0003ff30
-`TrusteeAccessToObjectW` | 1818 (0x71a) | Exported Function | 0x0000000180040190 | 0x00040190
-`UninstallApplication` | 1819 (0x71b) | Exported Function | 0x0000000180034410 | 0x00034410
-`UnlockServiceDatabase` | 1820 (0x71c) | Exported Function | 0x0000000180045170 | 0x00045170
-`UnregisterIdleTask` | 1821 (0x71d) | Exported Function | 0x000000018002fc30 | 0x0002fc30
-`UnregisterTraceGuids` | 1822 (0x71e) | Exported Function | ntdll.EtwUnregisterTraceGuids | 0x0009646b
-`UpdateTraceA` | 1823 (0x71f) | Exported Function | 0x0000000180041660 | 0x00041660
-`UpdateTraceW` | 1824 (0x720) | Exported Function | 0x0000000180041680 | 0x00041680
-`UsePinForEncryptedFilesA` | 1825 (0x721) | Exported Function | 0x000000018002ce00 | 0x0002ce00
-`UsePinForEncryptedFilesW` | 1826 (0x722) | Exported Function | 0x000000018002ce90 | 0x0002ce90
-`WaitServiceState` | 1827 (0x723) | Exported Function | 0x000000018002ef00 | 0x0002ef00
-`WmiCloseBlock` | 1828 (0x724) | Exported Function | 0x0000000180058090 | 0x00058090
-`WmiDevInstToInstanceNameW` | 1830 (0x726) | Exported Function | 0x0000000180058200 | 0x00058200
-`SetSecurityInfoExA` | 1751 (0x6d7) | Exported Function | 0x000000018003f7e0 | 0x0003f7e0
-`SetSecurityInfo` | 1750 (0x6d6) | Exported Function | 0x0000000180016c80 | 0x00016c80
-`SetSecurityDescriptorSacl` | 1749 (0x6d5) | Exported Function | 0x00000001800194c0 | 0x000194c0
-`RegQueryMultipleValuesW` | 1662 (0x67e) | Exported Function | 0x000000018002eca0 | 0x0002eca0
-`RegQueryReflectionKey` | 1663 (0x67f) | Exported Function | 0x000000018002f530 | 0x0002f530
-`RegQueryValueA` | 1664 (0x680) | Exported Function | 0x0000000180043170 | 0x00043170
-`RegQueryValueExA` | 1665 (0x681) | Exported Function | 0x0000000180016d70 | 0x00016d70
-`RegQueryValueExW` | 1666 (0x682) | Exported Function | 0x0000000180015d70 | 0x00015d70
-`RegQueryValueW` | 1667 (0x683) | Exported Function | 0x00000001800167d0 | 0x000167d0
-`RegRenameKey` | 1668 (0x684) | Exported Function | 0x0000000180042cd0 | 0x00042cd0
-`RegReplaceKeyA` | 1669 (0x685) | Exported Function | 0x0000000180043490 | 0x00043490
-`RegReplaceKeyW` | 1670 (0x686) | Exported Function | 0x00000001800441e0 | 0x000441e0
-`RegRestoreKeyA` | 1671 (0x687) | Exported Function | 0x000000018002ecc0 | 0x0002ecc0
-`RegRestoreKeyW` | 1672 (0x688) | Exported Function | 0x000000018002ece0 | 0x0002ece0
-`RegSaveKeyA` | 1673 (0x689) | Exported Function | 0x0000000180043700 | 0x00043700
-`RegSaveKeyExA` | 1674 (0x68a) | Exported Function | 0x000000018002ed00 | 0x0002ed00
-`RegSaveKeyExW` | 1675 (0x68b) | Exported Function | 0x000000018002ed20 | 0x0002ed20
-`RegSaveKeyW` | 1676 (0x68c) | Exported Function | 0x00000001800438e0 | 0x000438e0
-`RegSetKeySecurity` | 1677 (0x68d) | Exported Function | 0x000000018001bac0 | 0x0001bac0
-`RegSetKeyValueA` | 1678 (0x68e) | Exported Function | 0x000000018002ed40 | 0x0002ed40
-`RegSetKeyValueW` | 1679 (0x68f) | Exported Function | 0x0000000180004270 | 0x00004270
-`RegSetValueA` | 1680 (0x690) | Exported Function | 0x0000000180043a80 | 0x00043a80
-`RegSetValueExA` | 1681 (0x691) | Exported Function | 0x0000000180003fe0 | 0x00003fe0
-`RegSetValueExW` | 1682 (0x692) | Exported Function | 0x0000000180016e10 | 0x00016e10
-`RegSetValueW` | 1683 (0x693) | Exported Function | 0x0000000180043bf0 | 0x00043bf0
-`RegUnLoadKeyA` | 1684 (0x694) | Exported Function | 0x000000018002ed60 | 0x0002ed60
-`RegQueryMultipleValuesA` | 1661 (0x67d) | Exported Function | 0x000000018002ec80 | 0x0002ec80
-`RegUnLoadKeyW` | 1685 (0x695) | Exported Function | 0x000000018002ed80 | 0x0002ed80
-`RegQueryInfoKeyW` | 1660 (0x67c) | Exported Function | 0x00000001800161c0 | 0x000161c0
-`RegOverridePredefKey` | 1658 (0x67a) | Exported Function | 0x0000000180042c60 | 0x00042c60
-`RegisterIdleTask` | 1688 (0x698) | Exported Function | 0x000000018002fc20 | 0x0002fc20
-`RegisterServiceCtrlHandlerA` | 1689 (0x699) | Exported Function | 0x000000018001bcd0 | 0x0001bcd0
-`RegisterServiceCtrlHandlerExA` | 1690 (0x69a) | Exported Function | 0x000000018002eda0 | 0x0002eda0
-`RegisterServiceCtrlHandlerExW` | 1691 (0x69b) | Exported Function | 0x000000018001b0c0 | 0x0001b0c0
-`RegisterServiceCtrlHandlerW` | 1692 (0x69c) | Exported Function | 0x0000000180017ab0 | 0x00017ab0
-`RegisterTraceGuidsA` | 1693 (0x69d) | Exported Function | ntdll.EtwRegisterTraceGuidsA | 0x000954fc
-`RegisterTraceGuidsW` | 1694 (0x69e) | Exported Function | ntdll.EtwRegisterTraceGuidsW | 0x0009552d
-`RegisterWaitChainCOMCallback` | 1695 (0x69f) | Exported Function | 0x0000000180060fe0 | 0x00060fe0
-`RegLoadAppKeyA` | 1643 (0x66b) | Exported Function | 0x000000018002eba0 | 0x0002eba0
-`RegLoadAppKeyW` | 1644 (0x66c) | Exported Function | 0x000000018002ebc0 | 0x0002ebc0
-`RegLoadKeyA` | 1645 (0x66d) | Exported Function | 0x000000018002ebe0 | 0x0002ebe0
-`RegLoadKeyW` | 1646 (0x66e) | Exported Function | 0x000000018002ec00 | 0x0002ec00
-`RegLoadMUIStringA` | 1647 (0x66f) | Exported Function | 0x000000018002ec20 | 0x0002ec20
-`RegLoadMUIStringW` | 1648 (0x670) | Exported Function | 0x000000018002ec40 | 0x0002ec40
-`RegNotifyChangeKeyValue` | 1649 (0x671) | Exported Function | 0x0000000180017800 | 0x00017800
-`RegOpenCurrentUser` | 1650 (0x672) | Exported Function | 0x0000000180017a10 | 0x00017a10
-`RegOpenKeyA` | 1651 (0x673) | Exported Function | 0x0000000180019450 | 0x00019450
-`RegOpenKeyExA` | 1652 (0x674) | Exported Function | 0x0000000180016c40 | 0x00016c40
-`RegOpenKeyExW` | 1653 (0x675) | Exported Function | 0x0000000180015d90 | 0x00015d90
-`RegOpenKeyTransactedA` | 1654 (0x676) | Exported Function | 0x0000000180042c20 | 0x00042c20
-`RegOpenKeyTransactedW` | 1655 (0x677) | Exported Function | 0x0000000180017590 | 0x00017590
-`RegOpenKeyW` | 1656 (0x678) | Exported Function | 0x00000001800169b0 | 0x000169b0
-`RegOpenUserClassesRoot` | 1657 (0x679) | Exported Function | 0x000000018002ec60 | 0x0002ec60
-`RegQueryInfoKeyA` | 1659 (0x67b) | Exported Function | 0x0000000180004140 | 0x00004140
-`LookupPrivilegeValueA` | 1431 (0x597) | Exported Function | 0x0000000180012770 | 0x00012770
-`RemoteRegEnumKeyWrapper` | 1696 (0x6a0) | Exported Function | 0x0000000180042db0 | 0x00042db0
-`RemoteRegQueryInfoKeyWrapper` | 1698 (0x6a2) | Exported Function | 0x0000000180043050 | 0x00043050
-`SetEntriesInAccessListA` | 1726 (0x6be) | Exported Function | 0x000000018003ef40 | 0x0003ef40
-`SetEntriesInAccessListW` | 1727 (0x6bf) | Exported Function | 0x000000018003ef90 | 0x0003ef90
-`SetEntriesInAclA` | 1728 (0x6c0) | Exported Function | 0x000000018003cfb0 | 0x0003cfb0
-`SetEntriesInAclW` | 1729 (0x6c1) | Exported Function | 0x0000000180017af0 | 0x00017af0
-`SetEntriesInAuditListA` | 1730 (0x6c2) | Exported Function | 0x000000018003efe0 | 0x0003efe0
-`SetEntriesInAuditListW` | 1731 (0x6c3) | Exported Function | 0x000000018003f020 | 0x0003f020
-`SetFileSecurityA` | 1732 (0x6c4) | Exported Function | 0x0000000180047260 | 0x00047260
-`SetFileSecurityW` | 1733 (0x6c5) | Exported Function | 0x000000018001d170 | 0x0001d170
-`SetInformationCodeAuthzLevelW` | 1734 (0x6c6) | Exported Function | 0x0000000180038410 | 0x00038410
-`SetInformationCodeAuthzPolicyW` | 1735 (0x6c7) | Exported Function | 0x0000000180036bd0 | 0x00036bd0
-`SetKernelObjectSecurity` | 1736 (0x6c8) | Exported Function | 0x0000000180017a90 | 0x00017a90
-`SetNamedSecurityInfoA` | 1737 (0x6c9) | Exported Function | 0x000000018001b870 | 0x0001b870
-`SetNamedSecurityInfoExA` | 1738 (0x6ca) | Exported Function | 0x000000018003f060 | 0x0003f060
-`SetNamedSecurityInfoExW` | 1739 (0x6cb) | Exported Function | 0x000000018003f4e0 | 0x0003f4e0
-`SetNamedSecurityInfoW` | 1740 (0x6cc) | Exported Function | 0x000000018001bc70 | 0x0001bc70
-`SetPrivateObjectSecurity` | 1741 (0x6cd) | Exported Function | 0x000000018002ee00 | 0x0002ee00
-`SetPrivateObjectSecurityEx` | 1742 (0x6ce) | Exported Function | 0x000000018002ede0 | 0x0002ede0
-`SetSecurityAccessMask` | 1743 (0x6cf) | Exported Function | 0x000000018002ee20 | 0x0002ee20
-`SetSecurityDescriptorControl` | 1744 (0x6d0) | Exported Function | 0x000000018001bae0 | 0x0001bae0
-`SetSecurityDescriptorDacl` | 1745 (0x6d1) | Exported Function | 0x0000000180017260 | 0x00017260
-`SetSecurityDescriptorGroup` | 1746 (0x6d2) | Exported Function | 0x000000018001b0a0 | 0x0001b0a0
-`SetSecurityDescriptorOwner` | 1747 (0x6d3) | Exported Function | 0x0000000180017600 | 0x00017600
-`SetSecurityDescriptorRMControl` | 1748 (0x6d4) | Exported Function | 0x000000018002ee40 | 0x0002ee40
-`SetEncryptedFileMetadata` | 1725 (0x6bd) | Exported Function | 0x000000018002c880 | 0x0002c880
-`RemoteRegEnumValueWrapper` | 1697 (0x6a1) | Exported Function | 0x0000000180042f20 | 0x00042f20
-`SetAclInformation` | 1724 (0x6bc) | Exported Function | 0x000000018002edc0 | 0x0002edc0
-`SaferSetLevelInformation` | 1715 (0x6b3) | Exported Function | 0x0000000180038410 | 0x00038410
-`RemoteRegQueryMultipleValues2Wrapper` | 1699 (0x6a3) | Exported Function | 0x0000000180043d70 | 0x00043d70
-`RemoteRegQueryMultipleValuesWrapper` | 1700 (0x6a4) | Exported Function | 0x0000000180043ef0 | 0x00043ef0
-`RemoteRegQueryValueWrapper` | 1701 (0x6a5) | Exported Function | 0x00000001800433f0 | 0x000433f0
-`RemoveTraceCallback` | 1702 (0x6a6) | Exported Function | sechost.RemoveTraceCallback | 0x0009562e
-`RemoveUsersFromEncryptedFile` | 1703 (0x6a7) | Exported Function | 0x000000018002cc10 | 0x0002cc10
-`ReportEventA` | 1704 (0x6a8) | Exported Function | 0x000000018004fe10 | 0x0004fe10
-`ReportEventW` | 1705 (0x6a9) | Exported Function | 0x0000000180017c00 | 0x00017c00
-`RevertToSelf` | 1706 (0x6aa) | Exported Function | 0x0000000180016990 | 0x00016990
-`SafeBaseRegGetKeySecurity` | 1707 (0x6ab) | Exported Function | 0x0000000180042220 | 0x00042220
-`SaferCloseLevel` | 1708 (0x6ac) | Exported Function | 0x0000000180015cb0 | 0x00015cb0
-`SaferComputeTokenFromLevel` | 1709 (0x6ad) | Exported Function | 0x0000000180013830 | 0x00013830
-`SaferCreateLevel` | 1710 (0x6ae) | Exported Function | 0x00000001800359c0 | 0x000359c0
-`SaferGetLevelInformation` | 1711 (0x6af) | Exported Function | 0x0000000180036090 | 0x00036090
-`SaferGetPolicyInformation` | 1712 (0x6b0) | Exported Function | 0x0000000180005880 | 0x00005880
-`SaferiChangeRegistryScope` | 1717 (0x6b5) | Exported Function | 0x0000000180039770 | 0x00039770
-`SaferiCompareTokenLevels` | 1718 (0x6b6) | Exported Function | 0x0000000180013170 | 0x00013170
-`SaferIdentifyLevel` | 1713 (0x6b1) | Exported Function | 0x000000018000b600 | 0x0000b600
-`SaferiIsDllAllowed` | 1719 (0x6b7) | Exported Function | 0x0000000180037290 | 0x00037290
-`SaferiIsExecutableFileType` | 1720 (0x6b8) | Exported Function | 0x0000000180039f30 | 0x00039f30
-`SaferiPopulateDefaultsInRegistry` | 1721 (0x6b9) | Exported Function | 0x00000001800397b0 | 0x000397b0
-`SaferiRecordEventLogEntry` | 1722 (0x6ba) | Exported Function | 0x0000000180037d00 | 0x00037d00
-`SaferiSearchMatchingHashRules` | 1723 (0x6bb) | Exported Function | 0x0000000180016ba0 | 0x00016ba0
-`SaferRecordEventLogEntry` | 1714 (0x6b2) | Exported Function | 0x0000000180037d00 | 0x00037d00
-`SaferSetPolicyInformation` | 1716 (0x6b4) | Exported Function | 0x0000000180036bd0 | 0x00036bd0
-`LookupPrivilegeNameW` | 1430 (0x596) | Exported Function | 0x0000000180046bf0 | 0x00046bf0
-`LookupPrivilegeNameA` | 1429 (0x595) | Exported Function | 0x0000000180046a40 | 0x00046a40
-`LookupPrivilegeDisplayNameW` | 1428 (0x594) | Exported Function | 0x00000001800468a0 | 0x000468a0
-`CreatePrivateObjectSecurityEx` | 1138 (0x472) | Exported Function | 0x000000018002d710 | 0x0002d710
-`CreatePrivateObjectSecurityWithMultipleInheritance` | 1139 (0x473) | Exported Function | 0x000000018002d730 | 0x0002d730
-`CreateProcessAsUserA` | 1140 (0x474) | Exported Function | 0x000000018002d750 | 0x0002d750
-`CreateProcessAsUserW` | 1141 (0x475) | Exported Function | 0x0000000180017910 | 0x00017910
-`CreateProcessWithLogonW` | 1142 (0x476) | Exported Function | 0x0000000180047690 | 0x00047690
-`CreateProcessWithTokenW` | 1143 (0x477) | Exported Function | 0x00000001800042f0 | 0x000042f0
-`CreateRestrictedToken` | 1144 (0x478) | Exported Function | 0x0000000180004250 | 0x00004250
-`CreateServiceA` | 1145 (0x479) | Exported Function | 0x000000018002d7d0 | 0x0002d7d0
-`CreateServiceEx` | 1146 (0x47a) | Exported Function | 0x000000018001dc20 | 0x0001dc20
-`CreateServiceW` | 1147 (0x47b) | Exported Function | 0x000000018002d860 | 0x0002d860
-`CreatePrivateObjectSecurity` | 1137 (0x471) | Exported Function | 0x00000001800194a0 | 0x000194a0
-`CreateTraceInstanceId` | 1148 (0x47c) | Exported Function | ntdll.EtwCreateTraceInstanceId | 0x000922df
-`CredBackupCredentials` | 1150 (0x47e) | Exported Function | 0x000000018002d8f0 | 0x0002d8f0
-`CredDeleteA` | 1151 (0x47f) | Exported Function | 0x000000018002d910 | 0x0002d910
-`CredDeleteW` | 1152 (0x480) | Exported Function | 0x000000018002d930 | 0x0002d930
-`CredEncryptAndMarshalBinaryBlob` | 1153 (0x481) | Exported Function | 0x000000018002d950 | 0x0002d950
-`CredEnumerateA` | 1154 (0x482) | Exported Function | 0x000000018002d970 | 0x0002d970
-`CredEnumerateW` | 1155 (0x483) | Exported Function | 0x000000018002d990 | 0x0002d990
-`CredFindBestCredentialA` | 1156 (0x484) | Exported Function | 0x000000018002d9b0 | 0x0002d9b0
-`CredFindBestCredentialW` | 1157 (0x485) | Exported Function | 0x000000018002d9d0 | 0x0002d9d0
-`CredFree` | 1158 (0x486) | Exported Function | 0x000000018002d9f0 | 0x0002d9f0
-`CredGetSessionTypes` | 1159 (0x487) | Exported Function | 0x000000018002da10 | 0x0002da10
-`CreateWellKnownSid` | 1149 (0x47d) | Exported Function | 0x0000000180017820 | 0x00017820
-`CreateCodeAuthzLevel` | 1136 (0x470) | Exported Function | 0x00000001800359c0 | 0x000359c0
-`CopySid` | 1135 (0x46f) | Exported Function | 0x0000000180016940 | 0x00016940
-`ConvertToAutoInheritPrivateObjectSecurity` | 1134 (0x46e) | Exported Function | 0x000000018002d6f0 | 0x0002d6f0
-`ControlTraceA` | 1111 (0x457) | Exported Function | 0x000000018001da80 | 0x0001da80
-`ControlTraceW` | 1112 (0x458) | Exported Function | 0x0000000180004210 | 0x00004210
-`ConvertAccessToSecurityDescriptorA` | 1113 (0x459) | Exported Function | 0x000000018003db60 | 0x0003db60
-`ConvertAccessToSecurityDescriptorW` | 1114 (0x45a) | Exported Function | 0x000000018003dce0 | 0x0003dce0
-`ConvertSDToStringSDDomainW` | 1115 (0x45b) | Exported Function | 0x00000001800487c0 | 0x000487c0
-`ConvertSDToStringSDRootDomainA` | 1116 (0x45c) | Exported Function | 0x0000000180048850 | 0x00048850
-`ConvertSDToStringSDRootDomainW` | 1117 (0x45d) | Exported Function | 0x00000001800489d0 | 0x000489d0
-`ConvertSecurityDescriptorToAccessA` | 1118 (0x45e) | Exported Function | 0x000000018003dd70 | 0x0003dd70
-`ConvertSecurityDescriptorToAccessNamedA` | 1119 (0x45f) | Exported Function | 0x000000018003dd70 | 0x0003dd70
-`ConvertSecurityDescriptorToAccessNamedW` | 1120 (0x460) | Exported Function | 0x000000018003ddb0 | 0x0003ddb0
-`ConvertSecurityDescriptorToAccessW` | 1121 (0x461) | Exported Function | 0x000000018003ddb0 | 0x0003ddb0
-`ConvertSecurityDescriptorToStringSecurityDescriptorA` | 1122 (0x462) | Exported Function | 0x0000000180048a50 | 0x00048a50
-`ConvertSecurityDescriptorToStringSecurityDescriptorW` | 1123 (0x463) | Exported Function | 0x0000000180048bc0 | 0x00048bc0
-`ConvertSidToStringSidA` | 1124 (0x464) | Exported Function | 0x000000018001bb40 | 0x0001bb40
-`ConvertSidToStringSidW` | 1125 (0x465) | Exported Function | 0x0000000180015680 | 0x00015680
-`ConvertStringSDToSDDomainA` | 1126 (0x466) | Exported Function | 0x0000000180048c90 | 0x00048c90
-`ConvertStringSDToSDDomainW` | 1127 (0x467) | Exported Function | 0x000000018001b4f0 | 0x0001b4f0
-`ConvertStringSDToSDRootDomainA` | 1128 (0x468) | Exported Function | 0x0000000180048dd0 | 0x00048dd0
-`ConvertStringSDToSDRootDomainW` | 1129 (0x469) | Exported Function | 0x0000000180048ea0 | 0x00048ea0
-`ConvertStringSecurityDescriptorToSecurityDescriptorA` | 1130 (0x46a) | Exported Function | 0x0000000180048f10 | 0x00048f10
-`ConvertStringSecurityDescriptorToSecurityDescriptorW` | 1131 (0x46b) | Exported Function | 0x0000000180011b80 | 0x00011b80
-`ConvertStringSidToSidA` | 1132 (0x46c) | Exported Function | 0x0000000180048fd0 | 0x00048fd0
-`ConvertStringSidToSidW` | 1133 (0x46d) | Exported Function | 0x0000000180011ad0 | 0x00011ad0
-`CredGetTargetInfoA` | 1160 (0x488) | Exported Function | 0x000000018002da30 | 0x0002da30
-`CredGetTargetInfoW` | 1161 (0x489) | Exported Function | 0x000000018002da50 | 0x0002da50
-`CredIsMarshaledCredentialA` | 1162 (0x48a) | Exported Function | 0x00000001800304a0 | 0x000304a0
-`CredIsMarshaledCredentialW` | 1163 (0x48b) | Exported Function | 0x000000018002da70 | 0x0002da70
-`CredWriteA` | 1185 (0x4a1) | Exported Function | 0x000000018002dcf0 | 0x0002dcf0
-`CredWriteDomainCredentialsA` | 1186 (0x4a2) | Exported Function | 0x000000018002dd10 | 0x0002dd10
-`CredWriteDomainCredentialsW` | 1187 (0x4a3) | Exported Function | 0x000000018002dd30 | 0x0002dd30
-`CredWriteW` | 1188 (0x4a4) | Exported Function | 0x000000018002dd50 | 0x0002dd50
-`CryptAcquireContextA` | 1195 (0x4ab) | Exported Function | 0x0000000180016df0 | 0x00016df0
-`CryptAcquireContextW` | 1196 (0x4ac) | Exported Function | 0x0000000180016f00 | 0x00016f00
-`CryptContextAddRef` | 1197 (0x4ad) | Exported Function | 0x000000018002de30 | 0x0002de30
-`CryptCreateHash` | 1198 (0x4ae) | Exported Function | 0x0000000180016770 | 0x00016770
-`CryptDecrypt` | 1199 (0x4af) | Exported Function | 0x000000018002de50 | 0x0002de50
-`CryptDeriveKey` | 1200 (0x4b0) | Exported Function | 0x000000018002de70 | 0x0002de70
-`CryptDestroyHash` | 1201 (0x4b1) | Exported Function | 0x0000000180016a60 | 0x00016a60
-`CryptDestroyKey` | 1202 (0x4b2) | Exported Function | 0x0000000180016ca0 | 0x00016ca0
-`CryptDuplicateHash` | 1203 (0x4b3) | Exported Function | 0x000000018002de90 | 0x0002de90
-`CryptDuplicateKey` | 1204 (0x4b4) | Exported Function | 0x000000018002deb0 | 0x0002deb0
-`CryptEncrypt` | 1205 (0x4b5) | Exported Function | 0x000000018002ded0 | 0x0002ded0
-`CryptEnumProvidersA` | 1208 (0x4b8) | Exported Function | 0x000000018002df30 | 0x0002df30
-`CryptEnumProvidersW` | 1209 (0x4b9) | Exported Function | 0x000000018002df50 | 0x0002df50
-`CryptEnumProviderTypesA` | 1206 (0x4b6) | Exported Function | 0x000000018002def0 | 0x0002def0
-`CryptEnumProviderTypesW` | 1207 (0x4b7) | Exported Function | 0x000000018002df10 | 0x0002df10
-`CryptExportKey` | 1210 (0x4ba) | Exported Function | 0x00000001800166c0 | 0x000166c0
-`CryptGenKey` | 1211 (0x4bb) | Exported Function | 0x000000018002df70 | 0x0002df70
-`CryptGenRandom` | 1212 (0x4bc) | Exported Function | 0x00000001800176a0 | 0x000176a0
-`CryptGetDefaultProviderA` | 1213 (0x4bd) | Exported Function | 0x000000018002df90 | 0x0002df90
-`CredUnprotectW` | 1184 (0x4a0) | Exported Function | 0x000000018002dcd0 | 0x0002dcd0
-`ControlServiceExW` | 1110 (0x456) | Exported Function | 0x000000018002d6b0 | 0x0002d6b0
-`CredUnprotectA` | 1183 (0x49f) | Exported Function | 0x000000018002dcb0 | 0x0002dcb0
-`CredUnmarshalCredentialA` | 1181 (0x49d) | Exported Function | 0x000000018002dc70 | 0x0002dc70
-`CredIsProtectedA` | 1164 (0x48c) | Exported Function | 0x000000018002da90 | 0x0002da90
-`CredIsProtectedW` | 1165 (0x48d) | Exported Function | 0x000000018002dab0 | 0x0002dab0
-`CredMarshalCredentialA` | 1166 (0x48e) | Exported Function | 0x000000018002dad0 | 0x0002dad0
-`CredMarshalCredentialW` | 1167 (0x48f) | Exported Function | 0x000000018002daf0 | 0x0002daf0
-`CredpConvertCredential` | 1189 (0x4a5) | Exported Function | 0x000000018002dd70 | 0x0002dd70
-`CredpConvertOneCredentialSize` | 1190 (0x4a6) | Exported Function | 0x000000018002dd90 | 0x0002dd90
-`CredpConvertTargetInfo` | 1191 (0x4a7) | Exported Function | 0x000000018002ddb0 | 0x0002ddb0
-`CredpDecodeCredential` | 1192 (0x4a8) | Exported Function | 0x000000018002ddd0 | 0x0002ddd0
-`CredpEncodeCredential` | 1193 (0x4a9) | Exported Function | 0x000000018002ddf0 | 0x0002ddf0
-`CredpEncodeSecret` | 1194 (0x4aa) | Exported Function | 0x000000018002de10 | 0x0002de10
-`CredProfileLoaded` | 1168 (0x490) | Exported Function | 0x000000018002db30 | 0x0002db30
-`CredProfileLoadedEx` | 1169 (0x491) | Exported Function | 0x000000018002db10 | 0x0002db10
-`CredProfileUnloaded` | 1170 (0x492) | Exported Function | 0x000000018002db50 | 0x0002db50
-`CredProtectA` | 1171 (0x493) | Exported Function | 0x000000018002db70 | 0x0002db70
-`CredProtectW` | 1172 (0x494) | Exported Function | 0x000000018002db90 | 0x0002db90
-`CredReadA` | 1173 (0x495) | Exported Function | 0x000000018002dbb0 | 0x0002dbb0
-`CredReadByTokenHandle` | 1174 (0x496) | Exported Function | 0x000000018002dbd0 | 0x0002dbd0
-`CredReadDomainCredentialsA` | 1175 (0x497) | Exported Function | 0x000000018002dbf0 | 0x0002dbf0
-`CredReadDomainCredentialsW` | 1176 (0x498) | Exported Function | 0x000000018002dc10 | 0x0002dc10
-`CredReadW` | 1177 (0x499) | Exported Function | 0x000000018002dc30 | 0x0002dc30
-`CredRenameA` | 1178 (0x49a) | Exported Function | 0x00000001800304e0 | 0x000304e0
-`CredRenameW` | 1179 (0x49b) | Exported Function | 0x00000001800304e0 | 0x000304e0
-`CredRestoreCredentials` | 1180 (0x49c) | Exported Function | 0x000000018002dc50 | 0x0002dc50
-`CredUnmarshalCredentialW` | 1182 (0x49e) | Exported Function | 0x000000018002dc90 | 0x0002dc90
-`ControlServiceExA` | 1109 (0x455) | Exported Function | 0x000000018002d690 | 0x0002d690
-`ControlService` | 1108 (0x454) | Exported Function | 0x000000018002d6d0 | 0x0002d6d0
-`ComputeAccessTokenFromCodeAuthzLevel` | 1107 (0x453) | Exported Function | 0x0000000180013830 | 0x00013830
-`AddUsersToEncryptedFile` | 1030 (0x406) | Exported Function | 0x000000018002c0d0 | 0x0002c0d0
-`AddUsersToEncryptedFileEx` | 1031 (0x407) | Exported Function | 0x000000018002c150 | 0x0002c150
-`AdjustTokenGroups` | 1032 (0x408) | Exported Function | 0x000000018002d3d0 | 0x0002d3d0
-`AdjustTokenPrivileges` | 1033 (0x409) | Exported Function | 0x0000000180017620 | 0x00017620
-`AllocateAndInitializeSid` | 1034 (0x40a) | Exported Function | 0x0000000180016150 | 0x00016150
-`AllocateLocallyUniqueId` | 1035 (0x40b) | Exported Function | 0x000000018002d3f0 | 0x0002d3f0
-`AreAllAccessesGranted` | 1036 (0x40c) | Exported Function | 0x000000018002d410 | 0x0002d410
-`AreAnyAccessesGranted` | 1037 (0x40d) | Exported Function | 0x000000018002d430 | 0x0002d430
-`AuditComputeEffectivePolicyBySid` | 1038 (0x40e) | Exported Function | 0x000000018002d450 | 0x0002d450
-`AuditComputeEffectivePolicyByToken` | 1039 (0x40f) | Exported Function | 0x000000018002fcc0 | 0x0002fcc0
-`AuditEnumerateCategories` | 1040 (0x410) | Exported Function | 0x000000018002d470 | 0x0002d470
-`AuditEnumeratePerUserPolicy` | 1041 (0x411) | Exported Function | 0x000000018002d490 | 0x0002d490
-`AuditEnumerateSubCategories` | 1042 (0x412) | Exported Function | 0x000000018002d4b0 | 0x0002d4b0
-`AuditFree` | 1043 (0x413) | Exported Function | 0x000000018001d0a0 | 0x0001d0a0
-`AuditLookupCategoryGuidFromCategoryId` | 1044 (0x414) | Exported Function | 0x000000018002fe20 | 0x0002fe20
-`AuditLookupCategoryIdFromCategoryGuid` | 1045 (0x415) | Exported Function | 0x000000018002fe60 | 0x0002fe60
-`AuditLookupCategoryNameA` | 1046 (0x416) | Exported Function | 0x000000018002fed0 | 0x0002fed0
-`AuditLookupCategoryNameW` | 1047 (0x417) | Exported Function | 0x000000018002d4d0 | 0x0002d4d0
-`AuditLookupSubCategoryNameA` | 1048 (0x418) | Exported Function | 0x000000018002ff80 | 0x0002ff80
-`AuditLookupSubCategoryNameW` | 1049 (0x419) | Exported Function | 0x000000018002d4f0 | 0x0002d4f0
-`AuditQueryGlobalSaclA` | 1050 (0x41a) | Exported Function | 0x0000000180030030 | 0x00030030
-`AuditQueryGlobalSaclW` | 1051 (0x41b) | Exported Function | 0x000000018002d510 | 0x0002d510
-`AuditQueryPerUserPolicy` | 1052 (0x41c) | Exported Function | 0x000000018001d190 | 0x0001d190
-`AddMandatoryAce` | 1029 (0x405) | Exported Function | KERNELBASE.AddMandatoryAce | 0x0009172d
-`AuditQuerySecurity` | 1053 (0x41d) | Exported Function | 0x000000018002d530 | 0x0002d530
-`AddConditionalAce` | 1028 (0x404) | Exported Function | 0x0000000180048010 | 0x00048010
-`AddAuditAccessAceEx` | 1026 (0x402) | Exported Function | 0x000000018002d370 | 0x0002d370
-`A_SHAInit` | 1003 (0x3eb) | Exported Function | NTDLL.A_SHAInit | 0x00091483
-`A_SHAUpdate` | 1004 (0x3ec) | Exported Function | NTDLL.A_SHAUpdate | 0x0009149f
-`AbortSystemShutdownA` | 1005 (0x3ed) | Exported Function | 0x0000000180041890 | 0x00041890
-`AbortSystemShutdownW` | 1006 (0x3ee) | Exported Function | 0x0000000180041930 | 0x00041930
-`AccessCheck` | 1007 (0x3ef) | Exported Function | 0x00000001800041c0 | 0x000041c0
-`AccessCheckAndAuditAlarmA` | 1008 (0x3f0) | Exported Function | 0x0000000180045200 | 0x00045200
-`AccessCheckAndAuditAlarmW` | 1009 (0x3f1) | Exported Function | 0x000000018002cf50 | 0x0002cf50
-`AccessCheckByType` | 1010 (0x3f2) | Exported Function | 0x000000018002d270 | 0x0002d270
-`AccessCheckByTypeAndAuditAlarmA` | 1011 (0x3f3) | Exported Function | 0x00000001800453b0 | 0x000453b0
-`AccessCheckByTypeAndAuditAlarmW` | 1012 (0x3f4) | Exported Function | 0x000000018002cfd0 | 0x0002cfd0
-`AccessCheckByTypeResultList` | 1013 (0x3f5) | Exported Function | 0x000000018002d1f0 | 0x0002d1f0
-`AccessCheckByTypeResultListAndAuditAlarmA` | 1014 (0x3f6) | Exported Function | 0x0000000180045590 | 0x00045590
-`AccessCheckByTypeResultListAndAuditAlarmByHandleA` | 1015 (0x3f7) | Exported Function | 0x0000000180045770 | 0x00045770
-`AccessCheckByTypeResultListAndAuditAlarmByHandleW` | 1016 (0x3f8) | Exported Function | 0x000000018002d080 | 0x0002d080
-`AccessCheckByTypeResultListAndAuditAlarmW` | 1017 (0x3f9) | Exported Function | 0x000000018002d140 | 0x0002d140
-`AddAccessAllowedAce` | 1018 (0x3fa) | Exported Function | 0x0000000180016e50 | 0x00016e50
-`AddAccessAllowedAceEx` | 1019 (0x3fb) | Exported Function | 0x0000000180017570 | 0x00017570
-`AddAccessAllowedObjectAce` | 1020 (0x3fc) | Exported Function | 0x000000018002d2f0 | 0x0002d2f0
-`AddAccessDeniedAce` | 1021 (0x3fd) | Exported Function | 0x000000018002d330 | 0x0002d330
-`AddAccessDeniedAceEx` | 1022 (0x3fe) | Exported Function | 0x000000018002d310 | 0x0002d310
-`AddAccessDeniedObjectAce` | 1023 (0x3ff) | Exported Function | 0x000000018002d350 | 0x0002d350
-`AddAce` | 1024 (0x400) | Exported Function | 0x000000018001ac70 | 0x0001ac70
-`AddAuditAccessAce` | 1025 (0x401) | Exported Function | 0x000000018002d390 | 0x0002d390
-`AddAuditAccessObjectAce` | 1027 (0x403) | Exported Function | 0x000000018002d3b0 | 0x0002d3b0
-`CryptGetDefaultProviderW` | 1214 (0x4be) | Exported Function | 0x00000001800172d0 | 0x000172d0
-`AuditQuerySystemPolicy` | 1054 (0x41e) | Exported Function | 0x000000018001d080 | 0x0001d080
-`AuditSetGlobalSaclW` | 1056 (0x420) | Exported Function | 0x000000018002d550 | 0x0002d550
-`BuildTrusteeWithNameW` | 1084 (0x43c) | Exported Function | 0x000000018003d360 | 0x0003d360
-`BuildTrusteeWithObjectsAndNameA` | 1085 (0x43d) | Exported Function | 0x000000018003d380 | 0x0003d380
-`BuildTrusteeWithObjectsAndNameW` | 1086 (0x43e) | Exported Function | 0x000000018003d380 | 0x0003d380
-`BuildTrusteeWithObjectsAndSidA` | 1087 (0x43f) | Exported Function | 0x000000018003d3e0 | 0x0003d3e0
-`BuildTrusteeWithObjectsAndSidW` | 1088 (0x440) | Exported Function | 0x000000018003d3e0 | 0x0003d3e0
-`BuildTrusteeWithSidA` | 1089 (0x441) | Exported Function | 0x0000000180017840 | 0x00017840
-`BuildTrusteeWithSidW` | 1090 (0x442) | Exported Function | 0x0000000180017840 | 0x00017840
-`CancelOverlappedAccess` | 1091 (0x443) | Exported Function | 0x000000018003daf0 | 0x0003daf0
-`ChangeServiceConfig2A` | 1092 (0x444) | Exported Function | 0x000000018002d5d0 | 0x0002d5d0
-`ChangeServiceConfig2W` | 1093 (0x445) | Exported Function | 0x000000018002d5f0 | 0x0002d5f0
-`ChangeServiceConfigA` | 1094 (0x446) | Exported Function | 0x000000018002d610 | 0x0002d610
-`ChangeServiceConfigW` | 1095 (0x447) | Exported Function | 0x000000018001d000 | 0x0001d000
-`CheckForHiberboot` | 1096 (0x448) | Exported Function | 0x000000018001bcf0 | 0x0001bcf0
-`CheckTokenMembership` | 1097 (0x449) | Exported Function | 0x0000000180017310 | 0x00017310
-`ClearEventLogA` | 1098 (0x44a) | Exported Function | 0x000000018004f780 | 0x0004f780
-`ClearEventLogW` | 1099 (0x44b) | Exported Function | 0x000000018004f820 | 0x0004f820
-`CloseCodeAuthzLevel` | 1100 (0x44c) | Exported Function | 0x0000000180015cb0 | 0x00015cb0
-`CloseEncryptedFileRaw` | 1101 (0x44d) | Exported Function | 0x000000018002c1f0 | 0x0002c1f0
-`CloseEventLog` | 1102 (0x44e) | Exported Function | 0x000000018001c510 | 0x0001c510
-`CloseServiceHandle` | 1103 (0x44f) | Exported Function | 0x0000000180017640 | 0x00017640
-`CloseThreadWaitChainSession` | 1104 (0x450) | Exported Function | 0x0000000180060c30 | 0x00060c30
-`CloseTrace` | 1105 (0x451) | Exported Function | 0x00000001800179d0 | 0x000179d0
-`CommandLineFromMsiDescriptor` | 1106 (0x452) | Exported Function | 0x00000001800037c0 | 0x000037c0
-`BuildTrusteeWithNameA` | 1083 (0x43b) | Exported Function | 0x000000018003d360 | 0x0003d360
-`AuditSetGlobalSaclA` | 1055 (0x41f) | Exported Function | 0x00000001800300f0 | 0x000300f0
-`BuildSecurityDescriptorW` | 1082 (0x43a) | Exported Function | 0x000000018001c710 | 0x0001c710
-`BuildImpersonateTrusteeW` | 1080 (0x438) | Exported Function | 0x000000018003d340 | 0x0003d340
-`AuditSetPerUserPolicy` | 1057 (0x421) | Exported Function | 0x000000018002d570 | 0x0002d570
-`AuditSetSecurity` | 1058 (0x422) | Exported Function | 0x000000018002d590 | 0x0002d590
-`AuditSetSystemPolicy` | 1059 (0x423) | Exported Function | 0x000000018002d5b0 | 0x0002d5b0
-`BackupEventLogA` | 1060 (0x424) | Exported Function | 0x000000018004f450 | 0x0004f450
-`BackupEventLogW` | 1061 (0x425) | Exported Function | 0x000000018004f4f0 | 0x0004f4f0
-`BaseRegCloseKey` | 1062 (0x426) | Exported Function | 0x0000000180041eb0 | 0x00041eb0
-`BaseRegCreateKey` | 1063 (0x427) | Exported Function | 0x0000000180041ee0 | 0x00041ee0
-`BaseRegDeleteKeyEx` | 1064 (0x428) | Exported Function | 0x0000000180041f50 | 0x00041f50
-`BaseRegDeleteValue` | 1065 (0x429) | Exported Function | 0x0000000180041f90 | 0x00041f90
-`BaseRegFlushKey` | 1066 (0x42a) | Exported Function | 0x0000000180041fd0 | 0x00041fd0
-`BaseRegGetVersion` | 1067 (0x42b) | Exported Function | 0x0000000180042000 | 0x00042000
-`BaseRegLoadKey` | 1068 (0x42c) | Exported Function | 0x0000000180042040 | 0x00042040
-`BaseRegOpenKey` | 1069 (0x42d) | Exported Function | 0x0000000180042080 | 0x00042080
-`BaseRegRestoreKey` | 1070 (0x42e) | Exported Function | 0x00000001800420d0 | 0x000420d0
-`BaseRegSaveKeyEx` | 1071 (0x42f) | Exported Function | 0x0000000180042110 | 0x00042110
-`BaseRegSetKeySecurity` | 1072 (0x430) | Exported Function | 0x0000000180042150 | 0x00042150
-`BaseRegSetValue` | 1073 (0x431) | Exported Function | 0x0000000180042190 | 0x00042190
-`BaseRegUnLoadKey` | 1074 (0x432) | Exported Function | 0x00000001800421e0 | 0x000421e0
-`BuildExplicitAccessWithNameA` | 1075 (0x433) | Exported Function | 0x000000018001d1b0 | 0x0001d1b0
-`BuildExplicitAccessWithNameW` | 1076 (0x434) | Exported Function | 0x000000018001d1b0 | 0x0001d1b0
-`BuildImpersonateExplicitAccessWithNameA` | 1077 (0x435) | Exported Function | 0x000000018003c480 | 0x0003c480
-`BuildImpersonateExplicitAccessWithNameW` | 1078 (0x436) | Exported Function | 0x000000018003c480 | 0x0003c480
-`BuildImpersonateTrusteeA` | 1079 (0x437) | Exported Function | 0x000000018003d340 | 0x0003d340
-`BuildSecurityDescriptorA` | 1081 (0x439) | Exported Function | 0x000000018003c4b0 | 0x0003c4b0
-`WmiSetSingleItemW` | 1856 (0x740) | Exported Function | 0x000000018005a2b0 | 0x0005a2b0
-`CryptGetHashParam` | 1215 (0x4bf) | Exported Function | 0x00000001800161a0 | 0x000161a0
-`CryptGetProvParam` | 1217 (0x4c1) | Exported Function | 0x000000018002dfd0 | 0x0002dfd0
-`GetSecurityDescriptorLength` | 1353 (0x549) | Exported Function | 0x000000018001ba50 | 0x0001ba50
-`GetSecurityDescriptorOwner` | 1354 (0x54a) | Exported Function | 0x000000018001cfe0 | 0x0001cfe0
-`GetSecurityDescriptorRMControl` | 1355 (0x54b) | Exported Function | 0x000000018002e340 | 0x0002e340
-`GetSecurityDescriptorSacl` | 1356 (0x54c) | Exported Function | 0x000000018001bb00 | 0x0001bb00
-`GetSecurityInfo` | 1357 (0x54d) | Exported Function | 0x0000000180016e90 | 0x00016e90
-`GetSecurityInfoExA` | 1358 (0x54e) | Exported Function | 0x000000018003e9a0 | 0x0003e9a0
-`GetSecurityInfoExW` | 1359 (0x54f) | Exported Function | 0x000000018003ec10 | 0x0003ec10
-`GetServiceDisplayNameA` | 1360 (0x550) | Exported Function | 0x0000000180044c00 | 0x00044c00
-`GetServiceDisplayNameW` | 1361 (0x551) | Exported Function | 0x000000018002e360 | 0x0002e360
-`GetServiceKeyNameA` | 1362 (0x552) | Exported Function | 0x0000000180044cb0 | 0x00044cb0
-`GetSecurityDescriptorGroup` | 1352 (0x548) | Exported Function | 0x000000018001bb20 | 0x0001bb20
-`GetServiceKeyNameW` | 1363 (0x553) | Exported Function | 0x000000018002e380 | 0x0002e380
-`GetSidLengthRequired` | 1365 (0x555) | Exported Function | 0x000000018001acb0 | 0x0001acb0
-`GetSidSubAuthority` | 1366 (0x556) | Exported Function | 0x0000000180016d30 | 0x00016d30
-`GetSidSubAuthorityCount` | 1367 (0x557) | Exported Function | 0x0000000180016cc0 | 0x00016cc0
-`GetStringConditionFromBinary` | 1368 (0x558) | Exported Function | 0x00000001800482e0 | 0x000482e0
-`GetThreadWaitChain` | 1369 (0x559) | Exported Function | 0x0000000180060cc0 | 0x00060cc0
-`GetTokenInformation` | 1370 (0x55a) | Exported Function | 0x0000000180015de0 | 0x00015de0
-`GetTraceEnableFlags` | 1371 (0x55b) | Exported Function | ntdll.EtwGetTraceEnableFlags | 0x0009360c
-`GetTraceEnableLevel` | 1372 (0x55c) | Exported Function | ntdll.EtwGetTraceEnableLevel | 0x0009363d
-`GetTraceLoggerHandle` | 1373 (0x55d) | Exported Function | ntdll.EtwGetTraceLoggerHandle | 0x0009366f
-`GetTrusteeFormA` | 1374 (0x55e) | Exported Function | 0x000000018003d4a0 | 0x0003d4a0
-`GetSidIdentifierAuthority` | 1364 (0x554) | Exported Function | 0x000000018001b800 | 0x0001b800
-`GetSecurityDescriptorDacl` | 1351 (0x547) | Exported Function | 0x0000000180017550 | 0x00017550
-`GetSecurityDescriptorControl` | 1350 (0x546) | Exported Function | 0x000000018001ba00 | 0x0001ba00
-`GetPrivateObjectSecurity` | 1349 (0x545) | Exported Function | 0x000000018002e320 | 0x0002e320
-`GetFileSecurityA` | 1326 (0x52e) | Exported Function | 0x0000000180045960 | 0x00045960
-`GetFileSecurityW` | 1327 (0x52f) | Exported Function | 0x0000000180004230 | 0x00004230
-`GetInformationCodeAuthzLevelW` | 1328 (0x530) | Exported Function | 0x0000000180036090 | 0x00036090
-`GetInformationCodeAuthzPolicyW` | 1329 (0x531) | Exported Function | 0x0000000180005880 | 0x00005880
-`GetInheritanceSourceA` | 1330 (0x532) | Exported Function | 0x000000018003c8d0 | 0x0003c8d0
-`GetInheritanceSourceW` | 1331 (0x533) | Exported Function | 0x000000018003c8e0 | 0x0003c8e0
-`GetKernelObjectSecurity` | 1332 (0x534) | Exported Function | 0x000000018001b060 | 0x0001b060
-`GetLengthSid` | 1333 (0x535) | Exported Function | 0x00000001800166e0 | 0x000166e0
-`GetLocalManagedApplicationData` | 1334 (0x536) | Exported Function | 0x0000000180033de0 | 0x00033de0
-`GetLocalManagedApplications` | 1335 (0x537) | Exported Function | 0x0000000180034050 | 0x00034050
-`GetManagedApplicationCategories` | 1336 (0x538) | Exported Function | 0x0000000180034380 | 0x00034380
-`GetManagedApplications` | 1337 (0x539) | Exported Function | 0x00000001800343f0 | 0x000343f0
-`GetMultipleTrusteeA` | 1338 (0x53a) | Exported Function | 0x000000018003d460 | 0x0003d460
-`GetMultipleTrusteeOperationA` | 1339 (0x53b) | Exported Function | 0x000000018003d480 | 0x0003d480
-`GetMultipleTrusteeOperationW` | 1340 (0x53c) | Exported Function | 0x000000018003d480 | 0x0003d480
-`GetMultipleTrusteeW` | 1341 (0x53d) | Exported Function | 0x000000018003d460 | 0x0003d460
-`GetNamedSecurityInfoA` | 1342 (0x53e) | Exported Function | 0x000000018003c9a0 | 0x0003c9a0
-`GetNamedSecurityInfoExA` | 1343 (0x53f) | Exported Function | 0x000000018003e290 | 0x0003e290
-`GetNamedSecurityInfoExW` | 1344 (0x540) | Exported Function | 0x000000018003e540 | 0x0003e540
-`GetNamedSecurityInfoW` | 1345 (0x541) | Exported Function | 0x000000018002e2d0 | 0x0002e2d0
-`GetNumberOfEventLogRecords` | 1346 (0x542) | Exported Function | 0x000000018004f8f0 | 0x0004f8f0
-`GetOldestEventLogRecord` | 1347 (0x543) | Exported Function | 0x000000018004f940 | 0x0004f940
-`GetOverlappedAccessResults` | 1348 (0x544) | Exported Function | 0x000000018003e870 | 0x0003e870
-`GetTrusteeFormW` | 1375 (0x55f) | Exported Function | 0x000000018003d4a0 | 0x0003d4a0
-`GetTrusteeNameA` | 1376 (0x560) | Exported Function | 0x000000018003d4c0 | 0x0003d4c0
-`GetTrusteeNameW` | 1377 (0x561) | Exported Function | 0x000000018003d4c0 | 0x0003d4c0
-`GetTrusteeTypeA` | 1378 (0x562) | Exported Function | 0x000000018003d4d0 | 0x0003d4d0
-`InitiateSystemShutdownExA` | 1405 (0x57d) | Exported Function | 0x0000000180041c40 | 0x00041c40
-`InitiateSystemShutdownExW` | 1406 (0x57e) | Exported Function | 0x0000000180044060 | 0x00044060
-`InitiateSystemShutdownW` | 1407 (0x57f) | Exported Function | 0x0000000180041d90 | 0x00041d90
-`InstallApplication` | 1408 (0x580) | Exported Function | 0x0000000180034400 | 0x00034400
-`IsTextUnicode` | 1409 (0x581) | Exported Function | 0x0000000180016170 | 0x00016170
-`IsTokenRestricted` | 1410 (0x582) | Exported Function | 0x000000018002e440 | 0x0002e440
-`IsTokenUntrusted` | 1411 (0x583) | Exported Function | 0x0000000180035db0 | 0x00035db0
-`IsValidAcl` | 1412 (0x584) | Exported Function | 0x000000018002e460 | 0x0002e460
-`IsValidRelativeSecurityDescriptor` | 1413 (0x585) | Exported Function | KERNELBASE.IsValidRelativeSecurityDescriptor | 0x00093b84
-`IsValidSecurityDescriptor` | 1414 (0x586) | Exported Function | 0x000000018002e480 | 0x0002e480
-`IsValidSid` | 1415 (0x587) | Exported Function | 0x0000000180016aa0 | 0x00016aa0
-`IsWellKnownSid` | 1416 (0x588) | Exported Function | 0x000000018001bc90 | 0x0001bc90
-`LockServiceDatabase` | 1417 (0x589) | Exported Function | 0x0000000180044d60 | 0x00044d60
-`LogonUserA` | 1418 (0x58a) | Exported Function | 0x0000000180047bf0 | 0x00047bf0
-`LogonUserExA` | 1419 (0x58b) | Exported Function | 0x0000000180047de0 | 0x00047de0
-`LogonUserExExW` | 1420 (0x58c) | Exported Function | 0x000000018002e4a0 | 0x0002e4a0
-`LogonUserExW` | 1421 (0x58d) | Exported Function | 0x0000000180047e40 | 0x00047e40
-`LogonUserW` | 1422 (0x58e) | Exported Function | 0x000000018001b5d0 | 0x0001b5d0
-`LookupAccountNameA` | 1423 (0x58f) | Exported Function | 0x0000000180045a40 | 0x00045a40
-`LookupAccountNameW` | 1424 (0x590) | Exported Function | 0x00000001800164e0 | 0x000164e0
-`LookupAccountSidA` | 1425 (0x591) | Exported Function | 0x0000000180045f90 | 0x00045f90
-`LookupAccountSidW` | 1426 (0x592) | Exported Function | 0x0000000180016560 | 0x00016560
-`LookupPrivilegeDisplayNameA` | 1427 (0x593) | Exported Function | 0x0000000180046690 | 0x00046690
-`InitiateSystemShutdownA` | 1404 (0x57c) | Exported Function | 0x0000000180041af0 | 0x00041af0
-`GetExplicitEntriesFromAclW` | 1325 (0x52d) | Exported Function | 0x000000018002e2b0 | 0x0002e2b0
-`InitiateShutdownW` | 1403 (0x57b) | Exported Function | 0x0000000180019500 | 0x00019500
-`InitializeSid` | 1401 (0x579) | Exported Function | 0x000000018001acd0 | 0x0001acd0
-`GetTrusteeTypeW` | 1379 (0x563) | Exported Function | 0x000000018003d4d0 | 0x0003d4d0
-`GetUserNameA` | 1380 (0x564) | Exported Function | 0x0000000180047710 | 0x00047710
-`GetUserNameW` | 1381 (0x565) | Exported Function | 0x00000001800164b0 | 0x000164b0
-`GetWindowsAccountDomainSid` | 1382 (0x566) | Exported Function | 0x000000018002e3a0 | 0x0002e3a0
-`I_QueryTagInformation` | 1383 (0x567) | Exported Function | api-ms-win-service-private-l1-1-0.I_QueryTagInformation | 0x00093738
-`I_ScGetCurrentGroupStateW` | 1001 (0x3e9) | Exported Function | 0x000000018002c880 | 0x0002c880
-`I_ScIsSecurityProcess` | 1384 (0x568) | Exported Function | api-ms-win-service-private-l1-1-0.I_ScIsSecurityProcess | 0x00093786
-`I_ScPnPGetServiceName` | 1385 (0x569) | Exported Function | api-ms-win-service-private-l1-1-0.I_ScPnPGetServiceName | 0x000937d4
-`I_ScQueryServiceConfig` | 1386 (0x56a) | Exported Function | api-ms-win-service-private-l1-1-0.I_ScQueryServiceConfig | 0x00093823
-`I_ScRegisterPreshutdownRestart` | 1387 (0x56b) | Exported Function | api-ms-win-service-private-l1-1-1.I_ScRegisterPreshutdownRestart | 0x0009387b
-`I_ScReparseServiceDatabase` | 1388 (0x56c) | Exported Function | 0x000000018001dc30 | 0x0001dc30
-`I_ScSendPnPMessage` | 1389 (0x56d) | Exported Function | api-ms-win-service-private-l1-1-0.I_ScSendPnPMessage | 0x000938ea
-`I_ScSendTSMessage` | 1390 (0x56e) | Exported Function | api-ms-win-service-private-l1-1-0.I_ScSendTSMessage | 0x00093931
-`I_ScSetServiceBitsA` | 1391 (0x56f) | Exported Function | 0x000000018002e3c0 | 0x0002e3c0
-`I_ScSetServiceBitsW` | 1392 (0x570) | Exported Function | 0x000000018002e3e0 | 0x0002e3e0
-`I_ScValidatePnPService` | 1393 (0x571) | Exported Function | api-ms-win-service-private-l1-1-0.I_ScValidatePnPService | 0x000939a4
-`IdentifyCodeAuthzLevelW` | 1394 (0x572) | Exported Function | 0x000000018000b600 | 0x0000b600
-`ImpersonateAnonymousToken` | 1395 (0x573) | Exported Function | 0x000000018002e400 | 0x0002e400
-`ImpersonateLoggedOnUser` | 1396 (0x574) | Exported Function | 0x0000000180017780 | 0x00017780
-`ImpersonateNamedPipeClient` | 1397 (0x575) | Exported Function | 0x000000018002e420 | 0x0002e420
-`ImpersonateSelf` | 1398 (0x576) | Exported Function | 0x0000000180017ad0 | 0x00017ad0
-`InitializeAcl` | 1399 (0x577) | Exported Function | 0x0000000180016ee0 | 0x00016ee0
-`InitializeSecurityDescriptor` | 1400 (0x578) | Exported Function | 0x00000001800172b0 | 0x000172b0
-`InitiateShutdownA` | 1402 (0x57a) | Exported Function | 0x00000001800419b0 | 0x000419b0
-`GetExplicitEntriesFromAclA` | 1324 (0x52c) | Exported Function | 0x000000018002e2b0 | 0x0002e2b0
-`GetEventLogInformation` | 1323 (0x52b) | Exported Function | 0x000000018001c0a0 | 0x0001c0a0
-`GetEncryptedFileMetadata` | 1322 (0x52a) | Exported Function | 0x000000018002c880 | 0x0002c880
-`ElfBackupEventLogFileW` | 1245 (0x4dd) | Exported Function | 0x00000001800502d0 | 0x000502d0
-`ElfChangeNotify` | 1246 (0x4de) | Exported Function | 0x00000001800503d0 | 0x000503d0
-`ElfClearEventLogFileA` | 1247 (0x4df) | Exported Function | 0x00000001800504e0 | 0x000504e0
-`ElfClearEventLogFileW` | 1248 (0x4e0) | Exported Function | 0x00000001800505d0 | 0x000505d0
-`ElfCloseEventLog` | 1249 (0x4e1) | Exported Function | 0x000000018001c540 | 0x0001c540
-`ElfDeregisterEventSource` | 1250 (0x4e2) | Exported Function | 0x00000001800182d0 | 0x000182d0
-`ElfFlushEventLog` | 1251 (0x4e3) | Exported Function | 0x00000001800506b0 | 0x000506b0
-`ElfNumberOfRecords` | 1252 (0x4e4) | Exported Function | 0x00000001800506c0 | 0x000506c0
-`ElfOldestRecord` | 1253 (0x4e5) | Exported Function | 0x00000001800507b0 | 0x000507b0
-`ElfOpenBackupEventLogA` | 1254 (0x4e6) | Exported Function | 0x00000001800508a0 | 0x000508a0
-`ElfOpenBackupEventLogW` | 1255 (0x4e7) | Exported Function | 0x00000001800509f0 | 0x000509f0
-`ElfOpenEventLogA` | 1256 (0x4e8) | Exported Function | 0x0000000180050b40 | 0x00050b40
-`ElfOpenEventLogW` | 1257 (0x4e9) | Exported Function | 0x000000018001c220 | 0x0001c220
-`ElfReadEventLogA` | 1258 (0x4ea) | Exported Function | 0x0000000180050d70 | 0x00050d70
-`ElfReadEventLogW` | 1259 (0x4eb) | Exported Function | 0x0000000180050ee0 | 0x00050ee0
-`ElfRegisterEventSourceA` | 1260 (0x4ec) | Exported Function | 0x00000001800512a0 | 0x000512a0
-`ElfRegisterEventSourceW` | 1261 (0x4ed) | Exported Function | 0x0000000180018420 | 0x00018420
-`ElfReportEventA` | 1262 (0x4ee) | Exported Function | 0x0000000180051410 | 0x00051410
-`ElfReportEventAndSourceW` | 1263 (0x4ef) | Exported Function | 0x0000000180051870 | 0x00051870
-`ElfReportEventW` | 1264 (0x4f0) | Exported Function | 0x0000000180017e70 | 0x00017e70
-`EnableTrace` | 1265 (0x4f1) | Exported Function | 0x000000018001cd40 | 0x0001cd40
-`EnableTraceEx` | 1266 (0x4f2) | Exported Function | 0x000000018001cd90 | 0x0001cd90
-`EnableTraceEx2` | 1267 (0x4f3) | Exported Function | 0x0000000180004000 | 0x00004000
-`ElfBackupEventLogFileA` | 1244 (0x4dc) | Exported Function | 0x00000001800501d0 | 0x000501d0
-`EncryptedFileKeyInfo` | 1270 (0x4f6) | Exported Function | 0x000000018002c550 | 0x0002c550
-`DuplicateTokenEx` | 1243 (0x4db) | Exported Function | 0x00000001800175d0 | 0x000175d0
-`DuplicateEncryptionInfoFile` | 1241 (0x4d9) | Exported Function | 0x000000018002c370 | 0x0002c370
-`CryptGetUserKey` | 1218 (0x4c2) | Exported Function | 0x000000018002dff0 | 0x0002dff0
-`CryptHashData` | 1219 (0x4c3) | Exported Function | 0x0000000180016a80 | 0x00016a80
-`CryptHashSessionKey` | 1220 (0x4c4) | Exported Function | 0x000000018002e010 | 0x0002e010
-`CryptImportKey` | 1221 (0x4c5) | Exported Function | 0x00000001800166a0 | 0x000166a0
-`CryptReleaseContext` | 1222 (0x4c6) | Exported Function | 0x00000001800172f0 | 0x000172f0
-`CryptSetHashParam` | 1223 (0x4c7) | Exported Function | 0x00000001800178d0 | 0x000178d0
-`CryptSetKeyParam` | 1224 (0x4c8) | Exported Function | 0x000000018002e030 | 0x0002e030
-`CryptSetProviderA` | 1226 (0x4ca) | Exported Function | 0x000000018002e070 | 0x0002e070
-`CryptSetProviderExA` | 1227 (0x4cb) | Exported Function | 0x000000018002e090 | 0x0002e090
-`CryptSetProviderExW` | 1228 (0x4cc) | Exported Function | 0x000000018002e0b0 | 0x0002e0b0
-`CryptSetProviderW` | 1229 (0x4cd) | Exported Function | 0x000000018002e0d0 | 0x0002e0d0
-`CryptSetProvParam` | 1225 (0x4c9) | Exported Function | 0x000000018002e050 | 0x0002e050
-`CryptSignHashA` | 1230 (0x4ce) | Exported Function | 0x000000018002e0f0 | 0x0002e0f0
-`CryptSignHashW` | 1231 (0x4cf) | Exported Function | 0x000000018002e110 | 0x0002e110
-`CryptVerifySignatureA` | 1232 (0x4d0) | Exported Function | 0x000000018002e130 | 0x0002e130
-`CryptVerifySignatureW` | 1233 (0x4d1) | Exported Function | 0x0000000180017680 | 0x00017680
-`CveEventWrite` | 1234 (0x4d2) | Exported Function | KERNELBASE.CveEventWrite | 0x00092954
-`DecryptFileA` | 1235 (0x4d3) | Exported Function | 0x000000018002c210 | 0x0002c210
-`DecryptFileW` | 1236 (0x4d4) | Exported Function | 0x000000018002c2e0 | 0x0002c2e0
-`DeleteAce` | 1237 (0x4d5) | Exported Function | 0x0000000180017330 | 0x00017330
-`DeleteService` | 1238 (0x4d6) | Exported Function | 0x000000018002e150 | 0x0002e150
-`DeregisterEventSource` | 1239 (0x4d7) | Exported Function | 0x00000001800182a0 | 0x000182a0
-`DestroyPrivateObjectSecurity` | 1240 (0x4d8) | Exported Function | 0x000000018002e170 | 0x0002e170
-`DuplicateToken` | 1242 (0x4da) | Exported Function | 0x0000000180016e30 | 0x00016e30
-`CryptGetKeyParam` | 1216 (0x4c0) | Exported Function | 0x000000018002dfb0 | 0x0002dfb0
-`EncryptFileA` | 1268 (0x4f4) | Exported Function | 0x000000018002c410 | 0x0002c410
-`EncryptionDisable` | 1271 (0x4f7) | Exported Function | 0x000000018002c5d0 | 0x0002c5d0
-`EventWriteTransfer` | 1299 (0x513) | Exported Function | ntdll.EtwEventWriteTransfer | 0x00092f4f
-`FileEncryptionStatusA` | 1300 (0x514) | Exported Function | 0x000000018002c620 | 0x0002c620
-`FileEncryptionStatusW` | 1301 (0x515) | Exported Function | 0x000000018002c6f0 | 0x0002c6f0
-`FindFirstFreeAce` | 1302 (0x516) | Exported Function | 0x000000018002e270 | 0x0002e270
-`FlushEfsCache` | 1303 (0x517) | Exported Function | 0x000000018002c750 | 0x0002c750
-`FlushTraceA` | 1304 (0x518) | Exported Function | 0x00000001800415e0 | 0x000415e0
-`FlushTraceW` | 1305 (0x519) | Exported Function | 0x0000000180041600 | 0x00041600
-`FreeEncryptedFileKeyInfo` | 1306 (0x51a) | Exported Function | 0x000000018002c820 | 0x0002c820
-`FreeEncryptedFileMetadata` | 1307 (0x51b) | Exported Function | 0x0000000180019280 | 0x00019280
-`FreeEncryptionCertificateHashList` | 1308 (0x51c) | Exported Function | 0x000000018002c850 | 0x0002c850
-`FreeInheritedFromArray` | 1309 (0x51d) | Exported Function | 0x000000018003c640 | 0x0003c640
-`FreeSid` | 1310 (0x51e) | Exported Function | 0x0000000180016e70 | 0x00016e70
-`GetAccessPermissionsForObjectA` | 1311 (0x51f) | Exported Function | 0x000000018003ddf0 | 0x0003ddf0
-`GetAccessPermissionsForObjectW` | 1312 (0x520) | Exported Function | 0x000000018003e150 | 0x0003e150
-`GetAce` | 1313 (0x521) | Exported Function | 0x000000018001ac90 | 0x0001ac90
-`GetAclInformation` | 1314 (0x522) | Exported Function | 0x000000018001b020 | 0x0001b020
-`GetAuditedPermissionsFromAclA` | 1315 (0x523) | Exported Function | 0x000000018003c690 | 0x0003c690
-`GetAuditedPermissionsFromAclW` | 1316 (0x524) | Exported Function | 0x000000018003c710 | 0x0003c710
-`GetCurrentHwProfileA` | 1317 (0x525) | Exported Function | 0x000000018002be40 | 0x0002be40
-`GetCurrentHwProfileW` | 1318 (0x526) | Exported Function | 0x0000000180016f30 | 0x00016f30
-`GetDynamicTimeZoneInformationEffectiveYears` | 1319 (0x527) | Exported Function | 0x000000018002e290 | 0x0002e290
-`GetEffectiveRightsFromAclA` | 1320 (0x528) | Exported Function | 0x000000018003c7b0 | 0x0003c7b0
-`GetEffectiveRightsFromAclW` | 1321 (0x529) | Exported Function | 0x000000018003c830 | 0x0003c830
-`EventWriteString` | 1298 (0x512) | Exported Function | ntdll.EtwEventWriteString | 0x00092f22
-`EncryptFileW` | 1269 (0x4f5) | Exported Function | 0x000000018002c4d0 | 0x0002c4d0
-`EventWriteStartScenario` | 1297 (0x511) | Exported Function | ntdll.EtwEventWriteStartScenario | 0x00092ef0
-`EventWriteEndScenario` | 1295 (0x50f) | Exported Function | ntdll.EtwEventWriteEndScenario | 0x00092e96
-`EnumDependentServicesA` | 1272 (0x4f8) | Exported Function | 0x00000001800444e0 | 0x000444e0
-`EnumDependentServicesW` | 1273 (0x4f9) | Exported Function | 0x000000018002e190 | 0x0002e190
-`EnumDynamicTimeZoneInformation` | 1274 (0x4fa) | Exported Function | 0x000000018002e1b0 | 0x0002e1b0
-`EnumerateTraceGuids` | 1280 (0x500) | Exported Function | 0x0000000180019290 | 0x00019290
-`EnumerateTraceGuidsEx` | 1281 (0x501) | Exported Function | 0x00000001800179b0 | 0x000179b0
-`EnumServiceGroupW` | 1275 (0x4fb) | Exported Function | 0x0000000180044690 | 0x00044690
-`EnumServicesStatusA` | 1276 (0x4fc) | Exported Function | 0x0000000180044960 | 0x00044960
-`EnumServicesStatusExA` | 1277 (0x4fd) | Exported Function | 0x0000000180018800 | 0x00018800
-`EnumServicesStatusExW` | 1278 (0x4fe) | Exported Function | 0x0000000180003750 | 0x00003750
-`EnumServicesStatusW` | 1279 (0x4ff) | Exported Function | 0x0000000180044bb0 | 0x00044bb0
-`EqualDomainSid` | 1282 (0x502) | Exported Function | 0x000000018002e1d0 | 0x0002e1d0
-`EqualPrefixSid` | 1283 (0x503) | Exported Function | 0x000000018002e1f0 | 0x0002e1f0
-`EqualSid` | 1284 (0x504) | Exported Function | 0x0000000180017a50 | 0x00017a50
-`EventAccessControl` | 1285 (0x505) | Exported Function | 0x000000018002e210 | 0x0002e210
-`EventAccessQuery` | 1286 (0x506) | Exported Function | 0x000000018002e230 | 0x0002e230
-`EventAccessRemove` | 1287 (0x507) | Exported Function | 0x000000018002e250 | 0x0002e250
-`EventActivityIdControl` | 1288 (0x508) | Exported Function | ntdll.EtwEventActivityIdControl | 0x00092d6c
-`EventEnabled` | 1289 (0x509) | Exported Function | ntdll.EtwEventEnabled | 0x00092d99
-`EventProviderEnabled` | 1290 (0x50a) | Exported Function | ntdll.EtwEventProviderEnabled | 0x00092dc4
-`EventRegister` | 1291 (0x50b) | Exported Function | ntdll.EtwEventRegister | 0x00092df0
-`EventSetInformation` | 1292 (0x50c) | Exported Function | ntdll.EtwEventSetInformation | 0x00092e1b
-`EventUnregister` | 1293 (0x50d) | Exported Function | ntdll.EtwEventUnregister | 0x00092e48
-`EventWrite` | 1294 (0x50e) | Exported Function | ntdll.EtwEventWrite | 0x00092e6c
-`EventWriteEx` | 1296 (0x510) | Exported Function | ntdll.EtwEventWriteEx | 0x00092ec2
-`WriteEncryptedFileRaw` | 1857 (0x741) | Exported Function | 0x000000018002cf30 | 0x0002cf30
+Function Name | Ordinal | Type
+-- | -- | --
+`PerfStopProvider` | 1573 | Exported Function
+`PerfStartProviderEx` | 1572 | Exported Function
+`PerfStartProvider` | 1571 | Exported Function
+`PrivilegedServiceAuditAlarmW` | 1576 | Exported Function
+`PrivilegedServiceAuditAlarmA` | 1575 | Exported Function
+`PrivilegeCheck` | 1574 | Exported Function
+`PerfSetULongLongCounterValue` | 1570 | Exported Function
+`PerfRegSetValue` | 1566 | Exported Function
+`PerfRegQueryValue` | 1565 | Exported Function
+`PerfRegQueryInfoKey` | 1564 | Exported Function
+`PerfSetULongCounterValue` | 1569 | Exported Function
+`PerfSetCounterSetInfo` | 1568 | Exported Function
+`PerfSetCounterRefValue` | 1567 | Exported Function
+`QueryServiceConfig2W` | 1586 | Exported Function
+`QueryServiceConfig2A` | 1585 | Exported Function
+`QuerySecurityAccessMask` | 1584 | Exported Function
+`QueryServiceDynamicInformation` | 1589 | Exported Function
+`QueryServiceConfigW` | 1588 | Exported Function
+`QueryServiceConfigA` | 1587 | Exported Function
+`QueryRecoveryAgentsOnEncryptedFile` | 1583 | Exported Function
+`ProcessTrace` | 1579 | Exported Function
+`ProcessIdleTasksW` | 1578 | Exported Function
+`ProcessIdleTasks` | 1577 | Exported Function
+`QueryLocalUserServiceName` | 1582 | Exported Function
+`QueryAllTracesW` | 1581 | Exported Function
+`QueryAllTracesA` | 1580 | Exported Function
+`PerfRegEnumValue` | 1563 | Exported Function
+`PerfCloseQueryHandle` | 1546 | Exported Function
+`PerfAddCounters` | 1545 | Exported Function
+`OperationStart` | 1544 | Exported Function
+`PerfDecrementULongLongCounterValue` | 1549 | Exported Function
+`PerfDecrementULongCounterValue` | 1548 | Exported Function
+`PerfCreateInstance` | 1547 | Exported Function
+`OperationEnd` | 1543 | Exported Function
+`OpenThreadToken` | 1539 | Exported Function
+`OpenServiceW` | 1538 | Exported Function
+`OpenServiceA` | 1537 | Exported Function
+`OpenTraceW` | 1542 | Exported Function
+`OpenTraceA` | 1541 | Exported Function
+`OpenThreadWaitChainSession` | 1540 | Exported Function
+`PerfQueryCounterSetRegistrationInfo` | 1559 | Exported Function
+`PerfQueryCounterInfo` | 1558 | Exported Function
+`PerfQueryCounterData` | 1557 | Exported Function
+`PerfRegEnumKey` | 1562 | Exported Function
+`PerfRegCloseKey` | 1561 | Exported Function
+`PerfQueryInstance` | 1560 | Exported Function
+`PerfOpenQueryHandle` | 1556 | Exported Function
+`PerfEnumerateCounterSet` | 1552 | Exported Function
+`PerfDeleteInstance` | 1551 | Exported Function
+`PerfDeleteCounters` | 1550 | Exported Function
+`PerfIncrementULongLongCounterValue` | 1555 | Exported Function
+`PerfIncrementULongCounterValue` | 1554 | Exported Function
+`PerfEnumerateCounterSetInstances` | 1553 | Exported Function
+`QueryServiceLockStatusA` | 1590 | Exported Function
+`RegDeleteValueA` | 1627 | Exported Function
+`RegDeleteTreeW` | 1626 | Exported Function
+`RegDeleteTreeA` | 1625 | Exported Function
+`RegDisablePredefinedCacheEx` | 1630 | Exported Function
+`RegDisablePredefinedCache` | 1629 | Exported Function
+`RegDeleteValueW` | 1628 | Exported Function
+`RegDeleteKeyW` | 1624 | Exported Function
+`RegDeleteKeyTransactedA` | 1620 | Exported Function
+`RegDeleteKeyExW` | 1619 | Exported Function
+`RegDeleteKeyExA` | 1618 | Exported Function
+`RegDeleteKeyValueW` | 1623 | Exported Function
+`RegDeleteKeyValueA` | 1622 | Exported Function
+`RegDeleteKeyTransactedW` | 1621 | Exported Function
+`RegGetKeySecurity` | 1640 | Exported Function
+`RegFlushKey` | 1639 | Exported Function
+`RegEnumValueW` | 1638 | Exported Function
+`RegisterEventSourceA` | 1686 | Exported Function
+`RegGetValueW` | 1642 | Exported Function
+`RegGetValueA` | 1641 | Exported Function
+`RegEnumValueA` | 1637 | Exported Function
+`RegEnumKeyA` | 1633 | Exported Function
+`RegEnableReflectionKey` | 1632 | Exported Function
+`RegDisableReflectionKey` | 1631 | Exported Function
+`RegEnumKeyW` | 1636 | Exported Function
+`RegEnumKeyExW` | 1635 | Exported Function
+`RegEnumKeyExA` | 1634 | Exported Function
+`RegDeleteKeyA` | 1617 | Exported Function
+`QueryUsersOnEncryptedFile` | 1600 | Exported Function
+`QueryUserServiceNameForContext` | 1599 | Exported Function
+`QueryUserServiceName` | 1598 | Exported Function
+`ReadEventLogW` | 1603 | Exported Function
+`ReadEventLogA` | 1602 | Exported Function
+`ReadEncryptedFileRaw` | 1601 | Exported Function
+`QueryTraceW` | 1597 | Exported Function
+`QueryServiceStatus` | 1593 | Exported Function
+`QueryServiceObjectSecurity` | 1592 | Exported Function
+`QueryServiceLockStatusW` | 1591 | Exported Function
+`QueryTraceProcessingHandle` | 1596 | Exported Function
+`QueryTraceA` | 1595 | Exported Function
+`QueryServiceStatusEx` | 1594 | Exported Function
+`RegCreateKeyExW` | 1613 | Exported Function
+`RegCreateKeyExA` | 1612 | Exported Function
+`RegCreateKeyA` | 1611 | Exported Function
+`RegCreateKeyW` | 1616 | Exported Function
+`RegCreateKeyTransactedW` | 1615 | Exported Function
+`RegCreateKeyTransactedA` | 1614 | Exported Function
+`RegCopyTreeW` | 1610 | Exported Function
+`RegConnectRegistryExA` | 1606 | Exported Function
+`RegConnectRegistryA` | 1605 | Exported Function
+`RegCloseKey` | 1604 | Exported Function
+`RegCopyTreeA` | 1609 | Exported Function
+`RegConnectRegistryW` | 1608 | Exported Function
+`RegConnectRegistryExW` | 1607 | Exported Function
+`LsaLookupPrivilegeValue` | 1466 | Exported Function
+`LsaLookupPrivilegeName` | 1465 | Exported Function
+`LsaLookupPrivilegeDisplayName` | 1464 | Exported Function
+`LsaManageSidNameMapping` | 1469 | Exported Function
+`LsaLookupSids2` | 1468 | Exported Function
+`LsaLookupSids` | 1467 | Exported Function
+`LsaLookupNames2` | 1463 | Exported Function
+`LsaICLookupNamesWithCreds` | 1459 | Exported Function
+`LsaICLookupNames` | 1458 | Exported Function
+`LsaGetUserName` | 1457 | Exported Function
+`LsaLookupNames` | 1462 | Exported Function
+`LsaICLookupSidsWithCreds` | 1461 | Exported Function
+`LsaICLookupSids` | 1460 | Exported Function
+`LsaQueryForestTrustInformation` | 1479 | Exported Function
+`LsaQueryDomainInformationPolicy` | 1478 | Exported Function
+`LsaQueryCAPs` | 1477 | Exported Function
+`LsaQuerySecret` | 1482 | Exported Function
+`LsaQueryInfoTrustedDomain` | 1480 | Exported Function
+`LsaQueryInformationPolicy` | 1481 | Exported Function
+`LsaOpenTrustedDomainByName` | 1476 | Exported Function
+`LsaOpenPolicy` | 1472 | Exported Function
+`LsaOpenAccount` | 1471 | Exported Function
+`LsaNtStatusToWinError` | 1470 | Exported Function
+`LsaOpenTrustedDomain` | 1475 | Exported Function
+`LsaOpenSecret` | 1474 | Exported Function
+`LsaOpenPolicySce` | 1473 | Exported Function
+`LsaGetSystemAccessAccount` | 1456 | Exported Function
+`LsaCreateAccount` | 1439 | Exported Function
+`LsaClose` | 1438 | Exported Function
+`LsaClearAuditLog` | 1437 | Exported Function
+`LsaCreateTrustedDomainEx` | 1442 | Exported Function
+`LsaCreateTrustedDomain` | 1441 | Exported Function
+`LsaCreateSecret` | 1440 | Exported Function
+`LsaAddPrivilegesToAccount` | 1436 | Exported Function
+`LookupPrivilegeValueW` | 1432 | Exported Function
+`LookupPrivilegeValueA` | 1431 | Exported Function
+`LookupPrivilegeNameW` | 1430 | Exported Function
+`LsaAddAccountRights` | 1435 | Exported Function
+`LookupSecurityDescriptorPartsW` | 1434 | Exported Function
+`LookupSecurityDescriptorPartsA` | 1433 | Exported Function
+`LsaFreeMemory` | 1452 | Exported Function
+`LsaEnumerateTrustedDomainsEx` | 1451 | Exported Function
+`LsaEnumerateTrustedDomains` | 1450 | Exported Function
+`LsaGetRemoteUserName` | 1455 | Exported Function
+`LsaGetQuotasForAccount` | 1454 | Exported Function
+`LsaGetAppliedCAPIDs` | 1453 | Exported Function
+`LsaEnumeratePrivilegesOfAccount` | 1449 | Exported Function
+`LsaEnumerateAccountRights` | 1445 | Exported Function
+`LsaDeleteTrustedDomain` | 1444 | Exported Function
+`LsaDelete` | 1443 | Exported Function
+`LsaEnumeratePrivileges` | 1448 | Exported Function
+`LsaEnumerateAccountsWithUserRight` | 1447 | Exported Function
+`LsaEnumerateAccounts` | 1446 | Exported Function
+`LsaQuerySecurityObject` | 1483 | Exported Function
+`ObjectCloseAuditAlarmA` | 1520 | Exported Function
+`NpGetUserName` | 1519 | Exported Function
+`NotifyServiceStatusChangeW` | 1518 | Exported Function
+`ObjectDeleteAuditAlarmW` | 1523 | Exported Function
+`ObjectDeleteAuditAlarmA` | 1522 | Exported Function
+`ObjectCloseAuditAlarmW` | 1521 | Exported Function
+`NotifyServiceStatusChangeA` | 1517 | Exported Function
+`MSChapSrvChangePassword2` | 1509 | Exported Function
+`MSChapSrvChangePassword` | 1508 | Exported Function
+`MIDL_user_free_Ext` | 1507 | Exported Function
+`NotifyServiceStatusChange` | 1516 | Exported Function
+`NotifyChangeEventLog` | 1515 | Exported Function
+`NotifyBootConfigStatus` | 1514 | Exported Function
+`OpenEventLogW` | 1533 | Exported Function
+`OpenEventLogA` | 1532 | Exported Function
+`OpenEncryptedFileRawW` | 1531 | Exported Function
+`OpenSCManagerW` | 1536 | Exported Function
+`OpenSCManagerA` | 1535 | Exported Function
+`OpenProcessToken` | 1534 | Exported Function
+`OpenEncryptedFileRawA` | 1530 | Exported Function
+`ObjectPrivilegeAuditAlarmA` | 1526 | Exported Function
+`ObjectOpenAuditAlarmW` | 1525 | Exported Function
+`ObjectOpenAuditAlarmA` | 1524 | Exported Function
+`OpenBackupEventLogW` | 1529 | Exported Function
+`OpenBackupEventLogA` | 1528 | Exported Function
+`ObjectPrivilegeAuditAlarmW` | 1527 | Exported Function
+`MD5Update` | 1506 | Exported Function
+`LsaSetInformationTrustedDomain` | 1493 | Exported Function
+`LsaSetInformationPolicy` | 1492 | Exported Function
+`LsaSetForestTrustInformation` | 1491 | Exported Function
+`LsaSetSecurityObject` | 1496 | Exported Function
+`LsaSetSecret` | 1495 | Exported Function
+`LsaSetQuotasForAccount` | 1494 | Exported Function
+`LsaSetDomainInformationPolicy` | 1490 | Exported Function
+`LsaRemoveAccountRights` | 1486 | Exported Function
+`LsaQueryTrustedDomainInfoByName` | 1485 | Exported Function
+`LsaQueryTrustedDomainInfo` | 1484 | Exported Function
+`LsaSetCAPs` | 1489 | Exported Function
+`LsaRetrievePrivateData` | 1488 | Exported Function
+`LsaRemovePrivilegesFromAccount` | 1487 | Exported Function
+`MD4Init` | 1502 | Exported Function
+`MD4Final` | 1501 | Exported Function
+`MapGenericMask` | 1513 | Exported Function
+`MD5Init` | 1505 | Exported Function
+`MD5Final` | 1504 | Exported Function
+`MD4Update` | 1503 | Exported Function
+`MakeSelfRelativeSD` | 1512 | Exported Function
+`LsaSetTrustedDomainInformation` | 1499 | Exported Function
+`LsaSetTrustedDomainInfoByName` | 1498 | Exported Function
+`LsaSetSystemAccessAccount` | 1497 | Exported Function
+`MakeAbsoluteSD2` | 1511 | Exported Function
+`MakeAbsoluteSD` | 1510 | Exported Function
+`LsaStorePrivateData` | 1500 | Exported Function
+`SystemFunction019` | 1787 | Exported Function
+`SystemFunction018` | 1786 | Exported Function
+`SystemFunction017` | 1785 | Exported Function
+`SystemFunction022` | 1790 | Exported Function
+`SystemFunction021` | 1789 | Exported Function
+`SystemFunction020` | 1788 | Exported Function
+`SystemFunction016` | 1784 | Exported Function
+`SystemFunction012` | 1780 | Exported Function
+`SystemFunction011` | 1779 | Exported Function
+`SystemFunction010` | 1778 | Exported Function
+`SystemFunction015` | 1783 | Exported Function
+`SystemFunction014` | 1782 | Exported Function
+`SystemFunction013` | 1781 | Exported Function
+`SystemFunction032` | 1800 | Exported Function
+`SystemFunction031` | 1799 | Exported Function
+`SystemFunction030` | 1798 | Exported Function
+`SystemFunction035` | 1803 | Exported Function
+`SystemFunction034` | 1802 | Exported Function
+`SystemFunction033` | 1801 | Exported Function
+`SystemFunction029` | 1797 | Exported Function
+`SystemFunction025` | 1793 | Exported Function
+`SystemFunction024` | 1792 | Exported Function
+`SystemFunction023` | 1791 | Exported Function
+`SystemFunction028` | 1796 | Exported Function
+`SystemFunction027` | 1795 | Exported Function
+`SystemFunction026` | 1794 | Exported Function
+`SystemFunction009` | 1777 | Exported Function
+`SetUserFileEncryptionKeyEx` | 1760 | Exported Function
+`SetUserFileEncryptionKey` | 1759 | Exported Function
+`SetTraceCallback` | 1758 | Exported Function
+`StartServiceCtrlDispatcherW` | 1763 | Exported Function
+`StartServiceCtrlDispatcherA` | 1762 | Exported Function
+`StartServiceA` | 1761 | Exported Function
+`SetTokenInformation` | 1757 | Exported Function
+`SetServiceBits` | 1753 | Exported Function
+`SetSecurityInfoExW` | 1752 | Exported Function
+`SetSecurityInfoExA` | 1751 | Exported Function
+`SetThreadToken` | 1756 | Exported Function
+`SetServiceStatus` | 1755 | Exported Function
+`SetServiceObjectSecurity` | 1754 | Exported Function
+`SystemFunction005` | 1773 | Exported Function
+`SystemFunction004` | 1772 | Exported Function
+`SystemFunction003` | 1771 | Exported Function
+`SystemFunction008` | 1776 | Exported Function
+`SystemFunction007` | 1775 | Exported Function
+`SystemFunction006` | 1774 | Exported Function
+`SystemFunction002` | 1770 | Exported Function
+`StartTraceW` | 1766 | Exported Function
+`StartTraceA` | 1765 | Exported Function
+`StartServiceW` | 1764 | Exported Function
+`SystemFunction001` | 1769 | Exported Function
+`StopTraceW` | 1768 | Exported Function
+`StopTraceA` | 1767 | Exported Function
+`SystemFunction036` | 1804 | Exported Function
+`WmiOpenBlock` | 1841 | Exported Function
+`WmiNotificationRegistrationW` | 1840 | Exported Function
+`WmiNotificationRegistrationA` | 1839 | Exported Function
+`WmiQueryAllDataMultipleW` | 1844 | Exported Function
+`WmiQueryAllDataMultipleA` | 1843 | Exported Function
+`WmiQueryAllDataA` | 1842 | Exported Function
+`WmiMofEnumerateResourcesW` | 1838 | Exported Function
+`WmiFileHandleToInstanceNameA` | 1834 | Exported Function
+`WmiExecuteMethodW` | 1833 | Exported Function
+`WmiExecuteMethodA` | 1832 | Exported Function
+`WmiMofEnumerateResourcesA` | 1837 | Exported Function
+`WmiFreeBuffer` | 1836 | Exported Function
+`WmiFileHandleToInstanceNameW` | 1835 | Exported Function
+`WmiSetSingleInstanceW` | 1854 | Exported Function
+`WmiSetSingleInstanceA` | 1853 | Exported Function
+`WmiReceiveNotificationsW` | 1852 | Exported Function
+`WriteEncryptedFileRaw` | 1857 | Exported Function
+`WmiSetSingleItemW` | 1856 | Exported Function
+`WmiSetSingleItemA` | 1855 | Exported Function
+`WmiReceiveNotificationsA` | 1851 | Exported Function
+`WmiQuerySingleInstanceA` | 1847 | Exported Function
+`WmiQueryGuidInformation` | 1846 | Exported Function
+`WmiQueryAllDataW` | 1845 | Exported Function
+`WmiQuerySingleInstanceW` | 1850 | Exported Function
+`WmiQuerySingleInstanceMultipleW` | 1849 | Exported Function
+`WmiQuerySingleInstanceMultipleA` | 1848 | Exported Function
+`WmiEnumerateGuids` | 1831 | Exported Function
+`TreeResetNamedSecurityInfoW` | 1814 | Exported Function
+`TreeResetNamedSecurityInfoA` | 1813 | Exported Function
+`TraceSetInformation` | 1812 | Exported Function
+`TrusteeAccessToObjectA` | 1817 | Exported Function
+`TreeSetNamedSecurityInfoW` | 1816 | Exported Function
+`TreeSetNamedSecurityInfoA` | 1815 | Exported Function
+`TraceQueryInformation` | 1811 | Exported Function
+`TraceEvent` | 1807 | Exported Function
+`SystemFunction041` | 1806 | Exported Function
+`SystemFunction040` | 1805 | Exported Function
+`TraceMessageVa` | 1810 | Exported Function
+`TraceMessage` | 1809 | Exported Function
+`TraceEventInstance` | 1808 | Exported Function
+`WaitServiceState` | 1827 | Exported Function
+`UsePinForEncryptedFilesW` | 1826 | Exported Function
+`UsePinForEncryptedFilesA` | 1825 | Exported Function
+`WmiDevInstToInstanceNameW` | 1830 | Exported Function
+`WmiDevInstToInstanceNameA` | 1829 | Exported Function
+`WmiCloseBlock` | 1828 | Exported Function
+`UpdateTraceW` | 1824 | Exported Function
+`UnlockServiceDatabase` | 1820 | Exported Function
+`UninstallApplication` | 1819 | Exported Function
+`TrusteeAccessToObjectW` | 1818 | Exported Function
+`UpdateTraceA` | 1823 | Exported Function
+`UnregisterTraceGuids` | 1822 | Exported Function
+`UnregisterIdleTask` | 1821 | Exported Function
+`RegReplaceKeyW` | 1670 | Exported Function
+`RegReplaceKeyA` | 1669 | Exported Function
+`RegRenameKey` | 1668 | Exported Function
+`RegSaveKeyA` | 1673 | Exported Function
+`RegRestoreKeyW` | 1672 | Exported Function
+`RegRestoreKeyA` | 1671 | Exported Function
+`RegQueryValueW` | 1667 | Exported Function
+`RegQueryReflectionKey` | 1663 | Exported Function
+`RegQueryMultipleValuesW` | 1662 | Exported Function
+`RegQueryMultipleValuesA` | 1661 | Exported Function
+`RegQueryValueExW` | 1666 | Exported Function
+`RegQueryValueExA` | 1665 | Exported Function
+`RegQueryValueA` | 1664 | Exported Function
+`RegSetValueW` | 1683 | Exported Function
+`RegSetValueExW` | 1682 | Exported Function
+`RegSetValueExA` | 1681 | Exported Function
+`RemoteRegEnumKeyWrapper` | 1696 | Exported Function
+`RegUnLoadKeyW` | 1685 | Exported Function
+`RegUnLoadKeyA` | 1684 | Exported Function
+`RegSetValueA` | 1680 | Exported Function
+`RegSaveKeyW` | 1676 | Exported Function
+`RegSaveKeyExW` | 1675 | Exported Function
+`RegSaveKeyExA` | 1674 | Exported Function
+`RegSetKeyValueW` | 1679 | Exported Function
+`RegSetKeyValueA` | 1678 | Exported Function
+`RegSetKeySecurity` | 1677 | Exported Function
+`RegQueryInfoKeyW` | 1660 | Exported Function
+`RegLoadAppKeyA` | 1643 | Exported Function
+`RegisterWaitChainCOMCallback` | 1695 | Exported Function
+`RegisterTraceGuidsW` | 1694 | Exported Function
+`RegLoadKeyW` | 1646 | Exported Function
+`RegLoadKeyA` | 1645 | Exported Function
+`RegLoadAppKeyW` | 1644 | Exported Function
+`RegisterTraceGuidsA` | 1693 | Exported Function
+`RegisterServiceCtrlHandlerA` | 1689 | Exported Function
+`RegisterIdleTask` | 1688 | Exported Function
+`RegisterEventSourceW` | 1687 | Exported Function
+`RegisterServiceCtrlHandlerW` | 1692 | Exported Function
+`RegisterServiceCtrlHandlerExW` | 1691 | Exported Function
+`RegisterServiceCtrlHandlerExA` | 1690 | Exported Function
+`RegOpenKeyW` | 1656 | Exported Function
+`RegOpenKeyTransactedW` | 1655 | Exported Function
+`RegOpenKeyTransactedA` | 1654 | Exported Function
+`RegQueryInfoKeyA` | 1659 | Exported Function
+`RegOverridePredefKey` | 1658 | Exported Function
+`RegOpenUserClassesRoot` | 1657 | Exported Function
+`RegOpenKeyExW` | 1653 | Exported Function
+`RegNotifyChangeKeyValue` | 1649 | Exported Function
+`RegLoadMUIStringW` | 1648 | Exported Function
+`RegLoadMUIStringA` | 1647 | Exported Function
+`RegOpenKeyExA` | 1652 | Exported Function
+`RegOpenKeyA` | 1651 | Exported Function
+`RegOpenCurrentUser` | 1650 | Exported Function
+`RemoteRegEnumValueWrapper` | 1697 | Exported Function
+`SetInformationCodeAuthzLevelW` | 1734 | Exported Function
+`SetFileSecurityW` | 1733 | Exported Function
+`SetFileSecurityA` | 1732 | Exported Function
+`SetNamedSecurityInfoA` | 1737 | Exported Function
+`SetKernelObjectSecurity` | 1736 | Exported Function
+`SetInformationCodeAuthzPolicyW` | 1735 | Exported Function
+`SetEntriesInAuditListW` | 1731 | Exported Function
+`SetEntriesInAccessListW` | 1727 | Exported Function
+`SetEntriesInAccessListA` | 1726 | Exported Function
+`SetEncryptedFileMetadata` | 1725 | Exported Function
+`SetEntriesInAuditListA` | 1730 | Exported Function
+`SetEntriesInAclW` | 1729 | Exported Function
+`SetEntriesInAclA` | 1728 | Exported Function
+`SetSecurityDescriptorOwner` | 1747 | Exported Function
+`SetSecurityDescriptorGroup` | 1746 | Exported Function
+`SetSecurityDescriptorDacl` | 1745 | Exported Function
+`SetSecurityInfo` | 1750 | Exported Function
+`SetSecurityDescriptorSacl` | 1749 | Exported Function
+`SetSecurityDescriptorRMControl` | 1748 | Exported Function
+`SetSecurityDescriptorControl` | 1744 | Exported Function
+`SetNamedSecurityInfoW` | 1740 | Exported Function
+`SetNamedSecurityInfoExW` | 1739 | Exported Function
+`SetNamedSecurityInfoExA` | 1738 | Exported Function
+`SetSecurityAccessMask` | 1743 | Exported Function
+`SetPrivateObjectSecurityEx` | 1742 | Exported Function
+`SetPrivateObjectSecurity` | 1741 | Exported Function
+`SetAclInformation` | 1724 | Exported Function
+`SafeBaseRegGetKeySecurity` | 1707 | Exported Function
+`RevertToSelf` | 1706 | Exported Function
+`ReportEventW` | 1705 | Exported Function
+`SaferCreateLevel` | 1710 | Exported Function
+`SaferComputeTokenFromLevel` | 1709 | Exported Function
+`SaferCloseLevel` | 1708 | Exported Function
+`ReportEventA` | 1704 | Exported Function
+`RemoteRegQueryMultipleValuesWrapper` | 1700 | Exported Function
+`RemoteRegQueryMultipleValues2Wrapper` | 1699 | Exported Function
+`RemoteRegQueryInfoKeyWrapper` | 1698 | Exported Function
+`RemoveUsersFromEncryptedFile` | 1703 | Exported Function
+`RemoveTraceCallback` | 1702 | Exported Function
+`RemoteRegQueryValueWrapper` | 1701 | Exported Function
+`SaferiSearchMatchingHashRules` | 1723 | Exported Function
+`SaferiRecordEventLogEntry` | 1722 | Exported Function
+`SaferiPopulateDefaultsInRegistry` | 1721 | Exported Function
+`SaferSetPolicyInformation` | 1716 | Exported Function
+`SaferSetLevelInformation` | 1715 | Exported Function
+`SaferRecordEventLogEntry` | 1714 | Exported Function
+`SaferiIsExecutableFileType` | 1720 | Exported Function
+`SaferiChangeRegistryScope` | 1717 | Exported Function
+`SaferGetPolicyInformation` | 1712 | Exported Function
+`SaferGetLevelInformation` | 1711 | Exported Function
+`SaferiIsDllAllowed` | 1719 | Exported Function
+`SaferIdentifyLevel` | 1713 | Exported Function
+`SaferiCompareTokenLevels` | 1718 | Exported Function
+`LookupPrivilegeNameA` | 1429 | Exported Function
+`CreateServiceA` | 1145 | Exported Function
+`CreateRestrictedToken` | 1144 | Exported Function
+`CreateProcessWithTokenW` | 1143 | Exported Function
+`CreateTraceInstanceId` | 1148 | Exported Function
+`CreateServiceW` | 1147 | Exported Function
+`CreateServiceEx` | 1146 | Exported Function
+`CreateProcessWithLogonW` | 1142 | Exported Function
+`CreatePrivateObjectSecurityEx` | 1138 | Exported Function
+`CreatePrivateObjectSecurity` | 1137 | Exported Function
+`CreateCodeAuthzLevel` | 1136 | Exported Function
+`CreateProcessAsUserW` | 1141 | Exported Function
+`CreateProcessAsUserA` | 1140 | Exported Function
+`CreatePrivateObjectSecurityWithMultipleInheritance` | 1139 | Exported Function
+`CredFree` | 1158 | Exported Function
+`CredFindBestCredentialW` | 1157 | Exported Function
+`CredFindBestCredentialA` | 1156 | Exported Function
+`CredGetTargetInfoW` | 1161 | Exported Function
+`CredGetTargetInfoA` | 1160 | Exported Function
+`CredGetSessionTypes` | 1159 | Exported Function
+`CredEnumerateW` | 1155 | Exported Function
+`CredDeleteA` | 1151 | Exported Function
+`CredBackupCredentials` | 1150 | Exported Function
+`CreateWellKnownSid` | 1149 | Exported Function
+`CredEnumerateA` | 1154 | Exported Function
+`CredEncryptAndMarshalBinaryBlob` | 1153 | Exported Function
+`CredDeleteW` | 1152 | Exported Function
+`CopySid` | 1135 | Exported Function
+`ConvertSecurityDescriptorToAccessA` | 1118 | Exported Function
+`ConvertSDToStringSDRootDomainW` | 1117 | Exported Function
+`ConvertSDToStringSDRootDomainA` | 1116 | Exported Function
+`ConvertSecurityDescriptorToAccessW` | 1121 | Exported Function
+`ConvertSecurityDescriptorToAccessNamedW` | 1120 | Exported Function
+`ConvertSecurityDescriptorToAccessNamedA` | 1119 | Exported Function
+`ConvertSDToStringSDDomainW` | 1115 | Exported Function
+`ControlTraceA` | 1111 | Exported Function
+`ControlServiceExW` | 1110 | Exported Function
+`ControlServiceExA` | 1109 | Exported Function
+`ConvertAccessToSecurityDescriptorW` | 1114 | Exported Function
+`ConvertAccessToSecurityDescriptorA` | 1113 | Exported Function
+`ControlTraceW` | 1112 | Exported Function
+`ConvertStringSecurityDescriptorToSecurityDescriptorW` | 1131 | Exported Function
+`ConvertStringSecurityDescriptorToSecurityDescriptorA` | 1130 | Exported Function
+`ConvertStringSDToSDRootDomainW` | 1129 | Exported Function
+`ConvertToAutoInheritPrivateObjectSecurity` | 1134 | Exported Function
+`ConvertStringSidToSidW` | 1133 | Exported Function
+`ConvertStringSidToSidA` | 1132 | Exported Function
+`ConvertStringSDToSDRootDomainA` | 1128 | Exported Function
+`ConvertSidToStringSidA` | 1124 | Exported Function
+`ConvertSecurityDescriptorToStringSecurityDescriptorW` | 1123 | Exported Function
+`ConvertSecurityDescriptorToStringSecurityDescriptorA` | 1122 | Exported Function
+`ConvertStringSDToSDDomainW` | 1127 | Exported Function
+`ConvertStringSDToSDDomainA` | 1126 | Exported Function
+`ConvertSidToStringSidW` | 1125 | Exported Function
+`CredIsMarshaledCredentialA` | 1162 | Exported Function
+`CryptDecrypt` | 1199 | Exported Function
+`CryptCreateHash` | 1198 | Exported Function
+`CryptContextAddRef` | 1197 | Exported Function
+`CryptDestroyKey` | 1202 | Exported Function
+`CryptDestroyHash` | 1201 | Exported Function
+`CryptDeriveKey` | 1200 | Exported Function
+`CryptAcquireContextW` | 1196 | Exported Function
+`CredWriteDomainCredentialsA` | 1186 | Exported Function
+`CredWriteA` | 1185 | Exported Function
+`CredUnprotectW` | 1184 | Exported Function
+`CryptAcquireContextA` | 1195 | Exported Function
+`CredWriteW` | 1188 | Exported Function
+`CredWriteDomainCredentialsW` | 1187 | Exported Function
+`CryptGenRandom` | 1212 | Exported Function
+`CryptGenKey` | 1211 | Exported Function
+`CryptExportKey` | 1210 | Exported Function
+`CryptGetHashParam` | 1215 | Exported Function
+`CryptGetDefaultProviderW` | 1214 | Exported Function
+`CryptGetDefaultProviderA` | 1213 | Exported Function
+`CryptEnumProviderTypesW` | 1207 | Exported Function
+`CryptEncrypt` | 1205 | Exported Function
+`CryptDuplicateKey` | 1204 | Exported Function
+`CryptDuplicateHash` | 1203 | Exported Function
+`CryptEnumProviderTypesA` | 1206 | Exported Function
+`CryptEnumProvidersW` | 1209 | Exported Function
+`CryptEnumProvidersA` | 1208 | Exported Function
+`CredUnprotectA` | 1183 | Exported Function
+`CredpEncodeCredential` | 1193 | Exported Function
+`CredpDecodeCredential` | 1192 | Exported Function
+`CredpConvertTargetInfo` | 1191 | Exported Function
+`CredProfileLoadedEx` | 1169 | Exported Function
+`CredProfileLoaded` | 1168 | Exported Function
+`CredpEncodeSecret` | 1194 | Exported Function
+`CredpConvertOneCredentialSize` | 1190 | Exported Function
+`CredIsProtectedW` | 1165 | Exported Function
+`CredIsProtectedA` | 1164 | Exported Function
+`CredIsMarshaledCredentialW` | 1163 | Exported Function
+`CredpConvertCredential` | 1189 | Exported Function
+`CredMarshalCredentialW` | 1167 | Exported Function
+`CredMarshalCredentialA` | 1166 | Exported Function
+`CredRenameW` | 1179 | Exported Function
+`CredRenameA` | 1178 | Exported Function
+`CredReadW` | 1177 | Exported Function
+`CredUnmarshalCredentialW` | 1182 | Exported Function
+`CredUnmarshalCredentialA` | 1181 | Exported Function
+`CredRestoreCredentials` | 1180 | Exported Function
+`CredReadDomainCredentialsW` | 1176 | Exported Function
+`CredProtectW` | 1172 | Exported Function
+`CredProtectA` | 1171 | Exported Function
+`CredProfileUnloaded` | 1170 | Exported Function
+`CredReadDomainCredentialsA` | 1175 | Exported Function
+`CredReadByTokenHandle` | 1174 | Exported Function
+`CredReadA` | 1173 | Exported Function
+`AuditComputeEffectivePolicyBySid` | 1038 | Exported Function
+`AreAnyAccessesGranted` | 1037 | Exported Function
+`AreAllAccessesGranted` | 1036 | Exported Function
+`AuditEnumeratePerUserPolicy` | 1041 | Exported Function
+`AuditEnumerateCategories` | 1040 | Exported Function
+`AuditComputeEffectivePolicyByToken` | 1039 | Exported Function
+`AllocateLocallyUniqueId` | 1035 | Exported Function
+`AddUsersToEncryptedFileEx` | 1031 | Exported Function
+`AddUsersToEncryptedFile` | 1030 | Exported Function
+`AddMandatoryAce` | 1029 | Exported Function
+`AllocateAndInitializeSid` | 1034 | Exported Function
+`AdjustTokenPrivileges` | 1033 | Exported Function
+`AdjustTokenGroups` | 1032 | Exported Function
+`AuditQueryGlobalSaclW` | 1051 | Exported Function
+`AuditQueryGlobalSaclA` | 1050 | Exported Function
+`AuditLookupSubCategoryNameW` | 1049 | Exported Function
+`AuditQuerySystemPolicy` | 1054 | Exported Function
+`AuditQuerySecurity` | 1053 | Exported Function
+`AuditQueryPerUserPolicy` | 1052 | Exported Function
+`AuditLookupSubCategoryNameA` | 1048 | Exported Function
+`AuditLookupCategoryGuidFromCategoryId` | 1044 | Exported Function
+`AuditFree` | 1043 | Exported Function
+`AuditEnumerateSubCategories` | 1042 | Exported Function
+`AuditLookupCategoryNameW` | 1047 | Exported Function
+`AuditLookupCategoryNameA` | 1046 | Exported Function
+`AuditLookupCategoryIdFromCategoryGuid` | 1045 | Exported Function
+`AddConditionalAce` | 1028 | Exported Function
+`AccessCheckByTypeAndAuditAlarmA` | 1011 | Exported Function
+`AccessCheckByType` | 1010 | Exported Function
+`AccessCheckAndAuditAlarmW` | 1009 | Exported Function
+`AccessCheckByTypeResultListAndAuditAlarmA` | 1014 | Exported Function
+`AccessCheckByTypeResultList` | 1013 | Exported Function
+`AccessCheckByTypeAndAuditAlarmW` | 1012 | Exported Function
+`AccessCheckAndAuditAlarmA` | 1008 | Exported Function
+`A_SHAUpdate` | 1004 | Exported Function
+`A_SHAInit` | 1003 | Exported Function
+`A_SHAFinal` | 1002 | Exported Function
+`AccessCheck` | 1007 | Exported Function
+`AbortSystemShutdownW` | 1006 | Exported Function
+`AbortSystemShutdownA` | 1005 | Exported Function
+`AddAce` | 1024 | Exported Function
+`AddAccessDeniedObjectAce` | 1023 | Exported Function
+`AddAccessDeniedAceEx` | 1022 | Exported Function
+`AddAuditAccessObjectAce` | 1027 | Exported Function
+`AddAuditAccessAceEx` | 1026 | Exported Function
+`AddAuditAccessAce` | 1025 | Exported Function
+`AddAccessDeniedAce` | 1021 | Exported Function
+`AccessCheckByTypeResultListAndAuditAlarmW` | 1017 | Exported Function
+`AccessCheckByTypeResultListAndAuditAlarmByHandleW` | 1016 | Exported Function
+`AccessCheckByTypeResultListAndAuditAlarmByHandleA` | 1015 | Exported Function
+`AddAccessAllowedObjectAce` | 1020 | Exported Function
+`AddAccessAllowedAceEx` | 1019 | Exported Function
+`AddAccessAllowedAce` | 1018 | Exported Function
+`AuditSetGlobalSaclA` | 1055 | Exported Function
+`ChangeServiceConfig2A` | 1092 | Exported Function
+`CancelOverlappedAccess` | 1091 | Exported Function
+`BuildTrusteeWithSidW` | 1090 | Exported Function
+`ChangeServiceConfigW` | 1095 | Exported Function
+`ChangeServiceConfigA` | 1094 | Exported Function
+`ChangeServiceConfig2W` | 1093 | Exported Function
+`BuildTrusteeWithSidA` | 1089 | Exported Function
+`BuildTrusteeWithObjectsAndNameA` | 1085 | Exported Function
+`BuildTrusteeWithNameW` | 1084 | Exported Function
+`BuildTrusteeWithNameA` | 1083 | Exported Function
+`BuildTrusteeWithObjectsAndSidW` | 1088 | Exported Function
+`BuildTrusteeWithObjectsAndSidA` | 1087 | Exported Function
+`BuildTrusteeWithObjectsAndNameW` | 1086 | Exported Function
+`CloseTrace` | 1105 | Exported Function
+`CloseThreadWaitChainSession` | 1104 | Exported Function
+`CloseServiceHandle` | 1103 | Exported Function
+`ControlService` | 1108 | Exported Function
+`ComputeAccessTokenFromCodeAuthzLevel` | 1107 | Exported Function
+`CommandLineFromMsiDescriptor` | 1106 | Exported Function
+`CloseEventLog` | 1102 | Exported Function
+`ClearEventLogA` | 1098 | Exported Function
+`CheckTokenMembership` | 1097 | Exported Function
+`CheckForHiberboot` | 1096 | Exported Function
+`CloseEncryptedFileRaw` | 1101 | Exported Function
+`CloseCodeAuthzLevel` | 1100 | Exported Function
+`ClearEventLogW` | 1099 | Exported Function
+`BuildSecurityDescriptorW` | 1082 | Exported Function
+`BaseRegDeleteValue` | 1065 | Exported Function
+`BaseRegDeleteKeyEx` | 1064 | Exported Function
+`BaseRegCreateKey` | 1063 | Exported Function
+`BaseRegLoadKey` | 1068 | Exported Function
+`BaseRegGetVersion` | 1067 | Exported Function
+`BaseRegFlushKey` | 1066 | Exported Function
+`BaseRegCloseKey` | 1062 | Exported Function
+`AuditSetSecurity` | 1058 | Exported Function
+`AuditSetPerUserPolicy` | 1057 | Exported Function
+`AuditSetGlobalSaclW` | 1056 | Exported Function
+`BackupEventLogW` | 1061 | Exported Function
+`BackupEventLogA` | 1060 | Exported Function
+`AuditSetSystemPolicy` | 1059 | Exported Function
+`BuildImpersonateExplicitAccessWithNameW` | 1078 | Exported Function
+`BuildImpersonateExplicitAccessWithNameA` | 1077 | Exported Function
+`BuildExplicitAccessWithNameW` | 1076 | Exported Function
+`BuildSecurityDescriptorA` | 1081 | Exported Function
+`BuildImpersonateTrusteeW` | 1080 | Exported Function
+`BuildImpersonateTrusteeA` | 1079 | Exported Function
+`BuildExplicitAccessWithNameA` | 1075 | Exported Function
+`BaseRegSaveKeyEx` | 1071 | Exported Function
+`BaseRegRestoreKey` | 1070 | Exported Function
+`BaseRegOpenKey` | 1069 | Exported Function
+`BaseRegUnLoadKey` | 1074 | Exported Function
+`BaseRegSetValue` | 1073 | Exported Function
+`BaseRegSetKeySecurity` | 1072 | Exported Function
+`GetSecurityInfoExW` | 1359 | Exported Function
+`GetSecurityInfoExA` | 1358 | Exported Function
+`GetSecurityInfo` | 1357 | Exported Function
+`GetServiceKeyNameA` | 1362 | Exported Function
+`GetServiceDisplayNameW` | 1361 | Exported Function
+`GetServiceDisplayNameA` | 1360 | Exported Function
+`GetSecurityDescriptorSacl` | 1356 | Exported Function
+`GetSecurityDescriptorGroup` | 1352 | Exported Function
+`GetSecurityDescriptorDacl` | 1351 | Exported Function
+`GetSecurityDescriptorControl` | 1350 | Exported Function
+`GetSecurityDescriptorRMControl` | 1355 | Exported Function
+`GetSecurityDescriptorOwner` | 1354 | Exported Function
+`GetSecurityDescriptorLength` | 1353 | Exported Function
+`GetTraceEnableLevel` | 1372 | Exported Function
+`GetTraceEnableFlags` | 1371 | Exported Function
+`GetTokenInformation` | 1370 | Exported Function
+`GetTrusteeFormW` | 1375 | Exported Function
+`GetTrusteeFormA` | 1374 | Exported Function
+`GetTraceLoggerHandle` | 1373 | Exported Function
+`GetThreadWaitChain` | 1369 | Exported Function
+`GetSidLengthRequired` | 1365 | Exported Function
+`GetSidIdentifierAuthority` | 1364 | Exported Function
+`GetServiceKeyNameW` | 1363 | Exported Function
+`GetStringConditionFromBinary` | 1368 | Exported Function
+`GetSidSubAuthorityCount` | 1367 | Exported Function
+`GetSidSubAuthority` | 1366 | Exported Function
+`GetPrivateObjectSecurity` | 1349 | Exported Function
+`GetKernelObjectSecurity` | 1332 | Exported Function
+`GetInheritanceSourceW` | 1331 | Exported Function
+`GetInheritanceSourceA` | 1330 | Exported Function
+`GetLocalManagedApplications` | 1335 | Exported Function
+`GetLocalManagedApplicationData` | 1334 | Exported Function
+`GetLengthSid` | 1333 | Exported Function
+`GetInformationCodeAuthzPolicyW` | 1329 | Exported Function
+`GetExplicitEntriesFromAclW` | 1325 | Exported Function
+`GetExplicitEntriesFromAclA` | 1324 | Exported Function
+`GetEventLogInformation` | 1323 | Exported Function
+`GetInformationCodeAuthzLevelW` | 1328 | Exported Function
+`GetFileSecurityW` | 1327 | Exported Function
+`GetFileSecurityA` | 1326 | Exported Function
+`GetNamedSecurityInfoW` | 1345 | Exported Function
+`GetNamedSecurityInfoExW` | 1344 | Exported Function
+`GetNamedSecurityInfoExA` | 1343 | Exported Function
+`GetOverlappedAccessResults` | 1348 | Exported Function
+`GetOldestEventLogRecord` | 1347 | Exported Function
+`GetNumberOfEventLogRecords` | 1346 | Exported Function
+`GetNamedSecurityInfoA` | 1342 | Exported Function
+`GetMultipleTrusteeA` | 1338 | Exported Function
+`GetManagedApplications` | 1337 | Exported Function
+`GetManagedApplicationCategories` | 1336 | Exported Function
+`GetMultipleTrusteeW` | 1341 | Exported Function
+`GetMultipleTrusteeOperationW` | 1340 | Exported Function
+`GetMultipleTrusteeOperationA` | 1339 | Exported Function
+`GetTrusteeNameA` | 1376 | Exported Function
+`IsValidAcl` | 1412 | Exported Function
+`IsTokenUntrusted` | 1411 | Exported Function
+`IsTokenRestricted` | 1410 | Exported Function
+`IsValidSid` | 1415 | Exported Function
+`IsValidSecurityDescriptor` | 1414 | Exported Function
+`IsValidRelativeSecurityDescriptor` | 1413 | Exported Function
+`IsTextUnicode` | 1409 | Exported Function
+`InitiateSystemShutdownExA` | 1405 | Exported Function
+`InitiateSystemShutdownA` | 1404 | Exported Function
+`InitiateShutdownW` | 1403 | Exported Function
+`InstallApplication` | 1408 | Exported Function
+`InitiateSystemShutdownW` | 1407 | Exported Function
+`InitiateSystemShutdownExW` | 1406 | Exported Function
+`LookupAccountSidA` | 1425 | Exported Function
+`LookupAccountNameW` | 1424 | Exported Function
+`LookupAccountNameA` | 1423 | Exported Function
+`LookupPrivilegeDisplayNameW` | 1428 | Exported Function
+`LookupPrivilegeDisplayNameA` | 1427 | Exported Function
+`LookupAccountSidW` | 1426 | Exported Function
+`LogonUserW` | 1422 | Exported Function
+`LogonUserA` | 1418 | Exported Function
+`LockServiceDatabase` | 1417 | Exported Function
+`IsWellKnownSid` | 1416 | Exported Function
+`LogonUserExW` | 1421 | Exported Function
+`LogonUserExExW` | 1420 | Exported Function
+`LogonUserExA` | 1419 | Exported Function
+`InitiateShutdownA` | 1402 | Exported Function
+`I_ScPnPGetServiceName` | 1385 | Exported Function
+`I_ScIsSecurityProcess` | 1384 | Exported Function
+`I_ScGetCurrentGroupStateW` | 1001 | Exported Function
+`I_ScReparseServiceDatabase` | 1388 | Exported Function
+`I_ScRegisterPreshutdownRestart` | 1387 | Exported Function
+`I_ScQueryServiceConfig` | 1386 | Exported Function
+`I_QueryTagInformation` | 1383 | Exported Function
+`GetTrusteeTypeW` | 1379 | Exported Function
+`GetTrusteeTypeA` | 1378 | Exported Function
+`GetTrusteeNameW` | 1377 | Exported Function
+`GetWindowsAccountDomainSid` | 1382 | Exported Function
+`GetUserNameW` | 1381 | Exported Function
+`GetUserNameA` | 1380 | Exported Function
+`ImpersonateSelf` | 1398 | Exported Function
+`ImpersonateNamedPipeClient` | 1397 | Exported Function
+`ImpersonateLoggedOnUser` | 1396 | Exported Function
+`InitializeSid` | 1401 | Exported Function
+`InitializeSecurityDescriptor` | 1400 | Exported Function
+`InitializeAcl` | 1399 | Exported Function
+`ImpersonateAnonymousToken` | 1395 | Exported Function
+`I_ScSetServiceBitsA` | 1391 | Exported Function
+`I_ScSendTSMessage` | 1390 | Exported Function
+`I_ScSendPnPMessage` | 1389 | Exported Function
+`IdentifyCodeAuthzLevelW` | 1394 | Exported Function
+`I_ScValidatePnPService` | 1393 | Exported Function
+`I_ScSetServiceBitsW` | 1392 | Exported Function
+`ElfNumberOfRecords` | 1252 | Exported Function
+`ElfFlushEventLog` | 1251 | Exported Function
+`ElfDeregisterEventSource` | 1250 | Exported Function
+`ElfOpenBackupEventLogW` | 1255 | Exported Function
+`ElfOpenBackupEventLogA` | 1254 | Exported Function
+`ElfOldestRecord` | 1253 | Exported Function
+`ElfCloseEventLog` | 1249 | Exported Function
+`ElfBackupEventLogFileW` | 1245 | Exported Function
+`ElfBackupEventLogFileA` | 1244 | Exported Function
+`DuplicateTokenEx` | 1243 | Exported Function
+`ElfClearEventLogFileW` | 1248 | Exported Function
+`ElfClearEventLogFileA` | 1247 | Exported Function
+`ElfChangeNotify` | 1246 | Exported Function
+`EnableTrace` | 1265 | Exported Function
+`ElfReportEventW` | 1264 | Exported Function
+`ElfReportEventAndSourceW` | 1263 | Exported Function
+`EncryptedFileKeyInfo` | 1270 | Exported Function
+`EnableTraceEx2` | 1267 | Exported Function
+`EnableTraceEx` | 1266 | Exported Function
+`ElfReportEventA` | 1262 | Exported Function
+`ElfReadEventLogA` | 1258 | Exported Function
+`ElfOpenEventLogW` | 1257 | Exported Function
+`ElfOpenEventLogA` | 1256 | Exported Function
+`ElfRegisterEventSourceW` | 1261 | Exported Function
+`ElfRegisterEventSourceA` | 1260 | Exported Function
+`ElfReadEventLogW` | 1259 | Exported Function
+`DuplicateToken` | 1242 | Exported Function
+`CryptSetProviderA` | 1226 | Exported Function
+`CryptSetKeyParam` | 1224 | Exported Function
+`CryptSetHashParam` | 1223 | Exported Function
+`CryptSetProviderW` | 1229 | Exported Function
+`CryptSetProviderExW` | 1228 | Exported Function
+`CryptSetProviderExA` | 1227 | Exported Function
+`CryptReleaseContext` | 1222 | Exported Function
+`CryptGetUserKey` | 1218 | Exported Function
+`CryptGetProvParam` | 1217 | Exported Function
+`CryptGetKeyParam` | 1216 | Exported Function
+`CryptImportKey` | 1221 | Exported Function
+`CryptHashSessionKey` | 1220 | Exported Function
+`CryptHashData` | 1219 | Exported Function
+`DeleteService` | 1238 | Exported Function
+`DeleteAce` | 1237 | Exported Function
+`DecryptFileW` | 1236 | Exported Function
+`DuplicateEncryptionInfoFile` | 1241 | Exported Function
+`DestroyPrivateObjectSecurity` | 1240 | Exported Function
+`DeregisterEventSource` | 1239 | Exported Function
+`DecryptFileA` | 1235 | Exported Function
+`CryptSignHashW` | 1231 | Exported Function
+`CryptSignHashA` | 1230 | Exported Function
+`CryptSetProvParam` | 1225 | Exported Function
+`CveEventWrite` | 1234 | Exported Function
+`CryptVerifySignatureW` | 1233 | Exported Function
+`CryptVerifySignatureA` | 1232 | Exported Function
+`EncryptFileA` | 1268 | Exported Function
+`FreeEncryptedFileKeyInfo` | 1306 | Exported Function
+`FlushTraceW` | 1305 | Exported Function
+`FlushTraceA` | 1304 | Exported Function
+`FreeInheritedFromArray` | 1309 | Exported Function
+`FreeEncryptionCertificateHashList` | 1308 | Exported Function
+`FreeEncryptedFileMetadata` | 1307 | Exported Function
+`FlushEfsCache` | 1303 | Exported Function
+`EventWriteTransfer` | 1299 | Exported Function
+`EventWriteString` | 1298 | Exported Function
+`EventWriteStartScenario` | 1297 | Exported Function
+`FindFirstFreeAce` | 1302 | Exported Function
+`FileEncryptionStatusW` | 1301 | Exported Function
+`FileEncryptionStatusA` | 1300 | Exported Function
+`GetDynamicTimeZoneInformationEffectiveYears` | 1319 | Exported Function
+`GetCurrentHwProfileW` | 1318 | Exported Function
+`GetCurrentHwProfileA` | 1317 | Exported Function
+`GetEncryptedFileMetadata` | 1322 | Exported Function
+`GetEffectiveRightsFromAclW` | 1321 | Exported Function
+`GetEffectiveRightsFromAclA` | 1320 | Exported Function
+`GetAuditedPermissionsFromAclW` | 1316 | Exported Function
+`GetAccessPermissionsForObjectW` | 1312 | Exported Function
+`GetAccessPermissionsForObjectA` | 1311 | Exported Function
+`FreeSid` | 1310 | Exported Function
+`GetAuditedPermissionsFromAclA` | 1315 | Exported Function
+`GetAclInformation` | 1314 | Exported Function
+`GetAce` | 1313 | Exported Function
+`EventWriteEx` | 1296 | Exported Function
+`EnumServicesStatusExA` | 1277 | Exported Function
+`EnumServicesStatusA` | 1276 | Exported Function
+`EnumServiceGroupW` | 1275 | Exported Function
+`EqualDomainSid` | 1282 | Exported Function
+`EnumServicesStatusW` | 1279 | Exported Function
+`EnumServicesStatusExW` | 1278 | Exported Function
+`EnumerateTraceGuidsEx` | 1281 | Exported Function
+`EnumDependentServicesA` | 1272 | Exported Function
+`EncryptionDisable` | 1271 | Exported Function
+`EncryptFileW` | 1269 | Exported Function
+`EnumerateTraceGuids` | 1280 | Exported Function
+`EnumDynamicTimeZoneInformation` | 1274 | Exported Function
+`EnumDependentServicesW` | 1273 | Exported Function
+`EventSetInformation` | 1292 | Exported Function
+`EventRegister` | 1291 | Exported Function
+`EventProviderEnabled` | 1290 | Exported Function
+`EventWriteEndScenario` | 1295 | Exported Function
+`EventWrite` | 1294 | Exported Function
+`EventUnregister` | 1293 | Exported Function
+`EventEnabled` | 1289 | Exported Function
+`EventAccessControl` | 1285 | Exported Function
+`EqualSid` | 1284 | Exported Function
+`EqualPrefixSid` | 1283 | Exported Function
+`EventActivityIdControl` | 1288 | Exported Function
+`EventAccessRemove` | 1287 | Exported Function
+`EventAccessQuery` | 1286 | Exported Function
 
 
 ## Signature

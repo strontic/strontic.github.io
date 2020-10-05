@@ -24,18 +24,18 @@ PE256 | `692C63FE569078A1FBEF2D0D70C2344EDF3E0D2214E37383C9F895BC87A18F32`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CALogFreeMemory` | 1 (0x1) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`CALogSetJobDeviceName` | 2 (0x2) | Exported Function | 0x00000001800016a0 | 0x000016a0
-`CAWhatIfEnabled` | 3 (0x3) | Exported Function | 0x0000000180001090 | 0x00001090
-`GetResourceIdFromContext` | 4 (0x4) | Exported Function | 0x0000000180001690 | 0x00001690
-`LogCADebugMessage` | 5 (0x5) | Exported Function | 0x0000000180001250 | 0x00001250
-`LogCAProgressMessage` | 6 (0x6) | Exported Function | 0x0000000180001640 | 0x00001640
-`LogCAVerboseMessage` | 7 (0x7) | Exported Function | 0x0000000180001390 | 0x00001390
-`LogCAWarningMessage` | 8 (0x8) | Exported Function | 0x0000000180001500 | 0x00001500
-`LogCAWhatIfMessage` | 9 (0x9) | Exported Function | 0x00000001800010b0 | 0x000010b0
-`LogCAWriteMIError` | 10 (0xa) | Exported Function | 0x0000000180001210 | 0x00001210
+Function Name | Ordinal | Type
+-- | -- | --
+`LogCAVerboseMessage` | 7 | Exported Function
+`LogCAProgressMessage` | 6 | Exported Function
+`LogCAWarningMessage` | 8 | Exported Function
+`LogCAWriteMIError` | 10 | Exported Function
+`LogCAWhatIfMessage` | 9 | Exported Function
+`CALogSetJobDeviceName` | 2 | Exported Function
+`CALogFreeMemory` | 1 | Exported Function
+`CAWhatIfEnabled` | 3 | Exported Function
+`LogCADebugMessage` | 5 | Exported Function
+`GetResourceIdFromContext` | 4 | Exported Function
 
 
 ## Signature

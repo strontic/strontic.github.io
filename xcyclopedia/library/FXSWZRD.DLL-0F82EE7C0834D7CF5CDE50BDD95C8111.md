@@ -24,10 +24,10 @@ PE256 | `1B6C4C5680AD6FA286CDC25D15A3E47BD19083F3141D36EC61C63B20BFD9CD8B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FaxFreeSendWizardData` | 1 (0x1) | Exported Function | 0x00000001800096e0 | 0x000096e0
-`FaxSendWizard` | 2 (0x2) | Exported Function | 0x0000000180009c80 | 0x00009c80
+Function Name | Ordinal | Type
+-- | -- | --
+`FaxSendWizard` | 2 | Exported Function
+`FaxFreeSendWizardData` | 1 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `5BBEABF26DABB88AB12ED11CAF181B887CCE0199C7773BEB0157A9BC2C4DE800`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GenerateActionQueue` | 1 (0x1) | Exported Function | 0x0000000180005970 | 0x00005970
-`ProcessActionQueue` | 2 (0x2) | Exported Function | 0x0000000180004520 | 0x00004520
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessActionQueue` | 2 | Exported Function
+`GenerateActionQueue` | 1 | Exported Function
 
 
 ## Signature

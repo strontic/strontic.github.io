@@ -24,13 +24,13 @@ PE256 | `79F40FE797EF2853035FB5AD1B4D525854832ADC020530C573E13C7FC65212FB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DwmpCreateSessionProcess` | 1 (0x1) | Exported Function | 0x0000000180003360 | 0x00003360
-`DwmpIsInitialSessionInteractive` | 2 (0x2) | Exported Function | 0x00000001800039a0 | 0x000039a0
-`DwmpNotifyUserLogoff` | 3 (0x3) | Exported Function | 0x0000000180003770 | 0x00003770
-`DwmpNotifyUserLogon` | 4 (0x4) | Exported Function | 0x00000001800034f0 | 0x000034f0
-`DwmpTerminateSessionProcess` | 5 (0x5) | Exported Function | 0x00000001800037e0 | 0x000037e0
+Function Name | Ordinal | Type
+-- | -- | --
+`DwmpNotifyUserLogon` | 4 | Exported Function
+`DwmpTerminateSessionProcess` | 5 | Exported Function
+`DwmpNotifyUserLogoff` | 3 | Exported Function
+`DwmpCreateSessionProcess` | 1 | Exported Function
+`DwmpIsInitialSessionInteractive` | 2 | Exported Function
 
 
 ## Signature

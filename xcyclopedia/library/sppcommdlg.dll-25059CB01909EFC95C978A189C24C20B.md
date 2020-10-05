@@ -24,9 +24,9 @@ PE256 | `5A2B6344E1422C7D448DD822BC8893EE1EE2E82641365B985489A45DCCA2F48C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SLUXActivationWizard` | 1 (0x1) | Exported Function | 0x000000018000a2b0 | 0x0000a2b0
+Function Name | Ordinal | Type
+-- | -- | --
+`SLUXActivationWizard` | 1 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `780A14365E6AFAB9089C6FF1F0D826E7B16DEA3FD2301D4A2E6CEDA81231ACCF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NrpStartRpcServer` | 1 (0x1) | Exported Function | 0x00000001800011b0 | 0x000011b0
-`NrpStopRpcServer` | 2 (0x2) | Exported Function | 0x0000000180001310 | 0x00001310
+Function Name | Ordinal | Type
+-- | -- | --
+`NrpStopRpcServer` | 2 | Exported Function
+`NrpStartRpcServer` | 1 | Exported Function
 
 
 ## Signature

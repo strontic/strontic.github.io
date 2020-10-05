@@ -24,37 +24,37 @@ PE256 | `2ABEE6F804666830E06AB54BB754188D18B6773A3E4F3AC6465BCA640CD7011C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`I_NetDfsIsThisADomainName` | 1 (0x1) | Exported Function | 0x0000000180006880 | 0x00006880
-`NetDfsSetInfo` | 27 (0x1b) | Exported Function | 0x0000000180002a00 | 0x00002a00
-`NetDfsSetFtContainerSecurity` | 26 (0x1a) | Exported Function | 0x0000000180007d90 | 0x00007d90
-`NetDfsSetClientInfo` | 25 (0x19) | Exported Function | 0x0000000180003440 | 0x00003440
-`NetDfsRename` | 24 (0x18) | Exported Function | 0x0000000180002470 | 0x00002470
-`NetDfsRemoveStdRoot` | 23 (0x17) | Exported Function | 0x0000000180002990 | 0x00002990
-`NetDfsRemoveRootTarget` | 22 (0x16) | Exported Function | 0x00000001800042f0 | 0x000042f0
-`NetDfsRemoveFtRootForced` | 21 (0x15) | Exported Function | 0x0000000180002750 | 0x00002750
-`NetDfsRemoveFtRoot` | 20 (0x14) | Exported Function | 0x0000000180002560 | 0x00002560
-`NetDfsRemove` | 19 (0x13) | Exported Function | 0x0000000180002480 | 0x00002480
-`NetDfsMove` | 18 (0x12) | Exported Function | 0x0000000180003b90 | 0x00003b90
-`NetDfsManagerSendSiteInfo` | 17 (0x11) | Exported Function | 0x0000000180002470 | 0x00002470
-`NetDfsManagerInitialize` | 16 (0x10) | Exported Function | 0x0000000180002470 | 0x00002470
-`NetDfsSetSecurity` | 28 (0x1c) | Exported Function | 0x0000000180006f10 | 0x00006f10
-`NetDfsManagerGetConfigInfo` | 15 (0xf) | Exported Function | 0x0000000180002470 | 0x00002470
-`NetDfsGetStdContainerSecurity` | 13 (0xd) | Exported Function | 0x00000001800072e0 | 0x000072e0
-`NetDfsGetSecurity` | 12 (0xc) | Exported Function | 0x0000000180006dd0 | 0x00006dd0
-`NetDfsGetInfo` | 11 (0xb) | Exported Function | 0x0000000180002e40 | 0x00002e40
-`NetDfsGetFtContainerSecurity` | 10 (0xa) | Exported Function | 0x0000000180007d00 | 0x00007d00
-`NetDfsGetDcAddress` | 9 (0x9) | Exported Function | 0x0000000180002470 | 0x00002470
-`NetDfsGetClientInfo` | 8 (0x8) | Exported Function | 0x0000000180002f50 | 0x00002f50
-`NetDfsEnum` | 7 (0x7) | Exported Function | 0x0000000180003770 | 0x00003770
-`NetDfsAddStdRootForced` | 6 (0x6) | Exported Function | 0x0000000180002470 | 0x00002470
-`NetDfsAddStdRoot` | 5 (0x5) | Exported Function | 0x00000001800023f0 | 0x000023f0
-`NetDfsAddRootTarget` | 4 (0x4) | Exported Function | 0x0000000180003e30 | 0x00003e30
-`NetDfsAddFtRoot` | 3 (0x3) | Exported Function | 0x00000001800021f0 | 0x000021f0
-`NetDfsAdd` | 2 (0x2) | Exported Function | 0x0000000180002110 | 0x00002110
-`NetDfsGetSupportedNamespaceVersion` | 14 (0xe) | Exported Function | 0x0000000180004830 | 0x00004830
-`NetDfsSetStdContainerSecurity` | 29 (0x1d) | Exported Function | 0x0000000180007380 | 0x00007380
+Function Name | Ordinal | Type
+-- | -- | --
+`NetDfsRemoveFtRoot` | 20 | Exported Function
+`NetDfsRemoveFtRootForced` | 21 | Exported Function
+`NetDfsRemoveRootTarget` | 22 | Exported Function
+`NetDfsRemove` | 19 | Exported Function
+`NetDfsManagerInitialize` | 16 | Exported Function
+`NetDfsManagerSendSiteInfo` | 17 | Exported Function
+`NetDfsMove` | 18 | Exported Function
+`NetDfsSetInfo` | 27 | Exported Function
+`NetDfsSetSecurity` | 28 | Exported Function
+`NetDfsSetStdContainerSecurity` | 29 | Exported Function
+`NetDfsSetFtContainerSecurity` | 26 | Exported Function
+`NetDfsRemoveStdRoot` | 23 | Exported Function
+`NetDfsRename` | 24 | Exported Function
+`NetDfsSetClientInfo` | 25 | Exported Function
+`NetDfsManagerGetConfigInfo` | 15 | Exported Function
+`NetDfsAddStdRoot` | 5 | Exported Function
+`NetDfsAddStdRootForced` | 6 | Exported Function
+`NetDfsEnum` | 7 | Exported Function
+`NetDfsAddRootTarget` | 4 | Exported Function
+`I_NetDfsIsThisADomainName` | 1 | Exported Function
+`NetDfsAdd` | 2 | Exported Function
+`NetDfsAddFtRoot` | 3 | Exported Function
+`NetDfsGetSecurity` | 12 | Exported Function
+`NetDfsGetStdContainerSecurity` | 13 | Exported Function
+`NetDfsGetSupportedNamespaceVersion` | 14 | Exported Function
+`NetDfsGetInfo` | 11 | Exported Function
+`NetDfsGetClientInfo` | 8 | Exported Function
+`NetDfsGetDcAddress` | 9 | Exported Function
+`NetDfsGetFtContainerSecurity` | 10 | Exported Function
 
 
 ## Signature

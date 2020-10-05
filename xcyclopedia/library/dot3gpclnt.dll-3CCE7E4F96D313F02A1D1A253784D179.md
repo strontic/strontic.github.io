@@ -24,13 +24,13 @@ PE256 | `3500EE33190CB29F9F4FE653514F54F47FDACFCCE838D826387DC6E3650D82EF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DeserializeLANPolicy` | 3 (0x3) | Exported Function | 0x00000001800029e0 | 0x000029e0
-`GenerateLANPolicy` | 1 (0x1) | Exported Function | 0x0000000180001be0 | 0x00001be0
-`LANGPADeInit` | 4 (0x4) | Exported Function | 0x0000000180002480 | 0x00002480
-`LANGPAInit` | 5 (0x5) | Exported Function | 0x00000001800022a0 | 0x000022a0
-`ProcessLANPolicyEx` | 2 (0x2) | Exported Function | 0x0000000180001630 | 0x00001630
+Function Name | Ordinal | Type
+-- | -- | --
+`LANGPAInit` | 5 | Exported Function
+`ProcessLANPolicyEx` | 2 | Exported Function
+`LANGPADeInit` | 4 | Exported Function
+`DeserializeLANPolicy` | 3 | Exported Function
+`GenerateLANPolicy` | 1 | Exported Function
 
 
 ## Signature

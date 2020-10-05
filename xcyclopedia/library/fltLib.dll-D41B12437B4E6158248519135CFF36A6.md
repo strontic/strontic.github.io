@@ -24,37 +24,37 @@ PE256 | `448EEB08C1A39A753766D5551B25F0214203A5026356672D4E58314DE6FFE17A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FilterAttach` | 1 (0x1) | Exported Function | 0x0000000180001a00 | 0x00001a00
-`FilterVolumeInstanceFindClose` | 27 (0x1b) | Exported Function | 0x0000000180001570 | 0x00001570
-`FilterVolumeFindNext` | 26 (0x1a) | Exported Function | 0x0000000180001e30 | 0x00001e30
-`FilterVolumeFindFirst` | 25 (0x19) | Exported Function | 0x0000000180001e80 | 0x00001e80
-`FilterVolumeFindClose` | 24 (0x18) | Exported Function | 0x0000000180001570 | 0x00001570
-`FilterVolumeClose` | 23 (0x17) | Exported Function | 0x0000000180001570 | 0x00001570
-`FilterUnload` | 22 (0x16) | Exported Function | 0x0000000180001200 | 0x00001200
-`FilterSendMessage` | 21 (0x15) | Exported Function | 0x0000000180002420 | 0x00002420
-`FilterReplyMessage` | 20 (0x14) | Exported Function | 0x00000001800024a0 | 0x000024a0
-`FilterLoad` | 19 (0x13) | Exported Function | 0x0000000180001060 | 0x00001060
-`FilterInstanceGetInformation` | 18 (0x12) | Exported Function | 0x0000000180002180 | 0x00002180
-`FilterInstanceFindNext` | 17 (0x11) | Exported Function | 0x0000000180001e30 | 0x00001e30
-`FilterInstanceFindFirst` | 16 (0x10) | Exported Function | 0x0000000180001fe0 | 0x00001fe0
-`FilterVolumeInstanceFindFirst` | 28 (0x1c) | Exported Function | 0x00000001800020b0 | 0x000020b0
-`FilterInstanceFindClose` | 15 (0xf) | Exported Function | 0x0000000180001570 | 0x00001570
-`FilterInstanceClose` | 13 (0xd) | Exported Function | 0x0000000180001570 | 0x00001570
-`FilterGetMessage` | 12 (0xc) | Exported Function | 0x0000000180002460 | 0x00002460
-`FilterGetInformation` | 11 (0xb) | Exported Function | 0x0000000180002180 | 0x00002180
-`FilterGetDosName` | 10 (0xa) | Exported Function | 0x00000001800024e0 | 0x000024e0
-`FilterFindNext` | 9 (0x9) | Exported Function | 0x0000000180001e30 | 0x00001e30
-`FilterFindFirst` | 8 (0x8) | Exported Function | 0x0000000180001cd0 | 0x00001cd0
-`FilterFindClose` | 7 (0x7) | Exported Function | 0x0000000180001570 | 0x00001570
-`FilterDetach` | 6 (0x6) | Exported Function | 0x0000000180001a70 | 0x00001a70
-`FilterCreate` | 5 (0x5) | Exported Function | 0x00000001800013a0 | 0x000013a0
-`FilterConnectCommunicationPort` | 4 (0x4) | Exported Function | 0x00000001800021d0 | 0x000021d0
-`FilterClose` | 3 (0x3) | Exported Function | 0x0000000180001570 | 0x00001570
-`FilterAttachAtAltitude` | 2 (0x2) | Exported Function | 0x0000000180001a40 | 0x00001a40
-`FilterInstanceCreate` | 14 (0xe) | Exported Function | 0x00000001800015b0 | 0x000015b0
-`FilterVolumeInstanceFindNext` | 29 (0x1d) | Exported Function | 0x0000000180001e30 | 0x00001e30
+Function Name | Ordinal | Type
+-- | -- | --
+`FilterReplyMessage` | 20 | Exported Function
+`FilterSendMessage` | 21 | Exported Function
+`FilterUnload` | 22 | Exported Function
+`FilterLoad` | 19 | Exported Function
+`FilterInstanceFindFirst` | 16 | Exported Function
+`FilterInstanceFindNext` | 17 | Exported Function
+`FilterInstanceGetInformation` | 18 | Exported Function
+`FilterVolumeInstanceFindClose` | 27 | Exported Function
+`FilterVolumeInstanceFindFirst` | 28 | Exported Function
+`FilterVolumeInstanceFindNext` | 29 | Exported Function
+`FilterVolumeFindNext` | 26 | Exported Function
+`FilterVolumeClose` | 23 | Exported Function
+`FilterVolumeFindClose` | 24 | Exported Function
+`FilterVolumeFindFirst` | 25 | Exported Function
+`FilterInstanceFindClose` | 15 | Exported Function
+`FilterCreate` | 5 | Exported Function
+`FilterDetach` | 6 | Exported Function
+`FilterFindClose` | 7 | Exported Function
+`FilterConnectCommunicationPort` | 4 | Exported Function
+`FilterAttach` | 1 | Exported Function
+`FilterAttachAtAltitude` | 2 | Exported Function
+`FilterClose` | 3 | Exported Function
+`FilterGetMessage` | 12 | Exported Function
+`FilterInstanceClose` | 13 | Exported Function
+`FilterInstanceCreate` | 14 | Exported Function
+`FilterGetInformation` | 11 | Exported Function
+`FilterFindFirst` | 8 | Exported Function
+`FilterFindNext` | 9 | Exported Function
+`FilterGetDosName` | 10 | Exported Function
 
 
 ## Signature

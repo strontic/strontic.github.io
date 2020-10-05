@@ -24,9 +24,9 @@ PE256 | `DF860832CE8D8713B623381362A0F31B241D4E5494FC151A39A73EA28FDB624F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WbioQuerySensorInterface` | 1 (0x1) | Exported Function | 0x000000018000c430 | 0x0000c430
+Function Name | Ordinal | Type
+-- | -- | --
+`WbioQuerySensorInterface` | 1 | Exported Function
 
 
 ## Signature

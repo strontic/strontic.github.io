@@ -24,12 +24,12 @@ PE256 | `A9913DE16B8561AD25778E391FEB02C42D55DED3F262AF907BB452479EC10510`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10006660 | 0x00006660
-`DllMain` | 2 (0x2) | Exported Function | 0x100065a0 | 0x000065a0
-`GetVFWMFTransform` | 3 (0x3) | Exported Function | 0x10001f50 | 0x00001f50
-`IsVFWDecompressorAvailable` | 4 (0x4) | Exported Function | 0x10001ed0 | 0x00001ed0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetVFWMFTransform` | 3 | Exported Function
+`IsVFWDecompressorAvailable` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllMain` | 2 | Exported Function
 
 
 ## Signature

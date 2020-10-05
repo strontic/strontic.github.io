@@ -24,16 +24,16 @@ PE256 | `2B35A35D515391C16DCA1D49B295BE1A699016201B3B4F973A1026FC601EE648`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x0000000180008750 | 0x00008750
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x0000000180008620 | 0x00008620
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x0000000180008780 | 0x00008780
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x0000000180008790 | 0x00008790
-`GetDetailedAppInventoryReport` | 1 (0x1) | Exported Function | 0x00000001800067c0 | 0x000067c0
-`GetFileSigningInfoTC` | 2 (0x2) | Exported Function | 0x00000001800072b0 | 0x000072b0
-`RunUpdate` | 3 (0x3) | Exported Function | 0x00000001800072a0 | 0x000072a0
-`RunUpdateTC` | 4 (0x4) | Exported Function | 0x0000000180006e40 | 0x00006e40
+Function Name | Ordinal | Type
+-- | -- | --
+`GetFileSigningInfoTC` | 2 | Exported Function
+`GetDetailedAppInventoryReport` | 1 | Exported Function
+`RunUpdateTC` | 4 | Exported Function
+`RunUpdate` | 3 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
 
 
 ## Signature

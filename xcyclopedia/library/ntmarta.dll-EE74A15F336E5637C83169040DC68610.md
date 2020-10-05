@@ -24,58 +24,58 @@ PE256 | `9D8D5C505EAB8D0BF60B44669B00A5AA017CB19BBCFEE878228C93991929F127`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AccConvertAccessMaskToActrlAccess` | 3 (0x3) | Exported Function | 0x58f918a0 | 0x000118a0
-`AccProvHandleSetAccessRights` | 29 (0x1d) | Exported Function | 0x58f990d0 | 0x000190d0
-`AccProvIsAccessAudited` | 30 (0x1e) | Exported Function | 0x58f99180 | 0x00019180
-`AccProvIsObjectAccessible` | 31 (0x1f) | Exported Function | 0x58f99240 | 0x00019240
-`AccProvRevokeAccessRights` | 32 (0x20) | Exported Function | 0x58f99630 | 0x00019630
-`AccProvRevokeAuditRights` | 33 (0x21) | Exported Function | 0x58f99740 | 0x00019740
-`AccProvSetAccessRights` | 34 (0x22) | Exported Function | 0x58f99850 | 0x00019850
-`AccRewriteGetExplicitEntriesFromAcl` | 35 (0x23) | Exported Function | 0x58f96ae0 | 0x00016ae0
-`AccRewriteGetHandleRights` | 36 (0x24) | Exported Function | 0x58f9d160 | 0x0001d160
-`AccRewriteGetNamedRights` | 37 (0x25) | Exported Function | 0x58f9d230 | 0x0001d230
-`AccRewriteSetEntriesInAcl` | 38 (0x26) | Exported Function | 0x58f86c50 | 0x00006c50
-`AccRewriteSetHandleRights` | 39 (0x27) | Exported Function | 0x58f834c0 | 0x000034c0
-`AccRewriteSetNamedRights` | 40 (0x28) | Exported Function | 0x58f83bb0 | 0x00003bb0
-`AccSetEntriesInAList` | 41 (0x29) | Exported Function | 0x58f92860 | 0x00012860
-`AccTreeResetNamedSecurityInfo` | 42 (0x2a) | Exported Function | 0x58f82c60 | 0x00002c60
-`EventGuidToName` | 43 (0x2b) | Exported Function | 0x58f8c250 | 0x0000c250
-`EventNameFree` | 44 (0x2c) | Exported Function | 0x58f8c2d0 | 0x0000c2d0
-`GetExplicitEntriesFromAclW` | 45 (0x2d) | Exported Function | 0x58f90f30 | 0x00010f30
-`GetMartaExtensionInterface` | 2 (0x2) | Exported Function | 0x58f87600 | 0x00007600
-`GetNamedSecurityInfoW` | 46 (0x2e) | Exported Function | 0x58f838a0 | 0x000038a0
-`GetSecurityInfo` | 47 (0x2f) | Exported Function | 0x58f83ee0 | 0x00003ee0
-`SetEntriesInAclW` | 48 (0x30) | Exported Function | 0x58f86c40 | 0x00006c40
-`AccProvHandleRevokeAuditRights` | 28 (0x1c) | Exported Function | 0x58f99020 | 0x00019020
-`AccProvHandleRevokeAccessRights` | 27 (0x1b) | Exported Function | 0x58f98f70 | 0x00018f70
-`AccProvHandleIsObjectAccessible` | 26 (0x1a) | Exported Function | 0x58f98e80 | 0x00018e80
-`AccProvHandleIsAccessAudited` | 25 (0x19) | Exported Function | 0x58f98e10 | 0x00018e10
-`AccConvertAccessToSD` | 4 (0x4) | Exported Function | 0x58f91a10 | 0x00011a10
-`AccConvertAccessToSecurityDescriptor` | 5 (0x5) | Exported Function | 0x58f91b70 | 0x00011b70
-`AccConvertAclToAccess` | 6 (0x6) | Exported Function | 0x58f91c80 | 0x00011c80
-`AccConvertSDToAccess` | 7 (0x7) | Exported Function | 0x58f91cf0 | 0x00011cf0
-`AccFreeIndexArray` | 8 (0x8) | Exported Function | 0x58f9cb50 | 0x0001cb50
-`AccGetAccessForTrustee` | 9 (0x9) | Exported Function | 0x58f91f70 | 0x00011f70
-`AccGetExplicitEntries` | 10 (0xa) | Exported Function | 0x58f92000 | 0x00012000
-`AccGetInheritanceSource` | 11 (0xb) | Exported Function | 0x58f9cc50 | 0x0001cc50
-`AccLookupAccountName` | 12 (0xc) | Exported Function | 0x58f92070 | 0x00012070
-`AccLookupAccountSid` | 13 (0xd) | Exported Function | 0x58f923d0 | 0x000123d0
-`SetNamedSecurityInfoW` | 49 (0x31) | Exported Function | 0x58f83a90 | 0x00003a90
-`AccLookupAccountTrustee` | 14 (0xe) | Exported Function | 0x58f92770 | 0x00012770
-`AccProvGetAccessInfoPerObjectType` | 16 (0x10) | Exported Function | 0x58f98730 | 0x00018730
-`AccProvGetAllRights` | 17 (0x11) | Exported Function | 0x58f98780 | 0x00018780
-`AccProvGetCapabilities` | 18 (0x12) | Exported Function | 0x58f87a60 | 0x00007a60
-`AccProvGetOperationResults` | 19 (0x13) | Exported Function | 0x58f98910 | 0x00018910
-`AccProvGetTrusteesAccess` | 20 (0x14) | Exported Function | 0x58f98a10 | 0x00018a10
-`AccProvGrantAccessRights` | 21 (0x15) | Exported Function | 0x58f98ac0 | 0x00018ac0
-`AccProvHandleGetAccessInfoPerObjectType` | 22 (0x16) | Exported Function | 0x58f98bd0 | 0x00018bd0
-`AccProvHandleGetAllRights` | 23 (0x17) | Exported Function | 0x58f98c80 | 0x00018c80
-`AccProvHandleGetTrusteesAccess` | 24 (0x18) | Exported Function | 0x58f98db0 | 0x00018db0
-`AccProvHandleGrantAccessRights` | 1 (0x1) | Exported Function | 0x58f98190 | 0x00018190
-`AccProvCancelOperation` | 15 (0xf) | Exported Function | 0x58f986d0 | 0x000186d0
-`SetSecurityInfo` | 50 (0x32) | Exported Function | 0x58f83460 | 0x00003460
+Function Name | Ordinal | Type
+-- | -- | --
+`AccRewriteGetExplicitEntriesFromAcl` | 35 | Exported Function
+`AccProvSetAccessRights` | 34 | Exported Function
+`AccProvRevokeAuditRights` | 33 | Exported Function
+`AccRewriteSetEntriesInAcl` | 38 | Exported Function
+`AccRewriteGetNamedRights` | 37 | Exported Function
+`AccRewriteGetHandleRights` | 36 | Exported Function
+`AccProvHandleSetAccessRights` | 29 | Exported Function
+`AccProvHandleRevokeAuditRights` | 28 | Exported Function
+`AccProvHandleRevokeAccessRights` | 27 | Exported Function
+`AccProvRevokeAccessRights` | 32 | Exported Function
+`AccProvIsObjectAccessible` | 31 | Exported Function
+`AccProvIsAccessAudited` | 30 | Exported Function
+`AccRewriteSetHandleRights` | 39 | Exported Function
+`GetSecurityInfo` | 47 | Exported Function
+`GetNamedSecurityInfoW` | 46 | Exported Function
+`GetMartaExtensionInterface` | 2 | Exported Function
+`SetSecurityInfo` | 50 | Exported Function
+`SetNamedSecurityInfoW` | 49 | Exported Function
+`SetEntriesInAclW` | 48 | Exported Function
+`AccTreeResetNamedSecurityInfo` | 42 | Exported Function
+`AccSetEntriesInAList` | 41 | Exported Function
+`AccRewriteSetNamedRights` | 40 | Exported Function
+`GetExplicitEntriesFromAclW` | 45 | Exported Function
+`EventNameFree` | 44 | Exported Function
+`EventGuidToName` | 43 | Exported Function
+`AccGetInheritanceSource` | 11 | Exported Function
+`AccGetExplicitEntries` | 10 | Exported Function
+`AccGetAccessForTrustee` | 9 | Exported Function
+`AccLookupAccountTrustee` | 14 | Exported Function
+`AccLookupAccountSid` | 13 | Exported Function
+`AccLookupAccountName` | 12 | Exported Function
+`AccConvertAccessToSecurityDescriptor` | 5 | Exported Function
+`AccConvertAccessToSD` | 4 | Exported Function
+`AccConvertAccessMaskToActrlAccess` | 3 | Exported Function
+`AccFreeIndexArray` | 8 | Exported Function
+`AccConvertSDToAccess` | 7 | Exported Function
+`AccConvertAclToAccess` | 6 | Exported Function
+`AccProvCancelOperation` | 15 | Exported Function
+`AccProvHandleGetTrusteesAccess` | 24 | Exported Function
+`AccProvHandleGetAllRights` | 23 | Exported Function
+`AccProvHandleGetAccessInfoPerObjectType` | 22 | Exported Function
+`AccProvHandleIsObjectAccessible` | 26 | Exported Function
+`AccProvHandleIsAccessAudited` | 25 | Exported Function
+`AccProvHandleGrantAccessRights` | 1 | Exported Function
+`AccProvGetCapabilities` | 18 | Exported Function
+`AccProvGetAllRights` | 17 | Exported Function
+`AccProvGetAccessInfoPerObjectType` | 16 | Exported Function
+`AccProvGrantAccessRights` | 21 | Exported Function
+`AccProvGetTrusteesAccess` | 20 | Exported Function
+`AccProvGetOperationResults` | 19 | Exported Function
 
 
 ## Signature

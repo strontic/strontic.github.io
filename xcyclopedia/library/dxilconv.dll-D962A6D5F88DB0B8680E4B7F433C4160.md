@@ -24,10 +24,10 @@ PE256 | `CF6E733D21CFD17B001C8E27BC95C6B3E6AFFC15EEDEAB44618E02FD1358057A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DxcCreateInstance` | 2 (0x2) | Exported Function | 0x0000000180001840 | 0x00001840
-`DxcCreateInstance2` | 1 (0x1) | Exported Function | 0x0000000180001970 | 0x00001970
+Function Name | Ordinal | Type
+-- | -- | --
+`DxcCreateInstance2` | 1 | Exported Function
+`DxcCreateInstance` | 2 | Exported Function
 
 
 ## Signature

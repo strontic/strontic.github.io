@@ -24,26 +24,26 @@ PE256 | `6F07281F96B46220F9A63CD454CCFF1B946976C11AC2BEF254867582C6BEBB56`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BeginFileMapEnumeration` | 1 (0x1) | Exported Function | 0x10007400 | 0x00007400
-`SfpVerifyFile` | 18 (0x12) | Exported Function | 0x10007770 | 0x00007770
-`SfpInstallCatalog` | 17 (0x11) | Exported Function | 0x10007760 | 0x00007760
-`SfpDeleteCatalog` | 16 (0x10) | Exported Function | 0x10007750 | 0x00007750
-`SfcTerminateWatcherThread` | 15 (0xf) | Exported Function | 0x10005dd0 | 0x00005dd0
-`SfcIsKeyProtected` | 14 (0xe) | Exported Function | 0x10007580 | 0x00007580
-`SfcIsFileProtected` | 13 (0xd) | Exported Function | 0x10004050 | 0x00004050
-`SfcInstallProtectedFiles` | 12 (0xc) | Exported Function | 0x10007740 | 0x00007740
-`SfcInitProt` | 10 (0xa) | Exported Function | 0x10007720 | 0x00007720
-`SfcInitiateScan` | 11 (0xb) | Exported Function | 0x10007730 | 0x00007730
-`SfcGetNextProtectedFile` | 9 (0x9) | Exported Function | 0x10007510 | 0x00007510
-`SfcFileException` | 8 (0x8) | Exported Function | 0x10007710 | 0x00007710
-`SfcConnectToServer` | 7 (0x7) | Exported Function | 0x10007700 | 0x00007700
-`SfcClose` | 6 (0x6) | Exported Function | 0x100076f0 | 0x000076f0
-`GetNextFileMapContent` | 3 (0x3) | Exported Function | 0x10007490 | 0x00007490
-`CloseFileMapEnumeration` | 2 (0x2) | Exported Function | 0x10007450 | 0x00007450
-`SRSetRestorePointA` | 4 (0x4) | Exported Function | 0x100075f0 | 0x000075f0
-`SRSetRestorePointW` | 5 (0x5) | Exported Function | 0x10007670 | 0x00007670
+Function Name | Ordinal | Type
+-- | -- | --
+`SfcIsKeyProtected` | 14 | Exported Function
+`SfcTerminateWatcherThread` | 15 | Exported Function
+`SfcInstallProtectedFiles` | 12 | Exported Function
+`SfcIsFileProtected` | 13 | Exported Function
+`SfpDeleteCatalog` | 16 | Exported Function
+`SRSetRestorePointA` | 4 | Exported Function
+`SRSetRestorePointW` | 5 | Exported Function
+`SfpInstallCatalog` | 17 | Exported Function
+`SfpVerifyFile` | 18 | Exported Function
+`GetNextFileMapContent` | 3 | Exported Function
+`SfcClose` | 6 | Exported Function
+`BeginFileMapEnumeration` | 1 | Exported Function
+`CloseFileMapEnumeration` | 2 | Exported Function
+`SfcConnectToServer` | 7 | Exported Function
+`SfcInitiateScan` | 11 | Exported Function
+`SfcInitProt` | 10 | Exported Function
+`SfcFileException` | 8 | Exported Function
+`SfcGetNextProtectedFile` | 9 | Exported Function
 
 
 ## Signature

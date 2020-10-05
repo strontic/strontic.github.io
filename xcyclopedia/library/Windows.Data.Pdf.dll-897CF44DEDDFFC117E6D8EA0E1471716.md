@@ -24,12 +24,12 @@ PE256 | `222C7B89BB9F5E01C08EB004F7B0737FDFC7030BD09EF92763CAAE9F772726A9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10219b10 | 0x00219b10
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x10219b40 | 0x00219b40
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x1018af60 | 0x0018af60
-`PdfCreateRenderer` | 4 (0x4) | Exported Function | 0x10218ef0 | 0x00218ef0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 3 | Exported Function
+`PdfCreateRenderer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 
 
 ## Signature

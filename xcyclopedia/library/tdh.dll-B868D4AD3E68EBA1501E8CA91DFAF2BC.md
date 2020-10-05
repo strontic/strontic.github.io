@@ -24,43 +24,43 @@ PE256 | `C2BAA7D4A0AA01AC89A7ED82CD8BA60DAAB2693715CE658B121D3B59383C990A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x100759a0 | 0x000759a0
-`TdhGetManifestEventInformation` | 20 (0x14) | Exported Function | 0x10076ba0 | 0x00076ba0
-`TdhGetProperty` | 21 (0x15) | Exported Function | 0x10076bf0 | 0x00076bf0
-`TdhGetPropertyOffsetAndSize` | 22 (0x16) | Exported Function | 0x100a15c0 | 0x000a15c0
-`TdhGetPropertySize` | 23 (0x17) | Exported Function | 0x10076d60 | 0x00076d60
-`TdhGetWppMessage` | 24 (0x18) | Exported Function | 0x100a35a0 | 0x000a35a0
-`TdhGetWppProperty` | 25 (0x19) | Exported Function | 0x100a35d0 | 0x000a35d0
-`TdhGetEventMapInformation` | 19 (0x13) | Exported Function | 0x10076b30 | 0x00076b30
-`TdhLoadManifest` | 26 (0x1a) | Exported Function | 0x10076ec0 | 0x00076ec0
-`TdhLoadManifestFromMemory` | 28 (0x1c) | Exported Function | 0x10076f00 | 0x00076f00
-`TdhOpenDecodingHandle` | 29 (0x1d) | Exported Function | 0x100a3650 | 0x000a3650
-`TdhQueryProviderFieldInformation` | 30 (0x1e) | Exported Function | 0x10076f30 | 0x00076f30
-`TdhQueryRemoteWBEMProviderFieldInformation` | 31 (0x1f) | Exported Function | 0x100a2dd0 | 0x000a2dd0
-`TdhSetDecodingParameter` | 32 (0x20) | Exported Function | 0x100a36d0 | 0x000a36d0
-`TdhUnloadManifest` | 33 (0x21) | Exported Function | 0x10077020 | 0x00077020
-`TdhLoadManifestFromBinary` | 27 (0x1b) | Exported Function | 0x100a1630 | 0x000a1630
-`TdhUnloadManifestFromMemory` | 34 (0x22) | Exported Function | 0x10077060 | 0x00077060
-`TdhGetEventInformation` | 18 (0x12) | Exported Function | 0x10076a00 | 0x00076a00
-`TdhGetAllEventsInformation` | 16 (0x10) | Exported Function | 0x100a1560 | 0x000a1560
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x100759c0 | 0x000759c0
-`TdhAggregatePayloadFilters` | 3 (0x3) | Exported Function | 0x100a13c0 | 0x000a13c0
-`TdhApplyPayloadFilter` | 4 (0x4) | Exported Function | 0x100a1f90 | 0x000a1f90
-`TdhCleanupPayloadEventFilterDescriptor` | 5 (0x5) | Exported Function | 0x100a1410 | 0x000a1410
-`TdhCloseDecodingHandle` | 6 (0x6) | Exported Function | 0x100a3510 | 0x000a3510
-`TdhCreatePayloadFilter` | 7 (0x7) | Exported Function | 0x100a1470 | 0x000a1470
-`TdhGetDecodingParameter` | 17 (0x11) | Exported Function | 0x100a3530 | 0x000a3530
-`TdhDeletePayloadFilter` | 8 (0x8) | Exported Function | 0x100a14b0 | 0x000a14b0
-`TdhEnumerateProviderFieldInformation` | 10 (0xa) | Exported Function | 0x10076670 | 0x00076670
-`TdhEnumerateProviderFilters` | 11 (0xb) | Exported Function | 0x100a1500 | 0x000a1500
-`TdhEnumerateProviders` | 12 (0xc) | Exported Function | 0x10076740 | 0x00076740
-`TdhEnumerateRemoteWBEMProviderFieldInformation` | 13 (0xd) | Exported Function | 0x100a2bd0 | 0x000a2bd0
-`TdhEnumerateRemoteWBEMProviders` | 14 (0xe) | Exported Function | 0x100a2c90 | 0x000a2c90
-`TdhFormatProperty` | 15 (0xf) | Exported Function | 0x10076880 | 0x00076880
-`TdhEnumerateManifestProviderEvents` | 9 (0x9) | Exported Function | 0x10076630 | 0x00076630
-`TdhValidatePayloadFilter` | 35 (0x23) | Exported Function | 0x100a2760 | 0x000a2760
+Function Name | Ordinal | Type
+-- | -- | --
+`TdhGetWppMessage` | 24 | Exported Function
+`TdhGetPropertySize` | 23 | Exported Function
+`TdhLoadManifest` | 26 | Exported Function
+`TdhGetWppProperty` | 25 | Exported Function
+`TdhGetManifestEventInformation` | 20 | Exported Function
+`TdhGetEventMapInformation` | 19 | Exported Function
+`TdhGetPropertyOffsetAndSize` | 22 | Exported Function
+`TdhGetProperty` | 21 | Exported Function
+`TdhLoadManifestFromBinary` | 27 | Exported Function
+`TdhUnloadManifest` | 33 | Exported Function
+`TdhSetDecodingParameter` | 32 | Exported Function
+`TdhValidatePayloadFilter` | 35 | Exported Function
+`TdhUnloadManifestFromMemory` | 34 | Exported Function
+`TdhOpenDecodingHandle` | 29 | Exported Function
+`TdhLoadManifestFromMemory` | 28 | Exported Function
+`TdhQueryRemoteWBEMProviderFieldInformation` | 31 | Exported Function
+`TdhQueryProviderFieldInformation` | 30 | Exported Function
+`TdhGetEventInformation` | 18 | Exported Function
+`TdhCloseDecodingHandle` | 6 | Exported Function
+`TdhCleanupPayloadEventFilterDescriptor` | 5 | Exported Function
+`TdhDeletePayloadFilter` | 8 | Exported Function
+`TdhCreatePayloadFilter` | 7 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`TdhApplyPayloadFilter` | 4 | Exported Function
+`TdhAggregatePayloadFilters` | 3 | Exported Function
+`TdhEnumerateManifestProviderEvents` | 9 | Exported Function
+`TdhFormatProperty` | 15 | Exported Function
+`TdhEnumerateRemoteWBEMProviders` | 14 | Exported Function
+`TdhGetDecodingParameter` | 17 | Exported Function
+`TdhGetAllEventsInformation` | 16 | Exported Function
+`TdhEnumerateProviderFilters` | 11 | Exported Function
+`TdhEnumerateProviderFieldInformation` | 10 | Exported Function
+`TdhEnumerateRemoteWBEMProviderFieldInformation` | 13 | Exported Function
+`TdhEnumerateProviders` | 12 | Exported Function
 
 
 ## Signature

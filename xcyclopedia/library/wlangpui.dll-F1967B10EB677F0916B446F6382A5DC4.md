@@ -24,14 +24,14 @@ PE256 | `752831400910499B5E66CC253C15FC959327E1E1FD853B823D26972AF13D3379`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180009b20 | 0x00009b20
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180009b90 | 0x00009b90
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180009bc0 | 0x00009bc0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180009c10 | 0x00009c10
-`GetAdPolicyAsXML` | 5 (0x5) | Exported Function | 0x0000000180023060 | 0x00023060
-`GetWmiPolicyAsXML` | 6 (0x6) | Exported Function | 0x0000000180023440 | 0x00023440
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 4 | Exported Function
+`GetAdPolicyAsXML` | 5 | Exported Function
+`GetWmiPolicyAsXML` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

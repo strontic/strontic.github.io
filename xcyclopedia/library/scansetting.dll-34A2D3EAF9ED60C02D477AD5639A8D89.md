@@ -24,14 +24,14 @@ PE256 | `183F9D05011A5916255DB5A3728D6F9D86C42460C7695F7B2ACFBBEEFF07B3B4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x10011820 | 0x00011820
-`DllMain` | 6 (0x6) | Exported Function | 0x1001f2a0 | 0x0001f2a0
-`GetDefaultProfileScan` | 1 (0x1) | Exported Function | 0x10017ed0 | 0x00017ed0
-`GetImageDialog` | 2 (0x2) | Exported Function | 0x10011b20 | 0x00011b20
-`ProfilesDialog` | 3 (0x3) | Exported Function | 0x10011df0 | 0x00011df0
-`ProgDlgTakeFgIfShowing` | 4 (0x4) | Exported Function | 0x10017460 | 0x00017460
+Function Name | Ordinal | Type
+-- | -- | --
+`GetImageDialog` | 2 | Exported Function
+`ProfilesDialog` | 3 | Exported Function
+`ProgDlgTakeFgIfShowing` | 4 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllMain` | 6 | Exported Function
+`GetDefaultProfileScan` | 1 | Exported Function
 
 
 ## Signature

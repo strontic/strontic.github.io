@@ -24,62 +24,62 @@ PE256 | `D54D9C978849D522189A0C0E0E64455DC96D668478012C124F47F5FCBAB68F98`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EdpAddAppClipboardConsentInCache` | 1 (0x1) | Exported Function | 0x10008a70 | 0x00008a70
-`EdpGetPrimaryIdentityIfManaged` | 30 (0x1e) | Exported Function | 0x10009510 | 0x00009510
-`EdpGetSourceAppIdForClipboard` | 31 (0x1f) | Exported Function | 0x10009540 | 0x00009540
-`EdpGetSourceIsEnlightenedForClipboard` | 32 (0x20) | Exported Function | 0x10009560 | 0x00009560
-`EdpGetWindowFromThreadId` | 33 (0x21) | Exported Function | 0x10009580 | 0x00009580
-`EdpIsAppClipboardConsentCached` | 34 (0x22) | Exported Function | 0x100096f0 | 0x000096f0
-`EdpIsContextExemptOrEnlightenedAllowed` | 35 (0x23) | Exported Function | 0x1000de20 | 0x0000de20
-`EdpIsFileAccessAllowed` | 36 (0x24) | Exported Function | 0x10009710 | 0x00009710
-`EdpIsUIPolicyEvaluationEnabledForThread` | 37 (0x25) | Exported Function | 0x10009730 | 0x00009730
-`EdpIsValidSubjectForEncryption` | 38 (0x26) | Exported Function | 0x10009750 | 0x00009750
-`EdpRequestAccess` | 39 (0x27) | Exported Function | 0x1000df20 | 0x0000df20
-`EdpRequestAccessForContext` | 40 (0x28) | Exported Function | 0x1000e0b0 | 0x0000e0b0
-`EdpSetEnterpriseIdForClipboard` | 41 (0x29) | Exported Function | 0x100098a0 | 0x000098a0
-`EdpSetSourceAppIdForClipboard` | 42 (0x2a) | Exported Function | 0x100098d0 | 0x000098d0
-`EdpSetSourceIsEnlightenedForClipboard` | 43 (0x2b) | Exported Function | 0x100098f0 | 0x000098f0
-`EdpShouldShowEnterpriseIndicator` | 44 (0x2c) | Exported Function | 0x10009910 | 0x00009910
-`EdpUtilCreateEnterpriseContextFromEnterpriseId` | 45 (0x2d) | Exported Function | 0x10009a70 | 0x00009a70
-`EdpUtilFreeEnterpriseContext` | 46 (0x2e) | Exported Function | 0x10009b90 | 0x00009b90
-`EdpUtilGetEnterpriseContextByName` | 47 (0x2f) | Exported Function | 0x10009ba0 | 0x00009ba0
-`EdpUtilGetEnterpriseContextByProcess` | 48 (0x30) | Exported Function | 0x10009bc0 | 0x00009bc0
-`EdpUtilGetEnterpriseContextByWindowHandle` | 49 (0x31) | Exported Function | 0x10009d70 | 0x00009d70
-`EdpUtilGetEnterpriseContextForCurrentView` | 50 (0x32) | Exported Function | 0x10009d90 | 0x00009d90
-`EdpUtilGetEnterpriseContextForView` | 51 (0x33) | Exported Function | 0x10009d70 | 0x00009d70
-`EdpUtilIsAppEnlightened` | 52 (0x34) | Exported Function | 0x10009db0 | 0x00009db0
-`EdpGetPrimaryIdentities` | 29 (0x1d) | Exported Function | 0x100094f0 | 0x000094f0
-`EdpGetPersonalEnterpriseIdString` | 28 (0x1c) | Exported Function | 0x100093c0 | 0x000093c0
-`EdpGetIsManaged` | 27 (0x1b) | Exported Function | 0x10004370 | 0x00004370
-`EdpGetFilePathsForDataObject` | 26 (0x1a) | Exported Function | 0x1000ae90 | 0x0000ae90
-`EdpAuditAction` | 2 (0x2) | Exported Function | 0x10008a90 | 0x00008a90
-`EdpCanCallerAccessWin32Clipboard` | 3 (0x3) | Exported Function | 0x1000a520 | 0x0000a520
-`EdpCheckAccess` | 4 (0x4) | Exported Function | 0x1000d490 | 0x0000d490
-`EdpCheckAccessForContext` | 5 (0x5) | Exported Function | 0x1000d600 | 0x0000d600
-`EdpCheckIsDpapiNgEntId` | 6 (0x6) | Exported Function | 0x10008e20 | 0x00008e20
-`EdpCheckIsRmsEntId` | 7 (0x7) | Exported Function | 0x10008e40 | 0x00008e40
-`EdpClearClipboardMetaData` | 8 (0x8) | Exported Function | 0x10008e60 | 0x00008e60
-`EdpConvertProtectorToExternalId` | 9 (0x9) | Exported Function | 0x10008e70 | 0x00008e70
-`EdpFreeContext` | 10 (0xa) | Exported Function | 0x1000d640 | 0x0000d640
-`EdpGetAppLockerUniqueAppIdentifier` | 11 (0xb) | Exported Function | 0x10008e90 | 0x00008e90
-`EdpGetAppLockerUniqueAppIdentifierByToken` | 12 (0xc) | Exported Function | 0x10008ff0 | 0x00008ff0
-`EdpUtilQueryPolicy` | 53 (0x35) | Exported Function | 0x10009dd0 | 0x00009dd0
-`EdpGetAppLockerUniqueAppIdentifierByTokenEx` | 13 (0xd) | Exported Function | 0x10009010 | 0x00009010
-`EdpGetContextForBinaryPath` | 15 (0xf) | Exported Function | 0x1000d6c0 | 0x0000d6c0
-`EdpGetContextForImpersonatedToken` | 16 (0x10) | Exported Function | 0x1000d6e0 | 0x0000d6e0
-`EdpGetContextForPackageFullName` | 17 (0x11) | Exported Function | 0x1000d8c0 | 0x0000d8c0
-`EdpGetContextForProcess` | 18 (0x12) | Exported Function | 0x1000d8e0 | 0x0000d8e0
-`EdpGetContextForWindow` | 19 (0x13) | Exported Function | 0x1000daf0 | 0x0000daf0
-`EdpGetDataInfoFromDataObject` | 20 (0x14) | Exported Function | 0x1000a9d0 | 0x0000a9d0
-`EdpGetDataInfoFromWin32Clipboard` | 21 (0x15) | Exported Function | 0x1000ac10 | 0x0000ac10
-`EdpGetEnterpriseIdForClipboard` | 22 (0x16) | Exported Function | 0x10009100 | 0x00009100
-`EdpGetEnterpriseIdForDataObject` | 23 (0x17) | Exported Function | 0x1000ad20 | 0x0000ad20
-`EdpGetEnterpriseIdForUIEnforcement` | 24 (0x18) | Exported Function | 0x10009120 | 0x00009120
-`EdpGetEnterpriseIdForUIEnforcementFromProcess` | 25 (0x19) | Exported Function | 0x10009140 | 0x00009140
-`EdpGetClipboardAccessDeniedData` | 14 (0xe) | Exported Function | 0x1000a720 | 0x0000a720
-`GetProcessUniqueIdFromToken` | 54 (0x36) | Exported Function | 0x10009e10 | 0x00009e10
+Function Name | Ordinal | Type
+-- | -- | --
+`EdpIsUIPolicyEvaluationEnabledForThread` | 37 | Exported Function
+`EdpIsFileAccessAllowed` | 36 | Exported Function
+`EdpIsContextExemptOrEnlightenedAllowed` | 35 | Exported Function
+`EdpRequestAccessForContext` | 40 | Exported Function
+`EdpRequestAccess` | 39 | Exported Function
+`EdpIsValidSubjectForEncryption` | 38 | Exported Function
+`EdpIsAppClipboardConsentCached` | 34 | Exported Function
+`EdpGetPrimaryIdentityIfManaged` | 30 | Exported Function
+`EdpGetPrimaryIdentities` | 29 | Exported Function
+`EdpGetPersonalEnterpriseIdString` | 28 | Exported Function
+`EdpGetWindowFromThreadId` | 33 | Exported Function
+`EdpGetSourceIsEnlightenedForClipboard` | 32 | Exported Function
+`EdpGetSourceAppIdForClipboard` | 31 | Exported Function
+`EdpSetEnterpriseIdForClipboard` | 41 | Exported Function
+`EdpUtilGetEnterpriseContextForView` | 51 | Exported Function
+`EdpUtilGetEnterpriseContextForCurrentView` | 50 | Exported Function
+`EdpUtilGetEnterpriseContextByWindowHandle` | 49 | Exported Function
+`GetProcessUniqueIdFromToken` | 54 | Exported Function
+`EdpUtilQueryPolicy` | 53 | Exported Function
+`EdpUtilIsAppEnlightened` | 52 | Exported Function
+`EdpUtilGetEnterpriseContextByProcess` | 48 | Exported Function
+`EdpShouldShowEnterpriseIndicator` | 44 | Exported Function
+`EdpSetSourceIsEnlightenedForClipboard` | 43 | Exported Function
+`EdpSetSourceAppIdForClipboard` | 42 | Exported Function
+`EdpUtilGetEnterpriseContextByName` | 47 | Exported Function
+`EdpUtilFreeEnterpriseContext` | 46 | Exported Function
+`EdpUtilCreateEnterpriseContextFromEnterpriseId` | 45 | Exported Function
+`EdpFreeContext` | 10 | Exported Function
+`EdpConvertProtectorToExternalId` | 9 | Exported Function
+`EdpClearClipboardMetaData` | 8 | Exported Function
+`EdpGetAppLockerUniqueAppIdentifierByTokenEx` | 13 | Exported Function
+`EdpGetAppLockerUniqueAppIdentifierByToken` | 12 | Exported Function
+`EdpGetAppLockerUniqueAppIdentifier` | 11 | Exported Function
+`EdpCheckIsRmsEntId` | 7 | Exported Function
+`EdpCanCallerAccessWin32Clipboard` | 3 | Exported Function
+`EdpAuditAction` | 2 | Exported Function
+`EdpAddAppClipboardConsentInCache` | 1 | Exported Function
+`EdpCheckIsDpapiNgEntId` | 6 | Exported Function
+`EdpCheckAccessForContext` | 5 | Exported Function
+`EdpCheckAccess` | 4 | Exported Function
+`EdpGetClipboardAccessDeniedData` | 14 | Exported Function
+`EdpGetEnterpriseIdForUIEnforcement` | 24 | Exported Function
+`EdpGetEnterpriseIdForDataObject` | 23 | Exported Function
+`EdpGetEnterpriseIdForClipboard` | 22 | Exported Function
+`EdpGetIsManaged` | 27 | Exported Function
+`EdpGetFilePathsForDataObject` | 26 | Exported Function
+`EdpGetEnterpriseIdForUIEnforcementFromProcess` | 25 | Exported Function
+`EdpGetDataInfoFromWin32Clipboard` | 21 | Exported Function
+`EdpGetContextForPackageFullName` | 17 | Exported Function
+`EdpGetContextForImpersonatedToken` | 16 | Exported Function
+`EdpGetContextForBinaryPath` | 15 | Exported Function
+`EdpGetDataInfoFromDataObject` | 20 | Exported Function
+`EdpGetContextForWindow` | 19 | Exported Function
+`EdpGetContextForProcess` | 18 | Exported Function
 
 
 ## Signature

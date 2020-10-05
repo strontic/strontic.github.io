@@ -24,32 +24,28 @@ PE256 | `87AB8E79F818FEC0F591CA06FEB164FCE72C1826AFF0607C5296145BE7C58EF8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ActivateInputProfile` | 119 (0x77) | Exported Function | 0x0000000180019040 | 0x00019040
-`SaveDefaultUserInputSettings` | 105 (0x69) | Exported Function | 0x000000018001aca0 | 0x0001aca0
-`QueryLayoutOrTipStringUserReg` | 112 (0x70) | Exported Function | 0x0000000180019b70 | 0x00019b70
-`QueryLayoutOrTipString` | 111 (0x6f) | Exported Function | 0x0000000180019b40 | 0x00019b40
-`Ordinal116` | 116 (0x74) | Exported Function | 0x000000018001c980 | 0x0001c980
-`Ordinal115` | 115 (0x73) | Exported Function | 0x000000018001c6a0 | 0x0001c6a0
-`Ordinal103` | 103 (0x67) | Exported Function | 0x0000000180017ed0 | 0x00017ed0
-`Ordinal102` | 102 (0x66) | Exported Function | 0x0000000180017550 | 0x00017550
-`InstallLayoutOrTipUserReg` | 109 (0x6d) | Exported Function | 0x0000000180018d20 | 0x00018d20
-`InstallLayoutOrTipPrivate` | 117 (0x75) | Exported Function | 0x0000000180018f10 | 0x00018f10
-`InstallLayoutOrTipOffline` | 120 (0x78) | Exported Function | 0x0000000180018ea0 | 0x00018ea0
-`InstallLayoutOrTip` | 104 (0x68) | Exported Function | 0x0000000180018bd0 | 0x00018bd0
-`InputDll_DownlevelUninitialize` | 202 (0xca) | Exported Function | 0x0000000180022750 | 0x00022750
-`InputDll_DownlevelSetUILanguage` | 201 (0xc9) | Exported Function | 0x0000000180022660 | 0x00022660
-`InputDll_DownlevelInitialize` | 200 (0xc8) | Exported Function | 0x0000000180022540 | 0x00022540
-`InputDll_DownlevelEnumLayoutOrTipForSetup` | 203 (0xcb) | Exported Function | 0x0000000180022810 | 0x00022810
-`GetLayoutDescription` | 114 (0x72) | Exported Function | 0x000000018001c340 | 0x0001c340
-`GetDefaultLayout` | 113 (0x71) | Exported Function | 0x000000018001bee0 | 0x0001bee0
-`EnumLayoutOrTipForSetup` | 108 (0x6c) | Exported Function | 0x000000018001b7f0 | 0x0001b7f0
-`EnumEnabledLayoutOrTipPrivate` | 118 (0x76) | Exported Function | 0x000000018001bed0 | 0x0001bed0
-`EnumEnabledLayoutOrTip` | 110 (0x6e) | Exported Function | 0x000000018001b8d0 | 0x0001b8d0
-`CPlApplet` | 100 (0x64) | Exported Function | 0x0000000180020440 | 0x00020440
-`SaveSystemAcctInputSettings` | 106 (0x6a) | Exported Function | 0x000000018001af30 | 0x0001af30
-`SetDefaultLayoutOrTip` | 107 (0x6b) | Exported Function | 0x0000000180019050 | 0x00019050
+Function Name | Ordinal | Type
+-- | -- | --
+`InstallLayoutOrTipPrivate` | 117 | Exported Function
+`InstallLayoutOrTipUserReg` | 109 | Exported Function
+`InstallLayoutOrTipOffline` | 120 | Exported Function
+`InputDll_DownlevelUninitialize` | 202 | Exported Function
+`InstallLayoutOrTip` | 104 | Exported Function
+`SaveSystemAcctInputSettings` | 106 | Exported Function
+`SetDefaultLayoutOrTip` | 107 | Exported Function
+`SaveDefaultUserInputSettings` | 105 | Exported Function
+`QueryLayoutOrTipString` | 111 | Exported Function
+`QueryLayoutOrTipStringUserReg` | 112 | Exported Function
+`EnumEnabledLayoutOrTipPrivate` | 118 | Exported Function
+`EnumLayoutOrTipForSetup` | 108 | Exported Function
+`EnumEnabledLayoutOrTip` | 110 | Exported Function
+`ActivateInputProfile` | 119 | Exported Function
+`CPlApplet` | 100 | Exported Function
+`InputDll_DownlevelInitialize` | 200 | Exported Function
+`InputDll_DownlevelSetUILanguage` | 201 | Exported Function
+`InputDll_DownlevelEnumLayoutOrTipForSetup` | 203 | Exported Function
+`GetDefaultLayout` | 113 | Exported Function
+`GetLayoutDescription` | 114 | Exported Function
 
 
 ## Signature

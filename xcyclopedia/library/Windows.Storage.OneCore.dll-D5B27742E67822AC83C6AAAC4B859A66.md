@@ -24,21 +24,21 @@ PE256 | `E2CA3E9184713870CBFCC19990BD347DE1E20EBA5E9021D4454BE909E3371D60`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CopyFileFromAppW` | 1 (0x1) | Exported Function | 0x10011c00 | 0x00011c00
-`CreateDirectoryFromAppW` | 2 (0x2) | Exported Function | 0x10011da0 | 0x00011da0
-`CreateFile2FromAppW` | 3 (0x3) | Exported Function | 0x10011f90 | 0x00011f90
-`CreateFileFromAppW` | 4 (0x4) | Exported Function | 0x100120f0 | 0x000120f0
-`DeleteFileFromAppW` | 5 (0x5) | Exported Function | 0x10012150 | 0x00012150
-`DllCanUnloadNow` | 6 (0x6) | Exported Function | 0x10012a50 | 0x00012a50
-`DllGetActivationFactory` | 7 (0x7) | Exported Function | 0x10012a10 | 0x00012a10
-`FindFirstFileExFromAppW` | 8 (0x8) | Exported Function | 0x10012230 | 0x00012230
-`GetFileAttributesExFromAppW` | 9 (0x9) | Exported Function | 0x10012360 | 0x00012360
-`MoveFileFromAppW` | 10 (0xa) | Exported Function | 0x10012450 | 0x00012450
-`RemoveDirectoryFromAppW` | 11 (0xb) | Exported Function | 0x10012540 | 0x00012540
-`ReplaceFileFromAppW` | 12 (0xc) | Exported Function | 0x10012620 | 0x00012620
-`SetFileAttributesFromAppW` | 13 (0xd) | Exported Function | 0x10012720 | 0x00012720
+Function Name | Ordinal | Type
+-- | -- | --
+`MoveFileFromAppW` | 10 | Exported Function
+`GetFileAttributesExFromAppW` | 9 | Exported Function
+`FindFirstFileExFromAppW` | 8 | Exported Function
+`SetFileAttributesFromAppW` | 13 | Exported Function
+`ReplaceFileFromAppW` | 12 | Exported Function
+`RemoveDirectoryFromAppW` | 11 | Exported Function
+`DllGetActivationFactory` | 7 | Exported Function
+`CreateFile2FromAppW` | 3 | Exported Function
+`CreateDirectoryFromAppW` | 2 | Exported Function
+`CopyFileFromAppW` | 1 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`DeleteFileFromAppW` | 5 | Exported Function
+`CreateFileFromAppW` | 4 | Exported Function
 
 
 ## Signature

@@ -24,18 +24,18 @@ PE256 | `9571376C482F07CB214E0FE560D6D5CE6FEC30AF10EF86E02EDCEE9ED6A76395`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`iumCryptEncodeObject` | 1 (0x1) | Exported Function | 0x0000000180006ef0 | 0x00006ef0
-`iumCryptEncodeObjectEx` | 2 (0x2) | Exported Function | 0x0000000180006df0 | 0x00006df0
-`iumCryptExportPublicKeyInfoFromBCryptKeyHandle` | 3 (0x3) | Exported Function | 0x0000000180008890 | 0x00008890
-`iumCryptFindOIDInfo` | 4 (0x4) | Exported Function | 0x0000000180008220 | 0x00008220
-`iumCryptMsgClose` | 5 (0x5) | Exported Function | 0x0000000180005820 | 0x00005820
-`iumCryptMsgDuplicate` | 6 (0x6) | Exported Function | 0x0000000180005800 | 0x00005800
-`iumCryptMsgGetParam` | 7 (0x7) | Exported Function | 0x0000000180006720 | 0x00006720
-`iumCryptMsgOpenToEncode` | 8 (0x8) | Exported Function | 0x0000000180005760 | 0x00005760
-`iumCryptMsgUpdate` | 9 (0x9) | Exported Function | 0x00000001800065a0 | 0x000065a0
-`iumCryptSignAndEncodeCertificate` | 10 (0xa) | Exported Function | 0x0000000180008ac0 | 0x00008ac0
+Function Name | Ordinal | Type
+-- | -- | --
+`iumCryptMsgGetParam` | 7 | Exported Function
+`iumCryptMsgDuplicate` | 6 | Exported Function
+`iumCryptMsgOpenToEncode` | 8 | Exported Function
+`iumCryptSignAndEncodeCertificate` | 10 | Exported Function
+`iumCryptMsgUpdate` | 9 | Exported Function
+`iumCryptEncodeObjectEx` | 2 | Exported Function
+`iumCryptEncodeObject` | 1 | Exported Function
+`iumCryptExportPublicKeyInfoFromBCryptKeyHandle` | 3 | Exported Function
+`iumCryptMsgClose` | 5 | Exported Function
+`iumCryptFindOIDInfo` | 4 | Exported Function
 
 
 ## Signature

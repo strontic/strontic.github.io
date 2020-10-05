@@ -24,26 +24,26 @@ PE256 | `7497BC2D653F94FCF686F5855642D0D8CD919A6697C70C5C570E14A784CF43BF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SpFileQueueClose` | 1 (0x1) | Exported Function | 0x0000000161005f20 | 0x00005f20
-`SpFileQueueOpen` | 16 (0x10) | Exported Function | 0x0000000161003470 | 0x00003470
-`SpFileQueueNodeRemove` | 15 (0xf) | Exported Function | 0x00000001610094e0 | 0x000094e0
-`SpFileQueueNodeGetTargetFilename` | 14 (0xe) | Exported Function | 0x0000000161004080 | 0x00004080
-`SpFileQueueNodeGetTargetDirectory` | 13 (0xd) | Exported Function | 0x0000000161003ff0 | 0x00003ff0
-`SpFileQueueNodeGetStyleFlags` | 12 (0xc) | Exported Function | 0x0000000161009460 | 0x00009460
-`SpFileQueueNodeGetSourceRootPath` | 11 (0xb) | Exported Function | 0x0000000161003e30 | 0x00003e30
-`SpFileQueueNodeGetSourcePath` | 10 (0xa) | Exported Function | 0x0000000161003ec0 | 0x00003ec0
-`SpFileQueueNodeGetSourceFilename` | 9 (0x9) | Exported Function | 0x0000000161003f60 | 0x00003f60
-`SpFileQueueNodeGetSecurityDescriptor` | 8 (0x8) | Exported Function | 0x00000001610093a0 | 0x000093a0
-`SpFileQueueGetQueueCount` | 7 (0x7) | Exported Function | 0x0000000161006190 | 0x00006190
-`SpFileQueueGetFlags` | 6 (0x6) | Exported Function | 0x0000000161006110 | 0x00006110
-`SpFileQueueFileInUse` | 5 (0x5) | Exported Function | 0x0000000161006720 | 0x00006720
-`SpFileQueueDelete` | 4 (0x4) | Exported Function | 0x0000000161008fb0 | 0x00008fb0
-`SpFileQueueCopy` | 3 (0x3) | Exported Function | 0x0000000161001640 | 0x00001640
-`SpFileQueueCommit` | 2 (0x2) | Exported Function | 0x00000001610062d0 | 0x000062d0
-`SpFileQueueRename` | 17 (0x11) | Exported Function | 0x0000000161009180 | 0x00009180
-`SpFileQueueSetFlags` | 18 (0x12) | Exported Function | 0x00000001610041d0 | 0x000041d0
+Function Name | Ordinal | Type
+-- | -- | --
+`SpFileQueueNodeGetStyleFlags` | 12 | Exported Function
+`SpFileQueueNodeGetTargetDirectory` | 13 | Exported Function
+`SpFileQueueNodeGetSourcePath` | 10 | Exported Function
+`SpFileQueueNodeGetSourceRootPath` | 11 | Exported Function
+`SpFileQueueNodeGetTargetFilename` | 14 | Exported Function
+`SpFileQueueRename` | 17 | Exported Function
+`SpFileQueueSetFlags` | 18 | Exported Function
+`SpFileQueueNodeRemove` | 15 | Exported Function
+`SpFileQueueOpen` | 16 | Exported Function
+`SpFileQueueCopy` | 3 | Exported Function
+`SpFileQueueDelete` | 4 | Exported Function
+`SpFileQueueClose` | 1 | Exported Function
+`SpFileQueueCommit` | 2 | Exported Function
+`SpFileQueueFileInUse` | 5 | Exported Function
+`SpFileQueueNodeGetSecurityDescriptor` | 8 | Exported Function
+`SpFileQueueNodeGetSourceFilename` | 9 | Exported Function
+`SpFileQueueGetFlags` | 6 | Exported Function
+`SpFileQueueGetQueueCount` | 7 | Exported Function
 
 
 ## Signature

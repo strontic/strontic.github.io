@@ -24,11 +24,11 @@ PE256 | `9504C6526F3660B61C9AB60B009E28D5C51196957A2BC0BF6138ACD063350B73`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseTrace` | 1 (0x1) | Exported Function | advapi32.CloseTrace | 0x00001199
-`OpenTraceW` | 2 (0x2) | Exported Function | advapi32.OpenTraceW | 0x000011b8
-`ProcessTrace` | 3 (0x3) | Exported Function | advapi32.ProcessTrace | 0x000011d9
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessTrace` | 3 | Exported Function
+`OpenTraceW` | 2 | Exported Function
+`CloseTrace` | 1 | Exported Function
 
 
 ## Signature

@@ -24,31 +24,31 @@ PE256 | `E2DA3690801D4A2DB08A57D14B70CAF182521D398E52255B3FDBE395FED63E6D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CertDllVerifyCTLUsage` | 1 (0x1) | Exported Function | 0x0000000180016370 | 0x00016370
-`I_CryptNetSetUrlCacheFlushInfo` | 22 (0x16) | Exported Function | 0x0000000180003960 | 0x00003960
-`I_CryptNetGetUserDsStoreUrl` | 21 (0x15) | Exported Function | 0x00000001800184b0 | 0x000184b0
-`I_CryptNetGetHostNameFromUrl` | 20 (0x14) | Exported Function | 0x0000000180017950 | 0x00017950
-`I_CryptNetGetConnectivity` | 19 (0x13) | Exported Function | 0x0000000180004ac0 | 0x00004ac0
-`I_CryptNetFlushOfflineUrl` | 18 (0x12) | Exported Function | 0x000000018001c9c0 | 0x0001c9c0
-`I_CryptNetEnumUrlCacheEntry` | 17 (0x11) | Exported Function | 0x000000018001bbf0 | 0x0001bbf0
-`I_CryptNetAutoFlush` | 16 (0x10) | Exported Function | 0x000000018001b4e0 | 0x0001b4e0
-`I_CryptConvertIriToAsciiOrUnicodeWithFlags` | 4 (0x4) | Exported Function | 0x0000000180017140 | 0x00017140
-`I_CryptConvertIriToAsciiOrUnicode` | 3 (0x3) | Exported Function | 0x0000000180017120 | 0x00017120
-`I_CryptNetSetUrlCachePreFetchInfo` | 23 (0x17) | Exported Function | 0x0000000180001da0 | 0x00001da0
-`DllUnregisterServer` | 15 (0xf) | Exported Function | 0x0000000180016320 | 0x00016320
-`CryptUninstallCancelRetrieval` | 13 (0xd) | Exported Function | 0x000000018001b830 | 0x0001b830
-`CryptRetrieveObjectByUrlW` | 12 (0xc) | Exported Function | 0x0000000180008560 | 0x00008560
-`CryptRetrieveObjectByUrlA` | 11 (0xb) | Exported Function | 0x0000000180018920 | 0x00018920
-`CryptInstallCancelRetrieval` | 10 (0xa) | Exported Function | 0x000000018001b790 | 0x0001b790
-`CryptGetTimeValidObject` | 9 (0x9) | Exported Function | 0x00000001800014c0 | 0x000014c0
-`CryptGetObjectUrl` | 8 (0x8) | Exported Function | 0x000000018001b500 | 0x0001b500
-`CryptFlushTimeValidObject` | 7 (0x7) | Exported Function | 0x000000018001b410 | 0x0001b410
-`CryptCancelAsyncRetrieval` | 6 (0x6) | Exported Function | 0x0000000180018890 | 0x00018890
-`CertDllVerifyRevocation` | 2 (0x2) | Exported Function | 0x0000000180009c20 | 0x00009c20
-`DllRegisterServer` | 14 (0xe) | Exported Function | 0x00000001800162d0 | 0x000162d0
-`LdapProvOpenStore` | 5 (0x5) | Exported Function | 0x0000000180017f00 | 0x00017f00
+Function Name | Ordinal | Type
+-- | -- | --
+`I_CryptNetEnumUrlCacheEntry` | 17 | Exported Function
+`I_CryptNetFlushOfflineUrl` | 18 | Exported Function
+`I_CryptNetAutoFlush` | 16 | Exported Function
+`I_CryptConvertIriToAsciiOrUnicode` | 3 | Exported Function
+`I_CryptConvertIriToAsciiOrUnicodeWithFlags` | 4 | Exported Function
+`I_CryptNetGetConnectivity` | 19 | Exported Function
+`I_CryptNetSetUrlCachePreFetchInfo` | 23 | Exported Function
+`LdapProvOpenStore` | 5 | Exported Function
+`I_CryptNetSetUrlCacheFlushInfo` | 22 | Exported Function
+`I_CryptNetGetHostNameFromUrl` | 20 | Exported Function
+`I_CryptNetGetUserDsStoreUrl` | 21 | Exported Function
+`DllUnregisterServer` | 15 | Exported Function
+`CryptFlushTimeValidObject` | 7 | Exported Function
+`CryptGetObjectUrl` | 8 | Exported Function
+`CryptCancelAsyncRetrieval` | 6 | Exported Function
+`CertDllVerifyCTLUsage` | 1 | Exported Function
+`CertDllVerifyRevocation` | 2 | Exported Function
+`CryptGetTimeValidObject` | 9 | Exported Function
+`CryptUninstallCancelRetrieval` | 13 | Exported Function
+`DllRegisterServer` | 14 | Exported Function
+`CryptRetrieveObjectByUrlW` | 12 | Exported Function
+`CryptInstallCancelRetrieval` | 10 | Exported Function
+`CryptRetrieveObjectByUrlA` | 11 | Exported Function
 
 
 ## Signature

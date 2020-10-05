@@ -23,11 +23,11 @@ PE256 | `5857C123B323216CE4F8679A51EFCFD12FA50120EE377BF2847BDB5A4FEC0E09`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DecodeReadResBDeinit` | 1 (0x1) | Exported Function | 0x0000000180002a10 | 0x00002a10
-`DecodeReadResBInit` | 2 (0x2) | Exported Function | 0x0000000180002950 | 0x00002950
-`EnumerateResBStrings` | 3 (0x3) | Exported Function | 0x0000000180002a30 | 0x00002a30
+Function Name | Ordinal | Type
+-- | -- | --
+`EnumerateResBStrings` | 3 | Exported Function
+`DecodeReadResBInit` | 2 | Exported Function
+`DecodeReadResBDeinit` | 1 | Exported Function
 
 
 ## Signature

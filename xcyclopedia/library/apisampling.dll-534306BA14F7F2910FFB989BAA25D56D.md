@@ -24,11 +24,11 @@ PE256 | `A6A6233AEC4D5C876BC59334C30126B0FA3E3A9DAADDE210831F30E14C9F5E21`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`APISamplingInitialize` | 1 (0x1) | Exported Function | 0x0000000180001900 | 0x00001900
-`APISamplingSetValue` | 2 (0x2) | Exported Function | 0x0000000180001aa0 | 0x00001aa0
-`APISamplingUninitialize` | 3 (0x3) | Exported Function | 0x0000000180001a60 | 0x00001a60
+Function Name | Ordinal | Type
+-- | -- | --
+`APISamplingUninitialize` | 3 | Exported Function
+`APISamplingSetValue` | 2 | Exported Function
+`APISamplingInitialize` | 1 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `CAEEA18C10EAE7FA1C6484F7D22FD50F62A826A04DE140727B7407060F0D2B50`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ExecuteTTTracerCommandLine` | 1 (0x1) | Exported Function | 0x10026f90 | 0x00026f90
+Function Name | Ordinal | Type
+-- | -- | --
+`ExecuteTTTracerCommandLine` | 1 | Exported Function
 
 
 ## Signature

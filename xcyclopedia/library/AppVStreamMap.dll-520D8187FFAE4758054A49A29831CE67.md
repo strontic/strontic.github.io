@@ -24,10 +24,10 @@ PE256 | `29C6431F76B052B9BF955B965E64FBBA91CE2D7BA0A8D0F4351EE328CAC254D3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateStreamMapFromFile` | 1 (0x1) | Exported Function | 0x0000000180002330 | 0x00002330
-`CreateStreamMapFromStream` | 2 (0x2) | Exported Function | 0x00000001800024d0 | 0x000024d0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateStreamMapFromStream` | 2 | Exported Function
+`CreateStreamMapFromFile` | 1 | Exported Function
 
 
 ## Signature

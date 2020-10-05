@@ -24,130 +24,130 @@ PE256 | `6B924C3E61232921F5B9172FBA8E9E96E92FEF18343CECE4DEF1084B37A9A596`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__toascii` | 1 (0x1) | Exported Function | ucrtbase.__toascii | 0x00001648
-`mbrtowc` | 89 (0x59) | Exported Function | ucrtbase.mbrtowc | 0x00001fa6
-`mbrtoc32` | 88 (0x58) | Exported Function | ucrtbase.mbrtoc32 | 0x00001f8c
-`mbrtoc16` | 87 (0x57) | Exported Function | ucrtbase.mbrtoc16 | 0x00001f71
-`c32rtomb` | 86 (0x56) | Exported Function | ucrtbase.c32rtomb | 0x00001f56
-`c16rtomb` | 85 (0x55) | Exported Function | ucrtbase.c16rtomb | 0x00001f3b
-`btowc` | 84 (0x54) | Exported Function | ucrtbase.btowc | 0x00001f23
-`atoll` | 83 (0x53) | Exported Function | ucrtbase.atoll | 0x00001f0e
-`atol` | 82 (0x52) | Exported Function | ucrtbase.atol | 0x00001efa
-`atoi` | 81 (0x51) | Exported Function | ucrtbase.atoi | 0x00001ee7
-`atof` | 80 (0x50) | Exported Function | ucrtbase.atof | 0x00001ed4
-`_wtoll_l` | 79 (0x4f) | Exported Function | ucrtbase._wtoll_l | 0x00001ebd
-`_wtoll` | 78 (0x4e) | Exported Function | ucrtbase._wtoll | 0x00001ea4
-`mbsrtowcs` | 90 (0x5a) | Exported Function | ucrtbase.mbsrtowcs | 0x00001fc1
-`_wtol_l` | 77 (0x4d) | Exported Function | ucrtbase._wtol_l | 0x00001e8c
-`_wtoi_l` | 75 (0x4b) | Exported Function | ucrtbase._wtoi_l | 0x00001e5e
-`_wtoi64_l` | 74 (0x4a) | Exported Function | ucrtbase._wtoi64_l | 0x00001e43
-`_wtoi64` | 73 (0x49) | Exported Function | ucrtbase._wtoi64 | 0x00001e28
-`_wtoi` | 72 (0x48) | Exported Function | ucrtbase._wtoi | 0x00001e11
-`_wtof_l` | 71 (0x47) | Exported Function | ucrtbase._wtof_l | 0x00001dfa
-`_wtof` | 70 (0x46) | Exported Function | ucrtbase._wtof | 0x00001de3
-`_wctomb_s_l` | 69 (0x45) | Exported Function | ucrtbase._wctomb_s_l | 0x00001dc8
-`_wctomb_l` | 68 (0x44) | Exported Function | ucrtbase._wctomb_l | 0x00001da9
-`_wcstoumax_l` | 67 (0x43) | Exported Function | ucrtbase._wcstoumax_l | 0x00001d89
-`_wcstoull_l` | 66 (0x42) | Exported Function | ucrtbase._wcstoull_l | 0x00001d67
-`_wcstoul_l` | 65 (0x41) | Exported Function | ucrtbase._wcstoul_l | 0x00001d47
-`_wcstoui64_l` | 64 (0x40) | Exported Function | ucrtbase._wcstoui64_l | 0x00001d26
-`_wtol` | 76 (0x4c) | Exported Function | ucrtbase._wtol | 0x00001e75
-`mbsrtowcs_s` | 91 (0x5b) | Exported Function | ucrtbase.mbsrtowcs_s | 0x00001fe0
-`mbstowcs` | 92 (0x5c) | Exported Function | ucrtbase.mbstowcs | 0x00001ffe
-`mbstowcs_s` | 93 (0x5d) | Exported Function | ucrtbase.mbstowcs_s | 0x0000201b
-`wctomb` | 120 (0x78) | Exported Function | ucrtbase.wctomb | 0x000022da
-`wctob` | 119 (0x77) | Exported Function | ucrtbase.wctob | 0x000022c4
-`wcstoumax` | 118 (0x76) | Exported Function | ucrtbase.wcstoumax | 0x000022ab
-`wcstoull` | 117 (0x75) | Exported Function | ucrtbase.wcstoull | 0x0000228f
-`wcstoul` | 116 (0x74) | Exported Function | ucrtbase.wcstoul | 0x00002275
-`wcstombs_s` | 115 (0x73) | Exported Function | ucrtbase.wcstombs_s | 0x00002259
-`wcstombs` | 114 (0x72) | Exported Function | ucrtbase.wcstombs | 0x0000223c
-`wcstoll` | 113 (0x71) | Exported Function | ucrtbase.wcstoll | 0x00002222
-`wcstold` | 112 (0x70) | Exported Function | ucrtbase.wcstold | 0x00002209
-`wcstol` | 111 (0x6f) | Exported Function | ucrtbase.wcstol | 0x000021f1
-`wcstoimax` | 110 (0x6e) | Exported Function | ucrtbase.wcstoimax | 0x000021d7
-`wcstof` | 109 (0x6d) | Exported Function | ucrtbase.wcstof | 0x000021bd
-`wcstod` | 108 (0x6c) | Exported Function | ucrtbase.wcstod | 0x000021a6
-`wcsrtombs_s` | 107 (0x6b) | Exported Function | ucrtbase.wcsrtombs_s | 0x0000218a
-`wcsrtombs` | 106 (0x6a) | Exported Function | ucrtbase.wcsrtombs | 0x0000216b
-`wcrtomb_s` | 105 (0x69) | Exported Function | ucrtbase.wcrtomb_s | 0x0000214e
-`wcrtomb` | 104 (0x68) | Exported Function | ucrtbase.wcrtomb | 0x00002133
-`strtoumax` | 103 (0x67) | Exported Function | ucrtbase.strtoumax | 0x00002118
-`strtoull` | 102 (0x66) | Exported Function | ucrtbase.strtoull | 0x000020fc
-`strtoul` | 101 (0x65) | Exported Function | ucrtbase.strtoul | 0x000020e2
-`strtoll` | 100 (0x64) | Exported Function | ucrtbase.strtoll | 0x000020c9
-`strtold` | 99 (0x63) | Exported Function | ucrtbase.strtold | 0x000020b0
-`strtol` | 98 (0x62) | Exported Function | ucrtbase.strtol | 0x00002098
-`strtoimax` | 97 (0x61) | Exported Function | ucrtbase.strtoimax | 0x0000207e
-`strtof` | 96 (0x60) | Exported Function | ucrtbase.strtof | 0x00002064
-`strtod` | 95 (0x5f) | Exported Function | ucrtbase.strtod | 0x0000204d
-`mbtowc` | 94 (0x5e) | Exported Function | ucrtbase.mbtowc | 0x00002036
-`_wcstoui64` | 63 (0x3f) | Exported Function | ucrtbase._wcstoui64 | 0x00001d05
-`_wcstombs_s_l` | 62 (0x3e) | Exported Function | ucrtbase._wcstombs_s_l | 0x00001ce3
-`_wcstombs_l` | 61 (0x3d) | Exported Function | ucrtbase._wcstombs_l | 0x00001cc0
-`_wcstoll_l` | 60 (0x3c) | Exported Function | ucrtbase._wcstoll_l | 0x00001ca0
-`_ltoa` | 28 (0x1c) | Exported Function | ucrtbase._ltoa | 0x000018f5
-`_itow_s` | 27 (0x1b) | Exported Function | ucrtbase._itow_s | 0x000018de
-`_itow` | 26 (0x1a) | Exported Function | ucrtbase._itow | 0x000018c7
-`_itoa_s` | 25 (0x19) | Exported Function | ucrtbase._itoa_s | 0x000018b0
-`_itoa` | 24 (0x18) | Exported Function | ucrtbase._itoa | 0x00001899
-`_i64tow_s` | 23 (0x17) | Exported Function | ucrtbase._i64tow_s | 0x00001880
-`_i64tow` | 22 (0x16) | Exported Function | ucrtbase._i64tow | 0x00001865
-`_i64toa_s` | 21 (0x15) | Exported Function | ucrtbase._i64toa_s | 0x0000184a
-`_i64toa` | 20 (0x14) | Exported Function | ucrtbase._i64toa | 0x0000182f
-`_gcvt_s` | 19 (0x13) | Exported Function | ucrtbase._gcvt_s | 0x00001816
-`_gcvt` | 18 (0x12) | Exported Function | ucrtbase._gcvt | 0x000017ff
-`_fcvt_s` | 17 (0x11) | Exported Function | ucrtbase._fcvt_s | 0x000017e8
-`_fcvt` | 16 (0x10) | Exported Function | ucrtbase._fcvt | 0x000017d1
-`_ecvt_s` | 15 (0xf) | Exported Function | ucrtbase._ecvt_s | 0x000017ba
-`_ecvt` | 14 (0xe) | Exported Function | ucrtbase._ecvt | 0x000017a3
-`_atoll_l` | 13 (0xd) | Exported Function | ucrtbase._atoll_l | 0x0000178b
-`_atoldbl_l` | 12 (0xc) | Exported Function | ucrtbase._atoldbl_l | 0x0000176e
-`_atoldbl` | 11 (0xb) | Exported Function | ucrtbase._atoldbl | 0x00001751
-`_atol_l` | 10 (0xa) | Exported Function | ucrtbase._atol_l | 0x00001737
-`_atoi_l` | 9 (0x9) | Exported Function | ucrtbase._atoi_l | 0x0000171e
-`_atoi64_l` | 8 (0x8) | Exported Function | ucrtbase._atoi64_l | 0x00001703
-`_atoi64` | 7 (0x7) | Exported Function | ucrtbase._atoi64 | 0x000016e8
-`_atoflt_l` | 6 (0x6) | Exported Function | ucrtbase._atoflt_l | 0x000016cd
-`_atoflt` | 5 (0x5) | Exported Function | ucrtbase._atoflt | 0x000016b2
-`_atof_l` | 4 (0x4) | Exported Function | ucrtbase._atof_l | 0x00001699
-`_atodbl_l` | 3 (0x3) | Exported Function | ucrtbase._atodbl_l | 0x0000167e
-`_atodbl` | 2 (0x2) | Exported Function | ucrtbase._atodbl | 0x00001663
-`_ltoa_s` | 29 (0x1d) | Exported Function | ucrtbase._ltoa_s | 0x0000190c
-`wctomb_s` | 121 (0x79) | Exported Function | ucrtbase.wctomb_s | 0x000022f3
-`_ltow` | 30 (0x1e) | Exported Function | ucrtbase._ltow | 0x00001923
-`_strtod_l` | 32 (0x20) | Exported Function | ucrtbase._strtod_l | 0x00001955
-`_wcstold_l` | 59 (0x3b) | Exported Function | ucrtbase._wcstold_l | 0x00001c81
-`_wcstol_l` | 58 (0x3a) | Exported Function | ucrtbase._wcstol_l | 0x00001c63
-`_wcstoimax_l` | 57 (0x39) | Exported Function | ucrtbase._wcstoimax_l | 0x00001c43
-`_wcstoi64_l` | 56 (0x38) | Exported Function | ucrtbase._wcstoi64_l | 0x00001c21
-`_wcstoi64` | 55 (0x37) | Exported Function | ucrtbase._wcstoi64 | 0x00001c02
-`_wcstof_l` | 54 (0x36) | Exported Function | ucrtbase._wcstof_l | 0x00001be5
-`_wcstod_l` | 53 (0x35) | Exported Function | ucrtbase._wcstod_l | 0x00001bc8
-`_ultow_s` | 52 (0x34) | Exported Function | ucrtbase._ultow_s | 0x00001bac
-`_ultow` | 51 (0x33) | Exported Function | ucrtbase._ultow | 0x00001b93
-`_ultoa_s` | 50 (0x32) | Exported Function | ucrtbase._ultoa_s | 0x00001b7a
-`_ultoa` | 49 (0x31) | Exported Function | ucrtbase._ultoa | 0x00001b61
-`_ui64tow_s` | 48 (0x30) | Exported Function | ucrtbase._ui64tow_s | 0x00001b46
-`_ui64tow` | 47 (0x2f) | Exported Function | ucrtbase._ui64tow | 0x00001b29
-`_ui64toa_s` | 46 (0x2e) | Exported Function | ucrtbase._ui64toa_s | 0x00001b0c
-`_ui64toa` | 45 (0x2d) | Exported Function | ucrtbase._ui64toa | 0x00001aef
-`_strtoumax_l` | 44 (0x2c) | Exported Function | ucrtbase._strtoumax_l | 0x00001ad0
-`_strtoull_l` | 43 (0x2b) | Exported Function | ucrtbase._strtoull_l | 0x00001aae
-`_strtoul_l` | 42 (0x2a) | Exported Function | ucrtbase._strtoul_l | 0x00001a8e
-`_strtoui64_l` | 41 (0x29) | Exported Function | ucrtbase._strtoui64_l | 0x00001a6d
-`_strtoui64` | 40 (0x28) | Exported Function | ucrtbase._strtoui64 | 0x00001a4c
-`_strtoll_l` | 39 (0x27) | Exported Function | ucrtbase._strtoll_l | 0x00001a2d
-`_strtold_l` | 38 (0x26) | Exported Function | ucrtbase._strtold_l | 0x00001a0e
-`_strtol_l` | 37 (0x25) | Exported Function | ucrtbase._strtol_l | 0x000019f0
-`_strtoimax_l` | 36 (0x24) | Exported Function | ucrtbase._strtoimax_l | 0x000019d0
-`_strtoi64_l` | 35 (0x23) | Exported Function | ucrtbase._strtoi64_l | 0x000019ae
-`_strtoi64` | 34 (0x22) | Exported Function | ucrtbase._strtoi64 | 0x0000198f
-`_strtof_l` | 33 (0x21) | Exported Function | ucrtbase._strtof_l | 0x00001972
-`_ltow_s` | 31 (0x1f) | Exported Function | ucrtbase._ltow_s | 0x0000193a
-`wctrans` | 122 (0x7a) | Exported Function | ucrtbase.wctrans | 0x0000230d
+Function Name | Ordinal | Type
+-- | -- | --
+`atoi` | 81 | Exported Function
+`atol` | 82 | Exported Function
+`atoll` | 83 | Exported Function
+`atof` | 80 | Exported Function
+`_wtol_l` | 77 | Exported Function
+`_wtoll` | 78 | Exported Function
+`_wtoll_l` | 79 | Exported Function
+`btowc` | 84 | Exported Function
+`mbrtowc` | 89 | Exported Function
+`mbsrtowcs` | 90 | Exported Function
+`mbsrtowcs_s` | 91 | Exported Function
+`mbrtoc32` | 88 | Exported Function
+`c16rtomb` | 85 | Exported Function
+`c32rtomb` | 86 | Exported Function
+`mbrtoc16` | 87 | Exported Function
+`_wcstoull_l` | 66 | Exported Function
+`_wcstoumax_l` | 67 | Exported Function
+`_wctomb_l` | 68 | Exported Function
+`_wcstoul_l` | 65 | Exported Function
+`_wcstombs_s_l` | 62 | Exported Function
+`_wcstoui64` | 63 | Exported Function
+`_wcstoui64_l` | 64 | Exported Function
+`_wctomb_s_l` | 69 | Exported Function
+`_wtoi64_l` | 74 | Exported Function
+`_wtoi_l` | 75 | Exported Function
+`_wtol` | 76 | Exported Function
+`_wtoi64` | 73 | Exported Function
+`_wtof` | 70 | Exported Function
+`_wtof_l` | 71 | Exported Function
+`_wtoi` | 72 | Exported Function
+`mbstowcs` | 92 | Exported Function
+`wcstold` | 112 | Exported Function
+`wcstoll` | 113 | Exported Function
+`wcstombs` | 114 | Exported Function
+`wcstol` | 111 | Exported Function
+`wcstod` | 108 | Exported Function
+`wcstof` | 109 | Exported Function
+`wcstoimax` | 110 | Exported Function
+`wcstombs_s` | 115 | Exported Function
+`wctomb` | 120 | Exported Function
+`wctomb_s` | 121 | Exported Function
+`wctrans` | 122 | Exported Function
+`wctob` | 119 | Exported Function
+`wcstoul` | 116 | Exported Function
+`wcstoull` | 117 | Exported Function
+`wcstoumax` | 118 | Exported Function
+`strtoimax` | 97 | Exported Function
+`strtol` | 98 | Exported Function
+`strtold` | 99 | Exported Function
+`strtof` | 96 | Exported Function
+`mbstowcs_s` | 93 | Exported Function
+`mbtowc` | 94 | Exported Function
+`strtod` | 95 | Exported Function
+`strtoll` | 100 | Exported Function
+`wcrtomb_s` | 105 | Exported Function
+`wcsrtombs` | 106 | Exported Function
+`wcsrtombs_s` | 107 | Exported Function
+`wcrtomb` | 104 | Exported Function
+`strtoul` | 101 | Exported Function
+`strtoull` | 102 | Exported Function
+`strtoumax` | 103 | Exported Function
+`_i64toa` | 20 | Exported Function
+`_i64toa_s` | 21 | Exported Function
+`_i64tow` | 22 | Exported Function
+`_gcvt_s` | 19 | Exported Function
+`_fcvt` | 16 | Exported Function
+`_fcvt_s` | 17 | Exported Function
+`_gcvt` | 18 | Exported Function
+`_i64tow_s` | 23 | Exported Function
+`_ltoa` | 28 | Exported Function
+`_ltoa_s` | 29 | Exported Function
+`_ltow` | 30 | Exported Function
+`_itow_s` | 27 | Exported Function
+`_itoa` | 24 | Exported Function
+`_itoa_s` | 25 | Exported Function
+`_itow` | 26 | Exported Function
+`_atoflt` | 5 | Exported Function
+`_atoflt_l` | 6 | Exported Function
+`_atoi64` | 7 | Exported Function
+`_atof_l` | 4 | Exported Function
+`__toascii` | 1 | Exported Function
+`_atodbl` | 2 | Exported Function
+`_atodbl_l` | 3 | Exported Function
+`_atoi64_l` | 8 | Exported Function
+`_atoll_l` | 13 | Exported Function
+`_ecvt` | 14 | Exported Function
+`_ecvt_s` | 15 | Exported Function
+`_atoldbl_l` | 12 | Exported Function
+`_atoi_l` | 9 | Exported Function
+`_atol_l` | 10 | Exported Function
+`_atoldbl` | 11 | Exported Function
+`_ltow_s` | 31 | Exported Function
+`_ultow` | 51 | Exported Function
+`_ultow_s` | 52 | Exported Function
+`_wcstod_l` | 53 | Exported Function
+`_ultoa_s` | 50 | Exported Function
+`_ui64tow` | 47 | Exported Function
+`_ui64tow_s` | 48 | Exported Function
+`_ultoa` | 49 | Exported Function
+`_wcstof_l` | 54 | Exported Function
+`_wcstold_l` | 59 | Exported Function
+`_wcstoll_l` | 60 | Exported Function
+`_wcstombs_l` | 61 | Exported Function
+`_wcstol_l` | 58 | Exported Function
+`_wcstoi64` | 55 | Exported Function
+`_wcstoi64_l` | 56 | Exported Function
+`_wcstoimax_l` | 57 | Exported Function
+`_strtoimax_l` | 36 | Exported Function
+`_strtol_l` | 37 | Exported Function
+`_strtold_l` | 38 | Exported Function
+`_strtoi64_l` | 35 | Exported Function
+`_strtod_l` | 32 | Exported Function
+`_strtof_l` | 33 | Exported Function
+`_strtoi64` | 34 | Exported Function
+`_strtoll_l` | 39 | Exported Function
+`_strtoumax_l` | 44 | Exported Function
+`_ui64toa` | 45 | Exported Function
+`_ui64toa_s` | 46 | Exported Function
+`_strtoull_l` | 43 | Exported Function
+`_strtoui64` | 40 | Exported Function
+`_strtoui64_l` | 41 | Exported Function
+`_strtoul_l` | 42 | Exported Function
 
 
 ## Signature

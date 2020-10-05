@@ -24,21 +24,21 @@ PE256 | `FB861F7C5738EC65C0997BE1917B139B02F88677730A2B5E172B438E93223D51`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Adapter_CreateAdapterObject` | 9 (0x9) | Exported Function | 0x0000000180010610 | 0x00010610
-`Adapter_DllCanUnloadNow` | 10 (0xa) | Exported Function | 0x00000001800105c0 | 0x000105c0
-`Adapter_DllGetClassObject` | 11 (0xb) | Exported Function | 0x0000000180010490 | 0x00010490
-`Adapter_RegisterDLL` | 12 (0xc) | Exported Function | 0x0000000180010600 | 0x00010600
-`Adapter_UnRegisterDLL` | 13 (0xd) | Exported Function | 0x0000000180010600 | 0x00010600
-`public: __cdecl CCritSec::CCritSec(void) __ptr64` | 1 (0x1) | Exported Function | 0x0000000180001100 | 0x00001100
-`public: __cdecl CCritSec::~CCritSec(void) __ptr64` | 3 (0x3) | Exported Function | 0x0000000180001130 | 0x00001130
-`public: __cdecl MIServer::MIServer(void) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180016690 | 0x00016690
-`public: class CAutoSetActivityId & __ptr64 __cdecl CAutoSetActivityId::operator=(class CAutoSetActivityId const & __ptr64) __ptr64` | 4 (0x4) | Exported Function | 0x0000000180001190 | 0x00001190
-`public: class CCritSec & __ptr64 __cdecl CCritSec::operator=(class CCritSec const & __ptr64) __ptr64` | 5 (0x5) | Exported Function | 0x0000000180001160 | 0x00001160
-`public: class MIServer & __ptr64 __cdecl MIServer::operator=(class MIServer && __ptr64) __ptr64` | 6 (0x6) | Exported Function | 0x0000000180007560 | 0x00007560
-`public: class MIServer & __ptr64 __cdecl MIServer::operator=(class MIServer const & __ptr64) __ptr64` | 7 (0x7) | Exported Function | 0x00000001800074f0 | 0x000074f0
-`public: long __cdecl AdapterContextBase::SetAdapter(struct IUnknown * __ptr64) __ptr64` | 8 (0x8) | Exported Function | 0x0000000180001860 | 0x00001860
+Function Name | Ordinal | Type
+-- | -- | --
+`public: class CCritSec & __ptr64 __cdecl CCritSec::operator=(class CCritSec const & __ptr64) __ptr64` | 5 | Exported Function
+`public: class CAutoSetActivityId & __ptr64 __cdecl CAutoSetActivityId::operator=(class CAutoSetActivityId const & __ptr64) __ptr64` | 4 | Exported Function
+`public: __cdecl MIServer::MIServer(void) __ptr64` | 2 | Exported Function
+`public: long __cdecl AdapterContextBase::SetAdapter(struct IUnknown * __ptr64) __ptr64` | 8 | Exported Function
+`public: class MIServer & __ptr64 __cdecl MIServer::operator=(class MIServer const & __ptr64) __ptr64` | 7 | Exported Function
+`public: class MIServer & __ptr64 __cdecl MIServer::operator=(class MIServer && __ptr64) __ptr64` | 6 | Exported Function
+`public: __cdecl CCritSec::~CCritSec(void) __ptr64` | 3 | Exported Function
+`Adapter_DllGetClassObject` | 11 | Exported Function
+`Adapter_DllCanUnloadNow` | 10 | Exported Function
+`Adapter_CreateAdapterObject` | 9 | Exported Function
+`public: __cdecl CCritSec::CCritSec(void) __ptr64` | 1 | Exported Function
+`Adapter_UnRegisterDLL` | 13 | Exported Function
+`Adapter_RegisterDLL` | 12 | Exported Function
 
 
 ## Signature

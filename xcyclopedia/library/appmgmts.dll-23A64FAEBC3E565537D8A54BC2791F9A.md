@@ -24,27 +24,27 @@ PE256 | `D18B151C6B60DD485EBE252AE9DFBEF2BE6662AC679099CDE73765ACC12919D5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CsCreateClassStore` | 2 (0x2) | Exported Function | 0x0000000180015680 | 0x00015680
-`ReleasePackageDetail` | 17 (0x11) | Exported Function | 0x0000000180015c60 | 0x00015c60
-`ReleaseAppCategoryInfoList` | 16 (0x10) | Exported Function | 0x0000000180015bf0 | 0x00015bf0
-`ProcessGroupPolicyObjectsEx` | 15 (0xf) | Exported Function | 0x000000018000a860 | 0x0000a860
-`IID_IClassAdmin` | 14 (0xe) | Exported Function | 0x000000018002c6e8 | 0x0002c6e8
-`GenerateGroupPolicy` | 13 (0xd) | Exported Function | 0x000000018000aed0 | 0x0000aed0
-`DllGetClassObject` | 12 (0xc) | Exported Function | 0x0000000180013840 | 0x00013840
-`DllCanUnloadNow` | 11 (0xb) | Exported Function | 0x0000000180013820 | 0x00013820
-`ReleasePackageInfo` | 18 (0x12) | Exported Function | 0x0000000180015a70 | 0x00015a70
-`CsUnregisterAppCategory` | 10 (0xa) | Exported Function | 0x00000001800158b0 | 0x000158b0
-`CsServerGetClassStore` | 9 (0x9) | Exported Function | 0x00000001800157d0 | 0x000157d0
-`CsRegisterAppCategory` | 8 (0x8) | Exported Function | 0x0000000180015840 | 0x00015840
-`CsGetClassStorePath` | 7 (0x7) | Exported Function | 0x0000000180015990 | 0x00015990
-`CsGetClassStore` | 6 (0x6) | Exported Function | 0x00000001800157b0 | 0x000157b0
-`CsGetClassAccess` | 5 (0x5) | Exported Function | 0x0000000180015520 | 0x00015520
-`CsGetAppCategories` | 4 (0x4) | Exported Function | 0x0000000180015920 | 0x00015920
-`CsEnumApps` | 3 (0x3) | Exported Function | 0x0000000180015560 | 0x00015560
-`CsSetOptions` | 1 (0x1) | Exported Function | 0x0000000180015ee0 | 0x00015ee0
-`ServiceMain` | 19 (0x13) | Exported Function | 0x000000018000cd60 | 0x0000cd60
+Function Name | Ordinal | Type
+-- | -- | --
+`GenerateGroupPolicy` | 13 | Exported Function
+`IID_IClassAdmin` | 14 | Exported Function
+`DllCanUnloadNow` | 11 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`ProcessGroupPolicyObjectsEx` | 15 | Exported Function
+`ReleasePackageInfo` | 18 | Exported Function
+`ServiceMain` | 19 | Exported Function
+`ReleaseAppCategoryInfoList` | 16 | Exported Function
+`ReleasePackageDetail` | 17 | Exported Function
+`CsUnregisterAppCategory` | 10 | Exported Function
+`CsGetAppCategories` | 4 | Exported Function
+`CsGetClassAccess` | 5 | Exported Function
+`CsCreateClassStore` | 2 | Exported Function
+`CsEnumApps` | 3 | Exported Function
+`CsGetClassStore` | 6 | Exported Function
+`CsServerGetClassStore` | 9 | Exported Function
+`CsSetOptions` | 1 | Exported Function
+`CsGetClassStorePath` | 7 | Exported Function
+`CsRegisterAppCategory` | 8 | Exported Function
 
 
 ## Signature

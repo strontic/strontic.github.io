@@ -24,9 +24,9 @@ PE256 | `D81C38F05DAA90F7574F63EC07869DDBBA851753BF4F5DCE15C0F442E20CE494`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`StateRepository_Migrate` | 1 (0x1) | Exported Function | 0x100128c0 | 0x000128c0
+Function Name | Ordinal | Type
+-- | -- | --
+`StateRepository_Migrate` | 1 | Exported Function
 
 
 ## Signature

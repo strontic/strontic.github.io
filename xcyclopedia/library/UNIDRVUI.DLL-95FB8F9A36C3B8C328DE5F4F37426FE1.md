@@ -24,41 +24,26 @@ PE256 | `90566029101AC8B036B2BEDB53B07A917663A5EF4BABB0B0278961F14471FFF2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DevQueryPrintEx` | 258 (0x102) | Exported Function | 0x4f49d910 | 0x0001d910
-`Ordinal282` | 282 (0x11a) | Exported Function | 0x4f4a4700 | 0x00024700
-`Ordinal281` | 281 (0x119) | Exported Function | 0x4f4a4200 | 0x00024200
-`Ordinal280` | 280 (0x118) | Exported Function | 0x4f49f8a0 | 0x0001f8a0
-`Ordinal279` | 279 (0x117) | Exported Function | 0x4f49ec20 | 0x0001ec20
-`Ordinal278` | 278 (0x116) | Exported Function | 0x4f49ed10 | 0x0001ed10
-`Ordinal277` | 277 (0x115) | Exported Function | 0x4f4a3700 | 0x00023700
-`Ordinal276` | 276 (0x114) | Exported Function | 0x4f4a36e0 | 0x000236e0
-`Ordinal275` | 275 (0x113) | Exported Function | 0x4f4a36c0 | 0x000236c0
-`Ordinal274` | 274 (0x112) | Exported Function | 0x4f4a36a0 | 0x000236a0
-`Ordinal273` | 273 (0x111) | Exported Function | 0x4f4a6210 | 0x00026210
-`Ordinal272` | 272 (0x110) | Exported Function | 0x4f4a3280 | 0x00023280
-`Ordinal271` | 271 (0x10f) | Exported Function | 0x4f4a3720 | 0x00023720
-`Ordinal270` | 270 (0x10e) | Exported Function | 0x4f4a3790 | 0x00023790
-`MxdcGetPDEVAdjustment` | 257 (0x101) | Exported Function | 0x4f4a51d0 | 0x000251d0
-`Ordinal283` | 283 (0x11b) | Exported Function | 0x4f4a0170 | 0x00020170
-`DrvUpgradePrinter` | 286 (0x11e) | Exported Function | 0x4f49db10 | 0x0001db10
-`DrvResetConfigCache` | 256 (0x100) | Exported Function | 0x4f4a3760 | 0x00023760
-`DrvQueryJobAttributes` | 285 (0x11d) | Exported Function | 0x4f49dae0 | 0x0001dae0
-`DrvQueryColorProfile` | 269 (0x10d) | Exported Function | 0x4f49daa0 | 0x0001daa0
-`DrvPrinterEvent` | 268 (0x10c) | Exported Function | 0x4f49da70 | 0x0001da70
-`DrvPopulateFilterServices` | 255 (0xff) | Exported Function | 0x4f4a1490 | 0x00021490
-`DrvDriverEvent` | 267 (0x10b) | Exported Function | 0x4f49da40 | 0x0001da40
-`DrvDocumentPropertySheets` | 266 (0x10a) | Exported Function | 0x4f49da10 | 0x0001da10
-`DrvDocumentEvent` | 265 (0x109) | Exported Function | 0x4f49d9d0 | 0x0001d9d0
-`DrvDevicePropertySheets` | 264 (0x108) | Exported Function | 0x4f49d9a0 | 0x0001d9a0
-`DrvDeviceCapabilities` | 263 (0x107) | Exported Function | 0x4f49d970 | 0x0001d970
-`DrvConvertDevMode` | 262 (0x106) | Exported Function | 0x4f49d940 | 0x0001d940
-`DllMain` | 261 (0x105) | Exported Function | 0x4f49dbd0 | 0x0001dbd0
-`DllGetClassObject` | 260 (0x104) | Exported Function | 0x4f49dba0 | 0x0001dba0
-`DllCanUnloadNow` | 259 (0x103) | Exported Function | 0x4f49db80 | 0x0001db80
-`DrvSplDeviceCaps` | 254 (0xfe) | Exported Function | 0x4f49db40 | 0x0001db40
-`Ordinal284` | 284 (0x11c) | Exported Function | 0x4f49feb0 | 0x0001feb0
+Function Name | Ordinal | Type
+-- | -- | --
+`DrvPrinterEvent` | 268 | Exported Function
+`DrvQueryColorProfile` | 269 | Exported Function
+`DrvDriverEvent` | 267 | Exported Function
+`DrvPopulateFilterServices` | 255 | Exported Function
+`DrvQueryJobAttributes` | 285 | Exported Function
+`DrvUpgradePrinter` | 286 | Exported Function
+`MxdcGetPDEVAdjustment` | 257 | Exported Function
+`DrvResetConfigCache` | 256 | Exported Function
+`DrvSplDeviceCaps` | 254 | Exported Function
+`DllGetClassObject` | 260 | Exported Function
+`DllMain` | 261 | Exported Function
+`DevQueryPrintEx` | 258 | Exported Function
+`DllCanUnloadNow` | 259 | Exported Function
+`DrvConvertDevMode` | 262 | Exported Function
+`DrvDocumentEvent` | 265 | Exported Function
+`DrvDocumentPropertySheets` | 266 | Exported Function
+`DrvDeviceCapabilities` | 263 | Exported Function
+`DrvDevicePropertySheets` | 264 | Exported Function
 
 
 ## Signature

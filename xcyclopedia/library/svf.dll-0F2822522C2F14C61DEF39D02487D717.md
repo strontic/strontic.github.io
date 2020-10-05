@@ -24,45 +24,45 @@ PE256 | `2519F3766906FD833B1663FDE4ED317145CBCE8349B0B8E23F6E0E01397A79DC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SVFAttrib_BBoxFull` | 1 (0x1) | Exported Function | 0x000000018002ed10 | 0x0002ed10
-`SVFAttrib_NumIndices` | 21 (0x15) | Exported Function | 0x000000018002edb0 | 0x0002edb0
-`SVFAttrib_NumVertices` | 22 (0x16) | Exported Function | 0x000000018002edd0 | 0x0002edd0
-`SVFAttrib_Stride` | 23 (0x17) | Exported Function | 0x000000018002ede0 | 0x0002ede0
-`SVFAttrib_UseTriList` | 24 (0x18) | Exported Function | 0x000000018002ed40 | 0x0002ed40
-`SVFAttrib_UseUnsignedUVs` | 25 (0x19) | Exported Function | 0x000000018002ed20 | 0x0002ed20
-`SVFAttrib_Version` | 26 (0x1a) | Exported Function | 0x000000018002ee20 | 0x0002ee20
-`SVFAttrib_VertexFormatFlags` | 28 (0x1c) | Exported Function | 0x000000018002ece0 | 0x0002ece0
-`SVFAttrib_VertHasNormals` | 27 (0x1b) | Exported Function | 0x000000018002ed30 | 0x0002ed30
-`SVFAttrib_Width` | 29 (0x1d) | Exported Function | 0x000000018002ee10 | 0x0002ee10
-`SVFCreateBufferAllocator` | 30 (0x1e) | Exported Function | 0x00000001800046b0 | 0x000046b0
-`SVFCreateDashServer` | 31 (0x1f) | Exported Function | 0x0000000180018300 | 0x00018300
-`SVFCreateEvent` | 32 (0x20) | Exported Function | 0x0000000180006700 | 0x00006700
-`SVFCreateEventQueue` | 33 (0x21) | Exported Function | 0x0000000180006920 | 0x00006920
-`SVFCreateReader` | 34 (0x22) | Exported Function | 0x0000000180010a30 | 0x00010a30
-`SVFCreateReaderWithConfig` | 35 (0x23) | Exported Function | 0x0000000180010a50 | 0x00010a50
-`SVFAttrib_NumFaces` | 20 (0x14) | Exported Function | 0x000000018002edc0 | 0x0002edc0
-`SVFMediaType_IndexStream` | 36 (0x24) | Exported Function | 0x000000018002ee30 | 0x0002ee30
-`SVFAttrib_MaxVertexCount` | 19 (0x13) | Exported Function | 0x000000018002ecc0 | 0x0002ecc0
-`SVFAttrib_LocalFullPath` | 17 (0x11) | Exported Function | 0x000000018002eca0 | 0x0002eca0
-`SVFAttrib_BBoxMaxX` | 2 (0x2) | Exported Function | 0x000000018002ed70 | 0x0002ed70
-`SVFAttrib_BBoxMaxY` | 3 (0x3) | Exported Function | 0x000000018002ed60 | 0x0002ed60
-`SVFAttrib_BBoxMaxZ` | 4 (0x4) | Exported Function | 0x000000018002ed50 | 0x0002ed50
-`SVFAttrib_BBoxMinX` | 5 (0x5) | Exported Function | 0x000000018002eda0 | 0x0002eda0
-`SVFAttrib_BBoxMinY` | 6 (0x6) | Exported Function | 0x000000018002ed90 | 0x0002ed90
-`SVFAttrib_BBoxMinZ` | 7 (0x7) | Exported Function | 0x000000018002ed80 | 0x0002ed80
-`SVFAttrib_BitrateMbps` | 8 (0x8) | Exported Function | 0x000000018002ec70 | 0x0002ec70
-`SVFAttrib_Duration100ns` | 9 (0x9) | Exported Function | 0x000000018002ec80 | 0x0002ec80
-`SVFAttrib_FrameCount` | 10 (0xa) | Exported Function | 0x000000018002ecd0 | 0x0002ecd0
-`SVFAttrib_FrameId` | 11 (0xb) | Exported Function | 0x000000018002ed00 | 0x0002ed00
-`SVFAttrib_FrameTimestamp` | 12 (0xc) | Exported Function | 0x000000018002ecf0 | 0x0002ecf0
-`SVFAttrib_H264Wrapper` | 13 (0xd) | Exported Function | 0x000000018002ec60 | 0x0002ec60
-`SVFAttrib_HasAudio` | 14 (0xe) | Exported Function | 0x000000018002ec90 | 0x0002ec90
-`SVFAttrib_Height` | 15 (0xf) | Exported Function | 0x000000018002ee00 | 0x0002ee00
-`SVFAttrib_Inverted` | 16 (0x10) | Exported Function | 0x000000018002edf0 | 0x0002edf0
-`SVFAttrib_MaxIndexCount` | 18 (0x12) | Exported Function | 0x000000018002ecb0 | 0x0002ecb0
-`SVFMediaType_VertexStream` | 37 (0x25) | Exported Function | 0x000000018002ee40 | 0x0002ee40
+Function Name | Ordinal | Type
+-- | -- | --
+`SVFAttrib_Version` | 26 | Exported Function
+`SVFAttrib_UseUnsignedUVs` | 25 | Exported Function
+`SVFAttrib_VertHasNormals` | 27 | Exported Function
+`SVFAttrib_VertexFormatFlags` | 28 | Exported Function
+`SVFAttrib_UseTriList` | 24 | Exported Function
+`SVFAttrib_NumIndices` | 21 | Exported Function
+`SVFAttrib_NumFaces` | 20 | Exported Function
+`SVFAttrib_Stride` | 23 | Exported Function
+`SVFAttrib_NumVertices` | 22 | Exported Function
+`SVFCreateReaderWithConfig` | 35 | Exported Function
+`SVFCreateReader` | 34 | Exported Function
+`SVFMediaType_VertexStream` | 37 | Exported Function
+`SVFMediaType_IndexStream` | 36 | Exported Function
+`SVFCreateEventQueue` | 33 | Exported Function
+`SVFCreateBufferAllocator` | 30 | Exported Function
+`SVFAttrib_Width` | 29 | Exported Function
+`SVFCreateEvent` | 32 | Exported Function
+`SVFCreateDashServer` | 31 | Exported Function
+`SVFAttrib_MaxVertexCount` | 19 | Exported Function
+`SVFAttrib_BBoxMinZ` | 7 | Exported Function
+`SVFAttrib_BBoxMinY` | 6 | Exported Function
+`SVFAttrib_Duration100ns` | 9 | Exported Function
+`SVFAttrib_BitrateMbps` | 8 | Exported Function
+`SVFAttrib_BBoxMinX` | 5 | Exported Function
+`SVFAttrib_BBoxMaxX` | 2 | Exported Function
+`SVFAttrib_BBoxFull` | 1 | Exported Function
+`SVFAttrib_BBoxMaxZ` | 4 | Exported Function
+`SVFAttrib_BBoxMaxY` | 3 | Exported Function
+`SVFAttrib_Inverted` | 16 | Exported Function
+`SVFAttrib_Height` | 15 | Exported Function
+`SVFAttrib_MaxIndexCount` | 18 | Exported Function
+`SVFAttrib_LocalFullPath` | 17 | Exported Function
+`SVFAttrib_HasAudio` | 14 | Exported Function
+`SVFAttrib_FrameId` | 11 | Exported Function
+`SVFAttrib_FrameCount` | 10 | Exported Function
+`SVFAttrib_H264Wrapper` | 13 | Exported Function
+`SVFAttrib_FrameTimestamp` | 12 | Exported Function
 
 
 ## Signature

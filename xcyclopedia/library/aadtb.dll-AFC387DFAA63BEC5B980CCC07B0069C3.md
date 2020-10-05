@@ -24,15 +24,15 @@ PE256 | `0D00A11F7138CCBB3A4DC638018721B311BD5005E16519AE879430E5B1C8595F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AADTBAcquireToken` | 3 (0x3) | Exported Function | 0x1000c640 | 0x0000c640
-`AADTBAcquireTokenEx` | 4 (0x4) | Exported Function | 0x1000c8a0 | 0x0000c8a0
-`AADTBFreeString` | 5 (0x5) | Exported Function | 0x1000cad0 | 0x0000cad0
-`AADTBFreeStruct` | 6 (0x6) | Exported Function | 0x1000cc30 | 0x0000cc30
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10022060 | 0x00022060
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x10021e60 | 0x00021e60
-`DllGetClassObject` | 7 (0x7) | Exported Function | 0x10021f50 | 0x00021f50
+Function Name | Ordinal | Type
+-- | -- | --
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
+`AADTBFreeStruct` | 6 | Exported Function
+`AADTBAcquireToken` | 3 | Exported Function
+`AADTBAcquireTokenEx` | 4 | Exported Function
+`AADTBFreeString` | 5 | Exported Function
 
 
 ## Signature

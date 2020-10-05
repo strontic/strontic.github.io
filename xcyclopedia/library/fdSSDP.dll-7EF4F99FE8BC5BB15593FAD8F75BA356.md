@@ -24,15 +24,15 @@ PE256 | `6CE98F8701A70262888B10986ED618779CB446111F3C86AE8B4DC3D1F83295FC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180001330 | 0x00001330
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180001350 | 0x00001350
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180001370 | 0x00001370
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180001430 | 0x00001430
-`FdphostSessionChange` | 5 (0x5) | Exported Function | 0x0000000180001510 | 0x00001510
-`FdphostSetComContext` | 6 (0x6) | Exported Function | 0x00000001800014c0 | 0x000014c0
-`FdphostSetSharedService` | 7 (0x7) | Exported Function | 0x0000000180001530 | 0x00001530
+Function Name | Ordinal | Type
+-- | -- | --
+`FdphostSessionChange` | 5 | Exported Function
+`FdphostSetComContext` | 6 | Exported Function
+`FdphostSetSharedService` | 7 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

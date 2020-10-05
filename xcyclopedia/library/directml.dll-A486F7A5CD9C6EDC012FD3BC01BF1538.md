@@ -24,10 +24,10 @@ PE256 | `797EE8593A7ADC00AF23CC01987E82C83A3B085782270E9F30077A8E30271812`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DMLCreateDevice` | 1 (0x1) | Exported Function | 0x10001300 | 0x00001300
-`DMLCreateDevice1` | 2 (0x2) | Exported Function | 0x10001320 | 0x00001320
+Function Name | Ordinal | Type
+-- | -- | --
+`DMLCreateDevice1` | 2 | Exported Function
+`DMLCreateDevice` | 1 | Exported Function
 
 
 ## Signature

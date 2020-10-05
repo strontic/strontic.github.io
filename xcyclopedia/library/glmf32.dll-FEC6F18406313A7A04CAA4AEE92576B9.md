@@ -24,142 +24,142 @@ PE256 | `B4973A142B51065CF5D99237D913B0210E5E9E99B3489EA140376FFB6A37D685`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__glsParser_create` | 1 (0x1) | Exported Function | 0x680440f0 | 0x000440f0
-`glsNuml` | 98 (0x62) | Exported Function | 0x6803fb70 | 0x0003fb70
-`glsNumiv` | 97 (0x61) | Exported Function | 0x6803fb30 | 0x0003fb30
-`glsNumi` | 96 (0x60) | Exported Function | 0x6803faf0 | 0x0003faf0
-`glsNumfv` | 95 (0x5f) | Exported Function | 0x6803fab0 | 0x0003fab0
-`glsNumf` | 94 (0x5e) | Exported Function | 0x6803fa70 | 0x0003fa70
-`glsNumdv` | 93 (0x5d) | Exported Function | 0x6803fa30 | 0x0003fa30
-`glsNumd` | 92 (0x5c) | Exported Function | 0x6803f9f0 | 0x0003f9f0
-`glsNumbv` | 91 (0x5b) | Exported Function | 0x6803f9b0 | 0x0003f9b0
-`glsNumb` | 90 (0x5a) | Exported Function | 0x6803f970 | 0x0003f970
-`glsNullCommandFunc` | 89 (0x59) | Exported Function | 0x6804a320 | 0x0004a320
-`glsLongLow` | 88 (0x58) | Exported Function | 0x680408c0 | 0x000408c0
-`glsLongHigh` | 87 (0x57) | Exported Function | 0x680408a0 | 0x000408a0
-`glsLong` | 86 (0x56) | Exported Function | 0x68040880 | 0x00040880
-`glsIsUTF8String` | 85 (0x55) | Exported Function | 0x68040840 | 0x00040840
-`glsIsExtensionSupported` | 84 (0x54) | Exported Function | 0x680407d0 | 0x000407d0
-`glsIsContextStream` | 83 (0x53) | Exported Function | 0x68043e40 | 0x00043e40
-`glsIsContext` | 82 (0x52) | Exported Function | 0x68040750 | 0x00040750
-`glsHeaderubz` | 81 (0x51) | Exported Function | 0x6803f750 | 0x0003f750
-`glsHeaderLayeri` | 76 (0x4c) | Exported Function | 0x6803f610 | 0x0003f610
-`glsHeaderLayerf` | 75 (0x4b) | Exported Function | 0x6803f5d0 | 0x0003f5d0
-`glsHeaderiv` | 80 (0x50) | Exported Function | 0x6803f710 | 0x0003f710
-`glsHeaderi` | 79 (0x4f) | Exported Function | 0x6803f6d0 | 0x0003f6d0
-`glsHeaderGLRCi` | 74 (0x4a) | Exported Function | 0x6803f590 | 0x0003f590
-`glsHeaderfv` | 78 (0x4e) | Exported Function | 0x6803f690 | 0x0003f690
-`glsHeaderf` | 77 (0x4d) | Exported Function | 0x6803f650 | 0x0003f650
-`glsGLRCLayer` | 38 (0x26) | Exported Function | 0x6803f550 | 0x0003f550
-`glsGLRC` | 37 (0x25) | Exported Function | 0x6803f510 | 0x0003f510
-`glsGetStreamType` | 73 (0x49) | Exported Function | 0x68043db0 | 0x00043db0
-`glsGetStreamSize` | 72 (0x48) | Exported Function | 0x68043ce0 | 0x00043ce0
-`glsNumlv` | 99 (0x63) | Exported Function | 0x6803fbb0 | 0x0003fbb0
-`glsNums` | 100 (0x64) | Exported Function | 0x6803fbf0 | 0x0003fbf0
-`glsNumsv` | 101 (0x65) | Exported Function | 0x6803fc30 | 0x0003fc30
-`glsNumub` | 102 (0x66) | Exported Function | 0x6803fc70 | 0x0003fc70
-`glsUTF8toUCSz` | 129 (0x81) | Exported Function | 0x68040be0 | 0x00040be0
-`glsUTF8toUCS4z` | 128 (0x80) | Exported Function | 0x68040d20 | 0x00040d20
-`glsUTF8toUCS4` | 127 (0x7f) | Exported Function | 0x68040b70 | 0x00040b70
-`glsUTF8toUCS2z` | 126 (0x7e) | Exported Function | 0x68040cc0 | 0x00040cc0
-`glsUTF8toUCS1z` | 125 (0x7d) | Exported Function | 0x68040c60 | 0x00040c60
-`glsUpdateCaptureExecTable` | 132 (0x84) | Exported Function | 0x680446a0 | 0x000446a0
-`glsUnsupportedCommand` | 131 (0x83) | Exported Function | 0x6803f7d0 | 0x0003f7d0
-`glsUnreadFunc` | 130 (0x82) | Exported Function | 0x68043fa0 | 0x00043fa0
-`glsULongLow` | 124 (0x7c) | Exported Function | 0x680408c0 | 0x000408c0
-`glsULongHigh` | 123 (0x7b) | Exported Function | 0x680408a0 | 0x000408a0
-`glsULong` | 122 (0x7a) | Exported Function | 0x680408f0 | 0x000408f0
-`glsUCStoUTF8z` | 121 (0x79) | Exported Function | 0x68040970 | 0x00040970
-`glsUCS4toUTF8z` | 120 (0x78) | Exported Function | 0x68040ad0 | 0x00040ad0
-`glsUCS4toUTF8` | 119 (0x77) | Exported Function | 0x68040910 | 0x00040910
-`glsGetStreamReadName` | 71 (0x47) | Exported Function | 0x68043c20 | 0x00043c20
-`glsUCS2toUTF8z` | 118 (0x76) | Exported Function | 0x68040a40 | 0x00040a40
-`glsSwapBuffers` | 116 (0x74) | Exported Function | 0x6803fea0 | 0x0003fea0
-`glsRequireExtension` | 115 (0x73) | Exported Function | 0x6803f790 | 0x0003f790
-`glsReadPrefix` | 114 (0x72) | Exported Function | 0x68043ef0 | 0x00043ef0
-`glsReadFunc` | 113 (0x71) | Exported Function | 0x68043ec0 | 0x00043ec0
-`glsPixelSetupGen` | 112 (0x70) | Exported Function | 0x68043e90 | 0x00043e90
-`glsPixelSetup` | 111 (0x6f) | Exported Function | 0x680408e0 | 0x000408e0
-`glsPad` | 110 (0x6e) | Exported Function | 0x6803fe70 | 0x0003fe70
-`glsNumusv` | 109 (0x6d) | Exported Function | 0x6803fe30 | 0x0003fe30
-`glsNumus` | 108 (0x6c) | Exported Function | 0x6803fdf0 | 0x0003fdf0
-`glsNumulv` | 107 (0x6b) | Exported Function | 0x6803fdb0 | 0x0003fdb0
-`glsNumul` | 106 (0x6a) | Exported Function | 0x6803fd70 | 0x0003fd70
-`glsNumuiv` | 105 (0x69) | Exported Function | 0x6803fd30 | 0x0003fd30
-`glsNumui` | 104 (0x68) | Exported Function | 0x6803fcf0 | 0x0003fcf0
-`glsNumubv` | 103 (0x67) | Exported Function | 0x6803fcb0 | 0x0003fcb0
-`glsUCS1toUTF8z` | 117 (0x75) | Exported Function | 0x680409f0 | 0x000409f0
-`glsGetStreamCRC32` | 70 (0x46) | Exported Function | 0x68043b80 | 0x00043b80
-`glsGetStreamAttrib` | 69 (0x45) | Exported Function | 0x68043b10 | 0x00043b10
-`glsGetOpcodes` | 68 (0x44) | Exported Function | 0x68040700 | 0x00040700
-`glsEndCapture` | 31 (0x1f) | Exported Function | 0x68042e80 | 0x00042e80
-`glsDisplayMapfv` | 30 (0x1e) | Exported Function | 0x6803f900 | 0x0003f900
-`glsDeleteStream` | 29 (0x1d) | Exported Function | 0x68042d80 | 0x00042d80
-`glsDeleteReadPrefix` | 28 (0x1c) | Exported Function | 0x68042d00 | 0x00042d00
-`glsDeleteContext` | 27 (0x1b) | Exported Function | 0x680400e0 | 0x000400e0
-`glsDataPointer` | 26 (0x1a) | Exported Function | 0x68042cd0 | 0x00042cd0
-`glsCopyStream` | 25 (0x19) | Exported Function | 0x68042a10 | 0x00042a10
-`glsContext` | 24 (0x18) | Exported Function | 0x6803ff90 | 0x0003ff90
-`glsComment` | 23 (0x17) | Exported Function | 0x6803f8c0 | 0x0003f8c0
-`glsCommandString` | 22 (0x16) | Exported Function | 0x6803ff50 | 0x0003ff50
-`glsCommandFunc` | 21 (0x15) | Exported Function | 0x68042990 | 0x00042990
-`glsCommandAPI` | 20 (0x14) | Exported Function | 0x6803ff00 | 0x0003ff00
-`glsCharubz` | 19 (0x13) | Exported Function | 0x6803f880 | 0x0003f880
-`glsChannel` | 18 (0x12) | Exported Function | 0x68042910 | 0x00042910
-`glsEndGLS` | 32 (0x20) | Exported Function | 0x6803f4a0 | 0x0003f4a0
-`glsCaptureFunc` | 17 (0x11) | Exported Function | 0x680428a0 | 0x000428a0
-`glsCallStream` | 15 (0xf) | Exported Function | 0x6803f460 | 0x0003f460
-`glsCallArrayInContext` | 14 (0xe) | Exported Function | 0x680426f0 | 0x000426f0
-`glsCallArray` | 13 (0xd) | Exported Function | 0x68042810 | 0x00042810
-`glsBlock` | 12 (0xc) | Exported Function | 0x6803f420 | 0x0003f420
-`glsBinary` | 11 (0xb) | Exported Function | 0x6803fee0 | 0x0003fee0
-`glsBeginObj` | 10 (0xa) | Exported Function | 0x6803f840 | 0x0003f840
-`glsBeginGLS` | 9 (0x9) | Exported Function | 0x6803f3e0 | 0x0003f3e0
-`glsBeginCapture` | 8 (0x8) | Exported Function | 0x680422a0 | 0x000422a0
-`glsAppRef` | 7 (0x7) | Exported Function | 0x6803f800 | 0x0003f800
-`glsAbortCall` | 6 (0x6) | Exported Function | 0x68042270 | 0x00042270
-`__glsString_init` | 5 (0x5) | Exported Function | 0x68041850 | 0x00041850
-`__glsString_assign` | 4 (0x4) | Exported Function | 0x68041810 | 0x00041810
-`__glsString_appendChar` | 3 (0x3) | Exported Function | 0x680417c0 | 0x000417c0
-`__glsParser_print` | 2 (0x2) | Exported Function | 0x68044450 | 0x00044450
-`glsCaptureFlags` | 16 (0x10) | Exported Function | 0x68042840 | 0x00042840
-`glsWriteFunc` | 133 (0x85) | Exported Function | 0x68043fd0 | 0x00043fd0
-`glsEndObj` | 33 (0x21) | Exported Function | 0x6803f940 | 0x0003f940
-`glsError` | 35 (0x23) | Exported Function | 0x6803f4d0 | 0x0003f4d0
-`glsGetOpcodeCount` | 67 (0x43) | Exported Function | 0x680406b0 | 0x000406b0
-`glsGetLayeri` | 66 (0x42) | Exported Function | 0x68043990 | 0x00043990
-`glsGetLayerf` | 65 (0x41) | Exported Function | 0x68043900 | 0x00043900
-`glsGetHeaderubz` | 64 (0x40) | Exported Function | 0x68043830 | 0x00043830
-`glsGetHeaderiv` | 63 (0x3f) | Exported Function | 0x68043790 | 0x00043790
-`glsGetHeaderi` | 62 (0x3e) | Exported Function | 0x680436f0 | 0x000436f0
-`glsGetHeaderfv` | 61 (0x3d) | Exported Function | 0x68043560 | 0x00043560
-`glsGetHeaderf` | 60 (0x3c) | Exported Function | 0x680434d0 | 0x000434d0
-`glsGetGLRCi` | 59 (0x3b) | Exported Function | 0x68043430 | 0x00043430
-`glsGetError` | 58 (0x3a) | Exported Function | 0x68040670 | 0x00040670
-`glsGetCurrentTime` | 57 (0x39) | Exported Function | 0x680405c0 | 0x000405c0
-`glsGetCurrentContext` | 56 (0x38) | Exported Function | 0x68040590 | 0x00040590
-`glsGetContextubz` | 55 (0x37) | Exported Function | 0x680433c0 | 0x000433c0
-`glsGetContextPointer` | 53 (0x35) | Exported Function | 0x68043250 | 0x00043250
-`glsEnumString` | 34 (0x22) | Exported Function | 0x680401a0 | 0x000401a0
-`glsGetContextListubz` | 52 (0x34) | Exported Function | 0x68043180 | 0x00043180
-`glsGetContexti` | 54 (0x36) | Exported Function | 0x680432d0 | 0x000432d0
-`glsGetContextFunc` | 50 (0x32) | Exported Function | 0x68043060 | 0x00043060
-`glsGetConstubz` | 49 (0x31) | Exported Function | 0x68040520 | 0x00040520
-`glsGetConstiv` | 48 (0x30) | Exported Function | 0x680404d0 | 0x000404d0
-`glsGetConsti` | 47 (0x2f) | Exported Function | 0x68040470 | 0x00040470
-`glsGetCommandFunc` | 46 (0x2e) | Exported Function | 0x68043000 | 0x00043000
-`glsGetCommandAttrib` | 45 (0x2d) | Exported Function | 0x68040430 | 0x00040430
-`glsGetCommandAlignment` | 44 (0x2c) | Exported Function | 0x68040380 | 0x00040380
-`glsGetCaptureFlags` | 43 (0x2b) | Exported Function | 0x68042fa0 | 0x00042fa0
-`glsGetCaptureExecTable` | 42 (0x2a) | Exported Function | 0x680447d0 | 0x000447d0
-`glsGetCaptureDispatchTable` | 41 (0x29) | Exported Function | 0x68044810 | 0x00044810
-`glsGetAllContexts` | 40 (0x28) | Exported Function | 0x68040300 | 0x00040300
-`glsGenContext` | 39 (0x27) | Exported Function | 0x68040250 | 0x00040250
-`glsFlush` | 36 (0x24) | Exported Function | 0x68042f10 | 0x00042f10
-`glsGetContextListl` | 51 (0x33) | Exported Function | 0x680430f0 | 0x000430f0
-`glsWritePrefix` | 134 (0x86) | Exported Function | 0x68044000 | 0x00044000
+Function Name | Ordinal | Type
+-- | -- | --
+`glsNumb` | 90 | Exported Function
+`glsNullCommandFunc` | 89 | Exported Function
+`glsNumd` | 92 | Exported Function
+`glsNumbv` | 91 | Exported Function
+`glsLong` | 86 | Exported Function
+`glsIsUTF8String` | 85 | Exported Function
+`glsLongLow` | 88 | Exported Function
+`glsLongHigh` | 87 | Exported Function
+`glsNuml` | 98 | Exported Function
+`glsNumiv` | 97 | Exported Function
+`glsNums` | 100 | Exported Function
+`glsNumlv` | 99 | Exported Function
+`glsNumf` | 94 | Exported Function
+`glsNumdv` | 93 | Exported Function
+`glsNumi` | 96 | Exported Function
+`glsNumfv` | 95 | Exported Function
+`glsIsExtensionSupported` | 84 | Exported Function
+`glsGLRCLayer` | 38 | Exported Function
+`glsGLRC` | 37 | Exported Function
+`glsHeaderfv` | 78 | Exported Function
+`glsHeaderf` | 77 | Exported Function
+`glsGetStreamReadName` | 71 | Exported Function
+`glsGetStreamCRC32` | 70 | Exported Function
+`glsGetStreamType` | 73 | Exported Function
+`glsGetStreamSize` | 72 | Exported Function
+`glsHeaderubz` | 81 | Exported Function
+`glsHeaderLayeri` | 76 | Exported Function
+`glsIsContextStream` | 83 | Exported Function
+`glsIsContext` | 82 | Exported Function
+`glsHeaderi` | 79 | Exported Function
+`glsHeaderGLRCi` | 74 | Exported Function
+`glsHeaderLayerf` | 75 | Exported Function
+`glsHeaderiv` | 80 | Exported Function
+`glsNumsv` | 101 | Exported Function
+`glsULongLow` | 124 | Exported Function
+`glsULongHigh` | 123 | Exported Function
+`glsUnsupportedCommand` | 131 | Exported Function
+`glsUnreadFunc` | 130 | Exported Function
+`glsUCS4toUTF8z` | 120 | Exported Function
+`glsUCS4toUTF8` | 119 | Exported Function
+`glsULong` | 122 | Exported Function
+`glsUCStoUTF8z` | 121 | Exported Function
+`glsUTF8toUCSz` | 129 | Exported Function
+`glsUTF8toUCS4z` | 128 | Exported Function
+`glsWritePrefix` | 134 | Exported Function
+`glsWriteFunc` | 133 | Exported Function
+`glsUTF8toUCS1z` | 125 | Exported Function
+`glsUpdateCaptureExecTable` | 132 | Exported Function
+`glsUTF8toUCS4` | 127 | Exported Function
+`glsUTF8toUCS2z` | 126 | Exported Function
+`glsUCS2toUTF8z` | 118 | Exported Function
+`glsNumulv` | 107 | Exported Function
+`glsNumul` | 106 | Exported Function
+`glsNumusv` | 109 | Exported Function
+`glsNumus` | 108 | Exported Function
+`glsNumubv` | 103 | Exported Function
+`glsNumub` | 102 | Exported Function
+`glsNumuiv` | 105 | Exported Function
+`glsNumui` | 104 | Exported Function
+`glsRequireExtension` | 115 | Exported Function
+`glsReadPrefix` | 114 | Exported Function
+`glsUCS1toUTF8z` | 117 | Exported Function
+`glsSwapBuffers` | 116 | Exported Function
+`glsPixelSetup` | 111 | Exported Function
+`glsPad` | 110 | Exported Function
+`glsReadFunc` | 113 | Exported Function
+`glsPixelSetupGen` | 112 | Exported Function
+`glsComment` | 23 | Exported Function
+`glsCommandString` | 22 | Exported Function
+`glsCopyStream` | 25 | Exported Function
+`glsContext` | 24 | Exported Function
+`glsCharubz` | 19 | Exported Function
+`glsChannel` | 18 | Exported Function
+`glsCommandFunc` | 21 | Exported Function
+`glsCommandAPI` | 20 | Exported Function
+`glsEndCapture` | 31 | Exported Function
+`glsDisplayMapfv` | 30 | Exported Function
+`glsEndObj` | 33 | Exported Function
+`glsEndGLS` | 32 | Exported Function
+`glsDeleteContext` | 27 | Exported Function
+`glsDataPointer` | 26 | Exported Function
+`glsDeleteStream` | 29 | Exported Function
+`glsDeleteReadPrefix` | 28 | Exported Function
+`glsCaptureFunc` | 17 | Exported Function
+`glsAbortCall` | 6 | Exported Function
+`__glsString_init` | 5 | Exported Function
+`glsBeginCapture` | 8 | Exported Function
+`glsAppRef` | 7 | Exported Function
+`__glsParser_print` | 2 | Exported Function
+`__glsParser_create` | 1 | Exported Function
+`__glsString_assign` | 4 | Exported Function
+`__glsString_appendChar` | 3 | Exported Function
+`glsCallArrayInContext` | 14 | Exported Function
+`glsCallArray` | 13 | Exported Function
+`glsCaptureFlags` | 16 | Exported Function
+`glsCallStream` | 15 | Exported Function
+`glsBeginObj` | 10 | Exported Function
+`glsBeginGLS` | 9 | Exported Function
+`glsBlock` | 12 | Exported Function
+`glsBinary` | 11 | Exported Function
+`glsEnumString` | 34 | Exported Function
+`glsGetGLRCi` | 59 | Exported Function
+`glsGetError` | 58 | Exported Function
+`glsGetHeaderfv` | 61 | Exported Function
+`glsGetHeaderf` | 60 | Exported Function
+`glsGetContextubz` | 55 | Exported Function
+`glsGetContextPointer` | 53 | Exported Function
+`glsGetCurrentTime` | 57 | Exported Function
+`glsGetCurrentContext` | 56 | Exported Function
+`glsGetOpcodeCount` | 67 | Exported Function
+`glsGetLayeri` | 66 | Exported Function
+`glsGetStreamAttrib` | 69 | Exported Function
+`glsGetOpcodes` | 68 | Exported Function
+`glsGetHeaderiv` | 63 | Exported Function
+`glsGetHeaderi` | 62 | Exported Function
+`glsGetLayerf` | 65 | Exported Function
+`glsGetHeaderubz` | 64 | Exported Function
+`glsGetContextListubz` | 52 | Exported Function
+`glsGetCaptureExecTable` | 42 | Exported Function
+`glsGetCaptureDispatchTable` | 41 | Exported Function
+`glsGetCommandAlignment` | 44 | Exported Function
+`glsGetCaptureFlags` | 43 | Exported Function
+`glsFlush` | 36 | Exported Function
+`glsError` | 35 | Exported Function
+`glsGetAllContexts` | 40 | Exported Function
+`glsGenContext` | 39 | Exported Function
+`glsGetContextFunc` | 50 | Exported Function
+`glsGetConstubz` | 49 | Exported Function
+`glsGetContextListl` | 51 | Exported Function
+`glsGetContexti` | 54 | Exported Function
+`glsGetCommandFunc` | 46 | Exported Function
+`glsGetCommandAttrib` | 45 | Exported Function
+`glsGetConstiv` | 48 | Exported Function
+`glsGetConsti` | 47 | Exported Function
 
 
 ## Signature

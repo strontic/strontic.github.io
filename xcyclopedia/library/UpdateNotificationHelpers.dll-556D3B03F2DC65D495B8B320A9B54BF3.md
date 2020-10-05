@@ -24,11 +24,11 @@ PE256 | `EAEE11237700C6130972BEBD8522B1E72E3FB4EF2018337EC2B6DC8E61A6AB3D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetCampaignContentLocation` | 1 (0x1) | Exported Function | 0x00000001800067f0 | 0x000067f0
-`InitializeUpdateNotificationMgrTask` | 2 (0x2) | Exported Function | 0x00000001800069e0 | 0x000069e0
-`IsCampaignActive` | 3 (0x3) | Exported Function | 0x00000001800066c0 | 0x000066c0
+Function Name | Ordinal | Type
+-- | -- | --
+`IsCampaignActive` | 3 | Exported Function
+`InitializeUpdateNotificationMgrTask` | 2 | Exported Function
+`GetCampaignContentLocation` | 1 | Exported Function
 
 
 ## Signature

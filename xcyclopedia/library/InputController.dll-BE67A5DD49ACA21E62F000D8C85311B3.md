@@ -24,10 +24,10 @@ PE256 | `3843D805B90F714EC8D4CF59666DCDBD13DD6B7DE91555D13F532D36CA374E61`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateInputController` | 1 (0x1) | Exported Function | 0x0000000180009ba0 | 0x00009ba0
-`CreateInputControllerEx` | 2 (0x2) | Exported Function | 0x0000000180009bc0 | 0x00009bc0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateInputControllerEx` | 2 | Exported Function
+`CreateInputController` | 1 | Exported Function
 
 
 ## Signature

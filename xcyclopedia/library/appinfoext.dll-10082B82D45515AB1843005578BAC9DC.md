@@ -24,10 +24,10 @@ PE256 | `4CD8C5194DD7D60AC83A5993D27BE9BFD02AE3A45342CC229EF1F5371306074E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AiExtDisableDesktopRpcInterface` | 1 (0x1) | Exported Function | 0x0000000180001030 | 0x00001030
-`AiExtEnableDesktopRpcInterface` | 2 (0x2) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`AiExtEnableDesktopRpcInterface` | 2 | Exported Function
+`AiExtDisableDesktopRpcInterface` | 1 | Exported Function
 
 
 ## Signature

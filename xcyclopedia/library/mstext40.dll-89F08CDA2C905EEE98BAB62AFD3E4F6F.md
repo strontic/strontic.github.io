@@ -24,11 +24,10 @@ PE256 | `CED304B36FBF8D0985E6849C23D3FD555BD895EC234AE802A15925F328433E41`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 2 (0x2) | Exported Function | 0x10014de0 | 0x00014de0
-`DllUnregisterServer` | 3 (0x3) | Exported Function | 0x10014ec0 | 0x00014ec0
-`Ordinal1` | 1 (0x1) | Exported Function | 0x10014f00 | 0x00014f00
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 3 | Exported Function
+`DllRegisterServer` | 2 | Exported Function
 
 
 ## Signature

@@ -24,13 +24,13 @@ PE256 | `80AAA475F34B71352111D007DB192F1499C58120F0402C7D527AF11B6687F02B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x10007a50 | 0x00007a50
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10007a70 | 0x00007a70
-`EapSimExtCallRunWizard` | 4 (0x4) | Exported Function | 0x10008df0 | 0x00008df0
-`EapSimExtGetIdentityPageGuid` | 5 (0x5) | Exported Function | 0x10008f20 | 0x00008f20
-`EapSimExtInvokeUIAndGetConfig` | 1 (0x1) | Exported Function | 0x10009ab0 | 0x00009ab0
+Function Name | Ordinal | Type
+-- | -- | --
+`EapSimExtGetIdentityPageGuid` | 5 | Exported Function
+`EapSimExtInvokeUIAndGetConfig` | 1 | Exported Function
+`EapSimExtCallRunWizard` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

@@ -24,30 +24,30 @@ PE256 | `74CDA0E525B6772CD2046088596E6383CD124279DB651311285DEFDE7B5DF5E4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Dhcpv6AcquireParameters` | 1 (0x1) | Exported Function | 0x10003f90 | 0x00003f90
-`Dhcpv6RequestPrefix` | 20 (0x14) | Exported Function | 0x10005a30 | 0x00005a30
-`Dhcpv6RequestParams` | 19 (0x13) | Exported Function | 0x10005570 | 0x00005570
-`Dhcpv6RenewPrefixEx` | 18 (0x12) | Exported Function | 0x10005130 | 0x00005130
-`Dhcpv6RenewPrefix` | 17 (0x11) | Exported Function | 0x100050c0 | 0x000050c0
-`Dhcpv6ReleasePrefixEx` | 16 (0x10) | Exported Function | 0x10004d80 | 0x00004d80
-`Dhcpv6ReleasePrefix` | 15 (0xf) | Exported Function | 0x10004d20 | 0x00004d20
-`Dhcpv6ReleaseParameters` | 14 (0xe) | Exported Function | 0x10004b60 | 0x00004b60
-`Dhcpv6QueryLeaseInfoArray` | 13 (0xd) | Exported Function | 0x100028e0 | 0x000028e0
-`Dhcpv6QueryLeaseInfo` | 12 (0xc) | Exported Function | 0x100020e0 | 0x000020e0
-`Dhcpv6IsEnabled` | 11 (0xb) | Exported Function | 0x10004910 | 0x00004910
-`Dhcpv6GetUserClasses` | 10 (0xa) | Exported Function | 0x10004670 | 0x00004670
-`Dhcpv6GetTraceArray` | 9 (0x9) | Exported Function | 0x100044f0 | 0x000044f0
-`Dhcpv6FreeLeaseInfoArray` | 8 (0x8) | Exported Function | 0x10002d60 | 0x00002d60
-`Dhcpv6FreeLeaseInfo` | 7 (0x7) | Exported Function | 0x10002720 | 0x00002720
-`Dhcpv6EnableTracing` | 6 (0x6) | Exported Function | 0x10004400 | 0x00004400
-`Dhcpv6EnableDhcp` | 5 (0x5) | Exported Function | 0x10004250 | 0x00004250
-`Dhcpv6CApiInitialize` | 3 (0x3) | Exported Function | 0x10004150 | 0x00004150
-`Dhcpv6CApiCleanup` | 2 (0x2) | Exported Function | 0x100036f0 | 0x000036f0
-`Dhcpv6CancelOperation` | 4 (0x4) | Exported Function | 0x10004170 | 0x00004170
-`Dhcpv6RequestPrefixEx` | 21 (0x15) | Exported Function | 0x10005a90 | 0x00005a90
-`Dhcpv6SetUserClass` | 22 (0x16) | Exported Function | 0x10005eb0 | 0x00005eb0
+Function Name | Ordinal | Type
+-- | -- | --
+`Dhcpv6ReleasePrefix` | 15 | Exported Function
+`Dhcpv6ReleasePrefixEx` | 16 | Exported Function
+`Dhcpv6ReleaseParameters` | 14 | Exported Function
+`Dhcpv6QueryLeaseInfo` | 12 | Exported Function
+`Dhcpv6QueryLeaseInfoArray` | 13 | Exported Function
+`Dhcpv6RenewPrefix` | 17 | Exported Function
+`Dhcpv6RequestPrefixEx` | 21 | Exported Function
+`Dhcpv6SetUserClass` | 22 | Exported Function
+`Dhcpv6RequestPrefix` | 20 | Exported Function
+`Dhcpv6RenewPrefixEx` | 18 | Exported Function
+`Dhcpv6RequestParams` | 19 | Exported Function
+`Dhcpv6CApiInitialize` | 3 | Exported Function
+`Dhcpv6EnableDhcp` | 5 | Exported Function
+`Dhcpv6CApiCleanup` | 2 | Exported Function
+`Dhcpv6AcquireParameters` | 1 | Exported Function
+`Dhcpv6CancelOperation` | 4 | Exported Function
+`Dhcpv6EnableTracing` | 6 | Exported Function
+`Dhcpv6GetUserClasses` | 10 | Exported Function
+`Dhcpv6IsEnabled` | 11 | Exported Function
+`Dhcpv6GetTraceArray` | 9 | Exported Function
+`Dhcpv6FreeLeaseInfo` | 7 | Exported Function
+`Dhcpv6FreeLeaseInfoArray` | 8 | Exported Function
 
 
 ## Signature

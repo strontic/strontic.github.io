@@ -24,9 +24,9 @@ PE256 | `AE6BBB0EC2A50EC42DB2B10FEF16B6AE5EF54C93C269595DD128C3998338F82A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IsChildAccount` | 1 (0x1) | Exported Function | 0x0000000180001920 | 0x00001920
+Function Name | Ordinal | Type
+-- | -- | --
+`IsChildAccount` | 1 | Exported Function
 
 
 ## Signature

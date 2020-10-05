@@ -24,13 +24,13 @@ PE256 | `9FF52F540B9DCCC543F5D255E46F32BF22C9603D4DE72F8663089C4E29571695`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PcaPatchSdbTask` | 1 (0x1) | Exported Function | 0x000000018001e380 | 0x0001e380
-`QueryEncapsulationSettings` | 2 (0x2) | Exported Function | 0x000000018001e200 | 0x0001e200
-`QueryEncapsulationSettingsTC` | 3 (0x3) | Exported Function | 0x000000018001e290 | 0x0001e290
-`ServiceMain` | 4 (0x4) | Exported Function | 0x0000000180013580 | 0x00013580
-`SvchostPushServiceGlobals` | 5 (0x5) | Exported Function | 0x0000000180015d90 | 0x00015d90
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 4 | Exported Function
+`SvchostPushServiceGlobals` | 5 | Exported Function
+`QueryEncapsulationSettingsTC` | 3 | Exported Function
+`PcaPatchSdbTask` | 1 | Exported Function
+`QueryEncapsulationSettings` | 2 | Exported Function
 
 
 ## Signature

@@ -24,21 +24,21 @@ PE256 | `D5B3181C2B52BD39183BCE15E9E5CC80023E5A7AF8DF2BE4D7A77C25B6D22C5E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConvertAtJobsToTasks` | 1 (0x1) | Exported Function | 0x0000000180006230 | 0x00006230
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x00000001800055a0 | 0x000055a0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x00000001800026b0 | 0x000026b0
-`GetNetScheduleAccountInformation` | 4 (0x4) | Exported Function | 0x0000000180006560 | 0x00006560
-`NetrJobAdd` | 5 (0x5) | Exported Function | 0x0000000180005380 | 0x00005380
-`NetrJobDel` | 6 (0x6) | Exported Function | 0x00000001800053c0 | 0x000053c0
-`NetrJobEnum` | 7 (0x7) | Exported Function | 0x0000000180005400 | 0x00005400
-`NetrJobGetInfo` | 8 (0x8) | Exported Function | 0x0000000180005450 | 0x00005450
-`SAGetAccountInformation` | 9 (0x9) | Exported Function | 0x0000000180005490 | 0x00005490
-`SAGetNSAccountInformation` | 10 (0xa) | Exported Function | 0x00000001800054d0 | 0x000054d0
-`SASetAccountInformation` | 11 (0xb) | Exported Function | 0x0000000180005510 | 0x00005510
-`SASetNSAccountInformation` | 12 (0xc) | Exported Function | 0x0000000180005560 | 0x00005560
-`SetNetScheduleAccountInformation` | 13 (0xd) | Exported Function | 0x00000001800065f0 | 0x000065f0
+Function Name | Ordinal | Type
+-- | -- | --
+`SAGetNSAccountInformation` | 10 | Exported Function
+`SAGetAccountInformation` | 9 | Exported Function
+`NetrJobGetInfo` | 8 | Exported Function
+`SetNetScheduleAccountInformation` | 13 | Exported Function
+`SASetNSAccountInformation` | 12 | Exported Function
+`SASetAccountInformation` | 11 | Exported Function
+`NetrJobEnum` | 7 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`ConvertAtJobsToTasks` | 1 | Exported Function
+`NetrJobDel` | 6 | Exported Function
+`NetrJobAdd` | 5 | Exported Function
+`GetNetScheduleAccountInformation` | 4 | Exported Function
 
 
 ## Signature

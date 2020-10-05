@@ -24,19 +24,19 @@ PE256 | `ECDE545C155A3D5D41AFA0F4ECD0464A7FEC25B655C874C427F35AB68B316F52`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateUserSpecificGlobalizationSettings` | 1 (0x1) | Exported Function | 0x0000000180010bd0 | 0x00010bd0
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000018001fd20 | 0x0001fd20
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000018001fd40 | 0x0001fd40
-`GetDisplayLanguageLocalizedName` | 4 (0x4) | Exported Function | 0x000000018000fa70 | 0x0000fa70
-`GetDisplayLanguageNativeName` | 5 (0x5) | Exported Function | 0x000000018000f9e0 | 0x0000f9e0
-`GetSupportedDisplayLanguages` | 6 (0x6) | Exported Function | 0x000000018000f3f0 | 0x0000f3f0
-`SetDisplayLanguageCore` | 7 (0x7) | Exported Function | 0x0000000180010810 | 0x00010810
-`SetUserDisplayLanguageCore` | 8 (0x8) | Exported Function | 0x00000001800109f0 | 0x000109f0
-`SyncLanguageDataFromCloud` | 9 (0x9) | Exported Function | 0x00000001800123f0 | 0x000123f0
-`SyncLanguageDataToCloud` | 10 (0xa) | Exported Function | 0x0000000180011ed0 | 0x00011ed0
-`UpdateDefaultGlobalizationSettings` | 11 (0xb) | Exported Function | 0x00000001800115d0 | 0x000115d0
+Function Name | Ordinal | Type
+-- | -- | --
+`SetUserDisplayLanguageCore` | 8 | Exported Function
+`SetDisplayLanguageCore` | 7 | Exported Function
+`SyncLanguageDataFromCloud` | 9 | Exported Function
+`UpdateDefaultGlobalizationSettings` | 11 | Exported Function
+`SyncLanguageDataToCloud` | 10 | Exported Function
+`GetSupportedDisplayLanguages` | 6 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CreateUserSpecificGlobalizationSettings` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`GetDisplayLanguageNativeName` | 5 | Exported Function
+`GetDisplayLanguageLocalizedName` | 4 | Exported Function
 
 
 ## Signature

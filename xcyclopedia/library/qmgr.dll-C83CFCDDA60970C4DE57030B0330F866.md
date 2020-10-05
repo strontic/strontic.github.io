@@ -24,18 +24,18 @@ PE256 | `114D400FF73356645AA6DA98583E533C503A3FF94ACF16F1EAF9121064EC302C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BITSServiceMain` | 10 (0xa) | Exported Function | 0x0000000180055a90 | 0x00055a90
-`private: int __cdecl CPerfMon::IsValidInstId(struct CPerfMon::__OBJECT_ORD * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64)const __ptr64` | 5 (0x5) | Exported Function | 0x000000018009e7f0 | 0x0009e7f0
-`private: int __cdecl CPerfMon::IsValidObjOrd(struct CPerfMon::__OBJECT_ORD * __ptr64)const __ptr64` | 6 (0x6) | Exported Function | 0x000000018009e880 | 0x0009e880
-`private: int __cdecl CPerfMon::ObjectIdToPerfItemIndex(struct CPerfMon::__OBJECT_ID * __ptr64)const __ptr64` | 8 (0x8) | Exported Function | 0x000000018009ed10 | 0x0009ed10
-`private: struct CPerfMon::_PERF_ITEM * __ptr64 __cdecl CPerfMon::CounterIdToPerfItem(struct CPerfMon::__COUNTER_ID * __ptr64)const __ptr64` | 2 (0x2) | Exported Function | 0x000000018009ded0 | 0x0009ded0
-`private: struct CPerfMon::_PERF_ITEM * __ptr64 __cdecl CPerfMon::ObjectIdToPerfItem(struct CPerfMon::__OBJECT_ID * __ptr64)const __ptr64` | 7 (0x7) | Exported Function | 0x000000018009ecd0 | 0x0009ecd0
-`public: __int64 * __ptr64 __cdecl CPerfMon::GetCounter64(struct CPerfMon::__COUNTER_ID * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64) __ptr64` | 4 (0x4) | Exported Function | 0x000000018009e340 | 0x0009e340
-`public: class CPerfMon & __ptr64 __cdecl CPerfMon::operator=(class CPerfMon const & __ptr64) __ptr64` | 1 (0x1) | Exported Function | 0x000000018009d7b0 | 0x0009d7b0
-`public: long * __ptr64 __cdecl CPerfMon::GetCounter32(struct CPerfMon::__COUNTER_ID * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64) __ptr64` | 3 (0x3) | Exported Function | 0x000000018009e340 | 0x0009e340
-`ServiceMain` | 9 (0x9) | Exported Function | 0x0000000180055a70 | 0x00055a70
+Function Name | Ordinal | Type
+-- | -- | --
+`public: __int64 * __ptr64 __cdecl CPerfMon::GetCounter64(struct CPerfMon::__COUNTER_ID * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64) __ptr64` | 4 | Exported Function
+`private: struct CPerfMon::_PERF_ITEM * __ptr64 __cdecl CPerfMon::ObjectIdToPerfItem(struct CPerfMon::__OBJECT_ID * __ptr64)const __ptr64` | 7 | Exported Function
+`public: class CPerfMon & __ptr64 __cdecl CPerfMon::operator=(class CPerfMon const & __ptr64) __ptr64` | 1 | Exported Function
+`ServiceMain` | 9 | Exported Function
+`public: long * __ptr64 __cdecl CPerfMon::GetCounter32(struct CPerfMon::__COUNTER_ID * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64) __ptr64` | 3 | Exported Function
+`private: int __cdecl CPerfMon::IsValidInstId(struct CPerfMon::__OBJECT_ORD * __ptr64,struct CPerfMon::__INSTANCE_ID * __ptr64)const __ptr64` | 5 | Exported Function
+`BITSServiceMain` | 10 | Exported Function
+`private: int __cdecl CPerfMon::IsValidObjOrd(struct CPerfMon::__OBJECT_ORD * __ptr64)const __ptr64` | 6 | Exported Function
+`private: struct CPerfMon::_PERF_ITEM * __ptr64 __cdecl CPerfMon::CounterIdToPerfItem(struct CPerfMon::__COUNTER_ID * __ptr64)const __ptr64` | 2 | Exported Function
+`private: int __cdecl CPerfMon::ObjectIdToPerfItemIndex(struct CPerfMon::__OBJECT_ID * __ptr64)const __ptr64` | 8 | Exported Function
 
 
 ## Signature

@@ -24,29 +24,29 @@ PE256 | `844D6EDE0D68BF6241AC2C6A8477C709D479E2DBB86D3CBB1AAC985465583216`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180004830 | 0x00004830
-`XWUnregisterPagesLink` | 19 (0x13) | Exported Function | 0x0000000180005920 | 0x00005920
-`XWUnregisterPage` | 18 (0x12) | Exported Function | 0x0000000180005590 | 0x00005590
-`XWUnregisterHostTaskLink` | 17 (0x11) | Exported Function | 0x00000001800056c0 | 0x000056c0
-`XWUnregisterHost` | 16 (0x10) | Exported Function | 0x0000000180005330 | 0x00005330
-`XWRegisterTaskWithHost` | 15 (0xf) | Exported Function | 0x0000000180004ee0 | 0x00004ee0
-`XWRegisterPageWithTask` | 14 (0xe) | Exported Function | 0x0000000180005050 | 0x00005050
-`XWRegisterPageWithPage` | 13 (0xd) | Exported Function | 0x00000001800051c0 | 0x000051c0
-`XWRegisterHost` | 12 (0xc) | Exported Function | 0x0000000180004da0 | 0x00004da0
-`XWUnregisterTask` | 20 (0x14) | Exported Function | 0x0000000180005460 | 0x00005460
-`XWProcessXMLFile` | 11 (0xb) | Exported Function | 0x0000000180004d80 | 0x00004d80
-`RunWizardA` | 9 (0x9) | Exported Function | 0x0000000180006ba0 | 0x00006ba0
-`RunPropertySheetW` | 8 (0x8) | Exported Function | 0x0000000180007700 | 0x00007700
-`RunPropertySheetA` | 7 (0x7) | Exported Function | 0x0000000180007600 | 0x00007600
-`ResetRegistrationW` | 6 (0x6) | Exported Function | 0x0000000180005e40 | 0x00005e40
-`ResetRegistrationA` | 5 (0x5) | Exported Function | 0x0000000180005d40 | 0x00005d40
-`ProcessXMLFileW` | 4 (0x4) | Exported Function | 0x00000001800065a0 | 0x000065a0
-`ProcessXMLFileA` | 3 (0x3) | Exported Function | 0x00000001800064a0 | 0x000064a0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180004890 | 0x00004890
-`RunWizardW` | 10 (0xa) | Exported Function | 0x0000000180006ca0 | 0x00006ca0
-`XWUnregisterTaskPageLink` | 21 (0x15) | Exported Function | 0x00000001800057f0 | 0x000057f0
+Function Name | Ordinal | Type
+-- | -- | --
+`XWRegisterTaskWithHost` | 15 | Exported Function
+`XWUnregisterHost` | 16 | Exported Function
+`XWRegisterPageWithTask` | 14 | Exported Function
+`XWRegisterHost` | 12 | Exported Function
+`XWRegisterPageWithPage` | 13 | Exported Function
+`XWUnregisterTask` | 20 | Exported Function
+`XWUnregisterTaskPageLink` | 21 | Exported Function
+`XWUnregisterPagesLink` | 19 | Exported Function
+`XWUnregisterHostTaskLink` | 17 | Exported Function
+`XWUnregisterPage` | 18 | Exported Function
+`XWProcessXMLFile` | 11 | Exported Function
+`ProcessXMLFileW` | 4 | Exported Function
+`ResetRegistrationA` | 5 | Exported Function
+`ProcessXMLFileA` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`RunWizardA` | 9 | Exported Function
+`RunWizardW` | 10 | Exported Function
+`RunPropertySheetW` | 8 | Exported Function
+`ResetRegistrationW` | 6 | Exported Function
+`RunPropertySheetA` | 7 | Exported Function
 
 
 ## Signature

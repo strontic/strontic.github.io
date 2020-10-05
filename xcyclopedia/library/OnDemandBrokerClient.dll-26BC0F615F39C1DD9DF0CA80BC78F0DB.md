@@ -24,9 +24,9 @@ PE256 | `D09811BE627856CE5DF11830E54B9F0E1ECD6A2057A04B1B147D3D111A65497F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateOnDemandBrokerClient` | 1 (0x1) | Exported Function | 0x0000000180002d90 | 0x00002d90
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateOnDemandBrokerClient` | 1 | Exported Function
 
 
 ## Signature

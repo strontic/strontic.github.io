@@ -24,22 +24,22 @@ PE256 | `086D9AF6F3D160E30BD9A4D1A8F5C31F26D640331C2BCC4AADF414857D95E58C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x000000018000b020 | 0x0000b020
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x000000018000b060 | 0x0000b060
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x00000001800013b0 | 0x000013b0
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x00000001800013b0 | 0x000013b0
-`HNetDeleteRasConnection` | 1 (0x1) | Exported Function | 0x000000018000c410 | 0x0000c410
-`HNetFreeSharingServicesPage` | 2 (0x2) | Exported Function | 0x0000000180027a30 | 0x00027a30
-`HNetGetFirewallSettingsPage` | 8 (0x8) | Exported Function | 0x00000001800268b0 | 0x000268b0
-`HNetGetSharingServicesPage` | 3 (0x3) | Exported Function | 0x0000000180027b70 | 0x00027b70
-`HNetSharedAccessSettingsDlg` | 9 (0x9) | Exported Function | 0x000000018002bfd0 | 0x0002bfd0
-`HNetSharingAndFirewallSettingsDlg` | 10 (0xa) | Exported Function | 0x000000018002c170 | 0x0002c170
-`RegisterClassObjects` | 11 (0xb) | Exported Function | 0x00000001800200d0 | 0x000200d0
-`ReleaseSingletons` | 12 (0xc) | Exported Function | 0x0000000180020240 | 0x00020240
-`RevokeClassObjects` | 13 (0xd) | Exported Function | 0x0000000180020310 | 0x00020310
-`WinBomConfigureWindowsFirewall` | 14 (0xe) | Exported Function | 0x000000018000c7a0 | 0x0000c7a0
+Function Name | Ordinal | Type
+-- | -- | --
+`HNetSharingAndFirewallSettingsDlg` | 10 | Exported Function
+`HNetSharedAccessSettingsDlg` | 9 | Exported Function
+`HNetGetSharingServicesPage` | 3 | Exported Function
+`RegisterClassObjects` | 11 | Exported Function
+`WinBomConfigureWindowsFirewall` | 14 | Exported Function
+`RevokeClassObjects` | 13 | Exported Function
+`ReleaseSingletons` | 12 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`HNetGetFirewallSettingsPage` | 8 | Exported Function
+`HNetFreeSharingServicesPage` | 2 | Exported Function
+`HNetDeleteRasConnection` | 1 | Exported Function
 
 
 ## Signature

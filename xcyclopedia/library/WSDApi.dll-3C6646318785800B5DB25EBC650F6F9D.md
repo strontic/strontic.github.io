@@ -24,53 +24,53 @@ PE256 | `78798056470D9E129B21E79814AC541822158209ECB342522E38EAF02C0EAB27`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WSDAddFirewallCheck` | 1 (0x1) | Exported Function | 0x0000000180068c40 | 0x00068c40
-`WSDCreateUdpTransport` | 28 (0x1c) | Exported Function | 0x0000000180061260 | 0x00061260
-`WSDDetachLinkedMemory` | 29 (0x1d) | Exported Function | 0x0000000180002d40 | 0x00002d40
-`WSDFreeLinkedMemory` | 30 (0x1e) | Exported Function | 0x0000000180002ec0 | 0x00002ec0
-`WSDGenerateFault` | 31 (0x1f) | Exported Function | 0x000000018004db90 | 0x0004db90
-`WSDGenerateFaultEx` | 32 (0x20) | Exported Function | 0x000000018004dfd0 | 0x0004dfd0
-`WSDGenerateRandomDelay` | 33 (0x21) | Exported Function | 0x0000000180061370 | 0x00061370
-`WSDGetConfigurationOption` | 34 (0x22) | Exported Function | 0x000000018006ef70 | 0x0006ef70
-`WSDNotifyNetworkChange` | 4 (0x4) | Exported Function | 0x0000000180068dc0 | 0x00068dc0
-`WSDProcessFault` | 35 (0x23) | Exported Function | 0x000000018004e280 | 0x0004e280
-`WSDRemoveFirewallCheck` | 5 (0x5) | Exported Function | 0x0000000180068e70 | 0x00068e70
-`WSDSetConfigurationOption` | 36 (0x24) | Exported Function | 0x000000018006f150 | 0x0006f150
-`WSDUriDecode` | 37 (0x25) | Exported Function | 0x00000001800762b0 | 0x000762b0
-`WSDUriEncode` | 38 (0x26) | Exported Function | 0x0000000180076550 | 0x00076550
-`WSDXMLAddChild` | 39 (0x27) | Exported Function | 0x000000018006c0b0 | 0x0006c0b0
-`WSDXMLAddSibling` | 40 (0x28) | Exported Function | 0x000000018006c150 | 0x0006c150
-`WSDXMLBuildAnyForSingleElement` | 41 (0x29) | Exported Function | 0x000000018006c1d0 | 0x0006c1d0
-`WSDXMLCleanupElement` | 42 (0x2a) | Exported Function | 0x000000018006a160 | 0x0006a160
-`WSDXMLCompareNames` | 6 (0x6) | Exported Function | 0x000000018006a200 | 0x0006a200
-`WSDXMLCreateContext` | 43 (0x2b) | Exported Function | 0x0000000180079680 | 0x00079680
-`WSDCreateUdpMessageParameters` | 27 (0x1b) | Exported Function | 0x000000018005f580 | 0x0005f580
-`WSDXMLGetNameFromBuiltinNamespace` | 44 (0x2c) | Exported Function | 0x0000000180079900 | 0x00079900
-`WSDCreateUdpAddress` | 26 (0x1a) | Exported Function | 0x000000018005f530 | 0x0005f530
-`WSDCreateMetadataAgent` | 24 (0x18) | Exported Function | 0x0000000180012300 | 0x00012300
-`WSDAllocateLinkedMemory` | 7 (0x7) | Exported Function | 0x0000000180002e60 | 0x00002e60
-`WSDAttachLinkedMemory` | 8 (0x8) | Exported Function | 0x000000018006c5c0 | 0x0006c5c0
-`WSDCancelNetworkChangeNotify` | 2 (0x2) | Exported Function | 0x0000000180068d50 | 0x00068d50
-`WSDCompareEndpoints` | 9 (0x9) | Exported Function | 0x000000018006ac80 | 0x0006ac80
-`WSDCopyEndpoint` | 10 (0xa) | Exported Function | 0x000000018006ae80 | 0x0006ae80
-`WSDCopyNameList` | 3 (0x3) | Exported Function | 0x0000000180069b10 | 0x00069b10
-`WSDCreateDeviceHost` | 11 (0xb) | Exported Function | 0x000000018000b310 | 0x0000b310
-`WSDCreateDeviceHost2` | 12 (0xc) | Exported Function | 0x000000018000b3f0 | 0x0000b3f0
-`WSDCreateDeviceHostAdvanced` | 13 (0xd) | Exported Function | 0x000000018000b4e0 | 0x0000b4e0
-`WSDCreateDeviceProxy` | 14 (0xe) | Exported Function | 0x0000000180010900 | 0x00010900
-`WSDCreateDeviceProxy2` | 15 (0xf) | Exported Function | 0x0000000180010a20 | 0x00010a20
-`WSDCreateDeviceProxyAdvanced` | 16 (0x10) | Exported Function | 0x0000000180010b50 | 0x00010b50
-`WSDCreateDiscoveryProvider` | 17 (0x11) | Exported Function | 0x000000018002d520 | 0x0002d520
-`WSDCreateDiscoveryProvider2` | 18 (0x12) | Exported Function | 0x000000018002d610 | 0x0002d610
-`WSDCreateDiscoveryPublisher` | 19 (0x13) | Exported Function | 0x0000000180031e90 | 0x00031e90
-`WSDCreateDiscoveryPublisher2` | 20 (0x14) | Exported Function | 0x0000000180031f50 | 0x00031f50
-`WSDCreateHttpAddress` | 21 (0x15) | Exported Function | 0x0000000180037bc0 | 0x00037bc0
-`WSDCreateHttpMessageParameters` | 22 (0x16) | Exported Function | 0x0000000180037d20 | 0x00037d20
-`WSDCreateHttpTransport` | 23 (0x17) | Exported Function | 0x000000018003aac0 | 0x0003aac0
-`WSDCreateOutboundAttachment` | 25 (0x19) | Exported Function | 0x000000018004d570 | 0x0004d570
-`WSDXMLGetValueFromAny` | 45 (0x2d) | Exported Function | 0x000000018006c4b0 | 0x0006c4b0
+Function Name | Ordinal | Type
+-- | -- | --
+`WSDGetConfigurationOption` | 34 | Exported Function
+`WSDGenerateRandomDelay` | 33 | Exported Function
+`WSDNotifyNetworkChange` | 4 | Exported Function
+`WSDRemoveFirewallCheck` | 5 | Exported Function
+`WSDProcessFault` | 35 | Exported Function
+`WSDGenerateFaultEx` | 32 | Exported Function
+`WSDCreateUdpTransport` | 28 | Exported Function
+`WSDCreateUdpMessageParameters` | 27 | Exported Function
+`WSDDetachLinkedMemory` | 29 | Exported Function
+`WSDGenerateFault` | 31 | Exported Function
+`WSDFreeLinkedMemory` | 30 | Exported Function
+`WSDXMLCompareNames` | 6 | Exported Function
+`WSDXMLCleanupElement` | 42 | Exported Function
+`WSDXMLCreateContext` | 43 | Exported Function
+`WSDXMLGetValueFromAny` | 45 | Exported Function
+`WSDXMLGetNameFromBuiltinNamespace` | 44 | Exported Function
+`WSDXMLBuildAnyForSingleElement` | 41 | Exported Function
+`WSDUriDecode` | 37 | Exported Function
+`WSDSetConfigurationOption` | 36 | Exported Function
+`WSDUriEncode` | 38 | Exported Function
+`WSDXMLAddSibling` | 40 | Exported Function
+`WSDXMLAddChild` | 39 | Exported Function
+`WSDCreateUdpAddress` | 26 | Exported Function
+`WSDCreateDeviceHost` | 11 | Exported Function
+`WSDCopyNameList` | 3 | Exported Function
+`WSDCreateDeviceHost2` | 12 | Exported Function
+`WSDCreateDeviceProxy` | 14 | Exported Function
+`WSDCreateDeviceHostAdvanced` | 13 | Exported Function
+`WSDCopyEndpoint` | 10 | Exported Function
+`WSDAllocateLinkedMemory` | 7 | Exported Function
+`WSDAddFirewallCheck` | 1 | Exported Function
+`WSDAttachLinkedMemory` | 8 | Exported Function
+`WSDCompareEndpoints` | 9 | Exported Function
+`WSDCancelNetworkChangeNotify` | 2 | Exported Function
+`WSDCreateHttpMessageParameters` | 22 | Exported Function
+`WSDCreateHttpAddress` | 21 | Exported Function
+`WSDCreateHttpTransport` | 23 | Exported Function
+`WSDCreateOutboundAttachment` | 25 | Exported Function
+`WSDCreateMetadataAgent` | 24 | Exported Function
+`WSDCreateDiscoveryPublisher2` | 20 | Exported Function
+`WSDCreateDeviceProxyAdvanced` | 16 | Exported Function
+`WSDCreateDeviceProxy2` | 15 | Exported Function
+`WSDCreateDiscoveryProvider` | 17 | Exported Function
+`WSDCreateDiscoveryPublisher` | 19 | Exported Function
+`WSDCreateDiscoveryProvider2` | 18 | Exported Function
 
 
 ## Signature

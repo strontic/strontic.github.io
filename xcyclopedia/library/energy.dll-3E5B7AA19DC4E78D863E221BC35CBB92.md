@@ -24,25 +24,25 @@ PE256 | `C5451B013F0E102B32A063AFF4854B9E0F27751A02F74B4E926F085C0F309D64`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EnergyWizard_Analyze` | 3 (0x3) | Exported Function | 0x00000001800109a0 | 0x000109a0
-`TransformBatteryReport` | 16 (0x10) | Exported Function | 0x000000018004b790 | 0x0004b790
-`SendScreenOnTelemetry` | 15 (0xf) | Exported Function | 0x0000000180057bb0 | 0x00057bb0
-`SaveSystemSleepDiagnosticsReport` | 14 (0xe) | Exported Function | 0x00000001800682e0 | 0x000682e0
-`SaveSleepStudyReport` | 13 (0xd) | Exported Function | 0x0000000180057450 | 0x00057450
-`SaveBatteryReport` | 1 (0x1) | Exported Function | 0x000000018004b580 | 0x0004b580
-`EnergyWizard_TransformReport` | 12 (0xc) | Exported Function | 0x000000018004f0c0 | 0x0004f0c0
-`TransformSleepStudyReport` | 17 (0x11) | Exported Function | 0x0000000180057de0 | 0x00057de0
-`EnergyWizard_SqmAnalysis` | 11 (0xb) | Exported Function | 0x0000000180011980 | 0x00011980
-`EnergyWizard_GetLogEntryCounts` | 9 (0x9) | Exported Function | 0x0000000180010890 | 0x00010890
-`EnergyWizard_DestroyEnergyWizard` | 8 (0x8) | Exported Function | 0x0000000180013e40 | 0x00013e40
-`EnergyWizard_DefaultTraceDuration` | 7 (0x7) | Exported Function | 0x0000000180016ee0 | 0x00016ee0
-`EnergyWizard_CreateEnergyWizard` | 6 (0x6) | Exported Function | 0x0000000180011010 | 0x00011010
-`EnergyWizard_CollectTrace` | 5 (0x5) | Exported Function | 0x0000000180004cf0 | 0x00004cf0
-`EnergyWizard_CancelTrace` | 4 (0x4) | Exported Function | 0x000000018004f0a0 | 0x0004f0a0
-`EnergyWizard_SaveReport` | 10 (0xa) | Exported Function | 0x00000001800110e0 | 0x000110e0
-`TransformSystemSleepDiagnosticsReport` | 2 (0x2) | Exported Function | 0x0000000180067d00 | 0x00067d00
+Function Name | Ordinal | Type
+-- | -- | --
+`SaveSleepStudyReport` | 13 | Exported Function
+`SaveSystemSleepDiagnosticsReport` | 14 | Exported Function
+`EnergyWizard_TransformReport` | 12 | Exported Function
+`SaveBatteryReport` | 1 | Exported Function
+`TransformSleepStudyReport` | 17 | Exported Function
+`TransformSystemSleepDiagnosticsReport` | 2 | Exported Function
+`SendScreenOnTelemetry` | 15 | Exported Function
+`TransformBatteryReport` | 16 | Exported Function
+`EnergyWizard_SqmAnalysis` | 11 | Exported Function
+`EnergyWizard_CollectTrace` | 5 | Exported Function
+`EnergyWizard_CreateEnergyWizard` | 6 | Exported Function
+`EnergyWizard_Analyze` | 3 | Exported Function
+`EnergyWizard_CancelTrace` | 4 | Exported Function
+`EnergyWizard_GetLogEntryCounts` | 9 | Exported Function
+`EnergyWizard_SaveReport` | 10 | Exported Function
+`EnergyWizard_DefaultTraceDuration` | 7 | Exported Function
+`EnergyWizard_DestroyEnergyWizard` | 8 | Exported Function
 
 
 ## Signature

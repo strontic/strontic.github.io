@@ -24,298 +24,298 @@ PE256 | `085F1B6A2CF2857F7AB3CC7ABCC9E271AABE90DF5EFE27AF68BD756FD1633540`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddClusterGroupDependency` | 8 (0x8) | Exported Function | 0x7f28d830 | 0x0005d830
-`FreeClusFaultDomainInfo` | 197 (0xc5) | Exported Function | 0x7f2aebb0 | 0x0007ebb0
-`FailClusterResource` | 196 (0xc4) | Exported Function | 0x7f29faa0 | 0x0006faa0
-`EvictClusterNodeEx` | 195 (0xc3) | Exported Function | 0x7f2952a0 | 0x000652a0
-`EvictClusterNode` | 194 (0xc2) | Exported Function | 0x7f295280 | 0x00065280
-`DetermineCNOResTypeFromNodelist` | 191 (0xbf) | Exported Function | 0x7f287d50 | 0x00057d50
-`DetermineCNOResTypeFromCluster` | 190 (0xbe) | Exported Function | 0x7f287dc0 | 0x00057dc0
-`FreeClusFaultDomainInfoArray` | 198 (0xc6) | Exported Function | 0x7f2aec10 | 0x0007ec10
-`DetermineClusterCloudTypeFromNodelist` | 193 (0xc1) | Exported Function | 0x7f287b40 | 0x00057b40
-`DestroyClusterGroup` | 189 (0xbd) | Exported Function | 0x7f28d790 | 0x0005d790
-`DestroyCluster` | 188 (0xbc) | Exported Function | 0x7f281ca0 | 0x00051ca0
-`DeleteClusterResourceType` | 187 (0xbb) | Exported Function | 0x7f2a02e0 | 0x000702e0
-`DeleteClusterResource` | 186 (0xba) | Exported Function | 0x7f29f8f0 | 0x0006f8f0
-`DeleteClusterGroupSet` | 185 (0xb9) | Exported Function | 0x7f2b01e0 | 0x000801e0
-`DeleteClusterGroup` | 184 (0xb8) | Exported Function | 0x7f28d740 | 0x0005d740
-`DetermineClusterCloudTypeFromCluster` | 192 (0xc0) | Exported Function | 0x7f287c40 | 0x00057c40
-`CreateClusterResourceWithId` | 183 (0xb7) | Exported Function | 0x7f29fe60 | 0x0006fe60
-`FreeClusFaultDomainXML` | 199 (0xc7) | Exported Function | 0x7f2aec60 | 0x0007ec60
-`FreeClusStorageEnclosureInfoArray` | 201 (0xc9) | Exported Function | 0x7f2acc70 | 0x0007cc70
-`GetClusterNetworkKey` | 215 (0xd7) | Exported Function | 0x7f29cbd0 | 0x0006cbd0
-`GetClusterNetworkId` | 214 (0xd6) | Exported Function | 0x7f293850 | 0x00063850
-`GetClusterNetInterfaceState` | 213 (0xd5) | Exported Function | 0x7f28fa50 | 0x0005fa50
-`GetClusterNetInterfaceKey` | 212 (0xd4) | Exported Function | 0x7f29cc70 | 0x0006cc70
-`GetClusterNetInterface` | 211 (0xd3) | Exported Function | 0x7f28fab0 | 0x0005fab0
-`GetClusterKey` | 210 (0xd2) | Exported Function | 0x7f29c8d0 | 0x0006c8d0
-`FreeClusStorageEnclosureInfo` | 200 (0xc8) | Exported Function | 0x7f2acbd0 | 0x0007cbd0
-`GetClusterInformation` | 209 (0xd1) | Exported Function | 0x7f26e590 | 0x0003e590
-`GetClusterGroupKey` | 207 (0xcf) | Exported Function | 0x7f29ca60 | 0x0006ca60
-`GetClusterFromResource` | 206 (0xce) | Exported Function | 0x7f2a0650 | 0x00070650
-`GetClusterFromNode` | 205 (0xcd) | Exported Function | 0x7f2956d0 | 0x000656d0
-`GetClusterFromNetwork` | 204 (0xcc) | Exported Function | 0x7f293ad0 | 0x00063ad0
-`GetClusterFromNetInterface` | 203 (0xcb) | Exported Function | 0x7f28fb80 | 0x0005fb80
-`GetClusterFromGroup` | 202 (0xca) | Exported Function | 0x7f28d7e0 | 0x0005d7e0
-`GetClusterGroupState` | 208 (0xd0) | Exported Function | 0x7f28cd90 | 0x0005cd90
-`GetClusterNetworkState` | 216 (0xd8) | Exported Function | 0x7f2937a0 | 0x000637a0
-`CreateClusterResourceType` | 182 (0xb6) | Exported Function | 0x7f2a0260 | 0x00070260
-`CreateClusterNotifyPortV2` | 180 (0xb4) | Exported Function | 0x7f2997f0 | 0x000697f0
-`ClusterSendReceiveMrr` | 161 (0xa1) | Exported Function | 0x7f2a5110 | 0x00075110
-`ClusterResourceTypeOpenEnum` | 160 (0xa0) | Exported Function | 0x7f2a0350 | 0x00070350
-`ClusterResourceTypeGetEnumCount` | 159 (0x9f) | Exported Function | 0x7f2a03f0 | 0x000703f0
-`ClusterResourceTypeEnum` | 158 (0x9e) | Exported Function | 0x7f2a0420 | 0x00070420
-`ClusterResourceTypeControlAsUser` | 157 (0x9d) | Exported Function | 0x7f290340 | 0x00060340
-`ClusterResourceTypeControl` | 156 (0x9c) | Exported Function | 0x7f290300 | 0x00060300
-`ClusterSendReceiveMrrAsUser` | 162 (0xa2) | Exported Function | 0x7f2a51c0 | 0x000751c0
-`ClusterResourceTypeCloseEnum` | 155 (0x9b) | Exported Function | 0x7f2a04c0 | 0x000704c0
-`ClusterResourceOpenEnum` | 153 (0x99) | Exported Function | 0x7f2a0070 | 0x00070070
-`ClusterResourceGetEnumCountEx` | 152 (0x98) | Exported Function | 0x7f26fcf0 | 0x0003fcf0
-`ClusterResourceGetEnumCount` | 151 (0x97) | Exported Function | 0x7f2a0110 | 0x00070110
-`ClusterResourceEnumEx` | 150 (0x96) | Exported Function | 0x7f26fd20 | 0x0003fd20
-`ClusterResourceEnum` | 149 (0x95) | Exported Function | 0x7f2a0140 | 0x00070140
-`ClusterResourceControlAsUser` | 148 (0x94) | Exported Function | 0x7f2902c0 | 0x000602c0
-`ClusterResourceOpenEnumEx` | 154 (0x9a) | Exported Function | 0x7f26fc30 | 0x0003fc30
-`CreateClusterResource` | 181 (0xb5) | Exported Function | 0x7f29f420 | 0x0006f420
-`ClusterSetAccountAccess` | 163 (0xa3) | Exported Function | 0x7f272870 | 0x00042870
-`ClusterSetFaultDomain` | 165 (0xa5) | Exported Function | 0x7f2ad360 | 0x0007d360
-`CreateClusterNotifyPort` | 179 (0xb3) | Exported Function | 0x7f296cc0 | 0x00066cc0
-`CreateClusterNameAccount` | 178 (0xb2) | Exported Function | 0x7f285900 | 0x00055900
-`CreateClusterManagementPoint` | 177 (0xb1) | Exported Function | 0x7f284d80 | 0x00054d80
-`CreateClusterGroupSet` | 176 (0xb0) | Exported Function | 0x7f2afd90 | 0x0007fd90
-`CreateClusterGroupEx` | 175 (0xaf) | Exported Function | 0x7f28c710 | 0x0005c710
-`CreateClusterGroup` | 174 (0xae) | Exported Function | 0x7f28c6f0 | 0x0005c6f0
-`ClusterSetClusterStorageEnclosure` | 164 (0xa4) | Exported Function | 0x7f2aa500 | 0x0007a500
-`CreateClusterAvailabilitySet` | 173 (0xad) | Exported Function | 0x7f2b0500 | 0x00080500
-`ClusterUpgradeFunctionalLevelEx` | 171 (0xab) | Exported Function | 0x7f2720b0 | 0x000420b0
-`ClusterUpgradeFunctionalLevel` | 170 (0xaa) | Exported Function | 0x7f271d80 | 0x00041d80
-`ClusterStmFindDisk` | 169 (0xa9) | Exported Function | 0x7f2a52d0 | 0x000752d0
-`ClusterSharedVolumeSetSnapshotState` | 168 (0xa8) | Exported Function | 0x7f270f40 | 0x00040f40
-`ClusterSharedVolumeClearBackupState` | 167 (0xa7) | Exported Function | 0x7f270b60 | 0x00040b60
-`ClusterSetNodeFaultDomain` | 166 (0xa6) | Exported Function | 0x7f2aea80 | 0x0007ea80
-`CreateCluster` | 172 (0xac) | Exported Function | 0x7f27cd00 | 0x0004cd00
-`GetClusterNodeId` | 217 (0xd9) | Exported Function | 0x7f294ac0 | 0x00064ac0
-`GetClusterNodeKey` | 218 (0xda) | Exported Function | 0x7f29c9c0 | 0x0006c9c0
-`GetClusterNodeState` | 219 (0xdb) | Exported Function | 0x7f294b80 | 0x00064b80
-`RemoveClusterNameAccount` | 270 (0x10e) | Exported Function | 0x7f287190 | 0x00057190
-`RemoveClusterGroupToGroupSetDependency` | 269 (0x10d) | Exported Function | 0x7f2b04a0 | 0x000804a0
-`RemoveClusterGroupSetDependency` | 268 (0x10c) | Exported Function | 0x7f2b03e0 | 0x000803e0
-`RemoveClusterGroupDependency` | 267 (0x10b) | Exported Function | 0x7f28d8e0 | 0x0005d8e0
-`RegisterClusterResourceTypeNotifyV2` | 266 (0x10a) | Exported Function | 0x7f299be0 | 0x00069be0
-`RegisterClusterNotifyV2` | 265 (0x109) | Exported Function | 0x7f299ba0 | 0x00069ba0
-`RemoveClusterResourceDependency` | 271 (0x10f) | Exported Function | 0x7f29ffa0 | 0x0006ffa0
-`RegisterClusterNotify` | 264 (0x108) | Exported Function | 0x7f298fb0 | 0x00068fb0
-`PauseClusterNode` | 262 (0x106) | Exported Function | 0x7f294be0 | 0x00064be0
-`OpenClusterResourceEx` | 261 (0x105) | Exported Function | 0x7f29f730 | 0x0006f730
-`OpenClusterResource` | 260 (0x104) | Exported Function | 0x7f29f700 | 0x0006f700
-`OpenClusterNodeEx` | 259 (0x103) | Exported Function | 0x7f294860 | 0x00064860
-`OpenClusterNodeById` | 258 (0x102) | Exported Function | 0x7f295720 | 0x00065720
-`OpenClusterNode` | 257 (0x101) | Exported Function | 0x7f294830 | 0x00064830
-`PauseClusterNodeEx` | 263 (0x107) | Exported Function | 0x7f294d60 | 0x00064d60
-`OpenClusterNetworkEx` | 256 (0x100) | Exported Function | 0x7f2935e0 | 0x000635e0
-`RemoveClusterResourceNode` | 272 (0x110) | Exported Function | 0x7f29fe00 | 0x0006fe00
-`RemoveCrossClusterGroupSetDependency` | 274 (0x112) | Exported Function | 0x7f2b1be0 | 0x00081be0
-`SetClusterResourceName` | 288 (0x120) | Exported Function | 0x7f29fa50 | 0x0006fa50
-`SetClusterResourceDependencyExpression` | 287 (0x11f) | Exported Function | 0x7f2a06a0 | 0x000706a0
-`SetClusterQuorumResource` | 286 (0x11e) | Exported Function | 0x7f26e910 | 0x0003e910
-`SetClusterNetworkPriorityOrder` | 285 (0x11d) | Exported Function | 0x7f26ea80 | 0x0003ea80
-`SetClusterNetworkName` | 284 (0x11c) | Exported Function | 0x7f293800 | 0x00063800
-`SetClusterName` | 283 (0x11b) | Exported Function | 0x7f26e440 | 0x0003e440
-`RemoveClusterStorageNode` | 273 (0x111) | Exported Function | 0x7f27c7f0 | 0x0004c7f0
-`SetClusterGroupSetDependencyExpression` | 282 (0x11a) | Exported Function | 0x7f2b0390 | 0x00080390
-`SetClusterGroupName` | 280 (0x118) | Exported Function | 0x7f28ce90 | 0x0005ce90
-`ResumeClusterNodeEx` | 279 (0x117) | Exported Function | 0x7f2950e0 | 0x000650e0
-`ResumeClusterNode` | 278 (0x116) | Exported Function | 0x7f294f60 | 0x00064f60
-`RestoreClusterDatabase` | 277 (0x115) | Exported Function | 0x7f2700e0 | 0x000400e0
-`RestartClusterResource` | 276 (0x114) | Exported Function | 0x7f29faf0 | 0x0006faf0
-`RemoveResourceFromClusterSharedVolumes` | 275 (0x113) | Exported Function | 0x7f2a0880 | 0x00070880
-`SetClusterGroupNodeList` | 281 (0x119) | Exported Function | 0x7f28cee0 | 0x0005cee0
-`OpenClusterNetwork` | 255 (0xff) | Exported Function | 0x7f2935b0 | 0x000635b0
-`OpenClusterNetInterfaceEx` | 254 (0xfe) | Exported Function | 0x7f28f890 | 0x0005f890
-`OpenClusterNetInterface` | 253 (0xfd) | Exported Function | 0x7f28f860 | 0x0005f860
-`InitializeClusFaultDomainInfoArray` | 233 (0xe9) | Exported Function | 0x7f2acba0 | 0x0007cba0
-`InitializeClusFaultDomainInfo` | 232 (0xe8) | Exported Function | 0x7f2aeb80 | 0x0007eb80
-`GetNotifyEventHandle` | 231 (0xe7) | Exported Function | 0x7f299c30 | 0x00069c30
-`GetNodeClusterState` | 230 (0xe6) | Exported Function | 0x7f26cc40 | 0x0003cc40
-`GetNodeCloudTypeDW` | 229 (0xe5) | Exported Function | 0x7f287e20 | 0x00057e20
-`GetClusterSharedVolumeNameForFile` | 228 (0xe4) | Exported Function | 0x7f2704b0 | 0x000404b0
-`InitializeClusStorageEnclosureInfo` | 234 (0xea) | Exported Function | 0x7f2acb70 | 0x0007cb70
-`GetClusterResourceTypeKey` | 227 (0xe3) | Exported Function | 0x7f29cba0 | 0x0006cba0
-`GetClusterResourceNetworkName` | 225 (0xe1) | Exported Function | 0x7f2a0560 | 0x00070560
-`GetClusterResourceKey` | 224 (0xe0) | Exported Function | 0x7f29cb00 | 0x0006cb00
-`GetClusterResourceDependencyExpression` | 223 (0xdf) | Exported Function | 0x7f2a06f0 | 0x000706f0
-`GetClusterQuorumResource` | 222 (0xde) | Exported Function | 0x7f26e7d0 | 0x0003e7d0
-`GetClusterNotifyV2` | 221 (0xdd) | Exported Function | 0x7f299ca0 | 0x00069ca0
-`GetClusterNotify` | 220 (0xdc) | Exported Function | 0x7f299170 | 0x00069170
-`GetClusterResourceState` | 226 (0xe2) | Exported Function | 0x7f29f930 | 0x0006f930
-`InitializeClusStorageEnclosureInfoArray` | 235 (0xeb) | Exported Function | 0x7f2acba0 | 0x0007cba0
-`IsFileOnClusterSharedVolume` | 236 (0xec) | Exported Function | 0x7f2703d0 | 0x000403d0
-`MoveClusterGroup` | 237 (0xed) | Exported Function | 0x7f28d490 | 0x0005d490
-`OpenClusterGroupSet` | 252 (0xfc) | Exported Function | 0x7f2aff20 | 0x0007ff20
-`OpenClusterGroupEx` | 251 (0xfb) | Exported Function | 0x7f28cbd0 | 0x0005cbd0
-`OpenClusterGroup` | 250 (0xfa) | Exported Function | 0x7f28cba0 | 0x0005cba0
-`OpenClusterEx2` | 248 (0xf8) | Exported Function | 0x7f26e1b0 | 0x0003e1b0
-`OpenClusterEx` | 249 (0xf9) | Exported Function | 0x7f26e180 | 0x0003e180
-`OpenCluster` | 247 (0xf7) | Exported Function | 0x7f26e150 | 0x0003e150
-`OnlineClusterResourceEx` | 246 (0xf6) | Exported Function | 0x7f29fb90 | 0x0006fb90
-`OnlineClusterResource` | 245 (0xf5) | Exported Function | 0x7f29fb40 | 0x0006fb40
-`OnlineClusterGroupEx` | 244 (0xf4) | Exported Function | 0x7f28d180 | 0x0005d180
-`OnlineClusterGroup` | 243 (0xf3) | Exported Function | 0x7f28d100 | 0x0005d100
-`OfflineClusterResourceEx` | 242 (0xf2) | Exported Function | 0x7f29fc50 | 0x0006fc50
-`OfflineClusterResource` | 241 (0xf1) | Exported Function | 0x7f29fc00 | 0x0006fc00
-`OfflineClusterGroupEx` | 240 (0xf0) | Exported Function | 0x7f28d680 | 0x0005d680
-`OfflineClusterGroup` | 239 (0xef) | Exported Function | 0x7f28d640 | 0x0005d640
-`MoveClusterGroupEx` | 238 (0xee) | Exported Function | 0x7f28d2a0 | 0x0005d2a0
-`ClusterResourceControl` | 147 (0x93) | Exported Function | 0x7f290250 | 0x00060250
-`ClusterResourceCloseEnumEx` | 146 (0x92) | Exported Function | 0x7f26ff70 | 0x0003ff70
-`ClusterResourceCloseEnum` | 145 (0x91) | Exported Function | 0x7f2a01e0 | 0x000701e0
-`ClusterRemoveGroupFromGroupSet` | 144 (0x90) | Exported Function | 0x7f2b02f0 | 0x000802f0
-`ClusterCreateVMReservationWithDomains` | 52 (0x34) | Exported Function | 0x7f2af250 | 0x0007f250
-`ClusterCreateVMReservation` | 51 (0x33) | Exported Function | 0x7f2af210 | 0x0007f210
-`ClusterCreateFaultDomainFromXML` | 50 (0x32) | Exported Function | 0x7f2ad110 | 0x0007d110
-`ClusterCreateFaultDomain` | 49 (0x31) | Exported Function | 0x7f2ace80 | 0x0007ce80
-`ClusterCreateClusterStorageEnclosure` | 48 (0x30) | Exported Function | 0x7f2a9f10 | 0x00079f10
-`ClusterCreateAffinityRule` | 47 (0x2f) | Exported Function | 0x7f2b1e00 | 0x00081e00
-`ClusterEnum` | 53 (0x35) | Exported Function | 0x7f26ed00 | 0x0003ed00
-`ClusterControl` | 46 (0x2e) | Exported Function | 0x7f290be0 | 0x00060be0
-`ClusterCloseEnum` | 44 (0x2c) | Exported Function | 0x7f26ed90 | 0x0003ed90
-`ClusterChangeVMSettings` | 43 (0x2b) | Exported Function | 0x7f2af8c0 | 0x0007f8c0
-`ClusterCaptureLiveDump` | 42 (0x2a) | Exported Function | 0x7f26e970 | 0x0003e970
-`ClusterAffinityRuleControl` | 41 (0x29) | Exported Function | 0x7f2b2260 | 0x00082260
-`ClusterAddGroupToGroupSetWithDomains` | 40 (0x28) | Exported Function | 0x7f2b0280 | 0x00080280
-`ClusterAddGroupToGroupSet` | 39 (0x27) | Exported Function | 0x7f2b0220 | 0x00080220
-`ClusterCloseEnumEx` | 45 (0x2d) | Exported Function | 0x7f26ef30 | 0x0003ef30
-`ClusterAddGroupToAffinityRule` | 38 (0x26) | Exported Function | 0x7f2b1fc0 | 0x00081fc0
-`ClusterEnumEx` | 54 (0x36) | Exported Function | 0x7f26ef00 | 0x0003ef00
-`ClusterFreeMrrResponse` | 56 (0x38) | Exported Function | 0x7f2a5270 | 0x00075270
-`ClusterGroupControl` | 70 (0x46) | Exported Function | 0x7f2906c0 | 0x000606c0
-`ClusterGroupCloseEnumEx` | 69 (0x45) | Exported Function | 0x7f26fb70 | 0x0003fb70
-`ClusterGroupCloseEnum` | 68 (0x44) | Exported Function | 0x7f26f7c0 | 0x0003f7c0
-`ClusterGetPlacementScore` | 67 (0x43) | Exported Function | 0x7f2af440 | 0x0007f440
-`ClusterGetFaultDomainXML` | 66 (0x42) | Exported Function | 0x7f2ad5f0 | 0x0007d5f0
-`ClusterGetFaultDomainState` | 65 (0x41) | Exported Function | 0x7f2ae980 | 0x0007e980
-`ClusterFreeMemory` | 55 (0x37) | Exported Function | 0x7f29d740 | 0x0006d740
-`ClusterGetFaultDomainObjects` | 64 (0x40) | Exported Function | 0x7f2ae290 | 0x0007e290
-`ClusterGetEnumCountEx` | 62 (0x3e) | Exported Function | 0x7f26eed0 | 0x0003eed0
-`ClusterGetEnumCount` | 61 (0x3d) | Exported Function | 0x7f26ecd0 | 0x0003ecd0
-`ClusterGetDriveInfo` | 60 (0x3c) | Exported Function | 0x7f2ac960 | 0x0007c960
-`ClusterGetClusterStorageEnclosureObjects` | 59 (0x3b) | Exported Function | 0x7f2abbe0 | 0x0007bbe0
-`ClusterGetClusterStorageEnclosureObject` | 58 (0x3a) | Exported Function | 0x7f2aa900 | 0x0007a900
-`ClusterFreeVMReservation` | 57 (0x39) | Exported Function | 0x7f2af2a0 | 0x0007f2a0
-`ClusterGetFaultDomainObject` | 63 (0x3f) | Exported Function | 0x7f2ad8c0 | 0x0007d8c0
-`CluRemoveFaultDomainObject` | 37 (0x25) | Exported Function | 0x7f2c3670 | 0x00093670
-`CluGetFaultDomainObjects` | 36 (0x24) | Exported Function | 0x7f2c3370 | 0x00093370
-`CluGetFaultDomainObject` | 35 (0x23) | Exported Function | 0x7f2c34a0 | 0x000934a0
-`CCHlpConfigureNode` | 2 (0x2) | Exported Function | 0x7f2a9320 | 0x00079320
-`CCHlpAddNodeUpdateCluster` | 1 (0x1) | Exported Function | 0x7f2a9950 | 0x00079950
-`CanResourceBeDependent` | 19 (0x13) | Exported Function | 0x7f2a0000 | 0x00070000
-`CancelClusterGroupOperation` | 20 (0x14) | Exported Function | 0x7f28d6f0 | 0x0005d6f0
-`BackupClusterDatabase` | 18 (0x12) | Exported Function | 0x7f2700b0 | 0x000400b0
-`AddResourceToClusterSharedVolumesEx` | 17 (0x11) | Exported Function | 0x7f2a0810 | 0x00070810
-`CCHlpCreateClusterNameCOIfNotExists` | 3 (0x3) | Exported Function | 0x7f2a84b0 | 0x000784b0
-`AddResourceToClusterSharedVolumes` | 16 (0x10) | Exported Function | 0x7f2a07c0 | 0x000707c0
-`AddClusterStorageNode` | 14 (0xe) | Exported Function | 0x7f2808d0 | 0x000508d0
-`AddClusterResourceNode` | 13 (0xd) | Exported Function | 0x7f29fda0 | 0x0006fda0
-`AddClusterResourceDependency` | 12 (0xc) | Exported Function | 0x7f29ff40 | 0x0006ff40
-`AddClusterNode` | 11 (0xb) | Exported Function | 0x7f27f7c0 | 0x0004f7c0
-`AddClusterGroupToGroupSetDependency` | 10 (0xa) | Exported Function | 0x7f2b0440 | 0x00080440
-`AddClusterGroupSetDependency` | 9 (0x9) | Exported Function | 0x7f2b0330 | 0x00080330
-`AddCrossClusterGroupSetDependency` | 15 (0xf) | Exported Function | 0x7f2b1a10 | 0x00081a10
-`CCHlpCreateClusterNameInAD` | 4 (0x4) | Exported Function | 0x7f2a9a90 | 0x00079a90
-`CCHlpGetClusterServiceSecret` | 5 (0x5) | Exported Function | 0x7f2a9890 | 0x00079890
-`CCHlpGetDNSHostLabel` | 6 (0x6) | Exported Function | 0x7f2a91f0 | 0x000791f0
-`CluGetDriveInfo` | 34 (0x22) | Exported Function | 0x7f2c3580 | 0x00093580
-`CluFreeStr` | 33 (0x21) | Exported Function | 0x7f2c3290 | 0x00093290
-`CluFreeGuidArrayPtr` | 32 (0x20) | Exported Function | 0x7f2c32b0 | 0x000932b0
-`CluFreeFaultDomainInfo` | 31 (0x1f) | Exported Function | 0x7f2c32f0 | 0x000932f0
-`CloseClusterResource` | 30 (0x1e) | Exported Function | 0x7f29f760 | 0x0006f760
-`CloseClusterNotifyPort` | 29 (0x1d) | Exported Function | 0x7f2992f0 | 0x000692f0
-`CloseClusterNode` | 28 (0x1c) | Exported Function | 0x7f294890 | 0x00064890
-`CloseClusterNetwork` | 27 (0x1b) | Exported Function | 0x7f293610 | 0x00063610
-`CloseClusterNetInterface` | 26 (0x1a) | Exported Function | 0x7f28f8c0 | 0x0005f8c0
-`CloseClusterGroupSet` | 25 (0x19) | Exported Function | 0x7f2b0050 | 0x00080050
-`CloseClusterGroup` | 24 (0x18) | Exported Function | 0x7f28cc00 | 0x0005cc00
-`CloseCluster` | 23 (0x17) | Exported Function | 0x7f26e1e0 | 0x0003e1e0
-`ChangeClusterResourceGroupEx` | 22 (0x16) | Exported Function | 0x7f29fd20 | 0x0006fd20
-`ChangeClusterResourceGroup` | 21 (0x15) | Exported Function | 0x7f29fcc0 | 0x0006fcc0
-`CCHlpRestoreClusterVirtualObjectToInitialState` | 7 (0x7) | Exported Function | 0x7f2a9140 | 0x00079140
-`ClusterGroupEnum` | 71 (0x47) | Exported Function | 0x7f26f730 | 0x0003f730
-`SetClusterServiceAccountPassword` | 289 (0x121) | Exported Function | 0x7f270160 | 0x00040160
-`ClusterGroupEnumEx` | 72 (0x48) | Exported Function | 0x7f26f950 | 0x0003f950
-`ClusterGroupGetEnumCountEx` | 74 (0x4a) | Exported Function | 0x7f26f920 | 0x0003f920
-`ClusterRegDeleteValueForceSync` | 125 (0x7d) | Exported Function | 0x7f29d600 | 0x0006d600
-`ClusterRegDeleteValue` | 124 (0x7c) | Exported Function | 0x7f29d5b0 | 0x0006d5b0
-`ClusterRegDeleteKeyForceSync` | 123 (0x7b) | Exported Function | 0x7f29d270 | 0x0006d270
-`ClusterRegDeleteKey` | 122 (0x7a) | Exported Function | 0x7f29d220 | 0x0006d220
-`ClusterRegCreateReadBatch` | 121 (0x79) | Exported Function | 0x7f2c2db0 | 0x00092db0
-`ClusterRegCreateKeyForceSync` | 120 (0x78) | Exported Function | 0x7f29d1e0 | 0x0006d1e0
-`ClusterRegEnumKey` | 126 (0x7e) | Exported Function | 0x7f29d450 | 0x0006d450
-`ClusterRegCreateKey` | 119 (0x77) | Exported Function | 0x7f29ce40 | 0x0006ce40
-`ClusterRegCreateBatch` | 117 (0x75) | Exported Function | 0x7f2c2d50 | 0x00092d50
-`ClusterRegCloseReadBatchReply` | 116 (0x74) | Exported Function | 0x7f2c2ee0 | 0x00092ee0
-`ClusterRegCloseReadBatchEx` | 115 (0x73) | Exported Function | 0x7f2a3b20 | 0x00073b20
-`ClusterRegCloseReadBatch` | 114 (0x72) | Exported Function | 0x7f2a3c70 | 0x00073c70
-`ClusterRegCloseKey` | 113 (0x71) | Exported Function | 0x7f29d2b0 | 0x0006d2b0
-`ClusterRegCloseBatchNotifyPort` | 112 (0x70) | Exported Function | 0x7f2a3960 | 0x00073960
-`ClusterRegCreateBatchNotifyPort` | 118 (0x76) | Exported Function | 0x7f2a38e0 | 0x000738e0
-`ClusterRegCloseBatchEx` | 111 (0x6f) | Exported Function | 0x7f2a3730 | 0x00073730
-`ClusterRegEnumValue` | 127 (0x7f) | Exported Function | 0x7f29d750 | 0x0006d750
-`ClusterRegGetKeySecurity` | 129 (0x81) | Exported Function | 0x7f29d940 | 0x0006d940
-`ClusterRemoveGroupFromAffinityRule` | 143 (0x8f) | Exported Function | 0x7f2b2110 | 0x00082110
-`ClusterRemoveFaultDomain` | 142 (0x8e) | Exported Function | 0x7f2ad240 | 0x0007d240
-`ClusterRemoveClusterStorageEnclosure` | 141 (0x8d) | Exported Function | 0x7f2aa3e0 | 0x0007a3e0
-`ClusterRemoveAffinityRule` | 140 (0x8c) | Exported Function | 0x7f2b1f00 | 0x00081f00
-`ClusterRegSyncDatabase` | 139 (0x8b) | Exported Function | 0x7f29da20 | 0x0006da20
-`ClusterRegSetValueForceSync` | 138 (0x8a) | Exported Function | 0x7f29d570 | 0x0006d570
-`ClusterRegGetBatchNotification` | 128 (0x80) | Exported Function | 0x7f2a3a20 | 0x00073a20
-`ClusterRegSetValue` | 137 (0x89) | Exported Function | 0x7f29d500 | 0x0006d500
-`ClusterRegReadBatchReplyNextCommand` | 135 (0x87) | Exported Function | 0x7f2c2e70 | 0x00092e70
-`ClusterRegReadBatchAddCommand` | 134 (0x86) | Exported Function | 0x7f2c2e10 | 0x00092e10
-`ClusterRegQueryValue` | 133 (0x85) | Exported Function | 0x7f29d640 | 0x0006d640
-`ClusterRegQueryInfoKey` | 132 (0x84) | Exported Function | 0x7f29d870 | 0x0006d870
-`ClusterRegQueryAllValues` | 131 (0x83) | Exported Function | 0x7f29d6f0 | 0x0006d6f0
-`ClusterRegOpenKey` | 130 (0x82) | Exported Function | 0x7f29d070 | 0x0006d070
-`ClusterRegSetKeySecurity` | 136 (0x88) | Exported Function | 0x7f29d9b0 | 0x0006d9b0
-`ClusterRegCloseBatch` | 110 (0x6e) | Exported Function | 0x7f2a3780 | 0x00073780
-`ClusterRegBatchReadCommand` | 109 (0x6d) | Exported Function | 0x7f2a3810 | 0x00073810
-`ClusterRegBatchCloseNotification` | 108 (0x6c) | Exported Function | 0x7f2a3860 | 0x00073860
-`ClusterNetworkEnum` | 88 (0x58) | Exported Function | 0x7f2939b0 | 0x000639b0
-`ClusterNetworkControl` | 87 (0x57) | Exported Function | 0x7f290980 | 0x00060980
-`ClusterNetworkCloseEnum` | 86 (0x56) | Exported Function | 0x7f293a40 | 0x00063a40
-`ClusterNetInterfaceOpenEnum` | 85 (0x55) | Exported Function | 0x7f26f4b0 | 0x0003f4b0
-`ClusterNetInterfaceEnum` | 84 (0x54) | Exported Function | 0x7f26f560 | 0x0003f560
-`ClusterNetInterfaceControl` | 83 (0x53) | Exported Function | 0x7f290ab0 | 0x00060ab0
-`ClusterNetworkGetEnumCount` | 89 (0x59) | Exported Function | 0x7f293980 | 0x00063980
-`ClusterNetInterfaceCloseEnum` | 82 (0x52) | Exported Function | 0x7f26f5e0 | 0x0003f5e0
-`ClusterGroupSetGetEnumCount` | 80 (0x50) | Exported Function | 0x7f26f200 | 0x0003f200
-`ClusterGroupSetEnum` | 79 (0x4f) | Exported Function | 0x7f26f230 | 0x0003f230
-`ClusterGroupSetControl` | 78 (0x4e) | Exported Function | 0x7f2910c0 | 0x000610c0
-`ClusterGroupSetCloseEnum` | 77 (0x4d) | Exported Function | 0x7f26f2b0 | 0x0003f2b0
-`ClusterGroupOpenEnumEx` | 76 (0x4c) | Exported Function | 0x7f26f860 | 0x0003f860
-`ClusterGroupOpenEnum` | 75 (0x4b) | Exported Function | 0x7f26f670 | 0x0003f670
-`ClusterGroupSetOpenEnum` | 81 (0x51) | Exported Function | 0x7f26f170 | 0x0003f170
-`ClusterNetworkHealthFreeInterfaceConnections` | 90 (0x5a) | Exported Function | 0x7f273c50 | 0x00043c50
-`ClusterNetworkHealthFreeNodeConnections` | 91 (0x5b) | Exported Function | 0x7f273c00 | 0x00043c00
-`ClusterNetworkHealthGetInterfaceConnections` | 92 (0x5c) | Exported Function | 0x7f273920 | 0x00043920
-`ClusterRegBatchAddCommand` | 107 (0x6b) | Exported Function | 0x7f2c2cb0 | 0x00092cb0
-`ClusterOpenEnumEx` | 106 (0x6a) | Exported Function | 0x7f26ede0 | 0x0003ede0
-`ClusterOpenEnum` | 105 (0x69) | Exported Function | 0x7f26ebf0 | 0x0003ebf0
-`ClusterNodeReplacement` | 104 (0x68) | Exported Function | 0x7f288980 | 0x00058980
-`ClusterNodeOpenEnumEx` | 103 (0x67) | Exported Function | 0x7f26f340 | 0x0003f340
-`ClusterNodeOpenEnum` | 102 (0x66) | Exported Function | 0x7f26ef90 | 0x0003ef90
-`ClusterNodeGetEnumCountEx` | 101 (0x65) | Exported Function | 0x7f26f3e0 | 0x0003f3e0
-`ClusterNodeGetEnumCount` | 100 (0x64) | Exported Function | 0x7f26f020 | 0x0003f020
-`ClusterNodeEnumEx` | 99 (0x63) | Exported Function | 0x7f26f410 | 0x0003f410
-`ClusterNodeEnum` | 98 (0x62) | Exported Function | 0x7f26f050 | 0x0003f050
-`ClusterNodeControl` | 97 (0x61) | Exported Function | 0x7f2907f0 | 0x000607f0
-`ClusterNodeCloseEnumEx` | 96 (0x60) | Exported Function | 0x7f26f440 | 0x0003f440
-`ClusterNodeCloseEnum` | 95 (0x5f) | Exported Function | 0x7f26f0e0 | 0x0003f0e0
-`ClusterNetworkOpenEnum` | 94 (0x5e) | Exported Function | 0x7f2938f0 | 0x000638f0
-`ClusterNetworkHealthGetNodeConnections` | 93 (0x5d) | Exported Function | 0x7f273330 | 0x00043330
-`ClusterGroupGetEnumCount` | 73 (0x49) | Exported Function | 0x7f26f700 | 0x0003f700
-`SetGroupDependencyExpression` | 290 (0x122) | Exported Function | 0x7f28d890 | 0x0005d890
+Function Name | Ordinal | Type
+-- | -- | --
+`DetermineCNOResTypeFromNodelist` | 191 | Exported Function
+`EvictClusterNode` | 194 | Exported Function
+`DetermineClusterCloudTypeFromNodelist` | 193 | Exported Function
+`DetermineCNOResTypeFromCluster` | 190 | Exported Function
+`EvictClusterNodeEx` | 195 | Exported Function
+`FreeClusFaultDomainInfoArray` | 198 | Exported Function
+`FreeClusFaultDomainXML` | 199 | Exported Function
+`FailClusterResource` | 196 | Exported Function
+`FreeClusFaultDomainInfo` | 197 | Exported Function
+`DeleteClusterGroup` | 184 | Exported Function
+`DeleteClusterGroupSet` | 185 | Exported Function
+`CreateClusterResourceType` | 182 | Exported Function
+`CreateClusterResourceWithId` | 183 | Exported Function
+`DeleteClusterResource` | 186 | Exported Function
+`DestroyClusterGroup` | 189 | Exported Function
+`DetermineClusterCloudTypeFromCluster` | 192 | Exported Function
+`DeleteClusterResourceType` | 187 | Exported Function
+`DestroyCluster` | 188 | Exported Function
+`GetClusterNetInterface` | 211 | Exported Function
+`GetClusterNetInterfaceKey` | 212 | Exported Function
+`GetClusterInformation` | 209 | Exported Function
+`GetClusterKey` | 210 | Exported Function
+`GetClusterNetInterfaceState` | 213 | Exported Function
+`GetClusterNetworkState` | 216 | Exported Function
+`GetClusterNodeId` | 217 | Exported Function
+`GetClusterNetworkId` | 214 | Exported Function
+`GetClusterNetworkKey` | 215 | Exported Function
+`GetClusterFromGroup` | 202 | Exported Function
+`GetClusterFromNetInterface` | 203 | Exported Function
+`FreeClusStorageEnclosureInfo` | 200 | Exported Function
+`FreeClusStorageEnclosureInfoArray` | 201 | Exported Function
+`GetClusterFromNetwork` | 204 | Exported Function
+`GetClusterGroupKey` | 207 | Exported Function
+`GetClusterGroupState` | 208 | Exported Function
+`GetClusterFromNode` | 205 | Exported Function
+`GetClusterFromResource` | 206 | Exported Function
+`ClusterResourceTypeControlAsUser` | 157 | Exported Function
+`ClusterResourceTypeEnum` | 158 | Exported Function
+`ClusterResourceTypeCloseEnum` | 155 | Exported Function
+`ClusterResourceTypeControl` | 156 | Exported Function
+`ClusterResourceTypeGetEnumCount` | 159 | Exported Function
+`ClusterSendReceiveMrrAsUser` | 162 | Exported Function
+`ClusterSetAccountAccess` | 163 | Exported Function
+`ClusterResourceTypeOpenEnum` | 160 | Exported Function
+`ClusterSendReceiveMrr` | 161 | Exported Function
+`ClusterResourceControlAsUser` | 148 | Exported Function
+`ClusterResourceEnum` | 149 | Exported Function
+`ClusterResourceCloseEnumEx` | 146 | Exported Function
+`ClusterResourceControl` | 147 | Exported Function
+`ClusterResourceEnumEx` | 150 | Exported Function
+`ClusterResourceOpenEnum` | 153 | Exported Function
+`ClusterResourceOpenEnumEx` | 154 | Exported Function
+`ClusterResourceGetEnumCount` | 151 | Exported Function
+`ClusterResourceGetEnumCountEx` | 152 | Exported Function
+`CreateClusterGroupEx` | 175 | Exported Function
+`CreateClusterGroupSet` | 176 | Exported Function
+`CreateClusterAvailabilitySet` | 173 | Exported Function
+`CreateClusterGroup` | 174 | Exported Function
+`CreateClusterManagementPoint` | 177 | Exported Function
+`CreateClusterNotifyPortV2` | 180 | Exported Function
+`CreateClusterResource` | 181 | Exported Function
+`CreateClusterNameAccount` | 178 | Exported Function
+`CreateClusterNotifyPort` | 179 | Exported Function
+`ClusterSetNodeFaultDomain` | 166 | Exported Function
+`ClusterSharedVolumeClearBackupState` | 167 | Exported Function
+`ClusterSetClusterStorageEnclosure` | 164 | Exported Function
+`ClusterSetFaultDomain` | 165 | Exported Function
+`ClusterSharedVolumeSetSnapshotState` | 168 | Exported Function
+`ClusterUpgradeFunctionalLevelEx` | 171 | Exported Function
+`CreateCluster` | 172 | Exported Function
+`ClusterStmFindDisk` | 169 | Exported Function
+`ClusterUpgradeFunctionalLevel` | 170 | Exported Function
+`GetClusterNodeKey` | 218 | Exported Function
+`RegisterClusterResourceTypeNotifyV2` | 266 | Exported Function
+`RemoveClusterGroupDependency` | 267 | Exported Function
+`RegisterClusterNotify` | 264 | Exported Function
+`RegisterClusterNotifyV2` | 265 | Exported Function
+`RemoveClusterGroupSetDependency` | 268 | Exported Function
+`RemoveClusterResourceDependency` | 271 | Exported Function
+`RemoveClusterResourceNode` | 272 | Exported Function
+`RemoveClusterGroupToGroupSetDependency` | 269 | Exported Function
+`RemoveClusterNameAccount` | 270 | Exported Function
+`OpenClusterNode` | 257 | Exported Function
+`OpenClusterNodeById` | 258 | Exported Function
+`OpenClusterNetwork` | 255 | Exported Function
+`OpenClusterNetworkEx` | 256 | Exported Function
+`OpenClusterNodeEx` | 259 | Exported Function
+`PauseClusterNode` | 262 | Exported Function
+`PauseClusterNodeEx` | 263 | Exported Function
+`OpenClusterResource` | 260 | Exported Function
+`OpenClusterResourceEx` | 261 | Exported Function
+`SetClusterNetworkName` | 284 | Exported Function
+`SetClusterNetworkPriorityOrder` | 285 | Exported Function
+`SetClusterGroupSetDependencyExpression` | 282 | Exported Function
+`SetClusterName` | 283 | Exported Function
+`SetClusterQuorumResource` | 286 | Exported Function
+`SetClusterServiceAccountPassword` | 289 | Exported Function
+`SetGroupDependencyExpression` | 290 | Exported Function
+`SetClusterResourceDependencyExpression` | 287 | Exported Function
+`SetClusterResourceName` | 288 | Exported Function
+`RemoveResourceFromClusterSharedVolumes` | 275 | Exported Function
+`RestartClusterResource` | 276 | Exported Function
+`RemoveClusterStorageNode` | 273 | Exported Function
+`RemoveCrossClusterGroupSetDependency` | 274 | Exported Function
+`RestoreClusterDatabase` | 277 | Exported Function
+`SetClusterGroupName` | 280 | Exported Function
+`SetClusterGroupNodeList` | 281 | Exported Function
+`ResumeClusterNode` | 278 | Exported Function
+`ResumeClusterNodeEx` | 279 | Exported Function
+`GetNodeClusterState` | 230 | Exported Function
+`GetNotifyEventHandle` | 231 | Exported Function
+`GetClusterSharedVolumeNameForFile` | 228 | Exported Function
+`GetNodeCloudTypeDW` | 229 | Exported Function
+`InitializeClusFaultDomainInfo` | 232 | Exported Function
+`InitializeClusStorageEnclosureInfoArray` | 235 | Exported Function
+`IsFileOnClusterSharedVolume` | 236 | Exported Function
+`InitializeClusFaultDomainInfoArray` | 233 | Exported Function
+`InitializeClusStorageEnclosureInfo` | 234 | Exported Function
+`GetClusterNotifyV2` | 221 | Exported Function
+`GetClusterQuorumResource` | 222 | Exported Function
+`GetClusterNodeState` | 219 | Exported Function
+`GetClusterNotify` | 220 | Exported Function
+`GetClusterResourceDependencyExpression` | 223 | Exported Function
+`GetClusterResourceState` | 226 | Exported Function
+`GetClusterResourceTypeKey` | 227 | Exported Function
+`GetClusterResourceKey` | 224 | Exported Function
+`GetClusterResourceNetworkName` | 225 | Exported Function
+`OpenClusterEx` | 249 | Exported Function
+`OpenClusterEx2` | 248 | Exported Function
+`OnlineClusterResourceEx` | 246 | Exported Function
+`OpenCluster` | 247 | Exported Function
+`OpenClusterGroup` | 250 | Exported Function
+`OpenClusterNetInterface` | 253 | Exported Function
+`OpenClusterNetInterfaceEx` | 254 | Exported Function
+`OpenClusterGroupEx` | 251 | Exported Function
+`OpenClusterGroupSet` | 252 | Exported Function
+`OfflineClusterGroup` | 239 | Exported Function
+`OfflineClusterGroupEx` | 240 | Exported Function
+`MoveClusterGroup` | 237 | Exported Function
+`MoveClusterGroupEx` | 238 | Exported Function
+`OfflineClusterResource` | 241 | Exported Function
+`OnlineClusterGroupEx` | 244 | Exported Function
+`OnlineClusterResource` | 245 | Exported Function
+`OfflineClusterResourceEx` | 242 | Exported Function
+`OnlineClusterGroup` | 243 | Exported Function
+`ClusterCreateClusterStorageEnclosure` | 48 | Exported Function
+`ClusterCreateFaultDomain` | 49 | Exported Function
+`ClusterControl` | 46 | Exported Function
+`ClusterCreateAffinityRule` | 47 | Exported Function
+`ClusterCreateFaultDomainFromXML` | 50 | Exported Function
+`ClusterEnum` | 53 | Exported Function
+`ClusterEnumEx` | 54 | Exported Function
+`ClusterCreateVMReservation` | 51 | Exported Function
+`ClusterCreateVMReservationWithDomains` | 52 | Exported Function
+`ClusterAddGroupToGroupSet` | 39 | Exported Function
+`ClusterAddGroupToGroupSetWithDomains` | 40 | Exported Function
+`CluRemoveFaultDomainObject` | 37 | Exported Function
+`ClusterAddGroupToAffinityRule` | 38 | Exported Function
+`ClusterAffinityRuleControl` | 41 | Exported Function
+`ClusterCloseEnum` | 44 | Exported Function
+`ClusterCloseEnumEx` | 45 | Exported Function
+`ClusterCaptureLiveDump` | 42 | Exported Function
+`ClusterChangeVMSettings` | 43 | Exported Function
+`ClusterGetFaultDomainXML` | 66 | Exported Function
+`ClusterGetPlacementScore` | 67 | Exported Function
+`ClusterGetFaultDomainObjects` | 64 | Exported Function
+`ClusterGetFaultDomainState` | 65 | Exported Function
+`ClusterGroupCloseEnum` | 68 | Exported Function
+`ClusterGroupEnum` | 71 | Exported Function
+`ClusterGroupEnumEx` | 72 | Exported Function
+`ClusterGroupCloseEnumEx` | 69 | Exported Function
+`ClusterGroupControl` | 70 | Exported Function
+`ClusterFreeVMReservation` | 57 | Exported Function
+`ClusterGetClusterStorageEnclosureObject` | 58 | Exported Function
+`ClusterFreeMemory` | 55 | Exported Function
+`ClusterFreeMrrResponse` | 56 | Exported Function
+`ClusterGetClusterStorageEnclosureObjects` | 59 | Exported Function
+`ClusterGetEnumCountEx` | 62 | Exported Function
+`ClusterGetFaultDomainObject` | 63 | Exported Function
+`ClusterGetDriveInfo` | 60 | Exported Function
+`ClusterGetEnumCount` | 61 | Exported Function
+`CancelClusterGroupOperation` | 20 | Exported Function
+`CanResourceBeDependent` | 19 | Exported Function
+`AddResourceToClusterSharedVolumesEx` | 17 | Exported Function
+`BackupClusterDatabase` | 18 | Exported Function
+`CCHlpAddNodeUpdateCluster` | 1 | Exported Function
+`CCHlpCreateClusterNameInAD` | 4 | Exported Function
+`CCHlpGetClusterServiceSecret` | 5 | Exported Function
+`CCHlpConfigureNode` | 2 | Exported Function
+`CCHlpCreateClusterNameCOIfNotExists` | 3 | Exported Function
+`AddClusterGroupToGroupSetDependency` | 10 | Exported Function
+`AddClusterNode` | 11 | Exported Function
+`AddClusterGroupDependency` | 8 | Exported Function
+`AddClusterGroupSetDependency` | 9 | Exported Function
+`AddClusterResourceDependency` | 12 | Exported Function
+`AddCrossClusterGroupSetDependency` | 15 | Exported Function
+`AddResourceToClusterSharedVolumes` | 16 | Exported Function
+`AddClusterResourceNode` | 13 | Exported Function
+`AddClusterStorageNode` | 14 | Exported Function
+`CloseClusterResource` | 30 | Exported Function
+`CluFreeFaultDomainInfo` | 31 | Exported Function
+`CloseClusterNode` | 28 | Exported Function
+`CloseClusterNotifyPort` | 29 | Exported Function
+`CluFreeGuidArrayPtr` | 32 | Exported Function
+`CluGetFaultDomainObject` | 35 | Exported Function
+`CluGetFaultDomainObjects` | 36 | Exported Function
+`CluFreeStr` | 33 | Exported Function
+`CluGetDriveInfo` | 34 | Exported Function
+`ChangeClusterResourceGroup` | 21 | Exported Function
+`ChangeClusterResourceGroupEx` | 22 | Exported Function
+`CCHlpGetDNSHostLabel` | 6 | Exported Function
+`CCHlpRestoreClusterVirtualObjectToInitialState` | 7 | Exported Function
+`CloseCluster` | 23 | Exported Function
+`CloseClusterNetInterface` | 26 | Exported Function
+`CloseClusterNetwork` | 27 | Exported Function
+`CloseClusterGroup` | 24 | Exported Function
+`CloseClusterGroupSet` | 25 | Exported Function
+`ClusterGroupGetEnumCount` | 73 | Exported Function
+`ClusterRegCreateReadBatch` | 121 | Exported Function
+`ClusterRegDeleteKey` | 122 | Exported Function
+`ClusterRegCreateKey` | 119 | Exported Function
+`ClusterRegCreateKeyForceSync` | 120 | Exported Function
+`ClusterRegDeleteKeyForceSync` | 123 | Exported Function
+`ClusterRegEnumKey` | 126 | Exported Function
+`ClusterRegEnumValue` | 127 | Exported Function
+`ClusterRegDeleteValue` | 124 | Exported Function
+`ClusterRegDeleteValueForceSync` | 125 | Exported Function
+`ClusterRegCloseBatchNotifyPort` | 112 | Exported Function
+`ClusterRegCloseKey` | 113 | Exported Function
+`ClusterRegCloseBatch` | 110 | Exported Function
+`ClusterRegCloseBatchEx` | 111 | Exported Function
+`ClusterRegCloseReadBatch` | 114 | Exported Function
+`ClusterRegCreateBatch` | 117 | Exported Function
+`ClusterRegCreateBatchNotifyPort` | 118 | Exported Function
+`ClusterRegCloseReadBatchEx` | 115 | Exported Function
+`ClusterRegCloseReadBatchReply` | 116 | Exported Function
+`ClusterRegSyncDatabase` | 139 | Exported Function
+`ClusterRemoveAffinityRule` | 140 | Exported Function
+`ClusterRegSetValue` | 137 | Exported Function
+`ClusterRegSetValueForceSync` | 138 | Exported Function
+`ClusterRemoveClusterStorageEnclosure` | 141 | Exported Function
+`ClusterRemoveGroupFromGroupSet` | 144 | Exported Function
+`ClusterResourceCloseEnum` | 145 | Exported Function
+`ClusterRemoveFaultDomain` | 142 | Exported Function
+`ClusterRemoveGroupFromAffinityRule` | 143 | Exported Function
+`ClusterRegOpenKey` | 130 | Exported Function
+`ClusterRegQueryAllValues` | 131 | Exported Function
+`ClusterRegGetBatchNotification` | 128 | Exported Function
+`ClusterRegGetKeySecurity` | 129 | Exported Function
+`ClusterRegQueryInfoKey` | 132 | Exported Function
+`ClusterRegReadBatchReplyNextCommand` | 135 | Exported Function
+`ClusterRegSetKeySecurity` | 136 | Exported Function
+`ClusterRegQueryValue` | 133 | Exported Function
+`ClusterRegReadBatchAddCommand` | 134 | Exported Function
+`ClusterNetInterfaceOpenEnum` | 85 | Exported Function
+`ClusterNetworkCloseEnum` | 86 | Exported Function
+`ClusterNetInterfaceControl` | 83 | Exported Function
+`ClusterNetInterfaceEnum` | 84 | Exported Function
+`ClusterNetworkControl` | 87 | Exported Function
+`ClusterNetworkHealthFreeInterfaceConnections` | 90 | Exported Function
+`ClusterNetworkHealthFreeNodeConnections` | 91 | Exported Function
+`ClusterNetworkEnum` | 88 | Exported Function
+`ClusterNetworkGetEnumCount` | 89 | Exported Function
+`ClusterGroupOpenEnumEx` | 76 | Exported Function
+`ClusterGroupSetCloseEnum` | 77 | Exported Function
+`ClusterGroupGetEnumCountEx` | 74 | Exported Function
+`ClusterGroupOpenEnum` | 75 | Exported Function
+`ClusterGroupSetControl` | 78 | Exported Function
+`ClusterGroupSetOpenEnum` | 81 | Exported Function
+`ClusterNetInterfaceCloseEnum` | 82 | Exported Function
+`ClusterGroupSetEnum` | 79 | Exported Function
+`ClusterGroupSetGetEnumCount` | 80 | Exported Function
+`ClusterNodeOpenEnumEx` | 103 | Exported Function
+`ClusterNodeReplacement` | 104 | Exported Function
+`ClusterNodeGetEnumCountEx` | 101 | Exported Function
+`ClusterNodeOpenEnum` | 102 | Exported Function
+`ClusterOpenEnum` | 105 | Exported Function
+`ClusterRegBatchCloseNotification` | 108 | Exported Function
+`ClusterRegBatchReadCommand` | 109 | Exported Function
+`ClusterOpenEnumEx` | 106 | Exported Function
+`ClusterRegBatchAddCommand` | 107 | Exported Function
+`ClusterNetworkOpenEnum` | 94 | Exported Function
+`ClusterNodeCloseEnum` | 95 | Exported Function
+`ClusterNetworkHealthGetInterfaceConnections` | 92 | Exported Function
+`ClusterNetworkHealthGetNodeConnections` | 93 | Exported Function
+`ClusterNodeCloseEnumEx` | 96 | Exported Function
+`ClusterNodeEnumEx` | 99 | Exported Function
+`ClusterNodeGetEnumCount` | 100 | Exported Function
+`ClusterNodeControl` | 97 | Exported Function
+`ClusterNodeEnum` | 98 | Exported Function
 
 
 ## Signature

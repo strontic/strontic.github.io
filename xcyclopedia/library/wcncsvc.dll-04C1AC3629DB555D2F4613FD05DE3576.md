@@ -24,10 +24,10 @@ PE256 | `CB5118E0332822EA387AED63EA79BE31CC53EB356D08DCAFAF742C41B598B201`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SvchostPushServiceGlobals` | 1 (0x1) | Exported Function | 0x0000000180003c90 | 0x00003c90
-`WcnServiceMain` | 2 (0x2) | Exported Function | 0x0000000180003ca0 | 0x00003ca0
+Function Name | Ordinal | Type
+-- | -- | --
+`WcnServiceMain` | 2 | Exported Function
+`SvchostPushServiceGlobals` | 1 | Exported Function
 
 
 ## Signature

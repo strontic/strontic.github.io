@@ -24,23 +24,23 @@ PE256 | `1895F95222274FB6DC5ACA5B7F232A2CF3CBB72DD47E8DA9DFDBAE97C729CCB5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WSHAddressToString` | 1 (0x1) | Exported Function | 0x0000000180001950 | 0x00001950
-`WSHEnumProtocols` | 2 (0x2) | Exported Function | 0x00000001800015d0 | 0x000015d0
-`WSHGetProviderGuid` | 3 (0x3) | Exported Function | 0x0000000180001a90 | 0x00001a90
-`WSHGetSockaddrType` | 4 (0x4) | Exported Function | 0x0000000180001010 | 0x00001010
-`WSHGetSocketInformation` | 5 (0x5) | Exported Function | 0x00000001800010f0 | 0x000010f0
-`WSHGetWildcardSockaddr` | 7 (0x7) | Exported Function | 0x0000000180001140 | 0x00001140
-`WSHGetWinsockMapping` | 8 (0x8) | Exported Function | 0x0000000180001190 | 0x00001190
-`WSHGetWSAProtocolInfo` | 6 (0x6) | Exported Function | 0x00000001800018e0 | 0x000018e0
-`WSHIoctl` | 9 (0x9) | Exported Function | 0x0000000180001ae0 | 0x00001ae0
-`WSHJoinLeaf` | 10 (0xa) | Exported Function | 0x00000001800017c0 | 0x000017c0
-`WSHNotify` | 11 (0xb) | Exported Function | 0x0000000180001550 | 0x00001550
-`WSHOpenSocket` | 12 (0xc) | Exported Function | 0x0000000180001510 | 0x00001510
-`WSHOpenSocket2` | 13 (0xd) | Exported Function | 0x0000000180001200 | 0x00001200
-`WSHSetSocketInformation` | 14 (0xe) | Exported Function | 0x00000001800015a0 | 0x000015a0
-`WSHStringToAddress` | 15 (0xf) | Exported Function | 0x00000001800019f0 | 0x000019f0
+Function Name | Ordinal | Type
+-- | -- | --
+`WSHNotify` | 11 | Exported Function
+`WSHJoinLeaf` | 10 | Exported Function
+`WSHIoctl` | 9 | Exported Function
+`WSHOpenSocket` | 12 | Exported Function
+`WSHStringToAddress` | 15 | Exported Function
+`WSHSetSocketInformation` | 14 | Exported Function
+`WSHOpenSocket2` | 13 | Exported Function
+`WSHGetWSAProtocolInfo` | 6 | Exported Function
+`WSHGetProviderGuid` | 3 | Exported Function
+`WSHEnumProtocols` | 2 | Exported Function
+`WSHAddressToString` | 1 | Exported Function
+`WSHGetSockaddrType` | 4 | Exported Function
+`WSHGetWinsockMapping` | 8 | Exported Function
+`WSHGetWildcardSockaddr` | 7 | Exported Function
+`WSHGetSocketInformation` | 5 | Exported Function
 
 
 ## Signature

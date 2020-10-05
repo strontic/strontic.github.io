@@ -24,13 +24,13 @@ PE256 | `9B8E41CD31FDA927DDC5C71A9ED6DFA0D2D1481F83E8DFE0CD2F559C16632CEC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MI_Application_InitializeV1` | 5 (0x5) | Exported Function | 0x0000000180001920 | 0x00001920
-`public: __cdecl CCritSec::CCritSec(void) __ptr64` | 1 (0x1) | Exported Function | 0x0000000180005e40 | 0x00005e40
-`public: __cdecl CCritSec::~CCritSec(void) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180006000 | 0x00006000
-`public: class CAutoSetActivityId & __ptr64 __cdecl CAutoSetActivityId::operator=(class CAutoSetActivityId const & __ptr64) __ptr64` | 3 (0x3) | Exported Function | 0x00000001800062a0 | 0x000062a0
-`public: class CCritSec & __ptr64 __cdecl CCritSec::operator=(class CCritSec const & __ptr64) __ptr64` | 4 (0x4) | Exported Function | 0x00000001800062c0 | 0x000062c0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: class CAutoSetActivityId & __ptr64 __cdecl CAutoSetActivityId::operator=(class CAutoSetActivityId const & __ptr64) __ptr64` | 3 | Exported Function
+`public: class CCritSec & __ptr64 __cdecl CCritSec::operator=(class CCritSec const & __ptr64) __ptr64` | 4 | Exported Function
+`public: __cdecl CCritSec::~CCritSec(void) __ptr64` | 2 | Exported Function
+`MI_Application_InitializeV1` | 5 | Exported Function
+`public: __cdecl CCritSec::CCritSec(void) __ptr64` | 1 | Exported Function
 
 
 ## Signature

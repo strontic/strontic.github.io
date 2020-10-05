@@ -24,14 +24,14 @@ PE256 | `E792D3BA496AFE49F92B984CE24261F581B09E4FDC63571B238C671F08751177`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MilCompositionEngine_GetComposedEventId` | 1 (0x1) | Exported Function | 0x00000001800abf10 | 0x000abf10
-`MilCompositionEngine_Initialize` | 2 (0x2) | Exported Function | 0x00000001800cf1d0 | 0x000cf1d0
-`MilCompositionEngine_Uninitialize` | 3 (0x3) | Exported Function | 0x000000018014f0b0 | 0x0014f0b0
-`MilConnection_CreateChannel` | 4 (0x4) | Exported Function | 0x0000000180027480 | 0x00027480
-`MilTransport_AddRef` | 5 (0x5) | Exported Function | 0x00000001800d1480 | 0x000d1480
-`MilTransport_Release` | 6 (0x6) | Exported Function | 0x0000000180019b60 | 0x00019b60
+Function Name | Ordinal | Type
+-- | -- | --
+`MilConnection_CreateChannel` | 4 | Exported Function
+`MilTransport_AddRef` | 5 | Exported Function
+`MilTransport_Release` | 6 | Exported Function
+`MilCompositionEngine_GetComposedEventId` | 1 | Exported Function
+`MilCompositionEngine_Initialize` | 2 | Exported Function
+`MilCompositionEngine_Uninitialize` | 3 | Exported Function
 
 
 ## Signature

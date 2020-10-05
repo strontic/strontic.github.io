@@ -24,65 +24,65 @@ PE256 | `ECBEBAA6C08BB8C7BD1E4298654D4179787C32902F6F4D97075392744FA8DFC8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ODBCCPlApplet` | 101 (0x65) | Exported Function | 0x1000e470 | 0x0000e470
-`SQLInstallTranslatorEx` | 29 (0x1d) | Exported Function | 0x10016980 | 0x00016980
-`SQLInstallTranslatorExW` | 229 (0xe5) | Exported Function | 0x10010510 | 0x00010510
-`SQLInstallTranslatorW` | 218 (0xda) | Exported Function | 0x10010540 | 0x00010540
-`SQLLoadDataSourcesListBox` | 232 (0xe8) | Exported Function | 0x1000ade0 | 0x0000ade0
-`SQLLoadDriverListBox` | 231 (0xe7) | Exported Function | 0x100143a0 | 0x000143a0
-`SQLManageDataSources` | 11 (0xb) | Exported Function | 0x10010590 | 0x00010590
-`SQLPostInstallerError` | 23 (0x17) | Exported Function | 0x10016a50 | 0x00016a50
-`SQLPostInstallerErrorW` | 223 (0xdf) | Exported Function | 0x1000a500 | 0x0000a500
-`SQLReadFileDSN` | 24 (0x18) | Exported Function | 0x10016aa0 | 0x00016aa0
-`SQLReadFileDSNW` | 224 (0xe0) | Exported Function | 0x100105f0 | 0x000105f0
-`SQLRemoveDefaultDataSource` | 7 (0x7) | Exported Function | 0x100107a0 | 0x000107a0
-`SQLRemoveDriver` | 20 (0x14) | Exported Function | 0x10016c20 | 0x00016c20
-`SQLRemoveDriverManager` | 17 (0x11) | Exported Function | 0x10010a70 | 0x00010a70
-`SQLRemoveDriverW` | 220 (0xdc) | Exported Function | 0x10010ab0 | 0x00010ab0
-`SQLRemoveDSNFromIni` | 9 (0x9) | Exported Function | 0x10016bd0 | 0x00016bd0
-`SQLRemoveDSNFromIniW` | 209 (0xd1) | Exported Function | 0x10010760 | 0x00010760
-`SQLRemoveTranslator` | 19 (0x13) | Exported Function | 0x10016c70 | 0x00016c70
-`SQLRemoveTranslatorW` | 219 (0xdb) | Exported Function | 0x10010b70 | 0x00010b70
-`SQLSetConfigMode` | 28 (0x1c) | Exported Function | 0x10010bb0 | 0x00010bb0
-`SQLValidDSN` | 16 (0x10) | Exported Function | 0x10016cc0 | 0x00016cc0
-`SQLValidDSNW` | 216 (0xd8) | Exported Function | 0x10010ca0 | 0x00010ca0
-`SQLWriteDSNToIni` | 8 (0x8) | Exported Function | 0x10016d20 | 0x00016d20
-`SQLWriteDSNToIniW` | 208 (0xd0) | Exported Function | 0x10011530 | 0x00011530
-`SQLWriteFileDSN` | 25 (0x19) | Exported Function | 0x10016d90 | 0x00016d90
-`SQLWriteFileDSNW` | 225 (0xe1) | Exported Function | 0x10011570 | 0x00011570
-`SQLInstallTranslator` | 18 (0x12) | Exported Function | 0x10016850 | 0x00016850
-`SQLWritePrivateProfileString` | 14 (0xe) | Exported Function | 0x10016e60 | 0x00016e60
-`SQLInstallODBCW` | 210 (0xd2) | Exported Function | 0x100102e0 | 0x000102e0
-`SQLInstallerErrorW` | 222 (0xde) | Exported Function | 0x1000a4c0 | 0x0000a4c0
-`SelectTransDlg` | 112 (0x70) | Exported Function | 0x1000c0c0 | 0x0000c0c0
-`SQLConfigDataSource` | 6 (0x6) | Exported Function | 0x10015c60 | 0x00015c60
-`SQLConfigDataSourceW` | 206 (0xce) | Exported Function | 0x1000f3e0 | 0x0000f3e0
-`SQLConfigDriver` | 21 (0x15) | Exported Function | 0x10015ce0 | 0x00015ce0
-`SQLConfigDriverW` | 221 (0xdd) | Exported Function | 0x1000fa00 | 0x0000fa00
-`SQLCreateDataSource` | 12 (0xc) | Exported Function | 0x10015dd0 | 0x00015dd0
-`SQLCreateDataSourceEx` | 30 (0x1e) | Exported Function | 0x10015e20 | 0x00015e20
-`SQLCreateDataSourceExW` | 230 (0xe6) | Exported Function | 0x10008970 | 0x00008970
-`SQLCreateDataSourceW` | 212 (0xd4) | Exported Function | 0x100089b0 | 0x000089b0
-`SQLGetAvailableDrivers` | 5 (0x5) | Exported Function | 0x1000fad0 | 0x0000fad0
-`SQLGetAvailableDriversW` | 205 (0xcd) | Exported Function | 0x1000fad0 | 0x0000fad0
-`SQLGetConfigMode` | 27 (0x1b) | Exported Function | 0x1000fb00 | 0x0000fb00
-`SQLGetInstalledDrivers` | 4 (0x4) | Exported Function | 0x10015e30 | 0x00015e30
-`SQLGetInstalledDriversW` | 204 (0xcc) | Exported Function | 0x1000feb0 | 0x0000feb0
-`SQLGetPrivateProfileString` | 15 (0xf) | Exported Function | 0x10015ef0 | 0x00015ef0
-`SQLGetPrivateProfileStringW` | 215 (0xd7) | Exported Function | 0x10003160 | 0x00003160
-`SQLGetTranslator` | 13 (0xd) | Exported Function | 0x10016410 | 0x00016410
-`SQLGetTranslatorW` | 213 (0xd5) | Exported Function | 0x1000ffd0 | 0x0000ffd0
-`SQLInstallDriver` | 2 (0x2) | Exported Function | 0x10016570 | 0x00016570
-`SQLInstallDriverEx` | 26 (0x1a) | Exported Function | 0x100166b0 | 0x000166b0
-`SQLInstallDriverExW` | 226 (0xe2) | Exported Function | 0x10010110 | 0x00010110
-`SQLInstallDriverManager` | 3 (0x3) | Exported Function | 0x100167b0 | 0x000167b0
-`SQLInstallDriverManagerW` | 203 (0xcb) | Exported Function | 0x100101a0 | 0x000101a0
-`SQLInstallDriverW` | 202 (0xca) | Exported Function | 0x100101e0 | 0x000101e0
-`SQLInstallerError` | 22 (0x16) | Exported Function | 0x100169b0 | 0x000169b0
-`SQLInstallODBC` | 10 (0xa) | Exported Function | 0x10016830 | 0x00016830
-`SQLWritePrivateProfileStringW` | 214 (0xd6) | Exported Function | 0x100116b0 | 0x000116b0
+Function Name | Ordinal | Type
+-- | -- | --
+`SQLReadFileDSN` | 24 | Exported Function
+`SQLPostInstallerErrorW` | 223 | Exported Function
+`SQLPostInstallerError` | 23 | Exported Function
+`SQLReadFileDSNW` | 224 | Exported Function
+`SQLRemoveDriverManager` | 17 | Exported Function
+`SQLRemoveDriver` | 20 | Exported Function
+`SQLRemoveDefaultDataSource` | 7 | Exported Function
+`SQLInstallTranslatorExW` | 229 | Exported Function
+`SQLInstallTranslatorEx` | 29 | Exported Function
+`SQLInstallTranslator` | 18 | Exported Function
+`SQLInstallTranslatorW` | 218 | Exported Function
+`SQLManageDataSources` | 11 | Exported Function
+`SQLLoadDriverListBox` | 231 | Exported Function
+`SQLLoadDataSourcesListBox` | 232 | Exported Function
+`SQLWriteDSNToIniW` | 208 | Exported Function
+`SQLWriteDSNToIni` | 8 | Exported Function
+`SQLValidDSNW` | 216 | Exported Function
+`SQLWriteFileDSN` | 25 | Exported Function
+`SQLWritePrivateProfileStringW` | 214 | Exported Function
+`SQLWritePrivateProfileString` | 14 | Exported Function
+`SQLWriteFileDSNW` | 225 | Exported Function
+`SQLRemoveDSNFromIniW` | 209 | Exported Function
+`SQLRemoveDSNFromIni` | 9 | Exported Function
+`SQLRemoveDriverW` | 220 | Exported Function
+`SQLRemoveTranslator` | 19 | Exported Function
+`SQLValidDSN` | 16 | Exported Function
+`SQLSetConfigMode` | 28 | Exported Function
+`SQLRemoveTranslatorW` | 219 | Exported Function
+`SQLInstallODBCW` | 210 | Exported Function
+`SQLCreateDataSourceW` | 212 | Exported Function
+`SQLCreateDataSourceExW` | 230 | Exported Function
+`SQLCreateDataSourceEx` | 30 | Exported Function
+`SQLGetAvailableDrivers` | 5 | Exported Function
+`SQLGetInstalledDrivers` | 4 | Exported Function
+`SQLGetConfigMode` | 27 | Exported Function
+`SQLGetAvailableDriversW` | 205 | Exported Function
+`SQLConfigDataSource` | 6 | Exported Function
+`SelectTransDlg` | 112 | Exported Function
+`ODBCCPlApplet` | 101 | Exported Function
+`SQLConfigDataSourceW` | 206 | Exported Function
+`SQLCreateDataSource` | 12 | Exported Function
+`SQLConfigDriverW` | 221 | Exported Function
+`SQLConfigDriver` | 21 | Exported Function
+`SQLInstallDriverManagerW` | 203 | Exported Function
+`SQLInstallDriverManager` | 3 | Exported Function
+`SQLInstallDriverExW` | 226 | Exported Function
+`SQLInstallDriverW` | 202 | Exported Function
+`SQLInstallODBC` | 10 | Exported Function
+`SQLInstallerErrorW` | 222 | Exported Function
+`SQLInstallerError` | 22 | Exported Function
+`SQLGetPrivateProfileStringW` | 215 | Exported Function
+`SQLGetPrivateProfileString` | 15 | Exported Function
+`SQLGetInstalledDriversW` | 204 | Exported Function
+`SQLGetTranslator` | 13 | Exported Function
+`SQLInstallDriverEx` | 26 | Exported Function
+`SQLInstallDriver` | 2 | Exported Function
+`SQLGetTranslatorW` | 213 | Exported Function
 
 
 ## Signature

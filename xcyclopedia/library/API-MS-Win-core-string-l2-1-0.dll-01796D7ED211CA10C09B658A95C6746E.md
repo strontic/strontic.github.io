@@ -24,18 +24,18 @@ PE256 | `EC17972D39404513CF6154A2E210200022EF06FBBE03721434BF161ECE13F543`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CharLowerBuffW` | 1 (0x1) | Exported Function | user32.CharLowerBuffW | 0x0000111d
-`CharLowerW` | 2 (0x2) | Exported Function | user32.CharLowerW | 0x0000113e
-`CharNextW` | 3 (0x3) | Exported Function | user32.CharNextW | 0x0000115a
-`CharPrevW` | 4 (0x4) | Exported Function | user32.CharPrevW | 0x00001175
-`CharUpperBuffW` | 5 (0x5) | Exported Function | user32.CharUpperBuffW | 0x00001195
-`CharUpperW` | 6 (0x6) | Exported Function | user32.CharUpperW | 0x000011b6
-`IsCharAlphaNumericW` | 7 (0x7) | Exported Function | user32.IsCharAlphaNumericW | 0x000011dc
-`IsCharAlphaW` | 8 (0x8) | Exported Function | user32.IsCharAlphaW | 0x00001204
-`IsCharLowerW` | 9 (0x9) | Exported Function | user32.IsCharLowerW | 0x00001225
-`IsCharUpperW` | 10 (0xa) | Exported Function | user32.IsCharUpperW | 0x00001246
+Function Name | Ordinal | Type
+-- | -- | --
+`IsCharAlphaNumericW` | 7 | Exported Function
+`CharUpperW` | 6 | Exported Function
+`IsCharAlphaW` | 8 | Exported Function
+`IsCharUpperW` | 10 | Exported Function
+`IsCharLowerW` | 9 | Exported Function
+`CharLowerW` | 2 | Exported Function
+`CharLowerBuffW` | 1 | Exported Function
+`CharNextW` | 3 | Exported Function
+`CharUpperBuffW` | 5 | Exported Function
+`CharPrevW` | 4 | Exported Function
 
 
 ## Signature

@@ -24,19 +24,19 @@ PE256 | `1969DDB69FA1978824264B083BFE952D4B98A83DBD29B30F1949D18473F3F219`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializePushRouter` | 7 (0x7) | Exported Function | 0x000000018000e2f0 | 0x0000e2f0
-`PrAreAllClientsHandled` | 1 (0x1) | Exported Function | 0x000000018000c920 | 0x0000c920
-`PrSvcDecMessageCount` | 2 (0x2) | Exported Function | 0x000000018000ca00 | 0x0000ca00
-`PrSvcGetMessageCount` | 3 (0x3) | Exported Function | 0x000000018000c970 | 0x0000c970
-`PrSvcIncMessageCount` | 4 (0x4) | Exported Function | 0x000000018000cac0 | 0x0000cac0
-`PrSvcSetMessageCount` | 5 (0x5) | Exported Function | 0x000000018000c9b0 | 0x0000c9b0
-`PushRouter_SubmitPushLocal` | 6 (0x6) | Exported Function | 0x000000018000d120 | 0x0000d120
-`RegisterRPCInterface` | 8 (0x8) | Exported Function | 0x000000018000a570 | 0x0000a570
-`ShutDownPushRouter` | 9 (0x9) | Exported Function | 0x000000018000e690 | 0x0000e690
-`ShutDownPushRouterSynchronously` | 10 (0xa) | Exported Function | 0x000000018000e740 | 0x0000e740
-`UnregisterRPCInterface` | 11 (0xb) | Exported Function | 0x000000018000aad0 | 0x0000aad0
+Function Name | Ordinal | Type
+-- | -- | --
+`RegisterRPCInterface` | 8 | Exported Function
+`PushRouter_SubmitPushLocal` | 6 | Exported Function
+`ShutDownPushRouter` | 9 | Exported Function
+`UnregisterRPCInterface` | 11 | Exported Function
+`ShutDownPushRouterSynchronously` | 10 | Exported Function
+`PrSvcSetMessageCount` | 5 | Exported Function
+`PrAreAllClientsHandled` | 1 | Exported Function
+`InitializePushRouter` | 7 | Exported Function
+`PrSvcDecMessageCount` | 2 | Exported Function
+`PrSvcIncMessageCount` | 4 | Exported Function
+`PrSvcGetMessageCount` | 3 | Exported Function
 
 
 ## Signature

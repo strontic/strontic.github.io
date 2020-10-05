@@ -24,10 +24,10 @@ PE256 | `CF60C49D7856F474D678A9D06877C15D47D9B63D7187F823FADB2A1BA7A6E345`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DDACLSys_Offline_Specialize` | 1 (0x1) | Exported Function | 0x00000001800024c0 | 0x000024c0
-`DDACLSys_Specialize` | 2 (0x2) | Exported Function | 0x00000001800024a0 | 0x000024a0
+Function Name | Ordinal | Type
+-- | -- | --
+`DDACLSys_Specialize` | 2 | Exported Function
+`DDACLSys_Offline_Specialize` | 1 | Exported Function
 
 
 ## Signature

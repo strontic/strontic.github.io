@@ -24,11 +24,11 @@ PE256 | `198D2477E245BF5622B6006A49F7113BE45C84CF35C5B4F6F9A0E1B0340DCC1F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018003d560 | 0x0003d560
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x000000018003d5a0 | 0x0003d5a0
-`Microsoft_WDF_UMDF_Version` | 3 (0x3) | Exported Function | 0x000000018008dfa0 | 0x0008dfa0
+Function Name | Ordinal | Type
+-- | -- | --
+`Microsoft_WDF_UMDF_Version` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

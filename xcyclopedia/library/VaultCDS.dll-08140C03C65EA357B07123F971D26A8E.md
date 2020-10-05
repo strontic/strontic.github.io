@@ -24,10 +24,10 @@ PE256 | `0C0D582F09617D3C0C238FBCB967DC59CF8B58E04A63FE120994D7E99735D890`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`VaultCDSEnumerateItems` | 1 (0x1) | Exported Function | 0x000000018000b830 | 0x0000b830
-`VaultCDSSaveItem` | 2 (0x2) | Exported Function | 0x000000018000c010 | 0x0000c010
+Function Name | Ordinal | Type
+-- | -- | --
+`VaultCDSSaveItem` | 2 | Exported Function
+`VaultCDSEnumerateItems` | 1 | Exported Function
 
 
 ## Signature

@@ -24,15 +24,15 @@ PE256 | `DED075C13B0E3AAFF0620D6C30E28C01F36203BA78354D1192537895333DCF14`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AsyncUILoaderEntryW` | 1 (0x1) | Exported Function | 0x000000018000ef80 | 0x0000ef80
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180005250 | 0x00005250
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x00000001800052f0 | 0x000052f0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x0000000180005300 | 0x00005300
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x0000000180005300 | 0x00005300
-`PrintNotifyTray_Exit` | 6 (0x6) | Exported Function | 0x000000018000ee90 | 0x0000ee90
-`PrintNotifyTray_Init` | 7 (0x7) | Exported Function | 0x000000018000ec30 | 0x0000ec30
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 5 | Exported Function
+`PrintNotifyTray_Exit` | 6 | Exported Function
+`PrintNotifyTray_Init` | 7 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`AsyncUILoaderEntryW` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

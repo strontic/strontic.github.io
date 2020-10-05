@@ -24,23 +24,23 @@ PE256 | `97B68621837E7B768300B6AAF79AADB82D173568D64F1367F24A6BFC770EDF97`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DMOEnum` | 1 (0x1) | Exported Function | 0x10001cd0 | 0x00001cd0
-`DMOGetName` | 2 (0x2) | Exported Function | 0x100018e0 | 0x000018e0
-`DMOGetTypes` | 3 (0x3) | Exported Function | 0x100019c0 | 0x000019c0
-`DMOGuidToStrA` | 4 (0x4) | Exported Function | 0x10004240 | 0x00004240
-`DMOGuidToStrW` | 5 (0x5) | Exported Function | 0x10001c70 | 0x00001c70
-`DMORegister` | 6 (0x6) | Exported Function | 0x10003ad0 | 0x00003ad0
-`DMOStrToGuidA` | 7 (0x7) | Exported Function | 0x100042a0 | 0x000042a0
-`DMOStrToGuidW` | 8 (0x8) | Exported Function | 0x10004330 | 0x00004330
-`DMOUnregister` | 9 (0x9) | Exported Function | 0x10003ee0 | 0x00003ee0
-`MoCopyMediaType` | 10 (0xa) | Exported Function | 0x100025b0 | 0x000025b0
-`MoCreateMediaType` | 11 (0xb) | Exported Function | 0x100024c0 | 0x000024c0
-`MoDeleteMediaType` | 12 (0xc) | Exported Function | 0x10002570 | 0x00002570
-`MoDuplicateMediaType` | 13 (0xd) | Exported Function | 0x10003610 | 0x00003610
-`MoFreeMediaType` | 14 (0xe) | Exported Function | 0x100026a0 | 0x000026a0
-`MoInitMediaType` | 15 (0xf) | Exported Function | 0x10002510 | 0x00002510
+Function Name | Ordinal | Type
+-- | -- | --
+`MoCreateMediaType` | 11 | Exported Function
+`MoCopyMediaType` | 10 | Exported Function
+`DMOUnregister` | 9 | Exported Function
+`MoDeleteMediaType` | 12 | Exported Function
+`MoInitMediaType` | 15 | Exported Function
+`MoFreeMediaType` | 14 | Exported Function
+`MoDuplicateMediaType` | 13 | Exported Function
+`DMOStrToGuidW` | 8 | Exported Function
+`DMOGetTypes` | 3 | Exported Function
+`DMOGetName` | 2 | Exported Function
+`DMOEnum` | 1 | Exported Function
+`DMOGuidToStrA` | 4 | Exported Function
+`DMOStrToGuidA` | 7 | Exported Function
+`DMORegister` | 6 | Exported Function
+`DMOGuidToStrW` | 5 | Exported Function
 
 
 ## Signature

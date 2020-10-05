@@ -24,13 +24,13 @@ PE256 | `97D92A2E684EB77691B51978DB96AE69D091DACFA3722431A84886DDCA775A35`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000018000a590 | 0x0000a590
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x000000018000a3b0 | 0x0000a3b0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x000000018000a150 | 0x0000a150
-`GetCtacPropertyAlloc` | 5 (0x5) | Exported Function | 0x000000018000a600 | 0x0000a600
-`ModifyStagingControls` | 1 (0x1) | Exported Function | 0x000000018000a770 | 0x0000a770
+Function Name | Ordinal | Type
+-- | -- | --
+`GetCtacPropertyAlloc` | 5 | Exported Function
+`ModifyStagingControls` | 1 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
 
 
 ## Signature

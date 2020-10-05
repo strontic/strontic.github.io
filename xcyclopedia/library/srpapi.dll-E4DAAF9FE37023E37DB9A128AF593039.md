@@ -24,29 +24,29 @@ PE256 | `28EB68773EA4C4A87F1EA10F05D992061BE43C8301F082BB661F813D33436871`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AiEvaluatePlugin` | 1 (0x1) | Exported Function | 0x1000e0e0 | 0x0000e0e0
-`SrpOpenTrackInstall` | 19 (0x13) | Exported Function | 0x1000e970 | 0x0000e970
-`SrpIsTokenService` | 18 (0x12) | Exported Function | 0x1000f250 | 0x0000f250
-`SrpIsAllowed` | 17 (0x11) | Exported Function | 0x1000d4c0 | 0x0000d4c0
-`SrpInheritOriginClaim` | 16 (0x10) | Exported Function | 0x1000e810 | 0x0000e810
-`SrpInheritEnterpriseContext` | 15 (0xf) | Exported Function | 0x1000ace0 | 0x0000ace0
-`SrpGetEnterprisePolicy` | 14 (0xe) | Exported Function | 0x1000af40 | 0x0000af40
-`SrpGetEnterpriseIds` | 13 (0xd) | Exported Function | 0x1000ae30 | 0x0000ae30
-`SrpGetAppxFqbnFromPackageFullName` | 12 (0xc) | Exported Function | 0x1000ea80 | 0x0000ea80
-`SrpRestoreEnterpriseContext` | 20 (0x14) | Exported Function | 0x1000ad30 | 0x0000ad30
-`SrpGetAllowedEnterprises` | 11 (0xb) | Exported Function | 0x1000e2e0 | 0x0000e2e0
-`SrpDoesPolicyAllowAppExecution` | 9 (0x9) | Exported Function | 0x1000ad70 | 0x0000ad70
-`SrpDisablePermissiveModeFileEncryption` | 8 (0x8) | Exported Function | 0x1000b0a0 | 0x0000b0a0
-`SrpCreateThreadNetworkContext` | 7 (0x7) | Exported Function | 0x1000ab90 | 0x0000ab90
-`SrpCloseTrackInstall` | 6 (0x6) | Exported Function | 0x1000ea10 | 0x0000ea10
-`SrpCloseThreadNetworkContext` | 5 (0x5) | Exported Function | 0x1000ac00 | 0x0000ac00
-`AppIDFreeAttributeString` | 4 (0x4) | Exported Function | 0x1000e7a0 | 0x0000e7a0
-`AppIDEncodeAttributeString` | 3 (0x3) | Exported Function | 0x1000e660 | 0x0000e660
-`AppIDDecodeAttributeString` | 2 (0x2) | Exported Function | 0x1000e700 | 0x0000e700
-`SrpEnablePermissiveModeFileEncryption` | 10 (0xa) | Exported Function | 0x1000b060 | 0x0000b060
-`SrpSetTokenEnterpriseId` | 21 (0x15) | Exported Function | 0x1000ac70 | 0x0000ac70
+Function Name | Ordinal | Type
+-- | -- | --
+`SrpInheritEnterpriseContext` | 15 | Exported Function
+`SrpInheritOriginClaim` | 16 | Exported Function
+`SrpGetEnterprisePolicy` | 14 | Exported Function
+`SrpGetAppxFqbnFromPackageFullName` | 12 | Exported Function
+`SrpGetEnterpriseIds` | 13 | Exported Function
+`SrpRestoreEnterpriseContext` | 20 | Exported Function
+`SrpSetTokenEnterpriseId` | 21 | Exported Function
+`SrpOpenTrackInstall` | 19 | Exported Function
+`SrpIsAllowed` | 17 | Exported Function
+`SrpIsTokenService` | 18 | Exported Function
+`SrpGetAllowedEnterprises` | 11 | Exported Function
+`AppIDFreeAttributeString` | 4 | Exported Function
+`SrpCloseThreadNetworkContext` | 5 | Exported Function
+`AppIDEncodeAttributeString` | 3 | Exported Function
+`AiEvaluatePlugin` | 1 | Exported Function
+`AppIDDecodeAttributeString` | 2 | Exported Function
+`SrpDoesPolicyAllowAppExecution` | 9 | Exported Function
+`SrpEnablePermissiveModeFileEncryption` | 10 | Exported Function
+`SrpDisablePermissiveModeFileEncryption` | 8 | Exported Function
+`SrpCloseTrackInstall` | 6 | Exported Function
+`SrpCreateThreadNetworkContext` | 7 | Exported Function
 
 
 ## Signature

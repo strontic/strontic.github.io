@@ -24,12 +24,12 @@ PE256 | `DC8009982CBC4E161CD89CCFF194E14DCD1DC136556D9771E44D0B45D3B644E6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CommonPropertySheetUIA` | 1 (0x1) | Exported Function | 0x0000000180018990 | 0x00018990
-`CommonPropertySheetUIW` | 2 (0x2) | Exported Function | 0x00000001800189b0 | 0x000189b0
-`GetCPSUIUserData` | 3 (0x3) | Exported Function | 0x0000000180013ab0 | 0x00013ab0
-`SetCPSUIUserData` | 4 (0x4) | Exported Function | 0x0000000180013af0 | 0x00013af0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetCPSUIUserData` | 3 | Exported Function
+`SetCPSUIUserData` | 4 | Exported Function
+`CommonPropertySheetUIA` | 1 | Exported Function
+`CommonPropertySheetUIW` | 2 | Exported Function
 
 
 ## Signature

@@ -24,16 +24,16 @@ PE256 | `EFEA332AD3A2319E962D8D63E900ABA06A50A0752F176F8415EB8ED64883A278`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializeProtocolEngine` | 1 (0x1) | Exported Function | 0x73099040 | 0x00019040
-`InitializeServerProtocolEngine` | 2 (0x2) | Exported Function | 0x73099b70 | 0x00019b70
-`PppStop` | 3 (0x3) | Exported Function | 0x73099e60 | 0x00019e60
-`RasCpEnumProtocolIds` | 4 (0x4) | Exported Function | 0x73097020 | 0x00017020
-`RasCpGetInfo` | 5 (0x5) | Exported Function | 0x730971e0 | 0x000171e0
-`SendMessageToProtocolEngine` | 6 (0x6) | Exported Function | 0x730993b0 | 0x000193b0
-`UninitializeProtocolEngine` | 7 (0x7) | Exported Function | 0x73099310 | 0x00019310
-`UninitializeServerProtocolEngine` | 8 (0x8) | Exported Function | 0x73099d30 | 0x00019d30
+Function Name | Ordinal | Type
+-- | -- | --
+`SendMessageToProtocolEngine` | 6 | Exported Function
+`RasCpGetInfo` | 5 | Exported Function
+`UninitializeServerProtocolEngine` | 8 | Exported Function
+`UninitializeProtocolEngine` | 7 | Exported Function
+`InitializeServerProtocolEngine` | 2 | Exported Function
+`InitializeProtocolEngine` | 1 | Exported Function
+`RasCpEnumProtocolIds` | 4 | Exported Function
+`PppStop` | 3 | Exported Function
 
 
 ## Signature

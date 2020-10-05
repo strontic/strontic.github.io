@@ -24,18 +24,18 @@ PE256 | `BA041D8C33BF96A6BEC6423D3AC5AD514F98B920BB2CDD10504B0E4665180FF7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EapPeerConfigBlob2Xml` | 1 (0x1) | Exported Function | 0x0000000180004cc0 | 0x00004cc0
-`EapPeerConfigXml2Blob` | 5 (0x5) | Exported Function | 0x0000000180004be0 | 0x00004be0
-`EapPeerCredentialsXml2Blob` | 6 (0x6) | Exported Function | 0x0000000180004da0 | 0x00004da0
-`EapPeerFreeErrorMemory` | 7 (0x7) | Exported Function | 0x00000001800052a0 | 0x000052a0
-`EapPeerFreeMemory` | 2 (0x2) | Exported Function | 0x0000000180005290 | 0x00005290
-`EapPeerGetMethodProperties` | 3 (0x3) | Exported Function | 0x00000001800051e0 | 0x000051e0
-`EapPeerGetNextPageGuid` | 4 (0x4) | Exported Function | 0x00000001800050f0 | 0x000050f0
-`EapPeerInvokeConfigUI` | 8 (0x8) | Exported Function | 0x0000000180004ea0 | 0x00004ea0
-`EapPeerInvokeInteractiveUI` | 9 (0x9) | Exported Function | 0x0000000180004f70 | 0x00004f70
-`EapPeerQueryInteractiveUIInputFields` | 10 (0xa) | Exported Function | 0x0000000180005190 | 0x00005190
+Function Name | Ordinal | Type
+-- | -- | --
+`EapPeerGetNextPageGuid` | 4 | Exported Function
+`EapPeerGetMethodProperties` | 3 | Exported Function
+`EapPeerInvokeConfigUI` | 8 | Exported Function
+`EapPeerQueryInteractiveUIInputFields` | 10 | Exported Function
+`EapPeerInvokeInteractiveUI` | 9 | Exported Function
+`EapPeerConfigXml2Blob` | 5 | Exported Function
+`EapPeerConfigBlob2Xml` | 1 | Exported Function
+`EapPeerCredentialsXml2Blob` | 6 | Exported Function
+`EapPeerFreeMemory` | 2 | Exported Function
+`EapPeerFreeErrorMemory` | 7 | Exported Function
 
 
 ## Signature

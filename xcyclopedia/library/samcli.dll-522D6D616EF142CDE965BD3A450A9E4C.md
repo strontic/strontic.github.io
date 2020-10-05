@@ -24,44 +24,44 @@ PE256 | `DDFB99C3426D586D2673FEB1C20885398F5820398060D48E7E7A0217232B0FD6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NetGetDisplayInformationIndex` | 1 (0x1) | Exported Function | 0x000000018000a400 | 0x0000a400
-`NetLocalGroupSetMembers` | 21 (0x15) | Exported Function | 0x00000001800096c0 | 0x000096c0
-`NetQueryDisplayInformation` | 22 (0x16) | Exported Function | 0x0000000180001010 | 0x00001010
-`NetUserAdd` | 23 (0x17) | Exported Function | 0x000000018000d230 | 0x0000d230
-`NetUserChangePassword` | 24 (0x18) | Exported Function | 0x000000018000d4c0 | 0x0000d4c0
-`NetUserDel` | 25 (0x19) | Exported Function | 0x000000018000d780 | 0x0000d780
-`NetUserEnum` | 26 (0x1a) | Exported Function | 0x00000001800030b0 | 0x000030b0
-`NetLocalGroupSetInfo` | 20 (0x14) | Exported Function | 0x0000000180009520 | 0x00009520
-`NetUserGetGroups` | 27 (0x1b) | Exported Function | 0x000000018000d920 | 0x0000d920
-`NetUserGetInternetIdentityInfo` | 29 (0x1d) | Exported Function | 0x000000018000c2a0 | 0x0000c2a0
-`NetUserGetLocalGroups` | 30 (0x1e) | Exported Function | 0x0000000180001c60 | 0x00001c60
-`NetUserModalsGet` | 31 (0x1f) | Exported Function | 0x00000001800015d0 | 0x000015d0
-`NetUserModalsSet` | 32 (0x20) | Exported Function | 0x000000018000dcb0 | 0x0000dcb0
-`NetUserSetGroups` | 33 (0x21) | Exported Function | 0x000000018000e300 | 0x0000e300
-`NetUserSetInfo` | 34 (0x22) | Exported Function | 0x000000018000e8c0 | 0x0000e8c0
-`NetUserGetInfo` | 28 (0x1c) | Exported Function | 0x0000000180002c40 | 0x00002c40
-`NetLocalGroupGetMembers` | 19 (0x13) | Exported Function | 0x00000001800025d0 | 0x000025d0
-`NetLocalGroupGetInfo` | 18 (0x12) | Exported Function | 0x0000000180009460 | 0x00009460
-`NetLocalGroupEnum` | 17 (0x11) | Exported Function | 0x0000000180008f30 | 0x00008f30
-`NetGroupAdd` | 2 (0x2) | Exported Function | 0x000000018000a540 | 0x0000a540
-`NetGroupAddUser` | 3 (0x3) | Exported Function | 0x000000018000a7b0 | 0x0000a7b0
-`NetGroupDel` | 4 (0x4) | Exported Function | 0x000000018000a7d0 | 0x0000a7d0
-`NetGroupDelUser` | 5 (0x5) | Exported Function | 0x000000018000a800 | 0x0000a800
-`NetGroupEnum` | 6 (0x6) | Exported Function | 0x000000018000a810 | 0x0000a810
-`NetGroupGetInfo` | 7 (0x7) | Exported Function | 0x000000018000ae60 | 0x0000ae60
-`NetGroupGetUsers` | 8 (0x8) | Exported Function | 0x000000018000af40 | 0x0000af40
-`NetGroupSetInfo` | 9 (0x9) | Exported Function | 0x000000018000b2f0 | 0x0000b2f0
-`NetGroupSetUsers` | 10 (0xa) | Exported Function | 0x000000018000b540 | 0x0000b540
-`NetLocalGroupAdd` | 11 (0xb) | Exported Function | 0x0000000180008c20 | 0x00008c20
-`NetLocalGroupAddMember` | 12 (0xc) | Exported Function | 0x0000000180008de0 | 0x00008de0
-`NetLocalGroupAddMembers` | 13 (0xd) | Exported Function | 0x0000000180008e00 | 0x00008e00
-`NetLocalGroupDel` | 14 (0xe) | Exported Function | 0x0000000180008e30 | 0x00008e30
-`NetLocalGroupDelMember` | 15 (0xf) | Exported Function | 0x0000000180008ef0 | 0x00008ef0
-`NetLocalGroupDelMembers` | 16 (0x10) | Exported Function | 0x0000000180008f00 | 0x00008f00
-`NetValidatePasswordPolicy` | 35 (0x23) | Exported Function | 0x000000018000c570 | 0x0000c570
-`NetValidatePasswordPolicyFree` | 36 (0x24) | Exported Function | 0x000000018000c820 | 0x0000c820
+Function Name | Ordinal | Type
+-- | -- | --
+`NetUserDel` | 25 | Exported Function
+`NetUserChangePassword` | 24 | Exported Function
+`NetUserGetGroups` | 27 | Exported Function
+`NetUserEnum` | 26 | Exported Function
+`NetUserAdd` | 23 | Exported Function
+`NetLocalGroupSetInfo` | 20 | Exported Function
+`NetLocalGroupGetMembers` | 19 | Exported Function
+`NetQueryDisplayInformation` | 22 | Exported Function
+`NetLocalGroupSetMembers` | 21 | Exported Function
+`NetUserSetInfo` | 34 | Exported Function
+`NetUserSetGroups` | 33 | Exported Function
+`NetValidatePasswordPolicyFree` | 36 | Exported Function
+`NetValidatePasswordPolicy` | 35 | Exported Function
+`NetUserModalsSet` | 32 | Exported Function
+`NetUserGetInternetIdentityInfo` | 29 | Exported Function
+`NetUserGetInfo` | 28 | Exported Function
+`NetUserModalsGet` | 31 | Exported Function
+`NetUserGetLocalGroups` | 30 | Exported Function
+`NetGroupGetInfo` | 7 | Exported Function
+`NetGroupEnum` | 6 | Exported Function
+`NetGroupSetInfo` | 9 | Exported Function
+`NetGroupGetUsers` | 8 | Exported Function
+`NetGroupDelUser` | 5 | Exported Function
+`NetGroupAdd` | 2 | Exported Function
+`NetGetDisplayInformationIndex` | 1 | Exported Function
+`NetGroupDel` | 4 | Exported Function
+`NetGroupAddUser` | 3 | Exported Function
+`NetLocalGroupDelMembers` | 16 | Exported Function
+`NetLocalGroupDelMember` | 15 | Exported Function
+`NetLocalGroupGetInfo` | 18 | Exported Function
+`NetLocalGroupEnum` | 17 | Exported Function
+`NetLocalGroupDel` | 14 | Exported Function
+`NetLocalGroupAdd` | 11 | Exported Function
+`NetGroupSetUsers` | 10 | Exported Function
+`NetLocalGroupAddMembers` | 13 | Exported Function
+`NetLocalGroupAddMember` | 12 | Exported Function
 
 
 ## Signature

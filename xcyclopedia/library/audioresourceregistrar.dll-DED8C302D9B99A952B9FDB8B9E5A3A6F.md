@@ -24,10 +24,10 @@ PE256 | `914259BA00C133B5EBE181DCB42013862808A379EF77ED0AE2A3B5253B0F3D72`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetKeywordDetectorRequiredResources` | 1 (0x1) | Exported Function | 0x00000001800013a0 | 0x000013a0
-`Register` | 2 (0x2) | Exported Function | 0x0000000180001170 | 0x00001170
+Function Name | Ordinal | Type
+-- | -- | --
+`Register` | 2 | Exported Function
+`GetKeywordDetectorRequiredResources` | 1 | Exported Function
 
 
 ## Signature

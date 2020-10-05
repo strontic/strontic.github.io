@@ -24,20 +24,20 @@ PE256 | `060496042D784814C3C91C35A48C5CD0A7DAE395164E948013489C464ABAB667`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BeginAcquireStoreLicenseForPackageActivation` | 3 (0x3) | Exported Function | 0x1000c050 | 0x0000c050
-`BeginAcquireStoreLicenseForPackageActivation2` | 2 (0x2) | Exported Function | 0x1000c0c0 | 0x0000c0c0
-`DllMain` | 4 (0x4) | Exported Function | 0x1000d6d0 | 0x0000d6d0
-`EnsureStoreLicenseForPackageActivation` | 6 (0x6) | Exported Function | 0x1000c8a0 | 0x0000c8a0
-`EnsureStoreLicenseForPackageActivation2` | 5 (0x5) | Exported Function | 0x1000c8d0 | 0x0000c8d0
-`PackageRundownNotificationForStoreLicense` | 8 (0x8) | Exported Function | 0x1000ce90 | 0x0000ce90
-`PackageRundownNotificationForStoreLicense2` | 7 (0x7) | Exported Function | 0x1000cec0 | 0x0000cec0
-`PackageSuspendedNotificationForStoreLicense` | 10 (0xa) | Exported Function | 0x1000cc50 | 0x0000cc50
-`PackageSuspendedNotificationForStoreLicense2` | 9 (0x9) | Exported Function | 0x1000cc80 | 0x0000cc80
-`PrecacheStoreLicenseForPackageResume` | 12 (0xc) | Exported Function | 0x1000c580 | 0x0000c580
-`PrecacheStoreLicenseForPackageResume2` | 11 (0xb) | Exported Function | 0x1000c5b0 | 0x0000c5b0
-`Reset` | 1 (0x1) | Exported Function | 0x1000d070 | 0x0000d070
+Function Name | Ordinal | Type
+-- | -- | --
+`PackageSuspendedNotificationForStoreLicense2` | 9 | Exported Function
+`PackageSuspendedNotificationForStoreLicense` | 10 | Exported Function
+`PackageRundownNotificationForStoreLicense2` | 7 | Exported Function
+`Reset` | 1 | Exported Function
+`PrecacheStoreLicenseForPackageResume2` | 11 | Exported Function
+`PrecacheStoreLicenseForPackageResume` | 12 | Exported Function
+`DllMain` | 4 | Exported Function
+`BeginAcquireStoreLicenseForPackageActivation2` | 2 | Exported Function
+`BeginAcquireStoreLicenseForPackageActivation` | 3 | Exported Function
+`PackageRundownNotificationForStoreLicense` | 8 | Exported Function
+`EnsureStoreLicenseForPackageActivation2` | 5 | Exported Function
+`EnsureStoreLicenseForPackageActivation` | 6 | Exported Function
 
 
 ## Signature

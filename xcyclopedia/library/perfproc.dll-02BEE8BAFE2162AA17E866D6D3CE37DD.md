@@ -24,11 +24,11 @@ PE256 | `B430FE825C6AB2232B125DEEEE7562D19153F8AFF9C2692ECBAFDAA1D88E48E5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseSysProcessObject` | 1 (0x1) | Exported Function | 0x10005420 | 0x00005420
-`CollectSysProcessObjectData` | 2 (0x2) | Exported Function | 0x10002230 | 0x00002230
-`OpenSysProcessObject` | 3 (0x3) | Exported Function | 0x100056f0 | 0x000056f0
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenSysProcessObject` | 3 | Exported Function
+`CollectSysProcessObjectData` | 2 | Exported Function
+`CloseSysProcessObject` | 1 | Exported Function
 
 
 ## Signature

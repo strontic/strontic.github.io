@@ -24,18 +24,18 @@ PE256 | `15DBFC8F2C6D475635FFF9E7FB0B0DE2B8395CE2C6B97238FAC2EC1074E147FA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10068320 | 0x00068320
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x10068350 | 0x00068350
-`DllMain` | 3 (0x3) | Exported Function | 0x100680d0 | 0x000680d0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x10068290 | 0x00068290
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x100682e0 | 0x000682e0
-`GetProviderClassID` | 6 (0x6) | Exported Function | 0x10068120 | 0x00068120
-`MI_Main` | 7 (0x7) | Exported Function | 0x10068070 | 0x00068070
-`PreShutdown` | 8 (0x8) | Exported Function | 0x100680c0 | 0x000680c0
-`SetShutdownCallback` | 9 (0x9) | Exported Function | 0x10068060 | 0x00068060
-`SmpUnload` | 10 (0xa) | Exported Function | 0x100680c0 | 0x000680c0
+Function Name | Ordinal | Type
+-- | -- | --
+`MI_Main` | 7 | Exported Function
+`GetProviderClassID` | 6 | Exported Function
+`PreShutdown` | 8 | Exported Function
+`SmpUnload` | 10 | Exported Function
+`SetShutdownCallback` | 9 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllMain` | 3 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

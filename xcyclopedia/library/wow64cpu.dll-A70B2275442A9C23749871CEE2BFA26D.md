@@ -24,17 +24,17 @@ PE256 | `3EB797E67EA07DBAC5663B60C2748C2F19325AA9E71A71E1543C7705CD78998B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BTCpuGetBopCode` | 1 (0x1) | Exported Function | 0x6b1011d0 | 0x000011d0
-`BTCpuGetContext` | 2 (0x2) | Exported Function | 0x6b101130 | 0x00001130
-`BTCpuProcessInit` | 3 (0x3) | Exported Function | 0x6b101200 | 0x00001200
-`BTCpuResetToConsistentState` | 4 (0x4) | Exported Function | 0x6b101d80 | 0x00001d80
-`BTCpuSetContext` | 5 (0x5) | Exported Function | 0x6b101010 | 0x00001010
-`BTCpuSimulate` | 6 (0x6) | Exported Function | 0x6b1011b0 | 0x000011b0
-`BTCpuTurboThunkControl` | 7 (0x7) | Exported Function | 0x6b101e80 | 0x00001e80
-`TurboDispatchJumpAddressEnd` | 8 (0x8) | Exported Function | 0x6b1017b8 | 0x000017b8
-`TurboDispatchJumpAddressStart` | 9 (0x9) | Exported Function | 0x6b1017af | 0x000017af
+Function Name | Ordinal | Type
+-- | -- | --
+`BTCpuTurboThunkControl` | 7 | Exported Function
+`BTCpuSimulate` | 6 | Exported Function
+`TurboDispatchJumpAddressStart` | 9 | Exported Function
+`TurboDispatchJumpAddressEnd` | 8 | Exported Function
+`BTCpuSetContext` | 5 | Exported Function
+`BTCpuGetContext` | 2 | Exported Function
+`BTCpuGetBopCode` | 1 | Exported Function
+`BTCpuResetToConsistentState` | 4 | Exported Function
+`BTCpuProcessInit` | 3 | Exported Function
 
 
 ## Signature

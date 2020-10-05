@@ -24,13 +24,13 @@ PE256 | `0507CD04BBA074248FB818445CA096531DD35E9B5D28ECD87970DA84D3E7D7AF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDCOMSecurityUIPage` | 1 (0x1) | Exported Function | 0x1006a160 | 0x0006a160
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x100169b0 | 0x000169b0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10016a10 | 0x00016a10
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x10016a60 | 0x00016a60
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x10016a90 | 0x00016a90
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`CreateDCOMSecurityUIPage` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

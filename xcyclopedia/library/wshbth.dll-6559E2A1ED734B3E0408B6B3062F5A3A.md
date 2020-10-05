@@ -24,25 +24,25 @@ PE256 | `C0C3A8E5E112C9972DF14B92612F57D22D49F82899D8F06C89FBE6D9111593C6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NSPStartup` | 1 (0x1) | Exported Function | 0x100058f0 | 0x000058f0
-`WSHOpenSocket2` | 14 (0xe) | Exported Function | 0x10003e20 | 0x00003e20
-`WSHOpenSocket` | 15 (0xf) | Exported Function | 0x10003dc0 | 0x00003dc0
-`WSHNotify` | 13 (0xd) | Exported Function | 0x10003bb0 | 0x00003bb0
-`WSHJoinLeaf` | 12 (0xc) | Exported Function | 0x10003b50 | 0x00003b50
-`WSHIoctl` | 11 (0xb) | Exported Function | 0x10002f60 | 0x00002f60
-`WSHGetWSAProtocolInfo` | 8 (0x8) | Exported Function | 0x10002910 | 0x00002910
-`WSHSetSocketInformation` | 16 (0x10) | Exported Function | 0x10003570 | 0x00003570
-`WSHGetWinsockMapping` | 10 (0xa) | Exported Function | 0x10002c60 | 0x00002c60
-`WSHGetSocketInformation` | 7 (0x7) | Exported Function | 0x100033e0 | 0x000033e0
-`WSHGetSockaddrType` | 6 (0x6) | Exported Function | 0x100027c0 | 0x000027c0
-`WSHGetProviderGuid` | 5 (0x5) | Exported Function | 0x10002a00 | 0x00002a00
-`WSHGetBroadcastSockaddr` | 4 (0x4) | Exported Function | 0x10002ba0 | 0x00002ba0
-`WSHEnumProtocols` | 3 (0x3) | Exported Function | 0x10002570 | 0x00002570
-`WSHAddressToString` | 2 (0x2) | Exported Function | 0x10003730 | 0x00003730
-`WSHGetWildcardSockaddr` | 9 (0x9) | Exported Function | 0x10002ae0 | 0x00002ae0
-`WSHStringToAddress` | 17 (0x11) | Exported Function | 0x10003900 | 0x00003900
+Function Name | Ordinal | Type
+-- | -- | --
+`WSHJoinLeaf` | 12 | Exported Function
+`WSHNotify` | 13 | Exported Function
+`WSHGetWSAProtocolInfo` | 8 | Exported Function
+`WSHIoctl` | 11 | Exported Function
+`WSHSetSocketInformation` | 16 | Exported Function
+`WSHStringToAddress` | 17 | Exported Function
+`WSHOpenSocket` | 15 | Exported Function
+`WSHOpenSocket2` | 14 | Exported Function
+`WSHGetWinsockMapping` | 10 | Exported Function
+`WSHEnumProtocols` | 3 | Exported Function
+`WSHGetBroadcastSockaddr` | 4 | Exported Function
+`NSPStartup` | 1 | Exported Function
+`WSHAddressToString` | 2 | Exported Function
+`WSHGetSocketInformation` | 7 | Exported Function
+`WSHGetWildcardSockaddr` | 9 | Exported Function
+`WSHGetProviderGuid` | 5 | Exported Function
+`WSHGetSockaddrType` | 6 | Exported Function
 
 
 ## Signature

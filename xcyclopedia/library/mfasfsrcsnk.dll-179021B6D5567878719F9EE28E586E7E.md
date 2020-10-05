@@ -24,29 +24,29 @@ PE256 | `A7B35F5A5964201FCA7BBEF0B527110EAD9533160D46E94ACCEB1AA1F16784A5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x1003d040 | 0x0003d040
-`MFCreateASFStreamPrioritization` | 16 (0x10) | Exported Function | 0x1008dc30 | 0x0008dc30
-`MFCreateASFStreamingMediaSinkActivateNoInit` | 20 (0x14) | Exported Function | 0x100ae3d0 | 0x000ae3d0
-`MFCreateASFStreamingMediaSinkActivate` | 19 (0x13) | Exported Function | 0x100ae290 | 0x000ae290
-`MFCreateASFStreamingMediaSink` | 18 (0x12) | Exported Function | 0x100b1cc0 | 0x000b1cc0
-`MFCreateASFStreamConfig` | 15 (0xf) | Exported Function | 0x1008d810 | 0x0008d810
-`MFCreateASFSplitter` | 14 (0xe) | Exported Function | 0x10091700 | 0x00091700
-`MFCreateASFProfileFromPresentationDescriptor` | 13 (0xd) | Exported Function | 0x1008b6c0 | 0x0008b6c0
-`MFCreateASFProfile` | 12 (0xc) | Exported Function | 0x1008b6a0 | 0x0008b6a0
-`MFCreateASFStreamSelector` | 17 (0x11) | Exported Function | 0x10095c00 | 0x00095c00
-`MFCreateASFMutex` | 11 (0xb) | Exported Function | 0x10089580 | 0x00089580
-`MFCreateASFMediaSinkActivateNoInit` | 9 (0x9) | Exported Function | 0x100ae1b0 | 0x000ae1b0
-`MFCreateASFMediaSinkActivateFromByteStream` | 8 (0x8) | Exported Function | 0x100ae000 | 0x000ae000
-`MFCreateASFMediaSinkActivate` | 7 (0x7) | Exported Function | 0x100adeb0 | 0x000adeb0
-`MFCreateASFMediaSink` | 6 (0x6) | Exported Function | 0x100a9550 | 0x000a9550
-`MFCreateASFIndexerByteStream` | 5 (0x5) | Exported Function | 0x1007d100 | 0x0007d100
-`MFCreateASFIndexer` | 4 (0x4) | Exported Function | 0x1007d0b0 | 0x0007d0b0
-`MFCreateASFContentInfo` | 3 (0x3) | Exported Function | 0x10073eb0 | 0x00073eb0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x1003a980 | 0x0003a980
-`MFCreateASFMultiplexer` | 10 (0xa) | Exported Function | 0x10083db0 | 0x00083db0
-`MFCreatePresentationDescriptorFromASFProfile` | 21 (0x15) | Exported Function | 0x1008ba00 | 0x0008ba00
+Function Name | Ordinal | Type
+-- | -- | --
+`MFCreateASFStreamConfig` | 15 | Exported Function
+`MFCreateASFStreamingMediaSink` | 18 | Exported Function
+`MFCreateASFSplitter` | 14 | Exported Function
+`MFCreateASFProfile` | 12 | Exported Function
+`MFCreateASFProfileFromPresentationDescriptor` | 13 | Exported Function
+`MFCreateASFStreamSelector` | 17 | Exported Function
+`MFCreatePresentationDescriptorFromASFProfile` | 21 | Exported Function
+`MFCreateASFStreamPrioritization` | 16 | Exported Function
+`MFCreateASFStreamingMediaSinkActivate` | 19 | Exported Function
+`MFCreateASFStreamingMediaSinkActivateNoInit` | 20 | Exported Function
+`MFCreateASFMutex` | 11 | Exported Function
+`MFCreateASFIndexer` | 4 | Exported Function
+`MFCreateASFIndexerByteStream` | 5 | Exported Function
+`MFCreateASFContentInfo` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`MFCreateASFMediaSinkActivateNoInit` | 9 | Exported Function
+`MFCreateASFMultiplexer` | 10 | Exported Function
+`MFCreateASFMediaSinkActivateFromByteStream` | 8 | Exported Function
+`MFCreateASFMediaSink` | 6 | Exported Function
+`MFCreateASFMediaSinkActivate` | 7 | Exported Function
 
 
 ## Signature

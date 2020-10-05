@@ -24,45 +24,45 @@ PE256 | `058CA12ADC1947B4008D3A690342369F093251329A23A617BFE5086BA9D2342B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DdqCancelDiagnosticRecordOperation` | 1 (0x1) | Exported Function | 0x100050a0 | 0x000050a0
-`DdqGetDiagnosticRecordProducerAtIndex` | 21 (0x15) | Exported Function | 0x10004c50 | 0x00004c50
-`DdqGetDiagnosticRecordProducerCategories` | 22 (0x16) | Exported Function | 0x10004ca0 | 0x00004ca0
-`DdqGetDiagnosticRecordProducerCount` | 23 (0x17) | Exported Function | 0x10004b30 | 0x00004b30
-`DdqGetDiagnosticRecordProducers` | 24 (0x18) | Exported Function | 0x10004b50 | 0x00004b50
-`DdqGetDiagnosticRecordStats` | 25 (0x19) | Exported Function | 0x100048b0 | 0x000048b0
-`DdqGetDiagnosticRecordSummary` | 26 (0x1a) | Exported Function | 0x10005490 | 0x00005490
-`DdqGetDiagnosticRecordTagDistribution` | 27 (0x1b) | Exported Function | 0x10005370 | 0x00005370
-`DdqGetDiagnosticReport` | 28 (0x1c) | Exported Function | 0x10005120 | 0x00005120
-`DdqGetDiagnosticReportAtIndex` | 29 (0x1d) | Exported Function | 0x100052b0 | 0x000052b0
-`DdqGetDiagnosticReportCount` | 30 (0x1e) | Exported Function | 0x10004b30 | 0x00004b30
-`DdqGetDiagnosticReportStoreReportCount` | 31 (0x1f) | Exported Function | 0x10005020 | 0x00005020
-`DdqGetSessionAccessLevel` | 32 (0x20) | Exported Function | 0x10004790 | 0x00004790
-`DdqGetTranscriptConfiguration` | 33 (0x21) | Exported Function | 0x100055a0 | 0x000055a0
-`DdqIsDiagnosticRecordSampledIn` | 34 (0x22) | Exported Function | 0x10004df0 | 0x00004df0
-`DdqSetTranscriptConfiguration` | 35 (0x23) | Exported Function | 0x10005520 | 0x00005520
-`DdqGetDiagnosticRecordPayload` | 20 (0x14) | Exported Function | 0x10004940 | 0x00004940
-`UtcSendTraceLogging` | 37 (0x25) | Exported Function | 0x10005620 | 0x00005620
-`DdqGetDiagnosticRecordPage` | 19 (0x13) | Exported Function | 0x10004e90 | 0x00004e90
-`DdqGetDiagnosticRecordLocaleTagCount` | 17 (0x11) | Exported Function | 0x10004b30 | 0x00004b30
-`DdqCloseSession` | 2 (0x2) | Exported Function | 0x10004700 | 0x00004700
-`DdqCreateSession` | 3 (0x3) | Exported Function | 0x10004640 | 0x00004640
-`DdqExtractDiagnosticReport` | 4 (0x4) | Exported Function | 0x100052e0 | 0x000052e0
-`DdqFreeDiagnosticRecordLocaleTags` | 5 (0x5) | Exported Function | 0x10004a80 | 0x00004a80
-`DdqFreeDiagnosticRecordPage` | 6 (0x6) | Exported Function | 0x10004f50 | 0x00004f50
-`DdqFreeDiagnosticRecordProducerCategories` | 7 (0x7) | Exported Function | 0x10004d50 | 0x00004d50
-`DdqFreeDiagnosticRecordProducers` | 8 (0x8) | Exported Function | 0x10004c00 | 0x00004c00
-`DdqFreeDiagnosticReport` | 9 (0x9) | Exported Function | 0x100051d0 | 0x000051d0
-`DdqGetDiagnosticDataAccessLevelAllowed` | 10 (0xa) | Exported Function | 0x10004830 | 0x00004830
-`DdqGetDiagnosticRecordAtIndex` | 11 (0xb) | Exported Function | 0x10004fd0 | 0x00004fd0
-`DdqGetDiagnosticRecordBinaryDistribution` | 12 (0xc) | Exported Function | 0x10005400 | 0x00005400
-`DdqGetDiagnosticRecordCategoryAtIndex` | 13 (0xd) | Exported Function | 0x10004da0 | 0x00004da0
-`DdqGetDiagnosticRecordCategoryCount` | 14 (0xe) | Exported Function | 0x10004b30 | 0x00004b30
-`DdqGetDiagnosticRecordCount` | 15 (0xf) | Exported Function | 0x10004b30 | 0x00004b30
-`DdqGetDiagnosticRecordLocaleTagAtIndex` | 16 (0x10) | Exported Function | 0x10004ae0 | 0x00004ae0
-`DdqGetDiagnosticRecordLocaleTags` | 18 (0x12) | Exported Function | 0x100049d0 | 0x000049d0
-`UtcSendTraceLogging2` | 36 (0x24) | Exported Function | 0x100056d0 | 0x000056d0
+Function Name | Ordinal | Type
+-- | -- | --
+`DdqGetDiagnosticRecordSummary` | 26 | Exported Function
+`DdqGetDiagnosticRecordStats` | 25 | Exported Function
+`DdqGetDiagnosticReport` | 28 | Exported Function
+`DdqGetDiagnosticRecordTagDistribution` | 27 | Exported Function
+`DdqGetDiagnosticRecordProducers` | 24 | Exported Function
+`DdqGetDiagnosticRecordProducerAtIndex` | 21 | Exported Function
+`DdqGetDiagnosticRecordPayload` | 20 | Exported Function
+`DdqGetDiagnosticRecordProducerCount` | 23 | Exported Function
+`DdqGetDiagnosticRecordProducerCategories` | 22 | Exported Function
+`DdqSetTranscriptConfiguration` | 35 | Exported Function
+`DdqIsDiagnosticRecordSampledIn` | 34 | Exported Function
+`UtcSendTraceLogging2` | 36 | Exported Function
+`UtcSendTraceLogging` | 37 | Exported Function
+`DdqGetTranscriptConfiguration` | 33 | Exported Function
+`DdqGetDiagnosticReportCount` | 30 | Exported Function
+`DdqGetDiagnosticReportAtIndex` | 29 | Exported Function
+`DdqGetSessionAccessLevel` | 32 | Exported Function
+`DdqGetDiagnosticReportStoreReportCount` | 31 | Exported Function
+`DdqGetDiagnosticRecordPage` | 19 | Exported Function
+`DdqFreeDiagnosticRecordProducerCategories` | 7 | Exported Function
+`DdqFreeDiagnosticRecordPage` | 6 | Exported Function
+`DdqFreeDiagnosticReport` | 9 | Exported Function
+`DdqFreeDiagnosticRecordProducers` | 8 | Exported Function
+`DdqFreeDiagnosticRecordLocaleTags` | 5 | Exported Function
+`DdqCloseSession` | 2 | Exported Function
+`DdqCancelDiagnosticRecordOperation` | 1 | Exported Function
+`DdqExtractDiagnosticReport` | 4 | Exported Function
+`DdqCreateSession` | 3 | Exported Function
+`DdqGetDiagnosticRecordLocaleTagAtIndex` | 16 | Exported Function
+`DdqGetDiagnosticRecordCount` | 15 | Exported Function
+`DdqGetDiagnosticRecordLocaleTags` | 18 | Exported Function
+`DdqGetDiagnosticRecordLocaleTagCount` | 17 | Exported Function
+`DdqGetDiagnosticRecordCategoryCount` | 14 | Exported Function
+`DdqGetDiagnosticRecordAtIndex` | 11 | Exported Function
+`DdqGetDiagnosticDataAccessLevelAllowed` | 10 | Exported Function
+`DdqGetDiagnosticRecordCategoryAtIndex` | 13 | Exported Function
+`DdqGetDiagnosticRecordBinaryDistribution` | 12 | Exported Function
 
 
 ## Signature

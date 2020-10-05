@@ -24,11 +24,11 @@ PE256 | `B36E6F0FE5752C01F032FAF361DEEC4AA5EEE7FA8F69C671E3F90FE39641188A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseOSObject` | 1 (0x1) | Exported Function | 0x0000000180001fa0 | 0x00001fa0
-`CollectOSObjectData` | 2 (0x2) | Exported Function | 0x0000000180001900 | 0x00001900
-`OpenOSObject` | 3 (0x3) | Exported Function | 0x00000001800022e0 | 0x000022e0
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenOSObject` | 3 | Exported Function
+`CollectOSObjectData` | 2 | Exported Function
+`CloseOSObject` | 1 | Exported Function
 
 
 ## Signature

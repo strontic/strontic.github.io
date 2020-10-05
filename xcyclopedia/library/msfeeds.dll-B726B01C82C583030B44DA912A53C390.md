@@ -24,11 +24,11 @@ PE256 | `6CD98212679973888FC8FBA4E73BCBD39BC9CA795BA1BBF5382E7F802EE84B15`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180026d90 | 0x00026d90
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180026df0 | 0x00026df0
-`MsfeedsCreateInstance` | 3 (0x3) | Exported Function | 0x0000000180027130 | 0x00027130
+Function Name | Ordinal | Type
+-- | -- | --
+`MsfeedsCreateInstance` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

@@ -24,45 +24,37 @@ PE256 | `63D9A3CD9B91BE1D484FFA29553A3D7DCBEEE0695C889E8F82C954BD0F53AE68`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateMassObject` | 3 (0x3) | Exported Function | 0x000000018000e880 | 0x0000e880
-`Ordinal18` | 18 (0x12) | Exported Function | 0x0000000180071450 | 0x00071450
-`Ordinal19` | 19 (0x13) | Exported Function | 0x0000000180041540 | 0x00041540
-`Ordinal36` | 36 (0x24) | Exported Function | 0x000000018006f030 | 0x0006f030
-`Ordinal37` | 37 (0x25) | Exported Function | 0x000000018006f340 | 0x0006f340
-`Ordinal44` | 44 (0x2c) | Exported Function | 0x0000000180041100 | 0x00041100
-`Ordinal45` | 45 (0x2d) | Exported Function | 0x0000000180040ee0 | 0x00040ee0
-`Ordinal61` | 61 (0x3d) | Exported Function | 0x00000001800a0960 | 0x000a0960
-`SyncGetMAPISession` | 22 (0x16) | Exported Function | 0x0000000180062050 | 0x00062050
-`SyncGetMessageStore` | 23 (0x17) | Exported Function | 0x00000001800620e0 | 0x000620e0
-`SyncGetSpecialFolder` | 24 (0x18) | Exported Function | 0x0000000180062180 | 0x00062180
-`SyncMgrPurgeFolderProvider` | 25 (0x19) | Exported Function | 0x000000018006f220 | 0x0006f220
-`SyncMgrPurgeProviderStore` | 26 (0x1a) | Exported Function | 0x000000018006f230 | 0x0006f230
-`SyncMgrRemovePolicy` | 27 (0x1b) | Exported Function | 0x000000018006f320 | 0x0006f320
-`SyncSqmUpdateStats` | 63 (0x3f) | Exported Function | 0x00000001800048b0 | 0x000048b0
-`UpdateEasTrackingSchema` | 28 (0x1c) | Exported Function | 0x00000001800a0ba0 | 0x000a0ba0
-`Ordinal1` | 1 (0x1) | Exported Function | 0x000000018006f160 | 0x0006f160
-`WriteStoreCapabilityProps` | 29 (0x1d) | Exported Function | 0x0000000180071490 | 0x00071490
-`OneStopFactory` | 21 (0x15) | Exported Function | 0x000000018000aac0 | 0x0000aac0
-`IsValidOutlookExtensionVersion` | 17 (0x11) | Exported Function | 0x00000001800646a0 | 0x000646a0
-`CreateSyncServiceLayer` | 4 (0x4) | Exported Function | 0x00000001800c2830 | 0x000c2830
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x000000018000a900 | 0x0000a900
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x000000018000a940 | 0x0000a940
-`DownloadEmailAttachment` | 7 (0x7) | Exported Function | 0x000000018005dd50 | 0x0005dd50
-`DownloadEmailBody` | 8 (0x8) | Exported Function | 0x000000018005e130 | 0x0005e130
-`GetActiveSyncServerProbeInstance` | 9 (0x9) | Exported Function | 0x000000018009e790 | 0x0009e790
-`GetConversationSyncEnabled` | 10 (0xa) | Exported Function | 0x000000018009e840 | 0x0009e840
-`GetOutlookExtensionSupportForAccount` | 11 (0xb) | Exported Function | 0x0000000180064380 | 0x00064380
-`GetOutlookExtensionSupportFromAccessor` | 12 (0xc) | Exported Function | 0x0000000180064480 | 0x00064480
-`GetUserInfoForUnconfiguredAccount` | 13 (0xd) | Exported Function | 0x00000001800c3e40 | 0x000c3e40
-`HandleEasMeetingResponseForAppointment` | 14 (0xe) | Exported Function | 0x000000018009f1d0 | 0x0009f1d0
-`HandleEasMeetingResponseForMeetingNotification` | 15 (0xf) | Exported Function | 0x000000018009f460 | 0x0009f460
-`InitializeSyncStatus` | 62 (0x3e) | Exported Function | 0x00000001800048a0 | 0x000048a0
-`IsEnabledForSync` | 2 (0x2) | Exported Function | 0x00000001800a9810 | 0x000a9810
-`IsErrorCatastrophic` | 16 (0x10) | Exported Function | 0x00000001800a0920 | 0x000a0920
-`MarkPeopleFolderForResync` | 20 (0x14) | Exported Function | 0x00000001800a0b60 | 0x000a0b60
-`WriteStoreContentTypesProps` | 30 (0x1e) | Exported Function | 0x0000000180071ed0 | 0x00071ed0
+Function Name | Ordinal | Type
+-- | -- | --
+`SyncGetMAPISession` | 22 | Exported Function
+`SyncGetMessageStore` | 23 | Exported Function
+`SyncGetSpecialFolder` | 24 | Exported Function
+`OneStopFactory` | 21 | Exported Function
+`IsErrorCatastrophic` | 16 | Exported Function
+`IsValidOutlookExtensionVersion` | 17 | Exported Function
+`MarkPeopleFolderForResync` | 20 | Exported Function
+`UpdateEasTrackingSchema` | 28 | Exported Function
+`WriteStoreCapabilityProps` | 29 | Exported Function
+`WriteStoreContentTypesProps` | 30 | Exported Function
+`SyncSqmUpdateStats` | 63 | Exported Function
+`SyncMgrPurgeFolderProvider` | 25 | Exported Function
+`SyncMgrPurgeProviderStore` | 26 | Exported Function
+`SyncMgrRemovePolicy` | 27 | Exported Function
+`IsEnabledForSync` | 2 | Exported Function
+`DownloadEmailAttachment` | 7 | Exported Function
+`DownloadEmailBody` | 8 | Exported Function
+`GetActiveSyncServerProbeInstance` | 9 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`CreateMassObject` | 3 | Exported Function
+`CreateSyncServiceLayer` | 4 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`HandleEasMeetingResponseForAppointment` | 14 | Exported Function
+`HandleEasMeetingResponseForMeetingNotification` | 15 | Exported Function
+`InitializeSyncStatus` | 62 | Exported Function
+`GetUserInfoForUnconfiguredAccount` | 13 | Exported Function
+`GetConversationSyncEnabled` | 10 | Exported Function
+`GetOutlookExtensionSupportForAccount` | 11 | Exported Function
+`GetOutlookExtensionSupportFromAccessor` | 12 | Exported Function
 
 
 ## Signature

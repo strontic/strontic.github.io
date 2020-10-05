@@ -24,64 +24,64 @@ PE256 | `6A35243F9D9BBB3CAF460BBBE7EF260946F4444F0B6A3978AD44BD2157298F5D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DriverPackageClose` | 1 (0x1) | Exported Function | 0x0000000180091440 | 0x00091440
-`DriverStoreImportW` | 31 (0x1f) | Exported Function | 0x00000001800170e0 | 0x000170e0
-`DriverStoreMountNodeW` | 32 (0x20) | Exported Function | 0x000000018001bd90 | 0x0001bd90
-`DriverStoreOfflineAddDriverPackageA` | 33 (0x21) | Exported Function | 0x0000000180052b90 | 0x00052b90
-`DriverStoreOfflineAddDriverPackageW` | 34 (0x22) | Exported Function | 0x0000000180052e60 | 0x00052e60
-`DriverStoreOfflineDeleteDriverPackageA` | 35 (0x23) | Exported Function | 0x0000000180053260 | 0x00053260
-`DriverStoreOfflineDeleteDriverPackageW` | 36 (0x24) | Exported Function | 0x0000000180053380 | 0x00053380
-`DriverStoreOfflineEnumDriverPackageA` | 37 (0x25) | Exported Function | 0x0000000180053550 | 0x00053550
-`DriverStoreOfflineEnumDriverPackageW` | 38 (0x26) | Exported Function | 0x00000001800536a0 | 0x000536a0
-`DriverStoreOfflineFindDriverPackageA` | 39 (0x27) | Exported Function | 0x00000001800537f0 | 0x000537f0
-`DriverStoreOfflineFindDriverPackageW` | 40 (0x28) | Exported Function | 0x0000000180053a10 | 0x00053a10
-`DriverStoreOpenW` | 41 (0x29) | Exported Function | 0x00000001800051b0 | 0x000051b0
-`DriverStoreGetObjectPropertyW` | 30 (0x1e) | Exported Function | 0x00000001800089a0 | 0x000089a0
-`DriverStorePublishW` | 42 (0x2a) | Exported Function | 0x0000000180023ee0 | 0x00023ee0
-`DriverStoreReflectW` | 44 (0x2c) | Exported Function | 0x0000000180038190 | 0x00038190
-`DriverStoreRunDllW` | 45 (0x2d) | Exported Function | 0x0000000180057d40 | 0x00057d40
-`DriverStoreSelectNodeW` | 46 (0x2e) | Exported Function | 0x000000018001bf20 | 0x0001bf20
-`DriverStoreSetLogContext` | 47 (0x2f) | Exported Function | 0x00000001800133b0 | 0x000133b0
-`DriverStoreSetObjectPropertyW` | 48 (0x30) | Exported Function | 0x000000018000a5d0 | 0x0000a5d0
-`DriverStoreUnconfigureW` | 49 (0x31) | Exported Function | 0x000000018003ebd0 | 0x0003ebd0
-`DriverStoreUnmountNodeW` | 50 (0x32) | Exported Function | 0x000000018001c050 | 0x0001c050
-`DriverStoreUnpublishW` | 51 (0x33) | Exported Function | 0x0000000180024600 | 0x00024600
-`DriverStoreUnreflectCriticalW` | 52 (0x34) | Exported Function | 0x0000000180038240 | 0x00038240
-`DriverStoreUnreflectW` | 53 (0x35) | Exported Function | 0x0000000180038290 | 0x00038290
-`DriverStoreUpdateDevicesW` | 54 (0x36) | Exported Function | 0x00000001800448f0 | 0x000448f0
-`DriverStoreReflectCriticalW` | 43 (0x2b) | Exported Function | 0x0000000180038140 | 0x00038140
-`DriverStoreGetObjectPropertyKeysW` | 29 (0x1d) | Exported Function | 0x000000018001c380 | 0x0001c380
-`DriverStoreFindW` | 28 (0x1c) | Exported Function | 0x0000000180003130 | 0x00003130
-`DriverStoreEnumW` | 27 (0x1b) | Exported Function | 0x000000018001b560 | 0x0001b560
-`DriverPackageEnumClassesW` | 2 (0x2) | Exported Function | 0x00000001800914e0 | 0x000914e0
-`DriverPackageEnumComponentsW` | 3 (0x3) | Exported Function | 0x00000001800918d0 | 0x000918d0
-`DriverPackageEnumConfigurationsW` | 4 (0x4) | Exported Function | 0x0000000180091b00 | 0x00091b00
-`DriverPackageEnumDevicesW` | 5 (0x5) | Exported Function | 0x0000000180091d10 | 0x00091d10
-`DriverPackageEnumDriversW` | 6 (0x6) | Exported Function | 0x0000000180092050 | 0x00092050
-`DriverPackageEnumEventProvidersW` | 7 (0x7) | Exported Function | 0x0000000180092440 | 0x00092440
-`DriverPackageEnumFilesW` | 8 (0x8) | Exported Function | 0x0000000180092670 | 0x00092670
-`DriverPackageEnumFiltersW` | 9 (0x9) | Exported Function | 0x0000000180092a70 | 0x00092a70
-`DriverPackageEnumInterfacesW` | 10 (0xa) | Exported Function | 0x0000000180092c90 | 0x00092c90
-`DriverPackageEnumPropertiesW` | 11 (0xb) | Exported Function | 0x0000000180093010 | 0x00093010
-`DriverPackageEnumRegKeysW` | 12 (0xc) | Exported Function | 0x0000000180093240 | 0x00093240
-`DriverPackageEnumServicesW` | 13 (0xd) | Exported Function | 0x0000000180093480 | 0x00093480
-`DriverPackageEnumSoftwareW` | 14 (0xe) | Exported Function | 0x00000001800936b0 | 0x000936b0
-`DriverPackageGetPropertyW` | 15 (0xf) | Exported Function | 0x0000000180093d00 | 0x00093d00
-`DriverPackageGetVersionInfoW` | 16 (0x10) | Exported Function | 0x0000000180094830 | 0x00094830
-`DriverPackageOpenW` | 17 (0x11) | Exported Function | 0x0000000180094bb0 | 0x00094bb0
-`DriverStoreClose` | 18 (0x12) | Exported Function | 0x0000000180002da0 | 0x00002da0
-`DriverStoreConfigureW` | 19 (0x13) | Exported Function | 0x000000018003ebb0 | 0x0003ebb0
-`DriverStoreCopyW` | 20 (0x14) | Exported Function | 0x000000018001ab30 | 0x0001ab30
-`DriverStoreDeleteW` | 21 (0x15) | Exported Function | 0x000000018001a330 | 0x0001a330
-`DriverStoreDriverPackageResolveCallbackW` | 22 (0x16) | Exported Function | 0x0000000180014060 | 0x00014060
-`DriverStoreEnumDeviceDriversW` | 23 (0x17) | Exported Function | 0x0000000180044760 | 0x00044760
-`DriverStoreEnumNodesW` | 24 (0x18) | Exported Function | 0x000000018001bbf0 | 0x0001bbf0
-`DriverStoreEnumObjectsW` | 25 (0x19) | Exported Function | 0x000000018001c1e0 | 0x0001c1e0
-`DriverStoreEnumRelatedDriversW` | 26 (0x1a) | Exported Function | 0x0000000180059540 | 0x00059540
-`pServerDeleteDriverPackage` | 55 (0x37) | Exported Function | 0x0000000180052460 | 0x00052460
-`pServerImportDriverPackage` | 56 (0x38) | Exported Function | 0x0000000180052630 | 0x00052630
+Function Name | Ordinal | Type
+-- | -- | --
+`DriverStoreOfflineEnumDriverPackageW` | 38 | Exported Function
+`DriverStoreOfflineEnumDriverPackageA` | 37 | Exported Function
+`DriverStoreOfflineDeleteDriverPackageW` | 36 | Exported Function
+`DriverStoreOfflineFindDriverPackageA` | 39 | Exported Function
+`DriverStorePublishW` | 42 | Exported Function
+`DriverStoreOpenW` | 41 | Exported Function
+`DriverStoreOfflineFindDriverPackageW` | 40 | Exported Function
+`DriverStoreImportW` | 31 | Exported Function
+`DriverStoreGetObjectPropertyW` | 30 | Exported Function
+`DriverStoreGetObjectPropertyKeysW` | 29 | Exported Function
+`DriverStoreMountNodeW` | 32 | Exported Function
+`DriverStoreOfflineDeleteDriverPackageA` | 35 | Exported Function
+`DriverStoreOfflineAddDriverPackageW` | 34 | Exported Function
+`DriverStoreOfflineAddDriverPackageA` | 33 | Exported Function
+`DriverStoreUnreflectCriticalW` | 52 | Exported Function
+`DriverStoreUnpublishW` | 51 | Exported Function
+`DriverStoreUnmountNodeW` | 50 | Exported Function
+`DriverStoreUnreflectW` | 53 | Exported Function
+`pServerImportDriverPackage` | 56 | Exported Function
+`pServerDeleteDriverPackage` | 55 | Exported Function
+`DriverStoreUpdateDevicesW` | 54 | Exported Function
+`DriverStoreRunDllW` | 45 | Exported Function
+`DriverStoreReflectW` | 44 | Exported Function
+`DriverStoreReflectCriticalW` | 43 | Exported Function
+`DriverStoreSelectNodeW` | 46 | Exported Function
+`DriverStoreUnconfigureW` | 49 | Exported Function
+`DriverStoreSetObjectPropertyW` | 48 | Exported Function
+`DriverStoreSetLogContext` | 47 | Exported Function
+`DriverPackageEnumInterfacesW` | 10 | Exported Function
+`DriverPackageEnumFiltersW` | 9 | Exported Function
+`DriverPackageEnumFilesW` | 8 | Exported Function
+`DriverPackageEnumPropertiesW` | 11 | Exported Function
+`DriverPackageEnumSoftwareW` | 14 | Exported Function
+`DriverPackageEnumServicesW` | 13 | Exported Function
+`DriverPackageEnumRegKeysW` | 12 | Exported Function
+`DriverPackageEnumComponentsW` | 3 | Exported Function
+`DriverPackageEnumClassesW` | 2 | Exported Function
+`DriverPackageClose` | 1 | Exported Function
+`DriverPackageEnumConfigurationsW` | 4 | Exported Function
+`DriverPackageEnumEventProvidersW` | 7 | Exported Function
+`DriverPackageEnumDriversW` | 6 | Exported Function
+`DriverPackageEnumDevicesW` | 5 | Exported Function
+`DriverStoreEnumNodesW` | 24 | Exported Function
+`DriverStoreEnumDeviceDriversW` | 23 | Exported Function
+`DriverStoreDriverPackageResolveCallbackW` | 22 | Exported Function
+`DriverStoreEnumObjectsW` | 25 | Exported Function
+`DriverStoreFindW` | 28 | Exported Function
+`DriverStoreEnumW` | 27 | Exported Function
+`DriverStoreEnumRelatedDriversW` | 26 | Exported Function
+`DriverPackageOpenW` | 17 | Exported Function
+`DriverPackageGetVersionInfoW` | 16 | Exported Function
+`DriverPackageGetPropertyW` | 15 | Exported Function
+`DriverStoreClose` | 18 | Exported Function
+`DriverStoreDeleteW` | 21 | Exported Function
+`DriverStoreCopyW` | 20 | Exported Function
+`DriverStoreConfigureW` | 19 | Exported Function
 
 
 ## Signature

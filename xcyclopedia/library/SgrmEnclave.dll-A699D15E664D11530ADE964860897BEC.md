@@ -24,19 +24,19 @@ PE256 | `140CCE904ADD929F6E2CC07B7A71EC9D88AB6EDB34293AAAD5910744FD9A8906`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EngHostAttest` | 1 (0x1) | Exported Function | 0x000000018000ef10 | 0x0000ef10
-`EngHostCreateAttestationClient` | 2 (0x2) | Exported Function | 0x000000018000ebb0 | 0x0000ebb0
-`EngHostDestroyAttestationClient` | 3 (0x3) | Exported Function | 0x000000018000ed50 | 0x0000ed50
-`EngHostDispatchThread` | 4 (0x4) | Exported Function | 0x000000018000dbf0 | 0x0000dbf0
-`EngHostGetRuntimeReport` | 5 (0x5) | Exported Function | 0x000000018000dfe0 | 0x0000dfe0
-`EngHostGetSessionCertificate` | 6 (0x6) | Exported Function | 0x000000018000ea80 | 0x0000ea80
-`EngHostGetSessionReport` | 7 (0x7) | Exported Function | 0x000000018000deb0 | 0x0000deb0
-`EngHostInitialize` | 8 (0x8) | Exported Function | 0x000000018000d2c0 | 0x0000d2c0
-`EngHostNotify` | 9 (0x9) | Exported Function | 0x000000018000dd90 | 0x0000dd90
-`EngHostReinitialize` | 10 (0xa) | Exported Function | 0x000000018000d590 | 0x0000d590
-`EngHostShutdown` | 11 (0xb) | Exported Function | 0x000000018000db20 | 0x0000db20
+Function Name | Ordinal | Type
+-- | -- | --
+`EngHostInitialize` | 8 | Exported Function
+`EngHostGetSessionReport` | 7 | Exported Function
+`EngHostNotify` | 9 | Exported Function
+`EngHostShutdown` | 11 | Exported Function
+`EngHostReinitialize` | 10 | Exported Function
+`EngHostGetSessionCertificate` | 6 | Exported Function
+`EngHostCreateAttestationClient` | 2 | Exported Function
+`EngHostAttest` | 1 | Exported Function
+`EngHostDestroyAttestationClient` | 3 | Exported Function
+`EngHostGetRuntimeReport` | 5 | Exported Function
+`EngHostDispatchThread` | 4 | Exported Function
 
 
 ## Signature

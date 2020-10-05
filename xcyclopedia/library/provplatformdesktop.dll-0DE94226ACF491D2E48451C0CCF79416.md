@@ -24,27 +24,27 @@ PE256 | `B902DF9AC7B5387D8B87599ECB573F621AEE62BE7398FFF1C310AB2ECE1309E1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CheckPackageManagerOutOfProc` | 2 (0x2) | Exported Function | 0x0000000180006fc0 | 0x00006fc0
-`MgmtRefreshUnstageSession` | 17 (0x11) | Exported Function | 0x0000000180008c10 | 0x00008c10
-`MgmtRefreshStageSession` | 16 (0x10) | Exported Function | 0x0000000180008bd0 | 0x00008bd0
-`MgmtRefreshReleaseSession` | 15 (0xf) | Exported Function | 0x0000000180008b70 | 0x00008b70
-`MgmtRefreshRebootSystem` | 14 (0xe) | Exported Function | 0x0000000180008c50 | 0x00008c50
-`MgmtRefreshPrecheck` | 13 (0xd) | Exported Function | 0x0000000180008bc0 | 0x00008bc0
-`InitiateSystemReset` | 12 (0xc) | Exported Function | 0x0000000180008ad0 | 0x00008ad0
-`InitiateMgmtRefresh` | 11 (0xb) | Exported Function | 0x0000000180008a20 | 0x00008a20
-`ReportInstallationError` | 18 (0x12) | Exported Function | 0x0000000180008ce0 | 0x00008ce0
-`GetProvisioningTargetUser` | 10 (0xa) | Exported Function | 0x0000000180008540 | 0x00008540
-`GetDeviceId` | 8 (0x8) | Exported Function | 0x0000000180008120 | 0x00008120
-`DllGetClassObject` | 7 (0x7) | Exported Function | 0x00000001800027e0 | 0x000027e0
-`DllGetActivationFactory` | 6 (0x6) | Exported Function | 0x0000000180002600 | 0x00002600
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x00000001800028d0 | 0x000028d0
-`CreateAutomaticRedeploymentFailureNotificationTask` | 1 (0x1) | Exported Function | 0x0000000180004ea0 | 0x00004ea0
-`ConfigureAppLaunch` | 4 (0x4) | Exported Function | 0x0000000180007e60 | 0x00007e60
-`CheckUserConsent` | 3 (0x3) | Exported Function | 0x0000000180007a40 | 0x00007a40
-`GetPackagePassword` | 9 (0x9) | Exported Function | 0x0000000180008260 | 0x00008260
-`SetDeviceName` | 19 (0x13) | Exported Function | 0x0000000180007fd0 | 0x00007fd0
+Function Name | Ordinal | Type
+-- | -- | --
+`MgmtRefreshPrecheck` | 13 | Exported Function
+`MgmtRefreshRebootSystem` | 14 | Exported Function
+`InitiateMgmtRefresh` | 11 | Exported Function
+`InitiateSystemReset` | 12 | Exported Function
+`MgmtRefreshReleaseSession` | 15 | Exported Function
+`ReportInstallationError` | 18 | Exported Function
+`SetDeviceName` | 19 | Exported Function
+`MgmtRefreshStageSession` | 16 | Exported Function
+`MgmtRefreshUnstageSession` | 17 | Exported Function
+`GetProvisioningTargetUser` | 10 | Exported Function
+`ConfigureAppLaunch` | 4 | Exported Function
+`CreateAutomaticRedeploymentFailureNotificationTask` | 1 | Exported Function
+`CheckPackageManagerOutOfProc` | 2 | Exported Function
+`CheckUserConsent` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`GetDeviceId` | 8 | Exported Function
+`GetPackagePassword` | 9 | Exported Function
+`DllGetActivationFactory` | 6 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
 
 
 ## Signature

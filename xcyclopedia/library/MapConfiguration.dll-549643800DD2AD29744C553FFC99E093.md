@@ -24,12 +24,12 @@ PE256 | `638D8510E0FA9E1E0D14AD4BDE1E3D93C3072302E69044376080CD8B946BCBB4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConfigurationManager_Create` | 1 (0x1) | Exported Function | 0x000000018000a2e0 | 0x0000a2e0
-`ConfigurationManager_GetLocaleMapConfiguration` | 2 (0x2) | Exported Function | 0x000000018000a840 | 0x0000a840
-`ConfigurationManager_SetCustomStorageFolder` | 3 (0x3) | Exported Function | 0x000000018000a240 | 0x0000a240
-`ConfigurationManager_SetServiceCallbacks` | 4 (0x4) | Exported Function | 0x000000018000b610 | 0x0000b610
+Function Name | Ordinal | Type
+-- | -- | --
+`ConfigurationManager_SetCustomStorageFolder` | 3 | Exported Function
+`ConfigurationManager_SetServiceCallbacks` | 4 | Exported Function
+`ConfigurationManager_Create` | 1 | Exported Function
+`ConfigurationManager_GetLocaleMapConfiguration` | 2 | Exported Function
 
 
 ## Signature

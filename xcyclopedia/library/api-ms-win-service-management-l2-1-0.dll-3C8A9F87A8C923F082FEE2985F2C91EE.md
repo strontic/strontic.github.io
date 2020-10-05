@@ -24,16 +24,16 @@ PE256 | `2057C84EB2004743C6BDED9BE8E84F8D92D2BB1DFBD19A9E9717AD46BB5C6D64`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ChangeServiceConfig2W` | 1 (0x1) | Exported Function | advapi32.ChangeServiceConfig2W | 0x000011d7
-`ChangeServiceConfigW` | 2 (0x2) | Exported Function | advapi32.ChangeServiceConfigW | 0x0000120b
-`NotifyServiceStatusChangeW` | 3 (0x3) | Exported Function | advapi32.NotifyServiceStatusChangeW | 0x00001244
-`QueryServiceConfig2W` | 4 (0x4) | Exported Function | advapi32.QueryServiceConfig2W | 0x0000127d
-`QueryServiceConfigW` | 5 (0x5) | Exported Function | advapi32.QueryServiceConfigW | 0x000012af
-`QueryServiceObjectSecurity` | 6 (0x6) | Exported Function | advapi32.QueryServiceObjectSecurity | 0x000012e7
-`QueryServiceStatusEx` | 7 (0x7) | Exported Function | advapi32.QueryServiceStatusEx | 0x00001320
-`SetServiceObjectSecurity` | 8 (0x8) | Exported Function | advapi32.SetServiceObjectSecurity | 0x00001357
+Function Name | Ordinal | Type
+-- | -- | --
+`QueryServiceObjectSecurity` | 6 | Exported Function
+`QueryServiceConfigW` | 5 | Exported Function
+`SetServiceObjectSecurity` | 8 | Exported Function
+`QueryServiceStatusEx` | 7 | Exported Function
+`ChangeServiceConfigW` | 2 | Exported Function
+`ChangeServiceConfig2W` | 1 | Exported Function
+`QueryServiceConfig2W` | 4 | Exported Function
+`NotifyServiceStatusChangeW` | 3 | Exported Function
 
 
 ## Signature

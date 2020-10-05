@@ -24,37 +24,37 @@ PE256 | `7F4C2BE067BB483DE66BDA799CF7DAA9741FE96BD05DBA18C68C8F1887C98770`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CheckGamingPrivilegeSilently` | 4 (0x4) | Exported Function | 0x100130a0 | 0x000130a0
-`ShowUserSettingsUI` | 27 (0x1b) | Exported Function | 0x100139f0 | 0x000139f0
-`ShowTitleAchievementsUIForUser` | 26 (0x1a) | Exported Function | 0x10012d50 | 0x00012d50
-`ShowTitleAchievementsUI` | 25 (0x19) | Exported Function | 0x10012c20 | 0x00012c20
-`ShowProfileCardUIForUser` | 24 (0x18) | Exported Function | 0x10012a30 | 0x00012a30
-`ShowProfileCardUI` | 23 (0x17) | Exported Function | 0x10012900 | 0x00012900
-`ShowPlayerPickerUIForUser` | 22 (0x16) | Exported Function | 0x10012890 | 0x00012890
-`ShowPlayerPickerUI` | 21 (0x15) | Exported Function | 0x10012630 | 0x00012630
-`ShowGameInviteUIWithContextForUser` | 20 (0x14) | Exported Function | 0x100125d0 | 0x000125d0
-`ShowGameInviteUIWithContext` | 19 (0x13) | Exported Function | 0x10012470 | 0x00012470
-`ShowGameInviteUIForUser` | 18 (0x12) | Exported Function | 0x10012410 | 0x00012410
-`ShowGameInviteUI` | 17 (0x11) | Exported Function | 0x100122b0 | 0x000122b0
-`ShowGameInfoUIForUser` | 16 (0x10) | Exported Function | 0x100136b0 | 0x000136b0
-`ShowUserSettingsUIForUser` | 28 (0x1c) | Exported Function | 0x10013b10 | 0x00013b10
-`ShowGameInfoUI` | 15 (0xf) | Exported Function | 0x10013580 | 0x00013580
-`ShowFindFriendsUI` | 13 (0xd) | Exported Function | 0x10013710 | 0x00013710
-`ShowCustomizeUserProfileUIForUser` | 12 (0xc) | Exported Function | 0x100139a0 | 0x000139a0
-`ShowCustomizeUserProfileUI` | 11 (0xb) | Exported Function | 0x10013880 | 0x00013880
-`ShowChangeFriendRelationshipUIForUser` | 10 (0xa) | Exported Function | 0x10012bc0 | 0x00012bc0
-`ShowChangeFriendRelationshipUI` | 9 (0x9) | Exported Function | 0x10012a90 | 0x00012a90
-`ProcessPendingGameUI` | 8 (0x8) | Exported Function | 0x10012db0 | 0x00012db0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10007df0 | 0x00007df0
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x10007dd0 | 0x00007dd0
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10007e10 | 0x00007e10
-`CheckGamingPrivilegeWithUIForUser` | 7 (0x7) | Exported Function | 0x10013520 | 0x00013520
-`CheckGamingPrivilegeWithUI` | 6 (0x6) | Exported Function | 0x10013160 | 0x00013160
-`CheckGamingPrivilegeSilentlyForUser` | 5 (0x5) | Exported Function | 0x10013100 | 0x00013100
-`ShowFindFriendsUIForUser` | 14 (0xe) | Exported Function | 0x10013830 | 0x00013830
-`TryCancelPendingGameUI` | 29 (0x1d) | Exported Function | 0x10013020 | 0x00013020
+Function Name | Ordinal | Type
+-- | -- | --
+`ShowGameInviteUIWithContextForUser` | 20 | Exported Function
+`ShowPlayerPickerUI` | 21 | Exported Function
+`ShowPlayerPickerUIForUser` | 22 | Exported Function
+`ShowGameInviteUIWithContext` | 19 | Exported Function
+`ShowGameInfoUIForUser` | 16 | Exported Function
+`ShowGameInviteUI` | 17 | Exported Function
+`ShowGameInviteUIForUser` | 18 | Exported Function
+`ShowUserSettingsUI` | 27 | Exported Function
+`ShowUserSettingsUIForUser` | 28 | Exported Function
+`TryCancelPendingGameUI` | 29 | Exported Function
+`ShowTitleAchievementsUIForUser` | 26 | Exported Function
+`ShowProfileCardUI` | 23 | Exported Function
+`ShowProfileCardUIForUser` | 24 | Exported Function
+`ShowTitleAchievementsUI` | 25 | Exported Function
+`ShowGameInfoUI` | 15 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`CheckGamingPrivilegeWithUIForUser` | 7 | Exported Function
+`CheckGamingPrivilegeSilently` | 4 | Exported Function
+`CheckGamingPrivilegeSilentlyForUser` | 5 | Exported Function
+`CheckGamingPrivilegeWithUI` | 6 | Exported Function
+`ShowCustomizeUserProfileUIForUser` | 12 | Exported Function
+`ShowFindFriendsUI` | 13 | Exported Function
+`ShowFindFriendsUIForUser` | 14 | Exported Function
+`ShowCustomizeUserProfileUI` | 11 | Exported Function
+`ProcessPendingGameUI` | 8 | Exported Function
+`ShowChangeFriendRelationshipUI` | 9 | Exported Function
+`ShowChangeFriendRelationshipUIForUser` | 10 | Exported Function
 
 
 ## Signature

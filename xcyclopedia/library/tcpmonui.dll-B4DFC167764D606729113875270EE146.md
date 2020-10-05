@@ -24,23 +24,23 @@ PE256 | `24C09EBD57325486A30E5A9312BDFB794EEDF56CFD623A6DDC58D79FD834EE93`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`const CPortABC::``vftable'` | 9 (0x9) | Exported Function | 0x77081040 | 0x00001040
-`const CTcpMibABC::``vftable'` | 10 (0xa) | Exported Function | 0x77081008 | 0x00001008
-`InitializePrintMonitorUI` | 13 (0xd) | Exported Function | 0x77085aa0 | 0x00005aa0
-`InitializePrintMonitorUI2` | 11 (0xb) | Exported Function | 0x77085ae0 | 0x00005ae0
-`LocalAddPortUI` | 14 (0xe) | Exported Function | 0x77086350 | 0x00006350
-`LocalConfigurePortUI` | 15 (0xf) | Exported Function | 0x770863f0 | 0x000063f0
-`public: __thiscall CPortABC::CPortABC(class CPortABC const &)` | 1 (0x1) | Exported Function | 0x770839d0 | 0x000039d0
-`public: __thiscall CPortABC::CPortABC(void)` | 2 (0x2) | Exported Function | 0x770839a0 | 0x000039a0
-`public: __thiscall CTcpMibABC::CTcpMibABC(class CTcpMibABC const &)` | 3 (0x3) | Exported Function | 0x77081910 | 0x00001910
-`public: __thiscall CTcpMibABC::CTcpMibABC(void)` | 4 (0x4) | Exported Function | 0x770818f0 | 0x000018f0
-`public: class CPortABC & __thiscall CPortABC::operator=(class CPortABC const &)` | 7 (0x7) | Exported Function | 0x77081920 | 0x00001920
-`public: class CTcpMibABC & __thiscall CTcpMibABC::operator=(class CTcpMibABC const &)` | 8 (0x8) | Exported Function | 0x77081920 | 0x00001920
-`public: virtual __thiscall CPortABC::~CPortABC(void)` | 5 (0x5) | Exported Function | 0x770839b0 | 0x000039b0
-`public: virtual __thiscall CTcpMibABC::~CTcpMibABC(void)` | 6 (0x6) | Exported Function | 0x77081900 | 0x00001900
-`public: virtual unsigned long __thiscall CPortABC::Read(void * const,unsigned char *,unsigned long,unsigned long *)` | 12 (0xc) | Exported Function | 0x770839c0 | 0x000039c0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: class CPortABC & __thiscall CPortABC::operator=(class CPortABC const &)` | 7 | Exported Function
+`public: __thiscall CTcpMibABC::CTcpMibABC(void)` | 4 | Exported Function
+`public: __thiscall CTcpMibABC::CTcpMibABC(class CTcpMibABC const &)` | 3 | Exported Function
+`public: class CTcpMibABC & __thiscall CTcpMibABC::operator=(class CTcpMibABC const &)` | 8 | Exported Function
+`public: virtual unsigned long __thiscall CPortABC::Read(void * const,unsigned char *,unsigned long,unsigned long *)` | 12 | Exported Function
+`public: virtual __thiscall CTcpMibABC::~CTcpMibABC(void)` | 6 | Exported Function
+`public: virtual __thiscall CPortABC::~CPortABC(void)` | 5 | Exported Function
+`public: __thiscall CPortABC::CPortABC(void)` | 2 | Exported Function
+`InitializePrintMonitorUI` | 13 | Exported Function
+`const CTcpMibABC::``vftable'` | 10 | Exported Function
+`const CPortABC::``vftable'` | 9 | Exported Function
+`InitializePrintMonitorUI2` | 11 | Exported Function
+`public: __thiscall CPortABC::CPortABC(class CPortABC const &)` | 1 | Exported Function
+`LocalConfigurePortUI` | 15 | Exported Function
+`LocalAddPortUI` | 14 | Exported Function
 
 
 ## Signature

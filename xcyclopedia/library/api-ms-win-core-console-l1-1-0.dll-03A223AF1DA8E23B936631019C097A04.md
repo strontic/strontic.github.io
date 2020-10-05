@@ -24,22 +24,22 @@ PE256 | `858EC6E6FEA36BB0C671B82A60BD60973A9F4D0269DF6522D56881C3EB9F6633`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AllocConsole` | 1 (0x1) | Exported Function | kernel32.AllocConsole | 0x00001144
-`GetConsoleCP` | 2 (0x2) | Exported Function | kernel32.GetConsoleCP | 0x00001167
-`GetConsoleMode` | 3 (0x3) | Exported Function | kernel32.GetConsoleMode | 0x0000118c
-`GetConsoleOutputCP` | 4 (0x4) | Exported Function | kernel32.GetConsoleOutputCP | 0x000011b7
-`GetNumberOfConsoleInputEvents` | 5 (0x5) | Exported Function | kernel32.GetNumberOfConsoleInputEvents | 0x000011f1
-`PeekConsoleInputA` | 6 (0x6) | Exported Function | kernel32.PeekConsoleInputA | 0x0000122a
-`ReadConsoleA` | 7 (0x7) | Exported Function | kernel32.ReadConsoleA | 0x00001252
-`ReadConsoleInputA` | 8 (0x8) | Exported Function | kernel32.ReadConsoleInputA | 0x0000127a
-`ReadConsoleInputW` | 9 (0x9) | Exported Function | kernel32.ReadConsoleInputW | 0x000012a7
-`ReadConsoleW` | 10 (0xa) | Exported Function | kernel32.ReadConsoleW | 0x000012cf
-`SetConsoleCtrlHandler` | 11 (0xb) | Exported Function | kernel32.SetConsoleCtrlHandler | 0x000012fb
-`SetConsoleMode` | 12 (0xc) | Exported Function | kernel32.SetConsoleMode | 0x00001329
-`WriteConsoleA` | 13 (0xd) | Exported Function | kernel32.WriteConsoleA | 0x0000134f
-`WriteConsoleW` | 14 (0xe) | Exported Function | kernel32.WriteConsoleW | 0x00001374
+Function Name | Ordinal | Type
+-- | -- | --
+`ReadConsoleW` | 10 | Exported Function
+`ReadConsoleInputW` | 9 | Exported Function
+`ReadConsoleInputA` | 8 | Exported Function
+`SetConsoleCtrlHandler` | 11 | Exported Function
+`WriteConsoleW` | 14 | Exported Function
+`WriteConsoleA` | 13 | Exported Function
+`SetConsoleMode` | 12 | Exported Function
+`GetConsoleMode` | 3 | Exported Function
+`GetConsoleCP` | 2 | Exported Function
+`AllocConsole` | 1 | Exported Function
+`GetConsoleOutputCP` | 4 | Exported Function
+`ReadConsoleA` | 7 | Exported Function
+`PeekConsoleInputA` | 6 | Exported Function
+`GetNumberOfConsoleInputEvents` | 5 | Exported Function
 
 
 ## Signature

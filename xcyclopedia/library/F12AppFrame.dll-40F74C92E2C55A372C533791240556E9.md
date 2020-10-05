@@ -24,18 +24,18 @@ PE256 | `959D21565D58DA53C6E31A9CA0E6D541EF6890FF3624243797A69B5A4702FF45`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AttachTools` | 1 (0x1) | Exported Function | 0x10016f80 | 0x00016f80
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x10016420 | 0x00016420
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x10016440 | 0x00016440
-`DllInstall` | 7 (0x7) | Exported Function | 0x100164b0 | 0x000164b0
-`DllRegisterServer` | 8 (0x8) | Exported Function | 0x10016490 | 0x00016490
-`DllUnregisterServer` | 9 (0x9) | Exported Function | 0x100164a0 | 0x000164a0
-`EnableDebugMode` | 2 (0x2) | Exported Function | 0x10017170 | 0x00017170
-`GetProxyDllInfo` | 10 (0xa) | Exported Function | 0x10009b80 | 0x00009b80
-`InjectTools` | 3 (0x3) | Exported Function | 0x10016940 | 0x00016940
-`ShowTools` | 4 (0x4) | Exported Function | 0x100164f0 | 0x000164f0
+Function Name | Ordinal | Type
+-- | -- | --
+`EnableDebugMode` | 2 | Exported Function
+`DllUnregisterServer` | 9 | Exported Function
+`GetProxyDllInfo` | 10 | Exported Function
+`ShowTools` | 4 | Exported Function
+`InjectTools` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`AttachTools` | 1 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`DllInstall` | 7 | Exported Function
 
 
 ## Signature

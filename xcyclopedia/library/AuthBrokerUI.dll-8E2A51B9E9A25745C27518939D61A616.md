@@ -24,17 +24,17 @@ PE256 | `71DA538E77A95023FA57524FD981DDB8BA8314934AF277669102F4A920AED733`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateWndMgmt` | 1 (0x1) | Exported Function | 0x10003e40 | 0x00003e40
-`DirectUIInitProc` | 2 (0x2) | Exported Function | 0x10003ed0 | 0x00003ed0
-`DirectUIInitThread` | 3 (0x3) | Exported Function | 0x10003f10 | 0x00003f10
-`DirectUIUnInitProc` | 4 (0x4) | Exported Function | 0x10003ef0 | 0x00003ef0
-`DirectUIUnInitThread` | 5 (0x5) | Exported Function | 0x10003f30 | 0x00003f30
-`FreeWndMgmt` | 6 (0x6) | Exported Function | 0x10003ea0 | 0x00003ea0
-`WabCreateWebRuntimeCoreControl` | 7 (0x7) | Exported Function | 0x10003ce0 | 0x00003ce0
-`WabCreateWebRuntimeCoreVisualViewport` | 8 (0x8) | Exported Function | 0x10003d90 | 0x00003d90
-`WabImmDisableLegacyIME` | 9 (0x9) | Exported Function | 0x10003cd0 | 0x00003cd0
+Function Name | Ordinal | Type
+-- | -- | --
+`WabCreateWebRuntimeCoreControl` | 7 | Exported Function
+`FreeWndMgmt` | 6 | Exported Function
+`WabImmDisableLegacyIME` | 9 | Exported Function
+`WabCreateWebRuntimeCoreVisualViewport` | 8 | Exported Function
+`DirectUIUnInitThread` | 5 | Exported Function
+`DirectUIInitProc` | 2 | Exported Function
+`CreateWndMgmt` | 1 | Exported Function
+`DirectUIUnInitProc` | 4 | Exported Function
+`DirectUIInitThread` | 3 | Exported Function
 
 
 ## Signature

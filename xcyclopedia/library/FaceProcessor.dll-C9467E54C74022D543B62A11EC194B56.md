@@ -23,17 +23,17 @@ PE256 | `8F381E094C845A33D7EFE0F486F5ADF7C52CF8B6196CF2BEC22050A96DF08DFD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateColorFaceProcessor` | 1 (0x1) | Exported Function | 0x0000000180071f60 | 0x00071f60
-`CreateFacePreprocessorOutput` | 2 (0x2) | Exported Function | 0x00000001800725f0 | 0x000725f0
-`FileInputManager_InitializeRuntime` | 3 (0x3) | Exported Function | 0x0000000180073590 | 0x00073590
-`FileInputManager_ReadSourceColorFrameData` | 4 (0x4) | Exported Function | 0x00000001800735a0 | 0x000735a0
-`FileInputManager_ReadSourceDeviceMetadata` | 5 (0x5) | Exported Function | 0x00000001800735c0 | 0x000735c0
-`FileInputManager_ReadSourceInfraredFrameData` | 6 (0x6) | Exported Function | 0x00000001800735e0 | 0x000735e0
-`FileInputManager_Reset` | 7 (0x7) | Exported Function | 0x0000000180073610 | 0x00073610
-`FileInputManager_SendColorFrameData` | 8 (0x8) | Exported Function | 0x0000000180073620 | 0x00073620
-`FileInputManager_SendInfraredFrameData` | 9 (0x9) | Exported Function | 0x0000000180073660 | 0x00073660
+Function Name | Ordinal | Type
+-- | -- | --
+`FileInputManager_Reset` | 7 | Exported Function
+`FileInputManager_ReadSourceInfraredFrameData` | 6 | Exported Function
+`FileInputManager_SendInfraredFrameData` | 9 | Exported Function
+`FileInputManager_SendColorFrameData` | 8 | Exported Function
+`FileInputManager_ReadSourceDeviceMetadata` | 5 | Exported Function
+`CreateFacePreprocessorOutput` | 2 | Exported Function
+`CreateColorFaceProcessor` | 1 | Exported Function
+`FileInputManager_ReadSourceColorFrameData` | 4 | Exported Function
+`FileInputManager_InitializeRuntime` | 3 | Exported Function
 
 
 ## Signature

@@ -24,22 +24,22 @@ PE256 | `C67F5450B18906EBD4B65D06FD473CC85D04DF73B4EC034BD6A2A5E3B54CFD57`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CheckPdcRenewal` | 4 (0x4) | Exported Function | 0x000000018000e3c0 | 0x0000e3c0
-`CHttpTransport_CreateInstance` | 3 (0x3) | Exported Function | 0x0000000180005660 | 0x00005660
-`CreateControlChannelTriggerConnectionManager` | 1 (0x1) | Exported Function | 0x0000000180002440 | 0x00002440
-`GetOrCreateNullPowerDependencyCoordinatorManager` | 5 (0x5) | Exported Function | 0x000000018000eb90 | 0x0000eb90
-`GetSerializedAppMetadata` | 2 (0x2) | Exported Function | 0x0000000180004420 | 0x00004420
-`InitializePowerDependencyCoordinatorManager` | 6 (0x6) | Exported Function | 0x000000018000e8d0 | 0x0000e8d0
-`IsNetworkConnectionCostRestricted` | 7 (0x7) | Exported Function | 0x0000000180004690 | 0x00004690
-`ProgressStatus` | 8 (0x8) | Exported Function | 0x000000018000fbf0 | 0x0000fbf0
-`ReleasePowerDependencyCoordinatorManager` | 9 (0x9) | Exported Function | 0x000000018000eae0 | 0x0000eae0
-`ReportSyncProgress` | 10 (0xa) | Exported Function | 0x000000018000fb30 | 0x0000fb30
-`SyncPdcReference_WatchdogReport` | 11 (0xb) | Exported Function | 0x000000018000e390 | 0x0000e390
-`SyncPdcReference_WatchdogsEnabled` | 12 (0xc) | Exported Function | 0x000000018000e2e0 | 0x0000e2e0
-`SyncWerReportComponentName` | 13 (0xd) | Exported Function | 0x000000018000e260 | 0x0000e260
-`SyncWerReportGenerator` | 14 (0xe) | Exported Function | 0x000000018000dfc0 | 0x0000dfc0
+Function Name | Ordinal | Type
+-- | -- | --
+`ReportSyncProgress` | 10 | Exported Function
+`ReleasePowerDependencyCoordinatorManager` | 9 | Exported Function
+`ProgressStatus` | 8 | Exported Function
+`SyncPdcReference_WatchdogReport` | 11 | Exported Function
+`SyncWerReportGenerator` | 14 | Exported Function
+`SyncWerReportComponentName` | 13 | Exported Function
+`SyncPdcReference_WatchdogsEnabled` | 12 | Exported Function
+`CreateControlChannelTriggerConnectionManager` | 1 | Exported Function
+`CHttpTransport_CreateInstance` | 3 | Exported Function
+`CheckPdcRenewal` | 4 | Exported Function
+`GetOrCreateNullPowerDependencyCoordinatorManager` | 5 | Exported Function
+`IsNetworkConnectionCostRestricted` | 7 | Exported Function
+`InitializePowerDependencyCoordinatorManager` | 6 | Exported Function
+`GetSerializedAppMetadata` | 2 | Exported Function
 
 
 ## Signature

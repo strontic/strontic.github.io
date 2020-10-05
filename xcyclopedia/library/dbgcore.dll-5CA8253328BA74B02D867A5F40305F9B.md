@@ -24,10 +24,10 @@ PE256 | `A03E2287F371B5A69C37DD875AA8446FA93C1758DCF4F8EF2077075BD2E95FF4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MiniDumpReadDumpStream` | 1 (0x1) | Exported Function | 0x0000000180006d70 | 0x00006d70
-`MiniDumpWriteDump` | 2 (0x2) | Exported Function | 0x0000000180006a80 | 0x00006a80
+Function Name | Ordinal | Type
+-- | -- | --
+`MiniDumpWriteDump` | 2 | Exported Function
+`MiniDumpReadDumpStream` | 1 | Exported Function
 
 
 ## Signature

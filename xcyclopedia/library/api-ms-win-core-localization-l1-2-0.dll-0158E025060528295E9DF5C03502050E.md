@@ -24,67 +24,67 @@ PE256 | `9F45ED68B7B98D905A9ED676FDA7917039265BA81BBFA005B62907915002D931`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConvertDefaultLocale` | 1 (0x1) | Exported Function | kernel32.ConvertDefaultLocale | 0x000013d3
-`GetUserDefaultLCID` | 31 (0x1f) | Exported Function | kernel32.GetUserDefaultLCID | 0x000018e7
-`GetUserDefaultLocaleName` | 33 (0x21) | Exported Function | kernel32.GetUserDefaultLocaleName | 0x0000194f
-`GetUserGeoID` | 34 (0x22) | Exported Function | kernel32.GetUserGeoID | 0x0000197e
-`GetUserPreferredUILanguages` | 35 (0x23) | Exported Function | kernel32.GetUserPreferredUILanguages | 0x000019b0
-`IdnToAscii` | 36 (0x24) | Exported Function | normaliz.dll.IdnToAscii | 0x000019e0
-`IdnToUnicode` | 37 (0x25) | Exported Function | normaliz.dll.IdnToUnicode | 0x00001a05
-`IsDBCSLeadByte` | 38 (0x26) | Exported Function | kernel32.IsDBCSLeadByte | 0x00001a2e
-`IsDBCSLeadByteEx` | 39 (0x27) | Exported Function | kernel32.IsDBCSLeadByteEx | 0x00001a57
-`IsNLSDefinedString` | 40 (0x28) | Exported Function | kernel32.IsNLSDefinedString | 0x00001a84
-`IsValidCodePage` | 41 (0x29) | Exported Function | kernel32.IsValidCodePage | 0x00001ab0
-`IsValidLanguageGroup` | 42 (0x2a) | Exported Function | kernel32.IsValidLanguageGroup | 0x00001ade
-`IsValidLocale` | 43 (0x2b) | Exported Function | kernel32.IsValidLocale | 0x00001b0a
-`GetUserDefaultLangID` | 32 (0x20) | Exported Function | kernel32.GetUserDefaultLangID | 0x00001918
-`IsValidLocaleName` | 44 (0x2c) | Exported Function | kernel32.IsValidLocaleName | 0x00001b33
-`LCMapStringA` | 46 (0x2e) | Exported Function | kernel32.LCMapStringA | 0x00001b88
-`LCMapStringEx` | 47 (0x2f) | Exported Function | kernel32.LCMapStringEx | 0x00001bac
-`LCMapStringW` | 48 (0x30) | Exported Function | kernel32.LCMapStringW | 0x00001bd0
-`LocaleNameToLCID` | 49 (0x31) | Exported Function | kernel32.LocaleNameToLCID | 0x00001bf7
-`ResolveLocaleName` | 50 (0x32) | Exported Function | kernel32.ResolveLocaleName | 0x00001c23
-`SetCalendarInfoW` | 51 (0x33) | Exported Function | kernel32.SetCalendarInfoW | 0x00001c4f
-`SetLocaleInfoW` | 52 (0x34) | Exported Function | kernel32.SetLocaleInfoW | 0x00001c78
-`SetProcessPreferredUILanguages` | 53 (0x35) | Exported Function | kernel32.SetProcessPreferredUILanguages | 0x00001caf
-`SetThreadLocale` | 54 (0x36) | Exported Function | kernel32.SetThreadLocale | 0x00001ce7
-`SetThreadPreferredUILanguages` | 55 (0x37) | Exported Function | kernel32.SetThreadPreferredUILanguages | 0x00001d1e
-`SetThreadUILanguage` | 56 (0x38) | Exported Function | kernel32.SetThreadUILanguage | 0x00001d59
-`SetUserGeoID` | 57 (0x39) | Exported Function | kernel32.SetUserGeoID | 0x00001d83
-`IsValidNLSVersion` | 45 (0x2d) | Exported Function | kernel32.IsValidNLSVersion | 0x00001b60
-`VerLanguageNameA` | 58 (0x3a) | Exported Function | kernel32.VerLanguageNameA | 0x00001daa
-`GetUILanguageInfo` | 30 (0x1e) | Exported Function | kernel32.GetUILanguageInfo | 0x000018b9
-`GetThreadPreferredUILanguages` | 28 (0x1c) | Exported Function | kernel32.GetThreadPreferredUILanguages | 0x0000184f
-`EnumSystemGeoID` | 2 (0x2) | Exported Function | kernel32.EnumSystemGeoID | 0x00001401
-`EnumSystemLocalesA` | 3 (0x3) | Exported Function | kernel32.EnumSystemLocalesA | 0x0000142d
-`EnumSystemLocalesW` | 4 (0x4) | Exported Function | kernel32.EnumSystemLocalesW | 0x0000145c
-`FindNLSString` | 5 (0x5) | Exported Function | kernel32.FindNLSString | 0x00001486
-`FindNLSStringEx` | 6 (0x6) | Exported Function | kernel32.FindNLSStringEx | 0x000014ad
-`FormatMessageA` | 7 (0x7) | Exported Function | kernel32.FormatMessageA | 0x000014d5
-`FormatMessageW` | 8 (0x8) | Exported Function | kernel32.FormatMessageW | 0x000014fc
-`GetACP` | 9 (0x9) | Exported Function | kernel32.GetACP | 0x0000151b
-`GetCalendarInfoEx` | 12 (0xc) | Exported Function | kernel32.GetCalendarInfoEx | 0x0000157d
-`GetCalendarInfoW` | 13 (0xd) | Exported Function | kernel32.GetCalendarInfoW | 0x000015a9
-`GetCPInfo` | 10 (0xa) | Exported Function | kernel32.GetCPInfo | 0x00001535
-`GetCPInfoExW` | 11 (0xb) | Exported Function | kernel32.GetCPInfoExW | 0x00001555
-`GetThreadUILanguage` | 29 (0x1d) | Exported Function | kernel32.GetThreadUILanguage | 0x0000188a
-`GetFileMUIInfo` | 14 (0xe) | Exported Function | kernel32.GetFileMUIInfo | 0x000015d2
-`GetGeoInfoW` | 16 (0x10) | Exported Function | kernel32.GetGeoInfoW | 0x0000161d
-`GetLocaleInfoA` | 17 (0x11) | Exported Function | kernel32.GetLocaleInfoA | 0x00001641
-`GetLocaleInfoEx` | 18 (0x12) | Exported Function | kernel32.GetLocaleInfoEx | 0x00001669
-`GetLocaleInfoW` | 19 (0x13) | Exported Function | kernel32.GetLocaleInfoW | 0x00001691
-`GetNLSVersion` | 20 (0x14) | Exported Function | kernel32.GetNLSVersion | 0x000016b7
-`GetNLSVersionEx` | 21 (0x15) | Exported Function | kernel32.GetNLSVersionEx | 0x000016de
-`GetOEMCP` | 22 (0x16) | Exported Function | kernel32.GetOEMCP | 0x00001700
-`GetProcessPreferredUILanguages` | 23 (0x17) | Exported Function | kernel32.GetProcessPreferredUILanguages | 0x00001731
-`GetSystemDefaultLangID` | 25 (0x19) | Exported Function | kernel32.GetSystemDefaultLangID | 0x000017a3
-`GetSystemDefaultLCID` | 24 (0x18) | Exported Function | kernel32.GetSystemDefaultLCID | 0x0000176e
-`GetSystemPreferredUILanguages` | 26 (0x1a) | Exported Function | kernel32.GetSystemPreferredUILanguages | 0x000017e1
-`GetThreadLocale` | 27 (0x1b) | Exported Function | kernel32.GetThreadLocale | 0x00001818
-`GetFileMUIPath` | 15 (0xf) | Exported Function | kernel32.GetFileMUIPath | 0x000015f9
-`VerLanguageNameW` | 59 (0x3b) | Exported Function | kernel32.VerLanguageNameW | 0x00001dd5
+Function Name | Ordinal | Type
+-- | -- | --
+`IsNLSDefinedString` | 40 | Exported Function
+`IsDBCSLeadByteEx` | 39 | Exported Function
+`IsDBCSLeadByte` | 38 | Exported Function
+`IsValidCodePage` | 41 | Exported Function
+`IsValidLocaleName` | 44 | Exported Function
+`IsValidLocale` | 43 | Exported Function
+`IsValidLanguageGroup` | 42 | Exported Function
+`GetUserDefaultLocaleName` | 33 | Exported Function
+`GetUserDefaultLCID` | 31 | Exported Function
+`GetUserDefaultLangID` | 32 | Exported Function
+`GetUserGeoID` | 34 | Exported Function
+`IdnToUnicode` | 37 | Exported Function
+`IdnToAscii` | 36 | Exported Function
+`GetUserPreferredUILanguages` | 35 | Exported Function
+`IsValidNLSVersion` | 45 | Exported Function
+`SetThreadPreferredUILanguages` | 55 | Exported Function
+`SetThreadLocale` | 54 | Exported Function
+`SetProcessPreferredUILanguages` | 53 | Exported Function
+`SetThreadUILanguage` | 56 | Exported Function
+`VerLanguageNameW` | 59 | Exported Function
+`VerLanguageNameA` | 58 | Exported Function
+`SetUserGeoID` | 57 | Exported Function
+`LCMapStringW` | 48 | Exported Function
+`LCMapStringEx` | 47 | Exported Function
+`LCMapStringA` | 46 | Exported Function
+`LocaleNameToLCID` | 49 | Exported Function
+`SetLocaleInfoW` | 52 | Exported Function
+`SetCalendarInfoW` | 51 | Exported Function
+`ResolveLocaleName` | 50 | Exported Function
+`GetUILanguageInfo` | 30 | Exported Function
+`GetCalendarInfoEx` | 12 | Exported Function
+`GetACP` | 9 | Exported Function
+`FormatMessageW` | 8 | Exported Function
+`GetCalendarInfoW` | 13 | Exported Function
+`GetFileMUIInfo` | 14 | Exported Function
+`GetCPInfoExW` | 11 | Exported Function
+`GetCPInfo` | 10 | Exported Function
+`EnumSystemLocalesA` | 3 | Exported Function
+`EnumSystemGeoID` | 2 | Exported Function
+`ConvertDefaultLocale` | 1 | Exported Function
+`EnumSystemLocalesW` | 4 | Exported Function
+`FormatMessageA` | 7 | Exported Function
+`FindNLSStringEx` | 6 | Exported Function
+`FindNLSString` | 5 | Exported Function
+`GetFileMUIPath` | 15 | Exported Function
+`GetSystemDefaultLCID` | 24 | Exported Function
+`GetSystemDefaultLangID` | 25 | Exported Function
+`GetProcessPreferredUILanguages` | 23 | Exported Function
+`GetSystemPreferredUILanguages` | 26 | Exported Function
+`GetThreadUILanguage` | 29 | Exported Function
+`GetThreadPreferredUILanguages` | 28 | Exported Function
+`GetThreadLocale` | 27 | Exported Function
+`GetLocaleInfoEx` | 18 | Exported Function
+`GetLocaleInfoA` | 17 | Exported Function
+`GetGeoInfoW` | 16 | Exported Function
+`GetLocaleInfoW` | 19 | Exported Function
+`GetOEMCP` | 22 | Exported Function
+`GetNLSVersionEx` | 21 | Exported Function
+`GetNLSVersion` | 20 | Exported Function
 
 
 ## Signature

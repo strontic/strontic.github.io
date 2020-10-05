@@ -24,12 +24,12 @@ PE256 | `3412BA14C317E3CB869B40906FDE77D29A51C2013985C0670731389951D23F1E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllGetClassObject` | 1 (0x1) | Exported Function | 0x0000000180001260 | 0x00001260
-`DllMain` | 2 (0x2) | Exported Function | 0x0000000180001250 | 0x00001250
-`SxsStoreFinalize` | 3 (0x3) | Exported Function | 0x0000000180001210 | 0x00001210
-`SxsStoreInitialize` | 4 (0x4) | Exported Function | 0x00000001800010a0 | 0x000010a0
+Function Name | Ordinal | Type
+-- | -- | --
+`SxsStoreFinalize` | 3 | Exported Function
+`SxsStoreInitialize` | 4 | Exported Function
+`DllGetClassObject` | 1 | Exported Function
+`DllMain` | 2 | Exported Function
 
 
 ## Signature

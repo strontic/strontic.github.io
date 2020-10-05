@@ -24,47 +24,47 @@ PE256 | `AFD41D6F694F154107EF819ED7F70E5A6E7A89AD079D921D20BFC98A27FA09BD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`const SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::``vftable'` | 8 (0x8) | Exported Function | 0x1000154c | 0x0000154c
-`public: virtual void __thiscall SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::Acquire(void)const ` | 9 (0x9) | Exported Function | 0x10009510 | 0x00009510
-`public: virtual void __thiscall SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::Release(void)const ` | 24 (0x18) | Exported Function | 0x10009510 | 0x00009510
-`public: virtual void __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void)const ` | 10 (0xa) | Exported Function | 0x10009510 | 0x00009510
-`public: virtual void __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Release(void)const ` | 25 (0x19) | Exported Function | 0x10009510 | 0x00009510
-`public: void __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::Reset(void)` | 26 (0x1a) | Exported Function | 0x10009810 | 0x00009810
-`public: void __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void)` | 11 (0xb) | Exported Function | 0x10009520 | 0x00009520
-`WSManPluginShutdown` | 28 (0x1c) | Exported Function | 0x10009aa0 | 0x00009aa0
-`public: virtual bool __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Initialize(class IRequestContext &)` | 21 (0x15) | Exported Function | 0x10009740 | 0x00009740
-`WSManPluginStartup` | 29 (0x1d) | Exported Function | 0x10009d50 | 0x00009d50
-`WSManProvDelete` | 31 (0x1f) | Exported Function | 0x1000a4e0 | 0x0000a4e0
-`WSManProvEnumerate` | 32 (0x20) | Exported Function | 0x1000a650 | 0x0000a650
-`WSManProvGet` | 33 (0x21) | Exported Function | 0x1000a890 | 0x0000a890
-`WSManProvIdentify` | 34 (0x22) | Exported Function | 0x1000aa30 | 0x0000aa30
-`WSManProvInvoke` | 35 (0x23) | Exported Function | 0x1000ac00 | 0x0000ac00
-`WSManProvPullEvents` | 36 (0x24) | Exported Function | 0x1000ae10 | 0x0000ae10
-`WSManProvPut` | 37 (0x25) | Exported Function | 0x1000af60 | 0x0000af60
-`WSManProvCreate` | 30 (0x1e) | Exported Function | 0x1000a300 | 0x0000a300
-`WSManProvSubscribe` | 38 (0x26) | Exported Function | 0x1000b190 | 0x0000b190
-`public: virtual bool __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::DeInitialize(class IRequestContext &)` | 16 (0x10) | Exported Function | 0x10009610 | 0x00009610
-`public: virtual bool __thiscall SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::DeInitialize(class IRequestContext &)` | 15 (0xf) | Exported Function | 0x100095a0 | 0x000095a0
-`protected: class STLMap<class Locale::Key,unsigned long> & __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::Data(void)const ` | 14 (0xe) | Exported Function | 0x10009590 | 0x00009590
-`protected: void __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::SkipOrphans(void)` | 27 (0x1b) | Exported Function | 0x10009850 | 0x00009850
-`public: __thiscall CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void)` | 7 (0x7) | Exported Function | 0x10009390 | 0x00009390
-`public: __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void)` | 1 (0x1) | Exported Function | 0x100090e0 | 0x000090e0
-`public: __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void)` | 4 (0x4) | Exported Function | 0x100091f0 | 0x000091f0
-`public: __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::SafeMap_Iterator<class Locale::Key,unsigned long>(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > &,bool)` | 2 (0x2) | Exported Function | 0x10009120 | 0x00009120
-`public: __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::~SafeMap_Iterator<class Locale::Key,unsigned long>(void)` | 5 (0x5) | Exported Function | 0x10009260 | 0x00009260
-`public: virtual bool __thiscall SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::Initialize(class IRequestContext &)` | 20 (0x14) | Exported Function | 0x10009680 | 0x00009680
-`public: __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const &,bool)` | 3 (0x3) | Exported Function | 0x100091c0 | 0x000091c0
-`public: bool __thiscall SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping>::IsValid(void)const ` | 22 (0x16) | Exported Function | 0x10009800 | 0x00009800
-`public: bool __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::IsValid(void)const ` | 23 (0x17) | Exported Function | 0x10009800 | 0x00009800
-`public: bool __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquired(void)` | 12 (0xc) | Exported Function | 0x10009570 | 0x00009570
-`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::AsReference(void)` | 13 (0xd) | Exported Function | 0x10009580 | 0x00009580
-`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::GetMap(void)const ` | 18 (0x12) | Exported Function | 0x10009670 | 0x00009670
-`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const & __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::GetMap(void)const ` | 19 (0x13) | Exported Function | 0x10009670 | 0x00009670
-`public: unsigned long __thiscall CWSManCriticalSection::GetInitError(void)const ` | 17 (0x11) | Exported Function | 0x10009670 | 0x00009670
-`public: __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void)` | 6 (0x6) | Exported Function | 0x100092f0 | 0x000092f0
-`WSManProvUnsubscribe` | 39 (0x27) | Exported Function | 0x1000b430 | 0x0000b430
+Function Name | Ordinal | Type
+-- | -- | --
+`public: void __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void)` | 11 | Exported Function
+`public: void __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::Reset(void)` | 26 | Exported Function
+`WSManPluginStartup` | 29 | Exported Function
+`WSManPluginShutdown` | 28 | Exported Function
+`public: virtual void __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Release(void)const ` | 25 | Exported Function
+`public: virtual void __thiscall SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::Acquire(void)const ` | 9 | Exported Function
+`public: virtual bool __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Initialize(class IRequestContext &)` | 21 | Exported Function
+`public: virtual void __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void)const ` | 10 | Exported Function
+`public: virtual void __thiscall SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::Release(void)const ` | 24 | Exported Function
+`WSManProvCreate` | 30 | Exported Function
+`WSManProvPut` | 37 | Exported Function
+`WSManProvPullEvents` | 36 | Exported Function
+`WSManProvUnsubscribe` | 39 | Exported Function
+`WSManProvSubscribe` | 38 | Exported Function
+`WSManProvInvoke` | 35 | Exported Function
+`WSManProvEnumerate` | 32 | Exported Function
+`WSManProvDelete` | 31 | Exported Function
+`WSManProvIdentify` | 34 | Exported Function
+`WSManProvGet` | 33 | Exported Function
+`public: virtual bool __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::DeInitialize(class IRequestContext &)` | 16 | Exported Function
+`public: __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::SafeMap_Iterator<class Locale::Key,unsigned long>(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > &,bool)` | 2 | Exported Function
+`public: __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void)` | 4 | Exported Function
+`public: __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const &,bool)` | 3 | Exported Function
+`public: __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::~SafeMap_Iterator<class Locale::Key,unsigned long>(void)` | 5 | Exported Function
+`public: __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void)` | 1 | Exported Function
+`protected: class STLMap<class Locale::Key,unsigned long> & __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::Data(void)const ` | 14 | Exported Function
+`const SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::``vftable'` | 8 | Exported Function
+`public: __thiscall CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void)` | 7 | Exported Function
+`protected: void __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::SkipOrphans(void)` | 27 | Exported Function
+`public: __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void)` | 6 | Exported Function
+`public: unsigned long __thiscall CWSManCriticalSection::GetInitError(void)const ` | 17 | Exported Function
+`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const & __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::GetMap(void)const ` | 19 | Exported Function
+`public: virtual bool __thiscall SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::Initialize(class IRequestContext &)` | 20 | Exported Function
+`public: virtual bool __thiscall SafeMap<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping,class SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping> >::DeInitialize(class IRequestContext &)` | 15 | Exported Function
+`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::GetMap(void)const ` | 18 | Exported Function
+`public: bool __thiscall SafeMap_Iterator<class Locale::Key,unsigned long>::IsValid(void)const ` | 23 | Exported Function
+`public: bool __thiscall SafeMap_Iterator<class CWmiPtrCache::Key,class CWmiPtrCache::Mapping>::IsValid(void)const ` | 22 | Exported Function
+`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __thiscall SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::AsReference(void)` | 13 | Exported Function
+`public: bool __thiscall SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquired(void)` | 12 | Exported Function
 
 
 ## Signature

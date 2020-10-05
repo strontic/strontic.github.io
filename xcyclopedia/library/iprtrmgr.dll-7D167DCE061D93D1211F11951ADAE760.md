@@ -24,10 +24,10 @@ PE256 | `69414137694F44AA3C7A2BE2CE1AC2EA26EC8814765CB980BBD9A6B2701345DF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MapInterfaceToAdapter` | 1 (0x1) | Exported Function | 0x10050b60 | 0x00050b60
-`StartRouter` | 2 (0x2) | Exported Function | 0x10047040 | 0x00047040
+Function Name | Ordinal | Type
+-- | -- | --
+`StartRouter` | 2 | Exported Function
+`MapInterfaceToAdapter` | 1 | Exported Function
 
 
 ## Signature

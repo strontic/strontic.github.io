@@ -24,15 +24,15 @@ PE256 | `7559935800E6569EB9F59AE1A25260BC4D003D6FD8FD537DF492D458B916060F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x10022420 | 0x00022420
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10016a40 | 0x00016a40
-`LCEControlServer` | 4 (0x4) | Exported Function | 0x1003b3d0 | 0x0003b3d0
-`NotifyLogoffUser` | 5 (0x5) | Exported Function | 0x1003b480 | 0x0003b480
-`NotifyLogonUser` | 6 (0x6) | Exported Function | 0x100230c0 | 0x000230c0
-`ServiceMain` | 7 (0x7) | Exported Function | 0x10023030 | 0x00023030
-`SvchostPushServiceGlobals` | 1 (0x1) | Exported Function | 0x10026200 | 0x00026200
+Function Name | Ordinal | Type
+-- | -- | --
+`NotifyLogonUser` | 6 | Exported Function
+`ServiceMain` | 7 | Exported Function
+`SvchostPushServiceGlobals` | 1 | Exported Function
+`NotifyLogoffUser` | 5 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`LCEControlServer` | 4 | Exported Function
 
 
 ## Signature

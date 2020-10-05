@@ -24,59 +24,59 @@ PE256 | `BFD9D7BA18EBA2CA5069F0D84EB5AB3F1CD0C335C31CF981B6972BD742B8071F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_SnmpConveyAgentAddress@4` | 108 (0x6c) | Exported Function | 0x5f78a290 | 0x0000a290
-`SnmpGetTranslateMode` | 100 (0x64) | Exported Function | 0x5f786560 | 0x00006560
-`SnmpGetVb` | 604 (0x25c) | Exported Function | 0x5f789da0 | 0x00009da0
-`SnmpGetVendorInfo` | 120 (0x78) | Exported Function | 0x5f7865a0 | 0x000065a0
-`SnmpListen` | 221 (0xdd) | Exported Function | 0x5f784c30 | 0x00004c30
-`SnmpListenEx` | 293 (0x125) | Exported Function | 0x5f784c50 | 0x00004c50
-`SnmpOidCompare` | 906 (0x38a) | Exported Function | 0x5f789310 | 0x00009310
-`SnmpOidCopy` | 905 (0x389) | Exported Function | 0x5f7893d0 | 0x000093d0
-`SnmpOidToStr` | 904 (0x388) | Exported Function | 0x5f789460 | 0x00009460
-`SnmpOpen` | 202 (0xca) | Exported Function | 0x5f784f70 | 0x00004f70
-`SnmpRecvMsg` | 205 (0xcd) | Exported Function | 0x5f784f90 | 0x00004f90
-`SnmpGetTimeout` | 104 (0x68) | Exported Function | 0x5f7864e0 | 0x000064e0
-`SnmpRegister` | 206 (0xce) | Exported Function | 0x5f785540 | 0x00005540
-`SnmpSetPduData` | 502 (0x1f6) | Exported Function | 0x5f788d20 | 0x00008d20
-`SnmpSetPort` | 320 (0x140) | Exported Function | 0x5f786ba0 | 0x00006ba0
-`SnmpSetRetransmitMode` | 103 (0x67) | Exported Function | 0x5f786630 | 0x00006630
-`SnmpSetRetry` | 107 (0x6b) | Exported Function | 0x5f786690 | 0x00006690
-`SnmpSetTimeout` | 105 (0x69) | Exported Function | 0x5f786700 | 0x00006700
-`SnmpSetTranslateMode` | 101 (0x65) | Exported Function | 0x5f786770 | 0x00006770
-`SnmpSetVb` | 605 (0x25d) | Exported Function | 0x5f78a160 | 0x0000a160
-`SnmpStartup` | 200 (0xc8) | Exported Function | 0x5f786130 | 0x00006130
-`SnmpStartupEx` | 291 (0x123) | Exported Function | 0x5f7861c0 | 0x000061c0
-`SnmpStrToContext` | 400 (0x190) | Exported Function | 0x5f786c30 | 0x00006c30
-`SnmpSendMsg` | 204 (0xcc) | Exported Function | 0x5f785a50 | 0x00005a50
-`SnmpStrToEntity` | 300 (0x12c) | Exported Function | 0x5f786ef0 | 0x00006ef0
-`SnmpGetRetry` | 106 (0x6a) | Exported Function | 0x5f786460 | 0x00006460
-`SnmpGetPduData` | 501 (0x1f5) | Exported Function | 0x5f788bd0 | 0x00008bd0
-`_SnmpSetAgentAddress@4` | 109 (0x6d) | Exported Function | 0x5f78a2e0 | 0x0000a2e0
-`SnmpCancelMsg` | 222 (0xde) | Exported Function | 0x5f784450 | 0x00004450
-`SnmpCleanup` | 201 (0xc9) | Exported Function | 0x5f784520 | 0x00004520
-`SnmpCleanupEx` | 292 (0x124) | Exported Function | 0x5f784580 | 0x00004580
-`SnmpClose` | 203 (0xcb) | Exported Function | 0x5f784810 | 0x00004810
-`SnmpContextToStr` | 401 (0x191) | Exported Function | 0x5f786840 | 0x00006840
-`SnmpCountVbl` | 603 (0x25b) | Exported Function | 0x5f7899a0 | 0x000099a0
-`SnmpCreatePdu` | 500 (0x1f4) | Exported Function | 0x5f788930 | 0x00008930
-`SnmpCreateSession` | 220 (0xdc) | Exported Function | 0x5f784b10 | 0x00004b10
-`SnmpCreateVbl` | 600 (0x258) | Exported Function | 0x5f789a10 | 0x00009a10
-`SnmpGetRetransmitMode` | 102 (0x66) | Exported Function | 0x5f786420 | 0x00006420
-`SnmpDecodeMsg` | 902 (0x386) | Exported Function | 0x5f788e60 | 0x00008e60
-`SnmpDuplicatePdu` | 503 (0x1f7) | Exported Function | 0x5f788a40 | 0x00008a40
-`SnmpDuplicateVbl` | 601 (0x259) | Exported Function | 0x5f789bc0 | 0x00009bc0
-`SnmpEncodeMsg` | 901 (0x385) | Exported Function | 0x5f789040 | 0x00009040
-`SnmpEntityToStr` | 301 (0x12d) | Exported Function | 0x5f786920 | 0x00006920
-`SnmpFreeContext` | 402 (0x192) | Exported Function | 0x5f786a90 | 0x00006a90
-`SnmpFreeDescriptor` | 900 (0x384) | Exported Function | 0x5f7891d0 | 0x000091d0
-`SnmpFreeEntity` | 302 (0x12e) | Exported Function | 0x5f786b10 | 0x00006b10
-`SnmpFreePdu` | 504 (0x1f8) | Exported Function | 0x5f788b30 | 0x00008b30
-`SnmpFreeVbl` | 602 (0x25a) | Exported Function | 0x5f789cb0 | 0x00009cb0
-`SnmpGetLastError` | 999 (0x3e7) | Exported Function | 0x5f789250 | 0x00009250
-`SnmpDeleteVb` | 606 (0x25e) | Exported Function | 0x5f789af0 | 0x00009af0
-`SnmpStrToOid` | 903 (0x387) | Exported Function | 0x5f7896e0 | 0x000096e0
+Function Name | Ordinal | Type
+-- | -- | --
+`SnmpOidToStr` | 904 | Exported Function
+`SnmpOidCopy` | 905 | Exported Function
+`SnmpOidCompare` | 906 | Exported Function
+`SnmpRegister` | 206 | Exported Function
+`SnmpRecvMsg` | 205 | Exported Function
+`SnmpOpen` | 202 | Exported Function
+`SnmpGetVb` | 604 | Exported Function
+`SnmpGetTranslateMode` | 100 | Exported Function
+`SnmpGetTimeout` | 104 | Exported Function
+`SnmpListenEx` | 293 | Exported Function
+`SnmpListen` | 221 | Exported Function
+`SnmpGetVendorInfo` | 120 | Exported Function
+`SnmpSendMsg` | 204 | Exported Function
+`SnmpStartupEx` | 291 | Exported Function
+`SnmpStartup` | 200 | Exported Function
+`SnmpSetVb` | 605 | Exported Function
+`SnmpStrToOid` | 903 | Exported Function
+`SnmpStrToEntity` | 300 | Exported Function
+`SnmpStrToContext` | 400 | Exported Function
+`SnmpSetRetransmitMode` | 103 | Exported Function
+`SnmpSetPort` | 320 | Exported Function
+`SnmpSetPduData` | 502 | Exported Function
+`SnmpSetTranslateMode` | 101 | Exported Function
+`SnmpSetTimeout` | 105 | Exported Function
+`SnmpSetRetry` | 107 | Exported Function
+`SnmpGetRetry` | 106 | Exported Function
+`SnmpCreatePdu` | 500 | Exported Function
+`SnmpCountVbl` | 603 | Exported Function
+`SnmpContextToStr` | 401 | Exported Function
+`SnmpDecodeMsg` | 902 | Exported Function
+`SnmpCreateVbl` | 600 | Exported Function
+`SnmpCreateSession` | 220 | Exported Function
+`SnmpCancelMsg` | 222 | Exported Function
+`_SnmpSetAgentAddress@4` | 109 | Exported Function
+`_SnmpConveyAgentAddress@4` | 108 | Exported Function
+`SnmpClose` | 203 | Exported Function
+`SnmpCleanupEx` | 292 | Exported Function
+`SnmpCleanup` | 201 | Exported Function
+`SnmpDeleteVb` | 606 | Exported Function
+`SnmpFreeVbl` | 602 | Exported Function
+`SnmpFreePdu` | 504 | Exported Function
+`SnmpFreeEntity` | 302 | Exported Function
+`SnmpGetRetransmitMode` | 102 | Exported Function
+`SnmpGetPduData` | 501 | Exported Function
+`SnmpGetLastError` | 999 | Exported Function
+`SnmpEncodeMsg` | 901 | Exported Function
+`SnmpDuplicateVbl` | 601 | Exported Function
+`SnmpDuplicatePdu` | 503 | Exported Function
+`SnmpFreeDescriptor` | 900 | Exported Function
+`SnmpFreeContext` | 402 | Exported Function
+`SnmpEntityToStr` | 301 | Exported Function
 
 
 ## Signature

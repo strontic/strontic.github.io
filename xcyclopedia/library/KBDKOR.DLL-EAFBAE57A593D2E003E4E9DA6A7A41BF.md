@@ -24,13 +24,13 @@ PE256 | `2824767D1F6190F9FEA06428A2A6BC23836F3C04395060C142C5E1414ADEDC7E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x52a016e6 | 0x000016e6
-`KbdLayerMultiDescriptor` | 6 (0x6) | Exported Function | 0x52a016fe | 0x000016fe
-`KbdLayerRealDllFile` | 5 (0x5) | Exported Function | 0x52a01491 | 0x00001491
-`KbdLayerRealDllFileNT4` | 3 (0x3) | Exported Function | 0x52a011ab | 0x000011ab
-`KbdNlsLayerDescriptor` | 2 (0x2) | Exported Function | 0x52a016f2 | 0x000016f2
+Function Name | Ordinal | Type
+-- | -- | --
+`KbdLayerRealDllFileNT4` | 3 | Exported Function
+`KbdNlsLayerDescriptor` | 2 | Exported Function
+`KbdLayerRealDllFile` | 5 | Exported Function
+`KbdLayerDescriptor` | 1 | Exported Function
+`KbdLayerMultiDescriptor` | 6 | Exported Function
 
 
 ## Signature

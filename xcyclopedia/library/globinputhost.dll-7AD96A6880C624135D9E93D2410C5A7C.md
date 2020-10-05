@@ -24,23 +24,23 @@ PE256 | `EC8AB9D9F4A40AA5103867C2B232FD55F5E794F9FD5D92CF13E590E9F7908D66`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WGIGetCompatibleInputMethodsForLanguage` | 1 (0x1) | Exported Function | 0x1000eaf0 | 0x0000eaf0
-`WGIGetCompatibleInputMethodsForLanguageKeyboardAndImeMixed` | 2 (0x2) | Exported Function | 0x1000eb10 | 0x0000eb10
-`WGIGetCurrentInputLanguage` | 3 (0x3) | Exported Function | 0x10004820 | 0x00004820
-`WGIGetDefaultInputMethodForLanguage` | 4 (0x4) | Exported Function | 0x1000eb30 | 0x0000eb30
-`WGIGetInputMethodDescription` | 5 (0x5) | Exported Function | 0x1000ec50 | 0x0000ec50
-`WGIGetInputMethodProperties` | 6 (0x6) | Exported Function | 0x1000ed10 | 0x0000ed10
-`WGIGetInputMethodTileName` | 7 (0x7) | Exported Function | 0x1000ee40 | 0x0000ee40
-`WGIIsImeInputMethod` | 8 (0x8) | Exported Function | 0x1000eee0 | 0x0000eee0
-`WGIIsImeScript` | 9 (0x9) | Exported Function | 0x1000efb0 | 0x0000efb0
-`WGIIsImmersiveInputMethod` | 10 (0xa) | Exported Function | 0x1000efe0 | 0x0000efe0
-`WGIIsTouchEnabledInputMethod` | 11 (0xb) | Exported Function | 0x1000f020 | 0x0000f020
-`WGISetCurrentInputLanguage` | 12 (0xc) | Exported Function | 0x1000f060 | 0x0000f060
-`WGITransformInputMethodsForLanguage` | 13 (0xd) | Exported Function | 0x10004170 | 0x00004170
-`WGITransformInputMethodsForLanguageId` | 14 (0xe) | Exported Function | 0x1000f150 | 0x0000f150
-`WGIUpdateGlobalSpellerKey` | 15 (0xf) | Exported Function | 0x1000f270 | 0x0000f270
+Function Name | Ordinal | Type
+-- | -- | --
+`WGIIsTouchEnabledInputMethod` | 11 | Exported Function
+`WGIIsImmersiveInputMethod` | 10 | Exported Function
+`WGIIsImeScript` | 9 | Exported Function
+`WGISetCurrentInputLanguage` | 12 | Exported Function
+`WGIUpdateGlobalSpellerKey` | 15 | Exported Function
+`WGITransformInputMethodsForLanguageId` | 14 | Exported Function
+`WGITransformInputMethodsForLanguage` | 13 | Exported Function
+`WGIIsImeInputMethod` | 8 | Exported Function
+`WGIGetCurrentInputLanguage` | 3 | Exported Function
+`WGIGetCompatibleInputMethodsForLanguageKeyboardAndImeMixed` | 2 | Exported Function
+`WGIGetCompatibleInputMethodsForLanguage` | 1 | Exported Function
+`WGIGetDefaultInputMethodForLanguage` | 4 | Exported Function
+`WGIGetInputMethodTileName` | 7 | Exported Function
+`WGIGetInputMethodProperties` | 6 | Exported Function
+`WGIGetInputMethodDescription` | 5 | Exported Function
 
 
 ## Signature

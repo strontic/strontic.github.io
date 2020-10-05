@@ -24,15 +24,15 @@ PE256 | `D0E4E3FC314B964D5A369010014FE2EC8052F27764616164B1B48E8DF52AB2FF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ComPlusCompleteCbbSetup` | 5 (0x5) | Exported Function | 0x100206a0 | 0x000206a0
-`ComPlusGetWebApplicationServerRole` | 6 (0x6) | Exported Function | 0x1000b890 | 0x0000b890
-`ComPlusSetWebApplicationServerRole` | 7 (0x7) | Exported Function | 0x1000b920 | 0x0000b920
-`InstallOnReboot` | 1 (0x1) | Exported Function | 0x1000b490 | 0x0000b490
-`RunComPlusSetWebApplicationServerRoleW` | 2 (0x2) | Exported Function | 0x1000b940 | 0x0000b940
-`SetupPrintLog` | 3 (0x3) | Exported Function | 0x1000bca0 | 0x0000bca0
-`UpgradeDSSchema` | 4 (0x4) | Exported Function | 0x1000b830 | 0x0000b830
+Function Name | Ordinal | Type
+-- | -- | --
+`RunComPlusSetWebApplicationServerRoleW` | 2 | Exported Function
+`SetupPrintLog` | 3 | Exported Function
+`UpgradeDSSchema` | 4 | Exported Function
+`InstallOnReboot` | 1 | Exported Function
+`ComPlusCompleteCbbSetup` | 5 | Exported Function
+`ComPlusGetWebApplicationServerRole` | 6 | Exported Function
+`ComPlusSetWebApplicationServerRole` | 7 | Exported Function
 
 
 ## Signature

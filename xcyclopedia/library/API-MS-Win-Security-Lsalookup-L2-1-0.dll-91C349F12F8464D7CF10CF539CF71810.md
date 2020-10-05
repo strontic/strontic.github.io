@@ -24,14 +24,14 @@ PE256 | `28BCA6A077A1EC03AA41523C84AC3EAA8645BCA018F51D70EEFD5FB48230BC2F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LookupAccountNameW` | 1 (0x1) | Exported Function | advapi32.LookupAccountNameW | 0x000011c0
-`LookupAccountSidW` | 2 (0x2) | Exported Function | advapi32.LookupAccountSidW | 0x000011ee
-`LookupPrivilegeDisplayNameW` | 3 (0x3) | Exported Function | advapi32.LookupPrivilegeDisplayNameW | 0x00001225
-`LookupPrivilegeNameW` | 4 (0x4) | Exported Function | advapi32.LookupPrivilegeNameW | 0x0000125f
-`LookupPrivilegeValueW` | 5 (0x5) | Exported Function | advapi32.LookupPrivilegeValueW | 0x00001293
-`LsaEnumerateTrustedDomains` | 6 (0x6) | Exported Function | advapi32.LsaEnumerateTrustedDomains | 0x000012cd
+Function Name | Ordinal | Type
+-- | -- | --
+`LookupPrivilegeNameW` | 4 | Exported Function
+`LookupPrivilegeValueW` | 5 | Exported Function
+`LsaEnumerateTrustedDomains` | 6 | Exported Function
+`LookupAccountNameW` | 1 | Exported Function
+`LookupAccountSidW` | 2 | Exported Function
+`LookupPrivilegeDisplayNameW` | 3 | Exported Function
 
 
 ## Signature

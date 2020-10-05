@@ -24,65 +24,65 @@ PE256 | `D5318DCD14AB886C65592C83DF85028AA8D1D7F92B29430F76B0FF18BF853FD6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FveAuthElementFromPassPhraseW` | 2 (0x2) | Exported Function | 0x1000eab0 | 0x0000eab0
-`FveGetFveMethodEDrv` | 32 (0x20) | Exported Function | 0x1000f610 | 0x0000f610
-`FveGetFveMethodEx` | 33 (0x21) | Exported Function | 0x1000f6e0 | 0x0000f6e0
-`FveGetIdentity` | 34 (0x22) | Exported Function | 0x1000e6c0 | 0x0000e6c0
-`FveGetKeyPackage` | 35 (0x23) | Exported Function | 0x1000fb80 | 0x0000fb80
-`FveGetStatus` | 36 (0x24) | Exported Function | 0x1000e340 | 0x0000e340
-`FveGetStatusW` | 37 (0x25) | Exported Function | 0x1000e240 | 0x0000e240
-`FveGetUserFlags` | 38 (0x26) | Exported Function | 0x1000e430 | 0x0000e430
-`FveGetVolumeNameW` | 39 (0x27) | Exported Function | 0x10010300 | 0x00010300
-`FveIsHardwareReadyForConversion` | 40 (0x28) | Exported Function | 0x1000faf0 | 0x0000faf0
-`FveIsRecoveryPasswordGroupValidW` | 41 (0x29) | Exported Function | 0x1000ee80 | 0x0000ee80
-`FveIsRecoveryPasswordValidW` | 42 (0x2a) | Exported Function | 0x1000ef40 | 0x0000ef40
-`FveIsVolumeEncryptable` | 43 (0x2b) | Exported Function | 0x1000f480 | 0x0000f480
-`FveLockVolume` | 44 (0x2c) | Exported Function | 0x1000e440 | 0x0000e440
-`FveNotifyVolumeAfterFormat` | 45 (0x2d) | Exported Function | 0x10010080 | 0x00010080
-`FveOpenVolumeByHandle` | 46 (0x2e) | Exported Function | 0x10010500 | 0x00010500
-`FveOpenVolumeExW` | 47 (0x2f) | Exported Function | 0x100109e0 | 0x000109e0
-`FveOpenVolumeW` | 48 (0x30) | Exported Function | 0x100109b0 | 0x000109b0
-`FveQuery` | 49 (0x31) | Exported Function | 0x10010ac0 | 0x00010ac0
-`FveRevertVolume` | 50 (0x32) | Exported Function | 0x1000f000 | 0x0000f000
-`FveSelectBestRecoveryPasswordByBackupInformation` | 51 (0x33) | Exported Function | 0x1000e860 | 0x0000e860
-`FveSetAllowKeyExport` | 52 (0x34) | Exported Function | 0x1000f8a0 | 0x0000f8a0
-`FveSetFipsAllowDisabled` | 53 (0x35) | Exported Function | 0x1000f890 | 0x0000f890
-`FveSetFveMethod` | 54 (0x36) | Exported Function | 0x1000f7d0 | 0x0000f7d0
-`FveSetRecoveryPasswordBackupInformation` | 55 (0x37) | Exported Function | 0x1000e790 | 0x0000e790
-`FveSetUserFlags` | 56 (0x38) | Exported Function | 0x1000e430 | 0x0000e430
-`FveGetFveMethod` | 31 (0x1f) | Exported Function | 0x1000f540 | 0x0000f540
-`FveUpgradeVolume` | 57 (0x39) | Exported Function | 0x1000e180 | 0x0000e180
-`FveGetFipsAllowDisabled` | 30 (0x1e) | Exported Function | 0x1000f980 | 0x0000f980
-`FveGetAuthMethodInformation` | 28 (0x1c) | Exported Function | 0x1000e500 | 0x0000e500
-`FveAuthElementFromPinW` | 3 (0x3) | Exported Function | 0x1000e9e0 | 0x0000e9e0
-`FveAuthElementFromRecoveryPasswordW` | 4 (0x4) | Exported Function | 0x1000eb70 | 0x0000eb70
-`FveAuthElementGetKeyFileNameW` | 5 (0x5) | Exported Function | 0x1000edc0 | 0x0000edc0
-`FveAuthElementReadExternalKeyW` | 6 (0x6) | Exported Function | 0x1000ec30 | 0x0000ec30
-`FveAuthElementToRecoveryPasswordW` | 7 (0x7) | Exported Function | 0x1000e920 | 0x0000e920
-`FveAuthElementWriteExternalKeyW` | 8 (0x8) | Exported Function | 0x1000ed00 | 0x0000ed00
-`FveCanPinExceptionPolicyBeApplied` | 9 (0x9) | Exported Function | 0x10010700 | 0x00010700
-`FveClearUserFlags` | 10 (0xa) | Exported Function | 0x1000e430 | 0x0000e430
-`FveCloseHandle` | 11 (0xb) | Exported Function | 0x1000ffb0 | 0x0000ffb0
-`FveCloseVolume` | 12 (0xc) | Exported Function | 0x1000ff00 | 0x0000ff00
-`FveCommitChanges` | 13 (0xd) | Exported Function | 0x1000dfe0 | 0x0000dfe0
-`FveCommitChangesEx` | 14 (0xe) | Exported Function | 0x10010720 | 0x00010720
-`FveConversionDecrypt` | 15 (0xf) | Exported Function | 0x1000f0c0 | 0x0000f0c0
-`FveConversionDecryptEx` | 16 (0x10) | Exported Function | 0x1000f0e0 | 0x0000f0e0
-`FveConversionPause` | 17 (0x11) | Exported Function | 0x1000f2c0 | 0x0000f2c0
-`FveConversionResume` | 18 (0x12) | Exported Function | 0x1000f3a0 | 0x0000f3a0
-`FveConversionStop` | 19 (0x13) | Exported Function | 0x1000f1c0 | 0x0000f1c0
-`FveConversionStopEx` | 20 (0x14) | Exported Function | 0x1000f1e0 | 0x0000f1e0
-`FveDiscardChanges` | 21 (0x15) | Exported Function | 0x1000e000 | 0x0000e000
-`FveEnableRawAccess` | 22 (0x16) | Exported Function | 0x1000fc60 | 0x0000fc60
-`FveEraseDrive` | 23 (0x17) | Exported Function | 0x1000e0c0 | 0x0000e0c0
-`FveFindFirstVolume` | 24 (0x18) | Exported Function | 0x10010140 | 0x00010140
-`FveFindNextVolume` | 25 (0x19) | Exported Function | 0x10010240 | 0x00010240
-`FveGetAllowKeyExport` | 26 (0x1a) | Exported Function | 0x1000fa30 | 0x0000fa30
-`FveGetAuthMethodGuids` | 27 (0x1b) | Exported Function | 0x1000e5e0 | 0x0000e5e0
-`FveGetDataSet` | 29 (0x1d) | Exported Function | 0x1000fd40 | 0x0000fd40
-`InternalFveIsVolumeEncrypted` | 1 (0x1) | Exported Function | 0x1000fe10 | 0x0000fe10
+Function Name | Ordinal | Type
+-- | -- | --
+`FveIsHardwareReadyForConversion` | 40 | Exported Function
+`FveGetVolumeNameW` | 39 | Exported Function
+`FveGetUserFlags` | 38 | Exported Function
+`FveIsRecoveryPasswordGroupValidW` | 41 | Exported Function
+`FveLockVolume` | 44 | Exported Function
+`FveIsVolumeEncryptable` | 43 | Exported Function
+`FveIsRecoveryPasswordValidW` | 42 | Exported Function
+`FveGetFveMethodEx` | 33 | Exported Function
+`FveGetFveMethodEDrv` | 32 | Exported Function
+`FveGetFveMethod` | 31 | Exported Function
+`FveGetIdentity` | 34 | Exported Function
+`FveGetStatusW` | 37 | Exported Function
+`FveGetStatus` | 36 | Exported Function
+`FveGetKeyPackage` | 35 | Exported Function
+`FveSetFveMethod` | 54 | Exported Function
+`FveSetFipsAllowDisabled` | 53 | Exported Function
+`FveSetAllowKeyExport` | 52 | Exported Function
+`FveSetRecoveryPasswordBackupInformation` | 55 | Exported Function
+`InternalFveIsVolumeEncrypted` | 1 | Exported Function
+`FveUpgradeVolume` | 57 | Exported Function
+`FveSetUserFlags` | 56 | Exported Function
+`FveOpenVolumeExW` | 47 | Exported Function
+`FveOpenVolumeByHandle` | 46 | Exported Function
+`FveNotifyVolumeAfterFormat` | 45 | Exported Function
+`FveOpenVolumeW` | 48 | Exported Function
+`FveSelectBestRecoveryPasswordByBackupInformation` | 51 | Exported Function
+`FveRevertVolume` | 50 | Exported Function
+`FveQuery` | 49 | Exported Function
+`FveGetFipsAllowDisabled` | 30 | Exported Function
+`FveCloseHandle` | 11 | Exported Function
+`FveClearUserFlags` | 10 | Exported Function
+`FveCanPinExceptionPolicyBeApplied` | 9 | Exported Function
+`FveCloseVolume` | 12 | Exported Function
+`FveConversionDecrypt` | 15 | Exported Function
+`FveCommitChangesEx` | 14 | Exported Function
+`FveCommitChanges` | 13 | Exported Function
+`FveAuthElementFromRecoveryPasswordW` | 4 | Exported Function
+`FveAuthElementFromPinW` | 3 | Exported Function
+`FveAuthElementFromPassPhraseW` | 2 | Exported Function
+`FveAuthElementGetKeyFileNameW` | 5 | Exported Function
+`FveAuthElementWriteExternalKeyW` | 8 | Exported Function
+`FveAuthElementToRecoveryPasswordW` | 7 | Exported Function
+`FveAuthElementReadExternalKeyW` | 6 | Exported Function
+`FveFindNextVolume` | 25 | Exported Function
+`FveFindFirstVolume` | 24 | Exported Function
+`FveEraseDrive` | 23 | Exported Function
+`FveGetAllowKeyExport` | 26 | Exported Function
+`FveGetDataSet` | 29 | Exported Function
+`FveGetAuthMethodInformation` | 28 | Exported Function
+`FveGetAuthMethodGuids` | 27 | Exported Function
+`FveConversionResume` | 18 | Exported Function
+`FveConversionPause` | 17 | Exported Function
+`FveConversionDecryptEx` | 16 | Exported Function
+`FveConversionStop` | 19 | Exported Function
+`FveEnableRawAccess` | 22 | Exported Function
+`FveDiscardChanges` | 21 | Exported Function
+`FveConversionStopEx` | 20 | Exported Function
 
 
 ## Signature

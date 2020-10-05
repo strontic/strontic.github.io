@@ -24,19 +24,19 @@ PE256 | `60C31595EEB2BC3BD34B417BAAC030B5D85D1423A166538F3544AB7B9A926E03`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ProxyHelperClientAllocateMemory` | 1 (0x1) | Exported Function | 0x00000001800010a0 | 0x000010a0
-`ProxyHelperClientConnectToServer` | 2 (0x2) | Exported Function | 0x0000000180001e30 | 0x00001e30
-`ProxyHelperClientDisconnectFromServer` | 3 (0x3) | Exported Function | 0x0000000180001e50 | 0x00001e50
-`ProxyHelperClientFreeMemory` | 4 (0x4) | Exported Function | 0x00000001800010f0 | 0x000010f0
-`ProxyHelperClientGetAllProxiesForUrl` | 5 (0x5) | Exported Function | 0x0000000180001a80 | 0x00001a80
-`ProxyHelperClientGetProxyCredentials` | 6 (0x6) | Exported Function | 0x0000000180001cf0 | 0x00001cf0
-`ProxyHelperClientGetProxyForUrl` | 7 (0x7) | Exported Function | 0x0000000180001810 | 0x00001810
-`ProxyHelperClientInitialize` | 8 (0x8) | Exported Function | 0x0000000180001e80 | 0x00001e80
-`ProxyHelperClientRegisterForEventNotification` | 9 (0x9) | Exported Function | 0x0000000180001260 | 0x00001260
-`ProxyHelperClientUninitialize` | 10 (0xa) | Exported Function | 0x0000000180001ed0 | 0x00001ed0
-`ProxyHelperClientUnregisterEventNotification` | 11 (0xb) | Exported Function | 0x0000000180001630 | 0x00001630
+Function Name | Ordinal | Type
+-- | -- | --
+`ProxyHelperClientInitialize` | 8 | Exported Function
+`ProxyHelperClientGetProxyForUrl` | 7 | Exported Function
+`ProxyHelperClientRegisterForEventNotification` | 9 | Exported Function
+`ProxyHelperClientUnregisterEventNotification` | 11 | Exported Function
+`ProxyHelperClientUninitialize` | 10 | Exported Function
+`ProxyHelperClientGetProxyCredentials` | 6 | Exported Function
+`ProxyHelperClientConnectToServer` | 2 | Exported Function
+`ProxyHelperClientAllocateMemory` | 1 | Exported Function
+`ProxyHelperClientDisconnectFromServer` | 3 | Exported Function
+`ProxyHelperClientGetAllProxiesForUrl` | 5 | Exported Function
+`ProxyHelperClientFreeMemory` | 4 | Exported Function
 
 
 ## Signature

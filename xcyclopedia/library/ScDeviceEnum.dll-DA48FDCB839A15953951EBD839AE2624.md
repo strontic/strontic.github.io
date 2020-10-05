@@ -24,10 +24,10 @@ PE256 | `FF326AE70DB76402A3FD3667FFFBE6EC7265ABF0A7D151A266F5E1C7BC482B59`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ScDeviceEnumServiceMain` | 1 (0x1) | Exported Function | 0x0000000180004530 | 0x00004530
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x0000000180004520 | 0x00004520
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`ScDeviceEnumServiceMain` | 1 | Exported Function
 
 
 ## Signature

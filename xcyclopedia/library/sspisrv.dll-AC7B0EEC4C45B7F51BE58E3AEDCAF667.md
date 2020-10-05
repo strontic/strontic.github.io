@@ -24,13 +24,13 @@ PE256 | `6E3252B383CCCE9DF8FF127C2E0124A9D01298F018A2CC080C34EBDAF1F0098A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SspirAcquireCredentialsHandle` | 3 (0x3) | Exported Function | 0x0000000180001530 | 0x00001530
-`SspirDeleteSecurityContext` | 4 (0x4) | Exported Function | 0x00000001800012d0 | 0x000012d0
-`SspirProcessSecurityContext` | 5 (0x5) | Exported Function | 0x0000000180001010 | 0x00001010
-`SspiSrvClientCallback` | 1 (0x1) | Exported Function | 0x0000000180002960 | 0x00002960
-`SspiSrvInitialize` | 2 (0x2) | Exported Function | 0x0000000180002a70 | 0x00002a70
+Function Name | Ordinal | Type
+-- | -- | --
+`SspiSrvClientCallback` | 1 | Exported Function
+`SspiSrvInitialize` | 2 | Exported Function
+`SspirProcessSecurityContext` | 5 | Exported Function
+`SspirAcquireCredentialsHandle` | 3 | Exported Function
+`SspirDeleteSecurityContext` | 4 | Exported Function
 
 
 ## Signature

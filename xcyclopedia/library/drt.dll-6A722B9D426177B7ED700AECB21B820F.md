@@ -24,29 +24,29 @@ PE256 | `A30B4A0EFAF0833BDD27834767444042DD6502CD43EE9B811719185F812BD35A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DrtClose` | 6 (0x6) | Exported Function | 0x10002a10 | 0x00002a10
-`DrtStartSearch` | 19 (0x13) | Exported Function | 0x10002ad0 | 0x00002ad0
-`DrtStartPartitionDetection` | 5 (0x5) | Exported Function | 0x10002d10 | 0x00002d10
-`DrtRegisterKey` | 18 (0x12) | Exported Function | 0x10002a30 | 0x00002a30
-`DrtPingPeer` | 4 (0x4) | Exported Function | 0x10002cc0 | 0x00002cc0
-`DrtOpen` | 17 (0x11) | Exported Function | 0x100029e0 | 0x000029e0
-`DrtHandlePowerEvent` | 3 (0x3) | Exported Function | 0x10002db0 | 0x00002db0
-`DrtGetSearchResultSize` | 16 (0x10) | Exported Function | 0x10002b40 | 0x00002b40
-`DrtGetSearchResult` | 15 (0xf) | Exported Function | 0x10002b60 | 0x00002b60
-`DrtUnregisterKey` | 20 (0x14) | Exported Function | 0x10002a70 | 0x00002a70
-`DrtGetSearchPathSize` | 14 (0xe) | Exported Function | 0x10002b00 | 0x00002b00
-`DrtGetInstanceNameSize` | 12 (0xc) | Exported Function | 0x10002ca0 | 0x00002ca0
-`DrtGetInstanceName` | 11 (0xb) | Exported Function | 0x10002c80 | 0x00002c80
-`DrtGetEventDataSize` | 10 (0xa) | Exported Function | 0x10002c40 | 0x00002c40
-`DrtGetEventData` | 9 (0x9) | Exported Function | 0x10002c60 | 0x00002c60
-`DrtGetCacheStatsEx` | 2 (0x2) | Exported Function | 0x10002d90 | 0x00002d90
-`DrtFlushCache` | 1 (0x1) | Exported Function | 0x10002cf0 | 0x00002cf0
-`DrtEndSearch` | 8 (0x8) | Exported Function | 0x10002bd0 | 0x00002bd0
-`DrtContinueSearch` | 7 (0x7) | Exported Function | 0x10002b80 | 0x00002b80
-`DrtGetSearchPath` | 13 (0xd) | Exported Function | 0x10002b20 | 0x00002b20
-`DrtUpdateKey` | 21 (0x15) | Exported Function | 0x10002a50 | 0x00002a50
+Function Name | Ordinal | Type
+-- | -- | --
+`DrtOpen` | 17 | Exported Function
+`DrtPingPeer` | 4 | Exported Function
+`DrtHandlePowerEvent` | 3 | Exported Function
+`DrtGetSearchResult` | 15 | Exported Function
+`DrtGetSearchResultSize` | 16 | Exported Function
+`DrtUnregisterKey` | 20 | Exported Function
+`DrtUpdateKey` | 21 | Exported Function
+`DrtStartSearch` | 19 | Exported Function
+`DrtRegisterKey` | 18 | Exported Function
+`DrtStartPartitionDetection` | 5 | Exported Function
+`DrtGetSearchPathSize` | 14 | Exported Function
+`DrtFlushCache` | 1 | Exported Function
+`DrtGetCacheStatsEx` | 2 | Exported Function
+`DrtEndSearch` | 8 | Exported Function
+`DrtClose` | 6 | Exported Function
+`DrtContinueSearch` | 7 | Exported Function
+`DrtGetInstanceNameSize` | 12 | Exported Function
+`DrtGetSearchPath` | 13 | Exported Function
+`DrtGetInstanceName` | 11 | Exported Function
+`DrtGetEventData` | 9 | Exported Function
+`DrtGetEventDataSize` | 10 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `4A3CDED8019F44E82E05BCE6F19EBDB12D07C3A6A2C5C92649EA5611605B5387`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateInstance` | 1 (0x1) | Exported Function | 0x0000000180001080 | 0x00001080
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateInstance` | 1 | Exported Function
 
 
 ## Signature

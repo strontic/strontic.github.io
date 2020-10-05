@@ -24,17 +24,17 @@ PE256 | `56A05D9C710BEBFD59DD6D0A087C8A577512A95891D00E37F19C5543FABABE35`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CancelWUOperation` | 1 (0x1) | Exported Function | 0x0000000180003000 | 0x00003000
-`IsWUAvailable` | 2 (0x2) | Exported Function | 0x0000000180002c20 | 0x00002c20
-`OpenWUContext` | 3 (0x3) | Exported Function | 0x0000000180002ea0 | 0x00002ea0
-`ReleaseWUContext` | 4 (0x4) | Exported Function | 0x0000000180002ee0 | 0x00002ee0
-`RemoveWUDirectory` | 5 (0x5) | Exported Function | 0x0000000180003050 | 0x00003050
-`WUDownloadUpdatedFiles` | 6 (0x6) | Exported Function | 0x0000000180002d50 | 0x00002d50
-`WUExpandUpdateToPath` | 7 (0x7) | Exported Function | 0x0000000180002cb0 | 0x00002cb0
-`WUFindMatchingDriver` | 8 (0x8) | Exported Function | 0x0000000180002e30 | 0x00002e30
-`WUInstallBestUpdate` | 9 (0x9) | Exported Function | 0x0000000180002dc0 | 0x00002dc0
+Function Name | Ordinal | Type
+-- | -- | --
+`WUExpandUpdateToPath` | 7 | Exported Function
+`WUDownloadUpdatedFiles` | 6 | Exported Function
+`WUInstallBestUpdate` | 9 | Exported Function
+`WUFindMatchingDriver` | 8 | Exported Function
+`RemoveWUDirectory` | 5 | Exported Function
+`IsWUAvailable` | 2 | Exported Function
+`CancelWUOperation` | 1 | Exported Function
+`ReleaseWUContext` | 4 | Exported Function
+`OpenWUContext` | 3 | Exported Function
 
 
 ## Signature

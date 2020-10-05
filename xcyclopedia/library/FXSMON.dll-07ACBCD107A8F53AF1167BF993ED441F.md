@@ -24,9 +24,9 @@ PE256 | `0675BE688DB1BAE5464833494B673F3F068C25BE28BCED278F0F2756834DC0BB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializePrintMonitor2` | 1 (0x1) | Exported Function | 0x0000000164301360 | 0x00001360
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializePrintMonitor2` | 1 | Exported Function
 
 
 ## Signature

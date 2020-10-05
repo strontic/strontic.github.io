@@ -23,9 +23,9 @@ PE256 | `9691FA914212F60B85C5B595D109A928A1FCD6957AFDC17B2C74FD1B604555AF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateVirtualMonitorManager` | 1 (0x1) | Exported Function | 0x0000000180009160 | 0x00009160
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateVirtualMonitorManager` | 1 | Exported Function
 
 
 ## Signature

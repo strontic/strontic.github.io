@@ -24,13 +24,13 @@ PE256 | `C426DD9900F8255650B71934E10263BC52307DD82114D8F5B340AC179BA68C5E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180008aa0 | 0x00008aa0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180008ae0 | 0x00008ae0
-`DLLGetDISMProviderCLSID` | 1 (0x1) | Exported Function | 0x0000000180008a70 | 0x00008a70
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x0000000180008c20 | 0x00008c20
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x0000000180008d20 | 0x00008d20
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DLLGetDISMProviderCLSID` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

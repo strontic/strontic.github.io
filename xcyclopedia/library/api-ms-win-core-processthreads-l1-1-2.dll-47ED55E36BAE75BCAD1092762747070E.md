@@ -24,17 +24,17 @@ PE256 | `75B3AD9F9FB641F1B5BAC4389C21B3FCEE3A7CFE60D54D842D2509B3A5B13AE3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetProcessPriorityBoost` | 1 (0x1) | Exported Function | kernel32.GetProcessPriorityBoost | 0x00001124
-`GetSystemTimes` | 2 (0x2) | Exported Function | kernel32.GetSystemTimes | 0x00001154
-`GetThreadInformation` | 4 (0x4) | Exported Function | kernel32.GetThreadInformation | 0x000011b8
-`GetThreadIOPendingFlag` | 3 (0x3) | Exported Function | kernel32.GetThreadIOPendingFlag | 0x00001183
-`IsProcessCritical` | 5 (0x5) | Exported Function | kernel32.IsProcessCritical | 0x000011e8
-`QueryProtectedPolicy` | 6 (0x6) | Exported Function | kernel32.QueryProtectedPolicy | 0x00001218
-`SetProcessPriorityBoost` | 7 (0x7) | Exported Function | kernel32.SetProcessPriorityBoost | 0x0000124e
-`SetProtectedPolicy` | 8 (0x8) | Exported Function | kernel32.SetProtectedPolicy | 0x00001282
-`SetThreadInformation` | 9 (0x9) | Exported Function | kernel32.SetThreadInformation | 0x000012b3
+Function Name | Ordinal | Type
+-- | -- | --
+`SetProcessPriorityBoost` | 7 | Exported Function
+`QueryProtectedPolicy` | 6 | Exported Function
+`SetThreadInformation` | 9 | Exported Function
+`SetProtectedPolicy` | 8 | Exported Function
+`IsProcessCritical` | 5 | Exported Function
+`GetSystemTimes` | 2 | Exported Function
+`GetProcessPriorityBoost` | 1 | Exported Function
+`GetThreadIOPendingFlag` | 3 | Exported Function
+`GetThreadInformation` | 4 | Exported Function
 
 
 ## Signature

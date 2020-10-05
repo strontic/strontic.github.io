@@ -24,12 +24,12 @@ PE256 | `58BE2A9224933A6D61732C7A6A65E9F251ABB7A127AAE2F3D13064C2143015C1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DavClose` | 1 (0x1) | Exported Function | 0x000000018000db40 | 0x0000db40
-`DavInit` | 2 (0x2) | Exported Function | 0x000000018000d760 | 0x0000d760
-`ServiceMain` | 3 (0x3) | Exported Function | 0x00000001800267f0 | 0x000267f0
-`SvchostPushServiceGlobals` | 4 (0x4) | Exported Function | 0x00000001800263b0 | 0x000263b0
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 3 | Exported Function
+`SvchostPushServiceGlobals` | 4 | Exported Function
+`DavClose` | 1 | Exported Function
+`DavInit` | 2 | Exported Function
 
 
 ## Signature

@@ -24,14 +24,14 @@ PE256 | `E217BC1D7216248A24F8FE9928FAD697CC4059D53AEFC1C49F41AF39A95B5358`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180001ae0 | 0x00001ae0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180001b00 | 0x00001b00
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180001920 | 0x00001920
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180001a10 | 0x00001a10
-`MFPCreateMediaPlayer` | 5 (0x5) | Exported Function | 0x0000000180001c30 | 0x00001c30
-`MFPCreateMediaPlayerEx` | 6 (0x6) | Exported Function | 0x0000000180001ea0 | 0x00001ea0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 4 | Exported Function
+`MFPCreateMediaPlayer` | 5 | Exported Function
+`MFPCreateMediaPlayerEx` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

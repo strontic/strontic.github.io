@@ -24,16 +24,16 @@ PE256 | `1FE7565FA57515F2CFBEF2ED627724888BD791EACF409918BA445FD2FBA31BE3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AllocInstanceData` | 2 (0x2) | Exported Function | ir41_qcoriginal.AllocInstanceData | 0x00001eb4
-`Compress` | 3 (0x3) | Exported Function | ir41_qcoriginal.Compress | 0x00001edf
-`CompressBegin` | 1 (0x1) | Exported Function | 0x100013b0 | 0x000013b0
-`CompressEnd` | 4 (0x4) | Exported Function | ir41_qcoriginal.CompressEnd | 0x00001f04
-`CompressFramesInfo` | 5 (0x5) | Exported Function | ir41_qcoriginal.CompressFramesInfo | 0x00001f33
-`DllMain` | 6 (0x6) | Exported Function | ir41_qcoriginal.DllMain | 0x00001f5e
-`FreeInstanceData` | 7 (0x7) | Exported Function | ir41_qcoriginal.FreeInstanceData | 0x00001f87
-`SetScalability` | 8 (0x8) | Exported Function | ir41_qcoriginal.SetScalability | 0x00001fb7
+Function Name | Ordinal | Type
+-- | -- | --
+`DllMain` | 6 | Exported Function
+`CompressFramesInfo` | 5 | Exported Function
+`SetScalability` | 8 | Exported Function
+`FreeInstanceData` | 7 | Exported Function
+`Compress` | 3 | Exported Function
+`AllocInstanceData` | 2 | Exported Function
+`CompressEnd` | 4 | Exported Function
+`CompressBegin` | 1 | Exported Function
 
 
 ## Signature

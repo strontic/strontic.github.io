@@ -24,977 +24,977 @@ PE256 | `B0BF7269BE08BA3532DCD2A5659D74BADCB59F7B9F1594A39BA2D8F5B761116E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`u_austrcpy` | 10 (0xa) | Exported Function | 0x0000000180027990 | 0x00027990
-`unum_formatDoubleCurrency` | 638 (0x27e) | Exported Function | 0x00000001800b10a0 | 0x000b10a0
-`unum_formatDoubleForFields` | 639 (0x27f) | Exported Function | 0x00000001800b1230 | 0x000b1230
-`unum_formatInt64` | 640 (0x280) | Exported Function | 0x00000001800b1340 | 0x000b1340
-`unum_formatUFormattable` | 641 (0x281) | Exported Function | 0x00000001800b1470 | 0x000b1470
-`unum_getAttribute` | 642 (0x282) | Exported Function | 0x00000001800b15a0 | 0x000b15a0
-`unum_getAvailable` | 643 (0x283) | Exported Function | 0x000000018003e800 | 0x0003e800
-`unum_getContext` | 644 (0x284) | Exported Function | 0x00000001800b1670 | 0x000b1670
-`unum_getDoubleAttribute` | 645 (0x285) | Exported Function | 0x00000001800b16a0 | 0x000b16a0
-`unum_getLocaleByType` | 646 (0x286) | Exported Function | 0x000000018003e8e0 | 0x0003e8e0
-`unum_getSymbol` | 647 (0x287) | Exported Function | 0x00000001800b1700 | 0x000b1700
-`unum_getTextAttribute` | 648 (0x288) | Exported Function | 0x00000001800b17b0 | 0x000b17b0
-`unum_open` | 649 (0x289) | Exported Function | 0x00000001800b1a10 | 0x000b1a10
-`unum_formatDouble` | 637 (0x27d) | Exported Function | 0x00000001800b0f70 | 0x000b0f70
-`unum_parse` | 650 (0x28a) | Exported Function | 0x00000001800b1e30 | 0x000b1e30
-`unum_parseDouble` | 652 (0x28c) | Exported Function | 0x00000001800b2000 | 0x000b2000
-`unum_parseDoubleCurrency` | 653 (0x28d) | Exported Function | 0x00000001800b20b0 | 0x000b20b0
-`unum_parseInt64` | 654 (0x28e) | Exported Function | 0x00000001800b21f0 | 0x000b21f0
-`unum_parseToUFormattable` | 655 (0x28f) | Exported Function | 0x00000001800b2290 | 0x000b2290
-`unum_setAttribute` | 656 (0x290) | Exported Function | 0x00000001800b2340 | 0x000b2340
-`unum_setContext` | 657 (0x291) | Exported Function | 0x00000001800b2480 | 0x000b2480
-`unum_setDoubleAttribute` | 658 (0x292) | Exported Function | 0x00000001800b24b0 | 0x000b24b0
-`unum_setSymbol` | 659 (0x293) | Exported Function | 0x00000001800b2510 | 0x000b2510
-`unum_setTextAttribute` | 660 (0x294) | Exported Function | 0x00000001800b2640 | 0x000b2640
-`unum_toPattern` | 661 (0x295) | Exported Function | 0x00000001800b27c0 | 0x000b27c0
-`unumf_close` | 662 (0x296) | Exported Function | 0x00000001800194f0 | 0x000194f0
-`unumf_closeResult` | 663 (0x297) | Exported Function | 0x0000000180019530 | 0x00019530
-`unum_parseDecimal` | 651 (0x28b) | Exported Function | 0x00000001800b1ed0 | 0x000b1ed0
-`unumf_formatDecimal` | 664 (0x298) | Exported Function | 0x0000000180019580 | 0x00019580
-`unum_formatDecimal` | 636 (0x27c) | Exported Function | 0x00000001800b0df0 | 0x000b0df0
-`unum_countAvailable` | 634 (0x27a) | Exported Function | 0x000000018003e7d0 | 0x0003e7d0
-`umsg_vparse` | 608 (0x260) | Exported Function | 0x00000001800a5aa0 | 0x000a5aa0
-`unorm2_append` | 609 (0x261) | Exported Function | 0x0000000180030a80 | 0x00030a80
-`unorm2_close` | 610 (0x262) | Exported Function | 0x0000000180013070 | 0x00013070
-`unorm2_composePair` | 611 (0x263) | Exported Function | 0x0000000180030ac0 | 0x00030ac0
-`unorm2_getCombiningClass` | 612 (0x264) | Exported Function | 0x0000000180030ae0 | 0x00030ae0
-`unorm2_getDecomposition` | 613 (0x265) | Exported Function | 0x0000000180030b00 | 0x00030b00
-`unorm2_getInstance` | 614 (0x266) | Exported Function | 0x0000000180001f30 | 0x00001f30
-`unorm2_getNFCInstance` | 615 (0x267) | Exported Function | 0x0000000180030bd0 | 0x00030bd0
-`unorm2_getNFDInstance` | 616 (0x268) | Exported Function | 0x0000000180030be0 | 0x00030be0
-`unorm2_getNFKCCasefoldInstance` | 617 (0x269) | Exported Function | 0x00000001800558f0 | 0x000558f0
-`unorm2_getNFKCInstance` | 618 (0x26a) | Exported Function | 0x0000000180055920 | 0x00055920
-`unorm2_getNFKDInstance` | 619 (0x26b) | Exported Function | 0x0000000180055930 | 0x00055930
-`unum_format` | 635 (0x27b) | Exported Function | 0x00000001800b0de0 | 0x000b0de0
-`unorm2_getRawDecomposition` | 620 (0x26c) | Exported Function | 0x0000000180030bf0 | 0x00030bf0
-`unorm2_hasBoundaryBefore` | 622 (0x26e) | Exported Function | 0x0000000180030ce0 | 0x00030ce0
-`unorm2_isInert` | 623 (0x26f) | Exported Function | 0x0000000180030d00 | 0x00030d00
-`unorm2_isNormalized` | 624 (0x270) | Exported Function | 0x0000000180003fa0 | 0x00003fa0
-`unorm2_normalize` | 625 (0x271) | Exported Function | 0x0000000180030d20 | 0x00030d20
-`unorm2_normalizeSecondAndAppend` | 626 (0x272) | Exported Function | 0x0000000180030ef0 | 0x00030ef0
-`unorm2_openFiltered` | 627 (0x273) | Exported Function | 0x00000001800566b0 | 0x000566b0
-`unorm2_quickCheck` | 628 (0x274) | Exported Function | 0x0000000180030f30 | 0x00030f30
-`unorm2_spanQuickCheckYes` | 629 (0x275) | Exported Function | 0x0000000180030fe0 | 0x00030fe0
-`unorm_compare` | 630 (0x276) | Exported Function | 0x0000000180057020 | 0x00057020
-`unum_applyPattern` | 631 (0x277) | Exported Function | 0x00000001800b0c40 | 0x000b0c40
-`unum_clone` | 632 (0x278) | Exported Function | 0x00000001800b0d50 | 0x000b0d50
-`unum_close` | 633 (0x279) | Exported Function | 0x0000000180013070 | 0x00013070
-`unorm2_hasBoundaryAfter` | 621 (0x26d) | Exported Function | 0x0000000180030cc0 | 0x00030cc0
-`unumf_formatDouble` | 665 (0x299) | Exported Function | 0x0000000180019630 | 0x00019630
-`unumf_formatInt` | 666 (0x29a) | Exported Function | 0x00000001800196c0 | 0x000196c0
-`unumf_openForSkeletonAndLocale` | 667 (0x29b) | Exported Function | 0x0000000180019750 | 0x00019750
-`uregex_getStackLimit` | 699 (0x2bb) | Exported Function | 0x00000001800b3f60 | 0x000b3f60
-`uregex_getText` | 700 (0x2bc) | Exported Function | 0x00000001800b3f90 | 0x000b3f90
-`uregex_getTimeLimit` | 701 (0x2bd) | Exported Function | 0x00000001800b40b0 | 0x000b40b0
-`uregex_getUText` | 702 (0x2be) | Exported Function | 0x00000001800b40e0 | 0x000b40e0
-`uregex_group` | 703 (0x2bf) | Exported Function | 0x00000001800b4120 | 0x000b4120
-`uregex_groupCount` | 704 (0x2c0) | Exported Function | 0x00000001800b4270 | 0x000b4270
-`uregex_groupNumberFromCName` | 705 (0x2c1) | Exported Function | 0x00000001800b42b0 | 0x000b42b0
-`uregex_groupNumberFromName` | 706 (0x2c2) | Exported Function | 0x00000001800b42f0 | 0x000b42f0
-`uregex_groupUText` | 707 (0x2c3) | Exported Function | 0x00000001800b4370 | 0x000b4370
-`uregex_hasAnchoringBounds` | 708 (0x2c4) | Exported Function | 0x00000001800b43d0 | 0x000b43d0
-`uregex_hasTransparentBounds` | 709 (0x2c5) | Exported Function | 0x00000001800b4400 | 0x000b4400
-`uregex_hitEnd` | 710 (0x2c6) | Exported Function | 0x00000001800b4430 | 0x000b4430
-`uregex_getMatchCallback` | 698 (0x2ba) | Exported Function | 0x00000001800b3f20 | 0x000b3f20
-`uregex_lookingAt` | 711 (0x2c7) | Exported Function | 0x00000001800b4460 | 0x000b4460
-`uregex_matches` | 713 (0x2c9) | Exported Function | 0x00000001800b44b0 | 0x000b44b0
-`uregex_matches64` | 714 (0x2ca) | Exported Function | 0x00000001800b44c0 | 0x000b44c0
-`uregex_open` | 715 (0x2cb) | Exported Function | 0x00000001800b4500 | 0x000b4500
-`uregex_openC` | 716 (0x2cc) | Exported Function | 0x00000001800b51f0 | 0x000b51f0
-`uregex_openUText` | 717 (0x2cd) | Exported Function | 0x00000001800b4760 | 0x000b4760
-`uregex_pattern` | 718 (0x2ce) | Exported Function | 0x00000001800b49d0 | 0x000b49d0
-`uregex_patternUText` | 719 (0x2cf) | Exported Function | 0x00000001800b4a10 | 0x000b4a10
-`uregex_refreshUText` | 720 (0x2d0) | Exported Function | 0x00000001800b4a20 | 0x000b4a20
-`uregex_regionEnd` | 721 (0x2d1) | Exported Function | 0x00000001800b4a50 | 0x000b4a50
-`uregex_regionEnd64` | 722 (0x2d2) | Exported Function | 0x00000001800b4a60 | 0x000b4a60
-`uregex_regionStart` | 723 (0x2d3) | Exported Function | 0x00000001800b4a90 | 0x000b4a90
-`uregex_regionStart64` | 724 (0x2d4) | Exported Function | 0x00000001800b4aa0 | 0x000b4aa0
-`uregex_lookingAt64` | 712 (0x2c8) | Exported Function | 0x00000001800b4470 | 0x000b4470
-`uregex_getFindProgressCallback` | 697 (0x2b9) | Exported Function | 0x00000001800b3ee0 | 0x000b3ee0
-`uregex_flags` | 696 (0x2b8) | Exported Function | 0x00000001800b3eb0 | 0x000b3eb0
-`uregex_findNext` | 695 (0x2b7) | Exported Function | 0x00000001800b3e80 | 0x000b3e80
-`unumf_openResult` | 668 (0x29c) | Exported Function | 0x0000000180019880 | 0x00019880
-`unumf_resultGetAllFieldPositions` | 669 (0x29d) | Exported Function | 0x00000001800198e0 | 0x000198e0
-`unumf_resultNextFieldPosition` | 670 (0x29e) | Exported Function | 0x0000000180019950 | 0x00019950
-`unumf_resultToString` | 671 (0x29f) | Exported Function | 0x00000001800199d0 | 0x000199d0
-`unumsys_close` | 672 (0x2a0) | Exported Function | 0x0000000180013070 | 0x00013070
-`unumsys_getDescription` | 673 (0x2a1) | Exported Function | 0x00000001800b2aa0 | 0x000b2aa0
-`unumsys_getName` | 674 (0x2a2) | Exported Function | 0x00000001800b2b30 | 0x000b2b30
-`unumsys_getRadix` | 675 (0x2a3) | Exported Function | 0x0000000180008520 | 0x00008520
-`unumsys_isAlgorithmic` | 676 (0x2a4) | Exported Function | 0x00000001800b2b40 | 0x000b2b40
-`unumsys_open` | 677 (0x2a5) | Exported Function | 0x00000001800b2b50 | 0x000b2b50
-`unumsys_openAvailableNames` | 678 (0x2a6) | Exported Function | 0x00000001800b2bd0 | 0x000b2bd0
-`unumsys_openByName` | 679 (0x2a7) | Exported Function | 0x00000001800b2c50 | 0x000b2c50
-`uplrules_close` | 680 (0x2a8) | Exported Function | 0x0000000180013070 | 0x00013070
-`uplrules_getKeywords` | 681 (0x2a9) | Exported Function | 0x00000001800b2c70 | 0x000b2c70
-`uplrules_open` | 682 (0x2aa) | Exported Function | 0x00000001800b2cc0 | 0x000b2cc0
-`uplrules_openForType` | 683 (0x2ab) | Exported Function | 0x00000001800b2cd0 | 0x000b2cd0
-`uplrules_select` | 684 (0x2ac) | Exported Function | 0x00000001800b2d60 | 0x000b2d60
-`uregex_appendReplacement` | 685 (0x2ad) | Exported Function | 0x00000001800b3c40 | 0x000b3c40
-`uregex_appendReplacementUText` | 686 (0x2ae) | Exported Function | 0x00000001800b3c50 | 0x000b3c50
-`uregex_appendTail` | 687 (0x2af) | Exported Function | 0x00000001800b3c70 | 0x000b3c70
-`uregex_appendTailUText` | 688 (0x2b0) | Exported Function | 0x00000001800b3c80 | 0x000b3c80
-`uregex_clone` | 689 (0x2b1) | Exported Function | 0x00000001800b3c90 | 0x000b3c90
-`uregex_close` | 690 (0x2b2) | Exported Function | 0x00000001800b3d70 | 0x000b3d70
-`uregex_end` | 691 (0x2b3) | Exported Function | 0x00000001800b3da0 | 0x000b3da0
-`uregex_end64` | 692 (0x2b4) | Exported Function | 0x00000001800b3db0 | 0x000b3db0
-`uregex_find` | 693 (0x2b5) | Exported Function | 0x00000001800b3de0 | 0x000b3de0
-`uregex_find64` | 694 (0x2b6) | Exported Function | 0x00000001800b3df0 | 0x000b3df0
-`umsg_vformat` | 607 (0x25f) | Exported Function | 0x00000001800a5740 | 0x000a5740
-`uregex_replaceAll` | 725 (0x2d5) | Exported Function | 0x00000001800b4ad0 | 0x000b4ad0
-`umsg_toPattern` | 606 (0x25e) | Exported Function | 0x00000001800a5660 | 0x000a5660
-`umsg_parse` | 604 (0x25c) | Exported Function | 0x00000001800a55a0 | 0x000a55a0
-`uidna_nameToUnicode` | 517 (0x205) | Exported Function | 0x000000018004dcd0 | 0x0004dcd0
-`uidna_nameToUnicodeUTF8` | 518 (0x206) | Exported Function | 0x000000018004de00 | 0x0004de00
-`uidna_openUTS46` | 519 (0x207) | Exported Function | 0x000000018004df20 | 0x0004df20
-`uiter_current32` | 520 (0x208) | Exported Function | 0x000000018004e0c0 | 0x0004e0c0
-`uiter_getState` | 521 (0x209) | Exported Function | 0x000000018004e190 | 0x0004e190
-`uiter_next32` | 522 (0x20a) | Exported Function | 0x000000018004e1b0 | 0x0004e1b0
-`uiter_previous32` | 523 (0x20b) | Exported Function | 0x000000018004e240 | 0x0004e240
-`uiter_setState` | 524 (0x20c) | Exported Function | 0x000000018004e2c0 | 0x0004e2c0
-`uiter_setString` | 525 (0x20d) | Exported Function | 0x000000018004e310 | 0x0004e310
-`uiter_setUTF16BE` | 526 (0x20e) | Exported Function | 0x000000018004e3f0 | 0x0004e3f0
-`uiter_setUTF8` | 527 (0x20f) | Exported Function | 0x000000018004e510 | 0x0004e510
-`uldn_close` | 528 (0x210) | Exported Function | 0x0000000180013070 | 0x00013070
-`uidna_nameToASCII_UTF8` | 516 (0x204) | Exported Function | 0x000000018004dbb0 | 0x0004dbb0
-`uldn_getContext` | 529 (0x211) | Exported Function | 0x0000000180051140 | 0x00051140
-`uldn_getLocale` | 531 (0x213) | Exported Function | 0x0000000180051180 | 0x00051180
-`uldn_keyDisplayName` | 532 (0x214) | Exported Function | 0x00000001800511b0 | 0x000511b0
-`uldn_keyValueDisplayName` | 533 (0x215) | Exported Function | 0x0000000180051270 | 0x00051270
-`uldn_languageDisplayName` | 534 (0x216) | Exported Function | 0x0000000180051350 | 0x00051350
-`uldn_localeDisplayName` | 535 (0x217) | Exported Function | 0x0000000180051410 | 0x00051410
-`uldn_open` | 536 (0x218) | Exported Function | 0x00000001800514f0 | 0x000514f0
-`uldn_openForContext` | 537 (0x219) | Exported Function | 0x0000000180051580 | 0x00051580
-`uldn_regionDisplayName` | 538 (0x21a) | Exported Function | 0x0000000180051620 | 0x00051620
-`uldn_scriptCodeDisplayName` | 539 (0x21b) | Exported Function | 0x00000001800516e0 | 0x000516e0
-`uldn_scriptDisplayName` | 540 (0x21c) | Exported Function | 0x0000000180051770 | 0x00051770
-`uldn_variantDisplayName` | 541 (0x21d) | Exported Function | 0x0000000180051830 | 0x00051830
-`ulistfmt_close` | 542 (0x21e) | Exported Function | 0x0000000180013070 | 0x00013070
-`uldn_getDialectHandling` | 530 (0x212) | Exported Function | 0x0000000180051160 | 0x00051160
-`ulistfmt_format` | 543 (0x21f) | Exported Function | 0x00000001800affa0 | 0x000affa0
-`uidna_nameToASCII` | 515 (0x203) | Exported Function | 0x000000018004da80 | 0x0004da80
-`uidna_labelToUnicode` | 513 (0x201) | Exported Function | 0x000000018004d830 | 0x0004d830
-`uenum_next` | 487 (0x1e7) | Exported Function | 0x00000001800129d0 | 0x000129d0
-`uenum_openCharStringsEnumeration` | 488 (0x1e8) | Exported Function | 0x000000018004b500 | 0x0004b500
-`uenum_openUCharStringsEnumeration` | 489 (0x1e9) | Exported Function | 0x000000018004b590 | 0x0004b590
-`uenum_reset` | 490 (0x1ea) | Exported Function | 0x000000018004b0a0 | 0x0004b0a0
-`uenum_unext` | 491 (0x1eb) | Exported Function | 0x0000000180001f00 | 0x00001f00
-`ufieldpositer_close` | 492 (0x1ec) | Exported Function | 0x0000000180013070 | 0x00013070
-`ufieldpositer_next` | 493 (0x1ed) | Exported Function | 0x00000001800ae900 | 0x000ae900
-`ufieldpositer_open` | 494 (0x1ee) | Exported Function | 0x00000001800ae9c0 | 0x000ae9c0
-`ufmt_close` | 495 (0x1ef) | Exported Function | 0x0000000180013070 | 0x00013070
-`ufmt_getArrayItemByIndex` | 496 (0x1f0) | Exported Function | 0x00000001800af6b0 | 0x000af6b0
-`ufmt_getArrayLength` | 497 (0x1f1) | Exported Function | 0x00000001800af700 | 0x000af700
-`ufmt_getDate` | 498 (0x1f2) | Exported Function | 0x00000001800af730 | 0x000af730
-`uidna_labelToUnicodeUTF8` | 514 (0x202) | Exported Function | 0x000000018004d960 | 0x0004d960
-`ufmt_getDecNumChars` | 499 (0x1f3) | Exported Function | 0x00000001800af760 | 0x000af760
-`ufmt_getInt64` | 501 (0x1f5) | Exported Function | 0x00000001800af7d0 | 0x000af7d0
-`ufmt_getLong` | 502 (0x1f6) | Exported Function | 0x00000001800af7e0 | 0x000af7e0
-`ufmt_getObject` | 503 (0x1f7) | Exported Function | 0x00000001800af7f0 | 0x000af7f0
-`ufmt_getType` | 504 (0x1f8) | Exported Function | 0x00000001800af820 | 0x000af820
-`ufmt_getUChars` | 505 (0x1f9) | Exported Function | 0x00000001800af840 | 0x000af840
-`ufmt_isNumeric` | 506 (0x1fa) | Exported Function | 0x00000001800af8b0 | 0x000af8b0
-`ufmt_open` | 507 (0x1fb) | Exported Function | 0x00000001800af8c0 | 0x000af8c0
-`ugender_getInstance` | 508 (0x1fc) | Exported Function | 0x00000001800aff10 | 0x000aff10
-`ugender_getListGender` | 509 (0x1fd) | Exported Function | 0x00000001800aff90 | 0x000aff90
-`uidna_close` | 510 (0x1fe) | Exported Function | 0x0000000180013070 | 0x00013070
-`uidna_labelToASCII` | 511 (0x1ff) | Exported Function | 0x000000018004d5e0 | 0x0004d5e0
-`uidna_labelToASCII_UTF8` | 512 (0x200) | Exported Function | 0x000000018004d710 | 0x0004d710
-`ufmt_getDouble` | 500 (0x1f4) | Exported Function | 0x00000001800af7c0 | 0x000af7c0
-`ulistfmt_open` | 544 (0x220) | Exported Function | 0x00000001800b0140 | 0x000b0140
-`uloc_acceptLanguage` | 545 (0x221) | Exported Function | 0x0000000180051d10 | 0x00051d10
-`uloc_acceptLanguageFromHTTP` | 546 (0x222) | Exported Function | 0x0000000180052050 | 0x00052050
-`uloc_openKeywords` | 578 (0x242) | Exported Function | 0x00000001800027b0 | 0x000027b0
-`uloc_setDefault` | 579 (0x243) | Exported Function | 0x0000000180052f30 | 0x00052f30
-`uloc_setKeywordValue` | 580 (0x244) | Exported Function | 0x00000001800117b0 | 0x000117b0
-`uloc_toLanguageTag` | 581 (0x245) | Exported Function | 0x0000000180012650 | 0x00012650
-`uloc_toLegacyKey` | 582 (0x246) | Exported Function | 0x0000000180052f60 | 0x00052f60
-`uloc_toLegacyType` | 583 (0x247) | Exported Function | 0x0000000180052fe0 | 0x00052fe0
-`uloc_toUnicodeLocaleKey` | 584 (0x248) | Exported Function | 0x0000000180053020 | 0x00053020
-`uloc_toUnicodeLocaleType` | 585 (0x249) | Exported Function | 0x0000000180012a10 | 0x00012a10
-`ulocdata_close` | 586 (0x24a) | Exported Function | 0x00000001800b0330 | 0x000b0330
-`ulocdata_getCLDRVersion` | 587 (0x24b) | Exported Function | 0x00000001800127f0 | 0x000127f0
-`ulocdata_getDelimiter` | 588 (0x24c) | Exported Function | 0x00000001800b0370 | 0x000b0370
-`ulocdata_getExemplarSet` | 589 (0x24d) | Exported Function | 0x00000001800b0470 | 0x000b0470
-`uloc_minimizeSubtags` | 577 (0x241) | Exported Function | 0x0000000180053690 | 0x00053690
-`ulocdata_getLocaleDisplayPattern` | 590 (0x24e) | Exported Function | 0x00000001800b0550 | 0x000b0550
-`ulocdata_getMeasurementSystem` | 592 (0x250) | Exported Function | 0x00000001800b0860 | 0x000b0860
-`ulocdata_getNoSubstitute` | 593 (0x251) | Exported Function | 0x00000001800b08c0 | 0x000b08c0
-`ulocdata_getPaperSize` | 594 (0x252) | Exported Function | 0x00000001800b08d0 | 0x000b08d0
-`ulocdata_open` | 595 (0x253) | Exported Function | 0x00000001800b0970 | 0x000b0970
-`ulocdata_setNoSubstitute` | 596 (0x254) | Exported Function | 0x00000001800b0a10 | 0x000b0a10
-`umsg_applyPattern` | 597 (0x255) | Exported Function | 0x00000001800a5130 | 0x000a5130
-`umsg_autoQuoteApostrophe` | 598 (0x256) | Exported Function | 0x00000001800a51e0 | 0x000a51e0
-`umsg_clone` | 599 (0x257) | Exported Function | 0x00000001800a5390 | 0x000a5390
-`umsg_close` | 600 (0x258) | Exported Function | 0x0000000180013070 | 0x00013070
-`umsg_format` | 601 (0x259) | Exported Function | 0x00000001800a53e0 | 0x000a53e0
-`umsg_getLocale` | 602 (0x25a) | Exported Function | 0x00000001800a5410 | 0x000a5410
-`umsg_open` | 603 (0x25b) | Exported Function | 0x00000001800a5440 | 0x000a5440
-`ulocdata_getLocaleSeparator` | 591 (0x24f) | Exported Function | 0x00000001800b0650 | 0x000b0650
-`uloc_isRightToLeft` | 576 (0x240) | Exported Function | 0x00000001800534f0 | 0x000534f0
-`uloc_getVariant` | 575 (0x23f) | Exported Function | 0x0000000180002d40 | 0x00002d40
-`uloc_getScript` | 574 (0x23e) | Exported Function | 0x0000000180002a50 | 0x00002a50
-`uloc_addLikelySubtags` | 547 (0x223) | Exported Function | 0x0000000180053450 | 0x00053450
-`uloc_canonicalize` | 548 (0x224) | Exported Function | 0x0000000180002770 | 0x00002770
-`uloc_countAvailable` | 549 (0x225) | Exported Function | 0x000000018003e7d0 | 0x0003e7d0
-`uloc_forLanguageTag` | 550 (0x226) | Exported Function | 0x0000000180011cb0 | 0x00011cb0
-`uloc_getAvailable` | 551 (0x227) | Exported Function | 0x0000000180053b90 | 0x00053b90
-`uloc_getBaseName` | 552 (0x228) | Exported Function | 0x0000000180052440 | 0x00052440
-`uloc_getCharacterOrientation` | 553 (0x229) | Exported Function | 0x0000000180054150 | 0x00054150
-`uloc_getCountry` | 554 (0x22a) | Exported Function | 0x0000000180002af0 | 0x00002af0
-`uloc_getDefault` | 555 (0x22b) | Exported Function | 0x0000000180052580 | 0x00052580
-`uloc_getDisplayCountry` | 556 (0x22c) | Exported Function | 0x00000001800548a0 | 0x000548a0
-`uloc_getDisplayKeyword` | 557 (0x22d) | Exported Function | 0x00000001800548e0 | 0x000548e0
-`uloc_getDisplayKeywordValue` | 558 (0x22e) | Exported Function | 0x0000000180054950 | 0x00054950
-`uloc_getDisplayLanguage` | 559 (0x22f) | Exported Function | 0x0000000180054b80 | 0x00054b80
-`uloc_getDisplayName` | 560 (0x230) | Exported Function | 0x0000000180054bc0 | 0x00054bc0
-`uloc_getDisplayScript` | 561 (0x231) | Exported Function | 0x0000000180055310 | 0x00055310
-`uloc_getDisplayVariant` | 562 (0x232) | Exported Function | 0x00000001800553c0 | 0x000553c0
-`uloc_getISO3Country` | 563 (0x233) | Exported Function | 0x00000001800525a0 | 0x000525a0
-`uloc_getISO3Language` | 564 (0x234) | Exported Function | 0x0000000180052680 | 0x00052680
-`uloc_getISOCountries` | 565 (0x235) | Exported Function | 0x0000000180052760 | 0x00052760
-`uloc_getISOLanguages` | 566 (0x236) | Exported Function | 0x0000000180052770 | 0x00052770
-`uloc_getKeywordValue` | 567 (0x237) | Exported Function | 0x0000000180052780 | 0x00052780
-`uloc_getLanguage` | 569 (0x239) | Exported Function | 0x00000001800029e0 | 0x000029e0
-`uloc_getLCID` | 568 (0x238) | Exported Function | 0x0000000180052a90 | 0x00052a90
-`uloc_getLineOrientation` | 570 (0x23a) | Exported Function | 0x0000000180054170 | 0x00054170
-`uloc_getLocaleForLCID` | 571 (0x23b) | Exported Function | 0x0000000180052c80 | 0x00052c80
-`uloc_getName` | 572 (0x23c) | Exported Function | 0x0000000180013110 | 0x00013110
-`uloc_getParent` | 573 (0x23d) | Exported Function | 0x0000000180052c90 | 0x00052c90
-`umsg_setLocale` | 605 (0x25d) | Exported Function | 0x00000001800a55d0 | 0x000a55d0
-`uregex_replaceAllUText` | 726 (0x2d6) | Exported Function | 0x00000001800b4bb0 | 0x000b4bb0
-`uregex_replaceFirst` | 727 (0x2d7) | Exported Function | 0x00000001800b4c00 | 0x000b4c00
-`uregex_replaceFirstUText` | 728 (0x2d8) | Exported Function | 0x00000001800b4cd0 | 0x000b4cd0
-`uset_spanUTF8` | 881 (0x371) | Exported Function | 0x0000000180059ea0 | 0x00059ea0
-`uset_toPattern` | 882 (0x372) | Exported Function | 0x000000018005a250 | 0x0005a250
-`uspoof_areConfusable` | 883 (0x373) | Exported Function | 0x00000001800ba240 | 0x000ba240
-`uspoof_areConfusableUTF8` | 884 (0x374) | Exported Function | 0x00000001800ba330 | 0x000ba330
-`uspoof_check` | 885 (0x375) | Exported Function | 0x00000001800ba620 | 0x000ba620
-`uspoof_check2` | 886 (0x376) | Exported Function | 0x00000001800ba640 | 0x000ba640
-`uspoof_check2UTF8` | 887 (0x377) | Exported Function | 0x00000001800ba6e0 | 0x000ba6e0
-`uspoof_checkUTF8` | 888 (0x378) | Exported Function | 0x00000001800ba850 | 0x000ba850
-`uspoof_clone` | 889 (0x379) | Exported Function | 0x00000001800ba870 | 0x000ba870
-`uspoof_close` | 890 (0x37a) | Exported Function | 0x00000001800ba900 | 0x000ba900
-`uspoof_closeCheckResult` | 891 (0x37b) | Exported Function | 0x00000001800ba940 | 0x000ba940
-`uspoof_getAllowedChars` | 892 (0x37c) | Exported Function | 0x00000001800ba980 | 0x000ba980
-`uset_spanBackUTF8` | 880 (0x370) | Exported Function | 0x0000000180059e90 | 0x00059e90
-`uspoof_getAllowedLocales` | 893 (0x37d) | Exported Function | 0x00000001800ba9b0 | 0x000ba9b0
-`uspoof_getCheckResultNumerics` | 895 (0x37f) | Exported Function | 0x00000001800baa00 | 0x000baa00
-`uspoof_getCheckResultRestrictionLevel` | 896 (0x380) | Exported Function | 0x00000001800baa30 | 0x000baa30
-`uspoof_getChecks` | 897 (0x381) | Exported Function | 0x00000001800baa60 | 0x000baa60
-`uspoof_getInclusionSet` | 898 (0x382) | Exported Function | 0x00000001800baa80 | 0x000baa80
-`uspoof_getRecommendedSet` | 899 (0x383) | Exported Function | 0x00000001800baab0 | 0x000baab0
-`uspoof_getRestrictionLevel` | 900 (0x384) | Exported Function | 0x00000001800baae0 | 0x000baae0
-`uspoof_getSkeleton` | 901 (0x385) | Exported Function | 0x00000001800bab10 | 0x000bab10
-`uspoof_getSkeletonUTF8` | 902 (0x386) | Exported Function | 0x00000001800bac50 | 0x000bac50
-`uspoof_open` | 903 (0x387) | Exported Function | 0x00000001800badb0 | 0x000badb0
-`uspoof_openCheckResult` | 904 (0x388) | Exported Function | 0x00000001800bae40 | 0x000bae40
-`uspoof_openFromSerialized` | 905 (0x389) | Exported Function | 0x00000001800bae90 | 0x000bae90
-`uspoof_openFromSource` | 906 (0x38a) | Exported Function | 0x00000001800bb150 | 0x000bb150
-`uspoof_getCheckResultChecks` | 894 (0x37e) | Exported Function | 0x00000001800ba9d0 | 0x000ba9d0
-`uspoof_serialize` | 907 (0x38b) | Exported Function | 0x00000001800bafb0 | 0x000bafb0
-`uset_spanBack` | 879 (0x36f) | Exported Function | 0x0000000180059e80 | 0x00059e80
-`uset_size` | 877 (0x36d) | Exported Function | 0x0000000180059e60 | 0x00059e60
-`uset_equals` | 851 (0x353) | Exported Function | 0x0000000180059840 | 0x00059840
-`uset_freeze` | 852 (0x354) | Exported Function | 0x0000000180059860 | 0x00059860
-`uset_getItem` | 853 (0x355) | Exported Function | 0x0000000180059870 | 0x00059870
-`uset_getItemCount` | 854 (0x356) | Exported Function | 0x0000000180059920 | 0x00059920
-`uset_getSerializedRange` | 855 (0x357) | Exported Function | 0x0000000180059950 | 0x00059950
-`uset_getSerializedRangeCount` | 856 (0x358) | Exported Function | 0x000000018000d090 | 0x0000d090
-`uset_getSerializedSet` | 857 (0x359) | Exported Function | 0x000000018000d0c0 | 0x0000d0c0
-`uset_indexOf` | 858 (0x35a) | Exported Function | 0x0000000180059a50 | 0x00059a50
-`uset_isEmpty` | 859 (0x35b) | Exported Function | 0x0000000180059aa0 | 0x00059aa0
-`uset_isFrozen` | 860 (0x35c) | Exported Function | 0x0000000180059ab0 | 0x00059ab0
-`uset_open` | 861 (0x35d) | Exported Function | 0x0000000180059ac0 | 0x00059ac0
-`uset_openEmpty` | 862 (0x35e) | Exported Function | 0x0000000180059b00 | 0x00059b00
-`uset_span` | 878 (0x36e) | Exported Function | 0x0000000180059e70 | 0x00059e70
-`uset_openPattern` | 863 (0x35f) | Exported Function | 0x000000018005a040 | 0x0005a040
-`uset_remove` | 865 (0x361) | Exported Function | 0x0000000180059b30 | 0x00059b30
-`uset_removeAll` | 866 (0x362) | Exported Function | 0x0000000180059b40 | 0x00059b40
-`uset_removeAllStrings` | 867 (0x363) | Exported Function | 0x0000000180059b50 | 0x00059b50
-`uset_removeRange` | 868 (0x364) | Exported Function | 0x0000000180059b60 | 0x00059b60
-`uset_removeString` | 869 (0x365) | Exported Function | 0x0000000180059b70 | 0x00059b70
-`uset_resemblesPattern` | 870 (0x366) | Exported Function | 0x000000018005a1b0 | 0x0005a1b0
-`uset_retain` | 871 (0x367) | Exported Function | 0x0000000180059c40 | 0x00059c40
-`uset_retainAll` | 872 (0x368) | Exported Function | 0x0000000180059c50 | 0x00059c50
-`uset_serialize` | 873 (0x369) | Exported Function | 0x0000000180059c60 | 0x00059c60
-`uset_serializedContains` | 874 (0x36a) | Exported Function | 0x0000000180059c80 | 0x00059c80
-`uset_set` | 875 (0x36b) | Exported Function | 0x0000000180059da0 | 0x00059da0
-`uset_setSerializedToOne` | 876 (0x36c) | Exported Function | 0x0000000180059db0 | 0x00059db0
-`uset_openPatternOptions` | 864 (0x360) | Exported Function | 0x000000018005a0f0 | 0x0005a0f0
-`uspoof_setAllowedChars` | 908 (0x38c) | Exported Function | 0x00000001800bb010 | 0x000bb010
-`uspoof_setAllowedLocales` | 909 (0x38d) | Exported Function | 0x00000001800bb020 | 0x000bb020
-`uspoof_setChecks` | 910 (0x38e) | Exported Function | 0x00000001800bb0e0 | 0x000bb0e0
-`utf8_nextCharSafeBody` | 942 (0x3ae) | Exported Function | 0x000000018005df70 | 0x0005df70
-`utf8_prevCharSafeBody` | 943 (0x3af) | Exported Function | 0x000000018005e190 | 0x0005e190
-`utmscale_fromInt64` | 944 (0x3b0) | Exported Function | 0x00000001800bb2c0 | 0x000bb2c0
-`utmscale_getTimeScaleValue` | 945 (0x3b1) | Exported Function | 0x00000001800bb310 | 0x000bb310
-`utmscale_toInt64` | 946 (0x3b2) | Exported Function | 0x00000001800bb350 | 0x000bb350
-`utrace_format` | 947 (0x3b3) | Exported Function | 0x000000018005e6a0 | 0x0005e6a0
-`utrace_functionName` | 948 (0x3b4) | Exported Function | 0x000000018005e6d0 | 0x0005e6d0
-`utrace_getFunctions` | 949 (0x3b5) | Exported Function | 0x000000018005e740 | 0x0005e740
-`utrace_getLevel` | 950 (0x3b6) | Exported Function | 0x000000018005e770 | 0x0005e770
-`utrace_setFunctions` | 951 (0x3b7) | Exported Function | 0x000000018005e780 | 0x0005e780
-`utrace_setLevel` | 952 (0x3b8) | Exported Function | 0x000000018005e7b0 | 0x0005e7b0
-`utrace_vformat` | 953 (0x3b9) | Exported Function | 0x000000018005e7d0 | 0x0005e7d0
-`utf8_back1SafeBody` | 941 (0x3ad) | Exported Function | 0x000000018005de50 | 0x0005de50
-`utrans_clone` | 954 (0x3ba) | Exported Function | 0x00000001800bb550 | 0x000bb550
-`utrans_countAvailableIDs` | 956 (0x3bc) | Exported Function | 0x00000001800bb5a0 | 0x000bb5a0
-`utrans_getSourceSet` | 957 (0x3bd) | Exported Function | 0x00000001800bb690 | 0x000bb690
-`utrans_getUnicodeID` | 958 (0x3be) | Exported Function | 0x00000001800bb700 | 0x000bb700
-`utrans_openIDs` | 959 (0x3bf) | Exported Function | 0x00000001800bb750 | 0x000bb750
-`utrans_openInverse` | 960 (0x3c0) | Exported Function | 0x00000001800bb7e0 | 0x000bb7e0
-`utrans_openU` | 961 (0x3c1) | Exported Function | 0x00000001800bb810 | 0x000bb810
-`utrans_register` | 962 (0x3c2) | Exported Function | 0x00000001800bb940 | 0x000bb940
-`utrans_setFilter` | 963 (0x3c3) | Exported Function | 0x00000001800bb960 | 0x000bb960
-`utrans_toRules` | 964 (0x3c4) | Exported Function | 0x00000001800bba50 | 0x000bba50
-`utrans_trans` | 965 (0x3c5) | Exported Function | 0x00000001800bbb40 | 0x000bbb40
-`utrans_transIncremental` | 966 (0x3c6) | Exported Function | 0x00000001800bbbc0 | 0x000bbbc0
-`utrans_transIncrementalUChars` | 967 (0x3c7) | Exported Function | 0x00000001800bbc30 | 0x000bbc30
-`utrans_close` | 955 (0x3bb) | Exported Function | 0x0000000180013070 | 0x00013070
-`utf8_appendCharSafeBody` | 940 (0x3ac) | Exported Function | 0x000000018005dc70 | 0x0005dc70
-`utext_setup` | 939 (0x3ab) | Exported Function | 0x000000018005cfa0 | 0x0005cfa0
-`utext_setNativeIndex` | 938 (0x3aa) | Exported Function | 0x000000018005cee0 | 0x0005cee0
-`uspoof_setRestrictionLevel` | 911 (0x38f) | Exported Function | 0x00000001800bb120 | 0x000bb120
-`usprep_close` | 912 (0x390) | Exported Function | 0x000000018005ad70 | 0x0005ad70
-`usprep_open` | 913 (0x391) | Exported Function | 0x000000018005ae80 | 0x0005ae80
-`usprep_openByType` | 914 (0x392) | Exported Function | 0x000000018005aea0 | 0x0005aea0
-`usprep_prepare` | 915 (0x393) | Exported Function | 0x000000018005aee0 | 0x0005aee0
-`utext_char32At` | 916 (0x394) | Exported Function | 0x000000018005c2c0 | 0x0005c2c0
-`utext_clone` | 917 (0x395) | Exported Function | 0x000000018005c370 | 0x0005c370
-`utext_close` | 918 (0x396) | Exported Function | 0x000000018005c3d0 | 0x0005c3d0
-`utext_copy` | 919 (0x397) | Exported Function | 0x000000018005c460 | 0x0005c460
-`utext_current32` | 920 (0x398) | Exported Function | 0x000000018005c4b0 | 0x0005c4b0
-`utext_equals` | 921 (0x399) | Exported Function | 0x000000018005c5b0 | 0x0005c5b0
-`utext_extract` | 922 (0x39a) | Exported Function | 0x000000018005c620 | 0x0005c620
-`utext_freeze` | 923 (0x39b) | Exported Function | 0x000000018005c660 | 0x0005c660
-`utext_getNativeIndex` | 924 (0x39c) | Exported Function | 0x000000018005c670 | 0x0005c670
-`utext_getPreviousNativeIndex` | 925 (0x39d) | Exported Function | 0x000000018005c6a0 | 0x0005c6a0
-`utext_hasMetaData` | 926 (0x39e) | Exported Function | 0x000000018005c760 | 0x0005c760
-`utext_isLengthExpensive` | 927 (0x39f) | Exported Function | 0x000000018005c770 | 0x0005c770
-`utext_isWritable` | 928 (0x3a0) | Exported Function | 0x000000018005c780 | 0x0005c780
-`utext_moveIndex32` | 929 (0x3a1) | Exported Function | 0x000000018005c790 | 0x0005c790
-`utext_nativeLength` | 930 (0x3a2) | Exported Function | 0x000000018005c880 | 0x0005c880
-`utext_next32` | 931 (0x3a3) | Exported Function | 0x000000018005c8a0 | 0x0005c8a0
-`utext_next32From` | 932 (0x3a4) | Exported Function | 0x000000018005c960 | 0x0005c960
-`utext_openUChars` | 933 (0x3a5) | Exported Function | 0x000000018005cb70 | 0x0005cb70
-`utext_openUTF8` | 934 (0x3a6) | Exported Function | 0x000000018005cc40 | 0x0005cc40
-`utext_previous32` | 935 (0x3a7) | Exported Function | 0x000000018005cd10 | 0x0005cd10
-`utext_previous32From` | 936 (0x3a8) | Exported Function | 0x000000018005cdd0 | 0x0005cdd0
-`utext_replace` | 937 (0x3a9) | Exported Function | 0x000000018005ce90 | 0x0005ce90
-`uset_containsString` | 850 (0x352) | Exported Function | 0x00000001800597d0 | 0x000597d0
-`uset_containsSome` | 849 (0x351) | Exported Function | 0x00000001800597b0 | 0x000597b0
-`uset_containsRange` | 848 (0x350) | Exported Function | 0x00000001800597a0 | 0x000597a0
-`uset_containsNone` | 847 (0x34f) | Exported Function | 0x0000000180059790 | 0x00059790
-`ureldatefmt_close` | 760 (0x2f8) | Exported Function | 0x0000000180013070 | 0x00013070
-`ureldatefmt_combineDateAndTime` | 761 (0x2f9) | Exported Function | 0x00000001800b71d0 | 0x000b71d0
-`ureldatefmt_format` | 762 (0x2fa) | Exported Function | 0x00000001800b7360 | 0x000b7360
-`ureldatefmt_formatNumeric` | 763 (0x2fb) | Exported Function | 0x00000001800b74a0 | 0x000b74a0
-`ureldatefmt_open` | 764 (0x2fc) | Exported Function | 0x00000001800b75e0 | 0x000b75e0
-`ures_close` | 765 (0x2fd) | Exported Function | 0x00000001800046e0 | 0x000046e0
-`ures_getBinary` | 766 (0x2fe) | Exported Function | 0x0000000180057870 | 0x00057870
-`ures_getByIndex` | 767 (0x2ff) | Exported Function | 0x00000001800578c0 | 0x000578c0
-`ures_getByKey` | 768 (0x300) | Exported Function | 0x0000000180004f40 | 0x00004f40
-`ures_getInt` | 769 (0x301) | Exported Function | 0x00000001800583d0 | 0x000583d0
-`ures_getIntVector` | 770 (0x302) | Exported Function | 0x0000000180058420 | 0x00058420
-`ures_getKey` | 771 (0x303) | Exported Function | 0x0000000180058470 | 0x00058470
-`uregion_getType` | 759 (0x2f7) | Exported Function | 0x00000001800b5450 | 0x000b5450
-`ures_getLocaleByType` | 772 (0x304) | Exported Function | 0x000000018000b1e0 | 0x0000b1e0
-`ures_getNextString` | 774 (0x306) | Exported Function | 0x0000000180058780 | 0x00058780
-`ures_getSize` | 775 (0x307) | Exported Function | 0x0000000180058890 | 0x00058890
-`ures_getString` | 776 (0x308) | Exported Function | 0x000000018000acd0 | 0x0000acd0
-`ures_getStringByIndex` | 777 (0x309) | Exported Function | 0x0000000180006130 | 0x00006130
-`ures_getStringByKey` | 778 (0x30a) | Exported Function | 0x0000000180003050 | 0x00003050
-`ures_getType` | 779 (0x30b) | Exported Function | 0x0000000180058980 | 0x00058980
-`ures_getUInt` | 780 (0x30c) | Exported Function | 0x00000001800589b0 | 0x000589b0
-`ures_getUTF8String` | 781 (0x30d) | Exported Function | 0x0000000180058a00 | 0x00058a00
-`ures_getUTF8StringByIndex` | 782 (0x30e) | Exported Function | 0x0000000180058a70 | 0x00058a70
-`ures_getUTF8StringByKey` | 783 (0x30f) | Exported Function | 0x0000000180058ac0 | 0x00058ac0
-`ures_getVersion` | 784 (0x310) | Exported Function | 0x0000000180058b10 | 0x00058b10
-`ures_hasNext` | 785 (0x311) | Exported Function | 0x0000000180058bf0 | 0x00058bf0
-`ures_getNextResource` | 773 (0x305) | Exported Function | 0x000000018000ad30 | 0x0000ad30
-`uregion_getRegionFromNumericCode` | 758 (0x2f6) | Exported Function | 0x00000001800b5440 | 0x000b5440
-`uregion_getRegionFromCode` | 757 (0x2f5) | Exported Function | 0x00000001800b5430 | 0x000b5430
-`uregion_getRegionCode` | 756 (0x2f4) | Exported Function | 0x0000000180008130 | 0x00008130
-`uregex_requireEnd` | 729 (0x2d9) | Exported Function | 0x00000001800b4d20 | 0x000b4d20
-`uregex_reset` | 730 (0x2da) | Exported Function | 0x00000001800b4d50 | 0x000b4d50
-`uregex_reset64` | 731 (0x2db) | Exported Function | 0x00000001800b4d60 | 0x000b4d60
-`uregex_setFindProgressCallback` | 732 (0x2dc) | Exported Function | 0x00000001800b4d90 | 0x000b4d90
-`uregex_setMatchCallback` | 733 (0x2dd) | Exported Function | 0x00000001800b4dd0 | 0x000b4dd0
-`uregex_setRegion` | 734 (0x2de) | Exported Function | 0x00000001800b4e10 | 0x000b4e10
-`uregex_setRegion64` | 735 (0x2df) | Exported Function | 0x00000001800b4e30 | 0x000b4e30
-`uregex_setRegionAndStart` | 736 (0x2e0) | Exported Function | 0x00000001800b4e70 | 0x000b4e70
-`uregex_setStackLimit` | 737 (0x2e1) | Exported Function | 0x00000001800b4eb0 | 0x000b4eb0
-`uregex_setText` | 738 (0x2e2) | Exported Function | 0x00000001800b4ee0 | 0x000b4ee0
-`uregex_setTimeLimit` | 739 (0x2e3) | Exported Function | 0x00000001800b5000 | 0x000b5000
-`uregex_setUText` | 740 (0x2e4) | Exported Function | 0x00000001800b5030 | 0x000b5030
-`uregex_split` | 741 (0x2e5) | Exported Function | 0x00000001800b50a0 | 0x000b50a0
-`uregex_splitUText` | 742 (0x2e6) | Exported Function | 0x00000001800b5120 | 0x000b5120
-`uregex_start` | 743 (0x2e7) | Exported Function | 0x00000001800b5150 | 0x000b5150
-`uregex_start64` | 744 (0x2e8) | Exported Function | 0x00000001800b5160 | 0x000b5160
-`uregex_useAnchoringBounds` | 745 (0x2e9) | Exported Function | 0x00000001800b5190 | 0x000b5190
-`uregex_useTransparentBounds` | 746 (0x2ea) | Exported Function | 0x00000001800b51c0 | 0x000b51c0
-`uregion_areEqual` | 747 (0x2eb) | Exported Function | 0x0000000180062350 | 0x00062350
-`uregion_contains` | 748 (0x2ec) | Exported Function | 0x00000001800b52b0 | 0x000b52b0
-`uregion_getAvailable` | 749 (0x2ed) | Exported Function | 0x00000001800b52c0 | 0x000b52c0
-`uregion_getContainedRegions` | 750 (0x2ee) | Exported Function | 0x00000001800b5340 | 0x000b5340
-`uregion_getContainedRegionsOfType` | 751 (0x2ef) | Exported Function | 0x00000001800b5370 | 0x000b5370
-`uregion_getContainingRegion` | 752 (0x2f0) | Exported Function | 0x00000001800b53a0 | 0x000b53a0
-`uregion_getContainingRegionOfType` | 753 (0x2f1) | Exported Function | 0x00000001800b53e0 | 0x000b53e0
-`uregion_getNumericCode` | 754 (0x2f2) | Exported Function | 0x00000001800b53f0 | 0x000b53f0
-`uregion_getPreferredValues` | 755 (0x2f3) | Exported Function | 0x00000001800b5400 | 0x000b5400
-`ures_open` | 786 (0x312) | Exported Function | 0x0000000180027ef0 | 0x00027ef0
-`uenum_count` | 486 (0x1e6) | Exported Function | 0x00000001800026b0 | 0x000026b0
-`ures_openAvailableLocales` | 787 (0x313) | Exported Function | 0x0000000180058cd0 | 0x00058cd0
-`ures_openU` | 789 (0x315) | Exported Function | 0x0000000180058e80 | 0x00058e80
-`usearch_setAttribute` | 821 (0x335) | Exported Function | 0x00000001800b9cd0 | 0x000b9cd0
-`usearch_setBreakIterator` | 822 (0x336) | Exported Function | 0x00000001800b9d40 | 0x000b9d40
-`usearch_setCollator` | 823 (0x337) | Exported Function | 0x00000001800b9d80 | 0x000b9d80
-`usearch_setOffset` | 824 (0x338) | Exported Function | 0x00000001800b9f30 | 0x000b9f30
-`usearch_setPattern` | 825 (0x339) | Exported Function | 0x00000001800b9fa0 | 0x000b9fa0
-`usearch_setText` | 826 (0x33a) | Exported Function | 0x00000001800b9ff0 | 0x000b9ff0
-`uset_add` | 827 (0x33b) | Exported Function | 0x0000000180059570 | 0x00059570
-`uset_addAll` | 828 (0x33c) | Exported Function | 0x0000000180059580 | 0x00059580
-`uset_addAllCodePoints` | 829 (0x33d) | Exported Function | 0x0000000180059590 | 0x00059590
-`uset_addRange` | 830 (0x33e) | Exported Function | 0x00000001800595f0 | 0x000595f0
-`uset_addString` | 831 (0x33f) | Exported Function | 0x0000000180059600 | 0x00059600
-`uset_applyIntPropertyValue` | 832 (0x340) | Exported Function | 0x0000000180059eb0 | 0x00059eb0
-`usearch_reset` | 820 (0x334) | Exported Function | 0x00000001800b9350 | 0x000b9350
-`uset_applyPattern` | 833 (0x341) | Exported Function | 0x0000000180059ec0 | 0x00059ec0
-`uset_charAt` | 835 (0x343) | Exported Function | 0x0000000180059670 | 0x00059670
-`uset_clear` | 836 (0x344) | Exported Function | 0x0000000180059680 | 0x00059680
-`uset_clone` | 837 (0x345) | Exported Function | 0x0000000180059690 | 0x00059690
-`uset_cloneAsThawed` | 838 (0x346) | Exported Function | 0x00000001800596a0 | 0x000596a0
-`uset_close` | 839 (0x347) | Exported Function | 0x00000001800596b0 | 0x000596b0
-`uset_closeOver` | 840 (0x348) | Exported Function | 0x000000018005a030 | 0x0005a030
-`uset_compact` | 841 (0x349) | Exported Function | 0x00000001800596d0 | 0x000596d0
-`uset_complement` | 842 (0x34a) | Exported Function | 0x00000001800596e0 | 0x000596e0
-`uset_complementAll` | 843 (0x34b) | Exported Function | 0x00000001800596f0 | 0x000596f0
-`uset_contains` | 844 (0x34c) | Exported Function | 0x0000000180059700 | 0x00059700
-`uset_containsAll` | 845 (0x34d) | Exported Function | 0x0000000180059710 | 0x00059710
-`uset_containsAllCodePoints` | 846 (0x34e) | Exported Function | 0x0000000180059720 | 0x00059720
-`uset_applyPropertyAlias` | 834 (0x342) | Exported Function | 0x0000000180059f90 | 0x00059f90
-`usearch_previous` | 819 (0x333) | Exported Function | 0x00000001800b91e0 | 0x000b91e0
-`usearch_preceding` | 818 (0x332) | Exported Function | 0x00000001800b9190 | 0x000b9190
-`usearch_openFromCollator` | 817 (0x331) | Exported Function | 0x00000001800b8eb0 | 0x000b8eb0
-`ures_resetIterator` | 790 (0x316) | Exported Function | 0x0000000180058e60 | 0x00058e60
-`uscript_breaksBetweenLetters` | 791 (0x317) | Exported Function | 0x0000000180058fc0 | 0x00058fc0
-`uscript_getCode` | 792 (0x318) | Exported Function | 0x0000000180059320 | 0x00059320
-`uscript_getName` | 793 (0x319) | Exported Function | 0x0000000180032430 | 0x00032430
-`uscript_getSampleString` | 794 (0x31a) | Exported Function | 0x0000000180058fe0 | 0x00058fe0
-`uscript_getScript` | 795 (0x31b) | Exported Function | 0x0000000180029ba0 | 0x00029ba0
-`uscript_getScriptExtensions` | 796 (0x31c) | Exported Function | 0x0000000180029c10 | 0x00029c10
-`uscript_getShortName` | 797 (0x31d) | Exported Function | 0x0000000180032490 | 0x00032490
-`uscript_getUsage` | 798 (0x31e) | Exported Function | 0x0000000180059080 | 0x00059080
-`uscript_hasScript` | 799 (0x31f) | Exported Function | 0x0000000180029cf0 | 0x00029cf0
-`uscript_isCased` | 800 (0x320) | Exported Function | 0x00000001800590a0 | 0x000590a0
-`uscript_isRightToLeft` | 801 (0x321) | Exported Function | 0x00000001800590c0 | 0x000590c0
-`usearch_close` | 802 (0x322) | Exported Function | 0x00000001800b86d0 | 0x000b86d0
-`usearch_first` | 803 (0x323) | Exported Function | 0x00000001800b87a0 | 0x000b87a0
-`usearch_following` | 804 (0x324) | Exported Function | 0x00000001800b8800 | 0x000b8800
-`usearch_getAttribute` | 805 (0x325) | Exported Function | 0x00000001800b8850 | 0x000b8850
-`usearch_getBreakIterator` | 806 (0x326) | Exported Function | 0x00000001800b88b0 | 0x000b88b0
-`usearch_getCollator` | 807 (0x327) | Exported Function | 0x00000001800b88d0 | 0x000b88d0
-`usearch_getMatchedLength` | 808 (0x328) | Exported Function | 0x00000001800b88f0 | 0x000b88f0
-`usearch_getMatchedStart` | 809 (0x329) | Exported Function | 0x00000001800b8910 | 0x000b8910
-`usearch_getMatchedText` | 810 (0x32a) | Exported Function | 0x00000001800b8930 | 0x000b8930
-`usearch_getOffset` | 811 (0x32b) | Exported Function | 0x00000001800b89f0 | 0x000b89f0
-`usearch_getPattern` | 812 (0x32c) | Exported Function | 0x00000001800b8a30 | 0x000b8a30
-`usearch_getText` | 813 (0x32d) | Exported Function | 0x00000001800b8a50 | 0x000b8a50
-`usearch_last` | 814 (0x32e) | Exported Function | 0x00000001800b8c10 | 0x000b8c10
-`usearch_next` | 815 (0x32f) | Exported Function | 0x00000001800b8c70 | 0x000b8c70
-`usearch_open` | 816 (0x330) | Exported Function | 0x00000001800b8df0 | 0x000b8df0
-`ures_openDirect` | 788 (0x314) | Exported Function | 0x0000000180058e30 | 0x00058e30
-`utrans_transUChars` | 968 (0x3c8) | Exported Function | 0x00000001800bbd30 | 0x000bbd30
-`uenum_close` | 485 (0x1e5) | Exported Function | 0x00000001800026f0 | 0x000026f0
-`udtitvfmt_format` | 483 (0x1e3) | Exported Function | 0x00000001800ae600 | 0x000ae600
-`ubidi_getLogicalRun` | 161 (0xa1) | Exported Function | 0x000000018003c310 | 0x0003c310
-`ubidi_getParagraph` | 163 (0xa3) | Exported Function | 0x000000018003ada0 | 0x0003ada0
-`ubidi_getParagraphByIndex` | 164 (0xa4) | Exported Function | 0x000000018003ae30 | 0x0003ae30
-`ubidi_getParaLevel` | 162 (0xa2) | Exported Function | 0x000000018003ad20 | 0x0003ad20
-`ubidi_getProcessedLength` | 165 (0xa5) | Exported Function | 0x000000018003af00 | 0x0003af00
-`ubidi_getReorderingMode` | 166 (0xa6) | Exported Function | 0x000000018003af30 | 0x0003af30
-`ubidi_getReorderingOptions` | 167 (0xa7) | Exported Function | 0x000000018003af50 | 0x0003af50
-`ubidi_getResultLength` | 168 (0xa8) | Exported Function | 0x000000018003af70 | 0x0003af70
-`ubidi_getText` | 169 (0xa9) | Exported Function | 0x000000018003afa0 | 0x0003afa0
-`ubidi_getVisualIndex` | 170 (0xaa) | Exported Function | 0x000000018003c730 | 0x0003c730
-`ubidi_getVisualMap` | 171 (0xab) | Exported Function | 0x000000018003c9b0 | 0x0003c9b0
-`ubidi_getVisualRun` | 172 (0xac) | Exported Function | 0x000000018003cc90 | 0x0003cc90
-`ubidi_getLogicalMap` | 160 (0xa0) | Exported Function | 0x000000018003c0c0 | 0x0003c0c0
-`ubidi_invertMap` | 173 (0xad) | Exported Function | 0x000000018003cd50 | 0x0003cd50
-`ubidi_isOrderParagraphsLTR` | 175 (0xaf) | Exported Function | 0x000000018003aff0 | 0x0003aff0
-`ubidi_open` | 176 (0xb0) | Exported Function | 0x000000018003b010 | 0x0003b010
-`ubidi_openSized` | 177 (0xb1) | Exported Function | 0x000000018003b040 | 0x0003b040
-`ubidi_orderParagraphsLTR` | 178 (0xb2) | Exported Function | 0x000000018003b160 | 0x0003b160
-`ubidi_reorderLogical` | 179 (0xb3) | Exported Function | 0x000000018003ce00 | 0x0003ce00
-`ubidi_reorderVisual` | 180 (0xb4) | Exported Function | 0x000000018003ced0 | 0x0003ced0
-`ubidi_setClassCallback` | 181 (0xb5) | Exported Function | 0x000000018003b180 | 0x0003b180
-`ubidi_setContext` | 182 (0xb6) | Exported Function | 0x000000018003b1e0 | 0x0003b1e0
-`ubidi_setInverse` | 183 (0xb7) | Exported Function | 0x000000018003b290 | 0x0003b290
-`ubidi_setLine` | 184 (0xb8) | Exported Function | 0x000000018003cfc0 | 0x0003cfc0
-`ubidi_setPara` | 185 (0xb9) | Exported Function | 0x000000018003b2b0 | 0x0003b2b0
-`ubidi_setReorderingMode` | 186 (0xba) | Exported Function | 0x000000018003b930 | 0x0003b930
-`ubidi_isInverse` | 174 (0xae) | Exported Function | 0x000000018003afd0 | 0x0003afd0
-`ubidi_setReorderingOptions` | 187 (0xbb) | Exported Function | 0x000000018003b960 | 0x0003b960
-`ubidi_getLogicalIndex` | 159 (0x9f) | Exported Function | 0x000000018003be20 | 0x0003be20
-`ubidi_getLevelAt` | 157 (0x9d) | Exported Function | 0x000000018003bcb0 | 0x0003bcb0
-`u_strToUTF8` | 110 (0x6e) | Exported Function | 0x0000000180037720 | 0x00037720
-`u_strToUTF8WithSub` | 111 (0x6f) | Exported Function | 0x00000001800036a0 | 0x000036a0
-`u_strToWCS` | 113 (0x71) | Exported Function | 0x0000000180037760 | 0x00037760
-`u_tolower` | 135 (0x87) | Exported Function | 0x000000018002e3f0 | 0x0002e3f0
-`u_totitle` | 136 (0x88) | Exported Function | 0x000000018002e400 | 0x0002e400
-`u_toupper` | 137 (0x89) | Exported Function | 0x000000018002e410 | 0x0002e410
-`u_uastrcpy` | 138 (0x8a) | Exported Function | 0x0000000180027c70 | 0x00027c70
-`u_uastrncpy` | 139 (0x8b) | Exported Function | 0x0000000180027d10 | 0x00027d10
-`u_UCharsToChars` | 9 (0x9) | Exported Function | 0x0000000180003860 | 0x00003860
-`u_unescape` | 140 (0x8c) | Exported Function | 0x000000018002d680 | 0x0002d680
-`u_unescapeAt` | 141 (0x8d) | Exported Function | 0x000000018002d810 | 0x0002d810
-`u_versionFromString` | 142 (0x8e) | Exported Function | 0x0000000180012940 | 0x00012940
-`ubidi_getLevels` | 158 (0x9e) | Exported Function | 0x000000018003bd20 | 0x0003bd20
-`u_versionFromUString` | 143 (0x8f) | Exported Function | 0x00000001800128a0 | 0x000128a0
-`u_vformatMessage` | 145 (0x91) | Exported Function | 0x00000001800a4f20 | 0x000a4f20
-`u_vformatMessageWithError` | 146 (0x92) | Exported Function | 0x00000001800a4fa0 | 0x000a4fa0
-`u_vparseMessage` | 147 (0x93) | Exported Function | 0x00000001800a5020 | 0x000a5020
-`u_vparseMessageWithError` | 148 (0x94) | Exported Function | 0x00000001800a50a0 | 0x000a50a0
-`ubidi_close` | 149 (0x95) | Exported Function | 0x000000018003aa60 | 0x0003aa60
-`ubidi_countParagraphs` | 150 (0x96) | Exported Function | 0x000000018003aaf0 | 0x0003aaf0
-`ubidi_countRuns` | 151 (0x97) | Exported Function | 0x000000018003bc50 | 0x0003bc50
-`ubidi_getBaseDirection` | 152 (0x98) | Exported Function | 0x000000018003ab20 | 0x0003ab20
-`ubidi_getClassCallback` | 153 (0x99) | Exported Function | 0x000000018003abd0 | 0x0003abd0
-`ubidi_getCustomizedClass` | 154 (0x9a) | Exported Function | 0x000000018003ac00 | 0x0003ac00
-`ubidi_getDirection` | 155 (0x9b) | Exported Function | 0x000000018003ac50 | 0x0003ac50
-`ubidi_getLength` | 156 (0x9c) | Exported Function | 0x000000018003ac80 | 0x0003ac80
-`u_versionToString` | 144 (0x90) | Exported Function | 0x0000000180032670 | 0x00032670
-`ubidi_writeReordered` | 188 (0xbc) | Exported Function | 0x000000018003d9a0 | 0x0003d9a0
-`ubidi_writeReverse` | 189 (0xbd) | Exported Function | 0x000000018003df70 | 0x0003df70
-`ubiditransform_close` | 190 (0xbe) | Exported Function | 0x000000018003e4b0 | 0x0003e4b0
-`ucal_equivalentTo` | 222 (0xde) | Exported Function | 0x00000001800130f0 | 0x000130f0
-`ucal_get` | 223 (0xdf) | Exported Function | 0x00000001800a5e10 | 0x000a5e10
-`ucal_getAttribute` | 224 (0xe0) | Exported Function | 0x00000001800a5e30 | 0x000a5e30
-`ucal_getAvailable` | 225 (0xe1) | Exported Function | 0x000000018003e800 | 0x0003e800
-`ucal_getCanonicalTimeZoneID` | 226 (0xe2) | Exported Function | 0x00000001800a5e80 | 0x000a5e80
-`ucal_getDayOfWeekType` | 228 (0xe4) | Exported Function | 0x00000001800a60e0 | 0x000a60e0
-`ucal_getDefaultTimeZone` | 229 (0xe5) | Exported Function | 0x00000001800a6110 | 0x000a6110
-`ucal_getDSTSavings` | 227 (0xe3) | Exported Function | 0x00000001800a5fb0 | 0x000a5fb0
-`ucal_getFieldDifference` | 230 (0xe6) | Exported Function | 0x00000001800a61e0 | 0x000a61e0
-`ucal_getGregorianChange` | 231 (0xe7) | Exported Function | 0x00000001800a6210 | 0x000a6210
-`ucal_getKeywordValuesForLocale` | 232 (0xe8) | Exported Function | 0x00000001800a62b0 | 0x000a62b0
-`ucal_getLimit` | 233 (0xe9) | Exported Function | 0x00000001800a6510 | 0x000a6510
-`ucal_countAvailable` | 221 (0xdd) | Exported Function | 0x000000018003e7d0 | 0x0003e7d0
-`ucal_getLocaleByType` | 234 (0xea) | Exported Function | 0x00000001800a65a0 | 0x000a65a0
-`ucal_getNow` | 236 (0xec) | Exported Function | 0x00000001800a6610 | 0x000a6610
-`ucal_getTimeZoneDisplayName` | 238 (0xee) | Exported Function | 0x00000001800a66a0 | 0x000a66a0
-`ucal_getTimeZoneID` | 239 (0xef) | Exported Function | 0x00000001800a6830 | 0x000a6830
-`ucal_getTimeZoneIDForWindowsID` | 240 (0xf0) | Exported Function | 0x0000000180003920 | 0x00003920
-`ucal_getTimeZoneTransitionDate` | 241 (0xf1) | Exported Function | 0x00000001800a68e0 | 0x000a68e0
-`ucal_getType` | 242 (0xf2) | Exported Function | 0x00000001800a69e0 | 0x000a69e0
-`ucal_getTZDataVersion` | 237 (0xed) | Exported Function | 0x00000001800a6670 | 0x000a6670
-`ucal_getWeekendTransition` | 243 (0xf3) | Exported Function | 0x00000001800a6a00 | 0x000a6a00
-`ucal_getWindowsTimeZoneID` | 244 (0xf4) | Exported Function | 0x00000001800a6a30 | 0x000a6a30
-`ucal_inDaylightTime` | 245 (0xf5) | Exported Function | 0x00000001800a6b30 | 0x000a6b30
-`ucal_isSet` | 246 (0xf6) | Exported Function | 0x00000001800a6b50 | 0x000a6b50
-`ucal_isWeekend` | 247 (0xf7) | Exported Function | 0x00000001800a6b60 | 0x000a6b60
-`ucal_getMillis` | 235 (0xeb) | Exported Function | 0x00000001800a65f0 | 0x000a65f0
-`ucal_close` | 220 (0xdc) | Exported Function | 0x0000000180013070 | 0x00013070
-`ucal_clone` | 219 (0xdb) | Exported Function | 0x00000001800a5dd0 | 0x000a5dd0
-`ucal_clearField` | 218 (0xda) | Exported Function | 0x00000001800a5dc0 | 0x000a5dc0
-`ubiditransform_open` | 191 (0xbf) | Exported Function | 0x000000018003e4f0 | 0x0003e4f0
-`ubiditransform_transform` | 192 (0xc0) | Exported Function | 0x000000018003e520 | 0x0003e520
-`ublock_getCode` | 193 (0xc1) | Exported Function | 0x0000000180029830 | 0x00029830
-`ubrk_close` | 194 (0xc2) | Exported Function | 0x0000000180013070 | 0x00013070
-`ubrk_countAvailable` | 195 (0xc3) | Exported Function | 0x000000018003e7d0 | 0x0003e7d0
-`ubrk_current` | 196 (0xc4) | Exported Function | 0x0000000180030ce0 | 0x00030ce0
-`ubrk_first` | 197 (0xc5) | Exported Function | 0x0000000180030ae0 | 0x00030ae0
-`ubrk_following` | 198 (0xc6) | Exported Function | 0x0000000180030cc0 | 0x00030cc0
-`ubrk_getAvailable` | 199 (0xc7) | Exported Function | 0x000000018003e800 | 0x0003e800
-`ubrk_getBinaryRules` | 200 (0xc8) | Exported Function | 0x000000018003e810 | 0x0003e810
-`ubrk_getLocaleByType` | 201 (0xc9) | Exported Function | 0x000000018003e8e0 | 0x0003e8e0
-`ubrk_getRuleStatus` | 202 (0xca) | Exported Function | 0x000000018003e930 | 0x0003e930
-`ubrk_getRuleStatusVec` | 203 (0xcb) | Exported Function | 0x000000018003e950 | 0x0003e950
-`ubrk_isBoundary` | 204 (0xcc) | Exported Function | 0x000000018003e970 | 0x0003e970
-`ubrk_last` | 205 (0xcd) | Exported Function | 0x000000018003e990 | 0x0003e990
-`ubrk_next` | 206 (0xce) | Exported Function | 0x000000018003e9b0 | 0x0003e9b0
-`ubrk_open` | 207 (0xcf) | Exported Function | 0x000000018003e9d0 | 0x0003e9d0
-`ubrk_openBinaryRules` | 208 (0xd0) | Exported Function | 0x000000018003eba0 | 0x0003eba0
-`ubrk_openRules` | 209 (0xd1) | Exported Function | 0x000000018003ec70 | 0x0003ec70
-`ubrk_preceding` | 210 (0xd2) | Exported Function | 0x0000000180030d00 | 0x00030d00
-`ubrk_previous` | 211 (0xd3) | Exported Function | 0x000000018003ed20 | 0x0003ed20
-`ubrk_refreshUText` | 212 (0xd4) | Exported Function | 0x000000018003ed40 | 0x0003ed40
-`ubrk_safeClone` | 213 (0xd5) | Exported Function | 0x000000018003ed60 | 0x0003ed60
-`ubrk_setText` | 214 (0xd6) | Exported Function | 0x000000018003edd0 | 0x0003edd0
-`ubrk_setUText` | 215 (0xd7) | Exported Function | 0x000000018003ee80 | 0x0003ee80
-`ucal_add` | 216 (0xd8) | Exported Function | 0x00000001800a5d80 | 0x000a5d80
-`ucal_clear` | 217 (0xd9) | Exported Function | 0x00000001800a5db0 | 0x000a5db0
-`u_strToUTF32WithSub` | 109 (0x6d) | Exported Function | 0x0000000180037530 | 0x00037530
-`ucal_open` | 248 (0xf8) | Exported Function | 0x00000001800a6b90 | 0x000a6b90
-`u_strToUTF32` | 108 (0x6c) | Exported Function | 0x00000001800374f0 | 0x000374f0
-`u_strToTitle` | 107 (0x6b) | Exported Function | 0x0000000180037a70 | 0x00037a70
-`u_getPropertyEnum` | 41 (0x29) | Exported Function | 0x00000001800322c0 | 0x000322c0
-`u_getPropertyName` | 42 (0x2a) | Exported Function | 0x00000001800322d0 | 0x000322d0
-`u_getPropertyValueEnum` | 43 (0x2b) | Exported Function | 0x0000000180032310 | 0x00032310
-`u_getPropertyValueName` | 44 (0x2c) | Exported Function | 0x0000000180032360 | 0x00032360
-`u_getUnicodeVersion` | 45 (0x2d) | Exported Function | 0x00000001800284f0 | 0x000284f0
-`u_getVersion` | 46 (0x2e) | Exported Function | 0x0000000180032650 | 0x00032650
-`u_hasBinaryProperty` | 47 (0x2f) | Exported Function | 0x00000001800010f0 | 0x000010f0
-`u_init` | 48 (0x30) | Exported Function | 0x0000000180032890 | 0x00032890
-`u_isalnum` | 62 (0x3e) | Exported Function | 0x0000000180028b40 | 0x00028b40
-`u_isalpha` | 63 (0x3f) | Exported Function | 0x0000000180028c00 | 0x00028c00
-`u_isbase` | 64 (0x40) | Exported Function | 0x0000000180028cc0 | 0x00028cc0
-`u_isblank` | 65 (0x41) | Exported Function | 0x0000000180028d80 | 0x00028d80
-`u_getNumericValue` | 40 (0x28) | Exported Function | 0x00000001800282c0 | 0x000282c0
-`u_iscntrl` | 66 (0x42) | Exported Function | 0x0000000180028e40 | 0x00028e40
-`u_isdigit` | 68 (0x44) | Exported Function | 0x0000000180028fb0 | 0x00028fb0
-`u_isgraph` | 69 (0x45) | Exported Function | 0x0000000180029070 | 0x00029070
-`u_isIDIgnorable` | 49 (0x31) | Exported Function | 0x0000000180028510 | 0x00028510
-`u_isIDPart` | 50 (0x32) | Exported Function | 0x00000001800285f0 | 0x000285f0
-`u_isIDStart` | 51 (0x33) | Exported Function | 0x00000001800286d0 | 0x000286d0
-`u_isISOControl` | 52 (0x34) | Exported Function | 0x0000000180028790 | 0x00028790
-`u_isJavaIDPart` | 53 (0x35) | Exported Function | 0x00000001800287b0 | 0x000287b0
-`u_isJavaIDStart` | 54 (0x36) | Exported Function | 0x0000000180028890 | 0x00028890
-`u_isJavaSpaceChar` | 55 (0x37) | Exported Function | 0x0000000180028950 | 0x00028950
-`u_islower` | 70 (0x46) | Exported Function | 0x00000001800291f0 | 0x000291f0
-`u_isMirrored` | 56 (0x38) | Exported Function | 0x0000000180029df0 | 0x00029df0
-`u_isprint` | 71 (0x47) | Exported Function | 0x00000001800292b0 | 0x000292b0
-`u_isdefined` | 67 (0x43) | Exported Function | 0x0000000180028f00 | 0x00028f00
-`u_ispunct` | 72 (0x48) | Exported Function | 0x0000000180029440 | 0x00029440
-`u_getIntPropertyValue` | 39 (0x27) | Exported Function | 0x0000000180031db0 | 0x00031db0
-`u_getIntPropertyMaxValue` | 37 (0x25) | Exported Function | 0x0000000180031d60 | 0x00031d60
-`u_austrncpy` | 11 (0xb) | Exported Function | 0x0000000180027a20 | 0x00027a20
-`u_catclose` | 12 (0xc) | Exported Function | 0x00000001800046e0 | 0x000046e0
-`u_catgets` | 13 (0xd) | Exported Function | 0x0000000180027e20 | 0x00027e20
-`u_catopen` | 14 (0xe) | Exported Function | 0x0000000180027ef0 | 0x00027ef0
-`u_charAge` | 15 (0xf) | Exported Function | 0x0000000180027f60 | 0x00027f60
-`u_charDigitValue` | 16 (0x10) | Exported Function | 0x0000000180027fa0 | 0x00027fa0
-`u_charDirection` | 17 (0x11) | Exported Function | 0x0000000180029dc0 | 0x00029dc0
-`u_charFromName` | 18 (0x12) | Exported Function | 0x000000018002c030 | 0x0002c030
-`u_charMirror` | 19 (0x13) | Exported Function | 0x0000000180029dd0 | 0x00029dd0
-`u_charName` | 20 (0x14) | Exported Function | 0x000000018002c2e0 | 0x0002c2e0
-`u_charsToUChars` | 22 (0x16) | Exported Function | 0x0000000180027650 | 0x00027650
-`u_charType` | 21 (0x15) | Exported Function | 0x0000000180028060 | 0x00028060
-`u_getIntPropertyMinValue` | 38 (0x26) | Exported Function | 0x0000000180008070 | 0x00008070
-`u_cleanup` | 23 (0x17) | Exported Function | 0x0000000180013130 | 0x00013130
-`u_digit` | 25 (0x19) | Exported Function | 0x0000000180028110 | 0x00028110
-`u_enumCharNames` | 26 (0x1a) | Exported Function | 0x000000018002c420 | 0x0002c420
-`u_enumCharTypes` | 27 (0x1b) | Exported Function | 0x0000000180028190 | 0x00028190
-`u_errorName` | 28 (0x1c) | Exported Function | 0x000000018002dd60 | 0x0002dd60
-`u_foldCase` | 29 (0x1d) | Exported Function | 0x000000018002e3a0 | 0x0002e3a0
-`u_forDigit` | 30 (0x1e) | Exported Function | 0x00000001800281e0 | 0x000281e0
-`u_formatMessage` | 31 (0x1f) | Exported Function | 0x00000001800a4e40 | 0x000a4e40
-`u_formatMessageWithError` | 32 (0x20) | Exported Function | 0x00000001800a4e70 | 0x000a4e70
-`u_getBidiPairedBracket` | 33 (0x21) | Exported Function | 0x0000000180029de0 | 0x00029de0
-`u_getCombiningClass` | 34 (0x22) | Exported Function | 0x0000000180030a30 | 0x00030a30
-`u_getDataVersion` | 35 (0x23) | Exported Function | 0x0000000180031130 | 0x00031130
-`u_getFC_NFKC_Closure` | 36 (0x24) | Exported Function | 0x0000000180031b70 | 0x00031b70
-`u_countChar32` | 24 (0x18) | Exported Function | 0x000000018002c870 | 0x0002c870
-`u_isspace` | 73 (0x49) | Exported Function | 0x0000000180029500 | 0x00029500
-`u_istitle` | 74 (0x4a) | Exported Function | 0x00000001800295e0 | 0x000295e0
-`u_isUAlphabetic` | 57 (0x39) | Exported Function | 0x0000000180028a10 | 0x00028a10
-`u_strFindFirst` | 94 (0x5e) | Exported Function | 0x000000018002cdb0 | 0x0002cdb0
-`u_strFindLast` | 95 (0x5f) | Exported Function | 0x000000018002cff0 | 0x0002cff0
-`u_strFoldCase` | 96 (0x60) | Exported Function | 0x0000000180033de0 | 0x00033de0
-`u_strFromJavaModifiedUTF8WithSub` | 97 (0x61) | Exported Function | 0x0000000180036610 | 0x00036610
-`u_strFromUTF32` | 98 (0x62) | Exported Function | 0x0000000180036b40 | 0x00036b40
-`u_strFromUTF32WithSub` | 99 (0x63) | Exported Function | 0x0000000180036b80 | 0x00036b80
-`u_strFromUTF8` | 100 (0x64) | Exported Function | 0x0000000180036d90 | 0x00036d90
-`u_strFromUTF8Lenient` | 101 (0x65) | Exported Function | 0x0000000180036dd0 | 0x00036dd0
-`u_strFromUTF8WithSub` | 102 (0x66) | Exported Function | 0x0000000180007650 | 0x00007650
-`u_strFromWCS` | 103 (0x67) | Exported Function | 0x0000000180037760 | 0x00037760
-`u_strHasMoreChar32Than` | 104 (0x68) | Exported Function | 0x000000018002d140 | 0x0002d140
-`u_strlen` | 122 (0x7a) | Exported Function | 0x00000001800031a0 | 0x000031a0
-`u_strcspn` | 121 (0x79) | Exported Function | 0x000000018002d360 | 0x0002d360
-`u_strncasecmp` | 123 (0x7b) | Exported Function | 0x0000000180033e80 | 0x00033e80
-`u_strncmp` | 125 (0x7d) | Exported Function | 0x000000018002d3d0 | 0x0002d3d0
-`u_strncmpCodePointOrder` | 126 (0x7e) | Exported Function | 0x000000018002d430 | 0x0002d430
-`u_strncpy` | 127 (0x7f) | Exported Function | 0x000000018002d460 | 0x0002d460
-`u_strpbrk` | 128 (0x80) | Exported Function | 0x000000018002d490 | 0x0002d490
-`u_strrchr` | 129 (0x81) | Exported Function | 0x000000018002d4c0 | 0x0002d4c0
-`u_strrchr32` | 130 (0x82) | Exported Function | 0x000000018002d510 | 0x0002d510
-`u_strrstr` | 131 (0x83) | Exported Function | 0x000000018002d580 | 0x0002d580
-`u_strspn` | 132 (0x84) | Exported Function | 0x000000018002d5a0 | 0x0002d5a0
-`u_strstr` | 133 (0x85) | Exported Function | 0x000000018002d5c0 | 0x0002d5c0
-`u_strToJavaModifiedUTF8` | 105 (0x69) | Exported Function | 0x0000000180037210 | 0x00037210
-`u_strtok_r` | 134 (0x86) | Exported Function | 0x000000018002d5e0 | 0x0002d5e0
-`u_strToLower` | 106 (0x6a) | Exported Function | 0x0000000180001c20 | 0x00001c20
-`u_strncat` | 124 (0x7c) | Exported Function | 0x000000018002d380 | 0x0002d380
-`u_strcpy` | 120 (0x78) | Exported Function | 0x000000018002d330 | 0x0002d330
-`u_strCompareIter` | 93 (0x5d) | Exported Function | 0x000000018002cc30 | 0x0002cc30
-`u_strCompare` | 92 (0x5c) | Exported Function | 0x000000018002cbf0 | 0x0002cbf0
-`u_isULowercase` | 58 (0x3a) | Exported Function | 0x000000018002e3b0 | 0x0002e3b0
-`u_isupper` | 75 (0x4b) | Exported Function | 0x00000001800296a0 | 0x000296a0
-`u_isUUppercase` | 59 (0x3b) | Exported Function | 0x000000018002e3d0 | 0x0002e3d0
-`u_isUWhiteSpace` | 60 (0x3c) | Exported Function | 0x0000000180028a30 | 0x00028a30
-`u_isWhitespace` | 61 (0x3d) | Exported Function | 0x0000000180028a50 | 0x00028a50
-`u_isxdigit` | 76 (0x4c) | Exported Function | 0x0000000180029760 | 0x00029760
-`u_memcasecmp` | 77 (0x4d) | Exported Function | 0x0000000180033d20 | 0x00033d20
-`u_memchr` | 78 (0x4e) | Exported Function | 0x000000018002c930 | 0x0002c930
-`u_memchr32` | 79 (0x4f) | Exported Function | 0x000000018002c990 | 0x0002c990
-`u_memcmp` | 80 (0x50) | Exported Function | 0x000000018002ca00 | 0x0002ca00
-`u_memcmpCodePointOrder` | 81 (0x51) | Exported Function | 0x000000018002ca40 | 0x0002ca40
-`u_memcpy` | 82 (0x52) | Exported Function | 0x000000018002ca70 | 0x0002ca70
-`u_memmove` | 83 (0x53) | Exported Function | 0x000000018002caa0 | 0x0002caa0
-`u_memrchr` | 84 (0x54) | Exported Function | 0x000000018002cad0 | 0x0002cad0
-`u_memrchr32` | 85 (0x55) | Exported Function | 0x000000018002cb30 | 0x0002cb30
-`u_memset` | 86 (0x56) | Exported Function | 0x000000018002cba0 | 0x0002cba0
-`u_parseMessage` | 87 (0x57) | Exported Function | 0x00000001800a4eb0 | 0x000a4eb0
-`u_parseMessageWithError` | 88 (0x58) | Exported Function | 0x00000001800a4ee0 | 0x000a4ee0
-`u_setMemoryFunctions` | 89 (0x59) | Exported Function | 0x0000000180034720 | 0x00034720
-`u_shapeArabic` | 90 (0x5a) | Exported Function | 0x0000000180035de0 | 0x00035de0
-`u_strcasecmp` | 114 (0x72) | Exported Function | 0x0000000180033e30 | 0x00033e30
-`u_strCaseCompare` | 91 (0x5b) | Exported Function | 0x0000000180033d70 | 0x00033d70
-`u_strcat` | 115 (0x73) | Exported Function | 0x000000018002d230 | 0x0002d230
-`u_strchr` | 116 (0x74) | Exported Function | 0x0000000180002cf0 | 0x00002cf0
-`u_strchr32` | 117 (0x75) | Exported Function | 0x000000018002d270 | 0x0002d270
-`u_strcmp` | 118 (0x76) | Exported Function | 0x000000018002d2d0 | 0x0002d2d0
-`u_strcmpCodePointOrder` | 119 (0x77) | Exported Function | 0x000000018002d300 | 0x0002d300
-`u_strToUpper` | 112 (0x70) | Exported Function | 0x0000000180037820 | 0x00037820
-`ucal_openCountryTimeZones` | 249 (0xf9) | Exported Function | 0x00000001800a6cc0 | 0x000a6cc0
-`ucal_openTimeZoneIDEnumeration` | 250 (0xfa) | Exported Function | 0x00000001800a6d00 | 0x000a6d00
-`ucal_openTimeZones` | 251 (0xfb) | Exported Function | 0x0000000180007f70 | 0x00007f70
-`ucol_strcollUTF8` | 396 (0x18c) | Exported Function | 0x00000001800a7960 | 0x000a7960
-`ucol_tertiaryOrder` | 397 (0x18d) | Exported Function | 0x00000001800a82d0 | 0x000a82d0
-`ucsdet_close` | 398 (0x18e) | Exported Function | 0x00000001800ac290 | 0x000ac290
-`ucsdet_detect` | 399 (0x18f) | Exported Function | 0x00000001800ac2b0 | 0x000ac2b0
-`ucsdet_detectAll` | 400 (0x190) | Exported Function | 0x00000001800ac300 | 0x000ac300
-`ucsdet_enableInputFilter` | 401 (0x191) | Exported Function | 0x00000001800ac320 | 0x000ac320
-`ucsdet_getAllDetectableCharsets` | 402 (0x192) | Exported Function | 0x00000001800ac340 | 0x000ac340
-`ucsdet_getConfidence` | 403 (0x193) | Exported Function | 0x00000001800ac350 | 0x000ac350
-`ucsdet_getLanguage` | 404 (0x194) | Exported Function | 0x00000001800ac370 | 0x000ac370
-`ucsdet_getName` | 405 (0x195) | Exported Function | 0x00000001800ac390 | 0x000ac390
-`ucsdet_getUChars` | 406 (0x196) | Exported Function | 0x00000001800ac3b0 | 0x000ac3b0
-`ucsdet_isInputFilterEnabled` | 407 (0x197) | Exported Function | 0x00000001800ac3d0 | 0x000ac3d0
-`ucol_strcollIter` | 395 (0x18b) | Exported Function | 0x00000001800a7910 | 0x000a7910
-`ucsdet_open` | 408 (0x198) | Exported Function | 0x00000001800ac3f0 | 0x000ac3f0
-`ucsdet_setText` | 410 (0x19a) | Exported Function | 0x00000001800ac4c0 | 0x000ac4c0
-`ucurr_countCurrencies` | 411 (0x19b) | Exported Function | 0x00000001800494e0 | 0x000494e0
-`ucurr_forLocale` | 412 (0x19c) | Exported Function | 0x0000000180049a10 | 0x00049a10
-`ucurr_forLocaleAndDate` | 413 (0x19d) | Exported Function | 0x0000000180049cf0 | 0x00049cf0
-`ucurr_getDefaultFractionDigits` | 414 (0x19e) | Exported Function | 0x000000018004a060 | 0x0004a060
-`ucurr_getDefaultFractionDigitsForUsage` | 415 (0x19f) | Exported Function | 0x000000018004a070 | 0x0004a070
-`ucurr_getKeywordValuesForLocale` | 416 (0x1a0) | Exported Function | 0x000000018004a0c0 | 0x0004a0c0
-`ucurr_getName` | 417 (0x1a1) | Exported Function | 0x000000018004a550 | 0x0004a550
-`ucurr_getNumericCode` | 418 (0x1a2) | Exported Function | 0x000000018004a7c0 | 0x0004a7c0
-`ucurr_getPluralName` | 419 (0x1a3) | Exported Function | 0x000000018004a8b0 | 0x0004a8b0
-`ucurr_getRoundingIncrement` | 420 (0x1a4) | Exported Function | 0x000000018004aa80 | 0x0004aa80
-`ucurr_getRoundingIncrementForUsage` | 421 (0x1a5) | Exported Function | 0x000000018004aa90 | 0x0004aa90
-`ucsdet_setDeclaredEncoding` | 409 (0x199) | Exported Function | 0x00000001800ac440 | 0x000ac440
-`ucurr_isAvailable` | 422 (0x1a6) | Exported Function | 0x000000018004ab20 | 0x0004ab20
-`ucol_strcoll` | 394 (0x18a) | Exported Function | 0x0000000180002570 | 0x00002570
-`ucol_setStrength` | 392 (0x188) | Exported Function | 0x0000000180012f50 | 0x00012f50
-`ucol_getSortKey` | 366 (0x16e) | Exported Function | 0x00000001800a7450 | 0x000a7450
-`ucol_getStrength` | 367 (0x16f) | Exported Function | 0x00000001800a7480 | 0x000a7480
-`ucol_getTailoredSet` | 368 (0x170) | Exported Function | 0x00000001800a74b0 | 0x000a74b0
-`ucol_getUCAVersion` | 369 (0x171) | Exported Function | 0x00000001800a7500 | 0x000a7500
-`ucol_getVariableTop` | 370 (0x172) | Exported Function | 0x00000001800a7550 | 0x000a7550
-`ucol_getVersion` | 371 (0x173) | Exported Function | 0x000000018003ed40 | 0x0003ed40
-`ucol_greater` | 372 (0x174) | Exported Function | 0x00000001800a7580 | 0x000a7580
-`ucol_greaterOrEqual` | 373 (0x175) | Exported Function | 0x00000001800a75c0 | 0x000a75c0
-`ucol_keyHashCode` | 374 (0x176) | Exported Function | 0x00000001800a8e20 | 0x000a8e20
-`ucol_mergeSortkeys` | 375 (0x177) | Exported Function | 0x00000001800a7600 | 0x000a7600
-`ucol_next` | 376 (0x178) | Exported Function | 0x00000001800a80a0 | 0x000a80a0
-`ucol_nextSortKeyPart` | 377 (0x179) | Exported Function | 0x00000001800a7720 | 0x000a7720
-`ucol_setText` | 393 (0x189) | Exported Function | 0x00000001800a8240 | 0x000a8240
-`ucol_open` | 378 (0x17a) | Exported Function | 0x000000018000f5f0 | 0x0000f5f0
-`ucol_openBinary` | 380 (0x17c) | Exported Function | 0x00000001800a7770 | 0x000a7770
-`ucol_openElements` | 381 (0x17d) | Exported Function | 0x00000001800a80c0 | 0x000a80c0
-`ucol_openRules` | 382 (0x17e) | Exported Function | 0x00000001800ac140 | 0x000ac140
-`ucol_previous` | 383 (0x17f) | Exported Function | 0x00000001800a81a0 | 0x000a81a0
-`ucol_primaryOrder` | 384 (0x180) | Exported Function | 0x00000001800a81c0 | 0x000a81c0
-`ucol_reset` | 385 (0x181) | Exported Function | 0x00000001800a81d0 | 0x000a81d0
-`ucol_safeClone` | 386 (0x182) | Exported Function | 0x00000001800a7840 | 0x000a7840
-`ucol_secondaryOrder` | 387 (0x183) | Exported Function | 0x00000001800a8210 | 0x000a8210
-`ucol_setAttribute` | 388 (0x184) | Exported Function | 0x0000000180012f80 | 0x00012f80
-`ucol_setMaxVariable` | 389 (0x185) | Exported Function | 0x00000001800a78b0 | 0x000a78b0
-`ucol_setOffset` | 390 (0x186) | Exported Function | 0x00000001800a8220 | 0x000a8220
-`ucol_setReorderCodes` | 391 (0x187) | Exported Function | 0x00000001800a78e0 | 0x000a78e0
-`ucol_openAvailableLocales` | 379 (0x17b) | Exported Function | 0x00000001800a8c80 | 0x000a8c80
-`ucurr_openISOCurrencies` | 423 (0x1a7) | Exported Function | 0x000000018004ac20 | 0x0004ac20
-`ucurr_register` | 424 (0x1a8) | Exported Function | 0x000000018004acc0 | 0x0004acc0
-`ucurr_unregister` | 425 (0x1a9) | Exported Function | 0x000000018004ad40 | 0x0004ad40
-`udat_toCalendarDateField` | 457 (0x1c9) | Exported Function | 0x00000001800ada10 | 0x000ada10
-`udat_toPattern` | 458 (0x1ca) | Exported Function | 0x00000001800ada30 | 0x000ada30
-`udatpg_addPattern` | 459 (0x1cb) | Exported Function | 0x00000001800adbb0 | 0x000adbb0
-`udatpg_clone` | 460 (0x1cc) | Exported Function | 0x00000001800adcc0 | 0x000adcc0
-`udatpg_close` | 461 (0x1cd) | Exported Function | 0x0000000180013070 | 0x00013070
-`udatpg_getAppendItemFormat` | 462 (0x1ce) | Exported Function | 0x00000001800add10 | 0x000add10
-`udatpg_getAppendItemName` | 463 (0x1cf) | Exported Function | 0x00000001800add50 | 0x000add50
-`udatpg_getBaseSkeleton` | 464 (0x1d0) | Exported Function | 0x00000001800add90 | 0x000add90
-`udatpg_getBestPattern` | 465 (0x1d1) | Exported Function | 0x00000001800ade60 | 0x000ade60
-`udatpg_getBestPatternWithOptions` | 466 (0x1d2) | Exported Function | 0x00000001800ade90 | 0x000ade90
-`udatpg_getDateTimeFormat` | 467 (0x1d3) | Exported Function | 0x00000001800adf60 | 0x000adf60
-`udatpg_getDecimal` | 468 (0x1d4) | Exported Function | 0x00000001800adf90 | 0x000adf90
-`udat_setSymbols` | 456 (0x1c8) | Exported Function | 0x00000001800ad770 | 0x000ad770
-`udatpg_getFieldDisplayName` | 469 (0x1d5) | Exported Function | 0x0000000180019060 | 0x00019060
-`udatpg_getSkeleton` | 471 (0x1d7) | Exported Function | 0x00000001800ae060 | 0x000ae060
-`udatpg_open` | 472 (0x1d8) | Exported Function | 0x00000001800ae130 | 0x000ae130
-`udatpg_openBaseSkeletons` | 473 (0x1d9) | Exported Function | 0x00000001800ae1c0 | 0x000ae1c0
-`udatpg_openEmpty` | 474 (0x1da) | Exported Function | 0x00000001800ae1f0 | 0x000ae1f0
-`udatpg_openSkeletons` | 475 (0x1db) | Exported Function | 0x00000001800ae270 | 0x000ae270
-`udatpg_replaceFieldTypes` | 476 (0x1dc) | Exported Function | 0x00000001800ae2a0 | 0x000ae2a0
-`udatpg_replaceFieldTypesWithOptions` | 477 (0x1dd) | Exported Function | 0x00000001800ae2f0 | 0x000ae2f0
-`udatpg_setAppendItemFormat` | 478 (0x1de) | Exported Function | 0x00000001800ae420 | 0x000ae420
-`udatpg_setAppendItemName` | 479 (0x1df) | Exported Function | 0x00000001800ae490 | 0x000ae490
-`udatpg_setDateTimeFormat` | 480 (0x1e0) | Exported Function | 0x00000001800ae500 | 0x000ae500
-`udatpg_setDecimal` | 481 (0x1e1) | Exported Function | 0x00000001800ae580 | 0x000ae580
-`udtitvfmt_close` | 482 (0x1e2) | Exported Function | 0x0000000180013070 | 0x00013070
-`udatpg_getPatternForSkeleton` | 470 (0x1d6) | Exported Function | 0x00000001800adfc0 | 0x000adfc0
-`udat_setNumberFormat` | 455 (0x1c7) | Exported Function | 0x00000001800ad750 | 0x000ad750
-`udat_setLenient` | 454 (0x1c6) | Exported Function | 0x00000001800ad730 | 0x000ad730
-`udat_setContext` | 453 (0x1c5) | Exported Function | 0x00000001800a78b0 | 0x000a78b0
-`udat_adoptNumberFormat` | 426 (0x1aa) | Exported Function | 0x00000001800ac5a0 | 0x000ac5a0
-`udat_adoptNumberFormatForFields` | 427 (0x1ab) | Exported Function | 0x00000001800ac5c0 | 0x000ac5c0
-`udat_applyPattern` | 428 (0x1ac) | Exported Function | 0x00000001800ac640 | 0x000ac640
-`udat_clone` | 429 (0x1ad) | Exported Function | 0x00000001800ac6f0 | 0x000ac6f0
-`udat_close` | 430 (0x1ae) | Exported Function | 0x0000000180013070 | 0x00013070
-`udat_countAvailable` | 431 (0x1af) | Exported Function | 0x000000018003e7d0 | 0x0003e7d0
-`udat_countSymbols` | 432 (0x1b0) | Exported Function | 0x00000001800ac730 | 0x000ac730
-`udat_format` | 433 (0x1b1) | Exported Function | 0x00000001800ac970 | 0x000ac970
-`udat_formatCalendar` | 434 (0x1b2) | Exported Function | 0x00000001800acab0 | 0x000acab0
-`udat_formatCalendarForFields` | 435 (0x1b3) | Exported Function | 0x00000001800acbf0 | 0x000acbf0
-`udat_formatForFields` | 436 (0x1b4) | Exported Function | 0x00000001800accf0 | 0x000accf0
-`udat_get2DigitYearStart` | 437 (0x1b5) | Exported Function | 0x00000001800ace00 | 0x000ace00
-`udat_getAvailable` | 438 (0x1b6) | Exported Function | 0x000000018003e800 | 0x0003e800
-`udat_getBooleanAttribute` | 439 (0x1b7) | Exported Function | 0x00000001800ace40 | 0x000ace40
-`udat_getCalendar` | 440 (0x1b8) | Exported Function | 0x0000000180030cc0 | 0x00030cc0
-`udat_getContext` | 441 (0x1b9) | Exported Function | 0x00000001800ace70 | 0x000ace70
-`udat_getLocaleByType` | 442 (0x1ba) | Exported Function | 0x000000018003e8e0 | 0x0003e8e0
-`udat_getNumberFormat` | 443 (0x1bb) | Exported Function | 0x000000018003e930 | 0x0003e930
-`udat_getNumberFormatForField` | 444 (0x1bc) | Exported Function | 0x00000001800acea0 | 0x000acea0
-`udat_getSymbols` | 445 (0x1bd) | Exported Function | 0x00000001800acf20 | 0x000acf20
-`udat_isLenient` | 446 (0x1be) | Exported Function | 0x000000018003ed20 | 0x0003ed20
-`udat_open` | 447 (0x1bf) | Exported Function | 0x00000001800ad290 | 0x000ad290
-`udat_parse` | 448 (0x1c0) | Exported Function | 0x00000001800ad4e0 | 0x000ad4e0
-`udat_parseCalendar` | 449 (0x1c1) | Exported Function | 0x00000001800ad5c0 | 0x000ad5c0
-`udat_set2DigitYearStart` | 450 (0x1c2) | Exported Function | 0x00000001800ad6a0 | 0x000ad6a0
-`udat_setBooleanAttribute` | 451 (0x1c3) | Exported Function | 0x00000001800ad700 | 0x000ad700
-`udat_setCalendar` | 452 (0x1c4) | Exported Function | 0x000000018003e970 | 0x0003e970
-`ucol_getRulesEx` | 365 (0x16d) | Exported Function | 0x00000001800a7350 | 0x000a7350
-`ucol_getRules` | 364 (0x16c) | Exported Function | 0x00000001800a72d0 | 0x000a72d0
-`ucol_getReorderCodes` | 363 (0x16b) | Exported Function | 0x00000001800a72a0 | 0x000a72a0
-`ucol_getOffset` | 362 (0x16a) | Exported Function | 0x00000001800a8090 | 0x000a8090
-`ucnv_countAliases` | 283 (0x11b) | Exported Function | 0x0000000180044d40 | 0x00044d40
-`ucnv_countAvailable` | 284 (0x11c) | Exported Function | 0x00000001800429b0 | 0x000429b0
-`ucnv_countStandards` | 285 (0x11d) | Exported Function | 0x0000000180044d50 | 0x00044d50
-`ucnv_detectUnicodeSignature` | 286 (0x11e) | Exported Function | 0x00000001800429f0 | 0x000429f0
-`ucnv_fixFileSeparator` | 287 (0x11f) | Exported Function | 0x0000000180042c30 | 0x00042c30
-`ucnv_flushCache` | 288 (0x120) | Exported Function | 0x0000000180046040 | 0x00046040
-`UCNV_FROM_U_CALLBACK_ESCAPE` | 1 (0x1) | Exported Function | 0x0000000180026b50 | 0x00026b50
-`UCNV_FROM_U_CALLBACK_SKIP` | 2 (0x2) | Exported Function | 0x0000000180026fd0 | 0x00026fd0
-`UCNV_FROM_U_CALLBACK_STOP` | 3 (0x3) | Exported Function | 0x00000001800270e0 | 0x000270e0
-`UCNV_FROM_U_CALLBACK_SUBSTITUTE` | 4 (0x4) | Exported Function | 0x00000001800271c0 | 0x000271c0
-`ucnv_fromAlgorithmic` | 289 (0x121) | Exported Function | 0x0000000180042ca0 | 0x00042ca0
-`ucnv_fromUChars` | 290 (0x122) | Exported Function | 0x0000000180042cf0 | 0x00042cf0
-`ucnv_convertEx` | 282 (0x11a) | Exported Function | 0x0000000180042440 | 0x00042440
-`ucnv_fromUCountPending` | 291 (0x123) | Exported Function | 0x0000000180042ea0 | 0x00042ea0
-`ucnv_getAlias` | 293 (0x125) | Exported Function | 0x0000000180044d90 | 0x00044d90
-`ucnv_getAliases` | 294 (0x126) | Exported Function | 0x0000000180044da0 | 0x00044da0
-`ucnv_getAvailableName` | 295 (0x127) | Exported Function | 0x0000000180043070 | 0x00043070
-`ucnv_getCanonicalName` | 297 (0x129) | Exported Function | 0x0000000180044dc0 | 0x00044dc0
-`ucnv_getCCSID` | 296 (0x128) | Exported Function | 0x00000001800430e0 | 0x000430e0
-`ucnv_getDefaultName` | 298 (0x12a) | Exported Function | 0x0000000180046100 | 0x00046100
-`ucnv_getDisplayName` | 299 (0x12b) | Exported Function | 0x00000001800465f0 | 0x000465f0
-`ucnv_getFromUCallBack` | 300 (0x12c) | Exported Function | 0x0000000180043170 | 0x00043170
-`ucnv_getInvalidChars` | 301 (0x12d) | Exported Function | 0x0000000180043190 | 0x00043190
-`ucnv_getInvalidUChars` | 302 (0x12e) | Exported Function | 0x00000001800431f0 | 0x000431f0
-`ucnv_getMaxCharSize` | 303 (0x12f) | Exported Function | 0x0000000180043250 | 0x00043250
-`ucnv_getMinCharSize` | 304 (0x130) | Exported Function | 0x0000000180043260 | 0x00043260
-`ucnv_fromUnicode` | 292 (0x124) | Exported Function | 0x0000000180042f00 | 0x00042f00
-`ucnv_convert` | 281 (0x119) | Exported Function | 0x0000000180042300 | 0x00042300
-`ucnv_compareNames` | 280 (0x118) | Exported Function | 0x0000000180044c20 | 0x00044c20
-`ucnv_close` | 279 (0x117) | Exported Function | 0x00000001800421b0 | 0x000421b0
-`ucal_roll` | 252 (0xfc) | Exported Function | 0x00000001800a6d30 | 0x000a6d30
-`ucal_set` | 253 (0xfd) | Exported Function | 0x00000001800a6d60 | 0x000a6d60
-`ucal_setAttribute` | 254 (0xfe) | Exported Function | 0x00000001800a6d70 | 0x000a6d70
-`ucal_setDate` | 255 (0xff) | Exported Function | 0x00000001800a6dc0 | 0x000a6dc0
-`ucal_setDateTime` | 256 (0x100) | Exported Function | 0x00000001800a6de0 | 0x000a6de0
-`ucal_setDefaultTimeZone` | 257 (0x101) | Exported Function | 0x00000001800a6e20 | 0x000a6e20
-`ucal_setGregorianChange` | 258 (0x102) | Exported Function | 0x00000001800a6e50 | 0x000a6e50
-`ucal_setMillis` | 259 (0x103) | Exported Function | 0x00000001800a6ef0 | 0x000a6ef0
-`ucal_setTimeZone` | 260 (0x104) | Exported Function | 0x00000001800a6f10 | 0x000a6f10
-`ucasemap_close` | 261 (0x105) | Exported Function | 0x00000001800406c0 | 0x000406c0
-`ucasemap_getBreakIterator` | 262 (0x106) | Exported Function | 0x0000000180016030 | 0x00016030
-`ucasemap_getLocale` | 263 (0x107) | Exported Function | 0x0000000180008130 | 0x00008130
-`ucasemap_getOptions` | 264 (0x108) | Exported Function | 0x00000001800406e0 | 0x000406e0
-`ucasemap_open` | 265 (0x109) | Exported Function | 0x0000000180040c10 | 0x00040c10
-`ucasemap_setBreakIterator` | 266 (0x10a) | Exported Function | 0x0000000180040e80 | 0x00040e80
-`ucasemap_setLocale` | 267 (0x10b) | Exported Function | 0x0000000180040ca0 | 0x00040ca0
-`ucasemap_setOptions` | 268 (0x10c) | Exported Function | 0x0000000180040d70 | 0x00040d70
-`ucasemap_toTitle` | 269 (0x10d) | Exported Function | 0x0000000180037b90 | 0x00037b90
-`ucasemap_utf8FoldCase` | 270 (0x10e) | Exported Function | 0x0000000180040d90 | 0x00040d90
-`ucasemap_utf8ToLower` | 271 (0x10f) | Exported Function | 0x0000000180040de0 | 0x00040de0
-`ucasemap_utf8ToTitle` | 272 (0x110) | Exported Function | 0x0000000180040ed0 | 0x00040ed0
-`ucasemap_utf8ToUpper` | 273 (0x111) | Exported Function | 0x0000000180040e30 | 0x00040e30
-`ucnv_cbFromUWriteBytes` | 274 (0x112) | Exported Function | 0x0000000180041050 | 0x00041050
-`ucnv_cbFromUWriteSub` | 275 (0x113) | Exported Function | 0x00000001800410a0 | 0x000410a0
-`ucnv_cbFromUWriteUChars` | 276 (0x114) | Exported Function | 0x0000000180041160 | 0x00041160
-`ucnv_cbToUWriteSub` | 277 (0x115) | Exported Function | 0x00000001800412a0 | 0x000412a0
-`ucnv_cbToUWriteUChars` | 278 (0x116) | Exported Function | 0x00000001800412f0 | 0x000412f0
-`ucnv_getName` | 305 (0x131) | Exported Function | 0x0000000180043280 | 0x00043280
-`udtitvfmt_open` | 484 (0x1e4) | Exported Function | 0x00000001800ae780 | 0x000ae780
-`ucnv_getNextUChar` | 306 (0x132) | Exported Function | 0x00000001800432d0 | 0x000432d0
-`ucnv_getStandard` | 308 (0x134) | Exported Function | 0x0000000180044e40 | 0x00044e40
-`ucnv_toUnicode` | 336 (0x150) | Exported Function | 0x0000000180044160 | 0x00044160
-`ucnv_usesFallback` | 337 (0x151) | Exported Function | 0x00000001800442d0 | 0x000442d0
-`ucnvsel_close` | 338 (0x152) | Exported Function | 0x0000000180046ec0 | 0x00046ec0
-`ucnvsel_open` | 339 (0x153) | Exported Function | 0x0000000180046fe0 | 0x00046fe0
-`ucnvsel_openFromSerialized` | 340 (0x154) | Exported Function | 0x0000000180047230 | 0x00047230
-`ucnvsel_selectForString` | 341 (0x155) | Exported Function | 0x00000001800474f0 | 0x000474f0
-`ucnvsel_selectForUTF8` | 342 (0x156) | Exported Function | 0x00000001800476d0 | 0x000476d0
-`ucnvsel_serialize` | 343 (0x157) | Exported Function | 0x0000000180047900 | 0x00047900
-`ucol_cloneBinary` | 344 (0x158) | Exported Function | 0x00000001800a6f60 | 0x000a6f60
-`ucol_close` | 345 (0x159) | Exported Function | 0x0000000180013070 | 0x00013070
-`ucol_closeElements` | 346 (0x15a) | Exported Function | 0x00000001800a8010 | 0x000a8010
-`ucol_countAvailable` | 347 (0x15b) | Exported Function | 0x00000001800a8a00 | 0x000a8a00
-`ucnv_toUCountPending` | 335 (0x14f) | Exported Function | 0x0000000180044120 | 0x00044120
-`ucol_equal` | 348 (0x15c) | Exported Function | 0x00000001800a7010 | 0x000a7010
-`ucol_getAvailable` | 350 (0x15e) | Exported Function | 0x00000001800a8a30 | 0x000a8a30
-`ucol_getBound` | 351 (0x15f) | Exported Function | 0x00000001800a7050 | 0x000a7050
-`ucol_getContractionsAndExpansions` | 352 (0x160) | Exported Function | 0x00000001800a8d00 | 0x000a8d00
-`ucol_getDisplayName` | 353 (0x161) | Exported Function | 0x00000001800a8a80 | 0x000a8a80
-`ucol_getEquivalentReorderCodes` | 354 (0x162) | Exported Function | 0x00000001800a7160 | 0x000a7160
-`ucol_getFunctionalEquivalent` | 355 (0x163) | Exported Function | 0x00000001800a8bb0 | 0x000a8bb0
-`ucol_getKeywords` | 358 (0x166) | Exported Function | 0x00000001800a8c50 | 0x000a8c50
-`ucol_getKeywordValues` | 356 (0x164) | Exported Function | 0x00000001800a8c00 | 0x000a8c00
-`ucol_getKeywordValuesForLocale` | 357 (0x165) | Exported Function | 0x000000018000b8c0 | 0x0000b8c0
-`ucol_getLocaleByType` | 359 (0x167) | Exported Function | 0x00000001800a71f0 | 0x000a71f0
-`ucol_getMaxExpansion` | 360 (0x168) | Exported Function | 0x00000001800a8030 | 0x000a8030
-`ucol_getMaxVariable` | 361 (0x169) | Exported Function | 0x00000001800a7280 | 0x000a7280
-`ucol_getAttribute` | 349 (0x15d) | Exported Function | 0x0000000180012df0 | 0x00012df0
-`ucnv_toUChars` | 334 (0x14e) | Exported Function | 0x0000000180043f60 | 0x00043f60
-`ucnv_toAlgorithmic` | 333 (0x14d) | Exported Function | 0x0000000180043f10 | 0x00043f10
-`UCNV_TO_U_CALLBACK_SUBSTITUTE` | 8 (0x8) | Exported Function | 0x0000000180027610 | 0x00027610
-`ucnv_getStandardName` | 309 (0x135) | Exported Function | 0x0000000180044ea0 | 0x00044ea0
-`ucnv_getStarters` | 310 (0x136) | Exported Function | 0x0000000180043670 | 0x00043670
-`ucnv_getSubstChars` | 311 (0x137) | Exported Function | 0x00000001800436b0 | 0x000436b0
-`ucnv_getToUCallBack` | 312 (0x138) | Exported Function | 0x0000000180043710 | 0x00043710
-`ucnv_getType` | 313 (0x139) | Exported Function | 0x0000000180043730 | 0x00043730
-`ucnv_getUnicodeSet` | 314 (0x13a) | Exported Function | 0x0000000180046740 | 0x00046740
-`ucnv_isAmbiguous` | 315 (0x13b) | Exported Function | 0x0000000180043750 | 0x00043750
-`ucnv_isFixedWidth` | 316 (0x13c) | Exported Function | 0x0000000180043770 | 0x00043770
-`ucnv_open` | 317 (0x13d) | Exported Function | 0x00000001800437c0 | 0x000437c0
-`ucnv_openAllNames` | 318 (0x13e) | Exported Function | 0x00000001800451d0 | 0x000451d0
-`ucnv_openCCSID` | 319 (0x13f) | Exported Function | 0x00000001800437f0 | 0x000437f0
-`ucnv_openPackage` | 320 (0x140) | Exported Function | 0x0000000180043880 | 0x00043880
-`ucnv_openStandardNames` | 321 (0x141) | Exported Function | 0x0000000180045280 | 0x00045280
-`ucnv_openU` | 322 (0x142) | Exported Function | 0x0000000180043890 | 0x00043890
-`ucnv_reset` | 323 (0x143) | Exported Function | 0x0000000180043910 | 0x00043910
-`ucnv_resetFromUnicode` | 324 (0x144) | Exported Function | 0x0000000180043920 | 0x00043920
-`ucnv_resetToUnicode` | 325 (0x145) | Exported Function | 0x0000000180043940 | 0x00043940
-`ucnv_safeClone` | 326 (0x146) | Exported Function | 0x0000000180043960 | 0x00043960
-`ucnv_setDefaultName` | 327 (0x147) | Exported Function | 0x00000001800464f0 | 0x000464f0
-`ucnv_setFallback` | 328 (0x148) | Exported Function | 0x0000000180043c90 | 0x00043c90
-`ucnv_setFromUCallBack` | 329 (0x149) | Exported Function | 0x0000000180043ca0 | 0x00043ca0
-`ucnv_setSubstChars` | 330 (0x14a) | Exported Function | 0x0000000180043ce0 | 0x00043ce0
-`ucnv_setSubstString` | 331 (0x14b) | Exported Function | 0x0000000180043d40 | 0x00043d40
-`ucnv_setToUCallBack` | 332 (0x14c) | Exported Function | 0x0000000180043ed0 | 0x00043ed0
-`UCNV_TO_U_CALLBACK_ESCAPE` | 5 (0x5) | Exported Function | 0x0000000180027300 | 0x00027300
-`UCNV_TO_U_CALLBACK_SKIP` | 6 (0x6) | Exported Function | 0x00000001800275e0 | 0x000275e0
-`UCNV_TO_U_CALLBACK_STOP` | 7 (0x7) | Exported Function | 0x0000000180008000 | 0x00008000
-`ucnv_getPlatform` | 307 (0x133) | Exported Function | 0x0000000180043650 | 0x00043650
-`utrans_unregisterID` | 969 (0x3c9) | Exported Function | 0x00000001800bbe30 | 0x000bbe30
+Function Name | Ordinal | Type
+-- | -- | --
+`unum_getSymbol` | 647 | Exported Function
+`unum_getLocaleByType` | 646 | Exported Function
+`unum_getDoubleAttribute` | 645 | Exported Function
+`unum_getTextAttribute` | 648 | Exported Function
+`unum_parseDecimal` | 651 | Exported Function
+`unum_parse` | 650 | Exported Function
+`unum_open` | 649 | Exported Function
+`unum_getContext` | 644 | Exported Function
+`unum_formatDoubleForFields` | 639 | Exported Function
+`unum_formatDoubleCurrency` | 638 | Exported Function
+`unum_formatDouble` | 637 | Exported Function
+`unum_formatInt64` | 640 | Exported Function
+`unum_getAvailable` | 643 | Exported Function
+`unum_getAttribute` | 642 | Exported Function
+`unum_formatUFormattable` | 641 | Exported Function
+`unumf_close` | 662 | Exported Function
+`unum_toPattern` | 661 | Exported Function
+`unum_setTextAttribute` | 660 | Exported Function
+`unumf_closeResult` | 663 | Exported Function
+`unumf_formatInt` | 666 | Exported Function
+`unumf_formatDouble` | 665 | Exported Function
+`unumf_formatDecimal` | 664 | Exported Function
+`unum_setSymbol` | 659 | Exported Function
+`unum_parseInt64` | 654 | Exported Function
+`unum_parseDoubleCurrency` | 653 | Exported Function
+`unum_parseDouble` | 652 | Exported Function
+`unum_parseToUFormattable` | 655 | Exported Function
+`unum_setDoubleAttribute` | 658 | Exported Function
+`unum_setContext` | 657 | Exported Function
+`unum_setAttribute` | 656 | Exported Function
+`unorm2_getNFKCCasefoldInstance` | 617 | Exported Function
+`unorm2_getNFDInstance` | 616 | Exported Function
+`unorm2_getNFCInstance` | 615 | Exported Function
+`unorm2_getNFKCInstance` | 618 | Exported Function
+`unorm2_hasBoundaryAfter` | 621 | Exported Function
+`unorm2_getRawDecomposition` | 620 | Exported Function
+`unorm2_getNFKDInstance` | 619 | Exported Function
+`unorm2_getInstance` | 614 | Exported Function
+`unorm2_append` | 609 | Exported Function
+`umsg_vparse` | 608 | Exported Function
+`umsg_vformat` | 607 | Exported Function
+`unorm2_close` | 610 | Exported Function
+`unorm2_getDecomposition` | 613 | Exported Function
+`unorm2_getCombiningClass` | 612 | Exported Function
+`unorm2_composePair` | 611 | Exported Function
+`unum_clone` | 632 | Exported Function
+`unum_applyPattern` | 631 | Exported Function
+`unorm_compare` | 630 | Exported Function
+`unum_close` | 633 | Exported Function
+`unum_formatDecimal` | 636 | Exported Function
+`unum_format` | 635 | Exported Function
+`unum_countAvailable` | 634 | Exported Function
+`unorm2_spanQuickCheckYes` | 629 | Exported Function
+`unorm2_isNormalized` | 624 | Exported Function
+`unorm2_isInert` | 623 | Exported Function
+`unorm2_hasBoundaryBefore` | 622 | Exported Function
+`unorm2_normalize` | 625 | Exported Function
+`unorm2_quickCheck` | 628 | Exported Function
+`unorm2_openFiltered` | 627 | Exported Function
+`unorm2_normalizeSecondAndAppend` | 626 | Exported Function
+`unumf_openForSkeletonAndLocale` | 667 | Exported Function
+`uregex_hasAnchoringBounds` | 708 | Exported Function
+`uregex_groupUText` | 707 | Exported Function
+`uregex_groupNumberFromName` | 706 | Exported Function
+`uregex_hasTransparentBounds` | 709 | Exported Function
+`uregex_lookingAt64` | 712 | Exported Function
+`uregex_lookingAt` | 711 | Exported Function
+`uregex_hitEnd` | 710 | Exported Function
+`uregex_groupNumberFromCName` | 705 | Exported Function
+`uregex_getText` | 700 | Exported Function
+`uregex_getStackLimit` | 699 | Exported Function
+`uregex_getMatchCallback` | 698 | Exported Function
+`uregex_getTimeLimit` | 701 | Exported Function
+`uregex_groupCount` | 704 | Exported Function
+`uregex_group` | 703 | Exported Function
+`uregex_getUText` | 702 | Exported Function
+`uregex_regionStart` | 723 | Exported Function
+`uregex_regionEnd64` | 722 | Exported Function
+`uregex_regionEnd` | 721 | Exported Function
+`uregex_regionStart64` | 724 | Exported Function
+`uregex_replaceFirst` | 727 | Exported Function
+`uregex_replaceAllUText` | 726 | Exported Function
+`uregex_replaceAll` | 725 | Exported Function
+`uregex_refreshUText` | 720 | Exported Function
+`uregex_open` | 715 | Exported Function
+`uregex_matches64` | 714 | Exported Function
+`uregex_matches` | 713 | Exported Function
+`uregex_openC` | 716 | Exported Function
+`uregex_patternUText` | 719 | Exported Function
+`uregex_pattern` | 718 | Exported Function
+`uregex_openUText` | 717 | Exported Function
+`unumsys_openAvailableNames` | 678 | Exported Function
+`unumsys_open` | 677 | Exported Function
+`unumsys_isAlgorithmic` | 676 | Exported Function
+`unumsys_openByName` | 679 | Exported Function
+`uplrules_open` | 682 | Exported Function
+`uplrules_getKeywords` | 681 | Exported Function
+`uplrules_close` | 680 | Exported Function
+`unumsys_getRadix` | 675 | Exported Function
+`unumf_resultNextFieldPosition` | 670 | Exported Function
+`unumf_resultGetAllFieldPositions` | 669 | Exported Function
+`unumf_openResult` | 668 | Exported Function
+`unumf_resultToString` | 671 | Exported Function
+`unumsys_getName` | 674 | Exported Function
+`unumsys_getDescription` | 673 | Exported Function
+`unumsys_close` | 672 | Exported Function
+`uregex_find` | 693 | Exported Function
+`uregex_end64` | 692 | Exported Function
+`uregex_end` | 691 | Exported Function
+`uregex_find64` | 694 | Exported Function
+`uregex_getFindProgressCallback` | 697 | Exported Function
+`uregex_flags` | 696 | Exported Function
+`uregex_findNext` | 695 | Exported Function
+`uregex_close` | 690 | Exported Function
+`uregex_appendReplacement` | 685 | Exported Function
+`uplrules_select` | 684 | Exported Function
+`uplrules_openForType` | 683 | Exported Function
+`uregex_appendReplacementUText` | 686 | Exported Function
+`uregex_clone` | 689 | Exported Function
+`uregex_appendTailUText` | 688 | Exported Function
+`uregex_appendTail` | 687 | Exported Function
+`uiter_setUTF16BE` | 526 | Exported Function
+`uiter_setString` | 525 | Exported Function
+`uiter_setState` | 524 | Exported Function
+`uiter_setUTF8` | 527 | Exported Function
+`uldn_getDialectHandling` | 530 | Exported Function
+`uldn_getContext` | 529 | Exported Function
+`uldn_close` | 528 | Exported Function
+`uiter_previous32` | 523 | Exported Function
+`uidna_nameToUnicodeUTF8` | 518 | Exported Function
+`uidna_nameToUnicode` | 517 | Exported Function
+`uidna_nameToASCII_UTF8` | 516 | Exported Function
+`uidna_openUTS46` | 519 | Exported Function
+`uiter_next32` | 522 | Exported Function
+`uiter_getState` | 521 | Exported Function
+`uiter_current32` | 520 | Exported Function
+`uldn_variantDisplayName` | 541 | Exported Function
+`uldn_scriptDisplayName` | 540 | Exported Function
+`uldn_scriptCodeDisplayName` | 539 | Exported Function
+`ulistfmt_close` | 542 | Exported Function
+`uloc_acceptLanguage` | 545 | Exported Function
+`ulistfmt_open` | 544 | Exported Function
+`ulistfmt_format` | 543 | Exported Function
+`uldn_regionDisplayName` | 538 | Exported Function
+`uldn_keyValueDisplayName` | 533 | Exported Function
+`uldn_keyDisplayName` | 532 | Exported Function
+`uldn_getLocale` | 531 | Exported Function
+`uldn_languageDisplayName` | 534 | Exported Function
+`uldn_openForContext` | 537 | Exported Function
+`uldn_open` | 536 | Exported Function
+`uldn_localeDisplayName` | 535 | Exported Function
+`ufmt_getArrayItemByIndex` | 496 | Exported Function
+`ufmt_close` | 495 | Exported Function
+`ufieldpositer_open` | 494 | Exported Function
+`ufmt_getArrayLength` | 497 | Exported Function
+`ufmt_getDouble` | 500 | Exported Function
+`ufmt_getDecNumChars` | 499 | Exported Function
+`ufmt_getDate` | 498 | Exported Function
+`ufieldpositer_next` | 493 | Exported Function
+`uenum_openCharStringsEnumeration` | 488 | Exported Function
+`uenum_next` | 487 | Exported Function
+`uenum_count` | 486 | Exported Function
+`uenum_openUCharStringsEnumeration` | 489 | Exported Function
+`ufieldpositer_close` | 492 | Exported Function
+`uenum_unext` | 491 | Exported Function
+`uenum_reset` | 490 | Exported Function
+`uidna_labelToASCII` | 511 | Exported Function
+`uidna_close` | 510 | Exported Function
+`ugender_getListGender` | 509 | Exported Function
+`uidna_labelToASCII_UTF8` | 512 | Exported Function
+`uidna_nameToASCII` | 515 | Exported Function
+`uidna_labelToUnicodeUTF8` | 514 | Exported Function
+`uidna_labelToUnicode` | 513 | Exported Function
+`ugender_getInstance` | 508 | Exported Function
+`ufmt_getObject` | 503 | Exported Function
+`ufmt_getLong` | 502 | Exported Function
+`ufmt_getInt64` | 501 | Exported Function
+`ufmt_getType` | 504 | Exported Function
+`ufmt_open` | 507 | Exported Function
+`ufmt_isNumeric` | 506 | Exported Function
+`ufmt_getUChars` | 505 | Exported Function
+`uloc_acceptLanguageFromHTTP` | 546 | Exported Function
+`ulocdata_getCLDRVersion` | 587 | Exported Function
+`ulocdata_close` | 586 | Exported Function
+`uloc_toUnicodeLocaleType` | 585 | Exported Function
+`ulocdata_getDelimiter` | 588 | Exported Function
+`ulocdata_getLocaleSeparator` | 591 | Exported Function
+`ulocdata_getLocaleDisplayPattern` | 590 | Exported Function
+`ulocdata_getExemplarSet` | 589 | Exported Function
+`uloc_toUnicodeLocaleKey` | 584 | Exported Function
+`uloc_setDefault` | 579 | Exported Function
+`uloc_openKeywords` | 578 | Exported Function
+`uloc_minimizeSubtags` | 577 | Exported Function
+`uloc_setKeywordValue` | 580 | Exported Function
+`uloc_toLegacyType` | 583 | Exported Function
+`uloc_toLegacyKey` | 582 | Exported Function
+`uloc_toLanguageTag` | 581 | Exported Function
+`umsg_getLocale` | 602 | Exported Function
+`umsg_format` | 601 | Exported Function
+`umsg_close` | 600 | Exported Function
+`umsg_open` | 603 | Exported Function
+`umsg_toPattern` | 606 | Exported Function
+`umsg_setLocale` | 605 | Exported Function
+`umsg_parse` | 604 | Exported Function
+`umsg_clone` | 599 | Exported Function
+`ulocdata_getPaperSize` | 594 | Exported Function
+`ulocdata_getNoSubstitute` | 593 | Exported Function
+`ulocdata_getMeasurementSystem` | 592 | Exported Function
+`ulocdata_open` | 595 | Exported Function
+`umsg_autoQuoteApostrophe` | 598 | Exported Function
+`umsg_applyPattern` | 597 | Exported Function
+`ulocdata_setNoSubstitute` | 596 | Exported Function
+`uloc_getDisplayKeyword` | 557 | Exported Function
+`uloc_getDisplayCountry` | 556 | Exported Function
+`uloc_getDefault` | 555 | Exported Function
+`uloc_getDisplayKeywordValue` | 558 | Exported Function
+`uloc_getDisplayScript` | 561 | Exported Function
+`uloc_getDisplayName` | 560 | Exported Function
+`uloc_getDisplayLanguage` | 559 | Exported Function
+`uloc_getCountry` | 554 | Exported Function
+`uloc_countAvailable` | 549 | Exported Function
+`uloc_canonicalize` | 548 | Exported Function
+`uloc_addLikelySubtags` | 547 | Exported Function
+`uloc_forLanguageTag` | 550 | Exported Function
+`uloc_getCharacterOrientation` | 553 | Exported Function
+`uloc_getBaseName` | 552 | Exported Function
+`uloc_getAvailable` | 551 | Exported Function
+`uloc_getName` | 572 | Exported Function
+`uloc_getLocaleForLCID` | 571 | Exported Function
+`uloc_getLineOrientation` | 570 | Exported Function
+`uloc_getParent` | 573 | Exported Function
+`uloc_isRightToLeft` | 576 | Exported Function
+`uloc_getVariant` | 575 | Exported Function
+`uloc_getScript` | 574 | Exported Function
+`uloc_getLCID` | 568 | Exported Function
+`uloc_getISO3Language` | 564 | Exported Function
+`uloc_getISO3Country` | 563 | Exported Function
+`uloc_getDisplayVariant` | 562 | Exported Function
+`uloc_getISOCountries` | 565 | Exported Function
+`uloc_getLanguage` | 569 | Exported Function
+`uloc_getKeywordValue` | 567 | Exported Function
+`uloc_getISOLanguages` | 566 | Exported Function
+`uspoof_clone` | 889 | Exported Function
+`uspoof_checkUTF8` | 888 | Exported Function
+`uspoof_check2UTF8` | 887 | Exported Function
+`uspoof_close` | 890 | Exported Function
+`uspoof_getAllowedLocales` | 893 | Exported Function
+`uspoof_getAllowedChars` | 892 | Exported Function
+`uspoof_closeCheckResult` | 891 | Exported Function
+`uspoof_check2` | 886 | Exported Function
+`uset_spanUTF8` | 881 | Exported Function
+`uset_spanBackUTF8` | 880 | Exported Function
+`uset_spanBack` | 879 | Exported Function
+`uset_toPattern` | 882 | Exported Function
+`uspoof_check` | 885 | Exported Function
+`uspoof_areConfusableUTF8` | 884 | Exported Function
+`uspoof_areConfusable` | 883 | Exported Function
+`uspoof_openCheckResult` | 904 | Exported Function
+`uspoof_open` | 903 | Exported Function
+`uspoof_getSkeletonUTF8` | 902 | Exported Function
+`uspoof_openFromSerialized` | 905 | Exported Function
+`uspoof_setAllowedChars` | 908 | Exported Function
+`uspoof_serialize` | 907 | Exported Function
+`uspoof_openFromSource` | 906 | Exported Function
+`uspoof_getSkeleton` | 901 | Exported Function
+`uspoof_getCheckResultRestrictionLevel` | 896 | Exported Function
+`uspoof_getCheckResultNumerics` | 895 | Exported Function
+`uspoof_getCheckResultChecks` | 894 | Exported Function
+`uspoof_getChecks` | 897 | Exported Function
+`uspoof_getRestrictionLevel` | 900 | Exported Function
+`uspoof_getRecommendedSet` | 899 | Exported Function
+`uspoof_getInclusionSet` | 898 | Exported Function
+`uset_isEmpty` | 859 | Exported Function
+`uset_indexOf` | 858 | Exported Function
+`uset_getSerializedSet` | 857 | Exported Function
+`uset_isFrozen` | 860 | Exported Function
+`uset_openPattern` | 863 | Exported Function
+`uset_openEmpty` | 862 | Exported Function
+`uset_open` | 861 | Exported Function
+`uset_getSerializedRangeCount` | 856 | Exported Function
+`uset_equals` | 851 | Exported Function
+`uset_containsString` | 850 | Exported Function
+`uset_containsSome` | 849 | Exported Function
+`uset_freeze` | 852 | Exported Function
+`uset_getSerializedRange` | 855 | Exported Function
+`uset_getItemCount` | 854 | Exported Function
+`uset_getItem` | 853 | Exported Function
+`uset_serializedContains` | 874 | Exported Function
+`uset_serialize` | 873 | Exported Function
+`uset_retainAll` | 872 | Exported Function
+`uset_set` | 875 | Exported Function
+`uset_span` | 878 | Exported Function
+`uset_size` | 877 | Exported Function
+`uset_setSerializedToOne` | 876 | Exported Function
+`uset_retain` | 871 | Exported Function
+`uset_removeAll` | 866 | Exported Function
+`uset_remove` | 865 | Exported Function
+`uset_openPatternOptions` | 864 | Exported Function
+`uset_removeAllStrings` | 867 | Exported Function
+`uset_resemblesPattern` | 870 | Exported Function
+`uset_removeString` | 869 | Exported Function
+`uset_removeRange` | 868 | Exported Function
+`uspoof_setAllowedLocales` | 909 | Exported Function
+`utrace_getLevel` | 950 | Exported Function
+`utrace_getFunctions` | 949 | Exported Function
+`utrace_functionName` | 948 | Exported Function
+`utrace_setFunctions` | 951 | Exported Function
+`utrans_clone` | 954 | Exported Function
+`utrace_vformat` | 953 | Exported Function
+`utrace_setLevel` | 952 | Exported Function
+`utrace_format` | 947 | Exported Function
+`utf8_nextCharSafeBody` | 942 | Exported Function
+`utf8_back1SafeBody` | 941 | Exported Function
+`utf8_appendCharSafeBody` | 940 | Exported Function
+`utf8_prevCharSafeBody` | 943 | Exported Function
+`utmscale_toInt64` | 946 | Exported Function
+`utmscale_getTimeScaleValue` | 945 | Exported Function
+`utmscale_fromInt64` | 944 | Exported Function
+`utrans_trans` | 965 | Exported Function
+`utrans_toRules` | 964 | Exported Function
+`utrans_setFilter` | 963 | Exported Function
+`utrans_transIncremental` | 966 | Exported Function
+`utrans_unregisterID` | 969 | Exported Function
+`utrans_transUChars` | 968 | Exported Function
+`utrans_transIncrementalUChars` | 967 | Exported Function
+`utrans_register` | 962 | Exported Function
+`utrans_getSourceSet` | 957 | Exported Function
+`utrans_countAvailableIDs` | 956 | Exported Function
+`utrans_close` | 955 | Exported Function
+`utrans_getUnicodeID` | 958 | Exported Function
+`utrans_openU` | 961 | Exported Function
+`utrans_openInverse` | 960 | Exported Function
+`utrans_openIDs` | 959 | Exported Function
+`utext_current32` | 920 | Exported Function
+`utext_copy` | 919 | Exported Function
+`utext_close` | 918 | Exported Function
+`utext_equals` | 921 | Exported Function
+`utext_getNativeIndex` | 924 | Exported Function
+`utext_freeze` | 923 | Exported Function
+`utext_extract` | 922 | Exported Function
+`utext_clone` | 917 | Exported Function
+`usprep_close` | 912 | Exported Function
+`uspoof_setRestrictionLevel` | 911 | Exported Function
+`uspoof_setChecks` | 910 | Exported Function
+`usprep_open` | 913 | Exported Function
+`utext_char32At` | 916 | Exported Function
+`usprep_prepare` | 915 | Exported Function
+`usprep_openByType` | 914 | Exported Function
+`utext_previous32` | 935 | Exported Function
+`utext_openUTF8` | 934 | Exported Function
+`utext_openUChars` | 933 | Exported Function
+`utext_previous32From` | 936 | Exported Function
+`utext_setup` | 939 | Exported Function
+`utext_setNativeIndex` | 938 | Exported Function
+`utext_replace` | 937 | Exported Function
+`utext_next32From` | 932 | Exported Function
+`utext_isLengthExpensive` | 927 | Exported Function
+`utext_hasMetaData` | 926 | Exported Function
+`utext_getPreviousNativeIndex` | 925 | Exported Function
+`utext_isWritable` | 928 | Exported Function
+`utext_next32` | 931 | Exported Function
+`utext_nativeLength` | 930 | Exported Function
+`utext_moveIndex32` | 929 | Exported Function
+`ures_getByKey` | 768 | Exported Function
+`ures_getByIndex` | 767 | Exported Function
+`ures_getBinary` | 766 | Exported Function
+`ures_getInt` | 769 | Exported Function
+`ures_getLocaleByType` | 772 | Exported Function
+`ures_getKey` | 771 | Exported Function
+`ures_getIntVector` | 770 | Exported Function
+`ures_close` | 765 | Exported Function
+`ureldatefmt_close` | 760 | Exported Function
+`uregion_getType` | 759 | Exported Function
+`uregion_getRegionFromNumericCode` | 758 | Exported Function
+`ureldatefmt_combineDateAndTime` | 761 | Exported Function
+`ureldatefmt_open` | 764 | Exported Function
+`ureldatefmt_formatNumeric` | 763 | Exported Function
+`ureldatefmt_format` | 762 | Exported Function
+`ures_getUTF8StringByKey` | 783 | Exported Function
+`ures_getUTF8StringByIndex` | 782 | Exported Function
+`ures_getUTF8String` | 781 | Exported Function
+`ures_getVersion` | 784 | Exported Function
+`ures_openAvailableLocales` | 787 | Exported Function
+`ures_open` | 786 | Exported Function
+`ures_hasNext` | 785 | Exported Function
+`ures_getUInt` | 780 | Exported Function
+`ures_getSize` | 775 | Exported Function
+`ures_getNextString` | 774 | Exported Function
+`ures_getNextResource` | 773 | Exported Function
+`ures_getString` | 776 | Exported Function
+`ures_getType` | 779 | Exported Function
+`ures_getStringByKey` | 778 | Exported Function
+`ures_getStringByIndex` | 777 | Exported Function
+`uregex_setText` | 738 | Exported Function
+`uregex_setStackLimit` | 737 | Exported Function
+`uregex_setRegionAndStart` | 736 | Exported Function
+`uregex_setTimeLimit` | 739 | Exported Function
+`uregex_splitUText` | 742 | Exported Function
+`uregex_split` | 741 | Exported Function
+`uregex_setUText` | 740 | Exported Function
+`uregex_setRegion64` | 735 | Exported Function
+`uregex_reset` | 730 | Exported Function
+`uregex_requireEnd` | 729 | Exported Function
+`uregex_replaceFirstUText` | 728 | Exported Function
+`uregex_reset64` | 731 | Exported Function
+`uregex_setRegion` | 734 | Exported Function
+`uregex_setMatchCallback` | 733 | Exported Function
+`uregex_setFindProgressCallback` | 732 | Exported Function
+`uregion_getContainingRegionOfType` | 753 | Exported Function
+`uregion_getContainingRegion` | 752 | Exported Function
+`uregion_getContainedRegionsOfType` | 751 | Exported Function
+`uregion_getNumericCode` | 754 | Exported Function
+`uregion_getRegionFromCode` | 757 | Exported Function
+`uregion_getRegionCode` | 756 | Exported Function
+`uregion_getPreferredValues` | 755 | Exported Function
+`uregion_getContainedRegions` | 750 | Exported Function
+`uregex_useAnchoringBounds` | 745 | Exported Function
+`uregex_start64` | 744 | Exported Function
+`uregex_start` | 743 | Exported Function
+`uregex_useTransparentBounds` | 746 | Exported Function
+`uregion_getAvailable` | 749 | Exported Function
+`uregion_contains` | 748 | Exported Function
+`uregion_areEqual` | 747 | Exported Function
+`ures_openDirect` | 788 | Exported Function
+`uset_addAllCodePoints` | 829 | Exported Function
+`uset_addAll` | 828 | Exported Function
+`uset_add` | 827 | Exported Function
+`uset_addRange` | 830 | Exported Function
+`uset_applyPattern` | 833 | Exported Function
+`uset_applyIntPropertyValue` | 832 | Exported Function
+`uset_addString` | 831 | Exported Function
+`usearch_setText` | 826 | Exported Function
+`usearch_setAttribute` | 821 | Exported Function
+`usearch_reset` | 820 | Exported Function
+`usearch_previous` | 819 | Exported Function
+`usearch_setBreakIterator` | 822 | Exported Function
+`usearch_setPattern` | 825 | Exported Function
+`usearch_setOffset` | 824 | Exported Function
+`usearch_setCollator` | 823 | Exported Function
+`uset_contains` | 844 | Exported Function
+`uset_complementAll` | 843 | Exported Function
+`uset_complement` | 842 | Exported Function
+`uset_containsAll` | 845 | Exported Function
+`uset_containsRange` | 848 | Exported Function
+`uset_containsNone` | 847 | Exported Function
+`uset_containsAllCodePoints` | 846 | Exported Function
+`uset_compact` | 841 | Exported Function
+`uset_clear` | 836 | Exported Function
+`uset_charAt` | 835 | Exported Function
+`uset_applyPropertyAlias` | 834 | Exported Function
+`uset_clone` | 837 | Exported Function
+`uset_closeOver` | 840 | Exported Function
+`uset_close` | 839 | Exported Function
+`uset_cloneAsThawed` | 838 | Exported Function
+`uscript_hasScript` | 799 | Exported Function
+`uscript_getUsage` | 798 | Exported Function
+`uscript_getShortName` | 797 | Exported Function
+`uscript_isCased` | 800 | Exported Function
+`usearch_first` | 803 | Exported Function
+`usearch_close` | 802 | Exported Function
+`uscript_isRightToLeft` | 801 | Exported Function
+`uscript_getScriptExtensions` | 796 | Exported Function
+`uscript_breaksBetweenLetters` | 791 | Exported Function
+`ures_resetIterator` | 790 | Exported Function
+`ures_openU` | 789 | Exported Function
+`uscript_getCode` | 792 | Exported Function
+`uscript_getScript` | 795 | Exported Function
+`uscript_getSampleString` | 794 | Exported Function
+`uscript_getName` | 793 | Exported Function
+`usearch_last` | 814 | Exported Function
+`usearch_getText` | 813 | Exported Function
+`usearch_getPattern` | 812 | Exported Function
+`usearch_next` | 815 | Exported Function
+`usearch_preceding` | 818 | Exported Function
+`usearch_openFromCollator` | 817 | Exported Function
+`usearch_open` | 816 | Exported Function
+`usearch_getOffset` | 811 | Exported Function
+`usearch_getBreakIterator` | 806 | Exported Function
+`usearch_getAttribute` | 805 | Exported Function
+`usearch_following` | 804 | Exported Function
+`usearch_getCollator` | 807 | Exported Function
+`usearch_getMatchedText` | 810 | Exported Function
+`usearch_getMatchedStart` | 809 | Exported Function
+`usearch_getMatchedLength` | 808 | Exported Function
+`uenum_close` | 485 | Exported Function
+`ubidi_getVisualIndex` | 170 | Exported Function
+`ubidi_getText` | 169 | Exported Function
+`ubidi_getResultLength` | 168 | Exported Function
+`ubidi_getVisualMap` | 171 | Exported Function
+`ubidi_isInverse` | 174 | Exported Function
+`ubidi_invertMap` | 173 | Exported Function
+`ubidi_getVisualRun` | 172 | Exported Function
+`ubidi_getReorderingOptions` | 167 | Exported Function
+`ubidi_getParagraph` | 163 | Exported Function
+`ubidi_getLogicalRun` | 161 | Exported Function
+`ubidi_getLogicalMap` | 160 | Exported Function
+`ubidi_getParagraphByIndex` | 164 | Exported Function
+`ubidi_getReorderingMode` | 166 | Exported Function
+`ubidi_getProcessedLength` | 165 | Exported Function
+`ubidi_getParaLevel` | 162 | Exported Function
+`ubidi_setPara` | 185 | Exported Function
+`ubidi_setLine` | 184 | Exported Function
+`ubidi_setInverse` | 183 | Exported Function
+`ubidi_setReorderingMode` | 186 | Exported Function
+`ubidi_writeReverse` | 189 | Exported Function
+`ubidi_writeReordered` | 188 | Exported Function
+`ubidi_setReorderingOptions` | 187 | Exported Function
+`ubidi_setContext` | 182 | Exported Function
+`ubidi_openSized` | 177 | Exported Function
+`ubidi_open` | 176 | Exported Function
+`ubidi_isOrderParagraphsLTR` | 175 | Exported Function
+`ubidi_orderParagraphsLTR` | 178 | Exported Function
+`ubidi_setClassCallback` | 181 | Exported Function
+`ubidi_reorderVisual` | 180 | Exported Function
+`ubidi_reorderLogical` | 179 | Exported Function
+`u_unescape` | 140 | Exported Function
+`u_UCharsToChars` | 9 | Exported Function
+`u_uastrncpy` | 139 | Exported Function
+`u_unescapeAt` | 141 | Exported Function
+`u_versionToString` | 144 | Exported Function
+`u_versionFromUString` | 143 | Exported Function
+`u_versionFromString` | 142 | Exported Function
+`u_uastrcpy` | 138 | Exported Function
+`u_strToUTF8WithSub` | 111 | Exported Function
+`u_strToUTF8` | 110 | Exported Function
+`u_strToUTF32WithSub` | 109 | Exported Function
+`u_strToWCS` | 113 | Exported Function
+`u_toupper` | 137 | Exported Function
+`u_totitle` | 136 | Exported Function
+`u_tolower` | 135 | Exported Function
+`ubidi_getDirection` | 155 | Exported Function
+`ubidi_getCustomizedClass` | 154 | Exported Function
+`ubidi_getClassCallback` | 153 | Exported Function
+`ubidi_getLength` | 156 | Exported Function
+`ubidi_getLogicalIndex` | 159 | Exported Function
+`ubidi_getLevels` | 158 | Exported Function
+`ubidi_getLevelAt` | 157 | Exported Function
+`ubidi_getBaseDirection` | 152 | Exported Function
+`u_vparseMessage` | 147 | Exported Function
+`u_vformatMessageWithError` | 146 | Exported Function
+`u_vformatMessage` | 145 | Exported Function
+`u_vparseMessageWithError` | 148 | Exported Function
+`ubidi_countRuns` | 151 | Exported Function
+`ubidi_countParagraphs` | 150 | Exported Function
+`ubidi_close` | 149 | Exported Function
+`ubiditransform_close` | 190 | Exported Function
+`ucal_getGregorianChange` | 231 | Exported Function
+`ucal_getFieldDifference` | 230 | Exported Function
+`ucal_getDSTSavings` | 227 | Exported Function
+`ucal_getKeywordValuesForLocale` | 232 | Exported Function
+`ucal_getMillis` | 235 | Exported Function
+`ucal_getLocaleByType` | 234 | Exported Function
+`ucal_getLimit` | 233 | Exported Function
+`ucal_getDefaultTimeZone` | 229 | Exported Function
+`ucal_get` | 223 | Exported Function
+`ucal_equivalentTo` | 222 | Exported Function
+`ucal_countAvailable` | 221 | Exported Function
+`ucal_getAttribute` | 224 | Exported Function
+`ucal_getDayOfWeekType` | 228 | Exported Function
+`ucal_getCanonicalTimeZoneID` | 226 | Exported Function
+`ucal_getAvailable` | 225 | Exported Function
+`ucal_isSet` | 246 | Exported Function
+`ucal_inDaylightTime` | 245 | Exported Function
+`ucal_getWindowsTimeZoneID` | 244 | Exported Function
+`ucal_isWeekend` | 247 | Exported Function
+`ucal_openTimeZoneIDEnumeration` | 250 | Exported Function
+`ucal_openCountryTimeZones` | 249 | Exported Function
+`ucal_open` | 248 | Exported Function
+`ucal_getWeekendTransition` | 243 | Exported Function
+`ucal_getTimeZoneID` | 239 | Exported Function
+`ucal_getTimeZoneDisplayName` | 238 | Exported Function
+`ucal_getNow` | 236 | Exported Function
+`ucal_getTimeZoneIDForWindowsID` | 240 | Exported Function
+`ucal_getTZDataVersion` | 237 | Exported Function
+`ucal_getType` | 242 | Exported Function
+`ucal_getTimeZoneTransitionDate` | 241 | Exported Function
+`ubrk_getLocaleByType` | 201 | Exported Function
+`ubrk_getBinaryRules` | 200 | Exported Function
+`ubrk_getAvailable` | 199 | Exported Function
+`ubrk_getRuleStatus` | 202 | Exported Function
+`ubrk_last` | 205 | Exported Function
+`ubrk_isBoundary` | 204 | Exported Function
+`ubrk_getRuleStatusVec` | 203 | Exported Function
+`ubrk_following` | 198 | Exported Function
+`ublock_getCode` | 193 | Exported Function
+`ubiditransform_transform` | 192 | Exported Function
+`ubiditransform_open` | 191 | Exported Function
+`ubrk_close` | 194 | Exported Function
+`ubrk_first` | 197 | Exported Function
+`ubrk_current` | 196 | Exported Function
+`ubrk_countAvailable` | 195 | Exported Function
+`ucal_add` | 216 | Exported Function
+`ubrk_setUText` | 215 | Exported Function
+`ubrk_setText` | 214 | Exported Function
+`ucal_clear` | 217 | Exported Function
+`ucal_close` | 220 | Exported Function
+`ucal_clone` | 219 | Exported Function
+`ucal_clearField` | 218 | Exported Function
+`ubrk_safeClone` | 213 | Exported Function
+`ubrk_openBinaryRules` | 208 | Exported Function
+`ubrk_open` | 207 | Exported Function
+`ubrk_next` | 206 | Exported Function
+`ubrk_openRules` | 209 | Exported Function
+`ubrk_refreshUText` | 212 | Exported Function
+`ubrk_previous` | 211 | Exported Function
+`ubrk_preceding` | 210 | Exported Function
+`u_isalpha` | 63 | Exported Function
+`u_isalnum` | 62 | Exported Function
+`u_init` | 48 | Exported Function
+`u_isbase` | 64 | Exported Function
+`u_isdefined` | 67 | Exported Function
+`u_iscntrl` | 66 | Exported Function
+`u_isblank` | 65 | Exported Function
+`u_hasBinaryProperty` | 47 | Exported Function
+`u_getPropertyName` | 42 | Exported Function
+`u_getPropertyEnum` | 41 | Exported Function
+`u_getNumericValue` | 40 | Exported Function
+`u_getPropertyValueEnum` | 43 | Exported Function
+`u_getVersion` | 46 | Exported Function
+`u_getUnicodeVersion` | 45 | Exported Function
+`u_getPropertyValueName` | 44 | Exported Function
+`u_isMirrored` | 56 | Exported Function
+`u_islower` | 70 | Exported Function
+`u_isJavaSpaceChar` | 55 | Exported Function
+`u_isprint` | 71 | Exported Function
+`u_istitle` | 74 | Exported Function
+`u_isspace` | 73 | Exported Function
+`u_ispunct` | 72 | Exported Function
+`u_isJavaIDStart` | 54 | Exported Function
+`u_isIDIgnorable` | 49 | Exported Function
+`u_isgraph` | 69 | Exported Function
+`u_isdigit` | 68 | Exported Function
+`u_isIDPart` | 50 | Exported Function
+`u_isJavaIDPart` | 53 | Exported Function
+`u_isISOControl` | 52 | Exported Function
+`u_isIDStart` | 51 | Exported Function
+`u_charName` | 20 | Exported Function
+`u_charMirror` | 19 | Exported Function
+`u_charFromName` | 18 | Exported Function
+`u_charsToUChars` | 22 | Exported Function
+`u_countChar32` | 24 | Exported Function
+`u_cleanup` | 23 | Exported Function
+`u_charType` | 21 | Exported Function
+`u_charDirection` | 17 | Exported Function
+`u_catclose` | 12 | Exported Function
+`u_austrncpy` | 11 | Exported Function
+`u_austrcpy` | 10 | Exported Function
+`u_catgets` | 13 | Exported Function
+`u_charDigitValue` | 16 | Exported Function
+`u_charAge` | 15 | Exported Function
+`u_catopen` | 14 | Exported Function
+`u_getDataVersion` | 35 | Exported Function
+`u_getCombiningClass` | 34 | Exported Function
+`u_getBidiPairedBracket` | 33 | Exported Function
+`u_getFC_NFKC_Closure` | 36 | Exported Function
+`u_getIntPropertyValue` | 39 | Exported Function
+`u_getIntPropertyMinValue` | 38 | Exported Function
+`u_getIntPropertyMaxValue` | 37 | Exported Function
+`u_formatMessageWithError` | 32 | Exported Function
+`u_enumCharTypes` | 27 | Exported Function
+`u_enumCharNames` | 26 | Exported Function
+`u_digit` | 25 | Exported Function
+`u_errorName` | 28 | Exported Function
+`u_formatMessage` | 31 | Exported Function
+`u_forDigit` | 30 | Exported Function
+`u_foldCase` | 29 | Exported Function
+`u_isUAlphabetic` | 57 | Exported Function
+`u_strFromWCS` | 103 | Exported Function
+`u_strFromUTF8WithSub` | 102 | Exported Function
+`u_strFromUTF8Lenient` | 101 | Exported Function
+`u_strHasMoreChar32Than` | 104 | Exported Function
+`u_strncat` | 124 | Exported Function
+`u_strncasecmp` | 123 | Exported Function
+`u_strlen` | 122 | Exported Function
+`u_strFromUTF8` | 100 | Exported Function
+`u_strFindLast` | 95 | Exported Function
+`u_strFindFirst` | 94 | Exported Function
+`u_strcspn` | 121 | Exported Function
+`u_strFoldCase` | 96 | Exported Function
+`u_strFromUTF32WithSub` | 99 | Exported Function
+`u_strFromUTF32` | 98 | Exported Function
+`u_strFromJavaModifiedUTF8WithSub` | 97 | Exported Function
+`u_strtok_r` | 134 | Exported Function
+`u_strToJavaModifiedUTF8` | 105 | Exported Function
+`u_strstr` | 133 | Exported Function
+`u_strToLower` | 106 | Exported Function
+`u_strToUTF32` | 108 | Exported Function
+`u_strToUpper` | 112 | Exported Function
+`u_strToTitle` | 107 | Exported Function
+`u_strspn` | 132 | Exported Function
+`u_strncpy` | 127 | Exported Function
+`u_strncmpCodePointOrder` | 126 | Exported Function
+`u_strncmp` | 125 | Exported Function
+`u_strpbrk` | 128 | Exported Function
+`u_strrstr` | 131 | Exported Function
+`u_strrchr32` | 130 | Exported Function
+`u_strrchr` | 129 | Exported Function
+`u_memcmpCodePointOrder` | 81 | Exported Function
+`u_memcmp` | 80 | Exported Function
+`u_memchr32` | 79 | Exported Function
+`u_memcpy` | 82 | Exported Function
+`u_memrchr32` | 85 | Exported Function
+`u_memrchr` | 84 | Exported Function
+`u_memmove` | 83 | Exported Function
+`u_memchr` | 78 | Exported Function
+`u_isUUppercase` | 59 | Exported Function
+`u_isupper` | 75 | Exported Function
+`u_isULowercase` | 58 | Exported Function
+`u_isUWhiteSpace` | 60 | Exported Function
+`u_memcasecmp` | 77 | Exported Function
+`u_isxdigit` | 76 | Exported Function
+`u_isWhitespace` | 61 | Exported Function
+`u_strcmp` | 118 | Exported Function
+`u_strchr32` | 117 | Exported Function
+`u_strchr` | 116 | Exported Function
+`u_strcmpCodePointOrder` | 119 | Exported Function
+`u_strcpy` | 120 | Exported Function
+`u_strCompareIter` | 93 | Exported Function
+`u_strCompare` | 92 | Exported Function
+`u_strcat` | 115 | Exported Function
+`u_parseMessageWithError` | 88 | Exported Function
+`u_parseMessage` | 87 | Exported Function
+`u_memset` | 86 | Exported Function
+`u_setMemoryFunctions` | 89 | Exported Function
+`u_strCaseCompare` | 91 | Exported Function
+`u_strcasecmp` | 114 | Exported Function
+`u_shapeArabic` | 90 | Exported Function
+`ucsdet_getLanguage` | 404 | Exported Function
+`ucsdet_getConfidence` | 403 | Exported Function
+`ucsdet_getAllDetectableCharsets` | 402 | Exported Function
+`ucsdet_getName` | 405 | Exported Function
+`ucsdet_open` | 408 | Exported Function
+`ucsdet_isInputFilterEnabled` | 407 | Exported Function
+`ucsdet_getUChars` | 406 | Exported Function
+`ucsdet_enableInputFilter` | 401 | Exported Function
+`ucol_strcollUTF8` | 396 | Exported Function
+`ucol_strcollIter` | 395 | Exported Function
+`ucol_strcoll` | 394 | Exported Function
+`ucol_tertiaryOrder` | 397 | Exported Function
+`ucsdet_detectAll` | 400 | Exported Function
+`ucsdet_detect` | 399 | Exported Function
+`ucsdet_close` | 398 | Exported Function
+`ucurr_getPluralName` | 419 | Exported Function
+`ucurr_getNumericCode` | 418 | Exported Function
+`ucurr_getName` | 417 | Exported Function
+`ucurr_getRoundingIncrement` | 420 | Exported Function
+`ucurr_openISOCurrencies` | 423 | Exported Function
+`ucurr_isAvailable` | 422 | Exported Function
+`ucurr_getRoundingIncrementForUsage` | 421 | Exported Function
+`ucurr_getKeywordValuesForLocale` | 416 | Exported Function
+`ucurr_countCurrencies` | 411 | Exported Function
+`ucsdet_setText` | 410 | Exported Function
+`ucsdet_setDeclaredEncoding` | 409 | Exported Function
+`ucurr_forLocale` | 412 | Exported Function
+`ucurr_getDefaultFractionDigitsForUsage` | 415 | Exported Function
+`ucurr_getDefaultFractionDigits` | 414 | Exported Function
+`ucurr_forLocaleAndDate` | 413 | Exported Function
+`ucol_keyHashCode` | 374 | Exported Function
+`ucol_greaterOrEqual` | 373 | Exported Function
+`ucol_greater` | 372 | Exported Function
+`ucol_mergeSortkeys` | 375 | Exported Function
+`ucol_open` | 378 | Exported Function
+`ucol_nextSortKeyPart` | 377 | Exported Function
+`ucol_next` | 376 | Exported Function
+`ucol_getVersion` | 371 | Exported Function
+`ucol_getSortKey` | 366 | Exported Function
+`ucol_getRulesEx` | 365 | Exported Function
+`ucol_getRules` | 364 | Exported Function
+`ucol_getStrength` | 367 | Exported Function
+`ucol_getVariableTop` | 370 | Exported Function
+`ucol_getUCAVersion` | 369 | Exported Function
+`ucol_getTailoredSet` | 368 | Exported Function
+`ucol_setMaxVariable` | 389 | Exported Function
+`ucol_setAttribute` | 388 | Exported Function
+`ucol_secondaryOrder` | 387 | Exported Function
+`ucol_setOffset` | 390 | Exported Function
+`ucol_setText` | 393 | Exported Function
+`ucol_setStrength` | 392 | Exported Function
+`ucol_setReorderCodes` | 391 | Exported Function
+`ucol_safeClone` | 386 | Exported Function
+`ucol_openElements` | 381 | Exported Function
+`ucol_openBinary` | 380 | Exported Function
+`ucol_openAvailableLocales` | 379 | Exported Function
+`ucol_openRules` | 382 | Exported Function
+`ucol_reset` | 385 | Exported Function
+`ucol_primaryOrder` | 384 | Exported Function
+`ucol_previous` | 383 | Exported Function
+`ucurr_register` | 424 | Exported Function
+`udatpg_getBestPattern` | 465 | Exported Function
+`udatpg_getBaseSkeleton` | 464 | Exported Function
+`udatpg_getAppendItemName` | 463 | Exported Function
+`udatpg_getBestPatternWithOptions` | 466 | Exported Function
+`udatpg_getFieldDisplayName` | 469 | Exported Function
+`udatpg_getDecimal` | 468 | Exported Function
+`udatpg_getDateTimeFormat` | 467 | Exported Function
+`udatpg_getAppendItemFormat` | 462 | Exported Function
+`udat_toCalendarDateField` | 457 | Exported Function
+`udat_setSymbols` | 456 | Exported Function
+`udat_setNumberFormat` | 455 | Exported Function
+`udat_toPattern` | 458 | Exported Function
+`udatpg_close` | 461 | Exported Function
+`udatpg_clone` | 460 | Exported Function
+`udatpg_addPattern` | 459 | Exported Function
+`udatpg_setDateTimeFormat` | 480 | Exported Function
+`udatpg_setAppendItemName` | 479 | Exported Function
+`udatpg_setAppendItemFormat` | 478 | Exported Function
+`udatpg_setDecimal` | 481 | Exported Function
+`udtitvfmt_open` | 484 | Exported Function
+`udtitvfmt_format` | 483 | Exported Function
+`udtitvfmt_close` | 482 | Exported Function
+`udatpg_replaceFieldTypesWithOptions` | 477 | Exported Function
+`udatpg_open` | 472 | Exported Function
+`udatpg_getSkeleton` | 471 | Exported Function
+`udatpg_getPatternForSkeleton` | 470 | Exported Function
+`udatpg_openBaseSkeletons` | 473 | Exported Function
+`udatpg_replaceFieldTypes` | 476 | Exported Function
+`udatpg_openSkeletons` | 475 | Exported Function
+`udatpg_openEmpty` | 474 | Exported Function
+`udat_formatCalendarForFields` | 435 | Exported Function
+`udat_formatCalendar` | 434 | Exported Function
+`udat_format` | 433 | Exported Function
+`udat_formatForFields` | 436 | Exported Function
+`udat_getBooleanAttribute` | 439 | Exported Function
+`udat_getAvailable` | 438 | Exported Function
+`udat_get2DigitYearStart` | 437 | Exported Function
+`udat_countSymbols` | 432 | Exported Function
+`udat_adoptNumberFormatForFields` | 427 | Exported Function
+`udat_adoptNumberFormat` | 426 | Exported Function
+`ucurr_unregister` | 425 | Exported Function
+`udat_applyPattern` | 428 | Exported Function
+`udat_countAvailable` | 431 | Exported Function
+`udat_close` | 430 | Exported Function
+`udat_clone` | 429 | Exported Function
+`udat_set2DigitYearStart` | 450 | Exported Function
+`udat_parseCalendar` | 449 | Exported Function
+`udat_parse` | 448 | Exported Function
+`udat_setBooleanAttribute` | 451 | Exported Function
+`udat_setLenient` | 454 | Exported Function
+`udat_setContext` | 453 | Exported Function
+`udat_setCalendar` | 452 | Exported Function
+`udat_open` | 447 | Exported Function
+`udat_getLocaleByType` | 442 | Exported Function
+`udat_getContext` | 441 | Exported Function
+`udat_getCalendar` | 440 | Exported Function
+`udat_getNumberFormat` | 443 | Exported Function
+`udat_isLenient` | 446 | Exported Function
+`udat_getSymbols` | 445 | Exported Function
+`udat_getNumberFormatForField` | 444 | Exported Function
+`UCNV_FROM_U_CALLBACK_STOP` | 3 | Exported Function
+`UCNV_FROM_U_CALLBACK_SKIP` | 2 | Exported Function
+`UCNV_FROM_U_CALLBACK_ESCAPE` | 1 | Exported Function
+`UCNV_FROM_U_CALLBACK_SUBSTITUTE` | 4 | Exported Function
+`ucnv_fromUCountPending` | 291 | Exported Function
+`ucnv_fromUChars` | 290 | Exported Function
+`ucnv_fromAlgorithmic` | 289 | Exported Function
+`ucnv_flushCache` | 288 | Exported Function
+`ucnv_countAliases` | 283 | Exported Function
+`ucnv_convertEx` | 282 | Exported Function
+`ucnv_convert` | 281 | Exported Function
+`ucnv_countAvailable` | 284 | Exported Function
+`ucnv_fixFileSeparator` | 287 | Exported Function
+`ucnv_detectUnicodeSignature` | 286 | Exported Function
+`ucnv_countStandards` | 285 | Exported Function
+`ucnv_getInvalidUChars` | 302 | Exported Function
+`ucnv_getInvalidChars` | 301 | Exported Function
+`ucnv_getFromUCallBack` | 300 | Exported Function
+`ucnv_getMaxCharSize` | 303 | Exported Function
+`ucnv_getNextUChar` | 306 | Exported Function
+`ucnv_getName` | 305 | Exported Function
+`ucnv_getMinCharSize` | 304 | Exported Function
+`ucnv_getDisplayName` | 299 | Exported Function
+`ucnv_getAliases` | 294 | Exported Function
+`ucnv_getAlias` | 293 | Exported Function
+`ucnv_fromUnicode` | 292 | Exported Function
+`ucnv_getAvailableName` | 295 | Exported Function
+`ucnv_getDefaultName` | 298 | Exported Function
+`ucnv_getCCSID` | 296 | Exported Function
+`ucnv_getCanonicalName` | 297 | Exported Function
+`ucasemap_close` | 261 | Exported Function
+`ucal_setTimeZone` | 260 | Exported Function
+`ucal_setMillis` | 259 | Exported Function
+`ucasemap_getBreakIterator` | 262 | Exported Function
+`ucasemap_open` | 265 | Exported Function
+`ucasemap_getOptions` | 264 | Exported Function
+`ucasemap_getLocale` | 263 | Exported Function
+`ucal_setGregorianChange` | 258 | Exported Function
+`ucal_set` | 253 | Exported Function
+`ucal_roll` | 252 | Exported Function
+`ucal_openTimeZones` | 251 | Exported Function
+`ucal_setAttribute` | 254 | Exported Function
+`ucal_setDefaultTimeZone` | 257 | Exported Function
+`ucal_setDateTime` | 256 | Exported Function
+`ucal_setDate` | 255 | Exported Function
+`ucnv_cbFromUWriteUChars` | 276 | Exported Function
+`ucnv_cbFromUWriteSub` | 275 | Exported Function
+`ucnv_cbFromUWriteBytes` | 274 | Exported Function
+`ucnv_cbToUWriteSub` | 277 | Exported Function
+`ucnv_compareNames` | 280 | Exported Function
+`ucnv_close` | 279 | Exported Function
+`ucnv_cbToUWriteUChars` | 278 | Exported Function
+`ucasemap_utf8ToUpper` | 273 | Exported Function
+`ucasemap_setOptions` | 268 | Exported Function
+`ucasemap_setLocale` | 267 | Exported Function
+`ucasemap_setBreakIterator` | 266 | Exported Function
+`ucasemap_toTitle` | 269 | Exported Function
+`ucasemap_utf8ToTitle` | 272 | Exported Function
+`ucasemap_utf8ToLower` | 271 | Exported Function
+`ucasemap_utf8FoldCase` | 270 | Exported Function
+`ucnv_getPlatform` | 307 | Exported Function
+`ucol_cloneBinary` | 344 | Exported Function
+`ucnvsel_serialize` | 343 | Exported Function
+`ucnvsel_selectForUTF8` | 342 | Exported Function
+`ucol_close` | 345 | Exported Function
+`ucol_equal` | 348 | Exported Function
+`ucol_countAvailable` | 347 | Exported Function
+`ucol_closeElements` | 346 | Exported Function
+`ucnvsel_selectForString` | 341 | Exported Function
+`ucnv_toUnicode` | 336 | Exported Function
+`ucnv_toUCountPending` | 335 | Exported Function
+`ucnv_toUChars` | 334 | Exported Function
+`ucnv_usesFallback` | 337 | Exported Function
+`ucnvsel_openFromSerialized` | 340 | Exported Function
+`ucnvsel_open` | 339 | Exported Function
+`ucnvsel_close` | 338 | Exported Function
+`ucol_getLocaleByType` | 359 | Exported Function
+`ucol_getKeywordValuesForLocale` | 357 | Exported Function
+`ucol_getKeywordValues` | 356 | Exported Function
+`ucol_getMaxExpansion` | 360 | Exported Function
+`ucol_getReorderCodes` | 363 | Exported Function
+`ucol_getOffset` | 362 | Exported Function
+`ucol_getMaxVariable` | 361 | Exported Function
+`ucol_getKeywords` | 358 | Exported Function
+`ucol_getBound` | 351 | Exported Function
+`ucol_getAvailable` | 350 | Exported Function
+`ucol_getAttribute` | 349 | Exported Function
+`ucol_getContractionsAndExpansions` | 352 | Exported Function
+`ucol_getFunctionalEquivalent` | 355 | Exported Function
+`ucol_getEquivalentReorderCodes` | 354 | Exported Function
+`ucol_getDisplayName` | 353 | Exported Function
+`ucnv_openAllNames` | 318 | Exported Function
+`ucnv_open` | 317 | Exported Function
+`ucnv_isFixedWidth` | 316 | Exported Function
+`ucnv_openCCSID` | 319 | Exported Function
+`ucnv_openU` | 322 | Exported Function
+`ucnv_openStandardNames` | 321 | Exported Function
+`ucnv_openPackage` | 320 | Exported Function
+`ucnv_isAmbiguous` | 315 | Exported Function
+`ucnv_getStarters` | 310 | Exported Function
+`ucnv_getStandardName` | 309 | Exported Function
+`ucnv_getStandard` | 308 | Exported Function
+`ucnv_getSubstChars` | 311 | Exported Function
+`ucnv_getUnicodeSet` | 314 | Exported Function
+`ucnv_getType` | 313 | Exported Function
+`ucnv_getToUCallBack` | 312 | Exported Function
+`UCNV_TO_U_CALLBACK_ESCAPE` | 5 | Exported Function
+`ucnv_setToUCallBack` | 332 | Exported Function
+`ucnv_setSubstString` | 331 | Exported Function
+`UCNV_TO_U_CALLBACK_SKIP` | 6 | Exported Function
+`ucnv_toAlgorithmic` | 333 | Exported Function
+`UCNV_TO_U_CALLBACK_SUBSTITUTE` | 8 | Exported Function
+`UCNV_TO_U_CALLBACK_STOP` | 7 | Exported Function
+`ucnv_setSubstChars` | 330 | Exported Function
+`ucnv_resetToUnicode` | 325 | Exported Function
+`ucnv_resetFromUnicode` | 324 | Exported Function
+`ucnv_reset` | 323 | Exported Function
+`ucnv_safeClone` | 326 | Exported Function
+`ucnv_setFromUCallBack` | 329 | Exported Function
+`ucnv_setFallback` | 328 | Exported Function
+`ucnv_setDefaultName` | 327 | Exported Function
 
 
 ## Signature

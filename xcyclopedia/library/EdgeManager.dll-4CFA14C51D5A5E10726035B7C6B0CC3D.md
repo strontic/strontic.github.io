@@ -24,29 +24,29 @@ PE256 | `7FDBF892BBB6CC0AE140CC3ABE1AB100E2F25D64B6F815E35A864F7B0D6AE97B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateCoreWebViewComponentAndUninitializedCoreWebViewComponentCallbackForWebInstance` | 6 (0x6) | Exported Function | 0x0000000180019800 | 0x00019800
-`EnsureWebDriverForWebViewHost` | 5 (0x5) | Exported Function | 0x000000018004ee40 | 0x0004ee40
-`EnsureServiceWorkerEnvironmentForWebView` | 19 (0x13) | Exported Function | 0x000000018004f710 | 0x0004f710
-`DllUnregisterServer` | 18 (0x12) | Exported Function | 0x0000000180015920 | 0x00015920
-`DllRegisterServer` | 17 (0x11) | Exported Function | 0x00000001800158b0 | 0x000158b0
-`DllInstall` | 16 (0x10) | Exported Function | 0x0000000180015790 | 0x00015790
-`DllGetClassObject` | 15 (0xf) | Exported Function | 0x0000000180015700 | 0x00015700
-`DllGetActivationFactory` | 14 (0xe) | Exported Function | 0x00000001800156c0 | 0x000156c0
-`DllCanUnloadNow` | 13 (0xd) | Exported Function | 0x0000000180015660 | 0x00015660
-`GetProxyDllInfo` | 20 (0x14) | Exported Function | 0x000000018000e7e0 | 0x0000e7e0
-`CreateWebViewControlMoveFocusRequestedEventArgs` | 12 (0xc) | Exported Function | 0x000000018001a2f0 | 0x0001a2f0
-`CreateWebViewControlAcceleratorKeyPressedEventArgs` | 10 (0xa) | Exported Function | 0x0000000180019dd0 | 0x00019dd0
-`CreateWebRuntimeDiagnosticsTarget` | 4 (0x4) | Exported Function | 0x000000018007daa0 | 0x0007daa0
-`CreateWebRuntimeDebugTargetManager` | 3 (0x3) | Exported Function | 0x00000001800834e0 | 0x000834e0
-`CreateWebRuntimeDebugTargetClient` | 2 (0x2) | Exported Function | 0x000000018007d970 | 0x0007d970
-`CreateEdgeIsoSession` | 1 (0x1) | Exported Function | 0x0000000180079740 | 0x00079740
-`CreateCoreWebViewOOP` | 9 (0x9) | Exported Function | 0x0000000180019b40 | 0x00019b40
-`CreateCoreWebViewHostProcess` | 8 (0x8) | Exported Function | 0x0000000180019a90 | 0x00019a90
-`CreateCoreWebViewControl` | 7 (0x7) | Exported Function | 0x0000000180001830 | 0x00001830
-`CreateWebViewControlAndInitializeCoreWebViewComponentCallback` | 11 (0xb) | Exported Function | 0x0000000180019ed0 | 0x00019ed0
-`GetWebDriverHostInstance` | 21 (0x15) | Exported Function | 0x0000000180077ca0 | 0x00077ca0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllInstall` | 16 | Exported Function
+`DllRegisterServer` | 17 | Exported Function
+`DllGetClassObject` | 15 | Exported Function
+`DllCanUnloadNow` | 13 | Exported Function
+`DllGetActivationFactory` | 14 | Exported Function
+`GetProxyDllInfo` | 20 | Exported Function
+`GetWebDriverHostInstance` | 21 | Exported Function
+`EnsureWebDriverForWebViewHost` | 5 | Exported Function
+`DllUnregisterServer` | 18 | Exported Function
+`EnsureServiceWorkerEnvironmentForWebView` | 19 | Exported Function
+`CreateWebViewControlMoveFocusRequestedEventArgs` | 12 | Exported Function
+`CreateCoreWebViewOOP` | 9 | Exported Function
+`CreateEdgeIsoSession` | 1 | Exported Function
+`CreateCoreWebViewHostProcess` | 8 | Exported Function
+`CreateCoreWebViewComponentAndUninitializedCoreWebViewComponentCallbackForWebInstance` | 6 | Exported Function
+`CreateCoreWebViewControl` | 7 | Exported Function
+`CreateWebViewControlAcceleratorKeyPressedEventArgs` | 10 | Exported Function
+`CreateWebViewControlAndInitializeCoreWebViewComponentCallback` | 11 | Exported Function
+`CreateWebRuntimeDiagnosticsTarget` | 4 | Exported Function
+`CreateWebRuntimeDebugTargetClient` | 2 | Exported Function
+`CreateWebRuntimeDebugTargetManager` | 3 | Exported Function
 
 
 ## Signature

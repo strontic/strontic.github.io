@@ -24,70 +24,70 @@ PE256 | `CC6381E27C61E2546484667FED9BA99EC8B46A3FEB6A12D004916922CC721531`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DDMAdminConnectionClearStats` | 1 (0x1) | Exported Function | 0x73131850 | 0x00031850
-`DdmSetKey` | 35 (0x23) | Exported Function | 0x7313ad10 | 0x0003ad10
-`DDMTransportCreate` | 31 (0x1f) | Exported Function | 0x73135760 | 0x00035760
-`DdmUpdateGlobalPhoneBookContext` | 36 (0x24) | Exported Function | 0x731334e0 | 0x000334e0
-`IfObjectConnectionChangeNotification` | 37 (0x25) | Exported Function | 0x73133f00 | 0x00033f00
-`IfObjectFreePhonebookContext` | 38 (0x26) | Exported Function | 0x731334d0 | 0x000334d0
-`IfObjectGetStatistics` | 39 (0x27) | Exported Function | 0x73130400 | 0x00030400
-`IfObjectLoadDestinationInfo` | 40 (0x28) | Exported Function | 0x73133520 | 0x00033520
-`IfObjectLoadPhonebookInfo` | 41 (0x29) | Exported Function | 0x73133ca0 | 0x00033ca0
-`IfObjectSetDialoutHoursRestriction` | 42 (0x2a) | Exported Function | 0x73134140 | 0x00034140
-`IfObjectUpdatePbkExtraInfo` | 43 (0x2b) | Exported Function | 0x73133a90 | 0x00033a90
-`IfObjectUpdatePbkInfo` | 44 (0x2c) | Exported Function | 0x73133830 | 0x00033830
-`MarkInterfaceAsReachable` | 45 (0x2d) | Exported Function | 0x73143e90 | 0x00043e90
-`RasAcctConfigChangeNotification` | 46 (0x2e) | Exported Function | 0x73166680 | 0x00066680
-`RasAcctProviderFreeAttributes` | 47 (0x2f) | Exported Function | 0x731673f0 | 0x000673f0
-`RasAcctProviderInitialize` | 48 (0x30) | Exported Function | 0x73166500 | 0x00066500
-`RasAcctProviderInterimAccounting` | 49 (0x31) | Exported Function | 0x731666c0 | 0x000666c0
-`RasAcctProviderStartAccounting` | 50 (0x32) | Exported Function | 0x731665e0 | 0x000665e0
-`RasAcctProviderStopAccounting` | 51 (0x33) | Exported Function | 0x73166630 | 0x00066630
-`RasAcctProviderTerminate` | 52 (0x34) | Exported Function | 0x73166580 | 0x00066580
-`RasAuthConfigChangeNotification` | 53 (0x35) | Exported Function | 0x73166710 | 0x00066710
-`RasAuthProviderAuthenticateUser` | 54 (0x36) | Exported Function | 0x73167390 | 0x00067390
-`RasAuthProviderFreeAttributes` | 55 (0x37) | Exported Function | 0x731673f0 | 0x000673f0
-`RasAuthProviderInitialize` | 56 (0x38) | Exported Function | 0x731662d0 | 0x000662d0
-`RasAuthProviderTerminate` | 57 (0x39) | Exported Function | 0x73166410 | 0x00066410
-`RasConnectionInitiate` | 58 (0x3a) | Exported Function | 0x73138a70 | 0x00038a70
-`ReConnectInterface` | 59 (0x3b) | Exported Function | 0x73143a70 | 0x00043a70
-`ReConnectPersistentInterface` | 60 (0x3c) | Exported Function | 0x73143f50 | 0x00043f50
-`DDMServicePostListens` | 30 (0x1e) | Exported Function | 0x731329a0 | 0x000329a0
-`DDMServiceInitialize` | 29 (0x1d) | Exported Function | 0x73141150 | 0x00041150
-`DDMSendUserMessage` | 28 (0x1c) | Exported Function | 0x731324e0 | 0x000324e0
-`DDMRegisterConnectionNotification` | 27 (0x1b) | Exported Function | 0x73132410 | 0x00032410
-`DDMAdminConnectionEnum` | 2 (0x2) | Exported Function | 0x73131410 | 0x00031410
-`DDMAdminConnectionEnumEx` | 3 (0x3) | Exported Function | 0x73131350 | 0x00031350
-`DDMAdminConnectionGetInfo` | 4 (0x4) | Exported Function | 0x73131630 | 0x00031630
-`DDMAdminConnectionGetInfoEx` | 5 (0x5) | Exported Function | 0x73131450 | 0x00031450
-`DDMAdminInterfaceConnect` | 6 (0x6) | Exported Function | 0x7312f220 | 0x0002f220
-`DDMAdminInterfaceDisconnect` | 7 (0x7) | Exported Function | 0x7312f150 | 0x0002f150
-`DDMAdminPortClearStats` | 8 (0x8) | Exported Function | 0x73132320 | 0x00032320
-`DDMAdminPortDisconnect` | 9 (0x9) | Exported Function | 0x731323a0 | 0x000323a0
-`DDMAdminPortEnum` | 10 (0xa) | Exported Function | 0x73131f80 | 0x00031f80
-`DDMAdminPortGetInfo` | 11 (0xb) | Exported Function | 0x73132260 | 0x00032260
-`DDMAdminPortReset` | 12 (0xc) | Exported Function | 0x73132390 | 0x00032390
-`DDMAdminRemoveQuarantine` | 13 (0xd) | Exported Function | 0x731324f0 | 0x000324f0
-`DDMAdminRoutingDomainConnectionEnumEx` | 14 (0xe) | Exported Function | 0x731313c0 | 0x000313c0
-`TimerQInsert` | 61 (0x3d) | Exported Function | 0x731446f0 | 0x000446f0
-`DDMAdminServerGetInfo` | 15 (0xf) | Exported Function | 0x73130e80 | 0x00030e80
-`DDMAdminServerSetInfo` | 17 (0x11) | Exported Function | 0x73131050 | 0x00031050
-`DDMAdminServerSetInfoEx` | 18 (0x12) | Exported Function | 0x7312f930 | 0x0002f930
-`DDMAdminUpdateConnection` | 19 (0x13) | Exported Function | 0x73131aa0 | 0x00031aa0
-`DDMAdminUpdateQoSPolicies` | 20 (0x14) | Exported Function | 0x731326a0 | 0x000326a0
-`DDMConnectInterface` | 21 (0x15) | Exported Function | 0x7313fe50 | 0x0003fe50
-`DdmDeleteIkev2PskPolicy` | 32 (0x20) | Exported Function | 0x7313a080 | 0x0003a080
-`DDMDisconnectInterface` | 22 (0x16) | Exported Function | 0x731401f0 | 0x000401f0
-`DDMGetIdentityAttributes` | 23 (0x17) | Exported Function | 0x73145560 | 0x00045560
-`DdmGetKey` | 33 (0x21) | Exported Function | 0x7313ac70 | 0x0003ac70
-`DDMHandleRoutingDomainConfigChange` | 24 (0x18) | Exported Function | 0x731429d0 | 0x000429d0
-`DdmPlumbIkev2PskPolicy` | 34 (0x22) | Exported Function | 0x73139c10 | 0x00039c10
-`DDMPlumbRDIkev2TunnelPolicy` | 25 (0x19) | Exported Function | 0x73132590 | 0x00032590
-`DDMPostCleanup` | 26 (0x1a) | Exported Function | 0x73144a50 | 0x00044a50
-`DDMAdminServerGetInfoEx` | 16 (0x10) | Exported Function | 0x73130780 | 0x00030780
-`TimerQRemove` | 62 (0x3e) | Exported Function | 0x731447c0 | 0x000447c0
+Function Name | Ordinal | Type
+-- | -- | --
+`IfObjectSetDialoutHoursRestriction` | 42 | Exported Function
+`IfObjectLoadPhonebookInfo` | 41 | Exported Function
+`IfObjectLoadDestinationInfo` | 40 | Exported Function
+`IfObjectUpdatePbkExtraInfo` | 43 | Exported Function
+`RasAcctConfigChangeNotification` | 46 | Exported Function
+`MarkInterfaceAsReachable` | 45 | Exported Function
+`IfObjectUpdatePbkInfo` | 44 | Exported Function
+`IfObjectGetStatistics` | 39 | Exported Function
+`DdmSetKey` | 35 | Exported Function
+`DDMServicePostListens` | 30 | Exported Function
+`DDMServiceInitialize` | 29 | Exported Function
+`DDMTransportCreate` | 31 | Exported Function
+`IfObjectFreePhonebookContext` | 38 | Exported Function
+`IfObjectConnectionChangeNotification` | 37 | Exported Function
+`DdmUpdateGlobalPhoneBookContext` | 36 | Exported Function
+`RasAcctProviderFreeAttributes` | 47 | Exported Function
+`RasConnectionInitiate` | 58 | Exported Function
+`RasAuthProviderTerminate` | 57 | Exported Function
+`RasAuthProviderInitialize` | 56 | Exported Function
+`ReConnectInterface` | 59 | Exported Function
+`TimerQRemove` | 62 | Exported Function
+`TimerQInsert` | 61 | Exported Function
+`ReConnectPersistentInterface` | 60 | Exported Function
+`RasAuthProviderFreeAttributes` | 55 | Exported Function
+`RasAcctProviderStartAccounting` | 50 | Exported Function
+`RasAcctProviderInterimAccounting` | 49 | Exported Function
+`RasAcctProviderInitialize` | 48 | Exported Function
+`RasAcctProviderStopAccounting` | 51 | Exported Function
+`RasAuthProviderAuthenticateUser` | 54 | Exported Function
+`RasAuthConfigChangeNotification` | 53 | Exported Function
+`RasAcctProviderTerminate` | 52 | Exported Function
+`DDMAdminPortGetInfo` | 11 | Exported Function
+`DDMAdminPortEnum` | 10 | Exported Function
+`DDMAdminPortDisconnect` | 9 | Exported Function
+`DDMAdminPortReset` | 12 | Exported Function
+`DDMAdminServerGetInfo` | 15 | Exported Function
+`DDMAdminRoutingDomainConnectionEnumEx` | 14 | Exported Function
+`DDMAdminRemoveQuarantine` | 13 | Exported Function
+`DDMAdminPortClearStats` | 8 | Exported Function
+`DDMAdminConnectionEnumEx` | 3 | Exported Function
+`DDMAdminConnectionEnum` | 2 | Exported Function
+`DDMAdminConnectionClearStats` | 1 | Exported Function
+`DDMAdminConnectionGetInfo` | 4 | Exported Function
+`DDMAdminInterfaceDisconnect` | 7 | Exported Function
+`DDMAdminInterfaceConnect` | 6 | Exported Function
+`DDMAdminConnectionGetInfoEx` | 5 | Exported Function
+`DDMAdminServerGetInfoEx` | 16 | Exported Function
+`DdmPlumbIkev2PskPolicy` | 34 | Exported Function
+`DDMHandleRoutingDomainConfigChange` | 24 | Exported Function
+`DdmGetKey` | 33 | Exported Function
+`DDMPlumbRDIkev2TunnelPolicy` | 25 | Exported Function
+`DDMSendUserMessage` | 28 | Exported Function
+`DDMRegisterConnectionNotification` | 27 | Exported Function
+`DDMPostCleanup` | 26 | Exported Function
+`DDMGetIdentityAttributes` | 23 | Exported Function
+`DDMAdminUpdateConnection` | 19 | Exported Function
+`DDMAdminServerSetInfoEx` | 18 | Exported Function
+`DDMAdminServerSetInfo` | 17 | Exported Function
+`DDMAdminUpdateQoSPolicies` | 20 | Exported Function
+`DDMDisconnectInterface` | 22 | Exported Function
+`DdmDeleteIkev2PskPolicy` | 32 | Exported Function
+`DDMConnectInterface` | 21 | Exported Function
 
 
 ## Signature

@@ -24,30 +24,30 @@ PE256 | `04AF0B27AA1D35EC068E5BF9C5448B0830C9FA718049E45095BC528D8BC0E8B7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AcquireDDThreadLock` | 1 (0x1) | Exported Function | 0x000000018002a190 | 0x0002a190
-`RegisterSpecialCase` | 20 (0x14) | Exported Function | 0x0000000180016c20 | 0x00016c20
-`GetSurfaceFromDC` | 19 (0x13) | Exported Function | 0x000000018003cc50 | 0x0003cc50
-`GetOLEThunkData` | 18 (0x12) | Exported Function | 0x0000000180038ac0 | 0x00038ac0
-`GetDDSurfaceLocal` | 17 (0x11) | Exported Function | 0x000000018002bf70 | 0x0002bf70
-`DSoundHelp` | 7 (0x7) | Exported Function | 0x00000001800329a0 | 0x000329a0
-`DllGetClassObject` | 16 (0x10) | Exported Function | 0x0000000180036310 | 0x00036310
-`DllCanUnloadNow` | 15 (0xf) | Exported Function | 0x0000000180036230 | 0x00036230
-`DirectDrawEnumerateW` | 14 (0xe) | Exported Function | 0x000000018002f8d0 | 0x0002f8d0
-`DirectDrawEnumerateExW` | 13 (0xd) | Exported Function | 0x000000018000dd90 | 0x0000dd90
-`DirectDrawEnumerateExA` | 12 (0xc) | Exported Function | 0x000000018002f3e0 | 0x0002f3e0
-`DirectDrawEnumerateA` | 11 (0xb) | Exported Function | 0x000000018002f3a0 | 0x0002f3a0
-`DirectDrawCreateEx` | 10 (0xa) | Exported Function | 0x000000018002f290 | 0x0002f290
-`DirectDrawCreateClipper` | 9 (0x9) | Exported Function | 0x0000000180035260 | 0x00035260
-`DirectDrawCreate` | 8 (0x8) | Exported Function | 0x000000018000d830 | 0x0000d830
-`DDInternalUnlock` | 6 (0x6) | Exported Function | 0x000000018002a240 | 0x0002a240
-`DDInternalLock` | 5 (0x5) | Exported Function | 0x000000018002a220 | 0x0002a220
-`DDGetAttachedSurfaceLcl` | 4 (0x4) | Exported Function | 0x0000000180031150 | 0x00031150
-`D3DParseUnknownCommand` | 3 (0x3) | Exported Function | 0x000000018002f190 | 0x0002f190
-`CompleteCreateSysmemSurface` | 2 (0x2) | Exported Function | 0x000000018002b7f0 | 0x0002b7f0
-`ReleaseDDThreadLock` | 21 (0x15) | Exported Function | 0x000000018002b420 | 0x0002b420
-`SetAppCompatData` | 22 (0x16) | Exported Function | 0x0000000180049f60 | 0x00049f60
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 16 | Exported Function
+`DSoundHelp` | 7 | Exported Function
+`DllCanUnloadNow` | 15 | Exported Function
+`DirectDrawEnumerateExW` | 13 | Exported Function
+`DirectDrawEnumerateW` | 14 | Exported Function
+`GetDDSurfaceLocal` | 17 | Exported Function
+`ReleaseDDThreadLock` | 21 | Exported Function
+`SetAppCompatData` | 22 | Exported Function
+`RegisterSpecialCase` | 20 | Exported Function
+`GetOLEThunkData` | 18 | Exported Function
+`GetSurfaceFromDC` | 19 | Exported Function
+`DDGetAttachedSurfaceLcl` | 4 | Exported Function
+`DDInternalLock` | 5 | Exported Function
+`D3DParseUnknownCommand` | 3 | Exported Function
+`AcquireDDThreadLock` | 1 | Exported Function
+`CompleteCreateSysmemSurface` | 2 | Exported Function
+`DDInternalUnlock` | 6 | Exported Function
+`DirectDrawEnumerateA` | 11 | Exported Function
+`DirectDrawEnumerateExA` | 12 | Exported Function
+`DirectDrawCreateEx` | 10 | Exported Function
+`DirectDrawCreate` | 8 | Exported Function
+`DirectDrawCreateClipper` | 9 | Exported Function
 
 
 ## Signature

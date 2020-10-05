@@ -24,53 +24,53 @@ PE256 | `3C9C4CE44628440E8CE13A4A230491B37B38FDDB3AAE1989B98B362FA73CE251`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EvtArchiveExportedLog` | 2 (0x2) | Exported Function | 0x10029360 | 0x00029360
-`EvtIntRetractConfig` | 26 (0x1a) | Exported Function | 0x1002c3a0 | 0x0002c3a0
-`EvtIntSysprepCleanup` | 1 (0x1) | Exported Function | 0x1002b170 | 0x0002b170
-`EvtIntWriteXmlEventToLocalLogfile` | 27 (0x1b) | Exported Function | 0x1002c4f0 | 0x0002c4f0
-`EvtNext` | 28 (0x1c) | Exported Function | 0x1000a630 | 0x0000a630
-`EvtNextChannelPath` | 29 (0x1d) | Exported Function | 0x1002a280 | 0x0002a280
-`EvtNextEventMetadata` | 30 (0x1e) | Exported Function | 0x1002a330 | 0x0002a330
-`EvtNextPublisherId` | 31 (0x1f) | Exported Function | 0x1002a450 | 0x0002a450
-`EvtOpenChannelConfig` | 32 (0x20) | Exported Function | 0x10013860 | 0x00013860
-`EvtOpenChannelEnum` | 33 (0x21) | Exported Function | 0x1002a500 | 0x0002a500
-`EvtOpenEventMetadataEnum` | 34 (0x22) | Exported Function | 0x1002a670 | 0x0002a670
-`EvtOpenLog` | 35 (0x23) | Exported Function | 0x1002a780 | 0x0002a780
-`EvtOpenPublisherEnum` | 36 (0x24) | Exported Function | 0x1002a910 | 0x0002a910
-`EvtOpenPublisherMetadata` | 37 (0x25) | Exported Function | 0x10010580 | 0x00010580
-`EvtOpenSession` | 38 (0x26) | Exported Function | 0x10013be0 | 0x00013be0
-`EvtQuery` | 39 (0x27) | Exported Function | 0x10008c30 | 0x00008c30
-`EvtRender` | 40 (0x28) | Exported Function | 0x1000abc0 | 0x0000abc0
-`EvtSaveChannelConfig` | 41 (0x29) | Exported Function | 0x1002aa80 | 0x0002aa80
-`EvtSeek` | 42 (0x2a) | Exported Function | 0x10008020 | 0x00008020
-`EvtSetChannelConfigProperty` | 43 (0x2b) | Exported Function | 0x1002ab60 | 0x0002ab60
-`EvtIntReportEventAndSourceAsync` | 25 (0x19) | Exported Function | ntdll.EvtIntReportEventAndSourceAsync | 0x0003eb9f
-`EvtSubscribe` | 44 (0x2c) | Exported Function | 0x10009740 | 0x00009740
-`EvtIntReportAuthzEventAndSourceAsync` | 24 (0x18) | Exported Function | ntdll.EvtIntReportAuthzEventAndSourceAsync | 0x0003eb54
-`EvtIntGetClassicLogDisplayName` | 22 (0x16) | Exported Function | 0x1002bae0 | 0x0002bae0
-`EvtCancel` | 3 (0x3) | Exported Function | 0x100294b0 | 0x000294b0
-`EvtClearLog` | 4 (0x4) | Exported Function | 0x100295c0 | 0x000295c0
-`EvtClose` | 5 (0x5) | Exported Function | 0x1000edd0 | 0x0000edd0
-`EvtCreateBookmark` | 6 (0x6) | Exported Function | 0x100102c0 | 0x000102c0
-`EvtCreateRenderContext` | 7 (0x7) | Exported Function | 0x1000ef10 | 0x0000ef10
-`EvtExportLog` | 8 (0x8) | Exported Function | 0x10029750 | 0x00029750
-`EvtFormatMessage` | 9 (0x9) | Exported Function | 0x10010b30 | 0x00010b30
-`EvtGetChannelConfigProperty` | 10 (0xa) | Exported Function | 0x10013dd0 | 0x00013dd0
-`EvtGetEventInfo` | 11 (0xb) | Exported Function | 0x100299a0 | 0x000299a0
-`EvtGetEventMetadataProperty` | 12 (0xc) | Exported Function | 0x10029a50 | 0x00029a50
-`EvtGetExtendedStatus` | 13 (0xd) | Exported Function | 0x10029b50 | 0x00029b50
-`EvtGetLogInfo` | 14 (0xe) | Exported Function | 0x10029b70 | 0x00029b70
-`EvtGetObjectArrayProperty` | 15 (0xf) | Exported Function | 0x10029c20 | 0x00029c20
-`EvtGetObjectArraySize` | 16 (0x10) | Exported Function | 0x10029d10 | 0x00029d10
-`EvtGetPublisherMetadataProperty` | 17 (0x11) | Exported Function | 0x10029db0 | 0x00029db0
-`EvtGetQueryInfo` | 18 (0x12) | Exported Function | 0x10029eb0 | 0x00029eb0
-`EvtIntAssertConfig` | 19 (0x13) | Exported Function | 0x10010320 | 0x00010320
-`EvtIntCreateBinXMLFromCustomXML` | 20 (0x14) | Exported Function | 0x1002b9a0 | 0x0002b9a0
-`EvtIntCreateLocalLogfile` | 21 (0x15) | Exported Function | 0x1002b9d0 | 0x0002b9d0
-`EvtIntRenderResourceEventTemplate` | 23 (0x17) | Exported Function | 0x1002be70 | 0x0002be70
-`EvtUpdateBookmark` | 45 (0x2d) | Exported Function | 0x10008810 | 0x00008810
+Function Name | Ordinal | Type
+-- | -- | --
+`EvtNextPublisherId` | 31 | Exported Function
+`EvtNextEventMetadata` | 30 | Exported Function
+`EvtOpenChannelConfig` | 32 | Exported Function
+`EvtOpenEventMetadataEnum` | 34 | Exported Function
+`EvtOpenChannelEnum` | 33 | Exported Function
+`EvtNextChannelPath` | 29 | Exported Function
+`EvtIntRetractConfig` | 26 | Exported Function
+`EvtIntReportEventAndSourceAsync` | 25 | Exported Function
+`EvtIntSysprepCleanup` | 1 | Exported Function
+`EvtNext` | 28 | Exported Function
+`EvtIntWriteXmlEventToLocalLogfile` | 27 | Exported Function
+`EvtSeek` | 42 | Exported Function
+`EvtSaveChannelConfig` | 41 | Exported Function
+`EvtSetChannelConfigProperty` | 43 | Exported Function
+`EvtUpdateBookmark` | 45 | Exported Function
+`EvtSubscribe` | 44 | Exported Function
+`EvtRender` | 40 | Exported Function
+`EvtOpenPublisherEnum` | 36 | Exported Function
+`EvtOpenLog` | 35 | Exported Function
+`EvtOpenPublisherMetadata` | 37 | Exported Function
+`EvtQuery` | 39 | Exported Function
+`EvtOpenSession` | 38 | Exported Function
+`EvtIntReportAuthzEventAndSourceAsync` | 24 | Exported Function
+`EvtFormatMessage` | 9 | Exported Function
+`EvtExportLog` | 8 | Exported Function
+`EvtGetChannelConfigProperty` | 10 | Exported Function
+`EvtGetEventMetadataProperty` | 12 | Exported Function
+`EvtGetEventInfo` | 11 | Exported Function
+`EvtCreateRenderContext` | 7 | Exported Function
+`EvtCancel` | 3 | Exported Function
+`EvtArchiveExportedLog` | 2 | Exported Function
+`EvtClearLog` | 4 | Exported Function
+`EvtCreateBookmark` | 6 | Exported Function
+`EvtClose` | 5 | Exported Function
+`EvtIntCreateBinXMLFromCustomXML` | 20 | Exported Function
+`EvtIntAssertConfig` | 19 | Exported Function
+`EvtIntCreateLocalLogfile` | 21 | Exported Function
+`EvtIntRenderResourceEventTemplate` | 23 | Exported Function
+`EvtIntGetClassicLogDisplayName` | 22 | Exported Function
+`EvtGetQueryInfo` | 18 | Exported Function
+`EvtGetLogInfo` | 14 | Exported Function
+`EvtGetExtendedStatus` | 13 | Exported Function
+`EvtGetObjectArrayProperty` | 15 | Exported Function
+`EvtGetPublisherMetadataProperty` | 17 | Exported Function
+`EvtGetObjectArraySize` | 16 | Exported Function
 
 
 ## Signature

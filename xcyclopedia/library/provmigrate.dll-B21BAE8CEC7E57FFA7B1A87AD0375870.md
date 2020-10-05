@@ -24,10 +24,10 @@ PE256 | `F0807520713FE9BC8C3CD9ADF9E59E381F8521A5A6769D2D4D14585D60D5DBFF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ProvMigration` | 1 (0x1) | Exported Function | 0x100059a0 | 0x000059a0
-`RunPostPowerwashOperationsStatusPagePhase` | 2 (0x2) | Exported Function | 0x1000d0f0 | 0x0000d0f0
+Function Name | Ordinal | Type
+-- | -- | --
+`RunPostPowerwashOperationsStatusPagePhase` | 2 | Exported Function
+`ProvMigration` | 1 | Exported Function
 
 
 ## Signature

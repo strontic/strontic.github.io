@@ -24,60 +24,60 @@ PE256 | `60E9E34A135C6E63CB0B8A55DA6349372C52876E82C058B227F68642EEBE6465`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AppendPropVariant` | 1 (0x1) | Exported Function | 0x00000001801b8ac0 | 0x001b8ac0
-`MFCreatePMPMediaSession` | 28 (0x1c) | Exported Function | 0x000000018001d900 | 0x0001d900
-`MFCreatePMPServer` | 29 (0x1d) | Exported Function | 0x000000018022a0a0 | 0x0022a0a0
-`MFCreatePresentationClock` | 30 (0x1e) | Exported Function | 0x00000001801a8fb0 | 0x001a8fb0
-`MFCreateSampleCopierMFT` | 31 (0x1f) | Exported Function | 0x000000018032ec70 | 0x0032ec70
-`MFCreateSampleGrabberSinkActivate` | 32 (0x20) | Exported Function | 0x00000001802be300 | 0x002be300
-`MFCreateSequencerSegmentOffset` | 33 (0x21) | Exported Function | 0x0000000180263130 | 0x00263130
-`MFCreateSequencerSource` | 34 (0x22) | Exported Function | 0x00000001802714d0 | 0x002714d0
-`MFCreateSequencerSourceRemoteStream` | 35 (0x23) | Exported Function | 0x0000000180276280 | 0x00276280
-`MFCreateSimpleTypeHandler` | 36 (0x24) | Exported Function | 0x00000001801ba090 | 0x001ba090
-`MFCreateSoundEventSchemePlugin` | 37 (0x25) | Exported Function | 0x000000018029f1c0 | 0x0029f1c0
-`MFCreatePMPHost` | 27 (0x1b) | Exported Function | 0x000000018001ef60 | 0x0001ef60
-`MFCreateStandardQualityManager` | 38 (0x26) | Exported Function | 0x0000000180261150 | 0x00261150
-`MFCreateTopology` | 40 (0x28) | Exported Function | 0x0000000180015320 | 0x00015320
-`MFCreateTopologyNode` | 41 (0x29) | Exported Function | 0x00000001800262a0 | 0x000262a0
-`MFCreateTransformWrapper` | 42 (0x2a) | Exported Function | 0x00000001801a8fc0 | 0x001a8fc0
-`MFCreateWMAEncoderActivate` | 43 (0x2b) | Exported Function | 0x00000001801cfaa0 | 0x001cfaa0
-`MFCreateWMVEncoderActivate` | 44 (0x2c) | Exported Function | 0x00000001801cffe0 | 0x001cffe0
-`MFEnumDeviceSources` | 45 (0x2d) | Exported Function | 0x00000001802c9d40 | 0x002c9d40
-`MFGetMultipleServiceProviders` | 46 (0x2e) | Exported Function | 0x00000001801ba0a0 | 0x001ba0a0
-`MFGetService` | 47 (0x2f) | Exported Function | 0x0000000180052000 | 0x00052000
-`MFGetTopoNodeCurrentType` | 48 (0x30) | Exported Function | 0x00000001802b3e20 | 0x002b3e20
-`MFReadSequencerSegmentOffset` | 49 (0x31) | Exported Function | 0x00000001802633d0 | 0x002633d0
-`MFCreateTopoLoader` | 39 (0x27) | Exported Function | 0x00000001802a4090 | 0x002a4090
-`MFCreateMFMetadataOnPropertyStore` | 24 (0x18) | Exported Function | 0x00000001802e4370 | 0x002e4370
-`MFCreateMediaSession` | 26 (0x1a) | Exported Function | 0x000000018005f140 | 0x0005f140
-`MFCreateMediaProcessor` | 25 (0x19) | Exported Function | 0x00000001800220e0 | 0x000220e0
-`ConvertPropVariant` | 2 (0x2) | Exported Function | 0x00000001801b8ad0 | 0x001b8ad0
-`CopyPropertyStore` | 3 (0x3) | Exported Function | 0x00000001801b8ae0 | 0x001b8ae0
-`CreateNamedPropertyStore` | 4 (0x4) | Exported Function | 0x00000001801b8cb0 | 0x001b8cb0
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x00000001801a8ee0 | 0x001a8ee0
-`DllGetActivationFactory` | 6 (0x6) | Exported Function | 0x00000001801aa340 | 0x001aa340
-`DllGetClassObject` | 7 (0x7) | Exported Function | 0x0000000180089110 | 0x00089110
-`DllRegisterServer` | 8 (0x8) | Exported Function | 0x00000001801a8f30 | 0x001a8f30
-`DllUnregisterServer` | 9 (0x9) | Exported Function | 0x00000001801a8fa0 | 0x001a8fa0
-`ExtractPropVariant` | 10 (0xa) | Exported Function | 0x00000001801b8d80 | 0x001b8d80
-`MergePropertyStore` | 52 (0x34) | Exported Function | 0x00000001801b8d90 | 0x001b8d90
-`MFCopyMFMetadata` | 11 (0xb) | Exported Function | 0x00000001802e36c0 | 0x002e36c0
-`MFCopyPropertyStore` | 12 (0xc) | Exported Function | 0x00000001802e3ae0 | 0x002e3ae0
-`MFCopyStreamMetadata` | 13 (0xd) | Exported Function | 0x00000001802e3e60 | 0x002e3e60
-`MFCreateAggregateSource` | 14 (0xe) | Exported Function | 0x00000001802621e0 | 0x002621e0
-`MFCreateAppSourceProxy` | 15 (0xf) | Exported Function | 0x00000001802278b0 | 0x002278b0
-`MFCreateAudioRenderer` | 16 (0x10) | Exported Function | 0x0000000180066360 | 0x00066360
-`MFCreateAudioRendererActivate` | 17 (0x11) | Exported Function | 0x000000018007bcd0 | 0x0007bcd0
-`MFCreateDeviceSource` | 18 (0x12) | Exported Function | 0x00000001802c8f20 | 0x002c8f20
-`MFCreateDeviceSourceActivate` | 19 (0x13) | Exported Function | 0x00000001802c9ac0 | 0x002c9ac0
-`MFCreateEncryptedMediaExtensionsStoreActivate` | 20 (0x14) | Exported Function | 0x000000018009df70 | 0x0009df70
-`MFCreateExtendedCameraIntrinsicModel` | 21 (0x15) | Exported Function | 0x000000018035b4c0 | 0x0035b4c0
-`MFCreateExtendedCameraIntrinsics` | 22 (0x16) | Exported Function | 0x000000018035b5d0 | 0x0035b5d0
-`MFCreateFileSchemePlugin` | 23 (0x17) | Exported Function | 0x000000018008cea0 | 0x0008cea0
-`MFRequireProtectedEnvironment` | 50 (0x32) | Exported Function | 0x00000001801ba150 | 0x001ba150
-`MFShutdownObject` | 51 (0x33) | Exported Function | 0x00000001801ba160 | 0x001ba160
+Function Name | Ordinal | Type
+-- | -- | --
+`MFCreateSequencerSourceRemoteStream` | 35 | Exported Function
+`MFCreateSequencerSource` | 34 | Exported Function
+`MFCreateSequencerSegmentOffset` | 33 | Exported Function
+`MFCreateStandardQualityManager` | 38 | Exported Function
+`MFCreateSoundEventSchemePlugin` | 37 | Exported Function
+`MFCreateSimpleTypeHandler` | 36 | Exported Function
+`MFCreateSampleGrabberSinkActivate` | 32 | Exported Function
+`MFCreatePMPMediaSession` | 28 | Exported Function
+`MFCreatePMPHost` | 27 | Exported Function
+`MFCreateMFMetadataOnPropertyStore` | 24 | Exported Function
+`MFCreateSampleCopierMFT` | 31 | Exported Function
+`MFCreatePresentationClock` | 30 | Exported Function
+`MFCreatePMPServer` | 29 | Exported Function
+`MFGetTopoNodeCurrentType` | 48 | Exported Function
+`MFGetService` | 47 | Exported Function
+`MFGetMultipleServiceProviders` | 46 | Exported Function
+`MFShutdownObject` | 51 | Exported Function
+`MFRequireProtectedEnvironment` | 50 | Exported Function
+`MFReadSequencerSegmentOffset` | 49 | Exported Function
+`MFEnumDeviceSources` | 45 | Exported Function
+`MFCreateTopologyNode` | 41 | Exported Function
+`MFCreateTopology` | 40 | Exported Function
+`MFCreateTopoLoader` | 39 | Exported Function
+`MFCreateWMVEncoderActivate` | 44 | Exported Function
+`MFCreateWMAEncoderActivate` | 43 | Exported Function
+`MFCreateTransformWrapper` | 42 | Exported Function
+`ExtractPropVariant` | 10 | Exported Function
+`DllUnregisterServer` | 9 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`MFCopyPropertyStore` | 12 | Exported Function
+`MFCopyMFMetadata` | 11 | Exported Function
+`MergePropertyStore` | 52 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
+`CopyPropertyStore` | 3 | Exported Function
+`ConvertPropVariant` | 2 | Exported Function
+`AppendPropVariant` | 1 | Exported Function
+`DllGetActivationFactory` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`CreateNamedPropertyStore` | 4 | Exported Function
+`MFCreateExtendedCameraIntrinsics` | 22 | Exported Function
+`MFCreateExtendedCameraIntrinsicModel` | 21 | Exported Function
+`MFCreateEncryptedMediaExtensionsStoreActivate` | 20 | Exported Function
+`MFCreateMediaSession` | 26 | Exported Function
+`MFCreateMediaProcessor` | 25 | Exported Function
+`MFCreateFileSchemePlugin` | 23 | Exported Function
+`MFCreateDeviceSourceActivate` | 19 | Exported Function
+`MFCreateAppSourceProxy` | 15 | Exported Function
+`MFCreateAggregateSource` | 14 | Exported Function
+`MFCopyStreamMetadata` | 13 | Exported Function
+`MFCreateDeviceSource` | 18 | Exported Function
+`MFCreateAudioRendererActivate` | 17 | Exported Function
+`MFCreateAudioRenderer` | 16 | Exported Function
 
 
 ## Signature

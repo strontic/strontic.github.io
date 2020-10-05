@@ -24,25 +24,25 @@ PE256 | `B3353071D9B13C75298D75E960F2BF096FD63350BBD02D732A1DDB65B79FA206`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EapPeerConfigBlob2Xml` | 5 (0x5) | Exported Function | 0x0000000180002200 | 0x00002200
-`EapPeerQueryInteractiveUIInputFields` | 15 (0xf) | Exported Function | 0x00000001800127a0 | 0x000127a0
-`EapPeerQueryCredentialInputFields` | 14 (0xe) | Exported Function | 0x0000000180011120 | 0x00011120
-`EapPeerInvokeInteractiveUI` | 13 (0xd) | Exported Function | 0x0000000180010100 | 0x00010100
-`EapPeerInvokeIdentityUI` | 12 (0xc) | Exported Function | 0x000000018000f320 | 0x0000f320
-`EapPeerInvokeConfigUI` | 11 (0xb) | Exported Function | 0x000000018000f250 | 0x0000f250
-`EapPeerGetNextPageGuid` | 4 (0x4) | Exported Function | 0x00000001800102e0 | 0x000102e0
-`EapPeerQueryUIBlobFromInteractiveUIInputFields` | 16 (0x10) | Exported Function | 0x0000000180012e70 | 0x00012e70
-`EapPeerGetMethodProperties` | 3 (0x3) | Exported Function | 0x00000001800104f0 | 0x000104f0
-`EapPeerGetConfigBlobAndUserBlob` | 10 (0xa) | Exported Function | 0x000000018000ed10 | 0x0000ed10
-`EapPeerFreeMemory` | 9 (0x9) | Exported Function | 0x000000018000ecb0 | 0x0000ecb0
-`EapPeerFreeErrorMemory` | 8 (0x8) | Exported Function | 0x000000018000ec50 | 0x0000ec50
-`EapPeerCredentialsXml2Blob` | 7 (0x7) | Exported Function | 0x000000018000dab0 | 0x0000dab0
-`EapPeerCreateMethodConfiguration` | 1 (0x1) | Exported Function | 0x0000000180010f10 | 0x00010f10
-`EapPeerConfigXml2Blob` | 6 (0x6) | Exported Function | 0x0000000180007c40 | 0x00007c40
-`EapPeerGetIdentityPageGuid` | 2 (0x2) | Exported Function | 0x00000001800102a0 | 0x000102a0
-`EapPeerQueryUserBlobFromCredentialInputFields` | 17 (0x11) | Exported Function | 0x0000000180011c70 | 0x00011c70
+Function Name | Ordinal | Type
+-- | -- | --
+`EapPeerInvokeIdentityUI` | 12 | Exported Function
+`EapPeerInvokeInteractiveUI` | 13 | Exported Function
+`EapPeerGetNextPageGuid` | 4 | Exported Function
+`EapPeerInvokeConfigUI` | 11 | Exported Function
+`EapPeerQueryUIBlobFromInteractiveUIInputFields` | 16 | Exported Function
+`EapPeerQueryUserBlobFromCredentialInputFields` | 17 | Exported Function
+`EapPeerQueryCredentialInputFields` | 14 | Exported Function
+`EapPeerQueryInteractiveUIInputFields` | 15 | Exported Function
+`EapPeerGetMethodProperties` | 3 | Exported Function
+`EapPeerCreateMethodConfiguration` | 1 | Exported Function
+`EapPeerCredentialsXml2Blob` | 7 | Exported Function
+`EapPeerConfigBlob2Xml` | 5 | Exported Function
+`EapPeerConfigXml2Blob` | 6 | Exported Function
+`EapPeerGetConfigBlobAndUserBlob` | 10 | Exported Function
+`EapPeerGetIdentityPageGuid` | 2 | Exported Function
+`EapPeerFreeErrorMemory` | 8 | Exported Function
+`EapPeerFreeMemory` | 9 | Exported Function
 
 
 ## Signature

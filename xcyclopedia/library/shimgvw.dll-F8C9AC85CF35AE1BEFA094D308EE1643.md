@@ -24,17 +24,17 @@ PE256 | `64B269A87A460BE58519FDDF6C290AE229406F5E22BB5B883E5B6C841F212298`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 8 (0x8) | Exported Function | 0x10004140 | 0x00004140
-`DllGetClassObject` | 9 (0x9) | Exported Function | 0x10004030 | 0x00004030
-`ImageView_Fullscreen` | 1 (0x1) | Exported Function | 0x10003380 | 0x00003380
-`ImageView_FullscreenA` | 2 (0x2) | Exported Function | 0x10003400 | 0x00003400
-`ImageView_FullscreenW` | 3 (0x3) | Exported Function | 0x10003460 | 0x00003460
-`imageview_fullscreenW` | 7 (0x7) | Exported Function | 0x10003460 | 0x00003460
-`ImageView_PrintTo` | 4 (0x4) | Exported Function | 0x10003550 | 0x00003550
-`ImageView_PrintToA` | 5 (0x5) | Exported Function | 0x100036e0 | 0x000036e0
-`ImageView_PrintToW` | 6 (0x6) | Exported Function | 0x10003740 | 0x00003740
+Function Name | Ordinal | Type
+-- | -- | --
+`ImageView_PrintTo` | 4 | Exported Function
+`imageview_fullscreenW` | 7 | Exported Function
+`ImageView_PrintToW` | 6 | Exported Function
+`ImageView_PrintToA` | 5 | Exported Function
+`ImageView_FullscreenW` | 3 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
+`DllCanUnloadNow` | 8 | Exported Function
+`ImageView_FullscreenA` | 2 | Exported Function
+`ImageView_Fullscreen` | 1 | Exported Function
 
 
 ## Signature

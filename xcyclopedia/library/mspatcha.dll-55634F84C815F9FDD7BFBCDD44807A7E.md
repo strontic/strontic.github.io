@@ -24,24 +24,24 @@ PE256 | `74B25D6EA4EB64DB0AFEAE480237C2BE1F5DF369A2E4728B7A6DBF200543354E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ApplyPatchToFileA` | 1 (0x1) | Exported Function | 0x58f43430 | 0x00003430
-`ApplyPatchToFileByBuffers` | 2 (0x2) | Exported Function | 0x58f436b0 | 0x000036b0
-`ApplyPatchToFileByHandles` | 3 (0x3) | Exported Function | 0x58f433d0 | 0x000033d0
-`ApplyPatchToFileByHandlesEx` | 4 (0x4) | Exported Function | 0x58f42db0 | 0x00002db0
-`ApplyPatchToFileExA` | 5 (0x5) | Exported Function | 0x58f43460 | 0x00003460
-`ApplyPatchToFileExW` | 6 (0x6) | Exported Function | 0x58f435a0 | 0x000035a0
-`ApplyPatchToFileW` | 7 (0x7) | Exported Function | 0x58f43570 | 0x00003570
-`GetFilePatchSignatureA` | 8 (0x8) | Exported Function | 0x58f41f60 | 0x00001f60
-`GetFilePatchSignatureByBuffer` | 9 (0x9) | Exported Function | 0x58f42100 | 0x00002100
-`GetFilePatchSignatureByHandle` | 10 (0xa) | Exported Function | 0x58f42090 | 0x00002090
-`GetFilePatchSignatureW` | 11 (0xb) | Exported Function | 0x58f41fc0 | 0x00001fc0
-`NormalizeFileForPatchSignature` | 12 (0xc) | Exported Function | 0x58f41e40 | 0x00001e40
-`TestApplyPatchToFileA` | 13 (0xd) | Exported Function | 0x58f43400 | 0x00003400
-`TestApplyPatchToFileByBuffers` | 14 (0xe) | Exported Function | 0x58f43680 | 0x00003680
-`TestApplyPatchToFileByHandles` | 15 (0xf) | Exported Function | 0x58f433a0 | 0x000033a0
-`TestApplyPatchToFileW` | 16 (0x10) | Exported Function | 0x58f43540 | 0x00003540
+Function Name | Ordinal | Type
+-- | -- | --
+`GetFilePatchSignatureW` | 11 | Exported Function
+`NormalizeFileForPatchSignature` | 12 | Exported Function
+`GetFilePatchSignatureByBuffer` | 9 | Exported Function
+`GetFilePatchSignatureByHandle` | 10 | Exported Function
+`TestApplyPatchToFileByHandles` | 15 | Exported Function
+`TestApplyPatchToFileW` | 16 | Exported Function
+`TestApplyPatchToFileA` | 13 | Exported Function
+`TestApplyPatchToFileByBuffers` | 14 | Exported Function
+`ApplyPatchToFileByHandles` | 3 | Exported Function
+`ApplyPatchToFileByHandlesEx` | 4 | Exported Function
+`ApplyPatchToFileA` | 1 | Exported Function
+`ApplyPatchToFileByBuffers` | 2 | Exported Function
+`ApplyPatchToFileW` | 7 | Exported Function
+`GetFilePatchSignatureA` | 8 | Exported Function
+`ApplyPatchToFileExA` | 5 | Exported Function
+`ApplyPatchToFileExW` | 6 | Exported Function
 
 
 ## Signature

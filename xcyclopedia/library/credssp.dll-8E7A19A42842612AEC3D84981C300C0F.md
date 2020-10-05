@@ -24,34 +24,34 @@ PE256 | `B38CD4027608AF65FC95D9D00C631864CDEBB4C1C260B3D3E548A81EEF4E3335`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitSecurityInterfaceW` | 1 (0x1) | Exported Function | 0x00000001800025d0 | 0x000025d0
-`SpSetContextAttributesW` | 24 (0x18) | Exported Function | 0x0000000180002290 | 0x00002290
-`SpRevertSecurityContext` | 23 (0x17) | Exported Function | 0x0000000180002410 | 0x00002410
-`SpQuerySecurityPackageInfoW` | 22 (0x16) | Exported Function | 0x00000001800024c0 | 0x000024c0
-`SpQuerySecurityContextToken` | 21 (0x15) | Exported Function | 0x0000000180002510 | 0x00002510
-`SpQueryCredentialsAttributesW` | 20 (0x14) | Exported Function | 0x0000000180002290 | 0x00002290
-`SpQueryContextAttributesW` | 19 (0x13) | Exported Function | 0x0000000180002160 | 0x00002160
-`SpMakeSignature` | 18 (0x12) | Exported Function | 0x0000000180002440 | 0x00002440
-`SpInitializeSecurityContextW` | 17 (0x11) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`SpImportSecurityContextW` | 16 (0x10) | Exported Function | 0x0000000180002290 | 0x00002290
-`SpImpersonateSecurityContext` | 15 (0xf) | Exported Function | 0x00000001800023e0 | 0x000023e0
-`SpFreeCredentialsHandle` | 14 (0xe) | Exported Function | 0x0000000180002210 | 0x00002210
-`SpFreeContextBuffer` | 13 (0xd) | Exported Function | 0x00000001800024a0 | 0x000024a0
-`SpExportSecurityContext` | 12 (0xc) | Exported Function | 0x0000000180002290 | 0x00002290
-`SpEnumerateSecurityPackagesW` | 11 (0xb) | Exported Function | 0x0000000180002110 | 0x00002110
-`SpEncryptMessage` | 10 (0xa) | Exported Function | 0x0000000180002540 | 0x00002540
-`SpDeleteSecurityContext` | 9 (0x9) | Exported Function | 0x00000001800022a0 | 0x000022a0
-`SpDecryptMessage` | 8 (0x8) | Exported Function | 0x0000000180002570 | 0x00002570
-`SpCompleteAuthToken` | 7 (0x7) | Exported Function | 0x0000000180002290 | 0x00002290
-`SpChangeAccountPasswordW` | 6 (0x6) | Exported Function | 0x0000000180002290 | 0x00002290
-`SpApplyControlToken` | 5 (0x5) | Exported Function | 0x00000001800023b0 | 0x000023b0
-`SpAddCredentialsW` | 4 (0x4) | Exported Function | 0x0000000180002290 | 0x00002290
-`SpAcquireCredentialsHandleW` | 3 (0x3) | Exported Function | 0x0000000180001030 | 0x00001030
-`SpAcceptSecurityContext` | 2 (0x2) | Exported Function | 0x0000000180001bc0 | 0x00001bc0
-`SpSetCredentialsAttributesW` | 25 (0x19) | Exported Function | 0x00000001800025a0 | 0x000025a0
-`SpVerifySignature` | 26 (0x1a) | Exported Function | 0x0000000180002470 | 0x00002470
+Function Name | Ordinal | Type
+-- | -- | --
+`SpInitializeSecurityContextW` | 17 | Exported Function
+`SpMakeSignature` | 18 | Exported Function
+`SpQueryContextAttributesW` | 19 | Exported Function
+`SpFreeCredentialsHandle` | 14 | Exported Function
+`SpImpersonateSecurityContext` | 15 | Exported Function
+`SpImportSecurityContextW` | 16 | Exported Function
+`SpQueryCredentialsAttributesW` | 20 | Exported Function
+`SpSetContextAttributesW` | 24 | Exported Function
+`SpSetCredentialsAttributesW` | 25 | Exported Function
+`SpVerifySignature` | 26 | Exported Function
+`SpQuerySecurityContextToken` | 21 | Exported Function
+`SpQuerySecurityPackageInfoW` | 22 | Exported Function
+`SpRevertSecurityContext` | 23 | Exported Function
+`SpAddCredentialsW` | 4 | Exported Function
+`SpApplyControlToken` | 5 | Exported Function
+`SpChangeAccountPasswordW` | 6 | Exported Function
+`InitSecurityInterfaceW` | 1 | Exported Function
+`SpAcceptSecurityContext` | 2 | Exported Function
+`SpAcquireCredentialsHandleW` | 3 | Exported Function
+`SpCompleteAuthToken` | 7 | Exported Function
+`SpEnumerateSecurityPackagesW` | 11 | Exported Function
+`SpExportSecurityContext` | 12 | Exported Function
+`SpFreeContextBuffer` | 13 | Exported Function
+`SpDecryptMessage` | 8 | Exported Function
+`SpDeleteSecurityContext` | 9 | Exported Function
+`SpEncryptMessage` | 10 | Exported Function
 
 
 ## Signature

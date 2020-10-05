@@ -24,9 +24,9 @@ PE256 | `08C209BFA2C2386D201260E661534BE0B4E759E232504950F73EAD0935FBB990`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Sysprep_Specialize_UtilityVm` | 1 (0x1) | Exported Function | 0x00000001800010a0 | 0x000010a0
+Function Name | Ordinal | Type
+-- | -- | --
+`Sysprep_Specialize_UtilityVm` | 1 | Exported Function
 
 
 ## Signature

@@ -24,24 +24,10 @@ PE256 | `A5068C6E3859D69D7860858563ED2E74999512E5997F93F9300768655C0078B0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateHardwareEventMoniker` | 16 (0x10) | Exported Function | 0x00000001800011c0 | 0x000011c0
-`HardwareDetectionServiceMain` | 15 (0xf) | Exported Function | 0x0000000180010c70 | 0x00010c70
-`Ordinal1` | 1 (0x1) | Exported Function | SHUNIMPL.#411 | 0x00039ccd
-`Ordinal10` | 10 (0xa) | Exported Function | SHUNIMPL.#420 | 0x00039d05
-`Ordinal11` | 11 (0xb) | Exported Function | SHUNIMPL.#421 | 0x00039d21
-`Ordinal12` | 12 (0xc) | Exported Function | SHUNIMPL.#422 | 0x00039cf7
-`Ordinal13` | 13 (0xd) | Exported Function | SHUNIMPL.#393 | 0x00039ce9
-`Ordinal14` | 14 (0xe) | Exported Function | SHUNIMPL.#394 | 0x00039d3d
-`Ordinal2` | 2 (0x2) | Exported Function | SHUNIMPL.#412 | 0x00039cbf
-`Ordinal3` | 3 (0x3) | Exported Function | SHUNIMPL.#413 | 0x00039c87
-`Ordinal4` | 4 (0x4) | Exported Function | SHUNIMPL.#414 | 0x00039c95
-`Ordinal5` | 5 (0x5) | Exported Function | SHUNIMPL.#415 | 0x00039ca3
-`Ordinal6` | 6 (0x6) | Exported Function | SHUNIMPL.#416 | 0x00039cb1
-`Ordinal7` | 7 (0x7) | Exported Function | SHUNIMPL.#417 | 0x00039cdb
-`Ordinal8` | 8 (0x8) | Exported Function | SHUNIMPL.#418 | 0x00039d2f
-`Ordinal9` | 9 (0x9) | Exported Function | SHUNIMPL.#419 | 0x00039d13
+Function Name | Ordinal | Type
+-- | -- | --
+`HardwareDetectionServiceMain` | 15 | Exported Function
+`CreateHardwareEventMoniker` | 16 | Exported Function
 
 
 ## Signature

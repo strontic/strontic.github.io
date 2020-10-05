@@ -24,18 +24,18 @@ PE256 | `5AF0E551181703A98A2EC6517E2B75607616586A79B02A643C9AA4E267BC524F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateIndirectData` | 1 (0x1) | Exported Function | 0x0000000180008d90 | 0x00008d90
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x0000000180001760 | 0x00001760
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x0000000180006180 | 0x00006180
-`DllRegisterServer` | 9 (0x9) | Exported Function | 0x00000001800061d0 | 0x000061d0
-`DllUnregisterServer` | 10 (0xa) | Exported Function | 0x0000000180006620 | 0x00006620
-`GetSignedDataMsg` | 2 (0x2) | Exported Function | 0x0000000180001150 | 0x00001150
-`IsFileSupportedName` | 3 (0x3) | Exported Function | 0x0000000180001010 | 0x00001010
-`PutSignedDataMsg` | 4 (0x4) | Exported Function | 0x0000000180009e20 | 0x00009e20
-`RemoveSignedDataMsg` | 5 (0x5) | Exported Function | 0x0000000180009fb0 | 0x00009fb0
-`VerifyIndirectData` | 6 (0x6) | Exported Function | 0x000000018000a5b0 | 0x0000a5b0
+Function Name | Ordinal | Type
+-- | -- | --
+`IsFileSupportedName` | 3 | Exported Function
+`GetSignedDataMsg` | 2 | Exported Function
+`PutSignedDataMsg` | 4 | Exported Function
+`VerifyIndirectData` | 6 | Exported Function
+`RemoveSignedDataMsg` | 5 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`CreateIndirectData` | 1 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
 
 
 ## Signature

@@ -24,15 +24,15 @@ PE256 | `480BB299E9ED57C99D3321AD9DBE14D0B43196FDC9AEB459DFD61A72620999CF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CscNetApiGetInterface` | 1 (0x1) | Exported Function | 0x10002870 | 0x00002870
-`CscSearchApiGetInterface` | 2 (0x2) | Exported Function | 0x10007fe0 | 0x00007fe0
-`OfflineFilesEnable` | 3 (0x3) | Exported Function | 0x10006070 | 0x00006070
-`OfflineFilesGetShareCachingMode` | 4 (0x4) | Exported Function | 0x10006430 | 0x00006430
-`OfflineFilesQueryStatus` | 5 (0x5) | Exported Function | 0x10003570 | 0x00003570
-`OfflineFilesQueryStatusEx` | 6 (0x6) | Exported Function | 0x100035d0 | 0x000035d0
-`OfflineFilesStart` | 7 (0x7) | Exported Function | 0x100064d0 | 0x000064d0
+Function Name | Ordinal | Type
+-- | -- | --
+`OfflineFilesQueryStatus` | 5 | Exported Function
+`OfflineFilesQueryStatusEx` | 6 | Exported Function
+`OfflineFilesStart` | 7 | Exported Function
+`OfflineFilesGetShareCachingMode` | 4 | Exported Function
+`CscNetApiGetInterface` | 1 | Exported Function
+`CscSearchApiGetInterface` | 2 | Exported Function
+`OfflineFilesEnable` | 3 | Exported Function
 
 
 ## Signature

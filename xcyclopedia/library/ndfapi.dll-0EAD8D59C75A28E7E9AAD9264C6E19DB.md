@@ -24,36 +24,36 @@ PE256 | `E6F7EB645770E30D75FC8F63E8F4A15FF1BB3DCB34690C07F18221C007F6ACBD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x0000000180001410 | 0x00001410
-`NdfRunDllDuplicateIPDefendingSystem` | 4 (0x4) | Exported Function | 0x0000000180006f80 | 0x00006f80
-`NdfRunDllDiagnoseWithAnswerFile` | 3 (0x3) | Exported Function | 0x000000018000b0e0 | 0x0000b0e0
-`NdfRunDllDiagnoseNetConnectionIncident` | 2 (0x2) | Exported Function | 0x0000000180006df0 | 0x00006df0
-`NdfRunDllDiagnoseIncident` | 1 (0x1) | Exported Function | 0x0000000180006db0 | 0x00006db0
-`NdfRepairIncidentEx` | 28 (0x1c) | Exported Function | 0x0000000180014170 | 0x00014170
-`NdfRepairIncident` | 27 (0x1b) | Exported Function | 0x0000000180014120 | 0x00014120
-`NdfGetTraceFile` | 26 (0x1a) | Exported Function | 0x0000000180014230 | 0x00014230
-`NdfExecuteDiagnosis` | 25 (0x19) | Exported Function | 0x0000000180005c20 | 0x00005c20
-`NdfDiagnoseIncident` | 24 (0x18) | Exported Function | 0x00000001800140e0 | 0x000140e0
-`NdfCreateWinSockIncident` | 23 (0x17) | Exported Function | 0x0000000180005c40 | 0x00005c40
-`NdfCreateWebIncidentEx` | 22 (0x16) | Exported Function | 0x0000000180006150 | 0x00006150
-`NdfCreateWebIncident` | 21 (0x15) | Exported Function | 0x0000000180006040 | 0x00006040
-`NdfCreateSharingIncident` | 20 (0x14) | Exported Function | 0x0000000180006280 | 0x00006280
-`NdfCreatePnrpIncident` | 19 (0x13) | Exported Function | 0x00000001800065c0 | 0x000065c0
-`NdfCreateNetConnectionIncident` | 18 (0x12) | Exported Function | 0x0000000180006540 | 0x00006540
-`NdfCreateIncident` | 17 (0x11) | Exported Function | 0x0000000180005800 | 0x00005800
-`NdfCreateInboundIncident` | 16 (0x10) | Exported Function | 0x0000000180006a10 | 0x00006a10
-`NdfCreateGroupingIncident` | 15 (0xf) | Exported Function | 0x0000000180006770 | 0x00006770
-`NdfCreateDNSIncident` | 14 (0xe) | Exported Function | 0x0000000180006370 | 0x00006370
-`NdfCreateConnectivityIncident` | 13 (0xd) | Exported Function | 0x0000000180006480 | 0x00006480
-`NdfCloseIncident` | 12 (0xc) | Exported Function | 0x0000000180006c90 | 0x00006c90
-`NdfCancelIncident` | 11 (0xb) | Exported Function | 0x00000001800141b0 | 0x000141b0
-`DllUnregisterServer` | 10 (0xa) | Exported Function | 0x00000001800016d0 | 0x000016d0
-`DllRegisterServer` | 9 (0x9) | Exported Function | 0x0000000180001590 | 0x00001590
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x0000000180001450 | 0x00001450
-`NdfRunDllDuplicateIPOffendingSystem` | 5 (0x5) | Exported Function | 0x0000000180007280 | 0x00007280
-`NdfRunDllHelpTopic` | 6 (0x6) | Exported Function | 0x0000000180006cd0 | 0x00006cd0
+Function Name | Ordinal | Type
+-- | -- | --
+`NdfExecuteDiagnosis` | 25 | Exported Function
+`NdfGetTraceFile` | 26 | Exported Function
+`NdfRepairIncident` | 27 | Exported Function
+`NdfDiagnoseIncident` | 24 | Exported Function
+`NdfCreateWebIncident` | 21 | Exported Function
+`NdfCreateWebIncidentEx` | 22 | Exported Function
+`NdfCreateWinSockIncident` | 23 | Exported Function
+`NdfRunDllDuplicateIPDefendingSystem` | 4 | Exported Function
+`NdfRunDllDuplicateIPOffendingSystem` | 5 | Exported Function
+`NdfRunDllHelpTopic` | 6 | Exported Function
+`NdfRunDllDiagnoseWithAnswerFile` | 3 | Exported Function
+`NdfRepairIncidentEx` | 28 | Exported Function
+`NdfRunDllDiagnoseIncident` | 1 | Exported Function
+`NdfRunDllDiagnoseNetConnectionIncident` | 2 | Exported Function
+`NdfCancelIncident` | 11 | Exported Function
+`NdfCloseIncident` | 12 | Exported Function
+`NdfCreateConnectivityIncident` | 13 | Exported Function
+`DllUnregisterServer` | 10 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllRegisterServer` | 9 | Exported Function
+`NdfCreateNetConnectionIncident` | 18 | Exported Function
+`NdfCreatePnrpIncident` | 19 | Exported Function
+`NdfCreateSharingIncident` | 20 | Exported Function
+`NdfCreateIncident` | 17 | Exported Function
+`NdfCreateDNSIncident` | 14 | Exported Function
+`NdfCreateGroupingIncident` | 15 | Exported Function
+`NdfCreateInboundIncident` | 16 | Exported Function
 
 
 ## Signature

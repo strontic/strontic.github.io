@@ -24,14 +24,14 @@ PE256 | `8F6DE6912B3CF14D4A8E73EAE5F405B3DF7E820C5CF987735152BFCB586938D9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WSDCHNGRChallengeDeviceClass` | 1 (0x1) | Exported Function | 0x0000000180004120 | 0x00004120
-`WSDCHNGRInitialize` | 2 (0x2) | Exported Function | 0x0000000180003e70 | 0x00003e70
-`WSDCHNGRRegisterDeviceToChallenge` | 3 (0x3) | Exported Function | 0x0000000180003f10 | 0x00003f10
-`WSDCHNGRRegisterDeviceToChallengeByGlobalId` | 4 (0x4) | Exported Function | 0x00000001800040d0 | 0x000040d0
-`WSDCHNGRRemoveDevice` | 5 (0x5) | Exported Function | 0x0000000180004180 | 0x00004180
-`WSDCHNGRShutdown` | 6 (0x6) | Exported Function | 0x0000000180003ec0 | 0x00003ec0
+Function Name | Ordinal | Type
+-- | -- | --
+`WSDCHNGRRegisterDeviceToChallengeByGlobalId` | 4 | Exported Function
+`WSDCHNGRRemoveDevice` | 5 | Exported Function
+`WSDCHNGRShutdown` | 6 | Exported Function
+`WSDCHNGRChallengeDeviceClass` | 1 | Exported Function
+`WSDCHNGRInitialize` | 2 | Exported Function
+`WSDCHNGRRegisterDeviceToChallenge` | 3 | Exported Function
 
 
 ## Signature

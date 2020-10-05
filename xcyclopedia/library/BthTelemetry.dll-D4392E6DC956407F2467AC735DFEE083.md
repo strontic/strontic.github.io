@@ -24,15 +24,15 @@ PE256 | `30751314E8CF74D7C31A9208F574948626B80370DE3749840E1CD33F77B88407`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BthCollectFingerprintInfo` | 1 (0x1) | Exported Function | 0x10002860 | 0x00002860
-`BthProcessEventDataDword` | 2 (0x2) | Exported Function | 0x10002380 | 0x00002380
-`BthProcessEventOccurrence` | 3 (0x3) | Exported Function | 0x10002250 | 0x00002250
-`BthProcessEventOccurrenceBthaddr` | 4 (0x4) | Exported Function | 0x100022b0 | 0x000022b0
-`BthProcessEventOccurrenceResult` | 5 (0x5) | Exported Function | 0x10002280 | 0x00002280
-`BthProcessEventOccurrenceResultBthaddr` | 6 (0x6) | Exported Function | 0x100022e0 | 0x000022e0
-`BthProcessRpalEventOccurrence` | 7 (0x7) | Exported Function | 0x10002310 | 0x00002310
+Function Name | Ordinal | Type
+-- | -- | --
+`BthProcessEventOccurrenceResult` | 5 | Exported Function
+`BthProcessEventOccurrenceResultBthaddr` | 6 | Exported Function
+`BthProcessRpalEventOccurrence` | 7 | Exported Function
+`BthProcessEventOccurrenceBthaddr` | 4 | Exported Function
+`BthCollectFingerprintInfo` | 1 | Exported Function
+`BthProcessEventDataDword` | 2 | Exported Function
+`BthProcessEventOccurrence` | 3 | Exported Function
 
 
 ## Signature

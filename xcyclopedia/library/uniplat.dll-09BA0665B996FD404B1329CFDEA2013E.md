@@ -24,34 +24,34 @@ PE256 | `E9F4CCCD52039C337B3E2924B1B092A5457DC399579E4680CF6384273499E45B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AllocateOverStructEx` | 113 (0x71) | Exported Function | 0x0000000180001c00 | 0x00001c00
-`UnimodemWaitCommEventEx` | 105 (0x69) | Exported Function | 0x0000000180001b50 | 0x00001b50
-`UnimodemReadFileEx` | 102 (0x66) | Exported Function | 0x0000000180001b10 | 0x00001b10
-`UnimodemQueueUserAPC` | 106 (0x6a) | Exported Function | 0x0000000180001bb0 | 0x00001bb0
-`UnimodemNotifyTSP` | 207 (0xcf) | Exported Function | 0x00000001800023a0 | 0x000023a0
-`UnimodemDeviceIoControlEx` | 104 (0x68) | Exported Function | 0x0000000180001a90 | 0x00001a90
-`UmPlatformInitialize` | 100 (0x64) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`UmPlatformDeinitialize` | 101 (0x65) | Exported Function | 0x0000000180002050 | 0x00002050
-`SyncDeviceIoControl` | 116 (0x74) | Exported Function | 0x0000000180001cb0 | 0x00001cb0
-`StopMonitorThread` | 211 (0xd3) | Exported Function | 0x0000000180001640 | 0x00001640
-`StopMonitoringHandle` | 213 (0xd5) | Exported Function | 0x0000000180001880 | 0x00001880
-`StartMonitorThread` | 210 (0xd2) | Exported Function | 0x0000000180001550 | 0x00001550
-`SetUnimodemTimer` | 109 (0x6d) | Exported Function | 0x0000000180002310 | 0x00002310
-`ResetCallCount` | 216 (0xd8) | Exported Function | 0x00000001800019d0 | 0x000019d0
-`ReinitOverStruct` | 115 (0x73) | Exported Function | 0x0000000180001c70 | 0x00001c70
-`MonitorHandle` | 212 (0xd4) | Exported Function | 0x0000000180001720 | 0x00001720
-`FreeUnimodemTimer` | 108 (0x6c) | Exported Function | 0x00000001800022b0 | 0x000022b0
-`FreeOverStruct` | 114 (0x72) | Exported Function | 0x0000000180001c50 | 0x00001c50
-`DestroyOverStructPool` | 112 (0x70) | Exported Function | 0x0000000180001bf0 | 0x00001bf0
-`CreateUnimodemTimer` | 107 (0x6b) | Exported Function | 0x0000000180002220 | 0x00002220
-`CreateOverStructPool` | 111 (0x6f) | Exported Function | 0x0000000180001be0 | 0x00001be0
-`CancelUnimodemTimer` | 110 (0x6e) | Exported Function | 0x0000000180002370 | 0x00002370
-`CallEnding` | 215 (0xd7) | Exported Function | 0x0000000180001970 | 0x00001970
-`CallBeginning` | 214 (0xd6) | Exported Function | 0x0000000180001910 | 0x00001910
-`UnimodemWriteFileEx` | 103 (0x67) | Exported Function | 0x0000000180001b30 | 0x00001b30
-`WinntIsWorkstation` | 117 (0x75) | Exported Function | 0x0000000180002120 | 0x00002120
+Function Name | Ordinal | Type
+-- | -- | --
+`SyncDeviceIoControl` | 116 | Exported Function
+`UmPlatformDeinitialize` | 101 | Exported Function
+`UmPlatformInitialize` | 100 | Exported Function
+`StartMonitorThread` | 210 | Exported Function
+`StopMonitoringHandle` | 213 | Exported Function
+`StopMonitorThread` | 211 | Exported Function
+`UnimodemDeviceIoControlEx` | 104 | Exported Function
+`UnimodemWaitCommEventEx` | 105 | Exported Function
+`UnimodemWriteFileEx` | 103 | Exported Function
+`WinntIsWorkstation` | 117 | Exported Function
+`UnimodemNotifyTSP` | 207 | Exported Function
+`UnimodemQueueUserAPC` | 106 | Exported Function
+`UnimodemReadFileEx` | 102 | Exported Function
+`CancelUnimodemTimer` | 110 | Exported Function
+`CreateOverStructPool` | 111 | Exported Function
+`CreateUnimodemTimer` | 107 | Exported Function
+`AllocateOverStructEx` | 113 | Exported Function
+`CallBeginning` | 214 | Exported Function
+`CallEnding` | 215 | Exported Function
+`DestroyOverStructPool` | 112 | Exported Function
+`ReinitOverStruct` | 115 | Exported Function
+`ResetCallCount` | 216 | Exported Function
+`SetUnimodemTimer` | 109 | Exported Function
+`FreeOverStruct` | 114 | Exported Function
+`FreeUnimodemTimer` | 108 | Exported Function
+`MonitorHandle` | 212 | Exported Function
 
 
 ## Signature

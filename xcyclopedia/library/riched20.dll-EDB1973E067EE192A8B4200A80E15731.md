@@ -26,17 +26,17 @@ PE256 | `FCFD4BBE46018BB6957B0D0D085E0D146DEC9112F3EA91A85EDF2AE48727F21D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateTextServices` | 4 (0x4) | Exported Function | 0x460d5fc0 | 0x00055fc0
-`IID_IRichEditOle` | 2 (0x2) | Exported Function | 0x46085170 | 0x00005170
-`IID_IRichEditOleCallback` | 3 (0x3) | Exported Function | 0x460850f0 | 0x000050f0
-`IID_ITextHost` | 6 (0x6) | Exported Function | 0x46083f6c | 0x00003f6c
-`IID_ITextHost2` | 7 (0x7) | Exported Function | 0x46083f5c | 0x00003f5c
-`IID_ITextServices` | 5 (0x5) | Exported Function | 0x46083f7c | 0x00003f7c
-`REExtendedRegisterClass` | 8 (0x8) | Exported Function | 0x460beaa0 | 0x0003eaa0
-`RichEdit10ANSIWndProc` | 9 (0x9) | Exported Function | 0x460a3890 | 0x00023890
-`RichEditANSIWndProc` | 10 (0xa) | Exported Function | 0x460a3920 | 0x00023920
+Function Name | Ordinal | Type
+-- | -- | --
+`REExtendedRegisterClass` | 8 | Exported Function
+`IID_ITextServices` | 5 | Exported Function
+`RichEditANSIWndProc` | 10 | Exported Function
+`RichEdit10ANSIWndProc` | 9 | Exported Function
+`IID_ITextHost2` | 7 | Exported Function
+`IID_IRichEditOle` | 2 | Exported Function
+`CreateTextServices` | 4 | Exported Function
+`IID_ITextHost` | 6 | Exported Function
+`IID_IRichEditOleCallback` | 3 | Exported Function
 
 
 ## Signature

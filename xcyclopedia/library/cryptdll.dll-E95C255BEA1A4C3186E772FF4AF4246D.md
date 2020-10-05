@@ -24,28 +24,28 @@ PE256 | `85416216A60AAF7891395B0060E8FA50DE58070040150E02CB7FDCE8F839633E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`aesCTSDecryptMsg` | 19 (0x13) | Exported Function | 0x0000000180002aa0 | 0x00002aa0
-`MD5Init` | 16 (0x10) | Exported Function | NTDLL.MD5Init | 0x0000d63a
-`MD5Final` | 15 (0xf) | Exported Function | NTDLL.MD5Final | 0x0000d623
-`KRBFXCF2` | 14 (0xe) | Exported Function | 0x0000000180001ae0 | 0x00001ae0
-`HMACwithSHA` | 13 (0xd) | Exported Function | 0x00000001800018f0 | 0x000018f0
-`CDRegisterRng` | 12 (0xc) | Exported Function | 0x0000000180001770 | 0x00001770
-`CDRegisterCSystem` | 10 (0xa) | Exported Function | 0x0000000180001220 | 0x00001220
-`CDRegisterCheckSum` | 11 (0xb) | Exported Function | 0x0000000180001850 | 0x00001850
-`CDLocateRng` | 9 (0x9) | Exported Function | 0x00000001800017c0 | 0x000017c0
-`CDLocateCSystem` | 7 (0x7) | Exported Function | 0x00000001800015d0 | 0x000015d0
-`CDLocateCheckSum` | 8 (0x8) | Exported Function | 0x00000001800018b0 | 0x000018b0
-`CDGetIntegrityVect` | 6 (0x6) | Exported Function | 0x0000000180001350 | 0x00001350
-`CDGenerateRandomBits` | 5 (0x5) | Exported Function | 0x0000000180001740 | 0x00001740
-`CDFindCommonCSystemWithKey` | 4 (0x4) | Exported Function | 0x0000000180001690 | 0x00001690
-`CDFindCommonCSystem` | 3 (0x3) | Exported Function | 0x0000000180001610 | 0x00001610
-`CDBuildVect` | 2 (0x2) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`CDBuildIntegrityVect` | 1 (0x1) | Exported Function | 0x00000001800012e0 | 0x000012e0
-`aesCTSEncryptMsg` | 20 (0x14) | Exported Function | 0x00000001800029a0 | 0x000029a0
-`MD5Update` | 17 (0x11) | Exported Function | NTDLL.MD5Update | 0x0000d652
-`PBKDF2` | 18 (0x12) | Exported Function | 0x0000000180001a50 | 0x00001a50
+Function Name | Ordinal | Type
+-- | -- | --
+`CDRegisterRng` | 12 | Exported Function
+`HMACwithSHA` | 13 | Exported Function
+`CDRegisterCSystem` | 10 | Exported Function
+`CDLocateRng` | 9 | Exported Function
+`CDRegisterCheckSum` | 11 | Exported Function
+`MD5Update` | 17 | Exported Function
+`PBKDF2` | 18 | Exported Function
+`MD5Init` | 16 | Exported Function
+`KRBFXCF2` | 14 | Exported Function
+`MD5Final` | 15 | Exported Function
+`CDBuildVect` | 2 | Exported Function
+`CDFindCommonCSystem` | 3 | Exported Function
+`CDBuildIntegrityVect` | 1 | Exported Function
+`aesCTSDecryptMsg` | 19 | Exported Function
+`aesCTSEncryptMsg` | 20 | Exported Function
+`CDLocateCheckSum` | 8 | Exported Function
+`CDLocateCSystem` | 7 | Exported Function
+`CDGetIntegrityVect` | 6 | Exported Function
+`CDFindCommonCSystemWithKey` | 4 | Exported Function
+`CDGenerateRandomBits` | 5 | Exported Function
 
 
 ## Signature

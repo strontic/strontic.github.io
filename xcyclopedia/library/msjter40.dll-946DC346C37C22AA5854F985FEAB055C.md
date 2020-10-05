@@ -24,12 +24,12 @@ PE256 | `B327E88EFA2E2B335C3469D70FC30C1E62EBB3B46F309836494FC2D7B26B3E33`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`JetErrFormattedMessage` | 5 (0x5) | Exported Function | 0x100078b0 | 0x000078b0
-`JetErrIDAForError` | 2 (0x2) | Exported Function | 0x10007ec0 | 0x00007ec0
-`JetErrIDARawMessage` | 3 (0x3) | Exported Function | 0x10007f10 | 0x00007f10
-`JetErrRawMessage` | 4 (0x4) | Exported Function | 0x10007f50 | 0x00007f50
+Function Name | Ordinal | Type
+-- | -- | --
+`JetErrIDARawMessage` | 3 | Exported Function
+`JetErrRawMessage` | 4 | Exported Function
+`JetErrFormattedMessage` | 5 | Exported Function
+`JetErrIDAForError` | 2 | Exported Function
 
 
 ## Signature

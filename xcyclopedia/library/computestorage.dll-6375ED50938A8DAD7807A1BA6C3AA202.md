@@ -24,19 +24,19 @@ PE256 | `3410A05AECB834977D0C93C9DACC3EF33FB07E36C334EA407CFE78ACE4DF5E0C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`HcsAttachLayerStorageFilter` | 1 (0x1) | Exported Function | 0x000000018000c6d0 | 0x0000c6d0
-`HcsDestroyLayer` | 2 (0x2) | Exported Function | 0x000000018000bd50 | 0x0000bd50
-`HcsDetachLayerStorageFilter` | 3 (0x3) | Exported Function | 0x000000018000cc50 | 0x0000cc50
-`HcsExportLayer` | 4 (0x4) | Exported Function | 0x000000018000b720 | 0x0000b720
-`HcsExportLegacyWritableLayer` | 5 (0x5) | Exported Function | 0x000000018000bad0 | 0x0000bad0
-`HcsFormatWritableLayerVhd` | 6 (0x6) | Exported Function | 0x000000018000ce10 | 0x0000ce10
-`HcsGetLayerVhdMountPath` | 7 (0x7) | Exported Function | 0x000000018000d120 | 0x0000d120
-`HcsImportLayer` | 8 (0x8) | Exported Function | 0x000000018000b410 | 0x0000b410
-`HcsInitializeLegacyWritableLayer` | 9 (0x9) | Exported Function | 0x000000018000c440 | 0x0000c440
-`HcsInitializeWritableLayer` | 10 (0xa) | Exported Function | 0x000000018000c1b0 | 0x0000c1b0
-`HcsSetupBaseOSLayer` | 11 (0xb) | Exported Function | 0x000000018000bec0 | 0x0000bec0
+Function Name | Ordinal | Type
+-- | -- | --
+`HcsImportLayer` | 8 | Exported Function
+`HcsGetLayerVhdMountPath` | 7 | Exported Function
+`HcsInitializeLegacyWritableLayer` | 9 | Exported Function
+`HcsSetupBaseOSLayer` | 11 | Exported Function
+`HcsInitializeWritableLayer` | 10 | Exported Function
+`HcsFormatWritableLayerVhd` | 6 | Exported Function
+`HcsDestroyLayer` | 2 | Exported Function
+`HcsAttachLayerStorageFilter` | 1 | Exported Function
+`HcsDetachLayerStorageFilter` | 3 | Exported Function
+`HcsExportLegacyWritableLayer` | 5 | Exported Function
+`HcsExportLayer` | 4 | Exported Function
 
 
 ## Signature

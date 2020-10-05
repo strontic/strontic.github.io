@@ -24,33 +24,33 @@ PE256 | `0ED6662B674CD98935AB9123B099E640A58BD058781D14D3CA9D56CA5912C525`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x00000001800041d0 | 0x000041d0
-`WinBioUnregisterEventMonitor` | 23 (0x17) | Exported Function | winbio.WinBioUnregisterEventMonitor | 0x0000a043
-`WinBioReleaseFocus` | 22 (0x16) | Exported Function | winbio.WinBioReleaseFocus | 0x0000a00c
-`WinBioRegisterServiceMonitor` | 21 (0x15) | Exported Function | winbio.WinBioRegisterServiceMonitor | 0x00009fd5
-`WinBioRegisterEventMonitor` | 20 (0x14) | Exported Function | winbio.WinBioRegisterEventMonitor | 0x00009f96
-`WinBioOpenSession` | 19 (0x13) | Exported Function | winbio.WinBioOpenSession | 0x00009f62
-`WinBioNotifyPasswordChange` | 1 (0x1) | Exported Function | winbio.WinBioNotifyPasswordChange | 0x00009bcb
-`WinBioLogonIdentifiedUser` | 18 (0x12) | Exported Function | winbio.WinBioLogonIdentifiedUser | 0x00009f2f
-`WinBioLocateSensorWithCallback` | 17 (0x11) | Exported Function | winbio.WinBioLocateSensorWithCallback | 0x00009eef
-`WinBioLocateSensor` | 16 (0x10) | Exported Function | winbio.WinBioLocateSensor | 0x00009eb6
-`WinBioIsLegacy` | 15 (0xf) | Exported Function | 0x0000000180004880 | 0x00004880
-`WinBioUnregisterServiceMonitor` | 24 (0x18) | Exported Function | winbio.WinBioUnregisterServiceMonitor | 0x0000a086
-`WinBioIdentifyWithCallback` | 14 (0xe) | Exported Function | winbio.WinBioIdentifyWithCallback | 0x00009e72
-`WinBioGetEnabledSetting` | 12 (0xc) | Exported Function | winbio.WinBioGetEnabledSetting | 0x00009e05
-`WinBioGetDomainLogonSetting` | 11 (0xb) | Exported Function | winbio.WinBioGetDomainLogonSetting | 0x00009dca
-`WinBioEnumDatabases` | 10 (0xa) | Exported Function | winbio.WinBioEnumDatabases | 0x00009d93
-`WinBioEnrollCaptureWithCallback` | 9 (0x9) | Exported Function | winbio.WinBioEnrollCaptureWithCallback | 0x00009d58
-`WinBioCaptureSampleWithCallback` | 8 (0x8) | Exported Function | winbio.WinBioCaptureSampleWithCallback | 0x00009d11
-`WinBioCaptureSample` | 7 (0x7) | Exported Function | winbio.WinBioCaptureSample | 0x00009cd6
-`WinBioAsyncMonitorFrameworkChanges` | 6 (0x6) | Exported Function | winbio.WinBioAsyncMonitorFrameworkChanges | 0x00009c98
-`WinBioAsyncEnumDatabases` | 5 (0x5) | Exported Function | winbio.WinBioAsyncEnumDatabases | 0x00009c55
-`WinBioAcquireFocus` | 4 (0x4) | Exported Function | winbio.WinBioAcquireFocus | 0x00009c22
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x00000001800040f0 | 0x000040f0
-`WinBioGetLogonSetting` | 13 (0xd) | Exported Function | winbio.WinBioGetLogonSetting | 0x00009e3a
-`WinBioVerifyWithCallback` | 25 (0x19) | Exported Function | winbio.WinBioVerifyWithCallback | 0x0000a0c5
+Function Name | Ordinal | Type
+-- | -- | --
+`WinBioLogonIdentifiedUser` | 18 | Exported Function
+`WinBioNotifyPasswordChange` | 1 | Exported Function
+`WinBioOpenSession` | 19 | Exported Function
+`WinBioIsLegacy` | 15 | Exported Function
+`WinBioLocateSensor` | 16 | Exported Function
+`WinBioLocateSensorWithCallback` | 17 | Exported Function
+`WinBioUnregisterEventMonitor` | 23 | Exported Function
+`WinBioUnregisterServiceMonitor` | 24 | Exported Function
+`WinBioVerifyWithCallback` | 25 | Exported Function
+`WinBioRegisterEventMonitor` | 20 | Exported Function
+`WinBioRegisterServiceMonitor` | 21 | Exported Function
+`WinBioReleaseFocus` | 22 | Exported Function
+`WinBioIdentifyWithCallback` | 14 | Exported Function
+`WinBioAsyncEnumDatabases` | 5 | Exported Function
+`WinBioAsyncMonitorFrameworkChanges` | 6 | Exported Function
+`WinBioCaptureSample` | 7 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`WinBioAcquireFocus` | 4 | Exported Function
+`WinBioGetDomainLogonSetting` | 11 | Exported Function
+`WinBioGetEnabledSetting` | 12 | Exported Function
+`WinBioGetLogonSetting` | 13 | Exported Function
+`WinBioCaptureSampleWithCallback` | 8 | Exported Function
+`WinBioEnrollCaptureWithCallback` | 9 | Exported Function
+`WinBioEnumDatabases` | 10 | Exported Function
 
 
 ## Signature

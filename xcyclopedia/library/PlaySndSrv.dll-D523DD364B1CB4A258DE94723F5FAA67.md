@@ -24,12 +24,12 @@ PE256 | `E8B8BE067255F36957014A7B8638C04F1A7FAFAE77DDA4778119A781C6D58084`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180004510 | 0x00004510
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x00000001800025f0 | 0x000025f0
-`PlaySoundServerInitialize` | 3 (0x3) | Exported Function | 0x00000001800018b0 | 0x000018b0
-`PlaySoundServerTerminate` | 4 (0x4) | Exported Function | 0x0000000180004a10 | 0x00004a10
+Function Name | Ordinal | Type
+-- | -- | --
+`PlaySoundServerInitialize` | 3 | Exported Function
+`PlaySoundServerTerminate` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

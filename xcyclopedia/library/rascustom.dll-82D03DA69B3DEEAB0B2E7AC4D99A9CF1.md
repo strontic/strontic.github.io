@@ -24,15 +24,15 @@ PE256 | `D411B7DAFF83EB7F056CBAD20F028A123496CB22904D7DA0E78F26720CA3C710`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializeProtocolEngine` | 1 (0x1) | Exported Function | 0x0000000180001740 | 0x00001740
-`SendMessageToProtocolEngine` | 2 (0x2) | Exported Function | 0x00000001800019c0 | 0x000019c0
-`UninitializeProtocolEngine` | 3 (0x3) | Exported Function | 0x00000001800018f0 | 0x000018f0
-`VpnBrokerPluginIsInstalled` | 4 (0x4) | Exported Function | 0x0000000180026370 | 0x00026370
-`VpnBrokerRegisterForPluginInstallations` | 5 (0x5) | Exported Function | 0x0000000180026980 | 0x00026980
-`VpnSmCommsPluginsNotifyLogOff` | 6 (0x6) | Exported Function | 0x0000000180030500 | 0x00030500
-`VpnSmCommsPluginsRoamToBestCostInterface` | 7 (0x7) | Exported Function | 0x0000000180031440 | 0x00031440
+Function Name | Ordinal | Type
+-- | -- | --
+`VpnBrokerRegisterForPluginInstallations` | 5 | Exported Function
+`VpnSmCommsPluginsNotifyLogOff` | 6 | Exported Function
+`VpnSmCommsPluginsRoamToBestCostInterface` | 7 | Exported Function
+`VpnBrokerPluginIsInstalled` | 4 | Exported Function
+`InitializeProtocolEngine` | 1 | Exported Function
+`SendMessageToProtocolEngine` | 2 | Exported Function
+`UninitializeProtocolEngine` | 3 | Exported Function
 
 
 ## Signature

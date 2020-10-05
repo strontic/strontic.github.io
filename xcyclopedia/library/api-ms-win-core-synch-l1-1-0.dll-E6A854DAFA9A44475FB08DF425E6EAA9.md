@@ -24,49 +24,49 @@ PE256 | `5417CF9E26971DC0709F8820E7972FD84A7ECAC117365FBBF7B56CB7E3FB60AF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AcquireSRWLockExclusive` | 1 (0x1) | Exported Function | kernel32.AcquireSRWLockExclusive | 0x0000125b
-`OpenMutexW` | 23 (0x17) | Exported Function | kernel32.OpenMutexW | 0x00001652
-`OpenSemaphoreW` | 24 (0x18) | Exported Function | kernel32.OpenSemaphoreW | 0x00001675
-`OpenWaitableTimerW` | 25 (0x19) | Exported Function | kernel32.OpenWaitableTimerW | 0x000016a0
-`ReleaseMutex` | 26 (0x1a) | Exported Function | kernel32.ReleaseMutex | 0x000016c9
-`ReleaseSemaphore` | 29 (0x1d) | Exported Function | kernel32.ReleaseSemaphore | 0x0000175c
-`ReleaseSRWLockExclusive` | 27 (0x1b) | Exported Function | kernel32.ReleaseSRWLockExclusive | 0x000016f7
-`ReleaseSRWLockShared` | 28 (0x1c) | Exported Function | kernel32.ReleaseSRWLockShared | 0x0000172d
-`ResetEvent` | 30 (0x1e) | Exported Function | kernel32.ResetEvent | 0x00001781
-`SetCriticalSectionSpinCount` | 31 (0x1f) | Exported Function | kernel32.SetCriticalSectionSpinCount | 0x000017b1
-`SetEvent` | 32 (0x20) | Exported Function | kernel32.SetEvent | 0x000017df
-`SetWaitableTimer` | 33 (0x21) | Exported Function | kernel32.SetWaitableTimer | 0x00001802
-`SetWaitableTimerEx` | 34 (0x22) | Exported Function | kernel32.SetWaitableTimerEx | 0x0000182f
-`SleepEx` | 35 (0x23) | Exported Function | kernel32.SleepEx | 0x00001853
-`TryAcquireSRWLockExclusive` | 36 (0x24) | Exported Function | kernel32.TryAcquireSRWLockExclusive | 0x0000187f
-`TryAcquireSRWLockShared` | 37 (0x25) | Exported Function | kernel32.TryAcquireSRWLockShared | 0x000018bb
-`TryEnterCriticalSection` | 38 (0x26) | Exported Function | kernel32.TryEnterCriticalSection | 0x000018f4
-`WaitForMultipleObjectsEx` | 39 (0x27) | Exported Function | kernel32.WaitForMultipleObjectsEx | 0x0000192e
-`OpenEventW` | 22 (0x16) | Exported Function | kernel32.OpenEventW | 0x00001633
-`WaitForSingleObject` | 40 (0x28) | Exported Function | kernel32.WaitForSingleObject | 0x00001964
-`OpenEventA` | 21 (0x15) | Exported Function | kernel32.OpenEventA | 0x00001614
-`InitializeSRWLock` | 19 (0x13) | Exported Function | kernel32.InitializeSRWLock | 0x000015bb
-`AcquireSRWLockShared` | 2 (0x2) | Exported Function | kernel32.AcquireSRWLockShared | 0x00001291
-`CancelWaitableTimer` | 3 (0x3) | Exported Function | kernel32.CancelWaitableTimer | 0x000012c3
-`CreateEventA` | 4 (0x4) | Exported Function | kernel32.CreateEventA | 0x000012ed
-`CreateEventExA` | 5 (0x5) | Exported Function | kernel32.CreateEventExA | 0x00001312
-`CreateEventExW` | 6 (0x6) | Exported Function | kernel32.CreateEventExW | 0x00001339
-`CreateEventW` | 7 (0x7) | Exported Function | kernel32.CreateEventW | 0x0000135e
-`CreateMutexA` | 8 (0x8) | Exported Function | kernel32.CreateMutexA | 0x00001381
-`CreateMutexExA` | 9 (0x9) | Exported Function | kernel32.CreateMutexExA | 0x000013a6
-`CreateMutexExW` | 10 (0xa) | Exported Function | kernel32.CreateMutexExW | 0x000013cd
-`CreateMutexW` | 11 (0xb) | Exported Function | kernel32.CreateMutexW | 0x000013f2
-`CreateSemaphoreExW` | 12 (0xc) | Exported Function | kernel32.CreateSemaphoreExW | 0x0000141b
-`CreateWaitableTimerExW` | 13 (0xd) | Exported Function | kernel32.CreateWaitableTimerExW | 0x0000144e
-`DeleteCriticalSection` | 14 (0xe) | Exported Function | kernel32.DeleteCriticalSection | 0x00001484
-`EnterCriticalSection` | 15 (0xf) | Exported Function | kernel32.EnterCriticalSection | 0x000014b8
-`InitializeCriticalSection` | 16 (0x10) | Exported Function | kernel32.InitializeCriticalSection | 0x000014f0
-`InitializeCriticalSectionAndSpinCount` | 17 (0x11) | Exported Function | kernel32.InitializeCriticalSectionAndSpinCount | 0x00001539
-`InitializeCriticalSectionEx` | 18 (0x12) | Exported Function | kernel32.InitializeCriticalSectionEx | 0x00001584
-`LeaveCriticalSection` | 20 (0x14) | Exported Function | kernel32.LeaveCriticalSection | 0x000015eb
-`WaitForSingleObjectEx` | 41 (0x29) | Exported Function | kernel32.WaitForSingleObjectEx | 0x00001997
+Function Name | Ordinal | Type
+-- | -- | --
+`ReleaseSRWLockExclusive` | 27 | Exported Function
+`ReleaseSemaphore` | 29 | Exported Function
+`ReleaseSRWLockShared` | 28 | Exported Function
+`SetCriticalSectionSpinCount` | 31 | Exported Function
+`ResetEvent` | 30 | Exported Function
+`OpenMutexW` | 23 | Exported Function
+`OpenEventW` | 22 | Exported Function
+`OpenSemaphoreW` | 24 | Exported Function
+`ReleaseMutex` | 26 | Exported Function
+`OpenWaitableTimerW` | 25 | Exported Function
+`TryEnterCriticalSection` | 38 | Exported Function
+`TryAcquireSRWLockShared` | 37 | Exported Function
+`WaitForMultipleObjectsEx` | 39 | Exported Function
+`WaitForSingleObjectEx` | 41 | Exported Function
+`WaitForSingleObject` | 40 | Exported Function
+`SetWaitableTimer` | 33 | Exported Function
+`SetEvent` | 32 | Exported Function
+`SetWaitableTimerEx` | 34 | Exported Function
+`TryAcquireSRWLockExclusive` | 36 | Exported Function
+`SleepEx` | 35 | Exported Function
+`OpenEventA` | 21 | Exported Function
+`CreateEventW` | 7 | Exported Function
+`CreateEventExW` | 6 | Exported Function
+`CreateMutexA` | 8 | Exported Function
+`CreateMutexExW` | 10 | Exported Function
+`CreateMutexExA` | 9 | Exported Function
+`AcquireSRWLockShared` | 2 | Exported Function
+`AcquireSRWLockExclusive` | 1 | Exported Function
+`CancelWaitableTimer` | 3 | Exported Function
+`CreateEventExA` | 5 | Exported Function
+`CreateEventA` | 4 | Exported Function
+`InitializeCriticalSectionAndSpinCount` | 17 | Exported Function
+`InitializeCriticalSection` | 16 | Exported Function
+`InitializeCriticalSectionEx` | 18 | Exported Function
+`LeaveCriticalSection` | 20 | Exported Function
+`InitializeSRWLock` | 19 | Exported Function
+`CreateSemaphoreExW` | 12 | Exported Function
+`CreateMutexW` | 11 | Exported Function
+`CreateWaitableTimerExW` | 13 | Exported Function
+`EnterCriticalSection` | 15 | Exported Function
+`DeleteCriticalSection` | 14 | Exported Function
 
 
 ## Signature

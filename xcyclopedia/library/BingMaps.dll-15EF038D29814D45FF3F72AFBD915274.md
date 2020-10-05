@@ -24,9 +24,9 @@ PE256 | `7B7AD9F91A70276FD4B8B9AD2DB150884E347A2D7BBE5B4CB8C2BF4798BE33FE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetBingMapsFactory` | 1 (0x1) | Exported Function | 0x0000000180019340 | 0x00019340
+Function Name | Ordinal | Type
+-- | -- | --
+`GetBingMapsFactory` | 1 | Exported Function
 
 
 ## Signature

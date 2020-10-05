@@ -24,71 +24,71 @@ PE256 | `74F3AF48E1A778F9F8AFB414449F8C9CB00E592A24B0A1416D5E3025A45C8FEB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddLogContainer` | 2 (0x2) | Exported Function | 0x10003c50 | 0x00003c50
-`LsnIncrement` | 34 (0x22) | Exported Function | 0x100085f0 | 0x000085f0
-`LsnInvalid` | 35 (0x23) | Exported Function | 0x10007450 | 0x00007450
-`LsnLess` | 36 (0x24) | Exported Function | 0x10002d00 | 0x00002d00
-`LsnNull` | 37 (0x25) | Exported Function | 0x10007380 | 0x00007380
-`LsnRecordSequence` | 38 (0x26) | Exported Function | 0x10007430 | 0x00007430
-`PrepareLogArchive` | 39 (0x27) | Exported Function | 0x10005100 | 0x00005100
-`QueryLogPolicy` | 40 (0x28) | Exported Function | 0x100070c0 | 0x000070c0
-`ReadLogArchiveMetadata` | 41 (0x29) | Exported Function | 0x10005590 | 0x00005590
-`ReadLogNotification` | 42 (0x2a) | Exported Function | 0x10007070 | 0x00007070
-`ReadLogRecord` | 43 (0x2b) | Exported Function | 0x10005cd0 | 0x00005cd0
-`ReadLogRestartArea` | 44 (0x2c) | Exported Function | 0x10004c10 | 0x00004c10
-`ReadNextLogRecord` | 45 (0x2d) | Exported Function | 0x10005df0 | 0x00005df0
-`ReadPreviousLogRestartArea` | 46 (0x2e) | Exported Function | 0x10004ca0 | 0x00004ca0
-`LsnGreater` | 33 (0x21) | Exported Function | 0x10002d40 | 0x00002d40
-`RegisterForLogWriteNotification` | 47 (0x2f) | Exported Function | 0x10007230 | 0x00007230
-`RemoveLogContainer` | 49 (0x31) | Exported Function | 0x10003fd0 | 0x00003fd0
-`RemoveLogContainerSet` | 50 (0x32) | Exported Function | 0x10004010 | 0x00004010
-`RemoveLogPolicy` | 51 (0x33) | Exported Function | 0x10006eb0 | 0x00006eb0
-`ReserveAndAppendLog` | 52 (0x34) | Exported Function | 0x10004f80 | 0x00004f80
-`ReserveAndAppendLogAligned` | 53 (0x35) | Exported Function | 0x10004fc0 | 0x00004fc0
-`ScanLogContainers` | 54 (0x36) | Exported Function | 0x100046a0 | 0x000046a0
-`SetEndOfLog` | 55 (0x37) | Exported Function | 0x100043a0 | 0x000043a0
-`SetLogArchiveMode` | 56 (0x38) | Exported Function | 0x100049e0 | 0x000049e0
-`SetLogArchiveTail` | 57 (0x39) | Exported Function | 0x10004340 | 0x00004340
-`SetLogFileSizeWithPolicy` | 58 (0x3a) | Exported Function | 0x10006f40 | 0x00006f40
-`TerminateLogArchive` | 59 (0x3b) | Exported Function | 0x10005610 | 0x00005610
-`TerminateReadLog` | 60 (0x3c) | Exported Function | 0x100063f0 | 0x000063f0
-`TruncateLog` | 61 (0x3d) | Exported Function | 0x10004460 | 0x00004460
-`RegisterManageableLogClient` | 48 (0x30) | Exported Function | 0x10006df0 | 0x00006df0
-`ValidateLog` | 62 (0x3e) | Exported Function | 0x10005660 | 0x00005660
-`LsnEqual` | 32 (0x20) | Exported Function | 0x10002cd0 | 0x00002cd0
-`LsnCreate` | 31 (0x1f) | Exported Function | 0x100073d0 | 0x000073d0
-`AddLogContainerSet` | 3 (0x3) | Exported Function | 0x10003c90 | 0x00003c90
-`AdvanceLogBase` | 4 (0x4) | Exported Function | 0x10004ef0 | 0x00004ef0
-`AlignReservedLog` | 5 (0x5) | Exported Function | 0x10004830 | 0x00004830
-`AllocReservedLog` | 6 (0x6) | Exported Function | 0x100048a0 | 0x000048a0
-`CLFS_LSN_INVALID` | 7 (0x7) | Exported Function | 0x10002460 | 0x00002460
-`CLFS_LSN_NULL` | 8 (0x8) | Exported Function | 0x10002478 | 0x00002478
-`CloseAndResetLogFile` | 9 (0x9) | Exported Function | 0x10006450 | 0x00006450
-`CreateLogContainerScanContext` | 10 (0xa) | Exported Function | 0x100044d0 | 0x000044d0
-`CreateLogFile` | 11 (0xb) | Exported Function | 0x10003620 | 0x00003620
-`CreateLogMarshallingArea` | 12 (0xc) | Exported Function | 0x10004ad0 | 0x00004ad0
-`DeleteLogByHandle` | 13 (0xd) | Exported Function | 0x10003c00 | 0x00003c00
-`DeleteLogFile` | 14 (0xe) | Exported Function | 0x10003b70 | 0x00003b70
-`DeleteLogMarshallingArea` | 15 (0xf) | Exported Function | 0x10004bc0 | 0x00004bc0
-`LsnDecrement` | 1 (0x1) | Exported Function | 0x10008640 | 0x00008640
-`DeregisterManageableLogClient` | 16 (0x10) | Exported Function | 0x10006f00 | 0x00006f00
-`FlushLogBuffers` | 18 (0x12) | Exported Function | 0x100062a0 | 0x000062a0
-`FlushLogToLsn` | 19 (0x13) | Exported Function | 0x10006340 | 0x00006340
-`FreeReservedLog` | 20 (0x14) | Exported Function | 0x10004910 | 0x00004910
-`GetLogContainerName` | 21 (0x15) | Exported Function | 0x10006bb0 | 0x00006bb0
-`GetLogFileInformation` | 22 (0x16) | Exported Function | 0x10004970 | 0x00004970
-`GetLogIoStatistics` | 23 (0x17) | Exported Function | 0x10006ca0 | 0x00006ca0
-`GetLogReservationInfo` | 24 (0x18) | Exported Function | 0x10004e70 | 0x00004e70
-`GetNextLogArchiveExtent` | 25 (0x19) | Exported Function | 0x10005520 | 0x00005520
-`HandleLogFull` | 26 (0x1a) | Exported Function | 0x10006fa0 | 0x00006fa0
-`InstallLogPolicy` | 27 (0x1b) | Exported Function | 0x10006e60 | 0x00006e60
-`LogTailAdvanceFailure` | 28 (0x1c) | Exported Function | 0x10007000 | 0x00007000
-`LsnBlockOffset` | 29 (0x1d) | Exported Function | 0x10007410 | 0x00007410
-`LsnContainer` | 30 (0x1e) | Exported Function | 0x100073b0 | 0x000073b0
-`DumpLogRecords` | 17 (0x11) | Exported Function | 0x10006520 | 0x00006520
-`WriteLogRestartArea` | 63 (0x3f) | Exported Function | 0x10004d50 | 0x00004d50
+Function Name | Ordinal | Type
+-- | -- | --
+`ReadLogRecord` | 43 | Exported Function
+`ReadLogNotification` | 42 | Exported Function
+`ReadLogArchiveMetadata` | 41 | Exported Function
+`ReadLogRestartArea` | 44 | Exported Function
+`RegisterForLogWriteNotification` | 47 | Exported Function
+`ReadPreviousLogRestartArea` | 46 | Exported Function
+`ReadNextLogRecord` | 45 | Exported Function
+`QueryLogPolicy` | 40 | Exported Function
+`LsnInvalid` | 35 | Exported Function
+`LsnIncrement` | 34 | Exported Function
+`LsnGreater` | 33 | Exported Function
+`LsnLess` | 36 | Exported Function
+`PrepareLogArchive` | 39 | Exported Function
+`LsnRecordSequence` | 38 | Exported Function
+`LsnNull` | 37 | Exported Function
+`RegisterManageableLogClient` | 48 | Exported Function
+`TerminateLogArchive` | 59 | Exported Function
+`SetLogFileSizeWithPolicy` | 58 | Exported Function
+`SetLogArchiveTail` | 57 | Exported Function
+`TerminateReadLog` | 60 | Exported Function
+`WriteLogRestartArea` | 63 | Exported Function
+`ValidateLog` | 62 | Exported Function
+`TruncateLog` | 61 | Exported Function
+`SetLogArchiveMode` | 56 | Exported Function
+`RemoveLogPolicy` | 51 | Exported Function
+`RemoveLogContainerSet` | 50 | Exported Function
+`RemoveLogContainer` | 49 | Exported Function
+`ReserveAndAppendLog` | 52 | Exported Function
+`SetEndOfLog` | 55 | Exported Function
+`ScanLogContainers` | 54 | Exported Function
+`ReserveAndAppendLogAligned` | 53 | Exported Function
+`LsnEqual` | 32 | Exported Function
+`CreateLogMarshallingArea` | 12 | Exported Function
+`CreateLogFile` | 11 | Exported Function
+`CreateLogContainerScanContext` | 10 | Exported Function
+`DeleteLogByHandle` | 13 | Exported Function
+`DeregisterManageableLogClient` | 16 | Exported Function
+`DeleteLogMarshallingArea` | 15 | Exported Function
+`DeleteLogFile` | 14 | Exported Function
+`CloseAndResetLogFile` | 9 | Exported Function
+`AdvanceLogBase` | 4 | Exported Function
+`AddLogContainerSet` | 3 | Exported Function
+`AddLogContainer` | 2 | Exported Function
+`AlignReservedLog` | 5 | Exported Function
+`CLFS_LSN_NULL` | 8 | Exported Function
+`CLFS_LSN_INVALID` | 7 | Exported Function
+`AllocReservedLog` | 6 | Exported Function
+`DumpLogRecords` | 17 | Exported Function
+`LogTailAdvanceFailure` | 28 | Exported Function
+`InstallLogPolicy` | 27 | Exported Function
+`HandleLogFull` | 26 | Exported Function
+`LsnBlockOffset` | 29 | Exported Function
+`LsnDecrement` | 1 | Exported Function
+`LsnCreate` | 31 | Exported Function
+`LsnContainer` | 30 | Exported Function
+`GetNextLogArchiveExtent` | 25 | Exported Function
+`FreeReservedLog` | 20 | Exported Function
+`FlushLogToLsn` | 19 | Exported Function
+`FlushLogBuffers` | 18 | Exported Function
+`GetLogContainerName` | 21 | Exported Function
+`GetLogReservationInfo` | 24 | Exported Function
+`GetLogIoStatistics` | 23 | Exported Function
+`GetLogFileInformation` | 22 | Exported Function
 
 
 ## Signature

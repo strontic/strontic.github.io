@@ -24,28 +24,28 @@ PE256 | `CEE9BBD0169878ABEC1AF68E62DD2B1EB4E3C5EA495CC52EA3BEEC7D3544D66C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PsmApplicationStateNotification` | 1 (0x1) | Exported Function | 0x000000018003b100 | 0x0003b100
-`PsmInitializeServiceExtension4` | 18 (0x12) | Exported Function | 0x000000018003f0d0 | 0x0003f0d0
-`PsmInitializeServiceExtension3` | 17 (0x11) | Exported Function | 0x000000018003b100 | 0x0003b100
-`PsmInitializeServiceExtension2` | 16 (0x10) | Exported Function | 0x000000018003b100 | 0x0003b100
-`PsmInitializeServiceExtension` | 15 (0xf) | Exported Function | 0x000000018003b100 | 0x0003b100
-`PsmHostStateNotification2` | 14 (0xe) | Exported Function | 0x000000018000b1b0 | 0x0000b1b0
-`PsmHostStateNotification` | 13 (0xd) | Exported Function | 0x000000018003b100 | 0x0003b100
-`PsmHangNotification2` | 12 (0xc) | Exported Function | 0x000000018003b100 | 0x0003b100
-`PsmHangNotification` | 11 (0xb) | Exported Function | 0x000000018003b100 | 0x0003b100
-`PsmHamTerminatePackage` | 10 (0xa) | Exported Function | 0x0000000180062690 | 0x00062690
-`PsmHamTerminateHost` | 9 (0x9) | Exported Function | 0x0000000180062660 | 0x00062660
-`PsmHamTerminateApplication` | 8 (0x8) | Exported Function | 0x0000000180062620 | 0x00062620
-`PsmHamRegisterProcess` | 7 (0x7) | Exported Function | 0x00000001800368c0 | 0x000368c0
-`PsmHamGetPackageDebugMode` | 6 (0x6) | Exported Function | 0x0000000180024bf0 | 0x00024bf0
-`PsmCrmSuspendNotification` | 5 (0x5) | Exported Function | 0x000000018003c030 | 0x0003c030
-`PsmCrmStart` | 4 (0x4) | Exported Function | 0x0000000180042330 | 0x00042330
-`PsmCrmSessionUserNotification` | 3 (0x3) | Exported Function | 0x000000018003d950 | 0x0003d950
-`PsmCrmCleanup` | 2 (0x2) | Exported Function | 0x0000000180062610 | 0x00062610
-`PsmMemoryLimitNotification` | 19 (0x13) | Exported Function | 0x000000018003b100 | 0x0003b100
-`PsmMemoryLimitNotification2` | 20 (0x14) | Exported Function | 0x0000000180033030 | 0x00033030
+Function Name | Ordinal | Type
+-- | -- | --
+`PsmHostStateNotification2` | 14 | Exported Function
+`PsmInitializeServiceExtension` | 15 | Exported Function
+`PsmHostStateNotification` | 13 | Exported Function
+`PsmHangNotification` | 11 | Exported Function
+`PsmHangNotification2` | 12 | Exported Function
+`PsmMemoryLimitNotification` | 19 | Exported Function
+`PsmMemoryLimitNotification2` | 20 | Exported Function
+`PsmInitializeServiceExtension4` | 18 | Exported Function
+`PsmInitializeServiceExtension2` | 16 | Exported Function
+`PsmInitializeServiceExtension3` | 17 | Exported Function
+`PsmCrmStart` | 4 | Exported Function
+`PsmCrmSuspendNotification` | 5 | Exported Function
+`PsmCrmSessionUserNotification` | 3 | Exported Function
+`PsmApplicationStateNotification` | 1 | Exported Function
+`PsmCrmCleanup` | 2 | Exported Function
+`PsmHamTerminateHost` | 9 | Exported Function
+`PsmHamTerminatePackage` | 10 | Exported Function
+`PsmHamTerminateApplication` | 8 | Exported Function
+`PsmHamGetPackageDebugMode` | 6 | Exported Function
+`PsmHamRegisterProcess` | 7 | Exported Function
 
 
 ## Signature

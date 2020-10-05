@@ -24,41 +24,41 @@ PE256 | `59571F8FECFA0CEF394DD2F486546D5DBA0A58EC6118892F838D817E08CC654C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CoreUICallComputeMaximumMessageSize` | 1 (0x1) | Exported Function | 0x0000000180002a80 | 0x00002a80
-`MsgStringCreateStack` | 31 (0x1f) | Exported Function | 0x000000018004b120 | 0x0004b120
-`MsgStringCreateShared` | 30 (0x1e) | Exported Function | 0x0000000180044080 | 0x00044080
-`MsgRelease` | 29 (0x1d) | Exported Function | 0x0000000180044850 | 0x00044850
-`MsgBufferShare` | 28 (0x1c) | Exported Function | 0x0000000180044010 | 0x00044010
-`MsgBlobCreateStack` | 27 (0x1b) | Exported Function | 0x000000018004a990 | 0x0004a990
-`MsgBlobCreateShared` | 26 (0x1a) | Exported Function | 0x0000000180046850 | 0x00046850
-`GetDispatcherQueueForCurrentThread` | 25 (0x19) | Exported Function | 0x0000000180052230 | 0x00052230
-`DllGetClassObject` | 24 (0x18) | Exported Function | 0x0000000180095a80 | 0x00095a80
-`DllGetActivationFactory` | 23 (0x17) | Exported Function | 0x0000000180052a40 | 0x00052a40
-`DllCanUnloadNow` | 22 (0x16) | Exported Function | 0x0000000180051d00 | 0x00051d00
-`CreateDispatcherQueueForCurrentThread` | 21 (0x15) | Exported Function | 0x0000000180095960 | 0x00095960
-`CreateDispatcherQueueController` | 20 (0x14) | Exported Function | 0x0000000180005ca0 | 0x00005ca0
-`CoreUIUninitializeTestService` | 19 (0x13) | Exported Function | 0x00000001800912d0 | 0x000912d0
-`CoreUIRouteToTestRegistrar` | 18 (0x12) | Exported Function | 0x0000000180091260 | 0x00091260
-`ServiceMain` | 32 (0x20) | Exported Function | 0x0000000180056ba0 | 0x00056ba0
-`CoreUIOpenExisting` | 17 (0x11) | Exported Function | 0x000000018004eac0 | 0x0004eac0
-`CoreUICreateSystemWindowIDManager` | 15 (0xf) | Exported Function | 0x0000000180054420 | 0x00054420
-`CoreUICreateEx` | 14 (0xe) | Exported Function | 0x000000018004d0c0 | 0x0004d0c0
-`CoreUICreateClientWindowIDManager` | 13 (0xd) | Exported Function | 0x0000000180070500 | 0x00070500
-`CoreUICreateAnonymousStream` | 12 (0xc) | Exported Function | 0x0000000180092f10 | 0x00092f10
-`CoreUICreate` | 11 (0xb) | Exported Function | 0x0000000180049180 | 0x00049180
-`CoreUIConfigureUserIntegration` | 10 (0xa) | Exported Function | 0x0000000180084dd0 | 0x00084dd0
-`CoreUIConfigureTestHost` | 9 (0x9) | Exported Function | 0x0000000180084dc0 | 0x00084dc0
-`CoreUICallSendVaList` | 8 (0x8) | Exported Function | 0x0000000180092ad0 | 0x00092ad0
-`CoreUICallSend` | 7 (0x7) | Exported Function | 0x0000000180002b10 | 0x00002b10
-`CoreUICallReceive` | 6 (0x6) | Exported Function | 0x000000018003bd10 | 0x0003bd10
-`CoreUICallGetAddressOfParameterInBuffer` | 5 (0x5) | Exported Function | 0x0000000180092a60 | 0x00092a60
-`CoreUICallCreateEndpointHostWithSendPriority` | 4 (0x4) | Exported Function | 0x0000000180048ea0 | 0x00048ea0
-`CoreUICallCreateEndpointHost` | 3 (0x3) | Exported Function | 0x0000000180048e90 | 0x00048e90
-`CoreUICallCreateConversationHost` | 2 (0x2) | Exported Function | 0x0000000180049040 | 0x00049040
-`CoreUIInitializeTestService` | 16 (0x10) | Exported Function | 0x0000000180091240 | 0x00091240
-`SvchostPushServiceGlobals` | 33 (0x21) | Exported Function | 0x0000000180055f20 | 0x00055f20
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetActivationFactory` | 23 | Exported Function
+`DllCanUnloadNow` | 22 | Exported Function
+`GetDispatcherQueueForCurrentThread` | 25 | Exported Function
+`DllGetClassObject` | 24 | Exported Function
+`CoreUIUninitializeTestService` | 19 | Exported Function
+`CoreUIRouteToTestRegistrar` | 18 | Exported Function
+`CreateDispatcherQueueForCurrentThread` | 21 | Exported Function
+`CreateDispatcherQueueController` | 20 | Exported Function
+`MsgStringCreateStack` | 31 | Exported Function
+`MsgStringCreateShared` | 30 | Exported Function
+`SvchostPushServiceGlobals` | 33 | Exported Function
+`ServiceMain` | 32 | Exported Function
+`MsgBlobCreateStack` | 27 | Exported Function
+`MsgBlobCreateShared` | 26 | Exported Function
+`MsgRelease` | 29 | Exported Function
+`MsgBufferShare` | 28 | Exported Function
+`CoreUIOpenExisting` | 17 | Exported Function
+`CoreUICallReceive` | 6 | Exported Function
+`CoreUICallGetAddressOfParameterInBuffer` | 5 | Exported Function
+`CoreUICallSendVaList` | 8 | Exported Function
+`CoreUICallSend` | 7 | Exported Function
+`CoreUICallCreateConversationHost` | 2 | Exported Function
+`CoreUICallComputeMaximumMessageSize` | 1 | Exported Function
+`CoreUICallCreateEndpointHostWithSendPriority` | 4 | Exported Function
+`CoreUICallCreateEndpointHost` | 3 | Exported Function
+`CoreUICreateEx` | 14 | Exported Function
+`CoreUICreateClientWindowIDManager` | 13 | Exported Function
+`CoreUIInitializeTestService` | 16 | Exported Function
+`CoreUICreateSystemWindowIDManager` | 15 | Exported Function
+`CoreUIConfigureUserIntegration` | 10 | Exported Function
+`CoreUIConfigureTestHost` | 9 | Exported Function
+`CoreUICreateAnonymousStream` | 12 | Exported Function
+`CoreUICreate` | 11 | Exported Function
 
 
 ## Signature

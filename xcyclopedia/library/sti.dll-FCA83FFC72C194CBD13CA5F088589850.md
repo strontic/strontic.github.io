@@ -24,29 +24,29 @@ PE256 | `C398495A3D2EFAB89FE85F98EB5118BABA0ECF2257CF7CC2C606BA13C85FFC17`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 13 (0xd) | Exported Function | 0x1000f9f0 | 0x0000f9f0
-`SelectDeviceDialog2` | 19 (0x13) | Exported Function | 0x10012680 | 0x00012680
-`public: void __thiscall BUFFER_CHAIN_ITEM::SetUsed(unsigned long)` | 12 (0xc) | Exported Function | 0x10019050 | 0x00019050
-`public: void __thiscall BUFFER_CHAIN_ITEM::``default constructor closure'(void)` | 8 (0x8) | Exported Function | 0x10019000 | 0x00019000
-`public: void __thiscall BUFFER::``default constructor closure'(void)` | 7 (0x7) | Exported Function | 0x10018ff0 | 0x00018ff0
-`public: void * __thiscall BUFFER::QueryPtr(void)const ` | 9 (0x9) | Exported Function | 0x10019020 | 0x00019020
-`public: unsigned long __thiscall BUFFER_CHAIN_ITEM::QueryUsed(void)const ` | 11 (0xb) | Exported Function | 0x10019040 | 0x00019040
-`public: unsigned int __thiscall BUFFER::QuerySize(void)const ` | 10 (0xa) | Exported Function | 0x10019030 | 0x00019030
-`public: __thiscall BUFFER_CHAIN_ITEM::~BUFFER_CHAIN_ITEM(void)` | 6 (0x6) | Exported Function | 0x10018fc0 | 0x00018fc0
-`StiCreateInstance` | 20 (0x14) | Exported Function | 0x1000f220 | 0x0000f220
-`public: __thiscall BUFFER_CHAIN_ITEM::BUFFER_CHAIN_ITEM(unsigned int)` | 3 (0x3) | Exported Function | 0x10018f60 | 0x00018f60
-`public: __thiscall BUFFER_CHAIN::BUFFER_CHAIN(void)` | 2 (0x2) | Exported Function | 0x10018f50 | 0x00018f50
-`public: __thiscall BUFFER::~BUFFER(void)` | 4 (0x4) | Exported Function | 0x10018f90 | 0x00018f90
-`public: __thiscall BUFFER::BUFFER(unsigned int)` | 1 (0x1) | Exported Function | 0x10018f20 | 0x00018f20
-`MigrateRegisteredSTIAppsForWIAEvents` | 18 (0x12) | Exported Function | 0x10012660 | 0x00012660
-`GetProxyDllInfo` | 17 (0x11) | Exported Function | 0x10012a80 | 0x00012a80
-`DllUnregisterServer` | 16 (0x10) | Exported Function | 0x100125f0 | 0x000125f0
-`DllRegisterServer` | 15 (0xf) | Exported Function | 0x100125b0 | 0x000125b0
-`DllGetClassObject` | 14 (0xe) | Exported Function | 0x1000cd80 | 0x0000cd80
-`public: __thiscall BUFFER_CHAIN::~BUFFER_CHAIN(void)` | 5 (0x5) | Exported Function | 0x10018fb0 | 0x00018fb0
-`StiCreateInstanceW` | 21 (0x15) | Exported Function | 0x1000f220 | 0x0000f220
+Function Name | Ordinal | Type
+-- | -- | --
+`public: void * __thiscall BUFFER::QueryPtr(void)const ` | 9 | Exported Function
+`public: void __thiscall BUFFER::``default constructor closure'(void)` | 7 | Exported Function
+`public: unsigned long __thiscall BUFFER_CHAIN_ITEM::QueryUsed(void)const ` | 11 | Exported Function
+`public: __thiscall BUFFER_CHAIN_ITEM::~BUFFER_CHAIN_ITEM(void)` | 6 | Exported Function
+`public: unsigned int __thiscall BUFFER::QuerySize(void)const ` | 10 | Exported Function
+`StiCreateInstance` | 20 | Exported Function
+`StiCreateInstanceW` | 21 | Exported Function
+`SelectDeviceDialog2` | 19 | Exported Function
+`public: void __thiscall BUFFER_CHAIN_ITEM::``default constructor closure'(void)` | 8 | Exported Function
+`public: void __thiscall BUFFER_CHAIN_ITEM::SetUsed(unsigned long)` | 12 | Exported Function
+`public: __thiscall BUFFER_CHAIN_ITEM::BUFFER_CHAIN_ITEM(unsigned int)` | 3 | Exported Function
+`DllUnregisterServer` | 16 | Exported Function
+`GetProxyDllInfo` | 17 | Exported Function
+`DllRegisterServer` | 15 | Exported Function
+`DllCanUnloadNow` | 13 | Exported Function
+`DllGetClassObject` | 14 | Exported Function
+`public: __thiscall BUFFER_CHAIN::BUFFER_CHAIN(void)` | 2 | Exported Function
+`public: __thiscall BUFFER_CHAIN::~BUFFER_CHAIN(void)` | 5 | Exported Function
+`public: __thiscall BUFFER::~BUFFER(void)` | 4 | Exported Function
+`MigrateRegisteredSTIAppsForWIAEvents` | 18 | Exported Function
+`public: __thiscall BUFFER::BUFFER(unsigned int)` | 1 | Exported Function
 
 
 ## Signature

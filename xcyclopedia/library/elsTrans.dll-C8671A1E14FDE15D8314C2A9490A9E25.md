@@ -24,14 +24,14 @@ PE256 | `6C6BE01AD064AA7B57BCBEC7CC85567437D2ACB2B0D62B20B0B88157E21F226E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DoAction` | 1 (0x1) | Exported Function | 0x10003400 | 0x00003400
-`EnumServices` | 2 (0x2) | Exported Function | 0x10001820 | 0x00001820
-`FreePropertyBag` | 3 (0x3) | Exported Function | 0x10003410 | 0x00003410
-`FreeService` | 4 (0x4) | Exported Function | 0x10003470 | 0x00003470
-`InitService` | 5 (0x5) | Exported Function | 0x10002220 | 0x00002220
-`RecognizeText` | 6 (0x6) | Exported Function | 0x10003490 | 0x00003490
+Function Name | Ordinal | Type
+-- | -- | --
+`FreeService` | 4 | Exported Function
+`InitService` | 5 | Exported Function
+`RecognizeText` | 6 | Exported Function
+`DoAction` | 1 | Exported Function
+`EnumServices` | 2 | Exported Function
+`FreePropertyBag` | 3 | Exported Function
 
 
 ## Signature

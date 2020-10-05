@@ -24,13 +24,13 @@ PE256 | `2182CF68A0280B3D5EDA2359E25024FE7DE89C7C728321BC350BB419A273083D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClbAddData` | 1 (0x1) | Exported Function | 0x10001650 | 0x00001650
-`ClbSetColumnWidths` | 2 (0x2) | Exported Function | 0x10001740 | 0x00001740
-`ClbStyleW` | 3 (0x3) | Exported Function | 0x10002740 | 0x00002740
-`ClbWndProc` | 4 (0x4) | Exported Function | 0x10001da0 | 0x00001da0
-`CustomControlInfoW` | 5 (0x5) | Exported Function | 0x10002680 | 0x00002680
+Function Name | Ordinal | Type
+-- | -- | --
+`ClbWndProc` | 4 | Exported Function
+`CustomControlInfoW` | 5 | Exported Function
+`ClbStyleW` | 3 | Exported Function
+`ClbAddData` | 1 | Exported Function
+`ClbSetColumnWidths` | 2 | Exported Function
 
 
 ## Signature

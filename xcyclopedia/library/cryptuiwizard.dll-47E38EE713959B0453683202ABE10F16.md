@@ -24,16 +24,16 @@ PE256 | `A36BA35D2C66B41262F61CA4FBC232AAB7B6036055D5FC5C449BCB61EFE7B050`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CryptUIWizBuildCTL` | 2 (0x2) | Exported Function | 0x0000000180005e30 | 0x00005e30
-`CryptUIWizDigitalSign` | 3 (0x3) | Exported Function | 0x000000018000e540 | 0x0000e540
-`CryptUIWizExport` | 4 (0x4) | Exported Function | 0x0000000180014430 | 0x00014430
-`CryptUIWizFreeDigitalSignContext` | 5 (0x5) | Exported Function | 0x000000018000e840 | 0x0000e840
-`CryptUIWizImport` | 6 (0x6) | Exported Function | 0x00000001800180e0 | 0x000180e0
-`CryptUIWizImportInternal` | 7 (0x7) | Exported Function | 0x0000000180018120 | 0x00018120
-`DllMain` | 8 (0x8) | Exported Function | 0x0000000180001010 | 0x00001010
-`GetFunctionTable` | 1 (0x1) | Exported Function | 0x00000001800010a0 | 0x000010a0
+Function Name | Ordinal | Type
+-- | -- | --
+`CryptUIWizImportInternal` | 7 | Exported Function
+`CryptUIWizImport` | 6 | Exported Function
+`GetFunctionTable` | 1 | Exported Function
+`DllMain` | 8 | Exported Function
+`CryptUIWizDigitalSign` | 3 | Exported Function
+`CryptUIWizBuildCTL` | 2 | Exported Function
+`CryptUIWizFreeDigitalSignContext` | 5 | Exported Function
+`CryptUIWizExport` | 4 | Exported Function
 
 
 ## Signature

@@ -24,19 +24,19 @@ PE256 | `B59043301BB99082DC5B88E1FFC174870CC6ACA134A774B7FC865C5D4119DC73`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DoesCallHistoryItemMatchFilter` | 1 (0x1) | Exported Function | 0x000000018000c870 | 0x0000c870
-`StringToUdmObjectId` | 2 (0x2) | Exported Function | 0x000000018001e140 | 0x0001e140
-`UdmAreCallEventsEqual` | 3 (0x3) | Exported Function | 0x000000018000c880 | 0x0000c880
-`UdmCancelAsyncTask` | 4 (0x4) | Exported Function | 0x000000018000dd80 | 0x0000dd80
-`UdmCreateDataSession` | 5 (0x5) | Exported Function | 0x000000018000f4c0 | 0x0000f4c0
-`UdmCreateDataSessionForUser` | 6 (0x6) | Exported Function | 0x0000000180004100 | 0x00004100
-`UdmCreateSyncCallbackHandler` | 7 (0x7) | Exported Function | 0x000000018000de70 | 0x0000de70
-`UdmDebugModifyNotifyState` | 8 (0x8) | Exported Function | 0x000000018000f510 | 0x0000f510
-`UdmFreeCallFavoriteItemSet` | 9 (0x9) | Exported Function | 0x0000000180012fa0 | 0x00012fa0
-`UdmFreeCallHistoryItemSet` | 10 (0xa) | Exported Function | 0x000000018000c8e0 | 0x0000c8e0
-`UdmObjectIdToString` | 11 (0xb) | Exported Function | 0x000000018001e290 | 0x0001e290
+Function Name | Ordinal | Type
+-- | -- | --
+`UdmDebugModifyNotifyState` | 8 | Exported Function
+`UdmCreateSyncCallbackHandler` | 7 | Exported Function
+`UdmFreeCallFavoriteItemSet` | 9 | Exported Function
+`UdmObjectIdToString` | 11 | Exported Function
+`UdmFreeCallHistoryItemSet` | 10 | Exported Function
+`UdmCreateDataSessionForUser` | 6 | Exported Function
+`StringToUdmObjectId` | 2 | Exported Function
+`DoesCallHistoryItemMatchFilter` | 1 | Exported Function
+`UdmAreCallEventsEqual` | 3 | Exported Function
+`UdmCreateDataSession` | 5 | Exported Function
+`UdmCancelAsyncTask` | 4 | Exported Function
 
 
 ## Signature

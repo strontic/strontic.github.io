@@ -24,11 +24,11 @@ PE256 | `54B910834BBA77478AEE0F66BAFCFD092054FFF38218F8D28085A1A950537DC7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateInputTypeAttributes` | 1 (0x1) | Exported Function | 0x000000014f806030 | 0x00006030
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000014f806010 | 0x00006010
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000014f805d30 | 0x00005d30
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CreateInputTypeAttributes` | 1 | Exported Function
 
 
 ## Signature

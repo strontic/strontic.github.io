@@ -24,15 +24,15 @@ PE256 | `41F38C9E61A92E0557CAEA086A7DFCB567B4B8CD18C0192702699122DBEC132F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PsmBiExtInitialize` | 1 (0x1) | Exported Function | 0x0000000180036940 | 0x00036940
-`PsmBiExtNotifyAppState` | 2 (0x2) | Exported Function | 0x000000018003b650 | 0x0003b650
-`PsmBiExtNotifySessionStateChange` | 3 (0x3) | Exported Function | 0x000000018002be40 | 0x0002be40
-`PsmBiExtNotifySessionUserStateChange` | 4 (0x4) | Exported Function | 0x000000018002f3c0 | 0x0002f3c0
-`PsmBiExtNotifyWerReportProgress` | 5 (0x5) | Exported Function | 0x00000001800588b0 | 0x000588b0
-`PsmBiExtPrepareToSuspendPackage` | 6 (0x6) | Exported Function | 0x00000001800588c0 | 0x000588c0
-`PsmBiExtResumePackage` | 7 (0x7) | Exported Function | 0x00000001800588d0 | 0x000588d0
+Function Name | Ordinal | Type
+-- | -- | --
+`PsmBiExtNotifyWerReportProgress` | 5 | Exported Function
+`PsmBiExtPrepareToSuspendPackage` | 6 | Exported Function
+`PsmBiExtResumePackage` | 7 | Exported Function
+`PsmBiExtNotifySessionUserStateChange` | 4 | Exported Function
+`PsmBiExtInitialize` | 1 | Exported Function
+`PsmBiExtNotifyAppState` | 2 | Exported Function
+`PsmBiExtNotifySessionStateChange` | 3 | Exported Function
 
 
 ## Signature

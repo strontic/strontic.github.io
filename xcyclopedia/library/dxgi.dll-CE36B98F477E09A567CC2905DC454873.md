@@ -24,27 +24,27 @@ PE256 | `09B5187A6F9C7E11342F6032F88F3C5A9856D7F4E513881FCAE2146E9A8C1EBE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ApplyCompatResolutionQuirking` | 1 (0x1) | Exported Function | 0x10018660 | 0x00018660
-`PIXGetCaptureState` | 7 (0x7) | Exported Function | 0x1002ab20 | 0x0002ab20
-`PIXEndCapture` | 6 (0x6) | Exported Function | 0x1002aa40 | 0x0002aa40
-`PIXBeginCapture` | 5 (0x5) | Exported Function | 0x1002ac50 | 0x0002ac50
-`DXGIReportAdapterConfiguration` | 19 (0x13) | Exported Function | 0x1002adf0 | 0x0002adf0
-`DXGIGetDebugInterface1` | 18 (0x12) | Exported Function | 0x100603c0 | 0x000603c0
-`DXGIDumpJournal` | 4 (0x4) | Exported Function | 0x1005d940 | 0x0005d940
-`DXGIDeclareAdapterRemovalSupport` | 17 (0x11) | Exported Function | 0x1001c980 | 0x0001c980
-`SetAppCompatStringPointer` | 8 (0x8) | Exported Function | 0x1005ec50 | 0x0005ec50
-`DXGID3D10RegisterLayers` | 16 (0x10) | Exported Function | 0x1002a920 | 0x0002a920
-`DXGID3D10CreateLayeredDevice` | 14 (0xe) | Exported Function | 0x1002ac60 | 0x0002ac60
-`DXGID3D10CreateDevice` | 13 (0xd) | Exported Function | 0x1002ac70 | 0x0002ac70
-`CreateDXGIFactory2` | 11 (0xb) | Exported Function | 0x1001d740 | 0x0001d740
-`CreateDXGIFactory1` | 10 (0xa) | Exported Function | 0x1001f700 | 0x0001f700
-`CreateDXGIFactory` | 12 (0xc) | Exported Function | 0x1001c880 | 0x0001c880
-`CompatValue` | 3 (0x3) | Exported Function | 0x100225e0 | 0x000225e0
-`CompatString` | 2 (0x2) | Exported Function | 0x10022960 | 0x00022960
-`DXGID3D10GetLayeredDeviceSize` | 15 (0xf) | Exported Function | 0x1002ac50 | 0x0002ac50
-`UpdateHMDEmulationStatus` | 9 (0x9) | Exported Function | 0x1005f7e0 | 0x0005f7e0
+Function Name | Ordinal | Type
+-- | -- | --
+`DXGIGetDebugInterface1` | 18 | Exported Function
+`DXGIReportAdapterConfiguration` | 19 | Exported Function
+`DXGIDeclareAdapterRemovalSupport` | 17 | Exported Function
+`DXGIDumpJournal` | 4 | Exported Function
+`PIXBeginCapture` | 5 | Exported Function
+`SetAppCompatStringPointer` | 8 | Exported Function
+`UpdateHMDEmulationStatus` | 9 | Exported Function
+`PIXEndCapture` | 6 | Exported Function
+`PIXGetCaptureState` | 7 | Exported Function
+`DXGID3D10RegisterLayers` | 16 | Exported Function
+`CompatValue` | 3 | Exported Function
+`CreateDXGIFactory` | 12 | Exported Function
+`ApplyCompatResolutionQuirking` | 1 | Exported Function
+`CompatString` | 2 | Exported Function
+`CreateDXGIFactory1` | 10 | Exported Function
+`DXGID3D10CreateLayeredDevice` | 14 | Exported Function
+`DXGID3D10GetLayeredDeviceSize` | 15 | Exported Function
+`CreateDXGIFactory2` | 11 | Exported Function
+`DXGID3D10CreateDevice` | 13 | Exported Function
 
 
 ## Signature

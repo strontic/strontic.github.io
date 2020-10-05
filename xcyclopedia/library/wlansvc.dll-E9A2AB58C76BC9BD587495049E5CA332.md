@@ -24,15 +24,15 @@ PE256 | `E2A18E6050BA45DC9FAA561E3E73AE7360FEF44E23AE3DCD1CF535AAD8DBAFF2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018019f890 | 0x0019f890
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x000000018019f870 | 0x0019f870
-`SvchostPushServiceGlobals` | 3 (0x3) | Exported Function | 0x00000001800140c0 | 0x000140c0
-`VsIeProviderGetFunctionTable` | 4 (0x4) | Exported Function | 0x000000018016cd80 | 0x0016cd80
-`WlanSvcMain` | 7 (0x7) | Exported Function | 0x00000001800143c0 | 0x000143c0
-`WLNotifyOnLogoff` | 5 (0x5) | Exported Function | 0x000000018009cf40 | 0x0009cf40
-`WLNotifyOnLogon` | 6 (0x6) | Exported Function | 0x000000018009c950 | 0x0009c950
+Function Name | Ordinal | Type
+-- | -- | --
+`WlanSvcMain` | 7 | Exported Function
+`WLNotifyOnLogoff` | 5 | Exported Function
+`WLNotifyOnLogon` | 6 | Exported Function
+`VsIeProviderGetFunctionTable` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`SvchostPushServiceGlobals` | 3 | Exported Function
 
 
 ## Signature

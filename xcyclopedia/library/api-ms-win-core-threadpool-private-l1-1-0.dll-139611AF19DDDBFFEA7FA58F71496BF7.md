@@ -24,9 +24,9 @@ PE256 | `BE44C313017E18266B81FAF1E6C7E4813E61634230441B8CEFFBCCCE161466D9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RegisterWaitForSingleObjectEx` | 1 (0x1) | Exported Function | kernel32.RegisterWaitForSingleObjectEx | 0x000011ae
+Function Name | Ordinal | Type
+-- | -- | --
+`RegisterWaitForSingleObjectEx` | 1 | Exported Function
 
 
 ## Signature

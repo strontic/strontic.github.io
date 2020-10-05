@@ -24,53 +24,53 @@ PE256 | `CCFDE227115E970486A60A8066D7D4D71BCBF379BDDB5B1E9C74A26101EB90A0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddPorts` | 1 (0x1) | Exported Function | 0x1001fc70 | 0x0001fc70
-`PortGetIOHandle` | 24 (0x18) | Exported Function | 0x1001e770 | 0x0001e770
-`PortGetPortState` | 26 (0x1a) | Exported Function | 0x1001e750 | 0x0001e750
-`PortGetStatistics` | 27 (0x1b) | Exported Function | 0x1001e750 | 0x0001e750
-`PortInit` | 28 (0x1c) | Exported Function | 0x1001e3e0 | 0x0001e3e0
-`PortOpen` | 29 (0x1d) | Exported Function | 0x1001db50 | 0x0001db50
-`PortOpenExternal` | 30 (0x1e) | Exported Function | 0x1001db20 | 0x0001db20
-`PortReceive` | 31 (0x1f) | Exported Function | 0x1001e550 | 0x0001e550
-`PortReceiveComplete` | 32 (0x20) | Exported Function | 0x1001e660 | 0x0001e660
-`PortSend` | 33 (0x21) | Exported Function | 0x1001e3f0 | 0x0001e3f0
-`PortSetFraming` | 34 (0x22) | Exported Function | 0x1001e760 | 0x0001e760
-`PortSetInfo` | 35 (0x23) | Exported Function | 0x1001dd50 | 0x0001dd50
-`PortSetIoCompletionPort` | 36 (0x24) | Exported Function | 0x1001d410 | 0x0001d410
-`PortTestSignalState` | 37 (0x25) | Exported Function | 0x1001ddb0 | 0x0001ddb0
-`RastapiGetCalledID` | 39 (0x27) | Exported Function | 0x1001f9e0 | 0x0001f9e0
-`RasTapiIsPulseDial` | 38 (0x26) | Exported Function | 0x1001fb40 | 0x0001fb40
-`RastapiSetCalledID` | 40 (0x28) | Exported Function | 0x1001fa70 | 0x0001fa70
-`RefreshDevices` | 41 (0x29) | Exported Function | 0x100218f0 | 0x000218f0
-`RemovePort` | 42 (0x2a) | Exported Function | 0x1001fd70 | 0x0001fd70
-`SetCommSettings` | 43 (0x2b) | Exported Function | 0x10021750 | 0x00021750
-`PortGetInfo` | 25 (0x19) | Exported Function | 0x1001dce0 | 0x0001dce0
-`UnloadRastapiDll` | 44 (0x2c) | Exported Function | 0x10021630 | 0x00021630
-`PortEnum` | 23 (0x17) | Exported Function | 0x1001d430 | 0x0001d430
-`PortConnect` | 21 (0x15) | Exported Function | 0x1001ded0 | 0x0001ded0
-`CheckRasmanDependency` | 2 (0x2) | Exported Function | 0x10021d00 | 0x00021d00
-`DeviceConnect` | 3 (0x3) | Exported Function | 0x1001e8b0 | 0x0001e8b0
-`DeviceDone` | 4 (0x4) | Exported Function | 0x1001f200 | 0x0001f200
-`DeviceEnum` | 5 (0x5) | Exported Function | 0x1001e7e0 | 0x0001e7e0
-`DeviceGetDevConfig` | 6 (0x6) | Exported Function | 0x1001f9a0 | 0x0001f9a0
-`DeviceGetDevConfigEx` | 7 (0x7) | Exported Function | 0x1001f9c0 | 0x0001f9c0
-`DeviceGetInfo` | 8 (0x8) | Exported Function | 0x1001e800 | 0x0001e800
-`DeviceListen` | 9 (0x9) | Exported Function | 0x1001f010 | 0x0001f010
-`DeviceSetDevConfig` | 10 (0xa) | Exported Function | 0x1001f650 | 0x0001f650
-`DeviceSetInfo` | 11 (0xb) | Exported Function | 0x1001e850 | 0x0001e850
-`DeviceWork` | 12 (0xc) | Exported Function | 0x1001f210 | 0x0001f210
-`EnableDeviceForDialIn` | 13 (0xd) | Exported Function | 0x1001fe80 | 0x0001fe80
-`GetConnectInfo` | 14 (0xe) | Exported Function | 0x100200f0 | 0x000200f0
-`GetZeroDeviceInfo` | 15 (0xf) | Exported Function | 0x100203b0 | 0x000203b0
-`InitializeDriverIoControl` | 16 (0x10) | Exported Function | 0x1001cf20 | 0x0001cf20
-`PortChangeCallback` | 17 (0x11) | Exported Function | 0x1001e3e0 | 0x0001e3e0
-`PortClearStatistics` | 18 (0x12) | Exported Function | 0x1001e3e0 | 0x0001e3e0
-`PortClose` | 19 (0x13) | Exported Function | 0x1001db80 | 0x0001db80
-`PortCompressionSetInfo` | 20 (0x14) | Exported Function | 0x1001e3e0 | 0x0001e3e0
-`PortDisconnect` | 22 (0x16) | Exported Function | 0x1001e2e0 | 0x0001e2e0
-`UpdateTapiService` | 45 (0x2d) | Exported Function | 0x10021990 | 0x00021990
+Function Name | Ordinal | Type
+-- | -- | --
+`PortReceive` | 31 | Exported Function
+`PortOpenExternal` | 30 | Exported Function
+`PortReceiveComplete` | 32 | Exported Function
+`PortSetFraming` | 34 | Exported Function
+`PortSend` | 33 | Exported Function
+`PortOpen` | 29 | Exported Function
+`PortGetIOHandle` | 24 | Exported Function
+`PortGetInfo` | 25 | Exported Function
+`PortGetPortState` | 26 | Exported Function
+`PortInit` | 28 | Exported Function
+`PortGetStatistics` | 27 | Exported Function
+`RemovePort` | 42 | Exported Function
+`RefreshDevices` | 41 | Exported Function
+`SetCommSettings` | 43 | Exported Function
+`UpdateTapiService` | 45 | Exported Function
+`UnloadRastapiDll` | 44 | Exported Function
+`RastapiSetCalledID` | 40 | Exported Function
+`PortSetIoCompletionPort` | 36 | Exported Function
+`PortSetInfo` | 35 | Exported Function
+`PortTestSignalState` | 37 | Exported Function
+`RasTapiIsPulseDial` | 38 | Exported Function
+`RastapiGetCalledID` | 39 | Exported Function
+`PortEnum` | 23 | Exported Function
+`DeviceGetInfo` | 8 | Exported Function
+`DeviceGetDevConfigEx` | 7 | Exported Function
+`DeviceListen` | 9 | Exported Function
+`DeviceSetInfo` | 11 | Exported Function
+`DeviceSetDevConfig` | 10 | Exported Function
+`DeviceGetDevConfig` | 6 | Exported Function
+`CheckRasmanDependency` | 2 | Exported Function
+`AddPorts` | 1 | Exported Function
+`DeviceConnect` | 3 | Exported Function
+`DeviceEnum` | 5 | Exported Function
+`DeviceDone` | 4 | Exported Function
+`PortClose` | 19 | Exported Function
+`PortClearStatistics` | 18 | Exported Function
+`PortCompressionSetInfo` | 20 | Exported Function
+`PortDisconnect` | 22 | Exported Function
+`PortConnect` | 21 | Exported Function
+`PortChangeCallback` | 17 | Exported Function
+`EnableDeviceForDialIn` | 13 | Exported Function
+`DeviceWork` | 12 | Exported Function
+`GetConnectInfo` | 14 | Exported Function
+`InitializeDriverIoControl` | 16 | Exported Function
+`GetZeroDeviceInfo` | 15 | Exported Function
 
 
 ## Signature

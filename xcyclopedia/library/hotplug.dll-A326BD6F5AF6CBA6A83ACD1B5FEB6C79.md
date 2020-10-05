@@ -24,21 +24,21 @@ PE256 | `83A28A90E364801477820A8492ED7F62902A9E27C5410FFB28B454F95722FAF2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CPlApplet` | 1 (0x1) | Exported Function | 0x0000000180004240 | 0x00004240
-`DllGetClassObject` | 13 (0xd) | Exported Function | 0x0000000180001230 | 0x00001230
-`HotPlugChildWithInvalidIdW` | 2 (0x2) | Exported Function | 0x0000000180003fa0 | 0x00003fa0
-`HotPlugDriverBlockedW` | 3 (0x3) | Exported Function | 0x0000000180003d20 | 0x00003d20
-`HotPlugEjectDevice` | 4 (0x4) | Exported Function | 0x0000000180005df0 | 0x00005df0
-`HotPlugEjectDeviceEx` | 5 (0x5) | Exported Function | 0x0000000180005e00 | 0x00005e00
-`HotPlugEjectVetoedW` | 6 (0x6) | Exported Function | 0x0000000180003770 | 0x00003770
-`HotPlugHibernateVetoedW` | 7 (0x7) | Exported Function | 0x00000001800037d0 | 0x000037d0
-`HotPlugRemovalVetoedW` | 8 (0x8) | Exported Function | 0x0000000180003740 | 0x00003740
-`HotPlugSafeRemovalDriveNotificationW` | 9 (0x9) | Exported Function | 0x0000000180003bf0 | 0x00003bf0
-`HotPlugSafeRemovalNotificationW` | 10 (0xa) | Exported Function | 0x0000000180003b50 | 0x00003b50
-`HotPlugStandbyVetoedW` | 11 (0xb) | Exported Function | 0x00000001800037a0 | 0x000037a0
-`HotPlugWarmEjectVetoedW` | 12 (0xc) | Exported Function | 0x0000000180003800 | 0x00003800
+Function Name | Ordinal | Type
+-- | -- | --
+`HotPlugSafeRemovalDriveNotificationW` | 9 | Exported Function
+`HotPlugRemovalVetoedW` | 8 | Exported Function
+`HotPlugHibernateVetoedW` | 7 | Exported Function
+`HotPlugWarmEjectVetoedW` | 12 | Exported Function
+`HotPlugStandbyVetoedW` | 11 | Exported Function
+`HotPlugSafeRemovalNotificationW` | 10 | Exported Function
+`HotPlugEjectVetoedW` | 6 | Exported Function
+`HotPlugChildWithInvalidIdW` | 2 | Exported Function
+`DllGetClassObject` | 13 | Exported Function
+`CPlApplet` | 1 | Exported Function
+`HotPlugEjectDeviceEx` | 5 | Exported Function
+`HotPlugEjectDevice` | 4 | Exported Function
+`HotPlugDriverBlockedW` | 3 | Exported Function
 
 
 ## Signature

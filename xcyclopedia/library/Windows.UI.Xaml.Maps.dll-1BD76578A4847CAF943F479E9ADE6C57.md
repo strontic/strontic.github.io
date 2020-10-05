@@ -24,13 +24,13 @@ PE256 | `00E0A05235AF71101610271E3406C03EF12992FF3EC615D53B1DB74D4FB0A97E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x100c3b30 | 0x000c3b30
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x100557f0 | 0x000557f0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x100c3b70 | 0x000c3b70
-`GetDependencyLocatorStorage` | 4 (0x4) | Exported Function | 0x10052a40 | 0x00052a40
-`XamlTestHookFreeMapsResourceLibrary` | 5 (0x5) | Exported Function | 0x1005ebc0 | 0x0005ebc0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetDependencyLocatorStorage` | 4 | Exported Function
+`XamlTestHookFreeMapsResourceLibrary` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 
 
 ## Signature

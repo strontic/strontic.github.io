@@ -24,21 +24,21 @@ PE256 | `BF4778546414C06E30A28574DBA62E62305FA9AF6BD7C54574D9D46F14B27092`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EnumDynamicTimeZoneInformation` | 1 (0x1) | Exported Function | advapi32.dll.EnumDynamicTimeZoneInformation | 0x0000120d
-`FileTimeToSystemTime` | 2 (0x2) | Exported Function | kernel32.FileTimeToSystemTime | 0x0000124e
-`GetDynamicTimeZoneInformation` | 3 (0x3) | Exported Function | kernel32.GetDynamicTimeZoneInformation | 0x0000128a
-`GetDynamicTimeZoneInformationEffectiveYears` | 4 (0x4) | Exported Function | advapi32.dll.GetDynamicTimeZoneInformationEffectiveYears | 0x000012dd
-`GetTimeZoneInformation` | 5 (0x5) | Exported Function | kernel32.GetTimeZoneInformation | 0x0000132d
-`GetTimeZoneInformationForYear` | 6 (0x6) | Exported Function | kernel32.GetTimeZoneInformationForYear | 0x0000136b
-`SetDynamicTimeZoneInformation` | 7 (0x7) | Exported Function | kernel32.SetDynamicTimeZoneInformation | 0x000013b0
-`SetTimeZoneInformation` | 8 (0x8) | Exported Function | kernel32.SetTimeZoneInformation | 0x000013ee
-`SystemTimeToFileTime` | 9 (0x9) | Exported Function | kernel32.SystemTimeToFileTime | 0x00001423
-`SystemTimeToTzSpecificLocalTime` | 10 (0xa) | Exported Function | kernel32.SystemTimeToTzSpecificLocalTime | 0x00001461
-`SystemTimeToTzSpecificLocalTimeEx` | 11 (0xb) | Exported Function | kernel32.SystemTimeToTzSpecificLocalTimeEx | 0x000014ac
-`TzSpecificLocalTimeToSystemTime` | 12 (0xc) | Exported Function | kernel32.TzSpecificLocalTimeToSystemTime | 0x000014f7
-`TzSpecificLocalTimeToSystemTimeEx` | 13 (0xd) | Exported Function | kernel32.TzSpecificLocalTimeToSystemTimeEx | 0x00001542
+Function Name | Ordinal | Type
+-- | -- | --
+`SystemTimeToTzSpecificLocalTime` | 10 | Exported Function
+`SystemTimeToFileTime` | 9 | Exported Function
+`SetTimeZoneInformation` | 8 | Exported Function
+`TzSpecificLocalTimeToSystemTimeEx` | 13 | Exported Function
+`TzSpecificLocalTimeToSystemTime` | 12 | Exported Function
+`SystemTimeToTzSpecificLocalTimeEx` | 11 | Exported Function
+`SetDynamicTimeZoneInformation` | 7 | Exported Function
+`GetDynamicTimeZoneInformation` | 3 | Exported Function
+`FileTimeToSystemTime` | 2 | Exported Function
+`EnumDynamicTimeZoneInformation` | 1 | Exported Function
+`GetTimeZoneInformationForYear` | 6 | Exported Function
+`GetTimeZoneInformation` | 5 | Exported Function
+`GetDynamicTimeZoneInformationEffectiveYears` | 4 | Exported Function
 
 
 ## Signature

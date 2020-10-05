@@ -24,31 +24,31 @@ PE256 | `CAA4A51B52EC4CC40F95844FA2E8F5487149CF5268D2D2EB8A3F93D10F0310A9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DeleteClientInfo` | 29 (0x1d) | Exported Function | 0x4f8840c0 | 0x000040c0
-`TerminateClients` | 27 (0x1b) | Exported Function | 0x4f883340 | 0x00003340
-`SrvrWndProc` | 21 (0x15) | Exported Function | 0x4f8857f0 | 0x000057f0
-`SendRenameMsg` | 30 (0x1e) | Exported Function | 0x4f884bd0 | 0x00004bd0
-`SendDataMsg` | 24 (0x18) | Exported Function | 0x4f884c70 | 0x00004c70
-`OleUnblockServer` | 5 (0x5) | Exported Function | 0x4f882c20 | 0x00002c20
-`OleSavedServerDoc` | 10 (0xa) | Exported Function | 0x4f8832c0 | 0x000032c0
-`OleRevokeServerDoc` | 7 (0x7) | Exported Function | 0x4f883100 | 0x00003100
-`OleRevokeServer` | 3 (0x3) | Exported Function | 0x4f885690 | 0x00005690
-`OleRevokeObject` | 11 (0xb) | Exported Function | 0x4f884010 | 0x00004010
-`TerminateDocClients` | 28 (0x1c) | Exported Function | 0x4f883340 | 0x00003340
-`OleRevertServerDoc` | 9 (0x9) | Exported Function | 0x4f883320 | 0x00003320
-`OleRegisterServerDoc` | 6 (0x6) | Exported Function | 0x4f882fb0 | 0x00002fb0
-`OleRegisterServer` | 2 (0x2) | Exported Function | 0x4f885450 | 0x00005450
-`OleQueryServerVersion` | 12 (0xc) | Exported Function | 0x4f885440 | 0x00005440
-`OleBlockServer` | 4 (0x4) | Exported Function | 0x4f882be0 | 0x00002be0
-`ItemWndProc` | 23 (0x17) | Exported Function | 0x4f884200 | 0x00004200
-`ItemCallBack` | 26 (0x1a) | Exported Function | 0x4f884950 | 0x00004950
-`FindItemWnd` | 25 (0x19) | Exported Function | 0x4f884140 | 0x00004140
-`EnumForTerminate` | 31 (0x1f) | Exported Function | 0x4f884b80 | 0x00004b80
-`DocWndProc` | 22 (0x16) | Exported Function | 0x4f883460 | 0x00003460
-`OleRenameServerDoc` | 8 (0x8) | Exported Function | 0x4f8831d0 | 0x000031d0
-`WEP` | 1 (0x1) | Exported Function | 0x4f886490 | 0x00006490
+Function Name | Ordinal | Type
+-- | -- | --
+`OleSavedServerDoc` | 10 | Exported Function
+`OleUnblockServer` | 5 | Exported Function
+`OleRevokeServerDoc` | 7 | Exported Function
+`OleRevokeObject` | 11 | Exported Function
+`OleRevokeServer` | 3 | Exported Function
+`SendDataMsg` | 24 | Exported Function
+`TerminateDocClients` | 28 | Exported Function
+`WEP` | 1 | Exported Function
+`TerminateClients` | 27 | Exported Function
+`SendRenameMsg` | 30 | Exported Function
+`SrvrWndProc` | 21 | Exported Function
+`OleRevertServerDoc` | 9 | Exported Function
+`FindItemWnd` | 25 | Exported Function
+`ItemCallBack` | 26 | Exported Function
+`EnumForTerminate` | 31 | Exported Function
+`DeleteClientInfo` | 29 | Exported Function
+`DocWndProc` | 22 | Exported Function
+`ItemWndProc` | 23 | Exported Function
+`OleRegisterServerDoc` | 6 | Exported Function
+`OleRenameServerDoc` | 8 | Exported Function
+`OleRegisterServer` | 2 | Exported Function
+`OleBlockServer` | 4 | Exported Function
+`OleQueryServerVersion` | 12 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `41A84888559CB688D4324FBD6C411C9A68DA22CA69A63378A057DE476E6FECA8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WmiPropCoInstaller` | 1 (0x1) | Exported Function | 0x10004920 | 0x00004920
-`WmiPropPageProvider` | 2 (0x2) | Exported Function | 0x100049a0 | 0x000049a0
+Function Name | Ordinal | Type
+-- | -- | --
+`WmiPropPageProvider` | 2 | Exported Function
+`WmiPropCoInstaller` | 1 | Exported Function
 
 
 ## Signature

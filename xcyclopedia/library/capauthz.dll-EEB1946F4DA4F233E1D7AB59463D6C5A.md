@@ -24,17 +24,17 @@ PE256 | `041EA398DD6C94316456C1D5614886702C794FB08F4AB43B4F40241C5AA387B3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DeprovisionApplicationCapabilities` | 1 (0x1) | Exported Function | 0x0000000180004010 | 0x00004010
-`ProvisionApplicationCapabilities` | 2 (0x2) | Exported Function | 0x00000001800038c0 | 0x000038c0
-`ProvisionApplicationCapabilitiesEx` | 3 (0x3) | Exported Function | 0x0000000180003920 | 0x00003920
-`QueryApplicationCapabilities` | 4 (0x4) | Exported Function | 0x00000001800041b0 | 0x000041b0
-`QueryApplicationCapabilitiesEx` | 5 (0x5) | Exported Function | 0x0000000180004210 | 0x00004210
-`SCCDFreeParsedElements` | 6 (0x6) | Exported Function | 0x0000000180011e00 | 0x00011e00
-`SCCDParseFile` | 7 (0x7) | Exported Function | 0x0000000180010e40 | 0x00010e40
-`SCCDValidateAppxFile` | 8 (0x8) | Exported Function | 0x0000000180012fb0 | 0x00012fb0
-`SCCDValidateCatalogFile` | 9 (0x9) | Exported Function | 0x0000000180012a60 | 0x00012a60
+Function Name | Ordinal | Type
+-- | -- | --
+`SCCDParseFile` | 7 | Exported Function
+`SCCDFreeParsedElements` | 6 | Exported Function
+`SCCDValidateCatalogFile` | 9 | Exported Function
+`SCCDValidateAppxFile` | 8 | Exported Function
+`QueryApplicationCapabilitiesEx` | 5 | Exported Function
+`ProvisionApplicationCapabilities` | 2 | Exported Function
+`DeprovisionApplicationCapabilities` | 1 | Exported Function
+`QueryApplicationCapabilities` | 4 | Exported Function
+`ProvisionApplicationCapabilitiesEx` | 3 | Exported Function
 
 
 ## Signature

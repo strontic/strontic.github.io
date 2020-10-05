@@ -24,21 +24,21 @@ PE256 | `8848AD5C364B5C82E3161A459B1DF0A06E54C453516994B1E82313BF761FB268`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DavAddConnection` | 1 (0x1) | Exported Function | 0x100020d0 | 0x000020d0
-`DavCheckAndConvertHttpUrlToUncName` | 2 (0x2) | Exported Function | 0x10002800 | 0x00002800
-`DavDeleteConnection` | 3 (0x3) | Exported Function | 0x10002970 | 0x00002970
-`DavFlushFile` | 4 (0x4) | Exported Function | 0x100029c0 | 0x000029c0
-`DavGetExtendedError` | 5 (0x5) | Exported Function | 0x10002a10 | 0x00002a10
-`DavGetHTTPFromUNCPath` | 6 (0x6) | Exported Function | 0x10002c30 | 0x00002c30
-`DavGetUNCFromHTTPPath` | 7 (0x7) | Exported Function | 0x10002dd0 | 0x00002dd0
-`DavParseUncServerName` | 8 (0x8) | Exported Function | 0x100030a0 | 0x000030a0
-`DavRemoveDummyShareFromFileName` | 9 (0x9) | Exported Function | 0x10003150 | 0x00003150
-`DavRemoveDummyShareFromFileNameEx` | 10 (0xa) | Exported Function | 0x10003170 | 0x00003170
-`DavUrlDecodeToNtPath` | 11 (0xb) | Exported Function | 0x100043e0 | 0x000043e0
-`DavUrlDecodeUtf8` | 12 (0xc) | Exported Function | 0x10004210 | 0x00004210
-`DavUrlEncodeNtPath` | 13 (0xd) | Exported Function | 0x10004530 | 0x00004530
+Function Name | Ordinal | Type
+-- | -- | --
+`DavRemoveDummyShareFromFileNameEx` | 10 | Exported Function
+`DavRemoveDummyShareFromFileName` | 9 | Exported Function
+`DavParseUncServerName` | 8 | Exported Function
+`DavUrlEncodeNtPath` | 13 | Exported Function
+`DavUrlDecodeUtf8` | 12 | Exported Function
+`DavUrlDecodeToNtPath` | 11 | Exported Function
+`DavGetUNCFromHTTPPath` | 7 | Exported Function
+`DavDeleteConnection` | 3 | Exported Function
+`DavCheckAndConvertHttpUrlToUncName` | 2 | Exported Function
+`DavAddConnection` | 1 | Exported Function
+`DavGetHTTPFromUNCPath` | 6 | Exported Function
+`DavGetExtendedError` | 5 | Exported Function
+`DavFlushFile` | 4 | Exported Function
 
 
 ## Signature

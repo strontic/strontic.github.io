@@ -24,12 +24,12 @@ PE256 | `312043604850FFE914CF8AB0137BC677E086409D1B54D67DCABEECBBA3A47182`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x0000000180001340 | 0x00001340
-`DrvDisableDriver` | 2 (0x2) | Exported Function | 0x00000001800024c0 | 0x000024c0
-`DrvEnableDriver` | 3 (0x3) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`DrvQueryDriverInfo` | 4 (0x4) | Exported Function | 0x0000000180001370 | 0x00001370
+Function Name | Ordinal | Type
+-- | -- | --
+`DrvEnableDriver` | 3 | Exported Function
+`DrvQueryDriverInfo` | 4 | Exported Function
+`DllMain` | 1 | Exported Function
+`DrvDisableDriver` | 2 | Exported Function
 
 
 ## Signature

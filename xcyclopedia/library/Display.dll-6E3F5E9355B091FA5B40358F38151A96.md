@@ -24,12 +24,12 @@ PE256 | `D84B23A1C0691F72C180AD4B31CC9849F7B7D4747A8707489727E349B26E4BEF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DisplaySaveSettingsEx` | 1 (0x1) | Exported Function | 0x0000000180010b20 | 0x00010b20
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x000000018000fc40 | 0x0000fc40
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x000000018000fc60 | 0x0000fc60
-`ShowAdapterSettings` | 2 (0x2) | Exported Function | 0x0000000180010b70 | 0x00010b70
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 4 | Exported Function
+`ShowAdapterSettings` | 2 | Exported Function
+`DisplaySaveSettingsEx` | 1 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

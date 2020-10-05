@@ -24,18 +24,18 @@ PE256 | `C71DFA5BD6B142F850C506C8F2C08643A59EB3CEBCAE16E61C3D2EF361DA7FC6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`VmbusPipeClientEnumeratePipes` | 1 (0x1) | Exported Function | 0x0000000180002be0 | 0x00002be0
-`VmbusPipeClientOpenChannel` | 2 (0x2) | Exported Function | 0x0000000180002f30 | 0x00002f30
-`VmbusPipeClientOpenChannelEx` | 3 (0x3) | Exported Function | 0x0000000180002f70 | 0x00002f70
-`VmbusPipeClientReadyForChannelNotification` | 4 (0x4) | Exported Function | 0x0000000180003050 | 0x00003050
-`VmbusPipeClientRegisterChannelNotification` | 5 (0x5) | Exported Function | 0x0000000180003180 | 0x00003180
-`VmbusPipeClientUnregisterChannelNotification` | 6 (0x6) | Exported Function | 0x0000000180003350 | 0x00003350
-`VmbusPipeClientWaitChannel` | 7 (0x7) | Exported Function | 0x00000001800033f0 | 0x000033f0
-`VmbusPipeServerConnectPipe` | 8 (0x8) | Exported Function | 0x0000000180002190 | 0x00002190
-`VmbusPipeServerOfferChannel` | 9 (0x9) | Exported Function | 0x0000000180002200 | 0x00002200
-`VmbusPipeServerOfferChannelEx` | 10 (0xa) | Exported Function | 0x0000000180002310 | 0x00002310
+Function Name | Ordinal | Type
+-- | -- | --
+`VmbusPipeClientWaitChannel` | 7 | Exported Function
+`VmbusPipeClientUnregisterChannelNotification` | 6 | Exported Function
+`VmbusPipeServerConnectPipe` | 8 | Exported Function
+`VmbusPipeServerOfferChannelEx` | 10 | Exported Function
+`VmbusPipeServerOfferChannel` | 9 | Exported Function
+`VmbusPipeClientOpenChannel` | 2 | Exported Function
+`VmbusPipeClientEnumeratePipes` | 1 | Exported Function
+`VmbusPipeClientOpenChannelEx` | 3 | Exported Function
+`VmbusPipeClientRegisterChannelNotification` | 5 | Exported Function
+`VmbusPipeClientReadyForChannelNotification` | 4 | Exported Function
 
 
 ## Signature

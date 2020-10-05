@@ -24,15 +24,15 @@ PE256 | `2DE9AF1A6779E35EDD34A96CB8F38C681D99FC00E82ACDEA9E7209E56E74E650`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateViewObjectForContentDirectoryFolder` | 1 (0x1) | Exported Function | 0x0000000180001960 | 0x00001960
-`CreateViewObjectForMediaServerFolder` | 2 (0x2) | Exported Function | 0x0000000180001850 | 0x00001850
-`DllMain` | 3 (0x3) | Exported Function | 0x00000001800010e0 | 0x000010e0
-`GetContextMenuForContentDirectoryFolder` | 4 (0x4) | Exported Function | 0x0000000180001640 | 0x00001640
-`GetContextMenuForMediaServerFolder` | 5 (0x5) | Exported Function | 0x00000001800015d0 | 0x000015d0
-`GetExtractIconForContentDirectoryFolder` | 6 (0x6) | Exported Function | 0x00000001800013d0 | 0x000013d0
-`GetExtractIconForMediaServerFolder` | 7 (0x7) | Exported Function | 0x0000000180001490 | 0x00001490
+Function Name | Ordinal | Type
+-- | -- | --
+`GetContextMenuForMediaServerFolder` | 5 | Exported Function
+`GetExtractIconForContentDirectoryFolder` | 6 | Exported Function
+`GetExtractIconForMediaServerFolder` | 7 | Exported Function
+`GetContextMenuForContentDirectoryFolder` | 4 | Exported Function
+`CreateViewObjectForContentDirectoryFolder` | 1 | Exported Function
+`CreateViewObjectForMediaServerFolder` | 2 | Exported Function
+`DllMain` | 3 | Exported Function
 
 
 ## Signature

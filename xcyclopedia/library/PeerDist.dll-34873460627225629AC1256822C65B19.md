@@ -24,36 +24,36 @@ PE256 | `3C56EAFDC065C669BBA0CD2A4664036D63E6D87CE894684C79804B7C2F8D9470`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PeerDistClientAddContentInformation` | 1 (0x1) | Exported Function | 0x00000001800044b0 | 0x000044b0
-`PeerDistShutdown` | 26 (0x1a) | Exported Function | 0x00000001800020e0 | 0x000020e0
-`PeerDistServerUnpublish` | 25 (0x19) | Exported Function | 0x00000001800037d0 | 0x000037d0
-`PeerDistServerRetrieveContentInformation` | 24 (0x18) | Exported Function | 0x0000000180003d20 | 0x00003d20
-`PeerDistServerPublishStream` | 23 (0x17) | Exported Function | 0x0000000180003030 | 0x00003030
-`PeerDistServerPublishCompleteStream` | 22 (0x16) | Exported Function | 0x0000000180003440 | 0x00003440
-`PeerDistServerPublishAddToStream` | 21 (0x15) | Exported Function | 0x0000000180003250 | 0x00003250
-`PeerDistServerOpenContentInformationEx` | 20 (0x14) | Exported Function | 0x0000000180003cc0 | 0x00003cc0
-`PeerDistServerOpenContentInformation` | 19 (0x13) | Exported Function | 0x0000000180003c30 | 0x00003c30
-`PeerDistServerCloseStreamHandle` | 18 (0x12) | Exported Function | 0x0000000180003610 | 0x00003610
-`PeerDistServerCloseContentInformation` | 17 (0x11) | Exported Function | 0x0000000180003f10 | 0x00003f10
-`PeerDistServerCancelAsyncOperation` | 16 (0x10) | Exported Function | 0x0000000180002e60 | 0x00002e60
-`PeerDistRegisterForStatusChangeNotificationEx` | 15 (0xf) | Exported Function | 0x0000000180002a70 | 0x00002a70
-`PeerDistRegisterForStatusChangeNotification` | 14 (0xe) | Exported Function | 0x0000000180002a40 | 0x00002a40
-`PeerDistGetStatusEx` | 13 (0xd) | Exported Function | 0x0000000180002780 | 0x00002780
-`PeerDistGetStatus` | 12 (0xc) | Exported Function | 0x0000000180002770 | 0x00002770
-`PeerDistGetOverlappedResult` | 11 (0xb) | Exported Function | 0x0000000180005230 | 0x00005230
-`PeerDistClientStreamRead` | 10 (0xa) | Exported Function | 0x0000000180004c60 | 0x00004c60
-`PeerDistClientOpenContent` | 9 (0x9) | Exported Function | 0x00000001800040d0 | 0x000040d0
-`PeerDistClientGetInformationByHandle` | 8 (0x8) | Exported Function | 0x0000000180005040 | 0x00005040
-`PeerDistClientFlushContent` | 7 (0x7) | Exported Function | 0x0000000180004e60 | 0x00004e60
-`PeerDistClientCompleteContentInformation` | 6 (0x6) | Exported Function | 0x00000001800046a0 | 0x000046a0
-`PeerDistClientCloseContent` | 5 (0x5) | Exported Function | 0x00000001800042b0 | 0x000042b0
-`PeerDistClientCancelAsyncOperation` | 4 (0x4) | Exported Function | 0x0000000180002c50 | 0x00002c50
-`PeerDistClientBlockRead` | 3 (0x3) | Exported Function | 0x0000000180004a60 | 0x00004a60
-`PeerDistClientAddData` | 2 (0x2) | Exported Function | 0x0000000180004870 | 0x00004870
-`PeerDistStartup` | 27 (0x1b) | Exported Function | 0x0000000180001cf0 | 0x00001cf0
-`PeerDistUnregisterForStatusChangeNotification` | 28 (0x1c) | Exported Function | 0x0000000180002aa0 | 0x00002aa0
+Function Name | Ordinal | Type
+-- | -- | --
+`PeerDistServerOpenContentInformation` | 19 | Exported Function
+`PeerDistServerOpenContentInformationEx` | 20 | Exported Function
+`PeerDistServerPublishAddToStream` | 21 | Exported Function
+`PeerDistServerCloseStreamHandle` | 18 | Exported Function
+`PeerDistRegisterForStatusChangeNotificationEx` | 15 | Exported Function
+`PeerDistServerCancelAsyncOperation` | 16 | Exported Function
+`PeerDistServerCloseContentInformation` | 17 | Exported Function
+`PeerDistShutdown` | 26 | Exported Function
+`PeerDistStartup` | 27 | Exported Function
+`PeerDistUnregisterForStatusChangeNotification` | 28 | Exported Function
+`PeerDistServerUnpublish` | 25 | Exported Function
+`PeerDistServerPublishCompleteStream` | 22 | Exported Function
+`PeerDistServerPublishStream` | 23 | Exported Function
+`PeerDistServerRetrieveContentInformation` | 24 | Exported Function
+`PeerDistClientCloseContent` | 5 | Exported Function
+`PeerDistClientCompleteContentInformation` | 6 | Exported Function
+`PeerDistClientFlushContent` | 7 | Exported Function
+`PeerDistClientCancelAsyncOperation` | 4 | Exported Function
+`PeerDistClientAddContentInformation` | 1 | Exported Function
+`PeerDistClientAddData` | 2 | Exported Function
+`PeerDistClientBlockRead` | 3 | Exported Function
+`PeerDistGetStatus` | 12 | Exported Function
+`PeerDistGetStatusEx` | 13 | Exported Function
+`PeerDistRegisterForStatusChangeNotification` | 14 | Exported Function
+`PeerDistGetOverlappedResult` | 11 | Exported Function
+`PeerDistClientGetInformationByHandle` | 8 | Exported Function
+`PeerDistClientOpenContent` | 9 | Exported Function
+`PeerDistClientStreamRead` | 10 | Exported Function
 
 
 ## Signature

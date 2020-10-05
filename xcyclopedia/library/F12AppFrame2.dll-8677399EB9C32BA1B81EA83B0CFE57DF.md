@@ -24,15 +24,15 @@ PE256 | `973EE014A1EE22A0E00C53459093FFC0AA1BE71BE17283DD994C767B53BEAC53`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AttachTools` | 1 (0x1) | Exported Function | 0x0000000180017780 | 0x00017780
-`AttachToolsToDiagnosticsTarget` | 2 (0x2) | Exported Function | 0x0000000180017620 | 0x00017620
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x00000001800160a0 | 0x000160a0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x00000001800160c0 | 0x000160c0
-`DllInstall` | 5 (0x5) | Exported Function | 0x0000000180016490 | 0x00016490
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x00000001800161f0 | 0x000161f0
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x00000001800162f0 | 0x000162f0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllInstall` | 5 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`AttachTools` | 1 | Exported Function
+`AttachToolsToDiagnosticsTarget` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

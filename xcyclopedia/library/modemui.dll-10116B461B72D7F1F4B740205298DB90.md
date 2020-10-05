@@ -24,22 +24,22 @@ PE256 | `D52B5CB115D2F2373ABD344A0E7ED75EC9B83DAEB4677EB3184422C5117F8FA0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CountryRunOnce` | 9 (0x9) | Exported Function | 0x100110f0 | 0x000110f0
-`drvCommConfigDialogA` | 3 (0x3) | Exported Function | 0x1000e950 | 0x0000e950
-`drvCommConfigDialogW` | 2 (0x2) | Exported Function | 0x1000e960 | 0x0000e960
-`drvGetDefaultCommConfigA` | 7 (0x7) | Exported Function | 0x1000e950 | 0x0000e950
-`drvGetDefaultCommConfigW` | 6 (0x6) | Exported Function | 0x1000e980 | 0x0000e980
-`drvSetDefaultCommConfigA` | 5 (0x5) | Exported Function | 0x1000e950 | 0x0000e950
-`drvSetDefaultCommConfigW` | 4 (0x4) | Exported Function | 0x1000e9e0 | 0x0000e9e0
-`InvokeControlPanel` | 12 (0xc) | Exported Function | 0x10006420 | 0x00006420
-`ModemCplDlgProc` | 13 (0xd) | Exported Function | 0x10008460 | 0x00008460
-`ModemPropPagesProvider` | 14 (0xe) | Exported Function | 0x1000ec00 | 0x0000ec00
-`QueryModemForCountrySettings` | 15 (0xf) | Exported Function | 0x10010a50 | 0x00010a50
-`UnimodemDevConfigDialog` | 8 (0x8) | Exported Function | 0x1000ebc0 | 0x0000ebc0
-`UnimodemGetDefaultCommConfig` | 10 (0xa) | Exported Function | 0x1000eae0 | 0x0000eae0
-`UnimodemGetExtendedCaps` | 11 (0xb) | Exported Function | 0x10005790 | 0x00005790
+Function Name | Ordinal | Type
+-- | -- | --
+`ModemPropPagesProvider` | 14 | Exported Function
+`ModemCplDlgProc` | 13 | Exported Function
+`InvokeControlPanel` | 12 | Exported Function
+`QueryModemForCountrySettings` | 15 | Exported Function
+`UnimodemGetExtendedCaps` | 11 | Exported Function
+`UnimodemGetDefaultCommConfig` | 10 | Exported Function
+`UnimodemDevConfigDialog` | 8 | Exported Function
+`drvCommConfigDialogW` | 2 | Exported Function
+`drvCommConfigDialogA` | 3 | Exported Function
+`CountryRunOnce` | 9 | Exported Function
+`drvGetDefaultCommConfigA` | 7 | Exported Function
+`drvSetDefaultCommConfigW` | 4 | Exported Function
+`drvSetDefaultCommConfigA` | 5 | Exported Function
+`drvGetDefaultCommConfigW` | 6 | Exported Function
 
 
 ## Signature

@@ -24,58 +24,58 @@ PE256 | `874B073658085518CF4E40B3E089653CD5016BEA77395B9AF3BFD80AFDC0A3B5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ResetApplyCloudPartitionLayout` | 1 (0x1) | Exported Function | 0x0000000180004a40 | 0x00004a40
-`ResetNotifyCancel` | 28 (0x1c) | Exported Function | 0x0000000180008770 | 0x00008770
-`ResetNotifyConfirm` | 29 (0x1d) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`ResetPayloadConnection` | 30 (0x1e) | Exported Function | 0x0000000180005330 | 0x00005330
-`ResetPayloadEnabled` | 31 (0x1f) | Exported Function | 0x0000000180005110 | 0x00005110
-`ResetPrepareSession` | 32 (0x20) | Exported Function | 0x0000000180005f60 | 0x00005f60
-`ResetProvisionMedia` | 33 (0x21) | Exported Function | 0x000000018000ca80 | 0x0000ca80
-`ResetReleaseMedia` | 34 (0x22) | Exported Function | 0x000000018000cb60 | 0x0000cb60
-`ResetReleaseSession` | 35 (0x23) | Exported Function | 0x00000001800094e0 | 0x000094e0
-`ResetResumeLog` | 36 (0x24) | Exported Function | 0x0000000180009680 | 0x00009680
-`ResetReturnToOldOS` | 37 (0x25) | Exported Function | 0x000000018000e4b0 | 0x0000e4b0
-`ResetSetDataPoint` | 38 (0x26) | Exported Function | 0x000000018000ab60 | 0x0000ab60
-`ResetSetStringPoint` | 39 (0x27) | Exported Function | 0x000000018000abc0 | 0x0000abc0
-`ResetSetTestFlag` | 40 (0x28) | Exported Function | 0x000000018000ea10 | 0x0000ea10
-`ResetStageOfflineBoot` | 41 (0x29) | Exported Function | 0x0000000180008dc0 | 0x00008dc0
-`ResetSubmitTelemetry` | 42 (0x2a) | Exported Function | 0x000000018000aab0 | 0x0000aab0
-`ResetSuspendSession` | 43 (0x2b) | Exported Function | 0x0000000180008b80 | 0x00008b80
-`ResetTraceClientInfo` | 44 (0x2c) | Exported Function | 0x0000000180004290 | 0x00004290
-`ResetUndo` | 45 (0x2d) | Exported Function | 0x0000000180009bf0 | 0x00009bf0
-`ResetUnstageOfflineBoot` | 46 (0x2e) | Exported Function | 0x00000001800091e0 | 0x000091e0
-`ResetUserLogon` | 47 (0x2f) | Exported Function | 0x000000018000d7e0 | 0x0000d7e0
-`ResetValidateScenario` | 48 (0x30) | Exported Function | 0x0000000180005880 | 0x00005880
-`ResetNotifyAcknowledgeWarning` | 27 (0x1b) | Exported Function | 0x0000000180008910 | 0x00008910
-`ResetLoadSession` | 26 (0x1a) | Exported Function | 0x0000000180009760 | 0x00009760
-`ResetHasCustomizations` | 25 (0x19) | Exported Function | 0x0000000180008310 | 0x00008310
-`ResetGetTelemetrySessionID` | 24 (0x18) | Exported Function | 0x0000000180006790 | 0x00006790
-`ResetArmBootTrigger` | 2 (0x2) | Exported Function | 0x000000018000a8a0 | 0x0000a8a0
-`ResetCancelCleanup` | 3 (0x3) | Exported Function | 0x000000018000a0d0 | 0x0000a0d0
-`ResetCancelImageDownload` | 4 (0x4) | Exported Function | 0x0000000180004ed0 | 0x00004ed0
-`ResetClearSession` | 5 (0x5) | Exported Function | 0x0000000180006560 | 0x00006560
-`ResetCloudEndpointAvailable` | 6 (0x6) | Exported Function | 0x00000001800044f0 | 0x000044f0
-`ResetConnectCloud` | 7 (0x7) | Exported Function | 0x0000000180004750 | 0x00004750
-`ResetCreateMedia` | 8 (0x8) | Exported Function | 0x000000018000c760 | 0x0000c760
-`ResetCreateSession` | 9 (0x9) | Exported Function | 0x0000000180004090 | 0x00004090
-`ResetDisabledByPolicy` | 10 (0xa) | Exported Function | 0x0000000180007ac0 | 0x00007ac0
-`ResetDisarmBootTrigger` | 11 (0xb) | Exported Function | 0x000000018000aa40 | 0x0000aa40
-`ResetWillSuspendProtection` | 49 (0x31) | Exported Function | 0x0000000180007ca0 | 0x00007ca0
-`ResetDownloadImage` | 12 (0xc) | Exported Function | 0x0000000180004c80 | 0x00004c80
-`ResetEnterOOBE` | 14 (0xe) | Exported Function | 0x000000018000d150 | 0x0000d150
-`ResetExecCleanup` | 15 (0xf) | Exported Function | 0x000000018000d030 | 0x0000d030
-`ResetExecOnline` | 16 (0x10) | Exported Function | 0x000000018000cea0 | 0x0000cea0
-`ResetExecute` | 17 (0x11) | Exported Function | 0x0000000180009940 | 0x00009940
-`ResetGetDataVolumes` | 18 (0x12) | Exported Function | 0x00000001800069d0 | 0x000069d0
-`ResetGetDiskSpaceRequired` | 19 (0x13) | Exported Function | 0x00000001800070d0 | 0x000070d0
-`ResetGetMediaSize` | 20 (0x14) | Exported Function | 0x000000018000c980 | 0x0000c980
-`ResetGetRestoredApps` | 21 (0x15) | Exported Function | 0x0000000180007410 | 0x00007410
-`ResetGetScenarioType` | 22 (0x16) | Exported Function | 0x0000000180006ea0 | 0x00006ea0
-`ResetGetTargetVolume` | 23 (0x17) | Exported Function | 0x000000018000ea60 | 0x0000ea60
-`ResetDownloadPayload` | 13 (0xd) | Exported Function | 0x0000000180005630 | 0x00005630
-`ResetWipeSystem` | 50 (0x32) | Exported Function | 0x000000018000a560 | 0x0000a560
+Function Name | Ordinal | Type
+-- | -- | --
+`ResetReleaseMedia` | 34 | Exported Function
+`ResetProvisionMedia` | 33 | Exported Function
+`ResetPrepareSession` | 32 | Exported Function
+`ResetReturnToOldOS` | 37 | Exported Function
+`ResetResumeLog` | 36 | Exported Function
+`ResetReleaseSession` | 35 | Exported Function
+`ResetNotifyCancel` | 28 | Exported Function
+`ResetNotifyAcknowledgeWarning` | 27 | Exported Function
+`ResetLoadSession` | 26 | Exported Function
+`ResetPayloadEnabled` | 31 | Exported Function
+`ResetPayloadConnection` | 30 | Exported Function
+`ResetNotifyConfirm` | 29 | Exported Function
+`ResetSetDataPoint` | 38 | Exported Function
+`ResetUserLogon` | 47 | Exported Function
+`ResetUnstageOfflineBoot` | 46 | Exported Function
+`ResetUndo` | 45 | Exported Function
+`ResetWipeSystem` | 50 | Exported Function
+`ResetWillSuspendProtection` | 49 | Exported Function
+`ResetValidateScenario` | 48 | Exported Function
+`ResetStageOfflineBoot` | 41 | Exported Function
+`ResetSetTestFlag` | 40 | Exported Function
+`ResetSetStringPoint` | 39 | Exported Function
+`ResetTraceClientInfo` | 44 | Exported Function
+`ResetSuspendSession` | 43 | Exported Function
+`ResetSubmitTelemetry` | 42 | Exported Function
+`ResetCreateSession` | 9 | Exported Function
+`ResetCreateMedia` | 8 | Exported Function
+`ResetConnectCloud` | 7 | Exported Function
+`ResetDownloadImage` | 12 | Exported Function
+`ResetDisarmBootTrigger` | 11 | Exported Function
+`ResetDisabledByPolicy` | 10 | Exported Function
+`ResetCancelCleanup` | 3 | Exported Function
+`ResetArmBootTrigger` | 2 | Exported Function
+`ResetApplyCloudPartitionLayout` | 1 | Exported Function
+`ResetCloudEndpointAvailable` | 6 | Exported Function
+`ResetClearSession` | 5 | Exported Function
+`ResetCancelImageDownload` | 4 | Exported Function
+`ResetDownloadPayload` | 13 | Exported Function
+`ResetGetScenarioType` | 22 | Exported Function
+`ResetGetRestoredApps` | 21 | Exported Function
+`ResetGetMediaSize` | 20 | Exported Function
+`ResetHasCustomizations` | 25 | Exported Function
+`ResetGetTelemetrySessionID` | 24 | Exported Function
+`ResetGetTargetVolume` | 23 | Exported Function
+`ResetExecOnline` | 16 | Exported Function
+`ResetExecCleanup` | 15 | Exported Function
+`ResetEnterOOBE` | 14 | Exported Function
+`ResetGetDiskSpaceRequired` | 19 | Exported Function
+`ResetGetDataVolumes` | 18 | Exported Function
+`ResetExecute` | 17 | Exported Function
 
 
 ## Signature

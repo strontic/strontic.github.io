@@ -24,10 +24,10 @@ PE256 | `381DBE0BBED164C59386049552373FBBF2E9D2D7CFAF5C939D3A0B28800FC484`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Sysprep_Clean_Net` | 1 (0x1) | Exported Function | 0x100018f0 | 0x000018f0
-`Sysprep_Generalize_Net` | 2 (0x2) | Exported Function | 0x100018f0 | 0x000018f0
+Function Name | Ordinal | Type
+-- | -- | --
+`Sysprep_Generalize_Net` | 2 | Exported Function
+`Sysprep_Clean_Net` | 1 | Exported Function
 
 
 ## Signature

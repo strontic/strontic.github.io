@@ -24,23 +24,23 @@ PE256 | `07A018F842A218C3609B797AB27BF4BBFFB030603D727D071494529E938A9669`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NsiConnectToServer` | 1 (0x1) | Exported Function | 0x0000000180001bf0 | 0x00001bf0
-`NsiDisconnectFromServer` | 2 (0x2) | Exported Function | 0x0000000180001e50 | 0x00001e50
-`NsiRpcDeregisterChangeNotification` | 3 (0x3) | Exported Function | 0x0000000180001010 | 0x00001010
-`NsiRpcDeregisterChangeNotificationEx` | 4 (0x4) | Exported Function | 0x0000000180001050 | 0x00001050
-`NsiRpcEnumerateObjectsAllParameters` | 5 (0x5) | Exported Function | 0x0000000180002eb0 | 0x00002eb0
-`NsiRpcGetAllParameters` | 6 (0x6) | Exported Function | 0x00000001800032b0 | 0x000032b0
-`NsiRpcGetAllParametersEx` | 7 (0x7) | Exported Function | 0x0000000180003370 | 0x00003370
-`NsiRpcGetParameter` | 8 (0x8) | Exported Function | 0x0000000180003530 | 0x00003530
-`NsiRpcGetParameterEx` | 9 (0x9) | Exported Function | 0x00000001800035c0 | 0x000035c0
-`NsiRpcRegisterChangeNotification` | 10 (0xa) | Exported Function | 0x0000000180001490 | 0x00001490
-`NsiRpcRegisterChangeNotificationEx` | 11 (0xb) | Exported Function | 0x0000000180001500 | 0x00001500
-`NsiRpcSetAllParameters` | 12 (0xc) | Exported Function | 0x0000000180003770 | 0x00003770
-`NsiRpcSetAllParametersEx` | 13 (0xd) | Exported Function | 0x00000001800037f0 | 0x000037f0
-`NsiRpcSetParameter` | 14 (0xe) | Exported Function | 0x00000001800039b0 | 0x000039b0
-`NsiRpcSetParameterEx` | 15 (0xf) | Exported Function | 0x0000000180003a40 | 0x00003a40
+Function Name | Ordinal | Type
+-- | -- | --
+`NsiRpcRegisterChangeNotificationEx` | 11 | Exported Function
+`NsiRpcRegisterChangeNotification` | 10 | Exported Function
+`NsiRpcGetParameterEx` | 9 | Exported Function
+`NsiRpcSetAllParameters` | 12 | Exported Function
+`NsiRpcSetParameterEx` | 15 | Exported Function
+`NsiRpcSetParameter` | 14 | Exported Function
+`NsiRpcSetAllParametersEx` | 13 | Exported Function
+`NsiRpcGetParameter` | 8 | Exported Function
+`NsiRpcDeregisterChangeNotification` | 3 | Exported Function
+`NsiDisconnectFromServer` | 2 | Exported Function
+`NsiConnectToServer` | 1 | Exported Function
+`NsiRpcDeregisterChangeNotificationEx` | 4 | Exported Function
+`NsiRpcGetAllParametersEx` | 7 | Exported Function
+`NsiRpcGetAllParameters` | 6 | Exported Function
+`NsiRpcEnumerateObjectsAllParameters` | 5 | Exported Function
 
 
 ## Signature

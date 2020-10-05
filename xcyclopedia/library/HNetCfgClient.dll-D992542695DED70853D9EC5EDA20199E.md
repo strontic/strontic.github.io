@@ -24,20 +24,20 @@ PE256 | `60EBB1C7F52088E1DBAA99B8BF170D7E2AFAB7063D6A78310DF2AB974B0272F8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180004910 | 0x00004910
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x00000001800049a0 | 0x000049a0
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180004aa0 | 0x00004aa0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180004b80 | 0x00004b80
-`HNetCfgGetDhcpScopeAddress` | 5 (0x5) | Exported Function | 0x00000001800091e0 | 0x000091e0
-`HNetCfgGetPrivateIndex` | 6 (0x6) | Exported Function | 0x0000000180008bb0 | 0x00008bb0
-`HNetCfgGetPublicIndex` | 7 (0x7) | Exported Function | 0x0000000180008cb0 | 0x00008cb0
-`HNetCfgSetDhcpScopeAddress` | 8 (0x8) | Exported Function | 0x00000001800092e0 | 0x000092e0
-`HNetCfgStartSharing` | 9 (0x9) | Exported Function | 0x0000000180008db0 | 0x00008db0
-`HNetCfgStartSharingEx` | 10 (0xa) | Exported Function | 0x0000000180008e90 | 0x00008e90
-`HNetCfgStopSharing` | 11 (0xb) | Exported Function | 0x0000000180008f80 | 0x00008f80
-`HNetCfgUpdateSharingSettingsFromStorage` | 12 (0xc) | Exported Function | 0x0000000180009100 | 0x00009100
+Function Name | Ordinal | Type
+-- | -- | --
+`HNetCfgStartSharing` | 9 | Exported Function
+`HNetCfgSetDhcpScopeAddress` | 8 | Exported Function
+`HNetCfgGetPublicIndex` | 7 | Exported Function
+`HNetCfgUpdateSharingSettingsFromStorage` | 12 | Exported Function
+`HNetCfgStopSharing` | 11 | Exported Function
+`HNetCfgStartSharingEx` | 10 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`HNetCfgGetPrivateIndex` | 6 | Exported Function
+`HNetCfgGetDhcpScopeAddress` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

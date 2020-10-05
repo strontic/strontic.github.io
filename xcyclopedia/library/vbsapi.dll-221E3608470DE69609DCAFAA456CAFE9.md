@@ -24,24 +24,24 @@ PE256 | `C746E76B1E78D29C037EB28EB6B842AB38CAF588A67A87404CD1108D576CEA16`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`HvciGetConfig` | 1 (0x1) | Exported Function | 0x0000000180003540 | 0x00003540
-`HvciGetConfigFromVBSKey` | 2 (0x2) | Exported Function | 0x00000001800034c0 | 0x000034c0
-`HvciIncompatibilityScanCancel` | 3 (0x3) | Exported Function | 0x00000001800032f0 | 0x000032f0
-`HvciIncompatibilityScanFree` | 4 (0x4) | Exported Function | 0x0000000180003380 | 0x00003380
-`HvciIncompatibilityScanGetResult` | 5 (0x5) | Exported Function | 0x0000000180003350 | 0x00003350
-`HvciIncompatibilityScanInitialize` | 6 (0x6) | Exported Function | 0x0000000180003170 | 0x00003170
-`HvciIncompatibilityScanOverrideDriverCompatDatabase` | 7 (0x7) | Exported Function | 0x0000000180003210 | 0x00003210
-`HvciIncompatibilityScanOverrideServicesKey` | 8 (0x8) | Exported Function | 0x0000000180003200 | 0x00003200
-`HvciIncompatibilityScanStart` | 9 (0x9) | Exported Function | 0x0000000180003260 | 0x00003260
-`HvciIsActive` | 10 (0xa) | Exported Function | 0x0000000180003450 | 0x00003450
-`VbsGetIssues` | 11 (0xb) | Exported Function | 0x0000000180001080 | 0x00001080
-`VbsIsCapable` | 12 (0xc) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`VbsIsRecommended` | 13 (0xd) | Exported Function | 0x00000001800012e0 | 0x000012e0
-`VbsIsScenarioEnabled` | 14 (0xe) | Exported Function | 0x0000000180001370 | 0x00001370
-`VbsSetScenarioEnable` | 15 (0xf) | Exported Function | 0x00000001800015e0 | 0x000015e0
-`VbsSetScenarioEnableToVBSKey` | 16 (0x10) | Exported Function | 0x00000001800013b0 | 0x000013b0
+Function Name | Ordinal | Type
+-- | -- | --
+`VbsGetIssues` | 11 | Exported Function
+`VbsIsCapable` | 12 | Exported Function
+`HvciIncompatibilityScanStart` | 9 | Exported Function
+`HvciIsActive` | 10 | Exported Function
+`VbsSetScenarioEnable` | 15 | Exported Function
+`VbsSetScenarioEnableToVBSKey` | 16 | Exported Function
+`VbsIsRecommended` | 13 | Exported Function
+`VbsIsScenarioEnabled` | 14 | Exported Function
+`HvciIncompatibilityScanCancel` | 3 | Exported Function
+`HvciIncompatibilityScanFree` | 4 | Exported Function
+`HvciGetConfig` | 1 | Exported Function
+`HvciGetConfigFromVBSKey` | 2 | Exported Function
+`HvciIncompatibilityScanOverrideDriverCompatDatabase` | 7 | Exported Function
+`HvciIncompatibilityScanOverrideServicesKey` | 8 | Exported Function
+`HvciIncompatibilityScanGetResult` | 5 | Exported Function
+`HvciIncompatibilityScanInitialize` | 6 | Exported Function
 
 
 ## Signature

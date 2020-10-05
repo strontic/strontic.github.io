@@ -24,14 +24,14 @@ PE256 | `3165A191F77E92E542E97FA8E75073CF701136A03EDF2E49287F7A6185C6E120`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180007580 | 0x00007580
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x0000000180007480 | 0x00007480
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180007500 | 0x00007500
-`ServiceMain` | 4 (0x4) | Exported Function | 0x0000000180008450 | 0x00008450
-`SvchostPushServiceGlobals` | 5 (0x5) | Exported Function | 0x0000000180008440 | 0x00008440
-`xrNegotiateLoaderRuntimeInterface` | 6 (0x6) | Exported Function | 0x000000018000bc70 | 0x0000bc70
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 4 | Exported Function
+`SvchostPushServiceGlobals` | 5 | Exported Function
+`xrNegotiateLoaderRuntimeInterface` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

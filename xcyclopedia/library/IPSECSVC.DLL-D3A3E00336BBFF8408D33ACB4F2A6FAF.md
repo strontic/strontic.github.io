@@ -24,9 +24,9 @@ PE256 | `F59368FDF3B6BC4495682C874E501B64DC8A290281254310D688F2D00D60A81F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SpdServiceMain` | 1 (0x1) | Exported Function | 0x0000000180005a30 | 0x00005a30
+Function Name | Ordinal | Type
+-- | -- | --
+`SpdServiceMain` | 1 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `28FE92E836410E63E9FF0B65B8863264643317820CA1E0DEAFA31E49387CD413`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Dot3SvcMain` | 1 (0x1) | Exported Function | 0x0000000180001630 | 0x00001630
-`LanNotifyOnLogoff` | 2 (0x2) | Exported Function | 0x0000000180019960 | 0x00019960
-`LanNotifyOnLogon` | 3 (0x3) | Exported Function | 0x0000000180019430 | 0x00019430
-`SvchostPushServiceGlobals` | 4 (0x4) | Exported Function | 0x0000000180001620 | 0x00001620
+Function Name | Ordinal | Type
+-- | -- | --
+`LanNotifyOnLogon` | 3 | Exported Function
+`SvchostPushServiceGlobals` | 4 | Exported Function
+`Dot3SvcMain` | 1 | Exported Function
+`LanNotifyOnLogoff` | 2 | Exported Function
 
 
 ## Signature

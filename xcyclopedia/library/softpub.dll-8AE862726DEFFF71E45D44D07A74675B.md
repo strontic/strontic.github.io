@@ -24,32 +24,32 @@ PE256 | `833521E721DEEB1B889DC56FD3CCC4561298F04EAD78CDEC5767FC6F0C6E3A76`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddPersonalTrustDBPages` | 7 (0x7) | Exported Function | Wintrust.AddPersonalTrustDBPages | 0x0000282a
-`SoftpubLoadDefUsageCallData` | 6 (0x6) | Exported Function | Wintrust.SoftpubLoadDefUsageCallData | 0x000027ed
-`SoftpubInitialize` | 22 (0x16) | Exported Function | Wintrust.SoftpubInitialize | 0x00002b0d
-`SoftpubFreeDefUsageCallData` | 5 (0x5) | Exported Function | Wintrust.SoftpubFreeDefUsageCallData | 0x000027ac
-`SoftpubDumpStructure` | 21 (0x15) | Exported Function | Wintrust.SoftpubDumpStructure | 0x00002add
-`SoftpubDefCertInit` | 4 (0x4) | Exported Function | Wintrust.SoftpubDefCertInit | 0x00002774
-`SoftpubCleanup` | 20 (0x14) | Exported Function | Wintrust.SoftpubCleanup | 0x00002ab0
-`SoftpubCheckCert` | 19 (0x13) | Exported Function | Wintrust.SoftpubCheckCert | 0x00002a87
-`SoftpubAuthenticode` | 18 (0x12) | Exported Function | Wintrust.SoftpubAuthenticode | 0x00002a59
-`OpenPersonalTrustDBDialog` | 17 (0x11) | Exported Function | Wintrust.OpenPersonalTrustDBDialog | 0x00002a22
-`OfficeInitializePolicy` | 16 (0x10) | Exported Function | Wintrust.OfficeInitializePolicy | 0x000029e8
-`OfficeCleanupPolicy` | 15 (0xf) | Exported Function | Wintrust.OfficeCleanupPolicy | 0x000029b4
-`HTTPSFinalProv` | 14 (0xe) | Exported Function | Wintrust.HTTPSFinalProv | 0x00002988
-`HTTPSCertificateTrust` | 3 (0x3) | Exported Function | Wintrust.HTTPSCertificateTrust | 0x00002742
-`GenericChainFinalProv` | 2 (0x2) | Exported Function | Wintrust.GenericChainFinalProv | 0x0000270d
-`GenericChainCertificateTrust` | 1 (0x1) | Exported Function | Wintrust.GenericChainCertificateTrust | 0x000026d1
-`FindCertsByIssuer` | 13 (0xd) | Exported Function | Wintrust.FindCertsByIssuer | 0x0000295e
-`DriverInitializePolicy` | 12 (0xc) | Exported Function | Wintrust.DriverInitializePolicy | 0x0000292c
-`DriverFinalPolicy` | 11 (0xb) | Exported Function | Wintrust.DriverFinalPolicy | 0x000028fa
-`DriverCleanupPolicy` | 10 (0xa) | Exported Function | Wintrust.DriverCleanupPolicy | 0x000028cb
-`DllUnregisterServer` | 9 (0x9) | Exported Function | Wintrust.SoftpubDllUnregisterServer | 0x00002893
-`DllRegisterServer` | 8 (0x8) | Exported Function | Wintrust.SoftpubDllRegisterServer | 0x0000285d
-`SoftpubLoadMessage` | 23 (0x17) | Exported Function | Wintrust.SoftpubLoadMessage | 0x00002b3b
-`SoftpubLoadSignature` | 24 (0x18) | Exported Function | Wintrust.SoftpubLoadSignature | 0x00002b6c
+Function Name | Ordinal | Type
+-- | -- | --
+`SoftpubCheckCert` | 19 | Exported Function
+`SoftpubCleanup` | 20 | Exported Function
+`SoftpubDefCertInit` | 4 | Exported Function
+`OfficeInitializePolicy` | 16 | Exported Function
+`OpenPersonalTrustDBDialog` | 17 | Exported Function
+`SoftpubAuthenticode` | 18 | Exported Function
+`SoftpubLoadDefUsageCallData` | 6 | Exported Function
+`SoftpubLoadMessage` | 23 | Exported Function
+`SoftpubLoadSignature` | 24 | Exported Function
+`SoftpubDumpStructure` | 21 | Exported Function
+`SoftpubFreeDefUsageCallData` | 5 | Exported Function
+`SoftpubInitialize` | 22 | Exported Function
+`DriverCleanupPolicy` | 10 | Exported Function
+`DriverFinalPolicy` | 11 | Exported Function
+`DriverInitializePolicy` | 12 | Exported Function
+`AddPersonalTrustDBPages` | 7 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`DllUnregisterServer` | 9 | Exported Function
+`HTTPSCertificateTrust` | 3 | Exported Function
+`HTTPSFinalProv` | 14 | Exported Function
+`OfficeCleanupPolicy` | 15 | Exported Function
+`FindCertsByIssuer` | 13 | Exported Function
+`GenericChainCertificateTrust` | 1 | Exported Function
+`GenericChainFinalProv` | 2 | Exported Function
 
 
 ## Signature

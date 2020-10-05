@@ -24,21 +24,18 @@ PE256 | `19538927B4CA854A61A6AFCC3BA69A91FCDA5851849064709D92C92F13D1CF6D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CiCheckSignedFile` | 4 (0x4) | Exported Function | 0x00000001c0044910 | 0x00044910
-`CiFindPageHashesInCatalog` | 5 (0x5) | Exported Function | 0x00000001c00449d0 | 0x000449d0
-`CiFindPageHashesInSignedFile` | 6 (0x6) | Exported Function | 0x00000001c0044a50 | 0x00044a50
-`CiFreePolicyInfo` | 7 (0x7) | Exported Function | 0x00000001c0044a90 | 0x00044a90
-`CiGetCertPublisherName` | 8 (0x8) | Exported Function | 0x00000001c005ff60 | 0x0005ff60
-`CiGetPEInformation` | 9 (0x9) | Exported Function | 0x00000001c00447f0 | 0x000447f0
-`CiInitialize` | 10 (0xa) | Exported Function | 0x00000001c0043130 | 0x00043130
-`CiSetTrustedOriginClaimId` | 11 (0xb) | Exported Function | 0x00000001c0060320 | 0x00060320
-`CiValidateFileObject` | 12 (0xc) | Exported Function | 0x00000001c0052dc0 | 0x00052dc0
-`CiVerifyHashInCatalog` | 13 (0xd) | Exported Function | 0x00000001c0044890 | 0x00044890
-`Ordinal1` | 1 (0x1) | Exported Function | 0x00000001c0053800 | 0x00053800
-`Ordinal2` | 2 (0x2) | Exported Function | 0x00000001c005c110 | 0x0005c110
-`Ordinal3` | 3 (0x3) | Exported Function | 0x00000001c005c360 | 0x0005c360
+Function Name | Ordinal | Type
+-- | -- | --
+`CiInitialize` | 10 | Exported Function
+`CiGetPEInformation` | 9 | Exported Function
+`CiSetTrustedOriginClaimId` | 11 | Exported Function
+`CiVerifyHashInCatalog` | 13 | Exported Function
+`CiValidateFileObject` | 12 | Exported Function
+`CiFindPageHashesInCatalog` | 5 | Exported Function
+`CiCheckSignedFile` | 4 | Exported Function
+`CiFindPageHashesInSignedFile` | 6 | Exported Function
+`CiGetCertPublisherName` | 8 | Exported Function
+`CiFreePolicyInfo` | 7 | Exported Function
 
 
 ## Signature

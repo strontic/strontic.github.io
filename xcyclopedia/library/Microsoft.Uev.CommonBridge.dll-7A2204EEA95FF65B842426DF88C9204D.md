@@ -24,20 +24,20 @@ PE256 | `627AA47EEF6CD3130B63FA08717CF480CBEEA1CA7929D848214B38B8D10EA125`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetAssociatedTemplateList` | 3 (0x3) | Exported Function | 0x0000000180005110 | 0x00005110
-`GetOriginalRepositoryPath` | 12 (0xc) | Exported Function | 0x0000000180005fd0 | 0x00005fd0
-`GetProfileRepositoryBasePath` | 11 (0xb) | Exported Function | 0x0000000180005e40 | 0x00005e40
-`GetProfileRepositoryBasePathForMachine` | 9 (0x9) | Exported Function | 0x0000000180005c30 | 0x00005c30
-`GetRepositoryPathForWin8Apps` | 8 (0x8) | Exported Function | 0x0000000180005ae0 | 0x00005ae0
-`GetRepositoryPathFromTemplate` | 7 (0x7) | Exported Function | 0x0000000180005950 | 0x00005950
-`GetShellTemplatePackageIds` | 13 (0xd) | Exported Function | 0x00000001800053b0 | 0x000053b0
-`GetTemplatePackageIds` | 4 (0x4) | Exported Function | 0x0000000180005650 | 0x00005650
-`RunSyncController` | 1 (0x1) | Exported Function | 0x0000000180004f80 | 0x00004f80
-`RunSyncControllerAsync` | 2 (0x2) | Exported Function | 0x0000000180005050 | 0x00005050
-`StartProcessWatcherDriver` | 5 (0x5) | Exported Function | 0x0000000180005910 | 0x00005910
-`StopProcessWatcherDriver` | 6 (0x6) | Exported Function | 0x0000000180005930 | 0x00005930
+Function Name | Ordinal | Type
+-- | -- | --
+`RunSyncController` | 1 | Exported Function
+`GetTemplatePackageIds` | 4 | Exported Function
+`GetShellTemplatePackageIds` | 13 | Exported Function
+`StopProcessWatcherDriver` | 6 | Exported Function
+`StartProcessWatcherDriver` | 5 | Exported Function
+`RunSyncControllerAsync` | 2 | Exported Function
+`GetProfileRepositoryBasePath` | 11 | Exported Function
+`GetOriginalRepositoryPath` | 12 | Exported Function
+`GetAssociatedTemplateList` | 3 | Exported Function
+`GetRepositoryPathFromTemplate` | 7 | Exported Function
+`GetRepositoryPathForWin8Apps` | 8 | Exported Function
+`GetProfileRepositoryBasePathForMachine` | 9 | Exported Function
 
 
 ## Signature

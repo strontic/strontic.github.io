@@ -24,21 +24,21 @@ PE256 | `D2C824EB97256994F99D842D7F019942ED013AC0E8392AE3BEA0B124EFF4AD09`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018001fc60 | 0x0001fc60
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x000000018001fc80 | 0x0001fc80
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x000000018001fca0 | 0x0001fca0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x000000018001fd60 | 0x0001fd60
-`SppFreeBadWritersArray` | 5 (0x5) | Exported Function | 0x0000000180020130 | 0x00020130
-`SppFreeClientPropArray` | 6 (0x6) | Exported Function | 0x0000000180020030 | 0x00020030
-`SppFreeExternalGroupPropArray` | 7 (0x7) | Exported Function | 0x00000001800200c0 | 0x000200c0
-`SppFreeGroupPropArray` | 8 (0x8) | Exported Function | 0x000000018001ffc0 | 0x0001ffc0
-`SppFreeMetadataProp` | 9 (0x9) | Exported Function | 0x00000001800200a0 | 0x000200a0
-`SxTracerDebuggerBreak` | 10 (0xa) | Exported Function | 0x0000000180020330 | 0x00020330
-`SxTracerGetThreadContextDebug` | 11 (0xb) | Exported Function | 0x00000001800201b0 | 0x000201b0
-`SxTracerGetThreadContextRetail` | 12 (0xc) | Exported Function | 0x00000001800201a0 | 0x000201a0
-`SxTracerShouldTrackFailure` | 13 (0xd) | Exported Function | 0x00000001800201d0 | 0x000201d0
+Function Name | Ordinal | Type
+-- | -- | --
+`SxTracerDebuggerBreak` | 10 | Exported Function
+`SppFreeMetadataProp` | 9 | Exported Function
+`SppFreeGroupPropArray` | 8 | Exported Function
+`SxTracerShouldTrackFailure` | 13 | Exported Function
+`SxTracerGetThreadContextRetail` | 12 | Exported Function
+`SxTracerGetThreadContextDebug` | 11 | Exported Function
+`SppFreeExternalGroupPropArray` | 7 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`SppFreeClientPropArray` | 6 | Exported Function
+`SppFreeBadWritersArray` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

@@ -24,17 +24,17 @@ PE256 | `FCC56CDDD6DCD1072C752E9EEAB827A25A91542587DECE7D30B6C733B057E975`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AboutDialogProc` | 1 (0x1) | Exported Function | 0x1c43b810 | 0x0003b810
-`ConfigureDialogProc` | 2 (0x2) | Exported Function | 0x1c43b9e0 | 0x0003b9e0
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x1c45731f | 0x0005731f
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x1c45724c | 0x0005724c
-`DllMain` | 5 (0x5) | Exported Function | 0x1c445d60 | 0x00045d60
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x1c405980 | 0x00005980
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x1c4059e0 | 0x000059e0
-`DriverDialogProc` | 8 (0x8) | Exported Function | 0x1c43b720 | 0x0003b720
-`DriverProc` | 9 (0x9) | Exported Function | 0x1c444e20 | 0x00044e20
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 7 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DriverProc` | 9 | Exported Function
+`DriverDialogProc` | 8 | Exported Function
+`DllMain` | 5 | Exported Function
+`ConfigureDialogProc` | 2 | Exported Function
+`AboutDialogProc` | 1 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

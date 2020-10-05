@@ -24,10 +24,10 @@ PE256 | `5DD95EF07E1132BAD1C968AF8D8F3DFA838909670676F0673365DE2E8848C8D2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`QueryPerformanceCounter` | 1 (0x1) | Exported Function | kernel32.QueryPerformanceCounter | 0x000010d7
-`QueryPerformanceFrequency` | 2 (0x2) | Exported Function | kernel32.QueryPerformanceFrequency | 0x00001112
+Function Name | Ordinal | Type
+-- | -- | --
+`QueryPerformanceFrequency` | 2 | Exported Function
+`QueryPerformanceCounter` | 1 | Exported Function
 
 
 ## Signature

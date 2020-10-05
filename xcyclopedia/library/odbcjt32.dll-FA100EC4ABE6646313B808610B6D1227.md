@@ -24,83 +24,83 @@ PE256 | `79E6FA5491A7C1418430C9A89BE5447AA831F8BBB19FF770883A53990FD51B4B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AdvancedDialogProc` | 503 (0x1f7) | Exported Function | 0x10015a30 | 0x00015a30
-`SQLGetTypeInfoW` | 147 (0x93) | Exported Function | 0x1001e5f0 | 0x0001e5f0
-`SQLGetStmtAttrW` | 138 (0x8a) | Exported Function | 0x10027140 | 0x00027140
-`SQLGetInfoW` | 145 (0x91) | Exported Function | 0x1001de40 | 0x0001de40
-`SQLGetFunctions` | 44 (0x2c) | Exported Function | 0x1001f240 | 0x0001f240
-`SQLGetDiagRecW` | 136 (0x88) | Exported Function | 0x1001a790 | 0x0001a790
-`SQLGetDiagFieldW` | 135 (0x87) | Exported Function | 0x1001a820 | 0x0001a820
-`SQLGetDescRecW` | 134 (0x86) | Exported Function | 0x10010250 | 0x00010250
-`SQLGetDescFieldW` | 133 (0x85) | Exported Function | 0x1000f4b0 | 0x0000f4b0
-`SQLGetData` | 43 (0x2b) | Exported Function | 0x1001cb30 | 0x0001cb30
-`SQLGetCursorNameW` | 117 (0x75) | Exported Function | 0x1000de80 | 0x0000de80
-`SQLGetConnectAttrW` | 132 (0x84) | Exported Function | 0x1000be90 | 0x0000be90
-`SQLFreeStmt` | 16 (0x10) | Exported Function | 0x100267d0 | 0x000267d0
-`SQLFreeHandle` | 31 (0x1f) | Exported Function | 0x1001d090 | 0x0001d090
-`SQLFreeEnv` | 15 (0xf) | Exported Function | 0x10019f50 | 0x00019f50
-`SQLFreeConnect` | 14 (0xe) | Exported Function | 0x10009360 | 0x00009360
-`SQLMoreResults` | 61 (0x3d) | Exported Function | 0x100286b0 | 0x000286b0
-`SQLFetchScroll` | 30 (0x1e) | Exported Function | 0x1001b130 | 0x0001b130
-`SQLNativeSqlW` | 162 (0xa2) | Exported Function | 0x1001f0a0 | 0x0001f0a0
-`SQLNumResultCols` | 18 (0x12) | Exported Function | 0x1000e950 | 0x0000e950
-`SQLSpecialColumnsW` | 152 (0x98) | Exported Function | 0x1001d200 | 0x0001d200
-`SQLSetStmtAttrW` | 176 (0xb0) | Exported Function | 0x10026bb0 | 0x00026bb0
-`SQLSetScrollOptions` | 69 (0x45) | Exported Function | 0x10028b80 | 0x00028b80
-`SQLSetPos` | 68 (0x44) | Exported Function | 0x10024c20 | 0x00024c20
-`SQLSetEnvAttr` | 75 (0x4b) | Exported Function | 0x1001a0f0 | 0x0001a0f0
-`SQLSetDescRec` | 74 (0x4a) | Exported Function | 0x10010520 | 0x00010520
-`SQLSetDescFieldW` | 173 (0xad) | Exported Function | 0x10010160 | 0x00010160
-`SQLSetCursorNameW` | 121 (0x79) | Exported Function | 0x1000e040 | 0x0000e040
-`SQLSetConnectAttrW` | 139 (0x8b) | Exported Function | 0x1000b7e0 | 0x0000b7e0
-`SQLRowCount` | 20 (0x14) | Exported Function | 0x1000e980 | 0x0000e980
-`SQLPutData` | 49 (0x31) | Exported Function | 0x10021390 | 0x00021390
-`SQLProceduresW` | 167 (0xa7) | Exported Function | 0x10022680 | 0x00022680
-`SQLProcedureColumnsW` | 166 (0xa6) | Exported Function | 0x10021f80 | 0x00021f80
-`SQLPrepareW` | 119 (0x77) | Exported Function | 0x10027530 | 0x00027530
-`SQLParamData` | 48 (0x30) | Exported Function | 0x100211a0 | 0x000211a0
-`SQLNumParams` | 63 (0x3f) | Exported Function | 0x10021970 | 0x00021970
-`SQLStatisticsW` | 153 (0x99) | Exported Function | 0x1001d860 | 0x0001d860
-`SQLFetch` | 13 (0xd) | Exported Function | 0x1001bc30 | 0x0001bc30
-`SQLExecute` | 12 (0xc) | Exported Function | 0x10027bd0 | 0x00027bd0
-`SelectIndexDlgProc` | 517 (0x205) | Exported Function | 0x100167e0 | 0x000167e0
-`RepairCompactProc` | 502 (0x1f6) | Exported Function | 0x10032020 | 0x00032020
-`OpenDirHook` | 504 (0x1f8) | Exported Function | 0x10015600 | 0x00015600
-`LoginDialogProc` | 510 (0x1fe) | Exported Function | 0x10011fd0 | 0x00011fd0
-`LoadByOrdinal` | 199 (0xc7) | Exported Function | 0x10032ff0 | 0x00032ff0
-`InvisibleSelectDb` | 508 (0x1fc) | Exported Function | 0x10016280 | 0x00016280
-`InitializeLoginDialog` | 511 (0x1ff) | Exported Function | 0x10011a10 | 0x00011a10
-`InitDialogAgain` | 509 (0x1fd) | Exported Function | 0x100118e0 | 0x000118e0
-`DllMain` | 501 (0x1f5) | Exported Function | 0x1001f450 | 0x0001f450
-`DefTxtFmtDlgProc` | 520 (0x208) | Exported Function | 0x1002b350 | 0x0002b350
-`ConfigDSNW` | 516 (0x204) | Exported Function | 0x10008320 | 0x00008320
-`ConfigDSNExW` | 514 (0x202) | Exported Function | 0x100083f0 | 0x000083f0
-`ConfigDSN` | 523 (0x20b) | Exported Function | 0x10008e90 | 0x00008e90
-`ConfigDriverW` | 522 (0x20a) | Exported Function | 0x10008070 | 0x00008070
-`ConfigDialogProc` | 513 (0x201) | Exported Function | 0x10012840 | 0x00012840
-`SelectUIdxDlgProc` | 512 (0x200) | Exported Function | 0x100192b0 | 0x000192b0
-`SQLExtendedFetch` | 59 (0x3b) | Exported Function | 0x1001b1a0 | 0x0001b1a0
-`SQLAllocConnect` | 1 (0x1) | Exported Function | 0x100090d0 | 0x000090d0
-`SQLAllocHandle` | 24 (0x18) | Exported Function | 0x1001cef0 | 0x0001cef0
-`SQLExecDirectW` | 111 (0x6f) | Exported Function | 0x10026700 | 0x00026700
-`SQLEndTran` | 29 (0x1d) | Exported Function | 0x10028700 | 0x00028700
-`SQLDriverConnectW` | 141 (0x8d) | Exported Function | 0x1000c280 | 0x0000c280
-`SQLDisconnect` | 9 (0x9) | Exported Function | 0x1000b530 | 0x0000b530
-`SQLDescribeColW` | 108 (0x6c) | Exported Function | 0x1000e290 | 0x0000e290
-`SQLCopyDesc` | 28 (0x1c) | Exported Function | 0x100111d0 | 0x000111d0
-`SQLConnectW` | 107 (0x6b) | Exported Function | 0x10009460 | 0x00009460
-`SQLColumnsW` | 140 (0x8c) | Exported Function | 0x10029fd0 | 0x00029fd0
-`SQLColAttributeW` | 127 (0x7f) | Exported Function | 0x1000ea10 | 0x0000ea10
-`SQLCloseCursor` | 26 (0x1a) | Exported Function | 0x1000e220 | 0x0000e220
-`SQLCancel` | 5 (0x5) | Exported Function | 0x10026a30 | 0x00026a30
-`SQLBulkOperations` | 78 (0x4e) | Exported Function | 0x10026480 | 0x00026480
-`SQLBindParameter` | 72 (0x48) | Exported Function | 0x10021b30 | 0x00021b30
-`SQLBindCol` | 4 (0x4) | Exported Function | 0x100051d0 | 0x000051d0
-`SQLAllocStmt` | 3 (0x3) | Exported Function | 0x100264f0 | 0x000264f0
-`SQLAllocEnv` | 2 (0x2) | Exported Function | 0x10019b60 | 0x00019b60
-`SQLTablesW` | 154 (0x9a) | Exported Function | 0x10028c80 | 0x00028c80
+Function Name | Ordinal | Type
+-- | -- | --
+`SQLGetDiagRecW` | 136 | Exported Function
+`SQLGetFunctions` | 44 | Exported Function
+`SQLGetDescRecW` | 134 | Exported Function
+`SQLGetDiagFieldW` | 135 | Exported Function
+`SQLGetInfoW` | 145 | Exported Function
+`SQLMoreResults` | 61 | Exported Function
+`SQLNativeSqlW` | 162 | Exported Function
+`SQLGetStmtAttrW` | 138 | Exported Function
+`SQLGetTypeInfoW` | 147 | Exported Function
+`SQLFreeEnv` | 15 | Exported Function
+`SQLFreeHandle` | 31 | Exported Function
+`SQLFetchScroll` | 30 | Exported Function
+`SQLFreeConnect` | 14 | Exported Function
+`SQLFreeStmt` | 16 | Exported Function
+`SQLGetData` | 43 | Exported Function
+`SQLGetDescFieldW` | 133 | Exported Function
+`SQLGetConnectAttrW` | 132 | Exported Function
+`SQLGetCursorNameW` | 117 | Exported Function
+`SQLNumParams` | 63 | Exported Function
+`SQLSetEnvAttr` | 75 | Exported Function
+`SQLSetPos` | 68 | Exported Function
+`SQLSetDescFieldW` | 173 | Exported Function
+`SQLSetDescRec` | 74 | Exported Function
+`SQLSetScrollOptions` | 69 | Exported Function
+`SQLStatisticsW` | 153 | Exported Function
+`SQLTablesW` | 154 | Exported Function
+`SQLSetStmtAttrW` | 176 | Exported Function
+`SQLSpecialColumnsW` | 152 | Exported Function
+`SQLPrepareW` | 119 | Exported Function
+`SQLProcedureColumnsW` | 166 | Exported Function
+`SQLNumResultCols` | 18 | Exported Function
+`SQLParamData` | 48 | Exported Function
+`SQLProceduresW` | 167 | Exported Function
+`SQLSetConnectAttrW` | 139 | Exported Function
+`SQLSetCursorNameW` | 121 | Exported Function
+`SQLPutData` | 49 | Exported Function
+`SQLRowCount` | 20 | Exported Function
+`SQLFetch` | 13 | Exported Function
+`LoadByOrdinal` | 199 | Exported Function
+`LoginDialogProc` | 510 | Exported Function
+`InitializeLoginDialog` | 511 | Exported Function
+`InvisibleSelectDb` | 508 | Exported Function
+`OpenDirHook` | 504 | Exported Function
+`SelectUIdxDlgProc` | 512 | Exported Function
+`SQLAllocConnect` | 1 | Exported Function
+`RepairCompactProc` | 502 | Exported Function
+`SelectIndexDlgProc` | 517 | Exported Function
+`ConfigDriverW` | 522 | Exported Function
+`ConfigDSN` | 523 | Exported Function
+`AdvancedDialogProc` | 503 | Exported Function
+`ConfigDialogProc` | 513 | Exported Function
+`ConfigDSNExW` | 514 | Exported Function
+`DllMain` | 501 | Exported Function
+`InitDialogAgain` | 509 | Exported Function
+`ConfigDSNW` | 516 | Exported Function
+`DefTxtFmtDlgProc` | 520 | Exported Function
+`SQLAllocEnv` | 2 | Exported Function
+`SQLDescribeColW` | 108 | Exported Function
+`SQLDisconnect` | 9 | Exported Function
+`SQLConnectW` | 107 | Exported Function
+`SQLCopyDesc` | 28 | Exported Function
+`SQLDriverConnectW` | 141 | Exported Function
+`SQLExecute` | 12 | Exported Function
+`SQLExtendedFetch` | 59 | Exported Function
+`SQLEndTran` | 29 | Exported Function
+`SQLExecDirectW` | 111 | Exported Function
+`SQLBindCol` | 4 | Exported Function
+`SQLBindParameter` | 72 | Exported Function
+`SQLAllocHandle` | 24 | Exported Function
+`SQLAllocStmt` | 3 | Exported Function
+`SQLBulkOperations` | 78 | Exported Function
+`SQLColAttributeW` | 127 | Exported Function
+`SQLColumnsW` | 140 | Exported Function
+`SQLCancel` | 5 | Exported Function
+`SQLCloseCursor` | 26 | Exported Function
 
 
 ## Signature

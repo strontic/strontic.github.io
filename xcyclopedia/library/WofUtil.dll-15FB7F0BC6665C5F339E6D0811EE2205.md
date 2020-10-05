@@ -24,19 +24,19 @@ PE256 | `3E0B23DA0A6A14A5E3523855059F1632C279CACC30D03DF9DEC60E4C1C7125E9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WofEnumEntries` | 1 (0x1) | Exported Function | 0x00000001800015f0 | 0x000015f0
-`WofFileEnumFiles` | 2 (0x2) | Exported Function | 0x00000001800023b0 | 0x000023b0
-`WofGetDriverVersion` | 3 (0x3) | Exported Function | 0x0000000180001b20 | 0x00001b20
-`WofIsExternalFile` | 4 (0x4) | Exported Function | 0x0000000180001a40 | 0x00001a40
-`WofSetFileDataLocation` | 5 (0x5) | Exported Function | 0x0000000180001880 | 0x00001880
-`WofShouldCompressBinaries` | 6 (0x6) | Exported Function | 0x00000001800045e0 | 0x000045e0
-`WofWimAddEntry` | 7 (0x7) | Exported Function | 0x0000000180001010 | 0x00001010
-`WofWimEnumFiles` | 8 (0x8) | Exported Function | 0x0000000180002380 | 0x00002380
-`WofWimRemoveEntry` | 9 (0x9) | Exported Function | 0x0000000180001520 | 0x00001520
-`WofWimSuspendEntry` | 10 (0xa) | Exported Function | 0x0000000180001450 | 0x00001450
-`WofWimUpdateEntry` | 11 (0xb) | Exported Function | 0x0000000180001280 | 0x00001280
+Function Name | Ordinal | Type
+-- | -- | --
+`WofWimEnumFiles` | 8 | Exported Function
+`WofWimAddEntry` | 7 | Exported Function
+`WofWimRemoveEntry` | 9 | Exported Function
+`WofWimUpdateEntry` | 11 | Exported Function
+`WofWimSuspendEntry` | 10 | Exported Function
+`WofShouldCompressBinaries` | 6 | Exported Function
+`WofFileEnumFiles` | 2 | Exported Function
+`WofEnumEntries` | 1 | Exported Function
+`WofGetDriverVersion` | 3 | Exported Function
+`WofSetFileDataLocation` | 5 | Exported Function
+`WofIsExternalFile` | 4 | Exported Function
 
 
 ## Signature

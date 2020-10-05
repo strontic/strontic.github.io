@@ -24,30 +24,30 @@ PE256 | `51ABA38052AC526A0D862B4B78A99B3D48C6CF8948290A119F5154E177DACB30`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CoreUIClientCreate` | 1 (0x1) | Exported Function | 0x000000018003ca00 | 0x0003ca00
-`MinUserUnregisterPointerInputTarget` | 20 (0x14) | Exported Function | 0x00000001801969c0 | 0x001969c0
-`MinUserReregisterPointerInputTargets` | 19 (0x13) | Exported Function | 0x0000000180196920 | 0x00196920
-`MinUserRequestViewHitTest` | 18 (0x12) | Exported Function | 0x00000001801982e0 | 0x001982e0
-`MinUserRegisterPointerInputTarget` | 17 (0x11) | Exported Function | 0x0000000180196800 | 0x00196800
-`MinUserNotifyOneCoreTransformMode` | 16 (0x10) | Exported Function | 0x00000001800813f0 | 0x000813f0
-`MinUserInputInitialize` | 15 (0xf) | Exported Function | 0x00000001801981c0 | 0x001981c0
-`MinUserGetInputRoutingInfo` | 14 (0xe) | Exported Function | 0x0000000180198140 | 0x00198140
-`MinUserGetInputHost` | 13 (0xd) | Exported Function | 0x00000001801980f0 | 0x001980f0
-`DllGetClassObject` | 12 (0xc) | Exported Function | 0x0000000180017cc0 | 0x00017cc0
-`DllGetActivationFactory` | 11 (0xb) | Exported Function | 0x000000018007cf40 | 0x0007cf40
-`DllCanUnloadNow` | 10 (0xa) | Exported Function | 0x000000018000bff0 | 0x0000bff0
-`CreateNavigationClientWindowAdapter` | 9 (0x9) | Exported Function | 0x0000000180197950 | 0x00197950
-`CoreUIServerTestCreate` | 8 (0x8) | Exported Function | 0x000000018014a730 | 0x0014a730
-`CoreUIServerCreate` | 7 (0x7) | Exported Function | 0x000000018007b920 | 0x0007b920
-`CoreUIFactoryCreate` | 6 (0x6) | Exported Function | 0x00000001800395f0 | 0x000395f0
-`CoreUICreateICoreWindowFactory` | 5 (0x5) | Exported Function | 0x000000018004c270 | 0x0004c270
-`CoreUICreateDuplicateWindowFactory` | 4 (0x4) | Exported Function | 0x000000018000fb60 | 0x0000fb60
-`CoreUIConfigureTestHost` | 3 (0x3) | Exported Function | 0x00000001800a99b0 | 0x000a99b0
-`CoreUIClientTestCreate` | 2 (0x2) | Exported Function | 0x000000018014a620 | 0x0014a620
-`ServiceMain` | 21 (0x15) | Exported Function | 0x0000000180196aa0 | 0x00196aa0
-`SvchostPushServiceGlobals` | 22 (0x16) | Exported Function | 0x0000000180196ba0 | 0x00196ba0
+Function Name | Ordinal | Type
+-- | -- | --
+`MinUserInputInitialize` | 15 | Exported Function
+`MinUserNotifyOneCoreTransformMode` | 16 | Exported Function
+`MinUserGetInputRoutingInfo` | 14 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`MinUserGetInputHost` | 13 | Exported Function
+`MinUserRegisterPointerInputTarget` | 17 | Exported Function
+`ServiceMain` | 21 | Exported Function
+`SvchostPushServiceGlobals` | 22 | Exported Function
+`MinUserUnregisterPointerInputTarget` | 20 | Exported Function
+`MinUserRequestViewHitTest` | 18 | Exported Function
+`MinUserReregisterPointerInputTargets` | 19 | Exported Function
+`CoreUICreateDuplicateWindowFactory` | 4 | Exported Function
+`CoreUICreateICoreWindowFactory` | 5 | Exported Function
+`CoreUIConfigureTestHost` | 3 | Exported Function
+`CoreUIClientCreate` | 1 | Exported Function
+`CoreUIClientTestCreate` | 2 | Exported Function
+`CoreUIFactoryCreate` | 6 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`DllGetActivationFactory` | 11 | Exported Function
+`CreateNavigationClientWindowAdapter` | 9 | Exported Function
+`CoreUIServerCreate` | 7 | Exported Function
+`CoreUIServerTestCreate` | 8 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `7E25385E5D36F2DCBB280BBF90F02ED385C53A164F5BCC841393E9816121F8A5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180002280 | 0x00002280
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x00000001800022c0 | 0x000022c0
-`StartDiagnosticsW` | 3 (0x3) | Exported Function | 0x0000000180002400 | 0x00002400
+Function Name | Ordinal | Type
+-- | -- | --
+`StartDiagnosticsW` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

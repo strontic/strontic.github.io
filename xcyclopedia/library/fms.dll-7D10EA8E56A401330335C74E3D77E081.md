@@ -24,31 +24,31 @@ PE256 | `6828CE51AB083626DC8C72C6B8D4A58ABBFF53A5D21AC7C5A995E4E21223A83B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FmsActivateFonts` | 1 (0x1) | Exported Function | 0x000000018001c580 | 0x0001c580
-`FmsSetFontAutoActivationMode` | 21 (0x15) | Exported Function | 0x000000018001d880 | 0x0001d880
-`FmsSetFilter` | 20 (0x14) | Exported Function | 0x000000018001d730 | 0x0001d730
-`FmsSetDefaultFilter` | 19 (0x13) | Exported Function | 0x0000000180007880 | 0x00007880
-`FmsResetFontsActivationState` | 18 (0x12) | Exported Function | 0x000000018001d5a0 | 0x0001d5a0
-`FmsResetEnumerator` | 17 (0x11) | Exported Function | 0x000000018001d3f0 | 0x0001d3f0
-`FmsMapLogicalFont` | 16 (0x10) | Exported Function | 0x000000018001d3a0 | 0x0001d3a0
-`FmsMapGdiLogicalFont` | 15 (0xf) | Exported Function | 0x000000018001d260 | 0x0001d260
-`FmsInitializeEnumerator` | 14 (0xe) | Exported Function | 0x0000000180009d70 | 0x00009d70
-`FmsGetGdiLogicalFont` | 13 (0xd) | Exported Function | 0x000000018001d0c0 | 0x0001d0c0
-`FmsSetTextFilter` | 22 (0x16) | Exported Function | 0x000000018001d9a0 | 0x0001d9a0
-`FmsGetGDILogFont` | 12 (0xc) | Exported Function | 0x0000000180008110 | 0x00008110
-`FmsGetFontAutoActivationMode` | 10 (0xa) | Exported Function | 0x000000018001cfa0 | 0x0001cfa0
-`FmsGetFilteredPropertyList` | 9 (0x9) | Exported Function | 0x000000018001cde0 | 0x0001cde0
-`FmsGetFilteredFontList` | 8 (0x8) | Exported Function | 0x0000000180007e20 | 0x00007e20
-`FmsGetDirectWriteLogFont` | 7 (0x7) | Exported Function | 0x000000018001cd90 | 0x0001cd90
-`FmsGetCurrentFilter` | 6 (0x6) | Exported Function | 0x000000018001cc50 | 0x0001cc50
-`FmsGetBestMatchInFamily` | 5 (0x5) | Exported Function | 0x000000018001ca50 | 0x0001ca50
-`FmsFreeEnumerator` | 4 (0x4) | Exported Function | 0x0000000180009870 | 0x00009870
-`FmsDeactivateFonts` | 3 (0x3) | Exported Function | 0x000000018001c880 | 0x0001c880
-`FmsAddFilter` | 2 (0x2) | Exported Function | 0x000000018001c750 | 0x0001c750
-`FmsGetFontProperty` | 11 (0xb) | Exported Function | 0x00000001800091e0 | 0x000091e0
-`FmsToggleOnDesignAxis` | 23 (0x17) | Exported Function | 0x000000018001db10 | 0x0001db10
+Function Name | Ordinal | Type
+-- | -- | --
+`FmsMapLogicalFont` | 16 | Exported Function
+`FmsResetEnumerator` | 17 | Exported Function
+`FmsMapGdiLogicalFont` | 15 | Exported Function
+`FmsGetGdiLogicalFont` | 13 | Exported Function
+`FmsInitializeEnumerator` | 14 | Exported Function
+`FmsResetFontsActivationState` | 18 | Exported Function
+`FmsSetTextFilter` | 22 | Exported Function
+`FmsToggleOnDesignAxis` | 23 | Exported Function
+`FmsSetFontAutoActivationMode` | 21 | Exported Function
+`FmsSetDefaultFilter` | 19 | Exported Function
+`FmsSetFilter` | 20 | Exported Function
+`FmsGetGDILogFont` | 12 | Exported Function
+`FmsFreeEnumerator` | 4 | Exported Function
+`FmsGetBestMatchInFamily` | 5 | Exported Function
+`FmsDeactivateFonts` | 3 | Exported Function
+`FmsActivateFonts` | 1 | Exported Function
+`FmsAddFilter` | 2 | Exported Function
+`FmsGetCurrentFilter` | 6 | Exported Function
+`FmsGetFontAutoActivationMode` | 10 | Exported Function
+`FmsGetFontProperty` | 11 | Exported Function
+`FmsGetFilteredPropertyList` | 9 | Exported Function
+`FmsGetDirectWriteLogFont` | 7 | Exported Function
+`FmsGetFilteredFontList` | 8 | Exported Function
 
 
 ## Signature

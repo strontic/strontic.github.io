@@ -24,10 +24,10 @@ PE256 | `440B983E75B87A11BCD469BC2EB40298D13EFDF87AA47D4C299C16A8E455866E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`g_RampOld_BeadTbl` | 2 (0x2) | Exported Function | 0x778ec000 | 0x0006c000
-`RampOldTri` | 1 (0x1) | Exported Function | 0x778eb460 | 0x0006b460
+Function Name | Ordinal | Type
+-- | -- | --
+`RampOldTri` | 1 | Exported Function
+`g_RampOld_BeadTbl` | 2 | Exported Function
 
 
 ## Signature

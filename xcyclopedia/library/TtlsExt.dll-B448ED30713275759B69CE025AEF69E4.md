@@ -24,21 +24,21 @@ PE256 | `F81BCA4397FE42D183992618AE70299232A140164DEB6B67AE49546C06C16134`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x0000000180004750 | 0x00004750
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x0000000180004770 | 0x00004770
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x00000001800048a0 | 0x000048a0
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x0000000180004990 | 0x00004990
-`TtlsExt_EapPeerInvokeConfigUI` | 1 (0x1) | Exported Function | 0x000000018000b900 | 0x0000b900
-`TtlsExt_FreeMemoryExt` | 8 (0x8) | Exported Function | 0x0000000180004a60 | 0x00004a60
-`TtlsExt_GetConfigCacheOnlyCertValidation` | 9 (0x9) | Exported Function | 0x0000000180001f20 | 0x00001f20
-`TtlsExt_GetConfigForceNotDomainJoined` | 10 (0xa) | Exported Function | 0x0000000180001f20 | 0x00001f20
-`TtlsExt_GetContextData` | 11 (0xb) | Exported Function | 0x0000000180004ee0 | 0x00004ee0
-`TtlsExt_GetUserCredentials` | 12 (0xc) | Exported Function | 0x0000000180004a80 | 0x00004a80
-`TtlsExt_InvokeNonEapMethodUI` | 2 (0x2) | Exported Function | 0x000000018000eb50 | 0x0000eb50
-`TtlsExt_InvokeServerAuthentication` | 3 (0x3) | Exported Function | 0x0000000180004ef0 | 0x00004ef0
-`TtlsExt_ShowHelp` | 13 (0xd) | Exported Function | 0x0000000180001f20 | 0x00001f20
+Function Name | Ordinal | Type
+-- | -- | --
+`TtlsExt_GetUserCredentials` | 12 | Exported Function
+`TtlsExt_GetContextData` | 11 | Exported Function
+`TtlsExt_GetConfigForceNotDomainJoined` | 10 | Exported Function
+`TtlsExt_ShowHelp` | 13 | Exported Function
+`TtlsExt_InvokeServerAuthentication` | 3 | Exported Function
+`TtlsExt_InvokeNonEapMethodUI` | 2 | Exported Function
+`TtlsExt_GetConfigCacheOnlyCertValidation` | 9 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`TtlsExt_FreeMemoryExt` | 8 | Exported Function
+`TtlsExt_EapPeerInvokeConfigUI` | 1 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
 
 
 ## Signature

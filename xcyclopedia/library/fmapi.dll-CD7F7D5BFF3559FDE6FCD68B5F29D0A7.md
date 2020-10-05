@@ -24,16 +24,16 @@ PE256 | `7C4B6058FBA68674B9060B694649FAE75DEEA02CCA09C1041E4608272D62EA57`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseFileRestoreContext` | 1 (0x1) | Exported Function | 0x000000018000db30 | 0x0000db30
-`CreateFileRestoreContext` | 2 (0x2) | Exported Function | 0x000000018000d6c0 | 0x0000d6c0
-`DetectBootSector` | 3 (0x3) | Exported Function | 0x000000018000dfe0 | 0x0000dfe0
-`DetectEncryptedVolume` | 4 (0x4) | Exported Function | 0x000000018000dfb0 | 0x0000dfb0
-`DetectEncryptedVolumeEx` | 5 (0x5) | Exported Function | 0x000000018000dfb0 | 0x0000dfb0
-`RestoreFile` | 6 (0x6) | Exported Function | 0x000000018000ddd0 | 0x0000ddd0
-`ScanRestorableFiles` | 7 (0x7) | Exported Function | 0x000000018000dc50 | 0x0000dc50
-`SupplyDecryptionInfo` | 8 (0x8) | Exported Function | 0x000000018000dfb0 | 0x0000dfb0
+Function Name | Ordinal | Type
+-- | -- | --
+`RestoreFile` | 6 | Exported Function
+`DetectEncryptedVolumeEx` | 5 | Exported Function
+`SupplyDecryptionInfo` | 8 | Exported Function
+`ScanRestorableFiles` | 7 | Exported Function
+`CreateFileRestoreContext` | 2 | Exported Function
+`CloseFileRestoreContext` | 1 | Exported Function
+`DetectEncryptedVolume` | 4 | Exported Function
+`DetectBootSector` | 3 | Exported Function
 
 
 ## Signature

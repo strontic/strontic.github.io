@@ -24,10 +24,10 @@ PE256 | `FB0DE85D6D3BEA29D56430036F0919BD2F07407E8B65A25B981D8F7A61DBEEAE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateUpdateSetupUI` | 1 (0x1) | Exported Function | 0x0000000180017a60 | 0x00017a60
-`CreateWinSetupUI` | 2 (0x2) | Exported Function | 0x0000000180017950 | 0x00017950
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateWinSetupUI` | 2 | Exported Function
+`CreateUpdateSetupUI` | 1 | Exported Function
 
 
 ## Signature

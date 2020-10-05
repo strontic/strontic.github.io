@@ -24,12 +24,12 @@ PE256 | `2DDB132FD36CFE39208BFFE5F462C89B1381DDE942739D3A15BED07DAC1C2DF8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`class Microsoft::VoiceAgentServices::Logger & __ptr64 __cdecl GetLoggerInstance(void)` | 3 (0x3) | Exported Function | 0x0000000180001800 | 0x00001800
-`class std::shared_ptr<class Microsoft::VoiceAgentServices::IAgentActivationRuntime> __cdecl CreateAgentActivationRuntime(void)` | 1 (0x1) | Exported Function | 0x0000000180001440 | 0x00001440
-`class std::shared_ptr<class Microsoft::VoiceAgentServices::IAgentActivationRuntime> __cdecl GetAgentActivationRuntime(void)` | 2 (0x2) | Exported Function | 0x0000000180001640 | 0x00001640
-`void __cdecl ReleaseAgentActivationRuntime(void)` | 4 (0x4) | Exported Function | 0x0000000180001810 | 0x00001810
+Function Name | Ordinal | Type
+-- | -- | --
+`class std::shared_ptr<class Microsoft::VoiceAgentServices::IAgentActivationRuntime> __cdecl GetAgentActivationRuntime(void)` | 2 | Exported Function
+`void __cdecl ReleaseAgentActivationRuntime(void)` | 4 | Exported Function
+`class Microsoft::VoiceAgentServices::Logger & __ptr64 __cdecl GetLoggerInstance(void)` | 3 | Exported Function
+`class std::shared_ptr<class Microsoft::VoiceAgentServices::IAgentActivationRuntime> __cdecl CreateAgentActivationRuntime(void)` | 1 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `7EF220DEE96F6D1947CAA658F093BE079E5BD577DA688ECA0EED601666ED8DF1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WinReGetConfig` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`WinReGetConfig` | 1 | Exported Function
 
 
 ## Signature

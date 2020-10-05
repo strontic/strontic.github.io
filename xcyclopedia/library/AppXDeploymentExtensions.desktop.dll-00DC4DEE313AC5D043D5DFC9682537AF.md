@@ -24,11 +24,11 @@ PE256 | `3017F18B06110B31330FA7336E0BBE50CCA13C2B6F088DF1393B8F8373349959`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LoadCategoryNameTable` | 1 (0x1) | Exported Function | 0x000000018000a360 | 0x0000a360
-`LoadExtensionRegistrationTable` | 2 (0x2) | Exported Function | 0x000000018000a2d0 | 0x0000a2d0
-`ShellRefresh` | 3 (0x3) | Exported Function | 0x0000000180023640 | 0x00023640
+Function Name | Ordinal | Type
+-- | -- | --
+`ShellRefresh` | 3 | Exported Function
+`LoadExtensionRegistrationTable` | 2 | Exported Function
+`LoadCategoryNameTable` | 1 | Exported Function
 
 
 ## Signature

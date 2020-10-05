@@ -24,30 +24,30 @@ PE256 | `B0B904491C4D7D84F2852FA641F9E9732FB14D1A1E6901D8F1BD60EEE0597846`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ORCloseHive` | 1 (0x1) | Exported Function | 0x0000000180001490 | 0x00001490
-`ORSetKeySecurity` | 20 (0x14) | Exported Function | 0x0000000180004470 | 0x00004470
-`ORSaveHive` | 19 (0x13) | Exported Function | 0x0000000180001670 | 0x00001670
-`ORRenameKey` | 18 (0x12) | Exported Function | 0x0000000180002e20 | 0x00002e20
-`ORQueryInfoKey` | 17 (0x11) | Exported Function | 0x0000000180002550 | 0x00002550
-`OROpenKey` | 16 (0x10) | Exported Function | 0x0000000180001ad0 | 0x00001ad0
-`OROpenHiveByHandle` | 15 (0xf) | Exported Function | 0x0000000180001380 | 0x00001380
-`OROpenHive` | 14 (0xe) | Exported Function | 0x0000000180001390 | 0x00001390
-`ORMergeHives` | 13 (0xd) | Exported Function | 0x0000000180005c50 | 0x00005c50
-`ORGetVirtualFlags` | 12 (0xc) | Exported Function | 0x0000000180002cb0 | 0x00002cb0
-`ORGetVersion` | 11 (0xb) | Exported Function | 0x0000000180004630 | 0x00004630
-`ORGetValue` | 10 (0xa) | Exported Function | 0x00000001800032b0 | 0x000032b0
-`ORGetKeySecurity` | 9 (0x9) | Exported Function | 0x00000001800042c0 | 0x000042c0
-`OREnumValue` | 8 (0x8) | Exported Function | 0x0000000180003b50 | 0x00003b50
-`OREnumKey` | 7 (0x7) | Exported Function | 0x0000000180002810 | 0x00002810
-`ORDeleteValue` | 6 (0x6) | Exported Function | 0x0000000180003d80 | 0x00003d80
-`ORDeleteKey` | 5 (0x5) | Exported Function | 0x0000000180002350 | 0x00002350
-`ORCreateKey` | 4 (0x4) | Exported Function | 0x0000000180001c80 | 0x00001c80
-`ORCreateHive` | 3 (0x3) | Exported Function | 0x0000000180001060 | 0x00001060
-`ORCloseKey` | 2 (0x2) | Exported Function | 0x0000000180002c20 | 0x00002c20
-`ORSetValue` | 21 (0x15) | Exported Function | 0x0000000180003960 | 0x00003960
-`ORSetVirtualFlags` | 22 (0x16) | Exported Function | 0x0000000180002d50 | 0x00002d50
+Function Name | Ordinal | Type
+-- | -- | --
+`OROpenHiveByHandle` | 15 | Exported Function
+`OROpenKey` | 16 | Exported Function
+`OROpenHive` | 14 | Exported Function
+`ORGetVirtualFlags` | 12 | Exported Function
+`ORMergeHives` | 13 | Exported Function
+`ORQueryInfoKey` | 17 | Exported Function
+`ORSetValue` | 21 | Exported Function
+`ORSetVirtualFlags` | 22 | Exported Function
+`ORSetKeySecurity` | 20 | Exported Function
+`ORRenameKey` | 18 | Exported Function
+`ORSaveHive` | 19 | Exported Function
+`ORCreateKey` | 4 | Exported Function
+`ORDeleteKey` | 5 | Exported Function
+`ORCreateHive` | 3 | Exported Function
+`ORCloseHive` | 1 | Exported Function
+`ORCloseKey` | 2 | Exported Function
+`ORDeleteValue` | 6 | Exported Function
+`ORGetValue` | 10 | Exported Function
+`ORGetVersion` | 11 | Exported Function
+`ORGetKeySecurity` | 9 | Exported Function
+`OREnumKey` | 7 | Exported Function
+`OREnumValue` | 8 | Exported Function
 
 
 ## Signature

@@ -24,43 +24,43 @@ PE256 | `A1AD5F073EB1E406777545E43D786A965BA8BFDCF1C822B4E0D66E3B614EC8BC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`const CTcpMib::``vftable'` | 9 (0x9) | Exported Function | 0x0000000180008080 | 0x00008080
-`public: unsigned long __cdecl CTcpMib::SnmpGetNext(char const * __ptr64,char const * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 30 (0x1e) | Exported Function | 0x00000001800038d0 | 0x000038d0
-`public: virtual __cdecl CTcpMib::~CTcpMib(void) __ptr64` | 5 (0x5) | Exported Function | 0x0000000180002ff0 | 0x00002ff0
-`public: virtual __cdecl CTcpMibABC::~CTcpMibABC(void) __ptr64` | 6 (0x6) | Exported Function | 0x0000000180001030 | 0x00001030
-`public: virtual int __cdecl CTcpMib::RFC1157ToString(struct SnmpVarBind * __ptr64,unsigned short * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 23 (0x17) | Exported Function | 0x0000000180004760 | 0x00004760
-`public: virtual int __cdecl CTcpMib::SupportsPrinterMib(char const * __ptr64,char const * __ptr64,unsigned long,int * __ptr64) __ptr64` | 33 (0x21) | Exported Function | 0x00000001800030f0 | 0x000030f0
-`public: virtual long __cdecl CTcpMib::GetDeviceId(unsigned short const * __ptr64,unsigned long,unsigned short * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 12 (0xc) | Exported Function | 0x0000000180004940 | 0x00004940
-`public: unsigned long __cdecl CTcpMib::SnmpGet(char const * __ptr64,char const * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 27 (0x1b) | Exported Function | 0x00000001800036a0 | 0x000036a0
-`public: virtual long __cdecl CTcpMib::GetPortList(unsigned short const * __ptr64,unsigned char * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 16 (0x10) | Exported Function | 0x00000001800048a0 | 0x000048a0
-`public: virtual unsigned long __cdecl CTcpMib::GetNextRequestId(unsigned long * __ptr64) __ptr64` | 15 (0xf) | Exported Function | 0x0000000180004700 | 0x00004700
-`public: virtual unsigned long __cdecl CTcpMib::InitSnmp(void) __ptr64` | 20 (0x14) | Exported Function | 0x0000000180003040 | 0x00003040
-`public: virtual unsigned long __cdecl CTcpMib::RegisterDeviceStatusCallback(unsigned long (__cdecl*)(int,char const * __ptr64,char const * __ptr64,unsigned long,unsigned long,unsigned long),void * __ptr64 * __ptr64) __ptr64` | 24 (0x18) | Exported Function | 0x0000000180003f30 | 0x00003f30
-`public: virtual unsigned long __cdecl CTcpMib::RequestDeviceStatus(void * __ptr64,unsigned long,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 25 (0x19) | Exported Function | 0x0000000180003ae0 | 0x00003ae0
-`public: virtual unsigned long __cdecl CTcpMib::SnmpGet(char const * __ptr64,char const * __ptr64,char const * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 28 (0x1c) | Exported Function | 0x00000001800035c0 | 0x000035c0
-`public: virtual unsigned long __cdecl CTcpMib::SnmpGet(char const * __ptr64,char const * __ptr64,struct AsnObjectIdentifier * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 29 (0x1d) | Exported Function | 0x00000001800034a0 | 0x000034a0
-`public: virtual unsigned long __cdecl CTcpMib::GetDeviceDescription(char const * __ptr64,char const * __ptr64,unsigned long,unsigned short * __ptr64,unsigned long) __ptr64` | 11 (0xb) | Exported Function | 0x00000001800033c0 | 0x000033c0
-`public: virtual unsigned long __cdecl CTcpMib::SnmpGetNext(char const * __ptr64,char const * __ptr64,struct AsnObjectIdentifier * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 31 (0x1f) | Exported Function | 0x00000001800037b0 | 0x000037b0
-`public: int __cdecl CTcpMib::IsValid(void)const __ptr64` | 21 (0x15) | Exported Function | 0x0000000180003030 | 0x00003030
-`public: class CTcpMib & __ptr64 __cdecl CTcpMib::operator=(class CTcpMib const & __ptr64) __ptr64` | 7 (0x7) | Exported Function | 0x0000000180001a30 | 0x00001a30
-`const CTcpMibABC::``vftable'` | 10 (0xa) | Exported Function | 0x0000000180008010 | 0x00008010
-`GetTcpMibPtr` | 35 (0x23) | Exported Function | 0x0000000180002da0 | 0x00002da0
-`private: long __cdecl CTcpMib::GetDeviceIdFromIni(unsigned short const * __ptr64,unsigned long,unsigned short * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 13 (0xd) | Exported Function | 0x00000001800051c0 | 0x000051c0
-`private: long __cdecl CTcpMib::GetDeviceIdFromMib(unsigned short const * __ptr64,unsigned long,unsigned short * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 14 (0xe) | Exported Function | 0x0000000180005090 | 0x00005090
-`private: long __cdecl CTcpMib::GetPortListFromIni(unsigned short const * __ptr64,unsigned char * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 17 (0x11) | Exported Function | 0x0000000180004c90 | 0x00004c90
-`private: long __cdecl CTcpMib::GetPortListFromMib(unsigned short const * __ptr64,unsigned char * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 18 (0x12) | Exported Function | 0x0000000180004a10 | 0x00004a10
-`public: class CTcpMibABC & __ptr64 __cdecl CTcpMibABC::operator=(class CTcpMibABC const & __ptr64) __ptr64` | 8 (0x8) | Exported Function | 0x0000000180001050 | 0x00001050
-`private: long __cdecl CTcpMib::SupportsPortMonMib(unsigned short const * __ptr64,int * __ptr64) __ptr64` | 32 (0x20) | Exported Function | 0x0000000180003230 | 0x00003230
-`private: static unsigned long __cdecl CTcpMib::GetStatusFromVBL(void * __ptr64,struct smiVALUE * __ptr64,struct smiVALUE * __ptr64,struct smiVALUE * __ptr64)` | 19 (0x13) | Exported Function | 0x0000000180004380 | 0x00004380
-`private: static unsigned long __cdecl CTcpMib::SnmpCallback(void * __ptr64,struct HWND__ * __ptr64,unsigned int,unsigned __int64,__int64,void * __ptr64)` | 26 (0x1a) | Exported Function | 0x0000000180003f90 | 0x00003f90
-`public: __cdecl CTcpMib::CTcpMib(class CTcpMib const & __ptr64) __ptr64` | 1 (0x1) | Exported Function | 0x00000001800019f0 | 0x000019f0
-`public: __cdecl CTcpMib::CTcpMib(void) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180002fb0 | 0x00002fb0
-`public: __cdecl CTcpMibABC::CTcpMibABC(class CTcpMibABC const & __ptr64) __ptr64` | 3 (0x3) | Exported Function | 0x0000000180001010 | 0x00001010
-`public: __cdecl CTcpMibABC::CTcpMibABC(void) __ptr64` | 4 (0x4) | Exported Function | 0x0000000180001010 | 0x00001010
-`private: static int __cdecl CTcpMib::MapAsynchToPortStatus(unsigned long,struct _PORT_INFO_3W * __ptr64)` | 22 (0x16) | Exported Function | 0x00000001800039e0 | 0x000039e0
-`public: virtual void __cdecl CTcpMib::UnInitSnmp(void) __ptr64` | 34 (0x22) | Exported Function | 0x00000001800030d0 | 0x000030d0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: virtual int __cdecl CTcpMib::SupportsPrinterMib(char const * __ptr64,char const * __ptr64,unsigned long,int * __ptr64) __ptr64` | 33 | Exported Function
+`public: virtual int __cdecl CTcpMib::RFC1157ToString(struct SnmpVarBind * __ptr64,unsigned short * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 23 | Exported Function
+`public: virtual long __cdecl CTcpMib::GetPortList(unsigned short const * __ptr64,unsigned char * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 16 | Exported Function
+`public: virtual long __cdecl CTcpMib::GetDeviceId(unsigned short const * __ptr64,unsigned long,unsigned short * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 12 | Exported Function
+`public: unsigned long __cdecl CTcpMib::SnmpGetNext(char const * __ptr64,char const * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 30 | Exported Function
+`public: unsigned long __cdecl CTcpMib::SnmpGet(char const * __ptr64,char const * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 27 | Exported Function
+`public: virtual __cdecl CTcpMibABC::~CTcpMibABC(void) __ptr64` | 6 | Exported Function
+`public: virtual __cdecl CTcpMib::~CTcpMib(void) __ptr64` | 5 | Exported Function
+`public: virtual unsigned long __cdecl CTcpMib::GetDeviceDescription(char const * __ptr64,char const * __ptr64,unsigned long,unsigned short * __ptr64,unsigned long) __ptr64` | 11 | Exported Function
+`public: virtual unsigned long __cdecl CTcpMib::SnmpGet(char const * __ptr64,char const * __ptr64,struct AsnObjectIdentifier * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 29 | Exported Function
+`public: virtual unsigned long __cdecl CTcpMib::SnmpGet(char const * __ptr64,char const * __ptr64,char const * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 28 | Exported Function
+`public: virtual void __cdecl CTcpMib::UnInitSnmp(void) __ptr64` | 34 | Exported Function
+`public: virtual unsigned long __cdecl CTcpMib::SnmpGetNext(char const * __ptr64,char const * __ptr64,struct AsnObjectIdentifier * __ptr64,struct SnmpVarBindList * __ptr64) __ptr64` | 31 | Exported Function
+`public: virtual unsigned long __cdecl CTcpMib::InitSnmp(void) __ptr64` | 20 | Exported Function
+`public: virtual unsigned long __cdecl CTcpMib::GetNextRequestId(unsigned long * __ptr64) __ptr64` | 15 | Exported Function
+`public: virtual unsigned long __cdecl CTcpMib::RequestDeviceStatus(void * __ptr64,unsigned long,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 25 | Exported Function
+`public: virtual unsigned long __cdecl CTcpMib::RegisterDeviceStatusCallback(unsigned long (__cdecl*)(int,char const * __ptr64,char const * __ptr64,unsigned long,unsigned long,unsigned long),void * __ptr64 * __ptr64) __ptr64` | 24 | Exported Function
+`public: int __cdecl CTcpMib::IsValid(void)const __ptr64` | 21 | Exported Function
+`private: long __cdecl CTcpMib::GetPortListFromIni(unsigned short const * __ptr64,unsigned char * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 17 | Exported Function
+`private: long __cdecl CTcpMib::GetDeviceIdFromMib(unsigned short const * __ptr64,unsigned long,unsigned short * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 14 | Exported Function
+`private: long __cdecl CTcpMib::SupportsPortMonMib(unsigned short const * __ptr64,int * __ptr64) __ptr64` | 32 | Exported Function
+`private: long __cdecl CTcpMib::GetPortListFromMib(unsigned short const * __ptr64,unsigned char * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 18 | Exported Function
+`const CTcpMibABC::``vftable'` | 10 | Exported Function
+`const CTcpMib::``vftable'` | 9 | Exported Function
+`private: long __cdecl CTcpMib::GetDeviceIdFromIni(unsigned short const * __ptr64,unsigned long,unsigned short * __ptr64,unsigned long,unsigned long * __ptr64) __ptr64` | 13 | Exported Function
+`GetTcpMibPtr` | 35 | Exported Function
+`private: static int __cdecl CTcpMib::MapAsynchToPortStatus(unsigned long,struct _PORT_INFO_3W * __ptr64)` | 22 | Exported Function
+`public: __cdecl CTcpMibABC::CTcpMibABC(void) __ptr64` | 4 | Exported Function
+`public: __cdecl CTcpMibABC::CTcpMibABC(class CTcpMibABC const & __ptr64) __ptr64` | 3 | Exported Function
+`public: class CTcpMibABC & __ptr64 __cdecl CTcpMibABC::operator=(class CTcpMibABC const & __ptr64) __ptr64` | 8 | Exported Function
+`public: class CTcpMib & __ptr64 __cdecl CTcpMib::operator=(class CTcpMib const & __ptr64) __ptr64` | 7 | Exported Function
+`private: static unsigned long __cdecl CTcpMib::SnmpCallback(void * __ptr64,struct HWND__ * __ptr64,unsigned int,unsigned __int64,__int64,void * __ptr64)` | 26 | Exported Function
+`private: static unsigned long __cdecl CTcpMib::GetStatusFromVBL(void * __ptr64,struct smiVALUE * __ptr64,struct smiVALUE * __ptr64,struct smiVALUE * __ptr64)` | 19 | Exported Function
+`public: __cdecl CTcpMib::CTcpMib(void) __ptr64` | 2 | Exported Function
+`public: __cdecl CTcpMib::CTcpMib(class CTcpMib const & __ptr64) __ptr64` | 1 | Exported Function
 
 
 ## Signature

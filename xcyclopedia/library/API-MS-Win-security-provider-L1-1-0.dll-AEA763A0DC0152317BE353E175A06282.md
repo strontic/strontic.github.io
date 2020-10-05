@@ -24,14 +24,14 @@ PE256 | `437661F2605BA90CD3ABAA0A2B9399A785C8A209C893B85854CD322B74EE53C6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetExplicitEntriesFromAclW` | 1 (0x1) | Exported Function | advapi32.GetExplicitEntriesFromAclW | 0x00001107
-`GetNamedSecurityInfoW` | 2 (0x2) | Exported Function | advapi32.GetNamedSecurityInfoW | 0x00001141
-`GetSecurityInfo` | 3 (0x3) | Exported Function | advapi32.GetSecurityInfo | 0x00001170
-`SetEntriesInAclW` | 4 (0x4) | Exported Function | advapi32.SetEntriesInAclW | 0x0000119a
-`SetNamedSecurityInfoW` | 5 (0x5) | Exported Function | advapi32.SetNamedSecurityInfoW | 0x000011ca
-`SetSecurityInfo` | 6 (0x6) | Exported Function | advapi32.SetSecurityInfo | 0x000011f9
+Function Name | Ordinal | Type
+-- | -- | --
+`SetEntriesInAclW` | 4 | Exported Function
+`SetNamedSecurityInfoW` | 5 | Exported Function
+`SetSecurityInfo` | 6 | Exported Function
+`GetExplicitEntriesFromAclW` | 1 | Exported Function
+`GetNamedSecurityInfoW` | 2 | Exported Function
+`GetSecurityInfo` | 3 | Exported Function
 
 
 ## Signature

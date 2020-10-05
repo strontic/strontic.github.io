@@ -24,13 +24,13 @@ PE256 | `56282D5543225095797BCF23A864ABA9C9FD47E69EB23DC26D91E09D47403294`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateIImeSkdicInstance` | 1 (0x1) | Exported Function | 0x0000000180002880 | 0x00002880
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180002930 | 0x00002930
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180002950 | 0x00002950
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x0000000180002a10 | 0x00002a10
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x0000000180002a30 | 0x00002a30
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`CreateIImeSkdicInstance` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

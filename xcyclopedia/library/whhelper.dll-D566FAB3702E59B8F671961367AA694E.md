@@ -24,9 +24,9 @@ PE256 | `E9061C6940ECC08817AEAD6F0556DBB4C5F03B580501DFE8CEB65447A480AA09`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitHelperDll` | 1 (0x1) | Exported Function | 0x10001940 | 0x00001940
+Function Name | Ordinal | Type
+-- | -- | --
+`InitHelperDll` | 1 | Exported Function
 
 
 ## Signature

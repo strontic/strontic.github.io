@@ -24,17 +24,17 @@ PE256 | `4A5A07BCB32380297D3B9A08662B467EED6C9880C0A3C314622F16CBC9C8F30F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AllocateSettingsContext` | 1 (0x1) | Exported Function | 0x0000000180019e50 | 0x00019e50
-`ExportModernSettings` | 2 (0x2) | Exported Function | 0x0000000180019f20 | 0x00019f20
-`ExportSettingsToStore` | 8 (0x8) | Exported Function | 0x000000018001a200 | 0x0001a200
-`FreeSettingsContext` | 3 (0x3) | Exported Function | 0x0000000180019f40 | 0x00019f40
-`GetModernTemplateId` | 4 (0x4) | Exported Function | 0x0000000180019f70 | 0x00019f70
-`GetOSSettingsRoamingState` | 9 (0x9) | Exported Function | 0x000000018001a220 | 0x0001a220
-`ImportModernSettings` | 5 (0x5) | Exported Function | 0x000000018001a1a0 | 0x0001a1a0
-`ImportSettingsFromStore` | 7 (0x7) | Exported Function | 0x000000018001a1e0 | 0x0001a1e0
-`InitializeRollbackState` | 6 (0x6) | Exported Function | 0x000000018001a1c0 | 0x0001a1c0
+Function Name | Ordinal | Type
+-- | -- | --
+`ImportModernSettings` | 5 | Exported Function
+`GetOSSettingsRoamingState` | 9 | Exported Function
+`InitializeRollbackState` | 6 | Exported Function
+`ImportSettingsFromStore` | 7 | Exported Function
+`GetModernTemplateId` | 4 | Exported Function
+`ExportModernSettings` | 2 | Exported Function
+`AllocateSettingsContext` | 1 | Exported Function
+`FreeSettingsContext` | 3 | Exported Function
+`ExportSettingsToStore` | 8 | Exported Function
 
 
 ## Signature

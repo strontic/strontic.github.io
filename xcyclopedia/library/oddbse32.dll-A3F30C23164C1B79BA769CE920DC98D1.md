@@ -24,9 +24,9 @@ PE256 | `FDB5687802C8EAF2402F6C3B714D0E9233ECE664CD9A878B92CA1A617079DE8C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConfigDSNW` | 1 (0x1) | Exported Function | 0x10001370 | 0x00001370
+Function Name | Ordinal | Type
+-- | -- | --
+`ConfigDSNW` | 1 | Exported Function
 
 
 ## Signature

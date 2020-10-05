@@ -24,13 +24,13 @@ PE256 | `3590DEBEE7767B94F00E7F1EAC5154EF177690CF08BB3E4F2E3E949B40BB722B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IdnToAscii` | 1 (0x1) | Exported Function | kernelbase.IdnToAscii | 0x00002182
-`IdnToNameprepUnicode` | 2 (0x2) | Exported Function | kernelbase.IdnToNameprepUnicode | 0x000021ad
-`IdnToUnicode` | 3 (0x3) | Exported Function | kernelbase.IdnToUnicode | 0x000021da
-`IsNormalizedString` | 4 (0x4) | Exported Function | kernelbase.IsNormalizedString | 0x00002205
-`NormalizeString` | 5 (0x5) | Exported Function | kernelbase.NormalizeString | 0x00002233
+Function Name | Ordinal | Type
+-- | -- | --
+`IsNormalizedString` | 4 | Exported Function
+`NormalizeString` | 5 | Exported Function
+`IdnToUnicode` | 3 | Exported Function
+`IdnToAscii` | 1 | Exported Function
+`IdnToNameprepUnicode` | 2 | Exported Function
 
 
 ## Signature

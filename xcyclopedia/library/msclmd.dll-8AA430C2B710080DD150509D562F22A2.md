@@ -24,10 +24,10 @@ PE256 | `272EAA550D67C2EC31F6225F48C4AD536107213E070638D7B84A7C72D5DF8ED5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CardAcquireContext` | 1 (0x1) | Exported Function | 0x0000000180017210 | 0x00017210
-`CardAcquireContextInternal` | 2 (0x2) | Exported Function | 0x0000000180017080 | 0x00017080
+Function Name | Ordinal | Type
+-- | -- | --
+`CardAcquireContextInternal` | 2 | Exported Function
+`CardAcquireContext` | 1 | Exported Function
 
 
 ## Signature

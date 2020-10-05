@@ -24,1386 +24,1386 @@ PE256 | `67532CECD7327CC2DD22081DBFCD4903D8C7519001606646426008F2531F3631`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`___lc_codepage_func` | 35 (0x23) | Exported Function | 0x10023be0 | 0x00023be0
-`_wsopen` | 923 (0x39b) | Exported Function | 0x10067f80 | 0x00067f80
-`_wsetlocale` | 922 (0x39a) | Exported Function | 0x1004b270 | 0x0004b270
-`_wsearchenv_s` | 921 (0x399) | Exported Function | 0x1006b140 | 0x0006b140
-`_wsearchenv` | 920 (0x398) | Exported Function | 0x1006b120 | 0x0006b120
-`_wrmdir` | 919 (0x397) | Exported Function | 0x10071e90 | 0x00071e90
-`_write` | 918 (0x396) | Exported Function | 0x10071b80 | 0x00071b80
-`_wrename` | 917 (0x395) | Exported Function | 0x100715b0 | 0x000715b0
-`_wremove` | 916 (0x394) | Exported Function | 0x10071570 | 0x00071570
-`_wputenv_s` | 915 (0x393) | Exported Function | 0x10069970 | 0x00069970
-`_wputenv` | 914 (0x392) | Exported Function | 0x10069950 | 0x00069950
-`_wpopen` | 913 (0x391) | Exported Function | 0x10068fc0 | 0x00068fc0
-`_wperror` | 912 (0x390) | Exported Function | 0x100714d0 | 0x000714d0
-`_wopen` | 911 (0x38f) | Exported Function | 0x10067f60 | 0x00067f60
-`_wmktemp_s` | 910 (0x38e) | Exported Function | 0x10067620 | 0x00067620
-`_wmktemp` | 909 (0x38d) | Exported Function | 0x100675d0 | 0x000675d0
-`_wmkdir` | 908 (0x38c) | Exported Function | 0x100714a0 | 0x000714a0
-`_wmakepath_s` | 907 (0x38b) | Exported Function | 0x100622e0 | 0x000622e0
-`_wsopen_dispatch` | 924 (0x39c) | Exported Function | 0x10067fc0 | 0x00067fc0
-`_wsopen_s` | 925 (0x39d) | Exported Function | 0x10068300 | 0x00068300
-`_wspawnl` | 926 (0x39e) | Exported Function | 0x100501a0 | 0x000501a0
-`_wspawnle` | 927 (0x39f) | Exported Function | 0x100501c0 | 0x000501c0
-`_wtempnam` | 945 (0x3b1) | Exported Function | 0x1006de10 | 0x0006de10
-`_wsystem` | 944 (0x3b0) | Exported Function | 0x100720c0 | 0x000720c0
-`_wstrtime_s` | 943 (0x3af) | Exported Function | 0x1006ccc0 | 0x0006ccc0
-`_wstrtime` | 942 (0x3ae) | Exported Function | 0x1006cca0 | 0x0006cca0
-`_wstrdate_s` | 941 (0x3ad) | Exported Function | 0x1006c150 | 0x0006c150
-`_wstrdate` | 940 (0x3ac) | Exported Function | 0x1006c130 | 0x0006c130
-`_wstat64i32` | 939 (0x3ab) | Exported Function | 0x10057d30 | 0x00057d30
-`_wstat64` | 938 (0x3aa) | Exported Function | 0x10057d20 | 0x00057d20
-`_wmakepath` | 906 (0x38a) | Exported Function | 0x100622c0 | 0x000622c0
-`_wstat32i64` | 937 (0x3a9) | Exported Function | 0x10057d10 | 0x00057d10
-`_wsplitpath_s` | 935 (0x3a7) | Exported Function | 0x1006be40 | 0x0006be40
-`_wsplitpath` | 934 (0x3a6) | Exported Function | 0x1006bdd0 | 0x0006bdd0
-`_wspawnvpe` | 933 (0x3a5) | Exported Function | 0x10051610 | 0x00051610
-`_wspawnvp` | 932 (0x3a4) | Exported Function | 0x100515f0 | 0x000515f0
-`_wspawnve` | 931 (0x3a3) | Exported Function | 0x10050fa0 | 0x00050fa0
-`_wspawnv` | 930 (0x3a2) | Exported Function | 0x10050f80 | 0x00050f80
-`_wspawnlpe` | 929 (0x3a1) | Exported Function | 0x10050480 | 0x00050480
-`_wspawnlp` | 928 (0x3a0) | Exported Function | 0x10050460 | 0x00050460
-`_wstat32` | 936 (0x3a8) | Exported Function | 0x10057d00 | 0x00057d00
-`_wtmpnam` | 946 (0x3b2) | Exported Function | 0x100728d0 | 0x000728d0
-`_wgetenv_s` | 905 (0x389) | Exported Function | 0x1004f240 | 0x0004f240
-`_wgetdcwd` | 903 (0x387) | Exported Function | 0x1005a830 | 0x0005a830
-`_wexecle` | 880 (0x370) | Exported Function | 0x10050180 | 0x00050180
-`_wexecl` | 879 (0x36f) | Exported Function | 0x10050160 | 0x00050160
-`_wdupenv_s` | 878 (0x36e) | Exported Function | 0x1004f210 | 0x0004f210
-`_wctype` | 877 (0x36d) | Exported Function | 0x100089e0 | 0x000089e0
-`_wctomb_s_l` | 876 (0x36c) | Exported Function | 0x10071040 | 0x00071040
-`_wctomb_l` | 875 (0x36b) | Exported Function | 0x10070fe0 | 0x00070fe0
-`_wctime64_s` | 874 (0x36a) | Exported Function | 0x1004cb20 | 0x0004cb20
-`_wctime64` | 873 (0x369) | Exported Function | 0x1004caa0 | 0x0004caa0
-`_wctime32_s` | 872 (0x368) | Exported Function | 0x1004ca10 | 0x0004ca10
-`_wctime32` | 871 (0x367) | Exported Function | 0x1004c9a0 | 0x0004c9a0
-`_wcsxfrm_l` | 870 (0x366) | Exported Function | 0x10070e70 | 0x00070e70
-`_wcsupr_s_l` | 869 (0x365) | Exported Function | 0x10070e30 | 0x00070e30
-`_wcsupr_s` | 868 (0x364) | Exported Function | 0x10070e10 | 0x00070e10
-`_wcsupr_l` | 867 (0x363) | Exported Function | 0x10070df0 | 0x00070df0
-`_wcsupr` | 866 (0x362) | Exported Function | 0x10070d80 | 0x00070d80
-`_wcstoumax_l` | 865 (0x361) | Exported Function | 0x1006d1c0 | 0x0006d1c0
-`_wcstoull_l` | 864 (0x360) | Exported Function | 0x1006d1c0 | 0x0006d1c0
-`_wexeclp` | 881 (0x371) | Exported Function | 0x10050420 | 0x00050420
-`_wexeclpe` | 882 (0x372) | Exported Function | 0x10050440 | 0x00050440
-`_wexecv` | 883 (0x373) | Exported Function | 0x10050f40 | 0x00050f40
-`_wexecve` | 884 (0x374) | Exported Function | 0x10050f60 | 0x00050f60
-`_wgetcwd` | 902 (0x386) | Exported Function | 0x1005a810 | 0x0005a810
-`_wfullpath` | 901 (0x385) | Exported Function | 0x100588f0 | 0x000588f0
-`_wfsopen` | 900 (0x384) | Exported Function | 0x10056310 | 0x00056310
-`_wfreopen_s` | 899 (0x383) | Exported Function | 0x10071430 | 0x00071430
-`_wfreopen` | 898 (0x382) | Exported Function | 0x10071400 | 0x00071400
-`_wfopen_s` | 897 (0x381) | Exported Function | 0x100562c0 | 0x000562c0
-`_wfopen` | 896 (0x380) | Exported Function | 0x100562a0 | 0x000562a0
-`_wfindnext64i32` | 895 (0x37f) | Exported Function | 0x10054b10 | 0x00054b10
-`_wgetenv` | 904 (0x388) | Exported Function | 0x1004f230 | 0x0004f230
-`_wfindnext64` | 894 (0x37e) | Exported Function | 0x10054b00 | 0x00054b00
-`_wfindnext32` | 892 (0x37c) | Exported Function | 0x10054ae0 | 0x00054ae0
-`_wfindfirst64i32` | 891 (0x37b) | Exported Function | 0x10054ad0 | 0x00054ad0
-`_wfindfirst64` | 890 (0x37a) | Exported Function | 0x10054ac0 | 0x00054ac0
-`_wfindfirst32i64` | 889 (0x379) | Exported Function | 0x10054ab0 | 0x00054ab0
-`_wfindfirst32` | 888 (0x378) | Exported Function | 0x10054aa0 | 0x00054aa0
-`_wfdopen` | 887 (0x377) | Exported Function | 0x100525a0 | 0x000525a0
-`_wexecvpe` | 886 (0x376) | Exported Function | 0x100515d0 | 0x000515d0
-`_wexecvp` | 885 (0x375) | Exported Function | 0x100515b0 | 0x000515b0
-`_wfindnext32i64` | 893 (0x37d) | Exported Function | 0x10054af0 | 0x00054af0
-`_wcstoul_l` | 863 (0x35f) | Exported Function | 0x1006d190 | 0x0006d190
-`_wtmpnam_s` | 947 (0x3b3) | Exported Function | 0x10072900 | 0x00072900
-`_wtof_l` | 949 (0x3b5) | Exported Function | 0x10046990 | 0x00046990
-`catan` | 1009 (0x3f1) | Exported Function | 0x10075620 | 0x00075620
-`casinl` | 1008 (0x3f0) | Exported Function | 0x10075570 | 0x00075570
-`casinhl` | 1007 (0x3ef) | Exported Function | 0x10075260 | 0x00075260
-`casinhf` | 1006 (0x3ee) | Exported Function | 0x10074fa0 | 0x00074fa0
-`casinh` | 1005 (0x3ed) | Exported Function | 0x10074ca0 | 0x00074ca0
-`casinf` | 1004 (0x3ec) | Exported Function | 0x10074c40 | 0x00074c40
-`casin` | 1003 (0x3eb) | Exported Function | 0x10074b90 | 0x00074b90
-`cargl` | 1002 (0x3ea) | Exported Function | 0x10074b50 | 0x00074b50
-`cargf` | 1001 (0x3e9) | Exported Function | 0x10074b10 | 0x00074b10
-`carg` | 1000 (0x3e8) | Exported Function | 0x10074b50 | 0x00074b50
-`calloc` | 999 (0x3e7) | Exported Function | 0x10074b00 | 0x00074b00
-`cacosl` | 998 (0x3e6) | Exported Function | 0x10074820 | 0x00074820
-`cacoshl` | 997 (0x3e5) | Exported Function | 0x100744f0 | 0x000744f0
-`cacoshf` | 996 (0x3e4) | Exported Function | 0x100741f0 | 0x000741f0
-`cacosh` | 995 (0x3e3) | Exported Function | 0x10073ec0 | 0x00073ec0
-`cacosf` | 994 (0x3e2) | Exported Function | 0x10073c00 | 0x00073c00
-`cacos` | 993 (0x3e1) | Exported Function | 0x10073920 | 0x00073920
-`catanf` | 1010 (0x3f2) | Exported Function | 0x100756d0 | 0x000756d0
-`catanh` | 1011 (0x3f3) | Exported Function | 0x10075730 | 0x00075730
-`catanhf` | 1012 (0x3f4) | Exported Function | 0x100759e0 | 0x000759e0
-`catanhl` | 1013 (0x3f5) | Exported Function | 0x10075d00 | 0x00075d00
-`clearerr` | 1031 (0x407) | Exported Function | 0x10077340 | 0x00077340
-`cimagl` | 1030 (0x406) | Exported Function | 0x100772d0 | 0x000772d0
-`cimagf` | 1029 (0x405) | Exported Function | 0x10077310 | 0x00077310
-`cimag` | 1028 (0x404) | Exported Function | 0x100772d0 | 0x000772d0
-`cexpl` | 1027 (0x403) | Exported Function | 0x100770f0 | 0x000770f0
-`cexpf` | 1026 (0x402) | Exported Function | 0x10076f20 | 0x00076f20
-`cexp` | 1025 (0x401) | Exported Function | 0x10076d40 | 0x00076d40
-`ceil` | 1024 (0x400) | Exported Function | 0x10076c20 | 0x00076c20
-`cabsl` | 992 (0x3e0) | Exported Function | 0x100738c0 | 0x000738c0
-`ccosl` | 1023 (0x3ff) | Exported Function | 0x10076bb0 | 0x00076bb0
-`ccoshf` | 1021 (0x3fd) | Exported Function | 0x10076790 | 0x00076790
-`ccosh` | 1020 (0x3fc) | Exported Function | 0x10076510 | 0x00076510
-`ccosf` | 1019 (0x3fb) | Exported Function | 0x10076400 | 0x00076400
-`ccos` | 1018 (0x3fa) | Exported Function | 0x10076390 | 0x00076390
-`cbrtl` | 1017 (0x3f9) | Exported Function | 0x10076280 | 0x00076280
-`cbrtf` | 1016 (0x3f8) | Exported Function | 0x10076170 | 0x00076170
-`cbrt` | 1015 (0x3f7) | Exported Function | 0x10076060 | 0x00076060
-`catanl` | 1014 (0x3f6) | Exported Function | 0x10075fb0 | 0x00075fb0
-`ccoshl` | 1022 (0x3fe) | Exported Function | 0x10076a00 | 0x00076a00
-`_wtof` | 948 (0x3b4) | Exported Function | 0x10046970 | 0x00046970
-`cabsf` | 991 (0x3df) | Exported Function | 0x10073870 | 0x00073870
-`c32rtomb` | 989 (0x3dd) | Exported Function | 0x10073770 | 0x00073770
-`acos` | 966 (0x3c6) | Exported Function | 0x100200a0 | 0x000200a0
-`abs` | 965 (0x3c5) | Exported Function | 0x10043b60 | 0x00043b60
-`abort` | 964 (0x3c4) | Exported Function | 0x1006b360 | 0x0006b360
-`_yn` | 963 (0x3c3) | Exported Function | 0x1005d800 | 0x0005d800
-`_y1` | 962 (0x3c2) | Exported Function | 0x1005d690 | 0x0005d690
-`_y0` | 961 (0x3c1) | Exported Function | 0x1005d530 | 0x0005d530
-`_wutime64` | 960 (0x3c0) | Exported Function | 0x10058f10 | 0x00058f10
-`_wutime32` | 959 (0x3bf) | Exported Function | 0x10058f00 | 0x00058f00
-`_wunlink` | 958 (0x3be) | Exported Function | 0x100715a0 | 0x000715a0
-`_wtoll_l` | 957 (0x3bd) | Exported Function | 0x10047cc0 | 0x00047cc0
-`_wtoll` | 956 (0x3bc) | Exported Function | 0x10047c60 | 0x00047c60
-`_wtol_l` | 955 (0x3bb) | Exported Function | 0x10047c90 | 0x00047c90
-`_wtol` | 954 (0x3ba) | Exported Function | 0x10047c30 | 0x00047c30
-`_wtoi_l` | 953 (0x3b9) | Exported Function | 0x10047c90 | 0x00047c90
-`_wtoi64_l` | 952 (0x3b8) | Exported Function | 0x10047cc0 | 0x00047cc0
-`_wtoi64` | 951 (0x3b7) | Exported Function | 0x10047c60 | 0x00047c60
-`_wtoi` | 950 (0x3b6) | Exported Function | 0x10047c30 | 0x00047c30
-`acosh` | 967 (0x3c7) | Exported Function | 0x100729f0 | 0x000729f0
-`acoshf` | 968 (0x3c8) | Exported Function | 0x10072aa0 | 0x00072aa0
-`acoshl` | 969 (0x3c9) | Exported Function | 0x10072b70 | 0x00072b70
-`asctime` | 970 (0x3ca) | Exported Function | 0x1006f7e0 | 0x0006f7e0
-`c16rtomb` | 988 (0x3dc) | Exported Function | 0x10073650 | 0x00073650
-`btowc` | 987 (0x3db) | Exported Function | 0x10073490 | 0x00073490
-`bsearch_s` | 986 (0x3da) | Exported Function | 0x100730f0 | 0x000730f0
-`bsearch` | 985 (0x3d9) | Exported Function | 0x10073010 | 0x00073010
-`atoll` | 984 (0x3d8) | Exported Function | 0x10047ba0 | 0x00047ba0
-`atol` | 983 (0x3d7) | Exported Function | 0x10047cf0 | 0x00047cf0
-`atoi` | 982 (0x3d6) | Exported Function | 0x10047cf0 | 0x00047cf0
-`atof` | 981 (0x3d5) | Exported Function | 0x100469a0 | 0x000469a0
-`cabs` | 990 (0x3de) | Exported Function | 0x10073830 | 0x00073830
-`atanhl` | 980 (0x3d4) | Exported Function | 0x10072f70 | 0x00072f70
-`atanh` | 978 (0x3d2) | Exported Function | 0x10072e00 | 0x00072e00
-`atan2` | 977 (0x3d1) | Exported Function | 0x10020460 | 0x00020460
-`atan` | 976 (0x3d0) | Exported Function | 0x10020340 | 0x00020340
-`asinhl` | 975 (0x3cf) | Exported Function | 0x10072d70 | 0x00072d70
-`asinhf` | 974 (0x3ce) | Exported Function | 0x10072cb0 | 0x00072cb0
-`asinh` | 973 (0x3cd) | Exported Function | 0x10072c20 | 0x00072c20
-`asin` | 972 (0x3cc) | Exported Function | 0x100201f0 | 0x000201f0
-`asctime_s` | 971 (0x3cb) | Exported Function | 0x1006f840 | 0x0006f840
-`atanhf` | 979 (0x3d3) | Exported Function | 0x10072ea0 | 0x00072ea0
-`clearerr_s` | 1032 (0x408) | Exported Function | 0x10077350 | 0x00077350
-`_wcstoui64_l` | 862 (0x35e) | Exported Function | 0x1006d1c0 | 0x0006d1c0
-`_wcstombs_s_l` | 860 (0x35c) | Exported Function | 0x10070ae0 | 0x00070ae0
-`_strnicoll_l` | 755 (0x2f3) | Exported Function | 0x1006c8c0 | 0x0006c8c0
-`_strnicoll` | 754 (0x2f2) | Exported Function | 0x1006c890 | 0x0006c890
-`_strnicmp_l` | 753 (0x2f1) | Exported Function | 0x1006c7d0 | 0x0006c7d0
-`_strnicmp` | 752 (0x2f0) | Exported Function | 0x1006c760 | 0x0006c760
-`_strncoll_l` | 751 (0x2ef) | Exported Function | 0x1006c690 | 0x0006c690
-`_strncoll` | 750 (0x2ee) | Exported Function | 0x1006c620 | 0x0006c620
-`_strlwr_s_l` | 749 (0x2ed) | Exported Function | 0x1006c5e0 | 0x0006c5e0
-`_strlwr_s` | 748 (0x2ec) | Exported Function | 0x1006c5c0 | 0x0006c5c0
-`_strlwr_l` | 747 (0x2eb) | Exported Function | 0x1006c5a0 | 0x0006c5a0
-`_strlwr` | 746 (0x2ea) | Exported Function | 0x1006c540 | 0x0006c540
-`_stricoll_l` | 745 (0x2e9) | Exported Function | 0x1006c320 | 0x0006c320
-`_stricoll` | 744 (0x2e8) | Exported Function | 0x1006c2f0 | 0x0006c2f0
-`_stricmp_l` | 743 (0x2e7) | Exported Function | 0x1006c250 | 0x0006c250
-`_stricmp` | 742 (0x2e6) | Exported Function | 0x1006c200 | 0x0006c200
-`_strftime_l` | 741 (0x2e5) | Exported Function | 0x10021b80 | 0x00021b80
-`_Strftime` | 30 (0x1e) | Exported Function | 0x10021a30 | 0x00021a30
-`_strerror_s` | 740 (0x2e4) | Exported Function | 0x10043b30 | 0x00043b30
-`_strnset` | 756 (0x2f4) | Exported Function | 0x1006c990 | 0x0006c990
-`_strnset_s` | 757 (0x2f5) | Exported Function | 0x1006c9c0 | 0x0006c9c0
-`_strrev` | 758 (0x2f6) | Exported Function | 0x1006ca40 | 0x0006ca40
-`_strset` | 759 (0x2f7) | Exported Function | 0x1006ca80 | 0x0006ca80
-`_strupr_l` | 777 (0x309) | Exported Function | 0x1006d520 | 0x0006d520
-`_strupr` | 776 (0x308) | Exported Function | 0x1006d4c0 | 0x0006d4c0
-`_strtoumax_l` | 775 (0x307) | Exported Function | 0x1006d100 | 0x0006d100
-`_strtoull_l` | 774 (0x306) | Exported Function | 0x1006d100 | 0x0006d100
-`_strtoul_l` | 773 (0x305) | Exported Function | 0x1006d0d0 | 0x0006d0d0
-`_strtoui64_l` | 772 (0x304) | Exported Function | 0x1006d100 | 0x0006d100
-`_strtoui64` | 771 (0x303) | Exported Function | 0x1006d0a0 | 0x0006d0a0
-`_strtoll_l` | 770 (0x302) | Exported Function | 0x1006d040 | 0x0006d040
-`_strerror` | 739 (0x2e3) | Exported Function | 0x10043b20 | 0x00043b20
-`_strtold_l` | 769 (0x301) | Exported Function | 0x1006cf80 | 0x0006cf80
-`_strtoimax_l` | 767 (0x2ff) | Exported Function | 0x1006d040 | 0x0006d040
-`_strtoi64_l` | 766 (0x2fe) | Exported Function | 0x1006d040 | 0x0006d040
-`_strtoi64` | 765 (0x2fd) | Exported Function | 0x1006d220 | 0x0006d220
-`_strtof_l` | 764 (0x2fc) | Exported Function | 0x1006cf90 | 0x0006cf90
-`_strtod_l` | 763 (0x2fb) | Exported Function | 0x1006cf80 | 0x0006cf80
-`_strtime_s` | 762 (0x2fa) | Exported Function | 0x1006cc90 | 0x0006cc90
-`_strtime` | 761 (0x2f9) | Exported Function | 0x1006cc70 | 0x0006cc70
-`_strset_s` | 760 (0x2f8) | Exported Function | 0x1006cab0 | 0x0006cab0
-`_strtol_l` | 768 (0x300) | Exported Function | 0x1006d070 | 0x0006d070
-`_strupr_s` | 778 (0x30a) | Exported Function | 0x1006d540 | 0x0006d540
-`_strdup` | 738 (0x2e2) | Exported Function | 0x1006c160 | 0x0006c160
-`_strdate` | 736 (0x2e0) | Exported Function | 0x1006c100 | 0x0006c100
-`_setmode` | 713 (0x2c9) | Exported Function | 0x100593e0 | 0x000593e0
-`_setmbcp` | 712 (0x2c8) | Exported Function | 0x100353c0 | 0x000353c0
-`_setmaxstdio` | 711 (0x2c7) | Exported Function | 0x1005ab00 | 0x0005ab00
-`_seterrormode` | 710 (0x2c6) | Exported Function | 0x1006b3f0 | 0x0006b3f0
-`_set_thread_local_invalid_parameter_handler` | 709 (0x2c5) | Exported Function | 0x10059890 | 0x00059890
-`_set_SSE2_enable` | 697 (0x2b9) | Exported Function | 0x1006b300 | 0x0006b300
-`_set_printf_count_output` | 708 (0x2c4) | Exported Function | 0x10059ec0 | 0x00059ec0
-`_set_new_mode` | 707 (0x2c3) | Exported Function | 0x10069ca0 | 0x00069ca0
-`_set_new_handler` | 706 (0x2c2) | Exported Function | 0x10049400 | 0x00049400
-`_set_invalid_parameter_handler` | 705 (0x2c1) | Exported Function | 0x10059860 | 0x00059860
-`_set_fmode` | 704 (0x2c0) | Exported Function | 0x100593a0 | 0x000593a0
-`_set_error_mode` | 703 (0x2bf) | Exported Function | 0x1006b3b0 | 0x0006b3b0
-`_set_errno` | 702 (0x2be) | Exported Function | 0x1002f850 | 0x0002f850
-`_set_doserrno` | 701 (0x2bd) | Exported Function | 0x1002f820 | 0x0002f820
-`_set_controlfp` | 700 (0x2bc) | Exported Function | 0x1002f3c0 | 0x0002f3c0
-`_set_app_type` | 699 (0x2bb) | Exported Function | 0x10069c80 | 0x00069c80
-`_set_abort_behavior` | 698 (0x2ba) | Exported Function | 0x1006b330 | 0x0006b330
-`_setsystime` | 714 (0x2ca) | Exported Function | 0x1005abe0 | 0x0005abe0
-`_sleep` | 715 (0x2cb) | Exported Function | 0x10048c30 | 0x00048c30
-`_sopen` | 716 (0x2cc) | Exported Function | 0x10067ea0 | 0x00067ea0
-`_sopen_dispatch` | 717 (0x2cd) | Exported Function | 0x10067ee0 | 0x00067ee0
-`_strcoll_l` | 735 (0x2df) | Exported Function | 0x1006bea0 | 0x0006bea0
-`_statusfp2` | 734 (0x2de) | Exported Function | 0x1002f4e0 | 0x0002f4e0
-`_statusfp` | 733 (0x2dd) | Exported Function | 0x1002f440 | 0x0002f440
-`_stat64i32` | 732 (0x2dc) | Exported Function | 0x10057ca0 | 0x00057ca0
-`_stat64` | 731 (0x2db) | Exported Function | 0x10057c40 | 0x00057c40
-`_stat32i64` | 730 (0x2da) | Exported Function | 0x10057be0 | 0x00057be0
-`_stat32` | 729 (0x2d9) | Exported Function | 0x10057b80 | 0x00057b80
-`_splitpath_s` | 728 (0x2d8) | Exported Function | 0x1006bd70 | 0x0006bd70
-`_strdate_s` | 737 (0x2e1) | Exported Function | 0x1006c120 | 0x0006c120
-`_splitpath` | 727 (0x2d7) | Exported Function | 0x1006bd00 | 0x0006bd00
-`_spawnvp` | 725 (0x2d5) | Exported Function | 0x10051580 | 0x00051580
-`_spawnve` | 724 (0x2d4) | Exported Function | 0x10050f30 | 0x00050f30
-`_spawnv` | 723 (0x2d3) | Exported Function | 0x10050f10 | 0x00050f10
-`_spawnlpe` | 722 (0x2d2) | Exported Function | 0x10050400 | 0x00050400
-`_spawnlp` | 721 (0x2d1) | Exported Function | 0x100503e0 | 0x000503e0
-`_spawnle` | 720 (0x2d0) | Exported Function | 0x10050140 | 0x00050140
-`_spawnl` | 719 (0x2cf) | Exported Function | 0x10050120 | 0x00050120
-`_sopen_s` | 718 (0x2ce) | Exported Function | 0x10067f40 | 0x00067f40
-`_spawnvpe` | 726 (0x2d6) | Exported Function | 0x100515a0 | 0x000515a0
-`_wcstoui64` | 861 (0x35d) | Exported Function | 0x1006d310 | 0x0006d310
-`_strupr_s_l` | 779 (0x30b) | Exported Function | 0x1006d560 | 0x0006d560
-`_swab` | 781 (0x30d) | Exported Function | 0x1006d6e0 | 0x0006d6e0
-`_wcslwr_l` | 837 (0x345) | Exported Function | 0x10070160 | 0x00070160
-`_wcslwr` | 836 (0x344) | Exported Function | 0x100700f0 | 0x000700f0
-`_wcsicoll_l` | 835 (0x343) | Exported Function | 0x1006fe90 | 0x0006fe90
-`_wcsicoll` | 834 (0x342) | Exported Function | 0x1006fdf0 | 0x0006fdf0
-`_wcsicmp_l` | 833 (0x341) | Exported Function | 0x1006fd10 | 0x0006fd10
-`_wcsicmp` | 832 (0x340) | Exported Function | 0x1006fc70 | 0x0006fc70
-`_wcsftime_l` | 831 (0x33f) | Exported Function | 0x10023ba0 | 0x00023ba0
-`_Wcsftime` | 34 (0x22) | Exported Function | 0x100239d0 | 0x000239d0
-`_wcserror_s` | 830 (0x33e) | Exported Function | 0x1006fb80 | 0x0006fb80
-`_wcserror` | 829 (0x33d) | Exported Function | 0x1006fb70 | 0x0006fb70
-`_wcsdup` | 828 (0x33c) | Exported Function | 0x1006fa10 | 0x0006fa10
-`_wcscoll_l` | 827 (0x33b) | Exported Function | 0x1006f8e0 | 0x0006f8e0
-`_wcreate_locale` | 826 (0x33a) | Exported Function | 0x1004b120 | 0x0004b120
-`_wcreat` | 825 (0x339) | Exported Function | 0x1004c330 | 0x0004c330
-`_wchmod` | 824 (0x338) | Exported Function | 0x1006f850 | 0x0006f850
-`_wchdir` | 823 (0x337) | Exported Function | 0x10049af0 | 0x00049af0
-`_wassert` | 822 (0x336) | Exported Function | 0x10044dc0 | 0x00044dc0
-`_wcslwr_s` | 838 (0x346) | Exported Function | 0x10070180 | 0x00070180
-`_wcslwr_s_l` | 839 (0x347) | Exported Function | 0x100701a0 | 0x000701a0
-`_wcsncoll` | 840 (0x348) | Exported Function | 0x100701e0 | 0x000701e0
-`_wcsncoll_l` | 841 (0x349) | Exported Function | 0x10070250 | 0x00070250
-`_wcstombs_l` | 859 (0x35b) | Exported Function | 0x10070ad0 | 0x00070ad0
-`_wcstoll_l` | 858 (0x35a) | Exported Function | 0x1006d130 | 0x0006d130
-`_wcstold_l` | 857 (0x359) | Exported Function | 0x1006cfa0 | 0x0006cfa0
-`_wcstol_l` | 856 (0x358) | Exported Function | 0x1006d160 | 0x0006d160
-`_wcstoimax_l` | 855 (0x357) | Exported Function | 0x1006d130 | 0x0006d130
-`_wcstoi64_l` | 854 (0x356) | Exported Function | 0x1006d130 | 0x0006d130
-`_wcstoi64` | 853 (0x355) | Exported Function | 0x1006d2b0 | 0x0006d2b0
-`_wcstof_l` | 852 (0x354) | Exported Function | 0x1006cfb0 | 0x0006cfb0
-`_wasctime_s` | 821 (0x335) | Exported Function | 0x1006f7d0 | 0x0006f7d0
-`_wcstod_l` | 851 (0x353) | Exported Function | 0x1006cfa0 | 0x0006cfa0
-`_wcsset` | 849 (0x351) | Exported Function | 0x100707d0 | 0x000707d0
-`_wcsrev` | 848 (0x350) | Exported Function | 0x10070790 | 0x00070790
-`_wcsnset_s` | 847 (0x34f) | Exported Function | 0x10070780 | 0x00070780
-`_wcsnset` | 846 (0x34e) | Exported Function | 0x100706d0 | 0x000706d0
-`_wcsnicoll_l` | 845 (0x34d) | Exported Function | 0x100705a0 | 0x000705a0
-`_wcsnicoll` | 844 (0x34c) | Exported Function | 0x100704d0 | 0x000704d0
-`_wcsnicmp_l` | 843 (0x34b) | Exported Function | 0x100703c0 | 0x000703c0
-`_wcsnicmp` | 842 (0x34a) | Exported Function | 0x10070300 | 0x00070300
-`_wcsset_s` | 850 (0x352) | Exported Function | 0x10070800 | 0x00070800
-`_strxfrm_l` | 780 (0x30c) | Exported Function | 0x1006d5a0 | 0x0006d5a0
-`_wasctime` | 820 (0x334) | Exported Function | 0x1006f770 | 0x0006f770
-`_waccess` | 818 (0x332) | Exported Function | 0x1006f260 | 0x0006f260
-`_ui64tow` | 798 (0x31e) | Exported Function | 0x1005bfe0 | 0x0005bfe0
-`_ui64toa_s` | 797 (0x31d) | Exported Function | 0x1005bfc0 | 0x0005bfc0
-`_ui64toa` | 796 (0x31c) | Exported Function | 0x1005bf90 | 0x0005bf90
-`_tzset` | 795 (0x31b) | Exported Function | 0x1006ed30 | 0x0006ed30
-`_towupper_l` | 794 (0x31a) | Exported Function | 0x1006e460 | 0x0006e460
-`_towlower_l` | 793 (0x319) | Exported Function | 0x1006e370 | 0x0006e370
-`_toupper_l` | 792 (0x318) | Exported Function | 0x1006e2f0 | 0x0006e2f0
-`_toupper` | 791 (0x317) | Exported Function | 0x1006e2e0 | 0x0006e2e0
-`_tolower_l` | 790 (0x316) | Exported Function | 0x1006e2c0 | 0x0006e2c0
-`_tolower` | 789 (0x315) | Exported Function | 0x1006e2b0 | 0x0006e2b0
-`_timespec64_get` | 788 (0x314) | Exported Function | 0x1006dfd0 | 0x0006dfd0
-`_timespec32_get` | 787 (0x313) | Exported Function | 0x1006dfc0 | 0x0006dfc0
-`_time64` | 786 (0x312) | Exported Function | 0x1006df70 | 0x0006df70
-`_time32` | 785 (0x311) | Exported Function | 0x1006df30 | 0x0006df30
-`_tempnam` | 784 (0x310) | Exported Function | 0x1006ddf0 | 0x0006ddf0
-`_telli64` | 783 (0x30f) | Exported Function | 0x1006d770 | 0x0006d770
-`_tell` | 782 (0x30e) | Exported Function | 0x1006d750 | 0x0006d750
-`_ui64tow_s` | 799 (0x31f) | Exported Function | 0x1005c010 | 0x0005c010
-`_ultoa` | 800 (0x320) | Exported Function | 0x1005c030 | 0x0005c030
-`_ultoa_s` | 801 (0x321) | Exported Function | 0x1005c050 | 0x0005c050
-`_ultow` | 802 (0x322) | Exported Function | 0x1005c070 | 0x0005c070
-`_W_Gettnames` | 33 (0x21) | Exported Function | 0x100232d0 | 0x000232d0
-`_W_Getmonths` | 32 (0x20) | Exported Function | 0x10023160 | 0x00023160
-`_W_Getdays` | 31 (0x1f) | Exported Function | 0x10022ff0 | 0x00022ff0
-`_utime64` | 817 (0x331) | Exported Function | 0x10058ef0 | 0x00058ef0
-`_utime32` | 816 (0x330) | Exported Function | 0x10058ee0 | 0x00058ee0
-`_unlock_locales` | 815 (0x32f) | Exported Function | 0x100617c0 | 0x000617c0
-`_unlock_file` | 814 (0x32e) | Exported Function | 0x10024200 | 0x00024200
-`_unloaddll` | 813 (0x32d) | Exported Function | 0x100611c0 | 0x000611c0
-`_waccess_s` | 819 (0x333) | Exported Function | 0x1006f280 | 0x0006f280
-`_unlink` | 812 (0x32c) | Exported Function | 0x1006f200 | 0x0006f200
-`_ungetwch` | 810 (0x32a) | Exported Function | 0x1005af00 | 0x0005af00
-`_ungetwc_nolock` | 809 (0x329) | Exported Function | 0x1006f0c0 | 0x0006f0c0
-`_ungetch_nolock` | 808 (0x328) | Exported Function | 0x1005a3c0 | 0x0005a3c0
-`_ungetch` | 807 (0x327) | Exported Function | 0x1005a370 | 0x0005a370
-`_ungetc_nolock` | 806 (0x326) | Exported Function | 0x1006ede0 | 0x0006ede0
-`_umask_s` | 805 (0x325) | Exported Function | 0x1006eda0 | 0x0006eda0
-`_umask` | 804 (0x324) | Exported Function | 0x1006ed70 | 0x0006ed70
-`_ultow_s` | 803 (0x323) | Exported Function | 0x1005c090 | 0x0005c090
-`_ungetwch_nolock` | 811 (0x32b) | Exported Function | 0x1005af50 | 0x0005af50
-`clock` | 1033 (0x409) | Exported Function | 0x100774e0 | 0x000774e0
-`clog` | 1034 (0x40a) | Exported Function | 0x10077550 | 0x00077550
-`clog10` | 1035 (0x40b) | Exported Function | 0x10077760 | 0x00077760
-`roundf` | 1268 (0x4f4) | Exported Function | 0x1007f3a0 | 0x0007f3a0
-`round` | 1267 (0x4f3) | Exported Function | 0x1007f340 | 0x0007f340
-`rintl` | 1266 (0x4f2) | Exported Function | 0x1007f2f0 | 0x0007f2f0
-`rintf` | 1265 (0x4f1) | Exported Function | 0x1007f190 | 0x0007f190
-`rint` | 1264 (0x4f0) | Exported Function | 0x1007f020 | 0x0007f020
-`rewind` | 1263 (0x4ef) | Exported Function | 0x1007ee30 | 0x0007ee30
-`rename` | 1262 (0x4ee) | Exported Function | 0x1007ed60 | 0x0007ed60
-`remquol` | 1261 (0x4ed) | Exported Function | 0x1007eba0 | 0x0007eba0
-`remquof` | 1260 (0x4ec) | Exported Function | 0x1007e9c0 | 0x0007e9c0
-`remquo` | 1259 (0x4eb) | Exported Function | 0x1007e800 | 0x0007e800
-`remove` | 1258 (0x4ea) | Exported Function | 0x1006f210 | 0x0006f210
-`remainderl` | 1257 (0x4e9) | Exported Function | 0x1007e7d0 | 0x0007e7d0
-`remainderf` | 1256 (0x4e8) | Exported Function | 0x1007e7b0 | 0x0007e7b0
-`remainder` | 1255 (0x4e7) | Exported Function | 0x1007e780 | 0x0007e780
-`realloc` | 1254 (0x4e6) | Exported Function | 0x1007e770 | 0x0007e770
-`rand_s` | 1253 (0x4e5) | Exported Function | 0x1007e720 | 0x0007e720
-`rand` | 1252 (0x4e4) | Exported Function | 0x1007e6d0 | 0x0007e6d0
-`roundl` | 1269 (0x4f5) | Exported Function | 0x1007f400 | 0x0007f400
-`scalbln` | 1270 (0x4f6) | Exported Function | 0x1007f460 | 0x0007f460
-`scalblnf` | 1271 (0x4f7) | Exported Function | 0x1007f4b0 | 0x0007f4b0
-`scalblnl` | 1272 (0x4f8) | Exported Function | 0x1007f500 | 0x0007f500
-`strcpy_s` | 1290 (0x50a) | Exported Function | 0x1007fbf0 | 0x0007fbf0
-`strcpy` | 1289 (0x509) | Exported Function | 0x1007f9f0 | 0x0007f9f0
-`strcoll` | 1288 (0x508) | Exported Function | 0x1006bf60 | 0x0006bf60
-`strcmp` | 1287 (0x507) | Exported Function | 0x1007fb60 | 0x0007fb60
-`strcat_s` | 1286 (0x506) | Exported Function | 0x1007faf0 | 0x0007faf0
-`strcat` | 1285 (0x505) | Exported Function | 0x1007fa00 | 0x0007fa00
-`srand` | 1284 (0x504) | Exported Function | 0x1007e700 | 0x0007e700
-`sqrt` | 1283 (0x503) | Exported Function | 0x10020d14 | 0x00020d14
-`raise` | 1251 (0x4e3) | Exported Function | 0x1002fb10 | 0x0002fb10
-`sinh` | 1282 (0x502) | Exported Function | 0x100205b0 | 0x000205b0
-`signal` | 1280 (0x500) | Exported Function | 0x1002fd20 | 0x0002fd20
-`setvbuf` | 1279 (0x4ff) | Exported Function | 0x1007f970 | 0x0007f970
-`setlocale` | 1278 (0x4fe) | Exported Function | 0x1007f800 | 0x0007f800
-`setbuf` | 1277 (0x4fd) | Exported Function | 0x1007f550 | 0x0007f550
-`set_terminate` | 1276 (0x4fc) | Exported Function | 0x10059f10 | 0x00059f10
-`scalbnl` | 1275 (0x4fb) | Exported Function | 0x1007f500 | 0x0007f500
-`scalbnf` | 1274 (0x4fa) | Exported Function | 0x1007f4b0 | 0x0007f4b0
-`scalbn` | 1273 (0x4f9) | Exported Function | 0x1007f460 | 0x0007f460
-`sin` | 1281 (0x501) | Exported Function | 0x10020bd0 | 0x00020bd0
-`strcspn` | 1291 (0x50b) | Exported Function | 0x1007fc50 | 0x0007fc50
-`quick_exit` | 1250 (0x4e2) | Exported Function | 0x100214d0 | 0x000214d0
-`qsort` | 1248 (0x4e0) | Exported Function | 0x1007deb0 | 0x0007deb0
-`nan` | 1225 (0x4c9) | Exported Function | 0x1004d060 | 0x0004d060
-`modf` | 1224 (0x4c8) | Exported Function | 0x1007d4c0 | 0x0007d4c0
-`memset` | 1223 (0x4c7) | Exported Function | 0x10096d90 | 0x00096d90
-`memmove_s` | 1222 (0x4c6) | Exported Function | 0x1007d470 | 0x0007d470
-`memcpy_s` | 1221 (0x4c5) | Exported Function | 0x100355d0 | 0x000355d0
-`mbtowc` | 1220 (0x4c4) | Exported Function | 0x10066930 | 0x00066930
-`mbstowcs_s` | 1219 (0x4c3) | Exported Function | 0x10066540 | 0x00066540
-`mbstowcs` | 1218 (0x4c2) | Exported Function | 0x10066510 | 0x00066510
-`mbsrtowcs_s` | 1217 (0x4c1) | Exported Function | 0x100735a0 | 0x000735a0
-`mbsrtowcs` | 1216 (0x4c0) | Exported Function | 0x10073590 | 0x00073590
-`mbrtowc` | 1215 (0x4bf) | Exported Function | 0x10073530 | 0x00073530
-`mbrtoc32` | 1214 (0x4be) | Exported Function | 0x1007d340 | 0x0007d340
-`mbrtoc16` | 1213 (0x4bd) | Exported Function | 0x1007d1c0 | 0x0007d1c0
-`mbrlen` | 1212 (0x4bc) | Exported Function | 0x100734f0 | 0x000734f0
-`mblen` | 1211 (0x4bb) | Exported Function | 0x10062b80 | 0x00062b80
-`malloc` | 1210 (0x4ba) | Exported Function | 0x1007d1b0 | 0x0007d1b0
-`lroundl` | 1209 (0x4b9) | Exported Function | 0x1007d150 | 0x0007d150
-`nanf` | 1226 (0x4ca) | Exported Function | 0x10051930 | 0x00051930
-`nanl` | 1227 (0x4cb) | Exported Function | 0x1005da00 | 0x0005da00
-`nearbyint` | 1228 (0x4cc) | Exported Function | 0x1007d610 | 0x0007d610
-`nearbyintf` | 1229 (0x4cd) | Exported Function | 0x1007d640 | 0x0007d640
-`putwchar` | 1247 (0x4df) | Exported Function | 0x10055ac0 | 0x00055ac0
-`putwc` | 1246 (0x4de) | Exported Function | 0x10055ab0 | 0x00055ab0
-`puts` | 1245 (0x4dd) | Exported Function | 0x1007dcf0 | 0x0007dcf0
-`putchar` | 1244 (0x4dc) | Exported Function | 0x10055890 | 0x00055890
-`putc` | 1243 (0x4db) | Exported Function | 0x10055880 | 0x00055880
-`powf` | 1242 (0x4da) | Exported Function | 0x10021740 | 0x00021740
-`pow` | 1241 (0x4d9) | Exported Function | 0x10020940 | 0x00020940
-`perror` | 1240 (0x4d8) | Exported Function | 0x1007db70 | 0x0007db70
-`qsort_s` | 1249 (0x4e1) | Exported Function | 0x1007e2f0 | 0x0007e2f0
-`norml` | 1239 (0x4d7) | Exported Function | 0x1007db30 | 0x0007db30
-`norm` | 1237 (0x4d5) | Exported Function | 0x1007db30 | 0x0007db30
-`nexttowardl` | 1236 (0x4d4) | Exported Function | 0x1007d990 | 0x0007d990
-`nexttowardf` | 1235 (0x4d3) | Exported Function | 0x1007d860 | 0x0007d860
-`nexttoward` | 1234 (0x4d2) | Exported Function | 0x1007d700 | 0x0007d700
-`nextafterl` | 1233 (0x4d1) | Exported Function | 0x1007d6e0 | 0x0007d6e0
-`nextafterf` | 1232 (0x4d0) | Exported Function | 0x1007d6c0 | 0x0007d6c0
-`nextafter` | 1231 (0x4cf) | Exported Function | 0x1007d6a0 | 0x0007d6a0
-`nearbyintl` | 1230 (0x4ce) | Exported Function | 0x1007d670 | 0x0007d670
-`normf` | 1238 (0x4d6) | Exported Function | 0x1007daf0 | 0x0007daf0
-`lroundf` | 1208 (0x4b8) | Exported Function | 0x1007d0f0 | 0x0007d0f0
-`strerror` | 1292 (0x50c) | Exported Function | 0x1006fbf0 | 0x0006fbf0
-`strftime` | 1294 (0x50e) | Exported Function | 0x10021ba0 | 0x00021ba0
-`wcspbrk` | 1354 (0x54a) | Exported Function | 0x10083160 | 0x00083160
-`wcsnlen` | 1353 (0x549) | Exported Function | 0x10080430 | 0x00080430
-`wcsncpy_s` | 1352 (0x548) | Exported Function | 0x10083150 | 0x00083150
-`wcsncpy` | 1351 (0x547) | Exported Function | 0x10083040 | 0x00083040
-`wcsncmp` | 1350 (0x546) | Exported Function | 0x10083000 | 0x00083000
-`wcsncat_s` | 1349 (0x545) | Exported Function | 0x10082ff0 | 0x00082ff0
-`wcsncat` | 1348 (0x544) | Exported Function | 0x10082ec0 | 0x00082ec0
-`wcslen` | 1347 (0x543) | Exported Function | 0x100802f0 | 0x000802f0
-`wcsftime` | 1346 (0x542) | Exported Function | 0x10023bc0 | 0x00023bc0
-`wcscspn` | 1345 (0x541) | Exported Function | 0x10082e70 | 0x00082e70
-`wcscpy_s` | 1344 (0x540) | Exported Function | 0x10082e00 | 0x00082e00
-`wcscpy` | 1343 (0x53f) | Exported Function | 0x10082dd0 | 0x00082dd0
-`wcscoll` | 1342 (0x53e) | Exported Function | 0x1006f990 | 0x0006f990
-`wcscmp` | 1341 (0x53d) | Exported Function | 0x10082d90 | 0x00082d90
-`wcscat_s` | 1340 (0x53c) | Exported Function | 0x10082d10 | 0x00082d10
-`wcscat` | 1339 (0x53b) | Exported Function | 0x10082cd0 | 0x00082cd0
-`wcrtomb_s` | 1338 (0x53a) | Exported Function | 0x10082b40 | 0x00082b40
-`wcsrtombs` | 1355 (0x54b) | Exported Function | 0x10082bc0 | 0x00082bc0
-`wcsrtombs_s` | 1356 (0x54c) | Exported Function | 0x10082bd0 | 0x00082bd0
-`wcsspn` | 1357 (0x54d) | Exported Function | 0x100831b0 | 0x000831b0
-`wcstod` | 1358 (0x54e) | Exported Function | 0x1006d020 | 0x0006d020
-`wctype` | 1376 (0x560) | Exported Function | 0x10083320 | 0x00083320
-`wctrans` | 1375 (0x55f) | Exported Function | 0x10082830 | 0x00082830
-`wctomb_s` | 1374 (0x55e) | Exported Function | 0x100711b0 | 0x000711b0
-`wctomb` | 1373 (0x55d) | Exported Function | 0x10071170 | 0x00071170
-`wctob` | 1372 (0x55c) | Exported Function | 0x10082c70 | 0x00082c70
-`wcsxfrm` | 1371 (0x55b) | Exported Function | 0x10070fc0 | 0x00070fc0
-`wcstoumax` | 1370 (0x55a) | Exported Function | 0x1006d310 | 0x0006d310
-`wcstoull` | 1369 (0x559) | Exported Function | 0x1006d310 | 0x0006d310
-`wcrtomb` | 1337 (0x539) | Exported Function | 0x10082b00 | 0x00082b00
-`wcstoul` | 1368 (0x558) | Exported Function | 0x1006d2e0 | 0x0006d2e0
-`wcstombs` | 1366 (0x556) | Exported Function | 0x10070bb0 | 0x00070bb0
-`wcstoll` | 1365 (0x555) | Exported Function | 0x1006d2b0 | 0x0006d2b0
-`wcstold` | 1364 (0x554) | Exported Function | 0x1006d020 | 0x0006d020
-`wcstol` | 1363 (0x553) | Exported Function | 0x1006d280 | 0x0006d280
-`wcstok_s` | 1362 (0x552) | Exported Function | 0x100832d0 | 0x000832d0
-`wcstok` | 1361 (0x551) | Exported Function | 0x10083200 | 0x00083200
-`wcstoimax` | 1360 (0x550) | Exported Function | 0x1006d2b0 | 0x0006d2b0
-`wcstof` | 1359 (0x54f) | Exported Function | 0x1006d000 | 0x0006d000
-`wcstombs_s` | 1367 (0x557) | Exported Function | 0x10070bd0 | 0x00070bd0
-`strerror_s` | 1293 (0x50d) | Exported Function | 0x1006fc00 | 0x0006fc00
-`ungetwc` | 1336 (0x538) | Exported Function | 0x1006f180 | 0x0006f180
-`truncl` | 1334 (0x536) | Exported Function | 0x100828d0 | 0x000828d0
-`strtoll` | 1311 (0x51f) | Exported Function | 0x1006d220 | 0x0006d220
-`strtold` | 1310 (0x51e) | Exported Function | 0x1006cfe0 | 0x0006cfe0
-`strtol` | 1309 (0x51d) | Exported Function | 0x1006d1f0 | 0x0006d1f0
-`strtok_s` | 1308 (0x51c) | Exported Function | 0x10080780 | 0x00080780
-`strtok` | 1307 (0x51b) | Exported Function | 0x10080680 | 0x00080680
-`strtoimax` | 1306 (0x51a) | Exported Function | 0x1006d220 | 0x0006d220
-`strtof` | 1305 (0x519) | Exported Function | 0x1006cfc0 | 0x0006cfc0
-`strtod` | 1304 (0x518) | Exported Function | 0x1006cfe0 | 0x0006cfe0
-`strspn` | 1303 (0x517) | Exported Function | 0x10080630 | 0x00080630
-`strpbrk` | 1302 (0x516) | Exported Function | 0x100805f0 | 0x000805f0
-`strnlen` | 1301 (0x515) | Exported Function | 0x100801c0 | 0x000801c0
-`strncpy_s` | 1300 (0x514) | Exported Function | 0x100801b0 | 0x000801b0
-`strncpy` | 1299 (0x513) | Exported Function | 0x1007ffd0 | 0x0007ffd0
-`strncmp` | 1298 (0x512) | Exported Function | 0x1007ff50 | 0x0007ff50
-`strncat_s` | 1297 (0x511) | Exported Function | 0x1007ff40 | 0x0007ff40
-`strncat` | 1296 (0x510) | Exported Function | 0x1007fd30 | 0x0007fd30
-`strlen` | 1295 (0x50f) | Exported Function | 0x1007fca0 | 0x0007fca0
-`strtoul` | 1312 (0x520) | Exported Function | 0x1006d250 | 0x0006d250
-`strtoull` | 1313 (0x521) | Exported Function | 0x1006d0a0 | 0x0006d0a0
-`strtoumax` | 1314 (0x522) | Exported Function | 0x1006d0a0 | 0x0006d0a0
-`strxfrm` | 1315 (0x523) | Exported Function | 0x1006d6c0 | 0x0006d6c0
-`truncf` | 1333 (0x535) | Exported Function | 0x100828b0 | 0x000828b0
-`trunc` | 1332 (0x534) | Exported Function | 0x10082890 | 0x00082890
-`towupper` | 1331 (0x533) | Exported Function | 0x1006e530 | 0x0006e530
-`towlower` | 1330 (0x532) | Exported Function | 0x1006e440 | 0x0006e440
-`towctrans` | 1329 (0x531) | Exported Function | 0x10082800 | 0x00082800
-`toupper` | 1328 (0x530) | Exported Function | 0x1006e340 | 0x0006e340
-`tolower` | 1327 (0x52f) | Exported Function | 0x1006e310 | 0x0006e310
-`tmpnam_s` | 1326 (0x52e) | Exported Function | 0x100729b0 | 0x000729b0
-`ungetc` | 1335 (0x537) | Exported Function | 0x1006eed0 | 0x0006eed0
-`tmpnam` | 1325 (0x52d) | Exported Function | 0x10072980 | 0x00072980
-`tmpfile` | 1323 (0x52b) | Exported Function | 0x10072940 | 0x00072940
-`tgammal` | 1322 (0x52a) | Exported Function | 0x10082610 | 0x00082610
-`tgammaf` | 1321 (0x529) | Exported Function | 0x10081b00 | 0x00081b00
-`tgamma` | 1320 (0x528) | Exported Function | 0x100810c0 | 0x000810c0
-`terminate` | 1319 (0x527) | Exported Function | 0x10059f30 | 0x00059f30
-`tanh` | 1318 (0x526) | Exported Function | 0x100205c1 | 0x000205c1
-`tan` | 1317 (0x525) | Exported Function | 0x10020dc0 | 0x00020dc0
-`system` | 1316 (0x524) | Exported Function | 0x100720d0 | 0x000720d0
-`tmpfile_s` | 1324 (0x52c) | Exported Function | 0x10072960 | 0x00072960
-`lround` | 1207 (0x4b7) | Exported Function | 0x1007d090 | 0x0007d090
-`lrintl` | 1206 (0x4b6) | Exported Function | 0x1007d010 | 0x0007d010
-`lrintf` | 1205 (0x4b5) | Exported Function | 0x1007cf90 | 0x0007cf90
-`fegetround` | 1095 (0x447) | Exported Function | 0x1002f8c0 | 0x0002f8c0
-`fegetexceptflag` | 1094 (0x446) | Exported Function | 0x1007a1a0 | 0x0007a1a0
-`fegetenv` | 1093 (0x445) | Exported Function | 0x1007a180 | 0x0007a180
-`feclearexcept` | 1092 (0x444) | Exported Function | 0x1007a130 | 0x0007a130
-`fdiml` | 1091 (0x443) | Exported Function | 0x1007a0e0 | 0x0007a0e0
-`fdimf` | 1090 (0x442) | Exported Function | 0x1007a080 | 0x0007a080
-`fdim` | 1089 (0x441) | Exported Function | 0x1007a030 | 0x0007a030
-`fclose` | 1088 (0x440) | Exported Function | 0x10051770 | 0x00051770
-`fabs` | 1087 (0x43f) | Exported Function | 0x10079fe0 | 0x00079fe0
-`expm1l` | 1086 (0x43e) | Exported Function | 0x10079f10 | 0x00079f10
-`expm1f` | 1085 (0x43d) | Exported Function | 0x10079e40 | 0x00079e40
-`expm1` | 1084 (0x43c) | Exported Function | 0x10079d70 | 0x00079d70
-`exp2l` | 1083 (0x43b) | Exported Function | 0x1005dc50 | 0x0005dc50
-`exp2f` | 1082 (0x43a) | Exported Function | 0x10051ba0 | 0x00051ba0
-`exp2` | 1081 (0x439) | Exported Function | 0x1004d2b0 | 0x0004d2b0
-`exp` | 1080 (0x438) | Exported Function | 0x100205e0 | 0x000205e0
-`exit` | 1079 (0x437) | Exported Function | 0x100214b0 | 0x000214b0
-`feholdexcept` | 1096 (0x448) | Exported Function | 0x1007a1e0 | 0x0007a1e0
-`feof` | 1097 (0x449) | Exported Function | 0x1007a230 | 0x0007a230
-`ferror` | 1098 (0x44a) | Exported Function | 0x1007a260 | 0x0007a260
-`fesetenv` | 1099 (0x44b) | Exported Function | 0x1007a290 | 0x0007a290
-`fminf` | 1117 (0x45d) | Exported Function | 0x1007c130 | 0x0007c130
-`fmin` | 1116 (0x45c) | Exported Function | 0x1007c0d0 | 0x0007c0d0
-`fmaxl` | 1115 (0x45b) | Exported Function | 0x1007c070 | 0x0007c070
-`fmaxf` | 1114 (0x45a) | Exported Function | 0x1007c010 | 0x0007c010
-`fmax` | 1113 (0x459) | Exported Function | 0x1007bfb0 | 0x0007bfb0
-`fmal` | 1112 (0x458) | Exported Function | 0x1007bd30 | 0x0007bd30
-`fmaf` | 1111 (0x457) | Exported Function | 0x1007b4f0 | 0x0007b4f0
-`fma` | 1110 (0x456) | Exported Function | 0x1007acb0 | 0x0007acb0
-`erfl` | 1078 (0x436) | Exported Function | 0x10079c50 | 0x00079c50
-`floor` | 1109 (0x455) | Exported Function | 0x1007a5b0 | 0x0007a5b0
-`fgetwc` | 1107 (0x453) | Exported Function | 0x10053680 | 0x00053680
-`fgets` | 1106 (0x452) | Exported Function | 0x1007a590 | 0x0007a590
-`fgetpos` | 1105 (0x451) | Exported Function | 0x1007a3a0 | 0x0007a3a0
-`fgetc` | 1104 (0x450) | Exported Function | 0x100533b0 | 0x000533b0
-`fflush` | 1103 (0x44f) | Exported Function | 0x10053300 | 0x00053300
-`fetestexcept` | 1102 (0x44e) | Exported Function | 0x1007a370 | 0x0007a370
-`fesetround` | 1101 (0x44d) | Exported Function | 0x1007a330 | 0x0007a330
-`fesetexceptflag` | 1100 (0x44c) | Exported Function | 0x1007a2e0 | 0x0007a2e0
-`fgetws` | 1108 (0x454) | Exported Function | 0x1007a5a0 | 0x0007a5a0
-`fminl` | 1118 (0x45e) | Exported Function | 0x1007c190 | 0x0007c190
-`erff` | 1077 (0x435) | Exported Function | 0x10079ad0 | 0x00079ad0
-`erfcf` | 1075 (0x433) | Exported Function | 0x100525f0 | 0x000525f0
-`cprojf` | 1052 (0x41c) | Exported Function | 0x10021510 | 0x00021510
-`cproj` | 1051 (0x41b) | Exported Function | 0x10020f20 | 0x00020f20
-`cpowl` | 1050 (0x41a) | Exported Function | 0x10021d20 | 0x00021d20
-`cpowf` | 1049 (0x419) | Exported Function | 0x10021680 | 0x00021680
-`cpow` | 1048 (0x418) | Exported Function | 0x10021040 | 0x00021040
-`cosh` | 1047 (0x417) | Exported Function | 0x100205ba | 0x000205ba
-`cos` | 1046 (0x416) | Exported Function | 0x10020480 | 0x00020480
-`copysignl` | 1045 (0x415) | Exported Function | 0x10077ce0 | 0x00077ce0
-`copysignf` | 1044 (0x414) | Exported Function | 0x10077d10 | 0x00077d10
-`copysign` | 1043 (0x413) | Exported Function | 0x10077ce0 | 0x00077ce0
-`conjl` | 1042 (0x412) | Exported Function | 0x10077c50 | 0x00077c50
-`conjf` | 1041 (0x411) | Exported Function | 0x10077ca0 | 0x00077ca0
-`conj` | 1040 (0x410) | Exported Function | 0x10077c50 | 0x00077c50
-`clogl` | 1039 (0x40f) | Exported Function | 0x10077a40 | 0x00077a40
-`clogf` | 1038 (0x40e) | Exported Function | 0x10077830 | 0x00077830
-`clog10l` | 1037 (0x40d) | Exported Function | 0x100777e0 | 0x000777e0
-`clog10f` | 1036 (0x40c) | Exported Function | 0x100777b0 | 0x000777b0
-`cprojl` | 1053 (0x41d) | Exported Function | 0x10021bc0 | 0x00021bc0
-`creal` | 1054 (0x41e) | Exported Function | 0x10077d70 | 0x00077d70
-`crealf` | 1055 (0x41f) | Exported Function | 0x10077d40 | 0x00077d40
-`creall` | 1056 (0x420) | Exported Function | 0x10077d70 | 0x00077d70
-`erfc` | 1074 (0x432) | Exported Function | 0x1004d830 | 0x0004d830
-`erf` | 1073 (0x431) | Exported Function | 0x10079940 | 0x00079940
-`div` | 1072 (0x430) | Exported Function | 0x100798d0 | 0x000798d0
-`ctanl` | 1071 (0x42f) | Exported Function | 0x10079820 | 0x00079820
-`ctanhl` | 1070 (0x42e) | Exported Function | 0x100796b0 | 0x000796b0
-`ctanhf` | 1069 (0x42d) | Exported Function | 0x10079510 | 0x00079510
-`ctanh` | 1068 (0x42c) | Exported Function | 0x100793a0 | 0x000793a0
-`ctanf` | 1067 (0x42b) | Exported Function | 0x10079340 | 0x00079340
-`erfcl` | 1076 (0x434) | Exported Function | 0x1005de90 | 0x0005de90
-`ctan` | 1066 (0x42a) | Exported Function | 0x10079290 | 0x00079290
-`csqrtf` | 1064 (0x428) | Exported Function | 0x10078ce0 | 0x00078ce0
-`csqrt` | 1063 (0x427) | Exported Function | 0x10078900 | 0x00078900
-`csinl` | 1062 (0x426) | Exported Function | 0x100786b0 | 0x000786b0
-`csinhl` | 1061 (0x425) | Exported Function | 0x10078550 | 0x00078550
-`csinhf` | 1060 (0x424) | Exported Function | 0x100782c0 | 0x000782c0
-`csinh` | 1059 (0x423) | Exported Function | 0x10078000 | 0x00078000
-`csinf` | 1058 (0x422) | Exported Function | 0x10077e60 | 0x00077e60
-`csin` | 1057 (0x421) | Exported Function | 0x10077db0 | 0x00077db0
-`csqrtl` | 1065 (0x429) | Exported Function | 0x100790b0 | 0x000790b0
-`fmod` | 1119 (0x45f) | Exported Function | 0x10020670 | 0x00020670
-`fopen` | 1120 (0x460) | Exported Function | 0x10056320 | 0x00056320
-`fopen_s` | 1121 (0x461) | Exported Function | 0x10056340 | 0x00056340
-`lgammaf` | 1182 (0x49e) | Exported Function | 0x10052d70 | 0x00052d70
-`lgamma` | 1181 (0x49d) | Exported Function | 0x1004e380 | 0x0004e380
-`ldiv` | 1180 (0x49c) | Exported Function | 0x100798d0 | 0x000798d0
-`ldexp` | 1179 (0x49b) | Exported Function | 0x1007c6e0 | 0x0007c6e0
-`labs` | 1178 (0x49a) | Exported Function | 0x10043b60 | 0x00043b60
-`isxdigit` | 1177 (0x499) | Exported Function | 0x100304c0 | 0x000304c0
-`iswxdigit` | 1176 (0x498) | Exported Function | 0x10030730 | 0x00030730
-`iswupper` | 1175 (0x497) | Exported Function | 0x10030710 | 0x00030710
-`iswspace` | 1174 (0x496) | Exported Function | 0x100305f0 | 0x000305f0
-`iswpunct` | 1173 (0x495) | Exported Function | 0x100305d0 | 0x000305d0
-`iswprint` | 1172 (0x494) | Exported Function | 0x100306f0 | 0x000306f0
-`iswlower` | 1171 (0x493) | Exported Function | 0x100306d0 | 0x000306d0
-`iswgraph` | 1170 (0x492) | Exported Function | 0x100306b0 | 0x000306b0
-`iswdigit` | 1169 (0x491) | Exported Function | 0x100305b0 | 0x000305b0
-`iswctype` | 1168 (0x490) | Exported Function | 0x1005d160 | 0x0005d160
-`iswcntrl` | 1167 (0x48f) | Exported Function | 0x10030690 | 0x00030690
-`iswblank` | 1166 (0x48e) | Exported Function | 0x10030530 | 0x00030530
-`lgammal` | 1183 (0x49f) | Exported Function | 0x1005e650 | 0x0005e650
-`llabs` | 1184 (0x4a0) | Exported Function | 0x1007c660 | 0x0007c660
-`lldiv` | 1185 (0x4a1) | Exported Function | 0x1007c8d0 | 0x0007c8d0
-`llrint` | 1186 (0x4a2) | Exported Function | 0x1007c910 | 0x0007c910
-`lrint` | 1204 (0x4b4) | Exported Function | 0x1007cf10 | 0x0007cf10
-`logbl` | 1203 (0x4b3) | Exported Function | 0x1007cea0 | 0x0007cea0
-`logbf` | 1202 (0x4b2) | Exported Function | 0x1007ce40 | 0x0007ce40
-`logb` | 1201 (0x4b1) | Exported Function | 0x1007cdd0 | 0x0007cdd0
-`log2l` | 1200 (0x4b0) | Exported Function | 0x1005de70 | 0x0005de70
-`log2f` | 1199 (0x4af) | Exported Function | 0x10051e20 | 0x00051e20
-`log2` | 1198 (0x4ae) | Exported Function | 0x1004d590 | 0x0004d590
-`log1pl` | 1197 (0x4ad) | Exported Function | 0x1007cd30 | 0x0007cd30
-`iswascii` | 1165 (0x48d) | Exported Function | 0x10030670 | 0x00030670
-`log1pf` | 1196 (0x4ac) | Exported Function | 0x1007cc80 | 0x0007cc80
-`log10` | 1194 (0x4aa) | Exported Function | 0x100207f0 | 0x000207f0
-`log` | 1193 (0x4a9) | Exported Function | 0x100206a0 | 0x000206a0
-`localeconv` | 1192 (0x4a8) | Exported Function | 0x1007cbb0 | 0x0007cbb0
-`llroundl` | 1191 (0x4a7) | Exported Function | 0x1007cb50 | 0x0007cb50
-`llroundf` | 1190 (0x4a6) | Exported Function | 0x1007caf0 | 0x0007caf0
-`llround` | 1189 (0x4a5) | Exported Function | 0x1007ca90 | 0x0007ca90
-`llrintl` | 1188 (0x4a4) | Exported Function | 0x1007ca10 | 0x0007ca10
-`llrintf` | 1187 (0x4a3) | Exported Function | 0x1007c990 | 0x0007c990
-`log1p` | 1195 (0x4ab) | Exported Function | 0x1007cbe0 | 0x0007cbe0
-`iswalpha` | 1164 (0x48c) | Exported Function | 0x10030650 | 0x00030650
-`iswalnum` | 1163 (0x48b) | Exported Function | 0x10030630 | 0x00030630
-`isupper` | 1162 (0x48a) | Exported Function | 0x10030490 | 0x00030490
-`getenv_s` | 1139 (0x473) | Exported Function | 0x1004f260 | 0x0004f260
-`getenv` | 1138 (0x472) | Exported Function | 0x1004f250 | 0x0004f250
-`getchar` | 1137 (0x471) | Exported Function | 0x100534d0 | 0x000534d0
-`getc` | 1136 (0x470) | Exported Function | 0x100534c0 | 0x000534c0
-`fwrite` | 1135 (0x46f) | Exported Function | 0x10059160 | 0x00059160
-`ftell` | 1134 (0x46e) | Exported Function | 0x100583c0 | 0x000583c0
-`fsetpos` | 1133 (0x46d) | Exported Function | 0x1007c560 | 0x0007c560
-`fseek` | 1132 (0x46c) | Exported Function | 0x100560f0 | 0x000560f0
-`gets` | 1140 (0x474) | Exported Function | 0x1005b280 | 0x0005b280
-`frexp` | 1131 (0x46b) | Exported Function | 0x1007c460 | 0x0007c460
-`freopen` | 1129 (0x469) | Exported Function | 0x10071450 | 0x00071450
-`free` | 1128 (0x468) | Exported Function | 0x1007c440 | 0x0007c440
-`fread_s` | 1127 (0x467) | Exported Function | 0x10055cf0 | 0x00055cf0
-`fread` | 1126 (0x466) | Exported Function | 0x10055cd0 | 0x00055cd0
-`fputws` | 1125 (0x465) | Exported Function | 0x1007c3a0 | 0x0007c3a0
-`fputwc` | 1124 (0x464) | Exported Function | 0x10055a30 | 0x00055a30
-`fputs` | 1123 (0x463) | Exported Function | 0x1007c2c0 | 0x0007c2c0
-`fputc` | 1122 (0x462) | Exported Function | 0x10055770 | 0x00055770
-`freopen_s` | 1130 (0x46a) | Exported Function | 0x10071480 | 0x00071480
-`_seh_filter_exe` | 696 (0x2b8) | Exported Function | 0x1006b170 | 0x0006b170
-`gets_s` | 1141 (0x475) | Exported Function | 0x1005b2a0 | 0x0005b2a0
-`getwchar` | 1143 (0x477) | Exported Function | 0x10053710 | 0x00053710
-`isspace` | 1161 (0x489) | Exported Function | 0x10030460 | 0x00030460
-`ispunct` | 1160 (0x488) | Exported Function | 0x10030430 | 0x00030430
-`isprint` | 1159 (0x487) | Exported Function | 0x10030400 | 0x00030400
-`islower` | 1158 (0x486) | Exported Function | 0x100303d0 | 0x000303d0
-`isleadbyte` | 1157 (0x485) | Exported Function | 0x10030610 | 0x00030610
-`isgraph` | 1156 (0x484) | Exported Function | 0x100303a0 | 0x000303a0
-`isdigit` | 1155 (0x483) | Exported Function | 0x10030370 | 0x00030370
-`iscntrl` | 1154 (0x482) | Exported Function | 0x10030340 | 0x00030340
-`getwc` | 1142 (0x476) | Exported Function | 0x10053700 | 0x00053700
-`isblank` | 1153 (0x481) | Exported Function | 0x10030300 | 0x00030300
-`isalnum` | 1151 (0x47f) | Exported Function | 0x100302a0 | 0x000302a0
-`is_wctype` | 1150 (0x47e) | Exported Function | 0x1007c6d0 | 0x0007c6d0
-`imaxdiv` | 1149 (0x47d) | Exported Function | 0x1007c680 | 0x0007c680
-`imaxabs` | 1148 (0x47c) | Exported Function | 0x1007c660 | 0x0007c660
-`ilogbl` | 1147 (0x47b) | Exported Function | 0x1007c620 | 0x0007c620
-`ilogbf` | 1146 (0x47a) | Exported Function | 0x1007c5e0 | 0x0007c5e0
-`ilogb` | 1145 (0x479) | Exported Function | 0x1007c5a0 | 0x0007c5a0
-`hypot` | 1144 (0x478) | Exported Function | 0x10049090 | 0x00049090
-`isalpha` | 1152 (0x480) | Exported Function | 0x100302d0 | 0x000302d0
-`_seh_filter_dll` | 695 (0x2b7) | Exported Function | 0x1006b150 | 0x0006b150
-`_searchenv_s` | 694 (0x2b6) | Exported Function | 0x1006b110 | 0x0006b110
-`_searchenv` | 693 (0x2b5) | Exported Function | 0x1006b0f0 | 0x0006b0f0
-`_fdsign` | 245 (0xf5) | Exported Function | 0x10051910 | 0x00051910
-`_fdscale` | 244 (0xf4) | Exported Function | 0x1004dc90 | 0x0004dc90
-`_fdpoly` | 243 (0xf3) | Exported Function | 0x100525b0 | 0x000525b0
-`_fdpcomp` | 242 (0xf2) | Exported Function | 0x100518b0 | 0x000518b0
-`_fdopen` | 241 (0xf1) | Exported Function | 0x10052590 | 0x00052590
-`_fdnorm` | 240 (0xf0) | Exported Function | 0x1004d730 | 0x0004d730
-`_fdlog` | 239 (0xef) | Exported Function | 0x10051c90 | 0x00051c90
-`_fdexp` | 238 (0xee) | Exported Function | 0x10051940 | 0x00051940
-`_fdclass` | 237 (0xed) | Exported Function | 0x10051890 | 0x00051890
-`_fd_int` | 236 (0xec) | Exported Function | 0x1004cde0 | 0x0004cde0
-`_fcvt_s` | 235 (0xeb) | Exported Function | 0x1004f500 | 0x0004f500
-`_fcvt` | 234 (0xea) | Exported Function | 0x1004f450 | 0x0004f450
-`_FCmulcr` | 23 (0x17) | Exported Function | 0x10021630 | 0x00021630
-`_FCmulcc` | 22 (0x16) | Exported Function | 0x100215a0 | 0x000215a0
-`_fcloseall` | 233 (0xe9) | Exported Function | 0x100517f0 | 0x000517f0
-`_fclose_nolock` | 232 (0xe8) | Exported Function | 0x100516f0 | 0x000516f0
-`_FCbuild` | 21 (0x15) | Exported Function | 0x100214f0 | 0x000214f0
-`_fdsin` | 246 (0xf6) | Exported Function | 0x10052ba0 | 0x00052ba0
-`_fdtest` | 247 (0xf7) | Exported Function | 0x1004ceb0 | 0x0004ceb0
-`_fdunscale` | 248 (0xf8) | Exported Function | 0x1004e6d0 | 0x0004e6d0
-`_fflush_nolock` | 249 (0xf9) | Exported Function | 0x100532a0 | 0x000532a0
-`_flushall` | 267 (0x10b) | Exported Function | 0x100532f0 | 0x000532f0
-`_finite` | 266 (0x10a) | Exported Function | 0x10049d10 | 0x00049d10
-`_findnext64i32` | 265 (0x109) | Exported Function | 0x10054a40 | 0x00054a40
-`_findnext64` | 264 (0x108) | Exported Function | 0x100549e0 | 0x000549e0
-`_findnext32i64` | 263 (0x107) | Exported Function | 0x10054980 | 0x00054980
-`_findnext32` | 262 (0x106) | Exported Function | 0x10054920 | 0x00054920
-`_findfirst64i32` | 261 (0x105) | Exported Function | 0x10054910 | 0x00054910
-`_findfirst64` | 260 (0x104) | Exported Function | 0x10054900 | 0x00054900
-`_expand` | 231 (0xe7) | Exported Function | 0x10051620 | 0x00051620
-`_findfirst32i64` | 259 (0x103) | Exported Function | 0x100548f0 | 0x000548f0
-`_findclose` | 257 (0x101) | Exported Function | 0x100548b0 | 0x000548b0
-`_fileno` | 256 (0x100) | Exported Function | 0x10053990 | 0x00053990
-`_filelengthi64` | 255 (0xff) | Exported Function | 0x10053980 | 0x00053980
-`_filelength` | 254 (0xfe) | Exported Function | 0x10053970 | 0x00053970
-`_fgetwchar` | 253 (0xfd) | Exported Function | 0x10053660 | 0x00053660
-`_fgetwc_nolock` | 252 (0xfc) | Exported Function | 0x100534e0 | 0x000534e0
-`_fgetchar` | 251 (0xfb) | Exported Function | 0x10053390 | 0x00053390
-`_fgetc_nolock` | 250 (0xfa) | Exported Function | 0x10053350 | 0x00053350
-`_findfirst32` | 258 (0x102) | Exported Function | 0x100548e0 | 0x000548e0
-`_fpclass` | 268 (0x10c) | Exported Function | 0x10049d30 | 0x00049d30
-`_Exit` | 20 (0x14) | Exported Function | 0x10021410 | 0x00021410
-`_execvpe` | 229 (0xe5) | Exported Function | 0x10051560 | 0x00051560
-`_dscale` | 206 (0xce) | Exported Function | 0x1004da10 | 0x0004da10
-`_dpoly` | 205 (0xcd) | Exported Function | 0x1004d800 | 0x0004d800
-`_dpcomp` | 204 (0xcc) | Exported Function | 0x1004cff0 | 0x0004cff0
-`_dnorm` | 203 (0xcb) | Exported Function | 0x1004d5b0 | 0x0004d5b0
-`_dlog` | 202 (0xca) | Exported Function | 0x1004d400 | 0x0004d400
-`_difftime64` | 201 (0xc9) | Exported Function | 0x1004d3b0 | 0x0004d3b0
-`_difftime32` | 200 (0xc8) | Exported Function | 0x1004d380 | 0x0004d380
-`_dexp` | 199 (0xc7) | Exported Function | 0x1004d070 | 0x0004d070
-`_dclass` | 198 (0xc6) | Exported Function | 0x1004cfd0 | 0x0004cfd0
-`_d_int` | 197 (0xc5) | Exported Function | 0x1004cc60 | 0x0004cc60
-`_cwait` | 196 (0xc4) | Exported Function | 0x1004cbc0 | 0x0004cbc0
-`_ctime64_s` | 195 (0xc3) | Exported Function | 0x1004c910 | 0x0004c910
-`_ctime64` | 194 (0xc2) | Exported Function | 0x1004c890 | 0x0004c890
-`_ctime32_s` | 193 (0xc1) | Exported Function | 0x1004c800 | 0x0004c800
-`_ctime32` | 192 (0xc0) | Exported Function | 0x1004c790 | 0x0004c790
-`_crt_debugger_hook` | 191 (0xbf) | Exported Function | 0x10095c10 | 0x00095c10
-`_crt_atexit` | 190 (0xbe) | Exported Function | 0x1004c6e0 | 0x0004c6e0
-`_dsign` | 207 (0xcf) | Exported Function | 0x1004d050 | 0x0004d050
-`_dsin` | 208 (0xd0) | Exported Function | 0x1004e230 | 0x0004e230
-`_dtest` | 209 (0xd1) | Exported Function | 0x1004cd70 | 0x0004cd70
-`_dunscale` | 210 (0xd2) | Exported Function | 0x1004e630 | 0x0004e630
-`_execvp` | 228 (0xe4) | Exported Function | 0x10051540 | 0x00051540
-`_execve` | 227 (0xe3) | Exported Function | 0x10050ef0 | 0x00050ef0
-`_execv` | 226 (0xe2) | Exported Function | 0x10050ed0 | 0x00050ed0
-`_execute_onexit_table` | 225 (0xe1) | Exported Function | 0x1004c700 | 0x0004c700
-`_execlpe` | 224 (0xe0) | Exported Function | 0x100503c0 | 0x000503c0
-`_execlp` | 223 (0xdf) | Exported Function | 0x100503a0 | 0x000503a0
-`_execle` | 222 (0xde) | Exported Function | 0x10050100 | 0x00050100
-`_execl` | 221 (0xdd) | Exported Function | 0x100500e0 | 0x000500e0
-`_exit` | 230 (0xe6) | Exported Function | 0x10021410 | 0x00021410
-`_except1` | 220 (0xdc) | Exported Function | 0x1004f7a0 | 0x0004f7a0
-`_eof` | 218 (0xda) | Exported Function | 0x1004f6e0 | 0x0004f6e0
-`_endthreadex` | 217 (0xd9) | Exported Function | 0x10048f60 | 0x00048f60
-`_endthread` | 216 (0xd8) | Exported Function | 0x10048f50 | 0x00048f50
-`_ecvt_s` | 215 (0xd7) | Exported Function | 0x1004f370 | 0x0004f370
-`_ecvt` | 214 (0xd6) | Exported Function | 0x1004f320 | 0x0004f320
-`_dupenv_s` | 213 (0xd5) | Exported Function | 0x1004f1f0 | 0x0004f1f0
-`_dup2` | 212 (0xd4) | Exported Function | 0x1004ead0 | 0x0004ead0
-`_dup` | 211 (0xd3) | Exported Function | 0x1004e8d0 | 0x0004e8d0
-`_errno` | 219 (0xdb) | Exported Function | 0x1002f7a0 | 0x0002f7a0
-`_crt_at_quick_exit` | 189 (0xbd) | Exported Function | 0x1004c6c0 | 0x0004c6c0
-`_fpieee_flt` | 269 (0x10d) | Exported Function | 0x10055010 | 0x00055010
-`_fputc_nolock` | 271 (0x10f) | Exported Function | 0x10055710 | 0x00055710
-`_getdllprocaddr` | 330 (0x14a) | Exported Function | 0x1005a920 | 0x0005a920
-`_getdiskfree` | 329 (0x149) | Exported Function | 0x1005a850 | 0x0005a850
-`_getdcwd` | 328 (0x148) | Exported Function | 0x1005a7f0 | 0x0005a7f0
-`_Getdays` | 24 (0x18) | Exported Function | 0x100217e0 | 0x000217e0
-`_getcwd` | 327 (0x147) | Exported Function | 0x1005a7d0 | 0x0005a7d0
-`_getche_nolock` | 326 (0x146) | Exported Function | 0x1005a0f0 | 0x0005a0f0
-`_getche` | 325 (0x145) | Exported Function | 0x1005a0a0 | 0x0005a0a0
-`_getch_nolock` | 324 (0x144) | Exported Function | 0x10059fc0 | 0x00059fc0
-`_getch` | 323 (0x143) | Exported Function | 0x10059f70 | 0x00059f70
-`_getc_nolock` | 322 (0x142) | Exported Function | 0x100533a0 | 0x000533a0
-`_get_wpgmptr` | 321 (0x141) | Exported Function | 0x100347c0 | 0x000347c0
-`_get_wide_winmain_command_line` | 320 (0x140) | Exported Function | 0x10059910 | 0x00059910
-`_get_tzname` | 319 (0x13f) | Exported Function | 0x1002f660 | 0x0002f660
-`_get_timezone` | 318 (0x13e) | Exported Function | 0x1002f630 | 0x0002f630
-`_get_thread_local_invalid_parameter_handler` | 317 (0x13d) | Exported Function | 0x10059760 | 0x00059760
-`_get_terminate` | 316 (0x13c) | Exported Function | 0x10059ef0 | 0x00059ef0
-`_get_stream_buffer_pointers` | 315 (0x13b) | Exported Function | 0x10024190 | 0x00024190
-`_getdrive` | 331 (0x14b) | Exported Function | 0x10049bb0 | 0x00049bb0
-`_getdrives` | 332 (0x14c) | Exported Function | 0x1005a960 | 0x0005a960
-`_getmaxstdio` | 333 (0x14d) | Exported Function | 0x1005aae0 | 0x0005aae0
-`_getmbcp` | 334 (0x14e) | Exported Function | 0x10035380 | 0x00035380
-`_heapmin` | 350 (0x15e) | Exported Function | 0x1005b710 | 0x0005b710
-`_heapchk` | 349 (0x15d) | Exported Function | 0x1005b6f0 | 0x0005b6f0
-`_gmtime64_s` | 348 (0x15c) | Exported Function | 0x1005b6e0 | 0x0005b6e0
-`_gmtime64` | 347 (0x15b) | Exported Function | 0x1005b6b0 | 0x0005b6b0
-`_gmtime32_s` | 346 (0x15a) | Exported Function | 0x1005b6a0 | 0x0005b6a0
-`_gmtime32` | 345 (0x159) | Exported Function | 0x1005b670 | 0x0005b670
-`_getws_s` | 344 (0x158) | Exported Function | 0x1005b260 | 0x0005b260
-`_getws` | 343 (0x157) | Exported Function | 0x1005b240 | 0x0005b240
-`_get_printf_count_output` | 314 (0x13a) | Exported Function | 0x10059ea0 | 0x00059ea0
-`_getwche_nolock` | 342 (0x156) | Exported Function | 0x1005aeb0 | 0x0005aeb0
-`_getwch_nolock` | 340 (0x154) | Exported Function | 0x1005ad70 | 0x0005ad70
-`_getwch` | 339 (0x153) | Exported Function | 0x1005ad20 | 0x0005ad20
-`_getwc_nolock` | 338 (0x152) | Exported Function | 0x10053670 | 0x00053670
-`_getw` | 337 (0x151) | Exported Function | 0x1005ac70 | 0x0005ac70
-`_Gettnames` | 26 (0x1a) | Exported Function | 0x10021a20 | 0x00021a20
-`_getsystime` | 336 (0x150) | Exported Function | 0x1005ab50 | 0x0005ab50
-`_getpid` | 335 (0x14f) | Exported Function | 0x1005ab40 | 0x0005ab40
-`_Getmonths` | 25 (0x19) | Exported Function | 0x10021900 | 0x00021900
-`_getwche` | 341 (0x155) | Exported Function | 0x1005ae60 | 0x0005ae60
-`_fpreset` | 270 (0x10e) | Exported Function | 0x1002f2f0 | 0x0002f2f0
-`_get_pgmptr` | 313 (0x139) | Exported Function | 0x10034780 | 0x00034780
-`_get_narrow_winmain_command_line` | 311 (0x137) | Exported Function | 0x100598b0 | 0x000598b0
-`_ftelli64` | 288 (0x120) | Exported Function | 0x100583a0 | 0x000583a0
-`_ftell_nolock` | 287 (0x11f) | Exported Function | 0x10058390 | 0x00058390
-`_fstat64i32` | 286 (0x11e) | Exported Function | 0x10057b70 | 0x00057b70
-`_fstat64` | 285 (0x11d) | Exported Function | 0x10057b60 | 0x00057b60
-`_fstat32i64` | 284 (0x11c) | Exported Function | 0x10057b50 | 0x00057b50
-`_fstat32` | 283 (0x11b) | Exported Function | 0x10057b40 | 0x00057b40
-`_fsopen` | 282 (0x11a) | Exported Function | 0x10056290 | 0x00056290
-`_fseeki64_nolock` | 281 (0x119) | Exported Function | 0x100560d0 | 0x000560d0
-`_fseeki64` | 280 (0x118) | Exported Function | 0x100560b0 | 0x000560b0
-`_fseek_nolock` | 279 (0x117) | Exported Function | 0x10056090 | 0x00056090
-`_free_locale` | 278 (0x116) | Exported Function | 0x1004afe0 | 0x0004afe0
-`_free_base` | 277 (0x115) | Exported Function | 0x10055d90 | 0x00055d90
-`_fread_nolock_s` | 276 (0x114) | Exported Function | 0x10055af0 | 0x00055af0
-`_fread_nolock` | 275 (0x113) | Exported Function | 0x10055ad0 | 0x00055ad0
-`_fputwchar` | 274 (0x112) | Exported Function | 0x10055a00 | 0x00055a00
-`_fputwc_nolock` | 273 (0x111) | Exported Function | 0x100558d0 | 0x000558d0
-`_fputchar` | 272 (0x110) | Exported Function | 0x10055740 | 0x00055740
-`_ftelli64_nolock` | 289 (0x121) | Exported Function | 0x100583b0 | 0x000583b0
-`_ftime32` | 290 (0x122) | Exported Function | 0x10058670 | 0x00058670
-`_ftime32_s` | 291 (0x123) | Exported Function | 0x10058680 | 0x00058680
-`_ftime64` | 292 (0x124) | Exported Function | 0x10058690 | 0x00058690
-`_get_invalid_parameter_handler` | 310 (0x136) | Exported Function | 0x10059740 | 0x00059740
-`_get_initial_wide_environment` | 309 (0x135) | Exported Function | 0x10034d70 | 0x00034d70
-`_get_initial_narrow_environment` | 308 (0x134) | Exported Function | 0x10034d50 | 0x00034d50
-`_get_heap_handle` | 307 (0x133) | Exported Function | 0x100595f0 | 0x000595f0
-`_get_fmode` | 306 (0x132) | Exported Function | 0x10059370 | 0x00059370
-`_get_errno` | 305 (0x131) | Exported Function | 0x1002f7f0 | 0x0002f7f0
-`_get_dstbias` | 304 (0x130) | Exported Function | 0x1002f600 | 0x0002f600
-`_get_doserrno` | 303 (0x12f) | Exported Function | 0x1002f7c0 | 0x0002f7c0
-`_get_osfhandle` | 312 (0x138) | Exported Function | 0x10059d20 | 0x00059d20
-`_get_daylight` | 302 (0x12e) | Exported Function | 0x1002f5d0 | 0x0002f5d0
-`_gcvt_s` | 300 (0x12c) | Exported Function | 0x100591f0 | 0x000591f0
-`_gcvt` | 299 (0x12b) | Exported Function | 0x100591c0 | 0x000591c0
-`_fwrite_nolock` | 298 (0x12a) | Exported Function | 0x10058fe0 | 0x00058fe0
-`_futime64` | 297 (0x129) | Exported Function | 0x10058ed0 | 0x00058ed0
-`_futime32` | 296 (0x128) | Exported Function | 0x10058ec0 | 0x00058ec0
-`_fullpath` | 295 (0x127) | Exported Function | 0x10058890 | 0x00058890
-`_ftol` | 294 (0x126) | Exported Function | 0x100586b0 | 0x000586b0
-`_ftime64_s` | 293 (0x125) | Exported Function | 0x100586a0 | 0x000586a0
-`_get_current_locale` | 301 (0x12d) | Exported Function | 0x1004b0a0 | 0x0004b0a0
-`_create_locale` | 188 (0xbc) | Exported Function | 0x1004ac00 | 0x0004ac00
-`_creat` | 187 (0xbb) | Exported Function | 0x1004c2f0 | 0x0004c2f0
-`_cputws` | 186 (0xba) | Exported Function | 0x1004c210 | 0x0004c210
-`__pctype_func` | 95 (0x5f) | Exported Function | 0x10035660 | 0x00035660
-`__p__wpgmptr` | 94 (0x5e) | Exported Function | 0x10034770 | 0x00034770
-`__p__wenviron` | 93 (0x5d) | Exported Function | 0x10034d40 | 0x00034d40
-`__p__wcmdln` | 92 (0x5c) | Exported Function | 0x10034760 | 0x00034760
-`__p__pgmptr` | 91 (0x5b) | Exported Function | 0x10034750 | 0x00034750
-`__p__mbctype` | 90 (0x5a) | Exported Function | 0x10035370 | 0x00035370
-`__p__mbcasemap` | 89 (0x59) | Exported Function | 0x10035360 | 0x00035360
-`__p__fmode` | 88 (0x58) | Exported Function | 0x10034db0 | 0x00034db0
-`__p__environ` | 87 (0x57) | Exported Function | 0x10034d30 | 0x00034d30
-`__p__commode` | 86 (0x56) | Exported Function | 0x10034800 | 0x00034800
-`__p__acmdln` | 85 (0x55) | Exported Function | 0x10034740 | 0x00034740
-`__p___wargv` | 84 (0x54) | Exported Function | 0x10034730 | 0x00034730
-`__p___argv` | 83 (0x53) | Exported Function | 0x10034720 | 0x00034720
-`__p___argc` | 82 (0x52) | Exported Function | 0x10034710 | 0x00034710
-`__libm_sse2_tanf` | 81 (0x51) | Exported Function | 0x10034550 | 0x00034550
-`__libm_sse2_tan` | 80 (0x50) | Exported Function | 0x10034300 | 0x00034300
-`__libm_sse2_sinf` | 79 (0x4f) | Exported Function | 0x100341b0 | 0x000341b0
-`__pwctype_func` | 96 (0x60) | Exported Function | 0x10035690 | 0x00035690
-`__pxcptinfoptrs` | 97 (0x61) | Exported Function | 0x1002fb00 | 0x0002fb00
-`__setusermatherr` | 98 (0x62) | Exported Function | 0x10035720 | 0x00035720
-`__stdio_common_vfprintf` | 99 (0x63) | Exported Function | 0x1003bf60 | 0x0003bf60
-`__strncnt` | 117 (0x75) | Exported Function | 0x10043050 | 0x00043050
-`__stdio_common_vswscanf` | 116 (0x74) | Exported Function | 0x10043020 | 0x00043020
-`__stdio_common_vswprintf_s` | 115 (0x73) | Exported Function | 0x1003c3b0 | 0x0003c3b0
-`__stdio_common_vswprintf_p` | 114 (0x72) | Exported Function | 0x1003c380 | 0x0003c380
-`__stdio_common_vswprintf` | 113 (0x71) | Exported Function | 0x1003c350 | 0x0003c350
-`__stdio_common_vsscanf` | 112 (0x70) | Exported Function | 0x10042ff0 | 0x00042ff0
-`__stdio_common_vsprintf_s` | 111 (0x6f) | Exported Function | 0x1003c320 | 0x0003c320
-`__stdio_common_vsprintf_p` | 110 (0x6e) | Exported Function | 0x1003c2f0 | 0x0003c2f0
-`__libm_sse2_sin` | 78 (0x4e) | Exported Function | 0x10034000 | 0x00034000
-`__stdio_common_vsprintf` | 109 (0x6d) | Exported Function | 0x1003c2c0 | 0x0003c2c0
-`__stdio_common_vsnprintf_s` | 107 (0x6b) | Exported Function | 0x1003c260 | 0x0003c260
-`__stdio_common_vfwscanf` | 106 (0x6a) | Exported Function | 0x10042f70 | 0x00042f70
-`__stdio_common_vfwprintf_s` | 105 (0x69) | Exported Function | 0x1003c1e0 | 0x0003c1e0
-`__stdio_common_vfwprintf_p` | 104 (0x68) | Exported Function | 0x1003c160 | 0x0003c160
-`__stdio_common_vfwprintf` | 103 (0x67) | Exported Function | 0x1003c0e0 | 0x0003c0e0
-`__stdio_common_vfscanf` | 102 (0x66) | Exported Function | 0x10042ef0 | 0x00042ef0
-`__stdio_common_vfprintf_s` | 101 (0x65) | Exported Function | 0x1003c060 | 0x0003c060
-`__stdio_common_vfprintf_p` | 100 (0x64) | Exported Function | 0x1003bfe0 | 0x0003bfe0
-`__stdio_common_vsnwprintf_s` | 108 (0x6c) | Exported Function | 0x1003c290 | 0x0003c290
-`__sys_errlist` | 118 (0x76) | Exported Function | 0x10043070 | 0x00043070
-`__libm_sse2_powf` | 77 (0x4d) | Exported Function | 0x10033940 | 0x00033940
-`__libm_sse2_logf` | 75 (0x4b) | Exported Function | 0x10032d40 | 0x00032d40
-`__dstbias` | 52 (0x34) | Exported Function | 0x1002f5a0 | 0x0002f5a0
-`__doserrno` | 51 (0x33) | Exported Function | 0x1002f780 | 0x0002f780
-`__daylight` | 50 (0x32) | Exported Function | 0x1002f590 | 0x0002f590
-`__control87_2` | 49 (0x31) | Exported Function | 0x1002eac0 | 0x0002eac0
-`__conio_common_vcwscanf` | 48 (0x30) | Exported Function | 0x1002ea00 | 0x0002ea00
-`__conio_common_vcwprintf_s` | 47 (0x2f) | Exported Function | 0x10027780 | 0x00027780
-`__conio_common_vcwprintf_p` | 46 (0x2e) | Exported Function | 0x10027760 | 0x00027760
-`__conio_common_vcwprintf` | 45 (0x2d) | Exported Function | 0x100276d0 | 0x000276d0
-`__conio_common_vcscanf` | 44 (0x2c) | Exported Function | 0x1002e990 | 0x0002e990
-`__conio_common_vcprintf_s` | 43 (0x2b) | Exported Function | 0x10027640 | 0x00027640
-`__conio_common_vcprintf_p` | 42 (0x2a) | Exported Function | 0x10027620 | 0x00027620
-`__conio_common_vcprintf` | 41 (0x29) | Exported Function | 0x10027590 | 0x00027590
-`__acrt_iob_func` | 40 (0x28) | Exported Function | 0x10024130 | 0x00024130
-`___mb_cur_max_l_func` | 39 (0x27) | Exported Function | 0x10023ca0 | 0x00023ca0
-`___mb_cur_max_func` | 38 (0x26) | Exported Function | 0x10023c70 | 0x00023c70
-`___lc_locale_name_func` | 37 (0x25) | Exported Function | 0x10023c40 | 0x00023c40
-`___lc_collate_cp_func` | 36 (0x24) | Exported Function | 0x10023c10 | 0x00023c10
-`__fpe_flt_rounds` | 53 (0x35) | Exported Function | 0x1002f880 | 0x0002f880
-`__fpecode` | 54 (0x36) | Exported Function | 0x1002faf0 | 0x0002faf0
-`__initialize_lconv_for_unsigned_char` | 55 (0x37) | Exported Function | 0x1002fee0 | 0x0002fee0
-`__isascii` | 56 (0x38) | Exported Function | 0x1002ff10 | 0x0002ff10
-`__libm_sse2_log10f` | 74 (0x4a) | Exported Function | 0x10032bc0 | 0x00032bc0
-`__libm_sse2_log10` | 73 (0x49) | Exported Function | 0x10032980 | 0x00032980
-`__libm_sse2_log` | 72 (0x48) | Exported Function | 0x10032750 | 0x00032750
-`__libm_sse2_expf` | 71 (0x47) | Exported Function | 0x100325f0 | 0x000325f0
-`__libm_sse2_exp` | 70 (0x46) | Exported Function | 0x100323d0 | 0x000323d0
-`__libm_sse2_cosf` | 69 (0x45) | Exported Function | 0x10032280 | 0x00032280
-`__libm_sse2_cos` | 68 (0x44) | Exported Function | 0x100320d0 | 0x000320d0
-`__libm_sse2_atanf` | 67 (0x43) | Exported Function | 0x10031f30 | 0x00031f30
-`__libm_sse2_pow` | 76 (0x4c) | Exported Function | 0x10032ec0 | 0x00032ec0
-`__libm_sse2_atan2` | 66 (0x42) | Exported Function | 0x10031a10 | 0x00031a10
-`__libm_sse2_asinf` | 64 (0x40) | Exported Function | 0x10031430 | 0x00031430
-`__libm_sse2_asin` | 63 (0x3f) | Exported Function | 0x10030fe0 | 0x00030fe0
-`__libm_sse2_acosf` | 62 (0x3e) | Exported Function | 0x10030c00 | 0x00030c00
-`__libm_sse2_acos` | 61 (0x3d) | Exported Function | 0x10030750 | 0x00030750
-`__iswcsymf` | 60 (0x3c) | Exported Function | 0x10030580 | 0x00030580
-`__iswcsym` | 59 (0x3b) | Exported Function | 0x10030550 | 0x00030550
-`__iscsymf` | 58 (0x3a) | Exported Function | 0x1002ff60 | 0x0002ff60
-`__iscsym` | 57 (0x39) | Exported Function | 0x1002ff30 | 0x0002ff30
-`__libm_sse2_atan` | 65 (0x41) | Exported Function | 0x100317f0 | 0x000317f0
-`__sys_nerr` | 119 (0x77) | Exported Function | 0x10043080 | 0x00043080
-`__threadhandle` | 120 (0x78) | Exported Function | 0x10043690 | 0x00043690
-`__threadid` | 121 (0x79) | Exported Function | 0x100436a0 | 0x000436a0
-`_CIfmod` | 8 (0x8) | Exported Function | 0x1002067a | 0x0002067a
-`_CIexp` | 7 (0x7) | Exported Function | 0x1002061c | 0x0002061c
-`_CIcosh` | 6 (0x6) | Exported Function | 0x100205d2 | 0x000205d2
-`_CIcos` | 5 (0x5) | Exported Function | 0x100204c0 | 0x000204c0
-`_CIatan2` | 4 (0x4) | Exported Function | 0x1002046a | 0x0002046a
-`_CIatan` | 3 (0x3) | Exported Function | 0x10020380 | 0x00020380
-`_CIasin` | 2 (0x2) | Exported Function | 0x10020230 | 0x00020230
-`_CIacos` | 1 (0x1) | Exported Function | 0x100200e0 | 0x000200e0
-`_chsize_s` | 173 (0xad) | Exported Function | 0x1004a200 | 0x0004a200
-`_chsize` | 172 (0xac) | Exported Function | 0x1004a050 | 0x0004a050
-`_chmod` | 171 (0xab) | Exported Function | 0x10049f40 | 0x00049f40
-`_chgsignf` | 170 (0xaa) | Exported Function | 0x10049c90 | 0x00049c90
-`_chgsign` | 169 (0xa9) | Exported Function | 0x10049c60 | 0x00049c60
-`_chdrive` | 168 (0xa8) | Exported Function | 0x10049b30 | 0x00049b30
-`_chdir` | 167 (0xa7) | Exported Function | 0x10049ae0 | 0x00049ae0
-`_cgetws_s` | 166 (0xa6) | Exported Function | 0x10049690 | 0x00049690
-`_cgetws` | 165 (0xa5) | Exported Function | 0x10049630 | 0x00049630
-`_CIlog` | 9 (0x9) | Exported Function | 0x100206e0 | 0x000206e0
-`_CIlog10` | 10 (0xa) | Exported Function | 0x10020830 | 0x00020830
-`_CIpow` | 11 (0xb) | Exported Function | 0x10020980 | 0x00020980
-`_CIsin` | 12 (0xc) | Exported Function | 0x10020c10 | 0x00020c10
-`_cputs` | 185 (0xb9) | Exported Function | 0x1004c180 | 0x0004c180
-`_copysignf` | 184 (0xb8) | Exported Function | 0x10049cf0 | 0x00049cf0
-`_copysign` | 183 (0xb7) | Exported Function | 0x10049cc0 | 0x00049cc0
-`_controlfp_s` | 182 (0xb6) | Exported Function | 0x1004c120 | 0x0004c120
-`_controlfp` | 181 (0xb5) | Exported Function | 0x1002f2d0 | 0x0002f2d0
-`_control87` | 180 (0xb4) | Exported Function | 0x1002efc0 | 0x0002efc0
-`_configure_wide_argv` | 179 (0xb3) | Exported Function | 0x1004c110 | 0x0004c110
-`_configure_narrow_argv` | 178 (0xb2) | Exported Function | 0x1004c100 | 0x0004c100
-`_cgets_s` | 164 (0xa4) | Exported Function | 0x10049520 | 0x00049520
-`_configthreadlocale` | 177 (0xb1) | Exported Function | 0x1004ab60 | 0x0004ab60
-`_Cmulcr` | 19 (0x13) | Exported Function | 0x10020fe0 | 0x00020fe0
-`_Cmulcc` | 18 (0x12) | Exported Function | 0x10021c80 | 0x00021c80
-`_close` | 175 (0xaf) | Exported Function | 0x1004a350 | 0x0004a350
-`_clearfp` | 174 (0xae) | Exported Function | 0x1002eee0 | 0x0002eee0
-`_CItanh` | 16 (0x10) | Exported Function | 0x100205d9 | 0x000205d9
-`_CItan` | 15 (0xf) | Exported Function | 0x10020e00 | 0x00020e00
-`_CIsqrt` | 14 (0xe) | Exported Function | 0x10020d00 | 0x00020d00
-`_CIsinh` | 13 (0xd) | Exported Function | 0x100205c8 | 0x000205c8
-`_commit` | 176 (0xb0) | Exported Function | 0x1004a530 | 0x0004a530
-`_cgets` | 163 (0xa3) | Exported Function | 0x100494c0 | 0x000494c0
-`_cexit` | 162 (0xa2) | Exported Function | 0x10021450 | 0x00021450
-`_Cbuild` | 17 (0x11) | Exported Function | 0x10020ef0 | 0x00020ef0
-`_assert` | 139 (0x8b) | Exported Function | 0x10044cf0 | 0x00044cf0
-`_aligned_recalloc` | 138 (0x8a) | Exported Function | 0x10043f90 | 0x00043f90
-`_aligned_realloc` | 137 (0x89) | Exported Function | 0x10043f60 | 0x00043f60
-`_aligned_offset_recalloc` | 136 (0x88) | Exported Function | 0x10043ed0 | 0x00043ed0
-`_aligned_offset_realloc` | 135 (0x87) | Exported Function | 0x10043d40 | 0x00043d40
-`_aligned_offset_malloc` | 134 (0x86) | Exported Function | 0x10043ca0 | 0x00043ca0
-`_aligned_msize` | 133 (0x85) | Exported Function | 0x10043c40 | 0x00043c40
-`_aligned_malloc` | 132 (0x84) | Exported Function | 0x10043c10 | 0x00043c10
-`_atodbl` | 140 (0x8c) | Exported Function | 0x10046900 | 0x00046900
-`_aligned_free` | 131 (0x83) | Exported Function | 0x10043bf0 | 0x00043bf0
-`_access` | 129 (0x81) | Exported Function | 0x10043b70 | 0x00043b70
-`_abs64` | 128 (0x80) | Exported Function | 0x1007c660 | 0x0007c660
-`__wcsncnt` | 127 (0x7f) | Exported Function | 0x10043b40 | 0x00043b40
-`__wcserror_s` | 126 (0x7e) | Exported Function | 0x10043af0 | 0x00043af0
-`__wcserror` | 125 (0x7d) | Exported Function | 0x10043ae0 | 0x00043ae0
-`__tzname` | 124 (0x7c) | Exported Function | 0x1002f5c0 | 0x0002f5c0
-`__toascii` | 123 (0x7b) | Exported Function | 0x1002ff80 | 0x0002ff80
-`__timezone` | 122 (0x7a) | Exported Function | 0x1002f5b0 | 0x0002f5b0
-`_access_s` | 130 (0x82) | Exported Function | 0x10043b90 | 0x00043b90
-`_heapwalk` | 351 (0x15f) | Exported Function | 0x1005b790 | 0x0005b790
-`_atodbl_l` | 141 (0x8d) | Exported Function | 0x10046920 | 0x00046920
-`_atoflt` | 143 (0x8f) | Exported Function | 0x10046940 | 0x00046940
-`_calloc_base` | 161 (0xa1) | Exported Function | 0x10049460 | 0x00049460
-`_callnewh` | 160 (0xa0) | Exported Function | 0x10049350 | 0x00049350
-`_cabs` | 159 (0x9f) | Exported Function | 0x10049060 | 0x00049060
-`_c_exit` | 158 (0x9e) | Exported Function | 0x10021440 | 0x00021440
-`_byteswap_ushort` | 157 (0x9d) | Exported Function | 0x10049040 | 0x00049040
-`_byteswap_ulong` | 156 (0x9c) | Exported Function | 0x10049010 | 0x00049010
-`_byteswap_uint64` | 155 (0x9b) | Exported Function | 0x10048f70 | 0x00048f70
-`_beginthreadex` | 154 (0x9a) | Exported Function | 0x10048ec0 | 0x00048ec0
-`_atof_l` | 142 (0x8e) | Exported Function | 0x10046930 | 0x00046930
-`_beginthread` | 153 (0x99) | Exported Function | 0x10048e30 | 0x00048e30
-`_atoll_l` | 151 (0x97) | Exported Function | 0x10047bd0 | 0x00047bd0
-`_atoldbl_l` | 150 (0x96) | Exported Function | 0x10048b80 | 0x00048b80
-`_atoldbl` | 149 (0x95) | Exported Function | 0x10048b60 | 0x00048b60
-`_atol_l` | 148 (0x94) | Exported Function | 0x10047c00 | 0x00047c00
-`_atoi_l` | 147 (0x93) | Exported Function | 0x10047c00 | 0x00047c00
-`_atoi64_l` | 146 (0x92) | Exported Function | 0x10047bd0 | 0x00047bd0
-`_atoi64` | 145 (0x91) | Exported Function | 0x10047ba0 | 0x00047ba0
-`_atoflt_l` | 144 (0x90) | Exported Function | 0x10046960 | 0x00046960
-`_beep` | 152 (0x98) | Exported Function | 0x10048c10 | 0x00048c10
-`wmemcpy_s` | 1377 (0x561) | Exported Function | 0x10083380 | 0x00083380
-`_hypot` | 352 (0x160) | Exported Function | 0x10049090 | 0x00049090
-`_i64toa` | 354 (0x162) | Exported Function | 0x1005bd50 | 0x0005bd50
-`_mbsnbicmp_l` | 584 (0x248) | Exported Function | 0x100641e0 | 0x000641e0
-`_mbsnbicmp` | 583 (0x247) | Exported Function | 0x100641c0 | 0x000641c0
-`_mbsnbcpy_s_l` | 582 (0x246) | Exported Function | 0x10064010 | 0x00064010
-`_mbsnbcpy_s` | 581 (0x245) | Exported Function | 0x10063ff0 | 0x00063ff0
-`_mbsnbcpy_l` | 580 (0x244) | Exported Function | 0x10063f20 | 0x00063f20
-`_mbsnbcpy` | 579 (0x243) | Exported Function | 0x10063f00 | 0x00063f00
-`_mbsnbcoll_l` | 578 (0x242) | Exported Function | 0x10063e20 | 0x00063e20
-`_mbsnbcoll` | 577 (0x241) | Exported Function | 0x10063e00 | 0x00063e00
-`_mbsnbcnt_l` | 576 (0x240) | Exported Function | 0x10063d80 | 0x00063d80
-`_mbsnbcnt` | 575 (0x23f) | Exported Function | 0x10063d60 | 0x00063d60
-`_mbsnbcmp_l` | 574 (0x23e) | Exported Function | 0x10063c40 | 0x00063c40
-`_mbsnbcmp` | 573 (0x23d) | Exported Function | 0x10063c20 | 0x00063c20
-`_mbsnbcat_s_l` | 572 (0x23c) | Exported Function | 0x100639f0 | 0x000639f0
-`_mbsnbcat_s` | 571 (0x23b) | Exported Function | 0x100639d0 | 0x000639d0
-`_mbsnbcat_l` | 570 (0x23a) | Exported Function | 0x100638a0 | 0x000638a0
-`_mbsnbcat` | 569 (0x239) | Exported Function | 0x10063880 | 0x00063880
-`_mbslwr_s_l` | 568 (0x238) | Exported Function | 0x10063780 | 0x00063780
-`_mbsnbicoll` | 585 (0x249) | Exported Function | 0x100643b0 | 0x000643b0
-`_mbsnbicoll_l` | 586 (0x24a) | Exported Function | 0x100643d0 | 0x000643d0
-`_mbsnbset` | 587 (0x24b) | Exported Function | 0x10064490 | 0x00064490
-`_mbsnbset_l` | 588 (0x24c) | Exported Function | 0x100644b0 | 0x000644b0
-`_mbsnextc_l` | 606 (0x25e) | Exported Function | 0x10065110 | 0x00065110
-`_mbsnextc` | 605 (0x25d) | Exported Function | 0x100650f0 | 0x000650f0
-`_mbsncpy_s_l` | 604 (0x25c) | Exported Function | 0x10064f00 | 0x00064f00
-`_mbsncpy_s` | 603 (0x25b) | Exported Function | 0x10064ee0 | 0x00064ee0
-`_mbsncpy_l` | 602 (0x25a) | Exported Function | 0x10064e10 | 0x00064e10
-`_mbsncpy` | 601 (0x259) | Exported Function | 0x10064df0 | 0x00064df0
-`_mbsncoll_l` | 600 (0x258) | Exported Function | 0x10064d00 | 0x00064d00
-`_mbsncoll` | 599 (0x257) | Exported Function | 0x10064ce0 | 0x00064ce0
-`_mbslwr_s` | 567 (0x237) | Exported Function | 0x10063760 | 0x00063760
-`_mbsncmp_l` | 598 (0x256) | Exported Function | 0x10064be0 | 0x00064be0
-`_mbsnccnt_l` | 596 (0x254) | Exported Function | 0x10064b40 | 0x00064b40
-`_mbsnccnt` | 595 (0x253) | Exported Function | 0x10064b20 | 0x00064b20
-`_mbsncat_s_l` | 594 (0x252) | Exported Function | 0x10064910 | 0x00064910
-`_mbsncat_s` | 593 (0x251) | Exported Function | 0x100648f0 | 0x000648f0
-`_mbsncat_l` | 592 (0x250) | Exported Function | 0x100647e0 | 0x000647e0
-`_mbsncat` | 591 (0x24f) | Exported Function | 0x100647c0 | 0x000647c0
-`_mbsnbset_s_l` | 590 (0x24e) | Exported Function | 0x100645a0 | 0x000645a0
-`_mbsnbset_s` | 589 (0x24d) | Exported Function | 0x10064580 | 0x00064580
-`_mbsncmp` | 597 (0x255) | Exported Function | 0x10064bc0 | 0x00064bc0
-`_mbsnicmp` | 607 (0x25f) | Exported Function | 0x10065180 | 0x00065180
-`_mbslwr_l` | 566 (0x236) | Exported Function | 0x10063730 | 0x00063730
-`_mbslen_l` | 564 (0x234) | Exported Function | 0x10063690 | 0x00063690
-`_mbsbtype_l` | 541 (0x21d) | Exported Function | 0x10062bd0 | 0x00062bd0
-`_mbsbtype` | 540 (0x21c) | Exported Function | 0x10062bb0 | 0x00062bb0
-`_mblen_l` | 539 (0x21b) | Exported Function | 0x10062ac0 | 0x00062ac0
-`_mbctoupper_l` | 538 (0x21a) | Exported Function | 0x10062a20 | 0x00062a20
-`_mbctoupper` | 537 (0x219) | Exported Function | 0x10062a00 | 0x00062a00
-`_mbctombb_l` | 536 (0x218) | Exported Function | 0x10062410 | 0x00062410
-`_mbctombb` | 535 (0x217) | Exported Function | 0x100623f0 | 0x000623f0
-`_mbctolower_l` | 534 (0x216) | Exported Function | 0x10062960 | 0x00062960
-`_mbctolower` | 533 (0x215) | Exported Function | 0x10062940 | 0x00062940
-`_mbctokata_l` | 532 (0x214) | Exported Function | 0x10062910 | 0x00062910
-`_mbctokata` | 531 (0x213) | Exported Function | 0x100628f0 | 0x000628f0
-`_mbctohira_l` | 530 (0x212) | Exported Function | 0x100628b0 | 0x000628b0
-`_mbctohira` | 529 (0x211) | Exported Function | 0x10062890 | 0x00062890
-`_mbclen_l` | 528 (0x210) | Exported Function | 0x10062860 | 0x00062860
-`_mbclen` | 527 (0x20f) | Exported Function | 0x10062830 | 0x00062830
-`_mbcjmstojis_l` | 526 (0x20e) | Exported Function | 0x10062760 | 0x00062760
-`_mbcjmstojis` | 525 (0x20d) | Exported Function | 0x10062740 | 0x00062740
-`_mbscat_s` | 542 (0x21e) | Exported Function | 0x10062c70 | 0x00062c70
-`_mbscat_s_l` | 543 (0x21f) | Exported Function | 0x10062c90 | 0x00062c90
-`_mbschr` | 544 (0x220) | Exported Function | 0x10062e00 | 0x00062e00
-`_mbschr_l` | 545 (0x221) | Exported Function | 0x10062e20 | 0x00062e20
-`_mbslen` | 563 (0x233) | Exported Function | 0x10063670 | 0x00063670
-`_mbsinc_l` | 562 (0x232) | Exported Function | 0x10063640 | 0x00063640
-`_mbsinc` | 561 (0x231) | Exported Function | 0x10063600 | 0x00063600
-`_mbsicoll_l` | 560 (0x230) | Exported Function | 0x10063560 | 0x00063560
-`_mbsicoll` | 559 (0x22f) | Exported Function | 0x10063540 | 0x00063540
-`_mbsicmp_l` | 558 (0x22e) | Exported Function | 0x100633a0 | 0x000633a0
-`_mbsicmp` | 557 (0x22d) | Exported Function | 0x10063380 | 0x00063380
-`_mbsdup` | 556 (0x22c) | Exported Function | 0x1006c160 | 0x0006c160
-`_mbslwr` | 565 (0x235) | Exported Function | 0x10063700 | 0x00063700
-`_mbsdec_l` | 555 (0x22b) | Exported Function | 0x100632f0 | 0x000632f0
-`_mbscspn_l` | 553 (0x229) | Exported Function | 0x10063200 | 0x00063200
-`_mbscspn` | 552 (0x228) | Exported Function | 0x100631e0 | 0x000631e0
-`_mbscpy_s_l` | 551 (0x227) | Exported Function | 0x100630d0 | 0x000630d0
-`_mbscpy_s` | 550 (0x226) | Exported Function | 0x100630b0 | 0x000630b0
-`_mbscoll_l` | 549 (0x225) | Exported Function | 0x10063010 | 0x00063010
-`_mbscoll` | 548 (0x224) | Exported Function | 0x10062ff0 | 0x00062ff0
-`_mbscmp_l` | 547 (0x223) | Exported Function | 0x10062ef0 | 0x00062ef0
-`_mbscmp` | 546 (0x222) | Exported Function | 0x10062ed0 | 0x00062ed0
-`_mbsdec` | 554 (0x22a) | Exported Function | 0x100632d0 | 0x000632d0
-`_mbcjistojms_l` | 524 (0x20c) | Exported Function | 0x100626a0 | 0x000626a0
-`_mbsnicmp_l` | 608 (0x260) | Exported Function | 0x100651a0 | 0x000651a0
-`_mbsnicoll_l` | 610 (0x262) | Exported Function | 0x10065360 | 0x00065360
-`_putenv` | 670 (0x29e) | Exported Function | 0x100698f0 | 0x000698f0
-`_putch_nolock` | 669 (0x29d) | Exported Function | 0x10069300 | 0x00069300
-`_putch` | 668 (0x29c) | Exported Function | 0x100692e0 | 0x000692e0
-`_putc_nolock` | 667 (0x29b) | Exported Function | 0x10055760 | 0x00055760
-`_popen` | 666 (0x29a) | Exported Function | 0x10068fb0 | 0x00068fb0
-`_pipe` | 665 (0x299) | Exported Function | 0x10068fd0 | 0x00068fd0
-`_pclose` | 664 (0x298) | Exported Function | 0x10068ed0 | 0x00068ed0
-`_open_osfhandle` | 663 (0x297) | Exported Function | 0x10059d90 | 0x00059d90
-`_open` | 662 (0x296) | Exported Function | 0x10067e80 | 0x00067e80
-`_nextafter` | 661 (0x295) | Exported Function | 0x10049f00 | 0x00049f00
-`_msize` | 660 (0x294) | Exported Function | 0x10067630 | 0x00067630
-`_mktime64` | 659 (0x293) | Exported Function | 0x10067340 | 0x00067340
-`_mktime32` | 658 (0x292) | Exported Function | 0x10067320 | 0x00067320
-`_mktemp_s` | 657 (0x291) | Exported Function | 0x100675c0 | 0x000675c0
-`_mktemp` | 656 (0x290) | Exported Function | 0x10067570 | 0x00067570
-`_mkgmtime64` | 655 (0x28f) | Exported Function | 0x10067300 | 0x00067300
-`_mkgmtime32` | 654 (0x28e) | Exported Function | 0x100672e0 | 0x000672e0
-`_putenv_s` | 671 (0x29f) | Exported Function | 0x10069910 | 0x00069910
-`_putw` | 672 (0x2a0) | Exported Function | 0x100699b0 | 0x000699b0
-`_putwc_nolock` | 673 (0x2a1) | Exported Function | 0x10055a20 | 0x00055a20
-`_putwch` | 674 (0x2a2) | Exported Function | 0x10069ad0 | 0x00069ad0
-`_scalb` | 692 (0x2b4) | Exported Function | 0x10049f20 | 0x00049f20
-`_rotr64` | 691 (0x2b3) | Exported Function | 0x10061a50 | 0x00061a50
-`_rotr` | 690 (0x2b2) | Exported Function | 0x10061a30 | 0x00061a30
-`_rotl64` | 689 (0x2b1) | Exported Function | 0x100619f0 | 0x000619f0
-`_rotl` | 688 (0x2b0) | Exported Function | 0x100619d0 | 0x000619d0
-`_rmtmp` | 687 (0x2af) | Exported Function | 0x1006a8b0 | 0x0006a8b0
-`_rmdir` | 686 (0x2ae) | Exported Function | 0x1006a850 | 0x0006a850
-`_resetstkoflw` | 685 (0x2ad) | Exported Function | 0x1006a770 | 0x0006a770
-`_mkdir` | 653 (0x28d) | Exported Function | 0x10066ad0 | 0x00066ad0
-`_register_thread_local_exe_atexit_callback` | 684 (0x2ac) | Exported Function | 0x10021470 | 0x00021470
-`_recalloc` | 682 (0x2aa) | Exported Function | 0x1006a6f0 | 0x0006a6f0
-`_realloc_base` | 681 (0x2a9) | Exported Function | 0x1006a680 | 0x0006a680
-`_read` | 680 (0x2a8) | Exported Function | 0x1006a1b0 | 0x0006a1b0
-`_query_new_mode` | 679 (0x2a7) | Exported Function | 0x10069c90 | 0x00069c90
-`_query_new_handler` | 678 (0x2a6) | Exported Function | 0x100493a0 | 0x000493a0
-`_query_app_type` | 677 (0x2a5) | Exported Function | 0x10069c70 | 0x00069c70
-`_putws` | 676 (0x2a4) | Exported Function | 0x10069c20 | 0x00069c20
-`_putwch_nolock` | 675 (0x2a3) | Exported Function | 0x10069af0 | 0x00069af0
-`_register_onexit_function` | 683 (0x2ab) | Exported Function | 0x1004c760 | 0x0004c760
-`_mbsnicoll` | 609 (0x261) | Exported Function | 0x10065340 | 0x00065340
-`_memicmp_l` | 652 (0x28c) | Exported Function | 0x10066a20 | 0x00066a20
-`_memccpy` | 650 (0x28a) | Exported Function | 0x10066950 | 0x00066950
-`_mbsset_s` | 627 (0x273) | Exported Function | 0x10065c40 | 0x00065c40
-`_mbsset_l` | 626 (0x272) | Exported Function | 0x10065b90 | 0x00065b90
-`_mbsset` | 625 (0x271) | Exported Function | 0x10065b70 | 0x00065b70
-`_mbsrev_l` | 624 (0x270) | Exported Function | 0x10065ac0 | 0x00065ac0
-`_mbsrev` | 623 (0x26f) | Exported Function | 0x10065aa0 | 0x00065aa0
-`_mbsrchr_l` | 622 (0x26e) | Exported Function | 0x10065a00 | 0x00065a00
-`_mbsrchr` | 621 (0x26d) | Exported Function | 0x100659e0 | 0x000659e0
-`_mbspbrk_l` | 620 (0x26c) | Exported Function | 0x10065900 | 0x00065900
-`_mbspbrk` | 619 (0x26b) | Exported Function | 0x100658e0 | 0x000658e0
-`_mbsnset_s_l` | 618 (0x26a) | Exported Function | 0x100656d0 | 0x000656d0
-`_mbsnset_s` | 617 (0x269) | Exported Function | 0x100656b0 | 0x000656b0
-`_mbsnset_l` | 616 (0x268) | Exported Function | 0x10065560 | 0x00065560
-`_mbsnset` | 615 (0x267) | Exported Function | 0x10065540 | 0x00065540
-`_mbsnlen_l` | 614 (0x266) | Exported Function | 0x100654c0 | 0x000654c0
-`_mbsnlen` | 613 (0x265) | Exported Function | 0x100654a0 | 0x000654a0
-`_mbsninc_l` | 612 (0x264) | Exported Function | 0x10065470 | 0x00065470
-`_mbsninc` | 611 (0x263) | Exported Function | 0x10065450 | 0x00065450
-`_mbsset_s_l` | 628 (0x274) | Exported Function | 0x10065c60 | 0x00065c60
-`_mbsspn` | 629 (0x275) | Exported Function | 0x10065d80 | 0x00065d80
-`_mbsspn_l` | 630 (0x276) | Exported Function | 0x10065da0 | 0x00065da0
-`_mbsspnp` | 631 (0x277) | Exported Function | 0x10065e70 | 0x00065e70
-`_mbtowc_l` | 649 (0x289) | Exported Function | 0x10066830 | 0x00066830
-`_mbsupr_s_l` | 648 (0x288) | Exported Function | 0x10066730 | 0x00066730
-`_mbsupr_s` | 647 (0x287) | Exported Function | 0x10066710 | 0x00066710
-`_mbsupr_l` | 646 (0x286) | Exported Function | 0x100666e0 | 0x000666e0
-`_mbsupr` | 645 (0x285) | Exported Function | 0x100666b0 | 0x000666b0
-`_mbstrnlen_l` | 644 (0x284) | Exported Function | 0x10066680 | 0x00066680
-`_mbstrnlen` | 643 (0x283) | Exported Function | 0x10066660 | 0x00066660
-`_mbstrlen_l` | 642 (0x282) | Exported Function | 0x10066640 | 0x00066640
-`_memicmp` | 651 (0x28b) | Exported Function | 0x100669b0 | 0x000669b0
-`_mbstrlen` | 641 (0x281) | Exported Function | 0x10066610 | 0x00066610
-`_mbstowcs_l` | 639 (0x27f) | Exported Function | 0x10066410 | 0x00066410
-`_mbstok_s_l` | 638 (0x27e) | Exported Function | 0x100660f0 | 0x000660f0
-`_mbstok_s` | 637 (0x27d) | Exported Function | 0x100660d0 | 0x000660d0
-`_mbstok_l` | 636 (0x27c) | Exported Function | 0x100660a0 | 0x000660a0
-`_mbstok` | 635 (0x27b) | Exported Function | 0x10066080 | 0x00066080
-`_mbsstr_l` | 634 (0x27a) | Exported Function | 0x10065f90 | 0x00065f90
-`_mbsstr` | 633 (0x279) | Exported Function | 0x10065f70 | 0x00065f70
-`_mbsspnp_l` | 632 (0x278) | Exported Function | 0x10065e90 | 0x00065e90
-`_mbstowcs_s_l` | 640 (0x280) | Exported Function | 0x10066420 | 0x00066420
-`_mbcjistojms` | 523 (0x20b) | Exported Function | 0x10062680 | 0x00062680
-`_mbccpy_s_l` | 522 (0x20a) | Exported Function | 0x100625b0 | 0x000625b0
-`_mbccpy_s` | 521 (0x209) | Exported Function | 0x10062590 | 0x00062590
-`_ismbckata_l` | 414 (0x19e) | Exported Function | 0x1005cae0 | 0x0005cae0
-`_ismbckata` | 413 (0x19d) | Exported Function | 0x1005cac0 | 0x0005cac0
-`_ismbchira_l` | 412 (0x19c) | Exported Function | 0x1005ca70 | 0x0005ca70
-`_ismbchira` | 411 (0x19b) | Exported Function | 0x1005ca50 | 0x0005ca50
-`_ismbcgraph_l` | 410 (0x19a) | Exported Function | 0x1005c9e0 | 0x0005c9e0
-`_ismbcgraph` | 409 (0x199) | Exported Function | 0x1005c9c0 | 0x0005c9c0
-`_ismbcdigit_l` | 408 (0x198) | Exported Function | 0x1005c960 | 0x0005c960
-`_ismbcdigit` | 407 (0x197) | Exported Function | 0x1005c940 | 0x0005c940
-`_ismbcblank_l` | 406 (0x196) | Exported Function | 0x1005c840 | 0x0005c840
-`_ismbcblank` | 405 (0x195) | Exported Function | 0x1005c820 | 0x0005c820
-`_ismbcalpha_l` | 404 (0x194) | Exported Function | 0x1005c7b0 | 0x0005c7b0
-`_ismbcalpha` | 403 (0x193) | Exported Function | 0x1005c790 | 0x0005c790
-`_ismbcalnum_l` | 402 (0x192) | Exported Function | 0x1005c720 | 0x0005c720
-`_ismbcalnum` | 401 (0x191) | Exported Function | 0x1005c700 | 0x0005c700
-`_ismbbtrail_l` | 400 (0x190) | Exported Function | 0x1005c670 | 0x0005c670
-`_ismbbtrail` | 399 (0x18f) | Exported Function | 0x1005c650 | 0x0005c650
-`_ismbbpunct_l` | 398 (0x18e) | Exported Function | 0x1005c630 | 0x0005c630
-`_ismbcl0` | 415 (0x19f) | Exported Function | 0x1005cba0 | 0x0005cba0
-`_ismbcl0_l` | 416 (0x1a0) | Exported Function | 0x1005cbc0 | 0x0005cbc0
-`_ismbcl1` | 417 (0x1a1) | Exported Function | 0x1005cc20 | 0x0005cc20
-`_ismbcl1_l` | 418 (0x1a2) | Exported Function | 0x1005cc40 | 0x0005cc40
-`_ismbslead_l` | 436 (0x1b4) | Exported Function | 0x1005cfe0 | 0x0005cfe0
-`_ismbslead` | 435 (0x1b3) | Exported Function | 0x1005cfc0 | 0x0005cfc0
-`_ismbcupper_l` | 434 (0x1b2) | Exported Function | 0x1005cf60 | 0x0005cf60
-`_ismbcupper` | 433 (0x1b1) | Exported Function | 0x1005cf40 | 0x0005cf40
-`_ismbcsymbol_l` | 432 (0x1b0) | Exported Function | 0x1005cb50 | 0x0005cb50
-`_ismbcsymbol` | 431 (0x1af) | Exported Function | 0x1005cb30 | 0x0005cb30
-`_ismbcspace_l` | 430 (0x1ae) | Exported Function | 0x1005cee0 | 0x0005cee0
-`_ismbcspace` | 429 (0x1ad) | Exported Function | 0x1005cec0 | 0x0005cec0
-`_ismbbpunct` | 397 (0x18d) | Exported Function | 0x1005c610 | 0x0005c610
-`_ismbcpunct_l` | 428 (0x1ac) | Exported Function | 0x1005c8d0 | 0x0005c8d0
-`_ismbcprint_l` | 426 (0x1aa) | Exported Function | 0x1005ce50 | 0x0005ce50
-`_ismbcprint` | 425 (0x1a9) | Exported Function | 0x1005ce30 | 0x0005ce30
-`_ismbclower_l` | 424 (0x1a8) | Exported Function | 0x1005cdd0 | 0x0005cdd0
-`_ismbclower` | 423 (0x1a7) | Exported Function | 0x1005cdb0 | 0x0005cdb0
-`_ismbclegal_l` | 422 (0x1a6) | Exported Function | 0x1005cd60 | 0x0005cd60
-`_ismbclegal` | 421 (0x1a5) | Exported Function | 0x1005cd40 | 0x0005cd40
-`_ismbcl2_l` | 420 (0x1a4) | Exported Function | 0x1005ccd0 | 0x0005ccd0
-`_ismbcl2` | 419 (0x1a3) | Exported Function | 0x1005ccb0 | 0x0005ccb0
-`_ismbcpunct` | 427 (0x1ab) | Exported Function | 0x1005c8b0 | 0x0005c8b0
-`_ismbstrail` | 437 (0x1b5) | Exported Function | 0x1005d080 | 0x0005d080
-`_ismbbprint_l` | 396 (0x18c) | Exported Function | 0x1005c5f0 | 0x0005c5f0
-`_ismbblead_l` | 394 (0x18a) | Exported Function | 0x1005c5b0 | 0x0005c5b0
-`_isctype` | 371 (0x173) | Exported Function | 0x1005c1c0 | 0x0005c1c0
-`_iscntrl_l` | 370 (0x172) | Exported Function | 0x10030060 | 0x00030060
-`_isblank_l` | 369 (0x171) | Exported Function | 0x10030010 | 0x00030010
-`_isatty` | 368 (0x170) | Exported Function | 0x1005c160 | 0x0005c160
-`_isalpha_l` | 367 (0x16f) | Exported Function | 0x1002ffd0 | 0x0002ffd0
-`_isalnum_l` | 366 (0x16e) | Exported Function | 0x1002ff90 | 0x0002ff90
-`_invoke_watson` | 365 (0x16d) | Exported Function | 0x10059820 | 0x00059820
-`_invalid_parameter_noinfo_noreturn` | 364 (0x16c) | Exported Function | 0x10059800 | 0x00059800
-`_invalid_parameter_noinfo` | 363 (0x16b) | Exported Function | 0x100597f0 | 0x000597f0
-`_initterm_e` | 362 (0x16a) | Exported Function | 0x1005c110 | 0x0005c110
-`_initterm` | 361 (0x169) | Exported Function | 0x1005c0b0 | 0x0005c0b0
-`_initialize_wide_environment` | 360 (0x168) | Exported Function | 0x10034da0 | 0x00034da0
-`_initialize_onexit_table` | 359 (0x167) | Exported Function | 0x1004c720 | 0x0004c720
-`_initialize_narrow_environment` | 358 (0x166) | Exported Function | 0x10034d90 | 0x00034d90
-`_i64tow_s` | 357 (0x165) | Exported Function | 0x1005be40 | 0x0005be40
-`_i64tow` | 356 (0x164) | Exported Function | 0x1005bdf0 | 0x0005bdf0
-`_i64toa_s` | 355 (0x163) | Exported Function | 0x1005bda0 | 0x0005bda0
-`_isctype_l` | 372 (0x174) | Exported Function | 0x1005c200 | 0x0005c200
-`_isdigit_l` | 373 (0x175) | Exported Function | 0x100300a0 | 0x000300a0
-`_isgraph_l` | 374 (0x176) | Exported Function | 0x100300e0 | 0x000300e0
-`_isleadbyte_l` | 375 (0x177) | Exported Function | 0x100304f0 | 0x000304f0
-`_ismbblead` | 393 (0x189) | Exported Function | 0x1005c590 | 0x0005c590
-`_ismbbkpunct_l` | 392 (0x188) | Exported Function | 0x1005c570 | 0x0005c570
-`_ismbbkpunct` | 391 (0x187) | Exported Function | 0x1005c550 | 0x0005c550
-`_ismbbkprint_l` | 390 (0x186) | Exported Function | 0x1005c530 | 0x0005c530
-`_ismbbkprint` | 389 (0x185) | Exported Function | 0x1005c510 | 0x0005c510
-`_ismbbkana_l` | 388 (0x184) | Exported Function | 0x1005c4b0 | 0x0005c4b0
-`_ismbbkana` | 387 (0x183) | Exported Function | 0x1005c490 | 0x0005c490
-`_ismbbkalnum_l` | 386 (0x182) | Exported Function | 0x1005c470 | 0x0005c470
-`_ismbbprint` | 395 (0x18b) | Exported Function | 0x1005c5d0 | 0x0005c5d0
-`_ismbbkalnum` | 385 (0x181) | Exported Function | 0x1005c450 | 0x0005c450
-`_ismbbgraph` | 383 (0x17f) | Exported Function | 0x1005c410 | 0x0005c410
-`_ismbbblank_l` | 382 (0x17e) | Exported Function | 0x1005c3e0 | 0x0005c3e0
-`_ismbbblank` | 381 (0x17d) | Exported Function | 0x1005c3b0 | 0x0005c3b0
-`_ismbbalpha_l` | 380 (0x17c) | Exported Function | 0x1005c390 | 0x0005c390
-`_ismbbalpha` | 379 (0x17b) | Exported Function | 0x1005c370 | 0x0005c370
-`_ismbbalnum_l` | 378 (0x17a) | Exported Function | 0x1005c350 | 0x0005c350
-`_ismbbalnum` | 377 (0x179) | Exported Function | 0x1005c330 | 0x0005c330
-`_islower_l` | 376 (0x178) | Exported Function | 0x10030120 | 0x00030120
-`_ismbbgraph_l` | 384 (0x180) | Exported Function | 0x1005c430 | 0x0005c430
-`_ismbstrail_l` | 438 (0x1b6) | Exported Function | 0x1005d0a0 | 0x0005d0a0
-`_isnan` | 439 (0x1b7) | Exported Function | 0x10049de0 | 0x00049de0
-`_isprint_l` | 440 (0x1b8) | Exported Function | 0x10030160 | 0x00030160
-`_lock_locales` | 498 (0x1f2) | Exported Function | 0x100617b0 | 0x000617b0
-`_lock_file` | 497 (0x1f1) | Exported Function | 0x100241e0 | 0x000241e0
-`_localtime64_s` | 496 (0x1f0) | Exported Function | 0x100616f0 | 0x000616f0
-`_localtime64` | 495 (0x1ef) | Exported Function | 0x100616c0 | 0x000616c0
-`_localtime32_s` | 494 (0x1ee) | Exported Function | 0x100616b0 | 0x000616b0
-`_localtime32` | 493 (0x1ed) | Exported Function | 0x10061680 | 0x00061680
-`_loaddll` | 492 (0x1ec) | Exported Function | 0x100611a0 | 0x000611a0
-`_libm_sse2_tan_precise` | 491 (0x1eb) | Exported Function | 0x10060f30 | 0x00060f30
-`_libm_sse2_sqrt_precise` | 490 (0x1ea) | Exported Function | 0x10060e30 | 0x00060e30
-`_libm_sse2_sin_precise` | 489 (0x1e9) | Exported Function | 0x10060c60 | 0x00060c60
-`_libm_sse2_pow_precise` | 488 (0x1e8) | Exported Function | 0x10060110 | 0x00060110
-`_libm_sse2_log_precise` | 487 (0x1e7) | Exported Function | 0x1005fe80 | 0x0005fe80
-`_libm_sse2_log10_precise` | 486 (0x1e6) | Exported Function | 0x1005fbd0 | 0x0005fbd0
-`_libm_sse2_exp_precise` | 485 (0x1e5) | Exported Function | 0x1005f8f0 | 0x0005f8f0
-`_libm_sse2_cos_precise` | 484 (0x1e4) | Exported Function | 0x1005f730 | 0x0005f730
-`_libm_sse2_atan_precise` | 483 (0x1e3) | Exported Function | 0x1005f440 | 0x0005f440
-`_libm_sse2_asin_precise` | 482 (0x1e2) | Exported Function | 0x1005eef0 | 0x0005eef0
-`_locking` | 499 (0x1f3) | Exported Function | 0x100618c0 | 0x000618c0
-`_logb` | 500 (0x1f4) | Exported Function | 0x10049e20 | 0x00049e20
-`_lrotl` | 501 (0x1f5) | Exported Function | 0x100619d0 | 0x000619d0
-`_lrotr` | 502 (0x1f6) | Exported Function | 0x10061a30 | 0x00061a30
-`_mbccpy_l` | 520 (0x208) | Exported Function | 0x10062570 | 0x00062570
-`_mbccpy` | 519 (0x207) | Exported Function | 0x10062550 | 0x00062550
-`_mbcasemap` | 518 (0x206) | Exported Function | 0x100a3a2c | 0x000a3a2c
-`_mbbtype_l` | 517 (0x205) | Exported Function | 0x100624d0 | 0x000624d0
-`_mbbtype` | 516 (0x204) | Exported Function | 0x100624b0 | 0x000624b0
-`_mbbtombc_l` | 515 (0x203) | Exported Function | 0x10062360 | 0x00062360
-`_mbbtombc` | 514 (0x202) | Exported Function | 0x10062340 | 0x00062340
-`_malloc_base` | 513 (0x201) | Exported Function | 0x100622f0 | 0x000622f0
-`_libm_sse2_acos_precise` | 481 (0x1e1) | Exported Function | 0x1005e9d0 | 0x0005e9d0
-`_makepath_s` | 512 (0x200) | Exported Function | 0x100622b0 | 0x000622b0
-`_ltow_s` | 510 (0x1fe) | Exported Function | 0x1005bf10 | 0x0005bf10
-`_ltow` | 509 (0x1fd) | Exported Function | 0x1005bed0 | 0x0005bed0
-`_ltoa_s` | 508 (0x1fc) | Exported Function | 0x1005be90 | 0x0005be90
-`_ltoa` | 507 (0x1fb) | Exported Function | 0x1005bf50 | 0x0005bf50
-`_lseeki64` | 506 (0x1fa) | Exported Function | 0x10061f80 | 0x00061f80
-`_lseek` | 505 (0x1f9) | Exported Function | 0x10061f60 | 0x00061f60
-`_lsearch_s` | 504 (0x1f8) | Exported Function | 0x10061b50 | 0x00061b50
-`_lsearch` | 503 (0x1f7) | Exported Function | 0x10061a90 | 0x00061a90
-`_makepath` | 511 (0x1ff) | Exported Function | 0x10062290 | 0x00062290
-`_lfind_s` | 480 (0x1e0) | Exported Function | 0x1005e910 | 0x0005e910
-`_lfind` | 479 (0x1df) | Exported Function | 0x1005e860 | 0x0005e860
-`_ldunscale` | 478 (0x1de) | Exported Function | 0x1004e760 | 0x0004e760
-`_iswxdigit_l` | 458 (0x1ca) | Exported Function | 0x10030730 | 0x00030730
-`_iswupper_l` | 457 (0x1c9) | Exported Function | 0x10030710 | 0x00030710
-`_iswspace_l` | 456 (0x1c8) | Exported Function | 0x100305f0 | 0x000305f0
-`_iswpunct_l` | 455 (0x1c7) | Exported Function | 0x100305d0 | 0x000305d0
-`_iswprint_l` | 454 (0x1c6) | Exported Function | 0x100306f0 | 0x000306f0
-`_iswlower_l` | 453 (0x1c5) | Exported Function | 0x100306d0 | 0x000306d0
-`_iswgraph_l` | 452 (0x1c4) | Exported Function | 0x100306b0 | 0x000306b0
-`_iswdigit_l` | 451 (0x1c3) | Exported Function | 0x100305b0 | 0x000305b0
-`_isxdigit_l` | 459 (0x1cb) | Exported Function | 0x10030260 | 0x00030260
-`_iswctype_l` | 450 (0x1c2) | Exported Function | 0x1005d140 | 0x0005d140
-`_iswcsym_l` | 448 (0x1c0) | Exported Function | 0x10030550 | 0x00030550
-`_iswcntrl_l` | 447 (0x1bf) | Exported Function | 0x10030690 | 0x00030690
-`_iswblank_l` | 446 (0x1be) | Exported Function | 0x10030530 | 0x00030530
-`_iswalpha_l` | 445 (0x1bd) | Exported Function | 0x10030650 | 0x00030650
-`_iswalnum_l` | 444 (0x1bc) | Exported Function | 0x10030630 | 0x00030630
-`_isupper_l` | 443 (0x1bb) | Exported Function | 0x10030220 | 0x00030220
-`_isspace_l` | 442 (0x1ba) | Exported Function | 0x100301e0 | 0x000301e0
-`_ispunct_l` | 441 (0x1b9) | Exported Function | 0x100301a0 | 0x000301a0
-`_iswcsymf_l` | 449 (0x1c1) | Exported Function | 0x10030580 | 0x00030580
-`_hypotf` | 353 (0x161) | Exported Function | 0x1005b840 | 0x0005b840
-`_itoa` | 460 (0x1cc) | Exported Function | 0x1005bf50 | 0x0005bf50
-`_itow` | 462 (0x1ce) | Exported Function | 0x1005bed0 | 0x0005bed0
-`_ldtest` | 477 (0x1dd) | Exported Function | 0x1004cf40 | 0x0004cf40
-`_ldsin` | 476 (0x1dc) | Exported Function | 0x1005e460 | 0x0005e460
-`_ldsign` | 475 (0x1db) | Exported Function | 0x1004d050 | 0x0004d050
-`_ldscale` | 474 (0x1da) | Exported Function | 0x1004de30 | 0x0004de30
-`_ldpoly` | 473 (0x1d9) | Exported Function | 0x1004d800 | 0x0004d800
-`_ldpcomp` | 472 (0x1d8) | Exported Function | 0x1005d9a0 | 0x0005d9a0
-`_ldlog` | 471 (0x1d7) | Exported Function | 0x1005dd20 | 0x0005dd20
-`_ldexp` | 470 (0x1d6) | Exported Function | 0x1005da10 | 0x0005da10
-`_itoa_s` | 461 (0x1cd) | Exported Function | 0x1005be90 | 0x0005be90
-`_ldclass` | 469 (0x1d5) | Exported Function | 0x1005d980 | 0x0005d980
-`_LCmulcr` | 29 (0x1d) | Exported Function | 0x10020fe0 | 0x00020fe0
-`_LCmulcc` | 28 (0x1c) | Exported Function | 0x10021c80 | 0x00021c80
-`_LCbuild` | 27 (0x1b) | Exported Function | 0x10020ef0 | 0x00020ef0
-`_kbhit` | 467 (0x1d3) | Exported Function | 0x1005a1e0 | 0x0005a1e0
-`_jn` | 466 (0x1d2) | Exported Function | 0x1005d3c0 | 0x0005d3c0
-`_j1` | 465 (0x1d1) | Exported Function | 0x1005d2b0 | 0x0005d2b0
-`_j0` | 464 (0x1d0) | Exported Function | 0x1005d1c0 | 0x0005d1c0
-`_itow_s` | 463 (0x1cf) | Exported Function | 0x1005bf10 | 0x0005bf10
-`_ld_int` | 468 (0x1d4) | Exported Function | 0x1004cf30 | 0x0004cf30
-`wmemmove_s` | 1378 (0x562) | Exported Function | 0x10083430 | 0x00083430
+Function Name | Ordinal | Type
+-- | -- | --
+`_wrmdir` | 919 | Exported Function
+`_wsearchenv` | 920 | Exported Function
+`_write` | 918 | Exported Function
+`_wremove` | 916 | Exported Function
+`_wrename` | 917 | Exported Function
+`_wsopen_dispatch` | 924 | Exported Function
+`_wsopen_s` | 925 | Exported Function
+`_wsopen` | 923 | Exported Function
+`_wsearchenv_s` | 921 | Exported Function
+`_wsetlocale` | 922 | Exported Function
+`_wputenv_s` | 915 | Exported Function
+`_wmkdir` | 908 | Exported Function
+`_wmktemp` | 909 | Exported Function
+`_wmakepath_s` | 907 | Exported Function
+`_wgetenv_s` | 905 | Exported Function
+`_wmakepath` | 906 | Exported Function
+`_wpopen` | 913 | Exported Function
+`_wputenv` | 914 | Exported Function
+`_wperror` | 912 | Exported Function
+`_wmktemp_s` | 910 | Exported Function
+`_wopen` | 911 | Exported Function
+`_wspawnl` | 926 | Exported Function
+`_wstrdate_s` | 941 | Exported Function
+`_wstrtime` | 942 | Exported Function
+`_wstrdate` | 940 | Exported Function
+`_wstat64` | 938 | Exported Function
+`_wstat64i32` | 939 | Exported Function
+`_wtmpnam` | 946 | Exported Function
+`_wtmpnam_s` | 947 | Exported Function
+`_wtempnam` | 945 | Exported Function
+`_wstrtime_s` | 943 | Exported Function
+`_wsystem` | 944 | Exported Function
+`_wstat32i64` | 937 | Exported Function
+`_wspawnv` | 930 | Exported Function
+`_wspawnve` | 931 | Exported Function
+`_wspawnlpe` | 929 | Exported Function
+`_wspawnle` | 927 | Exported Function
+`_wspawnlp` | 928 | Exported Function
+`_wsplitpath_s` | 935 | Exported Function
+`_wstat32` | 936 | Exported Function
+`_wsplitpath` | 934 | Exported Function
+`_wspawnvp` | 932 | Exported Function
+`_wspawnvpe` | 933 | Exported Function
+`_wctomb_s_l` | 876 | Exported Function
+`_wctype` | 877 | Exported Function
+`_wctomb_l` | 875 | Exported Function
+`_wctime64` | 873 | Exported Function
+`_wctime64_s` | 874 | Exported Function
+`_wexeclp` | 881 | Exported Function
+`_wexeclpe` | 882 | Exported Function
+`_wexecle` | 880 | Exported Function
+`_wdupenv_s` | 878 | Exported Function
+`_wexecl` | 879 | Exported Function
+`_wctime32_s` | 872 | Exported Function
+`_wcstoumax_l` | 865 | Exported Function
+`_wcsupr` | 866 | Exported Function
+`_wcstoull_l` | 864 | Exported Function
+`_wcstoui64_l` | 862 | Exported Function
+`_wcstoul_l` | 863 | Exported Function
+`_wcsxfrm_l` | 870 | Exported Function
+`_wctime32` | 871 | Exported Function
+`_wcsupr_s_l` | 869 | Exported Function
+`_wcsupr_l` | 867 | Exported Function
+`_wcsupr_s` | 868 | Exported Function
+`_wexecv` | 883 | Exported Function
+`_wfreopen` | 898 | Exported Function
+`_wfreopen_s` | 899 | Exported Function
+`_wfopen_s` | 897 | Exported Function
+`_wfindnext64i32` | 895 | Exported Function
+`_wfopen` | 896 | Exported Function
+`_wgetdcwd` | 903 | Exported Function
+`_wgetenv` | 904 | Exported Function
+`_wgetcwd` | 902 | Exported Function
+`_wfsopen` | 900 | Exported Function
+`_wfullpath` | 901 | Exported Function
+`_wfindnext64` | 894 | Exported Function
+`_wfdopen` | 887 | Exported Function
+`_wfindfirst32` | 888 | Exported Function
+`_wexecvpe` | 886 | Exported Function
+`_wexecve` | 884 | Exported Function
+`_wexecvp` | 885 | Exported Function
+`_wfindnext32` | 892 | Exported Function
+`_wfindnext32i64` | 893 | Exported Function
+`_wfindfirst64i32` | 891 | Exported Function
+`_wfindfirst32i64` | 889 | Exported Function
+`_wfindfirst64` | 890 | Exported Function
+`casinh` | 1005 | Exported Function
+`casinhf` | 1006 | Exported Function
+`casinf` | 1004 | Exported Function
+`cargl` | 1002 | Exported Function
+`casin` | 1003 | Exported Function
+`catanf` | 1010 | Exported Function
+`catanh` | 1011 | Exported Function
+`catan` | 1009 | Exported Function
+`casinhl` | 1007 | Exported Function
+`casinl` | 1008 | Exported Function
+`cargf` | 1001 | Exported Function
+`cacosf` | 994 | Exported Function
+`cacosh` | 995 | Exported Function
+`cacos` | 993 | Exported Function
+`cabsf` | 991 | Exported Function
+`cabsl` | 992 | Exported Function
+`calloc` | 999 | Exported Function
+`carg` | 1000 | Exported Function
+`cacosl` | 998 | Exported Function
+`cacoshf` | 996 | Exported Function
+`cacoshl` | 997 | Exported Function
+`catanhf` | 1012 | Exported Function
+`cexpl` | 1027 | Exported Function
+`cimag` | 1028 | Exported Function
+`cexpf` | 1026 | Exported Function
+`ceil` | 1024 | Exported Function
+`cexp` | 1025 | Exported Function
+`clearerr_s` | 1032 | Exported Function
+`clock` | 1033 | Exported Function
+`clearerr` | 1031 | Exported Function
+`cimagf` | 1029 | Exported Function
+`cimagl` | 1030 | Exported Function
+`ccosl` | 1023 | Exported Function
+`cbrtf` | 1016 | Exported Function
+`cbrtl` | 1017 | Exported Function
+`cbrt` | 1015 | Exported Function
+`catanhl` | 1013 | Exported Function
+`catanl` | 1014 | Exported Function
+`ccoshf` | 1021 | Exported Function
+`ccoshl` | 1022 | Exported Function
+`ccosh` | 1020 | Exported Function
+`ccos` | 1018 | Exported Function
+`ccosf` | 1019 | Exported Function
+`_y1` | 962 | Exported Function
+`_yn` | 963 | Exported Function
+`_y0` | 961 | Exported Function
+`_wutime32` | 959 | Exported Function
+`_wutime64` | 960 | Exported Function
+`acosh` | 967 | Exported Function
+`acoshf` | 968 | Exported Function
+`acos` | 966 | Exported Function
+`abort` | 964 | Exported Function
+`abs` | 965 | Exported Function
+`_wunlink` | 958 | Exported Function
+`_wtoi64` | 951 | Exported Function
+`_wtoi64_l` | 952 | Exported Function
+`_wtoi` | 950 | Exported Function
+`_wtof` | 948 | Exported Function
+`_wtof_l` | 949 | Exported Function
+`_wtoll` | 956 | Exported Function
+`_wtoll_l` | 957 | Exported Function
+`_wtol_l` | 955 | Exported Function
+`_wtoi_l` | 953 | Exported Function
+`_wtol` | 954 | Exported Function
+`acoshl` | 969 | Exported Function
+`atoll` | 984 | Exported Function
+`bsearch` | 985 | Exported Function
+`atol` | 983 | Exported Function
+`atof` | 981 | Exported Function
+`atoi` | 982 | Exported Function
+`c32rtomb` | 989 | Exported Function
+`cabs` | 990 | Exported Function
+`c16rtomb` | 988 | Exported Function
+`bsearch_s` | 986 | Exported Function
+`btowc` | 987 | Exported Function
+`atanhl` | 980 | Exported Function
+`asinh` | 973 | Exported Function
+`asinhf` | 974 | Exported Function
+`asin` | 972 | Exported Function
+`asctime` | 970 | Exported Function
+`asctime_s` | 971 | Exported Function
+`atanh` | 978 | Exported Function
+`atanhf` | 979 | Exported Function
+`atan2` | 977 | Exported Function
+`asinhl` | 975 | Exported Function
+`atan` | 976 | Exported Function
+`_strncoll_l` | 751 | Exported Function
+`_strnicmp` | 752 | Exported Function
+`_strncoll` | 750 | Exported Function
+`_strlwr_s` | 748 | Exported Function
+`_strlwr_s_l` | 749 | Exported Function
+`_strnset` | 756 | Exported Function
+`_strnset_s` | 757 | Exported Function
+`_strnicoll_l` | 755 | Exported Function
+`_strnicmp_l` | 753 | Exported Function
+`_strnicoll` | 754 | Exported Function
+`_strlwr_l` | 747 | Exported Function
+`_Strftime` | 30 | Exported Function
+`_strftime_l` | 741 | Exported Function
+`_strerror_s` | 740 | Exported Function
+`_strdup` | 738 | Exported Function
+`_strerror` | 739 | Exported Function
+`_stricoll_l` | 745 | Exported Function
+`_strlwr` | 746 | Exported Function
+`_stricoll` | 744 | Exported Function
+`_stricmp` | 742 | Exported Function
+`_stricmp_l` | 743 | Exported Function
+`_strrev` | 758 | Exported Function
+`_strtoul_l` | 773 | Exported Function
+`_strtoull_l` | 774 | Exported Function
+`_strtoui64_l` | 772 | Exported Function
+`_strtoll_l` | 770 | Exported Function
+`_strtoui64` | 771 | Exported Function
+`_strupr_s` | 778 | Exported Function
+`_strupr_s_l` | 779 | Exported Function
+`_strupr_l` | 777 | Exported Function
+`_strtoumax_l` | 775 | Exported Function
+`_strupr` | 776 | Exported Function
+`_strtold_l` | 769 | Exported Function
+`_strtime_s` | 762 | Exported Function
+`_strtod_l` | 763 | Exported Function
+`_strtime` | 761 | Exported Function
+`_strset` | 759 | Exported Function
+`_strset_s` | 760 | Exported Function
+`_strtoimax_l` | 767 | Exported Function
+`_strtol_l` | 768 | Exported Function
+`_strtoi64_l` | 766 | Exported Function
+`_strtof_l` | 764 | Exported Function
+`_strtoi64` | 765 | Exported Function
+`_set_thread_local_invalid_parameter_handler` | 709 | Exported Function
+`_seterrormode` | 710 | Exported Function
+`_set_SSE2_enable` | 697 | Exported Function
+`_set_new_mode` | 707 | Exported Function
+`_set_printf_count_output` | 708 | Exported Function
+`_setsystime` | 714 | Exported Function
+`_sleep` | 715 | Exported Function
+`_setmode` | 713 | Exported Function
+`_setmaxstdio` | 711 | Exported Function
+`_setmbcp` | 712 | Exported Function
+`_set_new_handler` | 706 | Exported Function
+`_set_app_type` | 699 | Exported Function
+`_set_controlfp` | 700 | Exported Function
+`_set_abort_behavior` | 698 | Exported Function
+`_seh_filter_dll` | 695 | Exported Function
+`_seh_filter_exe` | 696 | Exported Function
+`_set_fmode` | 704 | Exported Function
+`_set_invalid_parameter_handler` | 705 | Exported Function
+`_set_error_mode` | 703 | Exported Function
+`_set_doserrno` | 701 | Exported Function
+`_set_errno` | 702 | Exported Function
+`_sopen` | 716 | Exported Function
+`_stat64` | 731 | Exported Function
+`_stat64i32` | 732 | Exported Function
+`_stat32i64` | 730 | Exported Function
+`_splitpath_s` | 728 | Exported Function
+`_stat32` | 729 | Exported Function
+`_strdate` | 736 | Exported Function
+`_strdate_s` | 737 | Exported Function
+`_strcoll_l` | 735 | Exported Function
+`_statusfp` | 733 | Exported Function
+`_statusfp2` | 734 | Exported Function
+`_splitpath` | 727 | Exported Function
+`_spawnle` | 720 | Exported Function
+`_spawnlp` | 721 | Exported Function
+`_spawnl` | 719 | Exported Function
+`_sopen_dispatch` | 717 | Exported Function
+`_sopen_s` | 718 | Exported Function
+`_spawnvp` | 725 | Exported Function
+`_spawnvpe` | 726 | Exported Function
+`_spawnve` | 724 | Exported Function
+`_spawnlpe` | 722 | Exported Function
+`_spawnv` | 723 | Exported Function
+`_wcsicmp_l` | 833 | Exported Function
+`_wcsicoll` | 834 | Exported Function
+`_wcsicmp` | 832 | Exported Function
+`_Wcsftime` | 34 | Exported Function
+`_wcsftime_l` | 831 | Exported Function
+`_wcslwr_s` | 838 | Exported Function
+`_wcslwr_s_l` | 839 | Exported Function
+`_wcslwr_l` | 837 | Exported Function
+`_wcsicoll_l` | 835 | Exported Function
+`_wcslwr` | 836 | Exported Function
+`_wcserror_s` | 830 | Exported Function
+`_wchdir` | 823 | Exported Function
+`_wchmod` | 824 | Exported Function
+`_wassert` | 822 | Exported Function
+`_wasctime` | 820 | Exported Function
+`_wasctime_s` | 821 | Exported Function
+`_wcsdup` | 828 | Exported Function
+`_wcserror` | 829 | Exported Function
+`_wcscoll_l` | 827 | Exported Function
+`_wcreat` | 825 | Exported Function
+`_wcreate_locale` | 826 | Exported Function
+`_wcsncoll` | 840 | Exported Function
+`_wcstoimax_l` | 855 | Exported Function
+`_wcstol_l` | 856 | Exported Function
+`_wcstoi64_l` | 854 | Exported Function
+`_wcstof_l` | 852 | Exported Function
+`_wcstoi64` | 853 | Exported Function
+`_wcstombs_s_l` | 860 | Exported Function
+`_wcstoui64` | 861 | Exported Function
+`_wcstombs_l` | 859 | Exported Function
+`_wcstold_l` | 857 | Exported Function
+`_wcstoll_l` | 858 | Exported Function
+`_wcstod_l` | 851 | Exported Function
+`_wcsnicoll` | 844 | Exported Function
+`_wcsnicoll_l` | 845 | Exported Function
+`_wcsnicmp_l` | 843 | Exported Function
+`_wcsncoll_l` | 841 | Exported Function
+`_wcsnicmp` | 842 | Exported Function
+`_wcsset` | 849 | Exported Function
+`_wcsset_s` | 850 | Exported Function
+`_wcsrev` | 848 | Exported Function
+`_wcsnset` | 846 | Exported Function
+`_wcsnset_s` | 847 | Exported Function
+`_towupper_l` | 794 | Exported Function
+`_tzset` | 795 | Exported Function
+`_towlower_l` | 793 | Exported Function
+`_toupper` | 791 | Exported Function
+`_toupper_l` | 792 | Exported Function
+`_ui64tow_s` | 799 | Exported Function
+`_ultoa` | 800 | Exported Function
+`_ui64tow` | 798 | Exported Function
+`_ui64toa` | 796 | Exported Function
+`_ui64toa_s` | 797 | Exported Function
+`_tolower_l` | 790 | Exported Function
+`_telli64` | 783 | Exported Function
+`_tempnam` | 784 | Exported Function
+`_tell` | 782 | Exported Function
+`_strxfrm_l` | 780 | Exported Function
+`_swab` | 781 | Exported Function
+`_timespec64_get` | 788 | Exported Function
+`_tolower` | 789 | Exported Function
+`_timespec32_get` | 787 | Exported Function
+`_time32` | 785 | Exported Function
+`_time64` | 786 | Exported Function
+`_ultoa_s` | 801 | Exported Function
+`_utime32` | 816 | Exported Function
+`_utime64` | 817 | Exported Function
+`_unlock_locales` | 815 | Exported Function
+`_unloaddll` | 813 | Exported Function
+`_unlock_file` | 814 | Exported Function
+`_waccess` | 818 | Exported Function
+`_waccess_s` | 819 | Exported Function
+`_W_Gettnames` | 33 | Exported Function
+`_W_Getdays` | 31 | Exported Function
+`_W_Getmonths` | 32 | Exported Function
+`_unlink` | 812 | Exported Function
+`_umask_s` | 805 | Exported Function
+`_ungetc_nolock` | 806 | Exported Function
+`_umask` | 804 | Exported Function
+`_ultow` | 802 | Exported Function
+`_ultow_s` | 803 | Exported Function
+`_ungetwch` | 810 | Exported Function
+`_ungetwch_nolock` | 811 | Exported Function
+`_ungetwc_nolock` | 809 | Exported Function
+`_ungetch` | 807 | Exported Function
+`_ungetch_nolock` | 808 | Exported Function
+`clog` | 1034 | Exported Function
+`rint` | 1264 | Exported Function
+`rintf` | 1265 | Exported Function
+`rewind` | 1263 | Exported Function
+`remquol` | 1261 | Exported Function
+`rename` | 1262 | Exported Function
+`roundl` | 1269 | Exported Function
+`scalbln` | 1270 | Exported Function
+`roundf` | 1268 | Exported Function
+`rintl` | 1266 | Exported Function
+`round` | 1267 | Exported Function
+`remquof` | 1260 | Exported Function
+`rand_s` | 1253 | Exported Function
+`realloc` | 1254 | Exported Function
+`rand` | 1252 | Exported Function
+`quick_exit` | 1250 | Exported Function
+`raise` | 1251 | Exported Function
+`remove` | 1258 | Exported Function
+`remquo` | 1259 | Exported Function
+`remainderl` | 1257 | Exported Function
+`remainder` | 1255 | Exported Function
+`remainderf` | 1256 | Exported Function
+`scalblnf` | 1271 | Exported Function
+`strcat_s` | 1286 | Exported Function
+`strcmp` | 1287 | Exported Function
+`strcat` | 1285 | Exported Function
+`sqrt` | 1283 | Exported Function
+`srand` | 1284 | Exported Function
+`strcspn` | 1291 | Exported Function
+`strerror` | 1292 | Exported Function
+`strcpy_s` | 1290 | Exported Function
+`strcoll` | 1288 | Exported Function
+`strcpy` | 1289 | Exported Function
+`sinh` | 1282 | Exported Function
+`scalbnl` | 1275 | Exported Function
+`set_terminate` | 1276 | Exported Function
+`scalbnf` | 1274 | Exported Function
+`scalblnl` | 1272 | Exported Function
+`scalbn` | 1273 | Exported Function
+`signal` | 1280 | Exported Function
+`sin` | 1281 | Exported Function
+`setvbuf` | 1279 | Exported Function
+`setbuf` | 1277 | Exported Function
+`setlocale` | 1278 | Exported Function
+`memcpy_s` | 1221 | Exported Function
+`memmove_s` | 1222 | Exported Function
+`mbtowc` | 1220 | Exported Function
+`mbstowcs` | 1218 | Exported Function
+`mbstowcs_s` | 1219 | Exported Function
+`nanf` | 1226 | Exported Function
+`nanl` | 1227 | Exported Function
+`nan` | 1225 | Exported Function
+`memset` | 1223 | Exported Function
+`modf` | 1224 | Exported Function
+`mbsrtowcs_s` | 1217 | Exported Function
+`malloc` | 1210 | Exported Function
+`mblen` | 1211 | Exported Function
+`lroundl` | 1209 | Exported Function
+`lround` | 1207 | Exported Function
+`lroundf` | 1208 | Exported Function
+`mbrtowc` | 1215 | Exported Function
+`mbsrtowcs` | 1216 | Exported Function
+`mbrtoc32` | 1214 | Exported Function
+`mbrlen` | 1212 | Exported Function
+`mbrtoc16` | 1213 | Exported Function
+`nearbyint` | 1228 | Exported Function
+`putc` | 1243 | Exported Function
+`putchar` | 1244 | Exported Function
+`powf` | 1242 | Exported Function
+`perror` | 1240 | Exported Function
+`pow` | 1241 | Exported Function
+`qsort` | 1248 | Exported Function
+`qsort_s` | 1249 | Exported Function
+`putwchar` | 1247 | Exported Function
+`puts` | 1245 | Exported Function
+`putwc` | 1246 | Exported Function
+`norml` | 1239 | Exported Function
+`nextafterf` | 1232 | Exported Function
+`nextafterl` | 1233 | Exported Function
+`nextafter` | 1231 | Exported Function
+`nearbyintf` | 1229 | Exported Function
+`nearbyintl` | 1230 | Exported Function
+`norm` | 1237 | Exported Function
+`normf` | 1238 | Exported Function
+`nexttowardl` | 1236 | Exported Function
+`nexttoward` | 1234 | Exported Function
+`nexttowardf` | 1235 | Exported Function
+`wcsncmp` | 1350 | Exported Function
+`wcsncpy` | 1351 | Exported Function
+`wcsncat_s` | 1349 | Exported Function
+`wcslen` | 1347 | Exported Function
+`wcsncat` | 1348 | Exported Function
+`wcsrtombs` | 1355 | Exported Function
+`wcsrtombs_s` | 1356 | Exported Function
+`wcspbrk` | 1354 | Exported Function
+`wcsncpy_s` | 1352 | Exported Function
+`wcsnlen` | 1353 | Exported Function
+`wcsftime` | 1346 | Exported Function
+`wcscat` | 1339 | Exported Function
+`wcscat_s` | 1340 | Exported Function
+`wcrtomb_s` | 1338 | Exported Function
+`ungetwc` | 1336 | Exported Function
+`wcrtomb` | 1337 | Exported Function
+`wcscpy_s` | 1344 | Exported Function
+`wcscspn` | 1345 | Exported Function
+`wcscpy` | 1343 | Exported Function
+`wcscmp` | 1341 | Exported Function
+`wcscoll` | 1342 | Exported Function
+`wcsspn` | 1357 | Exported Function
+`wctob` | 1372 | Exported Function
+`wctomb` | 1373 | Exported Function
+`wcsxfrm` | 1371 | Exported Function
+`wcstoull` | 1369 | Exported Function
+`wcstoumax` | 1370 | Exported Function
+`wmemcpy_s` | 1377 | Exported Function
+`wmemmove_s` | 1378 | Exported Function
+`wctype` | 1376 | Exported Function
+`wctomb_s` | 1374 | Exported Function
+`wctrans` | 1375 | Exported Function
+`wcstoul` | 1368 | Exported Function
+`wcstok` | 1361 | Exported Function
+`wcstok_s` | 1362 | Exported Function
+`wcstoimax` | 1360 | Exported Function
+`wcstod` | 1358 | Exported Function
+`wcstof` | 1359 | Exported Function
+`wcstombs` | 1366 | Exported Function
+`wcstombs_s` | 1367 | Exported Function
+`wcstoll` | 1365 | Exported Function
+`wcstol` | 1363 | Exported Function
+`wcstold` | 1364 | Exported Function
+`strtok` | 1307 | Exported Function
+`strtok_s` | 1308 | Exported Function
+`strtoimax` | 1306 | Exported Function
+`strtod` | 1304 | Exported Function
+`strtof` | 1305 | Exported Function
+`strtoul` | 1312 | Exported Function
+`strtoull` | 1313 | Exported Function
+`strtoll` | 1311 | Exported Function
+`strtol` | 1309 | Exported Function
+`strtold` | 1310 | Exported Function
+`strspn` | 1303 | Exported Function
+`strncat` | 1296 | Exported Function
+`strncat_s` | 1297 | Exported Function
+`strlen` | 1295 | Exported Function
+`strerror_s` | 1293 | Exported Function
+`strftime` | 1294 | Exported Function
+`strnlen` | 1301 | Exported Function
+`strpbrk` | 1302 | Exported Function
+`strncpy_s` | 1300 | Exported Function
+`strncmp` | 1298 | Exported Function
+`strncpy` | 1299 | Exported Function
+`strtoumax` | 1314 | Exported Function
+`towctrans` | 1329 | Exported Function
+`towlower` | 1330 | Exported Function
+`toupper` | 1328 | Exported Function
+`tmpnam_s` | 1326 | Exported Function
+`tolower` | 1327 | Exported Function
+`truncl` | 1334 | Exported Function
+`ungetc` | 1335 | Exported Function
+`truncf` | 1333 | Exported Function
+`towupper` | 1331 | Exported Function
+`trunc` | 1332 | Exported Function
+`tmpnam` | 1325 | Exported Function
+`tanh` | 1318 | Exported Function
+`terminate` | 1319 | Exported Function
+`tan` | 1317 | Exported Function
+`strxfrm` | 1315 | Exported Function
+`system` | 1316 | Exported Function
+`tmpfile` | 1323 | Exported Function
+`tmpfile_s` | 1324 | Exported Function
+`tgammal` | 1322 | Exported Function
+`tgamma` | 1320 | Exported Function
+`tgammaf` | 1321 | Exported Function
+`feclearexcept` | 1092 | Exported Function
+`fegetenv` | 1093 | Exported Function
+`fdiml` | 1091 | Exported Function
+`fdim` | 1089 | Exported Function
+`fdimf` | 1090 | Exported Function
+`feof` | 1097 | Exported Function
+`ferror` | 1098 | Exported Function
+`feholdexcept` | 1096 | Exported Function
+`fegetexceptflag` | 1094 | Exported Function
+`fegetround` | 1095 | Exported Function
+`fclose` | 1088 | Exported Function
+`exp2` | 1081 | Exported Function
+`exp2f` | 1082 | Exported Function
+`exp` | 1080 | Exported Function
+`erfl` | 1078 | Exported Function
+`exit` | 1079 | Exported Function
+`expm1l` | 1086 | Exported Function
+`fabs` | 1087 | Exported Function
+`expm1f` | 1085 | Exported Function
+`exp2l` | 1083 | Exported Function
+`expm1` | 1084 | Exported Function
+`fesetenv` | 1099 | Exported Function
+`fmaxf` | 1114 | Exported Function
+`fmaxl` | 1115 | Exported Function
+`fmax` | 1113 | Exported Function
+`fmaf` | 1111 | Exported Function
+`fmal` | 1112 | Exported Function
+`fmod` | 1119 | Exported Function
+`fopen` | 1120 | Exported Function
+`fminl` | 1118 | Exported Function
+`fmin` | 1116 | Exported Function
+`fminf` | 1117 | Exported Function
+`fma` | 1110 | Exported Function
+`fflush` | 1103 | Exported Function
+`fgetc` | 1104 | Exported Function
+`fetestexcept` | 1102 | Exported Function
+`fesetexceptflag` | 1100 | Exported Function
+`fesetround` | 1101 | Exported Function
+`fgetws` | 1108 | Exported Function
+`floor` | 1109 | Exported Function
+`fgetwc` | 1107 | Exported Function
+`fgetpos` | 1105 | Exported Function
+`fgets` | 1106 | Exported Function
+`cpowf` | 1049 | Exported Function
+`cpowl` | 1050 | Exported Function
+`cpow` | 1048 | Exported Function
+`cos` | 1046 | Exported Function
+`cosh` | 1047 | Exported Function
+`creal` | 1054 | Exported Function
+`crealf` | 1055 | Exported Function
+`cprojl` | 1053 | Exported Function
+`cproj` | 1051 | Exported Function
+`cprojf` | 1052 | Exported Function
+`copysignl` | 1045 | Exported Function
+`clogf` | 1038 | Exported Function
+`clogl` | 1039 | Exported Function
+`clog10l` | 1037 | Exported Function
+`clog10` | 1035 | Exported Function
+`clog10f` | 1036 | Exported Function
+`copysign` | 1043 | Exported Function
+`copysignf` | 1044 | Exported Function
+`conjl` | 1042 | Exported Function
+`conj` | 1040 | Exported Function
+`conjf` | 1041 | Exported Function
+`creall` | 1056 | Exported Function
+`ctanl` | 1071 | Exported Function
+`div` | 1072 | Exported Function
+`ctanhl` | 1070 | Exported Function
+`ctanh` | 1068 | Exported Function
+`ctanhf` | 1069 | Exported Function
+`erfcl` | 1076 | Exported Function
+`erff` | 1077 | Exported Function
+`erfcf` | 1075 | Exported Function
+`erf` | 1073 | Exported Function
+`erfc` | 1074 | Exported Function
+`ctanf` | 1067 | Exported Function
+`csinhf` | 1060 | Exported Function
+`csinhl` | 1061 | Exported Function
+`csinh` | 1059 | Exported Function
+`csin` | 1057 | Exported Function
+`csinf` | 1058 | Exported Function
+`csqrtl` | 1065 | Exported Function
+`ctan` | 1066 | Exported Function
+`csqrtf` | 1064 | Exported Function
+`csinl` | 1062 | Exported Function
+`csqrt` | 1063 | Exported Function
+`labs` | 1178 | Exported Function
+`ldexp` | 1179 | Exported Function
+`isxdigit` | 1177 | Exported Function
+`iswupper` | 1175 | Exported Function
+`iswxdigit` | 1176 | Exported Function
+`lgammal` | 1183 | Exported Function
+`llabs` | 1184 | Exported Function
+`lgammaf` | 1182 | Exported Function
+`ldiv` | 1180 | Exported Function
+`lgamma` | 1181 | Exported Function
+`iswspace` | 1174 | Exported Function
+`iswcntrl` | 1167 | Exported Function
+`iswctype` | 1168 | Exported Function
+`iswblank` | 1166 | Exported Function
+`iswalpha` | 1164 | Exported Function
+`iswascii` | 1165 | Exported Function
+`iswprint` | 1172 | Exported Function
+`iswpunct` | 1173 | Exported Function
+`iswlower` | 1171 | Exported Function
+`iswdigit` | 1169 | Exported Function
+`iswgraph` | 1170 | Exported Function
+`lldiv` | 1185 | Exported Function
+`log2l` | 1200 | Exported Function
+`logb` | 1201 | Exported Function
+`log2f` | 1199 | Exported Function
+`log1pl` | 1197 | Exported Function
+`log2` | 1198 | Exported Function
+`lrintf` | 1205 | Exported Function
+`lrintl` | 1206 | Exported Function
+`lrint` | 1204 | Exported Function
+`logbf` | 1202 | Exported Function
+`logbl` | 1203 | Exported Function
+`log1pf` | 1196 | Exported Function
+`llround` | 1189 | Exported Function
+`llroundf` | 1190 | Exported Function
+`llrintl` | 1188 | Exported Function
+`llrint` | 1186 | Exported Function
+`llrintf` | 1187 | Exported Function
+`log10` | 1194 | Exported Function
+`log1p` | 1195 | Exported Function
+`log` | 1193 | Exported Function
+`llroundl` | 1191 | Exported Function
+`localeconv` | 1192 | Exported Function
+`fwrite` | 1135 | Exported Function
+`getc` | 1136 | Exported Function
+`ftell` | 1134 | Exported Function
+`fseek` | 1132 | Exported Function
+`fsetpos` | 1133 | Exported Function
+`gets` | 1140 | Exported Function
+`gets_s` | 1141 | Exported Function
+`getenv_s` | 1139 | Exported Function
+`getchar` | 1137 | Exported Function
+`getenv` | 1138 | Exported Function
+`frexp` | 1131 | Exported Function
+`fputwc` | 1124 | Exported Function
+`fputws` | 1125 | Exported Function
+`fputs` | 1123 | Exported Function
+`fopen_s` | 1121 | Exported Function
+`fputc` | 1122 | Exported Function
+`freopen` | 1129 | Exported Function
+`freopen_s` | 1130 | Exported Function
+`free` | 1128 | Exported Function
+`fread` | 1126 | Exported Function
+`fread_s` | 1127 | Exported Function
+`getwc` | 1142 | Exported Function
+`isleadbyte` | 1157 | Exported Function
+`islower` | 1158 | Exported Function
+`isgraph` | 1156 | Exported Function
+`iscntrl` | 1154 | Exported Function
+`isdigit` | 1155 | Exported Function
+`isupper` | 1162 | Exported Function
+`iswalnum` | 1163 | Exported Function
+`isspace` | 1161 | Exported Function
+`isprint` | 1159 | Exported Function
+`ispunct` | 1160 | Exported Function
+`isblank` | 1153 | Exported Function
+`ilogbf` | 1146 | Exported Function
+`ilogbl` | 1147 | Exported Function
+`ilogb` | 1145 | Exported Function
+`getwchar` | 1143 | Exported Function
+`hypot` | 1144 | Exported Function
+`isalnum` | 1151 | Exported Function
+`isalpha` | 1152 | Exported Function
+`is_wctype` | 1150 | Exported Function
+`imaxabs` | 1148 | Exported Function
+`imaxdiv` | 1149 | Exported Function
+`_fdopen` | 241 | Exported Function
+`_fdpcomp` | 242 | Exported Function
+`_fdnorm` | 240 | Exported Function
+`_fdexp` | 238 | Exported Function
+`_fdlog` | 239 | Exported Function
+`_fdsin` | 246 | Exported Function
+`_fdtest` | 247 | Exported Function
+`_fdsign` | 245 | Exported Function
+`_fdpoly` | 243 | Exported Function
+`_fdscale` | 244 | Exported Function
+`_fdclass` | 237 | Exported Function
+`_fclose_nolock` | 232 | Exported Function
+`_fcloseall` | 233 | Exported Function
+`_FCbuild` | 21 | Exported Function
+`_Exit` | 20 | Exported Function
+`_expand` | 231 | Exported Function
+`_fcvt_s` | 235 | Exported Function
+`_fd_int` | 236 | Exported Function
+`_fcvt` | 234 | Exported Function
+`_FCmulcc` | 22 | Exported Function
+`_FCmulcr` | 23 | Exported Function
+`_fdunscale` | 248 | Exported Function
+`_findnext32i64` | 263 | Exported Function
+`_findnext64` | 264 | Exported Function
+`_findnext32` | 262 | Exported Function
+`_findfirst64` | 260 | Exported Function
+`_findfirst64i32` | 261 | Exported Function
+`_fpclass` | 268 | Exported Function
+`_fpieee_flt` | 269 | Exported Function
+`_flushall` | 267 | Exported Function
+`_findnext64i32` | 265 | Exported Function
+`_finite` | 266 | Exported Function
+`_findfirst32i64` | 259 | Exported Function
+`_fgetwc_nolock` | 252 | Exported Function
+`_fgetwchar` | 253 | Exported Function
+`_fgetchar` | 251 | Exported Function
+`_fflush_nolock` | 249 | Exported Function
+`_fgetc_nolock` | 250 | Exported Function
+`_findclose` | 257 | Exported Function
+`_findfirst32` | 258 | Exported Function
+`_fileno` | 256 | Exported Function
+`_filelength` | 254 | Exported Function
+`_filelengthi64` | 255 | Exported Function
+`_dlog` | 202 | Exported Function
+`_dnorm` | 203 | Exported Function
+`_difftime64` | 201 | Exported Function
+`_dexp` | 199 | Exported Function
+`_difftime32` | 200 | Exported Function
+`_dsign` | 207 | Exported Function
+`_dsin` | 208 | Exported Function
+`_dscale` | 206 | Exported Function
+`_dpcomp` | 204 | Exported Function
+`_dpoly` | 205 | Exported Function
+`_dclass` | 198 | Exported Function
+`_crt_debugger_hook` | 191 | Exported Function
+`_ctime32` | 192 | Exported Function
+`_crt_atexit` | 190 | Exported Function
+`_create_locale` | 188 | Exported Function
+`_crt_at_quick_exit` | 189 | Exported Function
+`_cwait` | 196 | Exported Function
+`_d_int` | 197 | Exported Function
+`_ctime64_s` | 195 | Exported Function
+`_ctime32_s` | 193 | Exported Function
+`_ctime64` | 194 | Exported Function
+`_dtest` | 209 | Exported Function
+`_execlpe` | 224 | Exported Function
+`_execute_onexit_table` | 225 | Exported Function
+`_execlp` | 223 | Exported Function
+`_execl` | 221 | Exported Function
+`_execle` | 222 | Exported Function
+`_execvpe` | 229 | Exported Function
+`_exit` | 230 | Exported Function
+`_execvp` | 228 | Exported Function
+`_execv` | 226 | Exported Function
+`_execve` | 227 | Exported Function
+`_except1` | 220 | Exported Function
+`_dupenv_s` | 213 | Exported Function
+`_ecvt` | 214 | Exported Function
+`_dup2` | 212 | Exported Function
+`_dunscale` | 210 | Exported Function
+`_dup` | 211 | Exported Function
+`_eof` | 218 | Exported Function
+`_errno` | 219 | Exported Function
+`_endthreadex` | 217 | Exported Function
+`_ecvt_s` | 215 | Exported Function
+`_endthread` | 216 | Exported Function
+`_getcwd` | 327 | Exported Function
+`_Getdays` | 24 | Exported Function
+`_getche_nolock` | 326 | Exported Function
+`_getch_nolock` | 324 | Exported Function
+`_getche` | 325 | Exported Function
+`_getdrive` | 331 | Exported Function
+`_getdrives` | 332 | Exported Function
+`_getdllprocaddr` | 330 | Exported Function
+`_getdcwd` | 328 | Exported Function
+`_getdiskfree` | 329 | Exported Function
+`_getch` | 323 | Exported Function
+`_get_terminate` | 316 | Exported Function
+`_get_thread_local_invalid_parameter_handler` | 317 | Exported Function
+`_get_stream_buffer_pointers` | 315 | Exported Function
+`_get_pgmptr` | 313 | Exported Function
+`_get_printf_count_output` | 314 | Exported Function
+`_get_wpgmptr` | 321 | Exported Function
+`_getc_nolock` | 322 | Exported Function
+`_get_wide_winmain_command_line` | 320 | Exported Function
+`_get_timezone` | 318 | Exported Function
+`_get_tzname` | 319 | Exported Function
+`_getmaxstdio` | 333 | Exported Function
+`_gmtime32_s` | 346 | Exported Function
+`_gmtime64` | 347 | Exported Function
+`_gmtime32` | 345 | Exported Function
+`_getws` | 343 | Exported Function
+`_getws_s` | 344 | Exported Function
+`_heapwalk` | 351 | Exported Function
+`_hypot` | 352 | Exported Function
+`_heapmin` | 350 | Exported Function
+`_gmtime64_s` | 348 | Exported Function
+`_heapchk` | 349 | Exported Function
+`_getwche_nolock` | 342 | Exported Function
+`_getsystime` | 336 | Exported Function
+`_Gettnames` | 26 | Exported Function
+`_getpid` | 335 | Exported Function
+`_getmbcp` | 334 | Exported Function
+`_Getmonths` | 25 | Exported Function
+`_getwch_nolock` | 340 | Exported Function
+`_getwche` | 341 | Exported Function
+`_getwch` | 339 | Exported Function
+`_getw` | 337 | Exported Function
+`_getwc_nolock` | 338 | Exported Function
+`_fstat32i64` | 284 | Exported Function
+`_fstat64` | 285 | Exported Function
+`_fstat32` | 283 | Exported Function
+`_fseeki64_nolock` | 281 | Exported Function
+`_fsopen` | 282 | Exported Function
+`_ftelli64_nolock` | 289 | Exported Function
+`_ftime32` | 290 | Exported Function
+`_ftelli64` | 288 | Exported Function
+`_fstat64i32` | 286 | Exported Function
+`_ftell_nolock` | 287 | Exported Function
+`_fseeki64` | 280 | Exported Function
+`_fputwc_nolock` | 273 | Exported Function
+`_fputwchar` | 274 | Exported Function
+`_fputchar` | 272 | Exported Function
+`_fpreset` | 270 | Exported Function
+`_fputc_nolock` | 271 | Exported Function
+`_free_locale` | 278 | Exported Function
+`_fseek_nolock` | 279 | Exported Function
+`_free_base` | 277 | Exported Function
+`_fread_nolock` | 275 | Exported Function
+`_fread_nolock_s` | 276 | Exported Function
+`_ftime32_s` | 291 | Exported Function
+`_get_fmode` | 306 | Exported Function
+`_get_heap_handle` | 307 | Exported Function
+`_get_errno` | 305 | Exported Function
+`_get_doserrno` | 303 | Exported Function
+`_get_dstbias` | 304 | Exported Function
+`_get_narrow_winmain_command_line` | 311 | Exported Function
+`_get_osfhandle` | 312 | Exported Function
+`_get_invalid_parameter_handler` | 310 | Exported Function
+`_get_initial_narrow_environment` | 308 | Exported Function
+`_get_initial_wide_environment` | 309 | Exported Function
+`_get_daylight` | 302 | Exported Function
+`_fullpath` | 295 | Exported Function
+`_futime32` | 296 | Exported Function
+`_ftol` | 294 | Exported Function
+`_ftime64` | 292 | Exported Function
+`_ftime64_s` | 293 | Exported Function
+`_gcvt_s` | 300 | Exported Function
+`_get_current_locale` | 301 | Exported Function
+`_gcvt` | 299 | Exported Function
+`_futime64` | 297 | Exported Function
+`_fwrite_nolock` | 298 | Exported Function
+`__p__wcmdln` | 92 | Exported Function
+`__p__wenviron` | 93 | Exported Function
+`__p__pgmptr` | 91 | Exported Function
+`__p__mbcasemap` | 89 | Exported Function
+`__p__mbctype` | 90 | Exported Function
+`__pxcptinfoptrs` | 97 | Exported Function
+`__setusermatherr` | 98 | Exported Function
+`__pwctype_func` | 96 | Exported Function
+`__p__wpgmptr` | 94 | Exported Function
+`__pctype_func` | 95 | Exported Function
+`__p__fmode` | 88 | Exported Function
+`__libm_sse2_tanf` | 81 | Exported Function
+`__p___argc` | 82 | Exported Function
+`__libm_sse2_tan` | 80 | Exported Function
+`__libm_sse2_sin` | 78 | Exported Function
+`__libm_sse2_sinf` | 79 | Exported Function
+`__p__commode` | 86 | Exported Function
+`__p__environ` | 87 | Exported Function
+`__p__acmdln` | 85 | Exported Function
+`__p___argv` | 83 | Exported Function
+`__p___wargv` | 84 | Exported Function
+`__stdio_common_vfprintf` | 99 | Exported Function
+`__stdio_common_vswprintf_p` | 114 | Exported Function
+`__stdio_common_vswprintf_s` | 115 | Exported Function
+`__stdio_common_vswprintf` | 113 | Exported Function
+`__stdio_common_vsprintf_s` | 111 | Exported Function
+`__stdio_common_vsscanf` | 112 | Exported Function
+`__sys_nerr` | 119 | Exported Function
+`__threadhandle` | 120 | Exported Function
+`__sys_errlist` | 118 | Exported Function
+`__stdio_common_vswscanf` | 116 | Exported Function
+`__strncnt` | 117 | Exported Function
+`__stdio_common_vsprintf_p` | 110 | Exported Function
+`__stdio_common_vfwprintf` | 103 | Exported Function
+`__stdio_common_vfwprintf_p` | 104 | Exported Function
+`__stdio_common_vfscanf` | 102 | Exported Function
+`__stdio_common_vfprintf_p` | 100 | Exported Function
+`__stdio_common_vfprintf_s` | 101 | Exported Function
+`__stdio_common_vsnwprintf_s` | 108 | Exported Function
+`__stdio_common_vsprintf` | 109 | Exported Function
+`__stdio_common_vsnprintf_s` | 107 | Exported Function
+`__stdio_common_vfwprintf_s` | 105 | Exported Function
+`__stdio_common_vfwscanf` | 106 | Exported Function
+`__control87_2` | 49 | Exported Function
+`__daylight` | 50 | Exported Function
+`__conio_common_vcwscanf` | 48 | Exported Function
+`__conio_common_vcwprintf_p` | 46 | Exported Function
+`__conio_common_vcwprintf_s` | 47 | Exported Function
+`__fpecode` | 54 | Exported Function
+`__initialize_lconv_for_unsigned_char` | 55 | Exported Function
+`__fpe_flt_rounds` | 53 | Exported Function
+`__doserrno` | 51 | Exported Function
+`__dstbias` | 52 | Exported Function
+`__conio_common_vcwprintf` | 45 | Exported Function
+`___mb_cur_max_func` | 38 | Exported Function
+`___mb_cur_max_l_func` | 39 | Exported Function
+`___lc_locale_name_func` | 37 | Exported Function
+`___lc_codepage_func` | 35 | Exported Function
+`___lc_collate_cp_func` | 36 | Exported Function
+`__conio_common_vcprintf_s` | 43 | Exported Function
+`__conio_common_vcscanf` | 44 | Exported Function
+`__conio_common_vcprintf_p` | 42 | Exported Function
+`__acrt_iob_func` | 40 | Exported Function
+`__conio_common_vcprintf` | 41 | Exported Function
+`__isascii` | 56 | Exported Function
+`__libm_sse2_expf` | 71 | Exported Function
+`__libm_sse2_log` | 72 | Exported Function
+`__libm_sse2_exp` | 70 | Exported Function
+`__libm_sse2_cos` | 68 | Exported Function
+`__libm_sse2_cosf` | 69 | Exported Function
+`__libm_sse2_pow` | 76 | Exported Function
+`__libm_sse2_powf` | 77 | Exported Function
+`__libm_sse2_logf` | 75 | Exported Function
+`__libm_sse2_log10` | 73 | Exported Function
+`__libm_sse2_log10f` | 74 | Exported Function
+`__libm_sse2_atanf` | 67 | Exported Function
+`__iswcsymf` | 60 | Exported Function
+`__libm_sse2_acos` | 61 | Exported Function
+`__iswcsym` | 59 | Exported Function
+`__iscsym` | 57 | Exported Function
+`__iscsymf` | 58 | Exported Function
+`__libm_sse2_atan` | 65 | Exported Function
+`__libm_sse2_atan2` | 66 | Exported Function
+`__libm_sse2_asinf` | 64 | Exported Function
+`__libm_sse2_acosf` | 62 | Exported Function
+`__libm_sse2_asin` | 63 | Exported Function
+`_CIatan2` | 4 | Exported Function
+`_CIcos` | 5 | Exported Function
+`_CIatan` | 3 | Exported Function
+`_CIacos` | 1 | Exported Function
+`_CIasin` | 2 | Exported Function
+`_CIlog` | 9 | Exported Function
+`_CIlog10` | 10 | Exported Function
+`_CIfmod` | 8 | Exported Function
+`_CIcosh` | 6 | Exported Function
+`_CIexp` | 7 | Exported Function
+`_chsize_s` | 173 | Exported Function
+`_cgetws_s` | 166 | Exported Function
+`_chdir` | 167 | Exported Function
+`_cgetws` | 165 | Exported Function
+`_cgets` | 163 | Exported Function
+`_cgets_s` | 164 | Exported Function
+`_chmod` | 171 | Exported Function
+`_chsize` | 172 | Exported Function
+`_chgsignf` | 170 | Exported Function
+`_chdrive` | 168 | Exported Function
+`_chgsign` | 169 | Exported Function
+`_CIpow` | 11 | Exported Function
+`_controlfp` | 181 | Exported Function
+`_controlfp_s` | 182 | Exported Function
+`_control87` | 180 | Exported Function
+`_configure_narrow_argv` | 178 | Exported Function
+`_configure_wide_argv` | 179 | Exported Function
+`_cputws` | 186 | Exported Function
+`_creat` | 187 | Exported Function
+`_cputs` | 185 | Exported Function
+`_copysign` | 183 | Exported Function
+`_copysignf` | 184 | Exported Function
+`_configthreadlocale` | 177 | Exported Function
+`_CItan` | 15 | Exported Function
+`_CItanh` | 16 | Exported Function
+`_CIsqrt` | 14 | Exported Function
+`_CIsin` | 12 | Exported Function
+`_CIsinh` | 13 | Exported Function
+`_Cmulcr` | 19 | Exported Function
+`_commit` | 176 | Exported Function
+`_Cmulcc` | 18 | Exported Function
+`_clearfp` | 174 | Exported Function
+`_close` | 175 | Exported Function
+`_aligned_offset_realloc` | 135 | Exported Function
+`_aligned_offset_recalloc` | 136 | Exported Function
+`_aligned_offset_malloc` | 134 | Exported Function
+`_aligned_malloc` | 132 | Exported Function
+`_aligned_msize` | 133 | Exported Function
+`_atodbl` | 140 | Exported Function
+`_atodbl_l` | 141 | Exported Function
+`_assert` | 139 | Exported Function
+`_aligned_realloc` | 137 | Exported Function
+`_aligned_recalloc` | 138 | Exported Function
+`_aligned_free` | 131 | Exported Function
+`__tzname` | 124 | Exported Function
+`__wcserror` | 125 | Exported Function
+`__toascii` | 123 | Exported Function
+`__threadid` | 121 | Exported Function
+`__timezone` | 122 | Exported Function
+`_access` | 129 | Exported Function
+`_access_s` | 130 | Exported Function
+`_abs64` | 128 | Exported Function
+`__wcserror_s` | 126 | Exported Function
+`__wcsncnt` | 127 | Exported Function
+`_atof_l` | 142 | Exported Function
+`_byteswap_ushort` | 157 | Exported Function
+`_c_exit` | 158 | Exported Function
+`_byteswap_ulong` | 156 | Exported Function
+`_beginthreadex` | 154 | Exported Function
+`_byteswap_uint64` | 155 | Exported Function
+`_Cbuild` | 17 | Exported Function
+`_cexit` | 162 | Exported Function
+`_calloc_base` | 161 | Exported Function
+`_cabs` | 159 | Exported Function
+`_callnewh` | 160 | Exported Function
+`_beginthread` | 153 | Exported Function
+`_atoi64_l` | 146 | Exported Function
+`_atoi_l` | 147 | Exported Function
+`_atoi64` | 145 | Exported Function
+`_atoflt` | 143 | Exported Function
+`_atoflt_l` | 144 | Exported Function
+`_atoll_l` | 151 | Exported Function
+`_beep` | 152 | Exported Function
+`_atoldbl_l` | 150 | Exported Function
+`_atol_l` | 148 | Exported Function
+`_atoldbl` | 149 | Exported Function
+`_hypotf` | 353 | Exported Function
+`_mbsnbcpy_l` | 580 | Exported Function
+`_mbsnbcpy_s` | 581 | Exported Function
+`_mbsnbcpy` | 579 | Exported Function
+`_mbsnbcoll` | 577 | Exported Function
+`_mbsnbcoll_l` | 578 | Exported Function
+`_mbsnbicoll` | 585 | Exported Function
+`_mbsnbicoll_l` | 586 | Exported Function
+`_mbsnbicmp_l` | 584 | Exported Function
+`_mbsnbcpy_s_l` | 582 | Exported Function
+`_mbsnbicmp` | 583 | Exported Function
+`_mbsnbcnt_l` | 576 | Exported Function
+`_mbsnbcat` | 569 | Exported Function
+`_mbsnbcat_l` | 570 | Exported Function
+`_mbslwr_s_l` | 568 | Exported Function
+`_mbslwr_l` | 566 | Exported Function
+`_mbslwr_s` | 567 | Exported Function
+`_mbsnbcmp_l` | 574 | Exported Function
+`_mbsnbcnt` | 575 | Exported Function
+`_mbsnbcmp` | 573 | Exported Function
+`_mbsnbcat_s` | 571 | Exported Function
+`_mbsnbcat_s_l` | 572 | Exported Function
+`_mbsnbset` | 587 | Exported Function
+`_mbsncpy_l` | 602 | Exported Function
+`_mbsncpy_s` | 603 | Exported Function
+`_mbsncpy` | 601 | Exported Function
+`_mbsncoll` | 599 | Exported Function
+`_mbsncoll_l` | 600 | Exported Function
+`_mbsnicmp` | 607 | Exported Function
+`_mbsnicmp_l` | 608 | Exported Function
+`_mbsnextc_l` | 606 | Exported Function
+`_mbsncpy_s_l` | 604 | Exported Function
+`_mbsnextc` | 605 | Exported Function
+`_mbsncmp_l` | 598 | Exported Function
+`_mbsncat` | 591 | Exported Function
+`_mbsncat_l` | 592 | Exported Function
+`_mbsnbset_s_l` | 590 | Exported Function
+`_mbsnbset_l` | 588 | Exported Function
+`_mbsnbset_s` | 589 | Exported Function
+`_mbsnccnt_l` | 596 | Exported Function
+`_mbsncmp` | 597 | Exported Function
+`_mbsnccnt` | 595 | Exported Function
+`_mbsncat_s` | 593 | Exported Function
+`_mbsncat_s_l` | 594 | Exported Function
+`_mbctoupper` | 537 | Exported Function
+`_mbctoupper_l` | 538 | Exported Function
+`_mbctombb_l` | 536 | Exported Function
+`_mbctolower_l` | 534 | Exported Function
+`_mbctombb` | 535 | Exported Function
+`_mbscat_s` | 542 | Exported Function
+`_mbscat_s_l` | 543 | Exported Function
+`_mbsbtype_l` | 541 | Exported Function
+`_mblen_l` | 539 | Exported Function
+`_mbsbtype` | 540 | Exported Function
+`_mbctolower` | 533 | Exported Function
+`_mbcjmstojis_l` | 526 | Exported Function
+`_mbclen` | 527 | Exported Function
+`_mbcjmstojis` | 525 | Exported Function
+`_mbcjistojms` | 523 | Exported Function
+`_mbcjistojms_l` | 524 | Exported Function
+`_mbctokata` | 531 | Exported Function
+`_mbctokata_l` | 532 | Exported Function
+`_mbctohira_l` | 530 | Exported Function
+`_mbclen_l` | 528 | Exported Function
+`_mbctohira` | 529 | Exported Function
+`_mbschr` | 544 | Exported Function
+`_mbsicoll` | 559 | Exported Function
+`_mbsicoll_l` | 560 | Exported Function
+`_mbsicmp_l` | 558 | Exported Function
+`_mbsdup` | 556 | Exported Function
+`_mbsicmp` | 557 | Exported Function
+`_mbslen_l` | 564 | Exported Function
+`_mbslwr` | 565 | Exported Function
+`_mbslen` | 563 | Exported Function
+`_mbsinc` | 561 | Exported Function
+`_mbsinc_l` | 562 | Exported Function
+`_mbsdec_l` | 555 | Exported Function
+`_mbscoll` | 548 | Exported Function
+`_mbscoll_l` | 549 | Exported Function
+`_mbscmp_l` | 547 | Exported Function
+`_mbschr_l` | 545 | Exported Function
+`_mbscmp` | 546 | Exported Function
+`_mbscspn_l` | 553 | Exported Function
+`_mbsdec` | 554 | Exported Function
+`_mbscspn` | 552 | Exported Function
+`_mbscpy_s` | 550 | Exported Function
+`_mbscpy_s_l` | 551 | Exported Function
+`_popen` | 666 | Exported Function
+`_putc_nolock` | 667 | Exported Function
+`_pipe` | 665 | Exported Function
+`_open_osfhandle` | 663 | Exported Function
+`_pclose` | 664 | Exported Function
+`_putenv_s` | 671 | Exported Function
+`_putw` | 672 | Exported Function
+`_putenv` | 670 | Exported Function
+`_putch` | 668 | Exported Function
+`_putch_nolock` | 669 | Exported Function
+`_open` | 662 | Exported Function
+`_mkgmtime64` | 655 | Exported Function
+`_mktemp` | 656 | Exported Function
+`_mkgmtime32` | 654 | Exported Function
+`_memicmp_l` | 652 | Exported Function
+`_mkdir` | 653 | Exported Function
+`_msize` | 660 | Exported Function
+`_nextafter` | 661 | Exported Function
+`_mktime64` | 659 | Exported Function
+`_mktemp_s` | 657 | Exported Function
+`_mktime32` | 658 | Exported Function
+`_putwc_nolock` | 673 | Exported Function
+`_rotl` | 688 | Exported Function
+`_rotl64` | 689 | Exported Function
+`_rmtmp` | 687 | Exported Function
+`_resetstkoflw` | 685 | Exported Function
+`_rmdir` | 686 | Exported Function
+`_searchenv` | 693 | Exported Function
+`_searchenv_s` | 694 | Exported Function
+`_scalb` | 692 | Exported Function
+`_rotr` | 690 | Exported Function
+`_rotr64` | 691 | Exported Function
+`_register_thread_local_exe_atexit_callback` | 684 | Exported Function
+`_query_app_type` | 677 | Exported Function
+`_query_new_handler` | 678 | Exported Function
+`_putws` | 676 | Exported Function
+`_putwch` | 674 | Exported Function
+`_putwch_nolock` | 675 | Exported Function
+`_recalloc` | 682 | Exported Function
+`_register_onexit_function` | 683 | Exported Function
+`_realloc_base` | 681 | Exported Function
+`_query_new_mode` | 679 | Exported Function
+`_read` | 680 | Exported Function
+`_mbsrev` | 623 | Exported Function
+`_mbsrev_l` | 624 | Exported Function
+`_mbsrchr_l` | 622 | Exported Function
+`_mbspbrk_l` | 620 | Exported Function
+`_mbsrchr` | 621 | Exported Function
+`_mbsset_s_l` | 628 | Exported Function
+`_mbsspn` | 629 | Exported Function
+`_mbsset_s` | 627 | Exported Function
+`_mbsset` | 625 | Exported Function
+`_mbsset_l` | 626 | Exported Function
+`_mbspbrk` | 619 | Exported Function
+`_mbsninc_l` | 612 | Exported Function
+`_mbsnlen` | 613 | Exported Function
+`_mbsninc` | 611 | Exported Function
+`_mbsnicoll` | 609 | Exported Function
+`_mbsnicoll_l` | 610 | Exported Function
+`_mbsnset_s` | 617 | Exported Function
+`_mbsnset_s_l` | 618 | Exported Function
+`_mbsnset_l` | 616 | Exported Function
+`_mbsnlen_l` | 614 | Exported Function
+`_mbsnset` | 615 | Exported Function
+`_mbsspn_l` | 630 | Exported Function
+`_mbsupr` | 645 | Exported Function
+`_mbsupr_l` | 646 | Exported Function
+`_mbstrnlen_l` | 644 | Exported Function
+`_mbstrlen_l` | 642 | Exported Function
+`_mbstrnlen` | 643 | Exported Function
+`_memccpy` | 650 | Exported Function
+`_memicmp` | 651 | Exported Function
+`_mbtowc_l` | 649 | Exported Function
+`_mbsupr_s` | 647 | Exported Function
+`_mbsupr_s_l` | 648 | Exported Function
+`_mbstrlen` | 641 | Exported Function
+`_mbsstr_l` | 634 | Exported Function
+`_mbstok` | 635 | Exported Function
+`_mbsstr` | 633 | Exported Function
+`_mbsspnp` | 631 | Exported Function
+`_mbsspnp_l` | 632 | Exported Function
+`_mbstowcs_l` | 639 | Exported Function
+`_mbstowcs_s_l` | 640 | Exported Function
+`_mbstok_s_l` | 638 | Exported Function
+`_mbstok_l` | 636 | Exported Function
+`_mbstok_s` | 637 | Exported Function
+`_ismbchira` | 411 | Exported Function
+`_ismbchira_l` | 412 | Exported Function
+`_ismbcgraph_l` | 410 | Exported Function
+`_ismbcdigit_l` | 408 | Exported Function
+`_ismbcgraph` | 409 | Exported Function
+`_ismbcl0_l` | 416 | Exported Function
+`_ismbcl1` | 417 | Exported Function
+`_ismbcl0` | 415 | Exported Function
+`_ismbckata` | 413 | Exported Function
+`_ismbckata_l` | 414 | Exported Function
+`_ismbcdigit` | 407 | Exported Function
+`_ismbbtrail_l` | 400 | Exported Function
+`_ismbcalnum` | 401 | Exported Function
+`_ismbbtrail` | 399 | Exported Function
+`_ismbbpunct` | 397 | Exported Function
+`_ismbbpunct_l` | 398 | Exported Function
+`_ismbcblank` | 405 | Exported Function
+`_ismbcblank_l` | 406 | Exported Function
+`_ismbcalpha_l` | 404 | Exported Function
+`_ismbcalnum_l` | 402 | Exported Function
+`_ismbcalpha` | 403 | Exported Function
+`_ismbcl1_l` | 418 | Exported Function
+`_ismbcupper` | 433 | Exported Function
+`_ismbcupper_l` | 434 | Exported Function
+`_ismbcsymbol_l` | 432 | Exported Function
+`_ismbcspace_l` | 430 | Exported Function
+`_ismbcsymbol` | 431 | Exported Function
+`_ismbstrail_l` | 438 | Exported Function
+`_isnan` | 439 | Exported Function
+`_ismbstrail` | 437 | Exported Function
+`_ismbslead` | 435 | Exported Function
+`_ismbslead_l` | 436 | Exported Function
+`_ismbcspace` | 429 | Exported Function
+`_ismbclegal_l` | 422 | Exported Function
+`_ismbclower` | 423 | Exported Function
+`_ismbclegal` | 421 | Exported Function
+`_ismbcl2` | 419 | Exported Function
+`_ismbcl2_l` | 420 | Exported Function
+`_ismbcpunct` | 427 | Exported Function
+`_ismbcpunct_l` | 428 | Exported Function
+`_ismbcprint_l` | 426 | Exported Function
+`_ismbclower_l` | 424 | Exported Function
+`_ismbcprint` | 425 | Exported Function
+`_isatty` | 368 | Exported Function
+`_isblank_l` | 369 | Exported Function
+`_isalpha_l` | 367 | Exported Function
+`_invoke_watson` | 365 | Exported Function
+`_isalnum_l` | 366 | Exported Function
+`_isdigit_l` | 373 | Exported Function
+`_isgraph_l` | 374 | Exported Function
+`_isctype_l` | 372 | Exported Function
+`_iscntrl_l` | 370 | Exported Function
+`_isctype` | 371 | Exported Function
+`_invalid_parameter_noinfo_noreturn` | 364 | Exported Function
+`_i64tow_s` | 357 | Exported Function
+`_initialize_narrow_environment` | 358 | Exported Function
+`_i64tow` | 356 | Exported Function
+`_i64toa` | 354 | Exported Function
+`_i64toa_s` | 355 | Exported Function
+`_initterm_e` | 362 | Exported Function
+`_invalid_parameter_noinfo` | 363 | Exported Function
+`_initterm` | 361 | Exported Function
+`_initialize_onexit_table` | 359 | Exported Function
+`_initialize_wide_environment` | 360 | Exported Function
+`_isleadbyte_l` | 375 | Exported Function
+`_ismbbkprint_l` | 390 | Exported Function
+`_ismbbkpunct` | 391 | Exported Function
+`_ismbbkprint` | 389 | Exported Function
+`_ismbbkana` | 387 | Exported Function
+`_ismbbkana_l` | 388 | Exported Function
+`_ismbbprint` | 395 | Exported Function
+`_ismbbprint_l` | 396 | Exported Function
+`_ismbblead_l` | 394 | Exported Function
+`_ismbbkpunct_l` | 392 | Exported Function
+`_ismbblead` | 393 | Exported Function
+`_ismbbkalnum_l` | 386 | Exported Function
+`_ismbbalpha` | 379 | Exported Function
+`_ismbbalpha_l` | 380 | Exported Function
+`_ismbbalnum_l` | 378 | Exported Function
+`_islower_l` | 376 | Exported Function
+`_ismbbalnum` | 377 | Exported Function
+`_ismbbgraph_l` | 384 | Exported Function
+`_ismbbkalnum` | 385 | Exported Function
+`_ismbbgraph` | 383 | Exported Function
+`_ismbbblank` | 381 | Exported Function
+`_ismbbblank_l` | 382 | Exported Function
+`_localtime32_s` | 494 | Exported Function
+`_localtime64` | 495 | Exported Function
+`_localtime32` | 493 | Exported Function
+`_libm_sse2_tan_precise` | 491 | Exported Function
+`_loaddll` | 492 | Exported Function
+`_locking` | 499 | Exported Function
+`_logb` | 500 | Exported Function
+`_lock_locales` | 498 | Exported Function
+`_localtime64_s` | 496 | Exported Function
+`_lock_file` | 497 | Exported Function
+`_libm_sse2_sqrt_precise` | 490 | Exported Function
+`_libm_sse2_atan_precise` | 483 | Exported Function
+`_libm_sse2_cos_precise` | 484 | Exported Function
+`_libm_sse2_asin_precise` | 482 | Exported Function
+`_lfind_s` | 480 | Exported Function
+`_libm_sse2_acos_precise` | 481 | Exported Function
+`_libm_sse2_pow_precise` | 488 | Exported Function
+`_libm_sse2_sin_precise` | 489 | Exported Function
+`_libm_sse2_log_precise` | 487 | Exported Function
+`_libm_sse2_exp_precise` | 485 | Exported Function
+`_libm_sse2_log10_precise` | 486 | Exported Function
+`_lrotl` | 501 | Exported Function
+`_mbbtype` | 516 | Exported Function
+`_mbbtype_l` | 517 | Exported Function
+`_mbbtombc_l` | 515 | Exported Function
+`_malloc_base` | 513 | Exported Function
+`_mbbtombc` | 514 | Exported Function
+`_mbccpy_s` | 521 | Exported Function
+`_mbccpy_s_l` | 522 | Exported Function
+`_mbccpy_l` | 520 | Exported Function
+`_mbcasemap` | 518 | Exported Function
+`_mbccpy` | 519 | Exported Function
+`_makepath_s` | 512 | Exported Function
+`_lseek` | 505 | Exported Function
+`_lseeki64` | 506 | Exported Function
+`_lsearch_s` | 504 | Exported Function
+`_lrotr` | 502 | Exported Function
+`_lsearch` | 503 | Exported Function
+`_ltow_s` | 510 | Exported Function
+`_makepath` | 511 | Exported Function
+`_ltow` | 509 | Exported Function
+`_ltoa` | 507 | Exported Function
+`_ltoa_s` | 508 | Exported Function
+`_iswprint_l` | 454 | Exported Function
+`_iswpunct_l` | 455 | Exported Function
+`_iswlower_l` | 453 | Exported Function
+`_iswdigit_l` | 451 | Exported Function
+`_iswgraph_l` | 452 | Exported Function
+`_isxdigit_l` | 459 | Exported Function
+`_itoa` | 460 | Exported Function
+`_iswxdigit_l` | 458 | Exported Function
+`_iswspace_l` | 456 | Exported Function
+`_iswupper_l` | 457 | Exported Function
+`_iswctype_l` | 450 | Exported Function
+`_isupper_l` | 443 | Exported Function
+`_iswalnum_l` | 444 | Exported Function
+`_isspace_l` | 442 | Exported Function
+`_isprint_l` | 440 | Exported Function
+`_ispunct_l` | 441 | Exported Function
+`_iswcsym_l` | 448 | Exported Function
+`_iswcsymf_l` | 449 | Exported Function
+`_iswcntrl_l` | 447 | Exported Function
+`_iswalpha_l` | 445 | Exported Function
+`_iswblank_l` | 446 | Exported Function
+`_itoa_s` | 461 | Exported Function
+`_ldpoly` | 473 | Exported Function
+`_ldscale` | 474 | Exported Function
+`_ldpcomp` | 472 | Exported Function
+`_ldexp` | 470 | Exported Function
+`_ldlog` | 471 | Exported Function
+`_ldunscale` | 478 | Exported Function
+`_lfind` | 479 | Exported Function
+`_ldtest` | 477 | Exported Function
+`_ldsign` | 475 | Exported Function
+`_ldsin` | 476 | Exported Function
+`_ldclass` | 469 | Exported Function
+`_j1` | 465 | Exported Function
+`_jn` | 466 | Exported Function
+`_j0` | 464 | Exported Function
+`_itow` | 462 | Exported Function
+`_itow_s` | 463 | Exported Function
+`_LCmulcr` | 29 | Exported Function
+`_ld_int` | 468 | Exported Function
+`_LCmulcc` | 28 | Exported Function
+`_kbhit` | 467 | Exported Function
+`_LCbuild` | 27 | Exported Function
 
 
 ## Signature

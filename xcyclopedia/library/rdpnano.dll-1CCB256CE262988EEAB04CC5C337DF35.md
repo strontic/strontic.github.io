@@ -24,13 +24,13 @@ PE256 | `8E1B5485B7043BE7D3798289924C34E40085D19618843D88C90B8D3E23F84614`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateRdpUdpStreamWrapper` | 1 (0x1) | Exported Function | 0x0000000180013f70 | 0x00013f70
-`CreateRdpWebSocketStreamWrapper` | 2 (0x2) | Exported Function | 0x000000018002b1f0 | 0x0002b1f0
-`DllMain` | 5 (0x5) | Exported Function | 0x0000000180002440 | 0x00002440
-`FreeRdpUdpStreamWrapper` | 3 (0x3) | Exported Function | 0x0000000180014af0 | 0x00014af0
-`FreeRdpWebSocketStreamWrapper` | 4 (0x4) | Exported Function | 0x000000018002b270 | 0x0002b270
+Function Name | Ordinal | Type
+-- | -- | --
+`FreeRdpUdpStreamWrapper` | 3 | Exported Function
+`FreeRdpWebSocketStreamWrapper` | 4 | Exported Function
+`DllMain` | 5 | Exported Function
+`CreateRdpUdpStreamWrapper` | 1 | Exported Function
+`CreateRdpWebSocketStreamWrapper` | 2 | Exported Function
 
 
 ## Signature

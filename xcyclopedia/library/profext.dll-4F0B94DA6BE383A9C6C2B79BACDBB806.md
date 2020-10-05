@@ -24,29 +24,29 @@ PE256 | `5D803423277FD3167E210122AAC27071DA3354FADB744688E80E6F6689178CC4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateAppContainerProfileWorker` | 1 (0x1) | Exported Function | 0x10008fb0 | 0x00008fb0
-`RsopResetPolicySettingStatusWorker` | 19 (0x13) | Exported Function | 0x10016ee0 | 0x00016ee0
-`RsopFileAccessCheckWorker` | 18 (0x12) | Exported Function | 0x10016eb0 | 0x00016eb0
-`RsopAccessCheckByTypeWorker` | 17 (0x11) | Exported Function | 0x10016e80 | 0x00016e80
-`ProcessGroupPolicyCompletedWorker` | 16 (0x10) | Exported Function | 0x10016e50 | 0x00016e50
-`ProcessGroupPolicyCompletedExWorker` | 15 (0xf) | Exported Function | 0x10016e20 | 0x00016e20
-`LookupAppContainerDisplayNameWorker` | 14 (0xe) | Exported Function | 0x10014780 | 0x00014780
-`IsAppContainerProfilePresentWorker` | 13 (0xd) | Exported Function | 0x100061e0 | 0x000061e0
-`GetAppContainerRegistryLocationWorker` | 12 (0xc) | Exported Function | 0x1000ab10 | 0x0000ab10
-`RsopSetPolicySettingStatusWorker` | 20 (0x14) | Exported Function | 0x10016f10 | 0x00016f10
-`GetAppContainerFolderPathWorker` | 11 (0xb) | Exported Function | 0x1000b210 | 0x0000b210
-`DeriveAppContainerSidFromAppContainerNameWorker` | 9 (0x9) | Exported Function | 0x1000ab90 | 0x0000ab90
-`DeleteLinkFileWorker` | 8 (0x8) | Exported Function | 0x10017f10 | 0x00017f10
-`DeleteGroupWorker` | 7 (0x7) | Exported Function | 0x10017bf0 | 0x00017bf0
-`DeleteAppContainerProfileWorker` | 6 (0x6) | Exported Function | 0x10008a80 | 0x00008a80
-`CreateLinkFileExWorker` | 5 (0x5) | Exported Function | 0x10017770 | 0x00017770
-`CreateGroupExWorker` | 4 (0x4) | Exported Function | 0x10017610 | 0x00017610
-`CreateDirectoryJunctionsForUserProfileWorker` | 3 (0x3) | Exported Function | 0x10016130 | 0x00016130
-`CreateDirectoryJunctionsForSystemWorker` | 2 (0x2) | Exported Function | 0x10015dd0 | 0x00015dd0
-`DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedNameWorker` | 10 (0xa) | Exported Function | 0x1000bb80 | 0x0000bb80
-`UpdateAppContainerProfileWorker` | 21 (0x15) | Exported Function | 0x10005f10 | 0x00005f10
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessGroupPolicyCompletedExWorker` | 15 | Exported Function
+`ProcessGroupPolicyCompletedWorker` | 16 | Exported Function
+`LookupAppContainerDisplayNameWorker` | 14 | Exported Function
+`GetAppContainerRegistryLocationWorker` | 12 | Exported Function
+`IsAppContainerProfilePresentWorker` | 13 | Exported Function
+`RsopSetPolicySettingStatusWorker` | 20 | Exported Function
+`UpdateAppContainerProfileWorker` | 21 | Exported Function
+`RsopResetPolicySettingStatusWorker` | 19 | Exported Function
+`RsopAccessCheckByTypeWorker` | 17 | Exported Function
+`RsopFileAccessCheckWorker` | 18 | Exported Function
+`GetAppContainerFolderPathWorker` | 11 | Exported Function
+`CreateGroupExWorker` | 4 | Exported Function
+`CreateLinkFileExWorker` | 5 | Exported Function
+`CreateDirectoryJunctionsForUserProfileWorker` | 3 | Exported Function
+`CreateAppContainerProfileWorker` | 1 | Exported Function
+`CreateDirectoryJunctionsForSystemWorker` | 2 | Exported Function
+`DeriveAppContainerSidFromAppContainerNameWorker` | 9 | Exported Function
+`DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedNameWorker` | 10 | Exported Function
+`DeleteLinkFileWorker` | 8 | Exported Function
+`DeleteAppContainerProfileWorker` | 6 | Exported Function
+`DeleteGroupWorker` | 7 | Exported Function
 
 
 ## Signature

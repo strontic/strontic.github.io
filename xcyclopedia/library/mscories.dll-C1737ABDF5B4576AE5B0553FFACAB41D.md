@@ -26,10 +26,10 @@ PE256 | `ECA1BF8EFEE52A0191967C00598FF5E05B93DDA21A9C0E9148518962AE71A056`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Install` | 1 (0x1) | Exported Function | 0x00000642ff9f3410 | 0x00003410
-`Uninstall` | 2 (0x2) | Exported Function | 0x00000642ff9f38f8 | 0x000038f8
+Function Name | Ordinal | Type
+-- | -- | --
+`Uninstall` | 2 | Exported Function
+`Install` | 1 | Exported Function
 
 
 ## Signature

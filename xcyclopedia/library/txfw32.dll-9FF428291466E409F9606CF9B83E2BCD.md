@@ -24,17 +24,17 @@ PE256 | `B2948A26825772C609D22C28921EDC3C7565EB6B9710988057AC69DB05E2742A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TxfGetThreadMiniVersionForCreate` | 1 (0x1) | Exported Function | 0x10001b10 | 0x00001b10
-`TxfLogCreateFileReadContext` | 2 (0x2) | Exported Function | 0x100013b0 | 0x000013b0
-`TxfLogCreateRangeReadContext` | 3 (0x3) | Exported Function | 0x100014e0 | 0x000014e0
-`TxfLogDestroyReadContext` | 4 (0x4) | Exported Function | 0x10001500 | 0x00001500
-`TxfLogReadRecords` | 5 (0x5) | Exported Function | 0x10001590 | 0x00001590
-`TxfLogRecordGetFileName` | 6 (0x6) | Exported Function | 0x10001ba0 | 0x00001ba0
-`TxfLogRecordGetGenericType` | 7 (0x7) | Exported Function | 0x10001fb0 | 0x00001fb0
-`TxfReadMetadataInfo` | 8 (0x8) | Exported Function | 0x10001740 | 0x00001740
-`TxfSetThreadMiniVersionForCreate` | 9 (0x9) | Exported Function | 0x10001af0 | 0x00001af0
+Function Name | Ordinal | Type
+-- | -- | --
+`TxfLogRecordGetGenericType` | 7 | Exported Function
+`TxfLogRecordGetFileName` | 6 | Exported Function
+`TxfSetThreadMiniVersionForCreate` | 9 | Exported Function
+`TxfReadMetadataInfo` | 8 | Exported Function
+`TxfLogReadRecords` | 5 | Exported Function
+`TxfLogCreateFileReadContext` | 2 | Exported Function
+`TxfGetThreadMiniVersionForCreate` | 1 | Exported Function
+`TxfLogDestroyReadContext` | 4 | Exported Function
+`TxfLogCreateRangeReadContext` | 3 | Exported Function
 
 
 ## Signature

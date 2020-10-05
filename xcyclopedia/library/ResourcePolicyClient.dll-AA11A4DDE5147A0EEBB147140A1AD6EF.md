@@ -24,23 +24,23 @@ PE256 | `80FDED5C83C3501B5337E882B5DCBD26413FCAAB2F7BE6B5B7FF986C760CF142`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateGameConfigStoreClient` | 1 (0x1) | Exported Function | 0x10003d10 | 0x00003d10
-`CreateResourcePolicyEngineClient` | 2 (0x2) | Exported Function | 0x10002c20 | 0x00002c20
-`CreateResourcePolicyStoreClient` | 3 (0x3) | Exported Function | 0x10003330 | 0x00003330
-`FreeGameConfigStoreClient` | 4 (0x4) | Exported Function | 0x10003cd0 | 0x00003cd0
-`FreeResourcePolicyStoreClient` | 5 (0x5) | Exported Function | 0x10003e10 | 0x00003e10
-`InterruptiveUIStateChanged_Subscribe` | 6 (0x6) | Exported Function | 0x10002a60 | 0x00002a60
-`InterruptiveUIStateChanged_Unsubscribe` | 7 (0x7) | Exported Function | 0x10005bf0 | 0x00005bf0
-`QueryApplicationInterruptiveUIState` | 8 (0x8) | Exported Function | 0x10005c70 | 0x00005c70
-`QueryApplicationInterruptiveUIStateByPsmKey` | 9 (0x9) | Exported Function | 0x10005d10 | 0x00005d10
-`QueryPackageInterruptiveUIState` | 10 (0xa) | Exported Function | 0x10005db0 | 0x00005db0
-`ResourcePolicy_GetGlobalProcessAffinityMask` | 11 (0xb) | Exported Function | 0x10005e50 | 0x00005e50
-`ResourcePolicy_GetProcessAffinityMask` | 12 (0xc) | Exported Function | 0x10005e60 | 0x00005e60
-`ResourcePolicy_RevertProcessAffinityMask` | 13 (0xd) | Exported Function | 0x10005e70 | 0x00005e70
-`ResourcePolicy_SetGlobalProcessAffinityMask` | 14 (0xe) | Exported Function | 0x10005e50 | 0x00005e50
-`ResourcePolicy_SetProcessAffinityMask` | 15 (0xf) | Exported Function | 0x10005e60 | 0x00005e60
+Function Name | Ordinal | Type
+-- | -- | --
+`ResourcePolicy_GetGlobalProcessAffinityMask` | 11 | Exported Function
+`QueryPackageInterruptiveUIState` | 10 | Exported Function
+`QueryApplicationInterruptiveUIStateByPsmKey` | 9 | Exported Function
+`ResourcePolicy_GetProcessAffinityMask` | 12 | Exported Function
+`ResourcePolicy_SetProcessAffinityMask` | 15 | Exported Function
+`ResourcePolicy_SetGlobalProcessAffinityMask` | 14 | Exported Function
+`ResourcePolicy_RevertProcessAffinityMask` | 13 | Exported Function
+`QueryApplicationInterruptiveUIState` | 8 | Exported Function
+`CreateResourcePolicyStoreClient` | 3 | Exported Function
+`CreateResourcePolicyEngineClient` | 2 | Exported Function
+`CreateGameConfigStoreClient` | 1 | Exported Function
+`FreeGameConfigStoreClient` | 4 | Exported Function
+`InterruptiveUIStateChanged_Unsubscribe` | 7 | Exported Function
+`InterruptiveUIStateChanged_Subscribe` | 6 | Exported Function
+`FreeResourcePolicyStoreClient` | 5 | Exported Function
 
 
 ## Signature

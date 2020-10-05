@@ -24,20 +24,20 @@ PE256 | `58CDD693D77E5AED7FE472E581D64B48EFEA006A42592F6A3D2CAA00722DB53E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CPlApplet` | 1 (0x1) | Exported Function | 0x10003e30 | 0x00003e30
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x100030d0 | 0x000030d0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x100030f0 | 0x000030f0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x100030c0 | 0x000030c0
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x100030c0 | 0x000030c0
-`USBControllerBandwidthPage` | 6 (0x6) | Exported Function | 0x10003e20 | 0x00003e20
-`USBControllerPropPageProvider` | 7 (0x7) | Exported Function | 0x10003740 | 0x00003740
-`UsbControlPanelApplet` | 12 (0xc) | Exported Function | 0x10003840 | 0x00003840
-`USBDevicePropPageProvider` | 8 (0x8) | Exported Function | 0x100039f0 | 0x000039f0
-`USBErrorHandler` | 9 (0x9) | Exported Function | 0x10003c00 | 0x00003c00
-`USBHubPowerPage` | 10 (0xa) | Exported Function | 0x10003e20 | 0x00003e20
-`USBHubPropPageProvider` | 11 (0xb) | Exported Function | 0x10003a90 | 0x00003a90
+Function Name | Ordinal | Type
+-- | -- | --
+`USBDevicePropPageProvider` | 8 | Exported Function
+`UsbControlPanelApplet` | 12 | Exported Function
+`USBControllerPropPageProvider` | 7 | Exported Function
+`USBHubPropPageProvider` | 11 | Exported Function
+`USBHubPowerPage` | 10 | Exported Function
+`USBErrorHandler` | 9 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CPlApplet` | 1 | Exported Function
+`USBControllerBandwidthPage` | 6 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
 
 
 ## Signature

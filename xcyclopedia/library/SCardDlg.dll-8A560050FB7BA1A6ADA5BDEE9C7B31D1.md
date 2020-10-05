@@ -24,13 +24,13 @@ PE256 | `8ADFDAE9CDC1238F6E6B1FCEEA3A38357CD0FFB444F8B1CDE2F94E14BB5A000B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetOpenCardNameA` | 1 (0x1) | Exported Function | 0x5f2032a0 | 0x000032a0
-`GetOpenCardNameW` | 2 (0x2) | Exported Function | 0x5f203520 | 0x00003520
-`SCardDlgExtendedError` | 3 (0x3) | Exported Function | 0x5f203730 | 0x00003730
-`SCardUIDlgSelectCardA` | 4 (0x4) | Exported Function | 0x5f203740 | 0x00003740
-`SCardUIDlgSelectCardW` | 5 (0x5) | Exported Function | 0x5f203900 | 0x00003900
+Function Name | Ordinal | Type
+-- | -- | --
+`SCardUIDlgSelectCardA` | 4 | Exported Function
+`SCardUIDlgSelectCardW` | 5 | Exported Function
+`SCardDlgExtendedError` | 3 | Exported Function
+`GetOpenCardNameA` | 1 | Exported Function
+`GetOpenCardNameW` | 2 | Exported Function
 
 
 ## Signature

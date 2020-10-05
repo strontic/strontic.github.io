@@ -24,9 +24,9 @@ PE256 | `63F2CE2EA7EEE893308B66E93252A9AD010DEDA4927A91589A7607B8A59F0C0C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TapiSysPrepClean` | 1 (0x1) | Exported Function | 0x00000001800016a0 | 0x000016a0
+Function Name | Ordinal | Type
+-- | -- | --
+`TapiSysPrepClean` | 1 | Exported Function
 
 
 ## Signature

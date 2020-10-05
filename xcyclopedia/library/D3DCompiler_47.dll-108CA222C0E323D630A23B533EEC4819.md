@@ -24,37 +24,37 @@ PE256 | `0376E23F3B6165197B3261BAA488773C3FE7DF80DA0A3DB946F88BFE6C261D36`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`D3DAssemble` | 1 (0x1) | Exported Function | 0x00000001800f2710 | 0x000f2710
-`D3DStripShader` | 28 (0x1c) | Exported Function | 0x00000001800f4610 | 0x000f4610
-`D3DSetBlobPart` | 27 (0x1b) | Exported Function | 0x00000001800f3f70 | 0x000f3f70
-`D3DReturnFailure1` | 26 (0x1a) | Exported Function | 0x0000000180017d80 | 0x00017d80
-`D3DReflectLibrary` | 25 (0x19) | Exported Function | 0x0000000180007410 | 0x00007410
-`D3DReflect` | 24 (0x18) | Exported Function | 0x0000000180007290 | 0x00007290
-`D3DReadFileToBlob` | 23 (0x17) | Exported Function | 0x00000001800f0470 | 0x000f0470
-`D3DPreprocess` | 22 (0x16) | Exported Function | 0x00000001800f36c0 | 0x000f36c0
-`D3DLoadModule` | 21 (0x15) | Exported Function | 0x0000000180007650 | 0x00007650
-`D3DGetTraceInstructionOffsets` | 20 (0x14) | Exported Function | 0x0000000180007210 | 0x00007210
-`D3DGetOutputSignatureBlob` | 19 (0x13) | Exported Function | 0x00000001800f45b0 | 0x000f45b0
-`D3DGetInputSignatureBlob` | 18 (0x12) | Exported Function | 0x00000001800f4580 | 0x000f4580
-`D3DGetInputAndOutputSignatureBlob` | 17 (0x11) | Exported Function | 0x00000001800f45e0 | 0x000f45e0
-`D3DWriteBlobToFile` | 29 (0x1d) | Exported Function | 0x00000001800f06b0 | 0x000f06b0
-`D3DGetDebugInfo` | 16 (0x10) | Exported Function | 0x00000001800f4550 | 0x000f4550
-`D3DDisassembleRegion` | 14 (0xe) | Exported Function | 0x00000001800071c0 | 0x000071c0
-`D3DDisassemble11Trace` | 13 (0xd) | Exported Function | 0x0000000180007250 | 0x00007250
-`D3DDisassemble10Effect` | 12 (0xc) | Exported Function | 0x0000000180016ed0 | 0x00016ed0
-`D3DDisassemble` | 11 (0xb) | Exported Function | 0x0000000180007180 | 0x00007180
-`D3DDecompressShaders` | 10 (0xa) | Exported Function | 0x00000001800f5600 | 0x000f5600
-`D3DCreateLinker` | 9 (0x9) | Exported Function | 0x00000001800075c0 | 0x000075c0
-`D3DCreateFunctionLinkingGraph` | 8 (0x8) | Exported Function | 0x0000000180007750 | 0x00007750
-`D3DCreateBlob` | 7 (0x7) | Exported Function | 0x00000001800075a0 | 0x000075a0
-`D3DCompressShaders` | 6 (0x6) | Exported Function | 0x00000001800f52a0 | 0x000f52a0
-`D3DCompileFromFile` | 5 (0x5) | Exported Function | 0x00000001800f2580 | 0x000f2580
-`D3DCompile2` | 4 (0x4) | Exported Function | 0x00000001800f2470 | 0x000f2470
-`D3DCompile` | 3 (0x3) | Exported Function | 0x00000001800f23f0 | 0x000f23f0
-`D3DGetBlobPart` | 15 (0xf) | Exported Function | 0x00000001800f3f30 | 0x000f3f30
-`DebugSetMute` | 2 (0x2) | Exported Function | 0x0000000180007880 | 0x00007880
+Function Name | Ordinal | Type
+-- | -- | --
+`D3DLoadModule` | 21 | Exported Function
+`D3DPreprocess` | 22 | Exported Function
+`D3DReadFileToBlob` | 23 | Exported Function
+`D3DGetTraceInstructionOffsets` | 20 | Exported Function
+`D3DGetInputAndOutputSignatureBlob` | 17 | Exported Function
+`D3DGetInputSignatureBlob` | 18 | Exported Function
+`D3DGetOutputSignatureBlob` | 19 | Exported Function
+`D3DStripShader` | 28 | Exported Function
+`D3DWriteBlobToFile` | 29 | Exported Function
+`DebugSetMute` | 2 | Exported Function
+`D3DSetBlobPart` | 27 | Exported Function
+`D3DReflect` | 24 | Exported Function
+`D3DReflectLibrary` | 25 | Exported Function
+`D3DReturnFailure1` | 26 | Exported Function
+`D3DGetDebugInfo` | 16 | Exported Function
+`D3DCompressShaders` | 6 | Exported Function
+`D3DCreateBlob` | 7 | Exported Function
+`D3DCreateFunctionLinkingGraph` | 8 | Exported Function
+`D3DCompileFromFile` | 5 | Exported Function
+`D3DAssemble` | 1 | Exported Function
+`D3DCompile` | 3 | Exported Function
+`D3DCompile2` | 4 | Exported Function
+`D3DDisassemble11Trace` | 13 | Exported Function
+`D3DDisassembleRegion` | 14 | Exported Function
+`D3DGetBlobPart` | 15 | Exported Function
+`D3DDisassemble10Effect` | 12 | Exported Function
+`D3DCreateLinker` | 9 | Exported Function
+`D3DDecompressShaders` | 10 | Exported Function
+`D3DDisassemble` | 11 | Exported Function
 
 
 ## Signature

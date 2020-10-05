@@ -24,10 +24,10 @@ PE256 | `AEE40CB80054A793D774FA7EAB3F28E9217C92795E8F4911DAAC139107F9D8DF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__ImagePolicyMetadata` | 2 (0x2) | Exported Function | 0x0000000180021040 | 0x00021040
-`FxDriverEntryUm` | 1 (0x1) | Exported Function | 0x0000000180017170 | 0x00017170
+Function Name | Ordinal | Type
+-- | -- | --
+`FxDriverEntryUm` | 1 | Exported Function
+`__ImagePolicyMetadata` | 2 | Exported Function
 
 
 ## Signature

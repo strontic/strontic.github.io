@@ -24,12 +24,12 @@ PE256 | `9829B47C5F800027D0BD9F4C2119849C88A55B26A3C1270E31C538D79FA5ED53`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OneXGetUserFriendlyText` | 1 (0x1) | Exported Function | 0x10008ea0 | 0x00008ea0
-`OneXMapEAPHostInteractiveUIToOneXUIResponse` | 2 (0x2) | Exported Function | 0x1000c310 | 0x0000c310
-`OneXShowUI` | 3 (0x3) | Exported Function | 0x100091a0 | 0x000091a0
-`OneXShowUIFromEAPCreds` | 4 (0x4) | Exported Function | 0x10009510 | 0x00009510
+Function Name | Ordinal | Type
+-- | -- | --
+`OneXShowUI` | 3 | Exported Function
+`OneXShowUIFromEAPCreds` | 4 | Exported Function
+`OneXGetUserFriendlyText` | 1 | Exported Function
+`OneXMapEAPHostInteractiveUIToOneXUIResponse` | 2 | Exported Function
 
 
 ## Signature

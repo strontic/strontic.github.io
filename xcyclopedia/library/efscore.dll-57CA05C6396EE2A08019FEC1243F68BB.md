@@ -24,81 +24,81 @@ PE256 | `BE66FC94B413B0FE89DE2C32CD060058FC365370E7E03704C18756F71858A4DE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EdpDllAllowFileAccessForProcess` | 2 (0x2) | Exported Function | 0x0000000180041010 | 0x00041010
-`EfsDllOefsReleaseExclusiveOperation` | 52 (0x34) | Exported Function | 0x000000018000d880 | 0x0000d880
-`EfsDllOefsCheckSupportByFilePath` | 51 (0x33) | Exported Function | 0x0000000180048930 | 0x00048930
-`EfsDllOefsAcquireExclusiveOperation` | 50 (0x32) | Exported Function | 0x000000018000d870 | 0x0000d870
-`EfsDllMarkFileForDelete` | 49 (0x31) | Exported Function | 0x000000018000abc0 | 0x0000abc0
-`EfsDllLoadUserProfile` | 48 (0x30) | Exported Function | 0x000000018000aba0 | 0x0000aba0
-`EfsDllIsNonEfsSKU` | 47 (0x2f) | Exported Function | 0x000000018000a6e0 | 0x0000a6e0
-`EfsDllOnSessionChange` | 53 (0x35) | Exported Function | 0x000000018000a720 | 0x0000a720
-`EfsDllIsConsumerProtectionEnforced` | 46 (0x2e) | Exported Function | 0x000000018000c620 | 0x0000c620
-`EfsDllGetUserInfo` | 44 (0x2c) | Exported Function | 0x000000018000ab80 | 0x0000ab80
-`EfsDllGetLogFile` | 43 (0x2b) | Exported Function | 0x000000018000a710 | 0x0000a710
-`EfsDllGetLocalFileName` | 42 (0x2a) | Exported Function | 0x000000018000c180 | 0x0000c180
-`EfsDllFreeUserInfo` | 41 (0x29) | Exported Function | 0x000000018000ab90 | 0x0000ab90
-`EfsDllFreeHeap` | 40 (0x28) | Exported Function | 0x000000018000c140 | 0x0000c140
-`EfsDllFileKeyInfoSrv` | 39 (0x27) | Exported Function | 0x000000018000b030 | 0x0000b030
-`EfsDllGetVolumeRoot` | 45 (0x2d) | Exported Function | 0x000000018000a700 | 0x0000a700
-`EfsDllOnSessionUserChange` | 54 (0x36) | Exported Function | 0x000000018000a940 | 0x0000a940
-`EfsDllOpenFileRaw` | 55 (0x37) | Exported Function | 0x000000018000a5d0 | 0x0000a5d0
-`EfsDllQueryProtectorsSrv` | 56 (0x38) | Exported Function | 0x000000018000ae30 | 0x0000ae30
-`EfsProcessRecoveryPolicy` | 71 (0x47) | Exported Function | 0x000000018001cf00 | 0x0001cf00
-`EfsInitialize` | 70 (0x46) | Exported Function | 0x000000018000a4d0 | 0x0000a4d0
-`EfsDllWriteFileRaw` | 69 (0x45) | Exported Function | 0x000000018000a610 | 0x0000a610
-`EfsDllWriteEncryptedFileWithHeader` | 68 (0x44) | Exported Function | 0x000000018000a620 | 0x0000a620
-`EfsDllValidateEfsStream` | 67 (0x43) | Exported Function | 0x000000018000abd0 | 0x0000abd0
-`EfsDllUsePinForEncryptedFilesSrv` | 66 (0x42) | Exported Function | 0x000000018000b040 | 0x0000b040
-`EfsDllUnloadUserProfile` | 65 (0x41) | Exported Function | 0x000000018000abb0 | 0x0000abb0
-`EfsDllSsoFlushUserCache` | 64 (0x40) | Exported Function | 0x000000018000abe0 | 0x0000abe0
-`EfsDllShareDecline` | 63 (0x3f) | Exported Function | 0x000000018000c190 | 0x0000c190
-`EfsDllSetFileEncryptionKeySrv` | 62 (0x3e) | Exported Function | 0x000000018000afc0 | 0x0000afc0
-`EfsDllReprotectFile` | 61 (0x3d) | Exported Function | 0x0000000180014c70 | 0x00014c70
-`EfsDllRemoveUsersFromFileSrv` | 60 (0x3c) | Exported Function | 0x000000018000af60 | 0x0000af60
-`EfsDllReadFileRaw` | 59 (0x3b) | Exported Function | 0x000000018000a600 | 0x0000a600
-`EfsDllQueryUsersOnFileSrv` | 58 (0x3a) | Exported Function | 0x000000018000ac30 | 0x0000ac30
-`EfsDllQueryRecoveryAgentsSrv` | 57 (0x39) | Exported Function | 0x000000018000ad30 | 0x0000ad30
-`EfsDllErrorToNtStatus` | 38 (0x26) | Exported Function | 0x000000018000c0f0 | 0x0000c0f0
-`EfsUnInitialize` | 72 (0x48) | Exported Function | 0x000000018000a590 | 0x0000a590
-`EfsDllEncryptFileSrv` | 37 (0x25) | Exported Function | 0x000000018000ac10 | 0x0000ac10
-`EfsDllDplAppKeyCachingFeatureEnabled` | 1 (0x1) | Exported Function | 0x000000018000da10 | 0x0000da10
-`EdpDllGetTfaCache` | 16 (0x10) | Exported Function | 0x0000000180041cb0 | 0x00041cb0
-`EdpDllGetLockSessionWrappedKey` | 15 (0xf) | Exported Function | 0x000000018000c8d0 | 0x0000c8d0
-`EdpDllGetLockSessionUnwrappedKey` | 14 (0xe) | Exported Function | 0x000000018000c940 | 0x0000c940
-`EdpDllGetCredServiceState` | 13 (0xd) | Exported Function | 0x000000018000cb80 | 0x0000cb80
-`EdpDllDplUserUnlockStart` | 12 (0xc) | Exported Function | 0x000000018000cda0 | 0x0000cda0
-`EdpDllDplUserUnlockComplete` | 11 (0xb) | Exported Function | 0x000000018000cda0 | 0x0000cda0
-`EdpDllPurgeAppLearningEvents` | 17 (0x11) | Exported Function | 0x0000000180044940 | 0x00044940
-`EdpDllDplUserCredentialsSet` | 10 (0xa) | Exported Function | 0x000000018000cd80 | 0x0000cd80
-`EdpDllDplUpgradePinInfo` | 8 (0x8) | Exported Function | 0x000000018000cd40 | 0x0000cd40
-`EdpDllCredSvcControl` | 3 (0x3) | Exported Function | 0x000000018000cdb0 | 0x0000cdb0
-`EdpDllCredentialQuery` | 7 (0x7) | Exported Function | 0x000000018000c330 | 0x0000c330
-`EdpDllCredentialExists` | 6 (0x6) | Exported Function | 0x000000018000c420 | 0x0000c420
-`EdpDllCredentialDelete` | 5 (0x5) | Exported Function | 0x000000018000c520 | 0x0000c520
-`EdpDllCredentialCreate` | 4 (0x4) | Exported Function | 0x000000018000c240 | 0x0000c240
-`EdpDllDplUpgradeVerifyUser` | 9 (0x9) | Exported Function | 0x000000018000cd60 | 0x0000cd60
-`EdpDllQueryDplEnforcedPolicyOwnerIds` | 18 (0x12) | Exported Function | 0x000000018000c7f0 | 0x0000c7f0
-`EdpDllQueryRevokedPolicyOwnerIds` | 19 (0x13) | Exported Function | 0x000000018000c700 | 0x0000c700
-`EdpDllQueueFileForEncryption` | 20 (0x14) | Exported Function | 0x000000018003de70 | 0x0003de70
-`EfsDllDisabled` | 35 (0x23) | Exported Function | 0x000000018000a6f0 | 0x0000a6f0
-`EfsDllDecryptFileSrv` | 34 (0x22) | Exported Function | 0x000000018000ac20 | 0x0000ac20
-`EfsDllDecryptFek` | 33 (0x21) | Exported Function | 0x000000018000bf20 | 0x0000bf20
-`EfsDllConstructEFS` | 32 (0x20) | Exported Function | 0x000000018000b340 | 0x0000b340
-`EfsDllCloseFileRaw` | 31 (0x1f) | Exported Function | 0x000000018000a5f0 | 0x0000a5f0
-`EfsDllCheckFileAccess` | 30 (0x1e) | Exported Function | 0x000000018000d890 | 0x0000d890
-`EfsDllAllocateHeap` | 29 (0x1d) | Exported Function | 0x000000018000c100 | 0x0000c100
-`EfsDllAddUsersToFileSrv` | 28 (0x1c) | Exported Function | 0x000000018000aef0 | 0x0000aef0
-`EdpWriteSiteLearningLog` | 27 (0x1b) | Exported Function | 0x0000000180044b30 | 0x00044b30
-`EdpWriteAppLearningLog` | 26 (0x1a) | Exported Function | 0x0000000180044960 | 0x00044960
-`EdpDllServiceFileEncryptionQueue` | 25 (0x19) | Exported Function | 0x000000018003dfe0 | 0x0003dfe0
-`EdpDllRmsGetContainerIdentity` | 24 (0x18) | Exported Function | 0x000000018000d2c0 | 0x0000d2c0
-`EdpDllRmsDecontainerizeFile` | 23 (0x17) | Exported Function | 0x000000018000d5d0 | 0x0000d5d0
-`EdpDllRmsContainerizeFile` | 22 (0x16) | Exported Function | 0x000000018000cf20 | 0x0000cf20
-`EdpDllRmsClearKeys` | 21 (0x15) | Exported Function | 0x000000018000cf00 | 0x0000cf00
-`EfsDllDuplicateEncryptionInfoFileSrv` | 36 (0x24) | Exported Function | 0x000000018000b020 | 0x0000b020
-`EfsValidateEfsStream` | 73 (0x49) | Exported Function | 0x0000000180022ea0 | 0x00022ea0
+Function Name | Ordinal | Type
+-- | -- | --
+`EfsDllMarkFileForDelete` | 49 | Exported Function
+`EfsDllOefsAcquireExclusiveOperation` | 50 | Exported Function
+`EfsDllIsNonEfsSKU` | 47 | Exported Function
+`EfsDllLoadUserProfile` | 48 | Exported Function
+`EfsDllOefsCheckSupportByFilePath` | 51 | Exported Function
+`EfsDllOnSessionUserChange` | 54 | Exported Function
+`EfsDllOpenFileRaw` | 55 | Exported Function
+`EfsDllOefsReleaseExclusiveOperation` | 52 | Exported Function
+`EfsDllOnSessionChange` | 53 | Exported Function
+`EfsDllFreeHeap` | 40 | Exported Function
+`EfsDllFreeUserInfo` | 41 | Exported Function
+`EfsDllErrorToNtStatus` | 38 | Exported Function
+`EfsDllFileKeyInfoSrv` | 39 | Exported Function
+`EfsDllGetLocalFileName` | 42 | Exported Function
+`EfsDllGetVolumeRoot` | 45 | Exported Function
+`EfsDllIsConsumerProtectionEnforced` | 46 | Exported Function
+`EfsDllGetLogFile` | 43 | Exported Function
+`EfsDllGetUserInfo` | 44 | Exported Function
+`EfsDllValidateEfsStream` | 67 | Exported Function
+`EfsDllWriteEncryptedFileWithHeader` | 68 | Exported Function
+`EfsDllUnloadUserProfile` | 65 | Exported Function
+`EfsDllUsePinForEncryptedFilesSrv` | 66 | Exported Function
+`EfsDllWriteFileRaw` | 69 | Exported Function
+`EfsUnInitialize` | 72 | Exported Function
+`EfsValidateEfsStream` | 73 | Exported Function
+`EfsInitialize` | 70 | Exported Function
+`EfsProcessRecoveryPolicy` | 71 | Exported Function
+`EfsDllQueryUsersOnFileSrv` | 58 | Exported Function
+`EfsDllReadFileRaw` | 59 | Exported Function
+`EfsDllQueryProtectorsSrv` | 56 | Exported Function
+`EfsDllQueryRecoveryAgentsSrv` | 57 | Exported Function
+`EfsDllRemoveUsersFromFileSrv` | 60 | Exported Function
+`EfsDllShareDecline` | 63 | Exported Function
+`EfsDllSsoFlushUserCache` | 64 | Exported Function
+`EfsDllReprotectFile` | 61 | Exported Function
+`EfsDllSetFileEncryptionKeySrv` | 62 | Exported Function
+`EfsDllEncryptFileSrv` | 37 | Exported Function
+`EdpDllGetCredServiceState` | 13 | Exported Function
+`EdpDllGetLockSessionUnwrappedKey` | 14 | Exported Function
+`EdpDllDplUserUnlockComplete` | 11 | Exported Function
+`EdpDllDplUserUnlockStart` | 12 | Exported Function
+`EdpDllGetLockSessionWrappedKey` | 15 | Exported Function
+`EdpDllQueryDplEnforcedPolicyOwnerIds` | 18 | Exported Function
+`EdpDllQueryRevokedPolicyOwnerIds` | 19 | Exported Function
+`EdpDllGetTfaCache` | 16 | Exported Function
+`EdpDllPurgeAppLearningEvents` | 17 | Exported Function
+`EdpDllCredentialDelete` | 5 | Exported Function
+`EdpDllCredentialExists` | 6 | Exported Function
+`EdpDllAllowFileAccessForProcess` | 2 | Exported Function
+`EdpDllCredentialCreate` | 4 | Exported Function
+`EdpDllCredentialQuery` | 7 | Exported Function
+`EdpDllDplUpgradeVerifyUser` | 9 | Exported Function
+`EdpDllDplUserCredentialsSet` | 10 | Exported Function
+`EdpDllCredSvcControl` | 3 | Exported Function
+`EdpDllDplUpgradePinInfo` | 8 | Exported Function
+`EfsDllCloseFileRaw` | 31 | Exported Function
+`EfsDllConstructEFS` | 32 | Exported Function
+`EfsDllAllocateHeap` | 29 | Exported Function
+`EfsDllCheckFileAccess` | 30 | Exported Function
+`EfsDllDecryptFek` | 33 | Exported Function
+`EfsDllDplAppKeyCachingFeatureEnabled` | 1 | Exported Function
+`EfsDllDuplicateEncryptionInfoFileSrv` | 36 | Exported Function
+`EfsDllDecryptFileSrv` | 34 | Exported Function
+`EfsDllDisabled` | 35 | Exported Function
+`EdpDllRmsContainerizeFile` | 22 | Exported Function
+`EdpDllRmsDecontainerizeFile` | 23 | Exported Function
+`EdpDllQueueFileForEncryption` | 20 | Exported Function
+`EdpDllRmsClearKeys` | 21 | Exported Function
+`EdpDllRmsGetContainerIdentity` | 24 | Exported Function
+`EdpWriteSiteLearningLog` | 27 | Exported Function
+`EfsDllAddUsersToFileSrv` | 28 | Exported Function
+`EdpDllServiceFileEncryptionQueue` | 25 | Exported Function
+`EdpWriteAppLearningLog` | 26 | Exported Function
 
 
 ## Signature

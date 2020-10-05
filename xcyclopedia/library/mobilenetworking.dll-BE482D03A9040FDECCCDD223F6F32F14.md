@@ -24,17 +24,17 @@ PE256 | `3FC1B2013A60FFE95CA9392983421CFA853AB5142DB66E0852BB12E480E2ECAE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetPersistentRegPath` | 1 (0x1) | Exported Function | 0x10002840 | 0x00002840
-`GetPersistentRegPathFromRegPath` | 2 (0x2) | Exported Function | 0x100027a0 | 0x000027a0
-`PersistentRegPathCreateKey` | 3 (0x3) | Exported Function | 0x10002c80 | 0x00002c80
-`PersistentRegPathGetDWORD` | 4 (0x4) | Exported Function | 0x10002920 | 0x00002920
-`PersistentRegPathGetValue` | 5 (0x5) | Exported Function | 0x10002a80 | 0x00002a80
-`PersistentRegPathOpenKey` | 6 (0x6) | Exported Function | 0x10002be0 | 0x00002be0
-`PersistentRegPathSetDWORD` | 7 (0x7) | Exported Function | 0x100029d0 | 0x000029d0
-`PersistentRegPathSetString` | 8 (0x8) | Exported Function | 0x10002d30 | 0x00002d30
-`PersistentRegPathSetValue` | 9 (0x9) | Exported Function | 0x10002b30 | 0x00002b30
+Function Name | Ordinal | Type
+-- | -- | --
+`PersistentRegPathSetDWORD` | 7 | Exported Function
+`PersistentRegPathOpenKey` | 6 | Exported Function
+`PersistentRegPathSetValue` | 9 | Exported Function
+`PersistentRegPathSetString` | 8 | Exported Function
+`PersistentRegPathGetValue` | 5 | Exported Function
+`GetPersistentRegPathFromRegPath` | 2 | Exported Function
+`GetPersistentRegPath` | 1 | Exported Function
+`PersistentRegPathGetDWORD` | 4 | Exported Function
+`PersistentRegPathCreateKey` | 3 | Exported Function
 
 
 ## Signature

@@ -24,21 +24,21 @@ PE256 | `81A15F339B1797DDA6B5F13868952646461257BEF945029B38300380295F23BD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Chkdsk` | 5 (0x5) | Exported Function | 0x000000018000aa10 | 0x0000aa10
-`ChkdskEx` | 6 (0x6) | Exported Function | 0x000000018000aa10 | 0x0000aa10
-`Extend` | 7 (0x7) | Exported Function | 0x000000018000aa10 | 0x0000aa10
-`Format` | 8 (0x8) | Exported Function | 0x000000018000acd0 | 0x0000acd0
-`FormatEx` | 9 (0x9) | Exported Function | 0x000000018000af20 | 0x0000af20
-`GetFilesystemInformation` | 10 (0xa) | Exported Function | 0x000000018000ab40 | 0x0000ab40
-`public: __cdecl REFS_SA::REFS_SA(void) __ptr64` | 1 (0x1) | Exported Function | 0x000000018000e100 | 0x0000e100
-`public: __cdecl REFS_UPCASE_TABLE::REFS_UPCASE_TABLE(void) __ptr64` | 2 (0x2) | Exported Function | 0x000000018000eba0 | 0x0000eba0
-`public: unsigned char __cdecl REFS_SA::Initialize(class LOG_IO_DP_DRIVE * __ptr64,class MESSAGE * __ptr64) __ptr64` | 11 (0xb) | Exported Function | 0x000000018000e2b0 | 0x0000e2b0
-`public: virtual __cdecl REFS_SA::~REFS_SA(void) __ptr64` | 3 (0x3) | Exported Function | 0x000000018000e250 | 0x0000e250
-`public: virtual __cdecl REFS_UPCASE_TABLE::~REFS_UPCASE_TABLE(void) __ptr64` | 4 (0x4) | Exported Function | 0x000000018000ebf0 | 0x0000ebf0
-`Recover` | 12 (0xc) | Exported Function | 0x000000018000aa10 | 0x0000aa10
-`SetOriginalVolumeName` | 13 (0xd) | Exported Function | 0x000000018000aa20 | 0x0000aa20
+Function Name | Ordinal | Type
+-- | -- | --
+`public: virtual __cdecl REFS_SA::~REFS_SA(void) __ptr64` | 3 | Exported Function
+`public: unsigned char __cdecl REFS_SA::Initialize(class LOG_IO_DP_DRIVE * __ptr64,class MESSAGE * __ptr64) __ptr64` | 11 | Exported Function
+`public: __cdecl REFS_UPCASE_TABLE::REFS_UPCASE_TABLE(void) __ptr64` | 2 | Exported Function
+`SetOriginalVolumeName` | 13 | Exported Function
+`Recover` | 12 | Exported Function
+`public: virtual __cdecl REFS_UPCASE_TABLE::~REFS_UPCASE_TABLE(void) __ptr64` | 4 | Exported Function
+`public: __cdecl REFS_SA::REFS_SA(void) __ptr64` | 1 | Exported Function
+`Extend` | 7 | Exported Function
+`ChkdskEx` | 6 | Exported Function
+`Chkdsk` | 5 | Exported Function
+`GetFilesystemInformation` | 10 | Exported Function
+`FormatEx` | 9 | Exported Function
+`Format` | 8 | Exported Function
 
 
 ## Signature

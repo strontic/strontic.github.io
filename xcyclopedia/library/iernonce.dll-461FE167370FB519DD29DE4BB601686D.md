@@ -24,10 +24,10 @@ PE256 | `B8CA2FF502620ECA75E6B169E3551235A50B19A414DFECE1FE52E543560ED85B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitCallback` | 1 (0x1) | Exported Function | 0x0000000150001300 | 0x00001300
-`RunOnceExProcess` | 2 (0x2) | Exported Function | 0x0000000150001320 | 0x00001320
+Function Name | Ordinal | Type
+-- | -- | --
+`RunOnceExProcess` | 2 | Exported Function
+`InitCallback` | 1 | Exported Function
 
 
 ## Signature

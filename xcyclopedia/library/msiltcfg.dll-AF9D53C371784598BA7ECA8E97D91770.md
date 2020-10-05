@@ -24,22 +24,22 @@ PE256 | `2171ED672B2966C81BFA690FDC9EDA050DD93D6E90E6B1C80F33A5CCA489EEB2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MsiAdvertiseScriptW` | 8 (0x8) | Exported Function | 0x0000000180001520 | 0x00001520
-`MsiConfigureProductExW` | 12 (0xc) | Exported Function | 0x0000000180001730 | 0x00001730
-`MsiDecomposeDescriptorW` | 1 (0x1) | Exported Function | 0x0000000180001100 | 0x00001100
-`MsiGetComponentPathW` | 2 (0x2) | Exported Function | 0x00000001800011b0 | 0x000011b0
-`MsiGetProductInfoW` | 3 (0x3) | Exported Function | 0x0000000180001250 | 0x00001250
-`MsiIsProductElevatedW` | 10 (0xa) | Exported Function | 0x0000000180001630 | 0x00001630
-`MsiProvideComponentFromDescriptorW` | 4 (0x4) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`MsiQueryFeatureStateFromDescriptorW` | 6 (0x6) | Exported Function | 0x0000000180001410 | 0x00001410
-`MsiQueryFeatureStateW` | 5 (0x5) | Exported Function | 0x0000000180001390 | 0x00001390
-`MsiQueryProductStateW` | 9 (0x9) | Exported Function | 0x00000001800015c0 | 0x000015c0
-`MsiReinstallProductW` | 11 (0xb) | Exported Function | 0x00000001800016b0 | 0x000016b0
-`MsiSetInternalUI` | 7 (0x7) | Exported Function | 0x0000000180001480 | 0x00001480
-`RestartMsi` | 14 (0xe) | Exported Function | 0x0000000180001810 | 0x00001810
-`ShutdownMsi` | 13 (0xd) | Exported Function | 0x00000001800017d0 | 0x000017d0
+Function Name | Ordinal | Type
+-- | -- | --
+`MsiQueryProductStateW` | 9 | Exported Function
+`MsiQueryFeatureStateW` | 5 | Exported Function
+`MsiQueryFeatureStateFromDescriptorW` | 6 | Exported Function
+`MsiReinstallProductW` | 11 | Exported Function
+`ShutdownMsi` | 13 | Exported Function
+`RestartMsi` | 14 | Exported Function
+`MsiSetInternalUI` | 7 | Exported Function
+`MsiDecomposeDescriptorW` | 1 | Exported Function
+`MsiConfigureProductExW` | 12 | Exported Function
+`MsiAdvertiseScriptW` | 8 | Exported Function
+`MsiGetComponentPathW` | 2 | Exported Function
+`MsiProvideComponentFromDescriptorW` | 4 | Exported Function
+`MsiIsProductElevatedW` | 10 | Exported Function
+`MsiGetProductInfoW` | 3 | Exported Function
 
 
 ## Signature

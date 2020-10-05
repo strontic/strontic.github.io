@@ -24,14 +24,13 @@ PE256 | `487355762F19F2CD9DEEF22B975588E9A611F029724DF9962AEA4EE1F3390E38`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 8 (0x8) | Exported Function | 0x000000018010e290 | 0x0010e290
-`GeneralizeForImaging` | 4 (0x4) | Exported Function | 0x000000018018c0b0 | 0x0018c0b0
-`Ordinal3` | 3 (0x3) | Exported Function | 0x00000001802072e0 | 0x002072e0
-`WUCreateExpressionEvaluator` | 5 (0x5) | Exported Function | 0x00000001800bf940 | 0x000bf940
-`WUCreateUpdateHandler` | 6 (0x6) | Exported Function | 0x00000001800faf90 | 0x000faf90
-`WUServiceMain` | 7 (0x7) | Exported Function | 0x0000000180019780 | 0x00019780
+Function Name | Ordinal | Type
+-- | -- | --
+`WUCreateUpdateHandler` | 6 | Exported Function
+`WUServiceMain` | 7 | Exported Function
+`WUCreateExpressionEvaluator` | 5 | Exported Function
+`DllMain` | 8 | Exported Function
+`GeneralizeForImaging` | 4 | Exported Function
 
 
 ## Signature

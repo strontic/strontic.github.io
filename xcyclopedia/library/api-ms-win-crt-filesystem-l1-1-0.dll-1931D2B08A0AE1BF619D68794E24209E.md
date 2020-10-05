@@ -24,73 +24,73 @@ PE256 | `594B1A232E3CF1D9B4B9089E43A7721003F0CB722B49C9BEB36D656AF1781B58`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_access` | 1 (0x1) | Exported Function | ucrtbase._access | 0x0000140f
-`_umask_s` | 35 (0x23) | Exported Function | ucrtbase._umask_s | 0x0000181e
-`_unlink` | 36 (0x24) | Exported Function | ucrtbase._unlink | 0x00001838
-`_unlock_file` | 37 (0x25) | Exported Function | ucrtbase._unlock_file | 0x00001856
-`_waccess` | 38 (0x26) | Exported Function | ucrtbase._waccess | 0x00001875
-`_waccess_s` | 39 (0x27) | Exported Function | ucrtbase._waccess_s | 0x00001892
-`_wchdir` | 40 (0x28) | Exported Function | ucrtbase._wchdir | 0x000018ae
-`_wchmod` | 41 (0x29) | Exported Function | ucrtbase._wchmod | 0x000018c7
-`_wfindfirst32` | 42 (0x2a) | Exported Function | ucrtbase._wfindfirst32 | 0x000018e6
-`_wfindfirst32i64` | 43 (0x2b) | Exported Function | ucrtbase._wfindfirst32i64 | 0x0000190e
-`_wfindfirst64` | 44 (0x2c) | Exported Function | ucrtbase._wfindfirst64 | 0x00001936
-`_wfindfirst64i32` | 45 (0x2d) | Exported Function | ucrtbase._wfindfirst64i32 | 0x0000195e
-`_wfindnext32` | 46 (0x2e) | Exported Function | ucrtbase._wfindnext32 | 0x00001985
-`_wfindnext32i64` | 47 (0x2f) | Exported Function | ucrtbase._wfindnext32i64 | 0x000019ab
-`_wfindnext64` | 48 (0x30) | Exported Function | ucrtbase._wfindnext64 | 0x000019d1
-`_wfindnext64i32` | 49 (0x31) | Exported Function | ucrtbase._wfindnext64i32 | 0x000019f7
-`_wfullpath` | 50 (0x32) | Exported Function | ucrtbase._wfullpath | 0x00001a1b
-`_wmakepath` | 51 (0x33) | Exported Function | ucrtbase._wmakepath | 0x00001a3a
-`_wmakepath_s` | 52 (0x34) | Exported Function | ucrtbase._wmakepath_s | 0x00001a5b
-`_wmkdir` | 53 (0x35) | Exported Function | ucrtbase._wmkdir | 0x00001a79
-`_wremove` | 54 (0x36) | Exported Function | ucrtbase._wremove | 0x00001a93
-`_wrename` | 55 (0x37) | Exported Function | ucrtbase._wrename | 0x00001aae
-`_wrmdir` | 56 (0x38) | Exported Function | ucrtbase._wrmdir | 0x00001ac8
-`_wsplitpath` | 57 (0x39) | Exported Function | ucrtbase._wsplitpath | 0x00001ae5
-`_wsplitpath_s` | 58 (0x3a) | Exported Function | ucrtbase._wsplitpath_s | 0x00001b08
-`_wstat32` | 59 (0x3b) | Exported Function | ucrtbase._wstat32 | 0x00001b28
-`_wstat32i64` | 60 (0x3c) | Exported Function | ucrtbase._wstat32i64 | 0x00001b46
-`_wstat64` | 61 (0x3d) | Exported Function | ucrtbase._wstat64 | 0x00001b64
-`_wstat64i32` | 62 (0x3e) | Exported Function | ucrtbase._wstat64i32 | 0x00001b82
-`_wunlink` | 63 (0x3f) | Exported Function | ucrtbase._wunlink | 0x00001ba0
-`_umask` | 34 (0x22) | Exported Function | ucrtbase._umask | 0x00001805
-`remove` | 64 (0x40) | Exported Function | ucrtbase.remove | 0x00001bb9
-`_stat64i32` | 33 (0x21) | Exported Function | ucrtbase._stat64i32 | 0x000017ea
-`_stat32i64` | 31 (0x1f) | Exported Function | ucrtbase._stat32i64 | 0x000017b2
-`_access_s` | 2 (0x2) | Exported Function | ucrtbase._access_s | 0x0000142a
-`_chdir` | 3 (0x3) | Exported Function | ucrtbase._chdir | 0x00001444
-`_chdrive` | 4 (0x4) | Exported Function | ucrtbase._chdrive | 0x0000145d
-`_chmod` | 5 (0x5) | Exported Function | ucrtbase._chmod | 0x00001476
-`_findclose` | 6 (0x6) | Exported Function | ucrtbase._findclose | 0x00001491
-`_findfirst32` | 7 (0x7) | Exported Function | ucrtbase._findfirst32 | 0x000014b2
-`_findfirst32i64` | 8 (0x8) | Exported Function | ucrtbase._findfirst32i64 | 0x000014d8
-`_findfirst64` | 9 (0x9) | Exported Function | ucrtbase._findfirst64 | 0x000014fe
-`_findfirst64i32` | 10 (0xa) | Exported Function | ucrtbase._findfirst64i32 | 0x00001524
-`_findnext32` | 11 (0xb) | Exported Function | ucrtbase._findnext32 | 0x00001549
-`_findnext32i64` | 12 (0xc) | Exported Function | ucrtbase._findnext32i64 | 0x0000156d
-`_findnext64` | 13 (0xd) | Exported Function | ucrtbase._findnext64 | 0x00001591
-`_findnext64i32` | 14 (0xe) | Exported Function | ucrtbase._findnext64i32 | 0x000015b5
-`_fstat32` | 15 (0xf) | Exported Function | ucrtbase._fstat32 | 0x000015d6
-`_fstat32i64` | 16 (0x10) | Exported Function | ucrtbase._fstat32i64 | 0x000015f4
-`_fstat64` | 17 (0x11) | Exported Function | ucrtbase._fstat64 | 0x00001612
-`_fstat64i32` | 18 (0x12) | Exported Function | ucrtbase._fstat64i32 | 0x00001630
-`_fullpath` | 19 (0x13) | Exported Function | ucrtbase._fullpath | 0x0000164f
-`_getdiskfree` | 20 (0x14) | Exported Function | ucrtbase._getdiskfree | 0x0000166f
-`_getdrive` | 21 (0x15) | Exported Function | ucrtbase._getdrive | 0x0000168f
-`_getdrives` | 22 (0x16) | Exported Function | ucrtbase._getdrives | 0x000016ad
-`_lock_file` | 23 (0x17) | Exported Function | ucrtbase._lock_file | 0x000016cc
-`_makepath` | 24 (0x18) | Exported Function | ucrtbase._makepath | 0x000016ea
-`_makepath_s` | 25 (0x19) | Exported Function | ucrtbase._makepath_s | 0x00001709
-`_mkdir` | 26 (0x1a) | Exported Function | ucrtbase._mkdir | 0x00001725
-`_rmdir` | 27 (0x1b) | Exported Function | ucrtbase._rmdir | 0x0000173c
-`_splitpath` | 28 (0x1c) | Exported Function | ucrtbase._splitpath | 0x00001757
-`_splitpath_s` | 29 (0x1d) | Exported Function | ucrtbase._splitpath_s | 0x00001778
-`_stat32` | 30 (0x1e) | Exported Function | ucrtbase._stat32 | 0x00001796
-`_stat64` | 32 (0x20) | Exported Function | ucrtbase._stat64 | 0x000017ce
-`rename` | 65 (0x41) | Exported Function | ucrtbase.rename | 0x00001bd0
+Function Name | Ordinal | Type
+-- | -- | --
+`_wfindfirst64` | 44 | Exported Function
+`_wfindfirst64i32` | 45 | Exported Function
+`_wfindfirst32` | 42 | Exported Function
+`_wfindfirst32i64` | 43 | Exported Function
+`_wfindnext64` | 48 | Exported Function
+`_wfindnext64i32` | 49 | Exported Function
+`_wfindnext32` | 46 | Exported Function
+`_wfindnext32i64` | 47 | Exported Function
+`_unlink` | 36 | Exported Function
+`_unlock_file` | 37 | Exported Function
+`_umask` | 34 | Exported Function
+`_umask_s` | 35 | Exported Function
+`_wchdir` | 40 | Exported Function
+`_wchmod` | 41 | Exported Function
+`_waccess` | 38 | Exported Function
+`_waccess_s` | 39 | Exported Function
+`_wstat32i64` | 60 | Exported Function
+`_wstat64` | 61 | Exported Function
+`_wsplitpath_s` | 58 | Exported Function
+`_wstat32` | 59 | Exported Function
+`remove` | 64 | Exported Function
+`rename` | 65 | Exported Function
+`_wstat64i32` | 62 | Exported Function
+`_wunlink` | 63 | Exported Function
+`_wmakepath_s` | 52 | Exported Function
+`_wmkdir` | 53 | Exported Function
+`_wfullpath` | 50 | Exported Function
+`_wmakepath` | 51 | Exported Function
+`_wrmdir` | 56 | Exported Function
+`_wsplitpath` | 57 | Exported Function
+`_wremove` | 54 | Exported Function
+`_wrename` | 55 | Exported Function
+`_stat64i32` | 33 | Exported Function
+`_findnext32` | 11 | Exported Function
+`_findnext32i64` | 12 | Exported Function
+`_findfirst64` | 9 | Exported Function
+`_findfirst64i32` | 10 | Exported Function
+`_fstat32` | 15 | Exported Function
+`_fstat32i64` | 16 | Exported Function
+`_findnext64` | 13 | Exported Function
+`_findnext64i32` | 14 | Exported Function
+`_chdir` | 3 | Exported Function
+`_chdrive` | 4 | Exported Function
+`_access` | 1 | Exported Function
+`_access_s` | 2 | Exported Function
+`_findfirst32` | 7 | Exported Function
+`_findfirst32i64` | 8 | Exported Function
+`_chmod` | 5 | Exported Function
+`_findclose` | 6 | Exported Function
+`_rmdir` | 27 | Exported Function
+`_splitpath` | 28 | Exported Function
+`_makepath_s` | 25 | Exported Function
+`_mkdir` | 26 | Exported Function
+`_stat32i64` | 31 | Exported Function
+`_stat64` | 32 | Exported Function
+`_splitpath_s` | 29 | Exported Function
+`_stat32` | 30 | Exported Function
+`_fullpath` | 19 | Exported Function
+`_getdiskfree` | 20 | Exported Function
+`_fstat64` | 17 | Exported Function
+`_fstat64i32` | 18 | Exported Function
+`_lock_file` | 23 | Exported Function
+`_makepath` | 24 | Exported Function
+`_getdrive` | 21 | Exported Function
+`_getdrives` | 22 | Exported Function
 
 
 ## Signature
@@ -122,6 +122,7 @@ Function Name | Ordinal | Type | Address | Relative Address
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 35
+[C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\Smart Tag\SmartTagInstall.exe](SmartTagInstall.exe-632AB2DBE46DE1E9BB0FB7B54B3BB05C.md) | 33
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 41
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 25
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 38

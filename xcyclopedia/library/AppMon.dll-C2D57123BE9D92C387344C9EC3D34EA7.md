@@ -24,10 +24,10 @@ PE256 | `CADECF73EEB7076582E3D4BB958E5357492845B2C1B1992840DE71960D5E64BF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializePrintMonitor2` | 1 (0x1) | Exported Function | 0x00000001800049c0 | 0x000049c0
-`SetRPCClientPid` | 2 (0x2) | Exported Function | 0x0000000180004a90 | 0x00004a90
+Function Name | Ordinal | Type
+-- | -- | --
+`SetRPCClientPid` | 2 | Exported Function
+`InitializePrintMonitor2` | 1 | Exported Function
 
 
 ## Signature

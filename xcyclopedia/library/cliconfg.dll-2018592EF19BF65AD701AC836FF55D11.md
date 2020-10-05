@@ -24,11 +24,11 @@ PE256 | `E6503A696DB42E3A1DB7BDA6888AB8CD5D57DE6E391145A37FB142F81F77404C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClientConfigureAddEdit` | 2 (0x2) | Exported Function | 0x000000018000aab0 | 0x0000aab0
-`CPlApplet` | 1 (0x1) | Exported Function | 0x000000018000a9e0 | 0x0000a9e0
-`OnInitDialogMain` | 3 (0x3) | Exported Function | 0x000000018000afa0 | 0x0000afa0
+Function Name | Ordinal | Type
+-- | -- | --
+`OnInitDialogMain` | 3 | Exported Function
+`CPlApplet` | 1 | Exported Function
+`ClientConfigureAddEdit` | 2 | Exported Function
 
 
 ## Signature

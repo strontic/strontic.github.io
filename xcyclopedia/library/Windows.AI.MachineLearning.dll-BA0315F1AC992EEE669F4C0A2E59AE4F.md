@@ -24,11 +24,11 @@ PE256 | `C2BD59AE58E8A31FAD8E3225CC8F49D00BB15A8DCAAC7A3D40C170CDCA9B3BBE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x1000a3e0 | 0x0000a3e0
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x1000a3f0 | 0x0000a3f0
-`MLCreateOperatorRegistry` | 3 (0x3) | Exported Function | 0x1000a380 | 0x0000a380
+Function Name | Ordinal | Type
+-- | -- | --
+`MLCreateOperatorRegistry` | 3 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

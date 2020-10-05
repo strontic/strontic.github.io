@@ -24,10 +24,10 @@ PE256 | `05E54E2CB7A79750476CFD637455070A1DB6C6C6D83DF3B48055E907145C2ACA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializeOSKSupport` | 1 (0x1) | Exported Function | 0x0000000180001030 | 0x00001030
-`UninitializeOSKSupport` | 2 (0x2) | Exported Function | 0x0000000180001090 | 0x00001090
+Function Name | Ordinal | Type
+-- | -- | --
+`UninitializeOSKSupport` | 2 | Exported Function
+`InitializeOSKSupport` | 1 | Exported Function
 
 
 ## Signature

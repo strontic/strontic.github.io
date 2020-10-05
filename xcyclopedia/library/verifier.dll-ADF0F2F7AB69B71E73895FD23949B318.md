@@ -24,34 +24,34 @@ PE256 | `D574C3EA7CD0B33B38491EE7BB9967726CC09DBEE054E09931B53A9505AFA028`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AVrfAPILookupCallback` | 1 (0x1) | Exported Function | 0x00000001800091e0 | 0x000091e0
-`VerifierSetFlags` | 24 (0x18) | Exported Function | 0x0000000180007960 | 0x00007960
-`VerifierSetFaultInjectionProbability` | 23 (0x17) | Exported Function | 0x0000000180001ae0 | 0x00001ae0
-`VerifierRedirectStopFunctions` | 22 (0x16) | Exported Function | 0x0000000180006760 | 0x00006760
-`VerifierQueryRuntimeFlags` | 21 (0x15) | Exported Function | 0x000000018000a360 | 0x0000a360
-`VerifierIsPerUserSettingsEnabled` | 20 (0x14) | Exported Function | 0x000000018000a940 | 0x0000a940
-`VerifierIsDllEntryActive` | 19 (0x13) | Exported Function | 0x000000018000a440 | 0x0000a440
-`VerifierIsCurrentThreadHoldingLocks` | 18 (0x12) | Exported Function | 0x000000018000a480 | 0x0000a480
-`VerifierIsAddressInAnyPageHeap` | 17 (0x11) | Exported Function | 0x000000018000a570 | 0x0000a570
-`VerifierGetProviderHelper` | 16 (0x10) | Exported Function | 0x000000018000a960 | 0x0000a960
-`VerifierGetPropertyValueByName` | 15 (0xf) | Exported Function | 0x000000018000a9e0 | 0x0000a9e0
-`VerifierGetMemoryForDump` | 14 (0xe) | Exported Function | 0x000000018000a790 | 0x0000a790
-`VerifierGetInfoForException` | 13 (0xd) | Exported Function | 0x000000018000a6f0 | 0x0000a6f0
-`VerifierForceNormalHeap` | 12 (0xc) | Exported Function | 0x000000018000a830 | 0x0000a830
-`VerifierEnumerateResource` | 11 (0xb) | Exported Function | 0x000000018000a1f0 | 0x0000a1f0
-`VerifierEnableFaultInjectionTargetRange` | 10 (0xa) | Exported Function | 0x0000000180001b70 | 0x00001b70
-`VerifierEnableFaultInjectionExclusionRange` | 9 (0x9) | Exported Function | 0x0000000180001d40 | 0x00001d40
-`VerifierDisableFaultInjectionTargetRange` | 8 (0x8) | Exported Function | 0x0000000180001c60 | 0x00001c60
-`VerifierDisableFaultInjectionExclusionRange` | 7 (0x7) | Exported Function | 0x0000000180001e00 | 0x00001e00
-`VerifierDestroyRpcPageHeap` | 6 (0x6) | Exported Function | 0x000000018000a400 | 0x0000a400
-`VerifierDeleteFreeMemoryCallback` | 5 (0x5) | Exported Function | 0x000000018000a540 | 0x0000a540
-`VerifierCreateRpcPageHeap` | 4 (0x4) | Exported Function | 0x000000018000a3c0 | 0x0000a3c0
-`VerifierCheckPageHeapAllocation` | 3 (0x3) | Exported Function | 0x000000018000a8a0 | 0x0000a8a0
-`VerifierAddFreeMemoryCallback` | 2 (0x2) | Exported Function | 0x000000018000a4c0 | 0x0000a4c0
-`VerifierSetRuntimeFlags` | 25 (0x19) | Exported Function | 0x000000018000a320 | 0x0000a320
-`VerifierStopMessage` | 26 (0x1a) | Exported Function | 0x0000000180006770 | 0x00006770
+Function Name | Ordinal | Type
+-- | -- | --
+`VerifierIsAddressInAnyPageHeap` | 17 | Exported Function
+`VerifierIsCurrentThreadHoldingLocks` | 18 | Exported Function
+`VerifierIsDllEntryActive` | 19 | Exported Function
+`VerifierGetMemoryForDump` | 14 | Exported Function
+`VerifierGetPropertyValueByName` | 15 | Exported Function
+`VerifierGetProviderHelper` | 16 | Exported Function
+`VerifierIsPerUserSettingsEnabled` | 20 | Exported Function
+`VerifierSetFlags` | 24 | Exported Function
+`VerifierSetRuntimeFlags` | 25 | Exported Function
+`VerifierStopMessage` | 26 | Exported Function
+`VerifierQueryRuntimeFlags` | 21 | Exported Function
+`VerifierRedirectStopFunctions` | 22 | Exported Function
+`VerifierSetFaultInjectionProbability` | 23 | Exported Function
+`VerifierCreateRpcPageHeap` | 4 | Exported Function
+`VerifierDeleteFreeMemoryCallback` | 5 | Exported Function
+`VerifierDestroyRpcPageHeap` | 6 | Exported Function
+`AVrfAPILookupCallback` | 1 | Exported Function
+`VerifierAddFreeMemoryCallback` | 2 | Exported Function
+`VerifierCheckPageHeapAllocation` | 3 | Exported Function
+`VerifierDisableFaultInjectionExclusionRange` | 7 | Exported Function
+`VerifierEnumerateResource` | 11 | Exported Function
+`VerifierForceNormalHeap` | 12 | Exported Function
+`VerifierGetInfoForException` | 13 | Exported Function
+`VerifierDisableFaultInjectionTargetRange` | 8 | Exported Function
+`VerifierEnableFaultInjectionExclusionRange` | 9 | Exported Function
+`VerifierEnableFaultInjectionTargetRange` | 10 | Exported Function
 
 
 ## Signature

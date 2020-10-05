@@ -24,18 +24,18 @@ PE256 | `94CDE50DA7A2AD56AC4697706D9F69E6C246F6E3EF8E44B889E6113A4D215AA5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ftsWordBreak` | 10 (0xa) | Exported Function | GDI32.ftsWordBreak | 0x00001271
-`LpkDrawTextEx` | 1 (0x1) | Exported Function | GDI32.LpkDrawTextEx | 0x00001102
-`LpkEditControl` | 2 (0x2) | Exported Function | GDI32.LpkEditControl | 0x00001125
-`LpkExtTextOut` | 3 (0x3) | Exported Function | GDI32.LpkExtTextOut | 0x00001148
-`LpkGetCharacterPlacement` | 4 (0x4) | Exported Function | GDI32.LpkGetCharacterPlacement | 0x00001175
-`LpkGetTextExtentExPoint` | 5 (0x5) | Exported Function | GDI32.LpkGetTextExtentExPoint | 0x000011ac
-`LpkInitialize` | 6 (0x6) | Exported Function | GDI32.LpkInitialize | 0x000011d8
-`LpkPSMTextOut` | 7 (0x7) | Exported Function | GDI32.LpkPSMTextOut | 0x000011fa
-`LpkTabbedTextOut` | 8 (0x8) | Exported Function | GDI32.LpkTabbedTextOut | 0x0000121f
-`LpkUseGDIWidthCache` | 9 (0x9) | Exported Function | GDI32.LpkUseGDIWidthCache | 0x0000124a
+Function Name | Ordinal | Type
+-- | -- | --
+`LpkInitialize` | 6 | Exported Function
+`LpkGetTextExtentExPoint` | 5 | Exported Function
+`LpkPSMTextOut` | 7 | Exported Function
+`LpkUseGDIWidthCache` | 9 | Exported Function
+`LpkTabbedTextOut` | 8 | Exported Function
+`LpkDrawTextEx` | 1 | Exported Function
+`ftsWordBreak` | 10 | Exported Function
+`LpkEditControl` | 2 | Exported Function
+`LpkGetCharacterPlacement` | 4 | Exported Function
+`LpkExtTextOut` | 3 | Exported Function
 
 
 ## Signature

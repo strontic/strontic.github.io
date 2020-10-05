@@ -24,1324 +24,1324 @@ PE256 | `19DBC55AFCFCCD3D062F3E196E34A2964C483444F91074B1CBBA6532CF96DDBC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`gDispatchTableValues` | 1316 (0x524) | Exported Function | 0x10006220 | 0x00006220
-`NtUserExcludeUpdateRgn` | 882 (0x372) | Exported Function | 0x10001500 | 0x00001500
-`NtUserEvent` | 881 (0x371) | Exported Function | 0x10004ee0 | 0x00004ee0
-`NtUserEnumDisplaySettings` | 880 (0x370) | Exported Function | 0x10002070 | 0x00002070
-`NtUserEnumDisplayMonitors` | 879 (0x36f) | Exported Function | 0x100014a0 | 0x000014a0
-`NtUserEnumDisplayDevices` | 878 (0x36e) | Exported Function | 0x10001ea0 | 0x00001ea0
-`NtUserEndPaint` | 877 (0x36d) | Exported Function | 0x10001190 | 0x00001190
-`NtUserEndMenu` | 876 (0x36c) | Exported Function | 0x10004ed0 | 0x00004ed0
-`NtUserFillWindow` | 883 (0x373) | Exported Function | 0x10001860 | 0x00001860
-`NtUserEndDeferWindowPosEx` | 875 (0x36b) | Exported Function | 0x10001260 | 0x00001260
-`NtUserEnableWindowGroupPolicy` | 873 (0x369) | Exported Function | 0x10004eb0 | 0x00004eb0
-`NtUserEnableWindowGDIScaledDpiMessage` | 872 (0x368) | Exported Function | 0x10004ea0 | 0x00004ea0
-`NtUserEnableTouchPad` | 871 (0x367) | Exported Function | 0x10004e90 | 0x00004e90
-`NtUserEnableSoftwareCursorForScreenCapture` | 870 (0x366) | Exported Function | 0x10004e80 | 0x00004e80
-`NtUserEnableScrollBar` | 869 (0x365) | Exported Function | 0x10001af0 | 0x00001af0
-`NtUserEnableResizeLayoutSynchronization` | 868 (0x364) | Exported Function | 0x10004e70 | 0x00004e70
-`NtUserEnableNonClientDpiScaling` | 867 (0x363) | Exported Function | 0x10004e60 | 0x00004e60
-`NtUserEnableWindowResizeOptimization` | 874 (0x36a) | Exported Function | 0x10004ec0 | 0x00004ec0
-`NtUserFindExistingCursorIcon` | 884 (0x374) | Exported Function | 0x100013e0 | 0x000013e0
-`NtUserFindWindowEx` | 885 (0x375) | Exported Function | 0x100016c0 | 0x000016c0
-`NtUserFlashWindowEx` | 886 (0x376) | Exported Function | 0x10004ef0 | 0x00004ef0
-`NtUserGetClipboardData` | 905 (0x389) | Exported Function | 0x10001ec0 | 0x00001ec0
-`NtUserGetClipboardAccessToken` | 904 (0x388) | Exported Function | 0x10004f90 | 0x00004f90
-`NtUserGetClassName` | 902 (0x386) | Exported Function | 0x10001790 | 0x00001790
-`NtUserGetClassInfoEx` | 901 (0x385) | Exported Function | 0x10001b10 | 0x00001b10
-`NtUserGetCIMSSM` | 897 (0x381) | Exported Function | 0x10004f60 | 0x00004f60
-`NtUserGetCaretPos` | 900 (0x384) | Exported Function | 0x10004f70 | 0x00004f70
-`NtUserGetCaretBlinkTime` | 899 (0x383) | Exported Function | 0x10001e70 | 0x00001e70
-`NtUserGetAutoRotationState` | 896 (0x380) | Exported Function | 0x10004f50 | 0x00004f50
-`NtUserGetAtomName` | 895 (0x37f) | Exported Function | 0x10001a20 | 0x00001a20
-`NtUserGetAsyncKeyState` | 894 (0x37e) | Exported Function | 0x10001440 | 0x00001440
-`NtUserGetAppImeLevel` | 893 (0x37d) | Exported Function | 0x10004f40 | 0x00004f40
-`NtUserGetAncestor` | 892 (0x37c) | Exported Function | 0x10001aa0 | 0x00001aa0
-`NtUserGetAltTabInfo` | 891 (0x37b) | Exported Function | 0x10001e60 | 0x00001e60
-`NtUserGetActiveProcessesDpis` | 890 (0x37a) | Exported Function | 0x10004f30 | 0x00004f30
-`NtUserFunctionalizeDisplayConfig` | 889 (0x379) | Exported Function | 0x10004f20 | 0x00004f20
-`NtUserFrostCrashedWindow` | 888 (0x378) | Exported Function | 0x10004f10 | 0x00004f10
-`NtUserForceWindowToDpiForTest` | 887 (0x377) | Exported Function | 0x10004f00 | 0x00004f00
-`NtUserEnableMouseInputForCursorSuppression` | 866 (0x362) | Exported Function | 0x10004e50 | 0x00004e50
-`NtUserGetClipboardFormatName` | 906 (0x38a) | Exported Function | 0x10001dc0 | 0x00001dc0
-`NtUserEnableMouseInPointerForWindow` | 865 (0x361) | Exported Function | 0x10004e40 | 0x00004e40
-`NtUserEnableMenuItem` | 863 (0x35f) | Exported Function | 0x10001c50 | 0x00001c50
-`NtUserDiscardPointerFrameMessages` | 841 (0x349) | Exported Function | 0x10004cf0 | 0x00004cf0
-`NtUserDisableThreadIme` | 840 (0x348) | Exported Function | 0x10004ce0 | 0x00004ce0
-`NtUserDisableProcessWindowFiltering` | 839 (0x347) | Exported Function | 0x10004cd0 | 0x00004cd0
-`NtUserDisableImmersiveOwner` | 838 (0x346) | Exported Function | 0x10004cc0 | 0x00004cc0
-`NtUserDestroyWindow` | 837 (0x345) | Exported Function | 0x100019a0 | 0x000019a0
-`NtUserDestroyPalmRejectionDelayZone` | 836 (0x344) | Exported Function | 0x10004cb0 | 0x00004cb0
-`NtUserDestroyMenu` | 835 (0x343) | Exported Function | 0x10001d00 | 0x00001d00
-`NtUserDispatchMessage` | 842 (0x34a) | Exported Function | 0x10001360 | 0x00001360
-`NtUserDestroyInputContext` | 834 (0x342) | Exported Function | 0x10004ca0 | 0x00004ca0
-`NtUserDestroyCursor` | 832 (0x340) | Exported Function | 0x10001990 | 0x00001990
-`NtUserDestroyActivationObject` | 831 (0x33f) | Exported Function | 0x10004c80 | 0x00004c80
-`NtUserDestroyActivationGroup` | 830 (0x33e) | Exported Function | 0x10004c70 | 0x00004c70
-`NtUserDestroyAcceleratorTable` | 829 (0x33d) | Exported Function | 0x10001f10 | 0x00001f10
-`NtUserDeleteWindowGroup` | 828 (0x33c) | Exported Function | 0x10004c60 | 0x00004c60
-`NtUserDeleteMenu` | 827 (0x33b) | Exported Function | 0x10001b40 | 0x00001b40
-`NtUserDelegateInput` | 826 (0x33a) | Exported Function | 0x10004c50 | 0x00004c50
-`NtUserDestroyDCompositionHwndTarget` | 833 (0x341) | Exported Function | 0x10004c90 | 0x00004c90
-`NtUserDisplayConfigGetDeviceInfo` | 843 (0x34b) | Exported Function | 0x10004d00 | 0x00004d00
-`NtUserDisplayConfigSetDeviceInfo` | 844 (0x34c) | Exported Function | 0x10004d10 | 0x00004d10
-`NtUserDoSoundConnect` | 845 (0x34d) | Exported Function | 0x10004d30 | 0x00004d30
-`NtUserEnableIAMAccess` | 862 (0x35e) | Exported Function | 0x10004e20 | 0x00004e20
-`NtUserEnableChildWindowDpiMessage` | 861 (0x35d) | Exported Function | 0x10004e10 | 0x00004e10
-`NtUserEmptyClipboard` | 860 (0x35c) | Exported Function | 0x10001eb0 | 0x00001eb0
-`NtUserDwmValidateWindow` | 859 (0x35b) | Exported Function | 0x10004e00 | 0x00004e00
-`NtUserDwmKernelStartup` | 858 (0x35a) | Exported Function | 0x10004df0 | 0x00004df0
-`NtUserDwmKernelShutdown` | 857 (0x359) | Exported Function | 0x10004de0 | 0x00004de0
-`NtUserDwmGetRemoteSessionOcclusionState` | 856 (0x358) | Exported Function | 0x10004dd0 | 0x00004dd0
-`NtUserDwmGetRemoteSessionOcclusionEvent` | 855 (0x357) | Exported Function | 0x10004dc0 | 0x00004dc0
-`NtUserDrawMenuBarTemp` | 854 (0x356) | Exported Function | 0x10004db0 | 0x00004db0
-`NtUserDrawIconEx` | 853 (0x355) | Exported Function | 0x100015f0 | 0x000015f0
-`NtUserDrawCaptionTemp` | 852 (0x354) | Exported Function | 0x10004da0 | 0x00004da0
-`NtUserDrawCaption` | 851 (0x353) | Exported Function | 0x10004d90 | 0x00004d90
-`NtUserDrawAnimatedRects` | 850 (0x352) | Exported Function | 0x10004d80 | 0x00004d80
-`NtUserDragObject` | 849 (0x351) | Exported Function | 0x10004d70 | 0x00004d70
-`NtUserDragDetect` | 848 (0x350) | Exported Function | 0x10004d60 | 0x00004d60
-`NtUserDownlevelTouchpad` | 847 (0x34f) | Exported Function | 0x10004d50 | 0x00004d50
-`NtUserDoSoundDisconnect` | 846 (0x34e) | Exported Function | 0x10004d40 | 0x00004d40
-`NtUserEnableMouseInPointer` | 864 (0x360) | Exported Function | 0x10004e30 | 0x00004e30
-`NtUserDelegateCapturePointers` | 825 (0x339) | Exported Function | 0x10004c40 | 0x00004c40
-`NtUserGetClipboardOwner` | 907 (0x38b) | Exported Function | 0x10001bd0 | 0x00001bd0
-`NtUserGetClipboardViewer` | 909 (0x38d) | Exported Function | 0x10004fa0 | 0x00004fa0
-`NtUserGetPhysicalDeviceRect` | 964 (0x3c4) | Exported Function | 0x10005200 | 0x00005200
-`NtUserGetOwnerTransformedMonitorRect` | 963 (0x3c3) | Exported Function | 0x100040f0 | 0x000040f0
-`NtUserGetOpenClipboardWindow` | 962 (0x3c2) | Exported Function | 0x10001cb0 | 0x00001cb0
-`NtUserGetOemBitmapSize` | 961 (0x3c1) | Exported Function | 0x100051e0 | 0x000051e0
-`NtUserGetObjectInformation` | 960 (0x3c0) | Exported Function | 0x100016a0 | 0x000016a0
-`NtUserGetMouseMovePointsEx` | 959 (0x3bf) | Exported Function | 0x100051d0 | 0x000051d0
-`NtUserGetMessage` | 958 (0x3be) | Exported Function | 0x10001060 | 0x00001060
-`NtUserGetPointerCursorId` | 965 (0x3c5) | Exported Function | 0x10005210 | 0x00005210
-`NtUserGetMenuItemRect` | 957 (0x3bd) | Exported Function | 0x100051c0 | 0x000051c0
-`NtUserGetMenuBarInfo` | 955 (0x3bb) | Exported Function | 0x10001b90 | 0x00001b90
-`NtUserGetListBoxInfo` | 954 (0x3ba) | Exported Function | 0x100051a0 | 0x000051a0
-`NtUserGetLayeredWindowAttributes` | 953 (0x3b9) | Exported Function | 0x10005190 | 0x00005190
-`NtUserGetKeyState` | 948 (0x3b4) | Exported Function | 0x10001030 | 0x00001030
-`NtUserGetKeyNameText` | 947 (0x3b3) | Exported Function | 0x10005160 | 0x00005160
-`NtUserGetKeyboardState` | 952 (0x3b8) | Exported Function | 0x10001760 | 0x00001760
-`NtUserGetKeyboardLayoutName` | 951 (0x3b7) | Exported Function | 0x10005180 | 0x00005180
-`NtUserGetMenuIndex` | 956 (0x3bc) | Exported Function | 0x100051b0 | 0x000051b0
-`NtUserGetPointerDevice` | 966 (0x3c6) | Exported Function | 0x10005220 | 0x00005220
-`NtUserGetPointerDeviceCursors` | 967 (0x3c7) | Exported Function | 0x10005230 | 0x00005230
-`NtUserGetPointerDeviceInputSpace` | 968 (0x3c8) | Exported Function | 0x10005240 | 0x00005240
-`NtUserGetQueueStatusReadonly` | 985 (0x3d9) | Exported Function | 0x10005330 | 0x00005330
-`NtUserGetQueueStatus` | 984 (0x3d8) | Exported Function | 0x10005320 | 0x00005320
-`NtUserGetProp` | 983 (0x3d7) | Exported Function | 0x100010e0 | 0x000010e0
-`NtUserGetProcessWindowStation` | 982 (0x3d6) | Exported Function | 0x10001220 | 0x00001220
-`NtUserGetProcessUIContextInformation` | 981 (0x3d5) | Exported Function | 0x10005310 | 0x00005310
-`NtUserGetProcessDpiAwarenessContext` | 980 (0x3d4) | Exported Function | 0x10005300 | 0x00005300
-`NtUserGetPriorityClipboardFormat` | 979 (0x3d3) | Exported Function | 0x100052f0 | 0x000052f0
-`NtUserGetPrecisionTouchPadConfiguration` | 978 (0x3d2) | Exported Function | 0x100052e0 | 0x000052e0
-`NtUserGetPointerType` | 977 (0x3d1) | Exported Function | 0x100052d0 | 0x000052d0
-`NtUserGetPointerProprietaryId` | 976 (0x3d0) | Exported Function | 0x100052c0 | 0x000052c0
-`NtUserGetPointerInputTransform` | 975 (0x3cf) | Exported Function | 0x100052b0 | 0x000052b0
-`NtUserGetPointerInfoList` | 974 (0x3ce) | Exported Function | 0x100052a0 | 0x000052a0
-`NtUserGetPointerFrameTimes` | 973 (0x3cd) | Exported Function | 0x10005290 | 0x00005290
-`NtUserGetPointerDevices` | 972 (0x3cc) | Exported Function | 0x10005280 | 0x00005280
-`NtUserGetPointerDeviceRects` | 971 (0x3cb) | Exported Function | 0x10005270 | 0x00005270
-`NtUserGetPointerDeviceProperties` | 970 (0x3ca) | Exported Function | 0x10005260 | 0x00005260
-`NtUserGetPointerDeviceOrientation` | 969 (0x3c9) | Exported Function | 0x10005250 | 0x00005250
-`NtUserGetKeyboardLayoutList` | 950 (0x3b6) | Exported Function | 0x10001580 | 0x00001580
-`NtUserGetClipboardSequenceNumber` | 908 (0x38c) | Exported Function | 0x10001550 | 0x00001550
-`NtUserGetKeyboardLayout` | 949 (0x3b5) | Exported Function | 0x10005170 | 0x00005170
-`NtUserGetInteractiveCtrlSupportedWaveforms` | 945 (0x3b1) | Exported Function | 0x10005140 | 0x00005140
-`NtUserGetDisplayConfigBufferSizes` | 924 (0x39c) | Exported Function | 0x10005040 | 0x00005040
-`NtUserGetDisplayAutoRotationPreferencesByProcessId` | 923 (0x39b) | Exported Function | 0x10005030 | 0x00005030
-`NtUserGetDisplayAutoRotationPreferences` | 922 (0x39a) | Exported Function | 0x10005020 | 0x00005020
-`NtUserGetDesktopID` | 921 (0x399) | Exported Function | 0x10005010 | 0x00005010
-`NtUserGetDCEx` | 919 (0x397) | Exported Function | 0x100018f0 | 0x000018f0
-`NtUserGetDC` | 918 (0x396) | Exported Function | 0x100010a0 | 0x000010a0
-`NtUserGetCursorInfo` | 917 (0x395) | Exported Function | 0x10004ff0 | 0x00004ff0
-`NtUserGetDManipHookInitFunction` | 920 (0x398) | Exported Function | 0x10005000 | 0x00005000
-`NtUserGetCursorFrameInfo` | 916 (0x394) | Exported Function | 0x10001e50 | 0x00001e50
-`NtUserGetCurrentInputMessageSource` | 914 (0x392) | Exported Function | 0x10004fd0 | 0x00004fd0
-`NtUserGetCurrentDpiInfoForWindow` | 913 (0x391) | Exported Function | 0x10004fc0 | 0x00004fc0
-`NtUserGetCPD` | 898 (0x382) | Exported Function | 0x10001450 | 0x00001450
-`NtUserGetControlColor` | 912 (0x390) | Exported Function | 0x10001d60 | 0x00001d60
-`NtUserGetControlBrush` | 911 (0x38f) | Exported Function | 0x10001780 | 0x00001780
-`NtUserGetComboBoxInfo` | 910 (0x38e) | Exported Function | 0x10004fb0 | 0x00004fb0
-`NtUserGetClipCursor` | 903 (0x387) | Exported Function | 0x10004f80 | 0x00004f80
-`NtUserGetCursor` | 915 (0x393) | Exported Function | 0x10004fe0 | 0x00004fe0
-`NtUserGetDoubleClickTime` | 925 (0x39d) | Exported Function | 0x10001ae0 | 0x00001ae0
-`NtUserGetDpiForCurrentProcess` | 926 (0x39e) | Exported Function | 0x10005050 | 0x00005050
-`NtUserGetDpiForMonitor` | 927 (0x39f) | Exported Function | 0x10005060 | 0x00005060
-`NtUserGetInteractiveControlInfo` | 944 (0x3b0) | Exported Function | 0x10005130 | 0x00005130
-`NtUserGetInteractiveControlDeviceInfo` | 943 (0x3af) | Exported Function | 0x10005120 | 0x00005120
-`NtUserGetInputLocaleInfo` | 942 (0x3ae) | Exported Function | 0x10005110 | 0x00005110
-`NtUserGetInputContainerId` | 941 (0x3ad) | Exported Function | 0x10005100 | 0x00005100
-`NtUserGetImeInfoEx` | 940 (0x3ac) | Exported Function | 0x100050f0 | 0x000050f0
-`NtUserGetImeHotKey` | 939 (0x3ab) | Exported Function | 0x100050e0 | 0x000050e0
-`NtUserGetIconSize` | 938 (0x3aa) | Exported Function | 0x10001850 | 0x00001850
-`NtUserGetIconInfo` | 937 (0x3a9) | Exported Function | 0x100014f0 | 0x000014f0
-`NtUserGetHimetricScaleFactorFromPixelLocation` | 936 (0x3a8) | Exported Function | 0x100050d0 | 0x000050d0
-`NtUserGetHDevName` | 935 (0x3a7) | Exported Function | 0x100050c0 | 0x000050c0
-`NtUserGetGUIThreadInfo` | 930 (0x3a2) | Exported Function | 0x10001f20 | 0x00001f20
-`NtUserGetGuiResources` | 934 (0x3a6) | Exported Function | 0x100050b0 | 0x000050b0
-`NtUserGetGestureInfo` | 933 (0x3a5) | Exported Function | 0x100050a0 | 0x000050a0
-`NtUserGetGestureExtArgs` | 932 (0x3a4) | Exported Function | 0x10005090 | 0x00005090
-`NtUserGetGestureConfig` | 931 (0x3a3) | Exported Function | 0x10005080 | 0x00005080
-`NtUserGetForegroundWindow` | 929 (0x3a1) | Exported Function | 0x100013c0 | 0x000013c0
-`NtUserGetExtendedPointerDeviceProperty` | 928 (0x3a0) | Exported Function | 0x10005070 | 0x00005070
-`NtUserGetInternalWindowPos` | 946 (0x3b2) | Exported Function | 0x10005150 | 0x00005150
-`NtUserDefSetText` | 822 (0x336) | Exported Function | 0x100017c0 | 0x000017c0
-`NtUserDeferWindowPosAndBand` | 824 (0x338) | Exported Function | 0x10004c30 | 0x00004c30
-`NtUserDeferWindowDpiChanges` | 823 (0x337) | Exported Function | 0x10004c20 | 0x00004c20
-`NtRIMGetDeviceProperties` | 717 (0x2cd) | Exported Function | 0x10004780 | 0x00004780
-`NtRIMGetDevicePreparsedDataLockfree` | 716 (0x2cc) | Exported Function | 0x10004770 | 0x00004770
-`NtRIMGetDevicePreparsedData` | 715 (0x2cb) | Exported Function | 0x10004760 | 0x00004760
-`NtRIMFreeInputBuffer` | 714 (0x2ca) | Exported Function | 0x10004750 | 0x00004750
-`NtRIMEnableMonitorMappingForDevice` | 713 (0x2c9) | Exported Function | 0x10004740 | 0x00004740
-`NtRIMDeviceIoControl` | 712 (0x2c8) | Exported Function | 0x10004730 | 0x00004730
-`NtRIMAreSiblingDevices` | 711 (0x2c7) | Exported Function | 0x10004720 | 0x00004720
-`NtRIMGetDevicePropertiesLockfree` | 718 (0x2ce) | Exported Function | 0x10004790 | 0x00004790
-`NtRIMAddInputObserver` | 710 (0x2c6) | Exported Function | 0x10004710 | 0x00004710
-`NtQueryCompositionSurfaceRenderingRealization` | 708 (0x2c4) | Exported Function | 0x100046f0 | 0x000046f0
-`NtQueryCompositionSurfaceHDRMetaData` | 707 (0x2c3) | Exported Function | 0x100046e0 | 0x000046e0
-`NtQueryCompositionSurfaceBinding` | 706 (0x2c2) | Exported Function | 0x100046d0 | 0x000046d0
-`NtQueryCompositionInputSinkViewId` | 705 (0x2c1) | Exported Function | 0x100046c0 | 0x000046c0
-`NtQueryCompositionInputSinkLuid` | 704 (0x2c0) | Exported Function | 0x100046b0 | 0x000046b0
-`NtQueryCompositionInputSink` | 703 (0x2bf) | Exported Function | 0x100046a0 | 0x000046a0
-`NtQueryCompositionInputQueueAndTransform` | 702 (0x2be) | Exported Function | 0x10004690 | 0x00004690
-`NtQueryCompositionSurfaceStatistics` | 709 (0x2c5) | Exported Function | 0x10004700 | 0x00004700
-`NtRIMGetPhysicalDeviceRect` | 719 (0x2cf) | Exported Function | 0x100047a0 | 0x000047a0
-`NtRIMGetSourceProcessId` | 720 (0x2d0) | Exported Function | 0x100047b0 | 0x000047b0
-`NtRIMObserveNextInput` | 721 (0x2d1) | Exported Function | 0x100047c0 | 0x000047c0
-`NtSetPointerDeviceInputSpace` | 738 (0x2e2) | Exported Function | 0x100048d0 | 0x000048d0
-`NtSetCursorInputSpace` | 737 (0x2e1) | Exported Function | 0x100048c0 | 0x000048c0
-`NtSetCompositionSurfaceStatistics` | 736 (0x2e0) | Exported Function | 0x100048b0 | 0x000048b0
-`NtSetCompositionSurfaceIndependentFlipInfo` | 735 (0x2df) | Exported Function | 0x100048a0 | 0x000048a0
-`NtSetCompositionSurfaceDirectFlipState` | 734 (0x2de) | Exported Function | 0x10004890 | 0x00004890
-`NtSetCompositionSurfaceBufferUsage` | 733 (0x2dd) | Exported Function | 0x10004880 | 0x00004880
-`NtSetCompositionSurfaceAnalogExclusive` | 732 (0x2dc) | Exported Function | 0x10004870 | 0x00004870
-`NtRIMUpdateInputObserverRegistration` | 731 (0x2db) | Exported Function | 0x10004860 | 0x00004860
-`NtRIMUnregisterForInput` | 730 (0x2da) | Exported Function | 0x10004850 | 0x00004850
-`NtRIMSetTestModeStatus` | 729 (0x2d9) | Exported Function | 0x10004840 | 0x00004840
-`NtRIMSetExtendedDeviceProperty` | 728 (0x2d8) | Exported Function | 0x10004830 | 0x00004830
-`NtRIMRemoveInputObserver` | 727 (0x2d7) | Exported Function | 0x10004820 | 0x00004820
-`NtRIMRegisterForInput` | 726 (0x2d6) | Exported Function | 0x10004810 | 0x00004810
-`NtRIMReadInput` | 725 (0x2d5) | Exported Function | 0x10004800 | 0x00004800
-`NtRIMQueryDevicePath` | 724 (0x2d4) | Exported Function | 0x100047f0 | 0x000047f0
-`NtRIMOnTimerNotification` | 723 (0x2d3) | Exported Function | 0x100047e0 | 0x000047e0
-`NtRIMOnPnpNotification` | 722 (0x2d2) | Exported Function | 0x100047d0 | 0x000047d0
-`NtQueryCompositionInputIsImplicit` | 701 (0x2bd) | Exported Function | 0x10004680 | 0x00004680
-`NtSetShellCursorState` | 739 (0x2e3) | Exported Function | 0x100048e0 | 0x000048e0
-`NtOpenCompositionSurfaceSwapChainHandleInfo` | 700 (0x2bc) | Exported Function | 0x10004670 | 0x00004670
-`NtOpenCompositionSurfaceDirtyRegion` | 698 (0x2ba) | Exported Function | 0x10004650 | 0x00004650
-`NtMITSynthesizeKeyboardInput` | 670 (0x29e) | Exported Function | 0x10004490 | 0x00004490
-`NtMITSetLastInputRecipient` | 669 (0x29d) | Exported Function | 0x10004480 | 0x00004480
-`NtMITSetKeyboardOverriderState` | 668 (0x29c) | Exported Function | 0x10004470 | 0x00004470
-`NtMITSetKeyboardInputRoutingPolicy` | 667 (0x29b) | Exported Function | 0x10004460 | 0x00004460
-`NtMITSetInputObservationState` | 666 (0x29a) | Exported Function | 0x10004450 | 0x00004450
-`NtMITSetInputDelegationMode` | 665 (0x299) | Exported Function | 0x10004440 | 0x00004440
-`NtMITSetInputCallbacks` | 664 (0x298) | Exported Function | 0x10004430 | 0x00004430
-`NtMITSynthesizeMouseInput` | 671 (0x29f) | Exported Function | 0x100044a0 | 0x000044a0
-`NtMITSetForegroundRoutingInfo` | 663 (0x297) | Exported Function | 0x10004420 | 0x00004420
-`NtMITPrepareSendInputMessage` | 661 (0x295) | Exported Function | 0x10004400 | 0x00004400
-`NtMITPrepareReceiveInputMessage` | 660 (0x294) | Exported Function | 0x100043f0 | 0x000043f0
-`NtMITPostWindowEventMessage` | 659 (0x293) | Exported Function | 0x100043e0 | 0x000043e0
-`NtMITPostThreadEventMessage` | 658 (0x292) | Exported Function | 0x100043d0 | 0x000043d0
-`NtMITPostMouseInputMessage` | 657 (0x291) | Exported Function | 0x100043c0 | 0x000043c0
-`NtMITMinuserWindowDestroyed` | 656 (0x290) | Exported Function | 0x100043b0 | 0x000043b0
-`NtMITMinuserWindowCreated` | 655 (0x28f) | Exported Function | 0x100043a0 | 0x000043a0
-`NtMITProcessDelegateCapturedPointers` | 662 (0x296) | Exported Function | 0x10004410 | 0x00004410
-`NtMITSynthesizeTouchInput` | 672 (0x2a0) | Exported Function | 0x100044b0 | 0x000044b0
-`NtMITUninitMinuserThread` | 673 (0x2a1) | Exported Function | 0x100044c0 | 0x000044c0
-`NtMITUpdateInputGlobals` | 674 (0x2a2) | Exported Function | 0x100044d0 | 0x000044d0
-`NtNotifyPresentToCompositionSurface` | 697 (0x2b9) | Exported Function | 0x10004640 | 0x00004640
-`NtModerncoreUnregisterNavigationWindowHandle` | 696 (0x2b8) | Exported Function | 0x10004630 | 0x00004630
-`NtModerncoreSetNavigationServiceSid` | 695 (0x2b7) | Exported Function | 0x10004620 | 0x00004620
-`NtModerncoreRegisterNavigationWindowHandle` | 694 (0x2b6) | Exported Function | 0x10004610 | 0x00004610
-`NtModerncoreRegisterEnhancedNavigationWindowHandle` | 693 (0x2b5) | Exported Function | 0x10004600 | 0x00004600
-`NtModerncoreProcessConnect` | 692 (0x2b4) | Exported Function | 0x100045f0 | 0x000045f0
-`NtModerncoreIsResizeLayoutSynchronizationEnabled` | 691 (0x2b3) | Exported Function | 0x100045e0 | 0x000045e0
-`NtModerncoreIdleTimerThread` | 690 (0x2b2) | Exported Function | 0x100045d0 | 0x000045d0
-`NtModerncoreGetWindowContentVisual` | 689 (0x2b1) | Exported Function | 0x100045c0 | 0x000045c0
-`NtModerncoreGetResizeDCompositionSynchronizationObject` | 688 (0x2b0) | Exported Function | 0x100045b0 | 0x000045b0
-`NtModerncoreGetNavigationWindowVisual` | 687 (0x2af) | Exported Function | 0x100045a0 | 0x000045a0
-`NtModerncoreEnableResizeLayoutSynchronization` | 686 (0x2ae) | Exported Function | 0x10004590 | 0x00004590
-`NtModerncoreDestroyGDIHwndTarget` | 685 (0x2ad) | Exported Function | 0x10004580 | 0x00004580
-`NtModerncoreDestroyDCompositionHwndTarget` | 684 (0x2ac) | Exported Function | 0x10004570 | 0x00004570
-`NtModerncoreCreateGDIHwndTarget` | 683 (0x2ab) | Exported Function | 0x10004560 | 0x00004560
-`NtModerncoreCreateDCompositionHwndTarget` | 682 (0x2aa) | Exported Function | 0x10004550 | 0x00004550
-`NtModerncoreBeginLayoutUpdate` | 681 (0x2a9) | Exported Function | 0x10004540 | 0x00004540
-`NtOpenCompositionSurfaceSectionInfo` | 699 (0x2bb) | Exported Function | 0x10004660 | 0x00004660
-`NtTokenManagerConfirmOutstandingAnalogToken` | 740 (0x2e4) | Exported Function | 0x100048f0 | 0x000048f0
-`NtTokenManagerCreateCompositionTokenHandle` | 741 (0x2e5) | Exported Function | 0x10004900 | 0x00004900
-`NtTokenManagerCreateFlipObjectReturnTokenHandle` | 742 (0x2e6) | Exported Function | 0x10004910 | 0x00004910
-`NtUserCompositionInputSinkViewInstanceIdFromPoint` | 800 (0x320) | Exported Function | 0x10004b50 | 0x00004b50
-`NtUserCompositionInputSinkLuidFromPoint` | 799 (0x31f) | Exported Function | 0x10004b40 | 0x00004b40
-`NtUserCloseWindowStation` | 798 (0x31e) | Exported Function | 0x10001ad0 | 0x00001ad0
-`NtUserCloseDesktop` | 797 (0x31d) | Exported Function | 0x100019f0 | 0x000019f0
-`NtUserCloseClipboard` | 796 (0x31c) | Exported Function | 0x10001c20 | 0x00001c20
-`NtUserClipCursor` | 795 (0x31b) | Exported Function | 0x10004b30 | 0x00004b30
-`NtUserClearForeground` | 794 (0x31a) | Exported Function | 0x10004b20 | 0x00004b20
-`NtUserConfigureActivationObject` | 801 (0x321) | Exported Function | 0x10004b60 | 0x00004b60
-`NtUserChildWindowFromPointEx` | 793 (0x319) | Exported Function | 0x10004b10 | 0x00004b10
-`NtUserCheckProcessSession` | 791 (0x317) | Exported Function | 0x10004af0 | 0x00004af0
-`NtUserCheckProcessForClipboardAccess` | 790 (0x316) | Exported Function | 0x10004ae0 | 0x00004ae0
-`NtUserCheckMenuItem` | 789 (0x315) | Exported Function | 0x10001f60 | 0x00001f60
-`NtUserCheckAccessForIntegrityLevel` | 788 (0x314) | Exported Function | 0x10004ad0 | 0x00004ad0
-`NtUserChangeWindowMessageFilterEx` | 787 (0x313) | Exported Function | 0x10004ac0 | 0x00004ac0
-`NtUserChangeDisplaySettings` | 786 (0x312) | Exported Function | 0x10004ab0 | 0x00004ab0
-`NtUserChangeClipboardChain` | 785 (0x311) | Exported Function | 0x100020c0 | 0x000020c0
-`NtUserCheckWindowThreadDesktop` | 792 (0x318) | Exported Function | 0x10004b00 | 0x00004b00
-`NtUserConfirmResizeCommit` | 802 (0x322) | Exported Function | 0x10004b70 | 0x00004b70
-`NtUserConsoleControl` | 803 (0x323) | Exported Function | 0x10001d20 | 0x00001d20
-`NtUserConvertMemHandle` | 804 (0x324) | Exported Function | 0x10001f00 | 0x00001f00
-`NtUserDdeInitialize` | 821 (0x335) | Exported Function | 0x10002000 | 0x00002000
-`NtUserCtxDisplayIOCtl` | 820 (0x334) | Exported Function | 0x10004c10 | 0x00004c10
-`NtUserCreateWindowStation` | 819 (0x333) | Exported Function | 0x10004c00 | 0x00004c00
-`NtUserCreateWindowGroup` | 818 (0x332) | Exported Function | 0x10004bf0 | 0x00004bf0
-`NtUserCreateWindowEx` | 817 (0x331) | Exported Function | 0x10001740 | 0x00001740
-`NtUserCreatePalmRejectionDelayZone` | 816 (0x330) | Exported Function | 0x10004be0 | 0x00004be0
-`NtUserCreateLocalMemHandle` | 815 (0x32f) | Exported Function | 0x10001de0 | 0x00001de0
-`NtUserCreateInputContext` | 814 (0x32e) | Exported Function | 0x10004bd0 | 0x00004bd0
-`NtUserCreateEmptyCursorObject` | 813 (0x32d) | Exported Function | 0x10004bc0 | 0x00004bc0
-`NtUserCreateDesktopEx` | 812 (0x32c) | Exported Function | 0x10004bb0 | 0x00004bb0
-`NtUserCreateDCompositionHwndTarget` | 811 (0x32b) | Exported Function | 0x10004ba0 | 0x00004ba0
-`NtUserCreateCaret` | 810 (0x32a) | Exported Function | 0x10001320 | 0x00001320
-`NtUserCreateActivationObject` | 809 (0x329) | Exported Function | 0x10004b90 | 0x00004b90
-`NtUserCreateActivationGroup` | 808 (0x328) | Exported Function | 0x10004b80 | 0x00004b80
-`NtUserCreateAcceleratorTable` | 807 (0x327) | Exported Function | 0x10001e40 | 0x00001e40
-`NtUserCountClipboardFormats` | 806 (0x326) | Exported Function | 0x10002020 | 0x00002020
-`NtUserCopyAcceleratorTable` | 805 (0x325) | Exported Function | 0x100012c0 | 0x000012c0
-`NtUserCanBrokerForceForeground` | 784 (0x310) | Exported Function | 0x10004aa0 | 0x00004aa0
-`NtUserCallTwoParam` | 783 (0x30f) | Exported Function | 0x100012a0 | 0x000012a0
-`NtUserCallOneParam` | 782 (0x30e) | Exported Function | 0x10001020 | 0x00001020
-`NtUserCallNoParam` | 781 (0x30d) | Exported Function | 0x10001050 | 0x00001050
-`NtUserAutoRotateScreen` | 759 (0x2f7) | Exported Function | 0x100049f0 | 0x000049f0
-`NtUserAutoPromoteMouseInPointer` | 758 (0x2f6) | Exported Function | 0x100049e0 | 0x000049e0
-`NtUserAttachThreadInput` | 757 (0x2f5) | Exported Function | 0x10001df0 | 0x00001df0
-`NtUserAssociateInputContext` | 756 (0x2f4) | Exported Function | 0x100049d0 | 0x000049d0
-`NtUserAlterWindowStyle` | 755 (0x2f3) | Exported Function | 0x10001c60 | 0x00001c60
-`NtUserAddVisualIdentifier` | 754 (0x2f2) | Exported Function | 0x100049c0 | 0x000049c0
-`NtUserAddClipboardFormatListener` | 753 (0x2f1) | Exported Function | 0x100049b0 | 0x000049b0
-`NtUserActivateKeyboardLayout` | 752 (0x2f0) | Exported Function | 0x10002110 | 0x00002110
-`NtUserAcquireInteractiveControlBackgroundAccess` | 751 (0x2ef) | Exported Function | 0x100049a0 | 0x000049a0
-`NtUserAcquireIAMKey` | 750 (0x2ee) | Exported Function | 0x10004990 | 0x00004990
-`NtUpdateInputSinkTransforms` | 749 (0x2ed) | Exported Function | 0x10004980 | 0x00004980
-`NtUnBindCompositionSurface` | 748 (0x2ec) | Exported Function | 0x10004970 | 0x00004970
-`NtTokenManagerThread` | 747 (0x2eb) | Exported Function | 0x10004960 | 0x00004960
-`NtTokenManagerOpenSectionAndEvents` | 746 (0x2ea) | Exported Function | 0x10004950 | 0x00004950
-`NtTokenManagerGetAnalogExclusiveTokenEvent` | 745 (0x2e9) | Exported Function | 0x10004940 | 0x00004940
-`NtTokenManagerGetAnalogExclusiveSurfaceUpdates` | 744 (0x2e8) | Exported Function | 0x10004930 | 0x00004930
-`NtTokenManagerCreateFlipObjectTokenHandle` | 743 (0x2e7) | Exported Function | 0x10004920 | 0x00004920
-`NtUserBeginLayoutUpdate` | 760 (0x2f8) | Exported Function | 0x10004a00 | 0x00004a00
-`NtUserGetRawInputBuffer` | 986 (0x3da) | Exported Function | 0x10005340 | 0x00005340
-`NtUserBeginPaint` | 761 (0x2f9) | Exported Function | 0x10001170 | 0x00001170
-`NtUserBlockInput` | 763 (0x2fb) | Exported Function | 0x10004a10 | 0x00004a10
-`NtUserCallNextHookEx` | 780 (0x30c) | Exported Function | 0x100011e0 | 0x000011e0
-`NtUserCallMsgFilter` | 779 (0x30b) | Exported Function | 0x10001150 | 0x00001150
-`NtUserCallHwndSafe` | 778 (0x30a) | Exported Function | 0x10004a90 | 0x00004a90
-`NtUserCallHwndParamLockSafe` | 777 (0x309) | Exported Function | 0x10004a80 | 0x00004a80
-`NtUserCallHwndParamLock` | 776 (0x308) | Exported Function | 0x10001270 | 0x00001270
-`NtUserCallHwndParam` | 775 (0x307) | Exported Function | 0x100019b0 | 0x000019b0
-`NtUserCallHwndOpt` | 774 (0x306) | Exported Function | 0x10004a70 | 0x00004a70
-`NtUserCallHwndLockSafe` | 773 (0x305) | Exported Function | 0x10004a60 | 0x00004a60
-`NtUserCallHwndLock` | 772 (0x304) | Exported Function | 0x10001210 | 0x00001210
-`NtUserCallHwnd` | 771 (0x303) | Exported Function | 0x10001ff0 | 0x00001ff0
-`NtUserCalculatePopupWindowPosition` | 770 (0x302) | Exported Function | 0x10004a50 | 0x00004a50
-`NtUserCalcMenuBar` | 769 (0x301) | Exported Function | 0x10001940 | 0x00001940
-`NtUserBuildPropList` | 768 (0x300) | Exported Function | 0x10004a40 | 0x00004a40
-`NtUserBuildNameList` | 767 (0x2ff) | Exported Function | 0x10001a60 | 0x00001a60
-`NtUserBuildHwndList` | 766 (0x2fe) | Exported Function | 0x100011c0 | 0x000011c0
-`NtUserBuildHimcList` | 765 (0x2fd) | Exported Function | 0x10004a30 | 0x00004a30
-`NtUserBroadcastThemeChangeEvent` | 764 (0x2fc) | Exported Function | 0x10004a20 | 0x00004a20
-`NtUserBitBltSysBmp` | 762 (0x2fa) | Exported Function | 0x10001bf0 | 0x00001bf0
-`NtMITMinuserSetInputTransformOffset` | 654 (0x28e) | Exported Function | 0x10004390 | 0x00004390
-`NtUserGetRawInputData` | 987 (0x3db) | Exported Function | 0x10005350 | 0x00005350
-`NtUserGetRawInputDeviceList` | 989 (0x3dd) | Exported Function | 0x10005370 | 0x00005370
-`NtUserSetMenuFlagRtoL` | 1211 (0x4bb) | Exported Function | 0x10005df0 | 0x00005df0
-`NtUserSetMenuDefaultItem` | 1210 (0x4ba) | Exported Function | 0x10001f50 | 0x00001f50
-`NtUserSetMenuContextHelpId` | 1209 (0x4b9) | Exported Function | 0x10005de0 | 0x00005de0
-`NtUserSetMenu` | 1208 (0x4b8) | Exported Function | 0x10005dd0 | 0x00005dd0
-`NtUserSetManipulationInputTarget` | 1207 (0x4b7) | Exported Function | 0x10005dc0 | 0x00005dc0
-`NtUserSetMagnificationDesktopMagnifierOffsetsDWMUpdated` | 1206 (0x4b6) | Exported Function | 0x10005db0 | 0x00005db0
-`NtUserSetLayeredWindowAttributes` | 1205 (0x4b5) | Exported Function | 0x10005da0 | 0x00005da0
-`NtUserSetMirrorRendering` | 1212 (0x4bc) | Exported Function | 0x10005e00 | 0x00005e00
-`NtUserSetKeyboardState` | 1204 (0x4b4) | Exported Function | 0x10001e20 | 0x00001e20
-`NtUserSetInteractiveCtrlRotationAngle` | 1202 (0x4b2) | Exported Function | 0x10005d80 | 0x00005d80
-`NtUserSetInteractiveControlFocus` | 1201 (0x4b1) | Exported Function | 0x10005d70 | 0x00005d70
-`NtUserSetInputServiceState` | 1200 (0x4b0) | Exported Function | 0x10005d60 | 0x00005d60
-`NtUserSetInformationThread` | 1199 (0x4af) | Exported Function | 0x10001d40 | 0x00001d40
-`NtUserSetImeOwnerWindow` | 1198 (0x4ae) | Exported Function | 0x10005d50 | 0x00005d50
-`NtUserSetImeInfoEx` | 1197 (0x4ad) | Exported Function | 0x10005d40 | 0x00005d40
-`NtUserSetImeHotKey` | 1196 (0x4ac) | Exported Function | 0x10005d30 | 0x00005d30
-`NtUserSetInternalWindowPos` | 1203 (0x4b3) | Exported Function | 0x10005d90 | 0x00005d90
-`NtUserSetMonitorWorkArea` | 1213 (0x4bd) | Exported Function | 0x10005e10 | 0x00005e10
-`NtUserSetMouseInputRateLimitingTimer` | 1214 (0x4be) | Exported Function | 0x10005e20 | 0x00005e20
-`NtUserSetObjectInformation` | 1215 (0x4bf) | Exported Function | 0x10005e30 | 0x00005e30
-`NtUserSetSystemTimer` | 1232 (0x4d0) | Exported Function | 0x10005ee0 | 0x00005ee0
-`NtUserSetSystemMenu` | 1231 (0x4cf) | Exported Function | 0x10001fa0 | 0x00001fa0
-`NtUserSetSystemCursor` | 1230 (0x4ce) | Exported Function | 0x10005ed0 | 0x00005ed0
-`NtUserSetSysColors` | 1229 (0x4cd) | Exported Function | 0x10005ec0 | 0x00005ec0
-`NtUserSetShellWindowEx` | 1228 (0x4cc) | Exported Function | 0x10005eb0 | 0x00005eb0
-`NtUserSetSharedWindowData` | 1227 (0x4cb) | Exported Function | 0x10005ea0 | 0x00005ea0
-`NtUserSetSensorPresence` | 1226 (0x4ca) | Exported Function | 0x10004d20 | 0x00004d20
-`NtUserSetScrollInfo` | 1225 (0x4c9) | Exported Function | 0x10001300 | 0x00001300
-`NtUserSetProp` | 1224 (0x4c8) | Exported Function | 0x100014c0 | 0x000014c0
-`NtUserSetProcessWindowStation` | 1223 (0x4c7) | Exported Function | 0x10001a10 | 0x00001a10
-`NtUserSetProcessUIAccessZorder` | 1222 (0x4c6) | Exported Function | 0x10005e90 | 0x00005e90
-`NtUserSetProcessRestrictionExemption` | 1221 (0x4c5) | Exported Function | 0x10005e80 | 0x00005e80
-`NtUserSetProcessMousewheelRoutingMode` | 1220 (0x4c4) | Exported Function | 0x10005e70 | 0x00005e70
-`NtUserSetProcessInteractionFlags` | 1219 (0x4c3) | Exported Function | 0x10005e60 | 0x00005e60
-`NtUserSetProcessDpiAwarenessContext` | 1218 (0x4c2) | Exported Function | 0x10005e50 | 0x00005e50
-`NtUserSetPrecisionTouchPadConfiguration` | 1217 (0x4c1) | Exported Function | 0x10005e40 | 0x00005e40
-`NtUserSetParent` | 1216 (0x4c0) | Exported Function | 0x10001750 | 0x00001750
-`NtUserSetGestureConfig` | 1195 (0x4ab) | Exported Function | 0x10005d20 | 0x00005d20
-`NtUserSetTargetForResourceBrokering` | 1233 (0x4d1) | Exported Function | 0x10005ef0 | 0x00005ef0
-`NtUserSetFullscreenMagnifierOffsetsDWMUpdated` | 1194 (0x4aa) | Exported Function | 0x10005d10 | 0x00005d10
-`NtUserSetFocus` | 1192 (0x4a8) | Exported Function | 0x10001510 | 0x00001510
-`NtUserSetBrokeredForeground` | 1170 (0x492) | Exported Function | 0x10005c00 | 0x00005c00
-`NtUserSetBridgeWindowChild` | 1169 (0x491) | Exported Function | 0x10005bf0 | 0x00005bf0
-`NtUserSetAutoRotation` | 1168 (0x490) | Exported Function | 0x10005be0 | 0x00005be0
-`NtUserSetAppImeLevel` | 1167 (0x48f) | Exported Function | 0x10005bd0 | 0x00005bd0
-`NtUserSetActiveWindow` | 1166 (0x48e) | Exported Function | 0x10001d30 | 0x00001d30
-`NtUserSetActiveProcessForMonitor` | 1165 (0x48d) | Exported Function | 0x10005bc0 | 0x00005bc0
-`NtUserSetActivationFilter` | 1164 (0x48c) | Exported Function | 0x10005bb0 | 0x00005bb0
-`NtUserSetCalibrationData` | 1171 (0x493) | Exported Function | 0x10005c10 | 0x00005c10
-`NtUserSendInteractiveControlHapticsReport` | 1163 (0x48b) | Exported Function | 0x10005ba0 | 0x00005ba0
-`NtUserSendEventMessage` | 1161 (0x489) | Exported Function | 0x10005b90 | 0x00005b90
-`NtUserSelectPalette` | 1160 (0x488) | Exported Function | 0x100011d0 | 0x000011d0
-`NtUserScrollWindowEx` | 1159 (0x487) | Exported Function | 0x10001b60 | 0x00001b60
-`NtUserScrollDC` | 1158 (0x486) | Exported Function | 0x10001690 | 0x00001690
-`NtUserSBGetParms` | 1157 (0x485) | Exported Function | 0x100014e0 | 0x000014e0
-`NtUserRestoreWindowDpiChanges` | 1156 (0x484) | Exported Function | 0x10005b80 | 0x00005b80
-`NtUserResolveDesktopForWOW` | 1155 (0x483) | Exported Function | 0x10005b70 | 0x00005b70
-`NtUserSendInput` | 1162 (0x48a) | Exported Function | 0x100017f0 | 0x000017f0
-`NtUserSetCapture` | 1172 (0x494) | Exported Function | 0x10001490 | 0x00001490
-`NtUserSetChildWindowNoActivate` | 1173 (0x495) | Exported Function | 0x10005c20 | 0x00005c20
-`NtUserSetClassLong` | 1174 (0x496) | Exported Function | 0x10001b80 | 0x00001b80
-`NtUserSetFeatureReportResponse` | 1191 (0x4a7) | Exported Function | 0x10005cf0 | 0x00005cf0
-`NtUserSetFallbackForeground` | 1190 (0x4a6) | Exported Function | 0x10005ce0 | 0x00005ce0
-`NtUserSetDisplayMapping` | 1189 (0x4a5) | Exported Function | 0x10005cd0 | 0x00005cd0
-`NtUserSetDisplayConfig` | 1188 (0x4a4) | Exported Function | 0x10005cc0 | 0x00005cc0
-`NtUserSetDisplayAutoRotationPreferences` | 1187 (0x4a3) | Exported Function | 0x10005cb0 | 0x00005cb0
-`NtUserSetDialogControlDpiChangeBehavior` | 1186 (0x4a2) | Exported Function | 0x10005ca0 | 0x00005ca0
-`NtUserSetDesktopVisualInputSink` | 1185 (0x4a1) | Exported Function | 0x10005c90 | 0x00005c90
-`NtUserSetDesktopColorTransform` | 1184 (0x4a0) | Exported Function | 0x10005c80 | 0x00005c80
-`NtUserSetCursorPos` | 1183 (0x49f) | Exported Function | 0x10005c70 | 0x00005c70
-`NtUserSetCursorIconData` | 1182 (0x49e) | Exported Function | 0x100019e0 | 0x000019e0
-`NtUserSetCursorContents` | 1181 (0x49d) | Exported Function | 0x10005c60 | 0x00005c60
-`NtUserSetCursor` | 1180 (0x49c) | Exported Function | 0x100011a0 | 0x000011a0
-`NtUserSetCoreWindowPartner` | 1179 (0x49b) | Exported Function | 0x10005c50 | 0x00005c50
-`NtUserSetCoreWindow` | 1178 (0x49a) | Exported Function | 0x10005c40 | 0x00005c40
-`NtUserSetClipboardViewer` | 1177 (0x499) | Exported Function | 0x100020d0 | 0x000020d0
-`NtUserSetClipboardData` | 1176 (0x498) | Exported Function | 0x10001c40 | 0x00001c40
-`NtUserSetClassWord` | 1175 (0x497) | Exported Function | 0x10005c30 | 0x00005c30
-`NtUserSetForegroundWindowForApplication` | 1193 (0x4a9) | Exported Function | 0x10005d00 | 0x00005d00
-`NtUserRequestMoveSizeOperation` | 1154 (0x482) | Exported Function | 0x10005b60 | 0x00005b60
-`NtUserSetThreadDesktop` | 1234 (0x4d2) | Exported Function | 0x100018e0 | 0x000018e0
-`NtUserSetThreadLayoutHandles` | 1236 (0x4d4) | Exported Function | 0x10005f10 | 0x00005f10
-`NtUserUpdateDefaultDesktopThumbnail` | 1293 (0x50d) | Exported Function | 0x10006110 | 0x00006110
-`NtUserUnregisterUserApiHook` | 1292 (0x50c) | Exported Function | 0x10006100 | 0x00006100
-`NtUserUnregisterSessionPort` | 1291 (0x50b) | Exported Function | 0x100060f0 | 0x000060f0
-`NtUserUnregisterHotKey` | 1290 (0x50a) | Exported Function | 0x100060e0 | 0x000060e0
-`NtUserUnregisterClass` | 1289 (0x509) | Exported Function | 0x10001b30 | 0x00001b30
-`NtUserUnlockWindowStation` | 1288 (0x508) | Exported Function | 0x100060d0 | 0x000060d0
-`NtUserUnloadKeyboardLayout` | 1287 (0x507) | Exported Function | 0x100060c0 | 0x000060c0
-`NtUserUpdateInputContext` | 1294 (0x50e) | Exported Function | 0x10006120 | 0x00006120
-`NtUserUnhookWinEvent` | 1285 (0x505) | Exported Function | 0x10001f80 | 0x00001f80
-`NtUserUndelegateInput` | 1284 (0x504) | Exported Function | 0x100060b0 | 0x000060b0
-`NtUserTranslateMessage` | 1283 (0x503) | Exported Function | 0x100010d0 | 0x000010d0
-`NtUserTranslateAccelerator` | 1282 (0x502) | Exported Function | 0x10001110 | 0x00001110
-`NtUserTransformRect` | 1281 (0x501) | Exported Function | 0x100060a0 | 0x000060a0
-`NtUserTransformPoint` | 1280 (0x500) | Exported Function | 0x10006090 | 0x00006090
-`NtUserTrackPopupMenuEx` | 1279 (0x4ff) | Exported Function | 0x10006080 | 0x00006080
-`NtUserTrackMouseEvent` | 1278 (0x4fe) | Exported Function | 0x10001ce0 | 0x00001ce0
-`NtUserUnhookWindowsHookEx` | 1286 (0x506) | Exported Function | 0x100016e0 | 0x000016e0
-`NtUserUpdateInstance` | 1295 (0x50f) | Exported Function | 0x10006130 | 0x00006130
-`NtUserUpdateLayeredWindow` | 1296 (0x510) | Exported Function | 0x10006140 | 0x00006140
-`NtUserUpdatePerUserSystemParameters` | 1297 (0x511) | Exported Function | 0x10006150 | 0x00006150
-`NtValidateCompositionSurfaceHandle` | 1314 (0x522) | Exported Function | 0x10006200 | 0x00006200
-`NtUserYieldTask` | 1313 (0x521) | Exported Function | 0x100051f0 | 0x000051f0
-`NtUserWOWCleanup` | 1304 (0x518) | Exported Function | 0x10006190 | 0x00006190
-`NtUserWindowFromPoint` | 1312 (0x520) | Exported Function | 0x10001140 | 0x00001140
-`NtUserWindowFromPhysicalPoint` | 1311 (0x51f) | Exported Function | 0x100061f0 | 0x000061f0
-`NtUserWindowFromDC` | 1310 (0x51e) | Exported Function | 0x100061e0 | 0x000061e0
-`NtUserWaitMessage` | 1309 (0x51d) | Exported Function | 0x100010c0 | 0x000010c0
-`NtUserWaitForRedirectionStartComplete` | 1308 (0x51c) | Exported Function | 0x100061d0 | 0x000061d0
-`NtUserWaitForMsgAndEvent` | 1307 (0x51b) | Exported Function | 0x100061c0 | 0x000061c0
-`NtUserWaitForInputIdle` | 1306 (0x51a) | Exported Function | 0x100061b0 | 0x000061b0
-`NtUserWaitAvailableMessageEx` | 1305 (0x519) | Exported Function | 0x100061a0 | 0x000061a0
-`NtUserVkKeyScanEx` | 1303 (0x517) | Exported Function | 0x10001280 | 0x00001280
-`NtUserValidateTimerCallback` | 1302 (0x516) | Exported Function | 0x10001160 | 0x00001160
-`NtUserValidateRect` | 1301 (0x515) | Exported Function | 0x10001c10 | 0x00001c10
-`NtUserUserHandleGrantAccess` | 1300 (0x514) | Exported Function | 0x10006180 | 0x00006180
-`NtUserUpdateWindowTrackingInfo` | 1299 (0x513) | Exported Function | 0x10006170 | 0x00006170
-`NtUserUpdateWindowInputSinkHints` | 1298 (0x512) | Exported Function | 0x10006160 | 0x00006160
-`NtUserToUnicodeEx` | 1277 (0x4fd) | Exported Function | 0x10001770 | 0x00001770
-`NtUserSetThreadInputBlocked` | 1235 (0x4d3) | Exported Function | 0x10005f00 | 0x00005f00
-`NtUserThunkedMenuItemInfo` | 1276 (0x4fc) | Exported Function | 0x10001950 | 0x00001950
-`NtUserTestForInteractiveUser` | 1274 (0x4fa) | Exported Function | 0x10006070 | 0x00006070
-`NtUserSetWindowsHookAW` | 1256 (0x4e8) | Exported Function | 0x10001f40 | 0x00001f40
-`NtUserSetWindowRgnEx` | 1252 (0x4e4) | Exported Function | 0x10005f90 | 0x00005f90
-`NtUserSetWindowRgn` | 1251 (0x4e3) | Exported Function | 0x10001be0 | 0x00001be0
-`NtUserSetWindowPos` | 1250 (0x4e2) | Exported Function | 0x10001240 | 0x00001240
-`NtUserSetWindowPlacement` | 1249 (0x4e1) | Exported Function | 0x10001d50 | 0x00001d50
-`NtUserSetWindowLong` | 1248 (0x4e0) | Exported Function | 0x100015b0 | 0x000015b0
-`NtUserSetWindowGroup` | 1247 (0x4df) | Exported Function | 0x10005f80 | 0x00005f80
-`NtUserSetWindowsHookEx` | 1257 (0x4e9) | Exported Function | 0x10001890 | 0x00001890
-`NtUserSetWindowFNID` | 1245 (0x4dd) | Exported Function | 0x10001920 | 0x00001920
-`NtUserSetWindowDisplayAffinity` | 1244 (0x4dc) | Exported Function | 0x10005f60 | 0x00005f60
-`NtUserSetWindowCompositionTransition` | 1243 (0x4db) | Exported Function | 0x10005f50 | 0x00005f50
-`NtUserSetWindowCompositionAttribute` | 1242 (0x4da) | Exported Function | 0x10005f40 | 0x00005f40
-`NtUserSetWindowBand` | 1241 (0x4d9) | Exported Function | 0x10005f30 | 0x00005f30
-`NtUserSetWindowArrangement` | 1240 (0x4d8) | Exported Function | 0x10005f20 | 0x00005f20
-`NtUserSetTimer` | 1238 (0x4d6) | Exported Function | 0x10001180 | 0x00001180
-`NtUserSetThreadState` | 1237 (0x4d5) | Exported Function | 0x10001cc0 | 0x00001cc0
-`NtUserSetWindowFeedbackSetting` | 1246 (0x4de) | Exported Function | 0x10005f70 | 0x00005f70
-`NtUserSetWindowShowState` | 1253 (0x4e5) | Exported Function | 0x10005fa0 | 0x00005fa0
-`NtUserSetWindowStationUser` | 1254 (0x4e6) | Exported Function | 0x10005fb0 | 0x00005fb0
-`NtUserSetWindowWord` | 1255 (0x4e7) | Exported Function | 0x10001db0 | 0x00001db0
-`NtUserSystemParametersInfoForDpi` | 1273 (0x4f9) | Exported Function | 0x10006060 | 0x00006060
-`NtUserSystemParametersInfo` | 1272 (0x4f8) | Exported Function | 0x10001420 | 0x00001420
-`NtUserSwitchDesktop` | 1271 (0x4f7) | Exported Function | 0x10006050 | 0x00006050
-`NtUserStopAndEndInertia` | 1270 (0x4f6) | Exported Function | 0x10006040 | 0x00006040
-`NtUserSoundSentry` | 1269 (0x4f5) | Exported Function | 0x10006030 | 0x00006030
-`NtUserSlicerControl` | 1268 (0x4f4) | Exported Function | 0x10006020 | 0x00006020
-`NtUserSignalRedirectionStartComplete` | 1267 (0x4f3) | Exported Function | 0x10006010 | 0x00006010
-`NtUserShutdownReasonDestroy` | 1266 (0x4f2) | Exported Function | 0x10006000 | 0x00006000
-`NtUserShutdownBlockReasonQuery` | 1265 (0x4f1) | Exported Function | 0x10005ff0 | 0x00005ff0
-`NtUserShutdownBlockReasonCreate` | 1264 (0x4f0) | Exported Function | 0x10005fe0 | 0x00005fe0
-`NtUserShowWindowAsync` | 1263 (0x4ef) | Exported Function | 0x100020e0 | 0x000020e0
-`NtUserShowWindow` | 1262 (0x4ee) | Exported Function | 0x10001570 | 0x00001570
-`NtUserShowSystemCursor` | 1261 (0x4ed) | Exported Function | 0x10005fd0 | 0x00005fd0
-`NtUserShowScrollBar` | 1260 (0x4ec) | Exported Function | 0x100013d0 | 0x000013d0
-`NtUserShowCursor` | 1259 (0x4eb) | Exported Function | 0x10005fc0 | 0x00005fc0
-`NtUserShowCaret` | 1258 (0x4ea) | Exported Function | 0x10001250 | 0x00001250
-`NtUserSetWinEventHook` | 1239 (0x4d7) | Exported Function | 0x10001f70 | 0x00001f70
-`NtUserThunkedMenuInfo` | 1275 (0x4fb) | Exported Function | 0x10001fb0 | 0x00001fb0
-`NtUserReportInertia` | 1153 (0x481) | Exported Function | 0x10005b50 | 0x00005b50
-`NtUserRemoveVisualIdentifier` | 1152 (0x480) | Exported Function | 0x10005b40 | 0x00005b40
-`NtUserRemoveProp` | 1151 (0x47f) | Exported Function | 0x10001460 | 0x00001460
-`NtUserInteractiveControlQueryUsage` | 1046 (0x416) | Exported Function | 0x10005660 | 0x00005660
-`NtUserInjectTouchInput` | 1045 (0x415) | Exported Function | 0x10005650 | 0x00005650
-`NtUserInjectPointerInput` | 1044 (0x414) | Exported Function | 0x10005640 | 0x00005640
-`NtUserInjectMouseInput` | 1043 (0x413) | Exported Function | 0x10005630 | 0x00005630
-`NtUserInjectKeyboardInput` | 1042 (0x412) | Exported Function | 0x10005620 | 0x00005620
-`NtUserInjectGesture` | 1041 (0x411) | Exported Function | 0x10005610 | 0x00005610
-`NtUserInjectGenericHidInput` | 1040 (0x410) | Exported Function | 0x10005600 | 0x00005600
-`NtUserInternalGetWindowIcon` | 1047 (0x417) | Exported Function | 0x10005670 | 0x00005670
-`NtUserInjectDeviceInput` | 1039 (0x40f) | Exported Function | 0x100055f0 | 0x000055f0
-`NtUserInitializeTouchInjection` | 1038 (0x40e) | Exported Function | 0x100055e0 | 0x000055e0
-`NtUserInitializePointerDeviceInjectionEx` | 1037 (0x40d) | Exported Function | 0x100055d0 | 0x000055d0
-`NtUserInitializePointerDeviceInjection` | 1036 (0x40c) | Exported Function | 0x100055c0 | 0x000055c0
-`NtUserInitializeInputDeviceInjection` | 1035 (0x40b) | Exported Function | 0x100055b0 | 0x000055b0
-`NtUserInitializeGenericHidInjection` | 1034 (0x40a) | Exported Function | 0x100055a0 | 0x000055a0
-`NtUserInitializeClientPfnArrays` | 1033 (0x409) | Exported Function | 0x10005590 | 0x00005590
-`NtUserInitialize` | 1032 (0x408) | Exported Function | 0x10005580 | 0x00005580
-`NtUserInitTask` | 1031 (0x407) | Exported Function | 0x10005570 | 0x00005570
-`NtUserInternalGetWindowText` | 1048 (0x418) | Exported Function | 0x10001620 | 0x00001620
-`NtUserInternalToUnicode` | 1049 (0x419) | Exported Function | 0x10005680 | 0x00005680
-`NtUserInvalidateRect` | 1050 (0x41a) | Exported Function | 0x10001040 | 0x00001040
-`NtUserLockWindowStation` | 1067 (0x42b) | Exported Function | 0x10005760 | 0x00005760
-`NtUserLockCursor` | 1066 (0x42a) | Exported Function | 0x10005750 | 0x00005750
-`NtUserLoadKeyboardLayoutEx` | 1065 (0x429) | Exported Function | 0x10005740 | 0x00005740
-`NtUserLinkDpiCursor` | 1064 (0x428) | Exported Function | 0x10005730 | 0x00005730
-`NtUserLayoutCompleted` | 1063 (0x427) | Exported Function | 0x10005720 | 0x00005720
-`NtUserKillTimer` | 1062 (0x426) | Exported Function | 0x100011b0 | 0x000011b0
-`NtUserIsWindowGDIScaledDpiMessageEnabled` | 1061 (0x425) | Exported Function | 0x10005710 | 0x00005710
-`NtUserIsWindowBroadcastingDpiToChildren` | 1060 (0x424) | Exported Function | 0x10005700 | 0x00005700
-`NtUserIsTouchWindow` | 1059 (0x423) | Exported Function | 0x100056f0 | 0x000056f0
-`NtUserIsTopLevelWindow` | 1058 (0x422) | Exported Function | 0x100056e0 | 0x000056e0
-`NtUserIsResizeLayoutSynchronizationEnabled` | 1057 (0x421) | Exported Function | 0x100056d0 | 0x000056d0
-`NtUserIsNonClientDpiScalingEnabled` | 1056 (0x420) | Exported Function | 0x100056c0 | 0x000056c0
-`NtUserIsMouseInputEnabled` | 1055 (0x41f) | Exported Function | 0x100056b0 | 0x000056b0
-`NtUserIsMouseInPointerEnabled` | 1054 (0x41e) | Exported Function | 0x100056a0 | 0x000056a0
-`NtUserIsClipboardFormatAvailable` | 1053 (0x41d) | Exported Function | 0x100012f0 | 0x000012f0
-`NtUserIsChildWindowDpiMessageEnabled` | 1052 (0x41c) | Exported Function | 0x10005690 | 0x00005690
-`NtUserInvalidateRgn` | 1051 (0x41b) | Exported Function | 0x10001bc0 | 0x00001bc0
-`NtUserInheritWindowMonitor` | 1030 (0x406) | Exported Function | 0x10005560 | 0x00005560
-`NtUserLockWindowUpdate` | 1068 (0x42c) | Exported Function | 0x10001f90 | 0x00001f90
-`NtUserImpersonateDdeClientWindow` | 1029 (0x405) | Exported Function | 0x10005550 | 0x00005550
-`NtUserHwndQueryRedirectionInfo` | 1027 (0x403) | Exported Function | 0x10005530 | 0x00005530
-`NtUserGetUpdatedClipboardFormats` | 1007 (0x3ef) | Exported Function | 0x10005420 | 0x00005420
-`NtUserGetUniformSpaceMapping` | 1004 (0x3ec) | Exported Function | 0x10005410 | 0x00005410
-`NtUserGetTouchValidationStatus` | 1003 (0x3eb) | Exported Function | 0x10005400 | 0x00005400
-`NtUserGetTouchInputInfo` | 1002 (0x3ea) | Exported Function | 0x100053f0 | 0x000053f0
-`NtUserGetTopLevelWindow` | 1001 (0x3e9) | Exported Function | 0x100053e0 | 0x000053e0
-`NtUserGetTitleBarInfo` | 1000 (0x3e8) | Exported Function | 0x100018c0 | 0x000018c0
-`NtUserGetThreadState` | 999 (0x3e7) | Exported Function | 0x10001000 | 0x00001000
-`NtUserGetUpdateRect` | 1005 (0x3ed) | Exported Function | 0x10001530 | 0x00001530
-`NtUserGetThreadDesktop` | 998 (0x3e6) | Exported Function | 0x10001800 | 0x00001800
-`NtUserGetSystemDpiForProcess` | 996 (0x3e4) | Exported Function | 0x100053d0 | 0x000053d0
-`NtUserGetSharedWindowData` | 995 (0x3e3) | Exported Function | 0x100053c0 | 0x000053c0
-`NtUserGetScrollBarInfo` | 994 (0x3e2) | Exported Function | 0x10001900 | 0x00001900
-`NtUserGetResizeDCompositionSynchronizationObject` | 993 (0x3e1) | Exported Function | 0x100053b0 | 0x000053b0
-`NtUserGetRequiredCursorSizes` | 992 (0x3e0) | Exported Function | 0x100053a0 | 0x000053a0
-`NtUserGetRegisteredRawInputDevices` | 991 (0x3df) | Exported Function | 0x10005390 | 0x00005390
-`NtUserGetRawPointerDeviceData` | 990 (0x3de) | Exported Function | 0x10005380 | 0x00005380
-`NtUserGetSystemMenu` | 997 (0x3e5) | Exported Function | 0x10001600 | 0x00001600
-`NtUserGetUpdateRgn` | 1006 (0x3ee) | Exported Function | 0x10001830 | 0x00001830
-`NtUserGetWindowBand` | 1009 (0x3f1) | Exported Function | 0x10005440 | 0x00005440
-`NtUserGetWindowCompositionAttribute` | 1010 (0x3f2) | Exported Function | 0x10005450 | 0x00005450
-`NtUserHungWindowFromGhostWindow` | 1026 (0x402) | Exported Function | 0x10005520 | 0x00005520
-`NtUserHiliteMenuItem` | 1025 (0x401) | Exported Function | 0x10005510 | 0x00005510
-`NtUserHidePointerContactVisualization` | 1024 (0x400) | Exported Function | 0x10005500 | 0x00005500
-`NtUserHideCaret` | 1023 (0x3ff) | Exported Function | 0x100011f0 | 0x000011f0
-`NtUserHardErrorControl` | 1022 (0x3fe) | Exported Function | 0x100054f0 | 0x000054f0
-`NtUserHandleDelegatedInput` | 1021 (0x3fd) | Exported Function | 0x100054e0 | 0x000054e0
-`NtUserGhostWindowFromHungWindow` | 1020 (0x3fc) | Exported Function | 0x100054d0 | 0x000054d0
-`NtUserGetWOWClass` | 1008 (0x3f0) | Exported Function | 0x10005430 | 0x00005430
-`NtUserGetWindowRgnEx` | 1019 (0x3fb) | Exported Function | 0x100054c0 | 0x000054c0
-`NtUserGetWindowProcessHandle` | 1018 (0x3fa) | Exported Function | 0x100054b0 | 0x000054b0
-`NtUserGetWindowPlacement` | 1017 (0x3f9) | Exported Function | 0x10001c80 | 0x00001c80
-`NtUserGetWindowMinimizeRect` | 1016 (0x3f8) | Exported Function | 0x100054a0 | 0x000054a0
-`NtUserGetWindowGroupId` | 1015 (0x3f7) | Exported Function | 0x10005490 | 0x00005490
-`NtUserGetWindowFeedbackSetting` | 1014 (0x3f6) | Exported Function | 0x10005480 | 0x00005480
-`NtUserGetWindowDisplayAffinity` | 1013 (0x3f5) | Exported Function | 0x10005470 | 0x00005470
-`NtUserGetWindowDC` | 1012 (0x3f4) | Exported Function | 0x10001630 | 0x00001630
-`NtUserGetWindowCompositionInfo` | 1011 (0x3f3) | Exported Function | 0x10005460 | 0x00005460
-`NtUserHwndSetRedirectionInfo` | 1028 (0x404) | Exported Function | 0x10005540 | 0x00005540
-`NtUserLockWorkStation` | 1069 (0x42d) | Exported Function | 0x10005770 | 0x00005770
-`NtUserLogicalToPerMonitorDPIPhysicalPoint` | 1070 (0x42e) | Exported Function | 0x10005780 | 0x00005780
-`NtUserLogicalToPhysicalDpiPointForWindow` | 1071 (0x42f) | Exported Function | 0x10005790 | 0x00005790
-`NtUserRegisterHotKey` | 1129 (0x469) | Exported Function | 0x10005a00 | 0x00005a00
-`NtUserRegisterErrorReportingDialog` | 1128 (0x468) | Exported Function | 0x100059f0 | 0x000059f0
-`NtUserRegisterEdgy` | 1127 (0x467) | Exported Function | 0x100059e0 | 0x000059e0
-`NtUserRegisterDManipHook` | 1126 (0x466) | Exported Function | 0x100059d0 | 0x000059d0
-`NtUserRegisterClassExWOW` | 1125 (0x465) | Exported Function | 0x10001a80 | 0x00001a80
-`NtUserRegisterBSDRWindow` | 1124 (0x464) | Exported Function | 0x100059c0 | 0x000059c0
-`NtUserRedrawWindow` | 1123 (0x463) | Exported Function | 0x10001130 | 0x00001130
-`NtUserRegisterManipulationThread` | 1130 (0x46a) | Exported Function | 0x10005a10 | 0x00005a10
-`NtUserRealWaitMessageEx` | 1122 (0x462) | Exported Function | 0x100059b0 | 0x000059b0
-`NtUserRealChildWindowFromPoint` | 1120 (0x460) | Exported Function | 0x100059a0 | 0x000059a0
-`NtUserQueryWindow` | 1119 (0x45f) | Exported Function | 0x10001100 | 0x00001100
-`NtUserQuerySendMessage` | 1118 (0x45e) | Exported Function | 0x10005990 | 0x00005990
-`NtUserQueryInputContext` | 1117 (0x45d) | Exported Function | 0x10005980 | 0x00005980
-`NtUserQueryInformationThread` | 1116 (0x45c) | Exported Function | 0x10005970 | 0x00005970
-`NtUserQueryDisplayConfig` | 1115 (0x45b) | Exported Function | 0x10005960 | 0x00005960
-`NtUserQueryBSDRWindow` | 1114 (0x45a) | Exported Function | 0x10005950 | 0x00005950
-`NtUserRealInternalGetMessage` | 1121 (0x461) | Exported Function | 0x10001dd0 | 0x00001dd0
-`NtUserRegisterPointerDeviceNotifications` | 1131 (0x46b) | Exported Function | 0x10005a20 | 0x00005a20
-`NtUserRegisterPointerInputTarget` | 1132 (0x46c) | Exported Function | 0x10005a30 | 0x00005a30
-`NtUserRegisterRawInputDevices` | 1133 (0x46d) | Exported Function | 0x10005a40 | 0x00005a40
-`NtUserRemoveMenu` | 1150 (0x47e) | Exported Function | 0x10001ed0 | 0x00001ed0
-`NtUserRemoveInjectionDevice` | 1149 (0x47d) | Exported Function | 0x10005b30 | 0x00005b30
-`NtUserRemoveClipboardFormatListener` | 1148 (0x47c) | Exported Function | 0x10005b20 | 0x00005b20
-`NtUserRemoteStopScreenUpdates` | 1147 (0x47b) | Exported Function | 0x10005b10 | 0x00005b10
-`NtUserRemoteRedrawScreen` | 1146 (0x47a) | Exported Function | 0x10005b00 | 0x00005b00
-`NtUserRemoteRedrawRectangle` | 1145 (0x479) | Exported Function | 0x10005af0 | 0x00005af0
-`NtUserRemoteConnect` | 1144 (0x478) | Exported Function | 0x10005ae0 | 0x00005ae0
-`NtUserReleaseDwmHitTestWaiters` | 1143 (0x477) | Exported Function | 0x10005ad0 | 0x00005ad0
-`NtUserReleaseDC` | 1142 (0x476) | Exported Function | 0x10005ac0 | 0x00005ac0
-`NtUserRegisterWindowMessage` | 1141 (0x475) | Exported Function | 0x10001370 | 0x00001370
-`NtUserRegisterUserApiHook` | 1140 (0x474) | Exported Function | 0x10005ab0 | 0x00005ab0
-`NtUserRegisterTouchPadCapable` | 1139 (0x473) | Exported Function | 0x10005aa0 | 0x00005aa0
-`NtUserRegisterTouchHitTestingWindow` | 1138 (0x472) | Exported Function | 0x10005a90 | 0x00005a90
-`NtUserRegisterTasklist` | 1137 (0x471) | Exported Function | 0x10005a80 | 0x00005a80
-`NtUserRegisterShellPTPListener` | 1136 (0x470) | Exported Function | 0x10005a70 | 0x00005a70
-`NtUserRegisterSessionPort` | 1135 (0x46f) | Exported Function | 0x10005a60 | 0x00005a60
-`NtUserRegisterServicesProcess` | 1134 (0x46e) | Exported Function | 0x10005a50 | 0x00005a50
-`NtUserQueryActivationObject` | 1113 (0x459) | Exported Function | 0x10005940 | 0x00005940
-`NtUserPromotePointer` | 1112 (0x458) | Exported Function | 0x10005930 | 0x00005930
-`NtUserPromoteMouseInPointer` | 1111 (0x457) | Exported Function | 0x10005920 | 0x00005920
-`NtUserProcessInkFeedbackCommand` | 1110 (0x456) | Exported Function | 0x10005910 | 0x00005910
-`NtUserMsgWaitForMultipleObjectsEx` | 1088 (0x440) | Exported Function | 0x10005860 | 0x00005860
-`NtUserMoveWindow` | 1087 (0x43f) | Exported Function | 0x100015d0 | 0x000015d0
-`NtUserModifyWindowTouchCapability` | 1086 (0x43e) | Exported Function | 0x10005850 | 0x00005850
-`NtUserModifyUserStartupInfoFlags` | 1085 (0x43d) | Exported Function | 0x10002010 | 0x00002010
-`NtUserMNDragOver` | 1074 (0x432) | Exported Function | 0x100057c0 | 0x000057c0
-`NtUserMNDragLeave` | 1073 (0x431) | Exported Function | 0x100057b0 | 0x000057b0
-`NtUserMinMaximize` | 1084 (0x43c) | Exported Function | 0x10005840 | 0x00005840
-`NtUserMinInitialize` | 1083 (0x43b) | Exported Function | 0x10005830 | 0x00005830
-`NtUserMessageCall` | 1082 (0x43a) | Exported Function | 0x10001070 | 0x00001070
-`NtUserMenuItemFromPoint` | 1081 (0x439) | Exported Function | 0x10005820 | 0x00005820
-`NtUserMarkWindowForRawMouse` | 1080 (0x438) | Exported Function | 0x10005810 | 0x00005810
-`NtUserMapVirtualKeyEx` | 1079 (0x437) | Exported Function | 0x100015a0 | 0x000015a0
-`NtUserMapPointsByVisualIdentifier` | 1078 (0x436) | Exported Function | 0x10005800 | 0x00005800
-`NtUserMagSetContextInformation` | 1077 (0x435) | Exported Function | 0x100057f0 | 0x000057f0
-`NtUserMagGetContextInformation` | 1076 (0x434) | Exported Function | 0x100057e0 | 0x000057e0
-`NtUserMagControl` | 1075 (0x433) | Exported Function | 0x100057d0 | 0x000057d0
-`NtUserLogicalToPhysicalPoint` | 1072 (0x430) | Exported Function | 0x100057a0 | 0x000057a0
-`NtUserNavigateFocus` | 1089 (0x441) | Exported Function | 0x10005870 | 0x00005870
-`NtUserGetRawInputDeviceInfo` | 988 (0x3dc) | Exported Function | 0x10005360 | 0x00005360
-`NtUserNotifyIMEStatus` | 1090 (0x442) | Exported Function | 0x10005880 | 0x00005880
-`NtUserNotifyWinEvent` | 1092 (0x444) | Exported Function | 0x100012d0 | 0x000012d0
-`NtUserProcessConnect` | 1109 (0x455) | Exported Function | 0x10001e90 | 0x00001e90
-`NtUserPrintWindow` | 1108 (0x454) | Exported Function | 0x10005900 | 0x00005900
-`NtUserPostThreadMessage` | 1107 (0x453) | Exported Function | 0x100015e0 | 0x000015e0
-`NtUserPostMessage` | 1106 (0x452) | Exported Function | 0x100010f0 | 0x000010f0
-`NtUserPostKeyboardInputMessage` | 1105 (0x451) | Exported Function | 0x100058f0 | 0x000058f0
-`NtUserPhysicalToLogicalPoint` | 1104 (0x450) | Exported Function | 0x100058e0 | 0x000058e0
-`NtUserPhysicalToLogicalDpiPointForWindow` | 1103 (0x44f) | Exported Function | 0x100058d0 | 0x000058d0
-`NtUserPerMonitorDPIPhysicalToLogicalPoint` | 1102 (0x44e) | Exported Function | 0x100058c0 | 0x000058c0
-`NtUserPeekMessage` | 1101 (0x44d) | Exported Function | 0x10001010 | 0x00001010
-`NtUserPaintMonitor` | 1100 (0x44c) | Exported Function | 0x100058b0 | 0x000058b0
-`NtUserPaintMenuBar` | 1099 (0x44b) | Exported Function | 0x10001e10 | 0x00001e10
-`NtUserPaintDesktop` | 1098 (0x44a) | Exported Function | 0x10002080 | 0x00002080
-`NtUserOpenWindowStation` | 1097 (0x449) | Exported Function | 0x100019d0 | 0x000019d0
-`NtUserOpenThreadDesktop` | 1096 (0x448) | Exported Function | 0x100058a0 | 0x000058a0
-`NtUserOpenInputDesktop` | 1095 (0x447) | Exported Function | 0x10005890 | 0x00005890
-`NtUserOpenDesktop` | 1094 (0x446) | Exported Function | 0x10001a00 | 0x00001a00
-`NtUserOpenClipboard` | 1093 (0x445) | Exported Function | 0x10001c30 | 0x00001c30
-`NtUserNotifyProcessCreate` | 1091 (0x443) | Exported Function | 0x100018a0 | 0x000018a0
-`NtMITInitMinuserThread` | 653 (0x28d) | Exported Function | 0x10004380 | 0x00004380
-`NtMITGetCursorUpdateHandle` | 652 (0x28c) | Exported Function | 0x10004370 | 0x00004370
-`NtMITEnableMouseIntercept` | 651 (0x28b) | Exported Function | 0x10004360 | 0x00004360
-`NtGdiDdDDIDispMgrSourceOperation` | 223 (0xdf) | Exported Function | 0x10002d90 | 0x00002d90
-`NtGdiDdDDIDispMgrCreate` | 222 (0xde) | Exported Function | 0x10002d80 | 0x00002d80
-`NtGdiDdDDIDestroySynchronizationObject` | 221 (0xdd) | Exported Function | 0x10002d70 | 0x00002d70
-`NtGdiDdDDIDestroyProtectedSession` | 220 (0xdc) | Exported Function | 0x10002d60 | 0x00002d60
-`NtGdiDdDDIDestroyPagingQueue` | 219 (0xdb) | Exported Function | 0x10002d50 | 0x00002d50
-`NtGdiDdDDIDestroyOverlay` | 218 (0xda) | Exported Function | 0x10002d40 | 0x00002d40
-`NtGdiDdDDIDestroyOutputDupl` | 217 (0xd9) | Exported Function | 0x10002d30 | 0x00002d30
-`NtGdiDdDDIDispMgrTargetOperation` | 224 (0xe0) | Exported Function | 0x10002da0 | 0x00002da0
-`NtGdiDdDDIDestroyKeyedMutex` | 216 (0xd8) | Exported Function | 0x10002d20 | 0x00002d20
-`NtGdiDdDDIDestroyHwContext` | 214 (0xd6) | Exported Function | 0x10002d00 | 0x00002d00
-`NtGdiDdDDIDestroyDevice` | 213 (0xd5) | Exported Function | 0x10002cf0 | 0x00002cf0
-`NtGdiDdDDIDestroyDCFromMemory` | 212 (0xd4) | Exported Function | 0x10002ce0 | 0x00002ce0
-`NtGdiDdDDIDestroyContext` | 211 (0xd3) | Exported Function | 0x10002cd0 | 0x00002cd0
-`NtGdiDdDDIDestroyAllocation2` | 209 (0xd1) | Exported Function | 0x10002cc0 | 0x00002cc0
-`NtGdiDdDDIDestroyAllocation` | 210 (0xd2) | Exported Function | 0x10002cb0 | 0x00002cb0
-`NtGdiDdDDIDDisplayEnum` | 208 (0xd0) | Exported Function | 0x10002ca0 | 0x00002ca0
-`NtGdiDdDDIDestroyHwQueue` | 215 (0xd7) | Exported Function | 0x10002d10 | 0x00002d10
-`NtGdiDdDDIEnumAdapters` | 226 (0xe2) | Exported Function | 0x10002db0 | 0x00002db0
-`NtGdiDdDDIEnumAdapters2` | 225 (0xe1) | Exported Function | 0x10002dc0 | 0x00002dc0
-`NtGdiDdDDIEscape` | 227 (0xe3) | Exported Function | 0x10002dd0 | 0x00002dd0
-`NtGdiDdDDIGetPostCompositionCaps` | 244 (0xf4) | Exported Function | 0x10002ee0 | 0x00002ee0
-`NtGdiDdDDIGetOverlayState` | 243 (0xf3) | Exported Function | 0x10002ed0 | 0x00002ed0
-`NtGdiDdDDIGetMultisampleMethodList` | 242 (0xf2) | Exported Function | 0x10002ec0 | 0x00002ec0
-`NtGdiDdDDIGetMultiPlaneOverlayCaps` | 241 (0xf1) | Exported Function | 0x10002eb0 | 0x00002eb0
-`NtGdiDdDDIGetMemoryBudgetTarget` | 240 (0xf0) | Exported Function | 0x10002ea0 | 0x00002ea0
-`NtGdiDdDDIGetDWMVerticalBlankEvent` | 237 (0xed) | Exported Function | 0x10002e70 | 0x00002e70
-`NtGdiDdDDIGetDisplayModeList` | 239 (0xef) | Exported Function | 0x10002e90 | 0x00002e90
-`NtGdiDdDDIGetDeviceState` | 238 (0xee) | Exported Function | 0x10002e80 | 0x00002e80
-`NtGdiDdDDIGetContextSchedulingPriority` | 236 (0xec) | Exported Function | 0x10002e60 | 0x00002e60
-`NtGdiDdDDIGetContextInProcessSchedulingPriority` | 235 (0xeb) | Exported Function | 0x10002e50 | 0x00002e50
-`NtGdiDdDDIGetCachedHybridQueryValue` | 234 (0xea) | Exported Function | 0x10002e40 | 0x00002e40
-`NtGdiDdDDIGetAllocationPriority` | 233 (0xe9) | Exported Function | 0x10002e30 | 0x00002e30
-`NtGdiDdDDIFreeGpuVirtualAddress` | 232 (0xe8) | Exported Function | 0x10002e20 | 0x00002e20
-`NtGdiDdDDIFlushHeapTransitions` | 231 (0xe7) | Exported Function | 0x10002e10 | 0x00002e10
-`NtGdiDdDDIFlipOverlay` | 230 (0xe6) | Exported Function | 0x10002e00 | 0x00002e00
-`NtGdiDdDDIExtractBundleObject` | 229 (0xe5) | Exported Function | 0x10002df0 | 0x00002df0
-`NtGdiDdDDIEvict` | 228 (0xe4) | Exported Function | 0x10002de0 | 0x00002de0
-`NtGdiDdDDICreateSynchronizationObject` | 207 (0xcf) | Exported Function | 0x10002c90 | 0x00002c90
-`NtGdiDdDDIGetPresentHistory` | 245 (0xf5) | Exported Function | 0x10002ef0 | 0x00002ef0
-`NtGdiDdDDICreateSwapChain` | 206 (0xce) | Exported Function | 0x10002c80 | 0x00002c80
-`NtGdiDdDDICreatePagingQueue` | 204 (0xcc) | Exported Function | 0x10002c60 | 0x00002c60
-`NtGdiDdDDICheckExclusiveOwnership` | 182 (0xb6) | Exported Function | 0x10002b00 | 0x00002b00
-`NtGdiDdDDIChangeVideoMemoryReservation` | 181 (0xb5) | Exported Function | 0x10002af0 | 0x00002af0
-`NtGdiDdDDICacheHybridQueryValue` | 180 (0xb4) | Exported Function | 0x10002ae0 | 0x00002ae0
-`NtGdiDdDDIAdjustFullscreenGamma` | 179 (0xb3) | Exported Function | 0x10002ad0 | 0x00002ad0
-`NtGdiDdDDIAddSurfaceToSwapChain` | 178 (0xb2) | Exported Function | 0x10002ac0 | 0x00002ac0
-`NtGdiDdDDIAcquireSwapChain` | 177 (0xb1) | Exported Function | 0x10002ab0 | 0x00002ab0
-`NtGdiDdDDIAcquireKeyedMutex2` | 175 (0xaf) | Exported Function | 0x10002aa0 | 0x00002aa0
-`NtGdiDdDDICheckMonitorPowerState` | 183 (0xb7) | Exported Function | 0x10002b10 | 0x00002b10
-`NtGdiDdDDIAcquireKeyedMutex` | 176 (0xb0) | Exported Function | 0x10002a90 | 0x00002a90
-`NtGdiDdCreateFullscreenSprite` | 173 (0xad) | Exported Function | 0x10002a70 | 0x00002a70
-`NtGdiDDCCISetVCPFeature` | 172 (0xac) | Exported Function | 0x10002a60 | 0x00002a60
-`NtGdiDDCCISaveCurrentSettings` | 171 (0xab) | Exported Function | 0x10002a50 | 0x00002a50
-`NtGdiDDCCIGetVCPFeature` | 170 (0xaa) | Exported Function | 0x10002a40 | 0x00002a40
-`NtGdiDDCCIGetTimingReport` | 169 (0xa9) | Exported Function | 0x10002a30 | 0x00002a30
-`NtGdiDDCCIGetCapabilitiesStringLength` | 168 (0xa8) | Exported Function | 0x10002a20 | 0x00002a20
-`NtGdiDDCCIGetCapabilitiesString` | 167 (0xa7) | Exported Function | 0x10002a10 | 0x00002a10
-`NtGdiDdDDIAbandonSwapChain` | 174 (0xae) | Exported Function | 0x10002a80 | 0x00002a80
-`NtGdiDdDDICheckMultiPlaneOverlaySupport` | 186 (0xba) | Exported Function | 0x10002b20 | 0x00002b20
-`NtGdiDdDDICheckMultiPlaneOverlaySupport2` | 184 (0xb8) | Exported Function | 0x10002b30 | 0x00002b30
-`NtGdiDdDDICheckMultiPlaneOverlaySupport3` | 185 (0xb9) | Exported Function | 0x10002b40 | 0x00002b40
-`NtGdiDdDDICreateOverlay` | 203 (0xcb) | Exported Function | 0x10002c50 | 0x00002c50
-`NtGdiDdDDICreateOutputDupl` | 202 (0xca) | Exported Function | 0x10002c40 | 0x00002c40
-`NtGdiDdDDICreateKeyedMutex2` | 200 (0xc8) | Exported Function | 0x10002c30 | 0x00002c30
-`NtGdiDdDDICreateKeyedMutex` | 201 (0xc9) | Exported Function | 0x10002c20 | 0x00002c20
-`NtGdiDdDDICreateHwQueue` | 199 (0xc7) | Exported Function | 0x10002c10 | 0x00002c10
-`NtGdiDdDDICreateHwContext` | 198 (0xc6) | Exported Function | 0x10002c00 | 0x00002c00
-`NtGdiDdDDICreateDevice` | 197 (0xc5) | Exported Function | 0x10002bf0 | 0x00002bf0
-`NtGdiDdDDICreateDCFromMemory` | 196 (0xc4) | Exported Function | 0x10002be0 | 0x00002be0
-`NtGdiDdDDICreateContextVirtual` | 195 (0xc3) | Exported Function | 0x10002bd0 | 0x00002bd0
-`NtGdiDdDDICreateContext` | 194 (0xc2) | Exported Function | 0x10002bc0 | 0x00002bc0
-`NtGdiDdDDICreateBundleObject` | 193 (0xc1) | Exported Function | 0x10002bb0 | 0x00002bb0
-`NtGdiDdDDICreateAllocation` | 192 (0xc0) | Exported Function | 0x10002ba0 | 0x00002ba0
-`NtGdiDdDDIConfigureSharedResource` | 191 (0xbf) | Exported Function | 0x10002b90 | 0x00002b90
-`NtGdiDdDDICloseAdapter` | 190 (0xbe) | Exported Function | 0x10002b80 | 0x00002b80
-`NtGdiDdDDICheckVidPnExclusiveOwnership` | 189 (0xbd) | Exported Function | 0x10002b70 | 0x00002b70
-`NtGdiDdDDICheckSharedResourceAccess` | 188 (0xbc) | Exported Function | 0x10002b60 | 0x00002b60
-`NtGdiDdDDICheckOcclusion` | 187 (0xbb) | Exported Function | 0x10002b50 | 0x00002b50
-`NtGdiDdDDICreateProtectedSession` | 205 (0xcd) | Exported Function | 0x10002c70 | 0x00002c70
-`NtGdiCreateSolidBrush` | 166 (0xa6) | Exported Function | 0x10001b00 | 0x00001b00
-`NtGdiDdDDIGetPresentQueueEvent` | 246 (0xf6) | Exported Function | 0x10002f00 | 0x00002f00
-`NtGdiDdDDIGetProcessSchedulingPriorityBand` | 248 (0xf8) | Exported Function | 0x10002f20 | 0x00002f20
-`NtGdiDdDDIQueryRemoteVidPnSourceFromGdiDisplayName` | 305 (0x131) | Exported Function | 0x100032b0 | 0x000032b0
-`NtGdiDdDDIQueryProtectedSessionStatus` | 304 (0x130) | Exported Function | 0x100032a0 | 0x000032a0
-`NtGdiDdDDIQueryProtectedSessionInfoFromNtHandle` | 303 (0x12f) | Exported Function | 0x10003290 | 0x00003290
-`NtGdiDdDDIQueryProcessOfferInfo` | 302 (0x12e) | Exported Function | 0x10003280 | 0x00003280
-`NtGdiDdDDIQueryFSEBlock` | 301 (0x12d) | Exported Function | 0x10003270 | 0x00003270
-`NtGdiDdDDIQueryClockCalibration` | 300 (0x12c) | Exported Function | 0x10003260 | 0x00003260
-`NtGdiDdDDIQueryAllocationResidency` | 299 (0x12b) | Exported Function | 0x10003250 | 0x00003250
-`NtGdiDdDDIQueryResourceInfo` | 306 (0x132) | Exported Function | 0x100032c0 | 0x000032c0
-`NtGdiDdDDIQueryAdapterInfo` | 298 (0x12a) | Exported Function | 0x10003240 | 0x00003240
-`NtGdiDdDDIPresentMultiPlaneOverlay3` | 295 (0x127) | Exported Function | 0x10003220 | 0x00003220
-`NtGdiDdDDIPresentMultiPlaneOverlay2` | 294 (0x126) | Exported Function | 0x10003210 | 0x00003210
-`NtGdiDdDDIPresentMultiPlaneOverlay` | 296 (0x128) | Exported Function | 0x10003200 | 0x00003200
-`NtGdiDdDDIPresent` | 293 (0x125) | Exported Function | 0x100031f0 | 0x000031f0
-`NtGdiDdDDIPollDisplayChildren` | 292 (0x124) | Exported Function | 0x100031e0 | 0x000031e0
-`NtGdiDdDDIOutputDuplReleaseFrame` | 291 (0x123) | Exported Function | 0x100031d0 | 0x000031d0
-`NtGdiDdDDIOutputDuplPresent` | 290 (0x122) | Exported Function | 0x100031c0 | 0x000031c0
-`NtGdiDdDDIPresentRedirected` | 297 (0x129) | Exported Function | 0x10003230 | 0x00003230
-`NtGdiDdDDIQueryResourceInfoFromNtHandle` | 307 (0x133) | Exported Function | 0x100032d0 | 0x000032d0
-`NtGdiDdDDIQueryStatistics` | 308 (0x134) | Exported Function | 0x100032e0 | 0x000032e0
-`NtGdiDdDDIQueryVideoMemoryInfo` | 310 (0x136) | Exported Function | 0x10003300 | 0x00003300
-`NtGdiDdDDISetGammaRamp` | 326 (0x146) | Exported Function | 0x10003400 | 0x00003400
-`NtGdiDdDDISetFSEBlock` | 325 (0x145) | Exported Function | 0x100033f0 | 0x000033f0
-`NtGdiDdDDISetDodIndirectSwapchain` | 324 (0x144) | Exported Function | 0x100033e0 | 0x000033e0
-`NtGdiDdDDISetDisplayMode` | 323 (0x143) | Exported Function | 0x100033d0 | 0x000033d0
-`NtGdiDdDDISetContextSchedulingPriority` | 322 (0x142) | Exported Function | 0x100033c0 | 0x000033c0
-`NtGdiDdDDISetContextInProcessSchedulingPriority` | 321 (0x141) | Exported Function | 0x100033b0 | 0x000033b0
-`NtGdiDdDDISetAllocationPriority` | 320 (0x140) | Exported Function | 0x100033a0 | 0x000033a0
-`NtGdiDdDDIReserveGpuVirtualAddress` | 319 (0x13f) | Exported Function | 0x10003390 | 0x00003390
-`NtGdiDdDDIRender` | 318 (0x13e) | Exported Function | 0x10003380 | 0x00003380
-`NtGdiDdDDIRemoveSurfaceFromSwapChain` | 317 (0x13d) | Exported Function | 0x10003370 | 0x00003370
-`NtGdiDdDDIReleaseSwapChain` | 316 (0x13c) | Exported Function | 0x10003360 | 0x00003360
-`NtGdiDdDDIReleaseProcessVidPnSourceOwners` | 315 (0x13b) | Exported Function | 0x10003350 | 0x00003350
-`NtGdiDdDDIReleaseKeyedMutex2` | 313 (0x139) | Exported Function | 0x10003340 | 0x00003340
-`NtGdiDdDDIReleaseKeyedMutex` | 314 (0x13a) | Exported Function | 0x10003330 | 0x00003330
-`NtGdiDdDDIReclaimAllocations2` | 311 (0x137) | Exported Function | 0x10003320 | 0x00003320
-`NtGdiDdDDIReclaimAllocations` | 312 (0x138) | Exported Function | 0x10003310 | 0x00003310
-`NtGdiDdDDIQueryVidPnExclusiveOwnership` | 309 (0x135) | Exported Function | 0x100032f0 | 0x000032f0
-`NtGdiDdDDIOutputDuplGetPointerShapeData` | 289 (0x121) | Exported Function | 0x100031b0 | 0x000031b0
-`NtGdiDdDDIGetProcessDeviceRemovalSupport` | 247 (0xf7) | Exported Function | 0x10002f10 | 0x00002f10
-`NtGdiDdDDIOutputDuplGetMetaData` | 288 (0x120) | Exported Function | 0x100031a0 | 0x000031a0
-`NtGdiDdDDIOpenSyncObjectNtHandleFromName` | 285 (0x11d) | Exported Function | 0x10003170 | 0x00003170
-`NtGdiDdDDIMarkDeviceAsError` | 264 (0x108) | Exported Function | 0x10003020 | 0x00003020
-`NtGdiDdDDIMapGpuVirtualAddress` | 263 (0x107) | Exported Function | 0x10003010 | 0x00003010
-`NtGdiDdDDIMakeResident` | 262 (0x106) | Exported Function | 0x10003000 | 0x00003000
-`NtGdiDdDDILock2` | 260 (0x104) | Exported Function | 0x10002ff0 | 0x00002ff0
-`NtGdiDdDDILock` | 261 (0x105) | Exported Function | 0x10002fe0 | 0x00002fe0
-`NtGdiDdDDIInvalidateCache` | 259 (0x103) | Exported Function | 0x10002fd0 | 0x00002fd0
-`NtGdiDdDDIInvalidateActiveVidPn` | 258 (0x102) | Exported Function | 0x10002fc0 | 0x00002fc0
-`NtGdiDdDDINetDispGetNextChunkInfo` | 265 (0x109) | Exported Function | 0x10003030 | 0x00003030
-`NtGdiDdDDIGetYieldPercentage` | 257 (0x101) | Exported Function | 0x10002fb0 | 0x00002fb0
-`NtGdiDdDDIGetSharedResourceAdapterLuid` | 255 (0xff) | Exported Function | 0x10002f90 | 0x00002f90
-`NtGdiDdDDIGetSharedPrimaryHandle` | 254 (0xfe) | Exported Function | 0x10002f80 | 0x00002f80
-`NtGdiDdDDIGetSetSwapChainMetadata` | 253 (0xfd) | Exported Function | 0x10002f70 | 0x00002f70
-`NtGdiDdDDIGetScanLine` | 252 (0xfc) | Exported Function | 0x10002f60 | 0x00002f60
-`NtGdiDdDDIGetRuntimeData` | 251 (0xfb) | Exported Function | 0x10002f50 | 0x00002f50
-`NtGdiDdDDIGetResourcePresentPrivateDriverData` | 250 (0xfa) | Exported Function | 0x10002f40 | 0x00002f40
-`NtGdiDdDDIGetProcessSchedulingPriorityClass` | 249 (0xf9) | Exported Function | 0x10002f30 | 0x00002f30
-`NtGdiDdDDIGetSharedResourceAdapterLuidFlipManager` | 256 (0x100) | Exported Function | 0x10002fa0 | 0x00002fa0
-`NtGdiDdDDINetDispQueryMiracastDisplayDeviceStatus` | 266 (0x10a) | Exported Function | 0x10003040 | 0x00003040
-`NtGdiDdDDINetDispQueryMiracastDisplayDeviceSupport` | 267 (0x10b) | Exported Function | 0x10003050 | 0x00003050
-`NtGdiDdDDINetDispStartMiracastDisplayDevice` | 268 (0x10c) | Exported Function | 0x10003060 | 0x00003060
-`NtGdiDdDDIOpenSyncObjectFromNtHandle2` | 283 (0x11b) | Exported Function | 0x10003160 | 0x00003160
-`NtGdiDdDDIOpenSyncObjectFromNtHandle` | 284 (0x11c) | Exported Function | 0x10003150 | 0x00003150
-`NtGdiDdDDIOpenSynchronizationObject` | 286 (0x11e) | Exported Function | 0x10003180 | 0x00003180
-`NtGdiDdDDIOpenSwapChain` | 282 (0x11a) | Exported Function | 0x10003140 | 0x00003140
-`NtGdiDdDDIOpenResourceFromNtHandle` | 281 (0x119) | Exported Function | 0x10003130 | 0x00003130
-`NtGdiDdDDIOpenResource` | 280 (0x118) | Exported Function | 0x10003120 | 0x00003120
-`NtGdiDdDDIOpenProtectedSessionFromNtHandle` | 279 (0x117) | Exported Function | 0x10003110 | 0x00003110
-`NtGdiDdDDIOpenNtHandleFromName` | 278 (0x116) | Exported Function | 0x10003100 | 0x00003100
-`NtGdiDdDDIOpenKeyedMutexFromNtHandle` | 277 (0x115) | Exported Function | 0x100030f0 | 0x000030f0
-`NtGdiDdDDIOpenKeyedMutex2` | 275 (0x113) | Exported Function | 0x100030e0 | 0x000030e0
-`NtGdiDdDDIOpenKeyedMutex` | 276 (0x114) | Exported Function | 0x100030d0 | 0x000030d0
-`NtGdiDdDDIOpenBundleObjectNtHandleFromName` | 274 (0x112) | Exported Function | 0x100030c0 | 0x000030c0
-`NtGdiDdDDIOpenAdapterFromLuid` | 273 (0x111) | Exported Function | 0x100030b0 | 0x000030b0
-`NtGdiDdDDIOpenAdapterFromHdc` | 272 (0x110) | Exported Function | 0x100030a0 | 0x000030a0
-`NtGdiDdDDIOpenAdapterFromDeviceName` | 271 (0x10f) | Exported Function | 0x10003090 | 0x00003090
-`NtGdiDdDDIOfferAllocations` | 270 (0x10e) | Exported Function | 0x10003080 | 0x00003080
-`NtGdiDdDDINetDispStopMiracastDisplayDevice` | 269 (0x10d) | Exported Function | 0x10003070 | 0x00003070
-`NtGdiDdDDIOutputDuplGetFrameInfo` | 287 (0x11f) | Exported Function | 0x10003190 | 0x00003190
-`NtGdiCreateSessionMappedDIBSection` | 165 (0xa5) | Exported Function | 0x10002a00 | 0x00002a00
-`NtGdiCreateServerMetaFile` | 164 (0xa4) | Exported Function | 0x100029f0 | 0x000029f0
-`NtGdiCreateRoundRectRgn` | 163 (0xa3) | Exported Function | 0x100029e0 | 0x000029e0
-`NtDCompositionTelemetryTouchInteractionBegin` | 58 (0x3a) | Exported Function | 0x100024a0 | 0x000024a0
-`NtDCompositionTelemetrySetApplicationId` | 57 (0x39) | Exported Function | 0x10002490 | 0x00002490
-`NtDCompositionTelemetryAnimationScenarioUnreference` | 56 (0x38) | Exported Function | 0x10002480 | 0x00002480
-`NtDCompositionTelemetryAnimationScenarioReference` | 55 (0x37) | Exported Function | 0x10002470 | 0x00002470
-`NtDCompositionTelemetryAnimationScenarioBegin` | 54 (0x36) | Exported Function | 0x10002460 | 0x00002460
-`NtDCompositionSynchronize` | 53 (0x35) | Exported Function | 0x10002450 | 0x00002450
-`NtDCompositionSuspendAnimations` | 52 (0x34) | Exported Function | 0x10002440 | 0x00002440
-`NtDCompositionTelemetryTouchInteractionEnd` | 59 (0x3b) | Exported Function | 0x100024b0 | 0x000024b0
-`NtDCompositionSubmitDWMBatch` | 51 (0x33) | Exported Function | 0x10002430 | 0x00002430
-`NtDCompositionSetDebugCounter` | 49 (0x31) | Exported Function | 0x10002410 | 0x00002410
-`NtDCompositionSetChildRootVisual` | 48 (0x30) | Exported Function | 0x10002400 | 0x00002400
-`NtDCompositionSetChannelConnectionId` | 47 (0x2f) | Exported Function | 0x100023f0 | 0x000023f0
-`NtDCompositionSetChannelCommitCompletionEvent` | 46 (0x2e) | Exported Function | 0x100023e0 | 0x000023e0
-`NtDCompositionRetireFrame` | 45 (0x2d) | Exported Function | 0x100023d0 | 0x000023d0
-`NtDCompositionRemoveCrossDeviceVisualChild` | 44 (0x2c) | Exported Function | 0x100023c0 | 0x000023c0
-`NtDCompositionReleaseAllResources` | 43 (0x2b) | Exported Function | 0x100023b0 | 0x000023b0
-`NtDCompositionSetMaterialProperty` | 50 (0x32) | Exported Function | 0x10002420 | 0x00002420
-`NtDCompositionTelemetryTouchInteractionUpdate` | 60 (0x3c) | Exported Function | 0x100024c0 | 0x000024c0
-`NtDCompositionUpdatePointerCapture` | 61 (0x3d) | Exported Function | 0x100024d0 | 0x000024d0
-`NtDCompositionWaitForChannel` | 62 (0x3e) | Exported Function | 0x100024e0 | 0x000024e0
-`NtDxgkSubmitPresentToHwQueue` | 79 (0x4f) | Exported Function | 0x100025f0 | 0x000025f0
-`NtDxgkSubmitPresentBltToHwQueue` | 78 (0x4e) | Exported Function | 0x100025e0 | 0x000025e0
-`NtDxgkResetTrackedWorkloadStatistics` | 77 (0x4d) | Exported Function | 0x100025d0 | 0x000025d0
-`NtDxgkRegisterVailProcess` | 76 (0x4c) | Exported Function | 0x100025c0 | 0x000025c0
-`NtDxgkPinResources` | 75 (0x4b) | Exported Function | 0x100025b0 | 0x000025b0
-`NtDxgkOutputDuplPresentToHwQueue` | 74 (0x4a) | Exported Function | 0x100025a0 | 0x000025a0
-`NtDxgkGetTrackedWorkloadStatistics` | 73 (0x49) | Exported Function | 0x10002590 | 0x00002590
-`NtDxgkGetProcessList` | 72 (0x48) | Exported Function | 0x10002580 | 0x00002580
-`NtDxgkGetAvailableTrackedWorkloadIndex` | 71 (0x47) | Exported Function | 0x10002570 | 0x00002570
-`NtDxgkEnumAdapters3` | 70 (0x46) | Exported Function | 0x10002560 | 0x00002560
-`NtDxgkDuplicateHandle` | 69 (0x45) | Exported Function | 0x10002550 | 0x00002550
-`NtDxgkDispMgrOperation` | 67 (0x43) | Exported Function | 0x10002530 | 0x00002530
-`NtDxgkDisplayPortOperation` | 68 (0x44) | Exported Function | 0x10002540 | 0x00002540
-`NtDxgkDestroyTrackedWorkload` | 66 (0x42) | Exported Function | 0x10002520 | 0x00002520
-`NtDxgkCreateTrackedWorkload` | 65 (0x41) | Exported Function | 0x10002510 | 0x00002510
-`NtDuplicateCompositionInputSink` | 64 (0x40) | Exported Function | 0x10002500 | 0x00002500
-`NtDesktopCaptureBits` | 63 (0x3f) | Exported Function | 0x100024f0 | 0x000024f0
-`NtDCompositionRegisterVirtualDesktopVisual` | 42 (0x2a) | Exported Function | 0x100023a0 | 0x000023a0
-`NtDxgkUnpinResources` | 80 (0x50) | Exported Function | 0x10002600 | 0x00002600
-`NtDCompositionRegisterThumbnailVisual` | 41 (0x29) | Exported Function | 0x10002390 | 0x00002390
-`NtDCompositionProcessChannelBatchBuffer` | 39 (0x27) | Exported Function | 0x10002370 | 0x00002370
-`NtDCompositionConfirmFrame` | 17 (0x11) | Exported Function | 0x10002210 | 0x00002210
-`NtDCompositionCommitSynchronizationObject` | 16 (0x10) | Exported Function | 0x10002200 | 0x00002200
-`NtDCompositionCommitChannel` | 15 (0xf) | Exported Function | 0x100021f0 | 0x000021f0
-`NtDCompositionBeginFrame` | 14 (0xe) | Exported Function | 0x100021e0 | 0x000021e0
-`NtDCompositionAddCrossDeviceVisualChild` | 13 (0xd) | Exported Function | 0x100021d0 | 0x000021d0
-`NtCreateImplicitCompositionInputSink` | 12 (0xc) | Exported Function | 0x100021c0 | 0x000021c0
-`NtCreateCompositionSurfaceHandle` | 11 (0xb) | Exported Function | 0x100021b0 | 0x000021b0
-`NtDCompositionConnectPipe` | 18 (0x12) | Exported Function | 0x10002220 | 0x00002220
-`NtCreateCompositionInputSink` | 10 (0xa) | Exported Function | 0x100021a0 | 0x000021a0
-`NtCompositorUpdateLastInputTime` | 8 (0x8) | Exported Function | 0x10002180 | 0x00002180
-`NtCompositorNotifyForegroundChanged` | 7 (0x7) | Exported Function | 0x10002170 | 0x00002170
-`NtCompositorNotifyExitWindows` | 6 (0x6) | Exported Function | 0x10002160 | 0x00002160
-`NtCompositionSetDropTarget` | 5 (0x5) | Exported Function | 0x10002150 | 0x00002150
-`NtCompositionInputThread` | 4 (0x4) | Exported Function | 0x10002140 | 0x00002140
-`NtCloseCompositionInputSink` | 3 (0x3) | Exported Function | 0x10002130 | 0x00002130
-`NtBindCompositionSurface` | 2 (0x2) | Exported Function | 0x10002120 | 0x00002120
-`NtConfigureInputSpace` | 9 (0x9) | Exported Function | 0x10002190 | 0x00002190
-`NtDCompositionCreateAndBindSharedSection` | 19 (0x13) | Exported Function | 0x10002230 | 0x00002230
-`NtDCompositionCreateChannel` | 20 (0x14) | Exported Function | 0x10002240 | 0x00002240
-`NtDCompositionCreateConnection` | 21 (0x15) | Exported Function | 0x10002250 | 0x00002250
-`NtDCompositionGetMaterialProperty` | 38 (0x26) | Exported Function | 0x10002360 | 0x00002360
-`NtDCompositionGetFrameSurfaceUpdates` | 37 (0x25) | Exported Function | 0x10002350 | 0x00002350
-`NtDCompositionGetFrameStatistics` | 36 (0x24) | Exported Function | 0x10002340 | 0x00002340
-`NtDCompositionGetFrameLegacyTokens` | 35 (0x23) | Exported Function | 0x10002330 | 0x00002330
-`NtDCompositionGetDeletedResources` | 34 (0x22) | Exported Function | 0x10002320 | 0x00002320
-`NtDCompositionGetConnectionBatch` | 33 (0x21) | Exported Function | 0x10002310 | 0x00002310
-`NtDCompositionGetChannels` | 32 (0x20) | Exported Function | 0x10002300 | 0x00002300
-`NtDCompositionGetBatchId` | 31 (0x1f) | Exported Function | 0x100022f0 | 0x000022f0
-`NtDCompositionEnableMMCSS` | 30 (0x1e) | Exported Function | 0x100022e0 | 0x000022e0
-`NtDCompositionDuplicateSwapchainHandleToDwm` | 29 (0x1d) | Exported Function | 0x100022d0 | 0x000022d0
-`NtDCompositionDuplicateHandleToProcess` | 28 (0x1c) | Exported Function | 0x100022c0 | 0x000022c0
-`NtDCompositionDiscardFrame` | 27 (0x1b) | Exported Function | 0x100022b0 | 0x000022b0
-`NtDCompositionDestroyConnection` | 26 (0x1a) | Exported Function | 0x100022a0 | 0x000022a0
-`NtDCompositionDestroyChannel` | 25 (0x19) | Exported Function | 0x10002290 | 0x00002290
-`NtDCompositionCreateSynchronizationObject` | 24 (0x18) | Exported Function | 0x10002280 | 0x00002280
-`NtDCompositionCreateSharedResourceHandle` | 23 (0x17) | Exported Function | 0x10002270 | 0x00002270
-`NtDCompositionCreateDwmChannel` | 22 (0x16) | Exported Function | 0x10002260 | 0x00002260
-`NtDCompositionReferenceSharedResourceOnDwmChannel` | 40 (0x28) | Exported Function | 0x10002380 | 0x00002380
-`NtDxgkUpdateTrackedWorkload` | 81 (0x51) | Exported Function | 0x10002610 | 0x00002610
-`NtDxgkVailConnect` | 82 (0x52) | Exported Function | 0x10002620 | 0x00002620
-`NtDxgkVailDisconnect` | 83 (0x53) | Exported Function | 0x10002630 | 0x00002630
-`NtGdiConvertMetafileRect` | 141 (0x8d) | Exported Function | 0x10002950 | 0x00002950
-`NtGdiConfigureOPMProtectedOutput` | 140 (0x8c) | Exported Function | 0x10002940 | 0x00002940
-`NtGdiComputeXformCoefficients` | 139 (0x8b) | Exported Function | 0x10001880 | 0x00001880
-`NtGdiCombineTransform` | 138 (0x8a) | Exported Function | 0x10001e30 | 0x00001e30
-`NtGdiCombineRgn` | 137 (0x89) | Exported Function | 0x10001340 | 0x00001340
-`NtGdiColorCorrectPalette` | 136 (0x88) | Exported Function | 0x10002930 | 0x00002930
-`NtGdiCloseFigure` | 135 (0x87) | Exported Function | 0x10001f30 | 0x00001f30
-`NtGdiCreateBitmap` | 142 (0x8e) | Exported Function | 0x100016b0 | 0x000016b0
-`NtGdiCLIPOBJ_ppoGetPath` | 129 (0x81) | Exported Function | 0x100028d0 | 0x000028d0
-`NtGdiCLIPOBJ_bEnum` | 127 (0x7f) | Exported Function | 0x100028b0 | 0x000028b0
-`NtGdiClearBrushAttributes` | 134 (0x86) | Exported Function | 0x10002920 | 0x00002920
-`NtGdiClearBitmapAttributes` | 133 (0x85) | Exported Function | 0x10002910 | 0x00002910
-`NtGdiCheckBitmapBits` | 132 (0x84) | Exported Function | 0x10002900 | 0x00002900
-`NtGdiChangeGhostFont` | 131 (0x83) | Exported Function | 0x100028f0 | 0x000028f0
-`NtGdiCancelDC` | 130 (0x82) | Exported Function | 0x100028e0 | 0x000028e0
-`NtGdiBRUSHOBJ_ulGetBrushColor` | 123 (0x7b) | Exported Function | 0x10002890 | 0x00002890
-`NtGdiCLIPOBJ_cEnumStart` | 128 (0x80) | Exported Function | 0x100028c0 | 0x000028c0
-`NtGdiCreateBitmapFromDxSurface` | 144 (0x90) | Exported Function | 0x10002960 | 0x00002960
-`NtGdiCreateBitmapFromDxSurface2` | 143 (0x8f) | Exported Function | 0x10002970 | 0x00002970
-`NtGdiCreateClientObj` | 145 (0x91) | Exported Function | 0x10001b20 | 0x00001b20
-`NtGdiCreateRectRgn` | 162 (0xa2) | Exported Function | 0x10001810 | 0x00001810
-`NtGdiCreatePen` | 161 (0xa1) | Exported Function | 0x10001560 | 0x00001560
-`NtGdiCreatePatternBrushInternal` | 160 (0xa0) | Exported Function | 0x10001a90 | 0x00001a90
-`NtGdiCreatePaletteInternal` | 159 (0x9f) | Exported Function | 0x10001a40 | 0x00001a40
-`NtGdiCreateOPMProtectedOutputs` | 158 (0x9e) | Exported Function | 0x100029d0 | 0x000029d0
-`NtGdiCreateOPMProtectedOutput` | 157 (0x9d) | Exported Function | 0x100029c0 | 0x000029c0
-`NtGdiCreateMetafileDC` | 156 (0x9c) | Exported Function | 0x100029b0 | 0x000029b0
-`NtGdiCreateHatchBrushInternal` | 155 (0x9b) | Exported Function | 0x100029a0 | 0x000029a0
-`NtGdiCreateHalftonePalette` | 154 (0x9a) | Exported Function | 0x10001e00 | 0x00001e00
-`NtGdiCreateEllipticRgn` | 153 (0x99) | Exported Function | 0x10002990 | 0x00002990
-`NtGdiCreateDIBSection` | 151 (0x97) | Exported Function | 0x10001970 | 0x00001970
-`NtGdiCreateDIBitmapInternal` | 152 (0x98) | Exported Function | 0x100019c0 | 0x000019c0
-`NtGdiCreateDIBBrush` | 150 (0x96) | Exported Function | 0x10001720 | 0x00001720
-`NtGdiCreateCompatibleDC` | 149 (0x95) | Exported Function | 0x10001540 | 0x00001540
-`NtGdiCreateCompatibleBitmap` | 148 (0x94) | Exported Function | 0x100014b0 | 0x000014b0
-`NtGdiCreateColorTransform` | 147 (0x93) | Exported Function | 0x10002980 | 0x00002980
-`NtGdiCreateColorSpace` | 146 (0x92) | Exported Function | 0x100020f0 | 0x000020f0
-`NtGdiBRUSHOBJ_pvGetRbrush` | 122 (0x7a) | Exported Function | 0x10002880 | 0x00002880
-`NtGdiBRUSHOBJ_pvAllocRbrush` | 121 (0x79) | Exported Function | 0x10002870 | 0x00002870
-`NtGdiBRUSHOBJ_hGetColorTransform` | 120 (0x78) | Exported Function | 0x10002860 | 0x00002860
-`NtGdiBRUSHOBJ_DeleteRbrush` | 119 (0x77) | Exported Function | 0x10002850 | 0x00002850
-`NtFlipObjectQueryEndpointConnected` | 100 (0x64) | Exported Function | 0x10002740 | 0x00002740
-`NtFlipObjectQueryBufferAvailableEvent` | 99 (0x63) | Exported Function | 0x10002730 | 0x00002730
-`NtFlipObjectPresentCancel` | 98 (0x62) | Exported Function | 0x10002720 | 0x00002720
-`NtFlipObjectOpen` | 97 (0x61) | Exported Function | 0x10002710 | 0x00002710
-`NtFlipObjectEnablePresentStatisticsType` | 96 (0x60) | Exported Function | 0x10002700 | 0x00002700
-`NtFlipObjectDisconnectEndpoint` | 95 (0x5f) | Exported Function | 0x100026f0 | 0x000026f0
-`NtFlipObjectCreate` | 94 (0x5e) | Exported Function | 0x100026e0 | 0x000026e0
-`NtFlipObjectConsumerQueryBufferInfo` | 93 (0x5d) | Exported Function | 0x100026d0 | 0x000026d0
-`NtFlipObjectConsumerPostMessage` | 92 (0x5c) | Exported Function | 0x100026c0 | 0x000026c0
-`NtFlipObjectConsumerEndProcessPresent` | 91 (0x5b) | Exported Function | 0x100026b0 | 0x000026b0
-`NtFlipObjectConsumerBeginProcessPresent` | 90 (0x5a) | Exported Function | 0x100026a0 | 0x000026a0
-`NtFlipObjectConsumerAdjustUsageReference` | 89 (0x59) | Exported Function | 0x10002690 | 0x00002690
-`NtFlipObjectConsumerAcquirePresent` | 88 (0x58) | Exported Function | 0x10002680 | 0x00002680
-`NtFlipObjectAddPoolBuffer` | 87 (0x57) | Exported Function | 0x10002670 | 0x00002670
-`NtFlipObjectAddContent` | 86 (0x56) | Exported Function | 0x10002660 | 0x00002660
-`NtEnableOneCoreTransformMode` | 85 (0x55) | Exported Function | 0x10002650 | 0x00002650
-`NtDxgkVailPromoteCompositionSurface` | 84 (0x54) | Exported Function | 0x10002640 | 0x00002640
-`NtFlipObjectQueryNextMessageToProducer` | 101 (0x65) | Exported Function | 0x10002750 | 0x00002750
-`NtGdiDdDDISetHwProtectionTeardownRecovery` | 327 (0x147) | Exported Function | 0x10003410 | 0x00003410
-`NtFlipObjectReadNextMessageToProducer` | 102 (0x66) | Exported Function | 0x10002760 | 0x00002760
-`NtFlipObjectRemovePoolBuffer` | 104 (0x68) | Exported Function | 0x10002780 | 0x00002780
-`NtGdiBitBlt` | 126 (0x7e) | Exported Function | 0x10001080 | 0x00001080
-`NtGdiBeginPath` | 125 (0x7d) | Exported Function | 0x10001fc0 | 0x00001fc0
-`NtGdiBeginGdiRendering` | 124 (0x7c) | Exported Function | 0x100028a0 | 0x000028a0
-`NtGdiArcInternal` | 118 (0x76) | Exported Function | 0x10002840 | 0x00002840
-`NtGdiAnyLinkedFonts` | 117 (0x75) | Exported Function | 0x10002830 | 0x00002830
-`NtGdiAngleArc` | 116 (0x74) | Exported Function | 0x10002820 | 0x00002820
-`NtGdiAlphaBlend` | 115 (0x73) | Exported Function | 0x100017a0 | 0x000017a0
-`NtGdiAddRemoteMMInstanceToDC` | 114 (0x72) | Exported Function | 0x10002810 | 0x00002810
-`NtGdiAddRemoteFontToDC` | 113 (0x71) | Exported Function | 0x10002800 | 0x00002800
-`NtGdiAddInitialFonts` | 112 (0x70) | Exported Function | 0x100027f0 | 0x000027f0
-`NtGdiAddFontResourceW` | 111 (0x6f) | Exported Function | 0x100027e0 | 0x000027e0
-`NtGdiAddFontMemResourceEx` | 110 (0x6e) | Exported Function | 0x10002030 | 0x00002030
-`NtGdiAddEmbFontToDC` | 109 (0x6d) | Exported Function | 0x100027d0 | 0x000027d0
-`NtGdiAbortPath` | 108 (0x6c) | Exported Function | 0x100027c0 | 0x000027c0
-`NtGdiAbortDoc` | 107 (0x6b) | Exported Function | 0x100027b0 | 0x000027b0
-`NtFlipObjectSetMaximumBackchannelQueueDepth` | 106 (0x6a) | Exported Function | 0x100027a0 | 0x000027a0
-`NtFlipObjectSetContent` | 105 (0x69) | Exported Function | 0x10002790 | 0x00002790
-`NtFlipObjectRemoveContent` | 103 (0x67) | Exported Function | 0x10002770 | 0x00002770
-`NtGdiDdDDISetMemoryBudgetTarget` | 328 (0x148) | Exported Function | 0x10003420 | 0x00003420
-`NtGdiDdDDISetMonitorColorSpaceTransform` | 329 (0x149) | Exported Function | 0x10003430 | 0x00003430
-`NtGdiDdDDISetProcessDeviceRemovalSupport` | 330 (0x14a) | Exported Function | 0x10003440 | 0x00003440
-`NtGdiPATHOBJ_bEnum` | 551 (0x227) | Exported Function | 0x10003ec0 | 0x00003ec0
-`NtGdiPatBlt` | 556 (0x22c) | Exported Function | 0x10001590 | 0x00001590
-`NtGdiOpenDCW` | 550 (0x226) | Exported Function | 0x10001cd0 | 0x00001cd0
-`NtGdiOffsetRgn` | 549 (0x225) | Exported Function | 0x100017b0 | 0x000017b0
-`NtGdiOffsetClipRgn` | 548 (0x224) | Exported Function | 0x10003eb0 | 0x00003eb0
-`NtGdiMoveTo` | 547 (0x223) | Exported Function | 0x10003ea0 | 0x00003ea0
-`NtGdiMonoBitmap` | 546 (0x222) | Exported Function | 0x10003e90 | 0x00003e90
-`NtGdiPATHOBJ_bEnumClipLines` | 552 (0x228) | Exported Function | 0x10003ed0 | 0x00003ed0
-`NtGdiModifyWorldTransform` | 545 (0x221) | Exported Function | 0x10001c90 | 0x00001c90
-`NtGdiMaskBlt` | 543 (0x21f) | Exported Function | 0x10001670 | 0x00001670
-`NtGdiMakeObjectXferable` | 542 (0x21e) | Exported Function | 0x10003e70 | 0x00003e70
-`NtGdiMakeObjectUnXferable` | 541 (0x21d) | Exported Function | 0x10003e60 | 0x00003e60
-`NtGdiMakeInfoDC` | 540 (0x21c) | Exported Function | 0x10003e50 | 0x00003e50
-`NtGdiMakeFontDir` | 539 (0x21b) | Exported Function | 0x10003e40 | 0x00003e40
-`NtGdiLineTo` | 538 (0x21a) | Exported Function | 0x10001410 | 0x00001410
-`NtGdiInvertRgn` | 537 (0x219) | Exported Function | 0x10001640 | 0x00001640
-`NtGdiMirrorWindowOrg` | 544 (0x220) | Exported Function | 0x10003e80 | 0x00003e80
-`NtGdiPATHOBJ_vEnumStart` | 553 (0x229) | Exported Function | 0x10003ee0 | 0x00003ee0
-`NtGdiPATHOBJ_vEnumStartClipLines` | 554 (0x22a) | Exported Function | 0x10003ef0 | 0x00003ef0
-`NtGdiPATHOBJ_vGetBounds` | 555 (0x22b) | Exported Function | 0x10003f00 | 0x00003f00
-`NtGdiResetDC` | 573 (0x23d) | Exported Function | 0x10003fa0 | 0x00003fa0
-`NtGdiRemoveMergeFont` | 572 (0x23c) | Exported Function | 0x10003f90 | 0x00003f90
-`NtGdiRemoveFontResourceW` | 571 (0x23b) | Exported Function | 0x10003f80 | 0x00003f80
-`NtGdiRemoveFontMemResourceEx` | 570 (0x23a) | Exported Function | 0x10002060 | 0x00002060
-`NtGdiRectVisible` | 568 (0x238) | Exported Function | 0x10001330 | 0x00001330
-`NtGdiRectInRegion` | 567 (0x237) | Exported Function | 0x10001b50 | 0x00001b50
-`NtGdiRectangle` | 569 (0x239) | Exported Function | 0x100018d0 | 0x000018d0
-`NtGdiQueryFonts` | 566 (0x236) | Exported Function | 0x10003f70 | 0x00003f70
-`NtGdiQueryFontAssocInfo` | 565 (0x235) | Exported Function | 0x10001e80 | 0x00001e80
-`NtGdiPtVisible` | 564 (0x234) | Exported Function | 0x10003f60 | 0x00003f60
-`NtGdiPtInRegion` | 563 (0x233) | Exported Function | 0x10003f50 | 0x00003f50
-`NtGdiPolyTextOutW` | 562 (0x232) | Exported Function | 0x10003f40 | 0x00003f40
-`NtGdiPolyPolyDraw` | 561 (0x231) | Exported Function | 0x10001480 | 0x00001480
-`NtGdiPolyPatBlt` | 560 (0x230) | Exported Function | 0x100016d0 | 0x000016d0
-`NtGdiPolyDraw` | 559 (0x22f) | Exported Function | 0x10003f30 | 0x00003f30
-`NtGdiPlgBlt` | 558 (0x22e) | Exported Function | 0x10003f20 | 0x00003f20
-`NtGdiPathToRegion` | 557 (0x22d) | Exported Function | 0x10003f10 | 0x00003f10
-`NtGdiIntersectClipRect` | 536 (0x218) | Exported Function | 0x10001200 | 0x00001200
-`NtGdiResizePalette` | 574 (0x23e) | Exported Function | 0x10003fb0 | 0x00003fb0
-`NtGdiInitSpool` | 535 (0x217) | Exported Function | 0x10003e30 | 0x00003e30
-`NtGdiIcmBrushInfo` | 533 (0x215) | Exported Function | 0x10003e10 | 0x00003e10
-`NtGdiGetRgnBox` | 511 (0x1ff) | Exported Function | 0x10001650 | 0x00001650
-`NtGdiGetRegionData` | 510 (0x1fe) | Exported Function | 0x10001400 | 0x00001400
-`NtGdiGetRealizationInfo` | 509 (0x1fd) | Exported Function | 0x10003d30 | 0x00003d30
-`NtGdiGetRasterizerCaps` | 508 (0x1fc) | Exported Function | 0x10001da0 | 0x00001da0
-`NtGdiGetRandomRgn` | 507 (0x1fb) | Exported Function | 0x100012b0 | 0x000012b0
-`NtGdiGetPublicFontTableChangeCookie` | 506 (0x1fa) | Exported Function | 0x10003d20 | 0x00003d20
-`NtGdiGetProcessSessionFonts` | 505 (0x1f9) | Exported Function | 0x10003d10 | 0x00003d10
-`NtGdiGetServerMetaFileBits` | 512 (0x200) | Exported Function | 0x10003d40 | 0x00003d40
-`NtGdiGetPixel` | 504 (0x1f8) | Exported Function | 0x10001b70 | 0x00001b70
-`NtGdiGetPhysicalMonitorDescription` | 502 (0x1f6) | Exported Function | 0x10003cf0 | 0x00003cf0
-`NtGdiGetPerBandInfo` | 501 (0x1f5) | Exported Function | 0x10003ce0 | 0x00003ce0
-`NtGdiGetPath` | 500 (0x1f4) | Exported Function | 0x10003cd0 | 0x00003cd0
-`NtGdiGetOutlineTextMetricsInternalW` | 499 (0x1f3) | Exported Function | 0x10001ab0 | 0x00001ab0
-`NtGdiGetOPMRandomNumber` | 497 (0x1f1) | Exported Function | 0x10003cb0 | 0x00003cb0
-`NtGdiGetOPMInformation` | 496 (0x1f0) | Exported Function | 0x10003ca0 | 0x00003ca0
-`NtGdiGetObjectBitmapHandle` | 498 (0x1f2) | Exported Function | 0x10003cc0 | 0x00003cc0
-`NtGdiGetPhysicalMonitors` | 503 (0x1f7) | Exported Function | 0x10003d00 | 0x00003d00
-`NtGdiGetSpoolMessage` | 513 (0x201) | Exported Function | 0x10003d50 | 0x00003d50
-`NtGdiGetStats` | 514 (0x202) | Exported Function | 0x10003d60 | 0x00003d60
-`NtGdiGetStringBitmapW` | 515 (0x203) | Exported Function | 0x10003d70 | 0x00003d70
-`NtGdiHT_Get8BPPMaskPalette` | 531 (0x213) | Exported Function | 0x10003e00 | 0x00003e00
-`NtGdiHT_Get8BPPFormatPalette` | 530 (0x212) | Exported Function | 0x10003df0 | 0x00003df0
-`NtGdiHLSurfSetInformation` | 529 (0x211) | Exported Function | 0x10003de0 | 0x00003de0
-`NtGdiHLSurfGetInformation` | 528 (0x210) | Exported Function | 0x10003dd0 | 0x00003dd0
-`NtGdiHfontCreate` | 532 (0x214) | Exported Function | 0x100015c0 | 0x000015c0
-`NtGdiGradientFill` | 527 (0x20f) | Exported Function | 0x10003dc0 | 0x00003dc0
-`NtGdiGetWidthTable` | 526 (0x20e) | Exported Function | 0x10001680 | 0x00001680
-`NtGdiGetUFIPathname` | 525 (0x20d) | Exported Function | 0x10003db0 | 0x00003db0
-`NtGdiGetUFI` | 524 (0x20c) | Exported Function | 0x10003da0 | 0x00003da0
-`NtGdiGetTransform` | 523 (0x20b) | Exported Function | 0x10001cf0 | 0x00001cf0
-`NtGdiGetTextMetricsW` | 522 (0x20a) | Exported Function | 0x10001730 | 0x00001730
-`NtGdiGetTextFaceW` | 521 (0x209) | Exported Function | 0x100017d0 | 0x000017d0
-`NtGdiGetTextExtentExW` | 520 (0x208) | Exported Function | 0x10003d90 | 0x00003d90
-`NtGdiGetTextExtent` | 519 (0x207) | Exported Function | 0x10001910 | 0x00001910
-`NtGdiGetTextCharsetInfo` | 518 (0x206) | Exported Function | 0x100014d0 | 0x000014d0
-`NtGdiGetSystemPaletteUse` | 517 (0x205) | Exported Function | 0x10002050 | 0x00002050
-`NtGdiGetSuggestedOPMProtectedOutputArraySize` | 516 (0x204) | Exported Function | 0x10003d80 | 0x00003d80
-`NtGdiInit` | 534 (0x216) | Exported Function | 0x10003e20 | 0x00003e20
-`NtGdiRestoreDC` | 575 (0x23f) | Exported Function | 0x100013a0 | 0x000013a0
-`NtGdiRoundRect` | 576 (0x240) | Exported Function | 0x10003fc0 | 0x00003fc0
-`NtGdiSaveDC` | 582 (0x246) | Exported Function | 0x100013b0 | 0x000013b0
-`NtGdiUpdateTransform` | 635 (0x27b) | Exported Function | 0x10004260 | 0x00004260
-`NtGdiUpdateColors` | 634 (0x27a) | Exported Function | 0x10004250 | 0x00004250
-`NtGdiUnrealizeObject` | 633 (0x279) | Exported Function | 0x100018b0 | 0x000018b0
-`NtGdiUnmapMemFont` | 632 (0x278) | Exported Function | 0x10004240 | 0x00004240
-`NtGdiUnloadPrinterDriver` | 631 (0x277) | Exported Function | 0x10004230 | 0x00004230
-`NtGdiUMPDEngFreeUserMem` | 630 (0x276) | Exported Function | 0x10004220 | 0x00004220
-`NtGdiTransparentBlt` | 629 (0x275) | Exported Function | 0x10004210 | 0x00004210
-`NtGdiWidenPath` | 636 (0x27c) | Exported Function | 0x10004270 | 0x00004270
-`NtGdiTransformPoints` | 628 (0x274) | Exported Function | 0x10001700 | 0x00001700
-`NtGdiStrokePath` | 626 (0x272) | Exported Function | 0x100041f0 | 0x000041f0
-`NtGdiStrokeAndFillPath` | 625 (0x271) | Exported Function | 0x100041e0 | 0x000041e0
-`NtGdiSTROBJ_vEnumStart` | 581 (0x245) | Exported Function | 0x10004010 | 0x00004010
-`NtGdiSTROBJ_dwGetCodePage` | 580 (0x244) | Exported Function | 0x10004000 | 0x00004000
-`NtGdiSTROBJ_bGetAdvanceWidths` | 579 (0x243) | Exported Function | 0x10003ff0 | 0x00003ff0
-`NtGdiSTROBJ_bEnumPositionsOnly` | 578 (0x242) | Exported Function | 0x10003fe0 | 0x00003fe0
-`NtGdiSTROBJ_bEnum` | 577 (0x241) | Exported Function | 0x10003fd0 | 0x00003fd0
-`NtGdiSwapBuffers` | 627 (0x273) | Exported Function | 0x10004200 | 0x00004200
-`NtGdiXFORMOBJ_bApplyXform` | 637 (0x27d) | Exported Function | 0x10004280 | 0x00004280
-`NtGdiXFORMOBJ_iGetXform` | 638 (0x27e) | Exported Function | 0x10004290 | 0x00004290
-`NtGdiXLATEOBJ_cGetPalette` | 639 (0x27f) | Exported Function | 0x100042a0 | 0x000042a0
-`NtMITDispatchCompletion` | 650 (0x28a) | Exported Function | 0x10004350 | 0x00004350
-`NtMITDisableMouseIntercept` | 649 (0x289) | Exported Function | 0x10004340 | 0x00004340
-`NtMITDeactivateInputProcessing` | 648 (0x288) | Exported Function | 0x10004330 | 0x00004330
-`NtMITCoreMsgKOpenConnectionTo` | 647 (0x287) | Exported Function | 0x10004320 | 0x00004320
-`NtMITActivateInputProcessing` | 646 (0x286) | Exported Function | 0x10004310 | 0x00004310
-`NtMITAccessibilityTimerNotification` | 645 (0x285) | Exported Function | 0x10004300 | 0x00004300
-`NtMinQUpdateWakeMask` | 680 (0x2a8) | Exported Function | 0x10004530 | 0x00004530
-`NtMinQSuspendInputProcessing` | 679 (0x2a7) | Exported Function | 0x10004520 | 0x00004520
-`NtMinQPeekForInput` | 678 (0x2a6) | Exported Function | 0x10004510 | 0x00004510
-`NtMinInteropCoreMessagingWithInput` | 677 (0x2a5) | Exported Function | 0x10004500 | 0x00004500
-`NtMinGetInputTransform` | 676 (0x2a4) | Exported Function | 0x100044f0 | 0x000044f0
-`NtMapVisualRelativePoints` | 675 (0x2a3) | Exported Function | 0x100044e0 | 0x000044e0
-`NtIsOneCoreTransformMode` | 644 (0x284) | Exported Function | 0x100042f0 | 0x000042f0
-`NtInputSpaceRegionFromPoint` | 643 (0x283) | Exported Function | 0x100042e0 | 0x000042e0
-`NtHWCursorUpdatePointer` | 642 (0x282) | Exported Function | 0x100042d0 | 0x000042d0
-`NtGdiXLATEOBJ_iXlate` | 641 (0x281) | Exported Function | 0x100042c0 | 0x000042c0
-`NtGdiXLATEOBJ_hGetColorTransform` | 640 (0x280) | Exported Function | 0x100042b0 | 0x000042b0
-`NtGdiStretchDIBitsInternal` | 624 (0x270) | Exported Function | 0x100017e0 | 0x000017e0
-`NtGdiStretchBlt` | 623 (0x26f) | Exported Function | 0x10001310 | 0x00001310
-`NtGdiStartPage` | 622 (0x26e) | Exported Function | 0x100041d0 | 0x000041d0
-`NtGdiStartDoc` | 621 (0x26d) | Exported Function | 0x100041c0 | 0x000041c0
-`NtGdiSetColorSpace` | 599 (0x257) | Exported Function | 0x100040c0 | 0x000040c0
-`NtGdiSetColorAdjustment` | 598 (0x256) | Exported Function | 0x100040b0 | 0x000040b0
-`NtGdiSetBrushOrg` | 597 (0x255) | Exported Function | 0x10001a50 | 0x00001a50
-`NtGdiSetBrushAttributes` | 596 (0x254) | Exported Function | 0x100040a0 | 0x000040a0
-`NtGdiSetBoundsRect` | 595 (0x253) | Exported Function | 0x10001ee0 | 0x00001ee0
-`NtGdiSetBitmapDimension` | 594 (0x252) | Exported Function | 0x100020a0 | 0x000020a0
-`NtGdiSetBitmapBits` | 593 (0x251) | Exported Function | 0x10001ac0 | 0x00001ac0
-`NtGdiSetBitmapAttributes` | 592 (0x250) | Exported Function | 0x10004090 | 0x00004090
-`NtGdiSelectPen` | 591 (0x24f) | Exported Function | 0x10004080 | 0x00004080
-`NtGdiSelectFont` | 590 (0x24e) | Exported Function | 0x10001390 | 0x00001390
-`NtGdiSelectClipPath` | 589 (0x24d) | Exported Function | 0x10004070 | 0x00004070
-`NtGdiSelectBrush` | 588 (0x24c) | Exported Function | 0x10004060 | 0x00004060
-`NtGdiSelectBitmap` | 587 (0x24b) | Exported Function | 0x100010b0 | 0x000010b0
-`NtGdiScaleWindowExtEx` | 586 (0x24a) | Exported Function | 0x10004050 | 0x00004050
-`NtGdiScaleViewportExtEx` | 585 (0x249) | Exported Function | 0x10004040 | 0x00004040
-`NtGdiScaleValues` | 584 (0x248) | Exported Function | 0x10004030 | 0x00004030
-`NtGdiScaleRgn` | 583 (0x247) | Exported Function | 0x10004020 | 0x00004020
-`NtGdiSetDeviceGammaRamp` | 601 (0x259) | Exported Function | 0x100040d0 | 0x000040d0
-`NtGdiGetNumberOfPhysicalMonitors` | 495 (0x1ef) | Exported Function | 0x10003c90 | 0x00003c90
-`NtGdiSetDIBitsToDeviceInternal` | 600 (0x258) | Exported Function | 0x10001290 | 0x00001290
-`NtGdiSetFontXform` | 603 (0x25b) | Exported Function | 0x100040e0 | 0x000040e0
-`NtGdiSetVirtualResolution` | 620 (0x26c) | Exported Function | 0x10001d90 | 0x00001d90
-`NtGdiSetUMPDSandboxState` | 619 (0x26b) | Exported Function | 0x100041b0 | 0x000041b0
-`NtGdiSetTextJustification` | 618 (0x26a) | Exported Function | 0x100041a0 | 0x000041a0
-`NtGdiSetSystemPaletteUse` | 617 (0x269) | Exported Function | 0x10004190 | 0x00004190
-`NtGdiSetSizeDevice` | 616 (0x268) | Exported Function | 0x10004180 | 0x00004180
-`NtGdiSetRectRgn` | 615 (0x267) | Exported Function | 0x10004170 | 0x00004170
-`NtGdiSetPUMPDOBJ` | 611 (0x263) | Exported Function | 0x10004140 | 0x00004140
-`NtGdiSetPrivateDeviceGammaRamp` | 614 (0x266) | Exported Function | 0x10004160 | 0x00004160
-`NtGdiSetPixelFormat` | 613 (0x265) | Exported Function | 0x10004150 | 0x00004150
-`NtGdiSetPixel` | 612 (0x264) | Exported Function | 0x10001a70 | 0x00001a70
-`NtGdiSetOPMSigningKeyAndSequenceNumbers` | 610 (0x262) | Exported Function | 0x10004130 | 0x00004130
-`NtGdiSetMiterLimit` | 609 (0x261) | Exported Function | 0x10001d80 | 0x00001d80
-`NtGdiSetMetaRgn` | 608 (0x260) | Exported Function | 0x10001d70 | 0x00001d70
-`NtGdiSetMagicColors` | 607 (0x25f) | Exported Function | 0x10004120 | 0x00004120
-`NtGdiSetLinkedUFIs` | 606 (0x25e) | Exported Function | 0x10004110 | 0x00004110
-`NtGdiSetLayout` | 605 (0x25d) | Exported Function | 0x10001930 | 0x00001930
-`NtGdiSetIcmMode` | 604 (0x25c) | Exported Function | 0x10004100 | 0x00004100
-`NtGdiSetFontEnumeration` | 602 (0x25a) | Exported Function | 0x100020b0 | 0x000020b0
-`NtVisualCaptureBits` | 1315 (0x523) | Exported Function | 0x10006210 | 0x00006210
-`NtGdiGetNearestPaletteIndex` | 494 (0x1ee) | Exported Function | 0x10001ba0 | 0x00001ba0
-`NtGdiGetMonitorID` | 492 (0x1ec) | Exported Function | 0x10003c80 | 0x00003c80
-`NtGdiEngBitBlt` | 387 (0x183) | Exported Function | 0x10003770 | 0x00003770
-`NtGdiEngAssociateSurface` | 386 (0x182) | Exported Function | 0x10003760 | 0x00003760
-`NtGdiEngAlphaBlend` | 385 (0x181) | Exported Function | 0x10003750 | 0x00003750
-`NtGdiEndPath` | 384 (0x180) | Exported Function | 0x10001fd0 | 0x00001fd0
-`NtGdiEndPage` | 383 (0x17f) | Exported Function | 0x10003740 | 0x00003740
-`NtGdiEndGdiRendering` | 382 (0x17e) | Exported Function | 0x10003730 | 0x00003730
-`NtGdiEndDoc` | 381 (0x17d) | Exported Function | 0x10003720 | 0x00003720
-`NtGdiEngCheckAbort` | 388 (0x184) | Exported Function | 0x10003780 | 0x00003780
-`NtGdiEnableEudc` | 380 (0x17c) | Exported Function | 0x10003710 | 0x00003710
-`NtGdiDwmCreatedBitmapRemotingOutput` | 378 (0x17a) | Exported Function | 0x100036f0 | 0x000036f0
-`NtGdiDrawStream` | 377 (0x179) | Exported Function | 0x10001610 | 0x00001610
-`NtGdiDrawEscape` | 376 (0x178) | Exported Function | 0x100036e0 | 0x000036e0
-`NtGdiDoPalette` | 375 (0x177) | Exported Function | 0x10001470 | 0x00001470
-`NtGdiDoBanding` | 374 (0x176) | Exported Function | 0x100036d0 | 0x000036d0
-`NtGdiDestroyPhysicalMonitor` | 373 (0x175) | Exported Function | 0x100036c0 | 0x000036c0
-`NtGdiDestroyOPMProtectedOutput` | 372 (0x174) | Exported Function | 0x100036b0 | 0x000036b0
-`NtGdiEllipse` | 379 (0x17b) | Exported Function | 0x10003700 | 0x00003700
-`NtGdiEngComputeGlyphSet` | 389 (0x185) | Exported Function | 0x10003790 | 0x00003790
-`NtGdiEngCopyBits` | 390 (0x186) | Exported Function | 0x100037a0 | 0x000037a0
-`NtGdiEngCreateBitmap` | 391 (0x187) | Exported Function | 0x100037b0 | 0x000037b0
-`NtGdiEngStretchBlt` | 408 (0x198) | Exported Function | 0x100038c0 | 0x000038c0
-`NtGdiEngPlgBlt` | 407 (0x197) | Exported Function | 0x100038b0 | 0x000038b0
-`NtGdiEngPaint` | 406 (0x196) | Exported Function | 0x100038a0 | 0x000038a0
-`NtGdiEngMarkBandingSurface` | 405 (0x195) | Exported Function | 0x10003890 | 0x00003890
-`NtGdiEngLockSurface` | 404 (0x194) | Exported Function | 0x10003880 | 0x00003880
-`NtGdiEngLineTo` | 403 (0x193) | Exported Function | 0x10003870 | 0x00003870
-`NtGdiEngGradientFill` | 402 (0x192) | Exported Function | 0x10003860 | 0x00003860
-`NtGdiEngFillPath` | 401 (0x191) | Exported Function | 0x10003850 | 0x00003850
-`NtGdiEngEraseSurface` | 400 (0x190) | Exported Function | 0x10003840 | 0x00003840
-`NtGdiEngDeleteSurface` | 399 (0x18f) | Exported Function | 0x10003830 | 0x00003830
-`NtGdiEngDeletePath` | 398 (0x18e) | Exported Function | 0x10003820 | 0x00003820
-`NtGdiEngDeletePalette` | 397 (0x18d) | Exported Function | 0x10003810 | 0x00003810
-`NtGdiEngDeleteClip` | 396 (0x18c) | Exported Function | 0x10003800 | 0x00003800
-`NtGdiEngCreatePalette` | 395 (0x18b) | Exported Function | 0x100037f0 | 0x000037f0
-`NtGdiEngCreateDeviceSurface` | 394 (0x18a) | Exported Function | 0x100037e0 | 0x000037e0
-`NtGdiEngCreateDeviceBitmap` | 393 (0x189) | Exported Function | 0x100037d0 | 0x000037d0
-`NtGdiEngCreateClip` | 392 (0x188) | Exported Function | 0x100037c0 | 0x000037c0
-`NtGdiDescribePixelFormat` | 371 (0x173) | Exported Function | 0x100036a0 | 0x000036a0
-`NtGdiEngStretchBltROP` | 409 (0x199) | Exported Function | 0x100038d0 | 0x000038d0
-`NtGdiDeleteObjectApp` | 370 (0x172) | Exported Function | 0x10001230 | 0x00001230
-`NtGdiDeleteColorSpace` | 368 (0x170) | Exported Function | 0x10002100 | 0x00002100
-`NtGdiDdDDISignalSynchronizationObjectFromGpu2` | 345 (0x159) | Exported Function | 0x10003540 | 0x00003540
-`NtGdiDdDDISignalSynchronizationObjectFromGpu` | 346 (0x15a) | Exported Function | 0x10003530 | 0x00003530
-`NtGdiDdDDISignalSynchronizationObjectFromCpu` | 344 (0x158) | Exported Function | 0x10003520 | 0x00003520
-`NtGdiDdDDISignalSynchronizationObject` | 343 (0x157) | Exported Function | 0x10003510 | 0x00003510
-`NtGdiDdDDIShareObjects` | 340 (0x154) | Exported Function | 0x100034e0 | 0x000034e0
-`NtGdiDdDDISharedPrimaryUnLockNotification` | 342 (0x156) | Exported Function | 0x10003500 | 0x00003500
-`NtGdiDdDDISharedPrimaryLockNotification` | 341 (0x155) | Exported Function | 0x100034f0 | 0x000034f0
-`NtGdiDdDDISubmitCommand` | 347 (0x15b) | Exported Function | 0x10003550 | 0x00003550
-`NtGdiDdDDISetYieldPercentage` | 339 (0x153) | Exported Function | 0x100034d0 | 0x000034d0
-`NtGdiDdDDISetVidPnSourceHwProtection` | 337 (0x151) | Exported Function | 0x100034b0 | 0x000034b0
-`NtGdiDdDDISetSyncRefreshCountWaitTarget` | 336 (0x150) | Exported Function | 0x100034a0 | 0x000034a0
-`NtGdiDdDDISetStereoEnabled` | 335 (0x14f) | Exported Function | 0x10003490 | 0x00003490
-`NtGdiDdDDISetStablePowerState` | 334 (0x14e) | Exported Function | 0x10003480 | 0x00003480
-`NtGdiDdDDISetQueuedLimit` | 333 (0x14d) | Exported Function | 0x10003470 | 0x00003470
-`NtGdiDdDDISetProcessSchedulingPriorityClass` | 332 (0x14c) | Exported Function | 0x10003460 | 0x00003460
-`NtGdiDdDDISetProcessSchedulingPriorityBand` | 331 (0x14b) | Exported Function | 0x10003450 | 0x00003450
-`NtGdiDdDDISetVidPnSourceOwner` | 338 (0x152) | Exported Function | 0x100034c0 | 0x000034c0
-`NtGdiDdDDISubmitCommandToHwQueue` | 348 (0x15c) | Exported Function | 0x10003560 | 0x00003560
-`NtGdiDdDDISubmitSignalSyncObjectsToHwQueue` | 349 (0x15d) | Exported Function | 0x10003570 | 0x00003570
-`NtGdiDdDDISubmitWaitForSyncObjectsToHwQueue` | 350 (0x15e) | Exported Function | 0x10003580 | 0x00003580
-`NtGdiDeleteClientObj` | 367 (0x16f) | Exported Function | 0x10001840 | 0x00001840
-`NtGdiDdQueryVisRgnUniqueness` | 366 (0x16e) | Exported Function | 0x10003680 | 0x00003680
-`NtGdiDdNotifyFullscreenSpriteUpdate` | 365 (0x16d) | Exported Function | 0x10003670 | 0x00003670
-`NtGdiDdDestroyFullscreenSprite` | 364 (0x16c) | Exported Function | 0x10003660 | 0x00003660
-`NtGdiDdDDIWaitForVerticalBlankEvent2` | 362 (0x16a) | Exported Function | 0x10003650 | 0x00003650
-`NtGdiDdDDIWaitForVerticalBlankEvent` | 363 (0x16b) | Exported Function | 0x10003640 | 0x00003640
-`NtGdiDdDDIWaitForSynchronizationObjectFromGpu` | 361 (0x169) | Exported Function | 0x10003630 | 0x00003630
-`NtGdiDdDDIWaitForSynchronizationObjectFromCpu` | 360 (0x168) | Exported Function | 0x10003620 | 0x00003620
-`NtGdiDdDDIWaitForSynchronizationObject` | 359 (0x167) | Exported Function | 0x10003610 | 0x00003610
-`NtGdiDdDDIWaitForIdle` | 358 (0x166) | Exported Function | 0x10003600 | 0x00003600
-`NtGdiDdDDIUpdateOverlay` | 357 (0x165) | Exported Function | 0x100035f0 | 0x000035f0
-`NtGdiDdDDIUpdateGpuVirtualAddress` | 356 (0x164) | Exported Function | 0x100035e0 | 0x000035e0
-`NtGdiDdDDIUpdateAllocationProperty` | 355 (0x163) | Exported Function | 0x100035d0 | 0x000035d0
-`NtGdiDdDDIUnOrderedPresentSwapChain` | 352 (0x160) | Exported Function | 0x100035a0 | 0x000035a0
-`NtGdiDdDDIUnlock2` | 353 (0x161) | Exported Function | 0x100035c0 | 0x000035c0
-`NtGdiDdDDIUnlock` | 354 (0x162) | Exported Function | 0x100035b0 | 0x000035b0
-`NtGdiDdDDITrimProcessCommitment` | 351 (0x15f) | Exported Function | 0x10003590 | 0x00003590
-`NtGdiDeleteColorTransform` | 369 (0x171) | Exported Function | 0x10003690 | 0x00003690
-`NtGdiEngStrokeAndFillPath` | 410 (0x19a) | Exported Function | 0x100038e0 | 0x000038e0
-`NtGdiEngStrokePath` | 411 (0x19b) | Exported Function | 0x100038f0 | 0x000038f0
-`NtGdiEngTextOut` | 412 (0x19c) | Exported Function | 0x10003900 | 0x00003900
-`NtGdiGetDeviceCapsAll` | 471 (0x1d7) | Exported Function | 0x10003b40 | 0x00003b40
-`NtGdiGetDeviceCaps` | 470 (0x1d6) | Exported Function | 0x10003b30 | 0x00003b30
-`NtGdiGetDCPoint` | 467 (0x1d3) | Exported Function | 0x10001710 | 0x00001710
-`NtGdiGetDCObject` | 466 (0x1d2) | Exported Function | 0x10001350 | 0x00001350
-`NtGdiGetDCforBitmap` | 468 (0x1d4) | Exported Function | 0x10001980 | 0x00001980
-`NtGdiGetDCDword` | 465 (0x1d1) | Exported Function | 0x100013f0 | 0x000013f0
-`NtGdiGetDCDpiScaleValue` | 464 (0x1d0) | Exported Function | 0x10003b20 | 0x00003b20
-`NtGdiGetDeviceGammaRamp` | 472 (0x1d8) | Exported Function | 0x10003b50 | 0x00003b50
-`NtGdiGetCurrentDpiInfo` | 463 (0x1cf) | Exported Function | 0x10003b10 | 0x00003b10
-`NtGdiGetColorSpaceforBitmap` | 462 (0x1ce) | Exported Function | 0x10003b00 | 0x00003b00
-`NtGdiGetColorAdjustment` | 461 (0x1cd) | Exported Function | 0x10003af0 | 0x00003af0
-`NtGdiGetCharWidthW` | 459 (0x1cb) | Exported Function | 0x10001bb0 | 0x00001bb0
-`NtGdiGetCharWidthInfo` | 458 (0x1ca) | Exported Function | 0x10001c00 | 0x00001c00
-`NtGdiGetCharSet` | 457 (0x1c9) | Exported Function | 0x10001090 | 0x00001090
-`NtGdiGetCharacterPlacementW` | 460 (0x1cc) | Exported Function | 0x10003ae0 | 0x00003ae0
-`NtGdiGetCharABCWidthsW` | 456 (0x1c8) | Exported Function | 0x10003ad0 | 0x00003ad0
-`NtGdiGetCOPPCompatibleOPMInformation` | 451 (0x1c3) | Exported Function | 0x10003a80 | 0x00003a80
-`NtGdiGetDeviceWidth` | 473 (0x1d9) | Exported Function | 0x10003b60 | 0x00003b60
-`NtGdiGetDhpdev` | 474 (0x1da) | Exported Function | 0x10003b70 | 0x00003b70
-`NtGdiGetDIBitsInternal` | 469 (0x1d5) | Exported Function | 0x10001820 | 0x00001820
-`NtGdiGetMiterLimit` | 491 (0x1eb) | Exported Function | 0x10003c70 | 0x00003c70
-`NtGdiGetLinkedUFIs` | 490 (0x1ea) | Exported Function | 0x10003c60 | 0x00003c60
-`NtGdiGetKerningPairs` | 489 (0x1e9) | Exported Function | 0x10003c50 | 0x00003c50
-`NtGdiGetGlyphOutline` | 488 (0x1e8) | Exported Function | 0x10003c40 | 0x00003c40
-`NtGdiGetGlyphIndicesWInternal` | 487 (0x1e7) | Exported Function | 0x10003c30 | 0x00003c30
-`NtGdiGetGlyphIndicesW` | 486 (0x1e6) | Exported Function | 0x10003c20 | 0x00003c20
-`NtGdiGetGammaRampCapability` | 485 (0x1e5) | Exported Function | 0x10003c10 | 0x00003c10
-`NtGdiGetFontUnicodeRanges` | 484 (0x1e4) | Exported Function | 0x10003c00 | 0x00003c00
-`NtGdiGetFontResourceInfoInternalW` | 483 (0x1e3) | Exported Function | 0x10003bf0 | 0x00003bf0
-`NtGdiGetFontFileInfo` | 482 (0x1e2) | Exported Function | 0x10003be0 | 0x00003be0
-`NtGdiGetFontFileData` | 481 (0x1e1) | Exported Function | 0x10003bd0 | 0x00003bd0
-`NtGdiGetFontData` | 480 (0x1e0) | Exported Function | 0x10001ca0 | 0x00001ca0
-`NtGdiGetEudcTimeStampEx` | 479 (0x1df) | Exported Function | 0x10003bc0 | 0x00003bc0
-`NtGdiGetETM` | 475 (0x1db) | Exported Function | 0x10003b80 | 0x00003b80
-`NtGdiGetEntry` | 478 (0x1de) | Exported Function | 0x10003bb0 | 0x00003bb0
-`NtGdiGetEmbUFI` | 476 (0x1dc) | Exported Function | 0x10003b90 | 0x00003b90
-`NtGdiGetEmbedFonts` | 477 (0x1dd) | Exported Function | 0x10003ba0 | 0x00003ba0
-`NtGdiGetCertificateSizeByHandle` | 455 (0x1c7) | Exported Function | 0x10003ac0 | 0x00003ac0
-`NtGdiGetCertificateSize` | 454 (0x1c6) | Exported Function | 0x10003ab0 | 0x00003ab0
-`NtGdiGetCertificateByHandle` | 453 (0x1c5) | Exported Function | 0x10003aa0 | 0x00003aa0
-`NtGdiGetCertificate` | 452 (0x1c4) | Exported Function | 0x10003a90 | 0x00003a90
-`NtGdiFillRgn` | 437 (0x1b5) | Exported Function | 0x10001c70 | 0x00001c70
-`NtGdiFillPath` | 436 (0x1b4) | Exported Function | 0x10001fe0 | 0x00001fe0
-`NtGdiExtTextOutW` | 427 (0x1ab) | Exported Function | 0x10001380 | 0x00001380
-`NtGdiExtSelectClipRgn` | 426 (0x1aa) | Exported Function | 0x100012e0 | 0x000012e0
-`NtGdiExtGetObjectW` | 425 (0x1a9) | Exported Function | 0x10001520 | 0x00001520
-`NtGdiExtFloodFill` | 424 (0x1a8) | Exported Function | 0x10003970 | 0x00003970
-`NtGdiExtEscape` | 423 (0x1a7) | Exported Function | 0x10002090 | 0x00002090
-`NtGdiExtCreateRegion` | 422 (0x1a6) | Exported Function | 0x10001870 | 0x00001870
-`NtGdiExtCreatePen` | 421 (0x1a5) | Exported Function | 0x10001a30 | 0x00001a30
-`NtGdiExcludeClipRect` | 420 (0x1a4) | Exported Function | 0x10001960 | 0x00001960
-`NtGdiEudcLoadUnloadLink` | 419 (0x1a3) | Exported Function | 0x10003960 | 0x00003960
-`NtGdiEqualRgn` | 418 (0x1a2) | Exported Function | 0x10002040 | 0x00002040
-`NtGdiEnumObjects` | 417 (0x1a1) | Exported Function | 0x10003950 | 0x00003950
-`NtGdiEnumFonts` | 416 (0x1a0) | Exported Function | 0x10003940 | 0x00003940
-`NtGdiEnsureDpiDepDefaultGuiFontForPlateau` | 415 (0x19f) | Exported Function | 0x10003930 | 0x00003930
-`NtGdiEngUnlockSurface` | 414 (0x19e) | Exported Function | 0x10003920 | 0x00003920
-`NtGdiEngTransparentBlt` | 413 (0x19d) | Exported Function | 0x10003910 | 0x00003910
-`NtGdiFlattenPath` | 438 (0x1b6) | Exported Function | 0x10003a00 | 0x00003a00
-`NtGdiGetNearestColor` | 493 (0x1ed) | Exported Function | 0x100016f0 | 0x000016f0
-`NtGdiFlush` | 439 (0x1b7) | Exported Function | 0x10001120 | 0x00001120
-`NtGdiFONTOBJ_cGetAllGlyphHandles` | 428 (0x1ac) | Exported Function | 0x10003980 | 0x00003980
-`NtGdiGetBoundsRect` | 450 (0x1c2) | Exported Function | 0x10003a70 | 0x00003a70
-`NtGdiGetBitmapDpiScaleValue` | 449 (0x1c1) | Exported Function | 0x10003a60 | 0x00003a60
-`NtGdiGetBitmapDimension` | 448 (0x1c0) | Exported Function | 0x10001ef0 | 0x00001ef0
-`NtGdiGetBitmapBits` | 447 (0x1bf) | Exported Function | 0x10001d10 | 0x00001d10
-`NtGdiGetAppliedDeviceGammaRamp` | 446 (0x1be) | Exported Function | 0x10003a50 | 0x00003a50
-`NtGdiGetAppClipBox` | 445 (0x1bd) | Exported Function | 0x10001430 | 0x00001430
-`NtGdiGetAndSetDCDword` | 444 (0x1bc) | Exported Function | 0x10001660 | 0x00001660
-`NtGdiFullscreenControl` | 443 (0x1bb) | Exported Function | 0x10003a40 | 0x00003a40
-`NtGdiFrameRgn` | 442 (0x1ba) | Exported Function | 0x10003a30 | 0x00003a30
-`NtGdiForceUFIMapping` | 441 (0x1b9) | Exported Function | 0x10003a20 | 0x00003a20
-`NtGdiFONTOBJ_vGetInfo` | 435 (0x1b3) | Exported Function | 0x100039f0 | 0x000039f0
-`NtGdiFONTOBJ_pxoGetXform` | 434 (0x1b2) | Exported Function | 0x100039e0 | 0x000039e0
-`NtGdiFONTOBJ_pvTrueTypeFontFile` | 433 (0x1b1) | Exported Function | 0x100039d0 | 0x000039d0
-`NtGdiFONTOBJ_pQueryGlyphAttrs` | 430 (0x1ae) | Exported Function | 0x100039a0 | 0x000039a0
-`NtGdiFONTOBJ_pifi` | 432 (0x1b0) | Exported Function | 0x100039c0 | 0x000039c0
-`NtGdiFONTOBJ_pfdg` | 431 (0x1af) | Exported Function | 0x100039b0 | 0x000039b0
-`NtGdiFONTOBJ_cGetGlyphs` | 429 (0x1ad) | Exported Function | 0x10003990 | 0x00003990
-`NtGdiFontIsLinked` | 440 (0x1b8) | Exported Function | 0x10003a10 | 0x00003a10
-`Wow64Transition` | 1 (0x1) | Exported Function | 0x100070cc | 0x000070cc
+Function Name | Ordinal | Type
+-- | -- | --
+`NtUserEnumDisplayDevices` | 878 | Exported Function
+`NtUserEnumDisplayMonitors` | 879 | Exported Function
+`NtUserEndPaint` | 877 | Exported Function
+`NtUserEndDeferWindowPosEx` | 875 | Exported Function
+`NtUserEndMenu` | 876 | Exported Function
+`NtUserFillWindow` | 883 | Exported Function
+`NtUserFindExistingCursorIcon` | 884 | Exported Function
+`NtUserExcludeUpdateRgn` | 882 | Exported Function
+`NtUserEnumDisplaySettings` | 880 | Exported Function
+`NtUserEvent` | 881 | Exported Function
+`NtUserEnableResizeLayoutSynchronization` | 868 | Exported Function
+`NtUserEnableScrollBar` | 869 | Exported Function
+`NtUserEnableNonClientDpiScaling` | 867 | Exported Function
+`NtUserEnableMouseInPointerForWindow` | 865 | Exported Function
+`NtUserEnableMouseInputForCursorSuppression` | 866 | Exported Function
+`NtUserEnableWindowGroupPolicy` | 873 | Exported Function
+`NtUserEnableWindowResizeOptimization` | 874 | Exported Function
+`NtUserEnableWindowGDIScaledDpiMessage` | 872 | Exported Function
+`NtUserEnableSoftwareCursorForScreenCapture` | 870 | Exported Function
+`NtUserEnableTouchPad` | 871 | Exported Function
+`NtUserFindWindowEx` | 885 | Exported Function
+`NtUserGetCIMSSM` | 897 | Exported Function
+`NtUserGetClassInfoEx` | 901 | Exported Function
+`NtUserGetCaretPos` | 900 | Exported Function
+`NtUserGetAutoRotationState` | 896 | Exported Function
+`NtUserGetCaretBlinkTime` | 899 | Exported Function
+`NtUserGetClipboardFormatName` | 906 | Exported Function
+`NtUserGetClipboardOwner` | 907 | Exported Function
+`NtUserGetClipboardData` | 905 | Exported Function
+`NtUserGetClassName` | 902 | Exported Function
+`NtUserGetClipboardAccessToken` | 904 | Exported Function
+`NtUserFunctionalizeDisplayConfig` | 889 | Exported Function
+`NtUserGetActiveProcessesDpis` | 890 | Exported Function
+`NtUserFrostCrashedWindow` | 888 | Exported Function
+`NtUserFlashWindowEx` | 886 | Exported Function
+`NtUserForceWindowToDpiForTest` | 887 | Exported Function
+`NtUserGetAsyncKeyState` | 894 | Exported Function
+`NtUserGetAtomName` | 895 | Exported Function
+`NtUserGetAppImeLevel` | 893 | Exported Function
+`NtUserGetAltTabInfo` | 891 | Exported Function
+`NtUserGetAncestor` | 892 | Exported Function
+`NtUserDestroyWindow` | 837 | Exported Function
+`NtUserDisableImmersiveOwner` | 838 | Exported Function
+`NtUserDestroyPalmRejectionDelayZone` | 836 | Exported Function
+`NtUserDestroyInputContext` | 834 | Exported Function
+`NtUserDestroyMenu` | 835 | Exported Function
+`NtUserDispatchMessage` | 842 | Exported Function
+`NtUserDisplayConfigGetDeviceInfo` | 843 | Exported Function
+`NtUserDiscardPointerFrameMessages` | 841 | Exported Function
+`NtUserDisableProcessWindowFiltering` | 839 | Exported Function
+`NtUserDisableThreadIme` | 840 | Exported Function
+`NtUserDeleteMenu` | 827 | Exported Function
+`NtUserDeleteWindowGroup` | 828 | Exported Function
+`NtUserDelegateInput` | 826 | Exported Function
+`NtUserDefSetText` | 822 | Exported Function
+`NtUserDelegateCapturePointers` | 825 | Exported Function
+`NtUserDestroyCursor` | 832 | Exported Function
+`NtUserDestroyDCompositionHwndTarget` | 833 | Exported Function
+`NtUserDestroyActivationObject` | 831 | Exported Function
+`NtUserDestroyAcceleratorTable` | 829 | Exported Function
+`NtUserDestroyActivationGroup` | 830 | Exported Function
+`NtUserDisplayConfigSetDeviceInfo` | 844 | Exported Function
+`NtUserDwmKernelStartup` | 858 | Exported Function
+`NtUserDwmValidateWindow` | 859 | Exported Function
+`NtUserDwmKernelShutdown` | 857 | Exported Function
+`NtUserDwmGetRemoteSessionOcclusionEvent` | 855 | Exported Function
+`NtUserDwmGetRemoteSessionOcclusionState` | 856 | Exported Function
+`NtUserEnableMenuItem` | 863 | Exported Function
+`NtUserEnableMouseInPointer` | 864 | Exported Function
+`NtUserEnableIAMAccess` | 862 | Exported Function
+`NtUserEmptyClipboard` | 860 | Exported Function
+`NtUserEnableChildWindowDpiMessage` | 861 | Exported Function
+`NtUserDragDetect` | 848 | Exported Function
+`NtUserDragObject` | 849 | Exported Function
+`NtUserDownlevelTouchpad` | 847 | Exported Function
+`NtUserDoSoundConnect` | 845 | Exported Function
+`NtUserDoSoundDisconnect` | 846 | Exported Function
+`NtUserDrawIconEx` | 853 | Exported Function
+`NtUserDrawMenuBarTemp` | 854 | Exported Function
+`NtUserDrawCaptionTemp` | 852 | Exported Function
+`NtUserDrawAnimatedRects` | 850 | Exported Function
+`NtUserDrawCaption` | 851 | Exported Function
+`NtUserGetObjectInformation` | 960 | Exported Function
+`NtUserGetOemBitmapSize` | 961 | Exported Function
+`NtUserGetMouseMovePointsEx` | 959 | Exported Function
+`NtUserGetMenuItemRect` | 957 | Exported Function
+`NtUserGetMessage` | 958 | Exported Function
+`NtUserGetPointerCursorId` | 965 | Exported Function
+`NtUserGetPointerDevice` | 966 | Exported Function
+`NtUserGetPhysicalDeviceRect` | 964 | Exported Function
+`NtUserGetOpenClipboardWindow` | 962 | Exported Function
+`NtUserGetOwnerTransformedMonitorRect` | 963 | Exported Function
+`NtUserGetKeyboardState` | 952 | Exported Function
+`NtUserGetKeyNameText` | 947 | Exported Function
+`NtUserGetKeyboardLayoutName` | 951 | Exported Function
+`NtUserGetKeyboardLayout` | 949 | Exported Function
+`NtUserGetKeyboardLayoutList` | 950 | Exported Function
+`NtUserGetMenuBarInfo` | 955 | Exported Function
+`NtUserGetMenuIndex` | 956 | Exported Function
+`NtUserGetListBoxInfo` | 954 | Exported Function
+`NtUserGetKeyState` | 948 | Exported Function
+`NtUserGetLayeredWindowAttributes` | 953 | Exported Function
+`NtUserGetPointerDeviceCursors` | 967 | Exported Function
+`NtUserGetProcessUIContextInformation` | 981 | Exported Function
+`NtUserGetProcessWindowStation` | 982 | Exported Function
+`NtUserGetProcessDpiAwarenessContext` | 980 | Exported Function
+`NtUserGetPrecisionTouchPadConfiguration` | 978 | Exported Function
+`NtUserGetPriorityClipboardFormat` | 979 | Exported Function
+`NtUserGetRawInputBuffer` | 986 | Exported Function
+`NtUserGetRawInputData` | 987 | Exported Function
+`NtUserGetQueueStatusReadonly` | 985 | Exported Function
+`NtUserGetProp` | 983 | Exported Function
+`NtUserGetQueueStatus` | 984 | Exported Function
+`NtUserGetPointerDeviceRects` | 971 | Exported Function
+`NtUserGetPointerDevices` | 972 | Exported Function
+`NtUserGetPointerDeviceProperties` | 970 | Exported Function
+`NtUserGetPointerDeviceInputSpace` | 968 | Exported Function
+`NtUserGetPointerDeviceOrientation` | 969 | Exported Function
+`NtUserGetPointerProprietaryId` | 976 | Exported Function
+`NtUserGetPointerType` | 977 | Exported Function
+`NtUserGetPointerInputTransform` | 975 | Exported Function
+`NtUserGetPointerFrameTimes` | 973 | Exported Function
+`NtUserGetPointerInfoList` | 974 | Exported Function
+`NtUserGetDCEx` | 919 | Exported Function
+`NtUserGetDesktopID` | 921 | Exported Function
+`NtUserGetDC` | 918 | Exported Function
+`NtUserGetCursorFrameInfo` | 916 | Exported Function
+`NtUserGetCursorInfo` | 917 | Exported Function
+`NtUserGetDManipHookInitFunction` | 920 | Exported Function
+`NtUserGetDoubleClickTime` | 925 | Exported Function
+`NtUserGetDisplayConfigBufferSizes` | 924 | Exported Function
+`NtUserGetDisplayAutoRotationPreferences` | 922 | Exported Function
+`NtUserGetDisplayAutoRotationPreferencesByProcessId` | 923 | Exported Function
+`NtUserGetComboBoxInfo` | 910 | Exported Function
+`NtUserGetControlBrush` | 911 | Exported Function
+`NtUserGetClipCursor` | 903 | Exported Function
+`NtUserGetClipboardSequenceNumber` | 908 | Exported Function
+`NtUserGetClipboardViewer` | 909 | Exported Function
+`NtUserGetCurrentInputMessageSource` | 914 | Exported Function
+`NtUserGetCursor` | 915 | Exported Function
+`NtUserGetCurrentDpiInfoForWindow` | 913 | Exported Function
+`NtUserGetControlColor` | 912 | Exported Function
+`NtUserGetCPD` | 898 | Exported Function
+`NtUserGetDpiForCurrentProcess` | 926 | Exported Function
+`NtUserGetImeInfoEx` | 940 | Exported Function
+`NtUserGetInputContainerId` | 941 | Exported Function
+`NtUserGetImeHotKey` | 939 | Exported Function
+`NtUserGetIconInfo` | 937 | Exported Function
+`NtUserGetIconSize` | 938 | Exported Function
+`NtUserGetInteractiveCtrlSupportedWaveforms` | 945 | Exported Function
+`NtUserGetInternalWindowPos` | 946 | Exported Function
+`NtUserGetInteractiveControlInfo` | 944 | Exported Function
+`NtUserGetInputLocaleInfo` | 942 | Exported Function
+`NtUserGetInteractiveControlDeviceInfo` | 943 | Exported Function
+`NtUserGetGestureConfig` | 931 | Exported Function
+`NtUserGetGestureExtArgs` | 932 | Exported Function
+`NtUserGetForegroundWindow` | 929 | Exported Function
+`NtUserGetDpiForMonitor` | 927 | Exported Function
+`NtUserGetExtendedPointerDeviceProperty` | 928 | Exported Function
+`NtUserGetHDevName` | 935 | Exported Function
+`NtUserGetHimetricScaleFactorFromPixelLocation` | 936 | Exported Function
+`NtUserGetGUIThreadInfo` | 930 | Exported Function
+`NtUserGetGestureInfo` | 933 | Exported Function
+`NtUserGetGuiResources` | 934 | Exported Function
+`NtUserDeferWindowPosAndBand` | 824 | Exported Function
+`NtRIMEnableMonitorMappingForDevice` | 713 | Exported Function
+`NtRIMFreeInputBuffer` | 714 | Exported Function
+`NtRIMDeviceIoControl` | 712 | Exported Function
+`NtRIMAddInputObserver` | 710 | Exported Function
+`NtRIMAreSiblingDevices` | 711 | Exported Function
+`NtRIMGetDevicePropertiesLockfree` | 718 | Exported Function
+`NtRIMGetPhysicalDeviceRect` | 719 | Exported Function
+`NtRIMGetDeviceProperties` | 717 | Exported Function
+`NtRIMGetDevicePreparsedData` | 715 | Exported Function
+`NtRIMGetDevicePreparsedDataLockfree` | 716 | Exported Function
+`NtQueryCompositionInputSink` | 703 | Exported Function
+`NtQueryCompositionInputSinkLuid` | 704 | Exported Function
+`NtQueryCompositionInputQueueAndTransform` | 702 | Exported Function
+`NtOpenCompositionSurfaceSwapChainHandleInfo` | 700 | Exported Function
+`NtQueryCompositionInputIsImplicit` | 701 | Exported Function
+`NtQueryCompositionSurfaceRenderingRealization` | 708 | Exported Function
+`NtQueryCompositionSurfaceStatistics` | 709 | Exported Function
+`NtQueryCompositionSurfaceHDRMetaData` | 707 | Exported Function
+`NtQueryCompositionInputSinkViewId` | 705 | Exported Function
+`NtQueryCompositionSurfaceBinding` | 706 | Exported Function
+`NtRIMGetSourceProcessId` | 720 | Exported Function
+`NtSetCompositionSurfaceDirectFlipState` | 734 | Exported Function
+`NtSetCompositionSurfaceIndependentFlipInfo` | 735 | Exported Function
+`NtSetCompositionSurfaceBufferUsage` | 733 | Exported Function
+`NtRIMUpdateInputObserverRegistration` | 731 | Exported Function
+`NtSetCompositionSurfaceAnalogExclusive` | 732 | Exported Function
+`NtSetShellCursorState` | 739 | Exported Function
+`NtTokenManagerConfirmOutstandingAnalogToken` | 740 | Exported Function
+`NtSetPointerDeviceInputSpace` | 738 | Exported Function
+`NtSetCompositionSurfaceStatistics` | 736 | Exported Function
+`NtSetCursorInputSpace` | 737 | Exported Function
+`NtRIMQueryDevicePath` | 724 | Exported Function
+`NtRIMReadInput` | 725 | Exported Function
+`NtRIMOnTimerNotification` | 723 | Exported Function
+`NtRIMObserveNextInput` | 721 | Exported Function
+`NtRIMOnPnpNotification` | 722 | Exported Function
+`NtRIMSetTestModeStatus` | 729 | Exported Function
+`NtRIMUnregisterForInput` | 730 | Exported Function
+`NtRIMSetExtendedDeviceProperty` | 728 | Exported Function
+`NtRIMRegisterForInput` | 726 | Exported Function
+`NtRIMRemoveInputObserver` | 727 | Exported Function
+`NtMITSetInputObservationState` | 666 | Exported Function
+`NtMITSetKeyboardInputRoutingPolicy` | 667 | Exported Function
+`NtMITSetInputDelegationMode` | 665 | Exported Function
+`NtMITSetForegroundRoutingInfo` | 663 | Exported Function
+`NtMITSetInputCallbacks` | 664 | Exported Function
+`NtMITSynthesizeMouseInput` | 671 | Exported Function
+`NtMITSynthesizeTouchInput` | 672 | Exported Function
+`NtMITSynthesizeKeyboardInput` | 670 | Exported Function
+`NtMITSetKeyboardOverriderState` | 668 | Exported Function
+`NtMITSetLastInputRecipient` | 669 | Exported Function
+`NtMITMinuserWindowDestroyed` | 656 | Exported Function
+`NtMITPostMouseInputMessage` | 657 | Exported Function
+`NtMITMinuserWindowCreated` | 655 | Exported Function
+`NtMITInitMinuserThread` | 653 | Exported Function
+`NtMITMinuserSetInputTransformOffset` | 654 | Exported Function
+`NtMITPrepareSendInputMessage` | 661 | Exported Function
+`NtMITProcessDelegateCapturedPointers` | 662 | Exported Function
+`NtMITPrepareReceiveInputMessage` | 660 | Exported Function
+`NtMITPostThreadEventMessage` | 658 | Exported Function
+`NtMITPostWindowEventMessage` | 659 | Exported Function
+`NtMITUninitMinuserThread` | 673 | Exported Function
+`NtModerncoreRegisterEnhancedNavigationWindowHandle` | 693 | Exported Function
+`NtModerncoreRegisterNavigationWindowHandle` | 694 | Exported Function
+`NtModerncoreProcessConnect` | 692 | Exported Function
+`NtModerncoreIdleTimerThread` | 690 | Exported Function
+`NtModerncoreIsResizeLayoutSynchronizationEnabled` | 691 | Exported Function
+`NtOpenCompositionSurfaceDirtyRegion` | 698 | Exported Function
+`NtOpenCompositionSurfaceSectionInfo` | 699 | Exported Function
+`NtNotifyPresentToCompositionSurface` | 697 | Exported Function
+`NtModerncoreSetNavigationServiceSid` | 695 | Exported Function
+`NtModerncoreUnregisterNavigationWindowHandle` | 696 | Exported Function
+`NtModerncoreCreateGDIHwndTarget` | 683 | Exported Function
+`NtModerncoreDestroyDCompositionHwndTarget` | 684 | Exported Function
+`NtModerncoreCreateDCompositionHwndTarget` | 682 | Exported Function
+`NtMITUpdateInputGlobals` | 674 | Exported Function
+`NtModerncoreBeginLayoutUpdate` | 681 | Exported Function
+`NtModerncoreGetResizeDCompositionSynchronizationObject` | 688 | Exported Function
+`NtModerncoreGetWindowContentVisual` | 689 | Exported Function
+`NtModerncoreGetNavigationWindowVisual` | 687 | Exported Function
+`NtModerncoreDestroyGDIHwndTarget` | 685 | Exported Function
+`NtModerncoreEnableResizeLayoutSynchronization` | 686 | Exported Function
+`NtUserClipCursor` | 795 | Exported Function
+`NtUserCloseClipboard` | 796 | Exported Function
+`NtUserClearForeground` | 794 | Exported Function
+`NtUserCheckWindowThreadDesktop` | 792 | Exported Function
+`NtUserChildWindowFromPointEx` | 793 | Exported Function
+`NtUserCompositionInputSinkViewInstanceIdFromPoint` | 800 | Exported Function
+`NtUserConfigureActivationObject` | 801 | Exported Function
+`NtUserCompositionInputSinkLuidFromPoint` | 799 | Exported Function
+`NtUserCloseDesktop` | 797 | Exported Function
+`NtUserCloseWindowStation` | 798 | Exported Function
+`NtUserChangeClipboardChain` | 785 | Exported Function
+`NtUserChangeDisplaySettings` | 786 | Exported Function
+`NtUserCanBrokerForceForeground` | 784 | Exported Function
+`NtUserCallOneParam` | 782 | Exported Function
+`NtUserCallTwoParam` | 783 | Exported Function
+`NtUserCheckProcessForClipboardAccess` | 790 | Exported Function
+`NtUserCheckProcessSession` | 791 | Exported Function
+`NtUserCheckMenuItem` | 789 | Exported Function
+`NtUserChangeWindowMessageFilterEx` | 787 | Exported Function
+`NtUserCheckAccessForIntegrityLevel` | 788 | Exported Function
+`NtUserConfirmResizeCommit` | 802 | Exported Function
+`NtUserCreatePalmRejectionDelayZone` | 816 | Exported Function
+`NtUserCreateWindowEx` | 817 | Exported Function
+`NtUserCreateLocalMemHandle` | 815 | Exported Function
+`NtUserCreateEmptyCursorObject` | 813 | Exported Function
+`NtUserCreateInputContext` | 814 | Exported Function
+`NtUserDdeInitialize` | 821 | Exported Function
+`NtUserDeferWindowDpiChanges` | 823 | Exported Function
+`NtUserCtxDisplayIOCtl` | 820 | Exported Function
+`NtUserCreateWindowGroup` | 818 | Exported Function
+`NtUserCreateWindowStation` | 819 | Exported Function
+`NtUserCountClipboardFormats` | 806 | Exported Function
+`NtUserCreateAcceleratorTable` | 807 | Exported Function
+`NtUserCopyAcceleratorTable` | 805 | Exported Function
+`NtUserConsoleControl` | 803 | Exported Function
+`NtUserConvertMemHandle` | 804 | Exported Function
+`NtUserCreateDCompositionHwndTarget` | 811 | Exported Function
+`NtUserCreateDesktopEx` | 812 | Exported Function
+`NtUserCreateCaret` | 810 | Exported Function
+`NtUserCreateActivationGroup` | 808 | Exported Function
+`NtUserCreateActivationObject` | 809 | Exported Function
+`NtUserAddVisualIdentifier` | 754 | Exported Function
+`NtUserAlterWindowStyle` | 755 | Exported Function
+`NtUserAddClipboardFormatListener` | 753 | Exported Function
+`NtUserAcquireInteractiveControlBackgroundAccess` | 751 | Exported Function
+`NtUserActivateKeyboardLayout` | 752 | Exported Function
+`NtUserAutoRotateScreen` | 759 | Exported Function
+`NtUserBeginLayoutUpdate` | 760 | Exported Function
+`NtUserAutoPromoteMouseInPointer` | 758 | Exported Function
+`NtUserAssociateInputContext` | 756 | Exported Function
+`NtUserAttachThreadInput` | 757 | Exported Function
+`NtTokenManagerGetAnalogExclusiveSurfaceUpdates` | 744 | Exported Function
+`NtTokenManagerGetAnalogExclusiveTokenEvent` | 745 | Exported Function
+`NtTokenManagerCreateFlipObjectTokenHandle` | 743 | Exported Function
+`NtTokenManagerCreateCompositionTokenHandle` | 741 | Exported Function
+`NtTokenManagerCreateFlipObjectReturnTokenHandle` | 742 | Exported Function
+`NtUpdateInputSinkTransforms` | 749 | Exported Function
+`NtUserAcquireIAMKey` | 750 | Exported Function
+`NtUnBindCompositionSurface` | 748 | Exported Function
+`NtTokenManagerOpenSectionAndEvents` | 746 | Exported Function
+`NtTokenManagerThread` | 747 | Exported Function
+`NtUserBeginPaint` | 761 | Exported Function
+`NtUserCallHwndParam` | 775 | Exported Function
+`NtUserCallHwndParamLock` | 776 | Exported Function
+`NtUserCallHwndOpt` | 774 | Exported Function
+`NtUserCallHwndLock` | 772 | Exported Function
+`NtUserCallHwndLockSafe` | 773 | Exported Function
+`NtUserCallNextHookEx` | 780 | Exported Function
+`NtUserCallNoParam` | 781 | Exported Function
+`NtUserCallMsgFilter` | 779 | Exported Function
+`NtUserCallHwndParamLockSafe` | 777 | Exported Function
+`NtUserCallHwndSafe` | 778 | Exported Function
+`NtUserBuildHimcList` | 765 | Exported Function
+`NtUserBuildHwndList` | 766 | Exported Function
+`NtUserBroadcastThemeChangeEvent` | 764 | Exported Function
+`NtUserBitBltSysBmp` | 762 | Exported Function
+`NtUserBlockInput` | 763 | Exported Function
+`NtUserCalculatePopupWindowPosition` | 770 | Exported Function
+`NtUserCallHwnd` | 771 | Exported Function
+`NtUserCalcMenuBar` | 769 | Exported Function
+`NtUserBuildNameList` | 767 | Exported Function
+`NtUserBuildPropList` | 768 | Exported Function
+`NtUserSetManipulationInputTarget` | 1207 | Exported Function
+`NtUserSetMenu` | 1208 | Exported Function
+`NtUserSetMagnificationDesktopMagnifierOffsetsDWMUpdated` | 1206 | Exported Function
+`NtUserSetKeyboardState` | 1204 | Exported Function
+`NtUserSetLayeredWindowAttributes` | 1205 | Exported Function
+`NtUserSetMirrorRendering` | 1212 | Exported Function
+`NtUserSetMonitorWorkArea` | 1213 | Exported Function
+`NtUserSetMenuFlagRtoL` | 1211 | Exported Function
+`NtUserSetMenuContextHelpId` | 1209 | Exported Function
+`NtUserSetMenuDefaultItem` | 1210 | Exported Function
+`NtUserSetImeInfoEx` | 1197 | Exported Function
+`NtUserSetImeOwnerWindow` | 1198 | Exported Function
+`NtUserSetImeHotKey` | 1196 | Exported Function
+`NtUserSetFullscreenMagnifierOffsetsDWMUpdated` | 1194 | Exported Function
+`NtUserSetGestureConfig` | 1195 | Exported Function
+`NtUserSetInteractiveCtrlRotationAngle` | 1202 | Exported Function
+`NtUserSetInternalWindowPos` | 1203 | Exported Function
+`NtUserSetInteractiveControlFocus` | 1201 | Exported Function
+`NtUserSetInformationThread` | 1199 | Exported Function
+`NtUserSetInputServiceState` | 1200 | Exported Function
+`NtUserSetMouseInputRateLimitingTimer` | 1214 | Exported Function
+`NtUserSetShellWindowEx` | 1228 | Exported Function
+`NtUserSetSysColors` | 1229 | Exported Function
+`NtUserSetSharedWindowData` | 1227 | Exported Function
+`NtUserSetScrollInfo` | 1225 | Exported Function
+`NtUserSetSensorPresence` | 1226 | Exported Function
+`NtUserSetTargetForResourceBrokering` | 1233 | Exported Function
+`NtUserSetThreadDesktop` | 1234 | Exported Function
+`NtUserSetSystemTimer` | 1232 | Exported Function
+`NtUserSetSystemCursor` | 1230 | Exported Function
+`NtUserSetSystemMenu` | 1231 | Exported Function
+`NtUserSetProcessDpiAwarenessContext` | 1218 | Exported Function
+`NtUserSetProcessInteractionFlags` | 1219 | Exported Function
+`NtUserSetPrecisionTouchPadConfiguration` | 1217 | Exported Function
+`NtUserSetObjectInformation` | 1215 | Exported Function
+`NtUserSetParent` | 1216 | Exported Function
+`NtUserSetProcessWindowStation` | 1223 | Exported Function
+`NtUserSetProp` | 1224 | Exported Function
+`NtUserSetProcessUIAccessZorder` | 1222 | Exported Function
+`NtUserSetProcessMousewheelRoutingMode` | 1220 | Exported Function
+`NtUserSetProcessRestrictionExemption` | 1221 | Exported Function
+`NtUserSetActiveWindow` | 1166 | Exported Function
+`NtUserSetAppImeLevel` | 1167 | Exported Function
+`NtUserSetActiveProcessForMonitor` | 1165 | Exported Function
+`NtUserSendInteractiveControlHapticsReport` | 1163 | Exported Function
+`NtUserSetActivationFilter` | 1164 | Exported Function
+`NtUserSetCalibrationData` | 1171 | Exported Function
+`NtUserSetCapture` | 1172 | Exported Function
+`NtUserSetBrokeredForeground` | 1170 | Exported Function
+`NtUserSetAutoRotation` | 1168 | Exported Function
+`NtUserSetBridgeWindowChild` | 1169 | Exported Function
+`NtUserRestoreWindowDpiChanges` | 1156 | Exported Function
+`NtUserSBGetParms` | 1157 | Exported Function
+`NtUserResolveDesktopForWOW` | 1155 | Exported Function
+`NtUserReportInertia` | 1153 | Exported Function
+`NtUserRequestMoveSizeOperation` | 1154 | Exported Function
+`NtUserSendEventMessage` | 1161 | Exported Function
+`NtUserSendInput` | 1162 | Exported Function
+`NtUserSelectPalette` | 1160 | Exported Function
+`NtUserScrollDC` | 1158 | Exported Function
+`NtUserScrollWindowEx` | 1159 | Exported Function
+`NtUserSetChildWindowNoActivate` | 1173 | Exported Function
+`NtUserSetDisplayAutoRotationPreferences` | 1187 | Exported Function
+`NtUserSetDisplayConfig` | 1188 | Exported Function
+`NtUserSetDialogControlDpiChangeBehavior` | 1186 | Exported Function
+`NtUserSetDesktopColorTransform` | 1184 | Exported Function
+`NtUserSetDesktopVisualInputSink` | 1185 | Exported Function
+`NtUserSetFocus` | 1192 | Exported Function
+`NtUserSetForegroundWindowForApplication` | 1193 | Exported Function
+`NtUserSetFeatureReportResponse` | 1191 | Exported Function
+`NtUserSetDisplayMapping` | 1189 | Exported Function
+`NtUserSetFallbackForeground` | 1190 | Exported Function
+`NtUserSetClipboardViewer` | 1177 | Exported Function
+`NtUserSetCoreWindow` | 1178 | Exported Function
+`NtUserSetClipboardData` | 1176 | Exported Function
+`NtUserSetClassLong` | 1174 | Exported Function
+`NtUserSetClassWord` | 1175 | Exported Function
+`NtUserSetCursorIconData` | 1182 | Exported Function
+`NtUserSetCursorPos` | 1183 | Exported Function
+`NtUserSetCursorContents` | 1181 | Exported Function
+`NtUserSetCoreWindowPartner` | 1179 | Exported Function
+`NtUserSetCursor` | 1180 | Exported Function
+`NtUserUnregisterClass` | 1289 | Exported Function
+`NtUserUnregisterHotKey` | 1290 | Exported Function
+`NtUserUnlockWindowStation` | 1288 | Exported Function
+`NtUserUnhookWinEvent` | 1285 | Exported Function
+`NtUserUnloadKeyboardLayout` | 1287 | Exported Function
+`NtUserUpdateInputContext` | 1294 | Exported Function
+`NtUserUpdateInstance` | 1295 | Exported Function
+`NtUserUpdateDefaultDesktopThumbnail` | 1293 | Exported Function
+`NtUserUnregisterSessionPort` | 1291 | Exported Function
+`NtUserUnregisterUserApiHook` | 1292 | Exported Function
+`NtUserTrackPopupMenuEx` | 1279 | Exported Function
+`NtUserTransformPoint` | 1280 | Exported Function
+`NtUserTrackMouseEvent` | 1278 | Exported Function
+`NtUserThunkedMenuItemInfo` | 1276 | Exported Function
+`NtUserToUnicodeEx` | 1277 | Exported Function
+`NtUserUndelegateInput` | 1284 | Exported Function
+`NtUserUnhookWindowsHookEx` | 1286 | Exported Function
+`NtUserTranslateMessage` | 1283 | Exported Function
+`NtUserTransformRect` | 1281 | Exported Function
+`NtUserTranslateAccelerator` | 1282 | Exported Function
+`NtUserUpdateLayeredWindow` | 1296 | Exported Function
+`NtUserWindowFromPhysicalPoint` | 1311 | Exported Function
+`NtUserWindowFromPoint` | 1312 | Exported Function
+`NtUserWindowFromDC` | 1310 | Exported Function
+`NtUserWaitForRedirectionStartComplete` | 1308 | Exported Function
+`NtUserWaitMessage` | 1309 | Exported Function
+`NtVisualCaptureBits` | 1315 | Exported Function
+`Wow64Transition` | 1 | Exported Function
+`NtValidateCompositionSurfaceHandle` | 1314 | Exported Function
+`NtUserWOWCleanup` | 1304 | Exported Function
+`NtUserYieldTask` | 1313 | Exported Function
+`NtUserUserHandleGrantAccess` | 1300 | Exported Function
+`NtUserValidateRect` | 1301 | Exported Function
+`NtUserUpdateWindowTrackingInfo` | 1299 | Exported Function
+`NtUserUpdatePerUserSystemParameters` | 1297 | Exported Function
+`NtUserUpdateWindowInputSinkHints` | 1298 | Exported Function
+`NtUserWaitForInputIdle` | 1306 | Exported Function
+`NtUserWaitForMsgAndEvent` | 1307 | Exported Function
+`NtUserWaitAvailableMessageEx` | 1305 | Exported Function
+`NtUserValidateTimerCallback` | 1302 | Exported Function
+`NtUserVkKeyScanEx` | 1303 | Exported Function
+`NtUserSetWindowPlacement` | 1249 | Exported Function
+`NtUserSetWindowPos` | 1250 | Exported Function
+`NtUserSetWindowLong` | 1248 | Exported Function
+`NtUserSetWindowFNID` | 1245 | Exported Function
+`NtUserSetWindowGroup` | 1247 | Exported Function
+`NtUserSetWindowsHookEx` | 1257 | Exported Function
+`NtUserSetWindowShowState` | 1253 | Exported Function
+`NtUserSetWindowsHookAW` | 1256 | Exported Function
+`NtUserSetWindowRgn` | 1251 | Exported Function
+`NtUserSetWindowRgnEx` | 1252 | Exported Function
+`NtUserSetTimer` | 1238 | Exported Function
+`NtUserSetWindowArrangement` | 1240 | Exported Function
+`NtUserSetThreadState` | 1237 | Exported Function
+`NtUserSetThreadInputBlocked` | 1235 | Exported Function
+`NtUserSetThreadLayoutHandles` | 1236 | Exported Function
+`NtUserSetWindowDisplayAffinity` | 1244 | Exported Function
+`NtUserSetWindowFeedbackSetting` | 1246 | Exported Function
+`NtUserSetWindowCompositionTransition` | 1243 | Exported Function
+`NtUserSetWindowBand` | 1241 | Exported Function
+`NtUserSetWindowCompositionAttribute` | 1242 | Exported Function
+`NtUserSetWindowStationUser` | 1254 | Exported Function
+`NtUserSoundSentry` | 1269 | Exported Function
+`NtUserStopAndEndInertia` | 1270 | Exported Function
+`NtUserSlicerControl` | 1268 | Exported Function
+`NtUserShutdownReasonDestroy` | 1266 | Exported Function
+`NtUserSignalRedirectionStartComplete` | 1267 | Exported Function
+`NtUserTestForInteractiveUser` | 1274 | Exported Function
+`NtUserThunkedMenuInfo` | 1275 | Exported Function
+`NtUserSystemParametersInfoForDpi` | 1273 | Exported Function
+`NtUserSwitchDesktop` | 1271 | Exported Function
+`NtUserSystemParametersInfo` | 1272 | Exported Function
+`NtUserShowCursor` | 1259 | Exported Function
+`NtUserShowScrollBar` | 1260 | Exported Function
+`NtUserShowCaret` | 1258 | Exported Function
+`NtUserSetWindowWord` | 1255 | Exported Function
+`NtUserSetWinEventHook` | 1239 | Exported Function
+`NtUserShutdownBlockReasonCreate` | 1264 | Exported Function
+`NtUserShutdownBlockReasonQuery` | 1265 | Exported Function
+`NtUserShowWindowAsync` | 1263 | Exported Function
+`NtUserShowSystemCursor` | 1261 | Exported Function
+`NtUserShowWindow` | 1262 | Exported Function
+`NtUserRemoveVisualIdentifier` | 1152 | Exported Function
+`NtUserInjectKeyboardInput` | 1042 | Exported Function
+`NtUserInjectMouseInput` | 1043 | Exported Function
+`NtUserInjectGesture` | 1041 | Exported Function
+`NtUserInjectDeviceInput` | 1039 | Exported Function
+`NtUserInjectGenericHidInput` | 1040 | Exported Function
+`NtUserInternalGetWindowIcon` | 1047 | Exported Function
+`NtUserInternalGetWindowText` | 1048 | Exported Function
+`NtUserInteractiveControlQueryUsage` | 1046 | Exported Function
+`NtUserInjectPointerInput` | 1044 | Exported Function
+`NtUserInjectTouchInput` | 1045 | Exported Function
+`NtUserInitializeClientPfnArrays` | 1033 | Exported Function
+`NtUserInitializeGenericHidInjection` | 1034 | Exported Function
+`NtUserInitialize` | 1032 | Exported Function
+`NtUserImpersonateDdeClientWindow` | 1029 | Exported Function
+`NtUserInheritWindowMonitor` | 1030 | Exported Function
+`NtUserInitializeTouchInjection` | 1038 | Exported Function
+`NtUserInitTask` | 1031 | Exported Function
+`NtUserInitializePointerDeviceInjectionEx` | 1037 | Exported Function
+`NtUserInitializeInputDeviceInjection` | 1035 | Exported Function
+`NtUserInitializePointerDeviceInjection` | 1036 | Exported Function
+`NtUserInternalToUnicode` | 1049 | Exported Function
+`NtUserLayoutCompleted` | 1063 | Exported Function
+`NtUserLinkDpiCursor` | 1064 | Exported Function
+`NtUserKillTimer` | 1062 | Exported Function
+`NtUserIsWindowBroadcastingDpiToChildren` | 1060 | Exported Function
+`NtUserIsWindowGDIScaledDpiMessageEnabled` | 1061 | Exported Function
+`NtUserLockWindowUpdate` | 1068 | Exported Function
+`NtUserLockWorkStation` | 1069 | Exported Function
+`NtUserLockWindowStation` | 1067 | Exported Function
+`NtUserLoadKeyboardLayoutEx` | 1065 | Exported Function
+`NtUserLockCursor` | 1066 | Exported Function
+`NtUserIsClipboardFormatAvailable` | 1053 | Exported Function
+`NtUserIsMouseInPointerEnabled` | 1054 | Exported Function
+`NtUserIsChildWindowDpiMessageEnabled` | 1052 | Exported Function
+`NtUserInvalidateRect` | 1050 | Exported Function
+`NtUserInvalidateRgn` | 1051 | Exported Function
+`NtUserIsTopLevelWindow` | 1058 | Exported Function
+`NtUserIsTouchWindow` | 1059 | Exported Function
+`NtUserIsResizeLayoutSynchronizationEnabled` | 1057 | Exported Function
+`NtUserIsMouseInputEnabled` | 1055 | Exported Function
+`NtUserIsNonClientDpiScalingEnabled` | 1056 | Exported Function
+`NtUserGetTopLevelWindow` | 1001 | Exported Function
+`NtUserGetTouchInputInfo` | 1002 | Exported Function
+`NtUserGetTitleBarInfo` | 1000 | Exported Function
+`NtUserGetThreadDesktop` | 998 | Exported Function
+`NtUserGetThreadState` | 999 | Exported Function
+`NtUserGetUpdateRect` | 1005 | Exported Function
+`NtUserGetUpdateRgn` | 1006 | Exported Function
+`NtUserGetUpdatedClipboardFormats` | 1007 | Exported Function
+`NtUserGetTouchValidationStatus` | 1003 | Exported Function
+`NtUserGetUniformSpaceMapping` | 1004 | Exported Function
+`NtUserGetRegisteredRawInputDevices` | 991 | Exported Function
+`NtUserGetRequiredCursorSizes` | 992 | Exported Function
+`NtUserGetRawPointerDeviceData` | 990 | Exported Function
+`NtUserGetRawInputDeviceInfo` | 988 | Exported Function
+`NtUserGetRawInputDeviceList` | 989 | Exported Function
+`NtUserGetSystemDpiForProcess` | 996 | Exported Function
+`NtUserGetSystemMenu` | 997 | Exported Function
+`NtUserGetSharedWindowData` | 995 | Exported Function
+`NtUserGetResizeDCompositionSynchronizationObject` | 993 | Exported Function
+`NtUserGetScrollBarInfo` | 994 | Exported Function
+`NtUserGetWindowBand` | 1009 | Exported Function
+`NtUserHardErrorControl` | 1022 | Exported Function
+`NtUserHideCaret` | 1023 | Exported Function
+`NtUserHandleDelegatedInput` | 1021 | Exported Function
+`NtUserGetWOWClass` | 1008 | Exported Function
+`NtUserGhostWindowFromHungWindow` | 1020 | Exported Function
+`NtUserHwndQueryRedirectionInfo` | 1027 | Exported Function
+`NtUserHwndSetRedirectionInfo` | 1028 | Exported Function
+`NtUserHungWindowFromGhostWindow` | 1026 | Exported Function
+`NtUserHidePointerContactVisualization` | 1024 | Exported Function
+`NtUserHiliteMenuItem` | 1025 | Exported Function
+`NtUserGetWindowDisplayAffinity` | 1013 | Exported Function
+`NtUserGetWindowFeedbackSetting` | 1014 | Exported Function
+`NtUserGetWindowDC` | 1012 | Exported Function
+`NtUserGetWindowCompositionAttribute` | 1010 | Exported Function
+`NtUserGetWindowCompositionInfo` | 1011 | Exported Function
+`NtUserGetWindowProcessHandle` | 1018 | Exported Function
+`NtUserGetWindowRgnEx` | 1019 | Exported Function
+`NtUserGetWindowPlacement` | 1017 | Exported Function
+`NtUserGetWindowGroupId` | 1015 | Exported Function
+`NtUserGetWindowMinimizeRect` | 1016 | Exported Function
+`NtUserRegisterBSDRWindow` | 1124 | Exported Function
+`NtUserRegisterClassExWOW` | 1125 | Exported Function
+`NtUserRedrawWindow` | 1123 | Exported Function
+`NtUserRealInternalGetMessage` | 1121 | Exported Function
+`NtUserRealWaitMessageEx` | 1122 | Exported Function
+`NtUserRegisterHotKey` | 1129 | Exported Function
+`NtUserRegisterManipulationThread` | 1130 | Exported Function
+`NtUserRegisterErrorReportingDialog` | 1128 | Exported Function
+`NtUserRegisterDManipHook` | 1126 | Exported Function
+`NtUserRegisterEdgy` | 1127 | Exported Function
+`NtUserQueryBSDRWindow` | 1114 | Exported Function
+`NtUserQueryDisplayConfig` | 1115 | Exported Function
+`NtUserQueryActivationObject` | 1113 | Exported Function
+`NtUserPromoteMouseInPointer` | 1111 | Exported Function
+`NtUserPromotePointer` | 1112 | Exported Function
+`NtUserQueryWindow` | 1119 | Exported Function
+`NtUserRealChildWindowFromPoint` | 1120 | Exported Function
+`NtUserQuerySendMessage` | 1118 | Exported Function
+`NtUserQueryInformationThread` | 1116 | Exported Function
+`NtUserQueryInputContext` | 1117 | Exported Function
+`NtUserRegisterPointerDeviceNotifications` | 1131 | Exported Function
+`NtUserRemoteRedrawRectangle` | 1145 | Exported Function
+`NtUserRemoteRedrawScreen` | 1146 | Exported Function
+`NtUserRemoteConnect` | 1144 | Exported Function
+`NtUserReleaseDC` | 1142 | Exported Function
+`NtUserReleaseDwmHitTestWaiters` | 1143 | Exported Function
+`NtUserRemoveMenu` | 1150 | Exported Function
+`NtUserRemoveProp` | 1151 | Exported Function
+`NtUserRemoveInjectionDevice` | 1149 | Exported Function
+`NtUserRemoteStopScreenUpdates` | 1147 | Exported Function
+`NtUserRemoveClipboardFormatListener` | 1148 | Exported Function
+`NtUserRegisterSessionPort` | 1135 | Exported Function
+`NtUserRegisterShellPTPListener` | 1136 | Exported Function
+`NtUserRegisterServicesProcess` | 1134 | Exported Function
+`NtUserRegisterPointerInputTarget` | 1132 | Exported Function
+`NtUserRegisterRawInputDevices` | 1133 | Exported Function
+`NtUserRegisterUserApiHook` | 1140 | Exported Function
+`NtUserRegisterWindowMessage` | 1141 | Exported Function
+`NtUserRegisterTouchPadCapable` | 1139 | Exported Function
+`NtUserRegisterTasklist` | 1137 | Exported Function
+`NtUserRegisterTouchHitTestingWindow` | 1138 | Exported Function
+`NtUserMNDragLeave` | 1073 | Exported Function
+`NtUserMNDragOver` | 1074 | Exported Function
+`NtUserMinMaximize` | 1084 | Exported Function
+`NtUserMessageCall` | 1082 | Exported Function
+`NtUserMinInitialize` | 1083 | Exported Function
+`NtUserMsgWaitForMultipleObjectsEx` | 1088 | Exported Function
+`NtUserNavigateFocus` | 1089 | Exported Function
+`NtUserMoveWindow` | 1087 | Exported Function
+`NtUserModifyUserStartupInfoFlags` | 1085 | Exported Function
+`NtUserModifyWindowTouchCapability` | 1086 | Exported Function
+`NtUserMagControl` | 1075 | Exported Function
+`NtUserMagGetContextInformation` | 1076 | Exported Function
+`NtUserLogicalToPhysicalPoint` | 1072 | Exported Function
+`NtUserLogicalToPerMonitorDPIPhysicalPoint` | 1070 | Exported Function
+`NtUserLogicalToPhysicalDpiPointForWindow` | 1071 | Exported Function
+`NtUserMarkWindowForRawMouse` | 1080 | Exported Function
+`NtUserMenuItemFromPoint` | 1081 | Exported Function
+`NtUserMapVirtualKeyEx` | 1079 | Exported Function
+`NtUserMagSetContextInformation` | 1077 | Exported Function
+`NtUserMapPointsByVisualIdentifier` | 1078 | Exported Function
+`NtUserNotifyIMEStatus` | 1090 | Exported Function
+`NtUserPhysicalToLogicalPoint` | 1104 | Exported Function
+`NtUserPostKeyboardInputMessage` | 1105 | Exported Function
+`NtUserPhysicalToLogicalDpiPointForWindow` | 1103 | Exported Function
+`NtUserPeekMessage` | 1101 | Exported Function
+`NtUserPerMonitorDPIPhysicalToLogicalPoint` | 1102 | Exported Function
+`NtUserProcessConnect` | 1109 | Exported Function
+`NtUserProcessInkFeedbackCommand` | 1110 | Exported Function
+`NtUserPrintWindow` | 1108 | Exported Function
+`NtUserPostMessage` | 1106 | Exported Function
+`NtUserPostThreadMessage` | 1107 | Exported Function
+`NtUserOpenDesktop` | 1094 | Exported Function
+`NtUserOpenInputDesktop` | 1095 | Exported Function
+`NtUserOpenClipboard` | 1093 | Exported Function
+`NtUserNotifyProcessCreate` | 1091 | Exported Function
+`NtUserNotifyWinEvent` | 1092 | Exported Function
+`NtUserPaintMenuBar` | 1099 | Exported Function
+`NtUserPaintMonitor` | 1100 | Exported Function
+`NtUserPaintDesktop` | 1098 | Exported Function
+`NtUserOpenThreadDesktop` | 1096 | Exported Function
+`NtUserOpenWindowStation` | 1097 | Exported Function
+`NtGdiDdDDIDestroyProtectedSession` | 220 | Exported Function
+`NtGdiDdDDIDestroySynchronizationObject` | 221 | Exported Function
+`NtGdiDdDDIDestroyPagingQueue` | 219 | Exported Function
+`NtGdiDdDDIDestroyOutputDupl` | 217 | Exported Function
+`NtGdiDdDDIDestroyOverlay` | 218 | Exported Function
+`NtGdiDdDDIEnumAdapters` | 226 | Exported Function
+`NtGdiDdDDIEnumAdapters2` | 225 | Exported Function
+`NtGdiDdDDIDispMgrTargetOperation` | 224 | Exported Function
+`NtGdiDdDDIDispMgrCreate` | 222 | Exported Function
+`NtGdiDdDDIDispMgrSourceOperation` | 223 | Exported Function
+`NtGdiDdDDIDestroyAllocation2` | 209 | Exported Function
+`NtGdiDdDDIDestroyContext` | 211 | Exported Function
+`NtGdiDdDDIDestroyAllocation` | 210 | Exported Function
+`NtGdiDdDDICreateSynchronizationObject` | 207 | Exported Function
+`NtGdiDdDDIDDisplayEnum` | 208 | Exported Function
+`NtGdiDdDDIDestroyHwQueue` | 215 | Exported Function
+`NtGdiDdDDIDestroyKeyedMutex` | 216 | Exported Function
+`NtGdiDdDDIDestroyHwContext` | 214 | Exported Function
+`NtGdiDdDDIDestroyDCFromMemory` | 212 | Exported Function
+`NtGdiDdDDIDestroyDevice` | 213 | Exported Function
+`NtGdiDdDDIEscape` | 227 | Exported Function
+`NtGdiDdDDIGetMultiPlaneOverlayCaps` | 241 | Exported Function
+`NtGdiDdDDIGetMultisampleMethodList` | 242 | Exported Function
+`NtGdiDdDDIGetMemoryBudgetTarget` | 240 | Exported Function
+`NtGdiDdDDIGetDisplayModeList` | 239 | Exported Function
+`NtGdiDdDDIGetDWMVerticalBlankEvent` | 237 | Exported Function
+`NtGdiDdDDIGetPresentQueueEvent` | 246 | Exported Function
+`NtGdiDdDDIGetProcessDeviceRemovalSupport` | 247 | Exported Function
+`NtGdiDdDDIGetPresentHistory` | 245 | Exported Function
+`NtGdiDdDDIGetOverlayState` | 243 | Exported Function
+`NtGdiDdDDIGetPostCompositionCaps` | 244 | Exported Function
+`NtGdiDdDDIFlushHeapTransitions` | 231 | Exported Function
+`NtGdiDdDDIFreeGpuVirtualAddress` | 232 | Exported Function
+`NtGdiDdDDIFlipOverlay` | 230 | Exported Function
+`NtGdiDdDDIEvict` | 228 | Exported Function
+`NtGdiDdDDIExtractBundleObject` | 229 | Exported Function
+`NtGdiDdDDIGetContextSchedulingPriority` | 236 | Exported Function
+`NtGdiDdDDIGetDeviceState` | 238 | Exported Function
+`NtGdiDdDDIGetContextInProcessSchedulingPriority` | 235 | Exported Function
+`NtGdiDdDDIGetAllocationPriority` | 233 | Exported Function
+`NtGdiDdDDIGetCachedHybridQueryValue` | 234 | Exported Function
+`NtGdiDdDDIAdjustFullscreenGamma` | 179 | Exported Function
+`NtGdiDdDDICacheHybridQueryValue` | 180 | Exported Function
+`NtGdiDdDDIAddSurfaceToSwapChain` | 178 | Exported Function
+`NtGdiDdDDIAcquireKeyedMutex2` | 175 | Exported Function
+`NtGdiDdDDIAcquireSwapChain` | 177 | Exported Function
+`NtGdiDdDDICheckMultiPlaneOverlaySupport` | 186 | Exported Function
+`NtGdiDdDDICheckMultiPlaneOverlaySupport2` | 184 | Exported Function
+`NtGdiDdDDICheckMonitorPowerState` | 183 | Exported Function
+`NtGdiDdDDIChangeVideoMemoryReservation` | 181 | Exported Function
+`NtGdiDdDDICheckExclusiveOwnership` | 182 | Exported Function
+`NtGdiDDCCIGetTimingReport` | 169 | Exported Function
+`NtGdiDDCCIGetVCPFeature` | 170 | Exported Function
+`NtGdiDDCCIGetCapabilitiesStringLength` | 168 | Exported Function
+`NtGdiCreateSolidBrush` | 166 | Exported Function
+`NtGdiDDCCIGetCapabilitiesString` | 167 | Exported Function
+`NtGdiDdDDIAbandonSwapChain` | 174 | Exported Function
+`NtGdiDdDDIAcquireKeyedMutex` | 176 | Exported Function
+`NtGdiDdCreateFullscreenSprite` | 173 | Exported Function
+`NtGdiDDCCISaveCurrentSettings` | 171 | Exported Function
+`NtGdiDDCCISetVCPFeature` | 172 | Exported Function
+`NtGdiDdDDICheckMultiPlaneOverlaySupport3` | 185 | Exported Function
+`NtGdiDdDDICreateKeyedMutex` | 201 | Exported Function
+`NtGdiDdDDICreateKeyedMutex2` | 200 | Exported Function
+`NtGdiDdDDICreateHwQueue` | 199 | Exported Function
+`NtGdiDdDDICreateDevice` | 197 | Exported Function
+`NtGdiDdDDICreateHwContext` | 198 | Exported Function
+`NtGdiDdDDICreateProtectedSession` | 205 | Exported Function
+`NtGdiDdDDICreateSwapChain` | 206 | Exported Function
+`NtGdiDdDDICreatePagingQueue` | 204 | Exported Function
+`NtGdiDdDDICreateOutputDupl` | 202 | Exported Function
+`NtGdiDdDDICreateOverlay` | 203 | Exported Function
+`NtGdiDdDDICloseAdapter` | 190 | Exported Function
+`NtGdiDdDDIConfigureSharedResource` | 191 | Exported Function
+`NtGdiDdDDICheckVidPnExclusiveOwnership` | 189 | Exported Function
+`NtGdiDdDDICheckOcclusion` | 187 | Exported Function
+`NtGdiDdDDICheckSharedResourceAccess` | 188 | Exported Function
+`NtGdiDdDDICreateContextVirtual` | 195 | Exported Function
+`NtGdiDdDDICreateDCFromMemory` | 196 | Exported Function
+`NtGdiDdDDICreateContext` | 194 | Exported Function
+`NtGdiDdDDICreateAllocation` | 192 | Exported Function
+`NtGdiDdDDICreateBundleObject` | 193 | Exported Function
+`NtGdiDdDDIQueryProcessOfferInfo` | 302 | Exported Function
+`NtGdiDdDDIQueryProtectedSessionInfoFromNtHandle` | 303 | Exported Function
+`NtGdiDdDDIQueryFSEBlock` | 301 | Exported Function
+`NtGdiDdDDIQueryAllocationResidency` | 299 | Exported Function
+`NtGdiDdDDIQueryClockCalibration` | 300 | Exported Function
+`NtGdiDdDDIQueryResourceInfoFromNtHandle` | 307 | Exported Function
+`NtGdiDdDDIQueryStatistics` | 308 | Exported Function
+`NtGdiDdDDIQueryResourceInfo` | 306 | Exported Function
+`NtGdiDdDDIQueryProtectedSessionStatus` | 304 | Exported Function
+`NtGdiDdDDIQueryRemoteVidPnSourceFromGdiDisplayName` | 305 | Exported Function
+`NtGdiDdDDIPollDisplayChildren` | 292 | Exported Function
+`NtGdiDdDDIPresent` | 293 | Exported Function
+`NtGdiDdDDIOutputDuplReleaseFrame` | 291 | Exported Function
+`NtGdiDdDDIOutputDuplGetPointerShapeData` | 289 | Exported Function
+`NtGdiDdDDIOutputDuplPresent` | 290 | Exported Function
+`NtGdiDdDDIPresentRedirected` | 297 | Exported Function
+`NtGdiDdDDIQueryAdapterInfo` | 298 | Exported Function
+`NtGdiDdDDIPresentMultiPlaneOverlay3` | 295 | Exported Function
+`NtGdiDdDDIPresentMultiPlaneOverlay` | 296 | Exported Function
+`NtGdiDdDDIPresentMultiPlaneOverlay2` | 294 | Exported Function
+`NtGdiDdDDIQueryVideoMemoryInfo` | 310 | Exported Function
+`NtGdiDdDDISetDisplayMode` | 323 | Exported Function
+`NtGdiDdDDISetDodIndirectSwapchain` | 324 | Exported Function
+`NtGdiDdDDISetContextSchedulingPriority` | 322 | Exported Function
+`NtGdiDdDDISetAllocationPriority` | 320 | Exported Function
+`NtGdiDdDDISetContextInProcessSchedulingPriority` | 321 | Exported Function
+`NtGdiDdDDISetMemoryBudgetTarget` | 328 | Exported Function
+`NtGdiDdDDISetMonitorColorSpaceTransform` | 329 | Exported Function
+`NtGdiDdDDISetHwProtectionTeardownRecovery` | 327 | Exported Function
+`NtGdiDdDDISetFSEBlock` | 325 | Exported Function
+`NtGdiDdDDISetGammaRamp` | 326 | Exported Function
+`NtGdiDdDDIReleaseKeyedMutex` | 314 | Exported Function
+`NtGdiDdDDIReleaseKeyedMutex2` | 313 | Exported Function
+`NtGdiDdDDIReclaimAllocations2` | 311 | Exported Function
+`NtGdiDdDDIQueryVidPnExclusiveOwnership` | 309 | Exported Function
+`NtGdiDdDDIReclaimAllocations` | 312 | Exported Function
+`NtGdiDdDDIRender` | 318 | Exported Function
+`NtGdiDdDDIReserveGpuVirtualAddress` | 319 | Exported Function
+`NtGdiDdDDIRemoveSurfaceFromSwapChain` | 317 | Exported Function
+`NtGdiDdDDIReleaseProcessVidPnSourceOwners` | 315 | Exported Function
+`NtGdiDdDDIReleaseSwapChain` | 316 | Exported Function
+`NtGdiDdDDILock2` | 260 | Exported Function
+`NtGdiDdDDIMakeResident` | 262 | Exported Function
+`NtGdiDdDDILock` | 261 | Exported Function
+`NtGdiDdDDIInvalidateActiveVidPn` | 258 | Exported Function
+`NtGdiDdDDIInvalidateCache` | 259 | Exported Function
+`NtGdiDdDDINetDispQueryMiracastDisplayDeviceStatus` | 266 | Exported Function
+`NtGdiDdDDINetDispQueryMiracastDisplayDeviceSupport` | 267 | Exported Function
+`NtGdiDdDDINetDispGetNextChunkInfo` | 265 | Exported Function
+`NtGdiDdDDIMapGpuVirtualAddress` | 263 | Exported Function
+`NtGdiDdDDIMarkDeviceAsError` | 264 | Exported Function
+`NtGdiDdDDIGetRuntimeData` | 251 | Exported Function
+`NtGdiDdDDIGetScanLine` | 252 | Exported Function
+`NtGdiDdDDIGetResourcePresentPrivateDriverData` | 250 | Exported Function
+`NtGdiDdDDIGetProcessSchedulingPriorityBand` | 248 | Exported Function
+`NtGdiDdDDIGetProcessSchedulingPriorityClass` | 249 | Exported Function
+`NtGdiDdDDIGetSharedResourceAdapterLuidFlipManager` | 256 | Exported Function
+`NtGdiDdDDIGetYieldPercentage` | 257 | Exported Function
+`NtGdiDdDDIGetSharedResourceAdapterLuid` | 255 | Exported Function
+`NtGdiDdDDIGetSetSwapChainMetadata` | 253 | Exported Function
+`NtGdiDdDDIGetSharedPrimaryHandle` | 254 | Exported Function
+`NtGdiDdDDINetDispStartMiracastDisplayDevice` | 268 | Exported Function
+`NtGdiDdDDIOpenSwapChain` | 282 | Exported Function
+`NtGdiDdDDIOpenSynchronizationObject` | 286 | Exported Function
+`NtGdiDdDDIOpenResourceFromNtHandle` | 281 | Exported Function
+`NtGdiDdDDIOpenProtectedSessionFromNtHandle` | 279 | Exported Function
+`NtGdiDdDDIOpenResource` | 280 | Exported Function
+`NtGdiDdDDIOutputDuplGetFrameInfo` | 287 | Exported Function
+`NtGdiDdDDIOutputDuplGetMetaData` | 288 | Exported Function
+`NtGdiDdDDIOpenSyncObjectNtHandleFromName` | 285 | Exported Function
+`NtGdiDdDDIOpenSyncObjectFromNtHandle` | 284 | Exported Function
+`NtGdiDdDDIOpenSyncObjectFromNtHandle2` | 283 | Exported Function
+`NtGdiDdDDIOpenAdapterFromHdc` | 272 | Exported Function
+`NtGdiDdDDIOpenAdapterFromLuid` | 273 | Exported Function
+`NtGdiDdDDIOpenAdapterFromDeviceName` | 271 | Exported Function
+`NtGdiDdDDINetDispStopMiracastDisplayDevice` | 269 | Exported Function
+`NtGdiDdDDIOfferAllocations` | 270 | Exported Function
+`NtGdiDdDDIOpenKeyedMutexFromNtHandle` | 277 | Exported Function
+`NtGdiDdDDIOpenNtHandleFromName` | 278 | Exported Function
+`NtGdiDdDDIOpenKeyedMutex2` | 275 | Exported Function
+`NtGdiDdDDIOpenBundleObjectNtHandleFromName` | 274 | Exported Function
+`NtGdiDdDDIOpenKeyedMutex` | 276 | Exported Function
+`NtGdiCreateSessionMappedDIBSection` | 165 | Exported Function
+`NtDCompositionTelemetryAnimationScenarioReference` | 55 | Exported Function
+`NtDCompositionTelemetryAnimationScenarioUnreference` | 56 | Exported Function
+`NtDCompositionTelemetryAnimationScenarioBegin` | 54 | Exported Function
+`NtDCompositionSuspendAnimations` | 52 | Exported Function
+`NtDCompositionSynchronize` | 53 | Exported Function
+`NtDCompositionTelemetryTouchInteractionUpdate` | 60 | Exported Function
+`NtDCompositionUpdatePointerCapture` | 61 | Exported Function
+`NtDCompositionTelemetryTouchInteractionEnd` | 59 | Exported Function
+`NtDCompositionTelemetrySetApplicationId` | 57 | Exported Function
+`NtDCompositionTelemetryTouchInteractionBegin` | 58 | Exported Function
+`NtDCompositionRetireFrame` | 45 | Exported Function
+`NtDCompositionSetChannelCommitCompletionEvent` | 46 | Exported Function
+`NtDCompositionRemoveCrossDeviceVisualChild` | 44 | Exported Function
+`NtDCompositionRegisterVirtualDesktopVisual` | 42 | Exported Function
+`NtDCompositionReleaseAllResources` | 43 | Exported Function
+`NtDCompositionSetMaterialProperty` | 50 | Exported Function
+`NtDCompositionSubmitDWMBatch` | 51 | Exported Function
+`NtDCompositionSetDebugCounter` | 49 | Exported Function
+`NtDCompositionSetChannelConnectionId` | 47 | Exported Function
+`NtDCompositionSetChildRootVisual` | 48 | Exported Function
+`NtDCompositionWaitForChannel` | 62 | Exported Function
+`NtDxgkRegisterVailProcess` | 76 | Exported Function
+`NtDxgkResetTrackedWorkloadStatistics` | 77 | Exported Function
+`NtDxgkPinResources` | 75 | Exported Function
+`NtDxgkGetTrackedWorkloadStatistics` | 73 | Exported Function
+`NtDxgkOutputDuplPresentToHwQueue` | 74 | Exported Function
+`NtDxgkUpdateTrackedWorkload` | 81 | Exported Function
+`NtDxgkVailConnect` | 82 | Exported Function
+`NtDxgkUnpinResources` | 80 | Exported Function
+`NtDxgkSubmitPresentBltToHwQueue` | 78 | Exported Function
+`NtDxgkSubmitPresentToHwQueue` | 79 | Exported Function
+`NtDxgkDestroyTrackedWorkload` | 66 | Exported Function
+`NtDxgkDisplayPortOperation` | 68 | Exported Function
+`NtDxgkCreateTrackedWorkload` | 65 | Exported Function
+`NtDesktopCaptureBits` | 63 | Exported Function
+`NtDuplicateCompositionInputSink` | 64 | Exported Function
+`NtDxgkGetAvailableTrackedWorkloadIndex` | 71 | Exported Function
+`NtDxgkGetProcessList` | 72 | Exported Function
+`NtDxgkEnumAdapters3` | 70 | Exported Function
+`NtDxgkDispMgrOperation` | 67 | Exported Function
+`NtDxgkDuplicateHandle` | 69 | Exported Function
+`NtDCompositionBeginFrame` | 14 | Exported Function
+`NtDCompositionCommitChannel` | 15 | Exported Function
+`NtDCompositionAddCrossDeviceVisualChild` | 13 | Exported Function
+`NtCreateCompositionSurfaceHandle` | 11 | Exported Function
+`NtCreateImplicitCompositionInputSink` | 12 | Exported Function
+`NtDCompositionCreateAndBindSharedSection` | 19 | Exported Function
+`NtDCompositionCreateChannel` | 20 | Exported Function
+`NtDCompositionConnectPipe` | 18 | Exported Function
+`NtDCompositionCommitSynchronizationObject` | 16 | Exported Function
+`NtDCompositionConfirmFrame` | 17 | Exported Function
+`NtCompositionInputThread` | 4 | Exported Function
+`NtCompositionSetDropTarget` | 5 | Exported Function
+`NtCloseCompositionInputSink` | 3 | Exported Function
+`gDispatchTableValues` | 1316 | Exported Function
+`NtBindCompositionSurface` | 2 | Exported Function
+`NtConfigureInputSpace` | 9 | Exported Function
+`NtCreateCompositionInputSink` | 10 | Exported Function
+`NtCompositorUpdateLastInputTime` | 8 | Exported Function
+`NtCompositorNotifyExitWindows` | 6 | Exported Function
+`NtCompositorNotifyForegroundChanged` | 7 | Exported Function
+`NtDCompositionCreateConnection` | 21 | Exported Function
+`NtDCompositionGetFrameLegacyTokens` | 35 | Exported Function
+`NtDCompositionGetFrameStatistics` | 36 | Exported Function
+`NtDCompositionGetDeletedResources` | 34 | Exported Function
+`NtDCompositionGetChannels` | 32 | Exported Function
+`NtDCompositionGetConnectionBatch` | 33 | Exported Function
+`NtDCompositionReferenceSharedResourceOnDwmChannel` | 40 | Exported Function
+`NtDCompositionRegisterThumbnailVisual` | 41 | Exported Function
+`NtDCompositionProcessChannelBatchBuffer` | 39 | Exported Function
+`NtDCompositionGetFrameSurfaceUpdates` | 37 | Exported Function
+`NtDCompositionGetMaterialProperty` | 38 | Exported Function
+`NtDCompositionDestroyChannel` | 25 | Exported Function
+`NtDCompositionDestroyConnection` | 26 | Exported Function
+`NtDCompositionCreateSynchronizationObject` | 24 | Exported Function
+`NtDCompositionCreateDwmChannel` | 22 | Exported Function
+`NtDCompositionCreateSharedResourceHandle` | 23 | Exported Function
+`NtDCompositionEnableMMCSS` | 30 | Exported Function
+`NtDCompositionGetBatchId` | 31 | Exported Function
+`NtDCompositionDuplicateSwapchainHandleToDwm` | 29 | Exported Function
+`NtDCompositionDiscardFrame` | 27 | Exported Function
+`NtDCompositionDuplicateHandleToProcess` | 28 | Exported Function
+`NtGdiCombineRgn` | 137 | Exported Function
+`NtGdiCombineTransform` | 138 | Exported Function
+`NtGdiColorCorrectPalette` | 136 | Exported Function
+`NtGdiCLIPOBJ_ppoGetPath` | 129 | Exported Function
+`NtGdiCloseFigure` | 135 | Exported Function
+`NtGdiCreateBitmap` | 142 | Exported Function
+`NtGdiCreateBitmapFromDxSurface` | 144 | Exported Function
+`NtGdiConvertMetafileRect` | 141 | Exported Function
+`NtGdiComputeXformCoefficients` | 139 | Exported Function
+`NtGdiConfigureOPMProtectedOutput` | 140 | Exported Function
+`NtGdiCancelDC` | 130 | Exported Function
+`NtGdiChangeGhostFont` | 131 | Exported Function
+`NtGdiBRUSHOBJ_ulGetBrushColor` | 123 | Exported Function
+`NtGdiBRUSHOBJ_pvAllocRbrush` | 121 | Exported Function
+`NtGdiBRUSHOBJ_pvGetRbrush` | 122 | Exported Function
+`NtGdiCLIPOBJ_bEnum` | 127 | Exported Function
+`NtGdiCLIPOBJ_cEnumStart` | 128 | Exported Function
+`NtGdiClearBrushAttributes` | 134 | Exported Function
+`NtGdiCheckBitmapBits` | 132 | Exported Function
+`NtGdiClearBitmapAttributes` | 133 | Exported Function
+`NtGdiCreateBitmapFromDxSurface2` | 143 | Exported Function
+`NtGdiCreateOPMProtectedOutputs` | 158 | Exported Function
+`NtGdiCreatePaletteInternal` | 159 | Exported Function
+`NtGdiCreateOPMProtectedOutput` | 157 | Exported Function
+`NtGdiCreateHatchBrushInternal` | 155 | Exported Function
+`NtGdiCreateMetafileDC` | 156 | Exported Function
+`NtGdiCreateRoundRectRgn` | 163 | Exported Function
+`NtGdiCreateServerMetaFile` | 164 | Exported Function
+`NtGdiCreateRectRgn` | 162 | Exported Function
+`NtGdiCreatePatternBrushInternal` | 160 | Exported Function
+`NtGdiCreatePen` | 161 | Exported Function
+`NtGdiCreateCompatibleBitmap` | 148 | Exported Function
+`NtGdiCreateCompatibleDC` | 149 | Exported Function
+`NtGdiCreateColorTransform` | 147 | Exported Function
+`NtGdiCreateClientObj` | 145 | Exported Function
+`NtGdiCreateColorSpace` | 146 | Exported Function
+`NtGdiCreateEllipticRgn` | 153 | Exported Function
+`NtGdiCreateHalftonePalette` | 154 | Exported Function
+`NtGdiCreateDIBSection` | 151 | Exported Function
+`NtGdiCreateDIBBrush` | 150 | Exported Function
+`NtGdiCreateDIBitmapInternal` | 152 | Exported Function
+`NtFlipObjectEnablePresentStatisticsType` | 96 | Exported Function
+`NtFlipObjectOpen` | 97 | Exported Function
+`NtFlipObjectDisconnectEndpoint` | 95 | Exported Function
+`NtFlipObjectConsumerQueryBufferInfo` | 93 | Exported Function
+`NtFlipObjectCreate` | 94 | Exported Function
+`NtFlipObjectQueryNextMessageToProducer` | 101 | Exported Function
+`NtFlipObjectReadNextMessageToProducer` | 102 | Exported Function
+`NtFlipObjectQueryEndpointConnected` | 100 | Exported Function
+`NtFlipObjectPresentCancel` | 98 | Exported Function
+`NtFlipObjectQueryBufferAvailableEvent` | 99 | Exported Function
+`NtFlipObjectAddContent` | 86 | Exported Function
+`NtFlipObjectAddPoolBuffer` | 87 | Exported Function
+`NtEnableOneCoreTransformMode` | 85 | Exported Function
+`NtDxgkVailDisconnect` | 83 | Exported Function
+`NtDxgkVailPromoteCompositionSurface` | 84 | Exported Function
+`NtFlipObjectConsumerEndProcessPresent` | 91 | Exported Function
+`NtFlipObjectConsumerPostMessage` | 92 | Exported Function
+`NtFlipObjectConsumerBeginProcessPresent` | 90 | Exported Function
+`NtFlipObjectConsumerAcquirePresent` | 88 | Exported Function
+`NtFlipObjectConsumerAdjustUsageReference` | 89 | Exported Function
+`NtFlipObjectRemoveContent` | 103 | Exported Function
+`NtGdiAnyLinkedFonts` | 117 | Exported Function
+`NtGdiArcInternal` | 118 | Exported Function
+`NtGdiAngleArc` | 116 | Exported Function
+`NtGdiAddRemoteMMInstanceToDC` | 114 | Exported Function
+`NtGdiAlphaBlend` | 115 | Exported Function
+`NtGdiBRUSHOBJ_DeleteRbrush` | 119 | Exported Function
+`NtGdiBRUSHOBJ_hGetColorTransform` | 120 | Exported Function
+`NtGdiBitBlt` | 126 | Exported Function
+`NtGdiBeginGdiRendering` | 124 | Exported Function
+`NtGdiBeginPath` | 125 | Exported Function
+`NtGdiAbortDoc` | 107 | Exported Function
+`NtGdiAbortPath` | 108 | Exported Function
+`NtFlipObjectSetMaximumBackchannelQueueDepth` | 106 | Exported Function
+`NtFlipObjectRemovePoolBuffer` | 104 | Exported Function
+`NtFlipObjectSetContent` | 105 | Exported Function
+`NtGdiAddInitialFonts` | 112 | Exported Function
+`NtGdiAddRemoteFontToDC` | 113 | Exported Function
+`NtGdiAddFontResourceW` | 111 | Exported Function
+`NtGdiAddEmbFontToDC` | 109 | Exported Function
+`NtGdiAddFontMemResourceEx` | 110 | Exported Function
+`NtGdiOffsetRgn` | 549 | Exported Function
+`NtGdiOpenDCW` | 550 | Exported Function
+`NtGdiOffsetClipRgn` | 548 | Exported Function
+`NtGdiMonoBitmap` | 546 | Exported Function
+`NtGdiMoveTo` | 547 | Exported Function
+`NtGdiPATHOBJ_vEnumStart` | 553 | Exported Function
+`NtGdiPATHOBJ_vEnumStartClipLines` | 554 | Exported Function
+`NtGdiPATHOBJ_bEnumClipLines` | 552 | Exported Function
+`NtGdiPatBlt` | 556 | Exported Function
+`NtGdiPATHOBJ_bEnum` | 551 | Exported Function
+`NtGdiMakeFontDir` | 539 | Exported Function
+`NtGdiMakeInfoDC` | 540 | Exported Function
+`NtGdiLineTo` | 538 | Exported Function
+`NtGdiIntersectClipRect` | 536 | Exported Function
+`NtGdiInvertRgn` | 537 | Exported Function
+`NtGdiMirrorWindowOrg` | 544 | Exported Function
+`NtGdiModifyWorldTransform` | 545 | Exported Function
+`NtGdiMaskBlt` | 543 | Exported Function
+`NtGdiMakeObjectUnXferable` | 541 | Exported Function
+`NtGdiMakeObjectXferable` | 542 | Exported Function
+`NtGdiPATHOBJ_vGetBounds` | 555 | Exported Function
+`NtGdiRemoveFontMemResourceEx` | 570 | Exported Function
+`NtGdiRemoveFontResourceW` | 571 | Exported Function
+`NtGdiRectVisible` | 568 | Exported Function
+`NtGdiRectangle` | 569 | Exported Function
+`NtGdiRectInRegion` | 567 | Exported Function
+`NtGdiRestoreDC` | 575 | Exported Function
+`NtGdiRoundRect` | 576 | Exported Function
+`NtGdiResizePalette` | 574 | Exported Function
+`NtGdiRemoveMergeFont` | 572 | Exported Function
+`NtGdiResetDC` | 573 | Exported Function
+`NtGdiPolyPatBlt` | 560 | Exported Function
+`NtGdiPolyPolyDraw` | 561 | Exported Function
+`NtGdiPolyDraw` | 559 | Exported Function
+`NtGdiPathToRegion` | 557 | Exported Function
+`NtGdiPlgBlt` | 558 | Exported Function
+`NtGdiQueryFontAssocInfo` | 565 | Exported Function
+`NtGdiQueryFonts` | 566 | Exported Function
+`NtGdiPtVisible` | 564 | Exported Function
+`NtGdiPolyTextOutW` | 562 | Exported Function
+`NtGdiPtInRegion` | 563 | Exported Function
+`NtGdiGetRasterizerCaps` | 508 | Exported Function
+`NtGdiGetRealizationInfo` | 509 | Exported Function
+`NtGdiGetRandomRgn` | 507 | Exported Function
+`NtGdiGetProcessSessionFonts` | 505 | Exported Function
+`NtGdiGetPublicFontTableChangeCookie` | 506 | Exported Function
+`NtGdiGetSpoolMessage` | 513 | Exported Function
+`NtGdiGetStats` | 514 | Exported Function
+`NtGdiGetServerMetaFileBits` | 512 | Exported Function
+`NtGdiGetRegionData` | 510 | Exported Function
+`NtGdiGetRgnBox` | 511 | Exported Function
+`NtGdiGetOPMRandomNumber` | 497 | Exported Function
+`NtGdiGetOutlineTextMetricsInternalW` | 499 | Exported Function
+`NtGdiGetOPMInformation` | 496 | Exported Function
+`NtGdiGetNumberOfPhysicalMonitors` | 495 | Exported Function
+`NtGdiGetObjectBitmapHandle` | 498 | Exported Function
+`NtGdiGetPhysicalMonitors` | 503 | Exported Function
+`NtGdiGetPixel` | 504 | Exported Function
+`NtGdiGetPhysicalMonitorDescription` | 502 | Exported Function
+`NtGdiGetPath` | 500 | Exported Function
+`NtGdiGetPerBandInfo` | 501 | Exported Function
+`NtGdiGetStringBitmapW` | 515 | Exported Function
+`NtGdiHLSurfGetInformation` | 528 | Exported Function
+`NtGdiHLSurfSetInformation` | 529 | Exported Function
+`NtGdiHfontCreate` | 532 | Exported Function
+`NtGdiGetWidthTable` | 526 | Exported Function
+`NtGdiGradientFill` | 527 | Exported Function
+`NtGdiInit` | 534 | Exported Function
+`NtGdiInitSpool` | 535 | Exported Function
+`NtGdiIcmBrushInfo` | 533 | Exported Function
+`NtGdiHT_Get8BPPFormatPalette` | 530 | Exported Function
+`NtGdiHT_Get8BPPMaskPalette` | 531 | Exported Function
+`NtGdiGetTextExtent` | 519 | Exported Function
+`NtGdiGetTextExtentExW` | 520 | Exported Function
+`NtGdiGetTextCharsetInfo` | 518 | Exported Function
+`NtGdiGetSuggestedOPMProtectedOutputArraySize` | 516 | Exported Function
+`NtGdiGetSystemPaletteUse` | 517 | Exported Function
+`NtGdiGetUFI` | 524 | Exported Function
+`NtGdiGetUFIPathname` | 525 | Exported Function
+`NtGdiGetTransform` | 523 | Exported Function
+`NtGdiGetTextFaceW` | 521 | Exported Function
+`NtGdiGetTextMetricsW` | 522 | Exported Function
+`NtGdiUnloadPrinterDriver` | 631 | Exported Function
+`NtGdiUnmapMemFont` | 632 | Exported Function
+`NtGdiUMPDEngFreeUserMem` | 630 | Exported Function
+`NtGdiTransformPoints` | 628 | Exported Function
+`NtGdiTransparentBlt` | 629 | Exported Function
+`NtGdiWidenPath` | 636 | Exported Function
+`NtGdiXFORMOBJ_bApplyXform` | 637 | Exported Function
+`NtGdiUpdateTransform` | 635 | Exported Function
+`NtGdiUnrealizeObject` | 633 | Exported Function
+`NtGdiUpdateColors` | 634 | Exported Function
+`NtGdiSTROBJ_bEnumPositionsOnly` | 578 | Exported Function
+`NtGdiSTROBJ_bGetAdvanceWidths` | 579 | Exported Function
+`NtGdiSTROBJ_bEnum` | 577 | Exported Function
+`NtGdiStretchBlt` | 623 | Exported Function
+`NtGdiStretchDIBitsInternal` | 624 | Exported Function
+`NtGdiStrokePath` | 626 | Exported Function
+`NtGdiSwapBuffers` | 627 | Exported Function
+`NtGdiStrokeAndFillPath` | 625 | Exported Function
+`NtGdiSTROBJ_dwGetCodePage` | 580 | Exported Function
+`NtGdiSTROBJ_vEnumStart` | 581 | Exported Function
+`NtGdiXFORMOBJ_iGetXform` | 638 | Exported Function
+`NtMITActivateInputProcessing` | 646 | Exported Function
+`NtMITCoreMsgKOpenConnectionTo` | 647 | Exported Function
+`NtMITAccessibilityTimerNotification` | 645 | Exported Function
+`NtMinQSuspendInputProcessing` | 679 | Exported Function
+`NtMinQUpdateWakeMask` | 680 | Exported Function
+`NtMITEnableMouseIntercept` | 651 | Exported Function
+`NtMITGetCursorUpdateHandle` | 652 | Exported Function
+`NtMITDispatchCompletion` | 650 | Exported Function
+`NtMITDeactivateInputProcessing` | 648 | Exported Function
+`NtMITDisableMouseIntercept` | 649 | Exported Function
+`NtHWCursorUpdatePointer` | 642 | Exported Function
+`NtInputSpaceRegionFromPoint` | 643 | Exported Function
+`NtGdiXLATEOBJ_iXlate` | 641 | Exported Function
+`NtGdiXLATEOBJ_cGetPalette` | 639 | Exported Function
+`NtGdiXLATEOBJ_hGetColorTransform` | 640 | Exported Function
+`NtMinInteropCoreMessagingWithInput` | 677 | Exported Function
+`NtMinQPeekForInput` | 678 | Exported Function
+`NtMinGetInputTransform` | 676 | Exported Function
+`NtIsOneCoreTransformMode` | 644 | Exported Function
+`NtMapVisualRelativePoints` | 675 | Exported Function
+`NtGdiSetBoundsRect` | 595 | Exported Function
+`NtGdiSetBrushAttributes` | 596 | Exported Function
+`NtGdiSetBitmapDimension` | 594 | Exported Function
+`NtGdiSetBitmapAttributes` | 592 | Exported Function
+`NtGdiSetBitmapBits` | 593 | Exported Function
+`NtGdiSetDeviceGammaRamp` | 601 | Exported Function
+`NtGdiSetDIBitsToDeviceInternal` | 600 | Exported Function
+`NtGdiSetColorSpace` | 599 | Exported Function
+`NtGdiSetBrushOrg` | 597 | Exported Function
+`NtGdiSetColorAdjustment` | 598 | Exported Function
+`NtGdiScaleViewportExtEx` | 585 | Exported Function
+`NtGdiScaleWindowExtEx` | 586 | Exported Function
+`NtGdiScaleValues` | 584 | Exported Function
+`NtGdiSaveDC` | 582 | Exported Function
+`NtGdiScaleRgn` | 583 | Exported Function
+`NtGdiSelectFont` | 590 | Exported Function
+`NtGdiSelectPen` | 591 | Exported Function
+`NtGdiSelectClipPath` | 589 | Exported Function
+`NtGdiSelectBitmap` | 587 | Exported Function
+`NtGdiSelectBrush` | 588 | Exported Function
+`NtGdiSetFontEnumeration` | 602 | Exported Function
+`NtGdiSetSizeDevice` | 616 | Exported Function
+`NtGdiSetSystemPaletteUse` | 617 | Exported Function
+`NtGdiSetRectRgn` | 615 | Exported Function
+`NtGdiSetPrivateDeviceGammaRamp` | 614 | Exported Function
+`NtGdiSetPUMPDOBJ` | 611 | Exported Function
+`NtGdiStartDoc` | 621 | Exported Function
+`NtGdiStartPage` | 622 | Exported Function
+`NtGdiSetVirtualResolution` | 620 | Exported Function
+`NtGdiSetTextJustification` | 618 | Exported Function
+`NtGdiSetUMPDSandboxState` | 619 | Exported Function
+`NtGdiSetLinkedUFIs` | 606 | Exported Function
+`NtGdiSetMagicColors` | 607 | Exported Function
+`NtGdiSetLayout` | 605 | Exported Function
+`NtGdiSetFontXform` | 603 | Exported Function
+`NtGdiSetIcmMode` | 604 | Exported Function
+`NtGdiSetPixel` | 612 | Exported Function
+`NtGdiSetPixelFormat` | 613 | Exported Function
+`NtGdiSetOPMSigningKeyAndSequenceNumbers` | 610 | Exported Function
+`NtGdiSetMetaRgn` | 608 | Exported Function
+`NtGdiSetMiterLimit` | 609 | Exported Function
+`NtGdiGetNearestPaletteIndex` | 494 | Exported Function
+`NtGdiEndPath` | 384 | Exported Function
+`NtGdiEngAlphaBlend` | 385 | Exported Function
+`NtGdiEndPage` | 383 | Exported Function
+`NtGdiEndDoc` | 381 | Exported Function
+`NtGdiEndGdiRendering` | 382 | Exported Function
+`NtGdiEngComputeGlyphSet` | 389 | Exported Function
+`NtGdiEngCopyBits` | 390 | Exported Function
+`NtGdiEngCheckAbort` | 388 | Exported Function
+`NtGdiEngAssociateSurface` | 386 | Exported Function
+`NtGdiEngBitBlt` | 387 | Exported Function
+`NtGdiDoBanding` | 374 | Exported Function
+`NtGdiDoPalette` | 375 | Exported Function
+`NtGdiDestroyPhysicalMonitor` | 373 | Exported Function
+`NtGdiDescribePixelFormat` | 371 | Exported Function
+`NtGdiDestroyOPMProtectedOutput` | 372 | Exported Function
+`NtGdiEllipse` | 379 | Exported Function
+`NtGdiEnableEudc` | 380 | Exported Function
+`NtGdiDwmCreatedBitmapRemotingOutput` | 378 | Exported Function
+`NtGdiDrawEscape` | 376 | Exported Function
+`NtGdiDrawStream` | 377 | Exported Function
+`NtGdiEngCreateBitmap` | 391 | Exported Function
+`NtGdiEngMarkBandingSurface` | 405 | Exported Function
+`NtGdiEngPaint` | 406 | Exported Function
+`NtGdiEngLockSurface` | 404 | Exported Function
+`NtGdiEngGradientFill` | 402 | Exported Function
+`NtGdiEngLineTo` | 403 | Exported Function
+`NtGdiEngStrokeAndFillPath` | 410 | Exported Function
+`NtGdiEngStrokePath` | 411 | Exported Function
+`NtGdiEngStretchBltROP` | 409 | Exported Function
+`NtGdiEngPlgBlt` | 407 | Exported Function
+`NtGdiEngStretchBlt` | 408 | Exported Function
+`NtGdiEngCreatePalette` | 395 | Exported Function
+`NtGdiEngDeleteClip` | 396 | Exported Function
+`NtGdiEngCreateDeviceSurface` | 394 | Exported Function
+`NtGdiEngCreateClip` | 392 | Exported Function
+`NtGdiEngCreateDeviceBitmap` | 393 | Exported Function
+`NtGdiEngEraseSurface` | 400 | Exported Function
+`NtGdiEngFillPath` | 401 | Exported Function
+`NtGdiEngDeleteSurface` | 399 | Exported Function
+`NtGdiEngDeletePalette` | 397 | Exported Function
+`NtGdiEngDeletePath` | 398 | Exported Function
+`NtGdiDdDDISignalSynchronizationObject` | 343 | Exported Function
+`NtGdiDdDDISignalSynchronizationObjectFromCpu` | 344 | Exported Function
+`NtGdiDdDDIShareObjects` | 340 | Exported Function
+`NtGdiDdDDISharedPrimaryLockNotification` | 341 | Exported Function
+`NtGdiDdDDISharedPrimaryUnLockNotification` | 342 | Exported Function
+`NtGdiDdDDISubmitCommandToHwQueue` | 348 | Exported Function
+`NtGdiDdDDISubmitSignalSyncObjectsToHwQueue` | 349 | Exported Function
+`NtGdiDdDDISubmitCommand` | 347 | Exported Function
+`NtGdiDdDDISignalSynchronizationObjectFromGpu` | 346 | Exported Function
+`NtGdiDdDDISignalSynchronizationObjectFromGpu2` | 345 | Exported Function
+`NtGdiDdDDISetQueuedLimit` | 333 | Exported Function
+`NtGdiDdDDISetStablePowerState` | 334 | Exported Function
+`NtGdiDdDDISetProcessSchedulingPriorityClass` | 332 | Exported Function
+`NtGdiDdDDISetProcessDeviceRemovalSupport` | 330 | Exported Function
+`NtGdiDdDDISetProcessSchedulingPriorityBand` | 331 | Exported Function
+`NtGdiDdDDISetVidPnSourceOwner` | 338 | Exported Function
+`NtGdiDdDDISetYieldPercentage` | 339 | Exported Function
+`NtGdiDdDDISetVidPnSourceHwProtection` | 337 | Exported Function
+`NtGdiDdDDISetStereoEnabled` | 335 | Exported Function
+`NtGdiDdDDISetSyncRefreshCountWaitTarget` | 336 | Exported Function
+`NtGdiDdDDISubmitWaitForSyncObjectsToHwQueue` | 350 | Exported Function
+`NtGdiDdDestroyFullscreenSprite` | 364 | Exported Function
+`NtGdiDdNotifyFullscreenSpriteUpdate` | 365 | Exported Function
+`NtGdiDdDDIWaitForVerticalBlankEvent2` | 362 | Exported Function
+`NtGdiDdDDIWaitForSynchronizationObjectFromGpu` | 361 | Exported Function
+`NtGdiDdDDIWaitForVerticalBlankEvent` | 363 | Exported Function
+`NtGdiDeleteColorTransform` | 369 | Exported Function
+`NtGdiDeleteObjectApp` | 370 | Exported Function
+`NtGdiDeleteColorSpace` | 368 | Exported Function
+`NtGdiDdQueryVisRgnUniqueness` | 366 | Exported Function
+`NtGdiDeleteClientObj` | 367 | Exported Function
+`NtGdiDdDDIUnOrderedPresentSwapChain` | 352 | Exported Function
+`NtGdiDdDDIUpdateAllocationProperty` | 355 | Exported Function
+`NtGdiDdDDIUnlock2` | 353 | Exported Function
+`NtGdiDdDDITrimProcessCommitment` | 351 | Exported Function
+`NtGdiDdDDIUnlock` | 354 | Exported Function
+`NtGdiDdDDIWaitForSynchronizationObject` | 359 | Exported Function
+`NtGdiDdDDIWaitForSynchronizationObjectFromCpu` | 360 | Exported Function
+`NtGdiDdDDIWaitForIdle` | 358 | Exported Function
+`NtGdiDdDDIUpdateGpuVirtualAddress` | 356 | Exported Function
+`NtGdiDdDDIUpdateOverlay` | 357 | Exported Function
+`NtGdiGetDCforBitmap` | 468 | Exported Function
+`NtGdiGetDCObject` | 466 | Exported Function
+`NtGdiGetDCDword` | 465 | Exported Function
+`NtGdiGetCurrentDpiInfo` | 463 | Exported Function
+`NtGdiGetDCDpiScaleValue` | 464 | Exported Function
+`NtGdiGetDeviceGammaRamp` | 472 | Exported Function
+`NtGdiGetDeviceWidth` | 473 | Exported Function
+`NtGdiGetDeviceCapsAll` | 471 | Exported Function
+`NtGdiGetDCPoint` | 467 | Exported Function
+`NtGdiGetDeviceCaps` | 470 | Exported Function
+`NtGdiGetCharacterPlacementW` | 460 | Exported Function
+`NtGdiGetCharSet` | 457 | Exported Function
+`NtGdiGetCharABCWidthsW` | 456 | Exported Function
+`NtGdiGetCertificateSize` | 454 | Exported Function
+`NtGdiGetCertificateSizeByHandle` | 455 | Exported Function
+`NtGdiGetColorSpaceforBitmap` | 462 | Exported Function
+`NtGdiGetCOPPCompatibleOPMInformation` | 451 | Exported Function
+`NtGdiGetColorAdjustment` | 461 | Exported Function
+`NtGdiGetCharWidthInfo` | 458 | Exported Function
+`NtGdiGetCharWidthW` | 459 | Exported Function
+`NtGdiGetDhpdev` | 474 | Exported Function
+`NtGdiGetGlyphIndicesWInternal` | 487 | Exported Function
+`NtGdiGetGlyphOutline` | 488 | Exported Function
+`NtGdiGetGlyphIndicesW` | 486 | Exported Function
+`NtGdiGetFontUnicodeRanges` | 484 | Exported Function
+`NtGdiGetGammaRampCapability` | 485 | Exported Function
+`NtGdiGetMonitorID` | 492 | Exported Function
+`NtGdiGetNearestColor` | 493 | Exported Function
+`NtGdiGetMiterLimit` | 491 | Exported Function
+`NtGdiGetKerningPairs` | 489 | Exported Function
+`NtGdiGetLinkedUFIs` | 490 | Exported Function
+`NtGdiGetEntry` | 478 | Exported Function
+`NtGdiGetETM` | 475 | Exported Function
+`NtGdiGetEmbUFI` | 476 | Exported Function
+`NtGdiGetDIBitsInternal` | 469 | Exported Function
+`NtGdiGetEmbedFonts` | 477 | Exported Function
+`NtGdiGetFontFileInfo` | 482 | Exported Function
+`NtGdiGetFontResourceInfoInternalW` | 483 | Exported Function
+`NtGdiGetFontFileData` | 481 | Exported Function
+`NtGdiGetEudcTimeStampEx` | 479 | Exported Function
+`NtGdiGetFontData` | 480 | Exported Function
+`NtGdiExtGetObjectW` | 425 | Exported Function
+`NtGdiExtSelectClipRgn` | 426 | Exported Function
+`NtGdiExtFloodFill` | 424 | Exported Function
+`NtGdiExtCreateRegion` | 422 | Exported Function
+`NtGdiExtEscape` | 423 | Exported Function
+`NtGdiFlattenPath` | 438 | Exported Function
+`NtGdiFlush` | 439 | Exported Function
+`NtGdiFillRgn` | 437 | Exported Function
+`NtGdiExtTextOutW` | 427 | Exported Function
+`NtGdiFillPath` | 436 | Exported Function
+`NtGdiEnsureDpiDepDefaultGuiFontForPlateau` | 415 | Exported Function
+`NtGdiEnumFonts` | 416 | Exported Function
+`NtGdiEngUnlockSurface` | 414 | Exported Function
+`NtGdiEngTextOut` | 412 | Exported Function
+`NtGdiEngTransparentBlt` | 413 | Exported Function
+`NtGdiExcludeClipRect` | 420 | Exported Function
+`NtGdiExtCreatePen` | 421 | Exported Function
+`NtGdiEudcLoadUnloadLink` | 419 | Exported Function
+`NtGdiEnumObjects` | 417 | Exported Function
+`NtGdiEqualRgn` | 418 | Exported Function
+`NtGdiFontIsLinked` | 440 | Exported Function
+`NtGdiGetAppliedDeviceGammaRamp` | 446 | Exported Function
+`NtGdiGetBitmapBits` | 447 | Exported Function
+`NtGdiGetAppClipBox` | 445 | Exported Function
+`NtGdiFullscreenControl` | 443 | Exported Function
+`NtGdiGetAndSetDCDword` | 444 | Exported Function
+`NtGdiGetCertificate` | 452 | Exported Function
+`NtGdiGetCertificateByHandle` | 453 | Exported Function
+`NtGdiGetBoundsRect` | 450 | Exported Function
+`NtGdiGetBitmapDimension` | 448 | Exported Function
+`NtGdiGetBitmapDpiScaleValue` | 449 | Exported Function
+`NtGdiFONTOBJ_pifi` | 432 | Exported Function
+`NtGdiFONTOBJ_pQueryGlyphAttrs` | 430 | Exported Function
+`NtGdiFONTOBJ_pfdg` | 431 | Exported Function
+`NtGdiFONTOBJ_cGetAllGlyphHandles` | 428 | Exported Function
+`NtGdiFONTOBJ_cGetGlyphs` | 429 | Exported Function
+`NtGdiForceUFIMapping` | 441 | Exported Function
+`NtGdiFrameRgn` | 442 | Exported Function
+`NtGdiFONTOBJ_vGetInfo` | 435 | Exported Function
+`NtGdiFONTOBJ_pvTrueTypeFontFile` | 433 | Exported Function
+`NtGdiFONTOBJ_pxoGetXform` | 434 | Exported Function
 
 
 ## Signature

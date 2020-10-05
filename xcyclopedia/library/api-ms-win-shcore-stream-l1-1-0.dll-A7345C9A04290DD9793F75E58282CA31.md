@@ -24,23 +24,23 @@ PE256 | `A7FF04F5C3537E923C43E2091723B7A95752AFC997DBB33428A7BEA5B5CDBB7A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IStream_Copy` | 1 (0x1) | Exported Function | shlwapi.IStream_Copy | 0x0000114f
-`IStream_Read` | 2 (0x2) | Exported Function | shlwapi.IStream_Read | 0x00001171
-`IStream_ReadStr` | 3 (0x3) | Exported Function | shlwapi.IStream_ReadStr | 0x00001196
-`IStream_Reset` | 4 (0x4) | Exported Function | shlwapi.IStream_Reset | 0x000011bc
-`IStream_Size` | 5 (0x5) | Exported Function | shlwapi.IStream_Size | 0x000011df
-`IStream_Write` | 6 (0x6) | Exported Function | shlwapi.IStream_Write | 0x00001202
-`IStream_WriteStr` | 7 (0x7) | Exported Function | shlwapi.IStream_WriteStr | 0x00001229
-`SHCreateMemStream` | 8 (0x8) | Exported Function | shlwapi.SHCreateMemStream | 0x00001254
-`SHCreateStreamOnFileA` | 9 (0x9) | Exported Function | shlwapi.SHCreateStreamOnFileA | 0x00001284
-`SHCreateStreamOnFileEx` | 10 (0xa) | Exported Function | shlwapi.SHCreateStreamOnFileEx | 0x000012b9
-`SHCreateStreamOnFileW` | 11 (0xb) | Exported Function | shlwapi.SHCreateStreamOnFileW | 0x000012ee
-`SHOpenRegStream2A` | 12 (0xc) | Exported Function | shlwapi.SHOpenRegStream2A | 0x0000131e
-`SHOpenRegStream2W` | 13 (0xd) | Exported Function | shlwapi.SHOpenRegStream2W | 0x0000134a
-`SHOpenRegStreamA` | 14 (0xe) | Exported Function | shlwapi.SHOpenRegStreamA | 0x00001375
-`SHOpenRegStreamW` | 15 (0xf) | Exported Function | shlwapi.SHOpenRegStreamW | 0x0000139f
+Function Name | Ordinal | Type
+-- | -- | --
+`SHCreateStreamOnFileW` | 11 | Exported Function
+`SHCreateStreamOnFileEx` | 10 | Exported Function
+`SHCreateStreamOnFileA` | 9 | Exported Function
+`SHOpenRegStream2A` | 12 | Exported Function
+`SHOpenRegStreamW` | 15 | Exported Function
+`SHOpenRegStreamA` | 14 | Exported Function
+`SHOpenRegStream2W` | 13 | Exported Function
+`SHCreateMemStream` | 8 | Exported Function
+`IStream_ReadStr` | 3 | Exported Function
+`IStream_Read` | 2 | Exported Function
+`IStream_Copy` | 1 | Exported Function
+`IStream_Reset` | 4 | Exported Function
+`IStream_WriteStr` | 7 | Exported Function
+`IStream_Write` | 6 | Exported Function
+`IStream_Size` | 5 | Exported Function
 
 
 ## Signature
@@ -72,6 +72,7 @@ Function Name | Ordinal | Type | Address | Relative Address
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 47
+[C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\Smart Tag\SmartTagInstall.exe](SmartTagInstall.exe-632AB2DBE46DE1E9BB0FB7B54B3BB05C.md) | 33
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 49
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 29
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 43

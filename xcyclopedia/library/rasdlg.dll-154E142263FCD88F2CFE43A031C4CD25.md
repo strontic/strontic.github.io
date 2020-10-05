@@ -24,35 +24,35 @@ PE256 | `F6D3FBEAD0ADDB2993EADEA1BDB5D399DA3C803DAE5C3A04461C738E32E940E6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180032020 | 0x00032020
-`RasUserPrefsDlg` | 25 (0x19) | Exported Function | 0x000000018002e8d0 | 0x0002e8d0
-`RasUserGetManualDial` | 24 (0x18) | Exported Function | 0x000000018002e890 | 0x0002e890
-`RasUserEnableManualDial` | 23 (0x17) | Exported Function | 0x000000018002e850 | 0x0002e850
-`RasSrvIsServiceRunning` | 22 (0x16) | Exported Function | 0x0000000180034930 | 0x00034930
-`RasSrvIsICConfigured` | 21 (0x15) | Exported Function | 0x0000000180034f60 | 0x00034f60
-`RasSrvIsConnectionConnected` | 20 (0x14) | Exported Function | 0x00000001800347d0 | 0x000347d0
-`RasSrvInitializeService` | 19 (0x13) | Exported Function | 0x0000000180034620 | 0x00034620
-`RasSrvHangupConnection` | 18 (0x12) | Exported Function | 0x0000000180034560 | 0x00034560
-`RasSrvEnumConnections` | 17 (0x11) | Exported Function | 0x0000000180034320 | 0x00034320
-`RasSrvCleanupService` | 16 (0x10) | Exported Function | 0x0000000180034240 | 0x00034240
-`RasSrvAllowConnectionsConfig` | 15 (0xf) | Exported Function | 0x00000001800341c0 | 0x000341c0
-`RouterEntryDlgA` | 26 (0x1a) | Exported Function | 0x00000001800178c0 | 0x000178c0
-`RasSrvAddPropPages` | 14 (0xe) | Exported Function | 0x00000001800340e0 | 0x000340e0
-`RasPhonebookDlgA` | 12 (0xc) | Exported Function | 0x000000018002bfa0 | 0x0002bfa0
-`RasHandleDiagnostics` | 1 (0x1) | Exported Function | 0x0000000180032d40 | 0x00032d40
-`RasEntryDlgW` | 11 (0xb) | Exported Function | 0x00000001800175a0 | 0x000175a0
-`RasEntryDlgA` | 10 (0xa) | Exported Function | 0x0000000180017270 | 0x00017270
-`RasDialDlgW` | 9 (0x9) | Exported Function | 0x0000000180010320 | 0x00010320
-`RasDialDlgA` | 8 (0x8) | Exported Function | 0x0000000180010180 | 0x00010180
-`RasAutodialQueryDlgW` | 7 (0x7) | Exported Function | 0x0000000180005940 | 0x00005940
-`RasAutodialQueryDlgA` | 6 (0x6) | Exported Function | 0x0000000180005830 | 0x00005830
-`GetRasDialOutProtocols` | 5 (0x5) | Exported Function | 0x0000000180017240 | 0x00017240
-`DwTerminalDlg` | 4 (0x4) | Exported Function | 0x000000018000f1c0 | 0x0000f1c0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180032060 | 0x00032060
-`RasPhonebookDlgW` | 13 (0xd) | Exported Function | 0x000000018002c110 | 0x0002c110
-`RouterEntryDlgW` | 27 (0x1b) | Exported Function | 0x0000000180017a80 | 0x00017a80
+Function Name | Ordinal | Type
+-- | -- | --
+`RasSrvHangupConnection` | 18 | Exported Function
+`RasSrvInitializeService` | 19 | Exported Function
+`RasSrvIsConnectionConnected` | 20 | Exported Function
+`RasSrvAllowConnectionsConfig` | 15 | Exported Function
+`RasSrvCleanupService` | 16 | Exported Function
+`RasSrvEnumConnections` | 17 | Exported Function
+`RasSrvIsICConfigured` | 21 | Exported Function
+`RasUserPrefsDlg` | 25 | Exported Function
+`RouterEntryDlgA` | 26 | Exported Function
+`RouterEntryDlgW` | 27 | Exported Function
+`RasSrvIsServiceRunning` | 22 | Exported Function
+`RasUserEnableManualDial` | 23 | Exported Function
+`RasUserGetManualDial` | 24 | Exported Function
+`RasSrvAddPropPages` | 14 | Exported Function
+`GetRasDialOutProtocols` | 5 | Exported Function
+`RasAutodialQueryDlgA` | 6 | Exported Function
+`RasAutodialQueryDlgW` | 7 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DwTerminalDlg` | 4 | Exported Function
+`RasDialDlgA` | 8 | Exported Function
+`RasHandleDiagnostics` | 1 | Exported Function
+`RasPhonebookDlgA` | 12 | Exported Function
+`RasPhonebookDlgW` | 13 | Exported Function
+`RasDialDlgW` | 9 | Exported Function
+`RasEntryDlgA` | 10 | Exported Function
+`RasEntryDlgW` | 11 | Exported Function
 
 
 ## Signature

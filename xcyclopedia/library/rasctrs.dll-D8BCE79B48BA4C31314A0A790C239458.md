@@ -24,11 +24,11 @@ PE256 | `2AD3B3384E7A9C101378364FD241C7E96667B20E3A165A0F6697279426271FDA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseRasPerformanceData` | 3 (0x3) | Exported Function | 0x0000000180001e10 | 0x00001e10
-`CollectRasPerformanceData` | 2 (0x2) | Exported Function | 0x00000001800018a0 | 0x000018a0
-`OpenRasPerformanceData` | 1 (0x1) | Exported Function | 0x0000000180001880 | 0x00001880
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenRasPerformanceData` | 1 | Exported Function
+`CollectRasPerformanceData` | 2 | Exported Function
+`CloseRasPerformanceData` | 3 | Exported Function
 
 
 ## Signature

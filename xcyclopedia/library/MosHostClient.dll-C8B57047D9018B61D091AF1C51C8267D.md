@@ -24,64 +24,64 @@ PE256 | `A6092C0E98EF45A0FBE1420189051D88561EEA355BBF501AD81CE74A8355BDF0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MapsPackageAddMapPackageAsync` | 1 (0x1) | Exported Function | 0x10009e00 | 0x00009e00
-`MosHostFree` | 31 (0x1f) | Exported Function | 0x10005a40 | 0x00005a40
-`MosHostOpen` | 32 (0x20) | Exported Function | 0x100059b0 | 0x000059b0
-`MosReportCacheMiss` | 33 (0x21) | Exported Function | 0x10005cc0 | 0x00005cc0
-`MosRequestResourceLock` | 34 (0x22) | Exported Function | 0x10005db0 | 0x00005db0
-`MosRequestResourceUnlock` | 35 (0x23) | Exported Function | 0x10005e80 | 0x00005e80
-`OdmlAddMapPackages` | 36 (0x24) | Exported Function | 0x10008560 | 0x00008560
-`OdmlCancelMapDataMigration` | 37 (0x25) | Exported Function | 0x10008d20 | 0x00008d20
-`OdmlCancelMapPackage` | 38 (0x26) | Exported Function | 0x100086c0 | 0x000086c0
-`OdmlClose` | 39 (0x27) | Exported Function | 0x100080e0 | 0x000080e0
-`OdmlDeleteAllMaps` | 40 (0x28) | Exported Function | 0x10008760 | 0x00008760
-`OdmlFindNearbyPackagesAsync` | 41 (0x29) | Exported Function | 0x10008410 | 0x00008410
-`MosHostClose` | 30 (0x1e) | Exported Function | 0x100059f0 | 0x000059f0
-`OdmlFree` | 42 (0x2a) | Exported Function | 0x10005a40 | 0x00005a40
-`OdmlGetAvailablePackages` | 44 (0x2c) | Exported Function | 0x10008360 | 0x00008360
-`OdmlGetCopyrightString` | 45 (0x2d) | Exported Function | 0x10008800 | 0x00008800
-`OdmlGetIsStorageStateValid` | 46 (0x2e) | Exported Function | 0x10008bd0 | 0x00008bd0
-`OdmlGetShouldUseWlanString` | 47 (0x2f) | Exported Function | 0x10008b30 | 0x00008b30
-`OdmlGetUpdateOnlyOnWifi` | 48 (0x30) | Exported Function | 0x10008a90 | 0x00008a90
-`OdmlGetUserPackages` | 49 (0x31) | Exported Function | 0x100082c0 | 0x000082c0
-`OdmlOpen` | 50 (0x32) | Exported Function | 0x100080a0 | 0x000080a0
-`OdmlRemoveMapPackages` | 51 (0x33) | Exported Function | 0x10008610 | 0x00008610
-`OdmlSetAutoUpdateEnabled` | 52 (0x34) | Exported Function | 0x100088b0 | 0x000088b0
-`OdmlSetUpdateOnlyOnWifi` | 53 (0x35) | Exported Function | 0x100089f0 | 0x000089f0
-`OdmlStartCheckForUpdates` | 54 (0x36) | Exported Function | 0x10008180 | 0x00008180
-`OdmlGetAutoUpdateEnabled` | 43 (0x2b) | Exported Function | 0x10008950 | 0x00008950
-`MosGetResourceDirectory` | 29 (0x1d) | Exported Function | 0x10005b20 | 0x00005b20
-`MosGetDataDirectory` | 28 (0x1c) | Exported Function | 0x10005a60 | 0x00005a60
-`MosGetDataAsyncOperation` | 27 (0x1b) | Exported Function | 0x100065c0 | 0x000065c0
-`MapsPackageClose` | 2 (0x2) | Exported Function | 0x10009b50 | 0x00009b50
-`MapsPackageFindNearbyPackagesAsync` | 3 (0x3) | Exported Function | 0x10009cf0 | 0x00009cf0
-`MapsPackageFree` | 4 (0x4) | Exported Function | 0x10005a40 | 0x00005a40
-`MapsPackageGetPackages` | 5 (0x5) | Exported Function | 0x10009c50 | 0x00009c50
-`MapsPackageOpen` | 6 (0x6) | Exported Function | 0x10009b10 | 0x00009b10
-`MapsStorageClose` | 7 (0x7) | Exported Function | 0x1000ae00 | 0x0000ae00
-`MapsStorageFree` | 8 (0x8) | Exported Function | 0x10005a40 | 0x00005a40
-`MapsStorageGetCurrentLocation` | 9 (0x9) | Exported Function | 0x1000aea0 | 0x0000aea0
-`MapsStorageGetDataDirectory` | 10 (0xa) | Exported Function | 0x1000b230 | 0x0000b230
-`MapsStorageGetLocations` | 11 (0xb) | Exported Function | 0x1000af60 | 0x0000af60
-`MapsStorageGetMigrationState` | 12 (0xc) | Exported Function | 0x1000b020 | 0x0000b020
-`MapsStorageOpen` | 13 (0xd) | Exported Function | 0x1000adc0 | 0x0000adc0
-`MapsStorageQueueSwitchToDefaultExternalStorage` | 14 (0xe) | Exported Function | 0x1000b390 | 0x0000b390
-`MapsStorageUseDefaultExternalStorage` | 15 (0xf) | Exported Function | 0x1000b2f0 | 0x0000b2f0
-`MapsStorageValidateLocationAsync` | 16 (0x10) | Exported Function | 0x1000b1b0 | 0x0000b1b0
-`MosCacheStateGetSizes` | 17 (0x11) | Exported Function | 0x10005fd0 | 0x00005fd0
-`MosCacheStateSetMaxSize` | 18 (0x12) | Exported Function | 0x10005f30 | 0x00005f30
-`MosCacheStateSetSlotSize` | 19 (0x13) | Exported Function | 0x10006220 | 0x00006220
-`MosCacheStateSnapshot` | 20 (0x14) | Exported Function | 0x100062e0 | 0x000062e0
-`MosCacheStateUnuseSlot` | 21 (0x15) | Exported Function | 0x10006160 | 0x00006160
-`MosCacheStateUseSlot` | 22 (0x16) | Exported Function | 0x10006090 | 0x00006090
-`MosDeleteDataAsyncOperation` | 23 (0x17) | Exported Function | 0x10006730 | 0x00006730
-`MosGetBrowseCacheSizeInMBytes` | 24 (0x18) | Exported Function | 0x10005bf0 | 0x00005bf0
-`MosGetCopyrightString` | 25 (0x19) | Exported Function | 0x100068a0 | 0x000068a0
-`MosGetDataAsync` | 26 (0x1a) | Exported Function | 0x10006500 | 0x00006500
-`OdmlStartInstallUpdate` | 55 (0x37) | Exported Function | 0x10008220 | 0x00008220
-`OdmlStartMapDataMigration` | 56 (0x38) | Exported Function | 0x10008c70 | 0x00008c70
+Function Name | Ordinal | Type
+-- | -- | --
+`OdmlCancelMapPackage` | 38 | Exported Function
+`OdmlCancelMapDataMigration` | 37 | Exported Function
+`OdmlAddMapPackages` | 36 | Exported Function
+`OdmlClose` | 39 | Exported Function
+`OdmlFree` | 42 | Exported Function
+`OdmlFindNearbyPackagesAsync` | 41 | Exported Function
+`OdmlDeleteAllMaps` | 40 | Exported Function
+`MosHostFree` | 31 | Exported Function
+`MosHostClose` | 30 | Exported Function
+`MosGetResourceDirectory` | 29 | Exported Function
+`MosHostOpen` | 32 | Exported Function
+`MosRequestResourceUnlock` | 35 | Exported Function
+`MosRequestResourceLock` | 34 | Exported Function
+`MosReportCacheMiss` | 33 | Exported Function
+`OdmlSetAutoUpdateEnabled` | 52 | Exported Function
+`OdmlRemoveMapPackages` | 51 | Exported Function
+`OdmlOpen` | 50 | Exported Function
+`OdmlSetUpdateOnlyOnWifi` | 53 | Exported Function
+`OdmlStartMapDataMigration` | 56 | Exported Function
+`OdmlStartInstallUpdate` | 55 | Exported Function
+`OdmlStartCheckForUpdates` | 54 | Exported Function
+`OdmlGetCopyrightString` | 45 | Exported Function
+`OdmlGetAvailablePackages` | 44 | Exported Function
+`OdmlGetAutoUpdateEnabled` | 43 | Exported Function
+`OdmlGetIsStorageStateValid` | 46 | Exported Function
+`OdmlGetUserPackages` | 49 | Exported Function
+`OdmlGetUpdateOnlyOnWifi` | 48 | Exported Function
+`OdmlGetShouldUseWlanString` | 47 | Exported Function
+`MapsStorageGetDataDirectory` | 10 | Exported Function
+`MapsStorageGetCurrentLocation` | 9 | Exported Function
+`MapsStorageFree` | 8 | Exported Function
+`MapsStorageGetLocations` | 11 | Exported Function
+`MapsStorageQueueSwitchToDefaultExternalStorage` | 14 | Exported Function
+`MapsStorageOpen` | 13 | Exported Function
+`MapsStorageGetMigrationState` | 12 | Exported Function
+`MapsPackageFindNearbyPackagesAsync` | 3 | Exported Function
+`MapsPackageClose` | 2 | Exported Function
+`MapsPackageAddMapPackageAsync` | 1 | Exported Function
+`MapsPackageFree` | 4 | Exported Function
+`MapsStorageClose` | 7 | Exported Function
+`MapsPackageOpen` | 6 | Exported Function
+`MapsPackageGetPackages` | 5 | Exported Function
+`MosGetBrowseCacheSizeInMBytes` | 24 | Exported Function
+`MosDeleteDataAsyncOperation` | 23 | Exported Function
+`MosCacheStateUseSlot` | 22 | Exported Function
+`MosGetCopyrightString` | 25 | Exported Function
+`MosGetDataDirectory` | 28 | Exported Function
+`MosGetDataAsyncOperation` | 27 | Exported Function
+`MosGetDataAsync` | 26 | Exported Function
+`MosCacheStateGetSizes` | 17 | Exported Function
+`MapsStorageValidateLocationAsync` | 16 | Exported Function
+`MapsStorageUseDefaultExternalStorage` | 15 | Exported Function
+`MosCacheStateSetMaxSize` | 18 | Exported Function
+`MosCacheStateUnuseSlot` | 21 | Exported Function
+`MosCacheStateSnapshot` | 20 | Exported Function
+`MosCacheStateSetSlotSize` | 19 | Exported Function
 
 
 ## Signature

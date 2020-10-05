@@ -24,43 +24,43 @@ PE256 | `C9C36010F9C075AD40F5545A1D55F63302965AE05DC64DAEF6FF3AEA06E12796`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddStroke` | 1 (0x1) | Exported Function | 0x10020560 | 0x00020560
-`GetResultPropertyList` | 20 (0x14) | Exported Function | 0x10020b90 | 0x00020b90
-`GetRightSeparator` | 21 (0x15) | Exported Function | 0x10020cd0 | 0x00020cd0
-`GetUnicodeRanges` | 22 (0x16) | Exported Function | 0x100202f0 | 0x000202f0
-`InvokeIDispatch` | 23 (0x17) | Exported Function | 0x10011e50 | 0x00011e50
-`IsStringSupported` | 24 (0x18) | Exported Function | 0x10020de0 | 0x00020de0
-`LoadCachedAttributes` | 25 (0x19) | Exported Function | 0x10021480 | 0x00021480
-`GetRecoAttributes` | 19 (0x13) | Exported Function | 0x10020390 | 0x00020390
-`MakeWordList` | 26 (0x1a) | Exported Function | 0x10020e70 | 0x00020e70
-`SetConstraint` | 28 (0x1c) | Exported Function | 0x10020980 | 0x00020980
-`SetEnabledUnicodeRanges` | 29 (0x1d) | Exported Function | 0x10020770 | 0x00020770
-`SetFactoid` | 30 (0x1e) | Exported Function | 0x10020900 | 0x00020900
-`SetFlags` | 31 (0x1f) | Exported Function | 0x10020a00 | 0x00020a00
-`SetGuide` | 32 (0x20) | Exported Function | 0x100201d0 | 0x000201d0
-`SetStrokeGroupId` | 33 (0x21) | Exported Function | 0x10020670 | 0x00020670
-`Process` | 27 (0x1b) | Exported Function | 0x10020880 | 0x00020880
-`SetTextContext` | 34 (0x22) | Exported Function | 0x10020b00 | 0x00020b00
-`GetLeftSeparator` | 18 (0x12) | Exported Function | 0x10020c40 | 0x00020c40
-`GetBestResultString` | 16 (0x10) | Exported Function | 0x100206f0 | 0x000206f0
-`AddStrokeWithId` | 2 (0x2) | Exported Function | 0x100205e0 | 0x000205e0
-`AddWordsToWordList` | 3 (0x3) | Exported Function | 0x10020fe0 | 0x00020fe0
-`AdviseInkChange` | 4 (0x4) | Exported Function | 0x10020d60 | 0x00020d60
-`CreateContext` | 5 (0x5) | Exported Function | 0x10020410 | 0x00020410
-`CreateRecognizer` | 6 (0x6) | Exported Function | 0x10020180 | 0x00020180
-`DestroyContext` | 7 (0x7) | Exported Function | 0x100204c0 | 0x000204c0
-`GetLatticePtr` | 17 (0x11) | Exported Function | 0x10020a80 | 0x00020a80
-`DestroyRecognizer` | 8 (0x8) | Exported Function | 0x10020250 | 0x00020250
-`DllCanUnloadNow` | 10 (0xa) | Exported Function | 0x10011d90 | 0x00011d90
-`DllGetClassObject` | 11 (0xb) | Exported Function | 0x10011db0 | 0x00011db0
-`DllRegisterServer` | 12 (0xc) | Exported Function | 0x10011e30 | 0x00011e30
-`DllUnregisterServer` | 13 (0xd) | Exported Function | 0x10011e40 | 0x00011e40
-`EndInkInput` | 14 (0xe) | Exported Function | 0x10020800 | 0x00020800
-`GetAllRecognizers` | 15 (0xf) | Exported Function | 0x1001fe30 | 0x0001fe30
-`DestroyWordList` | 9 (0x9) | Exported Function | 0x10020f30 | 0x00020f30
-`SetWordList` | 35 (0x23) | Exported Function | 0x10021060 | 0x00021060
+Function Name | Ordinal | Type
+-- | -- | --
+`IsStringSupported` | 24 | Exported Function
+`InvokeIDispatch` | 23 | Exported Function
+`MakeWordList` | 26 | Exported Function
+`LoadCachedAttributes` | 25 | Exported Function
+`GetResultPropertyList` | 20 | Exported Function
+`GetRecoAttributes` | 19 | Exported Function
+`GetUnicodeRanges` | 22 | Exported Function
+`GetRightSeparator` | 21 | Exported Function
+`Process` | 27 | Exported Function
+`SetStrokeGroupId` | 33 | Exported Function
+`SetGuide` | 32 | Exported Function
+`SetWordList` | 35 | Exported Function
+`SetTextContext` | 34 | Exported Function
+`SetEnabledUnicodeRanges` | 29 | Exported Function
+`SetConstraint` | 28 | Exported Function
+`SetFlags` | 31 | Exported Function
+`SetFactoid` | 30 | Exported Function
+`GetLeftSeparator` | 18 | Exported Function
+`CreateRecognizer` | 6 | Exported Function
+`CreateContext` | 5 | Exported Function
+`DestroyRecognizer` | 8 | Exported Function
+`DestroyContext` | 7 | Exported Function
+`AddStrokeWithId` | 2 | Exported Function
+`AddStroke` | 1 | Exported Function
+`AdviseInkChange` | 4 | Exported Function
+`AddWordsToWordList` | 3 | Exported Function
+`DestroyWordList` | 9 | Exported Function
+`GetAllRecognizers` | 15 | Exported Function
+`EndInkInput` | 14 | Exported Function
+`GetLatticePtr` | 17 | Exported Function
+`GetBestResultString` | 16 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`DllUnregisterServer` | 13 | Exported Function
+`DllRegisterServer` | 12 | Exported Function
 
 
 ## Signature

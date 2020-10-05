@@ -24,17 +24,17 @@ PE256 | `ED3F5F28DA9B375D8992F96176F2F79093CE46DA2F37BE2D0D7457A55A4E667B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SLAcquireGenuineTicket` | 1 (0x1) | Exported Function | SPPCEXT.SLAcquireGenuineTicket | 0x00002364
-`SLActivateProduct` | 2 (0x2) | Exported Function | SPPCEXT.SLActivateProduct | 0x00002395
-`SLGetPackageProductKey` | 3 (0x3) | Exported Function | SPPCEXT.SLGetPackageProductKey | 0x000023c6
-`SLGetPackageProperties` | 4 (0x4) | Exported Function | SPPCEXT.SLGetPackageProperties | 0x000023fc
-`SLGetPackageToken` | 5 (0x5) | Exported Function | SPPCEXT.SLGetPackageToken | 0x0000242d
-`SLGetReferralInformation` | 6 (0x6) | Exported Function | SPPCEXT.SLGetReferralInformation | 0x00002460
-`SLGetServerStatus` | 7 (0x7) | Exported Function | SPPCEXT.SLGetServerStatus | 0x00002493
-`SLInstallPackage` | 8 (0x8) | Exported Function | SPPCEXT.SLInstallPackage | 0x000024be
-`SLUninstallPackage` | 9 (0x9) | Exported Function | SPPCEXT.SLUninstallPackage | 0x000024ea
+Function Name | Ordinal | Type
+-- | -- | --
+`SLGetServerStatus` | 7 | Exported Function
+`SLGetReferralInformation` | 6 | Exported Function
+`SLUninstallPackage` | 9 | Exported Function
+`SLInstallPackage` | 8 | Exported Function
+`SLGetPackageToken` | 5 | Exported Function
+`SLActivateProduct` | 2 | Exported Function
+`SLAcquireGenuineTicket` | 1 | Exported Function
+`SLGetPackageProperties` | 4 | Exported Function
+`SLGetPackageProductKey` | 3 | Exported Function
 
 
 ## Signature

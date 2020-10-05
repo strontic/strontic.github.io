@@ -24,26 +24,26 @@ PE256 | `B3A6E41AF189F522DA034B9458351AD56DE7D01BB6AABDC6D503D25258BF551C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`I_QueryTagInformation` | 1 (0x1) | Exported Function | advapi32.I_QueryTagInformation | 0x00001238
-`SubscribeServiceChangeNotifications` | 16 (0x10) | Exported Function | advapi32.SubscribeServiceChangeNotifications | 0x0000157f
-`I_ScValidatePnPService` | 15 (0xf) | Exported Function | advapi32.I_ScValidatePnPService | 0x0000153b
-`I_ScUnregisterDeviceNotification` | 14 (0xe) | Exported Function | advapi32.I_ScUnregisterDeviceNotification | 0x000014fa
-`I_ScSetServiceBitsW` | 13 (0xd) | Exported Function | advapi32.I_ScSetServiceBitsW | 0x000014bc
-`I_ScSetServiceBitsA` | 12 (0xc) | Exported Function | advapi32.I_ScSetServiceBitsA | 0x0000148b
-`I_ScSendTSMessage` | 11 (0xb) | Exported Function | advapi32.I_ScSendTSMessage | 0x0000145c
-`I_ScSendPnPMessage` | 10 (0xa) | Exported Function | advapi32.I_ScSendPnPMessage | 0x0000142e
-`I_ScRpcBindW` | 9 (0x9) | Exported Function | advapi32.I_ScRpcBindW | 0x00001405
-`I_ScRpcBindA` | 8 (0x8) | Exported Function | advapi32.I_ScRpcBindA | 0x000013e2
-`I_ScRegisterPreshutdownRestart` | 7 (0x7) | Exported Function | advapi32.I_ScRegisterPreshutdownRestart | 0x000013ad
-`I_ScRegisterDeviceNotification` | 6 (0x6) | Exported Function | advapi32.I_ScRegisterDeviceNotification | 0x00001366
-`I_ScQueryServiceConfig` | 5 (0x5) | Exported Function | advapi32.I_ScQueryServiceConfig | 0x00001327
-`I_ScPnPGetServiceName` | 4 (0x4) | Exported Function | advapi32.I_ScPnPGetServiceName | 0x000012f1
-`I_ScIsSecurityProcess` | 3 (0x3) | Exported Function | advapi32.I_ScIsSecurityProcess | 0x000012bc
-`I_ScBroadcastServiceControlMessage` | 2 (0x2) | Exported Function | advapi32.I_ScBroadcastServiceControlMessage | 0x0000127a
-`UnsubscribeServiceChangeNotifications` | 17 (0x11) | Exported Function | advapi32.UnsubscribeServiceChangeNotifications | 0x000015d2
-`WaitServiceState` | 18 (0x12) | Exported Function | advapi32.WaitServiceState | 0x00001612
+Function Name | Ordinal | Type
+-- | -- | --
+`I_ScSetServiceBitsA` | 12 | Exported Function
+`I_ScSetServiceBitsW` | 13 | Exported Function
+`I_ScSendPnPMessage` | 10 | Exported Function
+`I_ScSendTSMessage` | 11 | Exported Function
+`I_ScUnregisterDeviceNotification` | 14 | Exported Function
+`UnsubscribeServiceChangeNotifications` | 17 | Exported Function
+`WaitServiceState` | 18 | Exported Function
+`I_ScValidatePnPService` | 15 | Exported Function
+`SubscribeServiceChangeNotifications` | 16 | Exported Function
+`I_ScIsSecurityProcess` | 3 | Exported Function
+`I_ScPnPGetServiceName` | 4 | Exported Function
+`I_QueryTagInformation` | 1 | Exported Function
+`I_ScBroadcastServiceControlMessage` | 2 | Exported Function
+`I_ScQueryServiceConfig` | 5 | Exported Function
+`I_ScRpcBindA` | 8 | Exported Function
+`I_ScRpcBindW` | 9 | Exported Function
+`I_ScRegisterDeviceNotification` | 6 | Exported Function
+`I_ScRegisterPreshutdownRestart` | 7 | Exported Function
 
 
 ## Signature

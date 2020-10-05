@@ -24,18 +24,18 @@ PE256 | `83C98429971AC38F36E0519109863B0B1FFD3E719CDBE7EF5A78441EA83A91A7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConnectionScheduleDialog` | 2 (0x2) | Exported Function | 0x64f08340 | 0x00008340
-`ConnectionScheduleDialogEx` | 9 (0x9) | Exported Function | 0x64f08360 | 0x00008360
-`DialinHoursDialog` | 3 (0x3) | Exported Function | 0x64f04b60 | 0x00004b60
-`DialinHoursDialogEx` | 6 (0x6) | Exported Function | 0x64f04b80 | 0x00004b80
-`DirSyncScheduleDialog` | 4 (0x4) | Exported Function | 0x64f04ed0 | 0x00004ed0
-`DirSyncScheduleDialogEx` | 10 (0xa) | Exported Function | 0x64f04ef0 | 0x00004ef0
-`LogonScheduleDialog` | 1 (0x1) | Exported Function | 0x64f04990 | 0x00004990
-`LogonScheduleDialogEx` | 5 (0x5) | Exported Function | 0x64f049b0 | 0x000049b0
-`ReplicationScheduleDialog` | 7 (0x7) | Exported Function | 0x64f08570 | 0x00008570
-`ReplicationScheduleDialogEx` | 8 (0x8) | Exported Function | 0x64f08590 | 0x00008590
+Function Name | Ordinal | Type
+-- | -- | --
+`LogonScheduleDialog` | 1 | Exported Function
+`DirSyncScheduleDialogEx` | 10 | Exported Function
+`LogonScheduleDialogEx` | 5 | Exported Function
+`ReplicationScheduleDialogEx` | 8 | Exported Function
+`ReplicationScheduleDialog` | 7 | Exported Function
+`ConnectionScheduleDialogEx` | 9 | Exported Function
+`ConnectionScheduleDialog` | 2 | Exported Function
+`DialinHoursDialog` | 3 | Exported Function
+`DirSyncScheduleDialog` | 4 | Exported Function
+`DialinHoursDialogEx` | 6 | Exported Function
 
 
 ## Signature

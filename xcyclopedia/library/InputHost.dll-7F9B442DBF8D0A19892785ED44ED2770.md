@@ -24,38 +24,31 @@ PE256 | `B88F3F3E7F8E5771DD083CB04AB9B13E8DEC62B448DBF93EAD7D9557365CD1E3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateComboButtonProxy` | 2613 (0xa35) | Exported Function | 0x10024860 | 0x00024860
-`SetInputFocus` | 2611 (0xa33) | Exported Function | 0x10025440 | 0x00025440
-`SetInputDeviceRepeatParameters` | 2629 (0xa45) | Exported Function | 0x10025340 | 0x00025340
-`SetInputDeviceIndicatorState` | 2610 (0xa32) | Exported Function | 0x10025280 | 0x00025280
-`SetInputButtonEnabledOnIdle` | 2628 (0xa44) | Exported Function | 0x100253c0 | 0x000253c0
-`Ordinal2607` | 2607 (0xa2f) | Exported Function | 0x100261b0 | 0x000261b0
-`Ordinal2606` | 2606 (0xa2e) | Exported Function | 0x10026150 | 0x00026150
-`Ordinal2605` | 2605 (0xa2d) | Exported Function | 0x10026050 | 0x00026050
-`Ordinal2604` | 2604 (0xa2c) | Exported Function | 0x10025fe0 | 0x00025fe0
-`Ordinal2603` | 2603 (0xa2b) | Exported Function | 0x100260f0 | 0x000260f0
-`Ordinal2602` | 2602 (0xa2a) | Exported Function | 0x10026090 | 0x00026090
-`Ordinal2601` | 2601 (0xa29) | Exported Function | 0x10025f40 | 0x00025f40
-`DllGetClassObject` | 2627 (0xa43) | Exported Function | 0x10027640 | 0x00027640
-`DllGetActivationFactory` | 2626 (0xa42) | Exported Function | 0x10027620 | 0x00027620
-`DllCanUnloadNow` | 2625 (0xa41) | Exported Function | 0x10027670 | 0x00027670
-`CreateViewHitTestRequestClient` | 2624 (0xa40) | Exported Function | 0x10025320 | 0x00025320
-`CreateTouchInputHost` | 2609 (0xa31) | Exported Function | 0x10025270 | 0x00025270
-`CreatePointerInputHost` | 2608 (0xa30) | Exported Function | 0x10025270 | 0x00025270
-`CreateMPCManagerClient` | 2623 (0xa3f) | Exported Function | 0x100255a0 | 0x000255a0
-`CreateInputSystemClientConnection` | 2622 (0xa3e) | Exported Function | 0x10030750 | 0x00030750
-`CreateInputHostForProcess` | 2621 (0xa3d) | Exported Function | 0x100251b0 | 0x000251b0
-`CreateInputHost` | 2620 (0xa3c) | Exported Function | 0x10025190 | 0x00025190
-`CreateInputDeviceWatcher` | 2619 (0xa3b) | Exported Function | 0x10025290 | 0x00025290
-`CreateHeatGripServiceClient` | 2618 (0xa3a) | Exported Function | 0x100c1020 | 0x000c1020
-`CreateGenericInputHost` | 2617 (0xa39) | Exported Function | 0x10025250 | 0x00025250
-`CreateDragOperationPrivate` | 2616 (0xa38) | Exported Function | 0x100247b0 | 0x000247b0
-`CreateCursorManager` | 2615 (0xa37) | Exported Function | 0x10026800 | 0x00026800
-`CreateCursorClient` | 2614 (0xa36) | Exported Function | 0x10026820 | 0x00026820
-`TouchInputHostCreate` | 2612 (0xa34) | Exported Function | 0x10025280 | 0x00025280
-`ViewHitTestClientCreate` | 2630 (0xa46) | Exported Function | 0x10025300 | 0x00025300
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetActivationFactory` | 2626 | Exported Function
+`DllGetClassObject` | 2627 | Exported Function
+`DllCanUnloadNow` | 2625 | Exported Function
+`CreateTouchInputHost` | 2609 | Exported Function
+`CreateViewHitTestRequestClient` | 2624 | Exported Function
+`SetInputButtonEnabledOnIdle` | 2628 | Exported Function
+`TouchInputHostCreate` | 2612 | Exported Function
+`ViewHitTestClientCreate` | 2630 | Exported Function
+`SetInputFocus` | 2611 | Exported Function
+`SetInputDeviceIndicatorState` | 2610 | Exported Function
+`SetInputDeviceRepeatParameters` | 2629 | Exported Function
+`CreatePointerInputHost` | 2608 | Exported Function
+`CreateDragOperationPrivate` | 2616 | Exported Function
+`CreateGenericInputHost` | 2617 | Exported Function
+`CreateCursorManager` | 2615 | Exported Function
+`CreateComboButtonProxy` | 2613 | Exported Function
+`CreateCursorClient` | 2614 | Exported Function
+`CreateHeatGripServiceClient` | 2618 | Exported Function
+`CreateInputSystemClientConnection` | 2622 | Exported Function
+`CreateMPCManagerClient` | 2623 | Exported Function
+`CreateInputHostForProcess` | 2621 | Exported Function
+`CreateInputDeviceWatcher` | 2619 | Exported Function
+`CreateInputHost` | 2620 | Exported Function
 
 
 ## Signature

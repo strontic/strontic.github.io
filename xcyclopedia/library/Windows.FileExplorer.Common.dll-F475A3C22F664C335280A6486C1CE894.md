@@ -24,29 +24,27 @@ PE256 | `263E479F7B604E8C7FE8B5F30CF7630E147B9100DF4D1CFB776CB1208012D87E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ApplyProviderSettings` | 2002 (0x7d2) | Exported Function | 0x0000000180032ed0 | 0x00032ed0
-`Ordinal2001` | 2001 (0x7d1) | Exported Function | 0x000000018001c870 | 0x0001c870
-`Ordinal2000` | 2000 (0x7d0) | Exported Function | 0x0000000180027140 | 0x00027140
-`GatherProviderSettings` | 2003 (0x7d3) | Exported Function | 0x0000000180032d70 | 0x00032d70
-`FECommon_UpdateFilePlaceholderStates` | 2020 (0x7e4) | Exported Function | 0x0000000180007b90 | 0x00007b90
-`FECommon_SetPlaceholderReparsePointAttribute2` | 2019 (0x7e3) | Exported Function | 0x0000000180007db0 | 0x00007db0
-`FECommon_SetPlaceholderReparsePointAttribute` | 2018 (0x7e2) | Exported Function | 0x0000000180007e40 | 0x00007e40
-`FECommon_PerformCloudFilePinAction` | 2017 (0x7e1) | Exported Function | 0x0000000180007f20 | 0x00007f20
-`FECommon_GetStorageProviderInfoFromItem` | 2016 (0x7e0) | Exported Function | 0x0000000180007f10 | 0x00007f10
-`RegisterChangeNotifications` | 2004 (0x7d4) | Exported Function | 0x0000000180033010 | 0x00033010
-`FECommon_GetStorageProviderDisplayName` | 2015 (0x7df) | Exported Function | 0x0000000180007e90 | 0x00007e90
-`FECommon_GetPlaceholderStatesFromFileAttributesAndReparsePointTag` | 2013 (0x7dd) | Exported Function | 0x0000000180007e60 | 0x00007e60
-`FECommon_FilePlaceholder_CreateInstance` | 2012 (0x7dc) | Exported Function | 0x0000000180007e70 | 0x00007e70
-`FECommon_FilePlaceholder_BindToPrimaryStream` | 2011 (0x7db) | Exported Function | 0x0000000180007ca0 | 0x00007ca0
-`FECommon_CSyncRootManager_CreateInstance` | 2009 (0x7d9) | Exported Function | 0x0000000180007a30 | 0x00007a30
-`FECommon_CreatePlaceholderFile` | 2010 (0x7da) | Exported Function | 0x0000000180007da0 | 0x00007da0
-`FECommon_BindToFilePlaceholderHandler` | 2008 (0x7d8) | Exported Function | 0x0000000180007e80 | 0x00007e80
-`DllGetClassObject` | 2007 (0x7d7) | Exported Function | 0x0000000180007600 | 0x00007600
-`DllCanUnloadNow` | 2006 (0x7d6) | Exported Function | 0x00000001800076f0 | 0x000076f0
-`FECommon_GetSkyDriveNetworkStates` | 2014 (0x7de) | Exported Function | 0x0000000180007a40 | 0x00007a40
-`UnregisterChangeNotifications` | 2005 (0x7d5) | Exported Function | 0x0000000180033100 | 0x00033100
+Function Name | Ordinal | Type
+-- | -- | --
+`FECommon_PerformCloudFilePinAction` | 2017 | Exported Function
+`FECommon_SetPlaceholderReparsePointAttribute` | 2018 | Exported Function
+`FECommon_GetStorageProviderDisplayName` | 2015 | Exported Function
+`FECommon_GetStorageProviderInfoFromItem` | 2016 | Exported Function
+`FECommon_SetPlaceholderReparsePointAttribute2` | 2019 | Exported Function
+`RegisterChangeNotifications` | 2004 | Exported Function
+`UnregisterChangeNotifications` | 2005 | Exported Function
+`FECommon_UpdateFilePlaceholderStates` | 2020 | Exported Function
+`GatherProviderSettings` | 2003 | Exported Function
+`FECommon_GetSkyDriveNetworkStates` | 2014 | Exported Function
+`DllGetClassObject` | 2007 | Exported Function
+`FECommon_BindToFilePlaceholderHandler` | 2008 | Exported Function
+`ApplyProviderSettings` | 2002 | Exported Function
+`DllCanUnloadNow` | 2006 | Exported Function
+`FECommon_CreatePlaceholderFile` | 2010 | Exported Function
+`FECommon_FilePlaceholder_CreateInstance` | 2012 | Exported Function
+`FECommon_GetPlaceholderStatesFromFileAttributesAndReparsePointTag` | 2013 | Exported Function
+`FECommon_CSyncRootManager_CreateInstance` | 2009 | Exported Function
+`FECommon_FilePlaceholder_BindToPrimaryStream` | 2011 | Exported Function
 
 
 ## Signature

@@ -24,14 +24,14 @@ PE256 | `7D3A8306E825471B43F33A2705573B51068494C5C726180BA81F491B1AC0F284`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddDemoAppLicense` | 5 (0x5) | Exported Function | 0x0000000180002e90 | 0x00002e90
-`HrAddAppxLicense` | 1 (0x1) | Exported Function | 0x0000000180002b90 | 0x00002b90
-`HrInstallClipLicense` | 2 (0x2) | Exported Function | 0x0000000180002cf0 | 0x00002cf0
-`HrNotifyPhoneLicenseReady` | 3 (0x3) | Exported Function | 0x0000000180002d40 | 0x00002d40
-`HrRemoveAppxLicense` | 4 (0x4) | Exported Function | 0x0000000180002c50 | 0x00002c50
-`RemoveDemoAppLicense` | 6 (0x6) | Exported Function | 0x0000000180002ef0 | 0x00002ef0
+Function Name | Ordinal | Type
+-- | -- | --
+`HrNotifyPhoneLicenseReady` | 3 | Exported Function
+`HrRemoveAppxLicense` | 4 | Exported Function
+`RemoveDemoAppLicense` | 6 | Exported Function
+`AddDemoAppLicense` | 5 | Exported Function
+`HrAddAppxLicense` | 1 | Exported Function
+`HrInstallClipLicense` | 2 | Exported Function
 
 
 ## Signature

@@ -24,22 +24,22 @@ PE256 | `CC2F14BA4FF65086DB3FE86D3683BBAFE7DCB0D7617EE23D5BC3C66B4080E346`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BrandCleanInstallStubs` | 5 (0x5) | Exported Function | 0x100185d0 | 0x000185d0
-`BrandICW` | 7 (0x7) | Exported Function | 0x100173a0 | 0x000173a0
-`BrandICW2` | 6 (0x6) | Exported Function | 0x10017430 | 0x00017430
-`BrandIE4` | 8 (0x8) | Exported Function | 0x10018060 | 0x00018060
-`BrandIEActiveSetup` | 9 (0x9) | Exported Function | 0x10017590 | 0x00017590
-`BrandInternetExplorer` | 10 (0xa) | Exported Function | 0x10016e20 | 0x00016e20
-`BrandIntra` | 11 (0xb) | Exported Function | 0x10017530 | 0x00017530
-`BrandMe` | 12 (0xc) | Exported Function | 0x10017510 | 0x00017510
-`Clear` | 13 (0xd) | Exported Function | 0x10018aa0 | 0x00018aa0
-`CloseRASConnections` | 1 (0x1) | Exported Function | 0x10018f80 | 0x00018f80
-`InternetInitializeAutoProxyDll` | 14 (0xe) | Exported Function | 0x100183b0 | 0x000183b0
-`ProcessGroupPolicyForActivities` | 2 (0x2) | Exported Function | 0x1001a380 | 0x0001a380
-`ProcessGroupPolicyForActivitiesEx` | 3 (0x3) | Exported Function | 0x1001a710 | 0x0001a710
-`ProcessGroupPolicyForZoneMap` | 4 (0x4) | Exported Function | 0x10019d00 | 0x00019d00
+Function Name | Ordinal | Type
+-- | -- | --
+`CloseRASConnections` | 1 | Exported Function
+`Clear` | 13 | Exported Function
+`BrandMe` | 12 | Exported Function
+`InternetInitializeAutoProxyDll` | 14 | Exported Function
+`ProcessGroupPolicyForZoneMap` | 4 | Exported Function
+`ProcessGroupPolicyForActivitiesEx` | 3 | Exported Function
+`ProcessGroupPolicyForActivities` | 2 | Exported Function
+`BrandICW2` | 6 | Exported Function
+`BrandICW` | 7 | Exported Function
+`BrandCleanInstallStubs` | 5 | Exported Function
+`BrandIE4` | 8 | Exported Function
+`BrandIntra` | 11 | Exported Function
+`BrandInternetExplorer` | 10 | Exported Function
+`BrandIEActiveSetup` | 9 | Exported Function
 
 
 ## Signature

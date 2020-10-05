@@ -24,14 +24,14 @@ PE256 | `A1655C8622B9F2BA55E697DFDC0B5E0F22DAA9D4C6F57DBB97CB3EE70548DCC3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllGetClassObject` | 1 (0x1) | Exported Function | 0x0000000180013d00 | 0x00013d00
-`Microsoft_WDF_UMDF_Version` | 6 (0x6) | Exported Function | 0x0000000180029490 | 0x00029490
-`VReaderCreate` | 2 (0x2) | Exported Function | 0x0000000180015ae0 | 0x00015ae0
-`VReaderDeinitialize` | 3 (0x3) | Exported Function | 0x00000001800158c0 | 0x000158c0
-`VReaderDestroy` | 4 (0x4) | Exported Function | 0x0000000180016600 | 0x00016600
-`VReaderInitialize` | 5 (0x5) | Exported Function | 0x00000001800153d0 | 0x000153d0
+Function Name | Ordinal | Type
+-- | -- | --
+`VReaderDeinitialize` | 3 | Exported Function
+`VReaderDestroy` | 4 | Exported Function
+`VReaderInitialize` | 5 | Exported Function
+`DllGetClassObject` | 1 | Exported Function
+`Microsoft_WDF_UMDF_Version` | 6 | Exported Function
+`VReaderCreate` | 2 | Exported Function
 
 
 ## Signature

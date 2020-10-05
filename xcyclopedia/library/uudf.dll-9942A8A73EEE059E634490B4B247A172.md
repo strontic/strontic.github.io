@@ -24,26 +24,26 @@ PE256 | `C542E0D5A96C1C84FC45C451A7D561EC482A7B09A5692C12EBB5CCF40575D7DF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Chkdsk` | 13 (0xd) | Exported Function | 0x000000018000d580 | 0x0000d580
-`public: virtual __cdecl UDF_SA::~UDF_SA(void) __ptr64` | 7 (0x7) | Exported Function | 0x0000000180019640 | 0x00019640
-`public: virtual __cdecl UDF_LVOL::~UDF_LVOL(void) __ptr64` | 6 (0x6) | Exported Function | 0x0000000180012ed0 | 0x00012ed0
-`public: virtual __cdecl METADATA_PARTITION::~METADATA_PARTITION(void) __ptr64` | 5 (0x5) | Exported Function | 0x000000018001abf0 | 0x0001abf0
-`public: unsigned char __cdecl UDF_SA::Initialize(class LOG_IO_DP_DRIVE * __ptr64,class MESSAGE * __ptr64,unsigned short) __ptr64` | 10 (0xa) | Exported Function | 0x0000000180019690 | 0x00019690
-`public: unsigned char __cdecl UDF_LVOL::ReadFromDisk(class UDF_SA * __ptr64,class MESSAGE * __ptr64,class VDS * __ptr64) __ptr64` | 12 (0xc) | Exported Function | 0x0000000180013400 | 0x00013400
-`public: unsigned char __cdecl UDF_LVOL::CreateOnDisk(class UDF_SA * __ptr64,class MESSAGE * __ptr64,class VDS * __ptr64,struct EXTENTAD * __ptr64,unsigned long,struct EXTENTAD * __ptr64) __ptr64` | 9 (0x9) | Exported Function | 0x0000000180013860 | 0x00013860
-`public: enum FORMAT_ERROR_CODE __cdecl UDF_VOL::Initialize(class WSTRING const * __ptr64,class MESSAGE * __ptr64,unsigned char,unsigned short,unsigned char,unsigned char,unsigned char) __ptr64` | 11 (0xb) | Exported Function | 0x0000000180019990 | 0x00019990
-`public: __cdecl UDF_VOL::UDF_VOL(void) __ptr64` | 4 (0x4) | Exported Function | 0x0000000180019900 | 0x00019900
-`public: __cdecl UDF_SA::UDF_SA(void) __ptr64` | 3 (0x3) | Exported Function | 0x0000000180019530 | 0x00019530
-`public: __cdecl UDF_LVOL::UDF_LVOL(void) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180012b90 | 0x00012b90
-`public: __cdecl METADATA_PARTITION::METADATA_PARTITION(void) __ptr64` | 1 (0x1) | Exported Function | 0x000000018001ab90 | 0x0001ab90
-`GetFilesystemInformation` | 17 (0x11) | Exported Function | 0x000000018000db50 | 0x0000db50
-`FormatEx` | 16 (0x10) | Exported Function | 0x000000018000e240 | 0x0000e240
-`Format` | 15 (0xf) | Exported Function | 0x000000018000df00 | 0x0000df00
-`ChkdskEx` | 14 (0xe) | Exported Function | 0x000000018000d770 | 0x0000d770
-`public: virtual __cdecl UDF_VOL::~UDF_VOL(void) __ptr64` | 8 (0x8) | Exported Function | 0x0000000180019950 | 0x00019950
-`Recover` | 18 (0x12) | Exported Function | 0x000000018000e800 | 0x0000e800
+Function Name | Ordinal | Type
+-- | -- | --
+`public: unsigned char __cdecl UDF_LVOL::ReadFromDisk(class UDF_SA * __ptr64,class MESSAGE * __ptr64,class VDS * __ptr64) __ptr64` | 12 | Exported Function
+`public: unsigned char __cdecl UDF_SA::Initialize(class LOG_IO_DP_DRIVE * __ptr64,class MESSAGE * __ptr64,unsigned short) __ptr64` | 10 | Exported Function
+`public: enum FORMAT_ERROR_CODE __cdecl UDF_VOL::Initialize(class WSTRING const * __ptr64,class MESSAGE * __ptr64,unsigned char,unsigned short,unsigned char,unsigned char,unsigned char) __ptr64` | 11 | Exported Function
+`public: unsigned char __cdecl UDF_LVOL::CreateOnDisk(class UDF_SA * __ptr64,class MESSAGE * __ptr64,class VDS * __ptr64,struct EXTENTAD * __ptr64,unsigned long,struct EXTENTAD * __ptr64) __ptr64` | 9 | Exported Function
+`public: virtual __cdecl METADATA_PARTITION::~METADATA_PARTITION(void) __ptr64` | 5 | Exported Function
+`public: virtual __cdecl UDF_VOL::~UDF_VOL(void) __ptr64` | 8 | Exported Function
+`Recover` | 18 | Exported Function
+`public: virtual __cdecl UDF_LVOL::~UDF_LVOL(void) __ptr64` | 6 | Exported Function
+`public: virtual __cdecl UDF_SA::~UDF_SA(void) __ptr64` | 7 | Exported Function
+`Format` | 15 | Exported Function
+`FormatEx` | 16 | Exported Function
+`Chkdsk` | 13 | Exported Function
+`ChkdskEx` | 14 | Exported Function
+`GetFilesystemInformation` | 17 | Exported Function
+`public: __cdecl UDF_SA::UDF_SA(void) __ptr64` | 3 | Exported Function
+`public: __cdecl UDF_VOL::UDF_VOL(void) __ptr64` | 4 | Exported Function
+`public: __cdecl METADATA_PARTITION::METADATA_PARTITION(void) __ptr64` | 1 | Exported Function
+`public: __cdecl UDF_LVOL::UDF_LVOL(void) __ptr64` | 2 | Exported Function
 
 
 ## Signature

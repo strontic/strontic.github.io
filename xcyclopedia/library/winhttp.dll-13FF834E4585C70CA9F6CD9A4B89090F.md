@@ -24,77 +24,77 @@ PE256 | `7F1E4ACE6497653987E4959CCE301EB084AEA18B24AC403FFB0E4A28F4CC5A87`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x760c9870 | 0x00049870
-`WinHttpGetProxySettingsVersion` | 38 (0x26) | Exported Function | 0x760adc10 | 0x0002dc10
-`WinHttpGetTunnelSocket` | 39 (0x27) | Exported Function | 0x760f1fa0 | 0x00071fa0
-`WinHttpOpen` | 40 (0x28) | Exported Function | 0x760a2ef0 | 0x00022ef0
-`WinHttpOpenRequest` | 41 (0x29) | Exported Function | 0x760a9660 | 0x00029660
-`WinHttpPacJsWorkerMain` | 1 (0x1) | Exported Function | 0x760f0930 | 0x00070930
-`WinHttpProbeConnectivity` | 42 (0x2a) | Exported Function | 0x760edec0 | 0x0006dec0
-`WinHttpQueryAuthSchemes` | 43 (0x2b) | Exported Function | 0x760f24d0 | 0x000724d0
-`WinHttpQueryDataAvailable` | 44 (0x2c) | Exported Function | 0x760a9050 | 0x00029050
-`WinHttpQueryHeaders` | 45 (0x2d) | Exported Function | 0x760a3190 | 0x00023190
-`WinHttpQueryOption` | 46 (0x2e) | Exported Function | 0x760ad7d0 | 0x0002d7d0
-`WinHttpReadData` | 47 (0x2f) | Exported Function | 0x760a9d60 | 0x00029d60
-`WinHttpReadProxySettings` | 48 (0x30) | Exported Function | 0x760b13e0 | 0x000313e0
-`WinHttpReadProxySettingsHvsi` | 49 (0x31) | Exported Function | 0x760f0ee0 | 0x00070ee0
-`WinHttpReceiveResponse` | 50 (0x32) | Exported Function | 0x760aa260 | 0x0002a260
-`WinHttpResetAutoProxy` | 51 (0x33) | Exported Function | 0x760c1ca0 | 0x00041ca0
-`WinHttpSaveProxyCredentials` | 52 (0x34) | Exported Function | 0x760edf50 | 0x0006df50
-`WinHttpSendRequest` | 53 (0x35) | Exported Function | 0x760a87a0 | 0x000287a0
-`WinHttpWebSocketShutdown` | 67 (0x43) | Exported Function | 0x760f92a0 | 0x000792a0
-`WinHttpWebSocketSend` | 66 (0x42) | Exported Function | 0x760f8f40 | 0x00078f40
-`WinHttpWebSocketReceive` | 65 (0x41) | Exported Function | 0x760f8980 | 0x00078980
-`WinHttpWebSocketQueryCloseStatus` | 64 (0x40) | Exported Function | 0x760f7ee0 | 0x00077ee0
-`WinHttpWebSocketCompleteUpgrade` | 63 (0x3f) | Exported Function | 0x760f8150 | 0x00078150
-`WinHttpWebSocketClose` | 62 (0x3e) | Exported Function | 0x760f7e00 | 0x00077e00
-`WinHttpGetProxyResultEx` | 37 (0x25) | Exported Function | 0x760c20e0 | 0x000420e0
-`WinHttpTimeToSystemTime` | 61 (0x3d) | Exported Function | 0x7608c670 | 0x0000c670
-`WinHttpSetTimeouts` | 59 (0x3b) | Exported Function | 0x7608cb40 | 0x0000cb40
-`WinHttpSetStatusCallback` | 58 (0x3a) | Exported Function | 0x760a49f0 | 0x000249f0
-`WinHttpSetProxySettingsPerUser` | 57 (0x39) | Exported Function | 0x760ca3c0 | 0x0004a3c0
-`WinHttpSetOption` | 56 (0x38) | Exported Function | 0x760a4710 | 0x00024710
-`WinHttpSetDefaultProxyConfiguration` | 55 (0x37) | Exported Function | 0x760f1580 | 0x00071580
-`WinHttpSetCredentials` | 54 (0x36) | Exported Function | 0x760f2680 | 0x00072680
-`WinHttpTimeFromSystemTime` | 60 (0x3c) | Exported Function | 0x760bf930 | 0x0003f930
-`WinHttpWriteData` | 68 (0x44) | Exported Function | 0x760c2ba0 | 0x00042ba0
-`WinHttpGetProxyResult` | 36 (0x24) | Exported Function | 0x760f0ec0 | 0x00070ec0
-`WinHttpGetProxyForUrlEx2` | 33 (0x21) | Exported Function | 0x760a71f0 | 0x000271f0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x760ec0c0 | 0x0006c0c0
-`Private1` | 4 (0x4) | Exported Function | 0x760ec530 | 0x0006c530
-`SvchostPushServiceGlobals` | 5 (0x5) | Exported Function | 0x760c8a20 | 0x00048a20
-`WinHttpAddRequestHeaders` | 6 (0x6) | Exported Function | 0x760ad4e0 | 0x0002d4e0
-`WinHttpAddRequestHeadersEx` | 7 (0x7) | Exported Function | 0x760ec800 | 0x0006c800
-`WinHttpAutoProxySvcMain` | 8 (0x8) | Exported Function | 0x760c5b20 | 0x00045b20
-`WinHttpCheckPlatform` | 9 (0x9) | Exported Function | 0x760c9870 | 0x00049870
-`WinHttpCloseHandle` | 10 (0xa) | Exported Function | 0x760a67b0 | 0x000267b0
-`WinHttpConnect` | 11 (0xb) | Exported Function | 0x760a78f0 | 0x000278f0
-`WinHttpConnectionDeletePolicyEntries` | 12 (0xc) | Exported Function | 0x760c7e70 | 0x00047e70
-`WinHttpConnectionDeleteProxyInfo` | 13 (0xd) | Exported Function | 0x760f1a50 | 0x00071a50
-`WinHttpConnectionFreeNameList` | 14 (0xe) | Exported Function | 0x760f1ae0 | 0x00071ae0
-`WinHttpConnectionFreeProxyInfo` | 15 (0xf) | Exported Function | 0x760f1b60 | 0x00071b60
-`WinHttpConnectionFreeProxyList` | 16 (0x10) | Exported Function | 0x760f1be0 | 0x00071be0
-`WinHttpConnectionGetNameList` | 17 (0x11) | Exported Function | 0x760f1c60 | 0x00071c60
-`WinHttpConnectionGetProxyInfo` | 18 (0x12) | Exported Function | 0x760f1ce0 | 0x00071ce0
-`WinHttpConnectionGetProxyList` | 19 (0x13) | Exported Function | 0x760f1d70 | 0x00071d70
-`WinHttpGetProxyForUrlEx` | 34 (0x22) | Exported Function | 0x760f0d40 | 0x00070d40
-`WinHttpGetProxyForUrl` | 32 (0x20) | Exported Function | 0x760a8d50 | 0x00028d50
-`WinHttpGetIEProxyConfigForCurrentUser` | 31 (0x1f) | Exported Function | 0x760b0510 | 0x00030510
-`WinHttpGetDefaultProxyConfiguration` | 30 (0x1e) | Exported Function | 0x760ae400 | 0x0002e400
-`WinHttpFreeProxySettings` | 29 (0x1d) | Exported Function | 0x760f0c90 | 0x00070c90
-`WinHttpFreeProxyResultEx` | 28 (0x1c) | Exported Function | 0x760aa9c0 | 0x0002a9c0
-`WinHttpGetProxyForUrlHvsi` | 35 (0x23) | Exported Function | 0x760f0e20 | 0x00070e20
-`WinHttpFreeProxyResult` | 27 (0x1b) | Exported Function | 0x760f0c30 | 0x00070c30
-`WinHttpCreateUrl` | 25 (0x19) | Exported Function | 0x7609adc0 | 0x0001adc0
-`WinHttpCreateProxyResolver` | 24 (0x18) | Exported Function | 0x760a4240 | 0x00024240
-`WinHttpCrackUrl` | 23 (0x17) | Exported Function | 0x7609b410 | 0x0001b410
-`WinHttpConnectionUpdateIfIndexTable` | 22 (0x16) | Exported Function | 0x760c56a0 | 0x000456a0
-`WinHttpConnectionSetProxyInfo` | 21 (0x15) | Exported Function | 0x760f1df0 | 0x00071df0
-`WinHttpConnectionSetPolicyEntries` | 20 (0x14) | Exported Function | 0x760c7cd0 | 0x00047cd0
-`WinHttpDetectAutoProxyConfigUrl` | 26 (0x1a) | Exported Function | 0x760f0a40 | 0x00070a40
-`WinHttpWriteProxySettings` | 69 (0x45) | Exported Function | 0x760f0fc0 | 0x00070fc0
+Function Name | Ordinal | Type
+-- | -- | --
+`WinHttpReadData` | 47 | Exported Function
+`WinHttpReadProxySettings` | 48 | Exported Function
+`WinHttpQueryHeaders` | 45 | Exported Function
+`WinHttpQueryOption` | 46 | Exported Function
+`WinHttpResetAutoProxy` | 51 | Exported Function
+`WinHttpSaveProxyCredentials` | 52 | Exported Function
+`WinHttpReadProxySettingsHvsi` | 49 | Exported Function
+`WinHttpReceiveResponse` | 50 | Exported Function
+`WinHttpQueryDataAvailable` | 44 | Exported Function
+`WinHttpGetTunnelSocket` | 39 | Exported Function
+`WinHttpOpen` | 40 | Exported Function
+`WinHttpGetProxyResultEx` | 37 | Exported Function
+`WinHttpGetProxySettingsVersion` | 38 | Exported Function
+`WinHttpProbeConnectivity` | 42 | Exported Function
+`WinHttpQueryAuthSchemes` | 43 | Exported Function
+`WinHttpOpenRequest` | 41 | Exported Function
+`WinHttpPacJsWorkerMain` | 1 | Exported Function
+`WinHttpWebSocketQueryCloseStatus` | 64 | Exported Function
+`WinHttpWebSocketReceive` | 65 | Exported Function
+`WinHttpWebSocketClose` | 62 | Exported Function
+`WinHttpWebSocketCompleteUpgrade` | 63 | Exported Function
+`WinHttpWriteData` | 68 | Exported Function
+`WinHttpWriteProxySettings` | 69 | Exported Function
+`WinHttpWebSocketSend` | 66 | Exported Function
+`WinHttpWebSocketShutdown` | 67 | Exported Function
+`WinHttpTimeToSystemTime` | 61 | Exported Function
+`WinHttpSetDefaultProxyConfiguration` | 55 | Exported Function
+`WinHttpSetOption` | 56 | Exported Function
+`WinHttpSendRequest` | 53 | Exported Function
+`WinHttpSetCredentials` | 54 | Exported Function
+`WinHttpSetTimeouts` | 59 | Exported Function
+`WinHttpTimeFromSystemTime` | 60 | Exported Function
+`WinHttpSetProxySettingsPerUser` | 57 | Exported Function
+`WinHttpSetStatusCallback` | 58 | Exported Function
+`WinHttpGetProxyResult` | 36 | Exported Function
+`WinHttpConnectionDeleteProxyInfo` | 13 | Exported Function
+`WinHttpConnectionFreeNameList` | 14 | Exported Function
+`WinHttpConnect` | 11 | Exported Function
+`WinHttpConnectionDeletePolicyEntries` | 12 | Exported Function
+`WinHttpConnectionGetNameList` | 17 | Exported Function
+`WinHttpConnectionGetProxyInfo` | 18 | Exported Function
+`WinHttpConnectionFreeProxyInfo` | 15 | Exported Function
+`WinHttpConnectionFreeProxyList` | 16 | Exported Function
+`WinHttpCloseHandle` | 10 | Exported Function
+`Private1` | 4 | Exported Function
+`SvchostPushServiceGlobals` | 5 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`WinHttpAutoProxySvcMain` | 8 | Exported Function
+`WinHttpCheckPlatform` | 9 | Exported Function
+`WinHttpAddRequestHeaders` | 6 | Exported Function
+`WinHttpAddRequestHeadersEx` | 7 | Exported Function
+`WinHttpGetDefaultProxyConfiguration` | 30 | Exported Function
+`WinHttpGetIEProxyConfigForCurrentUser` | 31 | Exported Function
+`WinHttpFreeProxyResultEx` | 28 | Exported Function
+`WinHttpFreeProxySettings` | 29 | Exported Function
+`WinHttpGetProxyForUrlEx2` | 33 | Exported Function
+`WinHttpGetProxyForUrlHvsi` | 35 | Exported Function
+`WinHttpGetProxyForUrl` | 32 | Exported Function
+`WinHttpGetProxyForUrlEx` | 34 | Exported Function
+`WinHttpFreeProxyResult` | 27 | Exported Function
+`WinHttpConnectionSetProxyInfo` | 21 | Exported Function
+`WinHttpConnectionUpdateIfIndexTable` | 22 | Exported Function
+`WinHttpConnectionGetProxyList` | 19 | Exported Function
+`WinHttpConnectionSetPolicyEntries` | 20 | Exported Function
+`WinHttpCreateUrl` | 25 | Exported Function
+`WinHttpDetectAutoProxyConfigUrl` | 26 | Exported Function
+`WinHttpCrackUrl` | 23 | Exported Function
+`WinHttpCreateProxyResolver` | 24 | Exported Function
 
 
 ## Signature

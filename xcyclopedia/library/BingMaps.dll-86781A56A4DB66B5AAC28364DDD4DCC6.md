@@ -24,9 +24,9 @@ PE256 | `EC35567583F4F8EAD3B2DBCE872519539BAB7EF67387DBE982AD88F829BFBFCA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetBingMapsFactory` | 1 (0x1) | Exported Function | 0x101fe580 | 0x001fe580
+Function Name | Ordinal | Type
+-- | -- | --
+`GetBingMapsFactory` | 1 | Exported Function
 
 
 ## Signature

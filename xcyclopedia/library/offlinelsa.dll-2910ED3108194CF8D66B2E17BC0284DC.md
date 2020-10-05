@@ -24,27 +24,27 @@ PE256 | `810BE3170525A801ECD1FF5799E06176F0F1A33555143861F4EF3955F111D480`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LsaOfflineAddAccountRights` | 1 (0x1) | Exported Function | 0x1000cdf0 | 0x0000cdf0
-`LsaOfflineRemovePrivilegesFromAccount` | 17 (0x11) | Exported Function | 0x1000cc60 | 0x0000cc60
-`LsaOfflineRemoveAccountRights` | 16 (0x10) | Exported Function | 0x1000cef0 | 0x0000cef0
-`LsaOfflineQueryInformationPolicy` | 15 (0xf) | Exported Function | 0x1000c7f0 | 0x0000c7f0
-`LsaOfflineOpenPolicyForInstaller` | 14 (0xe) | Exported Function | 0x1000c620 | 0x0000c620
-`LsaOfflineOpenPolicyExternal` | 13 (0xd) | Exported Function | 0x1000c6e0 | 0x0000c6e0
-`LsaOfflineOpenPolicy` | 12 (0xc) | Exported Function | 0x1000c530 | 0x0000c530
-`LsaOfflineOpenAccount` | 11 (0xb) | Exported Function | 0x1000ca40 | 0x0000ca40
-`LsaOfflineSetSystemAccessAccount` | 18 (0x12) | Exported Function | 0x1000d0b0 | 0x0000d0b0
-`LsaOfflineGetSystemAccessAccount` | 10 (0xa) | Exported Function | 0x1000d010 | 0x0000d010
-`LsaOfflineEnumeratePrivilegesOfAccount` | 8 (0x8) | Exported Function | 0x1000cb20 | 0x0000cb20
-`LsaOfflineEnumerateAccounts` | 7 (0x7) | Exported Function | 0x1000c8a0 | 0x0000c8a0
-`LsaOfflineEnumerateAccountRights` | 6 (0x6) | Exported Function | 0x1000cd00 | 0x0000cd00
-`LsaOfflineDelete` | 5 (0x5) | Exported Function | 0x1000d280 | 0x0000d280
-`LsaOfflineCreateAccount` | 4 (0x4) | Exported Function | 0x1000c960 | 0x0000c960
-`LsaOfflineClose` | 3 (0x3) | Exported Function | 0x1000d150 | 0x0000d150
-`LsaOfflineAddPrivilegesToAccount` | 2 (0x2) | Exported Function | 0x1000cbc0 | 0x0000cbc0
-`LsaOfflineFreeMemory` | 9 (0x9) | Exported Function | 0x1000d310 | 0x0000d310
-`LsaOfflineSyskeyRequest` | 19 (0x13) | Exported Function | 0x1000d330 | 0x0000d330
+Function Name | Ordinal | Type
+-- | -- | --
+`LsaOfflineOpenPolicyExternal` | 13 | Exported Function
+`LsaOfflineOpenPolicyForInstaller` | 14 | Exported Function
+`LsaOfflineOpenAccount` | 11 | Exported Function
+`LsaOfflineOpenPolicy` | 12 | Exported Function
+`LsaOfflineQueryInformationPolicy` | 15 | Exported Function
+`LsaOfflineSetSystemAccessAccount` | 18 | Exported Function
+`LsaOfflineSyskeyRequest` | 19 | Exported Function
+`LsaOfflineRemoveAccountRights` | 16 | Exported Function
+`LsaOfflineRemovePrivilegesFromAccount` | 17 | Exported Function
+`LsaOfflineGetSystemAccessAccount` | 10 | Exported Function
+`LsaOfflineClose` | 3 | Exported Function
+`LsaOfflineCreateAccount` | 4 | Exported Function
+`LsaOfflineAddAccountRights` | 1 | Exported Function
+`LsaOfflineAddPrivilegesToAccount` | 2 | Exported Function
+`LsaOfflineDelete` | 5 | Exported Function
+`LsaOfflineEnumeratePrivilegesOfAccount` | 8 | Exported Function
+`LsaOfflineFreeMemory` | 9 | Exported Function
+`LsaOfflineEnumerateAccountRights` | 6 | Exported Function
+`LsaOfflineEnumerateAccounts` | 7 | Exported Function
 
 
 ## Signature

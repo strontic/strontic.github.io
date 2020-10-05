@@ -24,41 +24,41 @@ PE256 | `968880AAF929D896506936C9F86A2FB5159A357CAB55733AFF1132E26C2AF0D2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BriAllocateRpcBuffer` | 1 (0x1) | Exported Function | 0x0000000180006f20 | 0x00006f20
-`EAQueryAggregateEventData` | 16 (0x10) | Exported Function | 0x00000001800047e0 | 0x000047e0
-`EaQueryAggregateEventConditionState` | 29 (0x1d) | Exported Function | 0x00000001800064a0 | 0x000064a0
-`EaQueryAggregatedEventParameters` | 31 (0x1f) | Exported Function | 0x000000018000aff0 | 0x0000aff0
-`EaQueryAggregatedEvent` | 30 (0x1e) | Exported Function | 0x0000000180004c70 | 0x00004c70
-`EaGetAggregation` | 28 (0x1c) | Exported Function | 0x0000000180005f10 | 0x00005f10
-`EaFreeBuffer` | 27 (0x1b) | Exported Function | 0x0000000180008940 | 0x00008940
-`EaFreeAggregatedEventParameters` | 26 (0x1a) | Exported Function | 0x0000000180009e50 | 0x00009e50
-`EAEnumerateAggregateEvents` | 15 (0xf) | Exported Function | 0x0000000180004630 | 0x00004630
-`EaEncodeBrokeredEvent` | 25 (0x19) | Exported Function | 0x0000000180008ed0 | 0x00008ed0
-`EaEnableAggregatedEvent` | 24 (0x18) | Exported Function | 0x0000000180005f20 | 0x00005f20
-`EaDisableAggregatedEvent` | 23 (0x17) | Exported Function | 0x0000000180006160 | 0x00006160
-`EaDeleteAggregation` | 22 (0x16) | Exported Function | 0x0000000180005b80 | 0x00005b80
-`EADeleteAggregateEvent` | 14 (0xe) | Exported Function | 0x00000001800045c0 | 0x000045c0
-`EaDeleteAggregatedEventParameters` | 21 (0x15) | Exported Function | 0x000000018000b440 | 0x0000b440
-`EaSignalAggregatedEvent` | 32 (0x20) | Exported Function | 0x0000000180004a00 | 0x00004a00
-`EaDeleteAggregatedEvent` | 20 (0x14) | Exported Function | 0x0000000180006830 | 0x00006830
-`EaCreateAggregation` | 18 (0x12) | Exported Function | 0x00000001800051f0 | 0x000051f0
-`EACreateAggregateEvent` | 13 (0xd) | Exported Function | 0x0000000180003e50 | 0x00003e50
-`EaCreateAggregatedEvent` | 17 (0x11) | Exported Function | 0x0000000180006e50 | 0x00006e50
-`BriUnregisterFromBrokerAvailability` | 12 (0xc) | Exported Function | 0x0000000180008c20 | 0x00008c20
-`BriSignalBrokeredEvent` | 11 (0xb) | Exported Function | 0x00000001800087f0 | 0x000087f0
-`BriResolveBrokerIdByEventId` | 10 (0xa) | Exported Function | 0x0000000180008780 | 0x00008780
-`BriRegisterToBrokerAvailability` | 9 (0x9) | Exported Function | 0x0000000180008ac0 | 0x00008ac0
-`BriIsBrokerRegistered` | 8 (0x8) | Exported Function | 0x0000000180006f30 | 0x00006f30
-`BriGetBrokerAvailabilityChangeStamp` | 7 (0x7) | Exported Function | 0x0000000180008970 | 0x00008970
-`BriFreeRpcBuffer` | 6 (0x6) | Exported Function | 0x0000000180007d80 | 0x00007d80
-`BriDeleteBrokeredEvent` | 5 (0x5) | Exported Function | 0x0000000180007c00 | 0x00007c00
-`BriCreateBrokeredEventEx` | 4 (0x4) | Exported Function | 0x0000000180007300 | 0x00007300
-`BriCreateBrokeredEvent` | 3 (0x3) | Exported Function | 0x00000001800072b0 | 0x000072b0
-`BriCleanup` | 2 (0x2) | Exported Function | 0x0000000180007020 | 0x00007020
-`EaDecodeBrokeredEvent` | 19 (0x13) | Exported Function | 0x0000000180008fc0 | 0x00008fc0
-`EaStoreAggregatedEventParameters` | 33 (0x21) | Exported Function | 0x000000018000ad80 | 0x0000ad80
+Function Name | Ordinal | Type
+-- | -- | --
+`EaEncodeBrokeredEvent` | 25 | Exported Function
+`EaEnableAggregatedEvent` | 24 | Exported Function
+`EaFreeAggregatedEventParameters` | 26 | Exported Function
+`EAEnumerateAggregateEvents` | 15 | Exported Function
+`EADeleteAggregateEvent` | 14 | Exported Function
+`EaDeleteAggregatedEventParameters` | 21 | Exported Function
+`EaDisableAggregatedEvent` | 23 | Exported Function
+`EaDeleteAggregation` | 22 | Exported Function
+`EAQueryAggregateEventData` | 16 | Exported Function
+`EaQueryAggregateEventConditionState` | 29 | Exported Function
+`EaStoreAggregatedEventParameters` | 33 | Exported Function
+`EaSignalAggregatedEvent` | 32 | Exported Function
+`EaGetAggregation` | 28 | Exported Function
+`EaFreeBuffer` | 27 | Exported Function
+`EaQueryAggregatedEventParameters` | 31 | Exported Function
+`EaQueryAggregatedEvent` | 30 | Exported Function
+`EaDeleteAggregatedEvent` | 20 | Exported Function
+`BriFreeRpcBuffer` | 6 | Exported Function
+`BriDeleteBrokeredEvent` | 5 | Exported Function
+`BriIsBrokerRegistered` | 8 | Exported Function
+`BriGetBrokerAvailabilityChangeStamp` | 7 | Exported Function
+`BriCleanup` | 2 | Exported Function
+`BriAllocateRpcBuffer` | 1 | Exported Function
+`BriCreateBrokeredEventEx` | 4 | Exported Function
+`BriCreateBrokeredEvent` | 3 | Exported Function
+`EACreateAggregateEvent` | 13 | Exported Function
+`EaCreateAggregatedEvent` | 17 | Exported Function
+`EaDecodeBrokeredEvent` | 19 | Exported Function
+`EaCreateAggregation` | 18 | Exported Function
+`BriResolveBrokerIdByEventId` | 10 | Exported Function
+`BriRegisterToBrokerAvailability` | 9 | Exported Function
+`BriUnregisterFromBrokerAvailability` | 12 | Exported Function
+`BriSignalBrokeredEvent` | 11 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `A8213594A7338BB75EF35784563C1F49FBABEA8C37352B1ED383349953E15143`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConsoleCreateIoThread` | 1 (0x1) | Exported Function | 0x0000000180003360 | 0x00003360
+Function Name | Ordinal | Type
+-- | -- | --
+`ConsoleCreateIoThread` | 1 | Exported Function
 
 
 ## Signature

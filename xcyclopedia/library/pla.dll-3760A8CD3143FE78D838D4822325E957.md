@@ -24,23 +24,23 @@ PE256 | `B1520D98B3A036A03CA645000E28393ECCC4CC2E28F4EE1C04E52C9D5A12BDAE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x1001c8e0 | 0x0001c8e0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x1001c900 | 0x0001c900
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x1001cb60 | 0x0001cb60
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x1001cb60 | 0x0001cb60
-`PlaDeleteReport` | 7 (0x7) | Exported Function | 0x10139bf0 | 0x00139bf0
-`PlaExpandTaskArguments` | 8 (0x8) | Exported Function | 0x10115c70 | 0x00115c70
-`PlaExtractCabinet` | 9 (0x9) | Exported Function | 0x10139d20 | 0x00139d20
-`PlaGetLegacyAlertActionsFlagsFromString` | 10 (0xa) | Exported Function | 0x100f0be0 | 0x000f0be0
-`PlaGetLegacyAlertActionsStringFromFlags` | 11 (0xb) | Exported Function | 0x100f1100 | 0x000f1100
-`PlaGetServerCapabilities` | 12 (0xc) | Exported Function | 0x1004c4d0 | 0x0004c4d0
-`PlaHost` | 13 (0xd) | Exported Function | 0x10116ec0 | 0x00116ec0
-`PlaServer` | 14 (0xe) | Exported Function | 0x1001cb70 | 0x0001cb70
-`PlaUpgrade` | 15 (0xf) | Exported Function | 0x10020910 | 0x00020910
-`ServiceMain` | 1 (0x1) | Exported Function | 0x1001d400 | 0x0001d400
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x1001d850 | 0x0001d850
+Function Name | Ordinal | Type
+-- | -- | --
+`PlaHost` | 13 | Exported Function
+`PlaGetServerCapabilities` | 12 | Exported Function
+`PlaGetLegacyAlertActionsStringFromFlags` | 11 | Exported Function
+`PlaServer` | 14 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`PlaUpgrade` | 15 | Exported Function
+`PlaGetLegacyAlertActionsFlagsFromString` | 10 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`PlaExtractCabinet` | 9 | Exported Function
+`PlaExpandTaskArguments` | 8 | Exported Function
+`PlaDeleteReport` | 7 | Exported Function
 
 
 ## Signature

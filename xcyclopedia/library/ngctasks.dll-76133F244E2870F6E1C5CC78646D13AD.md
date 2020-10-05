@@ -24,15 +24,15 @@ PE256 | `099C972177C6B4A25AAA362CC878A98376BBAA4898C44861B68B0964CDB8C033`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180012ce0 | 0x00012ce0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180012d00 | 0x00012d00
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x0000000180012960 | 0x00012960
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x0000000180012960 | 0x00012960
-`GetRetryTimeStamp` | 1 (0x1) | Exported Function | 0x0000000180017b20 | 0x00017b20
-`NgcTriggerTaskForOobe` | 7 (0x7) | Exported Function | 0x0000000180016c60 | 0x00016c60
-`SetAikTimeTrigger` | 2 (0x2) | Exported Function | 0x00000001800188d0 | 0x000188d0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetRetryTimeStamp` | 1 | Exported Function
+`NgcTriggerTaskForOobe` | 7 | Exported Function
+`SetAikTimeTrigger` | 2 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
 
 
 ## Signature

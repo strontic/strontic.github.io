@@ -24,14 +24,14 @@ PE256 | `2D50930A1F5997E23AC18710E4E9D38DC18D80508917A53C69CB8A6DF26FB7BE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CompileFileViaDLL` | 1 (0x1) | Exported Function | 0x10023440 | 0x00023440
-`CreateBMOFViaDLL` | 2 (0x2) | Exported Function | 0x10023650 | 0x00023650
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x1000e1a0 | 0x0000e1a0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x1000e010 | 0x0000e010
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x1000e200 | 0x0000e200
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x1000e280 | 0x0000e280
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`CompileFileViaDLL` | 1 | Exported Function
+`CreateBMOFViaDLL` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

@@ -26,17 +26,17 @@ PE256 | `3CDD262324F368E9E70D919C4547DC2F87387CBFF6C780F6F9699467229DEC9A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseGenericCounters` | 1 (0x1) | Exported Function | 0x100016e0 | 0x000016e0
-`CloseStateCounters` | 2 (0x2) | Exported Function | 0x10001700 | 0x00001700
-`CloseVersion4Counters` | 3 (0x3) | Exported Function | 0x10001720 | 0x00001720
-`CollectGenericCounters` | 4 (0x4) | Exported Function | 0x10001740 | 0x00001740
-`CollectStateCounters` | 5 (0x5) | Exported Function | 0x10001760 | 0x00001760
-`CollectVersion4Counters` | 6 (0x6) | Exported Function | 0x10001780 | 0x00001780
-`OpenGenericCounters` | 7 (0x7) | Exported Function | 0x100017a0 | 0x000017a0
-`OpenStateCounters` | 8 (0x8) | Exported Function | 0x100017e0 | 0x000017e0
-`OpenVersion4Counters` | 9 (0x9) | Exported Function | 0x10001820 | 0x00001820
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenGenericCounters` | 7 | Exported Function
+`CollectVersion4Counters` | 6 | Exported Function
+`OpenVersion4Counters` | 9 | Exported Function
+`OpenStateCounters` | 8 | Exported Function
+`CollectStateCounters` | 5 | Exported Function
+`CloseStateCounters` | 2 | Exported Function
+`CloseGenericCounters` | 1 | Exported Function
+`CollectGenericCounters` | 4 | Exported Function
+`CloseVersion4Counters` | 3 | Exported Function
 
 
 ## Signature

@@ -24,13 +24,13 @@ PE256 | `6A35DF2B76907C2CDDF7BBFDBC8351064381AFA520899E56BAAA6126FFE247E7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MappingDoAction` | 1 (0x1) | Exported Function | 0x0000000180008cf0 | 0x00008cf0
-`MappingFreePropertyBag` | 2 (0x2) | Exported Function | 0x0000000180001290 | 0x00001290
-`MappingFreeServices` | 3 (0x3) | Exported Function | 0x00000001800034e0 | 0x000034e0
-`MappingGetServices` | 4 (0x4) | Exported Function | 0x0000000180001320 | 0x00001320
-`MappingRecognizeText` | 5 (0x5) | Exported Function | 0x00000001800010e0 | 0x000010e0
+Function Name | Ordinal | Type
+-- | -- | --
+`MappingGetServices` | 4 | Exported Function
+`MappingRecognizeText` | 5 | Exported Function
+`MappingFreeServices` | 3 | Exported Function
+`MappingDoAction` | 1 | Exported Function
+`MappingFreePropertyBag` | 2 | Exported Function
 
 
 ## Signature

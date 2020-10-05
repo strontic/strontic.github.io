@@ -24,77 +24,77 @@ PE256 | `B39B5B97268423ED76F957724E4E5CDB9E1575310CA69DB6F00A6EF303EE9539`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180030f00 | 0x00030f00
-`ProcessGroupPolicyExFolderOptions` | 39 (0x27) | Exported Function | 0x000000018002fa40 | 0x0002fa40
-`ProcessGroupPolicyExFolders` | 40 (0x28) | Exported Function | 0x000000018002e1e0 | 0x0002e1e0
-`ProcessGroupPolicyExIniFile` | 41 (0x29) | Exported Function | 0x000000018002e6c0 | 0x0002e6c0
-`ProcessGroupPolicyExInternet` | 42 (0x2a) | Exported Function | 0x000000018002f080 | 0x0002f080
-`ProcessGroupPolicyExLocUsAndGroups` | 43 (0x2b) | Exported Function | 0x000000018002fcb0 | 0x0002fcb0
-`ProcessGroupPolicyExNetShares` | 44 (0x2c) | Exported Function | 0x0000000180030dc0 | 0x00030dc0
-`ProcessGroupPolicyExNetworkOptions` | 45 (0x2d) | Exported Function | 0x000000018002ff20 | 0x0002ff20
-`ProcessGroupPolicyExPowerOptions` | 46 (0x2e) | Exported Function | 0x0000000180030190 | 0x00030190
-`ProcessGroupPolicyExPrinters` | 47 (0x2f) | Exported Function | 0x000000018002ee10 | 0x0002ee10
-`ProcessGroupPolicyExRegionOptions` | 48 (0x30) | Exported Function | 0x0000000180030400 | 0x00030400
-`ProcessGroupPolicyExRegistry` | 49 (0x31) | Exported Function | 0x000000018002e930 | 0x0002e930
-`ProcessGroupPolicyExSchedTasks` | 50 (0x32) | Exported Function | 0x0000000180030670 | 0x00030670
-`ProcessGroupPolicyExServices` | 51 (0x33) | Exported Function | 0x00000001800308e0 | 0x000308e0
-`ProcessGroupPolicyExShortcuts` | 52 (0x34) | Exported Function | 0x000000018002f2f0 | 0x0002f2f0
-`ProcessGroupPolicyExStartMenu` | 53 (0x35) | Exported Function | 0x0000000180030b50 | 0x00030b50
-`ProcessGroupPolicyFiles` | 54 (0x36) | Exported Function | 0x000000018002e380 | 0x0002e380
-`ProcessGroupPolicyFolderOptions` | 55 (0x37) | Exported Function | 0x000000018002f970 | 0x0002f970
-`ProcessGroupPolicyServices` | 67 (0x43) | Exported Function | 0x0000000180030810 | 0x00030810
-`ProcessGroupPolicySchedTasks` | 66 (0x42) | Exported Function | 0x00000001800305a0 | 0x000305a0
-`ProcessGroupPolicyRegistry` | 65 (0x41) | Exported Function | 0x000000018002e860 | 0x0002e860
-`ProcessGroupPolicyRegionOptions` | 64 (0x40) | Exported Function | 0x0000000180030330 | 0x00030330
-`ProcessGroupPolicyProcessMitigationOptions` | 2 (0x2) | Exported Function | 0x00000001800418f0 | 0x000418f0
-`ProcessGroupPolicyPrinters` | 63 (0x3f) | Exported Function | 0x000000018002ed40 | 0x0002ed40
-`ProcessGroupPolicyExFiles` | 38 (0x26) | Exported Function | 0x000000018002e450 | 0x0002e450
-`ProcessGroupPolicyPowerOptions` | 62 (0x3e) | Exported Function | 0x00000001800300c0 | 0x000300c0
-`ProcessGroupPolicyNetShares` | 60 (0x3c) | Exported Function | 0x0000000180030cf0 | 0x00030cf0
-`ProcessGroupPolicyMitigationOptions` | 1 (0x1) | Exported Function | 0x00000001800415f0 | 0x000415f0
-`ProcessGroupPolicyLocUsAndGroups` | 59 (0x3b) | Exported Function | 0x000000018002fbe0 | 0x0002fbe0
-`ProcessGroupPolicyInternet` | 58 (0x3a) | Exported Function | 0x000000018002efb0 | 0x0002efb0
-`ProcessGroupPolicyIniFile` | 57 (0x39) | Exported Function | 0x000000018002e5f0 | 0x0002e5f0
-`ProcessGroupPolicyFolders` | 56 (0x38) | Exported Function | 0x000000018002e110 | 0x0002e110
-`ProcessGroupPolicyNetworkOptions` | 61 (0x3d) | Exported Function | 0x000000018002fe50 | 0x0002fe50
-`ProcessGroupPolicyShortcuts` | 68 (0x44) | Exported Function | 0x000000018002f220 | 0x0002f220
-`ProcessGroupPolicyExEnviron` | 37 (0x25) | Exported Function | 0x000000018002dd00 | 0x0002dd00
-`ProcessGroupPolicyExDevices` | 35 (0x23) | Exported Function | 0x000000018002f7d0 | 0x0002f7d0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180030f20 | 0x00030f20
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x0000000180031080 | 0x00031080
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x0000000180031130 | 0x00031130
-`GenerateGroupPolicyApplications` | 7 (0x7) | Exported Function | 0x000000018002ea10 | 0x0002ea10
-`GenerateGroupPolicyDataSources` | 8 (0x8) | Exported Function | 0x000000018002f3d0 | 0x0002f3d0
-`GenerateGroupPolicyDevices` | 9 (0x9) | Exported Function | 0x000000018002f640 | 0x0002f640
-`GenerateGroupPolicyDrives` | 10 (0xa) | Exported Function | 0x000000018002dde0 | 0x0002dde0
-`GenerateGroupPolicyEnviron` | 11 (0xb) | Exported Function | 0x000000018002db70 | 0x0002db70
-`GenerateGroupPolicyFiles` | 12 (0xc) | Exported Function | 0x000000018002e2c0 | 0x0002e2c0
-`GenerateGroupPolicyFolderOptions` | 13 (0xd) | Exported Function | 0x000000018002f8b0 | 0x0002f8b0
-`GenerateGroupPolicyFolders` | 14 (0xe) | Exported Function | 0x000000018002e050 | 0x0002e050
-`GenerateGroupPolicyIniFile` | 15 (0xf) | Exported Function | 0x000000018002e530 | 0x0002e530
-`GenerateGroupPolicyInternet` | 16 (0x10) | Exported Function | 0x000000018002eef0 | 0x0002eef0
-`GenerateGroupPolicyLocUsAndGroups` | 17 (0x11) | Exported Function | 0x000000018002fb20 | 0x0002fb20
-`GenerateGroupPolicyNetShares` | 18 (0x12) | Exported Function | 0x0000000180030c30 | 0x00030c30
-`GenerateGroupPolicyNetworkOptions` | 19 (0x13) | Exported Function | 0x000000018002fd90 | 0x0002fd90
-`GenerateGroupPolicyPowerOptions` | 20 (0x14) | Exported Function | 0x0000000180030000 | 0x00030000
-`ProcessGroupPolicyExDataSources` | 34 (0x22) | Exported Function | 0x000000018002f560 | 0x0002f560
-`ProcessGroupPolicyExApplications` | 33 (0x21) | Exported Function | 0x000000018002eba0 | 0x0002eba0
-`ProcessGroupPolicyEnviron` | 32 (0x20) | Exported Function | 0x000000018002dc30 | 0x0002dc30
-`ProcessGroupPolicyDrives` | 31 (0x1f) | Exported Function | 0x000000018002dea0 | 0x0002dea0
-`ProcessGroupPolicyDevices` | 30 (0x1e) | Exported Function | 0x000000018002f700 | 0x0002f700
-`ProcessGroupPolicyDataSources` | 29 (0x1d) | Exported Function | 0x000000018002f490 | 0x0002f490
-`ProcessGroupPolicyExDrives` | 36 (0x24) | Exported Function | 0x000000018002df70 | 0x0002df70
-`ProcessGroupPolicyApplications` | 28 (0x1c) | Exported Function | 0x000000018002ead0 | 0x0002ead0
-`GenerateGroupPolicyShortcuts` | 26 (0x1a) | Exported Function | 0x000000018002f160 | 0x0002f160
-`GenerateGroupPolicyServices` | 25 (0x19) | Exported Function | 0x0000000180030750 | 0x00030750
-`GenerateGroupPolicySchedTasks` | 24 (0x18) | Exported Function | 0x00000001800304e0 | 0x000304e0
-`GenerateGroupPolicyRegistry` | 23 (0x17) | Exported Function | 0x000000018002e7a0 | 0x0002e7a0
-`GenerateGroupPolicyRegionOptions` | 22 (0x16) | Exported Function | 0x0000000180030270 | 0x00030270
-`GenerateGroupPolicyPrinters` | 21 (0x15) | Exported Function | 0x000000018002ec80 | 0x0002ec80
-`GenerateGroupPolicyStartMenu` | 27 (0x1b) | Exported Function | 0x00000001800309c0 | 0x000309c0
-`ProcessGroupPolicyStartMenu` | 69 (0x45) | Exported Function | 0x0000000180030a80 | 0x00030a80
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessGroupPolicyExRegistry` | 49 | Exported Function
+`ProcessGroupPolicyExSchedTasks` | 50 | Exported Function
+`ProcessGroupPolicyExPrinters` | 47 | Exported Function
+`ProcessGroupPolicyExRegionOptions` | 48 | Exported Function
+`ProcessGroupPolicyExStartMenu` | 53 | Exported Function
+`ProcessGroupPolicyFiles` | 54 | Exported Function
+`ProcessGroupPolicyExServices` | 51 | Exported Function
+`ProcessGroupPolicyExShortcuts` | 52 | Exported Function
+`ProcessGroupPolicyExPowerOptions` | 46 | Exported Function
+`ProcessGroupPolicyExFolders` | 40 | Exported Function
+`ProcessGroupPolicyExIniFile` | 41 | Exported Function
+`ProcessGroupPolicyExFiles` | 38 | Exported Function
+`ProcessGroupPolicyExFolderOptions` | 39 | Exported Function
+`ProcessGroupPolicyExNetShares` | 44 | Exported Function
+`ProcessGroupPolicyExNetworkOptions` | 45 | Exported Function
+`ProcessGroupPolicyExInternet` | 42 | Exported Function
+`ProcessGroupPolicyExLocUsAndGroups` | 43 | Exported Function
+`ProcessGroupPolicyRegionOptions` | 64 | Exported Function
+`ProcessGroupPolicyRegistry` | 65 | Exported Function
+`ProcessGroupPolicyPrinters` | 63 | Exported Function
+`ProcessGroupPolicyProcessMitigationOptions` | 2 | Exported Function
+`ProcessGroupPolicyShortcuts` | 68 | Exported Function
+`ProcessGroupPolicyStartMenu` | 69 | Exported Function
+`ProcessGroupPolicySchedTasks` | 66 | Exported Function
+`ProcessGroupPolicyServices` | 67 | Exported Function
+`ProcessGroupPolicyPowerOptions` | 62 | Exported Function
+`ProcessGroupPolicyIniFile` | 57 | Exported Function
+`ProcessGroupPolicyInternet` | 58 | Exported Function
+`ProcessGroupPolicyFolderOptions` | 55 | Exported Function
+`ProcessGroupPolicyFolders` | 56 | Exported Function
+`ProcessGroupPolicyNetShares` | 60 | Exported Function
+`ProcessGroupPolicyNetworkOptions` | 61 | Exported Function
+`ProcessGroupPolicyLocUsAndGroups` | 59 | Exported Function
+`ProcessGroupPolicyMitigationOptions` | 1 | Exported Function
+`ProcessGroupPolicyExEnviron` | 37 | Exported Function
+`GenerateGroupPolicyFolders` | 14 | Exported Function
+`GenerateGroupPolicyIniFile` | 15 | Exported Function
+`GenerateGroupPolicyFiles` | 12 | Exported Function
+`GenerateGroupPolicyFolderOptions` | 13 | Exported Function
+`GenerateGroupPolicyNetShares` | 18 | Exported Function
+`GenerateGroupPolicyNetworkOptions` | 19 | Exported Function
+`GenerateGroupPolicyInternet` | 16 | Exported Function
+`GenerateGroupPolicyLocUsAndGroups` | 17 | Exported Function
+`GenerateGroupPolicyEnviron` | 11 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`GenerateGroupPolicyDevices` | 9 | Exported Function
+`GenerateGroupPolicyDrives` | 10 | Exported Function
+`GenerateGroupPolicyApplications` | 7 | Exported Function
+`GenerateGroupPolicyDataSources` | 8 | Exported Function
+`ProcessGroupPolicyDrives` | 31 | Exported Function
+`ProcessGroupPolicyEnviron` | 32 | Exported Function
+`ProcessGroupPolicyDataSources` | 29 | Exported Function
+`ProcessGroupPolicyDevices` | 30 | Exported Function
+`ProcessGroupPolicyExDevices` | 35 | Exported Function
+`ProcessGroupPolicyExDrives` | 36 | Exported Function
+`ProcessGroupPolicyExApplications` | 33 | Exported Function
+`ProcessGroupPolicyExDataSources` | 34 | Exported Function
+`ProcessGroupPolicyApplications` | 28 | Exported Function
+`GenerateGroupPolicyRegionOptions` | 22 | Exported Function
+`GenerateGroupPolicyRegistry` | 23 | Exported Function
+`GenerateGroupPolicyPowerOptions` | 20 | Exported Function
+`GenerateGroupPolicyPrinters` | 21 | Exported Function
+`GenerateGroupPolicyShortcuts` | 26 | Exported Function
+`GenerateGroupPolicyStartMenu` | 27 | Exported Function
+`GenerateGroupPolicySchedTasks` | 24 | Exported Function
+`GenerateGroupPolicyServices` | 25 | Exported Function
 
 
 ## Signature

@@ -24,13 +24,13 @@ PE256 | `A91E66F92D9B8BBD8545907D1B4F7EA6743E1E59D7F1FB94787E1940F4A35505`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InjectThread` | 1 (0x1) | Exported Function | 0x100012bf | 0x000012bf
-`ParametersBlock` | 2 (0x2) | Exported Function | 0x10003010 | 0x00003010
-`StubDllEntry` | 3 (0x3) | Exported Function | 0x10001000 | 0x00001000
-`StubDllEntryWow64` | 4 (0x4) | Exported Function | 0x10001030 | 0x00001030
-`TriggerOSNotification` | 5 (0x5) | Exported Function | 0x10001304 | 0x00001304
+Function Name | Ordinal | Type
+-- | -- | --
+`StubDllEntryWow64` | 4 | Exported Function
+`TriggerOSNotification` | 5 | Exported Function
+`StubDllEntry` | 3 | Exported Function
+`InjectThread` | 1 | Exported Function
+`ParametersBlock` | 2 | Exported Function
 
 
 ## Signature

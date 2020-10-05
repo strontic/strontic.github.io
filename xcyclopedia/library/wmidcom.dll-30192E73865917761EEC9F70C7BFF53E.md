@@ -24,13 +24,13 @@ PE256 | `C03B2DC17DA720EEBAB2ED64BA3D784CC600132CF8DC0FCA24213FE0A632295A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MI_Application_InitializeV1` | 5 (0x5) | Exported Function | 0x1000d360 | 0x0000d360
-`public: __thiscall CCritSec::CCritSec(void)` | 1 (0x1) | Exported Function | 0x10010e40 | 0x00010e40
-`public: __thiscall CCritSec::~CCritSec(void)` | 2 (0x2) | Exported Function | 0x10010fe0 | 0x00010fe0
-`public: class CAutoSetActivityId & __thiscall CAutoSetActivityId::operator=(class CAutoSetActivityId const &)` | 3 (0x3) | Exported Function | 0x100111e0 | 0x000111e0
-`public: class CCritSec & __thiscall CCritSec::operator=(class CCritSec const &)` | 4 (0x4) | Exported Function | 0x10011200 | 0x00011200
+Function Name | Ordinal | Type
+-- | -- | --
+`public: class CAutoSetActivityId & __thiscall CAutoSetActivityId::operator=(class CAutoSetActivityId const &)` | 3 | Exported Function
+`public: class CCritSec & __thiscall CCritSec::operator=(class CCritSec const &)` | 4 | Exported Function
+`public: __thiscall CCritSec::~CCritSec(void)` | 2 | Exported Function
+`MI_Application_InitializeV1` | 5 | Exported Function
+`public: __thiscall CCritSec::CCritSec(void)` | 1 | Exported Function
 
 
 ## Signature

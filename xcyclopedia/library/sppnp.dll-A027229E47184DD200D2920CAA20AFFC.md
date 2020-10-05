@@ -24,14 +24,14 @@ PE256 | `D9E9B9C9DA563F97AA5C71C45EE71901424D7EC1F3D71170464B0A8436A60785`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Sysprep_Generalize_Pnp` | 1 (0x1) | Exported Function | 0x000000018000abf0 | 0x0000abf0
-`Sysprep_Generalize_Pnp_Drivers` | 2 (0x2) | Exported Function | 0x000000018000b350 | 0x0000b350
-`Sysprep_Respecialize_Pnp` | 3 (0x3) | Exported Function | 0x000000018000b5b0 | 0x0000b5b0
-`Sysprep_RunDll_PnpW` | 4 (0x4) | Exported Function | 0x00000001800159e0 | 0x000159e0
-`Sysprep_Specialize_Offline_Pnp` | 5 (0x5) | Exported Function | 0x0000000180005560 | 0x00005560
-`Sysprep_Specialize_Pnp` | 6 (0x6) | Exported Function | 0x0000000180006420 | 0x00006420
+Function Name | Ordinal | Type
+-- | -- | --
+`Sysprep_RunDll_PnpW` | 4 | Exported Function
+`Sysprep_Specialize_Offline_Pnp` | 5 | Exported Function
+`Sysprep_Specialize_Pnp` | 6 | Exported Function
+`Sysprep_Generalize_Pnp` | 1 | Exported Function
+`Sysprep_Generalize_Pnp_Drivers` | 2 | Exported Function
+`Sysprep_Respecialize_Pnp` | 3 | Exported Function
 
 
 ## Signature

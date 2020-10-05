@@ -24,12 +24,12 @@ PE256 | `A736DD067CF180CA8BCEF6C8AF6495F46D465B967CBD0209998034EB01972265`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WHvEmulatorCreateEmulator` | 1 (0x1) | Exported Function | 0x0000000180008330 | 0x00008330
-`WHvEmulatorDestroyEmulator` | 2 (0x2) | Exported Function | 0x00000001800083c0 | 0x000083c0
-`WHvEmulatorTryIoEmulation` | 3 (0x3) | Exported Function | 0x0000000180008400 | 0x00008400
-`WHvEmulatorTryMmioEmulation` | 4 (0x4) | Exported Function | 0x0000000180008590 | 0x00008590
+Function Name | Ordinal | Type
+-- | -- | --
+`WHvEmulatorTryIoEmulation` | 3 | Exported Function
+`WHvEmulatorTryMmioEmulation` | 4 | Exported Function
+`WHvEmulatorCreateEmulator` | 1 | Exported Function
+`WHvEmulatorDestroyEmulator` | 2 | Exported Function
 
 
 ## Signature

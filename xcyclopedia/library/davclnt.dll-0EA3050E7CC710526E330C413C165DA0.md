@@ -24,32 +24,32 @@ PE256 | `B216B132277E4879D84829ABE1B90E68E18CBBF1F02524E74E10DB593F22334C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DavCancelConnectionsToServer` | 1 (0x1) | Exported Function | 0x0000000180003af0 | 0x00003af0
-`NPGetUniversalName` | 22 (0x16) | Exported Function | 0x000000018000d590 | 0x0000d590
-`NPGetResourceParent` | 21 (0x15) | Exported Function | 0x000000018000d000 | 0x0000d000
-`NPGetResourceInformation` | 20 (0x14) | Exported Function | 0x000000018000c8f0 | 0x0000c8f0
-`NPGetConnection` | 19 (0x13) | Exported Function | 0x000000018000c3b0 | 0x0000c3b0
-`NPGetCaps` | 18 (0x12) | Exported Function | 0x0000000180001370 | 0x00001370
-`NPFormatNetworkName` | 17 (0x11) | Exported Function | 0x000000018000c240 | 0x0000c240
-`NPEnumResource` | 16 (0x10) | Exported Function | 0x000000018000b360 | 0x0000b360
-`NPCloseEnum` | 15 (0xf) | Exported Function | 0x000000018000b1b0 | 0x0000b1b0
-`NPCancelConnection` | 14 (0xe) | Exported Function | 0x000000018000adb0 | 0x0000adb0
-`NPAddConnection3` | 13 (0xd) | Exported Function | 0x0000000180009110 | 0x00009110
-`NPAddConnection` | 12 (0xc) | Exported Function | 0x00000001800090a0 | 0x000090a0
-`DllMain` | 11 (0xb) | Exported Function | 0x00000001800028e0 | 0x000028e0
-`DllGetClassObject` | 10 (0xa) | Exported Function | 0x0000000180011120 | 0x00011120
-`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x0000000180011100 | 0x00011100
-`DavUnregisterAuthCallback` | 8 (0x8) | Exported Function | 0x0000000180008740 | 0x00008740
-`DavSetCookieW` | 7 (0x7) | Exported Function | 0x0000000180007cb0 | 0x00007cb0
-`DavRegisterAuthCallback` | 6 (0x6) | Exported Function | 0x0000000180007150 | 0x00007150
-`DavInvalidateCache` | 5 (0x5) | Exported Function | 0x0000000180005ba0 | 0x00005ba0
-`DavGetTheLockOwnerOfTheFile` | 4 (0x4) | Exported Function | 0x0000000180005780 | 0x00005780
-`DavGetDiskSpaceUsage` | 3 (0x3) | Exported Function | 0x0000000180005410 | 0x00005410
-`DavFreeUsedDiskSpace` | 2 (0x2) | Exported Function | 0x0000000180004d10 | 0x00004d10
-`NPGetUser` | 23 (0x17) | Exported Function | 0x000000018000dba0 | 0x0000dba0
-`NPOpenEnum` | 24 (0x18) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`NPEnumResource` | 16 | Exported Function
+`NPFormatNetworkName` | 17 | Exported Function
+`NPGetCaps` | 18 | Exported Function
+`NPAddConnection3` | 13 | Exported Function
+`NPCancelConnection` | 14 | Exported Function
+`NPCloseEnum` | 15 | Exported Function
+`NPGetUniversalName` | 22 | Exported Function
+`NPGetUser` | 23 | Exported Function
+`NPOpenEnum` | 24 | Exported Function
+`NPGetConnection` | 19 | Exported Function
+`NPGetResourceInformation` | 20 | Exported Function
+`NPGetResourceParent` | 21 | Exported Function
+`DavGetTheLockOwnerOfTheFile` | 4 | Exported Function
+`DavInvalidateCache` | 5 | Exported Function
+`DavRegisterAuthCallback` | 6 | Exported Function
+`DavCancelConnectionsToServer` | 1 | Exported Function
+`DavFreeUsedDiskSpace` | 2 | Exported Function
+`DavGetDiskSpaceUsage` | 3 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`DllMain` | 11 | Exported Function
+`NPAddConnection` | 12 | Exported Function
+`DavSetCookieW` | 7 | Exported Function
+`DavUnregisterAuthCallback` | 8 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
 
 
 ## Signature

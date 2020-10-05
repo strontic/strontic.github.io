@@ -24,12 +24,12 @@ PE256 | `3400FC1F346F5F3E809F06DE7FAB25AC8A21B59F0EBD73B15655643DE4BB8E86`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClientInitEcsLib` | 2 (0x2) | Exported Function | 0x0000000180004fa0 | 0x00004fa0
-`ClientUnInitEcsLib` | 3 (0x3) | Exported Function | 0x0000000180004fc0 | 0x00004fc0
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x0000000180004f80 | 0x00004f80
-`ServiceMain` | 1 (0x1) | Exported Function | 0x0000000180004f90 | 0x00004f90
+Function Name | Ordinal | Type
+-- | -- | --
+`DllCanUnloadNow` | 4 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`ClientInitEcsLib` | 2 | Exported Function
+`ClientUnInitEcsLib` | 3 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `6195F0383516AA732AA2323D275ECE7BD817AC80A94A3141E1303A34A5896D9F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetCompressedFileSizeA` | 1 (0x1) | Exported Function | kernel32.GetCompressedFileSizeA | 0x0000119d
-`GetCompressedFileSizeW` | 2 (0x2) | Exported Function | kernel32.GetCompressedFileSizeW | 0x000011d4
-`SetFileIoOverlappedRange` | 3 (0x3) | Exported Function | kernel32.SetFileIoOverlappedRange | 0x0000120d
+Function Name | Ordinal | Type
+-- | -- | --
+`SetFileIoOverlappedRange` | 3 | Exported Function
+`GetCompressedFileSizeW` | 2 | Exported Function
+`GetCompressedFileSizeA` | 1 | Exported Function
 
 
 ## Signature

@@ -24,49 +24,49 @@ PE256 | `61D8F3A61820501F7547C47FFA1089038569EF9ECD14FAA10B81229A6DBB8054`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LogErrorA` | 1 (0x1) | Exported Function | 0x10007d00 | 0x00007d00
-`RouterLogRegisterW` | 23 (0x17) | Exported Function | 0x10008960 | 0x00008960
-`TraceDeregisterA` | 24 (0x18) | Exported Function | 0x100051e0 | 0x000051e0
-`TraceDeregisterExA` | 25 (0x19) | Exported Function | 0x10002290 | 0x00002290
-`TraceDeregisterExW` | 26 (0x1a) | Exported Function | 0x10005b10 | 0x00005b10
-`TraceDeregisterW` | 27 (0x1b) | Exported Function | 0x10005ba0 | 0x00005ba0
-`TraceDumpExA` | 28 (0x1c) | Exported Function | 0x10005200 | 0x00005200
-`TraceDumpExW` | 29 (0x1d) | Exported Function | 0x10005bc0 | 0x00005bc0
-`TraceGetConsoleA` | 30 (0x1e) | Exported Function | 0x100055d0 | 0x000055d0
-`TraceGetConsoleW` | 31 (0x1f) | Exported Function | 0x100055d0 | 0x000055d0
-`TracePrintfA` | 32 (0x20) | Exported Function | 0x100056b0 | 0x000056b0
-`TracePrintfExA` | 33 (0x21) | Exported Function | 0x10002d60 | 0x00002d60
-`TracePrintfExW` | 34 (0x22) | Exported Function | 0x10001e70 | 0x00001e70
-`TracePrintfW` | 35 (0x23) | Exported Function | 0x10005f90 | 0x00005f90
-`TracePutsExA` | 36 (0x24) | Exported Function | 0x10005710 | 0x00005710
-`TracePutsExW` | 37 (0x25) | Exported Function | 0x10005ff0 | 0x00005ff0
-`TraceRegisterExA` | 38 (0x26) | Exported Function | 0x10002120 | 0x00002120
-`TraceRegisterExW` | 39 (0x27) | Exported Function | 0x10002e60 | 0x00002e60
-`RouterLogRegisterA` | 22 (0x16) | Exported Function | 0x10008380 | 0x00008380
-`TraceVprintfExA` | 40 (0x28) | Exported Function | 0x100059e0 | 0x000059e0
-`RouterLogEventW` | 21 (0x15) | Exported Function | 0x10008910 | 0x00008910
-`RouterLogEventValistExA` | 19 (0x13) | Exported Function | 0x10008030 | 0x00008030
-`LogErrorW` | 2 (0x2) | Exported Function | 0x100083a0 | 0x000083a0
-`LogEventA` | 3 (0x3) | Exported Function | 0x10007d60 | 0x00007d60
-`LogEventW` | 4 (0x4) | Exported Function | 0x10008400 | 0x00008400
-`MprSetupProtocolEnum` | 5 (0x5) | Exported Function | 0x10009150 | 0x00009150
-`MprSetupProtocolFree` | 6 (0x6) | Exported Function | 0x10009480 | 0x00009480
-`RouterAssert` | 7 (0x7) | Exported Function | 0x10006320 | 0x00006320
-`RouterGetErrorStringA` | 8 (0x8) | Exported Function | 0x10007db0 | 0x00007db0
-`RouterGetErrorStringW` | 9 (0x9) | Exported Function | 0x10008450 | 0x00008450
-`RouterLogDeregisterA` | 10 (0xa) | Exported Function | 0x10007e80 | 0x00007e80
-`RouterLogDeregisterW` | 11 (0xb) | Exported Function | 0x10007e80 | 0x00007e80
-`RouterLogEventA` | 12 (0xc) | Exported Function | 0x10007ea0 | 0x00007ea0
-`RouterLogEventDataA` | 13 (0xd) | Exported Function | 0x10007ef0 | 0x00007ef0
-`RouterLogEventDataW` | 14 (0xe) | Exported Function | 0x10008520 | 0x00008520
-`RouterLogEventExA` | 15 (0xf) | Exported Function | 0x10007f30 | 0x00007f30
-`RouterLogEventExW` | 16 (0x10) | Exported Function | 0x10008560 | 0x00008560
-`RouterLogEventStringA` | 17 (0x11) | Exported Function | 0x10007f60 | 0x00007f60
-`RouterLogEventStringW` | 18 (0x12) | Exported Function | 0x10008590 | 0x00008590
-`RouterLogEventValistExW` | 20 (0x14) | Exported Function | 0x10008660 | 0x00008660
-`TraceVprintfExW` | 41 (0x29) | Exported Function | 0x100062c0 | 0x000062c0
+Function Name | Ordinal | Type
+-- | -- | --
+`TraceDumpExA` | 28 | Exported Function
+`TraceDeregisterW` | 27 | Exported Function
+`TraceDumpExW` | 29 | Exported Function
+`TraceGetConsoleW` | 31 | Exported Function
+`TraceGetConsoleA` | 30 | Exported Function
+`RouterLogRegisterW` | 23 | Exported Function
+`RouterLogRegisterA` | 22 | Exported Function
+`TraceDeregisterA` | 24 | Exported Function
+`TraceDeregisterExW` | 26 | Exported Function
+`TraceDeregisterExA` | 25 | Exported Function
+`TraceRegisterExA` | 38 | Exported Function
+`TracePutsExW` | 37 | Exported Function
+`TraceRegisterExW` | 39 | Exported Function
+`TraceVprintfExW` | 41 | Exported Function
+`TraceVprintfExA` | 40 | Exported Function
+`TracePrintfExA` | 33 | Exported Function
+`TracePrintfA` | 32 | Exported Function
+`TracePrintfExW` | 34 | Exported Function
+`TracePutsExA` | 36 | Exported Function
+`TracePrintfW` | 35 | Exported Function
+`RouterLogEventW` | 21 | Exported Function
+`RouterAssert` | 7 | Exported Function
+`MprSetupProtocolFree` | 6 | Exported Function
+`RouterGetErrorStringA` | 8 | Exported Function
+`RouterLogDeregisterA` | 10 | Exported Function
+`RouterGetErrorStringW` | 9 | Exported Function
+`LogErrorW` | 2 | Exported Function
+`LogErrorA` | 1 | Exported Function
+`LogEventA` | 3 | Exported Function
+`MprSetupProtocolEnum` | 5 | Exported Function
+`LogEventW` | 4 | Exported Function
+`RouterLogEventStringA` | 17 | Exported Function
+`RouterLogEventExW` | 16 | Exported Function
+`RouterLogEventStringW` | 18 | Exported Function
+`RouterLogEventValistExW` | 20 | Exported Function
+`RouterLogEventValistExA` | 19 | Exported Function
+`RouterLogEventA` | 12 | Exported Function
+`RouterLogDeregisterW` | 11 | Exported Function
+`RouterLogEventDataA` | 13 | Exported Function
+`RouterLogEventExA` | 15 | Exported Function
+`RouterLogEventDataW` | 14 | Exported Function
 
 
 ## Signature

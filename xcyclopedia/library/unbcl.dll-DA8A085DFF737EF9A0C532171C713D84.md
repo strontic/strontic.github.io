@@ -24,2670 +24,2670 @@ PE256 | `968148924D2A4D12A2941E3B3E9D065F7A810ECC71A3BCC3FBE58C3907903AE7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`const UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::``vftable'` | 1104 (0x450) | Exported Function | 0x0000000180074908 | 0x00074908
-`public: static int __cdecl UnBCL::ArrayList<unsigned short>::LastIndexOf(class UnBCL::ArrayList<unsigned short> const * __ptr64,unsigned short,int,int)` | 1999 (0x7cf) | Exported Function | 0x0000000180011cf0 | 0x00011cf0
-`public: static int __cdecl UnBCL::Char::IsDigit(unsigned short)` | 1972 (0x7b4) | Exported Function | 0x0000000180022b40 | 0x00022b40
-`public: static int __cdecl UnBCL::Char::IsLetter(unsigned short)` | 1983 (0x7bf) | Exported Function | 0x0000000180022b60 | 0x00022b60
-`public: static int __cdecl UnBCL::Char::IsLetterOrDigit(unsigned short)` | 1984 (0x7c0) | Exported Function | 0x0000000180022af0 | 0x00022af0
-`public: static int __cdecl UnBCL::Char::IsNumber(unsigned short)` | 1986 (0x7c2) | Exported Function | 0x0000000180022b40 | 0x00022b40
-`public: static int __cdecl UnBCL::DateTime::IsLeapYear(int)` | 1982 (0x7be) | Exported Function | 0x0000000180023f60 | 0x00023f60
-`public: static int __cdecl UnBCL::Directory::DeleteNE(class UnBCL::String const * __ptr64,int)` | 1670 (0x686) | Exported Function | 0x0000000180024920 | 0x00024920
-`public: static int __cdecl UnBCL::ArrayList<unsigned short>::IndexOf(class UnBCL::ArrayList<unsigned short> const * __ptr64,unsigned short,int,int)` | 1919 (0x77f) | Exported Function | 0x0000000180011530 | 0x00011530
-`public: static int __cdecl UnBCL::Directory::Exists(class UnBCL::String const * __ptr64)` | 1716 (0x6b4) | Exported Function | 0x00000001800245a0 | 0x000245a0
-`public: static int __cdecl UnBCL::Directory::ShouldEnumerateReparsePoint(class UnBCL::String const * __ptr64)` | 2203 (0x89b) | Exported Function | 0x00000001800280c0 | 0x000280c0
-`public: static int __cdecl UnBCL::Environment::IsEnvironmentVarSetTrue(class UnBCL::String const * __ptr64,int)` | 1980 (0x7bc) | Exported Function | 0x000000018002ee10 | 0x0002ee10
-`public: static int __cdecl UnBCL::File::Exists(class UnBCL::String const * __ptr64)` | 1717 (0x6b5) | Exported Function | 0x0000000180035690 | 0x00035690
-`public: static int __cdecl UnBCL::File::SetCompressionState(class UnBCL::String const * __ptr64,unsigned short)` | 2178 (0x882) | Exported Function | 0x00000001800363f0 | 0x000363f0
-`public: static int __cdecl UnBCL::Int32Ops::Parse(unsigned short const * __ptr64)` | 2067 (0x813) | Exported Function | 0x0000000180038f20 | 0x00038f20
-`public: static int __cdecl UnBCL::Monitor::Wait(class UnBCL::SyncObject * __ptr64)` | 2320 (0x910) | Exported Function | 0x000000018003a710 | 0x0003a710
-`public: static int __cdecl UnBCL::Object::Equals(class UnBCL::Object const * __ptr64,class UnBCL::Object const * __ptr64)` | 1708 (0x6ac) | Exported Function | 0x00000001800418b0 | 0x000418b0
-`public: static int __cdecl UnBCL::Directory::IsDirectoryEmpty(class UnBCL::String const * __ptr64)` | 1973 (0x7b5) | Exported Function | 0x00000001800264c0 | 0x000264c0
-`public: static int __cdecl UnBCL::ArrayList<unsigned short>::BinarySearch(class UnBCL::ArrayList<unsigned short> * __ptr64,unsigned short,struct UnBCL::IComparer<unsigned short> * __ptr64)` | 1519 (0x5ef) | Exported Function | 0x0000000180012530 | 0x00012530
-`public: static int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::LastIndexOf(class UnBCL::ArrayList<class UnBCL::String * __ptr64> const * __ptr64,class UnBCL::String * __ptr64,int,int)` | 2001 (0x7d1) | Exported Function | 0x000000018000b730 | 0x0000b730
-`public: static int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::IndexOf(class UnBCL::ArrayList<class UnBCL::String * __ptr64> const * __ptr64,class UnBCL::String * __ptr64,int,int)` | 1922 (0x782) | Exported Function | 0x000000018000ada0 | 0x0000ada0
-`public: static int __cdecl UnBCL::Allocator::MemAllocFailed(void)` | 2041 (0x7f9) | Exported Function | 0x0000000180003090 | 0x00003090
-`public: static int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::BinarySearch(class UnBCL::Array<class UnBCL::Object * __ptr64> const * __ptr64,class UnBCL::Object * __ptr64,struct UnBCL::IComparer<class UnBCL::Object * __ptr64> * __ptr64)` | 1516 (0x5ec) | Exported Function | 0x0000000180013ee0 | 0x00013ee0
-`public: static int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::IndexOf(class UnBCL::Array<class UnBCL::Object * __ptr64> const * __ptr64,class UnBCL::Object * __ptr64,int,int)` | 1915 (0x77b) | Exported Function | 0x0000000180013c70 | 0x00013c70
-`public: static int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::LastIndexOf(class UnBCL::Array<class UnBCL::Object * __ptr64> const * __ptr64,class UnBCL::Object * __ptr64,int,int)` | 1997 (0x7cd) | Exported Function | 0x0000000180013fc0 | 0x00013fc0
-`public: static int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::BinarySearch(class UnBCL::Array<class UnBCL::String * __ptr64> const * __ptr64,class UnBCL::String * __ptr64,struct UnBCL::IComparer<class UnBCL::String * __ptr64> * __ptr64)` | 1517 (0x5ed) | Exported Function | 0x0000000180010020 | 0x00010020
-`public: static int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::IndexOf(class UnBCL::Array<class UnBCL::String * __ptr64> const * __ptr64,class UnBCL::String * __ptr64,int,int)` | 1917 (0x77d) | Exported Function | 0x000000018000fda0 | 0x0000fda0
-`public: static int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::LastIndexOf(class UnBCL::Array<class UnBCL::String * __ptr64> const * __ptr64,class UnBCL::String * __ptr64,int,int)` | 1998 (0x7ce) | Exported Function | 0x00000001800100a0 | 0x000100a0
-`public: static int __cdecl UnBCL::Array<int>::BinarySearch(class UnBCL::Array<int> const * __ptr64,int,struct UnBCL::IComparer<int> * __ptr64)` | 1515 (0x5eb) | Exported Function | 0x0000000180015190 | 0x00015190
-`public: static int __cdecl UnBCL::Array<int>::IndexOf(class UnBCL::Array<int> const * __ptr64,int,int,int)` | 1913 (0x779) | Exported Function | 0x0000000180014ec0 | 0x00014ec0
-`public: static int __cdecl UnBCL::Array<int>::LastIndexOf(class UnBCL::Array<int> const * __ptr64,int,int,int)` | 1996 (0x7cc) | Exported Function | 0x0000000180015270 | 0x00015270
-`public: static int __cdecl UnBCL::Array<unsigned char>::BinarySearch(class UnBCL::Array<unsigned char> const * __ptr64,unsigned char,struct UnBCL::IComparer<unsigned char> * __ptr64)` | 1513 (0x5e9) | Exported Function | 0x000000018000dac0 | 0x0000dac0
-`public: static int __cdecl UnBCL::Array<unsigned char>::IndexOf(class UnBCL::Array<unsigned char> const * __ptr64,unsigned char,int,int)` | 1909 (0x775) | Exported Function | 0x000000018000d6a0 | 0x0000d6a0
-`public: static int __cdecl UnBCL::Array<unsigned char>::LastIndexOf(class UnBCL::Array<unsigned char> const * __ptr64,unsigned char,int,int)` | 1994 (0x7ca) | Exported Function | 0x000000018000dba0 | 0x0000dba0
-`public: static int __cdecl UnBCL::Array<unsigned short>::BinarySearch(class UnBCL::Array<unsigned short> const * __ptr64,unsigned short,struct UnBCL::IComparer<unsigned short> * __ptr64)` | 1514 (0x5ea) | Exported Function | 0x000000018000ed40 | 0x0000ed40
-`public: static int __cdecl UnBCL::Array<unsigned short>::IndexOf(class UnBCL::Array<unsigned short> const * __ptr64,unsigned short,int,int)` | 1911 (0x777) | Exported Function | 0x000000018000eac0 | 0x0000eac0
-`public: static int __cdecl UnBCL::Array<unsigned short>::LastIndexOf(class UnBCL::Array<unsigned short> const * __ptr64,unsigned short,int,int)` | 1995 (0x7cb) | Exported Function | 0x000000018000edc0 | 0x0000edc0
-`public: static int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::BinarySearch(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64,class UnBCL::String * __ptr64,struct UnBCL::IComparer<class UnBCL::String * __ptr64> * __ptr64)` | 1522 (0x5f2) | Exported Function | 0x000000018000bf90 | 0x0000bf90
-`public: static int __cdecl UnBCL::Object::ReferenceEquals(class UnBCL::Object const * __ptr64,class UnBCL::Object const * __ptr64)` | 2101 (0x835) | Exported Function | 0x0000000180041650 | 0x00041650
-`public: static int __cdecl UnBCL::Path::IndexOfEndOfLongPrefix(class UnBCL::String const * __ptr64)` | 1934 (0x78e) | Exported Function | 0x00000001800439c0 | 0x000439c0
-`public: static int __cdecl UnBCL::Path::IsDirectorySeparator(unsigned short)` | 1974 (0x7b6) | Exported Function | 0x0000000180043a80 | 0x00043a80
-`public: static int __cdecl UnBCL::Path::IsDriveLetterOrUncPrefix(class UnBCL::String const * __ptr64)` | 1976 (0x7b8) | Exported Function | 0x0000000180042b20 | 0x00042b20
-`public: static struct HINSTANCE__ * __ptr64 __cdecl UnBCL::SerializationStream::GetCallingModule(void)` | 1786 (0x6fa) | Exported Function | 0x000000018004bc30 | 0x0004bc30
-`public: static struct ILogHandler * __ptr64 __cdecl UnBCL::Logging::GetHandler(void)` | 1825 (0x721) | Exported Function | 0x0000000180039220 | 0x00039220
-`public: static struct IOutOfMemoryHandler * __ptr64 __cdecl UnBCL::Allocator::GetOOMHandler(void)` | 1847 (0x737) | Exported Function | 0x0000000180003030 | 0x00003030
-`public: static unsigned int __cdecl UnBCL::Allocator::BlocksAllocated(unsigned int)` | 1524 (0x5f4) | Exported Function | 0x0000000180003250 | 0x00003250
-`public: static unsigned int __cdecl UnBCL::Allocator::Dump(struct ILogHandler * __ptr64,unsigned int)` | 1688 (0x698) | Exported Function | 0x00000001800031c0 | 0x000031c0
-`public: static unsigned int __cdecl UnBCL::Allocator::DumpDelta(struct ILogHandler * __ptr64,unsigned int)` | 1690 (0x69a) | Exported Function | 0x0000000180003220 | 0x00003220
-`public: static unsigned long __cdecl UnBCL::Directory::MakeSureDirectoryExists(unsigned short const * __ptr64,int * __ptr64)` | 2034 (0x7f2) | Exported Function | 0x0000000180027ed0 | 0x00027ed0
-`public: static unsigned short * __ptr64 __cdecl UnBCL::MultiSz::ToMultisz(struct UnBCL::ICollection<class UnBCL::String * __ptr64> const & __ptr64)` | 2284 (0x8ec) | Exported Function | 0x000000018003c4d0 | 0x0003c4d0
-`public: static unsigned short __cdecl UnBCL::Char::ToLower(unsigned short)` | 2282 (0x8ea) | Exported Function | 0x0000000180022ad0 | 0x00022ad0
-`public: static unsigned short __cdecl UnBCL::Path::GetAltDirectorySeparatorChar(void)` | 1753 (0x6d9) | Exported Function | 0x00000001800429f0 | 0x000429f0
-`public: static unsigned short __cdecl UnBCL::Path::GetDirectorySeparatorChar(void)` | 1802 (0x70a) | Exported Function | 0x00000001800429e0 | 0x000429e0
-`public: static unsigned short __cdecl UnBCL::Path::GetVolumeSeparatorChar(void)` | 1904 (0x770) | Exported Function | 0x0000000180042a00 | 0x00042a00
-`public: static unsigned short const * __ptr64 __cdecl UnBCL::OperatingSystem::GetArchitectureString(unsigned long)` | 1755 (0x6db) | Exported Function | 0x0000000180042650 | 0x00042650
-`public: static void * __ptr64 __cdecl UnBCL::Allocator::Alloc(unsigned __int64,unsigned int)` | 1463 (0x5b7) | Exported Function | 0x00000001800030b0 | 0x000030b0
-`public: static void * __ptr64 __cdecl UnBCL::Allocator::AllocDbg(unsigned __int64,char const * __ptr64,int,unsigned int)` | 1465 (0x5b9) | Exported Function | 0x00000001800030e0 | 0x000030e0
-`public: static void * __ptr64 __cdecl UnBCL::Allocator::ReAlloc(void * __ptr64,unsigned __int64,unsigned int)` | 2085 (0x825) | Exported Function | 0x0000000180003120 | 0x00003120
-`public: static void * __ptr64 __cdecl UnBCL::Allocator::ReAllocDbg(void * __ptr64,unsigned __int64,char const * __ptr64,int,unsigned int)` | 2087 (0x827) | Exported Function | 0x0000000180003150 | 0x00003150
-`public: static long __cdecl UnBCL::Environment::Done(void)` | 1686 (0x696) | Exported Function | 0x000000018002d7b0 | 0x0002d7b0
-`public: static int __cdecl ATL::CSimpleStringT<unsigned short,0>::StringLength(unsigned short const * __ptr64)` | 2259 (0x8d3) | Exported Function | 0x0000000180006340 | 0x00006340
-`public: static int __cdecl UnBCL::String::MatchI(unsigned short const * __ptr64,unsigned short const * __ptr64)` | 2039 (0x7f7) | Exported Function | 0x0000000180057f30 | 0x00057f30
-`public: static int __cdecl UnBCL::String::Match(unsigned short const * __ptr64,unsigned short const * __ptr64)` | 2037 (0x7f5) | Exported Function | 0x0000000180057ec0 | 0x00057ec0
-`public: static int __cdecl UnBCL::Path::IsDriveLetterOrUncPrefix(unsigned short const * __ptr64)` | 1975 (0x7b7) | Exported Function | 0x0000000180042b50 | 0x00042b50
-`public: static int __cdecl UnBCL::Path::IsDriveLetterPrefix(class UnBCL::String const * __ptr64)` | 1978 (0x7ba) | Exported Function | 0x0000000180042ac0 | 0x00042ac0
-`public: static int __cdecl UnBCL::Path::IsDriveLetterPrefix(unsigned short const * __ptr64)` | 1977 (0x7b9) | Exported Function | 0x0000000180042af0 | 0x00042af0
-`public: static int __cdecl UnBCL::Path::IsPathRooted(class UnBCL::String const * __ptr64)` | 1987 (0x7c3) | Exported Function | 0x0000000180042a20 | 0x00042a20
-`public: static int __cdecl UnBCL::Path::IsShortCompliant(class UnBCL::String const * __ptr64,int)` | 1988 (0x7c4) | Exported Function | 0x0000000180044c30 | 0x00044c30
-`public: static int __cdecl UnBCL::Path::IsValid(unsigned short const * __ptr64)` | 1990 (0x7c6) | Exported Function | 0x0000000180042b90 | 0x00042b90
-`public: static int __cdecl UnBCL::SerializationStream::CanRegister(void)` | 1525 (0x5f5) | Exported Function | 0x000000018004a640 | 0x0004a640
-`public: static int __cdecl UnBCL::String::_Compare(class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>,int)` | 2341 (0x925) | Exported Function | 0x00000001800599e0 | 0x000599e0
-`public: static int __cdecl UnBCL::String::_Match(class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>)` | 2357 (0x935) | Exported Function | 0x0000000180059a80 | 0x00059a80
-`public: static int __cdecl UnBCL::String::Compare(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,int)` | 1575 (0x627) | Exported Function | 0x0000000180057e90 | 0x00057e90
-`public: static int __cdecl UnBCL::String::Compare(class UnBCL::String const * __ptr64,unsigned short const * __ptr64,int)` | 1576 (0x628) | Exported Function | 0x0000000180057e50 | 0x00057e50
-`public: static int __cdecl UnBCL::String::Compare(unsigned short const * __ptr64,class UnBCL::String const * __ptr64,int)` | 1574 (0x626) | Exported Function | 0x0000000180057e70 | 0x00057e70
-`public: static int __cdecl UnBCL::String::Compare(unsigned short const * __ptr64,unsigned short const * __ptr64,int)` | 1573 (0x625) | Exported Function | 0x0000000180057df0 | 0x00057df0
-`public: static int __cdecl UnBCL::String::CountChars(unsigned short const * __ptr64)` | 1631 (0x65f) | Exported Function | 0x00000001800583d0 | 0x000583d0
-`public: static int __cdecl UnBCL::String::GetIsEmpty(unsigned short const * __ptr64)` | 1833 (0x729) | Exported Function | 0x0000000180057de0 | 0x00057de0
-`public: static int __cdecl UnBCL::String::IndexOfAny(unsigned short const * __ptr64,unsigned short const * __ptr64,int,int)` | 1933 (0x78d) | Exported Function | 0x0000000180058450 | 0x00058450
-`public: static int __cdecl UnBCL::String::Match(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64)` | 2038 (0x7f6) | Exported Function | 0x0000000180057ef0 | 0x00057ef0
-`public: static int __cdecl UnBCL::String::MatchI(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64)` | 2040 (0x7f8) | Exported Function | 0x0000000180057f60 | 0x00057f60
-`public: static void * __ptr64 __cdecl UnBCL::Object::operator new(unsigned __int64)` | 657 (0x291) | Exported Function | 0x00000001800418f0 | 0x000418f0
-`public: static int __cdecl ATL::CSimpleStringT<unsigned short,0>::StringLength(char const * __ptr64)` | 2258 (0x8d2) | Exported Function | 0x0000000180006360 | 0x00006360
-`public: static class UnBCL::TimeSpan __cdecl UnBCL::TimeSpan::GetZero(void)` | 1906 (0x772) | Exported Function | 0x000000018005cb40 | 0x0005cb40
-`public: static class UnBCL::Encoding * __ptr64 __cdecl UnBCL::Encoding::GetUnicode(void)` | 1884 (0x75c) | Exported Function | 0x000000018002c420 | 0x0002c420
-`public: static class UnBCL::FileStream * __ptr64 __cdecl UnBCL::File::Create(class UnBCL::String const * __ptr64)` | 1632 (0x660) | Exported Function | 0x0000000180035910 | 0x00035910
-`public: static class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Environment::GetEnvironmentVars(void)` | 1819 (0x71b) | Exported Function | 0x000000018002ecb0 | 0x0002ecb0
-`public: static class UnBCL::MultiSz * __ptr64 __cdecl UnBCL::MultiSz::FromString(unsigned short const * __ptr64,unsigned short)` | 1750 (0x6d6) | Exported Function | 0x000000018003be90 | 0x0003be90
-`public: static class UnBCL::OperatingSystem const * __ptr64 __cdecl UnBCL::Environment::GetOSVersion(int)` | 1848 (0x738) | Exported Function | 0x000000018002e4b0 | 0x0002e4b0
-`public: static class UnBCL::Process * __ptr64 __cdecl UnBCL::Process::Start(class UnBCL::ProcessStartInfo const * __ptr64)` | 2218 (0x8aa) | Exported Function | 0x00000001800457c0 | 0x000457c0
-`public: static class UnBCL::RegistryKey * __ptr64 __cdecl UnBCL::Registry::GetCurrentUser(void)` | 1792 (0x700) | Exported Function | 0x0000000180046a10 | 0x00046a10
-`public: static class UnBCL::Encoding * __ptr64 __cdecl UnBCL::Encoding::GetDefault(void)` | 1797 (0x705) | Exported Function | 0x000000018002c480 | 0x0002c480
-`public: static class UnBCL::RegistryKey * __ptr64 __cdecl UnBCL::Registry::GetLocalMachine(void)` | 1836 (0x72c) | Exported Function | 0x00000001800469f0 | 0x000469f0
-`public: static class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Concat(class UnBCL::SmartPtr<class UnBCL::String>)` | 2347 (0x92b) | Exported Function | 0x0000000180059b30 | 0x00059b30
-`public: static class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Concat(class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>)` | 2346 (0x92a) | Exported Function | 0x0000000180059bd0 | 0x00059bd0
-`public: static class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Concat(class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>)` | 2345 (0x929) | Exported Function | 0x0000000180059c90 | 0x00059c90
-`public: static class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Concat(class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>)` | 2344 (0x928) | Exported Function | 0x0000000180059d80 | 0x00059d80
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::CreateTemporaryDirectory(void)` | 1636 (0x664) | Exported Function | 0x0000000180026a10 | 0x00026a10
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetApplicationStartDir(void)` | 1754 (0x6da) | Exported Function | 0x0000000180026cd0 | 0x00026cd0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetCurrentDir(void)` | 1791 (0x6ff) | Exported Function | 0x0000000180026b60 | 0x00026b60
-`public: static class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::StringPtr> > __cdecl UnBCL::MultiSz::FromMultiSzEx(unsigned short const * __ptr64)` | 1748 (0x6d4) | Exported Function | 0x000000018003c650 | 0x0003c650
-`public: static class UnBCL::Encoding * __ptr64 __cdecl UnBCL::Encoding::GetASCII(void)` | 1751 (0x6d7) | Exported Function | 0x000000018002c3c0 | 0x0002c3c0
-`public: static class UnBCL::DirectoryInfo * __ptr64 __cdecl UnBCL::Directory::CreateDir(class UnBCL::String const * __ptr64)` | 1633 (0x661) | Exported Function | 0x0000000180025370 | 0x00025370
-`public: static class UnBCL::DateTime __cdecl UnBCL::DateTime::GetNow(int)` | 1846 (0x736) | Exported Function | 0x0000000180023e10 | 0x00023e10
-`public: int __cdecl UnBCL::TimeSpan::get_Seconds(void)const __ptr64` | 2571 (0xa0b) | Exported Function | 0x000000018005c850 | 0x0005c850
-`public: int __cdecl UnBCL::Version::get_Build(void)const __ptr64` | 2387 (0x953) | Exported Function | 0x00000001800237c0 | 0x000237c0
-`public: int __cdecl UnBCL::Version::get_Major(void)const __ptr64` | 2511 (0x9cf) | Exported Function | 0x0000000180042640 | 0x00042640
-`public: int __cdecl UnBCL::Version::get_Minor(void)const __ptr64` | 2516 (0x9d4) | Exported Function | 0x00000001800417b0 | 0x000417b0
-`public: int __cdecl UnBCL::XmlAttributeCollection::get_Count(void) __ptr64` | 2416 (0x970) | Exported Function | 0x0000000180064940 | 0x00064940
-`public: int __cdecl UnBCL::XmlLite::XmlAttributeCollection::get_Count(void)const __ptr64` | 2417 (0x971) | Exported Function | 0x000000018000d900 | 0x0000d900
-`public: int __cdecl UnBCL::XmlLite::XmlNodeList::get_Count(void)const __ptr64` | 2419 (0x973) | Exported Function | 0x000000018000d900 | 0x0000d900
-`public: int __cdecl UnBCL::XmlNodeList::get_Count(void) __ptr64` | 2418 (0x972) | Exported Function | 0x00000001800646f0 | 0x000646f0
-`public: int __cdecl UnBCL::XmlSchemaSet::Contains(class UnBCL::String * __ptr64) __ptr64` | 1606 (0x646) | Exported Function | 0x0000000180066100 | 0x00066100
-`public: static class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Directory::GetDirectories(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,int)` | 1799 (0x707) | Exported Function | 0x0000000180025d80 | 0x00025d80
-`public: static class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Directory::GetDirectoriesAndFiles(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,enum UnBCL::Directory::EnumerationType,int)` | 1800 (0x708) | Exported Function | 0x0000000180026340 | 0x00026340
-`public: static class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Directory::GetFiles(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,int)` | 1823 (0x71f) | Exported Function | 0x0000000180025da0 | 0x00025da0
-`public: static class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Environment::GetLogicalDriveNames(void)` | 1837 (0x72d) | Exported Function | 0x000000018002eb80 | 0x0002eb80
-`public: static class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::MultiSz::FromMultiSz(unsigned short const * __ptr64)` | 1747 (0x6d3) | Exported Function | 0x000000018003c360 | 0x0003c360
-`public: static class UnBCL::Char __cdecl UnBCL::Char::ToLower(class UnBCL::Char)` | 2281 (0x8e9) | Exported Function | 0x0000000180022a40 | 0x00022a40
-`public: static class UnBCL::DateTime __cdecl UnBCL::DateTime::GetMaxValue(void)` | 1843 (0x733) | Exported Function | 0x0000000180023f10 | 0x00023f10
-`public: static class UnBCL::DateTime __cdecl UnBCL::DateTime::GetMinValue(void)` | 1844 (0x734) | Exported Function | 0x0000000180023ed0 | 0x00023ed0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetDirectoryRoot(class UnBCL::String const * __ptr64)` | 1801 (0x709) | Exported Function | 0x0000000180024720 | 0x00024720
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetLoadedModuleDir(class UnBCL::String const * __ptr64)` | 1835 (0x72b) | Exported Function | 0x0000000180026e40 | 0x00026e40
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetSystemDir(void)` | 1866 (0x74a) | Exported Function | 0x0000000180027100 | 0x00027100
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetTempPathName(void)` | 1869 (0x74d) | Exported Function | 0x0000000180026760 | 0x00026760
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::SerializationStream::SanitizeTypeName(class UnBCL::String const & __ptr64)` | 2167 (0x877) | Exported Function | 0x000000018004b740 | 0x0004b740
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Concat(int,...)` | 1587 (0x633) | Exported Function | 0x0000000180058160 | 0x00058160
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Concat(unsigned short const * __ptr64)` | 1591 (0x637) | Exported Function | 0x0000000180057fb0 | 0x00057fb0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Concat(unsigned short const * __ptr64,unsigned short const * __ptr64)` | 1590 (0x636) | Exported Function | 0x0000000180057fd0 | 0x00057fd0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Concat(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64)` | 1589 (0x635) | Exported Function | 0x0000000180058060 | 0x00058060
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Concat(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64)` | 1588 (0x634) | Exported Function | 0x0000000180058130 | 0x00058130
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Copy(class UnBCL::String const * __ptr64)` | 1615 (0x64f) | Exported Function | 0x0000000180056360 | 0x00056360
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Format(unsigned short const * __ptr64,...)` | 1736 (0x6c8) | Exported Function | 0x0000000180058330 | 0x00058330
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::FormatV(unsigned short const * __ptr64,char * __ptr64)` | 1741 (0x6cd) | Exported Function | 0x0000000180058360 | 0x00058360
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::FromASCII(char const * __ptr64)` | 1746 (0x6d2) | Exported Function | 0x0000000180058600 | 0x00058600
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Join(unsigned short const * __ptr64,class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64)` | 1991 (0x7c7) | Exported Function | 0x0000000180058200 | 0x00058200
-`public: static class UnBCL::String const * __ptr64 __cdecl UnBCL::Path::GetInvalidPathChars(void)` | 1832 (0x728) | Exported Function | 0x0000000180042a10 | 0x00042a10
-`public: static class UnBCL::String const * __ptr64 __cdecl UnBCL::String::Intern(class UnBCL::String const * __ptr64)` | 1967 (0x7af) | Exported Function | 0x0000000180058770 | 0x00058770
-`public: static class UnBCL::String const * __ptr64 __cdecl UnBCL::String::IsInterned(class UnBCL::String const * __ptr64)` | 1981 (0x7bd) | Exported Function | 0x0000000180058a10 | 0x00058a10
-`public: static class UnBCL::SystemInfo const * __ptr64 __cdecl UnBCL::Environment::GetSystemInfo(int)` | 1867 (0x74b) | Exported Function | 0x000000018002d820 | 0x0002d820
-`public: static class UnBCL::Thread * __ptr64 __cdecl UnBCL::Thread::GetThisThread(void)` | 1871 (0x74f) | Exported Function | 0x000000018005bff0 | 0x0005bff0
-`public: static class UnBCL::TimeSpan __cdecl UnBCL::TimeSpan::FromSeconds(double)` | 1749 (0x6d5) | Exported Function | 0x000000018005cba0 | 0x0005cba0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::WithoutLongPrefix(class UnBCL::String const * __ptr64,int & __ptr64)` | 2328 (0x918) | Exported Function | 0x0000000180043830 | 0x00043830
-`public: static class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::CreateXmlNode(struct IXMLDOMNode * __ptr64)` | 1637 (0x665) | Exported Function | 0x00000001800630e0 | 0x000630e0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::WithoutLongPrefix(class UnBCL::String const * __ptr64)` | 2327 (0x917) | Exported Function | 0x0000000180043810 | 0x00043810
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::WithLongPrefixStd(class UnBCL::String const * __ptr64,int)` | 2325 (0x915) | Exported Function | 0x00000001800434a0 | 0x000434a0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetWindowsDir(void)` | 1905 (0x771) | Exported Function | 0x0000000180027030 | 0x00027030
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Environment::ExpandEnvironmentVariables(class UnBCL::String const * __ptr64)` | 1719 (0x6b7) | Exported Function | 0x000000018002e7d0 | 0x0002e7d0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Environment::GetEnvironmentVar(class UnBCL::String const * __ptr64)` | 1817 (0x719) | Exported Function | 0x000000018002e960 | 0x0002e960
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::File::Copy(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,int)` | 1614 (0x64e) | Exported Function | 0x0000000180035f10 | 0x00035f10
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::File::GetTemporaryFileName(class UnBCL::String const * __ptr64)` | 1870 (0x74e) | Exported Function | 0x00000001800361b0 | 0x000361b0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Int32Ops::ToString(int)` | 2287 (0x8ef) | Exported Function | 0x0000000180039000 | 0x00039000
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::Combine(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64)` | 1570 (0x622) | Exported Function | 0x00000001800431c0 | 0x000431c0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetFileName(class UnBCL::String const * __ptr64)` | 1820 (0x71c) | Exported Function | 0x0000000180043df0 | 0x00043df0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetFileNameExtension(class UnBCL::String const * __ptr64)` | 1821 (0x71d) | Exported Function | 0x0000000180043fd0 | 0x00043fd0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetFileNameWithoutExtension(class UnBCL::String const * __ptr64)` | 1822 (0x71e) | Exported Function | 0x0000000180043ed0 | 0x00043ed0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetFullPath(class UnBCL::String const * __ptr64)` | 1824 (0x720) | Exported Function | 0x0000000180042de0 | 0x00042de0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetLongName(class UnBCL::String const * __ptr64)` | 1838 (0x72e) | Exported Function | 0x0000000180044a70 | 0x00044a70
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetParentPath(class UnBCL::String const * __ptr64)` | 1853 (0x73d) | Exported Function | 0x0000000180043310 | 0x00043310
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetPathRoot(class UnBCL::String const * __ptr64)` | 1854 (0x73e) | Exported Function | 0x0000000180043360 | 0x00043360
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetShortName(class UnBCL::String const * __ptr64)` | 1857 (0x741) | Exported Function | 0x00000001800448b0 | 0x000448b0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::Sanitize(class UnBCL::String const * __ptr64)` | 2166 (0x876) | Exported Function | 0x0000000180044340 | 0x00044340
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::WithLongPrefix(class UnBCL::String const * __ptr64,int)` | 2324 (0x914) | Exported Function | 0x00000001800433a0 | 0x000433a0
-`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::WithLongPrefixUNC(class UnBCL::String const * __ptr64,int)` | 2326 (0x916) | Exported Function | 0x0000000180043620 | 0x00043620
-`public: int __cdecl UnBCL::TimeSpan::get_Minutes(void)const __ptr64` | 2518 (0x9d6) | Exported Function | 0x000000018005c800 | 0x0005c800
-`public: static void * __ptr64 __cdecl UnBCL::Object::operator new(unsigned __int64,char const * __ptr64,int)` | 659 (0x293) | Exported Function | 0x0000000180041900 | 0x00041900
-`public: static void * __ptr64 __cdecl UnBCL::Object::operator new(unsigned __int64,unsigned int)` | 658 (0x292) | Exported Function | 0x0000000180041910 | 0x00041910
-`public: struct UnBCL::ISerializable & __ptr64 __cdecl UnBCL::ISerializable::operator=(struct UnBCL::ISerializable && __ptr64) __ptr64` | 829 (0x33d) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::ISerializable & __ptr64 __cdecl UnBCL::ISerializable::operator=(struct UnBCL::ISerializable const & __ptr64) __ptr64` | 830 (0x33e) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: unsigned __int64 __cdecl UnBCL::StreamCounter::get_Count(void)const __ptr64` | 2415 (0x96f) | Exported Function | 0x00000001800022b0 | 0x000022b0
-`public: unsigned __int64 __cdecl UnBCL::SystemInfo::get_TotalMemory(void)const __ptr64` | 2581 (0xa15) | Exported Function | 0x000000018002cf90 | 0x0002cf90
-`public: unsigned int __cdecl UnBCL::SEHException::get_ExceptionCode(void)const __ptr64` | 2428 (0x97c) | Exported Function | 0x0000000180042640 | 0x00042640
-`public: unsigned long __cdecl UnBCL::OperatingSystem::get_Architecture(void)const __ptr64` | 2370 (0x942) | Exported Function | 0x00000001800417b0 | 0x000417b0
-`public: unsigned long __cdecl UnBCL::RegistryKey::GetValue(class UnBCL::String const * __ptr64) __ptr64` | 1890 (0x762) | Exported Function | 0x0000000180048c20 | 0x00048c20
-`public: struct UnBCL::IPoolable & __ptr64 __cdecl UnBCL::IPoolable::operator=(struct UnBCL::IPoolable const & __ptr64) __ptr64` | 828 (0x33c) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: unsigned long __cdecl UnBCL::SystemInfo::get_NumCPU(void)const __ptr64` | 2530 (0x9e2) | Exported Function | 0x000000018002cfa0 | 0x0002cfa0
-`public: unsigned long __cdecl UnBCL::SystemInfo::get_ProcessorArchitecture(void)const __ptr64` | 2559 (0x9ff) | Exported Function | 0x000000018002cff0 | 0x0002cff0
-`public: unsigned long __cdecl UnBCL::SystemInfo::get_ProcessorMaxClock(void)const __ptr64` | 2562 (0xa02) | Exported Function | 0x000000018002d000 | 0x0002d000
-`public: unsigned long __cdecl UnBCL::Thread::get_ThreadID(void) __ptr64` | 2575 (0xa0f) | Exported Function | 0x0000000180031a80 | 0x00031a80
-`public: unsigned long __cdecl UnBCL::Win32Exception::get_Win32ErrorCode(void)const __ptr64` | 2593 (0xa21) | Exported Function | 0x000000018005f800 | 0x0005f800
-`public: unsigned short * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::GetBuffer(int) __ptr64` | 1774 (0x6ee) | Exported Function | 0x0000000180006110 | 0x00006110
-`public: unsigned short * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::GetBuffer(void) __ptr64` | 1775 (0x6ef) | Exported Function | 0x0000000180006870 | 0x00006870
-`public: unsigned short * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::GetBufferSetLength(int) __ptr64` | 1778 (0x6f2) | Exported Function | 0x0000000180006800 | 0x00006800
-`public: unsigned long __cdecl UnBCL::SystemInfo::get_NumLogicalCPU(void)const __ptr64` | 2531 (0x9e3) | Exported Function | 0x000000018002cfb0 | 0x0002cfb0
-`public: struct UnBCL::IPoolable & __ptr64 __cdecl UnBCL::IPoolable::operator=(struct UnBCL::IPoolable && __ptr64) __ptr64` | 827 (0x33b) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::Int32Ops & __ptr64 __cdecl UnBCL::Int32Ops::operator=(struct UnBCL::Int32Ops const & __ptr64) __ptr64` | 834 (0x342) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::Int32Ops & __ptr64 __cdecl UnBCL::Int32Ops::operator=(struct UnBCL::Int32Ops && __ptr64) __ptr64` | 833 (0x341) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IEnumerator<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > * __ptr64 __cdecl UnBCL::XmlNamespaceManager::GetEnumerator(void)const __ptr64` | 1816 (0x718) | Exported Function | 0x0000000180065e20 | 0x00065e20
-`public: struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerator<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 712 (0x2c8) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerator<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 713 (0x2c9) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::IEnumerator<unsigned short const * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerator<unsigned short const * __ptr64>::operator=(struct UnBCL::IEnumerator<unsigned short const * __ptr64> && __ptr64) __ptr64` | 714 (0x2ca) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::IEnumerator<unsigned short const * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerator<unsigned short const * __ptr64>::operator=(struct UnBCL::IEnumerator<unsigned short const * __ptr64> const & __ptr64) __ptr64` | 715 (0x2cb) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::IInstanceFactory & __ptr64 __cdecl UnBCL::IInstanceFactory::operator=(struct UnBCL::IInstanceFactory && __ptr64) __ptr64` | 825 (0x339) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IInstanceFactory & __ptr64 __cdecl UnBCL::IInstanceFactory::operator=(struct UnBCL::IInstanceFactory const & __ptr64) __ptr64` | 826 (0x33a) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IList<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::IList<class UnBCL::Object * __ptr64>::operator=(struct UnBCL::IList<class UnBCL::Object * __ptr64> && __ptr64) __ptr64` | 722 (0x2d2) | Exported Function | 0x0000000180008520 | 0x00008520
-`public: struct UnBCL::IList<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::IList<class UnBCL::Object * __ptr64>::operator=(struct UnBCL::IList<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 723 (0x2d3) | Exported Function | 0x0000000180008520 | 0x00008520
-`public: struct UnBCL::IList<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IList<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IList<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 724 (0x2d4) | Exported Function | 0x0000000180008520 | 0x00008520
-`public: struct UnBCL::IList<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IList<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IList<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 725 (0x2d5) | Exported Function | 0x0000000180008520 | 0x00008520
-`public: struct UnBCL::IList<int> & __ptr64 __cdecl UnBCL::IList<int>::operator=(struct UnBCL::IList<int> && __ptr64) __ptr64` | 720 (0x2d0) | Exported Function | 0x0000000180008520 | 0x00008520
-`public: struct UnBCL::IList<int> & __ptr64 __cdecl UnBCL::IList<int>::operator=(struct UnBCL::IList<int> const & __ptr64) __ptr64` | 721 (0x2d1) | Exported Function | 0x0000000180008520 | 0x00008520
-`public: struct UnBCL::IList<unsigned char> & __ptr64 __cdecl UnBCL::IList<unsigned char>::operator=(struct UnBCL::IList<unsigned char> && __ptr64) __ptr64` | 716 (0x2cc) | Exported Function | 0x0000000180008520 | 0x00008520
-`public: struct UnBCL::IList<unsigned char> & __ptr64 __cdecl UnBCL::IList<unsigned char>::operator=(struct UnBCL::IList<unsigned char> const & __ptr64) __ptr64` | 717 (0x2cd) | Exported Function | 0x0000000180008520 | 0x00008520
-`public: struct UnBCL::IList<unsigned short> & __ptr64 __cdecl UnBCL::IList<unsigned short>::operator=(struct UnBCL::IList<unsigned short> && __ptr64) __ptr64` | 718 (0x2ce) | Exported Function | 0x0000000180008520 | 0x00008520
-`public: struct UnBCL::IList<unsigned short> & __ptr64 __cdecl UnBCL::IList<unsigned short>::operator=(struct UnBCL::IList<unsigned short> const & __ptr64) __ptr64` | 719 (0x2cf) | Exported Function | 0x0000000180008520 | 0x00008520
-`public: unsigned short * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::LockBuffer(void) __ptr64` | 2020 (0x7e4) | Exported Function | 0x0000000180006740 | 0x00006740
-`public: unsigned short * __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::AllocSysString(void)const __ptr64` | 1467 (0x5bb) | Exported Function | 0x0000000180003770 | 0x00003770
-`public: unsigned short * __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::SetSysString(unsigned short * __ptr64 * __ptr64)const __ptr64` | 2193 (0x891) | Exported Function | 0x0000000180003730 | 0x00003730
-`public: unsigned short * __ptr64 __cdecl UnBCL::StringBuilder::GetBuffer(int) __ptr64` | 1777 (0x6f1) | Exported Function | 0x000000018005ad00 | 0x0005ad00
-`public: virtual __cdecl UnBCL::ArgumentNullException::~ArgumentNullException(void) __ptr64` | 576 (0x240) | Exported Function | 0x0000000180001830 | 0x00001830
-`public: virtual __cdecl UnBCL::ArgumentOutOfRangeException::~ArgumentOutOfRangeException(void) __ptr64` | 577 (0x241) | Exported Function | 0x0000000180001830 | 0x00001830
-`public: virtual __cdecl UnBCL::ArithmeticException::~ArithmeticException(void) __ptr64` | 578 (0x242) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::~Array<class UnBCL::Object * __ptr64>(void) __ptr64` | 516 (0x204) | Exported Function | 0x0000000180013a40 | 0x00013a40
-`public: virtual __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::~Array<class UnBCL::String * __ptr64>(void) __ptr64` | 517 (0x205) | Exported Function | 0x000000018000fb10 | 0x0000fb10
-`public: virtual __cdecl UnBCL::Array<int>::~Array<int>(void) __ptr64` | 515 (0x203) | Exported Function | 0x0000000180014c30 | 0x00014c30
-`public: virtual __cdecl UnBCL::Array<unsigned char>::~Array<unsigned char>(void) __ptr64` | 513 (0x201) | Exported Function | 0x000000018000d310 | 0x0000d310
-`public: virtual __cdecl UnBCL::Array<unsigned short>::~Array<unsigned short>(void) __ptr64` | 514 (0x202) | Exported Function | 0x000000018000e830 | 0x0000e830
-`public: virtual __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::~ArrayList<class UnBCL::String * __ptr64>(void) __ptr64` | 519 (0x207) | Exported Function | 0x000000018000a6a0 | 0x0000a6a0
-`public: virtual __cdecl UnBCL::ArrayList<unsigned short>::~ArrayList<unsigned short>(void) __ptr64` | 518 (0x206) | Exported Function | 0x0000000180010ed0 | 0x00010ed0
-`public: virtual __cdecl UnBCL::ASCIIEncoding::~ASCIIEncoding(void) __ptr64` | 572 (0x23c) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::BufferedStream::~BufferedStream(void) __ptr64` | 579 (0x243) | Exported Function | 0x0000000180021eb0 | 0x00021eb0
-`public: virtual __cdecl UnBCL::CaseInsensitiveStringComparer::~CaseInsensitiveStringComparer(void) __ptr64` | 580 (0x244) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::Char::~Char(void) __ptr64` | 581 (0x245) | Exported Function | 0x00000001800215b0 | 0x000215b0
-`public: virtual __cdecl UnBCL::DateTime::~DateTime(void) __ptr64` | 582 (0x246) | Exported Function | 0x00000001800215b0 | 0x000215b0
-`public: virtual __cdecl UnBCL::Decoder::~Decoder(void) __ptr64` | 583 (0x247) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::Delegate::~Delegate(void) __ptr64` | 584 (0x248) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::ArgumentException::~ArgumentException(void) __ptr64` | 575 (0x23f) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: struct UnBCL::IEnumerable<unsigned short> & __ptr64 __cdecl UnBCL::IEnumerable<unsigned short>::operator=(struct UnBCL::IEnumerable<unsigned short> const & __ptr64) __ptr64` | 701 (0x2bd) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: virtual __cdecl UnBCL::ApplicationException::~ApplicationException(void) __ptr64` | 574 (0x23e) | Exported Function | 0x00000001800015a0 | 0x000015a0
-`public: virtual __cdecl UnBCL::_::SerializableStackBase<int>::~SerializableStackBase<int>(void) __ptr64` | 557 (0x22d) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: unsigned short __cdecl ATL::CSimpleStringT<unsigned short,0>::GetAt(int)const __ptr64` | 1756 (0x6dc) | Exported Function | 0x00000001800068a0 | 0x000068a0
-`public: unsigned short __cdecl ATL::CSimpleStringT<unsigned short,0>::operator[](int)const __ptr64` | 971 (0x3cb) | Exported Function | 0x00000001800068a0 | 0x000068a0
-`public: unsigned short __cdecl UnBCL::StringBuilder::get_Chars(int)const __ptr64` | 2398 (0x95e) | Exported Function | 0x000000018005adb0 | 0x0005adb0
-`public: unsigned short __cdecl UnBCL::SystemInfo::get_DefaultLangID(void)const __ptr64` | 2426 (0x97a) | Exported Function | 0x000000018002cf10 | 0x0002cf10
-`public: unsigned short const & __ptr64 __cdecl UnBCL::String::get_Chars(int)const __ptr64` | 2397 (0x95d) | Exported Function | 0x0000000180056620 | 0x00056620
-`public: unsigned short const * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::GetString(void)const __ptr64` | 1859 (0x743) | Exported Function | 0x00000001800067b0 | 0x000067b0
-`public: unsigned short const * __ptr64 __cdecl UnBCL::MultiSz::get_Buffer(void)const __ptr64` | 2386 (0x952) | Exported Function | 0x000000018003b9b0 | 0x0003b9b0
-`public: unsigned short const * __ptr64 __cdecl UnBCL::SerializationId::get_TypeName(void)const __ptr64` | 2586 (0xa1a) | Exported Function | 0x000000018004c8b0 | 0x0004c8b0
-`public: unsigned short const * __ptr64 __cdecl UnBCL::String::get_CString(void)const __ptr64` | 2389 (0x955) | Exported Function | 0x00000001800140d0 | 0x000140d0
-`public: unsigned short const * __ptr64 __cdecl UnBCL::StringBuilder::get_CString(void)const __ptr64` | 2390 (0x956) | Exported Function | 0x000000018005b000 | 0x0005b000
-`public: virtual __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::~SerializableArrayBase<class UnBCL::String * __ptr64>(void) __ptr64` | 542 (0x21e) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::_::SerializableArrayBase<int>::~SerializableArrayBase<int>(void) __ptr64` | 541 (0x21d) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::~SerializableArrayBase<unsigned char>(void) __ptr64` | 539 (0x21b) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::~SerializableArrayBase<unsigned short>(void) __ptr64` | 540 (0x21c) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::~SerializableArrayListBase<class UnBCL::String * __ptr64>(void) __ptr64` | 543 (0x21f) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::~SerializableArrayListPrimitiveBase<unsigned short>(void) __ptr64` | 544 (0x220) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::~SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(void) __ptr64` | 556 (0x22c) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::AbandonedMutexException::~AbandonedMutexException(void) __ptr64` | 573 (0x23d) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: static void * __ptr64 __cdecl UnBCL::Object::operator new(unsigned __int64,char const * __ptr64,int,unsigned int)` | 660 (0x294) | Exported Function | 0x0000000180041960 | 0x00041960
-`public: struct UnBCL::IEnumerable<unsigned short> & __ptr64 __cdecl UnBCL::IEnumerable<unsigned short>::operator=(struct UnBCL::IEnumerable<unsigned short> && __ptr64) __ptr64` | 700 (0x2bc) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IEnumerable<unsigned short const * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<unsigned short const * __ptr64>::operator=(struct UnBCL::IEnumerable<unsigned short const * __ptr64> && __ptr64) __ptr64` | 708 (0x2c4) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: static void __cdecl UnBCL::ArrayList<unsigned short>::Sort(class UnBCL::ArrayList<unsigned short> * __ptr64)` | 2210 (0x8a2) | Exported Function | 0x0000000180012280 | 0x00012280
-`public: static void __cdecl UnBCL::Directory::Copy(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,int,struct UnBCL::Directory::ICopyDelegate * __ptr64)` | 1613 (0x64d) | Exported Function | 0x00000001800271d0 | 0x000271d0
-`public: static void __cdecl UnBCL::Directory::Delete(class UnBCL::String const * __ptr64,int)` | 1666 (0x682) | Exported Function | 0x0000000180024900 | 0x00024900
-`public: static void __cdecl UnBCL::Directory::Move(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64)` | 2045 (0x7fd) | Exported Function | 0x00000001800258a0 | 0x000258a0
-`public: static void __cdecl UnBCL::Environment::SetEnvironmentVar(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64)` | 2179 (0x883) | Exported Function | 0x000000018002eaa0 | 0x0002eaa0
-`public: static void __cdecl UnBCL::File::Delete(class UnBCL::String const * __ptr64)` | 1667 (0x683) | Exported Function | 0x00000001800357c0 | 0x000357c0
-`public: static void __cdecl UnBCL::File::Move(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64)` | 2046 (0x7fe) | Exported Function | 0x0000000180035970 | 0x00035970
-`public: static void __cdecl UnBCL::ArrayList<unsigned short>::Copy(class UnBCL::ArrayList<unsigned short> const * __ptr64,int,class UnBCL::ArrayList<unsigned short> * __ptr64,int,int)` | 1609 (0x649) | Exported Function | 0x00000001800127c0 | 0x000127c0
-`public: static void __cdecl UnBCL::File::MoveEx(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,unsigned long)` | 2047 (0x7ff) | Exported Function | 0x0000000180035c40 | 0x00035c40
-`public: static void __cdecl UnBCL::Monitor::Enter(class UnBCL::SyncObject * __ptr64)` | 1698 (0x6a2) | Exported Function | 0x000000018003a600 | 0x0003a600
-`public: static void __cdecl UnBCL::Monitor::Exit(class UnBCL::SyncObject * __ptr64)` | 1718 (0x6b6) | Exported Function | 0x000000018003a690 | 0x0003a690
-`public: static void __cdecl UnBCL::Monitor::Pulse(class UnBCL::SyncObject * __ptr64)` | 2079 (0x81f) | Exported Function | 0x000000018003a8c0 | 0x0003a8c0
-`public: static void __cdecl UnBCL::Monitor::PulseAll(class UnBCL::SyncObject * __ptr64)` | 2080 (0x820) | Exported Function | 0x000000018003aa10 | 0x0003aa10
-`public: static void __cdecl UnBCL::Object::operator delete(void * __ptr64)` | 661 (0x295) | Exported Function | 0x00000001800419d0 | 0x000419d0
-`public: static void __cdecl UnBCL::Object::operator delete(void * __ptr64,char const * __ptr64,int)` | 662 (0x296) | Exported Function | 0x0000000180041a10 | 0x00041a10
-`public: static void __cdecl UnBCL::SbRegistrationList::EnqueueSbRegistration(char const * __ptr64,int,struct HINSTANCE__ * __ptr64,struct UnBCL::IInstanceFactory * __ptr64)` | 1697 (0x6a1) | Exported Function | 0x000000018004a110 | 0x0004a110
-`public: static void __cdecl UnBCL::Logging::SetHandler(struct ILogHandler * __ptr64)` | 2180 (0x884) | Exported Function | 0x0000000180039230 | 0x00039230
-`public: static void __cdecl UnBCL::ArrayList<unsigned short>::Copy(class UnBCL::ArrayList<unsigned short> const * __ptr64,class UnBCL::ArrayList<unsigned short> * __ptr64,int)` | 1610 (0x64a) | Exported Function | 0x0000000180012950 | 0x00012950
-`public: static void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Sort(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64)` | 2212 (0x8a4) | Exported Function | 0x000000018000bcc0 | 0x0000bcc0
-`public: static void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Copy(class UnBCL::ArrayList<class UnBCL::String * __ptr64> const * __ptr64,int,class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64,int,int)` | 1611 (0x64b) | Exported Function | 0x000000018000c220 | 0x0000c220
-`public: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::CopyChars(unsigned short * __ptr64,unsigned __int64,unsigned short const * __ptr64,int)` | 1617 (0x651) | Exported Function | 0x00000001800063c0 | 0x000063c0
-`public: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::CopyChars(unsigned short * __ptr64,unsigned short const * __ptr64,int)` | 1616 (0x650) | Exported Function | 0x00000001800063e0 | 0x000063e0
-`public: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::CopyCharsOverlapped(unsigned short * __ptr64,unsigned __int64,unsigned short const * __ptr64,int)` | 1619 (0x653) | Exported Function | 0x0000000180006380 | 0x00006380
-`public: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::CopyCharsOverlapped(unsigned short * __ptr64,unsigned short const * __ptr64,int)` | 1618 (0x652) | Exported Function | 0x00000001800063a0 | 0x000063a0
-`public: static void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Construct(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > * __ptr64)` | 1593 (0x639) | Exported Function | 0x0000000180005e70 | 0x00005e70
-`public: static void __cdecl UnBCL::Allocator::Free(void * __ptr64,unsigned int)` | 1742 (0x6ce) | Exported Function | 0x0000000180003190 | 0x00003190
-`public: static void __cdecl UnBCL::Allocator::InitTerm(int)` | 1943 (0x797) | Exported Function | 0x0000000180002f70 | 0x00002f70
-`public: static void __cdecl UnBCL::Allocator::InvokeOOMHandler(unsigned __int64)` | 1971 (0x7b3) | Exported Function | 0x0000000180003050 | 0x00003050
-`public: static void __cdecl UnBCL::Allocator::SetOOMHandler(struct IOutOfMemoryHandler * __ptr64)` | 2187 (0x88b) | Exported Function | 0x0000000180003040 | 0x00003040
-`public: static void __cdecl UnBCL::Allocator::SetRef(unsigned int)` | 2188 (0x88c) | Exported Function | 0x00000001800031f0 | 0x000031f0
-`public: static void __cdecl UnBCL::Allocator::Validate(unsigned int)` | 2316 (0x90c) | Exported Function | 0x0000000180003280 | 0x00003280
-`public: static void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Sort(class UnBCL::Array<class UnBCL::Object * __ptr64> * __ptr64)` | 2208 (0x8a0) | Exported Function | 0x0000000180013e10 | 0x00013e10
-`public: static void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Sort(class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64)` | 2209 (0x8a1) | Exported Function | 0x000000018000ffa0 | 0x0000ffa0
-`public: static void __cdecl UnBCL::Array<int>::Sort(class UnBCL::Array<int> * __ptr64)` | 2207 (0x89f) | Exported Function | 0x00000001800150c0 | 0x000150c0
-`public: static void __cdecl UnBCL::Array<unsigned char>::Sort(class UnBCL::Array<unsigned char> * __ptr64)` | 2205 (0x89d) | Exported Function | 0x000000018000d9f0 | 0x0000d9f0
-`public: static void __cdecl UnBCL::Array<unsigned short>::Sort(class UnBCL::Array<unsigned short> * __ptr64)` | 2206 (0x89e) | Exported Function | 0x000000018000ecc0 | 0x0000ecc0
-`public: static void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Copy(class UnBCL::ArrayList<class UnBCL::String * __ptr64> const * __ptr64,class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64,int)` | 1612 (0x64c) | Exported Function | 0x000000018000c3d0 | 0x0000c3d0
-`public: static void __cdecl UnBCL::SbRegistrationList::RegisterStaticTypes(int)` | 2104 (0x838) | Exported Function | 0x000000018004a060 | 0x0004a060
-`public: static void __cdecl UnBCL::SerializationStream::RegisterType(class UnBCL::String const * __ptr64,int,struct HINSTANCE__ * __ptr64,struct UnBCL::IInstanceFactory * __ptr64)` | 2105 (0x839) | Exported Function | 0x000000018004b760 | 0x0004b760
-`public: static void __cdecl UnBCL::SerializationStream::UnregisterAllTypesForDllUnload(void)` | 2314 (0x90a) | Exported Function | 0x000000018004bbe0 | 0x0004bbe0
-`public: static void __cdecl UnBCL::SerializationStream::UnregisterType(class UnBCL::String const * __ptr64,int,struct HINSTANCE__ * __ptr64)` | 2315 (0x90b) | Exported Function | 0x000000018004ba20 | 0x0004ba20
-`public: struct UnBCL::ICollection<unsigned short> & __ptr64 __cdecl UnBCL::ICollection<unsigned short>::operator=(struct UnBCL::ICollection<unsigned short> const & __ptr64) __ptr64` | 685 (0x2ad) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::IComparer<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IComparer<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IComparer<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 694 (0x2b6) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::IComparer<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IComparer<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IComparer<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 695 (0x2b7) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::operator=(struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 696 (0x2b8) | Exported Function | 0x000000018002c6e0 | 0x0002c6e0
-`public: struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::operator=(struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 697 (0x2b9) | Exported Function | 0x000000018002c6e0 | 0x0002c6e0
-`public: struct UnBCL::IDisposable & __ptr64 __cdecl UnBCL::IDisposable::operator=(struct UnBCL::IDisposable && __ptr64) __ptr64` | 823 (0x337) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::IDisposable & __ptr64 __cdecl UnBCL::IDisposable::operator=(struct UnBCL::IDisposable const & __ptr64) __ptr64` | 824 (0x338) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::operator=(struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > && __ptr64) __ptr64` | 710 (0x2c6) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::operator=(struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 711 (0x2c7) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IEnumerable<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::Object * __ptr64>::operator=(struct UnBCL::IEnumerable<class UnBCL::Object * __ptr64> && __ptr64) __ptr64` | 704 (0x2c0) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IEnumerable<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::Object * __ptr64>::operator=(struct UnBCL::IEnumerable<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 705 (0x2c1) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IEnumerable<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IEnumerable<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 706 (0x2c2) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IEnumerable<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IEnumerable<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 707 (0x2c3) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IEnumerable<int> & __ptr64 __cdecl UnBCL::IEnumerable<int>::operator=(struct UnBCL::IEnumerable<int> && __ptr64) __ptr64` | 702 (0x2be) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IEnumerable<int> & __ptr64 __cdecl UnBCL::IEnumerable<int>::operator=(struct UnBCL::IEnumerable<int> const & __ptr64) __ptr64` | 703 (0x2bf) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IEnumerable<unsigned char> & __ptr64 __cdecl UnBCL::IEnumerable<unsigned char>::operator=(struct UnBCL::IEnumerable<unsigned char> && __ptr64) __ptr64` | 698 (0x2ba) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::IEnumerable<unsigned char> & __ptr64 __cdecl UnBCL::IEnumerable<unsigned char>::operator=(struct UnBCL::IEnumerable<unsigned char> const & __ptr64) __ptr64` | 699 (0x2bb) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::ICollection<unsigned short> & __ptr64 __cdecl UnBCL::ICollection<unsigned short>::operator=(struct UnBCL::ICollection<unsigned short> && __ptr64) __ptr64` | 684 (0x2ac) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::IEnumerable<unsigned short const * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<unsigned short const * __ptr64>::operator=(struct UnBCL::IEnumerable<unsigned short const * __ptr64> const & __ptr64) __ptr64` | 709 (0x2c5) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: struct UnBCL::ICollection<unsigned char> & __ptr64 __cdecl UnBCL::ICollection<unsigned char>::operator=(struct UnBCL::ICollection<unsigned char> const & __ptr64) __ptr64` | 683 (0x2ab) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::ICollection<int> & __ptr64 __cdecl UnBCL::ICollection<int>::operator=(struct UnBCL::ICollection<int> const & __ptr64) __ptr64` | 687 (0x2af) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: static void __cdecl UnBCL::String::Done(void)` | 1687 (0x697) | Exported Function | 0x0000000180058af0 | 0x00058af0
-`public: static void __cdecl UnBCL::Thread::SleepFor(unsigned int)` | 2204 (0x89c) | Exported Function | 0x000000018005bfd0 | 0x0005bfd0
-`public: static void __cdecl UnBCL::Win32Exception::ThrowLastError(class UnBCL::String const * __ptr64,char const * __ptr64,int)` | 2272 (0x8e0) | Exported Function | 0x000000018005f890 | 0x0005f890
-`public: static void __cdecl UnBCL::Win32Exception::ThrowLastError(unsigned short const * __ptr64,char const * __ptr64,int)` | 2271 (0x8df) | Exported Function | 0x000000018005f810 | 0x0005f810
-`public: struct _WIN32_FIND_DATAW const & __ptr64 __cdecl UnBCL::FileSystemEnumerator::get_FindData(void) __ptr64` | 2430 (0x97e) | Exported Function | 0x0000000180036f70 | 0x00036f70
-`public: struct ATL::IAtlStringMgr * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::GetManager(void)const __ptr64` | 1839 (0x72f) | Exported Function | 0x00000001800067c0 | 0x000067c0
-`public: struct ATL::IAtlStringMgr * __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::GetManager(void)const __ptr64` | 1840 (0x730) | Exported Function | 0x00000001800051c0 | 0x000051c0
-`public: struct IXMLDOMDocument3 * __ptr64 __cdecl UnBCL::XmlDocument::get_XMLDOMDocument(void) __ptr64` | 2594 (0xa22) | Exported Function | 0x0000000180031a90 | 0x00031a90
-`public: struct IXMLDOMNode * __ptr64 __cdecl UnBCL::XmlNode::get_XMLDOMNode(void) __ptr64` | 2595 (0xa23) | Exported Function | 0x00000001800140d0 | 0x000140d0
-`public: struct IXMLDOMSchemaCollection2 * __ptr64 __cdecl UnBCL::XmlSchemaSet::get_XMLDOMSchemaCollection(void) __ptr64` | 2596 (0xa24) | Exported Function | 0x00000001800140d0 | 0x000140d0
-`public: struct UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::operator=(struct UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > && __ptr64) __ptr64` | 692 (0x2b4) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::operator=(struct UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 693 (0x2b5) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::ICollection<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::Object * __ptr64>::operator=(struct UnBCL::ICollection<class UnBCL::Object * __ptr64> && __ptr64) __ptr64` | 688 (0x2b0) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::ICollection<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::Object * __ptr64>::operator=(struct UnBCL::ICollection<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 689 (0x2b1) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::ICollection<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::String * __ptr64>::operator=(struct UnBCL::ICollection<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 690 (0x2b2) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::ICollection<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::String * __ptr64>::operator=(struct UnBCL::ICollection<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 691 (0x2b3) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::ICollection<int> & __ptr64 __cdecl UnBCL::ICollection<int>::operator=(struct UnBCL::ICollection<int> && __ptr64) __ptr64` | 686 (0x2ae) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: struct UnBCL::ICollection<unsigned char> & __ptr64 __cdecl UnBCL::ICollection<unsigned char>::operator=(struct UnBCL::ICollection<unsigned char> && __ptr64) __ptr64` | 682 (0x2aa) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: int __cdecl UnBCL::TimeSpan::get_Milliseconds(void)const __ptr64` | 2515 (0x9d3) | Exported Function | 0x000000018005c7b0 | 0x0005c7b0
-`public: int __cdecl UnBCL::TimeSpan::get_Hours(void)const __ptr64` | 2438 (0x986) | Exported Function | 0x000000018005c770 | 0x0005c770
-`public: int __cdecl UnBCL::TimeSpan::get_Days(void)const __ptr64` | 2425 (0x979) | Exported Function | 0x000000018005c750 | 0x0005c750
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Insert(int,unsigned short const * __ptr64)const __ptr64` | 1964 (0x7ac) | Exported Function | 0x0000000180057260 | 0x00057260
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Remove(int,int)const __ptr64` | 2131 (0x853) | Exported Function | 0x0000000180057380 | 0x00057380
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Replace(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,int)const __ptr64` | 2147 (0x863) | Exported Function | 0x0000000180057460 | 0x00057460
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Replace(unsigned short const * __ptr64,unsigned short const * __ptr64,enum UnBCL::String::StringCasing)const __ptr64` | 2148 (0x864) | Exported Function | 0x00000001800575c0 | 0x000575c0
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Replace(unsigned short,unsigned short)const __ptr64` | 2146 (0x862) | Exported Function | 0x0000000180057850 | 0x00057850
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Substring(int)const __ptr64` | 2260 (0x8d4) | Exported Function | 0x0000000180057b20 | 0x00057b20
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Substring(int,int)const __ptr64` | 2261 (0x8d5) | Exported Function | 0x0000000180057b40 | 0x00057b40
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::String>::Steal(void) __ptr64` | 2231 (0x8b7) | Exported Function | 0x0000000180001d00 | 0x00001d00
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::ToLower(void)const __ptr64` | 2283 (0x8eb) | Exported Function | 0x0000000180057bb0 | 0x00057bb0
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Trim(unsigned short const * __ptr64)const __ptr64` | 2300 (0x8fc) | Exported Function | 0x0000000180057c80 | 0x00057c80
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Trim(void)const __ptr64` | 2301 (0x8fd) | Exported Function | 0x0000000180057c70 | 0x00057c70
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::TrimEnd(unsigned short const * __ptr64)const __ptr64` | 2302 (0x8fe) | Exported Function | 0x0000000180057d00 | 0x00057d00
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::TrimStart(unsigned short const * __ptr64)const __ptr64` | 2310 (0x906) | Exported Function | 0x0000000180057d70 | 0x00057d70
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::Version::get_CSDVersion(void)const __ptr64` | 2388 (0x954) | Exported Function | 0x0000000180031a90 | 0x00031a90
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_InnerText(void)const __ptr64` | 2443 (0x98b) | Exported Function | 0x0000000180061100 | 0x00061100
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_Name(void)const __ptr64` | 2522 (0x9da) | Exported Function | 0x0000000180031a90 | 0x00031a90
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::ToUpper(void)const __ptr64` | 2295 (0x8f7) | Exported Function | 0x0000000180057c10 | 0x00057c10
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::String>::operator->(void)const __ptr64` | 1001 (0x3e9) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::String>::get_P(void)const __ptr64` | 2545 (0x9f1) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::RegistryKey::GetStringValue(class UnBCL::String const * __ptr64,int) __ptr64` | 1864 (0x748) | Exported Function | 0x0000000180048f10 | 0x00048f10
-`public: class UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::Nullify(void) __ptr64` | 2061 (0x80d) | Exported Function | 0x0000000180001ce0 | 0x00001ce0
-`public: class UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::operator=(class UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager> const & __ptr64) __ptr64` | 775 (0x307) | Exported Function | 0x0000000180001d20 | 0x00001d20
-`public: class UnBCL::Stack<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::operator=(class UnBCL::Stack<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 777 (0x309) | Exported Function | 0x0000000180052870 | 0x00052870
-`public: class UnBCL::Stack<int> & __ptr64 __cdecl UnBCL::Stack<int>::operator=(class UnBCL::Stack<int> const & __ptr64) __ptr64` | 776 (0x308) | Exported Function | 0x0000000180052ba0 | 0x00052ba0
-`public: class UnBCL::Stream & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::operator*(void)const __ptr64` | 1012 (0x3f4) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Stream & __ptr64 __cdecl UnBCL::Stream::operator=(class UnBCL::Stream && __ptr64) __ptr64` | 882 (0x372) | Exported Function | 0x0000000180002430 | 0x00002430
-`public: class UnBCL::Stream & __ptr64 __cdecl UnBCL::Stream::operator=(class UnBCL::Stream const & __ptr64) __ptr64` | 883 (0x373) | Exported Function | 0x0000000180002430 | 0x00002430
-`public: class UnBCL::Stream * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::get_P(void)const __ptr64` | 2544 (0x9f0) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Stream * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::operator->(void)const __ptr64` | 1000 (0x3e8) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Stream * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::Steal(void) __ptr64` | 2230 (0x8b6) | Exported Function | 0x0000000180007710 | 0x00007710
-`public: class UnBCL::StreamCounter & __ptr64 __cdecl UnBCL::StreamCounter::operator=(class UnBCL::StreamCounter const & __ptr64) __ptr64` | 884 (0x374) | Exported Function | 0x0000000180002350 | 0x00002350
-`public: class UnBCL::StreamReader & __ptr64 __cdecl UnBCL::StreamReader::operator=(class UnBCL::StreamReader const & __ptr64) __ptr64` | 885 (0x375) | Exported Function | 0x0000000180054520 | 0x00054520
-`public: class UnBCL::StreamWriter & __ptr64 __cdecl UnBCL::StreamWriter::operator=(class UnBCL::StreamWriter const & __ptr64) __ptr64` | 886 (0x376) | Exported Function | 0x00000001800553c0 | 0x000553c0
-`public: class UnBCL::String & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::String>::operator*(void)const __ptr64` | 1013 (0x3f5) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::String & __ptr64 __cdecl UnBCL::String::operator=(class UnBCL::String const & __ptr64) __ptr64` | 887 (0x377) | Exported Function | 0x0000000180002a80 | 0x00002a80
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::Exception::GetStackTrace(void)const __ptr64` | 1858 (0x742) | Exported Function | 0x0000000180034980 | 0x00034980
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::MultiSz::ToString(unsigned short)const __ptr64` | 2288 (0x8f0) | Exported Function | 0x000000018003c130 | 0x0003c130
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_NamespaceURI(void)const __ptr64` | 2524 (0x9dc) | Exported Function | 0x000000018002cf30 | 0x0002cf30
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_Prefix(void)const __ptr64` | 2555 (0x9fb) | Exported Function | 0x00000001800348f0 | 0x000348f0
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_Value(void)const __ptr64` | 2589 (0xa1d) | Exported Function | 0x0000000180060d40 | 0x00060d40
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNamespaceManager::LookupNamespace(class UnBCL::String * __ptr64) __ptr64` | 2022 (0x7e6) | Exported Function | 0x0000000180065df0 | 0x00065df0
-`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(int) __ptr64` | 1475 (0x5c3) | Exported Function | 0x000000018005ab90 | 0x0005ab90
-`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(unsigned short const * __ptr64) __ptr64` | 1476 (0x5c4) | Exported Function | 0x000000018005aa90 | 0x0005aa90
-`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(unsigned short const * __ptr64,int,int) __ptr64` | 1477 (0x5c5) | Exported Function | 0x000000018005aad0 | 0x0005aad0
-`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(unsigned short) __ptr64` | 1473 (0x5c1) | Exported Function | 0x000000018005a9d0 | 0x0005a9d0
-`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(unsigned short,int) __ptr64` | 1474 (0x5c2) | Exported Function | 0x000000018005aa00 | 0x0005aa00
-`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::AppendEscapedString(unsigned short const * __ptr64,enum UnBCL::EscapingRules) __ptr64` | 1483 (0x5cb) | Exported Function | 0x000000018005acb0 | 0x0005acb0
-`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::AppendNewLine(void) __ptr64` | 1487 (0x5cf) | Exported Function | 0x000000018005aa50 | 0x0005aa50
-`public: class UnBCL::StringPtr & __ptr64 __cdecl UnBCL::StringPtr::operator=(class UnBCL::StringPtr const & __ptr64) __ptr64` | 889 (0x379) | Exported Function | 0x0000000180008250 | 0x00008250
-`public: class UnBCL::SyncObject & __ptr64 __cdecl UnBCL::SyncObject::operator=(class UnBCL::SyncObject const & __ptr64) __ptr64` | 890 (0x37a) | Exported Function | 0x00000001800013f0 | 0x000013f0
-`public: class UnBCL::SystemException & __ptr64 __cdecl UnBCL::SystemException::operator=(class UnBCL::SystemException && __ptr64) __ptr64` | 891 (0x37b) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::SystemException & __ptr64 __cdecl UnBCL::SystemException::operator=(class UnBCL::SystemException const & __ptr64) __ptr64` | 892 (0x37c) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::SystemInfo & __ptr64 __cdecl UnBCL::SystemInfo::operator=(class UnBCL::SystemInfo && __ptr64) __ptr64` | 893 (0x37d) | Exported Function | 0x000000018002d2c0 | 0x0002d2c0
-`public: class UnBCL::SystemInfo & __ptr64 __cdecl UnBCL::SystemInfo::operator=(class UnBCL::SystemInfo const & __ptr64) __ptr64` | 894 (0x37e) | Exported Function | 0x000000018002d2c0 | 0x0002d2c0
-`public: class UnBCL::TextReader & __ptr64 __cdecl UnBCL::TextReader::operator=(class UnBCL::TextReader && __ptr64) __ptr64` | 895 (0x37f) | Exported Function | 0x00000001800542a0 | 0x000542a0
-`public: class UnBCL::TextReader & __ptr64 __cdecl UnBCL::TextReader::operator=(class UnBCL::TextReader const & __ptr64) __ptr64` | 896 (0x380) | Exported Function | 0x00000001800542a0 | 0x000542a0
-`public: class UnBCL::TextWriter & __ptr64 __cdecl UnBCL::TextWriter::operator=(class UnBCL::TextWriter && __ptr64) __ptr64` | 897 (0x381) | Exported Function | 0x0000000180055160 | 0x00055160
-`public: class UnBCL::TextWriter & __ptr64 __cdecl UnBCL::TextWriter::operator=(class UnBCL::TextWriter const & __ptr64) __ptr64` | 898 (0x382) | Exported Function | 0x0000000180055160 | 0x00055160
-`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(class UnBCL::String const * __ptr64,int,int) __ptr64` | 1479 (0x5c7) | Exported Function | 0x000000018005a8c0 | 0x0005a8c0
-`public: class UnBCL::SmartPtr<class UnBCL::Version> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Version>::operator=(class UnBCL::SmartPtr<class UnBCL::Version> const & __ptr64) __ptr64` | 774 (0x306) | Exported Function | 0x0000000180031650 | 0x00031650
-`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(class UnBCL::String const * __ptr64) __ptr64` | 1478 (0x5c6) | Exported Function | 0x000000018005a8a0 | 0x0005a8a0
-`public: class UnBCL::StringBuilder & __ptr64 __cdecl UnBCL::StringBuilder::operator=(class UnBCL::StringBuilder const & __ptr64) __ptr64` | 888 (0x378) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNode::get_InnerText(void) __ptr64` | 2442 (0x98a) | Exported Function | 0x00000001800635c0 | 0x000635c0
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNode::get_Name(void) __ptr64` | 2521 (0x9d9) | Exported Function | 0x0000000180063520 | 0x00063520
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNode::get_NamespaceURI(void) __ptr64` | 2523 (0x9db) | Exported Function | 0x00000001800633e0 | 0x000633e0
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNode::get_OuterXml(void) __ptr64` | 2534 (0x9e6) | Exported Function | 0x0000000180063cb0 | 0x00063cb0
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNode::get_Prefix(void) __ptr64` | 2554 (0x9fa) | Exported Function | 0x0000000180063480 | 0x00063480
-`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNode::get_Value(void) __ptr64` | 2588 (0xa1c) | Exported Function | 0x00000001800636c0 | 0x000636c0
-`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::ProcessStartInfo::get_Arguments(void)const __ptr64` | 2371 (0x943) | Exported Function | 0x0000000180045f10 | 0x00045f10
-`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::ProcessStartInfo::get_FileName(void)const __ptr64` | 2429 (0x97d) | Exported Function | 0x0000000180045e80 | 0x00045e80
-`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_BiosName(void)const __ptr64` | 2383 (0x94f) | Exported Function | 0x000000018002cf60 | 0x0002cf60
-`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_BiosReleaseDate(void)const __ptr64` | 2384 (0x950) | Exported Function | 0x000000018002cf80 | 0x0002cf80
-`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_BiosVersion(void)const __ptr64` | 2385 (0x951) | Exported Function | 0x000000018002cf70 | 0x0002cf70
-`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_ComputerName(void)const __ptr64` | 2402 (0x962) | Exported Function | 0x000000018002cf30 | 0x0002cf30
-`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_Manufacturer(void)const __ptr64` | 2512 (0x9d0) | Exported Function | 0x000000018002cf40 | 0x0002cf40
-`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_Model(void)const __ptr64` | 2519 (0x9d7) | Exported Function | 0x000000018002cf50 | 0x0002cf50
-`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_ProcessorCaption(void)const __ptr64` | 2560 (0xa00) | Exported Function | 0x000000018002cfe0 | 0x0002cfe0
-`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_ProcessorManufacturer(void)const __ptr64` | 2561 (0xa01) | Exported Function | 0x000000018002cfc0 | 0x0002cfc0
-`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_ProcessorName(void)const __ptr64` | 2563 (0xa03) | Exported Function | 0x000000018002cfd0 | 0x0002cfd0
-`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(__int64) __ptr64` | 1480 (0x5c8) | Exported Function | 0x000000018005abc0 | 0x0005abc0
-`public: class UnBCL::Thread & __ptr64 __cdecl UnBCL::Thread::operator=(class UnBCL::Thread const & __ptr64) __ptr64` | 899 (0x383) | Exported Function | 0x000000018005bc10 | 0x0005bc10
-`public: class UnBCL::SmartPtr<class UnBCL::Version> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Version>::Nullify(void) __ptr64` | 2060 (0x80c) | Exported Function | 0x0000000180031600 | 0x00031600
-`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_TrimEnd(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2368 (0x940) | Exported Function | 0x00000001800598a0 | 0x000598a0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(short) __ptr64` | 945 (0x3b1) | Exported Function | 0x000000018004a910 | 0x0004a910
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(struct UnBCL::ISerializable const * __ptr64) __ptr64` | 953 (0x3b9) | Exported Function | 0x000000018004aeb0 | 0x0004aeb0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(struct UnBCL::MP::EmptyType) __ptr64` | 955 (0x3bb) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(unsigned __int64) __ptr64` | 958 (0x3be) | Exported Function | 0x000000018004adf0 | 0x0004adf0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(unsigned char) __ptr64` | 944 (0x3b0) | Exported Function | 0x000000018004aa70 | 0x0004aa70
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(unsigned int) __ptr64` | 948 (0x3b4) | Exported Function | 0x000000018004a860 | 0x0004a860
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(unsigned long) __ptr64` | 950 (0x3b6) | Exported Function | 0x000000018004ab30 | 0x0004ab30
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(long) __ptr64` | 949 (0x3b5) | Exported Function | 0x000000018004aa80 | 0x0004aa80
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(unsigned short) __ptr64` | 946 (0x3b2) | Exported Function | 0x000000018004a9c0 | 0x0004a9c0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(class UnBCL::SmartPtr<struct UnBCL::ISerializable> & __ptr64) __ptr64` | 941 (0x3ad) | Exported Function | 0x000000018004b680 | 0x0004b680
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(class UnBCL::String * __ptr64 & __ptr64) __ptr64` | 938 (0x3aa) | Exported Function | 0x000000018004b470 | 0x0004b470
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(double & __ptr64) __ptr64` | 936 (0x3a8) | Exported Function | 0x000000018004b310 | 0x0004b310
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(float & __ptr64) __ptr64` | 935 (0x3a7) | Exported Function | 0x000000018004b280 | 0x0004b280
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(int & __ptr64) __ptr64` | 931 (0x3a3) | Exported Function | 0x000000018004af90 | 0x0004af90
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(long & __ptr64) __ptr64` | 933 (0x3a5) | Exported Function | 0x000000018004b160 | 0x0004b160
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(short & __ptr64) __ptr64` | 929 (0x3a1) | Exported Function | 0x000000018004b030 | 0x0004b030
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(__int64 & __ptr64) __ptr64` | 942 (0x3ae) | Exported Function | 0x000000018004b3a0 | 0x0004b3a0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(int) __ptr64` | 947 (0x3b3) | Exported Function | 0x000000018004a850 | 0x0004a850
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(float) __ptr64` | 951 (0x3b7) | Exported Function | 0x000000018004abe0 | 0x0004abe0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(double) __ptr64` | 952 (0x3b8) | Exported Function | 0x000000018004ac90 | 0x0004ac90
-`public: class UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::operator=(class UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> > && __ptr64) __ptr64` | 756 (0x2f4) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::operator=(class UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> > const & __ptr64) __ptr64` | 757 (0x2f5) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> > && __ptr64) __ptr64` | 752 (0x2f0) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 753 (0x2f1) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> > && __ptr64) __ptr64` | 758 (0x2f6) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> > const & __ptr64) __ptr64` | 759 (0x2f7) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializationException & __ptr64 __cdecl UnBCL::SerializationException::operator=(class UnBCL::SerializationException && __ptr64) __ptr64` | 878 (0x36e) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::SerializationException & __ptr64 __cdecl UnBCL::SerializationException::operator=(class UnBCL::SerializationException const & __ptr64) __ptr64` | 879 (0x36f) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::SerializationId & __ptr64 __cdecl UnBCL::SerializationId::operator=(class UnBCL::SerializationId const & __ptr64) __ptr64` | 880 (0x370) | Exported Function | 0x00000001800028b0 | 0x000028b0
-`public: class UnBCL::SerializationId & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::operator*(void)const __ptr64` | 1010 (0x3f2) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::SerializationId * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::get_P(void)const __ptr64` | 2542 (0x9ee) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::SerializationId * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::operator->(void)const __ptr64` | 998 (0x3e6) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::SerializationId * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::Steal(void) __ptr64` | 2228 (0x8b4) | Exported Function | 0x0000000180001d00 | 0x00001d00
-`public: class UnBCL::SerializationId const * __ptr64 __cdecl UnBCL::SerializationStream::get_ObjectID(void)const __ptr64` | 2533 (0x9e5) | Exported Function | 0x0000000180031a90 | 0x00031a90
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(__int64) __ptr64` | 957 (0x3bd) | Exported Function | 0x000000018004ad40 | 0x0004ad40
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(class UnBCL::SmartPtr<struct UnBCL::ISerializable>) __ptr64` | 956 (0x3bc) | Exported Function | 0x000000018004af40 | 0x0004af40
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(class UnBCL::String const * __ptr64) __ptr64` | 954 (0x3ba) | Exported Function | 0x000000018004ae00 | 0x0004ae00
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(struct UnBCL::ISerializable * __ptr64 & __ptr64) __ptr64` | 937 (0x3a9) | Exported Function | 0x000000018004b560 | 0x0004b560
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(struct UnBCL::ISerializable const * __ptr64 & __ptr64) __ptr64` | 939 (0x3ab) | Exported Function | 0x000000018004b5f0 | 0x0004b5f0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(struct UnBCL::MP::EmptyType & __ptr64) __ptr64` | 940 (0x3ac) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(unsigned __int64 & __ptr64) __ptr64` | 943 (0x3af) | Exported Function | 0x000000018004b430 | 0x0004b430
-`public: class UnBCL::SmartPtr<class UnBCL::SerializationId> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::Nullify(void) __ptr64` | 2056 (0x808) | Exported Function | 0x0000000180001ce0 | 0x00001ce0
-`public: class UnBCL::SmartPtr<class UnBCL::SerializationId> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::operator=(class UnBCL::SmartPtr<class UnBCL::SerializationId> const & __ptr64) __ptr64` | 770 (0x302) | Exported Function | 0x0000000180001d20 | 0x00001d20
-`public: class UnBCL::SmartPtr<class UnBCL::SerializationStream> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::Nullify(void) __ptr64` | 2057 (0x809) | Exported Function | 0x0000000180001ce0 | 0x00001ce0
-`public: class UnBCL::SmartPtr<class UnBCL::SerializationStream> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::operator=(class UnBCL::SmartPtr<class UnBCL::SerializationStream> const & __ptr64) __ptr64` | 771 (0x303) | Exported Function | 0x0000000180001d20 | 0x00001d20
-`public: class UnBCL::SmartPtr<class UnBCL::Stream> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::Nullify(void) __ptr64` | 2058 (0x80a) | Exported Function | 0x00000001800076f0 | 0x000076f0
-`public: class UnBCL::SmartPtr<class UnBCL::Stream> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::operator=(class UnBCL::SmartPtr<class UnBCL::Stream> const & __ptr64) __ptr64` | 772 (0x304) | Exported Function | 0x0000000180007740 | 0x00007740
-`public: class UnBCL::SmartPtr<class UnBCL::String> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::String>::Nullify(void) __ptr64` | 2059 (0x80b) | Exported Function | 0x0000000180001ce0 | 0x00001ce0
-`public: class UnBCL::SmartPtr<class UnBCL::String> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::String>::operator=(class UnBCL::SmartPtr<class UnBCL::String> const & __ptr64) __ptr64` | 773 (0x305) | Exported Function | 0x0000000180001d20 | 0x00001d20
-`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Insert(int,class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2353 (0x931) | Exported Function | 0x00000001800591e0 | 0x000591e0
-`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Remove(int,int)const __ptr64` | 2358 (0x936) | Exported Function | 0x00000001800592b0 | 0x000592b0
-`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Replace(class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2359 (0x937) | Exported Function | 0x0000000180059310 | 0x00059310
-`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Substring(int)const __ptr64` | 2362 (0x93a) | Exported Function | 0x0000000180059610 | 0x00059610
-`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Substring(int,int)const __ptr64` | 2363 (0x93b) | Exported Function | 0x0000000180059680 | 0x00059680
-`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_ToLower(void)const __ptr64` | 2364 (0x93c) | Exported Function | 0x00000001800596e0 | 0x000596e0
-`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_ToUpper(void)const __ptr64` | 2365 (0x93d) | Exported Function | 0x0000000180059740 | 0x00059740
-`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Trim(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2366 (0x93e) | Exported Function | 0x0000000180059800 | 0x00059800
-`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Trim(void)const __ptr64` | 2367 (0x93f) | Exported Function | 0x00000001800597a0 | 0x000597a0
-`public: class UnBCL::SmartPtr<class UnBCL::Object> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Object>::operator=(class UnBCL::SmartPtr<class UnBCL::Object> const & __ptr64) __ptr64` | 769 (0x301) | Exported Function | 0x0000000180001d20 | 0x00001d20
-`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_TrimStart(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2369 (0x941) | Exported Function | 0x0000000180059940 | 0x00059940
-`public: class UnBCL::SmartPtr<class UnBCL::Object> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Object>::Nullify(void) __ptr64` | 2055 (0x807) | Exported Function | 0x0000000180001ce0 | 0x00001ce0
-`public: class UnBCL::SmartPtr<class UnBCL::Encoding> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::Nullify(void) __ptr64` | 2054 (0x806) | Exported Function | 0x00000001800076f0 | 0x000076f0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(unsigned char & __ptr64) __ptr64` | 928 (0x3a0) | Exported Function | 0x000000018004b150 | 0x0004b150
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(unsigned int & __ptr64) __ptr64` | 932 (0x3a4) | Exported Function | 0x000000018004afa0 | 0x0004afa0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(unsigned long & __ptr64) __ptr64` | 934 (0x3a6) | Exported Function | 0x000000018004b1f0 | 0x0004b1f0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(unsigned short & __ptr64) __ptr64` | 930 (0x3a2) | Exported Function | 0x000000018004b0c0 | 0x0004b0c0
-`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::operator*(void)const __ptr64` | 1011 (0x3f3) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::SerializationStream * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::get_P(void)const __ptr64` | 2543 (0x9ef) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::SerializationStream * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::operator->(void)const __ptr64` | 999 (0x3e7) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::SerializationStream * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::Steal(void) __ptr64` | 2229 (0x8b5) | Exported Function | 0x0000000180001d00 | 0x00001d00
-`public: class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::SmartPtr<class UnBCL::String> > > __cdecl UnBCL::String::_Split(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2360 (0x938) | Exported Function | 0x00000001800593b0 | 0x000593b0
-`public: class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::Nullify(void) __ptr64` | 2051 (0x803) | Exported Function | 0x00000001800076f0 | 0x000076f0
-`public: class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::operator=(class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 765 (0x2fd) | Exported Function | 0x0000000180007740 | 0x00007740
-`public: class UnBCL::SmartPtr<class UnBCL::Array<unsigned char> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::Nullify(void) __ptr64` | 2050 (0x802) | Exported Function | 0x00000001800076f0 | 0x000076f0
-`public: class UnBCL::SmartPtr<class UnBCL::Array<unsigned char> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::operator=(class UnBCL::SmartPtr<class UnBCL::Array<unsigned char> > const & __ptr64) __ptr64` | 764 (0x2fc) | Exported Function | 0x0000000180007740 | 0x00007740
-`public: class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::Nullify(void) __ptr64` | 2052 (0x804) | Exported Function | 0x00000001800076f0 | 0x000076f0
-`public: class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::operator=(class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 766 (0x2fe) | Exported Function | 0x0000000180007740 | 0x00007740
-`public: class UnBCL::SmartPtr<class UnBCL::Decoder> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::Nullify(void) __ptr64` | 2053 (0x805) | Exported Function | 0x00000001800076f0 | 0x000076f0
-`public: class UnBCL::SmartPtr<class UnBCL::Decoder> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::operator=(class UnBCL::SmartPtr<class UnBCL::Decoder> const & __ptr64) __ptr64` | 767 (0x2ff) | Exported Function | 0x0000000180007740 | 0x00007740
-`public: class UnBCL::SmartPtr<class UnBCL::Encoding> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::operator=(class UnBCL::SmartPtr<class UnBCL::Encoding> const & __ptr64) __ptr64` | 768 (0x300) | Exported Function | 0x0000000180007740 | 0x00007740
-`public: class UnBCL::ThreadStateException & __ptr64 __cdecl UnBCL::ThreadStateException::operator=(class UnBCL::ThreadStateException && __ptr64) __ptr64` | 900 (0x384) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::ThreadStateException & __ptr64 __cdecl UnBCL::ThreadStateException::operator=(class UnBCL::ThreadStateException const & __ptr64) __ptr64` | 901 (0x385) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::TimeSpan & __ptr64 __cdecl UnBCL::TimeSpan::operator=(class UnBCL::TimeSpan const & __ptr64) __ptr64` | 902 (0x386) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: int __cdecl UnBCL::DateTime::get_Millisecond(void)const __ptr64` | 2514 (0x9d2) | Exported Function | 0x0000000180023a80 | 0x00023a80
-`public: int __cdecl UnBCL::DateTime::get_Minute(void)const __ptr64` | 2517 (0x9d5) | Exported Function | 0x0000000180023ad0 | 0x00023ad0
-`public: int __cdecl UnBCL::DateTime::get_Month(void)const __ptr64` | 2520 (0x9d8) | Exported Function | 0x0000000180023b20 | 0x00023b20
-`public: int __cdecl UnBCL::DateTime::get_Second(void)const __ptr64` | 2570 (0xa0a) | Exported Function | 0x0000000180023b30 | 0x00023b30
-`public: int __cdecl UnBCL::DateTime::get_Year(void)const __ptr64` | 2597 (0xa25) | Exported Function | 0x0000000180023b90 | 0x00023b90
-`public: int __cdecl UnBCL::FileSystemEnumerator::get_IsDirectory(void) __ptr64` | 2445 (0x98d) | Exported Function | 0x0000000180036ee0 | 0x00036ee0
-`public: int __cdecl UnBCL::HeapMemoryManager::IsTrackingEnabled(void) __ptr64` | 1989 (0x7c5) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: int __cdecl UnBCL::DateTime::get_Hour(void)const __ptr64` | 2437 (0x985) | Exported Function | 0x0000000180023a30 | 0x00023a30
-`public: int __cdecl UnBCL::MultiSz::Contains(unsigned short const * __ptr64,int)const __ptr64` | 1605 (0x645) | Exported Function | 0x000000018003bcf0 | 0x0003bcf0
-`public: int __cdecl UnBCL::Process::WaitForExit(int) __ptr64` | 2321 (0x911) | Exported Function | 0x00000001800456c0 | 0x000456c0
-`public: int __cdecl UnBCL::ProcessStartInfo::get_UseShellExecute(void)const __ptr64` | 2587 (0xa1b) | Exported Function | 0x0000000180045fa0 | 0x00045fa0
-`public: int __cdecl UnBCL::RegHandle::GetDwordValue(unsigned short const * __ptr64,unsigned long & __ptr64) __ptr64` | 1803 (0x70b) | Exported Function | 0x00000001800464e0 | 0x000464e0
-`public: int __cdecl UnBCL::RegHandle::GetStringValue(unsigned short const * __ptr64,class UnBCL::String * __ptr64 & __ptr64) __ptr64` | 1863 (0x747) | Exported Function | 0x00000001800464b0 | 0x000464b0
-`public: int __cdecl UnBCL::RegHandle::Open(struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 2064 (0x810) | Exported Function | 0x0000000180046200 | 0x00046200
-`public: int __cdecl UnBCL::RegistryKey::get_SubKeyCount(void)const __ptr64` | 2573 (0xa0d) | Exported Function | 0x0000000180046cf0 | 0x00046cf0
-`public: int __cdecl UnBCL::RegistryKey::get_ValueCount(void)const __ptr64` | 2590 (0xa1e) | Exported Function | 0x0000000180046e20 | 0x00046e20
-`public: int __cdecl UnBCL::Object::DecRef(void) __ptr64` | 1660 (0x67c) | Exported Function | 0x0000000180041890 | 0x00041890
-`public: int __cdecl UnBCL::DateTime::get_Day(void)const __ptr64` | 2424 (0x978) | Exported Function | 0x0000000180023a20 | 0x00023a20
-`public: int __cdecl UnBCL::DateTime::CompareTo(class UnBCL::DateTime const & __ptr64)const __ptr64` | 1579 (0x62b) | Exported Function | 0x0000000180023df0 | 0x00023df0
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::ReverseFind(unsigned short)const __ptr64` | 2160 (0x870) | Exported Function | 0x00000001800045c0 | 0x000045c0
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Collate(unsigned short const * __ptr64)const __ptr64` | 1568 (0x620) | Exported Function | 0x0000000180005130 | 0x00005130
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CollateNoCase(unsigned short const * __ptr64)const __ptr64` | 1569 (0x621) | Exported Function | 0x0000000180005110 | 0x00005110
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Compare(unsigned short const * __ptr64)const __ptr64` | 1571 (0x623) | Exported Function | 0x0000000180005170 | 0x00005170
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CompareNoCase(unsigned short const * __ptr64)const __ptr64` | 1577 (0x629) | Exported Function | 0x0000000180005150 | 0x00005150
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Delete(int,int) __ptr64` | 1665 (0x681) | Exported Function | 0x0000000180004ff0 | 0x00004ff0
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Find(unsigned short const * __ptr64,int)const __ptr64` | 1722 (0x6ba) | Exported Function | 0x0000000180004640 | 0x00004640
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Find(unsigned short,int)const __ptr64` | 1721 (0x6b9) | Exported Function | 0x0000000180004690 | 0x00004690
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FindOneOf(unsigned short const * __ptr64)const __ptr64` | 1723 (0x6bb) | Exported Function | 0x0000000180004600 | 0x00004600
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::GetEnvironmentVariableW(unsigned short const * __ptr64) __ptr64` | 1818 (0x71a) | Exported Function | 0x0000000180003660 | 0x00003660
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Insert(int,unsigned short const * __ptr64) __ptr64` | 1961 (0x7a9) | Exported Function | 0x0000000180004d80 | 0x00004d80
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Insert(int,unsigned short) __ptr64` | 1960 (0x7a8) | Exported Function | 0x0000000180004ef0 | 0x00004ef0
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::LoadStringW(struct HINSTANCE__ * __ptr64,unsigned int) __ptr64` | 2016 (0x7e0) | Exported Function | 0x0000000180003470 | 0x00003470
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::LoadStringW(struct HINSTANCE__ * __ptr64,unsigned int,unsigned short) __ptr64` | 2017 (0x7e1) | Exported Function | 0x0000000180003340 | 0x00003340
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::LoadStringW(unsigned int) __ptr64` | 2015 (0x7df) | Exported Function | 0x00000001800035a0 | 0x000035a0
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Remove(unsigned short) __ptr64` | 2128 (0x850) | Exported Function | 0x00000001800048a0 | 0x000048a0
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Replace(unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 2145 (0x861) | Exported Function | 0x0000000180004980 | 0x00004980
-`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Replace(unsigned short,unsigned short) __ptr64` | 2144 (0x860) | Exported Function | 0x0000000180004ca0 | 0x00004ca0
-`public: int __cdecl UnBCL::RegSubkeyEnumerator::get_EnumError(void) __ptr64` | 2427 (0x97b) | Exported Function | 0x00000001800495d0 | 0x000495d0
-`public: int __cdecl UnBCL::SerializationId::get_Version(void)const __ptr64` | 2592 (0xa20) | Exported Function | 0x000000018002cf20 | 0x0002cf20
-`public: int __cdecl UnBCL::SerializationStream::get_IsLoading(void)const __ptr64` | 2456 (0x998) | Exported Function | 0x000000018004a600 | 0x0004a600
-`public: int __cdecl UnBCL::SerializationStream::get_IsStoring(void)const __ptr64` | 2467 (0x9a3) | Exported Function | 0x000000018004a620 | 0x0004a620
-`public: int __cdecl UnBCL::String::GetOccurenceLastIndexOf(unsigned short,int)const __ptr64` | 1852 (0x73c) | Exported Function | 0x0000000180056a30 | 0x00056a30
-`public: int __cdecl UnBCL::String::IndexOf(unsigned short const * __ptr64)const __ptr64` | 1928 (0x788) | Exported Function | 0x0000000180056bd0 | 0x00056bd0
-`public: int __cdecl UnBCL::String::IndexOf(unsigned short const * __ptr64,int)const __ptr64` | 1929 (0x789) | Exported Function | 0x0000000180056be0 | 0x00056be0
-`public: int __cdecl UnBCL::String::IndexOf(unsigned short)const __ptr64` | 1926 (0x786) | Exported Function | 0x0000000180056b10 | 0x00056b10
-`public: int __cdecl UnBCL::String::IndexOf(unsigned short,int)const __ptr64` | 1927 (0x787) | Exported Function | 0x0000000180056b20 | 0x00056b20
-`public: int __cdecl UnBCL::String::IndexOfAny(unsigned short const * __ptr64)const __ptr64` | 1930 (0x78a) | Exported Function | 0x0000000180056d00 | 0x00056d00
-`public: int __cdecl UnBCL::String::IndexOfAny(unsigned short const * __ptr64,int)const __ptr64` | 1931 (0x78b) | Exported Function | 0x0000000180056d40 | 0x00056d40
-`public: int __cdecl UnBCL::String::IndexOfAny(unsigned short const * __ptr64,int,int)const __ptr64` | 1932 (0x78c) | Exported Function | 0x0000000180056d60 | 0x00056d60
-`public: int __cdecl UnBCL::String::LastIndexOf(unsigned short const * __ptr64)const __ptr64` | 2005 (0x7d5) | Exported Function | 0x0000000180056e70 | 0x00056e70
-`public: int __cdecl UnBCL::String::LastIndexOf(unsigned short const * __ptr64,int,int)const __ptr64` | 2006 (0x7d6) | Exported Function | 0x0000000180056e90 | 0x00056e90
-`public: int __cdecl UnBCL::String::LastIndexOf(unsigned short)const __ptr64` | 2003 (0x7d3) | Exported Function | 0x0000000180056d70 | 0x00056d70
-`public: int __cdecl UnBCL::String::LastIndexOf(unsigned short,int,int)const __ptr64` | 2004 (0x7d4) | Exported Function | 0x0000000180056d90 | 0x00056d90
-`public: int __cdecl UnBCL::String::LastIndexOfAny(unsigned short const * __ptr64,int,int)const __ptr64` | 2007 (0x7d7) | Exported Function | 0x0000000180057100 | 0x00057100
-`public: int __cdecl UnBCL::String::StartsWith(unsigned short const * __ptr64,int)const __ptr64` | 2221 (0x8ad) | Exported Function | 0x0000000180056750 | 0x00056750
-`public: int __cdecl UnBCL::StringBuilder::get_Length(void)const __ptr64` | 2508 (0x9cc) | Exported Function | 0x000000018005aec0 | 0x0005aec0
-`public: int __cdecl UnBCL::SystemInfo::get_IsVM(void)const __ptr64` | 2468 (0x9a4) | Exported Function | 0x000000018002cf20 | 0x0002cf20
-`public: int __cdecl UnBCL::Thread::get_IsAlive(void) __ptr64` | 2444 (0x98c) | Exported Function | 0x000000018005bf90 | 0x0005bf90
-`public: int __cdecl UnBCL::String::GetOccurenceIndexOf(unsigned short,int)const __ptr64` | 1851 (0x73b) | Exported Function | 0x0000000180056970 | 0x00056970
-`public: int __cdecl ATL::CSimpleStringT<unsigned short,0>::GetLength(void)const __ptr64` | 1834 (0x72a) | Exported Function | 0x00000001800067f0 | 0x000067f0
-`public: int __cdecl UnBCL::String::GetOccurenceCount(unsigned short)const __ptr64` | 1850 (0x73a) | Exported Function | 0x0000000180056900 | 0x00056900
-`public: int __cdecl UnBCL::String::get_IsPrintable(void)const __ptr64` | 2457 (0x999) | Exported Function | 0x00000001800566c0 | 0x000566c0
-`public: int __cdecl UnBCL::SerializationStream::WritePhantomObject(class UnBCL::Object const * __ptr64) __ptr64` | 2339 (0x923) | Exported Function | 0x000000018004bc80 | 0x0004bc80
-`public: int __cdecl UnBCL::String::_CompareTo(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2342 (0x926) | Exported Function | 0x0000000180058b40 | 0x00058b40
-`public: int __cdecl UnBCL::String::_CompareTo(class UnBCL::SmartPtr<class UnBCL::String>,int)const __ptr64` | 2343 (0x927) | Exported Function | 0x0000000180058bb0 | 0x00058bb0
-`public: int __cdecl UnBCL::String::_EndsWith(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2348 (0x92c) | Exported Function | 0x0000000180058cc0 | 0x00058cc0
-`public: int __cdecl UnBCL::String::_IndexOf(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2349 (0x92d) | Exported Function | 0x0000000180058d60 | 0x00058d60
-`public: int __cdecl UnBCL::String::_IndexOf(class UnBCL::SmartPtr<class UnBCL::String>,int)const __ptr64` | 2350 (0x92e) | Exported Function | 0x0000000180058e00 | 0x00058e00
-`public: int __cdecl UnBCL::String::_IndexOfAny(class UnBCL::SmartPtr<class UnBCL::String>,int)const __ptr64` | 2351 (0x92f) | Exported Function | 0x0000000180058ea0 | 0x00058ea0
-`public: int __cdecl UnBCL::String::_IndexOfAny(class UnBCL::SmartPtr<class UnBCL::String>,int,int)const __ptr64` | 2352 (0x930) | Exported Function | 0x0000000180058f50 | 0x00058f50
-`public: int __cdecl UnBCL::String::_LastIndexOf(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2354 (0x932) | Exported Function | 0x0000000180058ff0 | 0x00058ff0
-`public: int __cdecl UnBCL::String::_LastIndexOf(class UnBCL::SmartPtr<class UnBCL::String>,int,int)const __ptr64` | 2355 (0x933) | Exported Function | 0x00000001800590a0 | 0x000590a0
-`public: int __cdecl UnBCL::String::_LastIndexOfAny(class UnBCL::SmartPtr<class UnBCL::String>,int,int)const __ptr64` | 2356 (0x934) | Exported Function | 0x0000000180059140 | 0x00059140
-`public: int __cdecl UnBCL::String::_StartsWith(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2361 (0x939) | Exported Function | 0x0000000180058c20 | 0x00058c20
-`public: int __cdecl UnBCL::String::CompareTo(unsigned short const * __ptr64)const __ptr64` | 1582 (0x62e) | Exported Function | 0x0000000180056720 | 0x00056720
-`public: int __cdecl UnBCL::String::CompareTo(unsigned short const * __ptr64,int)const __ptr64` | 1583 (0x62f) | Exported Function | 0x0000000180056740 | 0x00056740
-`public: int __cdecl UnBCL::String::EndsWith(unsigned short const * __ptr64,int)const __ptr64` | 1696 (0x6a0) | Exported Function | 0x0000000180056800 | 0x00056800
-`public: int __cdecl UnBCL::String::EndsWith(unsigned short)const __ptr64` | 1695 (0x69f) | Exported Function | 0x00000001800568c0 | 0x000568c0
-`public: int __cdecl UnBCL::String::get_IsEmpty(void)const __ptr64` | 2446 (0x98e) | Exported Function | 0x00000001800566a0 | 0x000566a0
-`public: int __cdecl UnBCL::String::get_Length(void)const __ptr64` | 2507 (0x9cb) | Exported Function | 0x0000000180056610 | 0x00056610
-`public: int __cdecl ATL::CSimpleStringT<unsigned short,0>::GetAllocLength(void)const __ptr64` | 1752 (0x6d8) | Exported Function | 0x00000001800068d0 | 0x000068d0
-`public: enum UnBCL::XmlNodeType __cdecl UnBCL::XmlNode::get_NodeType(void) __ptr64` | 2528 (0x9e0) | Exported Function | 0x0000000180063320 | 0x00063320
-`public: enum UnBCL::XmlNodeType __cdecl UnBCL::XmlLite::XmlNode::get_NodeType(void)const __ptr64` | 2529 (0x9e1) | Exported Function | 0x00000001800237c0 | 0x000237c0
-`public: class UnBCL::XmlAttributeCollection * __ptr64 __cdecl UnBCL::XmlNode::get_Attributes(void) __ptr64` | 2372 (0x944) | Exported Function | 0x0000000180063280 | 0x00063280
-`public: class UnBCL::XmlDocument & __ptr64 __cdecl UnBCL::XmlDocument::operator=(class UnBCL::XmlDocument const & __ptr64) __ptr64` | 918 (0x396) | Exported Function | 0x00000001800607d0 | 0x000607d0
-`public: class UnBCL::XmlDocument * __ptr64 __cdecl UnBCL::XmlNode::get_OwnerDocument(void) __ptr64` | 2535 (0x9e7) | Exported Function | 0x0000000180063d40 | 0x00063d40
-`public: class UnBCL::XmlException & __ptr64 __cdecl UnBCL::XmlException::operator=(class UnBCL::XmlException && __ptr64) __ptr64` | 920 (0x398) | Exported Function | 0x000000018005f9b0 | 0x0005f9b0
-`public: class UnBCL::XmlException & __ptr64 __cdecl UnBCL::XmlException::operator=(class UnBCL::XmlException const & __ptr64) __ptr64` | 921 (0x399) | Exported Function | 0x000000018005f9b0 | 0x0005f9b0
-`public: class UnBCL::XmlLite::XmlAttribute & __ptr64 __cdecl UnBCL::XmlLite::XmlAttribute::operator=(class UnBCL::XmlLite::XmlAttribute && __ptr64) __ptr64` | 914 (0x392) | Exported Function | 0x000000018005fbb0 | 0x0005fbb0
-`public: class UnBCL::XmlLite::XmlAttribute & __ptr64 __cdecl UnBCL::XmlLite::XmlAttribute::operator=(class UnBCL::XmlLite::XmlAttribute const & __ptr64) __ptr64` | 915 (0x393) | Exported Function | 0x000000018005fbb0 | 0x0005fbb0
-`public: class UnBCL::XmlLite::XmlAttribute * __ptr64 __cdecl UnBCL::XmlLite::XmlAttributeCollection::get_Item(class UnBCL::String * __ptr64) __ptr64` | 2493 (0x9bd) | Exported Function | 0x0000000180061c70 | 0x00061c70
-`public: class UnBCL::XmlLite::XmlAttribute * __ptr64 __cdecl UnBCL::XmlLite::XmlAttributeCollection::get_Item(int) __ptr64` | 2492 (0x9bc) | Exported Function | 0x0000000180061c30 | 0x00061c30
-`public: class UnBCL::XmlLite::XmlAttributeCollection & __ptr64 __cdecl UnBCL::XmlLite::XmlAttributeCollection::operator=(class UnBCL::XmlLite::XmlAttributeCollection const & __ptr64) __ptr64` | 917 (0x395) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: class UnBCL::XmlLite::XmlAttributeCollection * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_Attributes(void) __ptr64` | 2373 (0x945) | Exported Function | 0x0000000180061370 | 0x00061370
-`public: class UnBCL::XmlLite::XmlDocument & __ptr64 __cdecl UnBCL::XmlLite::XmlDocument::operator=(class UnBCL::XmlLite::XmlDocument const & __ptr64) __ptr64` | 919 (0x397) | Exported Function | 0x000000018005fbb0 | 0x0005fbb0
-`public: class UnBCL::XmlLite::XmlNode & __ptr64 __cdecl UnBCL::XmlLite::XmlNode::operator=(class UnBCL::XmlLite::XmlNode const & __ptr64) __ptr64` | 924 (0x39c) | Exported Function | 0x000000018005fbb0 | 0x0005fbb0
-`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlDocument::get_Root(int)const __ptr64` | 2569 (0xa09) | Exported Function | 0x0000000180061de0 | 0x00061de0
-`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_FirstChild(void)const __ptr64` | 2433 (0x981) | Exported Function | 0x0000000180060dc0 | 0x00060dc0
-`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_LastChild(void)const __ptr64` | 2498 (0x9c2) | Exported Function | 0x0000000180061030 | 0x00061030
-`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_NextSibling(void)const __ptr64` | 2527 (0x9df) | Exported Function | 0x0000000180060ec0 | 0x00060ec0
-`public: class UnBCL::XmlAttributeCollection & __ptr64 __cdecl UnBCL::XmlAttributeCollection::operator=(class UnBCL::XmlAttributeCollection const & __ptr64) __ptr64` | 916 (0x394) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_ParentNode(void)const __ptr64` | 2549 (0x9f5) | Exported Function | 0x000000018002cf40 | 0x0002cf40
-`public: class UnBCL::XmlAttribute * __ptr64 __cdecl UnBCL::XmlAttributeCollection::get_Item(int) __ptr64` | 2490 (0x9ba) | Exported Function | 0x0000000180064aa0 | 0x00064aa0
-`public: class UnBCL::XmlAttribute & __ptr64 __cdecl UnBCL::XmlAttribute::operator=(class UnBCL::XmlAttribute const & __ptr64) __ptr64` | 913 (0x391) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: class UnBCL::TimeSpan __cdecl UnBCL::DateTime::get_TimeOfDay(void)const __ptr64` | 2578 (0xa12) | Exported Function | 0x0000000180023ba0 | 0x00023ba0
-`public: class UnBCL::TimeSpan __cdecl UnBCL::DateTime::Subtract(class UnBCL::DateTime const & __ptr64)const __ptr64` | 2263 (0x8d7) | Exported Function | 0x0000000180023d90 | 0x00023d90
-`public: class UnBCL::TimeSpan __cdecl UnBCL::TimeSpan::Add(class UnBCL::TimeSpan const & __ptr64)const __ptr64` | 1453 (0x5ad) | Exported Function | 0x000000018005c960 | 0x0005c960
-`public: class UnBCL::TimeSpan __cdecl UnBCL::TimeSpan::Subtract(class UnBCL::TimeSpan const & __ptr64)const __ptr64` | 2264 (0x8d8) | Exported Function | 0x000000018005ca40 | 0x0005ca40
-`public: class UnBCL::Type & __ptr64 __cdecl UnBCL::Type::operator=(class UnBCL::Type const & __ptr64) __ptr64` | 903 (0x387) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: class UnBCL::UnicodeEncoding & __ptr64 __cdecl UnBCL::UnicodeEncoding::operator=(class UnBCL::UnicodeEncoding && __ptr64) __ptr64` | 904 (0x388) | Exported Function | 0x0000000180020970 | 0x00020970
-`public: class UnBCL::UnicodeEncoding & __ptr64 __cdecl UnBCL::UnicodeEncoding::operator=(class UnBCL::UnicodeEncoding const & __ptr64) __ptr64` | 905 (0x389) | Exported Function | 0x0000000180020970 | 0x00020970
-`public: class UnBCL::Version & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Version>::operator*(void)const __ptr64` | 1014 (0x3f6) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Version & __ptr64 __cdecl UnBCL::Version::operator=(class UnBCL::Version const & __ptr64) __ptr64` | 906 (0x38a) | Exported Function | 0x000000018002cb70 | 0x0002cb70
-`public: class UnBCL::Version * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Version>::get_P(void)const __ptr64` | 2546 (0x9f2) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Version * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Version>::operator->(void)const __ptr64` | 1002 (0x3ea) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Version * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Version>::Steal(void) __ptr64` | 2232 (0x8b8) | Exported Function | 0x0000000180031620 | 0x00031620
-`public: class UnBCL::Version const * __ptr64 __cdecl UnBCL::OperatingSystem::get_OSVersion(void)const __ptr64` | 2532 (0x9e4) | Exported Function | 0x00000001800348f0 | 0x000348f0
-`public: class UnBCL::WaitHandle & __ptr64 __cdecl UnBCL::WaitHandle::operator=(class UnBCL::WaitHandle const & __ptr64) __ptr64` | 907 (0x38b) | Exported Function | 0x0000000180002430 | 0x00002430
-`public: class UnBCL::Win32Exception & __ptr64 __cdecl UnBCL::Win32Exception::operator=(class UnBCL::Win32Exception && __ptr64) __ptr64` | 908 (0x38c) | Exported Function | 0x0000000180021c80 | 0x00021c80
-`public: class UnBCL::Win32Exception & __ptr64 __cdecl UnBCL::Win32Exception::operator=(class UnBCL::Win32Exception const & __ptr64) __ptr64` | 909 (0x38d) | Exported Function | 0x0000000180021c80 | 0x00021c80
-`public: class UnBCL::XmlAttribute & __ptr64 __cdecl UnBCL::XmlAttribute::operator=(class UnBCL::XmlAttribute && __ptr64) __ptr64` | 912 (0x390) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: class UnBCL::XmlAttribute * __ptr64 __cdecl UnBCL::XmlAttributeCollection::get_Item(class UnBCL::String * __ptr64) __ptr64` | 2491 (0x9bb) | Exported Function | 0x0000000180064980 | 0x00064980
-`public: virtual __cdecl UnBCL::DirectoryInfo::~DirectoryInfo(void) __ptr64` | 585 (0x249) | Exported Function | 0x00000001800215b0 | 0x000215b0
-`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_PreviousSibling(void)const __ptr64` | 2557 (0x9fd) | Exported Function | 0x0000000180060fa0 | 0x00060fa0
-`public: class UnBCL::XmlLite::XmlNodeList & __ptr64 __cdecl UnBCL::XmlLite::XmlNodeList::operator=(class UnBCL::XmlLite::XmlNodeList const & __ptr64) __ptr64` | 926 (0x39e) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNodeList::get_Item(int) __ptr64` | 2494 (0x9be) | Exported Function | 0x0000000180064730 | 0x00064730
-`public: class UnBCL::XmlNodeList & __ptr64 __cdecl UnBCL::XmlNodeList::operator=(class UnBCL::XmlNodeList const & __ptr64) __ptr64` | 925 (0x39d) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: class UnBCL::XmlNodeList * __ptr64 __cdecl UnBCL::XmlNode::get_ChildNodes(void) __ptr64` | 2399 (0x95f) | Exported Function | 0x00000001800638e0 | 0x000638e0
-`public: class UnBCL::XmlNodeList * __ptr64 __cdecl UnBCL::XmlNode::SelectNodes(class UnBCL::String * __ptr64) __ptr64` | 2172 (0x87c) | Exported Function | 0x0000000180063980 | 0x00063980
-`public: class UnBCL::XmlNodeList * __ptr64 __cdecl UnBCL::XmlNode::SelectNodes(class UnBCL::String * __ptr64,class UnBCL::XmlNamespaceManager * __ptr64) __ptr64` | 2173 (0x87d) | Exported Function | 0x0000000180063b00 | 0x00063b00
-`public: class UnBCL::XmlSchemaSet & __ptr64 __cdecl UnBCL::XmlSchemaSet::operator=(class UnBCL::XmlSchemaSet const & __ptr64) __ptr64` | 927 (0x39f) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: class UnBCL::XPathException & __ptr64 __cdecl UnBCL::XPathException::operator=(class UnBCL::XPathException && __ptr64) __ptr64` | 910 (0x38e) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::XPathException & __ptr64 __cdecl UnBCL::XPathException::operator=(class UnBCL::XPathException const & __ptr64) __ptr64` | 911 (0x38f) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: double __cdecl UnBCL::TimeSpan::get_TotalDays(void)const __ptr64` | 2579 (0xa13) | Exported Function | 0x000000018005c940 | 0x0005c940
-`public: double __cdecl UnBCL::TimeSpan::get_TotalHours(void)const __ptr64` | 2580 (0xa14) | Exported Function | 0x000000018005c920 | 0x0005c920
-`public: double __cdecl UnBCL::TimeSpan::get_TotalMilliseconds(void)const __ptr64` | 2582 (0xa16) | Exported Function | 0x000000018005c8a0 | 0x0005c8a0
-`public: double __cdecl UnBCL::TimeSpan::get_TotalMinutes(void)const __ptr64` | 2583 (0xa17) | Exported Function | 0x000000018005c900 | 0x0005c900
-`public: double __cdecl UnBCL::TimeSpan::get_TotalSeconds(void)const __ptr64` | 2584 (0xa18) | Exported Function | 0x000000018005c8e0 | 0x0005c8e0
-`public: enum _FIRMWARE_TYPE __cdecl UnBCL::SystemInfo::get_FirmwareType(void)const __ptr64` | 2431 (0x97f) | Exported Function | 0x00000001800237c0 | 0x000237c0
-`public: enum UnBCL::InstallationType __cdecl UnBCL::OperatingSystem::get_Type(void)const __ptr64` | 2585 (0xa19) | Exported Function | 0x00000001800237c0 | 0x000237c0
-`public: enum UnBCL::PlatformID __cdecl UnBCL::OperatingSystem::get_Platform(void)const __ptr64` | 2550 (0x9f6) | Exported Function | 0x0000000180042640 | 0x00042640
-`public: enum UnBCL::RegistryValueKind __cdecl UnBCL::RegistryKey::GetValueKind(class UnBCL::String const * __ptr64) __ptr64` | 1891 (0x763) | Exported Function | 0x0000000180048ad0 | 0x00048ad0
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::SelectSingleNode(class UnBCL::String * __ptr64,class UnBCL::XmlNamespaceManager * __ptr64) __ptr64` | 2176 (0x880) | Exported Function | 0x0000000180063c70 | 0x00063c70
-`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlNodeList::get_Item(int) __ptr64` | 2495 (0x9bf) | Exported Function | 0x0000000180061c30 | 0x00061c30
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::SelectSingleNode(class UnBCL::String * __ptr64) __ptr64` | 2175 (0x87f) | Exported Function | 0x0000000180063b40 | 0x00063b40
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::InsertAfter(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 1965 (0x7ad) | Exported Function | 0x0000000180063eb0 | 0x00063eb0
-`public: class UnBCL::XmlLite::XmlNodeList * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_ChildNodes(void) __ptr64` | 2400 (0x960) | Exported Function | 0x00000001800611d0 | 0x000611d0
-`public: class UnBCL::XmlLite::XmlNodeList * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::SelectNodes(class UnBCL::String * __ptr64) __ptr64` | 2174 (0x87e) | Exported Function | 0x0000000180061540 | 0x00061540
-`public: class UnBCL::XmlNamespaceManager & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::operator*(void)const __ptr64` | 1015 (0x3f7) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::XmlNamespaceManager & __ptr64 __cdecl UnBCL::XmlNamespaceManager::operator=(class UnBCL::XmlNamespaceManager const & __ptr64) __ptr64` | 922 (0x39a) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: class UnBCL::XmlNamespaceManager * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::get_P(void)const __ptr64` | 2547 (0x9f3) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::XmlNamespaceManager * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::operator->(void)const __ptr64` | 1003 (0x3eb) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::XmlNamespaceManager * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::Steal(void) __ptr64` | 2233 (0x8b9) | Exported Function | 0x0000000180001d00 | 0x00001d00
-`public: class UnBCL::XmlNode & __ptr64 __cdecl UnBCL::XmlNode::operator=(class UnBCL::XmlNode const & __ptr64) __ptr64` | 923 (0x39b) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlAttributeCollection::SetNamedItem(class UnBCL::XmlNode * __ptr64) __ptr64` | 2186 (0x88a) | Exported Function | 0x0000000180064b40 | 0x00064b40
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlDocument::CreateNode(enum UnBCL::XmlNodeType,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 1634 (0x662) | Exported Function | 0x00000001800657c0 | 0x000657c0
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::AppendChild(class UnBCL::XmlNode * __ptr64) __ptr64` | 1482 (0x5ca) | Exported Function | 0x0000000180063df0 | 0x00063df0
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::CloneNode(int) __ptr64` | 1557 (0x615) | Exported Function | 0x00000001800640d0 | 0x000640d0
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::get_FirstChild(void) __ptr64` | 2432 (0x980) | Exported Function | 0x00000001800637a0 | 0x000637a0
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::get_LastChild(void) __ptr64` | 2497 (0x9c1) | Exported Function | 0x00000001800637f0 | 0x000637f0
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::get_NextSibling(void) __ptr64` | 2526 (0x9de) | Exported Function | 0x0000000180063840 | 0x00063840
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::get_ParentNode(void) __ptr64` | 2548 (0x9f4) | Exported Function | 0x0000000180063750 | 0x00063750
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::get_PreviousSibling(void) __ptr64` | 2556 (0x9fc) | Exported Function | 0x0000000180063890 | 0x00063890
-`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::InsertBefore(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 1966 (0x7ae) | Exported Function | 0x0000000180063fd0 | 0x00063fd0
-`public: virtual __cdecl UnBCL::Encoding::~Encoding(void) __ptr64` | 586 (0x24a) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::Exception::~Exception(void) __ptr64` | 587 (0x24b) | Exported Function | 0x0000000180034480 | 0x00034480
-`public: virtual __cdecl UnBCL::ExternalException::~ExternalException(void) __ptr64` | 588 (0x24c) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual void __cdecl UnBCL::Array<unsigned char>::RemoveAt(int) __ptr64` | 2132 (0x854) | Exported Function | 0x000000018000d810 | 0x0000d810
-`public: virtual void __cdecl UnBCL::Array<unsigned char>::set_AutoDelete(int) __ptr64` | 2620 (0xa3c) | Exported Function | 0x000000018000d950 | 0x0000d950
-`public: virtual void __cdecl UnBCL::Array<unsigned char>::set_Item(int,unsigned char) __ptr64` | 2639 (0xa4f) | Exported Function | 0x000000018000d580 | 0x0000d580
-`public: virtual void __cdecl UnBCL::Array<unsigned char>::SetValue(unsigned char,int) __ptr64` | 2194 (0x892) | Exported Function | 0x000000018000d9a0 | 0x0000d9a0
-`public: virtual void __cdecl UnBCL::Array<unsigned short>::Clear(void) __ptr64` | 1531 (0x5fb) | Exported Function | 0x000000018000d610 | 0x0000d610
-`public: virtual void __cdecl UnBCL::Array<unsigned short>::CopyTo(class UnBCL::Array<unsigned short> * __ptr64,int)const __ptr64` | 1621 (0x655) | Exported Function | 0x000000018000d8a0 | 0x0000d8a0
-`public: virtual void __cdecl UnBCL::Array<unsigned short>::Insert(int,unsigned short) __ptr64` | 1954 (0x7a2) | Exported Function | 0x000000018000eb40 | 0x0000eb40
-`public: virtual void __cdecl UnBCL::Array<unsigned char>::Remove(unsigned char) __ptr64` | 2121 (0x849) | Exported Function | 0x000000018000d7b0 | 0x0000d7b0
-`public: virtual void __cdecl UnBCL::Array<unsigned short>::Remove(unsigned short) __ptr64` | 2122 (0x84a) | Exported Function | 0x000000018000eba0 | 0x0000eba0
-`public: virtual void __cdecl UnBCL::Array<unsigned short>::set_AutoDelete(int) __ptr64` | 2621 (0xa3d) | Exported Function | 0x000000018000d950 | 0x0000d950
-`public: virtual void __cdecl UnBCL::Array<unsigned short>::set_Item(int,unsigned short) __ptr64` | 2640 (0xa50) | Exported Function | 0x000000018000d580 | 0x0000d580
-`public: virtual void __cdecl UnBCL::Array<unsigned short>::SetValue(unsigned short,int) __ptr64` | 2195 (0x893) | Exported Function | 0x000000018000ec90 | 0x0000ec90
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::AddRange(struct UnBCL::ICollection<class UnBCL::String * __ptr64> const * __ptr64) __ptr64` | 1460 (0x5b4) | Exported Function | 0x000000018000baf0 | 0x0000baf0
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Clear(void) __ptr64` | 1536 (0x600) | Exported Function | 0x000000018000acd0 | 0x0000acd0
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64,int)const __ptr64` | 1626 (0x65a) | Exported Function | 0x000000018000b2c0 | 0x0000b2c0
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Insert(int,class UnBCL::String * __ptr64) __ptr64` | 1959 (0x7a7) | Exported Function | 0x000000018000afb0 | 0x0000afb0
-`public: virtual void __cdecl UnBCL::Array<unsigned short>::RemoveAt(int) __ptr64` | 2133 (0x855) | Exported Function | 0x000000018000ec00 | 0x0000ec00
-`public: virtual void __cdecl UnBCL::Array<unsigned char>::Insert(int,unsigned char) __ptr64` | 1953 (0x7a1) | Exported Function | 0x000000018000d750 | 0x0000d750
-`public: virtual void __cdecl UnBCL::Array<unsigned char>::CopyTo(class UnBCL::Array<unsigned char> * __ptr64,int)const __ptr64` | 1620 (0x654) | Exported Function | 0x000000018000d8a0 | 0x0000d8a0
-`public: virtual void __cdecl UnBCL::Array<unsigned char>::Clear(void) __ptr64` | 1530 (0x5fa) | Exported Function | 0x000000018000d610 | 0x0000d610
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::SetValue(class UnBCL::Object * __ptr64,int) __ptr64` | 2197 (0x895) | Exported Function | 0x000000018000ff70 | 0x0000ff70
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Clear(void) __ptr64` | 1534 (0x5fe) | Exported Function | 0x000000018000d610 | 0x0000d610
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64,int)const __ptr64` | 1624 (0x658) | Exported Function | 0x000000018000d8a0 | 0x0000d8a0
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Insert(int,class UnBCL::String * __ptr64) __ptr64` | 1957 (0x7a5) | Exported Function | 0x000000018000fe20 | 0x0000fe20
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Remove(class UnBCL::String * __ptr64) __ptr64` | 2125 (0x84d) | Exported Function | 0x000000018000fe80 | 0x0000fe80
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::RemoveAt(int) __ptr64` | 2136 (0x858) | Exported Function | 0x000000018000fee0 | 0x0000fee0
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::set_AutoDelete(int) __ptr64` | 2624 (0xa40) | Exported Function | 0x000000018000d950 | 0x0000d950
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::set_Item(int,class UnBCL::String * __ptr64) __ptr64` | 2643 (0xa53) | Exported Function | 0x000000018000d580 | 0x0000d580
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::SetValue(class UnBCL::String * __ptr64,int) __ptr64` | 2198 (0x896) | Exported Function | 0x000000018000ff70 | 0x0000ff70
-`public: virtual void __cdecl UnBCL::Array<int>::Clear(void) __ptr64` | 1532 (0x5fc) | Exported Function | 0x000000018000d610 | 0x0000d610
-`public: virtual void __cdecl UnBCL::Array<int>::CopyTo(class UnBCL::Array<int> * __ptr64,int)const __ptr64` | 1622 (0x656) | Exported Function | 0x000000018000d8a0 | 0x0000d8a0
-`public: virtual void __cdecl UnBCL::Array<int>::Insert(int,int) __ptr64` | 1955 (0x7a3) | Exported Function | 0x0000000180014f40 | 0x00014f40
-`public: virtual void __cdecl UnBCL::Array<int>::Remove(int) __ptr64` | 2123 (0x84b) | Exported Function | 0x0000000180014fa0 | 0x00014fa0
-`public: virtual void __cdecl UnBCL::Array<int>::RemoveAt(int) __ptr64` | 2134 (0x856) | Exported Function | 0x0000000180015000 | 0x00015000
-`public: virtual void __cdecl UnBCL::Array<int>::set_AutoDelete(int) __ptr64` | 2622 (0xa3e) | Exported Function | 0x000000018000d950 | 0x0000d950
-`public: virtual void __cdecl UnBCL::Array<int>::set_Item(int,int) __ptr64` | 2641 (0xa51) | Exported Function | 0x000000018000d580 | 0x0000d580
-`public: virtual void __cdecl UnBCL::Array<int>::SetValue(int,int) __ptr64` | 2196 (0x894) | Exported Function | 0x0000000180015090 | 0x00015090
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Remove(class UnBCL::String * __ptr64) __ptr64` | 2127 (0x84f) | Exported Function | 0x000000018000b070 | 0x0000b070
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::RemoveAt(int) __ptr64` | 2138 (0x85a) | Exported Function | 0x000000018000b0d0 | 0x0000b0d0
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::RemoveTail(void) __ptr64` | 2143 (0x85f) | Exported Function | 0x000000018000b250 | 0x0000b250
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Resize(int,int) __ptr64` | 2153 (0x869) | Exported Function | 0x000000018000b8b0 | 0x0000b8b0
-`public: virtual void __cdecl UnBCL::BufferedStream::set_Position(__int64) __ptr64` | 2653 (0xa5d) | Exported Function | 0x00000001800220a0 | 0x000220a0
-`public: virtual void __cdecl UnBCL::BufferedStream::Write(unsigned char const * __ptr64,int,int) __ptr64` | 2329 (0x919) | Exported Function | 0x0000000180022350 | 0x00022350
-`public: virtual void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::Clear(void) __ptr64` | 1537 (0x601) | Exported Function | 0x0000000180022de0 | 0x00022de0
-`public: virtual void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::Object * __ptr64> * __ptr64,int)const __ptr64` | 1627 (0x65b) | Exported Function | 0x0000000180022f30 | 0x00022f30
-`public: virtual void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::Insert(int,class UnBCL::Object * __ptr64) __ptr64` | 1962 (0x7aa) | Exported Function | 0x0000000180022e70 | 0x00022e70
-`public: virtual void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::Remove(class UnBCL::Object * __ptr64) __ptr64` | 2129 (0x851) | Exported Function | 0x0000000180022ea0 | 0x00022ea0
-`public: virtual void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::RemoveAt(int) __ptr64` | 2139 (0x85b) | Exported Function | 0x0000000180022ed0 | 0x00022ed0
-`public: virtual void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::set_Item(int,class UnBCL::Object * __ptr64) __ptr64` | 2646 (0xa56) | Exported Function | 0x0000000180022d80 | 0x00022d80
-`public: virtual void __cdecl UnBCL::Exception::set_Source(class UnBCL::String const * __ptr64) __ptr64` | 2657 (0xa61) | Exported Function | 0x0000000180034900 | 0x00034900
-`public: virtual void __cdecl UnBCL::FileStream::Close(void) __ptr64` | 1559 (0x617) | Exported Function | 0x00000001800384a0 | 0x000384a0
-`public: virtual void __cdecl UnBCL::FileStream::Dispose(void) __ptr64` | 1678 (0x68e) | Exported Function | 0x00000001800379e0 | 0x000379e0
-`public: virtual void __cdecl UnBCL::FileStream::Flush(void) __ptr64` | 1727 (0x6bf) | Exported Function | 0x0000000180038500 | 0x00038500
-`public: virtual void __cdecl UnBCL::FileStream::set_Position(__int64) __ptr64` | 2654 (0xa5e) | Exported Function | 0x0000000180037c70 | 0x00037c70
-`public: virtual void __cdecl UnBCL::FileStream::SetSize(__int64) __ptr64` | 2190 (0x88e) | Exported Function | 0x00000001800385f0 | 0x000385f0
-`public: virtual void __cdecl UnBCL::FileStream::Write(unsigned char const * __ptr64,int,int) __ptr64` | 2330 (0x91a) | Exported Function | 0x0000000180037ff0 | 0x00037ff0
-`public: virtual void __cdecl UnBCL::FileSystemEnumerator::Reset(void) __ptr64` | 2149 (0x865) | Exported Function | 0x0000000180036ff0 | 0x00036ff0
-`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Add(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 1449 (0x5a9) | Exported Function | 0x0000000180030680 | 0x00030680
-`public: virtual void __cdecl UnBCL::BufferedStream::Flush(void) __ptr64` | 1726 (0x6be) | Exported Function | 0x00000001800226c0 | 0x000226c0
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::set_Item(int,class UnBCL::Object * __ptr64) __ptr64` | 2642 (0xa52) | Exported Function | 0x000000018000d580 | 0x0000d580
-`public: virtual void __cdecl UnBCL::BufferedStream::Dispose(void) __ptr64` | 1677 (0x68d) | Exported Function | 0x0000000180021f80 | 0x00021f80
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::Sort(void) __ptr64` | 2211 (0x8a3) | Exported Function | 0x0000000180012300 | 0x00012300
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Reverse(void) __ptr64` | 2159 (0x86f) | Exported Function | 0x000000018000b9c0 | 0x0000b9c0
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::set_AutoDelete(int) __ptr64` | 2626 (0xa42) | Exported Function | 0x000000018000b6c0 | 0x0000b6c0
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::set_Capacity(int) __ptr64` | 2630 (0xa46) | Exported Function | 0x000000018000b650 | 0x0000b650
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::set_Item(int,class UnBCL::String * __ptr64) __ptr64` | 2645 (0xa55) | Exported Function | 0x000000018000ab40 | 0x0000ab40
-`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Sort(void) __ptr64` | 2213 (0x8a5) | Exported Function | 0x000000018000bd40 | 0x0000bd40
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::AddRange(struct UnBCL::ICollection<unsigned short> const * __ptr64) __ptr64` | 1459 (0x5b3) | Exported Function | 0x00000001800120a0 | 0x000120a0
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::Clear(void) __ptr64` | 1535 (0x5ff) | Exported Function | 0x00000001800114a0 | 0x000114a0
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::CopyTo(class UnBCL::Array<unsigned short> * __ptr64,int)const __ptr64` | 1625 (0x659) | Exported Function | 0x0000000180011930 | 0x00011930
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::Insert(int,unsigned short) __ptr64` | 1958 (0x7a6) | Exported Function | 0x0000000180011710 | 0x00011710
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::Remove(unsigned short) __ptr64` | 2126 (0x84e) | Exported Function | 0x000000018000b070 | 0x0000b070
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::RemoveAt(int) __ptr64` | 2137 (0x859) | Exported Function | 0x00000001800117e0 | 0x000117e0
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::RemoveTail(void) __ptr64` | 2142 (0x85e) | Exported Function | 0x000000018000b250 | 0x0000b250
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::Resize(int,int) __ptr64` | 2152 (0x868) | Exported Function | 0x0000000180011e60 | 0x00011e60
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::Reverse(void) __ptr64` | 2158 (0x86e) | Exported Function | 0x0000000180011f70 | 0x00011f70
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::set_AutoDelete(int) __ptr64` | 2625 (0xa41) | Exported Function | 0x000000018000b6c0 | 0x0000b6c0
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::set_Capacity(int) __ptr64` | 2629 (0xa45) | Exported Function | 0x000000018000b650 | 0x0000b650
-`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::set_Item(int,unsigned short) __ptr64` | 2644 (0xa54) | Exported Function | 0x0000000180011340 | 0x00011340
-`public: virtual void __cdecl UnBCL::BufferedStream::Close(void) __ptr64` | 1558 (0x616) | Exported Function | 0x0000000180022680 | 0x00022680
-`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Clear(void) __ptr64` | 1538 (0x602) | Exported Function | 0x0000000180030750 | 0x00030750
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::set_AutoDelete(int) __ptr64` | 2623 (0xa3f) | Exported Function | 0x000000018000d950 | 0x0000d950
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Remove(class UnBCL::Object * __ptr64) __ptr64` | 2124 (0x84c) | Exported Function | 0x0000000180013d50 | 0x00013d50
-`public: virtual struct UnBCL::IDictionaryEnumerator<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::GetDictionaryEnumerator(void)const __ptr64` | 1798 (0x706) | Exported Function | 0x00000001800309a0 | 0x000309a0
-`public: virtual struct UnBCL::IEnumerator<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::GetEnumerator(void)const __ptr64` | 1812 (0x714) | Exported Function | 0x0000000180030a30 | 0x00030a30
-`public: virtual struct UnBCL::IEnumerator<class UnBCL::Object * __ptr64> * __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::GetEnumerator(void)const __ptr64` | 1807 (0x70f) | Exported Function | 0x000000018000d8d0 | 0x0000d8d0
-`public: virtual struct UnBCL::IEnumerator<class UnBCL::Object * __ptr64> * __ptr64 __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::GetEnumerator(void)const __ptr64` | 1811 (0x713) | Exported Function | 0x0000000180022f60 | 0x00022f60
-`public: virtual struct UnBCL::IEnumerator<class UnBCL::Object * __ptr64> * __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::GetEnumerator(void)const __ptr64` | 1814 (0x716) | Exported Function | 0x000000018000d8d0 | 0x0000d8d0
-`public: virtual struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::GetEnumerator(void)const __ptr64` | 1808 (0x710) | Exported Function | 0x000000018000d8d0 | 0x0000d8d0
-`public: virtual struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::GetEnumerator(void)const __ptr64` | 1810 (0x712) | Exported Function | 0x000000018000b500 | 0x0000b500
-`public: virtual struct UnBCL::ICollection<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_Values(void)const __ptr64` | 2591 (0xa1f) | Exported Function | 0x0000000180030570 | 0x00030570
-`public: virtual struct UnBCL::IEnumerator<int> * __ptr64 __cdecl UnBCL::Array<int>::GetEnumerator(void)const __ptr64` | 1806 (0x70e) | Exported Function | 0x000000018000d8d0 | 0x0000d8d0
-`public: virtual struct UnBCL::IEnumerator<unsigned char> * __ptr64 __cdecl UnBCL::Array<unsigned char>::GetEnumerator(void)const __ptr64` | 1804 (0x70c) | Exported Function | 0x000000018000d8d0 | 0x0000d8d0
-`public: virtual struct UnBCL::IEnumerator<unsigned short const * __ptr64> * __ptr64 __cdecl UnBCL::MultiSz::GetEnumerator(void)const __ptr64` | 1815 (0x717) | Exported Function | 0x000000018003c270 | 0x0003c270
-`public: virtual struct UnBCL::IEnumerator<unsigned short> * __ptr64 __cdecl UnBCL::Array<unsigned short>::GetEnumerator(void)const __ptr64` | 1805 (0x70d) | Exported Function | 0x000000018000d8d0 | 0x0000d8d0
-`public: virtual struct UnBCL::IEnumerator<unsigned short> * __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::GetEnumerator(void)const __ptr64` | 1809 (0x711) | Exported Function | 0x0000000180011b70 | 0x00011b70
-`public: virtual unsigned char & __ptr64 __cdecl UnBCL::Array<unsigned char>::get_Item(int) __ptr64` | 2469 (0x9a5) | Exported Function | 0x000000018000d550 | 0x0000d550
-`public: virtual unsigned char * __ptr64 __cdecl UnBCL::Array<unsigned char>::GetBuffer(int) __ptr64` | 1760 (0x6e0) | Exported Function | 0x000000018000d9d0 | 0x0000d9d0
-`public: virtual unsigned char * __ptr64 __cdecl UnBCL::MemoryStream::GetRawBuffer(void) __ptr64` | 1855 (0x73f) | Exported Function | 0x000000018003a2c0 | 0x0003a2c0
-`public: virtual struct UnBCL::IEnumerator<int> * __ptr64 __cdecl UnBCL::Stack<int>::GetEnumerator(void)const __ptr64` | 1813 (0x715) | Exported Function | 0x000000018000d8d0 | 0x0000d8d0
-`public: virtual struct UnBCL::ICollection<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_Keys(void)const __ptr64` | 2496 (0x9c0) | Exported Function | 0x0000000180030460 | 0x00030460
-`public: virtual long __cdecl UnBCL::Exception::get_HResult(void)const __ptr64` | 2435 (0x983) | Exported Function | 0x0000000180034b90 | 0x00034b90
-`public: virtual int const * __ptr64 __cdecl UnBCL::Array<int>::GetBuffer(int)const __ptr64` | 1765 (0x6e5) | Exported Function | 0x000000018000d9d0 | 0x0000d9d0
-`public: virtual int __cdecl UnBCL::TimeSpan::CompareTo(class UnBCL::Object const * __ptr64)const __ptr64` | 1585 (0x631) | Exported Function | 0x000000018005c6a0 | 0x0005c6a0
-`public: virtual int __cdecl UnBCL::TimeSpan::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1712 (0x6b0) | Exported Function | 0x000000018005c640 | 0x0005c640
-`public: virtual int __cdecl UnBCL::TimeSpan::GetHashCode(void)const __ptr64` | 1830 (0x726) | Exported Function | 0x00000001800237c0 | 0x000237c0
-`public: virtual int __cdecl UnBCL::UnicodeEncoding::GetByteCount(class UnBCL::String const * __ptr64,int,int)const __ptr64` | 1781 (0x6f5) | Exported Function | 0x000000018005d040 | 0x0005d040
-`public: virtual int __cdecl UnBCL::UnicodeEncoding::GetBytes(class UnBCL::String const * __ptr64,int,int,class UnBCL::Array<unsigned char> * __ptr64,int)const __ptr64` | 1785 (0x6f9) | Exported Function | 0x000000018005d170 | 0x0005d170
-`public: virtual int __cdecl UnBCL::UnicodeEncoding::GetCharCount(class UnBCL::Array<unsigned char> const * __ptr64,int,int)const __ptr64` | 1788 (0x6fc) | Exported Function | 0x000000018005d3a0 | 0x0005d3a0
-`public: virtual int __cdecl UnBCL::UnicodeEncoding::GetChars(class UnBCL::Array<unsigned char> const * __ptr64,int,int,class UnBCL::Array<unsigned short> * __ptr64,int)const __ptr64` | 1790 (0x6fe) | Exported Function | 0x000000018005d3c0 | 0x0005d3c0
-`public: virtual int __cdecl UnBCL::UnicodeEncoding::GetMaxByteCount(int)const __ptr64` | 1842 (0x732) | Exported Function | 0x000000018005cf70 | 0x0005cf70
-`public: virtual int __cdecl UnBCL::Version::CompareTo(class UnBCL::Object const * __ptr64)const __ptr64` | 1586 (0x632) | Exported Function | 0x000000018005e930 | 0x0005e930
-`public: virtual int __cdecl UnBCL::Version::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1713 (0x6b1) | Exported Function | 0x000000018005e6e0 | 0x0005e6e0
-`public: virtual int __cdecl UnBCL::Version::GetHashCode(void)const __ptr64` | 1831 (0x727) | Exported Function | 0x000000018005e760 | 0x0005e760
-`public: virtual int __cdecl UnBCL::WaitHandle::WaitOne(void) __ptr64` | 2323 (0x913) | Exported Function | 0x000000018005ecf0 | 0x0005ecf0
-`public: virtual int __cdecl UnBCL::XmlException::get_LineNumber(void) __ptr64` | 2509 (0x9cd) | Exported Function | 0x000000018005f800 | 0x0005f800
-`public: virtual int __cdecl UnBCL::XmlException::get_LinePosition(void) __ptr64` | 2510 (0x9ce) | Exported Function | 0x000000018006b4f0 | 0x0006b4f0
-`public: virtual int const & __ptr64 __cdecl UnBCL::Array<int>::get_Item(int)const __ptr64` | 2474 (0x9aa) | Exported Function | 0x000000018000d550 | 0x0000d550
-`public: virtual int const & __ptr64 __cdecl UnBCL::Stack<int>::get_Item(int)const __ptr64` | 2487 (0x9b7) | Exported Function | 0x0000000180053120 | 0x00053120
-`public: virtual int const & __ptr64 __cdecl UnBCL::Stack<int>::Peek(void)const __ptr64` | 2070 (0x816) | Exported Function | 0x0000000180053b70 | 0x00053b70
-`public: virtual unsigned char __cdecl UnBCL::Array<unsigned char>::GetValue(int)const __ptr64` | 1885 (0x75d) | Exported Function | 0x000000018000d970 | 0x0000d970
-`public: virtual unsigned char const & __ptr64 __cdecl UnBCL::Array<unsigned char>::get_Item(int)const __ptr64` | 2470 (0x9a6) | Exported Function | 0x000000018000d550 | 0x0000d550
-`public: virtual unsigned char const * __ptr64 __cdecl UnBCL::Array<unsigned char>::GetBuffer(int)const __ptr64` | 1761 (0x6e1) | Exported Function | 0x000000018000d9d0 | 0x0000d9d0
-`public: virtual unsigned int __cdecl UnBCL::HeapMemoryManager::Dump(struct ILogHandler * __ptr64) __ptr64` | 1689 (0x699) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<int>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2236 (0x8bc) | Exported Function | 0x00000001800153d0 | 0x000153d0
-`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<int>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2248 (0x8c8) | Exported Function | 0x0000000180015380 | 0x00015380
-`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2234 (0x8ba) | Exported Function | 0x00000001800155d0 | 0x000155d0
-`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2246 (0x8c6) | Exported Function | 0x0000000180015380 | 0x00015380
-`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2235 (0x8bb) | Exported Function | 0x0000000180015850 | 0x00015850
-`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2247 (0x8c7) | Exported Function | 0x0000000180015380 | 0x00015380
-`public: virtual void __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2238 (0x8be) | Exported Function | 0x0000000180013180 | 0x00013180
-`public: virtual void __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2250 (0x8ca) | Exported Function | 0x0000000180013060 | 0x00013060
-`public: virtual void __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2239 (0x8bf) | Exported Function | 0x0000000180012e10 | 0x00012e10
-`public: virtual void __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2251 (0x8cb) | Exported Function | 0x0000000180012ce0 | 0x00012ce0
-`public: virtual void __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2240 (0x8c0) | Exported Function | 0x0000000180031170 | 0x00031170
-`public: virtual void __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2252 (0x8cc) | Exported Function | 0x0000000180030fe0 | 0x00030fe0
-`public: virtual void __cdecl UnBCL::_::SerializableStackBase<int>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2241 (0x8c1) | Exported Function | 0x0000000180053d20 | 0x00053d20
-`public: virtual void __cdecl UnBCL::_::SerializableStackBase<int>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2253 (0x8cd) | Exported Function | 0x0000000180053cd0 | 0x00053cd0
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Clear(void) __ptr64` | 1533 (0x5fd) | Exported Function | 0x000000018000d610 | 0x0000d610
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::Object * __ptr64> * __ptr64,int)const __ptr64` | 1623 (0x657) | Exported Function | 0x000000018000d8a0 | 0x0000d8a0
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Insert(int,class UnBCL::Object * __ptr64) __ptr64` | 1956 (0x7a4) | Exported Function | 0x0000000180013cf0 | 0x00013cf0
-`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2249 (0x8c9) | Exported Function | 0x0000000180015380 | 0x00015380
-`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::RemoveAt(int) __ptr64` | 2135 (0x857) | Exported Function | 0x0000000180013db0 | 0x00013db0
-`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2237 (0x8bd) | Exported Function | 0x0000000180015ad0 | 0x00015ad0
-`public: virtual void * __ptr64 __cdecl UnBCL::HeapMemoryManager::ReAllocDbg(char const * __ptr64,int,void * __ptr64,unsigned __int64) __ptr64` | 2088 (0x828) | Exported Function | 0x0000000180038af0 | 0x00038af0
-`public: virtual unsigned int __cdecl UnBCL::HeapMemoryManager::DumpDelta(struct ILogHandler * __ptr64) __ptr64` | 1691 (0x69b) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual unsigned int __cdecl UnBCL::HeapMemoryManager::NumBlocksAllocated(void) __ptr64` | 2062 (0x80e) | Exported Function | 0x0000000180038d80 | 0x00038d80
-`public: virtual unsigned int __cdecl UnBCL::Object::GetObjectID(void)const __ptr64` | 1849 (0x739) | Exported Function | 0x00000001800417b0 | 0x000417b0
-`public: virtual unsigned short & __ptr64 __cdecl UnBCL::Array<unsigned short>::get_Item(int) __ptr64` | 2471 (0x9a7) | Exported Function | 0x000000018000d550 | 0x0000d550
-`public: virtual unsigned short & __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::get_Item(int) __ptr64` | 2479 (0x9af) | Exported Function | 0x0000000180011280 | 0x00011280
-`public: virtual unsigned short * __ptr64 __cdecl UnBCL::Array<unsigned short>::GetBuffer(int) __ptr64` | 1762 (0x6e2) | Exported Function | 0x000000018000d9d0 | 0x0000d9d0
-`public: virtual unsigned short * __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::GetBuffer(int) __ptr64` | 1770 (0x6ea) | Exported Function | 0x0000000180012700 | 0x00012700
-`public: virtual unsigned short __cdecl UnBCL::Array<unsigned short>::GetValue(int)const __ptr64` | 1886 (0x75e) | Exported Function | 0x000000018000ec60 | 0x0000ec60
-`public: virtual unsigned short __cdecl UnBCL::StringPtr::operator[](int)const __ptr64` | 972 (0x3cc) | Exported Function | 0x000000018005b370 | 0x0005b370
-`public: virtual unsigned short const & __ptr64 __cdecl UnBCL::Array<unsigned short>::get_Item(int)const __ptr64` | 2472 (0x9a8) | Exported Function | 0x000000018000d550 | 0x0000d550
-`public: virtual unsigned short const & __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::get_Item(int)const __ptr64` | 2480 (0x9b0) | Exported Function | 0x00000001800111c0 | 0x000111c0
-`public: virtual unsigned short const * __ptr64 __cdecl UnBCL::Array<unsigned short>::GetBuffer(int)const __ptr64` | 1763 (0x6e3) | Exported Function | 0x000000018000d9d0 | 0x0000d9d0
-`public: virtual unsigned short const * __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::GetBuffer(int)const __ptr64` | 1771 (0x6eb) | Exported Function | 0x0000000180012640 | 0x00012640
-`public: virtual unsigned short const * __ptr64 __cdecl UnBCL::RegSubkeyEnumerator::get_Current(void)const __ptr64` | 2421 (0x975) | Exported Function | 0x0000000180049c20 | 0x00049c20
-`public: virtual void * __ptr64 __cdecl UnBCL::HeapMemoryManager::Alloc(unsigned __int64) __ptr64` | 1464 (0x5b8) | Exported Function | 0x0000000180038a60 | 0x00038a60
-`public: virtual void * __ptr64 __cdecl UnBCL::HeapMemoryManager::AllocDbg(char const * __ptr64,int,unsigned __int64) __ptr64` | 1466 (0x5ba) | Exported Function | 0x0000000180038a90 | 0x00038a90
-`public: virtual void * __ptr64 __cdecl UnBCL::HeapMemoryManager::ReAlloc(void * __ptr64,unsigned __int64) __ptr64` | 2086 (0x826) | Exported Function | 0x0000000180038ab0 | 0x00038ab0
-`public: virtual void * __ptr64 __cdecl UnBCL::WaitHandle::get_Handle(void)const __ptr64` | 2436 (0x984) | Exported Function | 0x00000001800140d0 | 0x000140d0
-`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > * __ptr64,int)const __ptr64` | 1628 (0x65c) | Exported Function | 0x0000000180030a20 | 0x00030a20
-`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Remove(class UnBCL::String * __ptr64) __ptr64` | 2130 (0x852) | Exported Function | 0x0000000180030810 | 0x00030810
-`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::set_AutoDeleteKey(int) __ptr64` | 2627 (0xa43) | Exported Function | 0x0000000180030a80 | 0x00030a80
-`public: void __cdecl UnBCL::ProcessStartInfo::set_FileName(class UnBCL::String const * __ptr64) __ptr64` | 2635 (0xa4b) | Exported Function | 0x0000000180045ea0 | 0x00045ea0
-`public: void __cdecl UnBCL::ProcessStartInfo::set_UseShellExecute(int) __ptr64` | 2658 (0xa62) | Exported Function | 0x0000000180045fb0 | 0x00045fb0
-`public: void __cdecl UnBCL::RegHandle::``vbase destructor'(void) __ptr64` | 1428 (0x594) | Exported Function | 0x0000000180046110 | 0x00046110
-`public: void __cdecl UnBCL::RegHandle::Close(void) __ptr64` | 1562 (0x61a) | Exported Function | 0x0000000180046290 | 0x00046290
-`public: void __cdecl UnBCL::Registry::``vbase destructor'(void) __ptr64` | 1430 (0x596) | Exported Function | 0x0000000180020a50 | 0x00020a50
-`public: void __cdecl UnBCL::RegistryKey::``vbase destructor'(void) __ptr64` | 1431 (0x597) | Exported Function | 0x0000000180046850 | 0x00046850
-`public: void __cdecl UnBCL::RegistryKey::Close(void) __ptr64` | 1563 (0x61b) | Exported Function | 0x0000000180049250 | 0x00049250
-`public: void __cdecl UnBCL::ProcessStartInfo::set_Arguments(class UnBCL::String const * __ptr64) __ptr64` | 2619 (0xa3b) | Exported Function | 0x0000000180045f30 | 0x00045f30
-`public: void __cdecl UnBCL::RegistryKey::DeleteSubKey(class UnBCL::String const * __ptr64) __ptr64` | 1673 (0x689) | Exported Function | 0x0000000180047a60 | 0x00047a60
-`public: void __cdecl UnBCL::RegistryKey::DeleteSubKeyTree(class UnBCL::String const * __ptr64) __ptr64` | 1675 (0x68b) | Exported Function | 0x0000000180047d50 | 0x00047d50
-`public: void __cdecl UnBCL::RegistryKey::DeleteValue(class UnBCL::String const * __ptr64) __ptr64` | 1676 (0x68c) | Exported Function | 0x0000000180048980 | 0x00048980
-`public: void __cdecl UnBCL::RegistryKey::SetValue(class UnBCL::String const * __ptr64,class UnBCL::Array<class UnBCL::String * __ptr64> const * __ptr64) __ptr64` | 2202 (0x89a) | Exported Function | 0x0000000180048400 | 0x00048400
-`public: void __cdecl UnBCL::RegistryKey::SetValue(class UnBCL::String const * __ptr64,class UnBCL::Array<unsigned char> const * __ptr64) __ptr64` | 2201 (0x899) | Exported Function | 0x0000000180048220 | 0x00048220
-`public: void __cdecl UnBCL::RegistryKey::SetValue(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,int) __ptr64` | 2199 (0x897) | Exported Function | 0x0000000180048780 | 0x00048780
-`public: void __cdecl UnBCL::RegistryKey::SetValue(class UnBCL::String const * __ptr64,int) __ptr64` | 2200 (0x898) | Exported Function | 0x00000001800480c0 | 0x000480c0
-`public: void __cdecl UnBCL::RegSubkeyEnumerator::``vbase destructor'(void) __ptr64` | 1429 (0x595) | Exported Function | 0x00000001800497b0 | 0x000497b0
-`public: void __cdecl UnBCL::RegistryKey::DeleteSubKey(class UnBCL::String const * __ptr64,int) __ptr64` | 1674 (0x68a) | Exported Function | 0x0000000180047a80 | 0x00047a80
-`public: void __cdecl UnBCL::Process::WaitForExit(void) __ptr64` | 2322 (0x912) | Exported Function | 0x00000001800456b0 | 0x000456b0
-`public: void __cdecl UnBCL::Process::Close(void) __ptr64` | 1561 (0x619) | Exported Function | 0x0000000180045770 | 0x00045770
-`public: void __cdecl UnBCL::Process::``vbase destructor'(void) __ptr64` | 1427 (0x593) | Exported Function | 0x0000000180045610 | 0x00045610
-`public: void __cdecl UnBCL::FileSystemEnumerator::``vbase destructor'(void) __ptr64` | 1421 (0x58d) | Exported Function | 0x00000001800369f0 | 0x000369f0
-`public: void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbase destructor'(void) __ptr64` | 1413 (0x585) | Exported Function | 0x000000018002caf0 | 0x0002caf0
-`public: void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::FreezeHash(void) __ptr64` | 1745 (0x6d1) | Exported Function | 0x0000000180030cd0 | 0x00030cd0
-`public: void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::ThawHash(void) __ptr64` | 2270 (0x8de) | Exported Function | 0x0000000180030ce0 | 0x00030ce0
-`public: void __cdecl UnBCL::MemoryStream::``vbase destructor'(void) __ptr64` | 1422 (0x58e) | Exported Function | 0x0000000180002820 | 0x00002820
-`public: void __cdecl UnBCL::MultiSz::``vbase destructor'(void) __ptr64` | 1424 (0x590) | Exported Function | 0x000000018003b180 | 0x0003b180
-`public: void __cdecl UnBCL::MultiSz::Add(unsigned short const * __ptr64) __ptr64` | 1451 (0x5ab) | Exported Function | 0x000000018003bb10 | 0x0003bb10
-`public: void __cdecl UnBCL::MultiSz::Merge(class UnBCL::MultiSz const & __ptr64,int) __ptr64` | 2042 (0x7fa) | Exported Function | 0x000000018003bda0 | 0x0003bda0
-`public: void __cdecl UnBCL::MutableString::Append(unsigned short const * __ptr64) __ptr64` | 1472 (0x5c0) | Exported Function | 0x0000000180002c60 | 0x00002c60
-`public: void __cdecl UnBCL::MutableString::Append(unsigned short) __ptr64` | 1471 (0x5bf) | Exported Function | 0x0000000180002c50 | 0x00002c50
-`public: void __cdecl UnBCL::MutableString::Insert(int,unsigned short const * __ptr64,int) __ptr64` | 1963 (0x7ab) | Exported Function | 0x00000001800588a0 | 0x000588a0
-`public: void __cdecl UnBCL::MutableString::MakeLower(void) __ptr64` | 2032 (0x7f0) | Exported Function | 0x0000000180002c90 | 0x00002c90
-`public: void __cdecl UnBCL::MutableString::MakeTrim(unsigned short const * __ptr64) __ptr64` | 2035 (0x7f3) | Exported Function | 0x0000000180002ca0 | 0x00002ca0
-`public: void __cdecl UnBCL::MutableString::TrimRight(unsigned short const * __ptr64) __ptr64` | 2309 (0x905) | Exported Function | 0x0000000180002ce0 | 0x00002ce0
-`public: void __cdecl UnBCL::Mutex::``vbase destructor'(void) __ptr64` | 1425 (0x591) | Exported Function | 0x00000001800411d0 | 0x000411d0
-`public: void __cdecl UnBCL::Object::AddRef(void) __ptr64` | 1461 (0x5b5) | Exported Function | 0x0000000180041880 | 0x00041880
-`public: void __cdecl UnBCL::OperatingSystem::``vbase destructor'(void) __ptr64` | 1426 (0x592) | Exported Function | 0x000000018002cec0 | 0x0002cec0
-`public: void __cdecl UnBCL::SEHException::``vbase destructor'(void) __ptr64` | 1432 (0x598) | Exported Function | 0x0000000180049fc0 | 0x00049fc0
-`public: void __cdecl UnBCL::SerializationStream::Close(void) __ptr64` | 1564 (0x61c) | Exported Function | 0x000000018004a830 | 0x0004a830
-`public: void __cdecl UnBCL::SerializationStream::Flush(void) __ptr64` | 1729 (0x6c1) | Exported Function | 0x000000018004a810 | 0x0004a810
-`public: void __cdecl UnBCL::SerializationStream::ReadBytes(unsigned char * __ptr64,int) __ptr64` | 2095 (0x82f) | Exported Function | 0x000000018004a660 | 0x0004a660
-`public: void __cdecl UnBCL::WaitHandle::``vbase destructor'(void) __ptr64` | 1439 (0x59f) | Exported Function | 0x0000000180040de0 | 0x00040de0
-`public: void __cdecl UnBCL::XmlDocument::Load(class UnBCL::String * __ptr64) __ptr64` | 2012 (0x7dc) | Exported Function | 0x0000000180064f30 | 0x00064f30
-`public: void __cdecl UnBCL::XmlDocument::Load(struct IStream * __ptr64) __ptr64` | 2011 (0x7db) | Exported Function | 0x0000000180065140 | 0x00065140
-`public: void __cdecl UnBCL::XmlDocument::LoadXml(class UnBCL::String * __ptr64) __ptr64` | 2018 (0x7e2) | Exported Function | 0x00000001800652d0 | 0x000652d0
-`public: void __cdecl UnBCL::XmlDocument::RegisterNamespaces(class UnBCL::String * __ptr64) __ptr64` | 2102 (0x836) | Exported Function | 0x00000001800655f0 | 0x000655f0
-`public: void __cdecl UnBCL::XmlDocument::Save(class UnBCL::String * __ptr64) __ptr64` | 2168 (0x878) | Exported Function | 0x00000001800654b0 | 0x000654b0
-`public: void __cdecl UnBCL::XmlDocument::set_Schemas(class UnBCL::XmlSchemaSet * __ptr64) __ptr64` | 2656 (0xa60) | Exported Function | 0x0000000180065b50 | 0x00065b50
-`public: void __cdecl UnBCL::XmlDocument::set_ValidateOnParse(int) __ptr64` | 2659 (0xa63) | Exported Function | 0x0000000180065b30 | 0x00065b30
-`public: void __cdecl UnBCL::XmlLite::XmlDocument::Load(class UnBCL::String * __ptr64) __ptr64` | 2014 (0x7de) | Exported Function | 0x0000000180062cd0 | 0x00062cd0
-`public: void __cdecl UnBCL::XmlLite::XmlDocument::Load(struct IStream * __ptr64) __ptr64` | 2013 (0x7dd) | Exported Function | 0x0000000180062ee0 | 0x00062ee0
-`public: void __cdecl UnBCL::XmlLite::XmlDocument::LoadXml(class UnBCL::String * __ptr64) __ptr64` | 2019 (0x7e3) | Exported Function | 0x0000000180062ef0 | 0x00062ef0
-`public: void __cdecl UnBCL::XmlNamespaceManager::AddNamespace(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 1458 (0x5b2) | Exported Function | 0x0000000180065d00 | 0x00065d00
-`public: void __cdecl UnBCL::XmlNamespaceManager::RemoveNamespace(class UnBCL::String * __ptr64) __ptr64` | 2141 (0x85d) | Exported Function | 0x0000000180065dc0 | 0x00065dc0
-`public: void __cdecl UnBCL::XmlNode::RemoveChild(class UnBCL::XmlNode * __ptr64) __ptr64` | 2140 (0x85c) | Exported Function | 0x0000000180064190 | 0x00064190
-`public: void __cdecl UnBCL::XmlNode::set_InnerText(class UnBCL::String * __ptr64) __ptr64` | 2638 (0xa4e) | Exported Function | 0x0000000180063650 | 0x00063650
-`public: void __cdecl UnBCL::XmlSchemaSet::Add(class UnBCL::String * __ptr64,class UnBCL::XmlDocument * __ptr64) __ptr64` | 1456 (0x5b0) | Exported Function | 0x0000000180065fe0 | 0x00065fe0
-`SetRunningFlag` | 2661 (0xa65) | Exported Function | 0x0000000180002f50 | 0x00002f50
-`public: void __cdecl UnBCL::Version::``vbase destructor'(void) __ptr64` | 1438 (0x59e) | Exported Function | 0x000000018002cc70 | 0x0002cc70
-`public: void __cdecl UnBCL::FileStream::``vbase destructor'(void) __ptr64` | 1420 (0x58c) | Exported Function | 0x0000000180021890 | 0x00021890
-`public: void __cdecl UnBCL::UnicodeEncoding::``vbase destructor'(void) __ptr64` | 1437 (0x59d) | Exported Function | 0x0000000180020a50 | 0x00020a50
-`public: void __cdecl UnBCL::Thread::Join(void) __ptr64` | 1992 (0x7c8) | Exported Function | 0x000000018005be70 | 0x0005be70
-`public: void __cdecl UnBCL::SerializationStream::ReadPhantomObject(class UnBCL::Object * __ptr64 & __ptr64) __ptr64` | 2099 (0x833) | Exported Function | 0x000000018004bda0 | 0x0004bda0
-`public: void __cdecl UnBCL::SerializationStream::set_Context(class UnBCL::Object * __ptr64) __ptr64` | 2633 (0xa49) | Exported Function | 0x000000018004a630 | 0x0004a630
-`public: void __cdecl UnBCL::SerializationStream::WriteBytes(unsigned char const * __ptr64,int) __ptr64` | 2333 (0x91d) | Exported Function | 0x000000018004a7e0 | 0x0004a7e0
-`public: void __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::``vbase destructor'(void) __ptr64` | 1415 (0x587) | Exported Function | 0x0000000180052980 | 0x00052980
-`public: void __cdecl UnBCL::Stack<int>::``vbase destructor'(void) __ptr64` | 1414 (0x586) | Exported Function | 0x0000000180052ce0 | 0x00052ce0
-`public: void __cdecl UnBCL::Stream::set_Counter(class UnBCL::StreamCounter * __ptr64) __ptr64` | 2634 (0xa4a) | Exported Function | 0x00000001800023d0 | 0x000023d0
-`public: void __cdecl UnBCL::StreamCounter::Add(__int64) __ptr64` | 1452 (0x5ac) | Exported Function | 0x0000000180002300 | 0x00002300
-`public: void __cdecl UnBCL::StreamReader::``vbase destructor'(void) __ptr64` | 1433 (0x599) | Exported Function | 0x00000001800546b0 | 0x000546b0
-`public: void __cdecl UnBCL::StreamWriter::``vbase destructor'(void) __ptr64` | 1434 (0x59a) | Exported Function | 0x00000001800554d0 | 0x000554d0
-`public: void __cdecl UnBCL::String::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2244 (0x8c4) | Exported Function | 0x00000001800564e0 | 0x000564e0
-`public: void __cdecl UnBCL::String::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2256 (0x8d0) | Exported Function | 0x0000000180056480 | 0x00056480
-`public: void __cdecl UnBCL::StringBuilder::ReleaseBuffer(int) __ptr64` | 2119 (0x847) | Exported Function | 0x000000018005ad50 | 0x0005ad50
-`public: void __cdecl UnBCL::StringBuilder::Reset(void) __ptr64` | 2151 (0x867) | Exported Function | 0x000000018005a820 | 0x0005a820
-`public: void __cdecl UnBCL::StringBuilder::set_Chars(int,unsigned short) __ptr64` | 2632 (0xa48) | Exported Function | 0x000000018005ae40 | 0x0005ae40
-`public: void __cdecl UnBCL::StringBuilder::set_Length(int) __ptr64` | 2648 (0xa58) | Exported Function | 0x000000018005aee0 | 0x0005aee0
-`public: void __cdecl UnBCL::StringPtr::``vbase destructor'(void) __ptr64` | 1435 (0x59b) | Exported Function | 0x0000000180008290 | 0x00008290
-`public: void __cdecl UnBCL::Thread::``vbase destructor'(void) __ptr64` | 1436 (0x59c) | Exported Function | 0x000000018005bcf0 | 0x0005bcf0
-`public: void __cdecl UnBCL::Thread::Start(void) __ptr64` | 2219 (0x8ab) | Exported Function | 0x000000018005bf30 | 0x0005bf30
-`public: void __cdecl UnBCL::Exception::AddStackTrace(char const * __ptr64) __ptr64` | 1462 (0x5b6) | Exported Function | 0x0000000180034bf0 | 0x00034bf0
-`public: void __cdecl UnBCL::Delegate::``vbase destructor'(void) __ptr64` | 1419 (0x58b) | Exported Function | 0x0000000180020a50 | 0x00020a50
-`public: void __cdecl UnBCL::CaseInsensitiveStringComparer::``vbase destructor'(void) __ptr64` | 1418 (0x58a) | Exported Function | 0x0000000180008500 | 0x00008500
-`public: virtual void __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Clear(void) __ptr64` | 1540 (0x604) | Exported Function | 0x0000000180053150 | 0x00053150
-`public: virtual void __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::Object * __ptr64> * __ptr64,int)const __ptr64` | 1630 (0x65e) | Exported Function | 0x000000018000d8a0 | 0x0000d8a0
-`public: virtual void __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Push(class UnBCL::Object * __ptr64) __ptr64` | 2082 (0x822) | Exported Function | 0x0000000180053390 | 0x00053390
-`public: virtual void __cdecl UnBCL::Stack<int>::Clear(void) __ptr64` | 1539 (0x603) | Exported Function | 0x0000000180053150 | 0x00053150
-`public: virtual void __cdecl UnBCL::Stack<int>::CopyTo(class UnBCL::Array<int> * __ptr64,int)const __ptr64` | 1629 (0x65d) | Exported Function | 0x000000018000d8a0 | 0x0000d8a0
-`public: virtual void __cdecl UnBCL::Stack<int>::Push(int) __ptr64` | 2081 (0x821) | Exported Function | 0x0000000180053c90 | 0x00053c90
-`public: virtual void __cdecl UnBCL::StreamReader::Close(void) __ptr64` | 1565 (0x61d) | Exported Function | 0x0000000180054ed0 | 0x00054ed0
-`public: virtual void __cdecl UnBCL::StreamWriter::Close(void) __ptr64` | 1567 (0x61f) | Exported Function | 0x0000000180055c20 | 0x00055c20
-`public: virtual void __cdecl UnBCL::StreamWriter::Flush(void) __ptr64` | 1730 (0x6c2) | Exported Function | 0x0000000180055ba0 | 0x00055ba0
-`public: virtual void __cdecl UnBCL::StreamWriter::Write(class UnBCL::String const * __ptr64,int,int) __ptr64` | 2332 (0x91c) | Exported Function | 0x0000000180055a70 | 0x00055a70
-`public: virtual void __cdecl UnBCL::TextReader::Dispose(void) __ptr64` | 1682 (0x692) | Exported Function | 0x000000018005b5b0 | 0x0005b5b0
-`public: virtual void __cdecl UnBCL::TextWriter::Dispose(void) __ptr64` | 1683 (0x693) | Exported Function | 0x000000018005b680 | 0x0005b680
-`public: virtual void __cdecl UnBCL::TextWriter::set_NewLine(class UnBCL::String const * __ptr64) __ptr64` | 2651 (0xa5b) | Exported Function | 0x000000018005b6a0 | 0x0005b6a0
-`public: virtual void __cdecl UnBCL::TextWriter::WriteFormat(unsigned short const * __ptr64,...) __ptr64` | 2334 (0x91e) | Exported Function | 0x000000018005b7b0 | 0x0005b7b0
-`public: virtual void __cdecl UnBCL::TextWriter::WriteLine(unsigned short const * __ptr64,...) __ptr64` | 2335 (0x91f) | Exported Function | 0x000000018005b850 | 0x0005b850
-`public: virtual void __cdecl UnBCL::TextWriter::WriteLine(void) __ptr64` | 2336 (0x920) | Exported Function | 0x000000018005b740 | 0x0005b740
-`public: virtual void __cdecl UnBCL::TextWriter::WriteUnformat(unsigned short const * __ptr64) __ptr64` | 2340 (0x924) | Exported Function | 0x000000018005b900 | 0x0005b900
-`public: virtual void __cdecl UnBCL::RegSubkeyEnumerator::Reset(void) __ptr64` | 2150 (0x866) | Exported Function | 0x0000000180049be0 | 0x00049be0
-`public: virtual void __cdecl UnBCL::Version::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2245 (0x8c5) | Exported Function | 0x000000018005ea70 | 0x0005ea70
-`public: virtual void __cdecl UnBCL::RegistryKey::Dispose(void) __ptr64` | 1681 (0x691) | Exported Function | 0x0000000180046ce0 | 0x00046ce0
-`public: virtual void __cdecl UnBCL::OperatingSystem::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2255 (0x8cf) | Exported Function | 0x00000001800424b0 | 0x000424b0
-`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::set_AutoDeleteValue(int) __ptr64` | 2628 (0xa44) | Exported Function | 0x0000000180030aa0 | 0x00030aa0
-`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::set_Item(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 2647 (0xa57) | Exported Function | 0x0000000180030430 | 0x00030430
-`public: virtual void __cdecl UnBCL::HeapMemoryManager::EnableDelayedDeallocation(int) __ptr64` | 1694 (0x69e) | Exported Function | 0x0000000180038b10 | 0x00038b10
-`public: virtual void __cdecl UnBCL::HeapMemoryManager::Free(void * __ptr64) __ptr64` | 1743 (0x6cf) | Exported Function | 0x0000000180038ba0 | 0x00038ba0
-`public: virtual void __cdecl UnBCL::HeapMemoryManager::SetRef(void) __ptr64` | 2189 (0x88d) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual void __cdecl UnBCL::HeapMemoryManager::Validate(void) __ptr64` | 2317 (0x90d) | Exported Function | 0x0000000180038cd0 | 0x00038cd0
-`public: virtual void __cdecl UnBCL::MemoryStream::Close(void) __ptr64` | 1560 (0x618) | Exported Function | 0x0000000180039f20 | 0x00039f20
-`public: virtual void __cdecl UnBCL::MemoryStream::Dispose(void) __ptr64` | 1679 (0x68f) | Exported Function | 0x00000001800395f0 | 0x000395f0
-`public: virtual void __cdecl UnBCL::MemoryStream::Flush(void) __ptr64` | 1728 (0x6c0) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual void __cdecl UnBCL::MemoryStream::set_Capacity(int) __ptr64` | 2631 (0xa47) | Exported Function | 0x0000000180039fc0 | 0x00039fc0
-`public: virtual void __cdecl UnBCL::MemoryStream::set_Position(__int64) __ptr64` | 2655 (0xa5f) | Exported Function | 0x0000000180039750 | 0x00039750
-`public: virtual void __cdecl UnBCL::MemoryStream::SetLength(__int64) __ptr64` | 2182 (0x886) | Exported Function | 0x000000018003a1f0 | 0x0003a1f0
-`public: virtual void __cdecl UnBCL::MemoryStream::Write(unsigned char const * __ptr64,int,int) __ptr64` | 2331 (0x91b) | Exported Function | 0x0000000180039a90 | 0x00039a90
-`public: virtual void __cdecl UnBCL::MultiSz::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2242 (0x8c2) | Exported Function | 0x000000018003c8e0 | 0x0003c8e0
-`public: virtual void __cdecl UnBCL::MultiSz::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2254 (0x8ce) | Exported Function | 0x000000018003c880 | 0x0003c880
-`public: virtual void __cdecl UnBCL::Mutex::Release(void) __ptr64` | 2117 (0x845) | Exported Function | 0x0000000180041310 | 0x00041310
-`public: virtual void __cdecl UnBCL::OperatingSystem::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2243 (0x8c3) | Exported Function | 0x0000000180042510 | 0x00042510
-`public: virtual void __cdecl UnBCL::Process::Dispose(void) __ptr64` | 1680 (0x690) | Exported Function | 0x00000001800456a0 | 0x000456a0
-`public: virtual int __cdecl UnBCL::String::GetHashCode(void)const __ptr64` | 1829 (0x725) | Exported Function | 0x0000000180056320 | 0x00056320
-`public: virtual void __cdecl UnBCL::Version::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2257 (0x8d1) | Exported Function | 0x000000018005ea20 | 0x0005ea20
-`public: virtual void __cdecl UnBCL::WaitHandle::set_Handle(void * __ptr64) __ptr64` | 2637 (0xa4d) | Exported Function | 0x00000001800023d0 | 0x000023d0
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Format(unsigned int,...) __ptr64` | 1733 (0x6c5) | Exported Function | 0x00000001800072e0 | 0x000072e0
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Format(unsigned short const * __ptr64,...) __ptr64` | 1734 (0x6c6) | Exported Function | 0x00000001800073c0 | 0x000073c0
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FormatMessageV(unsigned short const * __ptr64,char * __ptr64 * __ptr64) __ptr64` | 1737 (0x6c9) | Exported Function | 0x00000001800037a0 | 0x000037a0
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FormatMessageW(unsigned int,...) __ptr64` | 1738 (0x6ca) | Exported Function | 0x0000000180007500 | 0x00007500
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FormatMessageW(unsigned short const * __ptr64,...) __ptr64` | 1739 (0x6cb) | Exported Function | 0x0000000180007600 | 0x00007600
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FormatV(unsigned short const * __ptr64,char * __ptr64) __ptr64` | 1740 (0x6cc) | Exported Function | 0x0000000180003840 | 0x00003840
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::OemToCharA(void) __ptr64` | 2063 (0x80f) | Exported Function | 0x0000000180003de0 | 0x00003de0
-`public: void __cdecl UnBCL::Allocator::EnableDelayedDeallocation(int) __ptr64` | 1693 (0x69d) | Exported Function | 0x00000001800032b0 | 0x000032b0
-`public: void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::``vbase destructor'(void) __ptr64` | 1408 (0x580) | Exported Function | 0x0000000180008fa0 | 0x00008fa0
-`public: void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::``vbase destructor'(void) __ptr64` | 1409 (0x581) | Exported Function | 0x0000000180009830 | 0x00009830
-`public: void __cdecl UnBCL::Array<int>::``vbase destructor'(void) __ptr64` | 1407 (0x57f) | Exported Function | 0x0000000180009330 | 0x00009330
-`public: void __cdecl UnBCL::Array<unsigned char>::``vbase destructor'(void) __ptr64` | 1405 (0x57d) | Exported Function | 0x0000000180009530 | 0x00009530
-`public: void __cdecl UnBCL::Array<unsigned short>::``vbase destructor'(void) __ptr64` | 1406 (0x57e) | Exported Function | 0x00000001800096b0 | 0x000096b0
-`public: void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbase destructor'(void) __ptr64` | 1411 (0x583) | Exported Function | 0x0000000180008cc0 | 0x00008cc0
-`public: void __cdecl UnBCL::ArrayList<unsigned short>::``vbase destructor'(void) __ptr64` | 1410 (0x582) | Exported Function | 0x0000000180008a20 | 0x00008a20
-`public: void __cdecl UnBCL::ASCIIEncoding::``vbase destructor'(void) __ptr64` | 1416 (0x588) | Exported Function | 0x0000000180020a50 | 0x00020a50
-`public: void __cdecl UnBCL::BufferedStream::``vbase destructor'(void) __ptr64` | 1417 (0x589) | Exported Function | 0x0000000180021b20 | 0x00021b20
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CharToOemA(void) __ptr64` | 1526 (0x5f6) | Exported Function | 0x0000000180003de0 | 0x00003de0
-`public: virtual void __cdecl UnBCL::WaitHandle::Dispose(void) __ptr64` | 1685 (0x695) | Exported Function | 0x000000018005ecd0 | 0x0005ecd0
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::AppendFormatV(unsigned short const * __ptr64,char * __ptr64) __ptr64` | 1486 (0x5ce) | Exported Function | 0x0000000180003920 | 0x00003920
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::AppendFormat(unsigned int,...) __ptr64` | 1484 (0x5cc) | Exported Function | 0x0000000180007420 | 0x00007420
-`public: void * __ptr64 __cdecl UnBCL::Process::get_ProcessHandle(void)const __ptr64` | 2558 (0x9fe) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: void * __ptr64 __cdecl UnBCL::Thread::get_ThreadHandle(void) __ptr64` | 2574 (0xa0e) | Exported Function | 0x0000000180031a90 | 0x00031a90
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Append(class ATL::CSimpleStringT<unsigned short,0> const & __ptr64) __ptr64` | 1468 (0x5bc) | Exported Function | 0x0000000180006a70 | 0x00006a70
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Append(unsigned short const * __ptr64) __ptr64` | 1469 (0x5bd) | Exported Function | 0x0000000180006bf0 | 0x00006bf0
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Append(unsigned short const * __ptr64,int) __ptr64` | 1470 (0x5be) | Exported Function | 0x0000000180006b20 | 0x00006b20
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::AppendChar(unsigned short) __ptr64` | 1481 (0x5c9) | Exported Function | 0x0000000180006a90 | 0x00006a90
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Empty(void) __ptr64` | 1692 (0x69c) | Exported Function | 0x00000001800069e0 | 0x000069e0
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::FreeExtra(void) __ptr64` | 1744 (0x6d0) | Exported Function | 0x00000001800068e0 | 0x000068e0
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Preallocate(int) __ptr64` | 2076 (0x81c) | Exported Function | 0x00000001800066e0 | 0x000066e0
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::ReleaseBuffer(int) __ptr64` | 2118 (0x846) | Exported Function | 0x0000000180006680 | 0x00006680
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::ReleaseBufferSetLength(int) __ptr64` | 2120 (0x848) | Exported Function | 0x0000000180006000 | 0x00006000
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::SetAt(int,unsigned short) __ptr64` | 2177 (0x881) | Exported Function | 0x0000000180006580 | 0x00006580
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::SetManager(struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 2184 (0x888) | Exported Function | 0x0000000180006520 | 0x00006520
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::SetString(unsigned short const * __ptr64) __ptr64` | 2191 (0x88f) | Exported Function | 0x00000001800064f0 | 0x000064f0
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::SetString(unsigned short const * __ptr64,int) __ptr64` | 2192 (0x890) | Exported Function | 0x0000000180006400 | 0x00006400
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Truncate(int) __ptr64` | 2311 (0x907) | Exported Function | 0x0000000180006610 | 0x00006610
-`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::UnlockBuffer(void) __ptr64` | 2313 (0x909) | Exported Function | 0x0000000180006710 | 0x00006710
-`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::AppendFormat(unsigned short const * __ptr64,...) __ptr64` | 1485 (0x5cd) | Exported Function | 0x00000001800073f0 | 0x000073f0
-`public: class UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::operator=(class UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> > const & __ptr64) __ptr64` | 755 (0x2f3) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: virtual int __cdecl UnBCL::String::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1711 (0x6af) | Exported Function | 0x00000001800562c0 | 0x000562c0
-`public: virtual int __cdecl UnBCL::StreamReader::Read(void) __ptr64` | 2092 (0x82c) | Exported Function | 0x0000000180054e20 | 0x00054e20
-`public: virtual __cdecl UnBCL::XmlSchemaSet::~XmlSchemaSet(void) __ptr64` | 656 (0x290) | Exported Function | 0x0000000180065f80 | 0x00065f80
-`public: virtual __cdecl UnBCL::XPathException::~XPathException(void) __ptr64` | 643 (0x283) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __int64 __cdecl UnBCL::BufferedStream::get_Length(void)const __ptr64` | 2504 (0x9c8) | Exported Function | 0x0000000180021fa0 | 0x00021fa0
-`public: virtual __int64 __cdecl UnBCL::BufferedStream::get_Position(void)const __ptr64` | 2551 (0x9f7) | Exported Function | 0x0000000180022020 | 0x00022020
-`public: virtual __int64 __cdecl UnBCL::BufferedStream::Seek(__int64,enum UnBCL::SeekOrigin) __ptr64` | 2169 (0x879) | Exported Function | 0x00000001800225a0 | 0x000225a0
-`public: virtual __int64 __cdecl UnBCL::FileStream::get_Length(void)const __ptr64` | 2505 (0x9c9) | Exported Function | 0x0000000180037a00 | 0x00037a00
-`public: virtual __int64 __cdecl UnBCL::FileStream::get_Position(void)const __ptr64` | 2552 (0x9f8) | Exported Function | 0x0000000180037b60 | 0x00037b60
-`public: virtual __cdecl UnBCL::XmlNodeList::~XmlNodeList(void) __ptr64` | 654 (0x28e) | Exported Function | 0x0000000180064690 | 0x00064690
-`public: virtual __int64 __cdecl UnBCL::FileStream::Seek(__int64,enum UnBCL::SeekOrigin) __ptr64` | 2170 (0x87a) | Exported Function | 0x00000001800381f0 | 0x000381f0
-`public: virtual __int64 __cdecl UnBCL::MemoryStream::get_Position(void)const __ptr64` | 2553 (0x9f9) | Exported Function | 0x00000001800396d0 | 0x000396d0
-`public: virtual __int64 __cdecl UnBCL::MemoryStream::Seek(__int64,enum UnBCL::SeekOrigin) __ptr64` | 2171 (0x87b) | Exported Function | 0x0000000180039c70 | 0x00039c70
-`public: virtual class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::ToArray(void)const __ptr64` | 2276 (0x8e4) | Exported Function | 0x000000018000b6d0 | 0x0000b6d0
-`public: virtual class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::Encoding::GetBytes(class UnBCL::String const * __ptr64)const __ptr64` | 1783 (0x6f7) | Exported Function | 0x000000018002bf90 | 0x0002bf90
-`public: virtual class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::Encoding::GetBytes(class UnBCL::String const * __ptr64,int,int)const __ptr64` | 1784 (0x6f8) | Exported Function | 0x000000018002c020 | 0x0002c020
-`public: virtual class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::MemoryStream::GetBuffer(void) __ptr64` | 1776 (0x6f0) | Exported Function | 0x0000000180031a90 | 0x00031a90
-`public: virtual class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::MemoryStream::ToArray(void)const __ptr64` | 2277 (0x8e5) | Exported Function | 0x000000018003a2e0 | 0x0003a2e0
-`public: virtual __int64 __cdecl UnBCL::MemoryStream::get_Length(void)const __ptr64` | 2506 (0x9ca) | Exported Function | 0x0000000180039650 | 0x00039650
-`public: virtual __cdecl UnBCL::XmlNode::~XmlNode(void) __ptr64` | 652 (0x28c) | Exported Function | 0x0000000180063220 | 0x00063220
-`public: virtual __cdecl UnBCL::XmlNamespaceManager::~XmlNamespaceManager(void) __ptr64` | 651 (0x28b) | Exported Function | 0x0000000180065c90 | 0x00065c90
-`public: virtual __cdecl UnBCL::XmlLite::XmlNodeList::~XmlNodeList(void) __ptr64` | 655 (0x28f) | Exported Function | 0x000000018005fd30 | 0x0005fd30
-`public: virtual __cdecl UnBCL::TextWriter::~TextWriter(void) __ptr64` | 634 (0x27a) | Exported Function | 0x0000000180055030 | 0x00055030
-`public: virtual __cdecl UnBCL::Thread::~Thread(void) __ptr64` | 635 (0x27b) | Exported Function | 0x000000018005bdf0 | 0x0005bdf0
-`public: virtual __cdecl UnBCL::ThreadStateException::~ThreadStateException(void) __ptr64` | 636 (0x27c) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::TimeSpan::~TimeSpan(void) __ptr64` | 637 (0x27d) | Exported Function | 0x00000001800215b0 | 0x000215b0
-`public: virtual __cdecl UnBCL::Type::~Type(void) __ptr64` | 638 (0x27e) | Exported Function | 0x000000018005cd90 | 0x0005cd90
-`public: virtual __cdecl UnBCL::UnicodeEncoding::~UnicodeEncoding(void) __ptr64` | 639 (0x27f) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::Version::~Version(void) __ptr64` | 640 (0x280) | Exported Function | 0x000000018005e650 | 0x0005e650
-`public: virtual __cdecl UnBCL::WaitHandle::~WaitHandle(void) __ptr64` | 641 (0x281) | Exported Function | 0x000000018005ec60 | 0x0005ec60
-`public: virtual __cdecl UnBCL::Win32Exception::~Win32Exception(void) __ptr64` | 642 (0x282) | Exported Function | 0x0000000180001830 | 0x00001830
-`public: virtual __cdecl UnBCL::XmlAttribute::~XmlAttribute(void) __ptr64` | 644 (0x284) | Exported Function | 0x0000000180060560 | 0x00060560
-`public: virtual __cdecl UnBCL::XmlAttributeCollection::~XmlAttributeCollection(void) __ptr64` | 646 (0x286) | Exported Function | 0x00000001800648e0 | 0x000648e0
-`public: virtual __cdecl UnBCL::XmlDocument::~XmlDocument(void) __ptr64` | 648 (0x288) | Exported Function | 0x0000000180064ec0 | 0x00064ec0
-`public: virtual __cdecl UnBCL::XmlException::~XmlException(void) __ptr64` | 650 (0x28a) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::XmlLite::XmlAttribute::~XmlAttribute(void) __ptr64` | 645 (0x285) | Exported Function | 0x000000018005ff10 | 0x0005ff10
-`public: virtual __cdecl UnBCL::XmlLite::XmlAttributeCollection::~XmlAttributeCollection(void) __ptr64` | 647 (0x287) | Exported Function | 0x0000000180060100 | 0x00060100
-`public: virtual __cdecl UnBCL::XmlLite::XmlDocument::~XmlDocument(void) __ptr64` | 649 (0x289) | Exported Function | 0x0000000180061db0 | 0x00061db0
-`public: virtual __cdecl UnBCL::XmlLite::XmlNode::~XmlNode(void) __ptr64` | 653 (0x28d) | Exported Function | 0x0000000180060c70 | 0x00060c70
-`public: virtual class UnBCL::Array<unsigned short> * __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::ToArray(void)const __ptr64` | 2275 (0x8e3) | Exported Function | 0x0000000180011c90 | 0x00011c90
-`public: virtual class UnBCL::Decoder * __ptr64 __cdecl UnBCL::ASCIIEncoding::GetDecoder(void)const __ptr64` | 1795 (0x703) | Exported Function | 0x0000000180020f90 | 0x00020f90
-`public: virtual class UnBCL::Decoder * __ptr64 __cdecl UnBCL::UnicodeEncoding::GetDecoder(void)const __ptr64` | 1796 (0x704) | Exported Function | 0x000000018005d400 | 0x0005d400
-`public: virtual class UnBCL::Exception const * __ptr64 __cdecl UnBCL::Exception::get_InnerException(void)const __ptr64` | 2439 (0x987) | Exported Function | 0x00000001800140d0 | 0x000140d0
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::String::Clone(void)const __ptr64` | 1554 (0x612) | Exported Function | 0x00000001800563b0 | 0x000563b0
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Version::Clone(void)const __ptr64` | 1555 (0x613) | Exported Function | 0x000000018005e8b0 | 0x0005e8b0
-`public: virtual class UnBCL::Object * __ptr64 const & __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_Item(int)const __ptr64` | 2476 (0x9ac) | Exported Function | 0x000000018000d550 | 0x0000d550
-`public: virtual class UnBCL::Object * __ptr64 const & __ptr64 __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_Item(int)const __ptr64` | 2484 (0x9b4) | Exported Function | 0x0000000180022d50 | 0x00022d50
-`public: virtual class UnBCL::Object * __ptr64 const & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::get_Item(int)const __ptr64` | 2489 (0x9b9) | Exported Function | 0x0000000180053120 | 0x00053120
-`public: virtual class UnBCL::Object * __ptr64 const & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Peek(void)const __ptr64` | 2072 (0x818) | Exported Function | 0x0000000180053270 | 0x00053270
-`public: virtual class UnBCL::Object * __ptr64 const * __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::GetBuffer(int)const __ptr64` | 1767 (0x6e7) | Exported Function | 0x000000018000d9d0 | 0x0000d9d0
-`public: virtual class UnBCL::String * __ptr64 & __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_Item(int) __ptr64` | 2477 (0x9ad) | Exported Function | 0x000000018000d550 | 0x0000d550
-`public: virtual class UnBCL::String * __ptr64 & __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_Item(int) __ptr64` | 2481 (0x9b1) | Exported Function | 0x000000018000aa80 | 0x0000aa80
-`public: virtual class UnBCL::String * __ptr64 * __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::GetBuffer(int) __ptr64` | 1768 (0x6e8) | Exported Function | 0x000000018000d9d0 | 0x0000d9d0
-`public: virtual class UnBCL::String * __ptr64 * __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::GetBuffer(int) __ptr64` | 1772 (0x6ec) | Exported Function | 0x000000018000c160 | 0x0000c160
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::GetValue(int)const __ptr64` | 1889 (0x761) | Exported Function | 0x000000018000ff40 | 0x0000ff40
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::DateTime::ToString(void)const __ptr64` | 2285 (0x8ed) | Exported Function | 0x00000001800237d0 | 0x000237d0
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Encoding::GetString(class UnBCL::Array<unsigned char> const * __ptr64)const __ptr64` | 1860 (0x744) | Exported Function | 0x000000018002c1b0 | 0x0002c1b0
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Encoding::GetString(class UnBCL::Array<unsigned char> const * __ptr64,int,int)const __ptr64` | 1861 (0x745) | Exported Function | 0x000000018002c270 | 0x0002c270
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Exception::ToString(void)const __ptr64` | 2286 (0x8ee) | Exported Function | 0x0000000180034540 | 0x00034540
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::FileSystemEnumerator::get_Current(void)const __ptr64` | 2420 (0x974) | Exported Function | 0x0000000180036de0 | 0x00036de0
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Stack<int>::Clone(void)const __ptr64` | 1549 (0x60d) | Exported Function | 0x0000000180053a40 | 0x00053a40
-`public: virtual __cdecl UnBCL::TextReader::~TextReader(void) __ptr64` | 633 (0x279) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Pop(void) __ptr64` | 2075 (0x81b) | Exported Function | 0x0000000180053330 | 0x00053330
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::OperatingSystem::Clone(void)const __ptr64` | 1553 (0x611) | Exported Function | 0x0000000180042440 | 0x00042440
-`public: virtual class UnBCL::Exception const * __ptr64 __cdecl UnBCL::Exception::GetBaseException(void)const __ptr64` | 1757 (0x6dd) | Exported Function | 0x0000000180034b30 | 0x00034b30
-`public: virtual class UnBCL::Object * __ptr64 & __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_Item(int) __ptr64` | 2475 (0x9ab) | Exported Function | 0x000000018000d550 | 0x0000d550
-`public: virtual class UnBCL::Object * __ptr64 & __ptr64 __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_Item(int) __ptr64` | 2483 (0x9b3) | Exported Function | 0x0000000180022d50 | 0x00022d50
-`public: virtual class UnBCL::Object * __ptr64 & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::get_Item(int) __ptr64` | 2488 (0x9b8) | Exported Function | 0x0000000180053120 | 0x00053120
-`public: virtual class UnBCL::Object * __ptr64 & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Peek(void) __ptr64` | 2071 (0x817) | Exported Function | 0x00000001800531b0 | 0x000531b0
-`public: virtual class UnBCL::Object * __ptr64 * __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::GetBuffer(int) __ptr64` | 1766 (0x6e6) | Exported Function | 0x000000018000d9d0 | 0x0000d9d0
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Clone(void)const __ptr64` | 1544 (0x608) | Exported Function | 0x0000000180013ba0 | 0x00013ba0
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::GetValue(int)const __ptr64` | 1888 (0x760) | Exported Function | 0x000000018000ff40 | 0x0000ff40
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Clone(void)const __ptr64` | 1545 (0x609) | Exported Function | 0x000000018000fcd0 | 0x0000fcd0
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Array<int>::Clone(void)const __ptr64` | 1543 (0x607) | Exported Function | 0x0000000180014df0 | 0x00014df0
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Array<unsigned char>::Clone(void)const __ptr64` | 1541 (0x605) | Exported Function | 0x000000018000d4d0 | 0x0000d4d0
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Array<unsigned short>::Clone(void)const __ptr64` | 1542 (0x606) | Exported Function | 0x000000018000e9f0 | 0x0000e9f0
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Clone(void)const __ptr64` | 1547 (0x60b) | Exported Function | 0x000000018000a940 | 0x0000a940
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::Clone(void)const __ptr64` | 1546 (0x60a) | Exported Function | 0x0000000180011150 | 0x00011150
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Clone(void)const __ptr64` | 1548 (0x60c) | Exported Function | 0x0000000180030310 | 0x00030310
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::MultiSz::Clone(void)const __ptr64` | 1551 (0x60f) | Exported Function | 0x000000018003c200 | 0x0003c200
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Object::Clone(void)const __ptr64` | 1552 (0x610) | Exported Function | 0x0000000180041820 | 0x00041820
-`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Clone(void)const __ptr64` | 1550 (0x60e) | Exported Function | 0x00000001800530b0 | 0x000530b0
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::FileSystemEnumerator::get_CurrentFileName(void)const __ptr64` | 2422 (0x976) | Exported Function | 0x0000000180036e60 | 0x00036e60
-`public: virtual __cdecl UnBCL::SystemInfo::~SystemInfo(void) __ptr64` | 632 (0x278) | Exported Function | 0x000000018002d0c0 | 0x0002d0c0
-`public: virtual __cdecl UnBCL::SyncObject::~SyncObject(void) __ptr64` | 630 (0x276) | Exported Function | 0x0000000180041aa0 | 0x00041aa0
-`public: virtual __cdecl UnBCL::IndexOutOfRangeException::~IndexOutOfRangeException(void) __ptr64` | 596 (0x254) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::InvalidCastException::~InvalidCastException(void) __ptr64` | 597 (0x255) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::InvalidOperationException::~InvalidOperationException(void) __ptr64` | 598 (0x256) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::IPoolable::~IPoolable(void) __ptr64` | 594 (0x252) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::ISerializable::~ISerializable(void) __ptr64` | 595 (0x253) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::MemoryStream::~MemoryStream(void) __ptr64` | 599 (0x257) | Exported Function | 0x0000000180039580 | 0x00039580
-`public: virtual __cdecl UnBCL::MultiSz::~MultiSz(void) __ptr64` | 601 (0x259) | Exported Function | 0x000000018003b8f0 | 0x0003b8f0
-`public: virtual __cdecl UnBCL::IList<unsigned short>::~IList<unsigned short>(void) __ptr64` | 535 (0x217) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::MutableString::~MutableString(void) __ptr64` | 602 (0x25a) | Exported Function | 0x0000000180002d40 | 0x00002d40
-`public: virtual __cdecl UnBCL::NotSupportedException::~NotSupportedException(void) __ptr64` | 604 (0x25c) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::Object::~Object(void) __ptr64` | 605 (0x25d) | Exported Function | 0x0000000180041630 | 0x00041630
-`public: virtual __cdecl UnBCL::ObjectDisposedException::~ObjectDisposedException(void) __ptr64` | 606 (0x25e) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::OperatingSystem::~OperatingSystem(void) __ptr64` | 607 (0x25f) | Exported Function | 0x000000018002cd80 | 0x0002cd80
-`public: virtual __cdecl UnBCL::OutOfMemoryException::~OutOfMemoryException(void) __ptr64` | 608 (0x260) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::OverflowException::~OverflowException(void) __ptr64` | 609 (0x261) | Exported Function | 0x0000000180001830 | 0x00001830
-`public: virtual __cdecl UnBCL::PathTooLongException::~PathTooLongException(void) __ptr64` | 610 (0x262) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::Mutex::~Mutex(void) __ptr64` | 603 (0x25b) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::IList<unsigned char>::~IList<unsigned char>(void) __ptr64` | 534 (0x216) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::IList<int>::~IList<int>(void) __ptr64` | 536 (0x218) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::IList<class UnBCL::String * __ptr64>::~IList<class UnBCL::String * __ptr64>(void) __ptr64` | 538 (0x21a) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::FileStream::~FileStream(void) __ptr64` | 589 (0x24d) | Exported Function | 0x0000000180037980 | 0x00037980
-`public: virtual __cdecl UnBCL::FileSystemEnumerator::~FileSystemEnumerator(void) __ptr64` | 590 (0x24e) | Exported Function | 0x0000000180036d40 | 0x00036d40
-`public: virtual __cdecl UnBCL::FormatException::~FormatException(void) __ptr64` | 591 (0x24f) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::~Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(void) __ptr64` | 523 (0x20b) | Exported Function | 0x00000001800301e0 | 0x000301e0
-`public: virtual __cdecl UnBCL::HeapMemoryManager::~HeapMemoryManager(void) __ptr64` | 592 (0x250) | Exported Function | 0x0000000180038960 | 0x00038960
-`public: virtual __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::~ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >(void) __ptr64` | 529 (0x211) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::ICollection<class UnBCL::Object * __ptr64>::~ICollection<class UnBCL::Object * __ptr64>(void) __ptr64` | 527 (0x20f) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::ICollection<class UnBCL::String * __ptr64>::~ICollection<class UnBCL::String * __ptr64>(void) __ptr64` | 528 (0x210) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::ICollection<int>::~ICollection<int>(void) __ptr64` | 526 (0x20e) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::ICollection<unsigned char>::~ICollection<unsigned char>(void) __ptr64` | 524 (0x20c) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::ICollection<unsigned short>::~ICollection<unsigned short>(void) __ptr64` | 525 (0x20d) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::IComparer<class UnBCL::String * __ptr64>::~IComparer<class UnBCL::String * __ptr64>(void) __ptr64` | 530 (0x212) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::~IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(void) __ptr64` | 531 (0x213) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::IDisposable::~IDisposable(void) __ptr64` | 593 (0x251) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::IEnumerator<class UnBCL::String * __ptr64>::~IEnumerator<class UnBCL::String * __ptr64>(void) __ptr64` | 532 (0x214) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::IEnumerator<unsigned short const * __ptr64>::~IEnumerator<unsigned short const * __ptr64>(void) __ptr64` | 533 (0x215) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::IList<class UnBCL::Object * __ptr64>::~IList<class UnBCL::Object * __ptr64>(void) __ptr64` | 537 (0x219) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::Process::~Process(void) __ptr64` | 611 (0x263) | Exported Function | 0x0000000180045640 | 0x00045640
-`public: virtual __cdecl UnBCL::ProcessStartInfo::~ProcessStartInfo(void) __ptr64` | 612 (0x264) | Exported Function | 0x0000000180045220 | 0x00045220
-`public: virtual __cdecl UnBCL::RegHandle::~RegHandle(void) __ptr64` | 613 (0x265) | Exported Function | 0x00000001800461c0 | 0x000461c0
-`public: virtual __cdecl UnBCL::Registry::~Registry(void) __ptr64` | 615 (0x267) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::~SmartPtr<class UnBCL::Decoder>(void) __ptr64` | 561 (0x231) | Exported Function | 0x00000001800076d0 | 0x000076d0
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::~SmartPtr<class UnBCL::Encoding>(void) __ptr64` | 562 (0x232) | Exported Function | 0x00000001800078e0 | 0x000078e0
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Object>::~SmartPtr<class UnBCL::Object>(void) __ptr64` | 563 (0x233) | Exported Function | 0x0000000180001cc0 | 0x00001cc0
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::~SmartPtr<class UnBCL::SerializationId>(void) __ptr64` | 564 (0x234) | Exported Function | 0x0000000180007a80 | 0x00007a80
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::~SmartPtr<class UnBCL::SerializationStream>(void) __ptr64` | 565 (0x235) | Exported Function | 0x0000000180007b50 | 0x00007b50
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::~SmartPtr<class UnBCL::Stream>(void) __ptr64` | 566 (0x236) | Exported Function | 0x00000001800079b0 | 0x000079b0
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::String>::~SmartPtr<class UnBCL::String>(void) __ptr64` | 567 (0x237) | Exported Function | 0x000000018000ef60 | 0x0000ef60
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Version>::~SmartPtr<class UnBCL::Version>(void) __ptr64` | 568 (0x238) | Exported Function | 0x00000001800315e0 | 0x000315e0
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::~SmartPtr<class UnBCL::XmlNamespaceManager>(void) __ptr64` | 569 (0x239) | Exported Function | 0x0000000180068a70 | 0x00068a70
-`public: virtual __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::~Stack<class UnBCL::Object * __ptr64>(void) __ptr64` | 571 (0x23b) | Exported Function | 0x0000000180052ff0 | 0x00052ff0
-`public: virtual __cdecl UnBCL::Stack<int>::~Stack<int>(void) __ptr64` | 570 (0x23a) | Exported Function | 0x0000000180053930 | 0x00053930
-`public: virtual __cdecl UnBCL::Stream::~Stream(void) __ptr64` | 623 (0x26f) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::StreamReader::~StreamReader(void) __ptr64` | 625 (0x271) | Exported Function | 0x0000000180054b50 | 0x00054b50
-`public: virtual __cdecl UnBCL::StreamWriter::~StreamWriter(void) __ptr64` | 626 (0x272) | Exported Function | 0x00000001800559e0 | 0x000559e0
-`public: virtual __cdecl UnBCL::String::~String(void) __ptr64` | 627 (0x273) | Exported Function | 0x0000000180056250 | 0x00056250
-`public: virtual __cdecl UnBCL::StringBuilder::~StringBuilder(void) __ptr64` | 628 (0x274) | Exported Function | 0x000000018005a7a0 | 0x0005a7a0
-`public: virtual __cdecl UnBCL::StringPtr::~StringPtr(void) __ptr64` | 629 (0x275) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::~SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >(void) __ptr64` | 560 (0x230) | Exported Function | 0x0000000180013450 | 0x00013450
-`public: virtual __cdecl UnBCL::SystemException::~SystemException(void) __ptr64` | 631 (0x277) | Exported Function | 0x00000001800015a0 | 0x000015a0
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::~SmartPtr<class UnBCL::Array<unsigned char> >(void) __ptr64` | 558 (0x22e) | Exported Function | 0x0000000180015de0 | 0x00015de0
-`public: virtual __cdecl UnBCL::SerializationStream::~SerializationStream(void) __ptr64` | 622 (0x26e) | Exported Function | 0x000000018004a530 | 0x0004a530
-`public: virtual __cdecl UnBCL::RegistryKey::~RegistryKey(void) __ptr64` | 616 (0x268) | Exported Function | 0x0000000180046c90 | 0x00046c90
-`public: virtual __cdecl UnBCL::RegSubkeyEnumerator::~RegSubkeyEnumerator(void) __ptr64` | 614 (0x266) | Exported Function | 0x0000000180049880 | 0x00049880
-`public: virtual __cdecl UnBCL::SecurityException::~SecurityException(void) __ptr64` | 619 (0x26b) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::SEHException::~SEHException(void) __ptr64` | 617 (0x269) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::~SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >(void) __ptr64` | 548 (0x224) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::~SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >(void) __ptr64` | 547 (0x223) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::~SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >(void) __ptr64` | 545 (0x221) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::~SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >(void) __ptr64` | 546 (0x222) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::~SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >(void) __ptr64` | 550 (0x226) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::~SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >(void) __ptr64` | 549 (0x225) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::~SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >(void) __ptr64` | 551 (0x227) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::~SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >(void) __ptr64` | 553 (0x229) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::~SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >(void) __ptr64` | 554 (0x22a) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::~SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >(void) __ptr64` | 552 (0x228) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::~SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >(void) __ptr64` | 555 (0x22b) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`public: virtual __cdecl UnBCL::SerializationException::~SerializationException(void) __ptr64` | 620 (0x26c) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`public: virtual __cdecl UnBCL::SerializationId::~SerializationId(void) __ptr64` | 621 (0x26d) | Exported Function | 0x000000018004c7d0 | 0x0004c7d0
-`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::~SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >(void) __ptr64` | 559 (0x22f) | Exported Function | 0x0000000180015eb0 | 0x00015eb0
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_Item(class UnBCL::String * __ptr64)const __ptr64` | 2485 (0x9b5) | Exported Function | 0x0000000180030380 | 0x00030380
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::MultiSz::ToString(void)const __ptr64` | 2289 (0x8f1) | Exported Function | 0x000000018003c1e0 | 0x0003c1e0
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Object::ToString(void)const __ptr64` | 2290 (0x8f2) | Exported Function | 0x0000000180041710 | 0x00041710
-`public: virtual int __cdecl UnBCL::ASCIIEncoding::GetByteCount(class UnBCL::String const * __ptr64,int,int)const __ptr64` | 1779 (0x6f3) | Exported Function | 0x0000000180020bb0 | 0x00020bb0
-`public: virtual int __cdecl UnBCL::ASCIIEncoding::GetBytes(class UnBCL::String const * __ptr64,int,int,class UnBCL::Array<unsigned char> * __ptr64,int)const __ptr64` | 1782 (0x6f6) | Exported Function | 0x0000000180020c90 | 0x00020c90
-`public: virtual int __cdecl UnBCL::ASCIIEncoding::GetCharCount(class UnBCL::Array<unsigned char> const * __ptr64,int,int)const __ptr64` | 1787 (0x6fb) | Exported Function | 0x0000000180020f40 | 0x00020f40
-`public: virtual int __cdecl UnBCL::ASCIIEncoding::GetChars(class UnBCL::Array<unsigned char> const * __ptr64,int,int,class UnBCL::Array<unsigned short> * __ptr64,int)const __ptr64` | 1789 (0x6fd) | Exported Function | 0x0000000180020f60 | 0x00020f60
-`public: virtual int __cdecl UnBCL::ASCIIEncoding::GetMaxByteCount(int)const __ptr64` | 1841 (0x731) | Exported Function | 0x0000000180020b40 | 0x00020b40
-`public: virtual int __cdecl UnBCL::BufferedStream::get_CanWrite(void)const __ptr64` | 2391 (0x957) | Exported Function | 0x0000000180022170 | 0x00022170
-`public: virtual int __cdecl UnBCL::BufferedStream::Read(unsigned char * __ptr64,int,int) __ptr64` | 2089 (0x829) | Exported Function | 0x00000001800221b0 | 0x000221b0
-`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::LastIndexOf(unsigned short,int,int)const __ptr64` | 2000 (0x7d0) | Exported Function | 0x0000000180011d70 | 0x00011d70
-`public: virtual int __cdecl UnBCL::Char::CompareTo(class UnBCL::Object const * __ptr64)const __ptr64` | 1578 (0x62a) | Exported Function | 0x0000000180022970 | 0x00022970
-`public: virtual int __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::Contains(class UnBCL::Object * __ptr64 const)const __ptr64` | 1601 (0x641) | Exported Function | 0x0000000180022e10 | 0x00022e10
-`public: virtual int __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_Count(void)const __ptr64` | 2411 (0x96b) | Exported Function | 0x0000000180022f00 | 0x00022f00
-`public: virtual int __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_IsFixedSize(void)const __ptr64` | 2454 (0x996) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_IsReadOnly(void)const __ptr64` | 2465 (0x9a1) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::IndexOf(class UnBCL::Object * __ptr64)const __ptr64` | 1925 (0x785) | Exported Function | 0x0000000180022e40 | 0x00022e40
-`public: virtual int __cdecl UnBCL::DateTime::CompareTo(class UnBCL::Object const * __ptr64)const __ptr64` | 1580 (0x62c) | Exported Function | 0x0000000180023910 | 0x00023910
-`public: virtual int __cdecl UnBCL::DateTime::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1707 (0x6ab) | Exported Function | 0x0000000180023760 | 0x00023760
-`public: virtual int __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::Add(class UnBCL::Object * __ptr64) __ptr64` | 1448 (0x5a8) | Exported Function | 0x0000000180022db0 | 0x00022db0
-`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::IndexOf(unsigned short,int,int)const __ptr64` | 1921 (0x781) | Exported Function | 0x00000001800115b0 | 0x000115b0
-`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::IndexOf(unsigned short)const __ptr64` | 1920 (0x780) | Exported Function | 0x00000001800116b0 | 0x000116b0
-`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::get_IsReadOnly(void)const __ptr64` | 2463 (0x99f) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1706 (0x6aa) | Exported Function | 0x000000018000a7e0 | 0x0000a7e0
-`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_AutoDelete(void)const __ptr64` | 2380 (0x94c) | Exported Function | 0x000000018000b6b0 | 0x0000b6b0
-`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_Capacity(void)const __ptr64` | 2395 (0x95b) | Exported Function | 0x000000018000b620 | 0x0000b620
-`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_Count(void)const __ptr64` | 2410 (0x96a) | Exported Function | 0x000000018000b2b0 | 0x0000b2b0
-`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_IsFixedSize(void)const __ptr64` | 2453 (0x995) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_IsReadOnly(void)const __ptr64` | 2464 (0x9a0) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::IndexOf(class UnBCL::String * __ptr64)const __ptr64` | 1923 (0x783) | Exported Function | 0x000000018000af50 | 0x0000af50
-`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::IndexOf(class UnBCL::String * __ptr64,int,int)const __ptr64` | 1924 (0x784) | Exported Function | 0x000000018000ae20 | 0x0000ae20
-`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::LastIndexOf(class UnBCL::String * __ptr64,int,int)const __ptr64` | 2002 (0x7d2) | Exported Function | 0x000000018000b7b0 | 0x0000b7b0
-`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::Add(unsigned short) __ptr64` | 1446 (0x5a6) | Exported Function | 0x0000000180011430 | 0x00011430
-`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::BinarySearch(unsigned short,struct UnBCL::IComparer<unsigned short> * __ptr64) __ptr64` | 1520 (0x5f0) | Exported Function | 0x00000001800125b0 | 0x000125b0
-`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::Contains(unsigned short)const __ptr64` | 1599 (0x63f) | Exported Function | 0x000000018000ad60 | 0x0000ad60
-`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1705 (0x6a9) | Exported Function | 0x0000000180011010 | 0x00011010
-`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::get_AutoDelete(void)const __ptr64` | 2379 (0x94b) | Exported Function | 0x000000018000b6b0 | 0x0000b6b0
-`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::get_Capacity(void)const __ptr64` | 2394 (0x95a) | Exported Function | 0x000000018000b620 | 0x0000b620
-`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::get_Count(void)const __ptr64` | 2409 (0x969) | Exported Function | 0x000000018000b2b0 | 0x0000b2b0
-`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::get_IsFixedSize(void)const __ptr64` | 2452 (0x994) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::DateTime::GetHashCode(void)const __ptr64` | 1826 (0x722) | Exported Function | 0x00000001800237c0 | 0x000237c0
-`public: virtual int __cdecl UnBCL::Encoding::get_CodePage(void)const __ptr64` | 2401 (0x961) | Exported Function | 0x00000001800237c0 | 0x000237c0
-`public: virtual int __cdecl UnBCL::Encoding::GetByteCount(class UnBCL::String const * __ptr64)const __ptr64` | 1780 (0x6f4) | Exported Function | 0x000000018002bf00 | 0x0002bf00
-`public: virtual int __cdecl UnBCL::FileStream::get_CanWrite(void)const __ptr64` | 2392 (0x958) | Exported Function | 0x0000000180037dd0 | 0x00037dd0
-`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::GetVersionId(void)const __ptr64` | 1894 (0x766) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::GetVersionId(void)const __ptr64` | 1898 (0x76a) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::GetVersionId(void)const __ptr64` | 1897 (0x769) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::GetVersionId(void)const __ptr64` | 1899 (0x76b) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::GetVersionId(void)const __ptr64` | 1901 (0x76d) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::GetVersionId(void)const __ptr64` | 1902 (0x76e) | Exported Function | 0x000000018000d540 | 0x0000d540
-`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::GetVersionId(void)const __ptr64` | 1900 (0x76c) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::GetVersionId(void)const __ptr64` | 1903 (0x76f) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::SerializationId::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1710 (0x6ae) | Exported Function | 0x000000018004c830 | 0x0004c830
-`public: virtual int __cdecl UnBCL::SerializationId::GetHashCode(void)const __ptr64` | 1828 (0x724) | Exported Function | 0x000000018004c890 | 0x0004c890
-`public: virtual int __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Contains(class UnBCL::Object * __ptr64)const __ptr64` | 1604 (0x644) | Exported Function | 0x0000000180053180 | 0x00053180
-`public: virtual int __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::get_Count(void)const __ptr64` | 2414 (0x96e) | Exported Function | 0x000000018000d870 | 0x0000d870
-`public: virtual int __cdecl UnBCL::Stack<int>::Contains(int)const __ptr64` | 1603 (0x643) | Exported Function | 0x0000000180053180 | 0x00053180
-`public: virtual int __cdecl UnBCL::Stack<int>::get_Count(void)const __ptr64` | 2413 (0x96d) | Exported Function | 0x000000018000d870 | 0x0000d870
-`public: virtual int __cdecl UnBCL::Stack<int>::Pop(void) __ptr64` | 2074 (0x81a) | Exported Function | 0x0000000180053c30 | 0x00053c30
-`public: virtual int __cdecl UnBCL::Stream::ReadByte(void) __ptr64` | 2093 (0x82d) | Exported Function | 0x0000000180054220 | 0x00054220
-`public: virtual int __cdecl UnBCL::StreamReader::Peek(void) __ptr64` | 2073 (0x819) | Exported Function | 0x0000000180054c20 | 0x00054c20
-`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::GetVersionId(void)const __ptr64` | 1893 (0x765) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Contains(class UnBCL::String * __ptr64 const)const __ptr64` | 1600 (0x640) | Exported Function | 0x000000018000ad60 | 0x0000ad60
-`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::GetVersionId(void)const __ptr64` | 1895 (0x767) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::RegSubkeyEnumerator::MoveNext(void) __ptr64` | 2049 (0x801) | Exported Function | 0x0000000180049a30 | 0x00049a30
-`public: virtual int __cdecl UnBCL::FileStream::Read(unsigned char * __ptr64,int,int) __ptr64` | 2090 (0x82a) | Exported Function | 0x0000000180037df0 | 0x00037df0
-`public: virtual int __cdecl UnBCL::FileSystemEnumerator::MoveNext(void) __ptr64` | 2048 (0x800) | Exported Function | 0x0000000180037060 | 0x00037060
-`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Contains(class UnBCL::String * __ptr64)const __ptr64` | 1602 (0x642) | Exported Function | 0x00000001800307f0 | 0x000307f0
-`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::ContainsKey(class UnBCL::String * __ptr64)const __ptr64` | 1607 (0x647) | Exported Function | 0x0000000180030ab0 | 0x00030ab0
-`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::ContainsValue(class UnBCL::String * __ptr64)const __ptr64` | 1608 (0x648) | Exported Function | 0x0000000180030b50 | 0x00030b50
-`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_AutoDeleteKey(void)const __ptr64` | 2381 (0x94d) | Exported Function | 0x00000001800237c0 | 0x000237c0
-`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_AutoDeleteValue(void)const __ptr64` | 2382 (0x94e) | Exported Function | 0x0000000180030a90 | 0x00030a90
-`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_Count(void)const __ptr64` | 2412 (0x96c) | Exported Function | 0x0000000180030a10 | 0x00030a10
-`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_IsFixedSize(void)const __ptr64` | 2455 (0x997) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_IsReadOnly(void)const __ptr64` | 2466 (0x9a2) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Retrieve(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64 & __ptr64)const __ptr64` | 2154 (0x86a) | Exported Function | 0x0000000180030c80 | 0x00030c80
-`public: virtual int __cdecl UnBCL::MemoryStream::get_CanWrite(void)const __ptr64` | 2393 (0x959) | Exported Function | 0x0000000180039880 | 0x00039880
-`public: virtual int __cdecl UnBCL::MemoryStream::get_Capacity(void)const __ptr64` | 2396 (0x95c) | Exported Function | 0x0000000180039f40 | 0x00039f40
-`public: virtual int __cdecl UnBCL::MemoryStream::Read(unsigned char * __ptr64,int,int) __ptr64` | 2091 (0x82b) | Exported Function | 0x00000001800398a0 | 0x000398a0
-`public: virtual int __cdecl UnBCL::Object::CompareTo(class UnBCL::Object const * __ptr64)const __ptr64` | 1581 (0x62d) | Exported Function | 0x00000001800417c0 | 0x000417c0
-`public: virtual int __cdecl UnBCL::Object::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1709 (0x6ad) | Exported Function | 0x0000000180041650 | 0x00041650
-`public: virtual int __cdecl UnBCL::Object::GetHashCode(void)const __ptr64` | 1827 (0x723) | Exported Function | 0x0000000180041660 | 0x00041660
-`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::GetVersionId(void)const __ptr64` | 1896 (0x768) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::BinarySearch(class UnBCL::String * __ptr64,struct UnBCL::IComparer<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 1523 (0x5f3) | Exported Function | 0x000000018000c010 | 0x0000c010
-`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Add(class UnBCL::String * __ptr64) __ptr64` | 1447 (0x5a7) | Exported Function | 0x000000018000ac60 | 0x0000ac60
-`public: virtual int __cdecl UnBCL::Array<unsigned short>::IndexOf(unsigned short)const __ptr64` | 1912 (0x778) | Exported Function | 0x000000018000d720 | 0x0000d720
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::GetTypeName(void)const __ptr64` | 1883 (0x75b) | Exported Function | 0x00000001800313f0 | 0x000313f0
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::TextWriter::get_NewLine(void)const __ptr64` | 2525 (0x9dd) | Exported Function | 0x0000000180045e80 | 0x00045e80
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::Type::get_FullName(void)const __ptr64` | 2434 (0x982) | Exported Function | 0x00000001800140d0 | 0x000140d0
-`public: virtual class UnBCL::Type * __ptr64 __cdecl UnBCL::Object::GetType(void)const __ptr64` | 1872 (0x750) | Exported Function | 0x0000000180041670 | 0x00041670
-`public: virtual enum tagLOGRESULT __cdecl UnBCL::ConsoleLogHandler::LogW(unsigned long,char const * __ptr64,unsigned long,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 2021 (0x7e5) | Exported Function | 0x0000000180023470 | 0x00023470
-`public: virtual int & __ptr64 __cdecl UnBCL::Array<int>::get_Item(int) __ptr64` | 2473 (0x9a9) | Exported Function | 0x000000018000d550 | 0x0000d550
-`public: virtual int & __ptr64 __cdecl UnBCL::Stack<int>::get_Item(int) __ptr64` | 2486 (0x9b6) | Exported Function | 0x0000000180053120 | 0x00053120
-`public: virtual int & __ptr64 __cdecl UnBCL::Stack<int>::Peek(void) __ptr64` | 2069 (0x815) | Exported Function | 0x0000000180053ab0 | 0x00053ab0
-`public: virtual int * __ptr64 __cdecl UnBCL::Array<int>::GetBuffer(int) __ptr64` | 1764 (0x6e4) | Exported Function | 0x000000018000d9d0 | 0x0000d9d0
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Add(class UnBCL::Object * __ptr64) __ptr64` | 1444 (0x5a4) | Exported Function | 0x0000000180013c10 | 0x00013c10
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Contains(class UnBCL::Object * __ptr64 const)const __ptr64` | 1597 (0x63d) | Exported Function | 0x000000018000d670 | 0x0000d670
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1703 (0x6a7) | Exported Function | 0x0000000180013b20 | 0x00013b20
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_AutoDelete(void)const __ptr64` | 2377 (0x949) | Exported Function | 0x000000018000d930 | 0x0000d930
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_Count(void)const __ptr64` | 2407 (0x967) | Exported Function | 0x000000018000d870 | 0x0000d870
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_IsFixedSize(void)const __ptr64` | 2450 (0x992) | Exported Function | 0x000000018000d540 | 0x0000d540
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_IsReadOnly(void)const __ptr64` | 2461 (0x99d) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_Length(void)const __ptr64` | 2502 (0x9c6) | Exported Function | 0x000000018000d900 | 0x0000d900
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::GetTypeName(void)const __ptr64` | 1880 (0x758) | Exported Function | 0x0000000180053db0 | 0x00053db0
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_Rank(void)const __ptr64` | 2567 (0xa07) | Exported Function | 0x000000018000d540 | 0x0000d540
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::GetTypeName(void)const __ptr64` | 1882 (0x75a) | Exported Function | 0x0000000180031750 | 0x00031750
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::GetTypeName(void)const __ptr64` | 1879 (0x757) | Exported Function | 0x0000000180031290 | 0x00031290
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::String::ToString(void)const __ptr64` | 2291 (0x8f3) | Exported Function | 0x0000000180056360 | 0x00056360
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::StringBuilder::ToString(void)const __ptr64` | 2292 (0x8f4) | Exported Function | 0x000000018005a850 | 0x0005a850
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::TextReader::ReadLine(void) __ptr64` | 2096 (0x830) | Exported Function | 0x000000018005b5d0 | 0x0005b5d0
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Type::ToString(void)const __ptr64` | 2293 (0x8f5) | Exported Function | 0x000000018005cdf0 | 0x0005cdf0
-`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Version::ToString(void)const __ptr64` | 2294 (0x8f6) | Exported Function | 0x000000018005e7b0 | 0x0005e7b0
-`public: virtual class UnBCL::String * __ptr64 const & __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_Item(int)const __ptr64` | 2478 (0x9ae) | Exported Function | 0x000000018000d550 | 0x0000d550
-`public: virtual class UnBCL::String * __ptr64 const & __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_Item(int)const __ptr64` | 2482 (0x9b2) | Exported Function | 0x000000018000a9c0 | 0x0000a9c0
-`public: virtual class UnBCL::String * __ptr64 const * __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::GetBuffer(int)const __ptr64` | 1769 (0x6e9) | Exported Function | 0x000000018000d9d0 | 0x0000d9d0
-`public: virtual class UnBCL::String * __ptr64 const * __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::GetBuffer(int)const __ptr64` | 1773 (0x6ed) | Exported Function | 0x000000018000c0a0 | 0x0000c0a0
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::Exception::get_Message(void)const __ptr64` | 2513 (0x9d1) | Exported Function | 0x0000000180031a90 | 0x00031a90
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::Exception::get_Source(void)const __ptr64` | 2572 (0xa0c) | Exported Function | 0x00000001800348f0 | 0x000348f0
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::GetTypeName(void)const __ptr64` | 1876 (0x754) | Exported Function | 0x0000000180015bf0 | 0x00015bf0
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::GetTypeName(void)const __ptr64` | 1875 (0x753) | Exported Function | 0x0000000180015470 | 0x00015470
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::GetTypeName(void)const __ptr64` | 1873 (0x751) | Exported Function | 0x00000001800156f0 | 0x000156f0
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::GetTypeName(void)const __ptr64` | 1874 (0x752) | Exported Function | 0x0000000180015970 | 0x00015970
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::GetTypeName(void)const __ptr64` | 1878 (0x756) | Exported Function | 0x0000000180013260 | 0x00013260
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::GetTypeName(void)const __ptr64` | 1877 (0x755) | Exported Function | 0x0000000180012f00 | 0x00012f00
-`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::GetTypeName(void)const __ptr64` | 1881 (0x759) | Exported Function | 0x000000018003c960 | 0x0003c960
-`public: virtual int __cdecl UnBCL::String::CompareTo(class UnBCL::Object const * __ptr64)const __ptr64` | 1584 (0x630) | Exported Function | 0x00000001800563d0 | 0x000563d0
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::IndexOf(class UnBCL::Object * __ptr64)const __ptr64` | 1916 (0x77c) | Exported Function | 0x000000018000d720 | 0x0000d720
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Contains(class UnBCL::String * __ptr64 const)const __ptr64` | 1598 (0x63e) | Exported Function | 0x000000018000d670 | 0x0000d670
-`public: virtual int __cdecl UnBCL::Array<unsigned char>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1700 (0x6a4) | Exported Function | 0x000000018000d450 | 0x0000d450
-`public: virtual int __cdecl UnBCL::Array<unsigned char>::get_AutoDelete(void)const __ptr64` | 2374 (0x946) | Exported Function | 0x000000018000d930 | 0x0000d930
-`public: virtual int __cdecl UnBCL::Array<unsigned char>::get_Count(void)const __ptr64` | 2404 (0x964) | Exported Function | 0x000000018000d870 | 0x0000d870
-`public: virtual int __cdecl UnBCL::Array<unsigned char>::get_IsFixedSize(void)const __ptr64` | 2447 (0x98f) | Exported Function | 0x000000018000d540 | 0x0000d540
-`public: virtual int __cdecl UnBCL::Array<unsigned char>::get_IsReadOnly(void)const __ptr64` | 2458 (0x99a) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::Array<unsigned char>::get_Length(void)const __ptr64` | 2499 (0x9c3) | Exported Function | 0x000000018000d900 | 0x0000d900
-`public: virtual int __cdecl UnBCL::Array<unsigned char>::get_Rank(void)const __ptr64` | 2564 (0xa04) | Exported Function | 0x000000018000d540 | 0x0000d540
-`public: virtual int __cdecl UnBCL::Array<unsigned char>::IndexOf(unsigned char)const __ptr64` | 1910 (0x776) | Exported Function | 0x000000018000d720 | 0x0000d720
-`public: virtual int __cdecl UnBCL::Array<unsigned short>::Add(unsigned short) __ptr64` | 1442 (0x5a2) | Exported Function | 0x000000018000ea60 | 0x0000ea60
-`public: virtual int __cdecl UnBCL::Array<unsigned short>::Contains(unsigned short)const __ptr64` | 1595 (0x63b) | Exported Function | 0x000000018000d670 | 0x0000d670
-`public: virtual int __cdecl UnBCL::Array<unsigned short>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1701 (0x6a5) | Exported Function | 0x000000018000e970 | 0x0000e970
-`public: virtual int __cdecl UnBCL::Array<unsigned short>::get_AutoDelete(void)const __ptr64` | 2375 (0x947) | Exported Function | 0x000000018000d930 | 0x0000d930
-`public: virtual int __cdecl UnBCL::Array<unsigned short>::get_Count(void)const __ptr64` | 2405 (0x965) | Exported Function | 0x000000018000d870 | 0x0000d870
-`public: virtual int __cdecl UnBCL::Array<unsigned short>::get_IsFixedSize(void)const __ptr64` | 2448 (0x990) | Exported Function | 0x000000018000d540 | 0x0000d540
-`public: virtual int __cdecl UnBCL::Array<unsigned short>::get_IsReadOnly(void)const __ptr64` | 2459 (0x99b) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::Array<unsigned short>::get_Length(void)const __ptr64` | 2500 (0x9c4) | Exported Function | 0x000000018000d900 | 0x0000d900
-`public: virtual int __cdecl UnBCL::Array<unsigned short>::get_Rank(void)const __ptr64` | 2565 (0xa05) | Exported Function | 0x000000018000d540 | 0x0000d540
-`public: virtual int __cdecl UnBCL::Array<unsigned char>::Contains(unsigned char)const __ptr64` | 1594 (0x63a) | Exported Function | 0x000000018000d670 | 0x0000d670
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Add(class UnBCL::String * __ptr64) __ptr64` | 1445 (0x5a5) | Exported Function | 0x000000018000fd40 | 0x0000fd40
-`public: virtual int __cdecl UnBCL::Array<unsigned char>::Add(unsigned char) __ptr64` | 1441 (0x5a1) | Exported Function | 0x000000018000d5b0 | 0x0000d5b0
-`public: virtual int __cdecl UnBCL::Array<int>::GetValue(int)const __ptr64` | 1887 (0x75f) | Exported Function | 0x0000000180015060 | 0x00015060
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1704 (0x6a8) | Exported Function | 0x000000018000fc50 | 0x0000fc50
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_AutoDelete(void)const __ptr64` | 2378 (0x94a) | Exported Function | 0x000000018000d930 | 0x0000d930
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_Count(void)const __ptr64` | 2408 (0x968) | Exported Function | 0x000000018000d870 | 0x0000d870
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_IsFixedSize(void)const __ptr64` | 2451 (0x993) | Exported Function | 0x000000018000d540 | 0x0000d540
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_IsReadOnly(void)const __ptr64` | 2462 (0x99e) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_Length(void)const __ptr64` | 2503 (0x9c7) | Exported Function | 0x000000018000d900 | 0x0000d900
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_Rank(void)const __ptr64` | 2568 (0xa08) | Exported Function | 0x000000018000d540 | 0x0000d540
-`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::IndexOf(class UnBCL::String * __ptr64)const __ptr64` | 1918 (0x77e) | Exported Function | 0x000000018000d720 | 0x0000d720
-`public: virtual int __cdecl UnBCL::Array<int>::Add(int) __ptr64` | 1443 (0x5a3) | Exported Function | 0x0000000180014e60 | 0x00014e60
-`public: virtual int __cdecl UnBCL::Array<int>::Contains(int)const __ptr64` | 1596 (0x63c) | Exported Function | 0x000000018000d670 | 0x0000d670
-`public: virtual int __cdecl UnBCL::Array<int>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1702 (0x6a6) | Exported Function | 0x0000000180014d70 | 0x00014d70
-`public: virtual int __cdecl UnBCL::Array<int>::get_AutoDelete(void)const __ptr64` | 2376 (0x948) | Exported Function | 0x000000018000d930 | 0x0000d930
-`public: virtual int __cdecl UnBCL::Array<int>::get_Count(void)const __ptr64` | 2406 (0x966) | Exported Function | 0x000000018000d870 | 0x0000d870
-`public: virtual int __cdecl UnBCL::Array<int>::get_IsFixedSize(void)const __ptr64` | 2449 (0x991) | Exported Function | 0x000000018000d540 | 0x0000d540
-`public: virtual int __cdecl UnBCL::Array<int>::get_IsReadOnly(void)const __ptr64` | 2460 (0x99c) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`public: virtual int __cdecl UnBCL::Array<int>::get_Length(void)const __ptr64` | 2501 (0x9c5) | Exported Function | 0x000000018000d900 | 0x0000d900
-`public: virtual int __cdecl UnBCL::Array<int>::get_Rank(void)const __ptr64` | 2566 (0xa06) | Exported Function | 0x000000018000d540 | 0x0000d540
-`public: virtual int __cdecl UnBCL::Array<int>::IndexOf(int)const __ptr64` | 1914 (0x77a) | Exported Function | 0x000000018000d720 | 0x0000d720
-`public: class UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::operator=(class UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> > && __ptr64) __ptr64` | 754 (0x2f2) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * _` | 750 (0x2ee) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * _` | 751 (0x2ef) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`private: static struct UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::s_Registration` | 2613 (0xa35) | Exported Function | 0x0000000180103160 | 0x00103160
-`private: static struct UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::s_Registration` | 2615 (0xa37) | Exported Function | 0x0000000180103168 | 0x00103168
-`private: static struct UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::s_Registration` | 2616 (0xa38) | Exported Function | 0x0000000180103150 | 0x00103150
-`private: static struct UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::s_Registration` | 2614 (0xa36) | Exported Function | 0x0000000180103170 | 0x00103170
-`private: static struct UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::s_Registration` | 2617 (0xa39) | Exported Function | 0x0000000180103158 | 0x00103158
-`private: static unsigned int const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::DefaultBins` | 1661 (0x67d) | Exported Function | 0x0000000180087b54 | 0x00087b54
-`private: static unsigned long __cdecl UnBCL::Monitor::InitTarget(class UnBCL::SyncObject * __ptr64)` | 1942 (0x796) | Exported Function | 0x000000018003ac30 | 0x0003ac30
-`private: static struct UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::s_Registration` | 2611 (0xa33) | Exported Function | 0x0000000180103110 | 0x00103110
-`private: static unsigned long __cdecl UnBCL::Thread::StartAddress(void * __ptr64)` | 2220 (0x8ac) | Exported Function | 0x000000018005c140 | 0x0005c140
-`private: static void __cdecl UnBCL::Directory::DeleteInternal(class UnBCL::String const * __ptr64,int,int)` | 1668 (0x684) | Exported Function | 0x0000000180024c40 | 0x00024c40
-`private: static void __cdecl UnBCL::File::DeleteInternal(class UnBCL::String const * __ptr64)` | 1669 (0x685) | Exported Function | 0x0000000180034f10 | 0x00034f10
-`private: static void __cdecl UnBCL::Path::CheckInvalidPathChars(class UnBCL::String const * __ptr64)` | 1528 (0x5f8) | Exported Function | 0x0000000180044090 | 0x00044090
-`private: struct ATL::CStringData * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::GetData(void)const __ptr64` | 1793 (0x701) | Exported Function | 0x0000000180006150 | 0x00006150
-`private: unsigned short * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::PrepareWrite(int) __ptr64` | 2078 (0x81e) | Exported Function | 0x0000000180006110 | 0x00006110
-`private: unsigned short const * __ptr64 __cdecl UnBCL::MultiSz::GetNextString(unsigned short const * __ptr64)const __ptr64` | 1845 (0x735) | Exported Function | 0x000000018003c7c0 | 0x0003c7c0
-`private: virtual __cdecl UnBCL::Monitor::~Monitor(void) __ptr64` | 600 (0x258) | Exported Function | 0x000000018003ac10 | 0x0003ac10
-`private: static unsigned short const * __ptr64 const __ptr64 UnBCL::Exception::DEFAULT_ERROR` | 1646 (0x66e) | Exported Function | 0x00000001800fc008 | 0x000fc008
-`private: static struct UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::s_Registration` | 2612 (0xa34) | Exported Function | 0x0000000180103128 | 0x00103128
-`private: static struct UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::s_Registration` | 2608 (0xa30) | Exported Function | 0x0000000180103118 | 0x00103118
-`private: static struct UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::s_Registration` | 2607 (0xa2f) | Exported Function | 0x0000000180103130 | 0x00103130
-`private: static int const UnBCL::DateTime::DAYS_PER_1` | 1639 (0x667) | Exported Function | 0x0000000180082c08 | 0x00082c08
-`private: static int const UnBCL::DateTime::DAYS_PER_100` | 1638 (0x666) | Exported Function | 0x0000000180082b44 | 0x00082b44
-`private: static int const UnBCL::DateTime::DAYS_PER_4` | 1641 (0x669) | Exported Function | 0x0000000180082b2c | 0x00082b2c
-`private: static int const UnBCL::DateTime::DAYS_PER_400` | 1640 (0x668) | Exported Function | 0x0000000180082b40 | 0x00082b40
-`private: static int const UnBCL::DateTime::DAYS_TO_10K` | 1642 (0x66a) | Exported Function | 0x0000000180082b28 | 0x00082b28
-`private: static int const UnBCL::DateTime::DAYS_TO_1601` | 1643 (0x66b) | Exported Function | 0x0000000180082b98 | 0x00082b98
-`private: static int const UnBCL::RegistryKey::MAX_KEYNAME_LEN` | 2023 (0x7e7) | Exported Function | 0x000000018008c0b0 | 0x0008c0b0
-`private: static int const UnBCL::TimeSpan::MS_PER_S` | 2030 (0x7ee) | Exported Function | 0x0000000180082bf8 | 0x00082bf8
-`private: static int const UnBCL::UnicodeEncoding::UNICODE_CODEPAGE` | 2312 (0x908) | Exported Function | 0x00000001800843c4 | 0x000843c4
-`private: static int UnBCL::Allocator::s_Manager_Init` | 2603 (0xa2b) | Exported Function | 0x0000000180102e28 | 0x00102e28
-`private: static struct _SINGLE_LIST_ENTRY UnBCL::SbRegistrationList::s_RegistrationListHead` | 2618 (0xa3a) | Exported Function | 0x0000000180102fd0 | 0x00102fd0
-`private: static struct ATL::CStringData * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::CloneData(struct ATL::CStringData * __ptr64)` | 1556 (0x614) | Exported Function | 0x0000000180005f60 | 0x00005f60
-`private: static struct IHeapMemory * __ptr64 * UnBCL::Allocator::s_Manager` | 2602 (0xa2a) | Exported Function | 0x0000000180102e10 | 0x00102e10
-`private: static struct ILogHandler * __ptr64 __ptr64 UnBCL::Logging::s_Handler` | 2600 (0xa28) | Exported Function | 0x0000000180102ec0 | 0x00102ec0
-`private: static struct IOutOfMemoryHandler * __ptr64 __ptr64 UnBCL::Allocator::s_OOMHandler` | 2604 (0xa2c) | Exported Function | 0x0000000180102e08 | 0x00102e08
-`private: static struct UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::s_Registration` | 2610 (0xa32) | Exported Function | 0x0000000180103140 | 0x00103140
-`private: static struct UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::s_Registration` | 2609 (0xa31) | Exported Function | 0x0000000180103148 | 0x00103148
-`private: virtual int __cdecl UnBCL::CaseInsensitiveStringComparer::Compare(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 1572 (0x624) | Exported Function | 0x0000000180008340 | 0x00008340
-`private: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Attach(struct ATL::CStringData * __ptr64) __ptr64` | 1512 (0x5e8) | Exported Function | 0x0000000180006230 | 0x00006230
-`private: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Fork(int) __ptr64` | 1732 (0x6c4) | Exported Function | 0x0000000180006160 | 0x00006160
-`private: void __cdecl ATL::CSimpleStringT<unsigned short,0>::PrepareWrite2(int) __ptr64` | 2077 (0x81d) | Exported Function | 0x00000001800060a0 | 0x000060a0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::Assign(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 1493 (0x5d5) | Exported Function | 0x0000000180007790 | 0x00007790
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::Assign(class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 1492 (0x5d4) | Exported Function | 0x00000001800077d0 | 0x000077d0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::DeAssign(void) __ptr64` | 1650 (0x672) | Exported Function | 0x00000001800077e0 | 0x000077e0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::Assign(class UnBCL::Decoder * __ptr64) __ptr64` | 1495 (0x5d7) | Exported Function | 0x0000000180007790 | 0x00007790
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::Assign(class UnBCL::SmartPtr<class UnBCL::Decoder> const & __ptr64) __ptr64` | 1494 (0x5d6) | Exported Function | 0x00000001800077d0 | 0x000077d0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::DeAssign(void) __ptr64` | 1651 (0x673) | Exported Function | 0x00000001800077e0 | 0x000077e0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::Assign(class UnBCL::Encoding * __ptr64) __ptr64` | 1497 (0x5d9) | Exported Function | 0x0000000180007790 | 0x00007790
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::Assign(class UnBCL::SmartPtr<class UnBCL::Encoding> const & __ptr64) __ptr64` | 1496 (0x5d8) | Exported Function | 0x00000001800077d0 | 0x000077d0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::DeAssign(void) __ptr64` | 1652 (0x674) | Exported Function | 0x00000001800077e0 | 0x000077e0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Object>::Assign(class UnBCL::Object * __ptr64) __ptr64` | 1499 (0x5db) | Exported Function | 0x0000000180001d90 | 0x00001d90
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Object>::Assign(class UnBCL::SmartPtr<class UnBCL::Object> const & __ptr64) __ptr64` | 1498 (0x5da) | Exported Function | 0x0000000180001dd0 | 0x00001dd0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Object>::DeAssign(void) __ptr64` | 1653 (0x675) | Exported Function | 0x0000000180001de0 | 0x00001de0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::Assign(class UnBCL::SerializationId * __ptr64) __ptr64` | 1501 (0x5dd) | Exported Function | 0x0000000180001d90 | 0x00001d90
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::Assign(class UnBCL::SmartPtr<class UnBCL::SerializationId> const & __ptr64) __ptr64` | 1500 (0x5dc) | Exported Function | 0x0000000180001dd0 | 0x00001dd0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::DeAssign(void) __ptr64` | 1654 (0x676) | Exported Function | 0x0000000180001de0 | 0x00001de0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::Assign(class UnBCL::SerializationStream * __ptr64) __ptr64` | 1503 (0x5df) | Exported Function | 0x0000000180001d90 | 0x00001d90
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::Assign(class UnBCL::SmartPtr<class UnBCL::SerializationStream> const & __ptr64) __ptr64` | 1502 (0x5de) | Exported Function | 0x0000000180001dd0 | 0x00001dd0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::DeAssign(void) __ptr64` | 1648 (0x670) | Exported Function | 0x00000001800077e0 | 0x000077e0
-`private: static int const UnBCL::ASCIIEncoding::ASCII_CODEPAGE` | 1440 (0x5a0) | Exported Function | 0x000000018008202c | 0x0008202c
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::Assign(class UnBCL::SmartPtr<class UnBCL::Array<unsigned char> > const & __ptr64) __ptr64` | 1488 (0x5d0) | Exported Function | 0x00000001800077d0 | 0x000077d0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::DeAssign(void) __ptr64` | 1649 (0x671) | Exported Function | 0x00000001800077e0 | 0x000077e0
-`private: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Reallocate(int) __ptr64` | 2100 (0x834) | Exported Function | 0x0000000180006040 | 0x00006040
-`private: void __cdecl ATL::CSimpleStringT<unsigned short,0>::SetLength(int) __ptr64` | 2181 (0x885) | Exported Function | 0x0000000180006000 | 0x00006000
-`private: void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::DeleteRange(int,int) __ptr64` | 1672 (0x688) | Exported Function | 0x000000018000c720 | 0x0000c720
-`private: void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::QuickSort(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64,class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64,int,int) __ptr64` | 2084 (0x824) | Exported Function | 0x000000018000c400 | 0x0000c400
-`private: void __cdecl UnBCL::ArrayList<unsigned short>::DeleteRange(int,int) __ptr64` | 1671 (0x687) | Exported Function | 0x0000000180012c60 | 0x00012c60
-`private: void __cdecl UnBCL::ArrayList<unsigned short>::QuickSort(class UnBCL::ArrayList<unsigned short> * __ptr64,class UnBCL::ArrayList<unsigned short> * __ptr64,int,int) __ptr64` | 2083 (0x823) | Exported Function | 0x0000000180012980 | 0x00012980
-`private: void __cdecl UnBCL::BufferedStream::FlushBuffer(void) __ptr64` | 1731 (0x6c3) | Exported Function | 0x0000000180021f40 | 0x00021f40
-`private: void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::AddDictionary(struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const * __ptr64) __ptr64` | 1457 (0x5b1) | Exported Function | 0x0000000180030eb0 | 0x00030eb0
-`private: void __cdecl UnBCL::HeapMemoryManager::InternalFree(void * __ptr64) __ptr64` | 1968 (0x7b0) | Exported Function | 0x0000000180038c20 | 0x00038c20
-`private: void __cdecl UnBCL::HeapMemoryManager::InternalValidate(void * __ptr64) __ptr64` | 1969 (0x7b1) | Exported Function | 0x0000000180038ce0 | 0x00038ce0
-`private: void __cdecl UnBCL::MemoryStream::LengthAtLeast(int) __ptr64` | 2010 (0x7da) | Exported Function | 0x000000018003a3c0 | 0x0003a3c0
-`private: void __cdecl UnBCL::Monitor::``vbase destructor'(void) __ptr64` | 1423 (0x58f) | Exported Function | 0x000000018003a5d0 | 0x0003a5d0
-`private: void __cdecl UnBCL::RegistryKey::FixupPath(class UnBCL::StringBuilder & __ptr64) __ptr64` | 1725 (0x6bd) | Exported Function | 0x00000001800493f0 | 0x000493f0
-`private: void __cdecl UnBCL::RegSubkeyEnumerator::Init(void) __ptr64` | 1935 (0x78f) | Exported Function | 0x00000001800498f0 | 0x000498f0
-`private: void __cdecl UnBCL::SerializationStream::operator=(class UnBCL::SerializationStream const & __ptr64) __ptr64` | 881 (0x371) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::Assign(class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 1491 (0x5d3) | Exported Function | 0x0000000180007790 | 0x00007790
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::Assign(class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 1490 (0x5d2) | Exported Function | 0x00000001800077d0 | 0x000077d0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::Assign(class UnBCL::Array<unsigned char> * __ptr64) __ptr64` | 1489 (0x5d1) | Exported Function | 0x0000000180007790 | 0x00007790
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::DeAssign(void) __ptr64` | 1655 (0x677) | Exported Function | 0x0000000180001de0 | 0x00001de0
-`private: static int const * const UnBCL::DateTime::DAYS_TO_MONTH_366` | 1645 (0x66d) | Exported Function | 0x0000000180082b58 | 0x00082b58
-`private: static int __cdecl UnBCL::UnicodeEncoding::SGetChars(class UnBCL::Array<unsigned char> const * __ptr64,int,int,class UnBCL::Array<unsigned short> * __ptr64,int,int)` | 2165 (0x875) | Exported Function | 0x000000018005d5b0 | 0x0005d5b0
-`const UnBCL::Version::``vftable'{for ``UnBCL::ISerializable'}` | 1287 (0x507) | Exported Function | 0x00000001800788a8 | 0x000788a8
-`const UnBCL::Version::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >'}` | 1285 (0x505) | Exported Function | 0x0000000180078918 | 0x00078918
-`const UnBCL::WaitHandle::``vbtable'{for ``UnBCL::IDisposable'}` | 1404 (0x57c) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`const UnBCL::WaitHandle::``vbtable'{for ``UnBCL::WaitHandle'}` | 1403 (0x57b) | Exported Function | 0x000000018008af70 | 0x0008af70
-`const UnBCL::WaitHandle::``vftable'{for ``UnBCL::IDisposable'}` | 1289 (0x509) | Exported Function | 0x00000001800772c0 | 0x000772c0
-`const UnBCL::WaitHandle::``vftable'{for ``UnBCL::Object'}` | 1290 (0x50a) | Exported Function | 0x00000001800772e0 | 0x000772e0
-`const UnBCL::WaitHandle::``vftable'{for ``UnBCL::WaitHandle'}` | 1288 (0x508) | Exported Function | 0x0000000180077328 | 0x00077328
-`const UnBCL::Version::``vftable'` | 1286 (0x506) | Exported Function | 0x00000001800788d0 | 0x000788d0
-`const UnBCL::Win32Exception::``vftable'` | 1291 (0x50b) | Exported Function | 0x0000000180075bc8 | 0x00075bc8
-`const UnBCL::XmlAttributeCollection::``vftable'` | 1295 (0x50f) | Exported Function | 0x0000000180079000 | 0x00079000
-`const UnBCL::XmlDocument::``vftable'` | 1297 (0x511) | Exported Function | 0x0000000180078b28 | 0x00078b28
-`const UnBCL::XmlException::``vftable'` | 1299 (0x513) | Exported Function | 0x00000001800792e8 | 0x000792e8
-`const UnBCL::XmlLite::XmlAttribute::``vftable'` | 1294 (0x50e) | Exported Function | 0x0000000180078f70 | 0x00078f70
-`const UnBCL::XmlLite::XmlAttributeCollection::``vftable'` | 1296 (0x510) | Exported Function | 0x00000001800793a0 | 0x000793a0
-`const UnBCL::XmlLite::XmlDocument::``vftable'` | 1298 (0x512) | Exported Function | 0x0000000180078a50 | 0x00078a50
-`const UnBCL::XmlLite::XmlNode::``vftable'` | 1302 (0x516) | Exported Function | 0x0000000180078fb8 | 0x00078fb8
-`const UnBCL::XmlAttribute::``vftable'` | 1293 (0x50d) | Exported Function | 0x00000001800791c0 | 0x000791c0
-`const UnBCL::Version::``vbtable'{for ``UnBCL::Version'}` | 1400 (0x578) | Exported Function | 0x0000000180087a28 | 0x00087a28
-`const UnBCL::Version::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >'}` | 1401 (0x579) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::Version::``vbtable'{for ``UnBCL::ISerializable'}` | 1402 (0x57a) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`const UnBCL::SystemException::``vftable'` | 1271 (0x4f7) | Exported Function | 0x00000001800732e8 | 0x000732e8
-`const UnBCL::SystemInfo::``vftable'` | 1272 (0x4f8) | Exported Function | 0x0000000180076608 | 0x00076608
-`const UnBCL::TextReader::``vftable'` | 1273 (0x4f9) | Exported Function | 0x00000001800784b0 | 0x000784b0
-`const UnBCL::TextReader::``vftable'{for ``UnBCL::IDisposable'}` | 1274 (0x4fa) | Exported Function | 0x0000000180078448 | 0x00078448
-`const UnBCL::TextReader::``vftable'{for ``UnBCL::Object'}` | 1275 (0x4fb) | Exported Function | 0x00000001800784d8 | 0x000784d8
-`const UnBCL::TextWriter::``vftable'` | 1276 (0x4fc) | Exported Function | 0x00000001800785b0 | 0x000785b0
-`const UnBCL::TextWriter::``vftable'{for ``UnBCL::IDisposable'}` | 1277 (0x4fd) | Exported Function | 0x0000000180078600 | 0x00078600
-`const UnBCL::TextWriter::``vftable'{for ``UnBCL::Object'}` | 1278 (0x4fe) | Exported Function | 0x0000000180078520 | 0x00078520
-`const UnBCL::Thread::``vbtable'` | 1397 (0x575) | Exported Function | 0x0000000180096d10 | 0x00096d10
-`const UnBCL::Thread::``vftable'` | 1279 (0x4ff) | Exported Function | 0x00000001800786e8 | 0x000786e8
-`const UnBCL::ThreadStateException::``vftable'` | 1280 (0x500) | Exported Function | 0x0000000180078778 | 0x00078778
-`const UnBCL::TimeSpan::``vftable'` | 1281 (0x501) | Exported Function | 0x0000000180078800 | 0x00078800
-`const UnBCL::Type::``vftable'` | 1282 (0x502) | Exported Function | 0x0000000180076ac8 | 0x00076ac8
-`const UnBCL::UnicodeEncoding::``vbtable'{for ``UnBCL::Encoding'}` | 1399 (0x577) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`const UnBCL::UnicodeEncoding::``vbtable'{for ``UnBCL::UnicodeEncoding'}` | 1398 (0x576) | Exported Function | 0x0000000180082020 | 0x00082020
-`const UnBCL::UnicodeEncoding::``vftable'{for ``UnBCL::Encoding'}` | 1283 (0x503) | Exported Function | 0x0000000180076248 | 0x00076248
-`const UnBCL::UnicodeEncoding::``vftable'{for ``UnBCL::Object'}` | 1284 (0x504) | Exported Function | 0x0000000180076200 | 0x00076200
-`const UnBCL::XmlLite::XmlNodeList::``vftable'` | 1304 (0x518) | Exported Function | 0x00000001800789f8 | 0x000789f8
-`const UnBCL::XmlNamespaceManager::``vftable'` | 1300 (0x514) | Exported Function | 0x0000000180078d30 | 0x00078d30
-`const UnBCL::XmlNode::``vftable'` | 1301 (0x515) | Exported Function | 0x0000000180079158 | 0x00079158
-`const UnBCL::XmlNodeList::``vftable'` | 1303 (0x517) | Exported Function | 0x0000000180078d88 | 0x00078d88
-`private: static __int64 const UnBCL::DateTime::MAX_TICKS` | 2026 (0x7ea) | Exported Function | 0x0000000180082c10 | 0x00082c10
-`private: static __int64 const UnBCL::DateTime::MIN_TICKS` | 2029 (0x7ed) | Exported Function | 0x0000000180082ba8 | 0x00082ba8
-`private: static __int64 const UnBCL::TimeSpan::MAX_MS` | 2024 (0x7e8) | Exported Function | 0x0000000180082b20 | 0x00082b20
-`private: static __int64 const UnBCL::TimeSpan::MAX_SECONDS` | 2025 (0x7e9) | Exported Function | 0x0000000180082c00 | 0x00082c00
-`private: static __int64 const UnBCL::TimeSpan::MIN_MS` | 2027 (0x7eb) | Exported Function | 0x0000000180082b90 | 0x00082b90
-`private: static __int64 const UnBCL::TimeSpan::MIN_SECONDS` | 2028 (0x7ec) | Exported Function | 0x0000000180082b50 | 0x00082b50
-`private: static class UnBCL::Hashtable<class UnBCL::SerializationId * __ptr64,class UnBCL::SerializationStream::TypeFactoryList * __ptr64> * __ptr64 __ptr64 UnBCL::SerializationStream::s_Registered` | 2606 (0xa2e) | Exported Function | 0x0000000180102e38 | 0x00102e38
-`private: static class UnBCL::OperatingSystem * __ptr64 __ptr64 UnBCL::Environment::m_OSVersion` | 2598 (0xa26) | Exported Function | 0x0000000180102eb8 | 0x00102eb8
-`private: static class UnBCL::String const UnBCL::Path::INVALID_PATH_CHARS` | 1908 (0x774) | Exported Function | 0x0000000180102e40 | 0x00102e40
-`private: static class UnBCL::SystemInfo * __ptr64 __ptr64 UnBCL::Environment::m_SystemInfo` | 2599 (0xa27) | Exported Function | 0x0000000180102eb0 | 0x00102eb0
-`private: static class UnBCL::TimeSpan __cdecl UnBCL::TimeSpan::Interval(double,int)` | 1970 (0x7b2) | Exported Function | 0x000000018005cbe0 | 0x0005cbe0
-`private: static float const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::DefaultHigh` | 1662 (0x67e) | Exported Function | 0x0000000180087b60 | 0x00087b60
-`private: static float const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::DefaultLoad` | 1663 (0x67f) | Exported Function | 0x0000000180087b5c | 0x00087b5c
-`private: static float const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::DefaultLow` | 1664 (0x680) | Exported Function | 0x0000000180087b58 | 0x00087b58
-`private: static int __cdecl UnBCL::ASCIIEncoding::SGetCharCount(class UnBCL::Array<unsigned char> const * __ptr64,int,int)` | 2162 (0x872) | Exported Function | 0x0000000180021090 | 0x00021090
-`private: static int __cdecl UnBCL::ASCIIEncoding::SGetChars(class UnBCL::Array<unsigned char> const * __ptr64,int,int,class UnBCL::Array<unsigned short> * __ptr64,int)` | 2164 (0x874) | Exported Function | 0x0000000180021190 | 0x00021190
-`private: static int __cdecl UnBCL::UnicodeEncoding::SGetCharCount(class UnBCL::Array<unsigned char> const * __ptr64,int,int)` | 2163 (0x873) | Exported Function | 0x000000018005d4b0 | 0x0005d4b0
-`private: static __int64 const UnBCL::DateTime::FILETIME_OFFSET` | 1720 (0x6b8) | Exported Function | 0x0000000180082b38 | 0x00082b38
-`private: static int const * const UnBCL::DateTime::DAYS_TO_MONTH_365` | 1644 (0x66c) | Exported Function | 0x0000000180082bb8 | 0x00082bb8
-`private: int __cdecl UnBCL::SerializationStream::WriteObjectHeader(class UnBCL::Object const * __ptr64) __ptr64` | 2338 (0x922) | Exported Function | 0x000000018004bf20 | 0x0004bf20
-`private: int __cdecl UnBCL::RegHandle::GetStringInternal(unsigned short const * __ptr64,class UnBCL::String * __ptr64 & __ptr64,unsigned long,unsigned long,unsigned long) __ptr64` | 1862 (0x746) | Exported Function | 0x00000001800462c0 | 0x000462c0
-`const UnBCL::XmlSchemaSet::``vftable'` | 1305 (0x519) | Exported Function | 0x0000000180078dd0 | 0x00078dd0
-`const UnBCL::XPathException::``vftable'` | 1292 (0x50c) | Exported Function | 0x0000000180079048 | 0x00079048
-`IsRunning` | 2660 (0xa64) | Exported Function | 0x0000000180002f60 | 0x00002f60
-`private: __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::ArrayList<class UnBCL::String * __ptr64>(class UnBCL::ArrayList<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 25 (0x19) | Exported Function | 0x0000000180009980 | 0x00009980
-`private: __cdecl UnBCL::ArrayList<unsigned short>::ArrayList<unsigned short>(class UnBCL::ArrayList<unsigned short> const & __ptr64) __ptr64` | 21 (0x15) | Exported Function | 0x00000001800101b0 | 0x000101b0
-`private: __cdecl UnBCL::Environment::Environment(void) __ptr64` | 246 (0xf6) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`private: __cdecl UnBCL::Monitor::Monitor(void) __ptr64` | 306 (0x132) | Exported Function | 0x000000018003aba0 | 0x0003aba0
-`private: __cdecl UnBCL::OperatingSystem::OperatingSystem(void) __ptr64` | 337 (0x151) | Exported Function | 0x0000000180041d90 | 0x00041d90
-`private: __cdecl UnBCL::SerializationStream::SerializationStream(class UnBCL::SerializationStream const & __ptr64) __ptr64` | 392 (0x188) | Exported Function | 0x000000018004c6b0 | 0x0004c6b0
-`private: __cdecl UnBCL::Thread::Thread(void * __ptr64) __ptr64` | 440 (0x1b8) | Exported Function | 0x000000018005c0c0 | 0x0005c0c0
-`private: __int64 __cdecl UnBCL::DateTime::DateToTicks(int,int,int) __ptr64` | 1647 (0x66f) | Exported Function | 0x0000000180024020 | 0x00024020
-`private: __int64 __cdecl UnBCL::DateTime::TimeToTicks(int,int,int) __ptr64` | 2274 (0x8e2) | Exported Function | 0x0000000180024160 | 0x00024160
-`private: bool __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CheckImplicitLoad(void const * __ptr64) __ptr64` | 1527 (0x5f7) | Exported Function | 0x0000000180003310 | 0x00003310
-`private: class UnBCL::String * __ptr64 __cdecl UnBCL::RegistryKey::FixupName(class UnBCL::String const & __ptr64) __ptr64` | 1724 (0x6bc) | Exported Function | 0x0000000180049320 | 0x00049320
-`private: int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::BinarySearch(int,int,class UnBCL::String * __ptr64,struct UnBCL::IComparer<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 1521 (0x5f1) | Exported Function | 0x000000018000bdb0 | 0x0000bdb0
-`private: int __cdecl UnBCL::ArrayList<unsigned short>::BinarySearch(int,int,unsigned short,struct UnBCL::IComparer<unsigned short> * __ptr64) __ptr64` | 1518 (0x5ee) | Exported Function | 0x0000000180012370 | 0x00012370
-`private: int __cdecl UnBCL::DateTime::GetDatePart(enum UnBCL::DateTime::DatePart)const __ptr64` | 1794 (0x702) | Exported Function | 0x0000000180024270 | 0x00024270
-`private: int __cdecl UnBCL::SerializationStream::ReadObjectHeader(class UnBCL::Object * __ptr64 & __ptr64) __ptr64` | 2098 (0x832) | Exported Function | 0x000000018004c0a0 | 0x0004c0a0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::Assign(class UnBCL::SmartPtr<class UnBCL::Stream> const & __ptr64) __ptr64` | 1504 (0x5e0) | Exported Function | 0x00000001800077d0 | 0x000077d0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::Assign(class UnBCL::Stream * __ptr64) __ptr64` | 1505 (0x5e1) | Exported Function | 0x0000000180007790 | 0x00007790
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::DeAssign(void) __ptr64` | 1656 (0x678) | Exported Function | 0x00000001800077e0 | 0x000077e0
-`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(class ATL::CSimpleStringT<unsigned short,1> const & __ptr64) __ptr64` | 30 (0x1e) | Exported Function | 0x0000000180006e80 | 0x00006e80
-`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 31 (0x1f) | Exported Function | 0x0000000180006eb0 | 0x00006eb0
-`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(unsigned short const * __ptr64,int,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 32 (0x20) | Exported Function | 0x0000000180006cf0 | 0x00006cf0
-`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(unsigned short const * __ptr64,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 33 (0x21) | Exported Function | 0x0000000180006db0 | 0x00006db0
-`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::operator class ATL::CSimpleStringT<unsigned short,1> & __ptr64(void) __ptr64` | 973 (0x3cd) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::operator unsigned short const * __ptr64(void)const __ptr64` | 974 (0x3ce) | Exported Function | 0x00000001800067b0 | 0x000067b0
-`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::~CSimpleStringT<unsigned short,0>(void) __ptr64` | 520 (0x208) | Exported Function | 0x0000000180006cb0 | 0x00006cb0
-`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(class ATL::CSimpleStringT<unsigned short,0> const & __ptr64) __ptr64` | 29 (0x1d) | Exported Function | 0x0000000180006e80 | 0x00006e80
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char const * __ptr64) __ptr64` | 40 (0x28) | Exported Function | 0x0000000180005ca0 | 0x00005ca0
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char const * __ptr64,int,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 42 (0x2a) | Exported Function | 0x00000001800055f0 | 0x000055f0
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char const * __ptr64,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 43 (0x2b) | Exported Function | 0x0000000180005d20 | 0x00005d20
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char,int) __ptr64` | 37 (0x25) | Exported Function | 0x0000000180005a70 | 0x00005a70
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > const & __ptr64) __ptr64` | 36 (0x24) | Exported Function | 0x0000000180005e30 | 0x00005e30
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 39 (0x27) | Exported Function | 0x0000000180005ec0 | 0x00005ec0
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(struct tagVARIANT const & __ptr64) __ptr64` | 34 (0x22) | Exported Function | 0x00000001800070b0 | 0x000070b0
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(struct tagVARIANT const & __ptr64,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 35 (0x23) | Exported Function | 0x0000000180006fd0 | 0x00006fd0
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char const * __ptr64,int) __ptr64` | 41 (0x29) | Exported Function | 0x0000000180005700 | 0x00005700
-`protected: void __cdecl UnBCL::XmlLite::XmlNodeList::Add(class UnBCL::XmlLite::XmlNode * __ptr64) __ptr64` | 1455 (0x5af) | Exported Function | 0x0000000180061c00 | 0x00061c00
-`protected: void __cdecl UnBCL::XmlLite::XmlNode::set_ParentNode(class UnBCL::XmlLite::XmlNode * __ptr64) __ptr64` | 2652 (0xa5c) | Exported Function | 0x0000000180060d50 | 0x00060d50
-`protected: void __cdecl UnBCL::XmlLite::XmlDocument::Parse(struct IStream * __ptr64) __ptr64` | 2068 (0x814) | Exported Function | 0x0000000180061e60 | 0x00061e60
-`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::RegisterVersion(int)const __ptr64` | 2110 (0x83e) | Exported Function | 0x0000000180013050 | 0x00013050
-`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::RegisterVersion(int)const __ptr64` | 2112 (0x840) | Exported Function | 0x00000001800313e0 | 0x000313e0
-`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::RegisterVersion(int)const __ptr64` | 2114 (0x842) | Exported Function | 0x000000018003cab0 | 0x0003cab0
-`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::RegisterVersion(int)const __ptr64` | 2115 (0x843) | Exported Function | 0x00000001800318a0 | 0x000318a0
-`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::RegisterVersion(int)const __ptr64` | 2113 (0x841) | Exported Function | 0x0000000180053f00 | 0x00053f00
-`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::RegisterVersion(int)const __ptr64` | 2116 (0x844) | Exported Function | 0x0000000180031540 | 0x00031540
-`protected: virtual void __cdecl UnBCL::XmlException::set_LineNumber(int) __ptr64` | 2649 (0xa59) | Exported Function | 0x000000018006b4e0 | 0x0006b4e0
-`protected: virtual void __cdecl UnBCL::XmlException::set_LinePosition(int) __ptr64` | 2650 (0xa5a) | Exported Function | 0x000000018006b500 | 0x0006b500
-`protected: void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vbase destructor'(void) __ptr64` | 1412 (0x584) | Exported Function | 0x0000000180022d20 | 0x00022d20
-`protected: void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::KeyDestroy(class UnBCL::String * __ptr64)const __ptr64` | 1993 (0x7c9) | Exported Function | 0x0000000180030d60 | 0x00030d60
-`protected: void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::ValueDestroy(class UnBCL::String * __ptr64)const __ptr64` | 2318 (0x90e) | Exported Function | 0x0000000180030d60 | 0x00030d60
-`protected: void __cdecl UnBCL::SerializationStream::WriteObject(struct UnBCL::ISerializable const * __ptr64) __ptr64` | 2337 (0x921) | Exported Function | 0x000000018004c000 | 0x0004c000
-`protected: void __cdecl UnBCL::StreamWriter::Close(int) __ptr64` | 1566 (0x61e) | Exported Function | 0x0000000180055c40 | 0x00055c40
-`protected: void __cdecl UnBCL::StringBuilder::EscapeXMLAndAdd(unsigned short const * __ptr64) __ptr64` | 1715 (0x6b3) | Exported Function | 0x000000018005abf0 | 0x0005abf0
-`protected: void __cdecl UnBCL::SyncObject::EnterSection(void) __ptr64` | 1699 (0x6a3) | Exported Function | 0x0000000180041b40 | 0x00041b40
-`protected: void __cdecl UnBCL::SyncObject::LeaveSection(void) __ptr64` | 2008 (0x7d8) | Exported Function | 0x0000000180041b60 | 0x00041b60
-`protected: void __cdecl UnBCL::XmlLite::XmlAttributeCollection::Add(class UnBCL::XmlLite::XmlAttribute * __ptr64) __ptr64` | 1454 (0x5ae) | Exported Function | 0x0000000180061c00 | 0x00061c00
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned char const * __ptr64) __ptr64` | 44 (0x2c) | Exported Function | 0x0000000180005ba0 | 0x00005ba0
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned char const * __ptr64,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 45 (0x2d) | Exported Function | 0x0000000180005b30 | 0x00005b30
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short const * __ptr64) __ptr64` | 46 (0x2e) | Exported Function | 0x0000000180005da0 | 0x00005da0
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short const * __ptr64,int) __ptr64` | 47 (0x2f) | Exported Function | 0x0000000180005830 | 0x00005830
-`public: __cdecl UnBCL::_::SerializableStackBase<int>::SerializableStackBase<int>(void) __ptr64` | 139 (0x8b) | Exported Function | 0x0000000180052a00 | 0x00052a00
-`public: __cdecl UnBCL::AbandonedMutexException::AbandonedMutexException(class UnBCL::AbandonedMutexException && __ptr64) __ptr64` | 183 (0xb7) | Exported Function | 0x0000000180001aa0 | 0x00001aa0
-`public: __cdecl UnBCL::AbandonedMutexException::AbandonedMutexException(class UnBCL::AbandonedMutexException const & __ptr64) __ptr64` | 184 (0xb8) | Exported Function | 0x0000000180001aa0 | 0x00001aa0
-`public: __cdecl UnBCL::AbandonedMutexException::AbandonedMutexException(class UnBCL::String const * __ptr64) __ptr64` | 186 (0xba) | Exported Function | 0x0000000180001b70 | 0x00001b70
-`public: __cdecl UnBCL::AbandonedMutexException::AbandonedMutexException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 187 (0xbb) | Exported Function | 0x0000000180001bf0 | 0x00001bf0
-`public: __cdecl UnBCL::AbandonedMutexException::AbandonedMutexException(unsigned short const * __ptr64) __ptr64` | 185 (0xb9) | Exported Function | 0x0000000180001bb0 | 0x00001bb0
-`public: __cdecl UnBCL::AbandonedMutexException::AbandonedMutexException(void) __ptr64` | 188 (0xbc) | Exported Function | 0x0000000180001b30 | 0x00001b30
-`public: __cdecl UnBCL::ApplicationException::ApplicationException(class UnBCL::ApplicationException && __ptr64) __ptr64` | 189 (0xbd) | Exported Function | 0x0000000180007bb0 | 0x00007bb0
-`public: __cdecl UnBCL::ApplicationException::ApplicationException(class UnBCL::ApplicationException const & __ptr64) __ptr64` | 190 (0xbe) | Exported Function | 0x0000000180007bb0 | 0x00007bb0
-`public: __cdecl UnBCL::ApplicationException::ApplicationException(class UnBCL::Exception * __ptr64,unsigned short const * __ptr64) __ptr64` | 191 (0xbf) | Exported Function | 0x0000000180007cf0 | 0x00007cf0
-`public: __cdecl UnBCL::ApplicationException::ApplicationException(class UnBCL::String * __ptr64) __ptr64` | 192 (0xc0) | Exported Function | 0x0000000180007c70 | 0x00007c70
-`public: __cdecl UnBCL::ApplicationException::ApplicationException(unsigned short const * __ptr64) __ptr64` | 193 (0xc1) | Exported Function | 0x0000000180007cb0 | 0x00007cb0
-`public: __cdecl UnBCL::ApplicationException::ApplicationException(void) __ptr64` | 194 (0xc2) | Exported Function | 0x0000000180007c30 | 0x00007c30
-`public: __cdecl UnBCL::ArgumentException::ArgumentException(class UnBCL::ArgumentException && __ptr64) __ptr64` | 195 (0xc3) | Exported Function | 0x0000000180001710 | 0x00001710
-`public: __cdecl UnBCL::ArgumentException::ArgumentException(class UnBCL::ArgumentException const & __ptr64) __ptr64` | 196 (0xc4) | Exported Function | 0x0000000180001710 | 0x00001710
-`public: __cdecl UnBCL::ArgumentException::ArgumentException(class UnBCL::String const * __ptr64) __ptr64` | 198 (0xc6) | Exported Function | 0x0000000180007d70 | 0x00007d70
-`public: __cdecl UnBCL::ArgumentException::ArgumentException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 199 (0xc7) | Exported Function | 0x0000000180007df0 | 0x00007df0
-`public: __cdecl UnBCL::_::SerializableStackBase<int>::SerializableStackBase<int>(class UnBCL::_::SerializableStackBase<int> const & __ptr64) __ptr64` | 138 (0x8a) | Exported Function | 0x0000000180052a00 | 0x00052a00
-`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::RegisterVersion(int)const __ptr64` | 2111 (0x83f) | Exported Function | 0x00000001800133b0 | 0x000133b0
-`public: __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(void) __ptr64` | 137 (0x89) | Exported Function | 0x000000018002c780 | 0x0002c780
-`public: __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::SerializableArrayListPrimitiveBase<unsigned short>(void) __ptr64` | 113 (0x71) | Exported Function | 0x0000000180008650 | 0x00008650
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short const * __ptr64,int,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 48 (0x30) | Exported Function | 0x0000000180005800 | 0x00005800
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short const * __ptr64,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 49 (0x31) | Exported Function | 0x0000000180005c00 | 0x00005c00
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short,int) __ptr64` | 38 (0x26) | Exported Function | 0x0000000180005870 | 0x00005870
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(void) __ptr64` | 50 (0x32) | Exported Function | 0x0000000180005f10 | 0x00005f10
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator class ATL::CSimpleStringT<unsigned short,1> & __ptr64(void) __ptr64` | 975 (0x3cf) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::~CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(void) __ptr64` | 521 (0x209) | Exported Function | 0x00000001800055a0 | 0x000055a0
-`public: __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::SerializableArrayBase<class UnBCL::String * __ptr64>(class UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 108 (0x6c) | Exported Function | 0x0000000180009730 | 0x00009730
-`public: __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::SerializableArrayBase<class UnBCL::String * __ptr64>(void) __ptr64` | 109 (0x6d) | Exported Function | 0x0000000180009730 | 0x00009730
-`public: __cdecl UnBCL::_::SerializableArrayBase<int>::SerializableArrayBase<int>(class UnBCL::_::SerializableArrayBase<int> const & __ptr64) __ptr64` | 106 (0x6a) | Exported Function | 0x0000000180009020 | 0x00009020
-`public: __cdecl UnBCL::_::SerializableArrayBase<int>::SerializableArrayBase<int>(void) __ptr64` | 107 (0x6b) | Exported Function | 0x0000000180009020 | 0x00009020
-`public: __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::SerializableArrayBase<unsigned char>(class UnBCL::_::SerializableArrayBase<unsigned char> const & __ptr64) __ptr64` | 102 (0x66) | Exported Function | 0x0000000180009430 | 0x00009430
-`public: __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::SerializableArrayBase<unsigned char>(void) __ptr64` | 103 (0x67) | Exported Function | 0x0000000180009430 | 0x00009430
-`public: __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::SerializableArrayBase<unsigned short>(class UnBCL::_::SerializableArrayBase<unsigned short> const & __ptr64) __ptr64` | 104 (0x68) | Exported Function | 0x00000001800095b0 | 0x000095b0
-`public: __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::SerializableArrayBase<unsigned short>(void) __ptr64` | 105 (0x69) | Exported Function | 0x00000001800095b0 | 0x000095b0
-`public: __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::SerializableArrayListBase<class UnBCL::String * __ptr64>(class UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 110 (0x6e) | Exported Function | 0x0000000180008ba0 | 0x00008ba0
-`public: __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::SerializableArrayListBase<class UnBCL::String * __ptr64>(void) __ptr64` | 111 (0x6f) | Exported Function | 0x0000000180008ba0 | 0x00008ba0
-`public: __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::SerializableArrayListPrimitiveBase<unsigned short>(class UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short> const & __ptr64) __ptr64` | 112 (0x70) | Exported Function | 0x0000000180008650 | 0x00008650
-`public: __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(class UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 136 (0x88) | Exported Function | 0x000000018002c780 | 0x0002c780
-`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::RegisterVersion(int)const __ptr64` | 2107 (0x83b) | Exported Function | 0x0000000180015ac0 | 0x00015ac0
-`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::RegisterVersion(int)const __ptr64` | 2106 (0x83a) | Exported Function | 0x0000000180015840 | 0x00015840
-`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::RegisterVersion(int)const __ptr64` | 2108 (0x83c) | Exported Function | 0x00000001800155c0 | 0x000155c0
-`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >(void) __ptr64` | 118 (0x76) | Exported Function | 0x0000000180015570 | 0x00015570
-`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >(void) __ptr64` | 114 (0x72) | Exported Function | 0x00000001800157f0 | 0x000157f0
-`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >(void) __ptr64` | 116 (0x74) | Exported Function | 0x0000000180015a70 | 0x00015a70
-`protected: __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >(void) __ptr64` | 124 (0x7c) | Exported Function | 0x0000000180013360 | 0x00013360
-`protected: __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >(void) __ptr64` | 122 (0x7a) | Exported Function | 0x0000000180013000 | 0x00013000
-`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >(void) __ptr64` | 126 (0x7e) | Exported Function | 0x0000000180031390 | 0x00031390
-`protected: __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >(void) __ptr64` | 130 (0x82) | Exported Function | 0x000000018003ca60 | 0x0003ca60
-`protected: __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >(void) __ptr64` | 132 (0x84) | Exported Function | 0x0000000180031850 | 0x00031850
-`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >(void) __ptr64` | 128 (0x80) | Exported Function | 0x0000000180053eb0 | 0x00053eb0
-`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >(void) __ptr64` | 134 (0x86) | Exported Function | 0x00000001800314f0 | 0x000314f0
-`protected: __cdecl UnBCL::TextWriter::TextWriter(void) __ptr64` | 437 (0x1b5) | Exported Function | 0x000000018005b990 | 0x0005b990
-`protected: __cdecl UnBCL::Type::Type(class UnBCL::String * __ptr64) __ptr64` | 454 (0x1c6) | Exported Function | 0x000000018005ce40 | 0x0005ce40
-`protected: __cdecl UnBCL::WaitHandle::WaitHandle(void) __ptr64` | 465 (0x1d1) | Exported Function | 0x000000018005edb0 | 0x0005edb0
-`protected: __cdecl UnBCL::XmlAttribute::XmlAttribute(void) __ptr64` | 479 (0x1df) | Exported Function | 0x0000000180064780 | 0x00064780
-`protected: __cdecl UnBCL::XmlAttributeCollection::XmlAttributeCollection(void) __ptr64` | 486 (0x1e6) | Exported Function | 0x0000000180064840 | 0x00064840
-`protected: __cdecl UnBCL::XmlNode::XmlNode(struct IXMLDOMNode * __ptr64) __ptr64` | 501 (0x1f5) | Exported Function | 0x0000000180063090 | 0x00063090
-`protected: __cdecl UnBCL::XmlNode::XmlNode(void) __ptr64` | 502 (0x1f6) | Exported Function | 0x0000000180063040 | 0x00063040
-`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >(void) __ptr64` | 120 (0x78) | Exported Function | 0x0000000180015cf0 | 0x00015cf0
-`protected: __cdecl UnBCL::XmlNodeList::XmlNodeList(void) __ptr64` | 506 (0x1fa) | Exported Function | 0x00000001800645f0 | 0x000645f0
-`protected: __cdecl UnBCL::Process::Process(void * __ptr64,void * __ptr64) __ptr64` | 360 (0x168) | Exported Function | 0x0000000180045b10 | 0x00045b10
-`protected: __cdecl UnBCL::DateTime::DateTime(__int64,int) __ptr64` | 230 (0xe6) | Exported Function | 0x0000000180023fd0 | 0x00023fd0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::String>::Assign(class UnBCL::SmartPtr<class UnBCL::String> const & __ptr64) __ptr64` | 1506 (0x5e2) | Exported Function | 0x0000000180001dd0 | 0x00001dd0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::String>::Assign(class UnBCL::String * __ptr64) __ptr64` | 1507 (0x5e3) | Exported Function | 0x0000000180001d90 | 0x00001d90
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::String>::DeAssign(void) __ptr64` | 1657 (0x679) | Exported Function | 0x0000000180001de0 | 0x00001de0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Version>::Assign(class UnBCL::SmartPtr<class UnBCL::Version> const & __ptr64) __ptr64` | 1508 (0x5e4) | Exported Function | 0x00000001800316e0 | 0x000316e0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Version>::Assign(class UnBCL::Version * __ptr64) __ptr64` | 1509 (0x5e5) | Exported Function | 0x00000001800316a0 | 0x000316a0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Version>::DeAssign(void) __ptr64` | 1658 (0x67a) | Exported Function | 0x00000001800316f0 | 0x000316f0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::Assign(class UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager> const & __ptr64) __ptr64` | 1510 (0x5e6) | Exported Function | 0x0000000180001dd0 | 0x00001dd0
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::Assign(class UnBCL::XmlNamespaceManager * __ptr64) __ptr64` | 1511 (0x5e7) | Exported Function | 0x0000000180001d90 | 0x00001d90
-`private: void __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::DeAssign(void) __ptr64` | 1659 (0x67b) | Exported Function | 0x0000000180001de0 | 0x00001de0
-`private: void __cdecl UnBCL::WaitHandle::Dispose(int) __ptr64` | 1684 (0x694) | Exported Function | 0x000000018005ee70 | 0x0005ee70
-`private: void __cdecl UnBCL::XmlNode::RegisterNamespaces(class UnBCL::XmlNamespaceManager * __ptr64) __ptr64` | 2103 (0x837) | Exported Function | 0x0000000180064240 | 0x00064240
-`protected: __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Array<class UnBCL::Object * __ptr64>(void) __ptr64` | 13 (0xd) | Exported Function | 0x0000000180013490 | 0x00013490
-`protected: __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Array<class UnBCL::String * __ptr64>(void) __ptr64` | 17 (0x11) | Exported Function | 0x000000018000efa0 | 0x0000efa0
-`protected: __cdecl UnBCL::Array<int>::Array<int>(void) __ptr64` | 9 (0x9) | Exported Function | 0x00000001800140e0 | 0x000140e0
-`protected: __cdecl UnBCL::Array<unsigned char>::Array<unsigned char>(void) __ptr64` | 1 (0x1) | Exported Function | 0x000000018000c7c0 | 0x0000c7c0
-`protected: __cdecl UnBCL::Array<unsigned short>::Array<unsigned short>(void) __ptr64` | 5 (0x5) | Exported Function | 0x000000018000dcc0 | 0x0000dcc0
-`protected: __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::CollectionBase<class UnBCL::Object * __ptr64>(void) __ptr64` | 51 (0x33) | Exported Function | 0x0000000180022f90 | 0x00022f90
-`protected: __cdecl UnBCL::Encoding::Encoding(int) __ptr64` | 243 (0xf3) | Exported Function | 0x000000018002c490 | 0x0002c490
-`const UnBCL::SyncObject::``vftable'` | 1270 (0x4f6) | Exported Function | 0x0000000180077390 | 0x00077390
-`protected: int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::EqualsFunction(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64)const __ptr64` | 1714 (0x6b2) | Exported Function | 0x0000000180030d20 | 0x00030d20
-`protected: int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::ValueEquals(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64)const __ptr64` | 2319 (0x90f) | Exported Function | 0x0000000180030d20 | 0x00030d20
-`protected: virtual class UnBCL::ArrayList<class UnBCL::Object * __ptr64> * __ptr64 __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_InnerList(void) __ptr64` | 2440 (0x988) | Exported Function | 0x00000001800140d0 | 0x000140d0
-`protected: virtual class UnBCL::ArrayList<class UnBCL::Object * __ptr64> * __ptr64 const & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::InnerList(void)const __ptr64` | 1952 (0x7a0) | Exported Function | 0x00000001800533c0 | 0x000533c0
-`protected: virtual class UnBCL::ArrayList<class UnBCL::Object * __ptr64> const * __ptr64 __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_InnerList(void)const __ptr64` | 2441 (0x989) | Exported Function | 0x00000001800140d0 | 0x000140d0
-`protected: virtual class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::InnerList(void)const __ptr64` | 1948 (0x79c) | Exported Function | 0x000000018000dcb0 | 0x0000dcb0
-`protected: virtual class UnBCL::ArrayList<int> * __ptr64 & __ptr64 __cdecl UnBCL::Stack<int>::InnerList(void) __ptr64` | 1949 (0x79d) | Exported Function | 0x0000000180053cc0 | 0x00053cc0
-`protected: virtual class UnBCL::ArrayList<int> * __ptr64 __cdecl UnBCL::Array<int>::InnerList(void)const __ptr64` | 1946 (0x79a) | Exported Function | 0x000000018000dcb0 | 0x0000dcb0
-`protected: virtual class UnBCL::ArrayList<int> * __ptr64 const & __ptr64 __cdecl UnBCL::Stack<int>::InnerList(void)const __ptr64` | 1950 (0x79e) | Exported Function | 0x0000000180053cc0 | 0x00053cc0
-`protected: virtual class UnBCL::ArrayList<unsigned char> * __ptr64 __cdecl UnBCL::Array<unsigned char>::InnerList(void)const __ptr64` | 1944 (0x798) | Exported Function | 0x000000018000dcb0 | 0x0000dcb0
-`protected: virtual class UnBCL::ArrayList<unsigned short> * __ptr64 __cdecl UnBCL::Array<unsigned short>::InnerList(void)const __ptr64` | 1945 (0x799) | Exported Function | 0x000000018000dcb0 | 0x0000dcb0
-`protected: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::InitLarva(class UnBCL::ArrayList<class UnBCL::Object * __ptr64> * __ptr64) __ptr64` | 1940 (0x794) | Exported Function | 0x0000000180014040 | 0x00014040
-`protected: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::InitLarva(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 1941 (0x795) | Exported Function | 0x0000000180010120 | 0x00010120
-`protected: virtual void __cdecl UnBCL::Array<int>::InitLarva(class UnBCL::ArrayList<int> * __ptr64) __ptr64` | 1939 (0x793) | Exported Function | 0x00000001800152f0 | 0x000152f0
-`protected: virtual void __cdecl UnBCL::Array<unsigned char>::InitLarva(class UnBCL::ArrayList<unsigned char> * __ptr64) __ptr64` | 1937 (0x791) | Exported Function | 0x000000018000dc20 | 0x0000dc20
-`protected: virtual void __cdecl UnBCL::Array<unsigned short>::InitLarva(class UnBCL::ArrayList<unsigned short> * __ptr64) __ptr64` | 1938 (0x792) | Exported Function | 0x000000018000ee40 | 0x0000ee40
-`protected: virtual void __cdecl UnBCL::Exception::set_HResult(long) __ptr64` | 2636 (0xa4c) | Exported Function | 0x0000000180034ba0 | 0x00034ba0
-`protected: virtual void __cdecl UnBCL::Exception::SetMessage(class UnBCL::String * __ptr64) __ptr64` | 2185 (0x889) | Exported Function | 0x0000000180034bb0 | 0x00034bb0
-`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::RegisterVersion(int)const __ptr64` | 2109 (0x83d) | Exported Function | 0x0000000180015d40 | 0x00015d40
-`protected: virtual class UnBCL::ArrayList<class UnBCL::Object * __ptr64> * __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::InnerList(void)const __ptr64` | 1947 (0x79b) | Exported Function | 0x00000001800140d0 | 0x000140d0
-`protected: int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::HashFunction(class UnBCL::String * __ptr64)const __ptr64` | 1907 (0x773) | Exported Function | 0x0000000180030d00 | 0x00030d00
-`protected: virtual class UnBCL::ArrayList<class UnBCL::Object * __ptr64> * __ptr64 & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::InnerList(void) __ptr64` | 1951 (0x79f) | Exported Function | 0x00000001800533c0 | 0x000533c0
-`protected: struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::SerializationStream::ReadObject(void) __ptr64` | 2097 (0x831) | Exported Function | 0x000000018004c2e0 | 0x0004c2e0
-`protected: static __int64 const UnBCL::DateTime::TICKS_PER_D` | 2265 (0x8d9) | Exported Function | 0x0000000180082b48 | 0x00082b48
-`protected: static __int64 const UnBCL::DateTime::TICKS_PER_H` | 2266 (0x8da) | Exported Function | 0x0000000180082ba0 | 0x00082ba0
-`protected: static __int64 const UnBCL::DateTime::TICKS_PER_M` | 2267 (0x8db) | Exported Function | 0x0000000180082b30 | 0x00082b30
-`protected: static __int64 const UnBCL::DateTime::TICKS_PER_MS` | 2268 (0x8dc) | Exported Function | 0x0000000180082bf0 | 0x00082bf0
-`protected: static __int64 const UnBCL::DateTime::TICKS_PER_S` | 2269 (0x8dd) | Exported Function | 0x0000000180082bb0 | 0x00082bb0
-`protected: static class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::RetrieveEntry(class ATL::CAtlMap<struct UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::TableKey,class UnBCL::String * __ptr64,struct UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::KeyTraits,class ATL::CElementTraits<class UnBCL::String * __ptr64> > const * __ptr64,struct __POSITION * __ptr64 const & __ptr64)` | 2155 (0x86b) | Exported Function | 0x0000000180030df0 | 0x00030df0
-`protected: static class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64 __ptr64 UnBCL::String::s_InternPool` | 2601 (0xa29) | Exported Function | 0x00000001801030a8 | 0x001030a8
-`protected: static class UnBCL::Object UnBCL::String::s_PoolLock` | 2605 (0xa2d) | Exported Function | 0x00000001800fc010 | 0x000fc010
-`protected: static class UnBCL::RegistryKey * __ptr64 __cdecl UnBCL::RegistryKey::GetBaseKey(struct HKEY__ * __ptr64)` | 1758 (0x6de) | Exported Function | 0x00000001800492d0 | 0x000492d0
-`protected: static class UnBCL::String * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::RetrieveKey(class ATL::CAtlMap<struct UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::TableKey,class UnBCL::String * __ptr64,struct UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::KeyTraits,class ATL::CElementTraits<class UnBCL::String * __ptr64> > const * __ptr64,struct __POSITION * __ptr64 const & __ptr64)` | 2156 (0x86c) | Exported Function | 0x0000000180030d90 | 0x00030d90
-`protected: static class UnBCL::String * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::RetrieveValue(class ATL::CAtlMap<struct UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::TableKey,class UnBCL::String * __ptr64,struct UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::KeyTraits,class ATL::CElementTraits<class UnBCL::String * __ptr64> > const * __ptr64,struct __POSITION * __ptr64 const & __ptr64)` | 2157 (0x86d) | Exported Function | 0x0000000180030dc0 | 0x00030dc0
-`protected: static int __cdecl UnBCL::Path::GetRootLength(class UnBCL::String const * __ptr64)` | 1856 (0x740) | Exported Function | 0x0000000180043aa0 | 0x00043aa0
-`protected: static int __cdecl UnBCL::SerializationStream::IsLittleEndian(void)` | 1985 (0x7c1) | Exported Function | 0x000000018000d540 | 0x0000d540
-`protected: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::Concatenate(class ATL::CSimpleStringT<unsigned short,0> & __ptr64,unsigned short const * __ptr64,int,unsigned short const * __ptr64,int)` | 1592 (0x638) | Exported Function | 0x0000000180006260 | 0x00006260
-`protected: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::ThrowMemoryException(void)` | 2273 (0x8e1) | Exported Function | 0x0000000180006240 | 0x00006240
-`protected: static void __cdecl UnBCL::Path::CheckPathTooLong(class UnBCL::String const * __ptr64)` | 1529 (0x5f9) | Exported Function | 0x0000000180043c60 | 0x00043c60
-`protected: static void __cdecl UnBCL::String::InitInternPool(void)` | 1936 (0x790) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`protected: virtual __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::~CollectionBase<class UnBCL::Object * __ptr64>(void) __ptr64` | 522 (0x20a) | Exported Function | 0x00000001800230d0 | 0x000230d0
-`public: __cdecl UnBCL::ArgumentException::ArgumentException(unsigned short const * __ptr64) __ptr64` | 197 (0xc5) | Exported Function | 0x0000000180007db0 | 0x00007db0
-`const UnBCL::StringPtr::``vftable'{for ``UnBCL::StringPtr'}` | 1268 (0x4f4) | Exported Function | 0x00000001800786c8 | 0x000786c8
-`const UnBCL::StringPtr::``vbtable'` | 1396 (0x574) | Exported Function | 0x00000001800818c8 | 0x000818c8
-`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::IEnumerable<unsigned short>'}` | 1038 (0x40e) | Exported Function | 0x00000001800751d0 | 0x000751d0
-`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::IList<unsigned short>'}` | 1039 (0x40f) | Exported Function | 0x0000000180073ed0 | 0x00073ed0
-`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::ISerializable'}` | 1042 (0x412) | Exported Function | 0x0000000180075440 | 0x00075440
-`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::Object'}` | 1043 (0x413) | Exported Function | 0x0000000180073b58 | 0x00073b58
-`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >'}` | 1041 (0x411) | Exported Function | 0x0000000180073da0 | 0x00073da0
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbtable'` | 1343 (0x53f) | Exported Function | 0x0000000180081828 | 0x00081828
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>'}` | 1341 (0x53d) | Exported Function | 0x0000000180081800 | 0x00081800
-`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::ICollection<unsigned short>'}` | 1037 (0x40d) | Exported Function | 0x00000001800757f0 | 0x000757f0
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::String * __ptr64>'}` | 1339 (0x53b) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::ISerializable'}` | 1344 (0x540) | Exported Function | 0x0000000180081820 | 0x00081820
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1342 (0x53e) | Exported Function | 0x0000000180081868 | 0x00081868
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ArrayList<class UnBCL::String * __ptr64>'}` | 1072 (0x430) | Exported Function | 0x0000000180074e08 | 0x00074e08
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::String * __ptr64>'}` | 1073 (0x431) | Exported Function | 0x0000000180075518 | 0x00075518
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::String * __ptr64>'}` | 1074 (0x432) | Exported Function | 0x0000000180073e98 | 0x00073e98
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IList<class UnBCL::String * __ptr64>'}` | 1075 (0x433) | Exported Function | 0x0000000180074008 | 0x00074008
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 1077 (0x435) | Exported Function | 0x0000000180074100 | 0x00074100
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::IList<class UnBCL::String * __ptr64>'}` | 1340 (0x53c) | Exported Function | 0x0000000180081858 | 0x00081858
-`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::Array<unsigned short>'}` | 1036 (0x40c) | Exported Function | 0x00000001800742f0 | 0x000742f0
-`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::_::SerializableArrayBase<unsigned short>'}` | 1040 (0x410) | Exported Function | 0x00000001800750b0 | 0x000750b0
-`const UnBCL::Array<unsigned short>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >'}` | 1315 (0x523) | Exported Function | 0x0000000180081868 | 0x00081868
-`const UnBCL::Array<unsigned char>::``vbtable'{for ``UnBCL::ICollection<unsigned char>'}` | 1306 (0x51a) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::Array<unsigned char>::``vbtable'{for ``UnBCL::IList<unsigned char>'}` | 1307 (0x51b) | Exported Function | 0x0000000180081858 | 0x00081858
-`const UnBCL::Array<unsigned char>::``vbtable'{for ``UnBCL::ISerializable'}` | 1311 (0x51f) | Exported Function | 0x0000000180081820 | 0x00081820
-`const UnBCL::Array<unsigned char>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >'}` | 1309 (0x51d) | Exported Function | 0x0000000180081868 | 0x00081868
-`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::_::SerializableArrayBase<unsigned char>'}` | 1032 (0x408) | Exported Function | 0x0000000180074e98 | 0x00074e98
-`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::Array<unsigned char>'}` | 1028 (0x404) | Exported Function | 0x0000000180075758 | 0x00075758
-`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::ICollection<unsigned char>'}` | 1029 (0x405) | Exported Function | 0x0000000180074ad8 | 0x00074ad8
-`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::IEnumerable<unsigned char>'}` | 1030 (0x406) | Exported Function | 0x0000000180073d78 | 0x00073d78
-`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::IList<unsigned char>'}` | 1031 (0x407) | Exported Function | 0x0000000180073fa0 | 0x00073fa0
-`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::ISerializable'}` | 1034 (0x40a) | Exported Function | 0x0000000180075040 | 0x00075040
-`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::Object'}` | 1035 (0x40b) | Exported Function | 0x0000000180073af0 | 0x00073af0
-`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >'}` | 1033 (0x409) | Exported Function | 0x00000001800757c8 | 0x000757c8
-`const UnBCL::Array<unsigned short>::``vbtable'` | 1316 (0x524) | Exported Function | 0x00000001800817d0 | 0x000817d0
-`const UnBCL::Array<unsigned short>::``vbtable'{for ``UnBCL::_::SerializableArrayBase<unsigned short>'}` | 1314 (0x522) | Exported Function | 0x00000001800818a0 | 0x000818a0
-`const UnBCL::Array<unsigned short>::``vbtable'{for ``UnBCL::ICollection<unsigned short>'}` | 1312 (0x520) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::Array<unsigned short>::``vbtable'{for ``UnBCL::IList<unsigned short>'}` | 1313 (0x521) | Exported Function | 0x0000000180081858 | 0x00081858
-`const UnBCL::Array<unsigned short>::``vbtable'{for ``UnBCL::ISerializable'}` | 1317 (0x525) | Exported Function | 0x0000000180081820 | 0x00081820
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1078 (0x436) | Exported Function | 0x0000000180074468 | 0x00074468
-`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1076 (0x434) | Exported Function | 0x0000000180073e68 | 0x00073e68
-`const UnBCL::ArrayList<unsigned short>::``vbtable'` | 1337 (0x539) | Exported Function | 0x0000000180081828 | 0x00081828
-`const UnBCL::ArrayList<unsigned short>::``vbtable'{for ``UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>'}` | 1335 (0x537) | Exported Function | 0x0000000180081800 | 0x00081800
-`const UnBCL::CaseInsensitiveStringComparer::``vftable'{for ``UnBCL::IComparer<class UnBCL::String * __ptr64>'}` | 1198 (0x4ae) | Exported Function | 0x0000000180074298 | 0x00074298
-`const UnBCL::CaseInsensitiveStringComparer::``vftable'{for ``UnBCL::Object'}` | 1199 (0x4af) | Exported Function | 0x00000001800746e8 | 0x000746e8
-`const UnBCL::Char::``vftable'` | 1200 (0x4b0) | Exported Function | 0x0000000180075ce8 | 0x00075ce8
-`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vbtable'` | 1347 (0x543) | Exported Function | 0x0000000180082588 | 0x00082588
-`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::Object * __ptr64>'}` | 1345 (0x541) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vbtable'{for ``UnBCL::IList<class UnBCL::Object * __ptr64>'}` | 1346 (0x542) | Exported Function | 0x0000000180081858 | 0x00081858
-`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::CollectionBase<class UnBCL::Object * __ptr64>'}` | 1079 (0x437) | Exported Function | 0x0000000180075da0 | 0x00075da0
-`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::Object * __ptr64>'}` | 1080 (0x438) | Exported Function | 0x0000000180075d30 | 0x00075d30
-`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::Object * __ptr64>'}` | 1081 (0x439) | Exported Function | 0x0000000180075d90 | 0x00075d90
-`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::IList<class UnBCL::Object * __ptr64>'}` | 1082 (0x43a) | Exported Function | 0x0000000180075db8 | 0x00075db8
-`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1083 (0x43b) | Exported Function | 0x0000000180075d48 | 0x00075d48
-`const UnBCL::ConsoleLogHandler::``vftable'` | 1201 (0x4b1) | Exported Function | 0x0000000180073788 | 0x00073788
-`const UnBCL::DateTime::``vftable'` | 1202 (0x4b2) | Exported Function | 0x0000000180075e20 | 0x00075e20
-`const UnBCL::Decoder::``vftable'{for ``UnBCL::Decoder'}` | 1203 (0x4b3) | Exported Function | 0x00000001800736d0 | 0x000736d0
-`const UnBCL::Decoder::``vftable'{for ``UnBCL::Object'}` | 1204 (0x4b4) | Exported Function | 0x00000001800736e8 | 0x000736e8
-`const UnBCL::Delegate::``vbtable'` | 1366 (0x556) | Exported Function | 0x000000018008a218 | 0x0008a218
-`const UnBCL::Delegate::``vftable'` | 1205 (0x4b5) | Exported Function | 0x0000000180078730 | 0x00078730
-`const UnBCL::CaseInsensitiveStringComparer::``vbtable'` | 1365 (0x555) | Exported Function | 0x00000001800818c8 | 0x000818c8
-`const UnBCL::Array<unsigned char>::``vbtable'{for ``UnBCL::_::SerializableArrayBase<unsigned char>'}` | 1308 (0x51c) | Exported Function | 0x00000001800818a0 | 0x000818a0
-`const UnBCL::BufferedStream::``vftable'{for ``UnBCL::Stream'}` | 1197 (0x4ad) | Exported Function | 0x0000000180075a48 | 0x00075a48
-`const UnBCL::BufferedStream::``vftable'{for ``UnBCL::IDisposable'}` | 1195 (0x4ab) | Exported Function | 0x0000000180075cd8 | 0x00075cd8
-`const UnBCL::ArrayList<unsigned short>::``vbtable'{for ``UnBCL::ICollection<unsigned short>'}` | 1333 (0x535) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::ArrayList<unsigned short>::``vbtable'{for ``UnBCL::IList<unsigned short>'}` | 1334 (0x536) | Exported Function | 0x0000000180081858 | 0x00081858
-`const UnBCL::ArrayList<unsigned short>::``vbtable'{for ``UnBCL::ISerializable'}` | 1338 (0x53a) | Exported Function | 0x0000000180081820 | 0x00081820
-`const UnBCL::ArrayList<unsigned short>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >'}` | 1336 (0x538) | Exported Function | 0x0000000180081868 | 0x00081868
-`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::ArrayList<unsigned short>'}` | 1065 (0x429) | Exported Function | 0x0000000180075578 | 0x00075578
-`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::ICollection<unsigned short>'}` | 1066 (0x42a) | Exported Function | 0x00000001800755f8 | 0x000755f8
-`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::IEnumerable<unsigned short>'}` | 1067 (0x42b) | Exported Function | 0x0000000180074158 | 0x00074158
-`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::IList<unsigned short>'}` | 1068 (0x42c) | Exported Function | 0x0000000180075120 | 0x00075120
-`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::ISerializable'}` | 1070 (0x42e) | Exported Function | 0x0000000180074178 | 0x00074178
-`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::Object'}` | 1071 (0x42f) | Exported Function | 0x0000000180074568 | 0x00074568
-`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >'}` | 1069 (0x42d) | Exported Function | 0x0000000180073c30 | 0x00073c30
-`const UnBCL::ASCIIEncoding::``vbtable'{for ``UnBCL::ASCIIEncoding'}` | 1361 (0x551) | Exported Function | 0x0000000180082020 | 0x00082020
-`const UnBCL::ASCIIEncoding::``vbtable'{for ``UnBCL::Encoding'}` | 1362 (0x552) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`const UnBCL::ASCIIEncoding::``vftable'{for ``UnBCL::Encoding'}` | 1187 (0x4a3) | Exported Function | 0x00000001800758b0 | 0x000758b0
-`const UnBCL::ASCIIEncoding::``vftable'{for ``UnBCL::Object'}` | 1188 (0x4a4) | Exported Function | 0x0000000180075868 | 0x00075868
-`const UnBCL::BufferedStream::``vbtable'{for ``UnBCL::IDisposable'}` | 1363 (0x553) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`const UnBCL::BufferedStream::``vbtable'{for ``UnBCL::Stream'}` | 1364 (0x554) | Exported Function | 0x00000001800824e8 | 0x000824e8
-`const UnBCL::BufferedStream::``vftable'{for ``UnBCL::Object'}` | 1196 (0x4ac) | Exported Function | 0x0000000180075b80 | 0x00075b80
-`const UnBCL::DirectoryInfo::``vftable'` | 1206 (0x4b6) | Exported Function | 0x0000000180075aa0 | 0x00075aa0
-`const UnBCL::Array<unsigned char>::``vbtable'` | 1310 (0x51e) | Exported Function | 0x00000001800817d0 | 0x000817d0
-`const UnBCL::Array<int>::``vftable'{for ``UnBCL::Object'}` | 1051 (0x41b) | Exported Function | 0x00000001800741a0 | 0x000741a0
-`const UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::``vftable'{for ``UnBCL::ICollection<unsigned short>'}` | 1113 (0x459) | Exported Function | 0x00000001800757d8 | 0x000757d8
-`const UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::``vftable'{for ``UnBCL::IEnumerable<unsigned short>'}` | 1114 (0x45a) | Exported Function | 0x0000000180075378 | 0x00075378
-`const UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::``vftable'{for ``UnBCL::IList<unsigned short>'}` | 1115 (0x45b) | Exported Function | 0x0000000180074ed8 | 0x00074ed8
-`const UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::``vftable'{for ``UnBCL::ISerializable'}` | 1117 (0x45d) | Exported Function | 0x0000000180074780 | 0x00074780
-`const UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::``vftable'{for ``UnBCL::Object'}` | 1118 (0x45e) | Exported Function | 0x0000000180073cd8 | 0x00073cd8
-`const UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >'}` | 1116 (0x45c) | Exported Function | 0x0000000180073b48 | 0x00073b48
-`const UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'` | 1155 (0x483) | Exported Function | 0x0000000180076540 | 0x00076540
-`const UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1110 (0x456) | Exported Function | 0x0000000180074c80 | 0x00074c80
-`const UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >'}` | 1152 (0x480) | Exported Function | 0x00000001800769e0 | 0x000769e0
-`const UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 1156 (0x484) | Exported Function | 0x0000000180076758 | 0x00076758
-`const UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1157 (0x485) | Exported Function | 0x0000000180076300 | 0x00076300
-`const UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1154 (0x482) | Exported Function | 0x0000000180076738 | 0x00076738
-`const UnBCL::_::SerializableStackBase<int>::``vftable'` | 1161 (0x489) | Exported Function | 0x00000001800783e0 | 0x000783e0
-`const UnBCL::_::SerializableStackBase<int>::``vftable'{for ``UnBCL::ICollection<int>'}` | 1158 (0x486) | Exported Function | 0x0000000180078238 | 0x00078238
-`const UnBCL::_::SerializableStackBase<int>::``vftable'{for ``UnBCL::IEnumerable<int>'}` | 1159 (0x487) | Exported Function | 0x0000000180078358 | 0x00078358
-`const UnBCL::_::SerializableStackBase<int>::``vftable'{for ``UnBCL::ISerializable'}` | 1162 (0x48a) | Exported Function | 0x00000001800783f8 | 0x000783f8
-`const UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >'}` | 1153 (0x481) | Exported Function | 0x0000000180076aa8 | 0x00076aa8
-`const UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1112 (0x458) | Exported Function | 0x0000000180074d20 | 0x00074d20
-`const UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 1111 (0x457) | Exported Function | 0x0000000180074730 | 0x00074730
-`const UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IList<class UnBCL::String * __ptr64>'}` | 1109 (0x455) | Exported Function | 0x0000000180074a08 | 0x00074a08
-`const UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 1105 (0x451) | Exported Function | 0x0000000180073c40 | 0x00073c40
-`const UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1106 (0x452) | Exported Function | 0x0000000180074a80 | 0x00074a80
-`const UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >'}` | 1103 (0x44f) | Exported Function | 0x0000000180073b38 | 0x00073b38
-`const UnBCL::_::SerializableArrayBase<int>::``vftable'` | 1100 (0x44c) | Exported Function | 0x0000000180075428 | 0x00075428
-`const UnBCL::_::SerializableArrayBase<int>::``vftable'{for ``UnBCL::ISerializable'}` | 1101 (0x44d) | Exported Function | 0x0000000180075638 | 0x00075638
-`const UnBCL::_::SerializableArrayBase<int>::``vftable'{for ``UnBCL::Object'}` | 1102 (0x44e) | Exported Function | 0x00000001800744d8 | 0x000744d8
-`const UnBCL::_::SerializableArrayBase<int>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >'}` | 1099 (0x44b) | Exported Function | 0x0000000180075418 | 0x00075418
-`const UnBCL::_::SerializableArrayBase<unsigned char>::``vftable'` | 1092 (0x444) | Exported Function | 0x0000000180073d60 | 0x00073d60
-`const UnBCL::_::SerializableArrayBase<unsigned char>::``vftable'{for ``UnBCL::ISerializable'}` | 1093 (0x445) | Exported Function | 0x0000000180074eb0 | 0x00074eb0
-`const UnBCL::_::SerializableArrayBase<unsigned char>::``vftable'{for ``UnBCL::Object'}` | 1094 (0x446) | Exported Function | 0x0000000180074408 | 0x00074408
-`const UnBCL::_::SerializableArrayBase<unsigned char>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >'}` | 1091 (0x443) | Exported Function | 0x00000001800751f0 | 0x000751f0
-`const UnBCL::_::SerializableArrayBase<unsigned short>::``vftable'` | 1096 (0x448) | Exported Function | 0x0000000180074140 | 0x00074140
-`const UnBCL::_::SerializableArrayBase<unsigned short>::``vftable'{for ``UnBCL::ISerializable'}` | 1097 (0x449) | Exported Function | 0x00000001800746a8 | 0x000746a8
-`const UnBCL::_::SerializableArrayBase<unsigned short>::``vftable'{for ``UnBCL::Object'}` | 1098 (0x44a) | Exported Function | 0x0000000180074520 | 0x00074520
-`const UnBCL::_::SerializableArrayBase<unsigned short>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >'}` | 1095 (0x447) | Exported Function | 0x00000001800753a0 | 0x000753a0
-`const UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::String * __ptr64>'}` | 1107 (0x453) | Exported Function | 0x0000000180075268 | 0x00075268
-`const UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::String * __ptr64>'}` | 1108 (0x454) | Exported Function | 0x0000000180075368 | 0x00075368
-`const UnBCL::_::SerializableStackBase<int>::``vftable'{for ``UnBCL::Object'}` | 1163 (0x48b) | Exported Function | 0x00000001800781f0 | 0x000781f0
-`const UnBCL::_::SerializableStackBase<int>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >'}` | 1160 (0x488) | Exported Function | 0x0000000180078348 | 0x00078348
-`const UnBCL::AbandonedMutexException::``vftable'` | 1189 (0x4a5) | Exported Function | 0x00000001800731d8 | 0x000731d8
-`const UnBCL::ApplicationException::``vftable'` | 1190 (0x4a6) | Exported Function | 0x0000000180073888 | 0x00073888
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::String * __ptr64>'}` | 1059 (0x423) | Exported Function | 0x0000000180074ac8 | 0x00074ac8
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IList<class UnBCL::String * __ptr64>'}` | 1060 (0x424) | Exported Function | 0x0000000180074920 | 0x00074920
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 1063 (0x427) | Exported Function | 0x0000000180075490 | 0x00075490
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1064 (0x428) | Exported Function | 0x0000000180074618 | 0x00074618
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >'}` | 1062 (0x426) | Exported Function | 0x0000000180073a68 | 0x00073a68
-`const UnBCL::Array<int>::``vbtable'` | 1322 (0x52a) | Exported Function | 0x00000001800817d0 | 0x000817d0
-`const UnBCL::Array<int>::``vbtable'{for ``UnBCL::_::SerializableArrayBase<int>'}` | 1320 (0x528) | Exported Function | 0x00000001800818a0 | 0x000818a0
-`const UnBCL::Array<int>::``vbtable'{for ``UnBCL::ICollection<int>'}` | 1318 (0x526) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::Array<int>::``vbtable'{for ``UnBCL::IList<int>'}` | 1319 (0x527) | Exported Function | 0x0000000180081858 | 0x00081858
-`const UnBCL::Array<int>::``vbtable'{for ``UnBCL::ISerializable'}` | 1323 (0x52b) | Exported Function | 0x0000000180081820 | 0x00081820
-`const UnBCL::Array<int>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >'}` | 1321 (0x529) | Exported Function | 0x0000000180081868 | 0x00081868
-`const UnBCL::Array<int>::``vftable'{for ``UnBCL::_::SerializableArrayBase<int>'}` | 1048 (0x418) | Exported Function | 0x0000000180074450 | 0x00074450
-`const UnBCL::Array<int>::``vftable'{for ``UnBCL::Array<int>'}` | 1044 (0x414) | Exported Function | 0x0000000180075068 | 0x00075068
-`const UnBCL::Array<int>::``vftable'{for ``UnBCL::ICollection<int>'}` | 1045 (0x415) | Exported Function | 0x0000000180074128 | 0x00074128
-`const UnBCL::Array<int>::``vftable'{for ``UnBCL::IEnumerable<int>'}` | 1046 (0x416) | Exported Function | 0x0000000180074c90 | 0x00074c90
-`const UnBCL::Array<int>::``vftable'{for ``UnBCL::IList<int>'}` | 1047 (0x417) | Exported Function | 0x00000001800741f8 | 0x000741f8
-`const UnBCL::Array<int>::``vftable'{for ``UnBCL::ISerializable'}` | 1050 (0x41a) | Exported Function | 0x0000000180074cb0 | 0x00074cb0
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::String * __ptr64>'}` | 1058 (0x422) | Exported Function | 0x0000000180074b00 | 0x00074b00
-`const UnBCL::Array<int>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >'}` | 1049 (0x419) | Exported Function | 0x00000001800757b8 | 0x000757b8
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Array<class UnBCL::String * __ptr64>'}` | 1057 (0x421) | Exported Function | 0x0000000180073a90 | 0x00073a90
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >'}` | 1330 (0x532) | Exported Function | 0x0000000180081868 | 0x00081868
-`const UnBCL::ArgumentException::``vftable'` | 1191 (0x4a7) | Exported Function | 0x0000000180073260 | 0x00073260
-`const UnBCL::ArgumentNullException::``vftable'` | 1192 (0x4a8) | Exported Function | 0x0000000180073150 | 0x00073150
-`const UnBCL::ArgumentOutOfRangeException::``vftable'` | 1193 (0x4a9) | Exported Function | 0x0000000180073910 | 0x00073910
-`const UnBCL::ArithmeticException::``vftable'` | 1194 (0x4aa) | Exported Function | 0x0000000180073998 | 0x00073998
-`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vbtable'` | 1326 (0x52e) | Exported Function | 0x0000000180081878 | 0x00081878
-`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::Object * __ptr64>'}` | 1324 (0x52c) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vbtable'{for ``UnBCL::IList<class UnBCL::Object * __ptr64>'}` | 1325 (0x52d) | Exported Function | 0x0000000180081858 | 0x00081858
-`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::Array<class UnBCL::Object * __ptr64>'}` | 1052 (0x41c) | Exported Function | 0x00000001800745b0 | 0x000745b0
-`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::Object * __ptr64>'}` | 1053 (0x41d) | Exported Function | 0x0000000180073d20 | 0x00073d20
-`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::Object * __ptr64>'}` | 1054 (0x41e) | Exported Function | 0x0000000180075628 | 0x00075628
-`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::IList<class UnBCL::Object * __ptr64>'}` | 1055 (0x41f) | Exported Function | 0x0000000180074358 | 0x00074358
-`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1056 (0x420) | Exported Function | 0x0000000180074660 | 0x00074660
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vbtable'` | 1331 (0x533) | Exported Function | 0x00000001800817d0 | 0x000817d0
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>'}` | 1329 (0x531) | Exported Function | 0x00000001800818a0 | 0x000818a0
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::String * __ptr64>'}` | 1327 (0x52f) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::IList<class UnBCL::String * __ptr64>'}` | 1328 (0x530) | Exported Function | 0x0000000180081858 | 0x00081858
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::ISerializable'}` | 1332 (0x534) | Exported Function | 0x0000000180081820 | 0x00081820
-`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>'}` | 1061 (0x425) | Exported Function | 0x00000001800746d0 | 0x000746d0
-`const UnBCL::Encoding::``vftable'{for ``UnBCL::Encoding'}` | 1207 (0x4b7) | Exported Function | 0x0000000180073810 | 0x00073810
-`const UnBCL::Encoding::``vftable'{for ``UnBCL::Object'}` | 1208 (0x4b8) | Exported Function | 0x00000001800735a8 | 0x000735a8
-`const UnBCL::Exception::``vftable'` | 1209 (0x4b9) | Exported Function | 0x0000000180073408 | 0x00073408
-`const UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::``vftable'{for ``UnBCL::Object'}` | 1148 (0x47c) | Exported Function | 0x0000000180076418 | 0x00076418
-`const UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >'}` | 1146 (0x47a) | Exported Function | 0x0000000180076348 | 0x00076348
-`const UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1141 (0x475) | Exported Function | 0x0000000180078298 | 0x00078298
-`const UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::Object'}` | 1142 (0x476) | Exported Function | 0x00000001800782d8 | 0x000782d8
-`const UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >'}` | 1140 (0x474) | Exported Function | 0x0000000180078150 | 0x00078150
-`const UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1150 (0x47e) | Exported Function | 0x0000000180076a60 | 0x00076a60
-`const UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::``vftable'{for ``UnBCL::Object'}` | 1151 (0x47f) | Exported Function | 0x0000000180076908 | 0x00076908
-`const UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::``vftable'{for ``UnBCL::ISerializable'}` | 1147 (0x47b) | Exported Function | 0x0000000180076358 | 0x00076358
-`const UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >'}` | 1149 (0x47d) | Exported Function | 0x00000001800762f0 | 0x000762f0
-`const UnBCL::SerializationId::``vftable'` | 1255 (0x4e7) | Exported Function | 0x0000000180073560 | 0x00073560
-`const UnBCL::SerializationStream::``vftable'` | 1256 (0x4e8) | Exported Function | 0x0000000180077b30 | 0x00077b30
-`const UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::``vftable'` | 1165 (0x48d) | Exported Function | 0x0000000180074168 | 0x00074168
-`const UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::``vftable'` | 1164 (0x48c) | Exported Function | 0x0000000180074a70 | 0x00074a70
-`const UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::``vftable'` | 1166 (0x48e) | Exported Function | 0x0000000180075660 | 0x00075660
-`const UnBCL::SmartPtr<class UnBCL::Decoder>::``vftable'` | 1167 (0x48f) | Exported Function | 0x0000000180073800 | 0x00073800
-`const UnBCL::SmartPtr<class UnBCL::Encoding>::``vftable'` | 1168 (0x490) | Exported Function | 0x0000000180073798 | 0x00073798
-`const UnBCL::SerializationException::``vftable'` | 1254 (0x4e6) | Exported Function | 0x0000000180077768 | 0x00077768
-`const UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >'}` | 1143 (0x477) | Exported Function | 0x00000001800771b0 | 0x000771b0
-`const UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::``vftable'{for ``UnBCL::Object'}` | 1145 (0x479) | Exported Function | 0x0000000180077148 | 0x00077148
-`const UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::``vftable'{for ``UnBCL::ISerializable'}` | 1144 (0x478) | Exported Function | 0x0000000180076dc0 | 0x00076dc0
-`const UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::Object'}` | 1127 (0x467) | Exported Function | 0x0000000180073a20 | 0x00073a20
-`const UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >'}` | 1125 (0x465) | Exported Function | 0x0000000180074ca0 | 0x00074ca0
-`const UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1120 (0x460) | Exported Function | 0x0000000180075008 | 0x00075008
-`const UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::Object'}` | 1121 (0x461) | Exported Function | 0x00000001800750c8 | 0x000750c8
-`const UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >'}` | 1119 (0x45f) | Exported Function | 0x0000000180073e78 | 0x00073e78
-`const UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1123 (0x463) | Exported Function | 0x0000000180073d38 | 0x00073d38
-`const UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::Object'}` | 1124 (0x464) | Exported Function | 0x0000000180074c38 | 0x00074c38
-`const UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >'}` | 1122 (0x462) | Exported Function | 0x0000000180075670 | 0x00075670
-`const UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1135 (0x46f) | Exported Function | 0x0000000180075330 | 0x00075330
-`const UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::Object'}` | 1136 (0x470) | Exported Function | 0x0000000180075530 | 0x00075530
-`const UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1134 (0x46e) | Exported Function | 0x0000000180075248 | 0x00075248
-`const UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1132 (0x46c) | Exported Function | 0x0000000180073ea8 | 0x00073ea8
-`const UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::Object'}` | 1133 (0x46d) | Exported Function | 0x0000000180074cd8 | 0x00074cd8
-`const UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >'}` | 1131 (0x46b) | Exported Function | 0x00000001800740f0 | 0x000740f0
-`const UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1138 (0x472) | Exported Function | 0x0000000180076488 | 0x00076488
-`const UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::Object'}` | 1139 (0x473) | Exported Function | 0x00000001800766a8 | 0x000766a8
-`const UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1137 (0x471) | Exported Function | 0x0000000180076748 | 0x00076748
-`const UnBCL::SmartPtr<class UnBCL::Object>::``vftable'` | 1169 (0x491) | Exported Function | 0x0000000180073370 | 0x00073370
-`const UnBCL::SmartPtr<class UnBCL::SerializationId>::``vftable'` | 1170 (0x492) | Exported Function | 0x00000001800734d8 | 0x000734d8
-`const UnBCL::SmartPtr<class UnBCL::SerializationStream>::``vftable'` | 1171 (0x493) | Exported Function | 0x00000001800736c0 | 0x000736c0
-`const UnBCL::SmartPtr<class UnBCL::Stream>::``vftable'` | 1172 (0x494) | Exported Function | 0x00000001800734e8 | 0x000734e8
-`const UnBCL::Stream::``vftable'{for ``UnBCL::IDisposable'}` | 1258 (0x4ea) | Exported Function | 0x00000001800737f0 | 0x000737f0
-`const UnBCL::Stream::``vftable'{for ``UnBCL::Object'}` | 1259 (0x4eb) | Exported Function | 0x00000001800737a8 | 0x000737a8
-`const UnBCL::Stream::``vftable'{for ``UnBCL::Stream'}` | 1257 (0x4e9) | Exported Function | 0x0000000180073730 | 0x00073730
-`const UnBCL::StreamReader::``vbtable'` | 1390 (0x56e) | Exported Function | 0x0000000180094db8 | 0x00094db8
-`const UnBCL::StreamReader::``vbtable'{for ``UnBCL::IDisposable'}` | 1391 (0x56f) | Exported Function | 0x0000000180094db0 | 0x00094db0
-`const UnBCL::StreamReader::``vbtable'{for ``UnBCL::TextReader'}` | 1392 (0x570) | Exported Function | 0x0000000180094da0 | 0x00094da0
-`const UnBCL::StreamReader::``vftable'` | 1260 (0x4ec) | Exported Function | 0x0000000180078420 | 0x00078420
-`const UnBCL::StreamReader::``vftable'{for ``UnBCL::IDisposable'}` | 1261 (0x4ed) | Exported Function | 0x0000000180078458 | 0x00078458
-`const UnBCL::StreamReader::``vftable'{for ``UnBCL::Object'}` | 1262 (0x4ee) | Exported Function | 0x0000000180078468 | 0x00078468
-`const UnBCL::StreamWriter::``vbtable'` | 1393 (0x571) | Exported Function | 0x0000000180095130 | 0x00095130
-`const UnBCL::StreamWriter::``vbtable'{for ``UnBCL::IDisposable'}` | 1394 (0x572) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`const UnBCL::StreamWriter::``vbtable'{for ``UnBCL::TextWriter'}` | 1395 (0x573) | Exported Function | 0x0000000180095140 | 0x00095140
-`const UnBCL::StreamWriter::``vftable'` | 1263 (0x4ef) | Exported Function | 0x0000000180078610 | 0x00078610
-`const UnBCL::StreamWriter::``vftable'{for ``UnBCL::IDisposable'}` | 1264 (0x4f0) | Exported Function | 0x0000000180078660 | 0x00078660
-`const UnBCL::StreamWriter::``vftable'{for ``UnBCL::Object'}` | 1265 (0x4f1) | Exported Function | 0x0000000180078568 | 0x00078568
-`const UnBCL::String::``vftable'` | 1266 (0x4f2) | Exported Function | 0x0000000180078670 | 0x00078670
-`const UnBCL::StringBuilder::``vftable'` | 1267 (0x4f3) | Exported Function | 0x0000000180076950 | 0x00076950
-`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::Stack<int>'}` | 1176 (0x498) | Exported Function | 0x0000000180078108 | 0x00078108
-`const UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1126 (0x466) | Exported Function | 0x0000000180073c68 | 0x00073c68
-`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >'}` | 1179 (0x49b) | Exported Function | 0x0000000180078338 | 0x00078338
-`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::ISerializable'}` | 1181 (0x49d) | Exported Function | 0x00000001800781c8 | 0x000781c8
-`const UnBCL::SmartPtr<class UnBCL::String>::``vftable'` | 1173 (0x495) | Exported Function | 0x0000000180074e88 | 0x00074e88
-`const UnBCL::SmartPtr<class UnBCL::Version>::``vftable'` | 1174 (0x496) | Exported Function | 0x00000001800763d8 | 0x000763d8
-`const UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::``vftable'` | 1175 (0x497) | Exported Function | 0x0000000180078a40 | 0x00078a40
-`const UnBCL::Stack<class UnBCL::Object * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::Object * __ptr64>'}` | 1360 (0x550) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::Stack<class UnBCL::Object * __ptr64>::``vbtable'{for ``UnBCL::Stack<class UnBCL::Object * __ptr64>'}` | 1359 (0x54f) | Exported Function | 0x0000000180094a38 | 0x00094a38
-`const UnBCL::Stack<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::Object * __ptr64>'}` | 1184 (0x4a0) | Exported Function | 0x0000000180078320 | 0x00078320
-`const UnBCL::Stack<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::Object * __ptr64>'}` | 1185 (0x4a1) | Exported Function | 0x00000001800780f8 | 0x000780f8
-`const UnBCL::Stack<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1186 (0x4a2) | Exported Function | 0x0000000180078250 | 0x00078250
-`const UnBCL::Stack<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::Stack<class UnBCL::Object * __ptr64>'}` | 1183 (0x49f) | Exported Function | 0x0000000180078170 | 0x00078170
-`const UnBCL::Stack<int>::``vbtable'{for ``UnBCL::_::SerializableStackBase<int>'}` | 1357 (0x54d) | Exported Function | 0x0000000180094a20 | 0x00094a20
-`const UnBCL::Stack<int>::``vbtable'{for ``UnBCL::ICollection<int>'}` | 1355 (0x54b) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::Stack<int>::``vbtable'{for ``UnBCL::ISerializable'}` | 1358 (0x54e) | Exported Function | 0x00000001800949f8 | 0x000949f8
-`const UnBCL::Stack<int>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >'}` | 1356 (0x54c) | Exported Function | 0x00000001800949e8 | 0x000949e8
-`const UnBCL::Stack<int>::``vbtable'{for ``UnBCL::Stack<int>'}` | 1354 (0x54a) | Exported Function | 0x0000000180094a00 | 0x00094a00
-`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::_::SerializableStackBase<int>'}` | 1180 (0x49c) | Exported Function | 0x0000000180078368 | 0x00078368
-`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::ICollection<int>'}` | 1177 (0x499) | Exported Function | 0x00000001800782c0 | 0x000782c0
-`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::IEnumerable<int>'}` | 1178 (0x49a) | Exported Function | 0x0000000180078160 | 0x00078160
-`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::Object'}` | 1182 (0x49e) | Exported Function | 0x0000000180078380 | 0x00078380
-`const UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >'}` | 1128 (0x468) | Exported Function | 0x0000000180075358 | 0x00075358
-`const UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::Object'}` | 1130 (0x46a) | Exported Function | 0x00000001800747e0 | 0x000747e0
-`const UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1129 (0x469) | Exported Function | 0x0000000180074dd0 | 0x00074dd0
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1090 (0x442) | Exported Function | 0x0000000180076390 | 0x00076390
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1088 (0x440) | Exported Function | 0x00000001800763e8 | 0x000763e8
-`const UnBCL::HeapMemoryManager::``vftable'` | 1217 (0x4c1) | Exported Function | 0x00000001800734f8 | 0x000734f8
-`const UnBCL::IndexOutOfRangeException::``vftable'` | 1218 (0x4c2) | Exported Function | 0x0000000180076ca8 | 0x00076ca8
-`const UnBCL::InvalidCastException::``vftable'` | 1219 (0x4c3) | Exported Function | 0x0000000180073380 | 0x00073380
-`const UnBCL::InvalidOperationException::``vftable'` | 1220 (0x4c4) | Exported Function | 0x0000000180074bb0 | 0x00074bb0
-`const UnBCL::MemoryStream::``vbtable'{for ``UnBCL::IDisposable'}` | 1370 (0x55a) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`const UnBCL::MemoryStream::``vbtable'{for ``UnBCL::Stream'}` | 1371 (0x55b) | Exported Function | 0x000000018007c9a0 | 0x0007c9a0
-`const UnBCL::MemoryStream::``vftable'{for ``UnBCL::IDisposable'}` | 1221 (0x4c5) | Exported Function | 0x0000000180073878 | 0x00073878
-`const UnBCL::MemoryStream::``vftable'{for ``UnBCL::Object'}` | 1222 (0x4c6) | Exported Function | 0x0000000180073678 | 0x00073678
-`const UnBCL::MemoryStream::``vftable'{for ``UnBCL::Stream'}` | 1223 (0x4c7) | Exported Function | 0x00000001800735f0 | 0x000735f0
-`const UnBCL::Monitor::``vbtable'` | 1372 (0x55c) | Exported Function | 0x000000018008a218 | 0x0008a218
-`const UnBCL::Monitor::``vftable'` | 1224 (0x4c8) | Exported Function | 0x0000000180076d30 | 0x00076d30
-`const UnBCL::MultiSz::``vbtable'` | 1374 (0x55e) | Exported Function | 0x000000018008aef0 | 0x0008aef0
-`const UnBCL::MultiSz::``vbtable'{for ``UnBCL::ISerializable'}` | 1375 (0x55f) | Exported Function | 0x000000018008aec8 | 0x0008aec8
-`const UnBCL::MultiSz::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >'}` | 1373 (0x55d) | Exported Function | 0x000000018008aee0 | 0x0008aee0
-`const UnBCL::MultiSz::``vftable'{for ``UnBCL::IEnumerable<unsigned short const * __ptr64>'}` | 1225 (0x4c9) | Exported Function | 0x00000001800770f0 | 0x000770f0
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 1089 (0x441) | Exported Function | 0x0000000180076460 | 0x00076460
-`const UnBCL::MultiSz::``vftable'{for ``UnBCL::ISerializable'}` | 1227 (0x4cb) | Exported Function | 0x0000000180076d88 | 0x00076d88
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >'}` | 1087 (0x43f) | Exported Function | 0x0000000180076650 | 0x00076650
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >'}` | 1085 (0x43d) | Exported Function | 0x00000001800766f0 | 0x000766f0
-`const UnBCL::ExternalException::``vftable'` | 1210 (0x4ba) | Exported Function | 0x0000000180075c50 | 0x00075c50
-`const UnBCL::FileStream::``vbtable'{for ``UnBCL::IDisposable'}` | 1367 (0x557) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`const UnBCL::FileStream::``vbtable'{for ``UnBCL::Stream'}` | 1368 (0x558) | Exported Function | 0x00000001800824d8 | 0x000824d8
-`const UnBCL::FileStream::``vftable'{for ``UnBCL::IDisposable'}` | 1211 (0x4bb) | Exported Function | 0x0000000180075b70 | 0x00075b70
-`const UnBCL::FileStream::``vftable'{for ``UnBCL::Object'}` | 1212 (0x4bc) | Exported Function | 0x0000000180075918 | 0x00075918
-`const UnBCL::FileStream::``vftable'{for ``UnBCL::Stream'}` | 1213 (0x4bd) | Exported Function | 0x0000000180075960 | 0x00075960
-`const UnBCL::FileSystemEnumerator::``vbtable'` | 1369 (0x559) | Exported Function | 0x0000000180088578 | 0x00088578
-`const UnBCL::FileSystemEnumerator::``vftable'{for ``UnBCL::IEnumerator<class UnBCL::String * __ptr64>'}` | 1214 (0x4be) | Exported Function | 0x0000000180076bf8 | 0x00076bf8
-`const UnBCL::FileSystemEnumerator::``vftable'{for ``UnBCL::Object'}` | 1215 (0x4bf) | Exported Function | 0x0000000180076bb0 | 0x00076bb0
-`const UnBCL::FormatException::``vftable'` | 1216 (0x4c0) | Exported Function | 0x0000000180076c20 | 0x00076c20
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbtable'` | 1352 (0x548) | Exported Function | 0x0000000180087a38 | 0x00087a38
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>'}` | 1351 (0x547) | Exported Function | 0x0000000180081800 | 0x00081800
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >'}` | 1348 (0x544) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>'}` | 1349 (0x545) | Exported Function | 0x0000000180081858 | 0x00081858
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::ISerializable'}` | 1353 (0x549) | Exported Function | 0x0000000180081820 | 0x00081820
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1350 (0x546) | Exported Function | 0x0000000180081868 | 0x00081868
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>'}` | 1084 (0x43c) | Exported Function | 0x00000001800762b0 | 0x000762b0
-`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>'}` | 1086 (0x43e) | Exported Function | 0x0000000180076810 | 0x00076810
-`const UnBCL::StringPtr::``vftable'{for ``UnBCL::SmartPtr<class UnBCL::String>'}` | 1269 (0x4f5) | Exported Function | 0x00000001800786d8 | 0x000786d8
-`const UnBCL::MultiSz::``vftable'{for ``UnBCL::Object'}` | 1228 (0x4cc) | Exported Function | 0x00000001800771d0 | 0x000771d0
-`const UnBCL::MutableString::``vftable'` | 1229 (0x4cd) | Exported Function | 0x0000000180073490 | 0x00073490
-`const UnBCL::Process::``vftable'` | 1243 (0x4db) | Exported Function | 0x00000001800774b0 | 0x000774b0
-`const UnBCL::Process::``vftable'{for ``UnBCL::IDisposable'}` | 1244 (0x4dc) | Exported Function | 0x0000000180077458 | 0x00077458
-`const UnBCL::ProcessStartInfo::``vftable'` | 1245 (0x4dd) | Exported Function | 0x0000000180077468 | 0x00077468
-`const UnBCL::RegHandle::``vbtable'` | 1384 (0x568) | Exported Function | 0x000000018008c0a8 | 0x0008c0a8
-`const UnBCL::RegHandle::``vftable'` | 1246 (0x4de) | Exported Function | 0x00000001800774f8 | 0x000774f8
-`const UnBCL::Registry::``vbtable'` | 1386 (0x56a) | Exported Function | 0x000000018008a218 | 0x0008a218
-`const UnBCL::Registry::``vftable'` | 1249 (0x4e1) | Exported Function | 0x0000000180077540 | 0x00077540
-`const UnBCL::RegistryKey::``vbtable'{for ``UnBCL::IDisposable'}` | 1388 (0x56c) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`const UnBCL::RegistryKey::``vbtable'{for ``UnBCL::RegistryKey'}` | 1387 (0x56b) | Exported Function | 0x000000018008af08 | 0x0008af08
-`const UnBCL::RegistryKey::``vftable'{for ``UnBCL::IDisposable'}` | 1250 (0x4e2) | Exported Function | 0x00000001800775d0 | 0x000775d0
-`const UnBCL::RegistryKey::``vftable'{for ``UnBCL::Object'}` | 1251 (0x4e3) | Exported Function | 0x0000000180077588 | 0x00077588
-`const UnBCL::RegSubkeyEnumerator::``vbtable'` | 1385 (0x569) | Exported Function | 0x0000000180087a10 | 0x00087a10
-`const UnBCL::RegSubkeyEnumerator::``vftable'` | 1248 (0x4e0) | Exported Function | 0x0000000180077678 | 0x00077678
-`const UnBCL::RegSubkeyEnumerator::``vftable'{for ``UnBCL::IEnumerator<unsigned short const * __ptr64>'}` | 1247 (0x4df) | Exported Function | 0x00000001800776c0 | 0x000776c0
-`const UnBCL::SecurityException::``vftable'` | 1253 (0x4e5) | Exported Function | 0x00000001800775e0 | 0x000775e0
-`const UnBCL::SEHException::``vbtable'` | 1389 (0x56d) | Exported Function | 0x000000018008c0a8 | 0x0008c0a8
-`const UnBCL::SEHException::``vftable'` | 1252 (0x4e4) | Exported Function | 0x00000001800776e0 | 0x000776e0
-`const UnBCL::Process::``vbtable'{for ``UnBCL::Process'}` | 1382 (0x566) | Exported Function | 0x000000018008af08 | 0x0008af08
-`const UnBCL::MultiSz::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >'}` | 1226 (0x4ca) | Exported Function | 0x00000001800771a0 | 0x000771a0
-`const UnBCL::Process::``vbtable'{for ``UnBCL::IDisposable'}` | 1383 (0x567) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`const UnBCL::OverflowException::``vftable'` | 1241 (0x4d9) | Exported Function | 0x00000001800759c0 | 0x000759c0
-`const UnBCL::Mutex::``vbtable'` | 1376 (0x560) | Exported Function | 0x000000018008af80 | 0x0008af80
-`const UnBCL::Mutex::``vbtable'{for ``UnBCL::IDisposable'}` | 1377 (0x561) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`const UnBCL::Mutex::``vbtable'{for ``UnBCL::WaitHandle'}` | 1378 (0x562) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::Mutex::``vftable'` | 1230 (0x4ce) | Exported Function | 0x00000001800772b0 | 0x000772b0
-`const UnBCL::Mutex::``vftable'{for ``UnBCL::IDisposable'}` | 1231 (0x4cf) | Exported Function | 0x00000001800772d0 | 0x000772d0
-`const UnBCL::Mutex::``vftable'{for ``UnBCL::Object'}` | 1232 (0x4d0) | Exported Function | 0x0000000180077248 | 0x00077248
-`const UnBCL::Mutex::``vftable'{for ``UnBCL::WaitHandle'}` | 1233 (0x4d1) | Exported Function | 0x0000000180077290 | 0x00077290
-`const UnBCL::NotSupportedException::``vftable'` | 1234 (0x4d2) | Exported Function | 0x0000000180073de0 | 0x00073de0
-`const UnBCL::Object::``vftable'` | 1235 (0x4d3) | Exported Function | 0x0000000180077348 | 0x00077348
-`const UnBCL::ObjectDisposedException::``vftable'` | 1236 (0x4d4) | Exported Function | 0x0000000180075ae8 | 0x00075ae8
-`const UnBCL::OperatingSystem::``vbtable'{for ``UnBCL::ISerializable'}` | 1381 (0x565) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`const UnBCL::OperatingSystem::``vbtable'{for ``UnBCL::OperatingSystem'}` | 1379 (0x563) | Exported Function | 0x000000018008b360 | 0x0008b360
-`const UnBCL::OperatingSystem::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >'}` | 1380 (0x564) | Exported Function | 0x0000000180081848 | 0x00081848
-`const UnBCL::OperatingSystem::``vftable'` | 1238 (0x4d6) | Exported Function | 0x00000001800773d8 | 0x000773d8
-`const UnBCL::OperatingSystem::``vftable'{for ``UnBCL::ISerializable'}` | 1239 (0x4d7) | Exported Function | 0x0000000180077430 | 0x00077430
-`const UnBCL::OperatingSystem::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >'}` | 1237 (0x4d5) | Exported Function | 0x0000000180077420 | 0x00077420
-`const UnBCL::OutOfMemoryException::``vftable'` | 1240 (0x4d8) | Exported Function | 0x0000000180076b28 | 0x00076b28
-`const UnBCL::PathTooLongException::``vftable'` | 1242 (0x4da) | Exported Function | 0x0000000180075f18 | 0x00075f18
-`UnBCLReleaseResources` | 2662 (0xa66) | Exported Function | 0x000000018005ce90 | 0x0005ce90
-`public: __cdecl UnBCL::ArgumentException::ArgumentException(void) __ptr64` | 200 (0xc8) | Exported Function | 0x0000000180007d30 | 0x00007d30
-`public: __cdecl UnBCL::ArgumentNullException::ArgumentNullException(class UnBCL::ArgumentNullException const & __ptr64) __ptr64` | 202 (0xca) | Exported Function | 0x0000000180001860 | 0x00001860
-`public: __int64 __cdecl UnBCL::DateTime::get_Ticks(void)const __ptr64` | 2576 (0xa10) | Exported Function | 0x00000001800140d0 | 0x000140d0
-`public: __int64 __cdecl UnBCL::DateTime::ToFileTime(void)const __ptr64` | 2279 (0x8e7) | Exported Function | 0x0000000180023c10 | 0x00023c10
-`public: __int64 __cdecl UnBCL::DateTime::ToFileTimeUtc(void)const __ptr64` | 2280 (0x8e8) | Exported Function | 0x0000000180023c70 | 0x00023c70
-`public: __int64 __cdecl UnBCL::TimeSpan::get_Ticks(void)const __ptr64` | 2577 (0xa11) | Exported Function | 0x00000001800140d0 | 0x000140d0
-`public: bool __cdecl ATL::CSimpleStringT<unsigned short,0>::IsEmpty(void)const __ptr64` | 1979 (0x7bb) | Exported Function | 0x0000000180006790 | 0x00006790
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::operator!(void)const __ptr64` | 960 (0x3c0) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::operator!(void)const __ptr64` | 959 (0x3bf) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`public: __cdecl UnBCL::XPathException::XPathException(class UnBCL::XPathException const & __ptr64) __ptr64` | 477 (0x1dd) | Exported Function | 0x000000018005fa90 | 0x0005fa90
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::operator!(void)const __ptr64` | 961 (0x3c1) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::operator!(void)const __ptr64` | 963 (0x3c3) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Object>::operator!(void)const __ptr64` | 964 (0x3c4) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::operator!(void)const __ptr64` | 965 (0x3c5) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::operator!(void)const __ptr64` | 966 (0x3c6) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::operator!(void)const __ptr64` | 967 (0x3c7) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::String>::operator!(void)const __ptr64` | 968 (0x3c8) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Version>::operator!(void)const __ptr64` | 969 (0x3c9) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::operator!(void)const __ptr64` | 962 (0x3c2) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`public: __cdecl UnBCL::XPathException::XPathException(class UnBCL::XPathException && __ptr64) __ptr64` | 476 (0x1dc) | Exported Function | 0x000000018005fa90 | 0x0005fa90
-`public: __cdecl UnBCL::XPathException::XPathException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64,long) __ptr64` | 478 (0x1de) | Exported Function | 0x000000018006b510 | 0x0006b510
-`public: __cdecl UnBCL::XmlSchemaSet::XmlSchemaSet(void) __ptr64` | 512 (0x200) | Exported Function | 0x0000000180065e50 | 0x00065e50
-`public: __cdecl UnBCL::XmlLite::XmlAttribute::XmlAttribute(class UnBCL::XmlLite::XmlAttribute && __ptr64) __ptr64` | 483 (0x1e3) | Exported Function | 0x000000018005ff40 | 0x0005ff40
-`public: __cdecl UnBCL::XmlLite::XmlAttribute::XmlAttribute(class UnBCL::XmlLite::XmlAttribute const & __ptr64) __ptr64` | 484 (0x1e4) | Exported Function | 0x000000018005ff40 | 0x0005ff40
-`public: __cdecl UnBCL::XmlLite::XmlAttribute::XmlAttribute(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 485 (0x1e5) | Exported Function | 0x000000018005fec0 | 0x0005fec0
-`public: __cdecl UnBCL::XmlLite::XmlAttributeCollection::XmlAttributeCollection(class UnBCL::XmlLite::XmlAttributeCollection const & __ptr64) __ptr64` | 489 (0x1e9) | Exported Function | 0x0000000180060170 | 0x00060170
-`public: __cdecl UnBCL::XmlLite::XmlAttributeCollection::XmlAttributeCollection(void) __ptr64` | 490 (0x1ea) | Exported Function | 0x0000000180060060 | 0x00060060
-`public: __cdecl UnBCL::XmlLite::XmlDocument::XmlDocument(class UnBCL::XmlLite::XmlDocument const & __ptr64) __ptr64` | 494 (0x1ee) | Exported Function | 0x0000000180060290 | 0x00060290
-`public: __cdecl UnBCL::XmlLite::XmlDocument::XmlDocument(void) __ptr64` | 495 (0x1ef) | Exported Function | 0x0000000180061d60 | 0x00061d60
-`public: __cdecl UnBCL::XmlLite::XmlNode::XmlNode(class UnBCL::XmlLite::XmlNode const & __ptr64) __ptr64` | 504 (0x1f8) | Exported Function | 0x000000018005fb20 | 0x0005fb20
-`public: __cdecl UnBCL::XmlLite::XmlNode::XmlNode(enum UnBCL::XmlNodeType,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 505 (0x1f9) | Exported Function | 0x0000000180060ad0 | 0x00060ad0
-`public: __cdecl UnBCL::XmlLite::XmlNodeList::XmlNodeList(class UnBCL::XmlLite::XmlNodeList const & __ptr64) __ptr64` | 509 (0x1fd) | Exported Function | 0x000000018005fda0 | 0x0005fda0
-`public: __cdecl UnBCL::XmlLite::XmlNodeList::XmlNodeList(void) __ptr64` | 510 (0x1fe) | Exported Function | 0x000000018005fc90 | 0x0005fc90
-`public: __cdecl UnBCL::XmlNamespaceManager::XmlNamespaceManager(class UnBCL::XmlNamespaceManager const & __ptr64) __ptr64` | 499 (0x1f3) | Exported Function | 0x0000000180060880 | 0x00060880
-`public: __cdecl UnBCL::XmlNamespaceManager::XmlNamespaceManager(void) __ptr64` | 500 (0x1f4) | Exported Function | 0x0000000180065c00 | 0x00065c00
-`public: __cdecl UnBCL::XmlNode::XmlNode(class UnBCL::XmlNode const & __ptr64) __ptr64` | 503 (0x1f7) | Exported Function | 0x00000001800603a0 | 0x000603a0
-`public: __cdecl UnBCL::XmlNodeList::XmlNodeList(class UnBCL::XmlNodeList const & __ptr64) __ptr64` | 507 (0x1fb) | Exported Function | 0x0000000180060480 | 0x00060480
-`public: __cdecl UnBCL::XmlNodeList::XmlNodeList(struct IXMLDOMNodeList * __ptr64) __ptr64` | 508 (0x1fc) | Exported Function | 0x0000000180064640 | 0x00064640
-`public: __cdecl UnBCL::XmlSchemaSet::XmlSchemaSet(class UnBCL::XmlSchemaSet const & __ptr64) __ptr64` | 511 (0x1ff) | Exported Function | 0x00000001800609f0 | 0x000609f0
-`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::operator!(void)const __ptr64` | 970 (0x3ca) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator+=(char) __ptr64` | 1017 (0x3f9) | Exported Function | 0x0000000180005260 | 0x00005260
-`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator+=(class ATL::CSimpleStringT<unsigned short,0> const & __ptr64) __ptr64` | 1016 (0x3f8) | Exported Function | 0x0000000180005390 | 0x00005390
-`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator+=(unsigned char) __ptr64` | 1018 (0x3fa) | Exported Function | 0x0000000180005230 | 0x00005230
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(unsigned short) __ptr64` | 676 (0x2a4) | Exported Function | 0x00000001800053c0 | 0x000053c0
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Trim(unsigned short const * __ptr64) __ptr64` | 2298 (0x8fa) | Exported Function | 0x00000001800041e0 | 0x000041e0
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Trim(unsigned short) __ptr64` | 2297 (0x8f9) | Exported Function | 0x0000000180004210 | 0x00004210
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Trim(void) __ptr64` | 2299 (0x8fb) | Exported Function | 0x0000000180004240 | 0x00004240
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimLeft(unsigned short const * __ptr64) __ptr64` | 2304 (0x900) | Exported Function | 0x0000000180003e10 | 0x00003e10
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimLeft(unsigned short) __ptr64` | 2303 (0x8ff) | Exported Function | 0x0000000180003f40 | 0x00003f40
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimLeft(void) __ptr64` | 2305 (0x901) | Exported Function | 0x0000000180004260 | 0x00004260
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimRight(unsigned short const * __ptr64) __ptr64` | 2307 (0x903) | Exported Function | 0x0000000180004040 | 0x00004040
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimRight(unsigned short) __ptr64` | 2306 (0x902) | Exported Function | 0x0000000180004130 | 0x00004130
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimRight(void) __ptr64` | 2308 (0x904) | Exported Function | 0x0000000180004370 | 0x00004370
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Left(int)const __ptr64` | 2009 (0x7d9) | Exported Function | 0x0000000180003ae0 | 0x00003ae0
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Mid(int)const __ptr64` | 2043 (0x7fb) | Exported Function | 0x0000000180003d90 | 0x00003d90
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Mid(int,int)const __ptr64` | 2044 (0x7fc) | Exported Function | 0x0000000180003c80 | 0x00003c80
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Right(int)const __ptr64` | 2161 (0x871) | Exported Function | 0x0000000180003ba0 | 0x00003ba0
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::SpanExcluding(unsigned short const * __ptr64)const __ptr64` | 2214 (0x8a6) | Exported Function | 0x0000000180003a00 | 0x00003a00
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::SpanIncluding(unsigned short const * __ptr64)const __ptr64` | 2215 (0x8a7) | Exported Function | 0x0000000180003a70 | 0x00003a70
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Tokenize(unsigned short const * __ptr64,int & __ptr64)const __ptr64` | 2296 (0x8f8) | Exported Function | 0x00000001800046e0 | 0x000046e0
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(unsigned short const * __ptr64) __ptr64` | 679 (0x2a7) | Exported Function | 0x0000000180005540 | 0x00005540
-`public: __cdecl UnBCL::XmlException::XmlException(class UnBCL::XmlException const & __ptr64) __ptr64` | 497 (0x1f1) | Exported Function | 0x000000018005f920 | 0x0005f920
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(unsigned char const * __ptr64) __ptr64` | 678 (0x2a6) | Exported Function | 0x0000000180005440 | 0x00005440
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > const & __ptr64) __ptr64` | 674 (0x2a2) | Exported Function | 0x0000000180005580 | 0x00005580
-`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator+=(unsigned short const * __ptr64) __ptr64` | 1020 (0x3fc) | Exported Function | 0x0000000180005350 | 0x00005350
-`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator+=(unsigned short) __ptr64` | 1019 (0x3fb) | Exported Function | 0x0000000180005210 | 0x00005210
-`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator=(class ATL::CSimpleStringT<unsigned short,0> const & __ptr64) __ptr64` | 670 (0x29e) | Exported Function | 0x0000000180006c20 | 0x00006c20
-`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator=(class ATL::CSimpleStringT<unsigned short,1> const & __ptr64) __ptr64` | 671 (0x29f) | Exported Function | 0x0000000180006c20 | 0x00006c20
-`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator=(unsigned short const * __ptr64) __ptr64` | 672 (0x2a0) | Exported Function | 0x0000000180005540 | 0x00005540
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::MakeLower(void) __ptr64` | 2031 (0x7ef) | Exported Function | 0x00000001800044c0 | 0x000044c0
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::MakeReverse(void) __ptr64` | 2033 (0x7f1) | Exported Function | 0x0000000180004440 | 0x00004440
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::MakeUpper(void) __ptr64` | 2036 (0x7f4) | Exported Function | 0x0000000180004540 | 0x00004540
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(char const * __ptr64) __ptr64` | 1026 (0x402) | Exported Function | 0x0000000180005290 | 0x00005290
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(char) __ptr64` | 1023 (0x3ff) | Exported Function | 0x0000000180005260 | 0x00005260
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(class ATL::CSimpleStringT<unsigned short,0> const & __ptr64) __ptr64` | 1022 (0x3fe) | Exported Function | 0x0000000180005390 | 0x00005390
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(struct tagVARIANT const & __ptr64) __ptr64` | 1021 (0x3fd) | Exported Function | 0x0000000180007230 | 0x00007230
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(unsigned char) __ptr64` | 1024 (0x400) | Exported Function | 0x0000000180005230 | 0x00005230
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(unsigned short const * __ptr64) __ptr64` | 1027 (0x403) | Exported Function | 0x0000000180005350 | 0x00005350
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(unsigned short) __ptr64` | 1025 (0x401) | Exported Function | 0x0000000180005210 | 0x00005210
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(char const * __ptr64) __ptr64` | 677 (0x2a5) | Exported Function | 0x0000000180005450 | 0x00005450
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(char) __ptr64` | 675 (0x2a3) | Exported Function | 0x0000000180005410 | 0x00005410
-`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(struct tagVARIANT const & __ptr64) __ptr64` | 673 (0x2a1) | Exported Function | 0x0000000180007180 | 0x00007180
-`public: class UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::operator=(class UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 732 (0x2dc) | Exported Function | 0x0000000180009090 | 0x00009090
-`public: __cdecl UnBCL::XmlException::XmlException(class UnBCL::XmlException && __ptr64) __ptr64` | 496 (0x1f0) | Exported Function | 0x000000018005f920 | 0x0005f920
-`public: __cdecl UnBCL::XmlDocument::XmlDocument(void) __ptr64` | 493 (0x1ed) | Exported Function | 0x0000000180064cd0 | 0x00064cd0
-`public: __cdecl UnBCL::SyncObject::SyncObject(class UnBCL::SyncObject const & __ptr64) __ptr64` | 422 (0x1a6) | Exported Function | 0x0000000180041a20 | 0x00041a20
-`public: __cdecl UnBCL::SyncObject::SyncObject(void) __ptr64` | 423 (0x1a7) | Exported Function | 0x0000000180041a20 | 0x00041a20
-`public: __cdecl UnBCL::SystemException::SystemException(class UnBCL::String const * __ptr64) __ptr64` | 428 (0x1ac) | Exported Function | 0x000000018005b4a0 | 0x0005b4a0
-`public: __cdecl UnBCL::SystemException::SystemException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 429 (0x1ad) | Exported Function | 0x000000018005b520 | 0x0005b520
-`public: __cdecl UnBCL::SystemException::SystemException(class UnBCL::SystemException && __ptr64) __ptr64` | 424 (0x1a8) | Exported Function | 0x00000001800015d0 | 0x000015d0
-`public: __cdecl UnBCL::SystemException::SystemException(class UnBCL::SystemException const & __ptr64) __ptr64` | 425 (0x1a9) | Exported Function | 0x00000001800015d0 | 0x000015d0
-`public: __cdecl UnBCL::SystemException::SystemException(unsigned short const * __ptr64) __ptr64` | 426 (0x1aa) | Exported Function | 0x000000018005b4e0 | 0x0005b4e0
-`public: __cdecl UnBCL::StringPtr::StringPtr(void) __ptr64` | 421 (0x1a5) | Exported Function | 0x000000018005b0c0 | 0x0005b0c0
-`public: __cdecl UnBCL::SystemException::SystemException(unsigned short const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 427 (0x1ab) | Exported Function | 0x000000018005b560 | 0x0005b560
-`public: __cdecl UnBCL::SystemInfo::SystemInfo(class UnBCL::SystemInfo && __ptr64) __ptr64` | 431 (0x1af) | Exported Function | 0x000000018002d180 | 0x0002d180
-`public: __cdecl UnBCL::SystemInfo::SystemInfo(class UnBCL::SystemInfo const & __ptr64) __ptr64` | 432 (0x1b0) | Exported Function | 0x000000018002d180 | 0x0002d180
-`public: __cdecl UnBCL::SystemInfo::SystemInfo(void) __ptr64` | 433 (0x1b1) | Exported Function | 0x000000018002d010 | 0x0002d010
-`public: __cdecl UnBCL::TextReader::TextReader(class UnBCL::TextReader && __ptr64) __ptr64` | 434 (0x1b2) | Exported Function | 0x0000000180054260 | 0x00054260
-`public: __cdecl UnBCL::TextReader::TextReader(class UnBCL::TextReader const & __ptr64) __ptr64` | 435 (0x1b3) | Exported Function | 0x0000000180054260 | 0x00054260
-`public: __cdecl UnBCL::TextReader::TextReader(void) __ptr64` | 436 (0x1b4) | Exported Function | 0x0000000180054260 | 0x00054260
-`public: __cdecl UnBCL::TextWriter::TextWriter(class UnBCL::TextWriter && __ptr64) __ptr64` | 438 (0x1b6) | Exported Function | 0x00000001800550e0 | 0x000550e0
-`public: __cdecl UnBCL::SystemException::SystemException(void) __ptr64` | 430 (0x1ae) | Exported Function | 0x000000018005b460 | 0x0005b460
-`public: __cdecl UnBCL::StringPtr::StringPtr(unsigned short const * __ptr64) __ptr64` | 419 (0x1a3) | Exported Function | 0x000000018005b130 | 0x0005b130
-`public: __cdecl UnBCL::StringPtr::StringPtr(class UnBCL::StringPtr const & __ptr64) __ptr64` | 417 (0x1a1) | Exported Function | 0x000000018005b260 | 0x0005b260
-`public: __cdecl UnBCL::StringPtr::StringPtr(class UnBCL::String * __ptr64) __ptr64` | 418 (0x1a2) | Exported Function | 0x000000018005b1e0 | 0x0005b1e0
-`public: __cdecl UnBCL::StreamWriter::StreamWriter(class UnBCL::Stream * __ptr64,int) __ptr64` | 402 (0x192) | Exported Function | 0x0000000180055530 | 0x00055530
-`public: __cdecl UnBCL::StreamWriter::StreamWriter(class UnBCL::StreamWriter const & __ptr64) __ptr64` | 401 (0x191) | Exported Function | 0x00000001800552a0 | 0x000552a0
-`public: __cdecl UnBCL::StreamWriter::StreamWriter(class UnBCL::String const * __ptr64,int,class UnBCL::Encoding * __ptr64,int,int) __ptr64` | 404 (0x194) | Exported Function | 0x0000000180055810 | 0x00055810
-`public: __cdecl UnBCL::String::String(class UnBCL::SerializationStream & __ptr64) __ptr64` | 405 (0x195) | Exported Function | 0x0000000180055e80 | 0x00055e80
-`public: __cdecl UnBCL::String::String(class UnBCL::String const & __ptr64) __ptr64` | 406 (0x196) | Exported Function | 0x0000000180055f00 | 0x00055f00
-`public: __cdecl UnBCL::String::String(class UnBCL::String const * __ptr64) __ptr64` | 410 (0x19a) | Exported Function | 0x0000000180055f00 | 0x00055f00
-`public: __cdecl UnBCL::String::String(unsigned short const * __ptr64) __ptr64` | 408 (0x198) | Exported Function | 0x0000000180055f80 | 0x00055f80
-`public: __cdecl UnBCL::String::String(unsigned short const * __ptr64,int,int) __ptr64` | 409 (0x199) | Exported Function | 0x0000000180055ff0 | 0x00055ff0
-`public: __cdecl UnBCL::String::String(unsigned short,int) __ptr64` | 407 (0x197) | Exported Function | 0x0000000180056180 | 0x00056180
-`public: __cdecl UnBCL::String::String(void) __ptr64` | 411 (0x19b) | Exported Function | 0x0000000180055e10 | 0x00055e10
-`public: __cdecl UnBCL::StringBuilder::StringBuilder(class UnBCL::String const * __ptr64) __ptr64` | 415 (0x19f) | Exported Function | 0x000000018005a6d0 | 0x0005a6d0
-`public: __cdecl UnBCL::StringBuilder::StringBuilder(class UnBCL::StringBuilder const & __ptr64) __ptr64` | 412 (0x19c) | Exported Function | 0x000000018002c600 | 0x0002c600
-`public: __cdecl UnBCL::StringBuilder::StringBuilder(int) __ptr64` | 413 (0x19d) | Exported Function | 0x000000018005a480 | 0x0005a480
-`public: __cdecl UnBCL::StringBuilder::StringBuilder(unsigned short const * __ptr64) __ptr64` | 414 (0x19e) | Exported Function | 0x000000018005a5a0 | 0x0005a5a0
-`public: __cdecl UnBCL::StringBuilder::StringBuilder(void) __ptr64` | 416 (0x1a0) | Exported Function | 0x000000018005a3b0 | 0x0005a3b0
-`public: __cdecl UnBCL::StringPtr::operator class UnBCL::SmartPtr<class UnBCL::String>(void) __ptr64` | 990 (0x3de) | Exported Function | 0x000000018005b400 | 0x0005b400
-`public: __cdecl UnBCL::StringPtr::StringPtr(class UnBCL::SmartPtr<class UnBCL::String>) __ptr64` | 420 (0x1a4) | Exported Function | 0x000000018005b2e0 | 0x0005b2e0
-`public: __cdecl UnBCL::TextWriter::TextWriter(class UnBCL::TextWriter const & __ptr64) __ptr64` | 439 (0x1b7) | Exported Function | 0x0000000180055060 | 0x00055060
-`public: __cdecl UnBCL::Thread::Thread(class UnBCL::Thread const & __ptr64) __ptr64` | 441 (0x1b9) | Exported Function | 0x000000018005bb80 | 0x0005bb80
-`public: __cdecl UnBCL::Thread::Thread(class UnBCL::ThreadStartDelegate * __ptr64) __ptr64` | 442 (0x1ba) | Exported Function | 0x000000018005bd20 | 0x0005bd20
-`public: __cdecl UnBCL::ThreadStateException::ThreadStateException(class UnBCL::String const * __ptr64) __ptr64` | 446 (0x1be) | Exported Function | 0x000000018005c360 | 0x0005c360
-`public: __cdecl UnBCL::WaitHandle::WaitHandle(class UnBCL::WaitHandle const & __ptr64) __ptr64` | 466 (0x1d2) | Exported Function | 0x0000000180040c90 | 0x00040c90
-`public: __cdecl UnBCL::Win32Exception::Win32Exception(class UnBCL::Win32Exception && __ptr64) __ptr64` | 467 (0x1d3) | Exported Function | 0x0000000180021be0 | 0x00021be0
-`public: __cdecl UnBCL::Win32Exception::Win32Exception(class UnBCL::Win32Exception const & __ptr64) __ptr64` | 468 (0x1d4) | Exported Function | 0x0000000180021be0 | 0x00021be0
-`public: __cdecl UnBCL::Win32Exception::Win32Exception(unsigned long) __ptr64` | 469 (0x1d5) | Exported Function | 0x000000018005f260 | 0x0005f260
-`public: __cdecl UnBCL::Win32Exception::Win32Exception(unsigned long,class UnBCL::String const * __ptr64) __ptr64` | 472 (0x1d8) | Exported Function | 0x000000018005f510 | 0x0005f510
-`public: __cdecl UnBCL::Win32Exception::Win32Exception(unsigned long,class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 473 (0x1d9) | Exported Function | 0x000000018005f600 | 0x0005f600
-`public: __cdecl UnBCL::Win32Exception::Win32Exception(unsigned long,unsigned short const * __ptr64) __ptr64` | 470 (0x1d6) | Exported Function | 0x000000018005f330 | 0x0005f330
-`public: __cdecl UnBCL::Win32Exception::Win32Exception(unsigned long,unsigned short const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 471 (0x1d7) | Exported Function | 0x000000018005f700 | 0x0005f700
-`public: __cdecl UnBCL::Win32Exception::Win32Exception(unsigned short const * __ptr64) __ptr64` | 474 (0x1da) | Exported Function | 0x000000018005f410 | 0x0005f410
-`public: __cdecl UnBCL::Win32Exception::Win32Exception(void) __ptr64` | 475 (0x1db) | Exported Function | 0x000000018005f160 | 0x0005f160
-`public: __cdecl UnBCL::XmlAttribute::XmlAttribute(class UnBCL::XmlAttribute && __ptr64) __ptr64` | 480 (0x1e0) | Exported Function | 0x0000000180060590 | 0x00060590
-`public: __cdecl UnBCL::XmlAttribute::XmlAttribute(class UnBCL::XmlAttribute const & __ptr64) __ptr64` | 481 (0x1e1) | Exported Function | 0x0000000180060590 | 0x00060590
-`public: __cdecl UnBCL::XmlAttribute::XmlAttribute(struct IXMLDOMNode * __ptr64) __ptr64` | 482 (0x1e2) | Exported Function | 0x00000001800647e0 | 0x000647e0
-`public: __cdecl UnBCL::XmlAttributeCollection::XmlAttributeCollection(class UnBCL::XmlAttributeCollection const & __ptr64) __ptr64` | 487 (0x1e7) | Exported Function | 0x0000000180060680 | 0x00060680
-`public: __cdecl UnBCL::XmlAttributeCollection::XmlAttributeCollection(struct IXMLDOMNamedNodeMap * __ptr64) __ptr64` | 488 (0x1e8) | Exported Function | 0x0000000180064890 | 0x00064890
-`public: __cdecl UnBCL::XmlDocument::XmlDocument(class UnBCL::XmlDocument const & __ptr64) __ptr64` | 491 (0x1eb) | Exported Function | 0x0000000180060760 | 0x00060760
-`public: __cdecl UnBCL::XmlDocument::XmlDocument(struct IXMLDOMDocument3 * __ptr64) __ptr64` | 492 (0x1ec) | Exported Function | 0x0000000180064bf0 | 0x00064bf0
-`public: __cdecl UnBCL::Version::Version(void) __ptr64` | 464 (0x1d0) | Exported Function | 0x000000018005d930 | 0x0005d930
-`public: __cdecl UnBCL::XmlException::XmlException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64,int,int,long) __ptr64` | 498 (0x1f2) | Exported Function | 0x000000018006b430 | 0x0006b430
-`public: __cdecl UnBCL::Version::Version(unsigned short const * __ptr64) __ptr64` | 463 (0x1cf) | Exported Function | 0x000000018005dbe0 | 0x0005dbe0
-`public: __cdecl UnBCL::Version::Version(int,int,int) __ptr64` | 461 (0x1cd) | Exported Function | 0x000000018005e2e0 | 0x0005e2e0
-`public: __cdecl UnBCL::ThreadStateException::ThreadStateException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 447 (0x1bf) | Exported Function | 0x000000018005c3e0 | 0x0005c3e0
-`public: __cdecl UnBCL::ThreadStateException::ThreadStateException(class UnBCL::ThreadStateException && __ptr64) __ptr64` | 443 (0x1bb) | Exported Function | 0x000000018005ba10 | 0x0005ba10
-`public: __cdecl UnBCL::ThreadStateException::ThreadStateException(class UnBCL::ThreadStateException const & __ptr64) __ptr64` | 444 (0x1bc) | Exported Function | 0x000000018005ba10 | 0x0005ba10
-`public: __cdecl UnBCL::ThreadStateException::ThreadStateException(unsigned short const * __ptr64) __ptr64` | 445 (0x1bd) | Exported Function | 0x000000018005c3a0 | 0x0005c3a0
-`public: __cdecl UnBCL::ThreadStateException::ThreadStateException(void) __ptr64` | 448 (0x1c0) | Exported Function | 0x000000018005c320 | 0x0005c320
-`public: __cdecl UnBCL::TimeSpan::operator double(void)const __ptr64` | 991 (0x3df) | Exported Function | 0x000000018005cb20 | 0x0005cb20
-`public: __cdecl UnBCL::TimeSpan::TimeSpan(__int64) __ptr64` | 453 (0x1c5) | Exported Function | 0x000000018005c480 | 0x0005c480
-`public: __cdecl UnBCL::TimeSpan::TimeSpan(class UnBCL::TimeSpan const & __ptr64) __ptr64` | 449 (0x1c1) | Exported Function | 0x000000018005c420 | 0x0005c420
-`public: __cdecl UnBCL::TimeSpan::TimeSpan(int,int,int) __ptr64` | 450 (0x1c2) | Exported Function | 0x000000018005c4d0 | 0x0005c4d0
-`public: __cdecl UnBCL::TimeSpan::TimeSpan(int,int,int,int) __ptr64` | 451 (0x1c3) | Exported Function | 0x000000018005c540 | 0x0005c540
-`public: __cdecl UnBCL::TimeSpan::TimeSpan(int,int,int,int,int) __ptr64` | 452 (0x1c4) | Exported Function | 0x000000018005c5c0 | 0x0005c5c0
-`public: __cdecl UnBCL::Type::Type(class UnBCL::Type const & __ptr64) __ptr64` | 455 (0x1c7) | Exported Function | 0x0000000180033ff0 | 0x00033ff0
-`public: __cdecl UnBCL::UnicodeEncoding::UnicodeEncoding(class UnBCL::UnicodeEncoding && __ptr64) __ptr64` | 456 (0x1c8) | Exported Function | 0x000000018002be20 | 0x0002be20
-`public: __cdecl UnBCL::UnicodeEncoding::UnicodeEncoding(class UnBCL::UnicodeEncoding const & __ptr64) __ptr64` | 457 (0x1c9) | Exported Function | 0x000000018002bd40 | 0x0002bd40
-`public: __cdecl UnBCL::UnicodeEncoding::UnicodeEncoding(void) __ptr64` | 458 (0x1ca) | Exported Function | 0x000000018005cea0 | 0x0005cea0
-`public: __cdecl UnBCL::Version::Version(class UnBCL::Version const & __ptr64) __ptr64` | 459 (0x1cb) | Exported Function | 0x000000018005da60 | 0x0005da60
-`public: __cdecl UnBCL::Version::Version(int,int) __ptr64` | 460 (0x1cc) | Exported Function | 0x000000018005e140 | 0x0005e140
-`public: __cdecl UnBCL::Version::Version(int,int,int,class UnBCL::String * __ptr64) __ptr64` | 462 (0x1ce) | Exported Function | 0x000000018005e480 | 0x0005e480
-`public: class UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::operator=(class UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 733 (0x2dd) | Exported Function | 0x0000000180009090 | 0x00009090
-`public: class UnBCL::_::SerializableArrayBase<int> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<int>::operator=(class UnBCL::_::SerializableArrayBase<int> && __ptr64) __ptr64` | 730 (0x2da) | Exported Function | 0x0000000180009090 | 0x00009090
-`public: class UnBCL::_::SerializableArrayBase<int> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<int>::operator=(class UnBCL::_::SerializableArrayBase<int> const & __ptr64) __ptr64` | 731 (0x2db) | Exported Function | 0x0000000180009090 | 0x00009090
-`public: class UnBCL::MemoryStream & __ptr64 __cdecl UnBCL::MemoryStream::operator=(class UnBCL::MemoryStream const & __ptr64) __ptr64` | 841 (0x349) | Exported Function | 0x00000001800026e0 | 0x000026e0
-`public: class UnBCL::Monitor & __ptr64 __cdecl UnBCL::Monitor::operator=(class UnBCL::Monitor const & __ptr64) __ptr64` | 842 (0x34a) | Exported Function | 0x000000018003a500 | 0x0003a500
-`public: class UnBCL::MultiSz & __ptr64 __cdecl UnBCL::MultiSz::operator=(class UnBCL::MultiSz const & __ptr64) __ptr64` | 843 (0x34b) | Exported Function | 0x000000018003b030 | 0x0003b030
-`public: class UnBCL::MutableString & __ptr64 __cdecl UnBCL::MutableString::Format(unsigned short const * __ptr64,...) __ptr64` | 1735 (0x6c7) | Exported Function | 0x0000000180002d00 | 0x00002d00
-`public: class UnBCL::MutableString & __ptr64 __cdecl UnBCL::MutableString::operator=(class UnBCL::MutableString && __ptr64) __ptr64` | 844 (0x34c) | Exported Function | 0x0000000180002a80 | 0x00002a80
-`public: class UnBCL::MutableString & __ptr64 __cdecl UnBCL::MutableString::operator=(class UnBCL::MutableString const & __ptr64) __ptr64` | 845 (0x34d) | Exported Function | 0x0000000180002a80 | 0x00002a80
-`public: class UnBCL::MutableString & __ptr64 __cdecl UnBCL::MutableString::operator=(unsigned short const * __ptr64) __ptr64` | 846 (0x34e) | Exported Function | 0x0000000180002c00 | 0x00002c00
-`public: class UnBCL::Logging & __ptr64 __cdecl UnBCL::Logging::operator=(class UnBCL::Logging const & __ptr64) __ptr64` | 840 (0x348) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::Mutex & __ptr64 __cdecl UnBCL::Mutex::operator=(class UnBCL::Mutex && __ptr64) __ptr64` | 847 (0x34f) | Exported Function | 0x0000000180041090 | 0x00041090
-`public: class UnBCL::NotSupportedException & __ptr64 __cdecl UnBCL::NotSupportedException::operator=(class UnBCL::NotSupportedException && __ptr64) __ptr64` | 849 (0x351) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::NotSupportedException & __ptr64 __cdecl UnBCL::NotSupportedException::operator=(class UnBCL::NotSupportedException const & __ptr64) __ptr64` | 850 (0x352) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::Object & __ptr64 __cdecl UnBCL::Object::operator=(class UnBCL::Object const & __ptr64) __ptr64` | 851 (0x353) | Exported Function | 0x00000001800013d0 | 0x000013d0
-`public: class UnBCL::Object & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Object>::operator*(void)const __ptr64` | 1009 (0x3f1) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Object * __ptr64 __cdecl UnBCL::SerializationStream::get_Context(void)const __ptr64` | 2403 (0x963) | Exported Function | 0x000000018002cf30 | 0x0002cf30
-`public: class UnBCL::Object * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Object>::get_P(void)const __ptr64` | 2541 (0x9ed) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Object * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Object>::operator->(void)const __ptr64` | 997 (0x3e5) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Mutex & __ptr64 __cdecl UnBCL::Mutex::operator=(class UnBCL::Mutex const & __ptr64) __ptr64` | 848 (0x350) | Exported Function | 0x0000000180041090 | 0x00041090
-`public: class UnBCL::Logging & __ptr64 __cdecl UnBCL::Logging::operator=(class UnBCL::Logging && __ptr64) __ptr64` | 839 (0x347) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::InvalidOperationException & __ptr64 __cdecl UnBCL::InvalidOperationException::operator=(class UnBCL::InvalidOperationException const & __ptr64) __ptr64` | 838 (0x346) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::InvalidOperationException & __ptr64 __cdecl UnBCL::InvalidOperationException::operator=(class UnBCL::InvalidOperationException && __ptr64) __ptr64` | 837 (0x345) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::Environment & __ptr64 __cdecl UnBCL::Environment::operator=(class UnBCL::Environment && __ptr64) __ptr64` | 811 (0x32b) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::Environment & __ptr64 __cdecl UnBCL::Environment::operator=(class UnBCL::Environment const & __ptr64) __ptr64` | 812 (0x32c) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::Exception & __ptr64 __cdecl UnBCL::Exception::operator=(class UnBCL::Exception const & __ptr64) __ptr64` | 813 (0x32d) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::ExternalException & __ptr64 __cdecl UnBCL::ExternalException::operator=(class UnBCL::ExternalException && __ptr64) __ptr64` | 814 (0x32e) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::ExternalException & __ptr64 __cdecl UnBCL::ExternalException::operator=(class UnBCL::ExternalException const & __ptr64) __ptr64` | 815 (0x32f) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::File & __ptr64 __cdecl UnBCL::File::operator=(class UnBCL::File && __ptr64) __ptr64` | 816 (0x330) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::File & __ptr64 __cdecl UnBCL::File::operator=(class UnBCL::File const & __ptr64) __ptr64` | 817 (0x331) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::FileStream & __ptr64 __cdecl UnBCL::FileStream::operator=(class UnBCL::FileStream const & __ptr64) __ptr64` | 818 (0x332) | Exported Function | 0x0000000180021770 | 0x00021770
-`public: class UnBCL::FileSystemEnumerator & __ptr64 __cdecl UnBCL::FileSystemEnumerator::operator=(class UnBCL::FileSystemEnumerator const & __ptr64) __ptr64` | 819 (0x333) | Exported Function | 0x00000001800367b0 | 0x000367b0
-`public: class UnBCL::FormatException & __ptr64 __cdecl UnBCL::FormatException::operator=(class UnBCL::FormatException && __ptr64) __ptr64` | 820 (0x334) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::FormatException & __ptr64 __cdecl UnBCL::FormatException::operator=(class UnBCL::FormatException const & __ptr64) __ptr64` | 821 (0x335) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::operator=(class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 681 (0x2a9) | Exported Function | 0x000000018002c930 | 0x0002c930
-`public: class UnBCL::HeapMemoryManager & __ptr64 __cdecl UnBCL::HeapMemoryManager::operator=(class UnBCL::HeapMemoryManager const & __ptr64) __ptr64` | 822 (0x336) | Exported Function | 0x0000000180002e60 | 0x00002e60
-`public: class UnBCL::IndexOutOfRangeException & __ptr64 __cdecl UnBCL::IndexOutOfRangeException::operator=(class UnBCL::IndexOutOfRangeException && __ptr64) __ptr64` | 831 (0x33f) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::IndexOutOfRangeException & __ptr64 __cdecl UnBCL::IndexOutOfRangeException::operator=(class UnBCL::IndexOutOfRangeException const & __ptr64) __ptr64` | 832 (0x340) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::InvalidCastException & __ptr64 __cdecl UnBCL::InvalidCastException::operator=(class UnBCL::InvalidCastException && __ptr64) __ptr64` | 835 (0x343) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::InvalidCastException & __ptr64 __cdecl UnBCL::InvalidCastException::operator=(class UnBCL::InvalidCastException const & __ptr64) __ptr64` | 836 (0x344) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::Object * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Object>::Steal(void) __ptr64` | 2227 (0x8b3) | Exported Function | 0x0000000180001d00 | 0x00001d00
-`public: class UnBCL::ObjectDisposedException & __ptr64 __cdecl UnBCL::ObjectDisposedException::operator=(class UnBCL::ObjectDisposedException && __ptr64) __ptr64` | 852 (0x354) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::ObjectDisposedException & __ptr64 __cdecl UnBCL::ObjectDisposedException::operator=(class UnBCL::ObjectDisposedException const & __ptr64) __ptr64` | 853 (0x355) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::OperatingSystem & __ptr64 __cdecl UnBCL::OperatingSystem::operator=(class UnBCL::OperatingSystem const & __ptr64) __ptr64` | 854 (0x356) | Exported Function | 0x000000018002cdb0 | 0x0002cdb0
-`public: class UnBCL::ScopedObjectLock & __ptr64 __cdecl UnBCL::ScopedObjectLock::operator=(class UnBCL::ScopedObjectLock const & __ptr64) __ptr64` | 875 (0x36b) | Exported Function | 0x0000000180001450 | 0x00001450
-`public: class UnBCL::SecurityException & __ptr64 __cdecl UnBCL::SecurityException::operator=(class UnBCL::SecurityException && __ptr64) __ptr64` | 876 (0x36c) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::SecurityException & __ptr64 __cdecl UnBCL::SecurityException::operator=(class UnBCL::SecurityException const & __ptr64) __ptr64` | 877 (0x36d) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::SEHException & __ptr64 __cdecl UnBCL::SEHException::operator=(class UnBCL::SEHException && __ptr64) __ptr64` | 871 (0x367) | Exported Function | 0x0000000180049ed0 | 0x00049ed0
-`public: class UnBCL::SEHException & __ptr64 __cdecl UnBCL::SEHException::operator=(class UnBCL::SEHException const & __ptr64) __ptr64` | 872 (0x368) | Exported Function | 0x0000000180049ed0 | 0x00049ed0
-`public: class UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> > && __ptr64) __ptr64` | 744 (0x2e8) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 745 (0x2e9) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> > && __ptr64) __ptr64` | 742 (0x2e6) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 743 (0x2e7) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> > && __ptr64) __ptr64` | 738 (0x2e2) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 739 (0x2e3) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> > && __ptr64) __ptr64` | 740 (0x2e4) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 741 (0x2e5) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> > && __ptr64) __ptr64` | 748 (0x2ec) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 749 (0x2ed) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> > && __ptr64) __ptr64` | 746 (0x2ea) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 747 (0x2eb) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`public: class UnBCL::SbRegistrationList & __ptr64 __cdecl UnBCL::SbRegistrationList::operator=(class UnBCL::SbRegistrationList const & __ptr64) __ptr64` | 874 (0x36a) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::Encoding * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::Steal(void) __ptr64` | 2226 (0x8b2) | Exported Function | 0x0000000180007710 | 0x00007710
-`public: class UnBCL::SbRegistrationList & __ptr64 __cdecl UnBCL::SbRegistrationList::operator=(class UnBCL::SbRegistrationList && __ptr64) __ptr64` | 873 (0x369) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::RegistryKey * __ptr64 __cdecl UnBCL::RegistryKey::OpenSubKey(class UnBCL::String const * __ptr64,int) __ptr64` | 2066 (0x812) | Exported Function | 0x0000000180047820 | 0x00047820
-`public: class UnBCL::OutOfMemoryException & __ptr64 __cdecl UnBCL::OutOfMemoryException::operator=(class UnBCL::OutOfMemoryException && __ptr64) __ptr64` | 855 (0x357) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::OutOfMemoryException & __ptr64 __cdecl UnBCL::OutOfMemoryException::operator=(class UnBCL::OutOfMemoryException const & __ptr64) __ptr64` | 856 (0x358) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::OverflowException & __ptr64 __cdecl UnBCL::OverflowException::operator=(class UnBCL::OverflowException && __ptr64) __ptr64` | 857 (0x359) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::OverflowException & __ptr64 __cdecl UnBCL::OverflowException::operator=(class UnBCL::OverflowException const & __ptr64) __ptr64` | 858 (0x35a) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::Path & __ptr64 __cdecl UnBCL::Path::operator=(class UnBCL::Path && __ptr64) __ptr64` | 859 (0x35b) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::Path & __ptr64 __cdecl UnBCL::Path::operator=(class UnBCL::Path const & __ptr64) __ptr64` | 860 (0x35c) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::PathTooLongException & __ptr64 __cdecl UnBCL::PathTooLongException::operator=(class UnBCL::PathTooLongException && __ptr64) __ptr64` | 861 (0x35d) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::PathTooLongException & __ptr64 __cdecl UnBCL::PathTooLongException::operator=(class UnBCL::PathTooLongException const & __ptr64) __ptr64` | 862 (0x35e) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::Process & __ptr64 __cdecl UnBCL::Process::operator=(class UnBCL::Process const & __ptr64) __ptr64` | 863 (0x35f) | Exported Function | 0x0000000180045500 | 0x00045500
-`public: class UnBCL::ProcessStartInfo & __ptr64 __cdecl UnBCL::ProcessStartInfo::operator=(class UnBCL::ProcessStartInfo && __ptr64) __ptr64` | 864 (0x360) | Exported Function | 0x0000000180045310 | 0x00045310
-`public: class UnBCL::ProcessStartInfo & __ptr64 __cdecl UnBCL::ProcessStartInfo::operator=(class UnBCL::ProcessStartInfo const & __ptr64) __ptr64` | 865 (0x361) | Exported Function | 0x0000000180045310 | 0x00045310
-`public: class UnBCL::RegHandle & __ptr64 __cdecl UnBCL::RegHandle::operator=(class UnBCL::RegHandle const & __ptr64) __ptr64` | 866 (0x362) | Exported Function | 0x0000000180046040 | 0x00046040
-`public: class UnBCL::Registry & __ptr64 __cdecl UnBCL::Registry::operator=(class UnBCL::Registry && __ptr64) __ptr64` | 868 (0x364) | Exported Function | 0x000000018003a500 | 0x0003a500
-`public: class UnBCL::Registry & __ptr64 __cdecl UnBCL::Registry::operator=(class UnBCL::Registry const & __ptr64) __ptr64` | 869 (0x365) | Exported Function | 0x000000018003a500 | 0x0003a500
-`public: class UnBCL::RegistryKey & __ptr64 __cdecl UnBCL::RegistryKey::operator=(class UnBCL::RegistryKey const & __ptr64) __ptr64` | 870 (0x366) | Exported Function | 0x0000000180046730 | 0x00046730
-`public: class UnBCL::RegistryKey * __ptr64 __cdecl UnBCL::RegistryKey::CreateSubKey(class UnBCL::String const * __ptr64) __ptr64` | 1635 (0x663) | Exported Function | 0x0000000180047560 | 0x00047560
-`public: class UnBCL::RegistryKey * __ptr64 __cdecl UnBCL::RegistryKey::OpenSubKey(class UnBCL::String const * __ptr64) __ptr64` | 2065 (0x811) | Exported Function | 0x0000000180047810 | 0x00047810
-`public: class UnBCL::RegSubkeyEnumerator & __ptr64 __cdecl UnBCL::RegSubkeyEnumerator::operator=(class UnBCL::RegSubkeyEnumerator const & __ptr64) __ptr64` | 867 (0x363) | Exported Function | 0x0000000180049690 | 0x00049690
-`public: class UnBCL::Encoding * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::operator->(void)const __ptr64` | 996 (0x3e4) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Encoding * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::get_P(void)const __ptr64` | 2540 (0x9ec) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Encoding & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::operator*(void)const __ptr64` | 1008 (0x3f0) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::ArgumentNullException & __ptr64 __cdecl UnBCL::ArgumentNullException::operator=(class UnBCL::ArgumentNullException const & __ptr64) __ptr64` | 789 (0x315) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::ArgumentOutOfRangeException & __ptr64 __cdecl UnBCL::ArgumentOutOfRangeException::operator=(class UnBCL::ArgumentOutOfRangeException && __ptr64) __ptr64` | 790 (0x316) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::ArgumentOutOfRangeException & __ptr64 __cdecl UnBCL::ArgumentOutOfRangeException::operator=(class UnBCL::ArgumentOutOfRangeException const & __ptr64) __ptr64` | 791 (0x317) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::ArithmeticException & __ptr64 __cdecl UnBCL::ArithmeticException::operator=(class UnBCL::ArithmeticException && __ptr64) __ptr64` | 792 (0x318) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::ArithmeticException & __ptr64 __cdecl UnBCL::ArithmeticException::operator=(class UnBCL::ArithmeticException const & __ptr64) __ptr64` | 793 (0x319) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::Array<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::operator=(class UnBCL::Array<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 666 (0x29a) | Exported Function | 0x0000000180008e10 | 0x00008e10
-`public: class UnBCL::Array<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::operator=(class UnBCL::Array<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 667 (0x29b) | Exported Function | 0x0000000180009170 | 0x00009170
-`public: class UnBCL::Array<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::operator*(void)const __ptr64` | 1005 (0x3ed) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::RegistryKey::GetSubKeyNames(void) __ptr64` | 1865 (0x749) | Exported Function | 0x0000000180046f50 | 0x00046f50
-`public: class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::RegistryKey::GetValueNames(void) __ptr64` | 1892 (0x764) | Exported Function | 0x0000000180047200 | 0x00047200
-`public: class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::get_P(void)const __ptr64` | 2537 (0x9e9) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::operator->(void)const __ptr64` | 993 (0x3e1) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::Steal(void) __ptr64` | 2223 (0x8af) | Exported Function | 0x0000000180007710 | 0x00007710
-`public: class UnBCL::Array<int> & __ptr64 __cdecl UnBCL::Array<int>::operator=(class UnBCL::Array<int> const & __ptr64) __ptr64` | 665 (0x299) | Exported Function | 0x0000000180009170 | 0x00009170
-`public: class UnBCL::Array<unsigned char> & __ptr64 __cdecl UnBCL::Array<unsigned char>::operator=(class UnBCL::Array<unsigned char> const & __ptr64) __ptr64` | 663 (0x297) | Exported Function | 0x0000000180009170 | 0x00009170
-`public: class UnBCL::Array<unsigned char> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::operator*(void)const __ptr64` | 1004 (0x3ec) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::MultiSz::ToByteArray(void)const __ptr64` | 2278 (0x8e6) | Exported Function | 0x000000018003b9d0 | 0x0003b9d0
-`public: class UnBCL::ArgumentNullException & __ptr64 __cdecl UnBCL::ArgumentNullException::operator=(class UnBCL::ArgumentNullException && __ptr64) __ptr64` | 788 (0x314) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::RegistryKey::GetBinaryValue(class UnBCL::String const * __ptr64) __ptr64` | 1759 (0x6df) | Exported Function | 0x0000000180048cf0 | 0x00048cf0
-`public: class UnBCL::ArgumentException & __ptr64 __cdecl UnBCL::ArgumentException::operator=(class UnBCL::ArgumentException const & __ptr64) __ptr64` | 787 (0x313) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::ApplicationException & __ptr64 __cdecl UnBCL::ApplicationException::operator=(class UnBCL::ApplicationException const & __ptr64) __ptr64` | 785 (0x311) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::_::SerializableArrayBase<unsigned char> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::operator=(class UnBCL::_::SerializableArrayBase<unsigned char> && __ptr64) __ptr64` | 726 (0x2d6) | Exported Function | 0x0000000180009090 | 0x00009090
-`public: class UnBCL::_::SerializableArrayBase<unsigned char> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::operator=(class UnBCL::_::SerializableArrayBase<unsigned char> const & __ptr64) __ptr64` | 727 (0x2d7) | Exported Function | 0x0000000180009090 | 0x00009090
-`public: class UnBCL::_::SerializableArrayBase<unsigned short> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::operator=(class UnBCL::_::SerializableArrayBase<unsigned short> && __ptr64) __ptr64` | 728 (0x2d8) | Exported Function | 0x0000000180009090 | 0x00009090
-`public: class UnBCL::_::SerializableArrayBase<unsigned short> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::operator=(class UnBCL::_::SerializableArrayBase<unsigned short> const & __ptr64) __ptr64` | 729 (0x2d9) | Exported Function | 0x0000000180009090 | 0x00009090
-`public: class UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::operator=(class UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 734 (0x2de) | Exported Function | 0x00000001800086e0 | 0x000086e0
-`public: class UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::operator=(class UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 735 (0x2df) | Exported Function | 0x00000001800086e0 | 0x000086e0
-`public: class UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short> & __ptr64 __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::operator=(class UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short> && __ptr64) __ptr64` | 736 (0x2e0) | Exported Function | 0x00000001800086e0 | 0x000086e0
-`public: class UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short> & __ptr64 __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::operator=(class UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short> const & __ptr64) __ptr64` | 737 (0x2e1) | Exported Function | 0x00000001800086e0 | 0x000086e0
-`public: class UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::operator=(class UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 760 (0x2f8) | Exported Function | 0x000000018002c810 | 0x0002c810
-`public: class UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::operator=(class UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 761 (0x2f9) | Exported Function | 0x000000018002c810 | 0x0002c810
-`public: class UnBCL::_::SerializableStackBase<int> & __ptr64 __cdecl UnBCL::_::SerializableStackBase<int>::operator=(class UnBCL::_::SerializableStackBase<int> && __ptr64) __ptr64` | 762 (0x2fa) | Exported Function | 0x0000000180052a90 | 0x00052a90
-`public: class UnBCL::_::SerializableStackBase<int> & __ptr64 __cdecl UnBCL::_::SerializableStackBase<int>::operator=(class UnBCL::_::SerializableStackBase<int> const & __ptr64) __ptr64` | 763 (0x2fb) | Exported Function | 0x0000000180052a90 | 0x00052a90
-`public: class UnBCL::AbandonedMutexException & __ptr64 __cdecl UnBCL::AbandonedMutexException::operator=(class UnBCL::AbandonedMutexException && __ptr64) __ptr64` | 780 (0x30c) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::AbandonedMutexException & __ptr64 __cdecl UnBCL::AbandonedMutexException::operator=(class UnBCL::AbandonedMutexException const & __ptr64) __ptr64` | 781 (0x30d) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::Allocator & __ptr64 __cdecl UnBCL::Allocator::operator=(class UnBCL::Allocator && __ptr64) __ptr64` | 782 (0x30e) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::Allocator & __ptr64 __cdecl UnBCL::Allocator::operator=(class UnBCL::Allocator const & __ptr64) __ptr64` | 783 (0x30f) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::ApplicationException & __ptr64 __cdecl UnBCL::ApplicationException::operator=(class UnBCL::ApplicationException && __ptr64) __ptr64` | 784 (0x310) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: class UnBCL::ArgumentException & __ptr64 __cdecl UnBCL::ArgumentException::operator=(class UnBCL::ArgumentException && __ptr64) __ptr64` | 786 (0x312) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`public: __cdecl UnBCL::StreamWriter::StreamWriter(class UnBCL::Stream * __ptr64,class UnBCL::Encoding * __ptr64,int,int,int) __ptr64` | 403 (0x193) | Exported Function | 0x00000001800556a0 | 0x000556a0
-`public: class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::get_P(void)const __ptr64` | 2536 (0x9e8) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::Steal(void) __ptr64` | 2222 (0x8ae) | Exported Function | 0x0000000180007710 | 0x00007710
-`public: class UnBCL::DateTime __cdecl UnBCL::DateTime::Add(class UnBCL::TimeSpan const & __ptr64)const __ptr64` | 1450 (0x5aa) | Exported Function | 0x0000000180023cf0 | 0x00023cf0
-`public: class UnBCL::DateTime __cdecl UnBCL::DateTime::get_Date(void)const __ptr64` | 2423 (0x977) | Exported Function | 0x00000001800239c0 | 0x000239c0
-`public: class UnBCL::DateTime __cdecl UnBCL::DateTime::Subtract(class UnBCL::TimeSpan const & __ptr64)const __ptr64` | 2262 (0x8d6) | Exported Function | 0x0000000180023d40 | 0x00023d40
-`public: class UnBCL::Decoder & __ptr64 __cdecl UnBCL::Decoder::operator=(class UnBCL::Decoder && __ptr64) __ptr64` | 801 (0x321) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: class UnBCL::Decoder & __ptr64 __cdecl UnBCL::Decoder::operator=(class UnBCL::Decoder const & __ptr64) __ptr64` | 802 (0x322) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: class UnBCL::Decoder & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::operator*(void)const __ptr64` | 1007 (0x3ef) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Decoder * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::get_P(void)const __ptr64` | 2539 (0x9eb) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Decoder * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::operator->(void)const __ptr64` | 995 (0x3e3) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::Decoder * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::Steal(void) __ptr64` | 2225 (0x8b1) | Exported Function | 0x0000000180007710 | 0x00007710
-`public: class UnBCL::Delegate & __ptr64 __cdecl UnBCL::Delegate::operator=(class UnBCL::Delegate && __ptr64) __ptr64` | 803 (0x323) | Exported Function | 0x000000018003a500 | 0x0003a500
-`public: class UnBCL::Delegate & __ptr64 __cdecl UnBCL::Delegate::operator=(class UnBCL::Delegate const & __ptr64) __ptr64` | 804 (0x324) | Exported Function | 0x000000018003a500 | 0x0003a500
-`public: class UnBCL::Directory & __ptr64 __cdecl UnBCL::Directory::operator=(class UnBCL::Directory && __ptr64) __ptr64` | 805 (0x325) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::Directory & __ptr64 __cdecl UnBCL::Directory::operator=(class UnBCL::Directory const & __ptr64) __ptr64` | 806 (0x326) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::DirectoryInfo & __ptr64 __cdecl UnBCL::DirectoryInfo::operator=(class UnBCL::DirectoryInfo && __ptr64) __ptr64` | 807 (0x327) | Exported Function | 0x00000001800013d0 | 0x000013d0
-`public: class UnBCL::DirectoryInfo & __ptr64 __cdecl UnBCL::DirectoryInfo::operator=(class UnBCL::DirectoryInfo const & __ptr64) __ptr64` | 808 (0x328) | Exported Function | 0x00000001800013d0 | 0x000013d0
-`public: class UnBCL::Encoding & __ptr64 __cdecl UnBCL::Encoding::operator=(class UnBCL::Encoding && __ptr64) __ptr64` | 809 (0x329) | Exported Function | 0x0000000180002100 | 0x00002100
-`public: class UnBCL::Encoding & __ptr64 __cdecl UnBCL::Encoding::operator=(class UnBCL::Encoding const & __ptr64) __ptr64` | 810 (0x32a) | Exported Function | 0x0000000180002100 | 0x00002100
-`public: class UnBCL::DateTime & __ptr64 __cdecl UnBCL::DateTime::operator=(class UnBCL::DateTime const & __ptr64) __ptr64` | 800 (0x320) | Exported Function | 0x00000001800234d0 | 0x000234d0
-`public: class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::operator->(void)const __ptr64` | 992 (0x3e0) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::ConsoleLogHandler & __ptr64 __cdecl UnBCL::ConsoleLogHandler::operator=(class UnBCL::ConsoleLogHandler const & __ptr64) __ptr64` | 799 (0x31f) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: class UnBCL::CollectionBase<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::operator=(class UnBCL::CollectionBase<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 680 (0x2a8) | Exported Function | 0x0000000180008e10 | 0x00008e10
-`public: class UnBCL::Array<unsigned short> & __ptr64 __cdecl UnBCL::Array<unsigned short>::operator=(class UnBCL::Array<unsigned short> const & __ptr64) __ptr64` | 664 (0x298) | Exported Function | 0x0000000180009170 | 0x00009170
-`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::operator=(class UnBCL::ArrayList<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 669 (0x29d) | Exported Function | 0x0000000180008850 | 0x00008850
-`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::operator*(void)const __ptr64` | 1006 (0x3ee) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::get_P(void)const __ptr64` | 2538 (0x9ea) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::operator->(void)const __ptr64` | 994 (0x3e2) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::Steal(void) __ptr64` | 2224 (0x8b0) | Exported Function | 0x0000000180007710 | 0x00007710
-`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::String::Split(unsigned short const * __ptr64)const __ptr64` | 2216 (0x8a8) | Exported Function | 0x00000001800578d0 | 0x000578d0
-`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::String::Split(unsigned short const * __ptr64,int)const __ptr64` | 2217 (0x8a9) | Exported Function | 0x00000001800578f0 | 0x000578f0
-`public: class UnBCL::ArrayList<unsigned char> & __ptr64 __cdecl UnBCL::SerializationStream::GetTempBuffer(int) __ptr64` | 1868 (0x74c) | Exported Function | 0x000000018004c8c0 | 0x0004c8c0
-`public: class UnBCL::ArrayList<unsigned char> & __ptr64 __cdecl UnBCL::SerializationStream::ReadBytes(int) __ptr64` | 2094 (0x82e) | Exported Function | 0x000000018004a780 | 0x0004a780
-`public: class UnBCL::ArrayList<unsigned short> & __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::operator=(class UnBCL::ArrayList<unsigned short> const & __ptr64) __ptr64` | 668 (0x29c) | Exported Function | 0x0000000180008850 | 0x00008850
-`public: class UnBCL::ASCIIEncoding & __ptr64 __cdecl UnBCL::ASCIIEncoding::operator=(class UnBCL::ASCIIEncoding && __ptr64) __ptr64` | 778 (0x30a) | Exported Function | 0x0000000180020970 | 0x00020970
-`public: class UnBCL::ASCIIEncoding & __ptr64 __cdecl UnBCL::ASCIIEncoding::operator=(class UnBCL::ASCIIEncoding const & __ptr64) __ptr64` | 779 (0x30b) | Exported Function | 0x0000000180020970 | 0x00020970
-`public: class UnBCL::BufferedStream & __ptr64 __cdecl UnBCL::BufferedStream::operator=(class UnBCL::BufferedStream const & __ptr64) __ptr64` | 794 (0x31a) | Exported Function | 0x00000001800219e0 | 0x000219e0
-`public: class UnBCL::CaseInsensitiveStringComparer & __ptr64 __cdecl UnBCL::CaseInsensitiveStringComparer::operator=(class UnBCL::CaseInsensitiveStringComparer && __ptr64) __ptr64` | 795 (0x31b) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: class UnBCL::CaseInsensitiveStringComparer & __ptr64 __cdecl UnBCL::CaseInsensitiveStringComparer::operator=(class UnBCL::CaseInsensitiveStringComparer const & __ptr64) __ptr64` | 796 (0x31c) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`public: class UnBCL::Char & __ptr64 __cdecl UnBCL::Char::operator=(class UnBCL::Char const & __ptr64) __ptr64` | 797 (0x31d) | Exported Function | 0x00000001800227c0 | 0x000227c0
-`public: class UnBCL::ConsoleLogHandler & __ptr64 __cdecl UnBCL::ConsoleLogHandler::operator=(class UnBCL::ConsoleLogHandler && __ptr64) __ptr64` | 798 (0x31e) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ArgumentNullException::ArgumentNullException(class UnBCL::ArgumentNullException && __ptr64) __ptr64` | 201 (0xc9) | Exported Function | 0x0000000180001860 | 0x00001860
-`public: __cdecl UnBCL::StreamReader::StreamReader(class UnBCL::String const * __ptr64,class UnBCL::Encoding * __ptr64) __ptr64` | 400 (0x190) | Exported Function | 0x00000001800548e0 | 0x000548e0
-`public: __cdecl UnBCL::StreamReader::StreamReader(class UnBCL::Stream * __ptr64,class UnBCL::Encoding * __ptr64) __ptr64` | 399 (0x18f) | Exported Function | 0x00000001800546e0 | 0x000546e0
-`public: __cdecl UnBCL::ICollection<int>::ICollection<int>(struct UnBCL::ICollection<int> const & __ptr64) __ptr64` | 62 (0x3e) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ICollection<int>::ICollection<int>(void) __ptr64` | 63 (0x3f) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ICollection<unsigned char>::ICollection<unsigned char>(struct UnBCL::ICollection<unsigned char> const & __ptr64) __ptr64` | 58 (0x3a) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ICollection<unsigned char>::ICollection<unsigned char>(void) __ptr64` | 59 (0x3b) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ICollection<unsigned short>::ICollection<unsigned short>(struct UnBCL::ICollection<unsigned short> const & __ptr64) __ptr64` | 60 (0x3c) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ICollection<unsigned short>::ICollection<unsigned short>(void) __ptr64` | 61 (0x3d) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IComparer<class UnBCL::String * __ptr64>::IComparer<class UnBCL::String * __ptr64>(struct UnBCL::IComparer<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 70 (0x46) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ICollection<class UnBCL::String * __ptr64>::ICollection<class UnBCL::String * __ptr64>(void) __ptr64` | 67 (0x43) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IComparer<class UnBCL::String * __ptr64>::IComparer<class UnBCL::String * __ptr64>(void) __ptr64` | 71 (0x47) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(void) __ptr64` | 73 (0x49) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IDisposable::IDisposable(struct UnBCL::IDisposable && __ptr64) __ptr64` | 273 (0x111) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IDisposable::IDisposable(struct UnBCL::IDisposable const & __ptr64) __ptr64` | 274 (0x112) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IDisposable::IDisposable(void) __ptr64` | 275 (0x113) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >(struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 86 (0x56) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >(void) __ptr64` | 87 (0x57) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<class UnBCL::Object * __ptr64>::IEnumerable<class UnBCL::Object * __ptr64>(struct UnBCL::IEnumerable<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 80 (0x50) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 72 (0x48) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ICollection<class UnBCL::String * __ptr64>::ICollection<class UnBCL::String * __ptr64>(struct UnBCL::ICollection<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 66 (0x42) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ICollection<class UnBCL::Object * __ptr64>::ICollection<class UnBCL::Object * __ptr64>(void) __ptr64` | 65 (0x41) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ICollection<class UnBCL::Object * __ptr64>::ICollection<class UnBCL::Object * __ptr64>(struct UnBCL::ICollection<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 64 (0x40) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::FileSystemEnumerator::FileSystemEnumerator(class UnBCL::FileSystemEnumerator const & __ptr64) __ptr64` | 263 (0x107) | Exported Function | 0x0000000180036620 | 0x00036620
-`public: __cdecl UnBCL::FileSystemEnumerator::FileSystemEnumerator(unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 264 (0x108) | Exported Function | 0x0000000180036a20 | 0x00036a20
-`public: __cdecl UnBCL::FormatException::FormatException(class UnBCL::FormatException && __ptr64) __ptr64` | 265 (0x109) | Exported Function | 0x0000000180038770 | 0x00038770
-`public: __cdecl UnBCL::FormatException::FormatException(class UnBCL::FormatException const & __ptr64) __ptr64` | 266 (0x10a) | Exported Function | 0x0000000180038770 | 0x00038770
-`public: __cdecl UnBCL::FormatException::FormatException(class UnBCL::String * __ptr64) __ptr64` | 267 (0x10b) | Exported Function | 0x0000000180038840 | 0x00038840
-`public: __cdecl UnBCL::FormatException::FormatException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 268 (0x10c) | Exported Function | 0x00000001800388c0 | 0x000388c0
-`public: __cdecl UnBCL::FormatException::FormatException(unsigned short const * __ptr64) __ptr64` | 269 (0x10d) | Exported Function | 0x0000000180038880 | 0x00038880
-`public: __cdecl UnBCL::FormatException::FormatException(void) __ptr64` | 270 (0x10e) | Exported Function | 0x0000000180038800 | 0x00038800
-`public: __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 53 (0x35) | Exported Function | 0x000000018002fad0 | 0x0002fad0
-`public: __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(int) __ptr64` | 54 (0x36) | Exported Function | 0x000000018002f750 | 0x0002f750
-`public: __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(int,int) __ptr64` | 55 (0x37) | Exported Function | 0x000000018002f410 | 0x0002f410
-`public: __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const * __ptr64) __ptr64` | 56 (0x38) | Exported Function | 0x000000018002f060 | 0x0002f060
-`public: __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(void) __ptr64` | 57 (0x39) | Exported Function | 0x000000018002feb0 | 0x0002feb0
-`public: __cdecl UnBCL::HeapMemoryManager::HeapMemoryManager(class UnBCL::HeapMemoryManager const & __ptr64) __ptr64` | 271 (0x10f) | Exported Function | 0x0000000180002e00 | 0x00002e00
-`public: __cdecl UnBCL::HeapMemoryManager::HeapMemoryManager(void) __ptr64` | 272 (0x110) | Exported Function | 0x0000000180038900 | 0x00038900
-`public: __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >(struct UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 68 (0x44) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >(void) __ptr64` | 69 (0x45) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<class UnBCL::Object * __ptr64>::IEnumerable<class UnBCL::Object * __ptr64>(void) __ptr64` | 81 (0x51) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<class UnBCL::String * __ptr64>::IEnumerable<class UnBCL::String * __ptr64>(struct UnBCL::IEnumerable<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 82 (0x52) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<class UnBCL::String * __ptr64>::IEnumerable<class UnBCL::String * __ptr64>(void) __ptr64` | 83 (0x53) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<int>::IEnumerable<int>(struct UnBCL::IEnumerable<int> const & __ptr64) __ptr64` | 78 (0x4e) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IList<unsigned char>::IList<unsigned char>(void) __ptr64` | 93 (0x5d) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IList<unsigned short>::IList<unsigned short>(struct UnBCL::IList<unsigned short> const & __ptr64) __ptr64` | 94 (0x5e) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IList<unsigned short>::IList<unsigned short>(void) __ptr64` | 95 (0x5f) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IndexOutOfRangeException::IndexOutOfRangeException(class UnBCL::IndexOutOfRangeException && __ptr64) __ptr64` | 285 (0x11d) | Exported Function | 0x0000000180038d90 | 0x00038d90
-`public: __cdecl UnBCL::IndexOutOfRangeException::IndexOutOfRangeException(class UnBCL::IndexOutOfRangeException const & __ptr64) __ptr64` | 286 (0x11e) | Exported Function | 0x0000000180038d90 | 0x00038d90
-`public: __cdecl UnBCL::IndexOutOfRangeException::IndexOutOfRangeException(class UnBCL::String * __ptr64) __ptr64` | 287 (0x11f) | Exported Function | 0x0000000180038e60 | 0x00038e60
-`public: __cdecl UnBCL::IndexOutOfRangeException::IndexOutOfRangeException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 288 (0x120) | Exported Function | 0x0000000180038ee0 | 0x00038ee0
-`public: __cdecl UnBCL::IndexOutOfRangeException::IndexOutOfRangeException(unsigned short const * __ptr64) __ptr64` | 289 (0x121) | Exported Function | 0x0000000180038ea0 | 0x00038ea0
-`public: __cdecl UnBCL::IndexOutOfRangeException::IndexOutOfRangeException(void) __ptr64` | 290 (0x122) | Exported Function | 0x0000000180038e20 | 0x00038e20
-`public: __cdecl UnBCL::InvalidCastException::InvalidCastException(class UnBCL::InvalidCastException && __ptr64) __ptr64` | 291 (0x123) | Exported Function | 0x0000000180001980 | 0x00001980
-`public: __cdecl UnBCL::InvalidCastException::InvalidCastException(class UnBCL::InvalidCastException const & __ptr64) __ptr64` | 292 (0x124) | Exported Function | 0x0000000180001980 | 0x00001980
-`public: __cdecl UnBCL::InvalidCastException::InvalidCastException(class UnBCL::String * __ptr64) __ptr64` | 293 (0x125) | Exported Function | 0x0000000180039060 | 0x00039060
-`public: __cdecl UnBCL::InvalidCastException::InvalidCastException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 294 (0x126) | Exported Function | 0x00000001800390e0 | 0x000390e0
-`public: __cdecl UnBCL::InvalidCastException::InvalidCastException(unsigned short const * __ptr64) __ptr64` | 295 (0x127) | Exported Function | 0x00000001800390a0 | 0x000390a0
-`public: __cdecl UnBCL::InvalidCastException::InvalidCastException(void) __ptr64` | 296 (0x128) | Exported Function | 0x0000000180039020 | 0x00039020
-`public: __cdecl UnBCL::InvalidOperationException::InvalidOperationException(class UnBCL::InvalidOperationException && __ptr64) __ptr64` | 297 (0x129) | Exported Function | 0x00000001800082b0 | 0x000082b0
-`public: __cdecl UnBCL::InvalidOperationException::InvalidOperationException(class UnBCL::InvalidOperationException const & __ptr64) __ptr64` | 298 (0x12a) | Exported Function | 0x00000001800082b0 | 0x000082b0
-`public: __cdecl UnBCL::IList<unsigned char>::IList<unsigned char>(struct UnBCL::IList<unsigned char> const & __ptr64) __ptr64` | 92 (0x5c) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::FileStream::FileStream(void * __ptr64,enum UnBCL::FileAccess) __ptr64` | 261 (0x105) | Exported Function | 0x00000001800372b0 | 0x000372b0
-`public: __cdecl UnBCL::IList<int>::IList<int>(void) __ptr64` | 97 (0x61) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IList<class UnBCL::String * __ptr64>::IList<class UnBCL::String * __ptr64>(void) __ptr64` | 101 (0x65) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<int>::IEnumerable<int>(void) __ptr64` | 79 (0x4f) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<unsigned char>::IEnumerable<unsigned char>(struct UnBCL::IEnumerable<unsigned char> const & __ptr64) __ptr64` | 74 (0x4a) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<unsigned char>::IEnumerable<unsigned char>(void) __ptr64` | 75 (0x4b) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<unsigned short const * __ptr64>::IEnumerable<unsigned short const * __ptr64>(struct UnBCL::IEnumerable<unsigned short const * __ptr64> const & __ptr64) __ptr64` | 84 (0x54) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<unsigned short const * __ptr64>::IEnumerable<unsigned short const * __ptr64>(void) __ptr64` | 85 (0x55) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<unsigned short>::IEnumerable<unsigned short>(struct UnBCL::IEnumerable<unsigned short> const & __ptr64) __ptr64` | 76 (0x4c) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerable<unsigned short>::IEnumerable<unsigned short>(void) __ptr64` | 77 (0x4d) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerator<class UnBCL::String * __ptr64>::IEnumerator<class UnBCL::String * __ptr64>(struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 88 (0x58) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerator<class UnBCL::String * __ptr64>::IEnumerator<class UnBCL::String * __ptr64>(void) __ptr64` | 89 (0x59) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerator<unsigned short const * __ptr64>::IEnumerator<unsigned short const * __ptr64>(struct UnBCL::IEnumerator<unsigned short const * __ptr64> const & __ptr64) __ptr64` | 90 (0x5a) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IEnumerator<unsigned short const * __ptr64>::IEnumerator<unsigned short const * __ptr64>(void) __ptr64` | 91 (0x5b) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IInstanceFactory::IInstanceFactory(struct UnBCL::IInstanceFactory && __ptr64) __ptr64` | 276 (0x114) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IInstanceFactory::IInstanceFactory(struct UnBCL::IInstanceFactory const & __ptr64) __ptr64` | 277 (0x115) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IInstanceFactory::IInstanceFactory(void) __ptr64` | 278 (0x116) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IList<class UnBCL::Object * __ptr64>::IList<class UnBCL::Object * __ptr64>(struct UnBCL::IList<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 98 (0x62) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IList<class UnBCL::Object * __ptr64>::IList<class UnBCL::Object * __ptr64>(void) __ptr64` | 99 (0x63) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IList<class UnBCL::String * __ptr64>::IList<class UnBCL::String * __ptr64>(struct UnBCL::IList<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 100 (0x64) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IList<int>::IList<int>(struct UnBCL::IList<int> const & __ptr64) __ptr64` | 96 (0x60) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::InvalidOperationException::InvalidOperationException(class UnBCL::String const * __ptr64) __ptr64` | 300 (0x12c) | Exported Function | 0x0000000180039160 | 0x00039160
-`public: __cdecl UnBCL::FileStream::FileStream(class UnBCL::String const * __ptr64,enum UnBCL::FileMode,enum UnBCL::FileAccess,enum UnBCL::FileShare,unsigned long) __ptr64` | 262 (0x106) | Exported Function | 0x0000000180037490 | 0x00037490
-`public: __cdecl UnBCL::ExternalException::ExternalException(void) __ptr64` | 259 (0x103) | Exported Function | 0x0000000180034d10 | 0x00034d10
-`public: __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Array<class UnBCL::String * __ptr64>(struct UnBCL::ICollection<class UnBCL::String * __ptr64> const * __ptr64) __ptr64` | 20 (0x14) | Exported Function | 0x000000018000f240 | 0x0000f240
-`public: __cdecl UnBCL::Array<int>::Array<int>(class UnBCL::Array<int> const & __ptr64) __ptr64` | 10 (0xa) | Exported Function | 0x0000000180014950 | 0x00014950
-`public: __cdecl UnBCL::Array<int>::Array<int>(int,int) __ptr64` | 11 (0xb) | Exported Function | 0x0000000180014650 | 0x00014650
-`public: __cdecl UnBCL::Array<int>::Array<int>(struct UnBCL::ICollection<int> const * __ptr64) __ptr64` | 12 (0xc) | Exported Function | 0x0000000180014380 | 0x00014380
-`public: __cdecl UnBCL::Array<unsigned char>::Array<unsigned char>(class UnBCL::Array<unsigned char> const & __ptr64) __ptr64` | 2 (0x2) | Exported Function | 0x000000018000d030 | 0x0000d030
-`public: __cdecl UnBCL::Array<unsigned char>::Array<unsigned char>(int,int) __ptr64` | 3 (0x3) | Exported Function | 0x000000018000cd30 | 0x0000cd30
-`public: __cdecl UnBCL::Array<unsigned char>::Array<unsigned char>(struct UnBCL::ICollection<unsigned char> const * __ptr64) __ptr64` | 4 (0x4) | Exported Function | 0x000000018000ca60 | 0x0000ca60
-`public: __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Array<class UnBCL::String * __ptr64>(int,int) __ptr64` | 19 (0x13) | Exported Function | 0x000000018000f510 | 0x0000f510
-`public: __cdecl UnBCL::Array<unsigned short>::Array<unsigned short>(class UnBCL::Array<unsigned short> const & __ptr64) __ptr64` | 6 (0x6) | Exported Function | 0x000000018000e540 | 0x0000e540
-`public: __cdecl UnBCL::Array<unsigned short>::Array<unsigned short>(struct UnBCL::ICollection<unsigned short> const * __ptr64) __ptr64` | 8 (0x8) | Exported Function | 0x000000018000df60 | 0x0000df60
-`public: __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::ArrayList<class UnBCL::String * __ptr64>(int,int) __ptr64` | 26 (0x1a) | Exported Function | 0x0000000180009ce0 | 0x00009ce0
-`public: __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::ArrayList<class UnBCL::String * __ptr64>(struct UnBCL::ICollection<class UnBCL::String * __ptr64> const * __ptr64) __ptr64` | 27 (0x1b) | Exported Function | 0x000000018000a040 | 0x0000a040
-`public: __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::ArrayList<class UnBCL::String * __ptr64>(void) __ptr64` | 28 (0x1c) | Exported Function | 0x000000018000a3b0 | 0x0000a3b0
-`public: __cdecl UnBCL::ArrayList<unsigned short>::ArrayList<unsigned short>(int,int) __ptr64` | 22 (0x16) | Exported Function | 0x0000000180010510 | 0x00010510
-`public: __cdecl UnBCL::ArrayList<unsigned short>::ArrayList<unsigned short>(struct UnBCL::ICollection<unsigned short> const * __ptr64) __ptr64` | 23 (0x17) | Exported Function | 0x0000000180010870 | 0x00010870
-`public: __cdecl UnBCL::ArrayList<unsigned short>::ArrayList<unsigned short>(void) __ptr64` | 24 (0x18) | Exported Function | 0x0000000180010be0 | 0x00010be0
-`public: __cdecl UnBCL::Array<unsigned short>::Array<unsigned short>(int,int) __ptr64` | 7 (0x7) | Exported Function | 0x000000018000e230 | 0x0000e230
-`public: __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Array<class UnBCL::String * __ptr64>(class UnBCL::Array<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 18 (0x12) | Exported Function | 0x000000018000f820 | 0x0000f820
-`public: __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Array<class UnBCL::Object * __ptr64>(struct UnBCL::ICollection<class UnBCL::Object * __ptr64> const * __ptr64) __ptr64` | 16 (0x10) | Exported Function | 0x00000001800135c0 | 0x000135c0
-`public: __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Array<class UnBCL::Object * __ptr64>(int,int) __ptr64` | 15 (0xf) | Exported Function | 0x0000000180013720 | 0x00013720
-`public: __cdecl UnBCL::ArgumentNullException::ArgumentNullException(class UnBCL::String const * __ptr64) __ptr64` | 204 (0xcc) | Exported Function | 0x0000000180007e70 | 0x00007e70
-`public: __cdecl UnBCL::ArgumentNullException::ArgumentNullException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 205 (0xcd) | Exported Function | 0x0000000180007ef0 | 0x00007ef0
-`public: __cdecl UnBCL::ArgumentNullException::ArgumentNullException(unsigned short const * __ptr64) __ptr64` | 203 (0xcb) | Exported Function | 0x0000000180007eb0 | 0x00007eb0
-`public: __cdecl UnBCL::ArgumentNullException::ArgumentNullException(void) __ptr64` | 206 (0xce) | Exported Function | 0x0000000180007e30 | 0x00007e30
-`public: __cdecl UnBCL::ArgumentOutOfRangeException::ArgumentOutOfRangeException(class UnBCL::ArgumentOutOfRangeException && __ptr64) __ptr64` | 207 (0xcf) | Exported Function | 0x0000000180007f30 | 0x00007f30
-`public: __cdecl UnBCL::ArgumentOutOfRangeException::ArgumentOutOfRangeException(class UnBCL::ArgumentOutOfRangeException const & __ptr64) __ptr64` | 208 (0xd0) | Exported Function | 0x0000000180007f30 | 0x00007f30
-`public: __cdecl UnBCL::ArgumentOutOfRangeException::ArgumentOutOfRangeException(class UnBCL::String const * __ptr64) __ptr64` | 210 (0xd2) | Exported Function | 0x0000000180008000 | 0x00008000
-`public: __cdecl UnBCL::ArgumentOutOfRangeException::ArgumentOutOfRangeException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 211 (0xd3) | Exported Function | 0x0000000180008080 | 0x00008080
-`public: __cdecl UnBCL::ArgumentOutOfRangeException::ArgumentOutOfRangeException(unsigned short const * __ptr64) __ptr64` | 209 (0xd1) | Exported Function | 0x0000000180008040 | 0x00008040
-`public: __cdecl UnBCL::ArgumentOutOfRangeException::ArgumentOutOfRangeException(void) __ptr64` | 212 (0xd4) | Exported Function | 0x0000000180007fc0 | 0x00007fc0
-`public: __cdecl UnBCL::ArithmeticException::ArithmeticException(class UnBCL::ArithmeticException && __ptr64) __ptr64` | 213 (0xd5) | Exported Function | 0x00000001800080c0 | 0x000080c0
-`public: __cdecl UnBCL::ArithmeticException::ArithmeticException(class UnBCL::ArithmeticException const & __ptr64) __ptr64` | 214 (0xd6) | Exported Function | 0x00000001800080c0 | 0x000080c0
-`public: __cdecl UnBCL::ArithmeticException::ArithmeticException(class UnBCL::String const * __ptr64) __ptr64` | 216 (0xd8) | Exported Function | 0x0000000180008190 | 0x00008190
-`public: __cdecl UnBCL::ArithmeticException::ArithmeticException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 217 (0xd9) | Exported Function | 0x0000000180008210 | 0x00008210
-`public: __cdecl UnBCL::ArithmeticException::ArithmeticException(unsigned short const * __ptr64) __ptr64` | 215 (0xd7) | Exported Function | 0x00000001800081d0 | 0x000081d0
-`public: __cdecl UnBCL::ArithmeticException::ArithmeticException(void) __ptr64` | 218 (0xda) | Exported Function | 0x0000000180008150 | 0x00008150
-`public: __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Array<class UnBCL::Object * __ptr64>(class UnBCL::Array<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 14 (0xe) | Exported Function | 0x00000001800138c0 | 0x000138c0
-`public: __cdecl UnBCL::ASCIIEncoding::ASCIIEncoding(class UnBCL::ASCIIEncoding && __ptr64) __ptr64` | 180 (0xb4) | Exported Function | 0x0000000180020890 | 0x00020890
-`public: __cdecl UnBCL::ASCIIEncoding::ASCIIEncoding(class UnBCL::ASCIIEncoding const & __ptr64) __ptr64` | 181 (0xb5) | Exported Function | 0x00000001800207b0 | 0x000207b0
-`public: __cdecl UnBCL::ASCIIEncoding::ASCIIEncoding(void) __ptr64` | 182 (0xb6) | Exported Function | 0x0000000180020a70 | 0x00020a70
-`public: __cdecl UnBCL::BufferedStream::BufferedStream(class UnBCL::BufferedStream const & __ptr64) __ptr64` | 219 (0xdb) | Exported Function | 0x00000001800218c0 | 0x000218c0
-`public: __cdecl UnBCL::DirectoryInfo::DirectoryInfo(class UnBCL::DirectoryInfo && __ptr64) __ptr64` | 240 (0xf0) | Exported Function | 0x0000000180021560 | 0x00021560
-`public: __cdecl UnBCL::DirectoryInfo::DirectoryInfo(class UnBCL::DirectoryInfo const & __ptr64) __ptr64` | 241 (0xf1) | Exported Function | 0x0000000180021560 | 0x00021560
-`public: __cdecl UnBCL::DirectoryInfo::DirectoryInfo(void) __ptr64` | 242 (0xf2) | Exported Function | 0x0000000180021560 | 0x00021560
-`public: __cdecl UnBCL::Encoding::Encoding(class UnBCL::Encoding && __ptr64) __ptr64` | 244 (0xf4) | Exported Function | 0x00000001800020d0 | 0x000020d0
-`public: __cdecl UnBCL::Encoding::Encoding(class UnBCL::Encoding const & __ptr64) __ptr64` | 245 (0xf5) | Exported Function | 0x00000001800020d0 | 0x000020d0
-`public: __cdecl UnBCL::Exception::Exception(class UnBCL::Exception * __ptr64,unsigned short const * __ptr64) __ptr64` | 248 (0xf8) | Exported Function | 0x00000001800343e0 | 0x000343e0
-`public: __cdecl UnBCL::Exception::Exception(class UnBCL::Exception const & __ptr64) __ptr64` | 247 (0xf7) | Exported Function | 0x0000000180001470 | 0x00001470
-`public: __cdecl UnBCL::Exception::Exception(class UnBCL::String const * __ptr64) __ptr64` | 250 (0xfa) | Exported Function | 0x0000000180034160 | 0x00034160
-`public: __cdecl UnBCL::Exception::Exception(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 251 (0xfb) | Exported Function | 0x00000001800342f0 | 0x000342f0
-`public: __cdecl UnBCL::Exception::Exception(unsigned short const * __ptr64) __ptr64` | 249 (0xf9) | Exported Function | 0x0000000180034250 | 0x00034250
-`public: __cdecl UnBCL::Exception::Exception(void) __ptr64` | 252 (0xfc) | Exported Function | 0x00000001800340d0 | 0x000340d0
-`public: __cdecl UnBCL::ExternalException::ExternalException(class UnBCL::ExternalException && __ptr64) __ptr64` | 253 (0xfd) | Exported Function | 0x0000000180021b50 | 0x00021b50
-`public: __cdecl UnBCL::ExternalException::ExternalException(class UnBCL::ExternalException const & __ptr64) __ptr64` | 254 (0xfe) | Exported Function | 0x0000000180021b50 | 0x00021b50
-`public: __cdecl UnBCL::ExternalException::ExternalException(class UnBCL::String const * __ptr64) __ptr64` | 257 (0x101) | Exported Function | 0x0000000180034d50 | 0x00034d50
-`public: __cdecl UnBCL::ExternalException::ExternalException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 258 (0x102) | Exported Function | 0x0000000180034dd0 | 0x00034dd0
-`public: __cdecl UnBCL::ExternalException::ExternalException(unsigned short const * __ptr64) __ptr64` | 255 (0xff) | Exported Function | 0x0000000180034d90 | 0x00034d90
-`public: __cdecl UnBCL::ExternalException::ExternalException(unsigned short const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 256 (0x100) | Exported Function | 0x0000000180034e10 | 0x00034e10
-`public: __cdecl UnBCL::Delegate::Delegate(void) __ptr64` | 239 (0xef) | Exported Function | 0x000000018005baa0 | 0x0005baa0
-`public: __cdecl UnBCL::FileStream::FileStream(class UnBCL::FileStream const & __ptr64) __ptr64` | 260 (0x104) | Exported Function | 0x0000000180021670 | 0x00021670
-`public: __cdecl UnBCL::Delegate::Delegate(class UnBCL::Delegate const & __ptr64) __ptr64` | 238 (0xee) | Exported Function | 0x000000018005bb10 | 0x0005bb10
-`public: __cdecl UnBCL::Decoder::Decoder(void) __ptr64` | 236 (0xec) | Exported Function | 0x0000000180001f50 | 0x00001f50
-`public: __cdecl UnBCL::BufferedStream::BufferedStream(class UnBCL::Stream * __ptr64,unsigned long) __ptr64` | 220 (0xdc) | Exported Function | 0x0000000180021d60 | 0x00021d60
-`public: __cdecl UnBCL::CaseInsensitiveStringComparer::CaseInsensitiveStringComparer(class UnBCL::CaseInsensitiveStringComparer && __ptr64) __ptr64` | 221 (0xdd) | Exported Function | 0x00000001800083f0 | 0x000083f0
-`public: __cdecl UnBCL::CaseInsensitiveStringComparer::CaseInsensitiveStringComparer(class UnBCL::CaseInsensitiveStringComparer const & __ptr64) __ptr64` | 222 (0xde) | Exported Function | 0x00000001800083f0 | 0x000083f0
-`public: __cdecl UnBCL::CaseInsensitiveStringComparer::CaseInsensitiveStringComparer(void) __ptr64` | 223 (0xdf) | Exported Function | 0x0000000180008370 | 0x00008370
-`public: __cdecl UnBCL::Char::Char(class UnBCL::Char const & __ptr64) __ptr64` | 224 (0xe0) | Exported Function | 0x0000000180022910 | 0x00022910
-`public: __cdecl UnBCL::Char::Char(unsigned short) __ptr64` | 225 (0xe1) | Exported Function | 0x00000001800228c0 | 0x000228c0
-`public: __cdecl UnBCL::Char::Char(void) __ptr64` | 226 (0xe2) | Exported Function | 0x0000000180022870 | 0x00022870
-`public: __cdecl UnBCL::Char::operator unsigned short(void) __ptr64` | 988 (0x3dc) | Exported Function | 0x0000000180022a30 | 0x00022a30
-`public: __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::CollectionBase<class UnBCL::Object * __ptr64>(class UnBCL::CollectionBase<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 52 (0x34) | Exported Function | 0x0000000180022b80 | 0x00022b80
-`public: __cdecl UnBCL::ConsoleLogHandler::ConsoleLogHandler(class UnBCL::ConsoleLogHandler && __ptr64) __ptr64` | 227 (0xe3) | Exported Function | 0x0000000180002f30 | 0x00002f30
-`public: __cdecl UnBCL::ConsoleLogHandler::ConsoleLogHandler(class UnBCL::ConsoleLogHandler const & __ptr64) __ptr64` | 228 (0xe4) | Exported Function | 0x0000000180002f30 | 0x00002f30
-`public: __cdecl UnBCL::ConsoleLogHandler::ConsoleLogHandler(void) __ptr64` | 229 (0xe5) | Exported Function | 0x0000000180002f30 | 0x00002f30
-`public: __cdecl UnBCL::DateTime::DateTime(__int64) __ptr64` | 233 (0xe9) | Exported Function | 0x00000001800234f0 | 0x000234f0
-`public: __cdecl UnBCL::DateTime::DateTime(class UnBCL::DateTime const & __ptr64) __ptr64` | 231 (0xe7) | Exported Function | 0x00000001800235a0 | 0x000235a0
-`public: __cdecl UnBCL::DateTime::DateTime(int,int,int,int,int,int,int) __ptr64` | 232 (0xe8) | Exported Function | 0x0000000180023600 | 0x00023600
-`public: __cdecl UnBCL::Decoder::Decoder(class UnBCL::Decoder && __ptr64) __ptr64` | 234 (0xea) | Exported Function | 0x0000000180001f50 | 0x00001f50
-`public: __cdecl UnBCL::Decoder::Decoder(class UnBCL::Decoder const & __ptr64) __ptr64` | 235 (0xeb) | Exported Function | 0x0000000180001f50 | 0x00001f50
-`public: __cdecl UnBCL::Delegate::Delegate(class UnBCL::Delegate && __ptr64) __ptr64` | 237 (0xed) | Exported Function | 0x000000018005bb10 | 0x0005bb10
-`public: __cdecl UnBCL::InvalidOperationException::InvalidOperationException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 301 (0x12d) | Exported Function | 0x00000001800391e0 | 0x000391e0
-`public: __cdecl UnBCL::InvalidOperationException::InvalidOperationException(unsigned short const * __ptr64) __ptr64` | 299 (0x12b) | Exported Function | 0x00000001800391a0 | 0x000391a0
-`public: __cdecl UnBCL::InvalidOperationException::InvalidOperationException(void) __ptr64` | 302 (0x12e) | Exported Function | 0x0000000180039120 | 0x00039120
-`public: __cdecl UnBCL::SerializationStream::SerializationStream(class UnBCL::Stream * __ptr64,enum UnBCL::SerializationStream::Mode,class UnBCL::Object * __ptr64) __ptr64` | 393 (0x189) | Exported Function | 0x000000018004a380 | 0x0004a380
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::operator class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::NullTest * __ptr64(void)const __ptr64` | 977 (0x3d1) | Exported Function | 0x0000000180015ed0 | 0x00015ed0
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >(class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 144 (0x90) | Exported Function | 0x0000000180015e60 | 0x00015e60
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >(class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 143 (0x8f) | Exported Function | 0x0000000180015e20 | 0x00015e20
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >(void) __ptr64` | 145 (0x91) | Exported Function | 0x0000000180015e90 | 0x00015e90
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::operator class UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::NullTest * __ptr64(void)const __ptr64` | 976 (0x3d0) | Exported Function | 0x0000000180015e00 | 0x00015e00
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::SmartPtr<class UnBCL::Array<unsigned char> >(class UnBCL::Array<unsigned char> * __ptr64) __ptr64` | 141 (0x8d) | Exported Function | 0x0000000180015d90 | 0x00015d90
-`public: __cdecl UnBCL::SerializationId::SerializationId(class UnBCL::String * __ptr64,int) __ptr64` | 391 (0x187) | Exported Function | 0x000000018004c710 | 0x0004c710
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::SmartPtr<class UnBCL::Array<unsigned char> >(class UnBCL::SmartPtr<class UnBCL::Array<unsigned char> > const & __ptr64) __ptr64` | 140 (0x8c) | Exported Function | 0x0000000180015d50 | 0x00015d50
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::operator class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::NullTest * __ptr64(void)const __ptr64` | 978 (0x3d2) | Exported Function | 0x0000000180013470 | 0x00013470
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 147 (0x93) | Exported Function | 0x0000000180013400 | 0x00013400
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >(class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 146 (0x92) | Exported Function | 0x00000001800133c0 | 0x000133c0
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >(void) __ptr64` | 148 (0x94) | Exported Function | 0x0000000180013430 | 0x00013430
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::operator class UnBCL::SmartPtr<class UnBCL::Decoder>::NullTest * __ptr64(void)const __ptr64` | 979 (0x3d3) | Exported Function | 0x0000000180007770 | 0x00007770
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::SmartPtr<class UnBCL::Decoder>(class UnBCL::Decoder * __ptr64) __ptr64` | 150 (0x96) | Exported Function | 0x0000000180007680 | 0x00007680
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::SmartPtr<class UnBCL::Decoder>(class UnBCL::SmartPtr<class UnBCL::Decoder> const & __ptr64) __ptr64` | 149 (0x95) | Exported Function | 0x0000000180007640 | 0x00007640
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::SmartPtr<class UnBCL::Array<unsigned char> >(void) __ptr64` | 142 (0x8e) | Exported Function | 0x0000000180015dc0 | 0x00015dc0
-`public: __cdecl UnBCL::SerializationId::SerializationId(class UnBCL::SerializationId const & __ptr64) __ptr64` | 390 (0x186) | Exported Function | 0x0000000180002850 | 0x00002850
-`public: __cdecl UnBCL::SerializationException::SerializationException(void) __ptr64` | 389 (0x185) | Exported Function | 0x000000018004a240 | 0x0004a240
-`public: __cdecl UnBCL::SerializationException::SerializationException(unsigned short const * __ptr64) __ptr64` | 387 (0x183) | Exported Function | 0x000000018004a2c0 | 0x0004a2c0
-`public: __cdecl UnBCL::SEHException::SEHException(class UnBCL::SEHException && __ptr64) __ptr64` | 375 (0x177) | Exported Function | 0x0000000180049df0 | 0x00049df0
-`public: __cdecl UnBCL::SEHException::SEHException(class UnBCL::SEHException const & __ptr64) __ptr64` | 376 (0x178) | Exported Function | 0x0000000180049df0 | 0x00049df0
-`public: __cdecl UnBCL::SEHException::SEHException(unsigned int) __ptr64` | 377 (0x179) | Exported Function | 0x0000000180049ff0 | 0x00049ff0
-`public: __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >(class UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 121 (0x79) | Exported Function | 0x00000001800096e0 | 0x000096e0
-`public: __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >(class UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 119 (0x77) | Exported Function | 0x0000000180008fd0 | 0x00008fd0
-`public: __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >(class UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 115 (0x73) | Exported Function | 0x00000001800093e0 | 0x000093e0
-`public: __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >(class UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 117 (0x75) | Exported Function | 0x0000000180009560 | 0x00009560
-`public: __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >(class UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 125 (0x7d) | Exported Function | 0x0000000180008b50 | 0x00008b50
-`public: __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >(class UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 123 (0x7b) | Exported Function | 0x0000000180008590 | 0x00008590
-`public: __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >(class UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> > c` | 127 (0x7f) | Exported Function | 0x000000018002c730 | 0x0002c730
-`public: __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >(class UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> > const & __ptr64) __ptr64` | 131 (0x83) | Exported Function | 0x000000018003afe0 | 0x0003afe0
-`public: __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >(class UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> > const & __ptr64) __ptr64` | 133 (0x85) | Exported Function | 0x000000018002cd30 | 0x0002cd30
-`public: __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >(class UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 129 (0x81) | Exported Function | 0x00000001800529b0 | 0x000529b0
-`public: __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >(class UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> > const & __ptr64) __ptr64` | 135 (0x87) | Exported Function | 0x000000018002cb20 | 0x0002cb20
-`public: __cdecl UnBCL::SerializationException::SerializationException(class UnBCL::SerializationException && __ptr64) __ptr64` | 385 (0x181) | Exported Function | 0x000000018004a1b0 | 0x0004a1b0
-`public: __cdecl UnBCL::SerializationException::SerializationException(class UnBCL::SerializationException const & __ptr64) __ptr64` | 386 (0x182) | Exported Function | 0x000000018004a1b0 | 0x0004a1b0
-`public: __cdecl UnBCL::SerializationException::SerializationException(class UnBCL::String const * __ptr64) __ptr64` | 388 (0x184) | Exported Function | 0x000000018004a280 | 0x0004a280
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::SmartPtr<class UnBCL::Decoder>(void) __ptr64` | 151 (0x97) | Exported Function | 0x00000001800076b0 | 0x000076b0
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::operator class UnBCL::SmartPtr<class UnBCL::Encoding>::NullTest * __ptr64(void)const __ptr64` | 980 (0x3d4) | Exported Function | 0x0000000180007900 | 0x00007900
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::SmartPtr<class UnBCL::Encoding>(class UnBCL::Encoding * __ptr64) __ptr64` | 153 (0x99) | Exported Function | 0x0000000180007890 | 0x00007890
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::SmartPtr<class UnBCL::Encoding>(class UnBCL::SmartPtr<class UnBCL::Encoding> const & __ptr64) __ptr64` | 152 (0x98) | Exported Function | 0x0000000180007850 | 0x00007850
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Version>::operator class UnBCL::SmartPtr<class UnBCL::Version>::NullTest * __ptr64(void)const __ptr64` | 986 (0x3da) | Exported Function | 0x0000000180031680 | 0x00031680
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Version>::SmartPtr<class UnBCL::Version>(class UnBCL::SmartPtr<class UnBCL::Version> const & __ptr64) __ptr64` | 170 (0xaa) | Exported Function | 0x0000000180031550 | 0x00031550
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Version>::SmartPtr<class UnBCL::Version>(class UnBCL::Version * __ptr64) __ptr64` | 171 (0xab) | Exported Function | 0x0000000180031590 | 0x00031590
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Version>::SmartPtr<class UnBCL::Version>(void) __ptr64` | 172 (0xac) | Exported Function | 0x00000001800315c0 | 0x000315c0
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::operator class UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::NullTest * __ptr64(void)const __ptr64` | 987 (0x3db) | Exported Function | 0x0000000180068a90 | 0x00068a90
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::SmartPtr<class UnBCL::XmlNamespaceManager>(class UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager> const & __ptr64) __ptr64` | 173 (0xad) | Exported Function | 0x00000001800689e0 | 0x000689e0
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::SmartPtr<class UnBCL::XmlNamespaceManager>(class UnBCL::XmlNamespaceManager * __ptr64) __ptr64` | 174 (0xae) | Exported Function | 0x0000000180068a20 | 0x00068a20
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::SmartPtr<class UnBCL::XmlNamespaceManager>(void) __ptr64` | 175 (0xaf) | Exported Function | 0x0000000180068a50 | 0x00068a50
-`public: __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Stack<class UnBCL::Object * __ptr64>(class UnBCL::Stack<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 178 (0xb2) | Exported Function | 0x0000000180052d90 | 0x00052d90
-`public: __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Stack<class UnBCL::Object * __ptr64>(void) __ptr64` | 179 (0xb3) | Exported Function | 0x0000000180052ed0 | 0x00052ed0
-`public: __cdecl UnBCL::Stack<int>::Stack<int>(class UnBCL::Stack<int> const & __ptr64) __ptr64` | 176 (0xb0) | Exported Function | 0x00000001800533d0 | 0x000533d0
-`public: __cdecl UnBCL::Stack<int>::Stack<int>(void) __ptr64` | 177 (0xb1) | Exported Function | 0x0000000180053690 | 0x00053690
-`public: __cdecl UnBCL::Stream::Stream(class UnBCL::Stream && __ptr64) __ptr64` | 394 (0x18a) | Exported Function | 0x00000001800023e0 | 0x000023e0
-`public: __cdecl UnBCL::Stream::Stream(class UnBCL::Stream const & __ptr64) __ptr64` | 395 (0x18b) | Exported Function | 0x00000001800023e0 | 0x000023e0
-`public: __cdecl UnBCL::Stream::Stream(void) __ptr64` | 396 (0x18c) | Exported Function | 0x0000000180002380 | 0x00002380
-`public: __cdecl UnBCL::StreamCounter::StreamCounter(void) __ptr64` | 397 (0x18d) | Exported Function | 0x0000000180002250 | 0x00002250
-`public: __cdecl UnBCL::StreamCounter::~StreamCounter(void) __ptr64` | 624 (0x270) | Exported Function | 0x0000000180002280 | 0x00002280
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::String>::SmartPtr<class UnBCL::String>(void) __ptr64` | 169 (0xa9) | Exported Function | 0x000000018000ef40 | 0x0000ef40
-`public: __cdecl UnBCL::SecurityException::SecurityException(void) __ptr64` | 384 (0x180) | Exported Function | 0x0000000180049cf0 | 0x00049cf0
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::String>::SmartPtr<class UnBCL::String>(class UnBCL::String * __ptr64) __ptr64` | 168 (0xa8) | Exported Function | 0x000000018000ef10 | 0x0000ef10
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::String>::operator class UnBCL::SmartPtr<class UnBCL::String>::NullTest * __ptr64(void)const __ptr64` | 985 (0x3d9) | Exported Function | 0x000000018000ef80 | 0x0000ef80
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::SmartPtr<class UnBCL::Encoding>(void) __ptr64` | 154 (0x9a) | Exported Function | 0x00000001800078c0 | 0x000078c0
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Object>::operator class UnBCL::SmartPtr<class UnBCL::Object>::NullTest * __ptr64(void)const __ptr64` | 981 (0x3d5) | Exported Function | 0x0000000180001d70 | 0x00001d70
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Object>::SmartPtr<class UnBCL::Object>(class UnBCL::Object * __ptr64) __ptr64` | 156 (0x9c) | Exported Function | 0x0000000180001c70 | 0x00001c70
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Object>::SmartPtr<class UnBCL::Object>(class UnBCL::SmartPtr<class UnBCL::Object> const & __ptr64) __ptr64` | 155 (0x9b) | Exported Function | 0x0000000180001c30 | 0x00001c30
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Object>::SmartPtr<class UnBCL::Object>(void) __ptr64` | 157 (0x9d) | Exported Function | 0x0000000180001ca0 | 0x00001ca0
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::operator class UnBCL::SmartPtr<class UnBCL::SerializationId>::NullTest * __ptr64(void)const __ptr64` | 982 (0x3d6) | Exported Function | 0x0000000180007aa0 | 0x00007aa0
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::SmartPtr<class UnBCL::SerializationId>(class UnBCL::SerializationId * __ptr64) __ptr64` | 159 (0x9f) | Exported Function | 0x0000000180007a30 | 0x00007a30
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::SmartPtr<class UnBCL::SerializationId>(class UnBCL::SmartPtr<class UnBCL::SerializationId> const & __ptr64) __ptr64` | 158 (0x9e) | Exported Function | 0x00000001800079f0 | 0x000079f0
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::SmartPtr<class UnBCL::SerializationId>(void) __ptr64` | 160 (0xa0) | Exported Function | 0x0000000180007a60 | 0x00007a60
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::operator class UnBCL::SmartPtr<class UnBCL::SerializationStream>::NullTest * __ptr64(void)const __ptr64` | 983 (0x3d7) | Exported Function | 0x0000000180007b70 | 0x00007b70
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::SmartPtr<class UnBCL::SerializationStream>(class UnBCL::SerializationStream * __ptr64) __ptr64` | 162 (0xa2) | Exported Function | 0x0000000180007b00 | 0x00007b00
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::SmartPtr<class UnBCL::SerializationStream>(class UnBCL::SmartPtr<class UnBCL::SerializationStream> const & __ptr64) __ptr64` | 161 (0xa1) | Exported Function | 0x0000000180007ac0 | 0x00007ac0
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::SmartPtr<class UnBCL::SerializationStream>(void) __ptr64` | 163 (0xa3) | Exported Function | 0x0000000180007b30 | 0x00007b30
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::operator class UnBCL::SmartPtr<class UnBCL::Stream>::NullTest * __ptr64(void)const __ptr64` | 984 (0x3d8) | Exported Function | 0x00000001800079d0 | 0x000079d0
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::SmartPtr<class UnBCL::Stream>(class UnBCL::SmartPtr<class UnBCL::Stream> const & __ptr64) __ptr64` | 164 (0xa4) | Exported Function | 0x0000000180007920 | 0x00007920
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::SmartPtr<class UnBCL::Stream>(class UnBCL::Stream * __ptr64) __ptr64` | 165 (0xa5) | Exported Function | 0x0000000180007960 | 0x00007960
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::SmartPtr<class UnBCL::Stream>(void) __ptr64` | 166 (0xa6) | Exported Function | 0x0000000180007990 | 0x00007990
-`public: __cdecl UnBCL::SmartPtr<class UnBCL::String>::SmartPtr<class UnBCL::String>(class UnBCL::SmartPtr<class UnBCL::String> const & __ptr64) __ptr64` | 167 (0xa7) | Exported Function | 0x000000018000eed0 | 0x0000eed0
-`public: __cdecl UnBCL::SecurityException::SecurityException(unsigned short const * __ptr64) __ptr64` | 383 (0x17f) | Exported Function | 0x0000000180049d70 | 0x00049d70
-`public: __cdecl UnBCL::SecurityException::SecurityException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 382 (0x17e) | Exported Function | 0x0000000180049db0 | 0x00049db0
-`public: __cdecl UnBCL::SecurityException::SecurityException(class UnBCL::String * __ptr64) __ptr64` | 381 (0x17d) | Exported Function | 0x0000000180049d30 | 0x00049d30
-`public: __cdecl UnBCL::MutableString::MutableString(void) __ptr64` | 319 (0x13f) | Exported Function | 0x0000000180002ac0 | 0x00002ac0
-`public: __cdecl UnBCL::Mutex::Mutex(class UnBCL::Mutex && __ptr64) __ptr64` | 320 (0x140) | Exported Function | 0x0000000180040f50 | 0x00040f50
-`public: __cdecl UnBCL::Mutex::Mutex(class UnBCL::Mutex const & __ptr64) __ptr64` | 321 (0x141) | Exported Function | 0x0000000180040e10 | 0x00040e10
-`public: __cdecl UnBCL::Mutex::Mutex(void) __ptr64` | 322 (0x142) | Exported Function | 0x0000000180041200 | 0x00041200
-`public: __cdecl UnBCL::NotSupportedException::NotSupportedException(class UnBCL::NotSupportedException && __ptr64) __ptr64` | 323 (0x143) | Exported Function | 0x0000000180008d80 | 0x00008d80
-`public: __cdecl UnBCL::NotSupportedException::NotSupportedException(class UnBCL::NotSupportedException const & __ptr64) __ptr64` | 324 (0x144) | Exported Function | 0x0000000180008d80 | 0x00008d80
-`public: __cdecl UnBCL::NotSupportedException::NotSupportedException(class UnBCL::String const * __ptr64) __ptr64` | 326 (0x146) | Exported Function | 0x0000000180041440 | 0x00041440
-`public: __cdecl UnBCL::NotSupportedException::NotSupportedException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 327 (0x147) | Exported Function | 0x00000001800414c0 | 0x000414c0
-`public: __cdecl UnBCL::NotSupportedException::NotSupportedException(unsigned short const * __ptr64) __ptr64` | 325 (0x145) | Exported Function | 0x0000000180041480 | 0x00041480
-`public: __cdecl UnBCL::NotSupportedException::NotSupportedException(void) __ptr64` | 328 (0x148) | Exported Function | 0x0000000180041400 | 0x00041400
-`public: __cdecl UnBCL::Object::Object(class UnBCL::Object const & __ptr64) __ptr64` | 329 (0x149) | Exported Function | 0x0000000180041600 | 0x00041600
-`public: __cdecl UnBCL::Object::Object(void) __ptr64` | 330 (0x14a) | Exported Function | 0x0000000180041600 | 0x00041600
-`public: __cdecl UnBCL::ObjectDisposedException::ObjectDisposedException(class UnBCL::ObjectDisposedException && __ptr64) __ptr64` | 331 (0x14b) | Exported Function | 0x0000000180021440 | 0x00021440
-`public: __cdecl UnBCL::ObjectDisposedException::ObjectDisposedException(class UnBCL::ObjectDisposedException const & __ptr64) __ptr64` | 332 (0x14c) | Exported Function | 0x0000000180021440 | 0x00021440
-`public: __cdecl UnBCL::ObjectDisposedException::ObjectDisposedException(class UnBCL::String const * __ptr64) __ptr64` | 334 (0x14e) | Exported Function | 0x0000000180041c30 | 0x00041c30
-`public: __cdecl UnBCL::ObjectDisposedException::ObjectDisposedException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 335 (0x14f) | Exported Function | 0x0000000180041cb0 | 0x00041cb0
-`public: __cdecl UnBCL::ObjectDisposedException::ObjectDisposedException(unsigned short const * __ptr64) __ptr64` | 333 (0x14d) | Exported Function | 0x0000000180041c70 | 0x00041c70
-`public: __cdecl UnBCL::MutableString::MutableString(unsigned short,int) __ptr64` | 315 (0x13b) | Exported Function | 0x0000000180002bc0 | 0x00002bc0
-`public: __cdecl UnBCL::ObjectDisposedException::ObjectDisposedException(void) __ptr64` | 336 (0x150) | Exported Function | 0x0000000180041bf0 | 0x00041bf0
-`public: __cdecl UnBCL::MutableString::MutableString(unsigned short const * __ptr64,int,int) __ptr64` | 317 (0x13d) | Exported Function | 0x0000000180002b80 | 0x00002b80
-`public: __cdecl UnBCL::MutableString::MutableString(class UnBCL::String const * __ptr64) __ptr64` | 318 (0x13e) | Exported Function | 0x0000000180002b00 | 0x00002b00
-`public: __cdecl UnBCL::IPoolable::IPoolable(struct UnBCL::IPoolable && __ptr64) __ptr64` | 279 (0x117) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IPoolable::IPoolable(struct UnBCL::IPoolable const & __ptr64) __ptr64` | 280 (0x118) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::IPoolable::IPoolable(void) __ptr64` | 281 (0x119) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ISerializable::ISerializable(struct UnBCL::ISerializable && __ptr64) __ptr64` | 282 (0x11a) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ISerializable::ISerializable(struct UnBCL::ISerializable const & __ptr64) __ptr64` | 283 (0x11b) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::ISerializable::ISerializable(void) __ptr64` | 284 (0x11c) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`public: __cdecl UnBCL::MemoryStream::MemoryStream(class UnBCL::Array<unsigned char> * __ptr64,int,int) __ptr64` | 304 (0x130) | Exported Function | 0x0000000180039410 | 0x00039410
-`public: __cdecl UnBCL::MemoryStream::MemoryStream(class UnBCL::MemoryStream const & __ptr64) __ptr64` | 303 (0x12f) | Exported Function | 0x00000001800025c0 | 0x000025c0
-`public: __cdecl UnBCL::MemoryStream::MemoryStream(void) __ptr64` | 305 (0x131) | Exported Function | 0x00000001800392d0 | 0x000392d0
-`public: __cdecl UnBCL::Monitor::Monitor(class UnBCL::Monitor const & __ptr64) __ptr64` | 307 (0x133) | Exported Function | 0x000000018003a490 | 0x0003a490
-`public: __cdecl UnBCL::MultiSz::MultiSz(class UnBCL::MultiSz const & __ptr64) __ptr64` | 308 (0x134) | Exported Function | 0x000000018003b740 | 0x0003b740
-`public: __cdecl UnBCL::MultiSz::MultiSz(unsigned char const * __ptr64,unsigned __int64,unsigned long * __ptr64) __ptr64` | 309 (0x135) | Exported Function | 0x000000018003b500 | 0x0003b500
-`public: __cdecl UnBCL::MultiSz::MultiSz(unsigned short const * __ptr64) __ptr64` | 310 (0x136) | Exported Function | 0x000000018003b300 | 0x0003b300
-`public: __cdecl UnBCL::MultiSz::MultiSz(void) __ptr64` | 311 (0x137) | Exported Function | 0x000000018003b1b0 | 0x0003b1b0
-`public: __cdecl UnBCL::MutableString::MutableString(class UnBCL::MutableString && __ptr64) __ptr64` | 312 (0x138) | Exported Function | 0x0000000180002b00 | 0x00002b00
-`public: __cdecl UnBCL::MutableString::MutableString(class UnBCL::MutableString const & __ptr64) __ptr64` | 313 (0x139) | Exported Function | 0x0000000180002b00 | 0x00002b00
-`public: __cdecl UnBCL::MutableString::MutableString(class UnBCL::String const & __ptr64) __ptr64` | 314 (0x13a) | Exported Function | 0x0000000180002b00 | 0x00002b00
-`public: __cdecl UnBCL::MutableString::MutableString(unsigned short const * __ptr64) __ptr64` | 316 (0x13c) | Exported Function | 0x0000000180002b40 | 0x00002b40
-`public: __cdecl UnBCL::StreamReader::StreamReader(class UnBCL::StreamReader const & __ptr64) __ptr64` | 398 (0x18e) | Exported Function | 0x0000000180054370 | 0x00054370
-`public: __cdecl UnBCL::OperatingSystem::OperatingSystem(class UnBCL::OperatingSystem const & __ptr64) __ptr64` | 338 (0x152) | Exported Function | 0x0000000180041ef0 | 0x00041ef0
-`public: __cdecl UnBCL::OperatingSystem::OperatingSystem(enum UnBCL::PlatformID,enum UnBCL::InstallationType,class UnBCL::Version * __ptr64) __ptr64` | 342 (0x156) | Exported Function | 0x00000001800421a0 | 0x000421a0
-`public: __cdecl UnBCL::ProcessStartInfo::ProcessStartInfo(class UnBCL::ProcessStartInfo const & __ptr64) __ptr64` | 363 (0x16b) | Exported Function | 0x0000000180045280 | 0x00045280
-`public: __cdecl UnBCL::ProcessStartInfo::ProcessStartInfo(class UnBCL::String const * __ptr64) __ptr64` | 365 (0x16d) | Exported Function | 0x0000000180045ce0 | 0x00045ce0
-`public: __cdecl UnBCL::ProcessStartInfo::ProcessStartInfo(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64) __ptr64` | 364 (0x16c) | Exported Function | 0x0000000180045db0 | 0x00045db0
-`public: __cdecl UnBCL::RegHandle::operator struct HKEY__ * __ptr64(void) __ptr64` | 989 (0x3dd) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`public: __cdecl UnBCL::RegHandle::RegHandle(class UnBCL::RegHandle const & __ptr64) __ptr64` | 366 (0x16e) | Exported Function | 0x0000000180045fc0 | 0x00045fc0
-`public: __cdecl UnBCL::RegHandle::RegHandle(void) __ptr64` | 367 (0x16f) | Exported Function | 0x0000000180046140 | 0x00046140
-`public: __cdecl UnBCL::Registry::Registry(class UnBCL::Registry && __ptr64) __ptr64` | 370 (0x172) | Exported Function | 0x00000001800468f0 | 0x000468f0
-`public: __cdecl UnBCL::Registry::Registry(class UnBCL::Registry const & __ptr64) __ptr64` | 371 (0x173) | Exported Function | 0x00000001800468f0 | 0x000468f0
-`public: __cdecl UnBCL::Registry::Registry(void) __ptr64` | 372 (0x174) | Exported Function | 0x0000000180046880 | 0x00046880
-`public: __cdecl UnBCL::RegistryKey::RegistryKey(class UnBCL::RegistryKey const & __ptr64) __ptr64` | 373 (0x175) | Exported Function | 0x0000000180046670 | 0x00046670
-`public: __cdecl UnBCL::RegistryKey::RegistryKey(struct HKEY__ * __ptr64,int) __ptr64` | 374 (0x176) | Exported Function | 0x0000000180046bb0 | 0x00046bb0
-`public: __cdecl UnBCL::RegSubkeyEnumerator::RegSubkeyEnumerator(class UnBCL::RegHandle & __ptr64) __ptr64` | 368 (0x170) | Exported Function | 0x00000001800497e0 | 0x000497e0
-`public: __cdecl UnBCL::RegSubkeyEnumerator::RegSubkeyEnumerator(class UnBCL::RegSubkeyEnumerator const & __ptr64) __ptr64` | 369 (0x171) | Exported Function | 0x00000001800495e0 | 0x000495e0
-`public: __cdecl UnBCL::ScopedObjectLock::ScopedObjectLock(class UnBCL::SyncObject * __ptr64) __ptr64` | 378 (0x17a) | Exported Function | 0x0000000180041b90 | 0x00041b90
-`public: __cdecl UnBCL::ScopedObjectLock::~ScopedObjectLock(void) __ptr64` | 618 (0x26a) | Exported Function | 0x0000000180041bc0 | 0x00041bc0
-`public: __cdecl UnBCL::SecurityException::SecurityException(class UnBCL::SecurityException && __ptr64) __ptr64` | 379 (0x17b) | Exported Function | 0x0000000180046b20 | 0x00046b20
-`public: __cdecl UnBCL::SecurityException::SecurityException(class UnBCL::SecurityException const & __ptr64) __ptr64` | 380 (0x17c) | Exported Function | 0x0000000180046b20 | 0x00046b20
-`public: __cdecl UnBCL::ProcessStartInfo::ProcessStartInfo(class UnBCL::ProcessStartInfo && __ptr64) __ptr64` | 362 (0x16a) | Exported Function | 0x0000000180045280 | 0x00045280
-`public: __cdecl UnBCL::OperatingSystem::OperatingSystem(enum UnBCL::PlatformID,class UnBCL::Version * __ptr64) __ptr64` | 341 (0x155) | Exported Function | 0x0000000180042080 | 0x00042080
-`public: __cdecl UnBCL::Process::Process(class UnBCL::Process const & __ptr64) __ptr64` | 361 (0x169) | Exported Function | 0x0000000180045440 | 0x00045440
-`public: __cdecl UnBCL::PathTooLongException::PathTooLongException(unsigned short const * __ptr64) __ptr64` | 357 (0x165) | Exported Function | 0x00000001800451e0 | 0x000451e0
-`public: __cdecl UnBCL::OperatingSystem::OperatingSystem(enum UnBCL::PlatformID,unsigned long,class UnBCL::Version * __ptr64) __ptr64` | 339 (0x153) | Exported Function | 0x0000000180042110 | 0x00042110
-`public: __cdecl UnBCL::OperatingSystem::OperatingSystem(enum UnBCL::PlatformID,unsigned long,enum UnBCL::InstallationType,class UnBCL::Version * __ptr64) __ptr64` | 340 (0x154) | Exported Function | 0x0000000180042240 | 0x00042240
-`public: __cdecl UnBCL::OutOfMemoryException::OutOfMemoryException(class UnBCL::OutOfMemoryException && __ptr64) __ptr64` | 343 (0x157) | Exported Function | 0x0000000180034e80 | 0x00034e80
-`public: __cdecl UnBCL::OutOfMemoryException::OutOfMemoryException(class UnBCL::OutOfMemoryException const & __ptr64) __ptr64` | 344 (0x158) | Exported Function | 0x0000000180034e80 | 0x00034e80
-`public: __cdecl UnBCL::OutOfMemoryException::OutOfMemoryException(class UnBCL::String * __ptr64) __ptr64` | 345 (0x159) | Exported Function | 0x0000000180042820 | 0x00042820
-`public: __cdecl UnBCL::OutOfMemoryException::OutOfMemoryException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 346 (0x15a) | Exported Function | 0x00000001800428a0 | 0x000428a0
-`public: __cdecl UnBCL::OutOfMemoryException::OutOfMemoryException(unsigned short const * __ptr64) __ptr64` | 347 (0x15b) | Exported Function | 0x0000000180042860 | 0x00042860
-`public: __cdecl UnBCL::OutOfMemoryException::OutOfMemoryException(void) __ptr64` | 348 (0x15c) | Exported Function | 0x00000001800427e0 | 0x000427e0
-`public: __cdecl UnBCL::OverflowException::OverflowException(class UnBCL::OverflowException && __ptr64) __ptr64` | 349 (0x15d) | Exported Function | 0x00000001800214d0 | 0x000214d0
-`public: __cdecl UnBCL::OverflowException::OverflowException(class UnBCL::OverflowException const & __ptr64) __ptr64` | 350 (0x15e) | Exported Function | 0x00000001800214d0 | 0x000214d0
-`public: __cdecl UnBCL::OverflowException::OverflowException(class UnBCL::String const * __ptr64) __ptr64` | 352 (0x160) | Exported Function | 0x0000000180042920 | 0x00042920
-`public: __cdecl UnBCL::OverflowException::OverflowException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 353 (0x161) | Exported Function | 0x00000001800429a0 | 0x000429a0
-`public: __cdecl UnBCL::OverflowException::OverflowException(unsigned short const * __ptr64) __ptr64` | 351 (0x15f) | Exported Function | 0x0000000180042960 | 0x00042960
-`public: __cdecl UnBCL::OverflowException::OverflowException(void) __ptr64` | 354 (0x162) | Exported Function | 0x00000001800428e0 | 0x000428e0
-`public: __cdecl UnBCL::PathTooLongException::PathTooLongException(class UnBCL::PathTooLongException && __ptr64) __ptr64` | 355 (0x163) | Exported Function | 0x0000000180024510 | 0x00024510
-`public: __cdecl UnBCL::PathTooLongException::PathTooLongException(class UnBCL::PathTooLongException const & __ptr64) __ptr64` | 356 (0x164) | Exported Function | 0x0000000180024510 | 0x00024510
-`public: __cdecl UnBCL::PathTooLongException::PathTooLongException(class UnBCL::String const * __ptr64) __ptr64` | 358 (0x166) | Exported Function | 0x00000001800451a0 | 0x000451a0
-`public: __cdecl UnBCL::PathTooLongException::PathTooLongException(void) __ptr64` | 359 (0x167) | Exported Function | 0x0000000180045160 | 0x00045160
-`void __cdecl UnBCL::_::SetLiteralStorage(class UnBCL::String const * __ptr64 * __ptr64,unsigned short const * __ptr64)` | 2183 (0x887) | Exported Function | 0x0000000180059eb0 | 0x00059eb0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: static int __cdecl UnBCL::Char::IsNumber(unsigned short)` | 1986 | Exported Function
+`public: static int __cdecl UnBCL::Char::IsLetterOrDigit(unsigned short)` | 1984 | Exported Function
+`public: static int __cdecl UnBCL::DateTime::IsLeapYear(int)` | 1982 | Exported Function
+`public: static int __cdecl UnBCL::Directory::Exists(class UnBCL::String const * __ptr64)` | 1716 | Exported Function
+`public: static int __cdecl UnBCL::Directory::DeleteNE(class UnBCL::String const * __ptr64,int)` | 1670 | Exported Function
+`public: static int __cdecl UnBCL::ArrayList<unsigned short>::IndexOf(class UnBCL::ArrayList<unsigned short> const * __ptr64,unsigned short,int,int)` | 1919 | Exported Function
+`public: static int __cdecl UnBCL::ArrayList<unsigned short>::BinarySearch(class UnBCL::ArrayList<unsigned short> * __ptr64,unsigned short,struct UnBCL::IComparer<unsigned short> * __ptr64)` | 1519 | Exported Function
+`public: static int __cdecl UnBCL::ArrayList<unsigned short>::LastIndexOf(class UnBCL::ArrayList<unsigned short> const * __ptr64,unsigned short,int,int)` | 1999 | Exported Function
+`public: static int __cdecl UnBCL::Char::IsLetter(unsigned short)` | 1983 | Exported Function
+`public: static int __cdecl UnBCL::Char::IsDigit(unsigned short)` | 1972 | Exported Function
+`public: static int __cdecl UnBCL::Monitor::Wait(class UnBCL::SyncObject * __ptr64)` | 2320 | Exported Function
+`public: static int __cdecl UnBCL::Int32Ops::Parse(unsigned short const * __ptr64)` | 2067 | Exported Function
+`public: static int __cdecl UnBCL::Object::Equals(class UnBCL::Object const * __ptr64,class UnBCL::Object const * __ptr64)` | 1708 | Exported Function
+`public: static int __cdecl UnBCL::Path::IndexOfEndOfLongPrefix(class UnBCL::String const * __ptr64)` | 1934 | Exported Function
+`public: static int __cdecl UnBCL::Object::ReferenceEquals(class UnBCL::Object const * __ptr64,class UnBCL::Object const * __ptr64)` | 2101 | Exported Function
+`public: static int __cdecl UnBCL::Directory::ShouldEnumerateReparsePoint(class UnBCL::String const * __ptr64)` | 2203 | Exported Function
+`public: static int __cdecl UnBCL::Directory::IsDirectoryEmpty(class UnBCL::String const * __ptr64)` | 1973 | Exported Function
+`public: static int __cdecl UnBCL::Environment::IsEnvironmentVarSetTrue(class UnBCL::String const * __ptr64,int)` | 1980 | Exported Function
+`public: static int __cdecl UnBCL::File::SetCompressionState(class UnBCL::String const * __ptr64,unsigned short)` | 2178 | Exported Function
+`public: static int __cdecl UnBCL::File::Exists(class UnBCL::String const * __ptr64)` | 1717 | Exported Function
+`public: static int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::LastIndexOf(class UnBCL::ArrayList<class UnBCL::String * __ptr64> const * __ptr64,class UnBCL::String * __ptr64,int,int)` | 2001 | Exported Function
+`public: static int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::BinarySearch(class UnBCL::Array<class UnBCL::String * __ptr64> const * __ptr64,class UnBCL::String * __ptr64,struct UnBCL::IComparer<class UnBCL::String * __ptr64> * __ptr64)` | 1517 | Exported Function
+`public: static int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::LastIndexOf(class UnBCL::Array<class UnBCL::Object * __ptr64> const * __ptr64,class UnBCL::Object * __ptr64,int,int)` | 1997 | Exported Function
+`public: static int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::IndexOf(class UnBCL::Array<class UnBCL::String * __ptr64> const * __ptr64,class UnBCL::String * __ptr64,int,int)` | 1917 | Exported Function
+`public: static int __cdecl UnBCL::Array<int>::BinarySearch(class UnBCL::Array<int> const * __ptr64,int,struct UnBCL::IComparer<int> * __ptr64)` | 1515 | Exported Function
+`public: static int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::LastIndexOf(class UnBCL::Array<class UnBCL::String * __ptr64> const * __ptr64,class UnBCL::String * __ptr64,int,int)` | 1998 | Exported Function
+`public: static int __cdecl ATL::CSimpleStringT<unsigned short,0>::StringLength(unsigned short const * __ptr64)` | 2259 | Exported Function
+`public: static int __cdecl ATL::CSimpleStringT<unsigned short,0>::StringLength(char const * __ptr64)` | 2258 | Exported Function
+`public: static int __cdecl UnBCL::Allocator::MemAllocFailed(void)` | 2041 | Exported Function
+`public: static int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::IndexOf(class UnBCL::Array<class UnBCL::Object * __ptr64> const * __ptr64,class UnBCL::Object * __ptr64,int,int)` | 1915 | Exported Function
+`public: static int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::BinarySearch(class UnBCL::Array<class UnBCL::Object * __ptr64> const * __ptr64,class UnBCL::Object * __ptr64,struct UnBCL::IComparer<class UnBCL::Object * __ptr64> * __ptr64)` | 1516 | Exported Function
+`public: static int __cdecl UnBCL::Array<unsigned short>::IndexOf(class UnBCL::Array<unsigned short> const * __ptr64,unsigned short,int,int)` | 1911 | Exported Function
+`public: static int __cdecl UnBCL::Array<unsigned short>::BinarySearch(class UnBCL::Array<unsigned short> const * __ptr64,unsigned short,struct UnBCL::IComparer<unsigned short> * __ptr64)` | 1514 | Exported Function
+`public: static int __cdecl UnBCL::Array<unsigned short>::LastIndexOf(class UnBCL::Array<unsigned short> const * __ptr64,unsigned short,int,int)` | 1995 | Exported Function
+`public: static int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::IndexOf(class UnBCL::ArrayList<class UnBCL::String * __ptr64> const * __ptr64,class UnBCL::String * __ptr64,int,int)` | 1922 | Exported Function
+`public: static int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::BinarySearch(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64,class UnBCL::String * __ptr64,struct UnBCL::IComparer<class UnBCL::String * __ptr64> * __ptr64)` | 1522 | Exported Function
+`public: static int __cdecl UnBCL::Array<int>::LastIndexOf(class UnBCL::Array<int> const * __ptr64,int,int,int)` | 1996 | Exported Function
+`public: static int __cdecl UnBCL::Array<int>::IndexOf(class UnBCL::Array<int> const * __ptr64,int,int,int)` | 1913 | Exported Function
+`public: static int __cdecl UnBCL::Array<unsigned char>::BinarySearch(class UnBCL::Array<unsigned char> const * __ptr64,unsigned char,struct UnBCL::IComparer<unsigned char> * __ptr64)` | 1513 | Exported Function
+`public: static int __cdecl UnBCL::Array<unsigned char>::LastIndexOf(class UnBCL::Array<unsigned char> const * __ptr64,unsigned char,int,int)` | 1994 | Exported Function
+`public: static int __cdecl UnBCL::Array<unsigned char>::IndexOf(class UnBCL::Array<unsigned char> const * __ptr64,unsigned char,int,int)` | 1909 | Exported Function
+`public: static int __cdecl UnBCL::Path::IsDirectorySeparator(unsigned short)` | 1974 | Exported Function
+`public: static unsigned int __cdecl UnBCL::Allocator::DumpDelta(struct ILogHandler * __ptr64,unsigned int)` | 1690 | Exported Function
+`public: static unsigned int __cdecl UnBCL::Allocator::Dump(struct ILogHandler * __ptr64,unsigned int)` | 1688 | Exported Function
+`public: static unsigned long __cdecl UnBCL::Directory::MakeSureDirectoryExists(unsigned short const * __ptr64,int * __ptr64)` | 2034 | Exported Function
+`public: static unsigned short __cdecl UnBCL::Char::ToLower(unsigned short)` | 2282 | Exported Function
+`public: static unsigned short * __ptr64 __cdecl UnBCL::MultiSz::ToMultisz(struct UnBCL::ICollection<class UnBCL::String * __ptr64> const & __ptr64)` | 2284 | Exported Function
+`public: static struct HINSTANCE__ * __ptr64 __cdecl UnBCL::SerializationStream::GetCallingModule(void)` | 1786 | Exported Function
+`public: static long __cdecl UnBCL::Environment::Done(void)` | 1686 | Exported Function
+`public: static struct ILogHandler * __ptr64 __cdecl UnBCL::Logging::GetHandler(void)` | 1825 | Exported Function
+`public: static unsigned int __cdecl UnBCL::Allocator::BlocksAllocated(unsigned int)` | 1524 | Exported Function
+`public: static struct IOutOfMemoryHandler * __ptr64 __cdecl UnBCL::Allocator::GetOOMHandler(void)` | 1847 | Exported Function
+`public: static void * __ptr64 __cdecl UnBCL::Allocator::ReAlloc(void * __ptr64,unsigned __int64,unsigned int)` | 2085 | Exported Function
+`public: static void * __ptr64 __cdecl UnBCL::Allocator::AllocDbg(unsigned __int64,char const * __ptr64,int,unsigned int)` | 1465 | Exported Function
+`public: static void * __ptr64 __cdecl UnBCL::Allocator::ReAllocDbg(void * __ptr64,unsigned __int64,char const * __ptr64,int,unsigned int)` | 2087 | Exported Function
+`public: static void * __ptr64 __cdecl UnBCL::Object::operator new(unsigned __int64,char const * __ptr64,int)` | 659 | Exported Function
+`public: static void * __ptr64 __cdecl UnBCL::Object::operator new(unsigned __int64)` | 657 | Exported Function
+`public: static unsigned short __cdecl UnBCL::Path::GetDirectorySeparatorChar(void)` | 1802 | Exported Function
+`public: static unsigned short __cdecl UnBCL::Path::GetAltDirectorySeparatorChar(void)` | 1753 | Exported Function
+`public: static unsigned short __cdecl UnBCL::Path::GetVolumeSeparatorChar(void)` | 1904 | Exported Function
+`public: static void * __ptr64 __cdecl UnBCL::Allocator::Alloc(unsigned __int64,unsigned int)` | 1463 | Exported Function
+`public: static unsigned short const * __ptr64 __cdecl UnBCL::OperatingSystem::GetArchitectureString(unsigned long)` | 1755 | Exported Function
+`public: static int __cdecl UnBCL::String::MatchI(unsigned short const * __ptr64,unsigned short const * __ptr64)` | 2039 | Exported Function
+`public: static int __cdecl UnBCL::Path::IsValid(unsigned short const * __ptr64)` | 1990 | Exported Function
+`public: static int __cdecl UnBCL::Path::IsShortCompliant(class UnBCL::String const * __ptr64,int)` | 1988 | Exported Function
+`public: static int __cdecl UnBCL::SerializationStream::CanRegister(void)` | 1525 | Exported Function
+`public: static int __cdecl UnBCL::String::_Match(class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>)` | 2357 | Exported Function
+`public: static int __cdecl UnBCL::String::_Compare(class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>,int)` | 2341 | Exported Function
+`public: static int __cdecl UnBCL::Path::IsDriveLetterOrUncPrefix(unsigned short const * __ptr64)` | 1975 | Exported Function
+`public: static int __cdecl UnBCL::Path::IsDriveLetterOrUncPrefix(class UnBCL::String const * __ptr64)` | 1976 | Exported Function
+`public: static int __cdecl UnBCL::Path::IsDriveLetterPrefix(class UnBCL::String const * __ptr64)` | 1978 | Exported Function
+`public: static int __cdecl UnBCL::Path::IsPathRooted(class UnBCL::String const * __ptr64)` | 1987 | Exported Function
+`public: static int __cdecl UnBCL::Path::IsDriveLetterPrefix(unsigned short const * __ptr64)` | 1977 | Exported Function
+`public: static int __cdecl UnBCL::String::IndexOfAny(unsigned short const * __ptr64,unsigned short const * __ptr64,int,int)` | 1933 | Exported Function
+`public: static int __cdecl UnBCL::String::GetIsEmpty(unsigned short const * __ptr64)` | 1833 | Exported Function
+`public: static int __cdecl UnBCL::String::Match(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64)` | 2038 | Exported Function
+`public: static int __cdecl UnBCL::String::MatchI(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64)` | 2040 | Exported Function
+`public: static int __cdecl UnBCL::String::Match(unsigned short const * __ptr64,unsigned short const * __ptr64)` | 2037 | Exported Function
+`public: static int __cdecl UnBCL::String::Compare(class UnBCL::String const * __ptr64,unsigned short const * __ptr64,int)` | 1576 | Exported Function
+`public: static int __cdecl UnBCL::String::Compare(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,int)` | 1575 | Exported Function
+`public: static int __cdecl UnBCL::String::Compare(unsigned short const * __ptr64,class UnBCL::String const * __ptr64,int)` | 1574 | Exported Function
+`public: static int __cdecl UnBCL::String::CountChars(unsigned short const * __ptr64)` | 1631 | Exported Function
+`public: static int __cdecl UnBCL::String::Compare(unsigned short const * __ptr64,unsigned short const * __ptr64,int)` | 1573 | Exported Function
+`public: static class UnBCL::OperatingSystem const * __ptr64 __cdecl UnBCL::Environment::GetOSVersion(int)` | 1848 | Exported Function
+`public: static class UnBCL::MultiSz * __ptr64 __cdecl UnBCL::MultiSz::FromString(unsigned short const * __ptr64,unsigned short)` | 1750 | Exported Function
+`public: static class UnBCL::Process * __ptr64 __cdecl UnBCL::Process::Start(class UnBCL::ProcessStartInfo const * __ptr64)` | 2218 | Exported Function
+`public: static class UnBCL::RegistryKey * __ptr64 __cdecl UnBCL::Registry::GetLocalMachine(void)` | 1836 | Exported Function
+`public: static class UnBCL::RegistryKey * __ptr64 __cdecl UnBCL::Registry::GetCurrentUser(void)` | 1792 | Exported Function
+`public: static class UnBCL::Encoding * __ptr64 __cdecl UnBCL::Encoding::GetDefault(void)` | 1797 | Exported Function
+`public: static class UnBCL::Encoding * __ptr64 __cdecl UnBCL::Encoding::GetASCII(void)` | 1751 | Exported Function
+`public: static class UnBCL::Encoding * __ptr64 __cdecl UnBCL::Encoding::GetUnicode(void)` | 1884 | Exported Function
+`public: static class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Environment::GetEnvironmentVars(void)` | 1819 | Exported Function
+`public: static class UnBCL::FileStream * __ptr64 __cdecl UnBCL::File::Create(class UnBCL::String const * __ptr64)` | 1632 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetApplicationStartDir(void)` | 1754 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::CreateTemporaryDirectory(void)` | 1636 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetCurrentDir(void)` | 1791 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetLoadedModuleDir(class UnBCL::String const * __ptr64)` | 1835 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetDirectoryRoot(class UnBCL::String const * __ptr64)` | 1801 | Exported Function
+`public: static class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Concat(class UnBCL::SmartPtr<class UnBCL::String>)` | 2347 | Exported Function
+`public: static class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::StringPtr> > __cdecl UnBCL::MultiSz::FromMultiSzEx(unsigned short const * __ptr64)` | 1748 | Exported Function
+`public: static class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Concat(class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>)` | 2346 | Exported Function
+`public: static class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Concat(class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>)` | 2344 | Exported Function
+`public: static class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Concat(class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>)` | 2345 | Exported Function
+`public: static class UnBCL::DirectoryInfo * __ptr64 __cdecl UnBCL::Directory::CreateDir(class UnBCL::String const * __ptr64)` | 1633 | Exported Function
+`public: int __cdecl UnBCL::XmlAttributeCollection::get_Count(void) __ptr64` | 2416 | Exported Function
+`public: int __cdecl UnBCL::Version::get_Minor(void)const __ptr64` | 2516 | Exported Function
+`public: int __cdecl UnBCL::XmlLite::XmlAttributeCollection::get_Count(void)const __ptr64` | 2417 | Exported Function
+`public: int __cdecl UnBCL::XmlNodeList::get_Count(void) __ptr64` | 2418 | Exported Function
+`public: int __cdecl UnBCL::XmlLite::XmlNodeList::get_Count(void)const __ptr64` | 2419 | Exported Function
+`public: int __cdecl UnBCL::TimeSpan::get_Minutes(void)const __ptr64` | 2518 | Exported Function
+`public: int __cdecl UnBCL::TimeSpan::get_Milliseconds(void)const __ptr64` | 2515 | Exported Function
+`public: int __cdecl UnBCL::TimeSpan::get_Seconds(void)const __ptr64` | 2571 | Exported Function
+`public: int __cdecl UnBCL::Version::get_Major(void)const __ptr64` | 2511 | Exported Function
+`public: int __cdecl UnBCL::Version::get_Build(void)const __ptr64` | 2387 | Exported Function
+`public: static class UnBCL::Char __cdecl UnBCL::Char::ToLower(class UnBCL::Char)` | 2281 | Exported Function
+`public: static class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::MultiSz::FromMultiSz(unsigned short const * __ptr64)` | 1747 | Exported Function
+`public: static class UnBCL::DateTime __cdecl UnBCL::DateTime::GetMaxValue(void)` | 1843 | Exported Function
+`public: static class UnBCL::DateTime __cdecl UnBCL::DateTime::GetNow(int)` | 1846 | Exported Function
+`public: static class UnBCL::DateTime __cdecl UnBCL::DateTime::GetMinValue(void)` | 1844 | Exported Function
+`public: static class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Directory::GetDirectories(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,int)` | 1799 | Exported Function
+`public: int __cdecl UnBCL::XmlSchemaSet::Contains(class UnBCL::String * __ptr64) __ptr64` | 1606 | Exported Function
+`public: static class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Directory::GetDirectoriesAndFiles(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,enum UnBCL::Directory::EnumerationType,int)` | 1800 | Exported Function
+`public: static class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Environment::GetLogicalDriveNames(void)` | 1837 | Exported Function
+`public: static class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Directory::GetFiles(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,int)` | 1823 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetSystemDir(void)` | 1866 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Concat(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64)` | 1588 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Concat(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64)` | 1589 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Copy(class UnBCL::String const * __ptr64)` | 1615 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::FormatV(unsigned short const * __ptr64,char * __ptr64)` | 1741 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Format(unsigned short const * __ptr64,...)` | 1736 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::SerializationStream::SanitizeTypeName(class UnBCL::String const & __ptr64)` | 2167 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::WithoutLongPrefix(class UnBCL::String const * __ptr64,int & __ptr64)` | 2328 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Concat(int,...)` | 1587 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Concat(unsigned short const * __ptr64,unsigned short const * __ptr64)` | 1590 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Concat(unsigned short const * __ptr64)` | 1591 | Exported Function
+`public: static class UnBCL::Thread * __ptr64 __cdecl UnBCL::Thread::GetThisThread(void)` | 1871 | Exported Function
+`public: static class UnBCL::SystemInfo const * __ptr64 __cdecl UnBCL::Environment::GetSystemInfo(int)` | 1867 | Exported Function
+`public: static class UnBCL::TimeSpan __cdecl UnBCL::TimeSpan::FromSeconds(double)` | 1749 | Exported Function
+`public: static class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::CreateXmlNode(struct IXMLDOMNode * __ptr64)` | 1637 | Exported Function
+`public: static class UnBCL::TimeSpan __cdecl UnBCL::TimeSpan::GetZero(void)` | 1906 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::Join(unsigned short const * __ptr64,class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64)` | 1991 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::String::FromASCII(char const * __ptr64)` | 1746 | Exported Function
+`public: static class UnBCL::String const * __ptr64 __cdecl UnBCL::Path::GetInvalidPathChars(void)` | 1832 | Exported Function
+`public: static class UnBCL::String const * __ptr64 __cdecl UnBCL::String::IsInterned(class UnBCL::String const * __ptr64)` | 1981 | Exported Function
+`public: static class UnBCL::String const * __ptr64 __cdecl UnBCL::String::Intern(class UnBCL::String const * __ptr64)` | 1967 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::WithoutLongPrefix(class UnBCL::String const * __ptr64)` | 2327 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Int32Ops::ToString(int)` | 2287 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::File::GetTemporaryFileName(class UnBCL::String const * __ptr64)` | 1870 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::Combine(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64)` | 1570 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetFileNameExtension(class UnBCL::String const * __ptr64)` | 1821 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetFileName(class UnBCL::String const * __ptr64)` | 1820 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetWindowsDir(void)` | 1905 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Directory::GetTempPathName(void)` | 1869 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Environment::ExpandEnvironmentVariables(class UnBCL::String const * __ptr64)` | 1719 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::File::Copy(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,int)` | 1614 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Environment::GetEnvironmentVar(class UnBCL::String const * __ptr64)` | 1817 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::Sanitize(class UnBCL::String const * __ptr64)` | 2166 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetShortName(class UnBCL::String const * __ptr64)` | 1857 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::WithLongPrefix(class UnBCL::String const * __ptr64,int)` | 2324 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::WithLongPrefixUNC(class UnBCL::String const * __ptr64,int)` | 2326 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::WithLongPrefixStd(class UnBCL::String const * __ptr64,int)` | 2325 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetFullPath(class UnBCL::String const * __ptr64)` | 1824 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetFileNameWithoutExtension(class UnBCL::String const * __ptr64)` | 1822 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetLongName(class UnBCL::String const * __ptr64)` | 1838 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetPathRoot(class UnBCL::String const * __ptr64)` | 1854 | Exported Function
+`public: static class UnBCL::String * __ptr64 __cdecl UnBCL::Path::GetParentPath(class UnBCL::String const * __ptr64)` | 1853 | Exported Function
+`public: unsigned int __cdecl UnBCL::SEHException::get_ExceptionCode(void)const __ptr64` | 2428 | Exported Function
+`public: unsigned __int64 __cdecl UnBCL::SystemInfo::get_TotalMemory(void)const __ptr64` | 2581 | Exported Function
+`public: unsigned long __cdecl UnBCL::OperatingSystem::get_Architecture(void)const __ptr64` | 2370 | Exported Function
+`public: unsigned long __cdecl UnBCL::SystemInfo::get_NumCPU(void)const __ptr64` | 2530 | Exported Function
+`public: unsigned long __cdecl UnBCL::RegistryKey::GetValue(class UnBCL::String const * __ptr64) __ptr64` | 1890 | Exported Function
+`public: struct UnBCL::IPoolable & __ptr64 __cdecl UnBCL::IPoolable::operator=(struct UnBCL::IPoolable const & __ptr64) __ptr64` | 828 | Exported Function
+`public: struct UnBCL::IPoolable & __ptr64 __cdecl UnBCL::IPoolable::operator=(struct UnBCL::IPoolable && __ptr64) __ptr64` | 827 | Exported Function
+`public: struct UnBCL::ISerializable & __ptr64 __cdecl UnBCL::ISerializable::operator=(struct UnBCL::ISerializable && __ptr64) __ptr64` | 829 | Exported Function
+`public: unsigned __int64 __cdecl UnBCL::StreamCounter::get_Count(void)const __ptr64` | 2415 | Exported Function
+`public: struct UnBCL::ISerializable & __ptr64 __cdecl UnBCL::ISerializable::operator=(struct UnBCL::ISerializable const & __ptr64) __ptr64` | 830 | Exported Function
+`public: unsigned short * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::GetBuffer(void) __ptr64` | 1775 | Exported Function
+`public: unsigned short * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::GetBuffer(int) __ptr64` | 1774 | Exported Function
+`public: unsigned short * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::GetBufferSetLength(int) __ptr64` | 1778 | Exported Function
+`public: unsigned short * __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::AllocSysString(void)const __ptr64` | 1467 | Exported Function
+`public: unsigned short * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::LockBuffer(void) __ptr64` | 2020 | Exported Function
+`public: unsigned long __cdecl UnBCL::SystemInfo::get_ProcessorArchitecture(void)const __ptr64` | 2559 | Exported Function
+`public: unsigned long __cdecl UnBCL::SystemInfo::get_NumLogicalCPU(void)const __ptr64` | 2531 | Exported Function
+`public: unsigned long __cdecl UnBCL::SystemInfo::get_ProcessorMaxClock(void)const __ptr64` | 2562 | Exported Function
+`public: unsigned long __cdecl UnBCL::Win32Exception::get_Win32ErrorCode(void)const __ptr64` | 2593 | Exported Function
+`public: unsigned long __cdecl UnBCL::Thread::get_ThreadID(void) __ptr64` | 2575 | Exported Function
+`public: struct UnBCL::Int32Ops & __ptr64 __cdecl UnBCL::Int32Ops::operator=(struct UnBCL::Int32Ops const & __ptr64) __ptr64` | 834 | Exported Function
+`public: struct UnBCL::IEnumerator<unsigned short const * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerator<unsigned short const * __ptr64>::operator=(struct UnBCL::IEnumerator<unsigned short const * __ptr64> const & __ptr64) __ptr64` | 715 | Exported Function
+`public: struct UnBCL::IEnumerator<unsigned short const * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerator<unsigned short const * __ptr64>::operator=(struct UnBCL::IEnumerator<unsigned short const * __ptr64> && __ptr64) __ptr64` | 714 | Exported Function
+`public: struct UnBCL::IInstanceFactory & __ptr64 __cdecl UnBCL::IInstanceFactory::operator=(struct UnBCL::IInstanceFactory && __ptr64) __ptr64` | 825 | Exported Function
+`public: struct UnBCL::IList<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::IList<class UnBCL::Object * __ptr64>::operator=(struct UnBCL::IList<class UnBCL::Object * __ptr64> && __ptr64) __ptr64` | 722 | Exported Function
+`public: struct UnBCL::IInstanceFactory & __ptr64 __cdecl UnBCL::IInstanceFactory::operator=(struct UnBCL::IInstanceFactory const & __ptr64) __ptr64` | 826 | Exported Function
+`public: struct UnBCL::IEnumerable<unsigned short> & __ptr64 __cdecl UnBCL::IEnumerable<unsigned short>::operator=(struct UnBCL::IEnumerable<unsigned short> const & __ptr64) __ptr64` | 701 | Exported Function
+`public: struct UnBCL::IEnumerable<unsigned short> & __ptr64 __cdecl UnBCL::IEnumerable<unsigned short>::operator=(struct UnBCL::IEnumerable<unsigned short> && __ptr64) __ptr64` | 700 | Exported Function
+`public: struct UnBCL::IEnumerator<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > * __ptr64 __cdecl UnBCL::XmlNamespaceManager::GetEnumerator(void)const __ptr64` | 1816 | Exported Function
+`public: struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerator<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 713 | Exported Function
+`public: struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerator<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 712 | Exported Function
+`public: struct UnBCL::IList<unsigned char> & __ptr64 __cdecl UnBCL::IList<unsigned char>::operator=(struct UnBCL::IList<unsigned char> const & __ptr64) __ptr64` | 717 | Exported Function
+`public: struct UnBCL::IList<unsigned char> & __ptr64 __cdecl UnBCL::IList<unsigned char>::operator=(struct UnBCL::IList<unsigned char> && __ptr64) __ptr64` | 716 | Exported Function
+`public: struct UnBCL::IList<unsigned short> & __ptr64 __cdecl UnBCL::IList<unsigned short>::operator=(struct UnBCL::IList<unsigned short> && __ptr64) __ptr64` | 718 | Exported Function
+`public: struct UnBCL::Int32Ops & __ptr64 __cdecl UnBCL::Int32Ops::operator=(struct UnBCL::Int32Ops && __ptr64) __ptr64` | 833 | Exported Function
+`public: struct UnBCL::IList<unsigned short> & __ptr64 __cdecl UnBCL::IList<unsigned short>::operator=(struct UnBCL::IList<unsigned short> const & __ptr64) __ptr64` | 719 | Exported Function
+`public: struct UnBCL::IList<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IList<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IList<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 724 | Exported Function
+`public: struct UnBCL::IList<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::IList<class UnBCL::Object * __ptr64>::operator=(struct UnBCL::IList<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 723 | Exported Function
+`public: struct UnBCL::IList<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IList<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IList<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 725 | Exported Function
+`public: struct UnBCL::IList<int> & __ptr64 __cdecl UnBCL::IList<int>::operator=(struct UnBCL::IList<int> const & __ptr64) __ptr64` | 721 | Exported Function
+`public: struct UnBCL::IList<int> & __ptr64 __cdecl UnBCL::IList<int>::operator=(struct UnBCL::IList<int> && __ptr64) __ptr64` | 720 | Exported Function
+`public: unsigned short * __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::SetSysString(unsigned short * __ptr64 * __ptr64)const __ptr64` | 2193 | Exported Function
+`public: virtual __cdecl UnBCL::Array<int>::~Array<int>(void) __ptr64` | 515 | Exported Function
+`public: virtual __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::~Array<class UnBCL::String * __ptr64>(void) __ptr64` | 517 | Exported Function
+`public: virtual __cdecl UnBCL::Array<unsigned char>::~Array<unsigned char>(void) __ptr64` | 513 | Exported Function
+`public: virtual __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::~ArrayList<class UnBCL::String * __ptr64>(void) __ptr64` | 519 | Exported Function
+`public: virtual __cdecl UnBCL::Array<unsigned short>::~Array<unsigned short>(void) __ptr64` | 514 | Exported Function
+`public: virtual __cdecl UnBCL::ArgumentNullException::~ArgumentNullException(void) __ptr64` | 576 | Exported Function
+`public: virtual __cdecl UnBCL::ArgumentException::~ArgumentException(void) __ptr64` | 575 | Exported Function
+`public: virtual __cdecl UnBCL::ArgumentOutOfRangeException::~ArgumentOutOfRangeException(void) __ptr64` | 577 | Exported Function
+`public: virtual __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::~Array<class UnBCL::Object * __ptr64>(void) __ptr64` | 516 | Exported Function
+`public: virtual __cdecl UnBCL::ArithmeticException::~ArithmeticException(void) __ptr64` | 578 | Exported Function
+`public: virtual __cdecl UnBCL::Decoder::~Decoder(void) __ptr64` | 583 | Exported Function
+`public: virtual __cdecl UnBCL::DateTime::~DateTime(void) __ptr64` | 582 | Exported Function
+`public: virtual __cdecl UnBCL::Delegate::~Delegate(void) __ptr64` | 584 | Exported Function
+`public: virtual __cdecl UnBCL::Encoding::~Encoding(void) __ptr64` | 586 | Exported Function
+`public: virtual __cdecl UnBCL::DirectoryInfo::~DirectoryInfo(void) __ptr64` | 585 | Exported Function
+`public: virtual __cdecl UnBCL::ASCIIEncoding::~ASCIIEncoding(void) __ptr64` | 572 | Exported Function
+`public: virtual __cdecl UnBCL::ArrayList<unsigned short>::~ArrayList<unsigned short>(void) __ptr64` | 518 | Exported Function
+`public: virtual __cdecl UnBCL::BufferedStream::~BufferedStream(void) __ptr64` | 579 | Exported Function
+`public: virtual __cdecl UnBCL::Char::~Char(void) __ptr64` | 581 | Exported Function
+`public: virtual __cdecl UnBCL::CaseInsensitiveStringComparer::~CaseInsensitiveStringComparer(void) __ptr64` | 580 | Exported Function
+`public: virtual __cdecl UnBCL::ApplicationException::~ApplicationException(void) __ptr64` | 574 | Exported Function
+`public: unsigned short const * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::GetString(void)const __ptr64` | 1859 | Exported Function
+`public: unsigned short const & __ptr64 __cdecl UnBCL::String::get_Chars(int)const __ptr64` | 2397 | Exported Function
+`public: unsigned short const * __ptr64 __cdecl UnBCL::MultiSz::get_Buffer(void)const __ptr64` | 2386 | Exported Function
+`public: unsigned short const * __ptr64 __cdecl UnBCL::String::get_CString(void)const __ptr64` | 2389 | Exported Function
+`public: unsigned short const * __ptr64 __cdecl UnBCL::SerializationId::get_TypeName(void)const __ptr64` | 2586 | Exported Function
+`public: unsigned short __cdecl ATL::CSimpleStringT<unsigned short,0>::GetAt(int)const __ptr64` | 1756 | Exported Function
+`public: unsigned short * __ptr64 __cdecl UnBCL::StringBuilder::GetBuffer(int) __ptr64` | 1777 | Exported Function
+`public: unsigned short __cdecl ATL::CSimpleStringT<unsigned short,0>::operator[](int)const __ptr64` | 971 | Exported Function
+`public: unsigned short __cdecl UnBCL::SystemInfo::get_DefaultLangID(void)const __ptr64` | 2426 | Exported Function
+`public: unsigned short __cdecl UnBCL::StringBuilder::get_Chars(int)const __ptr64` | 2398 | Exported Function
+`public: virtual __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::~SerializableArrayListPrimitiveBase<unsigned short>(void) __ptr64` | 544 | Exported Function
+`public: virtual __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::~SerializableArrayListBase<class UnBCL::String * __ptr64>(void) __ptr64` | 543 | Exported Function
+`public: virtual __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::~SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(void) __ptr64` | 556 | Exported Function
+`public: virtual __cdecl UnBCL::AbandonedMutexException::~AbandonedMutexException(void) __ptr64` | 573 | Exported Function
+`public: virtual __cdecl UnBCL::_::SerializableStackBase<int>::~SerializableStackBase<int>(void) __ptr64` | 557 | Exported Function
+`public: virtual __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::~SerializableArrayBase<class UnBCL::String * __ptr64>(void) __ptr64` | 542 | Exported Function
+`public: unsigned short const * __ptr64 __cdecl UnBCL::StringBuilder::get_CString(void)const __ptr64` | 2390 | Exported Function
+`public: virtual __cdecl UnBCL::_::SerializableArrayBase<int>::~SerializableArrayBase<int>(void) __ptr64` | 541 | Exported Function
+`public: virtual __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::~SerializableArrayBase<unsigned short>(void) __ptr64` | 540 | Exported Function
+`public: virtual __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::~SerializableArrayBase<unsigned char>(void) __ptr64` | 539 | Exported Function
+`public: static void __cdecl UnBCL::Environment::SetEnvironmentVar(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64)` | 2179 | Exported Function
+`public: static void __cdecl UnBCL::Directory::Move(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64)` | 2045 | Exported Function
+`public: static void __cdecl UnBCL::File::Delete(class UnBCL::String const * __ptr64)` | 1667 | Exported Function
+`public: static void __cdecl UnBCL::File::MoveEx(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,unsigned long)` | 2047 | Exported Function
+`public: static void __cdecl UnBCL::File::Move(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64)` | 2046 | Exported Function
+`public: static void __cdecl UnBCL::ArrayList<unsigned short>::Copy(class UnBCL::ArrayList<unsigned short> const * __ptr64,int,class UnBCL::ArrayList<unsigned short> * __ptr64,int,int)` | 1609 | Exported Function
+`public: static void __cdecl UnBCL::ArrayList<unsigned short>::Copy(class UnBCL::ArrayList<unsigned short> const * __ptr64,class UnBCL::ArrayList<unsigned short> * __ptr64,int)` | 1610 | Exported Function
+`public: static void __cdecl UnBCL::ArrayList<unsigned short>::Sort(class UnBCL::ArrayList<unsigned short> * __ptr64)` | 2210 | Exported Function
+`public: static void __cdecl UnBCL::Directory::Delete(class UnBCL::String const * __ptr64,int)` | 1666 | Exported Function
+`public: static void __cdecl UnBCL::Directory::Copy(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,int,struct UnBCL::Directory::ICopyDelegate * __ptr64)` | 1613 | Exported Function
+`public: static void __cdecl UnBCL::Object::operator delete(void * __ptr64,char const * __ptr64,int)` | 662 | Exported Function
+`public: static void __cdecl UnBCL::Object::operator delete(void * __ptr64)` | 661 | Exported Function
+`public: static void __cdecl UnBCL::SbRegistrationList::EnqueueSbRegistration(char const * __ptr64,int,struct HINSTANCE__ * __ptr64,struct UnBCL::IInstanceFactory * __ptr64)` | 1697 | Exported Function
+`public: static void __cdecl UnBCL::SerializationStream::RegisterType(class UnBCL::String const * __ptr64,int,struct HINSTANCE__ * __ptr64,struct UnBCL::IInstanceFactory * __ptr64)` | 2105 | Exported Function
+`public: static void __cdecl UnBCL::SbRegistrationList::RegisterStaticTypes(int)` | 2104 | Exported Function
+`public: static void __cdecl UnBCL::Monitor::Enter(class UnBCL::SyncObject * __ptr64)` | 1698 | Exported Function
+`public: static void __cdecl UnBCL::Logging::SetHandler(struct ILogHandler * __ptr64)` | 2180 | Exported Function
+`public: static void __cdecl UnBCL::Monitor::Exit(class UnBCL::SyncObject * __ptr64)` | 1718 | Exported Function
+`public: static void __cdecl UnBCL::Monitor::PulseAll(class UnBCL::SyncObject * __ptr64)` | 2080 | Exported Function
+`public: static void __cdecl UnBCL::Monitor::Pulse(class UnBCL::SyncObject * __ptr64)` | 2079 | Exported Function
+`public: static void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Sort(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64)` | 2212 | Exported Function
+`public: static void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Construct(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > * __ptr64)` | 1593 | Exported Function
+`public: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::CopyCharsOverlapped(unsigned short * __ptr64,unsigned short const * __ptr64,int)` | 1618 | Exported Function
+`public: static void __cdecl UnBCL::Allocator::Free(void * __ptr64,unsigned int)` | 1742 | Exported Function
+`public: static void __cdecl UnBCL::Allocator::InvokeOOMHandler(unsigned __int64)` | 1971 | Exported Function
+`public: static void __cdecl UnBCL::Allocator::InitTerm(int)` | 1943 | Exported Function
+`public: static void * __ptr64 __cdecl UnBCL::Object::operator new(unsigned __int64,unsigned int)` | 658 | Exported Function
+`public: static void * __ptr64 __cdecl UnBCL::Object::operator new(unsigned __int64,char const * __ptr64,int,unsigned int)` | 660 | Exported Function
+`public: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::CopyChars(unsigned short * __ptr64,unsigned __int64,unsigned short const * __ptr64,int)` | 1617 | Exported Function
+`public: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::CopyCharsOverlapped(unsigned short * __ptr64,unsigned __int64,unsigned short const * __ptr64,int)` | 1619 | Exported Function
+`public: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::CopyChars(unsigned short * __ptr64,unsigned short const * __ptr64,int)` | 1616 | Exported Function
+`public: static void __cdecl UnBCL::Array<unsigned char>::Sort(class UnBCL::Array<unsigned char> * __ptr64)` | 2205 | Exported Function
+`public: static void __cdecl UnBCL::Array<int>::Sort(class UnBCL::Array<int> * __ptr64)` | 2207 | Exported Function
+`public: static void __cdecl UnBCL::Array<unsigned short>::Sort(class UnBCL::Array<unsigned short> * __ptr64)` | 2206 | Exported Function
+`public: static void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Copy(class UnBCL::ArrayList<class UnBCL::String * __ptr64> const * __ptr64,int,class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64,int,int)` | 1611 | Exported Function
+`public: static void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Copy(class UnBCL::ArrayList<class UnBCL::String * __ptr64> const * __ptr64,class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64,int)` | 1612 | Exported Function
+`public: static void __cdecl UnBCL::Allocator::SetRef(unsigned int)` | 2188 | Exported Function
+`public: static void __cdecl UnBCL::Allocator::SetOOMHandler(struct IOutOfMemoryHandler * __ptr64)` | 2187 | Exported Function
+`public: static void __cdecl UnBCL::Allocator::Validate(unsigned int)` | 2316 | Exported Function
+`public: static void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Sort(class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64)` | 2209 | Exported Function
+`public: static void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Sort(class UnBCL::Array<class UnBCL::Object * __ptr64> * __ptr64)` | 2208 | Exported Function
+`public: static void __cdecl UnBCL::SerializationStream::UnregisterAllTypesForDllUnload(void)` | 2314 | Exported Function
+`public: struct UnBCL::IDisposable & __ptr64 __cdecl UnBCL::IDisposable::operator=(struct UnBCL::IDisposable && __ptr64) __ptr64` | 823 | Exported Function
+`public: struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::operator=(struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 697 | Exported Function
+`public: struct UnBCL::IDisposable & __ptr64 __cdecl UnBCL::IDisposable::operator=(struct UnBCL::IDisposable const & __ptr64) __ptr64` | 824 | Exported Function
+`public: struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::operator=(struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 711 | Exported Function
+`public: struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::operator=(struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > && __ptr64) __ptr64` | 710 | Exported Function
+`public: struct UnBCL::ICollection<unsigned short> & __ptr64 __cdecl UnBCL::ICollection<unsigned short>::operator=(struct UnBCL::ICollection<unsigned short> const & __ptr64) __ptr64` | 685 | Exported Function
+`public: struct UnBCL::ICollection<unsigned short> & __ptr64 __cdecl UnBCL::ICollection<unsigned short>::operator=(struct UnBCL::ICollection<unsigned short> && __ptr64) __ptr64` | 684 | Exported Function
+`public: struct UnBCL::IComparer<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IComparer<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IComparer<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 694 | Exported Function
+`public: struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::operator=(struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 696 | Exported Function
+`public: struct UnBCL::IComparer<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IComparer<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IComparer<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 695 | Exported Function
+`public: struct UnBCL::IEnumerable<unsigned char> & __ptr64 __cdecl UnBCL::IEnumerable<unsigned char>::operator=(struct UnBCL::IEnumerable<unsigned char> && __ptr64) __ptr64` | 698 | Exported Function
+`public: struct UnBCL::IEnumerable<int> & __ptr64 __cdecl UnBCL::IEnumerable<int>::operator=(struct UnBCL::IEnumerable<int> const & __ptr64) __ptr64` | 703 | Exported Function
+`public: struct UnBCL::IEnumerable<unsigned char> & __ptr64 __cdecl UnBCL::IEnumerable<unsigned char>::operator=(struct UnBCL::IEnumerable<unsigned char> const & __ptr64) __ptr64` | 699 | Exported Function
+`public: struct UnBCL::IEnumerable<unsigned short const * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<unsigned short const * __ptr64>::operator=(struct UnBCL::IEnumerable<unsigned short const * __ptr64> const & __ptr64) __ptr64` | 709 | Exported Function
+`public: struct UnBCL::IEnumerable<unsigned short const * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<unsigned short const * __ptr64>::operator=(struct UnBCL::IEnumerable<unsigned short const * __ptr64> && __ptr64) __ptr64` | 708 | Exported Function
+`public: struct UnBCL::IEnumerable<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::Object * __ptr64>::operator=(struct UnBCL::IEnumerable<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 705 | Exported Function
+`public: struct UnBCL::IEnumerable<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::Object * __ptr64>::operator=(struct UnBCL::IEnumerable<class UnBCL::Object * __ptr64> && __ptr64) __ptr64` | 704 | Exported Function
+`public: struct UnBCL::IEnumerable<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IEnumerable<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 706 | Exported Function
+`public: struct UnBCL::IEnumerable<int> & __ptr64 __cdecl UnBCL::IEnumerable<int>::operator=(struct UnBCL::IEnumerable<int> && __ptr64) __ptr64` | 702 | Exported Function
+`public: struct UnBCL::IEnumerable<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::IEnumerable<class UnBCL::String * __ptr64>::operator=(struct UnBCL::IEnumerable<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 707 | Exported Function
+`public: struct UnBCL::ICollection<unsigned char> & __ptr64 __cdecl UnBCL::ICollection<unsigned char>::operator=(struct UnBCL::ICollection<unsigned char> const & __ptr64) __ptr64` | 683 | Exported Function
+`public: struct ATL::IAtlStringMgr * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::GetManager(void)const __ptr64` | 1839 | Exported Function
+`public: struct _WIN32_FIND_DATAW const & __ptr64 __cdecl UnBCL::FileSystemEnumerator::get_FindData(void) __ptr64` | 2430 | Exported Function
+`public: struct ATL::IAtlStringMgr * __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::GetManager(void)const __ptr64` | 1840 | Exported Function
+`public: struct IXMLDOMNode * __ptr64 __cdecl UnBCL::XmlNode::get_XMLDOMNode(void) __ptr64` | 2595 | Exported Function
+`public: struct IXMLDOMDocument3 * __ptr64 __cdecl UnBCL::XmlDocument::get_XMLDOMDocument(void) __ptr64` | 2594 | Exported Function
+`public: static void __cdecl UnBCL::String::Done(void)` | 1687 | Exported Function
+`public: static void __cdecl UnBCL::SerializationStream::UnregisterType(class UnBCL::String const * __ptr64,int,struct HINSTANCE__ * __ptr64)` | 2315 | Exported Function
+`public: static void __cdecl UnBCL::Thread::SleepFor(unsigned int)` | 2204 | Exported Function
+`public: static void __cdecl UnBCL::Win32Exception::ThrowLastError(unsigned short const * __ptr64,char const * __ptr64,int)` | 2271 | Exported Function
+`public: static void __cdecl UnBCL::Win32Exception::ThrowLastError(class UnBCL::String const * __ptr64,char const * __ptr64,int)` | 2272 | Exported Function
+`public: struct UnBCL::ICollection<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::String * __ptr64>::operator=(struct UnBCL::ICollection<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 691 | Exported Function
+`public: struct UnBCL::ICollection<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::String * __ptr64>::operator=(struct UnBCL::ICollection<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 690 | Exported Function
+`public: struct UnBCL::ICollection<int> & __ptr64 __cdecl UnBCL::ICollection<int>::operator=(struct UnBCL::ICollection<int> && __ptr64) __ptr64` | 686 | Exported Function
+`public: struct UnBCL::ICollection<unsigned char> & __ptr64 __cdecl UnBCL::ICollection<unsigned char>::operator=(struct UnBCL::ICollection<unsigned char> && __ptr64) __ptr64` | 682 | Exported Function
+`public: struct UnBCL::ICollection<int> & __ptr64 __cdecl UnBCL::ICollection<int>::operator=(struct UnBCL::ICollection<int> const & __ptr64) __ptr64` | 687 | Exported Function
+`public: struct UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::operator=(struct UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > && __ptr64) __ptr64` | 692 | Exported Function
+`public: struct IXMLDOMSchemaCollection2 * __ptr64 __cdecl UnBCL::XmlSchemaSet::get_XMLDOMSchemaCollection(void) __ptr64` | 2596 | Exported Function
+`public: struct UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::operator=(struct UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 693 | Exported Function
+`public: struct UnBCL::ICollection<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::Object * __ptr64>::operator=(struct UnBCL::ICollection<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 689 | Exported Function
+`public: struct UnBCL::ICollection<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::ICollection<class UnBCL::Object * __ptr64>::operator=(struct UnBCL::ICollection<class UnBCL::Object * __ptr64> && __ptr64) __ptr64` | 688 | Exported Function
+`public: int __cdecl UnBCL::TimeSpan::get_Hours(void)const __ptr64` | 2438 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Replace(unsigned short,unsigned short)const __ptr64` | 2146 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Replace(unsigned short const * __ptr64,unsigned short const * __ptr64,enum UnBCL::String::StringCasing)const __ptr64` | 2148 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Substring(int)const __ptr64` | 2260 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::ToLower(void)const __ptr64` | 2283 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Substring(int,int)const __ptr64` | 2261 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::String>::Steal(void) __ptr64` | 2231 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::String>::operator->(void)const __ptr64` | 1001 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Insert(int,unsigned short const * __ptr64)const __ptr64` | 1964 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Replace(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64,int)const __ptr64` | 2147 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Remove(int,int)const __ptr64` | 2131 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_InnerText(void)const __ptr64` | 2443 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::Version::get_CSDVersion(void)const __ptr64` | 2388 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_Name(void)const __ptr64` | 2522 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_Prefix(void)const __ptr64` | 2555 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_NamespaceURI(void)const __ptr64` | 2524 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Trim(unsigned short const * __ptr64)const __ptr64` | 2300 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::ToUpper(void)const __ptr64` | 2295 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::Trim(void)const __ptr64` | 2301 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::TrimStart(unsigned short const * __ptr64)const __ptr64` | 2310 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::String::TrimEnd(unsigned short const * __ptr64)const __ptr64` | 2302 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::String>::get_P(void)const __ptr64` | 2545 | Exported Function
+`public: class UnBCL::Stream & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::operator*(void)const __ptr64` | 1012 | Exported Function
+`public: class UnBCL::Stack<int> & __ptr64 __cdecl UnBCL::Stack<int>::operator=(class UnBCL::Stack<int> const & __ptr64) __ptr64` | 776 | Exported Function
+`public: class UnBCL::Stream & __ptr64 __cdecl UnBCL::Stream::operator=(class UnBCL::Stream && __ptr64) __ptr64` | 882 | Exported Function
+`public: class UnBCL::Stream * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::get_P(void)const __ptr64` | 2544 | Exported Function
+`public: class UnBCL::Stream & __ptr64 __cdecl UnBCL::Stream::operator=(class UnBCL::Stream const & __ptr64) __ptr64` | 883 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Version> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Version>::operator=(class UnBCL::SmartPtr<class UnBCL::Version> const & __ptr64) __ptr64` | 774 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Version> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Version>::Nullify(void) __ptr64` | 2060 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::Nullify(void) __ptr64` | 2061 | Exported Function
+`public: class UnBCL::Stack<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::operator=(class UnBCL::Stack<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 777 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::operator=(class UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager> const & __ptr64) __ptr64` | 775 | Exported Function
+`public: class UnBCL::String & __ptr64 __cdecl UnBCL::String::operator=(class UnBCL::String const & __ptr64) __ptr64` | 887 | Exported Function
+`public: class UnBCL::String & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::String>::operator*(void)const __ptr64` | 1013 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::Exception::GetStackTrace(void)const __ptr64` | 1858 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::RegistryKey::GetStringValue(class UnBCL::String const * __ptr64,int) __ptr64` | 1864 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::MultiSz::ToString(unsigned short)const __ptr64` | 2288 | Exported Function
+`public: class UnBCL::Stream * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::Steal(void) __ptr64` | 2230 | Exported Function
+`public: class UnBCL::Stream * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::operator->(void)const __ptr64` | 1000 | Exported Function
+`public: class UnBCL::StreamCounter & __ptr64 __cdecl UnBCL::StreamCounter::operator=(class UnBCL::StreamCounter const & __ptr64) __ptr64` | 884 | Exported Function
+`public: class UnBCL::StreamWriter & __ptr64 __cdecl UnBCL::StreamWriter::operator=(class UnBCL::StreamWriter const & __ptr64) __ptr64` | 886 | Exported Function
+`public: class UnBCL::StreamReader & __ptr64 __cdecl UnBCL::StreamReader::operator=(class UnBCL::StreamReader const & __ptr64) __ptr64` | 885 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_Value(void)const __ptr64` | 2589 | Exported Function
+`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::AppendEscapedString(unsigned short const * __ptr64,enum UnBCL::EscapingRules) __ptr64` | 1483 | Exported Function
+`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(unsigned short,int) __ptr64` | 1474 | Exported Function
+`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::AppendNewLine(void) __ptr64` | 1487 | Exported Function
+`public: class UnBCL::SyncObject & __ptr64 __cdecl UnBCL::SyncObject::operator=(class UnBCL::SyncObject const & __ptr64) __ptr64` | 890 | Exported Function
+`public: class UnBCL::StringPtr & __ptr64 __cdecl UnBCL::StringPtr::operator=(class UnBCL::StringPtr const & __ptr64) __ptr64` | 889 | Exported Function
+`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(int) __ptr64` | 1475 | Exported Function
+`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(class UnBCL::String const * __ptr64,int,int) __ptr64` | 1479 | Exported Function
+`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(unsigned short const * __ptr64) __ptr64` | 1476 | Exported Function
+`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(unsigned short) __ptr64` | 1473 | Exported Function
+`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(unsigned short const * __ptr64,int,int) __ptr64` | 1477 | Exported Function
+`public: class UnBCL::TextWriter & __ptr64 __cdecl UnBCL::TextWriter::operator=(class UnBCL::TextWriter && __ptr64) __ptr64` | 897 | Exported Function
+`public: class UnBCL::TextReader & __ptr64 __cdecl UnBCL::TextReader::operator=(class UnBCL::TextReader const & __ptr64) __ptr64` | 896 | Exported Function
+`public: class UnBCL::TextWriter & __ptr64 __cdecl UnBCL::TextWriter::operator=(class UnBCL::TextWriter const & __ptr64) __ptr64` | 898 | Exported Function
+`public: class UnBCL::ThreadStateException & __ptr64 __cdecl UnBCL::ThreadStateException::operator=(class UnBCL::ThreadStateException && __ptr64) __ptr64` | 900 | Exported Function
+`public: class UnBCL::Thread & __ptr64 __cdecl UnBCL::Thread::operator=(class UnBCL::Thread const & __ptr64) __ptr64` | 899 | Exported Function
+`public: class UnBCL::SystemException & __ptr64 __cdecl UnBCL::SystemException::operator=(class UnBCL::SystemException const & __ptr64) __ptr64` | 892 | Exported Function
+`public: class UnBCL::SystemException & __ptr64 __cdecl UnBCL::SystemException::operator=(class UnBCL::SystemException && __ptr64) __ptr64` | 891 | Exported Function
+`public: class UnBCL::SystemInfo & __ptr64 __cdecl UnBCL::SystemInfo::operator=(class UnBCL::SystemInfo && __ptr64) __ptr64` | 893 | Exported Function
+`public: class UnBCL::TextReader & __ptr64 __cdecl UnBCL::TextReader::operator=(class UnBCL::TextReader && __ptr64) __ptr64` | 895 | Exported Function
+`public: class UnBCL::SystemInfo & __ptr64 __cdecl UnBCL::SystemInfo::operator=(class UnBCL::SystemInfo const & __ptr64) __ptr64` | 894 | Exported Function
+`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(class UnBCL::String const * __ptr64) __ptr64` | 1478 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNode::get_Value(void) __ptr64` | 2588 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNode::get_Prefix(void) __ptr64` | 2554 | Exported Function
+`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::ProcessStartInfo::get_Arguments(void)const __ptr64` | 2371 | Exported Function
+`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_BiosName(void)const __ptr64` | 2383 | Exported Function
+`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::ProcessStartInfo::get_FileName(void)const __ptr64` | 2429 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNode::get_InnerText(void) __ptr64` | 2442 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNamespaceManager::LookupNamespace(class UnBCL::String * __ptr64) __ptr64` | 2022 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNode::get_Name(void) __ptr64` | 2521 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNode::get_OuterXml(void) __ptr64` | 2534 | Exported Function
+`public: class UnBCL::String * __ptr64 __cdecl UnBCL::XmlNode::get_NamespaceURI(void) __ptr64` | 2523 | Exported Function
+`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_ProcessorManufacturer(void)const __ptr64` | 2561 | Exported Function
+`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_ProcessorCaption(void)const __ptr64` | 2560 | Exported Function
+`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_ProcessorName(void)const __ptr64` | 2563 | Exported Function
+`public: class UnBCL::StringBuilder * __ptr64 __cdecl UnBCL::StringBuilder::Append(__int64) __ptr64` | 1480 | Exported Function
+`public: class UnBCL::StringBuilder & __ptr64 __cdecl UnBCL::StringBuilder::operator=(class UnBCL::StringBuilder const & __ptr64) __ptr64` | 888 | Exported Function
+`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_BiosVersion(void)const __ptr64` | 2385 | Exported Function
+`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_BiosReleaseDate(void)const __ptr64` | 2384 | Exported Function
+`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_ComputerName(void)const __ptr64` | 2402 | Exported Function
+`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_Model(void)const __ptr64` | 2519 | Exported Function
+`public: class UnBCL::String const * __ptr64 __cdecl UnBCL::SystemInfo::get_Manufacturer(void)const __ptr64` | 2512 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(unsigned char) __ptr64` | 944 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(unsigned __int64) __ptr64` | 958 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(unsigned int) __ptr64` | 948 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(unsigned short) __ptr64` | 946 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(unsigned long) __ptr64` | 950 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(long) __ptr64` | 949 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(int) __ptr64` | 947 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(short) __ptr64` | 945 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(struct UnBCL::MP::EmptyType) __ptr64` | 955 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(struct UnBCL::ISerializable const * __ptr64) __ptr64` | 953 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(long & __ptr64) __ptr64` | 933 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(int & __ptr64) __ptr64` | 931 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(short & __ptr64) __ptr64` | 929 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(struct UnBCL::ISerializable const * __ptr64 & __ptr64) __ptr64` | 939 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(struct UnBCL::ISerializable * __ptr64 & __ptr64) __ptr64` | 937 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(class UnBCL::SmartPtr<struct UnBCL::ISerializable> & __ptr64) __ptr64` | 941 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(__int64 & __ptr64) __ptr64` | 942 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(class UnBCL::String * __ptr64 & __ptr64) __ptr64` | 938 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(float & __ptr64) __ptr64` | 935 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(double & __ptr64) __ptr64` | 936 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(float) __ptr64` | 951 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> > && __ptr64) __ptr64` | 758 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 753 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> > const & __ptr64) __ptr64` | 759 | Exported Function
+`public: class UnBCL::SerializationException & __ptr64 __cdecl UnBCL::SerializationException::operator=(class UnBCL::SerializationException const & __ptr64) __ptr64` | 879 | Exported Function
+`public: class UnBCL::SerializationException & __ptr64 __cdecl UnBCL::SerializationException::operator=(class UnBCL::SerializationException && __ptr64) __ptr64` | 878 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::operator=(class UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> > const & __ptr64) __ptr64` | 755 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::operator=(class UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> > && __ptr64) __ptr64` | 754 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::operator=(class UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> > && __ptr64) __ptr64` | 756 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> > && __ptr64) __ptr64` | 752 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::operator=(class UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> > const & __ptr64) __ptr64` | 757 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(__int64) __ptr64` | 957 | Exported Function
+`public: class UnBCL::SerializationId const * __ptr64 __cdecl UnBCL::SerializationStream::get_ObjectID(void)const __ptr64` | 2533 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(class UnBCL::SmartPtr<struct UnBCL::ISerializable>) __ptr64` | 956 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(double) __ptr64` | 952 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator<<(class UnBCL::String const * __ptr64) __ptr64` | 954 | Exported Function
+`public: class UnBCL::SerializationId & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::operator*(void)const __ptr64` | 1010 | Exported Function
+`public: class UnBCL::SerializationId & __ptr64 __cdecl UnBCL::SerializationId::operator=(class UnBCL::SerializationId const & __ptr64) __ptr64` | 880 | Exported Function
+`public: class UnBCL::SerializationId * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::get_P(void)const __ptr64` | 2542 | Exported Function
+`public: class UnBCL::SerializationId * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::Steal(void) __ptr64` | 2228 | Exported Function
+`public: class UnBCL::SerializationId * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::operator->(void)const __ptr64` | 998 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(struct UnBCL::MP::EmptyType & __ptr64) __ptr64` | 940 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Stream> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::operator=(class UnBCL::SmartPtr<class UnBCL::Stream> const & __ptr64) __ptr64` | 772 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Stream> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::Nullify(void) __ptr64` | 2058 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::String>::Nullify(void) __ptr64` | 2059 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Insert(int,class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2353 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::String>::operator=(class UnBCL::SmartPtr<class UnBCL::String> const & __ptr64) __ptr64` | 773 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::SerializationId> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::Nullify(void) __ptr64` | 2056 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Object> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Object>::operator=(class UnBCL::SmartPtr<class UnBCL::Object> const & __ptr64) __ptr64` | 769 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::SerializationId> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::operator=(class UnBCL::SmartPtr<class UnBCL::SerializationId> const & __ptr64) __ptr64` | 770 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::SerializationStream> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::operator=(class UnBCL::SmartPtr<class UnBCL::SerializationStream> const & __ptr64) __ptr64` | 771 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::SerializationStream> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::Nullify(void) __ptr64` | 2057 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Trim(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2366 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_ToUpper(void)const __ptr64` | 2365 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Trim(void)const __ptr64` | 2367 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_TrimStart(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2369 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_TrimEnd(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2368 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Replace(class UnBCL::SmartPtr<class UnBCL::String>,class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2359 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Remove(int,int)const __ptr64` | 2358 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Substring(int)const __ptr64` | 2362 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_ToLower(void)const __ptr64` | 2364 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::String> __cdecl UnBCL::String::_Substring(int,int)const __ptr64` | 2363 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Object> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Object>::Nullify(void) __ptr64` | 2055 | Exported Function
+`public: class UnBCL::SerializationStream * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::get_P(void)const __ptr64` | 2543 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::operator*(void)const __ptr64` | 1011 | Exported Function
+`public: class UnBCL::SerializationStream * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::operator->(void)const __ptr64` | 999 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::SmartPtr<class UnBCL::String> > > __cdecl UnBCL::String::_Split(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2360 | Exported Function
+`public: class UnBCL::SerializationStream * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::Steal(void) __ptr64` | 2229 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(unsigned char & __ptr64) __ptr64` | 928 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(unsigned __int64 & __ptr64) __ptr64` | 943 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(unsigned int & __ptr64) __ptr64` | 932 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(unsigned short & __ptr64) __ptr64` | 930 | Exported Function
+`public: class UnBCL::SerializationStream & __ptr64 __cdecl UnBCL::SerializationStream::operator>>(unsigned long & __ptr64) __ptr64` | 934 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Decoder> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::Nullify(void) __ptr64` | 2053 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::operator=(class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 766 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Decoder> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::operator=(class UnBCL::SmartPtr<class UnBCL::Decoder> const & __ptr64) __ptr64` | 767 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Encoding> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::operator=(class UnBCL::SmartPtr<class UnBCL::Encoding> const & __ptr64) __ptr64` | 768 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Encoding> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::Nullify(void) __ptr64` | 2054 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::operator=(class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 765 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::Nullify(void) __ptr64` | 2051 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Array<unsigned char> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::Nullify(void) __ptr64` | 2050 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::Nullify(void) __ptr64` | 2052 | Exported Function
+`public: class UnBCL::SmartPtr<class UnBCL::Array<unsigned char> > & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::operator=(class UnBCL::SmartPtr<class UnBCL::Array<unsigned char> > const & __ptr64) __ptr64` | 764 | Exported Function
+`public: int __cdecl UnBCL::DateTime::get_Second(void)const __ptr64` | 2570 | Exported Function
+`public: int __cdecl UnBCL::DateTime::get_Month(void)const __ptr64` | 2520 | Exported Function
+`public: int __cdecl UnBCL::DateTime::get_Year(void)const __ptr64` | 2597 | Exported Function
+`public: int __cdecl UnBCL::HeapMemoryManager::IsTrackingEnabled(void) __ptr64` | 1989 | Exported Function
+`public: int __cdecl UnBCL::FileSystemEnumerator::get_IsDirectory(void) __ptr64` | 2445 | Exported Function
+`public: int __cdecl UnBCL::DateTime::get_Day(void)const __ptr64` | 2424 | Exported Function
+`public: int __cdecl UnBCL::DateTime::CompareTo(class UnBCL::DateTime const & __ptr64)const __ptr64` | 1579 | Exported Function
+`public: int __cdecl UnBCL::DateTime::get_Hour(void)const __ptr64` | 2437 | Exported Function
+`public: int __cdecl UnBCL::DateTime::get_Minute(void)const __ptr64` | 2517 | Exported Function
+`public: int __cdecl UnBCL::DateTime::get_Millisecond(void)const __ptr64` | 2514 | Exported Function
+`public: int __cdecl UnBCL::RegHandle::Open(struct HKEY__ * __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 2064 | Exported Function
+`public: int __cdecl UnBCL::RegHandle::GetStringValue(unsigned short const * __ptr64,class UnBCL::String * __ptr64 & __ptr64) __ptr64` | 1863 | Exported Function
+`public: int __cdecl UnBCL::RegistryKey::get_SubKeyCount(void)const __ptr64` | 2573 | Exported Function
+`public: int __cdecl UnBCL::RegSubkeyEnumerator::get_EnumError(void) __ptr64` | 2427 | Exported Function
+`public: int __cdecl UnBCL::RegistryKey::get_ValueCount(void)const __ptr64` | 2590 | Exported Function
+`public: int __cdecl UnBCL::Object::DecRef(void) __ptr64` | 1660 | Exported Function
+`public: int __cdecl UnBCL::MultiSz::Contains(unsigned short const * __ptr64,int)const __ptr64` | 1605 | Exported Function
+`public: int __cdecl UnBCL::Process::WaitForExit(int) __ptr64` | 2321 | Exported Function
+`public: int __cdecl UnBCL::RegHandle::GetDwordValue(unsigned short const * __ptr64,unsigned long & __ptr64) __ptr64` | 1803 | Exported Function
+`public: int __cdecl UnBCL::ProcessStartInfo::get_UseShellExecute(void)const __ptr64` | 2587 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::ReverseFind(unsigned short)const __ptr64` | 2160 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CompareNoCase(unsigned short const * __ptr64)const __ptr64` | 1577 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Compare(unsigned short const * __ptr64)const __ptr64` | 1571 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Delete(int,int) __ptr64` | 1665 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Find(unsigned short,int)const __ptr64` | 1721 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Find(unsigned short const * __ptr64,int)const __ptr64` | 1722 | Exported Function
+`public: int __cdecl ATL::CSimpleStringT<unsigned short,0>::GetAllocLength(void)const __ptr64` | 1752 | Exported Function
+`public: enum UnBCL::XmlNodeType __cdecl UnBCL::XmlNode::get_NodeType(void) __ptr64` | 2528 | Exported Function
+`public: int __cdecl ATL::CSimpleStringT<unsigned short,0>::GetLength(void)const __ptr64` | 1834 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CollateNoCase(unsigned short const * __ptr64)const __ptr64` | 1569 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Collate(unsigned short const * __ptr64)const __ptr64` | 1568 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::LoadStringW(unsigned int) __ptr64` | 2015 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::LoadStringW(struct HINSTANCE__ * __ptr64,unsigned int,unsigned short) __ptr64` | 2017 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Remove(unsigned short) __ptr64` | 2128 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Replace(unsigned short,unsigned short) __ptr64` | 2144 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Replace(unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 2145 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::GetEnvironmentVariableW(unsigned short const * __ptr64) __ptr64` | 1818 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FindOneOf(unsigned short const * __ptr64)const __ptr64` | 1723 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Insert(int,unsigned short const * __ptr64) __ptr64` | 1961 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::LoadStringW(struct HINSTANCE__ * __ptr64,unsigned int) __ptr64` | 2016 | Exported Function
+`public: int __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Insert(int,unsigned short) __ptr64` | 1960 | Exported Function
+`public: int __cdecl UnBCL::SerializationId::get_Version(void)const __ptr64` | 2592 | Exported Function
+`public: int __cdecl UnBCL::String::IndexOf(unsigned short,int)const __ptr64` | 1927 | Exported Function
+`public: int __cdecl UnBCL::String::IndexOf(unsigned short)const __ptr64` | 1926 | Exported Function
+`public: int __cdecl UnBCL::String::IndexOfAny(unsigned short const * __ptr64)const __ptr64` | 1930 | Exported Function
+`public: int __cdecl UnBCL::String::IndexOfAny(unsigned short const * __ptr64,int,int)const __ptr64` | 1932 | Exported Function
+`public: int __cdecl UnBCL::String::IndexOfAny(unsigned short const * __ptr64,int)const __ptr64` | 1931 | Exported Function
+`public: int __cdecl UnBCL::String::GetOccurenceIndexOf(unsigned short,int)const __ptr64` | 1851 | Exported Function
+`public: int __cdecl UnBCL::String::GetOccurenceCount(unsigned short)const __ptr64` | 1850 | Exported Function
+`public: int __cdecl UnBCL::String::GetOccurenceLastIndexOf(unsigned short,int)const __ptr64` | 1852 | Exported Function
+`public: int __cdecl UnBCL::String::IndexOf(unsigned short const * __ptr64,int)const __ptr64` | 1929 | Exported Function
+`public: int __cdecl UnBCL::String::IndexOf(unsigned short const * __ptr64)const __ptr64` | 1928 | Exported Function
+`public: int __cdecl UnBCL::StringBuilder::get_Length(void)const __ptr64` | 2508 | Exported Function
+`public: int __cdecl UnBCL::String::StartsWith(unsigned short const * __ptr64,int)const __ptr64` | 2221 | Exported Function
+`public: int __cdecl UnBCL::SystemInfo::get_IsVM(void)const __ptr64` | 2468 | Exported Function
+`public: int __cdecl UnBCL::TimeSpan::get_Days(void)const __ptr64` | 2425 | Exported Function
+`public: int __cdecl UnBCL::Thread::get_IsAlive(void) __ptr64` | 2444 | Exported Function
+`public: int __cdecl UnBCL::String::LastIndexOf(unsigned short const * __ptr64,int,int)const __ptr64` | 2006 | Exported Function
+`public: int __cdecl UnBCL::String::LastIndexOf(unsigned short const * __ptr64)const __ptr64` | 2005 | Exported Function
+`public: int __cdecl UnBCL::String::LastIndexOf(unsigned short)const __ptr64` | 2003 | Exported Function
+`public: int __cdecl UnBCL::String::LastIndexOfAny(unsigned short const * __ptr64,int,int)const __ptr64` | 2007 | Exported Function
+`public: int __cdecl UnBCL::String::LastIndexOf(unsigned short,int,int)const __ptr64` | 2004 | Exported Function
+`public: int __cdecl UnBCL::String::get_Length(void)const __ptr64` | 2507 | Exported Function
+`public: int __cdecl UnBCL::String::_IndexOf(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2349 | Exported Function
+`public: int __cdecl UnBCL::String::_EndsWith(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2348 | Exported Function
+`public: int __cdecl UnBCL::String::_IndexOf(class UnBCL::SmartPtr<class UnBCL::String>,int)const __ptr64` | 2350 | Exported Function
+`public: int __cdecl UnBCL::String::_IndexOfAny(class UnBCL::SmartPtr<class UnBCL::String>,int,int)const __ptr64` | 2352 | Exported Function
+`public: int __cdecl UnBCL::String::_IndexOfAny(class UnBCL::SmartPtr<class UnBCL::String>,int)const __ptr64` | 2351 | Exported Function
+`public: int __cdecl UnBCL::SerializationStream::get_IsStoring(void)const __ptr64` | 2467 | Exported Function
+`public: int __cdecl UnBCL::SerializationStream::get_IsLoading(void)const __ptr64` | 2456 | Exported Function
+`public: int __cdecl UnBCL::SerializationStream::WritePhantomObject(class UnBCL::Object const * __ptr64) __ptr64` | 2339 | Exported Function
+`public: int __cdecl UnBCL::String::_CompareTo(class UnBCL::SmartPtr<class UnBCL::String>,int)const __ptr64` | 2343 | Exported Function
+`public: int __cdecl UnBCL::String::_CompareTo(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2342 | Exported Function
+`public: int __cdecl UnBCL::String::EndsWith(unsigned short const * __ptr64,int)const __ptr64` | 1696 | Exported Function
+`public: int __cdecl UnBCL::String::CompareTo(unsigned short const * __ptr64,int)const __ptr64` | 1583 | Exported Function
+`public: int __cdecl UnBCL::String::EndsWith(unsigned short)const __ptr64` | 1695 | Exported Function
+`public: int __cdecl UnBCL::String::get_IsPrintable(void)const __ptr64` | 2457 | Exported Function
+`public: int __cdecl UnBCL::String::get_IsEmpty(void)const __ptr64` | 2446 | Exported Function
+`public: int __cdecl UnBCL::String::_LastIndexOf(class UnBCL::SmartPtr<class UnBCL::String>,int,int)const __ptr64` | 2355 | Exported Function
+`public: int __cdecl UnBCL::String::_LastIndexOf(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2354 | Exported Function
+`public: int __cdecl UnBCL::String::_LastIndexOfAny(class UnBCL::SmartPtr<class UnBCL::String>,int,int)const __ptr64` | 2356 | Exported Function
+`public: int __cdecl UnBCL::String::CompareTo(unsigned short const * __ptr64)const __ptr64` | 1582 | Exported Function
+`public: int __cdecl UnBCL::String::_StartsWith(class UnBCL::SmartPtr<class UnBCL::String>)const __ptr64` | 2361 | Exported Function
+`public: class UnBCL::XmlException & __ptr64 __cdecl UnBCL::XmlException::operator=(class UnBCL::XmlException const & __ptr64) __ptr64` | 921 | Exported Function
+`public: class UnBCL::XmlException & __ptr64 __cdecl UnBCL::XmlException::operator=(class UnBCL::XmlException && __ptr64) __ptr64` | 920 | Exported Function
+`public: class UnBCL::XmlLite::XmlAttribute & __ptr64 __cdecl UnBCL::XmlLite::XmlAttribute::operator=(class UnBCL::XmlLite::XmlAttribute && __ptr64) __ptr64` | 914 | Exported Function
+`public: class UnBCL::XmlLite::XmlAttribute * __ptr64 __cdecl UnBCL::XmlLite::XmlAttributeCollection::get_Item(class UnBCL::String * __ptr64) __ptr64` | 2493 | Exported Function
+`public: class UnBCL::XmlLite::XmlAttribute & __ptr64 __cdecl UnBCL::XmlLite::XmlAttribute::operator=(class UnBCL::XmlLite::XmlAttribute const & __ptr64) __ptr64` | 915 | Exported Function
+`public: class UnBCL::XmlAttributeCollection & __ptr64 __cdecl UnBCL::XmlAttributeCollection::operator=(class UnBCL::XmlAttributeCollection const & __ptr64) __ptr64` | 916 | Exported Function
+`public: class UnBCL::XmlAttribute * __ptr64 __cdecl UnBCL::XmlAttributeCollection::get_Item(int) __ptr64` | 2490 | Exported Function
+`public: class UnBCL::XmlAttributeCollection * __ptr64 __cdecl UnBCL::XmlNode::get_Attributes(void) __ptr64` | 2372 | Exported Function
+`public: class UnBCL::XmlDocument * __ptr64 __cdecl UnBCL::XmlNode::get_OwnerDocument(void) __ptr64` | 2535 | Exported Function
+`public: class UnBCL::XmlDocument & __ptr64 __cdecl UnBCL::XmlDocument::operator=(class UnBCL::XmlDocument const & __ptr64) __ptr64` | 918 | Exported Function
+`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_FirstChild(void)const __ptr64` | 2433 | Exported Function
+`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlDocument::get_Root(int)const __ptr64` | 2569 | Exported Function
+`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_LastChild(void)const __ptr64` | 2498 | Exported Function
+`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_ParentNode(void)const __ptr64` | 2549 | Exported Function
+`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_NextSibling(void)const __ptr64` | 2527 | Exported Function
+`public: class UnBCL::XmlLite::XmlAttributeCollection & __ptr64 __cdecl UnBCL::XmlLite::XmlAttributeCollection::operator=(class UnBCL::XmlLite::XmlAttributeCollection const & __ptr64) __ptr64` | 917 | Exported Function
+`public: class UnBCL::XmlLite::XmlAttribute * __ptr64 __cdecl UnBCL::XmlLite::XmlAttributeCollection::get_Item(int) __ptr64` | 2492 | Exported Function
+`public: class UnBCL::XmlLite::XmlAttributeCollection * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_Attributes(void) __ptr64` | 2373 | Exported Function
+`public: class UnBCL::XmlLite::XmlNode & __ptr64 __cdecl UnBCL::XmlLite::XmlNode::operator=(class UnBCL::XmlLite::XmlNode const & __ptr64) __ptr64` | 924 | Exported Function
+`public: class UnBCL::XmlLite::XmlDocument & __ptr64 __cdecl UnBCL::XmlLite::XmlDocument::operator=(class UnBCL::XmlLite::XmlDocument const & __ptr64) __ptr64` | 919 | Exported Function
+`public: class UnBCL::XmlAttribute * __ptr64 __cdecl UnBCL::XmlAttributeCollection::get_Item(class UnBCL::String * __ptr64) __ptr64` | 2491 | Exported Function
+`public: class UnBCL::Type & __ptr64 __cdecl UnBCL::Type::operator=(class UnBCL::Type const & __ptr64) __ptr64` | 903 | Exported Function
+`public: class UnBCL::TimeSpan __cdecl UnBCL::TimeSpan::Subtract(class UnBCL::TimeSpan const & __ptr64)const __ptr64` | 2264 | Exported Function
+`public: class UnBCL::UnicodeEncoding & __ptr64 __cdecl UnBCL::UnicodeEncoding::operator=(class UnBCL::UnicodeEncoding && __ptr64) __ptr64` | 904 | Exported Function
+`public: class UnBCL::Version & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Version>::operator*(void)const __ptr64` | 1014 | Exported Function
+`public: class UnBCL::UnicodeEncoding & __ptr64 __cdecl UnBCL::UnicodeEncoding::operator=(class UnBCL::UnicodeEncoding const & __ptr64) __ptr64` | 905 | Exported Function
+`public: class UnBCL::TimeSpan & __ptr64 __cdecl UnBCL::TimeSpan::operator=(class UnBCL::TimeSpan const & __ptr64) __ptr64` | 902 | Exported Function
+`public: class UnBCL::ThreadStateException & __ptr64 __cdecl UnBCL::ThreadStateException::operator=(class UnBCL::ThreadStateException const & __ptr64) __ptr64` | 901 | Exported Function
+`public: class UnBCL::TimeSpan __cdecl UnBCL::DateTime::get_TimeOfDay(void)const __ptr64` | 2578 | Exported Function
+`public: class UnBCL::TimeSpan __cdecl UnBCL::TimeSpan::Add(class UnBCL::TimeSpan const & __ptr64)const __ptr64` | 1453 | Exported Function
+`public: class UnBCL::TimeSpan __cdecl UnBCL::DateTime::Subtract(class UnBCL::DateTime const & __ptr64)const __ptr64` | 2263 | Exported Function
+`public: class UnBCL::Win32Exception & __ptr64 __cdecl UnBCL::Win32Exception::operator=(class UnBCL::Win32Exception && __ptr64) __ptr64` | 908 | Exported Function
+`public: class UnBCL::WaitHandle & __ptr64 __cdecl UnBCL::WaitHandle::operator=(class UnBCL::WaitHandle const & __ptr64) __ptr64` | 907 | Exported Function
+`public: class UnBCL::Win32Exception & __ptr64 __cdecl UnBCL::Win32Exception::operator=(class UnBCL::Win32Exception const & __ptr64) __ptr64` | 909 | Exported Function
+`public: class UnBCL::XmlAttribute & __ptr64 __cdecl UnBCL::XmlAttribute::operator=(class UnBCL::XmlAttribute const & __ptr64) __ptr64` | 913 | Exported Function
+`public: class UnBCL::XmlAttribute & __ptr64 __cdecl UnBCL::XmlAttribute::operator=(class UnBCL::XmlAttribute && __ptr64) __ptr64` | 912 | Exported Function
+`public: class UnBCL::Version * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Version>::get_P(void)const __ptr64` | 2546 | Exported Function
+`public: class UnBCL::Version & __ptr64 __cdecl UnBCL::Version::operator=(class UnBCL::Version const & __ptr64) __ptr64` | 906 | Exported Function
+`public: class UnBCL::Version * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Version>::operator->(void)const __ptr64` | 1002 | Exported Function
+`public: class UnBCL::Version const * __ptr64 __cdecl UnBCL::OperatingSystem::get_OSVersion(void)const __ptr64` | 2532 | Exported Function
+`public: class UnBCL::Version * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Version>::Steal(void) __ptr64` | 2232 | Exported Function
+`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_PreviousSibling(void)const __ptr64` | 2557 | Exported Function
+`public: class UnBCL::XmlNodeList * __ptr64 __cdecl UnBCL::XmlNode::SelectNodes(class UnBCL::String * __ptr64,class UnBCL::XmlNamespaceManager * __ptr64) __ptr64` | 2173 | Exported Function
+`public: class UnBCL::XmlNodeList * __ptr64 __cdecl UnBCL::XmlNode::SelectNodes(class UnBCL::String * __ptr64) __ptr64` | 2172 | Exported Function
+`public: class UnBCL::XmlSchemaSet & __ptr64 __cdecl UnBCL::XmlSchemaSet::operator=(class UnBCL::XmlSchemaSet const & __ptr64) __ptr64` | 927 | Exported Function
+`public: class UnBCL::XPathException & __ptr64 __cdecl UnBCL::XPathException::operator=(class UnBCL::XPathException const & __ptr64) __ptr64` | 911 | Exported Function
+`public: class UnBCL::XPathException & __ptr64 __cdecl UnBCL::XPathException::operator=(class UnBCL::XPathException && __ptr64) __ptr64` | 910 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::SelectSingleNode(class UnBCL::String * __ptr64,class UnBCL::XmlNamespaceManager * __ptr64) __ptr64` | 2176 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::SelectSingleNode(class UnBCL::String * __ptr64) __ptr64` | 2175 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNodeList::get_Item(int) __ptr64` | 2494 | Exported Function
+`public: class UnBCL::XmlNodeList * __ptr64 __cdecl UnBCL::XmlNode::get_ChildNodes(void) __ptr64` | 2399 | Exported Function
+`public: class UnBCL::XmlNodeList & __ptr64 __cdecl UnBCL::XmlNodeList::operator=(class UnBCL::XmlNodeList const & __ptr64) __ptr64` | 925 | Exported Function
+`public: enum UnBCL::InstallationType __cdecl UnBCL::OperatingSystem::get_Type(void)const __ptr64` | 2585 | Exported Function
+`public: enum _FIRMWARE_TYPE __cdecl UnBCL::SystemInfo::get_FirmwareType(void)const __ptr64` | 2431 | Exported Function
+`public: enum UnBCL::PlatformID __cdecl UnBCL::OperatingSystem::get_Platform(void)const __ptr64` | 2550 | Exported Function
+`public: enum UnBCL::XmlNodeType __cdecl UnBCL::XmlLite::XmlNode::get_NodeType(void)const __ptr64` | 2529 | Exported Function
+`public: enum UnBCL::RegistryValueKind __cdecl UnBCL::RegistryKey::GetValueKind(class UnBCL::String const * __ptr64) __ptr64` | 1891 | Exported Function
+`public: double __cdecl UnBCL::TimeSpan::get_TotalHours(void)const __ptr64` | 2580 | Exported Function
+`public: double __cdecl UnBCL::TimeSpan::get_TotalDays(void)const __ptr64` | 2579 | Exported Function
+`public: double __cdecl UnBCL::TimeSpan::get_TotalMilliseconds(void)const __ptr64` | 2582 | Exported Function
+`public: double __cdecl UnBCL::TimeSpan::get_TotalSeconds(void)const __ptr64` | 2584 | Exported Function
+`public: double __cdecl UnBCL::TimeSpan::get_TotalMinutes(void)const __ptr64` | 2583 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::InsertBefore(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 1966 | Exported Function
+`public: class UnBCL::XmlNamespaceManager * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::get_P(void)const __ptr64` | 2547 | Exported Function
+`public: class UnBCL::XmlNamespaceManager & __ptr64 __cdecl UnBCL::XmlNamespaceManager::operator=(class UnBCL::XmlNamespaceManager const & __ptr64) __ptr64` | 922 | Exported Function
+`public: class UnBCL::XmlNamespaceManager * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::operator->(void)const __ptr64` | 1003 | Exported Function
+`public: class UnBCL::XmlNode & __ptr64 __cdecl UnBCL::XmlNode::operator=(class UnBCL::XmlNode const & __ptr64) __ptr64` | 923 | Exported Function
+`public: class UnBCL::XmlNamespaceManager * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::Steal(void) __ptr64` | 2233 | Exported Function
+`public: class UnBCL::XmlLite::XmlNodeList & __ptr64 __cdecl UnBCL::XmlLite::XmlNodeList::operator=(class UnBCL::XmlLite::XmlNodeList const & __ptr64) __ptr64` | 926 | Exported Function
+`public: class UnBCL::XmlLite::XmlNode * __ptr64 __cdecl UnBCL::XmlLite::XmlNodeList::get_Item(int) __ptr64` | 2495 | Exported Function
+`public: class UnBCL::XmlLite::XmlNodeList * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::get_ChildNodes(void) __ptr64` | 2400 | Exported Function
+`public: class UnBCL::XmlNamespaceManager & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::operator*(void)const __ptr64` | 1015 | Exported Function
+`public: class UnBCL::XmlLite::XmlNodeList * __ptr64 __cdecl UnBCL::XmlLite::XmlNode::SelectNodes(class UnBCL::String * __ptr64) __ptr64` | 2174 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::get_NextSibling(void) __ptr64` | 2526 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::get_LastChild(void) __ptr64` | 2497 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::get_ParentNode(void) __ptr64` | 2548 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::InsertAfter(class UnBCL::XmlNode * __ptr64,class UnBCL::XmlNode * __ptr64) __ptr64` | 1965 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::get_PreviousSibling(void) __ptr64` | 2556 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlDocument::CreateNode(enum UnBCL::XmlNodeType,class UnBCL::String * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 1634 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlAttributeCollection::SetNamedItem(class UnBCL::XmlNode * __ptr64) __ptr64` | 2186 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::AppendChild(class UnBCL::XmlNode * __ptr64) __ptr64` | 1482 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::get_FirstChild(void) __ptr64` | 2432 | Exported Function
+`public: class UnBCL::XmlNode * __ptr64 __cdecl UnBCL::XmlNode::CloneNode(int) __ptr64` | 1557 | Exported Function
+`public: virtual __cdecl UnBCL::Exception::~Exception(void) __ptr64` | 587 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned short>::CopyTo(class UnBCL::Array<unsigned short> * __ptr64,int)const __ptr64` | 1621 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned short>::Clear(void) __ptr64` | 1531 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned short>::Insert(int,unsigned short) __ptr64` | 1954 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned short>::RemoveAt(int) __ptr64` | 2133 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned short>::Remove(unsigned short) __ptr64` | 2122 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned char>::RemoveAt(int) __ptr64` | 2132 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned char>::Remove(unsigned char) __ptr64` | 2121 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned char>::set_AutoDelete(int) __ptr64` | 2620 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned char>::SetValue(unsigned char,int) __ptr64` | 2194 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned char>::set_Item(int,unsigned char) __ptr64` | 2639 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Insert(int,class UnBCL::String * __ptr64) __ptr64` | 1959 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64,int)const __ptr64` | 1626 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Remove(class UnBCL::String * __ptr64) __ptr64` | 2127 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::RemoveTail(void) __ptr64` | 2143 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::RemoveAt(int) __ptr64` | 2138 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned short>::set_Item(int,unsigned short) __ptr64` | 2640 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned short>::set_AutoDelete(int) __ptr64` | 2621 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned short>::SetValue(unsigned short,int) __ptr64` | 2195 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Clear(void) __ptr64` | 1536 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::AddRange(struct UnBCL::ICollection<class UnBCL::String * __ptr64> const * __ptr64) __ptr64` | 1460 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned char>::Insert(int,unsigned char) __ptr64` | 1953 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::RemoveAt(int) __ptr64` | 2136 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Remove(class UnBCL::String * __ptr64) __ptr64` | 2125 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::set_AutoDelete(int) __ptr64` | 2624 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::SetValue(class UnBCL::String * __ptr64,int) __ptr64` | 2198 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::set_Item(int,class UnBCL::String * __ptr64) __ptr64` | 2643 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::SetValue(class UnBCL::Object * __ptr64,int) __ptr64` | 2197 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::set_Item(int,class UnBCL::Object * __ptr64) __ptr64` | 2642 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Clear(void) __ptr64` | 1534 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Insert(int,class UnBCL::String * __ptr64) __ptr64` | 1957 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64,int)const __ptr64` | 1624 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<int>::set_Item(int,int) __ptr64` | 2641 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<int>::set_AutoDelete(int) __ptr64` | 2622 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<int>::SetValue(int,int) __ptr64` | 2196 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned char>::CopyTo(class UnBCL::Array<unsigned char> * __ptr64,int)const __ptr64` | 1620 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<unsigned char>::Clear(void) __ptr64` | 1530 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<int>::CopyTo(class UnBCL::Array<int> * __ptr64,int)const __ptr64` | 1622 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<int>::Clear(void) __ptr64` | 1532 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<int>::Insert(int,int) __ptr64` | 1955 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<int>::RemoveAt(int) __ptr64` | 2134 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<int>::Remove(int) __ptr64` | 2123 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Resize(int,int) __ptr64` | 2153 | Exported Function
+`public: virtual void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::RemoveAt(int) __ptr64` | 2139 | Exported Function
+`public: virtual void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::Remove(class UnBCL::Object * __ptr64) __ptr64` | 2129 | Exported Function
+`public: virtual void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::set_Item(int,class UnBCL::Object * __ptr64) __ptr64` | 2646 | Exported Function
+`public: virtual void __cdecl UnBCL::FileStream::Close(void) __ptr64` | 1559 | Exported Function
+`public: virtual void __cdecl UnBCL::Exception::set_Source(class UnBCL::String const * __ptr64) __ptr64` | 2657 | Exported Function
+`public: virtual void __cdecl UnBCL::BufferedStream::Write(unsigned char const * __ptr64,int,int) __ptr64` | 2329 | Exported Function
+`public: virtual void __cdecl UnBCL::BufferedStream::set_Position(__int64) __ptr64` | 2653 | Exported Function
+`public: virtual void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::Clear(void) __ptr64` | 1537 | Exported Function
+`public: virtual void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::Insert(int,class UnBCL::Object * __ptr64) __ptr64` | 1962 | Exported Function
+`public: virtual void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::Object * __ptr64> * __ptr64,int)const __ptr64` | 1627 | Exported Function
+`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Add(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 1449 | Exported Function
+`public: virtual void __cdecl UnBCL::FileSystemEnumerator::Reset(void) __ptr64` | 2149 | Exported Function
+`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Clear(void) __ptr64` | 1538 | Exported Function
+`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Remove(class UnBCL::String * __ptr64) __ptr64` | 2130 | Exported Function
+`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > * __ptr64,int)const __ptr64` | 1628 | Exported Function
+`public: virtual void __cdecl UnBCL::FileStream::Flush(void) __ptr64` | 1727 | Exported Function
+`public: virtual void __cdecl UnBCL::FileStream::Dispose(void) __ptr64` | 1678 | Exported Function
+`public: virtual void __cdecl UnBCL::FileStream::set_Position(__int64) __ptr64` | 2654 | Exported Function
+`public: virtual void __cdecl UnBCL::FileStream::Write(unsigned char const * __ptr64,int,int) __ptr64` | 2330 | Exported Function
+`public: virtual void __cdecl UnBCL::FileStream::SetSize(__int64) __ptr64` | 2190 | Exported Function
+`public: virtual void __cdecl UnBCL::BufferedStream::Flush(void) __ptr64` | 1726 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::Clear(void) __ptr64` | 1535 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::AddRange(struct UnBCL::ICollection<unsigned short> const * __ptr64) __ptr64` | 1459 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::CopyTo(class UnBCL::Array<unsigned short> * __ptr64,int)const __ptr64` | 1625 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::Remove(unsigned short) __ptr64` | 2126 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::Insert(int,unsigned short) __ptr64` | 1958 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::set_AutoDelete(int) __ptr64` | 2626 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Reverse(void) __ptr64` | 2159 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::set_Capacity(int) __ptr64` | 2630 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Sort(void) __ptr64` | 2213 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::set_Item(int,class UnBCL::String * __ptr64) __ptr64` | 2645 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::set_Item(int,unsigned short) __ptr64` | 2644 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::set_Capacity(int) __ptr64` | 2629 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::Sort(void) __ptr64` | 2211 | Exported Function
+`public: virtual void __cdecl UnBCL::BufferedStream::Dispose(void) __ptr64` | 1677 | Exported Function
+`public: virtual void __cdecl UnBCL::BufferedStream::Close(void) __ptr64` | 1558 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::RemoveTail(void) __ptr64` | 2142 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::RemoveAt(int) __ptr64` | 2137 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::Resize(int,int) __ptr64` | 2152 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::set_AutoDelete(int) __ptr64` | 2625 | Exported Function
+`public: virtual void __cdecl UnBCL::ArrayList<unsigned short>::Reverse(void) __ptr64` | 2158 | Exported Function
+`public: virtual struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::GetEnumerator(void)const __ptr64` | 1808 | Exported Function
+`public: virtual struct UnBCL::IEnumerator<class UnBCL::Object * __ptr64> * __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::GetEnumerator(void)const __ptr64` | 1814 | Exported Function
+`public: virtual struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::GetEnumerator(void)const __ptr64` | 1810 | Exported Function
+`public: virtual struct UnBCL::IEnumerator<int> * __ptr64 __cdecl UnBCL::Stack<int>::GetEnumerator(void)const __ptr64` | 1813 | Exported Function
+`public: virtual struct UnBCL::IEnumerator<int> * __ptr64 __cdecl UnBCL::Array<int>::GetEnumerator(void)const __ptr64` | 1806 | Exported Function
+`public: virtual struct UnBCL::IDictionaryEnumerator<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::GetDictionaryEnumerator(void)const __ptr64` | 1798 | Exported Function
+`public: virtual struct UnBCL::ICollection<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_Values(void)const __ptr64` | 2591 | Exported Function
+`public: virtual struct UnBCL::IEnumerator<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::GetEnumerator(void)const __ptr64` | 1812 | Exported Function
+`public: virtual struct UnBCL::IEnumerator<class UnBCL::Object * __ptr64> * __ptr64 __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::GetEnumerator(void)const __ptr64` | 1811 | Exported Function
+`public: virtual struct UnBCL::IEnumerator<class UnBCL::Object * __ptr64> * __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::GetEnumerator(void)const __ptr64` | 1807 | Exported Function
+`public: virtual unsigned char * __ptr64 __cdecl UnBCL::MemoryStream::GetRawBuffer(void) __ptr64` | 1855 | Exported Function
+`public: virtual unsigned char * __ptr64 __cdecl UnBCL::Array<unsigned char>::GetBuffer(int) __ptr64` | 1760 | Exported Function
+`public: virtual unsigned char __cdecl UnBCL::Array<unsigned char>::GetValue(int)const __ptr64` | 1885 | Exported Function
+`public: virtual unsigned char const * __ptr64 __cdecl UnBCL::Array<unsigned char>::GetBuffer(int)const __ptr64` | 1761 | Exported Function
+`public: virtual unsigned char const & __ptr64 __cdecl UnBCL::Array<unsigned char>::get_Item(int)const __ptr64` | 2470 | Exported Function
+`public: virtual struct UnBCL::IEnumerator<unsigned short const * __ptr64> * __ptr64 __cdecl UnBCL::MultiSz::GetEnumerator(void)const __ptr64` | 1815 | Exported Function
+`public: virtual struct UnBCL::IEnumerator<unsigned char> * __ptr64 __cdecl UnBCL::Array<unsigned char>::GetEnumerator(void)const __ptr64` | 1804 | Exported Function
+`public: virtual struct UnBCL::IEnumerator<unsigned short> * __ptr64 __cdecl UnBCL::Array<unsigned short>::GetEnumerator(void)const __ptr64` | 1805 | Exported Function
+`public: virtual unsigned char & __ptr64 __cdecl UnBCL::Array<unsigned char>::get_Item(int) __ptr64` | 2469 | Exported Function
+`public: virtual struct UnBCL::IEnumerator<unsigned short> * __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::GetEnumerator(void)const __ptr64` | 1809 | Exported Function
+`public: virtual struct UnBCL::ICollection<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_Keys(void)const __ptr64` | 2496 | Exported Function
+`public: virtual int __cdecl UnBCL::UnicodeEncoding::GetCharCount(class UnBCL::Array<unsigned char> const * __ptr64,int,int)const __ptr64` | 1788 | Exported Function
+`public: virtual int __cdecl UnBCL::UnicodeEncoding::GetBytes(class UnBCL::String const * __ptr64,int,int,class UnBCL::Array<unsigned char> * __ptr64,int)const __ptr64` | 1785 | Exported Function
+`public: virtual int __cdecl UnBCL::UnicodeEncoding::GetChars(class UnBCL::Array<unsigned char> const * __ptr64,int,int,class UnBCL::Array<unsigned short> * __ptr64,int)const __ptr64` | 1790 | Exported Function
+`public: virtual int __cdecl UnBCL::Version::CompareTo(class UnBCL::Object const * __ptr64)const __ptr64` | 1586 | Exported Function
+`public: virtual int __cdecl UnBCL::UnicodeEncoding::GetMaxByteCount(int)const __ptr64` | 1842 | Exported Function
+`public: virtual int __cdecl UnBCL::TimeSpan::CompareTo(class UnBCL::Object const * __ptr64)const __ptr64` | 1585 | Exported Function
+`public: virtual int __cdecl UnBCL::String::GetHashCode(void)const __ptr64` | 1829 | Exported Function
+`public: virtual int __cdecl UnBCL::TimeSpan::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1712 | Exported Function
+`public: virtual int __cdecl UnBCL::UnicodeEncoding::GetByteCount(class UnBCL::String const * __ptr64,int,int)const __ptr64` | 1781 | Exported Function
+`public: virtual int __cdecl UnBCL::TimeSpan::GetHashCode(void)const __ptr64` | 1830 | Exported Function
+`public: virtual int const & __ptr64 __cdecl UnBCL::Stack<int>::get_Item(int)const __ptr64` | 2487 | Exported Function
+`public: virtual int const & __ptr64 __cdecl UnBCL::Array<int>::get_Item(int)const __ptr64` | 2474 | Exported Function
+`public: virtual int const & __ptr64 __cdecl UnBCL::Stack<int>::Peek(void)const __ptr64` | 2070 | Exported Function
+`public: virtual long __cdecl UnBCL::Exception::get_HResult(void)const __ptr64` | 2435 | Exported Function
+`public: virtual int const * __ptr64 __cdecl UnBCL::Array<int>::GetBuffer(int)const __ptr64` | 1765 | Exported Function
+`public: virtual int __cdecl UnBCL::Version::GetHashCode(void)const __ptr64` | 1831 | Exported Function
+`public: virtual int __cdecl UnBCL::Version::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1713 | Exported Function
+`public: virtual int __cdecl UnBCL::WaitHandle::WaitOne(void) __ptr64` | 2323 | Exported Function
+`public: virtual int __cdecl UnBCL::XmlException::get_LinePosition(void) __ptr64` | 2510 | Exported Function
+`public: virtual int __cdecl UnBCL::XmlException::get_LineNumber(void) __ptr64` | 2509 | Exported Function
+`public: virtual unsigned int __cdecl UnBCL::HeapMemoryManager::Dump(struct ILogHandler * __ptr64) __ptr64` | 1689 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2238 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2247 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2250 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2251 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2239 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<int>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2248 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<int>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2236 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2234 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2235 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2246 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Insert(int,class UnBCL::Object * __ptr64) __ptr64` | 1956 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::Object * __ptr64> * __ptr64,int)const __ptr64` | 1623 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Remove(class UnBCL::Object * __ptr64) __ptr64` | 2124 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::set_AutoDelete(int) __ptr64` | 2623 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::RemoveAt(int) __ptr64` | 2135 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2252 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2240 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableStackBase<int>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2241 | Exported Function
+`public: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Clear(void) __ptr64` | 1533 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableStackBase<int>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2253 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2249 | Exported Function
+`public: virtual unsigned short * __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::GetBuffer(int) __ptr64` | 1770 | Exported Function
+`public: virtual unsigned short * __ptr64 __cdecl UnBCL::Array<unsigned short>::GetBuffer(int) __ptr64` | 1762 | Exported Function
+`public: virtual unsigned short __cdecl UnBCL::Array<unsigned short>::GetValue(int)const __ptr64` | 1886 | Exported Function
+`public: virtual unsigned short const & __ptr64 __cdecl UnBCL::Array<unsigned short>::get_Item(int)const __ptr64` | 2472 | Exported Function
+`public: virtual unsigned short __cdecl UnBCL::StringPtr::operator[](int)const __ptr64` | 972 | Exported Function
+`public: virtual unsigned int __cdecl UnBCL::HeapMemoryManager::NumBlocksAllocated(void) __ptr64` | 2062 | Exported Function
+`public: virtual unsigned int __cdecl UnBCL::HeapMemoryManager::DumpDelta(struct ILogHandler * __ptr64) __ptr64` | 1691 | Exported Function
+`public: virtual unsigned int __cdecl UnBCL::Object::GetObjectID(void)const __ptr64` | 1849 | Exported Function
+`public: virtual unsigned short & __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::get_Item(int) __ptr64` | 2479 | Exported Function
+`public: virtual unsigned short & __ptr64 __cdecl UnBCL::Array<unsigned short>::get_Item(int) __ptr64` | 2471 | Exported Function
+`public: virtual void * __ptr64 __cdecl UnBCL::HeapMemoryManager::ReAlloc(void * __ptr64,unsigned __int64) __ptr64` | 2086 | Exported Function
+`public: virtual void * __ptr64 __cdecl UnBCL::HeapMemoryManager::AllocDbg(char const * __ptr64,int,unsigned __int64) __ptr64` | 1466 | Exported Function
+`public: virtual void * __ptr64 __cdecl UnBCL::HeapMemoryManager::ReAllocDbg(char const * __ptr64,int,void * __ptr64,unsigned __int64) __ptr64` | 2088 | Exported Function
+`public: virtual void __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2237 | Exported Function
+`public: virtual void * __ptr64 __cdecl UnBCL::WaitHandle::get_Handle(void)const __ptr64` | 2436 | Exported Function
+`public: virtual unsigned short const * __ptr64 __cdecl UnBCL::Array<unsigned short>::GetBuffer(int)const __ptr64` | 1763 | Exported Function
+`public: virtual unsigned short const & __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::get_Item(int)const __ptr64` | 2480 | Exported Function
+`public: virtual unsigned short const * __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::GetBuffer(int)const __ptr64` | 1771 | Exported Function
+`public: virtual void * __ptr64 __cdecl UnBCL::HeapMemoryManager::Alloc(unsigned __int64) __ptr64` | 1464 | Exported Function
+`public: virtual unsigned short const * __ptr64 __cdecl UnBCL::RegSubkeyEnumerator::get_Current(void)const __ptr64` | 2421 | Exported Function
+`public: void __cdecl UnBCL::Registry::``vbase destructor'(void) __ptr64` | 1430 | Exported Function
+`public: void __cdecl UnBCL::RegHandle::Close(void) __ptr64` | 1562 | Exported Function
+`public: void __cdecl UnBCL::RegistryKey::``vbase destructor'(void) __ptr64` | 1431 | Exported Function
+`public: void __cdecl UnBCL::RegistryKey::DeleteSubKey(class UnBCL::String const * __ptr64) __ptr64` | 1673 | Exported Function
+`public: void __cdecl UnBCL::RegistryKey::Close(void) __ptr64` | 1563 | Exported Function
+`public: void __cdecl UnBCL::ProcessStartInfo::set_Arguments(class UnBCL::String const * __ptr64) __ptr64` | 2619 | Exported Function
+`public: void __cdecl UnBCL::Process::WaitForExit(void) __ptr64` | 2322 | Exported Function
+`public: void __cdecl UnBCL::ProcessStartInfo::set_FileName(class UnBCL::String const * __ptr64) __ptr64` | 2635 | Exported Function
+`public: void __cdecl UnBCL::RegHandle::``vbase destructor'(void) __ptr64` | 1428 | Exported Function
+`public: void __cdecl UnBCL::ProcessStartInfo::set_UseShellExecute(int) __ptr64` | 2658 | Exported Function
+`public: void __cdecl UnBCL::RegistryKey::SetValue(class UnBCL::String const * __ptr64,int) __ptr64` | 2200 | Exported Function
+`public: void __cdecl UnBCL::RegistryKey::SetValue(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64,int) __ptr64` | 2199 | Exported Function
+`public: void __cdecl UnBCL::RegSubkeyEnumerator::``vbase destructor'(void) __ptr64` | 1429 | Exported Function
+`public: void __cdecl UnBCL::SerializationStream::Close(void) __ptr64` | 1564 | Exported Function
+`public: void __cdecl UnBCL::SEHException::``vbase destructor'(void) __ptr64` | 1432 | Exported Function
+`public: void __cdecl UnBCL::RegistryKey::DeleteSubKeyTree(class UnBCL::String const * __ptr64) __ptr64` | 1675 | Exported Function
+`public: void __cdecl UnBCL::RegistryKey::DeleteSubKey(class UnBCL::String const * __ptr64,int) __ptr64` | 1674 | Exported Function
+`public: void __cdecl UnBCL::RegistryKey::DeleteValue(class UnBCL::String const * __ptr64) __ptr64` | 1676 | Exported Function
+`public: void __cdecl UnBCL::RegistryKey::SetValue(class UnBCL::String const * __ptr64,class UnBCL::Array<unsigned char> const * __ptr64) __ptr64` | 2201 | Exported Function
+`public: void __cdecl UnBCL::RegistryKey::SetValue(class UnBCL::String const * __ptr64,class UnBCL::Array<class UnBCL::String * __ptr64> const * __ptr64) __ptr64` | 2202 | Exported Function
+`public: void __cdecl UnBCL::Process::Close(void) __ptr64` | 1561 | Exported Function
+`public: void __cdecl UnBCL::MemoryStream::``vbase destructor'(void) __ptr64` | 1422 | Exported Function
+`public: void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::ThawHash(void) __ptr64` | 2270 | Exported Function
+`public: void __cdecl UnBCL::MultiSz::``vbase destructor'(void) __ptr64` | 1424 | Exported Function
+`public: void __cdecl UnBCL::MultiSz::Merge(class UnBCL::MultiSz const & __ptr64,int) __ptr64` | 2042 | Exported Function
+`public: void __cdecl UnBCL::MultiSz::Add(unsigned short const * __ptr64) __ptr64` | 1451 | Exported Function
+`public: void __cdecl UnBCL::FileStream::``vbase destructor'(void) __ptr64` | 1420 | Exported Function
+`public: void __cdecl UnBCL::Exception::AddStackTrace(char const * __ptr64) __ptr64` | 1462 | Exported Function
+`public: void __cdecl UnBCL::FileSystemEnumerator::``vbase destructor'(void) __ptr64` | 1421 | Exported Function
+`public: void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::FreezeHash(void) __ptr64` | 1745 | Exported Function
+`public: void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbase destructor'(void) __ptr64` | 1413 | Exported Function
+`public: void __cdecl UnBCL::Mutex::``vbase destructor'(void) __ptr64` | 1425 | Exported Function
+`public: void __cdecl UnBCL::MutableString::TrimRight(unsigned short const * __ptr64) __ptr64` | 2309 | Exported Function
+`public: void __cdecl UnBCL::Object::AddRef(void) __ptr64` | 1461 | Exported Function
+`public: void __cdecl UnBCL::Process::``vbase destructor'(void) __ptr64` | 1427 | Exported Function
+`public: void __cdecl UnBCL::OperatingSystem::``vbase destructor'(void) __ptr64` | 1426 | Exported Function
+`public: void __cdecl UnBCL::MutableString::Append(unsigned short) __ptr64` | 1471 | Exported Function
+`public: void __cdecl UnBCL::MutableString::Append(unsigned short const * __ptr64) __ptr64` | 1472 | Exported Function
+`public: void __cdecl UnBCL::MutableString::Insert(int,unsigned short const * __ptr64,int) __ptr64` | 1963 | Exported Function
+`public: void __cdecl UnBCL::MutableString::MakeTrim(unsigned short const * __ptr64) __ptr64` | 2035 | Exported Function
+`public: void __cdecl UnBCL::MutableString::MakeLower(void) __ptr64` | 2032 | Exported Function
+`public: void __cdecl UnBCL::SerializationStream::Flush(void) __ptr64` | 1729 | Exported Function
+`public: void __cdecl UnBCL::XmlDocument::Save(class UnBCL::String * __ptr64) __ptr64` | 2168 | Exported Function
+`public: void __cdecl UnBCL::XmlDocument::RegisterNamespaces(class UnBCL::String * __ptr64) __ptr64` | 2102 | Exported Function
+`public: void __cdecl UnBCL::XmlDocument::set_Schemas(class UnBCL::XmlSchemaSet * __ptr64) __ptr64` | 2656 | Exported Function
+`public: void __cdecl UnBCL::XmlLite::XmlDocument::Load(class UnBCL::String * __ptr64) __ptr64` | 2014 | Exported Function
+`public: void __cdecl UnBCL::XmlDocument::set_ValidateOnParse(int) __ptr64` | 2659 | Exported Function
+`public: void __cdecl UnBCL::WaitHandle::``vbase destructor'(void) __ptr64` | 1439 | Exported Function
+`public: void __cdecl UnBCL::Version::``vbase destructor'(void) __ptr64` | 1438 | Exported Function
+`public: void __cdecl UnBCL::XmlDocument::Load(class UnBCL::String * __ptr64) __ptr64` | 2012 | Exported Function
+`public: void __cdecl UnBCL::XmlDocument::LoadXml(class UnBCL::String * __ptr64) __ptr64` | 2018 | Exported Function
+`public: void __cdecl UnBCL::XmlDocument::Load(struct IStream * __ptr64) __ptr64` | 2011 | Exported Function
+`public: void __cdecl UnBCL::XmlSchemaSet::Add(class UnBCL::String * __ptr64,class UnBCL::XmlDocument * __ptr64) __ptr64` | 1456 | Exported Function
+`public: void __cdecl UnBCL::XmlNode::set_InnerText(class UnBCL::String * __ptr64) __ptr64` | 2638 | Exported Function
+`SetRunningFlag` | 2661 | Exported Function
+`void __cdecl UnBCL::_::SetLiteralStorage(class UnBCL::String const * __ptr64 * __ptr64,unsigned short const * __ptr64)` | 2183 | Exported Function
+`UnBCLReleaseResources` | 2662 | Exported Function
+`public: void __cdecl UnBCL::XmlLite::XmlDocument::LoadXml(class UnBCL::String * __ptr64) __ptr64` | 2019 | Exported Function
+`public: void __cdecl UnBCL::XmlLite::XmlDocument::Load(struct IStream * __ptr64) __ptr64` | 2013 | Exported Function
+`public: void __cdecl UnBCL::XmlNamespaceManager::AddNamespace(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 1458 | Exported Function
+`public: void __cdecl UnBCL::XmlNode::RemoveChild(class UnBCL::XmlNode * __ptr64) __ptr64` | 2140 | Exported Function
+`public: void __cdecl UnBCL::XmlNamespaceManager::RemoveNamespace(class UnBCL::String * __ptr64) __ptr64` | 2141 | Exported Function
+`public: void __cdecl UnBCL::UnicodeEncoding::``vbase destructor'(void) __ptr64` | 1437 | Exported Function
+`public: void __cdecl UnBCL::Stream::set_Counter(class UnBCL::StreamCounter * __ptr64) __ptr64` | 2634 | Exported Function
+`public: void __cdecl UnBCL::Stack<int>::``vbase destructor'(void) __ptr64` | 1414 | Exported Function
+`public: void __cdecl UnBCL::StreamCounter::Add(__int64) __ptr64` | 1452 | Exported Function
+`public: void __cdecl UnBCL::StreamWriter::``vbase destructor'(void) __ptr64` | 1434 | Exported Function
+`public: void __cdecl UnBCL::StreamReader::``vbase destructor'(void) __ptr64` | 1433 | Exported Function
+`public: void __cdecl UnBCL::SerializationStream::ReadPhantomObject(class UnBCL::Object * __ptr64 & __ptr64) __ptr64` | 2099 | Exported Function
+`public: void __cdecl UnBCL::SerializationStream::ReadBytes(unsigned char * __ptr64,int) __ptr64` | 2095 | Exported Function
+`public: void __cdecl UnBCL::SerializationStream::set_Context(class UnBCL::Object * __ptr64) __ptr64` | 2633 | Exported Function
+`public: void __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::``vbase destructor'(void) __ptr64` | 1415 | Exported Function
+`public: void __cdecl UnBCL::SerializationStream::WriteBytes(unsigned char const * __ptr64,int) __ptr64` | 2333 | Exported Function
+`public: void __cdecl UnBCL::StringPtr::``vbase destructor'(void) __ptr64` | 1435 | Exported Function
+`public: void __cdecl UnBCL::StringBuilder::set_Length(int) __ptr64` | 2648 | Exported Function
+`public: void __cdecl UnBCL::Thread::``vbase destructor'(void) __ptr64` | 1436 | Exported Function
+`public: void __cdecl UnBCL::Thread::Start(void) __ptr64` | 2219 | Exported Function
+`public: void __cdecl UnBCL::Thread::Join(void) __ptr64` | 1992 | Exported Function
+`public: void __cdecl UnBCL::String::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2256 | Exported Function
+`public: void __cdecl UnBCL::String::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2244 | Exported Function
+`public: void __cdecl UnBCL::StringBuilder::ReleaseBuffer(int) __ptr64` | 2119 | Exported Function
+`public: void __cdecl UnBCL::StringBuilder::set_Chars(int,unsigned short) __ptr64` | 2632 | Exported Function
+`public: void __cdecl UnBCL::StringBuilder::Reset(void) __ptr64` | 2151 | Exported Function
+`public: virtual void __cdecl UnBCL::Stack<int>::Push(int) __ptr64` | 2081 | Exported Function
+`public: virtual void __cdecl UnBCL::Stack<int>::CopyTo(class UnBCL::Array<int> * __ptr64,int)const __ptr64` | 1629 | Exported Function
+`public: virtual void __cdecl UnBCL::StreamReader::Close(void) __ptr64` | 1565 | Exported Function
+`public: virtual void __cdecl UnBCL::StreamWriter::Flush(void) __ptr64` | 1730 | Exported Function
+`public: virtual void __cdecl UnBCL::StreamWriter::Close(void) __ptr64` | 1567 | Exported Function
+`public: virtual void __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Clear(void) __ptr64` | 1540 | Exported Function
+`public: virtual void __cdecl UnBCL::RegSubkeyEnumerator::Reset(void) __ptr64` | 2150 | Exported Function
+`public: virtual void __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::CopyTo(class UnBCL::Array<class UnBCL::Object * __ptr64> * __ptr64,int)const __ptr64` | 1630 | Exported Function
+`public: virtual void __cdecl UnBCL::Stack<int>::Clear(void) __ptr64` | 1539 | Exported Function
+`public: virtual void __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Push(class UnBCL::Object * __ptr64) __ptr64` | 2082 | Exported Function
+`public: virtual void __cdecl UnBCL::TextWriter::WriteLine(void) __ptr64` | 2336 | Exported Function
+`public: virtual void __cdecl UnBCL::TextWriter::WriteLine(unsigned short const * __ptr64,...) __ptr64` | 2335 | Exported Function
+`public: virtual void __cdecl UnBCL::TextWriter::WriteUnformat(unsigned short const * __ptr64) __ptr64` | 2340 | Exported Function
+`public: virtual void __cdecl UnBCL::Version::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2257 | Exported Function
+`public: virtual void __cdecl UnBCL::Version::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2245 | Exported Function
+`public: virtual void __cdecl UnBCL::TextReader::Dispose(void) __ptr64` | 1682 | Exported Function
+`public: virtual void __cdecl UnBCL::StreamWriter::Write(class UnBCL::String const * __ptr64,int,int) __ptr64` | 2332 | Exported Function
+`public: virtual void __cdecl UnBCL::TextWriter::Dispose(void) __ptr64` | 1683 | Exported Function
+`public: virtual void __cdecl UnBCL::TextWriter::WriteFormat(unsigned short const * __ptr64,...) __ptr64` | 2334 | Exported Function
+`public: virtual void __cdecl UnBCL::TextWriter::set_NewLine(class UnBCL::String const * __ptr64) __ptr64` | 2651 | Exported Function
+`public: virtual void __cdecl UnBCL::RegistryKey::Dispose(void) __ptr64` | 1681 | Exported Function
+`public: virtual void __cdecl UnBCL::HeapMemoryManager::Validate(void) __ptr64` | 2317 | Exported Function
+`public: virtual void __cdecl UnBCL::HeapMemoryManager::SetRef(void) __ptr64` | 2189 | Exported Function
+`public: virtual void __cdecl UnBCL::MemoryStream::Close(void) __ptr64` | 1560 | Exported Function
+`public: virtual void __cdecl UnBCL::MemoryStream::Flush(void) __ptr64` | 1728 | Exported Function
+`public: virtual void __cdecl UnBCL::MemoryStream::Dispose(void) __ptr64` | 1679 | Exported Function
+`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::set_AutoDeleteValue(int) __ptr64` | 2628 | Exported Function
+`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::set_AutoDeleteKey(int) __ptr64` | 2627 | Exported Function
+`public: virtual void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::set_Item(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 2647 | Exported Function
+`public: virtual void __cdecl UnBCL::HeapMemoryManager::Free(void * __ptr64) __ptr64` | 1743 | Exported Function
+`public: virtual void __cdecl UnBCL::HeapMemoryManager::EnableDelayedDeallocation(int) __ptr64` | 1694 | Exported Function
+`public: virtual void __cdecl UnBCL::Mutex::Release(void) __ptr64` | 2117 | Exported Function
+`public: virtual void __cdecl UnBCL::MultiSz::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2254 | Exported Function
+`public: virtual void __cdecl UnBCL::OperatingSystem::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2243 | Exported Function
+`public: virtual void __cdecl UnBCL::Process::Dispose(void) __ptr64` | 1680 | Exported Function
+`public: virtual void __cdecl UnBCL::OperatingSystem::StreamWrite(class UnBCL::SerializationStream & __ptr64)const __ptr64` | 2255 | Exported Function
+`public: virtual void __cdecl UnBCL::MemoryStream::set_Position(__int64) __ptr64` | 2655 | Exported Function
+`public: virtual void __cdecl UnBCL::MemoryStream::set_Capacity(int) __ptr64` | 2631 | Exported Function
+`public: virtual void __cdecl UnBCL::MemoryStream::SetLength(__int64) __ptr64` | 2182 | Exported Function
+`public: virtual void __cdecl UnBCL::MultiSz::StreamRead(class UnBCL::SerializationStream & __ptr64) __ptr64` | 2242 | Exported Function
+`public: virtual void __cdecl UnBCL::MemoryStream::Write(unsigned char const * __ptr64,int,int) __ptr64` | 2331 | Exported Function
+`public: virtual void __cdecl UnBCL::WaitHandle::Dispose(void) __ptr64` | 1685 | Exported Function
+`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FormatV(unsigned short const * __ptr64,char * __ptr64) __ptr64` | 1740 | Exported Function
+`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FormatMessageW(unsigned short const * __ptr64,...) __ptr64` | 1739 | Exported Function
+`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::OemToCharA(void) __ptr64` | 2063 | Exported Function
+`public: void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::``vbase destructor'(void) __ptr64` | 1408 | Exported Function
+`public: void __cdecl UnBCL::Allocator::EnableDelayedDeallocation(int) __ptr64` | 1693 | Exported Function
+`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Format(unsigned int,...) __ptr64` | 1733 | Exported Function
+`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CharToOemA(void) __ptr64` | 1526 | Exported Function
+`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Format(unsigned short const * __ptr64,...) __ptr64` | 1734 | Exported Function
+`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FormatMessageW(unsigned int,...) __ptr64` | 1738 | Exported Function
+`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::FormatMessageV(unsigned short const * __ptr64,char * __ptr64 * __ptr64) __ptr64` | 1737 | Exported Function
+`public: void __cdecl UnBCL::ASCIIEncoding::``vbase destructor'(void) __ptr64` | 1416 | Exported Function
+`public: void __cdecl UnBCL::ArrayList<unsigned short>::``vbase destructor'(void) __ptr64` | 1410 | Exported Function
+`public: void __cdecl UnBCL::BufferedStream::``vbase destructor'(void) __ptr64` | 1417 | Exported Function
+`public: void __cdecl UnBCL::Delegate::``vbase destructor'(void) __ptr64` | 1419 | Exported Function
+`public: void __cdecl UnBCL::CaseInsensitiveStringComparer::``vbase destructor'(void) __ptr64` | 1418 | Exported Function
+`public: void __cdecl UnBCL::Array<int>::``vbase destructor'(void) __ptr64` | 1407 | Exported Function
+`public: void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::``vbase destructor'(void) __ptr64` | 1409 | Exported Function
+`public: void __cdecl UnBCL::Array<unsigned char>::``vbase destructor'(void) __ptr64` | 1405 | Exported Function
+`public: void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbase destructor'(void) __ptr64` | 1411 | Exported Function
+`public: void __cdecl UnBCL::Array<unsigned short>::``vbase destructor'(void) __ptr64` | 1406 | Exported Function
+`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::AppendFormatV(unsigned short const * __ptr64,char * __ptr64) __ptr64` | 1486 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::AppendChar(unsigned short) __ptr64` | 1481 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Append(unsigned short const * __ptr64,int) __ptr64` | 1470 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Empty(void) __ptr64` | 1692 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Preallocate(int) __ptr64` | 2076 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::FreeExtra(void) __ptr64` | 1744 | Exported Function
+`public: void * __ptr64 __cdecl UnBCL::Process::get_ProcessHandle(void)const __ptr64` | 2558 | Exported Function
+`public: virtual void __cdecl UnBCL::WaitHandle::set_Handle(void * __ptr64) __ptr64` | 2637 | Exported Function
+`public: void * __ptr64 __cdecl UnBCL::Thread::get_ThreadHandle(void) __ptr64` | 2574 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Append(unsigned short const * __ptr64) __ptr64` | 1469 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Append(class ATL::CSimpleStringT<unsigned short,0> const & __ptr64) __ptr64` | 1468 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Truncate(int) __ptr64` | 2311 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::SetString(unsigned short const * __ptr64,int) __ptr64` | 2192 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::UnlockBuffer(void) __ptr64` | 2313 | Exported Function
+`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::AppendFormat(unsigned short const * __ptr64,...) __ptr64` | 1485 | Exported Function
+`public: void __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::AppendFormat(unsigned int,...) __ptr64` | 1484 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::ReleaseBufferSetLength(int) __ptr64` | 2120 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::ReleaseBuffer(int) __ptr64` | 2118 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::SetAt(int,unsigned short) __ptr64` | 2177 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::SetString(unsigned short const * __ptr64) __ptr64` | 2191 | Exported Function
+`public: void __cdecl ATL::CSimpleStringT<unsigned short,0>::SetManager(struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 2184 | Exported Function
+`public: virtual int __cdecl UnBCL::String::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1711 | Exported Function
+`public: virtual __int64 __cdecl UnBCL::FileStream::get_Length(void)const __ptr64` | 2505 | Exported Function
+`public: virtual __int64 __cdecl UnBCL::BufferedStream::Seek(__int64,enum UnBCL::SeekOrigin) __ptr64` | 2169 | Exported Function
+`public: virtual __int64 __cdecl UnBCL::FileStream::get_Position(void)const __ptr64` | 2552 | Exported Function
+`public: virtual __int64 __cdecl UnBCL::MemoryStream::get_Length(void)const __ptr64` | 2506 | Exported Function
+`public: virtual __int64 __cdecl UnBCL::FileStream::Seek(__int64,enum UnBCL::SeekOrigin) __ptr64` | 2170 | Exported Function
+`public: virtual __cdecl UnBCL::XmlSchemaSet::~XmlSchemaSet(void) __ptr64` | 656 | Exported Function
+`public: virtual __cdecl UnBCL::XmlNodeList::~XmlNodeList(void) __ptr64` | 654 | Exported Function
+`public: virtual __cdecl UnBCL::XPathException::~XPathException(void) __ptr64` | 643 | Exported Function
+`public: virtual __int64 __cdecl UnBCL::BufferedStream::get_Position(void)const __ptr64` | 2551 | Exported Function
+`public: virtual __int64 __cdecl UnBCL::BufferedStream::get_Length(void)const __ptr64` | 2504 | Exported Function
+`public: virtual class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::MemoryStream::ToArray(void)const __ptr64` | 2277 | Exported Function
+`public: virtual class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::MemoryStream::GetBuffer(void) __ptr64` | 1776 | Exported Function
+`public: virtual class UnBCL::Array<unsigned short> * __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::ToArray(void)const __ptr64` | 2275 | Exported Function
+`public: virtual class UnBCL::Decoder * __ptr64 __cdecl UnBCL::UnicodeEncoding::GetDecoder(void)const __ptr64` | 1796 | Exported Function
+`public: virtual class UnBCL::Decoder * __ptr64 __cdecl UnBCL::ASCIIEncoding::GetDecoder(void)const __ptr64` | 1795 | Exported Function
+`public: virtual __int64 __cdecl UnBCL::MemoryStream::Seek(__int64,enum UnBCL::SeekOrigin) __ptr64` | 2171 | Exported Function
+`public: virtual __int64 __cdecl UnBCL::MemoryStream::get_Position(void)const __ptr64` | 2553 | Exported Function
+`public: virtual class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::ToArray(void)const __ptr64` | 2276 | Exported Function
+`public: virtual class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::Encoding::GetBytes(class UnBCL::String const * __ptr64,int,int)const __ptr64` | 1784 | Exported Function
+`public: virtual class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::Encoding::GetBytes(class UnBCL::String const * __ptr64)const __ptr64` | 1783 | Exported Function
+`public: virtual __cdecl UnBCL::XmlNode::~XmlNode(void) __ptr64` | 652 | Exported Function
+`public: virtual __cdecl UnBCL::UnicodeEncoding::~UnicodeEncoding(void) __ptr64` | 639 | Exported Function
+`public: virtual __cdecl UnBCL::Type::~Type(void) __ptr64` | 638 | Exported Function
+`public: virtual __cdecl UnBCL::Version::~Version(void) __ptr64` | 640 | Exported Function
+`public: virtual __cdecl UnBCL::Win32Exception::~Win32Exception(void) __ptr64` | 642 | Exported Function
+`public: virtual __cdecl UnBCL::WaitHandle::~WaitHandle(void) __ptr64` | 641 | Exported Function
+`public: virtual __cdecl UnBCL::TextWriter::~TextWriter(void) __ptr64` | 634 | Exported Function
+`public: virtual __cdecl UnBCL::TextReader::~TextReader(void) __ptr64` | 633 | Exported Function
+`public: virtual __cdecl UnBCL::Thread::~Thread(void) __ptr64` | 635 | Exported Function
+`public: virtual __cdecl UnBCL::TimeSpan::~TimeSpan(void) __ptr64` | 637 | Exported Function
+`public: virtual __cdecl UnBCL::ThreadStateException::~ThreadStateException(void) __ptr64` | 636 | Exported Function
+`public: virtual __cdecl UnBCL::XmlLite::XmlDocument::~XmlDocument(void) __ptr64` | 649 | Exported Function
+`public: virtual __cdecl UnBCL::XmlLite::XmlAttributeCollection::~XmlAttributeCollection(void) __ptr64` | 647 | Exported Function
+`public: virtual __cdecl UnBCL::XmlLite::XmlNode::~XmlNode(void) __ptr64` | 653 | Exported Function
+`public: virtual __cdecl UnBCL::XmlNamespaceManager::~XmlNamespaceManager(void) __ptr64` | 651 | Exported Function
+`public: virtual __cdecl UnBCL::XmlLite::XmlNodeList::~XmlNodeList(void) __ptr64` | 655 | Exported Function
+`public: virtual __cdecl UnBCL::XmlAttributeCollection::~XmlAttributeCollection(void) __ptr64` | 646 | Exported Function
+`public: virtual __cdecl UnBCL::XmlAttribute::~XmlAttribute(void) __ptr64` | 644 | Exported Function
+`public: virtual __cdecl UnBCL::XmlDocument::~XmlDocument(void) __ptr64` | 648 | Exported Function
+`public: virtual __cdecl UnBCL::XmlLite::XmlAttribute::~XmlAttribute(void) __ptr64` | 645 | Exported Function
+`public: virtual __cdecl UnBCL::XmlException::~XmlException(void) __ptr64` | 650 | Exported Function
+`public: virtual class UnBCL::Exception const * __ptr64 __cdecl UnBCL::Exception::get_InnerException(void)const __ptr64` | 2439 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 const * __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::GetBuffer(int)const __ptr64` | 1767 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 const & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Peek(void)const __ptr64` | 2072 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 & __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_Item(int) __ptr64` | 2477 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 * __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::GetBuffer(int) __ptr64` | 1768 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 & __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_Item(int) __ptr64` | 2481 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Version::Clone(void)const __ptr64` | 1555 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::String::Clone(void)const __ptr64` | 1554 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 const & __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_Item(int)const __ptr64` | 2476 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 const & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::get_Item(int)const __ptr64` | 2489 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 const & __ptr64 __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_Item(int)const __ptr64` | 2484 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::FileSystemEnumerator::get_Current(void)const __ptr64` | 2420 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Exception::ToString(void)const __ptr64` | 2286 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::FileSystemEnumerator::get_CurrentFileName(void)const __ptr64` | 2422 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::MultiSz::ToString(void)const __ptr64` | 2289 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_Item(class UnBCL::String * __ptr64)const __ptr64` | 2485 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::GetValue(int)const __ptr64` | 1889 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 * __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::GetBuffer(int) __ptr64` | 1772 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::DateTime::ToString(void)const __ptr64` | 2285 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Encoding::GetString(class UnBCL::Array<unsigned char> const * __ptr64,int,int)const __ptr64` | 1861 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Encoding::GetString(class UnBCL::Array<unsigned char> const * __ptr64)const __ptr64` | 1860 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Stack<int>::Clone(void)const __ptr64` | 1549 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Clone(void)const __ptr64` | 1544 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 * __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::GetBuffer(int) __ptr64` | 1766 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::GetValue(int)const __ptr64` | 1888 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Array<int>::Clone(void)const __ptr64` | 1543 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Clone(void)const __ptr64` | 1545 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 & __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_Item(int) __ptr64` | 2475 | Exported Function
+`public: virtual class UnBCL::Exception const * __ptr64 __cdecl UnBCL::Exception::GetBaseException(void)const __ptr64` | 1757 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 & __ptr64 __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_Item(int) __ptr64` | 2483 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Peek(void) __ptr64` | 2071 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::get_Item(int) __ptr64` | 2488 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Object::Clone(void)const __ptr64` | 1552 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::MultiSz::Clone(void)const __ptr64` | 1551 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::OperatingSystem::Clone(void)const __ptr64` | 1553 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Pop(void) __ptr64` | 2075 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Clone(void)const __ptr64` | 1550 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Array<unsigned short>::Clone(void)const __ptr64` | 1542 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Array<unsigned char>::Clone(void)const __ptr64` | 1541 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Clone(void)const __ptr64` | 1547 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Clone(void)const __ptr64` | 1548 | Exported Function
+`public: virtual class UnBCL::Object * __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::Clone(void)const __ptr64` | 1546 | Exported Function
+`public: virtual __cdecl UnBCL::MemoryStream::~MemoryStream(void) __ptr64` | 599 | Exported Function
+`public: virtual __cdecl UnBCL::ISerializable::~ISerializable(void) __ptr64` | 595 | Exported Function
+`public: virtual __cdecl UnBCL::MultiSz::~MultiSz(void) __ptr64` | 601 | Exported Function
+`public: virtual __cdecl UnBCL::Mutex::~Mutex(void) __ptr64` | 603 | Exported Function
+`public: virtual __cdecl UnBCL::MutableString::~MutableString(void) __ptr64` | 602 | Exported Function
+`public: virtual __cdecl UnBCL::IndexOutOfRangeException::~IndexOutOfRangeException(void) __ptr64` | 596 | Exported Function
+`public: virtual __cdecl UnBCL::IList<unsigned short>::~IList<unsigned short>(void) __ptr64` | 535 | Exported Function
+`public: virtual __cdecl UnBCL::InvalidCastException::~InvalidCastException(void) __ptr64` | 597 | Exported Function
+`public: virtual __cdecl UnBCL::IPoolable::~IPoolable(void) __ptr64` | 594 | Exported Function
+`public: virtual __cdecl UnBCL::InvalidOperationException::~InvalidOperationException(void) __ptr64` | 598 | Exported Function
+`public: virtual __cdecl UnBCL::PathTooLongException::~PathTooLongException(void) __ptr64` | 610 | Exported Function
+`public: virtual __cdecl UnBCL::OverflowException::~OverflowException(void) __ptr64` | 609 | Exported Function
+`public: virtual __cdecl UnBCL::Process::~Process(void) __ptr64` | 611 | Exported Function
+`public: virtual __cdecl UnBCL::RegHandle::~RegHandle(void) __ptr64` | 613 | Exported Function
+`public: virtual __cdecl UnBCL::ProcessStartInfo::~ProcessStartInfo(void) __ptr64` | 612 | Exported Function
+`public: virtual __cdecl UnBCL::Object::~Object(void) __ptr64` | 605 | Exported Function
+`public: virtual __cdecl UnBCL::NotSupportedException::~NotSupportedException(void) __ptr64` | 604 | Exported Function
+`public: virtual __cdecl UnBCL::ObjectDisposedException::~ObjectDisposedException(void) __ptr64` | 606 | Exported Function
+`public: virtual __cdecl UnBCL::OutOfMemoryException::~OutOfMemoryException(void) __ptr64` | 608 | Exported Function
+`public: virtual __cdecl UnBCL::OperatingSystem::~OperatingSystem(void) __ptr64` | 607 | Exported Function
+`public: virtual __cdecl UnBCL::IList<unsigned char>::~IList<unsigned char>(void) __ptr64` | 534 | Exported Function
+`public: virtual __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::~ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >(void) __ptr64` | 529 | Exported Function
+`public: virtual __cdecl UnBCL::HeapMemoryManager::~HeapMemoryManager(void) __ptr64` | 592 | Exported Function
+`public: virtual __cdecl UnBCL::ICollection<class UnBCL::Object * __ptr64>::~ICollection<class UnBCL::Object * __ptr64>(void) __ptr64` | 527 | Exported Function
+`public: virtual __cdecl UnBCL::ICollection<int>::~ICollection<int>(void) __ptr64` | 526 | Exported Function
+`public: virtual __cdecl UnBCL::ICollection<class UnBCL::String * __ptr64>::~ICollection<class UnBCL::String * __ptr64>(void) __ptr64` | 528 | Exported Function
+`public: virtual __cdecl UnBCL::FileStream::~FileStream(void) __ptr64` | 589 | Exported Function
+`public: virtual __cdecl UnBCL::ExternalException::~ExternalException(void) __ptr64` | 588 | Exported Function
+`public: virtual __cdecl UnBCL::FileSystemEnumerator::~FileSystemEnumerator(void) __ptr64` | 590 | Exported Function
+`public: virtual __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::~Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(void) __ptr64` | 523 | Exported Function
+`public: virtual __cdecl UnBCL::FormatException::~FormatException(void) __ptr64` | 591 | Exported Function
+`public: virtual __cdecl UnBCL::IEnumerator<unsigned short const * __ptr64>::~IEnumerator<unsigned short const * __ptr64>(void) __ptr64` | 533 | Exported Function
+`public: virtual __cdecl UnBCL::IEnumerator<class UnBCL::String * __ptr64>::~IEnumerator<class UnBCL::String * __ptr64>(void) __ptr64` | 532 | Exported Function
+`public: virtual __cdecl UnBCL::IList<class UnBCL::Object * __ptr64>::~IList<class UnBCL::Object * __ptr64>(void) __ptr64` | 537 | Exported Function
+`public: virtual __cdecl UnBCL::IList<int>::~IList<int>(void) __ptr64` | 536 | Exported Function
+`public: virtual __cdecl UnBCL::IList<class UnBCL::String * __ptr64>::~IList<class UnBCL::String * __ptr64>(void) __ptr64` | 538 | Exported Function
+`public: virtual __cdecl UnBCL::ICollection<unsigned short>::~ICollection<unsigned short>(void) __ptr64` | 525 | Exported Function
+`public: virtual __cdecl UnBCL::ICollection<unsigned char>::~ICollection<unsigned char>(void) __ptr64` | 524 | Exported Function
+`public: virtual __cdecl UnBCL::IComparer<class UnBCL::String * __ptr64>::~IComparer<class UnBCL::String * __ptr64>(void) __ptr64` | 530 | Exported Function
+`public: virtual __cdecl UnBCL::IDisposable::~IDisposable(void) __ptr64` | 593 | Exported Function
+`public: virtual __cdecl UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::~IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(void) __ptr64` | 531 | Exported Function
+`public: virtual __cdecl UnBCL::Registry::~Registry(void) __ptr64` | 615 | Exported Function
+`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::String>::~SmartPtr<class UnBCL::String>(void) __ptr64` | 567 | Exported Function
+`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::~SmartPtr<class UnBCL::Stream>(void) __ptr64` | 566 | Exported Function
+`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Version>::~SmartPtr<class UnBCL::Version>(void) __ptr64` | 568 | Exported Function
+`public: virtual __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::~Stack<class UnBCL::Object * __ptr64>(void) __ptr64` | 571 | Exported Function
+`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::~SmartPtr<class UnBCL::XmlNamespaceManager>(void) __ptr64` | 569 | Exported Function
+`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::~SmartPtr<class UnBCL::Encoding>(void) __ptr64` | 562 | Exported Function
+`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::~SmartPtr<class UnBCL::Decoder>(void) __ptr64` | 561 | Exported Function
+`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Object>::~SmartPtr<class UnBCL::Object>(void) __ptr64` | 563 | Exported Function
+`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::~SmartPtr<class UnBCL::SerializationStream>(void) __ptr64` | 565 | Exported Function
+`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::~SmartPtr<class UnBCL::SerializationId>(void) __ptr64` | 564 | Exported Function
+`public: virtual __cdecl UnBCL::StringPtr::~StringPtr(void) __ptr64` | 629 | Exported Function
+`public: virtual __cdecl UnBCL::StringBuilder::~StringBuilder(void) __ptr64` | 628 | Exported Function
+`public: virtual __cdecl UnBCL::SyncObject::~SyncObject(void) __ptr64` | 630 | Exported Function
+`public: virtual __cdecl UnBCL::SystemInfo::~SystemInfo(void) __ptr64` | 632 | Exported Function
+`public: virtual __cdecl UnBCL::SystemException::~SystemException(void) __ptr64` | 631 | Exported Function
+`public: virtual __cdecl UnBCL::Stream::~Stream(void) __ptr64` | 623 | Exported Function
+`public: virtual __cdecl UnBCL::Stack<int>::~Stack<int>(void) __ptr64` | 570 | Exported Function
+`public: virtual __cdecl UnBCL::StreamReader::~StreamReader(void) __ptr64` | 625 | Exported Function
+`public: virtual __cdecl UnBCL::String::~String(void) __ptr64` | 627 | Exported Function
+`public: virtual __cdecl UnBCL::StreamWriter::~StreamWriter(void) __ptr64` | 626 | Exported Function
+`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::~SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >(void) __ptr64` | 560 | Exported Function
+`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::~SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >(void) __ptr64` | 545 | Exported Function
+`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::~SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >(void) __ptr64` | 547 | Exported Function
+`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::~SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >(void) __ptr64` | 546 | Exported Function
+`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::~SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >(void) __ptr64` | 549 | Exported Function
+`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::~SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >(void) __ptr64` | 550 | Exported Function
+`public: virtual __cdecl UnBCL::RegSubkeyEnumerator::~RegSubkeyEnumerator(void) __ptr64` | 614 | Exported Function
+`public: virtual __cdecl UnBCL::RegistryKey::~RegistryKey(void) __ptr64` | 616 | Exported Function
+`public: virtual __cdecl UnBCL::SecurityException::~SecurityException(void) __ptr64` | 619 | Exported Function
+`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::~SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >(void) __ptr64` | 548 | Exported Function
+`public: virtual __cdecl UnBCL::SEHException::~SEHException(void) __ptr64` | 617 | Exported Function
+`public: virtual __cdecl UnBCL::SerializationId::~SerializationId(void) __ptr64` | 621 | Exported Function
+`public: virtual __cdecl UnBCL::SerializationException::~SerializationException(void) __ptr64` | 620 | Exported Function
+`public: virtual __cdecl UnBCL::SerializationStream::~SerializationStream(void) __ptr64` | 622 | Exported Function
+`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::~SmartPtr<class UnBCL::Array<unsigned char> >(void) __ptr64` | 558 | Exported Function
+`public: virtual __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::~SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >(void) __ptr64` | 559 | Exported Function
+`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::~SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >(void) __ptr64` | 553 | Exported Function
+`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::~SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >(void) __ptr64` | 551 | Exported Function
+`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::~SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >(void) __ptr64` | 554 | Exported Function
+`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::~SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >(void) __ptr64` | 555 | Exported Function
+`public: virtual __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::~SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >(void) __ptr64` | 552 | Exported Function
+`public: virtual int __cdecl UnBCL::ASCIIEncoding::GetMaxByteCount(int)const __ptr64` | 1841 | Exported Function
+`public: virtual int __cdecl UnBCL::ASCIIEncoding::GetChars(class UnBCL::Array<unsigned char> const * __ptr64,int,int,class UnBCL::Array<unsigned short> * __ptr64,int)const __ptr64` | 1789 | Exported Function
+`public: virtual int __cdecl UnBCL::BufferedStream::get_CanWrite(void)const __ptr64` | 2391 | Exported Function
+`public: virtual int __cdecl UnBCL::Char::CompareTo(class UnBCL::Object const * __ptr64)const __ptr64` | 1578 | Exported Function
+`public: virtual int __cdecl UnBCL::BufferedStream::Read(unsigned char * __ptr64,int,int) __ptr64` | 2089 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::LastIndexOf(unsigned short,int,int)const __ptr64` | 2000 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::IndexOf(unsigned short,int,int)const __ptr64` | 1921 | Exported Function
+`public: virtual int __cdecl UnBCL::ASCIIEncoding::GetByteCount(class UnBCL::String const * __ptr64,int,int)const __ptr64` | 1779 | Exported Function
+`public: virtual int __cdecl UnBCL::ASCIIEncoding::GetCharCount(class UnBCL::Array<unsigned char> const * __ptr64,int,int)const __ptr64` | 1787 | Exported Function
+`public: virtual int __cdecl UnBCL::ASCIIEncoding::GetBytes(class UnBCL::String const * __ptr64,int,int,class UnBCL::Array<unsigned char> * __ptr64,int)const __ptr64` | 1782 | Exported Function
+`public: virtual int __cdecl UnBCL::DateTime::CompareTo(class UnBCL::Object const * __ptr64)const __ptr64` | 1580 | Exported Function
+`public: virtual int __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::IndexOf(class UnBCL::Object * __ptr64)const __ptr64` | 1925 | Exported Function
+`public: virtual int __cdecl UnBCL::DateTime::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1707 | Exported Function
+`public: virtual int __cdecl UnBCL::Encoding::get_CodePage(void)const __ptr64` | 2401 | Exported Function
+`public: virtual int __cdecl UnBCL::DateTime::GetHashCode(void)const __ptr64` | 1826 | Exported Function
+`public: virtual int __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::Contains(class UnBCL::Object * __ptr64 const)const __ptr64` | 1601 | Exported Function
+`public: virtual int __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::Add(class UnBCL::Object * __ptr64) __ptr64` | 1448 | Exported Function
+`public: virtual int __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_Count(void)const __ptr64` | 2411 | Exported Function
+`public: virtual int __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_IsReadOnly(void)const __ptr64` | 2465 | Exported Function
+`public: virtual int __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_IsFixedSize(void)const __ptr64` | 2454 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::IndexOf(unsigned short)const __ptr64` | 1920 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_IsFixedSize(void)const __ptr64` | 2453 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_Count(void)const __ptr64` | 2410 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_IsReadOnly(void)const __ptr64` | 2464 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::IndexOf(class UnBCL::String * __ptr64,int,int)const __ptr64` | 1924 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::IndexOf(class UnBCL::String * __ptr64)const __ptr64` | 1923 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Contains(class UnBCL::String * __ptr64 const)const __ptr64` | 1600 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::BinarySearch(class UnBCL::String * __ptr64,struct UnBCL::IComparer<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 1523 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1706 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_Capacity(void)const __ptr64` | 2395 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_AutoDelete(void)const __ptr64` | 2380 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::get_Capacity(void)const __ptr64` | 2394 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::get_AutoDelete(void)const __ptr64` | 2379 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::get_Count(void)const __ptr64` | 2409 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::get_IsReadOnly(void)const __ptr64` | 2463 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::get_IsFixedSize(void)const __ptr64` | 2452 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::Add(unsigned short) __ptr64` | 1446 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::LastIndexOf(class UnBCL::String * __ptr64,int,int)const __ptr64` | 2002 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::BinarySearch(unsigned short,struct UnBCL::IComparer<unsigned short> * __ptr64) __ptr64` | 1520 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1705 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<unsigned short>::Contains(unsigned short)const __ptr64` | 1599 | Exported Function
+`public: virtual int __cdecl UnBCL::Encoding::GetByteCount(class UnBCL::String const * __ptr64)const __ptr64` | 1780 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::GetVersionId(void)const __ptr64` | 1902 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::GetVersionId(void)const __ptr64` | 1901 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::GetVersionId(void)const __ptr64` | 1900 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializationId::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1710 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::GetVersionId(void)const __ptr64` | 1903 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::GetVersionId(void)const __ptr64` | 1894 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::GetVersionId(void)const __ptr64` | 1893 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::GetVersionId(void)const __ptr64` | 1898 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::GetVersionId(void)const __ptr64` | 1899 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::GetVersionId(void)const __ptr64` | 1897 | Exported Function
+`public: virtual int __cdecl UnBCL::Stream::ReadByte(void) __ptr64` | 2093 | Exported Function
+`public: virtual int __cdecl UnBCL::Stack<int>::Pop(void) __ptr64` | 2074 | Exported Function
+`public: virtual int __cdecl UnBCL::StreamReader::Peek(void) __ptr64` | 2073 | Exported Function
+`public: virtual int __cdecl UnBCL::String::CompareTo(class UnBCL::Object const * __ptr64)const __ptr64` | 1584 | Exported Function
+`public: virtual int __cdecl UnBCL::StreamReader::Read(void) __ptr64` | 2092 | Exported Function
+`public: virtual int __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Contains(class UnBCL::Object * __ptr64)const __ptr64` | 1604 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializationId::GetHashCode(void)const __ptr64` | 1828 | Exported Function
+`public: virtual int __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::get_Count(void)const __ptr64` | 2414 | Exported Function
+`public: virtual int __cdecl UnBCL::Stack<int>::get_Count(void)const __ptr64` | 2413 | Exported Function
+`public: virtual int __cdecl UnBCL::Stack<int>::Contains(int)const __ptr64` | 1603 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::GetVersionId(void)const __ptr64` | 1895 | Exported Function
+`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_AutoDeleteKey(void)const __ptr64` | 2381 | Exported Function
+`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::ContainsValue(class UnBCL::String * __ptr64)const __ptr64` | 1608 | Exported Function
+`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_AutoDeleteValue(void)const __ptr64` | 2382 | Exported Function
+`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_IsFixedSize(void)const __ptr64` | 2455 | Exported Function
+`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_Count(void)const __ptr64` | 2412 | Exported Function
+`public: virtual int __cdecl UnBCL::FileStream::Read(unsigned char * __ptr64,int,int) __ptr64` | 2090 | Exported Function
+`public: virtual int __cdecl UnBCL::FileStream::get_CanWrite(void)const __ptr64` | 2392 | Exported Function
+`public: virtual int __cdecl UnBCL::FileSystemEnumerator::MoveNext(void) __ptr64` | 2048 | Exported Function
+`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::ContainsKey(class UnBCL::String * __ptr64)const __ptr64` | 1607 | Exported Function
+`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Contains(class UnBCL::String * __ptr64)const __ptr64` | 1602 | Exported Function
+`public: virtual int __cdecl UnBCL::Object::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1709 | Exported Function
+`public: virtual int __cdecl UnBCL::Object::CompareTo(class UnBCL::Object const * __ptr64)const __ptr64` | 1581 | Exported Function
+`public: virtual int __cdecl UnBCL::Object::GetHashCode(void)const __ptr64` | 1827 | Exported Function
+`public: virtual int __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::GetVersionId(void)const __ptr64` | 1896 | Exported Function
+`public: virtual int __cdecl UnBCL::RegSubkeyEnumerator::MoveNext(void) __ptr64` | 2049 | Exported Function
+`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Retrieve(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64 & __ptr64)const __ptr64` | 2154 | Exported Function
+`public: virtual int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::get_IsReadOnly(void)const __ptr64` | 2466 | Exported Function
+`public: virtual int __cdecl UnBCL::MemoryStream::get_CanWrite(void)const __ptr64` | 2393 | Exported Function
+`public: virtual int __cdecl UnBCL::MemoryStream::Read(unsigned char * __ptr64,int,int) __ptr64` | 2091 | Exported Function
+`public: virtual int __cdecl UnBCL::MemoryStream::get_Capacity(void)const __ptr64` | 2396 | Exported Function
+`public: virtual int & __ptr64 __cdecl UnBCL::Array<int>::get_Item(int) __ptr64` | 2473 | Exported Function
+`public: virtual enum tagLOGRESULT __cdecl UnBCL::ConsoleLogHandler::LogW(unsigned long,char const * __ptr64,unsigned long,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned long) __ptr64` | 2021 | Exported Function
+`public: virtual int & __ptr64 __cdecl UnBCL::Stack<int>::get_Item(int) __ptr64` | 2486 | Exported Function
+`public: virtual int * __ptr64 __cdecl UnBCL::Array<int>::GetBuffer(int) __ptr64` | 1764 | Exported Function
+`public: virtual int & __ptr64 __cdecl UnBCL::Stack<int>::Peek(void) __ptr64` | 2069 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::GetTypeName(void)const __ptr64` | 1883 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::GetTypeName(void)const __ptr64` | 1880 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::TextWriter::get_NewLine(void)const __ptr64` | 2525 | Exported Function
+`public: virtual class UnBCL::Type * __ptr64 __cdecl UnBCL::Object::GetType(void)const __ptr64` | 1872 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::Type::get_FullName(void)const __ptr64` | 2434 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_IsReadOnly(void)const __ptr64` | 2461 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_IsFixedSize(void)const __ptr64` | 2450 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_Length(void)const __ptr64` | 2502 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::IndexOf(class UnBCL::Object * __ptr64)const __ptr64` | 1916 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_Rank(void)const __ptr64` | 2567 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Contains(class UnBCL::Object * __ptr64 const)const __ptr64` | 1597 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Add(class UnBCL::Object * __ptr64) __ptr64` | 1444 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1703 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_Count(void)const __ptr64` | 2407 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::get_AutoDelete(void)const __ptr64` | 2377 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::GetTypeName(void)const __ptr64` | 1882 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 const & __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_Item(int)const __ptr64` | 2478 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Version::ToString(void)const __ptr64` | 2294 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 const & __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::get_Item(int)const __ptr64` | 2482 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 const * __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::GetBuffer(int)const __ptr64` | 1773 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 const * __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::GetBuffer(int)const __ptr64` | 1769 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::String::ToString(void)const __ptr64` | 2291 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Object::ToString(void)const __ptr64` | 2290 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::StringBuilder::ToString(void)const __ptr64` | 2292 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::Type::ToString(void)const __ptr64` | 2293 | Exported Function
+`public: virtual class UnBCL::String * __ptr64 __cdecl UnBCL::TextReader::ReadLine(void) __ptr64` | 2096 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::GetTypeName(void)const __ptr64` | 1878 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::GetTypeName(void)const __ptr64` | 1874 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::GetTypeName(void)const __ptr64` | 1877 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::GetTypeName(void)const __ptr64` | 1881 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::GetTypeName(void)const __ptr64` | 1879 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::Exception::get_Source(void)const __ptr64` | 2572 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::Exception::get_Message(void)const __ptr64` | 2513 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::GetTypeName(void)const __ptr64` | 1876 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::GetTypeName(void)const __ptr64` | 1873 | Exported Function
+`public: virtual class UnBCL::String const * __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::GetTypeName(void)const __ptr64` | 1875 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Add(class UnBCL::String * __ptr64) __ptr64` | 1445 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned char>::get_Length(void)const __ptr64` | 2499 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned char>::get_IsReadOnly(void)const __ptr64` | 2458 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned char>::get_Rank(void)const __ptr64` | 2564 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned short>::Add(unsigned short) __ptr64` | 1442 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned char>::IndexOf(unsigned char)const __ptr64` | 1910 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned char>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1700 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned char>::Contains(unsigned char)const __ptr64` | 1594 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned char>::get_AutoDelete(void)const __ptr64` | 2374 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned char>::get_IsFixedSize(void)const __ptr64` | 2447 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned char>::get_Count(void)const __ptr64` | 2404 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned short>::get_Length(void)const __ptr64` | 2500 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned short>::get_IsReadOnly(void)const __ptr64` | 2459 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned short>::get_Rank(void)const __ptr64` | 2565 | Exported Function
+`public: virtual int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::Add(class UnBCL::String * __ptr64) __ptr64` | 1447 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned short>::IndexOf(unsigned short)const __ptr64` | 1912 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned short>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1701 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned short>::Contains(unsigned short)const __ptr64` | 1595 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned short>::get_AutoDelete(void)const __ptr64` | 2375 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned short>::get_IsFixedSize(void)const __ptr64` | 2448 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned short>::get_Count(void)const __ptr64` | 2405 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<unsigned char>::Add(unsigned char) __ptr64` | 1441 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_Length(void)const __ptr64` | 2503 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_IsReadOnly(void)const __ptr64` | 2462 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_Rank(void)const __ptr64` | 2568 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<int>::Add(int) __ptr64` | 1443 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::IndexOf(class UnBCL::String * __ptr64)const __ptr64` | 1918 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1704 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Contains(class UnBCL::String * __ptr64 const)const __ptr64` | 1598 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_AutoDelete(void)const __ptr64` | 2378 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_IsFixedSize(void)const __ptr64` | 2451 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::get_Count(void)const __ptr64` | 2408 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<int>::get_Length(void)const __ptr64` | 2501 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<int>::get_IsReadOnly(void)const __ptr64` | 2460 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<int>::get_Rank(void)const __ptr64` | 2566 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<int>::IndexOf(int)const __ptr64` | 1914 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<int>::GetValue(int)const __ptr64` | 1887 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<int>::Equals(class UnBCL::Object const * __ptr64)const __ptr64` | 1702 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<int>::Contains(int)const __ptr64` | 1596 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<int>::get_AutoDelete(void)const __ptr64` | 2376 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<int>::get_IsFixedSize(void)const __ptr64` | 2449 | Exported Function
+`public: virtual int __cdecl UnBCL::Array<int>::get_Count(void)const __ptr64` | 2406 | Exported Function
+`private: static unsigned int const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::DefaultBins` | 1661 | Exported Function
+`private: static struct UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::s_Registration` | 2617 | Exported Function
+`private: static unsigned long __cdecl UnBCL::Monitor::InitTarget(class UnBCL::SyncObject * __ptr64)` | 1942 | Exported Function
+`private: static unsigned short const * __ptr64 const __ptr64 UnBCL::Exception::DEFAULT_ERROR` | 1646 | Exported Function
+`private: static unsigned long __cdecl UnBCL::Thread::StartAddress(void * __ptr64)` | 2220 | Exported Function
+`private: static struct UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::s_Registration` | 2613 | Exported Function
+`private: static struct UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::s_Registration` | 2611 | Exported Function
+`private: static struct UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::s_Registration` | 2615 | Exported Function
+`private: static struct UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::s_Registration` | 2614 | Exported Function
+`private: static struct UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::s_Registration` | 2616 | Exported Function
+`private: virtual __cdecl UnBCL::Monitor::~Monitor(void) __ptr64` | 600 | Exported Function
+`private: unsigned short const * __ptr64 __cdecl UnBCL::MultiSz::GetNextString(unsigned short const * __ptr64)const __ptr64` | 1845 | Exported Function
+`private: virtual int __cdecl UnBCL::CaseInsensitiveStringComparer::Compare(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64) __ptr64` | 1572 | Exported Function
+`private: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Fork(int) __ptr64` | 1732 | Exported Function
+`private: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Attach(struct ATL::CStringData * __ptr64) __ptr64` | 1512 | Exported Function
+`private: static void __cdecl UnBCL::File::DeleteInternal(class UnBCL::String const * __ptr64)` | 1669 | Exported Function
+`private: static void __cdecl UnBCL::Directory::DeleteInternal(class UnBCL::String const * __ptr64,int,int)` | 1668 | Exported Function
+`private: static void __cdecl UnBCL::Path::CheckInvalidPathChars(class UnBCL::String const * __ptr64)` | 1528 | Exported Function
+`private: unsigned short * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::PrepareWrite(int) __ptr64` | 2078 | Exported Function
+`private: struct ATL::CStringData * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::GetData(void)const __ptr64` | 1793 | Exported Function
+`private: static struct UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::s_Registration` | 2612 | Exported Function
+`private: static int const UnBCL::DateTime::DAYS_TO_1601` | 1643 | Exported Function
+`private: static int const UnBCL::DateTime::DAYS_TO_10K` | 1642 | Exported Function
+`private: static int const UnBCL::RegistryKey::MAX_KEYNAME_LEN` | 2023 | Exported Function
+`private: static int const UnBCL::UnicodeEncoding::UNICODE_CODEPAGE` | 2312 | Exported Function
+`private: static int const UnBCL::TimeSpan::MS_PER_S` | 2030 | Exported Function
+`private: static int const UnBCL::DateTime::DAYS_PER_1` | 1639 | Exported Function
+`private: static int const UnBCL::ASCIIEncoding::ASCII_CODEPAGE` | 1440 | Exported Function
+`private: static int const UnBCL::DateTime::DAYS_PER_100` | 1638 | Exported Function
+`private: static int const UnBCL::DateTime::DAYS_PER_400` | 1640 | Exported Function
+`private: static int const UnBCL::DateTime::DAYS_PER_4` | 1641 | Exported Function
+`private: static struct UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::s_Registration` | 2610 | Exported Function
+`private: static struct IOutOfMemoryHandler * __ptr64 __ptr64 UnBCL::Allocator::s_OOMHandler` | 2604 | Exported Function
+`private: static struct UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::s_Registration` | 2609 | Exported Function
+`private: static struct UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::s_Registration` | 2608 | Exported Function
+`private: static struct UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::StaticTypeRegistration UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::s_Registration` | 2607 | Exported Function
+`private: static struct _SINGLE_LIST_ENTRY UnBCL::SbRegistrationList::s_RegistrationListHead` | 2618 | Exported Function
+`private: static int UnBCL::Allocator::s_Manager_Init` | 2603 | Exported Function
+`private: static struct ATL::CStringData * __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::CloneData(struct ATL::CStringData * __ptr64)` | 1556 | Exported Function
+`private: static struct ILogHandler * __ptr64 __ptr64 UnBCL::Logging::s_Handler` | 2600 | Exported Function
+`private: static struct IHeapMemory * __ptr64 * UnBCL::Allocator::s_Manager` | 2602 | Exported Function
+`private: void __cdecl ATL::CSimpleStringT<unsigned short,0>::PrepareWrite2(int) __ptr64` | 2077 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::Assign(class UnBCL::Encoding * __ptr64) __ptr64` | 1497 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::DeAssign(void) __ptr64` | 1651 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::Assign(class UnBCL::SmartPtr<class UnBCL::Encoding> const & __ptr64) __ptr64` | 1496 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Object>::Assign(class UnBCL::Object * __ptr64) __ptr64` | 1499 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::DeAssign(void) __ptr64` | 1652 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::Assign(class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 1492 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::Assign(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 1493 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::DeAssign(void) __ptr64` | 1650 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::Assign(class UnBCL::SmartPtr<class UnBCL::Decoder> const & __ptr64) __ptr64` | 1494 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::Assign(class UnBCL::Decoder * __ptr64) __ptr64` | 1495 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::Assign(class UnBCL::SmartPtr<class UnBCL::SerializationStream> const & __ptr64) __ptr64` | 1502 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::Assign(class UnBCL::SerializationStream * __ptr64) __ptr64` | 1503 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::DeAssign(void) __ptr64` | 1655 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::Assign(class UnBCL::Stream * __ptr64) __ptr64` | 1505 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::Assign(class UnBCL::SmartPtr<class UnBCL::Stream> const & __ptr64) __ptr64` | 1504 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Object>::DeAssign(void) __ptr64` | 1653 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Object>::Assign(class UnBCL::SmartPtr<class UnBCL::Object> const & __ptr64) __ptr64` | 1498 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::Assign(class UnBCL::SerializationId * __ptr64) __ptr64` | 1501 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::DeAssign(void) __ptr64` | 1654 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::Assign(class UnBCL::SmartPtr<class UnBCL::SerializationId> const & __ptr64) __ptr64` | 1500 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::DeAssign(void) __ptr64` | 1648 | Exported Function
+`private: void __cdecl UnBCL::BufferedStream::FlushBuffer(void) __ptr64` | 1731 | Exported Function
+`private: void __cdecl UnBCL::ArrayList<unsigned short>::QuickSort(class UnBCL::ArrayList<unsigned short> * __ptr64,class UnBCL::ArrayList<unsigned short> * __ptr64,int,int) __ptr64` | 2083 | Exported Function
+`private: void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::AddDictionary(struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const * __ptr64) __ptr64` | 1457 | Exported Function
+`private: void __cdecl UnBCL::HeapMemoryManager::InternalValidate(void * __ptr64) __ptr64` | 1969 | Exported Function
+`private: void __cdecl UnBCL::HeapMemoryManager::InternalFree(void * __ptr64) __ptr64` | 1968 | Exported Function
+`private: void __cdecl ATL::CSimpleStringT<unsigned short,0>::SetLength(int) __ptr64` | 2181 | Exported Function
+`private: void __cdecl ATL::CSimpleStringT<unsigned short,0>::Reallocate(int) __ptr64` | 2100 | Exported Function
+`private: void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::DeleteRange(int,int) __ptr64` | 1672 | Exported Function
+`private: void __cdecl UnBCL::ArrayList<unsigned short>::DeleteRange(int,int) __ptr64` | 1671 | Exported Function
+`private: void __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::QuickSort(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64,class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64,int,int) __ptr64` | 2084 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::Assign(class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 1490 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::Assign(class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 1491 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::DeAssign(void) __ptr64` | 1649 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::Assign(class UnBCL::SmartPtr<class UnBCL::Array<unsigned char> > const & __ptr64) __ptr64` | 1488 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::Assign(class UnBCL::Array<unsigned char> * __ptr64) __ptr64` | 1489 | Exported Function
+`private: void __cdecl UnBCL::Monitor::``vbase destructor'(void) __ptr64` | 1423 | Exported Function
+`private: void __cdecl UnBCL::MemoryStream::LengthAtLeast(int) __ptr64` | 2010 | Exported Function
+`private: void __cdecl UnBCL::RegistryKey::FixupPath(class UnBCL::StringBuilder & __ptr64) __ptr64` | 1725 | Exported Function
+`private: void __cdecl UnBCL::SerializationStream::operator=(class UnBCL::SerializationStream const & __ptr64) __ptr64` | 881 | Exported Function
+`private: void __cdecl UnBCL::RegSubkeyEnumerator::Init(void) __ptr64` | 1935 | Exported Function
+`const UnBCL::WaitHandle::``vftable'{for ``UnBCL::Object'}` | 1290 | Exported Function
+`const UnBCL::WaitHandle::``vftable'{for ``UnBCL::IDisposable'}` | 1289 | Exported Function
+`const UnBCL::WaitHandle::``vftable'{for ``UnBCL::WaitHandle'}` | 1288 | Exported Function
+`const UnBCL::XmlAttribute::``vftable'` | 1293 | Exported Function
+`const UnBCL::Win32Exception::``vftable'` | 1291 | Exported Function
+`const UnBCL::Version::``vftable'{for ``UnBCL::ISerializable'}` | 1287 | Exported Function
+`const UnBCL::Version::``vftable'` | 1286 | Exported Function
+`const UnBCL::Version::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >'}` | 1285 | Exported Function
+`const UnBCL::WaitHandle::``vbtable'{for ``UnBCL::WaitHandle'}` | 1403 | Exported Function
+`const UnBCL::WaitHandle::``vbtable'{for ``UnBCL::IDisposable'}` | 1404 | Exported Function
+`const UnBCL::XmlLite::XmlNode::``vftable'` | 1302 | Exported Function
+`const UnBCL::XmlLite::XmlDocument::``vftable'` | 1298 | Exported Function
+`const UnBCL::XmlLite::XmlNodeList::``vftable'` | 1304 | Exported Function
+`const UnBCL::XmlNode::``vftable'` | 1301 | Exported Function
+`const UnBCL::XmlNamespaceManager::``vftable'` | 1300 | Exported Function
+`const UnBCL::XmlDocument::``vftable'` | 1297 | Exported Function
+`const UnBCL::XmlAttributeCollection::``vftable'` | 1295 | Exported Function
+`const UnBCL::XmlException::``vftable'` | 1299 | Exported Function
+`const UnBCL::XmlLite::XmlAttributeCollection::``vftable'` | 1296 | Exported Function
+`const UnBCL::XmlLite::XmlAttribute::``vftable'` | 1294 | Exported Function
+`const UnBCL::Version::``vbtable'{for ``UnBCL::Version'}` | 1400 | Exported Function
+`const UnBCL::TextWriter::``vftable'` | 1276 | Exported Function
+`const UnBCL::TextReader::``vftable'{for ``UnBCL::Object'}` | 1275 | Exported Function
+`const UnBCL::TextWriter::``vftable'{for ``UnBCL::IDisposable'}` | 1277 | Exported Function
+`const UnBCL::Thread::``vbtable'` | 1397 | Exported Function
+`const UnBCL::TextWriter::``vftable'{for ``UnBCL::Object'}` | 1278 | Exported Function
+`const UnBCL::SystemException::``vftable'` | 1271 | Exported Function
+`const UnBCL::SyncObject::``vftable'` | 1270 | Exported Function
+`const UnBCL::SystemInfo::``vftable'` | 1272 | Exported Function
+`const UnBCL::TextReader::``vftable'{for ``UnBCL::IDisposable'}` | 1274 | Exported Function
+`const UnBCL::TextReader::``vftable'` | 1273 | Exported Function
+`const UnBCL::UnicodeEncoding::``vftable'{for ``UnBCL::Encoding'}` | 1283 | Exported Function
+`const UnBCL::UnicodeEncoding::``vbtable'{for ``UnBCL::UnicodeEncoding'}` | 1398 | Exported Function
+`const UnBCL::UnicodeEncoding::``vftable'{for ``UnBCL::Object'}` | 1284 | Exported Function
+`const UnBCL::Version::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >'}` | 1401 | Exported Function
+`const UnBCL::Version::``vbtable'{for ``UnBCL::ISerializable'}` | 1402 | Exported Function
+`const UnBCL::ThreadStateException::``vftable'` | 1280 | Exported Function
+`const UnBCL::Thread::``vftable'` | 1279 | Exported Function
+`const UnBCL::TimeSpan::``vftable'` | 1281 | Exported Function
+`const UnBCL::UnicodeEncoding::``vbtable'{for ``UnBCL::Encoding'}` | 1399 | Exported Function
+`const UnBCL::Type::``vftable'` | 1282 | Exported Function
+`const UnBCL::XmlNodeList::``vftable'` | 1303 | Exported Function
+`private: static class UnBCL::Hashtable<class UnBCL::SerializationId * __ptr64,class UnBCL::SerializationStream::TypeFactoryList * __ptr64> * __ptr64 __ptr64 UnBCL::SerializationStream::s_Registered` | 2606 | Exported Function
+`private: static __int64 const UnBCL::TimeSpan::MIN_SECONDS` | 2028 | Exported Function
+`private: static class UnBCL::OperatingSystem * __ptr64 __ptr64 UnBCL::Environment::m_OSVersion` | 2598 | Exported Function
+`private: static class UnBCL::SystemInfo * __ptr64 __ptr64 UnBCL::Environment::m_SystemInfo` | 2599 | Exported Function
+`private: static class UnBCL::String const UnBCL::Path::INVALID_PATH_CHARS` | 1908 | Exported Function
+`private: static __int64 const UnBCL::DateTime::MIN_TICKS` | 2029 | Exported Function
+`private: static __int64 const UnBCL::DateTime::MAX_TICKS` | 2026 | Exported Function
+`private: static __int64 const UnBCL::TimeSpan::MAX_MS` | 2024 | Exported Function
+`private: static __int64 const UnBCL::TimeSpan::MIN_MS` | 2027 | Exported Function
+`private: static __int64 const UnBCL::TimeSpan::MAX_SECONDS` | 2025 | Exported Function
+`private: static int __cdecl UnBCL::UnicodeEncoding::SGetCharCount(class UnBCL::Array<unsigned char> const * __ptr64,int,int)` | 2163 | Exported Function
+`private: static int __cdecl UnBCL::ASCIIEncoding::SGetChars(class UnBCL::Array<unsigned char> const * __ptr64,int,int,class UnBCL::Array<unsigned short> * __ptr64,int)` | 2164 | Exported Function
+`private: static int __cdecl UnBCL::UnicodeEncoding::SGetChars(class UnBCL::Array<unsigned char> const * __ptr64,int,int,class UnBCL::Array<unsigned short> * __ptr64,int,int)` | 2165 | Exported Function
+`private: static int const * const UnBCL::DateTime::DAYS_TO_MONTH_366` | 1645 | Exported Function
+`private: static int const * const UnBCL::DateTime::DAYS_TO_MONTH_365` | 1644 | Exported Function
+`private: static float const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::DefaultHigh` | 1662 | Exported Function
+`private: static class UnBCL::TimeSpan __cdecl UnBCL::TimeSpan::Interval(double,int)` | 1970 | Exported Function
+`private: static float const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::DefaultLoad` | 1663 | Exported Function
+`private: static int __cdecl UnBCL::ASCIIEncoding::SGetCharCount(class UnBCL::Array<unsigned char> const * __ptr64,int,int)` | 2162 | Exported Function
+`private: static float const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::DefaultLow` | 1664 | Exported Function
+`private: static __int64 const UnBCL::DateTime::FILETIME_OFFSET` | 1720 | Exported Function
+`private: __cdecl UnBCL::Monitor::Monitor(void) __ptr64` | 306 | Exported Function
+`private: __cdecl UnBCL::Environment::Environment(void) __ptr64` | 246 | Exported Function
+`private: __cdecl UnBCL::OperatingSystem::OperatingSystem(void) __ptr64` | 337 | Exported Function
+`private: __cdecl UnBCL::Thread::Thread(void * __ptr64) __ptr64` | 440 | Exported Function
+`private: __cdecl UnBCL::SerializationStream::SerializationStream(class UnBCL::SerializationStream const & __ptr64) __ptr64` | 392 | Exported Function
+`const UnBCL::XPathException::``vftable'` | 1292 | Exported Function
+`const UnBCL::XmlSchemaSet::``vftable'` | 1305 | Exported Function
+`IsRunning` | 2660 | Exported Function
+`private: __cdecl UnBCL::ArrayList<unsigned short>::ArrayList<unsigned short>(class UnBCL::ArrayList<unsigned short> const & __ptr64) __ptr64` | 21 | Exported Function
+`private: __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::ArrayList<class UnBCL::String * __ptr64>(class UnBCL::ArrayList<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 25 | Exported Function
+`private: int __cdecl UnBCL::DateTime::GetDatePart(enum UnBCL::DateTime::DatePart)const __ptr64` | 1794 | Exported Function
+`private: int __cdecl UnBCL::ArrayList<unsigned short>::BinarySearch(int,int,unsigned short,struct UnBCL::IComparer<unsigned short> * __ptr64) __ptr64` | 1518 | Exported Function
+`private: int __cdecl UnBCL::RegHandle::GetStringInternal(unsigned short const * __ptr64,class UnBCL::String * __ptr64 & __ptr64,unsigned long,unsigned long,unsigned long) __ptr64` | 1862 | Exported Function
+`private: int __cdecl UnBCL::SerializationStream::WriteObjectHeader(class UnBCL::Object const * __ptr64) __ptr64` | 2338 | Exported Function
+`private: int __cdecl UnBCL::SerializationStream::ReadObjectHeader(class UnBCL::Object * __ptr64 & __ptr64) __ptr64` | 2098 | Exported Function
+`private: __int64 __cdecl UnBCL::DateTime::TimeToTicks(int,int,int) __ptr64` | 2274 | Exported Function
+`private: __int64 __cdecl UnBCL::DateTime::DateToTicks(int,int,int) __ptr64` | 1647 | Exported Function
+`private: bool __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CheckImplicitLoad(void const * __ptr64) __ptr64` | 1527 | Exported Function
+`private: int __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::BinarySearch(int,int,class UnBCL::String * __ptr64,struct UnBCL::IComparer<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 1521 | Exported Function
+`private: class UnBCL::String * __ptr64 __cdecl UnBCL::RegistryKey::FixupName(class UnBCL::String const & __ptr64) __ptr64` | 1724 | Exported Function
+`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::operator class ATL::CSimpleStringT<unsigned short,1> & __ptr64(void) __ptr64` | 973 | Exported Function
+`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(unsigned short const * __ptr64,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 33 | Exported Function
+`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::operator unsigned short const * __ptr64(void)const __ptr64` | 974 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char const * __ptr64) __ptr64` | 40 | Exported Function
+`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::~CSimpleStringT<unsigned short,0>(void) __ptr64` | 520 | Exported Function
+`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(class ATL::CSimpleStringT<unsigned short,0> const & __ptr64) __ptr64` | 29 | Exported Function
+`protected: void __cdecl UnBCL::XmlLite::XmlNodeList::Add(class UnBCL::XmlLite::XmlNode * __ptr64) __ptr64` | 1455 | Exported Function
+`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(class ATL::CSimpleStringT<unsigned short,1> const & __ptr64) __ptr64` | 30 | Exported Function
+`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(unsigned short const * __ptr64,int,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 32 | Exported Function
+`public: __cdecl ATL::CSimpleStringT<unsigned short,0>::CSimpleStringT<unsigned short,0>(struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 31 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(struct tagVARIANT const & __ptr64) __ptr64` | 34 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 39 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(struct tagVARIANT const & __ptr64,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 35 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned char const * __ptr64,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 45 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned char const * __ptr64) __ptr64` | 44 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char const * __ptr64,int,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 42 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char const * __ptr64,int) __ptr64` | 41 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char const * __ptr64,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 43 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > const & __ptr64) __ptr64` | 36 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(char,int) __ptr64` | 37 | Exported Function
+`protected: void __cdecl UnBCL::XmlLite::XmlNode::set_ParentNode(class UnBCL::XmlLite::XmlNode * __ptr64) __ptr64` | 2652 | Exported Function
+`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::RegisterVersion(int)const __ptr64` | 2113 | Exported Function
+`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::RegisterVersion(int)const __ptr64` | 2115 | Exported Function
+`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::RegisterVersion(int)const __ptr64` | 2116 | Exported Function
+`protected: virtual void __cdecl UnBCL::XmlException::set_LinePosition(int) __ptr64` | 2650 | Exported Function
+`protected: virtual void __cdecl UnBCL::XmlException::set_LineNumber(int) __ptr64` | 2649 | Exported Function
+`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::RegisterVersion(int)const __ptr64` | 2111 | Exported Function
+`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::RegisterVersion(int)const __ptr64` | 2107 | Exported Function
+`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::RegisterVersion(int)const __ptr64` | 2110 | Exported Function
+`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::RegisterVersion(int)const __ptr64` | 2114 | Exported Function
+`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::RegisterVersion(int)const __ptr64` | 2112 | Exported Function
+`protected: void __cdecl UnBCL::SyncObject::EnterSection(void) __ptr64` | 1699 | Exported Function
+`protected: void __cdecl UnBCL::StringBuilder::EscapeXMLAndAdd(unsigned short const * __ptr64) __ptr64` | 1715 | Exported Function
+`protected: void __cdecl UnBCL::SyncObject::LeaveSection(void) __ptr64` | 2008 | Exported Function
+`protected: void __cdecl UnBCL::XmlLite::XmlDocument::Parse(struct IStream * __ptr64) __ptr64` | 2068 | Exported Function
+`protected: void __cdecl UnBCL::XmlLite::XmlAttributeCollection::Add(class UnBCL::XmlLite::XmlAttribute * __ptr64) __ptr64` | 1454 | Exported Function
+`protected: void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::KeyDestroy(class UnBCL::String * __ptr64)const __ptr64` | 1993 | Exported Function
+`protected: void __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vbase destructor'(void) __ptr64` | 1412 | Exported Function
+`protected: void __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::ValueDestroy(class UnBCL::String * __ptr64)const __ptr64` | 2318 | Exported Function
+`protected: void __cdecl UnBCL::StreamWriter::Close(int) __ptr64` | 1566 | Exported Function
+`protected: void __cdecl UnBCL::SerializationStream::WriteObject(struct UnBCL::ISerializable const * __ptr64) __ptr64` | 2337 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short const * __ptr64) __ptr64` | 46 | Exported Function
+`public: __cdecl UnBCL::AbandonedMutexException::AbandonedMutexException(unsigned short const * __ptr64) __ptr64` | 185 | Exported Function
+`public: __cdecl UnBCL::AbandonedMutexException::AbandonedMutexException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 187 | Exported Function
+`public: __cdecl UnBCL::AbandonedMutexException::AbandonedMutexException(void) __ptr64` | 188 | Exported Function
+`public: __cdecl UnBCL::ApplicationException::ApplicationException(class UnBCL::ApplicationException const & __ptr64) __ptr64` | 190 | Exported Function
+`public: __cdecl UnBCL::ApplicationException::ApplicationException(class UnBCL::ApplicationException && __ptr64) __ptr64` | 189 | Exported Function
+`public: __cdecl UnBCL::_::SerializableStackBase<int>::SerializableStackBase<int>(void) __ptr64` | 139 | Exported Function
+`public: __cdecl UnBCL::_::SerializableStackBase<int>::SerializableStackBase<int>(class UnBCL::_::SerializableStackBase<int> const & __ptr64) __ptr64` | 138 | Exported Function
+`public: __cdecl UnBCL::AbandonedMutexException::AbandonedMutexException(class UnBCL::AbandonedMutexException && __ptr64) __ptr64` | 183 | Exported Function
+`public: __cdecl UnBCL::AbandonedMutexException::AbandonedMutexException(class UnBCL::String const * __ptr64) __ptr64` | 186 | Exported Function
+`public: __cdecl UnBCL::AbandonedMutexException::AbandonedMutexException(class UnBCL::AbandonedMutexException const & __ptr64) __ptr64` | 184 | Exported Function
+`public: __cdecl UnBCL::ArgumentException::ArgumentException(class UnBCL::String const * __ptr64) __ptr64` | 198 | Exported Function
+`public: __cdecl UnBCL::ArgumentException::ArgumentException(class UnBCL::ArgumentException const & __ptr64) __ptr64` | 196 | Exported Function
+`public: __cdecl UnBCL::ArgumentException::ArgumentException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 199 | Exported Function
+`public: __cdecl UnBCL::ArgumentException::ArgumentException(void) __ptr64` | 200 | Exported Function
+`public: __cdecl UnBCL::ArgumentException::ArgumentException(unsigned short const * __ptr64) __ptr64` | 197 | Exported Function
+`public: __cdecl UnBCL::ApplicationException::ApplicationException(class UnBCL::String * __ptr64) __ptr64` | 192 | Exported Function
+`public: __cdecl UnBCL::ApplicationException::ApplicationException(class UnBCL::Exception * __ptr64,unsigned short const * __ptr64) __ptr64` | 191 | Exported Function
+`public: __cdecl UnBCL::ApplicationException::ApplicationException(unsigned short const * __ptr64) __ptr64` | 193 | Exported Function
+`public: __cdecl UnBCL::ArgumentException::ArgumentException(class UnBCL::ArgumentException && __ptr64) __ptr64` | 195 | Exported Function
+`public: __cdecl UnBCL::ApplicationException::ApplicationException(void) __ptr64` | 194 | Exported Function
+`public: __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(void) __ptr64` | 137 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::~CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(void) __ptr64` | 521 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator class ATL::CSimpleStringT<unsigned short,1> & __ptr64(void) __ptr64` | 975 | Exported Function
+`public: __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::SerializableArrayBase<class UnBCL::String * __ptr64>(class UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 108 | Exported Function
+`public: __cdecl UnBCL::_::SerializableArrayBase<int>::SerializableArrayBase<int>(class UnBCL::_::SerializableArrayBase<int> const & __ptr64) __ptr64` | 106 | Exported Function
+`public: __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::SerializableArrayBase<class UnBCL::String * __ptr64>(void) __ptr64` | 109 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short const * __ptr64,int,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 48 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short const * __ptr64,int) __ptr64` | 47 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short const * __ptr64,struct ATL::IAtlStringMgr * __ptr64) __ptr64` | 49 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(void) __ptr64` | 50 | Exported Function
+`public: __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >(unsigned short,int) __ptr64` | 38 | Exported Function
+`public: __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::SerializableArrayListBase<class UnBCL::String * __ptr64>(void) __ptr64` | 111 | Exported Function
+`public: __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::SerializableArrayListBase<class UnBCL::String * __ptr64>(class UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 110 | Exported Function
+`public: __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::SerializableArrayListPrimitiveBase<unsigned short>(class UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short> const & __ptr64) __ptr64` | 112 | Exported Function
+`public: __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(class UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 136 | Exported Function
+`public: __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::SerializableArrayListPrimitiveBase<unsigned short>(void) __ptr64` | 113 | Exported Function
+`public: __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::SerializableArrayBase<unsigned char>(class UnBCL::_::SerializableArrayBase<unsigned char> const & __ptr64) __ptr64` | 102 | Exported Function
+`public: __cdecl UnBCL::_::SerializableArrayBase<int>::SerializableArrayBase<int>(void) __ptr64` | 107 | Exported Function
+`public: __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::SerializableArrayBase<unsigned char>(void) __ptr64` | 103 | Exported Function
+`public: __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::SerializableArrayBase<unsigned short>(void) __ptr64` | 105 | Exported Function
+`public: __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::SerializableArrayBase<unsigned short>(class UnBCL::_::SerializableArrayBase<unsigned short> const & __ptr64) __ptr64` | 104 | Exported Function
+`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >(void) __ptr64` | 126 | Exported Function
+`protected: __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >(void) __ptr64` | 122 | Exported Function
+`protected: __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >(void) __ptr64` | 130 | Exported Function
+`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >(void) __ptr64` | 128 | Exported Function
+`protected: __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >(void) __ptr64` | 132 | Exported Function
+`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >(void) __ptr64` | 118 | Exported Function
+`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >(void) __ptr64` | 120 | Exported Function
+`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >(void) __ptr64` | 114 | Exported Function
+`protected: __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >(void) __ptr64` | 124 | Exported Function
+`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >(void) __ptr64` | 116 | Exported Function
+`protected: __cdecl UnBCL::XmlNode::XmlNode(struct IXMLDOMNode * __ptr64) __ptr64` | 501 | Exported Function
+`protected: __cdecl UnBCL::XmlAttributeCollection::XmlAttributeCollection(void) __ptr64` | 486 | Exported Function
+`protected: __cdecl UnBCL::XmlNode::XmlNode(void) __ptr64` | 502 | Exported Function
+`protected: int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::EqualsFunction(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64)const __ptr64` | 1714 | Exported Function
+`protected: __cdecl UnBCL::XmlNodeList::XmlNodeList(void) __ptr64` | 506 | Exported Function
+`protected: __cdecl UnBCL::TextWriter::TextWriter(void) __ptr64` | 437 | Exported Function
+`protected: __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >(void) __ptr64` | 134 | Exported Function
+`protected: __cdecl UnBCL::Type::Type(class UnBCL::String * __ptr64) __ptr64` | 454 | Exported Function
+`protected: __cdecl UnBCL::XmlAttribute::XmlAttribute(void) __ptr64` | 479 | Exported Function
+`protected: __cdecl UnBCL::WaitHandle::WaitHandle(void) __ptr64` | 465 | Exported Function
+`protected: __cdecl UnBCL::Process::Process(void * __ptr64,void * __ptr64) __ptr64` | 360 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Version>::DeAssign(void) __ptr64` | 1658 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Version>::Assign(class UnBCL::Version * __ptr64) __ptr64` | 1509 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::Assign(class UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager> const & __ptr64) __ptr64` | 1510 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::DeAssign(void) __ptr64` | 1659 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::Assign(class UnBCL::XmlNamespaceManager * __ptr64) __ptr64` | 1511 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::String>::Assign(class UnBCL::SmartPtr<class UnBCL::String> const & __ptr64) __ptr64` | 1506 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::DeAssign(void) __ptr64` | 1656 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::String>::Assign(class UnBCL::String * __ptr64) __ptr64` | 1507 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::Version>::Assign(class UnBCL::SmartPtr<class UnBCL::Version> const & __ptr64) __ptr64` | 1508 | Exported Function
+`private: void __cdecl UnBCL::SmartPtr<class UnBCL::String>::DeAssign(void) __ptr64` | 1657 | Exported Function
+`protected: __cdecl UnBCL::Array<unsigned short>::Array<unsigned short>(void) __ptr64` | 5 | Exported Function
+`protected: __cdecl UnBCL::Array<unsigned char>::Array<unsigned char>(void) __ptr64` | 1 | Exported Function
+`protected: __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::CollectionBase<class UnBCL::Object * __ptr64>(void) __ptr64` | 51 | Exported Function
+`protected: __cdecl UnBCL::Encoding::Encoding(int) __ptr64` | 243 | Exported Function
+`protected: __cdecl UnBCL::DateTime::DateTime(__int64,int) __ptr64` | 230 | Exported Function
+`private: void __cdecl UnBCL::XmlNode::RegisterNamespaces(class UnBCL::XmlNamespaceManager * __ptr64) __ptr64` | 2103 | Exported Function
+`private: void __cdecl UnBCL::WaitHandle::Dispose(int) __ptr64` | 1684 | Exported Function
+`protected: __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Array<class UnBCL::Object * __ptr64>(void) __ptr64` | 13 | Exported Function
+`protected: __cdecl UnBCL::Array<int>::Array<int>(void) __ptr64` | 9 | Exported Function
+`protected: __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Array<class UnBCL::String * __ptr64>(void) __ptr64` | 17 | Exported Function
+`protected: int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::HashFunction(class UnBCL::String * __ptr64)const __ptr64` | 1907 | Exported Function
+`protected: virtual class UnBCL::ArrayList<int> * __ptr64 __cdecl UnBCL::Array<int>::InnerList(void)const __ptr64` | 1946 | Exported Function
+`protected: virtual class UnBCL::ArrayList<int> * __ptr64 & __ptr64 __cdecl UnBCL::Stack<int>::InnerList(void) __ptr64` | 1949 | Exported Function
+`protected: virtual class UnBCL::ArrayList<int> * __ptr64 const & __ptr64 __cdecl UnBCL::Stack<int>::InnerList(void)const __ptr64` | 1950 | Exported Function
+`protected: virtual class UnBCL::ArrayList<unsigned short> * __ptr64 __cdecl UnBCL::Array<unsigned short>::InnerList(void)const __ptr64` | 1945 | Exported Function
+`protected: virtual class UnBCL::ArrayList<unsigned char> * __ptr64 __cdecl UnBCL::Array<unsigned char>::InnerList(void)const __ptr64` | 1944 | Exported Function
+`protected: virtual class UnBCL::ArrayList<class UnBCL::Object * __ptr64> * __ptr64 __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_InnerList(void) __ptr64` | 2440 | Exported Function
+`protected: virtual class UnBCL::ArrayList<class UnBCL::Object * __ptr64> * __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::InnerList(void)const __ptr64` | 1947 | Exported Function
+`protected: virtual class UnBCL::ArrayList<class UnBCL::Object * __ptr64> * __ptr64 const & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::InnerList(void)const __ptr64` | 1952 | Exported Function
+`protected: virtual class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::InnerList(void)const __ptr64` | 1948 | Exported Function
+`protected: virtual class UnBCL::ArrayList<class UnBCL::Object * __ptr64> const * __ptr64 __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::get_InnerList(void)const __ptr64` | 2441 | Exported Function
+`protected: virtual void __cdecl UnBCL::Exception::SetMessage(class UnBCL::String * __ptr64) __ptr64` | 2185 | Exported Function
+`protected: virtual void __cdecl UnBCL::Exception::set_HResult(long) __ptr64` | 2636 | Exported Function
+`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::RegisterVersion(int)const __ptr64` | 2109 | Exported Function
+`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::RegisterVersion(int)const __ptr64` | 2106 | Exported Function
+`protected: virtual void __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::RegisterVersion(int)const __ptr64` | 2108 | Exported Function
+`protected: virtual void __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::InitLarva(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 1941 | Exported Function
+`protected: virtual void __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::InitLarva(class UnBCL::ArrayList<class UnBCL::Object * __ptr64> * __ptr64) __ptr64` | 1940 | Exported Function
+`protected: virtual void __cdecl UnBCL::Array<int>::InitLarva(class UnBCL::ArrayList<int> * __ptr64) __ptr64` | 1939 | Exported Function
+`protected: virtual void __cdecl UnBCL::Array<unsigned short>::InitLarva(class UnBCL::ArrayList<unsigned short> * __ptr64) __ptr64` | 1938 | Exported Function
+`protected: virtual void __cdecl UnBCL::Array<unsigned char>::InitLarva(class UnBCL::ArrayList<unsigned char> * __ptr64) __ptr64` | 1937 | Exported Function
+`protected: virtual class UnBCL::ArrayList<class UnBCL::Object * __ptr64> * __ptr64 & __ptr64 __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::InnerList(void) __ptr64` | 1951 | Exported Function
+`protected: static class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::RetrieveEntry(class ATL::CAtlMap<struct UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::TableKey,class UnBCL::String * __ptr64,struct UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::KeyTraits,class ATL::CElementTraits<class UnBCL::String * __ptr64> > const * __ptr64,struct __POSITION * __ptr64 const & __ptr64)` | 2155 | Exported Function
+`protected: static __int64 const UnBCL::DateTime::TICKS_PER_S` | 2269 | Exported Function
+`protected: static class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> * __ptr64 __ptr64 UnBCL::String::s_InternPool` | 2601 | Exported Function
+`protected: static class UnBCL::RegistryKey * __ptr64 __cdecl UnBCL::RegistryKey::GetBaseKey(struct HKEY__ * __ptr64)` | 1758 | Exported Function
+`protected: static class UnBCL::Object UnBCL::String::s_PoolLock` | 2605 | Exported Function
+`protected: static __int64 const UnBCL::DateTime::TICKS_PER_D` | 2265 | Exported Function
+`protected: int __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::ValueEquals(class UnBCL::String * __ptr64,class UnBCL::String * __ptr64)const __ptr64` | 2319 | Exported Function
+`protected: static __int64 const UnBCL::DateTime::TICKS_PER_H` | 2266 | Exported Function
+`protected: static __int64 const UnBCL::DateTime::TICKS_PER_MS` | 2268 | Exported Function
+`protected: static __int64 const UnBCL::DateTime::TICKS_PER_M` | 2267 | Exported Function
+`protected: static void __cdecl UnBCL::Path::CheckPathTooLong(class UnBCL::String const * __ptr64)` | 1529 | Exported Function
+`protected: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::ThrowMemoryException(void)` | 2273 | Exported Function
+`protected: static void __cdecl UnBCL::String::InitInternPool(void)` | 1936 | Exported Function
+`protected: virtual __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::~CollectionBase<class UnBCL::Object * __ptr64>(void) __ptr64` | 522 | Exported Function
+`protected: struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::SerializationStream::ReadObject(void) __ptr64` | 2097 | Exported Function
+`protected: static class UnBCL::String * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::RetrieveValue(class ATL::CAtlMap<struct UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::TableKey,class UnBCL::String * __ptr64,struct UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::KeyTraits,class ATL::CElementTraits<class UnBCL::String * __ptr64> > const * __ptr64,struct __POSITION * __ptr64 const & __ptr64)` | 2157 | Exported Function
+`protected: static class UnBCL::String * __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::RetrieveKey(class ATL::CAtlMap<struct UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::TableKey,class UnBCL::String * __ptr64,struct UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::KeyTraits,class ATL::CElementTraits<class UnBCL::String * __ptr64> > const * __ptr64,struct __POSITION * __ptr64 const & __ptr64)` | 2156 | Exported Function
+`protected: static int __cdecl UnBCL::Path::GetRootLength(class UnBCL::String const * __ptr64)` | 1856 | Exported Function
+`protected: static void __cdecl ATL::CSimpleStringT<unsigned short,0>::Concatenate(class ATL::CSimpleStringT<unsigned short,0> & __ptr64,unsigned short const * __ptr64,int,unsigned short const * __ptr64,int)` | 1592 | Exported Function
+`protected: static int __cdecl UnBCL::SerializationStream::IsLittleEndian(void)` | 1985 | Exported Function
+`const UnBCL::StringPtr::``vftable'{for ``UnBCL::StringPtr'}` | 1268 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbtable'` | 1343 | Exported Function
+`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >'}` | 1041 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>'}` | 1341 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::IList<class UnBCL::String * __ptr64>'}` | 1340 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::String * __ptr64>'}` | 1339 | Exported Function
+`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::IEnumerable<unsigned short>'}` | 1038 | Exported Function
+`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::ICollection<unsigned short>'}` | 1037 | Exported Function
+`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::IList<unsigned short>'}` | 1039 | Exported Function
+`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::Object'}` | 1043 | Exported Function
+`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::ISerializable'}` | 1042 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 1077 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IList<class UnBCL::String * __ptr64>'}` | 1075 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1078 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vbtable'` | 1337 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1076 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1342 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::ISerializable'}` | 1344 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ArrayList<class UnBCL::String * __ptr64>'}` | 1072 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::String * __ptr64>'}` | 1074 | Exported Function
+`const UnBCL::ArrayList<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::String * __ptr64>'}` | 1073 | Exported Function
+`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::Array<unsigned short>'}` | 1036 | Exported Function
+`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::Array<unsigned char>'}` | 1028 | Exported Function
+`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::_::SerializableArrayBase<unsigned char>'}` | 1032 | Exported Function
+`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::ICollection<unsigned char>'}` | 1029 | Exported Function
+`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::IList<unsigned char>'}` | 1031 | Exported Function
+`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::IEnumerable<unsigned char>'}` | 1030 | Exported Function
+`const UnBCL::Array<unsigned char>::``vbtable'{for ``UnBCL::ICollection<unsigned char>'}` | 1306 | Exported Function
+`const UnBCL::Array<unsigned char>::``vbtable'{for ``UnBCL::_::SerializableArrayBase<unsigned char>'}` | 1308 | Exported Function
+`const UnBCL::Array<unsigned char>::``vbtable'{for ``UnBCL::IList<unsigned char>'}` | 1307 | Exported Function
+`const UnBCL::Array<unsigned char>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >'}` | 1309 | Exported Function
+`const UnBCL::Array<unsigned char>::``vbtable'{for ``UnBCL::ISerializable'}` | 1311 | Exported Function
+`const UnBCL::Array<unsigned short>::``vbtable'{for ``UnBCL::IList<unsigned short>'}` | 1313 | Exported Function
+`const UnBCL::Array<unsigned short>::``vbtable'{for ``UnBCL::ICollection<unsigned short>'}` | 1312 | Exported Function
+`const UnBCL::Array<unsigned short>::``vbtable'{for ``UnBCL::ISerializable'}` | 1317 | Exported Function
+`const UnBCL::Array<unsigned short>::``vftable'{for ``UnBCL::_::SerializableArrayBase<unsigned short>'}` | 1040 | Exported Function
+`const UnBCL::Array<unsigned short>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >'}` | 1315 | Exported Function
+`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::Object'}` | 1035 | Exported Function
+`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::ISerializable'}` | 1034 | Exported Function
+`const UnBCL::Array<unsigned char>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >'}` | 1033 | Exported Function
+`const UnBCL::Array<unsigned short>::``vbtable'{for ``UnBCL::_::SerializableArrayBase<unsigned short>'}` | 1314 | Exported Function
+`const UnBCL::Array<unsigned short>::``vbtable'` | 1316 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vbtable'{for ``UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>'}` | 1335 | Exported Function
+`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::CollectionBase<class UnBCL::Object * __ptr64>'}` | 1079 | Exported Function
+`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vbtable'{for ``UnBCL::IList<class UnBCL::Object * __ptr64>'}` | 1346 | Exported Function
+`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::Object * __ptr64>'}` | 1080 | Exported Function
+`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::IList<class UnBCL::Object * __ptr64>'}` | 1082 | Exported Function
+`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::Object * __ptr64>'}` | 1081 | Exported Function
+`const UnBCL::CaseInsensitiveStringComparer::``vftable'{for ``UnBCL::Object'}` | 1199 | Exported Function
+`const UnBCL::CaseInsensitiveStringComparer::``vftable'{for ``UnBCL::IComparer<class UnBCL::String * __ptr64>'}` | 1198 | Exported Function
+`const UnBCL::Char::``vftable'` | 1200 | Exported Function
+`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::Object * __ptr64>'}` | 1345 | Exported Function
+`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vbtable'` | 1347 | Exported Function
+`const UnBCL::Delegate::``vftable'` | 1205 | Exported Function
+`const UnBCL::Delegate::``vbtable'` | 1366 | Exported Function
+`const UnBCL::DirectoryInfo::``vftable'` | 1206 | Exported Function
+`const UnBCL::Encoding::``vftable'{for ``UnBCL::Object'}` | 1208 | Exported Function
+`const UnBCL::Encoding::``vftable'{for ``UnBCL::Encoding'}` | 1207 | Exported Function
+`const UnBCL::ConsoleLogHandler::``vftable'` | 1201 | Exported Function
+`const UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1083 | Exported Function
+`const UnBCL::DateTime::``vftable'` | 1202 | Exported Function
+`const UnBCL::Decoder::``vftable'{for ``UnBCL::Object'}` | 1204 | Exported Function
+`const UnBCL::Decoder::``vftable'{for ``UnBCL::Decoder'}` | 1203 | Exported Function
+`const UnBCL::CaseInsensitiveStringComparer::``vbtable'` | 1365 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::IEnumerable<unsigned short>'}` | 1067 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::ICollection<unsigned short>'}` | 1066 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::IList<unsigned short>'}` | 1068 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::Object'}` | 1071 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::ISerializable'}` | 1070 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vbtable'{for ``UnBCL::IList<unsigned short>'}` | 1334 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vbtable'{for ``UnBCL::ICollection<unsigned short>'}` | 1333 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vbtable'{for ``UnBCL::ISerializable'}` | 1338 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::ArrayList<unsigned short>'}` | 1065 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >'}` | 1336 | Exported Function
+`const UnBCL::BufferedStream::``vbtable'{for ``UnBCL::Stream'}` | 1364 | Exported Function
+`const UnBCL::BufferedStream::``vbtable'{for ``UnBCL::IDisposable'}` | 1363 | Exported Function
+`const UnBCL::BufferedStream::``vftable'{for ``UnBCL::IDisposable'}` | 1195 | Exported Function
+`const UnBCL::BufferedStream::``vftable'{for ``UnBCL::Stream'}` | 1197 | Exported Function
+`const UnBCL::BufferedStream::``vftable'{for ``UnBCL::Object'}` | 1196 | Exported Function
+`const UnBCL::ASCIIEncoding::``vbtable'{for ``UnBCL::ASCIIEncoding'}` | 1361 | Exported Function
+`const UnBCL::ArrayList<unsigned short>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >'}` | 1069 | Exported Function
+`const UnBCL::ASCIIEncoding::``vbtable'{for ``UnBCL::Encoding'}` | 1362 | Exported Function
+`const UnBCL::ASCIIEncoding::``vftable'{for ``UnBCL::Object'}` | 1188 | Exported Function
+`const UnBCL::ASCIIEncoding::``vftable'{for ``UnBCL::Encoding'}` | 1187 | Exported Function
+`const UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >'}` | 1116 | Exported Function
+`const UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::``vftable'{for ``UnBCL::Object'}` | 1118 | Exported Function
+`const UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'` | 1155 | Exported Function
+`const UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >'}` | 1153 | Exported Function
+`const UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >'}` | 1152 | Exported Function
+`const UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::``vftable'{for ``UnBCL::ICollection<unsigned short>'}` | 1113 | Exported Function
+`const UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1110 | Exported Function
+`const UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::``vftable'{for ``UnBCL::IEnumerable<unsigned short>'}` | 1114 | Exported Function
+`const UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::``vftable'{for ``UnBCL::ISerializable'}` | 1117 | Exported Function
+`const UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::``vftable'{for ``UnBCL::IList<unsigned short>'}` | 1115 | Exported Function
+`const UnBCL::_::SerializableStackBase<int>::``vftable'{for ``UnBCL::ISerializable'}` | 1162 | Exported Function
+`const UnBCL::_::SerializableStackBase<int>::``vftable'{for ``UnBCL::IEnumerable<int>'}` | 1159 | Exported Function
+`const UnBCL::_::SerializableStackBase<int>::``vftable'{for ``UnBCL::Object'}` | 1163 | Exported Function
+`const UnBCL::AbandonedMutexException::``vftable'` | 1189 | Exported Function
+`const UnBCL::_::SerializableStackBase<int>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >'}` | 1160 | Exported Function
+`const UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1157 | Exported Function
+`const UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 1156 | Exported Function
+`const UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1154 | Exported Function
+`const UnBCL::_::SerializableStackBase<int>::``vftable'{for ``UnBCL::ICollection<int>'}` | 1158 | Exported Function
+`const UnBCL::_::SerializableStackBase<int>::``vftable'` | 1161 | Exported Function
+`const UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1112 | Exported Function
+`const UnBCL::_::SerializableArrayBase<int>::``vftable'{for ``UnBCL::Object'}` | 1102 | Exported Function
+`const UnBCL::_::SerializableArrayBase<int>::``vftable'{for ``UnBCL::ISerializable'}` | 1101 | Exported Function
+`const UnBCL::_::SerializableArrayBase<int>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >'}` | 1099 | Exported Function
+`const UnBCL::_::SerializableArrayBase<unsigned char>::``vftable'{for ``UnBCL::ISerializable'}` | 1093 | Exported Function
+`const UnBCL::_::SerializableArrayBase<unsigned char>::``vftable'` | 1092 | Exported Function
+`const UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 1105 | Exported Function
+`const UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::``vftable'` | 1104 | Exported Function
+`const UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1106 | Exported Function
+`const UnBCL::_::SerializableArrayBase<int>::``vftable'` | 1100 | Exported Function
+`const UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >'}` | 1103 | Exported Function
+`const UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::String * __ptr64>'}` | 1107 | Exported Function
+`const UnBCL::_::SerializableArrayBase<unsigned short>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >'}` | 1095 | Exported Function
+`const UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::String * __ptr64>'}` | 1108 | Exported Function
+`const UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 1111 | Exported Function
+`const UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IList<class UnBCL::String * __ptr64>'}` | 1109 | Exported Function
+`const UnBCL::_::SerializableArrayBase<unsigned char>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >'}` | 1091 | Exported Function
+`const UnBCL::_::SerializableArrayBase<unsigned char>::``vftable'{for ``UnBCL::Object'}` | 1094 | Exported Function
+`const UnBCL::_::SerializableArrayBase<unsigned short>::``vftable'` | 1096 | Exported Function
+`const UnBCL::_::SerializableArrayBase<unsigned short>::``vftable'{for ``UnBCL::Object'}` | 1098 | Exported Function
+`const UnBCL::_::SerializableArrayBase<unsigned short>::``vftable'{for ``UnBCL::ISerializable'}` | 1097 | Exported Function
+`const UnBCL::ApplicationException::``vftable'` | 1190 | Exported Function
+`const UnBCL::Array<int>::``vbtable'{for ``UnBCL::_::SerializableArrayBase<int>'}` | 1320 | Exported Function
+`const UnBCL::Array<int>::``vbtable'` | 1322 | Exported Function
+`const UnBCL::Array<int>::``vbtable'{for ``UnBCL::ICollection<int>'}` | 1318 | Exported Function
+`const UnBCL::Array<int>::``vbtable'{for ``UnBCL::ISerializable'}` | 1323 | Exported Function
+`const UnBCL::Array<int>::``vbtable'{for ``UnBCL::IList<int>'}` | 1319 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IList<class UnBCL::String * __ptr64>'}` | 1060 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::String * __ptr64>'}` | 1059 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 1063 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >'}` | 1062 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1064 | Exported Function
+`const UnBCL::Array<int>::``vftable'{for ``UnBCL::ISerializable'}` | 1050 | Exported Function
+`const UnBCL::Array<int>::``vftable'{for ``UnBCL::IList<int>'}` | 1047 | Exported Function
+`const UnBCL::Array<int>::``vftable'{for ``UnBCL::Object'}` | 1051 | Exported Function
+`const UnBCL::Array<unsigned char>::``vbtable'` | 1310 | Exported Function
+`const UnBCL::Array<int>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >'}` | 1049 | Exported Function
+`const UnBCL::Array<int>::``vftable'{for ``UnBCL::_::SerializableArrayBase<int>'}` | 1048 | Exported Function
+`const UnBCL::Array<int>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >'}` | 1321 | Exported Function
+`const UnBCL::Array<int>::``vftable'{for ``UnBCL::Array<int>'}` | 1044 | Exported Function
+`const UnBCL::Array<int>::``vftable'{for ``UnBCL::IEnumerable<int>'}` | 1046 | Exported Function
+`const UnBCL::Array<int>::``vftable'{for ``UnBCL::ICollection<int>'}` | 1045 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::String * __ptr64>'}` | 1058 | Exported Function
+`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vbtable'{for ``UnBCL::IList<class UnBCL::Object * __ptr64>'}` | 1325 | Exported Function
+`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::Object * __ptr64>'}` | 1324 | Exported Function
+`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::Array<class UnBCL::Object * __ptr64>'}` | 1052 | Exported Function
+`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::Object * __ptr64>'}` | 1054 | Exported Function
+`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::Object * __ptr64>'}` | 1053 | Exported Function
+`const UnBCL::ArgumentNullException::``vftable'` | 1192 | Exported Function
+`const UnBCL::ArgumentException::``vftable'` | 1191 | Exported Function
+`const UnBCL::ArgumentOutOfRangeException::``vftable'` | 1193 | Exported Function
+`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vbtable'` | 1326 | Exported Function
+`const UnBCL::ArithmeticException::``vftable'` | 1194 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::ISerializable'}` | 1332 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::IList<class UnBCL::String * __ptr64>'}` | 1328 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >'}` | 1330 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Array<class UnBCL::String * __ptr64>'}` | 1057 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>'}` | 1061 | Exported Function
+`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1056 | Exported Function
+`const UnBCL::Array<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::IList<class UnBCL::Object * __ptr64>'}` | 1055 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vbtable'` | 1331 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::String * __ptr64>'}` | 1327 | Exported Function
+`const UnBCL::Array<class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>'}` | 1329 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >'}` | 1140 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::Object'}` | 1142 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1150 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >'}` | 1149 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::``vftable'{for ``UnBCL::Object'}` | 1151 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::``vftable'{for ``UnBCL::ISerializable'}` | 1147 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >'}` | 1143 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::``vftable'{for ``UnBCL::Object'}` | 1148 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1141 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >'}` | 1146 | Exported Function
+`const UnBCL::SmartPtr<class UnBCL::Decoder>::``vftable'` | 1167 | Exported Function
+`const UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::``vftable'` | 1166 | Exported Function
+`const UnBCL::SmartPtr<class UnBCL::Encoding>::``vftable'` | 1168 | Exported Function
+`const UnBCL::SmartPtr<class UnBCL::SerializationId>::``vftable'` | 1170 | Exported Function
+`const UnBCL::SmartPtr<class UnBCL::Object>::``vftable'` | 1169 | Exported Function
+`const UnBCL::SerializationId::``vftable'` | 1255 | Exported Function
+`const UnBCL::SerializationException::``vftable'` | 1254 | Exported Function
+`const UnBCL::SerializationStream::``vftable'` | 1256 | Exported Function
+`const UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::``vftable'` | 1164 | Exported Function
+`const UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::``vftable'` | 1165 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::``vftable'{for ``UnBCL::Object'}` | 1145 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >'}` | 1119 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::Object'}` | 1121 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1123 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >'}` | 1122 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::Object'}` | 1124 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1126 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >'}` | 1128 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::Object'}` | 1127 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1120 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >'}` | 1125 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1138 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >'}` | 1131 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::Object'}` | 1139 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::``vftable'{for ``UnBCL::ISerializable'}` | 1144 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1137 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::Object'}` | 1136 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1135 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1134 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::Object'}` | 1133 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1132 | Exported Function
+`const UnBCL::SmartPtr<class UnBCL::SerializationStream>::``vftable'` | 1171 | Exported Function
+`const UnBCL::StreamReader::``vbtable'{for ``UnBCL::TextReader'}` | 1392 | Exported Function
+`const UnBCL::StreamReader::``vbtable'{for ``UnBCL::IDisposable'}` | 1391 | Exported Function
+`const UnBCL::StreamReader::``vftable'` | 1260 | Exported Function
+`const UnBCL::StreamReader::``vftable'{for ``UnBCL::Object'}` | 1262 | Exported Function
+`const UnBCL::StreamReader::``vftable'{for ``UnBCL::IDisposable'}` | 1261 | Exported Function
+`const UnBCL::Stream::``vftable'{for ``UnBCL::IDisposable'}` | 1258 | Exported Function
+`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::Stack<int>'}` | 1176 | Exported Function
+`const UnBCL::Stream::``vftable'{for ``UnBCL::Object'}` | 1259 | Exported Function
+`const UnBCL::StreamReader::``vbtable'` | 1390 | Exported Function
+`const UnBCL::Stream::``vftable'{for ``UnBCL::Stream'}` | 1257 | Exported Function
+`const UnBCL::String::``vftable'` | 1266 | Exported Function
+`const UnBCL::StreamWriter::``vftable'{for ``UnBCL::Object'}` | 1265 | Exported Function
+`const UnBCL::StringBuilder::``vftable'` | 1267 | Exported Function
+`const UnBCL::StringPtr::``vftable'{for ``UnBCL::SmartPtr<class UnBCL::String>'}` | 1269 | Exported Function
+`const UnBCL::StringPtr::``vbtable'` | 1396 | Exported Function
+`const UnBCL::StreamWriter::``vbtable'{for ``UnBCL::IDisposable'}` | 1394 | Exported Function
+`const UnBCL::StreamWriter::``vbtable'` | 1393 | Exported Function
+`const UnBCL::StreamWriter::``vbtable'{for ``UnBCL::TextWriter'}` | 1395 | Exported Function
+`const UnBCL::StreamWriter::``vftable'{for ``UnBCL::IDisposable'}` | 1264 | Exported Function
+`const UnBCL::StreamWriter::``vftable'` | 1263 | Exported Function
+`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >'}` | 1179 | Exported Function
+`const UnBCL::Stack<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::Object * __ptr64>'}` | 1184 | Exported Function
+`const UnBCL::Stack<class UnBCL::Object * __ptr64>::``vbtable'{for ``UnBCL::Stack<class UnBCL::Object * __ptr64>'}` | 1359 | Exported Function
+`const UnBCL::Stack<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::Object * __ptr64>'}` | 1185 | Exported Function
+`const UnBCL::Stack<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::Stack<class UnBCL::Object * __ptr64>'}` | 1183 | Exported Function
+`const UnBCL::Stack<class UnBCL::Object * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1186 | Exported Function
+`const UnBCL::SmartPtr<class UnBCL::String>::``vftable'` | 1173 | Exported Function
+`const UnBCL::SmartPtr<class UnBCL::Stream>::``vftable'` | 1172 | Exported Function
+`const UnBCL::SmartPtr<class UnBCL::Version>::``vftable'` | 1174 | Exported Function
+`const UnBCL::Stack<class UnBCL::Object * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::Object * __ptr64>'}` | 1360 | Exported Function
+`const UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::``vftable'` | 1175 | Exported Function
+`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::ICollection<int>'}` | 1177 | Exported Function
+`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::_::SerializableStackBase<int>'}` | 1180 | Exported Function
+`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::IEnumerable<int>'}` | 1178 | Exported Function
+`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::Object'}` | 1182 | Exported Function
+`const UnBCL::Stack<int>::``vftable'{for ``UnBCL::ISerializable'}` | 1181 | Exported Function
+`const UnBCL::Stack<int>::``vbtable'{for ``UnBCL::ICollection<int>'}` | 1355 | Exported Function
+`const UnBCL::Stack<int>::``vbtable'{for ``UnBCL::_::SerializableStackBase<int>'}` | 1357 | Exported Function
+`const UnBCL::Stack<int>::``vbtable'{for ``UnBCL::ISerializable'}` | 1358 | Exported Function
+`const UnBCL::Stack<int>::``vbtable'{for ``UnBCL::Stack<int>'}` | 1354 | Exported Function
+`const UnBCL::Stack<int>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >'}` | 1356 | Exported Function
+`const UnBCL::InvalidOperationException::``vftable'` | 1220 | Exported Function
+`const UnBCL::InvalidCastException::``vftable'` | 1219 | Exported Function
+`const UnBCL::MemoryStream::``vbtable'{for ``UnBCL::IDisposable'}` | 1370 | Exported Function
+`const UnBCL::MemoryStream::``vftable'{for ``UnBCL::IDisposable'}` | 1221 | Exported Function
+`const UnBCL::MemoryStream::``vbtable'{for ``UnBCL::Stream'}` | 1371 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Object'}` | 1090 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ISerializable'}` | 1089 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1088 | Exported Function
+`const UnBCL::IndexOutOfRangeException::``vftable'` | 1218 | Exported Function
+`const UnBCL::HeapMemoryManager::``vftable'` | 1217 | Exported Function
+`const UnBCL::MultiSz::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >'}` | 1373 | Exported Function
+`const UnBCL::MultiSz::``vbtable'{for ``UnBCL::ISerializable'}` | 1375 | Exported Function
+`const UnBCL::MultiSz::``vftable'{for ``UnBCL::IEnumerable<unsigned short const * __ptr64>'}` | 1225 | Exported Function
+`const UnBCL::MultiSz::``vftable'{for ``UnBCL::Object'}` | 1228 | Exported Function
+`const UnBCL::MultiSz::``vftable'{for ``UnBCL::ISerializable'}` | 1227 | Exported Function
+`const UnBCL::MemoryStream::``vftable'{for ``UnBCL::Stream'}` | 1223 | Exported Function
+`const UnBCL::MemoryStream::``vftable'{for ``UnBCL::Object'}` | 1222 | Exported Function
+`const UnBCL::Monitor::``vbtable'` | 1372 | Exported Function
+`const UnBCL::MultiSz::``vbtable'` | 1374 | Exported Function
+`const UnBCL::Monitor::``vftable'` | 1224 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >'}` | 1087 | Exported Function
+`const UnBCL::FileStream::``vftable'{for ``UnBCL::Stream'}` | 1213 | Exported Function
+`const UnBCL::FileStream::``vftable'{for ``UnBCL::Object'}` | 1212 | Exported Function
+`const UnBCL::FileSystemEnumerator::``vbtable'` | 1369 | Exported Function
+`const UnBCL::FileSystemEnumerator::``vftable'{for ``UnBCL::Object'}` | 1215 | Exported Function
+`const UnBCL::FileSystemEnumerator::``vftable'{for ``UnBCL::IEnumerator<class UnBCL::String * __ptr64>'}` | 1214 | Exported Function
+`const UnBCL::ExternalException::``vftable'` | 1210 | Exported Function
+`const UnBCL::Exception::``vftable'` | 1209 | Exported Function
+`const UnBCL::FileStream::``vbtable'{for ``UnBCL::IDisposable'}` | 1367 | Exported Function
+`const UnBCL::FileStream::``vftable'{for ``UnBCL::IDisposable'}` | 1211 | Exported Function
+`const UnBCL::FileStream::``vbtable'{for ``UnBCL::Stream'}` | 1368 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >'}` | 1350 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::ISerializable'}` | 1353 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>'}` | 1084 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>'}` | 1086 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vftable'{for ``UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >'}` | 1085 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbtable'` | 1352 | Exported Function
+`const UnBCL::FormatException::``vftable'` | 1216 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>'}` | 1351 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>'}` | 1349 | Exported Function
+`const UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::``vbtable'{for ``UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >'}` | 1348 | Exported Function
+`const UnBCL::MultiSz::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >'}` | 1226 | Exported Function
+`const UnBCL::Registry::``vbtable'` | 1386 | Exported Function
+`const UnBCL::RegHandle::``vftable'` | 1246 | Exported Function
+`const UnBCL::Registry::``vftable'` | 1249 | Exported Function
+`const UnBCL::RegistryKey::``vbtable'{for ``UnBCL::RegistryKey'}` | 1387 | Exported Function
+`const UnBCL::RegistryKey::``vbtable'{for ``UnBCL::IDisposable'}` | 1388 | Exported Function
+`const UnBCL::Process::``vftable'` | 1243 | Exported Function
+`const UnBCL::Process::``vbtable'{for ``UnBCL::Process'}` | 1382 | Exported Function
+`const UnBCL::Process::``vftable'{for ``UnBCL::IDisposable'}` | 1244 | Exported Function
+`const UnBCL::RegHandle::``vbtable'` | 1384 | Exported Function
+`const UnBCL::ProcessStartInfo::``vftable'` | 1245 | Exported Function
+`const UnBCL::SEHException::``vbtable'` | 1389 | Exported Function
+`const UnBCL::SecurityException::``vftable'` | 1253 | Exported Function
+`const UnBCL::SEHException::``vftable'` | 1252 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::Object'}` | 1130 | Exported Function
+`const UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::``vftable'{for ``UnBCL::ISerializable'}` | 1129 | Exported Function
+`const UnBCL::RegistryKey::``vftable'{for ``UnBCL::Object'}` | 1251 | Exported Function
+`const UnBCL::RegistryKey::``vftable'{for ``UnBCL::IDisposable'}` | 1250 | Exported Function
+`const UnBCL::RegSubkeyEnumerator::``vbtable'` | 1385 | Exported Function
+`const UnBCL::RegSubkeyEnumerator::``vftable'{for ``UnBCL::IEnumerator<unsigned short const * __ptr64>'}` | 1247 | Exported Function
+`const UnBCL::RegSubkeyEnumerator::``vftable'` | 1248 | Exported Function
+`const UnBCL::Process::``vbtable'{for ``UnBCL::IDisposable'}` | 1383 | Exported Function
+`const UnBCL::Mutex::``vftable'{for ``UnBCL::Object'}` | 1232 | Exported Function
+`const UnBCL::Mutex::``vftable'{for ``UnBCL::IDisposable'}` | 1231 | Exported Function
+`const UnBCL::Mutex::``vftable'{for ``UnBCL::WaitHandle'}` | 1233 | Exported Function
+`const UnBCL::Object::``vftable'` | 1235 | Exported Function
+`const UnBCL::NotSupportedException::``vftable'` | 1234 | Exported Function
+`const UnBCL::Mutex::``vbtable'` | 1376 | Exported Function
+`const UnBCL::MutableString::``vftable'` | 1229 | Exported Function
+`const UnBCL::Mutex::``vbtable'{for ``UnBCL::IDisposable'}` | 1377 | Exported Function
+`const UnBCL::Mutex::``vftable'` | 1230 | Exported Function
+`const UnBCL::Mutex::``vbtable'{for ``UnBCL::WaitHandle'}` | 1378 | Exported Function
+`const UnBCL::OperatingSystem::``vftable'{for ``UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >'}` | 1237 | Exported Function
+`const UnBCL::OperatingSystem::``vftable'{for ``UnBCL::ISerializable'}` | 1239 | Exported Function
+`const UnBCL::OutOfMemoryException::``vftable'` | 1240 | Exported Function
+`const UnBCL::PathTooLongException::``vftable'` | 1242 | Exported Function
+`const UnBCL::OverflowException::``vftable'` | 1241 | Exported Function
+`const UnBCL::OperatingSystem::``vbtable'{for ``UnBCL::ISerializable'}` | 1381 | Exported Function
+`const UnBCL::ObjectDisposedException::``vftable'` | 1236 | Exported Function
+`const UnBCL::OperatingSystem::``vbtable'{for ``UnBCL::OperatingSystem'}` | 1379 | Exported Function
+`const UnBCL::OperatingSystem::``vftable'` | 1238 | Exported Function
+`const UnBCL::OperatingSystem::``vbtable'{for ``UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >'}` | 1380 | Exported Function
+`public: __cdecl UnBCL::ArgumentNullException::ArgumentNullException(class UnBCL::ArgumentNullException && __ptr64) __ptr64` | 201 | Exported Function
+`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::operator!(void)const __ptr64` | 960 | Exported Function
+`public: bool __cdecl ATL::CSimpleStringT<unsigned short,0>::IsEmpty(void)const __ptr64` | 1979 | Exported Function
+`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::operator!(void)const __ptr64` | 959 | Exported Function
+`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::operator!(void)const __ptr64` | 962 | Exported Function
+`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::operator!(void)const __ptr64` | 961 | Exported Function
+`public: __int64 __cdecl UnBCL::DateTime::get_Ticks(void)const __ptr64` | 2576 | Exported Function
+`public: __cdecl UnBCL::XPathException::XPathException(class UnBCL::XPathException const & __ptr64) __ptr64` | 477 | Exported Function
+`public: __int64 __cdecl UnBCL::DateTime::ToFileTime(void)const __ptr64` | 2279 | Exported Function
+`public: __int64 __cdecl UnBCL::TimeSpan::get_Ticks(void)const __ptr64` | 2577 | Exported Function
+`public: __int64 __cdecl UnBCL::DateTime::ToFileTimeUtc(void)const __ptr64` | 2280 | Exported Function
+`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Version>::operator!(void)const __ptr64` | 969 | Exported Function
+`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::String>::operator!(void)const __ptr64` | 968 | Exported Function
+`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::operator!(void)const __ptr64` | 970 | Exported Function
+`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator+=(class ATL::CSimpleStringT<unsigned short,0> const & __ptr64) __ptr64` | 1016 | Exported Function
+`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator+=(char) __ptr64` | 1017 | Exported Function
+`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Object>::operator!(void)const __ptr64` | 964 | Exported Function
+`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::operator!(void)const __ptr64` | 963 | Exported Function
+`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::operator!(void)const __ptr64` | 965 | Exported Function
+`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::operator!(void)const __ptr64` | 967 | Exported Function
+`public: bool __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::operator!(void)const __ptr64` | 966 | Exported Function
+`public: __cdecl UnBCL::XPathException::XPathException(class UnBCL::XPathException && __ptr64) __ptr64` | 476 | Exported Function
+`public: __cdecl UnBCL::XmlLite::XmlDocument::XmlDocument(class UnBCL::XmlLite::XmlDocument const & __ptr64) __ptr64` | 494 | Exported Function
+`public: __cdecl UnBCL::XmlLite::XmlAttributeCollection::XmlAttributeCollection(void) __ptr64` | 490 | Exported Function
+`public: __cdecl UnBCL::XmlLite::XmlDocument::XmlDocument(void) __ptr64` | 495 | Exported Function
+`public: __cdecl UnBCL::XmlLite::XmlNode::XmlNode(enum UnBCL::XmlNodeType,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 505 | Exported Function
+`public: __cdecl UnBCL::XmlLite::XmlNode::XmlNode(class UnBCL::XmlLite::XmlNode const & __ptr64) __ptr64` | 504 | Exported Function
+`public: __cdecl UnBCL::XmlLite::XmlAttribute::XmlAttribute(class UnBCL::XmlLite::XmlAttribute && __ptr64) __ptr64` | 483 | Exported Function
+`public: __cdecl UnBCL::XmlException::XmlException(class UnBCL::XmlException const & __ptr64) __ptr64` | 497 | Exported Function
+`public: __cdecl UnBCL::XmlLite::XmlAttribute::XmlAttribute(class UnBCL::XmlLite::XmlAttribute const & __ptr64) __ptr64` | 484 | Exported Function
+`public: __cdecl UnBCL::XmlLite::XmlAttributeCollection::XmlAttributeCollection(class UnBCL::XmlLite::XmlAttributeCollection const & __ptr64) __ptr64` | 489 | Exported Function
+`public: __cdecl UnBCL::XmlLite::XmlAttribute::XmlAttribute(unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 485 | Exported Function
+`public: __cdecl UnBCL::XmlNodeList::XmlNodeList(struct IXMLDOMNodeList * __ptr64) __ptr64` | 508 | Exported Function
+`public: __cdecl UnBCL::XmlNodeList::XmlNodeList(class UnBCL::XmlNodeList const & __ptr64) __ptr64` | 507 | Exported Function
+`public: __cdecl UnBCL::XmlSchemaSet::XmlSchemaSet(class UnBCL::XmlSchemaSet const & __ptr64) __ptr64` | 511 | Exported Function
+`public: __cdecl UnBCL::XPathException::XPathException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64,long) __ptr64` | 478 | Exported Function
+`public: __cdecl UnBCL::XmlSchemaSet::XmlSchemaSet(void) __ptr64` | 512 | Exported Function
+`public: __cdecl UnBCL::XmlLite::XmlNodeList::XmlNodeList(void) __ptr64` | 510 | Exported Function
+`public: __cdecl UnBCL::XmlLite::XmlNodeList::XmlNodeList(class UnBCL::XmlLite::XmlNodeList const & __ptr64) __ptr64` | 509 | Exported Function
+`public: __cdecl UnBCL::XmlNamespaceManager::XmlNamespaceManager(class UnBCL::XmlNamespaceManager const & __ptr64) __ptr64` | 499 | Exported Function
+`public: __cdecl UnBCL::XmlNode::XmlNode(class UnBCL::XmlNode const & __ptr64) __ptr64` | 503 | Exported Function
+`public: __cdecl UnBCL::XmlNamespaceManager::XmlNamespaceManager(void) __ptr64` | 500 | Exported Function
+`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator+=(unsigned char) __ptr64` | 1018 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimLeft(void) __ptr64` | 2305 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimLeft(unsigned short) __ptr64` | 2303 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimRight(unsigned short const * __ptr64) __ptr64` | 2307 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimRight(void) __ptr64` | 2308 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimRight(unsigned short) __ptr64` | 2306 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Trim(unsigned short const * __ptr64) __ptr64` | 2298 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(unsigned short) __ptr64` | 676 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Trim(unsigned short) __ptr64` | 2297 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::TrimLeft(unsigned short const * __ptr64) __ptr64` | 2304 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Trim(void) __ptr64` | 2299 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Tokenize(unsigned short const * __ptr64,int & __ptr64)const __ptr64` | 2296 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::SpanIncluding(unsigned short const * __ptr64)const __ptr64` | 2215 | Exported Function
+`public: class UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::operator=(class UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 732 | Exported Function
+`public: class UnBCL::_::SerializableArrayBase<int> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<int>::operator=(class UnBCL::_::SerializableArrayBase<int> && __ptr64) __ptr64` | 730 | Exported Function
+`public: class UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64>::operator=(class UnBCL::_::SerializableArrayBase<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 733 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Mid(int)const __ptr64` | 2043 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Left(int)const __ptr64` | 2009 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Mid(int,int)const __ptr64` | 2044 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::SpanExcluding(unsigned short const * __ptr64)const __ptr64` | 2214 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::Right(int)const __ptr64` | 2161 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(unsigned short const * __ptr64) __ptr64` | 679 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::MakeReverse(void) __ptr64` | 2033 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::MakeLower(void) __ptr64` | 2031 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::MakeUpper(void) __ptr64` | 2036 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(char) __ptr64` | 1023 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(char const * __ptr64) __ptr64` | 1026 | Exported Function
+`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator+=(unsigned short) __ptr64` | 1019 | Exported Function
+`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator+=(unsigned short const * __ptr64) __ptr64` | 1020 | Exported Function
+`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator=(class ATL::CSimpleStringT<unsigned short,0> const & __ptr64) __ptr64` | 670 | Exported Function
+`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator=(unsigned short const * __ptr64) __ptr64` | 672 | Exported Function
+`public: class ATL::CSimpleStringT<unsigned short,0> & __ptr64 __cdecl ATL::CSimpleStringT<unsigned short,0>::operator=(class ATL::CSimpleStringT<unsigned short,1> const & __ptr64) __ptr64` | 671 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(char) __ptr64` | 675 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(char const * __ptr64) __ptr64` | 677 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > const & __ptr64) __ptr64` | 674 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(unsigned char const * __ptr64) __ptr64` | 678 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator=(struct tagVARIANT const & __ptr64) __ptr64` | 673 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(struct tagVARIANT const & __ptr64) __ptr64` | 1021 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(class ATL::CSimpleStringT<unsigned short,0> const & __ptr64) __ptr64` | 1022 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(unsigned char) __ptr64` | 1024 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(unsigned short) __ptr64` | 1025 | Exported Function
+`public: class ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > > & __ptr64 __cdecl ATL::CStringT<unsigned short,class ATL::StrTraitATL<unsigned short,class ATL::ChTraitsCRT<unsigned short> > >::operator+=(unsigned short const * __ptr64) __ptr64` | 1027 | Exported Function
+`public: __cdecl UnBCL::SystemException::SystemException(class UnBCL::SystemException const & __ptr64) __ptr64` | 425 | Exported Function
+`public: __cdecl UnBCL::SystemException::SystemException(class UnBCL::SystemException && __ptr64) __ptr64` | 424 | Exported Function
+`public: __cdecl UnBCL::SystemException::SystemException(unsigned short const * __ptr64) __ptr64` | 426 | Exported Function
+`public: __cdecl UnBCL::SystemException::SystemException(void) __ptr64` | 430 | Exported Function
+`public: __cdecl UnBCL::SystemException::SystemException(unsigned short const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 427 | Exported Function
+`public: __cdecl UnBCL::SyncObject::SyncObject(class UnBCL::SyncObject const & __ptr64) __ptr64` | 422 | Exported Function
+`public: __cdecl UnBCL::StringPtr::StringPtr(void) __ptr64` | 421 | Exported Function
+`public: __cdecl UnBCL::SyncObject::SyncObject(void) __ptr64` | 423 | Exported Function
+`public: __cdecl UnBCL::SystemException::SystemException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 429 | Exported Function
+`public: __cdecl UnBCL::SystemException::SystemException(class UnBCL::String const * __ptr64) __ptr64` | 428 | Exported Function
+`public: __cdecl UnBCL::TextWriter::TextWriter(class UnBCL::TextWriter && __ptr64) __ptr64` | 438 | Exported Function
+`public: __cdecl UnBCL::TextReader::TextReader(void) __ptr64` | 436 | Exported Function
+`public: __cdecl UnBCL::TextWriter::TextWriter(class UnBCL::TextWriter const & __ptr64) __ptr64` | 439 | Exported Function
+`public: __cdecl UnBCL::Thread::Thread(class UnBCL::ThreadStartDelegate * __ptr64) __ptr64` | 442 | Exported Function
+`public: __cdecl UnBCL::Thread::Thread(class UnBCL::Thread const & __ptr64) __ptr64` | 441 | Exported Function
+`public: __cdecl UnBCL::SystemInfo::SystemInfo(class UnBCL::SystemInfo const & __ptr64) __ptr64` | 432 | Exported Function
+`public: __cdecl UnBCL::SystemInfo::SystemInfo(class UnBCL::SystemInfo && __ptr64) __ptr64` | 431 | Exported Function
+`public: __cdecl UnBCL::SystemInfo::SystemInfo(void) __ptr64` | 433 | Exported Function
+`public: __cdecl UnBCL::TextReader::TextReader(class UnBCL::TextReader const & __ptr64) __ptr64` | 435 | Exported Function
+`public: __cdecl UnBCL::TextReader::TextReader(class UnBCL::TextReader && __ptr64) __ptr64` | 434 | Exported Function
+`public: __cdecl UnBCL::StringPtr::StringPtr(unsigned short const * __ptr64) __ptr64` | 419 | Exported Function
+`public: __cdecl UnBCL::String::String(class UnBCL::String const * __ptr64) __ptr64` | 410 | Exported Function
+`public: __cdecl UnBCL::String::String(class UnBCL::String const & __ptr64) __ptr64` | 406 | Exported Function
+`public: __cdecl UnBCL::String::String(unsigned short const * __ptr64) __ptr64` | 408 | Exported Function
+`public: __cdecl UnBCL::String::String(unsigned short,int) __ptr64` | 407 | Exported Function
+`public: __cdecl UnBCL::String::String(unsigned short const * __ptr64,int,int) __ptr64` | 409 | Exported Function
+`public: __cdecl UnBCL::StreamWriter::StreamWriter(class UnBCL::Stream * __ptr64,int) __ptr64` | 402 | Exported Function
+`public: __cdecl UnBCL::StreamWriter::StreamWriter(class UnBCL::Stream * __ptr64,class UnBCL::Encoding * __ptr64,int,int,int) __ptr64` | 403 | Exported Function
+`public: __cdecl UnBCL::StreamWriter::StreamWriter(class UnBCL::StreamWriter const & __ptr64) __ptr64` | 401 | Exported Function
+`public: __cdecl UnBCL::String::String(class UnBCL::SerializationStream & __ptr64) __ptr64` | 405 | Exported Function
+`public: __cdecl UnBCL::StreamWriter::StreamWriter(class UnBCL::String const * __ptr64,int,class UnBCL::Encoding * __ptr64,int,int) __ptr64` | 404 | Exported Function
+`public: __cdecl UnBCL::StringPtr::operator class UnBCL::SmartPtr<class UnBCL::String>(void) __ptr64` | 990 | Exported Function
+`public: __cdecl UnBCL::StringBuilder::StringBuilder(void) __ptr64` | 416 | Exported Function
+`public: __cdecl UnBCL::StringPtr::StringPtr(class UnBCL::SmartPtr<class UnBCL::String>) __ptr64` | 420 | Exported Function
+`public: __cdecl UnBCL::StringPtr::StringPtr(class UnBCL::StringPtr const & __ptr64) __ptr64` | 417 | Exported Function
+`public: __cdecl UnBCL::StringPtr::StringPtr(class UnBCL::String * __ptr64) __ptr64` | 418 | Exported Function
+`public: __cdecl UnBCL::StringBuilder::StringBuilder(class UnBCL::String const * __ptr64) __ptr64` | 415 | Exported Function
+`public: __cdecl UnBCL::String::String(void) __ptr64` | 411 | Exported Function
+`public: __cdecl UnBCL::StringBuilder::StringBuilder(class UnBCL::StringBuilder const & __ptr64) __ptr64` | 412 | Exported Function
+`public: __cdecl UnBCL::StringBuilder::StringBuilder(unsigned short const * __ptr64) __ptr64` | 414 | Exported Function
+`public: __cdecl UnBCL::StringBuilder::StringBuilder(int) __ptr64` | 413 | Exported Function
+`public: __cdecl UnBCL::ThreadStateException::ThreadStateException(class UnBCL::String const * __ptr64) __ptr64` | 446 | Exported Function
+`public: __cdecl UnBCL::Win32Exception::Win32Exception(unsigned long,unsigned short const * __ptr64) __ptr64` | 470 | Exported Function
+`public: __cdecl UnBCL::Win32Exception::Win32Exception(unsigned long,class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 473 | Exported Function
+`public: __cdecl UnBCL::Win32Exception::Win32Exception(unsigned long,unsigned short const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 471 | Exported Function
+`public: __cdecl UnBCL::Win32Exception::Win32Exception(void) __ptr64` | 475 | Exported Function
+`public: __cdecl UnBCL::Win32Exception::Win32Exception(unsigned short const * __ptr64) __ptr64` | 474 | Exported Function
+`public: __cdecl UnBCL::Win32Exception::Win32Exception(class UnBCL::Win32Exception && __ptr64) __ptr64` | 467 | Exported Function
+`public: __cdecl UnBCL::WaitHandle::WaitHandle(class UnBCL::WaitHandle const & __ptr64) __ptr64` | 466 | Exported Function
+`public: __cdecl UnBCL::Win32Exception::Win32Exception(class UnBCL::Win32Exception const & __ptr64) __ptr64` | 468 | Exported Function
+`public: __cdecl UnBCL::Win32Exception::Win32Exception(unsigned long,class UnBCL::String const * __ptr64) __ptr64` | 472 | Exported Function
+`public: __cdecl UnBCL::Win32Exception::Win32Exception(unsigned long) __ptr64` | 469 | Exported Function
+`public: __cdecl UnBCL::XmlDocument::XmlDocument(struct IXMLDOMDocument3 * __ptr64) __ptr64` | 492 | Exported Function
+`public: __cdecl UnBCL::XmlDocument::XmlDocument(class UnBCL::XmlDocument const & __ptr64) __ptr64` | 491 | Exported Function
+`public: __cdecl UnBCL::XmlDocument::XmlDocument(void) __ptr64` | 493 | Exported Function
+`public: __cdecl UnBCL::XmlException::XmlException(class UnBCL::XmlException && __ptr64) __ptr64` | 496 | Exported Function
+`public: __cdecl UnBCL::XmlException::XmlException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64,int,int,long) __ptr64` | 498 | Exported Function
+`public: __cdecl UnBCL::XmlAttribute::XmlAttribute(class UnBCL::XmlAttribute const & __ptr64) __ptr64` | 481 | Exported Function
+`public: __cdecl UnBCL::XmlAttribute::XmlAttribute(class UnBCL::XmlAttribute && __ptr64) __ptr64` | 480 | Exported Function
+`public: __cdecl UnBCL::XmlAttribute::XmlAttribute(struct IXMLDOMNode * __ptr64) __ptr64` | 482 | Exported Function
+`public: __cdecl UnBCL::XmlAttributeCollection::XmlAttributeCollection(struct IXMLDOMNamedNodeMap * __ptr64) __ptr64` | 488 | Exported Function
+`public: __cdecl UnBCL::XmlAttributeCollection::XmlAttributeCollection(class UnBCL::XmlAttributeCollection const & __ptr64) __ptr64` | 487 | Exported Function
+`public: __cdecl UnBCL::Version::Version(void) __ptr64` | 464 | Exported Function
+`public: __cdecl UnBCL::TimeSpan::TimeSpan(__int64) __ptr64` | 453 | Exported Function
+`public: __cdecl UnBCL::TimeSpan::operator double(void)const __ptr64` | 991 | Exported Function
+`public: __cdecl UnBCL::TimeSpan::TimeSpan(class UnBCL::TimeSpan const & __ptr64) __ptr64` | 449 | Exported Function
+`public: __cdecl UnBCL::TimeSpan::TimeSpan(int,int,int,int) __ptr64` | 451 | Exported Function
+`public: __cdecl UnBCL::TimeSpan::TimeSpan(int,int,int) __ptr64` | 450 | Exported Function
+`public: __cdecl UnBCL::ThreadStateException::ThreadStateException(class UnBCL::ThreadStateException && __ptr64) __ptr64` | 443 | Exported Function
+`public: __cdecl UnBCL::ThreadStateException::ThreadStateException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 447 | Exported Function
+`public: __cdecl UnBCL::ThreadStateException::ThreadStateException(class UnBCL::ThreadStateException const & __ptr64) __ptr64` | 444 | Exported Function
+`public: __cdecl UnBCL::ThreadStateException::ThreadStateException(void) __ptr64` | 448 | Exported Function
+`public: __cdecl UnBCL::ThreadStateException::ThreadStateException(unsigned short const * __ptr64) __ptr64` | 445 | Exported Function
+`public: __cdecl UnBCL::Version::Version(int,int) __ptr64` | 460 | Exported Function
+`public: __cdecl UnBCL::Version::Version(class UnBCL::Version const & __ptr64) __ptr64` | 459 | Exported Function
+`public: __cdecl UnBCL::Version::Version(int,int,int) __ptr64` | 461 | Exported Function
+`public: __cdecl UnBCL::Version::Version(unsigned short const * __ptr64) __ptr64` | 463 | Exported Function
+`public: __cdecl UnBCL::Version::Version(int,int,int,class UnBCL::String * __ptr64) __ptr64` | 462 | Exported Function
+`public: __cdecl UnBCL::Type::Type(class UnBCL::Type const & __ptr64) __ptr64` | 455 | Exported Function
+`public: __cdecl UnBCL::TimeSpan::TimeSpan(int,int,int,int,int) __ptr64` | 452 | Exported Function
+`public: __cdecl UnBCL::UnicodeEncoding::UnicodeEncoding(class UnBCL::UnicodeEncoding && __ptr64) __ptr64` | 456 | Exported Function
+`public: __cdecl UnBCL::UnicodeEncoding::UnicodeEncoding(void) __ptr64` | 458 | Exported Function
+`public: __cdecl UnBCL::UnicodeEncoding::UnicodeEncoding(class UnBCL::UnicodeEncoding const & __ptr64) __ptr64` | 457 | Exported Function
+`public: class UnBCL::MutableString & __ptr64 __cdecl UnBCL::MutableString::operator=(class UnBCL::MutableString && __ptr64) __ptr64` | 844 | Exported Function
+`public: class UnBCL::MutableString & __ptr64 __cdecl UnBCL::MutableString::Format(unsigned short const * __ptr64,...) __ptr64` | 1735 | Exported Function
+`public: class UnBCL::MutableString & __ptr64 __cdecl UnBCL::MutableString::operator=(class UnBCL::MutableString const & __ptr64) __ptr64` | 845 | Exported Function
+`public: class UnBCL::Mutex & __ptr64 __cdecl UnBCL::Mutex::operator=(class UnBCL::Mutex && __ptr64) __ptr64` | 847 | Exported Function
+`public: class UnBCL::MutableString & __ptr64 __cdecl UnBCL::MutableString::operator=(unsigned short const * __ptr64) __ptr64` | 846 | Exported Function
+`public: class UnBCL::Logging & __ptr64 __cdecl UnBCL::Logging::operator=(class UnBCL::Logging const & __ptr64) __ptr64` | 840 | Exported Function
+`public: class UnBCL::Logging & __ptr64 __cdecl UnBCL::Logging::operator=(class UnBCL::Logging && __ptr64) __ptr64` | 839 | Exported Function
+`public: class UnBCL::MemoryStream & __ptr64 __cdecl UnBCL::MemoryStream::operator=(class UnBCL::MemoryStream const & __ptr64) __ptr64` | 841 | Exported Function
+`public: class UnBCL::MultiSz & __ptr64 __cdecl UnBCL::MultiSz::operator=(class UnBCL::MultiSz const & __ptr64) __ptr64` | 843 | Exported Function
+`public: class UnBCL::Monitor & __ptr64 __cdecl UnBCL::Monitor::operator=(class UnBCL::Monitor const & __ptr64) __ptr64` | 842 | Exported Function
+`public: class UnBCL::Object * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Object>::get_P(void)const __ptr64` | 2541 | Exported Function
+`public: class UnBCL::Object * __ptr64 __cdecl UnBCL::SerializationStream::get_Context(void)const __ptr64` | 2403 | Exported Function
+`public: class UnBCL::Object * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Object>::operator->(void)const __ptr64` | 997 | Exported Function
+`public: class UnBCL::ObjectDisposedException & __ptr64 __cdecl UnBCL::ObjectDisposedException::operator=(class UnBCL::ObjectDisposedException && __ptr64) __ptr64` | 852 | Exported Function
+`public: class UnBCL::Object * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Object>::Steal(void) __ptr64` | 2227 | Exported Function
+`public: class UnBCL::NotSupportedException & __ptr64 __cdecl UnBCL::NotSupportedException::operator=(class UnBCL::NotSupportedException && __ptr64) __ptr64` | 849 | Exported Function
+`public: class UnBCL::Mutex & __ptr64 __cdecl UnBCL::Mutex::operator=(class UnBCL::Mutex const & __ptr64) __ptr64` | 848 | Exported Function
+`public: class UnBCL::NotSupportedException & __ptr64 __cdecl UnBCL::NotSupportedException::operator=(class UnBCL::NotSupportedException const & __ptr64) __ptr64` | 850 | Exported Function
+`public: class UnBCL::Object & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Object>::operator*(void)const __ptr64` | 1009 | Exported Function
+`public: class UnBCL::Object & __ptr64 __cdecl UnBCL::Object::operator=(class UnBCL::Object const & __ptr64) __ptr64` | 851 | Exported Function
+`public: class UnBCL::InvalidOperationException & __ptr64 __cdecl UnBCL::InvalidOperationException::operator=(class UnBCL::InvalidOperationException const & __ptr64) __ptr64` | 838 | Exported Function
+`public: class UnBCL::ExternalException & __ptr64 __cdecl UnBCL::ExternalException::operator=(class UnBCL::ExternalException const & __ptr64) __ptr64` | 815 | Exported Function
+`public: class UnBCL::ExternalException & __ptr64 __cdecl UnBCL::ExternalException::operator=(class UnBCL::ExternalException && __ptr64) __ptr64` | 814 | Exported Function
+`public: class UnBCL::File & __ptr64 __cdecl UnBCL::File::operator=(class UnBCL::File && __ptr64) __ptr64` | 816 | Exported Function
+`public: class UnBCL::FileStream & __ptr64 __cdecl UnBCL::FileStream::operator=(class UnBCL::FileStream const & __ptr64) __ptr64` | 818 | Exported Function
+`public: class UnBCL::File & __ptr64 __cdecl UnBCL::File::operator=(class UnBCL::File const & __ptr64) __ptr64` | 817 | Exported Function
+`public: class UnBCL::Encoding * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::Steal(void) __ptr64` | 2226 | Exported Function
+`public: class UnBCL::Encoding * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::operator->(void)const __ptr64` | 996 | Exported Function
+`public: class UnBCL::Environment & __ptr64 __cdecl UnBCL::Environment::operator=(class UnBCL::Environment && __ptr64) __ptr64` | 811 | Exported Function
+`public: class UnBCL::Exception & __ptr64 __cdecl UnBCL::Exception::operator=(class UnBCL::Exception const & __ptr64) __ptr64` | 813 | Exported Function
+`public: class UnBCL::Environment & __ptr64 __cdecl UnBCL::Environment::operator=(class UnBCL::Environment const & __ptr64) __ptr64` | 812 | Exported Function
+`public: class UnBCL::IndexOutOfRangeException & __ptr64 __cdecl UnBCL::IndexOutOfRangeException::operator=(class UnBCL::IndexOutOfRangeException const & __ptr64) __ptr64` | 832 | Exported Function
+`public: class UnBCL::IndexOutOfRangeException & __ptr64 __cdecl UnBCL::IndexOutOfRangeException::operator=(class UnBCL::IndexOutOfRangeException && __ptr64) __ptr64` | 831 | Exported Function
+`public: class UnBCL::InvalidCastException & __ptr64 __cdecl UnBCL::InvalidCastException::operator=(class UnBCL::InvalidCastException && __ptr64) __ptr64` | 835 | Exported Function
+`public: class UnBCL::InvalidOperationException & __ptr64 __cdecl UnBCL::InvalidOperationException::operator=(class UnBCL::InvalidOperationException && __ptr64) __ptr64` | 837 | Exported Function
+`public: class UnBCL::InvalidCastException & __ptr64 __cdecl UnBCL::InvalidCastException::operator=(class UnBCL::InvalidCastException const & __ptr64) __ptr64` | 836 | Exported Function
+`public: class UnBCL::FormatException & __ptr64 __cdecl UnBCL::FormatException::operator=(class UnBCL::FormatException && __ptr64) __ptr64` | 820 | Exported Function
+`public: class UnBCL::FileSystemEnumerator & __ptr64 __cdecl UnBCL::FileSystemEnumerator::operator=(class UnBCL::FileSystemEnumerator const & __ptr64) __ptr64` | 819 | Exported Function
+`public: class UnBCL::FormatException & __ptr64 __cdecl UnBCL::FormatException::operator=(class UnBCL::FormatException const & __ptr64) __ptr64` | 821 | Exported Function
+`public: class UnBCL::HeapMemoryManager & __ptr64 __cdecl UnBCL::HeapMemoryManager::operator=(class UnBCL::HeapMemoryManager const & __ptr64) __ptr64` | 822 | Exported Function
+`public: class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::operator=(class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 681 | Exported Function
+`public: class UnBCL::ObjectDisposedException & __ptr64 __cdecl UnBCL::ObjectDisposedException::operator=(class UnBCL::ObjectDisposedException const & __ptr64) __ptr64` | 853 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> > && __ptr64) __ptr64` | 744 | Exported Function
+`public: class UnBCL::SEHException & __ptr64 __cdecl UnBCL::SEHException::operator=(class UnBCL::SEHException const & __ptr64) __ptr64` | 872 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 745 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 743 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> > && __ptr64) __ptr64` | 742 | Exported Function
+`public: class UnBCL::ScopedObjectLock & __ptr64 __cdecl UnBCL::ScopedObjectLock::operator=(class UnBCL::ScopedObjectLock const & __ptr64) __ptr64` | 875 | Exported Function
+`public: class UnBCL::SbRegistrationList & __ptr64 __cdecl UnBCL::SbRegistrationList::operator=(class UnBCL::SbRegistrationList const & __ptr64) __ptr64` | 874 | Exported Function
+`public: class UnBCL::SecurityException & __ptr64 __cdecl UnBCL::SecurityException::operator=(class UnBCL::SecurityException && __ptr64) __ptr64` | 876 | Exported Function
+`public: class UnBCL::SEHException & __ptr64 __cdecl UnBCL::SEHException::operator=(class UnBCL::SEHException && __ptr64) __ptr64` | 871 | Exported Function
+`public: class UnBCL::SecurityException & __ptr64 __cdecl UnBCL::SecurityException::operator=(class UnBCL::SecurityException const & __ptr64) __ptr64` | 877 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> > && __ptr64) __ptr64` | 746 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 749 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 747 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * _` | 750 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * _` | 751 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 739 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> > && __ptr64) __ptr64` | 738 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> > && __ptr64) __ptr64` | 740 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> > && __ptr64) __ptr64` | 748 | Exported Function
+`public: class UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> > & __ptr64 __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::operator=(class UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 741 | Exported Function
+`public: class UnBCL::SbRegistrationList & __ptr64 __cdecl UnBCL::SbRegistrationList::operator=(class UnBCL::SbRegistrationList && __ptr64) __ptr64` | 873 | Exported Function
+`public: class UnBCL::Path & __ptr64 __cdecl UnBCL::Path::operator=(class UnBCL::Path const & __ptr64) __ptr64` | 860 | Exported Function
+`public: class UnBCL::Path & __ptr64 __cdecl UnBCL::Path::operator=(class UnBCL::Path && __ptr64) __ptr64` | 859 | Exported Function
+`public: class UnBCL::PathTooLongException & __ptr64 __cdecl UnBCL::PathTooLongException::operator=(class UnBCL::PathTooLongException && __ptr64) __ptr64` | 861 | Exported Function
+`public: class UnBCL::Process & __ptr64 __cdecl UnBCL::Process::operator=(class UnBCL::Process const & __ptr64) __ptr64` | 863 | Exported Function
+`public: class UnBCL::PathTooLongException & __ptr64 __cdecl UnBCL::PathTooLongException::operator=(class UnBCL::PathTooLongException const & __ptr64) __ptr64` | 862 | Exported Function
+`public: class UnBCL::OutOfMemoryException & __ptr64 __cdecl UnBCL::OutOfMemoryException::operator=(class UnBCL::OutOfMemoryException && __ptr64) __ptr64` | 855 | Exported Function
+`public: class UnBCL::OperatingSystem & __ptr64 __cdecl UnBCL::OperatingSystem::operator=(class UnBCL::OperatingSystem const & __ptr64) __ptr64` | 854 | Exported Function
+`public: class UnBCL::OutOfMemoryException & __ptr64 __cdecl UnBCL::OutOfMemoryException::operator=(class UnBCL::OutOfMemoryException const & __ptr64) __ptr64` | 856 | Exported Function
+`public: class UnBCL::OverflowException & __ptr64 __cdecl UnBCL::OverflowException::operator=(class UnBCL::OverflowException const & __ptr64) __ptr64` | 858 | Exported Function
+`public: class UnBCL::OverflowException & __ptr64 __cdecl UnBCL::OverflowException::operator=(class UnBCL::OverflowException && __ptr64) __ptr64` | 857 | Exported Function
+`public: class UnBCL::RegistryKey * __ptr64 __cdecl UnBCL::RegistryKey::CreateSubKey(class UnBCL::String const * __ptr64) __ptr64` | 1635 | Exported Function
+`public: class UnBCL::RegistryKey & __ptr64 __cdecl UnBCL::RegistryKey::operator=(class UnBCL::RegistryKey const & __ptr64) __ptr64` | 870 | Exported Function
+`public: class UnBCL::RegistryKey * __ptr64 __cdecl UnBCL::RegistryKey::OpenSubKey(class UnBCL::String const * __ptr64) __ptr64` | 2065 | Exported Function
+`public: class UnBCL::RegSubkeyEnumerator & __ptr64 __cdecl UnBCL::RegSubkeyEnumerator::operator=(class UnBCL::RegSubkeyEnumerator const & __ptr64) __ptr64` | 867 | Exported Function
+`public: class UnBCL::RegistryKey * __ptr64 __cdecl UnBCL::RegistryKey::OpenSubKey(class UnBCL::String const * __ptr64,int) __ptr64` | 2066 | Exported Function
+`public: class UnBCL::ProcessStartInfo & __ptr64 __cdecl UnBCL::ProcessStartInfo::operator=(class UnBCL::ProcessStartInfo const & __ptr64) __ptr64` | 865 | Exported Function
+`public: class UnBCL::ProcessStartInfo & __ptr64 __cdecl UnBCL::ProcessStartInfo::operator=(class UnBCL::ProcessStartInfo && __ptr64) __ptr64` | 864 | Exported Function
+`public: class UnBCL::RegHandle & __ptr64 __cdecl UnBCL::RegHandle::operator=(class UnBCL::RegHandle const & __ptr64) __ptr64` | 866 | Exported Function
+`public: class UnBCL::Registry & __ptr64 __cdecl UnBCL::Registry::operator=(class UnBCL::Registry const & __ptr64) __ptr64` | 869 | Exported Function
+`public: class UnBCL::Registry & __ptr64 __cdecl UnBCL::Registry::operator=(class UnBCL::Registry && __ptr64) __ptr64` | 868 | Exported Function
+`public: class UnBCL::Array<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::operator=(class UnBCL::Array<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 666 | Exported Function
+`public: class UnBCL::ArithmeticException & __ptr64 __cdecl UnBCL::ArithmeticException::operator=(class UnBCL::ArithmeticException const & __ptr64) __ptr64` | 793 | Exported Function
+`public: class UnBCL::Array<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::operator=(class UnBCL::Array<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 667 | Exported Function
+`public: class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::RegistryKey::GetSubKeyNames(void) __ptr64` | 1865 | Exported Function
+`public: class UnBCL::Array<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::operator*(void)const __ptr64` | 1005 | Exported Function
+`public: class UnBCL::ArgumentNullException & __ptr64 __cdecl UnBCL::ArgumentNullException::operator=(class UnBCL::ArgumentNullException const & __ptr64) __ptr64` | 789 | Exported Function
+`public: class UnBCL::ArgumentNullException & __ptr64 __cdecl UnBCL::ArgumentNullException::operator=(class UnBCL::ArgumentNullException && __ptr64) __ptr64` | 788 | Exported Function
+`public: class UnBCL::ArgumentOutOfRangeException & __ptr64 __cdecl UnBCL::ArgumentOutOfRangeException::operator=(class UnBCL::ArgumentOutOfRangeException && __ptr64) __ptr64` | 790 | Exported Function
+`public: class UnBCL::ArithmeticException & __ptr64 __cdecl UnBCL::ArithmeticException::operator=(class UnBCL::ArithmeticException && __ptr64) __ptr64` | 792 | Exported Function
+`public: class UnBCL::ArgumentOutOfRangeException & __ptr64 __cdecl UnBCL::ArgumentOutOfRangeException::operator=(class UnBCL::ArgumentOutOfRangeException const & __ptr64) __ptr64` | 791 | Exported Function
+`public: class UnBCL::Array<unsigned char> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::operator*(void)const __ptr64` | 1004 | Exported Function
+`public: class UnBCL::Array<unsigned char> & __ptr64 __cdecl UnBCL::Array<unsigned char>::operator=(class UnBCL::Array<unsigned char> const & __ptr64) __ptr64` | 663 | Exported Function
+`public: class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::MultiSz::ToByteArray(void)const __ptr64` | 2278 | Exported Function
+`public: class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::get_P(void)const __ptr64` | 2536 | Exported Function
+`public: class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::RegistryKey::GetBinaryValue(class UnBCL::String const * __ptr64) __ptr64` | 1759 | Exported Function
+`public: class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::get_P(void)const __ptr64` | 2537 | Exported Function
+`public: class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::RegistryKey::GetValueNames(void) __ptr64` | 1892 | Exported Function
+`public: class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::operator->(void)const __ptr64` | 993 | Exported Function
+`public: class UnBCL::Array<int> & __ptr64 __cdecl UnBCL::Array<int>::operator=(class UnBCL::Array<int> const & __ptr64) __ptr64` | 665 | Exported Function
+`public: class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::Steal(void) __ptr64` | 2223 | Exported Function
+`public: class UnBCL::ArgumentException & __ptr64 __cdecl UnBCL::ArgumentException::operator=(class UnBCL::ArgumentException const & __ptr64) __ptr64` | 787 | Exported Function
+`public: class UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::operator=(class UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 735 | Exported Function
+`public: class UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64>::operator=(class UnBCL::_::SerializableArrayListBase<class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 734 | Exported Function
+`public: class UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short> & __ptr64 __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::operator=(class UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short> && __ptr64) __ptr64` | 736 | Exported Function
+`public: class UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::operator=(class UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> && __ptr64) __ptr64` | 760 | Exported Function
+`public: class UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short> & __ptr64 __cdecl UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short>::operator=(class UnBCL::_::SerializableArrayListPrimitiveBase<unsigned short> const & __ptr64) __ptr64` | 737 | Exported Function
+`public: class UnBCL::_::SerializableArrayBase<unsigned char> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::operator=(class UnBCL::_::SerializableArrayBase<unsigned char> && __ptr64) __ptr64` | 726 | Exported Function
+`public: class UnBCL::_::SerializableArrayBase<int> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<int>::operator=(class UnBCL::_::SerializableArrayBase<int> const & __ptr64) __ptr64` | 731 | Exported Function
+`public: class UnBCL::_::SerializableArrayBase<unsigned char> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<unsigned char>::operator=(class UnBCL::_::SerializableArrayBase<unsigned char> const & __ptr64) __ptr64` | 727 | Exported Function
+`public: class UnBCL::_::SerializableArrayBase<unsigned short> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::operator=(class UnBCL::_::SerializableArrayBase<unsigned short> const & __ptr64) __ptr64` | 729 | Exported Function
+`public: class UnBCL::_::SerializableArrayBase<unsigned short> & __ptr64 __cdecl UnBCL::_::SerializableArrayBase<unsigned short>::operator=(class UnBCL::_::SerializableArrayBase<unsigned short> && __ptr64) __ptr64` | 728 | Exported Function
+`public: class UnBCL::Allocator & __ptr64 __cdecl UnBCL::Allocator::operator=(class UnBCL::Allocator const & __ptr64) __ptr64` | 783 | Exported Function
+`public: class UnBCL::Allocator & __ptr64 __cdecl UnBCL::Allocator::operator=(class UnBCL::Allocator && __ptr64) __ptr64` | 782 | Exported Function
+`public: class UnBCL::ApplicationException & __ptr64 __cdecl UnBCL::ApplicationException::operator=(class UnBCL::ApplicationException && __ptr64) __ptr64` | 784 | Exported Function
+`public: class UnBCL::ArgumentException & __ptr64 __cdecl UnBCL::ArgumentException::operator=(class UnBCL::ArgumentException && __ptr64) __ptr64` | 786 | Exported Function
+`public: class UnBCL::ApplicationException & __ptr64 __cdecl UnBCL::ApplicationException::operator=(class UnBCL::ApplicationException const & __ptr64) __ptr64` | 785 | Exported Function
+`public: class UnBCL::_::SerializableStackBase<int> & __ptr64 __cdecl UnBCL::_::SerializableStackBase<int>::operator=(class UnBCL::_::SerializableStackBase<int> && __ptr64) __ptr64` | 762 | Exported Function
+`public: class UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::operator=(class UnBCL::_::SerializableHashtableBase<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 761 | Exported Function
+`public: class UnBCL::_::SerializableStackBase<int> & __ptr64 __cdecl UnBCL::_::SerializableStackBase<int>::operator=(class UnBCL::_::SerializableStackBase<int> const & __ptr64) __ptr64` | 763 | Exported Function
+`public: class UnBCL::AbandonedMutexException & __ptr64 __cdecl UnBCL::AbandonedMutexException::operator=(class UnBCL::AbandonedMutexException const & __ptr64) __ptr64` | 781 | Exported Function
+`public: class UnBCL::AbandonedMutexException & __ptr64 __cdecl UnBCL::AbandonedMutexException::operator=(class UnBCL::AbandonedMutexException && __ptr64) __ptr64` | 780 | Exported Function
+`public: class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::operator->(void)const __ptr64` | 992 | Exported Function
+`public: class UnBCL::Decoder & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::operator*(void)const __ptr64` | 1007 | Exported Function
+`public: class UnBCL::Decoder & __ptr64 __cdecl UnBCL::Decoder::operator=(class UnBCL::Decoder const & __ptr64) __ptr64` | 802 | Exported Function
+`public: class UnBCL::Decoder * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::get_P(void)const __ptr64` | 2539 | Exported Function
+`public: class UnBCL::Decoder * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::Steal(void) __ptr64` | 2225 | Exported Function
+`public: class UnBCL::Decoder * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::operator->(void)const __ptr64` | 995 | Exported Function
+`public: class UnBCL::DateTime __cdecl UnBCL::DateTime::Add(class UnBCL::TimeSpan const & __ptr64)const __ptr64` | 1450 | Exported Function
+`public: class UnBCL::DateTime & __ptr64 __cdecl UnBCL::DateTime::operator=(class UnBCL::DateTime const & __ptr64) __ptr64` | 800 | Exported Function
+`public: class UnBCL::DateTime __cdecl UnBCL::DateTime::get_Date(void)const __ptr64` | 2423 | Exported Function
+`public: class UnBCL::Decoder & __ptr64 __cdecl UnBCL::Decoder::operator=(class UnBCL::Decoder && __ptr64) __ptr64` | 801 | Exported Function
+`public: class UnBCL::DateTime __cdecl UnBCL::DateTime::Subtract(class UnBCL::TimeSpan const & __ptr64)const __ptr64` | 2262 | Exported Function
+`public: class UnBCL::Encoding & __ptr64 __cdecl UnBCL::Encoding::operator=(class UnBCL::Encoding && __ptr64) __ptr64` | 809 | Exported Function
+`public: class UnBCL::DirectoryInfo & __ptr64 __cdecl UnBCL::DirectoryInfo::operator=(class UnBCL::DirectoryInfo const & __ptr64) __ptr64` | 808 | Exported Function
+`public: class UnBCL::Encoding & __ptr64 __cdecl UnBCL::Encoding::operator=(class UnBCL::Encoding const & __ptr64) __ptr64` | 810 | Exported Function
+`public: class UnBCL::Encoding * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::get_P(void)const __ptr64` | 2540 | Exported Function
+`public: class UnBCL::Encoding & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::operator*(void)const __ptr64` | 1008 | Exported Function
+`public: class UnBCL::Delegate & __ptr64 __cdecl UnBCL::Delegate::operator=(class UnBCL::Delegate const & __ptr64) __ptr64` | 804 | Exported Function
+`public: class UnBCL::Delegate & __ptr64 __cdecl UnBCL::Delegate::operator=(class UnBCL::Delegate && __ptr64) __ptr64` | 803 | Exported Function
+`public: class UnBCL::Directory & __ptr64 __cdecl UnBCL::Directory::operator=(class UnBCL::Directory && __ptr64) __ptr64` | 805 | Exported Function
+`public: class UnBCL::DirectoryInfo & __ptr64 __cdecl UnBCL::DirectoryInfo::operator=(class UnBCL::DirectoryInfo && __ptr64) __ptr64` | 807 | Exported Function
+`public: class UnBCL::Directory & __ptr64 __cdecl UnBCL::Directory::operator=(class UnBCL::Directory const & __ptr64) __ptr64` | 806 | Exported Function
+`public: class UnBCL::ConsoleLogHandler & __ptr64 __cdecl UnBCL::ConsoleLogHandler::operator=(class UnBCL::ConsoleLogHandler const & __ptr64) __ptr64` | 799 | Exported Function
+`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::Steal(void) __ptr64` | 2224 | Exported Function
+`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::operator->(void)const __ptr64` | 994 | Exported Function
+`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::String::Split(unsigned short const * __ptr64)const __ptr64` | 2216 | Exported Function
+`public: class UnBCL::ArrayList<unsigned char> & __ptr64 __cdecl UnBCL::SerializationStream::GetTempBuffer(int) __ptr64` | 1868 | Exported Function
+`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::String::Split(unsigned short const * __ptr64,int)const __ptr64` | 2217 | Exported Function
+`public: class UnBCL::Array<unsigned short> & __ptr64 __cdecl UnBCL::Array<unsigned short>::operator=(class UnBCL::Array<unsigned short> const & __ptr64) __ptr64` | 664 | Exported Function
+`public: class UnBCL::Array<unsigned char> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::Steal(void) __ptr64` | 2222 | Exported Function
+`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::operator=(class UnBCL::ArrayList<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 669 | Exported Function
+`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::get_P(void)const __ptr64` | 2538 | Exported Function
+`public: class UnBCL::ArrayList<class UnBCL::String * __ptr64> & __ptr64 __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::operator*(void)const __ptr64` | 1006 | Exported Function
+`public: class UnBCL::CaseInsensitiveStringComparer & __ptr64 __cdecl UnBCL::CaseInsensitiveStringComparer::operator=(class UnBCL::CaseInsensitiveStringComparer const & __ptr64) __ptr64` | 796 | Exported Function
+`public: class UnBCL::CaseInsensitiveStringComparer & __ptr64 __cdecl UnBCL::CaseInsensitiveStringComparer::operator=(class UnBCL::CaseInsensitiveStringComparer && __ptr64) __ptr64` | 795 | Exported Function
+`public: class UnBCL::Char & __ptr64 __cdecl UnBCL::Char::operator=(class UnBCL::Char const & __ptr64) __ptr64` | 797 | Exported Function
+`public: class UnBCL::ConsoleLogHandler & __ptr64 __cdecl UnBCL::ConsoleLogHandler::operator=(class UnBCL::ConsoleLogHandler && __ptr64) __ptr64` | 798 | Exported Function
+`public: class UnBCL::CollectionBase<class UnBCL::Object * __ptr64> & __ptr64 __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::operator=(class UnBCL::CollectionBase<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 680 | Exported Function
+`public: class UnBCL::ArrayList<unsigned short> & __ptr64 __cdecl UnBCL::ArrayList<unsigned short>::operator=(class UnBCL::ArrayList<unsigned short> const & __ptr64) __ptr64` | 668 | Exported Function
+`public: class UnBCL::ArrayList<unsigned char> & __ptr64 __cdecl UnBCL::SerializationStream::ReadBytes(int) __ptr64` | 2094 | Exported Function
+`public: class UnBCL::ASCIIEncoding & __ptr64 __cdecl UnBCL::ASCIIEncoding::operator=(class UnBCL::ASCIIEncoding && __ptr64) __ptr64` | 778 | Exported Function
+`public: class UnBCL::BufferedStream & __ptr64 __cdecl UnBCL::BufferedStream::operator=(class UnBCL::BufferedStream const & __ptr64) __ptr64` | 794 | Exported Function
+`public: class UnBCL::ASCIIEncoding & __ptr64 __cdecl UnBCL::ASCIIEncoding::operator=(class UnBCL::ASCIIEncoding const & __ptr64) __ptr64` | 779 | Exported Function
+`public: __cdecl UnBCL::StreamReader::StreamReader(class UnBCL::String const * __ptr64,class UnBCL::Encoding * __ptr64) __ptr64` | 400 | Exported Function
+`public: __cdecl UnBCL::ICollection<unsigned short>::ICollection<unsigned short>(void) __ptr64` | 61 | Exported Function
+`public: __cdecl UnBCL::ICollection<unsigned short>::ICollection<unsigned short>(struct UnBCL::ICollection<unsigned short> const & __ptr64) __ptr64` | 60 | Exported Function
+`public: __cdecl UnBCL::IComparer<class UnBCL::String * __ptr64>::IComparer<class UnBCL::String * __ptr64>(struct UnBCL::IComparer<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 70 | Exported Function
+`public: __cdecl UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 72 | Exported Function
+`public: __cdecl UnBCL::IComparer<class UnBCL::String * __ptr64>::IComparer<class UnBCL::String * __ptr64>(void) __ptr64` | 71 | Exported Function
+`public: __cdecl UnBCL::ICollection<int>::ICollection<int>(struct UnBCL::ICollection<int> const & __ptr64) __ptr64` | 62 | Exported Function
+`public: __cdecl UnBCL::ICollection<class UnBCL::String * __ptr64>::ICollection<class UnBCL::String * __ptr64>(void) __ptr64` | 67 | Exported Function
+`public: __cdecl UnBCL::ICollection<int>::ICollection<int>(void) __ptr64` | 63 | Exported Function
+`public: __cdecl UnBCL::ICollection<unsigned char>::ICollection<unsigned char>(void) __ptr64` | 59 | Exported Function
+`public: __cdecl UnBCL::ICollection<unsigned char>::ICollection<unsigned char>(struct UnBCL::ICollection<unsigned char> const & __ptr64) __ptr64` | 58 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<class UnBCL::Object * __ptr64>::IEnumerable<class UnBCL::Object * __ptr64>(struct UnBCL::IEnumerable<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 80 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >(void) __ptr64` | 87 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<class UnBCL::Object * __ptr64>::IEnumerable<class UnBCL::Object * __ptr64>(void) __ptr64` | 81 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<class UnBCL::String * __ptr64>::IEnumerable<class UnBCL::String * __ptr64>(void) __ptr64` | 83 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<class UnBCL::String * __ptr64>::IEnumerable<class UnBCL::String * __ptr64>(struct UnBCL::IEnumerable<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 82 | Exported Function
+`public: __cdecl UnBCL::IDisposable::IDisposable(struct UnBCL::IDisposable && __ptr64) __ptr64` | 273 | Exported Function
+`public: __cdecl UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(void) __ptr64` | 73 | Exported Function
+`public: __cdecl UnBCL::IDisposable::IDisposable(struct UnBCL::IDisposable const & __ptr64) __ptr64` | 274 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >(struct UnBCL::IEnumerable<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 86 | Exported Function
+`public: __cdecl UnBCL::IDisposable::IDisposable(void) __ptr64` | 275 | Exported Function
+`public: __cdecl UnBCL::ICollection<class UnBCL::String * __ptr64>::ICollection<class UnBCL::String * __ptr64>(struct UnBCL::ICollection<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 66 | Exported Function
+`public: __cdecl UnBCL::FormatException::FormatException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 268 | Exported Function
+`public: __cdecl UnBCL::FormatException::FormatException(class UnBCL::String * __ptr64) __ptr64` | 267 | Exported Function
+`public: __cdecl UnBCL::FormatException::FormatException(unsigned short const * __ptr64) __ptr64` | 269 | Exported Function
+`public: __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 53 | Exported Function
+`public: __cdecl UnBCL::FormatException::FormatException(void) __ptr64` | 270 | Exported Function
+`public: __cdecl UnBCL::FileSystemEnumerator::FileSystemEnumerator(class UnBCL::FileSystemEnumerator const & __ptr64) __ptr64` | 263 | Exported Function
+`public: __cdecl UnBCL::FileStream::FileStream(void * __ptr64,enum UnBCL::FileAccess) __ptr64` | 261 | Exported Function
+`public: __cdecl UnBCL::FileSystemEnumerator::FileSystemEnumerator(unsigned short const * __ptr64,unsigned short const * __ptr64) __ptr64` | 264 | Exported Function
+`public: __cdecl UnBCL::FormatException::FormatException(class UnBCL::FormatException const & __ptr64) __ptr64` | 266 | Exported Function
+`public: __cdecl UnBCL::FormatException::FormatException(class UnBCL::FormatException && __ptr64) __ptr64` | 265 | Exported Function
+`public: __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >(struct UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 68 | Exported Function
+`public: __cdecl UnBCL::HeapMemoryManager::HeapMemoryManager(void) __ptr64` | 272 | Exported Function
+`public: __cdecl UnBCL::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::ICollection<class UnBCL::DictionaryEntry<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >(void) __ptr64` | 69 | Exported Function
+`public: __cdecl UnBCL::ICollection<class UnBCL::Object * __ptr64>::ICollection<class UnBCL::Object * __ptr64>(void) __ptr64` | 65 | Exported Function
+`public: __cdecl UnBCL::ICollection<class UnBCL::Object * __ptr64>::ICollection<class UnBCL::Object * __ptr64>(struct UnBCL::ICollection<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 64 | Exported Function
+`public: __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(int,int) __ptr64` | 55 | Exported Function
+`public: __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(int) __ptr64` | 54 | Exported Function
+`public: __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(struct UnBCL::IDictionary<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> const * __ptr64) __ptr64` | 56 | Exported Function
+`public: __cdecl UnBCL::HeapMemoryManager::HeapMemoryManager(class UnBCL::HeapMemoryManager const & __ptr64) __ptr64` | 271 | Exported Function
+`public: __cdecl UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>(void) __ptr64` | 57 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<int>::IEnumerable<int>(struct UnBCL::IEnumerable<int> const & __ptr64) __ptr64` | 78 | Exported Function
+`public: __cdecl UnBCL::IndexOutOfRangeException::IndexOutOfRangeException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 288 | Exported Function
+`public: __cdecl UnBCL::IndexOutOfRangeException::IndexOutOfRangeException(class UnBCL::String * __ptr64) __ptr64` | 287 | Exported Function
+`public: __cdecl UnBCL::IndexOutOfRangeException::IndexOutOfRangeException(unsigned short const * __ptr64) __ptr64` | 289 | Exported Function
+`public: __cdecl UnBCL::InvalidCastException::InvalidCastException(class UnBCL::InvalidCastException && __ptr64) __ptr64` | 291 | Exported Function
+`public: __cdecl UnBCL::IndexOutOfRangeException::IndexOutOfRangeException(void) __ptr64` | 290 | Exported Function
+`public: __cdecl UnBCL::IList<unsigned short>::IList<unsigned short>(struct UnBCL::IList<unsigned short> const & __ptr64) __ptr64` | 94 | Exported Function
+`public: __cdecl UnBCL::IList<unsigned char>::IList<unsigned char>(void) __ptr64` | 93 | Exported Function
+`public: __cdecl UnBCL::IList<unsigned short>::IList<unsigned short>(void) __ptr64` | 95 | Exported Function
+`public: __cdecl UnBCL::IndexOutOfRangeException::IndexOutOfRangeException(class UnBCL::IndexOutOfRangeException const & __ptr64) __ptr64` | 286 | Exported Function
+`public: __cdecl UnBCL::IndexOutOfRangeException::IndexOutOfRangeException(class UnBCL::IndexOutOfRangeException && __ptr64) __ptr64` | 285 | Exported Function
+`public: __cdecl UnBCL::InvalidOperationException::InvalidOperationException(class UnBCL::InvalidOperationException const & __ptr64) __ptr64` | 298 | Exported Function
+`public: __cdecl UnBCL::InvalidOperationException::InvalidOperationException(class UnBCL::InvalidOperationException && __ptr64) __ptr64` | 297 | Exported Function
+`public: __cdecl UnBCL::InvalidOperationException::InvalidOperationException(class UnBCL::String const * __ptr64) __ptr64` | 300 | Exported Function
+`public: __cdecl UnBCL::InvalidOperationException::InvalidOperationException(unsigned short const * __ptr64) __ptr64` | 299 | Exported Function
+`public: __cdecl UnBCL::InvalidOperationException::InvalidOperationException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 301 | Exported Function
+`public: __cdecl UnBCL::InvalidCastException::InvalidCastException(class UnBCL::String * __ptr64) __ptr64` | 293 | Exported Function
+`public: __cdecl UnBCL::InvalidCastException::InvalidCastException(class UnBCL::InvalidCastException const & __ptr64) __ptr64` | 292 | Exported Function
+`public: __cdecl UnBCL::InvalidCastException::InvalidCastException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 294 | Exported Function
+`public: __cdecl UnBCL::InvalidCastException::InvalidCastException(void) __ptr64` | 296 | Exported Function
+`public: __cdecl UnBCL::InvalidCastException::InvalidCastException(unsigned short const * __ptr64) __ptr64` | 295 | Exported Function
+`public: __cdecl UnBCL::IList<unsigned char>::IList<unsigned char>(struct UnBCL::IList<unsigned char> const & __ptr64) __ptr64` | 92 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<unsigned short>::IEnumerable<unsigned short>(void) __ptr64` | 77 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<unsigned short>::IEnumerable<unsigned short>(struct UnBCL::IEnumerable<unsigned short> const & __ptr64) __ptr64` | 76 | Exported Function
+`public: __cdecl UnBCL::IEnumerator<class UnBCL::String * __ptr64>::IEnumerator<class UnBCL::String * __ptr64>(struct UnBCL::IEnumerator<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 88 | Exported Function
+`public: __cdecl UnBCL::IEnumerator<unsigned short const * __ptr64>::IEnumerator<unsigned short const * __ptr64>(struct UnBCL::IEnumerator<unsigned short const * __ptr64> const & __ptr64) __ptr64` | 90 | Exported Function
+`public: __cdecl UnBCL::IEnumerator<class UnBCL::String * __ptr64>::IEnumerator<class UnBCL::String * __ptr64>(void) __ptr64` | 89 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<unsigned char>::IEnumerable<unsigned char>(struct UnBCL::IEnumerable<unsigned char> const & __ptr64) __ptr64` | 74 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<int>::IEnumerable<int>(void) __ptr64` | 79 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<unsigned char>::IEnumerable<unsigned char>(void) __ptr64` | 75 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<unsigned short const * __ptr64>::IEnumerable<unsigned short const * __ptr64>(void) __ptr64` | 85 | Exported Function
+`public: __cdecl UnBCL::IEnumerable<unsigned short const * __ptr64>::IEnumerable<unsigned short const * __ptr64>(struct UnBCL::IEnumerable<unsigned short const * __ptr64> const & __ptr64) __ptr64` | 84 | Exported Function
+`public: __cdecl UnBCL::IList<class UnBCL::String * __ptr64>::IList<class UnBCL::String * __ptr64>(struct UnBCL::IList<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 100 | Exported Function
+`public: __cdecl UnBCL::IList<class UnBCL::Object * __ptr64>::IList<class UnBCL::Object * __ptr64>(void) __ptr64` | 99 | Exported Function
+`public: __cdecl UnBCL::IList<class UnBCL::String * __ptr64>::IList<class UnBCL::String * __ptr64>(void) __ptr64` | 101 | Exported Function
+`public: __cdecl UnBCL::IList<int>::IList<int>(void) __ptr64` | 97 | Exported Function
+`public: __cdecl UnBCL::IList<int>::IList<int>(struct UnBCL::IList<int> const & __ptr64) __ptr64` | 96 | Exported Function
+`public: __cdecl UnBCL::IInstanceFactory::IInstanceFactory(struct UnBCL::IInstanceFactory && __ptr64) __ptr64` | 276 | Exported Function
+`public: __cdecl UnBCL::IEnumerator<unsigned short const * __ptr64>::IEnumerator<unsigned short const * __ptr64>(void) __ptr64` | 91 | Exported Function
+`public: __cdecl UnBCL::IInstanceFactory::IInstanceFactory(struct UnBCL::IInstanceFactory const & __ptr64) __ptr64` | 277 | Exported Function
+`public: __cdecl UnBCL::IList<class UnBCL::Object * __ptr64>::IList<class UnBCL::Object * __ptr64>(struct UnBCL::IList<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 98 | Exported Function
+`public: __cdecl UnBCL::IInstanceFactory::IInstanceFactory(void) __ptr64` | 278 | Exported Function
+`public: __cdecl UnBCL::Array<unsigned char>::Array<unsigned char>(int,int) __ptr64` | 3 | Exported Function
+`public: __cdecl UnBCL::Array<unsigned char>::Array<unsigned char>(class UnBCL::Array<unsigned char> const & __ptr64) __ptr64` | 2 | Exported Function
+`public: __cdecl UnBCL::Array<unsigned char>::Array<unsigned char>(struct UnBCL::ICollection<unsigned char> const * __ptr64) __ptr64` | 4 | Exported Function
+`public: __cdecl UnBCL::Array<unsigned short>::Array<unsigned short>(int,int) __ptr64` | 7 | Exported Function
+`public: __cdecl UnBCL::Array<unsigned short>::Array<unsigned short>(class UnBCL::Array<unsigned short> const & __ptr64) __ptr64` | 6 | Exported Function
+`public: __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Array<class UnBCL::String * __ptr64>(struct UnBCL::ICollection<class UnBCL::String * __ptr64> const * __ptr64) __ptr64` | 20 | Exported Function
+`public: __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Array<class UnBCL::String * __ptr64>(int,int) __ptr64` | 19 | Exported Function
+`public: __cdecl UnBCL::Array<int>::Array<int>(class UnBCL::Array<int> const & __ptr64) __ptr64` | 10 | Exported Function
+`public: __cdecl UnBCL::Array<int>::Array<int>(struct UnBCL::ICollection<int> const * __ptr64) __ptr64` | 12 | Exported Function
+`public: __cdecl UnBCL::Array<int>::Array<int>(int,int) __ptr64` | 11 | Exported Function
+`public: __cdecl UnBCL::ArrayList<unsigned short>::ArrayList<unsigned short>(void) __ptr64` | 24 | Exported Function
+`public: __cdecl UnBCL::ArrayList<unsigned short>::ArrayList<unsigned short>(struct UnBCL::ICollection<unsigned short> const * __ptr64) __ptr64` | 23 | Exported Function
+`public: __cdecl UnBCL::ASCIIEncoding::ASCIIEncoding(class UnBCL::ASCIIEncoding && __ptr64) __ptr64` | 180 | Exported Function
+`public: __cdecl UnBCL::ASCIIEncoding::ASCIIEncoding(void) __ptr64` | 182 | Exported Function
+`public: __cdecl UnBCL::ASCIIEncoding::ASCIIEncoding(class UnBCL::ASCIIEncoding const & __ptr64) __ptr64` | 181 | Exported Function
+`public: __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::ArrayList<class UnBCL::String * __ptr64>(int,int) __ptr64` | 26 | Exported Function
+`public: __cdecl UnBCL::Array<unsigned short>::Array<unsigned short>(struct UnBCL::ICollection<unsigned short> const * __ptr64) __ptr64` | 8 | Exported Function
+`public: __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::ArrayList<class UnBCL::String * __ptr64>(struct UnBCL::ICollection<class UnBCL::String * __ptr64> const * __ptr64) __ptr64` | 27 | Exported Function
+`public: __cdecl UnBCL::ArrayList<unsigned short>::ArrayList<unsigned short>(int,int) __ptr64` | 22 | Exported Function
+`public: __cdecl UnBCL::ArrayList<class UnBCL::String * __ptr64>::ArrayList<class UnBCL::String * __ptr64>(void) __ptr64` | 28 | Exported Function
+`public: __cdecl UnBCL::Array<class UnBCL::String * __ptr64>::Array<class UnBCL::String * __ptr64>(class UnBCL::Array<class UnBCL::String * __ptr64> const & __ptr64) __ptr64` | 18 | Exported Function
+`public: __cdecl UnBCL::ArgumentOutOfRangeException::ArgumentOutOfRangeException(class UnBCL::ArgumentOutOfRangeException const & __ptr64) __ptr64` | 208 | Exported Function
+`public: __cdecl UnBCL::ArgumentOutOfRangeException::ArgumentOutOfRangeException(class UnBCL::ArgumentOutOfRangeException && __ptr64) __ptr64` | 207 | Exported Function
+`public: __cdecl UnBCL::ArgumentOutOfRangeException::ArgumentOutOfRangeException(class UnBCL::String const * __ptr64) __ptr64` | 210 | Exported Function
+`public: __cdecl UnBCL::ArgumentOutOfRangeException::ArgumentOutOfRangeException(unsigned short const * __ptr64) __ptr64` | 209 | Exported Function
+`public: __cdecl UnBCL::ArgumentOutOfRangeException::ArgumentOutOfRangeException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 211 | Exported Function
+`public: __cdecl UnBCL::ArgumentNullException::ArgumentNullException(class UnBCL::String const * __ptr64) __ptr64` | 204 | Exported Function
+`public: __cdecl UnBCL::ArgumentNullException::ArgumentNullException(class UnBCL::ArgumentNullException const & __ptr64) __ptr64` | 202 | Exported Function
+`public: __cdecl UnBCL::ArgumentNullException::ArgumentNullException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 205 | Exported Function
+`public: __cdecl UnBCL::ArgumentNullException::ArgumentNullException(void) __ptr64` | 206 | Exported Function
+`public: __cdecl UnBCL::ArgumentNullException::ArgumentNullException(unsigned short const * __ptr64) __ptr64` | 203 | Exported Function
+`public: __cdecl UnBCL::ArithmeticException::ArithmeticException(void) __ptr64` | 218 | Exported Function
+`public: __cdecl UnBCL::ArithmeticException::ArithmeticException(unsigned short const * __ptr64) __ptr64` | 215 | Exported Function
+`public: __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Array<class UnBCL::Object * __ptr64>(class UnBCL::Array<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 14 | Exported Function
+`public: __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Array<class UnBCL::Object * __ptr64>(struct UnBCL::ICollection<class UnBCL::Object * __ptr64> const * __ptr64) __ptr64` | 16 | Exported Function
+`public: __cdecl UnBCL::Array<class UnBCL::Object * __ptr64>::Array<class UnBCL::Object * __ptr64>(int,int) __ptr64` | 15 | Exported Function
+`public: __cdecl UnBCL::ArithmeticException::ArithmeticException(class UnBCL::ArithmeticException && __ptr64) __ptr64` | 213 | Exported Function
+`public: __cdecl UnBCL::ArgumentOutOfRangeException::ArgumentOutOfRangeException(void) __ptr64` | 212 | Exported Function
+`public: __cdecl UnBCL::ArithmeticException::ArithmeticException(class UnBCL::ArithmeticException const & __ptr64) __ptr64` | 214 | Exported Function
+`public: __cdecl UnBCL::ArithmeticException::ArithmeticException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 217 | Exported Function
+`public: __cdecl UnBCL::ArithmeticException::ArithmeticException(class UnBCL::String const * __ptr64) __ptr64` | 216 | Exported Function
+`public: __cdecl UnBCL::BufferedStream::BufferedStream(class UnBCL::BufferedStream const & __ptr64) __ptr64` | 219 | Exported Function
+`public: __cdecl UnBCL::Exception::Exception(class UnBCL::Exception const & __ptr64) __ptr64` | 247 | Exported Function
+`public: __cdecl UnBCL::Exception::Exception(class UnBCL::Exception * __ptr64,unsigned short const * __ptr64) __ptr64` | 248 | Exported Function
+`public: __cdecl UnBCL::Exception::Exception(class UnBCL::String const * __ptr64) __ptr64` | 250 | Exported Function
+`public: __cdecl UnBCL::Exception::Exception(unsigned short const * __ptr64) __ptr64` | 249 | Exported Function
+`public: __cdecl UnBCL::Exception::Exception(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 251 | Exported Function
+`public: __cdecl UnBCL::DirectoryInfo::DirectoryInfo(class UnBCL::DirectoryInfo const & __ptr64) __ptr64` | 241 | Exported Function
+`public: __cdecl UnBCL::DirectoryInfo::DirectoryInfo(class UnBCL::DirectoryInfo && __ptr64) __ptr64` | 240 | Exported Function
+`public: __cdecl UnBCL::DirectoryInfo::DirectoryInfo(void) __ptr64` | 242 | Exported Function
+`public: __cdecl UnBCL::Encoding::Encoding(class UnBCL::Encoding const & __ptr64) __ptr64` | 245 | Exported Function
+`public: __cdecl UnBCL::Encoding::Encoding(class UnBCL::Encoding && __ptr64) __ptr64` | 244 | Exported Function
+`public: __cdecl UnBCL::ExternalException::ExternalException(unsigned short const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 256 | Exported Function
+`public: __cdecl UnBCL::ExternalException::ExternalException(unsigned short const * __ptr64) __ptr64` | 255 | Exported Function
+`public: __cdecl UnBCL::ExternalException::ExternalException(void) __ptr64` | 259 | Exported Function
+`public: __cdecl UnBCL::FileStream::FileStream(class UnBCL::String const * __ptr64,enum UnBCL::FileMode,enum UnBCL::FileAccess,enum UnBCL::FileShare,unsigned long) __ptr64` | 262 | Exported Function
+`public: __cdecl UnBCL::FileStream::FileStream(class UnBCL::FileStream const & __ptr64) __ptr64` | 260 | Exported Function
+`public: __cdecl UnBCL::ExternalException::ExternalException(class UnBCL::ExternalException && __ptr64) __ptr64` | 253 | Exported Function
+`public: __cdecl UnBCL::Exception::Exception(void) __ptr64` | 252 | Exported Function
+`public: __cdecl UnBCL::ExternalException::ExternalException(class UnBCL::ExternalException const & __ptr64) __ptr64` | 254 | Exported Function
+`public: __cdecl UnBCL::ExternalException::ExternalException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 258 | Exported Function
+`public: __cdecl UnBCL::ExternalException::ExternalException(class UnBCL::String const * __ptr64) __ptr64` | 257 | Exported Function
+`public: __cdecl UnBCL::Delegate::Delegate(void) __ptr64` | 239 | Exported Function
+`public: __cdecl UnBCL::Char::Char(void) __ptr64` | 226 | Exported Function
+`public: __cdecl UnBCL::Char::Char(unsigned short) __ptr64` | 225 | Exported Function
+`public: __cdecl UnBCL::Char::operator unsigned short(void) __ptr64` | 988 | Exported Function
+`public: __cdecl UnBCL::ConsoleLogHandler::ConsoleLogHandler(class UnBCL::ConsoleLogHandler && __ptr64) __ptr64` | 227 | Exported Function
+`public: __cdecl UnBCL::CollectionBase<class UnBCL::Object * __ptr64>::CollectionBase<class UnBCL::Object * __ptr64>(class UnBCL::CollectionBase<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 52 | Exported Function
+`public: __cdecl UnBCL::CaseInsensitiveStringComparer::CaseInsensitiveStringComparer(class UnBCL::CaseInsensitiveStringComparer && __ptr64) __ptr64` | 221 | Exported Function
+`public: __cdecl UnBCL::BufferedStream::BufferedStream(class UnBCL::Stream * __ptr64,unsigned long) __ptr64` | 220 | Exported Function
+`public: __cdecl UnBCL::CaseInsensitiveStringComparer::CaseInsensitiveStringComparer(class UnBCL::CaseInsensitiveStringComparer const & __ptr64) __ptr64` | 222 | Exported Function
+`public: __cdecl UnBCL::Char::Char(class UnBCL::Char const & __ptr64) __ptr64` | 224 | Exported Function
+`public: __cdecl UnBCL::CaseInsensitiveStringComparer::CaseInsensitiveStringComparer(void) __ptr64` | 223 | Exported Function
+`public: __cdecl UnBCL::Decoder::Decoder(class UnBCL::Decoder const & __ptr64) __ptr64` | 235 | Exported Function
+`public: __cdecl UnBCL::Decoder::Decoder(class UnBCL::Decoder && __ptr64) __ptr64` | 234 | Exported Function
+`public: __cdecl UnBCL::Decoder::Decoder(void) __ptr64` | 236 | Exported Function
+`public: __cdecl UnBCL::Delegate::Delegate(class UnBCL::Delegate const & __ptr64) __ptr64` | 238 | Exported Function
+`public: __cdecl UnBCL::Delegate::Delegate(class UnBCL::Delegate && __ptr64) __ptr64` | 237 | Exported Function
+`public: __cdecl UnBCL::ConsoleLogHandler::ConsoleLogHandler(void) __ptr64` | 229 | Exported Function
+`public: __cdecl UnBCL::ConsoleLogHandler::ConsoleLogHandler(class UnBCL::ConsoleLogHandler const & __ptr64) __ptr64` | 228 | Exported Function
+`public: __cdecl UnBCL::DateTime::DateTime(__int64) __ptr64` | 233 | Exported Function
+`public: __cdecl UnBCL::DateTime::DateTime(int,int,int,int,int,int,int) __ptr64` | 232 | Exported Function
+`public: __cdecl UnBCL::DateTime::DateTime(class UnBCL::DateTime const & __ptr64) __ptr64` | 231 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >(void) __ptr64` | 145 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >(class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 143 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::operator class UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::NullTest * __ptr64(void)const __ptr64` | 976 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::SmartPtr<class UnBCL::Array<unsigned char> >(class UnBCL::SmartPtr<class UnBCL::Array<unsigned char> > const & __ptr64) __ptr64` | 140 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::SmartPtr<class UnBCL::Array<unsigned char> >(class UnBCL::Array<unsigned char> * __ptr64) __ptr64` | 141 | Exported Function
+`public: __cdecl UnBCL::SerializationId::SerializationId(class UnBCL::String * __ptr64,int) __ptr64` | 391 | Exported Function
+`public: __cdecl UnBCL::SerializationId::SerializationId(class UnBCL::SerializationId const & __ptr64) __ptr64` | 390 | Exported Function
+`public: __cdecl UnBCL::SerializationStream::SerializationStream(class UnBCL::Stream * __ptr64,enum UnBCL::SerializationStream::Mode,class UnBCL::Object * __ptr64) __ptr64` | 393 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >(class UnBCL::Array<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 144 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::operator class UnBCL::SmartPtr<class UnBCL::Array<class UnBCL::String * __ptr64> >::NullTest * __ptr64(void)const __ptr64` | 977 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::SmartPtr<class UnBCL::Decoder>(class UnBCL::Decoder * __ptr64) __ptr64` | 150 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::operator class UnBCL::SmartPtr<class UnBCL::Decoder>::NullTest * __ptr64(void)const __ptr64` | 979 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::SmartPtr<class UnBCL::Decoder>(class UnBCL::SmartPtr<class UnBCL::Decoder> const & __ptr64) __ptr64` | 149 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::operator class UnBCL::SmartPtr<class UnBCL::Encoding>::NullTest * __ptr64(void)const __ptr64` | 980 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Decoder>::SmartPtr<class UnBCL::Decoder>(void) __ptr64` | 151 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::operator class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::NullTest * __ptr64(void)const __ptr64` | 978 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Array<unsigned char> >::SmartPtr<class UnBCL::Array<unsigned char> >(void) __ptr64` | 142 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >(class UnBCL::ArrayList<class UnBCL::String * __ptr64> * __ptr64) __ptr64` | 147 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >(void) __ptr64` | 148 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >(class UnBCL::SmartPtr<class UnBCL::ArrayList<class UnBCL::String * __ptr64> > const & __ptr64) __ptr64` | 146 | Exported Function
+`public: __cdecl UnBCL::SerializationException::SerializationException(void) __ptr64` | 389 | Exported Function
+`public: __cdecl UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> >(class UnBCL::SerializableBase<class UnBCL::Array<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<int>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 119 | Exported Function
+`public: __cdecl UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> >(class UnBCL::SerializableBase<class UnBCL::Array<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<class UnBCL::String * __ptr64>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 121 | Exported Function
+`public: __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> >(class UnBCL::SerializableBase<class UnBCL::Array<unsigned char>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned char>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 115 | Exported Function
+`public: __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> >(class UnBCL::SerializableBase<class UnBCL::ArrayList<class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<class UnBCL::String * __ptr64> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 125 | Exported Function
+`public: __cdecl UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> >(class UnBCL::SerializableBase<class UnBCL::Array<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticArrayOps<unsigned short>::NewLarvalArray(void)> > const & __ptr64) __ptr64` | 117 | Exported Function
+`public: __cdecl UnBCL::SecurityException::SecurityException(void) __ptr64` | 384 | Exported Function
+`public: __cdecl UnBCL::SecurityException::SecurityException(unsigned short const * __ptr64) __ptr64` | 383 | Exported Function
+`public: __cdecl UnBCL::SEHException::SEHException(class UnBCL::SEHException && __ptr64) __ptr64` | 375 | Exported Function
+`public: __cdecl UnBCL::SEHException::SEHException(unsigned int) __ptr64` | 377 | Exported Function
+`public: __cdecl UnBCL::SEHException::SEHException(class UnBCL::SEHException const & __ptr64) __ptr64` | 376 | Exported Function
+`public: __cdecl UnBCL::SerializationException::SerializationException(class UnBCL::SerializationException && __ptr64) __ptr64` | 385 | Exported Function
+`public: __cdecl UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> >(class UnBCL::SerializableBase<class UnBCL::Version,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Version>::OperatorNew(void)> > const & __ptr64) __ptr64` | 135 | Exported Function
+`public: __cdecl UnBCL::SerializationException::SerializationException(class UnBCL::SerializationException const & __ptr64) __ptr64` | 386 | Exported Function
+`public: __cdecl UnBCL::SerializationException::SerializationException(unsigned short const * __ptr64) __ptr64` | 387 | Exported Function
+`public: __cdecl UnBCL::SerializationException::SerializationException(class UnBCL::String const * __ptr64) __ptr64` | 388 | Exported Function
+`public: __cdecl UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> >(class UnBCL::SerializableBase<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Hashtable<class UnBCL::String * __ptr64,class UnBCL::String * __ptr64> >::OperatorNew(void)> > c` | 127 | Exported Function
+`public: __cdecl UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> >(class UnBCL::SerializableBase<class UnBCL::ArrayList<unsigned short>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::ArrayList<unsigned short> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 123 | Exported Function
+`public: __cdecl UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> >(class UnBCL::SerializableBase<class UnBCL::MultiSz,0,class UnBCL::DefaultInstanceFactory<class UnBCL::MultiSz> > const & __ptr64) __ptr64` | 131 | Exported Function
+`public: __cdecl UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> >(class UnBCL::SerializableBase<class UnBCL::Stack<int>,0,class UnBCL::SimpleInstanceFactory<&public: static struct UnBCL::ISerializable * __ptr64 __cdecl UnBCL::_::StaticOps<class UnBCL::Stack<int> >::OperatorNew(void)> > const & __ptr64) __ptr64` | 129 | Exported Function
+`public: __cdecl UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> >(class UnBCL::SerializableBase<class UnBCL::OperatingSystem,1,class UnBCL::DefaultInstanceFactory<class UnBCL::OperatingSystem> > const & __ptr64) __ptr64` | 133 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::SmartPtr<class UnBCL::Encoding>(class UnBCL::Encoding * __ptr64) __ptr64` | 153 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::SmartPtr<class UnBCL::XmlNamespaceManager>(class UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager> const & __ptr64) __ptr64` | 173 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::operator class UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::NullTest * __ptr64(void)const __ptr64` | 987 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::SmartPtr<class UnBCL::XmlNamespaceManager>(class UnBCL::XmlNamespaceManager * __ptr64) __ptr64` | 174 | Exported Function
+`public: __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Stack<class UnBCL::Object * __ptr64>(class UnBCL::Stack<class UnBCL::Object * __ptr64> const & __ptr64) __ptr64` | 178 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::XmlNamespaceManager>::SmartPtr<class UnBCL::XmlNamespaceManager>(void) __ptr64` | 175 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Version>::operator class UnBCL::SmartPtr<class UnBCL::Version>::NullTest * __ptr64(void)const __ptr64` | 986 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::String>::SmartPtr<class UnBCL::String>(void) __ptr64` | 169 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Version>::SmartPtr<class UnBCL::Version>(class UnBCL::SmartPtr<class UnBCL::Version> const & __ptr64) __ptr64` | 170 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Version>::SmartPtr<class UnBCL::Version>(void) __ptr64` | 172 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Version>::SmartPtr<class UnBCL::Version>(class UnBCL::Version * __ptr64) __ptr64` | 171 | Exported Function
+`public: __cdecl UnBCL::StreamCounter::StreamCounter(void) __ptr64` | 397 | Exported Function
+`public: __cdecl UnBCL::Stream::Stream(void) __ptr64` | 396 | Exported Function
+`public: __cdecl UnBCL::StreamCounter::~StreamCounter(void) __ptr64` | 624 | Exported Function
+`public: __cdecl UnBCL::StreamReader::StreamReader(class UnBCL::StreamReader const & __ptr64) __ptr64` | 398 | Exported Function
+`public: __cdecl UnBCL::StreamReader::StreamReader(class UnBCL::Stream * __ptr64,class UnBCL::Encoding * __ptr64) __ptr64` | 399 | Exported Function
+`public: __cdecl UnBCL::Stack<int>::Stack<int>(class UnBCL::Stack<int> const & __ptr64) __ptr64` | 176 | Exported Function
+`public: __cdecl UnBCL::Stack<class UnBCL::Object * __ptr64>::Stack<class UnBCL::Object * __ptr64>(void) __ptr64` | 179 | Exported Function
+`public: __cdecl UnBCL::Stack<int>::Stack<int>(void) __ptr64` | 177 | Exported Function
+`public: __cdecl UnBCL::Stream::Stream(class UnBCL::Stream const & __ptr64) __ptr64` | 395 | Exported Function
+`public: __cdecl UnBCL::Stream::Stream(class UnBCL::Stream && __ptr64) __ptr64` | 394 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::String>::SmartPtr<class UnBCL::String>(class UnBCL::String * __ptr64) __ptr64` | 168 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::operator class UnBCL::SmartPtr<class UnBCL::SerializationId>::NullTest * __ptr64(void)const __ptr64` | 982 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Object>::SmartPtr<class UnBCL::Object>(void) __ptr64` | 157 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::SmartPtr<class UnBCL::SerializationId>(class UnBCL::SerializationId * __ptr64) __ptr64` | 159 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::SmartPtr<class UnBCL::SerializationId>(void) __ptr64` | 160 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationId>::SmartPtr<class UnBCL::SerializationId>(class UnBCL::SmartPtr<class UnBCL::SerializationId> const & __ptr64) __ptr64` | 158 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::SmartPtr<class UnBCL::Encoding>(void) __ptr64` | 154 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Encoding>::SmartPtr<class UnBCL::Encoding>(class UnBCL::SmartPtr<class UnBCL::Encoding> const & __ptr64) __ptr64` | 152 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Object>::operator class UnBCL::SmartPtr<class UnBCL::Object>::NullTest * __ptr64(void)const __ptr64` | 981 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Object>::SmartPtr<class UnBCL::Object>(class UnBCL::SmartPtr<class UnBCL::Object> const & __ptr64) __ptr64` | 155 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Object>::SmartPtr<class UnBCL::Object>(class UnBCL::Object * __ptr64) __ptr64` | 156 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::SmartPtr<class UnBCL::Stream>(class UnBCL::Stream * __ptr64) __ptr64` | 165 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::SmartPtr<class UnBCL::Stream>(class UnBCL::SmartPtr<class UnBCL::Stream> const & __ptr64) __ptr64` | 164 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::SmartPtr<class UnBCL::Stream>(void) __ptr64` | 166 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::String>::SmartPtr<class UnBCL::String>(class UnBCL::SmartPtr<class UnBCL::String> const & __ptr64) __ptr64` | 167 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::String>::operator class UnBCL::SmartPtr<class UnBCL::String>::NullTest * __ptr64(void)const __ptr64` | 985 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::SmartPtr<class UnBCL::SerializationStream>(class UnBCL::SerializationStream * __ptr64) __ptr64` | 162 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::operator class UnBCL::SmartPtr<class UnBCL::SerializationStream>::NullTest * __ptr64(void)const __ptr64` | 983 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::SmartPtr<class UnBCL::SerializationStream>(class UnBCL::SmartPtr<class UnBCL::SerializationStream> const & __ptr64) __ptr64` | 161 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::Stream>::operator class UnBCL::SmartPtr<class UnBCL::Stream>::NullTest * __ptr64(void)const __ptr64` | 984 | Exported Function
+`public: __cdecl UnBCL::SmartPtr<class UnBCL::SerializationStream>::SmartPtr<class UnBCL::SerializationStream>(void) __ptr64` | 163 | Exported Function
+`public: __cdecl UnBCL::NotSupportedException::NotSupportedException(class UnBCL::NotSupportedException const & __ptr64) __ptr64` | 324 | Exported Function
+`public: __cdecl UnBCL::NotSupportedException::NotSupportedException(class UnBCL::NotSupportedException && __ptr64) __ptr64` | 323 | Exported Function
+`public: __cdecl UnBCL::NotSupportedException::NotSupportedException(class UnBCL::String const * __ptr64) __ptr64` | 326 | Exported Function
+`public: __cdecl UnBCL::NotSupportedException::NotSupportedException(unsigned short const * __ptr64) __ptr64` | 325 | Exported Function
+`public: __cdecl UnBCL::NotSupportedException::NotSupportedException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 327 | Exported Function
+`public: __cdecl UnBCL::MutableString::MutableString(void) __ptr64` | 319 | Exported Function
+`public: __cdecl UnBCL::MutableString::MutableString(unsigned short,int) __ptr64` | 315 | Exported Function
+`public: __cdecl UnBCL::Mutex::Mutex(class UnBCL::Mutex && __ptr64) __ptr64` | 320 | Exported Function
+`public: __cdecl UnBCL::Mutex::Mutex(void) __ptr64` | 322 | Exported Function
+`public: __cdecl UnBCL::Mutex::Mutex(class UnBCL::Mutex const & __ptr64) __ptr64` | 321 | Exported Function
+`public: __cdecl UnBCL::ObjectDisposedException::ObjectDisposedException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 335 | Exported Function
+`public: __cdecl UnBCL::ObjectDisposedException::ObjectDisposedException(class UnBCL::String const * __ptr64) __ptr64` | 334 | Exported Function
+`public: __cdecl UnBCL::ObjectDisposedException::ObjectDisposedException(unsigned short const * __ptr64) __ptr64` | 333 | Exported Function
+`public: __cdecl UnBCL::OperatingSystem::OperatingSystem(class UnBCL::OperatingSystem const & __ptr64) __ptr64` | 338 | Exported Function
+`public: __cdecl UnBCL::ObjectDisposedException::ObjectDisposedException(void) __ptr64` | 336 | Exported Function
+`public: __cdecl UnBCL::Object::Object(class UnBCL::Object const & __ptr64) __ptr64` | 329 | Exported Function
+`public: __cdecl UnBCL::NotSupportedException::NotSupportedException(void) __ptr64` | 328 | Exported Function
+`public: __cdecl UnBCL::Object::Object(void) __ptr64` | 330 | Exported Function
+`public: __cdecl UnBCL::ObjectDisposedException::ObjectDisposedException(class UnBCL::ObjectDisposedException const & __ptr64) __ptr64` | 332 | Exported Function
+`public: __cdecl UnBCL::ObjectDisposedException::ObjectDisposedException(class UnBCL::ObjectDisposedException && __ptr64) __ptr64` | 331 | Exported Function
+`public: __cdecl UnBCL::MutableString::MutableString(unsigned short const * __ptr64,int,int) __ptr64` | 317 | Exported Function
+`public: __cdecl UnBCL::ISerializable::ISerializable(void) __ptr64` | 284 | Exported Function
+`public: __cdecl UnBCL::ISerializable::ISerializable(struct UnBCL::ISerializable const & __ptr64) __ptr64` | 283 | Exported Function
+`public: __cdecl UnBCL::MemoryStream::MemoryStream(class UnBCL::Array<unsigned char> * __ptr64,int,int) __ptr64` | 304 | Exported Function
+`public: __cdecl UnBCL::MemoryStream::MemoryStream(void) __ptr64` | 305 | Exported Function
+`public: __cdecl UnBCL::MemoryStream::MemoryStream(class UnBCL::MemoryStream const & __ptr64) __ptr64` | 303 | Exported Function
+`public: __cdecl UnBCL::IPoolable::IPoolable(struct UnBCL::IPoolable && __ptr64) __ptr64` | 279 | Exported Function
+`public: __cdecl UnBCL::InvalidOperationException::InvalidOperationException(void) __ptr64` | 302 | Exported Function
+`public: __cdecl UnBCL::IPoolable::IPoolable(struct UnBCL::IPoolable const & __ptr64) __ptr64` | 280 | Exported Function
+`public: __cdecl UnBCL::ISerializable::ISerializable(struct UnBCL::ISerializable && __ptr64) __ptr64` | 282 | Exported Function
+`public: __cdecl UnBCL::IPoolable::IPoolable(void) __ptr64` | 281 | Exported Function
+`public: __cdecl UnBCL::MutableString::MutableString(class UnBCL::MutableString const & __ptr64) __ptr64` | 313 | Exported Function
+`public: __cdecl UnBCL::MutableString::MutableString(class UnBCL::MutableString && __ptr64) __ptr64` | 312 | Exported Function
+`public: __cdecl UnBCL::MutableString::MutableString(class UnBCL::String const & __ptr64) __ptr64` | 314 | Exported Function
+`public: __cdecl UnBCL::MutableString::MutableString(unsigned short const * __ptr64) __ptr64` | 316 | Exported Function
+`public: __cdecl UnBCL::MutableString::MutableString(class UnBCL::String const * __ptr64) __ptr64` | 318 | Exported Function
+`public: __cdecl UnBCL::MultiSz::MultiSz(class UnBCL::MultiSz const & __ptr64) __ptr64` | 308 | Exported Function
+`public: __cdecl UnBCL::Monitor::Monitor(class UnBCL::Monitor const & __ptr64) __ptr64` | 307 | Exported Function
+`public: __cdecl UnBCL::MultiSz::MultiSz(unsigned char const * __ptr64,unsigned __int64,unsigned long * __ptr64) __ptr64` | 309 | Exported Function
+`public: __cdecl UnBCL::MultiSz::MultiSz(void) __ptr64` | 311 | Exported Function
+`public: __cdecl UnBCL::MultiSz::MultiSz(unsigned short const * __ptr64) __ptr64` | 310 | Exported Function
+`public: __cdecl UnBCL::OperatingSystem::OperatingSystem(enum UnBCL::PlatformID,class UnBCL::Version * __ptr64) __ptr64` | 341 | Exported Function
+`public: __cdecl UnBCL::RegHandle::RegHandle(void) __ptr64` | 367 | Exported Function
+`public: __cdecl UnBCL::RegHandle::RegHandle(class UnBCL::RegHandle const & __ptr64) __ptr64` | 366 | Exported Function
+`public: __cdecl UnBCL::Registry::Registry(class UnBCL::Registry && __ptr64) __ptr64` | 370 | Exported Function
+`public: __cdecl UnBCL::Registry::Registry(void) __ptr64` | 372 | Exported Function
+`public: __cdecl UnBCL::Registry::Registry(class UnBCL::Registry const & __ptr64) __ptr64` | 371 | Exported Function
+`public: __cdecl UnBCL::ProcessStartInfo::ProcessStartInfo(class UnBCL::ProcessStartInfo const & __ptr64) __ptr64` | 363 | Exported Function
+`public: __cdecl UnBCL::ProcessStartInfo::ProcessStartInfo(class UnBCL::ProcessStartInfo && __ptr64) __ptr64` | 362 | Exported Function
+`public: __cdecl UnBCL::ProcessStartInfo::ProcessStartInfo(class UnBCL::String const * __ptr64) __ptr64` | 365 | Exported Function
+`public: __cdecl UnBCL::RegHandle::operator struct HKEY__ * __ptr64(void) __ptr64` | 989 | Exported Function
+`public: __cdecl UnBCL::ProcessStartInfo::ProcessStartInfo(class UnBCL::String const * __ptr64,class UnBCL::String const * __ptr64) __ptr64` | 364 | Exported Function
+`public: __cdecl UnBCL::SecurityException::SecurityException(class UnBCL::SecurityException && __ptr64) __ptr64` | 379 | Exported Function
+`public: __cdecl UnBCL::ScopedObjectLock::~ScopedObjectLock(void) __ptr64` | 618 | Exported Function
+`public: __cdecl UnBCL::SecurityException::SecurityException(class UnBCL::SecurityException const & __ptr64) __ptr64` | 380 | Exported Function
+`public: __cdecl UnBCL::SecurityException::SecurityException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 382 | Exported Function
+`public: __cdecl UnBCL::SecurityException::SecurityException(class UnBCL::String * __ptr64) __ptr64` | 381 | Exported Function
+`public: __cdecl UnBCL::RegistryKey::RegistryKey(struct HKEY__ * __ptr64,int) __ptr64` | 374 | Exported Function
+`public: __cdecl UnBCL::RegistryKey::RegistryKey(class UnBCL::RegistryKey const & __ptr64) __ptr64` | 373 | Exported Function
+`public: __cdecl UnBCL::RegSubkeyEnumerator::RegSubkeyEnumerator(class UnBCL::RegHandle & __ptr64) __ptr64` | 368 | Exported Function
+`public: __cdecl UnBCL::ScopedObjectLock::ScopedObjectLock(class UnBCL::SyncObject * __ptr64) __ptr64` | 378 | Exported Function
+`public: __cdecl UnBCL::RegSubkeyEnumerator::RegSubkeyEnumerator(class UnBCL::RegSubkeyEnumerator const & __ptr64) __ptr64` | 369 | Exported Function
+`public: __cdecl UnBCL::Process::Process(class UnBCL::Process const & __ptr64) __ptr64` | 361 | Exported Function
+`public: __cdecl UnBCL::OutOfMemoryException::OutOfMemoryException(class UnBCL::String * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 346 | Exported Function
+`public: __cdecl UnBCL::OutOfMemoryException::OutOfMemoryException(class UnBCL::String * __ptr64) __ptr64` | 345 | Exported Function
+`public: __cdecl UnBCL::OutOfMemoryException::OutOfMemoryException(unsigned short const * __ptr64) __ptr64` | 347 | Exported Function
+`public: __cdecl UnBCL::OverflowException::OverflowException(class UnBCL::OverflowException && __ptr64) __ptr64` | 349 | Exported Function
+`public: __cdecl UnBCL::OutOfMemoryException::OutOfMemoryException(void) __ptr64` | 348 | Exported Function
+`public: __cdecl UnBCL::OperatingSystem::OperatingSystem(enum UnBCL::PlatformID,unsigned long,class UnBCL::Version * __ptr64) __ptr64` | 339 | Exported Function
+`public: __cdecl UnBCL::OperatingSystem::OperatingSystem(enum UnBCL::PlatformID,enum UnBCL::InstallationType,class UnBCL::Version * __ptr64) __ptr64` | 342 | Exported Function
+`public: __cdecl UnBCL::OperatingSystem::OperatingSystem(enum UnBCL::PlatformID,unsigned long,enum UnBCL::InstallationType,class UnBCL::Version * __ptr64) __ptr64` | 340 | Exported Function
+`public: __cdecl UnBCL::OutOfMemoryException::OutOfMemoryException(class UnBCL::OutOfMemoryException const & __ptr64) __ptr64` | 344 | Exported Function
+`public: __cdecl UnBCL::OutOfMemoryException::OutOfMemoryException(class UnBCL::OutOfMemoryException && __ptr64) __ptr64` | 343 | Exported Function
+`public: __cdecl UnBCL::PathTooLongException::PathTooLongException(class UnBCL::PathTooLongException const & __ptr64) __ptr64` | 356 | Exported Function
+`public: __cdecl UnBCL::PathTooLongException::PathTooLongException(class UnBCL::PathTooLongException && __ptr64) __ptr64` | 355 | Exported Function
+`public: __cdecl UnBCL::PathTooLongException::PathTooLongException(class UnBCL::String const * __ptr64) __ptr64` | 358 | Exported Function
+`public: __cdecl UnBCL::PathTooLongException::PathTooLongException(void) __ptr64` | 359 | Exported Function
+`public: __cdecl UnBCL::PathTooLongException::PathTooLongException(unsigned short const * __ptr64) __ptr64` | 357 | Exported Function
+`public: __cdecl UnBCL::OverflowException::OverflowException(class UnBCL::String const * __ptr64) __ptr64` | 352 | Exported Function
+`public: __cdecl UnBCL::OverflowException::OverflowException(class UnBCL::OverflowException const & __ptr64) __ptr64` | 350 | Exported Function
+`public: __cdecl UnBCL::OverflowException::OverflowException(class UnBCL::String const * __ptr64,class UnBCL::Exception * __ptr64) __ptr64` | 353 | Exported Function
+`public: __cdecl UnBCL::OverflowException::OverflowException(void) __ptr64` | 354 | Exported Function
+`public: __cdecl UnBCL::OverflowException::OverflowException(unsigned short const * __ptr64) __ptr64` | 351 | Exported Function
 
 
 ## Signature

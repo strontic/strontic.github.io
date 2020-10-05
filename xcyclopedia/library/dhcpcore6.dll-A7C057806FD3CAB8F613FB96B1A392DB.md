@@ -24,9 +24,9 @@ PE256 | `8E9FD6879438B578AAF5B914AE84571CB648DD7692EE0651D6F3E5DD61BF8BFA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Dhcpv6Main` | 1 (0x1) | Exported Function | 0x1000f9f0 | 0x0000f9f0
+Function Name | Ordinal | Type
+-- | -- | --
+`Dhcpv6Main` | 1 | Exported Function
 
 
 ## Signature

@@ -23,12 +23,12 @@ PE256 | `E2D1D479407CBD9DB7805B4D77B245857E7144BCE22E1B45F673CAAC5AA38B1D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateWindowInformation` | 1 (0x1) | Exported Function | 0x10015d50 | 0x00015d50
-`CreateWindowLayout` | 2 (0x2) | Exported Function | 0x10015df0 | 0x00015df0
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x10015690 | 0x00015690
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x100156b0 | 0x000156b0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetActivationFactory` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`CreateWindowInformation` | 1 | Exported Function
+`CreateWindowLayout` | 2 | Exported Function
 
 
 ## Signature

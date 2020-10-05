@@ -24,9 +24,9 @@ PE256 | `184DFF29DAEE70B932E2F790F5289D499CD7E88F494C2ACBF2AD25694C3889F1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitHelperDll` | 1 (0x1) | Exported Function | 0x1001d690 | 0x0001d690
+Function Name | Ordinal | Type
+-- | -- | --
+`InitHelperDll` | 1 | Exported Function
 
 
 ## Signature

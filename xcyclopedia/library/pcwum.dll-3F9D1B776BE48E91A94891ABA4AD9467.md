@@ -24,39 +24,39 @@ PE256 | `9C5F9463A37FD02612C15B9059DD3519DFAC26BBDE695042EEFC44E68A72FFFF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PcwAddQueryItem` | 1 (0x1) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwAddQueryItem | 0x000011d8
-`PerfStartProvider` | 29 (0x1d) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfStartProvider | 0x00001a53
-`PerfSetULongLongCounterValue` | 28 (0x1c) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfSetULongLongCounterValue | 0x00001a00
-`PerfSetULongCounterValue` | 27 (0x1b) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfSetULongCounterValue | 0x000019a6
-`PerfSetCounterSetInfo` | 26 (0x1a) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfSetCounterSetInfo | 0x00001953
-`PerfSetCounterRefValue` | 25 (0x19) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfSetCounterRefValue | 0x00001902
-`PerfQueryInstance` | 24 (0x18) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfQueryInstance | 0x000018b5
-`PerfIncrementULongLongCounterValue` | 23 (0x17) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfIncrementULongLongCounterValue | 0x0000185c
-`PerfIncrementULongCounterValue` | 22 (0x16) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfIncrementULongCounterValue | 0x000017f6
-`PerfDeleteInstance` | 21 (0x15) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfDeleteInstance | 0x000017a0
-`PerfDecrementULongLongCounterValue` | 20 (0x14) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfDecrementULongLongCounterValue | 0x00001746
-`PerfDecrementULongCounterValue` | 19 (0x13) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfDecrementULongCounterValue | 0x000016e0
-`PerfCreateInstance` | 18 (0x12) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfCreateInstance | 0x0000168a
-`PcwSetQueryItemUserData` | 17 (0x11) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwSetQueryItemUserData | 0x00001644
-`PerfStartProviderEx` | 30 (0x1e) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfStartProviderEx | 0x00001a9d
-`PcwSetCounterSetSecurity` | 16 (0x10) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwSetCounterSetSecurity | 0x000015f8
-`PcwSendNotification` | 14 (0xe) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwSendNotification | 0x0000155b
-`PcwRemoveQueryItem` | 13 (0xd) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwRemoveQueryItem | 0x00001519
-`PcwRegisterCounterSet` | 12 (0xc) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwRegisterCounterSet | 0x000014d5
-`PcwReadNotificationData` | 11 (0xb) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwReadNotificationData | 0x0000148c
-`PcwQueryCounterSetSecurity` | 10 (0xa) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwQueryCounterSetSecurity | 0x0000143e
-`PcwIsNotifierAlive` | 9 (0x9) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwIsNotifierAlive | 0x000013f5
-`PcwEnumerateInstances` | 8 (0x8) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwEnumerateInstances | 0x000013b1
-`PcwDisconnectCounterSet` | 7 (0x7) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwDisconnectCounterSet | 0x00001368
-`PcwCreateQuery` | 6 (0x6) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwCreateQuery | 0x00001326
-`PcwCreateNotifier` | 5 (0x5) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwCreateNotifier | 0x000012ea
-`PcwCompleteNotification` | 4 (0x4) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwCompleteNotification | 0x000012a5
-`PcwCollectData` | 3 (0x3) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwCollectData | 0x00001263
-`PcwClearCounterSetSecurity` | 2 (0x2) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwClearCounterSetSecurity | 0x0000121e
-`PcwSendStatelessNotification` | 15 (0xf) | Exported Function | api-ms-win-core-pcw-l1-1-0.PcwSendStatelessNotification | 0x000015a7
-`PerfStopProvider` | 31 (0x1f) | Exported Function | api-ms-win-core-perfcounters-l1-2-0.PerfStopProvider | 0x00001ae6
+Function Name | Ordinal | Type
+-- | -- | --
+`PerfDeleteInstance` | 21 | Exported Function
+`PerfIncrementULongCounterValue` | 22 | Exported Function
+`PerfIncrementULongLongCounterValue` | 23 | Exported Function
+`PerfDecrementULongLongCounterValue` | 20 | Exported Function
+`PcwSetQueryItemUserData` | 17 | Exported Function
+`PerfCreateInstance` | 18 | Exported Function
+`PerfDecrementULongCounterValue` | 19 | Exported Function
+`PerfQueryInstance` | 24 | Exported Function
+`PerfStartProvider` | 29 | Exported Function
+`PerfStartProviderEx` | 30 | Exported Function
+`PerfStopProvider` | 31 | Exported Function
+`PerfSetULongLongCounterValue` | 28 | Exported Function
+`PerfSetCounterRefValue` | 25 | Exported Function
+`PerfSetCounterSetInfo` | 26 | Exported Function
+`PerfSetULongCounterValue` | 27 | Exported Function
+`PcwSetCounterSetSecurity` | 16 | Exported Function
+`PcwCreateNotifier` | 5 | Exported Function
+`PcwCreateQuery` | 6 | Exported Function
+`PcwDisconnectCounterSet` | 7 | Exported Function
+`PcwCompleteNotification` | 4 | Exported Function
+`PcwAddQueryItem` | 1 | Exported Function
+`PcwClearCounterSetSecurity` | 2 | Exported Function
+`PcwCollectData` | 3 | Exported Function
+`PcwEnumerateInstances` | 8 | Exported Function
+`PcwRemoveQueryItem` | 13 | Exported Function
+`PcwSendNotification` | 14 | Exported Function
+`PcwSendStatelessNotification` | 15 | Exported Function
+`PcwRegisterCounterSet` | 12 | Exported Function
+`PcwIsNotifierAlive` | 9 | Exported Function
+`PcwQueryCounterSetSecurity` | 10 | Exported Function
+`PcwReadNotificationData` | 11 | Exported Function
 
 
 ## Signature

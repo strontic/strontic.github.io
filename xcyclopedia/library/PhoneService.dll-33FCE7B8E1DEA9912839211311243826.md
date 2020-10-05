@@ -24,11 +24,11 @@ PE256 | `04FB159EBEBB16C993DFBFD5432B1418CDFBC89AB039CD989378EB3E6F82398C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateInProcPhoneService` | 1 (0x1) | Exported Function | 0x0000000180004bf0 | 0x00004bf0
-`ServiceMain` | 2 (0x2) | Exported Function | 0x0000000180007060 | 0x00007060
-`SvchostPushServiceGlobals` | 3 (0x3) | Exported Function | 0x0000000180007050 | 0x00007050
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 3 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`CreateInProcPhoneService` | 1 | Exported Function
 
 
 ## Signature

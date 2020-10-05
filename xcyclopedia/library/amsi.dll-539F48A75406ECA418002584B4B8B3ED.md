@@ -24,21 +24,21 @@ PE256 | `417CB221BE18C022D6554F94F92673AF4AEE44C5A6D0E2F74D558796A54ECADD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AmsiCloseSession` | 1 (0x1) | Exported Function | 0x100048c0 | 0x000048c0
-`AmsiInitialize` | 2 (0x2) | Exported Function | 0x100045a0 | 0x000045a0
-`AmsiOpenSession` | 3 (0x3) | Exported Function | 0x10004860 | 0x00004860
-`AmsiScanBuffer` | 4 (0x4) | Exported Function | 0x100048f0 | 0x000048f0
-`AmsiScanString` | 5 (0x5) | Exported Function | 0x100049a0 | 0x000049a0
-`AmsiUacInitialize` | 6 (0x6) | Exported Function | 0x100049f0 | 0x000049f0
-`AmsiUacScan` | 7 (0x7) | Exported Function | 0x10004c10 | 0x00004c10
-`AmsiUacUninitialize` | 8 (0x8) | Exported Function | 0x10004bc0 | 0x00004bc0
-`AmsiUninitialize` | 9 (0x9) | Exported Function | 0x10004810 | 0x00004810
-`DllCanUnloadNow` | 10 (0xa) | Exported Function | 0x10003f40 | 0x00003f40
-`DllGetClassObject` | 11 (0xb) | Exported Function | 0x10003f70 | 0x00003f70
-`DllRegisterServer` | 12 (0xc) | Exported Function | 0x10003fa0 | 0x00003fa0
-`DllUnregisterServer` | 13 (0xd) | Exported Function | 0x10003fa0 | 0x00003fa0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllCanUnloadNow` | 10 | Exported Function
+`AmsiUninitialize` | 9 | Exported Function
+`AmsiUacUninitialize` | 8 | Exported Function
+`DllUnregisterServer` | 13 | Exported Function
+`DllRegisterServer` | 12 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
+`AmsiUacScan` | 7 | Exported Function
+`AmsiOpenSession` | 3 | Exported Function
+`AmsiInitialize` | 2 | Exported Function
+`AmsiCloseSession` | 1 | Exported Function
+`AmsiUacInitialize` | 6 | Exported Function
+`AmsiScanString` | 5 | Exported Function
+`AmsiScanBuffer` | 4 | Exported Function
 
 
 ## Signature

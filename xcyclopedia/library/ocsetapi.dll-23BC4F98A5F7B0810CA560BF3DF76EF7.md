@@ -24,10 +24,10 @@ PE256 | `2AD7BC7B3E633AD2E5C5D548470954609C92B1411C35856C18B9E23E31990E7E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CopyMspFilesToSystemMsiCache` | 1 (0x1) | Exported Function | 0x0000000180001c80 | 0x00001c80
-`RemoveMspFilesFromSystemMsiCache` | 2 (0x2) | Exported Function | 0x0000000180002730 | 0x00002730
+Function Name | Ordinal | Type
+-- | -- | --
+`RemoveMspFilesFromSystemMsiCache` | 2 | Exported Function
+`CopyMspFilesToSystemMsiCache` | 1 | Exported Function
 
 
 ## Signature

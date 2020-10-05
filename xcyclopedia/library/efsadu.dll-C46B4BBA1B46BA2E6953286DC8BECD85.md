@@ -24,22 +24,22 @@ PE256 | `DA34ECDAE85B39352AD5B81434BDF1D32D2D6EAAEA108406B1B298C0B0596DD3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddUserToObjectW` | 1 (0x1) | Exported Function | 0x67bab460 | 0x0000b460
-`BackCurrentEfsCert` | 2 (0x2) | Exported Function | 0x67bab2f0 | 0x0000b2f0
-`EfsDetail` | 3 (0x3) | Exported Function | 0x67ba9050 | 0x00009050
-`EfsUIUtilCheckScardStatus` | 4 (0x4) | Exported Function | 0x67ba8ac0 | 0x00008ac0
-`EfsUIUtilCreateSelfSignedCertificate` | 5 (0x5) | Exported Function | 0x67ba8a40 | 0x00008a40
-`EfsUIUtilEncryptMyDocuments` | 6 (0x6) | Exported Function | 0x67ba8c00 | 0x00008c00
-`EfsUIUtilEnrollEfsCertificate` | 7 (0x7) | Exported Function | 0x67ba8be0 | 0x00008be0
-`EfsUIUtilEnrollEfsCertificateEx` | 8 (0x8) | Exported Function | 0x67ba8b70 | 0x00008b70
-`EfsUIUtilInstallDra` | 9 (0x9) | Exported Function | 0x67ba82d0 | 0x000082d0
-`EfsUIUtilKeyBackup` | 10 (0xa) | Exported Function | 0x67ba8540 | 0x00008540
-`EfsUIUtilPromptForPin` | 11 (0xb) | Exported Function | 0x67ba8720 | 0x00008720
-`EfsUIUtilPromptForPinDialog` | 12 (0xc) | Exported Function | 0x67ba8510 | 0x00008510
-`EfsUIUtilSelectCard` | 13 (0xd) | Exported Function | 0x67ba8750 | 0x00008750
-`EfsUIUtilShowBalloonAndWait` | 14 (0xe) | Exported Function | 0x67ba84e0 | 0x000084e0
+Function Name | Ordinal | Type
+-- | -- | --
+`EfsUIUtilKeyBackup` | 10 | Exported Function
+`EfsUIUtilInstallDra` | 9 | Exported Function
+`EfsUIUtilEnrollEfsCertificateEx` | 8 | Exported Function
+`EfsUIUtilPromptForPin` | 11 | Exported Function
+`EfsUIUtilShowBalloonAndWait` | 14 | Exported Function
+`EfsUIUtilSelectCard` | 13 | Exported Function
+`EfsUIUtilPromptForPinDialog` | 12 | Exported Function
+`EfsDetail` | 3 | Exported Function
+`BackCurrentEfsCert` | 2 | Exported Function
+`AddUserToObjectW` | 1 | Exported Function
+`EfsUIUtilCheckScardStatus` | 4 | Exported Function
+`EfsUIUtilEnrollEfsCertificate` | 7 | Exported Function
+`EfsUIUtilEncryptMyDocuments` | 6 | Exported Function
+`EfsUIUtilCreateSelfSignedCertificate` | 5 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `C11F6746A04F78D1591C56A28308D82839F493CFF842484D91F66609C9100352`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CHOOSER2_PickTargetComputer` | 1 (0x1) | Exported Function | 0x10001a20 | 0x00001a20
-`DllMain` | 2 (0x2) | Exported Function | 0x100014d0 | 0x000014d0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllMain` | 2 | Exported Function
+`CHOOSER2_PickTargetComputer` | 1 | Exported Function
 
 
 ## Signature

@@ -24,47 +24,47 @@ PE256 | `F23C761B4DBCD3B07ECA20DAD03FADBCC3CE5CB67A16E59CF6024981B485FB62`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CryptAcquireContextA` | 1 (0x1) | Exported Function | advapi32.CryptAcquireContextA | 0x0000124c
-`CryptGetKeyParam` | 22 (0x16) | Exported Function | advapi32.CryptGetKeyParam | 0x00001609
-`CryptGetProvParam` | 23 (0x17) | Exported Function | advapi32.CryptGetProvParam | 0x00001635
-`CryptGetUserKey` | 24 (0x18) | Exported Function | advapi32.CryptGetUserKey | 0x00001660
-`CryptHashData` | 25 (0x19) | Exported Function | advapi32.CryptHashData | 0x00001687
-`CryptHashSessionKey` | 26 (0x1a) | Exported Function | advapi32.CryptHashSessionKey | 0x000016b2
-`CryptImportKey` | 27 (0x1b) | Exported Function | advapi32.CryptImportKey | 0x000016de
-`CryptReleaseContext` | 28 (0x1c) | Exported Function | advapi32.CryptReleaseContext | 0x0000170a
-`CryptGetHashParam` | 21 (0x15) | Exported Function | advapi32.CryptGetHashParam | 0x000015dd
-`CryptSetHashParam` | 29 (0x1d) | Exported Function | advapi32.CryptSetHashParam | 0x00001739
-`CryptSetProviderA` | 32 (0x20) | Exported Function | advapi32.CryptSetProviderA | 0x000017be
-`CryptSetProviderExA` | 33 (0x21) | Exported Function | advapi32.CryptSetProviderExA | 0x000017ed
-`CryptSetProviderExW` | 34 (0x22) | Exported Function | advapi32.CryptSetProviderExW | 0x0000181e
-`CryptSetProviderW` | 35 (0x23) | Exported Function | advapi32.CryptSetProviderW | 0x0000184d
-`CryptSetProvParam` | 31 (0x1f) | Exported Function | advapi32.CryptSetProvParam | 0x00001791
-`CryptSignHashA` | 36 (0x24) | Exported Function | advapi32.CryptSignHashA | 0x00001877
-`CryptSignHashW` | 37 (0x25) | Exported Function | advapi32.CryptSignHashW | 0x0000189e
-`CryptSetKeyParam` | 30 (0x1e) | Exported Function | advapi32.CryptSetKeyParam | 0x00001765
-`CryptVerifySignatureA` | 38 (0x26) | Exported Function | advapi32.CryptVerifySignatureA | 0x000018cc
-`CryptGetDefaultProviderW` | 20 (0x14) | Exported Function | advapi32.CryptGetDefaultProviderW | 0x000015a9
-`CryptGenRandom` | 18 (0x12) | Exported Function | advapi32.CryptGenRandom | 0x0000153d
-`CryptAcquireContextW` | 2 (0x2) | Exported Function | advapi32.CryptAcquireContextW | 0x0000127f
-`CryptContextAddRef` | 3 (0x3) | Exported Function | advapi32.CryptContextAddRef | 0x000012b0
-`CryptCreateHash` | 4 (0x4) | Exported Function | advapi32.CryptCreateHash | 0x000012dc
-`CryptDecrypt` | 5 (0x5) | Exported Function | advapi32.CryptDecrypt | 0x00001302
-`CryptDeriveKey` | 6 (0x6) | Exported Function | advapi32.CryptDeriveKey | 0x00001327
-`CryptDestroyHash` | 7 (0x7) | Exported Function | advapi32.CryptDestroyHash | 0x00001350
-`CryptDestroyKey` | 8 (0x8) | Exported Function | advapi32.CryptDestroyKey | 0x0000137a
-`CryptGetDefaultProviderA` | 19 (0x13) | Exported Function | advapi32.CryptGetDefaultProviderA | 0x0000156e
-`CryptDuplicateHash` | 9 (0x9) | Exported Function | advapi32.CryptDuplicateHash | 0x000013a6
-`CryptEncrypt` | 11 (0xb) | Exported Function | advapi32.CryptEncrypt | 0x000013fc
-`CryptEnumProvidersA` | 14 (0xe) | Exported Function | advapi32.CryptEnumProvidersA | 0x00001498
-`CryptEnumProvidersW` | 15 (0xf) | Exported Function | advapi32.CryptEnumProvidersW | 0x000014c9
-`CryptEnumProviderTypesA` | 12 (0xc) | Exported Function | advapi32.CryptEnumProviderTypesA | 0x0000142a
-`CryptEnumProviderTypesW` | 13 (0xd) | Exported Function | advapi32.CryptEnumProviderTypesW | 0x00001463
-`CryptExportKey` | 16 (0x10) | Exported Function | advapi32.CryptExportKey | 0x000014f5
-`CryptGenKey` | 17 (0x11) | Exported Function | advapi32.CryptGenKey | 0x00001519
-`CryptDuplicateKey` | 10 (0xa) | Exported Function | advapi32.CryptDuplicateKey | 0x000013d4
-`CryptVerifySignatureW` | 39 (0x27) | Exported Function | advapi32.CryptVerifySignatureW | 0x00001901
+Function Name | Ordinal | Type
+-- | -- | --
+`CryptImportKey` | 27 | Exported Function
+`CryptHashSessionKey` | 26 | Exported Function
+`CryptSetHashParam` | 29 | Exported Function
+`CryptReleaseContext` | 28 | Exported Function
+`CryptHashData` | 25 | Exported Function
+`CryptGetKeyParam` | 22 | Exported Function
+`CryptGetHashParam` | 21 | Exported Function
+`CryptGetUserKey` | 24 | Exported Function
+`CryptGetProvParam` | 23 | Exported Function
+`CryptSetKeyParam` | 30 | Exported Function
+`CryptSignHashW` | 37 | Exported Function
+`CryptSignHashA` | 36 | Exported Function
+`CryptVerifySignatureW` | 39 | Exported Function
+`CryptVerifySignatureA` | 38 | Exported Function
+`CryptSetProvParam` | 31 | Exported Function
+`CryptSetProviderExA` | 33 | Exported Function
+`CryptSetProviderA` | 32 | Exported Function
+`CryptSetProviderW` | 35 | Exported Function
+`CryptSetProviderExW` | 34 | Exported Function
+`CryptGetDefaultProviderW` | 20 | Exported Function
+`CryptDestroyHash` | 7 | Exported Function
+`CryptDeriveKey` | 6 | Exported Function
+`CryptDuplicateHash` | 9 | Exported Function
+`CryptDestroyKey` | 8 | Exported Function
+`CryptDecrypt` | 5 | Exported Function
+`CryptAcquireContextW` | 2 | Exported Function
+`CryptAcquireContextA` | 1 | Exported Function
+`CryptCreateHash` | 4 | Exported Function
+`CryptContextAddRef` | 3 | Exported Function
+`CryptDuplicateKey` | 10 | Exported Function
+`CryptGenKey` | 17 | Exported Function
+`CryptExportKey` | 16 | Exported Function
+`CryptGetDefaultProviderA` | 19 | Exported Function
+`CryptGenRandom` | 18 | Exported Function
+`CryptEnumProviderTypesW` | 13 | Exported Function
+`CryptEnumProvidersA` | 14 | Exported Function
+`CryptEncrypt` | 11 | Exported Function
+`CryptEnumProviderTypesA` | 12 | Exported Function
+`CryptEnumProvidersW` | 15 | Exported Function
 
 
 ## Signature

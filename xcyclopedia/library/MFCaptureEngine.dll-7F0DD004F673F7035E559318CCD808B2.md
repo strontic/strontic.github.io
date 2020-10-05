@@ -24,11 +24,11 @@ PE256 | `377C35890BAE7C049212B920A32350E509571FE44BAC02894A34F816E133CAFE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180008c20 | 0x00008c20
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180008c90 | 0x00008c90
-`MFCreateCaptureEngine` | 3 (0x3) | Exported Function | 0x0000000180005720 | 0x00005720
+Function Name | Ordinal | Type
+-- | -- | --
+`MFCreateCaptureEngine` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

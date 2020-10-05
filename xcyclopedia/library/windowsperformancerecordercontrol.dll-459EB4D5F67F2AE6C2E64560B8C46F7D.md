@@ -24,20 +24,20 @@ PE256 | `E7FF03ED003FA281A1BA529E87D6AA76122D99984F9BCDE3B04CAF6DD0219549`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10016c20 | 0x00016c20
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x10016c50 | 0x00016c50
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x1000e9f0 | 0x0000e9f0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x1000e9f0 | 0x0000e9f0
-`WPRCControlLogging` | 5 (0x5) | Exported Function | 0x1004d140 | 0x0004d140
-`WPRCCreateInstance` | 6 (0x6) | Exported Function | 0x1004c130 | 0x0004c130
-`WPRCCreateInstanceUnderInstanceName` | 7 (0x7) | Exported Function | 0x1004c160 | 0x0004c160
-`WPRCDisableBuiltinProfiles` | 8 (0x8) | Exported Function | 0x1004c460 | 0x0004c460
-`WPRCFormatError` | 9 (0x9) | Exported Function | 0x1004d040 | 0x0004d040
-`WPRCQueryBuiltInProfiles` | 10 (0xa) | Exported Function | 0x1004c360 | 0x0004c360
-`WPRCReleaseInstanceByName` | 11 (0xb) | Exported Function | 0x1004c470 | 0x0004c470
-`WPRCRemoveLogging` | 12 (0xc) | Exported Function | 0x1004d240 | 0x0004d240
+Function Name | Ordinal | Type
+-- | -- | --
+`WPRCFormatError` | 9 | Exported Function
+`WPRCDisableBuiltinProfiles` | 8 | Exported Function
+`WPRCCreateInstanceUnderInstanceName` | 7 | Exported Function
+`WPRCRemoveLogging` | 12 | Exported Function
+`WPRCReleaseInstanceByName` | 11 | Exported Function
+`WPRCQueryBuiltInProfiles` | 10 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`WPRCCreateInstance` | 6 | Exported Function
+`WPRCControlLogging` | 5 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
 
 
 ## Signature

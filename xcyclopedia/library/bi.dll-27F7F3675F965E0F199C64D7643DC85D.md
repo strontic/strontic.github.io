@@ -24,42 +24,42 @@ PE256 | `CF7AE6C26EF06CC17E59E456382A6BA3A14C2F639217F1AA6348E353698BC071`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BiActivateDeferredWorkItem` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
-`BiUpdateEventFlags` | 32 (0x20) | Exported Function | 0x00000001800027f0 | 0x000027f0
-`BiSignalTriggerEventEx` | 31 (0x1f) | Exported Function | 0x0000000180002710 | 0x00002710
-`BiSignalTriggerEvent` | 30 (0x1e) | Exported Function | 0x00000001800026e0 | 0x000026e0
-`BiSignalMultipleEvents` | 29 (0x1d) | Exported Function | 0x0000000180002600 | 0x00002600
-`BiSignalEventEx` | 28 (0x1c) | Exported Function | 0x0000000180002520 | 0x00002520
-`BiSignalEvent` | 27 (0x1b) | Exported Function | 0x0000000180002a00 | 0x00002a00
-`BiQueryWorkItemStatusStateName` | 26 (0x1a) | Exported Function | 0x0000000180002480 | 0x00002480
-`BiQueryWorkItemEx` | 25 (0x19) | Exported Function | 0x00000001800023b0 | 0x000023b0
-`BiQueryWorkItem` | 24 (0x18) | Exported Function | 0x00000001800022f0 | 0x000022f0
-`BiQueryUserSession` | 23 (0x17) | Exported Function | 0x0000000180002250 | 0x00002250
-`BiQueryUserContext` | 22 (0x16) | Exported Function | 0x0000000180002190 | 0x00002190
-`BiQuerySystemStateBroadcastChannels` | 21 (0x15) | Exported Function | 0x0000000180002100 | 0x00002100
-`BiQueryBrokeredEvent` | 20 (0x14) | Exported Function | 0x0000000180002040 | 0x00002040
-`BiFreeMemory` | 19 (0x13) | Exported Function | 0x0000000180002010 | 0x00002010
-`BiEnumerateWorkItemsForPackageNameEx` | 18 (0x12) | Exported Function | 0x0000000180001f00 | 0x00001f00
-`BiEnumerateWorkItemsForPackageName` | 17 (0x11) | Exported Function | 0x0000000180001e00 | 0x00001e00
-`BiEnumerateUserSessions` | 16 (0x10) | Exported Function | 0x0000000180001d60 | 0x00001d60
-`BiActivateInBackground` | 2 (0x2) | Exported Function | 0x00000001800010a0 | 0x000010a0
-`BiActivateInBackgroundEx` | 3 (0x3) | Exported Function | 0x0000000180001120 | 0x00001120
-`BiActivateWorkItem` | 4 (0x4) | Exported Function | 0x0000000180001380 | 0x00001380
-`BiAssociateActivationProxy` | 5 (0x5) | Exported Function | 0x0000000180001410 | 0x00001410
-`BiAssociateApplicationExtensionClass` | 6 (0x6) | Exported Function | 0x0000000180001530 | 0x00001530
-`BiCancelWorkItem` | 7 (0x7) | Exported Function | 0x0000000180001670 | 0x00001670
-`BiUpdateEventInformation` | 33 (0x21) | Exported Function | 0x00000001800028a0 | 0x000028a0
-`BiCancelWorkItemEx` | 8 (0x8) | Exported Function | 0x0000000180001710 | 0x00001710
-`BiCreateEventForPackageName` | 10 (0xa) | Exported Function | 0x0000000180001900 | 0x00001900
-`BiDeleteEvent` | 11 (0xb) | Exported Function | 0x0000000180001a40 | 0x00001a40
-`BiDisassociateWorkItem` | 12 (0xc) | Exported Function | 0x0000000180001ad0 | 0x00001ad0
-`BiDiscardPendingActivations` | 13 (0xd) | Exported Function | 0x0000000180001b70 | 0x00001b70
-`BiEnumerateBrokeredEvents` | 14 (0xe) | Exported Function | 0x0000000180001c00 | 0x00001c00
-`BiEnumerateUserContexts` | 15 (0xf) | Exported Function | 0x0000000180001cc0 | 0x00001cc0
-`BiCreateEvent` | 9 (0x9) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`BiUpdateEventParameters` | 34 (0x22) | Exported Function | 0x0000000180002960 | 0x00002960
+Function Name | Ordinal | Type
+-- | -- | --
+`BiQueryUserSession` | 23 | Exported Function
+`BiQueryUserContext` | 22 | Exported Function
+`BiQueryWorkItemEx` | 25 | Exported Function
+`BiQueryWorkItem` | 24 | Exported Function
+`BiFreeMemory` | 19 | Exported Function
+`BiEnumerateWorkItemsForPackageNameEx` | 18 | Exported Function
+`BiQuerySystemStateBroadcastChannels` | 21 | Exported Function
+`BiQueryBrokeredEvent` | 20 | Exported Function
+`BiQueryWorkItemStatusStateName` | 26 | Exported Function
+`BiUpdateEventFlags` | 32 | Exported Function
+`BiSignalTriggerEventEx` | 31 | Exported Function
+`BiUpdateEventParameters` | 34 | Exported Function
+`BiUpdateEventInformation` | 33 | Exported Function
+`BiSignalEventEx` | 28 | Exported Function
+`BiSignalEvent` | 27 | Exported Function
+`BiSignalTriggerEvent` | 30 | Exported Function
+`BiSignalMultipleEvents` | 29 | Exported Function
+`BiAssociateApplicationExtensionClass` | 6 | Exported Function
+`BiAssociateActivationProxy` | 5 | Exported Function
+`BiCancelWorkItemEx` | 8 | Exported Function
+`BiCancelWorkItem` | 7 | Exported Function
+`BiActivateInBackground` | 2 | Exported Function
+`BiActivateDeferredWorkItem` | 1 | Exported Function
+`BiActivateWorkItem` | 4 | Exported Function
+`BiActivateInBackgroundEx` | 3 | Exported Function
+`BiCreateEvent` | 9 | Exported Function
+`BiEnumerateUserContexts` | 15 | Exported Function
+`BiEnumerateBrokeredEvents` | 14 | Exported Function
+`BiEnumerateWorkItemsForPackageName` | 17 | Exported Function
+`BiEnumerateUserSessions` | 16 | Exported Function
+`BiDeleteEvent` | 11 | Exported Function
+`BiCreateEventForPackageName` | 10 | Exported Function
+`BiDiscardPendingActivations` | 13 | Exported Function
+`BiDisassociateWorkItem` | 12 | Exported Function
 
 
 ## Signature

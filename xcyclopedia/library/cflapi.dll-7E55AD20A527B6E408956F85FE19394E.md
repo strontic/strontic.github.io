@@ -24,20 +24,20 @@ PE256 | `DEDCE3CA566212B84A6ACC5928E485A20704F2EEE8467FCCD96276AAFB01FAEE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CflClearScenarioData` | 1 (0x1) | Exported Function | 0x0000000180007000 | 0x00007000
-`CflClearTempUserAccount` | 2 (0x2) | Exported Function | 0x00000001800064d0 | 0x000064d0
-`CflDeserializeSessionContext` | 3 (0x3) | Exported Function | 0x0000000180007270 | 0x00007270
-`CflFreeBuffer` | 4 (0x4) | Exported Function | 0x0000000180007390 | 0x00007390
-`CflGetScenarioData` | 5 (0x5) | Exported Function | 0x0000000180006e80 | 0x00006e80
-`CflGetTransitionScenarioData` | 6 (0x6) | Exported Function | 0x0000000180006cc0 | 0x00006cc0
-`CflSecureFreeBuffer` | 7 (0x7) | Exported Function | 0x0000000180007440 | 0x00007440
-`CflSerializeSessionContext` | 8 (0x8) | Exported Function | 0x0000000180007150 | 0x00007150
-`CflSetScenarioData` | 9 (0x9) | Exported Function | 0x00000001800069a0 | 0x000069a0
-`CflSetupAuthEnvironment` | 10 (0xa) | Exported Function | 0x00000001800065b0 | 0x000065b0
-`CflSetupTempUserAccount` | 11 (0xb) | Exported Function | 0x00000001800063e0 | 0x000063e0
-`CflSetupTransitionToUserAccount` | 12 (0xc) | Exported Function | 0x00000001800066a0 | 0x000066a0
+Function Name | Ordinal | Type
+-- | -- | --
+`CflSetScenarioData` | 9 | Exported Function
+`CflSerializeSessionContext` | 8 | Exported Function
+`CflSecureFreeBuffer` | 7 | Exported Function
+`CflSetupTransitionToUserAccount` | 12 | Exported Function
+`CflSetupTempUserAccount` | 11 | Exported Function
+`CflSetupAuthEnvironment` | 10 | Exported Function
+`CflDeserializeSessionContext` | 3 | Exported Function
+`CflClearTempUserAccount` | 2 | Exported Function
+`CflClearScenarioData` | 1 | Exported Function
+`CflGetTransitionScenarioData` | 6 | Exported Function
+`CflGetScenarioData` | 5 | Exported Function
+`CflFreeBuffer` | 4 | Exported Function
 
 
 ## Signature

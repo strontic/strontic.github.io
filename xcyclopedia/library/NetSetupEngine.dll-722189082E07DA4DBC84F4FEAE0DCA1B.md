@@ -24,9 +24,9 @@ PE256 | `8DE02F22176706F56DCB69C734BD5A23813CDCC5820FAC428865887AFC7C5025`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NetSetupGetEngine` | 1 (0x1) | Exported Function | 0x0000000180043ec0 | 0x00043ec0
+Function Name | Ordinal | Type
+-- | -- | --
+`NetSetupGetEngine` | 1 | Exported Function
 
 
 ## Signature

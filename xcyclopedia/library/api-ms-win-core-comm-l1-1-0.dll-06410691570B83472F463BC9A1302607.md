@@ -24,26 +24,26 @@ PE256 | `1C23345BDEAA8DFA8009BBF5D171D3333EDA87ADE8ED45366D4A8BEA67A7135C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClearCommBreak` | 1 (0x1) | Exported Function | kernel32.ClearCommBreak | 0x0000122b
-`SetupComm` | 16 (0x10) | Exported Function | kernel32.SetupComm | 0x00001463
-`SetCommTimeouts` | 15 (0xf) | Exported Function | kernel32.SetCommTimeouts | 0x00001440
-`SetCommState` | 14 (0xe) | Exported Function | kernel32.SetCommState | 0x0000141a
-`SetCommMask` | 13 (0xd) | Exported Function | kernel32.SetCommMask | 0x000013f8
-`SetCommConfig` | 12 (0xc) | Exported Function | kernel32.SetCommConfig | 0x000013d5
-`SetCommBreak` | 11 (0xb) | Exported Function | kernel32.SetCommBreak | 0x000013b1
-`PurgeComm` | 10 (0xa) | Exported Function | kernel32.PurgeComm | 0x00001391
-`GetCommTimeouts` | 9 (0x9) | Exported Function | kernel32.GetCommTimeouts | 0x0000136e
-`GetCommState` | 8 (0x8) | Exported Function | kernel32.GetCommState | 0x00001348
-`GetCommProperties` | 7 (0x7) | Exported Function | kernel32.GetCommProperties | 0x00001320
-`GetCommModemStatus` | 6 (0x6) | Exported Function | kernel32.GetCommModemStatus | 0x000012f2
-`GetCommMask` | 5 (0x5) | Exported Function | kernel32.GetCommMask | 0x000012ca
-`GetCommConfig` | 4 (0x4) | Exported Function | kernel32.GetCommConfig | 0x000012a7
-`EscapeCommFunction` | 3 (0x3) | Exported Function | kernel32.EscapeCommFunction | 0x0000127d
-`ClearCommError` | 2 (0x2) | Exported Function | kernel32.ClearCommError | 0x00001252
-`TransmitCommChar` | 17 (0x11) | Exported Function | kernel32.TransmitCommChar | 0x00001487
-`WaitCommEvent` | 18 (0x12) | Exported Function | kernel32.WaitCommEvent | 0x000014af
+Function Name | Ordinal | Type
+-- | -- | --
+`SetCommConfig` | 12 | Exported Function
+`SetCommMask` | 13 | Exported Function
+`PurgeComm` | 10 | Exported Function
+`SetCommBreak` | 11 | Exported Function
+`SetCommState` | 14 | Exported Function
+`TransmitCommChar` | 17 | Exported Function
+`WaitCommEvent` | 18 | Exported Function
+`SetCommTimeouts` | 15 | Exported Function
+`SetupComm` | 16 | Exported Function
+`EscapeCommFunction` | 3 | Exported Function
+`GetCommConfig` | 4 | Exported Function
+`ClearCommBreak` | 1 | Exported Function
+`ClearCommError` | 2 | Exported Function
+`GetCommMask` | 5 | Exported Function
+`GetCommState` | 8 | Exported Function
+`GetCommTimeouts` | 9 | Exported Function
+`GetCommModemStatus` | 6 | Exported Function
+`GetCommProperties` | 7 | Exported Function
 
 
 ## Signature

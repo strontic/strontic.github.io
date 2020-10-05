@@ -24,13 +24,13 @@ PE256 | `C1096578337367CF336AE4C05D794FF8BC47809841CB15DDBF9E8E739D2CDCA6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddVectoredContinueHandler` | 1 (0x1) | Exported Function | kernel32.AddVectoredContinueHandler | 0x000010fe
-`AddVectoredExceptionHandler` | 2 (0x2) | Exported Function | kernel32.AddVectoredExceptionHandler | 0x0000113e
-`RemoveVectoredContinueHandler` | 3 (0x3) | Exported Function | kernel32.RemoveVectoredContinueHandler | 0x00001181
-`RemoveVectoredExceptionHandler` | 4 (0x4) | Exported Function | kernel32.RemoveVectoredExceptionHandler | 0x000011c7
-`RestoreLastError` | 5 (0x5) | Exported Function | kernel32.RestoreLastError | 0x00001200
+Function Name | Ordinal | Type
+-- | -- | --
+`RemoveVectoredExceptionHandler` | 4 | Exported Function
+`RestoreLastError` | 5 | Exported Function
+`RemoveVectoredContinueHandler` | 3 | Exported Function
+`AddVectoredContinueHandler` | 1 | Exported Function
+`AddVectoredExceptionHandler` | 2 | Exported Function
 
 
 ## Signature

@@ -24,104 +24,104 @@ PE256 | `18FE21A466239B8BB6C70D04C5D93A9911601D7834370A98CE976CCEF50FB77A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddUserToSsoGroup` | 114 (0x72) | Exported Function | 0x00000001800362f0 | 0x000362f0
-`ProvisionDeviceId` | 98 (0x62) | Exported Function | 0x000000018002e450 | 0x0002e450
-`PersistCredential` | 15 (0xf) | Exported Function | 0x0000000180026e90 | 0x00026e90
-`PassportFreeMemory` | 3 (0x3) | Exported Function | 0x0000000180028730 | 0x00028730
-`OpenAuthenticatedBrowser` | 74 (0x4a) | Exported Function | 0x00000001800224b0 | 0x000224b0
-`NextIdentity` | 18 (0x12) | Exported Function | 0x0000000180026900 | 0x00026900
-`LogonIdentityExWithUI` | 75 (0x4b) | Exported Function | 0x0000000180024dc0 | 0x00024dc0
-`LogonIdentityExSSO` | 108 (0x6c) | Exported Function | 0x0000000180024ea0 | 0x00024ea0
-`LogonIdentityEx` | 31 (0x1f) | Exported Function | 0x00000001800289b0 | 0x000289b0
-`LogonIdentity` | 21 (0x15) | Exported Function | 0x00000001800212d0 | 0x000212d0
-`RemoveChangeNotificationCallback` | 58 (0x3a) | Exported Function | 0x000000018000cee0 | 0x0000cee0
-`IsMappedError` | 95 (0x5f) | Exported Function | 0x0000000180029ef0 | 0x00029ef0
-`InitializeIDCRLTraceBuffer` | 93 (0x5d) | Exported Function | 0x00000001800321f0 | 0x000321f0
-`InitializeEx` | 29 (0x1d) | Exported Function | 0x000000018001fd00 | 0x0001fd00
-`InitializeApp` | 61 (0x3d) | Exported Function | 0x000000018001f470 | 0x0001f470
-`Initialize` | 1 (0x1) | Exported Function | 0x000000018001fe30 | 0x0001fe30
-`IDCRL_GetSpecifiedProtectionKey` | 122 (0x7a) | Exported Function | 0x000000018000cee0 | 0x0000cee0
-`IDCRL_GetLatestProtectionKey` | 123 (0x7b) | Exported Function | 0x000000018000cee0 | 0x0000cee0
-`HasPersistedCredential` | 23 (0x17) | Exported Function | 0x0000000180026ad0 | 0x00026ad0
-`GetWebAuthUrlEx` | 52 (0x34) | Exported Function | 0x0000000180021310 | 0x00021310
-`GetWebAuthUrl` | 30 (0x1e) | Exported Function | 0x00000001800212f0 | 0x000212f0
-`IsDeviceIDAdmin` | 69 (0x45) | Exported Function | 0x000000018002f320 | 0x0002f320
-`GetUsersFromSsoGroup` | 115 (0x73) | Exported Function | 0x00000001800365f0 | 0x000365f0
-`RemovePersistedCredential` | 16 (0x10) | Exported Function | 0x00000001800272a0 | 0x000272a0
-`RenewDeviceId` | 100 (0x64) | Exported Function | 0x000000018002e9e0 | 0x0002e9e0
-`UpdateUserAssociatedDeviceProperties` | 87 (0x57) | Exported Function | 0x0000000180030160 | 0x00030160
-`UnPackErrorBlob` | 102 (0x66) | Exported Function | 0x0000000180043f20 | 0x00043f20
-`Uninitialize` | 2 (0x2) | Exported Function | 0x000000018001fe50 | 0x0001fe50
-`UIShowWaitDialog` | 91 (0x5b) | Exported Function | 0x0000000180043d60 | 0x00043d60
-`UIEndWaitDialog` | 92 (0x5c) | Exported Function | 0x0000000180043e60 | 0x00043e60
-`UICollectCredential` | 83 (0x53) | Exported Function | 0x0000000180043830 | 0x00043830
-`StopTracing` | 111 (0x6f) | Exported Function | 0x00000001800371f0 | 0x000371f0
-`StartTracing` | 110 (0x6e) | Exported Function | 0x00000001800371b0 | 0x000371b0
-`SetUserExtendedProperty` | 55 (0x37) | Exported Function | 0x000000018002d3c0 | 0x0002d3c0
-`RemoveUserFromSsoGroup` | 116 (0x74) | Exported Function | 0x0000000180036ae0 | 0x00036ae0
-`SetIdentityProperty` | 7 (0x7) | Exported Function | 0x0000000180025980 | 0x00025980
-`SetIdcrlOptions` | 51 (0x33) | Exported Function | 0x000000018002c3b0 | 0x0002c3b0
-`SetHIPSolution` | 79 (0x4f) | Exported Function | 0x0000000180031180 | 0x00031180
-`SetExtendedProperty` | 47 (0x2f) | Exported Function | 0x0000000180029fd0 | 0x00029fd0
-`SetDeviceConsent` | 65 (0x41) | Exported Function | 0x000000018000d060 | 0x0000d060
-`SetDefaultUserForTarget` | 81 (0x51) | Exported Function | 0x00000001800313f0 | 0x000313f0
-`SetCredential` | 5 (0x5) | Exported Function | 0x0000000180020390 | 0x00020390
-`SetChangeNotificationCallback` | 57 (0x39) | Exported Function | 0x000000018000cee0 | 0x0000cee0
-`SendWatsonReport` | 121 (0x79) | Exported Function | 0x0000000180037b00 | 0x00037b00
-`SendOneTimeCode` | 117 (0x75) | Exported Function | 0x000000018000cee0 | 0x0000cee0
-`SetIdentityCallback` | 24 (0x18) | Exported Function | 0x0000000180021000 | 0x00021000
-`GetUserExtendedProperty` | 56 (0x38) | Exported Function | 0x000000018002d620 | 0x0002d620
-`GetServiceConfig` | 49 (0x31) | Exported Function | 0x000000018002c130 | 0x0002c130
-`GetResponseForHttpChallenge` | 76 (0x4c) | Exported Function | 0x0000000180028100 | 0x00028100
-`EncryptWithSessionKeyEx` | 118 (0x76) | Exported Function | 0x0000000180037290 | 0x00037290
-`EncryptWithSessionKey` | 53 (0x35) | Exported Function | 0x000000018002c9a0 | 0x0002c9a0
-`DllUnregisterServer` | 14 (0xe) | Exported Function | 0x000000018000d060 | 0x0000d060
-`DllRegisterServer` | 12 (0xc) | Exported Function | 0x000000018000d060 | 0x0000d060
-`DllInstall` | 11 (0xb) | Exported Function | 0x000000018000d060 | 0x0000d060
-`DllGetClassObject` | 10 (0xa) | Exported Function | 0x0000000180039b90 | 0x00039b90
-`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x0000000180039b40 | 0x00039b40
-`DisassociateDeviceFromUser` | 85 (0x55) | Exported Function | 0x0000000180036020 | 0x00036020
-`DeProvisionDeviceId` | 101 (0x65) | Exported Function | 0x000000018002eb30 | 0x0002eb30
-`EnumerateCertificates` | 62 (0x3e) | Exported Function | 0x000000018002d840 | 0x0002d840
-`DecryptWithSessionKeyEx` | 119 (0x77) | Exported Function | 0x00000001800375c0 | 0x000375c0
-`CreateLinkedIdentityHandle` | 68 (0x44) | Exported Function | 0x00000001800306e0 | 0x000306e0
-`CreateIdentityHandleEx` | 113 (0x71) | Exported Function | 0x0000000180036de0 | 0x00036de0
-`CreateIdentityHandle` | 4 (0x4) | Exported Function | 0x0000000180020130 | 0x00020130
-`CloseIdentityHandle` | 8 (0x8) | Exported Function | 0x00000001800202d0 | 0x000202d0
-`CloseEnumIdentitiesHandle` | 19 (0x13) | Exported Function | 0x0000000180026dd0 | 0x00026dd0
-`CancelPendingRequest` | 38 (0x26) | Exported Function | 0x00000001800287f0 | 0x000287f0
-`AuthIdentityToServiceEx` | 33 (0x21) | Exported Function | 0x00000001800295e0 | 0x000295e0
-`AuthIdentityToService` | 13 (0xd) | Exported Function | 0x0000000180028010 | 0x00028010
-`AssociateDeviceToUser` | 84 (0x54) | Exported Function | 0x0000000180035ca0 | 0x00035ca0
-`DecryptWithSessionKey` | 54 (0x36) | Exported Function | 0x000000018002ceb0 | 0x0002ceb0
-`EnumerateDeviceID` | 70 (0x46) | Exported Function | 0x000000018002f3e0 | 0x0002f3e0
-`EnumerateUserAssociatedDevices` | 86 (0x56) | Exported Function | 0x000000018002fd40 | 0x0002fd40
-`EnumIdentitiesWithCachedCredentials` | 17 (0x11) | Exported Function | 0x0000000180026690 | 0x00026690
-`GetRealmInfo` | 112 (0x70) | Exported Function | 0x0000000180032220 | 0x00032220
-`GetIdentityPropertyByName` | 41 (0x29) | Exported Function | 0x0000000180025620 | 0x00025620
-`GetIdentityProperty` | 6 (0x6) | Exported Function | 0x0000000180025000 | 0x00025000
-`GetHIPChallenge` | 78 (0x4e) | Exported Function | 0x0000000180030f50 | 0x00030f50
-`GetExtendedProperty` | 48 (0x30) | Exported Function | 0x000000018002a0e0 | 0x0002a0e0
-`GetExtendedError` | 60 (0x3c) | Exported Function | 0x000000018002a210 | 0x0002a210
-`GetErrorMessage` | 120 (0x78) | Exported Function | 0x00000001800378f0 | 0x000378f0
-`GetDeviceShortLivedToken` | 77 (0x4d) | Exported Function | 0x00000001800320f0 | 0x000320f0
-`GetDeviceIdEx` | 99 (0x63) | Exported Function | 0x000000018002e5a0 | 0x0002e5a0
-`GetDeviceId` | 64 (0x40) | Exported Function | 0x000000018002ec80 | 0x0002ec80
-`GetDefaultUserForTarget` | 82 (0x52) | Exported Function | 0x00000001800315c0 | 0x000315c0
-`GetDefaultNoUISSOUser` | 104 (0x68) | Exported Function | 0x0000000180031730 | 0x00031730
-`GetConfigDWORDValue` | 97 (0x61) | Exported Function | 0x000000018002c2c0 | 0x0002c2c0
-`GetCertificate` | 35 (0x23) | Exported Function | 0x0000000180029650 | 0x00029650
-`GetAuthStateEx` | 34 (0x22) | Exported Function | 0x0000000180028dd0 | 0x00028dd0
-`GetAuthState` | 20 (0x14) | Exported Function | 0x0000000180025ca0 | 0x00025ca0
-`GetAuthenticationStatus` | 96 (0x60) | Exported Function | 0x0000000180026020 | 0x00026020
-`GetAssertion` | 72 (0x48) | Exported Function | 0x0000000180029600 | 0x00029600
-`GenerateDeviceToken` | 67 (0x43) | Exported Function | 0x000000018002f0e0 | 0x0002f0e0
-`GenerateCertToken` | 63 (0x3f) | Exported Function | 0x000000018002db00 | 0x0002db00
-`FlushIDCRLTraceBuffer` | 94 (0x5e) | Exported Function | 0x0000000180032210 | 0x00032210
-`VerifyAssertion` | 73 (0x49) | Exported Function | 0x0000000180029c60 | 0x00029c60
-`VerifyCertificate` | 40 (0x28) | Exported Function | 0x0000000180029c70 | 0x00029c70
+Function Name | Ordinal | Type
+-- | -- | --
+`LogonIdentityExSSO` | 108 | Exported Function
+`LogonIdentityExWithUI` | 75 | Exported Function
+`NextIdentity` | 18 | Exported Function
+`IsMappedError` | 95 | Exported Function
+`LogonIdentity` | 21 | Exported Function
+`LogonIdentityEx` | 31 | Exported Function
+`ProvisionDeviceId` | 98 | Exported Function
+`RemoveChangeNotificationCallback` | 58 | Exported Function
+`RemovePersistedCredential` | 16 | Exported Function
+`OpenAuthenticatedBrowser` | 74 | Exported Function
+`PassportFreeMemory` | 3 | Exported Function
+`PersistCredential` | 15 | Exported Function
+`GetWebAuthUrlEx` | 52 | Exported Function
+`HasPersistedCredential` | 23 | Exported Function
+`IDCRL_GetLatestProtectionKey` | 123 | Exported Function
+`GetUserExtendedProperty` | 56 | Exported Function
+`GetUsersFromSsoGroup` | 115 | Exported Function
+`GetWebAuthUrl` | 30 | Exported Function
+`InitializeEx` | 29 | Exported Function
+`InitializeIDCRLTraceBuffer` | 93 | Exported Function
+`IsDeviceIDAdmin` | 69 | Exported Function
+`IDCRL_GetSpecifiedProtectionKey` | 122 | Exported Function
+`Initialize` | 1 | Exported Function
+`InitializeApp` | 61 | Exported Function
+`StopTracing` | 111 | Exported Function
+`UICollectCredential` | 83 | Exported Function
+`UIEndWaitDialog` | 92 | Exported Function
+`SetIdentityProperty` | 7 | Exported Function
+`SetUserExtendedProperty` | 55 | Exported Function
+`StartTracing` | 110 | Exported Function
+`UpdateUserAssociatedDeviceProperties` | 87 | Exported Function
+`VerifyAssertion` | 73 | Exported Function
+`VerifyCertificate` | 40 | Exported Function
+`UIShowWaitDialog` | 91 | Exported Function
+`Uninitialize` | 2 | Exported Function
+`UnPackErrorBlob` | 102 | Exported Function
+`SendWatsonReport` | 121 | Exported Function
+`SetChangeNotificationCallback` | 57 | Exported Function
+`SetCredential` | 5 | Exported Function
+`RemoveUserFromSsoGroup` | 116 | Exported Function
+`RenewDeviceId` | 100 | Exported Function
+`SendOneTimeCode` | 117 | Exported Function
+`SetHIPSolution` | 79 | Exported Function
+`SetIdcrlOptions` | 51 | Exported Function
+`SetIdentityCallback` | 24 | Exported Function
+`SetDefaultUserForTarget` | 81 | Exported Function
+`SetDeviceConsent` | 65 | Exported Function
+`SetExtendedProperty` | 47 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`DllInstall` | 11 | Exported Function
+`DllRegisterServer` | 12 | Exported Function
+`DeProvisionDeviceId` | 101 | Exported Function
+`DisassociateDeviceFromUser` | 85 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`EnumerateCertificates` | 62 | Exported Function
+`EnumerateDeviceID` | 70 | Exported Function
+`EnumerateUserAssociatedDevices` | 86 | Exported Function
+`DllUnregisterServer` | 14 | Exported Function
+`EncryptWithSessionKey` | 53 | Exported Function
+`EncryptWithSessionKeyEx` | 118 | Exported Function
+`AuthIdentityToServiceEx` | 33 | Exported Function
+`CancelPendingRequest` | 38 | Exported Function
+`CloseEnumIdentitiesHandle` | 19 | Exported Function
+`AddUserToSsoGroup` | 114 | Exported Function
+`AssociateDeviceToUser` | 84 | Exported Function
+`AuthIdentityToService` | 13 | Exported Function
+`CreateLinkedIdentityHandle` | 68 | Exported Function
+`DecryptWithSessionKey` | 54 | Exported Function
+`DecryptWithSessionKeyEx` | 119 | Exported Function
+`CloseIdentityHandle` | 8 | Exported Function
+`CreateIdentityHandle` | 4 | Exported Function
+`CreateIdentityHandleEx` | 113 | Exported Function
+`GetErrorMessage` | 120 | Exported Function
+`GetExtendedError` | 60 | Exported Function
+`GetExtendedProperty` | 48 | Exported Function
+`GetDeviceId` | 64 | Exported Function
+`GetDeviceIdEx` | 99 | Exported Function
+`GetDeviceShortLivedToken` | 77 | Exported Function
+`GetRealmInfo` | 112 | Exported Function
+`GetResponseForHttpChallenge` | 76 | Exported Function
+`GetServiceConfig` | 49 | Exported Function
+`GetHIPChallenge` | 78 | Exported Function
+`GetIdentityProperty` | 6 | Exported Function
+`GetIdentityPropertyByName` | 41 | Exported Function
+`GenerateDeviceToken` | 67 | Exported Function
+`GetAssertion` | 72 | Exported Function
+`GetAuthenticationStatus` | 96 | Exported Function
+`EnumIdentitiesWithCachedCredentials` | 17 | Exported Function
+`FlushIDCRLTraceBuffer` | 94 | Exported Function
+`GenerateCertToken` | 63 | Exported Function
+`GetConfigDWORDValue` | 97 | Exported Function
+`GetDefaultNoUISSOUser` | 104 | Exported Function
+`GetDefaultUserForTarget` | 82 | Exported Function
+`GetAuthState` | 20 | Exported Function
+`GetAuthStateEx` | 34 | Exported Function
+`GetCertificate` | 35 | Exported Function
 
 
 ## Signature

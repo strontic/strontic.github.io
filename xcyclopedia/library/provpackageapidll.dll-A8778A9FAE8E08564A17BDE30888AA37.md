@@ -24,12 +24,12 @@ PE256 | `C98AB16135F0A5543FF0B554384FC636448D8166012D5452B6FF79AEAFC714FC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreatePackageBuilder` | 1 (0x1) | Exported Function | 0x0000000180003670 | 0x00003670
-`CreatePackageSecurity` | 2 (0x2) | Exported Function | 0x00000001800039d0 | 0x000039d0
-`OpenProvisioningPackage` | 3 (0x3) | Exported Function | 0x0000000180003730 | 0x00003730
-`OpenProvisioningPackageForRead` | 4 (0x4) | Exported Function | 0x0000000180003880 | 0x00003880
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenProvisioningPackage` | 3 | Exported Function
+`OpenProvisioningPackageForRead` | 4 | Exported Function
+`CreatePackageBuilder` | 1 | Exported Function
+`CreatePackageSecurity` | 2 | Exported Function
 
 
 ## Signature

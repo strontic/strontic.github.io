@@ -24,12 +24,12 @@ PE256 | `D95051E532E5234E880BBAEB9AB0EF35C006C0AF53CE9EBDBBCCF14886485E24`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WUCreateDriverUtil` | 1 (0x1) | Exported Function | 0x000000018000adf0 | 0x0000adf0
-`WUCreateExpressionEvaluator` | 2 (0x2) | Exported Function | 0x000000018000a340 | 0x0000a340
-`WUCreateUpdateHandler` | 3 (0x3) | Exported Function | 0x0000000180007410 | 0x00007410
-`WUGetHardwareIdInfo` | 4 (0x4) | Exported Function | 0x000000018001f0a0 | 0x0001f0a0
+Function Name | Ordinal | Type
+-- | -- | --
+`WUCreateUpdateHandler` | 3 | Exported Function
+`WUGetHardwareIdInfo` | 4 | Exported Function
+`WUCreateDriverUtil` | 1 | Exported Function
+`WUCreateExpressionEvaluator` | 2 | Exported Function
 
 
 ## Signature

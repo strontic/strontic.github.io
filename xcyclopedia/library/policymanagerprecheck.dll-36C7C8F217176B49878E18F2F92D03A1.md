@@ -24,13 +24,13 @@ PE256 | `C8AD1C357A088C8C44FE64593B514FBB08B98B64B51EBE83E945346BB10CDB37`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PolicyManager_Apply` | 3 (0x3) | Exported Function | 0x0000000180006bf0 | 0x00006bf0
-`PolicyManager_PostApply` | 4 (0x4) | Exported Function | 0x0000000180007ba0 | 0x00007ba0
-`PolicyManager_PreCheck` | 5 (0x5) | Exported Function | 0x0000000180005800 | 0x00005800
-`PolicyManagerTranslationProxy_GetPolicyValue` | 1 (0x1) | Exported Function | 0x0000000180016050 | 0x00016050
-`PolicyManagerTranslationProxy_SetPolicyValue` | 2 (0x2) | Exported Function | 0x0000000180016010 | 0x00016010
+Function Name | Ordinal | Type
+-- | -- | --
+`PolicyManagerTranslationProxy_GetPolicyValue` | 1 | Exported Function
+`PolicyManagerTranslationProxy_SetPolicyValue` | 2 | Exported Function
+`PolicyManager_PreCheck` | 5 | Exported Function
+`PolicyManager_Apply` | 3 | Exported Function
+`PolicyManager_PostApply` | 4 | Exported Function
 
 
 ## Signature

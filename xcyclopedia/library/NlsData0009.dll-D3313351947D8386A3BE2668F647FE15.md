@@ -24,9 +24,9 @@ PE256 | `FEE7916FAD680FC68CC8707A6C34AC46FDBA18C6DB666CCDAB528C3D76016798`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LangDataCall` | 1 (0x1) | Exported Function | 0x1044c250 | 0x0044c250
+Function Name | Ordinal | Type
+-- | -- | --
+`LangDataCall` | 1 | Exported Function
 
 
 ## Signature

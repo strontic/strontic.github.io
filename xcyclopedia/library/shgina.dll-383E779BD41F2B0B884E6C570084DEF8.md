@@ -24,11 +24,10 @@ PE256 | `D4609774A83DE005906614CF971225C166C97F8B4CE8FABA72397DCF8520B0B9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x10002de0 | 0x00002de0
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x10002d90 | 0x00002d90
-`Ordinal6` | 6 (0x6) | Exported Function | SHUNIMPL.#187 | 0x00003cdd
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 8 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
 
 
 ## Signature

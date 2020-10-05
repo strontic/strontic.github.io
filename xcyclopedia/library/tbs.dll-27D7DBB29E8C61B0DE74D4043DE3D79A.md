@@ -24,29 +24,29 @@ PE256 | `F9F8141DAF610D1DE72DA09DE56A3AFA6EC8161DF8022E66D67A6A853C0BA938`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetDeviceID` | 3 (0x3) | Exported Function | 0x1000ce30 | 0x0000ce30
-`Tbsip_Submit_Command_NonBlocking` | 19 (0x13) | Exported Function | 0x1000c010 | 0x0000c010
-`Tbsip_Submit_Command` | 18 (0x12) | Exported Function | 0x1000bfe0 | 0x0000bfe0
-`Tbsip_Context_Close` | 17 (0x11) | Exported Function | 0x1000bfa0 | 0x0000bfa0
-`Tbsip_Cancel_Commands` | 16 (0x10) | Exported Function | 0x1000bf60 | 0x0000bf60
-`Tbsi_ShaHash` | 15 (0xf) | Exported Function | 0x1000d290 | 0x0000d290
-`Tbsi_Revoke_Attestation` | 14 (0xe) | Exported Function | 0x1000bee0 | 0x0000bee0
-`Tbsi_Physical_Presence_Command` | 13 (0xd) | Exported Function | 0x1000be70 | 0x0000be70
-`Tbsi_GetDeviceInfo` | 9 (0x9) | Exported Function | 0x1000b7b0 | 0x0000b7b0
-`Tbsip_TestInterruptInformation` | 20 (0x14) | Exported Function | 0x1000c040 | 0x0000c040
-`Tbsi_Get_TCG_Logs` | 2 (0x2) | Exported Function | 0x100095c0 | 0x000095c0
-`Tbsi_Get_TCG_Log` | 11 (0xb) | Exported Function | 0x1000bd80 | 0x0000bd80
-`Tbsi_Get_OwnerAuth` | 10 (0xa) | Exported Function | 0x1000b830 | 0x0000b830
-`Tbsi_FilterLog` | 8 (0x8) | Exported Function | 0x1000d010 | 0x0000d010
-`Tbsi_Create_Windows_Key` | 7 (0x7) | Exported Function | 0x1000b710 | 0x0000b710
-`Tbsi_Create_Attestation_From_Log` | 1 (0x1) | Exported Function | 0x1000c7b0 | 0x0000c7b0
-`Tbsi_Context_Create` | 6 (0x6) | Exported Function | 0x1000b640 | 0x0000b640
-`GetDeviceIDWithTimeout` | 5 (0x5) | Exported Function | 0x100041e0 | 0x000041e0
-`GetDeviceIDString` | 4 (0x4) | Exported Function | 0x10003fc0 | 0x00003fc0
-`Tbsi_Get_TCG_Log_Ex` | 12 (0xc) | Exported Function | 0x1000bdd0 | 0x0000bdd0
-`Tbsip_TestMorBit` | 21 (0x15) | Exported Function | 0x1000c0e0 | 0x0000c0e0
+Function Name | Ordinal | Type
+-- | -- | --
+`Tbsi_ShaHash` | 15 | Exported Function
+`Tbsip_Cancel_Commands` | 16 | Exported Function
+`Tbsi_Revoke_Attestation` | 14 | Exported Function
+`Tbsi_GetDeviceInfo` | 9 | Exported Function
+`Tbsi_Physical_Presence_Command` | 13 | Exported Function
+`Tbsip_TestInterruptInformation` | 20 | Exported Function
+`Tbsip_TestMorBit` | 21 | Exported Function
+`Tbsip_Submit_Command_NonBlocking` | 19 | Exported Function
+`Tbsip_Context_Close` | 17 | Exported Function
+`Tbsip_Submit_Command` | 18 | Exported Function
+`Tbsi_Get_TCG_Logs` | 2 | Exported Function
+`Tbsi_Context_Create` | 6 | Exported Function
+`Tbsi_Create_Attestation_From_Log` | 1 | Exported Function
+`GetDeviceIDWithTimeout` | 5 | Exported Function
+`GetDeviceID` | 3 | Exported Function
+`GetDeviceIDString` | 4 | Exported Function
+`Tbsi_Get_TCG_Log` | 11 | Exported Function
+`Tbsi_Get_TCG_Log_Ex` | 12 | Exported Function
+`Tbsi_Get_OwnerAuth` | 10 | Exported Function
+`Tbsi_Create_Windows_Key` | 7 | Exported Function
+`Tbsi_FilterLog` | 8 | Exported Function
 
 
 ## Signature

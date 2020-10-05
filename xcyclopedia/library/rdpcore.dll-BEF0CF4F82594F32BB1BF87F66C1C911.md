@@ -24,9 +24,9 @@ PE256 | `E7F14A68CD580D700FA04C591209B4864AE69F9BE32BEE6872C8FBD666AD28E3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RDPAPI_CreateInstance` | 1 (0x1) | Exported Function | 0x6a81d590 | 0x0001d590
+Function Name | Ordinal | Type
+-- | -- | --
+`RDPAPI_CreateInstance` | 1 | Exported Function
 
 
 ## Signature

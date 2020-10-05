@@ -24,13 +24,13 @@ PE256 | `6B2491B42E542C382302B3C10378F9E3462168E0DF9DA27FF90E2A334197F6B3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseHandle` | 1 (0x1) | Exported Function | kernel32.CloseHandle | 0x000011a8
-`CompareObjectHandles` | 2 (0x2) | Exported Function | kernel32.CompareObjectHandles | 0x000011d2
-`DuplicateHandle` | 3 (0x3) | Exported Function | kernel32.DuplicateHandle | 0x00001200
-`GetHandleInformation` | 4 (0x4) | Exported Function | kernel32.GetHandleInformation | 0x0000122e
-`SetHandleInformation` | 5 (0x5) | Exported Function | kernel32.SetHandleInformation | 0x00001261
+Function Name | Ordinal | Type
+-- | -- | --
+`GetHandleInformation` | 4 | Exported Function
+`SetHandleInformation` | 5 | Exported Function
+`DuplicateHandle` | 3 | Exported Function
+`CloseHandle` | 1 | Exported Function
+`CompareObjectHandles` | 2 | Exported Function
 
 
 ## Signature

@@ -24,23 +24,23 @@ PE256 | `C43EC223179002A9EE96789DC5F2114036FDCCFB8632285246C9883B0B394A50`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddConnectionOptionListEntries` | 1 (0x1) | Exported Function | 0x0000000180005840 | 0x00005840
-`CreateVPNConnection` | 2 (0x2) | Exported Function | 0x0000000180005380 | 0x00005380
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180005d50 | 0x00005d50
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180005d70 | 0x00005d70
-`GetInternetConnected` | 5 (0x5) | Exported Function | 0x00000001800050d0 | 0x000050d0
-`GetNetworkConnected` | 6 (0x6) | Exported Function | 0x0000000180004dc0 | 0x00004dc0
-`GetVPNConnected` | 7 (0x7) | Exported Function | 0x0000000180005230 | 0x00005230
-`HrIsInternetConnected` | 8 (0x8) | Exported Function | 0x0000000180005a10 | 0x00005a10
-`HrIsInternetConnectedGUID` | 9 (0x9) | Exported Function | 0x0000000180005a70 | 0x00005a70
-`IsInternetConnected` | 10 (0xa) | Exported Function | 0x0000000180004f10 | 0x00004f10
-`IsInternetConnectedGUID` | 11 (0xb) | Exported Function | 0x0000000180004fe0 | 0x00004fe0
-`IsUniqueConnectionName` | 12 (0xc) | Exported Function | 0x0000000180005930 | 0x00005930
-`RegisterPageWithPage` | 13 (0xd) | Exported Function | 0x00000001800054d0 | 0x000054d0
-`UnregisterPage` | 14 (0xe) | Exported Function | 0x0000000180005730 | 0x00005730
-`UnregisterPagesLink` | 15 (0xf) | Exported Function | 0x0000000180005620 | 0x00005620
+Function Name | Ordinal | Type
+-- | -- | --
+`IsInternetConnectedGUID` | 11 | Exported Function
+`IsInternetConnected` | 10 | Exported Function
+`HrIsInternetConnectedGUID` | 9 | Exported Function
+`IsUniqueConnectionName` | 12 | Exported Function
+`UnregisterPagesLink` | 15 | Exported Function
+`UnregisterPage` | 14 | Exported Function
+`RegisterPageWithPage` | 13 | Exported Function
+`HrIsInternetConnected` | 8 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`CreateVPNConnection` | 2 | Exported Function
+`AddConnectionOptionListEntries` | 1 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`GetVPNConnected` | 7 | Exported Function
+`GetNetworkConnected` | 6 | Exported Function
+`GetInternetConnected` | 5 | Exported Function
 
 
 ## Signature

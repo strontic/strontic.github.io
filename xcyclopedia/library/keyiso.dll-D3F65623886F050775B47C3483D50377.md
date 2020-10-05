@@ -24,10 +24,10 @@ PE256 | `D6414859FA1A065E1A082B60E635E68FC78579413D8B4E5A5BB2D6B5898AE53E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`KeyIsoServiceMain` | 1 (0x1) | Exported Function | 0x100060d0 | 0x000060d0
-`KeyIsoSetAuditingInterface` | 2 (0x2) | Exported Function | NCRYPTPROV.SetAuditingInterface | 0x0000e6c4
+Function Name | Ordinal | Type
+-- | -- | --
+`KeyIsoSetAuditingInterface` | 2 | Exported Function
+`KeyIsoServiceMain` | 1 | Exported Function
 
 
 ## Signature

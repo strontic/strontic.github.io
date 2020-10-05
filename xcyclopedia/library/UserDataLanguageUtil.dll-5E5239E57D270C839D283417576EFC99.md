@@ -24,43 +24,43 @@ PE256 | `010260A5E6710BCCD6136CA9B60E891D3995B0A91EDE0C817DD6FC977190F49D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CanConvertStringFromUnicode` | 5 (0x5) | Exported Function | 0x10003b90 | 0x00003b90
-`InitializeLanguageUtil` | 20 (0x14) | Exported Function | 0x10003cd0 | 0x00003cd0
-`IsAltChar` | 21 (0x15) | Exported Function | 0x10004ba0 | 0x00004ba0
-`IsCHNChar` | 22 (0x16) | Exported Function | 0x100043c0 | 0x000043c0
-`IsEAChar` | 23 (0x17) | Exported Function | 0x10004560 | 0x00004560
-`IsHangulSyllable` | 24 (0x18) | Exported Function | 0x10004390 | 0x00004390
-`IsJPNChar` | 25 (0x19) | Exported Function | 0x100043f0 | 0x000043f0
-`GetWideSzAlloc` | 19 (0x13) | Exported Function | 0x10003a70 | 0x00003a70
-`IsLocalePseudoLoc` | 26 (0x1a) | Exported Function | 0x10004b60 | 0x00004b60
-`IsMatchingEAPrefixEx` | 28 (0x1c) | Exported Function | 0x10005f50 | 0x00005f50
-`IsMatchingPrefix` | 29 (0x1d) | Exported Function | 0x100058b0 | 0x000058b0
-`IsMatchingPrefixEx` | 30 (0x1e) | Exported Function | 0x100058e0 | 0x000058e0
-`IsSkippableCharacter` | 31 (0x1f) | Exported Function | 0x10004a30 | 0x00004a30
-`IsSupportedCodepage` | 32 (0x20) | Exported Function | 0x10003ed0 | 0x00003ed0
-`MapCharToBaseChar` | 33 (0x21) | Exported Function | 0x10004480 | 0x00004480
-`IsMatchingEAPrefix` | 27 (0x1b) | Exported Function | 0x10005f20 | 0x00005f20
-`MapStringToBaseCharacters` | 34 (0x22) | Exported Function | 0x10004530 | 0x00004530
-`GetWideSz` | 18 (0x12) | Exported Function | 0x10003a50 | 0x00003a50
-`GetNarrowSzCodepage` | 16 (0x10) | Exported Function | 0x10003940 | 0x00003940
-`CHSPinYinHelper_CreateInstance` | 1 (0x1) | Exported Function | 0x10001ce0 | 0x00001ce0
-`CHSPinYinHelper_HasPossibleCHSPinYin` | 2 (0x2) | Exported Function | 0x10001d60 | 0x00001d60
-`CHSPinYinHelper_HasPossiblePinYin` | 3 (0x3) | Exported Function | 0x10001c90 | 0x00001c90
-`CHSPinYinHelper_Initialize` | 4 (0x4) | Exported Function | 0x10001c50 | 0x00001c50
-`ConvertToMultiByte` | 6 (0x6) | Exported Function | 0x10003720 | 0x00003720
-`ConvertToWideStream` | 7 (0x7) | Exported Function | 0x10003210 | 0x00003210
-`GetSystemDefaultCodepage` | 17 (0x11) | Exported Function | 0x10003e20 | 0x00003e20
-`ConvertWideStreamToMultiByte` | 8 (0x8) | Exported Function | 0x10003490 | 0x00003490
-`DetermineStringEALangId` | 10 (0xa) | Exported Function | 0x10004150 | 0x00004150
-`DetermineStringEALangIdNLS` | 11 (0xb) | Exported Function | 0x100041f0 | 0x000041f0
-`GetCodepageName` | 12 (0xc) | Exported Function | 0x10003f30 | 0x00003f30
-`GetConvertedTextForMatching` | 13 (0xd) | Exported Function | 0x100050e0 | 0x000050e0
-`GetCurrentLangIdForMatching` | 14 (0xe) | Exported Function | 0x10004110 | 0x00004110
-`GetMultiLanguage2` | 15 (0xf) | Exported Function | 0x10003d80 | 0x00003d80
-`DecomposeHangulSyllables` | 9 (0x9) | Exported Function | 0x100045b0 | 0x000045b0
-`UninitializeLanguageUtil` | 35 (0x23) | Exported Function | 0x10003d10 | 0x00003d10
+Function Name | Ordinal | Type
+-- | -- | --
+`IsHangulSyllable` | 24 | Exported Function
+`IsEAChar` | 23 | Exported Function
+`IsLocalePseudoLoc` | 26 | Exported Function
+`IsJPNChar` | 25 | Exported Function
+`InitializeLanguageUtil` | 20 | Exported Function
+`GetWideSzAlloc` | 19 | Exported Function
+`IsCHNChar` | 22 | Exported Function
+`IsAltChar` | 21 | Exported Function
+`IsMatchingEAPrefix` | 27 | Exported Function
+`MapCharToBaseChar` | 33 | Exported Function
+`IsSupportedCodepage` | 32 | Exported Function
+`UninitializeLanguageUtil` | 35 | Exported Function
+`MapStringToBaseCharacters` | 34 | Exported Function
+`IsMatchingPrefix` | 29 | Exported Function
+`IsMatchingEAPrefixEx` | 28 | Exported Function
+`IsSkippableCharacter` | 31 | Exported Function
+`IsMatchingPrefixEx` | 30 | Exported Function
+`GetWideSz` | 18 | Exported Function
+`ConvertToMultiByte` | 6 | Exported Function
+`CHSPinYinHelper_Initialize` | 4 | Exported Function
+`ConvertWideStreamToMultiByte` | 8 | Exported Function
+`ConvertToWideStream` | 7 | Exported Function
+`CHSPinYinHelper_CreateInstance` | 1 | Exported Function
+`CanConvertStringFromUnicode` | 5 | Exported Function
+`CHSPinYinHelper_HasPossiblePinYin` | 3 | Exported Function
+`CHSPinYinHelper_HasPossibleCHSPinYin` | 2 | Exported Function
+`DecomposeHangulSyllables` | 9 | Exported Function
+`GetMultiLanguage2` | 15 | Exported Function
+`GetCurrentLangIdForMatching` | 14 | Exported Function
+`GetSystemDefaultCodepage` | 17 | Exported Function
+`GetNarrowSzCodepage` | 16 | Exported Function
+`DetermineStringEALangIdNLS` | 11 | Exported Function
+`DetermineStringEALangId` | 10 | Exported Function
+`GetConvertedTextForMatching` | 13 | Exported Function
+`GetCodepageName` | 12 | Exported Function
 
 
 ## Signature

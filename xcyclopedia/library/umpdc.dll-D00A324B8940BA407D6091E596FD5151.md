@@ -23,56 +23,56 @@ PE256 | `62769ED13529085572C33B80E3F4CB7813260AA0014D77F1BDD60DC1F5EBBA29`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PdcAcquireRwLockExclusive` | 1 (0x1) | Exported Function | 0x10002240 | 0x00002240
-`PdcSleep` | 27 (0x1b) | Exported Function | 0x10002210 | 0x00002210
-`PdcTaskClientRegister` | 28 (0x1c) | Exported Function | 0x100047e0 | 0x000047e0
-`PdcTaskClientRequest` | 29 (0x1d) | Exported Function | 0x10004880 | 0x00004880
-`PdcTaskClientUnregister` | 30 (0x1e) | Exported Function | 0x10004940 | 0x00004940
-`Pdcv2ActivationClientActivate` | 31 (0x1f) | Exported Function | 0x10002a70 | 0x00002a70
-`Pdcv2ActivationClientDeactivate` | 32 (0x20) | Exported Function | 0x10002f90 | 0x00002f90
-`Pdcv2ActivationClientRegister` | 33 (0x21) | Exported Function | 0x100028d0 | 0x000028d0
-`Pdcv2ActivationClientRenewActivation` | 34 (0x22) | Exported Function | 0x10002d50 | 0x00002d50
-`Pdcv2ActivationClientSetBrokeredProcessId` | 35 (0x23) | Exported Function | 0x10002f00 | 0x00002f00
-`PdcSignalClientUnregister` | 26 (0x1a) | Exported Function | 0x10004790 | 0x00004790
-`Pdcv2ActivationClientUnregister` | 36 (0x24) | Exported Function | 0x10003120 | 0x00003120
-`SleepstudyHelperBlockerActiveReference` | 38 (0x26) | Exported Function | 0x10004a20 | 0x00004a20
-`SleepstudyHelperBuildBlocker` | 39 (0x27) | Exported Function | 0x10004a90 | 0x00004a90
-`SleepstudyHelperCreateBlockerFromGuid` | 40 (0x28) | Exported Function | 0x10004b70 | 0x00004b70
-`SleepstudyHelperCreateLibrary` | 41 (0x29) | Exported Function | 0x10004cc0 | 0x00004cc0
-`SleepstudyHelperDestroyBlocker` | 42 (0x2a) | Exported Function | 0x10004d50 | 0x00004d50
-`SleepstudyHelperDestroyBlockerBuilder` | 43 (0x2b) | Exported Function | 0x10004dd0 | 0x00004dd0
-`SleepstudyHelperDestroyLibrary` | 44 (0x2c) | Exported Function | 0x10004e50 | 0x00004e50
-`SleepstudyHelperGetBlockerGuid` | 45 (0x2d) | Exported Function | 0x10004e80 | 0x00004e80
-`SleepstudyHelperSetBlockerFriendlyName` | 46 (0x2e) | Exported Function | 0x10004f10 | 0x00004f10
-`SleepstudyHelperBlockerActiveDereference` | 37 (0x25) | Exported Function | 0x100049a0 | 0x000049a0
-`PdcSignalClientSetActive` | 25 (0x19) | Exported Function | 0x10004740 | 0x00004740
-`PdcSignalClientRegister` | 24 (0x18) | Exported Function | 0x100045d0 | 0x000045d0
-`PdcSignalClientPulse` | 23 (0x17) | Exported Function | 0x10004700 | 0x00004700
-`PdcActivationClientActivityRequest` | 2 (0x2) | Exported Function | 0x10002550 | 0x00002550
-`PdcActivationClientRegister` | 3 (0x3) | Exported Function | 0x10002460 | 0x00002460
-`PdcActivationClientUnregister` | 4 (0x4) | Exported Function | 0x10002720 | 0x00002720
-`PdcAllocate` | 5 (0x5) | Exported Function | 0x100021b0 | 0x000021b0
-`PdcFree` | 6 (0x6) | Exported Function | 0x100021e0 | 0x000021e0
-`PdcNotificationClientAcknowledge` | 7 (0x7) | Exported Function | 0x10003540 | 0x00003540
-`PdcNotificationClientRegister` | 8 (0x8) | Exported Function | 0x10003440 | 0x00003440
-`PdcNotificationClientUnregister` | 9 (0x9) | Exported Function | 0x100037d0 | 0x000037d0
-`PdcPortClose` | 10 (0xa) | Exported Function | 0x10003b20 | 0x00003b20
-`PdcPortOpen` | 11 (0xb) | Exported Function | 0x10003870 | 0x00003870
-`PdcPortSendMessage` | 12 (0xc) | Exported Function | 0x10003d60 | 0x00003d60
-`PdcPortSendMessageSynchronously` | 13 (0xd) | Exported Function | 0x10003de0 | 0x00003de0
-`PdcPpmProfileClientRegister` | 14 (0xe) | Exported Function | 0x10003f50 | 0x00003f50
-`PdcPpmProfileClientUnregister` | 15 (0xf) | Exported Function | 0x100040f0 | 0x000040f0
-`PdcPpmProfileDisable` | 16 (0x10) | Exported Function | 0x100040b0 | 0x000040b0
-`PdcPpmProfileEnable` | 17 (0x11) | Exported Function | 0x100040d0 | 0x000040d0
-`PdcReleaseRwLockExclusive` | 18 (0x12) | Exported Function | 0x10002270 | 0x00002270
-`PdcResiliencyClientAcknowledge` | 19 (0x13) | Exported Function | 0x10004240 | 0x00004240
-`PdcResiliencyClientRegister` | 20 (0x14) | Exported Function | 0x10004150 | 0x00004150
-`PdcResiliencyClientUnregister` | 21 (0x15) | Exported Function | 0x10004410 | 0x00004410
-`PdcRwLockInitialize` | 22 (0x16) | Exported Function | 0x10002220 | 0x00002220
-`SleepstudyHelperSetBlockerParentHandle` | 47 (0x2f) | Exported Function | 0x10004fc0 | 0x00004fc0
-`SleepstudyHelperSetBlockerVisible` | 48 (0x30) | Exported Function | 0x10005050 | 0x00005050
+Function Name | Ordinal | Type
+-- | -- | --
+`Pdcv2ActivationClientRegister` | 33 | Exported Function
+`Pdcv2ActivationClientDeactivate` | 32 | Exported Function
+`Pdcv2ActivationClientActivate` | 31 | Exported Function
+`Pdcv2ActivationClientUnregister` | 36 | Exported Function
+`Pdcv2ActivationClientSetBrokeredProcessId` | 35 | Exported Function
+`Pdcv2ActivationClientRenewActivation` | 34 | Exported Function
+`PdcSleep` | 27 | Exported Function
+`PdcSignalClientUnregister` | 26 | Exported Function
+`PdcSignalClientSetActive` | 25 | Exported Function
+`PdcTaskClientUnregister` | 30 | Exported Function
+`PdcTaskClientRequest` | 29 | Exported Function
+`PdcTaskClientRegister` | 28 | Exported Function
+`SleepstudyHelperGetBlockerGuid` | 45 | Exported Function
+`SleepstudyHelperDestroyLibrary` | 44 | Exported Function
+`SleepstudyHelperDestroyBlockerBuilder` | 43 | Exported Function
+`SleepstudyHelperSetBlockerVisible` | 48 | Exported Function
+`SleepstudyHelperSetBlockerParentHandle` | 47 | Exported Function
+`SleepstudyHelperSetBlockerFriendlyName` | 46 | Exported Function
+`SleepstudyHelperBuildBlocker` | 39 | Exported Function
+`SleepstudyHelperBlockerActiveReference` | 38 | Exported Function
+`SleepstudyHelperBlockerActiveDereference` | 37 | Exported Function
+`SleepstudyHelperDestroyBlocker` | 42 | Exported Function
+`SleepstudyHelperCreateLibrary` | 41 | Exported Function
+`SleepstudyHelperCreateBlockerFromGuid` | 40 | Exported Function
+`PdcNotificationClientUnregister` | 9 | Exported Function
+`PdcNotificationClientRegister` | 8 | Exported Function
+`PdcNotificationClientAcknowledge` | 7 | Exported Function
+`PdcPortSendMessage` | 12 | Exported Function
+`PdcPortOpen` | 11 | Exported Function
+`PdcPortClose` | 10 | Exported Function
+`PdcActivationClientRegister` | 3 | Exported Function
+`PdcActivationClientActivityRequest` | 2 | Exported Function
+`PdcAcquireRwLockExclusive` | 1 | Exported Function
+`PdcFree` | 6 | Exported Function
+`PdcAllocate` | 5 | Exported Function
+`PdcActivationClientUnregister` | 4 | Exported Function
+`PdcResiliencyClientUnregister` | 21 | Exported Function
+`PdcResiliencyClientRegister` | 20 | Exported Function
+`PdcResiliencyClientAcknowledge` | 19 | Exported Function
+`PdcSignalClientRegister` | 24 | Exported Function
+`PdcSignalClientPulse` | 23 | Exported Function
+`PdcRwLockInitialize` | 22 | Exported Function
+`PdcPpmProfileClientUnregister` | 15 | Exported Function
+`PdcPpmProfileClientRegister` | 14 | Exported Function
+`PdcPortSendMessageSynchronously` | 13 | Exported Function
+`PdcReleaseRwLockExclusive` | 18 | Exported Function
+`PdcPpmProfileEnable` | 17 | Exported Function
+`PdcPpmProfileDisable` | 16 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `60A38E82BA417287202263FBB6ED0206113B05C72C70EAC330ECC9D7208BCC3B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DVRCreateDVRFileSink` | 1 (0x1) | Exported Function | 0x10003980 | 0x00003980
-`DVRCreateDVRFileSource` | 2 (0x2) | Exported Function | 0x10005f40 | 0x00005f40
+Function Name | Ordinal | Type
+-- | -- | --
+`DVRCreateDVRFileSource` | 2 | Exported Function
+`DVRCreateDVRFileSink` | 1 | Exported Function
 
 
 ## Signature

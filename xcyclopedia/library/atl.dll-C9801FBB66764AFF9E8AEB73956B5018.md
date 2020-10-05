@@ -24,62 +24,62 @@ PE256 | `4BC7AA8D60D2EAC93B4403EC3CBB234202C610AD97F8E6B61E6CEEFFFB79B7C6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AtlAdvise` | 10 (0xa) | Exported Function | 0x000000018000dc30 | 0x0000dc30
-`AtlModuleGetClassObject` | 15 (0xf) | Exported Function | 0x00000001800019a0 | 0x000019a0
-`AtlModuleInit` | 16 (0x10) | Exported Function | 0x0000000180001080 | 0x00001080
-`AtlModuleLoadTypeLib` | 56 (0x38) | Exported Function | 0x000000018000ecd0 | 0x0000ecd0
-`AtlModuleRegisterClassObjects` | 17 (0x11) | Exported Function | 0x0000000180001660 | 0x00001660
-`AtlModuleRegisterServer` | 18 (0x12) | Exported Function | 0x000000018000ef10 | 0x0000ef10
-`AtlModuleRegisterTypeLib` | 19 (0x13) | Exported Function | 0x000000018000f020 | 0x0000f020
-`AtlModuleRegisterWndClassInfoA` | 46 (0x2e) | Exported Function | 0x000000018000f1c0 | 0x0000f1c0
-`AtlModuleRegisterWndClassInfoW` | 45 (0x2d) | Exported Function | 0x000000018000f400 | 0x0000f400
-`AtlModuleRevokeClassObjects` | 20 (0x14) | Exported Function | 0x0000000180001790 | 0x00001790
-`AtlModuleTerm` | 21 (0x15) | Exported Function | 0x0000000180001510 | 0x00001510
-`AtlModuleUnregisterServer` | 22 (0x16) | Exported Function | 0x000000018000f740 | 0x0000f740
-`AtlModuleUnregisterServerEx` | 57 (0x39) | Exported Function | 0x000000018000f750 | 0x0000f750
-`AtlModuleUnRegisterTypeLib` | 55 (0x37) | Exported Function | 0x000000018000f640 | 0x0000f640
-`AtlModuleUpdateRegistryFromResourceD` | 23 (0x17) | Exported Function | 0x000000018000f840 | 0x0000f840
-`AtlPixelToHiMetric` | 28 (0x1c) | Exported Function | 0x000000018000fa80 | 0x0000fa80
-`AtlRegisterClassCategoriesHelper` | 49 (0x31) | Exported Function | 0x000000018000fb50 | 0x0000fb50
-`AtlSetErrorInfo` | 25 (0x19) | Exported Function | 0x000000018000fc60 | 0x0000fc60
-`AtlSetErrorInfo2` | 59 (0x3b) | Exported Function | 0x000000018000fea0 | 0x0000fea0
-`AtlUnadvise` | 11 (0xb) | Exported Function | 0x000000018000ffe0 | 0x0000ffe0
-`AtlUnmarshalPtr` | 14 (0xe) | Exported Function | 0x0000000180010090 | 0x00010090
-`AtlWaitWithMessageLoop` | 24 (0x18) | Exported Function | 0x0000000180010110 | 0x00010110
-`DllCanUnloadNow` | 33 (0x21) | Exported Function | 0x00000001800101c0 | 0x000101c0
-`DllGetClassObject` | 61 (0x3d) | Exported Function | 0x00000001800101e0 | 0x000101e0
-`AtlModuleExtractCreateWndData` | 44 (0x2c) | Exported Function | 0x000000018000ec30 | 0x0000ec30
-`AtlModuleAddTermFunc` | 58 (0x3a) | Exported Function | 0x000000018000eb80 | 0x0000eb80
-`AtlModuleAddCreateWndData` | 43 (0x2b) | Exported Function | 0x000000018000eae0 | 0x0000eae0
-`AtlMarshalPtrInProc` | 13 (0xd) | Exported Function | 0x000000018000ea30 | 0x0000ea30
-`AtlAxAttachControl` | 41 (0x29) | Exported Function | 0x000000018000dcf0 | 0x0000dcf0
-`AtlAxCreateControl` | 39 (0x27) | Exported Function | 0x000000018000ddb0 | 0x0000ddb0
-`AtlAxCreateControlEx` | 40 (0x28) | Exported Function | 0x000000018000dde0 | 0x0000dde0
-`AtlAxCreateDialogA` | 38 (0x26) | Exported Function | 0x000000018000df20 | 0x0000df20
-`AtlAxCreateDialogW` | 37 (0x25) | Exported Function | 0x000000018000e090 | 0x0000e090
-`AtlAxDialogBoxA` | 36 (0x24) | Exported Function | 0x000000018000e200 | 0x0000e200
-`AtlAxDialogBoxW` | 35 (0x23) | Exported Function | 0x000000018000e370 | 0x0000e370
-`AtlAxGetControl` | 47 (0x2f) | Exported Function | 0x000000018000e4e0 | 0x0000e4e0
-`AtlAxGetHost` | 48 (0x30) | Exported Function | 0x000000018000e530 | 0x0000e530
-`AtlAxWinInit` | 42 (0x2a) | Exported Function | 0x000000018000e580 | 0x0000e580
-`AtlComPtrAssign` | 30 (0x1e) | Exported Function | 0x0000000180001270 | 0x00001270
-`DllRegisterServer` | 62 (0x3e) | Exported Function | 0x0000000180001340 | 0x00001340
-`AtlComQIPtrAssign` | 31 (0x1f) | Exported Function | 0x000000018000e6b0 | 0x0000e6b0
-`AtlDevModeW2A` | 29 (0x1d) | Exported Function | 0x000000018000e7c0 | 0x0000e7c0
-`AtlFreeMarshalStream` | 12 (0xc) | Exported Function | 0x000000018000e8d0 | 0x0000e8d0
-`AtlGetObjectSourceInterface` | 54 (0x36) | Exported Function | 0x0000000180004120 | 0x00004120
-`AtlGetVersion` | 34 (0x22) | Exported Function | 0x000000018000e930 | 0x0000e930
-`AtlHiMetricToPixel` | 27 (0x1b) | Exported Function | 0x000000018000e940 | 0x0000e940
-`AtlInternalQueryInterface` | 32 (0x20) | Exported Function | 0x0000000180001860 | 0x00001860
-`AtlIPersistPropertyBag_Load` | 52 (0x34) | Exported Function | 0x00000001800044b0 | 0x000044b0
-`AtlIPersistPropertyBag_Save` | 53 (0x35) | Exported Function | 0x0000000180004860 | 0x00004860
-`AtlIPersistStreamInit_GetSizeMax` | 60 (0x3c) | Exported Function | 0x0000000180004c50 | 0x00004c50
-`AtlIPersistStreamInit_Load` | 50 (0x32) | Exported Function | 0x0000000180004ed0 | 0x00004ed0
-`AtlIPersistStreamInit_Save` | 51 (0x33) | Exported Function | 0x0000000180005080 | 0x00005080
-`AtlCreateTargetDC` | 26 (0x1a) | Exported Function | 0x000000018000e720 | 0x0000e720
-`DllUnregisterServer` | 63 (0x3f) | Exported Function | 0x0000000180001340 | 0x00001340
+Function Name | Ordinal | Type
+-- | -- | --
+`AtlModuleRegisterWndClassInfoW` | 45 | Exported Function
+`AtlModuleRegisterWndClassInfoA` | 46 | Exported Function
+`AtlModuleRegisterTypeLib` | 19 | Exported Function
+`AtlModuleUnregisterServer` | 22 | Exported Function
+`AtlModuleTerm` | 21 | Exported Function
+`AtlModuleRevokeClassObjects` | 20 | Exported Function
+`AtlModuleRegisterServer` | 18 | Exported Function
+`AtlModuleGetClassObject` | 15 | Exported Function
+`AtlModuleExtractCreateWndData` | 44 | Exported Function
+`AtlModuleAddTermFunc` | 58 | Exported Function
+`AtlModuleRegisterClassObjects` | 17 | Exported Function
+`AtlModuleLoadTypeLib` | 56 | Exported Function
+`AtlModuleInit` | 16 | Exported Function
+`AtlModuleUnregisterServerEx` | 57 | Exported Function
+`DllCanUnloadNow` | 33 | Exported Function
+`AtlWaitWithMessageLoop` | 24 | Exported Function
+`AtlUnmarshalPtr` | 14 | Exported Function
+`DllUnregisterServer` | 63 | Exported Function
+`DllRegisterServer` | 62 | Exported Function
+`DllGetClassObject` | 61 | Exported Function
+`AtlUnadvise` | 11 | Exported Function
+`AtlPixelToHiMetric` | 28 | Exported Function
+`AtlModuleUpdateRegistryFromResourceD` | 23 | Exported Function
+`AtlModuleUnRegisterTypeLib` | 55 | Exported Function
+`AtlSetErrorInfo2` | 59 | Exported Function
+`AtlSetErrorInfo` | 25 | Exported Function
+`AtlRegisterClassCategoriesHelper` | 49 | Exported Function
+`AtlAxGetHost` | 48 | Exported Function
+`AtlAxGetControl` | 47 | Exported Function
+`AtlAxDialogBoxW` | 35 | Exported Function
+`AtlComQIPtrAssign` | 31 | Exported Function
+`AtlComPtrAssign` | 30 | Exported Function
+`AtlAxWinInit` | 42 | Exported Function
+`AtlAxDialogBoxA` | 36 | Exported Function
+`AtlAxCreateControl` | 39 | Exported Function
+`AtlAxAttachControl` | 41 | Exported Function
+`AtlAdvise` | 10 | Exported Function
+`AtlAxCreateDialogW` | 37 | Exported Function
+`AtlAxCreateDialogA` | 38 | Exported Function
+`AtlAxCreateControlEx` | 40 | Exported Function
+`AtlCreateTargetDC` | 26 | Exported Function
+`AtlIPersistStreamInit_Load` | 50 | Exported Function
+`AtlIPersistStreamInit_GetSizeMax` | 60 | Exported Function
+`AtlIPersistPropertyBag_Save` | 53 | Exported Function
+`AtlModuleAddCreateWndData` | 43 | Exported Function
+`AtlMarshalPtrInProc` | 13 | Exported Function
+`AtlIPersistStreamInit_Save` | 51 | Exported Function
+`AtlIPersistPropertyBag_Load` | 52 | Exported Function
+`AtlGetObjectSourceInterface` | 54 | Exported Function
+`AtlFreeMarshalStream` | 12 | Exported Function
+`AtlDevModeW2A` | 29 | Exported Function
+`AtlInternalQueryInterface` | 32 | Exported Function
+`AtlHiMetricToPixel` | 27 | Exported Function
+`AtlGetVersion` | 34 | Exported Function
 
 
 ## Signature

@@ -24,15 +24,15 @@ PE256 | `117E0A7CDE50F9B28C2F33586393D5A6DEEA59BEAE0AC0BFC4486222D7852EB2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x00000001800282a0 | 0x000282a0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x00000001800282e0 | 0x000282e0
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x000000018000b830 | 0x0000b830
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x000000018000b830 | 0x0000b830
-`MFCreateNetVRoot` | 5 (0x5) | Exported Function | 0x000000018002dbf0 | 0x0002dbf0
-`MFCreateWinMDEOpCenter` | 7 (0x7) | Exported Function | 0x0000000180028390 | 0x00028390
-`MFCreateWMPMDEOpCenter` | 6 (0x6) | Exported Function | 0x000000018000f3b0 | 0x0000f3b0
+Function Name | Ordinal | Type
+-- | -- | --
+`MFCreateNetVRoot` | 5 | Exported Function
+`MFCreateWinMDEOpCenter` | 7 | Exported Function
+`MFCreateWMPMDEOpCenter` | 6 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

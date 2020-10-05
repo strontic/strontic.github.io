@@ -24,15 +24,15 @@ PE256 | `F22F10D9556E75CC6D3197FDF0D99476CF1A1F8690BBB0BF2D5651E6001009BB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180006ee0 | 0x00006ee0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180006e30 | 0x00006e30
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180006f00 | 0x00006f00
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180007000 | 0x00007000
-`ShutdownContinuation` | 5 (0x5) | Exported Function | 0x000000018000fe70 | 0x0000fe70
-`SrFreeRestoreStatus` | 6 (0x6) | Exported Function | 0x0000000180007310 | 0x00007310
-`SrFreeRpPropArray` | 7 (0x7) | Exported Function | 0x00000001800072a0 | 0x000072a0
+Function Name | Ordinal | Type
+-- | -- | --
+`ShutdownContinuation` | 5 | Exported Function
+`SrFreeRestoreStatus` | 6 | Exported Function
+`SrFreeRpPropArray` | 7 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

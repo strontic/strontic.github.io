@@ -24,10 +24,10 @@ PE256 | `1DA6C245726B4F1998221A5E6559BDF0F0539FF42668AD1AB346508126F0DE53`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ServiceCtrlHandler` | 1 (0x1) | Exported Function | 0x00000001800016c0 | 0x000016c0
-`ServiceMain` | 2 (0x2) | Exported Function | 0x0000000180001780 | 0x00001780
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 2 | Exported Function
+`ServiceCtrlHandler` | 1 | Exported Function
 
 
 ## Signature

@@ -24,19 +24,19 @@ PE256 | `96B75FE7EB98F9245F79A557D0EFAB3BE64A15109582903E02172E96BEBFB54D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCancelAuthentication` | 2 (0x2) | Exported Function | 0x000000016a6c3320 | 0x000c3320
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000016a6c3310 | 0x000c3310
-`DllDeleteSavedCreds` | 3 (0x3) | Exported Function | 0x000000016a6c3330 | 0x000c3330
-`DllGetClaimsToken` | 4 (0x4) | Exported Function | 0x000000016a6c3340 | 0x000c3340
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x000000016a6c33a0 | 0x000c33a0
-`DllGetTscCtlVer` | 6 (0x6) | Exported Function | 0x000000016a6c33b0 | 0x000c33b0
-`DllLogoffClaimsToken` | 7 (0x7) | Exported Function | 0x000000016a6c33d0 | 0x000c33d0
-`DllRegisterServer` | 8 (0x8) | Exported Function | 0x000000016a6c3410 | 0x000c3410
-`DllSetAuthProperties` | 9 (0x9) | Exported Function | 0x000000016a6c3420 | 0x000c3420
-`DllSetClaimsToken` | 10 (0xa) | Exported Function | 0x000000016a6c3460 | 0x000c3460
-`DllUnregisterServer` | 11 (0xb) | Exported Function | 0x000000016a6c3470 | 0x000c3470
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 8 | Exported Function
+`DllLogoffClaimsToken` | 7 | Exported Function
+`DllSetAuthProperties` | 9 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
+`DllSetClaimsToken` | 10 | Exported Function
+`DllGetTscCtlVer` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllCancelAuthentication` | 2 | Exported Function
+`DllDeleteSavedCreds` | 3 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllGetClaimsToken` | 4 | Exported Function
 
 
 ## Signature

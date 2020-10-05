@@ -24,93 +24,93 @@ PE256 | `3ABEB5A866030EDF9B19C65802B82F3C5B94959A3DD4D461708C75054AC62546`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddUserToSsoGroup` | 114 (0x72) | Exported Function | wlidcli.AddUserToSsoGroup | 0x00002b12
-`RemoveChangeNotificationCallback` | 58 (0x3a) | Exported Function | wlidcli.RemoveChangeNotificationCallback | 0x000035f5
-`ProvisionDeviceId` | 98 (0x62) | Exported Function | wlidcli.ProvisionDeviceId | 0x000035ba
-`PersistCredential` | 15 (0xf) | Exported Function | wlidcli.PersistCredential | 0x0000358e
-`PassportFreeMemory` | 3 (0x3) | Exported Function | wlidcli.PassportFreeMemory | 0x00003561
-`OpenAuthenticatedBrowser` | 74 (0x4a) | Exported Function | wlidcli.OpenAuthenticatedBrowser | 0x0000352d
-`NextIdentity` | 18 (0x12) | Exported Function | wlidcli.NextIdentity | 0x000034ff
-`LogonIdentityExWithUI` | 75 (0x4b) | Exported Function | wlidcli.LogonIdentityExWithUI | 0x000034d4
-`LogonIdentityExSSO` | 108 (0x6c) | Exported Function | wlidcli.LogonIdentityExSSO | 0x000034a3
-`LogonIdentityEx` | 31 (0x1f) | Exported Function | wlidcli.LogonIdentityEx | 0x00003478
-`LogonIdentity` | 21 (0x15) | Exported Function | wlidcli.LogonIdentity | 0x00003452
-`IsMappedError` | 95 (0x5f) | Exported Function | wlidcli.IsMappedError | 0x00002a40
-`IsDeviceIDAdmin` | 69 (0x45) | Exported Function | wlidcli.IsDeviceIDAdmin | 0x0000342c
-`InitializeIDCRLTraceBuffer` | 93 (0x5d) | Exported Function | wlidcli.InitializeIDCRLTraceBuffer | 0x000033f9
-`InitializeEx` | 29 (0x1d) | Exported Function | wlidcli.InitializeEx | 0x000033c9
-`InitializeApp` | 61 (0x3d) | Exported Function | wlidcli.InitializeApp | 0x000033a6
-`Initialize` | 1 (0x1) | Exported Function | wlidcli.Initialize | 0x00003385
-`HasPersistedCredential` | 23 (0x17) | Exported Function | wlidcli.HasPersistedCredential | 0x0000335b
-`RemovePersistedCredential` | 16 (0x10) | Exported Function | wlidcli.RemovePersistedCredential | 0x00003638
-`RemoveUserFromSsoGroup` | 116 (0x74) | Exported Function | wlidcli.RemoveUserFromSsoGroup | 0x00003671
-`RenewDeviceId` | 100 (0x64) | Exported Function | wlidcli.RenewDeviceId | 0x0000369e
-`SendOneTimeCode` | 117 (0x75) | Exported Function | wlidcli.SendOneTimeCode | 0x000036c4
-`UpdateUserAssociatedDeviceProperties` | 87 (0x57) | Exported Function | wlidcli.UpdateUserAssociatedDeviceProperties | 0x00003945
-`UnPackErrorBlob` | 102 (0x66) | Exported Function | wlidcli.UnPackErrorBlob | 0x00002ae8
-`Uninitialize` | 2 (0x2) | Exported Function | wlidcli.Uninitialize | 0x0000390b
-`UIShowWaitDialog` | 91 (0x5b) | Exported Function | wlidcli.UIShowWaitDialog | 0x00002abf
-`UIEndWaitDialog` | 92 (0x5c) | Exported Function | wlidcli.UIEndWaitDialog | 0x00002a96
-`UICollectCredential` | 83 (0x53) | Exported Function | wlidcli.UICollectCredential | 0x00002a6a
-`StopTracing` | 111 (0x6f) | Exported Function | wlidcli.StopTracing | 0x000038ea
-`StartTracing` | 110 (0x6e) | Exported Function | wlidcli.StartTracing | 0x000038c9
-`GetWebAuthUrlEx` | 52 (0x34) | Exported Function | wlidcli.GetWebAuthUrlEx | 0x0000332c
-`SetUserExtendedProperty` | 55 (0x37) | Exported Function | wlidcli.SetUserExtendedProperty | 0x0000389c
-`SetIdentityCallback` | 24 (0x18) | Exported Function | wlidcli.SetIdentityCallback | 0x00003838
-`SetIdcrlOptions` | 51 (0x33) | Exported Function | wlidcli.SetIdcrlOptions | 0x0000380c
-`SetHIPSolution` | 79 (0x4f) | Exported Function | wlidcli.SetHIPSolution | 0x000037e5
-`SetExtendedProperty` | 47 (0x2f) | Exported Function | wlidcli.SetExtendedProperty | 0x000037ba
-`SetDeviceConsent` | 65 (0x41) | Exported Function | wlidcli.SetDeviceConsent | 0x0000378d
-`SetDefaultUserForTarget` | 81 (0x51) | Exported Function | wlidcli.SetDefaultUserForTarget | 0x0000375c
-`SetCredential` | 5 (0x5) | Exported Function | wlidcli.SetCredential | 0x0000372e
-`SetChangeNotificationCallback` | 57 (0x39) | Exported Function | wlidcli.SetChangeNotificationCallback | 0x000036fa
-`SetIdentityProperty` | 7 (0x7) | Exported Function | wlidcli.SetIdentityProperty | 0x00003868
-`VerifyAssertion` | 73 (0x49) | Exported Function | wlidcli.VerifyAssertion | 0x00003982
-`GetWebAuthUrl` | 30 (0x1e) | Exported Function | wlidcli.GetWebAuthUrl | 0x00003306
-`GetUserExtendedProperty` | 56 (0x38) | Exported Function | wlidcli.GetUserExtendedProperty | 0x000032a6
-`EnumIdentitiesWithCachedCredentials` | 17 (0x11) | Exported Function | wlidcli.EnumIdentitiesWithCachedCredentials | 0x00002e0a
-`EnumerateUserAssociatedDevices` | 86 (0x56) | Exported Function | wlidcli.EnumerateUserAssociatedDevices | 0x00002eb5
-`EnumerateDeviceID` | 70 (0x46) | Exported Function | wlidcli.EnumerateDeviceID | 0x00002e7c
-`EnumerateCertificates` | 62 (0x3e) | Exported Function | wlidcli.EnumerateCertificates | 0x00002e4c
-`EncryptWithSessionKey` | 53 (0x35) | Exported Function | wlidcli.EncryptWithSessionKey | 0x00002dc8
-`DisassociateDeviceFromUser` | 85 (0x55) | Exported Function | wlidcli.DisassociateDeviceFromUser | 0x00002d8f
-`DeProvisionDeviceId` | 101 (0x65) | Exported Function | wlidcli.DeProvisionDeviceId | 0x00002d24
-`DecryptWithSessionKey` | 54 (0x36) | Exported Function | wlidcli.DecryptWithSessionKey | 0x00002d56
-`CreateLinkedIdentityHandle` | 68 (0x44) | Exported Function | wlidcli.CreateLinkedIdentityHandle | 0x00002ced
-`CreateIdentityHandleEx` | 113 (0x71) | Exported Function | wlidcli.CreateIdentityHandleEx | 0x00002cb3
-`CreateIdentityHandle` | 4 (0x4) | Exported Function | wlidcli.CreateIdentityHandle | 0x00002c7f
-`CloseIdentityHandle` | 8 (0x8) | Exported Function | wlidcli.CloseIdentityHandle | 0x00002c4e
-`CloseEnumIdentitiesHandle` | 19 (0x13) | Exported Function | wlidcli.CloseEnumIdentitiesHandle | 0x00002c18
-`CancelPendingRequest` | 38 (0x26) | Exported Function | wlidcli.CancelPendingRequest | 0x00002be1
-`AuthIdentityToServiceEx` | 33 (0x21) | Exported Function | wlidcli.AuthIdentityToServiceEx | 0x00002bac
-`AuthIdentityToService` | 13 (0xd) | Exported Function | wlidcli.AuthIdentityToService | 0x00002b76
-`AssociateDeviceToUser` | 84 (0x54) | Exported Function | wlidcli.AssociateDeviceToUser | 0x00002b42
-`FlushIDCRLTraceBuffer` | 94 (0x5e) | Exported Function | wlidcli.FlushIDCRLTraceBuffer | 0x00002ef2
-`GenerateCertToken` | 63 (0x3f) | Exported Function | wlidcli.GenerateCertToken | 0x00002f22
-`GenerateDeviceToken` | 67 (0x43) | Exported Function | wlidcli.GenerateDeviceToken | 0x00002f50
-`GetAssertion` | 72 (0x48) | Exported Function | wlidcli.GetAssertion | 0x00002f79
-`GetServiceConfig` | 49 (0x31) | Exported Function | wlidcli.GetServiceConfig | 0x00003275
-`GetResponseForHttpChallenge` | 76 (0x4c) | Exported Function | wlidcli.GetResponseForHttpChallenge | 0x00003240
-`GetRealmInfo` | 112 (0x70) | Exported Function | wlidcli.GetRealmInfo | 0x0000320f
-`GetIdentityPropertyByName` | 41 (0x29) | Exported Function | wlidcli.GetIdentityPropertyByName | 0x000031e0
-`GetIdentityProperty` | 6 (0x6) | Exported Function | wlidcli.GetIdentityProperty | 0x000031aa
-`GetHIPChallenge` | 78 (0x4e) | Exported Function | wlidcli.GetHIPChallenge | 0x0000317e
-`GetExtendedProperty` | 48 (0x30) | Exported Function | wlidcli.GetExtendedProperty | 0x00003152
-`GetExtendedError` | 60 (0x3c) | Exported Function | wlidcli.GetExtendedError | 0x00003125
-`GetUsersFromSsoGroup` | 115 (0x73) | Exported Function | wlidcli.GetUsersFromSsoGroup | 0x000032db
-`GetDeviceShortLivedToken` | 77 (0x4d) | Exported Function | wlidcli.GetDeviceShortLivedToken | 0x00002a11
-`GetDeviceId` | 64 (0x40) | Exported Function | wlidcli.GetDeviceId | 0x000030dc
-`GetDefaultUserForTarget` | 82 (0x52) | Exported Function | wlidcli.GetDefaultUserForTarget | 0x000030b0
-`GetDefaultNoUISSOUser` | 104 (0x68) | Exported Function | wlidcli.GetDefaultNoUISSOUser | 0x0000307a
-`GetConfigDWORDValue` | 97 (0x61) | Exported Function | wlidcli.GetConfigDWORDValue | 0x00003048
-`GetCertificate` | 35 (0x23) | Exported Function | wlidcli.GetCertificate | 0x0000301d
-`GetAuthStateEx` | 34 (0x22) | Exported Function | wlidcli.GetAuthStateEx | 0x00002fbf
-`GetAuthState` | 20 (0x14) | Exported Function | wlidcli.GetAuthState | 0x00002f9b
-`GetAuthenticationStatus` | 96 (0x60) | Exported Function | wlidcli.GetAuthenticationStatus | 0x00002fee
-`GetDeviceIdEx` | 99 (0x63) | Exported Function | wlidcli.GetDeviceIdEx | 0x000030fe
-`VerifyCertificate` | 40 (0x28) | Exported Function | wlidcli.VerifyCertificate | 0x000039ac
+Function Name | Ordinal | Type
+-- | -- | --
+`PassportFreeMemory` | 3 | Exported Function
+`PersistCredential` | 15 | Exported Function
+`OpenAuthenticatedBrowser` | 74 | Exported Function
+`LogonIdentityExWithUI` | 75 | Exported Function
+`NextIdentity` | 18 | Exported Function
+`RemoveUserFromSsoGroup` | 116 | Exported Function
+`RenewDeviceId` | 100 | Exported Function
+`RemovePersistedCredential` | 16 | Exported Function
+`ProvisionDeviceId` | 98 | Exported Function
+`RemoveChangeNotificationCallback` | 58 | Exported Function
+`LogonIdentityExSSO` | 108 | Exported Function
+`InitializeApp` | 61 | Exported Function
+`InitializeEx` | 29 | Exported Function
+`Initialize` | 1 | Exported Function
+`GetWebAuthUrlEx` | 52 | Exported Function
+`HasPersistedCredential` | 23 | Exported Function
+`LogonIdentity` | 21 | Exported Function
+`LogonIdentityEx` | 31 | Exported Function
+`IsMappedError` | 95 | Exported Function
+`InitializeIDCRLTraceBuffer` | 93 | Exported Function
+`IsDeviceIDAdmin` | 69 | Exported Function
+`UIEndWaitDialog` | 92 | Exported Function
+`UIShowWaitDialog` | 91 | Exported Function
+`UICollectCredential` | 83 | Exported Function
+`StartTracing` | 110 | Exported Function
+`StopTracing` | 111 | Exported Function
+`VerifyAssertion` | 73 | Exported Function
+`VerifyCertificate` | 40 | Exported Function
+`UpdateUserAssociatedDeviceProperties` | 87 | Exported Function
+`Uninitialize` | 2 | Exported Function
+`UnPackErrorBlob` | 102 | Exported Function
+`SetUserExtendedProperty` | 55 | Exported Function
+`SetDefaultUserForTarget` | 81 | Exported Function
+`SetDeviceConsent` | 65 | Exported Function
+`SetCredential` | 5 | Exported Function
+`SendOneTimeCode` | 117 | Exported Function
+`SetChangeNotificationCallback` | 57 | Exported Function
+`SetIdentityCallback` | 24 | Exported Function
+`SetIdentityProperty` | 7 | Exported Function
+`SetIdcrlOptions` | 51 | Exported Function
+`SetExtendedProperty` | 47 | Exported Function
+`SetHIPSolution` | 79 | Exported Function
+`GetWebAuthUrl` | 30 | Exported Function
+`EnumerateCertificates` | 62 | Exported Function
+`EnumerateDeviceID` | 70 | Exported Function
+`EncryptWithSessionKey` | 53 | Exported Function
+`DeProvisionDeviceId` | 101 | Exported Function
+`DisassociateDeviceFromUser` | 85 | Exported Function
+`GenerateCertToken` | 63 | Exported Function
+`GenerateDeviceToken` | 67 | Exported Function
+`FlushIDCRLTraceBuffer` | 94 | Exported Function
+`EnumerateUserAssociatedDevices` | 86 | Exported Function
+`EnumIdentitiesWithCachedCredentials` | 17 | Exported Function
+`DecryptWithSessionKey` | 54 | Exported Function
+`AuthIdentityToServiceEx` | 33 | Exported Function
+`CancelPendingRequest` | 38 | Exported Function
+`AuthIdentityToService` | 13 | Exported Function
+`AddUserToSsoGroup` | 114 | Exported Function
+`AssociateDeviceToUser` | 84 | Exported Function
+`CreateIdentityHandleEx` | 113 | Exported Function
+`CreateLinkedIdentityHandle` | 68 | Exported Function
+`CreateIdentityHandle` | 4 | Exported Function
+`CloseEnumIdentitiesHandle` | 19 | Exported Function
+`CloseIdentityHandle` | 8 | Exported Function
+`GetIdentityProperty` | 6 | Exported Function
+`GetIdentityPropertyByName` | 41 | Exported Function
+`GetHIPChallenge` | 78 | Exported Function
+`GetExtendedError` | 60 | Exported Function
+`GetExtendedProperty` | 48 | Exported Function
+`GetUserExtendedProperty` | 56 | Exported Function
+`GetUsersFromSsoGroup` | 115 | Exported Function
+`GetServiceConfig` | 49 | Exported Function
+`GetRealmInfo` | 112 | Exported Function
+`GetResponseForHttpChallenge` | 76 | Exported Function
+`GetDeviceShortLivedToken` | 77 | Exported Function
+`GetAuthStateEx` | 34 | Exported Function
+`GetCertificate` | 35 | Exported Function
+`GetAuthState` | 20 | Exported Function
+`GetAssertion` | 72 | Exported Function
+`GetAuthenticationStatus` | 96 | Exported Function
+`GetDeviceId` | 64 | Exported Function
+`GetDeviceIdEx` | 99 | Exported Function
+`GetDefaultUserForTarget` | 82 | Exported Function
+`GetConfigDWORDValue` | 97 | Exported Function
+`GetDefaultNoUISSOUser` | 104 | Exported Function
 
 
 ## Signature

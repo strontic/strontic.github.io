@@ -23,12 +23,12 @@ PE256 | `AC88549B075CE75AD28938FE6B19F00D4BAFC6F2C02BA0701054A95C5B3B87A3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateWindowInformation` | 1 (0x1) | Exported Function | 0x0000000180005070 | 0x00005070
-`CreateWindowLayout` | 2 (0x2) | Exported Function | 0x0000000180005200 | 0x00005200
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x000000018000e790 | 0x0000e790
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180020030 | 0x00020030
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetActivationFactory` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`CreateWindowInformation` | 1 | Exported Function
+`CreateWindowLayout` | 2 | Exported Function
 
 
 ## Signature

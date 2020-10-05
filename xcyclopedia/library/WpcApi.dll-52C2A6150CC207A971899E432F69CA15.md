@@ -24,14 +24,14 @@ PE256 | `32E23ABAA7F4A23F6012200E8C6886887C67846B9AA7EE64F8486BA0EBEB54C3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018000aaa0 | 0x0000aaa0
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x000000018000a850 | 0x0000a850
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000018000a9d0 | 0x0000a9d0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x000000018000ac50 | 0x0000ac50
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x000000018000ac80 | 0x0000ac80
-`WpcSetupNotifyHomeSharedAccountChanged` | 6 (0x6) | Exported Function | 0x00000001800106b0 | 0x000106b0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`WpcSetupNotifyHomeSharedAccountChanged` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

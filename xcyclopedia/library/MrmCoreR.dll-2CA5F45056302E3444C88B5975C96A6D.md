@@ -24,26 +24,26 @@ PE256 | `14D9255A9BBA445A5F4D9CDCA06015ED6378D99A3AD98AFF3CCD3EC185A3C126`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018003e040 | 0x0003e040
-`ResourceManagerQueueReset` | 16 (0x10) | Exported Function | 0x0000000180003490 | 0x00003490
-`ResourceManagerQueueIsResourceReference` | 15 (0xf) | Exported Function | 0x000000018001a310 | 0x0001a310
-`ResourceManagerQueueGetStringDirect` | 14 (0xe) | Exported Function | 0x000000018005fdf0 | 0x0005fdf0
-`ResourceManagerQueueGetString` | 13 (0xd) | Exported Function | 0x0000000180038730 | 0x00038730
-`ResourceManagerQueueGetMrtCachePathForPackage` | 12 (0xc) | Exported Function | 0x000000018005fd80 | 0x0005fd80
-`ResourceManagerQueueGetGlobalFlags` | 11 (0xb) | Exported Function | 0x000000018005fd60 | 0x0005fd60
-`ResourceManagerQueueGetCurrentDepth` | 10 (0xa) | Exported Function | 0x0000000180004710 | 0x00004710
-`MergeSystemPriFiles` | 9 (0x9) | Exported Function | 0x0000000180062620 | 0x00062620
-`MergeResourcePackPri` | 8 (0x8) | Exported Function | 0x0000000180062580 | 0x00062580
-`GetStringValueForManifestField` | 7 (0x7) | Exported Function | 0x00000001800070d0 | 0x000070d0
-`GetMergedSystemPriEx` | 6 (0x6) | Exported Function | 0x0000000180062510 | 0x00062510
-`GetMergedSystemPri` | 5 (0x5) | Exported Function | 0x00000001800624e0 | 0x000624e0
-`GetInternalReferenceBlobForManifestValue` | 4 (0x4) | Exported Function | 0x000000018005fc60 | 0x0005fc60
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000018003da30 | 0x0003da30
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x000000018003d2c0 | 0x0003d2c0
-`ResourceManagerQueueSetGlobalFlags` | 17 (0x11) | Exported Function | 0x000000018005fe50 | 0x0005fe50
-`ShouldMergeInproc` | 18 (0x12) | Exported Function | 0x000000018001fb90 | 0x0001fb90
+Function Name | Ordinal | Type
+-- | -- | --
+`ResourceManagerQueueGetMrtCachePathForPackage` | 12 | Exported Function
+`ResourceManagerQueueGetString` | 13 | Exported Function
+`ResourceManagerQueueGetCurrentDepth` | 10 | Exported Function
+`ResourceManagerQueueGetGlobalFlags` | 11 | Exported Function
+`ResourceManagerQueueGetStringDirect` | 14 | Exported Function
+`ResourceManagerQueueSetGlobalFlags` | 17 | Exported Function
+`ShouldMergeInproc` | 18 | Exported Function
+`ResourceManagerQueueIsResourceReference` | 15 | Exported Function
+`ResourceManagerQueueReset` | 16 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`GetInternalReferenceBlobForManifestValue` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`GetMergedSystemPri` | 5 | Exported Function
+`MergeResourcePackPri` | 8 | Exported Function
+`MergeSystemPriFiles` | 9 | Exported Function
+`GetMergedSystemPriEx` | 6 | Exported Function
+`GetStringValueForManifestField` | 7 | Exported Function
 
 
 ## Signature

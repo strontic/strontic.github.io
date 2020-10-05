@@ -24,9 +24,9 @@ PE256 | `E372083A61E3AB939494B787ACADF613280ABA654E15009EF7B5AC6E6A3CA4CA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EfsServiceMain` | 1 (0x1) | Exported Function | 0x0000000180001a50 | 0x00001a50
+Function Name | Ordinal | Type
+-- | -- | --
+`EfsServiceMain` | 1 | Exported Function
 
 
 ## Signature

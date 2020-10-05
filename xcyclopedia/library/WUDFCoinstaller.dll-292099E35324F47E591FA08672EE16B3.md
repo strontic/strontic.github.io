@@ -24,9 +24,9 @@ PE256 | `0B0BD0B678CC88D74C5400D1BE1C1272B8ED3C85BDA1F1BC38CD634365D48389`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CoDeviceInstall` | 1 (0x1) | Exported Function | 0x0000000180001320 | 0x00001320
+Function Name | Ordinal | Type
+-- | -- | --
+`CoDeviceInstall` | 1 | Exported Function
 
 
 ## Signature

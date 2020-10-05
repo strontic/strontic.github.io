@@ -24,10 +24,10 @@ PE256 | `2D93DC9646C66C1AC6C4AC7D5D40A231554562F1FCE1561EAB88D97F7BC814CD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OmaDmRunPostSessionWork` | 1 (0x1) | Exported Function | 0x00000001800046d0 | 0x000046d0
-`ResourceManagerUninstallWmiApp` | 2 (0x2) | Exported Function | 0x00000001800059f0 | 0x000059f0
+Function Name | Ordinal | Type
+-- | -- | --
+`ResourceManagerUninstallWmiApp` | 2 | Exported Function
+`OmaDmRunPostSessionWork` | 1 | Exported Function
 
 
 ## Signature

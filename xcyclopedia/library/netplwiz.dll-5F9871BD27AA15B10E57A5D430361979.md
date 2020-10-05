@@ -24,15 +24,15 @@ PE256 | `8DB2E87456D44C1EADC10D72FC148D839FBE9975CBCB7ED96F338B78E9CBB773`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClearAutoLogon` | 1 (0x1) | Exported Function | 0x0000000180007dd0 | 0x00007dd0
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180006840 | 0x00006840
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180006860 | 0x00006860
-`NetAccessWizard` | 4 (0x4) | Exported Function | 0x000000018000ffa0 | 0x0000ffa0
-`NetPlacesWizardDoModal` | 5 (0x5) | Exported Function | 0x000000018000a850 | 0x0000a850
-`SHDisconnectNetDrives` | 6 (0x6) | Exported Function | 0x0000000180006400 | 0x00006400
-`UsersRunDllW` | 7 (0x7) | Exported Function | 0x0000000180013cd0 | 0x00013cd0
+Function Name | Ordinal | Type
+-- | -- | --
+`NetPlacesWizardDoModal` | 5 | Exported Function
+`SHDisconnectNetDrives` | 6 | Exported Function
+`UsersRunDllW` | 7 | Exported Function
+`NetAccessWizard` | 4 | Exported Function
+`ClearAutoLogon` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

@@ -24,29 +24,29 @@ PE256 | `4F9DFE1F10AB5681241D21DDE1ACEA6A920F362BD3F5AE562172C48FB532A568`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x100411e0 | 0x000411e0
-`SLInstallPackage` | 19 (0x13) | Exported Function | 0x100631a0 | 0x000631a0
-`SLInitialize` | 18 (0x12) | Exported Function | 0x1003b8a0 | 0x0003b8a0
-`SLGetTokenActivationGrants` | 17 (0x11) | Exported Function | 0x10043b90 | 0x00043b90
-`SLGetTokenActivationCertificates` | 16 (0x10) | Exported Function | 0x10043e30 | 0x00043e30
-`SLGetServerStatus` | 15 (0xf) | Exported Function | 0x1003b780 | 0x0003b780
-`SLGetReferralInformation` | 14 (0xe) | Exported Function | 0x10062730 | 0x00062730
-`SLGetPackageToken` | 13 (0xd) | Exported Function | 0x100624a0 | 0x000624a0
-`SLGetPackageProperties` | 12 (0xc) | Exported Function | 0x10061d20 | 0x00061d20
-`SLSignTokenActivationChallenge` | 20 (0x14) | Exported Function | 0x10044980 | 0x00044980
-`SLGetPackageProductKey` | 11 (0xb) | Exported Function | 0x100625e0 | 0x000625e0
-`SLGenerateTokenActivationChallenge` | 9 (0x9) | Exported Function | 0x10044190 | 0x00044190
-`SLFreeTokenActivationGrants` | 8 (0x8) | Exported Function | 0x10043da0 | 0x00043da0
-`SLFreeTokenActivationCertificates` | 7 (0x7) | Exported Function | 0x10044100 | 0x00044100
-`SLDepositTokenActivationResponse` | 6 (0x6) | Exported Function | 0x10044250 | 0x00044250
-`SLActivateProduct` | 5 (0x5) | Exported Function | 0x1003b1a0 | 0x0003b1a0
-`SLAcquireGenuineTicketForAppId` | 1 (0x1) | Exported Function | 0x1004cf90 | 0x0004cf90
-`SLAcquireGenuineTicket` | 4 (0x4) | Exported Function | 0x1004ce60 | 0x0004ce60
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10041220 | 0x00041220
-`SLGetGenuineInformationEx` | 10 (0xa) | Exported Function | 0x1004d1d0 | 0x0004d1d0
-`SLUninstallPackage` | 21 (0x15) | Exported Function | 0x100631d0 | 0x000631d0
+Function Name | Ordinal | Type
+-- | -- | --
+`SLGetServerStatus` | 15 | Exported Function
+`SLGetTokenActivationCertificates` | 16 | Exported Function
+`SLGetReferralInformation` | 14 | Exported Function
+`SLGetPackageProperties` | 12 | Exported Function
+`SLGetPackageToken` | 13 | Exported Function
+`SLSignTokenActivationChallenge` | 20 | Exported Function
+`SLUninstallPackage` | 21 | Exported Function
+`SLInstallPackage` | 19 | Exported Function
+`SLGetTokenActivationGrants` | 17 | Exported Function
+`SLInitialize` | 18 | Exported Function
+`SLGetPackageProductKey` | 11 | Exported Function
+`SLAcquireGenuineTicketForAppId` | 1 | Exported Function
+`SLActivateProduct` | 5 | Exported Function
+`SLAcquireGenuineTicket` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`SLGenerateTokenActivationChallenge` | 9 | Exported Function
+`SLGetGenuineInformationEx` | 10 | Exported Function
+`SLFreeTokenActivationGrants` | 8 | Exported Function
+`SLDepositTokenActivationResponse` | 6 | Exported Function
+`SLFreeTokenActivationCertificates` | 7 | Exported Function
 
 
 ## Signature

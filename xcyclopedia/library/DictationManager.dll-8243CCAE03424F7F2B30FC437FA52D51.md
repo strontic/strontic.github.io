@@ -24,10 +24,10 @@ PE256 | `7E516BD84F061A3EB67D82110168B86C0E1DDFAC183D4BD0A9054FF045A3E424`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDictationManager` | 1 (0x1) | Exported Function | 0x0000000180006130 | 0x00006130
-`CreateDictationManagerWithDeviceController` | 2 (0x2) | Exported Function | 0x00000001800060f0 | 0x000060f0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateDictationManagerWithDeviceController` | 2 | Exported Function
+`CreateDictationManager` | 1 | Exported Function
 
 
 ## Signature

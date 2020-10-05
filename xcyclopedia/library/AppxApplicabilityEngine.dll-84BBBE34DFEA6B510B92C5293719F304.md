@@ -24,19 +24,19 @@ PE256 | `9D3A58E8A5B4F430655C4992E9B7FB1C2613841B159B8CE18B9041A6BB49E7B5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddDirectXFeatureLevelToContext` | 2 (0x2) | Exported Function | 0x1001c110 | 0x0001c110
-`AddUserLanguagesToContext` | 3 (0x3) | Exported Function | 0x1001c160 | 0x0001c160
-`CreateApplicabilityContext` | 4 (0x4) | Exported Function | 0x1000b390 | 0x0000b390
-`CreateApplicabilityContextFromString` | 5 (0x5) | Exported Function | 0x10022260 | 0x00022260
-`FreeApplicabilityContext` | 6 (0x6) | Exported Function | 0x1000c170 | 0x0000c170
-`FreeApplicablePackages` | 7 (0x7) | Exported Function | 0x10011be0 | 0x00011be0
-`GetApplicabilityContext` | 1 (0x1) | Exported Function | 0x1000a3e0 | 0x0000a3e0
-`GetApplicablePackages` | 8 (0x8) | Exported Function | 0x1001c1b0 | 0x0001c1b0
-`GetApplicablePackagesForUser` | 9 (0x9) | Exported Function | 0x1001c220 | 0x0001c220
-`GetApplicablePackagesForUserWithAppChosenResources` | 10 (0xa) | Exported Function | 0x1000a290 | 0x0000a290
-`GetApplicablePackagesWithAppChosenResources` | 11 (0xb) | Exported Function | 0x1000ba50 | 0x0000ba50
+Function Name | Ordinal | Type
+-- | -- | --
+`GetApplicablePackages` | 8 | Exported Function
+`GetApplicabilityContext` | 1 | Exported Function
+`GetApplicablePackagesForUser` | 9 | Exported Function
+`GetApplicablePackagesWithAppChosenResources` | 11 | Exported Function
+`GetApplicablePackagesForUserWithAppChosenResources` | 10 | Exported Function
+`FreeApplicablePackages` | 7 | Exported Function
+`AddUserLanguagesToContext` | 3 | Exported Function
+`AddDirectXFeatureLevelToContext` | 2 | Exported Function
+`CreateApplicabilityContext` | 4 | Exported Function
+`FreeApplicabilityContext` | 6 | Exported Function
+`CreateApplicabilityContextFromString` | 5 | Exported Function
 
 
 ## Signature

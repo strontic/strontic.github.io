@@ -24,24 +24,24 @@ PE256 | `1E02994E754857D578AEF67A44FE04455FD9DAC40FA8F72B33871A9CDDCBFFAF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 10 (0xa) | Exported Function | 0x10096690 | 0x00096690
-`DllGetActivationFactory` | 11 (0xb) | Exported Function | 0x10096260 | 0x00096260
-`DllGetClassObject` | 12 (0xc) | Exported Function | 0x10096300 | 0x00096300
-`DllMain` | 13 (0xd) | Exported Function | 0x10096530 | 0x00096530
-`DllRegisterServer` | 14 (0xe) | Exported Function | 0x10096490 | 0x00096490
-`DllUnregisterServer` | 15 (0xf) | Exported Function | 0x100963f0 | 0x000963f0
-`LaunchStoreForPluginW` | 16 (0x10) | Exported Function | 0x10096750 | 0x00096750
-`VpnClientGetCostedNetworkSettings` | 1 (0x1) | Exported Function | 0x100974e0 | 0x000974e0
-`VpnClientGetProxyForUrlAndSingleSessionDeviceUser` | 2 (0x2) | Exported Function | 0x100975d0 | 0x000975d0
-`VpnClientPluginGetSecurity` | 3 (0x3) | Exported Function | 0x10097270 | 0x00097270
-`VpnClientPluginInstall` | 4 (0x4) | Exported Function | 0x10097070 | 0x00097070
-`VpnClientPluginManifestFind` | 5 (0x5) | Exported Function | 0x100971d0 | 0x000971d0
-`VpnClientPluginUninstall` | 6 (0x6) | Exported Function | 0x10097120 | 0x00097120
-`VpnClientSetCostedNetworkSettings` | 7 (0x7) | Exported Function | 0x10097420 | 0x00097420
-`VpnPluginEnumerate` | 8 (0x8) | Exported Function | 0x10097310 | 0x00097310
-`VpnPluginListFree` | 9 (0x9) | Exported Function | 0x100973b0 | 0x000973b0
+Function Name | Ordinal | Type
+-- | -- | --
+`VpnClientPluginInstall` | 4 | Exported Function
+`VpnClientPluginManifestFind` | 5 | Exported Function
+`VpnClientGetProxyForUrlAndSingleSessionDeviceUser` | 2 | Exported Function
+`VpnClientPluginGetSecurity` | 3 | Exported Function
+`VpnPluginEnumerate` | 8 | Exported Function
+`VpnPluginListFree` | 9 | Exported Function
+`VpnClientPluginUninstall` | 6 | Exported Function
+`VpnClientSetCostedNetworkSettings` | 7 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`DllMain` | 13 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`DllGetActivationFactory` | 11 | Exported Function
+`LaunchStoreForPluginW` | 16 | Exported Function
+`VpnClientGetCostedNetworkSettings` | 1 | Exported Function
+`DllRegisterServer` | 14 | Exported Function
+`DllUnregisterServer` | 15 | Exported Function
 
 
 ## Signature

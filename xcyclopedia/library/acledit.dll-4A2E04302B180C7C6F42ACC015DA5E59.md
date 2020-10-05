@@ -24,16 +24,16 @@ PE256 | `1B93226F3F9657793EF02527A86A9B49DBD3F9032CCE5564AA6BE7A88940887D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 5 (0x5) | Exported Function | 0x4b601390 | 0x00001390
-`EditAuditInfo` | 1 (0x1) | Exported Function | 0x4b6014f0 | 0x000014f0
-`EditOwnerInfo` | 2 (0x2) | Exported Function | 0x4b601470 | 0x00001470
-`EditPermissionInfo` | 3 (0x3) | Exported Function | 0x4b601510 | 0x00001510
-`FMExtensionProcW` | 4 (0x4) | Exported Function | 0x4b601530 | 0x00001530
-`SedDiscretionaryAclEditor` | 6 (0x6) | Exported Function | 0x4b6014b0 | 0x000014b0
-`SedSystemAclEditor` | 7 (0x7) | Exported Function | 0x4b6014d0 | 0x000014d0
-`SedTakeOwnership` | 8 (0x8) | Exported Function | 0x4b601490 | 0x00001490
+Function Name | Ordinal | Type
+-- | -- | --
+`SedDiscretionaryAclEditor` | 6 | Exported Function
+`FMExtensionProcW` | 4 | Exported Function
+`SedTakeOwnership` | 8 | Exported Function
+`SedSystemAclEditor` | 7 | Exported Function
+`EditAuditInfo` | 1 | Exported Function
+`DllMain` | 5 | Exported Function
+`EditPermissionInfo` | 3 | Exported Function
+`EditOwnerInfo` | 2 | Exported Function
 
 
 ## Signature

@@ -24,167 +24,167 @@ PE256 | `2C17D4C8A365086589EF4BC372512DF7832E590502FFEADDE613E2A64A2CFE34`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__acrt_iob_func` | 1 (0x1) | Exported Function | ucrtbase.__acrt_iob_func | 0x000017be
-`_wfreopen_s` | 102 (0x66) | Exported Function | ucrtbase._wfreopen_s | 0x0000260d
-`_wfsopen` | 103 (0x67) | Exported Function | ucrtbase._wfsopen | 0x0000262b
-`_wmktemp` | 104 (0x68) | Exported Function | ucrtbase._wmktemp | 0x00002646
-`_wmktemp_s` | 105 (0x69) | Exported Function | ucrtbase._wmktemp_s | 0x00002663
-`_wopen` | 106 (0x6a) | Exported Function | ucrtbase._wopen | 0x0000267e
-`_wpopen` | 107 (0x6b) | Exported Function | ucrtbase._wpopen | 0x00002696
-`_write` | 108 (0x6c) | Exported Function | ucrtbase._write | 0x000026ae
-`_wfreopen` | 101 (0x65) | Exported Function | ucrtbase._wfreopen | 0x000025ee
-`_wsopen` | 109 (0x6d) | Exported Function | ucrtbase._wsopen | 0x000026c6
-`_wsopen_s` | 111 (0x6f) | Exported Function | ucrtbase._wsopen_s | 0x0000270c
-`_wtempnam` | 112 (0x70) | Exported Function | ucrtbase._wtempnam | 0x00002729
-`_wtmpnam` | 113 (0x71) | Exported Function | ucrtbase._wtmpnam | 0x00002745
-`_wtmpnam_s` | 114 (0x72) | Exported Function | ucrtbase._wtmpnam_s | 0x00002762
-`clearerr` | 115 (0x73) | Exported Function | ucrtbase.clearerr | 0x0000277f
-`clearerr_s` | 116 (0x74) | Exported Function | ucrtbase.clearerr_s | 0x0000279c
-`fclose` | 117 (0x75) | Exported Function | ucrtbase.fclose | 0x000027b7
-`_wsopen_dispatch` | 110 (0x6e) | Exported Function | ucrtbase._wsopen_dispatch | 0x000026e8
-`feof` | 118 (0x76) | Exported Function | ucrtbase.feof | 0x000027cc
-`_wfopen_s` | 100 (0x64) | Exported Function | ucrtbase._wfopen_s | 0x000025d1
-`_wfdopen` | 98 (0x62) | Exported Function | ucrtbase._wfdopen | 0x0000259c
-`_putws` | 82 (0x52) | Exported Function | ucrtbase._putws | 0x000023b0
-`_read` | 83 (0x53) | Exported Function | ucrtbase._read | 0x000023c6
-`_rmtmp` | 84 (0x54) | Exported Function | ucrtbase._rmtmp | 0x000023dc
-`_set_fmode` | 85 (0x55) | Exported Function | ucrtbase._set_fmode | 0x000023f7
-`_set_printf_count_output` | 86 (0x56) | Exported Function | ucrtbase._set_printf_count_output | 0x00002424
-`_setmaxstdio` | 87 (0x57) | Exported Function | ucrtbase._setmaxstdio | 0x00002453
-`_setmode` | 88 (0x58) | Exported Function | ucrtbase._setmode | 0x00002472
-`_wfopen` | 99 (0x63) | Exported Function | ucrtbase._wfopen | 0x000025b6
-`_sopen` | 89 (0x59) | Exported Function | ucrtbase._sopen | 0x0000248b
-`_sopen_s` | 91 (0x5b) | Exported Function | ucrtbase._sopen_s | 0x000024cd
-`_tell` | 92 (0x5c) | Exported Function | ucrtbase._tell | 0x000024e5
-`_telli64` | 93 (0x5d) | Exported Function | ucrtbase._telli64 | 0x000024fd
-`_tempnam` | 94 (0x5e) | Exported Function | ucrtbase._tempnam | 0x00002518
-`_ungetc_nolock` | 95 (0x5f) | Exported Function | ucrtbase._ungetc_nolock | 0x00002539
-`_ungetwc_nolock` | 96 (0x60) | Exported Function | ucrtbase._ungetwc_nolock | 0x00002561
-`_wcreat` | 97 (0x61) | Exported Function | ucrtbase._wcreat | 0x00002582
-`_sopen_dispatch` | 90 (0x5a) | Exported Function | ucrtbase._sopen_dispatch | 0x000024ab
-`_putwc_nolock` | 81 (0x51) | Exported Function | ucrtbase._putwc_nolock | 0x00002392
-`ferror` | 119 (0x77) | Exported Function | ucrtbase.ferror | 0x000027e1
-`fgetc` | 121 (0x79) | Exported Function | ucrtbase.fgetc | 0x0000280e
-`gets` | 142 (0x8e) | Exported Function | ucrtbase.gets | 0x000029ee
-`gets_s` | 143 (0x8f) | Exported Function | ucrtbase.gets_s | 0x00002a03
-`getwc` | 144 (0x90) | Exported Function | ucrtbase.getwc | 0x00002a19
-`getwchar` | 145 (0x91) | Exported Function | ucrtbase.getwchar | 0x00002a31
-`putc` | 146 (0x92) | Exported Function | ucrtbase.putc | 0x00002a48
-`putchar` | 147 (0x93) | Exported Function | ucrtbase.putchar | 0x00002a5e
-`puts` | 148 (0x94) | Exported Function | ucrtbase.puts | 0x00002a74
-`getchar` | 141 (0x8d) | Exported Function | ucrtbase.getchar | 0x000029d8
-`putwc` | 149 (0x95) | Exported Function | ucrtbase.putwc | 0x00002a88
-`rewind` | 151 (0x97) | Exported Function | ucrtbase.rewind | 0x00002ab9
-`setbuf` | 152 (0x98) | Exported Function | ucrtbase.setbuf | 0x00002ad0
-`setvbuf` | 153 (0x99) | Exported Function | ucrtbase.setvbuf | 0x00002ae8
-`tmpfile` | 154 (0x9a) | Exported Function | ucrtbase.tmpfile | 0x00002b01
-`tmpfile_s` | 155 (0x9b) | Exported Function | ucrtbase.tmpfile_s | 0x00002b1c
-`tmpnam` | 156 (0x9c) | Exported Function | ucrtbase.tmpnam | 0x00002b36
-`tmpnam_s` | 157 (0x9d) | Exported Function | ucrtbase.tmpnam_s | 0x00002b4f
-`putwchar` | 150 (0x96) | Exported Function | ucrtbase.putwchar | 0x00002aa0
-`fflush` | 120 (0x78) | Exported Function | ucrtbase.fflush | 0x000027f8
-`getc` | 140 (0x8c) | Exported Function | ucrtbase.getc | 0x000029c2
-`ftell` | 138 (0x8a) | Exported Function | ucrtbase.ftell | 0x00002997
-`fgetpos` | 122 (0x7a) | Exported Function | ucrtbase.fgetpos | 0x00002825
-`fgets` | 123 (0x7b) | Exported Function | ucrtbase.fgets | 0x0000283c
-`fgetwc` | 124 (0x7c) | Exported Function | ucrtbase.fgetwc | 0x00002852
-`fgetws` | 125 (0x7d) | Exported Function | ucrtbase.fgetws | 0x00002869
-`fopen` | 126 (0x7e) | Exported Function | ucrtbase.fopen | 0x0000287f
-`fopen_s` | 127 (0x7f) | Exported Function | ucrtbase.fopen_s | 0x00002896
-`fputc` | 128 (0x80) | Exported Function | ucrtbase.fputc | 0x000028ad
-`fwrite` | 139 (0x8b) | Exported Function | ucrtbase.fwrite | 0x000029ad
-`fputs` | 129 (0x81) | Exported Function | ucrtbase.fputs | 0x000028c2
-`fputws` | 131 (0x83) | Exported Function | ucrtbase.fputws | 0x000028ef
-`fread` | 132 (0x84) | Exported Function | ucrtbase.fread | 0x00002905
-`fread_s` | 133 (0x85) | Exported Function | ucrtbase.fread_s | 0x0000291c
-`freopen` | 134 (0x86) | Exported Function | ucrtbase.freopen | 0x00002935
-`freopen_s` | 135 (0x87) | Exported Function | ucrtbase.freopen_s | 0x00002950
-`fseek` | 136 (0x88) | Exported Function | ucrtbase.fseek | 0x00002969
-`fsetpos` | 137 (0x89) | Exported Function | ucrtbase.fsetpos | 0x00002980
-`fputwc` | 130 (0x82) | Exported Function | ucrtbase.fputwc | 0x000028d8
-`ungetc` | 158 (0x9e) | Exported Function | ucrtbase.ungetc | 0x00002b68
-`_putw` | 80 (0x50) | Exported Function | ucrtbase._putw | 0x00002375
-`_popen` | 78 (0x4e) | Exported Function | ucrtbase._popen | 0x0000233c
-`_chsize` | 22 (0x16) | Exported Function | ucrtbase._chsize | 0x00001c59
-`_chsize_s` | 23 (0x17) | Exported Function | ucrtbase._chsize_s | 0x00001c74
-`_close` | 24 (0x18) | Exported Function | ucrtbase._close | 0x00001c8e
-`_commit` | 25 (0x19) | Exported Function | ucrtbase._commit | 0x00001ca6
-`_creat` | 26 (0x1a) | Exported Function | ucrtbase._creat | 0x00001cbe
-`_dup` | 27 (0x1b) | Exported Function | ucrtbase._dup | 0x00001cd3
-`_dup2` | 28 (0x1c) | Exported Function | ucrtbase._dup2 | 0x00001ce7
-`__stdio_common_vswscanf` | 21 (0x15) | Exported Function | ucrtbase.__stdio_common_vswscanf | 0x00001c30
-`_eof` | 29 (0x1d) | Exported Function | ucrtbase._eof | 0x00001cfb
-`_fcloseall` | 31 (0x1f) | Exported Function | ucrtbase._fcloseall | 0x00001d3b
-`_fflush_nolock` | 32 (0x20) | Exported Function | ucrtbase._fflush_nolock | 0x00001d5e
-`_fgetc_nolock` | 33 (0x21) | Exported Function | ucrtbase._fgetc_nolock | 0x00001d84
-`_fgetchar` | 34 (0x22) | Exported Function | ucrtbase._fgetchar | 0x00001da5
-`_fgetwc_nolock` | 35 (0x23) | Exported Function | ucrtbase._fgetwc_nolock | 0x00001dc7
-`_fgetwchar` | 36 (0x24) | Exported Function | ucrtbase._fgetwchar | 0x00001dea
-`_filelength` | 37 (0x25) | Exported Function | ucrtbase._filelength | 0x00001e0a
-`_fclose_nolock` | 30 (0x1e) | Exported Function | ucrtbase._fclose_nolock | 0x00001d18
-`_filelengthi64` | 38 (0x26) | Exported Function | ucrtbase._filelengthi64 | 0x00001e2e
-`__stdio_common_vswprintf_s` | 20 (0x14) | Exported Function | ucrtbase.__stdio_common_vswprintf_s | 0x00001bf4
-`__stdio_common_vswprintf` | 18 (0x12) | Exported Function | ucrtbase.__stdio_common_vswprintf | 0x00001b78
-`__p__commode` | 2 (0x2) | Exported Function | ucrtbase.__p__commode | 0x000017e4
-`__p__fmode` | 3 (0x3) | Exported Function | ucrtbase.__p__fmode | 0x00001805
-`__stdio_common_vfprintf` | 4 (0x4) | Exported Function | ucrtbase.__stdio_common_vfprintf | 0x00001831
-`__stdio_common_vfprintf_p` | 5 (0x5) | Exported Function | ucrtbase.__stdio_common_vfprintf_p | 0x0000186c
-`__stdio_common_vfprintf_s` | 6 (0x6) | Exported Function | ucrtbase.__stdio_common_vfprintf_s | 0x000018a9
-`__stdio_common_vfscanf` | 7 (0x7) | Exported Function | ucrtbase.__stdio_common_vfscanf | 0x000018e3
-`__stdio_common_vfwprintf` | 8 (0x8) | Exported Function | ucrtbase.__stdio_common_vfwprintf | 0x0000191c
-`__stdio_common_vswprintf_p` | 19 (0x13) | Exported Function | ucrtbase.__stdio_common_vswprintf_p | 0x00001bb5
-`__stdio_common_vfwprintf_p` | 9 (0x9) | Exported Function | ucrtbase.__stdio_common_vfwprintf_p | 0x00001959
-`__stdio_common_vfwscanf` | 11 (0xb) | Exported Function | ucrtbase.__stdio_common_vfwscanf | 0x000019d4
-`__stdio_common_vsnprintf_s` | 12 (0xc) | Exported Function | ucrtbase.__stdio_common_vsnprintf_s | 0x00001a10
-`__stdio_common_vsnwprintf_s` | 13 (0xd) | Exported Function | ucrtbase.__stdio_common_vsnwprintf_s | 0x00001a50
-`__stdio_common_vsprintf` | 14 (0xe) | Exported Function | ucrtbase.__stdio_common_vsprintf | 0x00001a8d
-`__stdio_common_vsprintf_p` | 15 (0xf) | Exported Function | ucrtbase.__stdio_common_vsprintf_p | 0x00001ac8
-`__stdio_common_vsprintf_s` | 16 (0x10) | Exported Function | ucrtbase.__stdio_common_vsprintf_s | 0x00001b05
-`__stdio_common_vsscanf` | 17 (0x11) | Exported Function | ucrtbase.__stdio_common_vsscanf | 0x00001b3f
-`__stdio_common_vfwprintf_s` | 10 (0xa) | Exported Function | ucrtbase.__stdio_common_vfwprintf_s | 0x00001998
-`_putc_nolock` | 79 (0x4f) | Exported Function | ucrtbase._putc_nolock | 0x00002359
-`_fileno` | 39 (0x27) | Exported Function | ucrtbase._fileno | 0x00001e4e
-`_fputc_nolock` | 41 (0x29) | Exported Function | ucrtbase._fputc_nolock | 0x00001e8a
-`_getmaxstdio` | 62 (0x3e) | Exported Function | ucrtbase._getmaxstdio | 0x00002192
-`_getw` | 63 (0x3f) | Exported Function | ucrtbase._getw | 0x000021ae
-`_getwc_nolock` | 64 (0x40) | Exported Function | ucrtbase._getwc_nolock | 0x000021cb
-`_getws` | 65 (0x41) | Exported Function | ucrtbase._getws | 0x000021e9
-`_getws_s` | 66 (0x42) | Exported Function | ucrtbase._getws_s | 0x00002202
-`_isatty` | 67 (0x43) | Exported Function | ucrtbase._isatty | 0x0000221c
-`_kbhit` | 68 (0x44) | Exported Function | ucrtbase._kbhit | 0x00002234
-`_getdcwd` | 61 (0x3d) | Exported Function | ucrtbase._getdcwd | 0x00002173
-`_locking` | 69 (0x45) | Exported Function | ucrtbase._locking | 0x0000224d
-`_lseeki64` | 71 (0x47) | Exported Function | ucrtbase._lseeki64 | 0x00002280
-`_mktemp` | 72 (0x48) | Exported Function | ucrtbase._mktemp | 0x0000229b
-`_mktemp_s` | 73 (0x49) | Exported Function | ucrtbase._mktemp_s | 0x000022b6
-`_open` | 74 (0x4a) | Exported Function | ucrtbase._open | 0x000022cf
-`_open_osfhandle` | 75 (0x4b) | Exported Function | ucrtbase._open_osfhandle | 0x000022ee
-`_pclose` | 76 (0x4c) | Exported Function | ucrtbase._pclose | 0x0000230f
-`_pipe` | 77 (0x4d) | Exported Function | ucrtbase._pipe | 0x00002326
-`_lseek` | 70 (0x46) | Exported Function | ucrtbase._lseek | 0x00002266
-`_flushall` | 40 (0x28) | Exported Function | ucrtbase._flushall | 0x00001e69
-`_getcwd` | 60 (0x3c) | Exported Function | ucrtbase._getcwd | 0x00002159
-`_get_stream_buffer_pointers` | 58 (0x3a) | Exported Function | ucrtbase._get_stream_buffer_pointers | 0x00002109
-`_fputchar` | 42 (0x2a) | Exported Function | ucrtbase._fputchar | 0x00001eab
-`_fputwc_nolock` | 43 (0x2b) | Exported Function | ucrtbase._fputwc_nolock | 0x00001ecd
-`_fputwchar` | 44 (0x2c) | Exported Function | ucrtbase._fputwchar | 0x00001ef0
-`_fread_nolock` | 45 (0x2d) | Exported Function | ucrtbase._fread_nolock | 0x00001f12
-`_fread_nolock_s` | 46 (0x2e) | Exported Function | ucrtbase._fread_nolock_s | 0x00001f39
-`_fseek_nolock` | 47 (0x2f) | Exported Function | ucrtbase._fseek_nolock | 0x00001f60
-`_fseeki64` | 48 (0x30) | Exported Function | ucrtbase._fseeki64 | 0x00001f81
-`_getc_nolock` | 59 (0x3b) | Exported Function | ucrtbase._getc_nolock | 0x0000213b
-`_fseeki64_nolock` | 49 (0x31) | Exported Function | ucrtbase._fseeki64_nolock | 0x00001fa5
-`_ftell_nolock` | 51 (0x33) | Exported Function | ucrtbase._ftell_nolock | 0x00001fe6
-`_ftelli64` | 52 (0x34) | Exported Function | ucrtbase._ftelli64 | 0x00002007
-`_ftelli64_nolock` | 53 (0x35) | Exported Function | ucrtbase._ftelli64_nolock | 0x0000202b
-`_fwrite_nolock` | 54 (0x36) | Exported Function | ucrtbase._fwrite_nolock | 0x00002054
-`_get_fmode` | 55 (0x37) | Exported Function | ucrtbase._get_fmode | 0x00002077
-`_get_osfhandle` | 56 (0x38) | Exported Function | ucrtbase._get_osfhandle | 0x0000209a
-`_get_printf_count_output` | 57 (0x39) | Exported Function | ucrtbase._get_printf_count_output | 0x000020cb
-`_fsopen` | 50 (0x32) | Exported Function | ucrtbase._fsopen | 0x00001fc7
-`ungetwc` | 159 (0x9f) | Exported Function | ucrtbase.ungetwc | 0x00002b80
+Function Name | Ordinal | Type
+-- | -- | --
+`_wpopen` | 107 | Exported Function
+`_wopen` | 106 | Exported Function
+`_wsopen` | 109 | Exported Function
+`_write` | 108 | Exported Function
+`_wmktemp_s` | 105 | Exported Function
+`_wfreopen_s` | 102 | Exported Function
+`_wfreopen` | 101 | Exported Function
+`_wmktemp` | 104 | Exported Function
+`_wfsopen` | 103 | Exported Function
+`_wsopen_dispatch` | 110 | Exported Function
+`fclose` | 117 | Exported Function
+`clearerr_s` | 116 | Exported Function
+`ferror` | 119 | Exported Function
+`feof` | 118 | Exported Function
+`clearerr` | 115 | Exported Function
+`_wtempnam` | 112 | Exported Function
+`_wsopen_s` | 111 | Exported Function
+`_wtmpnam_s` | 114 | Exported Function
+`_wtmpnam` | 113 | Exported Function
+`_wfopen_s` | 100 | Exported Function
+`_setmaxstdio` | 87 | Exported Function
+`_set_printf_count_output` | 86 | Exported Function
+`_sopen` | 89 | Exported Function
+`_setmode` | 88 | Exported Function
+`_set_fmode` | 85 | Exported Function
+`_putws` | 82 | Exported Function
+`_putwc_nolock` | 81 | Exported Function
+`_rmtmp` | 84 | Exported Function
+`_read` | 83 | Exported Function
+`_sopen_dispatch` | 90 | Exported Function
+`_wcreat` | 97 | Exported Function
+`_ungetwc_nolock` | 96 | Exported Function
+`_wfopen` | 99 | Exported Function
+`_wfdopen` | 98 | Exported Function
+`_ungetc_nolock` | 95 | Exported Function
+`_tell` | 92 | Exported Function
+`_sopen_s` | 91 | Exported Function
+`_tempnam` | 94 | Exported Function
+`_telli64` | 93 | Exported Function
+`fflush` | 120 | Exported Function
+`putchar` | 147 | Exported Function
+`putc` | 146 | Exported Function
+`putwc` | 149 | Exported Function
+`puts` | 148 | Exported Function
+`getwchar` | 145 | Exported Function
+`gets` | 142 | Exported Function
+`getchar` | 141 | Exported Function
+`getwc` | 144 | Exported Function
+`gets_s` | 143 | Exported Function
+`putwchar` | 150 | Exported Function
+`tmpnam_s` | 157 | Exported Function
+`tmpnam` | 156 | Exported Function
+`ungetwc` | 159 | Exported Function
+`ungetc` | 158 | Exported Function
+`tmpfile_s` | 155 | Exported Function
+`setbuf` | 152 | Exported Function
+`rewind` | 151 | Exported Function
+`tmpfile` | 154 | Exported Function
+`setvbuf` | 153 | Exported Function
+`getc` | 140 | Exported Function
+`fopen_s` | 127 | Exported Function
+`fopen` | 126 | Exported Function
+`fputs` | 129 | Exported Function
+`fputc` | 128 | Exported Function
+`fgetws` | 125 | Exported Function
+`fgetpos` | 122 | Exported Function
+`fgetc` | 121 | Exported Function
+`fgetwc` | 124 | Exported Function
+`fgets` | 123 | Exported Function
+`fputwc` | 130 | Exported Function
+`fsetpos` | 137 | Exported Function
+`fseek` | 136 | Exported Function
+`fwrite` | 139 | Exported Function
+`ftell` | 138 | Exported Function
+`freopen_s` | 135 | Exported Function
+`fread` | 132 | Exported Function
+`fputws` | 131 | Exported Function
+`freopen` | 134 | Exported Function
+`fread_s` | 133 | Exported Function
+`_putw` | 80 | Exported Function
+`_dup` | 27 | Exported Function
+`_creat` | 26 | Exported Function
+`_eof` | 29 | Exported Function
+`_dup2` | 28 | Exported Function
+`_commit` | 25 | Exported Function
+`_chsize` | 22 | Exported Function
+`__stdio_common_vswscanf` | 21 | Exported Function
+`_close` | 24 | Exported Function
+`_chsize_s` | 23 | Exported Function
+`_fclose_nolock` | 30 | Exported Function
+`_filelength` | 37 | Exported Function
+`_fgetwchar` | 36 | Exported Function
+`_fileno` | 39 | Exported Function
+`_filelengthi64` | 38 | Exported Function
+`_fgetwc_nolock` | 35 | Exported Function
+`_fflush_nolock` | 32 | Exported Function
+`_fcloseall` | 31 | Exported Function
+`_fgetchar` | 34 | Exported Function
+`_fgetc_nolock` | 33 | Exported Function
+`__stdio_common_vswprintf_s` | 20 | Exported Function
+`__stdio_common_vfscanf` | 7 | Exported Function
+`__stdio_common_vfprintf_s` | 6 | Exported Function
+`__stdio_common_vfwprintf_p` | 9 | Exported Function
+`__stdio_common_vfwprintf` | 8 | Exported Function
+`__stdio_common_vfprintf_p` | 5 | Exported Function
+`__p__commode` | 2 | Exported Function
+`__acrt_iob_func` | 1 | Exported Function
+`__stdio_common_vfprintf` | 4 | Exported Function
+`__p__fmode` | 3 | Exported Function
+`__stdio_common_vfwprintf_s` | 10 | Exported Function
+`__stdio_common_vsscanf` | 17 | Exported Function
+`__stdio_common_vsprintf_s` | 16 | Exported Function
+`__stdio_common_vswprintf_p` | 19 | Exported Function
+`__stdio_common_vswprintf` | 18 | Exported Function
+`__stdio_common_vsprintf_p` | 15 | Exported Function
+`__stdio_common_vsnprintf_s` | 12 | Exported Function
+`__stdio_common_vfwscanf` | 11 | Exported Function
+`__stdio_common_vsprintf` | 14 | Exported Function
+`__stdio_common_vsnwprintf_s` | 13 | Exported Function
+`_flushall` | 40 | Exported Function
+`_isatty` | 67 | Exported Function
+`_getws_s` | 66 | Exported Function
+`_locking` | 69 | Exported Function
+`_kbhit` | 68 | Exported Function
+`_getws` | 65 | Exported Function
+`_getmaxstdio` | 62 | Exported Function
+`_getdcwd` | 61 | Exported Function
+`_getwc_nolock` | 64 | Exported Function
+`_getw` | 63 | Exported Function
+`_lseek` | 70 | Exported Function
+`_pipe` | 77 | Exported Function
+`_pclose` | 76 | Exported Function
+`_putc_nolock` | 79 | Exported Function
+`_popen` | 78 | Exported Function
+`_open_osfhandle` | 75 | Exported Function
+`_mktemp` | 72 | Exported Function
+`_lseeki64` | 71 | Exported Function
+`_open` | 74 | Exported Function
+`_mktemp_s` | 73 | Exported Function
+`_getcwd` | 60 | Exported Function
+`_fseek_nolock` | 47 | Exported Function
+`_fread_nolock_s` | 46 | Exported Function
+`_fseeki64_nolock` | 49 | Exported Function
+`_fseeki64` | 48 | Exported Function
+`_fread_nolock` | 45 | Exported Function
+`_fputchar` | 42 | Exported Function
+`_fputc_nolock` | 41 | Exported Function
+`_fputwchar` | 44 | Exported Function
+`_fputwc_nolock` | 43 | Exported Function
+`_fsopen` | 50 | Exported Function
+`_get_printf_count_output` | 57 | Exported Function
+`_get_osfhandle` | 56 | Exported Function
+`_getc_nolock` | 59 | Exported Function
+`_get_stream_buffer_pointers` | 58 | Exported Function
+`_get_fmode` | 55 | Exported Function
+`_ftelli64` | 52 | Exported Function
+`_ftell_nolock` | 51 | Exported Function
+`_fwrite_nolock` | 54 | Exported Function
+`_ftelli64_nolock` | 53 | Exported Function
 
 
 ## Signature
@@ -216,6 +216,7 @@ Function Name | Ordinal | Type | Address | Relative Address
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 43
+[C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\Smart Tag\SmartTagInstall.exe](SmartTagInstall.exe-632AB2DBE46DE1E9BB0FB7B54B3BB05C.md) | 32
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 44
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 25
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 41

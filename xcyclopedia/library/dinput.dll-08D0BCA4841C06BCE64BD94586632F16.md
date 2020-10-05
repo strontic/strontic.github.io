@@ -24,15 +24,15 @@ PE256 | `5C1F8282DA9BC7E65DE6EF901E67C21F9644095A706D6E8DD67E9891C8E13297`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DirectInputCreateA` | 1 (0x1) | Exported Function | 0x5f58bd30 | 0x0000bd30
-`DirectInputCreateEx` | 2 (0x2) | Exported Function | 0x5f58bdb0 | 0x0000bdb0
-`DirectInputCreateW` | 3 (0x3) | Exported Function | 0x5f58bd70 | 0x0000bd70
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x5f58ba70 | 0x0000ba70
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x5f58b9d0 | 0x0000b9d0
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x5f596ee0 | 0x00016ee0
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x5f596ef0 | 0x00016ef0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 5 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DirectInputCreateA` | 1 | Exported Function
+`DirectInputCreateEx` | 2 | Exported Function
+`DirectInputCreateW` | 3 | Exported Function
 
 
 ## Signature

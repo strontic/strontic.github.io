@@ -24,15 +24,15 @@ PE256 | `71427F1C8FF74B611E8D8DADF2877523C774B49CF2A0CD5F6BE1CEDAE6834AAE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CanSendToFaxRecipient` | 1 (0x1) | Exported Function | 0x00000001800011d0 | 0x000011d0
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180003fa0 | 0x00003fa0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180003fe0 | 0x00003fe0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x0000000180004070 | 0x00004070
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x00000001800040b0 | 0x000040b0
-`GetProxyDllInfo` | 6 (0x6) | Exported Function | 0x0000000180001050 | 0x00001050
-`SendToFaxRecipient` | 7 (0x7) | Exported Function | 0x0000000180001290 | 0x00001290
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 5 | Exported Function
+`GetProxyDllInfo` | 6 | Exported Function
+`SendToFaxRecipient` | 7 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`CanSendToFaxRecipient` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

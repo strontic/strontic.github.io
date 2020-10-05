@@ -23,11 +23,11 @@ PE256 | `EC41FBA9CE5414EA4741123267F9E6FC5696EDCE5C60AB1EB11B97BDECF054B8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetHvSocketLocalAddress` | 1 (0x1) | Exported Function | 0x0000000180004660 | 0x00004660
-`GetHvSocketParentAddress` | 2 (0x2) | Exported Function | 0x0000000180004800 | 0x00004800
-`GetHvSocketSiloHostAddress` | 3 (0x3) | Exported Function | 0x00000001800049c0 | 0x000049c0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetHvSocketSiloHostAddress` | 3 | Exported Function
+`GetHvSocketParentAddress` | 2 | Exported Function
+`GetHvSocketLocalAddress` | 1 | Exported Function
 
 
 ## Signature

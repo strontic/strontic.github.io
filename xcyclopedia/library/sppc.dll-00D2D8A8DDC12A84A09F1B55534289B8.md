@@ -24,75 +24,75 @@ PE256 | `C0A50692542BFF0299C5C1D72283202D717C7F7367FB188E25E657FBF207064C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SLCallServer` | 1 (0x1) | Exported Function | 0x10015390 | 0x00015390
-`SLOpen` | 54 (0x36) | Exported Function | 0x10013d10 | 0x00013d10
-`SLpAuthenticateGenuineTicketResponse` | 2 (0x2) | Exported Function | 0x1000f910 | 0x0000f910
-`SLpBeginGenuineTicketTransaction` | 3 (0x3) | Exported Function | 0x1000fa40 | 0x0000fa40
-`SLpClearActivationInProgress` | 4 (0x4) | Exported Function | 0x1000fb10 | 0x0000fb10
-`SLpDepositDownlevelGenuineTicket` | 5 (0x5) | Exported Function | 0x1000fba0 | 0x0000fba0
-`SLpDepositTokenActivationResponse` | 6 (0x6) | Exported Function | 0x1000fc60 | 0x0000fc60
-`SLPersistApplicationPolicies` | 55 (0x37) | Exported Function | 0x10013dc0 | 0x00013dc0
-`SLPersistRTSPayloadOverride` | 56 (0x38) | Exported Function | 0x10013ea0 | 0x00013ea0
-`SLpGenerateTokenActivationChallenge` | 7 (0x7) | Exported Function | 0x1000fd60 | 0x0000fd60
-`SLpGetGenuineBlob` | 8 (0x8) | Exported Function | 0x1000fe60 | 0x0000fe60
-`SLpGetGenuineLocal` | 9 (0x9) | Exported Function | 0x1000ff40 | 0x0000ff40
-`SLpGetLicenseAcquisitionInfo` | 10 (0xa) | Exported Function | 0x1000ff80 | 0x0000ff80
-`SLpGetMachineUGUID` | 12 (0xc) | Exported Function | 0x100102c0 | 0x000102c0
-`SLpGetMSPidInformation` | 11 (0xb) | Exported Function | 0x100100d0 | 0x000100d0
-`SLLoadApplicationPolicies` | 53 (0x35) | Exported Function | 0x10013ca0 | 0x00013ca0
-`SLpGetTokenActivationGrantInfo` | 13 (0xd) | Exported Function | 0x10010350 | 0x00010350
-`SLpIsCurrentInstalledProductKeyDefaultKey` | 15 (0xf) | Exported Function | 0x10010550 | 0x00010550
-`SLpProcessVMPipeMessage` | 16 (0x10) | Exported Function | 0x100105e0 | 0x000105e0
-`SLpSetActivationInProgress` | 17 (0x11) | Exported Function | 0x10010700 | 0x00010700
-`SLpTriggerServiceWorker` | 18 (0x12) | Exported Function | 0x10010790 | 0x00010790
-`SLpVLActivateProduct` | 19 (0x13) | Exported Function | 0x100108c0 | 0x000108c0
-`SLReArm` | 57 (0x39) | Exported Function | 0x10013f90 | 0x00013f90
-`SLRegisterEvent` | 58 (0x3a) | Exported Function | 0x10014050 | 0x00014050
-`SLRegisterPlugin` | 59 (0x3b) | Exported Function | 0x100140d0 | 0x000140d0
-`SLSetAuthenticationData` | 60 (0x3c) | Exported Function | 0x10014180 | 0x00014180
-`SLSetCurrentProductKey` | 61 (0x3d) | Exported Function | 0x10014240 | 0x00014240
-`SLSetGenuineInformation` | 62 (0x3e) | Exported Function | 0x10014300 | 0x00014300
-`SLUninstallLicense` | 63 (0x3f) | Exported Function | 0x10014420 | 0x00014420
-`SLUninstallProofOfPurchase` | 64 (0x40) | Exported Function | 0x100144b0 | 0x000144b0
-`SLUnloadApplicationPolicies` | 65 (0x41) | Exported Function | 0x10014550 | 0x00014550
-`SLpIAActivateProduct` | 14 (0xe) | Exported Function | 0x100104b0 | 0x000104b0
-`SLUnregisterEvent` | 66 (0x42) | Exported Function | 0x100145a0 | 0x000145a0
-`SLIsGenuineLocalEx` | 52 (0x34) | Exported Function | 0x10013c10 | 0x00013c10
-`SLInstallProofOfPurchase` | 50 (0x32) | Exported Function | 0x100139c0 | 0x000139c0
-`SLClose` | 20 (0x14) | Exported Function | 0x10012270 | 0x00012270
-`SLConsumeRight` | 21 (0x15) | Exported Function | 0x100122a0 | 0x000122a0
-`SLDepositMigrationBlob` | 22 (0x16) | Exported Function | 0x10012350 | 0x00012350
-`SLDepositOfflineConfirmationId` | 23 (0x17) | Exported Function | 0x10012400 | 0x00012400
-`SLDepositOfflineConfirmationIdEx` | 24 (0x18) | Exported Function | 0x10012440 | 0x00012440
-`SLDepositStoreToken` | 25 (0x19) | Exported Function | 0x10012760 | 0x00012760
-`SLFireEvent` | 26 (0x1a) | Exported Function | 0x10012810 | 0x00012810
-`SLGatherMigrationBlob` | 27 (0x1b) | Exported Function | 0x100128d0 | 0x000128d0
-`SLGatherMigrationBlobEx` | 28 (0x1c) | Exported Function | 0x10012940 | 0x00012940
-`SLGenerateOfflineInstallationId` | 29 (0x1d) | Exported Function | 0x10012a20 | 0x00012a20
-`SLGenerateOfflineInstallationIdEx` | 30 (0x1e) | Exported Function | 0x10012a60 | 0x00012a60
-`SLGetActiveLicenseInfo` | 31 (0x1f) | Exported Function | 0x10012b90 | 0x00012b90
-`SLGetApplicationInformation` | 32 (0x20) | Exported Function | 0x10012c70 | 0x00012c70
-`SLGetApplicationPolicy` | 33 (0x21) | Exported Function | 0x10012cc0 | 0x00012cc0
-`SLInstallProofOfPurchaseEx` | 51 (0x33) | Exported Function | 0x10013ac0 | 0x00013ac0
-`SLGetAuthenticationResult` | 34 (0x22) | Exported Function | 0x10012d30 | 0x00012d30
-`SLGetGenuineInformation` | 36 (0x24) | Exported Function | 0x10012f30 | 0x00012f30
-`SLGetInstalledProductKeyIds` | 37 (0x25) | Exported Function | 0x10013080 | 0x00013080
-`SLGetLicense` | 38 (0x26) | Exported Function | 0x100131a0 | 0x000131a0
-`SLGetLicenseFileId` | 39 (0x27) | Exported Function | 0x100132a0 | 0x000132a0
-`SLGetLicenseInformation` | 40 (0x28) | Exported Function | 0x10013390 | 0x00013390
-`SLGetLicensingStatusInformation` | 41 (0x29) | Exported Function | 0x100133e0 | 0x000133e0
-`SLGetPKeyId` | 42 (0x2a) | Exported Function | 0x10013510 | 0x00013510
-`SLGetPKeyInformation` | 43 (0x2b) | Exported Function | 0x10013650 | 0x00013650
-`SLGetPolicyInformation` | 44 (0x2c) | Exported Function | 0x100136a0 | 0x000136a0
-`SLGetPolicyInformationDWORD` | 45 (0x2d) | Exported Function | 0x100136e0 | 0x000136e0
-`SLGetProductSkuInformation` | 46 (0x2e) | Exported Function | 0x10013720 | 0x00013720
-`SLGetServiceInformation` | 48 (0x30) | Exported Function | 0x100138c0 | 0x000138c0
-`SLGetSLIDList` | 47 (0x2f) | Exported Function | 0x10013760 | 0x00013760
-`SLInstallLicense` | 49 (0x31) | Exported Function | 0x10013900 | 0x00013900
-`SLGetEncryptedPIDEx` | 35 (0x23) | Exported Function | 0x10012e10 | 0x00012e10
-`SLUnregisterPlugin` | 67 (0x43) | Exported Function | 0x10014610 | 0x00014610
+Function Name | Ordinal | Type
+-- | -- | --
+`SLpGetGenuineBlob` | 8 | Exported Function
+`SLpGetGenuineLocal` | 9 | Exported Function
+`SLPersistRTSPayloadOverride` | 56 | Exported Function
+`SLpGenerateTokenActivationChallenge` | 7 | Exported Function
+`SLpGetMSPidInformation` | 11 | Exported Function
+`SLpGetTokenActivationGrantInfo` | 13 | Exported Function
+`SLpGetLicenseAcquisitionInfo` | 10 | Exported Function
+`SLpGetMachineUGUID` | 12 | Exported Function
+`SLpAuthenticateGenuineTicketResponse` | 2 | Exported Function
+`SLpBeginGenuineTicketTransaction` | 3 | Exported Function
+`SLLoadApplicationPolicies` | 53 | Exported Function
+`SLOpen` | 54 | Exported Function
+`SLpDepositTokenActivationResponse` | 6 | Exported Function
+`SLPersistApplicationPolicies` | 55 | Exported Function
+`SLpClearActivationInProgress` | 4 | Exported Function
+`SLpDepositDownlevelGenuineTicket` | 5 | Exported Function
+`SLpIAActivateProduct` | 14 | Exported Function
+`SLSetGenuineInformation` | 62 | Exported Function
+`SLUninstallLicense` | 63 | Exported Function
+`SLSetAuthenticationData` | 60 | Exported Function
+`SLSetCurrentProductKey` | 61 | Exported Function
+`SLUnregisterEvent` | 66 | Exported Function
+`SLUnregisterPlugin` | 67 | Exported Function
+`SLUninstallProofOfPurchase` | 64 | Exported Function
+`SLUnloadApplicationPolicies` | 65 | Exported Function
+`SLpSetActivationInProgress` | 17 | Exported Function
+`SLpTriggerServiceWorker` | 18 | Exported Function
+`SLpIsCurrentInstalledProductKeyDefaultKey` | 15 | Exported Function
+`SLpProcessVMPipeMessage` | 16 | Exported Function
+`SLRegisterEvent` | 58 | Exported Function
+`SLRegisterPlugin` | 59 | Exported Function
+`SLpVLActivateProduct` | 19 | Exported Function
+`SLReArm` | 57 | Exported Function
+`SLIsGenuineLocalEx` | 52 | Exported Function
+`SLGenerateOfflineInstallationId` | 29 | Exported Function
+`SLGenerateOfflineInstallationIdEx` | 30 | Exported Function
+`SLGatherMigrationBlob` | 27 | Exported Function
+`SLGatherMigrationBlobEx` | 28 | Exported Function
+`SLGetApplicationPolicy` | 33 | Exported Function
+`SLGetAuthenticationResult` | 34 | Exported Function
+`SLGetActiveLicenseInfo` | 31 | Exported Function
+`SLGetApplicationInformation` | 32 | Exported Function
+`SLConsumeRight` | 21 | Exported Function
+`SLDepositMigrationBlob` | 22 | Exported Function
+`SLCallServer` | 1 | Exported Function
+`SLClose` | 20 | Exported Function
+`SLDepositStoreToken` | 25 | Exported Function
+`SLFireEvent` | 26 | Exported Function
+`SLDepositOfflineConfirmationId` | 23 | Exported Function
+`SLDepositOfflineConfirmationIdEx` | 24 | Exported Function
+`SLGetEncryptedPIDEx` | 35 | Exported Function
+`SLGetProductSkuInformation` | 46 | Exported Function
+`SLGetServiceInformation` | 48 | Exported Function
+`SLGetPolicyInformation` | 44 | Exported Function
+`SLGetPolicyInformationDWORD` | 45 | Exported Function
+`SLInstallProofOfPurchase` | 50 | Exported Function
+`SLInstallProofOfPurchaseEx` | 51 | Exported Function
+`SLGetSLIDList` | 47 | Exported Function
+`SLInstallLicense` | 49 | Exported Function
+`SLGetLicense` | 38 | Exported Function
+`SLGetLicenseFileId` | 39 | Exported Function
+`SLGetGenuineInformation` | 36 | Exported Function
+`SLGetInstalledProductKeyIds` | 37 | Exported Function
+`SLGetPKeyId` | 42 | Exported Function
+`SLGetPKeyInformation` | 43 | Exported Function
+`SLGetLicenseInformation` | 40 | Exported Function
+`SLGetLicensingStatusInformation` | 41 | Exported Function
 
 
 ## Signature

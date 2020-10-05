@@ -24,18 +24,18 @@ PE256 | `0C9763F4F792AA94A5F92D2CB08B43686024A5A5B12292C32BD46ADBCED3A76A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CompareStringA` | 1 (0x1) | Exported Function | kernel32.CompareStringA | 0x0000112c
-`EnumLanguageGroupLocalesW` | 2 (0x2) | Exported Function | kernel32.EnumLanguageGroupLocalesW | 0x0000115e
-`EnumSystemLanguageGroupsW` | 3 (0x3) | Exported Function | kernel32.EnumSystemLanguageGroupsW | 0x0000119b
-`EnumUILanguagesW` | 4 (0x4) | Exported Function | kernel32.EnumUILanguagesW | 0x000011cf
-`GetNumberFormatW` | 5 (0x5) | Exported Function | kernel32.GetNumberFormatW | 0x000011fa
-`GetStringTypeA` | 6 (0x6) | Exported Function | kernel32.GetStringTypeA | 0x00001223
-`GetSystemDefaultLocaleName` | 7 (0x7) | Exported Function | kernel32.GetSystemDefaultLocaleName | 0x00001256
-`GetSystemDefaultUILanguage` | 8 (0x8) | Exported Function | kernel32.GetSystemDefaultUILanguage | 0x00001295
-`GetUserDefaultUILanguage` | 9 (0x9) | Exported Function | kernel32.GetUserDefaultUILanguage | 0x000012d2
-`LCIDToLocaleName` | 10 (0xa) | Exported Function | kernel32.LCIDToLocaleName | 0x00001305
+Function Name | Ordinal | Type
+-- | -- | --
+`GetSystemDefaultLocaleName` | 7 | Exported Function
+`GetStringTypeA` | 6 | Exported Function
+`GetSystemDefaultUILanguage` | 8 | Exported Function
+`LCIDToLocaleName` | 10 | Exported Function
+`GetUserDefaultUILanguage` | 9 | Exported Function
+`EnumLanguageGroupLocalesW` | 2 | Exported Function
+`CompareStringA` | 1 | Exported Function
+`EnumSystemLanguageGroupsW` | 3 | Exported Function
+`GetNumberFormatW` | 5 | Exported Function
+`EnumUILanguagesW` | 4 | Exported Function
 
 
 ## Signature

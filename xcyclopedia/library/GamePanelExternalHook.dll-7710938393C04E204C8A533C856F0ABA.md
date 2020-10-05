@@ -24,13 +24,13 @@ PE256 | `C1E02BC66A2981626BCDA8544EA47E95AA6E45ECC71903422B97F2E4785BEB49`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`public: static class CGamePanelExternalHook & __stdcall CGamePanelExternalHook::GetInstance(void)` | 2 (0x2) | Exported Function | 0x10002510 | 0x00002510
-`public: static unsigned int __stdcall CGamePanelExternalHook::GPHHookWindowPointerDown(void)` | 1 (0x1) | Exported Function | 0x10002860 | 0x00002860
-`public: void __thiscall CGamePanelExternalHook::Hook(struct HWND__ *)` | 3 (0x3) | Exported Function | 0x10002570 | 0x00002570
-`public: void __thiscall CGamePanelExternalHook::SetIntercept(bool,struct HWND__ *)` | 4 (0x4) | Exported Function | 0x10002810 | 0x00002810
-`public: void __thiscall CGamePanelExternalHook::Unhook(void)` | 5 (0x5) | Exported Function | 0x10002700 | 0x00002700
+Function Name | Ordinal | Type
+-- | -- | --
+`public: void __thiscall CGamePanelExternalHook::SetIntercept(bool,struct HWND__ *)` | 4 | Exported Function
+`public: void __thiscall CGamePanelExternalHook::Unhook(void)` | 5 | Exported Function
+`public: void __thiscall CGamePanelExternalHook::Hook(struct HWND__ *)` | 3 | Exported Function
+`public: static class CGamePanelExternalHook & __stdcall CGamePanelExternalHook::GetInstance(void)` | 2 | Exported Function
+`public: static unsigned int __stdcall CGamePanelExternalHook::GPHHookWindowPointerDown(void)` | 1 | Exported Function
 
 
 ## Signature

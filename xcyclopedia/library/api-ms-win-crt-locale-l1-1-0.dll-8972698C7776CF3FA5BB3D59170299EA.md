@@ -24,28 +24,28 @@ PE256 | `C7D75B5FAD93466B0FC00E2B70FEDBEB6ED530D23A5ECA5A06F5371BE64703C4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`___lc_codepage_func` | 1 (0x1) | Exported Function | ucrtbase.___lc_codepage_func | 0x00001255
-`_wsetlocale` | 18 (0x12) | Exported Function | ucrtbase._wsetlocale | 0x00001544
-`_wcreate_locale` | 17 (0x11) | Exported Function | ucrtbase._wcreate_locale | 0x0000151f
-`_unlock_locales` | 16 (0x10) | Exported Function | ucrtbase._unlock_locales | 0x000014f6
-`_setmbcp` | 15 (0xf) | Exported Function | ucrtbase._setmbcp | 0x000014d4
-`_lock_locales` | 14 (0xe) | Exported Function | ucrtbase._lock_locales | 0x000014b4
-`_getmbcp` | 13 (0xd) | Exported Function | ucrtbase._getmbcp | 0x00001494
-`_get_current_locale` | 12 (0xc) | Exported Function | ucrtbase._get_current_locale | 0x0000146e
-`_free_locale` | 11 (0xb) | Exported Function | ucrtbase._free_locale | 0x00001444
-`_create_locale` | 10 (0xa) | Exported Function | ucrtbase._create_locale | 0x0000141f
-`_configthreadlocale` | 9 (0x9) | Exported Function | ucrtbase._configthreadlocale | 0x000013f3
-`__pwctype_func` | 8 (0x8) | Exported Function | ucrtbase.__pwctype_func | 0x000013c7
-`__pctype_func` | 7 (0x7) | Exported Function | ucrtbase.__pctype_func | 0x000013a1
-`__initialize_lconv_for_unsigned_char` | 6 (0x6) | Exported Function | ucrtbase.__initialize_lconv_for_unsigned_char | 0x00001365
-`___mb_cur_max_l_func` | 5 (0x5) | Exported Function | ucrtbase.___mb_cur_max_l_func | 0x00001322
-`___mb_cur_max_func` | 4 (0x4) | Exported Function | ucrtbase.___mb_cur_max_func | 0x000012f1
-`___lc_locale_name_func` | 3 (0x3) | Exported Function | ucrtbase.___lc_locale_name_func | 0x000012be
-`___lc_collate_cp_func` | 2 (0x2) | Exported Function | ucrtbase.___lc_collate_cp_func | 0x00001288
-`localeconv` | 19 (0x13) | Exported Function | ucrtbase.localeconv | 0x00001564
-`setlocale` | 20 (0x14) | Exported Function | ucrtbase.setlocale | 0x00001582
+Function Name | Ordinal | Type
+-- | -- | --
+`_lock_locales` | 14 | Exported Function
+`_setmbcp` | 15 | Exported Function
+`_getmbcp` | 13 | Exported Function
+`_free_locale` | 11 | Exported Function
+`_get_current_locale` | 12 | Exported Function
+`localeconv` | 19 | Exported Function
+`setlocale` | 20 | Exported Function
+`_wsetlocale` | 18 | Exported Function
+`_unlock_locales` | 16 | Exported Function
+`_wcreate_locale` | 17 | Exported Function
+`___mb_cur_max_func` | 4 | Exported Function
+`___mb_cur_max_l_func` | 5 | Exported Function
+`___lc_locale_name_func` | 3 | Exported Function
+`___lc_codepage_func` | 1 | Exported Function
+`___lc_collate_cp_func` | 2 | Exported Function
+`_configthreadlocale` | 9 | Exported Function
+`_create_locale` | 10 | Exported Function
+`__pwctype_func` | 8 | Exported Function
+`__initialize_lconv_for_unsigned_char` | 6 | Exported Function
+`__pctype_func` | 7 | Exported Function
 
 
 ## Signature

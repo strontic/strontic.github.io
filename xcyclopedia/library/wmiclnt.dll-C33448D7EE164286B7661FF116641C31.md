@@ -24,37 +24,37 @@ PE256 | `D0191F2EC0B9BCF5B7E72A0F79F45AB91ED8C1A30F48B5B2B426ABBF5319B110`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WmiCloseBlock` | 1 (0x1) | Exported Function | 0x0000000180003610 | 0x00003610
-`WmiSetSingleInstanceW` | 27 (0x1b) | Exported Function | 0x0000000180006690 | 0x00006690
-`WmiSetSingleInstanceA` | 26 (0x1a) | Exported Function | 0x00000001800065b0 | 0x000065b0
-`WmiReceiveNotificationsW` | 25 (0x19) | Exported Function | 0x0000000180006530 | 0x00006530
-`WmiReceiveNotificationsA` | 24 (0x18) | Exported Function | 0x00000001800064b0 | 0x000064b0
-`WmiQuerySingleInstanceW` | 23 (0x17) | Exported Function | 0x0000000180003c60 | 0x00003c60
-`WmiQuerySingleInstanceMultipleW` | 22 (0x16) | Exported Function | 0x0000000180006230 | 0x00006230
-`WmiQuerySingleInstanceMultipleA` | 21 (0x15) | Exported Function | 0x0000000180006080 | 0x00006080
-`WmiQuerySingleInstanceA` | 20 (0x14) | Exported Function | 0x0000000180005f90 | 0x00005f90
-`WmiQueryGuidInformation` | 19 (0x13) | Exported Function | 0x0000000180005ec0 | 0x00005ec0
-`WmiQueryAllDataW` | 18 (0x12) | Exported Function | 0x0000000180001700 | 0x00001700
-`WmiQueryAllDataMultipleW` | 17 (0x11) | Exported Function | 0x0000000180005c70 | 0x00005c70
-`WmiQueryAllDataMultipleA` | 16 (0x10) | Exported Function | 0x0000000180005be0 | 0x00005be0
-`WmiSetSingleItemA` | 28 (0x1c) | Exported Function | 0x00000001800068c0 | 0x000068c0
-`WmiQueryAllDataA` | 15 (0xf) | Exported Function | 0x0000000180005b60 | 0x00005b60
-`WmiNotificationRegistrationW` | 13 (0xd) | Exported Function | 0x0000000180001270 | 0x00001270
-`WmiNotificationRegistrationA` | 12 (0xc) | Exported Function | 0x0000000180005ad0 | 0x00005ad0
-`WmiMofEnumerateResourcesW` | 11 (0xb) | Exported Function | 0x00000001800027c0 | 0x000027c0
-`WmiMofEnumerateResourcesA` | 10 (0xa) | Exported Function | 0x0000000180007cf0 | 0x00007cf0
-`WmiFreeBuffer` | 9 (0x9) | Exported Function | 0x00000001800037b0 | 0x000037b0
-`WmiFileHandleToInstanceNameW` | 8 (0x8) | Exported Function | 0x0000000180005880 | 0x00005880
-`WmiFileHandleToInstanceNameA` | 7 (0x7) | Exported Function | 0x0000000180005600 | 0x00005600
-`WmiExecuteMethodW` | 6 (0x6) | Exported Function | 0x0000000180003800 | 0x00003800
-`WmiExecuteMethodA` | 5 (0x5) | Exported Function | 0x00000001800054f0 | 0x000054f0
-`WmiEnumerateGuids` | 4 (0x4) | Exported Function | 0x0000000180005310 | 0x00005310
-`WmiDevInstToInstanceNameW` | 3 (0x3) | Exported Function | 0x0000000180005220 | 0x00005220
-`WmiDevInstToInstanceNameA` | 2 (0x2) | Exported Function | 0x0000000180005120 | 0x00005120
-`WmiOpenBlock` | 14 (0xe) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`WmiSetSingleItemW` | 29 (0x1d) | Exported Function | 0x00000001800069a0 | 0x000069a0
+Function Name | Ordinal | Type
+-- | -- | --
+`WmiQuerySingleInstanceA` | 20 | Exported Function
+`WmiQuerySingleInstanceMultipleA` | 21 | Exported Function
+`WmiQuerySingleInstanceMultipleW` | 22 | Exported Function
+`WmiQueryGuidInformation` | 19 | Exported Function
+`WmiQueryAllDataMultipleA` | 16 | Exported Function
+`WmiQueryAllDataMultipleW` | 17 | Exported Function
+`WmiQueryAllDataW` | 18 | Exported Function
+`WmiSetSingleInstanceW` | 27 | Exported Function
+`WmiSetSingleItemA` | 28 | Exported Function
+`WmiSetSingleItemW` | 29 | Exported Function
+`WmiSetSingleInstanceA` | 26 | Exported Function
+`WmiQuerySingleInstanceW` | 23 | Exported Function
+`WmiReceiveNotificationsA` | 24 | Exported Function
+`WmiReceiveNotificationsW` | 25 | Exported Function
+`WmiQueryAllDataA` | 15 | Exported Function
+`WmiExecuteMethodA` | 5 | Exported Function
+`WmiExecuteMethodW` | 6 | Exported Function
+`WmiFileHandleToInstanceNameA` | 7 | Exported Function
+`WmiEnumerateGuids` | 4 | Exported Function
+`WmiCloseBlock` | 1 | Exported Function
+`WmiDevInstToInstanceNameA` | 2 | Exported Function
+`WmiDevInstToInstanceNameW` | 3 | Exported Function
+`WmiNotificationRegistrationA` | 12 | Exported Function
+`WmiNotificationRegistrationW` | 13 | Exported Function
+`WmiOpenBlock` | 14 | Exported Function
+`WmiMofEnumerateResourcesW` | 11 | Exported Function
+`WmiFileHandleToInstanceNameW` | 8 | Exported Function
+`WmiFreeBuffer` | 9 | Exported Function
+`WmiMofEnumerateResourcesA` | 10 | Exported Function
 
 
 ## Signature

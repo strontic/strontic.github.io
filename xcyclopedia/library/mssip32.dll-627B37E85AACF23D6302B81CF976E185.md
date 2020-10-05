@@ -24,17 +24,17 @@ PE256 | `FD8107E4D3334C528D90E3E7CC5922AAD7C1DFF5FCE567A18007FFB1D12275B1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CryptSIPCreateIndirectData` | 3 (0x3) | Exported Function | Wintrust.CryptSIPCreateIndirectData | 0x000026a1
-`CryptSIPGetInfo` | 1 (0x1) | Exported Function | Wintrust.CryptSIPGetInfo | 0x0000262e
-`CryptSIPGetRegWorkingFlags` | 2 (0x2) | Exported Function | Wintrust.CryptSIPGetRegWorkingFlags | 0x00002662
-`CryptSIPGetSignedDataMsg` | 4 (0x4) | Exported Function | Wintrust.CryptSIPGetSignedDataMsg | 0x000026de
-`CryptSIPPutSignedDataMsg` | 5 (0x5) | Exported Function | Wintrust.CryptSIPPutSignedDataMsg | 0x00002719
-`CryptSIPRemoveSignedDataMsg` | 6 (0x6) | Exported Function | Wintrust.CryptSIPRemoveSignedDataMsg | 0x00002757
-`CryptSIPVerifyIndirectData` | 7 (0x7) | Exported Function | Wintrust.CryptSIPVerifyIndirectData | 0x00002797
-`DllRegisterServer` | 8 (0x8) | Exported Function | Wintrust.mssip32DllRegisterServer | 0x000027cd
-`DllUnregisterServer` | 9 (0x9) | Exported Function | Wintrust.mssip32DllUnregisterServer | 0x00002803
+Function Name | Ordinal | Type
+-- | -- | --
+`CryptSIPVerifyIndirectData` | 7 | Exported Function
+`CryptSIPRemoveSignedDataMsg` | 6 | Exported Function
+`DllUnregisterServer` | 9 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`CryptSIPPutSignedDataMsg` | 5 | Exported Function
+`CryptSIPGetInfo` | 1 | Exported Function
+`CryptSIPCreateIndirectData` | 3 | Exported Function
+`CryptSIPGetSignedDataMsg` | 4 | Exported Function
+`CryptSIPGetRegWorkingFlags` | 2 | Exported Function
 
 
 ## Signature

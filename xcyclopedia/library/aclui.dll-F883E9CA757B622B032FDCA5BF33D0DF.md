@@ -24,16 +24,16 @@ PE256 | `0810ED8BF8270849FAE47CA139859867F7C82E41682ECC1CD8885F99030775BF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateSecurityPage` | 1 (0x1) | Exported Function | 0x00000001800468f0 | 0x000468f0
-`EditConditionalAceClaims` | 5 (0x5) | Exported Function | 0x000000018003af40 | 0x0003af40
-`EditResourceCondition` | 4 (0x4) | Exported Function | 0x000000018003b490 | 0x0003b490
-`EditSecurity` | 2 (0x2) | Exported Function | 0x0000000180046a20 | 0x00046a20
-`EditSecurityAdvanced` | 3 (0x3) | Exported Function | 0x0000000180019770 | 0x00019770
-`GetLocalizedStringForCondition` | 6 (0x6) | Exported Function | 0x00000001800165f0 | 0x000165f0
-`GetTlsIndexForClaimDictionary` | 7 (0x7) | Exported Function | 0x00000001800294a0 | 0x000294a0
-`IID_ISecurityInformation` | 16 (0x10) | Exported Function | 0x00000001800736a8 | 0x000736a8
+Function Name | Ordinal | Type
+-- | -- | --
+`GetLocalizedStringForCondition` | 6 | Exported Function
+`EditSecurityAdvanced` | 3 | Exported Function
+`IID_ISecurityInformation` | 16 | Exported Function
+`GetTlsIndexForClaimDictionary` | 7 | Exported Function
+`EditConditionalAceClaims` | 5 | Exported Function
+`CreateSecurityPage` | 1 | Exported Function
+`EditSecurity` | 2 | Exported Function
+`EditResourceCondition` | 4 | Exported Function
 
 
 ## Signature

@@ -24,13 +24,13 @@ PE256 | `5F4D08562C465C15F89579B7E0CEFDEAFF08DA194A01F08F3A39ABA7064BEED9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateHrtfApo` | 1 (0x1) | Exported Function | 0x1000aa00 | 0x0000aa00
-`CreateHrtfApoWithDatasetType` | 2 (0x2) | Exported Function | 0x1000a9d0 | 0x0000a9d0
-`CreateHrtfEngineFactory` | 3 (0x3) | Exported Function | 0x1000d260 | 0x0000d260
-`GetHrtfEngineMinFrameCount` | 5 (0x5) | Exported Function | 0x1000aa90 | 0x0000aa90
-`IsHrtfApoAvailable` | 4 (0x4) | Exported Function | 0x1000aa20 | 0x0000aa20
+Function Name | Ordinal | Type
+-- | -- | --
+`GetHrtfEngineMinFrameCount` | 5 | Exported Function
+`IsHrtfApoAvailable` | 4 | Exported Function
+`CreateHrtfEngineFactory` | 3 | Exported Function
+`CreateHrtfApo` | 1 | Exported Function
+`CreateHrtfApoWithDatasetType` | 2 | Exported Function
 
 
 ## Signature

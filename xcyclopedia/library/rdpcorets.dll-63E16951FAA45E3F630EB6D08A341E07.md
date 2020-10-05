@@ -24,14 +24,14 @@ PE256 | `9422F30470E98BD6A2511C1FE3898107DF4A0822FF65F746AD5E8A92A2CCBFCA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180058e90 | 0x00058e90
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180017d40 | 0x00017d40
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000180058eb0 | 0x00058eb0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180058f20 | 0x00058f20
-`RFX_CreateGFXService` | 5 (0x5) | Exported Function | 0x00000001800062f0 | 0x000062f0
-`RFX_CreatePluginFactory` | 6 (0x6) | Exported Function | 0x000000018004d930 | 0x0004d930
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 4 | Exported Function
+`RFX_CreateGFXService` | 5 | Exported Function
+`RFX_CreatePluginFactory` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

@@ -24,14 +24,14 @@ PE256 | `43071AFFFDE2A3F86100ADD2514C9782DA1E707C72FDE5D43F06E368C86FE832`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CSebCreateCustomEvent` | 1 (0x1) | Exported Function | 0x0000000180001800 | 0x00001800
-`CSebCreatePrivateEvent` | 2 (0x2) | Exported Function | 0x0000000180001430 | 0x00001430
-`CSebCreateWellKnownEvent` | 3 (0x3) | Exported Function | 0x0000000180001320 | 0x00001320
-`CSebDeleteEvent` | 4 (0x4) | Exported Function | 0x0000000180001540 | 0x00001540
-`CSebEnumerateEvents` | 5 (0x5) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`CSebQueryEventData` | 6 (0x6) | Exported Function | 0x0000000180001770 | 0x00001770
+Function Name | Ordinal | Type
+-- | -- | --
+`CSebDeleteEvent` | 4 | Exported Function
+`CSebEnumerateEvents` | 5 | Exported Function
+`CSebQueryEventData` | 6 | Exported Function
+`CSebCreateCustomEvent` | 1 | Exported Function
+`CSebCreatePrivateEvent` | 2 | Exported Function
+`CSebCreateWellKnownEvent` | 3 | Exported Function
 
 
 ## Signature

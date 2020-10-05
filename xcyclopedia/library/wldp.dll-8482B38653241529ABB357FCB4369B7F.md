@@ -24,29 +24,29 @@ PE256 | `9BF2A734F97B227FAE20A03A28D65ACB5FEB5EFCA02EFD30851195DAD0B21D5B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WldpAddDeveloperCertificateForDynamicCodeTrust` | 5 (0x5) | Exported Function | 0x00000001800108c0 | 0x000108c0
-`WldpSetDynamicCodeTrust` | 20 (0x14) | Exported Function | 0x0000000180011d90 | 0x00011d90
-`WldpResetSecurityWatermarkState` | 19 (0x13) | Exported Function | 0x0000000180014e80 | 0x00014e80
-`WldpQueryWindowsLockdownRestriction` | 3 (0x3) | Exported Function | 0x000000018000fe20 | 0x0000fe20
-`WldpQueryWindowsLockdownMode` | 2 (0x2) | Exported Function | 0x0000000180001f00 | 0x00001f00
-`WldpQuerySecurityPolicy` | 18 (0x12) | Exported Function | 0x0000000180011d30 | 0x00011d30
-`WldpQueryDynamicCodeTrust` | 17 (0x11) | Exported Function | 0x0000000180011cc0 | 0x00011cc0
-`WldpIsDynamicCodePolicyEnabled` | 16 (0x10) | Exported Function | 0x0000000180011c30 | 0x00011c30
-`WldpIsDebugAllowed` | 15 (0xf) | Exported Function | 0x0000000180011a00 | 0x00011a00
-`WldpSetDynamicCodeTrust2` | 21 (0x15) | Exported Function | 0x0000000180011de0 | 0x00011de0
-`WldpIsClassInApprovedList` | 14 (0xe) | Exported Function | 0x0000000180011240 | 0x00011240
-`WldpIsAllowedEntryPoint` | 13 (0xd) | Exported Function | 0x0000000180013730 | 0x00013730
-`WldpGetLockdownPolicy` | 12 (0xc) | Exported Function | 0x0000000180001920 | 0x00001920
-`WldpEnableDeveloperMode` | 11 (0xb) | Exported Function | 0x0000000180010df0 | 0x00010df0
-`WldpDisableDeveloperMode` | 10 (0xa) | Exported Function | 0x0000000180010c30 | 0x00010c30
-`WldpCheckWcosDeviceEncryptionSecure` | 9 (0x9) | Exported Function | 0x0000000180014f40 | 0x00014f40
-`WldpCheckSecurityWatermarkState` | 8 (0x8) | Exported Function | 0x0000000180014ab0 | 0x00014ab0
-`WldpCheckRetailConfiguration` | 7 (0x7) | Exported Function | 0x0000000180002180 | 0x00002180
-`WldpCheckDeviceEncryptionNotStarted` | 6 (0x6) | Exported Function | 0x0000000180014ec0 | 0x00014ec0
-`WldpIsAppApprovedByPolicy` | 1 (0x1) | Exported Function | 0x000000018000fde0 | 0x0000fde0
-`WldpSetWindowsLockdownRestriction` | 4 (0x4) | Exported Function | 0x000000018000fea0 | 0x0000fea0
+Function Name | Ordinal | Type
+-- | -- | --
+`WldpQuerySecurityPolicy` | 18 | Exported Function
+`WldpQueryWindowsLockdownMode` | 2 | Exported Function
+`WldpQueryDynamicCodeTrust` | 17 | Exported Function
+`WldpIsDebugAllowed` | 15 | Exported Function
+`WldpIsDynamicCodePolicyEnabled` | 16 | Exported Function
+`WldpSetDynamicCodeTrust2` | 21 | Exported Function
+`WldpSetWindowsLockdownRestriction` | 4 | Exported Function
+`WldpSetDynamicCodeTrust` | 20 | Exported Function
+`WldpQueryWindowsLockdownRestriction` | 3 | Exported Function
+`WldpResetSecurityWatermarkState` | 19 | Exported Function
+`WldpIsClassInApprovedList` | 14 | Exported Function
+`WldpCheckSecurityWatermarkState` | 8 | Exported Function
+`WldpCheckWcosDeviceEncryptionSecure` | 9 | Exported Function
+`WldpCheckRetailConfiguration` | 7 | Exported Function
+`WldpAddDeveloperCertificateForDynamicCodeTrust` | 5 | Exported Function
+`WldpCheckDeviceEncryptionNotStarted` | 6 | Exported Function
+`WldpIsAllowedEntryPoint` | 13 | Exported Function
+`WldpIsAppApprovedByPolicy` | 1 | Exported Function
+`WldpGetLockdownPolicy` | 12 | Exported Function
+`WldpDisableDeveloperMode` | 10 | Exported Function
+`WldpEnableDeveloperMode` | 11 | Exported Function
 
 
 ## Signature

@@ -24,22 +24,22 @@ PE256 | `6342DDD04E6A8ACA2E9CABF8A04A7B285C0068709ADBDB7E75A5440067F828C8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 11 (0xb) | Exported Function | 0x000000018006fb30 | 0x0006fb30
-`DllGetClassObject` | 12 (0xc) | Exported Function | 0x000000018003fbf0 | 0x0003fbf0
-`DllRegisterServer` | 13 (0xd) | Exported Function | 0x000000018009ae80 | 0x0009ae80
-`DllUnregisterServer` | 14 (0xe) | Exported Function | 0x000000018009aee0 | 0x0009aee0
-`LocationObjectManagerInstance` | 1 (0x1) | Exported Function | 0x000000018001b900 | 0x0001b900
-`LocationServiceHostShutdown` | 2 (0x2) | Exported Function | 0x00000001800a8350 | 0x000a8350
-`LocationServiceHostStartup` | 3 (0x3) | Exported Function | 0x00000001800a8370 | 0x000a8370
-`RegisterLocationCOMServer` | 4 (0x4) | Exported Function | 0x00000001800a8390 | 0x000a8390
-`SvcLocationAddRef` | 5 (0x5) | Exported Function | 0x0000000180064790 | 0x00064790
-`SvcLocationInitServerLock` | 6 (0x6) | Exported Function | 0x00000001800a8660 | 0x000a8660
-`SvcLocationReleaseRef` | 7 (0x7) | Exported Function | 0x0000000180064770 | 0x00064770
-`SvcOnConsoleSessionNotification` | 8 (0x8) | Exported Function | 0x00000001800a8680 | 0x000a8680
-`SvcOnUserLogOnStateNotification` | 9 (0x9) | Exported Function | 0x00000001800a8710 | 0x000a8710
-`UnregisterLocationCOMServer` | 10 (0xa) | Exported Function | 0x00000001800a8730 | 0x000a8730
+Function Name | Ordinal | Type
+-- | -- | --
+`SvcLocationInitServerLock` | 6 | Exported Function
+`SvcLocationAddRef` | 5 | Exported Function
+`RegisterLocationCOMServer` | 4 | Exported Function
+`SvcLocationReleaseRef` | 7 | Exported Function
+`UnregisterLocationCOMServer` | 10 | Exported Function
+`SvcOnUserLogOnStateNotification` | 9 | Exported Function
+`SvcOnConsoleSessionNotification` | 8 | Exported Function
+`DllRegisterServer` | 13 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`DllCanUnloadNow` | 11 | Exported Function
+`DllUnregisterServer` | 14 | Exported Function
+`LocationServiceHostStartup` | 3 | Exported Function
+`LocationServiceHostShutdown` | 2 | Exported Function
+`LocationObjectManagerInstance` | 1 | Exported Function
 
 
 ## Signature

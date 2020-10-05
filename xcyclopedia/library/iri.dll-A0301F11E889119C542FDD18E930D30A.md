@@ -24,27 +24,27 @@ PE256 | `9D6D514B18AC2D73E1EE5BF2FEAC4C29A508440129B09686913258D8CC3D0EBA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IriAppendRelativeIri` | 18 (0x12) | Exported Function | 0x0000000180002460 | 0x00002460
-`IriSetMetadata` | 19 (0x13) | Exported Function | 0x0000000180002520 | 0x00002520
-`IriSetComponent` | 16 (0x10) | Exported Function | 0x0000000180002010 | 0x00002010
-`IriMutableClose` | 3 (0x3) | Exported Function | 0x0000000180001430 | 0x00001430
-`IriMakeConstantEx` | 4 (0x4) | Exported Function | 0x0000000180001470 | 0x00001470
-`IriGetSegmentCount` | 15 (0xf) | Exported Function | 0x0000000180001fc0 | 0x00001fc0
-`IriGetSegment` | 12 (0xc) | Exported Function | 0x0000000180001c90 | 0x00001c90
-`IriGetRelative` | 8 (0x8) | Exported Function | 0x0000000180001940 | 0x00001940
-`IriSplit` | 9 (0x9) | Exported Function | 0x0000000180001a50 | 0x00001a50
-`IriGetComponent` | 11 (0xb) | Exported Function | 0x0000000180001c40 | 0x00001c40
-`IriGetAsString` | 7 (0x7) | Exported Function | 0x0000000180001760 | 0x00001760
-`IriFindLastCommonSegment` | 14 (0xe) | Exported Function | 0x0000000180001e40 | 0x00001e40
-`IriCreateFromString` | 1 (0x1) | Exported Function | 0x0000000180001310 | 0x00001310
-`IriCopy` | 5 (0x5) | Exported Function | 0x00000001800014b0 | 0x000014b0
-`IriCompare` | 13 (0xd) | Exported Function | 0x0000000180001ce0 | 0x00001ce0
-`IriClose` | 2 (0x2) | Exported Function | 0x00000001800013f0 | 0x000013f0
-`IriAppendSegment` | 17 (0x11) | Exported Function | 0x0000000180002250 | 0x00002250
-`IriGetAttributeFlags` | 10 (0xa) | Exported Function | 0x0000000180001be0 | 0x00001be0
-`IriSplitIntoMutableIris` | 6 (0x6) | Exported Function | 0x00000001800015c0 | 0x000015c0
+Function Name | Ordinal | Type
+-- | -- | --
+`IriGetSegmentCount` | 15 | Exported Function
+`IriMakeConstantEx` | 4 | Exported Function
+`IriGetRelative` | 8 | Exported Function
+`IriGetSegment` | 12 | Exported Function
+`IriMutableClose` | 3 | Exported Function
+`IriSplit` | 9 | Exported Function
+`IriSplitIntoMutableIris` | 6 | Exported Function
+`IriSetComponent` | 16 | Exported Function
+`IriSetMetadata` | 19 | Exported Function
+`IriGetComponent` | 11 | Exported Function
+`IriClose` | 2 | Exported Function
+`IriCompare` | 13 | Exported Function
+`IriAppendRelativeIri` | 18 | Exported Function
+`IriAppendSegment` | 17 | Exported Function
+`IriCopy` | 5 | Exported Function
+`IriGetAsString` | 7 | Exported Function
+`IriGetAttributeFlags` | 10 | Exported Function
+`IriCreateFromString` | 1 | Exported Function
+`IriFindLastCommonSegment` | 14 | Exported Function
 
 
 ## Signature

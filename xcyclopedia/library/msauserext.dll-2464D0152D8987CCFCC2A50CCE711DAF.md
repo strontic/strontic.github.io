@@ -24,29 +24,29 @@ PE256 | `26C3C26D0FF0041414932D132841E45CC9BE5B08827216C303EDC29FCBF5E86A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MsaUI_ClearThreadClientContext` | 1 (0x1) | Exported Function | 0x0000000180001fa0 | 0x00001fa0
-`MsaUser_LoadServiceConfiguration` | 19 (0x13) | Exported Function | 0x0000000180001e50 | 0x00001e50
-`MsaUser_IsChildAccount` | 18 (0x12) | Exported Function | 0x00000001800019c0 | 0x000019c0
-`MsaUser_GetUserRegistrySecurityDescriptor` | 17 (0x11) | Exported Function | 0x0000000180001bb0 | 0x00001bb0
-`MsaUser_GetPlatformQualifier` | 16 (0x10) | Exported Function | 0x0000000180001a80 | 0x00001a80
-`MsaUser_GetInlineUxParameterValue` | 15 (0xf) | Exported Function | 0x0000000180001c20 | 0x00001c20
-`MsaUser_GetDeviceTypeParameterValue` | 14 (0xe) | Exported Function | 0x0000000180001c90 | 0x00001c90
-`MsaUser_GetDeviceTelemetryInformation` | 13 (0xd) | Exported Function | 0x0000000180001d00 | 0x00001d00
-`MsaUser_FormatUserDisplayName` | 12 (0xc) | Exported Function | 0x0000000180001940 | 0x00001940
-`MsaUser_OverrideTicketRequestForLegacyAdControl` | 20 (0x14) | Exported Function | 0x0000000180001df0 | 0x00001df0
-`MsaUser_CheckIfAppTrusted` | 11 (0xb) | Exported Function | 0x0000000180001b50 | 0x00001b50
-`MsaUser_CallerIsLoggedOnUser` | 9 (0x9) | Exported Function | 0x0000000180001d90 | 0x00001d90
-`MsaUI_SetThreadClientContext` | 7 (0x7) | Exported Function | 0x0000000180001fa0 | 0x00001fa0
-`MsaUI_RunWizard` | 6 (0x6) | Exported Function | 0x0000000180001fa0 | 0x00001fa0
-`MsaUI_LaunchWebAuthFlow` | 5 (0x5) | Exported Function | 0x0000000180001ff0 | 0x00001ff0
-`MsaUI_CredUIPromptForWindowsCredentials` | 4 (0x4) | Exported Function | 0x0000000180001f80 | 0x00001f80
-`MsaUi_CreateClientContextFromWab` | 8 (0x8) | Exported Function | 0x0000000180001fd0 | 0x00001fd0
-`MsaUI_CreateClientContext` | 3 (0x3) | Exported Function | 0x0000000180001fb0 | 0x00001fb0
-`MsaUI_CloseClientContext` | 2 (0x2) | Exported Function | 0x0000000180001fa0 | 0x00001fa0
-`MsaUser_CanSetParentWindow` | 10 (0xa) | Exported Function | 0x0000000180001af0 | 0x00001af0
-`MsaUser_WinBioSetMSACredential` | 21 (0x15) | Exported Function | 0x0000000180001a20 | 0x00001a20
+Function Name | Ordinal | Type
+-- | -- | --
+`MsaUser_GetInlineUxParameterValue` | 15 | Exported Function
+`MsaUser_GetPlatformQualifier` | 16 | Exported Function
+`MsaUser_GetDeviceTypeParameterValue` | 14 | Exported Function
+`MsaUser_FormatUserDisplayName` | 12 | Exported Function
+`MsaUser_GetDeviceTelemetryInformation` | 13 | Exported Function
+`MsaUser_OverrideTicketRequestForLegacyAdControl` | 20 | Exported Function
+`MsaUser_WinBioSetMSACredential` | 21 | Exported Function
+`MsaUser_LoadServiceConfiguration` | 19 | Exported Function
+`MsaUser_GetUserRegistrySecurityDescriptor` | 17 | Exported Function
+`MsaUser_IsChildAccount` | 18 | Exported Function
+`MsaUser_CheckIfAppTrusted` | 11 | Exported Function
+`MsaUi_CreateClientContextFromWab` | 8 | Exported Function
+`MsaUI_CredUIPromptForWindowsCredentials` | 4 | Exported Function
+`MsaUI_CreateClientContext` | 3 | Exported Function
+`MsaUI_ClearThreadClientContext` | 1 | Exported Function
+`MsaUI_CloseClientContext` | 2 | Exported Function
+`MsaUser_CallerIsLoggedOnUser` | 9 | Exported Function
+`MsaUser_CanSetParentWindow` | 10 | Exported Function
+`MsaUI_SetThreadClientContext` | 7 | Exported Function
+`MsaUI_LaunchWebAuthFlow` | 5 | Exported Function
+`MsaUI_RunWizard` | 6 | Exported Function
 
 
 ## Signature

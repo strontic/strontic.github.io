@@ -24,21 +24,21 @@ PE256 | `EB7207B83A00A66D7E29FE7A7C2CE647BCDF94DB430DBDC2027A0D4C0E45C72F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Cab_CheckIsCabinet` | 1 (0x1) | Exported Function | 0x0000000180004790 | 0x00004790
-`Cab_CreateCab` | 2 (0x2) | Exported Function | 0x0000000180004840 | 0x00004840
-`Cab_CreateCabSelected` | 3 (0x3) | Exported Function | 0x0000000180004a00 | 0x00004a00
-`Cab_Extract` | 4 (0x4) | Exported Function | 0x0000000180003d70 | 0x00003d70
-`Cab_ExtractOne` | 5 (0x5) | Exported Function | 0x0000000180003eb0 | 0x00003eb0
-`Cab_ExtractOneToBuffer` | 6 (0x6) | Exported Function | 0x0000000180003ff0 | 0x00003ff0
-`Cab_ExtractSelected` | 7 (0x7) | Exported Function | 0x0000000180004180 | 0x00004180
-`Cab_ExtractSelectedToTarget` | 8 (0x8) | Exported Function | 0x00000001800042e0 | 0x000042e0
-`Cab_FreeBuffer` | 9 (0x9) | Exported Function | 0x0000000180004130 | 0x00004130
-`Cab_FreeFileList` | 10 (0xa) | Exported Function | 0x0000000180004470 | 0x00004470
-`Cab_FreeFileSizeList` | 11 (0xb) | Exported Function | 0x0000000180004750 | 0x00004750
-`Cab_GetFileList` | 12 (0xc) | Exported Function | 0x0000000180004450 | 0x00004450
-`Cab_GetFileSizeList` | 13 (0xd) | Exported Function | 0x0000000180004520 | 0x00004520
+Function Name | Ordinal | Type
+-- | -- | --
+`Cab_FreeFileList` | 10 | Exported Function
+`Cab_FreeBuffer` | 9 | Exported Function
+`Cab_ExtractSelectedToTarget` | 8 | Exported Function
+`Cab_GetFileSizeList` | 13 | Exported Function
+`Cab_GetFileList` | 12 | Exported Function
+`Cab_FreeFileSizeList` | 11 | Exported Function
+`Cab_ExtractSelected` | 7 | Exported Function
+`Cab_CreateCabSelected` | 3 | Exported Function
+`Cab_CreateCab` | 2 | Exported Function
+`Cab_CheckIsCabinet` | 1 | Exported Function
+`Cab_ExtractOneToBuffer` | 6 | Exported Function
+`Cab_ExtractOne` | 5 | Exported Function
+`Cab_Extract` | 4 | Exported Function
 
 
 ## Signature

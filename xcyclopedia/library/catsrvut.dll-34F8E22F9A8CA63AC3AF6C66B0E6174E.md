@@ -24,46 +24,46 @@ PE256 | `170105ADA2B58314FFF43A4FB6B3FAABCC6E4731C7F0315FB0339C558F7F2730`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CGMIsAdministrator` | 25 (0x19) | Exported Function | 0x000000018000d880 | 0x0000d880
-`public: class CComPlusComponent & __ptr64 __cdecl CComPlusComponent::operator=(class CComPlusComponent const & __ptr64) __ptr64` | 10 (0xa) | Exported Function | 0x00000001800021e0 | 0x000021e0
-`public: class CComPlusInterface & __ptr64 __cdecl CComPlusInterface::operator=(class CComPlusInterface && __ptr64) __ptr64` | 11 (0xb) | Exported Function | 0x00000001800021e0 | 0x000021e0
-`public: class CComPlusInterface & __ptr64 __cdecl CComPlusInterface::operator=(class CComPlusInterface const & __ptr64) __ptr64` | 12 (0xc) | Exported Function | 0x00000001800021e0 | 0x000021e0
-`public: class CComPlusMethod & __ptr64 __cdecl CComPlusMethod::operator=(class CComPlusMethod const & __ptr64) __ptr64` | 13 (0xd) | Exported Function | 0x0000000180002410 | 0x00002410
-`public: class CComPlusObject & __ptr64 __cdecl CComPlusObject::operator=(class CComPlusObject const & __ptr64) __ptr64` | 14 (0xe) | Exported Function | 0x00000001800021e0 | 0x000021e0
-`public: class CComPlusTypelib & __ptr64 __cdecl CComPlusTypelib::operator=(class CComPlusTypelib const & __ptr64) __ptr64` | 15 (0xf) | Exported Function | 0x0000000180002170 | 0x00002170
-`public: struct ITypeLib * __ptr64 __cdecl CComPlusTypelib::GetITypeLib(void) __ptr64` | 20 (0x14) | Exported Function | 0x0000000180002160 | 0x00002160
-`public: virtual __cdecl CComPlusComponent::~CComPlusComponent(void) __ptr64` | 7 (0x7) | Exported Function | 0x00000001800022a0 | 0x000022a0
-`public: virtual __cdecl CComPlusInterface::~CComPlusInterface(void) __ptr64` | 8 (0x8) | Exported Function | 0x00000001800022a0 | 0x000022a0
-`QueryUserDllW` | 35 (0x23) | Exported Function | 0x0000000180003010 | 0x00003010
-`RegDBBackup` | 21 (0x15) | Exported Function | 0x000000018000c840 | 0x0000c840
-`RegDBRestore` | 22 (0x16) | Exported Function | 0x000000018000c980 | 0x0000c980
-`RunMTSToCom` | 36 (0x24) | Exported Function | 0x0000000180004c60 | 0x00004c60
-`StartMTSTOCOM` | 23 (0x17) | Exported Function | 0x000000018000abd0 | 0x0000abd0
-`SysprepComplus` | 37 (0x25) | Exported Function | 0x0000000180003d70 | 0x00003d70
-`public: class CComPlusComponent & __ptr64 __cdecl CComPlusComponent::operator=(class CComPlusComponent && __ptr64) __ptr64` | 9 (0x9) | Exported Function | 0x00000001800021e0 | 0x000021e0
-`public: __cdecl CComPlusObject::CComPlusObject(class CComPlusObject const & __ptr64) __ptr64` | 6 (0x6) | Exported Function | 0x00000001800021a0 | 0x000021a0
-`public: __cdecl CComPlusMethod::CComPlusMethod(class CComPlusMethod const & __ptr64) __ptr64` | 5 (0x5) | Exported Function | 0x00000001800023c0 | 0x000023c0
-`public: __cdecl CComPlusInterface::CComPlusInterface(class CComPlusInterface const & __ptr64) __ptr64` | 4 (0x4) | Exported Function | 0x0000000180002380 | 0x00002380
-`COMPlusUninstallActionW` | 26 (0x1a) | Exported Function | 0x000000018000a820 | 0x0000a820
-`const CComPlusComponent::``vftable'` | 16 (0x10) | Exported Function | 0x000000018005dbe8 | 0x0005dbe8
-`const CComPlusInterface::``vftable'` | 17 (0x11) | Exported Function | 0x000000018005db40 | 0x0005db40
-`const CComPlusMethod::``vftable'` | 18 (0x12) | Exported Function | 0x000000018005da98 | 0x0005da98
-`const CComPlusObject::``vftable'` | 19 (0x13) | Exported Function | 0x000000018005dc90 | 0x0005dc90
-`CreateComRegDBWriter` | 27 (0x1b) | Exported Function | 0x000000018000bcd0 | 0x0000bcd0
-`DestroyComRegDBWriter` | 28 (0x1c) | Exported Function | 0x000000018000bd40 | 0x0000bd40
-`SysprepComplus2` | 38 (0x26) | Exported Function | 0x0000000180003da0 | 0x00003da0
-`DllCanUnloadNow` | 29 (0x1d) | Exported Function | 0x0000000180002790 | 0x00002790
-`DllRegisterServer` | 31 (0x1f) | Exported Function | 0x00000001800028c0 | 0x000028c0
-`DllUnregisterServer` | 32 (0x20) | Exported Function | 0x0000000180002ab0 | 0x00002ab0
-`FindAssemblyModulesW` | 33 (0x21) | Exported Function | 0x000000018000c2a0 | 0x0000c2a0
-`ManagedRequestW` | 34 (0x22) | Exported Function | 0x0000000180003f80 | 0x00003f80
-`public: __cdecl CComPlusComponent::CComPlusComponent(class CComPlusComponent && __ptr64) __ptr64` | 1 (0x1) | Exported Function | 0x00000001800022b0 | 0x000022b0
-`public: __cdecl CComPlusComponent::CComPlusComponent(class CComPlusComponent const & __ptr64) __ptr64` | 2 (0x2) | Exported Function | 0x00000001800022b0 | 0x000022b0
-`public: __cdecl CComPlusInterface::CComPlusInterface(class CComPlusInterface && __ptr64) __ptr64` | 3 (0x3) | Exported Function | 0x0000000180002380 | 0x00002380
-`DllGetClassObject` | 30 (0x1e) | Exported Function | 0x00000001800027a0 | 0x000027a0
-`WinlogonHandlePendingInfOperations` | 24 (0x18) | Exported Function | 0x000000018000b1b0 | 0x0000b1b0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: class CComPlusObject & __ptr64 __cdecl CComPlusObject::operator=(class CComPlusObject const & __ptr64) __ptr64` | 14 | Exported Function
+`public: class CComPlusMethod & __ptr64 __cdecl CComPlusMethod::operator=(class CComPlusMethod const & __ptr64) __ptr64` | 13 | Exported Function
+`public: struct ITypeLib * __ptr64 __cdecl CComPlusTypelib::GetITypeLib(void) __ptr64` | 20 | Exported Function
+`public: class CComPlusTypelib & __ptr64 __cdecl CComPlusTypelib::operator=(class CComPlusTypelib const & __ptr64) __ptr64` | 15 | Exported Function
+`public: class CComPlusInterface & __ptr64 __cdecl CComPlusInterface::operator=(class CComPlusInterface const & __ptr64) __ptr64` | 12 | Exported Function
+`public: class CComPlusComponent & __ptr64 __cdecl CComPlusComponent::operator=(class CComPlusComponent && __ptr64) __ptr64` | 9 | Exported Function
+`public: __cdecl CComPlusObject::CComPlusObject(class CComPlusObject const & __ptr64) __ptr64` | 6 | Exported Function
+`public: class CComPlusInterface & __ptr64 __cdecl CComPlusInterface::operator=(class CComPlusInterface && __ptr64) __ptr64` | 11 | Exported Function
+`public: class CComPlusComponent & __ptr64 __cdecl CComPlusComponent::operator=(class CComPlusComponent const & __ptr64) __ptr64` | 10 | Exported Function
+`public: virtual __cdecl CComPlusComponent::~CComPlusComponent(void) __ptr64` | 7 | Exported Function
+`SysprepComplus` | 37 | Exported Function
+`StartMTSTOCOM` | 23 | Exported Function
+`WinlogonHandlePendingInfOperations` | 24 | Exported Function
+`SysprepComplus2` | 38 | Exported Function
+`RunMTSToCom` | 36 | Exported Function
+`QueryUserDllW` | 35 | Exported Function
+`public: virtual __cdecl CComPlusInterface::~CComPlusInterface(void) __ptr64` | 8 | Exported Function
+`RegDBRestore` | 22 | Exported Function
+`RegDBBackup` | 21 | Exported Function
+`CreateComRegDBWriter` | 27 | Exported Function
+`const CComPlusObject::``vftable'` | 19 | Exported Function
+`DllCanUnloadNow` | 29 | Exported Function
+`DestroyComRegDBWriter` | 28 | Exported Function
+`const CComPlusMethod::``vftable'` | 18 | Exported Function
+`COMPlusUninstallActionW` | 26 | Exported Function
+`CGMIsAdministrator` | 25 | Exported Function
+`const CComPlusInterface::``vftable'` | 17 | Exported Function
+`const CComPlusComponent::``vftable'` | 16 | Exported Function
+`DllGetClassObject` | 30 | Exported Function
+`public: __cdecl CComPlusInterface::CComPlusInterface(class CComPlusInterface && __ptr64) __ptr64` | 3 | Exported Function
+`public: __cdecl CComPlusComponent::CComPlusComponent(class CComPlusComponent const & __ptr64) __ptr64` | 2 | Exported Function
+`public: __cdecl CComPlusMethod::CComPlusMethod(class CComPlusMethod const & __ptr64) __ptr64` | 5 | Exported Function
+`public: __cdecl CComPlusInterface::CComPlusInterface(class CComPlusInterface const & __ptr64) __ptr64` | 4 | Exported Function
+`public: __cdecl CComPlusComponent::CComPlusComponent(class CComPlusComponent && __ptr64) __ptr64` | 1 | Exported Function
+`DllUnregisterServer` | 32 | Exported Function
+`DllRegisterServer` | 31 | Exported Function
+`ManagedRequestW` | 34 | Exported Function
+`FindAssemblyModulesW` | 33 | Exported Function
 
 
 ## Signature

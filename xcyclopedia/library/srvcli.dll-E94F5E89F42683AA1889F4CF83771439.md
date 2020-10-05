@@ -24,69 +24,69 @@ PE256 | `0D571BB2A456D14A7B6EFCEE0C3E159C7F8F80C6D81CECEC552AC739A42B676F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`I_NetDfsGetVersion` | 1 (0x1) | Exported Function | 0x10006200 | 0x00006200
-`NetpsPathCanonicalize` | 59 (0x3b) | Exported Function | 0x10009ac0 | 0x00009ac0
-`NetpsPathCompare` | 60 (0x3c) | Exported Function | 0x10009b90 | 0x00009b90
-`NetpsPathType` | 61 (0x3d) | Exported Function | 0x10009c50 | 0x00009c50
-`NetRemoteTOD` | 30 (0x1e) | Exported Function | 0x10007b90 | 0x00007b90
-`NetServerAliasAdd` | 31 (0x1f) | Exported Function | 0x10007c60 | 0x00007c60
-`NetServerAliasDel` | 32 (0x20) | Exported Function | 0x10007d30 | 0x00007d30
-`NetServerAliasEnum` | 33 (0x21) | Exported Function | 0x10007e00 | 0x00007e00
-`NetServerComputerNameAdd` | 34 (0x22) | Exported Function | 0x10007f30 | 0x00007f30
-`NetServerComputerNameDel` | 35 (0x23) | Exported Function | 0x100081c0 | 0x000081c0
-`NetServerDiskEnum` | 36 (0x24) | Exported Function | 0x100082f0 | 0x000082f0
-`NetServerGetInfo` | 37 (0x25) | Exported Function | 0x10004070 | 0x00004070
-`NetServerSetInfo` | 38 (0x26) | Exported Function | 0x10008400 | 0x00008400
-`NetServerStatisticsGet` | 39 (0x27) | Exported Function | 0x100084c0 | 0x000084c0
-`NetServerTransportAdd` | 40 (0x28) | Exported Function | 0x100085a0 | 0x000085a0
-`NetServerTransportAddEx` | 41 (0x29) | Exported Function | 0x10008660 | 0x00008660
-`NetServerTransportDel` | 42 (0x2a) | Exported Function | 0x10008730 | 0x00008730
-`NetServerTransportEnum` | 43 (0x2b) | Exported Function | 0x100088d0 | 0x000088d0
-`NetSessionDel` | 44 (0x2c) | Exported Function | 0x100089e0 | 0x000089e0
-`NetSessionEnum` | 45 (0x2d) | Exported Function | 0x10008aa0 | 0x00008aa0
-`NetSessionGetInfo` | 46 (0x2e) | Exported Function | 0x10008bc0 | 0x00008bc0
-`NetShareAdd` | 47 (0x2f) | Exported Function | 0x10008cf0 | 0x00008cf0
-`NetShareCheck` | 48 (0x30) | Exported Function | 0x10008ef0 | 0x00008ef0
-`NetShareDel` | 49 (0x31) | Exported Function | 0x10008fd0 | 0x00008fd0
-`NetShareDelEx` | 50 (0x32) | Exported Function | 0x10009120 | 0x00009120
-`NetShareDelSticky` | 51 (0x33) | Exported Function | 0x10009250 | 0x00009250
-`NetShareEnum` | 52 (0x34) | Exported Function | 0x100045c0 | 0x000045c0
-`NetShareEnumSticky` | 53 (0x35) | Exported Function | 0x10009330 | 0x00009330
-`NetpsNameValidate` | 58 (0x3a) | Exported Function | 0x10009a00 | 0x00009a00
-`NetShareGetInfo` | 54 (0x36) | Exported Function | 0x100094b0 | 0x000094b0
-`NetpsNameCompare` | 57 (0x39) | Exported Function | 0x10009940 | 0x00009940
-`NetFileGetInfo` | 29 (0x1d) | Exported Function | 0x10007ab0 | 0x00007ab0
-`I_NetServerSetServiceBits` | 2 (0x2) | Exported Function | 0x100048a0 | 0x000048a0
-`I_NetServerSetServiceBitsEx` | 3 (0x3) | Exported Function | 0x10006a50 | 0x00006a50
-`LocalAliasGet` | 4 (0x4) | Exported Function | 0x10006b20 | 0x00006b20
-`LocalFileClose` | 5 (0x5) | Exported Function | 0x10006be0 | 0x00006be0
-`LocalFileEnum` | 6 (0x6) | Exported Function | 0x10006ca0 | 0x00006ca0
-`LocalFileEnumEx` | 7 (0x7) | Exported Function | 0x10006cd0 | 0x00006cd0
-`LocalFileGetInfo` | 8 (0x8) | Exported Function | 0x10006df0 | 0x00006df0
-`LocalFileGetInfoEx` | 9 (0x9) | Exported Function | 0x10006e20 | 0x00006e20
-`LocalServerCertificateMappingAdd` | 10 (0xa) | Exported Function | 0x10005890 | 0x00005890
-`LocalServerCertificateMappingEnum` | 11 (0xb) | Exported Function | 0x10005950 | 0x00005950
-`LocalServerCertificateMappingGet` | 12 (0xc) | Exported Function | 0x10005a10 | 0x00005a10
-`LocalServerCertificateMappingRemove` | 13 (0xd) | Exported Function | 0x10005ae0 | 0x00005ae0
-`LocalSessionDel` | 14 (0xe) | Exported Function | 0x10006ee0 | 0x00006ee0
-`LocalSessionEnum` | 15 (0xf) | Exported Function | 0x10006fa0 | 0x00006fa0
-`LocalSessionEnumEx` | 16 (0x10) | Exported Function | 0x10006fd0 | 0x00006fd0
-`LocalSessionGetInfo` | 17 (0x11) | Exported Function | 0x100070f0 | 0x000070f0
-`LocalSessionGetInfoEx` | 18 (0x12) | Exported Function | 0x10007120 | 0x00007120
-`LocalShareAdd` | 19 (0x13) | Exported Function | 0x100071e0 | 0x000071e0
-`LocalShareDelEx` | 20 (0x14) | Exported Function | 0x10007360 | 0x00007360
-`LocalShareEnum` | 21 (0x15) | Exported Function | 0x10007420 | 0x00007420
-`LocalShareEnumEx` | 22 (0x16) | Exported Function | 0x10007450 | 0x00007450
-`LocalShareGetInfo` | 23 (0x17) | Exported Function | 0x10007540 | 0x00007540
-`LocalShareGetInfoEx` | 24 (0x18) | Exported Function | 0x10007570 | 0x00007570
-`LocalShareSetInfo` | 25 (0x19) | Exported Function | 0x10007630 | 0x00007630
-`NetConnectionEnum` | 26 (0x1a) | Exported Function | 0x100077b0 | 0x000077b0
-`NetFileClose` | 27 (0x1b) | Exported Function | 0x100078d0 | 0x000078d0
-`NetFileEnum` | 28 (0x1c) | Exported Function | 0x10007990 | 0x00007990
-`NetpsNameCanonicalize` | 56 (0x38) | Exported Function | 0x10009880 | 0x00009880
-`NetShareSetInfo` | 55 (0x37) | Exported Function | 0x10009680 | 0x00009680
+Function Name | Ordinal | Type
+-- | -- | --
+`NetServerDiskEnum` | 36 | Exported Function
+`NetServerComputerNameDel` | 35 | Exported Function
+`NetServerComputerNameAdd` | 34 | Exported Function
+`NetServerGetInfo` | 37 | Exported Function
+`NetServerTransportAdd` | 40 | Exported Function
+`NetServerStatisticsGet` | 39 | Exported Function
+`NetServerSetInfo` | 38 | Exported Function
+`NetServerAliasEnum` | 33 | Exported Function
+`NetpsPathCompare` | 60 | Exported Function
+`NetpsPathCanonicalize` | 59 | Exported Function
+`NetpsNameValidate` | 58 | Exported Function
+`NetpsPathType` | 61 | Exported Function
+`NetServerAliasDel` | 32 | Exported Function
+`NetServerAliasAdd` | 31 | Exported Function
+`NetRemoteTOD` | 30 | Exported Function
+`NetShareDelSticky` | 51 | Exported Function
+`NetShareDelEx` | 50 | Exported Function
+`NetShareDel` | 49 | Exported Function
+`NetShareEnum` | 52 | Exported Function
+`NetShareSetInfo` | 55 | Exported Function
+`NetShareGetInfo` | 54 | Exported Function
+`NetShareEnumSticky` | 53 | Exported Function
+`NetShareCheck` | 48 | Exported Function
+`NetServerTransportEnum` | 43 | Exported Function
+`NetServerTransportDel` | 42 | Exported Function
+`NetServerTransportAddEx` | 41 | Exported Function
+`NetSessionDel` | 44 | Exported Function
+`NetShareAdd` | 47 | Exported Function
+`NetSessionGetInfo` | 46 | Exported Function
+`NetSessionEnum` | 45 | Exported Function
+`NetpsNameCompare` | 57 | Exported Function
+`LocalServerCertificateMappingEnum` | 11 | Exported Function
+`LocalServerCertificateMappingAdd` | 10 | Exported Function
+`LocalFileGetInfoEx` | 9 | Exported Function
+`LocalServerCertificateMappingGet` | 12 | Exported Function
+`LocalSessionEnum` | 15 | Exported Function
+`LocalSessionDel` | 14 | Exported Function
+`LocalServerCertificateMappingRemove` | 13 | Exported Function
+`LocalFileGetInfo` | 8 | Exported Function
+`I_NetServerSetServiceBitsEx` | 3 | Exported Function
+`I_NetServerSetServiceBits` | 2 | Exported Function
+`I_NetDfsGetVersion` | 1 | Exported Function
+`LocalAliasGet` | 4 | Exported Function
+`LocalFileEnumEx` | 7 | Exported Function
+`LocalFileEnum` | 6 | Exported Function
+`LocalFileClose` | 5 | Exported Function
+`NetConnectionEnum` | 26 | Exported Function
+`LocalShareSetInfo` | 25 | Exported Function
+`LocalShareGetInfoEx` | 24 | Exported Function
+`NetFileClose` | 27 | Exported Function
+`NetpsNameCanonicalize` | 56 | Exported Function
+`NetFileGetInfo` | 29 | Exported Function
+`NetFileEnum` | 28 | Exported Function
+`LocalShareGetInfo` | 23 | Exported Function
+`LocalSessionGetInfoEx` | 18 | Exported Function
+`LocalSessionGetInfo` | 17 | Exported Function
+`LocalSessionEnumEx` | 16 | Exported Function
+`LocalShareAdd` | 19 | Exported Function
+`LocalShareEnumEx` | 22 | Exported Function
+`LocalShareEnum` | 21 | Exported Function
+`LocalShareDelEx` | 20 | Exported Function
 
 
 ## Signature

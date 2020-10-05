@@ -24,11 +24,11 @@ PE256 | `99D215A705DC161375F36426913A74B725129F42AB0D58FD139453FFF114B0CB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NcdAutoSetup_Generalize` | 1 (0x1) | Exported Function | 0x000000018000d210 | 0x0000d210
-`SvchostMain` | 3 (0x3) | Exported Function | 0x000000018000f3c0 | 0x0000f3c0
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x000000018000f690 | 0x0000f690
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`SvchostMain` | 3 | Exported Function
+`NcdAutoSetup_Generalize` | 1 | Exported Function
 
 
 ## Signature

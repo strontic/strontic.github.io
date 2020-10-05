@@ -24,9 +24,9 @@ PE256 | `A9A14D3196DD3599EC5E4B794EBA809647BB8039312A12EA5DB2363D4E3B9A33`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`class Microsoft::VoiceAgentServices::IAgentActivationRuntimePalComponentFactory * __stdcall GetAgentActivationRuntimePalComponentFactory(void)` | 1 (0x1) | Exported Function | 0x10021e60 | 0x00021e60
+Function Name | Ordinal | Type
+-- | -- | --
+`class Microsoft::VoiceAgentServices::IAgentActivationRuntimePalComponentFactory * __stdcall GetAgentActivationRuntimePalComponentFactory(void)` | 1 | Exported Function
 
 
 ## Signature

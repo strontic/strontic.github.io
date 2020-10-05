@@ -24,10 +24,10 @@ PE256 | `A3987D1CAF4386D7DCF0AB8D6F6D97623E0DAB8E4BC46D83E3B66B9CAC63F105`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateFontPackage` | 1 (0x1) | Exported Function | 0x0000000180001ee0 | 0x00001ee0
-`MergeFontPackage` | 2 (0x2) | Exported Function | 0x0000000180002090 | 0x00002090
+Function Name | Ordinal | Type
+-- | -- | --
+`MergeFontPackage` | 2 | Exported Function
+`CreateFontPackage` | 1 | Exported Function
 
 
 ## Signature

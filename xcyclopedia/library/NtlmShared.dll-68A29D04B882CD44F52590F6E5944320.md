@@ -24,36 +24,36 @@ PE256 | `44B92154268301508B160E2D0AFAAB620DD82836460EE194E63458FFF4285ED6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MsvpCachePasswordsToCredential` | 1 (0x1) | Exported Function | 0x0000000180002730 | 0x00002730
-`NtlmSharedFree` | 26 (0x1a) | Exported Function | 0x0000000180008650 | 0x00008650
-`NtlmSharedCleanup` | 25 (0x19) | Exported Function | 0x00000001800085b0 | 0x000085b0
-`NtlmSharedAllocatePrivateHeap` | 24 (0x18) | Exported Function | 0x0000000180008670 | 0x00008670
-`NtlmSharedAllocate` | 23 (0x17) | Exported Function | 0x0000000180008630 | 0x00008630
-`NtLmAlterRtlEqualUnicodeString` | 22 (0x16) | Exported Function | 0x0000000180008720 | 0x00008720
-`MsvpValidateSupplementalCredsBuffer` | 21 (0x15) | Exported Function | 0x0000000180009470 | 0x00009470
-`MsvpValidateSupplementalCreds` | 20 (0x14) | Exported Function | 0x0000000180009450 | 0x00009450
-`MsvpUpdateSharedConfiguration` | 19 (0x13) | Exported Function | 0x00000001800086b0 | 0x000086b0
-`MsvpPutClearOwfsInPrimaryCredential` | 18 (0x12) | Exported Function | 0x00000001800022a0 | 0x000022a0
-`MsvpPasswordValidate` | 17 (0x11) | Exported Function | 0x0000000180008e00 | 0x00008e00
-`MsvpNtlm3ValidateResponse` | 16 (0x10) | Exported Function | 0x0000000180008bd0 | 0x00008bd0
-`MsvpNtlm3Response` | 15 (0xf) | Exported Function | 0x0000000180001c30 | 0x00001c30
-`MsvpMakeSecretPasswordNT5` | 14 (0xe) | Exported Function | 0x0000000180002200 | 0x00002200
-`MsvpLm3ValidateResponse` | 13 (0xd) | Exported Function | 0x0000000180008b00 | 0x00008b00
-`MsvpLm3Response` | 12 (0xc) | Exported Function | 0x0000000180001a00 | 0x00001a00
-`MsvpLm20GetNtlm3ChallengeResponse` | 11 (0xb) | Exported Function | 0x0000000180001e60 | 0x00001e60
-`MsvpGMSACred` | 10 (0xa) | Exported Function | 0x00000001800082e0 | 0x000082e0
-`MsvpDeriveSecureCredKey` | 9 (0x9) | Exported Function | 0x00000001800023e0 | 0x000023e0
-`MsvpDecryptDpapiMasterKey` | 8 (0x8) | Exported Function | 0x0000000180002790 | 0x00002790
-`MsvpCredentialToCachePasswords` | 7 (0x7) | Exported Function | 0x00000001800026f0 | 0x000026f0
-`MsvpComputeSaltedHashedPassword` | 6 (0x6) | Exported Function | 0x0000000180002080 | 0x00002080
-`MsvpCompareCredentials` | 5 (0x5) | Exported Function | 0x0000000180002640 | 0x00002640
-`MsvpCalculateNtlm3Owf` | 4 (0x4) | Exported Function | 0x00000001800018c0 | 0x000018c0
-`MsvpCalculateNtlm2SessionKeys` | 3 (0x3) | Exported Function | 0x00000001800017c0 | 0x000017c0
-`MsvpCalculateNtlm2Challenge` | 2 (0x2) | Exported Function | 0x00000001800016b0 | 0x000016b0
-`NtlmSharedFreePrivateHeap` | 27 (0x1b) | Exported Function | 0x0000000180008690 | 0x00008690
-`NtlmSharedInit` | 28 (0x1c) | Exported Function | 0x00000001800082f0 | 0x000082f0
+Function Name | Ordinal | Type
+-- | -- | --
+`MsvpUpdateSharedConfiguration` | 19 | Exported Function
+`MsvpValidateSupplementalCreds` | 20 | Exported Function
+`MsvpValidateSupplementalCredsBuffer` | 21 | Exported Function
+`MsvpPutClearOwfsInPrimaryCredential` | 18 | Exported Function
+`MsvpNtlm3Response` | 15 | Exported Function
+`MsvpNtlm3ValidateResponse` | 16 | Exported Function
+`MsvpPasswordValidate` | 17 | Exported Function
+`NtlmSharedFree` | 26 | Exported Function
+`NtlmSharedFreePrivateHeap` | 27 | Exported Function
+`NtlmSharedInit` | 28 | Exported Function
+`NtlmSharedCleanup` | 25 | Exported Function
+`NtLmAlterRtlEqualUnicodeString` | 22 | Exported Function
+`NtlmSharedAllocate` | 23 | Exported Function
+`NtlmSharedAllocatePrivateHeap` | 24 | Exported Function
+`MsvpCompareCredentials` | 5 | Exported Function
+`MsvpComputeSaltedHashedPassword` | 6 | Exported Function
+`MsvpCredentialToCachePasswords` | 7 | Exported Function
+`MsvpCalculateNtlm3Owf` | 4 | Exported Function
+`MsvpCachePasswordsToCredential` | 1 | Exported Function
+`MsvpCalculateNtlm2Challenge` | 2 | Exported Function
+`MsvpCalculateNtlm2SessionKeys` | 3 | Exported Function
+`MsvpLm3Response` | 12 | Exported Function
+`MsvpLm3ValidateResponse` | 13 | Exported Function
+`MsvpMakeSecretPasswordNT5` | 14 | Exported Function
+`MsvpLm20GetNtlm3ChallengeResponse` | 11 | Exported Function
+`MsvpDecryptDpapiMasterKey` | 8 | Exported Function
+`MsvpDeriveSecureCredKey` | 9 | Exported Function
+`MsvpGMSACred` | 10 | Exported Function
 
 
 ## Signature

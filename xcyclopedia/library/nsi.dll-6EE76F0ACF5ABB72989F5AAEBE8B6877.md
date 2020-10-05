@@ -24,34 +24,34 @@ PE256 | `8B4EC553F960D520B05E903F607FC4DA67DA9C3EB072333C6E0326A80EE51F03`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NsiAllocateAndGetPersistentDataWithMaskTable` | 1 (0x1) | Exported Function | 0x0000000180002900 | 0x00002900
-`NsiSetObjectSecurity` | 24 (0x18) | Exported Function | 0x00000001800028b0 | 0x000028b0
-`NsiSetAllPersistentParametersWithMask` | 23 (0x17) | Exported Function | 0x0000000180002df0 | 0x00002df0
-`NsiSetAllParametersEx` | 22 (0x16) | Exported Function | 0x00000001800010c0 | 0x000010c0
-`NsiSetAllParameters` | 21 (0x15) | Exported Function | 0x0000000180001010 | 0x00001010
-`NsiRequestChangeNotificationEx` | 20 (0x14) | Exported Function | 0x0000000180001110 | 0x00001110
-`NsiRequestChangeNotification` | 19 (0x13) | Exported Function | 0x0000000180001080 | 0x00001080
-`NsiRegisterChangeNotificationEx` | 18 (0x12) | Exported Function | 0x0000000180001320 | 0x00001320
-`NsiRegisterChangeNotification` | 17 (0x11) | Exported Function | 0x0000000180002d80 | 0x00002d80
-`NsiGetParameterEx` | 16 (0x10) | Exported Function | 0x0000000180002870 | 0x00002870
-`NsiGetParameter` | 15 (0xf) | Exported Function | 0x0000000180001c10 | 0x00001c10
-`NsiGetObjectSecurity` | 14 (0xe) | Exported Function | 0x0000000180002820 | 0x00002820
-`NsiGetAllPersistentParametersWithMask` | 13 (0xd) | Exported Function | 0x0000000180002cf0 | 0x00002cf0
-`NsiGetAllParametersEx` | 12 (0xc) | Exported Function | 0x00000001800012d0 | 0x000012d0
-`NsiGetAllParameters` | 11 (0xb) | Exported Function | 0x0000000180001540 | 0x00001540
-`NsiFreeTable` | 10 (0xa) | Exported Function | 0x0000000180001f70 | 0x00001f70
-`NsiFreePersistentDataWithMaskTable` | 9 (0x9) | Exported Function | 0x0000000180002c70 | 0x00002c70
-`NsiEnumerateObjectsAllPersistentParametersWithMask` | 8 (0x8) | Exported Function | 0x0000000180002ba0 | 0x00002ba0
-`NsiEnumerateObjectsAllParametersEx` | 7 (0x7) | Exported Function | 0x00000001800027d0 | 0x000027d0
-`NsiEnumerateObjectsAllParameters` | 6 (0x6) | Exported Function | 0x0000000180001dd0 | 0x00001dd0
-`NsiDeregisterChangeNotificationEx` | 5 (0x5) | Exported Function | 0x0000000180001280 | 0x00001280
-`NsiDeregisterChangeNotification` | 4 (0x4) | Exported Function | 0x0000000180002b60 | 0x00002b60
-`NsiCancelChangeNotification` | 3 (0x3) | Exported Function | 0x0000000180001170 | 0x00001170
-`NsiAllocateAndGetTable` | 2 (0x2) | Exported Function | 0x0000000180001740 | 0x00001740
-`NsiSetParameter` | 25 (0x19) | Exported Function | 0x00000001800011b0 | 0x000011b0
-`NsiSetParameterEx` | 26 (0x1a) | Exported Function | 0x0000000180001240 | 0x00001240
+Function Name | Ordinal | Type
+-- | -- | --
+`NsiRegisterChangeNotification` | 17 | Exported Function
+`NsiRegisterChangeNotificationEx` | 18 | Exported Function
+`NsiRequestChangeNotification` | 19 | Exported Function
+`NsiGetObjectSecurity` | 14 | Exported Function
+`NsiGetParameter` | 15 | Exported Function
+`NsiGetParameterEx` | 16 | Exported Function
+`NsiRequestChangeNotificationEx` | 20 | Exported Function
+`NsiSetObjectSecurity` | 24 | Exported Function
+`NsiSetParameter` | 25 | Exported Function
+`NsiSetParameterEx` | 26 | Exported Function
+`NsiSetAllParameters` | 21 | Exported Function
+`NsiSetAllParametersEx` | 22 | Exported Function
+`NsiSetAllPersistentParametersWithMask` | 23 | Exported Function
+`NsiDeregisterChangeNotification` | 4 | Exported Function
+`NsiDeregisterChangeNotificationEx` | 5 | Exported Function
+`NsiEnumerateObjectsAllParameters` | 6 | Exported Function
+`NsiAllocateAndGetPersistentDataWithMaskTable` | 1 | Exported Function
+`NsiAllocateAndGetTable` | 2 | Exported Function
+`NsiCancelChangeNotification` | 3 | Exported Function
+`NsiEnumerateObjectsAllParametersEx` | 7 | Exported Function
+`NsiGetAllParameters` | 11 | Exported Function
+`NsiGetAllParametersEx` | 12 | Exported Function
+`NsiGetAllPersistentParametersWithMask` | 13 | Exported Function
+`NsiEnumerateObjectsAllPersistentParametersWithMask` | 8 | Exported Function
+`NsiFreePersistentDataWithMaskTable` | 9 | Exported Function
+`NsiFreeTable` | 10 | Exported Function
 
 
 ## Signature

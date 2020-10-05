@@ -24,46 +24,46 @@ PE256 | `A5739BE62319AD11ABDB9CB081E57AEF2D301D212E8BB8862628A1E8EAB2BFD0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CM_Delete_Class_Key` | 1 (0x1) | Exported Function | cfgmgr32.CM_Delete_Class_Key | 0x000012fd
-`CM_Get_DevNode_Status` | 14 (0xe) | Exported Function | cfgmgr32.CM_Get_DevNode_Status | 0x000015da
-`CM_Get_Parent` | 23 (0x17) | Exported Function | cfgmgr32.CM_Get_Parent | 0x00001819
-`CM_Get_Sibling` | 24 (0x18) | Exported Function | cfgmgr32.CM_Get_Sibling | 0x0000183f
-`CM_Locate_DevNodeW` | 25 (0x19) | Exported Function | cfgmgr32.CM_Locate_DevNodeW | 0x0000186a
-`CM_Open_Class_KeyW` | 26 (0x1a) | Exported Function | cfgmgr32.CM_Open_Class_KeyW | 0x00001899
-`CM_Open_Device_Interface_KeyW` | 28 (0x1c) | Exported Function | cfgmgr32.CM_Open_Device_Interface_KeyW | 0x00001904
-`CM_Open_DevNode_Key` | 27 (0x1b) | Exported Function | cfgmgr32.CM_Open_DevNode_Key | 0x000018c9
-`CM_Query_And_Remove_SubTreeW` | 29 (0x1d) | Exported Function | cfgmgr32.CM_Query_And_Remove_SubTreeW | 0x00001948
-`CM_Register_Notification` | 30 (0x1e) | Exported Function | cfgmgr32.CM_Register_Notification | 0x00001987
-`CM_Set_Class_PropertyW` | 31 (0x1f) | Exported Function | cfgmgr32.CM_Set_Class_PropertyW | 0x000019c0
-`CM_Set_Class_Registry_PropertyW` | 32 (0x20) | Exported Function | cfgmgr32.CM_Set_Class_Registry_PropertyW | 0x00001a00
-`CM_Set_Device_Interface_PropertyW` | 35 (0x23) | Exported Function | cfgmgr32.CM_Set_Device_Interface_PropertyW | 0x00001ad3
-`CM_Set_DevNode_PropertyW` | 33 (0x21) | Exported Function | cfgmgr32.CM_Set_DevNode_PropertyW | 0x00001a42
-`CM_Set_DevNode_Registry_PropertyW` | 34 (0x22) | Exported Function | cfgmgr32.CM_Set_DevNode_Registry_PropertyW | 0x00001a86
-`CM_Setup_DevNode` | 36 (0x24) | Exported Function | cfgmgr32.CM_Setup_DevNode | 0x00001b0f
-`CM_Get_DevNode_Registry_PropertyW` | 13 (0xd) | Exported Function | cfgmgr32.CM_Get_DevNode_Registry_PropertyW | 0x00001599
-`CM_Get_DevNode_PropertyW` | 11 (0xb) | Exported Function | cfgmgr32.CM_Get_DevNode_PropertyW | 0x00001512
-`CM_Get_DevNode_Property_Keys` | 12 (0xc) | Exported Function | cfgmgr32.CM_Get_DevNode_Property_Keys | 0x00001551
-`CM_Get_Device_Interface_PropertyW` | 21 (0x15) | Exported Function | cfgmgr32.CM_Get_Device_Interface_PropertyW | 0x00001789
-`CM_Delete_Device_Interface_KeyW` | 3 (0x3) | Exported Function | cfgmgr32.CM_Delete_Device_Interface_KeyW | 0x0000136f
-`CM_Delete_DevNode_Key` | 2 (0x2) | Exported Function | cfgmgr32.CM_Delete_DevNode_Key | 0x00001330
-`CM_Disable_DevNode` | 4 (0x4) | Exported Function | cfgmgr32.CM_Disable_DevNode | 0x000013ab
-`CM_Enable_DevNode` | 5 (0x5) | Exported Function | cfgmgr32.CM_Enable_DevNode | 0x000013d9
-`CM_Get_Child` | 6 (0x6) | Exported Function | cfgmgr32.CM_Get_Child | 0x00001401
-`CM_Get_Class_Property_Keys` | 8 (0x8) | Exported Function | cfgmgr32.CM_Get_Class_Property_Keys | 0x00001469
-`CM_Get_Class_PropertyW` | 7 (0x7) | Exported Function | cfgmgr32.CM_Get_Class_PropertyW | 0x0000142e
-`CM_Uninstall_DevNode` | 37 (0x25) | Exported Function | cfgmgr32.CM_Uninstall_DevNode | 0x00001b3e
-`CM_Get_Class_Registry_PropertyW` | 9 (0x9) | Exported Function | cfgmgr32.CM_Get_Class_Registry_PropertyW | 0x000014ad
-`CM_Get_Device_ID_List_SizeW` | 17 (0x11) | Exported Function | cfgmgr32.CM_Get_Device_ID_List_SizeW | 0x00001679
-`CM_Get_Device_ID_ListW` | 16 (0x10) | Exported Function | cfgmgr32.CM_Get_Device_ID_ListW | 0x0000163d
-`CM_Get_Device_ID_Size` | 18 (0x12) | Exported Function | cfgmgr32.CM_Get_Device_ID_Size | 0x000016b4
-`CM_Get_Device_IDW` | 15 (0xf) | Exported Function | cfgmgr32.CM_Get_Device_IDW | 0x0000160b
-`CM_Get_Device_Interface_List_SizeW` | 20 (0x14) | Exported Function | cfgmgr32.CM_Get_Device_Interface_List_SizeW | 0x0000173b
-`CM_Get_Device_Interface_ListW` | 19 (0x13) | Exported Function | cfgmgr32.CM_Get_Device_Interface_ListW | 0x000016f1
-`CM_Get_Device_Interface_Property_KeysW` | 22 (0x16) | Exported Function | cfgmgr32.CM_Get_Device_Interface_Property_KeysW | 0x000017db
-`CM_Get_Depth` | 10 (0xa) | Exported Function | cfgmgr32.CM_Get_Depth | 0x000014e3
-`CM_Unregister_Notification` | 38 (0x26) | Exported Function | cfgmgr32.CM_Unregister_Notification | 0x00001b77
+Function Name | Ordinal | Type
+-- | -- | --
+`CM_Open_Class_KeyW` | 26 | Exported Function
+`CM_Locate_DevNodeW` | 25 | Exported Function
+`CM_Open_DevNode_Key` | 27 | Exported Function
+`CM_Open_Device_Interface_KeyW` | 28 | Exported Function
+`CM_Get_Sibling` | 24 | Exported Function
+`CM_Get_DevNode_Registry_PropertyW` | 13 | Exported Function
+`CM_Get_DevNode_PropertyW` | 11 | Exported Function
+`CM_Get_Parent` | 23 | Exported Function
+`CM_Get_DevNode_Status` | 14 | Exported Function
+`CM_Query_And_Remove_SubTreeW` | 29 | Exported Function
+`CM_Setup_DevNode` | 36 | Exported Function
+`CM_Set_DevNode_Registry_PropertyW` | 34 | Exported Function
+`CM_Unregister_Notification` | 38 | Exported Function
+`CM_Uninstall_DevNode` | 37 | Exported Function
+`CM_Set_DevNode_PropertyW` | 33 | Exported Function
+`CM_Set_Class_PropertyW` | 31 | Exported Function
+`CM_Register_Notification` | 30 | Exported Function
+`CM_Set_Device_Interface_PropertyW` | 35 | Exported Function
+`CM_Set_Class_Registry_PropertyW` | 32 | Exported Function
+`CM_Get_Class_Property_Keys` | 8 | Exported Function
+`CM_Get_Child` | 6 | Exported Function
+`CM_Get_Class_Registry_PropertyW` | 9 | Exported Function
+`CM_Get_Class_PropertyW` | 7 | Exported Function
+`CM_Enable_DevNode` | 5 | Exported Function
+`CM_Delete_Device_Interface_KeyW` | 3 | Exported Function
+`CM_Delete_Class_Key` | 1 | Exported Function
+`CM_Disable_DevNode` | 4 | Exported Function
+`CM_Delete_DevNode_Key` | 2 | Exported Function
+`CM_Get_Depth` | 10 | Exported Function
+`CM_Get_Device_Interface_Property_KeysW` | 22 | Exported Function
+`CM_Get_Device_Interface_ListW` | 19 | Exported Function
+`CM_Get_DevNode_Property_Keys` | 12 | Exported Function
+`CM_Get_Device_Interface_PropertyW` | 21 | Exported Function
+`CM_Get_Device_Interface_List_SizeW` | 20 | Exported Function
+`CM_Get_Device_ID_ListW` | 16 | Exported Function
+`CM_Get_Device_ID_List_SizeW` | 17 | Exported Function
+`CM_Get_Device_IDW` | 15 | Exported Function
+`CM_Get_Device_ID_Size` | 18 | Exported Function
 
 
 ## Signature

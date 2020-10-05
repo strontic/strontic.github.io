@@ -24,11 +24,11 @@ PE256 | `92F60CDFE51C91826DD52103408BD76F9177D7B6029AD21FB0168DDEF50C6BD3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x00000001800027f0 | 0x000027f0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x00000001800021d0 | 0x000021d0
-`ProcessGroupPolicy` | 1 (0x1) | Exported Function | 0x0000000180012dd0 | 0x00012dd0
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessGroupPolicy` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

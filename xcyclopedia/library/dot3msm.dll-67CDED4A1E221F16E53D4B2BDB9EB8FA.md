@@ -24,29 +24,29 @@ PE256 | `8554C65689C3629D938B37B1D45F77B61B4376FD805E8FB54BA2A2DC22C76E27`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x0000000180003eb0 | 0x00003eb0
-`Dot3MsmValidateProfile` | 19 (0x13) | Exported Function | 0x0000000180007f90 | 0x00007f90
-`Dot3MsmUIResponse` | 18 (0x12) | Exported Function | 0x0000000180008aa0 | 0x00008aa0
-`Dot3MsmSetRuntimeState` | 17 (0x11) | Exported Function | 0x000000018000a740 | 0x0000a740
-`Dot3MsmReAuthenticate` | 16 (0x10) | Exported Function | 0x000000018000a940 | 0x0000a940
-`Dot3MsmQueryState` | 15 (0xf) | Exported Function | 0x0000000180009130 | 0x00009130
-`Dot3MsmQueryPendingUIRequest` | 14 (0xe) | Exported Function | 0x0000000180008f00 | 0x00008f00
-`Dot3MsmQueryMediaState` | 13 (0xd) | Exported Function | 0x00000001800092f0 | 0x000092f0
-`Dot3MsmOnMediaStateChange` | 12 (0xc) | Exported Function | 0x000000018000adb0 | 0x0000adb0
-`Dot3ReasonCodeMsmToString` | 20 (0x14) | Exported Function | 0x000000018000eb00 | 0x0000eb00
-`Dot3MsmInitAdapter` | 11 (0xb) | Exported Function | 0x0000000180008090 | 0x00008090
-`Dot3MsmIndicateSessionChange` | 9 (0x9) | Exported Function | 0x0000000180008980 | 0x00008980
-`Dot3MsmFreeProfile` | 8 (0x8) | Exported Function | 0x0000000180008830 | 0x00008830
-`Dot3MsmFreeMemory` | 7 (0x7) | Exported Function | 0x0000000180008700 | 0x00008700
-`Dot3MsmDisconnect` | 6 (0x6) | Exported Function | 0x0000000180008580 | 0x00008580
-`Dot3MsmDeInitAdapter` | 5 (0x5) | Exported Function | 0x0000000180008200 | 0x00008200
-`Dot3MsmDeInit` | 4 (0x4) | Exported Function | 0x0000000180007ca0 | 0x00007ca0
-`Dot3MsmCreateDefaultProfile` | 3 (0x3) | Exported Function | 0x0000000180007e20 | 0x00007e20
-`Dot3MsmConnect` | 2 (0x2) | Exported Function | 0x0000000180008340 | 0x00008340
-`Dot3MsmInit` | 10 (0xa) | Exported Function | 0x0000000180007b20 | 0x00007b20
-`Dot3SetPortAuthenticationState` | 21 (0x15) | Exported Function | 0x000000018000a4b0 | 0x0000a4b0
+Function Name | Ordinal | Type
+-- | -- | --
+`Dot3MsmQueryState` | 15 | Exported Function
+`Dot3MsmReAuthenticate` | 16 | Exported Function
+`Dot3MsmQueryPendingUIRequest` | 14 | Exported Function
+`Dot3MsmOnMediaStateChange` | 12 | Exported Function
+`Dot3MsmQueryMediaState` | 13 | Exported Function
+`Dot3ReasonCodeMsmToString` | 20 | Exported Function
+`Dot3SetPortAuthenticationState` | 21 | Exported Function
+`Dot3MsmValidateProfile` | 19 | Exported Function
+`Dot3MsmSetRuntimeState` | 17 | Exported Function
+`Dot3MsmUIResponse` | 18 | Exported Function
+`Dot3MsmInitAdapter` | 11 | Exported Function
+`Dot3MsmDeInit` | 4 | Exported Function
+`Dot3MsmDeInitAdapter` | 5 | Exported Function
+`Dot3MsmCreateDefaultProfile` | 3 | Exported Function
+`DllMain` | 1 | Exported Function
+`Dot3MsmConnect` | 2 | Exported Function
+`Dot3MsmIndicateSessionChange` | 9 | Exported Function
+`Dot3MsmInit` | 10 | Exported Function
+`Dot3MsmFreeProfile` | 8 | Exported Function
+`Dot3MsmDisconnect` | 6 | Exported Function
+`Dot3MsmFreeMemory` | 7 | Exported Function
 
 
 ## Signature

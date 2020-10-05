@@ -24,33 +24,33 @@ PE256 | `A2E3D438E3EEF6AF56E5EABCE93E82F67D54A7F69A9776256E4F0643D1F9043D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SamOfflineAddMemberToAlias` | 1 (0x1) | Exported Function | 0x1000f0b0 | 0x0000f0b0
-`SamOfflineRidToSid` | 23 (0x17) | Exported Function | 0x1000f980 | 0x0000f980
-`SamOfflineRemoveMemberFromAlias` | 22 (0x16) | Exported Function | 0x1000f190 | 0x0000f190
-`SamOfflineQueryInformationUser` | 21 (0x15) | Exported Function | 0x1000f720 | 0x0000f720
-`SamOfflineQueryInformationAlias` | 20 (0x14) | Exported Function | 0x1000ee30 | 0x0000ee30
-`SamOfflineOpenUser` | 19 (0x13) | Exported Function | 0x1000f510 | 0x0000f510
-`SamOfflineOpenDomain` | 18 (0x12) | Exported Function | 0x1000ea40 | 0x0000ea40
-`SamOfflineOpenAlias` | 17 (0x11) | Exported Function | 0x1000ec20 | 0x0000ec20
-`SamOfflineLookupNamesInDomain` | 16 (0x10) | Exported Function | 0x1000eb40 | 0x0000eb40
-`SamOfflineLookupDomainInSamServer` | 15 (0xf) | Exported Function | 0x1000e970 | 0x0000e970
-`SamOfflineGetMembersInAlias` | 14 (0xe) | Exported Function | 0x1000f250 | 0x0000f250
-`SamOfflineSetInformationAlias` | 24 (0x18) | Exported Function | 0x1000eef0 | 0x0000eef0
-`SamOfflineFreeMemory` | 13 (0xd) | Exported Function | 0x1000fb10 | 0x0000fb10
-`SamOfflineEnumerateDomainsInSamServer` | 11 (0xb) | Exported Function | 0x1000e890 | 0x0000e890
-`SamOfflineEnumerateAliasesInDomain` | 10 (0xa) | Exported Function | 0x1000f310 | 0x0000f310
-`SamOfflineDeleteUser` | 9 (0x9) | Exported Function | 0x1000f8b0 | 0x0000f8b0
-`SamOfflineDeleteAlias` | 8 (0x8) | Exported Function | 0x1000efc0 | 0x0000efc0
-`SamOfflineCreateUserInDomain` | 7 (0x7) | Exported Function | 0x1000f610 | 0x0000f610
-`SamOfflineCreateAliasInDomain` | 6 (0x6) | Exported Function | 0x1000ed10 | 0x0000ed10
-`SamOfflineConnectForInstaller` | 5 (0x5) | Exported Function | 0x1000e6c0 | 0x0000e6c0
-`SamOfflineConnectExternal` | 4 (0x4) | Exported Function | 0x1000e780 | 0x0000e780
-`SamOfflineConnect` | 3 (0x3) | Exported Function | 0x1000e5d0 | 0x0000e5d0
-`SamOfflineCloseHandle` | 2 (0x2) | Exported Function | 0x1000fa10 | 0x0000fa10
-`SamOfflineEnumerateUsersInDomain2` | 12 (0xc) | Exported Function | 0x1000f410 | 0x0000f410
-`SamOfflineSetInformationUser` | 25 (0x19) | Exported Function | 0x1000f7f0 | 0x0000f7f0
+Function Name | Ordinal | Type
+-- | -- | --
+`SamOfflineOpenAlias` | 17 | Exported Function
+`SamOfflineOpenDomain` | 18 | Exported Function
+`SamOfflineOpenUser` | 19 | Exported Function
+`SamOfflineGetMembersInAlias` | 14 | Exported Function
+`SamOfflineLookupDomainInSamServer` | 15 | Exported Function
+`SamOfflineLookupNamesInDomain` | 16 | Exported Function
+`SamOfflineRidToSid` | 23 | Exported Function
+`SamOfflineSetInformationAlias` | 24 | Exported Function
+`SamOfflineSetInformationUser` | 25 | Exported Function
+`SamOfflineQueryInformationAlias` | 20 | Exported Function
+`SamOfflineQueryInformationUser` | 21 | Exported Function
+`SamOfflineRemoveMemberFromAlias` | 22 | Exported Function
+`SamOfflineFreeMemory` | 13 | Exported Function
+`SamOfflineConnectExternal` | 4 | Exported Function
+`SamOfflineConnectForInstaller` | 5 | Exported Function
+`SamOfflineCreateAliasInDomain` | 6 | Exported Function
+`SamOfflineAddMemberToAlias` | 1 | Exported Function
+`SamOfflineCloseHandle` | 2 | Exported Function
+`SamOfflineConnect` | 3 | Exported Function
+`SamOfflineEnumerateAliasesInDomain` | 10 | Exported Function
+`SamOfflineEnumerateDomainsInSamServer` | 11 | Exported Function
+`SamOfflineEnumerateUsersInDomain2` | 12 | Exported Function
+`SamOfflineCreateUserInDomain` | 7 | Exported Function
+`SamOfflineDeleteAlias` | 8 | Exported Function
+`SamOfflineDeleteUser` | 9 | Exported Function
 
 
 ## Signature

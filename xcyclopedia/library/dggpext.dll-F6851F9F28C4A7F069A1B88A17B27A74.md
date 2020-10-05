@@ -24,13 +24,13 @@ PE256 | `6AA67BFE062A8C409E7FA35F9AE8DEE89CF8E9AF94BDD09209E802F17D5CA9FE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x0000000180002880 | 0x00002880
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x0000000180002930 | 0x00002930
-`ProcessConfigCIPolicyGroupPolicy` | 1 (0x1) | Exported Function | 0x0000000180003c60 | 0x00003c60
-`ProcessVirtualizationBasedSecurityGroupPolicy` | 2 (0x2) | Exported Function | 0x0000000180003720 | 0x00003720
-`ProcessVirtualizationBasedSecurityMDMPolicy` | 3 (0x3) | Exported Function | 0x00000001800037a0 | 0x000037a0
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessVirtualizationBasedSecurityGroupPolicy` | 2 | Exported Function
+`ProcessVirtualizationBasedSecurityMDMPolicy` | 3 | Exported Function
+`ProcessConfigCIPolicyGroupPolicy` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
 
 
 ## Signature

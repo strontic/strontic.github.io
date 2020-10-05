@@ -24,21 +24,21 @@ PE256 | `32FE1A8A8E98569DFFF985DD7AC258E1182EA4C05D3067B453026B3B3FE4B482`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Adapter_CreateAdapterObject` | 13 (0xd) | Exported Function | 0x10011280 | 0x00011280
-`Adapter_DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x100111f0 | 0x000111f0
-`Adapter_DllGetClassObject` | 10 (0xa) | Exported Function | 0x100110e0 | 0x000110e0
-`Adapter_RegisterDLL` | 11 (0xb) | Exported Function | 0x10011260 | 0x00011260
-`Adapter_UnRegisterDLL` | 12 (0xc) | Exported Function | 0x10011270 | 0x00011270
-`public: __thiscall CCritSec::CCritSec(void)` | 1 (0x1) | Exported Function | 0x10006160 | 0x00006160
-`public: __thiscall CCritSec::~CCritSec(void)` | 3 (0x3) | Exported Function | 0x10006180 | 0x00006180
-`public: __thiscall MIServer::MIServer(void)` | 2 (0x2) | Exported Function | 0x10015440 | 0x00015440
-`public: class CAutoSetActivityId & __thiscall CAutoSetActivityId::operator=(class CAutoSetActivityId const &)` | 4 (0x4) | Exported Function | 0x100061e0 | 0x000061e0
-`public: class CCritSec & __thiscall CCritSec::operator=(class CCritSec const &)` | 5 (0x5) | Exported Function | 0x100061c0 | 0x000061c0
-`public: class MIServer & __thiscall MIServer::operator=(class MIServer &&)` | 6 (0x6) | Exported Function | 0x1000a6c0 | 0x0000a6c0
-`public: class MIServer & __thiscall MIServer::operator=(class MIServer const &)` | 7 (0x7) | Exported Function | 0x1000a6a0 | 0x0000a6a0
-`public: long __thiscall AdapterContextBase::SetAdapter(struct IUnknown *)` | 8 (0x8) | Exported Function | 0x100067d0 | 0x000067d0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: class CCritSec & __thiscall CCritSec::operator=(class CCritSec const &)` | 5 | Exported Function
+`public: class CAutoSetActivityId & __thiscall CAutoSetActivityId::operator=(class CAutoSetActivityId const &)` | 4 | Exported Function
+`public: __thiscall MIServer::MIServer(void)` | 2 | Exported Function
+`public: long __thiscall AdapterContextBase::SetAdapter(struct IUnknown *)` | 8 | Exported Function
+`public: class MIServer & __thiscall MIServer::operator=(class MIServer const &)` | 7 | Exported Function
+`public: class MIServer & __thiscall MIServer::operator=(class MIServer &&)` | 6 | Exported Function
+`public: __thiscall CCritSec::~CCritSec(void)` | 3 | Exported Function
+`Adapter_DllGetClassObject` | 10 | Exported Function
+`Adapter_DllCanUnloadNow` | 9 | Exported Function
+`Adapter_CreateAdapterObject` | 13 | Exported Function
+`public: __thiscall CCritSec::CCritSec(void)` | 1 | Exported Function
+`Adapter_UnRegisterDLL` | 12 | Exported Function
+`Adapter_RegisterDLL` | 11 | Exported Function
 
 
 ## Signature

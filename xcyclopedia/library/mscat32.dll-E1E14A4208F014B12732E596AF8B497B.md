@@ -24,44 +24,44 @@ PE256 | `D208E070B592EB1C61A312669E26E2BECA845A7B8170F6D61D91055C0A59B9F3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CatalogCompactHashDatabase` | 2 (0x2) | Exported Function | 0x60d015f0 | 0x000015f0
-`CryptCATGetAttrInfo` | 22 (0x16) | Exported Function | 0x60d014f0 | 0x000014f0
-`CryptCATGetCatAttrInfo` | 23 (0x17) | Exported Function | 0x60d01490 | 0x00001490
-`CryptCATGetMemberInfo` | 24 (0x18) | Exported Function | 0x60d014c0 | 0x000014c0
-`CryptCATHandleFromStore` | 25 (0x19) | Exported Function | 0x60d01470 | 0x00001470
-`CryptCATOpen` | 26 (0x1a) | Exported Function | 0x60d01440 | 0x00001440
-`CryptCATPersistStore` | 27 (0x1b) | Exported Function | 0x60d01480 | 0x00001480
-`CryptCATEnumerateMember` | 21 (0x15) | Exported Function | 0x60d014e0 | 0x000014e0
-`CryptCATPutAttrInfo` | 28 (0x1c) | Exported Function | 0x60d01500 | 0x00001500
-`CryptCATPutMemberInfo` | 30 (0x1e) | Exported Function | 0x60d014d0 | 0x000014d0
-`CryptCATStoreFromHandle` | 31 (0x1f) | Exported Function | 0x60d01460 | 0x00001460
-`CryptCATVerifyMember` | 1 (0x1) | Exported Function | 0x60d01650 | 0x00001650
-`DllRegisterServer` | 32 (0x20) | Exported Function | 0x60d01420 | 0x00001420
-`DllUnregisterServer` | 33 (0x21) | Exported Function | 0x60d01430 | 0x00001430
-`IsCatalogFile` | 34 (0x22) | Exported Function | 0x60d015e0 | 0x000015e0
-`CryptCATPutCatAttrInfo` | 29 (0x1d) | Exported Function | 0x60d014a0 | 0x000014a0
-`CryptCATEnumerateCatAttr` | 20 (0x14) | Exported Function | 0x60d014b0 | 0x000014b0
-`CryptCATEnumerateAttr` | 19 (0x13) | Exported Function | 0x60d01510 | 0x00001510
-`CryptCATClose` | 18 (0x12) | Exported Function | 0x60d01450 | 0x00001450
-`CryptCATAdminAcquireContext` | 3 (0x3) | Exported Function | 0x60d01580 | 0x00001580
-`CryptCATAdminAddCatalog` | 4 (0x4) | Exported Function | 0x60d015d0 | 0x000015d0
-`CryptCATAdminCalcHashFromFileHandle` | 5 (0x5) | Exported Function | 0x60d015b0 | 0x000015b0
-`CryptCATAdminEnumCatalogFromHash` | 6 (0x6) | Exported Function | 0x60d015a0 | 0x000015a0
-`CryptCATAdminReleaseCatalogContext` | 7 (0x7) | Exported Function | 0x60d01520 | 0x00001520
-`CryptCATAdminReleaseContext` | 8 (0x8) | Exported Function | 0x60d01590 | 0x00001590
-`CryptCATCatalogInfoFromContext` | 17 (0x11) | Exported Function | 0x60d015c0 | 0x000015c0
-`CryptCATCDFClose` | 9 (0x9) | Exported Function | 0x60d01540 | 0x00001540
-`CryptCATCDFEnumAttributes` | 10 (0xa) | Exported Function | 0x60d01570 | 0x00001570
-`CryptCATCDFEnumAttributesWithCDFTag` | 11 (0xb) | Exported Function | 0x60d01620 | 0x00001620
-`CryptCATCDFEnumCatAttributes` | 12 (0xc) | Exported Function | 0x60d01550 | 0x00001550
-`CryptCATCDFEnumMembers` | 13 (0xd) | Exported Function | 0x60d01560 | 0x00001560
-`CryptCATCDFEnumMembersByCDFTag` | 14 (0xe) | Exported Function | 0x60d01600 | 0x00001600
-`CryptCATCDFEnumMembersByCDFTagEx` | 15 (0xf) | Exported Function | 0x60d01610 | 0x00001610
-`CryptCATCDFOpen` | 16 (0x10) | Exported Function | 0x60d01530 | 0x00001530
-`MsCatConstructHashTag` | 35 (0x23) | Exported Function | 0x60d01630 | 0x00001630
-`MsCatFreeHashTag` | 36 (0x24) | Exported Function | 0x60d01640 | 0x00001640
+Function Name | Ordinal | Type
+-- | -- | --
+`CryptCATOpen` | 26 | Exported Function
+`CryptCATHandleFromStore` | 25 | Exported Function
+`CryptCATPutAttrInfo` | 28 | Exported Function
+`CryptCATPersistStore` | 27 | Exported Function
+`CryptCATGetMemberInfo` | 24 | Exported Function
+`CryptCATEnumerateMember` | 21 | Exported Function
+`CryptCATEnumerateCatAttr` | 20 | Exported Function
+`CryptCATGetCatAttrInfo` | 23 | Exported Function
+`CryptCATGetAttrInfo` | 22 | Exported Function
+`IsCatalogFile` | 34 | Exported Function
+`DllUnregisterServer` | 33 | Exported Function
+`MsCatFreeHashTag` | 36 | Exported Function
+`MsCatConstructHashTag` | 35 | Exported Function
+`DllRegisterServer` | 32 | Exported Function
+`CryptCATPutMemberInfo` | 30 | Exported Function
+`CryptCATPutCatAttrInfo` | 29 | Exported Function
+`CryptCATVerifyMember` | 1 | Exported Function
+`CryptCATStoreFromHandle` | 31 | Exported Function
+`CryptCATAdminReleaseContext` | 8 | Exported Function
+`CryptCATAdminReleaseCatalogContext` | 7 | Exported Function
+`CryptCATCDFClose` | 9 | Exported Function
+`CryptCATCatalogInfoFromContext` | 17 | Exported Function
+`CryptCATAdminEnumCatalogFromHash` | 6 | Exported Function
+`CryptCATAdminAcquireContext` | 3 | Exported Function
+`CatalogCompactHashDatabase` | 2 | Exported Function
+`CryptCATAdminCalcHashFromFileHandle` | 5 | Exported Function
+`CryptCATAdminAddCatalog` | 4 | Exported Function
+`CryptCATCDFOpen` | 16 | Exported Function
+`CryptCATCDFEnumMembersByCDFTagEx` | 15 | Exported Function
+`CryptCATEnumerateAttr` | 19 | Exported Function
+`CryptCATClose` | 18 | Exported Function
+`CryptCATCDFEnumMembersByCDFTag` | 14 | Exported Function
+`CryptCATCDFEnumAttributesWithCDFTag` | 11 | Exported Function
+`CryptCATCDFEnumAttributes` | 10 | Exported Function
+`CryptCATCDFEnumMembers` | 13 | Exported Function
+`CryptCATCDFEnumCatAttributes` | 12 | Exported Function
 
 
 ## Signature

@@ -24,13 +24,13 @@ PE256 | `30384BA9A36E9A16F98D092513782A82BCBC8A8CD60FA1126A3BBA6AF637314B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x0000000180003870 | 0x00003870
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x0000000180003650 | 0x00003650
-`ServiceMain` | 1 (0x1) | Exported Function | 0x0000000180003560 | 0x00003560
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x0000000180003640 | 0x00003640
-`WerComGetAdminStores` | 3 (0x3) | Exported Function | 0x0000000180007fb0 | 0x00007fb0
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`WerComGetAdminStores` | 3 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
 
 
 ## Signature

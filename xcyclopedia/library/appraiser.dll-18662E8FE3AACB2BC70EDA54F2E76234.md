@@ -24,18 +24,18 @@ PE256 | `FAD26027A5435C79E301D64541A4E000616725D9F0C8E83610CD102208F72B1B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DoScheduledTelemetryRun` | 1 (0x1) | Exported Function | 0x0000000180005b00 | 0x00005b00
-`DoScheduledTelemetryRunTC` | 2 (0x2) | Exported Function | 0x0000000180005a10 | 0x00005a10
-`GetCtacProvider` | 3 (0x3) | Exported Function | 0x0000000180005d40 | 0x00005d40
-`GetProvider` | 4 (0x4) | Exported Function | 0x00000001800059b0 | 0x000059b0
-`RunTest` | 5 (0x5) | Exported Function | 0x0000000180005bc0 | 0x00005bc0
-`RunXml` | 6 (0x6) | Exported Function | 0x0000000180005b80 | 0x00005b80
-`Sgd` | 7 (0x7) | Exported Function | 0x0000000180005a00 | 0x00005a00
-`UpdateAvStatus` | 8 (0x8) | Exported Function | 0x0000000180005b10 | 0x00005b10
-`UpdateCacheCompatStatuses` | 9 (0x9) | Exported Function | 0x0000000180005a00 | 0x00005a00
-`UpdateExperienceIndicators` | 10 (0xa) | Exported Function | 0x0000000180005d30 | 0x00005d30
+Function Name | Ordinal | Type
+-- | -- | --
+`Sgd` | 7 | Exported Function
+`RunXml` | 6 | Exported Function
+`UpdateAvStatus` | 8 | Exported Function
+`UpdateExperienceIndicators` | 10 | Exported Function
+`UpdateCacheCompatStatuses` | 9 | Exported Function
+`DoScheduledTelemetryRunTC` | 2 | Exported Function
+`DoScheduledTelemetryRun` | 1 | Exported Function
+`GetCtacProvider` | 3 | Exported Function
+`RunTest` | 5 | Exported Function
+`GetProvider` | 4 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `CA081E72B3A4BAC8B42F3E36141FF39479CE0354EE5DE792D4A90C4078ECAB33`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180013d00 | 0x00013d00
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180013d20 | 0x00013d20
-`XpsProcess` | 3 (0x3) | Exported Function | 0x00000001800043c0 | 0x000043c0
-`XpsTestProcess` | 4 (0x4) | Exported Function | 0x0000000180004610 | 0x00004610
+Function Name | Ordinal | Type
+-- | -- | --
+`XpsProcess` | 3 | Exported Function
+`XpsTestProcess` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

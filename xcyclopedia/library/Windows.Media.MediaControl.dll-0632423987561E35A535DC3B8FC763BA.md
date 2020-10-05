@@ -24,19 +24,19 @@ PE256 | `928C6EAF908B5CBEFCAFAA9EC4F616B9E85E7D3AAB95A8A92A2598F0201345F5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateCaptureAudioStateMonitor` | 1 (0x1) | Exported Function | 0x0000000180021e60 | 0x00021e60
-`CreateCaptureAudioStateMonitorForCategory` | 2 (0x2) | Exported Function | 0x0000000180021ea0 | 0x00021ea0
-`CreateCaptureAudioStateMonitorForCategoryAndDeviceId` | 3 (0x3) | Exported Function | 0x0000000180021f60 | 0x00021f60
-`CreateCaptureAudioStateMonitorForCategoryAndDeviceRole` | 4 (0x4) | Exported Function | 0x0000000180022030 | 0x00022030
-`CreateRenderAudioStateMonitor` | 5 (0x5) | Exported Function | 0x0000000180022100 | 0x00022100
-`CreateRenderAudioStateMonitorForCategory` | 6 (0x6) | Exported Function | 0x0000000180022140 | 0x00022140
-`CreateRenderAudioStateMonitorForCategoryAndDeviceId` | 7 (0x7) | Exported Function | 0x0000000180022200 | 0x00022200
-`CreateRenderAudioStateMonitorForCategoryAndDeviceRole` | 8 (0x8) | Exported Function | 0x00000001800222c0 | 0x000222c0
-`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x000000018000fa00 | 0x0000fa00
-`DllGetActivationFactory` | 10 (0xa) | Exported Function | 0x0000000180003e00 | 0x00003e00
-`DllGetClassObject` | 11 (0xb) | Exported Function | 0x000000018000fa40 | 0x0000fa40
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateRenderAudioStateMonitorForCategoryAndDeviceRole` | 8 | Exported Function
+`CreateRenderAudioStateMonitorForCategoryAndDeviceId` | 7 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
+`DllGetActivationFactory` | 10 | Exported Function
+`CreateRenderAudioStateMonitorForCategory` | 6 | Exported Function
+`CreateCaptureAudioStateMonitorForCategory` | 2 | Exported Function
+`CreateCaptureAudioStateMonitor` | 1 | Exported Function
+`CreateCaptureAudioStateMonitorForCategoryAndDeviceId` | 3 | Exported Function
+`CreateRenderAudioStateMonitor` | 5 | Exported Function
+`CreateCaptureAudioStateMonitorForCategoryAndDeviceRole` | 4 | Exported Function
 
 
 ## Signature

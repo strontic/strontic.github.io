@@ -24,18 +24,18 @@ PE256 | `5F2568E410690ADCD7159CE1773FFB340CE1A171DB913FEC7D7E783066F04714`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EnterpriseResourceManager_ScopeData_IsValid` | 10 (0xa) | Exported Function | 0x0000000180003930 | 0x00003930
-`EnterpriseResourceManagerStore_DeleteResource` | 1 (0x1) | Exported Function | 0x0000000180003540 | 0x00003540
-`EnterpriseResourceManagerStore_DeleteTrackedResourcesForEnrollment` | 2 (0x2) | Exported Function | 0x0000000180003860 | 0x00003860
-`EnterpriseResourceManagerStore_GenerateWmiResourcePath` | 3 (0x3) | Exported Function | 0x0000000180004190 | 0x00004190
-`EnterpriseResourceManagerStore_IsResourceProvisioned` | 4 (0x4) | Exported Function | 0x0000000180003970 | 0x00003970
-`EnterpriseResourceManagerStore_NormalizeURI` | 5 (0x5) | Exported Function | 0x0000000180004060 | 0x00004060
-`EnterpriseResourceManagerStore_RemoveAllIgnoredUri` | 6 (0x6) | Exported Function | 0x0000000180004850 | 0x00004850
-`EnterpriseResourceManagerStore_ReplaceResourceNodePath` | 7 (0x7) | Exported Function | 0x00000001800034e0 | 0x000034e0
-`EnterpriseResourceManagerStore_SaveIgnoredURI` | 8 (0x8) | Exported Function | 0x00000001800044d0 | 0x000044d0
-`EnterpriseResourceManagerStore_WriteResourceNodePath` | 9 (0x9) | Exported Function | 0x0000000180003110 | 0x00003110
+Function Name | Ordinal | Type
+-- | -- | --
+`EnterpriseResourceManagerStore_RemoveAllIgnoredUri` | 6 | Exported Function
+`EnterpriseResourceManagerStore_NormalizeURI` | 5 | Exported Function
+`EnterpriseResourceManagerStore_ReplaceResourceNodePath` | 7 | Exported Function
+`EnterpriseResourceManagerStore_WriteResourceNodePath` | 9 | Exported Function
+`EnterpriseResourceManagerStore_SaveIgnoredURI` | 8 | Exported Function
+`EnterpriseResourceManagerStore_DeleteResource` | 1 | Exported Function
+`EnterpriseResourceManager_ScopeData_IsValid` | 10 | Exported Function
+`EnterpriseResourceManagerStore_DeleteTrackedResourcesForEnrollment` | 2 | Exported Function
+`EnterpriseResourceManagerStore_IsResourceProvisioned` | 4 | Exported Function
+`EnterpriseResourceManagerStore_GenerateWmiResourcePath` | 3 | Exported Function
 
 
 ## Signature

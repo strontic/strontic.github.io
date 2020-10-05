@@ -24,12 +24,12 @@ PE256 | `BEFE8CCCEE334F90CA0E0A1D4C6E72FFEF2508E21F3D1CE23B3D4F65D6F5BD9F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetDateFormatA` | 1 (0x1) | Exported Function | kernel32.GetDateFormatA | 0x000011a3
-`GetDateFormatW` | 2 (0x2) | Exported Function | kernel32.GetDateFormatW | 0x000011ca
-`GetTimeFormatA` | 3 (0x3) | Exported Function | kernel32.GetTimeFormatA | 0x000011f1
-`GetTimeFormatW` | 4 (0x4) | Exported Function | kernel32.GetTimeFormatW | 0x00001218
+Function Name | Ordinal | Type
+-- | -- | --
+`GetTimeFormatA` | 3 | Exported Function
+`GetTimeFormatW` | 4 | Exported Function
+`GetDateFormatA` | 1 | Exported Function
+`GetDateFormatW` | 2 | Exported Function
 
 
 ## Signature

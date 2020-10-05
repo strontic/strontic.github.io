@@ -24,53 +24,53 @@ PE256 | `4E486A488011A3D99C905ED56417D1D185E21B419691BDB0F0A0329764E46277`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 41 (0x29) | Exported Function | 0x0000000180001770 | 0x00001770
-`public: bool __cdecl VolumeFveStatus::IsEncrypted(void)const __ptr64` | 26 (0x1a) | Exported Function | 0x00000001800013a0 | 0x000013a0
-`public: bool __cdecl VolumeFveStatus::IsEncrypting(void)const __ptr64` | 27 (0x1b) | Exported Function | 0x0000000180001390 | 0x00001390
-`public: bool __cdecl VolumeFveStatus::IsLocked(void)const __ptr64` | 28 (0x1c) | Exported Function | 0x0000000180001430 | 0x00001430
-`public: bool __cdecl VolumeFveStatus::IsOn(void)const __ptr64` | 29 (0x1d) | Exported Function | 0x0000000180001330 | 0x00001330
-`public: bool __cdecl VolumeFveStatus::IsOsCriticalVolume(void)const __ptr64` | 30 (0x1e) | Exported Function | 0x0000000180001300 | 0x00001300
-`public: bool __cdecl VolumeFveStatus::IsOsVolume(void)const __ptr64` | 31 (0x1f) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`public: bool __cdecl VolumeFveStatus::IsPartiallyConverted(void)const __ptr64` | 32 (0x20) | Exported Function | 0x0000000180001380 | 0x00001380
-`public: bool __cdecl VolumeFveStatus::IsPaused(void)const __ptr64` | 33 (0x21) | Exported Function | 0x0000000180001340 | 0x00001340
-`public: bool __cdecl VolumeFveStatus::IsPreProvisioned(void)const __ptr64` | 34 (0x22) | Exported Function | 0x0000000180001450 | 0x00001450
-`public: bool __cdecl VolumeFveStatus::IsRoamingDevice(void)const __ptr64` | 35 (0x23) | Exported Function | 0x0000000180001320 | 0x00001320
-`public: bool __cdecl VolumeFveStatus::IsSecure(void)const __ptr64` | 36 (0x24) | Exported Function | 0x00000001800013f0 | 0x000013f0
-`public: bool __cdecl VolumeFveStatus::IsUnknownFveVersion(void)const __ptr64` | 37 (0x25) | Exported Function | 0x00000001800014b0 | 0x000014b0
-`public: bool __cdecl VolumeFveStatus::IsWiping(void)const __ptr64` | 38 (0x26) | Exported Function | 0x00000001800013d0 | 0x000013d0
-`public: bool __cdecl VolumeFveStatus::NeedsRestart(void)const __ptr64` | 40 (0x28) | Exported Function | 0x0000000180001400 | 0x00001400
-`public: class BuiVolume & __ptr64 __cdecl BuiVolume::operator=(class BuiVolume const & __ptr64) __ptr64` | 3 (0x3) | Exported Function | 0x0000000180001570 | 0x00001570
-`public: class VolumeFveStatus & __ptr64 __cdecl VolumeFveStatus::operator=(class VolumeFveStatus && __ptr64) __ptr64` | 4 (0x4) | Exported Function | 0x0000000180001540 | 0x00001540
-`public: class VolumeFveStatus & __ptr64 __cdecl VolumeFveStatus::operator=(class VolumeFveStatus const & __ptr64) __ptr64` | 5 (0x5) | Exported Function | 0x0000000180001520 | 0x00001520
-`public: long __cdecl VolumeFveStatus::GetLastConvertStatus(void)const __ptr64` | 8 (0x8) | Exported Function | 0x0000000180001500 | 0x00001500
-`public: static unsigned int const BuiVolume::NO_DRIVE_LETTER` | 39 (0x27) | Exported Function | 0x000000018002d504 | 0x0002d504
-`public: bool __cdecl VolumeFveStatus::IsEDriveVolume(void)const __ptr64` | 25 (0x19) | Exported Function | 0x0000000180001490 | 0x00001490
-`public: unsigned __int64 __cdecl VolumeFveStatus::GetExtendedFlags(void)const __ptr64` | 7 (0x7) | Exported Function | 0x00000001800014f0 | 0x000014f0
-`public: bool __cdecl VolumeFveStatus::IsDisabled(void)const __ptr64` | 24 (0x18) | Exported Function | 0x0000000180001410 | 0x00001410
-`public: bool __cdecl VolumeFveStatus::IsDecrypted(void)const __ptr64` | 22 (0x16) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`DllGetClassObject` | 42 (0x2a) | Exported Function | 0x0000000180001930 | 0x00001930
-`FveuiEnumSmartCardCerts` | 43 (0x2b) | Exported Function | 0x00000001800087f0 | 0x000087f0
-`FveuiUserSelectCert` | 44 (0x2c) | Exported Function | 0x0000000180007a20 | 0x00007a20
-`FveuiUserSelectSmartCard` | 45 (0x2d) | Exported Function | 0x00000001800083a0 | 0x000083a0
-`protected: __cdecl VolumeFveStatus::VolumeFveStatus(void) __ptr64` | 1 (0x1) | Exported Function | 0x0000000180001510 | 0x00001510
-`public: __cdecl VolumeFveStatus::VolumeFveStatus(unsigned long,unsigned __int64,long,enum _FVE_WIPING_STATE) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180001240 | 0x00001240
-`public: bool __cdecl VolumeFveStatus::FailedDryRun(void)const __ptr64` | 6 (0x6) | Exported Function | 0x0000000180001460 | 0x00001460
-`public: bool __cdecl VolumeFveStatus::HasExternalKey(void)const __ptr64` | 10 (0xa) | Exported Function | 0x00000001800012b0 | 0x000012b0
-`public: bool __cdecl VolumeFveStatus::HasPassphraseProtector(void)const __ptr64` | 12 (0xc) | Exported Function | 0x00000001800012d0 | 0x000012d0
-`public: bool __cdecl VolumeFveStatus::HasPBKDF2RecoveryPassword(void)const __ptr64` | 11 (0xb) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`public: bool __cdecl VolumeFveStatus::HasPinProtector(void)const __ptr64` | 13 (0xd) | Exported Function | 0x0000000180001280 | 0x00001280
-`public: bool __cdecl VolumeFveStatus::HasRecoveryData(void)const __ptr64` | 14 (0xe) | Exported Function | 0x0000000180001440 | 0x00001440
-`public: bool __cdecl VolumeFveStatus::HasRecoveryPassword(void)const __ptr64` | 15 (0xf) | Exported Function | 0x0000000180001290 | 0x00001290
-`public: bool __cdecl VolumeFveStatus::HasSmartCardProtector(void)const __ptr64` | 16 (0x10) | Exported Function | 0x00000001800012e0 | 0x000012e0
-`public: bool __cdecl VolumeFveStatus::HasStartupKeyProtector(void)const __ptr64` | 17 (0x11) | Exported Function | 0x00000001800012c0 | 0x000012c0
-`public: bool __cdecl VolumeFveStatus::HasTpmProtector(void)const __ptr64` | 18 (0x12) | Exported Function | 0x0000000180001270 | 0x00001270
-`public: bool __cdecl VolumeFveStatus::IsConverting(void)const __ptr64` | 19 (0x13) | Exported Function | 0x0000000180001360 | 0x00001360
-`public: bool __cdecl VolumeFveStatus::IsCsvMetadataVolume(void)const __ptr64` | 20 (0x14) | Exported Function | 0x00000001800014a0 | 0x000014a0
-`public: bool __cdecl VolumeFveStatus::IsDEAutoProvisioned(void)const __ptr64` | 21 (0x15) | Exported Function | 0x00000001800014d0 | 0x000014d0
-`public: bool __cdecl VolumeFveStatus::IsDecrypting(void)const __ptr64` | 23 (0x17) | Exported Function | 0x00000001800013b0 | 0x000013b0
-`public: unsigned long __cdecl VolumeFveStatus::GetStatusFlags(void)const __ptr64` | 9 (0x9) | Exported Function | 0x00000001800014e0 | 0x000014e0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: bool __cdecl VolumeFveStatus::IsPartiallyConverted(void)const __ptr64` | 32 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsOsVolume(void)const __ptr64` | 31 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsPaused(void)const __ptr64` | 33 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsRoamingDevice(void)const __ptr64` | 35 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsPreProvisioned(void)const __ptr64` | 34 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsOsCriticalVolume(void)const __ptr64` | 30 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsEncrypted(void)const __ptr64` | 26 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsEDriveVolume(void)const __ptr64` | 25 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsEncrypting(void)const __ptr64` | 27 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsOn(void)const __ptr64` | 29 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsLocked(void)const __ptr64` | 28 | Exported Function
+`public: long __cdecl VolumeFveStatus::GetLastConvertStatus(void)const __ptr64` | 8 | Exported Function
+`public: class VolumeFveStatus & __ptr64 __cdecl VolumeFveStatus::operator=(class VolumeFveStatus const & __ptr64) __ptr64` | 5 | Exported Function
+`public: static unsigned int const BuiVolume::NO_DRIVE_LETTER` | 39 | Exported Function
+`public: unsigned long __cdecl VolumeFveStatus::GetStatusFlags(void)const __ptr64` | 9 | Exported Function
+`public: unsigned __int64 __cdecl VolumeFveStatus::GetExtendedFlags(void)const __ptr64` | 7 | Exported Function
+`public: class VolumeFveStatus & __ptr64 __cdecl VolumeFveStatus::operator=(class VolumeFveStatus && __ptr64) __ptr64` | 4 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsUnknownFveVersion(void)const __ptr64` | 37 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsSecure(void)const __ptr64` | 36 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsWiping(void)const __ptr64` | 38 | Exported Function
+`public: class BuiVolume & __ptr64 __cdecl BuiVolume::operator=(class BuiVolume const & __ptr64) __ptr64` | 3 | Exported Function
+`public: bool __cdecl VolumeFveStatus::NeedsRestart(void)const __ptr64` | 40 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsDisabled(void)const __ptr64` | 24 | Exported Function
+`public: bool __cdecl VolumeFveStatus::FailedDryRun(void)const __ptr64` | 6 | Exported Function
+`public: __cdecl VolumeFveStatus::VolumeFveStatus(unsigned long,unsigned __int64,long,enum _FVE_WIPING_STATE) __ptr64` | 2 | Exported Function
+`public: bool __cdecl VolumeFveStatus::HasExternalKey(void)const __ptr64` | 10 | Exported Function
+`public: bool __cdecl VolumeFveStatus::HasPBKDF2RecoveryPassword(void)const __ptr64` | 11 | Exported Function
+`public: bool __cdecl VolumeFveStatus::HasPassphraseProtector(void)const __ptr64` | 12 | Exported Function
+`protected: __cdecl VolumeFveStatus::VolumeFveStatus(void) __ptr64` | 1 | Exported Function
+`DllGetClassObject` | 42 | Exported Function
+`DllCanUnloadNow` | 41 | Exported Function
+`FveuiEnumSmartCardCerts` | 43 | Exported Function
+`FveuiUserSelectSmartCard` | 45 | Exported Function
+`FveuiUserSelectCert` | 44 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsCsvMetadataVolume(void)const __ptr64` | 20 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsConverting(void)const __ptr64` | 19 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsDEAutoProvisioned(void)const __ptr64` | 21 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsDecrypting(void)const __ptr64` | 23 | Exported Function
+`public: bool __cdecl VolumeFveStatus::IsDecrypted(void)const __ptr64` | 22 | Exported Function
+`public: bool __cdecl VolumeFveStatus::HasTpmProtector(void)const __ptr64` | 18 | Exported Function
+`public: bool __cdecl VolumeFveStatus::HasRecoveryData(void)const __ptr64` | 14 | Exported Function
+`public: bool __cdecl VolumeFveStatus::HasPinProtector(void)const __ptr64` | 13 | Exported Function
+`public: bool __cdecl VolumeFveStatus::HasRecoveryPassword(void)const __ptr64` | 15 | Exported Function
+`public: bool __cdecl VolumeFveStatus::HasStartupKeyProtector(void)const __ptr64` | 17 | Exported Function
+`public: bool __cdecl VolumeFveStatus::HasSmartCardProtector(void)const __ptr64` | 16 | Exported Function
 
 
 ## Signature

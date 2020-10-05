@@ -24,13 +24,13 @@ PE256 | `A1DD19260D72F76CE825A83D2C844AFA91BF12524B5548B6965FDC6A4AFA2A98`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateInternetMailSyncServiceLayer` | 2 (0x2) | Exported Function | 0x0000000180004ff0 | 0x00004ff0
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180004e30 | 0x00004e30
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180004e70 | 0x00004e70
-`GetAutoConfigManager` | 5 (0x5) | Exported Function | 0x0000000180010a40 | 0x00010a40
-`OneStopFactory` | 1 (0x1) | Exported Function | 0x0000000180004fb0 | 0x00004fb0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetAutoConfigManager` | 5 | Exported Function
+`OneStopFactory` | 1 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`CreateInternetMailSyncServiceLayer` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

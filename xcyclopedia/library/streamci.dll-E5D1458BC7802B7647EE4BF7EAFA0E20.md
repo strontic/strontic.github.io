@@ -24,16 +24,16 @@ PE256 | `ED7B8DA9D3A92F49E73AF239DF6405D1DD419330B126A02E06A0F25FA1EC13CE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`StreamingDeviceClassInstaller` | 1 (0x1) | Exported Function | 0x00000001800024b0 | 0x000024b0
-`StreamingDeviceRemove` | 2 (0x2) | Exported Function | 0x0000000180001e90 | 0x00001e90
-`StreamingDeviceRemoveA` | 3 (0x3) | Exported Function | 0x0000000180001e90 | 0x00001e90
-`StreamingDeviceRemoveW` | 4 (0x4) | Exported Function | 0x00000001800021c0 | 0x000021c0
-`StreamingDeviceSetup` | 5 (0x5) | Exported Function | 0x0000000180001e90 | 0x00001e90
-`StreamingDeviceSetupA` | 6 (0x6) | Exported Function | 0x0000000180001e90 | 0x00001e90
-`StreamingDeviceSetupW` | 7 (0x7) | Exported Function | 0x0000000180001ea0 | 0x00001ea0
-`SwEnumCoInstaller` | 8 (0x8) | Exported Function | 0x00000001800027c0 | 0x000027c0
+Function Name | Ordinal | Type
+-- | -- | --
+`StreamingDeviceSetupA` | 6 | Exported Function
+`StreamingDeviceSetup` | 5 | Exported Function
+`SwEnumCoInstaller` | 8 | Exported Function
+`StreamingDeviceSetupW` | 7 | Exported Function
+`StreamingDeviceRemove` | 2 | Exported Function
+`StreamingDeviceClassInstaller` | 1 | Exported Function
+`StreamingDeviceRemoveW` | 4 | Exported Function
+`StreamingDeviceRemoveA` | 3 | Exported Function
 
 
 ## Signature

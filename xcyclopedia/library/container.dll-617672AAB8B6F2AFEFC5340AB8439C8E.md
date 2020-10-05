@@ -24,40 +24,40 @@ PE256 | `0417C0CAA2744BC94589C99AE175E225E36A37FEE0DEDCE11B4B360E07B2B232`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`bool __cdecl container::ShutdownAppContainer(void * __ptr64)` | 14 (0xe) | Exported Function | 0x000000018000e360 | 0x0000e360
-`WcSetRegistryFlushState` | 30 (0x1e) | Exported Function | 0x000000018000d1f0 | 0x0000d1f0
-`WcReleaseContainerTerminationNotification` | 29 (0x1d) | Exported Function | 0x000000018002cb20 | 0x0002cb20
-`WcRegisterForContainerTerminationNotification` | 28 (0x1c) | Exported Function | 0x000000018002caf0 | 0x0002caf0
-`WcLaunchContainer` | 27 (0x1b) | Exported Function | 0x000000018000d1b0 | 0x0000d1b0
-`WcLaunchApplicationContainer` | 26 (0x1a) | Exported Function | 0x000000018000d180 | 0x0000d180
-`WcIsContainerQuiescent` | 25 (0x19) | Exported Function | 0x000000018000d150 | 0x0000d150
-`WcGetContainerRegistryRootPath` | 24 (0x18) | Exported Function | 0x000000018000cfb0 | 0x0000cfb0
-`WcGetContainerObjectRootPath` | 23 (0x17) | Exported Function | 0x000000018000d090 | 0x0000d090
-`WcGetContainerIdentifier` | 22 (0x16) | Exported Function | 0x000000018000cf80 | 0x0000cf80
-`WcGetComRegistryRoot` | 21 (0x15) | Exported Function | 0x000000018000cf50 | 0x0000cf50
-`WcDestroyDescription` | 20 (0x14) | Exported Function | 0x0000000180022650 | 0x00022650
-`WcCreateDescriptionFromXml` | 19 (0x13) | Exported Function | 0x0000000180022240 | 0x00022240
-`WcCreateContainer` | 18 (0x12) | Exported Function | 0x000000018000cf20 | 0x0000cf20
-`WcCleanupContainer` | 17 (0x11) | Exported Function | 0x000000018000cf00 | 0x0000cf00
-`WcAddRuntimeVirtualKeysToContainer` | 16 (0x10) | Exported Function | 0x000000018000d1d0 | 0x0000d1d0
-`void __cdecl container::WaitForContainerTerminationNotification(struct _WC_CONTAINER_NOTIFICATION * __ptr64)` | 15 (0xf) | Exported Function | 0x000000018002d010 | 0x0002d010
-`void __cdecl container::SetRegistryFlushState(void * __ptr64,unsigned char)` | 13 (0xd) | Exported Function | 0x000000018000e230 | 0x0000e230
-`void __cdecl container::ReleaseContainerTerminationNotification(struct _WC_CONTAINER_NOTIFICATION * __ptr64)` | 12 (0xc) | Exported Function | 0x000000018002ce20 | 0x0002ce20
-`void __cdecl container::LaunchContainer(void * __ptr64)` | 10 (0xa) | Exported Function | 0x000000018000df90 | 0x0000df90
-`void __cdecl container::GetRegistryRootPath(void * __ptr64,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > const & __ptr64,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > & __ptr64)` | 7 (0x7) | Exported Function | 0x000000018000e800 | 0x0000e800
-`void __cdecl container::GetContainerObjectRootPath(void * __ptr64,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > & __ptr64)` | 6 (0x6) | Exported Function | 0x000000018000e890 | 0x0000e890
-`void __cdecl container::CreateContainer(void * __ptr64,struct container::DefinitionFile::Container const & __ptr64,bool,void * __ptr64)` | 3 (0x3) | Exported Function | 0x000000018000d3a0 | 0x0000d3a0
-`void __cdecl container::CleanupContainer(void * __ptr64,unsigned short const * __ptr64)` | 2 (0x2) | Exported Function | 0x000000018000d240 | 0x0000d240
-`void __cdecl container::AddRuntimeVirtualKeysToContainer(void * __ptr64,unsigned long,struct _WC_VKEY_INFO * __ptr64)` | 1 (0x1) | Exported Function | 0x000000018000e4e0 | 0x0000e4e0
-`void * __ptr64 __cdecl container::LaunchApplicationContainer(void * __ptr64,unsigned short const * __ptr64,unsigned long)` | 9 (0x9) | Exported Function | 0x000000018000db00 | 0x0000db00
-`void * __ptr64 __cdecl container::GetComRegistryRoot(void * __ptr64)` | 4 (0x4) | Exported Function | 0x000000018000e4c0 | 0x0000e4c0
-`unsigned char __cdecl container::IsContainerQuiescent(void * __ptr64)` | 8 (0x8) | Exported Function | 0x000000018000da70 | 0x0000da70
-`struct _WC_CONTAINER_NOTIFICATION * __ptr64 __cdecl container::RegisterForContainerTerminationNotification(void * __ptr64,void (__cdecl*)(void * __ptr64,enum _WC_CONTAINER_TERMINATION_REASON,struct _WC_CONTAINER_NOTIFICATION * __ptr64,void * __ptr64),void * __ptr64)` | 11 (0xb) | Exported Function | 0x000000018002cb70 | 0x0002cb70
-`class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > __cdecl container::GetContainerIdentifierString(void * __ptr64)` | 5 (0x5) | Exported Function | 0x000000018000e7a0 | 0x0000e7a0
-`WcShutdownAppContainer` | 31 (0x1f) | Exported Function | 0x000000018000d210 | 0x0000d210
-`WcWaitForContainerTerminationNotification` | 32 (0x20) | Exported Function | 0x000000018002cb40 | 0x0002cb40
+Function Name | Ordinal | Type
+-- | -- | --
+`WcGetContainerIdentifier` | 22 | Exported Function
+`WcGetComRegistryRoot` | 21 | Exported Function
+`WcGetContainerRegistryRootPath` | 24 | Exported Function
+`WcGetContainerObjectRootPath` | 23 | Exported Function
+`WcCreateContainer` | 18 | Exported Function
+`WcCleanupContainer` | 17 | Exported Function
+`WcDestroyDescription` | 20 | Exported Function
+`WcCreateDescriptionFromXml` | 19 | Exported Function
+`WcSetRegistryFlushState` | 30 | Exported Function
+`WcReleaseContainerTerminationNotification` | 29 | Exported Function
+`WcWaitForContainerTerminationNotification` | 32 | Exported Function
+`WcShutdownAppContainer` | 31 | Exported Function
+`WcLaunchApplicationContainer` | 26 | Exported Function
+`WcIsContainerQuiescent` | 25 | Exported Function
+`WcRegisterForContainerTerminationNotification` | 28 | Exported Function
+`WcLaunchContainer` | 27 | Exported Function
+`void * __ptr64 __cdecl container::LaunchApplicationContainer(void * __ptr64,unsigned short const * __ptr64,unsigned long)` | 9 | Exported Function
+`void * __ptr64 __cdecl container::GetComRegistryRoot(void * __ptr64)` | 4 | Exported Function
+`void __cdecl container::CleanupContainer(void * __ptr64,unsigned short const * __ptr64)` | 2 | Exported Function
+`void __cdecl container::AddRuntimeVirtualKeysToContainer(void * __ptr64,unsigned long,struct _WC_VKEY_INFO * __ptr64)` | 1 | Exported Function
+`class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > __cdecl container::GetContainerIdentifierString(void * __ptr64)` | 5 | Exported Function
+`bool __cdecl container::ShutdownAppContainer(void * __ptr64)` | 14 | Exported Function
+`unsigned char __cdecl container::IsContainerQuiescent(void * __ptr64)` | 8 | Exported Function
+`struct _WC_CONTAINER_NOTIFICATION * __ptr64 __cdecl container::RegisterForContainerTerminationNotification(void * __ptr64,void (__cdecl*)(void * __ptr64,enum _WC_CONTAINER_TERMINATION_REASON,struct _WC_CONTAINER_NOTIFICATION * __ptr64,void * __ptr64),void * __ptr64)` | 11 | Exported Function
+`void __cdecl container::SetRegistryFlushState(void * __ptr64,unsigned char)` | 13 | Exported Function
+`void __cdecl container::ReleaseContainerTerminationNotification(struct _WC_CONTAINER_NOTIFICATION * __ptr64)` | 12 | Exported Function
+`WcAddRuntimeVirtualKeysToContainer` | 16 | Exported Function
+`void __cdecl container::WaitForContainerTerminationNotification(struct _WC_CONTAINER_NOTIFICATION * __ptr64)` | 15 | Exported Function
+`void __cdecl container::GetContainerObjectRootPath(void * __ptr64,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > & __ptr64)` | 6 | Exported Function
+`void __cdecl container::CreateContainer(void * __ptr64,struct container::DefinitionFile::Container const & __ptr64,bool,void * __ptr64)` | 3 | Exported Function
+`void __cdecl container::LaunchContainer(void * __ptr64)` | 10 | Exported Function
+`void __cdecl container::GetRegistryRootPath(void * __ptr64,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > const & __ptr64,class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > & __ptr64)` | 7 | Exported Function
 
 
 ## Signature

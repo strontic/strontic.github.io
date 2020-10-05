@@ -24,17 +24,17 @@ PE256 | `33B4CCE3DFEAD6B1F0B7E44D79ABA5FFD150DD8E9618F407EEA3DAA7358D42B6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x10002d70 | 0x00002d70
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x10002da0 | 0x00002da0
-`DllMain` | 5 (0x5) | Exported Function | 0x10002ac0 | 0x00002ac0
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x10002ce0 | 0x00002ce0
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x10002d30 | 0x00002d30
-`GetProviderClassID` | 8 (0x8) | Exported Function | 0x10002b80 | 0x00002b80
-`MI_Main` | 9 (0x9) | Exported Function | 0x100029a0 | 0x000029a0
-`public: __thiscall CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void)` | 1 (0x1) | Exported Function | 0x10003440 | 0x00003440
-`public: unsigned long __thiscall CWSManCriticalSection::GetInitError(void)const ` | 2 (0x2) | Exported Function | 0x10003430 | 0x00003430
+Function Name | Ordinal | Type
+-- | -- | --
+`MI_Main` | 9 | Exported Function
+`GetProviderClassID` | 8 | Exported Function
+`public: unsigned long __thiscall CWSManCriticalSection::GetInitError(void)const ` | 2 | Exported Function
+`public: __thiscall CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void)` | 1 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllMain` | 5 | Exported Function
 
 
 ## Signature

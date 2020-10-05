@@ -24,9 +24,9 @@ PE256 | `FEFDBF0E9A3A5DE14D20EB406FBC1E3D18D86FD0BF69C671A6440D09B62A4325`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetLocaleHandler` | 1 (0x1) | Exported Function | 0x10020180 | 0x00020180
+Function Name | Ordinal | Type
+-- | -- | --
+`GetLocaleHandler` | 1 | Exported Function
 
 
 ## Signature

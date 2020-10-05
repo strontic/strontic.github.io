@@ -24,18 +24,18 @@ PE256 | `8F80A17D1B44A9D60A77C631584FF5C4E302801D275EE30C29F85C435DEA9C07`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ExGetCfgVersionInfo` | 1 (0x1) | Exported Function | 0x00000001500011d0 | 0x000011d0
-`ExtEncryptionLevels` | 2 (0x2) | Exported Function | 0x00000001500011e0 | 0x000011e0
-`ExtEnd` | 3 (0x3) | Exported Function | 0x0000000150001040 | 0x00001040
-`ExtGetCapabilities` | 4 (0x4) | Exported Function | 0x0000000150001200 | 0x00001200
-`ExtGetEncryptionLevelAndDescrEx` | 5 (0x5) | Exported Function | 0x00000001500010a0 | 0x000010a0
-`ExtGetEncryptionLevelDescr` | 6 (0x6) | Exported Function | 0x0000000150001050 | 0x00001050
-`ExtGetSecurityLayerDescrString` | 7 (0x7) | Exported Function | 0x00000001500012e0 | 0x000012e0
-`ExtGetSecurityLayerName` | 8 (0x8) | Exported Function | 0x0000000150001240 | 0x00001240
-`ExtSecurityLayers` | 9 (0x9) | Exported Function | 0x0000000150001210 | 0x00001210
-`ExtStart` | 10 (0xa) | Exported Function | 0x0000000150001040 | 0x00001040
+Function Name | Ordinal | Type
+-- | -- | --
+`ExtGetSecurityLayerDescrString` | 7 | Exported Function
+`ExtGetEncryptionLevelDescr` | 6 | Exported Function
+`ExtGetSecurityLayerName` | 8 | Exported Function
+`ExtStart` | 10 | Exported Function
+`ExtSecurityLayers` | 9 | Exported Function
+`ExtEncryptionLevels` | 2 | Exported Function
+`ExGetCfgVersionInfo` | 1 | Exported Function
+`ExtEnd` | 3 | Exported Function
+`ExtGetEncryptionLevelAndDescrEx` | 5 | Exported Function
+`ExtGetCapabilities` | 4 | Exported Function
 
 
 ## Signature

@@ -24,50 +24,50 @@ PE256 | `30780370635221A4B71DB11AFC1C73DC5632FF26B4329E71A728337938C6055D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`acmDriverAddA` | 1 (0x1) | Exported Function | 0x00000001666071a0 | 0x000071a0
-`acmFormatDetailsA` | 24 (0x18) | Exported Function | 0x0000000166609f10 | 0x00009f10
-`acmFormatDetailsW` | 25 (0x19) | Exported Function | 0x000000016660a010 | 0x0000a010
-`acmFormatEnumA` | 26 (0x1a) | Exported Function | 0x000000016660a330 | 0x0000a330
-`acmFormatEnumW` | 27 (0x1b) | Exported Function | 0x000000016660a400 | 0x0000a400
-`acmFormatSuggest` | 28 (0x1c) | Exported Function | 0x000000016660b360 | 0x0000b360
-`acmFormatTagDetailsA` | 29 (0x1d) | Exported Function | 0x000000016660aad0 | 0x0000aad0
-`acmFormatTagDetailsW` | 30 (0x1e) | Exported Function | 0x000000016660abc0 | 0x0000abc0
-`acmFormatTagEnumA` | 31 (0x1f) | Exported Function | 0x000000016660ae10 | 0x0000ae10
-`acmFormatTagEnumW` | 32 (0x20) | Exported Function | 0x0000000166601210 | 0x00001210
-`acmGetVersion` | 33 (0x21) | Exported Function | 0x00000001666033b0 | 0x000033b0
-`acmMetrics` | 34 (0x22) | Exported Function | 0x000000016660aef0 | 0x0000aef0
-`acmStreamClose` | 35 (0x23) | Exported Function | 0x000000016660b660 | 0x0000b660
-`acmStreamConvert` | 36 (0x24) | Exported Function | 0x000000016660b840 | 0x0000b840
-`acmStreamMessage` | 37 (0x25) | Exported Function | 0x000000016660ba00 | 0x0000ba00
-`acmStreamOpen` | 38 (0x26) | Exported Function | 0x000000016660bab0 | 0x0000bab0
-`acmStreamPrepareHeader` | 39 (0x27) | Exported Function | 0x000000016660c050 | 0x0000c050
-`acmStreamReset` | 40 (0x28) | Exported Function | 0x000000016660c200 | 0x0000c200
-`acmFormatChooseW` | 23 (0x17) | Exported Function | 0x0000000166611980 | 0x00011980
-`acmFormatChooseA` | 22 (0x16) | Exported Function | 0x00000001666116c0 | 0x000116c0
-`acmFilterTagEnumW` | 21 (0x15) | Exported Function | 0x0000000166608d70 | 0x00008d70
-`acmFilterTagEnumA` | 20 (0x14) | Exported Function | 0x0000000166608c90 | 0x00008c90
-`acmDriverAddW` | 2 (0x2) | Exported Function | 0x0000000166607240 | 0x00007240
-`acmDriverClose` | 3 (0x3) | Exported Function | 0x0000000166607380 | 0x00007380
-`acmDriverDetailsA` | 4 (0x4) | Exported Function | 0x0000000166607400 | 0x00007400
-`acmDriverDetailsW` | 5 (0x5) | Exported Function | 0x00000001666075c0 | 0x000075c0
-`acmDriverEnum` | 6 (0x6) | Exported Function | 0x0000000166607660 | 0x00007660
-`acmDriverID` | 7 (0x7) | Exported Function | 0x00000001666077b0 | 0x000077b0
-`acmDriverMessage` | 8 (0x8) | Exported Function | 0x0000000166607870 | 0x00007870
-`acmDriverOpen` | 9 (0x9) | Exported Function | 0x0000000166607a20 | 0x00007a20
-`acmStreamSize` | 41 (0x29) | Exported Function | 0x000000016660c290 | 0x0000c290
-`acmDriverPriority` | 10 (0xa) | Exported Function | 0x0000000166607ad0 | 0x00007ad0
-`acmFilterChooseA` | 12 (0xc) | Exported Function | 0x0000000166611060 | 0x00011060
-`acmFilterChooseW` | 13 (0xd) | Exported Function | 0x0000000166611320 | 0x00011320
-`acmFilterDetailsA` | 14 (0xe) | Exported Function | 0x00000001666080b0 | 0x000080b0
-`acmFilterDetailsW` | 15 (0xf) | Exported Function | 0x00000001666081b0 | 0x000081b0
-`acmFilterEnumA` | 16 (0x10) | Exported Function | 0x00000001666084a0 | 0x000084a0
-`acmFilterEnumW` | 17 (0x11) | Exported Function | 0x0000000166608580 | 0x00008580
-`acmFilterTagDetailsA` | 18 (0x12) | Exported Function | 0x0000000166608990 | 0x00008990
-`acmFilterTagDetailsW` | 19 (0x13) | Exported Function | 0x0000000166608a80 | 0x00008a80
-`acmDriverRemove` | 11 (0xb) | Exported Function | 0x0000000166607cf0 | 0x00007cf0
-`acmStreamUnprepareHeader` | 42 (0x2a) | Exported Function | 0x000000016660c3c0 | 0x0000c3c0
+Function Name | Ordinal | Type
+-- | -- | --
+`acmFormatSuggest` | 28 | Exported Function
+`acmFormatEnumW` | 27 | Exported Function
+`acmFormatTagDetailsA` | 29 | Exported Function
+`acmFormatTagEnumA` | 31 | Exported Function
+`acmFormatTagDetailsW` | 30 | Exported Function
+`acmFormatChooseW` | 23 | Exported Function
+`acmFormatChooseA` | 22 | Exported Function
+`acmFormatDetailsA` | 24 | Exported Function
+`acmFormatEnumA` | 26 | Exported Function
+`acmFormatDetailsW` | 25 | Exported Function
+`acmFormatTagEnumW` | 32 | Exported Function
+`acmStreamPrepareHeader` | 39 | Exported Function
+`acmStreamOpen` | 38 | Exported Function
+`acmStreamReset` | 40 | Exported Function
+`acmStreamUnprepareHeader` | 42 | Exported Function
+`acmStreamSize` | 41 | Exported Function
+`acmMetrics` | 34 | Exported Function
+`acmGetVersion` | 33 | Exported Function
+`acmStreamClose` | 35 | Exported Function
+`acmStreamMessage` | 37 | Exported Function
+`acmStreamConvert` | 36 | Exported Function
+`acmDriverID` | 7 | Exported Function
+`acmDriverEnum` | 6 | Exported Function
+`acmDriverMessage` | 8 | Exported Function
+`acmDriverPriority` | 10 | Exported Function
+`acmDriverOpen` | 9 | Exported Function
+`acmDriverAddW` | 2 | Exported Function
+`acmDriverAddA` | 1 | Exported Function
+`acmDriverClose` | 3 | Exported Function
+`acmDriverDetailsW` | 5 | Exported Function
+`acmDriverDetailsA` | 4 | Exported Function
+`acmDriverRemove` | 11 | Exported Function
+`acmFilterTagDetailsA` | 18 | Exported Function
+`acmFilterEnumW` | 17 | Exported Function
+`acmFilterTagDetailsW` | 19 | Exported Function
+`acmFilterTagEnumW` | 21 | Exported Function
+`acmFilterTagEnumA` | 20 | Exported Function
+`acmFilterChooseW` | 13 | Exported Function
+`acmFilterChooseA` | 12 | Exported Function
+`acmFilterDetailsA` | 14 | Exported Function
+`acmFilterEnumA` | 16 | Exported Function
+`acmFilterDetailsW` | 15 | Exported Function
 
 
 ## Signature

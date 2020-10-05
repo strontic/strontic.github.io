@@ -24,38 +24,38 @@ PE256 | `B0D05B32C8336DE4A2798E088F13C3DF29F8A4963FFF4D22DF57196AECF3D4C9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_abs64` | 1 (0x1) | Exported Function | ucrtbase._abs64 | 0x000012ad
-`rand` | 28 (0x1c) | Exported Function | ucrtbase.rand | 0x00001554
-`qsort_s` | 27 (0x1b) | Exported Function | ucrtbase.qsort_s | 0x0000153e
-`qsort` | 26 (0x1a) | Exported Function | ucrtbase.qsort | 0x00001527
-`lldiv` | 25 (0x19) | Exported Function | ucrtbase.lldiv | 0x00001512
-`llabs` | 24 (0x18) | Exported Function | ucrtbase.llabs | 0x000014fd
-`ldiv` | 23 (0x17) | Exported Function | ucrtbase.ldiv | 0x000014e9
-`labs` | 22 (0x16) | Exported Function | ucrtbase.labs | 0x000014d6
-`imaxdiv` | 21 (0x15) | Exported Function | ucrtbase.imaxdiv | 0x000014c0
-`imaxabs` | 20 (0x14) | Exported Function | ucrtbase.imaxabs | 0x000014a7
-`div` | 19 (0x13) | Exported Function | ucrtbase.div | 0x00001492
-`bsearch_s` | 18 (0x12) | Exported Function | ucrtbase.bsearch_s | 0x0000147b
-`bsearch` | 17 (0x11) | Exported Function | ucrtbase.bsearch | 0x00001460
-`abs` | 16 (0x10) | Exported Function | ucrtbase.abs | 0x0000144b
-`_swab` | 15 (0xf) | Exported Function | ucrtbase._swab | 0x00001438
-`_rotr64` | 14 (0xe) | Exported Function | ucrtbase._rotr64 | 0x00001421
-`_rotr` | 13 (0xd) | Exported Function | ucrtbase._rotr | 0x0000140a
-`_rotl64` | 12 (0xc) | Exported Function | ucrtbase._rotl64 | 0x000013f3
-`_rotl` | 11 (0xb) | Exported Function | ucrtbase._rotl | 0x000013dc
-`_lsearch_s` | 10 (0xa) | Exported Function | ucrtbase._lsearch_s | 0x000013c2
-`_lsearch` | 9 (0x9) | Exported Function | ucrtbase._lsearch | 0x000013a5
-`_lrotr` | 8 (0x8) | Exported Function | ucrtbase._lrotr | 0x0000138c
-`_lrotl` | 7 (0x7) | Exported Function | ucrtbase._lrotl | 0x00001375
-`_lfind_s` | 6 (0x6) | Exported Function | ucrtbase._lfind_s | 0x0000135c
-`_lfind` | 5 (0x5) | Exported Function | ucrtbase._lfind | 0x00001343
-`_byteswap_ushort` | 4 (0x4) | Exported Function | ucrtbase._byteswap_ushort | 0x00001322
-`_byteswap_ulong` | 3 (0x3) | Exported Function | ucrtbase._byteswap_ulong | 0x000012f8
-`_byteswap_uint64` | 2 (0x2) | Exported Function | ucrtbase._byteswap_uint64 | 0x000012ce
-`rand_s` | 29 (0x1d) | Exported Function | ucrtbase.rand_s | 0x00001569
-`srand` | 30 (0x1e) | Exported Function | ucrtbase.srand | 0x0000157f
+Function Name | Ordinal | Type
+-- | -- | --
+`imaxabs` | 20 | Exported Function
+`imaxdiv` | 21 | Exported Function
+`labs` | 22 | Exported Function
+`div` | 19 | Exported Function
+`abs` | 16 | Exported Function
+`bsearch` | 17 | Exported Function
+`bsearch_s` | 18 | Exported Function
+`ldiv` | 23 | Exported Function
+`rand` | 28 | Exported Function
+`rand_s` | 29 | Exported Function
+`srand` | 30 | Exported Function
+`qsort_s` | 27 | Exported Function
+`llabs` | 24 | Exported Function
+`lldiv` | 25 | Exported Function
+`qsort` | 26 | Exported Function
+`_lfind` | 5 | Exported Function
+`_lfind_s` | 6 | Exported Function
+`_lrotl` | 7 | Exported Function
+`_byteswap_ushort` | 4 | Exported Function
+`_abs64` | 1 | Exported Function
+`_byteswap_uint64` | 2 | Exported Function
+`_byteswap_ulong` | 3 | Exported Function
+`_lrotr` | 8 | Exported Function
+`_rotr` | 13 | Exported Function
+`_rotr64` | 14 | Exported Function
+`_swab` | 15 | Exported Function
+`_rotl64` | 12 | Exported Function
+`_lsearch` | 9 | Exported Function
+`_lsearch_s` | 10 | Exported Function
+`_rotl` | 11 | Exported Function
 
 
 ## Signature

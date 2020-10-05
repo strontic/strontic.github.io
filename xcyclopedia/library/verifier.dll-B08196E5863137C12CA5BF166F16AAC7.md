@@ -24,34 +24,34 @@ PE256 | `11D6869B91C52A8DF70C949724BCE144ED34E51C61989D45C7F74F4C462EF09E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AVrfAPILookupCallback` | 1 (0x1) | Exported Function | 0x10010c40 | 0x00010c40
-`VerifierSetFlags` | 24 (0x18) | Exported Function | 0x1000ef20 | 0x0000ef20
-`VerifierSetFaultInjectionProbability` | 23 (0x17) | Exported Function | 0x10007160 | 0x00007160
-`VerifierRedirectStopFunctions` | 22 (0x16) | Exported Function | 0x1000dbd0 | 0x0000dbd0
-`VerifierQueryRuntimeFlags` | 21 (0x15) | Exported Function | 0x10011de0 | 0x00011de0
-`VerifierIsPerUserSettingsEnabled` | 20 (0x14) | Exported Function | 0x10012250 | 0x00012250
-`VerifierIsDllEntryActive` | 19 (0x13) | Exported Function | 0x10011f10 | 0x00011f10
-`VerifierIsCurrentThreadHoldingLocks` | 18 (0x12) | Exported Function | 0x10011f60 | 0x00011f60
-`VerifierIsAddressInAnyPageHeap` | 17 (0x11) | Exported Function | 0x10012030 | 0x00012030
-`VerifierGetProviderHelper` | 16 (0x10) | Exported Function | 0x10012280 | 0x00012280
-`VerifierGetPropertyValueByName` | 15 (0xf) | Exported Function | 0x10012300 | 0x00012300
-`VerifierGetMemoryForDump` | 14 (0xe) | Exported Function | 0x10012100 | 0x00012100
-`VerifierGetInfoForException` | 13 (0xd) | Exported Function | 0x10012060 | 0x00012060
-`VerifierForceNormalHeap` | 12 (0xc) | Exported Function | 0x100121c0 | 0x000121c0
-`VerifierEnumerateResource` | 11 (0xb) | Exported Function | 0x10011d30 | 0x00011d30
-`VerifierEnableFaultInjectionTargetRange` | 10 (0xa) | Exported Function | 0x100071c0 | 0x000071c0
-`VerifierEnableFaultInjectionExclusionRange` | 9 (0x9) | Exported Function | 0x100073b0 | 0x000073b0
-`VerifierDisableFaultInjectionTargetRange` | 8 (0x8) | Exported Function | 0x100072d0 | 0x000072d0
-`VerifierDisableFaultInjectionExclusionRange` | 7 (0x7) | Exported Function | 0x10007460 | 0x00007460
-`VerifierDestroyRpcPageHeap` | 6 (0x6) | Exported Function | 0x10011ed0 | 0x00011ed0
-`VerifierDeleteFreeMemoryCallback` | 5 (0x5) | Exported Function | 0x10011ff0 | 0x00011ff0
-`VerifierCreateRpcPageHeap` | 4 (0x4) | Exported Function | 0x10011e70 | 0x00011e70
-`VerifierCheckPageHeapAllocation` | 3 (0x3) | Exported Function | 0x10012230 | 0x00012230
-`VerifierAddFreeMemoryCallback` | 2 (0x2) | Exported Function | 0x10011fb0 | 0x00011fb0
-`VerifierSetRuntimeFlags` | 25 (0x19) | Exported Function | 0x10011d70 | 0x00011d70
-`VerifierStopMessage` | 26 (0x1a) | Exported Function | 0x1000dbf0 | 0x0000dbf0
+Function Name | Ordinal | Type
+-- | -- | --
+`VerifierIsAddressInAnyPageHeap` | 17 | Exported Function
+`VerifierIsCurrentThreadHoldingLocks` | 18 | Exported Function
+`VerifierIsDllEntryActive` | 19 | Exported Function
+`VerifierGetMemoryForDump` | 14 | Exported Function
+`VerifierGetPropertyValueByName` | 15 | Exported Function
+`VerifierGetProviderHelper` | 16 | Exported Function
+`VerifierIsPerUserSettingsEnabled` | 20 | Exported Function
+`VerifierSetFlags` | 24 | Exported Function
+`VerifierSetRuntimeFlags` | 25 | Exported Function
+`VerifierStopMessage` | 26 | Exported Function
+`VerifierQueryRuntimeFlags` | 21 | Exported Function
+`VerifierRedirectStopFunctions` | 22 | Exported Function
+`VerifierSetFaultInjectionProbability` | 23 | Exported Function
+`VerifierCreateRpcPageHeap` | 4 | Exported Function
+`VerifierDeleteFreeMemoryCallback` | 5 | Exported Function
+`VerifierDestroyRpcPageHeap` | 6 | Exported Function
+`AVrfAPILookupCallback` | 1 | Exported Function
+`VerifierAddFreeMemoryCallback` | 2 | Exported Function
+`VerifierCheckPageHeapAllocation` | 3 | Exported Function
+`VerifierDisableFaultInjectionExclusionRange` | 7 | Exported Function
+`VerifierEnumerateResource` | 11 | Exported Function
+`VerifierForceNormalHeap` | 12 | Exported Function
+`VerifierGetInfoForException` | 13 | Exported Function
+`VerifierDisableFaultInjectionTargetRange` | 8 | Exported Function
+`VerifierEnableFaultInjectionExclusionRange` | 9 | Exported Function
+`VerifierEnableFaultInjectionTargetRange` | 10 | Exported Function
 
 
 ## Signature

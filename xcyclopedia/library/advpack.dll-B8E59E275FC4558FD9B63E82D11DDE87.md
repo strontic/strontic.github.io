@@ -24,92 +24,92 @@ PE256 | `87913847FFF4F3F13F129555DDE5DD915CBDEADC3DC2AAA537ED5592A61B3C8D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddDelBackupEntry` | 13 (0xd) | Exported Function | 0x0000000165017890 | 0x00017890
-`RegSaveRestore` | 61 (0x3d) | Exported Function | 0x00000001650122d0 | 0x000122d0
-`RegRestoreAllW` | 60 (0x3c) | Exported Function | 0x00000001650128f0 | 0x000128f0
-`RegRestoreAllA` | 59 (0x3b) | Exported Function | 0x0000000165012880 | 0x00012880
-`RegRestoreAll` | 58 (0x3a) | Exported Function | 0x0000000165012880 | 0x00012880
-`RegisterOCXW` | 12 (0xc) | Exported Function | 0x0000000165004520 | 0x00004520
-`RegisterOCX` | 11 (0xb) | Exported Function | 0x0000000165004470 | 0x00004470
-`RegInstallW` | 57 (0x39) | Exported Function | 0x0000000165002b80 | 0x00002b80
-`RegInstallA` | 56 (0x38) | Exported Function | 0x0000000165002ae0 | 0x00002ae0
-`RegInstall` | 55 (0x37) | Exported Function | 0x0000000165002ae0 | 0x00002ae0
-`RebootCheckOnInstallW` | 54 (0x36) | Exported Function | 0x000000016500ead0 | 0x0000ead0
-`RebootCheckOnInstallA` | 53 (0x35) | Exported Function | 0x000000016500ea10 | 0x0000ea10
-`RebootCheckOnInstall` | 52 (0x34) | Exported Function | 0x000000016500ea10 | 0x0000ea10
-`OpenINFEngineW` | 51 (0x33) | Exported Function | 0x0000000165010de0 | 0x00010de0
-`OpenINFEngineA` | 50 (0x32) | Exported Function | 0x0000000165010d20 | 0x00010d20
-`OpenINFEngine` | 49 (0x31) | Exported Function | 0x0000000165010d20 | 0x00010d20
-`NeedRebootInit` | 48 (0x30) | Exported Function | 0x0000000165004100 | 0x00004100
-`NeedReboot` | 47 (0x2f) | Exported Function | 0x0000000165004130 | 0x00004130
-`RegSaveRestoreA` | 62 (0x3e) | Exported Function | 0x00000001650122d0 | 0x000122d0
-`LaunchINFSectionW` | 46 (0x2e) | Exported Function | 0x00000001650039b0 | 0x000039b0
-`RegSaveRestoreOnINF` | 63 (0x3f) | Exported Function | 0x000000016500ec20 | 0x0000ec20
-`RegSaveRestoreOnINFW` | 65 (0x41) | Exported Function | 0x000000016500ed20 | 0x0000ed20
-`UserUnInstStubWrapper` | 82 (0x52) | Exported Function | 0x0000000165010730 | 0x00010730
-`UserInstStubWrapperW` | 81 (0x51) | Exported Function | 0x00000001650103f0 | 0x000103f0
-`UserInstStubWrapperA` | 80 (0x50) | Exported Function | 0x0000000165010370 | 0x00010370
-`UserInstStubWrapper` | 79 (0x4f) | Exported Function | 0x0000000165010370 | 0x00010370
-`TranslateInfStringW` | 78 (0x4e) | Exported Function | 0x0000000165004300 | 0x00004300
-`TranslateInfStringExW` | 77 (0x4d) | Exported Function | 0x0000000165010cb0 | 0x00010cb0
-`TranslateInfStringExA` | 76 (0x4c) | Exported Function | 0x0000000165010b10 | 0x00010b10
-`TranslateInfStringEx` | 75 (0x4b) | Exported Function | 0x0000000165010b10 | 0x00010b10
-`TranslateInfStringA` | 74 (0x4a) | Exported Function | 0x0000000165004170 | 0x00004170
-`TranslateInfString` | 73 (0x49) | Exported Function | 0x0000000165004170 | 0x00004170
-`SetPerUserSecValuesW` | 72 (0x48) | Exported Function | 0x000000016500fce0 | 0x0000fce0
-`SetPerUserSecValuesA` | 71 (0x47) | Exported Function | 0x000000016500fb80 | 0x0000fb80
-`SetPerUserSecValues` | 70 (0x46) | Exported Function | 0x000000016500fb80 | 0x0000fb80
-`RunSetupCommandW` | 69 (0x45) | Exported Function | 0x0000000165003e20 | 0x00003e20
-`RunSetupCommandA` | 68 (0x44) | Exported Function | 0x0000000165003d00 | 0x00003d00
-`RunSetupCommand` | 67 (0x43) | Exported Function | 0x0000000165003d00 | 0x00003d00
-`RegSaveRestoreW` | 66 (0x42) | Exported Function | 0x00000001650123e0 | 0x000123e0
-`RegSaveRestoreOnINFA` | 64 (0x40) | Exported Function | 0x000000016500ec20 | 0x0000ec20
-`LaunchINFSectionExW` | 45 (0x2d) | Exported Function | 0x000000016500c190 | 0x0000c190
-`LaunchINFSectionExA` | 10 (0xa) | Exported Function | 0x000000016500c110 | 0x0000c110
-`LaunchINFSectionEx` | 9 (0x9) | Exported Function | 0x000000016500c110 | 0x0000c110
-`ExecuteCabA` | 25 (0x19) | Exported Function | 0x000000016500c350 | 0x0000c350
-`ExecuteCab` | 24 (0x18) | Exported Function | 0x000000016500c350 | 0x0000c350
-`DoInfInstallW` | 5 (0x5) | Exported Function | 0x0000000165003840 | 0x00003840
-`DoInfInstallA` | 4 (0x4) | Exported Function | 0x0000000165003750 | 0x00003750
-`DoInfInstall` | 3 (0x3) | Exported Function | 0x0000000165003750 | 0x00003750
-`DelNodeW` | 23 (0x17) | Exported Function | 0x000000016500b780 | 0x0000b780
-`DelNodeRunDLL32W` | 22 (0x16) | Exported Function | 0x000000016500bac0 | 0x0000bac0
-`DelNodeRunDLL32A` | 2 (0x2) | Exported Function | 0x000000016500ba40 | 0x0000ba40
-`DelNodeRunDLL32` | 1 (0x1) | Exported Function | 0x000000016500ba40 | 0x0000ba40
-`DelNodeA` | 21 (0x15) | Exported Function | 0x000000016500b720 | 0x0000b720
-`DelNode` | 20 (0x14) | Exported Function | 0x000000016500b720 | 0x0000b720
-`CloseINFEngine` | 19 (0x13) | Exported Function | 0x0000000165010ef0 | 0x00010ef0
-`AdvInstallFileW` | 18 (0x12) | Exported Function | 0x00000001650015e0 | 0x000015e0
-`AdvInstallFileA` | 17 (0x11) | Exported Function | 0x00000001650014d0 | 0x000014d0
-`AdvInstallFile` | 16 (0x10) | Exported Function | 0x00000001650014d0 | 0x000014d0
-`AddDelBackupEntryW` | 15 (0xf) | Exported Function | 0x0000000165017970 | 0x00017970
-`AddDelBackupEntryA` | 14 (0xe) | Exported Function | 0x0000000165017890 | 0x00017890
-`ExecuteCabW` | 26 (0x1a) | Exported Function | 0x000000016500c4a0 | 0x0000c4a0
-`ExtractFiles` | 27 (0x1b) | Exported Function | 0x0000000165011df0 | 0x00011df0
-`ExtractFilesA` | 28 (0x1c) | Exported Function | 0x0000000165011df0 | 0x00011df0
-`ExtractFilesW` | 29 (0x1d) | Exported Function | 0x0000000165011d00 | 0x00011d00
-`LaunchINFSectionA` | 8 (0x8) | Exported Function | 0x0000000165003920 | 0x00003920
-`LaunchINFSection` | 44 (0x2c) | Exported Function | 0x00000001650039a0 | 0x000039a0
-`IsNTAdmin` | 43 (0x2b) | Exported Function | 0x000000016500e750 | 0x0000e750
-`GetVersionFromFileW` | 42 (0x2a) | Exported Function | 0x000000016500ae50 | 0x0000ae50
-`GetVersionFromFileExW` | 41 (0x29) | Exported Function | 0x000000016500acf0 | 0x0000acf0
-`GetVersionFromFileExA` | 40 (0x28) | Exported Function | 0x000000016500ac70 | 0x0000ac70
-`GetVersionFromFileEx` | 39 (0x27) | Exported Function | 0x000000016500ac70 | 0x0000ac70
-`GetVersionFromFileA` | 38 (0x26) | Exported Function | 0x000000016500adc0 | 0x0000adc0
-`UserUnInstStubWrapperA` | 83 (0x53) | Exported Function | 0x0000000165010730 | 0x00010730
-`GetVersionFromFile` | 37 (0x25) | Exported Function | 0x000000016500adc0 | 0x0000adc0
-`FileSaveRestoreOnINFW` | 35 (0x23) | Exported Function | 0x000000016500f070 | 0x0000f070
-`FileSaveRestoreOnINFA` | 34 (0x22) | Exported Function | 0x000000016500ef30 | 0x0000ef30
-`FileSaveRestoreOnINF` | 33 (0x21) | Exported Function | 0x000000016500ef30 | 0x0000ef30
-`FileSaveRestoreA` | 7 (0x7) | Exported Function | 0x0000000165015590 | 0x00015590
-`FileSaveRestore` | 6 (0x6) | Exported Function | 0x0000000165015590 | 0x00015590
-`FileSaveMarkNotExistW` | 32 (0x20) | Exported Function | 0x0000000165017870 | 0x00017870
-`FileSaveMarkNotExistA` | 31 (0x1f) | Exported Function | 0x00000001650177a0 | 0x000177a0
-`FileSaveMarkNotExist` | 30 (0x1e) | Exported Function | 0x00000001650177a0 | 0x000177a0
-`FileSaveRestoreW` | 36 (0x24) | Exported Function | 0x0000000165015680 | 0x00015680
-`UserUnInstStubWrapperW` | 84 (0x54) | Exported Function | 0x00000001650107b0 | 0x000107b0
+Function Name | Ordinal | Type
+-- | -- | --
+`RegisterOCXW` | 12 | Exported Function
+`RegRestoreAll` | 58 | Exported Function
+`RegisterOCX` | 11 | Exported Function
+`RegInstallA` | 56 | Exported Function
+`RegInstallW` | 57 | Exported Function
+`RegSaveRestoreA` | 62 | Exported Function
+`RegSaveRestoreOnINF` | 63 | Exported Function
+`RegSaveRestore` | 61 | Exported Function
+`RegRestoreAllA` | 59 | Exported Function
+`RegRestoreAllW` | 60 | Exported Function
+`RegInstall` | 55 | Exported Function
+`NeedRebootInit` | 48 | Exported Function
+`OpenINFEngine` | 49 | Exported Function
+`NeedReboot` | 47 | Exported Function
+`LaunchINFSectionExW` | 45 | Exported Function
+`LaunchINFSectionW` | 46 | Exported Function
+`RebootCheckOnInstallA` | 53 | Exported Function
+`RebootCheckOnInstallW` | 54 | Exported Function
+`RebootCheckOnInstall` | 52 | Exported Function
+`OpenINFEngineA` | 50 | Exported Function
+`OpenINFEngineW` | 51 | Exported Function
+`TranslateInfStringW` | 78 | Exported Function
+`UserInstStubWrapper` | 79 | Exported Function
+`TranslateInfStringExW` | 77 | Exported Function
+`TranslateInfStringEx` | 75 | Exported Function
+`TranslateInfStringExA` | 76 | Exported Function
+`UserUnInstStubWrapperA` | 83 | Exported Function
+`UserUnInstStubWrapperW` | 84 | Exported Function
+`UserUnInstStubWrapper` | 82 | Exported Function
+`UserInstStubWrapperA` | 80 | Exported Function
+`UserInstStubWrapperW` | 81 | Exported Function
+`TranslateInfStringA` | 74 | Exported Function
+`RunSetupCommand` | 67 | Exported Function
+`RunSetupCommandA` | 68 | Exported Function
+`RegSaveRestoreW` | 66 | Exported Function
+`RegSaveRestoreOnINFA` | 64 | Exported Function
+`RegSaveRestoreOnINFW` | 65 | Exported Function
+`SetPerUserSecValuesW` | 72 | Exported Function
+`TranslateInfString` | 73 | Exported Function
+`SetPerUserSecValuesA` | 71 | Exported Function
+`RunSetupCommandW` | 69 | Exported Function
+`SetPerUserSecValues` | 70 | Exported Function
+`DoInfInstallA` | 4 | Exported Function
+`DoInfInstallW` | 5 | Exported Function
+`DoInfInstall` | 3 | Exported Function
+`DelNodeRunDLL32W` | 22 | Exported Function
+`DelNodeW` | 23 | Exported Function
+`ExtractFiles` | 27 | Exported Function
+`ExtractFilesA` | 28 | Exported Function
+`ExecuteCabW` | 26 | Exported Function
+`ExecuteCab` | 24 | Exported Function
+`ExecuteCabA` | 25 | Exported Function
+`DelNodeRunDLL32A` | 2 | Exported Function
+`AdvInstallFile` | 16 | Exported Function
+`AdvInstallFileA` | 17 | Exported Function
+`AddDelBackupEntryW` | 15 | Exported Function
+`AddDelBackupEntry` | 13 | Exported Function
+`AddDelBackupEntryA` | 14 | Exported Function
+`DelNodeA` | 21 | Exported Function
+`DelNodeRunDLL32` | 1 | Exported Function
+`DelNode` | 20 | Exported Function
+`AdvInstallFileW` | 18 | Exported Function
+`CloseINFEngine` | 19 | Exported Function
+`GetVersionFromFileExW` | 41 | Exported Function
+`GetVersionFromFileW` | 42 | Exported Function
+`GetVersionFromFileExA` | 40 | Exported Function
+`GetVersionFromFileA` | 38 | Exported Function
+`GetVersionFromFileEx` | 39 | Exported Function
+`LaunchINFSectionEx` | 9 | Exported Function
+`LaunchINFSectionExA` | 10 | Exported Function
+`LaunchINFSectionA` | 8 | Exported Function
+`IsNTAdmin` | 43 | Exported Function
+`LaunchINFSection` | 44 | Exported Function
+`GetVersionFromFile` | 37 | Exported Function
+`FileSaveMarkNotExistW` | 32 | Exported Function
+`FileSaveRestore` | 6 | Exported Function
+`FileSaveMarkNotExistA` | 31 | Exported Function
+`ExtractFilesW` | 29 | Exported Function
+`FileSaveMarkNotExist` | 30 | Exported Function
+`FileSaveRestoreOnINFW` | 35 | Exported Function
+`FileSaveRestoreW` | 36 | Exported Function
+`FileSaveRestoreOnINFA` | 34 | Exported Function
+`FileSaveRestoreA` | 7 | Exported Function
+`FileSaveRestoreOnINF` | 33 | Exported Function
 
 
 ## Signature

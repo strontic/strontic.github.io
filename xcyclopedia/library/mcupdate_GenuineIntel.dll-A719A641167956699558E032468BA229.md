@@ -24,9 +24,9 @@ PE256 | `32C83AECB3CEA9C0E6276E9AC61D40324D2BBFF5C326C49EC6740E368E57671B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`McImageInfo` | 1 (0x1) | Exported Function | 0x00000001c0002260 | 0x00002260
+Function Name | Ordinal | Type
+-- | -- | --
+`McImageInfo` | 1 | Exported Function
 
 
 ## Signature

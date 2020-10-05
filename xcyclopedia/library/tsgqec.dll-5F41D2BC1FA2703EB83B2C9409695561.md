@@ -24,10 +24,10 @@ PE256 | `0C5A8BA4A39561FA5826D0FCAFB981023CC78BEC8AEA404741981CC76CC188E3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializeQec` | 1 (0x1) | Exported Function | 0x10003b10 | 0x00003b10
-`UninitializeQec` | 2 (0x2) | Exported Function | 0x10003d90 | 0x00003d90
+Function Name | Ordinal | Type
+-- | -- | --
+`UninitializeQec` | 2 | Exported Function
+`InitializeQec` | 1 | Exported Function
 
 
 ## Signature

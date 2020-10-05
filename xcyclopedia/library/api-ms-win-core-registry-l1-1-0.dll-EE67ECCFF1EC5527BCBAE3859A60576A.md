@@ -24,51 +24,51 @@ PE256 | `366D534AED394FB4CD8E1EBC2A27993098ECD1995256696A6AF40AE14E8D59B2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RegCloseKey` | 1 (0x1) | Exported Function | advapi32.RegCloseKey | 0x00001266
-`RegLoadMUIStringA` | 24 (0x18) | Exported Function | advapi32.RegLoadMUIStringA | 0x000015ed
-`RegLoadMUIStringW` | 25 (0x19) | Exported Function | advapi32.RegLoadMUIStringW | 0x0000161a
-`RegNotifyChangeKeyValue` | 26 (0x1a) | Exported Function | advapi32.RegNotifyChangeKeyValue | 0x0000164d
-`RegOpenCurrentUser` | 27 (0x1b) | Exported Function | advapi32.RegOpenCurrentUser | 0x00001681
-`RegOpenKeyExA` | 28 (0x1c) | Exported Function | advapi32.RegOpenKeyExA | 0x000016ab
-`RegOpenKeyExW` | 29 (0x1d) | Exported Function | advapi32.RegOpenKeyExW | 0x000016d0
-`RegOpenUserClassesRoot` | 30 (0x1e) | Exported Function | advapi32.RegOpenUserClassesRoot | 0x000016fe
-`RegQueryInfoKeyA` | 31 (0x1f) | Exported Function | advapi32.RegQueryInfoKeyA | 0x0000172f
-`RegLoadKeyW` | 23 (0x17) | Exported Function | advapi32.RegLoadKeyW | 0x000015c6
-`RegQueryInfoKeyW` | 32 (0x20) | Exported Function | advapi32.RegQueryInfoKeyW | 0x0000175a
-`RegQueryValueExW` | 34 (0x22) | Exported Function | advapi32.RegQueryValueExW | 0x000017b0
-`RegRestoreKeyA` | 35 (0x23) | Exported Function | advapi32.RegRestoreKeyA | 0x000017d9
-`RegRestoreKeyW` | 36 (0x24) | Exported Function | advapi32.RegRestoreKeyW | 0x00001800
-`RegSaveKeyExA` | 37 (0x25) | Exported Function | advapi32.RegSaveKeyExA | 0x00001826
-`RegSaveKeyExW` | 38 (0x26) | Exported Function | advapi32.RegSaveKeyExW | 0x0000184b
-`RegSetKeySecurity` | 39 (0x27) | Exported Function | advapi32.RegSetKeySecurity | 0x00001874
-`RegSetValueExA` | 40 (0x28) | Exported Function | advapi32.RegSetValueExA | 0x0000189e
-`RegSetValueExW` | 41 (0x29) | Exported Function | advapi32.RegSetValueExW | 0x000018c5
-`RegQueryValueExA` | 33 (0x21) | Exported Function | advapi32.RegQueryValueExA | 0x00001785
-`RegUnLoadKeyA` | 42 (0x2a) | Exported Function | advapi32.RegUnLoadKeyA | 0x000018eb
-`RegLoadKeyA` | 22 (0x16) | Exported Function | advapi32.RegLoadKeyA | 0x000015a5
-`RegLoadAppKeyA` | 20 (0x14) | Exported Function | advapi32.RegLoadAppKeyA | 0x0000155a
-`RegCopyTreeW` | 2 (0x2) | Exported Function | advapi32.RegCopyTreeW | 0x00001288
-`RegCreateKeyExA` | 3 (0x3) | Exported Function | advapi32.RegCreateKeyExA | 0x000012ae
-`RegCreateKeyExW` | 4 (0x4) | Exported Function | advapi32.RegCreateKeyExW | 0x000012d7
-`RegDeleteKeyExA` | 5 (0x5) | Exported Function | advapi32.RegDeleteKeyExA | 0x00001300
-`RegDeleteKeyExW` | 6 (0x6) | Exported Function | advapi32.RegDeleteKeyExW | 0x00001329
-`RegDeleteTreeA` | 7 (0x7) | Exported Function | advapi32.RegDeleteTreeA | 0x00001351
-`RegDeleteTreeW` | 8 (0x8) | Exported Function | advapi32.RegDeleteTreeW | 0x00001378
-`RegDeleteValueA` | 9 (0x9) | Exported Function | advapi32.RegDeleteValueA | 0x000013a0
-`RegLoadAppKeyW` | 21 (0x15) | Exported Function | advapi32.RegLoadAppKeyW | 0x00001581
-`RegDeleteValueW` | 10 (0xa) | Exported Function | advapi32.RegDeleteValueW | 0x000013c9
-`RegEnumKeyExA` | 12 (0xc) | Exported Function | advapi32.RegEnumKeyExA | 0x00001431
-`RegEnumKeyExW` | 13 (0xd) | Exported Function | advapi32.RegEnumKeyExW | 0x00001456
-`RegEnumValueA` | 14 (0xe) | Exported Function | advapi32.RegEnumValueA | 0x0000147b
-`RegEnumValueW` | 15 (0xf) | Exported Function | advapi32.RegEnumValueW | 0x000014a0
-`RegFlushKey` | 16 (0x10) | Exported Function | advapi32.RegFlushKey | 0x000014c3
-`RegGetKeySecurity` | 17 (0x11) | Exported Function | advapi32.RegGetKeySecurity | 0x000014ea
-`RegGetValueA` | 18 (0x12) | Exported Function | advapi32.RegGetValueA | 0x00001512
-`RegGetValueW` | 19 (0x13) | Exported Function | advapi32.RegGetValueW | 0x00001535
-`RegDisablePredefinedCacheEx` | 11 (0xb) | Exported Function | advapi32.RegDisablePredefinedCacheEx | 0x000013fe
-`RegUnLoadKeyW` | 43 (0x2b) | Exported Function | advapi32.RegUnLoadKeyW | 0x00001910
+Function Name | Ordinal | Type
+-- | -- | --
+`RegOpenKeyExW` | 29 | Exported Function
+`RegOpenKeyExA` | 28 | Exported Function
+`RegOpenUserClassesRoot` | 30 | Exported Function
+`RegQueryInfoKeyW` | 32 | Exported Function
+`RegQueryInfoKeyA` | 31 | Exported Function
+`RegLoadMUIStringA` | 24 | Exported Function
+`RegLoadKeyW` | 23 | Exported Function
+`RegLoadMUIStringW` | 25 | Exported Function
+`RegOpenCurrentUser` | 27 | Exported Function
+`RegNotifyChangeKeyValue` | 26 | Exported Function
+`RegQueryValueExA` | 33 | Exported Function
+`RegSetValueExA` | 40 | Exported Function
+`RegSetKeySecurity` | 39 | Exported Function
+`RegSetValueExW` | 41 | Exported Function
+`RegUnLoadKeyW` | 43 | Exported Function
+`RegUnLoadKeyA` | 42 | Exported Function
+`RegRestoreKeyA` | 35 | Exported Function
+`RegQueryValueExW` | 34 | Exported Function
+`RegRestoreKeyW` | 36 | Exported Function
+`RegSaveKeyExW` | 38 | Exported Function
+`RegSaveKeyExA` | 37 | Exported Function
+`RegLoadKeyA` | 22 | Exported Function
+`RegDeleteTreeA` | 7 | Exported Function
+`RegDeleteKeyExW` | 6 | Exported Function
+`RegDeleteTreeW` | 8 | Exported Function
+`RegDeleteValueW` | 10 | Exported Function
+`RegDeleteValueA` | 9 | Exported Function
+`RegCopyTreeW` | 2 | Exported Function
+`RegCloseKey` | 1 | Exported Function
+`RegCreateKeyExA` | 3 | Exported Function
+`RegDeleteKeyExA` | 5 | Exported Function
+`RegCreateKeyExW` | 4 | Exported Function
+`RegDisablePredefinedCacheEx` | 11 | Exported Function
+`RegGetValueA` | 18 | Exported Function
+`RegGetKeySecurity` | 17 | Exported Function
+`RegGetValueW` | 19 | Exported Function
+`RegLoadAppKeyW` | 21 | Exported Function
+`RegLoadAppKeyA` | 20 | Exported Function
+`RegEnumKeyExW` | 13 | Exported Function
+`RegEnumKeyExA` | 12 | Exported Function
+`RegEnumValueA` | 14 | Exported Function
+`RegFlushKey` | 16 | Exported Function
+`RegEnumValueW` | 15 | Exported Function
 
 
 ## Signature
@@ -100,6 +100,7 @@ Function Name | Ordinal | Type | Address | Relative Address
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 40
+[C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\Smart Tag\SmartTagInstall.exe](SmartTagInstall.exe-632AB2DBE46DE1E9BB0FB7B54B3BB05C.md) | 33
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 44
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 27
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 38

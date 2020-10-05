@@ -24,15 +24,15 @@ PE256 | `06F235CDFD2871AB64ED252F660B0D1E537D72844108227574AF791B6D0CF42C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`HvlExchangeDispatchInterface` | 1 (0x1) | Exported Function | 0x0000000180001870 | 0x00001870
-`HvlLaunchHypervisor` | 2 (0x2) | Exported Function | 0x0000000180003fd4 | 0x00003fd4
-`HvlLoadHypervisor` | 3 (0x3) | Exported Function | 0x0000000180006010 | 0x00006010
-`HvlPreloadHypervisor` | 4 (0x4) | Exported Function | 0x0000000180006460 | 0x00006460
-`HvlRegisterRuntimeRange` | 5 (0x5) | Exported Function | 0x0000000180006568 | 0x00006568
-`HvlRescindVsm` | 6 (0x6) | Exported Function | 0x0000000180006550 | 0x00006550
-`HvlUpdateMcUpdateStatus` | 7 (0x7) | Exported Function | 0x000000018000650c | 0x0000650c
+Function Name | Ordinal | Type
+-- | -- | --
+`HvlRegisterRuntimeRange` | 5 | Exported Function
+`HvlRescindVsm` | 6 | Exported Function
+`HvlUpdateMcUpdateStatus` | 7 | Exported Function
+`HvlPreloadHypervisor` | 4 | Exported Function
+`HvlExchangeDispatchInterface` | 1 | Exported Function
+`HvlLaunchHypervisor` | 2 | Exported Function
+`HvlLoadHypervisor` | 3 | Exported Function
 
 
 ## Signature

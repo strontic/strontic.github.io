@@ -24,20 +24,20 @@ PE256 | `BA9CDB267124FBF456836DB3655BD0579A61F7BDF29B3769D137CD9173FD31EB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateExplorerSessionKey` | 1 (0x1) | Exported Function | 0x100027c0 | 0x000027c0
-`DisplayMessageAndExitWindows` | 2 (0x2) | Exported Function | 0x10001c00 | 0x00001c00
-`ImmWorker` | 3 (0x3) | Exported Function | 0x100024e0 | 0x000024e0
-`IsSubDesktopSession` | 4 (0x4) | Exported Function | 0x10002050 | 0x00002050
-`IsTSAppCompatOn` | 5 (0x5) | Exported Function | 0x100026d0 | 0x000026d0
-`LoadRemoteFontsAndInitMiscWorker` | 6 (0x6) | Exported Function | 0x10001fb0 | 0x00001fb0
-`PerformXForestLogonCheck` | 7 (0x7) | Exported Function | 0x10001c30 | 0x00001c30
-`ProcesRemoteSessionInitialCommand` | 8 (0x8) | Exported Function | 0x100020f0 | 0x000020f0
-`ProcessTermSrvIniFiles` | 9 (0x9) | Exported Function | 0x10002750 | 0x00002750
-`SetShellDesktopSwitchEvent` | 10 (0xa) | Exported Function | 0x100020c0 | 0x000020c0
-`SetupHotKeyForKeyboardLayout` | 11 (0xb) | Exported Function | 0x10002550 | 0x00002550
-`UserinitExt` | 12 (0xc) | Exported Function | 0x10002890 | 0x00002890
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessTermSrvIniFiles` | 9 | Exported Function
+`ProcesRemoteSessionInitialCommand` | 8 | Exported Function
+`PerformXForestLogonCheck` | 7 | Exported Function
+`UserinitExt` | 12 | Exported Function
+`SetupHotKeyForKeyboardLayout` | 11 | Exported Function
+`SetShellDesktopSwitchEvent` | 10 | Exported Function
+`ImmWorker` | 3 | Exported Function
+`DisplayMessageAndExitWindows` | 2 | Exported Function
+`CreateExplorerSessionKey` | 1 | Exported Function
+`LoadRemoteFontsAndInitMiscWorker` | 6 | Exported Function
+`IsTSAppCompatOn` | 5 | Exported Function
+`IsSubDesktopSession` | 4 | Exported Function
 
 
 ## Signature

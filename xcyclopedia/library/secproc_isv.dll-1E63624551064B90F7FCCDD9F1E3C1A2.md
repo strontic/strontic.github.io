@@ -24,38 +24,38 @@ PE256 | `2799F93C44D897FB2E395E3DFF8557E36BD4C589DE7D22A97068BEB5CB122E6D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SPAttest` | 1 (0x1) | Exported Function | 0x0000000166709de0 | 0x00009de0
-`SPLoadLibrary` | 27 (0x1b) | Exported Function | 0x000000016670b4d0 | 0x0000b4d0
-`SPIsActivated` | 26 (0x1a) | Exported Function | 0x000000016670bbe0 | 0x0000bbe0
-`SPGetProcAddress` | 25 (0x19) | Exported Function | 0x000000016670b600 | 0x0000b600
-`SPGetLicenseObjectCount` | 24 (0x18) | Exported Function | 0x000000016670b010 | 0x0000b010
-`SPGetLicenseObject` | 23 (0x17) | Exported Function | 0x000000016670b130 | 0x0000b130
-`SPGetLicenseAttributeCount` | 22 (0x16) | Exported Function | 0x000000016670b290 | 0x0000b290
-`SPGetLicenseAttribute` | 21 (0x15) | Exported Function | 0x000000016670b3b0 | 0x0000b3b0
-`SPGetInfo` | 20 (0x14) | Exported Function | 0x000000016670ac90 | 0x0000ac90
-`SPGetCurrentTime` | 19 (0x13) | Exported Function | 0x000000016670aba0 | 0x0000aba0
-`SPGetBoundRightKey` | 18 (0x12) | Exported Function | 0x000000016670bcd0 | 0x0000bcd0
-`SPEncryptUpdate` | 17 (0x11) | Exported Function | 0x000000016670ab60 | 0x0000ab60
-`SPEncryptFinal` | 16 (0x10) | Exported Function | 0x000000016670ab20 | 0x0000ab20
-`SPEncrypt` | 15 (0xf) | Exported Function | 0x000000016670aa00 | 0x0000aa00
-`SPEnablePublishingLicense` | 14 (0xe) | Exported Function | 0x000000016670a980 | 0x0000a980
-`SPEnableAndEncrypt` | 13 (0xd) | Exported Function | 0x000000016670b7c0 | 0x0000b7c0
-`SPDecryptUpdate` | 12 (0xc) | Exported Function | 0x000000016670a940 | 0x0000a940
-`SPDecryptFinal` | 11 (0xb) | Exported Function | 0x000000016670a900 | 0x0000a900
-`SPDecrypt` | 10 (0xa) | Exported Function | 0x000000016670a7d0 | 0x0000a7d0
-`SPCreateSecurityProcessor` | 9 (0x9) | Exported Function | 0x000000016670a600 | 0x0000a600
-`SPCreatePCE` | 8 (0x8) | Exported Function | 0x000000016670a5c0 | 0x0000a5c0
-`SPCreateEncryptor` | 7 (0x7) | Exported Function | 0x000000016670a440 | 0x0000a440
-`SPCreateEnablingPrincipal` | 6 (0x6) | Exported Function | 0x000000016670a2a0 | 0x0000a2a0
-`SPCreateDecryptor` | 5 (0x5) | Exported Function | 0x000000016670a180 | 0x0000a180
-`SPCommit` | 4 (0x4) | Exported Function | 0x000000016670a140 | 0x0000a140
-`SPCloseHandle` | 30 (0x1e) | Exported Function | 0x000000016670a070 | 0x0000a070
-`SPCheckEnvironmentSecurity` | 3 (0x3) | Exported Function | 0x000000016670a100 | 0x0000a100
-`SPBindLicense` | 2 (0x2) | Exported Function | 0x0000000166709f00 | 0x00009f00
-`SPRegisterRevocationList` | 28 (0x1c) | Exported Function | 0x000000016670af20 | 0x0000af20
-`SPSign` | 29 (0x1d) | Exported Function | 0x000000016670ae00 | 0x0000ae00
+Function Name | Ordinal | Type
+-- | -- | --
+`SPGetCurrentTime` | 19 | Exported Function
+`SPGetInfo` | 20 | Exported Function
+`SPGetLicenseAttribute` | 21 | Exported Function
+`SPGetBoundRightKey` | 18 | Exported Function
+`SPEncrypt` | 15 | Exported Function
+`SPEncryptFinal` | 16 | Exported Function
+`SPEncryptUpdate` | 17 | Exported Function
+`SPGetLicenseAttributeCount` | 22 | Exported Function
+`SPLoadLibrary` | 27 | Exported Function
+`SPRegisterRevocationList` | 28 | Exported Function
+`SPSign` | 29 | Exported Function
+`SPIsActivated` | 26 | Exported Function
+`SPGetLicenseObject` | 23 | Exported Function
+`SPGetLicenseObjectCount` | 24 | Exported Function
+`SPGetProcAddress` | 25 | Exported Function
+`SPCommit` | 4 | Exported Function
+`SPCreateDecryptor` | 5 | Exported Function
+`SPCreateEnablingPrincipal` | 6 | Exported Function
+`SPCloseHandle` | 30 | Exported Function
+`SPAttest` | 1 | Exported Function
+`SPBindLicense` | 2 | Exported Function
+`SPCheckEnvironmentSecurity` | 3 | Exported Function
+`SPCreateEncryptor` | 7 | Exported Function
+`SPDecryptUpdate` | 12 | Exported Function
+`SPEnableAndEncrypt` | 13 | Exported Function
+`SPEnablePublishingLicense` | 14 | Exported Function
+`SPDecryptFinal` | 11 | Exported Function
+`SPCreatePCE` | 8 | Exported Function
+`SPCreateSecurityProcessor` | 9 | Exported Function
+`SPDecrypt` | 10 | Exported Function
 
 
 ## Signature

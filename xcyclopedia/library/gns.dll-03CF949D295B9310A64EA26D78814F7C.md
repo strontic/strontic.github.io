@@ -24,19 +24,19 @@ PE256 | `FFAE3DABC6474CFA1982EED726D25679C66A8B32C7F123BB249EE2264D8FBB15`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180038260 | 0x00038260
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x00000001800381e0 | 0x000381e0
-`GNSAddNamespace` | 3 (0x3) | Exported Function | 0x0000000180009620 | 0x00009620
-`GNSAttachNamespace` | 4 (0x4) | Exported Function | 0x0000000180009440 | 0x00009440
-`GNSBeginAddInterface` | 5 (0x5) | Exported Function | 0x0000000180009260 | 0x00009260
-`GNSCompleteAddInterface` | 6 (0x6) | Exported Function | 0x0000000180009320 | 0x00009320
-`GNSDetachNamespace` | 7 (0x7) | Exported Function | 0x0000000180009530 | 0x00009530
-`GNSModuleCleanup` | 8 (0x8) | Exported Function | 0x00000001800090b0 | 0x000090b0
-`GNSModuleInit` | 9 (0x9) | Exported Function | 0x0000000180008f30 | 0x00008f30
-`GNSRemoveInterface` | 10 (0xa) | Exported Function | 0x00000001800093b0 | 0x000093b0
-`GNSRemoveNamespace` | 11 (0xb) | Exported Function | 0x0000000180009760 | 0x00009760
+Function Name | Ordinal | Type
+-- | -- | --
+`GNSModuleCleanup` | 8 | Exported Function
+`GNSDetachNamespace` | 7 | Exported Function
+`GNSModuleInit` | 9 | Exported Function
+`GNSRemoveNamespace` | 11 | Exported Function
+`GNSRemoveInterface` | 10 | Exported Function
+`GNSCompleteAddInterface` | 6 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`GNSAddNamespace` | 3 | Exported Function
+`GNSBeginAddInterface` | 5 | Exported Function
+`GNSAttachNamespace` | 4 | Exported Function
 
 
 ## Signature

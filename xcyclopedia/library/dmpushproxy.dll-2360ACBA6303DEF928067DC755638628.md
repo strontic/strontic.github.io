@@ -24,16 +24,16 @@ PE256 | `043E920868D62BCA909F623C354204FE8E3E476BAEBC18461EA5A4C16D926C78`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PushRouter_Close` | 1 (0x1) | Exported Function | 0x0000000180002ae0 | 0x00002ae0
-`PushRouter_FreeGetMessageEventName` | 11 (0xb) | Exported Function | 0x0000000180003400 | 0x00003400
-`PushRouter_FreeMessage` | 8 (0x8) | Exported Function | 0x00000001800032f0 | 0x000032f0
-`PushRouter_FreeMessageEx` | 10 (0xa) | Exported Function | 0x0000000180003360 | 0x00003360
-`PushRouter_GetMessage` | 2 (0x2) | Exported Function | 0x0000000180003020 | 0x00003020
-`PushRouter_GetMessageEx` | 9 (0x9) | Exported Function | 0x0000000180003090 | 0x00003090
-`PushRouter_Open` | 3 (0x3) | Exported Function | 0x00000001800029d0 | 0x000029d0
-`PushRouter_SubmitPush` | 6 (0x6) | Exported Function | 0x0000000180003120 | 0x00003120
+Function Name | Ordinal | Type
+-- | -- | --
+`PushRouter_GetMessageEx` | 9 | Exported Function
+`PushRouter_GetMessage` | 2 | Exported Function
+`PushRouter_SubmitPush` | 6 | Exported Function
+`PushRouter_Open` | 3 | Exported Function
+`PushRouter_FreeGetMessageEventName` | 11 | Exported Function
+`PushRouter_Close` | 1 | Exported Function
+`PushRouter_FreeMessageEx` | 10 | Exported Function
+`PushRouter_FreeMessage` | 8 | Exported Function
 
 
 ## Signature

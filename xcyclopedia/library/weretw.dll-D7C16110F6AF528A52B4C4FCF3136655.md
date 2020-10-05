@@ -24,10 +24,10 @@ PE256 | `60E387C5F6826D6E09909682D85C8A9F58306E630A3A3099382093EF23355D69`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WerMergeEtl` | 1 (0x1) | Exported Function | 0x100046b0 | 0x000046b0
-`WerMergeEtlEx` | 2 (0x2) | Exported Function | 0x10004700 | 0x00004700
+Function Name | Ordinal | Type
+-- | -- | --
+`WerMergeEtlEx` | 2 | Exported Function
+`WerMergeEtl` | 1 | Exported Function
 
 
 ## Signature

@@ -24,14 +24,14 @@ PE256 | `15A9ECD510015771F9381B5CEE8A86967A238F6250E73FFF86070C0F93BE0F7C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClearSettingGroupValue` | 2 (0x2) | Exported Function | 0x0000000180001970 | 0x00001970
-`ClearSettingValue` | 1 (0x1) | Exported Function | 0x0000000180001850 | 0x00001850
-`GetSettingGroupValue` | 4 (0x4) | Exported Function | 0x0000000180001c60 | 0x00001c60
-`GetSettingValue` | 3 (0x3) | Exported Function | 0x0000000180001ae0 | 0x00001ae0
-`SetSettingGroupValue` | 6 (0x6) | Exported Function | 0x0000000180001da0 | 0x00001da0
-`SetSettingValue` | 5 (0x5) | Exported Function | 0x0000000180001c70 | 0x00001c70
+Function Name | Ordinal | Type
+-- | -- | --
+`GetSettingValue` | 3 | Exported Function
+`SetSettingGroupValue` | 6 | Exported Function
+`SetSettingValue` | 5 | Exported Function
+`ClearSettingGroupValue` | 2 | Exported Function
+`ClearSettingValue` | 1 | Exported Function
+`GetSettingGroupValue` | 4 | Exported Function
 
 
 ## Signature

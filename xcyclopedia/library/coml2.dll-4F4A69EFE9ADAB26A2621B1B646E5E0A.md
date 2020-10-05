@@ -24,41 +24,31 @@ PE256 | `75684039E47CA66650F30AAEC8B05A168F9A9C9FAC4BD5A665F3699A797EE3E1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Coml2DllGetClassObject` | 9 (0x9) | Exported Function | 0x000000018001fc20 | 0x0001fc20
-`StgSetTimes` | 31 (0x1f) | Exported Function | 0x0000000180038b70 | 0x00038b70
-`StgOpenStorageOnILockBytes` | 30 (0x1e) | Exported Function | 0x0000000180009af0 | 0x00009af0
-`StgOpenStorageEx` | 29 (0x1d) | Exported Function | 0x00000001800387f0 | 0x000387f0
-`StgOpenStorage` | 28 (0x1c) | Exported Function | 0x000000018001d270 | 0x0001d270
-`StgOpenPropStg` | 27 (0x1b) | Exported Function | 0x0000000180043af0 | 0x00043af0
-`StgIsStorageILockBytes` | 26 (0x1a) | Exported Function | 0x0000000180038ad0 | 0x00038ad0
-`StgIsStorageFile` | 25 (0x19) | Exported Function | 0x0000000180038900 | 0x00038900
-`StgCreateStorageEx` | 24 (0x18) | Exported Function | 0x00000001800385b0 | 0x000385b0
-`StgCreatePropStg` | 23 (0x17) | Exported Function | 0x0000000180043930 | 0x00043930
-`StgCreatePropSetStg` | 22 (0x16) | Exported Function | 0x0000000180043800 | 0x00043800
-`StgCreateDocfileOnILockBytes` | 21 (0x15) | Exported Function | 0x000000018001db20 | 0x0001db20
-`StgCreateDocfile` | 20 (0x14) | Exported Function | 0x0000000180038180 | 0x00038180
-`ReadClassStm` | 19 (0x13) | Exported Function | 0x00000001800221c0 | 0x000221c0
-`ReadClassStg` | 18 (0x12) | Exported Function | 0x0000000180059150 | 0x00059150
-`WriteClassStg` | 32 (0x20) | Exported Function | 0x00000001800591e0 | 0x000591e0
-`PropStgNameToFmtId` | 17 (0x11) | Exported Function | 0x0000000180043790 | 0x00043790
-`Ordinal7` | 7 (0x7) | Exported Function | 0x0000000180043ca0 | 0x00043ca0
-`Ordinal6` | 6 (0x6) | Exported Function | 0x0000000180044a80 | 0x00044a80
-`Ordinal5` | 5 (0x5) | Exported Function | 0x00000001800445c0 | 0x000445c0
-`Ordinal4` | 4 (0x4) | Exported Function | 0x00000001800447c0 | 0x000447c0
-`Ordinal3` | 3 (0x3) | Exported Function | 0x00000001800545a0 | 0x000545a0
-`Ordinal2` | 2 (0x2) | Exported Function | 0x0000000180054740 | 0x00054740
-`Ordinal12` | 12 (0xc) | Exported Function | 0x0000000180059120 | 0x00059120
-`Ordinal11` | 11 (0xb) | Exported Function | 0x0000000180037f40 | 0x00037f40
-`Ordinal1` | 1 (0x1) | Exported Function | 0x0000000180054810 | 0x00054810
-`GetHGlobalFromILockBytes` | 16 (0x10) | Exported Function | 0x0000000180058fb0 | 0x00058fb0
-`GetConvertStg` | 15 (0xf) | Exported Function | 0x00000001800590f0 | 0x000590f0
-`FmtIdToPropStgName` | 14 (0xe) | Exported Function | 0x0000000180043760 | 0x00043760
-`DllGetClassObject` | 13 (0xd) | Exported Function | 0x0000000180035220 | 0x00035220
-`CreateILockBytesOnHGlobal` | 10 (0xa) | Exported Function | 0x0000000180001540 | 0x00001540
-`Ordinal8` | 8 (0x8) | Exported Function | 0x0000000180046f10 | 0x00046f10
-`WriteClassStm` | 33 (0x21) | Exported Function | 0x0000000180022260 | 0x00022260
+Function Name | Ordinal | Type
+-- | -- | --
+`StgIsStorageILockBytes` | 26 | Exported Function
+`StgOpenPropStg` | 27 | Exported Function
+`StgIsStorageFile` | 25 | Exported Function
+`StgCreatePropStg` | 23 | Exported Function
+`StgCreateStorageEx` | 24 | Exported Function
+`StgOpenStorage` | 28 | Exported Function
+`WriteClassStg` | 32 | Exported Function
+`WriteClassStm` | 33 | Exported Function
+`StgSetTimes` | 31 | Exported Function
+`StgOpenStorageEx` | 29 | Exported Function
+`StgOpenStorageOnILockBytes` | 30 | Exported Function
+`StgCreatePropSetStg` | 22 | Exported Function
+`FmtIdToPropStgName` | 14 | Exported Function
+`GetConvertStg` | 15 | Exported Function
+`DllGetClassObject` | 13 | Exported Function
+`Coml2DllGetClassObject` | 9 | Exported Function
+`CreateILockBytesOnHGlobal` | 10 | Exported Function
+`GetHGlobalFromILockBytes` | 16 | Exported Function
+`StgCreateDocfile` | 20 | Exported Function
+`StgCreateDocfileOnILockBytes` | 21 | Exported Function
+`ReadClassStm` | 19 | Exported Function
+`PropStgNameToFmtId` | 17 | Exported Function
+`ReadClassStg` | 18 | Exported Function
 
 
 ## Signature

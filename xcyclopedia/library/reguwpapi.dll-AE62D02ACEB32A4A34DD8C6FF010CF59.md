@@ -24,22 +24,22 @@ PE256 | `40991652F21F647C947C4E745FBE06F2A2638B803956662CB119ACA13FFFF61E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RegCopyTreeFromApp` | 1 (0x1) | Exported Function | 0x0000000180002590 | 0x00002590
-`RegCreateKeyFromApp` | 2 (0x2) | Exported Function | 0x0000000180001e30 | 0x00001e30
-`RegDeleteKeyFromApp` | 3 (0x3) | Exported Function | 0x00000001800020d0 | 0x000020d0
-`RegDeleteTreeFromApp` | 4 (0x4) | Exported Function | 0x0000000180002640 | 0x00002640
-`RegDeleteValueFromApp` | 5 (0x5) | Exported Function | 0x0000000180002160 | 0x00002160
-`RegEnumKeyFromApp` | 6 (0x6) | Exported Function | 0x00000001800021b0 | 0x000021b0
-`RegEnumValueFromApp` | 7 (0x7) | Exported Function | 0x0000000180002250 | 0x00002250
-`RegGetValueFromApp` | 8 (0x8) | Exported Function | 0x00000001800024e0 | 0x000024e0
-`RegLoadAppKeyFromApp` | 9 (0x9) | Exported Function | 0x0000000180001da0 | 0x00001da0
-`RegOpenKeyFromApp` | 10 (0xa) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`RegQueryInfoKeyFromApp` | 11 (0xb) | Exported Function | 0x00000001800022f0 | 0x000022f0
-`RegQueryMultipleValuesFromApp` | 12 (0xc) | Exported Function | 0x0000000180002690 | 0x00002690
-`RegQueryValueFromApp` | 13 (0xd) | Exported Function | 0x00000001800023d0 | 0x000023d0
-`RegSetValueFromApp` | 14 (0xe) | Exported Function | 0x0000000180002460 | 0x00002460
+Function Name | Ordinal | Type
+-- | -- | --
+`RegOpenKeyFromApp` | 10 | Exported Function
+`RegLoadAppKeyFromApp` | 9 | Exported Function
+`RegGetValueFromApp` | 8 | Exported Function
+`RegQueryInfoKeyFromApp` | 11 | Exported Function
+`RegSetValueFromApp` | 14 | Exported Function
+`RegQueryValueFromApp` | 13 | Exported Function
+`RegQueryMultipleValuesFromApp` | 12 | Exported Function
+`RegDeleteKeyFromApp` | 3 | Exported Function
+`RegCreateKeyFromApp` | 2 | Exported Function
+`RegCopyTreeFromApp` | 1 | Exported Function
+`RegDeleteTreeFromApp` | 4 | Exported Function
+`RegEnumValueFromApp` | 7 | Exported Function
+`RegEnumKeyFromApp` | 6 | Exported Function
+`RegDeleteValueFromApp` | 5 | Exported Function
 
 
 ## Signature

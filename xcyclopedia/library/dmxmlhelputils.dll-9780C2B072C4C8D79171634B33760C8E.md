@@ -24,19 +24,19 @@ PE256 | `B0EC142BBF79B66A32BB917892E45EC51BB4603E02AD0C0E6A5C4F39A6261B0C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConvertTextXmlToWBXmlEx` | 8 (0x8) | Exported Function | 0x0000000180007e70 | 0x00007e70
-`ConvertWBXmlToTextXmlEx` | 9 (0x9) | Exported Function | 0x0000000180007970 | 0x00007970
-`WBXMLToTextXMLGeneric` | 10 (0xa) | Exported Function | 0x000000018000bcb0 | 0x0000bcb0
-`WSPFreeBuffer` | 11 (0xb) | Exported Function | 0x000000018000bf40 | 0x0000bf40
-`XMLHCreateChildElement` | 1 (0x1) | Exported Function | 0x0000000180001a30 | 0x00001a30
-`XMLHEscapeString` | 2 (0x2) | Exported Function | 0x0000000180001c90 | 0x00001c90
-`XMLHGetBooleanAttributeVal` | 3 (0x3) | Exported Function | 0x0000000180001870 | 0x00001870
-`XMLHGetBstrVarFromAttr` | 5 (0x5) | Exported Function | 0x0000000180001690 | 0x00001690
-`XMLHGetBstrVarFromAttr2` | 4 (0x4) | Exported Function | 0x0000000180001730 | 0x00001730
-`XMLHGetStringAttributeVal` | 6 (0x6) | Exported Function | 0x0000000180001940 | 0x00001940
-`XMLHSkipXMLProlog` | 7 (0x7) | Exported Function | 0x0000000180001b50 | 0x00001b50
+Function Name | Ordinal | Type
+-- | -- | --
+`XMLHGetBstrVarFromAttr` | 5 | Exported Function
+`XMLHGetBooleanAttributeVal` | 3 | Exported Function
+`XMLHGetBstrVarFromAttr2` | 4 | Exported Function
+`XMLHSkipXMLProlog` | 7 | Exported Function
+`XMLHGetStringAttributeVal` | 6 | Exported Function
+`XMLHEscapeString` | 2 | Exported Function
+`ConvertWBXmlToTextXmlEx` | 9 | Exported Function
+`ConvertTextXmlToWBXmlEx` | 8 | Exported Function
+`WBXMLToTextXMLGeneric` | 10 | Exported Function
+`XMLHCreateChildElement` | 1 | Exported Function
+`WSPFreeBuffer` | 11 | Exported Function
 
 
 ## Signature

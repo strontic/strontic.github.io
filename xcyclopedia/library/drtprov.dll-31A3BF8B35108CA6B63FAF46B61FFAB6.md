@@ -24,17 +24,17 @@ PE256 | `1C1EC8DCCC494DBC9B2F02466AAEFB4C3C85B1F895A6C14E4CBCA8E51CC558D1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DrtCreateDerivedKey` | 1 (0x1) | Exported Function | 0x10001df0 | 0x00001df0
-`DrtCreateDerivedKeySecurityProvider` | 2 (0x2) | Exported Function | 0x10001db0 | 0x00001db0
-`DrtCreateDnsBootstrapResolver` | 3 (0x3) | Exported Function | 0x10001d70 | 0x00001d70
-`DrtCreateNullSecurityProvider` | 4 (0x4) | Exported Function | 0x10001e10 | 0x00001e10
-`DrtCreatePnrpBootstrapResolver` | 5 (0x5) | Exported Function | 0x10001d20 | 0x00001d20
-`DrtDeleteDerivedKeySecurityProvider` | 6 (0x6) | Exported Function | 0x10001dd0 | 0x00001dd0
-`DrtDeleteDnsBootstrapResolver` | 7 (0x7) | Exported Function | 0x10001d90 | 0x00001d90
-`DrtDeleteNullSecurityProvider` | 8 (0x8) | Exported Function | 0x10001e70 | 0x00001e70
-`DrtDeletePnrpBootstrapResolver` | 9 (0x9) | Exported Function | 0x10001d50 | 0x00001d50
+Function Name | Ordinal | Type
+-- | -- | --
+`DrtDeleteDnsBootstrapResolver` | 7 | Exported Function
+`DrtDeleteDerivedKeySecurityProvider` | 6 | Exported Function
+`DrtDeletePnrpBootstrapResolver` | 9 | Exported Function
+`DrtDeleteNullSecurityProvider` | 8 | Exported Function
+`DrtCreatePnrpBootstrapResolver` | 5 | Exported Function
+`DrtCreateDerivedKeySecurityProvider` | 2 | Exported Function
+`DrtCreateDerivedKey` | 1 | Exported Function
+`DrtCreateNullSecurityProvider` | 4 | Exported Function
+`DrtCreateDnsBootstrapResolver` | 3 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `B277A7242DE0B664D6752553FD72D8EB669E88C55A101A1C0ADAA2A62CAEE138`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x10001e60 | 0x00001e60
+Function Name | Ordinal | Type
+-- | -- | --
+`KbdLayerDescriptor` | 1 | Exported Function
 
 
 ## Signature

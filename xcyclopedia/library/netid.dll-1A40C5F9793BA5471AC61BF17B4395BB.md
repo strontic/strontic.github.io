@@ -24,10 +24,10 @@ PE256 | `3458FB71E14F352ACF64FDEA5C3A1428342332B677005D1DF0A111F3219AA6F0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateNetIDPropertyPage` | 1 (0x1) | Exported Function | 0x100068b0 | 0x000068b0
-`ShowDcNotFoundErrorDialog` | 2 (0x2) | Exported Function | 0x100069b0 | 0x000069b0
+Function Name | Ordinal | Type
+-- | -- | --
+`ShowDcNotFoundErrorDialog` | 2 | Exported Function
+`CreateNetIDPropertyPage` | 1 | Exported Function
 
 
 ## Signature

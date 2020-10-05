@@ -24,52 +24,52 @@ PE256 | `42BD9BC174140E8D57092BAF8FB47D65689D16FC1ADEA5C92FAF361CCE569EE1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LpkPresent` | 1 (0x1) | Exported Function | GDI32.LpkPresent | 0x00001415
-`ScriptRecordDigitSubstitution` | 25 (0x19) | Exported Function | GDI32.ScriptRecordDigitSubstitution | 0x00001864
-`ScriptShape` | 26 (0x1a) | Exported Function | GDI32.ScriptShape | 0x00001894
-`ScriptShapeOpenType` | 27 (0x1b) | Exported Function | GDI32.ScriptShapeOpenType | 0x000018ba
-`ScriptString_pcOutChars` | 38 (0x26) | Exported Function | GDI32.ScriptString_pcOutChars | 0x00001aba
-`ScriptString_pLogAttr` | 36 (0x24) | Exported Function | GDI32.ScriptString_pLogAttr | 0x00001a5a
-`ScriptString_pSize` | 37 (0x25) | Exported Function | GDI32.ScriptString_pSize | 0x00001a89
-`ScriptStringAnalyse` | 28 (0x1c) | Exported Function | GDI32.ScriptStringAnalyse | 0x000018e8
-`ScriptStringCPtoX` | 29 (0x1d) | Exported Function | GDI32.ScriptStringCPtoX | 0x00001914
-`ScriptPositionSingleGlyph` | 24 (0x18) | Exported Function | GDI32.ScriptPositionSingleGlyph | 0x00001826
-`ScriptStringFree` | 30 (0x1e) | Exported Function | GDI32.ScriptStringFree | 0x0000193d
-`ScriptStringGetOrder` | 32 (0x20) | Exported Function | GDI32.ScriptStringGetOrder | 0x000019a9
-`ScriptStringOut` | 33 (0x21) | Exported Function | GDI32.ScriptStringOut | 0x000019d4
-`ScriptStringValidate` | 34 (0x22) | Exported Function | GDI32.ScriptStringValidate | 0x000019ff
-`ScriptStringXtoCP` | 35 (0x23) | Exported Function | GDI32.ScriptStringXtoCP | 0x00001a2c
-`ScriptSubstituteSingleGlyph` | 39 (0x27) | Exported Function | GDI32.ScriptSubstituteSingleGlyph | 0x00001af4
-`ScriptTextOut` | 40 (0x28) | Exported Function | GDI32.ScriptTextOut | 0x00001b24
-`ScriptXtoCP` | 41 (0x29) | Exported Function | GDI32.ScriptXtoCP | 0x00001b44
-`UspAllocCache` | 42 (0x2a) | Exported Function | GDI32.UspAllocCache | 0x00001b64
-`ScriptStringGetLogicalWidths` | 31 (0x1f) | Exported Function | GDI32.ScriptStringGetLogicalWidths | 0x00001971
-`ScriptPlaceOpenType` | 23 (0x17) | Exported Function | GDI32.ScriptPlaceOpenType | 0x000017f2
-`ScriptPlace` | 22 (0x16) | Exported Function | GDI32.ScriptPlace | 0x000017cc
-`ScriptLayout` | 21 (0x15) | Exported Function | GDI32.ScriptLayout | 0x000017ad
-`ScriptApplyDigitSubstitution` | 2 (0x2) | Exported Function | GDI32.ScriptApplyDigitSubstitution | 0x00001443
-`ScriptApplyLogicalWidth` | 3 (0x3) | Exported Function | GDI32.ScriptApplyLogicalWidth | 0x0000147e
-`ScriptBreak` | 4 (0x4) | Exported Function | GDI32.ScriptBreak | 0x000014a8
-`ScriptCacheGetHeight` | 6 (0x6) | Exported Function | GDI32.ScriptCacheGetHeight | 0x000014ed
-`ScriptCPtoX` | 5 (0x5) | Exported Function | GDI32.ScriptCPtoX | 0x000014c6
-`ScriptFreeCache` | 7 (0x7) | Exported Function | GDI32.ScriptFreeCache | 0x00001518
-`ScriptGetCMap` | 8 (0x8) | Exported Function | GDI32.ScriptGetCMap | 0x0000153c
-`ScriptGetFontAlternateGlyphs` | 9 (0x9) | Exported Function | GDI32.ScriptGetFontAlternateGlyphs | 0x0000156d
-`ScriptGetFontFeatureTags` | 10 (0xa) | Exported Function | GDI32.ScriptGetFontFeatureTags | 0x000015a9
-`ScriptGetFontLanguageTags` | 11 (0xb) | Exported Function | GDI32.ScriptGetFontLanguageTags | 0x000015e2
-`ScriptGetFontProperties` | 12 (0xc) | Exported Function | GDI32.ScriptGetFontProperties | 0x0000161a
-`ScriptGetFontScriptTags` | 13 (0xd) | Exported Function | GDI32.ScriptGetFontScriptTags | 0x00001650
-`ScriptGetGlyphABCWidth` | 14 (0xe) | Exported Function | GDI32.ScriptGetGlyphABCWidth | 0x00001685
-`ScriptGetLogicalWidths` | 15 (0xf) | Exported Function | GDI32.ScriptGetLogicalWidths | 0x000016b9
-`ScriptGetProperties` | 16 (0x10) | Exported Function | GDI32.ScriptGetProperties | 0x000016ea
-`ScriptIsComplex` | 17 (0x11) | Exported Function | GDI32.ScriptIsComplex | 0x00001714
-`ScriptItemize` | 18 (0x12) | Exported Function | GDI32.ScriptItemize | 0x00001738
-`ScriptItemizeOpenType` | 19 (0x13) | Exported Function | GDI32.ScriptItemizeOpenType | 0x00001762
-`ScriptJustify` | 20 (0x14) | Exported Function | GDI32.ScriptJustify | 0x0000178c
-`UspAllocTemp` | 43 (0x2b) | Exported Function | GDI32.UspAllocTemp | 0x00001b85
-`UspFreeMem` | 44 (0x2c) | Exported Function | GDI32.UspFreeMem | 0x00001ba3
+Function Name | Ordinal | Type
+-- | -- | --
+`ScriptString_pSize` | 37 | Exported Function
+`ScriptString_pLogAttr` | 36 | Exported Function
+`ScriptStringAnalyse` | 28 | Exported Function
+`ScriptStringFree` | 30 | Exported Function
+`ScriptStringCPtoX` | 29 | Exported Function
+`ScriptString_pcOutChars` | 38 | Exported Function
+`ScriptPositionSingleGlyph` | 24 | Exported Function
+`ScriptPlaceOpenType` | 23 | Exported Function
+`ScriptRecordDigitSubstitution` | 25 | Exported Function
+`ScriptShapeOpenType` | 27 | Exported Function
+`ScriptShape` | 26 | Exported Function
+`ScriptXtoCP` | 41 | Exported Function
+`ScriptTextOut` | 40 | Exported Function
+`UspAllocCache` | 42 | Exported Function
+`UspFreeMem` | 44 | Exported Function
+`UspAllocTemp` | 43 | Exported Function
+`ScriptSubstituteSingleGlyph` | 39 | Exported Function
+`ScriptStringGetOrder` | 32 | Exported Function
+`ScriptStringGetLogicalWidths` | 31 | Exported Function
+`ScriptStringOut` | 33 | Exported Function
+`ScriptStringXtoCP` | 35 | Exported Function
+`ScriptStringValidate` | 34 | Exported Function
+`ScriptGetCMap` | 8 | Exported Function
+`ScriptFreeCache` | 7 | Exported Function
+`ScriptGetFontAlternateGlyphs` | 9 | Exported Function
+`ScriptGetFontLanguageTags` | 11 | Exported Function
+`ScriptGetFontFeatureTags` | 10 | Exported Function
+`ScriptCPtoX` | 5 | Exported Function
+`ScriptApplyDigitSubstitution` | 2 | Exported Function
+`LpkPresent` | 1 | Exported Function
+`ScriptApplyLogicalWidth` | 3 | Exported Function
+`ScriptCacheGetHeight` | 6 | Exported Function
+`ScriptBreak` | 4 | Exported Function
+`ScriptItemizeOpenType` | 19 | Exported Function
+`ScriptItemize` | 18 | Exported Function
+`ScriptJustify` | 20 | Exported Function
+`ScriptPlace` | 22 | Exported Function
+`ScriptLayout` | 21 | Exported Function
+`ScriptIsComplex` | 17 | Exported Function
+`ScriptGetFontScriptTags` | 13 | Exported Function
+`ScriptGetFontProperties` | 12 | Exported Function
+`ScriptGetGlyphABCWidth` | 14 | Exported Function
+`ScriptGetProperties` | 16 | Exported Function
+`ScriptGetLogicalWidths` | 15 | Exported Function
 
 
 ## Signature

@@ -23,10 +23,10 @@ PE256 | `C695BD123A9A75C60B528C3E897A2D24DCDCDD2E43204E0DB2CBBDA27F1F0FF2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SpectrumSyncJoinFrameRendezvous` | 1 (0x1) | Exported Function | 0x0000000180004bd0 | 0x00004bd0
-`SpectrumSyncSignalFrameRendezvous` | 2 (0x2) | Exported Function | 0x0000000180004af0 | 0x00004af0
+Function Name | Ordinal | Type
+-- | -- | --
+`SpectrumSyncSignalFrameRendezvous` | 2 | Exported Function
+`SpectrumSyncJoinFrameRendezvous` | 1 | Exported Function
 
 
 ## Signature

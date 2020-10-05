@@ -24,12 +24,12 @@ PE256 | `E8B6B49C23F444DA86D6802092CCF06402972C21185251A71DD2BBD23F3D8581`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DebugBreak` | 1 (0x1) | Exported Function | kernel32.DebugBreak | 0x000010dc
-`IsDebuggerPresent` | 2 (0x2) | Exported Function | kernel32.IsDebuggerPresent | 0x00001102
-`OutputDebugStringA` | 3 (0x3) | Exported Function | kernel32.OutputDebugStringA | 0x00001130
-`OutputDebugStringW` | 4 (0x4) | Exported Function | kernel32.OutputDebugStringW | 0x0000115f
+Function Name | Ordinal | Type
+-- | -- | --
+`OutputDebugStringA` | 3 | Exported Function
+`OutputDebugStringW` | 4 | Exported Function
+`DebugBreak` | 1 | Exported Function
+`IsDebuggerPresent` | 2 | Exported Function
 
 
 ## Signature

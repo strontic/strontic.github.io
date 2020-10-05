@@ -24,15 +24,15 @@ PE256 | `65D12AAE8C589BAD2313B863D3438720B815C8F0E4C56B8F694D1D4C00B0BF88`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ChangeTimerQueueTimer` | 1 (0x1) | Exported Function | kernel32.ChangeTimerQueueTimer | 0x00001111
-`CreateTimerQueue` | 2 (0x2) | Exported Function | kernel32.CreateTimerQueue | 0x00001141
-`CreateTimerQueueTimer` | 3 (0x3) | Exported Function | kernel32.CreateTimerQueueTimer | 0x00001171
-`DeleteTimerQueueEx` | 4 (0x4) | Exported Function | kernel32.DeleteTimerQueueEx | 0x000011a3
-`DeleteTimerQueueTimer` | 5 (0x5) | Exported Function | kernel32.DeleteTimerQueueTimer | 0x000011d5
-`QueueUserWorkItem` | 6 (0x6) | Exported Function | kernel32.QueueUserWorkItem | 0x00001206
-`UnregisterWaitEx` | 7 (0x7) | Exported Function | kernel32.UnregisterWaitEx | 0x00001232
+Function Name | Ordinal | Type
+-- | -- | --
+`DeleteTimerQueueTimer` | 5 | Exported Function
+`QueueUserWorkItem` | 6 | Exported Function
+`UnregisterWaitEx` | 7 | Exported Function
+`DeleteTimerQueueEx` | 4 | Exported Function
+`ChangeTimerQueueTimer` | 1 | Exported Function
+`CreateTimerQueue` | 2 | Exported Function
+`CreateTimerQueueTimer` | 3 | Exported Function
 
 
 ## Signature

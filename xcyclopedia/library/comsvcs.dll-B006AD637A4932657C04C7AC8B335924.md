@@ -24,30 +24,28 @@ PE256 | `B5F9B40F50B5235F4B0157C1A736B66A18694DA462516A94127849CB78BAD478`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CoCreateActivity` | 8 (0x8) | Exported Function | 0x10079ce0 | 0x00079ce0
-`Ordinal7` | 7 (0x7) | Exported Function | 0x10079ef0 | 0x00079ef0
-`Ordinal6` | 6 (0x6) | Exported Function | 0x10044300 | 0x00044300
-`MTSCreateActivity` | 23 (0x17) | Exported Function | 0x10079f60 | 0x00079f60
-`MiniDumpW` | 24 (0x18) | Exported Function | 0x10064b90 | 0x00064b90
-`GetTrkSvrObject` | 22 (0x16) | Exported Function | 0x10064aa0 | 0x00064aa0
-`GetObjectContext` | 21 (0x15) | Exported Function | 0x1006e280 | 0x0006e280
-`GetMTAThreadPoolMetrics` | 19 (0x13) | Exported Function | 0x10064990 | 0x00064990
-`GetManagedExtensions` | 20 (0x14) | Exported Function | 0x10064a10 | 0x00064a10
-`DllUnregisterServer` | 18 (0x12) | Exported Function | 0x10044300 | 0x00044300
-`DllRegisterServer` | 17 (0x11) | Exported Function | 0x10044300 | 0x00044300
-`DllGetClassObject` | 16 (0x10) | Exported Function | 0x1003eb60 | 0x0003eb60
-`DllCanUnloadNow` | 15 (0xf) | Exported Function | 0x100648e0 | 0x000648e0
-`DispManGetContext` | 14 (0xe) | Exported Function | 0x1006eff0 | 0x0006eff0
-`CosGetCallContext` | 5 (0x5) | Exported Function | 0x10072800 | 0x00072800
-`ComSvcsLogError` | 13 (0xd) | Exported Function | 0x1006e190 | 0x0006e190
-`ComSvcsExceptionFilter` | 12 (0xc) | Exported Function | 0x10064800 | 0x00064800
-`CoLoadServices` | 11 (0xb) | Exported Function | 0x100aa340 | 0x000aa340
-`CoLeaveServiceDomain` | 10 (0xa) | Exported Function | 0x1006aac0 | 0x0006aac0
-`CoEnterServiceDomain` | 9 (0x9) | Exported Function | 0x1006a9b0 | 0x0006a9b0
-`RecycleSurrogate` | 25 (0x19) | Exported Function | 0x1006e2b0 | 0x0006e2b0
-`SafeRef` | 26 (0x1a) | Exported Function | 0x1006e2d0 | 0x0006e2d0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetMTAThreadPoolMetrics` | 19 | Exported Function
+`GetObjectContext` | 21 | Exported Function
+`GetManagedExtensions` | 20 | Exported Function
+`DllRegisterServer` | 17 | Exported Function
+`DllUnregisterServer` | 18 | Exported Function
+`RecycleSurrogate` | 25 | Exported Function
+`SafeRef` | 26 | Exported Function
+`MTSCreateActivity` | 23 | Exported Function
+`GetTrkSvrObject` | 22 | Exported Function
+`MiniDumpW` | 24 | Exported Function
+`CoLoadServices` | 11 | Exported Function
+`ComSvcsExceptionFilter` | 12 | Exported Function
+`CoLeaveServiceDomain` | 10 | Exported Function
+`CoCreateActivity` | 8 | Exported Function
+`CoEnterServiceDomain` | 9 | Exported Function
+`DllCanUnloadNow` | 15 | Exported Function
+`DllGetClassObject` | 16 | Exported Function
+`DispManGetContext` | 14 | Exported Function
+`ComSvcsLogError` | 13 | Exported Function
+`CosGetCallContext` | 5 | Exported Function
 
 
 ## Signature

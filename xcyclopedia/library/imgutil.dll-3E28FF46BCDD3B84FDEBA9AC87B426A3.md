@@ -24,19 +24,19 @@ PE256 | `AE106DD15BA8E2EA9276739EF4135EF0D80F7CDE7CFF804EA9F9F4D0EA6EBF9A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ComputeInvCMAP` | 1 (0x1) | Exported Function | 0x1b0067d0 | 0x000067d0
-`CreateDDrawSurfaceOnDIB` | 2 (0x2) | Exported Function | 0x1b006890 | 0x00006890
-`CreateMIMEMap` | 3 (0x3) | Exported Function | 0x1b006910 | 0x00006910
-`DecodeImage` | 4 (0x4) | Exported Function | 0x1b006950 | 0x00006950
-`DecodeImageEx` | 5 (0x5) | Exported Function | 0x1b006970 | 0x00006970
-`DitherTo8` | 6 (0x6) | Exported Function | 0x1b008c00 | 0x00008c00
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x1b005770 | 0x00005770
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x1b005790 | 0x00005790
-`GetMaxMIMEIDBytes` | 9 (0x9) | Exported Function | 0x1b006110 | 0x00006110
-`IdentifyMIMEType` | 10 (0xa) | Exported Function | 0x1b0024e0 | 0x000024e0
-`SniffStream` | 11 (0xb) | Exported Function | 0x1b006230 | 0x00006230
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 8 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`GetMaxMIMEIDBytes` | 9 | Exported Function
+`SniffStream` | 11 | Exported Function
+`IdentifyMIMEType` | 10 | Exported Function
+`DitherTo8` | 6 | Exported Function
+`CreateDDrawSurfaceOnDIB` | 2 | Exported Function
+`ComputeInvCMAP` | 1 | Exported Function
+`CreateMIMEMap` | 3 | Exported Function
+`DecodeImageEx` | 5 | Exported Function
+`DecodeImage` | 4 | Exported Function
 
 
 ## Signature

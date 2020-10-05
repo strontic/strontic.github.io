@@ -24,10 +24,10 @@ PE256 | `5442FD699A28E20FD9C417562A7067CB6B9482476454A6BFFD7F6FF5A22443E8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CheckSurrogateUpdate` | 1 (0x1) | Exported Function | 0x0000000180001dd0 | 0x00001dd0
-`CreateIImeSkdicInstance` | 2 (0x2) | Exported Function | 0x0000000180001d20 | 0x00001d20
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateIImeSkdicInstance` | 2 | Exported Function
+`CheckSurrogateUpdate` | 1 | Exported Function
 
 
 ## Signature

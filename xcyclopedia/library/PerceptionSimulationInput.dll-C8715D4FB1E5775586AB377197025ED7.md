@@ -24,15 +24,15 @@ PE256 | `62031CE9A2AD068F523AF06323542BE31816A5F89FCB98ACF1329C7FCD46CF5A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseSimulationConnection` | 1 (0x1) | Exported Function | 0x0000000180012d20 | 0x00012d20
-`HidePerceptionSimulationControlUx` | 2 (0x2) | Exported Function | 0x0000000180012a20 | 0x00012a20
-`ShowPerceptionSimulationControlUx` | 3 (0x3) | Exported Function | 0x0000000180012a00 | 0x00012a00
-`StartPerceptionSimulationControlUx` | 4 (0x4) | Exported Function | 0x0000000180012d40 | 0x00012d40
-`StopPerceptionSimulationControlUx` | 5 (0x5) | Exported Function | 0x0000000180012bb0 | 0x00012bb0
-`TogglePerceptionSimulationControlUx` | 6 (0x6) | Exported Function | 0x0000000180012a40 | 0x00012a40
-`UpdatePerceptionSimulationControlUx` | 7 (0x7) | Exported Function | 0x0000000180012a80 | 0x00012a80
+Function Name | Ordinal | Type
+-- | -- | --
+`StopPerceptionSimulationControlUx` | 5 | Exported Function
+`TogglePerceptionSimulationControlUx` | 6 | Exported Function
+`UpdatePerceptionSimulationControlUx` | 7 | Exported Function
+`StartPerceptionSimulationControlUx` | 4 | Exported Function
+`CloseSimulationConnection` | 1 | Exported Function
+`HidePerceptionSimulationControlUx` | 2 | Exported Function
+`ShowPerceptionSimulationControlUx` | 3 | Exported Function
 
 
 ## Signature

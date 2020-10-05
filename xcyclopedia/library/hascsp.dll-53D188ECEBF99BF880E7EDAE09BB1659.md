@@ -24,19 +24,19 @@ PE256 | `D3C1E93D554729CCF3308102F1335E5E240BBC82ADC00E48B64DC89CEA810FF9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x000000018000c690 | 0x0000c690
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x000000018000c6b0 | 0x0000c6b0
-`DllMain` | 9 (0x9) | Exported Function | 0x000000018000c790 | 0x0000c790
-`DllRegisterServer` | 10 (0xa) | Exported Function | 0x000000018000c190 | 0x0000c190
-`DllUnregisterServer` | 11 (0xb) | Exported Function | 0x000000018000c190 | 0x0000c190
-`GetForceRetrieve` | 1 (0x1) | Exported Function | 0x000000018000cd10 | 0x0000cd10
-`GetHealthCert` | 2 (0x2) | Exported Function | 0x000000018000cd30 | 0x0000cd30
-`GetNonce` | 3 (0x3) | Exported Function | 0x000000018000cac0 | 0x0000cac0
-`PolicyManager_PreCheck` | 4 (0x4) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`SetForceRetrieve` | 5 (0x5) | Exported Function | 0x000000018000cec0 | 0x0000cec0
-`SetNonce` | 6 (0x6) | Exported Function | 0x000000018000cd50 | 0x0000cd50
+Function Name | Ordinal | Type
+-- | -- | --
+`GetNonce` | 3 | Exported Function
+`GetHealthCert` | 2 | Exported Function
+`PolicyManager_PreCheck` | 4 | Exported Function
+`SetNonce` | 6 | Exported Function
+`SetForceRetrieve` | 5 | Exported Function
+`GetForceRetrieve` | 1 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`DllMain` | 9 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
+`DllRegisterServer` | 10 | Exported Function
 
 
 ## Signature

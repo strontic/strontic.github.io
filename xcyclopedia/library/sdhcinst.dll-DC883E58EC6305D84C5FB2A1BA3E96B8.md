@@ -24,10 +24,10 @@ PE256 | `67918E8C23A5B7B7BC1FE23F3A7A27D9BF9A682CC002108BB6E6A41AB378E3B7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SdClassCoInstaller` | 1 (0x1) | Exported Function | 0x0000000180001020 | 0x00001020
-`SdClassInstall` | 2 (0x2) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`SdClassInstall` | 2 | Exported Function
+`SdClassCoInstaller` | 1 | Exported Function
 
 
 ## Signature

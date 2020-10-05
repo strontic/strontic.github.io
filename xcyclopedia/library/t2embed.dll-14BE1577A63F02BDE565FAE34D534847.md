@@ -24,33 +24,33 @@ PE256 | `F662B443C408D08A020085CCF0E4C03150510A121CC278E942B9F4A1ABA2565A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_TTCharToUnicode@24` | 12 (0xc) | Exported Function | 0x484a3fb0 | 0x00003fb0
-`TTLoadEmbeddedFont` | 10 (0xa) | Exported Function | 0x484a3980 | 0x00003980
-`TTIsEmbeddingEnabledForFacename` | 9 (0x9) | Exported Function | 0x484a4190 | 0x00004190
-`TTIsEmbeddingEnabled` | 8 (0x8) | Exported Function | 0x484a40e0 | 0x000040e0
-`TTGetNewFontName` | 25 (0x19) | Exported Function | 0x484a5040 | 0x00005040
-`TTGetEmbeddingType` | 7 (0x7) | Exported Function | 0x484a3ef0 | 0x00003ef0
-`TTGetEmbeddedFontInfo` | 6 (0x6) | Exported Function | 0x484a3c70 | 0x00003c70
-`TTEnableEmbeddingForFacename` | 5 (0x5) | Exported Function | 0x484a4210 | 0x00004210
-`TTEmbedFontFromFileA` | 4 (0x4) | Exported Function | 0x484a36a0 | 0x000036a0
-`TTEmbedFontEx` | 23 (0x17) | Exported Function | 0x484a4dc0 | 0x00004dc0
-`TTEmbedFont` | 3 (0x3) | Exported Function | 0x484a3600 | 0x00003600
-`TTRunValidationTests` | 11 (0xb) | Exported Function | 0x484a40d0 | 0x000040d0
-`TTDeleteEmbeddedFont` | 2 (0x2) | Exported Function | 0x484a3d40 | 0x00003d40
-`_TTRunValidationTests@8` | 22 (0x16) | Exported Function | 0x484a40d0 | 0x000040d0
-`_TTLoadEmbeddedFont@40` | 21 (0x15) | Exported Function | 0x484a3980 | 0x00003980
-`_TTIsEmbeddingEnabledForFacename@8` | 20 (0x14) | Exported Function | 0x484a4190 | 0x00004190
-`_TTIsEmbeddingEnabled@8` | 19 (0x13) | Exported Function | 0x484a40e0 | 0x000040e0
-`_TTGetEmbeddingType@8` | 18 (0x12) | Exported Function | 0x484a3ef0 | 0x00003ef0
-`_TTGetEmbeddedFontInfo@28` | 17 (0x11) | Exported Function | 0x484a3c70 | 0x00003c70
-`_TTEnableEmbeddingForFacename@8` | 16 (0x10) | Exported Function | 0x484a4210 | 0x00004210
-`_TTEmbedFontFromFileA@52` | 15 (0xf) | Exported Function | 0x484a36a0 | 0x000036a0
-`_TTEmbedFont@44` | 14 (0xe) | Exported Function | 0x484a3600 | 0x00003600
-`_TTDeleteEmbeddedFont@12` | 13 (0xd) | Exported Function | 0x484a3d40 | 0x00003d40
-`TTCharToUnicode` | 1 (0x1) | Exported Function | 0x484a3fb0 | 0x00003fb0
-`TTRunValidationTestsEx` | 24 (0x18) | Exported Function | 0x484a40d0 | 0x000040d0
+Function Name | Ordinal | Type
+-- | -- | --
+`TTEnableEmbeddingForFacename` | 5 | Exported Function
+`TTGetEmbeddedFontInfo` | 6 | Exported Function
+`TTGetEmbeddingType` | 7 | Exported Function
+`TTEmbedFont` | 3 | Exported Function
+`TTEmbedFontEx` | 23 | Exported Function
+`TTEmbedFontFromFileA` | 4 | Exported Function
+`TTLoadEmbeddedFont` | 10 | Exported Function
+`TTRunValidationTests` | 11 | Exported Function
+`TTRunValidationTestsEx` | 24 | Exported Function
+`TTGetNewFontName` | 25 | Exported Function
+`TTIsEmbeddingEnabled` | 8 | Exported Function
+`TTIsEmbeddingEnabledForFacename` | 9 | Exported Function
+`TTDeleteEmbeddedFont` | 2 | Exported Function
+`_TTEmbedFontFromFileA@52` | 15 | Exported Function
+`_TTEnableEmbeddingForFacename@8` | 16 | Exported Function
+`_TTGetEmbeddedFontInfo@28` | 17 | Exported Function
+`_TTCharToUnicode@24` | 12 | Exported Function
+`_TTDeleteEmbeddedFont@12` | 13 | Exported Function
+`_TTEmbedFont@44` | 14 | Exported Function
+`_TTLoadEmbeddedFont@40` | 21 | Exported Function
+`_TTRunValidationTests@8` | 22 | Exported Function
+`TTCharToUnicode` | 1 | Exported Function
+`_TTGetEmbeddingType@8` | 18 | Exported Function
+`_TTIsEmbeddingEnabled@8` | 19 | Exported Function
+`_TTIsEmbeddingEnabledForFacename@8` | 20 | Exported Function
 
 
 ## Signature

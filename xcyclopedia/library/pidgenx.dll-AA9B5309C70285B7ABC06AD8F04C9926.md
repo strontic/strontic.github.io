@@ -24,12 +24,11 @@ PE256 | `DFC88F3441F7D84EC7B524A3C62338B613D03BDA9283027E709D3EE31E89FEBD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetPKeyData` | 118 (0x76) | Exported Function | 0x0000000180002f10 | 0x00002f10
-`Ordinal117` | 117 (0x75) | Exported Function | 0x0000000180001c10 | 0x00001c10
-`PidGenX` | 119 (0x77) | Exported Function | 0x0000000180001b70 | 0x00001b70
-`PidGenX2` | 120 (0x78) | Exported Function | 0x00000001800014f0 | 0x000014f0
+Function Name | Ordinal | Type
+-- | -- | --
+`PidGenX2` | 120 | Exported Function
+`PidGenX` | 119 | Exported Function
+`GetPKeyData` | 118 | Exported Function
 
 
 ## Signature

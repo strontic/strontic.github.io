@@ -24,52 +24,29 @@ PE256 | `A164B2AF2EDF1708806586C0DA5B7E3B89CF43338305AAEF824CC7ECBBB5EA5D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateLogonCertificateRequest` | 50 (0x32) | Exported Function | 0x000000018006bf60 | 0x0006bf60
-`Ordinal20` | 20 (0x14) | Exported Function | 0x000000018006bd00 | 0x0006bd00
-`Ordinal21` | 21 (0x15) | Exported Function | 0x000000018006c110 | 0x0006c110
-`Ordinal22` | 22 (0x16) | Exported Function | 0x000000018006bcf0 | 0x0006bcf0
-`Ordinal23` | 23 (0x17) | Exported Function | 0x000000018006c290 | 0x0006c290
-`Ordinal24` | 24 (0x18) | Exported Function | 0x000000018006c2a0 | 0x0006c2a0
-`Ordinal25` | 25 (0x19) | Exported Function | 0x000000018006c260 | 0x0006c260
-`Ordinal26` | 26 (0x1a) | Exported Function | 0x000000018006c230 | 0x0006c230
-`Ordinal27` | 27 (0x1b) | Exported Function | 0x0000000180088110 | 0x00088110
-`Ordinal19` | 19 (0x13) | Exported Function | 0x00000001800eb1d0 | 0x000eb1d0
-`Ordinal28` | 28 (0x1c) | Exported Function | 0x0000000180181e40 | 0x00181e40
-`Ordinal30` | 30 (0x1e) | Exported Function | 0x00000001800f3740 | 0x000f3740
-`Ordinal31` | 31 (0x1f) | Exported Function | 0x0000000180181cc0 | 0x00181cc0
-`Ordinal36` | 36 (0x24) | Exported Function | 0x00000001800eb760 | 0x000eb760
-`Ordinal37` | 37 (0x25) | Exported Function | 0x0000000180104cb0 | 0x00104cb0
-`Ordinal38` | 38 (0x26) | Exported Function | 0x0000000180104da0 | 0x00104da0
-`Ordinal43` | 43 (0x2b) | Exported Function | 0x00000001800b98f0 | 0x000b98f0
-`Ordinal44` | 44 (0x2c) | Exported Function | 0x00000001800baf90 | 0x000baf90
-`Ordinal47` | 47 (0x2f) | Exported Function | 0x0000000180131ff0 | 0x00131ff0
-`Ordinal29` | 29 (0x1d) | Exported Function | 0x00000001800eb2e0 | 0x000eb2e0
-`Ordinal18` | 18 (0x12) | Exported Function | 0x00000001800eb0a0 | 0x000eb0a0
-`Ordinal16` | 16 (0x10) | Exported Function | 0x00000001800eb540 | 0x000eb540
-`Ordinal15` | 15 (0xf) | Exported Function | 0x00000001800eb650 | 0x000eb650
-`DeleteLogonCertificateRequest` | 52 (0x34) | Exported Function | 0x000000018006bfc0 | 0x0006bfc0
-`DllCanUnloadNow` | 17 (0x11) | Exported Function | 0x00000001800021b0 | 0x000021b0
-`DllGetActivationFactory` | 54 (0x36) | Exported Function | 0x0000000180003640 | 0x00003640
-`DllGetClassObject` | 55 (0x37) | Exported Function | 0x000000018006c010 | 0x0006c010
-`DllMain` | 56 (0x38) | Exported Function | 0x00000001800092c0 | 0x000092c0
-`DllRegisterServer` | 57 (0x39) | Exported Function | 0x000000018006c090 | 0x0006c090
-`DllUnregisterServer` | 58 (0x3a) | Exported Function | 0x000000018006c100 | 0x0006c100
-`ImportPFXToProvider` | 45 (0x2d) | Exported Function | 0x0000000180088120 | 0x00088120
-`ImportPFXToProviderFreeData` | 46 (0x2e) | Exported Function | 0x00000001800883e0 | 0x000883e0
-`InstallLogonCertificateResponse` | 51 (0x33) | Exported Function | 0x000000018006c120 | 0x0006c120
-`IsLogonCertificateTemplateAvailable` | 49 (0x31) | Exported Function | 0x000000018006c180 | 0x0006c180
-`LogCertArchive` | 34 (0x22) | Exported Function | 0x0000000180088450 | 0x00088450
-`LogCertCopy` | 40 (0x28) | Exported Function | 0x00000001800884b0 | 0x000884b0
-`LogCertDelete` | 33 (0x21) | Exported Function | 0x0000000180088570 | 0x00088570
-`LogCertExpire` | 35 (0x23) | Exported Function | 0x00000001800885d0 | 0x000885d0
-`LogCertExport` | 42 (0x2a) | Exported Function | 0x0000000180088640 | 0x00088640
-`LogCertImport` | 41 (0x29) | Exported Function | 0x00000001800886a0 | 0x000886a0
-`LogCertInstall` | 39 (0x27) | Exported Function | 0x0000000180088700 | 0x00088700
-`LogCertReplace` | 32 (0x20) | Exported Function | 0x00000001800889a0 | 0x000889a0
-`Ordinal48` | 48 (0x30) | Exported Function | 0x0000000180131ec0 | 0x00131ec0
-`UpdateMachinePolicyConfigurationForTemplate` | 53 (0x35) | Exported Function | 0x000000018006c360 | 0x0006c360
+Function Name | Ordinal | Type
+-- | -- | --
+`LogCertDelete` | 33 | Exported Function
+`LogCertExpire` | 35 | Exported Function
+`LogCertCopy` | 40 | Exported Function
+`IsLogonCertificateTemplateAvailable` | 49 | Exported Function
+`LogCertArchive` | 34 | Exported Function
+`LogCertReplace` | 32 | Exported Function
+`UpdateMachinePolicyConfigurationForTemplate` | 53 | Exported Function
+`LogCertInstall` | 39 | Exported Function
+`LogCertExport` | 42 | Exported Function
+`LogCertImport` | 41 | Exported Function
+`InstallLogonCertificateResponse` | 51 | Exported Function
+`DllGetActivationFactory` | 54 | Exported Function
+`DllGetClassObject` | 55 | Exported Function
+`DllCanUnloadNow` | 17 | Exported Function
+`CreateLogonCertificateRequest` | 50 | Exported Function
+`DeleteLogonCertificateRequest` | 52 | Exported Function
+`ImportPFXToProvider` | 45 | Exported Function
+`ImportPFXToProviderFreeData` | 46 | Exported Function
+`DllUnregisterServer` | 58 | Exported Function
+`DllMain` | 56 | Exported Function
+`DllRegisterServer` | 57 | Exported Function
 
 
 ## Signature

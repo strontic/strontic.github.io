@@ -24,13 +24,13 @@ PE256 | `FE7598FE5BD6360D55C8E42651B9FD09922BA17513F4C44C97580D2557791208`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Beep` | 1 (0x1) | Exported Function | kernel32.Beep | 0x000010df
-`DecodePointer` | 2 (0x2) | Exported Function | kernel32.DecodePointer | 0x000010fb
-`DecodeSystemPointer` | 3 (0x3) | Exported Function | kernel32.DecodeSystemPointer | 0x00001126
-`EncodePointer` | 4 (0x4) | Exported Function | kernel32.EncodePointer | 0x00001151
-`EncodeSystemPointer` | 5 (0x5) | Exported Function | kernel32.EncodeSystemPointer | 0x0000117c
+Function Name | Ordinal | Type
+-- | -- | --
+`EncodePointer` | 4 | Exported Function
+`EncodeSystemPointer` | 5 | Exported Function
+`DecodeSystemPointer` | 3 | Exported Function
+`Beep` | 1 | Exported Function
+`DecodePointer` | 2 | Exported Function
 
 
 ## Signature

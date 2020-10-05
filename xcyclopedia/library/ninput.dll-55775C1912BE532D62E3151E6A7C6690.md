@@ -24,46 +24,39 @@ PE256 | `6B6AA649EB2D590DBB05B4BB70AA9B9402E4C43467AD96454D93A938176F055C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddPointerInteractionContext` | 2 (0x2) | Exported Function | 0x1000e4a0 | 0x0000e4a0
-`ProcessBufferedPacketsInteractionContext` | 15 (0xf) | Exported Function | 0x1000e980 | 0x0000e980
-`ProcessInertiaInteractionContext` | 16 (0x10) | Exported Function | 0x1000e9d0 | 0x0000e9d0
-`ProcessPointerFramesInteractionContext` | 17 (0x11) | Exported Function | 0x1000ea80 | 0x0000ea80
-`RegisterOutputCallbackInteractionContext` | 19 (0x13) | Exported Function | 0x10005d40 | 0x00005d40
-`RegisterOutputCallbackInteractionContext2` | 18 (0x12) | Exported Function | 0x1000ec10 | 0x0000ec10
-`RemovePointerInteractionContext` | 20 (0x14) | Exported Function | 0x1000ec60 | 0x0000ec60
-`ResetInteractionContext` | 21 (0x15) | Exported Function | 0x1000a5d0 | 0x0000a5d0
-`SetCrossSlideParametersInteractionContext` | 22 (0x16) | Exported Function | 0x1000ecb0 | 0x0000ecb0
-`SetHoldParameterInteractionContext` | 23 (0x17) | Exported Function | 0x1000ecf0 | 0x0000ecf0
-`SetInertiaParameterInteractionContext` | 24 (0x18) | Exported Function | 0x1000ed60 | 0x0000ed60
-`SetInteractionConfigurationInteractionContext` | 25 (0x19) | Exported Function | 0x100073e0 | 0x000073e0
-`SetMouseWheelParameterInteractionContext` | 26 (0x1a) | Exported Function | 0x1000ed90 | 0x0000ed90
-`SetPivotInteractionContext` | 27 (0x1b) | Exported Function | 0x1000edd0 | 0x0000edd0
-`SetPropertyInteractionContext` | 28 (0x1c) | Exported Function | 0x10005ea0 | 0x00005ea0
-`SetTapParameterInteractionContext` | 29 (0x1d) | Exported Function | 0x1000ee10 | 0x0000ee10
-`Ordinal2506` | 2506 (0x9ca) | Exported Function | 0x1000a400 | 0x0000a400
-`Ordinal2505` | 2505 (0x9c9) | Exported Function | 0x1000e930 | 0x0000e930
-`Ordinal2504` | 2504 (0x9c8) | Exported Function | 0x1000ed20 | 0x0000ed20
-`Ordinal2503` | 2503 (0x9c7) | Exported Function | 0x1000ef20 | 0x0000ef20
-`BufferPointerPacketsInteractionContext` | 3 (0x3) | Exported Function | 0x1000e4f0 | 0x0000e4f0
-`CreateInteractionContext` | 4 (0x4) | Exported Function | 0x10005d90 | 0x00005d90
-`DefaultInputHandler` | 1 (0x1) | Exported Function | 0x10005240 | 0x00005240
-`DestroyInteractionContext` | 5 (0x5) | Exported Function | 0x1000e5c0 | 0x0000e5c0
-`GetCrossSlideParameterInteractionContext` | 6 (0x6) | Exported Function | 0x1000e640 | 0x0000e640
-`GetHoldParameterInteractionContext` | 7 (0x7) | Exported Function | 0x1000e680 | 0x0000e680
-`GetInertiaParameterInteractionContext` | 8 (0x8) | Exported Function | 0x1000e6f0 | 0x0000e6f0
-`SetTranslationParameterInteractionContext` | 30 (0x1e) | Exported Function | 0x1000ee40 | 0x0000ee40
-`GetInteractionConfigurationInteractionContext` | 9 (0x9) | Exported Function | 0x1000e730 | 0x0000e730
-`GetPropertyInteractionContext` | 11 (0xb) | Exported Function | 0x1000e7e0 | 0x0000e7e0
-`GetStateInteractionContext` | 12 (0xc) | Exported Function | 0x1000e820 | 0x0000e820
-`GetTapParameterInteractionContext` | 13 (0xd) | Exported Function | 0x1000e860 | 0x0000e860
-`GetTranslationParameterInteractionContext` | 14 (0xe) | Exported Function | 0x1000e8a0 | 0x0000e8a0
-`Ordinal2500` | 2500 (0x9c4) | Exported Function | 0x1000e6c0 | 0x0000e6c0
-`Ordinal2501` | 2501 (0x9c5) | Exported Function | 0x1000ea20 | 0x0000ea20
-`Ordinal2502` | 2502 (0x9c6) | Exported Function | 0x1000eec0 | 0x0000eec0
-`GetMouseWheelParameterInteractionContext` | 10 (0xa) | Exported Function | 0x1000e790 | 0x0000e790
-`StopInteractionContext` | 31 (0x1f) | Exported Function | 0x1000ee70 | 0x0000ee70
+Function Name | Ordinal | Type
+-- | -- | --
+`ResetInteractionContext` | 21 | Exported Function
+`SetCrossSlideParametersInteractionContext` | 22 | Exported Function
+`SetHoldParameterInteractionContext` | 23 | Exported Function
+`RemovePointerInteractionContext` | 20 | Exported Function
+`ProcessPointerFramesInteractionContext` | 17 | Exported Function
+`RegisterOutputCallbackInteractionContext` | 19 | Exported Function
+`RegisterOutputCallbackInteractionContext2` | 18 | Exported Function
+`SetInertiaParameterInteractionContext` | 24 | Exported Function
+`SetTapParameterInteractionContext` | 29 | Exported Function
+`SetTranslationParameterInteractionContext` | 30 | Exported Function
+`StopInteractionContext` | 31 | Exported Function
+`SetPropertyInteractionContext` | 28 | Exported Function
+`SetInteractionConfigurationInteractionContext` | 25 | Exported Function
+`SetMouseWheelParameterInteractionContext` | 26 | Exported Function
+`SetPivotInteractionContext` | 27 | Exported Function
+`ProcessInertiaInteractionContext` | 16 | Exported Function
+`DestroyInteractionContext` | 5 | Exported Function
+`GetCrossSlideParameterInteractionContext` | 6 | Exported Function
+`GetHoldParameterInteractionContext` | 7 | Exported Function
+`DefaultInputHandler` | 1 | Exported Function
+`AddPointerInteractionContext` | 2 | Exported Function
+`BufferPointerPacketsInteractionContext` | 3 | Exported Function
+`CreateInteractionContext` | 4 | Exported Function
+`GetInertiaParameterInteractionContext` | 8 | Exported Function
+`GetTapParameterInteractionContext` | 13 | Exported Function
+`GetTranslationParameterInteractionContext` | 14 | Exported Function
+`ProcessBufferedPacketsInteractionContext` | 15 | Exported Function
+`GetStateInteractionContext` | 12 | Exported Function
+`GetInteractionConfigurationInteractionContext` | 9 | Exported Function
+`GetMouseWheelParameterInteractionContext` | 10 | Exported Function
+`GetPropertyInteractionContext` | 11 | Exported Function
 
 
 ## Signature

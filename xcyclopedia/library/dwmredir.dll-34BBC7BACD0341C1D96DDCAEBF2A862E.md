@@ -24,15 +24,15 @@ PE256 | `D5A57971B92A5174C79165AC66BD11E53CED926F34C9C9F303B03550AB413E7E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DwmInitializeEngine` | 3 (0x3) | Exported Function | 0x000000018000c640 | 0x0000c640
-`DwmInitializePort` | 4 (0x4) | Exported Function | 0x000000018000c690 | 0x0000c690
-`DwmRedirectionManagerInitialize` | 1 (0x1) | Exported Function | 0x000000018000aef0 | 0x0000aef0
-`DwmRedirectionManagerShutdown` | 2 (0x2) | Exported Function | 0x0000000180013bc0 | 0x00013bc0
-`DwmRenderDesktopForDDA` | 5 (0x5) | Exported Function | 0x000000018000c850 | 0x0000c850
-`DwmShutdownEngine` | 6 (0x6) | Exported Function | 0x0000000180013c00 | 0x00013c00
-`DwmVersionCheck` | 7 (0x7) | Exported Function | 0x000000018000c850 | 0x0000c850
+Function Name | Ordinal | Type
+-- | -- | --
+`DwmRenderDesktopForDDA` | 5 | Exported Function
+`DwmShutdownEngine` | 6 | Exported Function
+`DwmVersionCheck` | 7 | Exported Function
+`DwmRedirectionManagerShutdown` | 2 | Exported Function
+`DwmInitializeEngine` | 3 | Exported Function
+`DwmInitializePort` | 4 | Exported Function
+`DwmRedirectionManagerInitialize` | 1 | Exported Function
 
 
 ## Signature

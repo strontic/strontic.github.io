@@ -23,28 +23,28 @@ PE256 | `104393BBC9A4AF1196DC47400D035FF3E60507EBBA4E1CD79B68F3BC3836758E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BuildOtlCache` | 1 (0x1) | Exported Function | 0x10081320 | 0x00081320
-`ShapingSetInvariantAssertFunction` | 20 (0x14) | Exported Function | 0x1005cc80 | 0x0005cc80
-`ShapingSetAssertFunction` | 19 (0x13) | Exported Function | 0x1005cc80 | 0x0005cc80
-`ShapingLoadScriptEngine` | 18 (0x12) | Exported Function | 0x1005b840 | 0x0005b840
-`ShapingGetGlyphs` | 17 (0x11) | Exported Function | 0x1005c840 | 0x0005c840
-`ShapingGetGlyphPositions` | 16 (0x10) | Exported Function | 0x1005bf70 | 0x0005bf70
-`ShapingGetCombiningOptions` | 15 (0xf) | Exported Function | 0x1005bd50 | 0x0005bd50
-`ShapingGetBreakingProperties` | 14 (0xe) | Exported Function | 0x1005bbe0 | 0x0005bbe0
-`ShapingDrawGlyphs` | 13 (0xd) | Exported Function | 0x1005ba30 | 0x0005ba30
-`ShapingCreateFontCacheData` | 12 (0xc) | Exported Function | 0x1005af70 | 0x0005af70
-`RepositionOtlSingleGlyph` | 8 (0x8) | Exported Function | 0x10081ef0 | 0x00081ef0
-`OtlAssertFailed` | 11 (0xb) | Exported Function | 0x10082030 | 0x00082030
-`GetOtlVersion` | 7 (0x7) | Exported Function | 0x10080940 | 0x00080940
-`GetOtlScriptList` | 6 (0x6) | Exported Function | 0x10080960 | 0x00080960
-`GetOtlLangSysList` | 5 (0x5) | Exported Function | 0x10080c50 | 0x00080c50
-`GetOtlGlyphAlternates` | 4 (0x4) | Exported Function | 0x10081f90 | 0x00081f90
-`GetOtlFeatureDefs` | 3 (0x3) | Exported Function | 0x10080f50 | 0x00080f50
-`FreeOtlResources` | 2 (0x2) | Exported Function | 0x10081250 | 0x00081250
-`SubstituteOtlSingleGlyph` | 9 (0x9) | Exported Function | 0x10081a30 | 0x00081a30
-`ValidateLogClust` | 10 (0xa) | Exported Function | 0x1005a1a0 | 0x0005a1a0
+Function Name | Ordinal | Type
+-- | -- | --
+`ShapingGetGlyphPositions` | 16 | Exported Function
+`ShapingGetGlyphs` | 17 | Exported Function
+`ShapingGetCombiningOptions` | 15 | Exported Function
+`ShapingDrawGlyphs` | 13 | Exported Function
+`ShapingGetBreakingProperties` | 14 | Exported Function
+`SubstituteOtlSingleGlyph` | 9 | Exported Function
+`ValidateLogClust` | 10 | Exported Function
+`ShapingSetInvariantAssertFunction` | 20 | Exported Function
+`ShapingLoadScriptEngine` | 18 | Exported Function
+`ShapingSetAssertFunction` | 19 | Exported Function
+`GetOtlGlyphAlternates` | 4 | Exported Function
+`GetOtlLangSysList` | 5 | Exported Function
+`GetOtlFeatureDefs` | 3 | Exported Function
+`BuildOtlCache` | 1 | Exported Function
+`FreeOtlResources` | 2 | Exported Function
+`RepositionOtlSingleGlyph` | 8 | Exported Function
+`ShapingCreateFontCacheData` | 12 | Exported Function
+`OtlAssertFailed` | 11 | Exported Function
+`GetOtlScriptList` | 6 | Exported Function
+`GetOtlVersion` | 7 | Exported Function
 
 
 ## Signature

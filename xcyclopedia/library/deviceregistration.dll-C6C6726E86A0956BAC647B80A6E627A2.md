@@ -24,14 +24,14 @@ PE256 | `E9AE567AA3E077630836F4EB5C4308A498CAA34C1DF6239CF907C765E85F6870`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConfigureRegistrationIEZoneMappings` | 6 (0x6) | Exported Function | 0x0000000180006db0 | 0x00006db0
-`DiscoverRegistrationService` | 3 (0x3) | Exported Function | 0x0000000180006d40 | 0x00006d40
-`GetRegistrationInfo` | 4 (0x4) | Exported Function | 0x0000000180006cf0 | 0x00006cf0
-`IsRegistrationAvailable` | 5 (0x5) | Exported Function | 0x0000000180011d80 | 0x00011d80
-`RegisterDevice` | 1 (0x1) | Exported Function | 0x0000000180006c30 | 0x00006c30
-`UnRegisterDevice` | 2 (0x2) | Exported Function | 0x0000000180006cb0 | 0x00006cb0
+Function Name | Ordinal | Type
+-- | -- | --
+`IsRegistrationAvailable` | 5 | Exported Function
+`RegisterDevice` | 1 | Exported Function
+`UnRegisterDevice` | 2 | Exported Function
+`ConfigureRegistrationIEZoneMappings` | 6 | Exported Function
+`DiscoverRegistrationService` | 3 | Exported Function
+`GetRegistrationInfo` | 4 | Exported Function
 
 
 ## Signature

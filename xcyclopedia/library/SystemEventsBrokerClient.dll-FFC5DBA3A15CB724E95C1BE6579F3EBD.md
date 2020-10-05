@@ -24,62 +24,62 @@ PE256 | `D6325CDCDAD048C6119AFCAA40C7F858FE6ECB13F8FC408D357921973E10971E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SebCancelEvent` | 1 (0x1) | Exported Function | 0x10002b50 | 0x00002b50
-`SebCreateRcsEndUserMessageNotificationEvent` | 30 (0x1e) | Exported Function | 0x10003300 | 0x00003300
-`SebCreateSessionConnectedEvent` | 31 (0x1f) | Exported Function | 0x10003320 | 0x00003320
-`SebCreateTelephonyEvent` | 32 (0x20) | Exported Function | 0x10003390 | 0x00003390
-`SebCreateUnconstrainedBackgroundDownloadEvent` | 33 (0x21) | Exported Function | 0x100033f0 | 0x000033f0
-`SebCreateUserPresentEvent` | 34 (0x22) | Exported Function | 0x10003400 | 0x00003400
-`SebDeleteEvent` | 35 (0x23) | Exported Function | 0x10003470 | 0x00003470
-`SebEnumerateEvents` | 36 (0x24) | Exported Function | 0x100034f0 | 0x000034f0
-`SebEnumerateEventsByType` | 37 (0x25) | Exported Function | 0x100019c0 | 0x000019c0
-`SebEnumerateEventsByTypeEx` | 38 (0x26) | Exported Function | 0x10003570 | 0x00003570
-`SebGetStatusStateName` | 39 (0x27) | Exported Function | 0x100035f0 | 0x000035f0
-`SebQueryEventData` | 40 (0x28) | Exported Function | 0x10003680 | 0x00003680
-`SebQueryEventPackage` | 41 (0x29) | Exported Function | 0x10003700 | 0x00003700
-`SebRegisterPrivateEvent` | 42 (0x2a) | Exported Function | 0x10003780 | 0x00003780
-`SebRegisterWellKnownEvent` | 43 (0x2b) | Exported Function | 0x100037f0 | 0x000037f0
-`SebRegisterWellKnownFilteredEvent` | 44 (0x2c) | Exported Function | 0x100038a0 | 0x000038a0
-`SebSignalApplicationTriggerEvent` | 45 (0x2d) | Exported Function | 0x10003980 | 0x00003980
-`SebSignalBackgroundDownloadEvent` | 46 (0x2e) | Exported Function | 0x100039c0 | 0x000039c0
-`SebSignalBackgroundTransferCompletionEvent` | 47 (0x2f) | Exported Function | 0x10003980 | 0x00003980
-`SebSignalDeviceEvent` | 48 (0x30) | Exported Function | 0x10003a00 | 0x00003a00
-`SebSignalEvent` | 49 (0x31) | Exported Function | 0x10003a00 | 0x00003a00
-`SebSignalLevelEvent` | 50 (0x32) | Exported Function | 0x10003a50 | 0x00003a50
-`SebSignalMediaProcessingTriggerEvent` | 51 (0x33) | Exported Function | 0x10003980 | 0x00003980
-`SebSignalOEMPreInstallEvent` | 52 (0x34) | Exported Function | 0x10003aa0 | 0x00003aa0
-`SebCreatePowerStateChangeEvent` | 29 (0x1d) | Exported Function | 0x100032e0 | 0x000032e0
-`SebCreateOEMPreInstallEvent` | 28 (0x1c) | Exported Function | 0x100032a0 | 0x000032a0
-`SebCreateNetOperatorHotSpotAuthEvent` | 27 (0x1b) | Exported Function | 0x10003260 | 0x00003260
-`SebCreateMobileBroadbandEvent` | 26 (0x1a) | Exported Function | 0x10003220 | 0x00003220
-`SebCreateApplicationTriggerEvent` | 2 (0x2) | Exported Function | 0x10002be0 | 0x00002be0
-`SebCreateAuthenticatorDeviceAuthEvent` | 3 (0x3) | Exported Function | 0x10002c00 | 0x00002c00
-`SebCreateBackgroundDownloadEvent` | 4 (0x4) | Exported Function | 0x10002c20 | 0x00002c20
-`SebCreateBackgroundDownloadEventEx` | 5 (0x5) | Exported Function | 0x10002c40 | 0x00002c40
-`SebCreateBackgroundTransferCompletionEvent` | 6 (0x6) | Exported Function | 0x10002cb0 | 0x00002cb0
-`SebCreateBroadcastNotificationEvent` | 7 (0x7) | Exported Function | 0x10002cd0 | 0x00002cd0
-`SebCreateCachedFileUpdatedEvent` | 8 (0x8) | Exported Function | 0x10002cf0 | 0x00002cf0
-`SebCreateCalendarNotificationEvent` | 9 (0x9) | Exported Function | 0x10002d30 | 0x00002d30
-`SebCreateCallBlockedNotificationEvent` | 10 (0xa) | Exported Function | 0x10002d50 | 0x00002d50
-`SebCreateCallOriginDataRequestedEvent` | 11 (0xb) | Exported Function | 0x10002d70 | 0x00002d70
-`SebCreateChatNotificationEvent` | 12 (0xc) | Exported Function | 0x10002d90 | 0x00002d90
-`SebSignalSyncEvent` | 53 (0x35) | Exported Function | 0x10003ae0 | 0x00003ae0
-`SebCreateCommunicationBlockingAppSetAsActiveEvent` | 13 (0xd) | Exported Function | 0x10002db0 | 0x00002db0
-`SebCreateContentPrefetchEvent` | 15 (0xf) | Exported Function | 0x10002df0 | 0x00002df0
-`SebCreateDeviceServicingEvent` | 16 (0x10) | Exported Function | 0x10002e30 | 0x00002e30
-`SebCreateDeviceUseEvent` | 17 (0x11) | Exported Function | 0x10002e70 | 0x00002e70
-`SebCreateDisplayOnEvent` | 18 (0x12) | Exported Function | 0x10002eb0 | 0x00002eb0
-`SebCreateEmailNotificationEvent` | 19 (0x13) | Exported Function | 0x10002ef0 | 0x00002ef0
-`SebCreateInfrastructureConditionEvent` | 20 (0x14) | Exported Function | 0x10003100 | 0x00003100
-`SebCreateKnownFoldersChangedEvent` | 21 (0x15) | Exported Function | 0x10003140 | 0x00003140
-`SebCreateLockScreenAppAddedEvent` | 22 (0x16) | Exported Function | 0x10003160 | 0x00003160
-`SebCreateLockScreenAppRemovedEvent` | 23 (0x17) | Exported Function | 0x100031a0 | 0x000031a0
-`SebCreateMediaProcessingTriggerEvent` | 24 (0x18) | Exported Function | 0x100031e0 | 0x000031e0
-`SebCreateMessageInterceptNotificationEvent` | 25 (0x19) | Exported Function | 0x10003200 | 0x00003200
-`SebCreateContactNotificationEvent` | 14 (0xe) | Exported Function | 0x10002dd0 | 0x00002dd0
-`SebSignalSyncEventEx` | 54 (0x36) | Exported Function | 0x10003b30 | 0x00003b30
+Function Name | Ordinal | Type
+-- | -- | --
+`SebEnumerateEventsByType` | 37 | Exported Function
+`SebEnumerateEvents` | 36 | Exported Function
+`SebDeleteEvent` | 35 | Exported Function
+`SebQueryEventData` | 40 | Exported Function
+`SebGetStatusStateName` | 39 | Exported Function
+`SebEnumerateEventsByTypeEx` | 38 | Exported Function
+`SebCreateUserPresentEvent` | 34 | Exported Function
+`SebCreateRcsEndUserMessageNotificationEvent` | 30 | Exported Function
+`SebCreatePowerStateChangeEvent` | 29 | Exported Function
+`SebCreateOEMPreInstallEvent` | 28 | Exported Function
+`SebCreateUnconstrainedBackgroundDownloadEvent` | 33 | Exported Function
+`SebCreateTelephonyEvent` | 32 | Exported Function
+`SebCreateSessionConnectedEvent` | 31 | Exported Function
+`SebQueryEventPackage` | 41 | Exported Function
+`SebSignalMediaProcessingTriggerEvent` | 51 | Exported Function
+`SebSignalLevelEvent` | 50 | Exported Function
+`SebSignalEvent` | 49 | Exported Function
+`SebSignalSyncEventEx` | 54 | Exported Function
+`SebSignalSyncEvent` | 53 | Exported Function
+`SebSignalOEMPreInstallEvent` | 52 | Exported Function
+`SebSignalDeviceEvent` | 48 | Exported Function
+`SebRegisterWellKnownFilteredEvent` | 44 | Exported Function
+`SebRegisterWellKnownEvent` | 43 | Exported Function
+`SebRegisterPrivateEvent` | 42 | Exported Function
+`SebSignalBackgroundTransferCompletionEvent` | 47 | Exported Function
+`SebSignalBackgroundDownloadEvent` | 46 | Exported Function
+`SebSignalApplicationTriggerEvent` | 45 | Exported Function
+`SebCreateCallBlockedNotificationEvent` | 10 | Exported Function
+`SebCreateCalendarNotificationEvent` | 9 | Exported Function
+`SebCreateCachedFileUpdatedEvent` | 8 | Exported Function
+`SebCreateCommunicationBlockingAppSetAsActiveEvent` | 13 | Exported Function
+`SebCreateChatNotificationEvent` | 12 | Exported Function
+`SebCreateCallOriginDataRequestedEvent` | 11 | Exported Function
+`SebCreateBroadcastNotificationEvent` | 7 | Exported Function
+`SebCreateAuthenticatorDeviceAuthEvent` | 3 | Exported Function
+`SebCreateApplicationTriggerEvent` | 2 | Exported Function
+`SebCancelEvent` | 1 | Exported Function
+`SebCreateBackgroundTransferCompletionEvent` | 6 | Exported Function
+`SebCreateBackgroundDownloadEventEx` | 5 | Exported Function
+`SebCreateBackgroundDownloadEvent` | 4 | Exported Function
+`SebCreateContactNotificationEvent` | 14 | Exported Function
+`SebCreateMediaProcessingTriggerEvent` | 24 | Exported Function
+`SebCreateLockScreenAppRemovedEvent` | 23 | Exported Function
+`SebCreateLockScreenAppAddedEvent` | 22 | Exported Function
+`SebCreateNetOperatorHotSpotAuthEvent` | 27 | Exported Function
+`SebCreateMobileBroadbandEvent` | 26 | Exported Function
+`SebCreateMessageInterceptNotificationEvent` | 25 | Exported Function
+`SebCreateKnownFoldersChangedEvent` | 21 | Exported Function
+`SebCreateDeviceUseEvent` | 17 | Exported Function
+`SebCreateDeviceServicingEvent` | 16 | Exported Function
+`SebCreateContentPrefetchEvent` | 15 | Exported Function
+`SebCreateInfrastructureConditionEvent` | 20 | Exported Function
+`SebCreateEmailNotificationEvent` | 19 | Exported Function
+`SebCreateDisplayOnEvent` | 18 | Exported Function
 
 
 ## Signature

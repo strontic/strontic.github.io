@@ -24,11 +24,11 @@ PE256 | `4039FBA17CF0503B08D53F709C25090B74B7D156DF88AD4E525FDFD0A7001F0A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DiscpEstablishServiceLinkage` | 1 (0x1) | Exported Function | 0x0000000180014f60 | 0x00014f60
-`ServiceMain` | 2 (0x2) | Exported Function | 0x0000000180002610 | 0x00002610
-`SvchostPushServiceGlobals` | 3 (0x3) | Exported Function | 0x0000000180002600 | 0x00002600
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 3 | Exported Function
+`ServiceMain` | 2 | Exported Function
+`DiscpEstablishServiceLinkage` | 1 | Exported Function
 
 
 ## Signature

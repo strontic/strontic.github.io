@@ -23,11 +23,11 @@ PE256 | `D615C6CC2A77EDBB09A9ECF85490864164B8453F1E0E42EAA1E2F4457B11780C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Dot11ExtIhvGetVersionInfo` | 1 (0x1) | Exported Function | 0x0000000180001a80 | 0x00001a80
-`Dot11ExtIhvInitService` | 2 (0x2) | Exported Function | 0x0000000180001110 | 0x00001110
-`Dot11ExtIhvInitVirtualStation` | 3 (0x3) | Exported Function | 0x0000000180004d50 | 0x00004d50
+Function Name | Ordinal | Type
+-- | -- | --
+`Dot11ExtIhvInitVirtualStation` | 3 | Exported Function
+`Dot11ExtIhvInitService` | 2 | Exported Function
+`Dot11ExtIhvGetVersionInfo` | 1 | Exported Function
 
 
 ## Signature

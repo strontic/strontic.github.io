@@ -24,46 +24,46 @@ PE256 | `E5DB4BD6858FC6D02D6F47EE889DF5ABE1D4EA69F08B0DB62CAE4E9CAAF76B61`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SnmpSvcAddrIsIpx` | 1 (0x1) | Exported Function | 0x0000000180002190 | 0x00002190
-`SnmpUtilOctetsFree` | 22 (0x16) | Exported Function | 0x0000000180002710 | 0x00002710
-`SnmpUtilOctetsNCmp` | 23 (0x17) | Exported Function | 0x0000000180002750 | 0x00002750
-`SnmpUtilOidAppend` | 24 (0x18) | Exported Function | 0x00000001800027f0 | 0x000027f0
-`SnmpUtilOidCmp` | 25 (0x19) | Exported Function | 0x00000001800028d0 | 0x000028d0
-`SnmpUtilOidCpy` | 26 (0x1a) | Exported Function | 0x00000001800028f0 | 0x000028f0
-`SnmpUtilOidFree` | 27 (0x1b) | Exported Function | 0x00000001800029b0 | 0x000029b0
-`SnmpUtilOidNCmp` | 28 (0x1c) | Exported Function | 0x00000001800029e0 | 0x000029e0
-`SnmpUtilOidToA` | 29 (0x1d) | Exported Function | 0x0000000180005740 | 0x00005740
-`SnmpUtilPrintAsnAny` | 30 (0x1e) | Exported Function | 0x0000000180002ab0 | 0x00002ab0
-`SnmpUtilPrintOid` | 31 (0x1f) | Exported Function | 0x0000000180002f70 | 0x00002f70
-`SnmpUtilUnicodeToAnsi` | 33 (0x21) | Exported Function | 0x00000001800059f0 | 0x000059f0
-`SnmpUtilUnicodeToUTF8` | 34 (0x22) | Exported Function | 0x0000000180005b30 | 0x00005b30
-`SnmpUtilUTF8ToUnicode` | 32 (0x20) | Exported Function | 0x00000001800058b0 | 0x000058b0
-`SnmpUtilVarBindCpy` | 35 (0x23) | Exported Function | 0x0000000180005de0 | 0x00005de0
-`SnmpUtilVarBindFree` | 36 (0x24) | Exported Function | 0x0000000180005e70 | 0x00005e70
-`SnmpUtilOctetsCpy` | 21 (0x15) | Exported Function | 0x0000000180002670 | 0x00002670
-`SnmpUtilOctetsCmp` | 20 (0x14) | Exported Function | 0x0000000180002650 | 0x00002650
-`SnmpUtilMemReAlloc` | 19 (0x13) | Exported Function | 0x00000001800025f0 | 0x000025f0
-`SnmpUtilMemFree` | 18 (0x12) | Exported Function | 0x00000001800025b0 | 0x000025b0
-`SnmpSvcAddrToSocket` | 2 (0x2) | Exported Function | 0x0000000180002260 | 0x00002260
-`SnmpSvcGetEnterpriseOID` | 3 (0x3) | Exported Function | 0x0000000180005760 | 0x00005760
-`SnmpSvcGetUptime` | 4 (0x4) | Exported Function | 0x0000000180005c70 | 0x00005c70
-`SnmpSvcGetUptimeFromTime` | 5 (0x5) | Exported Function | 0x0000000180005d20 | 0x00005d20
-`SnmpSvcInitUptime` | 6 (0x6) | Exported Function | 0x0000000180005d60 | 0x00005d60
-`SnmpSvcSetLogLevel` | 7 (0x7) | Exported Function | 0x0000000180002000 | 0x00002000
-`SnmpSvcSetLogType` | 8 (0x8) | Exported Function | 0x0000000180002010 | 0x00002010
-`SnmpUtilVarBindListCpy` | 37 (0x25) | Exported Function | 0x0000000180005ea0 | 0x00005ea0
-`SnmpTfxClose` | 9 (0x9) | Exported Function | 0x0000000180004b80 | 0x00004b80
-`SnmpTfxQuery` | 11 (0xb) | Exported Function | 0x0000000180004ce0 | 0x00004ce0
-`SnmpUtilAnsiToUnicode` | 12 (0xc) | Exported Function | 0x0000000180005770 | 0x00005770
-`SnmpUtilAsnAnyCpy` | 13 (0xd) | Exported Function | 0x0000000180001e40 | 0x00001e40
-`SnmpUtilAsnAnyFree` | 14 (0xe) | Exported Function | 0x0000000180001eb0 | 0x00001eb0
-`SnmpUtilDbgPrint` | 15 (0xf) | Exported Function | 0x0000000180002020 | 0x00002020
-`SnmpUtilIdsToA` | 16 (0x10) | Exported Function | 0x0000000180005620 | 0x00005620
-`SnmpUtilMemAlloc` | 17 (0x11) | Exported Function | 0x0000000180002570 | 0x00002570
-`SnmpTfxOpen` | 10 (0xa) | Exported Function | 0x0000000180004b90 | 0x00004b90
-`SnmpUtilVarBindListFree` | 38 (0x26) | Exported Function | 0x0000000180005f80 | 0x00005f80
+Function Name | Ordinal | Type
+-- | -- | --
+`SnmpUtilOidCpy` | 26 | Exported Function
+`SnmpUtilOidCmp` | 25 | Exported Function
+`SnmpUtilOidNCmp` | 28 | Exported Function
+`SnmpUtilOidFree` | 27 | Exported Function
+`SnmpUtilOidAppend` | 24 | Exported Function
+`SnmpUtilOctetsCpy` | 21 | Exported Function
+`SnmpUtilOctetsCmp` | 20 | Exported Function
+`SnmpUtilOctetsNCmp` | 23 | Exported Function
+`SnmpUtilOctetsFree` | 22 | Exported Function
+`SnmpUtilOidToA` | 29 | Exported Function
+`SnmpUtilVarBindFree` | 36 | Exported Function
+`SnmpUtilVarBindCpy` | 35 | Exported Function
+`SnmpUtilVarBindListFree` | 38 | Exported Function
+`SnmpUtilVarBindListCpy` | 37 | Exported Function
+`SnmpUtilUTF8ToUnicode` | 32 | Exported Function
+`SnmpUtilPrintOid` | 31 | Exported Function
+`SnmpUtilPrintAsnAny` | 30 | Exported Function
+`SnmpUtilUnicodeToUTF8` | 34 | Exported Function
+`SnmpUtilUnicodeToAnsi` | 33 | Exported Function
+`SnmpSvcSetLogLevel` | 7 | Exported Function
+`SnmpSvcInitUptime` | 6 | Exported Function
+`SnmpTfxClose` | 9 | Exported Function
+`SnmpSvcSetLogType` | 8 | Exported Function
+`SnmpSvcGetUptimeFromTime` | 5 | Exported Function
+`SnmpSvcAddrToSocket` | 2 | Exported Function
+`SnmpSvcAddrIsIpx` | 1 | Exported Function
+`SnmpSvcGetUptime` | 4 | Exported Function
+`SnmpSvcGetEnterpriseOID` | 3 | Exported Function
+`SnmpTfxOpen` | 10 | Exported Function
+`SnmpUtilMemAlloc` | 17 | Exported Function
+`SnmpUtilIdsToA` | 16 | Exported Function
+`SnmpUtilMemReAlloc` | 19 | Exported Function
+`SnmpUtilMemFree` | 18 | Exported Function
+`SnmpUtilDbgPrint` | 15 | Exported Function
+`SnmpUtilAnsiToUnicode` | 12 | Exported Function
+`SnmpTfxQuery` | 11 | Exported Function
+`SnmpUtilAsnAnyFree` | 14 | Exported Function
+`SnmpUtilAsnAnyCpy` | 13 | Exported Function
 
 
 ## Signature

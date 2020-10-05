@@ -24,30 +24,28 @@ PE256 | `B7FCA33B779F632076859B0F34099E88034FE3F51DD888930A849A33F3EA0EEC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CoCreateActivity` | 8 (0x8) | Exported Function | 0x000000018003bfd0 | 0x0003bfd0
-`Ordinal7` | 7 (0x7) | Exported Function | 0x000000018003c230 | 0x0003c230
-`Ordinal6` | 6 (0x6) | Exported Function | 0x0000000180002890 | 0x00002890
-`MTSCreateActivity` | 23 (0x17) | Exported Function | 0x000000018003c2f0 | 0x0003c2f0
-`MiniDumpW` | 24 (0x18) | Exported Function | 0x0000000180021e30 | 0x00021e30
-`GetTrkSvrObject` | 22 (0x16) | Exported Function | 0x0000000180021d50 | 0x00021d50
-`GetObjectContext` | 21 (0x15) | Exported Function | 0x000000018002d2e0 | 0x0002d2e0
-`GetMTAThreadPoolMetrics` | 19 (0x13) | Exported Function | 0x0000000180021be0 | 0x00021be0
-`GetManagedExtensions` | 20 (0x14) | Exported Function | 0x0000000180021c80 | 0x00021c80
-`DllUnregisterServer` | 18 (0x12) | Exported Function | 0x0000000180002890 | 0x00002890
-`DllRegisterServer` | 17 (0x11) | Exported Function | 0x0000000180002890 | 0x00002890
-`DllGetClassObject` | 16 (0x10) | Exported Function | 0x0000000180021900 | 0x00021900
-`DllCanUnloadNow` | 15 (0xf) | Exported Function | 0x00000001800218b0 | 0x000218b0
-`DispManGetContext` | 14 (0xe) | Exported Function | 0x000000018002e990 | 0x0002e990
-`CosGetCallContext` | 5 (0x5) | Exported Function | 0x0000000180033960 | 0x00033960
-`ComSvcsLogError` | 13 (0xd) | Exported Function | 0x000000018002d200 | 0x0002d200
-`ComSvcsExceptionFilter` | 12 (0xc) | Exported Function | 0x0000000180021780 | 0x00021780
-`CoLoadServices` | 11 (0xb) | Exported Function | 0x0000000180074010 | 0x00074010
-`CoLeaveServiceDomain` | 10 (0xa) | Exported Function | 0x0000000180028fd0 | 0x00028fd0
-`CoEnterServiceDomain` | 9 (0x9) | Exported Function | 0x0000000180028ea0 | 0x00028ea0
-`RecycleSurrogate` | 25 (0x19) | Exported Function | 0x000000018002d320 | 0x0002d320
-`SafeRef` | 26 (0x1a) | Exported Function | 0x000000018002d330 | 0x0002d330
+Function Name | Ordinal | Type
+-- | -- | --
+`GetMTAThreadPoolMetrics` | 19 | Exported Function
+`GetObjectContext` | 21 | Exported Function
+`GetManagedExtensions` | 20 | Exported Function
+`DllRegisterServer` | 17 | Exported Function
+`DllUnregisterServer` | 18 | Exported Function
+`RecycleSurrogate` | 25 | Exported Function
+`SafeRef` | 26 | Exported Function
+`MTSCreateActivity` | 23 | Exported Function
+`GetTrkSvrObject` | 22 | Exported Function
+`MiniDumpW` | 24 | Exported Function
+`CoLoadServices` | 11 | Exported Function
+`ComSvcsExceptionFilter` | 12 | Exported Function
+`CoLeaveServiceDomain` | 10 | Exported Function
+`CoCreateActivity` | 8 | Exported Function
+`CoEnterServiceDomain` | 9 | Exported Function
+`DllCanUnloadNow` | 15 | Exported Function
+`DllGetClassObject` | 16 | Exported Function
+`DispManGetContext` | 14 | Exported Function
+`ComSvcsLogError` | 13 | Exported Function
+`CosGetCallContext` | 5 | Exported Function
 
 
 ## Signature

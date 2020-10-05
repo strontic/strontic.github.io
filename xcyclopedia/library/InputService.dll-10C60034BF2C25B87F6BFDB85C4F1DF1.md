@@ -24,14 +24,14 @@ PE256 | `4546D2D7D36A343649F83C54B254CB6921ED0844BE821D26AE979A6DCF984979`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateInputMethodClient` | 3 (0x3) | Exported Function | 0x000000014f920a30 | 0x000a0a30
-`CreateKeyEventProcessor` | 4 (0x4) | Exported Function | 0x000000014f920ae0 | 0x000a0ae0
-`InitializeService` | 5 (0x5) | Exported Function | 0x000000014f8f7b40 | 0x00077b40
-`ServiceMain` | 1 (0x1) | Exported Function | 0x000000014f97d1e0 | 0x000fd1e0
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x000000014f97daa0 | 0x000fdaa0
-`UninitializeService` | 6 (0x6) | Exported Function | 0x000000014f97eb20 | 0x000feb20
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 1 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`UninitializeService` | 6 | Exported Function
+`CreateInputMethodClient` | 3 | Exported Function
+`CreateKeyEventProcessor` | 4 | Exported Function
+`InitializeService` | 5 | Exported Function
 
 
 ## Signature

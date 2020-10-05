@@ -24,11 +24,11 @@ PE256 | `6698A0312233CFFB24790592A579AC3F43F28ABB3E18A2DB13AEF3E72331EE6A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OutOfProcessExceptionEventCallback` | 1 (0x1) | Exported Function | 0x100016f0 | 0x000016f0
-`OutOfProcessExceptionEventDebuggerLaunchCallback` | 2 (0x2) | Exported Function | 0x10001b20 | 0x00001b20
-`OutOfProcessExceptionEventSignatureCallback` | 3 (0x3) | Exported Function | 0x10001860 | 0x00001860
+Function Name | Ordinal | Type
+-- | -- | --
+`OutOfProcessExceptionEventSignatureCallback` | 3 | Exported Function
+`OutOfProcessExceptionEventDebuggerLaunchCallback` | 2 | Exported Function
+`OutOfProcessExceptionEventCallback` | 1 | Exported Function
 
 
 ## Signature

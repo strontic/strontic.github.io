@@ -24,22 +24,22 @@ PE256 | `F1B5EBF14A062C3BE89986719F77F56D1DCB21940DBB95EBF6A186B007C73F8C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`QDLHPathDiagnostics` | 1 (0x1) | Exported Function | 0x000000018001c070 | 0x0001c070
-`QDLHStartDiagnosingPath` | 2 (0x2) | Exported Function | 0x000000018001bed0 | 0x0001bed0
-`QOSAddSocketToFlow` | 3 (0x3) | Exported Function | 0x000000018001cbf0 | 0x0001cbf0
-`QOSCancel` | 4 (0x4) | Exported Function | 0x000000018001d430 | 0x0001d430
-`QOSCloseHandle` | 5 (0x5) | Exported Function | 0x000000018001c740 | 0x0001c740
-`QOSCreateHandle` | 6 (0x6) | Exported Function | 0x000000018001c4f0 | 0x0001c4f0
-`QOSEnumerateFlows` | 7 (0x7) | Exported Function | 0x000000018001caa0 | 0x0001caa0
-`QOSNotifyFlow` | 8 (0x8) | Exported Function | 0x000000018001d2b0 | 0x0001d2b0
-`QOSQueryFlow` | 9 (0x9) | Exported Function | 0x000000018001d130 | 0x0001d130
-`QOSRemoveSocketFromFlow` | 10 (0xa) | Exported Function | 0x000000018001ce10 | 0x0001ce10
-`QOSSetFlow` | 11 (0xb) | Exported Function | 0x000000018001cfb0 | 0x0001cfb0
-`QOSStartTrackingClient` | 12 (0xc) | Exported Function | 0x000000018001c760 | 0x0001c760
-`QOSStopTrackingClient` | 13 (0xd) | Exported Function | 0x000000018001c900 | 0x0001c900
-`ServiceMain` | 14 (0xe) | Exported Function | 0x0000000180003b00 | 0x00003b00
+Function Name | Ordinal | Type
+-- | -- | --
+`QOSRemoveSocketFromFlow` | 10 | Exported Function
+`QOSQueryFlow` | 9 | Exported Function
+`QOSNotifyFlow` | 8 | Exported Function
+`QOSSetFlow` | 11 | Exported Function
+`ServiceMain` | 14 | Exported Function
+`QOSStopTrackingClient` | 13 | Exported Function
+`QOSStartTrackingClient` | 12 | Exported Function
+`QOSAddSocketToFlow` | 3 | Exported Function
+`QDLHStartDiagnosingPath` | 2 | Exported Function
+`QDLHPathDiagnostics` | 1 | Exported Function
+`QOSCancel` | 4 | Exported Function
+`QOSEnumerateFlows` | 7 | Exported Function
+`QOSCreateHandle` | 6 | Exported Function
+`QOSCloseHandle` | 5 | Exported Function
 
 
 ## Signature

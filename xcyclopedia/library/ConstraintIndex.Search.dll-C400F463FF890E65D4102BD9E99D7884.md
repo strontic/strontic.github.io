@@ -24,24 +24,24 @@ PE256 | `A79BD91688368196E481C734BCFAA22DB683EF14BE7497D64DBA4524984F57F4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BuildConstraintIndex` | 1 (0x1) | Exported Function | 0x00000001800b2940 | 0x000b2940
-`BuildConstraintIndexInMemory` | 2 (0x2) | Exported Function | 0x000000018004c1c0 | 0x0004c1c0
-`BuildFilterTrie` | 3 (0x3) | Exported Function | 0x00000001800b29c0 | 0x000b29c0
-`BuildFilterTrieInMemory` | 4 (0x4) | Exported Function | 0x0000000180004490 | 0x00004490
-`CreateConstraintIndex` | 8 (0x8) | Exported Function | 0x00000001800b2ce0 | 0x000b2ce0
-`CreateConstraintIndexInMemory` | 9 (0x9) | Exported Function | 0x00000001800b2d80 | 0x000b2d80
-`CreateCSGSuggest` | 6 (0x6) | Exported Function | 0x0000000180031400 | 0x00031400
-`CreateCSGSuggestInMemory` | 7 (0x7) | Exported Function | 0x00000001800b2c30 | 0x000b2c30
-`CSGGetBestEntityScore` | 5 (0x5) | Exported Function | 0x00000001800b2b80 | 0x000b2b80
-`DeleteConstraintIndex` | 11 (0xb) | Exported Function | 0x00000001800b2e40 | 0x000b2e40
-`DeleteCSGSuggest` | 10 (0xa) | Exported Function | 0x00000001800b2e20 | 0x000b2e20
-`DllCanUnloadNow` | 12 (0xc) | Exported Function | 0x0000000180050100 | 0x00050100
-`DllGetActivationFactory` | 13 (0xd) | Exported Function | 0x0000000180050120 | 0x00050120
-`GetAttributeRank` | 14 (0xe) | Exported Function | 0x00000001800b2e60 | 0x000b2e60
-`GetEntitySuggestions` | 15 (0xf) | Exported Function | 0x0000000180035260 | 0x00035260
-`GetSegmentRank` | 16 (0x10) | Exported Function | 0x00000001800b2f90 | 0x000b2f90
+Function Name | Ordinal | Type
+-- | -- | --
+`DeleteCSGSuggest` | 10 | Exported Function
+`DllCanUnloadNow` | 12 | Exported Function
+`CSGGetBestEntityScore` | 5 | Exported Function
+`DeleteConstraintIndex` | 11 | Exported Function
+`GetEntitySuggestions` | 15 | Exported Function
+`GetSegmentRank` | 16 | Exported Function
+`DllGetActivationFactory` | 13 | Exported Function
+`GetAttributeRank` | 14 | Exported Function
+`BuildFilterTrie` | 3 | Exported Function
+`BuildFilterTrieInMemory` | 4 | Exported Function
+`BuildConstraintIndex` | 1 | Exported Function
+`BuildConstraintIndexInMemory` | 2 | Exported Function
+`CreateCSGSuggest` | 6 | Exported Function
+`CreateCSGSuggestInMemory` | 7 | Exported Function
+`CreateConstraintIndex` | 8 | Exported Function
+`CreateConstraintIndexInMemory` | 9 | Exported Function
 
 
 ## Signature

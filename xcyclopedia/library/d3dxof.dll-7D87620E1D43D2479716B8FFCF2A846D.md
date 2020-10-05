@@ -24,11 +24,11 @@ PE256 | `121AB98737521F138A82873FB4644B66708C38275925C56F7476C127799F239C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DirectXFileCreate` | 1 (0x1) | Exported Function | 0x5c506950 | 0x00006950
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x5c506910 | 0x00006910
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x5c506870 | 0x00006870
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DirectXFileCreate` | 1 | Exported Function
 
 
 ## Signature

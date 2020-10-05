@@ -24,186 +24,186 @@ PE256 | `D8B49502BCAA57F8A4CDF8BC13EDD48FF69B71D3D7F12DDC308885C0B3624576`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__isascii` | 1 (0x1) | Exported Function | ucrtbase.__isascii | 0x00001877
-`iswalpha` | 114 (0x72) | Exported Function | ucrtbase.iswalpha | 0x0000258f
-`iswascii` | 115 (0x73) | Exported Function | ucrtbase.iswascii | 0x000025aa
-`iswblank` | 116 (0x74) | Exported Function | ucrtbase.iswblank | 0x000025c5
-`iswcntrl` | 117 (0x75) | Exported Function | ucrtbase.iswcntrl | 0x000025e0
-`iswctype` | 118 (0x76) | Exported Function | ucrtbase.iswctype | 0x000025fb
-`iswdigit` | 119 (0x77) | Exported Function | ucrtbase.iswdigit | 0x00002616
-`iswgraph` | 120 (0x78) | Exported Function | ucrtbase.iswgraph | 0x00002631
-`iswlower` | 121 (0x79) | Exported Function | ucrtbase.iswlower | 0x0000264c
-`iswalnum` | 113 (0x71) | Exported Function | ucrtbase.iswalnum | 0x00002574
-`iswprint` | 122 (0x7a) | Exported Function | ucrtbase.iswprint | 0x00002667
-`iswspace` | 124 (0x7c) | Exported Function | ucrtbase.iswspace | 0x0000269d
-`iswupper` | 125 (0x7d) | Exported Function | ucrtbase.iswupper | 0x000026b8
-`iswxdigit` | 126 (0x7e) | Exported Function | ucrtbase.iswxdigit | 0x000026d4
-`isxdigit` | 127 (0x7f) | Exported Function | ucrtbase.isxdigit | 0x000026f0
-`mblen` | 128 (0x80) | Exported Function | ucrtbase.mblen | 0x00002708
-`mbrlen` | 129 (0x81) | Exported Function | ucrtbase.mbrlen | 0x0000271e
-`memcpy_s` | 130 (0x82) | Exported Function | ucrtbase.memcpy_s | 0x00002737
-`memmove_s` | 131 (0x83) | Exported Function | ucrtbase.memmove_s | 0x00002753
-`iswpunct` | 123 (0x7b) | Exported Function | ucrtbase.iswpunct | 0x00002682
-`memset` | 132 (0x84) | Exported Function | ucrtbase.memset | 0x0000276d
-`isupper` | 112 (0x70) | Exported Function | ucrtbase.isupper | 0x0000255a
-`ispunct` | 110 (0x6e) | Exported Function | ucrtbase.ispunct | 0x00002528
-`_wcsset` | 92 (0x5c) | Exported Function | ucrtbase._wcsset | 0x00002342
-`_wcsset_s` | 93 (0x5d) | Exported Function | ucrtbase._wcsset_s | 0x0000235d
-`_wcsupr` | 94 (0x5e) | Exported Function | ucrtbase._wcsupr | 0x00002378
-`_wcsupr_l` | 95 (0x5f) | Exported Function | ucrtbase._wcsupr_l | 0x00002393
-`_wcsupr_s` | 96 (0x60) | Exported Function | ucrtbase._wcsupr_s | 0x000023b0
-`_wcsupr_s_l` | 97 (0x61) | Exported Function | ucrtbase._wcsupr_s_l | 0x000023cf
-`_wcsxfrm_l` | 98 (0x62) | Exported Function | ucrtbase._wcsxfrm_l | 0x000023ef
-`_wctype` | 99 (0x63) | Exported Function | ucrtbase._wctype | 0x0000240b
-`isspace` | 111 (0x6f) | Exported Function | ucrtbase.isspace | 0x00002541
-`is_wctype` | 100 (0x64) | Exported Function | ucrtbase.is_wctype | 0x00002426
-`isalpha` | 102 (0x66) | Exported Function | ucrtbase.isalpha | 0x0000245a
-`isblank` | 103 (0x67) | Exported Function | ucrtbase.isblank | 0x00002473
-`iscntrl` | 104 (0x68) | Exported Function | ucrtbase.iscntrl | 0x0000248c
-`isdigit` | 105 (0x69) | Exported Function | ucrtbase.isdigit | 0x000024a5
-`isgraph` | 106 (0x6a) | Exported Function | ucrtbase.isgraph | 0x000024be
-`isleadbyte` | 107 (0x6b) | Exported Function | ucrtbase.isleadbyte | 0x000024da
-`islower` | 108 (0x6c) | Exported Function | ucrtbase.islower | 0x000024f6
-`isprint` | 109 (0x6d) | Exported Function | ucrtbase.isprint | 0x0000250f
-`isalnum` | 101 (0x65) | Exported Function | ucrtbase.isalnum | 0x00002441
-`strcat` | 133 (0x85) | Exported Function | ucrtbase.strcat | 0x00002784
-`strcat_s` | 134 (0x86) | Exported Function | ucrtbase.strcat_s | 0x0000279d
-`strcmp` | 135 (0x87) | Exported Function | ucrtbase.strcmp | 0x000027b6
-`wcscmp` | 159 (0x9f) | Exported Function | ucrtbase.wcscmp | 0x00002a18
-`wcscoll` | 160 (0xa0) | Exported Function | ucrtbase.wcscoll | 0x00002a30
-`wcscpy` | 161 (0xa1) | Exported Function | ucrtbase.wcscpy | 0x00002a48
-`wcscpy_s` | 162 (0xa2) | Exported Function | ucrtbase.wcscpy_s | 0x00002a61
-`wcscspn` | 163 (0xa3) | Exported Function | ucrtbase.wcscspn | 0x00002a7b
-`wcslen` | 164 (0xa4) | Exported Function | ucrtbase.wcslen | 0x00002a93
-`wcsncat` | 165 (0xa5) | Exported Function | ucrtbase.wcsncat | 0x00002aab
-`wcsncat_s` | 166 (0xa6) | Exported Function | ucrtbase.wcsncat_s | 0x00002ac6
-`wcscat_s` | 158 (0x9e) | Exported Function | ucrtbase.wcscat_s | 0x000029ff
-`wcsncmp` | 167 (0xa7) | Exported Function | ucrtbase.wcsncmp | 0x00002ae1
-`wcsncpy_s` | 169 (0xa9) | Exported Function | ucrtbase.wcsncpy_s | 0x00002b15
-`wcsnlen` | 170 (0xaa) | Exported Function | ucrtbase.wcsnlen | 0x00002b30
-`wcspbrk` | 171 (0xab) | Exported Function | ucrtbase.wcspbrk | 0x00002b49
-`wcsspn` | 172 (0xac) | Exported Function | ucrtbase.wcsspn | 0x00002b61
-`wcstok` | 173 (0xad) | Exported Function | ucrtbase.wcstok | 0x00002b78
-`wcstok_s` | 174 (0xae) | Exported Function | ucrtbase.wcstok_s | 0x00002b91
-`wcsxfrm` | 175 (0xaf) | Exported Function | ucrtbase.wcsxfrm | 0x00002bab
-`wctype` | 176 (0xb0) | Exported Function | ucrtbase.wctype | 0x00002bc3
-`wcsncpy` | 168 (0xa8) | Exported Function | ucrtbase.wcsncpy | 0x00002afa
-`wcscat` | 157 (0x9d) | Exported Function | ucrtbase.wcscat | 0x000029e6
-`towupper` | 156 (0x9c) | Exported Function | ucrtbase.towupper | 0x000029cd
-`towlower` | 155 (0x9b) | Exported Function | ucrtbase.towlower | 0x000029b2
-`strcoll` | 136 (0x88) | Exported Function | ucrtbase.strcoll | 0x000027ce
-`strcpy` | 137 (0x89) | Exported Function | ucrtbase.strcpy | 0x000027e6
-`strcpy_s` | 138 (0x8a) | Exported Function | ucrtbase.strcpy_s | 0x000027ff
-`strcspn` | 139 (0x8b) | Exported Function | ucrtbase.strcspn | 0x00002819
-`strlen` | 140 (0x8c) | Exported Function | ucrtbase.strlen | 0x00002831
-`strncat` | 141 (0x8d) | Exported Function | ucrtbase.strncat | 0x00002849
-`strncat_s` | 142 (0x8e) | Exported Function | ucrtbase.strncat_s | 0x00002864
-`strncmp` | 143 (0x8f) | Exported Function | ucrtbase.strncmp | 0x0000287f
-`strncpy` | 144 (0x90) | Exported Function | ucrtbase.strncpy | 0x00002898
-`strncpy_s` | 145 (0x91) | Exported Function | ucrtbase.strncpy_s | 0x000028b3
-`strnlen` | 146 (0x92) | Exported Function | ucrtbase.strnlen | 0x000028ce
-`strpbrk` | 147 (0x93) | Exported Function | ucrtbase.strpbrk | 0x000028e7
-`strspn` | 148 (0x94) | Exported Function | ucrtbase.strspn | 0x000028ff
-`strtok` | 149 (0x95) | Exported Function | ucrtbase.strtok | 0x00002916
-`strtok_s` | 150 (0x96) | Exported Function | ucrtbase.strtok_s | 0x0000292f
-`strxfrm` | 151 (0x97) | Exported Function | ucrtbase.strxfrm | 0x00002949
-`tolower` | 152 (0x98) | Exported Function | ucrtbase.tolower | 0x00002962
-`toupper` | 153 (0x99) | Exported Function | ucrtbase.toupper | 0x0000297b
-`towctrans` | 154 (0x9a) | Exported Function | ucrtbase.towctrans | 0x00002996
-`_wcsrev` | 91 (0x5b) | Exported Function | ucrtbase._wcsrev | 0x00002329
-`_wcsnset_s` | 90 (0x5a) | Exported Function | ucrtbase._wcsnset_s | 0x0000230d
-`_wcsnset` | 89 (0x59) | Exported Function | ucrtbase._wcsnset | 0x000022f0
-`_wcsnicoll_l` | 88 (0x58) | Exported Function | ucrtbase._wcsnicoll_l | 0x000022d1
-`_iswcntrl_l` | 25 (0x19) | Exported Function | ucrtbase._iswcntrl_l | 0x00001b5b
-`_iswcsym_l` | 26 (0x1a) | Exported Function | ucrtbase._iswcsym_l | 0x00001b7b
-`_iswcsymf_l` | 27 (0x1b) | Exported Function | ucrtbase._iswcsymf_l | 0x00001b9b
-`_iswctype_l` | 28 (0x1c) | Exported Function | ucrtbase._iswctype_l | 0x00001bbc
-`_iswdigit_l` | 29 (0x1d) | Exported Function | ucrtbase._iswdigit_l | 0x00001bdd
-`_iswgraph_l` | 30 (0x1e) | Exported Function | ucrtbase._iswgraph_l | 0x00001bfe
-`_iswlower_l` | 31 (0x1f) | Exported Function | ucrtbase._iswlower_l | 0x00001c1f
-`_iswprint_l` | 32 (0x20) | Exported Function | ucrtbase._iswprint_l | 0x00001c40
-`_iswblank_l` | 24 (0x18) | Exported Function | ucrtbase._iswblank_l | 0x00001b3a
-`_iswpunct_l` | 33 (0x21) | Exported Function | ucrtbase._iswpunct_l | 0x00001c61
-`_iswupper_l` | 35 (0x23) | Exported Function | ucrtbase._iswupper_l | 0x00001ca3
-`_iswxdigit_l` | 36 (0x24) | Exported Function | ucrtbase._iswxdigit_l | 0x00001cc5
-`_isxdigit_l` | 37 (0x25) | Exported Function | ucrtbase._isxdigit_l | 0x00001ce7
-`_memccpy` | 38 (0x26) | Exported Function | ucrtbase._memccpy | 0x00001d05
-`_memicmp` | 39 (0x27) | Exported Function | ucrtbase._memicmp | 0x00001d20
-`_memicmp_l` | 40 (0x28) | Exported Function | ucrtbase._memicmp_l | 0x00001d3d
-`_strcoll_l` | 41 (0x29) | Exported Function | ucrtbase._strcoll_l | 0x00001d5c
-`_strdup` | 42 (0x2a) | Exported Function | ucrtbase._strdup | 0x00001d78
-`_iswspace_l` | 34 (0x22) | Exported Function | ucrtbase._iswspace_l | 0x00001c82
-`_iswalpha_l` | 23 (0x17) | Exported Function | ucrtbase._iswalpha_l | 0x00001b19
-`_iswalnum_l` | 22 (0x16) | Exported Function | ucrtbase._iswalnum_l | 0x00001af8
-`_isupper_l` | 21 (0x15) | Exported Function | ucrtbase._isupper_l | 0x00001ad8
-`__iscsym` | 2 (0x2) | Exported Function | ucrtbase.__iscsym | 0x00001893
-`__iscsymf` | 3 (0x3) | Exported Function | ucrtbase.__iscsymf | 0x000018af
-`__iswcsym` | 4 (0x4) | Exported Function | ucrtbase.__iswcsym | 0x000018cc
-`__iswcsymf` | 5 (0x5) | Exported Function | ucrtbase.__iswcsymf | 0x000018ea
-`__strncnt` | 6 (0x6) | Exported Function | ucrtbase.__strncnt | 0x00001908
-`__wcsncnt` | 7 (0x7) | Exported Function | ucrtbase.__wcsncnt | 0x00001925
-`_isalnum_l` | 8 (0x8) | Exported Function | ucrtbase._isalnum_l | 0x00001943
-`_isalpha_l` | 9 (0x9) | Exported Function | ucrtbase._isalpha_l | 0x00001962
-`_isblank_l` | 10 (0xa) | Exported Function | ucrtbase._isblank_l | 0x00001981
-`_iscntrl_l` | 11 (0xb) | Exported Function | ucrtbase._iscntrl_l | 0x000019a0
-`_isctype` | 12 (0xc) | Exported Function | ucrtbase._isctype | 0x000019bd
-`_isctype_l` | 13 (0xd) | Exported Function | ucrtbase._isctype_l | 0x000019da
-`_isdigit_l` | 14 (0xe) | Exported Function | ucrtbase._isdigit_l | 0x000019f9
-`_isgraph_l` | 15 (0xf) | Exported Function | ucrtbase._isgraph_l | 0x00001a18
-`_isleadbyte_l` | 16 (0x10) | Exported Function | ucrtbase._isleadbyte_l | 0x00001a3a
-`_islower_l` | 17 (0x11) | Exported Function | ucrtbase._islower_l | 0x00001a5c
-`_isprint_l` | 18 (0x12) | Exported Function | ucrtbase._isprint_l | 0x00001a7b
-`_ispunct_l` | 19 (0x13) | Exported Function | ucrtbase._ispunct_l | 0x00001a9a
-`_isspace_l` | 20 (0x14) | Exported Function | ucrtbase._isspace_l | 0x00001ab9
-`_stricmp` | 43 (0x2b) | Exported Function | ucrtbase._stricmp | 0x00001d92
-`wmemcpy_s` | 177 (0xb1) | Exported Function | ucrtbase.wmemcpy_s | 0x00002bdd
-`_stricmp_l` | 44 (0x2c) | Exported Function | ucrtbase._stricmp_l | 0x00001daf
-`_stricoll_l` | 46 (0x2e) | Exported Function | ucrtbase._stricoll_l | 0x00001dec
-`_toupper_l` | 70 (0x46) | Exported Function | ucrtbase._toupper_l | 0x000020af
-`_towlower_l` | 71 (0x47) | Exported Function | ucrtbase._towlower_l | 0x000020cf
-`_towupper_l` | 72 (0x48) | Exported Function | ucrtbase._towupper_l | 0x000020f0
-`_wcscoll_l` | 73 (0x49) | Exported Function | ucrtbase._wcscoll_l | 0x00002110
-`_wcsdup` | 74 (0x4a) | Exported Function | ucrtbase._wcsdup | 0x0000212c
-`_wcsicmp` | 75 (0x4b) | Exported Function | ucrtbase._wcsicmp | 0x00002146
-`_wcsicmp_l` | 76 (0x4c) | Exported Function | ucrtbase._wcsicmp_l | 0x00002163
-`_wcsicoll` | 77 (0x4d) | Exported Function | ucrtbase._wcsicoll | 0x00002181
-`_toupper` | 69 (0x45) | Exported Function | ucrtbase._toupper | 0x00002092
-`_wcsicoll_l` | 78 (0x4e) | Exported Function | ucrtbase._wcsicoll_l | 0x000021a0
-`_wcslwr_l` | 80 (0x50) | Exported Function | ucrtbase._wcslwr_l | 0x000021d8
-`_wcslwr_s` | 81 (0x51) | Exported Function | ucrtbase._wcslwr_s | 0x000021f5
-`_wcslwr_s_l` | 82 (0x52) | Exported Function | ucrtbase._wcslwr_s_l | 0x00002214
-`_wcsncoll` | 83 (0x53) | Exported Function | ucrtbase._wcsncoll | 0x00002233
-`_wcsncoll_l` | 84 (0x54) | Exported Function | ucrtbase._wcsncoll_l | 0x00002252
-`_wcsnicmp` | 85 (0x55) | Exported Function | ucrtbase._wcsnicmp | 0x00002271
-`_wcsnicmp_l` | 86 (0x56) | Exported Function | ucrtbase._wcsnicmp_l | 0x00002290
-`_wcsnicoll` | 87 (0x57) | Exported Function | ucrtbase._wcsnicoll | 0x000022b0
-`_wcslwr` | 79 (0x4f) | Exported Function | ucrtbase._wcslwr | 0x000021bd
-`_tolower_l` | 68 (0x44) | Exported Function | ucrtbase._tolower_l | 0x00002075
-`_tolower` | 67 (0x43) | Exported Function | ucrtbase._tolower | 0x00002058
-`_strxfrm_l` | 66 (0x42) | Exported Function | ucrtbase._strxfrm_l | 0x0000203b
-`_strlwr` | 47 (0x2f) | Exported Function | ucrtbase._strlwr | 0x00001e09
-`_strlwr_l` | 48 (0x30) | Exported Function | ucrtbase._strlwr_l | 0x00001e24
-`_strlwr_s` | 49 (0x31) | Exported Function | ucrtbase._strlwr_s | 0x00001e41
-`_strlwr_s_l` | 50 (0x32) | Exported Function | ucrtbase._strlwr_s_l | 0x00001e60
-`_strncoll` | 51 (0x33) | Exported Function | ucrtbase._strncoll | 0x00001e7f
-`_strncoll_l` | 52 (0x34) | Exported Function | ucrtbase._strncoll_l | 0x00001e9e
-`_strnicmp` | 53 (0x35) | Exported Function | ucrtbase._strnicmp | 0x00001ebd
-`_strnicmp_l` | 54 (0x36) | Exported Function | ucrtbase._strnicmp_l | 0x00001edc
-`_strnicoll` | 55 (0x37) | Exported Function | ucrtbase._strnicoll | 0x00001efc
-`_strnicoll_l` | 56 (0x38) | Exported Function | ucrtbase._strnicoll_l | 0x00001f1d
-`_strnset` | 57 (0x39) | Exported Function | ucrtbase._strnset | 0x00001f3c
-`_strnset_s` | 58 (0x3a) | Exported Function | ucrtbase._strnset_s | 0x00001f59
-`_strrev` | 59 (0x3b) | Exported Function | ucrtbase._strrev | 0x00001f75
-`_strset` | 60 (0x3c) | Exported Function | ucrtbase._strset | 0x00001f8e
-`_strset_s` | 61 (0x3d) | Exported Function | ucrtbase._strset_s | 0x00001fa9
-`_strupr` | 62 (0x3e) | Exported Function | ucrtbase._strupr | 0x00001fc4
-`_strupr_l` | 63 (0x3f) | Exported Function | ucrtbase._strupr_l | 0x00001fdf
-`_strupr_s` | 64 (0x40) | Exported Function | ucrtbase._strupr_s | 0x00001ffc
-`_strupr_s_l` | 65 (0x41) | Exported Function | ucrtbase._strupr_s_l | 0x0000201b
-`_stricoll` | 45 (0x2d) | Exported Function | ucrtbase._stricoll | 0x00001dcd
-`wmemmove_s` | 178 (0xb2) | Exported Function | ucrtbase.wmemmove_s | 0x00002bfb
+Function Name | Ordinal | Type
+-- | -- | --
+`iswdigit` | 119 | Exported Function
+`iswctype` | 118 | Exported Function
+`iswgraph` | 120 | Exported Function
+`iswprint` | 122 | Exported Function
+`iswlower` | 121 | Exported Function
+`iswcntrl` | 117 | Exported Function
+`iswalnum` | 113 | Exported Function
+`isupper` | 112 | Exported Function
+`iswalpha` | 114 | Exported Function
+`iswblank` | 116 | Exported Function
+`iswascii` | 115 | Exported Function
+`memcpy_s` | 130 | Exported Function
+`mbrlen` | 129 | Exported Function
+`memmove_s` | 131 | Exported Function
+`strcat` | 133 | Exported Function
+`memset` | 132 | Exported Function
+`mblen` | 128 | Exported Function
+`iswspace` | 124 | Exported Function
+`iswpunct` | 123 | Exported Function
+`iswupper` | 125 | Exported Function
+`isxdigit` | 127 | Exported Function
+`iswxdigit` | 126 | Exported Function
+`_wcsupr_s_l` | 97 | Exported Function
+`_wcsupr_s` | 96 | Exported Function
+`_wcsxfrm_l` | 98 | Exported Function
+`is_wctype` | 100 | Exported Function
+`_wctype` | 99 | Exported Function
+`_wcsupr_l` | 95 | Exported Function
+`_wcsrev` | 91 | Exported Function
+`_wcsnset_s` | 90 | Exported Function
+`_wcsset` | 92 | Exported Function
+`_wcsupr` | 94 | Exported Function
+`_wcsset_s` | 93 | Exported Function
+`islower` | 108 | Exported Function
+`isleadbyte` | 107 | Exported Function
+`isprint` | 109 | Exported Function
+`isspace` | 111 | Exported Function
+`ispunct` | 110 | Exported Function
+`isgraph` | 106 | Exported Function
+`isalpha` | 102 | Exported Function
+`isalnum` | 101 | Exported Function
+`isblank` | 103 | Exported Function
+`isdigit` | 105 | Exported Function
+`iscntrl` | 104 | Exported Function
+`strcat_s` | 134 | Exported Function
+`wcslen` | 164 | Exported Function
+`wcscspn` | 163 | Exported Function
+`wcsncat` | 165 | Exported Function
+`wcsncmp` | 167 | Exported Function
+`wcsncat_s` | 166 | Exported Function
+`wcscpy_s` | 162 | Exported Function
+`wcscat_s` | 158 | Exported Function
+`wcscat` | 157 | Exported Function
+`wcscmp` | 159 | Exported Function
+`wcscpy` | 161 | Exported Function
+`wcscoll` | 160 | Exported Function
+`wcsxfrm` | 175 | Exported Function
+`wcstok_s` | 174 | Exported Function
+`wctype` | 176 | Exported Function
+`wmemmove_s` | 178 | Exported Function
+`wmemcpy_s` | 177 | Exported Function
+`wcstok` | 173 | Exported Function
+`wcsncpy_s` | 169 | Exported Function
+`wcsncpy` | 168 | Exported Function
+`wcsnlen` | 170 | Exported Function
+`wcsspn` | 172 | Exported Function
+`wcspbrk` | 171 | Exported Function
+`strncat_s` | 142 | Exported Function
+`strncat` | 141 | Exported Function
+`strncmp` | 143 | Exported Function
+`strncpy_s` | 145 | Exported Function
+`strncpy` | 144 | Exported Function
+`strlen` | 140 | Exported Function
+`strcoll` | 136 | Exported Function
+`strcmp` | 135 | Exported Function
+`strcpy` | 137 | Exported Function
+`strcspn` | 139 | Exported Function
+`strcpy_s` | 138 | Exported Function
+`toupper` | 153 | Exported Function
+`tolower` | 152 | Exported Function
+`towctrans` | 154 | Exported Function
+`towupper` | 156 | Exported Function
+`towlower` | 155 | Exported Function
+`strxfrm` | 151 | Exported Function
+`strpbrk` | 147 | Exported Function
+`strnlen` | 146 | Exported Function
+`strspn` | 148 | Exported Function
+`strtok_s` | 150 | Exported Function
+`strtok` | 149 | Exported Function
+`_iswgraph_l` | 30 | Exported Function
+`_iswdigit_l` | 29 | Exported Function
+`_iswlower_l` | 31 | Exported Function
+`_iswpunct_l` | 33 | Exported Function
+`_iswprint_l` | 32 | Exported Function
+`_iswctype_l` | 28 | Exported Function
+`_iswblank_l` | 24 | Exported Function
+`_iswalpha_l` | 23 | Exported Function
+`_iswcntrl_l` | 25 | Exported Function
+`_iswcsymf_l` | 27 | Exported Function
+`_iswcsym_l` | 26 | Exported Function
+`_strcoll_l` | 41 | Exported Function
+`_memicmp_l` | 40 | Exported Function
+`_strdup` | 42 | Exported Function
+`_stricmp_l` | 44 | Exported Function
+`_stricmp` | 43 | Exported Function
+`_memicmp` | 39 | Exported Function
+`_iswupper_l` | 35 | Exported Function
+`_iswspace_l` | 34 | Exported Function
+`_iswxdigit_l` | 36 | Exported Function
+`_memccpy` | 38 | Exported Function
+`_isxdigit_l` | 37 | Exported Function
+`_isalnum_l` | 8 | Exported Function
+`__wcsncnt` | 7 | Exported Function
+`_isalpha_l` | 9 | Exported Function
+`_iscntrl_l` | 11 | Exported Function
+`_isblank_l` | 10 | Exported Function
+`__strncnt` | 6 | Exported Function
+`__iscsym` | 2 | Exported Function
+`__isascii` | 1 | Exported Function
+`__iscsymf` | 3 | Exported Function
+`__iswcsymf` | 5 | Exported Function
+`__iswcsym` | 4 | Exported Function
+`_ispunct_l` | 19 | Exported Function
+`_isprint_l` | 18 | Exported Function
+`_isspace_l` | 20 | Exported Function
+`_iswalnum_l` | 22 | Exported Function
+`_isupper_l` | 21 | Exported Function
+`_islower_l` | 17 | Exported Function
+`_isctype_l` | 13 | Exported Function
+`_isctype` | 12 | Exported Function
+`_isdigit_l` | 14 | Exported Function
+`_isleadbyte_l` | 16 | Exported Function
+`_isgraph_l` | 15 | Exported Function
+`_stricoll` | 45 | Exported Function
+`_wcsicmp` | 75 | Exported Function
+`_wcsdup` | 74 | Exported Function
+`_wcsicmp_l` | 76 | Exported Function
+`_wcsicoll_l` | 78 | Exported Function
+`_wcsicoll` | 77 | Exported Function
+`_wcscoll_l` | 73 | Exported Function
+`_toupper` | 69 | Exported Function
+`_tolower_l` | 68 | Exported Function
+`_toupper_l` | 70 | Exported Function
+`_towupper_l` | 72 | Exported Function
+`_towlower_l` | 71 | Exported Function
+`_wcsnicmp_l` | 86 | Exported Function
+`_wcsnicmp` | 85 | Exported Function
+`_wcsnicoll` | 87 | Exported Function
+`_wcsnset` | 89 | Exported Function
+`_wcsnicoll_l` | 88 | Exported Function
+`_wcsncoll_l` | 84 | Exported Function
+`_wcslwr_l` | 80 | Exported Function
+`_wcslwr` | 79 | Exported Function
+`_wcslwr_s` | 81 | Exported Function
+`_wcsncoll` | 83 | Exported Function
+`_wcslwr_s_l` | 82 | Exported Function
+`_strnicmp` | 53 | Exported Function
+`_strncoll_l` | 52 | Exported Function
+`_strnicmp_l` | 54 | Exported Function
+`_strnicoll_l` | 56 | Exported Function
+`_strnicoll` | 55 | Exported Function
+`_strncoll` | 51 | Exported Function
+`_strlwr` | 47 | Exported Function
+`_stricoll_l` | 46 | Exported Function
+`_strlwr_l` | 48 | Exported Function
+`_strlwr_s_l` | 50 | Exported Function
+`_strlwr_s` | 49 | Exported Function
+`_strupr_s` | 64 | Exported Function
+`_strupr_l` | 63 | Exported Function
+`_strupr_s_l` | 65 | Exported Function
+`_tolower` | 67 | Exported Function
+`_strxfrm_l` | 66 | Exported Function
+`_strupr` | 62 | Exported Function
+`_strnset_s` | 58 | Exported Function
+`_strnset` | 57 | Exported Function
+`_strrev` | 59 | Exported Function
+`_strset_s` | 61 | Exported Function
+`_strset` | 60 | Exported Function
 
 
 ## Signature

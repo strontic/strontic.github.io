@@ -24,13 +24,13 @@ PE256 | `2629EB5F47742ACC4CC1DB13ECFAE117B7B8C627508652C58712BF37A1A997E8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetActiveProcessorCount` | 1 (0x1) | Exported Function | kernel32.GetActiveProcessorCount | 0x00001106
-`GetProcessAffinityMask` | 2 (0x2) | Exported Function | kernel32.GetProcessAffinityMask | 0x0000113e
-`GetProcessIoCounters` | 3 (0x3) | Exported Function | kernel32.GetProcessIoCounters | 0x00001173
-`SetProcessAffinityMask` | 4 (0x4) | Exported Function | kernel32.SetProcessAffinityMask | 0x000011a8
-`SetThreadAffinityMask` | 5 (0x5) | Exported Function | kernel32.SetThreadAffinityMask | 0x000011de
+Function Name | Ordinal | Type
+-- | -- | --
+`SetProcessAffinityMask` | 4 | Exported Function
+`SetThreadAffinityMask` | 5 | Exported Function
+`GetProcessIoCounters` | 3 | Exported Function
+`GetActiveProcessorCount` | 1 | Exported Function
+`GetProcessAffinityMask` | 2 | Exported Function
 
 
 ## Signature

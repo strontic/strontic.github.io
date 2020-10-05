@@ -24,9 +24,9 @@ PE256 | `814B1833F6E6259CB372822CD1339C9ADE226B8FC2EDF7610E04098224F8D49E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetFontOverrides` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`GetFontOverrides` | 1 | Exported Function
 
 
 ## Signature

@@ -24,90 +24,90 @@ PE256 | `8E9DD644E84FF14118AB69EC6F5E8EC2780823D205E2AB1DCA83CBF695630C3A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddDeprovisionedPackageMarking` | 1 (0x1) | Exported Function | 0x0000000180017e30 | 0x00017e30
-`PackageFamilyNameFromId` | 59 (0x3b) | Exported Function | 0x00000001800335c0 | 0x000335c0
-`MarkStatusOfMainPackageForUser` | 58 (0x3a) | Exported Function | 0x000000018001a050 | 0x0001a050
-`IsSystemInAuditBoot` | 57 (0x39) | Exported Function | 0x000000018001a040 | 0x0001a040
-`IsPackageOnPreinstalledVolume` | 56 (0x38) | Exported Function | 0x0000000180019f30 | 0x00019f30
-`IsPackageInUsersUpgradeKey` | 55 (0x37) | Exported Function | 0x0000000180019e70 | 0x00019e70
-`IsPackageInUpgradeKey` | 54 (0x36) | Exported Function | 0x0000000180019dd0 | 0x00019dd0
-`IsPackageInStagedKey` | 53 (0x35) | Exported Function | 0x0000000180019d90 | 0x00019d90
-`PackageIdBasicFromFullName` | 60 (0x3c) | Exported Function | 0x000000018001a220 | 0x0001a220
-`IsPackageInEndOfLifeKey` | 52 (0x34) | Exported Function | 0x0000000180019cd0 | 0x00019cd0
-`IsPackageFamilyInUninstallBlocklistByPackageFullName` | 50 (0x32) | Exported Function | 0x0000000180019ba0 | 0x00019ba0
-`IsPackageFamilyInUninstallBlocklist` | 49 (0x31) | Exported Function | 0x0000000180019b60 | 0x00019b60
-`IsPackageEndOfLife` | 48 (0x30) | Exported Function | 0x0000000180019ab0 | 0x00019ab0
-`IsNonInboxAllUserPackageSpecificPackage` | 47 (0x2f) | Exported Function | 0x0000000180001170 | 0x00001170
-`IsNonInboxAllUserPackage` | 46 (0x2e) | Exported Function | 0x00000001800013a0 | 0x000013a0
-`IsInboxPackage` | 45 (0x2d) | Exported Function | 0x0000000180006870 | 0x00006870
-`IsEnterprisePolicyEnabled` | 44 (0x2c) | Exported Function | 0x0000000180019a70 | 0x00019a70
-`IsPackageInDownlevelInstalledKey` | 51 (0x33) | Exported Function | 0x0000000180019c80 | 0x00019c80
-`PackageSidToPackageCapabilitySid` | 61 (0x3d) | Exported Function | 0x000000018001a230 | 0x0001a230
-`RemoveDeprovisionedPackageMarking` | 62 (0x3e) | Exported Function | 0x000000018001a300 | 0x0001a300
-`RemoveDownlevelInstalledPackagesFromRegistryStore` | 63 (0x3f) | Exported Function | 0x000000018001a730 | 0x0001a730
-`UpdatePackageInRegistryStore` | 80 (0x50) | Exported Function | 0x000000018001b2b0 | 0x0001b2b0
-`UpdateFrameworkPackageInRegistryStore` | 79 (0x4f) | Exported Function | 0x000000018001b1e0 | 0x0001b1e0
-`TryGetEndOfLifePackageFullName` | 78 (0x4e) | Exported Function | 0x0000000180001280 | 0x00001280
-`TryGetDownlevelInstalledPackageFullName` | 77 (0x4d) | Exported Function | 0x000000018001b190 | 0x0001b190
-`TakeOwnershipOnFolder` | 76 (0x4c) | Exported Function | 0x000000018001b040 | 0x0001b040
-`SetTargetOsVersionOnPreinstalledVolume` | 75 (0x4b) | Exported Function | 0x000000018001af70 | 0x0001af70
-`SetPackageOverrideSetupPhase` | 74 (0x4a) | Exported Function | 0x000000018001af60 | 0x0001af60
-`SetAllUserStorePathForTest` | 73 (0x49) | Exported Function | 0x000000018001af40 | 0x0001af40
-`RollbackTakeOwnershipSession` | 72 (0x48) | Exported Function | 0x000000018001ae80 | 0x0001ae80
-`RestoreDownlevelAllUserStore` | 71 (0x47) | Exported Function | 0x000000018001ae60 | 0x0001ae60
-`RemoveUpgradePackagesFromRegistryStore` | 70 (0x46) | Exported Function | 0x000000018001ad50 | 0x0001ad50
-`RemoveStatusOfMainPackageForAllUsers` | 69 (0x45) | Exported Function | 0x000000018001ad10 | 0x0001ad10
-`RemoveStagedPackageFromRegistryStore` | 68 (0x44) | Exported Function | 0x000000018001ac00 | 0x0001ac00
-`RemovePackageFromRegistryStoreConfigIfExists` | 67 (0x43) | Exported Function | 0x000000018001aa60 | 0x0001aa60
-`RemovePackageFromRegistryStore` | 66 (0x42) | Exported Function | 0x000000018001a950 | 0x0001a950
-`RemoveInboxInstalledStatusOfPackageForUser` | 65 (0x41) | Exported Function | 0x000000018001a890 | 0x0001a890
-`RemoveEndOfLifePackageMarkingForAllUsers` | 64 (0x40) | Exported Function | 0x000000018001a850 | 0x0001a850
-`IsCleanupTaskComplete` | 43 (0x2b) | Exported Function | 0x0000000180019950 | 0x00019950
-`HasStagedPackages` | 42 (0x2a) | Exported Function | 0x0000000180019720 | 0x00019720
-`HasCentennial` | 41 (0x29) | Exported Function | 0x0000000180019710 | 0x00019710
-`GetUpgradePackageVolumeKey` | 40 (0x28) | Exported Function | 0x00000001800196f0 | 0x000196f0
-`DeleteAllPackagesFromPackageArray` | 18 (0x12) | Exported Function | 0x0000000180007c40 | 0x00007c40
-`DeleteAllPackagesFromMainPackageArray` | 17 (0x11) | Exported Function | 0x0000000180007760 | 0x00007760
-`CommitTakeOwnershipSession` | 16 (0x10) | Exported Function | 0x0000000180018c80 | 0x00018c80
-`CheckPackagePreinstallPolicy` | 15 (0xf) | Exported Function | 0x0000000180018b50 | 0x00018b50
-`ApplySharedFileACLs` | 14 (0xe) | Exported Function | 0x0000000180018b40 | 0x00018b40
-`ApplyPackageRootFolderACLs` | 13 (0xd) | Exported Function | 0x0000000180018a10 | 0x00018a10
-`ApplyFrameworkPackageRootFolderACLs` | 12 (0xc) | Exported Function | 0x0000000180018a00 | 0x00018a00
-`ApplyDependencyTargetPackageRootFolderACLs` | 11 (0xb) | Exported Function | 0x00000001800189f0 | 0x000189f0
-`AddUpgradePackageToRegistryStore` | 10 (0xa) | Exported Function | 0x00000001800188e0 | 0x000188e0
-`AddUpgradePackageToPreinstalledVolume` | 9 (0x9) | Exported Function | 0x00000001800187b0 | 0x000187b0
-`AddStagedPackageToRegistryStore` | 8 (0x8) | Exported Function | 0x00000001800186b0 | 0x000186b0
-`AddStagedPackageToPreinstalledAppsVolume` | 7 (0x7) | Exported Function | 0x00000001800185b0 | 0x000185b0
-`AddPackageToRegistryStore` | 6 (0x6) | Exported Function | 0x00000001800184b0 | 0x000184b0
-`AddPackageToPreinstalledAppsVolume` | 5 (0x5) | Exported Function | 0x0000000180018420 | 0x00018420
-`AddEndOfLifePackageMarkingForAllUsers` | 4 (0x4) | Exported Function | 0x00000001800183e0 | 0x000183e0
-`AddEndOfLifePackageMarking` | 3 (0x3) | Exported Function | 0x00000001800183a0 | 0x000183a0
-`AddDownlevelInstalledPackageToRegistryStore` | 2 (0x2) | Exported Function | 0x0000000180018280 | 0x00018280
-`DeletePackageInfo` | 19 (0x13) | Exported Function | 0x0000000180018ca0 | 0x00018ca0
-`UpdatePackageSetupPhase` | 81 (0x51) | Exported Function | 0x000000018001b550 | 0x0001b550
-`DeleteUpdatedPackageKey` | 20 (0x14) | Exported Function | 0x0000000180018d20 | 0x00018d20
-`DidAppSurviveOSUpgradeForUser` | 22 (0x16) | Exported Function | 0x0000000180002a70 | 0x00002a70
-`GetStatusOfPackageFamilyForUser` | 39 (0x27) | Exported Function | 0x0000000180019570 | 0x00019570
-`GetPackagesThatMayNeedPreinstallPackageStatusMarked` | 38 (0x26) | Exported Function | 0x0000000180019540 | 0x00019540
-`GetPackageSetupPhase` | 37 (0x25) | Exported Function | 0x00000001800194c0 | 0x000194c0
-`GetPackageOverrideSetupPhase` | 36 (0x24) | Exported Function | 0x0000000180002c70 | 0x00002c70
-`GetOptionalPackageInfoForPackage` | 35 (0x23) | Exported Function | 0x0000000180019490 | 0x00019490
-`GetFoldersToKeepForPBR` | 34 (0x22) | Exported Function | 0x0000000180019390 | 0x00019390
-`GetAppxProvisionFactory` | 33 (0x21) | Exported Function | 0x0000000180019380 | 0x00019380
-`GetAllUpdatedPackages` | 32 (0x20) | Exported Function | 0x0000000180001a60 | 0x00001a60
-`GetAllStagedPackagesForMainPackageFromRegistryStore` | 31 (0x1f) | Exported Function | 0x0000000180019250 | 0x00019250
-`GetAllPackagesToBeInstalledForUser` | 30 (0x1e) | Exported Function | 0x0000000180001b30 | 0x00001b30
-`GetAllPackagesToBeInstalledForSetupPhase` | 29 (0x1d) | Exported Function | 0x0000000180019220 | 0x00019220
-`GetAllNonInboxPackagesFromRegistryStore` | 28 (0x1c) | Exported Function | 0x0000000180019100 | 0x00019100
-`GetAllInboxPackages` | 27 (0x1b) | Exported Function | 0x00000001800190f0 | 0x000190f0
-`FindFullNameForFamilyNameInAppxAllUserStore` | 26 (0x1a) | Exported Function | 0x00000001800190a0 | 0x000190a0
-`FindExistingVersionInRegistryStore` | 25 (0x19) | Exported Function | 0x0000000180019040 | 0x00019040
-`FamilyMonikerStringToSid` | 24 (0x18) | Exported Function | 0x0000000180018f50 | 0x00018f50
-`DoesPerUserStoreExist` | 23 (0x17) | Exported Function | 0x0000000180018e30 | 0x00018e30
-`DeleteUserRegistryKeyFromAllUserStore` | 21 (0x15) | Exported Function | 0x0000000180018d30 | 0x00018d30
-`UpdateUpgradePackageInRegistryStore` | 82 (0x52) | Exported Function | 0x000000018001b770 | 0x0001b770
+Function Name | Ordinal | Type
+-- | -- | --
+`IsPackageInUsersUpgradeKey` | 55 | Exported Function
+`IsPackageOnPreinstalledVolume` | 56 | Exported Function
+`IsPackageInUpgradeKey` | 54 | Exported Function
+`IsPackageInEndOfLifeKey` | 52 | Exported Function
+`IsPackageInStagedKey` | 53 | Exported Function
+`PackageIdBasicFromFullName` | 60 | Exported Function
+`PackageSidToPackageCapabilitySid` | 61 | Exported Function
+`PackageFamilyNameFromId` | 59 | Exported Function
+`IsSystemInAuditBoot` | 57 | Exported Function
+`MarkStatusOfMainPackageForUser` | 58 | Exported Function
+`IsInboxPackage` | 45 | Exported Function
+`IsNonInboxAllUserPackage` | 46 | Exported Function
+`IsEnterprisePolicyEnabled` | 44 | Exported Function
+`HasStagedPackages` | 42 | Exported Function
+`IsCleanupTaskComplete` | 43 | Exported Function
+`IsPackageFamilyInUninstallBlocklistByPackageFullName` | 50 | Exported Function
+`IsPackageInDownlevelInstalledKey` | 51 | Exported Function
+`IsPackageFamilyInUninstallBlocklist` | 49 | Exported Function
+`IsNonInboxAllUserPackageSpecificPackage` | 47 | Exported Function
+`IsPackageEndOfLife` | 48 | Exported Function
+`RemoveDeprovisionedPackageMarking` | 62 | Exported Function
+`TakeOwnershipOnFolder` | 76 | Exported Function
+`TryGetDownlevelInstalledPackageFullName` | 77 | Exported Function
+`SetTargetOsVersionOnPreinstalledVolume` | 75 | Exported Function
+`SetAllUserStorePathForTest` | 73 | Exported Function
+`SetPackageOverrideSetupPhase` | 74 | Exported Function
+`UpdatePackageSetupPhase` | 81 | Exported Function
+`UpdateUpgradePackageInRegistryStore` | 82 | Exported Function
+`UpdatePackageInRegistryStore` | 80 | Exported Function
+`TryGetEndOfLifePackageFullName` | 78 | Exported Function
+`UpdateFrameworkPackageInRegistryStore` | 79 | Exported Function
+`RemovePackageFromRegistryStore` | 66 | Exported Function
+`RemovePackageFromRegistryStoreConfigIfExists` | 67 | Exported Function
+`RemoveInboxInstalledStatusOfPackageForUser` | 65 | Exported Function
+`RemoveDownlevelInstalledPackagesFromRegistryStore` | 63 | Exported Function
+`RemoveEndOfLifePackageMarkingForAllUsers` | 64 | Exported Function
+`RestoreDownlevelAllUserStore` | 71 | Exported Function
+`RollbackTakeOwnershipSession` | 72 | Exported Function
+`RemoveUpgradePackagesFromRegistryStore` | 70 | Exported Function
+`RemoveStagedPackageFromRegistryStore` | 68 | Exported Function
+`RemoveStatusOfMainPackageForAllUsers` | 69 | Exported Function
+`ApplySharedFileACLs` | 14 | Exported Function
+`CheckPackagePreinstallPolicy` | 15 | Exported Function
+`ApplyPackageRootFolderACLs` | 13 | Exported Function
+`ApplyDependencyTargetPackageRootFolderACLs` | 11 | Exported Function
+`ApplyFrameworkPackageRootFolderACLs` | 12 | Exported Function
+`DeletePackageInfo` | 19 | Exported Function
+`DeleteUpdatedPackageKey` | 20 | Exported Function
+`DeleteAllPackagesFromPackageArray` | 18 | Exported Function
+`CommitTakeOwnershipSession` | 16 | Exported Function
+`DeleteAllPackagesFromMainPackageArray` | 17 | Exported Function
+`AddEndOfLifePackageMarkingForAllUsers` | 4 | Exported Function
+`AddPackageToPreinstalledAppsVolume` | 5 | Exported Function
+`AddEndOfLifePackageMarking` | 3 | Exported Function
+`AddDeprovisionedPackageMarking` | 1 | Exported Function
+`AddDownlevelInstalledPackageToRegistryStore` | 2 | Exported Function
+`AddUpgradePackageToPreinstalledVolume` | 9 | Exported Function
+`AddUpgradePackageToRegistryStore` | 10 | Exported Function
+`AddStagedPackageToRegistryStore` | 8 | Exported Function
+`AddPackageToRegistryStore` | 6 | Exported Function
+`AddStagedPackageToPreinstalledAppsVolume` | 7 | Exported Function
+`DeleteUserRegistryKeyFromAllUserStore` | 21 | Exported Function
+`GetOptionalPackageInfoForPackage` | 35 | Exported Function
+`GetPackageOverrideSetupPhase` | 36 | Exported Function
+`GetFoldersToKeepForPBR` | 34 | Exported Function
+`GetAllUpdatedPackages` | 32 | Exported Function
+`GetAppxProvisionFactory` | 33 | Exported Function
+`GetUpgradePackageVolumeKey` | 40 | Exported Function
+`HasCentennial` | 41 | Exported Function
+`GetStatusOfPackageFamilyForUser` | 39 | Exported Function
+`GetPackageSetupPhase` | 37 | Exported Function
+`GetPackagesThatMayNeedPreinstallPackageStatusMarked` | 38 | Exported Function
+`FindExistingVersionInRegistryStore` | 25 | Exported Function
+`FindFullNameForFamilyNameInAppxAllUserStore` | 26 | Exported Function
+`FamilyMonikerStringToSid` | 24 | Exported Function
+`DidAppSurviveOSUpgradeForUser` | 22 | Exported Function
+`DoesPerUserStoreExist` | 23 | Exported Function
+`GetAllPackagesToBeInstalledForUser` | 30 | Exported Function
+`GetAllStagedPackagesForMainPackageFromRegistryStore` | 31 | Exported Function
+`GetAllPackagesToBeInstalledForSetupPhase` | 29 | Exported Function
+`GetAllInboxPackages` | 27 | Exported Function
+`GetAllNonInboxPackagesFromRegistryStore` | 28 | Exported Function
 
 
 ## Signature

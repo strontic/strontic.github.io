@@ -24,9 +24,9 @@ PE256 | `C994CF9B899FA828337527A5E5740035A01794FAD7259429BFD3E4BC236A0A1C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`int dummyExportedVariable` | 1 (0x1) | Exported Function | 0x00000001800035a0 | 0x000035a0
+Function Name | Ordinal | Type
+-- | -- | --
+`int dummyExportedVariable` | 1 | Exported Function
 
 
 ## Signature

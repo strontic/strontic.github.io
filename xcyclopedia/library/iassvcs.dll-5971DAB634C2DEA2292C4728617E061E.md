@@ -24,32 +24,32 @@ PE256 | `3588B26CF98B17722FF860AB7497A7592B55A7E12618C3A182857C44CA5E2668`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018000d3a0 | 0x0000d3a0
-`IASShutdown` | 22 (0x16) | Exported Function | 0x0000000180002080 | 0x00002080
-`IASSetMaxThreadIdle` | 21 (0x15) | Exported Function | 0x00000001800016c0 | 0x000016c0
-`IASSetMaxNumberOfThreads` | 20 (0x14) | Exported Function | 0x0000000180001630 | 0x00001630
-`IASRequestThread` | 19 (0x13) | Exported Function | 0x0000000180001620 | 0x00001620
-`IASReportSecurityEvent` | 18 (0x12) | Exported Function | 0x00000001800015c0 | 0x000015c0
-`IASReportLicenseViolation` | 17 (0x11) | Exported Function | 0x000000018000c8b0 | 0x0000c8b0
-`IASReportEvent` | 16 (0x10) | Exported Function | 0x0000000180001550 | 0x00001550
-`IASRegisterComponent` | 15 (0xf) | Exported Function | 0x0000000180001750 | 0x00001750
-`IASRadiusCrypt` | 14 (0xe) | Exported Function | 0x00000001800021f0 | 0x000021f0
-`IASInitialize` | 13 (0xd) | Exported Function | 0x0000000180001f40 | 0x00001f40
-`IASGlobalUnlock` | 12 (0xc) | Exported Function | 0x0000000180002a10 | 0x00002a10
-`IASGlobalLock` | 11 (0xb) | Exported Function | 0x00000001800029f0 | 0x000029f0
-`IASGetProductLimits` | 10 (0xa) | Exported Function | 0x0000000180002b40 | 0x00002b40
-`IASGetLocalDictionary` | 9 (0x9) | Exported Function | 0x00000001800028e0 | 0x000028e0
-`IASGetHostByName` | 8 (0x8) | Exported Function | 0x00000001800023f0 | 0x000023f0
-`IASGetDictionary` | 7 (0x7) | Exported Function | 0x0000000180002790 | 0x00002790
-`IASAllocateUniqueID` | 6 (0x6) | Exported Function | 0x0000000180001bd0 | 0x00001bd0
-`IASAdler32` | 5 (0x5) | Exported Function | 0x0000000180001b70 | 0x00001b70
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x000000018000d660 | 0x0000d660
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x000000018000d3f0 | 0x0000d3f0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x000000018000d3c0 | 0x0000d3c0
-`IASUninitialize` | 23 (0x17) | Exported Function | 0x00000001800020e0 | 0x000020e0
-`IASVariantChangeType` | 24 (0x18) | Exported Function | 0x0000000180001bf0 | 0x00001bf0
+Function Name | Ordinal | Type
+-- | -- | --
+`IASReportEvent` | 16 | Exported Function
+`IASReportLicenseViolation` | 17 | Exported Function
+`IASReportSecurityEvent` | 18 | Exported Function
+`IASInitialize` | 13 | Exported Function
+`IASRadiusCrypt` | 14 | Exported Function
+`IASRegisterComponent` | 15 | Exported Function
+`IASShutdown` | 22 | Exported Function
+`IASUninitialize` | 23 | Exported Function
+`IASVariantChangeType` | 24 | Exported Function
+`IASRequestThread` | 19 | Exported Function
+`IASSetMaxNumberOfThreads` | 20 | Exported Function
+`IASSetMaxThreadIdle` | 21 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`IASAdler32` | 5 | Exported Function
+`IASAllocateUniqueID` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`IASGetProductLimits` | 10 | Exported Function
+`IASGlobalLock` | 11 | Exported Function
+`IASGlobalUnlock` | 12 | Exported Function
+`IASGetDictionary` | 7 | Exported Function
+`IASGetHostByName` | 8 | Exported Function
+`IASGetLocalDictionary` | 9 | Exported Function
 
 
 ## Signature

@@ -24,31 +24,31 @@ PE256 | `4BC7D93F8BAE31CF2978B0CBBA11946EC5140A0797028A64E8B1D18CC3535B98`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddDllDirectory` | 1 (0x1) | Exported Function | kernel32.AddDllDirectory | 0x00001267
-`RemoveDllDirectory` | 21 (0x15) | Exported Function | kernel32.RemoveDllDirectory | 0x000015b8
-`LockResource` | 20 (0x14) | Exported Function | kernel32.LockResource | 0x0000158f
-`LoadStringW` | 19 (0x13) | Exported Function | user32.dll.LoadStringW | 0x0000156b
-`LoadStringA` | 18 (0x12) | Exported Function | user32.dll.LoadStringA | 0x00001548
-`LoadResource` | 17 (0x11) | Exported Function | kernel32.LoadResource | 0x00001526
-`LoadLibraryExW` | 16 (0x10) | Exported Function | kernel32.LoadLibraryExW | 0x00001501
-`LoadLibraryExA` | 15 (0xf) | Exported Function | kernel32.LoadLibraryExA | 0x000014da
-`GetProcAddress` | 14 (0xe) | Exported Function | kernel32.GetProcAddress | 0x000014b3
-`GetModuleHandleW` | 13 (0xd) | Exported Function | kernel32.GetModuleHandleW | 0x0000148a
-`SetDefaultDllDirectories` | 22 (0x16) | Exported Function | kernel32.SetDefaultDllDirectories | 0x000015ed
-`GetModuleHandleExW` | 12 (0xc) | Exported Function | kernel32.GetModuleHandleExW | 0x0000145d
-`GetModuleHandleA` | 10 (0xa) | Exported Function | kernel32.GetModuleHandleA | 0x00001401
-`GetModuleFileNameW` | 9 (0x9) | Exported Function | kernel32.GetModuleFileNameW | 0x000013d4
-`GetModuleFileNameA` | 8 (0x8) | Exported Function | kernel32.GetModuleFileNameA | 0x000013a5
-`FreeResource` | 7 (0x7) | Exported Function | kernel32.FreeResource | 0x0000137c
-`FreeLibraryAndExitThread` | 6 (0x6) | Exported Function | kernel32.FreeLibraryAndExitThread | 0x0000134d
-`FreeLibrary` | 5 (0x5) | Exported Function | kernel32.FreeLibrary | 0x0000131f
-`FindStringOrdinal` | 4 (0x4) | Exported Function | kernel32.FindStringOrdinal | 0x000012f8
-`FindResourceExW` | 3 (0x3) | Exported Function | kernel32.FindResourceExW | 0x000012cd
-`DisableThreadLibraryCalls` | 2 (0x2) | Exported Function | kernel32.DisableThreadLibraryCalls | 0x0000129a
-`GetModuleHandleExA` | 11 (0xb) | Exported Function | kernel32.GetModuleHandleExA | 0x0000142e
-`SizeofResource` | 23 (0x17) | Exported Function | kernel32.SizeofResource | 0x0000161e
+Function Name | Ordinal | Type
+-- | -- | --
+`LoadLibraryExW` | 16 | Exported Function
+`LoadResource` | 17 | Exported Function
+`LoadLibraryExA` | 15 | Exported Function
+`GetModuleHandleW` | 13 | Exported Function
+`GetProcAddress` | 14 | Exported Function
+`LoadStringA` | 18 | Exported Function
+`SetDefaultDllDirectories` | 22 | Exported Function
+`SizeofResource` | 23 | Exported Function
+`RemoveDllDirectory` | 21 | Exported Function
+`LoadStringW` | 19 | Exported Function
+`LockResource` | 20 | Exported Function
+`GetModuleHandleExW` | 12 | Exported Function
+`FindStringOrdinal` | 4 | Exported Function
+`FreeLibrary` | 5 | Exported Function
+`FindResourceExW` | 3 | Exported Function
+`AddDllDirectory` | 1 | Exported Function
+`DisableThreadLibraryCalls` | 2 | Exported Function
+`FreeLibraryAndExitThread` | 6 | Exported Function
+`GetModuleHandleA` | 10 | Exported Function
+`GetModuleHandleExA` | 11 | Exported Function
+`GetModuleFileNameW` | 9 | Exported Function
+`FreeResource` | 7 | Exported Function
+`GetModuleFileNameA` | 8 | Exported Function
 
 
 ## Signature

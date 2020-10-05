@@ -24,13 +24,13 @@ PE256 | `B5561A878B1879B3EBA0873E3CBF5068747A492090DEAD34D9236CD014C5F0DC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000018000cfe0 | 0x0000cfe0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000018000cfd0 | 0x0000cfd0
-`LaunchModernNfcEventSession` | 4 (0x4) | Exported Function | 0x000000018000cde0 | 0x0000cde0
-`ServiceMain` | 5 (0x5) | Exported Function | 0x000000018000cb10 | 0x0000cb10
-`SvchostPushServiceGlobals` | 1 (0x1) | Exported Function | 0x000000018000caa0 | 0x0000caa0
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 5 | Exported Function
+`SvchostPushServiceGlobals` | 1 | Exported Function
+`LaunchModernNfcEventSession` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

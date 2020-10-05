@@ -24,16 +24,16 @@ PE256 | `9C0F5BCDAAF396906C35E3348C0E91887C23B4A7318C3D4E07510C10A4F69230`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetTranscodeComponentCreator` | 1 (0x1) | Exported Function | 0x0000000180006c60 | 0x00006c60
-`MFCreateSmartRemuxEngine` | 2 (0x2) | Exported Function | 0x00000001800115d0 | 0x000115d0
-`MFCreateTranscodeEngine` | 3 (0x3) | Exported Function | 0x000000018001b000 | 0x0001b000
-`MFCreateTranscodeProfile` | 4 (0x4) | Exported Function | 0x0000000180006d80 | 0x00006d80
-`MFCreateTranscodeSinkActivate` | 5 (0x5) | Exported Function | 0x00000001800205e0 | 0x000205e0
-`MFCreateTranscodeTopology` | 6 (0x6) | Exported Function | 0x0000000180022060 | 0x00022060
-`MFCreateTranscodeTopologyFromByteStream` | 7 (0x7) | Exported Function | 0x00000001800226b0 | 0x000226b0
-`MFTranscodeGetAudioOutputAvailableTypes` | 8 (0x8) | Exported Function | 0x0000000180022c90 | 0x00022c90
+Function Name | Ordinal | Type
+-- | -- | --
+`MFCreateTranscodeTopology` | 6 | Exported Function
+`MFCreateTranscodeSinkActivate` | 5 | Exported Function
+`MFTranscodeGetAudioOutputAvailableTypes` | 8 | Exported Function
+`MFCreateTranscodeTopologyFromByteStream` | 7 | Exported Function
+`MFCreateSmartRemuxEngine` | 2 | Exported Function
+`GetTranscodeComponentCreator` | 1 | Exported Function
+`MFCreateTranscodeProfile` | 4 | Exported Function
+`MFCreateTranscodeEngine` | 3 | Exported Function
 
 
 ## Signature

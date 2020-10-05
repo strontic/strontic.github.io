@@ -24,28 +24,28 @@ PE256 | `7793C1856200BB26D33811B527A519207E9D44423A2548E9F9F5809C542FCC8C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WFDSConMgrCloseSessionContext` | 2 (0x2) | Exported Function | 0x0000000180001cd0 | 0x00001cd0
-`WFDSConMgrReadCeremonyData` | 18 (0x12) | Exported Function | 0x0000000180002310 | 0x00002310
-`WFDSConMgrQueryStatus` | 17 (0x11) | Exported Function | 0x00000001800028a0 | 0x000028a0
-`WFDSConMgrQueryCorrelationId` | 16 (0x10) | Exported Function | 0x0000000180002a50 | 0x00002a50
-`WFDSConMgrOpenSessionContextForNotification` | 15 (0xf) | Exported Function | 0x0000000180001c00 | 0x00001c00
-`WFDSConMgrOpenSessionContextForMacAddress` | 14 (0xe) | Exported Function | 0x0000000180001b30 | 0x00001b30
-`WFDSConMgrOpenSessionContext` | 13 (0xd) | Exported Function | 0x0000000180001a50 | 0x00001a50
-`WFDSConMgrNewDiscoveredEntryOverwritesOld` | 12 (0xc) | Exported Function | 0x0000000180005fb0 | 0x00005fb0
-`WFDSConMgrIntGetInfracastBackchannelParams` | 11 (0xb) | Exported Function | 0x0000000180002700 | 0x00002700
-`WFDSConMgrIntCompleteInfracastConnection` | 10 (0xa) | Exported Function | 0x00000001800025e0 | 0x000025e0
-`WFDSConMgrGetTransportBitmaskFromMultistring` | 9 (0x9) | Exported Function | 0x0000000180002ed0 | 0x00002ed0
-`WFDSConMgrGetOpenSessionList` | 8 (0x8) | Exported Function | 0x0000000180001d80 | 0x00001d80
-`WFDSConMgrFreeMemory` | 7 (0x7) | Exported Function | 0x0000000180002e30 | 0x00002e30
-`WFDSConMgrDisconnectTransport` | 6 (0x6) | Exported Function | 0x0000000180002cf0 | 0x00002cf0
-`WFDSConMgrDisconnect` | 5 (0x5) | Exported Function | 0x0000000180002bd0 | 0x00002bd0
-`WFDSConMgrConnectTransport` | 4 (0x4) | Exported Function | 0x00000001800024b0 | 0x000024b0
-`WFDSConMgrConnect` | 3 (0x3) | Exported Function | 0x0000000180001f60 | 0x00001f60
-`WFDSConMgrConfigureFirewallForInfraCast` | 1 (0x1) | Exported Function | 0x0000000180002e20 | 0x00002e20
-`WFDSConMgrSetAllowRemoteInput` | 19 (0x13) | Exported Function | 0x0000000180002090 | 0x00002090
-`WFDSConMgrWriteCeremonyData` | 20 (0x14) | Exported Function | 0x00000001800021c0 | 0x000021c0
+Function Name | Ordinal | Type
+-- | -- | --
+`WFDSConMgrOpenSessionContextForMacAddress` | 14 | Exported Function
+`WFDSConMgrOpenSessionContextForNotification` | 15 | Exported Function
+`WFDSConMgrOpenSessionContext` | 13 | Exported Function
+`WFDSConMgrIntGetInfracastBackchannelParams` | 11 | Exported Function
+`WFDSConMgrNewDiscoveredEntryOverwritesOld` | 12 | Exported Function
+`WFDSConMgrSetAllowRemoteInput` | 19 | Exported Function
+`WFDSConMgrWriteCeremonyData` | 20 | Exported Function
+`WFDSConMgrReadCeremonyData` | 18 | Exported Function
+`WFDSConMgrQueryCorrelationId` | 16 | Exported Function
+`WFDSConMgrQueryStatus` | 17 | Exported Function
+`WFDSConMgrConnectTransport` | 4 | Exported Function
+`WFDSConMgrDisconnect` | 5 | Exported Function
+`WFDSConMgrConnect` | 3 | Exported Function
+`WFDSConMgrCloseSessionContext` | 2 | Exported Function
+`WFDSConMgrConfigureFirewallForInfraCast` | 1 | Exported Function
+`WFDSConMgrGetTransportBitmaskFromMultistring` | 9 | Exported Function
+`WFDSConMgrIntCompleteInfracastConnection` | 10 | Exported Function
+`WFDSConMgrGetOpenSessionList` | 8 | Exported Function
+`WFDSConMgrDisconnectTransport` | 6 | Exported Function
+`WFDSConMgrFreeMemory` | 7 | Exported Function
 
 
 ## Signature

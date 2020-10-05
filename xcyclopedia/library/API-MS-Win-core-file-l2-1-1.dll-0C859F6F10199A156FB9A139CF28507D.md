@@ -24,9 +24,9 @@ PE256 | `EA4E40A9F22C77BEF8595F106C01D3A79F5BA82554D8698F59B93E787BB825F0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OpenFileById` | 1 (0x1) | Exported Function | kernel32.OpenFileById | 0x0000117f
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenFileById` | 1 | Exported Function
 
 
 ## Signature

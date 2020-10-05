@@ -24,15 +24,15 @@ PE256 | `4107F0C72D69FDAFE517D7C405DF9C56EEF80164E852D038304A61C0844354FC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CancelIoEx` | 1 (0x1) | Exported Function | kernel32.CancelIoEx | 0x000010f7
-`CreateIoCompletionPort` | 2 (0x2) | Exported Function | kernel32.CreateIoCompletionPort | 0x00001122
-`DeviceIoControl` | 3 (0x3) | Exported Function | kernel32.DeviceIoControl | 0x00001152
-`GetOverlappedResult` | 4 (0x4) | Exported Function | kernel32.GetOverlappedResult | 0x0000117f
-`GetQueuedCompletionStatus` | 5 (0x5) | Exported Function | kernel32.GetQueuedCompletionStatus | 0x000011b6
-`GetQueuedCompletionStatusEx` | 6 (0x6) | Exported Function | kernel32.GetQueuedCompletionStatusEx | 0x000011f5
-`PostQueuedCompletionStatus` | 7 (0x7) | Exported Function | kernel32.PostQueuedCompletionStatus | 0x00001235
+Function Name | Ordinal | Type
+-- | -- | --
+`GetQueuedCompletionStatus` | 5 | Exported Function
+`GetQueuedCompletionStatusEx` | 6 | Exported Function
+`PostQueuedCompletionStatus` | 7 | Exported Function
+`GetOverlappedResult` | 4 | Exported Function
+`CancelIoEx` | 1 | Exported Function
+`CreateIoCompletionPort` | 2 | Exported Function
+`DeviceIoControl` | 3 | Exported Function
 
 
 ## Signature

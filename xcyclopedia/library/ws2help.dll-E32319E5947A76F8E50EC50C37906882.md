@@ -24,32 +24,32 @@ PE256 | `336B40EC36D6125BF9BA5C6EFD745EF6325D966843837EB3FACA91BC858BC056`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WahCloseApcHelper` | 1 (0x1) | Exported Function | ws2_32.WahCloseApcHelper | 0x00001196
-`WahRemoveHandleContext` | 22 (0x16) | Exported Function | ws2_32.WahRemoveHandleContext | 0x00001614
-`WahReferenceContextByHandle` | 21 (0x15) | Exported Function | ws2_32.WahReferenceContextByHandle | 0x000015da
-`WahQueueUserApc` | 20 (0x14) | Exported Function | ws2_32.WahQueueUserApc | 0x000015a7
-`WahOpenNotificationHandleHelper` | 19 (0x13) | Exported Function | ws2_32.WahOpenNotificationHandleHelper | 0x00001570
-`WahOpenHandleHelper` | 18 (0x12) | Exported Function | ws2_32.WahOpenHandleHelper | 0x00001535
-`WahOpenCurrentThread` | 17 (0x11) | Exported Function | ws2_32.WahOpenCurrentThread | 0x00001505
-`WahOpenApcHelper` | 16 (0x10) | Exported Function | ws2_32.WahOpenApcHelper | 0x000014d8
-`WahNotifyAllProcesses` | 15 (0xf) | Exported Function | ws2_32.WahNotifyAllProcesses | 0x000014aa
-`WahInsertHandleContext` | 14 (0xe) | Exported Function | ws2_32.WahInsertHandleContext | 0x00001476
-`WahEnumerateHandleContexts` | 13 (0xd) | Exported Function | ws2_32.WahEnumerateHandleContexts | 0x0000143d
-`WahEnableNonIFSHandleSupport` | 12 (0xc) | Exported Function | ws2_32.WahEnableNonIFSHandleSupport | 0x000013fe
-`WahDisableNonIFSHandleSupport` | 11 (0xb) | Exported Function | ws2_32.WahDisableNonIFSHandleSupport | 0x000013bc
-`WahDestroyHandleContextTable` | 10 (0xa) | Exported Function | ws2_32.WahDestroyHandleContextTable | 0x0000137a
-`WahCreateSocketHandle` | 9 (0x9) | Exported Function | ws2_32.WahCreateSocketHandle | 0x00001340
-`WahCreateNotificationHandle` | 8 (0x8) | Exported Function | ws2_32.WahCreateNotificationHandle | 0x00001307
-`WahCreateHandleContextTable` | 7 (0x7) | Exported Function | ws2_32.WahCreateHandleContextTable | 0x000012c8
-`WahCompleteRequest` | 6 (0x6) | Exported Function | ws2_32.WahCompleteRequest | 0x00001292
-`WahCloseThread` | 5 (0x5) | Exported Function | ws2_32.WahCloseThread | 0x00001269
-`WahCloseSocketHandle` | 4 (0x4) | Exported Function | ws2_32.WahCloseSocketHandle | 0x0000123e
-`WahCloseNotificationHandleHelper` | 3 (0x3) | Exported Function | ws2_32.WahCloseNotificationHandleHelper | 0x00001201
-`WahCloseHandleHelper` | 2 (0x2) | Exported Function | ws2_32.WahCloseHandleHelper | 0x000011c4
-`WahWaitForNotification` | 23 (0x17) | Exported Function | ws2_32.WahWaitForNotification | 0x00001649
-`WahWriteLSPEvent` | 24 (0x18) | Exported Function | ws2_32.WahWriteLSPEvent | 0x00001678
+Function Name | Ordinal | Type
+-- | -- | --
+`WahOpenApcHelper` | 16 | Exported Function
+`WahOpenCurrentThread` | 17 | Exported Function
+`WahOpenHandleHelper` | 18 | Exported Function
+`WahEnumerateHandleContexts` | 13 | Exported Function
+`WahInsertHandleContext` | 14 | Exported Function
+`WahNotifyAllProcesses` | 15 | Exported Function
+`WahRemoveHandleContext` | 22 | Exported Function
+`WahWaitForNotification` | 23 | Exported Function
+`WahWriteLSPEvent` | 24 | Exported Function
+`WahOpenNotificationHandleHelper` | 19 | Exported Function
+`WahQueueUserApc` | 20 | Exported Function
+`WahReferenceContextByHandle` | 21 | Exported Function
+`WahCloseSocketHandle` | 4 | Exported Function
+`WahCloseThread` | 5 | Exported Function
+`WahCompleteRequest` | 6 | Exported Function
+`WahCloseApcHelper` | 1 | Exported Function
+`WahCloseHandleHelper` | 2 | Exported Function
+`WahCloseNotificationHandleHelper` | 3 | Exported Function
+`WahDestroyHandleContextTable` | 10 | Exported Function
+`WahDisableNonIFSHandleSupport` | 11 | Exported Function
+`WahEnableNonIFSHandleSupport` | 12 | Exported Function
+`WahCreateHandleContextTable` | 7 | Exported Function
+`WahCreateNotificationHandle` | 8 | Exported Function
+`WahCreateSocketHandle` | 9 | Exported Function
 
 
 ## Signature

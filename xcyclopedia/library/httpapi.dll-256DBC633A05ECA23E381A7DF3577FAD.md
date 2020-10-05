@@ -24,54 +24,54 @@ PE256 | `D365356477FB74FD5F334CBDC9153A16951C529A72AAAB6B36EF869915004D50`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`HttpAddFragmentToCache` | 1 (0x1) | Exported Function | 0x10004030 | 0x00004030
-`HttpQueryServerSessionProperty` | 26 (0x1a) | Exported Function | 0x100027c0 | 0x000027c0
-`HttpQueryServiceConfiguration` | 27 (0x1b) | Exported Function | 0x10004610 | 0x00004610
-`HttpQueryUrlGroupProperty` | 28 (0x1c) | Exported Function | 0x100022b0 | 0x000022b0
-`HttpReadFragmentFromCache` | 29 (0x1d) | Exported Function | 0x10004340 | 0x00004340
-`HttpReceiveClientCertificate` | 30 (0x1e) | Exported Function | 0x10004410 | 0x00004410
-`HttpReceiveHttpRequest` | 31 (0x1f) | Exported Function | 0x10003010 | 0x00003010
-`HttpReceiveRequestEntityBody` | 32 (0x20) | Exported Function | 0x10003080 | 0x00003080
-`HttpRemoveUrl` | 33 (0x21) | Exported Function | 0x10004d50 | 0x00004d50
-`HttpRemoveUrlFromUrlGroup` | 34 (0x22) | Exported Function | 0x10002350 | 0x00002350
-`HttpSendHttpResponse` | 35 (0x23) | Exported Function | 0x10003150 | 0x00003150
-`HttpSendResponseEntityBody` | 36 (0x24) | Exported Function | 0x10003250 | 0x00003250
-`HttpSetRequestQueueProperty` | 37 (0x25) | Exported Function | 0x10004480 | 0x00004480
-`HttpSetServerSessionProperty` | 38 (0x26) | Exported Function | 0x10002850 | 0x00002850
-`HttpSetServiceConfiguration` | 39 (0x27) | Exported Function | 0x100048e0 | 0x000048e0
-`HttpSetUrlGroupProperty` | 40 (0x28) | Exported Function | 0x100023a0 | 0x000023a0
-`HttpShutdownRequestQueue` | 41 (0x29) | Exported Function | 0x100044f0 | 0x000044f0
-`HttpTerminate` | 42 (0x2a) | Exported Function | 0x10003700 | 0x00003700
-`HttpUpdateServiceConfiguration` | 43 (0x2b) | Exported Function | 0x10004960 | 0x00004960
-`HttpWaitForDemandStart` | 44 (0x2c) | Exported Function | 0x10004520 | 0x00004520
-`HttpQueryRequestQueueProperty` | 25 (0x19) | Exported Function | 0x100042d0 | 0x000042d0
-`HttpQueryRequestProperty` | 24 (0x18) | Exported Function | 0x10002ea0 | 0x00002ea0
-`HttpPrepareUrl` | 23 (0x17) | Exported Function | 0x10002190 | 0x00002190
-`HttpInitialize` | 22 (0x16) | Exported Function | 0x10003650 | 0x00003650
-`HttpAddUrl` | 2 (0x2) | Exported Function | 0x10004cc0 | 0x00004cc0
-`HttpAddUrlToUrlGroup` | 3 (0x3) | Exported Function | 0x10001f80 | 0x00001f80
-`HttpCancelHttpRequest` | 4 (0x4) | Exported Function | 0x10002a20 | 0x00002a20
-`HttpCloseRequestQueue` | 5 (0x5) | Exported Function | 0x100040e0 | 0x000040e0
-`HttpCloseServerSession` | 6 (0x6) | Exported Function | 0x100026b0 | 0x000026b0
-`HttpCloseUrlGroup` | 7 (0x7) | Exported Function | 0x10001fc0 | 0x00001fc0
-`HttpControlService` | 8 (0x8) | Exported Function | 0x10004de0 | 0x00004de0
-`HttpCreateHttpHandle` | 9 (0x9) | Exported Function | 0x10004110 | 0x00004110
-`HttpCreateRequestQueue` | 10 (0xa) | Exported Function | 0x10004180 | 0x00004180
-`HttpWaitForDisconnect` | 45 (0x2d) | Exported Function | 0x10003320 | 0x00003320
-`HttpCreateServerSession` | 11 (0xb) | Exported Function | 0x10002720 | 0x00002720
-`HttpDeclarePush` | 13 (0xd) | Exported Function | 0x10002b80 | 0x00002b80
-`HttpDelegateRequest` | 14 (0xe) | Exported Function | 0x10002c10 | 0x00002c10
-`HttpDelegateRequestEx` | 15 (0xf) | Exported Function | 0x10002cb0 | 0x00002cb0
-`HttpDeleteServiceConfiguration` | 16 (0x10) | Exported Function | 0x10004590 | 0x00004590
-`HttpEvaluateRequest` | 17 (0x11) | Exported Function | 0x10002d70 | 0x00002d70
-`HttpFindUrlGroupId` | 18 (0x12) | Exported Function | 0x100020e0 | 0x000020e0
-`HttpFlushResponseCache` | 19 (0x13) | Exported Function | 0x10004260 | 0x00004260
-`HttpGetCounters` | 20 (0x14) | Exported Function | 0x100028f0 | 0x000028f0
-`HttpGetExtension` | 21 (0x15) | Exported Function | 0x10004ec0 | 0x00004ec0
-`HttpCreateUrlGroup` | 12 (0xc) | Exported Function | 0x10002040 | 0x00002040
-`HttpWaitForDisconnectEx` | 46 (0x2e) | Exported Function | 0x10003390 | 0x00003390
+Function Name | Ordinal | Type
+-- | -- | --
+`HttpReceiveHttpRequest` | 31 | Exported Function
+`HttpReceiveClientCertificate` | 30 | Exported Function
+`HttpReceiveRequestEntityBody` | 32 | Exported Function
+`HttpRemoveUrlFromUrlGroup` | 34 | Exported Function
+`HttpRemoveUrl` | 33 | Exported Function
+`HttpReadFragmentFromCache` | 29 | Exported Function
+`HttpQueryRequestQueueProperty` | 25 | Exported Function
+`HttpQueryRequestProperty` | 24 | Exported Function
+`HttpQueryServerSessionProperty` | 26 | Exported Function
+`HttpQueryUrlGroupProperty` | 28 | Exported Function
+`HttpQueryServiceConfiguration` | 27 | Exported Function
+`HttpSendHttpResponse` | 35 | Exported Function
+`HttpUpdateServiceConfiguration` | 43 | Exported Function
+`HttpTerminate` | 42 | Exported Function
+`HttpWaitForDemandStart` | 44 | Exported Function
+`HttpWaitForDisconnectEx` | 46 | Exported Function
+`HttpWaitForDisconnect` | 45 | Exported Function
+`HttpShutdownRequestQueue` | 41 | Exported Function
+`HttpSetRequestQueueProperty` | 37 | Exported Function
+`HttpSendResponseEntityBody` | 36 | Exported Function
+`HttpSetServerSessionProperty` | 38 | Exported Function
+`HttpSetUrlGroupProperty` | 40 | Exported Function
+`HttpSetServiceConfiguration` | 39 | Exported Function
+`HttpControlService` | 8 | Exported Function
+`HttpCloseUrlGroup` | 7 | Exported Function
+`HttpCreateHttpHandle` | 9 | Exported Function
+`HttpCreateServerSession` | 11 | Exported Function
+`HttpCreateRequestQueue` | 10 | Exported Function
+`HttpCloseServerSession` | 6 | Exported Function
+`HttpAddUrl` | 2 | Exported Function
+`HttpAddFragmentToCache` | 1 | Exported Function
+`HttpAddUrlToUrlGroup` | 3 | Exported Function
+`HttpCloseRequestQueue` | 5 | Exported Function
+`HttpCancelHttpRequest` | 4 | Exported Function
+`HttpCreateUrlGroup` | 12 | Exported Function
+`HttpGetCounters` | 20 | Exported Function
+`HttpFlushResponseCache` | 19 | Exported Function
+`HttpGetExtension` | 21 | Exported Function
+`HttpPrepareUrl` | 23 | Exported Function
+`HttpInitialize` | 22 | Exported Function
+`HttpFindUrlGroupId` | 18 | Exported Function
+`HttpDelegateRequest` | 14 | Exported Function
+`HttpDeclarePush` | 13 | Exported Function
+`HttpDelegateRequestEx` | 15 | Exported Function
+`HttpEvaluateRequest` | 17 | Exported Function
+`HttpDeleteServiceConfiguration` | 16 | Exported Function
 
 
 ## Signature

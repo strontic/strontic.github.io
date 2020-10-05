@@ -1,0 +1,55 @@
+﻿---
+title: STSUPLD.INTL.DLL | Microsoft Office component
+excerpt: What is STSUPLD.INTL.DLL?
+---
+
+# STSUPLD.INTL.DLL 
+
+* File Path: `C:\Program Files (x86)\Microsoft Office\root\Office16\1033\STSUPLD.INTL.DLL`
+* Description: Microsoft Office component
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `8131283514030D8341125CB84A17C06F`
+SHA1 | `7ED9124766963895B150AF040B98BF0B9EE6D7D1`
+SHA256 | `9C003349C9DA9FF682B1DC24B31CD64E1B3614C5F8188808BDD764A3D76B5867`
+SHA384 | `67A7A886F543BAD5A9154E67C4F8C4DC53C8B3C101EF9A52D1E733774A47BE7F259D42B1D96512964D217AF49E31B131`
+SHA512 | `846DD8DAAAFF62CE53F4502BED79EF08142CBDF748887DFB118E6003E9F48ABE32F47CCB6AF568D616C1B76220FB743DE90AF7407313A70F2614390397BA3083`
+SSDEEP | `384:+E5tReX55nwWh4VW7osYHNfPfLeEdtpBjhYjgBwIZs0lZFDlObHRN7lFL1l9zubC:TTRESMYBbeElvYjOzlOblAC`
+IMP | `DAE02F32A21E03CE65412F6E56942DAA`
+PESHA1 | `FA3985B9BFF1ED12D6538CBC04A837568795D1DF`
+PE256 | `78AC6003E4A915775A9662A0226B847C4921C116D5116BD81BDCAB457B69A08D`
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000001E37DA31F8284DCE4A10002000001E3`
+* Thumbprint: `C82273A065EC470FB1EBDE846A91E6FFB29E9C12`
+* Issuer: CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: stsupld.intl.dll
+* Product Name: Microsoft Office
+* Company Name: Microsoft Corporation
+* File Version: 16.0.11929.20112
+* Product Version: 16.0.11929.20112
+* Language: Language Neutral
+* Legal Copyright: 
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/9c003349c9da9ff682b1dc24b31cd64e1b3614c5f8188808bdd764a3d76b5867/detection/
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

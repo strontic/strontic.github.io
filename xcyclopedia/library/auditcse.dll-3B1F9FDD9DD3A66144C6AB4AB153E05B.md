@@ -24,12 +24,12 @@ PE256 | `B5017FC2257FE9C91AEEEBD823CF4F4505BA4330424628BB2604DA6661A06592`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GenerateGroupPolicy` | 1 (0x1) | Exported Function | 0x0000000180002140 | 0x00002140
-`GenerateGroupPolicyCap` | 2 (0x2) | Exported Function | 0x00000001800023b0 | 0x000023b0
-`ProcessGroupPolicyEx` | 3 (0x3) | Exported Function | 0x0000000180001db0 | 0x00001db0
-`ProcessGroupPolicyExCap` | 4 (0x4) | Exported Function | 0x0000000180002ae0 | 0x00002ae0
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessGroupPolicyEx` | 3 | Exported Function
+`ProcessGroupPolicyExCap` | 4 | Exported Function
+`GenerateGroupPolicy` | 1 | Exported Function
+`GenerateGroupPolicyCap` | 2 | Exported Function
 
 
 ## Signature

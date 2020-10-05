@@ -24,19 +24,19 @@ PE256 | `5582FEB26FC3053029297521C90A4C3CCFE9715C8FF01A6BC6B85247BCCC2C8C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ApplySubProviderSettings` | 3 (0x3) | Exported Function | 0x0000000180007ff0 | 0x00007ff0
-`CreateSettingsProvider` | 4 (0x4) | Exported Function | 0x0000000180007e50 | 0x00007e50
-`GatherSubProviderSettings` | 5 (0x5) | Exported Function | 0x0000000180007ec0 | 0x00007ec0
-`GetSubProviderAttribute` | 6 (0x6) | Exported Function | 0x0000000180008350 | 0x00008350
-`PrelaunchEdge` | 7 (0x7) | Exported Function | 0x0000000180008460 | 0x00008460
-`public: __cdecl HvsiSettingsProvider::HvsiSettingsProvider(void) __ptr64` | 1 (0x1) | Exported Function | 0x0000000180006630 | 0x00006630
-`public: virtual __cdecl HvsiSettingsProvider::~HvsiSettingsProvider(void) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180006650 | 0x00006650
-`RegisterChangeNotifications` | 8 (0x8) | Exported Function | 0x00000001800081b0 | 0x000081b0
-`SetDVCCallbackInformation` | 9 (0x9) | Exported Function | 0x000000018000c790 | 0x0000c790
-`UnregisterChangeNotifications` | 10 (0xa) | Exported Function | 0x0000000180008290 | 0x00008290
-`VirtualChannelGetInstance` | 11 (0xb) | Exported Function | 0x000000018000c670 | 0x0000c670
+Function Name | Ordinal | Type
+-- | -- | --
+`RegisterChangeNotifications` | 8 | Exported Function
+`public: virtual __cdecl HvsiSettingsProvider::~HvsiSettingsProvider(void) __ptr64` | 2 | Exported Function
+`SetDVCCallbackInformation` | 9 | Exported Function
+`VirtualChannelGetInstance` | 11 | Exported Function
+`UnregisterChangeNotifications` | 10 | Exported Function
+`public: __cdecl HvsiSettingsProvider::HvsiSettingsProvider(void) __ptr64` | 1 | Exported Function
+`CreateSettingsProvider` | 4 | Exported Function
+`ApplySubProviderSettings` | 3 | Exported Function
+`GatherSubProviderSettings` | 5 | Exported Function
+`PrelaunchEdge` | 7 | Exported Function
+`GetSubProviderAttribute` | 6 | Exported Function
 
 
 ## Signature

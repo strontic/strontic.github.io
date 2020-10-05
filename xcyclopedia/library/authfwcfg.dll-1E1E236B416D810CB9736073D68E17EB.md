@@ -24,10 +24,10 @@ PE256 | `B0CA2A54E508B888DB2EF80B2F29798E55E603FD8B86984A25D895C7755D4A32`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetResourceString` | 1 (0x1) | Exported Function | 0x0000000180002860 | 0x00002860
-`InitHelperDll` | 2 (0x2) | Exported Function | 0x0000000180001cc0 | 0x00001cc0
+Function Name | Ordinal | Type
+-- | -- | --
+`InitHelperDll` | 2 | Exported Function
+`GetResourceString` | 1 | Exported Function
 
 
 ## Signature

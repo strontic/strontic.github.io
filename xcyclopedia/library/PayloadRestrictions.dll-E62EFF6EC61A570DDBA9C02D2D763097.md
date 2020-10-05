@@ -24,11 +24,11 @@ PE256 | `BCF10BDAF7469E30D0D86CE78ACB52C39F09892CFDF6D63D4F7781B9CDA746DC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MitLibInitialize` | 1 (0x1) | Exported Function | 0x1006c830 | 0x0006c830
-`MitLibQueryMitigations` | 2 (0x2) | Exported Function | 0x1006ca80 | 0x0006ca80
-`MitLibUninitialize` | 3 (0x3) | Exported Function | 0x1006ca30 | 0x0006ca30
+Function Name | Ordinal | Type
+-- | -- | --
+`MitLibUninitialize` | 3 | Exported Function
+`MitLibQueryMitigations` | 2 | Exported Function
+`MitLibInitialize` | 1 | Exported Function
 
 
 ## Signature

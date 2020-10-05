@@ -24,13 +24,13 @@ PE256 | `250FA5F816D4F4C78E8FF11CE90DC00E37F47FF968016C3A982C37756F05E3BD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RdrSysprepSpecialize` | 1 (0x1) | Exported Function | 0x1000aa00 | 0x0000aa00
-`RdrSysprepSpecializeOffline` | 2 (0x2) | Exported Function | 0x1000aef0 | 0x0000aef0
-`WdiDiagnosticModuleMain` | 3 (0x3) | Exported Function | 0x10002700 | 0x00002700
-`WdiGetDiagnosticModuleInterfaceVersion` | 4 (0x4) | Exported Function | 0x100039f0 | 0x000039f0
-`WdiHandleInstance` | 5 (0x5) | Exported Function | 0x10002ae0 | 0x00002ae0
+Function Name | Ordinal | Type
+-- | -- | --
+`WdiGetDiagnosticModuleInterfaceVersion` | 4 | Exported Function
+`WdiHandleInstance` | 5 | Exported Function
+`WdiDiagnosticModuleMain` | 3 | Exported Function
+`RdrSysprepSpecialize` | 1 | Exported Function
+`RdrSysprepSpecializeOffline` | 2 | Exported Function
 
 
 ## Signature

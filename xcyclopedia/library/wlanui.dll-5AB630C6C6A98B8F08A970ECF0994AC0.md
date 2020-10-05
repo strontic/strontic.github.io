@@ -24,14 +24,14 @@ PE256 | `4110CCA27A71C506630C827E1AC4BDAA864CFCFE21CB8728FD78F439C175FF78`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x1000c040 | 0x0000c040
-`WlanUIEditProfile` | 6 (0x6) | Exported Function | 0x10015f90 | 0x00015f90
-`WLFreeProfile` | 4 (0x4) | Exported Function | 0x1001a560 | 0x0001a560
-`WLFreeProfileXml` | 5 (0x5) | Exported Function | 0x1001a580 | 0x0001a580
-`WLInvokeProfileUI` | 1 (0x1) | Exported Function | 0x10015eb0 | 0x00015eb0
-`WLInvokeProfileUIFromXMLFile` | 2 (0x2) | Exported Function | 0x10015f00 | 0x00015f00
+Function Name | Ordinal | Type
+-- | -- | --
+`WLFreeProfileXml` | 5 | Exported Function
+`WLInvokeProfileUI` | 1 | Exported Function
+`WLInvokeProfileUIFromXMLFile` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`WlanUIEditProfile` | 6 | Exported Function
+`WLFreeProfile` | 4 | Exported Function
 
 
 ## Signature

@@ -24,15 +24,15 @@ PE256 | `52D5FA4FC418471638149A590442852ED1B37E8D4235193B2C59630C93F5C22F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseFindContext` | 3 (0x3) | Exported Function | 0x0000000180003970 | 0x00003970
-`FindFirstImportDS` | 1 (0x1) | Exported Function | 0x0000000180003570 | 0x00003570
-`FindImportDSByDeviceName` | 7 (0x7) | Exported Function | 0x0000000180003d70 | 0x00003d70
-`FindNextImportDS` | 2 (0x2) | Exported Function | 0x0000000180003730 | 0x00003730
-`GetLoaderStatus` | 6 (0x6) | Exported Function | 0x0000000180003d40 | 0x00003d40
-`LoadImportDS` | 4 (0x4) | Exported Function | 0x0000000180003a20 | 0x00003a20
-`UnloadImportDS` | 5 (0x5) | Exported Function | 0x0000000180003ca0 | 0x00003ca0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetLoaderStatus` | 6 | Exported Function
+`LoadImportDS` | 4 | Exported Function
+`UnloadImportDS` | 5 | Exported Function
+`FindNextImportDS` | 2 | Exported Function
+`CloseFindContext` | 3 | Exported Function
+`FindFirstImportDS` | 1 | Exported Function
+`FindImportDSByDeviceName` | 7 | Exported Function
 
 
 ## Signature

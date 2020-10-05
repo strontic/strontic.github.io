@@ -24,24 +24,10 @@ PE256 | `3ADC1418FABE349ACCCFBD666DBD60DBEADA3FF7EB6FA303931834F94597A668`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x1006cfa0 | 0x0006cfa0
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x10069740 | 0x00069740
-`Ordinal1` | 1 (0x1) | Exported Function | 0x100b1a00 | 0x000b1a00
-`Ordinal10` | 10 (0xa) | Exported Function | 0x1003e5d0 | 0x0003e5d0
-`Ordinal11` | 11 (0xb) | Exported Function | 0x100354b0 | 0x000354b0
-`Ordinal12` | 12 (0xc) | Exported Function | 0x10035110 | 0x00035110
-`Ordinal13` | 13 (0xd) | Exported Function | 0x100390a0 | 0x000390a0
-`Ordinal14` | 14 (0xe) | Exported Function | 0x100b21a0 | 0x000b21a0
-`Ordinal15` | 15 (0xf) | Exported Function | 0x10034fb0 | 0x00034fb0
-`Ordinal16` | 16 (0x10) | Exported Function | 0x100b22c0 | 0x000b22c0
-`Ordinal2` | 2 (0x2) | Exported Function | 0x100b1f00 | 0x000b1f00
-`Ordinal3` | 3 (0x3) | Exported Function | 0x100b1f30 | 0x000b1f30
-`Ordinal4` | 4 (0x4) | Exported Function | 0x1003dd00 | 0x0003dd00
-`Ordinal7` | 7 (0x7) | Exported Function | 0x1003be70 | 0x0003be70
-`Ordinal8` | 8 (0x8) | Exported Function | 0x100337b0 | 0x000337b0
-`Ordinal9` | 9 (0x9) | Exported Function | 0x10033660 | 0x00033660
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
 
 
 ## Signature

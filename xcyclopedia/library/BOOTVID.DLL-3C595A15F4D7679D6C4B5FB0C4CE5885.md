@@ -24,20 +24,20 @@ PE256 | `38962E739417217077888F561D0A2E3A9BDE186F1AD0F6DF481AE3F06E85B59B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`VidBitBlt` | 1 (0x1) | Exported Function | 0x00000001c0002464 | 0x00002464
-`VidBitBltEx` | 2 (0x2) | Exported Function | 0x00000001c0002598 | 0x00002598
-`VidBufferToScreenBlt` | 3 (0x3) | Exported Function | 0x00000001c0002948 | 0x00002948
-`VidCleanUp` | 4 (0x4) | Exported Function | 0x00000001c00029c4 | 0x000029c4
-`VidDisplayString` | 5 (0x5) | Exported Function | 0x00000001c0001b1c | 0x00001b1c
-`VidDisplayStringXY` | 6 (0x6) | Exported Function | 0x00000001c0001c44 | 0x00001c44
-`VidInitialize` | 7 (0x7) | Exported Function | 0x00000001c0001008 | 0x00001008
-`VidResetDisplay` | 8 (0x8) | Exported Function | 0x00000001c000121c | 0x0000121c
-`VidScreenToBufferBlt` | 9 (0x9) | Exported Function | 0x00000001c0002774 | 0x00002774
-`VidSetScrollRegion` | 10 (0xa) | Exported Function | 0x00000001c0002994 | 0x00002994
-`VidSetTextColor` | 11 (0xb) | Exported Function | 0x00000001c0001b08 | 0x00001b08
-`VidSolidColorFill` | 12 (0xc) | Exported Function | 0x00000001c0001898 | 0x00001898
+Function Name | Ordinal | Type
+-- | -- | --
+`VidScreenToBufferBlt` | 9 | Exported Function
+`VidResetDisplay` | 8 | Exported Function
+`VidInitialize` | 7 | Exported Function
+`VidSolidColorFill` | 12 | Exported Function
+`VidSetTextColor` | 11 | Exported Function
+`VidSetScrollRegion` | 10 | Exported Function
+`VidBufferToScreenBlt` | 3 | Exported Function
+`VidBitBltEx` | 2 | Exported Function
+`VidBitBlt` | 1 | Exported Function
+`VidDisplayStringXY` | 6 | Exported Function
+`VidDisplayString` | 5 | Exported Function
+`VidCleanUp` | 4 | Exported Function
 
 
 ## Signature

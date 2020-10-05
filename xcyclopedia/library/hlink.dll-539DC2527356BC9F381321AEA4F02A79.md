@@ -24,40 +24,40 @@ PE256 | `AD896E50D157D3AA890672B4B2070341CD3F92AFF841656217EF6CFB4A0B8B47`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 13 (0xd) | Exported Function | 0x10004780 | 0x00004780
-`HlinkTranslateURL` | 31 (0x1f) | Exported Function | 0x100137b0 | 0x000137b0
-`HlinkSetSpecialReference` | 21 (0x15) | Exported Function | 0x1000db50 | 0x0000db50
-`HlinkResolveStringForData` | 15 (0xf) | Exported Function | 0x1000da70 | 0x0000da70
-`HlinkResolveShortcutToString` | 26 (0x1a) | Exported Function | 0x1000da30 | 0x0000da30
-`HlinkResolveShortcutToMoniker` | 30 (0x1e) | Exported Function | 0x1000d9f0 | 0x0000d9f0
-`HlinkResolveShortcut` | 24 (0x18) | Exported Function | 0x1000d900 | 0x0000d900
-`HlinkResolveMonikerForData` | 14 (0xe) | Exported Function | 0x1000d8c0 | 0x0000d8c0
-`HlinkQueryCreateFromData` | 20 (0x14) | Exported Function | 0x1000d7a0 | 0x0000d7a0
-`HlinkPreprocessMoniker` | 33 (0x21) | Exported Function | 0x1000d660 | 0x0000d660
-`HlinkParseDisplayName` | 18 (0x12) | Exported Function | 0x1000d600 | 0x0000d600
-`HlinkOnRenameDocument` | 12 (0xc) | Exported Function | 0x1000d560 | 0x0000d560
-`HlinkOnNavigate` | 9 (0x9) | Exported Function | 0x1000d4e0 | 0x0000d4e0
-`HlinkNavigateToStringReference` | 8 (0x8) | Exported Function | 0x1000d460 | 0x0000d460
-`HlinkNavigate` | 10 (0xa) | Exported Function | 0x1000d1e0 | 0x0000d1e0
-`HlinkIsShortcut` | 25 (0x19) | Exported Function | 0x1000d1b0 | 0x0000d1b0
-`HlinkGetValueFromParams` | 28 (0x1c) | Exported Function | 0x1000d100 | 0x0000d100
-`HlinkGetSpecialReference` | 22 (0x16) | Exported Function | 0x1000d0c0 | 0x0000d0c0
-`HlinkCreateShortcutFromString` | 27 (0x1b) | Exported Function | 0x1000d090 | 0x0000d090
-`HlinkCreateShortcutFromMoniker` | 29 (0x1d) | Exported Function | 0x1000d050 | 0x0000d050
-`HlinkCreateShortcut` | 23 (0x17) | Exported Function | 0x1000cf20 | 0x0000cf20
-`HlinkCreateFromString` | 4 (0x4) | Exported Function | 0x10002a80 | 0x00002a80
-`HlinkCreateFromMoniker` | 3 (0x3) | Exported Function | 0x1000cee0 | 0x0000cee0
-`HlinkCreateFromData` | 5 (0x5) | Exported Function | 0x1000ccc0 | 0x0000ccc0
-`HlinkCreateExtensionServices` | 32 (0x20) | Exported Function | 0x1000cc80 | 0x0000cc80
-`HlinkCreateBrowseContext` | 6 (0x6) | Exported Function | 0x1000cbf0 | 0x0000cbf0
-`HlinkClone` | 7 (0x7) | Exported Function | 0x1000ca50 | 0x0000ca50
-`DllUnregisterServer` | 34 (0x22) | Exported Function | 0x10011d00 | 0x00011d00
-`DllRegisterServer` | 19 (0x13) | Exported Function | 0x10011cf0 | 0x00011cf0
-`DllGetClassObject` | 17 (0x11) | Exported Function | 0x10002b50 | 0x00002b50
-`HlinkUpdateStackItem` | 11 (0xb) | Exported Function | 0x1000dcd0 | 0x0000dcd0
-`OleSaveToStreamEx` | 16 (0x10) | Exported Function | 0x1000dd40 | 0x0000dd40
+Function Name | Ordinal | Type
+-- | -- | --
+`HlinkPreprocessMoniker` | 33 | Exported Function
+`HlinkParseDisplayName` | 18 | Exported Function
+`HlinkResolveMonikerForData` | 14 | Exported Function
+`HlinkQueryCreateFromData` | 20 | Exported Function
+`HlinkNavigateToStringReference` | 8 | Exported Function
+`HlinkNavigate` | 10 | Exported Function
+`HlinkOnRenameDocument` | 12 | Exported Function
+`HlinkOnNavigate` | 9 | Exported Function
+`HlinkTranslateURL` | 31 | Exported Function
+`HlinkSetSpecialReference` | 21 | Exported Function
+`OleSaveToStreamEx` | 16 | Exported Function
+`HlinkUpdateStackItem` | 11 | Exported Function
+`HlinkResolveShortcutToMoniker` | 30 | Exported Function
+`HlinkResolveShortcut` | 24 | Exported Function
+`HlinkResolveStringForData` | 15 | Exported Function
+`HlinkResolveShortcutToString` | 26 | Exported Function
+`HlinkCreateBrowseContext` | 6 | Exported Function
+`HlinkClone` | 7 | Exported Function
+`HlinkCreateFromData` | 5 | Exported Function
+`HlinkCreateExtensionServices` | 32 | Exported Function
+`DllGetClassObject` | 17 | Exported Function
+`DllCanUnloadNow` | 13 | Exported Function
+`DllUnregisterServer` | 34 | Exported Function
+`DllRegisterServer` | 19 | Exported Function
+`HlinkGetSpecialReference` | 22 | Exported Function
+`HlinkCreateShortcutFromString` | 27 | Exported Function
+`HlinkIsShortcut` | 25 | Exported Function
+`HlinkGetValueFromParams` | 28 | Exported Function
+`HlinkCreateFromString` | 4 | Exported Function
+`HlinkCreateFromMoniker` | 3 | Exported Function
+`HlinkCreateShortcutFromMoniker` | 29 | Exported Function
+`HlinkCreateShortcut` | 23 | Exported Function
 
 
 ## Signature

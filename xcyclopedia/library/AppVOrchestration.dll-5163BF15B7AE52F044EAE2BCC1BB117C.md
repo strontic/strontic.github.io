@@ -24,13 +24,13 @@ PE256 | `701B578F99D00FE49161758860ECC81FE7C4807CA33703501AF5C9118E1542A2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Deinitialize` | 3 (0x3) | Exported Function | 0x00000001800173d0 | 0x000173d0
-`GetControllerComponent` | 4 (0x4) | Exported Function | 0x00000001800174f0 | 0x000174f0
-`GetControllerRequests` | 5 (0x5) | Exported Function | 0x00000001800175e0 | 0x000175e0
-`Initialize` | 1 (0x1) | Exported Function | 0x0000000180017120 | 0x00017120
-`InitializeISV` | 2 (0x2) | Exported Function | 0x0000000180017270 | 0x00017270
+Function Name | Ordinal | Type
+-- | -- | --
+`Initialize` | 1 | Exported Function
+`InitializeISV` | 2 | Exported Function
+`GetControllerRequests` | 5 | Exported Function
+`Deinitialize` | 3 | Exported Function
+`GetControllerComponent` | 4 | Exported Function
 
 
 ## Signature

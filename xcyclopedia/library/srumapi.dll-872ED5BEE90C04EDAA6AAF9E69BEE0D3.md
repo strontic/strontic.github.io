@@ -24,23 +24,23 @@ PE256 | `E9657AB61693AC66F89682D2F629CCD10A98FBE5D5D575D6D4829AD959D3EB6C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x00000001800044b0 | 0x000044b0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000180001c50 | 0x00001c50
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x00000001800044d0 | 0x000044d0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000180004510 | 0x00004510
-`SruCreateCheckpoint` | 5 (0x5) | Exported Function | 0x00000001800047f0 | 0x000047f0
-`SruCreateEnergyNotificationServer` | 6 (0x6) | Exported Function | 0x00000001800048e0 | 0x000048e0
-`SruDeleteStatsByAppName` | 7 (0x7) | Exported Function | 0x00000001800049c0 | 0x000049c0
-`SruFreeRecordSet` | 8 (0x8) | Exported Function | 0x0000000180002070 | 0x00002070
-`SruQueryStats` | 9 (0x9) | Exported Function | 0x00000001800021c0 | 0x000021c0
-`SruQueryStatsBySeqNumber` | 10 (0xa) | Exported Function | 0x0000000180004ab0 | 0x00004ab0
-`SruQueryStatsEx` | 11 (0xb) | Exported Function | 0x00000001800021f0 | 0x000021f0
-`SruRegisterRealTimeStats` | 12 (0xc) | Exported Function | 0x0000000180001290 | 0x00001290
-`SruRetrieveEnergyRecord` | 13 (0xd) | Exported Function | 0x0000000180004bd0 | 0x00004bd0
-`SruUnregisterRealTimeStats` | 14 (0xe) | Exported Function | 0x0000000180004ce0 | 0x00004ce0
-`SruUpdateStats` | 15 (0xf) | Exported Function | 0x0000000180004da0 | 0x00004da0
+Function Name | Ordinal | Type
+-- | -- | --
+`SruQueryStatsEx` | 11 | Exported Function
+`SruQueryStatsBySeqNumber` | 10 | Exported Function
+`SruQueryStats` | 9 | Exported Function
+`SruRegisterRealTimeStats` | 12 | Exported Function
+`SruUpdateStats` | 15 | Exported Function
+`SruUnregisterRealTimeStats` | 14 | Exported Function
+`SruRetrieveEnergyRecord` | 13 | Exported Function
+`SruFreeRecordSet` | 8 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`SruDeleteStatsByAppName` | 7 | Exported Function
+`SruCreateEnergyNotificationServer` | 6 | Exported Function
+`SruCreateCheckpoint` | 5 | Exported Function
 
 
 ## Signature

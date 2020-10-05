@@ -24,15 +24,15 @@ PE256 | `540084B274C1B7AF54912156F331FE215721A4374E256D27DD6EA0763DE9AFA6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180026280 | 0x00026280
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x00000001800156a0 | 0x000156a0
-`MFCreateSinkWriterFromMediaSink` | 3 (0x3) | Exported Function | 0x0000000180063a60 | 0x00063a60
-`MFCreateSinkWriterFromURL` | 4 (0x4) | Exported Function | 0x0000000180063a90 | 0x00063a90
-`MFCreateSourceReaderFromByteStream` | 5 (0x5) | Exported Function | 0x0000000180063c30 | 0x00063c30
-`MFCreateSourceReaderFromMediaSource` | 6 (0x6) | Exported Function | 0x0000000180063c30 | 0x00063c30
-`MFCreateSourceReaderFromURL` | 7 (0x7) | Exported Function | 0x0000000180063c60 | 0x00063c60
+Function Name | Ordinal | Type
+-- | -- | --
+`MFCreateSourceReaderFromByteStream` | 5 | Exported Function
+`MFCreateSourceReaderFromMediaSource` | 6 | Exported Function
+`MFCreateSourceReaderFromURL` | 7 | Exported Function
+`MFCreateSinkWriterFromURL` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`MFCreateSinkWriterFromMediaSink` | 3 | Exported Function
 
 
 ## Signature

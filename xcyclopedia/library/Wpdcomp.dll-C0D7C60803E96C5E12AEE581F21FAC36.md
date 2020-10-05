@@ -24,10 +24,10 @@ PE256 | `41DDA70CA64E305C6911849547C6B752CA19621420E1445AC323C6CAED1588AA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllGetClassObject` | 1 (0x1) | Exported Function | 0x0000000180004140 | 0x00004140
-`Microsoft_WDF_UMDF_Version` | 2 (0x2) | Exported Function | 0x0000000180016220 | 0x00016220
+Function Name | Ordinal | Type
+-- | -- | --
+`Microsoft_WDF_UMDF_Version` | 2 | Exported Function
+`DllGetClassObject` | 1 | Exported Function
 
 
 ## Signature

@@ -24,40 +24,40 @@ PE256 | `882ADDC1666F2D270422980DD759F1B9E4068063ABF8CB1BCB7FD960AC4CA307`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`TetheringAuthorize` | 2 (0x2) | Exported Function | 0x0000000180001c70 | 0x00001c70
-`TetheringStopSharing` | 30 (0x1e) | Exported Function | 0x0000000180001730 | 0x00001730
-`TetheringStartSharingAsync` | 29 (0x1d) | Exported Function | 0x0000000180001720 | 0x00001720
-`TetheringStartSharing` | 28 (0x1c) | Exported Function | 0x0000000180001710 | 0x00001710
-`TetheringSetSharingStateAsync` | 27 (0x1b) | Exported Function | 0x00000001800016f0 | 0x000016f0
-`TetheringSetSharingState` | 26 (0x1a) | Exported Function | 0x00000001800016f0 | 0x000016f0
-`TetheringSetPublicConnectionSettings` | 25 (0x19) | Exported Function | 0x00000001800019b0 | 0x000019b0
-`TetheringSetPrivateConnectionSettingsAsync` | 24 (0x18) | Exported Function | 0x00000001800019f0 | 0x000019f0
-`TetheringSetPrivateConnectionSettings` | 23 (0x17) | Exported Function | 0x00000001800019d0 | 0x000019d0
-`TetheringSetPreferredInterface` | 22 (0x16) | Exported Function | 0x0000000180001cb0 | 0x00001cb0
-`TetheringSetIsPeerlessTimeoutEnabled` | 21 (0x15) | Exported Function | 0x0000000180001d10 | 0x00001d10
-`TetheringRegisterNotification` | 20 (0x14) | Exported Function | 0x0000000180001b40 | 0x00001b40
-`TetheringIsAllowed` | 19 (0x13) | Exported Function | 0x0000000180001760 | 0x00001760
-`TetheringIs5GHzSupported` | 18 (0x12) | Exported Function | 0x0000000180001790 | 0x00001790
-`TetheringInitApi` | 17 (0x11) | Exported Function | 0x0000000180001660 | 0x00001660
-`TetheringGetSharingState` | 16 (0x10) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`TetheringGetSharedInterfaceIndices` | 1 (0x1) | Exported Function | 0x0000000180001c60 | 0x00001c60
-`TetheringGetPublicConnectionSettings` | 15 (0xf) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`TetheringGetPrivateConnectionSettings` | 14 (0xe) | Exported Function | 0x00000001800018b0 | 0x000018b0
-`TetheringGetPreferredInterface` | 13 (0xd) | Exported Function | 0x0000000180001cd0 | 0x00001cd0
-`TetheringGetPeerList` | 12 (0xc) | Exported Function | 0x0000000180001a10 | 0x00001a10
-`TetheringGetMaxClientCount` | 11 (0xb) | Exported Function | 0x0000000180001a50 | 0x00001a50
-`TetheringGetLastApiError` | 10 (0xa) | Exported Function | 0x0000000180001750 | 0x00001750
-`TetheringGetIsPeerlessTimeoutEnabled` | 9 (0x9) | Exported Function | 0x0000000180001cf0 | 0x00001cf0
-`TetheringGetErrorString` | 8 (0x8) | Exported Function | 0x0000000180001c90 | 0x00001c90
-`TetheringGetDefaultInterface` | 7 (0x7) | Exported Function | 0x0000000180001700 | 0x00001700
-`TetheringGetClientCount` | 6 (0x6) | Exported Function | 0x0000000180001a90 | 0x00001a90
-`TetheringFreePeerList` | 5 (0x5) | Exported Function | 0x0000000180001b10 | 0x00001b10
-`TetheringFreeMemory` | 4 (0x4) | Exported Function | 0x0000000180001b10 | 0x00001b10
-`TetheringDeinitApi` | 3 (0x3) | Exported Function | 0x00000001800016a0 | 0x000016a0
-`TetheringStopSharingAsync` | 31 (0x1f) | Exported Function | 0x0000000180001740 | 0x00001740
-`TetheringUnregisterNotification` | 32 (0x20) | Exported Function | 0x0000000180001b90 | 0x00001b90
+Function Name | Ordinal | Type
+-- | -- | --
+`TetheringSetPreferredInterface` | 22 | Exported Function
+`TetheringSetIsPeerlessTimeoutEnabled` | 21 | Exported Function
+`TetheringSetPrivateConnectionSettingsAsync` | 24 | Exported Function
+`TetheringSetPrivateConnectionSettings` | 23 | Exported Function
+`TetheringIs5GHzSupported` | 18 | Exported Function
+`TetheringInitApi` | 17 | Exported Function
+`TetheringRegisterNotification` | 20 | Exported Function
+`TetheringIsAllowed` | 19 | Exported Function
+`TetheringStopSharing` | 30 | Exported Function
+`TetheringStartSharingAsync` | 29 | Exported Function
+`TetheringUnregisterNotification` | 32 | Exported Function
+`TetheringStopSharingAsync` | 31 | Exported Function
+`TetheringSetSharingState` | 26 | Exported Function
+`TetheringSetPublicConnectionSettings` | 25 | Exported Function
+`TetheringStartSharing` | 28 | Exported Function
+`TetheringSetSharingStateAsync` | 27 | Exported Function
+`TetheringGetDefaultInterface` | 7 | Exported Function
+`TetheringGetClientCount` | 6 | Exported Function
+`TetheringGetIsPeerlessTimeoutEnabled` | 9 | Exported Function
+`TetheringGetErrorString` | 8 | Exported Function
+`TetheringDeinitApi` | 3 | Exported Function
+`TetheringAuthorize` | 2 | Exported Function
+`TetheringFreePeerList` | 5 | Exported Function
+`TetheringFreeMemory` | 4 | Exported Function
+`TetheringGetPublicConnectionSettings` | 15 | Exported Function
+`TetheringGetPrivateConnectionSettings` | 14 | Exported Function
+`TetheringGetSharingState` | 16 | Exported Function
+`TetheringGetSharedInterfaceIndices` | 1 | Exported Function
+`TetheringGetMaxClientCount` | 11 | Exported Function
+`TetheringGetLastApiError` | 10 | Exported Function
+`TetheringGetPreferredInterface` | 13 | Exported Function
+`TetheringGetPeerList` | 12 | Exported Function
 
 
 ## Signature

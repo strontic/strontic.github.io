@@ -24,16 +24,16 @@ PE256 | `2FFAA0B30336DB15A1134841DCFDB9D2CE83C35FE7591F413048435F03EF8BFA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OslGenRandomBytes` | 1 (0x1) | Exported Function | 0x0000000180017238 | 0x00017238
-`OslGetControlSubkeyCell` | 2 (0x2) | Exported Function | 0x0000000180015874 | 0x00015874
-`OslGetExportRoutineInModule` | 3 (0x3) | Exported Function | 0x0000000180018170 | 0x00018170
-`OslGetStringValue` | 4 (0x4) | Exported Function | 0x0000000180015360 | 0x00015360
-`OslGetValue` | 5 (0x5) | Exported Function | 0x0000000180015448 | 0x00015448
-`OslIsRunningInSecureKernel` | 6 (0x6) | Exported Function | 0x0000000180017dc0 | 0x00017dc0
-`TcbLoadEntry` | 7 (0x7) | Exported Function | 0x0000000180017dd4 | 0x00017dd4
-`TcbResumeEntry` | 8 (0x8) | Exported Function | 0x0000000180017f70 | 0x00017f70
+Function Name | Ordinal | Type
+-- | -- | --
+`OslIsRunningInSecureKernel` | 6 | Exported Function
+`OslGetValue` | 5 | Exported Function
+`TcbResumeEntry` | 8 | Exported Function
+`TcbLoadEntry` | 7 | Exported Function
+`OslGetControlSubkeyCell` | 2 | Exported Function
+`OslGenRandomBytes` | 1 | Exported Function
+`OslGetStringValue` | 4 | Exported Function
+`OslGetExportRoutineInModule` | 3 | Exported Function
 
 
 ## Signature

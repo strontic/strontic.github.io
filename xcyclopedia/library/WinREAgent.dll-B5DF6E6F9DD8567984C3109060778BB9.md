@@ -24,9 +24,9 @@ PE256 | `CCB81CD09CBDCC4A9847CB612A34DDB7F5FCD11BF44355A021E35F71A6A1686F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateWinREServicingManager` | 1 (0x1) | Exported Function | 0x0000000180004150 | 0x00004150
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateWinREServicingManager` | 1 | Exported Function
 
 
 ## Signature

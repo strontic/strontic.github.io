@@ -24,11 +24,11 @@ PE256 | `566AD072B279E4C63CADFC3DDBE46EE4968D800B1D373F8A7E298FEA890D0435`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x73003d00 | 0x00003d00
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x73003790 | 0x00003790
-`ProcessGroupPolicy` | 1 (0x1) | Exported Function | 0x73010dd0 | 0x00010dd0
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessGroupPolicy` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

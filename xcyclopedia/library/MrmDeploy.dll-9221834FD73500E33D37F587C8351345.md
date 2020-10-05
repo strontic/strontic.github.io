@@ -24,17 +24,17 @@ PE256 | `BE1701170DC192D6434DCEDD57E7F592DE943B180861F8B316EA1E9F6F64C600`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x10007b10 | 0x00007b10
-`GetCanonicalMergedPriFileName` | 2 (0x2) | Exported Function | 0x10008230 | 0x00008230
-`GetCanonicalMergedPriFileNameForPackages` | 3 (0x3) | Exported Function | 0x10008220 | 0x00008220
-`GetInitInfoByPackageFullName` | 4 (0x4) | Exported Function | 0x10008630 | 0x00008630
-`GetOrCreatePriFileForApplicablePackages` | 5 (0x5) | Exported Function | 0x100083e0 | 0x000083e0
-`GetOrCreatePriFileForAvailablePackages` | 6 (0x6) | Exported Function | 0x10008470 | 0x00008470
-`GetOrCreatePriFileForRelatedPackages` | 7 (0x7) | Exported Function | 0x100082e0 | 0x000082e0
-`GetPriFileForPackageOnly` | 8 (0x8) | Exported Function | 0x10008500 | 0x00008500
-`MergeRelatedPriFiles` | 9 (0x9) | Exported Function | 0x100087b0 | 0x000087b0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetOrCreatePriFileForRelatedPackages` | 7 | Exported Function
+`GetOrCreatePriFileForAvailablePackages` | 6 | Exported Function
+`MergeRelatedPriFiles` | 9 | Exported Function
+`GetPriFileForPackageOnly` | 8 | Exported Function
+`GetOrCreatePriFileForApplicablePackages` | 5 | Exported Function
+`GetCanonicalMergedPriFileName` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
+`GetInitInfoByPackageFullName` | 4 | Exported Function
+`GetCanonicalMergedPriFileNameForPackages` | 3 | Exported Function
 
 
 ## Signature

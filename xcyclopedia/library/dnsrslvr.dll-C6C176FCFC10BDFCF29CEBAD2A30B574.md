@@ -24,12 +24,12 @@ PE256 | `17011C6FD68EB7E967A45CAE70ADD84E4A14D34C4BDE948F61506FBAECD28A72`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LoadGPExtension` | 1 (0x1) | Exported Function | 0x0000000180021450 | 0x00021450
-`Reg_DoRegisterAdapter` | 2 (0x2) | Exported Function | 0x000000018000c740 | 0x0000c740
-`ServiceMain` | 3 (0x3) | Exported Function | 0x0000000180010ae0 | 0x00010ae0
-`SvchostPushServiceGlobals` | 4 (0x4) | Exported Function | 0x0000000180014490 | 0x00014490
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 3 | Exported Function
+`SvchostPushServiceGlobals` | 4 | Exported Function
+`LoadGPExtension` | 1 | Exported Function
+`Reg_DoRegisterAdapter` | 2 | Exported Function
 
 
 ## Signature

@@ -24,103 +24,103 @@ PE256 | `88F750FA9FDDA459FAE1D72B527E5201565B15F1D9851BC4353073E1256F7BAE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetNumofSupportedMLDs` | 1 (0x1) | Exported Function | 0x0000000180003e30 | 0x00003e30
-`RtmCodecsCreateMjpegDec` | 69 (0x45) | Exported Function | 0x00000001800057f0 | 0x000057f0
-`RtmCodecsCloseVideoMomentConverter` | 68 (0x44) | Exported Function | 0x00000001800cb7a0 | 0x000cb7a0
-`RtmCodecGetFrameCountersFromPacsi` | 67 (0x43) | Exported Function | 0x00000001800057d0 | 0x000057d0
-`RtcPalVideoSourceStop` | 66 (0x42) | Exported Function | 0x0000000180005790 | 0x00005790
-`RtcPalVideoSourceStart` | 65 (0x41) | Exported Function | 0x0000000180005750 | 0x00005750
-`RtcPalVideoSourceSetVideoCropInfo` | 64 (0x40) | Exported Function | 0x0000000180005600 | 0x00005600
-`RtcPalVideoSourceSetRotationAngle` | 63 (0x3f) | Exported Function | 0x0000000180005570 | 0x00005570
-`RtcPalVideoSourceSetCurrentFormat` | 62 (0x3e) | Exported Function | 0x0000000180005520 | 0x00005520
-`RtcPalVideoSourceRestart` | 61 (0x3d) | Exported Function | 0x00000001800054e0 | 0x000054e0
-`RtmCodecsCreateVideoMomentConverter` | 70 (0x46) | Exported Function | 0x00000001800057e0 | 0x000057e0
-`RtcPalVideoSourceResetStatistics` | 60 (0x3c) | Exported Function | 0x00000001800054a0 | 0x000054a0
-`RtcPalVideoSourceIsScreenScraper` | 58 (0x3a) | Exported Function | 0x00000001800053d0 | 0x000053d0
-`RtcPalVideoSourceGetSupportedFormatList` | 57 (0x39) | Exported Function | 0x0000000180005360 | 0x00005360
-`RtcPalVideoSourceGetStatistics` | 56 (0x38) | Exported Function | 0x0000000180005310 | 0x00005310
-`RtcPalVideoSourceGetLastFrameInfo` | 55 (0x37) | Exported Function | 0x00000001800052c0 | 0x000052c0
-`RtcPalVideoSourceGetDefaultRotationAngle` | 54 (0x36) | Exported Function | 0x0000000180005230 | 0x00005230
-`RtcPalVideoSourceGetCurrentFormat` | 53 (0x35) | Exported Function | 0x00000001800051e0 | 0x000051e0
-`RtcPalVideoSourceDeletePreview` | 52 (0x34) | Exported Function | 0x0000000180005130 | 0x00005130
-`RtcPalVideoSourceDeleteEncoder` | 51 (0x33) | Exported Function | 0x0000000180005080 | 0x00005080
-`RtcPalVideoSourceDeleteAnalyzer` | 50 (0x32) | Exported Function | 0x0000000180004fd0 | 0x00004fd0
-`RtcPalVideoSourceQueryEncodeCapabilities` | 59 (0x3b) | Exported Function | 0x0000000180005440 | 0x00005440
-`RtcPalVideoSourceCreatePreview` | 49 (0x31) | Exported Function | 0x0000000180004ed0 | 0x00004ed0
-`RtmCodecsDecodeMjpegFrame` | 71 (0x47) | Exported Function | 0x00000001800057f0 | 0x000057f0
-`RtmCodecsGetGfxMetrics` | 73 (0x49) | Exported Function | 0x0000000180078eb0 | 0x00078eb0
-`RtmVPConvert` | 92 (0x5c) | Exported Function | 0x0000000180005cc0 | 0x00005cc0
-`RtmVideoAnalyzerEnumerate` | 95 (0x5f) | Exported Function | 0x0000000180005dc0 | 0x00005dc0
-`RtmCodecsVscaGetStreamCountStatistics` | 91 (0x5b) | Exported Function | 0x0000000180005c80 | 0x00005c80
-`RtmCodecsVscaGetPacsiInfo` | 90 (0x5a) | Exported Function | 0x0000000180005c70 | 0x00005c70
-`RtmCodecsVscaGetManager` | 89 (0x59) | Exported Function | 0x0000000180005bb0 | 0x00005bb0
-`RtmCodecsVscaGetEncodingMetrics` | 88 (0x58) | Exported Function | 0x0000000180005b90 | 0x00005b90
-`RtmCodecsVscaGetDecodingMetrics` | 87 (0x57) | Exported Function | 0x0000000180005b30 | 0x00005b30
-`RtmCodecsVscaDestroyEncodedUnit` | 86 (0x56) | Exported Function | 0x0000000180005b20 | 0x00005b20
-`RtmCodecsVscaCreatePacsiGenerator` | 85 (0x55) | Exported Function | 0x0000000180005ab0 | 0x00005ab0
-`RtmCodecsDestroyMjpegDec` | 72 (0x48) | Exported Function | 0x00000001800057f0 | 0x000057f0
-`RtmCodecsVscaCreateFecUtility` | 84 (0x54) | Exported Function | 0x0000000180005a40 | 0x00005a40
-`RtmCodecsVideoFrameAllocateRawFrame` | 82 (0x52) | Exported Function | 0x00000001800059c0 | 0x000059c0
-`RtmCodecsVideoFrameAllocateFrameWrapper` | 81 (0x51) | Exported Function | 0x00000001800059b0 | 0x000059b0
-`RtmCodecsUpdateMjpegMetrics` | 80 (0x50) | Exported Function | 0x0000000180005990 | 0x00005990
-`RtmCodecsQueryVideoProcessorCapability` | 79 (0x4f) | Exported Function | 0x0000000180084d00 | 0x00084d00
-`RtmCodecsPalStartup` | 78 (0x4e) | Exported Function | 0x0000000180005870 | 0x00005870
-`RtmCodecsPalComplete` | 77 (0x4d) | Exported Function | 0x0000000180005800 | 0x00005800
-`RtmCodecsMjpegIsFormatSupported` | 76 (0x4c) | Exported Function | 0x00000001800c7c40 | 0x000c7c40
-`RtmCodecsMjpegGetOutSize` | 75 (0x4b) | Exported Function | 0x00000001800057f0 | 0x000057f0
-`RtmCodecsGetMjpegFrameInfo` | 74 (0x4a) | Exported Function | 0x00000001800057f0 | 0x000057f0
-`RtmCodecsVideoMomentConvert` | 83 (0x53) | Exported Function | 0x00000001800cb7a0 | 0x000cb7a0
-`RtmVPCreate` | 93 (0x5d) | Exported Function | 0x0000000180005d30 | 0x00005d30
-`RtcPalVideoSourceCreateEncoder` | 48 (0x30) | Exported Function | 0x0000000180004dc0 | 0x00004dc0
-`RtcPalVideoSourceControlGetValue` | 46 (0x2e) | Exported Function | 0x0000000180004d00 | 0x00004d00
-`MLEProcessOutput` | 21 (0x15) | Exported Function | 0x0000000180004810 | 0x00004810
-`MLEProcessInput` | 20 (0x14) | Exported Function | 0x0000000180004800 | 0x00004800
-`MLEIsColorFormatSupported` | 19 (0x13) | Exported Function | 0x00000001800047f0 | 0x000047f0
-`MLEInstantiate` | 18 (0x12) | Exported Function | 0x0000000180004630 | 0x00004630
-`MLEInitializeEncoder` | 17 (0x11) | Exported Function | 0x0000000180004620 | 0x00004620
-`MLEGetParameter` | 16 (0x10) | Exported Function | 0x0000000180004610 | 0x00004610
-`MLEGetHeader` | 15 (0xf) | Exported Function | 0x0000000180004600 | 0x00004600
-`MLEEnumerate` | 14 (0xe) | Exported Function | 0x0000000180004480 | 0x00004480
-`MLEDestroy` | 13 (0xd) | Exported Function | 0x00000001800043b0 | 0x000043b0
-`MLEQueryFrameBeingEncoded` | 22 (0x16) | Exported Function | 0x0000000180004820 | 0x00004820
-`MLECallTestApi` | 12 (0xc) | Exported Function | 0x0000000180004390 | 0x00004390
-`MLDProcessInput` | 10 (0xa) | Exported Function | 0x0000000180004250 | 0x00004250
-`MLDIsHWDecoderResourceAvailable` | 9 (0x9) | Exported Function | 0x00000001800cb7a0 | 0x000cb7a0
-`MLDInstantiateDecoder` | 8 (0x8) | Exported Function | 0x00000001800041d0 | 0x000041d0
-`MLDInstantiate` | 7 (0x7) | Exported Function | 0x00000001800040d0 | 0x000040d0
-`MLDGetQueueStatus` | 6 (0x6) | Exported Function | 0x00000001800040c0 | 0x000040c0
-`MLDGetParameter` | 5 (0x5) | Exported Function | 0x0000000180004050 | 0x00004050
-`MLDEnumerate` | 4 (0x4) | Exported Function | 0x0000000180003f80 | 0x00003f80
-`MLDDestroy` | 3 (0x3) | Exported Function | 0x0000000180003eb0 | 0x00003eb0
-`MLDCallTestApi` | 2 (0x2) | Exported Function | 0x0000000180003e80 | 0x00003e80
-`MLDSetParameter` | 11 (0xb) | Exported Function | 0x00000001800042a0 | 0x000042a0
-`RtcPalVideoSourceCreateAnalyzer` | 47 (0x2f) | Exported Function | 0x0000000180004d10 | 0x00004d10
-`MLEQuerySupportedInputFormats` | 23 (0x17) | Exported Function | 0x0000000180004830 | 0x00004830
-`RtcPalGetComponentStateTrackerBlob` | 25 (0x19) | Exported Function | 0x00000001800049a0 | 0x000049a0
-`RtcPalVideoSourceControlGetState` | 45 (0x2d) | Exported Function | 0x0000000180004cf0 | 0x00004cf0
-`RtcPalVideoSourceCallRsmTestApi` | 44 (0x2c) | Exported Function | 0x0000000180004c30 | 0x00004c30
-`RtcPalVideoSourceApplyCurrentFormat` | 43 (0x2b) | Exported Function | 0x00000001800054e0 | 0x000054e0
-`RtcPalVideoPreviewStop` | 42 (0x2a) | Exported Function | 0x0000000180004be0 | 0x00004be0
-`RtcPalVideoPreviewStart` | 41 (0x29) | Exported Function | 0x0000000180004b90 | 0x00004b90
-`RtcPalVideoPreviewSetCurrentFormat` | 40 (0x28) | Exported Function | 0x0000000180004b30 | 0x00004b30
-`RtcPalVideoPreviewGetSupportedFormatList` | 39 (0x27) | Exported Function | 0x0000000180004ad0 | 0x00004ad0
-`RtcPalVideoPreviewGetCurrentFormat` | 38 (0x26) | Exported Function | 0x0000000180004a70 | 0x00004a70
-`RtcPalVideoPlatformUnregisterVirtualSource` | 37 (0x25) | Exported Function | 0x0000000180004a60 | 0x00004a60
-`MLESetParameter` | 24 (0x18) | Exported Function | 0x0000000180004840 | 0x00004840
-`RtcPalVideoPlatformRegisterVirtualSource` | 36 (0x24) | Exported Function | 0x0000000180004a50 | 0x00004a50
-`RtcPalVideoPlatformOpenSource` | 34 (0x22) | Exported Function | 0x0000000180004a30 | 0x00004a30
-`RtcPalVideoPlatformOpen` | 33 (0x21) | Exported Function | 0x0000000180004a20 | 0x00004a20
-`RtcPalVideoPlatformGetMediaExtension` | 32 (0x20) | Exported Function | 0x0000000180004a10 | 0x00004a10
-`RtcPalVideoPlatformCloseSource` | 31 (0x1f) | Exported Function | 0x0000000180004a00 | 0x00004a00
-`RtcPalVideoPlatformClose` | 30 (0x1e) | Exported Function | 0x00000001800049f0 | 0x000049f0
-`RtcPalVideoConfigurationSetInteger` | 29 (0x1d) | Exported Function | 0x00000001800049e0 | 0x000049e0
-`RtcPalVideoConfigurationSetBoolean` | 28 (0x1c) | Exported Function | 0x00000001800049d0 | 0x000049d0
-`RtcPalVideoConfigurationReset` | 27 (0x1b) | Exported Function | 0x00000001800049c0 | 0x000049c0
-`RtcPalGetVirtualVideoSourceManager` | 26 (0x1a) | Exported Function | 0x00000001800049b0 | 0x000049b0
-`RtcPalVideoPlatformQuerySourceList` | 35 (0x23) | Exported Function | 0x0000000180004a40 | 0x00004a40
-`RtmVPDestroy` | 94 (0x5e) | Exported Function | 0x0000000180005d70 | 0x00005d70
+Function Name | Ordinal | Type
+-- | -- | --
+`RtcPalVideoSourceSetVideoCropInfo` | 64 | Exported Function
+`RtcPalVideoSourceStart` | 65 | Exported Function
+`RtcPalVideoSourceSetRotationAngle` | 63 | Exported Function
+`RtcPalVideoSourceRestart` | 61 | Exported Function
+`RtcPalVideoSourceSetCurrentFormat` | 62 | Exported Function
+`RtcPalVideoSourceStop` | 66 | Exported Function
+`RtmCodecsCreateVideoMomentConverter` | 70 | Exported Function
+`RtmCodecsDecodeMjpegFrame` | 71 | Exported Function
+`RtmCodecsCreateMjpegDec` | 69 | Exported Function
+`RtmCodecGetFrameCountersFromPacsi` | 67 | Exported Function
+`RtmCodecsCloseVideoMomentConverter` | 68 | Exported Function
+`RtcPalVideoSourceResetStatistics` | 60 | Exported Function
+`RtcPalVideoSourceDeletePreview` | 52 | Exported Function
+`RtcPalVideoSourceGetCurrentFormat` | 53 | Exported Function
+`RtcPalVideoSourceDeleteEncoder` | 51 | Exported Function
+`RtcPalVideoSourceCreatePreview` | 49 | Exported Function
+`RtcPalVideoSourceDeleteAnalyzer` | 50 | Exported Function
+`RtcPalVideoSourceGetDefaultRotationAngle` | 54 | Exported Function
+`RtcPalVideoSourceIsScreenScraper` | 58 | Exported Function
+`RtcPalVideoSourceQueryEncodeCapabilities` | 59 | Exported Function
+`RtcPalVideoSourceGetSupportedFormatList` | 57 | Exported Function
+`RtcPalVideoSourceGetLastFrameInfo` | 55 | Exported Function
+`RtcPalVideoSourceGetStatistics` | 56 | Exported Function
+`RtmCodecsDestroyMjpegDec` | 72 | Exported Function
+`RtmCodecsVscaGetEncodingMetrics` | 88 | Exported Function
+`RtmCodecsVscaGetManager` | 89 | Exported Function
+`RtmCodecsVscaGetDecodingMetrics` | 87 | Exported Function
+`RtmCodecsVscaCreatePacsiGenerator` | 85 | Exported Function
+`RtmCodecsVscaDestroyEncodedUnit` | 86 | Exported Function
+`RtmCodecsVscaGetPacsiInfo` | 90 | Exported Function
+`RtmVPCreate` | 93 | Exported Function
+`RtmVPDestroy` | 94 | Exported Function
+`RtmVPConvert` | 92 | Exported Function
+`RtmCodecsVscaGetStreamCountStatistics` | 91 | Exported Function
+`RtmVideoAnalyzerEnumerate` | 95 | Exported Function
+`RtmCodecsVscaCreateFecUtility` | 84 | Exported Function
+`RtmCodecsMjpegIsFormatSupported` | 76 | Exported Function
+`RtmCodecsPalComplete` | 77 | Exported Function
+`RtmCodecsMjpegGetOutSize` | 75 | Exported Function
+`RtmCodecsGetGfxMetrics` | 73 | Exported Function
+`RtmCodecsGetMjpegFrameInfo` | 74 | Exported Function
+`RtmCodecsPalStartup` | 78 | Exported Function
+`RtmCodecsVideoFrameAllocateRawFrame` | 82 | Exported Function
+`RtmCodecsVideoMomentConvert` | 83 | Exported Function
+`RtmCodecsVideoFrameAllocateFrameWrapper` | 81 | Exported Function
+`RtmCodecsQueryVideoProcessorCapability` | 79 | Exported Function
+`RtmCodecsUpdateMjpegMetrics` | 80 | Exported Function
+`RtcPalVideoSourceCreateEncoder` | 48 | Exported Function
+`MLEGetParameter` | 16 | Exported Function
+`MLEInitializeEncoder` | 17 | Exported Function
+`MLEGetHeader` | 15 | Exported Function
+`MLEDestroy` | 13 | Exported Function
+`MLEEnumerate` | 14 | Exported Function
+`MLEInstantiate` | 18 | Exported Function
+`MLEQueryFrameBeingEncoded` | 22 | Exported Function
+`MLEQuerySupportedInputFormats` | 23 | Exported Function
+`MLEProcessOutput` | 21 | Exported Function
+`MLEIsColorFormatSupported` | 19 | Exported Function
+`MLEProcessInput` | 20 | Exported Function
+`MLECallTestApi` | 12 | Exported Function
+`MLDEnumerate` | 4 | Exported Function
+`MLDGetParameter` | 5 | Exported Function
+`MLDDestroy` | 3 | Exported Function
+`GetNumofSupportedMLDs` | 1 | Exported Function
+`MLDCallTestApi` | 2 | Exported Function
+`MLDGetQueueStatus` | 6 | Exported Function
+`MLDProcessInput` | 10 | Exported Function
+`MLDSetParameter` | 11 | Exported Function
+`MLDIsHWDecoderResourceAvailable` | 9 | Exported Function
+`MLDInstantiate` | 7 | Exported Function
+`MLDInstantiateDecoder` | 8 | Exported Function
+`MLESetParameter` | 24 | Exported Function
+`RtcPalVideoPreviewSetCurrentFormat` | 40 | Exported Function
+`RtcPalVideoPreviewStart` | 41 | Exported Function
+`RtcPalVideoPreviewGetSupportedFormatList` | 39 | Exported Function
+`RtcPalVideoPlatformUnregisterVirtualSource` | 37 | Exported Function
+`RtcPalVideoPreviewGetCurrentFormat` | 38 | Exported Function
+`RtcPalVideoPreviewStop` | 42 | Exported Function
+`RtcPalVideoSourceControlGetValue` | 46 | Exported Function
+`RtcPalVideoSourceCreateAnalyzer` | 47 | Exported Function
+`RtcPalVideoSourceControlGetState` | 45 | Exported Function
+`RtcPalVideoSourceApplyCurrentFormat` | 43 | Exported Function
+`RtcPalVideoSourceCallRsmTestApi` | 44 | Exported Function
+`RtcPalVideoPlatformRegisterVirtualSource` | 36 | Exported Function
+`RtcPalVideoConfigurationSetBoolean` | 28 | Exported Function
+`RtcPalVideoConfigurationSetInteger` | 29 | Exported Function
+`RtcPalVideoConfigurationReset` | 27 | Exported Function
+`RtcPalGetComponentStateTrackerBlob` | 25 | Exported Function
+`RtcPalGetVirtualVideoSourceManager` | 26 | Exported Function
+`RtcPalVideoPlatformClose` | 30 | Exported Function
+`RtcPalVideoPlatformOpenSource` | 34 | Exported Function
+`RtcPalVideoPlatformQuerySourceList` | 35 | Exported Function
+`RtcPalVideoPlatformOpen` | 33 | Exported Function
+`RtcPalVideoPlatformCloseSource` | 31 | Exported Function
+`RtcPalVideoPlatformGetMediaExtension` | 32 | Exported Function
 
 
 ## Signature

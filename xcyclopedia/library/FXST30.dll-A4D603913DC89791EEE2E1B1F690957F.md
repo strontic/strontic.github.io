@@ -24,18 +24,18 @@ PE256 | `ED9C529EE562D7D3F69A51AF5478C102D217102173B99CD8F7C53FD0172718AD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x00000001644c88a0 | 0x000088a0
-`FaxDevAbortOperation` | 2 (0x2) | Exported Function | 0x00000001644c1190 | 0x00001190
-`FaxDevEndJob` | 3 (0x3) | Exported Function | 0x00000001644c1040 | 0x00001040
-`FaxDevInitialize` | 4 (0x4) | Exported Function | 0x00000001644c1020 | 0x00001020
-`FaxDevReceive` | 5 (0x5) | Exported Function | 0x00000001644c10f0 | 0x000010f0
-`FaxDevReportStatus` | 6 (0x6) | Exported Function | 0x00000001644c1170 | 0x00001170
-`FaxDevSend` | 7 (0x7) | Exported Function | 0x00000001644c1050 | 0x00001050
-`FaxDevShutdown` | 8 (0x8) | Exported Function | 0x00000001644c1180 | 0x00001180
-`FaxDevStartJob` | 9 (0x9) | Exported Function | 0x00000001644c1030 | 0x00001030
-`FaxExtInitializeConfig` | 10 (0xa) | Exported Function | 0x00000001644cc8b0 | 0x0000c8b0
+Function Name | Ordinal | Type
+-- | -- | --
+`FaxDevSend` | 7 | Exported Function
+`FaxDevReportStatus` | 6 | Exported Function
+`FaxDevShutdown` | 8 | Exported Function
+`FaxExtInitializeConfig` | 10 | Exported Function
+`FaxDevStartJob` | 9 | Exported Function
+`FaxDevAbortOperation` | 2 | Exported Function
+`DllMain` | 1 | Exported Function
+`FaxDevEndJob` | 3 | Exported Function
+`FaxDevReceive` | 5 | Exported Function
+`FaxDevInitialize` | 4 | Exported Function
 
 
 ## Signature

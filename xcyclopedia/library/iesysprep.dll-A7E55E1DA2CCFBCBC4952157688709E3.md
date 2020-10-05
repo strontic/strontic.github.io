@@ -24,13 +24,13 @@ PE256 | `54C0EA8A34AABC446B6B4F991552A9C35962F743CCB9AE1E4221950823DC4994`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Sysprep_Cleanup_IE` | 1 (0x1) | Exported Function | 0x00000001800028c0 | 0x000028c0
-`Sysprep_Generalize_IE` | 2 (0x2) | Exported Function | 0x0000000180002b00 | 0x00002b00
-`Sysprep_Offline_Specialize_IE` | 3 (0x3) | Exported Function | 0x0000000180002da0 | 0x00002da0
-`Sysprep_Online_Specialize_IE` | 4 (0x4) | Exported Function | 0x0000000180002c60 | 0x00002c60
-`Sysprep_Specialize_IE` | 5 (0x5) | Exported Function | 0x0000000180002b10 | 0x00002b10
+Function Name | Ordinal | Type
+-- | -- | --
+`Sysprep_Online_Specialize_IE` | 4 | Exported Function
+`Sysprep_Specialize_IE` | 5 | Exported Function
+`Sysprep_Offline_Specialize_IE` | 3 | Exported Function
+`Sysprep_Cleanup_IE` | 1 | Exported Function
+`Sysprep_Generalize_IE` | 2 | Exported Function
 
 
 ## Signature

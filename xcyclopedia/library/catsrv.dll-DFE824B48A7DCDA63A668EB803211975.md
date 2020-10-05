@@ -24,21 +24,21 @@ PE256 | `73E138242AB6EDAC7C602470C9BE6CCBDB222A77793D4BBBFAAA691C96354A16`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateComponentLibraryTS` | 2 (0x2) | Exported Function | 0x0000000180022850 | 0x00022850
-`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x0000000180001820 | 0x00001820
-`DllGetClassObject` | 10 (0xa) | Exported Function | 0x0000000180001850 | 0x00001850
-`DllRegisterServer` | 11 (0xb) | Exported Function | 0x00000001800018a0 | 0x000018a0
-`DllUnregisterServer` | 12 (0xc) | Exported Function | 0x0000000180001990 | 0x00001990
-`GetAppImport` | 13 (0xd) | Exported Function | 0x0000000180001a30 | 0x00001a30
-`GetCatalogCRMClerk` | 3 (0x3) | Exported Function | 0x00000001800243d0 | 0x000243d0
-`long __cdecl CancelWriteICR(struct IComponentRecords * __ptr64 * __ptr64)` | 1 (0x1) | Exported Function | 0x00000001800015f0 | 0x000015f0
-`long __cdecl GetReadICR(int,struct IComponentRecords * __ptr64 * __ptr64)` | 4 (0x4) | Exported Function | 0x0000000180001600 | 0x00001600
-`long __cdecl GetWriteICR(struct IComponentRecords * __ptr64 * __ptr64)` | 5 (0x5) | Exported Function | 0x00000001800015d0 | 0x000015d0
-`long __cdecl SaveWriteICR(struct IComponentRecords * __ptr64 * __ptr64)` | 8 (0x8) | Exported Function | 0x00000001800015e0 | 0x000015e0
-`OpenComponentLibraryTS` | 6 (0x6) | Exported Function | 0x00000001800228d0 | 0x000228d0
-`void __cdecl ReleaseReadICR(struct IComponentRecords * __ptr64 * __ptr64)` | 7 (0x7) | Exported Function | 0x0000000180001640 | 0x00001640
+Function Name | Ordinal | Type
+-- | -- | --
+`long __cdecl GetWriteICR(struct IComponentRecords * __ptr64 * __ptr64)` | 5 | Exported Function
+`long __cdecl GetReadICR(int,struct IComponentRecords * __ptr64 * __ptr64)` | 4 | Exported Function
+`long __cdecl CancelWriteICR(struct IComponentRecords * __ptr64 * __ptr64)` | 1 | Exported Function
+`void __cdecl ReleaseReadICR(struct IComponentRecords * __ptr64 * __ptr64)` | 7 | Exported Function
+`OpenComponentLibraryTS` | 6 | Exported Function
+`long __cdecl SaveWriteICR(struct IComponentRecords * __ptr64 * __ptr64)` | 8 | Exported Function
+`GetCatalogCRMClerk` | 3 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`CreateComponentLibraryTS` | 2 | Exported Function
+`GetAppImport` | 13 | Exported Function
+`DllUnregisterServer` | 12 | Exported Function
+`DllRegisterServer` | 11 | Exported Function
 
 
 ## Signature

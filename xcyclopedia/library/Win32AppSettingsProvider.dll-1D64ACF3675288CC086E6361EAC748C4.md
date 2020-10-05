@@ -23,12 +23,12 @@ PE256 | `52792A8BFB5D388C5F0665E3229320F36243E9E5CAFCF5132C74478CAE7AD9A3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ApplyProviderSettings` | 1 (0x1) | Exported Function | 0x00000001800054d0 | 0x000054d0
-`GatherProviderSettings` | 2 (0x2) | Exported Function | 0x0000000180005360 | 0x00005360
-`RegisterChangeNotifications` | 3 (0x3) | Exported Function | 0x00000001800055d0 | 0x000055d0
-`UnregisterChangeNotifications` | 4 (0x4) | Exported Function | 0x0000000180005640 | 0x00005640
+Function Name | Ordinal | Type
+-- | -- | --
+`RegisterChangeNotifications` | 3 | Exported Function
+`UnregisterChangeNotifications` | 4 | Exported Function
+`ApplyProviderSettings` | 1 | Exported Function
+`GatherProviderSettings` | 2 | Exported Function
 
 
 ## Signature

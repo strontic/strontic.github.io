@@ -24,10 +24,10 @@ PE256 | `B285F483A3D0AF629E8A178BBAAA8E5EF084697BD73D3BC63DC77A74DB9CF1D6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018001d3f0 | 0x0001d3f0
-`GetDesktopSettingsEnvironment` | 2 (0x2) | Exported Function | 0x0000000180008ef0 | 0x00008ef0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetDesktopSettingsEnvironment` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `11BA147D344F820E1C84DF0C59EB72E5B160845AF904001FF5353CAC5758E883`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`VpnWscFreeProductInfo` | 1 (0x1) | Exported Function | 0x00000001800012d0 | 0x000012d0
-`VpnWscGetProductInfo` | 2 (0x2) | Exported Function | 0x0000000180001130 | 0x00001130
+Function Name | Ordinal | Type
+-- | -- | --
+`VpnWscGetProductInfo` | 2 | Exported Function
+`VpnWscFreeProductInfo` | 1 | Exported Function
 
 
 ## Signature

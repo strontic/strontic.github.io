@@ -24,20 +24,20 @@ PE256 | `B0A5DDBD90B1256452C21FA10671E2B75680965E67324D65D04DBE78EB173967`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10018660 | 0x00018660
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x100184a0 | 0x000184a0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x100184c0 | 0x000184c0
-`DllMain` | 4 (0x4) | Exported Function | 0x10018550 | 0x00018550
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x10018530 | 0x00018530
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x10018510 | 0x00018510
-`RadioDeviceCreate` | 7 (0x7) | Exported Function | 0x10018d40 | 0x00018d40
-`RadioDeviceDelete` | 8 (0x8) | Exported Function | 0x10018e10 | 0x00018e10
-`RadioDeviceStart` | 9 (0x9) | Exported Function | 0x10018ea0 | 0x00018ea0
-`RadioDeviceStop` | 10 (0xa) | Exported Function | 0x10018f30 | 0x00018f30
-`StartRadioMonitor` | 11 (0xb) | Exported Function | 0x10019d90 | 0x00019d90
-`StopRadioMonitor` | 12 (0xc) | Exported Function | 0x10019e30 | 0x00019e30
+Function Name | Ordinal | Type
+-- | -- | --
+`RadioDeviceStart` | 9 | Exported Function
+`RadioDeviceDelete` | 8 | Exported Function
+`RadioDeviceCreate` | 7 | Exported Function
+`StopRadioMonitor` | 12 | Exported Function
+`StartRadioMonitor` | 11 | Exported Function
+`RadioDeviceStop` | 10 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllMain` | 4 | Exported Function
 
 
 ## Signature

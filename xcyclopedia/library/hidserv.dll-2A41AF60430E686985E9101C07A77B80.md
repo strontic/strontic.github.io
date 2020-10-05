@@ -24,10 +24,10 @@ PE256 | `505E887922B4C1CFE446482B652AEC6F65D2B8086EFB69A51644362E4720483C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InstallHidserv` | 1 (0x1) | Exported Function | 0x0000000180001120 | 0x00001120
-`ServiceMain` | 2 (0x2) | Exported Function | 0x0000000180001510 | 0x00001510
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 2 | Exported Function
+`InstallHidserv` | 1 | Exported Function
 
 
 ## Signature

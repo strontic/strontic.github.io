@@ -24,43 +24,43 @@ PE256 | `B8B558F60F1A0DB5AFE876313FAFEDE228FED8A1EE5E743D3DD244242EE43A15`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ASFAddPresDelta` | 15 (0xf) | Exported Function | 0x1002b840 | 0x0002b840
-`ASFGUIDToCodecID` | 18 (0x12) | Exported Function | 0x10033890 | 0x00033890
-`ASFPresDeltaTimeToTime` | 28 (0x1c) | Exported Function | 0x1002b050 | 0x0002b050
-`ASFPresDeltaToFull` | 29 (0x1d) | Exported Function | 0x1002b5a0 | 0x0002b5a0
-`ASFPresFullToDelta` | 30 (0x1e) | Exported Function | 0x1002b5f0 | 0x0002b5f0
-`ASFPresTimeToSendTime` | 31 (0x1f) | Exported Function | 0x1002b550 | 0x0002b550
-`ASFPresTimeToTime` | 32 (0x20) | Exported Function | 0x1002aeb0 | 0x0002aeb0
-`ASFGUIDFromCodecID` | 17 (0x11) | Exported Function | 0x10033860 | 0x00033860
-`ASFReadHeaderFromFile` | 19 (0x13) | Exported Function | 0x10009670 | 0x00009670
-`ASFSendTimeToPresTime` | 34 (0x22) | Exported Function | 0x1002b510 | 0x0002b510
-`ASFSendTimeToTime` | 35 (0x23) | Exported Function | 0x1002af80 | 0x0002af80
-`ASFSetDataUnitInfo` | 36 (0x24) | Exported Function | 0x10006470 | 0x00006470
-`ASFTimeToPresDeltaTime` | 37 (0x25) | Exported Function | 0x1002b440 | 0x0002b440
-`ASFTimeToPresTime` | 38 (0x26) | Exported Function | 0x1002b100 | 0x0002b100
-`ASFTimeToSendTime` | 39 (0x27) | Exported Function | 0x1002b290 | 0x0002b290
-`ASFReadHeaderFromFileHandle` | 33 (0x21) | Exported Function | 0x1002d140 | 0x0002d140
-`ASFWriteHeaderToFile` | 22 (0x16) | Exported Function | 0x10009670 | 0x00009670
-`ASFGetTimeBase` | 27 (0x1b) | Exported Function | 0x1002ae30 | 0x0002ae30
-`ASFGetRootObject` | 7 (0x7) | Exported Function | 0x1002da50 | 0x0002da50
-`ASFAddSendDelta` | 16 (0x10) | Exported Function | 0x1002b890 | 0x0002b890
-`ASFCalculatePresDelta` | 20 (0x14) | Exported Function | 0x1002b750 | 0x0002b750
-`ASFCreateBitrateTracker` | 21 (0x15) | Exported Function | 0x1002ba60 | 0x0002ba60
-`ASFCreateIndexMaker` | 13 (0xd) | Exported Function | 0x1002bab0 | 0x0002bab0
-`ASFCreateIndexMakerFileSink` | 14 (0xe) | Exported Function | 0x1002cbf0 | 0x0002cbf0
-`ASFCreateIOMonitor` | 23 (0x17) | Exported Function | 0x10006450 | 0x00006450
-`ASFGetStreamPropertiesObject` | 8 (0x8) | Exported Function | 0x1002ddd0 | 0x0002ddd0
-`ASFCreateLibrary` | 5 (0x5) | Exported Function | 0x1002d540 | 0x0002d540
-`ASFCreateStreamSelector` | 26 (0x1a) | Exported Function | 0x1002f300 | 0x0002f300
-`ASFFindHeaderObject` | 9 (0x9) | Exported Function | 0x1002d840 | 0x0002d840
-`ASFFindRootObject` | 10 (0xa) | Exported Function | 0x1002dc30 | 0x0002dc30
-`ASFFindStreamPropertiesObject` | 11 (0xb) | Exported Function | 0x1002e0f0 | 0x0002e0f0
-`ASFGetDataUnitInfo` | 24 (0x18) | Exported Function | 0x10006470 | 0x00006470
-`ASFGetHeaderObject` | 6 (0x6) | Exported Function | 0x1002d5c0 | 0x0002d5c0
-`ASFCreateMediaObjectIndexMaker` | 25 (0x19) | Exported Function | 0x1002e3e0 | 0x0002e3e0
-`CreateAsfCellPoolAllocator` | 12 (0xc) | Exported Function | 0x10005c50 | 0x00005c50
+Function Name | Ordinal | Type
+-- | -- | --
+`ASFPresTimeToSendTime` | 31 | Exported Function
+`ASFPresFullToDelta` | 30 | Exported Function
+`ASFReadHeaderFromFile` | 19 | Exported Function
+`ASFPresTimeToTime` | 32 | Exported Function
+`ASFGUIDToCodecID` | 18 | Exported Function
+`ASFGUIDFromCodecID` | 17 | Exported Function
+`ASFPresDeltaToFull` | 29 | Exported Function
+`ASFPresDeltaTimeToTime` | 28 | Exported Function
+`ASFReadHeaderFromFileHandle` | 33 | Exported Function
+`ASFTimeToSendTime` | 39 | Exported Function
+`ASFTimeToPresTime` | 38 | Exported Function
+`CreateAsfCellPoolAllocator` | 12 | Exported Function
+`ASFWriteHeaderToFile` | 22 | Exported Function
+`ASFSendTimeToTime` | 35 | Exported Function
+`ASFSendTimeToPresTime` | 34 | Exported Function
+`ASFTimeToPresDeltaTime` | 37 | Exported Function
+`ASFSetDataUnitInfo` | 36 | Exported Function
+`ASFGetTimeBase` | 27 | Exported Function
+`ASFCreateIndexMakerFileSink` | 14 | Exported Function
+`ASFCreateIndexMaker` | 13 | Exported Function
+`ASFCreateLibrary` | 5 | Exported Function
+`ASFCreateIOMonitor` | 23 | Exported Function
+`ASFAddSendDelta` | 16 | Exported Function
+`ASFAddPresDelta` | 15 | Exported Function
+`ASFCreateBitrateTracker` | 21 | Exported Function
+`ASFCalculatePresDelta` | 20 | Exported Function
+`ASFCreateMediaObjectIndexMaker` | 25 | Exported Function
+`ASFGetHeaderObject` | 6 | Exported Function
+`ASFGetDataUnitInfo` | 24 | Exported Function
+`ASFGetStreamPropertiesObject` | 8 | Exported Function
+`ASFGetRootObject` | 7 | Exported Function
+`ASFFindHeaderObject` | 9 | Exported Function
+`ASFCreateStreamSelector` | 26 | Exported Function
+`ASFFindStreamPropertiesObject` | 11 | Exported Function
+`ASFFindRootObject` | 10 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `6EF439E34417DB6041736DA880CC36B35ADB3E1E62DFA6E76B888D5EF25EE29A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetSetting` | 1 (0x1) | Exported Function | 0x00000001800197c0 | 0x000197c0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetSetting` | 1 | Exported Function
 
 
 ## Signature

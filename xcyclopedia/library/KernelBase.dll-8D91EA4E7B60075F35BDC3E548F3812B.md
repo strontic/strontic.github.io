@@ -24,1907 +24,1907 @@ PE256 | `2B8AC5C6FE16A41EEE8ABBBEC50EC13FD47B4537F0F9EBEF0B94AEB62127E06A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__dllonexit3` | 1870 (0x74e) | Exported Function | 0x101258e0 | 0x001258e0
-`PerfSetULongLongCounterValue` | 1243 (0x4db) | Exported Function | 0x101a3090 | 0x001a3090
-`PerfSetULongCounterValue` | 1242 (0x4da) | Exported Function | 0x101a3010 | 0x001a3010
-`PerfSetCounterSetInfo` | 1241 (0x4d9) | Exported Function | 0x101a2f90 | 0x001a2f90
-`PerfSetCounterRefValue` | 1240 (0x4d8) | Exported Function | 0x101a2f00 | 0x001a2f00
-`PerfQueryInstance` | 1239 (0x4d7) | Exported Function | 0x101a2e60 | 0x001a2e60
-`PerfIncrementULongLongCounterValue` | 1238 (0x4d6) | Exported Function | 0x101a2da0 | 0x001a2da0
-`PerfIncrementULongCounterValue` | 1237 (0x4d5) | Exported Function | 0x101a2d10 | 0x001a2d10
-`PerfDeleteInstance` | 1236 (0x4d4) | Exported Function | 0x101a2ca0 | 0x001a2ca0
-`PerfDecrementULongLongCounterValue` | 1235 (0x4d3) | Exported Function | 0x101a2be0 | 0x001a2be0
-`PerfDecrementULongCounterValue` | 1234 (0x4d2) | Exported Function | 0x101a2b50 | 0x001a2b50
-`PerfCreateInstance` | 1233 (0x4d1) | Exported Function | 0x101a2ac0 | 0x001a2ac0
-`PeekNamedPipe` | 1232 (0x4d0) | Exported Function | 0x101b1a60 | 0x001b1a60
-`PeekConsoleInputW` | 1231 (0x4cf) | Exported Function | 0x101aa010 | 0x001aa010
-`PeekConsoleInputA` | 1230 (0x4ce) | Exported Function | 0x101a9fe0 | 0x001a9fe0
-`PcwSetQueryItemUserData` | 1229 (0x4cd) | Exported Function | 0x101a25d0 | 0x001a25d0
-`PcwSetCounterSetSecurity` | 1228 (0x4cc) | Exported Function | 0x101a2550 | 0x001a2550
-`PcwSendStatelessNotification` | 1227 (0x4cb) | Exported Function | 0x101a2470 | 0x001a2470
-`PcwSendNotification` | 1226 (0x4ca) | Exported Function | 0x101a23b0 | 0x001a23b0
-`PcwRemoveQueryItem` | 1225 (0x4c9) | Exported Function | 0x101a2350 | 0x001a2350
-`PcwRegisterCounterSet` | 1224 (0x4c8) | Exported Function | 0x101a22b0 | 0x001a22b0
-`PcwReadNotificationData` | 1223 (0x4c7) | Exported Function | 0x101a2260 | 0x001a2260
-`PcwQueryCounterSetSecurity` | 1222 (0x4c6) | Exported Function | 0x101a21f0 | 0x001a21f0
-`PcwIsNotifierAlive` | 1221 (0x4c5) | Exported Function | 0x101a2180 | 0x001a2180
-`PcwEnumerateInstances` | 1220 (0x4c4) | Exported Function | 0x101a20f0 | 0x001a20f0
-`PcwDisconnectCounterSet` | 1219 (0x4c3) | Exported Function | 0x101a2090 | 0x001a2090
-`PerfStartProvider` | 1244 (0x4dc) | Exported Function | 0x101a3140 | 0x001a3140
-`PerfStartProviderEx` | 1245 (0x4dd) | Exported Function | 0x101a3180 | 0x001a3180
-`PerfStopProvider` | 1246 (0x4de) | Exported Function | 0x101a3200 | 0x001a3200
-`PoolPerAppKeyStateInternal` | 1247 (0x4df) | Exported Function | 0x101706c0 | 0x001706c0
-`PssWalkMarkerGetPosition` | 1273 (0x4f9) | Exported Function | 0x10173410 | 0x00173410
-`PssWalkMarkerFree` | 1272 (0x4f8) | Exported Function | 0x10173350 | 0x00173350
-`PssWalkMarkerCreate` | 1271 (0x4f7) | Exported Function | 0x101732f0 | 0x001732f0
-`PssQuerySnapshot` | 1270 (0x4f6) | Exported Function | 0x101730c0 | 0x001730c0
-`PssFreeSnapshot` | 1269 (0x4f5) | Exported Function | 0x10173070 | 0x00173070
-`PssDuplicateSnapshot` | 1268 (0x4f4) | Exported Function | 0x10173030 | 0x00173030
-`PssCaptureSnapshot` | 1267 (0x4f3) | Exported Function | 0x10173000 | 0x00173000
-`PsmIsValidKey` | 1266 (0x4f2) | Exported Function | 0x10174fa0 | 0x00174fa0
-`PsmIsDynamicKey` | 1265 (0x4f1) | Exported Function | 0x10174f80 | 0x00174f80
-`PsmIsChildKey` | 1264 (0x4f0) | Exported Function | 0x10174f40 | 0x00174f40
-`PsmGetPackageFullNameFromKey` | 1263 (0x4ef) | Exported Function | 0x10174ee0 | 0x00174ee0
-`PsmGetKeyFromToken` | 1262 (0x4ee) | Exported Function | 0x10174d70 | 0x00174d70
-`PcwCreateQuery` | 1218 (0x4c2) | Exported Function | 0x101a2020 | 0x001a2020
-`PsmGetKeyFromProcess` | 1261 (0x4ed) | Exported Function | 0x10174d20 | 0x00174d20
-`PsmGetApplicationNameFromKey` | 1259 (0x4eb) | Exported Function | 0x10174c30 | 0x00174c30
-`PsmEqualPackage` | 1258 (0x4ea) | Exported Function | 0x10174ba0 | 0x00174ba0
-`PsmEqualApplication` | 1257 (0x4e9) | Exported Function | 0x10174ac0 | 0x00174ac0
-`PsmCreateKeyWithDynamicId` | 1256 (0x4e8) | Exported Function | 0x101749e0 | 0x001749e0
-`PsmCreateKey` | 1255 (0x4e7) | Exported Function | 0x10174960 | 0x00174960
-`ProductIdFromPackageFamilyName` | 1254 (0x4e6) | Exported Function | 0x1012b520 | 0x0012b520
-`ProcessIdToSessionId` | 1253 (0x4e5) | Exported Function | 0x10124210 | 0x00124210
-`PrivilegedServiceAuditAlarmW` | 1252 (0x4e4) | Exported Function | 0x101ad590 | 0x001ad590
-`PrivilegeCheck` | 1251 (0x4e3) | Exported Function | 0x101ad550 | 0x001ad550
-`PrivCopyFileExW` | 1250 (0x4e2) | Exported Function | 0x10158970 | 0x00158970
-`PrefetchVirtualMemory` | 1249 (0x4e1) | Exported Function | 0x100fb270 | 0x000fb270
-`PostQueuedCompletionStatus` | 1248 (0x4e0) | Exported Function | 0x1012da60 | 0x0012da60
-`PsmGetDynamicIdFromKey` | 1260 (0x4ec) | Exported Function | 0x10174cc0 | 0x00174cc0
-`PssWalkMarkerSeekToBeginning` | 1274 (0x4fa) | Exported Function | 0x101733a0 | 0x001733a0
-`PcwCreateNotifier` | 1217 (0x4c1) | Exported Function | 0x101a1fa0 | 0x001a1fa0
-`PcwCollectData` | 1215 (0x4bf) | Exported Function | 0x101a1ed0 | 0x001a1ed0
-`PathMatchSpecW` | 1184 (0x4a0) | Exported Function | 0x100f70d0 | 0x000f70d0
-`PathMatchSpecExW` | 1183 (0x49f) | Exported Function | 0x100f70f0 | 0x000f70f0
-`PathMatchSpecExA` | 1182 (0x49e) | Exported Function | 0x1016f080 | 0x0016f080
-`PathMatchSpecA` | 1181 (0x49d) | Exported Function | 0x1016f060 | 0x0016f060
-`PathIsValidCharW` | 1180 (0x49c) | Exported Function | 0x1011d6c0 | 0x0011d6c0
-`PathIsValidCharA` | 1179 (0x49b) | Exported Function | 0x1016f820 | 0x0016f820
-`PathIsURLW` | 1178 (0x49a) | Exported Function | 0x1011b9a0 | 0x0011b9a0
-`PathIsURLA` | 1177 (0x499) | Exported Function | 0x1016fc60 | 0x0016fc60
-`PathIsUNCW` | 1176 (0x498) | Exported Function | 0x10122b10 | 0x00122b10
-`PathIsUNCServerW` | 1175 (0x497) | Exported Function | 0x10128f10 | 0x00128f10
-`PathIsUNCServerShareW` | 1174 (0x496) | Exported Function | 0x1012a690 | 0x0012a690
-`PathIsUNCServerShareA` | 1173 (0x495) | Exported Function | 0x1016f010 | 0x0016f010
-`PathIsUNCServerA` | 1172 (0x494) | Exported Function | 0x1016efd0 | 0x0016efd0
-`PathIsUNCEx` | 1171 (0x493) | Exported Function | 0x10106b30 | 0x00106b30
-`PathIsUNCA` | 1170 (0x492) | Exported Function | 0x1016efa0 | 0x0016efa0
-`PathIsSameRootW` | 1169 (0x491) | Exported Function | 0x1016e4a0 | 0x0016e4a0
-`PathIsSameRootA` | 1168 (0x490) | Exported Function | 0x1016f7d0 | 0x0016f7d0
-`PathIsRootW` | 1167 (0x48f) | Exported Function | 0x10129870 | 0x00129870
-`PathIsRootA` | 1166 (0x48e) | Exported Function | 0x1016f7b0 | 0x0016f7b0
-`PathIsRelativeW` | 1165 (0x48d) | Exported Function | 0x10121bf0 | 0x00121bf0
-`PathIsRelativeA` | 1164 (0x48c) | Exported Function | 0x1016f770 | 0x0016f770
-`PathIsPrefixW` | 1163 (0x48b) | Exported Function | 0x100f8470 | 0x000f8470
-`PathIsPrefixA` | 1162 (0x48a) | Exported Function | 0x1016f730 | 0x0016f730
-`PathIsLFNFileSpecW` | 1161 (0x489) | Exported Function | 0x1016e420 | 0x0016e420
-`PathIsLFNFileSpecA` | 1160 (0x488) | Exported Function | 0x1016f6c0 | 0x0016f6c0
-`PathParseIconLocationA` | 1185 (0x4a1) | Exported Function | 0x1016f0b0 | 0x0016f0b0
-`PathParseIconLocationW` | 1186 (0x4a2) | Exported Function | 0x10123150 | 0x00123150
-`PathQuoteSpacesA` | 1187 (0x4a3) | Exported Function | 0x1016f120 | 0x0016f120
-`PathQuoteSpacesW` | 1188 (0x4a4) | Exported Function | 0x1016e250 | 0x0016e250
-`PcwClearCounterSetSecurity` | 1214 (0x4be) | Exported Function | 0x101a1e50 | 0x001a1e50
-`PcwAddQueryItem` | 1213 (0x4bd) | Exported Function | 0x101a1d50 | 0x001a1d50
-`PathUnquoteSpacesW` | 1212 (0x4bc) | Exported Function | 0x10123240 | 0x00123240
-`PathUnquoteSpacesA` | 1211 (0x4bb) | Exported Function | 0x1016f250 | 0x0016f250
-`PathUnExpandEnvStringsW` | 1210 (0x4ba) | Exported Function | 0x1016e2b0 | 0x0016e2b0
-`PathUnExpandEnvStringsA` | 1209 (0x4b9) | Exported Function | 0x1016f240 | 0x0016f240
-`PathStripToRootW` | 1208 (0x4b8) | Exported Function | 0x100fae40 | 0x000fae40
-`PathStripToRootA` | 1207 (0x4b7) | Exported Function | 0x1016fc30 | 0x0016fc30
-`PathStripPathW` | 1206 (0x4b6) | Exported Function | 0x100f92f0 | 0x000f92f0
-`PathStripPathA` | 1205 (0x4b5) | Exported Function | 0x1016fbf0 | 0x0016fbf0
-`PathSkipRootW` | 1204 (0x4b4) | Exported Function | 0x1012a2a0 | 0x0012a2a0
-`PathSkipRootA` | 1203 (0x4b3) | Exported Function | 0x1016fbb0 | 0x0016fbb0
-`PcwCompleteNotification` | 1216 (0x4c0) | Exported Function | 0x101a1f20 | 0x001a1f20
-`PathSearchAndQualifyW` | 1202 (0x4b2) | Exported Function | 0x101279e0 | 0x001279e0
-`PathRenameExtensionW` | 1200 (0x4b0) | Exported Function | 0x1016e690 | 0x0016e690
-`PathRenameExtensionA` | 1199 (0x4af) | Exported Function | 0x1016fad0 | 0x0016fad0
-`PathRemoveFileSpecW` | 1198 (0x4ae) | Exported Function | 0x10126470 | 0x00126470
-`PathRemoveFileSpecA` | 1197 (0x4ad) | Exported Function | 0x1016f1f0 | 0x0016f1f0
-`PathRemoveExtensionW` | 1196 (0x4ac) | Exported Function | 0x10126d80 | 0x00126d80
-`PathRemoveExtensionA` | 1195 (0x4ab) | Exported Function | 0x1016fab0 | 0x0016fab0
-`PathRemoveBlanksW` | 1194 (0x4aa) | Exported Function | 0x101231e0 | 0x001231e0
-`PathRemoveBlanksA` | 1193 (0x4a9) | Exported Function | 0x1016f180 | 0x0016f180
-`PathRemoveBackslashW` | 1192 (0x4a8) | Exported Function | 0x10115bb0 | 0x00115bb0
-`PathRemoveBackslashA` | 1191 (0x4a7) | Exported Function | 0x1016fa60 | 0x0016fa60
-`PathRelativePathToW` | 1190 (0x4a6) | Exported Function | 0x1016e4f0 | 0x0016e4f0
-`PathRelativePathToA` | 1189 (0x4a5) | Exported Function | 0x1016f900 | 0x0016f900
-`PathSearchAndQualifyA` | 1201 (0x4b1) | Exported Function | 0x1016fb30 | 0x0016fb30
-`PssWalkMarkerSetPosition` | 1275 (0x4fb) | Exported Function | 0x101733d0 | 0x001733d0
-`PssWalkSnapshot` | 1276 (0x4fc) | Exported Function | 0x10173450 | 0x00173450
-`PublisherFromPackageFullName` | 1278 (0x4fe) | Exported Function | 0x1018ff50 | 0x0018ff50
-`RegDeleteTreeA` | 1363 (0x553) | Exported Function | 0x10171210 | 0x00171210
-`RegDeleteKeyValueW` | 1362 (0x552) | Exported Function | 0x10171050 | 0x00171050
-`RegDeleteKeyValueA` | 1361 (0x551) | Exported Function | 0x10171000 | 0x00171000
-`RegDeleteKeyExW` | 1360 (0x550) | Exported Function | 0x100fa940 | 0x000fa940
-`RegDeleteKeyExInternalW` | 1359 (0x54f) | Exported Function | 0x10100ff0 | 0x00100ff0
-`RegDeleteKeyExInternalA` | 1358 (0x54e) | Exported Function | 0x10170fa0 | 0x00170fa0
-`RegDeleteKeyExA` | 1357 (0x54d) | Exported Function | 0x10170f70 | 0x00170f70
-`RegCreateKeyExW` | 1356 (0x54c) | Exported Function | 0x10102b30 | 0x00102b30
-`RegCreateKeyExInternalW` | 1355 (0x54b) | Exported Function | 0x10102d60 | 0x00102d60
-`RegCreateKeyExInternalA` | 1354 (0x54a) | Exported Function | 0x10103720 | 0x00103720
-`RegCreateKeyExA` | 1353 (0x549) | Exported Function | 0x101036f0 | 0x001036f0
-`RegCopyTreeW` | 1352 (0x548) | Exported Function | 0x10170d50 | 0x00170d50
-`RegCloseKey` | 1351 (0x547) | Exported Function | 0x10106080 | 0x00106080
-`RefreshPolicyInternal` | 1350 (0x546) | Exported Function | 0x101546a0 | 0x001546a0
-`RefreshPolicyExInternal` | 1349 (0x545) | Exported Function | 0x10154670 | 0x00154670
-`RefreshPackageInfo` | 1348 (0x544) | Exported Function | 0x101884e0 | 0x001884e0
-`ReclaimVirtualMemory` | 1347 (0x543) | Exported Function | 0x101afd00 | 0x001afd00
-`ReadStateContainerValue` | 1346 (0x542) | Exported Function | 0x10179650 | 0x00179650
-`ReadStateAtomValue` | 1345 (0x541) | Exported Function | 0x10179570 | 0x00179570
-`ReadProcessMemory` | 1344 (0x540) | Exported Function | 0x1011b9e0 | 0x0011b9e0
-`ReadFileScatter` | 1343 (0x53f) | Exported Function | 0x101b2200 | 0x001b2200
-`ReadFileEx` | 1342 (0x53e) | Exported Function | 0x101b2160 | 0x001b2160
-`ReadFile` | 1341 (0x53d) | Exported Function | 0x1010f270 | 0x0010f270
-`ReadDirectoryChangesW` | 1340 (0x53c) | Exported Function | 0x10156270 | 0x00156270
-`ReadDirectoryChangesExW` | 1339 (0x53b) | Exported Function | 0x10156130 | 0x00156130
-`RegDeleteTreeW` | 1364 (0x554) | Exported Function | 0x10100750 | 0x00100750
-`RegDeleteValueA` | 1365 (0x555) | Exported Function | 0x100f9140 | 0x000f9140
-`RegDeleteValueW` | 1366 (0x556) | Exported Function | 0x10101320 | 0x00101320
-`RegDisablePredefinedCacheEx` | 1367 (0x557) | Exported Function | 0x101707d0 | 0x001707d0
-`RegLoadKeyA` | 1386 (0x56a) | Exported Function | 0x10171730 | 0x00171730
-`RegLoadAppKeyW` | 1385 (0x569) | Exported Function | 0x101715a0 | 0x001715a0
-`RegLoadAppKeyA` | 1384 (0x568) | Exported Function | 0x10171540 | 0x00171540
-`RegKrnSetTermsrvRegistryExtensionFlags` | 1383 (0x567) | Exported Function | 0x101707b0 | 0x001707b0
-`RegKrnSetDllHasThreadStateGlobal` | 1382 (0x566) | Exported Function | 0x10170790 | 0x00170790
-`RegKrnResetAppKeyLoaded` | 1381 (0x565) | Exported Function | 0x10170770 | 0x00170770
-`RegKrnGetTermsrvRegistryExtensionFlags` | 1380 (0x564) | Exported Function | 0x100fd2b0 | 0x000fd2b0
-`RegKrnGetHKEY_ClassesRootAddress` | 1379 (0x563) | Exported Function | 0x10170760 | 0x00170760
-`RegKrnGetClassesEnumTableAddressInternal` | 1378 (0x562) | Exported Function | 0x100fb360 | 0x000fb360
-`RegKrnGetAppKeyLoaded` | 1377 (0x561) | Exported Function | 0x10170750 | 0x00170750
-`RegKrnGetAppKeyEventAddressInternal` | 1376 (0x560) | Exported Function | 0x10170730 | 0x00170730
-`RegisterWaitForSingleObjectEx` | 1420 (0x58c) | Exported Function | 0x10128e70 | 0x00128e70
-`ReadConsoleW` | 1338 (0x53a) | Exported Function | 0x101ab860 | 0x001ab860
-`RegisterTraceGuidsW` | 1419 (0x58b) | Exported Function | NTDLL.EtwRegisterTraceGuidsW | 0x001d47ca
-`RegisterStateChangeNotification` | 1417 (0x589) | Exported Function | 0x10179720 | 0x00179720
-`RegisterGPNotificationInternal` | 1416 (0x588) | Exported Function | 0x100fd2c0 | 0x000fd2c0
-`RegisterBadMemoryNotification` | 1415 (0x587) | Exported Function | 0x101afdd0 | 0x001afdd0
-`RegisterApplicationRestart` | 1414 (0x586) | Exported Function | 0x1012ac70 | 0x0012ac70
-`RegGetValueW` | 1375 (0x55f) | Exported Function | 0x10104350 | 0x00104350
-`RegGetValueA` | 1374 (0x55e) | Exported Function | 0x10101f50 | 0x00101f50
-`RegGetKeySecurity` | 1373 (0x55d) | Exported Function | 0x100f6100 | 0x000f6100
-`RegFlushKey` | 1372 (0x55c) | Exported Function | 0x101707f0 | 0x001707f0
-`RegEnumValueW` | 1371 (0x55b) | Exported Function | 0x10102900 | 0x00102900
-`RegEnumValueA` | 1370 (0x55a) | Exported Function | 0x10102e90 | 0x00102e90
-`RegEnumKeyExW` | 1369 (0x559) | Exported Function | 0x10103e40 | 0x00103e40
-`RegEnumKeyExA` | 1368 (0x558) | Exported Function | 0x101026d0 | 0x001026d0
-`RegisterStateLock` | 1418 (0x58a) | Exported Function | 0x101797b0 | 0x001797b0
-`ReadConsoleOutputW` | 1337 (0x539) | Exported Function | 0x101aa440 | 0x001aa440
-`ReadConsoleOutputCharacterW` | 1336 (0x538) | Exported Function | 0x101aa190 | 0x001aa190
-`ReadConsoleOutputCharacterA` | 1335 (0x537) | Exported Function | 0x101aa160 | 0x001aa160
-`QueryStateContainerCreatedNew` | 1303 (0x517) | Exported Function | 0x10179460 | 0x00179460
-`QueryStateAtomValueInfo` | 1302 (0x516) | Exported Function | 0x101793d0 | 0x001793d0
-`QuerySecurityAccessMask` | 1301 (0x515) | Exported Function | 0x10129110 | 0x00129110
-`QueryProtectedPolicy` | 1300 (0x514) | Exported Function | 0x10112f70 | 0x00112f70
-`QueryProcessCycleTime` | 1299 (0x513) | Exported Function | 0x101bd490 | 0x001bd490
-`QueryProcessAffinityUpdateMode` | 1298 (0x512) | Exported Function | 0x101ba010 | 0x001ba010
-`QueryPerformanceFrequency` | 1297 (0x511) | Exported Function | NTDLL.RtlQueryPerformanceFrequency | 0x001d3dd1
-`QueryPerformanceCounter` | 1296 (0x510) | Exported Function | NTDLL.RtlQueryPerformanceCounter | 0x001d3d96
-`QueryOptionalDelayLoadedAPI` | 1295 (0x50f) | Exported Function | 0x101af5a0 | 0x001af5a0
-`QueryMemoryResourceNotification` | 1294 (0x50e) | Exported Function | 0x101afc50 | 0x001afc50
-`QueryInterruptTimePrecise` | 1293 (0x50d) | Exported Function | 0x101b5130 | 0x001b5130
-`QueryInterruptTime` | 1292 (0x50c) | Exported Function | 0x101b50f0 | 0x001b50f0
-`QueryStateContainerItemInfo` | 1304 (0x518) | Exported Function | 0x101794f0 | 0x001794f0
-`QueryIdleProcessorCycleTimeEx` | 1291 (0x50b) | Exported Function | 0x101bd450 | 0x001bd450
-`QueryGlobalizationUserSettingsStatus` | 1289 (0x509) | Exported Function | 0x1016db50 | 0x0016db50
-`QueryFullProcessImageNameW` | 1288 (0x508) | Exported Function | 0x101284e0 | 0x001284e0
-`QueryFullProcessImageNameA` | 1287 (0x507) | Exported Function | 0x101537a0 | 0x001537a0
-`QueryDosDeviceW` | 1286 (0x506) | Exported Function | 0x101299b0 | 0x001299b0
-`QueryDepthSList` | 1285 (0x505) | Exported Function | NTDLL.RtlQueryDepthSList | 0x001d3c57
-`QueryAuxiliaryCounterFrequency` | 1284 (0x504) | Exported Function | 0x101b50b0 | 0x001b50b0
-`QueryActCtxW` | 1283 (0x503) | Exported Function | 0x100fadc0 | 0x000fadc0
-`QueryActCtxSettingsW` | 1282 (0x502) | Exported Function | 0x10126e40 | 0x00126e40
-`QISearch` | 1281 (0x501) | Exported Function | 0x101186d0 | 0x001186d0
-`PurgeComm` | 1280 (0x500) | Exported Function | 0x101b3ba0 | 0x001b3ba0
-`PulseEvent` | 1279 (0x4ff) | Exported Function | 0x101b25f0 | 0x001b25f0
-`PublishStateChangeNotification` | 1277 (0x4fd) | Exported Function | 0x10179350 | 0x00179350
-`QueryIdleProcessorCycleTime` | 1290 (0x50a) | Exported Function | 0x101bd410 | 0x001bd410
-`PathIsFileSpecW` | 1159 (0x487) | Exported Function | 0x100fd0d0 | 0x000fd0d0
-`QueryThreadCycleTime` | 1305 (0x519) | Exported Function | 0x10129500 | 0x00129500
-`QueryUnbiasedInterruptTime` | 1307 (0x51b) | Exported Function | NTDLL.RtlQueryUnbiasedInterruptTime | 0x001d3ef8
-`ReadConsoleOutputAttribute` | 1334 (0x536) | Exported Function | 0x101aa130 | 0x001aa130
-`ReadConsoleOutputA` | 1333 (0x535) | Exported Function | 0x101aa100 | 0x001aa100
-`ReadConsoleInputW` | 1332 (0x534) | Exported Function | 0x101aa0d0 | 0x001aa0d0
-`ReadConsoleInputExW` | 1331 (0x533) | Exported Function | 0x101aa0a0 | 0x001aa0a0
-`ReadConsoleInputExA` | 1330 (0x532) | Exported Function | 0x101aa070 | 0x001aa070
-`ReadConsoleInputA` | 1329 (0x531) | Exported Function | 0x101aa040 | 0x001aa040
-`ReadConsoleA` | 1328 (0x530) | Exported Function | 0x101ab6a0 | 0x001ab6a0
-`RaiseFailFastException` | 1326 (0x52e) | Exported Function | 0x101bd570 | 0x001bd570
-`RaiseException` | 1325 (0x52d) | Exported Function | 0x10129900 | 0x00129900
-`RaiseCustomSystemEventTrigger` | 1324 (0x52c) | Exported Function | 0x101bd4f0 | 0x001bd4f0
-`QuirkIsEnabledForProcess` | 1323 (0x52b) | Exported Function | 0x1015b7e0 | 0x0015b7e0
-`QuirkIsEnabledForPackage4` | 1321 (0x529) | Exported Function | 0x1015b780 | 0x0015b780
-`QueryThreadpoolStackInformation` | 1306 (0x51a) | Exported Function | 0x1016d640 | 0x0016d640
-`QuirkIsEnabledForPackage3` | 1320 (0x528) | Exported Function | 0x1015b750 | 0x0015b750
-`QuirkIsEnabledForPackage` | 1322 (0x52a) | Exported Function | 0x1015b7b0 | 0x0015b7b0
-`QuirkIsEnabled3` | 1317 (0x525) | Exported Function | 0x100f7d00 | 0x000f7d00
-`QuirkIsEnabled2` | 1316 (0x524) | Exported Function | 0x1015b6e0 | 0x0015b6e0
-`QuirkIsEnabled` | 1318 (0x526) | Exported Function | 0x101280f0 | 0x001280f0
-`QuirkGetData2` | 1314 (0x522) | Exported Function | 0x1015b680 | 0x0015b680
-`QuirkGetData` | 1315 (0x523) | Exported Function | 0x1015b6b0 | 0x0015b6b0
-`QueueUserWorkItem` | 1313 (0x521) | Exported Function | 0x1012a180 | 0x0012a180
-`QueueUserAPC` | 1312 (0x520) | Exported Function | 0x100fce00 | 0x000fce00
-`QueryWorkingSetEx` | 1311 (0x51f) | Exported Function | 0x10173c00 | 0x00173c00
-`QueryWorkingSet` | 1310 (0x51e) | Exported Function | 0x10173bc0 | 0x00173bc0
-`QueryVirtualMemoryInformation` | 1309 (0x51d) | Exported Function | 0x101afcb0 | 0x001afcb0
-`QueryUnbiasedInterruptTimePrecise` | 1308 (0x51c) | Exported Function | 0x101b5160 | 0x001b5160
-`QuirkIsEnabledForPackage2` | 1319 (0x527) | Exported Function | 0x1015b710 | 0x0015b710
-`PathIsFileSpecA` | 1158 (0x486) | Exported Function | 0x1016f680 | 0x0016f680
-`PathGetDriveNumberW` | 1157 (0x485) | Exported Function | 0x10121c30 | 0x00121c30
-`PathGetDriveNumberA` | 1156 (0x484) | Exported Function | 0x100f8770 | 0x000f8770
-`LocalUnlock` | 1018 (0x3fa) | Exported Function | 0x10119410 | 0x00119410
-`LocalSystemTimeToLocalFileTime` | 1017 (0x3f9) | Exported Function | 0x101b5030 | 0x001b5030
-`LocalReAlloc` | 1016 (0x3f8) | Exported Function | 0x10117730 | 0x00117730
-`LocalLock` | 1015 (0x3f7) | Exported Function | 0x10119290 | 0x00119290
-`LocalFree` | 1014 (0x3f6) | Exported Function | 0x10107f50 | 0x00107f50
-`LocalFileTimeToLocalSystemTime` | 1013 (0x3f5) | Exported Function | 0x101b4fd0 | 0x001b4fd0
-`LocalFileTimeToFileTime` | 1012 (0x3f4) | Exported Function | 0x100fb180 | 0x000fb180
-`LocaleNameToLCID` | 1019 (0x3fb) | Exported Function | 0x10128250 | 0x00128250
-`LocalAlloc` | 1011 (0x3f3) | Exported Function | 0x10108080 | 0x00108080
-`LoadStringW` | 1010 (0x3f2) | Exported Function | 0x1011d040 | 0x0011d040
-`LoadStringByReference` | 1009 (0x3f1) | Exported Function | 0x10116b40 | 0x00116b40
-`LoadStringBaseExW` | 1008 (0x3f0) | Exported Function | 0x1011d070 | 0x0011d070
-`LoadStringA` | 1007 (0x3ef) | Exported Function | 0x100f6e40 | 0x000f6e40
-`LoadResource` | 1006 (0x3ee) | Exported Function | 0x1011d790 | 0x0011d790
-`LoadPackagedLibrary` | 1005 (0x3ed) | Exported Function | 0x101af4d0 | 0x001af4d0
-`LoadLibraryW` | 1004 (0x3ec) | Exported Function | 0x10129bb0 | 0x00129bb0
-`LoadLibraryExW` | 1003 (0x3eb) | Exported Function | 0x1010eb00 | 0x0010eb00
-`LoadLibraryExA` | 1002 (0x3ea) | Exported Function | 0x10112e80 | 0x00112e80
-`LoadLibraryA` | 1001 (0x3e9) | Exported Function | 0x1010f730 | 0x0010f730
-`LoadEnclaveImageW` | 1000 (0x3e8) | Exported Function | 0x101b1310 | 0x001b1310
-`LoadEnclaveImageA` | 999 (0x3e7) | Exported Function | 0x101b12d0 | 0x001b12d0
-`LoadEnclaveData` | 998 (0x3e6) | Exported Function | 0x101b1280 | 0x001b1280
-`LoadAppInitDlls` | 997 (0x3e5) | Exported Function | 0x1012b240 | 0x0012b240
-`LeaveCriticalSectionWhenCallbackReturns` | 996 (0x3e4) | Exported Function | NTDLL.TpCallbackLeaveCriticalSectionOnCompletion | 0x001d25e5
-`LeaveCriticalSection` | 995 (0x3e3) | Exported Function | NTDLL.RtlLeaveCriticalSection | 0x001d259f
-`LocateXStateFeature` | 1020 (0x3fc) | Exported Function | 0x1015b9c0 | 0x0015b9c0
-`LockFile` | 1021 (0x3fd) | Exported Function | 0x100f90e0 | 0x000f90e0
-`LockFileEx` | 1022 (0x3fe) | Exported Function | 0x1012dd70 | 0x0012dd70
-`LockResource` | 1023 (0x3ff) | Exported Function | 0x101259a0 | 0x001259a0
-`MoveFileExW` | 1037 (0x40d) | Exported Function | 0x10129560 | 0x00129560
-`MapViewOfFileNuma2` | 1036 (0x40c) | Exported Function | 0x101b8950 | 0x001b8950
-`MapViewOfFileFromApp` | 1035 (0x40b) | Exported Function | 0x101b88f0 | 0x001b88f0
-`MapViewOfFileExNuma` | 1034 (0x40a) | Exported Function | 0x101233d0 | 0x001233d0
-`MapViewOfFileEx` | 1033 (0x409) | Exported Function | 0x101233a0 | 0x001233a0
-`MapViewOfFile3FromApp` | 1031 (0x407) | Exported Function | 0x101b8870 | 0x001b8870
-`MapViewOfFile3` | 1030 (0x406) | Exported Function | 0x101b87d0 | 0x001b87d0
-`MapViewOfFile` | 1032 (0x408) | Exported Function | 0x1011bef0 | 0x0011bef0
-`MapUserPhysicalPages` | 1029 (0x405) | Exported Function | 0x101af970 | 0x001af970
-`MapPredefinedHandleInternal` | 1028 (0x404) | Exported Function | 0x10105190 | 0x00105190
-`MapGenericMask` | 1027 (0x403) | Exported Function | 0x101ad3f0 | 0x001ad3f0
-`MakeSelfRelativeSD` | 1026 (0x402) | Exported Function | 0x1012a2f0 | 0x0012a2f0
-`LeaveCriticalPolicySectionInternal` | 994 (0x3e2) | Exported Function | 0x10154640 | 0x00154640
-`MakeAbsoluteSD2` | 1024 (0x400) | Exported Function | 0x101ad360 | 0x001ad360
-`lstrlenW` | 1897 (0x769) | Exported Function | 0x10108be0 | 0x00108be0
-`lstrlenA` | 1896 (0x768) | Exported Function | 0x10106540 | 0x00106540
-`lstrlen` | 1895 (0x767) | Exported Function | 0x10106540 | 0x00106540
-`lstrcpynW` | 1894 (0x766) | Exported Function | 0x100fb1f0 | 0x000fb1f0
-`lstrcpynA` | 1893 (0x765) | Exported Function | 0x100f8af0 | 0x000f8af0
-`lstrcpyn` | 1892 (0x764) | Exported Function | 0x100f8af0 | 0x000f8af0
-`lstrcmpW` | 1888 (0x760) | Exported Function | 0x10107b10 | 0x00107b10
-`lstrcmpiW` | 1891 (0x763) | Exported Function | 0x101098e0 | 0x001098e0
-`lstrcmpiA` | 1890 (0x762) | Exported Function | 0x101bdf10 | 0x001bdf10
-`lstrcmpi` | 1889 (0x761) | Exported Function | 0x101bdf10 | 0x001bdf10
-`lstrcmpA` | 1887 (0x75f) | Exported Function | 0x100f6dc0 | 0x000f6dc0
-`lstrcmp` | 1886 (0x75e) | Exported Function | 0x100f6dc0 | 0x000f6dc0
-`MakeAbsoluteSD` | 1025 (0x401) | Exported Function | 0x101ad390 | 0x001ad390
-`LCMapStringW` | 993 (0x3e1) | Exported Function | 0x1010aba0 | 0x0010aba0
-`LCMapStringEx` | 992 (0x3e0) | Exported Function | 0x1010ac10 | 0x0010ac10
-`LCMapStringA` | 991 (0x3df) | Exported Function | 0x100fc640 | 0x000fc640
-`IsWow64Process2` | 960 (0x3c0) | Exported Function | 0x10113ac0 | 0x00113ac0
-`IsWow64Process` | 961 (0x3c1) | Exported Function | 0x101148f0 | 0x001148f0
-`IsWow64GuestMachineSupported` | 959 (0x3bf) | Exported Function | 0x101b9e10 | 0x001b9e10
-`IsWellKnownSid` | 958 (0x3be) | Exported Function | 0x10121d20 | 0x00121d20
-`IsValidSid` | 957 (0x3bd) | Exported Function | 0x10123340 | 0x00123340
-`IsValidSecurityDescriptor` | 956 (0x3bc) | Exported Function | 0x10128bc0 | 0x00128bc0
-`IsValidRelativeSecurityDescriptor` | 955 (0x3bb) | Exported Function | 0x101ad320 | 0x001ad320
-`IsValidNLSVersion` | 954 (0x3ba) | Exported Function | 0x1016c850 | 0x0016c850
-`IsValidLocaleName` | 953 (0x3b9) | Exported Function | 0x10115f60 | 0x00115f60
-`IsValidLocale` | 952 (0x3b8) | Exported Function | 0x10128dd0 | 0x00128dd0
-`IsValidLanguageGroup` | 951 (0x3b7) | Exported Function | 0x10162550 | 0x00162550
-`IsValidCodePage` | 950 (0x3b6) | Exported Function | 0x101135a0 | 0x001135a0
-`K32EmptyWorkingSet` | 962 (0x3c2) | Exported Function | 0x10173b40 | 0x00173b40
-`IsValidAcl` | 949 (0x3b5) | Exported Function | 0x100f86c0 | 0x000f86c0
-`IsTokenRestricted` | 947 (0x3b3) | Exported Function | 0x101ad290 | 0x001ad290
-`IsTimeZoneRedirectionEnabled` | 946 (0x3b2) | Exported Function | 0x1011cb00 | 0x0011cb00
-`IsThreadpoolTimerSet` | 945 (0x3b1) | Exported Function | NTDLL.TpIsTimerSet | 0x001d2156
-`IsThreadAFiber` | 944 (0x3b0) | Exported Function | 0x1012a500 | 0x0012a500
-`IsSyncForegroundPolicyRefresh` | 943 (0x3af) | Exported Function | 0x10154610 | 0x00154610
-`IsSideloadingPolicyApplied` | 942 (0x3ae) | Exported Function | 0x101a1930 | 0x001a1930
-`IsSideloadingEnabled` | 941 (0x3ad) | Exported Function | 0x101a18e0 | 0x001a18e0
-`IsProcessorFeaturePresent` | 940 (0x3ac) | Exported Function | 0x101252d0 | 0x001252d0
-`IsProcessInJob` | 939 (0x3ab) | Exported Function | 0x100ff530 | 0x000ff530
-`IsProcessCritical` | 938 (0x3aa) | Exported Function | 0x101b9cb0 | 0x001b9cb0
-`IsOnDemandRegistrationSupportedForExtensionCategory` | 937 (0x3a9) | Exported Function | 0x1018bdd0 | 0x0018bdd0
-`IsNormalizedString` | 936 (0x3a8) | Exported Function | 0x1016a140 | 0x0016a140
-`IsUserCetAvailableInEnvironment` | 948 (0x3b4) | Exported Function | 0x101b9dd0 | 0x001b9dd0
-`MoveFileWithProgressTransactedW` | 1038 (0x40e) | Exported Function | 0x101295c0 | 0x001295c0
-`K32EnumDeviceDrivers` | 963 (0x3c3) | Exported Function | 0x10173d10 | 0x00173d10
-`K32EnumPageFilesW` | 965 (0x3c5) | Exported Function | 0x101740f0 | 0x001740f0
-`LCIDToLocaleName` | 990 (0x3de) | Exported Function | 0x101283d0 | 0x001283d0
-`KernelbasePostInit` | 6 (0x6) | Exported Function | 0x1011ed40 | 0x0011ed40
-`KernelBaseGetGlobalData` | 989 (0x3dd) | Exported Function | 0x10127af0 | 0x00127af0
-`K32QueryWorkingSetEx` | 988 (0x3dc) | Exported Function | 0x10173c00 | 0x00173c00
-`K32QueryWorkingSet` | 987 (0x3db) | Exported Function | 0x10173bc0 | 0x00173bc0
-`K32InitializeProcessForWsWatch` | 986 (0x3da) | Exported Function | 0x101747f0 | 0x001747f0
-`K32GetWsChangesEx` | 985 (0x3d9) | Exported Function | 0x101747c0 | 0x001747c0
-`K32GetWsChanges` | 984 (0x3d8) | Exported Function | 0x10174790 | 0x00174790
-`K32GetProcessMemoryInfo` | 983 (0x3d7) | Exported Function | 0x100fc440 | 0x000fc440
-`K32GetProcessImageFileNameW` | 982 (0x3d6) | Exported Function | 0x101282f0 | 0x001282f0
-`K32GetProcessImageFileNameA` | 981 (0x3d5) | Exported Function | 0x101746f0 | 0x001746f0
-`K32GetPerformanceInfo` | 980 (0x3d4) | Exported Function | 0x10174220 | 0x00174220
-`K32EnumPageFilesA` | 964 (0x3c4) | Exported Function | 0x101740a0 | 0x001740a0
-`K32GetModuleInformation` | 979 (0x3d3) | Exported Function | 0x10119820 | 0x00119820
-`K32GetModuleFileNameExA` | 977 (0x3d1) | Exported Function | 0x10174650 | 0x00174650
-`K32GetModuleBaseNameW` | 976 (0x3d0) | Exported Function | 0x101745a0 | 0x001745a0
-`K32GetModuleBaseNameA` | 975 (0x3cf) | Exported Function | 0x10174530 | 0x00174530
-`K32GetMappedFileNameW` | 974 (0x3ce) | Exported Function | 0x101748a0 | 0x001748a0
-`K32GetMappedFileNameA` | 973 (0x3cd) | Exported Function | 0x10174830 | 0x00174830
-`K32GetDeviceDriverFileNameW` | 972 (0x3cc) | Exported Function | 0x10173fa0 | 0x00173fa0
-`K32GetDeviceDriverFileNameA` | 971 (0x3cb) | Exported Function | 0x10173f30 | 0x00173f30
-`K32GetDeviceDriverBaseNameW` | 970 (0x3ca) | Exported Function | 0x10173ed0 | 0x00173ed0
-`K32GetDeviceDriverBaseNameA` | 969 (0x3c9) | Exported Function | 0x10173e50 | 0x00173e50
-`K32EnumProcessModulesEx` | 967 (0x3c7) | Exported Function | 0x101744c0 | 0x001744c0
-`K32EnumProcessModules` | 966 (0x3c6) | Exported Function | 0x100f2840 | 0x000f2840
-`K32EnumProcesses` | 968 (0x3c8) | Exported Function | 0x100f4f20 | 0x000f4f20
-`K32GetModuleFileNameExW` | 978 (0x3d2) | Exported Function | 0x100f2560 | 0x000f2560
-`RegLoadKeyW` | 1387 (0x56b) | Exported Function | 0x10171900 | 0x00171900
-`MoveFileWithProgressW` | 1039 (0x40f) | Exported Function | 0x10129590 | 0x00129590
-`MultiByteToWideChar` | 1041 (0x411) | Exported Function | 0x1010a4d0 | 0x0010a4d0
-`PathCchCombine` | 1125 (0x465) | Exported Function | 0x10129190 | 0x00129190
-`PathCchCanonicalizeEx` | 1124 (0x464) | Exported Function | 0x10106bd0 | 0x00106bd0
-`PathCchCanonicalize` | 1123 (0x463) | Exported Function | 0x1015bf70 | 0x0015bf70
-`PathCchAppendEx` | 1122 (0x462) | Exported Function | 0x10106bf0 | 0x00106bf0
-`PathCchAppend` | 1121 (0x461) | Exported Function | 0x10128890 | 0x00128890
-`PathCchAddExtension` | 1120 (0x460) | Exported Function | 0x1015be40 | 0x0015be40
-`PathCchAddBackslashEx` | 1119 (0x45f) | Exported Function | 0x10123ac0 | 0x00123ac0
-`PathCchAddBackslash` | 1118 (0x45e) | Exported Function | 0x10123aa0 | 0x00123aa0
-`PathCanonicalizeW` | 1117 (0x45d) | Exported Function | 0x1016e360 | 0x0016e360
-`PathCanonicalizeA` | 1116 (0x45c) | Exported Function | 0x1016f410 | 0x0016f410
-`PathAppendW` | 1115 (0x45b) | Exported Function | 0x100f7040 | 0x000f7040
-`PathAppendA` | 1114 (0x45a) | Exported Function | 0x100f6510 | 0x000f6510
-`PathAllocCombine` | 1113 (0x459) | Exported Function | 0x10106650 | 0x00106650
-`PathAllocCanonicalize` | 1112 (0x458) | Exported Function | 0x10127070 | 0x00127070
-`PathAddExtensionW` | 1111 (0x457) | Exported Function | 0x100f9ed0 | 0x000f9ed0
-`PathAddExtensionA` | 1110 (0x456) | Exported Function | 0x1016f3b0 | 0x0016f3b0
-`PathAddBackslashW` | 1109 (0x455) | Exported Function | 0x10123a70 | 0x00123a70
-`PathAddBackslashA` | 1108 (0x454) | Exported Function | 0x100f66c0 | 0x000f66c0
-`ParseURLW` | 1107 (0x453) | Exported Function | 0x10107c50 | 0x00107c50
-`ParseURLA` | 1106 (0x452) | Exported Function | 0x1015e1e0 | 0x0015e1e0
-`ParseApplicationUserModelIdA` | 1105 (0x451) | Exported Function | 0x1018c670 | 0x0018c670
-`ParseApplicationUserModelId` | 1104 (0x450) | Exported Function | 0x1018c640 | 0x0018c640
-`PackageSidFromProductId` | 1 (0x1) | Exported Function | 0x10184000 | 0x00184000
-`PackageSidFromFamilyName` | 1103 (0x44f) | Exported Function | 0x1018c620 | 0x0018c620
-`PackageRelativeApplicationIdFromProductId` | 1102 (0x44e) | Exported Function | 0x1012bac0 | 0x0012bac0
-`PathCchCombineEx` | 1126 (0x466) | Exported Function | 0x10106c50 | 0x00106c50
-`PathCchFindExtension` | 1127 (0x467) | Exported Function | 0x10122f30 | 0x00122f30
-`PathCchIsRoot` | 1128 (0x468) | Exported Function | 0x10106980 | 0x00106980
-`PathCchRemoveBackslash` | 1129 (0x469) | Exported Function | 0x100fd520 | 0x000fd520
-`PathGetCharTypeW` | 1155 (0x483) | Exported Function | 0x100f36e0 | 0x000f36e0
-`PathGetCharTypeA` | 1154 (0x482) | Exported Function | 0x1016f610 | 0x0016f610
-`PathGetArgsW` | 1153 (0x481) | Exported Function | 0x1016e3c0 | 0x0016e3c0
-`PathGetArgsA` | 1152 (0x480) | Exported Function | 0x1016f5b0 | 0x0016f5b0
-`PathFindNextComponentW` | 1151 (0x47f) | Exported Function | 0x100f9990 | 0x000f9990
-`PathFindNextComponentA` | 1150 (0x47e) | Exported Function | 0x1016f560 | 0x0016f560
-`PathFindFileNameW` | 1149 (0x47d) | Exported Function | 0x10119500 | 0x00119500
-`PathFindFileNameA` | 1148 (0x47c) | Exported Function | 0x1016ef10 | 0x0016ef10
-`PathFindExtensionW` | 1147 (0x47b) | Exported Function | 0x10118ff0 | 0x00118ff0
-`PathFindExtensionA` | 1146 (0x47a) | Exported Function | 0x1016eed0 | 0x0016eed0
-`PathFileExistsW` | 1145 (0x479) | Exported Function | 0x101122c0 | 0x001122c0
-`PathFileExistsA` | 1144 (0x478) | Exported Function | 0x1016ee90 | 0x0016ee90
-`PackageNameAndPublisherIdFromFamilyNameA` | 1101 (0x44d) | Exported Function | 0x1018c5f0 | 0x0018c5f0
-`PathCreateFromUrlW` | 1143 (0x477) | Exported Function | 0x10108cc0 | 0x00108cc0
-`PathCreateFromUrlA` | 1141 (0x475) | Exported Function | 0x1015e270 | 0x0015e270
-`PathCommonPrefixW` | 1140 (0x474) | Exported Function | 0x10126320 | 0x00126320
-`PathCommonPrefixA` | 1139 (0x473) | Exported Function | 0x1016f460 | 0x0016f460
-`PathCombineW` | 1138 (0x472) | Exported Function | 0x10128ed0 | 0x00128ed0
-`PathCombineA` | 1137 (0x471) | Exported Function | 0x1016ee60 | 0x0016ee60
-`PathCchStripToRoot` | 1136 (0x470) | Exported Function | 0x10106850 | 0x00106850
-`PathCchStripPrefix` | 1135 (0x46f) | Exported Function | 0x1015c0b0 | 0x0015c0b0
-`PathCchSkipRoot` | 1134 (0x46e) | Exported Function | 0x10106a40 | 0x00106a40
-`PathCchRenameExtension` | 1133 (0x46d) | Exported Function | 0x1015bf90 | 0x0015bf90
-`PathCchRemoveFileSpec` | 1132 (0x46c) | Exported Function | 0x10106590 | 0x00106590
-`PathCchRemoveExtension` | 1131 (0x46b) | Exported Function | 0x10126db0 | 0x00126db0
-`PathCchRemoveBackslashEx` | 1130 (0x46a) | Exported Function | 0x101068e0 | 0x001068e0
-`PathCreateFromUrlAlloc` | 1142 (0x476) | Exported Function | 0x100f84b0 | 0x000f84b0
-`PackageNameAndPublisherIdFromFamilyName` | 1100 (0x44c) | Exported Function | 0x1018c5c0 | 0x0018c5c0
-`PackageIdFromProductId` | 1099 (0x44b) | Exported Function | 0x1018b1e0 | 0x0018b1e0
-`PackageIdFromFullNameA` | 1098 (0x44a) | Exported Function | 0x1018c590 | 0x0018c590
-`OpenFileMappingW` | 1067 (0x42b) | Exported Function | 0x10110cf0 | 0x00110cf0
-`OpenFileMappingFromApp` | 1066 (0x42a) | Exported Function | 0x101b89d0 | 0x001b89d0
-`OpenFileById` | 1065 (0x429) | Exported Function | 0x1015a580 | 0x0015a580
-`OpenEventW` | 1064 (0x428) | Exported Function | 0x1010da50 | 0x0010da50
-`OpenEventA` | 1063 (0x427) | Exported Function | 0x10111310 | 0x00111310
-`OpenCommPort` | 1062 (0x426) | Exported Function | 0x101b3ae0 | 0x001b3ae0
-`OfferVirtualMemory` | 1061 (0x425) | Exported Function | 0x101af9a0 | 0x001af9a0
-`ObjectPrivilegeAuditAlarmW` | 1060 (0x424) | Exported Function | 0x101ad500 | 0x001ad500
-`ObjectOpenAuditAlarmW` | 1059 (0x423) | Exported Function | 0x101ad480 | 0x001ad480
-`ObjectDeleteAuditAlarmW` | 1058 (0x422) | Exported Function | 0x101ad440 | 0x001ad440
-`ObjectCloseAuditAlarmW` | 1057 (0x421) | Exported Function | 0x101ad400 | 0x001ad400
-`NotifyRedirectedStringChange` | 1056 (0x420) | Exported Function | 0x1016a480 | 0x0016a480
-`OpenGlobalizationUserSettingsKey` | 1068 (0x42c) | Exported Function | 0x101009a0 | 0x001009a0
-`NotifyMountMgr` | 1055 (0x41f) | Exported Function | 0x101bb4b0 | 0x001bb4b0
-`NlsValidateLocale` | 1053 (0x41d) | Exported Function | 0x1010b660 | 0x0010b660
-`NlsUpdateSystemLocale` | 1052 (0x41c) | Exported Function | 0x10162a80 | 0x00162a80
-`NlsUpdateLocale` | 1051 (0x41b) | Exported Function | 0x10162940 | 0x00162940
-`NlsIsUserDefaultLocale` | 1050 (0x41a) | Exported Function | 0x100f4b20 | 0x000f4b20
-`NlsGetCacheUpdateCount` | 1049 (0x419) | Exported Function | 0x10121aa0 | 0x00121aa0
-`NlsGetACPFromLocale` | 1048 (0x418) | Exported Function | 0x10161a60 | 0x00161a60
-`NlsDispatchAnsiEnumProc` | 1047 (0x417) | Exported Function | 0x101649f0 | 0x001649f0
-`NlsCheckPolicy` | 1046 (0x416) | Exported Function | 0x10162590 | 0x00162590
-`NeedCurrentDirectoryForExePathW` | 1045 (0x415) | Exported Function | 0x101b9e80 | 0x001b9e80
-`NeedCurrentDirectoryForExePathA` | 1044 (0x414) | Exported Function | 0x101b9e50 | 0x001b9e50
-`NamedPipeEventSelect` | 1043 (0x413) | Exported Function | 0x101b1990 | 0x001b1990
-`NamedPipeEventEnum` | 1042 (0x412) | Exported Function | 0x101b18c0 | 0x001b18c0
-`NormalizeString` | 1054 (0x41e) | Exported Function | 0x1016a1a0 | 0x0016a1a0
-`MulDiv` | 1040 (0x410) | Exported Function | 0x1012f030 | 0x0012f030
-`OpenMutexW` | 1069 (0x42d) | Exported Function | 0x1010d990 | 0x0010d990
-`OpenPackageInfoByFullNameForMachine` | 1071 (0x42f) | Exported Function | 0x101883e0 | 0x001883e0
-`PackageIdFromFullName` | 1097 (0x449) | Exported Function | 0x1018c560 | 0x0018c560
-`PackageFullNameFromProductId` | 1096 (0x448) | Exported Function | 0x1018b1d0 | 0x0018b1d0
-`PackageFullNameFromIdA` | 1095 (0x447) | Exported Function | 0x1018c540 | 0x0018c540
-`PackageFullNameFromId` | 1094 (0x446) | Exported Function | 0x1018c520 | 0x0018c520
-`PackageFamilyNameFromProductId` | 1093 (0x445) | Exported Function | 0x1018b1b0 | 0x0018b1b0
-`PackageFamilyNameFromIdA` | 1092 (0x444) | Exported Function | 0x1018c500 | 0x0018c500
-`PackageFamilyNameFromId` | 1091 (0x443) | Exported Function | 0x1018c4e0 | 0x0018c4e0
-`PackageFamilyNameFromFullNameA` | 1090 (0x442) | Exported Function | 0x1018c4c0 | 0x0018c4c0
-`PackageFamilyNameFromFullName` | 1089 (0x441) | Exported Function | 0x1018c4a0 | 0x0018c4a0
-`OverrideRoamingDataModificationTimesInRange` | 1088 (0x440) | Exported Function | 0x101792c0 | 0x001792c0
-`OutputDebugStringW` | 1087 (0x43f) | Exported Function | 0x101b2aa0 | 0x001b2aa0
-`OutputDebugStringA` | 1086 (0x43e) | Exported Function | 0x100f72d0 | 0x000f72d0
-`OpenPackageInfoByFullName` | 1070 (0x42e) | Exported Function | 0x101883c0 | 0x001883c0
-`OpenWaitableTimerW` | 1085 (0x43d) | Exported Function | 0x101b2530 | 0x001b2530
-`OpenThread` | 1083 (0x43b) | Exported Function | 0x1010fa80 | 0x0010fa80
-`OpenStateExplicitForUserSidString` | 1082 (0x43a) | Exported Function | 0x10179240 | 0x00179240
-`OpenStateExplicitForUserSid` | 1081 (0x439) | Exported Function | 0x101791c0 | 0x001791c0
-`OpenStateExplicit` | 1080 (0x438) | Exported Function | 0x10179150 | 0x00179150
-`OpenStateAtom` | 1079 (0x437) | Exported Function | 0x101790d0 | 0x001790d0
-`OpenState` | 1078 (0x436) | Exported Function | 0x10179060 | 0x00179060
-`OpenSemaphoreW` | 1077 (0x435) | Exported Function | 0x10126e60 | 0x00126e60
-`OpenRegKey` | 1076 (0x434) | Exported Function | 0x100fd490 | 0x000fd490
-`OpenProcessToken` | 1075 (0x433) | Exported Function | 0x10110b20 | 0x00110b20
-`OpenProcess` | 1074 (0x432) | Exported Function | 0x1010d6c0 | 0x0010d6c0
-`OpenPrivateNamespaceW` | 1073 (0x431) | Exported Function | 0x100f8290 | 0x000f8290
-`OpenPackageInfoByFullNameForUser` | 1072 (0x430) | Exported Function | 0x10188460 | 0x00188460
-`OpenThreadToken` | 1084 (0x43c) | Exported Function | 0x1010f4c0 | 0x0010f4c0
-`IsNLSDefinedString` | 935 (0x3a7) | Exported Function | 0x1016c920 | 0x0016c920
-`RegLoadMUIStringA` | 1388 (0x56c) | Exported Function | 0x10171c10 | 0x00171c10
-`RegNotifyChangeKeyValue` | 1390 (0x56e) | Exported Function | 0x101020f0 | 0x001020f0
-`TryEnterCriticalSection` | 1717 (0x6b5) | Exported Function | NTDLL.RtlTryEnterCriticalSection | 0x001d6067
-`TryAcquireSRWLockShared` | 1716 (0x6b4) | Exported Function | NTDLL.RtlTryAcquireSRWLockShared | 0x001d602e
-`TryAcquireSRWLockExclusive` | 1715 (0x6b3) | Exported Function | NTDLL.RtlTryAcquireSRWLockExclusive | 0x001d5ff2
-`TransmitCommChar` | 1714 (0x6b2) | Exported Function | 0x101b42c0 | 0x001b42c0
-`TransactNamedPipe` | 1713 (0x6b1) | Exported Function | 0x10129200 | 0x00129200
-`TraceMessageVa` | 1712 (0x6b0) | Exported Function | NTDLL.EtwTraceMessageVa | 0x001d5f9c
-`TraceMessage` | 1711 (0x6af) | Exported Function | NTDLL.EtwTraceMessage | 0x001d5f77
-`TraceEvent` | 1710 (0x6ae) | Exported Function | NTDLL.EtwLogTraceEvent | 0x001d5f53
-`TlsSetValue` | 1709 (0x6ad) | Exported Function | 0x10119380 | 0x00119380
-`TlsGetValue` | 1708 (0x6ac) | Exported Function | 0x10118680 | 0x00118680
-`TlsFree` | 1707 (0x6ab) | Exported Function | 0x10125550 | 0x00125550
-`TlsAlloc` | 1706 (0x6aa) | Exported Function | 0x10125060 | 0x00125060
-`time` | 1898 (0x76a) | Exported Function | 0x1012f220 | 0x0012f220
-`TerminateThread` | 1705 (0x6a9) | Exported Function | 0x101b6510 | 0x001b6510
-`TerminateProcessOnMemoryExhaustion` | 1704 (0x6a8) | Exported Function | 0x101bd740 | 0x001bd740
-`TerminateProcess` | 1703 (0x6a7) | Exported Function | 0x100fd540 | 0x000fd540
-`TerminateEnclave` | 1702 (0x6a6) | Exported Function | 0x101b1350 | 0x001b1350
-`SystemTimeToTzSpecificLocalTimeEx` | 1701 (0x6a5) | Exported Function | 0x101b5840 | 0x001b5840
-`SystemTimeToTzSpecificLocalTime` | 1700 (0x6a4) | Exported Function | 0x1011c580 | 0x0011c580
-`SystemTimeToFileTime` | 1699 (0x6a3) | Exported Function | 0x1011c710 | 0x0011c710
-`SwitchToThread` | 1698 (0x6a2) | Exported Function | 0x100f5780 | 0x000f5780
-`SwitchToFiber` | 1697 (0x6a1) | Exported Function | 0x1012a8a0 | 0x0012a8a0
-`SuspendThread` | 1696 (0x6a0) | Exported Function | 0x101b64e0 | 0x001b64e0
-`SubscribeWdagEnabledStateChange` | 1695 (0x69f) | Exported Function | 0x10128f50 | 0x00128f50
-`SubscribeStateChangeNotification` | 1694 (0x69e) | Exported Function | 0x10179ad0 | 0x00179ad0
-`TrySubmitThreadpoolCallback` | 1718 (0x6b6) | Exported Function | 0x10129e50 | 0x00129e50
-`TzSpecificLocalTimeToSystemTime` | 1719 (0x6b7) | Exported Function | 0x101b5a50 | 0x001b5a50
-`TzSpecificLocalTimeToSystemTimeEx` | 1720 (0x6b8) | Exported Function | 0x101b5b00 | 0x001b5b00
-`UnhandledExceptionFilter` | 1721 (0x6b9) | Exported Function | 0x101bd890 | 0x001bd890
-`UrlCompareA` | 1747 (0x6d3) | Exported Function | 0x1015e570 | 0x0015e570
-`UrlCombineW` | 1746 (0x6d2) | Exported Function | 0x1011aa10 | 0x0011aa10
-`UrlCombineA` | 1745 (0x6d1) | Exported Function | 0x1015e530 | 0x0015e530
-`UrlCanonicalizeW` | 1744 (0x6d0) | Exported Function | 0x1011a8e0 | 0x0011a8e0
-`UrlCanonicalizeA` | 1743 (0x6cf) | Exported Function | 0x1015e4b0 | 0x0015e4b0
-`UrlApplySchemeW` | 1742 (0x6ce) | Exported Function | 0x1012e0e0 | 0x0012e0e0
-`UrlApplySchemeA` | 1741 (0x6cd) | Exported Function | 0x1015e390 | 0x0015e390
-`UpdateProcThreadAttribute` | 1740 (0x6cc) | Exported Function | 0x100fc0d0 | 0x000fc0d0
-`UpdatePackageStatusForUserSid` | 1739 (0x6cb) | Exported Function | 0x1018f7f0 | 0x0018f7f0
-`UpdatePackageStatusForUser` | 1738 (0x6ca) | Exported Function | 0x1018f750 | 0x0018f750
-`UpdatePackageStatus` | 1737 (0x6c9) | Exported Function | 0x1018f700 | 0x0018f700
-`UnsubscribeWdagEnabledStateChange` | 1736 (0x6c8) | Exported Function | 0x10155f20 | 0x00155f20
-`SubscribeEdpEnabledStateChange` | 1693 (0x69d) | Exported Function | 0x10120de0 | 0x00120de0
-`UnsubscribeStateChangeNotification` | 1735 (0x6c7) | Exported Function | 0x10179c70 | 0x00179c70
-`UnregisterWaitEx` | 1733 (0x6c5) | Exported Function | 0x100f7080 | 0x000f7080
-`UnregisterTraceGuids` | 1732 (0x6c4) | Exported Function | NTDLL.EtwUnregisterTraceGuids | 0x001d61f3
-`UnregisterStateLock` | 1731 (0x6c3) | Exported Function | 0x10179be0 | 0x00179be0
-`UnregisterStateChangeNotification` | 1730 (0x6c2) | Exported Function | 0x10179b60 | 0x00179b60
-`UnregisterGPNotificationInternal` | 1729 (0x6c1) | Exported Function | 0x100fd340 | 0x000fd340
-`UnregisterBadMemoryNotification` | 1728 (0x6c0) | Exported Function | 0x101b00e0 | 0x001b00e0
-`UnregisterApplicationRestart` | 1727 (0x6bf) | Exported Function | 0x10155080 | 0x00155080
-`UnmapViewOfFileEx` | 1726 (0x6be) | Exported Function | 0x101b8ab0 | 0x001b8ab0
-`UnmapViewOfFile2` | 1724 (0x6bc) | Exported Function | 0x101b8a30 | 0x001b8a30
-`UnmapViewOfFile` | 1725 (0x6bd) | Exported Function | 0x1011da70 | 0x0011da70
-`UnlockFileEx` | 1723 (0x6bb) | Exported Function | 0x10128170 | 0x00128170
-`UnlockFile` | 1722 (0x6ba) | Exported Function | 0x100f9bc0 | 0x000f9bc0
-`UnsubscribeEdpEnabledStateChange` | 1734 (0x6c6) | Exported Function | 0x10155f20 | 0x00155f20
-`UrlCompareW` | 1748 (0x6d4) | Exported Function | 0x1015e710 | 0x0015e710
-`SubmitThreadpoolWork` | 1692 (0x69c) | Exported Function | NTDLL.TpPostWork | 0x001d5dd7
-`StrTrimA` | 1690 (0x69a) | Exported Function | 0x1015afb0 | 0x0015afb0
-`StrCpyNXW` | 1663 (0x67f) | Exported Function | 0x1015aa50 | 0x0015aa50
-`StrCpyNXA` | 1662 (0x67e) | Exported Function | 0x1015aa00 | 0x0015aa00
-`StrCpyNW` | 1661 (0x67d) | Exported Function | 0x1015a9e0 | 0x0015a9e0
-`StrCmpW` | 1660 (0x67c) | Exported Function | 0x10125cf0 | 0x00125cf0
-`StrCmpNW` | 1659 (0x67b) | Exported Function | 0x10127010 | 0x00127010
-`StrCmpNIW` | 1658 (0x67a) | Exported Function | 0x10128740 | 0x00128740
-`StrCmpNICW` | 1657 (0x679) | Exported Function | 0x10107db0 | 0x00107db0
-`StrCmpNICA` | 1656 (0x678) | Exported Function | 0x10121980 | 0x00121980
-`StrCmpNIA` | 1655 (0x677) | Exported Function | 0x10107ba0 | 0x00107ba0
-`StrCmpNCW` | 1654 (0x676) | Exported Function | 0x1011b800 | 0x0011b800
-`StrCmpNCA` | 1653 (0x675) | Exported Function | 0x10127d40 | 0x00127d40
-`StrCmpNA` | 1652 (0x674) | Exported Function | 0x100fc1b0 | 0x000fc1b0
-`StrCmpLogicalW` | 1651 (0x673) | Exported Function | 0x10127d80 | 0x00127d80
-`StrCmpIW` | 1650 (0x672) | Exported Function | 0x10109300 | 0x00109300
-`StrCmpICW` | 1649 (0x671) | Exported Function | 0x10119230 | 0x00119230
-`StrCmpICA` | 1648 (0x670) | Exported Function | 0x10118790 | 0x00118790
-`StrCmpCW` | 1647 (0x66f) | Exported Function | 0x1011b850 | 0x0011b850
-`StrCmpCA` | 1646 (0x66e) | Exported Function | 0x1012a8e0 | 0x0012a8e0
-`StrChrW` | 1645 (0x66d) | Exported Function | 0x101079a0 | 0x001079a0
-`StrChrNW` | 1644 (0x66c) | Exported Function | 0x101259c0 | 0x001259c0
-`StrChrNIW` | 1643 (0x66b) | Exported Function | 0x1015a990 | 0x0015a990
-`StrChrIW` | 1642 (0x66a) | Exported Function | 0x10109800 | 0x00109800
-`StrChrIA` | 1641 (0x669) | Exported Function | 0x10109bb0 | 0x00109bb0
-`StrChrA_MB` | 1640 (0x668) | Exported Function | 0x10121580 | 0x00121580
-`StrChrA` | 1639 (0x667) | Exported Function | 0x10121480 | 0x00121480
-`StrCSpnA` | 1632 (0x660) | Exported Function | 0x1015a790 | 0x0015a790
-`StrCSpnIA` | 1633 (0x661) | Exported Function | 0x1015a7e0 | 0x0015a7e0
-`StrCSpnIW` | 1634 (0x662) | Exported Function | 0x1015a830 | 0x0015a830
-`StrCSpnW` | 1635 (0x663) | Exported Function | 0x1015a880 | 0x0015a880
-`StrToIntW` | 1689 (0x699) | Exported Function | 0x10123270 | 0x00123270
-`StrToIntExW` | 1688 (0x698) | Exported Function | 0x100f9830 | 0x000f9830
-`StrToIntExA` | 1687 (0x697) | Exported Function | 0x1015af80 | 0x0015af80
-`StrToIntA` | 1686 (0x696) | Exported Function | 0x1012de10 | 0x0012de10
-`StrToInt64ExW` | 1685 (0x695) | Exported Function | 0x100f9860 | 0x000f9860
-`StrToInt64ExA` | 1684 (0x694) | Exported Function | 0x1015aef0 | 0x0015aef0
-`StrStrW` | 1683 (0x693) | Exported Function | 0x10107930 | 0x00107930
-`StrStrNW` | 1682 (0x692) | Exported Function | 0x1015ae60 | 0x0015ae60
-`StrStrNIW` | 1681 (0x691) | Exported Function | 0x1015add0 | 0x0015add0
-`StrStrIW` | 1680 (0x690) | Exported Function | 0x101078c0 | 0x001078c0
-`StrStrIA` | 1679 (0x68f) | Exported Function | 0x10107e10 | 0x00107e10
-`StrStrA` | 1678 (0x68e) | Exported Function | 0x101214e0 | 0x001214e0
-`StrTrimW` | 1691 (0x69b) | Exported Function | 0x10107670 | 0x00107670
-`StrSpnW` | 1677 (0x68d) | Exported Function | 0x1015ad60 | 0x0015ad60
-`StrRStrIW` | 1675 (0x68b) | Exported Function | 0x100f20f0 | 0x000f20f0
-`StrRStrIA` | 1674 (0x68a) | Exported Function | 0x1015ac40 | 0x0015ac40
-`StrRChrW` | 1673 (0x689) | Exported Function | 0x10124260 | 0x00124260
-`StrRChrIW` | 1672 (0x688) | Exported Function | 0x1015abf0 | 0x0015abf0
-`StrRChrIA` | 1671 (0x687) | Exported Function | 0x1015ab80 | 0x0015ab80
-`StrRChrA` | 1670 (0x686) | Exported Function | 0x101264c0 | 0x001264c0
-`StrPBrkW` | 1669 (0x685) | Exported Function | 0x10127a90 | 0x00127a90
-`StrPBrkA` | 1668 (0x684) | Exported Function | 0x1015ab30 | 0x0015ab30
-`StrIsIntlEqualW` | 1667 (0x683) | Exported Function | 0x10126430 | 0x00126430
-`StrIsIntlEqualA` | 1666 (0x682) | Exported Function | 0x1015aaf0 | 0x0015aaf0
-`StrDupW` | 1665 (0x681) | Exported Function | 0x10107ec0 | 0x00107ec0
-`StrDupA` | 1664 (0x680) | Exported Function | 0x1015aab0 | 0x0015aab0
-`StrSpnA` | 1676 (0x68c) | Exported Function | 0x1015ace0 | 0x0015ace0
-`UrlCreateFromPathA` | 1749 (0x6d5) | Exported Function | 0x1015e8c0 | 0x0015e8c0
-`UrlCreateFromPathW` | 1750 (0x6d6) | Exported Function | 0x101199c0 | 0x001199c0
-`UrlEscapeA` | 1751 (0x6d7) | Exported Function | 0x1015ea00 | 0x0015ea00
-`WerUnregisterAppLocalDump` | 1836 (0x72c) | Exported Function | 0x10155150 | 0x00155150
-`WerUnregisterAdditionalProcess` | 1835 (0x72b) | Exported Function | 0x10155130 | 0x00155130
-`WerSetMaxProcessHoldMilliseconds` | 1834 (0x72a) | Exported Function | 0x10155110 | 0x00155110
-`WerSetFlags` | 1833 (0x729) | Exported Function | 0x100fcb20 | 0x000fcb20
-`WerRegisterRuntimeExceptionModule` | 1832 (0x728) | Exported Function | 0x100faf90 | 0x000faf90
-`WerRegisterMemoryBlock` | 1831 (0x727) | Exported Function | 0x10129990 | 0x00129990
-`WerRegisterFile` | 1830 (0x726) | Exported Function | 0x10125d20 | 0x00125d20
-`WerRegisterExcludedMemoryBlock` | 1829 (0x725) | Exported Function | 0x101550f0 | 0x001550f0
-`WerRegisterCustomMetadata` | 1828 (0x724) | Exported Function | 0x100f7db0 | 0x000f7db0
-`WerRegisterAppLocalDump` | 1827 (0x723) | Exported Function | 0x101550d0 | 0x001550d0
-`WerRegisterAdditionalProcess` | 1826 (0x722) | Exported Function | 0x101550b0 | 0x001550b0
-`WerpNotifyUseStringResource` | 1843 (0x733) | Exported Function | 0x1012b350 | 0x0012b350
-`WerpNotifyLoadStringResource` | 1842 (0x732) | Exported Function | 0x1012b640 | 0x0012b640
-`WerGetFlags` | 1825 (0x721) | Exported Function | 0x10155090 | 0x00155090
-`WakeConditionVariable` | 1824 (0x720) | Exported Function | NTDLL.RtlWakeConditionVariable | 0x001d69c8
-`WakeByAddressSingle` | 1823 (0x71f) | Exported Function | NTDLL.RtlWakeAddressSingle | 0x001d6997
-`WakeByAddressAll` | 1822 (0x71e) | Exported Function | NTDLL.RtlWakeAddressAll | 0x001d696b
-`WakeAllConditionVariable` | 1821 (0x71d) | Exported Function | NTDLL.RtlWakeAllConditionVariable | 0x001d6938
-`WaitOnAddress` | 1820 (0x71c) | Exported Function | 0x101b2770 | 0x001b2770
-`WaitNamedPipeW` | 1819 (0x71b) | Exported Function | 0x100fa620 | 0x000fa620
-`WaitForUserPolicyForegroundProcessingInternal` | 1818 (0x71a) | Exported Function | 0x10154720 | 0x00154720
-`WaitForThreadpoolWorkCallbacks` | 1817 (0x719) | Exported Function | NTDLL.TpWaitForWork | 0x001d68c0
-`WaitForThreadpoolWaitCallbacks` | 1816 (0x718) | Exported Function | NTDLL.TpWaitForWait | 0x001d688d
-`WaitForThreadpoolTimerCallbacks` | 1815 (0x717) | Exported Function | NTDLL.TpWaitForTimer | 0x001d6859
-`WaitForThreadpoolIoCallbacks` | 1814 (0x716) | Exported Function | NTDLL.TpWaitForIoCompletion | 0x001d681d
-`WerUnregisterCustomMetadata` | 1837 (0x72d) | Exported Function | 0x10155160 | 0x00155160
-`WerUnregisterExcludedMemoryBlock` | 1838 (0x72e) | Exported Function | 0x10155180 | 0x00155180
-`WerUnregisterFile` | 1839 (0x72f) | Exported Function | 0x101551a0 | 0x001551a0
-`WerUnregisterMemoryBlock` | 1840 (0x730) | Exported Function | 0x100fd5b0 | 0x000fd5b0
-`WTSGetServiceSessionId` | 1804 (0x70c) | Exported Function | 0x1012a680 | 0x0012a680
-`WriteStateContainerValue` | 1865 (0x749) | Exported Function | 0x10179db0 | 0x00179db0
-`WriteStateAtomValue` | 1864 (0x748) | Exported Function | 0x10179cf0 | 0x00179cf0
-`WriteProcessMemory` | 1863 (0x747) | Exported Function | 0x101273d0 | 0x001273d0
-`WriteFileGather` | 1862 (0x746) | Exported Function | 0x101b2390 | 0x001b2390
-`WriteFileEx` | 1861 (0x745) | Exported Function | 0x101b22f0 | 0x001b22f0
-`WriteFile` | 1860 (0x744) | Exported Function | 0x1010d860 | 0x0010d860
-`WriteConsoleW` | 1859 (0x743) | Exported Function | 0x101ab960 | 0x001ab960
-`WriteConsoleOutputW` | 1858 (0x742) | Exported Function | 0x101aa840 | 0x001aa840
-`WriteConsoleOutputCharacterW` | 1857 (0x741) | Exported Function | 0x101aa5c0 | 0x001aa5c0
-`WriteConsoleOutputCharacterA` | 1856 (0x740) | Exported Function | 0x101aa590 | 0x001aa590
-`WriteConsoleOutputAttribute` | 1855 (0x73f) | Exported Function | 0x101aa560 | 0x001aa560
-`WaitForSingleObjectEx` | 1813 (0x715) | Exported Function | 0x1010f600 | 0x0010f600
-`WriteConsoleOutputA` | 1854 (0x73e) | Exported Function | 0x101aa530 | 0x001aa530
-`WriteConsoleInputA` | 1852 (0x73c) | Exported Function | 0x101aa470 | 0x001aa470
-`WriteConsoleA` | 1851 (0x73b) | Exported Function | 0x101ab8b0 | 0x001ab8b0
-`wprintf` | 1899 (0x76b) | Exported Function | 0x1016e090 | 0x0016e090
-`Wow64Transition` | 7 (0x7) | Exported Function | 0x101dbaf0 | 0x001dbaf0
-`Wow64SuspendThread` | 1850 (0x73a) | Exported Function | 0x101b64e0 | 0x001b64e0
-`Wow64SetThreadDefaultGuestMachine` | 1849 (0x739) | Exported Function | 0x10172d60 | 0x00172d60
-`Wow64SetThreadContext` | 1848 (0x738) | Exported Function | 0x101b6260 | 0x001b6260
-`Wow64RevertWow64FsRedirection` | 1847 (0x737) | Exported Function | 0x10113af0 | 0x00113af0
-`Wow64GetThreadContext` | 1846 (0x736) | Exported Function | 0x101b5f10 | 0x001b5f10
-`Wow64DisableWow64FsRedirection` | 1845 (0x735) | Exported Function | 0x10113b20 | 0x00113b20
-`WideCharToMultiByte` | 1844 (0x734) | Exported Function | 0x10111930 | 0x00111930
-`WerUnregisterRuntimeExceptionModule` | 1841 (0x731) | Exported Function | 0x101551c0 | 0x001551c0
-`WriteConsoleInputW` | 1853 (0x73d) | Exported Function | 0x101aa500 | 0x001aa500
-`WaitForSingleObject` | 1812 (0x714) | Exported Function | 0x1010f5e0 | 0x0010f5e0
-`WaitForMultipleObjectsEx` | 1811 (0x713) | Exported Function | 0x10119620 | 0x00119620
-`WaitForMultipleObjects` | 1810 (0x712) | Exported Function | 0x101195f0 | 0x001195f0
-`VerifyPackageIdA` | 1782 (0x6f6) | Exported Function | 0x1018c800 | 0x0018c800
-`VerifyPackageId` | 1781 (0x6f5) | Exported Function | 0x1018c7e0 | 0x0018c7e0
-`VerifyPackageFullNameA` | 1780 (0x6f4) | Exported Function | 0x1018c7c0 | 0x0018c7c0
-`VerifyPackageFullName` | 1779 (0x6f3) | Exported Function | 0x1018c7a0 | 0x0018c7a0
-`VerifyPackageFamilyNameA` | 1778 (0x6f2) | Exported Function | 0x1018c760 | 0x0018c760
-`VerifyPackageFamilyName` | 1777 (0x6f1) | Exported Function | 0x1018c720 | 0x0018c720
-`VerifyApplicationUserModelIdA` | 1776 (0x6f0) | Exported Function | 0x1018c6e0 | 0x0018c6e0
-`VerifyApplicationUserModelId` | 1775 (0x6ef) | Exported Function | 0x1018c6a0 | 0x0018c6a0
-`VerFindFileW` | 1769 (0x6e9) | Exported Function | 0x10154980 | 0x00154980
-`VerFindFileA` | 1768 (0x6e8) | Exported Function | 0x10154190 | 0x00154190
-`UrlUnescapeW` | 1767 (0x6e7) | Exported Function | 0x1011a2f0 | 0x0011a2f0
-`UrlUnescapeA` | 1766 (0x6e6) | Exported Function | 0x101255e0 | 0x001255e0
-`VerifyPackagePublisher` | 1783 (0x6f7) | Exported Function | 0x1018c820 | 0x0018c820
-`UrlIsW` | 1765 (0x6e5) | Exported Function | 0x1011a820 | 0x0011a820
-`UrlIsOpaqueA` | 1763 (0x6e3) | Exported Function | 0x1015f260 | 0x0015f260
-`UrlIsNoHistoryW` | 1762 (0x6e2) | Exported Function | 0x101199a0 | 0x001199a0
-`UrlIsNoHistoryA` | 1761 (0x6e1) | Exported Function | 0x1015f240 | 0x0015f240
-`UrlIsA` | 1760 (0x6e0) | Exported Function | 0x1015f150 | 0x0015f150
-`UrlHashW` | 1759 (0x6df) | Exported Function | 0x1015f0d0 | 0x0015f0d0
-`UrlHashA` | 1758 (0x6de) | Exported Function | 0x1015f090 | 0x0015f090
-`UrlGetPartW` | 1757 (0x6dd) | Exported Function | 0x10119ed0 | 0x00119ed0
-`UrlGetPartA` | 1756 (0x6dc) | Exported Function | 0x1015ef40 | 0x0015ef40
-`UrlGetLocationW` | 1755 (0x6db) | Exported Function | 0x10119e70 | 0x00119e70
-`UrlGetLocationA` | 1754 (0x6da) | Exported Function | 0x1015eeb0 | 0x0015eeb0
-`UrlFixupW` | 1753 (0x6d9) | Exported Function | 0x1015eb50 | 0x0015eb50
-`UrlEscapeW` | 1752 (0x6d8) | Exported Function | 0x10119fd0 | 0x00119fd0
-`UrlIsOpaqueW` | 1764 (0x6e4) | Exported Function | 0x1015f280 | 0x0015f280
-`StrCatChainW` | 1638 (0x666) | Exported Function | 0x1015a930 | 0x0015a930
-`VerifyPackagePublisherA` | 1784 (0x6f8) | Exported Function | 0x1018c840 | 0x0018c840
-`VerifyPackageRelativeApplicationIdA` | 1786 (0x6fa) | Exported Function | 0x1018c8a0 | 0x0018c8a0
-`WaitForMachinePolicyForegroundProcessingInternal` | 1809 (0x711) | Exported Function | 0x101546f0 | 0x001546f0
-`WaitForDebugEventEx` | 1808 (0x710) | Exported Function | 0x101b2d40 | 0x001b2d40
-`WaitForDebugEvent` | 1807 (0x70f) | Exported Function | 0x101b2d20 | 0x001b2d20
-`WaitCommEvent` | 1806 (0x70e) | Exported Function | 0x101b4350 | 0x001b4350
-`VirtualUnlockEx` | 1803 (0x70b) | Exported Function | 0x101b02d0 | 0x001b02d0
-`VirtualUnlock` | 1802 (0x70a) | Exported Function | 0x100fcf00 | 0x000fcf00
-`VirtualQueryEx` | 1801 (0x709) | Exported Function | 0x101247a0 | 0x001247a0
-`VirtualQuery` | 1800 (0x708) | Exported Function | 0x10121ac0 | 0x00121ac0
-`VirtualProtectFromApp` | 1799 (0x707) | Exported Function | 0x101b0280 | 0x001b0280
-`VirtualProtectEx` | 1798 (0x706) | Exported Function | 0x101b0200 | 0x001b0200
-`VirtualProtect` | 1797 (0x705) | Exported Function | 0x10121ca0 | 0x00121ca0
-`VirtualLock` | 1796 (0x704) | Exported Function | 0x100fced0 | 0x000fced0
-`VerifyPackageRelativeApplicationId` | 1785 (0x6f9) | Exported Function | 0x1018c860 | 0x0018c860
-`VirtualFreeEx` | 1795 (0x703) | Exported Function | 0x10122b80 | 0x00122b80
-`VirtualAllocFromApp` | 1793 (0x701) | Exported Function | 0x101b01c0 | 0x001b01c0
-`VirtualAllocExNuma` | 1792 (0x700) | Exported Function | 0x10129410 | 0x00129410
-`VirtualAllocEx` | 1791 (0x6ff) | Exported Function | 0x100fb770 | 0x000fb770
-`VirtualAlloc2FromApp` | 1789 (0x6fd) | Exported Function | 0x101b0190 | 0x001b0190
-`VirtualAlloc2` | 1788 (0x6fc) | Exported Function | 0x101b0110 | 0x001b0110
-`VirtualAlloc` | 1790 (0x6fe) | Exported Function | 0x10122ed0 | 0x00122ed0
-`VerSetConditionMask` | 1774 (0x6ee) | Exported Function | NTDLL.VerSetConditionMask | 0x001d64c1
-`VerQueryValueW` | 1773 (0x6ed) | Exported Function | 0x101092d0 | 0x001092d0
-`VerQueryValueA` | 1772 (0x6ec) | Exported Function | 0x1012a620 | 0x0012a620
-`VerLanguageNameW` | 1771 (0x6eb) | Exported Function | 0x10164150 | 0x00164150
-`VerLanguageNameA` | 1770 (0x6ea) | Exported Function | 0x101640a0 | 0x001640a0
-`VerifyScripts` | 1787 (0x6fb) | Exported Function | 0x1016a220 | 0x0016a220
-`VirtualFree` | 1794 (0x702) | Exported Function | 0x10122b60 | 0x00122b60
-`StrCatBuffW` | 1637 (0x665) | Exported Function | 0x1015a900 | 0x0015a900
-`StrCatBuffA` | 1636 (0x664) | Exported Function | 0x1015a8d0 | 0x0015a8d0
-`StartThreadpoolIo` | 1631 (0x65f) | Exported Function | NTDLL.TpStartAsyncIoOperation | 0x001d5b4b
-`SetConsoleInputExeNameA` | 1512 (0x5e8) | Exported Function | 0x101a88d0 | 0x001a88d0
-`SetConsoleHistoryInfo` | 1511 (0x5e7) | Exported Function | 0x101ab370 | 0x001ab370
-`SetConsoleDisplayMode` | 1510 (0x5e6) | Exported Function | 0x101ab310 | 0x001ab310
-`SetConsoleCursorPosition` | 1509 (0x5e5) | Exported Function | 0x101ab2c0 | 0x001ab2c0
-`SetConsoleCursorInfo` | 1508 (0x5e4) | Exported Function | 0x101ab270 | 0x001ab270
-`SetConsoleCtrlHandler` | 1507 (0x5e3) | Exported Function | 0x101002a0 | 0x001002a0
-`SetConsoleCP` | 1506 (0x5e2) | Exported Function | 0x101ab220 | 0x001ab220
-`SetConsoleActiveScreenBuffer` | 1505 (0x5e1) | Exported Function | 0x101ab1e0 | 0x001ab1e0
-`SetComputerNameW` | 1504 (0x5e0) | Exported Function | 0x101bbac0 | 0x001bbac0
-`SetComputerNameExW` | 1503 (0x5df) | Exported Function | 0x101bbaa0 | 0x001bbaa0
-`SetComputerNameExA` | 1502 (0x5de) | Exported Function | 0x101bba30 | 0x001bba30
-`SetComputerNameEx2W` | 1501 (0x5dd) | Exported Function | 0x101bb950 | 0x001bb950
-`SetComputerNameA` | 1500 (0x5dc) | Exported Function | 0x101bb8d0 | 0x001bb8d0
-`SetCommTimeouts` | 1499 (0x5db) | Exported Function | 0x101b4120 | 0x001b4120
-`SetCommState` | 1498 (0x5da) | Exported Function | 0x101b3da0 | 0x001b3da0
-`SetCommMask` | 1497 (0x5d9) | Exported Function | 0x101b3cf0 | 0x001b3cf0
-`SetCommConfig` | 1496 (0x5d8) | Exported Function | 0x101b3c50 | 0x001b3c50
-`SetCommBreak` | 1495 (0x5d7) | Exported Function | 0x101b3c30 | 0x001b3c30
-`SetClientTimeZoneInformation` | 1494 (0x5d6) | Exported Function | 0x101b5280 | 0x001b5280
-`SetClientDynamicTimeZoneInformation` | 1493 (0x5d5) | Exported Function | 0x101b5230 | 0x001b5230
-`SetCalendarInfoW` | 1492 (0x5d4) | Exported Function | 0x10162e10 | 0x00162e10
-`SetCachedSigningLevel` | 1491 (0x5d3) | Exported Function | 0x101ad630 | 0x001ad630
-`SetAclInformation` | 1490 (0x5d2) | Exported Function | 0x101ad5f0 | 0x001ad5f0
-`SearchPathW` | 1489 (0x5d1) | Exported Function | 0x100ffed0 | 0x000ffed0
-`SearchPathA` | 1488 (0x5d0) | Exported Function | 0x10100170 | 0x00100170
-`SetConsoleInputExeNameW` | 1513 (0x5e9) | Exported Function | 0x101a8940 | 0x001a8940
-`SetConsoleMode` | 1514 (0x5ea) | Exported Function | 0x101ab3e0 | 0x001ab3e0
-`SetConsoleNumberOfCommandsA` | 1515 (0x5eb) | Exported Function | 0x101a89e0 | 0x001a89e0
-`SetConsoleNumberOfCommandsW` | 1516 (0x5ec) | Exported Function | 0x101a8a80 | 0x001a8a80
-`SetFileInformationByHandle` | 1542 (0x606) | Exported Function | 0x1012e230 | 0x0012e230
-`SetFileAttributesW` | 1541 (0x605) | Exported Function | 0x100f8fb0 | 0x000f8fb0
-`SetFileAttributesA` | 1540 (0x604) | Exported Function | 0x100f8f70 | 0x000f8f70
-`SetFileApisToOEM` | 1539 (0x603) | Exported Function | 0x101b0a60 | 0x001b0a60
-`SetFileApisToANSI` | 1538 (0x602) | Exported Function | 0x101b0a30 | 0x001b0a30
-`SetExtensionProperty` | 1537 (0x601) | Exported Function | 0x1018be20 | 0x0018be20
-`SetEventWhenCallbackReturns` | 1536 (0x600) | Exported Function | NTDLL.TpCallbackSetEventOnCompletion | 0x001d5296
-`SetEvent` | 1535 (0x5ff) | Exported Function | 0x1011d470 | 0x0011d470
-`SetErrorMode` | 1534 (0x5fe) | Exported Function | 0x1010fa30 | 0x0010fa30
-`SetEnvironmentVariableW` | 1533 (0x5fd) | Exported Function | 0x10128ae0 | 0x00128ae0
-`SetEnvironmentVariableA` | 1532 (0x5fc) | Exported Function | 0x101bbf30 | 0x001bbf30
-`SetEnvironmentStringsW` | 1531 (0x5fb) | Exported Function | 0x101bbe90 | 0x001bbe90
-`ScrollConsoleScreenBufferW` | 1487 (0x5cf) | Exported Function | 0x101ab1b0 | 0x001ab1b0
-`SetEndOfFile` | 1530 (0x5fa) | Exported Function | 0x100f7d20 | 0x000f7d20
-`SetDefaultDllDirectories` | 1528 (0x5f8) | Exported Function | 0x101af630 | 0x001af630
-`SetCurrentDirectoryW` | 1527 (0x5f7) | Exported Function | 0x100fb420 | 0x000fb420
-`SetCurrentDirectoryA` | 1526 (0x5f6) | Exported Function | 0x101bc990 | 0x001bc990
-`SetCurrentConsoleFontEx` | 1525 (0x5f5) | Exported Function | 0x101ab620 | 0x001ab620
-`SetCriticalSectionSpinCount` | 1524 (0x5f4) | Exported Function | NTDLL.RtlSetCriticalSectionSpinCount | 0x001d5172
-`SetConsoleWindowInfo` | 1523 (0x5f3) | Exported Function | 0x101ab5c0 | 0x001ab5c0
-`SetConsoleTitleW` | 1522 (0x5f2) | Exported Function | 0x101a8b60 | 0x001a8b60
-`SetConsoleTitleA` | 1521 (0x5f1) | Exported Function | 0x101a8aa0 | 0x001a8aa0
-`SetConsoleTextAttribute` | 1520 (0x5f0) | Exported Function | 0x101ab570 | 0x001ab570
-`SetConsoleScreenBufferSize` | 1519 (0x5ef) | Exported Function | 0x101ab520 | 0x001ab520
-`SetConsoleScreenBufferInfoEx` | 1518 (0x5ee) | Exported Function | 0x101ab480 | 0x001ab480
-`SetConsoleOutputCP` | 1517 (0x5ed) | Exported Function | 0x101ab430 | 0x001ab430
-`SetDynamicTimeZoneInformation` | 1529 (0x5f9) | Exported Function | 0x101b53d0 | 0x001b53d0
-`ScrollConsoleScreenBufferA` | 1486 (0x5ce) | Exported Function | 0x101ab110 | 0x001ab110
-`SaveStateRootFolderPath` | 1485 (0x5cd) | Exported Function | 0x10178580 | 0x00178580
-`SaveAlternatePackageRootPath` | 1484 (0x5cc) | Exported Function | 0x10179930 | 0x00179930
-`ReleaseMutexWhenCallbackReturns` | 1423 (0x58f) | Exported Function | NTDLL.TpCallbackReleaseMutexOnCompletion | 0x001d4840
-`ReleaseMutex` | 1422 (0x58e) | Exported Function | 0x10112620 | 0x00112620
-`ReleaseActCtx` | 1421 (0x58d) | Exported Function | 0x10125b90 | 0x00125b90
-`RegUnLoadKeyW` | 1413 (0x585) | Exported Function | 0x10171b20 | 0x00171b20
-`RegUnLoadKeyA` | 1412 (0x584) | Exported Function | 0x10171a20 | 0x00171a20
-`RegSetValueExW` | 1411 (0x583) | Exported Function | 0x10102b70 | 0x00102b70
-`RegSetValueExA` | 1410 (0x582) | Exported Function | 0x100f5930 | 0x000f5930
-`RegSetKeyValueW` | 1409 (0x581) | Exported Function | 0x10101500 | 0x00101500
-`RegSetKeyValueA` | 1408 (0x580) | Exported Function | 0x101710a0 | 0x001710a0
-`RegSetKeySecurity` | 1407 (0x57f) | Exported Function | 0x10171270 | 0x00171270
-`RegSaveKeyExW` | 1406 (0x57e) | Exported Function | 0x10172a20 | 0x00172a20
-`RegSaveKeyExA` | 1405 (0x57d) | Exported Function | 0x101728b0 | 0x001728b0
-`ReleaseSemaphore` | 1426 (0x592) | Exported Function | 0x10122bf0 | 0x00122bf0
-`RegRestoreKeyW` | 1404 (0x57c) | Exported Function | 0x101727b0 | 0x001727b0
-`RegQueryValueExW` | 1402 (0x57a) | Exported Function | 0x101049a0 | 0x001049a0
-`RegQueryValueExA` | 1401 (0x579) | Exported Function | 0x101046a0 | 0x001046a0
-`RegQueryMultipleValuesW` | 1400 (0x578) | Exported Function | 0x10172270 | 0x00172270
-`RegQueryMultipleValuesA` | 1399 (0x577) | Exported Function | 0x10171c20 | 0x00171c20
-`RegQueryInfoKeyW` | 1398 (0x576) | Exported Function | 0x10103880 | 0x00103880
-`RegQueryInfoKeyA` | 1397 (0x575) | Exported Function | 0x100f4c70 | 0x000f4c70
-`RegOpenUserClassesRoot` | 1396 (0x574) | Exported Function | 0x10128bf0 | 0x00128bf0
-`RegOpenKeyExW` | 1395 (0x573) | Exported Function | 0x10104f50 | 0x00104f50
-`RegOpenKeyExInternalW` | 1394 (0x572) | Exported Function | 0x10104f80 | 0x00104f80
-`RegOpenKeyExInternalA` | 1393 (0x571) | Exported Function | 0x10104190 | 0x00104190
-`RegOpenKeyExA` | 1392 (0x570) | Exported Function | 0x10104160 | 0x00104160
-`RegOpenCurrentUser` | 1391 (0x56f) | Exported Function | 0x10128480 | 0x00128480
-`RegRestoreKeyA` | 1403 (0x57b) | Exported Function | 0x10172690 | 0x00172690
-`SetFileIoOverlappedRange` | 1543 (0x607) | Exported Function | 0x101b8d00 | 0x001b8d00
-`ReleaseSemaphoreWhenCallbackReturns` | 1427 (0x593) | Exported Function | NTDLL.TpCallbackReleaseSemaphoreOnCompletion | 0x001d490a
-`ReleaseSRWLockShared` | 1425 (0x591) | Exported Function | NTDLL.RtlReleaseSRWLockShared | 0x001d48b7
-`RsopLoggingEnabledInternal` | 1452 (0x5ac) | Exported Function | 0x101546d0 | 0x001546d0
-`RevertToSelf` | 1451 (0x5ab) | Exported Function | 0x10123040 | 0x00123040
-`ResumeThread` | 1450 (0x5aa) | Exported Function | 0x1012a040 | 0x0012a040
-`RestoreThreadPreferredUILanguages` | 1449 (0x5a9) | Exported Function | 0x10169b90 | 0x00169b90
-`RestoreLastError` | 1448 (0x5a8) | Exported Function | NTDLL.RtlRestoreLastWin32Error | 0x001d4b38
-`ResolveLocaleName` | 1447 (0x5a7) | Exported Function | 0x100f8810 | 0x000f8810
-`ResolveDelayLoadsFromDll` | 1446 (0x5a6) | Exported Function | 0x101af610 | 0x001af610
-`ResolveDelayLoadedAPI` | 1445 (0x5a5) | Exported Function | 0x10125150 | 0x00125150
-`ResizePseudoConsole` | 1444 (0x5a4) | Exported Function | 0x101a94c0 | 0x001a94c0
-`ResetWriteWatch` | 1443 (0x5a3) | Exported Function | 0x10123120 | 0x00123120
-`ResetState` | 1442 (0x5a2) | Exported Function | 0x101798b0 | 0x001798b0
-`ResetEvent` | 1441 (0x5a1) | Exported Function | 0x10121cf0 | 0x00121cf0
-`ReleaseSRWLockExclusive` | 1424 (0x590) | Exported Function | NTDLL.RtlReleaseSRWLockExclusive | 0x001d4881
-`ReplaceFileW` | 1440 (0x5a0) | Exported Function | 0x1011daa0 | 0x0011daa0
-`ReOpenFile` | 1327 (0x52f) | Exported Function | 0x10155f60 | 0x00155f60
-`RemoveVectoredExceptionHandler` | 1438 (0x59e) | Exported Function | NTDLL.RtlRemoveVectoredExceptionHandler | 0x001d4a61
-`RemoveVectoredContinueHandler` | 1437 (0x59d) | Exported Function | NTDLL.RtlRemoveVectoredContinueHandler | 0x001d4a1b
-`RemovePackageStatusForUser` | 1436 (0x59c) | Exported Function | 0x1018f6e0 | 0x0018f6e0
-`RemovePackageStatus` | 1435 (0x59b) | Exported Function | 0x1018f6c0 | 0x0018f6c0
-`RemovePackageFromFamilyXref` | 1434 (0x59a) | Exported Function | 0x1018ad00 | 0x0018ad00
-`RemoveExtensionProgIds` | 1433 (0x599) | Exported Function | 0x10189200 | 0x00189200
-`RemoveDllDirectory` | 1432 (0x598) | Exported Function | 0x101af5e0 | 0x001af5e0
-`RemoveDirectoryW` | 1431 (0x597) | Exported Function | 0x101b80d0 | 0x001b80d0
-`RemoveDirectoryA` | 1430 (0x596) | Exported Function | 0x101b8090 | 0x001b8090
-`RemapPredefinedHandleInternal` | 1429 (0x595) | Exported Function | 0x10170480 | 0x00170480
-`ReleaseStateLock` | 1428 (0x594) | Exported Function | 0x10179830 | 0x00179830
-`ReplaceFileExInternal` | 1439 (0x59f) | Exported Function | 0x1011dad0 | 0x0011dad0
-`RegLoadMUIStringW` | 1389 (0x56d) | Exported Function | 0x101178b0 | 0x001178b0
-`SetFilePointer` | 1544 (0x608) | Exported Function | 0x1011bb50 | 0x0011bb50
-`SetFileSecurityW` | 1546 (0x60a) | Exported Function | 0x101ad670 | 0x001ad670
-`SHRegCreateUSKeyW` | 1460 (0x5b4) | Exported Function | 0x101003c0 | 0x001003c0
-`SHRegCreateUSKeyA` | 1459 (0x5b3) | Exported Function | 0x1015c4d0 | 0x0015c4d0
-`SHRegCloseUSKey` | 1458 (0x5b2) | Exported Function | 0x101022d0 | 0x001022d0
-`SHLoadIndirectStringInternal` | 1457 (0x5b1) | Exported Function | 0x10116a10 | 0x00116a10
-`SHLoadIndirectString` | 1456 (0x5b0) | Exported Function | 0x101169f0 | 0x001169f0
-`SHExpandEnvironmentStringsW` | 1455 (0x5af) | Exported Function | 0x10101eb0 | 0x00101eb0
-`SHExpandEnvironmentStringsA` | 1454 (0x5ae) | Exported Function | 0x1016f2a0 | 0x0016f2a0
-`SHCoCreateInstance` | 1453 (0x5ad) | Exported Function | 0x101265d0 | 0x001265d0
-`SharedLocalIsEnabled` | 1623 (0x657) | Exported Function | 0x10179a70 | 0x00179a70
-`SetXStateFeaturesMask` | 1621 (0x655) | Exported Function | 0x1015baa0 | 0x0015baa0
-`SetWaitableTimerEx` | 1620 (0x654) | Exported Function | 0x1011d550 | 0x0011d550
-`SetWaitableTimer` | 1619 (0x653) | Exported Function | 0x100f1c60 | 0x000f1c60
-`SetUserGeoName` | 1618 (0x652) | Exported Function | 0x1016c2e0 | 0x0016c2e0
-`SetUserGeoID` | 1617 (0x651) | Exported Function | 0x1016c2c0 | 0x0016c2c0
-`SetupComm` | 1622 (0x656) | Exported Function | 0x101b41f0 | 0x001b41f0
-`SetUnhandledExceptionFilter` | 1616 (0x650) | Exported Function | 0x10124610 | 0x00124610
-`SetTokenInformation` | 1615 (0x64f) | Exported Function | 0x101ad8c0 | 0x001ad8c0
-`SetTimeZoneInformation` | 1614 (0x64e) | Exported Function | 0x101b56e0 | 0x001b56e0
-`SetThreadUILanguage` | 1606 (0x646) | Exported Function | 0x10169bf0 | 0x00169bf0
-`SetThreadToken` | 1605 (0x645) | Exported Function | 0x10129fd0 | 0x00129fd0
-`SetThreadStackGuarantee` | 1604 (0x644) | Exported Function | 0x10129e80 | 0x00129e80
-`SetThreadSelectedCpuSets` | 1603 (0x643) | Exported Function | 0x101b6460 | 0x001b6460
-`SetThreadPriorityBoost` | 1602 (0x642) | Exported Function | 0x101b6420 | 0x001b6420
-`SetThreadPriority` | 1601 (0x641) | Exported Function | 0x10121fd0 | 0x00121fd0
-`SetThreadPreferredUILanguages2` | 1599 (0x63f) | Exported Function | 0x10113f70 | 0x00113f70
-`SHRegDeleteEmptyUSKeyA` | 1461 (0x5b5) | Exported Function | 0x1015c540 | 0x0015c540
-`SHRegDeleteEmptyUSKeyW` | 1462 (0x5b6) | Exported Function | 0x1015c5b0 | 0x0015c5b0
-`SHRegDeleteUSValueA` | 1463 (0x5b7) | Exported Function | 0x1015c5d0 | 0x0015c5d0
-`SHRegDeleteUSValueW` | 1464 (0x5b8) | Exported Function | 0x1015c640 | 0x0015c640
-`SpecialMBToWC` | 1630 (0x65e) | Exported Function | 0x1012b710 | 0x0012b710
-`SleepEx` | 1629 (0x65d) | Exported Function | 0x10122df0 | 0x00122df0
-`SleepConditionVariableSRW` | 1628 (0x65c) | Exported Function | 0x10122d80 | 0x00122d80
-`SleepConditionVariableCS` | 1627 (0x65b) | Exported Function | 0x101b2720 | 0x001b2720
-`Sleep` | 1626 (0x65a) | Exported Function | 0x10122dd0 | 0x00122dd0
-`SizeofResource` | 1625 (0x659) | Exported Function | 0x1011d880 | 0x0011d880
-`SignalObjectAndWait` | 1624 (0x658) | Exported Function | 0x101b2620 | 0x001b2620
-`SHTruncateString` | 1483 (0x5cb) | Exported Function | 0x1016f2f0 | 0x0016f2f0
-`SHRegWriteUSValueW` | 1482 (0x5ca) | Exported Function | 0x10100b00 | 0x00100b00
-`SHRegWriteUSValueA` | 1481 (0x5c9) | Exported Function | 0x10170000 | 0x00170000
-`SHRegSetUSValueW` | 1480 (0x5c8) | Exported Function | 0x1016e6f0 | 0x0016e6f0
-`SHRegSetUSValueA` | 1479 (0x5c7) | Exported Function | 0x1016ffb0 | 0x0016ffb0
-`SetThreadPreferredUILanguages` | 1600 (0x640) | Exported Function | 0x10113f50 | 0x00113f50
-`SHRegQueryUSValueW` | 1478 (0x5c6) | Exported Function | 0x101021a0 | 0x001021a0
-`SHRegQueryInfoUSKeyW` | 1476 (0x5c4) | Exported Function | 0x101005b0 | 0x001005b0
-`SHRegQueryInfoUSKeyA` | 1475 (0x5c3) | Exported Function | 0x1016fec0 | 0x0016fec0
-`SHRegOpenUSKeyW` | 1474 (0x5c2) | Exported Function | 0x101064c0 | 0x001064c0
-`SHRegOpenUSKeyA` | 1473 (0x5c1) | Exported Function | 0x10100c60 | 0x00100c60
-`SHRegGetUSValueW` | 1472 (0x5c0) | Exported Function | 0x10100660 | 0x00100660
-`SHRegGetUSValueA` | 1471 (0x5bf) | Exported Function | 0x10100cd0 | 0x00100cd0
-`SHRegGetBoolUSValueW` | 1470 (0x5be) | Exported Function | 0x1012dfd0 | 0x0012dfd0
-`SHRegGetBoolUSValueA` | 1469 (0x5bd) | Exported Function | 0x1015c660 | 0x0015c660
-`SHRegEnumUSValueW` | 1468 (0x5bc) | Exported Function | 0x10100ba0 | 0x00100ba0
-`SHRegEnumUSValueA` | 1467 (0x5bb) | Exported Function | 0x1016fda0 | 0x0016fda0
-`SHRegEnumUSKeyW` | 1466 (0x5ba) | Exported Function | 0x10101580 | 0x00101580
-`SHRegEnumUSKeyA` | 1465 (0x5b9) | Exported Function | 0x1016fca0 | 0x0016fca0
-`SHRegQueryUSValueA` | 1477 (0x5c5) | Exported Function | 0x10100d60 | 0x00100d60
-`SetThreadpoolWaitEx` | 1613 (0x64d) | Exported Function | NTDLL.TpSetWaitEx | 0x001d59f9
-`SetThreadpoolWait` | 1612 (0x64c) | Exported Function | NTDLL.TpSetWait | 0x001d59d5
-`SetThreadpoolTimerEx` | 1611 (0x64b) | Exported Function | NTDLL.TpSetTimerEx | 0x001d59b0
-`SetProcessValidCallTargetsForMappedView` | 1572 (0x624) | Exported Function | 0x101afe40 | 0x001afe40
-`SetProcessValidCallTargets` | 1571 (0x623) | Exported Function | 0x101afe10 | 0x001afe10
-`SetProcessShutdownParameters` | 1570 (0x622) | Exported Function | 0x100fce70 | 0x000fce70
-`SetProcessPriorityBoost` | 1569 (0x621) | Exported Function | 0x101ba250 | 0x001ba250
-`SetProcessPreferredUILanguages` | 1568 (0x620) | Exported Function | 0x10169bb0 | 0x00169bb0
-`SetProcessMitigationPolicy` | 1567 (0x61f) | Exported Function | 0x100fae70 | 0x000fae70
-`SetProcessInformation` | 1566 (0x61e) | Exported Function | 0x100fc7d0 | 0x000fc7d0
-`SetProcessGroupAffinity` | 1565 (0x61d) | Exported Function | 0x101ba1c0 | 0x001ba1c0
-`SetProcessDynamicEHContinuationTargets` | 1564 (0x61c) | Exported Function | 0x10132250 | 0x00132250
-`SetProcessDefaultCpuSets` | 1563 (0x61b) | Exported Function | 0x101ba140 | 0x001ba140
-`SetProcessAffinityUpdateMode` | 1562 (0x61a) | Exported Function | 0x101ba0f0 | 0x001ba0f0
-`SetPrivateObjectSecurityEx` | 1561 (0x619) | Exported Function | 0x101ad7d0 | 0x001ad7d0
-`SetProcessWorkingSetSizeEx` | 1573 (0x625) | Exported Function | 0x101aff80 | 0x001aff80
-`SetPrivateObjectSecurity` | 1560 (0x618) | Exported Function | 0x101ad790 | 0x001ad790
-`SetNamedPipeHandleState` | 1558 (0x616) | Exported Function | 0x1012ae10 | 0x0012ae10
-`SetLocalTime` | 1556 (0x614) | Exported Function | 0x101b5470 | 0x001b5470
-`SetLocaleInfoW` | 1557 (0x615) | Exported Function | 0x10163a30 | 0x00163a30
-`SetLastError` | 1555 (0x613) | Exported Function | NTDLL.RtlSetLastWin32Error | 0x001d5430
-`SetLastConsoleEventActive` | 1554 (0x612) | Exported Function | 0x101aaa90 | 0x001aaa90
-`SetKernelObjectSecurity` | 1553 (0x611) | Exported Function | 0x1012abb0 | 0x0012abb0
-`SetIsSideloadingEnabled` | 1552 (0x610) | Exported Function | 0x101a19c0 | 0x001a19c0
-`SetIsDeveloperModeEnabled` | 1551 (0x60f) | Exported Function | 0x101a1970 | 0x001a1970
-`SetHandleInformation` | 1550 (0x60e) | Exported Function | 0x100f63a0 | 0x000f63a0
-`SetHandleCount` | 1549 (0x60d) | Exported Function | 0x101259a0 | 0x001259a0
-`SetFileValidData` | 1548 (0x60c) | Exported Function | 0x101b22a0 | 0x001b22a0
-`SetFileTime` | 1547 (0x60b) | Exported Function | 0x100fc8c0 | 0x000fc8c0
-`SetPriorityClass` | 1559 (0x617) | Exported Function | 0x100f1ea0 | 0x000f1ea0
-`SetFilePointerEx` | 1545 (0x609) | Exported Function | 0x10126240 | 0x00126240
-`SetProtectedPolicy` | 1574 (0x626) | Exported Function | 0x100fcea0 | 0x000fcea0
-`SetRoamingLastObservedChangeTime` | 1576 (0x628) | Exported Function | 0x10179950 | 0x00179950
-`SetThreadpoolTimer` | 1610 (0x64a) | Exported Function | NTDLL.TpSetTimer | 0x001d598a
-`SetThreadpoolThreadMinimum` | 1609 (0x649) | Exported Function | 0x1012ab80 | 0x0012ab80
-`SetThreadpoolThreadMaximum` | 1608 (0x648) | Exported Function | NTDLL.TpSetPoolMaxThreads | 0x001d5942
-`SetThreadpoolStackInformation` | 1607 (0x647) | Exported Function | 0x1016d670 | 0x0016d670
-`SetThreadLocale` | 1598 (0x63e) | Exported Function | 0x100f81c0 | 0x000f81c0
-`SetThreadInformation` | 1597 (0x63d) | Exported Function | 0x101b6370 | 0x001b6370
-`SetThreadIdealProcessorEx` | 1596 (0x63c) | Exported Function | 0x101b6320 | 0x001b6320
-`SetThreadIdealProcessor` | 1595 (0x63b) | Exported Function | 0x100fc540 | 0x000fc540
-`SetThreadGroupAffinity` | 1594 (0x63a) | Exported Function | 0x101b6290 | 0x001b6290
-`SetThreadErrorMode` | 1593 (0x639) | Exported Function | 0x100fb7a0 | 0x000fb7a0
-`SetThreadDescription` | 1592 (0x638) | Exported Function | 0x100fb380 | 0x000fb380
-`SetThreadContext` | 1591 (0x637) | Exported Function | 0x101b6260 | 0x001b6260
-`SetProtocolProperty` | 1575 (0x627) | Exported Function | 0x1018faf0 | 0x0018faf0
-`SetSystemTimeAdjustmentPrecise` | 1590 (0x636) | Exported Function | 0x101b5670 | 0x001b5670
-`SetSystemTime` | 1588 (0x634) | Exported Function | 0x101b5560 | 0x001b5560
-`SetSystemFileCacheSize` | 1587 (0x633) | Exported Function | 0x101b0040 | 0x001b0040
-`SetStdHandleEx` | 1586 (0x632) | Exported Function | 0x101bd310 | 0x001bd310
-`SetStdHandle` | 1585 (0x631) | Exported Function | 0x101bd2a0 | 0x001bd2a0
-`SetStateVersion` | 1584 (0x630) | Exported Function | 0x101799e0 | 0x001799e0
-`SetSecurityDescriptorSacl` | 1583 (0x62f) | Exported Function | 0x1012afa0 | 0x0012afa0
-`SetSecurityDescriptorRMControl` | 1582 (0x62e) | Exported Function | 0x101ad8a0 | 0x001ad8a0
-`SetSecurityDescriptorOwner` | 1581 (0x62d) | Exported Function | 0x1012ac10 | 0x0012ac10
-`SetSecurityDescriptorGroup` | 1580 (0x62c) | Exported Function | 0x1012b0c0 | 0x0012b0c0
-`SetSecurityDescriptorDacl` | 1579 (0x62b) | Exported Function | 0x10123850 | 0x00123850
-`SetSecurityDescriptorControl` | 1578 (0x62a) | Exported Function | 0x1012b0f0 | 0x0012b0f0
-`SetSecurityAccessMask` | 1577 (0x629) | Exported Function | 0x101ad810 | 0x001ad810
-`SetSystemTimeAdjustment` | 1589 (0x635) | Exported Function | 0x101b5630 | 0x001b5630
-`WTSIsServerContainer` | 1805 (0x70d) | Exported Function | 0x101bd3f0 | 0x001bd3f0
-`IsMrtResourceRedirectionEnabled` | 934 (0x3a6) | Exported Function | 0x1018fbd0 | 0x0018fbd0
-`IsEnclaveTypeSupported` | 932 (0x3a4) | Exported Function | 0x101b1230 | 0x001b1230
-`EnumPageFilesA` | 311 (0x137) | Exported Function | 0x101740a0 | 0x001740a0
-`EnumLanguageGroupLocalesW` | 310 (0x136) | Exported Function | 0x10164370 | 0x00164370
-`EnumerateStateContainerItems` | 336 (0x150) | Exported Function | 0x101784c0 | 0x001784c0
-`EnumerateStateAtomValues` | 335 (0x14f) | Exported Function | 0x10178410 | 0x00178410
-`EnumerateExtensionNames` | 334 (0x14e) | Exported Function | 0x1018b410 | 0x0018b410
-`EnumDynamicTimeZoneInformation` | 309 (0x135) | Exported Function | 0x101b4900 | 0x001b4900
-`EnumDeviceDrivers` | 308 (0x134) | Exported Function | 0x10173d10 | 0x00173d10
-`EnumDateFormatsW` | 307 (0x133) | Exported Function | 0x100f4000 | 0x000f4000
-`EnumDateFormatsExW` | 306 (0x132) | Exported Function | 0x10164340 | 0x00164340
-`EnumDateFormatsExEx` | 305 (0x131) | Exported Function | 0x10164310 | 0x00164310
-`EnumCalendarInfoW` | 304 (0x130) | Exported Function | 0x101642e0 | 0x001642e0
-`EnumCalendarInfoExW` | 303 (0x12f) | Exported Function | 0x100f3d10 | 0x000f3d10
-`EnumCalendarInfoExEx` | 302 (0x12e) | Exported Function | 0x10164290 | 0x00164290
-`EnterSynchronizationBarrier` | 301 (0x12d) | Exported Function | 0x101b2490 | 0x001b2490
-`EnterCriticalSection` | 300 (0x12c) | Exported Function | NTDLL.RtlEnterCriticalSection | 0x001ce719
-`EnterCriticalPolicySectionInternal` | 299 (0x12b) | Exported Function | 0x101543d0 | 0x001543d0
-`EncodeSystemPointer` | 298 (0x12a) | Exported Function | NTDLL.RtlEncodeSystemPointer | 0x001ce6c4
-`EncodeRemotePointer` | 297 (0x129) | Exported Function | NTDLL.RtlEncodeRemotePointer | 0x001ce693
-`EncodePointer` | 296 (0x128) | Exported Function | NTDLL.RtlEncodePointer | 0x001ce668
-`EmptyWorkingSet` | 295 (0x127) | Exported Function | 0x10173b40 | 0x00173b40
-`DuplicateTokenEx` | 294 (0x126) | Exported Function | 0x10126150 | 0x00126150
-`DuplicateToken` | 293 (0x125) | Exported Function | 0x10126120 | 0x00126120
-`DuplicateStateContainerHandle` | 292 (0x124) | Exported Function | 0x101783b0 | 0x001783b0
-`DuplicateHandle` | 291 (0x123) | Exported Function | 0x1011e220 | 0x0011e220
-`DsWriteNgcKeyW` | 290 (0x122) | Exported Function | 0x10154e50 | 0x00154e50
-`EnumPageFilesW` | 312 (0x138) | Exported Function | 0x101740f0 | 0x001740f0
-`EnumProcesses` | 315 (0x13b) | Exported Function | 0x100f4f20 | 0x000f4f20
-`EnumProcessModules` | 313 (0x139) | Exported Function | 0x100f2840 | 0x000f2840
-`EnumProcessModulesEx` | 314 (0x13a) | Exported Function | 0x101744c0 | 0x001744c0
-`EventRegister` | 344 (0x158) | Exported Function | NTDLL.EtwEventRegister | 0x001ceafa
-`EventProviderEnabled` | 343 (0x157) | Exported Function | NTDLL.EtwEventProviderEnabled | 0x001ceace
-`EventEnabled` | 342 (0x156) | Exported Function | NTDLL.EtwEventEnabled | 0x001ceaa3
-`EventActivityIdControl` | 341 (0x155) | Exported Function | NTDLL.EtwEventActivityIdControl | 0x001cea76
-`EscapeCommFunction` | 340 (0x154) | Exported Function | 0x101b3050 | 0x001b3050
-`EqualSid` | 339 (0x153) | Exported Function | 0x10127de0 | 0x00127de0
-`EqualPrefixSid` | 338 (0x152) | Exported Function | 0x101acf90 | 0x001acf90
-`EqualDomainSid` | 337 (0x151) | Exported Function | 0x101acc30 | 0x001acc30
-`EnumUILanguagesW` | 333 (0x14d) | Exported Function | 0x100f9440 | 0x000f9440
-`EnumTimeFormatsW` | 332 (0x14c) | Exported Function | 0x100f3d40 | 0x000f3d40
-`EnumTimeFormatsEx` | 331 (0x14b) | Exported Function | 0x101643e0 | 0x001643e0
-`EnumSystemLocalesW` | 330 (0x14a) | Exported Function | 0x100f2220 | 0x000f2220
-`DsUnBindW` | 289 (0x121) | Exported Function | 0x10154e20 | 0x00154e20
-`EnumSystemLocalesEx` | 329 (0x149) | Exported Function | 0x100f2240 | 0x000f2240
-`EnumSystemLanguageGroupsW` | 327 (0x147) | Exported Function | 0x101643c0 | 0x001643c0
-`EnumSystemGeoNames` | 326 (0x146) | Exported Function | 0x1016bb70 | 0x0016bb70
-`EnumSystemGeoID` | 325 (0x145) | Exported Function | 0x1016bac0 | 0x0016bac0
-`EnumSystemFirmwareTables` | 324 (0x144) | Exported Function | 0x101bbb70 | 0x001bbb70
-`EnumSystemCodePagesW` | 323 (0x143) | Exported Function | 0x101643a0 | 0x001643a0
-`EnumResourceTypesExW` | 322 (0x142) | Exported Function | 0x101ae4e0 | 0x001ae4e0
-`EnumResourceTypesExA` | 321 (0x141) | Exported Function | 0x101ae4b0 | 0x001ae4b0
-`EnumResourceNamesW` | 320 (0x140) | Exported Function | 0x100f2980 | 0x000f2980
-`EnumResourceNamesExW` | 319 (0x13f) | Exported Function | 0x100f29b0 | 0x000f29b0
-`EnumResourceNamesExA` | 318 (0x13e) | Exported Function | 0x101ae450 | 0x001ae450
-`EnumResourceLanguagesExW` | 317 (0x13d) | Exported Function | 0x101adb90 | 0x001adb90
-`EnumResourceLanguagesExA` | 316 (0x13c) | Exported Function | 0x101adb10 | 0x001adb10
-`EnumSystemLocalesA` | 328 (0x148) | Exported Function | 0x10161b60 | 0x00161b60
-`EventSetInformation` | 345 (0x159) | Exported Function | NTDLL.EtwEventSetInformation | 0x001ceb25
-`DsReadNgcKeyW` | 288 (0x120) | Exported Function | 0x10154df0 | 0x00154df0
-`DsGetDomainControllerInfoW` | 286 (0x11e) | Exported Function | 0x10154d90 | 0x00154d90
-`DelayLoadFailureHookLookup` | 255 (0xff) | Exported Function | 0x10172db0 | 0x00172db0
-`DelayLoadFailureHook` | 254 (0xfe) | Exported Function | 0x101adac0 | 0x001adac0
-`DefineDosDeviceW` | 253 (0xfd) | Exported Function | 0x101ba5e0 | 0x001ba5e0
-`DecodeSystemPointer` | 252 (0xfc) | Exported Function | NTDLL.RtlDecodeSystemPointer | 0x001ce25a
-`DecodeRemotePointer` | 251 (0xfb) | Exported Function | NTDLL.RtlDecodeRemotePointer | 0x001ce229
-`DecodePointer` | 250 (0xfa) | Exported Function | NTDLL.RtlDecodePointer | 0x001ce1fe
-`DebugBreak` | 249 (0xf9) | Exported Function | 0x1015f380 | 0x0015f380
-`DebugActiveProcessStop` | 248 (0xf8) | Exported Function | 0x101b2a00 | 0x001b2a00
-`DebugActiveProcess` | 247 (0xf7) | Exported Function | 0x101b29a0 | 0x001b29a0
-`DeactivateActCtx` | 246 (0xf6) | Exported Function | 0x10125010 | 0x00125010
-`CveEventWrite` | 245 (0xf5) | Exported Function | 0x101aca70 | 0x001aca70
-`CtrlRoutine` | 244 (0xf4) | Exported Function | 0x101aa870 | 0x001aa870
-`CreateWellKnownSid` | 243 (0xf3) | Exported Function | 0x10121e00 | 0x00121e00
-`CreateWaitableTimerW` | 242 (0xf2) | Exported Function | 0x100fd460 | 0x000fd460
-`CreateWaitableTimerExW` | 241 (0xf1) | Exported Function | 0x1011d4a0 | 0x0011d4a0
-`CreateTimerQueueTimer` | 240 (0xf0) | Exported Function | 0x100f9390 | 0x000f9390
-`CreateTimerQueue` | 239 (0xef) | Exported Function | 0x101b2810 | 0x001b2810
-`CreateThreadpoolWork` | 238 (0xee) | Exported Function | 0x10129290 | 0x00129290
-`CreateThreadpoolWait` | 237 (0xed) | Exported Function | 0x10129470 | 0x00129470
-`CreateThreadpoolTimer` | 236 (0xec) | Exported Function | 0x10127350 | 0x00127350
-`CreateThreadpoolIo` | 235 (0xeb) | Exported Function | 0x1012a3b0 | 0x0012a3b0
-`CreateThreadpoolCleanupGroup` | 234 (0xea) | Exported Function | 0x1012ac40 | 0x0012ac40
-`CreateThreadpool` | 233 (0xe9) | Exported Function | 0x1012a840 | 0x0012a840
-`CreateThread` | 232 (0xe8) | Exported Function | 0x101b5e90 | 0x001b5e90
-`CreateSymbolicLinkW` | 231 (0xe7) | Exported Function | 0x10159430 | 0x00159430
-`DeleteAce` | 256 (0x100) | Exported Function | 0x100fc2f0 | 0x000fc2f0
-`DeleteBoundaryDescriptor` | 257 (0x101) | Exported Function | 0x100fd1b0 | 0x000fd1b0
-`DeleteCriticalSection` | 258 (0x102) | Exported Function | NTDLL.RtlDeleteCriticalSection | 0x001ce2f1
-`DeleteEnclave` | 259 (0x103) | Exported Function | 0x101b11c0 | 0x001b11c0
-`DsFreePasswordCredentials` | 285 (0x11d) | Exported Function | 0x10154d70 | 0x00154d70
-`DsFreeNgcKey` | 284 (0x11c) | Exported Function | 0x10154d50 | 0x00154d50
-`DsFreeNameResultW` | 283 (0x11b) | Exported Function | 0x10154d30 | 0x00154d30
-`DsFreeDomainControllerInfoW` | 282 (0x11a) | Exported Function | 0x10154d10 | 0x00154d10
-`DsCrackNamesW` | 281 (0x119) | Exported Function | 0x10154ce0 | 0x00154ce0
-`DsBindWithSpnExW` | 280 (0x118) | Exported Function | 0x10154cb0 | 0x00154cb0
-`DnsHostnameToComputerNameExW` | 279 (0x117) | Exported Function | 0x101bb6a0 | 0x001bb6a0
-`DisconnectNamedPipe` | 278 (0x116) | Exported Function | 0x101b14c0 | 0x001b14c0
-`DiscardVirtualMemory` | 277 (0x115) | Exported Function | 0x101af760 | 0x001af760
-`DisassociateCurrentThreadFromCallback` | 276 (0x114) | Exported Function | NTDLL.TpDisassociateCallback | 0x001ce4c8
-`DisableThreadLibraryCalls` | 275 (0x113) | Exported Function | 0x101261e0 | 0x001261e0
-`DisablePredefinedHandleTableInternal` | 274 (0x112) | Exported Function | 0x10170330 | 0x00170330
-`DsMakePasswordCredentialsW` | 287 (0x11f) | Exported Function | 0x10154dc0 | 0x00154dc0
-`DeviceIoControl` | 273 (0x111) | Exported Function | 0x1010d760 | 0x0010d760
-`DeriveCapabilitySidsFromName` | 271 (0x10f) | Exported Function | 0x101acb50 | 0x001acb50
-`DeleteVolumeMountPointW` | 270 (0x10e) | Exported Function | 0x101bab70 | 0x001bab70
-`DeleteTimerQueueTimer` | 269 (0x10d) | Exported Function | 0x100f9e80 | 0x000f9e80
-`DeleteTimerQueueEx` | 268 (0x10c) | Exported Function | 0x101b2840 | 0x001b2840
-`DeleteSynchronizationBarrier` | 267 (0x10b) | Exported Function | NTDLL.RtlDeleteBarrier | 0x001ce3c1
-`DeleteStateContainerValue` | 266 (0x10a) | Exported Function | 0x10178320 | 0x00178320
-`DeleteStateContainer` | 265 (0x109) | Exported Function | 0x10178290 | 0x00178290
-`DeleteStateAtomValue` | 264 (0x108) | Exported Function | 0x10178200 | 0x00178200
-`DeleteProcThreadAttributeList` | 263 (0x107) | Exported Function | 0x10100290 | 0x00100290
-`DeleteFileW` | 262 (0x106) | Exported Function | 0x1010f890 | 0x0010f890
-`DeleteFileA` | 261 (0x105) | Exported Function | 0x1012b080 | 0x0012b080
-`DeleteFiber` | 260 (0x104) | Exported Function | 0x100fc950 | 0x000fc950
-`DestroyPrivateObjectSecurity` | 272 (0x110) | Exported Function | 0x1012aea0 | 0x0012aea0
-`EventUnregister` | 346 (0x15a) | Exported Function | NTDLL.EtwEventUnregister | 0x001ceb52
-`EventWrite` | 347 (0x15b) | Exported Function | NTDLL.EtwEventWrite | 0x001ceb76
-`EventWriteEx` | 348 (0x15c) | Exported Function | NTDLL.EtwEventWriteEx | 0x001ceb97
-`GetApplicationUserModelId` | 433 (0x1b1) | Exported Function | 0x1012a570 | 0x0012a570
-`GetApplicationRestartSettings` | 432 (0x1b0) | Exported Function | 0x10155060 | 0x00155060
-`GetApplicationRecoveryCallback` | 431 (0x1af) | Exported Function | 0x10154fd0 | 0x00154fd0
-`GetAppDataFolder` | 429 (0x1ad) | Exported Function | 0x101785a0 | 0x001785a0
-`GetAppContainerNamedObjectPath` | 428 (0x1ac) | Exported Function | 0x100fb3c0 | 0x000fb3c0
-`GetAppContainerAce` | 427 (0x1ab) | Exported Function | 0x100f8600 | 0x000f8600
-`GetAlternatePackageRoots` | 426 (0x1aa) | Exported Function | 0x10178580 | 0x00178580
-`GetAdjustObjectAttributesForPrivateNamespaceRoutine` | 425 (0x1a9) | Exported Function | 0x10132240 | 0x00132240
-`GetACP` | 420 (0x1a4) | Exported Function | 0x10123330 | 0x00123330
-`GetAclInformation` | 424 (0x1a8) | Exported Function | 0x1012a5f0 | 0x0012a5f0
-`GetAce` | 423 (0x1a7) | Exported Function | 0x101284b0 | 0x001284b0
-`GetAcceptLanguagesW` | 422 (0x1a6) | Exported Function | 0x10100980 | 0x00100980
-`GetAcceptLanguagesA` | 421 (0x1a5) | Exported Function | 0x1015bbd0 | 0x0015bbd0
-`GenerateGPNotificationInternal` | 419 (0x1a3) | Exported Function | 0x10154490 | 0x00154490
-`GenerateConsoleCtrlEvent` | 418 (0x1a2) | Exported Function | 0x101aab00 | 0x001aab00
-`FreeUserPhysicalPages` | 417 (0x1a1) | Exported Function | 0x101af780 | 0x001af780
-`FreeSid` | 416 (0x1a0) | Exported Function | 0x101288b0 | 0x001288b0
-`FreeResource` | 415 (0x19f) | Exported Function | 0x10129fa0 | 0x00129fa0
-`FreeLibraryWhenCallbackReturns` | 414 (0x19e) | Exported Function | NTDLL.TpCallbackUnloadDllOnCompletion | 0x001cf144
-`FreeLibraryAndExitThread` | 413 (0x19d) | Exported Function | 0x101298c0 | 0x001298c0
-`FreeLibrary` | 412 (0x19c) | Exported Function | 0x1010d460 | 0x0010d460
-`FreeGPOListInternalW` | 411 (0x19b) | Exported Function | 0x10154460 | 0x00154460
-`FreeGPOListInternalA` | 410 (0x19a) | Exported Function | 0x10154430 | 0x00154430
-`FreeEnvironmentStringsW` | 409 (0x199) | Exported Function | 0x10127730 | 0x00127730
-`FreeEnvironmentStringsA` | 408 (0x198) | Exported Function | 0x10127730 | 0x00127730
-`GetApplicationUserModelIdFromToken` | 434 (0x1b2) | Exported Function | 0x1018cbe0 | 0x0018cbe0
-`GetAppliedGPOListInternalA` | 435 (0x1b3) | Exported Function | 0x101544c0 | 0x001544c0
-`GetAppliedGPOListInternalW` | 436 (0x1b4) | Exported Function | 0x101544f0 | 0x001544f0
-`GetAppModelVersion` | 430 (0x1ae) | Exported Function | 0x1018c8e0 | 0x0018c8e0
-`GetConsoleAliasExesW` | 461 (0x1cd) | Exported Function | 0x101a8150 | 0x001a8150
-`GetConsoleAliasExesLengthW` | 460 (0x1cc) | Exported Function | 0x101a8140 | 0x001a8140
-`GetConsoleAliasExesLengthA` | 459 (0x1cb) | Exported Function | 0x101a80f0 | 0x001a80f0
-`GetConsoleAliasExesA` | 458 (0x1ca) | Exported Function | 0x101a8070 | 0x001a8070
-`GetConsoleAliasesW` | 466 (0x1d2) | Exported Function | 0x101a83e0 | 0x001a83e0
-`GetConsoleAliasesLengthW` | 465 (0x1d1) | Exported Function | 0x101a83c0 | 0x001a83c0
-`GetConsoleAliasesLengthA` | 464 (0x1d0) | Exported Function | 0x101a8330 | 0x001a8330
-`GetConsoleAliasesA` | 463 (0x1cf) | Exported Function | 0x101a8280 | 0x001a8280
-`GetConsoleAliasA` | 457 (0x1c9) | Exported Function | 0x101a8030 | 0x001a8030
-`GetComputerNameExW` | 456 (0x1c8) | Exported Function | 0x10123be0 | 0x00123be0
-`GetComputerNameExA` | 455 (0x1c7) | Exported Function | 0x101bb770 | 0x001bb770
-`GetCompressedFileSizeW` | 454 (0x1c6) | Exported Function | 0x101baa30 | 0x001baa30
-`FreeConsole` | 407 (0x197) | Exported Function | 0x101a9230 | 0x001a9230
-`GetCompressedFileSizeA` | 453 (0x1c5) | Exported Function | 0x101ba9f0 | 0x001ba9f0
-`GetCommState` | 449 (0x1c1) | Exported Function | 0x101b3700 | 0x001b3700
-`GetCommProperties` | 448 (0x1c0) | Exported Function | 0x101b3650 | 0x001b3650
-`GetCommPorts` | 447 (0x1bf) | Exported Function | 0x101b3440 | 0x001b3440
-`GetCommModemStatus` | 446 (0x1be) | Exported Function | 0x101b33b0 | 0x001b33b0
-`GetCommMask` | 445 (0x1bd) | Exported Function | 0x101b3320 | 0x001b3320
-`GetCommConfig` | 444 (0x1bc) | Exported Function | 0x101b3160 | 0x001b3160
-`GetCommandLineW` | 452 (0x1c4) | Exported Function | 0x1012a290 | 0x0012a290
-`GetCommandLineA` | 451 (0x1c3) | Exported Function | 0x1012a2e0 | 0x0012a2e0
-`GetCalendarInfoW` | 443 (0x1bb) | Exported Function | 0x100f4680 | 0x000f4680
-`GetCalendarInfoEx` | 442 (0x1ba) | Exported Function | 0x10161d00 | 0x00161d00
-`GetCalendar` | 441 (0x1b9) | Exported Function | 0x100f4a50 | 0x000f4a50
-`GetCachedSigningLevel` | 440 (0x1b8) | Exported Function | 0x101acff0 | 0x001acff0
-`GetCommTimeouts` | 450 (0x1c2) | Exported Function | 0x101b3a10 | 0x001b3a10
-`FormatMessageW` | 406 (0x196) | Exported Function | 0x10117420 | 0x00117420
-`FormatMessageA` | 405 (0x195) | Exported Function | 0x100fa800 | 0x000fa800
-`FormatApplicationUserModelIdA` | 404 (0x194) | Exported Function | 0x1018c480 | 0x0018c480
-`FindFirstFileExW` | 373 (0x175) | Exported Function | 0x101113e0 | 0x001113e0
-`FindFirstFileExA` | 372 (0x174) | Exported Function | 0x101bc100 | 0x001bc100
-`FindFirstFileA` | 371 (0x173) | Exported Function | 0x101289b0 | 0x001289b0
-`FindFirstChangeNotificationW` | 370 (0x172) | Exported Function | 0x1012e640 | 0x0012e640
-`FindFirstChangeNotificationA` | 369 (0x171) | Exported Function | 0x1012e5f0 | 0x0012e5f0
-`FindCloseChangeNotification` | 368 (0x170) | Exported Function | 0x101bc0f0 | 0x001bc0f0
-`FindClose` | 367 (0x16f) | Exported Function | 0x10122a40 | 0x00122a40
-`FindActCtxSectionStringW` | 366 (0x16e) | Exported Function | 0x100f9970 | 0x000f9970
-`FindActCtxSectionGuid` | 365 (0x16d) | Exported Function | 0x10121960 | 0x00121960
-`FillConsoleOutputCharacterW` | 364 (0x16c) | Exported Function | 0x101a9f20 | 0x001a9f20
-`FillConsoleOutputCharacterA` | 363 (0x16b) | Exported Function | 0x101a9ef0 | 0x001a9ef0
-`FillConsoleOutputAttribute` | 362 (0x16a) | Exported Function | 0x101a9ec0 | 0x001a9ec0
-`FindFirstFileNameW` | 374 (0x176) | Exported Function | 0x101bc250 | 0x001bc250
-`FileTimeToSystemTime` | 361 (0x169) | Exported Function | 0x1011c920 | 0x0011c920
-`FatalAppExitW` | 359 (0x167) | Exported Function | 0x101b96a0 | 0x001b96a0
-`FatalAppExitA` | 358 (0x166) | Exported Function | 0x101b9640 | 0x001b9640
-`ExtensionProgIdExists` | 357 (0x165) | Exported Function | 0x10188eb0 | 0x00188eb0
-`ExpungeConsoleCommandHistoryW` | 356 (0x164) | Exported Function | 0x101a8010 | 0x001a8010
-`ExpungeConsoleCommandHistoryA` | 355 (0x163) | Exported Function | 0x101a7f90 | 0x001a7f90
-`ExpandEnvironmentStringsW` | 354 (0x162) | Exported Function | 0x10102580 | 0x00102580
-`ExpandEnvironmentStringsA` | 353 (0x161) | Exported Function | 0x10127580 | 0x00127580
-`ExitThread` | 352 (0x160) | Exported Function | NTDLL.RtlExitUserThread | 0x001cec37
-`ExitProcess` | 351 (0x15f) | Exported Function | NTDLL.RtlExitUserProcess | 0x001cec13
-`exit` | 1883 (0x75b) | Exported Function | 0x1016de40 | 0x0016de40
-`EventWriteTransfer` | 350 (0x15e) | Exported Function | NTDLL.EtwEventWriteTransfer | 0x001cebeb
-`EventWriteString` | 349 (0x15d) | Exported Function | NTDLL.EtwEventWriteString | 0x001cebbe
-`FileTimeToLocalFileTime` | 360 (0x168) | Exported Function | 0x1011c8b0 | 0x0011c8b0
-`CreateStateSubcontainer` | 230 (0xe6) | Exported Function | 0x10178160 | 0x00178160
-`FindFirstFileW` | 375 (0x177) | Exported Function | 0x101113c0 | 0x001113c0
-`FindFirstStreamW` | 377 (0x179) | Exported Function | 0x101bc4b0 | 0x001bc4b0
-`FormatApplicationUserModelId` | 403 (0x193) | Exported Function | 0x1018c460 | 0x0018c460
-`ForceSyncFgPolicyInternal` | 402 (0x192) | Exported Function | 0x10154400 | 0x00154400
-`FoldStringW` | 401 (0x191) | Exported Function | 0x100fbb50 | 0x000fbb50
-`FlushViewOfFile` | 400 (0x190) | Exported Function | 0x100fc090 | 0x000fc090
-`FlushProcessWriteBuffers` | 399 (0x18f) | Exported Function | NTDLL.NtFlushProcessWriteBuffers | 0x001cefea
-`FlushInstructionCache` | 398 (0x18e) | Exported Function | 0x10126fe0 | 0x00126fe0
-`FlushFileBuffers` | 397 (0x18d) | Exported Function | 0x10129e00 | 0x00129e00
-`FlushConsoleInputBuffer` | 396 (0x18c) | Exported Function | 0x101aaac0 | 0x001aaac0
-`FlsSetValue` | 395 (0x18b) | Exported Function | 0x10119970 | 0x00119970
-`FlsGetValue` | 394 (0x18a) | Exported Function | 0x10111370 | 0x00111370
-`FlsFree` | 393 (0x189) | Exported Function | 0x1012a380 | 0x0012a380
-`FlsAlloc` | 392 (0x188) | Exported Function | 0x10127380 | 0x00127380
-`FindFirstFreeAce` | 376 (0x178) | Exported Function | 0x101acfc0 | 0x001acfc0
-`FindVolumeClose` | 391 (0x187) | Exported Function | 0x101bb480 | 0x001bb480
-`FindResourceW` | 389 (0x185) | Exported Function | 0x100f7020 | 0x000f7020
-`FindResourceExW` | 388 (0x184) | Exported Function | 0x1011bd00 | 0x0011bd00
-`FindPackagesByPackageFamily` | 387 (0x183) | Exported Function | 0x1018abe0 | 0x0018abe0
-`FindNLSStringEx` | 380 (0x17c) | Exported Function | 0x100f6ba0 | 0x000f6ba0
-`FindNLSString` | 379 (0x17b) | Exported Function | 0x10161b80 | 0x00161b80
-`FindNextVolumeW` | 386 (0x182) | Exported Function | 0x101bb140 | 0x001bb140
-`FindNextStreamW` | 385 (0x181) | Exported Function | 0x101bc7d0 | 0x001bc7d0
-`FindNextFileW` | 384 (0x180) | Exported Function | 0x10110680 | 0x00110680
-`FindNextFileNameW` | 383 (0x17f) | Exported Function | 0x101bc730 | 0x001bc730
-`FindNextFileA` | 382 (0x17e) | Exported Function | 0x10112fb0 | 0x00112fb0
-`FindNextChangeNotification` | 381 (0x17d) | Exported Function | 0x101bc6f0 | 0x001bc6f0
-`FindFirstVolumeW` | 378 (0x17a) | Exported Function | 0x101baff0 | 0x001baff0
-`FindStringOrdinal` | 390 (0x186) | Exported Function | 0x10110da0 | 0x00110da0
-`CreateStateLock` | 229 (0xe5) | Exported Function | 0x101780f0 | 0x001780f0
-`CreateStateContainer` | 228 (0xe4) | Exported Function | 0x10178050 | 0x00178050
-`CreateStateChangeNotification` | 227 (0xe3) | Exported Function | 0x10177fe0 | 0x00177fe0
-`AreAnyAccessesGranted` | 78 (0x4e) | Exported Function | 0x101ac790 | 0x001ac790
-`AreAllAccessesGranted` | 77 (0x4d) | Exported Function | 0x101ac770 | 0x001ac770
-`AppXUpdatePackageCapabilities` | 75 (0x4b) | Exported Function | 0x1012b640 | 0x0012b640
-`AppXReleaseAppXContext` | 74 (0x4a) | Exported Function | 0x1019dad0 | 0x0019dad0
-`AppXPreCreationExtension` | 73 (0x49) | Exported Function | 0x1019d8c0 | 0x0019d8c0
-`AppXPostSuccessExtension` | 72 (0x48) | Exported Function | 0x1019d7e0 | 0x0019d7e0
-`AppXLookupMoniker` | 71 (0x47) | Exported Function | 0x10194b30 | 0x00194b30
-`AppXLookupDisplayName` | 70 (0x46) | Exported Function | 0x10194ac0 | 0x00194ac0
-`AppXGetPackageSid` | 69 (0x45) | Exported Function | 0x10194960 | 0x00194960
-`AppXGetPackageCapabilities` | 68 (0x44) | Exported Function | 0x101946b0 | 0x001946b0
-`AppXGetOSMinVersion` | 67 (0x43) | Exported Function | 0x1012b370 | 0x0012b370
-`AppXGetOSMaxVersionTested` | 66 (0x42) | Exported Function | 0x101945d0 | 0x001945d0
-`AppXGetDevelopmentMode` | 65 (0x41) | Exported Function | 0x10194530 | 0x00194530
-`AppXGetApplicationData` | 64 (0x40) | Exported Function | 0x10194390 | 0x00194390
-`AppXFreeMemory` | 63 (0x3f) | Exported Function | 0x101940f0 | 0x001940f0
-`AppPolicyGetWindowingModel` | 62 (0x3e) | Exported Function | 0x100fd360 | 0x000fd360
-`AppPolicyGetThreadInitializationType` | 61 (0x3d) | Exported Function | 0x1012e2c0 | 0x0012e2c0
-`AppPolicyGetShowDeveloperDiagnostic` | 60 (0x3c) | Exported Function | 0x1018b150 | 0x0018b150
-`AppPolicyGetProcessTerminationMethod` | 59 (0x3b) | Exported Function | 0x101281d0 | 0x001281d0
-`AppPolicyGetMediaFoundationCodecLoading` | 58 (0x3a) | Exported Function | 0x1018b0f0 | 0x0018b0f0
-`AppPolicyGetLifecycleManagement` | 57 (0x39) | Exported Function | 0x1018b090 | 0x0018b090
-`AppPolicyGetCreateFileAccess` | 56 (0x38) | Exported Function | 0x1018b030 | 0x0018b030
-`AppPolicyGetClrCompat` | 55 (0x37) | Exported Function | 0x100fbaf0 | 0x000fbaf0
-`ApplicationUserModelIdFromProductId` | 76 (0x4c) | Exported Function | 0x1012bac0 | 0x0012bac0
-`AppContainerUnregisterSid` | 54 (0x36) | Exported Function | 0x10194340 | 0x00194340
-`AreFileApisANSI` | 79 (0x4f) | Exported Function | 0x10129fb0 | 0x00129fb0
-`AreThereVisibleLogoffScriptsInternal` | 80 (0x50) | Exported Function | 0x10154370 | 0x00154370
-`AreThereVisibleShutdownScriptsInternal` | 81 (0x51) | Exported Function | 0x101543a0 | 0x001543a0
-`atexit` | 1882 (0x75a) | Exported Function | 0x1016dcb0 | 0x0016dcb0
-`CancelIo` | 108 (0x6c) | Exported Function | 0x101b1fb0 | 0x001b1fb0
-`CallNamedPipeW` | 106 (0x6a) | Exported Function | 0x101b1390 | 0x001b1390
-`CallEnclave` | 105 (0x69) | Exported Function | 0x101b1110 | 0x001b1110
-`CallbackMayRunLong` | 107 (0x6b) | Exported Function | 0x1012a650 | 0x0012a650
-`Beep` | 103 (0x67) | Exported Function | 0x101b1040 | 0x001b1040
-`BaseUpdateAppcompatCache` | 98 (0x62) | Exported Function | 0x10154fb0 | 0x00154fb0
-`BaseReadAppCompatDataForProcess` | 97 (0x61) | Exported Function | 0x10154f90 | 0x00154f90
-`BasepNotifyTrackingService` | 102 (0x66) | Exported Function | 0x1012d920 | 0x0012d920
-`BasepCopyFileExW` | 101 (0x65) | Exported Function | 0x1011e370 | 0x0011e370
-`BasepCopyFileCallback` | 100 (0x64) | Exported Function | 0x10120b10 | 0x00120b10
-`BasepAdjustObjectAttributesForPrivateNamespace` | 99 (0x63) | Exported Function | 0x1010e120 | 0x0010e120
-`BaseMarkFileForDelete` | 96 (0x60) | Exported Function | 0x101562a0 | 0x001562a0
-`AppContainerRegisterSid` | 53 (0x35) | Exported Function | 0x10194260 | 0x00194260
-`BaseIsAppcompatInfrastructureDisabled` | 95 (0x5f) | Exported Function | 0x1012b1a0 | 0x0012b1a0
-`BaseGetNamedObjectDirectory` | 93 (0x5d) | Exported Function | 0x1010e210 | 0x0010e210
-`BaseGetConsoleReference` | 92 (0x5c) | Exported Function | 0x101a8cb0 | 0x001a8cb0
-`BaseFreeAppCompatDataForProcess` | 91 (0x5b) | Exported Function | 0x10154f50 | 0x00154f50
-`BaseFormatObjectAttributes` | 90 (0x5a) | Exported Function | 0x1010de10 | 0x0010de10
-`BaseFlushAppcompatCache` | 89 (0x59) | Exported Function | 0x10154f30 | 0x00154f30
-`BaseDumpAppcompatCache` | 88 (0x58) | Exported Function | 0x10154f10 | 0x00154f10
-`BaseDllMapResourceIdW` | 87 (0x57) | Exported Function | 0x1011be10 | 0x0011be10
-`BaseDllFreeResourceId` | 86 (0x56) | Exported Function | 0x10126d40 | 0x00126d40
-`BaseCleanupAppcompatCacheSupport` | 85 (0x55) | Exported Function | 0x10154ef0 | 0x00154ef0
-`BaseCheckAppcompatCacheEx` | 84 (0x54) | Exported Function | 0x10154ed0 | 0x00154ed0
-`BaseCheckAppcompatCache` | 83 (0x53) | Exported Function | 0x10154eb0 | 0x00154eb0
-`AttachConsole` | 82 (0x52) | Exported Function | 0x101a8c40 | 0x001a8c40
-`BaseInitAppcompatCacheSupport` | 94 (0x5e) | Exported Function | 0x10154f70 | 0x00154f70
-`AppContainerLookupMoniker` | 52 (0x34) | Exported Function | 0x101941d0 | 0x001941d0
-`AppContainerLookupDisplayNameMrtReference` | 51 (0x33) | Exported Function | 0x10194120 | 0x00194120
-`AppContainerFreeMemory` | 50 (0x32) | Exported Function | 0x101940f0 | 0x001940f0
-`AddAccessAllowedAce` | 19 (0x13) | Exported Function | 0x10123820 | 0x00123820
-`ActivateActCtx` | 18 (0x12) | Exported Function | 0x10125040 | 0x00125040
-`AcquireStateLock` | 17 (0x11) | Exported Function | 0x10177b00 | 0x00177b00
-`AcquireSRWLockShared` | 16 (0x10) | Exported Function | NTDLL.RtlAcquireSRWLockShared | 0x001ccd81
-`AcquireSRWLockExclusive` | 15 (0xf) | Exported Function | NTDLL.RtlAcquireSRWLockExclusive | 0x001ccd4b
-`AccessCheckByTypeResultListAndAuditAlarmW` | 14 (0xe) | Exported Function | 0x101ac3d0 | 0x001ac3d0
-`AccessCheckByTypeResultListAndAuditAlarmByHandleW` | 13 (0xd) | Exported Function | 0x101ac310 | 0x001ac310
-`AccessCheckByTypeResultList` | 12 (0xc) | Exported Function | 0x101ac2a0 | 0x001ac2a0
-`AccessCheckByTypeAndAuditAlarmW` | 11 (0xb) | Exported Function | 0x101ac1f0 | 0x001ac1f0
-`AccessCheckByType` | 10 (0xa) | Exported Function | 0x10127870 | 0x00127870
-`AccessCheckAndAuditAlarmW` | 9 (0x9) | Exported Function | 0x101ac150 | 0x001ac150
-`AccessCheck` | 8 (0x8) | Exported Function | 0x10128110 | 0x00128110
-`AddAccessAllowedAceEx` | 20 (0x14) | Exported Function | 0x100fd580 | 0x000fd580
-`_time64` | 1881 (0x759) | Exported Function | 0x1012f180 | 0x0012f180
-`_OpenMuiStringCache` | 1869 (0x74d) | Exported Function | 0x10116920 | 0x00116920
-`_onexit` | 1879 (0x757) | Exported Function | 0x1016dc40 | 0x0016dc40
-`_invalid_parameter` | 1878 (0x756) | Exported Function | 0x1012ea20 | 0x0012ea20
-`_initterm_e` | 1877 (0x755) | Exported Function | 0x10127db0 | 0x00127db0
-`_initterm` | 1876 (0x754) | Exported Function | 0x10126600 | 0x00126600
-`_GetMUIStringFromCache` | 1868 (0x74c) | Exported Function | 0x10116790 | 0x00116790
-`_exit` | 1875 (0x753) | Exported Function | 0x1016dd50 | 0x0016dd50
-`_cexit` | 1874 (0x752) | Exported Function | 0x1016dd30 | 0x0016dd30
-`_c_exit` | 1873 (0x751) | Exported Function | 0x1016dd10 | 0x0016dd10
-`_amsg_exit` | 1872 (0x750) | Exported Function | 0x1012b240 | 0x0012b240
-`_AddMUIStringToCache` | 1867 (0x74b) | Exported Function | 0x100fd2e0 | 0x000fd2e0
-`__wgetmainargs` | 1871 (0x74f) | Exported Function | 0x1016dcd0 | 0x0016dcd0
-`_purecall` | 1880 (0x758) | Exported Function | 0x1012f160 | 0x0012f160
-`CancelIoEx` | 109 (0x6d) | Exported Function | 0x1012a4d0 | 0x0012a4d0
-`AddAccessAllowedObjectAce` | 21 (0x15) | Exported Function | 0x101ac490 | 0x001ac490
-`AddAccessDeniedAceEx` | 23 (0x17) | Exported Function | 0x101ac520 | 0x001ac520
-`AppContainerDeriveSidFromMoniker` | 49 (0x31) | Exported Function | 0x10194050 | 0x00194050
-`AllocConsole` | 44 (0x2c) | Exported Function | 0x101a8bd0 | 0x001a8bd0
-`AllocateUserPhysicalPagesNuma` | 48 (0x30) | Exported Function | 0x101af690 | 0x001af690
-`AllocateUserPhysicalPages` | 47 (0x2f) | Exported Function | 0x101af660 | 0x001af660
-`AllocateLocallyUniqueId` | 46 (0x2e) | Exported Function | 0x100fc7a0 | 0x000fc7a0
-`AllocateAndInitializeSid` | 45 (0x2d) | Exported Function | 0x10125510 | 0x00125510
-`AdjustTokenPrivileges` | 43 (0x2b) | Exported Function | 0x100fc880 | 0x000fc880
-`AdjustTokenGroups` | 42 (0x2a) | Exported Function | 0x101ac730 | 0x001ac730
-`AddVectoredExceptionHandler` | 41 (0x29) | Exported Function | NTDLL.RtlAddVectoredExceptionHandler | 0x001ccfc8
-`AddVectoredContinueHandler` | 40 (0x28) | Exported Function | NTDLL.RtlAddVectoredContinueHandler | 0x001ccf88
-`AddSIDToBoundaryDescriptor` | 38 (0x26) | Exported Function | 0x100fbe40 | 0x000fbe40
-`AddScopedPolicyIDAce` | 39 (0x27) | Exported Function | 0x101ac6f0 | 0x001ac6f0
-`AddAccessDeniedAce` | 22 (0x16) | Exported Function | 0x101ac4e0 | 0x001ac4e0
-`AddResourceAttributeAce` | 37 (0x25) | Exported Function | 0x101ac6b0 | 0x001ac6b0
-`AddPackageToFamilyXref` | 35 (0x23) | Exported Function | 0x1018a7d0 | 0x0018a7d0
-`AddMandatoryAce` | 34 (0x22) | Exported Function | 0x1012aed0 | 0x0012aed0
-`AddExtensionProgId` | 33 (0x21) | Exported Function | 0x10188a30 | 0x00188a30
-`AddDllDirectory` | 32 (0x20) | Exported Function | 0x101ad900 | 0x001ad900
-`AddDependencyToProcessPackageGraph` | 31 (0x1f) | Exported Function | 0x10187b00 | 0x00187b00
-`AddConsoleAliasW` | 30 (0x1e) | Exported Function | 0x101a7f10 | 0x001a7f10
-`AddConsoleAliasA` | 29 (0x1d) | Exported Function | 0x101a7db0 | 0x001a7db0
-`AddAuditAccessObjectAce` | 28 (0x1c) | Exported Function | 0x101ac650 | 0x001ac650
-`AddAuditAccessAceEx` | 27 (0x1b) | Exported Function | 0x101ac600 | 0x001ac600
-`AddAuditAccessAce` | 26 (0x1a) | Exported Function | 0x101ac5c0 | 0x001ac5c0
-`AddAce` | 25 (0x19) | Exported Function | 0x100fd3b0 | 0x000fd3b0
-`AddAccessDeniedObjectAce` | 24 (0x18) | Exported Function | 0x101ac570 | 0x001ac570
-`AddRefActCtx` | 36 (0x24) | Exported Function | 0x10126f30 | 0x00126f30
-`GetConsoleAliasW` | 462 (0x1ce) | Exported Function | 0x101a8230 | 0x001a8230
-`CancelSynchronousIo` | 110 (0x6e) | Exported Function | 0x101b1fe0 | 0x001b1fe0
-`CancelWaitableTimer` | 112 (0x70) | Exported Function | 0x100f1d50 | 0x000f1d50
-`CreateFileMappingNumaW` | 196 (0xc4) | Exported Function | 0x1010dbf0 | 0x0010dbf0
-`CreateFileMappingFromApp` | 195 (0xc3) | Exported Function | 0x101b8750 | 0x001b8750
-`CreateFileMapping2` | 194 (0xc2) | Exported Function | 0x101b8610 | 0x001b8610
-`CreateFileA` | 193 (0xc1) | Exported Function | 0x101288d0 | 0x001288d0
-`CreateFile2` | 192 (0xc0) | Exported Function | 0x100f86f0 | 0x000f86f0
-`CreateFiberEx` | 191 (0xbf) | Exported Function | 0x10118430 | 0x00118430
-`CreateFiber` | 190 (0xbe) | Exported Function | 0x10118410 | 0x00118410
-`CreateEventW` | 189 (0xbd) | Exported Function | 0x1010dbb0 | 0x0010dbb0
-`CreateEventExW` | 188 (0xbc) | Exported Function | 0x10120c70 | 0x00120c70
-`CreateEventExA` | 187 (0xbb) | Exported Function | 0x10120c10 | 0x00120c10
-`CreateEventA` | 186 (0xba) | Exported Function | 0x10120bd0 | 0x00120bd0
-`CreateEnclave` | 185 (0xb9) | Exported Function | 0x101b1170 | 0x001b1170
-`CreateDirectoryW` | 184 (0xb8) | Exported Function | 0x10112180 | 0x00112180
-`CreateDirectoryExW` | 183 (0xb7) | Exported Function | 0x10159800 | 0x00159800
-`CreateDirectoryA` | 182 (0xb6) | Exported Function | 0x100fcdc0 | 0x000fcdc0
-`CreateConsoleScreenBuffer` | 181 (0xb5) | Exported Function | 0x101a9c50 | 0x001a9c50
-`CreateBoundaryDescriptorW` | 180 (0xb4) | Exported Function | 0x100fbab0 | 0x000fbab0
-`CreateAppContainerToken` | 179 (0xb3) | Exported Function | 0x101b8060 | 0x001b8060
-`CreateActCtxW` | 178 (0xb2) | Exported Function | 0x1012a070 | 0x0012a070
-`CouldMultiUserAppsBehaviorBePossibleForPackage` | 177 (0xb1) | Exported Function | 0x1018b1f0 | 0x0018b1f0
-`CopySid` | 176 (0xb0) | Exported Function | 0x10122ce0 | 0x00122ce0
-`CopyFileW` | 175 (0xaf) | Exported Function | 0x1011e280 | 0x0011e280
-`CopyFileExW` | 174 (0xae) | Exported Function | 0x1011e2b0 | 0x0011e2b0
-`CopyFile2` | 173 (0xad) | Exported Function | 0x10158220 | 0x00158220
-`CopyContext` | 172 (0xac) | Exported Function | 0x1015b810 | 0x0015b810
-`CreateFileMappingW` | 197 (0xc5) | Exported Function | 0x1010d960 | 0x0010d960
-`CreateFileW` | 198 (0xc6) | Exported Function | 0x1010e530 | 0x0010e530
-`CreateHardLinkA` | 199 (0xc7) | Exported Function | 0x1015b390 | 0x0015b390
-`CreateHardLinkW` | 200 (0xc8) | Exported Function | 0x1015b400 | 0x0015b400
-`CreateStateAtom` | 226 (0xe2) | Exported Function | 0x10177f70 | 0x00177f70
-`CreateSemaphoreW` | 225 (0xe1) | Exported Function | 0x10112ed0 | 0x00112ed0
-`CreateSemaphoreExW` | 224 (0xe0) | Exported Function | 0x101111b0 | 0x001111b0
-`CreateRestrictedToken` | 223 (0xdf) | Exported Function | 0x101ac8a0 | 0x001ac8a0
-`CreateRemoteThreadEx` | 222 (0xde) | Exported Function | 0x101234c0 | 0x001234c0
-`CreateRemoteThread` | 221 (0xdd) | Exported Function | 0x101b5e60 | 0x001b5e60
-`CreatePseudoConsoleAsUser` | 220 (0xdc) | Exported Function | 0x101a9360 | 0x001a9360
-`CreatePseudoConsole` | 219 (0xdb) | Exported Function | 0x101a9330 | 0x001a9330
-`CreateProcessW` | 218 (0xda) | Exported Function | 0x100fd5d0 | 0x000fd5d0
-`CreateProcessInternalW` | 217 (0xd9) | Exported Function | 0x100fd610 | 0x000fd610
-`CreateProcessInternalA` | 216 (0xd8) | Exported Function | 0x101b9320 | 0x001b9320
-`CreateProcessAsUserW` | 215 (0xd7) | Exported Function | 0x101b92e0 | 0x001b92e0
-`ConvertToAutoInheritPrivateObjectSecurity` | 171 (0xab) | Exported Function | 0x101ac810 | 0x001ac810
-`CreateProcessAsUserA` | 214 (0xd6) | Exported Function | 0x101b92a0 | 0x001b92a0
-`CreatePrivateObjectSecurityWithMultipleInheritance` | 212 (0xd4) | Exported Function | 0x101ac850 | 0x001ac850
-`CreatePrivateObjectSecurityEx` | 211 (0xd3) | Exported Function | 0x1012a9a0 | 0x0012a9a0
-`CreatePrivateObjectSecurity` | 210 (0xd2) | Exported Function | 0x100fd4e0 | 0x000fd4e0
-`CreatePrivateNamespaceW` | 209 (0xd1) | Exported Function | 0x100f8200 | 0x000f8200
-`CreatePipe` | 208 (0xd0) | Exported Function | 0x101b8d60 | 0x001b8d60
-`CreateNamedPipeW` | 207 (0xcf) | Exported Function | 0x1012e410 | 0x0012e410
-`CreateMutexW` | 206 (0xce) | Exported Function | 0x1010d730 | 0x0010d730
-`CreateMutexExW` | 205 (0xcd) | Exported Function | 0x1010df40 | 0x0010df40
-`CreateMutexExA` | 204 (0xcc) | Exported Function | 0x101b2430 | 0x001b2430
-`CreateMutexA` | 203 (0xcb) | Exported Function | 0x1010deb0 | 0x0010deb0
-`CreateMemoryResourceNotification` | 202 (0xca) | Exported Function | 0x100fc570 | 0x000fc570
-`CreateIoCompletionPort` | 201 (0xc9) | Exported Function | 0x1012e320 | 0x0012e320
-`CreateProcessA` | 213 (0xd5) | Exported Function | 0x101b9260 | 0x001b9260
-`ConvertThreadToFiberEx` | 170 (0xaa) | Exported Function | 0x1012aa20 | 0x0012aa20
-`ConvertThreadToFiber` | 169 (0xa9) | Exported Function | 0x1012aa00 | 0x0012aa00
-`ConvertPerformanceCounterToAuxiliaryCounter` | 168 (0xa8) | Exported Function | 0x101b48b0 | 0x001b48b0
-`ClearCommBreak` | 138 (0x8a) | Exported Function | 0x101b2e60 | 0x001b2e60
-`ChrCmpIW` | 137 (0x89) | Exported Function | 0x1015a740 | 0x0015a740
-`ChrCmpIA` | 136 (0x88) | Exported Function | 0x1015a6f0 | 0x0015a6f0
-`CheckTokenMembershipEx` | 135 (0x87) | Exported Function | 0x101292c0 | 0x001292c0
-`CheckTokenMembership` | 134 (0x86) | Exported Function | 0x101278d0 | 0x001278d0
-`CheckTokenCapability` | 133 (0x85) | Exported Function | 0x101ac7b0 | 0x001ac7b0
-`CheckRemoteDebuggerPresent` | 132 (0x84) | Exported Function | 0x101b2890 | 0x001b2890
-`CheckIfStateChangeNotificationExists` | 131 (0x83) | Exported Function | 0x10177bc0 | 0x00177bc0
-`CheckGroupPolicyEnabled` | 130 (0x82) | Exported Function | 0x10161850 | 0x00161850
-`CheckAllowDecryptedRemoteDestinationPolicy` | 129 (0x81) | Exported Function | 0x10158190 | 0x00158190
-`CharUpperW` | 128 (0x80) | Exported Function | 0x10107a70 | 0x00107a70
-`CharUpperBuffW` | 127 (0x7f) | Exported Function | 0x10107ad0 | 0x00107ad0
-`ClearCommError` | 139 (0x8b) | Exported Function | 0x101b2e80 | 0x001b2e80
-`CharUpperBuffA` | 126 (0x7e) | Exported Function | 0x100fca50 | 0x000fca50
-`CharPrevW` | 124 (0x7c) | Exported Function | 0x10112300 | 0x00112300
-`CharPrevExA` | 123 (0x7b) | Exported Function | 0x10155400 | 0x00155400
-`CharPrevA` | 122 (0x7a) | Exported Function | 0x10125bb0 | 0x00125bb0
-`CharNextW` | 121 (0x79) | Exported Function | 0x1011ba30 | 0x0011ba30
-`CharNextExA` | 120 (0x78) | Exported Function | 0x101553c0 | 0x001553c0
-`CharNextA` | 119 (0x77) | Exported Function | 0x10107c10 | 0x00107c10
-`CharLowerW` | 118 (0x76) | Exported Function | 0x10125a70 | 0x00125a70
-`CharLowerBuffW` | 117 (0x75) | Exported Function | 0x10125ac0 | 0x00125ac0
-`CharLowerBuffA` | 116 (0x74) | Exported Function | 0x10155280 | 0x00155280
-`CharLowerA` | 115 (0x73) | Exported Function | 0x10125be0 | 0x00125be0
-`ChangeTimerQueueTimer` | 114 (0x72) | Exported Function | 0x101b27c0 | 0x001b27c0
-`CeipIsOptedIn` | 113 (0x71) | Exported Function | 0x1015b360 | 0x0015b360
-`CharUpperA` | 125 (0x7d) | Exported Function | 0x100fca00 | 0x000fca00
-`CancelThreadpoolIo` | 111 (0x6f) | Exported Function | NTDLL.TpCancelAsyncIoOperation | 0x001cd6c9
-`CLOSE_LOCAL_HANDLE_INTERNAL` | 104 (0x68) | Exported Function | 0x10103a20 | 0x00103a20
-`ClosePackageInfo` | 141 (0x8d) | Exported Function | 0x10188010 | 0x00188010
-`ConvertFiberToThread` | 167 (0xa7) | Exported Function | 0x100fcfb0 | 0x000fcfb0
-`ConvertDefaultLocale` | 166 (0xa6) | Exported Function | 0x1012b150 | 0x0012b150
-`ConvertAuxiliaryCounterToPerformanceCounter` | 165 (0xa5) | Exported Function | 0x101b4860 | 0x001b4860
-`ContinueDebugEvent` | 164 (0xa4) | Exported Function | 0x101b2950 | 0x001b2950
-`ConnectNamedPipe` | 163 (0xa3) | Exported Function | 0x1012e720 | 0x0012e720
-`CompareStringW` | 162 (0xa2) | Exported Function | 0x1010b1d0 | 0x0010b1d0
-`CompareStringOrdinal` | 161 (0xa1) | Exported Function | 0x10118850 | 0x00118850
-`CompareStringEx` | 160 (0xa0) | Exported Function | 0x100f6b10 | 0x000f6b10
-`CompareStringA` | 159 (0x9f) | Exported Function | 0x10109e60 | 0x00109e60
-`CompareObjectHandles` | 158 (0x9e) | Exported Function | 0x101b4430 | 0x001b4430
-`CompareFileTime` | 157 (0x9d) | Exported Function | 0x101252f0 | 0x001252f0
-`CommitStateAtom` | 156 (0x9c) | Exported Function | 0x10177ed0 | 0x00177ed0
-`CloseHandle` | 140 (0x8c) | Exported Function | 0x1010f510 | 0x0010f510
-`CloseThreadpoolWork` | 155 (0x9b) | Exported Function | NTDLL.TpReleaseWork | 0x001cda92
-`CloseThreadpoolTimer` | 153 (0x99) | Exported Function | NTDLL.TpReleaseTimer | 0x001cda41
-`CloseThreadpoolIo` | 152 (0x98) | Exported Function | NTDLL.TpReleaseIoCompletion | 0x001cda10
-`CloseThreadpoolCleanupGroupMembers` | 151 (0x97) | Exported Function | NTDLL.TpReleaseCleanupGroupMembers | 0x001cd9db
-`CloseThreadpoolCleanupGroup` | 150 (0x96) | Exported Function | NTDLL.TpReleaseCleanupGroup | 0x001cd99c
-`CloseThreadpool` | 149 (0x95) | Exported Function | NTDLL.TpReleasePool | 0x001cd96c
-`CloseStateLock` | 148 (0x94) | Exported Function | 0x10177e50 | 0x00177e50
-`CloseStateContainer` | 147 (0x93) | Exported Function | 0x10177dd0 | 0x00177dd0
-`CloseStateChangeNotification` | 146 (0x92) | Exported Function | 0x10177d50 | 0x00177d50
-`CloseStateAtom` | 145 (0x91) | Exported Function | 0x10177cd0 | 0x00177cd0
-`CloseState` | 144 (0x90) | Exported Function | 0x10177c50 | 0x00177c50
-`ClosePseudoConsole` | 143 (0x8f) | Exported Function | 0x101a9310 | 0x001a9310
-`ClosePrivateNamespace` | 142 (0x8e) | Exported Function | 0x10153730 | 0x00153730
-`CloseThreadpoolWait` | 154 (0x9a) | Exported Function | NTDLL.TpReleaseWait | 0x001cda6a
-`IsInternetESCEnabled` | 933 (0x3a5) | Exported Function | 0x1012a700 | 0x0012a700
-`GetConsoleCommandHistoryA` | 468 (0x1d4) | Exported Function | 0x101a8400 | 0x001a8400
-`GetConsoleCommandHistoryLengthW` | 470 (0x1d6) | Exported Function | 0x101a8540 | 0x001a8540
-`GetThreadErrorMode` | 786 (0x312) | Exported Function | 0x101b8cd0 | 0x001b8cd0
-`GetThreadDescription` | 785 (0x311) | Exported Function | 0x101b5f40 | 0x001b5f40
-`GetThreadContext` | 784 (0x310) | Exported Function | 0x101b5f10 | 0x001b5f10
-`GetTempPathW` | 783 (0x30f) | Exported Function | 0x10128770 | 0x00128770
-`GetTempPathA` | 782 (0x30e) | Exported Function | 0x101abfe0 | 0x001abfe0
-`GetTempFileNameW` | 781 (0x30d) | Exported Function | 0x100fb8e0 | 0x000fb8e0
-`GetTempFileNameA` | 780 (0x30c) | Exported Function | 0x101abed0 | 0x001abed0
-`GetTargetPlatformContext` | 779 (0x30b) | Exported Function | 0x1018e060 | 0x0018e060
-`GetSystemWow64DirectoryW` | 778 (0x30a) | Exported Function | 0x10125180 | 0x00125180
-`GetSystemWow64DirectoryA` | 777 (0x309) | Exported Function | 0x101abeb0 | 0x001abeb0
-`GetSystemWow64Directory2W` | 776 (0x308) | Exported Function | 0x101251d0 | 0x001251d0
-`GetSystemWow64Directory2A` | 775 (0x307) | Exported Function | 0x101abda0 | 0x001abda0
-`GetSystemWindowsDirectoryW` | 774 (0x306) | Exported Function | 0x10125280 | 0x00125280
-`GetSystemWindowsDirectoryA` | 773 (0x305) | Exported Function | 0x10129c00 | 0x00129c00
-`GetSystemTimes` | 772 (0x304) | Exported Function | 0x101b9b60 | 0x001b9b60
-`GetSystemTimePreciseAsFileTime` | 771 (0x303) | Exported Function | 0x10124ff0 | 0x00124ff0
-`GetSystemTimeAsFileTime` | 770 (0x302) | Exported Function | 0x101197e0 | 0x001197e0
-`GetSystemTimeAdjustmentPrecise` | 769 (0x301) | Exported Function | 0x101b4e40 | 0x001b4e40
-`GetSystemTimeAdjustment` | 768 (0x300) | Exported Function | 0x10129c90 | 0x00129c90
-`GetSystemTime` | 767 (0x2ff) | Exported Function | 0x101267a0 | 0x001267a0
-`GetSystemStateRootFolder` | 766 (0x2fe) | Exported Function | 0x10179040 | 0x00179040
-`GetSystemPreferredUILanguages` | 765 (0x2fd) | Exported Function | 0x101699b0 | 0x001699b0
-`GetSystemMetadataPathForPackageFamily` | 764 (0x2fc) | Exported Function | 0x1018fb60 | 0x0018fb60
-`GetSystemMetadataPathForPackage` | 763 (0x2fb) | Exported Function | 0x1018fb40 | 0x0018fb40
-`GetSystemMetadataPath` | 762 (0x2fa) | Exported Function | 0x1018fb20 | 0x0018fb20
-`GetThreadGroupAffinity` | 787 (0x313) | Exported Function | 0x101b6020 | 0x001b6020
-`GetThreadId` | 789 (0x315) | Exported Function | 0x101b60b0 | 0x001b60b0
-`GetThreadIdealProcessorEx` | 790 (0x316) | Exported Function | 0x101b60f0 | 0x001b60f0
-`GetThreadInformation` | 791 (0x317) | Exported Function | 0x101b6140 | 0x001b6140
-`GetUserDefaultLocaleName` | 816 (0x330) | Exported Function | 0x101187e0 | 0x001187e0
-`GetUserDefaultLCID` | 814 (0x32e) | Exported Function | 0x101190a0 | 0x001190a0
-`GetUserDefaultLangID` | 815 (0x32f) | Exported Function | 0x100fd4d0 | 0x000fd4d0
-`GetUserDefaultGeoName` | 813 (0x32d) | Exported Function | 0x1016c140 | 0x0016c140
-`GetUnicodeStringToEightBitStringRoutine` | 812 (0x32c) | Exported Function | 0x100fd000 | 0x000fd000
-`GetUnicodeStringToEightBitSizeRoutine` | 811 (0x32b) | Exported Function | 0x101b0a20 | 0x001b0a20
-`GetUILanguageInfo` | 810 (0x32a) | Exported Function | 0x10169a00 | 0x00169a00
-`GetTraceLoggerHandle` | 809 (0x329) | Exported Function | NTDLL.EtwGetTraceLoggerHandle | 0x001d1470
-`GetTraceEnableLevel` | 808 (0x328) | Exported Function | NTDLL.EtwGetTraceEnableLevel | 0x001d143e
-`GetTraceEnableFlags` | 807 (0x327) | Exported Function | NTDLL.EtwGetTraceEnableFlags | 0x001d140d
-`GetTokenInformation` | 806 (0x326) | Exported Function | 0x1010e2e0 | 0x0010e2e0
-`GetTimeZoneInformationForYear` | 805 (0x325) | Exported Function | 0x100fccf0 | 0x000fccf0
-`GetSystemLeapSecondInformation` | 761 (0x2f9) | Exported Function | 0x101b4df0 | 0x001b4df0
-`GetTimeZoneInformation` | 804 (0x324) | Exported Function | 0x1011c210 | 0x0011c210
-`GetTimeFormatEx` | 802 (0x322) | Exported Function | 0x10169100 | 0x00169100
-`GetTimeFormatA` | 801 (0x321) | Exported Function | 0x10169000 | 0x00169000
-`GetTickCount64` | 799 (0x31f) | Exported Function | 0x10119590 | 0x00119590
-`GetTickCount` | 800 (0x320) | Exported Function | 0x10118640 | 0x00118640
-`GetThreadUILanguage` | 798 (0x31e) | Exported Function | 0x10112010 | 0x00112010
-`GetThreadTimes` | 797 (0x31d) | Exported Function | 0x1012a780 | 0x0012a780
-`GetThreadSelectedCpuSets` | 796 (0x31c) | Exported Function | 0x101b61e0 | 0x001b61e0
-`GetThreadPriorityBoost` | 795 (0x31b) | Exported Function | 0x101b61a0 | 0x001b61a0
-`GetThreadPriority` | 794 (0x31a) | Exported Function | 0x101232e0 | 0x001232e0
-`GetThreadPreferredUILanguages` | 793 (0x319) | Exported Function | 0x10123370 | 0x00123370
-`GetThreadLocale` | 792 (0x318) | Exported Function | 0x10125130 | 0x00125130
-`GetThreadIOPendingFlag` | 788 (0x314) | Exported Function | 0x101b6060 | 0x001b6060
-`GetTimeFormatW` | 803 (0x323) | Exported Function | 0x100f3780 | 0x000f3780
-`GetUserDefaultUILanguage` | 817 (0x331) | Exported Function | 0x1011cf10 | 0x0011cf10
-`GetSystemInfo` | 760 (0x2f8) | Exported Function | 0x10112680 | 0x00112680
-`GetSystemFileCacheSize` | 758 (0x2f6) | Exported Function | 0x101af8a0 | 0x001af8a0
-`GetSharedLocalFolder` | 727 (0x2d7) | Exported Function | 0x10178a50 | 0x00178a50
-`GetSerializedAtomBytes` | 726 (0x2d6) | Exported Function | 0x101789a0 | 0x001789a0
-`GetSecurityDescriptorSacl` | 725 (0x2d5) | Exported Function | 0x10129d00 | 0x00129d00
-`GetSecurityDescriptorRMControl` | 724 (0x2d4) | Exported Function | 0x101ad080 | 0x001ad080
-`GetSecurityDescriptorOwner` | 723 (0x2d3) | Exported Function | 0x100fb8a0 | 0x000fb8a0
-`GetSecurityDescriptorLength` | 722 (0x2d2) | Exported Function | 0x1012a1e0 | 0x0012a1e0
-`GetSecurityDescriptorGroup` | 721 (0x2d1) | Exported Function | 0x100fb860 | 0x000fb860
-`GetSecurityDescriptorDacl` | 720 (0x2d0) | Exported Function | 0x101230b0 | 0x001230b0
-`GetSecurityDescriptorControl` | 719 (0x2cf) | Exported Function | 0x10121450 | 0x00121450
-`GetSecureSystemAppDataFolder` | 718 (0x2ce) | Exported Function | 0x101788f0 | 0x001788f0
-`GetRoamingLastObservedChangeTime` | 717 (0x2cd) | Exported Function | 0x10178860 | 0x00178860
-`GetRegistryValueWithFallbackW` | 716 (0x2cc) | Exported Function | 0x1015b5f0 | 0x0015b5f0
-`GetRegistryExtensionFlags` | 715 (0x2cb) | Exported Function | 0x101705d0 | 0x001705d0
-`GetQueuedCompletionStatusEx` | 714 (0x2ca) | Exported Function | 0x101b8bc0 | 0x001b8bc0
-`GetQueuedCompletionStatus` | 713 (0x2c9) | Exported Function | 0x1012e1b0 | 0x0012e1b0
-`GetPublisherRootFolder` | 712 (0x2c8) | Exported Function | 0x101787b0 | 0x001787b0
-`GetPublisherCacheFolder` | 711 (0x2c7) | Exported Function | 0x10178700 | 0x00178700
-`GetPtrCalDataArray` | 710 (0x2c6) | Exported Function | 0x10162260 | 0x00162260
-`GetPtrCalData` | 709 (0x2c5) | Exported Function | 0x10162220 | 0x00162220
-`GetProtocolProperty` | 708 (0x2c4) | Exported Function | 0x1018fac0 | 0x0018fac0
-`GetProtocolAumid` | 707 (0x2c3) | Exported Function | 0x1018fa90 | 0x0018fa90
-`GetProductInfo` | 706 (0x2c2) | Exported Function | 0x1012b120 | 0x0012b120
-`GetProcessWorkingSetSizeEx` | 704 (0x2c0) | Exported Function | 0x101af830 | 0x001af830
-`GetProcessVersion` | 703 (0x2bf) | Exported Function | 0x101127a0 | 0x001127a0
-`GetProcessTimes` | 702 (0x2be) | Exported Function | 0x1011bc70 | 0x0011bc70
-`GetShortPathNameW` | 728 (0x2d8) | Exported Function | 0x10122050 | 0x00122050
-`GetSidIdentifierAuthority` | 729 (0x2d9) | Exported Function | 0x1012def0 | 0x0012def0
-`GetSidLengthRequired` | 730 (0x2da) | Exported Function | 0x1012ad70 | 0x0012ad70
-`GetSidSubAuthority` | 731 (0x2db) | Exported Function | 0x10126f10 | 0x00126f10
-`GetSystemDirectoryW` | 757 (0x2f5) | Exported Function | 0x10113b50 | 0x00113b50
-`GetSystemDirectoryA` | 756 (0x2f4) | Exported Function | 0x100fd1c0 | 0x000fd1c0
-`GetSystemDefaultUILanguage` | 755 (0x2f3) | Exported Function | 0x1012a0f0 | 0x0012a0f0
-`GetSystemDefaultLocaleName` | 754 (0x2f2) | Exported Function | 0x10162490 | 0x00162490
-`GetSystemDefaultLCID` | 752 (0x2f0) | Exported Function | 0x10127040 | 0x00127040
-`GetSystemDefaultLangID` | 753 (0x2f1) | Exported Function | 0x100f3760 | 0x000f3760
-`GetSystemCpuSetInformation` | 751 (0x2ef) | Exported Function | 0x101b9b10 | 0x001b9b10
-`GetSystemAppDataKey` | 750 (0x2ee) | Exported Function | 0x10178f90 | 0x00178f90
-`GetSystemAppDataFolder` | 749 (0x2ed) | Exported Function | 0x10178ee0 | 0x00178ee0
-`GetStringTypeW` | 748 (0x2ec) | Exported Function | 0x10110fd0 | 0x00110fd0
-`GetStringTypeExW` | 747 (0x2eb) | Exported Function | 0x100f1d80 | 0x000f1d80
-`GetStringTypeA` | 746 (0x2ea) | Exported Function | 0x100fd010 | 0x000fd010
-`GetSystemFirmwareTable` | 759 (0x2f7) | Exported Function | 0x101bbc90 | 0x001bbc90
-`GetStringTableEntry` | 745 (0x2e9) | Exported Function | 0x100f2620 | 0x000f2620
-`GetStdHandle` | 743 (0x2e7) | Exported Function | 0x10126090 | 0x00126090
-`GetStateVersion` | 742 (0x2e6) | Exported Function | 0x10178e50 | 0x00178e50
-`GetStateSettingsFolder` | 741 (0x2e5) | Exported Function | 0x10178da0 | 0x00178da0
-`GetStateRootFolderBase` | 740 (0x2e4) | Exported Function | 0x10178cf0 | 0x00178cf0
-`GetStateRootFolder` | 739 (0x2e3) | Exported Function | 0x10178c40 | 0x00178c40
-`GetStateFolder` | 738 (0x2e2) | Exported Function | 0x10178b90 | 0x00178b90
-`GetStateContainerDepth` | 737 (0x2e1) | Exported Function | 0x10178b00 | 0x00178b00
-`GetStartupInfoW` | 736 (0x2e0) | Exported Function | 0x10126540 | 0x00126540
-`GetStagedPackagePathByFullName2` | 734 (0x2de) | Exported Function | 0x1018f5c0 | 0x0018f5c0
-`GetStagedPackagePathByFullName` | 735 (0x2df) | Exported Function | 0x1018f610 | 0x0018f610
-`GetStagedPackageOrigin` | 733 (0x2dd) | Exported Function | 0x1018f4e0 | 0x0018f4e0
-`GetSidSubAuthorityCount` | 732 (0x2dc) | Exported Function | 0x101273b0 | 0x001273b0
-`GetStringScripts` | 744 (0x2e8) | Exported Function | 0x10169d90 | 0x00169d90
-`GetUserGeoID` | 818 (0x332) | Exported Function | 0x100fbf90 | 0x000fbf90
-`GetUserInfo` | 819 (0x333) | Exported Function | 0x10162500 | 0x00162500
-`GetUserInfoWord` | 820 (0x334) | Exported Function | 0x10162530 | 0x00162530
-`Internal_EnumSystemLanguageGroups` | 902 (0x386) | Exported Function | 0x101648c0 | 0x001648c0
-`Internal_EnumSystemCodePages` | 901 (0x385) | Exported Function | 0x101646a0 | 0x001646a0
-`Internal_EnumLanguageGroupLocales` | 900 (0x384) | Exported Function | 0x10164410 | 0x00164410
-`Internal_EnumDateFormats` | 899 (0x383) | Exported Function | 0x100f4030 | 0x000f4030
-`Internal_EnumCalendarInfo` | 898 (0x382) | Exported Function | 0x100f3d70 | 0x000f3d70
-`InterlockedPushListSListEx` | 897 (0x381) | Exported Function | NTDLL.RtlInterlockedPushListSListEx | 0x001d1d27
-`InterlockedPushListSList` | 4 (0x4) | Exported Function | NTDLL.RtlInterlockedPushListSList | 0x001ccc0b
-`InterlockedPushEntrySList` | 896 (0x380) | Exported Function | NTDLL.RtlInterlockedPushEntrySList | 0x001d1ce9
-`InterlockedPopEntrySList` | 895 (0x37f) | Exported Function | NTDLL.RtlInterlockedPopEntrySList | 0x001d1cad
-`InterlockedIncrement` | 894 (0x37e) | Exported Function | 0x1012efa0 | 0x0012efa0
-`InterlockedFlushSList` | 893 (0x37d) | Exported Function | NTDLL.RtlInterlockedFlushSList | 0x001d1c60
-`InterlockedExchangeAdd` | 892 (0x37c) | Exported Function | 0x1012f020 | 0x0012f020
-`InterlockedExchange` | 891 (0x37b) | Exported Function | 0x1012efe0 | 0x0012efe0
-`InterlockedDecrement` | 890 (0x37a) | Exported Function | 0x1012efc0 | 0x0012efc0
-`InterlockedCompareExchange64` | 888 (0x378) | Exported Function | NTDLL.RtlInterlockedCompareExchange64 | 0x001d1bc9
-`InterlockedCompareExchange` | 889 (0x379) | Exported Function | 0x1012f000 | 0x0012f000
-`InstallELAMCertificateInfo` | 887 (0x377) | Exported Function | 0x101ad250 | 0x001ad250
-`InitOnceInitialize` | 871 (0x367) | Exported Function | NTDLL.RtlRunOnceInitialize | 0x001d1989
-`InitOnceExecuteOnce` | 870 (0x366) | Exported Function | 0x10119070 | 0x00119070
-`InitOnceComplete` | 869 (0x365) | Exported Function | 0x10128670 | 0x00128670
-`InitOnceBeginInitialize` | 868 (0x364) | Exported Function | 0x10112280 | 0x00112280
-`InitializeSynchronizationBarrier` | 886 (0x376) | Exported Function | 0x101b24e0 | 0x001b24e0
-`InitializeSRWLock` | 883 (0x373) | Exported Function | NTDLL.RtlInitializeSRWLock | 0x001d1b2a
-`InitializeSListHead` | 882 (0x372) | Exported Function | NTDLL.RtlInitializeSListHead | 0x001d1afb
-`InitializeSid` | 885 (0x375) | Exported Function | 0x1012a520 | 0x0012a520
-`Internal_EnumSystemLocales` | 903 (0x387) | Exported Function | 0x100f2270 | 0x000f2270
-`Internal_EnumTimeFormats` | 904 (0x388) | Exported Function | 0x100f3f80 | 0x000f3f80
-`Internal_EnumUILanguages` | 905 (0x389) | Exported Function | 0x100f9460 | 0x000f9460
-`InternalLcidToName` | 5 (0x5) | Exported Function | 0x10128450 | 0x00128450
-`IsDeveloperModePolicyApplied` | 931 (0x3a3) | Exported Function | 0x101a18a0 | 0x001a18a0
-`IsDeveloperModeEnabled` | 930 (0x3a2) | Exported Function | 0x101247e0 | 0x001247e0
-`IsDebuggerPresent` | 929 (0x3a1) | Exported Function | 0x10128370 | 0x00128370
-`IsDBCSLeadByteEx` | 928 (0x3a0) | Exported Function | 0x1012e370 | 0x0012e370
-`IsDBCSLeadByte` | 927 (0x39f) | Exported Function | 0x1010b600 | 0x0010b600
-`IsCharXDigitW` | 926 (0x39e) | Exported Function | 0x1015b300 | 0x0015b300
-`IsCharUpperW` | 925 (0x39d) | Exported Function | 0x10155230 | 0x00155230
-`IsCharUpperA` | 924 (0x39c) | Exported Function | 0x101555e0 | 0x001555e0
-`IsCharSpaceW` | 923 (0x39b) | Exported Function | 0x1011d670 | 0x0011d670
-`IsCharSpaceA` | 922 (0x39a) | Exported Function | 0x1015b2c0 | 0x0015b2c0
-`IsCharPunctW` | 921 (0x399) | Exported Function | 0x1015b280 | 0x0015b280
-`IsCharLowerW` | 920 (0x398) | Exported Function | 0x101551e0 | 0x001551e0
-`InitializeSecurityDescriptor` | 884 (0x374) | Exported Function | 0x101245e0 | 0x001245e0
-`IsCharLowerA` | 919 (0x397) | Exported Function | 0x10155570 | 0x00155570
-`IsCharCntrlW` | 917 (0x395) | Exported Function | 0x1015b210 | 0x0015b210
-`IsCharBlankW` | 916 (0x394) | Exported Function | 0x1015b1c0 | 0x0015b1c0
-`IsCharAlphaW` | 915 (0x393) | Exported Function | 0x1012af00 | 0x0012af00
-`IsCharAlphaNumericW` | 914 (0x392) | Exported Function | 0x10129360 | 0x00129360
-`IsCharAlphaNumericA` | 913 (0x391) | Exported Function | 0x101554e0 | 0x001554e0
-`IsCharAlphaA` | 912 (0x390) | Exported Function | 0x10155460 | 0x00155460
-`IsApiSetImplemented` | 911 (0x38f) | Exported Function | 0x1011d800 | 0x0011d800
-`InvalidateAppModelVersionCache` | 910 (0x38e) | Exported Function | 0x1018ca50 | 0x0018ca50
-`InternetTimeToSystemTimeW` | 909 (0x38d) | Exported Function | 0x101604b0 | 0x001604b0
-`InternetTimeToSystemTimeA` | 908 (0x38c) | Exported Function | 0x10160470 | 0x00160470
-`InternetTimeFromSystemTimeW` | 907 (0x38b) | Exported Function | 0x101603b0 | 0x001603b0
-`InternetTimeFromSystemTimeA` | 906 (0x38a) | Exported Function | 0x101602c0 | 0x001602c0
-`IsCharDigitW` | 918 (0x396) | Exported Function | 0x1015b240 | 0x0015b240
-`InitializeProcThreadAttributeList` | 880 (0x370) | Exported Function | 0x100fc320 | 0x000fc320
-`InitializeProcessForWsWatch` | 881 (0x371) | Exported Function | 0x101747f0 | 0x001747f0
-`InitializeEnclave` | 879 (0x36f) | Exported Function | 0x101b11f0 | 0x001b11f0
-`HeapAlloc` | 846 (0x34e) | Exported Function | NTDLL.RtlAllocateHeap | 0x001d17a0
-`HasPolicyForegroundProcessingCompletedInternal` | 844 (0x34c) | Exported Function | 0x101545e0 | 0x001545e0
-`HashData` | 845 (0x34d) | Exported Function | 0x10125b00 | 0x00125b00
-`GuardCheckLongJumpTarget` | 843 (0x34b) | Exported Function | 0x101bd390 | 0x001bd390
-`GlobalMemoryStatusEx` | 842 (0x34a) | Exported Function | 0x10126a70 | 0x00126a70
-`GlobalFree` | 841 (0x349) | Exported Function | 0x10121b00 | 0x00121b00
-`GlobalAlloc` | 840 (0x348) | Exported Function | 0x1011d8f0 | 0x0011d8f0
-`GetXStateFeaturesMask` | 839 (0x347) | Exported Function | 0x1015b840 | 0x0015b840
-`GetWsChangesEx` | 838 (0x346) | Exported Function | 0x101747c0 | 0x001747c0
-`GetWsChanges` | 837 (0x345) | Exported Function | 0x10174790 | 0x00174790
-`GetWriteWatch` | 836 (0x344) | Exported Function | 0x10123070 | 0x00123070
-`GetWindowsDirectoryW` | 835 (0x343) | Exported Function | 0x101251a0 | 0x001251a0
-`HeapCompact` | 847 (0x34f) | Exported Function | 0x101bd000 | 0x001bd000
-`GetWindowsDirectoryA` | 834 (0x342) | Exported Function | 0x10129bd0 | 0x00129bd0
-`GetVolumePathNameW` | 831 (0x33f) | Exported Function | 0x10113a20 | 0x00113a20
-`GetVolumePathNamesForVolumeNameW` | 832 (0x340) | Exported Function | 0x10115ff0 | 0x00115ff0
-`GetVolumeNameForVolumeMountPointW` | 830 (0x33e) | Exported Function | 0x10127be0 | 0x00127be0
-`GetVolumeInformationW` | 829 (0x33d) | Exported Function | 0x100f5160 | 0x000f5160
-`GetVolumeInformationByHandleW` | 828 (0x33c) | Exported Function | 0x10126840 | 0x00126840
-`GetVolumeInformationA` | 827 (0x33b) | Exported Function | 0x100f5010 | 0x000f5010
-`GetVersionExW` | 826 (0x33a) | Exported Function | 0x101131b0 | 0x001131b0
-`GetVersionExA` | 825 (0x339) | Exported Function | 0x101130b0 | 0x001130b0
-`GetVersion` | 824 (0x338) | Exported Function | 0x101285d0 | 0x001285d0
-`GetUserPreferredUILanguages` | 823 (0x337) | Exported Function | 0x100fc500 | 0x000fc500
-`GetUserOverrideWord` | 822 (0x336) | Exported Function | 0x10127b60 | 0x00127b60
-`GetUserOverrideString` | 821 (0x335) | Exported Function | 0x101077c0 | 0x001077c0
-`GetWindowsAccountDomainSid` | 833 (0x341) | Exported Function | 0x101ad0b0 | 0x001ad0b0
-`GetProcessShutdownParameters` | 701 (0x2bd) | Exported Function | 0x101b9a90 | 0x001b9a90
-`HeapCreate` | 848 (0x350) | Exported Function | 0x10122d10 | 0x00122d10
-`HeapFree` | 850 (0x352) | Exported Function | NTDLL.RtlFreeHeap | 0x001d17e2
-`InitializeCriticalSectionEx` | 878 (0x36e) | Exported Function | 0x10121a00 | 0x00121a00
-`InitializeCriticalSectionAndSpinCount` | 877 (0x36d) | Exported Function | 0x10123100 | 0x00123100
-`InitializeCriticalSection` | 876 (0x36c) | Exported Function | NTDLL.RtlInitializeCriticalSection | 0x001d1a32
-`InitializeContext2` | 874 (0x36a) | Exported Function | 0x1015b8e0 | 0x0015b8e0
-`InitializeContext` | 875 (0x36b) | Exported Function | 0x1015b990 | 0x0015b990
-`InitializeConditionVariable` | 873 (0x369) | Exported Function | NTDLL.RtlInitializeConditionVariable | 0x001d19ce
-`InitializeAcl` | 872 (0x368) | Exported Function | 0x101241e0 | 0x001241e0
-`IncrementPackageStatusVersion` | 867 (0x363) | Exported Function | 0x1018f6b0 | 0x0018f6b0
-`ImpersonateSelf` | 866 (0x362) | Exported Function | 0x1012a810 | 0x0012a810
-`ImpersonateNamedPipeClient` | 865 (0x361) | Exported Function | 0x101ad1a0 | 0x001ad1a0
-`ImpersonateLoggedOnUser` | 864 (0x360) | Exported Function | 0x1012df10 | 0x0012df10
-`ImpersonateAnonymousToken` | 863 (0x35f) | Exported Function | 0x1012ad90 | 0x0012ad90
-`HeapDestroy` | 849 (0x351) | Exported Function | 0x10124fd0 | 0x00124fd0
-`IdnToUnicode` | 862 (0x35e) | Exported Function | 0x1016a0e0 | 0x0016a0e0
-`IdnToAscii` | 860 (0x35c) | Exported Function | 0x10128380 | 0x00128380
-`hwprintf` | 1885 (0x75d) | Exported Function | 0x1016df70 | 0x0016df70
-`hgets` | 1884 (0x75c) | Exported Function | 0x1016de60 | 0x0016de60
-`HeapWalk` | 859 (0x35b) | Exported Function | 0x101bd180 | 0x001bd180
-`HeapValidate` | 858 (0x35a) | Exported Function | 0x100f5910 | 0x000f5910
-`HeapUnlock` | 857 (0x359) | Exported Function | 0x101bd160 | 0x001bd160
-`HeapSummary` | 856 (0x358) | Exported Function | 0x101bd080 | 0x001bd080
-`HeapSize` | 855 (0x357) | Exported Function | NTDLL.RtlSizeHeap | 0x001d1852
-`HeapSetInformation` | 854 (0x356) | Exported Function | 0x1012a1b0 | 0x0012a1b0
-`HeapReAlloc` | 853 (0x355) | Exported Function | NTDLL.RtlReAllocateHeap | 0x001d181e
-`HeapQueryInformation` | 852 (0x354) | Exported Function | 0x101bd040 | 0x001bd040
-`HeapLock` | 851 (0x353) | Exported Function | 0x101bd020 | 0x001bd020
-`IdnToNameprepUnicode` | 861 (0x35d) | Exported Function | 0x1016a080 | 0x0016a080
-`GetProcessPriorityBoost` | 700 (0x2bc) | Exported Function | 0x101b9a50 | 0x001b9a50
-`GetProcessPreferredUILanguages` | 699 (0x2bb) | Exported Function | 0x10169970 | 0x00169970
-`GetProcessorSystemCycleTime` | 705 (0x2c1) | Exported Function | 0x101b9ac0 | 0x001b9ac0
-`GetExitCodeThread` | 550 (0x226) | Exported Function | 0x1012af60 | 0x0012af60
-`GetExitCodeProcess` | 549 (0x225) | Exported Function | 0x100fd230 | 0x000fd230
-`GetErrorMode` | 548 (0x224) | Exported Function | 0x1010d420 | 0x0010d420
-`GetEraNameCountedString` | 547 (0x223) | Exported Function | 0x10161fe0 | 0x00161fe0
-`GetEnvironmentVariableW` | 546 (0x222) | Exported Function | 0x1010d650 | 0x0010d650
-`GetEnvironmentVariableA` | 545 (0x221) | Exported Function | 0x10126650 | 0x00126650
-`GetEnvironmentStringsW` | 544 (0x220) | Exported Function | 0x1011bad0 | 0x0011bad0
-`GetEnvironmentStringsA` | 543 (0x21f) | Exported Function | 0x101bbdb0 | 0x001bbdb0
-`GetEnvironmentStrings` | 542 (0x21e) | Exported Function | 0x101bbdb0 | 0x001bbdb0
-`GetEnabledXStateFeatures` | 541 (0x21d) | Exported Function | 0x10129c70 | 0x00129c70
-`GetEightBitStringToUnicodeStringRoutine` | 540 (0x21c) | Exported Function | 0x10125170 | 0x00125170
-`GetEightBitStringToUnicodeSizeRoutine` | 539 (0x21b) | Exported Function | 0x101b0a10 | 0x001b0a10
-`GetEffectivePackageStatusForUserSid` | 538 (0x21a) | Exported Function | 0x100ff830 | 0x000ff830
-`GetEffectivePackageStatusForUser` | 537 (0x219) | Exported Function | 0x1018f660 | 0x0018f660
-`GetDynamicTimeZoneInformationEffectiveYears` | 536 (0x218) | Exported Function | 0x101b4a20 | 0x001b4a20
-`GetDynamicTimeZoneInformation` | 535 (0x217) | Exported Function | 0x100fb470 | 0x000fb470
-`GetDurationFormatEx` | 534 (0x216) | Exported Function | 0x10168e80 | 0x00168e80
-`GetDriveTypeW` | 533 (0x215) | Exported Function | 0x101103c0 | 0x001103c0
-`GetDriveTypeA` | 532 (0x214) | Exported Function | 0x100f87c0 | 0x000f87c0
-`GetDiskSpaceInformationW` | 531 (0x213) | Exported Function | 0x101abbb0 | 0x001abbb0
-`GetDiskSpaceInformationA` | 530 (0x212) | Exported Function | 0x101abb50 | 0x001abb50
-`GetDiskFreeSpaceW` | 529 (0x211) | Exported Function | 0x100f7b30 | 0x000f7b30
-`GetDiskFreeSpaceExW` | 528 (0x210) | Exported Function | 0x10127180 | 0x00127180
-`GetDiskFreeSpaceExA` | 527 (0x20f) | Exported Function | 0x100fbe70 | 0x000fbe70
-`GetDiskFreeSpaceA` | 526 (0x20e) | Exported Function | 0x101abb00 | 0x001abb00
-`GetExtensionApplicationUserModelId` | 551 (0x227) | Exported Function | 0x1018b5b0 | 0x0018b5b0
-`GetExtensionProgIds` | 552 (0x228) | Exported Function | 0x10117a70 | 0x00117a70
-`GetExtensionProperty` | 554 (0x22a) | Exported Function | 0x1018bbd0 | 0x0018bbd0
-`GetExtensionProperty2` | 553 (0x229) | Exported Function | 0x1018ba00 | 0x0018ba00
-`GetFullPathNameA` | 580 (0x244) | Exported Function | 0x100f3ba0 | 0x000f3ba0
-`GetFinalPathNameByHandleW` | 579 (0x243) | Exported Function | 0x100f9f40 | 0x000f9f40
-`GetFinalPathNameByHandleA` | 578 (0x242) | Exported Function | 0x101b2020 | 0x001b2020
-`GetFileVersionInfoW` | 577 (0x241) | Exported Function | 0x1012a6d0 | 0x0012a6d0
-`GetFileVersionInfoSizeW` | 576 (0x240) | Exported Function | 0x1012a9e0 | 0x0012a9e0
-`GetFileVersionInfoSizeExW` | 575 (0x23f) | Exported Function | 0x1010e370 | 0x0010e370
-`GetFileVersionInfoSizeExA` | 574 (0x23e) | Exported Function | 0x100fade0 | 0x000fade0
-`GetFileVersionInfoSizeA` | 573 (0x23d) | Exported Function | 0x10129810 | 0x00129810
-`GetFileVersionInfoExW` | 572 (0x23c) | Exported Function | 0x1010d200 | 0x0010d200
-`GetFileVersionInfoExA` | 571 (0x23b) | Exported Function | 0x100faa60 | 0x000faa60
-`GetFileVersionInfoByHandle` | 570 (0x23a) | Exported Function | 0x10153900 | 0x00153900
-`GetFileVersionInfoA` | 569 (0x239) | Exported Function | 0x101293a0 | 0x001293a0
-`GetDeviceDriverFileNameW` | 525 (0x20d) | Exported Function | 0x10173fa0 | 0x00173fa0
-`GetFileType` | 568 (0x238) | Exported Function | 0x10122c20 | 0x00122c20
-`GetFileSizeEx` | 566 (0x236) | Exported Function | 0x10128d70 | 0x00128d70
-`GetFileSize` | 565 (0x235) | Exported Function | 0x1011d600 | 0x0011d600
-`GetFileSecurityW` | 564 (0x234) | Exported Function | 0x10129020 | 0x00129020
-`GetFileMUIPath` | 563 (0x233) | Exported Function | 0x10169920 | 0x00169920
-`GetFileMUIInfo` | 562 (0x232) | Exported Function | 0x10169350 | 0x00169350
-`GetFileInformationByHandleEx` | 561 (0x231) | Exported Function | 0x10110bc0 | 0x00110bc0
-`GetFileInformationByHandle` | 560 (0x230) | Exported Function | 0x10127760 | 0x00127760
-`GetFileAttributesW` | 559 (0x22f) | Exported Function | 0x10111240 | 0x00111240
-`GetFileAttributesExW` | 558 (0x22e) | Exported Function | 0x10124ec0 | 0x00124ec0
-`GetFileAttributesExA` | 557 (0x22d) | Exported Function | 0x10124e70 | 0x00124e70
-`GetFileAttributesA` | 556 (0x22c) | Exported Function | 0x10129b70 | 0x00129b70
-`GetFallbackDisplayName` | 555 (0x22b) | Exported Function | 0x101620e0 | 0x001620e0
-`GetFileTime` | 567 (0x237) | Exported Function | 0x10128920 | 0x00128920
-`GetDeviceDriverFileNameA` | 524 (0x20c) | Exported Function | 0x10173f30 | 0x00173f30
-`GetDeviceDriverBaseNameW` | 523 (0x20b) | Exported Function | 0x10173ed0 | 0x00173ed0
-`GetDeviceDriverBaseNameA` | 522 (0x20a) | Exported Function | 0x10173e50 | 0x00173e50
-`GetCurrentActCtx` | 491 (0x1eb) | Exported Function | 0x10126e20 | 0x00126e20
-`GetCurrencyFormatW` | 490 (0x1ea) | Exported Function | 0x101684e0 | 0x001684e0
-`GetCurrencyFormatEx` | 489 (0x1e9) | Exported Function | 0x10168480 | 0x00168480
-`GetCPInfoExW` | 439 (0x1b7) | Exported Function | 0x101671a0 | 0x001671a0
-`GetCPInfo` | 438 (0x1b6) | Exported Function | 0x10121630 | 0x00121630
-`GetCPHashNode` | 2 (0x2) | Exported Function | 0x101217a0 | 0x001217a0
-`GetCPFileNameFromRegistry` | 437 (0x1b5) | Exported Function | 0x100f57a0 | 0x000f57a0
-`GetConsoleWindow` | 488 (0x1e8) | Exported Function | 0x100fd3e0 | 0x000fd3e0
-`GetConsoleTitleW` | 487 (0x1e7) | Exported Function | 0x101a87f0 | 0x001a87f0
-`GetConsoleTitleA` | 486 (0x1e6) | Exported Function | 0x101a8700 | 0x001a8700
-`GetConsoleSelectionInfo` | 485 (0x1e5) | Exported Function | 0x101aaee0 | 0x001aaee0
-`GetConsoleScreenBufferInfoEx` | 484 (0x1e4) | Exported Function | 0x101aae20 | 0x001aae20
-`GetCurrentApplicationUserModelId` | 492 (0x1ec) | Exported Function | 0x1012a550 | 0x0012a550
-`GetConsoleScreenBufferInfo` | 483 (0x1e3) | Exported Function | 0x101aadb0 | 0x001aadb0
-`GetConsoleOutputCP` | 481 (0x1e1) | Exported Function | 0x10113fd0 | 0x00113fd0
-`GetConsoleOriginalTitleW` | 480 (0x1e0) | Exported Function | 0x101a86e0 | 0x001a86e0
-`GetConsoleOriginalTitleA` | 479 (0x1df) | Exported Function | 0x101a86c0 | 0x001a86c0
-`GetConsoleMode` | 478 (0x1de) | Exported Function | 0x10115b60 | 0x00115b60
-`GetConsoleInputExeNameW` | 477 (0x1dd) | Exported Function | 0x101a8640 | 0x001a8640
-`GetConsoleInputExeNameA` | 476 (0x1dc) | Exported Function | 0x101a8580 | 0x001a8580
-`GetConsoleHistoryInfo` | 475 (0x1db) | Exported Function | 0x101aacc0 | 0x001aacc0
-`GetConsoleFontSize` | 474 (0x1da) | Exported Function | 0x101aac70 | 0x001aac70
-`GetConsoleDisplayMode` | 473 (0x1d9) | Exported Function | 0x101aac20 | 0x001aac20
-`GetConsoleCursorInfo` | 472 (0x1d8) | Exported Function | 0x101aabc0 | 0x001aabc0
-`GetConsoleCP` | 467 (0x1d3) | Exported Function | 0x101aab70 | 0x001aab70
-`GetConsoleCommandHistoryW` | 471 (0x1d7) | Exported Function | 0x101a8560 | 0x001a8560
-`GetConsoleProcessList` | 482 (0x1e2) | Exported Function | 0x101aad30 | 0x001aad30
-`GetFullPathNameW` | 581 (0x245) | Exported Function | 0x101118f0 | 0x001118f0
-`GetCurrentConsoleFont` | 493 (0x1ed) | Exported Function | 0x101aaf30 | 0x001aaf30
-`GetCurrentDirectoryA` | 495 (0x1ef) | Exported Function | 0x100fcbd0 | 0x000fcbd0
-`GetDateFormatW` | 521 (0x209) | Exported Function | 0x100f91e0 | 0x000f91e0
-`GetDateFormatEx` | 520 (0x208) | Exported Function | 0x10168e00 | 0x00168e00
-`GetDateFormatA` | 519 (0x207) | Exported Function | 0x10168cb0 | 0x00168cb0
-`GetCurrentThreadStackLimits` | 518 (0x206) | Exported Function | 0x101b5ee0 | 0x001b5ee0
-`GetCurrentThreadId` | 517 (0x205) | Exported Function | 0x101b5ed0 | 0x001b5ed0
-`GetCurrentThread` | 516 (0x204) | Exported Function | 0x101b5ec0 | 0x001b5ec0
-`GetCurrentTargetPlatformContext` | 515 (0x203) | Exported Function | 0x1018d510 | 0x0018d510
-`GetCurrentProcessorNumberEx` | 514 (0x202) | Exported Function | NTDLL.RtlGetCurrentProcessorNumberEx | 0x001cfa45
-`GetCurrentProcessorNumber` | 513 (0x201) | Exported Function | NTDLL.RtlGetCurrentProcessorNumber | 0x001cfa06
-`GetCurrentProcessId` | 512 (0x200) | Exported Function | 0x10119280 | 0x00119280
-`GetCurrentProcess` | 511 (0x1ff) | Exported Function | 0x10110b00 | 0x00110b00
-`GetCurrentPackageSecurityContext` | 510 (0x1fe) | Exported Function | 0x1018d4b0 | 0x0018d4b0
-`GetCurrentConsoleFontEx` | 494 (0x1ee) | Exported Function | 0x101aaf90 | 0x001aaf90
-`GetCurrentPackageResourcesContext` | 509 (0x1fd) | Exported Function | 0x1018d430 | 0x0018d430
-`GetCurrentPackagePath` | 508 (0x1fc) | Exported Function | 0x1018f270 | 0x0018f270
-`GetCurrentPackageInfo3` | 505 (0x1f9) | Exported Function | 0x10129d90 | 0x00129d90
-`GetCurrentPackageInfo2` | 504 (0x1f8) | Exported Function | 0x10188050 | 0x00188050
-`GetCurrentPackageInfo` | 506 (0x1fa) | Exported Function | 0x10129d50 | 0x00129d50
-`GetCurrentPackageId` | 503 (0x1f7) | Exported Function | 0x101294a0 | 0x001294a0
-`GetCurrentPackageGlobalizationContext` | 502 (0x1f6) | Exported Function | 0x1018d3b0 | 0x0018d3b0
-`GetCurrentPackageFullName` | 501 (0x1f5) | Exported Function | 0x1012a090 | 0x0012a090
-`GetCurrentPackageFamilyName` | 500 (0x1f4) | Exported Function | 0x100f9330 | 0x000f9330
-`GetCurrentPackageContext` | 499 (0x1f3) | Exported Function | 0x1018d350 | 0x0018d350
-`GetCurrentPackageApplicationResourcesContext` | 498 (0x1f2) | Exported Function | 0x1018d2d0 | 0x0018d2d0
-`GetCurrentPackageApplicationContext` | 497 (0x1f1) | Exported Function | 0x1018d270 | 0x0018d270
-`GetCurrentDirectoryW` | 496 (0x1f0) | Exported Function | 0x100faad0 | 0x000faad0
-`GetCurrentPackagePath2` | 507 (0x1fb) | Exported Function | 0x1018f190 | 0x0018f190
-`GetConsoleCommandHistoryLengthA` | 469 (0x1d5) | Exported Function | 0x101a84b0 | 0x001a84b0
-`GetGamingDeviceModelInformation` | 584 (0x248) | Exported Function | 0x1015bb70 | 0x0015bb70
-`GetGeoInfoW` | 586 (0x24a) | Exported Function | 0x1016bd30 | 0x0016bd30
-`GetPackageResourcesProperty` | 668 (0x29c) | Exported Function | 0x1018dde0 | 0x0018dde0
-`GetPackageResourcesContext` | 667 (0x29b) | Exported Function | 0x1018dda0 | 0x0018dda0
-`GetPackagePropertyString` | 666 (0x29a) | Exported Function | 0x1018dd10 | 0x0018dd10
-`GetPackageProperty` | 665 (0x299) | Exported Function | 0x1018daa0 | 0x0018daa0
-`GetPackagePathOnVolume` | 664 (0x298) | Exported Function | 0x1018f840 | 0x0018f840
-`GetPackagePathByFullName2` | 662 (0x296) | Exported Function | 0x1018f440 | 0x0018f440
-`GetPackagePathByFullName` | 663 (0x297) | Exported Function | 0x1018f490 | 0x0018f490
-`GetPackagePath` | 661 (0x295) | Exported Function | 0x1018f3b0 | 0x0018f3b0
-`GetPackageOSMaxVersionTested` | 660 (0x294) | Exported Function | 0x1018da50 | 0x0018da50
-`GetPackageInstallTime` | 659 (0x293) | Exported Function | 0x1018ac40 | 0x0018ac40
-`GetPackageInfo3` | 657 (0x291) | Exported Function | 0x10188200 | 0x00188200
-`GetPackageInfo2` | 656 (0x290) | Exported Function | 0x101881c0 | 0x001881c0
-`GetPackageInfo` | 658 (0x292) | Exported Function | 0x10188380 | 0x00188380
-`GetPackageId` | 655 (0x28f) | Exported Function | 0x1018f330 | 0x0018f330
-`GetPackageGlobalizationProperty` | 654 (0x28e) | Exported Function | 0x1018d9d0 | 0x0018d9d0
-`GetPackageGlobalizationContext` | 653 (0x28d) | Exported Function | 0x1018d990 | 0x0018d990
-`GetPackageFullNameFromToken` | 652 (0x28c) | Exported Function | 0x1018f290 | 0x0018f290
-`GetPackageFullName` | 651 (0x28b) | Exported Function | 0x10112f00 | 0x00112f00
-`GetPackageFamilyNameFromToken` | 650 (0x28a) | Exported Function | 0x101286a0 | 0x001286a0
-`GetPackageFamilyNameFromProgId` | 649 (0x289) | Exported Function | 0x10189010 | 0x00189010
-`GetPackageFamilyName` | 648 (0x288) | Exported Function | 0x10110b50 | 0x00110b50
-`GetPackageContext` | 647 (0x287) | Exported Function | 0x1018d960 | 0x0018d960
-`GetPackageApplicationResourcesContext` | 646 (0x286) | Exported Function | 0x1018d920 | 0x0018d920
-`GetPackageApplicationPropertyString` | 645 (0x285) | Exported Function | 0x1018d890 | 0x0018d890
-`GetPackageApplicationProperty` | 644 (0x284) | Exported Function | 0x1018d5a0 | 0x0018d5a0
-`GetPackagesByPackageFamily` | 676 (0x2a4) | Exported Function | 0x1018acd0 | 0x0018acd0
-`GetPackageSecurityContext` | 669 (0x29d) | Exported Function | 0x1018ded0 | 0x0018ded0
-`GetPackageSecurityProperty` | 670 (0x29e) | Exported Function | 0x1018df10 | 0x0018df10
-`GetPackageStatus` | 671 (0x29f) | Exported Function | 0x100ff880 | 0x000ff880
-`GetProcessMitigationPolicy` | 698 (0x2ba) | Exported Function | 0x101242b0 | 0x001242b0
-`GetProcessMemoryInfo` | 697 (0x2b9) | Exported Function | 0x100fc440 | 0x000fc440
-`GetProcessInformation` | 696 (0x2b8) | Exported Function | 0x101b98a0 | 0x001b98a0
-`GetProcessImageFileNameW` | 695 (0x2b7) | Exported Function | 0x101282f0 | 0x001282f0
-`GetProcessImageFileNameA` | 694 (0x2b6) | Exported Function | 0x101746f0 | 0x001746f0
-`GetProcessIdOfThread` | 693 (0x2b5) | Exported Function | 0x1012ab10 | 0x0012ab10
-`GetProcessId` | 692 (0x2b4) | Exported Function | 0x10126210 | 0x00126210
-`GetProcessHeaps` | 691 (0x2b3) | Exported Function | 0x101bcfe0 | 0x001bcfe0
-`GetProcessHeap` | 690 (0x2b2) | Exported Function | 0x1011bac0 | 0x0011bac0
-`GetProcessHandleCount` | 689 (0x2b1) | Exported Function | 0x101b9860 | 0x001b9860
-`GetProcessGroupAffinity` | 688 (0x2b0) | Exported Function | 0x101b9800 | 0x001b9800
-`GetProcessDefaultCpuSets` | 687 (0x2af) | Exported Function | 0x101b9780 | 0x001b9780
-`GetPackageApplicationIds` | 643 (0x283) | Exported Function | 0x10188090 | 0x00188090
-`GetProcAddressForCaller` | 686 (0x2ae) | Exported Function | 0x10116540 | 0x00116540
-`GetPrivateObjectSecurity` | 684 (0x2ac) | Exported Function | 0x101ad040 | 0x001ad040
-`GetPriorityClass` | 683 (0x2ab) | Exported Function | 0x101b9700 | 0x001b9700
-`GetPreviousFgPolicyRefreshInfoInternal` | 682 (0x2aa) | Exported Function | 0x101545b0 | 0x001545b0
-`GetPhysicallyInstalledSystemMemory` | 681 (0x2a9) | Exported Function | 0x101bcbc0 | 0x001bcbc0
-`GetPersistedRegistryValueW` | 680 (0x2a8) | Exported Function | 0x100f6eb0 | 0x000f6eb0
-`GetPersistedRegistryLocationW` | 679 (0x2a7) | Exported Function | 0x1012a870 | 0x0012a870
-`GetPersistedFileLocationW` | 678 (0x2a6) | Exported Function | 0x1015b5c0 | 0x0015b5c0
-`GetPerformanceInfo` | 677 (0x2a5) | Exported Function | 0x10174220 | 0x00174220
-`GetPackageVolumeSisPath` | 675 (0x2a3) | Exported Function | 0x1018f910 | 0x0018f910
-`GetPackageTargetPlatformProperty` | 674 (0x2a2) | Exported Function | 0x1018dfb0 | 0x0018dfb0
-`GetPackageStatusForUserSid` | 673 (0x2a1) | Exported Function | 0x100ffa30 | 0x000ffa30
-`GetPackageStatusForUser` | 672 (0x2a0) | Exported Function | 0x100ff9c0 | 0x000ff9c0
-`GetProcAddress` | 685 (0x2ad) | Exported Function | 0x101164a0 | 0x001164a0
-`GetPackageApplicationContext` | 642 (0x282) | Exported Function | 0x1018d570 | 0x0018d570
-`GetOverlappedResultEx` | 641 (0x281) | Exported Function | 0x101b8ad0 | 0x001b8ad0
-`GetOverlappedResult` | 640 (0x280) | Exported Function | 0x1010f3f0 | 0x0010f3f0
-`GetMemoryErrorHandlingCapabilities` | 610 (0x262) | Exported Function | 0x101af7c0 | 0x001af7c0
-`GetMappedFileNameW` | 609 (0x261) | Exported Function | 0x101748a0 | 0x001748a0
-`GetMappedFileNameA` | 608 (0x260) | Exported Function | 0x10174830 | 0x00174830
-`GetLongPathNameW` | 607 (0x25f) | Exported Function | 0x10122440 | 0x00122440
-`GetLongPathNameA` | 606 (0x25e) | Exported Function | 0x1016d0b0 | 0x0016d0b0
-`GetLogicalProcessorInformationEx` | 605 (0x25d) | Exported Function | 0x1012adc0 | 0x0012adc0
-`GetLogicalProcessorInformation` | 604 (0x25c) | Exported Function | 0x1012a120 | 0x0012a120
-`GetLogicalDriveStringsW` | 602 (0x25a) | Exported Function | 0x101abcd0 | 0x001abcd0
-`GetLogicalDrives` | 603 (0x25b) | Exported Function | 0x101291c0 | 0x001291c0
-`GetLocalTime` | 597 (0x255) | Exported Function | 0x1011c940 | 0x0011c940
-`GetLocaleInfoW` | 601 (0x259) | Exported Function | 0x10107e70 | 0x00107e70
-`GetLocaleInfoHelper` | 600 (0x258) | Exported Function | 0x1010b840 | 0x0010b840
-`GetModuleBaseNameA` | 611 (0x263) | Exported Function | 0x10174530 | 0x00174530
-`GetLocaleInfoEx` | 599 (0x257) | Exported Function | 0x10114ef0 | 0x00114ef0
-`GetLengthSid` | 596 (0x254) | Exported Function | 0x101219e0 | 0x001219e0
-`GetLastError` | 595 (0x253) | Exported Function | 0x1010f720 | 0x0010f720
-`GetLargestConsoleWindowSize` | 594 (0x252) | Exported Function | 0x101ab020 | 0x001ab020
-`GetLargePageMinimum` | 593 (0x251) | Exported Function | 0x101af7b0 | 0x001af7b0
-`GetKernelObjectSecurity` | 592 (0x250) | Exported Function | 0x10129320 | 0x00129320
-`GetIsWdagEnabled` | 591 (0x24f) | Exported Function | 0x10128fd0 | 0x00128fd0
-`GetIsEdpEnabled` | 590 (0x24e) | Exported Function | 0x10120e60 | 0x00120e60
-`GetIntegratedDisplaySize` | 589 (0x24d) | Exported Function | 0x1016cf10 | 0x0016cf10
-`GetHivePath` | 588 (0x24c) | Exported Function | 0x10178650 | 0x00178650
-`GetHandleInformation` | 587 (0x24b) | Exported Function | 0x10128b50 | 0x00128b50
-`GetGPOListInternalW` | 583 (0x247) | Exported Function | 0x10154550 | 0x00154550
-`GetGPOListInternalA` | 582 (0x246) | Exported Function | 0x10154520 | 0x00154520
-`GetLocaleInfoA` | 598 (0x256) | Exported Function | 0x100f6400 | 0x000f6400
-`GetGeoInfoEx` | 585 (0x249) | Exported Function | 0x1016bc20 | 0x0016bc20
-`GetModuleBaseNameW` | 612 (0x264) | Exported Function | 0x101745a0 | 0x001745a0
-`GetModuleFileNameExA` | 614 (0x266) | Exported Function | 0x10174650 | 0x00174650
-`GetOsSafeBootMode` | 639 (0x27f) | Exported Function | 0x100fd110 | 0x000fd110
-`GetOsManufacturingMode` | 638 (0x27e) | Exported Function | 0x1016cfe0 | 0x0016cfe0
-`GetOEMCP` | 637 (0x27d) | Exported Function | 0x1012b1c0 | 0x0012b1c0
-`GetNumberOfConsoleMouseButtons` | 636 (0x27c) | Exported Function | 0x101ab0c0 | 0x001ab0c0
-`GetNumberOfConsoleInputEvents` | 635 (0x27b) | Exported Function | 0x101ab060 | 0x001ab060
-`GetNumberFormatW` | 634 (0x27a) | Exported Function | 0x100f40b0 | 0x000f40b0
-`GetNumberFormatEx` | 633 (0x279) | Exported Function | 0x10168870 | 0x00168870
-`GetNumaProximityNodeEx` | 632 (0x278) | Exported Function | 0x101bcaa0 | 0x001bcaa0
-`GetNumaNodeProcessorMaskEx` | 631 (0x277) | Exported Function | 0x101bca30 | 0x001bca30
-`GetNumaHighestNodeNumber` | 630 (0x276) | Exported Function | 0x1012afd0 | 0x0012afd0
-`GetNLSVersionEx` | 623 (0x26f) | Exported Function | 0x1016c7a0 | 0x0016c7a0
-`GetNLSVersion` | 622 (0x26e) | Exported Function | 0x100fc380 | 0x000fc380
-`GetModuleFileNameA` | 613 (0x265) | Exported Function | 0x1011c080 | 0x0011c080
-`GetNextFgPolicyRefreshInfoInternal` | 629 (0x275) | Exported Function | 0x10154580 | 0x00154580
-`GetNamedPipeInfo` | 627 (0x273) | Exported Function | 0x101b1810 | 0x001b1810
-`GetNamedPipeHandleStateW` | 626 (0x272) | Exported Function | 0x101b16e0 | 0x001b16e0
-`GetNamedPipeClientComputerNameW` | 625 (0x271) | Exported Function | 0x101b1690 | 0x001b1690
-`GetNamedPipeAttribute` | 624 (0x270) | Exported Function | 0x101b1590 | 0x001b1590
-`GetNamedLocaleHashNode` | 3 (0x3) | Exported Function | 0x10114f40 | 0x00114f40
-`GetModuleInformation` | 621 (0x26d) | Exported Function | 0x10119820 | 0x00119820
-`GetModuleHandleW` | 620 (0x26c) | Exported Function | 0x1010d5e0 | 0x0010d5e0
-`GetModuleHandleExW` | 619 (0x26b) | Exported Function | 0x10112350 | 0x00112350
-`GetModuleHandleExA` | 618 (0x26a) | Exported Function | 0x10126be0 | 0x00126be0
-`GetModuleHandleA` | 617 (0x269) | Exported Function | 0x1011bfc0 | 0x0011bfc0
-`GetModuleFileNameW` | 616 (0x268) | Exported Function | 0x1011c170 | 0x0011c170
-`GetModuleFileNameExW` | 615 (0x267) | Exported Function | 0x100f2560 | 0x000f2560
-`GetNativeSystemInfo` | 628 (0x274) | Exported Function | 0x10113a40 | 0x00113a40
-`ZombifyActCtx` | 1866 (0x74a) | Exported Function | 0x10154e80 | 0x00154e80
+Function Name | Ordinal | Type
+-- | -- | --
+`PerfDeleteInstance` | 1236 | Exported Function
+`PerfIncrementULongCounterValue` | 1237 | Exported Function
+`PerfIncrementULongLongCounterValue` | 1238 | Exported Function
+`PerfDecrementULongLongCounterValue` | 1235 | Exported Function
+`PeekNamedPipe` | 1232 | Exported Function
+`PerfCreateInstance` | 1233 | Exported Function
+`PerfDecrementULongCounterValue` | 1234 | Exported Function
+`PerfSetULongLongCounterValue` | 1243 | Exported Function
+`PerfStartProvider` | 1244 | Exported Function
+`PerfStartProviderEx` | 1245 | Exported Function
+`PerfSetULongCounterValue` | 1242 | Exported Function
+`PerfQueryInstance` | 1239 | Exported Function
+`PerfSetCounterRefValue` | 1240 | Exported Function
+`PerfSetCounterSetInfo` | 1241 | Exported Function
+`PeekConsoleInputW` | 1231 | Exported Function
+`PcwIsNotifierAlive` | 1221 | Exported Function
+`PcwQueryCounterSetSecurity` | 1222 | Exported Function
+`PcwReadNotificationData` | 1223 | Exported Function
+`PcwEnumerateInstances` | 1220 | Exported Function
+`PcwCreateNotifier` | 1217 | Exported Function
+`PcwCreateQuery` | 1218 | Exported Function
+`PcwDisconnectCounterSet` | 1219 | Exported Function
+`PcwSetCounterSetSecurity` | 1228 | Exported Function
+`PcwSetQueryItemUserData` | 1229 | Exported Function
+`PeekConsoleInputA` | 1230 | Exported Function
+`PcwSendStatelessNotification` | 1227 | Exported Function
+`PcwRegisterCounterSet` | 1224 | Exported Function
+`PcwRemoveQueryItem` | 1225 | Exported Function
+`PcwSendNotification` | 1226 | Exported Function
+`PerfStopProvider` | 1246 | Exported Function
+`PsmIsValidKey` | 1266 | Exported Function
+`PssCaptureSnapshot` | 1267 | Exported Function
+`PssDuplicateSnapshot` | 1268 | Exported Function
+`PsmIsDynamicKey` | 1265 | Exported Function
+`PsmGetKeyFromToken` | 1262 | Exported Function
+`PsmGetPackageFullNameFromKey` | 1263 | Exported Function
+`PsmIsChildKey` | 1264 | Exported Function
+`PssWalkMarkerGetPosition` | 1273 | Exported Function
+`PssWalkMarkerSeekToBeginning` | 1274 | Exported Function
+`PssWalkMarkerSetPosition` | 1275 | Exported Function
+`PssWalkMarkerFree` | 1272 | Exported Function
+`PssFreeSnapshot` | 1269 | Exported Function
+`PssQuerySnapshot` | 1270 | Exported Function
+`PssWalkMarkerCreate` | 1271 | Exported Function
+`PsmGetKeyFromProcess` | 1261 | Exported Function
+`PrivilegeCheck` | 1251 | Exported Function
+`PrivilegedServiceAuditAlarmW` | 1252 | Exported Function
+`ProcessIdToSessionId` | 1253 | Exported Function
+`PrivCopyFileExW` | 1250 | Exported Function
+`PoolPerAppKeyStateInternal` | 1247 | Exported Function
+`PostQueuedCompletionStatus` | 1248 | Exported Function
+`PrefetchVirtualMemory` | 1249 | Exported Function
+`PsmEqualPackage` | 1258 | Exported Function
+`PsmGetApplicationNameFromKey` | 1259 | Exported Function
+`PsmGetDynamicIdFromKey` | 1260 | Exported Function
+`PsmEqualApplication` | 1257 | Exported Function
+`ProductIdFromPackageFamilyName` | 1254 | Exported Function
+`PsmCreateKey` | 1255 | Exported Function
+`PsmCreateKeyWithDynamicId` | 1256 | Exported Function
+`PathIsURLA` | 1177 | Exported Function
+`PathIsURLW` | 1178 | Exported Function
+`PathIsValidCharA` | 1179 | Exported Function
+`PathIsUNCW` | 1176 | Exported Function
+`PathIsUNCServerShareA` | 1173 | Exported Function
+`PathIsUNCServerShareW` | 1174 | Exported Function
+`PathIsUNCServerW` | 1175 | Exported Function
+`PathMatchSpecW` | 1184 | Exported Function
+`PathParseIconLocationA` | 1185 | Exported Function
+`PathParseIconLocationW` | 1186 | Exported Function
+`PathMatchSpecExW` | 1183 | Exported Function
+`PathIsValidCharW` | 1180 | Exported Function
+`PathMatchSpecA` | 1181 | Exported Function
+`PathMatchSpecExA` | 1182 | Exported Function
+`PathIsUNCServerA` | 1172 | Exported Function
+`PathIsPrefixA` | 1162 | Exported Function
+`PathIsPrefixW` | 1163 | Exported Function
+`PathIsRelativeA` | 1164 | Exported Function
+`PathIsLFNFileSpecW` | 1161 | Exported Function
+`PathIsFileSpecA` | 1158 | Exported Function
+`PathIsFileSpecW` | 1159 | Exported Function
+`PathIsLFNFileSpecA` | 1160 | Exported Function
+`PathIsSameRootW` | 1169 | Exported Function
+`PathIsUNCA` | 1170 | Exported Function
+`PathIsUNCEx` | 1171 | Exported Function
+`PathIsSameRootA` | 1168 | Exported Function
+`PathIsRelativeW` | 1165 | Exported Function
+`PathIsRootA` | 1166 | Exported Function
+`PathIsRootW` | 1167 | Exported Function
+`PathQuoteSpacesA` | 1187 | Exported Function
+`PathStripToRootA` | 1207 | Exported Function
+`PathStripToRootW` | 1208 | Exported Function
+`PathUnExpandEnvStringsA` | 1209 | Exported Function
+`PathStripPathW` | 1206 | Exported Function
+`PathSkipRootA` | 1203 | Exported Function
+`PathSkipRootW` | 1204 | Exported Function
+`PathStripPathA` | 1205 | Exported Function
+`PcwClearCounterSetSecurity` | 1214 | Exported Function
+`PcwCollectData` | 1215 | Exported Function
+`PcwCompleteNotification` | 1216 | Exported Function
+`PcwAddQueryItem` | 1213 | Exported Function
+`PathUnExpandEnvStringsW` | 1210 | Exported Function
+`PathUnquoteSpacesA` | 1211 | Exported Function
+`PathUnquoteSpacesW` | 1212 | Exported Function
+`PathSearchAndQualifyW` | 1202 | Exported Function
+`PathRemoveBackslashW` | 1192 | Exported Function
+`PathRemoveBlanksA` | 1193 | Exported Function
+`PathRemoveBlanksW` | 1194 | Exported Function
+`PathRemoveBackslashA` | 1191 | Exported Function
+`PathQuoteSpacesW` | 1188 | Exported Function
+`PathRelativePathToA` | 1189 | Exported Function
+`PathRelativePathToW` | 1190 | Exported Function
+`PathRenameExtensionA` | 1199 | Exported Function
+`PathRenameExtensionW` | 1200 | Exported Function
+`PathSearchAndQualifyA` | 1201 | Exported Function
+`PathRemoveFileSpecW` | 1198 | Exported Function
+`PathRemoveExtensionA` | 1195 | Exported Function
+`PathRemoveExtensionW` | 1196 | Exported Function
+`PathRemoveFileSpecA` | 1197 | Exported Function
+`PssWalkSnapshot` | 1276 | Exported Function
+`RegCreateKeyExW` | 1356 | Exported Function
+`RegDeleteKeyExA` | 1357 | Exported Function
+`RegDeleteKeyExInternalA` | 1358 | Exported Function
+`RegCreateKeyExInternalW` | 1355 | Exported Function
+`RegCopyTreeW` | 1352 | Exported Function
+`RegCreateKeyExA` | 1353 | Exported Function
+`RegCreateKeyExInternalA` | 1354 | Exported Function
+`RegDeleteTreeA` | 1363 | Exported Function
+`RegDeleteTreeW` | 1364 | Exported Function
+`RegDeleteValueA` | 1365 | Exported Function
+`RegDeleteKeyValueW` | 1362 | Exported Function
+`RegDeleteKeyExInternalW` | 1359 | Exported Function
+`RegDeleteKeyExW` | 1360 | Exported Function
+`RegDeleteKeyValueA` | 1361 | Exported Function
+`RegCloseKey` | 1351 | Exported Function
+`ReadFile` | 1341 | Exported Function
+`ReadFileEx` | 1342 | Exported Function
+`ReadFileScatter` | 1343 | Exported Function
+`ReadDirectoryChangesW` | 1340 | Exported Function
+`ReadConsoleOutputW` | 1337 | Exported Function
+`ReadConsoleW` | 1338 | Exported Function
+`ReadDirectoryChangesExW` | 1339 | Exported Function
+`RefreshPackageInfo` | 1348 | Exported Function
+`RefreshPolicyExInternal` | 1349 | Exported Function
+`RefreshPolicyInternal` | 1350 | Exported Function
+`ReclaimVirtualMemory` | 1347 | Exported Function
+`ReadProcessMemory` | 1344 | Exported Function
+`ReadStateAtomValue` | 1345 | Exported Function
+`ReadStateContainerValue` | 1346 | Exported Function
+`RegDeleteValueW` | 1366 | Exported Function
+`RegKrnGetHKEY_ClassesRootAddress` | 1379 | Exported Function
+`RegKrnGetTermsrvRegistryExtensionFlags` | 1380 | Exported Function
+`RegKrnResetAppKeyLoaded` | 1381 | Exported Function
+`RegKrnGetClassesEnumTableAddressInternal` | 1378 | Exported Function
+`RegisterWaitForSingleObjectEx` | 1420 | Exported Function
+`RegKrnGetAppKeyEventAddressInternal` | 1376 | Exported Function
+`RegKrnGetAppKeyLoaded` | 1377 | Exported Function
+`RegLoadKeyA` | 1386 | Exported Function
+`RegLoadKeyW` | 1387 | Exported Function
+`RegLoadMUIStringA` | 1388 | Exported Function
+`RegLoadAppKeyW` | 1385 | Exported Function
+`RegKrnSetDllHasThreadStateGlobal` | 1382 | Exported Function
+`RegKrnSetTermsrvRegistryExtensionFlags` | 1383 | Exported Function
+`RegLoadAppKeyA` | 1384 | Exported Function
+`RegisterTraceGuidsW` | 1419 | Exported Function
+`RegEnumValueW` | 1371 | Exported Function
+`RegFlushKey` | 1372 | Exported Function
+`RegGetKeySecurity` | 1373 | Exported Function
+`RegEnumValueA` | 1370 | Exported Function
+`RegDisablePredefinedCacheEx` | 1367 | Exported Function
+`RegEnumKeyExA` | 1368 | Exported Function
+`RegEnumKeyExW` | 1369 | Exported Function
+`RegisterGPNotificationInternal` | 1416 | Exported Function
+`RegisterStateChangeNotification` | 1417 | Exported Function
+`RegisterStateLock` | 1418 | Exported Function
+`RegisterBadMemoryNotification` | 1415 | Exported Function
+`RegGetValueA` | 1374 | Exported Function
+`RegGetValueW` | 1375 | Exported Function
+`RegisterApplicationRestart` | 1414 | Exported Function
+`QueryPerformanceCounter` | 1296 | Exported Function
+`QueryPerformanceFrequency` | 1297 | Exported Function
+`QueryProcessAffinityUpdateMode` | 1298 | Exported Function
+`QueryOptionalDelayLoadedAPI` | 1295 | Exported Function
+`QueryInterruptTime` | 1292 | Exported Function
+`QueryInterruptTimePrecise` | 1293 | Exported Function
+`QueryMemoryResourceNotification` | 1294 | Exported Function
+`QueryStateContainerCreatedNew` | 1303 | Exported Function
+`QueryStateContainerItemInfo` | 1304 | Exported Function
+`QueryThreadCycleTime` | 1305 | Exported Function
+`QueryStateAtomValueInfo` | 1302 | Exported Function
+`QueryProcessCycleTime` | 1299 | Exported Function
+`QueryProtectedPolicy` | 1300 | Exported Function
+`QuerySecurityAccessMask` | 1301 | Exported Function
+`QueryIdleProcessorCycleTimeEx` | 1291 | Exported Function
+`QISearch` | 1281 | Exported Function
+`QueryActCtxSettingsW` | 1282 | Exported Function
+`QueryActCtxW` | 1283 | Exported Function
+`PurgeComm` | 1280 | Exported Function
+`PublisherFromPackageFullName` | 1278 | Exported Function
+`PublishStateChangeNotification` | 1277 | Exported Function
+`PulseEvent` | 1279 | Exported Function
+`QueryFullProcessImageNameW` | 1288 | Exported Function
+`QueryGlobalizationUserSettingsStatus` | 1289 | Exported Function
+`QueryIdleProcessorCycleTime` | 1290 | Exported Function
+`QueryFullProcessImageNameA` | 1287 | Exported Function
+`QueryAuxiliaryCounterFrequency` | 1284 | Exported Function
+`QueryDepthSList` | 1285 | Exported Function
+`QueryDosDeviceW` | 1286 | Exported Function
+`QueryThreadpoolStackInformation` | 1306 | Exported Function
+`RaiseFailFastException` | 1326 | Exported Function
+`ReadConsoleA` | 1328 | Exported Function
+`ReadConsoleInputA` | 1329 | Exported Function
+`RaiseException` | 1325 | Exported Function
+`QuirkIsEnabledForPackage4` | 1321 | Exported Function
+`QuirkIsEnabledForProcess` | 1323 | Exported Function
+`RaiseCustomSystemEventTrigger` | 1324 | Exported Function
+`ReadConsoleOutputAttribute` | 1334 | Exported Function
+`ReadConsoleOutputCharacterA` | 1335 | Exported Function
+`ReadConsoleOutputCharacterW` | 1336 | Exported Function
+`ReadConsoleOutputA` | 1333 | Exported Function
+`ReadConsoleInputExA` | 1330 | Exported Function
+`ReadConsoleInputExW` | 1331 | Exported Function
+`ReadConsoleInputW` | 1332 | Exported Function
+`QuirkIsEnabledForPackage3` | 1320 | Exported Function
+`QueryWorkingSetEx` | 1311 | Exported Function
+`QueueUserAPC` | 1312 | Exported Function
+`QueueUserWorkItem` | 1313 | Exported Function
+`QueryWorkingSet` | 1310 | Exported Function
+`QueryUnbiasedInterruptTime` | 1307 | Exported Function
+`QueryUnbiasedInterruptTimePrecise` | 1308 | Exported Function
+`QueryVirtualMemoryInformation` | 1309 | Exported Function
+`QuirkIsEnabled3` | 1317 | Exported Function
+`QuirkIsEnabledForPackage` | 1322 | Exported Function
+`QuirkIsEnabledForPackage2` | 1319 | Exported Function
+`QuirkIsEnabled2` | 1316 | Exported Function
+`QuirkGetData` | 1315 | Exported Function
+`QuirkGetData2` | 1314 | Exported Function
+`QuirkIsEnabled` | 1318 | Exported Function
+`LocaleNameToLCID` | 1019 | Exported Function
+`LocalFileTimeToFileTime` | 1012 | Exported Function
+`LocalFileTimeToLocalSystemTime` | 1013 | Exported Function
+`LocalAlloc` | 1011 | Exported Function
+`LoadStringBaseExW` | 1008 | Exported Function
+`LoadStringByReference` | 1009 | Exported Function
+`LoadStringW` | 1010 | Exported Function
+`LocalUnlock` | 1018 | Exported Function
+`LocateXStateFeature` | 1020 | Exported Function
+`LockFile` | 1021 | Exported Function
+`LocalSystemTimeToLocalFileTime` | 1017 | Exported Function
+`LocalFree` | 1014 | Exported Function
+`LocalLock` | 1015 | Exported Function
+`LocalReAlloc` | 1016 | Exported Function
+`LoadStringA` | 1007 | Exported Function
+`LoadAppInitDlls` | 997 | Exported Function
+`LoadEnclaveData` | 998 | Exported Function
+`LoadEnclaveImageA` | 999 | Exported Function
+`LeaveCriticalSectionWhenCallbackReturns` | 996 | Exported Function
+`LCMapStringW` | 993 | Exported Function
+`LeaveCriticalPolicySectionInternal` | 994 | Exported Function
+`LeaveCriticalSection` | 995 | Exported Function
+`LoadLibraryW` | 1004 | Exported Function
+`LoadPackagedLibrary` | 1005 | Exported Function
+`LoadResource` | 1006 | Exported Function
+`LoadLibraryExW` | 1003 | Exported Function
+`LoadEnclaveImageW` | 1000 | Exported Function
+`LoadLibraryA` | 1001 | Exported Function
+`LoadLibraryExA` | 1002 | Exported Function
+`LockFileEx` | 1022 | Exported Function
+`MapViewOfFile` | 1032 | Exported Function
+`MapViewOfFile3` | 1030 | Exported Function
+`MapViewOfFile3FromApp` | 1031 | Exported Function
+`MapUserPhysicalPages` | 1029 | Exported Function
+`MakeSelfRelativeSD` | 1026 | Exported Function
+`MapGenericMask` | 1027 | Exported Function
+`MapPredefinedHandleInternal` | 1028 | Exported Function
+`MoveFileExW` | 1037 | Exported Function
+`MoveFileWithProgressTransactedW` | 1038 | Exported Function
+`MoveFileWithProgressW` | 1039 | Exported Function
+`MapViewOfFileNuma2` | 1036 | Exported Function
+`MapViewOfFileEx` | 1033 | Exported Function
+`MapViewOfFileExNuma` | 1034 | Exported Function
+`MapViewOfFileFromApp` | 1035 | Exported Function
+`MakeAbsoluteSD2` | 1024 | Exported Function
+`lstrcmpiA` | 1890 | Exported Function
+`lstrcmpiW` | 1891 | Exported Function
+`lstrcmpW` | 1888 | Exported Function
+`lstrcmpi` | 1889 | Exported Function
+`LockResource` | 1023 | Exported Function
+`lstrcmp` | 1886 | Exported Function
+`lstrcmpA` | 1887 | Exported Function
+`lstrlenA` | 1896 | Exported Function
+`lstrlenW` | 1897 | Exported Function
+`MakeAbsoluteSD` | 1025 | Exported Function
+`lstrlen` | 1895 | Exported Function
+`lstrcpyn` | 1892 | Exported Function
+`lstrcpynA` | 1893 | Exported Function
+`lstrcpynW` | 1894 | Exported Function
+`IsValidNLSVersion` | 954 | Exported Function
+`IsValidRelativeSecurityDescriptor` | 955 | Exported Function
+`IsValidSecurityDescriptor` | 956 | Exported Function
+`IsValidLocaleName` | 953 | Exported Function
+`IsValidCodePage` | 950 | Exported Function
+`IsValidLanguageGroup` | 951 | Exported Function
+`IsValidLocale` | 952 | Exported Function
+`IsWow64Process2` | 960 | Exported Function
+`K32EmptyWorkingSet` | 962 | Exported Function
+`K32EnumDeviceDrivers` | 963 | Exported Function
+`IsWow64Process` | 961 | Exported Function
+`IsValidSid` | 957 | Exported Function
+`IsWellKnownSid` | 958 | Exported Function
+`IsWow64GuestMachineSupported` | 959 | Exported Function
+`IsValidAcl` | 949 | Exported Function
+`IsProcessInJob` | 939 | Exported Function
+`IsProcessorFeaturePresent` | 940 | Exported Function
+`IsSideloadingEnabled` | 941 | Exported Function
+`IsProcessCritical` | 938 | Exported Function
+`IsNLSDefinedString` | 935 | Exported Function
+`IsNormalizedString` | 936 | Exported Function
+`IsOnDemandRegistrationSupportedForExtensionCategory` | 937 | Exported Function
+`IsTimeZoneRedirectionEnabled` | 946 | Exported Function
+`IsTokenRestricted` | 947 | Exported Function
+`IsUserCetAvailableInEnvironment` | 948 | Exported Function
+`IsThreadpoolTimerSet` | 945 | Exported Function
+`IsSideloadingPolicyApplied` | 942 | Exported Function
+`IsSyncForegroundPolicyRefresh` | 943 | Exported Function
+`IsThreadAFiber` | 944 | Exported Function
+`K32EnumPageFilesA` | 964 | Exported Function
+`K32GetWsChanges` | 984 | Exported Function
+`K32GetWsChangesEx` | 985 | Exported Function
+`K32InitializeProcessForWsWatch` | 986 | Exported Function
+`K32GetProcessMemoryInfo` | 983 | Exported Function
+`K32GetPerformanceInfo` | 980 | Exported Function
+`K32GetProcessImageFileNameA` | 981 | Exported Function
+`K32GetProcessImageFileNameW` | 982 | Exported Function
+`LCIDToLocaleName` | 990 | Exported Function
+`LCMapStringA` | 991 | Exported Function
+`LCMapStringEx` | 992 | Exported Function
+`KernelbasePostInit` | 6 | Exported Function
+`K32QueryWorkingSet` | 987 | Exported Function
+`K32QueryWorkingSetEx` | 988 | Exported Function
+`KernelBaseGetGlobalData` | 989 | Exported Function
+`K32GetModuleInformation` | 979 | Exported Function
+`K32GetDeviceDriverBaseNameA` | 969 | Exported Function
+`K32GetDeviceDriverBaseNameW` | 970 | Exported Function
+`K32GetDeviceDriverFileNameA` | 971 | Exported Function
+`K32EnumProcessModulesEx` | 967 | Exported Function
+`K32EnumPageFilesW` | 965 | Exported Function
+`K32EnumProcesses` | 968 | Exported Function
+`K32EnumProcessModules` | 966 | Exported Function
+`K32GetModuleBaseNameW` | 976 | Exported Function
+`K32GetModuleFileNameExA` | 977 | Exported Function
+`K32GetModuleFileNameExW` | 978 | Exported Function
+`K32GetModuleBaseNameA` | 975 | Exported Function
+`K32GetDeviceDriverFileNameW` | 972 | Exported Function
+`K32GetMappedFileNameA` | 973 | Exported Function
+`K32GetMappedFileNameW` | 974 | Exported Function
+`MulDiv` | 1040 | Exported Function
+`PathCchAddBackslash` | 1118 | Exported Function
+`PathCchAddBackslashEx` | 1119 | Exported Function
+`PathCchAddExtension` | 1120 | Exported Function
+`PathCanonicalizeW` | 1117 | Exported Function
+`PathAppendA` | 1114 | Exported Function
+`PathAppendW` | 1115 | Exported Function
+`PathCanonicalizeA` | 1116 | Exported Function
+`PathCchCombine` | 1125 | Exported Function
+`PathCchCombineEx` | 1126 | Exported Function
+`PathCchFindExtension` | 1127 | Exported Function
+`PathCchCanonicalizeEx` | 1124 | Exported Function
+`PathCchAppend` | 1121 | Exported Function
+`PathCchAppendEx` | 1122 | Exported Function
+`PathCchCanonicalize` | 1123 | Exported Function
+`PathAllocCombine` | 1113 | Exported Function
+`PackageSidFromProductId` | 1 | Exported Function
+`ParseApplicationUserModelId` | 1104 | Exported Function
+`ParseApplicationUserModelIdA` | 1105 | Exported Function
+`PackageSidFromFamilyName` | 1103 | Exported Function
+`PackageNameAndPublisherIdFromFamilyName` | 1100 | Exported Function
+`PackageNameAndPublisherIdFromFamilyNameA` | 1101 | Exported Function
+`PackageRelativeApplicationIdFromProductId` | 1102 | Exported Function
+`PathAddExtensionA` | 1110 | Exported Function
+`PathAddExtensionW` | 1111 | Exported Function
+`PathAllocCanonicalize` | 1112 | Exported Function
+`PathAddBackslashW` | 1109 | Exported Function
+`ParseURLA` | 1106 | Exported Function
+`ParseURLW` | 1107 | Exported Function
+`PathAddBackslashA` | 1108 | Exported Function
+`PathCchIsRoot` | 1128 | Exported Function
+`PathFindFileNameA` | 1148 | Exported Function
+`PathFindFileNameW` | 1149 | Exported Function
+`PathFindNextComponentA` | 1150 | Exported Function
+`PathFindExtensionW` | 1147 | Exported Function
+`PathFileExistsA` | 1144 | Exported Function
+`PathFileExistsW` | 1145 | Exported Function
+`PathFindExtensionA` | 1146 | Exported Function
+`PathGetCharTypeW` | 1155 | Exported Function
+`PathGetDriveNumberA` | 1156 | Exported Function
+`PathGetDriveNumberW` | 1157 | Exported Function
+`PathGetCharTypeA` | 1154 | Exported Function
+`PathFindNextComponentW` | 1151 | Exported Function
+`PathGetArgsA` | 1152 | Exported Function
+`PathGetArgsW` | 1153 | Exported Function
+`PathCreateFromUrlW` | 1143 | Exported Function
+`PathCchRenameExtension` | 1133 | Exported Function
+`PathCchSkipRoot` | 1134 | Exported Function
+`PathCchStripPrefix` | 1135 | Exported Function
+`PathCchRemoveFileSpec` | 1132 | Exported Function
+`PathCchRemoveBackslash` | 1129 | Exported Function
+`PathCchRemoveBackslashEx` | 1130 | Exported Function
+`PathCchRemoveExtension` | 1131 | Exported Function
+`PathCommonPrefixW` | 1140 | Exported Function
+`PathCreateFromUrlA` | 1141 | Exported Function
+`PathCreateFromUrlAlloc` | 1142 | Exported Function
+`PathCommonPrefixA` | 1139 | Exported Function
+`PathCchStripToRoot` | 1136 | Exported Function
+`PathCombineA` | 1137 | Exported Function
+`PathCombineW` | 1138 | Exported Function
+`ObjectPrivilegeAuditAlarmW` | 1060 | Exported Function
+`OfferVirtualMemory` | 1061 | Exported Function
+`OpenCommPort` | 1062 | Exported Function
+`ObjectOpenAuditAlarmW` | 1059 | Exported Function
+`NotifyRedirectedStringChange` | 1056 | Exported Function
+`ObjectCloseAuditAlarmW` | 1057 | Exported Function
+`ObjectDeleteAuditAlarmW` | 1058 | Exported Function
+`OpenFileMappingW` | 1067 | Exported Function
+`OpenGlobalizationUserSettingsKey` | 1068 | Exported Function
+`OpenMutexW` | 1069 | Exported Function
+`OpenFileMappingFromApp` | 1066 | Exported Function
+`OpenEventA` | 1063 | Exported Function
+`OpenEventW` | 1064 | Exported Function
+`OpenFileById` | 1065 | Exported Function
+`NotifyMountMgr` | 1055 | Exported Function
+`NeedCurrentDirectoryForExePathW` | 1045 | Exported Function
+`NlsCheckPolicy` | 1046 | Exported Function
+`NlsDispatchAnsiEnumProc` | 1047 | Exported Function
+`NeedCurrentDirectoryForExePathA` | 1044 | Exported Function
+`MultiByteToWideChar` | 1041 | Exported Function
+`NamedPipeEventEnum` | 1042 | Exported Function
+`NamedPipeEventSelect` | 1043 | Exported Function
+`NlsUpdateSystemLocale` | 1052 | Exported Function
+`NlsValidateLocale` | 1053 | Exported Function
+`NormalizeString` | 1054 | Exported Function
+`NlsUpdateLocale` | 1051 | Exported Function
+`NlsGetACPFromLocale` | 1048 | Exported Function
+`NlsGetCacheUpdateCount` | 1049 | Exported Function
+`NlsIsUserDefaultLocale` | 1050 | Exported Function
+`OpenPackageInfoByFullName` | 1070 | Exported Function
+`PackageFamilyNameFromFullNameA` | 1090 | Exported Function
+`PackageFamilyNameFromId` | 1091 | Exported Function
+`PackageFamilyNameFromIdA` | 1092 | Exported Function
+`PackageFamilyNameFromFullName` | 1089 | Exported Function
+`OutputDebugStringA` | 1086 | Exported Function
+`OutputDebugStringW` | 1087 | Exported Function
+`OverrideRoamingDataModificationTimesInRange` | 1088 | Exported Function
+`PackageIdFromFullName` | 1097 | Exported Function
+`PackageIdFromFullNameA` | 1098 | Exported Function
+`PackageIdFromProductId` | 1099 | Exported Function
+`PackageFullNameFromProductId` | 1096 | Exported Function
+`PackageFamilyNameFromProductId` | 1093 | Exported Function
+`PackageFullNameFromId` | 1094 | Exported Function
+`PackageFullNameFromIdA` | 1095 | Exported Function
+`OpenWaitableTimerW` | 1085 | Exported Function
+`OpenProcessToken` | 1075 | Exported Function
+`OpenRegKey` | 1076 | Exported Function
+`OpenSemaphoreW` | 1077 | Exported Function
+`OpenProcess` | 1074 | Exported Function
+`OpenPackageInfoByFullNameForMachine` | 1071 | Exported Function
+`OpenPackageInfoByFullNameForUser` | 1072 | Exported Function
+`OpenPrivateNamespaceW` | 1073 | Exported Function
+`OpenStateExplicitForUserSidString` | 1082 | Exported Function
+`OpenThread` | 1083 | Exported Function
+`OpenThreadToken` | 1084 | Exported Function
+`OpenStateExplicitForUserSid` | 1081 | Exported Function
+`OpenState` | 1078 | Exported Function
+`OpenStateAtom` | 1079 | Exported Function
+`OpenStateExplicit` | 1080 | Exported Function
+`RegLoadMUIStringW` | 1389 | Exported Function
+`TraceEvent` | 1710 | Exported Function
+`TraceMessage` | 1711 | Exported Function
+`TraceMessageVa` | 1712 | Exported Function
+`TlsSetValue` | 1709 | Exported Function
+`TlsAlloc` | 1706 | Exported Function
+`TlsFree` | 1707 | Exported Function
+`TlsGetValue` | 1708 | Exported Function
+`TryEnterCriticalSection` | 1717 | Exported Function
+`TrySubmitThreadpoolCallback` | 1718 | Exported Function
+`TzSpecificLocalTimeToSystemTime` | 1719 | Exported Function
+`TryAcquireSRWLockShared` | 1716 | Exported Function
+`TransactNamedPipe` | 1713 | Exported Function
+`TransmitCommChar` | 1714 | Exported Function
+`TryAcquireSRWLockExclusive` | 1715 | Exported Function
+`time` | 1898 | Exported Function
+`SuspendThread` | 1696 | Exported Function
+`SwitchToFiber` | 1697 | Exported Function
+`SwitchToThread` | 1698 | Exported Function
+`SubscribeWdagEnabledStateChange` | 1695 | Exported Function
+`SubmitThreadpoolWork` | 1692 | Exported Function
+`SubscribeEdpEnabledStateChange` | 1693 | Exported Function
+`SubscribeStateChangeNotification` | 1694 | Exported Function
+`TerminateProcess` | 1703 | Exported Function
+`TerminateProcessOnMemoryExhaustion` | 1704 | Exported Function
+`TerminateThread` | 1705 | Exported Function
+`TerminateEnclave` | 1702 | Exported Function
+`SystemTimeToFileTime` | 1699 | Exported Function
+`SystemTimeToTzSpecificLocalTime` | 1700 | Exported Function
+`SystemTimeToTzSpecificLocalTimeEx` | 1701 | Exported Function
+`TzSpecificLocalTimeToSystemTimeEx` | 1720 | Exported Function
+`UpdateProcThreadAttribute` | 1740 | Exported Function
+`UrlApplySchemeA` | 1741 | Exported Function
+`UrlApplySchemeW` | 1742 | Exported Function
+`UpdatePackageStatusForUserSid` | 1739 | Exported Function
+`UnsubscribeWdagEnabledStateChange` | 1736 | Exported Function
+`UpdatePackageStatus` | 1737 | Exported Function
+`UpdatePackageStatusForUser` | 1738 | Exported Function
+`UrlCompareA` | 1747 | Exported Function
+`UrlCompareW` | 1748 | Exported Function
+`UrlCreateFromPathA` | 1749 | Exported Function
+`UrlCombineW` | 1746 | Exported Function
+`UrlCanonicalizeA` | 1743 | Exported Function
+`UrlCanonicalizeW` | 1744 | Exported Function
+`UrlCombineA` | 1745 | Exported Function
+`UnsubscribeStateChangeNotification` | 1735 | Exported Function
+`UnmapViewOfFile2` | 1724 | Exported Function
+`UnmapViewOfFileEx` | 1726 | Exported Function
+`UnregisterApplicationRestart` | 1727 | Exported Function
+`UnmapViewOfFile` | 1725 | Exported Function
+`UnhandledExceptionFilter` | 1721 | Exported Function
+`UnlockFile` | 1722 | Exported Function
+`UnlockFileEx` | 1723 | Exported Function
+`UnregisterTraceGuids` | 1732 | Exported Function
+`UnregisterWaitEx` | 1733 | Exported Function
+`UnsubscribeEdpEnabledStateChange` | 1734 | Exported Function
+`UnregisterStateLock` | 1731 | Exported Function
+`UnregisterBadMemoryNotification` | 1728 | Exported Function
+`UnregisterGPNotificationInternal` | 1729 | Exported Function
+`UnregisterStateChangeNotification` | 1730 | Exported Function
+`StrCmpNICA` | 1656 | Exported Function
+`StrCmpNICW` | 1657 | Exported Function
+`StrCmpNIW` | 1658 | Exported Function
+`StrCmpNIA` | 1655 | Exported Function
+`StrCmpNA` | 1652 | Exported Function
+`StrCmpNCA` | 1653 | Exported Function
+`StrCmpNCW` | 1654 | Exported Function
+`StrCpyNXW` | 1663 | Exported Function
+`StrCSpnA` | 1632 | Exported Function
+`StrCSpnIA` | 1633 | Exported Function
+`StrCpyNXA` | 1662 | Exported Function
+`StrCmpNW` | 1659 | Exported Function
+`StrCmpW` | 1660 | Exported Function
+`StrCpyNW` | 1661 | Exported Function
+`StrCmpLogicalW` | 1651 | Exported Function
+`StrChrIA` | 1641 | Exported Function
+`StrChrIW` | 1642 | Exported Function
+`StrChrNIW` | 1643 | Exported Function
+`StrChrA_MB` | 1640 | Exported Function
+`StrCatBuffW` | 1637 | Exported Function
+`StrCatChainW` | 1638 | Exported Function
+`StrChrA` | 1639 | Exported Function
+`StrCmpICA` | 1648 | Exported Function
+`StrCmpICW` | 1649 | Exported Function
+`StrCmpIW` | 1650 | Exported Function
+`StrCmpCW` | 1647 | Exported Function
+`StrChrNW` | 1644 | Exported Function
+`StrChrW` | 1645 | Exported Function
+`StrCmpCA` | 1646 | Exported Function
+`StrCSpnIW` | 1634 | Exported Function
+`StrStrNW` | 1682 | Exported Function
+`StrStrW` | 1683 | Exported Function
+`StrToInt64ExA` | 1684 | Exported Function
+`StrStrNIW` | 1681 | Exported Function
+`StrStrA` | 1678 | Exported Function
+`StrStrIA` | 1679 | Exported Function
+`StrStrIW` | 1680 | Exported Function
+`StrToIntW` | 1689 | Exported Function
+`StrTrimA` | 1690 | Exported Function
+`StrTrimW` | 1691 | Exported Function
+`StrToIntExW` | 1688 | Exported Function
+`StrToInt64ExW` | 1685 | Exported Function
+`StrToIntA` | 1686 | Exported Function
+`StrToIntExA` | 1687 | Exported Function
+`StrSpnW` | 1677 | Exported Function
+`StrIsIntlEqualW` | 1667 | Exported Function
+`StrPBrkA` | 1668 | Exported Function
+`StrPBrkW` | 1669 | Exported Function
+`StrIsIntlEqualA` | 1666 | Exported Function
+`StrCSpnW` | 1635 | Exported Function
+`StrDupA` | 1664 | Exported Function
+`StrDupW` | 1665 | Exported Function
+`StrRStrIA` | 1674 | Exported Function
+`StrRStrIW` | 1675 | Exported Function
+`StrSpnA` | 1676 | Exported Function
+`StrRChrW` | 1673 | Exported Function
+`StrRChrA` | 1670 | Exported Function
+`StrRChrIA` | 1671 | Exported Function
+`StrRChrIW` | 1672 | Exported Function
+`UrlCreateFromPathW` | 1750 | Exported Function
+`WerRegisterExcludedMemoryBlock` | 1829 | Exported Function
+`WerRegisterFile` | 1830 | Exported Function
+`WerRegisterMemoryBlock` | 1831 | Exported Function
+`WerRegisterCustomMetadata` | 1828 | Exported Function
+`WerpNotifyUseStringResource` | 1843 | Exported Function
+`WerRegisterAdditionalProcess` | 1826 | Exported Function
+`WerRegisterAppLocalDump` | 1827 | Exported Function
+`WerUnregisterAppLocalDump` | 1836 | Exported Function
+`WerUnregisterCustomMetadata` | 1837 | Exported Function
+`WerUnregisterExcludedMemoryBlock` | 1838 | Exported Function
+`WerUnregisterAdditionalProcess` | 1835 | Exported Function
+`WerRegisterRuntimeExceptionModule` | 1832 | Exported Function
+`WerSetFlags` | 1833 | Exported Function
+`WerSetMaxProcessHoldMilliseconds` | 1834 | Exported Function
+`WerpNotifyLoadStringResource` | 1842 | Exported Function
+`WaitForThreadpoolWaitCallbacks` | 1816 | Exported Function
+`WaitForThreadpoolWorkCallbacks` | 1817 | Exported Function
+`WaitForUserPolicyForegroundProcessingInternal` | 1818 | Exported Function
+`WaitForThreadpoolTimerCallbacks` | 1815 | Exported Function
+`WaitForSingleObject` | 1812 | Exported Function
+`WaitForSingleObjectEx` | 1813 | Exported Function
+`WaitForThreadpoolIoCallbacks` | 1814 | Exported Function
+`WakeByAddressSingle` | 1823 | Exported Function
+`WakeConditionVariable` | 1824 | Exported Function
+`WerGetFlags` | 1825 | Exported Function
+`WakeByAddressAll` | 1822 | Exported Function
+`WaitNamedPipeW` | 1819 | Exported Function
+`WaitOnAddress` | 1820 | Exported Function
+`WakeAllConditionVariable` | 1821 | Exported Function
+`WerUnregisterFile` | 1839 | Exported Function
+`WriteConsoleW` | 1859 | Exported Function
+`WriteFile` | 1860 | Exported Function
+`WriteFileEx` | 1861 | Exported Function
+`WriteConsoleOutputW` | 1858 | Exported Function
+`WriteConsoleOutputAttribute` | 1855 | Exported Function
+`WriteConsoleOutputCharacterA` | 1856 | Exported Function
+`WriteConsoleOutputCharacterW` | 1857 | Exported Function
+`WTSGetServiceSessionId` | 1804 | Exported Function
+`WTSIsServerContainer` | 1805 | Exported Function
+`ZombifyActCtx` | 1866 | Exported Function
+`WriteStateContainerValue` | 1865 | Exported Function
+`WriteFileGather` | 1862 | Exported Function
+`WriteProcessMemory` | 1863 | Exported Function
+`WriteStateAtomValue` | 1864 | Exported Function
+`WriteConsoleOutputA` | 1854 | Exported Function
+`Wow64GetThreadContext` | 1846 | Exported Function
+`Wow64RevertWow64FsRedirection` | 1847 | Exported Function
+`Wow64SetThreadContext` | 1848 | Exported Function
+`Wow64DisableWow64FsRedirection` | 1845 | Exported Function
+`WerUnregisterMemoryBlock` | 1840 | Exported Function
+`WerUnregisterRuntimeExceptionModule` | 1841 | Exported Function
+`WideCharToMultiByte` | 1844 | Exported Function
+`WriteConsoleA` | 1851 | Exported Function
+`WriteConsoleInputA` | 1852 | Exported Function
+`WriteConsoleInputW` | 1853 | Exported Function
+`wprintf` | 1899 | Exported Function
+`Wow64SetThreadDefaultGuestMachine` | 1849 | Exported Function
+`Wow64SuspendThread` | 1850 | Exported Function
+`Wow64Transition` | 7 | Exported Function
+`VerifyApplicationUserModelId` | 1775 | Exported Function
+`VerifyApplicationUserModelIdA` | 1776 | Exported Function
+`VerifyPackageFamilyName` | 1777 | Exported Function
+`VerFindFileW` | 1769 | Exported Function
+`UrlUnescapeA` | 1766 | Exported Function
+`UrlUnescapeW` | 1767 | Exported Function
+`VerFindFileA` | 1768 | Exported Function
+`VerifyPackageIdA` | 1782 | Exported Function
+`VerifyPackagePublisher` | 1783 | Exported Function
+`VerifyPackagePublisherA` | 1784 | Exported Function
+`VerifyPackageId` | 1781 | Exported Function
+`VerifyPackageFamilyNameA` | 1778 | Exported Function
+`VerifyPackageFullName` | 1779 | Exported Function
+`VerifyPackageFullNameA` | 1780 | Exported Function
+`UrlIsW` | 1765 | Exported Function
+`UrlGetLocationW` | 1755 | Exported Function
+`UrlGetPartA` | 1756 | Exported Function
+`UrlGetPartW` | 1757 | Exported Function
+`UrlGetLocationA` | 1754 | Exported Function
+`UrlEscapeA` | 1751 | Exported Function
+`UrlEscapeW` | 1752 | Exported Function
+`UrlFixupW` | 1753 | Exported Function
+`UrlIsNoHistoryW` | 1762 | Exported Function
+`UrlIsOpaqueA` | 1763 | Exported Function
+`UrlIsOpaqueW` | 1764 | Exported Function
+`UrlIsNoHistoryA` | 1761 | Exported Function
+`UrlHashA` | 1758 | Exported Function
+`UrlHashW` | 1759 | Exported Function
+`UrlIsA` | 1760 | Exported Function
+`VerifyPackageRelativeApplicationId` | 1785 | Exported Function
+`VirtualQuery` | 1800 | Exported Function
+`VirtualQueryEx` | 1801 | Exported Function
+`VirtualUnlock` | 1802 | Exported Function
+`VirtualProtectFromApp` | 1799 | Exported Function
+`VirtualLock` | 1796 | Exported Function
+`VirtualProtect` | 1797 | Exported Function
+`VirtualProtectEx` | 1798 | Exported Function
+`WaitForMachinePolicyForegroundProcessingInternal` | 1809 | Exported Function
+`WaitForMultipleObjects` | 1810 | Exported Function
+`WaitForMultipleObjectsEx` | 1811 | Exported Function
+`WaitForDebugEventEx` | 1808 | Exported Function
+`VirtualUnlockEx` | 1803 | Exported Function
+`WaitCommEvent` | 1806 | Exported Function
+`WaitForDebugEvent` | 1807 | Exported Function
+`VirtualFreeEx` | 1795 | Exported Function
+`VerQueryValueA` | 1772 | Exported Function
+`VerQueryValueW` | 1773 | Exported Function
+`VerSetConditionMask` | 1774 | Exported Function
+`VerLanguageNameW` | 1771 | Exported Function
+`VerifyPackageRelativeApplicationIdA` | 1786 | Exported Function
+`VerifyScripts` | 1787 | Exported Function
+`VerLanguageNameA` | 1770 | Exported Function
+`VirtualAllocExNuma` | 1792 | Exported Function
+`VirtualAllocFromApp` | 1793 | Exported Function
+`VirtualFree` | 1794 | Exported Function
+`VirtualAllocEx` | 1791 | Exported Function
+`VirtualAlloc` | 1790 | Exported Function
+`VirtualAlloc2` | 1788 | Exported Function
+`VirtualAlloc2FromApp` | 1789 | Exported Function
+`SetConsoleActiveScreenBuffer` | 1505 | Exported Function
+`SetConsoleCP` | 1506 | Exported Function
+`SetConsoleCtrlHandler` | 1507 | Exported Function
+`SetComputerNameW` | 1504 | Exported Function
+`SetComputerNameEx2W` | 1501 | Exported Function
+`SetComputerNameExA` | 1502 | Exported Function
+`SetComputerNameExW` | 1503 | Exported Function
+`SetConsoleInputExeNameA` | 1512 | Exported Function
+`SetConsoleInputExeNameW` | 1513 | Exported Function
+`SetConsoleMode` | 1514 | Exported Function
+`SetConsoleHistoryInfo` | 1511 | Exported Function
+`SetConsoleCursorInfo` | 1508 | Exported Function
+`SetConsoleCursorPosition` | 1509 | Exported Function
+`SetConsoleDisplayMode` | 1510 | Exported Function
+`SetComputerNameA` | 1500 | Exported Function
+`SetAclInformation` | 1490 | Exported Function
+`SetCachedSigningLevel` | 1491 | Exported Function
+`SetCalendarInfoW` | 1492 | Exported Function
+`SearchPathW` | 1489 | Exported Function
+`ScrollConsoleScreenBufferA` | 1486 | Exported Function
+`ScrollConsoleScreenBufferW` | 1487 | Exported Function
+`SearchPathA` | 1488 | Exported Function
+`SetCommMask` | 1497 | Exported Function
+`SetCommState` | 1498 | Exported Function
+`SetCommTimeouts` | 1499 | Exported Function
+`SetCommConfig` | 1496 | Exported Function
+`SetClientDynamicTimeZoneInformation` | 1493 | Exported Function
+`SetClientTimeZoneInformation` | 1494 | Exported Function
+`SetCommBreak` | 1495 | Exported Function
+`SetConsoleNumberOfCommandsA` | 1515 | Exported Function
+`SetEvent` | 1535 | Exported Function
+`SetEventWhenCallbackReturns` | 1536 | Exported Function
+`SetExtensionProperty` | 1537 | Exported Function
+`SetErrorMode` | 1534 | Exported Function
+`SetEnvironmentStringsW` | 1531 | Exported Function
+`SetEnvironmentVariableA` | 1532 | Exported Function
+`SetEnvironmentVariableW` | 1533 | Exported Function
+`SetFileInformationByHandle` | 1542 | Exported Function
+`SetFileIoOverlappedRange` | 1543 | Exported Function
+`SetFilePointer` | 1544 | Exported Function
+`SetFileAttributesW` | 1541 | Exported Function
+`SetFileApisToANSI` | 1538 | Exported Function
+`SetFileApisToOEM` | 1539 | Exported Function
+`SetFileAttributesA` | 1540 | Exported Function
+`SetEndOfFile` | 1530 | Exported Function
+`SetConsoleTextAttribute` | 1520 | Exported Function
+`SetConsoleTitleA` | 1521 | Exported Function
+`SetConsoleTitleW` | 1522 | Exported Function
+`SetConsoleScreenBufferSize` | 1519 | Exported Function
+`SetConsoleNumberOfCommandsW` | 1516 | Exported Function
+`SetConsoleOutputCP` | 1517 | Exported Function
+`SetConsoleScreenBufferInfoEx` | 1518 | Exported Function
+`SetCurrentDirectoryW` | 1527 | Exported Function
+`SetDefaultDllDirectories` | 1528 | Exported Function
+`SetDynamicTimeZoneInformation` | 1529 | Exported Function
+`SetCurrentDirectoryA` | 1526 | Exported Function
+`SetConsoleWindowInfo` | 1523 | Exported Function
+`SetCriticalSectionSpinCount` | 1524 | Exported Function
+`SetCurrentConsoleFontEx` | 1525 | Exported Function
+`RegSetKeyValueW` | 1409 | Exported Function
+`RegSetValueExA` | 1410 | Exported Function
+`RegSetValueExW` | 1411 | Exported Function
+`RegSetKeyValueA` | 1408 | Exported Function
+`RegSaveKeyExA` | 1405 | Exported Function
+`RegSaveKeyExW` | 1406 | Exported Function
+`RegSetKeySecurity` | 1407 | Exported Function
+`ReleaseMutexWhenCallbackReturns` | 1423 | Exported Function
+`ReleaseSemaphore` | 1426 | Exported Function
+`ReleaseSemaphoreWhenCallbackReturns` | 1427 | Exported Function
+`ReleaseMutex` | 1422 | Exported Function
+`RegUnLoadKeyA` | 1412 | Exported Function
+`RegUnLoadKeyW` | 1413 | Exported Function
+`ReleaseActCtx` | 1421 | Exported Function
+`RegRestoreKeyW` | 1404 | Exported Function
+`RegOpenKeyExInternalW` | 1394 | Exported Function
+`RegOpenKeyExW` | 1395 | Exported Function
+`RegOpenUserClassesRoot` | 1396 | Exported Function
+`RegOpenKeyExInternalA` | 1393 | Exported Function
+`RegNotifyChangeKeyValue` | 1390 | Exported Function
+`RegOpenCurrentUser` | 1391 | Exported Function
+`RegOpenKeyExA` | 1392 | Exported Function
+`RegQueryValueExA` | 1401 | Exported Function
+`RegQueryValueExW` | 1402 | Exported Function
+`RegRestoreKeyA` | 1403 | Exported Function
+`RegQueryMultipleValuesW` | 1400 | Exported Function
+`RegQueryInfoKeyA` | 1397 | Exported Function
+`RegQueryInfoKeyW` | 1398 | Exported Function
+`RegQueryMultipleValuesA` | 1399 | Exported Function
+`ReleaseSRWLockExclusive` | 1424 | Exported Function
+`ResolveDelayLoadedAPI` | 1445 | Exported Function
+`ResolveDelayLoadsFromDll` | 1446 | Exported Function
+`ResolveLocaleName` | 1447 | Exported Function
+`ResizePseudoConsole` | 1444 | Exported Function
+`ResetEvent` | 1441 | Exported Function
+`ResetState` | 1442 | Exported Function
+`ResetWriteWatch` | 1443 | Exported Function
+`RsopLoggingEnabledInternal` | 1452 | Exported Function
+`SaveAlternatePackageRootPath` | 1484 | Exported Function
+`SaveStateRootFolderPath` | 1485 | Exported Function
+`RevertToSelf` | 1451 | Exported Function
+`RestoreLastError` | 1448 | Exported Function
+`RestoreThreadPreferredUILanguages` | 1449 | Exported Function
+`ResumeThread` | 1450 | Exported Function
+`ReplaceFileW` | 1440 | Exported Function
+`RemoveDirectoryW` | 1431 | Exported Function
+`RemoveDllDirectory` | 1432 | Exported Function
+`RemoveExtensionProgIds` | 1433 | Exported Function
+`RemoveDirectoryA` | 1430 | Exported Function
+`ReleaseSRWLockShared` | 1425 | Exported Function
+`ReleaseStateLock` | 1428 | Exported Function
+`RemapPredefinedHandleInternal` | 1429 | Exported Function
+`RemoveVectoredExceptionHandler` | 1438 | Exported Function
+`ReOpenFile` | 1327 | Exported Function
+`ReplaceFileExInternal` | 1439 | Exported Function
+`RemoveVectoredContinueHandler` | 1437 | Exported Function
+`RemovePackageFromFamilyXref` | 1434 | Exported Function
+`RemovePackageStatus` | 1435 | Exported Function
+`RemovePackageStatusForUser` | 1436 | Exported Function
+`SetFilePointerEx` | 1545 | Exported Function
+`SHCoCreateInstance` | 1453 | Exported Function
+`SHExpandEnvironmentStringsA` | 1454 | Exported Function
+`SHExpandEnvironmentStringsW` | 1455 | Exported Function
+`SharedLocalIsEnabled` | 1623 | Exported Function
+`SetWaitableTimer` | 1619 | Exported Function
+`SetWaitableTimerEx` | 1620 | Exported Function
+`SetXStateFeaturesMask` | 1621 | Exported Function
+`SHRegCreateUSKeyW` | 1460 | Exported Function
+`SHRegDeleteEmptyUSKeyA` | 1461 | Exported Function
+`SHRegDeleteEmptyUSKeyW` | 1462 | Exported Function
+`SHRegCreateUSKeyA` | 1459 | Exported Function
+`SHLoadIndirectString` | 1456 | Exported Function
+`SHLoadIndirectStringInternal` | 1457 | Exported Function
+`SHRegCloseUSKey` | 1458 | Exported Function
+`SetUserGeoName` | 1618 | Exported Function
+`SetThreadPriorityBoost` | 1602 | Exported Function
+`SetThreadSelectedCpuSets` | 1603 | Exported Function
+`SetThreadStackGuarantee` | 1604 | Exported Function
+`SetThreadPriority` | 1601 | Exported Function
+`SetThreadpoolWaitEx` | 1613 | Exported Function
+`SetThreadPreferredUILanguages` | 1600 | Exported Function
+`SetThreadPreferredUILanguages2` | 1599 | Exported Function
+`SetUnhandledExceptionFilter` | 1616 | Exported Function
+`SetupComm` | 1622 | Exported Function
+`SetUserGeoID` | 1617 | Exported Function
+`SetTokenInformation` | 1615 | Exported Function
+`SetThreadToken` | 1605 | Exported Function
+`SetThreadUILanguage` | 1606 | Exported Function
+`SetTimeZoneInformation` | 1614 | Exported Function
+`SHRegDeleteUSValueA` | 1463 | Exported Function
+`SHTruncateString` | 1483 | Exported Function
+`SignalObjectAndWait` | 1624 | Exported Function
+`SizeofResource` | 1625 | Exported Function
+`SHRegWriteUSValueW` | 1482 | Exported Function
+`SHRegSetUSValueA` | 1479 | Exported Function
+`SHRegSetUSValueW` | 1480 | Exported Function
+`SHRegWriteUSValueA` | 1481 | Exported Function
+`SpecialMBToWC` | 1630 | Exported Function
+`StartThreadpoolIo` | 1631 | Exported Function
+`StrCatBuffA` | 1636 | Exported Function
+`SleepEx` | 1629 | Exported Function
+`Sleep` | 1626 | Exported Function
+`SleepConditionVariableCS` | 1627 | Exported Function
+`SleepConditionVariableSRW` | 1628 | Exported Function
+`SHRegQueryUSValueW` | 1478 | Exported Function
+`SHRegEnumUSValueW` | 1468 | Exported Function
+`SHRegGetBoolUSValueA` | 1469 | Exported Function
+`SHRegGetBoolUSValueW` | 1470 | Exported Function
+`SHRegEnumUSValueA` | 1467 | Exported Function
+`SHRegDeleteUSValueW` | 1464 | Exported Function
+`SHRegEnumUSKeyA` | 1465 | Exported Function
+`SHRegEnumUSKeyW` | 1466 | Exported Function
+`SHRegQueryInfoUSKeyA` | 1475 | Exported Function
+`SHRegQueryInfoUSKeyW` | 1476 | Exported Function
+`SHRegQueryUSValueA` | 1477 | Exported Function
+`SHRegOpenUSKeyW` | 1474 | Exported Function
+`SHRegGetUSValueA` | 1471 | Exported Function
+`SHRegGetUSValueW` | 1472 | Exported Function
+`SHRegOpenUSKeyA` | 1473 | Exported Function
+`SetProcessGroupAffinity` | 1565 | Exported Function
+`SetProcessInformation` | 1566 | Exported Function
+`SetProcessMitigationPolicy` | 1567 | Exported Function
+`SetProcessDynamicEHContinuationTargets` | 1564 | Exported Function
+`SetPrivateObjectSecurityEx` | 1561 | Exported Function
+`SetProcessAffinityUpdateMode` | 1562 | Exported Function
+`SetProcessDefaultCpuSets` | 1563 | Exported Function
+`SetProcessValidCallTargetsForMappedView` | 1572 | Exported Function
+`SetProcessWorkingSetSizeEx` | 1573 | Exported Function
+`SetProtectedPolicy` | 1574 | Exported Function
+`SetProcessValidCallTargets` | 1571 | Exported Function
+`SetProcessPreferredUILanguages` | 1568 | Exported Function
+`SetProcessPriorityBoost` | 1569 | Exported Function
+`SetProcessShutdownParameters` | 1570 | Exported Function
+`SetPrivateObjectSecurity` | 1560 | Exported Function
+`SetHandleInformation` | 1550 | Exported Function
+`SetIsDeveloperModeEnabled` | 1551 | Exported Function
+`SetIsSideloadingEnabled` | 1552 | Exported Function
+`SetHandleCount` | 1549 | Exported Function
+`SetFileSecurityW` | 1546 | Exported Function
+`SetFileTime` | 1547 | Exported Function
+`SetFileValidData` | 1548 | Exported Function
+`SetLocalTime` | 1556 | Exported Function
+`SetNamedPipeHandleState` | 1558 | Exported Function
+`SetPriorityClass` | 1559 | Exported Function
+`SetLocaleInfoW` | 1557 | Exported Function
+`SetKernelObjectSecurity` | 1553 | Exported Function
+`SetLastConsoleEventActive` | 1554 | Exported Function
+`SetLastError` | 1555 | Exported Function
+`SetProtocolProperty` | 1575 | Exported Function
+`SetThreadIdealProcessor` | 1595 | Exported Function
+`SetThreadIdealProcessorEx` | 1596 | Exported Function
+`SetThreadInformation` | 1597 | Exported Function
+`SetThreadGroupAffinity` | 1594 | Exported Function
+`SetThreadContext` | 1591 | Exported Function
+`SetThreadDescription` | 1592 | Exported Function
+`SetThreadErrorMode` | 1593 | Exported Function
+`SetThreadpoolTimer` | 1610 | Exported Function
+`SetThreadpoolTimerEx` | 1611 | Exported Function
+`SetThreadpoolWait` | 1612 | Exported Function
+`SetThreadpoolThreadMinimum` | 1609 | Exported Function
+`SetThreadLocale` | 1598 | Exported Function
+`SetThreadpoolStackInformation` | 1607 | Exported Function
+`SetThreadpoolThreadMaximum` | 1608 | Exported Function
+`SetSystemTimeAdjustmentPrecise` | 1590 | Exported Function
+`SetSecurityDescriptorGroup` | 1580 | Exported Function
+`SetSecurityDescriptorOwner` | 1581 | Exported Function
+`SetSecurityDescriptorRMControl` | 1582 | Exported Function
+`SetSecurityDescriptorDacl` | 1579 | Exported Function
+`SetRoamingLastObservedChangeTime` | 1576 | Exported Function
+`SetSecurityAccessMask` | 1577 | Exported Function
+`SetSecurityDescriptorControl` | 1578 | Exported Function
+`SetSystemFileCacheSize` | 1587 | Exported Function
+`SetSystemTime` | 1588 | Exported Function
+`SetSystemTimeAdjustment` | 1589 | Exported Function
+`SetStdHandleEx` | 1586 | Exported Function
+`SetSecurityDescriptorSacl` | 1583 | Exported Function
+`SetStateVersion` | 1584 | Exported Function
+`SetStdHandle` | 1585 | Exported Function
+`IsMrtResourceRedirectionEnabled` | 934 | Exported Function
+`EnumDateFormatsW` | 307 | Exported Function
+`EnumDeviceDrivers` | 308 | Exported Function
+`EnumDynamicTimeZoneInformation` | 309 | Exported Function
+`EnumDateFormatsExW` | 306 | Exported Function
+`EnumCalendarInfoExW` | 303 | Exported Function
+`EnumCalendarInfoW` | 304 | Exported Function
+`EnumDateFormatsExEx` | 305 | Exported Function
+`EnumPageFilesA` | 311 | Exported Function
+`EnumPageFilesW` | 312 | Exported Function
+`EnumProcesses` | 315 | Exported Function
+`EnumLanguageGroupLocalesW` | 310 | Exported Function
+`EnumerateExtensionNames` | 334 | Exported Function
+`EnumerateStateAtomValues` | 335 | Exported Function
+`EnumerateStateContainerItems` | 336 | Exported Function
+`EnumCalendarInfoExEx` | 302 | Exported Function
+`DuplicateStateContainerHandle` | 292 | Exported Function
+`DuplicateToken` | 293 | Exported Function
+`DuplicateTokenEx` | 294 | Exported Function
+`DuplicateHandle` | 291 | Exported Function
+`DsReadNgcKeyW` | 288 | Exported Function
+`DsUnBindW` | 289 | Exported Function
+`DsWriteNgcKeyW` | 290 | Exported Function
+`EnterCriticalPolicySectionInternal` | 299 | Exported Function
+`EnterCriticalSection` | 300 | Exported Function
+`EnterSynchronizationBarrier` | 301 | Exported Function
+`EncodeSystemPointer` | 298 | Exported Function
+`EmptyWorkingSet` | 295 | Exported Function
+`EncodePointer` | 296 | Exported Function
+`EncodeRemotePointer` | 297 | Exported Function
+`EnumProcessModules` | 313 | Exported Function
+`EqualDomainSid` | 337 | Exported Function
+`EqualPrefixSid` | 338 | Exported Function
+`EqualSid` | 339 | Exported Function
+`EnumUILanguagesW` | 333 | Exported Function
+`EnumSystemLocalesW` | 330 | Exported Function
+`EnumTimeFormatsEx` | 331 | Exported Function
+`EnumTimeFormatsW` | 332 | Exported Function
+`EventRegister` | 344 | Exported Function
+`EventSetInformation` | 345 | Exported Function
+`EventUnregister` | 346 | Exported Function
+`EventProviderEnabled` | 343 | Exported Function
+`EscapeCommFunction` | 340 | Exported Function
+`EventActivityIdControl` | 341 | Exported Function
+`EventEnabled` | 342 | Exported Function
+`EnumSystemLocalesEx` | 329 | Exported Function
+`EnumResourceNamesExW` | 319 | Exported Function
+`EnumResourceNamesW` | 320 | Exported Function
+`EnumResourceTypesExA` | 321 | Exported Function
+`EnumResourceNamesExA` | 318 | Exported Function
+`EnumProcessModulesEx` | 314 | Exported Function
+`EnumResourceLanguagesExA` | 316 | Exported Function
+`EnumResourceLanguagesExW` | 317 | Exported Function
+`EnumSystemGeoNames` | 326 | Exported Function
+`EnumSystemLanguageGroupsW` | 327 | Exported Function
+`EnumSystemLocalesA` | 328 | Exported Function
+`EnumSystemGeoID` | 325 | Exported Function
+`EnumResourceTypesExW` | 322 | Exported Function
+`EnumSystemCodePagesW` | 323 | Exported Function
+`EnumSystemFirmwareTables` | 324 | Exported Function
+`DebugActiveProcessStop` | 248 | Exported Function
+`DebugBreak` | 249 | Exported Function
+`DecodePointer` | 250 | Exported Function
+`DebugActiveProcess` | 247 | Exported Function
+`CtrlRoutine` | 244 | Exported Function
+`CveEventWrite` | 245 | Exported Function
+`DeactivateActCtx` | 246 | Exported Function
+`DelayLoadFailureHookLookup` | 255 | Exported Function
+`DeleteAce` | 256 | Exported Function
+`DeleteBoundaryDescriptor` | 257 | Exported Function
+`DelayLoadFailureHook` | 254 | Exported Function
+`DecodeRemotePointer` | 251 | Exported Function
+`DecodeSystemPointer` | 252 | Exported Function
+`DefineDosDeviceW` | 253 | Exported Function
+`CreateWellKnownSid` | 243 | Exported Function
+`CreateThreadpool` | 233 | Exported Function
+`CreateThreadpoolCleanupGroup` | 234 | Exported Function
+`CreateThreadpoolIo` | 235 | Exported Function
+`CreateThread` | 232 | Exported Function
+`CreateStateLock` | 229 | Exported Function
+`CreateStateSubcontainer` | 230 | Exported Function
+`CreateSymbolicLinkW` | 231 | Exported Function
+`CreateTimerQueueTimer` | 240 | Exported Function
+`CreateWaitableTimerExW` | 241 | Exported Function
+`CreateWaitableTimerW` | 242 | Exported Function
+`CreateTimerQueue` | 239 | Exported Function
+`CreateThreadpoolTimer` | 236 | Exported Function
+`CreateThreadpoolWait` | 237 | Exported Function
+`CreateThreadpoolWork` | 238 | Exported Function
+`DeleteCriticalSection` | 258 | Exported Function
+`DisconnectNamedPipe` | 278 | Exported Function
+`DnsHostnameToComputerNameExW` | 279 | Exported Function
+`DsBindWithSpnExW` | 280 | Exported Function
+`DiscardVirtualMemory` | 277 | Exported Function
+`DisablePredefinedHandleTableInternal` | 274 | Exported Function
+`DisableThreadLibraryCalls` | 275 | Exported Function
+`DisassociateCurrentThreadFromCallback` | 276 | Exported Function
+`DsFreePasswordCredentials` | 285 | Exported Function
+`DsGetDomainControllerInfoW` | 286 | Exported Function
+`DsMakePasswordCredentialsW` | 287 | Exported Function
+`DsFreeNgcKey` | 284 | Exported Function
+`DsCrackNamesW` | 281 | Exported Function
+`DsFreeDomainControllerInfoW` | 282 | Exported Function
+`DsFreeNameResultW` | 283 | Exported Function
+`DeviceIoControl` | 273 | Exported Function
+`DeleteProcThreadAttributeList` | 263 | Exported Function
+`DeleteStateAtomValue` | 264 | Exported Function
+`DeleteStateContainer` | 265 | Exported Function
+`DeleteFileW` | 262 | Exported Function
+`DeleteEnclave` | 259 | Exported Function
+`DeleteFiber` | 260 | Exported Function
+`DeleteFileA` | 261 | Exported Function
+`DeleteVolumeMountPointW` | 270 | Exported Function
+`DeriveCapabilitySidsFromName` | 271 | Exported Function
+`DestroyPrivateObjectSecurity` | 272 | Exported Function
+`DeleteTimerQueueTimer` | 269 | Exported Function
+`DeleteStateContainerValue` | 266 | Exported Function
+`DeleteSynchronizationBarrier` | 267 | Exported Function
+`DeleteTimerQueueEx` | 268 | Exported Function
+`EventWrite` | 347 | Exported Function
+`GetAdjustObjectAttributesForPrivateNamespaceRoutine` | 425 | Exported Function
+`GetAlternatePackageRoots` | 426 | Exported Function
+`GetAppContainerAce` | 427 | Exported Function
+`GetACP` | 420 | Exported Function
+`GetAcceptLanguagesW` | 422 | Exported Function
+`GetAce` | 423 | Exported Function
+`GetAclInformation` | 424 | Exported Function
+`GetApplicationUserModelId` | 433 | Exported Function
+`GetApplicationUserModelIdFromToken` | 434 | Exported Function
+`GetAppliedGPOListInternalA` | 435 | Exported Function
+`GetApplicationRestartSettings` | 432 | Exported Function
+`GetAppContainerNamedObjectPath` | 428 | Exported Function
+`GetAppDataFolder` | 429 | Exported Function
+`GetApplicationRecoveryCallback` | 431 | Exported Function
+`GetAcceptLanguagesA` | 421 | Exported Function
+`FreeGPOListInternalA` | 410 | Exported Function
+`FreeGPOListInternalW` | 411 | Exported Function
+`FreeLibrary` | 412 | Exported Function
+`FreeEnvironmentStringsW` | 409 | Exported Function
+`FormatMessageW` | 406 | Exported Function
+`FreeConsole` | 407 | Exported Function
+`FreeEnvironmentStringsA` | 408 | Exported Function
+`FreeUserPhysicalPages` | 417 | Exported Function
+`GenerateConsoleCtrlEvent` | 418 | Exported Function
+`GenerateGPNotificationInternal` | 419 | Exported Function
+`FreeSid` | 416 | Exported Function
+`FreeLibraryAndExitThread` | 413 | Exported Function
+`FreeLibraryWhenCallbackReturns` | 414 | Exported Function
+`FreeResource` | 415 | Exported Function
+`GetAppliedGPOListInternalW` | 436 | Exported Function
+`GetConsoleAliasesA` | 463 | Exported Function
+`GetConsoleAliasesLengthA` | 464 | Exported Function
+`GetConsoleAliasesLengthW` | 465 | Exported Function
+`GetConsoleAliasA` | 457 | Exported Function
+`GetCompressedFileSizeW` | 454 | Exported Function
+`GetComputerNameExA` | 455 | Exported Function
+`GetComputerNameExW` | 456 | Exported Function
+`GetConsoleAliasExesW` | 461 | Exported Function
+`GetConsoleAliasW` | 462 | Exported Function
+`GetConsoleCommandHistoryA` | 468 | Exported Function
+`GetConsoleAliasExesLengthW` | 460 | Exported Function
+`GetConsoleAliasesW` | 466 | Exported Function
+`GetConsoleAliasExesA` | 458 | Exported Function
+`GetConsoleAliasExesLengthA` | 459 | Exported Function
+`GetCompressedFileSizeA` | 453 | Exported Function
+`GetCalendarInfoW` | 443 | Exported Function
+`GetCommandLineA` | 451 | Exported Function
+`GetCommandLineW` | 452 | Exported Function
+`GetCalendarInfoEx` | 442 | Exported Function
+`GetAppModelVersion` | 430 | Exported Function
+`GetCachedSigningLevel` | 440 | Exported Function
+`GetCalendar` | 441 | Exported Function
+`GetCommProperties` | 448 | Exported Function
+`GetCommState` | 449 | Exported Function
+`GetCommTimeouts` | 450 | Exported Function
+`GetCommPorts` | 447 | Exported Function
+`GetCommConfig` | 444 | Exported Function
+`GetCommMask` | 445 | Exported Function
+`GetCommModemStatus` | 446 | Exported Function
+`FindActCtxSectionStringW` | 366 | Exported Function
+`FindClose` | 367 | Exported Function
+`FindCloseChangeNotification` | 368 | Exported Function
+`FindActCtxSectionGuid` | 365 | Exported Function
+`FillConsoleOutputAttribute` | 362 | Exported Function
+`FillConsoleOutputCharacterA` | 363 | Exported Function
+`FillConsoleOutputCharacterW` | 364 | Exported Function
+`FindFirstFileExW` | 373 | Exported Function
+`FindFirstFileNameW` | 374 | Exported Function
+`FindFirstFileW` | 375 | Exported Function
+`FindFirstFileExA` | 372 | Exported Function
+`FindFirstChangeNotificationA` | 369 | Exported Function
+`FindFirstChangeNotificationW` | 370 | Exported Function
+`FindFirstFileA` | 371 | Exported Function
+`FileTimeToSystemTime` | 361 | Exported Function
+`ExitProcess` | 351 | Exported Function
+`ExitThread` | 352 | Exported Function
+`ExpandEnvironmentStringsA` | 353 | Exported Function
+`exit` | 1883 | Exported Function
+`EventWriteEx` | 348 | Exported Function
+`EventWriteString` | 349 | Exported Function
+`EventWriteTransfer` | 350 | Exported Function
+`FatalAppExitA` | 358 | Exported Function
+`FatalAppExitW` | 359 | Exported Function
+`FileTimeToLocalFileTime` | 360 | Exported Function
+`ExtensionProgIdExists` | 357 | Exported Function
+`ExpandEnvironmentStringsW` | 354 | Exported Function
+`ExpungeConsoleCommandHistoryA` | 355 | Exported Function
+`ExpungeConsoleCommandHistoryW` | 356 | Exported Function
+`FindFirstFreeAce` | 376 | Exported Function
+`FlushConsoleInputBuffer` | 396 | Exported Function
+`FlushFileBuffers` | 397 | Exported Function
+`FlushInstructionCache` | 398 | Exported Function
+`FlsSetValue` | 395 | Exported Function
+`FlsAlloc` | 392 | Exported Function
+`FlsFree` | 393 | Exported Function
+`FlsGetValue` | 394 | Exported Function
+`FormatApplicationUserModelId` | 403 | Exported Function
+`FormatApplicationUserModelIdA` | 404 | Exported Function
+`FormatMessageA` | 405 | Exported Function
+`ForceSyncFgPolicyInternal` | 402 | Exported Function
+`FlushProcessWriteBuffers` | 399 | Exported Function
+`FlushViewOfFile` | 400 | Exported Function
+`FoldStringW` | 401 | Exported Function
+`FindVolumeClose` | 391 | Exported Function
+`FindNextFileNameW` | 383 | Exported Function
+`FindNextFileW` | 384 | Exported Function
+`FindNextStreamW` | 385 | Exported Function
+`FindNextFileA` | 382 | Exported Function
+`FindFirstStreamW` | 377 | Exported Function
+`FindFirstVolumeW` | 378 | Exported Function
+`FindNextChangeNotification` | 381 | Exported Function
+`FindResourceExW` | 388 | Exported Function
+`FindResourceW` | 389 | Exported Function
+`FindStringOrdinal` | 390 | Exported Function
+`FindPackagesByPackageFamily` | 387 | Exported Function
+`FindNextVolumeW` | 386 | Exported Function
+`FindNLSString` | 379 | Exported Function
+`FindNLSStringEx` | 380 | Exported Function
+`AppXLookupDisplayName` | 70 | Exported Function
+`AppXLookupMoniker` | 71 | Exported Function
+`AppXPostSuccessExtension` | 72 | Exported Function
+`AppXGetPackageSid` | 69 | Exported Function
+`AppXGetOSMaxVersionTested` | 66 | Exported Function
+`AppXGetOSMinVersion` | 67 | Exported Function
+`AppXGetPackageCapabilities` | 68 | Exported Function
+`AreAnyAccessesGranted` | 78 | Exported Function
+`AreFileApisANSI` | 79 | Exported Function
+`AreThereVisibleLogoffScriptsInternal` | 80 | Exported Function
+`AreAllAccessesGranted` | 77 | Exported Function
+`AppXPreCreationExtension` | 73 | Exported Function
+`AppXReleaseAppXContext` | 74 | Exported Function
+`AppXUpdatePackageCapabilities` | 75 | Exported Function
+`AppXGetDevelopmentMode` | 65 | Exported Function
+`AppPolicyGetClrCompat` | 55 | Exported Function
+`AppPolicyGetCreateFileAccess` | 56 | Exported Function
+`AppPolicyGetLifecycleManagement` | 57 | Exported Function
+`ApplicationUserModelIdFromProductId` | 76 | Exported Function
+`AppContainerLookupMoniker` | 52 | Exported Function
+`AppContainerRegisterSid` | 53 | Exported Function
+`AppContainerUnregisterSid` | 54 | Exported Function
+`AppPolicyGetWindowingModel` | 62 | Exported Function
+`AppXFreeMemory` | 63 | Exported Function
+`AppXGetApplicationData` | 64 | Exported Function
+`AppPolicyGetThreadInitializationType` | 61 | Exported Function
+`AppPolicyGetMediaFoundationCodecLoading` | 58 | Exported Function
+`AppPolicyGetProcessTerminationMethod` | 59 | Exported Function
+`AppPolicyGetShowDeveloperDiagnostic` | 60 | Exported Function
+`AreThereVisibleShutdownScriptsInternal` | 81 | Exported Function
+`BasepNotifyTrackingService` | 102 | Exported Function
+`BaseReadAppCompatDataForProcess` | 97 | Exported Function
+`BaseUpdateAppcompatCache` | 98 | Exported Function
+`BasepCopyFileExW` | 101 | Exported Function
+`BaseMarkFileForDelete` | 96 | Exported Function
+`BasepAdjustObjectAttributesForPrivateNamespace` | 99 | Exported Function
+`BasepCopyFileCallback` | 100 | Exported Function
+`CancelIo` | 108 | Exported Function
+`CancelIoEx` | 109 | Exported Function
+`CancelSynchronousIo` | 110 | Exported Function
+`CallNamedPipeW` | 106 | Exported Function
+`Beep` | 103 | Exported Function
+`CallbackMayRunLong` | 107 | Exported Function
+`CallEnclave` | 105 | Exported Function
+`BaseIsAppcompatInfrastructureDisabled` | 95 | Exported Function
+`BaseCleanupAppcompatCacheSupport` | 85 | Exported Function
+`BaseDllFreeResourceId` | 86 | Exported Function
+`BaseDllMapResourceIdW` | 87 | Exported Function
+`BaseCheckAppcompatCacheEx` | 84 | Exported Function
+`atexit` | 1882 | Exported Function
+`AttachConsole` | 82 | Exported Function
+`BaseCheckAppcompatCache` | 83 | Exported Function
+`BaseGetConsoleReference` | 92 | Exported Function
+`BaseGetNamedObjectDirectory` | 93 | Exported Function
+`BaseInitAppcompatCacheSupport` | 94 | Exported Function
+`BaseFreeAppCompatDataForProcess` | 91 | Exported Function
+`BaseDumpAppcompatCache` | 88 | Exported Function
+`BaseFlushAppcompatCache` | 89 | Exported Function
+`BaseFormatObjectAttributes` | 90 | Exported Function
+`AccessCheckByTypeResultList` | 12 | Exported Function
+`AccessCheckByTypeResultListAndAuditAlarmByHandleW` | 13 | Exported Function
+`AccessCheckByTypeResultListAndAuditAlarmW` | 14 | Exported Function
+`AccessCheckByTypeAndAuditAlarmW` | 11 | Exported Function
+`AccessCheck` | 8 | Exported Function
+`AccessCheckAndAuditAlarmW` | 9 | Exported Function
+`AccessCheckByType` | 10 | Exported Function
+`AddAccessAllowedAce` | 19 | Exported Function
+`AddAccessAllowedAceEx` | 20 | Exported Function
+`AddAccessAllowedObjectAce` | 21 | Exported Function
+`ActivateActCtx` | 18 | Exported Function
+`AcquireSRWLockExclusive` | 15 | Exported Function
+`AcquireSRWLockShared` | 16 | Exported Function
+`AcquireStateLock` | 17 | Exported Function
+`_time64` | 1881 | Exported Function
+`_c_exit` | 1873 | Exported Function
+`_cexit` | 1874 | Exported Function
+`_exit` | 1875 | Exported Function
+`_amsg_exit` | 1872 | Exported Function
+`__dllonexit3` | 1870 | Exported Function
+`__wgetmainargs` | 1871 | Exported Function
+`_AddMUIStringToCache` | 1867 | Exported Function
+`_onexit` | 1879 | Exported Function
+`_OpenMuiStringCache` | 1869 | Exported Function
+`_purecall` | 1880 | Exported Function
+`_invalid_parameter` | 1878 | Exported Function
+`_GetMUIStringFromCache` | 1868 | Exported Function
+`_initterm` | 1876 | Exported Function
+`_initterm_e` | 1877 | Exported Function
+`AddAccessDeniedAce` | 22 | Exported Function
+`AdjustTokenGroups` | 42 | Exported Function
+`AdjustTokenPrivileges` | 43 | Exported Function
+`AllocateAndInitializeSid` | 45 | Exported Function
+`AddVectoredExceptionHandler` | 41 | Exported Function
+`AddScopedPolicyIDAce` | 39 | Exported Function
+`AddSIDToBoundaryDescriptor` | 38 | Exported Function
+`AddVectoredContinueHandler` | 40 | Exported Function
+`AppContainerDeriveSidFromMoniker` | 49 | Exported Function
+`AppContainerFreeMemory` | 50 | Exported Function
+`AppContainerLookupDisplayNameMrtReference` | 51 | Exported Function
+`AllocConsole` | 44 | Exported Function
+`AllocateLocallyUniqueId` | 46 | Exported Function
+`AllocateUserPhysicalPages` | 47 | Exported Function
+`AllocateUserPhysicalPagesNuma` | 48 | Exported Function
+`AddResourceAttributeAce` | 37 | Exported Function
+`AddAuditAccessAceEx` | 27 | Exported Function
+`AddAuditAccessObjectAce` | 28 | Exported Function
+`AddConsoleAliasA` | 29 | Exported Function
+`AddAuditAccessAce` | 26 | Exported Function
+`AddAccessDeniedAceEx` | 23 | Exported Function
+`AddAccessDeniedObjectAce` | 24 | Exported Function
+`AddAce` | 25 | Exported Function
+`AddMandatoryAce` | 34 | Exported Function
+`AddPackageToFamilyXref` | 35 | Exported Function
+`AddRefActCtx` | 36 | Exported Function
+`AddExtensionProgId` | 33 | Exported Function
+`AddConsoleAliasW` | 30 | Exported Function
+`AddDependencyToProcessPackageGraph` | 31 | Exported Function
+`AddDllDirectory` | 32 | Exported Function
+`CancelThreadpoolIo` | 111 | Exported Function
+`CreateEventW` | 189 | Exported Function
+`CreateFiber` | 190 | Exported Function
+`CreateFiberEx` | 191 | Exported Function
+`CreateEventExW` | 188 | Exported Function
+`CreateEnclave` | 185 | Exported Function
+`CreateEventA` | 186 | Exported Function
+`CreateEventExA` | 187 | Exported Function
+`CreateFileMappingNumaW` | 196 | Exported Function
+`CreateFileMappingW` | 197 | Exported Function
+`CreateFileW` | 198 | Exported Function
+`CreateFileMappingFromApp` | 195 | Exported Function
+`CreateFile2` | 192 | Exported Function
+`CreateFileA` | 193 | Exported Function
+`CreateFileMapping2` | 194 | Exported Function
+`CreateDirectoryW` | 184 | Exported Function
+`CopyFileExW` | 174 | Exported Function
+`CopyFileW` | 175 | Exported Function
+`CopySid` | 176 | Exported Function
+`CopyFile2` | 173 | Exported Function
+`ConvertThreadToFiberEx` | 170 | Exported Function
+`ConvertToAutoInheritPrivateObjectSecurity` | 171 | Exported Function
+`CopyContext` | 172 | Exported Function
+`CreateConsoleScreenBuffer` | 181 | Exported Function
+`CreateDirectoryA` | 182 | Exported Function
+`CreateDirectoryExW` | 183 | Exported Function
+`CreateBoundaryDescriptorW` | 180 | Exported Function
+`CouldMultiUserAppsBehaviorBePossibleForPackage` | 177 | Exported Function
+`CreateActCtxW` | 178 | Exported Function
+`CreateAppContainerToken` | 179 | Exported Function
+`CreateHardLinkA` | 199 | Exported Function
+`CreatePseudoConsole` | 219 | Exported Function
+`CreatePseudoConsoleAsUser` | 220 | Exported Function
+`CreateRemoteThread` | 221 | Exported Function
+`CreateProcessW` | 218 | Exported Function
+`CreateProcessAsUserW` | 215 | Exported Function
+`CreateProcessInternalA` | 216 | Exported Function
+`CreateProcessInternalW` | 217 | Exported Function
+`CreateStateAtom` | 226 | Exported Function
+`CreateStateChangeNotification` | 227 | Exported Function
+`CreateStateContainer` | 228 | Exported Function
+`CreateSemaphoreW` | 225 | Exported Function
+`CreateRemoteThreadEx` | 222 | Exported Function
+`CreateRestrictedToken` | 223 | Exported Function
+`CreateSemaphoreExW` | 224 | Exported Function
+`CreateProcessAsUserA` | 214 | Exported Function
+`CreateMutexExA` | 204 | Exported Function
+`CreateMutexExW` | 205 | Exported Function
+`CreateMutexW` | 206 | Exported Function
+`CreateMutexA` | 203 | Exported Function
+`CreateHardLinkW` | 200 | Exported Function
+`CreateIoCompletionPort` | 201 | Exported Function
+`CreateMemoryResourceNotification` | 202 | Exported Function
+`CreatePrivateObjectSecurityEx` | 211 | Exported Function
+`CreatePrivateObjectSecurityWithMultipleInheritance` | 212 | Exported Function
+`CreateProcessA` | 213 | Exported Function
+`CreatePrivateObjectSecurity` | 210 | Exported Function
+`CreateNamedPipeW` | 207 | Exported Function
+`CreatePipe` | 208 | Exported Function
+`CreatePrivateNamespaceW` | 209 | Exported Function
+`CheckIfStateChangeNotificationExists` | 131 | Exported Function
+`CheckRemoteDebuggerPresent` | 132 | Exported Function
+`CheckTokenCapability` | 133 | Exported Function
+`CheckGroupPolicyEnabled` | 130 | Exported Function
+`CharUpperBuffW` | 127 | Exported Function
+`CharUpperW` | 128 | Exported Function
+`CheckAllowDecryptedRemoteDestinationPolicy` | 129 | Exported Function
+`ClearCommBreak` | 138 | Exported Function
+`ClearCommError` | 139 | Exported Function
+`CLOSE_LOCAL_HANDLE_INTERNAL` | 104 | Exported Function
+`ChrCmpIW` | 137 | Exported Function
+`CheckTokenMembership` | 134 | Exported Function
+`CheckTokenMembershipEx` | 135 | Exported Function
+`ChrCmpIA` | 136 | Exported Function
+`CharUpperBuffA` | 126 | Exported Function
+`CharLowerBuffA` | 116 | Exported Function
+`CharLowerBuffW` | 117 | Exported Function
+`CharLowerW` | 118 | Exported Function
+`CharLowerA` | 115 | Exported Function
+`CancelWaitableTimer` | 112 | Exported Function
+`CeipIsOptedIn` | 113 | Exported Function
+`ChangeTimerQueueTimer` | 114 | Exported Function
+`CharPrevExA` | 123 | Exported Function
+`CharPrevW` | 124 | Exported Function
+`CharUpperA` | 125 | Exported Function
+`CharPrevA` | 122 | Exported Function
+`CharNextA` | 119 | Exported Function
+`CharNextExA` | 120 | Exported Function
+`CharNextW` | 121 | Exported Function
+`CloseHandle` | 140 | Exported Function
+`CompareStringEx` | 160 | Exported Function
+`CompareStringOrdinal` | 161 | Exported Function
+`CompareStringW` | 162 | Exported Function
+`CompareStringA` | 159 | Exported Function
+`CommitStateAtom` | 156 | Exported Function
+`CompareFileTime` | 157 | Exported Function
+`CompareObjectHandles` | 158 | Exported Function
+`ConvertFiberToThread` | 167 | Exported Function
+`ConvertPerformanceCounterToAuxiliaryCounter` | 168 | Exported Function
+`ConvertThreadToFiber` | 169 | Exported Function
+`ConvertDefaultLocale` | 166 | Exported Function
+`ConnectNamedPipe` | 163 | Exported Function
+`ContinueDebugEvent` | 164 | Exported Function
+`ConvertAuxiliaryCounterToPerformanceCounter` | 165 | Exported Function
+`CloseThreadpoolWork` | 155 | Exported Function
+`CloseStateAtom` | 145 | Exported Function
+`CloseStateChangeNotification` | 146 | Exported Function
+`CloseStateContainer` | 147 | Exported Function
+`CloseState` | 144 | Exported Function
+`ClosePackageInfo` | 141 | Exported Function
+`ClosePrivateNamespace` | 142 | Exported Function
+`ClosePseudoConsole` | 143 | Exported Function
+`CloseThreadpoolIo` | 152 | Exported Function
+`CloseThreadpoolTimer` | 153 | Exported Function
+`CloseThreadpoolWait` | 154 | Exported Function
+`CloseThreadpoolCleanupGroupMembers` | 151 | Exported Function
+`CloseStateLock` | 148 | Exported Function
+`CloseThreadpool` | 149 | Exported Function
+`CloseThreadpoolCleanupGroup` | 150 | Exported Function
+`GetConsoleCommandHistoryLengthA` | 469 | Exported Function
+`GetTargetPlatformContext` | 779 | Exported Function
+`GetTempFileNameA` | 780 | Exported Function
+`GetTempFileNameW` | 781 | Exported Function
+`GetSystemWow64DirectoryW` | 778 | Exported Function
+`GetSystemWow64Directory2A` | 775 | Exported Function
+`GetSystemWow64Directory2W` | 776 | Exported Function
+`GetSystemWow64DirectoryA` | 777 | Exported Function
+`GetThreadErrorMode` | 786 | Exported Function
+`GetThreadGroupAffinity` | 787 | Exported Function
+`GetThreadId` | 789 | Exported Function
+`GetThreadDescription` | 785 | Exported Function
+`GetTempPathA` | 782 | Exported Function
+`GetTempPathW` | 783 | Exported Function
+`GetThreadContext` | 784 | Exported Function
+`GetSystemWindowsDirectoryW` | 774 | Exported Function
+`GetSystemMetadataPathForPackageFamily` | 764 | Exported Function
+`GetSystemPreferredUILanguages` | 765 | Exported Function
+`GetSystemStateRootFolder` | 766 | Exported Function
+`GetSystemMetadataPathForPackage` | 763 | Exported Function
+`GetSystemInfo` | 760 | Exported Function
+`GetSystemLeapSecondInformation` | 761 | Exported Function
+`GetSystemMetadataPath` | 762 | Exported Function
+`GetSystemTimePreciseAsFileTime` | 771 | Exported Function
+`GetSystemTimes` | 772 | Exported Function
+`GetSystemWindowsDirectoryA` | 773 | Exported Function
+`GetSystemTimeAsFileTime` | 770 | Exported Function
+`GetSystemTime` | 767 | Exported Function
+`GetSystemTimeAdjustment` | 768 | Exported Function
+`GetSystemTimeAdjustmentPrecise` | 769 | Exported Function
+`GetThreadIdealProcessorEx` | 790 | Exported Function
+`GetTraceLoggerHandle` | 809 | Exported Function
+`GetUILanguageInfo` | 810 | Exported Function
+`GetUnicodeStringToEightBitSizeRoutine` | 811 | Exported Function
+`GetTraceEnableLevel` | 808 | Exported Function
+`GetTimeZoneInformationForYear` | 805 | Exported Function
+`GetTokenInformation` | 806 | Exported Function
+`GetTraceEnableFlags` | 807 | Exported Function
+`GetUserDefaultLocaleName` | 816 | Exported Function
+`GetUserDefaultUILanguage` | 817 | Exported Function
+`GetUserGeoID` | 818 | Exported Function
+`GetUserDefaultLCID` | 814 | Exported Function
+`GetUnicodeStringToEightBitStringRoutine` | 812 | Exported Function
+`GetUserDefaultGeoName` | 813 | Exported Function
+`GetUserDefaultLangID` | 815 | Exported Function
+`GetTimeZoneInformation` | 804 | Exported Function
+`GetThreadPriority` | 794 | Exported Function
+`GetThreadPriorityBoost` | 795 | Exported Function
+`GetThreadSelectedCpuSets` | 796 | Exported Function
+`GetThreadPreferredUILanguages` | 793 | Exported Function
+`GetThreadInformation` | 791 | Exported Function
+`GetThreadIOPendingFlag` | 788 | Exported Function
+`GetThreadLocale` | 792 | Exported Function
+`GetTimeFormatA` | 801 | Exported Function
+`GetTimeFormatEx` | 802 | Exported Function
+`GetTimeFormatW` | 803 | Exported Function
+`GetTickCount64` | 799 | Exported Function
+`GetThreadTimes` | 797 | Exported Function
+`GetThreadUILanguage` | 798 | Exported Function
+`GetTickCount` | 800 | Exported Function
+`GetSecurityDescriptorDacl` | 720 | Exported Function
+`GetSecurityDescriptorGroup` | 721 | Exported Function
+`GetSecurityDescriptorLength` | 722 | Exported Function
+`GetSecurityDescriptorControl` | 719 | Exported Function
+`GetRegistryValueWithFallbackW` | 716 | Exported Function
+`GetRoamingLastObservedChangeTime` | 717 | Exported Function
+`GetSecureSystemAppDataFolder` | 718 | Exported Function
+`GetSharedLocalFolder` | 727 | Exported Function
+`GetShortPathNameW` | 728 | Exported Function
+`GetSidIdentifierAuthority` | 729 | Exported Function
+`GetSerializedAtomBytes` | 726 | Exported Function
+`GetSecurityDescriptorOwner` | 723 | Exported Function
+`GetSecurityDescriptorRMControl` | 724 | Exported Function
+`GetSecurityDescriptorSacl` | 725 | Exported Function
+`GetRegistryExtensionFlags` | 715 | Exported Function
+`GetProcessWorkingSetSizeEx` | 704 | Exported Function
+`GetProductInfo` | 706 | Exported Function
+`GetProtocolAumid` | 707 | Exported Function
+`GetProcessVersion` | 703 | Exported Function
+`GetProcessPriorityBoost` | 700 | Exported Function
+`GetProcessShutdownParameters` | 701 | Exported Function
+`GetProcessTimes` | 702 | Exported Function
+`GetPublisherRootFolder` | 712 | Exported Function
+`GetQueuedCompletionStatus` | 713 | Exported Function
+`GetQueuedCompletionStatusEx` | 714 | Exported Function
+`GetPublisherCacheFolder` | 711 | Exported Function
+`GetProtocolProperty` | 708 | Exported Function
+`GetPtrCalData` | 709 | Exported Function
+`GetPtrCalDataArray` | 710 | Exported Function
+`GetSidLengthRequired` | 730 | Exported Function
+`GetSystemAppDataKey` | 750 | Exported Function
+`GetSystemCpuSetInformation` | 751 | Exported Function
+`GetSystemDefaultLangID` | 753 | Exported Function
+`GetSystemAppDataFolder` | 749 | Exported Function
+`GetStringTypeA` | 746 | Exported Function
+`GetStringTypeExW` | 747 | Exported Function
+`GetStringTypeW` | 748 | Exported Function
+`GetSystemDirectoryW` | 757 | Exported Function
+`GetSystemFileCacheSize` | 758 | Exported Function
+`GetSystemFirmwareTable` | 759 | Exported Function
+`GetSystemDirectoryA` | 756 | Exported Function
+`GetSystemDefaultLCID` | 752 | Exported Function
+`GetSystemDefaultLocaleName` | 754 | Exported Function
+`GetSystemDefaultUILanguage` | 755 | Exported Function
+`GetStringTableEntry` | 745 | Exported Function
+`GetStagedPackagePathByFullName2` | 734 | Exported Function
+`GetStartupInfoW` | 736 | Exported Function
+`GetStateContainerDepth` | 737 | Exported Function
+`GetStagedPackagePathByFullName` | 735 | Exported Function
+`GetSidSubAuthority` | 731 | Exported Function
+`GetSidSubAuthorityCount` | 732 | Exported Function
+`GetStagedPackageOrigin` | 733 | Exported Function
+`GetStateVersion` | 742 | Exported Function
+`GetStdHandle` | 743 | Exported Function
+`GetStringScripts` | 744 | Exported Function
+`GetStateSettingsFolder` | 741 | Exported Function
+`GetStateFolder` | 738 | Exported Function
+`GetStateRootFolder` | 739 | Exported Function
+`GetStateRootFolderBase` | 740 | Exported Function
+`GetUserInfo` | 819 | Exported Function
+`InterlockedPushEntrySList` | 896 | Exported Function
+`InterlockedPushListSList` | 4 | Exported Function
+`InterlockedPushListSListEx` | 897 | Exported Function
+`InterlockedPopEntrySList` | 895 | Exported Function
+`InterlockedExchangeAdd` | 892 | Exported Function
+`InterlockedFlushSList` | 893 | Exported Function
+`InterlockedIncrement` | 894 | Exported Function
+`Internal_EnumSystemLanguageGroups` | 902 | Exported Function
+`Internal_EnumSystemLocales` | 903 | Exported Function
+`Internal_EnumTimeFormats` | 904 | Exported Function
+`Internal_EnumSystemCodePages` | 901 | Exported Function
+`Internal_EnumCalendarInfo` | 898 | Exported Function
+`Internal_EnumDateFormats` | 899 | Exported Function
+`Internal_EnumLanguageGroupLocales` | 900 | Exported Function
+`InterlockedExchange` | 891 | Exported Function
+`InitializeSRWLock` | 883 | Exported Function
+`InitializeSynchronizationBarrier` | 886 | Exported Function
+`InitOnceBeginInitialize` | 868 | Exported Function
+`InitializeSListHead` | 882 | Exported Function
+`InitializeProcThreadAttributeList` | 880 | Exported Function
+`InitializeSecurityDescriptor` | 884 | Exported Function
+`InitializeSid` | 885 | Exported Function
+`InterlockedCompareExchange` | 889 | Exported Function
+`InterlockedCompareExchange64` | 888 | Exported Function
+`InterlockedDecrement` | 890 | Exported Function
+`InstallELAMCertificateInfo` | 887 | Exported Function
+`InitOnceComplete` | 869 | Exported Function
+`InitOnceExecuteOnce` | 870 | Exported Function
+`InitOnceInitialize` | 871 | Exported Function
+`Internal_EnumUILanguages` | 905 | Exported Function
+`IsCharUpperA` | 924 | Exported Function
+`IsCharUpperW` | 925 | Exported Function
+`IsCharXDigitW` | 926 | Exported Function
+`IsCharSpaceW` | 923 | Exported Function
+`IsCharLowerW` | 920 | Exported Function
+`IsCharPunctW` | 921 | Exported Function
+`IsCharSpaceA` | 922 | Exported Function
+`IsDeveloperModePolicyApplied` | 931 | Exported Function
+`IsEnclaveTypeSupported` | 932 | Exported Function
+`IsInternetESCEnabled` | 933 | Exported Function
+`IsDeveloperModeEnabled` | 930 | Exported Function
+`IsDBCSLeadByte` | 927 | Exported Function
+`IsDBCSLeadByteEx` | 928 | Exported Function
+`IsDebuggerPresent` | 929 | Exported Function
+`IsCharLowerA` | 919 | Exported Function
+`InternetTimeToSystemTimeW` | 909 | Exported Function
+`InvalidateAppModelVersionCache` | 910 | Exported Function
+`IsApiSetImplemented` | 911 | Exported Function
+`InternetTimeToSystemTimeA` | 908 | Exported Function
+`InternalLcidToName` | 5 | Exported Function
+`InternetTimeFromSystemTimeA` | 906 | Exported Function
+`InternetTimeFromSystemTimeW` | 907 | Exported Function
+`IsCharBlankW` | 916 | Exported Function
+`IsCharCntrlW` | 917 | Exported Function
+`IsCharDigitW` | 918 | Exported Function
+`IsCharAlphaW` | 915 | Exported Function
+`IsCharAlphaA` | 912 | Exported Function
+`IsCharAlphaNumericA` | 913 | Exported Function
+`IsCharAlphaNumericW` | 914 | Exported Function
+`GetXStateFeaturesMask` | 839 | Exported Function
+`GlobalAlloc` | 840 | Exported Function
+`GlobalFree` | 841 | Exported Function
+`GetWsChangesEx` | 838 | Exported Function
+`GetWindowsDirectoryW` | 835 | Exported Function
+`GetWriteWatch` | 836 | Exported Function
+`GetWsChanges` | 837 | Exported Function
+`HeapAlloc` | 846 | Exported Function
+`HeapCompact` | 847 | Exported Function
+`HeapCreate` | 848 | Exported Function
+`HasPolicyForegroundProcessingCompletedInternal` | 844 | Exported Function
+`GlobalMemoryStatusEx` | 842 | Exported Function
+`GuardCheckLongJumpTarget` | 843 | Exported Function
+`HashData` | 845 | Exported Function
+`GetWindowsDirectoryA` | 834 | Exported Function
+`GetVersion` | 824 | Exported Function
+`GetVersionExA` | 825 | Exported Function
+`GetVersionExW` | 826 | Exported Function
+`GetUserPreferredUILanguages` | 823 | Exported Function
+`GetUserInfoWord` | 820 | Exported Function
+`GetUserOverrideString` | 821 | Exported Function
+`GetUserOverrideWord` | 822 | Exported Function
+`GetVolumePathNamesForVolumeNameW` | 832 | Exported Function
+`GetVolumePathNameW` | 831 | Exported Function
+`GetWindowsAccountDomainSid` | 833 | Exported Function
+`GetVolumeNameForVolumeMountPointW` | 830 | Exported Function
+`GetVolumeInformationA` | 827 | Exported Function
+`GetVolumeInformationByHandleW` | 828 | Exported Function
+`GetVolumeInformationW` | 829 | Exported Function
+`HeapDestroy` | 849 | Exported Function
+`IncrementPackageStatusVersion` | 867 | Exported Function
+`InitializeAcl` | 872 | Exported Function
+`InitializeConditionVariable` | 873 | Exported Function
+`ImpersonateSelf` | 866 | Exported Function
+`ImpersonateAnonymousToken` | 863 | Exported Function
+`ImpersonateLoggedOnUser` | 864 | Exported Function
+`ImpersonateNamedPipeClient` | 865 | Exported Function
+`InitializeCriticalSectionEx` | 878 | Exported Function
+`InitializeEnclave` | 879 | Exported Function
+`InitializeProcessForWsWatch` | 881 | Exported Function
+`InitializeCriticalSectionAndSpinCount` | 877 | Exported Function
+`InitializeContext` | 875 | Exported Function
+`InitializeContext2` | 874 | Exported Function
+`InitializeCriticalSection` | 876 | Exported Function
+`IdnToUnicode` | 862 | Exported Function
+`HeapSetInformation` | 854 | Exported Function
+`HeapSize` | 855 | Exported Function
+`HeapSummary` | 856 | Exported Function
+`HeapReAlloc` | 853 | Exported Function
+`HeapFree` | 850 | Exported Function
+`HeapLock` | 851 | Exported Function
+`HeapQueryInformation` | 852 | Exported Function
+`hwprintf` | 1885 | Exported Function
+`IdnToAscii` | 860 | Exported Function
+`IdnToNameprepUnicode` | 861 | Exported Function
+`hgets` | 1884 | Exported Function
+`HeapUnlock` | 857 | Exported Function
+`HeapValidate` | 858 | Exported Function
+`HeapWalk` | 859 | Exported Function
+`GetEnvironmentStringsA` | 543 | Exported Function
+`GetEnvironmentStringsW` | 544 | Exported Function
+`GetEnvironmentVariableA` | 545 | Exported Function
+`GetEnvironmentStrings` | 542 | Exported Function
+`GetEightBitStringToUnicodeSizeRoutine` | 539 | Exported Function
+`GetEightBitStringToUnicodeStringRoutine` | 540 | Exported Function
+`GetEnabledXStateFeatures` | 541 | Exported Function
+`GetExitCodeThread` | 550 | Exported Function
+`GetExtensionApplicationUserModelId` | 551 | Exported Function
+`GetExtensionProgIds` | 552 | Exported Function
+`GetExitCodeProcess` | 549 | Exported Function
+`GetEnvironmentVariableW` | 546 | Exported Function
+`GetEraNameCountedString` | 547 | Exported Function
+`GetErrorMode` | 548 | Exported Function
+`GetEffectivePackageStatusForUserSid` | 538 | Exported Function
+`GetDiskFreeSpaceExW` | 528 | Exported Function
+`GetDiskFreeSpaceW` | 529 | Exported Function
+`GetDiskSpaceInformationA` | 530 | Exported Function
+`GetDiskFreeSpaceExA` | 527 | Exported Function
+`GetDeviceDriverFileNameA` | 524 | Exported Function
+`GetDeviceDriverFileNameW` | 525 | Exported Function
+`GetDiskFreeSpaceA` | 526 | Exported Function
+`GetDynamicTimeZoneInformation` | 535 | Exported Function
+`GetDynamicTimeZoneInformationEffectiveYears` | 536 | Exported Function
+`GetEffectivePackageStatusForUser` | 537 | Exported Function
+`GetDurationFormatEx` | 534 | Exported Function
+`GetDiskSpaceInformationW` | 531 | Exported Function
+`GetDriveTypeA` | 532 | Exported Function
+`GetDriveTypeW` | 533 | Exported Function
+`GetExtensionProperty` | 554 | Exported Function
+`GetFileVersionInfoSizeA` | 573 | Exported Function
+`GetFileVersionInfoSizeExA` | 574 | Exported Function
+`GetFileVersionInfoSizeExW` | 575 | Exported Function
+`GetFileVersionInfoExW` | 572 | Exported Function
+`GetFileVersionInfoA` | 569 | Exported Function
+`GetFileVersionInfoByHandle` | 570 | Exported Function
+`GetFileVersionInfoExA` | 571 | Exported Function
+`GetFullPathNameA` | 580 | Exported Function
+`GetFullPathNameW` | 581 | Exported Function
+`GetGamingDeviceModelInformation` | 584 | Exported Function
+`GetFinalPathNameByHandleW` | 579 | Exported Function
+`GetFileVersionInfoSizeW` | 576 | Exported Function
+`GetFileVersionInfoW` | 577 | Exported Function
+`GetFinalPathNameByHandleA` | 578 | Exported Function
+`GetFileType` | 568 | Exported Function
+`GetFileAttributesExW` | 558 | Exported Function
+`GetFileAttributesW` | 559 | Exported Function
+`GetFileInformationByHandle` | 560 | Exported Function
+`GetFileAttributesExA` | 557 | Exported Function
+`GetExtensionProperty2` | 553 | Exported Function
+`GetFallbackDisplayName` | 555 | Exported Function
+`GetFileAttributesA` | 556 | Exported Function
+`GetFileSize` | 565 | Exported Function
+`GetFileSizeEx` | 566 | Exported Function
+`GetFileTime` | 567 | Exported Function
+`GetFileSecurityW` | 564 | Exported Function
+`GetFileInformationByHandleEx` | 561 | Exported Function
+`GetFileMUIInfo` | 562 | Exported Function
+`GetFileMUIPath` | 563 | Exported Function
+`GetConsoleWindow` | 488 | Exported Function
+`GetCPFileNameFromRegistry` | 437 | Exported Function
+`GetCPHashNode` | 2 | Exported Function
+`GetConsoleTitleW` | 487 | Exported Function
+`GetConsoleScreenBufferInfoEx` | 484 | Exported Function
+`GetConsoleSelectionInfo` | 485 | Exported Function
+`GetConsoleTitleA` | 486 | Exported Function
+`GetCurrentActCtx` | 491 | Exported Function
+`GetCurrentApplicationUserModelId` | 492 | Exported Function
+`GetCurrentConsoleFont` | 493 | Exported Function
+`GetCurrencyFormatW` | 490 | Exported Function
+`GetCPInfo` | 438 | Exported Function
+`GetCPInfoExW` | 439 | Exported Function
+`GetCurrencyFormatEx` | 489 | Exported Function
+`GetConsoleScreenBufferInfo` | 483 | Exported Function
+`GetConsoleDisplayMode` | 473 | Exported Function
+`GetConsoleFontSize` | 474 | Exported Function
+`GetConsoleHistoryInfo` | 475 | Exported Function
+`GetConsoleCursorInfo` | 472 | Exported Function
+`GetConsoleCommandHistoryLengthW` | 470 | Exported Function
+`GetConsoleCommandHistoryW` | 471 | Exported Function
+`GetConsoleCP` | 467 | Exported Function
+`GetConsoleOriginalTitleW` | 480 | Exported Function
+`GetConsoleOutputCP` | 481 | Exported Function
+`GetConsoleProcessList` | 482 | Exported Function
+`GetConsoleOriginalTitleA` | 479 | Exported Function
+`GetConsoleInputExeNameA` | 476 | Exported Function
+`GetConsoleInputExeNameW` | 477 | Exported Function
+`GetConsoleMode` | 478 | Exported Function
+`GetCurrentConsoleFontEx` | 494 | Exported Function
+`GetCurrentProcessorNumberEx` | 514 | Exported Function
+`GetCurrentTargetPlatformContext` | 515 | Exported Function
+`GetCurrentThread` | 516 | Exported Function
+`GetCurrentProcessorNumber` | 513 | Exported Function
+`GetCurrentPackageSecurityContext` | 510 | Exported Function
+`GetCurrentProcess` | 511 | Exported Function
+`GetCurrentProcessId` | 512 | Exported Function
+`GetDateFormatW` | 521 | Exported Function
+`GetDeviceDriverBaseNameA` | 522 | Exported Function
+`GetDeviceDriverBaseNameW` | 523 | Exported Function
+`GetDateFormatEx` | 520 | Exported Function
+`GetCurrentThreadId` | 517 | Exported Function
+`GetCurrentThreadStackLimits` | 518 | Exported Function
+`GetDateFormatA` | 519 | Exported Function
+`GetCurrentPackageResourcesContext` | 509 | Exported Function
+`GetCurrentPackageContext` | 499 | Exported Function
+`GetCurrentPackageFamilyName` | 500 | Exported Function
+`GetCurrentPackageFullName` | 501 | Exported Function
+`GetCurrentPackageApplicationResourcesContext` | 498 | Exported Function
+`GetCurrentDirectoryA` | 495 | Exported Function
+`GetCurrentDirectoryW` | 496 | Exported Function
+`GetCurrentPackageApplicationContext` | 497 | Exported Function
+`GetCurrentPackageInfo3` | 505 | Exported Function
+`GetCurrentPackagePath` | 508 | Exported Function
+`GetCurrentPackagePath2` | 507 | Exported Function
+`GetCurrentPackageInfo2` | 504 | Exported Function
+`GetCurrentPackageGlobalizationContext` | 502 | Exported Function
+`GetCurrentPackageId` | 503 | Exported Function
+`GetCurrentPackageInfo` | 506 | Exported Function
+`GetGeoInfoEx` | 585 | Exported Function
+`GetPackagePath` | 661 | Exported Function
+`GetPackagePathByFullName` | 663 | Exported Function
+`GetPackagePathByFullName2` | 662 | Exported Function
+`GetPackageOSMaxVersionTested` | 660 | Exported Function
+`GetPackageInfo2` | 656 | Exported Function
+`GetPackageInfo3` | 657 | Exported Function
+`GetPackageInstallTime` | 659 | Exported Function
+`GetPackageResourcesProperty` | 668 | Exported Function
+`GetPackagesByPackageFamily` | 676 | Exported Function
+`GetPackageSecurityContext` | 669 | Exported Function
+`GetPackageResourcesContext` | 667 | Exported Function
+`GetPackagePathOnVolume` | 664 | Exported Function
+`GetPackageProperty` | 665 | Exported Function
+`GetPackagePropertyString` | 666 | Exported Function
+`GetPackageInfo` | 658 | Exported Function
+`GetPackageApplicationResourcesContext` | 646 | Exported Function
+`GetPackageContext` | 647 | Exported Function
+`GetPackageFamilyName` | 648 | Exported Function
+`GetPackageApplicationPropertyString` | 645 | Exported Function
+`GetPackageApplicationContext` | 642 | Exported Function
+`GetPackageApplicationIds` | 643 | Exported Function
+`GetPackageApplicationProperty` | 644 | Exported Function
+`GetPackageGlobalizationContext` | 653 | Exported Function
+`GetPackageGlobalizationProperty` | 654 | Exported Function
+`GetPackageId` | 655 | Exported Function
+`GetPackageFullNameFromToken` | 652 | Exported Function
+`GetPackageFamilyNameFromProgId` | 649 | Exported Function
+`GetPackageFamilyNameFromToken` | 650 | Exported Function
+`GetPackageFullName` | 651 | Exported Function
+`GetPackageSecurityProperty` | 670 | Exported Function
+`GetProcessHeaps` | 691 | Exported Function
+`GetProcessId` | 692 | Exported Function
+`GetProcessIdOfThread` | 693 | Exported Function
+`GetProcessHeap` | 690 | Exported Function
+`GetProcessDefaultCpuSets` | 687 | Exported Function
+`GetProcessGroupAffinity` | 688 | Exported Function
+`GetProcessHandleCount` | 689 | Exported Function
+`GetProcessMitigationPolicy` | 698 | Exported Function
+`GetProcessorSystemCycleTime` | 705 | Exported Function
+`GetProcessPreferredUILanguages` | 699 | Exported Function
+`GetProcessMemoryInfo` | 697 | Exported Function
+`GetProcessImageFileNameA` | 694 | Exported Function
+`GetProcessImageFileNameW` | 695 | Exported Function
+`GetProcessInformation` | 696 | Exported Function
+`GetProcAddressForCaller` | 686 | Exported Function
+`GetPackageVolumeSisPath` | 675 | Exported Function
+`GetPerformanceInfo` | 677 | Exported Function
+`GetPersistedFileLocationW` | 678 | Exported Function
+`GetPackageTargetPlatformProperty` | 674 | Exported Function
+`GetPackageStatus` | 671 | Exported Function
+`GetPackageStatusForUser` | 672 | Exported Function
+`GetPackageStatusForUserSid` | 673 | Exported Function
+`GetPriorityClass` | 683 | Exported Function
+`GetPrivateObjectSecurity` | 684 | Exported Function
+`GetProcAddress` | 685 | Exported Function
+`GetPreviousFgPolicyRefreshInfoInternal` | 682 | Exported Function
+`GetPersistedRegistryLocationW` | 679 | Exported Function
+`GetPersistedRegistryValueW` | 680 | Exported Function
+`GetPhysicallyInstalledSystemMemory` | 681 | Exported Function
+`GetLogicalDriveStringsW` | 602 | Exported Function
+`GetLogicalProcessorInformation` | 604 | Exported Function
+`GetLogicalProcessorInformationEx` | 605 | Exported Function
+`GetLogicalDrives` | 603 | Exported Function
+`GetLocaleInfoHelper` | 600 | Exported Function
+`GetLocaleInfoW` | 601 | Exported Function
+`GetLocalTime` | 597 | Exported Function
+`GetMemoryErrorHandlingCapabilities` | 610 | Exported Function
+`GetModuleBaseNameA` | 611 | Exported Function
+`GetModuleBaseNameW` | 612 | Exported Function
+`GetMappedFileNameW` | 609 | Exported Function
+`GetLongPathNameA` | 606 | Exported Function
+`GetLongPathNameW` | 607 | Exported Function
+`GetMappedFileNameA` | 608 | Exported Function
+`GetLocaleInfoEx` | 599 | Exported Function
+`GetHivePath` | 588 | Exported Function
+`GetIntegratedDisplaySize` | 589 | Exported Function
+`GetIsEdpEnabled` | 590 | Exported Function
+`GetHandleInformation` | 587 | Exported Function
+`GetGeoInfoW` | 586 | Exported Function
+`GetGPOListInternalA` | 582 | Exported Function
+`GetGPOListInternalW` | 583 | Exported Function
+`GetLastError` | 595 | Exported Function
+`GetLengthSid` | 596 | Exported Function
+`GetLocaleInfoA` | 598 | Exported Function
+`GetLargestConsoleWindowSize` | 594 | Exported Function
+`GetIsWdagEnabled` | 591 | Exported Function
+`GetKernelObjectSecurity` | 592 | Exported Function
+`GetLargePageMinimum` | 593 | Exported Function
+`GetModuleFileNameA` | 613 | Exported Function
+`GetNumaProximityNodeEx` | 632 | Exported Function
+`GetNumberFormatEx` | 633 | Exported Function
+`GetNumberFormatW` | 634 | Exported Function
+`GetNumaNodeProcessorMaskEx` | 631 | Exported Function
+`GetNLSVersion` | 622 | Exported Function
+`GetNLSVersionEx` | 623 | Exported Function
+`GetNumaHighestNodeNumber` | 630 | Exported Function
+`GetOsSafeBootMode` | 639 | Exported Function
+`GetOverlappedResult` | 640 | Exported Function
+`GetOverlappedResultEx` | 641 | Exported Function
+`GetOsManufacturingMode` | 638 | Exported Function
+`GetNumberOfConsoleInputEvents` | 635 | Exported Function
+`GetNumberOfConsoleMouseButtons` | 636 | Exported Function
+`GetOEMCP` | 637 | Exported Function
+`GetNextFgPolicyRefreshInfoInternal` | 629 | Exported Function
+`GetModuleHandleExA` | 618 | Exported Function
+`GetModuleHandleExW` | 619 | Exported Function
+`GetModuleHandleW` | 620 | Exported Function
+`GetModuleHandleA` | 617 | Exported Function
+`GetModuleFileNameExA` | 614 | Exported Function
+`GetModuleFileNameExW` | 615 | Exported Function
+`GetModuleFileNameW` | 616 | Exported Function
+`GetNamedPipeHandleStateW` | 626 | Exported Function
+`GetNamedPipeInfo` | 627 | Exported Function
+`GetNativeSystemInfo` | 628 | Exported Function
+`GetNamedPipeClientComputerNameW` | 625 | Exported Function
+`GetModuleInformation` | 621 | Exported Function
+`GetNamedLocaleHashNode` | 3 | Exported Function
+`GetNamedPipeAttribute` | 624 | Exported Function
 
 
 ## Signature

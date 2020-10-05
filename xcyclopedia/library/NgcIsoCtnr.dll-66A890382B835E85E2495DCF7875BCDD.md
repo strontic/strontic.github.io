@@ -24,14 +24,14 @@ PE256 | `5862E538478E6E7CF9A69B216E33FFEB2161EA06C18F8179E0D3F640DF73BD70`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018000e5d0 | 0x0000e5d0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x000000018000e4e0 | 0x0000e4e0
-`NgcIsoCtnrInitialize` | 3 (0x3) | Exported Function | 0x000000018000e630 | 0x0000e630
-`NgcIsoCtnrInitializePregenPool` | 4 (0x4) | Exported Function | 0x000000018000e680 | 0x0000e680
-`NgcIsoCtnrTriggerPregen` | 5 (0x5) | Exported Function | 0x000000018000e7e0 | 0x0000e7e0
-`NgcIsoCtnrUninitializePregenPool` | 6 (0x6) | Exported Function | 0x000000018000e730 | 0x0000e730
+Function Name | Ordinal | Type
+-- | -- | --
+`NgcIsoCtnrInitializePregenPool` | 4 | Exported Function
+`NgcIsoCtnrTriggerPregen` | 5 | Exported Function
+`NgcIsoCtnrUninitializePregenPool` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`NgcIsoCtnrInitialize` | 3 | Exported Function
 
 
 ## Signature

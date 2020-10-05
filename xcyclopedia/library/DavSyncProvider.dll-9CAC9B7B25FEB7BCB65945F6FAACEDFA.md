@@ -24,15 +24,15 @@ PE256 | `E15E21316C84E78208E9767B66281151C96D2E8D8A39DE88C7A2FE4C3A8F9770`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10010b10 | 0x00010b10
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x10010b40 | 0x00010b40
-`ForceCalDavCollectionsListRefreshDuringNextSync` | 3 (0x3) | Exported Function | 0x10011ad0 | 0x00011ad0
-`HandleWebDavMeetingResponseForAppointment` | 4 (0x4) | Exported Function | 0x10044540 | 0x00044540
-`HandleWebDavMeetingResponseForMeetingNotification` | 5 (0x5) | Exported Function | 0x10044730 | 0x00044730
-`UpdateCalDavTrackingSchema` | 6 (0x6) | Exported Function | 0x10011c60 | 0x00011c60
-`UpdateGMailContactSyncPartner` | 7 (0x7) | Exported Function | 0x10012230 | 0x00012230
+Function Name | Ordinal | Type
+-- | -- | --
+`HandleWebDavMeetingResponseForMeetingNotification` | 5 | Exported Function
+`UpdateCalDavTrackingSchema` | 6 | Exported Function
+`UpdateGMailContactSyncPartner` | 7 | Exported Function
+`HandleWebDavMeetingResponseForAppointment` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`ForceCalDavCollectionsListRefreshDuringNextSync` | 3 | Exported Function
 
 
 ## Signature

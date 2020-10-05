@@ -24,11 +24,11 @@ PE256 | `C701E9F49C6FFD17609ADA02D7F7A32453EA41461E1DB73E1CA2F7EBB7542D0E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000180008710 | 0x00008710
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x00000001800085d0 | 0x000085d0
-`NetworkBindingEngineFinishMigration` | 3 (0x3) | Exported Function | 0x00000001800075a0 | 0x000075a0
+Function Name | Ordinal | Type
+-- | -- | --
+`NetworkBindingEngineFinishMigration` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

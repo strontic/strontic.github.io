@@ -24,10 +24,10 @@ PE256 | `6E0FBFF0AA3093E467676D82372E89B0A95CD802B6B4B785C5533CF2458B2AB0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WptsInitialize` | 1 (0x1) | Exported Function | 0x00000001800072b0 | 0x000072b0
-`WptsTerminate` | 2 (0x2) | Exported Function | 0x000000018000e700 | 0x0000e700
+Function Name | Ordinal | Type
+-- | -- | --
+`WptsTerminate` | 2 | Exported Function
+`WptsInitialize` | 1 | Exported Function
 
 
 ## Signature

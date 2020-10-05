@@ -24,14 +24,14 @@ PE256 | `137B0B17588084EE59D502753870F9976E424BBF17F82297F2D53D19AFCA7D81`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CollectOneTraceFiles` | 6 (0x6) | Exported Function | 0x000000018001b290 | 0x0001b290
-`CreateLogCabOnArea` | 3 (0x3) | Exported Function | 0x000000018001b1c0 | 0x0001b1c0
-`CreateLogZipOnArea` | 4 (0x4) | Exported Function | 0x000000018001b1f0 | 0x0001b1f0
-`CreateLogZipOnXml` | 5 (0x5) | Exported Function | 0x000000018001b220 | 0x0001b220
-`CreateMdmEnterpriseDiagnosticHTMLReport` | 2 (0x2) | Exported Function | 0x0000000180019ff0 | 0x00019ff0
-`CreateMdmEnterpriseDiagnosticReport` | 1 (0x1) | Exported Function | 0x00000001800124c0 | 0x000124c0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateLogZipOnXml` | 5 | Exported Function
+`CreateMdmEnterpriseDiagnosticHTMLReport` | 2 | Exported Function
+`CreateMdmEnterpriseDiagnosticReport` | 1 | Exported Function
+`CollectOneTraceFiles` | 6 | Exported Function
+`CreateLogCabOnArea` | 3 | Exported Function
+`CreateLogZipOnArea` | 4 | Exported Function
 
 
 ## Signature

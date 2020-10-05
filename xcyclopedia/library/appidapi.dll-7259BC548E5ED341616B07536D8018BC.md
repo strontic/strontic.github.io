@@ -24,19 +24,19 @@ PE256 | `DE3998EC0DE96F51577256ABC09CBFC52BFB648AB7716B9BCA4DF3C6912BF1A4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AppIDConstructAppxAttributes` | 1 (0x1) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`AppIDDecodeAttributeString` | 2 (0x2) | Exported Function | srpapi.AppIDDecodeAttributeString | 0x0000ddab
-`AppIDEncodeAttributeString` | 3 (0x3) | Exported Function | srpapi.AppIDEncodeAttributeString | 0x0000dde8
-`AppIDFreeAttributeString` | 4 (0x4) | Exported Function | srpapi.AppIDFreeAttributeString | 0x0000de23
-`AppIDGetAppxFileAttributes` | 5 (0x5) | Exported Function | 0x0000000180001550 | 0x00001550
-`AppIDGetFileAttributes` | 6 (0x6) | Exported Function | 0x0000000180001350 | 0x00001350
-`AppIDGetMsiVersionInfo` | 7 (0x7) | Exported Function | 0x0000000180001540 | 0x00001540
-`AppIDReleaseAppxFileAttributes` | 8 (0x8) | Exported Function | 0x0000000180001750 | 0x00001750
-`AppIDReleaseFileAttributes` | 9 (0x9) | Exported Function | 0x0000000180001720 | 0x00001720
-`CompareToSystemCIPolicy` | 10 (0xa) | Exported Function | 0x0000000180001c90 | 0x00001c90
-`UpdateSystemCIPolicy` | 11 (0xb) | Exported Function | 0x0000000180001e90 | 0x00001e90
+Function Name | Ordinal | Type
+-- | -- | --
+`AppIDReleaseAppxFileAttributes` | 8 | Exported Function
+`AppIDGetMsiVersionInfo` | 7 | Exported Function
+`AppIDReleaseFileAttributes` | 9 | Exported Function
+`UpdateSystemCIPolicy` | 11 | Exported Function
+`CompareToSystemCIPolicy` | 10 | Exported Function
+`AppIDGetFileAttributes` | 6 | Exported Function
+`AppIDDecodeAttributeString` | 2 | Exported Function
+`AppIDConstructAppxAttributes` | 1 | Exported Function
+`AppIDEncodeAttributeString` | 3 | Exported Function
+`AppIDGetAppxFileAttributes` | 5 | Exported Function
+`AppIDFreeAttributeString` | 4 | Exported Function
 
 
 ## Signature

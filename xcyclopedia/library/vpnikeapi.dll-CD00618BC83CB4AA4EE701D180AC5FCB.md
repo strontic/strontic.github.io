@@ -24,32 +24,32 @@ PE256 | `D91D1D57B8E04FC4A684F6DB79A3E7F17657CBC915F9019B4738C65EA0FC8099`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CancelProcessEapAuthPacket` | 1 (0x1) | Exported Function | 0x10004890 | 0x00004890
-`RemoveTrafficSelectors` | 22 (0x16) | Exported Function | 0x10006590 | 0x00006590
-`QueryEapAuthAttributes` | 21 (0x15) | Exported Function | 0x10004fb0 | 0x00004fb0
-`ProcessTrafficSelectorsRequest` | 20 (0x14) | Exported Function | 0x100062c0 | 0x000062c0
-`ProcessTrafficSelectorsReply` | 19 (0x13) | Exported Function | 0x10006000 | 0x00006000
-`ProcessEapAuthPacket` | 18 (0x12) | Exported Function | 0x10004ae0 | 0x00004ae0
-`ProcessConfigurationPayloadRequest` | 17 (0x11) | Exported Function | 0x10005920 | 0x00005920
-`ProcessConfigurationPayloadReply` | 16 (0x10) | Exported Function | 0x10005670 | 0x00005670
-`ProcessAdditionalAddressNotification` | 15 (0xf) | Exported Function | 0x10007800 | 0x00007800
-`NewRasIncomingCall` | 14 (0xe) | Exported Function | 0x100069d0 | 0x000069d0
-`GetTrafficSelectorsRequest` | 13 (0xd) | Exported Function | 0x10005d50 | 0x00005d50
-`GetServerEapAuthRequestPacket` | 12 (0xc) | Exported Function | 0x10004380 | 0x00004380
-`GetOptionalIDrPayload` | 11 (0xb) | Exported Function | 0x10006fa0 | 0x00006fa0
-`GetIDPayload` | 10 (0xa) | Exported Function | 0x10006cd0 | 0x00006cd0
-`GetConfigurationPayloadRequest` | 9 (0x9) | Exported Function | 0x100053c0 | 0x000053c0
-`FreeTrafficSelectors` | 8 (0x8) | Exported Function | 0x10006850 | 0x00006850
-`FreeIDPayloadBuffer` | 7 (0x7) | Exported Function | 0x10007250 | 0x00007250
-`FreeEapAuthPacket` | 6 (0x6) | Exported Function | 0x10004e50 | 0x00004e50
-`FreeEapAuthAttributes` | 5 (0x5) | Exported Function | 0x10005260 | 0x00005260
-`FreeConfigurationPayloadBuffer` | 4 (0x4) | Exported Function | 0x10005bd0 | 0x00005bd0
-`CreateTunnel` | 3 (0x3) | Exported Function | 0x10003b30 | 0x00003b30
-`CloseTunnel` | 2 (0x2) | Exported Function | 0x100040e0 | 0x000040e0
-`TunnelAuthDone` | 23 (0x17) | Exported Function | 0x100073d0 | 0x000073d0
-`UpdateTunnel` | 24 (0x18) | Exported Function | 0x10003dd0 | 0x00003dd0
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessConfigurationPayloadReply` | 16 | Exported Function
+`ProcessConfigurationPayloadRequest` | 17 | Exported Function
+`ProcessEapAuthPacket` | 18 | Exported Function
+`GetTrafficSelectorsRequest` | 13 | Exported Function
+`NewRasIncomingCall` | 14 | Exported Function
+`ProcessAdditionalAddressNotification` | 15 | Exported Function
+`RemoveTrafficSelectors` | 22 | Exported Function
+`TunnelAuthDone` | 23 | Exported Function
+`UpdateTunnel` | 24 | Exported Function
+`ProcessTrafficSelectorsReply` | 19 | Exported Function
+`ProcessTrafficSelectorsRequest` | 20 | Exported Function
+`QueryEapAuthAttributes` | 21 | Exported Function
+`FreeConfigurationPayloadBuffer` | 4 | Exported Function
+`FreeEapAuthAttributes` | 5 | Exported Function
+`FreeEapAuthPacket` | 6 | Exported Function
+`CancelProcessEapAuthPacket` | 1 | Exported Function
+`CloseTunnel` | 2 | Exported Function
+`CreateTunnel` | 3 | Exported Function
+`GetIDPayload` | 10 | Exported Function
+`GetOptionalIDrPayload` | 11 | Exported Function
+`GetServerEapAuthRequestPacket` | 12 | Exported Function
+`FreeIDPayloadBuffer` | 7 | Exported Function
+`FreeTrafficSelectors` | 8 | Exported Function
+`GetConfigurationPayloadRequest` | 9 | Exported Function
 
 
 ## Signature

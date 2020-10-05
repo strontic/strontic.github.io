@@ -24,9 +24,9 @@ PE256 | `022498E43E059D3F923C3E1D6F52FBCCF05B12D7D19E6B0153840A609B0856FF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreatePassThrough` | 1 (0x1) | Exported Function | 0x10002210 | 0x00002210
+Function Name | Ordinal | Type
+-- | -- | --
+`CreatePassThrough` | 1 | Exported Function
 
 
 ## Signature

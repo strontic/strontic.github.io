@@ -24,14 +24,14 @@ PE256 | `833F6913AC769B78039CEC0AA61BC117873123562F3F69B824DEE99479543224`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateForegroundTaskManager` | 1 (0x1) | Exported Function | 0x100131d0 | 0x000131d0
-`CreateModernVoipPolicy` | 3 (0x3) | Exported Function | 0x10033eb0 | 0x00033eb0
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x1000c000 | 0x0000c000
-`DllGetActivationFactory` | 5 (0x5) | Exported Function | 0x100145c0 | 0x000145c0
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x1000b7a0 | 0x0000b7a0
-`TestHook_CancelShutdown` | 2 (0x2) | Exported Function | 0x10020cf0 | 0x00020cf0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetActivationFactory` | 5 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`TestHook_CancelShutdown` | 2 | Exported Function
+`CreateForegroundTaskManager` | 1 | Exported Function
+`CreateModernVoipPolicy` | 3 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
 
 
 ## Signature

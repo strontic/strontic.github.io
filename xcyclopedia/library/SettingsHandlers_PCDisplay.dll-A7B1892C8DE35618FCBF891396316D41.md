@@ -24,12 +24,12 @@ PE256 | `550B2A18DB6DE33039175A9DF10F3974B35AC7C61739AB8F04BD8510A6CA36AB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180006ce0 | 0x00006ce0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180006be0 | 0x00006be0
-`GetSetting` | 4 (0x4) | Exported Function | 0x0000000180006de0 | 0x00006de0
-`NotifyDisplayHandler` | 1 (0x1) | Exported Function | 0x0000000180006da0 | 0x00006da0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetSetting` | 4 | Exported Function
+`NotifyDisplayHandler` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

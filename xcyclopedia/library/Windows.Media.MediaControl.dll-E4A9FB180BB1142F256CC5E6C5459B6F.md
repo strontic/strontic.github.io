@@ -24,19 +24,19 @@ PE256 | `5D99AE8974B229FD895145644B7CE067C92C4C841393CA49B3F21E2F4D824A52`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateCaptureAudioStateMonitor` | 1 (0x1) | Exported Function | 0x1002c610 | 0x0002c610
-`CreateCaptureAudioStateMonitorForCategory` | 2 (0x2) | Exported Function | 0x1002c650 | 0x0002c650
-`CreateCaptureAudioStateMonitorForCategoryAndDeviceId` | 3 (0x3) | Exported Function | 0x1002c6d0 | 0x0002c6d0
-`CreateCaptureAudioStateMonitorForCategoryAndDeviceRole` | 4 (0x4) | Exported Function | 0x1002c750 | 0x0002c750
-`CreateRenderAudioStateMonitor` | 5 (0x5) | Exported Function | 0x1002c7e0 | 0x0002c7e0
-`CreateRenderAudioStateMonitorForCategory` | 6 (0x6) | Exported Function | 0x1002c820 | 0x0002c820
-`CreateRenderAudioStateMonitorForCategoryAndDeviceId` | 7 (0x7) | Exported Function | 0x1002c8a0 | 0x0002c8a0
-`CreateRenderAudioStateMonitorForCategoryAndDeviceRole` | 8 (0x8) | Exported Function | 0x1002c920 | 0x0002c920
-`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x10025330 | 0x00025330
-`DllGetActivationFactory` | 10 (0xa) | Exported Function | 0x10024760 | 0x00024760
-`DllGetClassObject` | 11 (0xb) | Exported Function | 0x100210f0 | 0x000210f0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateRenderAudioStateMonitorForCategoryAndDeviceRole` | 8 | Exported Function
+`CreateRenderAudioStateMonitorForCategoryAndDeviceId` | 7 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
+`DllGetActivationFactory` | 10 | Exported Function
+`CreateRenderAudioStateMonitorForCategory` | 6 | Exported Function
+`CreateCaptureAudioStateMonitorForCategory` | 2 | Exported Function
+`CreateCaptureAudioStateMonitor` | 1 | Exported Function
+`CreateCaptureAudioStateMonitorForCategoryAndDeviceId` | 3 | Exported Function
+`CreateRenderAudioStateMonitor` | 5 | Exported Function
+`CreateCaptureAudioStateMonitorForCategoryAndDeviceRole` | 4 | Exported Function
 
 
 ## Signature

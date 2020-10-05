@@ -24,17 +24,17 @@ PE256 | `C0F0E73EBEF9E81B79EC43CBEB3D7714C495A449E104A0DD5B236369CC2D8D11`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x000000018001f660 | 0x0001f660
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x000000018001f6a0 | 0x0001f6a0
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x000000018001f6c0 | 0x0001f6c0
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x000000018001f720 | 0x0001f720
-`HideVAN` | 1 (0x1) | Exported Function | 0x000000018001e4b0 | 0x0001e4b0
-`RunVANW` | 9 (0x9) | Exported Function | 0x000000018001f890 | 0x0001f890
-`ShowVAN` | 2 (0x2) | Exported Function | 0x000000018001f100 | 0x0001f100
-`ShutdownVAN` | 3 (0x3) | Exported Function | 0x000000018001f3f0 | 0x0001f3f0
-`VanUIManager_CreateInstance` | 4 (0x4) | Exported Function | 0x000000018001f610 | 0x0001f610
+Function Name | Ordinal | Type
+-- | -- | --
+`ShowVAN` | 2 | Exported Function
+`RunVANW` | 9 | Exported Function
+`VanUIManager_CreateInstance` | 4 | Exported Function
+`ShutdownVAN` | 3 | Exported Function
+`HideVAN` | 1 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
 
 
 ## Signature

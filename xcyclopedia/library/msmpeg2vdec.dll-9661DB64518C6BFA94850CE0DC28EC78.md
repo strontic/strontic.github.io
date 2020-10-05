@@ -24,16 +24,16 @@ PE256 | `98267E7628A3087D6B71882878F92311EBE8120AA3E6FE86B96A2264F1E60D35`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x10096430 | 0x00096430
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x10081b60 | 0x00081b60
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x100a1d40 | 0x000a1d40
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x100dabc0 | 0x000dabc0
-`GetH264DecoderFunctionTable` | 1 (0x1) | Exported Function | 0x100d33f0 | 0x000d33f0
-`public: long __thiscall CVIDEOfilter::GetSurface(int,unsigned char *,long)` | 2 (0x2) | Exported Function | 0x100d3f60 | 0x000d3f60
-`public: long __thiscall CVIDEOfilter::GetSurfaceSize(int,long *)` | 3 (0x3) | Exported Function | 0x100d3f90 | 0x000d3f90
-`public: long __thiscall CVIDEOfilter::LoadSurface(int,unsigned char *,unsigned long)` | 4 (0x4) | Exported Function | 0x100d6370 | 0x000d6370
+Function Name | Ordinal | Type
+-- | -- | --
+`public: long __thiscall CVIDEOfilter::GetSurface(int,unsigned char *,long)` | 2 | Exported Function
+`GetH264DecoderFunctionTable` | 1 | Exported Function
+`public: long __thiscall CVIDEOfilter::LoadSurface(int,unsigned char *,unsigned long)` | 4 | Exported Function
+`public: long __thiscall CVIDEOfilter::GetSurfaceSize(int,long *)` | 3 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
 
 
 ## Signature

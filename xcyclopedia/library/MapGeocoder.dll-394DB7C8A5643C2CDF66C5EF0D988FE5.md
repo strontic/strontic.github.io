@@ -24,9 +24,9 @@ PE256 | `DF5BB8623E98A67CC47BAA30801A95394C72C8E3AFC688A31609F2261BA81D59`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateMapGeocoderFactory` | 1 (0x1) | Exported Function | 0x1005da60 | 0x0005da60
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateMapGeocoderFactory` | 1 | Exported Function
 
 
 ## Signature

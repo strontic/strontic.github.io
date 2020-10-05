@@ -24,29 +24,29 @@ PE256 | `49C76C9C3E0D9A53B4D4B66E618D446FE5E47C91343F462A0C616153988BF49C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AiEvaluatePlugin` | 1 (0x1) | Exported Function | 0x0000000180005c30 | 0x00005c30
-`SrpOpenTrackInstall` | 19 (0x13) | Exported Function | 0x0000000180006790 | 0x00006790
-`SrpIsTokenService` | 18 (0x12) | Exported Function | 0x00000001800071e0 | 0x000071e0
-`SrpIsAllowed` | 17 (0x11) | Exported Function | 0x0000000180004e50 | 0x00004e50
-`SrpInheritOriginClaim` | 16 (0x10) | Exported Function | 0x0000000180006610 | 0x00006610
-`SrpInheritEnterpriseContext` | 15 (0xf) | Exported Function | 0x0000000180001330 | 0x00001330
-`SrpGetEnterprisePolicy` | 14 (0xe) | Exported Function | 0x00000001800015e0 | 0x000015e0
-`SrpGetEnterpriseIds` | 13 (0xd) | Exported Function | 0x00000001800014c0 | 0x000014c0
-`SrpGetAppxFqbnFromPackageFullName` | 12 (0xc) | Exported Function | 0x00000001800068b0 | 0x000068b0
-`SrpRestoreEnterpriseContext` | 20 (0x14) | Exported Function | 0x0000000180001380 | 0x00001380
-`SrpGetAllowedEnterprises` | 11 (0xb) | Exported Function | 0x0000000180005ed0 | 0x00005ed0
-`SrpDoesPolicyAllowAppExecution` | 9 (0x9) | Exported Function | 0x00000001800013e0 | 0x000013e0
-`SrpDisablePermissiveModeFileEncryption` | 8 (0x8) | Exported Function | 0x00000001800017a0 | 0x000017a0
-`SrpCreateThreadNetworkContext` | 7 (0x7) | Exported Function | 0x0000000180001110 | 0x00001110
-`SrpCloseTrackInstall` | 6 (0x6) | Exported Function | 0x0000000180006830 | 0x00006830
-`SrpCloseThreadNetworkContext` | 5 (0x5) | Exported Function | 0x00000001800011a0 | 0x000011a0
-`AppIDFreeAttributeString` | 4 (0x4) | Exported Function | 0x0000000180006490 | 0x00006490
-`AppIDEncodeAttributeString` | 3 (0x3) | Exported Function | 0x00000001800062b0 | 0x000062b0
-`AppIDDecodeAttributeString` | 2 (0x2) | Exported Function | 0x00000001800063a0 | 0x000063a0
-`SrpEnablePermissiveModeFileEncryption` | 10 (0xa) | Exported Function | 0x0000000180001740 | 0x00001740
-`SrpSetTokenEnterpriseId` | 21 (0x15) | Exported Function | 0x0000000180001230 | 0x00001230
+Function Name | Ordinal | Type
+-- | -- | --
+`SrpInheritEnterpriseContext` | 15 | Exported Function
+`SrpInheritOriginClaim` | 16 | Exported Function
+`SrpGetEnterprisePolicy` | 14 | Exported Function
+`SrpGetAppxFqbnFromPackageFullName` | 12 | Exported Function
+`SrpGetEnterpriseIds` | 13 | Exported Function
+`SrpRestoreEnterpriseContext` | 20 | Exported Function
+`SrpSetTokenEnterpriseId` | 21 | Exported Function
+`SrpOpenTrackInstall` | 19 | Exported Function
+`SrpIsAllowed` | 17 | Exported Function
+`SrpIsTokenService` | 18 | Exported Function
+`SrpGetAllowedEnterprises` | 11 | Exported Function
+`AppIDFreeAttributeString` | 4 | Exported Function
+`SrpCloseThreadNetworkContext` | 5 | Exported Function
+`AppIDEncodeAttributeString` | 3 | Exported Function
+`AiEvaluatePlugin` | 1 | Exported Function
+`AppIDDecodeAttributeString` | 2 | Exported Function
+`SrpDoesPolicyAllowAppExecution` | 9 | Exported Function
+`SrpEnablePermissiveModeFileEncryption` | 10 | Exported Function
+`SrpDisablePermissiveModeFileEncryption` | 8 | Exported Function
+`SrpCloseTrackInstall` | 6 | Exported Function
+`SrpCreateThreadNetworkContext` | 7 | Exported Function
 
 
 ## Signature

@@ -24,67 +24,67 @@ PE256 | `74BD5E6CF626AF33C43EE6720821C7C18BB14E6324667818C0287FF52F74D548`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 59 (0x3b) | Exported Function | 0x10015580 | 0x00015580
-`SensorGetRangeResolutionV2` | 31 (0x1f) | Exported Function | 0x10015440 | 0x00015440
-`SensorGetSupportedDataFieldsV2` | 32 (0x20) | Exported Function | 0x1001acd0 | 0x0001acd0
-`SensorIsWakeEnabledV2` | 33 (0x21) | Exported Function | 0x1001a200 | 0x0001a200
-`SensorNotificationConfigureV2` | 34 (0x22) | Exported Function | 0x10015460 | 0x00015460
-`SensorNotificationStartV2` | 35 (0x23) | Exported Function | 0x10015470 | 0x00015470
-`SensorNotificationStopV2` | 36 (0x24) | Exported Function | 0x10015470 | 0x00015470
-`SensorOpenByInterfaceV2` | 37 (0x25) | Exported Function | 0x10019cf0 | 0x00019cf0
-`SensorOpenV2` | 38 (0x26) | Exported Function | 0x10013e50 | 0x00013e50
-`SensorSetAccThresholdsV2` | 39 (0x27) | Exported Function | 0x1001b930 | 0x0001b930
-`SensorSetAlsThresholdsV2` | 40 (0x28) | Exported Function | 0x1001ba70 | 0x0001ba70
-`SensorSetAlsWithColorThresholdsV2` | 41 (0x29) | Exported Function | 0x1001ba90 | 0x0001ba90
-`SensorSetBarThresholdsV2` | 42 (0x2a) | Exported Function | 0x1001bc50 | 0x0001bc50
-`SensorGetPrxDataV2` | 30 (0x1e) | Exported Function | 0x1001b8c0 | 0x0001b8c0
-`SensorSetDataDeliveryModeV2` | 43 (0x2b) | Exported Function | 0x1001c330 | 0x0001c330
-`SensorSetDataThresholdsV2` | 45 (0x2d) | Exported Function | 0x1001a970 | 0x0001a970
-`SensorSetFusThresholdsV2` | 46 (0x2e) | Exported Function | 0x1001bf70 | 0x0001bf70
-`SensorSetGyrThresholdsV2` | 47 (0x2f) | Exported Function | 0x1001bcf0 | 0x0001bcf0
-`SensorSetMagThresholdsV2` | 48 (0x30) | Exported Function | 0x1001be30 | 0x0001be30
-`SensorSetOrientationSensorThresholdsV2` | 49 (0x31) | Exported Function | 0x1001c100 | 0x0001c100
-`SensorSetRangeResolutionV2` | 50 (0x32) | Exported Function | 0x10015450 | 0x00015450
-`SensorSetReportLatencyV2` | 51 (0x33) | Exported Function | 0x1001c1a0 | 0x0001c1a0
-`SensorStartCollectionV2` | 52 (0x34) | Exported Function | 0x1001a010 | 0x0001a010
-`SensorStartHistoryV2` | 53 (0x35) | Exported Function | 0x1001b0b0 | 0x0001b0b0
-`SensorStartStateChangeNotificationV2` | 54 (0x36) | Exported Function | 0x1001c660 | 0x0001c660
-`SensorStartV2` | 55 (0x37) | Exported Function | 0x100144e0 | 0x000144e0
-`SensorStopHistoryV2` | 56 (0x38) | Exported Function | 0x1001b230 | 0x0001b230
-`SensorSetDataIntervalV2` | 44 (0x2c) | Exported Function | 0x1001a660 | 0x0001a660
-`SensorStopStateChangeNotificationV2` | 57 (0x39) | Exported Function | 0x1001c7f0 | 0x0001c7f0
-`SensorGetPropertiesV2` | 29 (0x1d) | Exported Function | 0x1001a2a0 | 0x0001a2a0
-`SensorGetHistoryV2` | 27 (0x1b) | Exported Function | 0x1001b440 | 0x0001b440
-`SensorCancelHistoryRetrievalV2` | 1 (0x1) | Exported Function | 0x1001b6f0 | 0x0001b6f0
-`SensorClearHistoryV2` | 2 (0x2) | Exported Function | 0x1001b3b0 | 0x0001b3b0
-`SensorCloseV2` | 3 (0x3) | Exported Function | 0x10013f80 | 0x00013f80
-`SensorDeviceIoControlV2` | 4 (0x4) | Exported Function | 0x10014e40 | 0x00014e40
-`SensorDisableIoPathForDataNotificationsV2` | 5 (0x5) | Exported Function | 0x10014e80 | 0x00014e80
-`SensorDisableWakeV2` | 6 (0x6) | Exported Function | 0x1001a170 | 0x0001a170
-`SensorEnableIdleOperationV2` | 7 (0x7) | Exported Function | 0x10014dc0 | 0x00014dc0
-`SensorEnableWakeV2` | 8 (0x8) | Exported Function | 0x1001a0e0 | 0x0001a0e0
-`SensorGetAccDataV2` | 9 (0x9) | Exported Function | 0x1001b790 | 0x0001b790
-`SensorGetAlsDataV2` | 10 (0xa) | Exported Function | 0x1001b7c0 | 0x0001b7c0
-`SensorGetAlsDataWithColorV2` | 11 (0xb) | Exported Function | 0x1001b7f0 | 0x0001b7f0
-`SensorGetBarDataV2` | 12 (0xc) | Exported Function | 0x1001b830 | 0x0001b830
-`SensorGetMagDataV2` | 28 (0x1c) | Exported Function | 0x1001b890 | 0x0001b890
-`SensorGetCapabilitiesCollectionV2` | 13 (0xd) | Exported Function | 0x10019370 | 0x00019370
-`SensorGetCurrentReadingV2` | 15 (0xf) | Exported Function | 0x10019e30 | 0x00019e30
-`SensorGetDataCollectionV2` | 16 (0x10) | Exported Function | 0x10019e20 | 0x00019e20
-`SensorGetDataDeliveryModeV2` | 17 (0x11) | Exported Function | 0x1001c4c0 | 0x0001c4c0
-`SensorGetDataFieldPropertiesV2` | 18 (0x12) | Exported Function | 0x1001ae80 | 0x0001ae80
-`SensorGetDataIntervalV2` | 19 (0x13) | Exported Function | 0x1001a4c0 | 0x0001a4c0
-`SensorGetDataThresholdsV2` | 20 (0x14) | Exported Function | 0x1001a730 | 0x0001a730
-`SensorGetDataV2` | 21 (0x15) | Exported Function | 0x10014070 | 0x00014070
-`SensorGetDefaultDataThresholdsV2` | 22 (0x16) | Exported Function | 0x1001aa90 | 0x0001aa90
-`SensorGetDeviceIdV2` | 23 (0x17) | Exported Function | 0x10015480 | 0x00015480
-`SensorGetFifoMaxSizeV2` | 24 (0x18) | Exported Function | 0x10019510 | 0x00019510
-`SensorGetFusDataV2` | 25 (0x19) | Exported Function | 0x1001b8f0 | 0x0001b8f0
-`SensorGetGyrDataV2` | 26 (0x1a) | Exported Function | 0x1001b860 | 0x0001b860
-`SensorGetCapabilitiesV2` | 14 (0xe) | Exported Function | 0x10014320 | 0x00014320
-`SensorStopV2` | 58 (0x3a) | Exported Function | 0x10014da0 | 0x00014da0
+Function Name | Ordinal | Type
+-- | -- | --
+`SensorSetAccThresholdsV2` | 39 | Exported Function
+`SensorOpenV2` | 38 | Exported Function
+`SensorOpenByInterfaceV2` | 37 | Exported Function
+`SensorSetAlsThresholdsV2` | 40 | Exported Function
+`SensorSetDataDeliveryModeV2` | 43 | Exported Function
+`SensorSetBarThresholdsV2` | 42 | Exported Function
+`SensorSetAlsWithColorThresholdsV2` | 41 | Exported Function
+`SensorGetSupportedDataFieldsV2` | 32 | Exported Function
+`SensorGetRangeResolutionV2` | 31 | Exported Function
+`SensorGetPrxDataV2` | 30 | Exported Function
+`SensorIsWakeEnabledV2` | 33 | Exported Function
+`SensorNotificationStopV2` | 36 | Exported Function
+`SensorNotificationStartV2` | 35 | Exported Function
+`SensorNotificationConfigureV2` | 34 | Exported Function
+`SensorSetDataIntervalV2` | 44 | Exported Function
+`SensorStartStateChangeNotificationV2` | 54 | Exported Function
+`SensorStartHistoryV2` | 53 | Exported Function
+`SensorStartCollectionV2` | 52 | Exported Function
+`SensorStartV2` | 55 | Exported Function
+`SensorStopV2` | 58 | Exported Function
+`SensorStopStateChangeNotificationV2` | 57 | Exported Function
+`SensorStopHistoryV2` | 56 | Exported Function
+`SensorSetGyrThresholdsV2` | 47 | Exported Function
+`SensorSetFusThresholdsV2` | 46 | Exported Function
+`SensorSetDataThresholdsV2` | 45 | Exported Function
+`SensorSetMagThresholdsV2` | 48 | Exported Function
+`SensorSetReportLatencyV2` | 51 | Exported Function
+`SensorSetRangeResolutionV2` | 50 | Exported Function
+`SensorSetOrientationSensorThresholdsV2` | 49 | Exported Function
+`SensorGetPropertiesV2` | 29 | Exported Function
+`SensorGetAccDataV2` | 9 | Exported Function
+`SensorEnableWakeV2` | 8 | Exported Function
+`SensorEnableIdleOperationV2` | 7 | Exported Function
+`SensorGetAlsDataV2` | 10 | Exported Function
+`SensorGetCapabilitiesCollectionV2` | 13 | Exported Function
+`SensorGetBarDataV2` | 12 | Exported Function
+`SensorGetAlsDataWithColorV2` | 11 | Exported Function
+`SensorClearHistoryV2` | 2 | Exported Function
+`SensorCancelHistoryRetrievalV2` | 1 | Exported Function
+`DllMain` | 59 | Exported Function
+`SensorCloseV2` | 3 | Exported Function
+`SensorDisableWakeV2` | 6 | Exported Function
+`SensorDisableIoPathForDataNotificationsV2` | 5 | Exported Function
+`SensorDeviceIoControlV2` | 4 | Exported Function
+`SensorGetCapabilitiesV2` | 14 | Exported Function
+`SensorGetFifoMaxSizeV2` | 24 | Exported Function
+`SensorGetDeviceIdV2` | 23 | Exported Function
+`SensorGetDefaultDataThresholdsV2` | 22 | Exported Function
+`SensorGetFusDataV2` | 25 | Exported Function
+`SensorGetMagDataV2` | 28 | Exported Function
+`SensorGetHistoryV2` | 27 | Exported Function
+`SensorGetGyrDataV2` | 26 | Exported Function
+`SensorGetDataDeliveryModeV2` | 17 | Exported Function
+`SensorGetDataCollectionV2` | 16 | Exported Function
+`SensorGetCurrentReadingV2` | 15 | Exported Function
+`SensorGetDataFieldPropertiesV2` | 18 | Exported Function
+`SensorGetDataV2` | 21 | Exported Function
+`SensorGetDataThresholdsV2` | 20 | Exported Function
+`SensorGetDataIntervalV2` | 19 | Exported Function
 
 
 ## Signature

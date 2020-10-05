@@ -24,115 +24,115 @@ PE256 | `7CB5649B5B211AC089EDFED32DE0C4EF1FDBB339850EE5C84EA4B752FDF6F72F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__control87_2` | 2 (0x2) | Exported Function | ucrtbase.__control87_2 | 0x000015cb
-`_sleep` | 78 (0x4e) | Exported Function | ucrtbase._sleep | 0x0000228e
-`_seterrormode` | 77 (0x4d) | Exported Function | ucrtbase._seterrormode | 0x00002270
-`_set_thread_local_invalid_parameter_handler` | 76 (0x4c) | Exported Function | ucrtbase._set_thread_local_invalid_parameter_handler | 0x0000222d
-`_set_new_handler` | 75 (0x4b) | Exported Function | ucrtbase._set_new_handler | 0x000021e7
-`_set_invalid_parameter_handler` | 74 (0x4a) | Exported Function | ucrtbase._set_invalid_parameter_handler | 0x000021ae
-`_set_error_mode` | 73 (0x49) | Exported Function | ucrtbase._set_error_mode | 0x00002176
-`_set_errno` | 72 (0x48) | Exported Function | ucrtbase._set_errno | 0x00002152
-`_set_doserrno` | 71 (0x47) | Exported Function | ucrtbase._set_doserrno | 0x00002130
-`_set_controlfp` | 70 (0x46) | Exported Function | ucrtbase._set_controlfp | 0x0000210a
-`_set_app_type` | 69 (0x45) | Exported Function | ucrtbase._set_app_type | 0x000020e4
-`_set_abort_behavior` | 68 (0x44) | Exported Function | ucrtbase._set_abort_behavior | 0x000020b9
-`_seh_filter_exe` | 67 (0x43) | Exported Function | ucrtbase._seh_filter_exe | 0x0000208c
-`_seh_filter_dll` | 66 (0x42) | Exported Function | ucrtbase._seh_filter_dll | 0x00002063
-`_resetstkoflw` | 65 (0x41) | Exported Function | ucrtbase._resetstkoflw | 0x0000203c
-`_register_thread_local_exe_atexit_callback` | 64 (0x40) | Exported Function | ucrtbase._register_thread_local_exe_atexit_callback | 0x00001ffa
-`_register_onexit_function` | 63 (0x3f) | Exported Function | ucrtbase._register_onexit_function | 0x00001fac
-`_query_app_type` | 62 (0x3e) | Exported Function | ucrtbase._query_app_type | 0x00001f79
-`_invoke_watson` | 61 (0x3d) | Exported Function | ucrtbase._invoke_watson | 0x00001f51
-`_invalid_parameter_noinfo_noreturn` | 60 (0x3c) | Exported Function | ucrtbase._invalid_parameter_noinfo_noreturn | 0x00001f16
-`_invalid_parameter_noinfo` | 59 (0x3b) | Exported Function | ucrtbase._invalid_parameter_noinfo | 0x00001ed0
-`_initterm_e` | 58 (0x3a) | Exported Function | ucrtbase._initterm_e | 0x00001ea1
-`_initterm` | 57 (0x39) | Exported Function | ucrtbase._initterm | 0x00001e82
-`_initialize_wide_environment` | 56 (0x38) | Exported Function | ucrtbase._initialize_wide_environment | 0x00001e52
-`_statusfp` | 79 (0x4f) | Exported Function | ucrtbase._statusfp | 0x000022a8
-`_initialize_onexit_table` | 55 (0x37) | Exported Function | ucrtbase._initialize_onexit_table | 0x00001e13
-`_statusfp2` | 80 (0x50) | Exported Function | ucrtbase._statusfp2 | 0x000022c6
-`_strerror_s` | 82 (0x52) | Exported Function | ucrtbase._strerror_s | 0x00002303
-`strerror_s` | 105 (0x69) | Exported Function | ucrtbase.strerror_s | 0x000025ad
-`strerror` | 104 (0x68) | Exported Function | ucrtbase.strerror | 0x00002590
-`signal` | 103 (0x67) | Exported Function | ucrtbase.signal | 0x00002577
-`set_terminate` | 102 (0x66) | Exported Function | ucrtbase.set_terminate | 0x00002559
-`raise` | 101 (0x65) | Exported Function | ucrtbase.raise | 0x0000253c
-`quick_exit` | 100 (0x64) | Exported Function | ucrtbase.quick_exit | 0x00002522
-`perror` | 99 (0x63) | Exported Function | ucrtbase.perror | 0x00002507
-`fetestexcept` | 98 (0x62) | Exported Function | ucrtbase.fetestexcept | 0x000024ea
-`fesetround` | 97 (0x61) | Exported Function | ucrtbase.fesetround | 0x000024c9
-`fesetexceptflag` | 96 (0x60) | Exported Function | ucrtbase.fesetexceptflag | 0x000024a5
-`fesetenv` | 95 (0x5f) | Exported Function | ucrtbase.fesetenv | 0x00002483
-`feholdexcept` | 94 (0x5e) | Exported Function | ucrtbase.feholdexcept | 0x00002464
-`fegetround` | 93 (0x5d) | Exported Function | ucrtbase.fegetround | 0x00002443
-`fegetexceptflag` | 92 (0x5c) | Exported Function | ucrtbase.fegetexceptflag | 0x0000241f
-`fegetenv` | 91 (0x5b) | Exported Function | ucrtbase.fegetenv | 0x000023fd
-`feclearexcept` | 90 (0x5a) | Exported Function | ucrtbase.feclearexcept | 0x000023dd
-`exit` | 89 (0x59) | Exported Function | ucrtbase.exit | 0x000023c1
-`abort` | 88 (0x58) | Exported Function | ucrtbase.abort | 0x000023ad
-`_wsystem` | 87 (0x57) | Exported Function | ucrtbase._wsystem | 0x00002395
-`_wperror` | 86 (0x56) | Exported Function | ucrtbase._wperror | 0x0000237a
-`_wcserror_s` | 85 (0x55) | Exported Function | ucrtbase._wcserror_s | 0x0000235c
-`_wcserror` | 84 (0x54) | Exported Function | ucrtbase._wcserror | 0x0000233d
-`_wassert` | 83 (0x53) | Exported Function | ucrtbase._wassert | 0x00002321
-`_strerror` | 81 (0x51) | Exported Function | ucrtbase._strerror | 0x000022e4
-`system` | 106 (0x6a) | Exported Function | ucrtbase.system | 0x000025c8
-`_initialize_narrow_environment` | 54 (0x36) | Exported Function | ucrtbase._initialize_narrow_environment | 0x00001dd2
-`_getdllprocaddr` | 52 (0x34) | Exported Function | ucrtbase._getdllprocaddr | 0x00001d81
-`_clearfp` | 25 (0x19) | Exported Function | ucrtbase._clearfp | 0x000018bf
-`_cexit` | 24 (0x18) | Exported Function | ucrtbase._cexit | 0x000018a6
-`_c_exit` | 23 (0x17) | Exported Function | ucrtbase._c_exit | 0x0000188e
-`_beginthreadex` | 22 (0x16) | Exported Function | ucrtbase._beginthreadex | 0x0000186e
-`_beginthread` | 21 (0x15) | Exported Function | ucrtbase._beginthread | 0x00001849
-`_assert` | 20 (0x14) | Exported Function | ucrtbase._assert | 0x0000182b
-`__wcserror_s` | 19 (0x13) | Exported Function | ucrtbase.__wcserror_s | 0x0000180d
-`__wcserror` | 18 (0x12) | Exported Function | ucrtbase.__wcserror | 0x000017ec
-`__threadid` | 17 (0x11) | Exported Function | ucrtbase.__threadid | 0x000017cd
-`__threadhandle` | 16 (0x10) | Exported Function | ucrtbase.__threadhandle | 0x000017aa
-`__sys_nerr` | 15 (0xf) | Exported Function | ucrtbase.__sys_nerr | 0x00001787
-`__sys_errlist` | 14 (0xe) | Exported Function | ucrtbase.__sys_errlist | 0x00001765
-`__pxcptinfoptrs` | 13 (0xd) | Exported Function | ucrtbase.__pxcptinfoptrs | 0x0000173e
-`__p__wpgmptr` | 12 (0xc) | Exported Function | ucrtbase.__p__wpgmptr | 0x00001718
-`__p__wcmdln` | 11 (0xb) | Exported Function | ucrtbase.__p__wcmdln | 0x000016f6
-`__p__pgmptr` | 10 (0xa) | Exported Function | ucrtbase.__p__pgmptr | 0x000016d5
-`__p__acmdln` | 9 (0x9) | Exported Function | ucrtbase.__p__acmdln | 0x000016b4
-`__p___wargv` | 8 (0x8) | Exported Function | ucrtbase.__p___wargv | 0x00001693
-`__p___argv` | 7 (0x7) | Exported Function | ucrtbase.__p___argv | 0x00001673
-`__p___argc` | 6 (0x6) | Exported Function | ucrtbase.__p___argc | 0x00001654
-`__fpecode` | 5 (0x5) | Exported Function | ucrtbase.__fpecode | 0x00001636
-`__fpe_flt_rounds` | 4 (0x4) | Exported Function | ucrtbase.__fpe_flt_rounds | 0x00001612
-`__doserrno` | 3 (0x3) | Exported Function | ucrtbase.__doserrno | 0x000015ed
-`_configure_narrow_argv` | 26 (0x1a) | Exported Function | ucrtbase._configure_narrow_argv | 0x000018e8
-`_getpid` | 53 (0x35) | Exported Function | ucrtbase._getpid | 0x00001da2
-`_configure_wide_argv` | 27 (0x1b) | Exported Function | ucrtbase._configure_wide_argv | 0x0000191d
-`_controlfp` | 29 (0x1d) | Exported Function | ucrtbase._controlfp | 0x00001965
-`_get_wpgmptr` | 51 (0x33) | Exported Function | ucrtbase._get_wpgmptr | 0x00001d5b
-`_get_wide_winmain_command_line` | 50 (0x32) | Exported Function | ucrtbase._get_wide_winmain_command_line | 0x00001d26
-`_get_thread_local_invalid_parameter_handler` | 49 (0x31) | Exported Function | ucrtbase._get_thread_local_invalid_parameter_handler | 0x00001cd2
-`_get_terminate` | 48 (0x30) | Exported Function | ucrtbase._get_terminate | 0x00001c8e
-`_get_pgmptr` | 47 (0x2f) | Exported Function | ucrtbase._get_pgmptr | 0x00001c6a
-`_get_narrow_winmain_command_line` | 46 (0x2e) | Exported Function | ucrtbase._get_narrow_winmain_command_line | 0x00001c34
-`_get_invalid_parameter_handler` | 45 (0x2d) | Exported Function | ucrtbase._get_invalid_parameter_handler | 0x00001beb
-`_get_initial_wide_environment` | 44 (0x2c) | Exported Function | ucrtbase._get_initial_wide_environment | 0x00001ba5
-`_get_initial_narrow_environment` | 43 (0x2b) | Exported Function | ucrtbase._get_initial_narrow_environment | 0x00001b5e
-`_get_errno` | 42 (0x2a) | Exported Function | ucrtbase._get_errno | 0x00001b2a
-`_get_doserrno` | 41 (0x29) | Exported Function | ucrtbase._get_doserrno | 0x00001b08
-`_fpreset` | 40 (0x28) | Exported Function | ucrtbase._fpreset | 0x00001ae8
-`_fpieee_flt` | 39 (0x27) | Exported Function | ucrtbase._fpieee_flt | 0x00001aca
-`_exit` | 38 (0x26) | Exported Function | ucrtbase._exit | 0x00001aaf
-`_Exit` | 1 (0x1) | Exported Function | ucrtbase._Exit | 0x000015ae
-`_execute_onexit_table` | 37 (0x25) | Exported Function | ucrtbase._execute_onexit_table | 0x00001a8a
-`_errno` | 36 (0x24) | Exported Function | ucrtbase._errno | 0x00001a64
-`_endthreadex` | 35 (0x23) | Exported Function | ucrtbase._endthreadex | 0x00001a47
-`_endthread` | 34 (0x22) | Exported Function | ucrtbase._endthread | 0x00001a26
-`_crt_debugger_hook` | 33 (0x21) | Exported Function | ucrtbase._crt_debugger_hook | 0x000019ff
-`_crt_atexit` | 32 (0x20) | Exported Function | ucrtbase._crt_atexit | 0x000019d7
-`_crt_at_quick_exit` | 31 (0x1f) | Exported Function | ucrtbase._crt_at_quick_exit | 0x000019af
-`_controlfp_s` | 30 (0x1e) | Exported Function | ucrtbase._controlfp_s | 0x00001986
-`_control87` | 28 (0x1c) | Exported Function | ucrtbase._control87 | 0x00001946
-`terminate` | 107 (0x6b) | Exported Function | ucrtbase.terminate | 0x000025e2
+Function Name | Ordinal | Type
+-- | -- | --
+`_set_doserrno` | 71 | Exported Function
+`_set_errno` | 72 | Exported Function
+`_set_error_mode` | 73 | Exported Function
+`_set_abort_behavior` | 68 | Exported Function
+`_set_app_type` | 69 | Exported Function
+`_set_controlfp` | 70 | Exported Function
+`_set_invalid_parameter_handler` | 74 | Exported Function
+`_sleep` | 78 | Exported Function
+`_statusfp` | 79 | Exported Function
+`_statusfp2` | 80 | Exported Function
+`_set_new_handler` | 75 | Exported Function
+`_set_thread_local_invalid_parameter_handler` | 76 | Exported Function
+`_seterrormode` | 77 | Exported Function
+`_initterm_e` | 58 | Exported Function
+`_invalid_parameter_noinfo` | 59 | Exported Function
+`_invalid_parameter_noinfo_noreturn` | 60 | Exported Function
+`_initialize_onexit_table` | 55 | Exported Function
+`_initialize_wide_environment` | 56 | Exported Function
+`_initterm` | 57 | Exported Function
+`_invoke_watson` | 61 | Exported Function
+`_resetstkoflw` | 65 | Exported Function
+`_seh_filter_dll` | 66 | Exported Function
+`_seh_filter_exe` | 67 | Exported Function
+`_query_app_type` | 62 | Exported Function
+`_register_onexit_function` | 63 | Exported Function
+`_register_thread_local_exe_atexit_callback` | 64 | Exported Function
+`_strerror` | 81 | Exported Function
+`fetestexcept` | 98 | Exported Function
+`perror` | 99 | Exported Function
+`quick_exit` | 100 | Exported Function
+`fesetenv` | 95 | Exported Function
+`fesetexceptflag` | 96 | Exported Function
+`fesetround` | 97 | Exported Function
+`raise` | 101 | Exported Function
+`strerror_s` | 105 | Exported Function
+`system` | 106 | Exported Function
+`terminate` | 107 | Exported Function
+`set_terminate` | 102 | Exported Function
+`signal` | 103 | Exported Function
+`strerror` | 104 | Exported Function
+`_wcserror_s` | 85 | Exported Function
+`_wperror` | 86 | Exported Function
+`_wsystem` | 87 | Exported Function
+`_strerror_s` | 82 | Exported Function
+`_wassert` | 83 | Exported Function
+`_wcserror` | 84 | Exported Function
+`abort` | 88 | Exported Function
+`fegetexceptflag` | 92 | Exported Function
+`fegetround` | 93 | Exported Function
+`feholdexcept` | 94 | Exported Function
+`exit` | 89 | Exported Function
+`feclearexcept` | 90 | Exported Function
+`fegetenv` | 91 | Exported Function
+`_initialize_narrow_environment` | 54 | Exported Function
+`__wcserror` | 18 | Exported Function
+`__wcserror_s` | 19 | Exported Function
+`_assert` | 20 | Exported Function
+`__sys_nerr` | 15 | Exported Function
+`__threadhandle` | 16 | Exported Function
+`__threadid` | 17 | Exported Function
+`_beginthread` | 21 | Exported Function
+`_clearfp` | 25 | Exported Function
+`_configure_narrow_argv` | 26 | Exported Function
+`_configure_wide_argv` | 27 | Exported Function
+`_beginthreadex` | 22 | Exported Function
+`_c_exit` | 23 | Exported Function
+`_cexit` | 24 | Exported Function
+`__fpecode` | 5 | Exported Function
+`__p___argc` | 6 | Exported Function
+`__p___argv` | 7 | Exported Function
+`__control87_2` | 2 | Exported Function
+`__doserrno` | 3 | Exported Function
+`__fpe_flt_rounds` | 4 | Exported Function
+`__p___wargv` | 8 | Exported Function
+`__p__wpgmptr` | 12 | Exported Function
+`__pxcptinfoptrs` | 13 | Exported Function
+`__sys_errlist` | 14 | Exported Function
+`__p__acmdln` | 9 | Exported Function
+`__p__pgmptr` | 10 | Exported Function
+`__p__wcmdln` | 11 | Exported Function
+`_control87` | 28 | Exported Function
+`_get_initial_wide_environment` | 44 | Exported Function
+`_get_invalid_parameter_handler` | 45 | Exported Function
+`_get_narrow_winmain_command_line` | 46 | Exported Function
+`_get_doserrno` | 41 | Exported Function
+`_get_errno` | 42 | Exported Function
+`_get_initial_narrow_environment` | 43 | Exported Function
+`_get_pgmptr` | 47 | Exported Function
+`_get_wpgmptr` | 51 | Exported Function
+`_getdllprocaddr` | 52 | Exported Function
+`_getpid` | 53 | Exported Function
+`_get_terminate` | 48 | Exported Function
+`_get_thread_local_invalid_parameter_handler` | 49 | Exported Function
+`_get_wide_winmain_command_line` | 50 | Exported Function
+`_crt_atexit` | 32 | Exported Function
+`_crt_debugger_hook` | 33 | Exported Function
+`_endthread` | 34 | Exported Function
+`_controlfp` | 29 | Exported Function
+`_controlfp_s` | 30 | Exported Function
+`_crt_at_quick_exit` | 31 | Exported Function
+`_endthreadex` | 35 | Exported Function
+`_exit` | 38 | Exported Function
+`_fpieee_flt` | 39 | Exported Function
+`_fpreset` | 40 | Exported Function
+`_errno` | 36 | Exported Function
+`_execute_onexit_table` | 37 | Exported Function
+`_Exit` | 1 | Exported Function
 
 
 ## Signature

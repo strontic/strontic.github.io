@@ -24,16 +24,16 @@ PE256 | `AF5FF257041766864229DD0780AC6E39584EABE2900E50EDDACC047530FBB254`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FmtIdToPropStgName` | 1 (0x1) | Exported Function | ole32.FmtIdToPropStgName | 0x000010f5
-`FreePropVariantArray` | 2 (0x2) | Exported Function | ole32.FreePropVariantArray | 0x00001123
-`PropStgNameToFmtId` | 3 (0x3) | Exported Function | ole32.PropStgNameToFmtId | 0x00001151
-`PropVariantClear` | 4 (0x4) | Exported Function | ole32.PropVariantClear | 0x0000117b
-`PropVariantCopy` | 5 (0x5) | Exported Function | ole32.PropVariantCopy | 0x000011a2
-`StgCreatePropSetStg` | 6 (0x6) | Exported Function | ole32.StgCreatePropSetStg | 0x000011cc
-`StgCreatePropStg` | 7 (0x7) | Exported Function | ole32.StgCreatePropStg | 0x000011f7
-`StgOpenPropStg` | 8 (0x8) | Exported Function | ole32.StgOpenPropStg | 0x0000121d
+Function Name | Ordinal | Type
+-- | -- | --
+`StgCreatePropSetStg` | 6 | Exported Function
+`PropVariantCopy` | 5 | Exported Function
+`StgOpenPropStg` | 8 | Exported Function
+`StgCreatePropStg` | 7 | Exported Function
+`FreePropVariantArray` | 2 | Exported Function
+`FmtIdToPropStgName` | 1 | Exported Function
+`PropVariantClear` | 4 | Exported Function
+`PropStgNameToFmtId` | 3 | Exported Function
 
 
 ## Signature

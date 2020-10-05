@@ -24,15 +24,15 @@ PE256 | `DBEFE6D369B2E68CDE134816166CFEBA4499AE17DED2191187F6C3B660D4BCD1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`L2GPPolicyDataDelete` | 1 (0x1) | Exported Function | 0x0000000180001bd0 | 0x00001bd0
-`L2GPPolicyDataDeleteAll` | 2 (0x2) | Exported Function | 0x0000000180001c80 | 0x00001c80
-`L2GPPolicyDataRead` | 3 (0x3) | Exported Function | 0x00000001800019b0 | 0x000019b0
-`L2GPPolicyDataWrite` | 4 (0x4) | Exported Function | 0x0000000180001b10 | 0x00001b10
-`L2GPPolicyFreeMem` | 5 (0x5) | Exported Function | 0x0000000180001d20 | 0x00001d20
-`L2GPPolicyStoreClose` | 6 (0x6) | Exported Function | 0x0000000180001870 | 0x00001870
-`L2GPPolicyStoreOpen` | 7 (0x7) | Exported Function | 0x0000000180001520 | 0x00001520
+Function Name | Ordinal | Type
+-- | -- | --
+`L2GPPolicyFreeMem` | 5 | Exported Function
+`L2GPPolicyStoreClose` | 6 | Exported Function
+`L2GPPolicyStoreOpen` | 7 | Exported Function
+`L2GPPolicyDataWrite` | 4 | Exported Function
+`L2GPPolicyDataDelete` | 1 | Exported Function
+`L2GPPolicyDataDeleteAll` | 2 | Exported Function
+`L2GPPolicyDataRead` | 3 | Exported Function
 
 
 ## Signature

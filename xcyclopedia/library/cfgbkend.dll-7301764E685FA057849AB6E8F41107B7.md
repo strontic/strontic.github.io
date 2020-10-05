@@ -24,16 +24,16 @@ PE256 | `23034B6E854F069654A90EB9E2131316234B2350138E255757C3ED0468F6AC98`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CLSID_CfgComp` | 1 (0x1) | Exported Function | 0x02001c08 | 0x00001c08
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x02002900 | 0x00002900
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x02002920 | 0x00002920
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x02002930 | 0x00002930
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x02002990 | 0x00002990
-`IID_ICfgComp` | 6 (0x6) | Exported Function | 0x02001c38 | 0x00001c38
-`IID_ISettingsComp` | 7 (0x7) | Exported Function | 0x02001c28 | 0x00001c28
-`IID_ISettingsComp2` | 8 (0x8) | Exported Function | 0x02001c18 | 0x00001c18
+Function Name | Ordinal | Type
+-- | -- | --
+`IID_ICfgComp` | 6 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`IID_ISettingsComp2` | 8 | Exported Function
+`IID_ISettingsComp` | 7 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CLSID_CfgComp` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

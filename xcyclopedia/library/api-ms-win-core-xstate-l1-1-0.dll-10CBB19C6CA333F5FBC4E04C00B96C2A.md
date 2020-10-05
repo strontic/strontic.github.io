@@ -24,16 +24,16 @@ PE256 | `BB00037CAD2E25E2FF40986B6C472F16AFE242A70F04F74726218F01648A1449`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RtlCopyExtendedContext` | 1 (0x1) | Exported Function | ntdll.RtlCopyExtendedContext | 0x00001111
-`RtlGetEnabledExtendedFeatures` | 2 (0x2) | Exported Function | ntdll.RtlGetEnabledExtendedFeatures | 0x0000114c
-`RtlGetExtendedContextLength` | 3 (0x3) | Exported Function | ntdll.RtlGetExtendedContextLength | 0x0000118c
-`RtlGetExtendedFeaturesMask` | 4 (0x4) | Exported Function | ntdll.RtlGetExtendedFeaturesMask | 0x000011c9
-`RtlInitializeExtendedContext` | 5 (0x5) | Exported Function | ntdll.RtlInitializeExtendedContext | 0x00001207
-`RtlLocateExtendedFeature` | 6 (0x6) | Exported Function | ntdll.RtlLocateExtendedFeature | 0x00001243
-`RtlLocateLegacyContext` | 7 (0x7) | Exported Function | ntdll.RtlLocateLegacyContext | 0x00001279
-`RtlSetExtendedFeaturesMask` | 8 (0x8) | Exported Function | ntdll.RtlSetExtendedFeaturesMask | 0x000012b1
+Function Name | Ordinal | Type
+-- | -- | --
+`RtlLocateExtendedFeature` | 6 | Exported Function
+`RtlInitializeExtendedContext` | 5 | Exported Function
+`RtlSetExtendedFeaturesMask` | 8 | Exported Function
+`RtlLocateLegacyContext` | 7 | Exported Function
+`RtlGetEnabledExtendedFeatures` | 2 | Exported Function
+`RtlCopyExtendedContext` | 1 | Exported Function
+`RtlGetExtendedFeaturesMask` | 4 | Exported Function
+`RtlGetExtendedContextLength` | 3 | Exported Function
 
 
 ## Signature

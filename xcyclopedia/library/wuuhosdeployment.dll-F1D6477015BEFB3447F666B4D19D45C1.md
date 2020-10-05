@@ -24,13 +24,13 @@ PE256 | `CB5A5735E6D2453AC3C5201151F9AE7A1F94AB399F9C2793BC30FAD6583A9F13`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180004660 | 0x00004660
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x00000001800046b0 | 0x000046b0
-`DllMain` | 5 (0x5) | Exported Function | 0x0000000180004580 | 0x00004580
-`WUCreateExpressionEvaluator` | 1 (0x1) | Exported Function | 0x0000000180003e00 | 0x00003e00
-`WUCreateUpdateHandler` | 2 (0x2) | Exported Function | 0x0000000180003e60 | 0x00003e60
+Function Name | Ordinal | Type
+-- | -- | --
+`WUCreateExpressionEvaluator` | 1 | Exported Function
+`WUCreateUpdateHandler` | 2 | Exported Function
+`DllMain` | 5 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

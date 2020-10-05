@@ -24,11 +24,11 @@ PE256 | `0744C67C933B0EF89641DADF8933DEE3259F6DCD77A2A3265077BAF142723501`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DownlevelGetLocaleScripts` | 1 (0x1) | Exported Function | 0x10001370 | 0x00001370
-`DownlevelGetStringScripts` | 2 (0x2) | Exported Function | kernelbase.GetStringScripts | 0x00001dc4
-`DownlevelVerifyScripts` | 3 (0x3) | Exported Function | kernelbase.VerifyScripts | 0x00001df7
+Function Name | Ordinal | Type
+-- | -- | --
+`DownlevelVerifyScripts` | 3 | Exported Function
+`DownlevelGetStringScripts` | 2 | Exported Function
+`DownlevelGetLocaleScripts` | 1 | Exported Function
 
 
 ## Signature

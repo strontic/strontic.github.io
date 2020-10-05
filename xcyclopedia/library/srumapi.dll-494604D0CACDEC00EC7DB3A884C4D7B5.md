@@ -24,23 +24,23 @@ PE256 | `6BA305B5820323E9C8A139CEBC1498F2FABE4F776C04C1C7DFF3593E232C45FE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10003720 | 0x00003720
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x10003590 | 0x00003590
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x10005830 | 0x00005830
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x10005860 | 0x00005860
-`SruCreateCheckpoint` | 5 (0x5) | Exported Function | 0x10005e30 | 0x00005e30
-`SruCreateEnergyNotificationServer` | 6 (0x6) | Exported Function | 0x10005ef0 | 0x00005ef0
-`SruDeleteStatsByAppName` | 7 (0x7) | Exported Function | 0x10005fc0 | 0x00005fc0
-`SruFreeRecordSet` | 8 (0x8) | Exported Function | 0x100030e0 | 0x000030e0
-`SruQueryStats` | 9 (0x9) | Exported Function | 0x10006080 | 0x00006080
-`SruQueryStatsBySeqNumber` | 10 (0xa) | Exported Function | 0x100060b0 | 0x000060b0
-`SruQueryStatsEx` | 11 (0xb) | Exported Function | 0x10006170 | 0x00006170
-`SruRegisterRealTimeStats` | 12 (0xc) | Exported Function | 0x100037e0 | 0x000037e0
-`SruRetrieveEnergyRecord` | 13 (0xd) | Exported Function | 0x100062a0 | 0x000062a0
-`SruUnregisterRealTimeStats` | 14 (0xe) | Exported Function | 0x10003930 | 0x00003930
-`SruUpdateStats` | 15 (0xf) | Exported Function | 0x10006390 | 0x00006390
+Function Name | Ordinal | Type
+-- | -- | --
+`SruQueryStatsEx` | 11 | Exported Function
+`SruQueryStatsBySeqNumber` | 10 | Exported Function
+`SruQueryStats` | 9 | Exported Function
+`SruRegisterRealTimeStats` | 12 | Exported Function
+`SruUpdateStats` | 15 | Exported Function
+`SruUnregisterRealTimeStats` | 14 | Exported Function
+`SruRetrieveEnergyRecord` | 13 | Exported Function
+`SruFreeRecordSet` | 8 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`SruDeleteStatsByAppName` | 7 | Exported Function
+`SruCreateEnergyNotificationServer` | 6 | Exported Function
+`SruCreateCheckpoint` | 5 | Exported Function
 
 
 ## Signature

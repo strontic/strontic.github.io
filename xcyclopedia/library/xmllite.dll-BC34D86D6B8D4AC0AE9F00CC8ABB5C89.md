@@ -24,14 +24,14 @@ PE256 | `4B0D6730FE2D94052F1887FB28071AADA35DBBC1465CF479527F4C1E335568E0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateXmlReader` | 1 (0x1) | Exported Function | 0x000000018000a490 | 0x0000a490
-`CreateXmlReaderInputWithEncodingCodePage` | 2 (0x2) | Exported Function | 0x00000001800015a0 | 0x000015a0
-`CreateXmlReaderInputWithEncodingName` | 3 (0x3) | Exported Function | 0x000000018000d780 | 0x0000d780
-`CreateXmlWriter` | 4 (0x4) | Exported Function | 0x000000018000c460 | 0x0000c460
-`CreateXmlWriterOutputWithEncodingCodePage` | 5 (0x5) | Exported Function | 0x0000000180022070 | 0x00022070
-`CreateXmlWriterOutputWithEncodingName` | 6 (0x6) | Exported Function | 0x000000018000ee90 | 0x0000ee90
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateXmlWriter` | 4 | Exported Function
+`CreateXmlWriterOutputWithEncodingCodePage` | 5 | Exported Function
+`CreateXmlWriterOutputWithEncodingName` | 6 | Exported Function
+`CreateXmlReader` | 1 | Exported Function
+`CreateXmlReaderInputWithEncodingCodePage` | 2 | Exported Function
+`CreateXmlReaderInputWithEncodingName` | 3 | Exported Function
 
 
 ## Signature

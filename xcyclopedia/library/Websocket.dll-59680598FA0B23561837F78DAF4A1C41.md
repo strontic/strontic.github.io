@@ -24,21 +24,21 @@ PE256 | `E291DF3124C0863D6D44A4EFA6A5EC1BB4A70971B4FFA9C5EAD3CACCA5985C29`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WebSocketAbortHandle` | 1 (0x1) | Exported Function | 0x100019c0 | 0x000019c0
-`WebSocketBeginClientHandshake` | 2 (0x2) | Exported Function | 0x10001a40 | 0x00001a40
-`WebSocketBeginServerHandshake` | 3 (0x3) | Exported Function | 0x10001b00 | 0x00001b00
-`WebSocketCompleteAction` | 4 (0x4) | Exported Function | 0x10001cc0 | 0x00001cc0
-`WebSocketCreateClientHandle` | 5 (0x5) | Exported Function | 0x10001980 | 0x00001980
-`WebSocketCreateServerHandle` | 6 (0x6) | Exported Function | 0x100019a0 | 0x000019a0
-`WebSocketDeleteHandle` | 7 (0x7) | Exported Function | 0x10001a10 | 0x00001a10
-`WebSocketEndClientHandshake` | 8 (0x8) | Exported Function | 0x10001aa0 | 0x00001aa0
-`WebSocketEndServerHandshake` | 9 (0x9) | Exported Function | 0x10001b60 | 0x00001b60
-`WebSocketGetAction` | 10 (0xa) | Exported Function | 0x10001c70 | 0x00001c70
-`WebSocketGetGlobalProperty` | 11 (0xb) | Exported Function | 0x10001cf0 | 0x00001cf0
-`WebSocketReceive` | 12 (0xc) | Exported Function | 0x10001c10 | 0x00001c10
-`WebSocketSend` | 13 (0xd) | Exported Function | 0x10001bb0 | 0x00001bb0
+Function Name | Ordinal | Type
+-- | -- | --
+`WebSocketGetAction` | 10 | Exported Function
+`WebSocketEndServerHandshake` | 9 | Exported Function
+`WebSocketEndClientHandshake` | 8 | Exported Function
+`WebSocketSend` | 13 | Exported Function
+`WebSocketReceive` | 12 | Exported Function
+`WebSocketGetGlobalProperty` | 11 | Exported Function
+`WebSocketDeleteHandle` | 7 | Exported Function
+`WebSocketBeginServerHandshake` | 3 | Exported Function
+`WebSocketBeginClientHandshake` | 2 | Exported Function
+`WebSocketAbortHandle` | 1 | Exported Function
+`WebSocketCreateServerHandle` | 6 | Exported Function
+`WebSocketCreateClientHandle` | 5 | Exported Function
+`WebSocketCompleteAction` | 4 | Exported Function
 
 
 ## Signature

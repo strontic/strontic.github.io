@@ -24,25 +24,25 @@ PE256 | `E06AA9DD84D1EEE466E97A950442DF88F707877BC3516C36EDBD643197392D1B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetFileVersionInfoA` | 1 (0x1) | Exported Function | 0x52181500 | 0x00001500
-`VerLanguageNameW` | 15 (0xf) | Exported Function | KERNEL32.VerLanguageNameW | 0x00003887
-`VerLanguageNameA` | 14 (0xe) | Exported Function | KERNEL32.VerLanguageNameA | 0x0000385c
-`VerInstallFileW` | 13 (0xd) | Exported Function | 0x52182f70 | 0x00002f70
-`VerInstallFileA` | 12 (0xc) | Exported Function | 0x52181fd0 | 0x00001fd0
-`VerFindFileW` | 11 (0xb) | Exported Function | 0x521824a0 | 0x000024a0
-`VerFindFileA` | 10 (0xa) | Exported Function | 0x52181f90 | 0x00001f90
-`VerQueryValueA` | 16 (0x10) | Exported Function | 0x52181540 | 0x00001540
-`GetFileVersionInfoW` | 9 (0x9) | Exported Function | 0x521815e0 | 0x000015e0
-`GetFileVersionInfoSizeExW` | 7 (0x7) | Exported Function | 0x521815a0 | 0x000015a0
-`GetFileVersionInfoSizeExA` | 6 (0x6) | Exported Function | 0x52181f70 | 0x00001f70
-`GetFileVersionInfoSizeA` | 5 (0x5) | Exported Function | 0x52181520 | 0x00001520
-`GetFileVersionInfoExW` | 4 (0x4) | Exported Function | 0x52181580 | 0x00001580
-`GetFileVersionInfoExA` | 3 (0x3) | Exported Function | 0x52181f50 | 0x00001f50
-`GetFileVersionInfoByHandle` | 2 (0x2) | Exported Function | 0x52182310 | 0x00002310
-`GetFileVersionInfoSizeW` | 8 (0x8) | Exported Function | 0x521815c0 | 0x000015c0
-`VerQueryValueW` | 17 (0x11) | Exported Function | 0x52181560 | 0x00001560
+Function Name | Ordinal | Type
+-- | -- | --
+`VerInstallFileA` | 12 | Exported Function
+`VerInstallFileW` | 13 | Exported Function
+`VerFindFileA` | 10 | Exported Function
+`VerFindFileW` | 11 | Exported Function
+`VerQueryValueA` | 16 | Exported Function
+`VerQueryValueW` | 17 | Exported Function
+`VerLanguageNameA` | 14 | Exported Function
+`VerLanguageNameW` | 15 | Exported Function
+`GetFileVersionInfoW` | 9 | Exported Function
+`GetFileVersionInfoExA` | 3 | Exported Function
+`GetFileVersionInfoExW` | 4 | Exported Function
+`GetFileVersionInfoA` | 1 | Exported Function
+`GetFileVersionInfoByHandle` | 2 | Exported Function
+`GetFileVersionInfoSizeExW` | 7 | Exported Function
+`GetFileVersionInfoSizeW` | 8 | Exported Function
+`GetFileVersionInfoSizeA` | 5 | Exported Function
+`GetFileVersionInfoSizeExA` | 6 | Exported Function
 
 
 ## Signature

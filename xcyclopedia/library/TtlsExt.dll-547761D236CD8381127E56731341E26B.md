@@ -24,21 +24,21 @@ PE256 | `D1759834707FF3788DE27A7D30103B58595F3F5F59B3C30BB159E180F2F7DC00`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x10008990 | 0x00008990
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x100089b0 | 0x000089b0
-`DllRegisterServer` | 6 (0x6) | Exported Function | 0x100089c0 | 0x000089c0
-`DllUnregisterServer` | 7 (0x7) | Exported Function | 0x10008a20 | 0x00008a20
-`TtlsExt_EapPeerInvokeConfigUI` | 1 (0x1) | Exported Function | 0x1000d8e0 | 0x0000d8e0
-`TtlsExt_FreeMemoryExt` | 8 (0x8) | Exported Function | 0x10008a40 | 0x00008a40
-`TtlsExt_GetConfigCacheOnlyCertValidation` | 9 (0x9) | Exported Function | 0x10008850 | 0x00008850
-`TtlsExt_GetConfigForceNotDomainJoined` | 10 (0xa) | Exported Function | 0x10008850 | 0x00008850
-`TtlsExt_GetContextData` | 11 (0xb) | Exported Function | 0x10008df0 | 0x00008df0
-`TtlsExt_GetUserCredentials` | 12 (0xc) | Exported Function | 0x10008a50 | 0x00008a50
-`TtlsExt_InvokeNonEapMethodUI` | 2 (0x2) | Exported Function | 0x1000fcf0 | 0x0000fcf0
-`TtlsExt_InvokeServerAuthentication` | 3 (0x3) | Exported Function | 0x10008e00 | 0x00008e00
-`TtlsExt_ShowHelp` | 13 (0xd) | Exported Function | 0x10008850 | 0x00008850
+Function Name | Ordinal | Type
+-- | -- | --
+`TtlsExt_GetUserCredentials` | 12 | Exported Function
+`TtlsExt_GetContextData` | 11 | Exported Function
+`TtlsExt_GetConfigForceNotDomainJoined` | 10 | Exported Function
+`TtlsExt_ShowHelp` | 13 | Exported Function
+`TtlsExt_InvokeServerAuthentication` | 3 | Exported Function
+`TtlsExt_InvokeNonEapMethodUI` | 2 | Exported Function
+`TtlsExt_GetConfigCacheOnlyCertValidation` | 9 | Exported Function
+`DllRegisterServer` | 6 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`TtlsExt_FreeMemoryExt` | 8 | Exported Function
+`TtlsExt_EapPeerInvokeConfigUI` | 1 | Exported Function
+`DllUnregisterServer` | 7 | Exported Function
 
 
 ## Signature

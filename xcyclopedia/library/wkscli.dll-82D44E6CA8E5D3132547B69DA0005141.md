@@ -24,31 +24,31 @@ PE256 | `FE750C117C3734B1FF81DD4A05BAECEA2AAE0A0545D06B2ABE1D1E09B8620F4B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NetAddAlternateComputerName` | 1 (0x1) | Exported Function | 0x10004bd0 | 0x00004bd0
-`NetWkstaUserEnum` | 21 (0x15) | Exported Function | 0x10005ce0 | 0x00005ce0
-`NetWkstaTransportEnum` | 20 (0x14) | Exported Function | 0x10005bb0 | 0x00005bb0
-`NetWkstaTransportDel` | 19 (0x13) | Exported Function | 0x10005af0 | 0x00005af0
-`NetWkstaTransportAdd` | 18 (0x12) | Exported Function | 0x10005a30 | 0x00005a30
-`NetWkstaStatisticsGet` | 17 (0x11) | Exported Function | 0x10005940 | 0x00005940
-`NetWkstaSetInfo` | 16 (0x10) | Exported Function | 0x10005880 | 0x00005880
-`NetWkstaGetInfo` | 15 (0xf) | Exported Function | 0x10002ed0 | 0x00002ed0
-`NetValidateName` | 14 (0xe) | Exported Function | 0x10005710 | 0x00005710
-`NetUseGetInfo` | 13 (0xd) | Exported Function | 0x10005670 | 0x00005670
-`NetWkstaUserGetInfo` | 22 (0x16) | Exported Function | 0x10005e10 | 0x00005e10
-`NetUseEnum` | 12 (0xc) | Exported Function | 0x100030b0 | 0x000030b0
-`NetUseAdd` | 10 (0xa) | Exported Function | 0x10005510 | 0x00005510
-`NetUnjoinDomain` | 9 (0x9) | Exported Function | 0x10005410 | 0x00005410
-`NetSetPrimaryComputerName` | 8 (0x8) | Exported Function | 0x10005310 | 0x00005310
-`NetRenameMachineInDomain` | 7 (0x7) | Exported Function | 0x10005210 | 0x00005210
-`NetRemoveAlternateComputerName` | 6 (0x6) | Exported Function | 0x10005110 | 0x00005110
-`NetJoinDomain` | 5 (0x5) | Exported Function | 0x10004f90 | 0x00004f90
-`NetGetJoinInformation` | 3 (0x3) | Exported Function | 0x100031b0 | 0x000031b0
-`NetGetJoinableOUs` | 4 (0x4) | Exported Function | 0x10004e50 | 0x00004e50
-`NetEnumerateComputerNames` | 2 (0x2) | Exported Function | 0x10004cd0 | 0x00004cd0
-`NetUseDel` | 11 (0xb) | Exported Function | 0x10003330 | 0x00003330
-`NetWkstaUserSetInfo` | 23 (0x17) | Exported Function | 0x10005ee0 | 0x00005ee0
+Function Name | Ordinal | Type
+-- | -- | --
+`NetWkstaSetInfo` | 16 | Exported Function
+`NetWkstaStatisticsGet` | 17 | Exported Function
+`NetWkstaGetInfo` | 15 | Exported Function
+`NetUseGetInfo` | 13 | Exported Function
+`NetValidateName` | 14 | Exported Function
+`NetWkstaTransportAdd` | 18 | Exported Function
+`NetWkstaUserGetInfo` | 22 | Exported Function
+`NetWkstaUserSetInfo` | 23 | Exported Function
+`NetWkstaUserEnum` | 21 | Exported Function
+`NetWkstaTransportDel` | 19 | Exported Function
+`NetWkstaTransportEnum` | 20 | Exported Function
+`NetUseEnum` | 12 | Exported Function
+`NetGetJoinInformation` | 3 | Exported Function
+`NetJoinDomain` | 5 | Exported Function
+`NetGetJoinableOUs` | 4 | Exported Function
+`NetAddAlternateComputerName` | 1 | Exported Function
+`NetEnumerateComputerNames` | 2 | Exported Function
+`NetRemoveAlternateComputerName` | 6 | Exported Function
+`NetUseAdd` | 10 | Exported Function
+`NetUseDel` | 11 | Exported Function
+`NetUnjoinDomain` | 9 | Exported Function
+`NetRenameMachineInDomain` | 7 | Exported Function
+`NetSetPrimaryComputerName` | 8 | Exported Function
 
 
 ## Signature

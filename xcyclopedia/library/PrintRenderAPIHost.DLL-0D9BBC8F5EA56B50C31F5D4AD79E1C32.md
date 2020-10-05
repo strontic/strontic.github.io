@@ -24,12 +24,12 @@ PE256 | `7DC7E29E94DC4164B6881A14E5E0567470511BAA2FC2E6051E53E9BCA6AE00B8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreatePDFFactory` | 1 (0x1) | Exported Function | 0x000000018001de60 | 0x0001de60
-`CreateXPSToPDFConverter` | 2 (0x2) | Exported Function | 0x00000001800072a0 | 0x000072a0
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180006120 | 0x00006120
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180006180 | 0x00006180
+Function Name | Ordinal | Type
+-- | -- | --
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`CreatePDFFactory` | 1 | Exported Function
+`CreateXPSToPDFConverter` | 2 | Exported Function
 
 
 ## Signature

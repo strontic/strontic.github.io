@@ -24,19 +24,19 @@ PE256 | `0933BB3F360EAEEC4DFB316EC6D9F55B127E13F2AFCA1D3D387DB48860DB9031`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 255 (0xff) | Exported Function | 0x100026a0 | 0x000026a0
-`DllGetClassObject` | 256 (0x100) | Exported Function | 0x100026e0 | 0x000026e0
-`DllRegisterServer` | 257 (0x101) | Exported Function | 0x10002720 | 0x00002720
-`DllUnregisterServer` | 258 (0x102) | Exported Function | 0x10002740 | 0x00002740
-`OleCreateFontIndirect` | 253 (0xfd) | Exported Function | 0x100024e0 | 0x000024e0
-`OleCreatePictureIndirect` | 252 (0xfc) | Exported Function | 0x10002510 | 0x00002510
-`OleCreatePropertyFrame` | 250 (0xfa) | Exported Function | 0x10002570 | 0x00002570
-`OleCreatePropertyFrameIndirect` | 249 (0xf9) | Exported Function | 0x100025c0 | 0x000025c0
-`OleIconToCursor` | 248 (0xf8) | Exported Function | 0x100025f0 | 0x000025f0
-`OleLoadPicture` | 251 (0xfb) | Exported Function | 0x10002540 | 0x00002540
-`OleTranslateColor` | 254 (0xfe) | Exported Function | 0x100024b0 | 0x000024b0
+Function Name | Ordinal | Type
+-- | -- | --
+`OleCreatePropertyFrameIndirect` | 249 | Exported Function
+`OleCreatePropertyFrame` | 250 | Exported Function
+`OleIconToCursor` | 248 | Exported Function
+`OleTranslateColor` | 254 | Exported Function
+`OleLoadPicture` | 251 | Exported Function
+`OleCreatePictureIndirect` | 252 | Exported Function
+`DllGetClassObject` | 256 | Exported Function
+`DllCanUnloadNow` | 255 | Exported Function
+`DllRegisterServer` | 257 | Exported Function
+`OleCreateFontIndirect` | 253 | Exported Function
+`DllUnregisterServer` | 258 | Exported Function
 
 
 ## Signature

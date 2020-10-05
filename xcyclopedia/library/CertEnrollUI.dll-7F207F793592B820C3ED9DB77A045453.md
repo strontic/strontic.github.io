@@ -24,9 +24,9 @@ PE256 | `D7E9F0E7F4E57FB8D0237B37D0A13F40ADC8A9E8992F26669F49E1682A3958B6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateUIObject` | 200 (0xc8) | Exported Function | 0x10020200 | 0x00020200
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateUIObject` | 200 | Exported Function
 
 
 ## Signature

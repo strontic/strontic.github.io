@@ -24,19 +24,19 @@ PE256 | `1AA6923A057C9358C1D896B36451C44280BAEF558428EFF20C7F30B8090D834E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x66192830 | 0x00012830
-`DllGetClassObject` | 10 (0xa) | Exported Function | 0x661927c0 | 0x000127c0
-`DllRegisterServer` | 11 (0xb) | Exported Function | 0x66192880 | 0x00012880
-`public: __int64 __thiscall CDMNodeObj::GetLdmObjectId(void)` | 3 (0x3) | Exported Function | 0x66188bf0 | 0x00008bf0
-`public: class CString __thiscall CDataCache::GetServerName(void)` | 7 (0x7) | Exported Function | 0x66188c70 | 0x00008c70
-`public: class CWnd * __thiscall CTaskData::GetOcxFrameCWndPtr(void)` | 5 (0x5) | Exported Function | 0x66188ce0 | 0x00008ce0
-`public: unsigned long __thiscall CDataCache::GetDiskCount(void)` | 2 (0x2) | Exported Function | 0x66188c20 | 0x00008c20
-`public: unsigned long __thiscall CDataCache::GetVolumeCount(void)` | 8 (0x8) | Exported Function | 0x66188c30 | 0x00008c30
-`public: unsigned long __thiscall CDMNodeObj::GetNumMembers(void)` | 4 (0x4) | Exported Function | 0x66188c10 | 0x00008c10
-`public: void __thiscall CDataCache::AddLDMObjMapEntry(struct _LDM_OBJ_MAP_ENTRY *)` | 1 (0x1) | Exported Function | 0x66188c40 | 0x00008c40
-`public: void __thiscall CTaskData::GetRegionColorStructPtr(struct _REGION_COLORS * *,int &)` | 6 (0x6) | Exported Function | 0x66188cf0 | 0x00008cf0
+Function Name | Ordinal | Type
+-- | -- | --
+`public: unsigned long __thiscall CDataCache::GetVolumeCount(void)` | 8 | Exported Function
+`public: unsigned long __thiscall CDataCache::GetDiskCount(void)` | 2 | Exported Function
+`public: unsigned long __thiscall CDMNodeObj::GetNumMembers(void)` | 4 | Exported Function
+`public: void __thiscall CTaskData::GetRegionColorStructPtr(struct _REGION_COLORS * *,int &)` | 6 | Exported Function
+`public: void __thiscall CDataCache::AddLDMObjMapEntry(struct _LDM_OBJ_MAP_ENTRY *)` | 1 | Exported Function
+`public: class CWnd * __thiscall CTaskData::GetOcxFrameCWndPtr(void)` | 5 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`DllRegisterServer` | 11 | Exported Function
+`public: class CString __thiscall CDataCache::GetServerName(void)` | 7 | Exported Function
+`public: __int64 __thiscall CDMNodeObj::GetLdmObjectId(void)` | 3 | Exported Function
 
 
 ## Signature

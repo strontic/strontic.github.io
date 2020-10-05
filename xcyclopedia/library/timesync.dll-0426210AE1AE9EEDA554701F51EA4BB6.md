@@ -24,13 +24,13 @@ PE256 | `7BA49D31ED31A6A49AF3C5AEBB1DA2F194F0E0B5761093965990102653D9991E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FreeTimeStatusInfo` | 1 (0x1) | Exported Function | 0x00000001800042b0 | 0x000042b0
-`GetTimeStatusInfo` | 2 (0x2) | Exported Function | 0x00000001800041e0 | 0x000041e0
-`SetNTPSync` | 3 (0x3) | Exported Function | 0x0000000180004090 | 0x00004090
-`StartTimeService` | 4 (0x4) | Exported Function | 0x00000001800038b0 | 0x000038b0
-`SyncW32Time` | 5 (0x5) | Exported Function | 0x0000000180003d10 | 0x00003d10
+Function Name | Ordinal | Type
+-- | -- | --
+`StartTimeService` | 4 | Exported Function
+`SyncW32Time` | 5 | Exported Function
+`SetNTPSync` | 3 | Exported Function
+`FreeTimeStatusInfo` | 1 | Exported Function
+`GetTimeStatusInfo` | 2 | Exported Function
 
 
 ## Signature

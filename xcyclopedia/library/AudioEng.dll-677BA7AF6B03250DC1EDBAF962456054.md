@@ -24,14 +24,14 @@ PE256 | `E149434DCFAC4BFE274FA958BA653F56E5D7B6196F991AAAE20FC9A1A6472725`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AERT_Allocate` | 1 (0x1) | Exported Function | 0x0000000180040b70 | 0x00040b70
-`AERT_Free` | 2 (0x2) | Exported Function | 0x0000000180040bc0 | 0x00040bc0
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180040bf0 | 0x00040bf0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180019090 | 0x00019090
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x0000000180040c50 | 0x00040c50
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x0000000180040c60 | 0x00040c60
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 4 | Exported Function
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`AERT_Allocate` | 1 | Exported Function
+`AERT_Free` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

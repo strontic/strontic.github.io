@@ -24,11 +24,11 @@ PE256 | `58EFF9D15467D5B78B2B48391F0CE9B8D148806C056A3E63601459D137BB5248`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RmRpsInitialize` | 1 (0x1) | Exported Function | 0x00000001800033b0 | 0x000033b0
-`RmRpsNotifyApplicationInterruptiveUIChange` | 2 (0x2) | Exported Function | 0x0000000180003500 | 0x00003500
-`RmRpsQueryResourceSetInfo` | 3 (0x3) | Exported Function | 0x00000001800035a0 | 0x000035a0
+Function Name | Ordinal | Type
+-- | -- | --
+`RmRpsQueryResourceSetInfo` | 3 | Exported Function
+`RmRpsNotifyApplicationInterruptiveUIChange` | 2 | Exported Function
+`RmRpsInitialize` | 1 | Exported Function
 
 
 ## Signature

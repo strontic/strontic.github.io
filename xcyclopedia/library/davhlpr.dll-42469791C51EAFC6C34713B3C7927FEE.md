@@ -24,21 +24,21 @@ PE256 | `09F2880265203819EF0705B0D16B4DB814BF3F03266F238D4B9ADC4F09FAB379`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DavAddConnection` | 1 (0x1) | Exported Function | 0x0000000180001fa0 | 0x00001fa0
-`DavCheckAndConvertHttpUrlToUncName` | 2 (0x2) | Exported Function | 0x0000000180002800 | 0x00002800
-`DavDeleteConnection` | 3 (0x3) | Exported Function | 0x00000001800029e0 | 0x000029e0
-`DavFlushFile` | 4 (0x4) | Exported Function | 0x0000000180002a60 | 0x00002a60
-`DavGetExtendedError` | 5 (0x5) | Exported Function | 0x0000000180002ad0 | 0x00002ad0
-`DavGetHTTPFromUNCPath` | 6 (0x6) | Exported Function | 0x0000000180002cf0 | 0x00002cf0
-`DavGetUNCFromHTTPPath` | 7 (0x7) | Exported Function | 0x0000000180002f40 | 0x00002f40
-`DavParseUncServerName` | 8 (0x8) | Exported Function | 0x00000001800032d0 | 0x000032d0
-`DavRemoveDummyShareFromFileName` | 9 (0x9) | Exported Function | 0x0000000180003410 | 0x00003410
-`DavRemoveDummyShareFromFileNameEx` | 10 (0xa) | Exported Function | 0x0000000180003420 | 0x00003420
-`DavUrlDecodeToNtPath` | 11 (0xb) | Exported Function | 0x0000000180004b30 | 0x00004b30
-`DavUrlDecodeUtf8` | 12 (0xc) | Exported Function | 0x00000001800048d0 | 0x000048d0
-`DavUrlEncodeNtPath` | 13 (0xd) | Exported Function | 0x0000000180004cc0 | 0x00004cc0
+Function Name | Ordinal | Type
+-- | -- | --
+`DavRemoveDummyShareFromFileNameEx` | 10 | Exported Function
+`DavRemoveDummyShareFromFileName` | 9 | Exported Function
+`DavParseUncServerName` | 8 | Exported Function
+`DavUrlEncodeNtPath` | 13 | Exported Function
+`DavUrlDecodeUtf8` | 12 | Exported Function
+`DavUrlDecodeToNtPath` | 11 | Exported Function
+`DavGetUNCFromHTTPPath` | 7 | Exported Function
+`DavDeleteConnection` | 3 | Exported Function
+`DavCheckAndConvertHttpUrlToUncName` | 2 | Exported Function
+`DavAddConnection` | 1 | Exported Function
+`DavGetHTTPFromUNCPath` | 6 | Exported Function
+`DavGetExtendedError` | 5 | Exported Function
+`DavFlushFile` | 4 | Exported Function
 
 
 ## Signature

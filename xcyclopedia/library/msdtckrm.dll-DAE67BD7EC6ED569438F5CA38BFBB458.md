@@ -24,10 +24,10 @@ PE256 | `170E11BA724A055782FF4552618AE511E4AE46028D5589EFFE919DDCA10C9E77`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`KtmRmServiceMain` | 4 (0x4) | Exported Function | 0x0000000180017d30 | 0x00017d30
-`SvchostPushServiceGlobals` | 5 (0x5) | Exported Function | 0x0000000180017fc0 | 0x00017fc0
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 5 | Exported Function
+`KtmRmServiceMain` | 4 | Exported Function
 
 
 ## Signature

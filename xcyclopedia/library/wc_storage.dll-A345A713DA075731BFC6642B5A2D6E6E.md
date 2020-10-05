@@ -24,17 +24,17 @@ PE256 | `00E2EA44A1969D9AB244C75F305FAAD6C08F141CC182E272FEF812BD5270715D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WcAttachFilterEx` | 1 (0x1) | Exported Function | 0x0000000180018520 | 0x00018520
-`WcCreateSandboxStubFiles` | 2 (0x2) | Exported Function | 0x0000000180018d80 | 0x00018d80
-`WcDestroyLayer` | 3 (0x3) | Exported Function | 0x0000000180017d50 | 0x00017d50
-`WcDetachFilterEx` | 4 (0x4) | Exported Function | 0x0000000180018710 | 0x00018710
-`WcExportLayerEx` | 5 (0x5) | Exported Function | 0x0000000180015c40 | 0x00015c40
-`WcImportLayerEx` | 6 (0x6) | Exported Function | 0x0000000180016c70 | 0x00016c70
-`WcInitializeSandbox` | 7 (0x7) | Exported Function | 0x0000000180017ec0 | 0x00017ec0
-`WcInitializeSandboxEx` | 8 (0x8) | Exported Function | 0x0000000180018010 | 0x00018010
-`WcPopulateNewLayer` | 9 (0x9) | Exported Function | 0x0000000180018880 | 0x00018880
+Function Name | Ordinal | Type
+-- | -- | --
+`WcInitializeSandbox` | 7 | Exported Function
+`WcImportLayerEx` | 6 | Exported Function
+`WcPopulateNewLayer` | 9 | Exported Function
+`WcInitializeSandboxEx` | 8 | Exported Function
+`WcExportLayerEx` | 5 | Exported Function
+`WcCreateSandboxStubFiles` | 2 | Exported Function
+`WcAttachFilterEx` | 1 | Exported Function
+`WcDetachFilterEx` | 4 | Exported Function
+`WcDestroyLayer` | 3 | Exported Function
 
 
 ## Signature

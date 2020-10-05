@@ -24,12 +24,12 @@ PE256 | `2D7971810B2958E4EAB66177F477A68C2C5C794FE736CB5A0EDCE88E2C397101`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 2 (0x2) | Exported Function | 0x10005aa0 | 0x00005aa0
-`DllUnregisterServer` | 3 (0x3) | Exported Function | 0x10005b70 | 0x00005b70
-`NSPCleanup` | 1 (0x1) | Exported Function | 0x100058f0 | 0x000058f0
-`NSPStartup` | 4 (0x4) | Exported Function | 0x10005940 | 0x00005940
+Function Name | Ordinal | Type
+-- | -- | --
+`NSPCleanup` | 1 | Exported Function
+`NSPStartup` | 4 | Exported Function
+`DllRegisterServer` | 2 | Exported Function
+`DllUnregisterServer` | 3 | Exported Function
 
 
 ## Signature

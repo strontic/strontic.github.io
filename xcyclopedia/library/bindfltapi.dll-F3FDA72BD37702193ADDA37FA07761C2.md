@@ -24,17 +24,17 @@ PE256 | `26956D46AA891FBA28F1B8E3C8D55B3F107232BAD7B88206FF6F5EA5D3545898`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BfAttachFilter` | 1 (0x1) | Exported Function | 0x000000018000e720 | 0x0000e720
-`BfGenerateBatchedConfig` | 2 (0x2) | Exported Function | 0x0000000180001450 | 0x00001450
-`BfGetMappings` | 3 (0x3) | Exported Function | 0x0000000180001a60 | 0x00001a60
-`BfRemoveMapping` | 4 (0x4) | Exported Function | 0x000000018000f000 | 0x0000f000
-`BfRemoveMappingEx` | 5 (0x5) | Exported Function | 0x0000000180001440 | 0x00001440
-`BfSetupFilter` | 6 (0x6) | Exported Function | 0x000000018000ec70 | 0x0000ec70
-`BfSetupFilterBatched` | 7 (0x7) | Exported Function | 0x0000000180001770 | 0x00001770
-`BfSetupFilterEx` | 8 (0x8) | Exported Function | 0x0000000180001430 | 0x00001430
-`BfTrackWritesFromSilo` | 9 (0x9) | Exported Function | 0x0000000180001dc0 | 0x00001dc0
+Function Name | Ordinal | Type
+-- | -- | --
+`BfSetupFilterBatched` | 7 | Exported Function
+`BfSetupFilter` | 6 | Exported Function
+`BfTrackWritesFromSilo` | 9 | Exported Function
+`BfSetupFilterEx` | 8 | Exported Function
+`BfRemoveMappingEx` | 5 | Exported Function
+`BfGenerateBatchedConfig` | 2 | Exported Function
+`BfAttachFilter` | 1 | Exported Function
+`BfRemoveMapping` | 4 | Exported Function
+`BfGetMappings` | 3 | Exported Function
 
 
 ## Signature

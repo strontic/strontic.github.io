@@ -24,12 +24,12 @@ PE256 | `7CAC3A0EAF755AA24FA8C8884C4F3722B75B6901C70E57DA433A7A25DE470905`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateManifestDocumentFromDocument` | 2 (0x2) | Exported Function | 0x0000000180017b80 | 0x00017b80
-`CreateManifestDocumentFromFile` | 3 (0x3) | Exported Function | 0x0000000180017d00 | 0x00017d00
-`CreateManifestDocumentFromXML` | 4 (0x4) | Exported Function | 0x0000000180017f20 | 0x00017f20
-`GetManifestSelectionNamespaces` | 1 (0x1) | Exported Function | 0x0000000180017b70 | 0x00017b70
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateManifestDocumentFromXML` | 4 | Exported Function
+`GetManifestSelectionNamespaces` | 1 | Exported Function
+`CreateManifestDocumentFromDocument` | 2 | Exported Function
+`CreateManifestDocumentFromFile` | 3 | Exported Function
 
 
 ## Signature

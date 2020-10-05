@@ -23,9 +23,9 @@ PE256 | `5CA692286B9BAD514E58A840A00AB883FB839A16356322FC4808A852FB8FB8F1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`s_RequestHrtfData` | 1 (0x1) | Exported Function | 0x10006d90 | 0x00006d90
+Function Name | Ordinal | Type
+-- | -- | --
+`s_RequestHrtfData` | 1 | Exported Function
 
 
 ## Signature

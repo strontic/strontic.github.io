@@ -24,30 +24,30 @@ PE256 | `EA0ACF4BBA4F57124233E98E9FCCD34042B905BBC39B6DA8AED4353FB71943DD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NetApiBufferAllocate` | 1 (0x1) | Exported Function | 0x10001800 | 0x00001800
-`NetpwPathCompare` | 21 (0x15) | Exported Function | 0x10005200 | 0x00005200
-`NetpwPathCanonicalize` | 20 (0x14) | Exported Function | 0x100019f0 | 0x000019f0
-`NetpwNameValidate` | 19 (0x13) | Exported Function | 0x100027f0 | 0x000027f0
-`NetpwNameCompare` | 18 (0x12) | Exported Function | 0x100024d0 | 0x000024d0
-`NetpwNameCanonicalize` | 17 (0x11) | Exported Function | 0x10002590 | 0x00002590
-`NetpwListTraverse` | 16 (0x10) | Exported Function | 0x10004fb0 | 0x00004fb0
-`NetpwListCanonicalize` | 15 (0xf) | Exported Function | 0x10004af0 | 0x00004af0
-`NetpIsUserNameValid` | 14 (0xe) | Exported Function | 0x10002390 | 0x00002390
-`NetpIsUncComputerNameValid` | 13 (0xd) | Exported Function | 0x100051c0 | 0x000051c0
-`NetpIsShareNameValid` | 12 (0xc) | Exported Function | 0x10005160 | 0x00005160
-`NetpIsRemoteNameValid` | 11 (0xb) | Exported Function | 0x100050b0 | 0x000050b0
-`NetpIsRemote` | 10 (0xa) | Exported Function | 0x10002920 | 0x00002920
-`NetpIsGroupNameValid` | 9 (0x9) | Exported Function | 0x10005050 | 0x00005050
-`NetpIsDomainNameValid` | 8 (0x8) | Exported Function | 0x10002430 | 0x00002430
-`NetpIsComputerNameValid` | 7 (0x7) | Exported Function | 0x10004ff0 | 0x00004ff0
-`NetapipBufferAllocate` | 6 (0x6) | Exported Function | 0x100019e0 | 0x000019e0
-`NetApiBufferSize` | 4 (0x4) | Exported Function | 0x100049c0 | 0x000049c0
-`NetApiBufferReallocate` | 3 (0x3) | Exported Function | 0x10004970 | 0x00004970
-`NetApiBufferFree` | 2 (0x2) | Exported Function | 0x10001840 | 0x00001840
-`NetpwPathType` | 22 (0x16) | Exported Function | 0x10001c90 | 0x00001c90
-`NetRemoteComputerSupports` | 5 (0x5) | Exported Function | 0x10001870 | 0x00001870
+Function Name | Ordinal | Type
+-- | -- | --
+`NetpwListTraverse` | 16 | Exported Function
+`NetpwNameCanonicalize` | 17 | Exported Function
+`NetpwListCanonicalize` | 15 | Exported Function
+`NetpIsUncComputerNameValid` | 13 | Exported Function
+`NetpIsUserNameValid` | 14 | Exported Function
+`NetpwNameCompare` | 18 | Exported Function
+`NetpwPathType` | 22 | Exported Function
+`NetRemoteComputerSupports` | 5 | Exported Function
+`NetpwPathCompare` | 21 | Exported Function
+`NetpwNameValidate` | 19 | Exported Function
+`NetpwPathCanonicalize` | 20 | Exported Function
+`NetApiBufferSize` | 4 | Exported Function
+`NetapipBufferAllocate` | 6 | Exported Function
+`NetApiBufferReallocate` | 3 | Exported Function
+`NetApiBufferAllocate` | 1 | Exported Function
+`NetApiBufferFree` | 2 | Exported Function
+`NetpIsComputerNameValid` | 7 | Exported Function
+`NetpIsRemoteNameValid` | 11 | Exported Function
+`NetpIsShareNameValid` | 12 | Exported Function
+`NetpIsRemote` | 10 | Exported Function
+`NetpIsDomainNameValid` | 8 | Exported Function
+`NetpIsGroupNameValid` | 9 | Exported Function
 
 
 ## Signature

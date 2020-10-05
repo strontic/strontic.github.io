@@ -24,12 +24,12 @@ PE256 | `A35BF4A34219D34798CCAE10F9EC42A6C59CE8D171EE677A94CD2CA8EBA11430`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateCmtStoreObject` | 1 (0x1) | Exported Function | 0x1001fcc0 | 0x0001fcc0
-`CreateParserObject` | 2 (0x2) | Exported Function | 0x10023eb0 | 0x00023eb0
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x10018c70 | 0x00018c70
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x10018c90 | 0x00018c90
+Function Name | Ordinal | Type
+-- | -- | --
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`CreateCmtStoreObject` | 1 | Exported Function
+`CreateParserObject` | 2 | Exported Function
 
 
 ## Signature

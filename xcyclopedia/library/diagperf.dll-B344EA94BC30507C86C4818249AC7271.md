@@ -24,15 +24,15 @@ PE256 | `8E5B8436569B2C84940C0B1D2CE39A5D4A054088D7B20D2D5C8DCA8FBEC6CCEF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x0000000100e5c0b0 | 0x0005c0b0
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x0000000100e36e40 | 0x00036e40
-`DllRegisterServer` | 3 (0x3) | Exported Function | 0x0000000100e3bbc0 | 0x0003bbc0
-`DllUnregisterServer` | 4 (0x4) | Exported Function | 0x0000000100e3bbc0 | 0x0003bbc0
-`WdiDiagnosticModuleMain` | 5 (0x5) | Exported Function | 0x0000000100e0ab80 | 0x0000ab80
-`WdiGetDiagnosticModuleInterfaceVersion` | 6 (0x6) | Exported Function | 0x0000000100e3bb70 | 0x0003bb70
-`WdiHandleInstance` | 7 (0x7) | Exported Function | 0x0000000100e0a1b0 | 0x0000a1b0
+Function Name | Ordinal | Type
+-- | -- | --
+`WdiDiagnosticModuleMain` | 5 | Exported Function
+`WdiGetDiagnosticModuleInterfaceVersion` | 6 | Exported Function
+`WdiHandleInstance` | 7 | Exported Function
+`DllUnregisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
+`DllRegisterServer` | 3 | Exported Function
 
 
 ## Signature

@@ -24,16 +24,16 @@ PE256 | `0FA53F9D50890C3982D10E7D21568B392EC80F7DD9427511B7FBFCDBFBC02392`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CollectDiagnosticsAutoLog` | 1 (0x1) | Exported Function | 0x0000000180004de0 | 0x00004de0
-`GatherAutoLogEventsFromMobile` | 2 (0x2) | Exported Function | 0x0000000180004d40 | 0x00004d40
-`RecordDiagnosticsError` | 3 (0x3) | Exported Function | 0x0000000180004db0 | 0x00004db0
-`SetupAutoLog` | 4 (0x4) | Exported Function | 0x0000000180004700 | 0x00004700
-`SetupAutoLogWithTraceLevel` | 5 (0x5) | Exported Function | 0x0000000180004750 | 0x00004750
-`StartAutoLog` | 6 (0x6) | Exported Function | 0x0000000180004960 | 0x00004960
-`StopAutoLog` | 7 (0x7) | Exported Function | 0x0000000180004990 | 0x00004990
-`TearDownAutoLog` | 8 (0x8) | Exported Function | 0x00000001800049a0 | 0x000049a0
+Function Name | Ordinal | Type
+-- | -- | --
+`StartAutoLog` | 6 | Exported Function
+`SetupAutoLogWithTraceLevel` | 5 | Exported Function
+`TearDownAutoLog` | 8 | Exported Function
+`StopAutoLog` | 7 | Exported Function
+`GatherAutoLogEventsFromMobile` | 2 | Exported Function
+`CollectDiagnosticsAutoLog` | 1 | Exported Function
+`SetupAutoLog` | 4 | Exported Function
+`RecordDiagnosticsError` | 3 | Exported Function
 
 
 ## Signature

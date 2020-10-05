@@ -24,9 +24,9 @@ PE256 | `747D6F0051ACC8B056D99CE4F45313B5702AA459D9203671856923142742FA3F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`InitializeCollector` | 1 (0x1) | Exported Function | 0x0000000180017ac0 | 0x00017ac0
+Function Name | Ordinal | Type
+-- | -- | --
+`InitializeCollector` | 1 | Exported Function
 
 
 ## Signature

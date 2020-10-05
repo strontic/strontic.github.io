@@ -24,11 +24,11 @@ PE256 | `F2EDE832A32D937E6D6E9E75D175F909C5ABCE85F17E7DD0BFBB62981C8A4D26`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 2 (0x2) | Exported Function | 0x00000001800010e0 | 0x000010e0
-`EnhancedStoragePasswordConfig` | 3 (0x3) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`EnhancedStoragePasswordInitDisk` | 1 (0x1) | Exported Function | 0x0000000180001430 | 0x00001430
+Function Name | Ordinal | Type
+-- | -- | --
+`EnhancedStoragePasswordInitDisk` | 1 | Exported Function
+`EnhancedStoragePasswordConfig` | 3 | Exported Function
+`DllMain` | 2 | Exported Function
 
 
 ## Signature

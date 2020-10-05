@@ -24,34 +24,34 @@ PE256 | `CE5584E117DFD221C48CA2857CF605B02B79E6E99FE9BC6F96962454D28B8DD2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ActivatePolicyManager` | 3 (0x3) | Exported Function | 0x0000000180005980 | 0x00005980
-`TS_SessionChanged` | 2 (0x2) | Exported Function | 0x0000000180029410 | 0x00029410
-`TS_RegisterAudioProtocolNotification` | 24 (0x18) | Exported Function | 0x0000000180029980 | 0x00029980
-`TS_AudioProtocolNotifyRundown` | 23 (0x17) | Exported Function | 0x0000000180029a40 | 0x00029a40
-`PbmUnregisterPlaybackManagerNotifications` | 22 (0x16) | Exported Function | 0x0000000180022590 | 0x00022590
-`PbmUnregisterAppManagerNotification` | 21 (0x15) | Exported Function | 0x0000000180022b50 | 0x00022b50
-`PbmUnregisterAppClosureNotification` | 20 (0x14) | Exported Function | 0x0000000180022c90 | 0x00022c90
-`PbmSwitchSoftNonInteractiveAppsToHardNonInteractive` | 19 (0x13) | Exported Function | 0x0000000180022280 | 0x00022280
-`PbmSetSmtcSubscriptionState` | 18 (0x12) | Exported Function | 0x00000001800226c0 | 0x000226c0
-`PbmSetScreenReaderState` | 17 (0x11) | Exported Function | 0x00000001800231e0 | 0x000231e0
-`PbmReportHostedAppStateChange` | 16 (0x10) | Exported Function | 0x00000001800222d0 | 0x000222d0
-`PbmReportApplicationState` | 15 (0xf) | Exported Function | 0x0000000180023330 | 0x00023330
-`PbmReportAppInteractivityChange` | 14 (0xe) | Exported Function | 0x0000000180022200 | 0x00022200
-`PbmReportAppClosing` | 13 (0xd) | Exported Function | 0x0000000180022360 | 0x00022360
-`PbmRegisterPlaybackManagerNotifications` | 12 (0xc) | Exported Function | 0x00000001800224d0 | 0x000224d0
-`PbmRegisterAppManagerNotification` | 11 (0xb) | Exported Function | 0x0000000180022ab0 | 0x00022ab0
-`PbmRegisterAppClosureNotification` | 10 (0xa) | Exported Function | 0x0000000180022bf0 | 0x00022bf0
-`PbmPlayToStreamStateChanged` | 9 (0x9) | Exported Function | 0x0000000180022d70 | 0x00022d70
-`PbmLaunchBackgroundTask` | 8 (0x8) | Exported Function | 0x0000000180023410 | 0x00023410
-`PbmIsPlaying` | 7 (0x7) | Exported Function | 0x0000000180022990 | 0x00022990
-`PbmGetSoundLevel` | 6 (0x6) | Exported Function | 0x0000000180022850 | 0x00022850
-`PbmCastingAppStateChanged` | 5 (0x5) | Exported Function | 0x0000000180022ec0 | 0x00022ec0
-`PbmAllowMediaPlaybackForApp` | 4 (0x4) | Exported Function | 0x00000001800223d0 | 0x000223d0
-`HHOSTEDAPPMANAGERCONTEXTRundown` | 1 (0x1) | Exported Function | 0x0000000180023070 | 0x00023070
-`TS_SessionGetAudioProtocol` | 25 (0x19) | Exported Function | 0x00000001800298d0 | 0x000298d0
-`TS_UnregisterAudioProtocolNotification` | 26 (0x1a) | Exported Function | 0x00000001800299e0 | 0x000299e0
+Function Name | Ordinal | Type
+-- | -- | --
+`PbmSetSmtcSubscriptionState` | 18 | Exported Function
+`PbmSwitchSoftNonInteractiveAppsToHardNonInteractive` | 19 | Exported Function
+`PbmUnregisterAppClosureNotification` | 20 | Exported Function
+`PbmReportApplicationState` | 15 | Exported Function
+`PbmReportHostedAppStateChange` | 16 | Exported Function
+`PbmSetScreenReaderState` | 17 | Exported Function
+`PbmUnregisterAppManagerNotification` | 21 | Exported Function
+`TS_SessionChanged` | 2 | Exported Function
+`TS_SessionGetAudioProtocol` | 25 | Exported Function
+`TS_UnregisterAudioProtocolNotification` | 26 | Exported Function
+`PbmUnregisterPlaybackManagerNotifications` | 22 | Exported Function
+`TS_AudioProtocolNotifyRundown` | 23 | Exported Function
+`TS_RegisterAudioProtocolNotification` | 24 | Exported Function
+`PbmCastingAppStateChanged` | 5 | Exported Function
+`PbmGetSoundLevel` | 6 | Exported Function
+`PbmIsPlaying` | 7 | Exported Function
+`ActivatePolicyManager` | 3 | Exported Function
+`HHOSTEDAPPMANAGERCONTEXTRundown` | 1 | Exported Function
+`PbmAllowMediaPlaybackForApp` | 4 | Exported Function
+`PbmLaunchBackgroundTask` | 8 | Exported Function
+`PbmRegisterPlaybackManagerNotifications` | 12 | Exported Function
+`PbmReportAppClosing` | 13 | Exported Function
+`PbmReportAppInteractivityChange` | 14 | Exported Function
+`PbmPlayToStreamStateChanged` | 9 | Exported Function
+`PbmRegisterAppClosureNotification` | 10 | Exported Function
+`PbmRegisterAppManagerNotification` | 11 | Exported Function
 
 
 ## Signature

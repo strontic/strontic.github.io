@@ -24,23 +24,23 @@ PE256 | `F13181902660AA9EE3B0297D615C328B7EABC6FA8DCA3D839885E1068640A963`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GlobalAlloc` | 1 (0x1) | Exported Function | kernel32.GlobalAlloc | 0x00001213
-`GlobalFlags` | 2 (0x2) | Exported Function | kernel32.GlobalFlags | 0x00001234
-`GlobalFree` | 3 (0x3) | Exported Function | kernel32.GlobalFree | 0x00001254
-`GlobalHandle` | 4 (0x4) | Exported Function | kernel32.GlobalHandle | 0x00001275
-`GlobalLock` | 5 (0x5) | Exported Function | kernel32.GlobalLock | 0x00001296
-`GlobalReAlloc` | 6 (0x6) | Exported Function | kernel32.GlobalReAlloc | 0x000012b8
-`GlobalSize` | 7 (0x7) | Exported Function | kernel32.GlobalSize | 0x000012da
-`GlobalUnlock` | 8 (0x8) | Exported Function | kernel32.GlobalUnlock | 0x000012fb
-`LocalAlloc` | 9 (0x9) | Exported Function | kernel32.LocalAlloc | 0x0000131c
-`LocalFlags` | 10 (0xa) | Exported Function | kernel32.LocalFlags | 0x0000133b
-`LocalFree` | 11 (0xb) | Exported Function | kernel32.LocalFree | 0x00001359
-`LocalLock` | 12 (0xc) | Exported Function | kernel32.LocalLock | 0x00001376
-`LocalReAlloc` | 13 (0xd) | Exported Function | kernel32.LocalReAlloc | 0x00001396
-`LocalSize` | 14 (0xe) | Exported Function | kernel32.LocalSize | 0x000013b6
-`LocalUnlock` | 15 (0xf) | Exported Function | kernel32.LocalUnlock | 0x000013d5
+Function Name | Ordinal | Type
+-- | -- | --
+`LocalFree` | 11 | Exported Function
+`LocalFlags` | 10 | Exported Function
+`LocalAlloc` | 9 | Exported Function
+`LocalLock` | 12 | Exported Function
+`LocalUnlock` | 15 | Exported Function
+`LocalSize` | 14 | Exported Function
+`LocalReAlloc` | 13 | Exported Function
+`GlobalUnlock` | 8 | Exported Function
+`GlobalFree` | 3 | Exported Function
+`GlobalFlags` | 2 | Exported Function
+`GlobalAlloc` | 1 | Exported Function
+`GlobalHandle` | 4 | Exported Function
+`GlobalSize` | 7 | Exported Function
+`GlobalReAlloc` | 6 | Exported Function
+`GlobalLock` | 5 | Exported Function
 
 
 ## Signature

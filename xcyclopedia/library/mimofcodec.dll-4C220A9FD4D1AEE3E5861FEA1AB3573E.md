@@ -24,16 +24,16 @@ PE256 | `360AE02E8CEA12CD93554AF3FA6A9E82F95CC95AE0161027B743E8629FA153A0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MI_Application_NewDeserializer_Mof` | 1 (0x1) | Exported Function | 0x0000000180002590 | 0x00002590
-`MI_Application_NewSerializer_Mof` | 2 (0x2) | Exported Function | 0x0000000180004370 | 0x00004370
-`MI_MOFParser_Delete` | 3 (0x3) | Exported Function | 0x0000000180001ca0 | 0x00001ca0
-`MI_MOFParser_Init` | 4 (0x4) | Exported Function | 0x0000000180001cb0 | 0x00001cb0
-`MI_MOFParser_Lex` | 5 (0x5) | Exported Function | 0x0000000180001d10 | 0x00001d10
-`MI_MOFParser_Parse` | 6 (0x6) | Exported Function | 0x0000000180001d20 | 0x00001d20
-`NITS_PRESENCE_STUB` | 7 (0x7) | Exported Function | 0x00000001800274a0 | 0x000274a0
-`NITS_STUB` | 8 (0x8) | Exported Function | 0x0000000180015140 | 0x00015140
+Function Name | Ordinal | Type
+-- | -- | --
+`MI_MOFParser_Parse` | 6 | Exported Function
+`MI_MOFParser_Lex` | 5 | Exported Function
+`NITS_STUB` | 8 | Exported Function
+`NITS_PRESENCE_STUB` | 7 | Exported Function
+`MI_Application_NewSerializer_Mof` | 2 | Exported Function
+`MI_Application_NewDeserializer_Mof` | 1 | Exported Function
+`MI_MOFParser_Init` | 4 | Exported Function
+`MI_MOFParser_Delete` | 3 | Exported Function
 
 
 ## Signature

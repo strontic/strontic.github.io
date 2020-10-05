@@ -24,18 +24,18 @@ PE256 | `37F7FC082821F4F64D3D2AC52E7BACC10579D93162F75C7103D01E1505547EFA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetAsymmetricEncryptionInterface` | 1 (0x1) | Exported Function | 0x1000e660 | 0x0000e660
-`GetCipherInterface` | 2 (0x2) | Exported Function | 0x100269b0 | 0x000269b0
-`GetHashInterface` | 3 (0x3) | Exported Function | 0x10013100 | 0x00013100
-`GetKeyDerivationInterface` | 4 (0x4) | Exported Function | 0x1002e950 | 0x0002e950
-`GetRngInterface` | 5 (0x5) | Exported Function | 0x10026ee0 | 0x00026ee0
-`GetSecretAgreementInterface` | 6 (0x6) | Exported Function | 0x10028880 | 0x00028880
-`GetSignatureInterface` | 7 (0x7) | Exported Function | 0x10026d40 | 0x00026d40
-`MSCryptConvertRsaPrivateBlobToFullRsaBlob` | 8 (0x8) | Exported Function | 0x1002a1c0 | 0x0002a1c0
-`ProcessPrng` | 9 (0x9) | Exported Function | 0x10018f60 | 0x00018f60
-`ProcessPrngGuid` | 10 (0xa) | Exported Function | 0x10039bd0 | 0x00039bd0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetSignatureInterface` | 7 | Exported Function
+`GetSecretAgreementInterface` | 6 | Exported Function
+`MSCryptConvertRsaPrivateBlobToFullRsaBlob` | 8 | Exported Function
+`ProcessPrngGuid` | 10 | Exported Function
+`ProcessPrng` | 9 | Exported Function
+`GetCipherInterface` | 2 | Exported Function
+`GetAsymmetricEncryptionInterface` | 1 | Exported Function
+`GetHashInterface` | 3 | Exported Function
+`GetRngInterface` | 5 | Exported Function
+`GetKeyDerivationInterface` | 4 | Exported Function
 
 
 ## Signature

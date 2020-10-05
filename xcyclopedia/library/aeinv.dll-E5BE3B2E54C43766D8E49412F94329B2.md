@@ -24,17 +24,17 @@ PE256 | `B8043540D1EB38721C63462B36593A7C8A3804AAE7416CA96A4381C6345522EB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateAppxPackageInventory` | 1 (0x1) | Exported Function | 0x000000018003db40 | 0x0003db40
-`CreateAppxPackageInventoryExtracted` | 2 (0x2) | Exported Function | 0x000000018003dea0 | 0x0003dea0
-`CreateSoftwareInventory` | 3 (0x3) | Exported Function | 0x000000018003e2e0 | 0x0003e2e0
-`GetAppInfo` | 4 (0x4) | Exported Function | 0x0000000180009020 | 0x00009020
-`GetAppInventory` | 5 (0x5) | Exported Function | 0x000000018003f490 | 0x0003f490
-`GetCachedAppInventory` | 6 (0x6) | Exported Function | 0x0000000180009f30 | 0x00009f30
-`GetDetailedAppInventory` | 7 (0x7) | Exported Function | 0x0000000180040e90 | 0x00040e90
-`GetDetailedAppInventoryFile` | 8 (0x8) | Exported Function | 0x0000000180042380 | 0x00042380
-`UpdateSoftwareInventoryW` | 9 (0x9) | Exported Function | 0x0000000180043610 | 0x00043610
+Function Name | Ordinal | Type
+-- | -- | --
+`GetDetailedAppInventory` | 7 | Exported Function
+`GetCachedAppInventory` | 6 | Exported Function
+`UpdateSoftwareInventoryW` | 9 | Exported Function
+`GetDetailedAppInventoryFile` | 8 | Exported Function
+`GetAppInventory` | 5 | Exported Function
+`CreateAppxPackageInventoryExtracted` | 2 | Exported Function
+`CreateAppxPackageInventory` | 1 | Exported Function
+`GetAppInfo` | 4 | Exported Function
+`CreateSoftwareInventory` | 3 | Exported Function
 
 
 ## Signature

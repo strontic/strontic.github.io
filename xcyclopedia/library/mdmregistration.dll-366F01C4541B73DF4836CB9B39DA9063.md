@@ -24,21 +24,21 @@ PE256 | `386C6CA70C4B734BD5F841A5BCA2891875537D7D353BEC260C86B2EDCD4F1F9D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DiscoverManagementService` | 3 (0x3) | Exported Function | 0x1001b620 | 0x0001b620
-`DiscoverManagementServiceEx` | 4 (0x4) | Exported Function | 0x1001b320 | 0x0001b320
-`FindDiscoveryService` | 2 (0x2) | Exported Function | 0x1001dcb0 | 0x0001dcb0
-`GetDeviceRegistrationInfo` | 5 (0x5) | Exported Function | 0x1001bc80 | 0x0001bc80
-`GetManagementAppHyperlink` | 6 (0x6) | Exported Function | 0x1001bff0 | 0x0001bff0
-`IsDeviceRegisteredWithManagement` | 7 (0x7) | Exported Function | 0x1001be70 | 0x0001be70
-`IsManagementRegistrationAllowed` | 8 (0x8) | Exported Function | 0x10017c60 | 0x00017c60
-`IsMdmUxWithoutAadAllowed` | 9 (0x9) | Exported Function | 0x10017c70 | 0x00017c70
-`RegisterDeviceWithManagement` | 10 (0xa) | Exported Function | 0x1001b640 | 0x0001b640
-`RegisterDeviceWithManagementUsingAADCredentials` | 11 (0xb) | Exported Function | 0x1001b910 | 0x0001b910
-`RegisterDeviceWithManagementUsingAADDeviceCredentials` | 12 (0xc) | Exported Function | 0x1001b930 | 0x0001b930
-`SetManagedExternally` | 13 (0xd) | Exported Function | 0x1001b310 | 0x0001b310
-`UnregisterDeviceWithManagement` | 14 (0xe) | Exported Function | 0x1001b950 | 0x0001b950
+Function Name | Ordinal | Type
+-- | -- | --
+`RegisterDeviceWithManagementUsingAADCredentials` | 11 | Exported Function
+`RegisterDeviceWithManagement` | 10 | Exported Function
+`IsMdmUxWithoutAadAllowed` | 9 | Exported Function
+`UnregisterDeviceWithManagement` | 14 | Exported Function
+`SetManagedExternally` | 13 | Exported Function
+`RegisterDeviceWithManagementUsingAADDeviceCredentials` | 12 | Exported Function
+`IsManagementRegistrationAllowed` | 8 | Exported Function
+`FindDiscoveryService` | 2 | Exported Function
+`DiscoverManagementServiceEx` | 4 | Exported Function
+`DiscoverManagementService` | 3 | Exported Function
+`IsDeviceRegisteredWithManagement` | 7 | Exported Function
+`GetManagementAppHyperlink` | 6 | Exported Function
+`GetDeviceRegistrationInfo` | 5 | Exported Function
 
 
 ## Signature

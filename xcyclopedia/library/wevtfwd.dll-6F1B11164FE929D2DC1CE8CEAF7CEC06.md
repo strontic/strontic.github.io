@@ -24,13 +24,13 @@ PE256 | `A18257E4C2F52E57E8A6EE567E70907A183952785BEBA7648989252D003B8EFD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WSManPluginShutdown` | 1 (0x1) | Exported Function | 0x100040a0 | 0x000040a0
-`WSManPluginStartup` | 2 (0x2) | Exported Function | 0x10003f30 | 0x00003f30
-`WSManProvPullEvents` | 3 (0x3) | Exported Function | 0x10004320 | 0x00004320
-`WSManProvSubscribe` | 4 (0x4) | Exported Function | 0x100040f0 | 0x000040f0
-`WSManProvUnsubscribe` | 5 (0x5) | Exported Function | 0x10004270 | 0x00004270
+Function Name | Ordinal | Type
+-- | -- | --
+`WSManProvSubscribe` | 4 | Exported Function
+`WSManProvUnsubscribe` | 5 | Exported Function
+`WSManProvPullEvents` | 3 | Exported Function
+`WSManPluginShutdown` | 1 | Exported Function
+`WSManPluginStartup` | 2 | Exported Function
 
 
 ## Signature

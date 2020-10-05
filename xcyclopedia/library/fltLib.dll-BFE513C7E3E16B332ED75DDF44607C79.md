@@ -24,37 +24,37 @@ PE256 | `261A20663D78F277DC58B89966158A7590F77D783DEE69062F72CC33F27E1C22`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FilterAttach` | 1 (0x1) | Exported Function | 0x10001ce0 | 0x00001ce0
-`FilterVolumeInstanceFindClose` | 27 (0x1b) | Exported Function | 0x10001920 | 0x00001920
-`FilterVolumeFindNext` | 26 (0x1a) | Exported Function | 0x10002040 | 0x00002040
-`FilterVolumeFindFirst` | 25 (0x19) | Exported Function | 0x10002080 | 0x00002080
-`FilterVolumeFindClose` | 24 (0x18) | Exported Function | 0x10001920 | 0x00001920
-`FilterVolumeClose` | 23 (0x17) | Exported Function | 0x10001920 | 0x00001920
-`FilterUnload` | 22 (0x16) | Exported Function | 0x10001690 | 0x00001690
-`FilterSendMessage` | 21 (0x15) | Exported Function | 0x100024d0 | 0x000024d0
-`FilterReplyMessage` | 20 (0x14) | Exported Function | 0x10002530 | 0x00002530
-`FilterLoad` | 19 (0x13) | Exported Function | 0x10001560 | 0x00001560
-`FilterInstanceGetInformation` | 18 (0x12) | Exported Function | 0x100022c0 | 0x000022c0
-`FilterInstanceFindNext` | 17 (0x11) | Exported Function | 0x10002040 | 0x00002040
-`FilterInstanceFindFirst` | 16 (0x10) | Exported Function | 0x10002180 | 0x00002180
-`FilterVolumeInstanceFindFirst` | 28 (0x1c) | Exported Function | 0x10002220 | 0x00002220
-`FilterInstanceFindClose` | 15 (0xf) | Exported Function | 0x10001920 | 0x00001920
-`FilterInstanceClose` | 13 (0xd) | Exported Function | 0x10001920 | 0x00001920
-`FilterGetMessage` | 12 (0xc) | Exported Function | 0x10002500 | 0x00002500
-`FilterGetInformation` | 11 (0xb) | Exported Function | 0x100022c0 | 0x000022c0
-`FilterGetDosName` | 10 (0xa) | Exported Function | 0x10002560 | 0x00002560
-`FilterFindNext` | 9 (0x9) | Exported Function | 0x10002040 | 0x00002040
-`FilterFindFirst` | 8 (0x8) | Exported Function | 0x10001f40 | 0x00001f40
-`FilterFindClose` | 7 (0x7) | Exported Function | 0x10001920 | 0x00001920
-`FilterDetach` | 6 (0x6) | Exported Function | 0x10001d40 | 0x00001d40
-`FilterCreate` | 5 (0x5) | Exported Function | 0x100017c0 | 0x000017c0
-`FilterConnectCommunicationPort` | 4 (0x4) | Exported Function | 0x10002300 | 0x00002300
-`FilterClose` | 3 (0x3) | Exported Function | 0x10001920 | 0x00001920
-`FilterAttachAtAltitude` | 2 (0x2) | Exported Function | 0x10001d10 | 0x00001d10
-`FilterInstanceCreate` | 14 (0xe) | Exported Function | 0x10001960 | 0x00001960
-`FilterVolumeInstanceFindNext` | 29 (0x1d) | Exported Function | 0x10002040 | 0x00002040
+Function Name | Ordinal | Type
+-- | -- | --
+`FilterReplyMessage` | 20 | Exported Function
+`FilterSendMessage` | 21 | Exported Function
+`FilterUnload` | 22 | Exported Function
+`FilterLoad` | 19 | Exported Function
+`FilterInstanceFindFirst` | 16 | Exported Function
+`FilterInstanceFindNext` | 17 | Exported Function
+`FilterInstanceGetInformation` | 18 | Exported Function
+`FilterVolumeInstanceFindClose` | 27 | Exported Function
+`FilterVolumeInstanceFindFirst` | 28 | Exported Function
+`FilterVolumeInstanceFindNext` | 29 | Exported Function
+`FilterVolumeFindNext` | 26 | Exported Function
+`FilterVolumeClose` | 23 | Exported Function
+`FilterVolumeFindClose` | 24 | Exported Function
+`FilterVolumeFindFirst` | 25 | Exported Function
+`FilterInstanceFindClose` | 15 | Exported Function
+`FilterCreate` | 5 | Exported Function
+`FilterDetach` | 6 | Exported Function
+`FilterFindClose` | 7 | Exported Function
+`FilterConnectCommunicationPort` | 4 | Exported Function
+`FilterAttach` | 1 | Exported Function
+`FilterAttachAtAltitude` | 2 | Exported Function
+`FilterClose` | 3 | Exported Function
+`FilterGetMessage` | 12 | Exported Function
+`FilterInstanceClose` | 13 | Exported Function
+`FilterInstanceCreate` | 14 | Exported Function
+`FilterGetInformation` | 11 | Exported Function
+`FilterFindFirst` | 8 | Exported Function
+`FilterFindNext` | 9 | Exported Function
+`FilterGetDosName` | 10 | Exported Function
 
 
 ## Signature
@@ -86,6 +86,7 @@ Function Name | Ordinal | Type | Address | Relative Address
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 32
+[C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\Smart Tag\SmartTagInstall.exe](SmartTagInstall.exe-632AB2DBE46DE1E9BB0FB7B54B3BB05C.md) | 29
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 35
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 29
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 35

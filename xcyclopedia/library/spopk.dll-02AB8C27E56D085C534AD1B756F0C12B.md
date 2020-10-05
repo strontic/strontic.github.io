@@ -24,13 +24,13 @@ PE256 | `4A9E3788DD70BAD20D9B9BF1CB833C76B8029811B4467226F147BCDD732C6506`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Sysprep_Clean_Opk` | 1 (0x1) | Exported Function | 0x10005310 | 0x00005310
-`Sysprep_Clean_Validate_Opk` | 2 (0x2) | Exported Function | 0x10006090 | 0x00006090
-`Sysprep_Generalize_Opk` | 3 (0x3) | Exported Function | 0x100050a0 | 0x000050a0
-`Sysprep_Offline_Specialize_Opk` | 4 (0x4) | Exported Function | 0x10005770 | 0x00005770
-`Sysprep_Online_Specialize_Opk` | 5 (0x5) | Exported Function | 0x10006020 | 0x00006020
+Function Name | Ordinal | Type
+-- | -- | --
+`Sysprep_Offline_Specialize_Opk` | 4 | Exported Function
+`Sysprep_Online_Specialize_Opk` | 5 | Exported Function
+`Sysprep_Generalize_Opk` | 3 | Exported Function
+`Sysprep_Clean_Opk` | 1 | Exported Function
+`Sysprep_Clean_Validate_Opk` | 2 | Exported Function
 
 
 ## Signature

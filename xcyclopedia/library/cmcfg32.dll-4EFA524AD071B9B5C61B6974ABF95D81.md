@@ -24,12 +24,12 @@ PE256 | `766E4277B655F2A75ADB71F0EFE4B0C4A12CC25402F3A984E525451F12172F30`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CMConfig` | 3 (0x3) | Exported Function | 0x0000000180001010 | 0x00001010
-`CMConfigEx` | 4 (0x4) | Exported Function | 0x0000000180001010 | 0x00001010
-`CmstpExtensionProc` | 2 (0x2) | Exported Function | 0x0000000180003b60 | 0x00003b60
-`CmstpExtensionProc2` | 1 (0x1) | Exported Function | 0x00000001800031f0 | 0x000031f0
+Function Name | Ordinal | Type
+-- | -- | --
+`CmstpExtensionProc` | 2 | Exported Function
+`CmstpExtensionProc2` | 1 | Exported Function
+`CMConfig` | 3 | Exported Function
+`CMConfigEx` | 4 | Exported Function
 
 
 ## Signature

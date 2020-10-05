@@ -24,10 +24,10 @@ PE256 | `563F41FD2E18D17AC68B9F6BFD40BF29EFE909140D0B6E1358000F625926EC85`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 2 (0x2) | Exported Function | 0x00000001800010f0 | 0x000010f0
-`PeerDistTransportStartup` | 1 (0x1) | Exported Function | 0x0000000180005fa0 | 0x00005fa0
+Function Name | Ordinal | Type
+-- | -- | --
+`PeerDistTransportStartup` | 1 | Exported Function
+`DllMain` | 2 | Exported Function
 
 
 ## Signature

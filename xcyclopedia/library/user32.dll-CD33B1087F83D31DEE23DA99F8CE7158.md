@@ -24,1172 +24,1012 @@ PE256 | `72553A73CFD8CFC755EF455386E79927ADBEB95657BC5B74A5B0FAC7E81FF087`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_UserTestTokenForInteractive` | 2499 (0x9c3) | Exported Function | 0x0000000180081470 | 0x00081470
-`Ordinal2610` | 2610 (0xa32) | Exported Function | 0x0000000180033740 | 0x00033740
-`Ordinal2609` | 2609 (0xa31) | Exported Function | 0x0000000180033c40 | 0x00033c40
-`Ordinal2608` | 2608 (0xa30) | Exported Function | 0x00000001800342e0 | 0x000342e0
-`Ordinal2606` | 2606 (0xa2e) | Exported Function | 0x00000001800339d0 | 0x000339d0
-`Ordinal2600` | 2600 (0xa28) | Exported Function | 0x0000000180001cc0 | 0x00001cc0
-`Ordinal2599` | 2599 (0xa27) | Exported Function | 0x0000000180026850 | 0x00026850
-`Ordinal2611` | 2611 (0xa33) | Exported Function | 0x0000000180033a10 | 0x00033a10
-`Ordinal2598` | 2598 (0xa26) | Exported Function | 0x0000000180050df0 | 0x00050df0
-`Ordinal2595` | 2595 (0xa23) | Exported Function | 0x0000000180034880 | 0x00034880
-`Ordinal2594` | 2594 (0xa22) | Exported Function | 0x00000001800347d0 | 0x000347d0
-`Ordinal2593` | 2593 (0xa21) | Exported Function | 0x00000001800340c0 | 0x000340c0
-`Ordinal2592` | 2592 (0xa20) | Exported Function | 0x00000001800347c0 | 0x000347c0
-`Ordinal2591` | 2591 (0xa1f) | Exported Function | 0x00000001800345f0 | 0x000345f0
-`Ordinal2590` | 2590 (0xa1e) | Exported Function | 0x0000000180033c20 | 0x00033c20
-`Ordinal2597` | 2597 (0xa25) | Exported Function | 0x000000018002a0e0 | 0x0002a0e0
-`Ordinal2589` | 2589 (0xa1d) | Exported Function | 0x0000000180033c30 | 0x00033c30
-`Ordinal2612` | 2612 (0xa34) | Exported Function | 0x000000018002b960 | 0x0002b960
-`Ordinal2614` | 2614 (0xa36) | Exported Function | 0x0000000180033e40 | 0x00033e40
-`Ordinal2631` | 2631 (0xa47) | Exported Function | 0x0000000180033a00 | 0x00033a00
-`Ordinal2630` | 2630 (0xa46) | Exported Function | 0x0000000180033f40 | 0x00033f40
-`Ordinal2629` | 2629 (0xa45) | Exported Function | 0x0000000180033830 | 0x00033830
-`Ordinal2628` | 2628 (0xa44) | Exported Function | 0x00000001800337e0 | 0x000337e0
-`Ordinal2627` | 2627 (0xa43) | Exported Function | 0x0000000180034640 | 0x00034640
-`Ordinal2626` | 2626 (0xa42) | Exported Function | 0x00000001800345a0 | 0x000345a0
-`Ordinal2613` | 2613 (0xa35) | Exported Function | 0x0000000180023d10 | 0x00023d10
-`Ordinal2622` | 2622 (0xa3e) | Exported Function | 0x00000001800348f0 | 0x000348f0
-`Ordinal2620` | 2620 (0xa3c) | Exported Function | 0x000000018008cf70 | 0x0008cf70
-`Ordinal2619` | 2619 (0xa3b) | Exported Function | 0x000000018002c5a0 | 0x0002c5a0
-`Ordinal2618` | 2618 (0xa3a) | Exported Function | 0x000000018008d1e0 | 0x0008d1e0
-`Ordinal2617` | 2617 (0xa39) | Exported Function | 0x0000000180034140 | 0x00034140
-`Ordinal2616` | 2616 (0xa38) | Exported Function | 0x0000000180033630 | 0x00033630
-`Ordinal2615` | 2615 (0xa37) | Exported Function | 0x00000001800339c0 | 0x000339c0
-`Ordinal2621` | 2621 (0xa3d) | Exported Function | 0x0000000180033770 | 0x00033770
-`Ordinal2632` | 2632 (0xa48) | Exported Function | 0x0000000180034960 | 0x00034960
-`Ordinal2588` | 2588 (0xa1c) | Exported Function | 0x0000000180033600 | 0x00033600
-`Ordinal2586` | 2586 (0xa1a) | Exported Function | 0x00000001800347b0 | 0x000347b0
-`Ordinal2564` | 2564 (0xa04) | Exported Function | 0x000000018002cbf0 | 0x0002cbf0
-`Ordinal2563` | 2563 (0xa03) | Exported Function | 0x00000001800336f0 | 0x000336f0
-`Ordinal2561` | 2561 (0xa01) | Exported Function | 0x000000018002cbd0 | 0x0002cbd0
-`Ordinal2560` | 2560 (0xa00) | Exported Function | 0x000000018004ff40 | 0x0004ff40
-`Ordinal2559` | 2559 (0x9ff) | Exported Function | 0x0000000180033ce0 | 0x00033ce0
-`Ordinal2558` | 2558 (0x9fe) | Exported Function | 0x0000000180029db0 | 0x00029db0
-`Ordinal2565` | 2565 (0xa05) | Exported Function | 0x000000018002c2a0 | 0x0002c2a0
-`Ordinal2557` | 2557 (0x9fd) | Exported Function | 0x000000018002b020 | 0x0002b020
-`Ordinal2555` | 2555 (0x9fb) | Exported Function | 0x000000018008f140 | 0x0008f140
-`Ordinal2554` | 2554 (0x9fa) | Exported Function | 0x0000000180088450 | 0x00088450
-`Ordinal2553` | 2553 (0x9f9) | Exported Function | 0x00000001800889d0 | 0x000889d0
-`Ordinal2552` | 2552 (0x9f8) | Exported Function | 0x00000001800884e0 | 0x000884e0
-`Ordinal2550` | 2550 (0x9f6) | Exported Function | 0x0000000180033730 | 0x00033730
-`Ordinal2549` | 2549 (0x9f5) | Exported Function | 0x0000000180034870 | 0x00034870
-`Ordinal2556` | 2556 (0x9fc) | Exported Function | 0x0000000180034600 | 0x00034600
-`Ordinal2587` | 2587 (0xa1b) | Exported Function | 0x0000000180022290 | 0x00022290
-`Ordinal2566` | 2566 (0xa06) | Exported Function | 0x0000000180034910 | 0x00034910
-`Ordinal2568` | 2568 (0xa08) | Exported Function | 0x000000018002c740 | 0x0002c740
-`Ordinal2585` | 2585 (0xa19) | Exported Function | 0x0000000180034b00 | 0x00034b00
-`Ordinal2584` | 2584 (0xa18) | Exported Function | 0x0000000180087e10 | 0x00087e10
-`Ordinal2582` | 2582 (0xa16) | Exported Function | 0x0000000180027020 | 0x00027020
-`Ordinal2581` | 2581 (0xa15) | Exported Function | 0x000000018002c1f0 | 0x0002c1f0
-`Ordinal2579` | 2579 (0xa13) | Exported Function | 0x0000000180034990 | 0x00034990
-`Ordinal2578` | 2578 (0xa12) | Exported Function | 0x0000000180034250 | 0x00034250
-`Ordinal2567` | 2567 (0xa07) | Exported Function | 0x000000018002cd00 | 0x0002cd00
-`Ordinal2577` | 2577 (0xa11) | Exported Function | 0x000000018002cae0 | 0x0002cae0
-`Ordinal2575` | 2575 (0xa0f) | Exported Function | 0x0000000180087ea0 | 0x00087ea0
-`Ordinal2574` | 2574 (0xa0e) | Exported Function | 0x0000000180010d80 | 0x00010d80
-`Ordinal2573` | 2573 (0xa0d) | Exported Function | 0x00000001800144b0 | 0x000144b0
-`Ordinal2572` | 2572 (0xa0c) | Exported Function | 0x0000000180021ba0 | 0x00021ba0
-`Ordinal2570` | 2570 (0xa0a) | Exported Function | 0x00000001800886d0 | 0x000886d0
-`Ordinal2569` | 2569 (0xa09) | Exported Function | 0x00000001800273b0 | 0x000273b0
-`Ordinal2576` | 2576 (0xa10) | Exported Function | 0x00000001800346c0 | 0x000346c0
-`Ordinal2633` | 2633 (0xa49) | Exported Function | 0x00000001800337c0 | 0x000337c0
-`Ordinal2634` | 2634 (0xa4a) | Exported Function | 0x0000000180088620 | 0x00088620
-`Ordinal2635` | 2635 (0xa4b) | Exported Function | 0x0000000180010320 | 0x00010320
-`PostMessageW` | 2194 (0x892) | Exported Function | 0x0000000180021040 | 0x00021040
-`PostMessageA` | 2193 (0x891) | Exported Function | 0x00000001800297b0 | 0x000297b0
-`PhysicalToLogicalPointForPerMonitorDPI` | 2192 (0x890) | Exported Function | 0x00000001800342c0 | 0x000342c0
-`PhysicalToLogicalPoint` | 2191 (0x88f) | Exported Function | 0x00000001800342b0 | 0x000342b0
-`PeekMessageW` | 2190 (0x88e) | Exported Function | 0x000000018000a3e0 | 0x0000a3e0
-`PeekMessageA` | 2189 (0x88d) | Exported Function | 0x0000000180009980 | 0x00009980
-`PostQuitMessage` | 2195 (0x893) | Exported Function | 0x000000018002b8e0 | 0x0002b8e0
-`PaintMonitor` | 2188 (0x88c) | Exported Function | 0x0000000180034290 | 0x00034290
-`PaintDesktop` | 2186 (0x88a) | Exported Function | 0x000000018007c590 | 0x0007c590
-`PackTouchHitTestingProximityEvaluation` | 2185 (0x889) | Exported Function | 0x0000000180080cc0 | 0x00080cc0
-`PackDDElParam` | 2184 (0x888) | Exported Function | 0x0000000180059270 | 0x00059270
-`Ordinal2716` | 2716 (0xa9c) | Exported Function | 0x00000001800342a0 | 0x000342a0
-`Ordinal2715` | 2715 (0xa9b) | Exported Function | 0x00000001800341e0 | 0x000341e0
-`Ordinal2714` | 2714 (0xa9a) | Exported Function | 0x0000000180031dd0 | 0x00031dd0
-`PaintMenuBar` | 2187 (0x88b) | Exported Function | 0x0000000180034280 | 0x00034280
-`Ordinal2713` | 2713 (0xa99) | Exported Function | 0x000000018002c6d0 | 0x0002c6d0
-`PostThreadMessageA` | 2196 (0x894) | Exported Function | 0x0000000180032090 | 0x00032090
-`PrintWindow` | 2198 (0x896) | Exported Function | 0x00000001800342d0 | 0x000342d0
-`ReasonCodeNeedsBugID` | 2234 (0x8ba) | Exported Function | 0x000000018007dd20 | 0x0007dd20
-`RealGetWindowClassW` | 2233 (0x8b9) | Exported Function | 0x0000000180023d90 | 0x00023d90
-`RealGetWindowClassA` | 2232 (0x8b8) | Exported Function | 0x00000001800849d0 | 0x000849d0
-`RealGetWindowClass` | 2231 (0x8b7) | Exported Function | 0x00000001800849d0 | 0x000849d0
-`RealChildWindowFromPoint` | 2230 (0x8b6) | Exported Function | 0x0000000180034490 | 0x00034490
-`QuerySendMessage` | 2207 (0x89f) | Exported Function | 0x0000000180034320 | 0x00034320
-`PostThreadMessageW` | 2197 (0x895) | Exported Function | 0x0000000180027e20 | 0x00027e20
-`QueryDisplayConfig` | 2206 (0x89e) | Exported Function | 0x00000001800265d0 | 0x000265d0
-`PtInRect` | 2204 (0x89c) | Exported Function | 0x0000000180013720 | 0x00013720
-`PrivateRegisterICSProc` | 2203 (0x89b) | Exported Function | 0x00000001800510b0 | 0x000510b0
-`PrivateExtractIconsW` | 2202 (0x89a) | Exported Function | 0x000000018001ba20 | 0x0001ba20
-`PrivateExtractIconsA` | 2201 (0x899) | Exported Function | 0x0000000180069ce0 | 0x00069ce0
-`PrivateExtractIconExW` | 2200 (0x898) | Exported Function | 0x0000000180069b40 | 0x00069b40
-`PrivateExtractIconExA` | 2199 (0x897) | Exported Function | 0x0000000180069ab0 | 0x00069ab0
-`QueryBSDRWindow` | 2205 (0x89d) | Exported Function | 0x0000000180034310 | 0x00034310
-`Ordinal2712` | 2712 (0xa98) | Exported Function | 0x000000018001de90 | 0x0001de90
-`Ordinal2711` | 2711 (0xa97) | Exported Function | 0x0000000180033aa0 | 0x00033aa0
-`Ordinal2710` | 2710 (0xa96) | Exported Function | 0x0000000180034180 | 0x00034180
-`Ordinal2649` | 2649 (0xa59) | Exported Function | 0x0000000180034780 | 0x00034780
-`Ordinal2648` | 2648 (0xa58) | Exported Function | 0x0000000180033850 | 0x00033850
-`Ordinal2647` | 2647 (0xa57) | Exported Function | 0x0000000180033750 | 0x00033750
-`Ordinal2646` | 2646 (0xa56) | Exported Function | 0x0000000180034300 | 0x00034300
-`Ordinal2645` | 2645 (0xa55) | Exported Function | 0x0000000180086b50 | 0x00086b50
-`Ordinal2644` | 2644 (0xa54) | Exported Function | 0x00000001800337f0 | 0x000337f0
-`Ordinal2650` | 2650 (0xa5a) | Exported Function | 0x0000000180033c00 | 0x00033c00
-`Ordinal2643` | 2643 (0xa53) | Exported Function | 0x00000001800345c0 | 0x000345c0
-`Ordinal2641` | 2641 (0xa51) | Exported Function | 0x00000001800869f0 | 0x000869f0
-`Ordinal2640` | 2640 (0xa50) | Exported Function | 0x0000000180086850 | 0x00086850
-`Ordinal2639` | 2639 (0xa4f) | Exported Function | 0x00000001800346e0 | 0x000346e0
-`Ordinal2638` | 2638 (0xa4e) | Exported Function | 0x0000000180033760 | 0x00033760
-`Ordinal2637` | 2637 (0xa4d) | Exported Function | 0x00000001800348c0 | 0x000348c0
-`Ordinal2636` | 2636 (0xa4c) | Exported Function | 0x00000001800295f0 | 0x000295f0
-`Ordinal2642` | 2642 (0xa52) | Exported Function | 0x0000000180033a80 | 0x00033a80
-`Ordinal2651` | 2651 (0xa5b) | Exported Function | 0x00000001800338d0 | 0x000338d0
-`Ordinal2652` | 2652 (0xa5c) | Exported Function | 0x0000000180033ec0 | 0x00033ec0
-`Ordinal2653` | 2653 (0xa5d) | Exported Function | 0x0000000180033da0 | 0x00033da0
-`Ordinal2709` | 2709 (0xa95) | Exported Function | 0x00000001800339f0 | 0x000339f0
-`Ordinal2708` | 2708 (0xa94) | Exported Function | 0x0000000180033660 | 0x00033660
-`Ordinal2707` | 2707 (0xa93) | Exported Function | 0x00000001800234a0 | 0x000234a0
-`Ordinal2706` | 2706 (0xa92) | Exported Function | 0x0000000180034170 | 0x00034170
-`Ordinal2705` | 2705 (0xa91) | Exported Function | 0x00000001800340f0 | 0x000340f0
-`Ordinal2704` | 2704 (0xa90) | Exported Function | 0x0000000180033960 | 0x00033960
-`Ordinal2703` | 2703 (0xa8f) | Exported Function | 0x0000000180034120 | 0x00034120
-`Ordinal2702` | 2702 (0xa8e) | Exported Function | 0x0000000180077d10 | 0x00077d10
-`Ordinal2700` | 2700 (0xa8c) | Exported Function | 0x0000000180031e20 | 0x00031e20
-`Ordinal2659` | 2659 (0xa63) | Exported Function | 0x000000018002ce30 | 0x0002ce30
-`Ordinal2658` | 2658 (0xa62) | Exported Function | 0x0000000180034710 | 0x00034710
-`Ordinal2657` | 2657 (0xa61) | Exported Function | 0x0000000180034890 | 0x00034890
-`Ordinal2656` | 2656 (0xa60) | Exported Function | 0x0000000180033980 | 0x00033980
-`Ordinal2655` | 2655 (0xa5f) | Exported Function | 0x0000000180033840 | 0x00033840
-`Ordinal2654` | 2654 (0xa5e) | Exported Function | 0x00000001800337b0 | 0x000337b0
-`Ordinal2548` | 2548 (0x9f4) | Exported Function | 0x0000000180033dc0 | 0x00033dc0
-`Ordinal2546` | 2546 (0x9f2) | Exported Function | 0x0000000180034560 | 0x00034560
-`Ordinal2545` | 2545 (0x9f1) | Exported Function | 0x0000000180033cf0 | 0x00033cf0
-`Ordinal2544` | 2544 (0x9f0) | Exported Function | 0x00000001800339e0 | 0x000339e0
-`MapVirtualKeyW` | 2145 (0x861) | Exported Function | 0x0000000180027e90 | 0x00027e90
-`MapVirtualKeyExW` | 2144 (0x860) | Exported Function | 0x000000018002af30 | 0x0002af30
-`MapVirtualKeyExA` | 2143 (0x85f) | Exported Function | 0x00000001800848e0 | 0x000848e0
-`MapVirtualKeyA` | 2142 (0x85e) | Exported Function | 0x0000000180084870 | 0x00084870
-`MapPointsByVisualIdentifier` | 2141 (0x85d) | Exported Function | 0x0000000180034210 | 0x00034210
-`MapDialogRect` | 2140 (0x85c) | Exported Function | 0x00000001800315d0 | 0x000315d0
-`MapVisualRelativePoints` | 2146 (0x862) | Exported Function | 0x0000000180034220 | 0x00034220
-`MakeThreadTSFEventAware` | 2139 (0x85b) | Exported Function | 0x000000018002af50 | 0x0002af50
-`LookupIconIdFromDirectory` | 2129 (0x851) | Exported Function | 0x0000000180051090 | 0x00051090
-`LogicalToPhysicalPointForPerMonitorDPI` | 2128 (0x850) | Exported Function | 0x0000000180034200 | 0x00034200
-`LogicalToPhysicalPoint` | 2127 (0x84f) | Exported Function | 0x00000001800341f0 | 0x000341f0
-`LockWorkStation` | 2126 (0x84e) | Exported Function | 0x00000001800341d0 | 0x000341d0
-`LockWindowUpdate` | 2125 (0x84d) | Exported Function | 0x00000001800341c0 | 0x000341c0
-`LockWindowStation` | 2124 (0x84c) | Exported Function | 0x00000001800341b0 | 0x000341b0
-`LookupIconIdFromDirectoryEx` | 2130 (0x852) | Exported Function | 0x0000000180025950 | 0x00025950
-`LockSetForegroundWindow` | 2123 (0x84b) | Exported Function | 0x00000001800883b0 | 0x000883b0
-`MapWindowPoints` | 2147 (0x863) | Exported Function | 0x000000018000ba60 | 0x0000ba60
-`MBToWCSEx` | 2131 (0x853) | Exported Function | 0x0000000180024060 | 0x00024060
-`MITGetCursorUpdateHandle` | 2134 (0x856) | Exported Function | 0x000000018002cde0 | 0x0002cde0
-`MessageBoxW` | 2159 (0x86f) | Exported Function | 0x000000018007b0e0 | 0x0007b0e0
-`MessageBoxTimeoutW` | 2158 (0x86e) | Exported Function | 0x000000018007af00 | 0x0007af00
-`MessageBoxTimeoutA` | 2157 (0x86d) | Exported Function | 0x000000018007ad90 | 0x0007ad90
-`MessageBoxIndirectW` | 2156 (0x86c) | Exported Function | 0x000000018007acd0 | 0x0007acd0
-`MessageBoxIndirectA` | 2155 (0x86b) | Exported Function | 0x000000018007ab20 | 0x0007ab20
-`MB_GetString` | 2133 (0x855) | Exported Function | 0x000000018007aa30 | 0x0007aa30
-`MessageBoxExW` | 2154 (0x86a) | Exported Function | 0x000000018007aaf0 | 0x0007aaf0
-`MessageBoxA` | 2152 (0x868) | Exported Function | 0x000000018007aa60 | 0x0007aa60
-`MessageBeep` | 2151 (0x867) | Exported Function | 0x00000001800883d0 | 0x000883d0
-`MenuWindowProcW` | 2150 (0x866) | Exported Function | 0x000000018004fe70 | 0x0004fe70
-`MenuWindowProcA` | 2149 (0x865) | Exported Function | 0x000000018004fdf0 | 0x0004fdf0
-`MenuItemFromPoint` | 2148 (0x864) | Exported Function | 0x0000000180034230 | 0x00034230
-`MBToWCSExt` | 2132 (0x854) | Exported Function | 0x0000000180024030 | 0x00024030
-`MessageBoxExA` | 2153 (0x869) | Exported Function | 0x000000018007aac0 | 0x0007aac0
-`LoadStringW` | 2122 (0x84a) | Exported Function | 0x0000000180027fd0 | 0x00027fd0
-`LoadStringA` | 2121 (0x849) | Exported Function | 0x0000000180051000 | 0x00051000
-`LoadRemoteFonts` | 2120 (0x848) | Exported Function | 0x000000018002ccc0 | 0x0002ccc0
-`LoadAcceleratorsA` | 2100 (0x834) | Exported Function | 0x0000000180050fc0 | 0x00050fc0
-`KillTimer` | 2099 (0x833) | Exported Function | 0x0000000180034190 | 0x00034190
-`keybd_event` | 2502 (0x9c6) | Exported Function | 0x000000018007c9f0 | 0x0007c9f0
-`IsZoomed` | 2098 (0x832) | Exported Function | 0x0000000180023920 | 0x00023920
-`IsWow64Message` | 2097 (0x831) | Exported Function | 0x000000018004fdd0 | 0x0004fdd0
-`IsWinEventHookInstalled` | 2089 (0x829) | Exported Function | 0x0000000180004a50 | 0x00004a50
-`LoadAcceleratorsW` | 2101 (0x835) | Exported Function | 0x0000000180027990 | 0x00027990
-`IsWindowVisible` | 2096 (0x830) | Exported Function | 0x000000018001e170 | 0x0001e170
-`IsWindowRedirectedForPrint` | 2094 (0x82e) | Exported Function | 0x00000001800133b0 | 0x000133b0
-`IsWindowInDestroy` | 2093 (0x82d) | Exported Function | 0x0000000180023450 | 0x00023450
-`IsWindowEnabled` | 2092 (0x82c) | Exported Function | 0x0000000180011ab0 | 0x00011ab0
-`IsWindowArranged` | 2091 (0x82b) | Exported Function | 0x000000018000c180 | 0x0000c180
-`IsWindow` | 2090 (0x82a) | Exported Function | 0x000000018000a100 | 0x0000a100
-`IsValidDpiAwarenessContext` | 2088 (0x828) | Exported Function | 0x00000001800882d0 | 0x000882d0
-`IsWindowUnicode` | 2095 (0x82f) | Exported Function | 0x00000001800117e0 | 0x000117e0
-`LoadBitmapA` | 2102 (0x836) | Exported Function | 0x0000000180031c80 | 0x00031c80
-`LoadBitmapW` | 2103 (0x837) | Exported Function | 0x000000018002bad0 | 0x0002bad0
-`LoadCursorA` | 2104 (0x838) | Exported Function | 0x0000000180029cf0 | 0x00029cf0
-`LoadMenuW` | 2119 (0x847) | Exported Function | 0x0000000180021dc0 | 0x00021dc0
-`LoadMenuIndirectW` | 2118 (0x846) | Exported Function | 0x0000000180021e80 | 0x00021e80
-`LoadMenuIndirectA` | 2117 (0x845) | Exported Function | 0x0000000180021e80 | 0x00021e80
-`LoadMenuA` | 2116 (0x844) | Exported Function | 0x000000018004f650 | 0x0004f650
-`LoadLocalFonts` | 2115 (0x843) | Exported Function | 0x000000018002cd40 | 0x0002cd40
-`LoadKeyboardLayoutW` | 2114 (0x842) | Exported Function | 0x000000018001cff0 | 0x0001cff0
-`LoadKeyboardLayoutEx` | 2113 (0x841) | Exported Function | 0x0000000180088380 | 0x00088380
-`LoadKeyboardLayoutA` | 2112 (0x840) | Exported Function | 0x00000001800882f0 | 0x000882f0
-`LoadImageW` | 2111 (0x83f) | Exported Function | 0x0000000180016b40 | 0x00016b40
-`LoadImageA` | 2110 (0x83e) | Exported Function | 0x000000018002fba0 | 0x0002fba0
-`LoadIconW` | 2109 (0x83d) | Exported Function | 0x0000000180016eb0 | 0x00016eb0
-`LoadIconA` | 2108 (0x83c) | Exported Function | 0x000000018002c950 | 0x0002c950
-`LoadCursorW` | 2107 (0x83b) | Exported Function | 0x0000000180014630 | 0x00014630
-`LoadCursorFromFileW` | 2106 (0x83a) | Exported Function | 0x000000018004bbc0 | 0x0004bbc0
-`LoadCursorFromFileA` | 2105 (0x839) | Exported Function | 0x000000018004bb50 | 0x0004bb50
-`MITSetForegroundRoutingInfo` | 2135 (0x857) | Exported Function | 0x000000018002ce40 | 0x0002ce40
-`ReasonCodeNeedsComment` | 2235 (0x8bb) | Exported Function | 0x000000018007dd30 | 0x0007dd30
-`MITSetInputDelegationMode` | 2136 (0x858) | Exported Function | 0x000000018002b610 | 0x0002b610
-`MITSynthesizeTouchInput` | 2138 (0x85a) | Exported Function | 0x000000018007deb0 | 0x0007deb0
-`Ordinal2523` | 2523 (0x9db) | Exported Function | 0x0000000180001160 | 0x00001160
-`Ordinal2522` | 2522 (0x9da) | Exported Function | 0x0000000180034650 | 0x00034650
-`Ordinal2520` | 2520 (0x9d8) | Exported Function | 0x0000000180034110 | 0x00034110
-`Ordinal2519` | 2519 (0x9d7) | Exported Function | 0x0000000180033990 | 0x00033990
-`Ordinal2518` | 2518 (0x9d6) | Exported Function | 0x000000018001b0a0 | 0x0001b0a0
-`Ordinal2517` | 2517 (0x9d5) | Exported Function | 0x0000000180033eb0 | 0x00033eb0
-`Ordinal2524` | 2524 (0x9dc) | Exported Function | 0x000000018004e5c0 | 0x0004e5c0
-`Ordinal2516` | 2516 (0x9d4) | Exported Function | 0x0000000180033800 | 0x00033800
-`Ordinal2514` | 2514 (0x9d2) | Exported Function | 0x0000000180050450 | 0x00050450
-`Ordinal2513` | 2513 (0x9d1) | Exported Function | 0x0000000180034610 | 0x00034610
-`Ordinal2512` | 2512 (0x9d0) | Exported Function | 0x0000000180033b90 | 0x00033b90
-`Ordinal2511` | 2511 (0x9cf) | Exported Function | 0x0000000180034750 | 0x00034750
-`Ordinal2510` | 2510 (0x9ce) | Exported Function | 0x000000018002a6a0 | 0x0002a6a0
-`Ordinal2509` | 2509 (0x9cd) | Exported Function | 0x00000001800335f0 | 0x000335f0
-`Ordinal2515` | 2515 (0x9d3) | Exported Function | 0x0000000180050490 | 0x00050490
-`Ordinal2508` | 2508 (0x9cc) | Exported Function | 0x00000001800342f0 | 0x000342f0
-`Ordinal2525` | 2525 (0x9dd) | Exported Function | 0x0000000180021770 | 0x00021770
-`Ordinal2527` | 2527 (0x9df) | Exported Function | 0x00000001800217b0 | 0x000217b0
-`Ordinal2542` | 2542 (0x9ee) | Exported Function | 0x0000000180034530 | 0x00034530
-`Ordinal2541` | 2541 (0x9ed) | Exported Function | 0x0000000180033df0 | 0x00033df0
-`Ordinal2540` | 2540 (0x9ec) | Exported Function | 0x0000000180083390 | 0x00083390
-`Ordinal2539` | 2539 (0x9eb) | Exported Function | 0x0000000180033fb0 | 0x00033fb0
-`Ordinal2538` | 2538 (0x9ea) | Exported Function | 0x00000001800341a0 | 0x000341a0
-`Ordinal2537` | 2537 (0x9e9) | Exported Function | 0x00000001800345d0 | 0x000345d0
-`Ordinal2526` | 2526 (0x9de) | Exported Function | 0x000000018004e590 | 0x0004e590
-`Ordinal2536` | 2536 (0x9e8) | Exported Function | 0x0000000180009250 | 0x00009250
-`Ordinal2534` | 2534 (0x9e6) | Exported Function | 0x0000000180003450 | 0x00003450
-`Ordinal2533` | 2533 (0x9e5) | Exported Function | 0x0000000180033690 | 0x00033690
-`Ordinal2532` | 2532 (0x9e4) | Exported Function | 0x0000000180034740 | 0x00034740
-`Ordinal2531` | 2531 (0x9e3) | Exported Function | 0x0000000180034660 | 0x00034660
-`Ordinal2530` | 2530 (0x9e2) | Exported Function | 0x0000000180034b30 | 0x00034b30
-`Ordinal2529` | 2529 (0x9e1) | Exported Function | 0x00000001800338a0 | 0x000338a0
-`Ordinal2535` | 2535 (0x9e7) | Exported Function | 0x00000001800831b0 | 0x000831b0
-`Ordinal2507` | 2507 (0x9cb) | Exported Function | 0x0000000180034630 | 0x00034630
-`Ordinal2506` | 2506 (0x9ca) | Exported Function | 0x000000018004f0d0 | 0x0004f0d0
-`Ordinal2010` | 2010 (0x7da) | Exported Function | 0x0000000180034a40 | 0x00034a40
-`OemToCharBuffA` | 2172 (0x87c) | Exported Function | 0x000000018007cc50 | 0x0007cc50
-`OemToCharA` | 2171 (0x87b) | Exported Function | 0x000000018007cc00 | 0x0007cc00
-`OemKeyScan` | 2170 (0x87a) | Exported Function | 0x000000018007cb70 | 0x0007cb70
-`NotifyWinEvent` | 2169 (0x879) | Exported Function | 0x0000000180004aa0 | 0x00004aa0
-`NotifyOverlayWindow` | 2168 (0x878) | Exported Function | 0x00000001800883f0 | 0x000883f0
-`MsgWaitForMultipleObjectsEx` | 2167 (0x877) | Exported Function | 0x00000001800206f0 | 0x000206f0
-`OemToCharBuffW` | 2173 (0x87d) | Exported Function | 0x000000018007cca0 | 0x0007cca0
-`MsgWaitForMultipleObjects` | 2166 (0x876) | Exported Function | 0x00000001800206c0 | 0x000206c0
-`mouse_event` | 2543 (0x9ef) | Exported Function | 0x000000018002bd40 | 0x0002bd40
-`MonitorFromWindow` | 2164 (0x874) | Exported Function | 0x00000001800210e0 | 0x000210e0
-`MonitorFromRect` | 2163 (0x873) | Exported Function | 0x0000000180013750 | 0x00013750
-`MonitorFromPoint` | 2162 (0x872) | Exported Function | 0x0000000180029470 | 0x00029470
-`ModifyMenuW` | 2161 (0x871) | Exported Function | 0x0000000180031c00 | 0x00031c00
-`ModifyMenuA` | 2160 (0x870) | Exported Function | 0x000000018008b7b0 | 0x0008b7b0
-`MoveWindow` | 2165 (0x875) | Exported Function | 0x0000000180034240 | 0x00034240
-`OemToCharW` | 2174 (0x87e) | Exported Function | 0x000000018007ccf0 | 0x0007ccf0
-`OffsetRect` | 2175 (0x87f) | Exported Function | 0x000000018000ae80 | 0x0000ae80
-`OpenClipboard` | 2176 (0x880) | Exported Function | 0x000000018002b790 | 0x0002b790
-`Ordinal2005` | 2005 (0x7d5) | Exported Function | 0x0000000180034680 | 0x00034680
-`Ordinal2002` | 2002 (0x7d2) | Exported Function | 0x0000000180075b40 | 0x00075b40
-`Ordinal2001` | 2001 (0x7d1) | Exported Function | 0x0000000180075da0 | 0x00075da0
-`Ordinal1554` | 1554 (0x612) | Exported Function | 0x000000018002ce40 | 0x0002ce40
-`Ordinal1552` | 1552 (0x610) | Exported Function | 0x000000018007dd40 | 0x0007dd40
-`Ordinal1551` | 1551 (0x60f) | Exported Function | 0x000000018007de20 | 0x0007de20
-`Ordinal1550` | 1550 (0x60e) | Exported Function | 0x000000018007dd90 | 0x0007dd90
-`Ordinal1502` | 1502 (0x5de) | Exported Function | 0x00000001800516a0 | 0x000516a0
-`OpenWindowStationW` | 2183 (0x887) | Exported Function | 0x000000018001b470 | 0x0001b470
-`OpenWindowStationA` | 2182 (0x886) | Exported Function | 0x000000018001c510 | 0x0001c510
-`OpenThreadDesktop` | 2181 (0x885) | Exported Function | 0x0000000180034270 | 0x00034270
-`OpenInputDesktop` | 2180 (0x884) | Exported Function | 0x0000000180034260 | 0x00034260
-`OpenIcon` | 2179 (0x883) | Exported Function | 0x0000000180088410 | 0x00088410
-`OpenDesktopW` | 2178 (0x882) | Exported Function | 0x000000018001a610 | 0x0001a610
-`OpenDesktopA` | 2177 (0x881) | Exported Function | 0x000000018001b4e0 | 0x0001b4e0
-`MITSetLastInputRecipient` | 2137 (0x859) | Exported Function | 0x000000018007de90 | 0x0007de90
-`IsTouchWindow` | 2087 (0x827) | Exported Function | 0x0000000180034160 | 0x00034160
-`RecordShutdownReason` | 2236 (0x8bc) | Exported Function | 0x0000000180032b50 | 0x00032b50
-`RegisterBSDRWindow` | 2238 (0x8be) | Exported Function | 0x00000001800344b0 | 0x000344b0
-`ShowScrollBar` | 2410 (0x96a) | Exported Function | 0x00000001800349c0 | 0x000349c0
-`ShowOwnedPopups` | 2409 (0x969) | Exported Function | 0x00000001800323f0 | 0x000323f0
-`ShowCursor` | 2408 (0x968) | Exported Function | 0x00000001800349b0 | 0x000349b0
-`ShowCaret` | 2407 (0x967) | Exported Function | 0x0000000180028e50 | 0x00028e50
-`SetWinEventHook` | 2384 (0x950) | Exported Function | 0x0000000180029340 | 0x00029340
-`SetWindowWord` | 2402 (0x962) | Exported Function | 0x00000001800349a0 | 0x000349a0
-`ShowStartGlass` | 2411 (0x96b) | Exported Function | 0x00000001800887e0 | 0x000887e0
-`SetWindowTextW` | 2401 (0x961) | Exported Function | 0x0000000180014450 | 0x00014450
-`SetWindowStationUser` | 2399 (0x95f) | Exported Function | 0x000000018002c620 | 0x0002c620
-`SetWindowsHookW` | 2406 (0x966) | Exported Function | 0x000000018004f3b0 | 0x0004f3b0
-`SetWindowsHookExW` | 2405 (0x965) | Exported Function | 0x0000000180001d10 | 0x00001d10
-`SetWindowsHookExA` | 2404 (0x964) | Exported Function | 0x000000018004f390 | 0x0004f390
-`SetWindowsHookA` | 2403 (0x963) | Exported Function | 0x000000018004f370 | 0x0004f370
-`SetWindowRgnEx` | 2398 (0x95e) | Exported Function | 0x000000018007c8d0 | 0x0007c8d0
-`SetWindowTextA` | 2400 (0x960) | Exported Function | 0x000000018008b970 | 0x0008b970
-`SetWindowRgn` | 2397 (0x95d) | Exported Function | 0x0000000180014660 | 0x00014660
-`ShowSystemCursor` | 2412 (0x96c) | Exported Function | 0x00000001800349d0 | 0x000349d0
-`ShowWindowAsync` | 2414 (0x96e) | Exported Function | 0x00000001800349f0 | 0x000349f0
-`SystemParametersInfoForDpi` | 2428 (0x97c) | Exported Function | 0x00000001800288a0 | 0x000288a0
-`SystemParametersInfoA` | 2427 (0x97b) | Exported Function | 0x0000000180028a60 | 0x00028a60
-`SwitchToThisWindow` | 2426 (0x97a) | Exported Function | 0x0000000180001ab0 | 0x00001ab0
-`SwitchDesktopWithFade` | 2425 (0x979) | Exported Function | 0x000000018002cd60 | 0x0002cd60
-`SwitchDesktop` | 2424 (0x978) | Exported Function | 0x000000018002cb00 | 0x0002cb00
-`SwapMouseButton` | 2423 (0x977) | Exported Function | 0x0000000180088800 | 0x00088800
-`ShowWindow` | 2413 (0x96d) | Exported Function | 0x00000001800349e0 | 0x000349e0
-`SubtractRect` | 2422 (0x976) | Exported Function | 0x0000000180029f40 | 0x00029f40
-`SoftModalMessageBox` | 2420 (0x974) | Exported Function | 0x000000018007b140 | 0x0007b140
-`SkipPointerFrameMessages` | 2419 (0x973) | Exported Function | 0x0000000180034a30 | 0x00034a30
-`SignalRedirectionStartComplete` | 2418 (0x972) | Exported Function | 0x0000000180034a20 | 0x00034a20
-`ShutdownBlockReasonQuery` | 2417 (0x971) | Exported Function | 0x0000000180034a10 | 0x00034a10
-`ShutdownBlockReasonDestroy` | 2416 (0x970) | Exported Function | 0x0000000180034a00 | 0x00034a00
-`ShutdownBlockReasonCreate` | 2415 (0x96f) | Exported Function | 0x000000018002a6d0 | 0x0002a6d0
-`SoundSentry` | 2421 (0x975) | Exported Function | 0x0000000180034a50 | 0x00034a50
-`SystemParametersInfoW` | 2429 (0x97d) | Exported Function | 0x00000001800232e0 | 0x000232e0
-`SetWindowPos` | 2396 (0x95c) | Exported Function | 0x0000000180034980 | 0x00034980
-`SetWindowLongW` | 2394 (0x95a) | Exported Function | 0x0000000180010f10 | 0x00010f10
-`SetSystemMenu` | 2374 (0x946) | Exported Function | 0x00000001800348e0 | 0x000348e0
-`SetSystemCursor` | 2373 (0x945) | Exported Function | 0x000000018007c870 | 0x0007c870
-`SetSysColorsTemp` | 2372 (0x944) | Exported Function | 0x000000018007cd70 | 0x0007cd70
-`SetSysColors` | 2371 (0x943) | Exported Function | 0x000000018002cc70 | 0x0002cc70
-`SetShellWindowEx` | 2370 (0x942) | Exported Function | 0x00000001800348d0 | 0x000348d0
-`SetShellWindow` | 2369 (0x941) | Exported Function | 0x0000000180088600 | 0x00088600
-`SetTaskmanWindow` | 2375 (0x947) | Exported Function | 0x000000018002cd20 | 0x0002cd20
-`SetShellChangeNotifyWindow` | 2368 (0x940) | Exported Function | 0x000000018002cd80 | 0x0002cd80
-`SetScrollPos` | 2366 (0x93e) | Exported Function | 0x00000001800322a0 | 0x000322a0
-`SetScrollInfo` | 2365 (0x93d) | Exported Function | 0x0000000180012ad0 | 0x00012ad0
-`SetRectEmpty` | 2364 (0x93c) | Exported Function | 0x0000000180023980 | 0x00023980
-`SetRect` | 2363 (0x93b) | Exported Function | 0x00000001800239a0 | 0x000239a0
-`SetPropW` | 2362 (0x93a) | Exported Function | 0x0000000180023f50 | 0x00023f50
-`SetPropA` | 2361 (0x939) | Exported Function | 0x0000000180084d30 | 0x00084d30
-`SetScrollRange` | 2367 (0x93f) | Exported Function | 0x0000000180030d90 | 0x00030d90
-`SetWindowPlacement` | 2395 (0x95b) | Exported Function | 0x0000000180034970 | 0x00034970
-`SetThreadDesktop` | 2376 (0x948) | Exported Function | 0x000000018002c030 | 0x0002c030
-`SetThreadDpiHostingBehavior` | 2378 (0x94a) | Exported Function | 0x0000000180088640 | 0x00088640
-`SetWindowLongPtrW` | 2393 (0x959) | Exported Function | 0x000000018000b7c0 | 0x0000b7c0
-`SetWindowLongPtrA` | 2392 (0x958) | Exported Function | 0x000000018002c7c0 | 0x0002c7c0
-`SetWindowLongA` | 2391 (0x957) | Exported Function | 0x000000018002c760 | 0x0002c760
-`SetWindowFeedbackSetting` | 2390 (0x956) | Exported Function | 0x0000000180034950 | 0x00034950
-`SetWindowDisplayAffinity` | 2389 (0x955) | Exported Function | 0x0000000180034940 | 0x00034940
-`SetWindowContextHelpId` | 2388 (0x954) | Exported Function | 0x00000001800887c0 | 0x000887c0
-`SetThreadDpiAwarenessContext` | 2377 (0x949) | Exported Function | 0x0000000180016c50 | 0x00016c50
-`SetWindowCompositionTransition` | 2387 (0x953) | Exported Function | 0x0000000180034930 | 0x00034930
-`SetWindowBand` | 2385 (0x951) | Exported Function | 0x0000000180034920 | 0x00034920
-`SetUserObjectSecurity` | 2383 (0x94f) | Exported Function | 0x000000018002c710 | 0x0002c710
-`SetUserObjectInformationW` | 2382 (0x94e) | Exported Function | 0x00000001800887b0 | 0x000887b0
-`SetUserObjectInformationA` | 2381 (0x94d) | Exported Function | 0x0000000180088730 | 0x00088730
-`SetTimer` | 2380 (0x94c) | Exported Function | 0x0000000180023ba0 | 0x00023ba0
-`SetThreadInputBlocked` | 2379 (0x94b) | Exported Function | 0x0000000180034900 | 0x00034900
-`SetWindowCompositionAttribute` | 2386 (0x952) | Exported Function | 0x0000000180028da0 | 0x00028da0
-`TabbedTextOutA` | 2430 (0x97e) | Exported Function | 0x00000001800571e0 | 0x000571e0
-`TabbedTextOutW` | 2431 (0x97f) | Exported Function | 0x0000000180057310 | 0x00057310
-`TileChildWindows` | 2432 (0x980) | Exported Function | 0x0000000180088820 | 0x00088820
-`VkKeyScanExA` | 2484 (0x9b4) | Exported Function | 0x0000000180084e80 | 0x00084e80
-`VkKeyScanA` | 2483 (0x9b3) | Exported Function | 0x0000000180084e10 | 0x00084e10
-`ValidateRgn` | 2482 (0x9b2) | Exported Function | 0x0000000180001c80 | 0x00001c80
-`ValidateRect` | 2481 (0x9b1) | Exported Function | 0x0000000180034b20 | 0x00034b20
-`UserRegisterWowHandlers` | 2478 (0x9ae) | Exported Function | 0x0000000180088b40 | 0x00088b40
-`UserRealizePalette` | 2477 (0x9ad) | Exported Function | 0x000000018002fe90 | 0x0002fe90
-`VkKeyScanExW` | 2485 (0x9b5) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`UserLpkTabbedTextOut` | 2476 (0x9ac) | Exported Function | 0x00000001800575a0 | 0x000575a0
-`UserHandleGrantAccess` | 2474 (0x9aa) | Exported Function | 0x0000000180034b10 | 0x00034b10
-`UserClientDllInitialize` | 2473 (0x9a9) | Exported Function | 0x0000000180017f30 | 0x00017f30
-`User32InitializeImmEntryTable` | 2472 (0x9a8) | Exported Function | 0x00000001800195f0 | 0x000195f0
-`UpdateWindowInputSinkHints` | 2471 (0x9a7) | Exported Function | 0x0000000180034af0 | 0x00034af0
-`UpdateWindow` | 2470 (0x9a6) | Exported Function | 0x0000000180013260 | 0x00013260
-`UpdatePerUserSystemParameters` | 2469 (0x9a5) | Exported Function | 0x000000018001c8d0 | 0x0001c8d0
-`UserLpkPSMTextOut` | 2475 (0x9ab) | Exported Function | 0x0000000180057360 | 0x00057360
-`UpdateLayeredWindowIndirect` | 2468 (0x9a4) | Exported Function | 0x000000018002dc80 | 0x0002dc80
-`VkKeyScanW` | 2486 (0x9b6) | Exported Function | 0x000000018002b980 | 0x0002b980
-`VTagOutput` | 2480 (0x9b0) | Exported Function | 0x000000018002ce40 | 0x0002ce40
-`wsprintfW` | 2562 (0xa02) | Exported Function | 0x0000000180029940 | 0x00029940
-`wsprintfA` | 2547 (0x9f3) | Exported Function | 0x00000001800273d0 | 0x000273d0
-`WINNLSGetIMEHotkey` | 2490 (0x9ba) | Exported Function | 0x000000018002ce40 | 0x0002ce40
-`WINNLSGetEnableStatus` | 2489 (0x9b9) | Exported Function | 0x0000000180085070 | 0x00085070
-`WINNLSEnableIME` | 2488 (0x9b8) | Exported Function | 0x0000000180085050 | 0x00085050
-`WinHelpW` | 2495 (0x9bf) | Exported Function | 0x00000001800312b0 | 0x000312b0
-`VRipOutput` | 2479 (0x9af) | Exported Function | 0x000000018002ce40 | 0x0002ce40
-`WinHelpA` | 2494 (0x9be) | Exported Function | 0x0000000180031360 | 0x00031360
-`WindowFromPhysicalPoint` | 2497 (0x9c1) | Exported Function | 0x0000000180034b70 | 0x00034b70
-`WindowFromDC` | 2496 (0x9c0) | Exported Function | 0x0000000180034b60 | 0x00034b60
-`WCSToMBEx` | 2487 (0x9b7) | Exported Function | 0x0000000180008dd0 | 0x00008dd0
-`WaitMessage` | 2493 (0x9bd) | Exported Function | 0x0000000180034b50 | 0x00034b50
-`WaitForRedirectionStartComplete` | 2492 (0x9bc) | Exported Function | 0x0000000180034b40 | 0x00034b40
-`WaitForInputIdle` | 2491 (0x9bb) | Exported Function | 0x000000018002c860 | 0x0002c860
-`WindowFromPoint` | 2498 (0x9c2) | Exported Function | 0x0000000180034b80 | 0x00034b80
-`UpdateLayeredWindow` | 2467 (0x9a3) | Exported Function | 0x0000000180031240 | 0x00031240
-`UpdateDefaultDesktopThumbnail` | 2466 (0x9a2) | Exported Function | 0x0000000180034ae0 | 0x00034ae0
-`UnregisterUserApiHook` | 2465 (0x9a1) | Exported Function | 0x0000000180034ad0 | 0x00034ad0
-`TranslateMessageEx` | 2446 (0x98e) | Exported Function | 0x0000000180026930 | 0x00026930
-`TranslateMessage` | 2445 (0x98d) | Exported Function | 0x0000000180009400 | 0x00009400
-`TranslateMDISysAccel` | 2444 (0x98c) | Exported Function | 0x0000000180077a10 | 0x00077a10
-`TranslateAcceleratorW` | 2443 (0x98b) | Exported Function | 0x0000000180025c30 | 0x00025c30
-`TranslateAcceleratorA` | 2442 (0x98a) | Exported Function | 0x0000000180088a50 | 0x00088a50
-`TranslateAccelerator` | 2441 (0x989) | Exported Function | 0x0000000180088a50 | 0x00088a50
-`UndelegateInput` | 2504 (0x9c8) | Exported Function | 0x0000000180034a80 | 0x00034a80
-`TrackPopupMenuEx` | 2440 (0x988) | Exported Function | 0x0000000180034a70 | 0x00034a70
-`TrackMouseEvent` | 2438 (0x986) | Exported Function | 0x0000000180034a60 | 0x00034a60
-`ToUnicodeEx` | 2437 (0x985) | Exported Function | 0x0000000180028810 | 0x00028810
-`ToUnicode` | 2436 (0x984) | Exported Function | 0x000000018007c920 | 0x0007c920
-`ToAsciiEx` | 2435 (0x983) | Exported Function | 0x00000001800888d0 | 0x000888d0
-`ToAscii` | 2434 (0x982) | Exported Function | 0x0000000180088850 | 0x00088850
-`TileWindows` | 2433 (0x981) | Exported Function | 0x00000001800779e0 | 0x000779e0
-`TrackPopupMenu` | 2439 (0x987) | Exported Function | 0x0000000180077d90 | 0x00077d90
-`UnhookWindowsHook` | 2448 (0x990) | Exported Function | 0x0000000180088ae0 | 0x00088ae0
-`UnhookWindowsHookEx` | 2449 (0x991) | Exported Function | 0x000000018002b150 | 0x0002b150
-`UnhookWinEvent` | 2447 (0x98f) | Exported Function | 0x0000000180034a90 | 0x00034a90
-`UnregisterTouchWindow` | 2464 (0x9a0) | Exported Function | 0x000000018007c9b0 | 0x0007c9b0
-`UnregisterSuspendResumeNotification` | 2463 (0x99f) | Exported Function | 0x000000018007c970 | 0x0007c970
-`UnregisterSessionPort` | 2462 (0x99e) | Exported Function | 0x0000000180034ac0 | 0x00034ac0
-`UnregisterPowerSettingNotification` | 2461 (0x99d) | Exported Function | 0x000000018002b760 | 0x0002b760
-`UnregisterPointerInputTargetEx` | 2460 (0x99c) | Exported Function | 0x000000018004ff10 | 0x0004ff10
-`UnregisterPointerInputTarget` | 2459 (0x99b) | Exported Function | 0x00000001800504b0 | 0x000504b0
-`UnregisterMessagePumpHook` | 2458 (0x99a) | Exported Function | 0x0000000180031fb0 | 0x00031fb0
-`UnregisterHotKey` | 2457 (0x999) | Exported Function | 0x0000000180034ab0 | 0x00034ab0
-`UnregisterDeviceNotification` | 2456 (0x998) | Exported Function | 0x000000018002bda0 | 0x0002bda0
-`UnregisterClassW` | 2455 (0x997) | Exported Function | 0x0000000180007ed0 | 0x00007ed0
-`UnregisterClassA` | 2454 (0x996) | Exported Function | 0x0000000180005580 | 0x00005580
-`UnpackDDElParam` | 2453 (0x995) | Exported Function | 0x00000001800593b0 | 0x000593b0
-`UnlockWindowStation` | 2452 (0x994) | Exported Function | 0x0000000180034aa0 | 0x00034aa0
-`UnloadKeyboardLayout` | 2451 (0x993) | Exported Function | 0x0000000180088b00 | 0x00088b00
-`UnionRect` | 2450 (0x992) | Exported Function | 0x0000000180023bd0 | 0x00023bd0
-`SetProgmanWindow` | 2360 (0x938) | Exported Function | 0x00000001800885e0 | 0x000885e0
-`SetProcessWindowStation` | 2359 (0x937) | Exported Function | 0x00000001800348b0 | 0x000348b0
-`SetProcessRestrictionExemption` | 2358 (0x936) | Exported Function | 0x00000001800348a0 | 0x000348a0
-`SetProcessDpiAwarenessInternal` | 2357 (0x935) | Exported Function | 0x000000018001a490 | 0x0001a490
-`RIMGetDevicePreparsedData` | 2213 (0x8a5) | Exported Function | 0x0000000180034380 | 0x00034380
-`RIMFreeInputBuffer` | 2212 (0x8a4) | Exported Function | 0x0000000180034370 | 0x00034370
-`RIMEnableMonitorMappingForDevice` | 2211 (0x8a3) | Exported Function | 0x0000000180034360 | 0x00034360
-`RIMDeviceIoControl` | 2210 (0x8a2) | Exported Function | 0x0000000180034350 | 0x00034350
-`RIMAreSiblingDevices` | 2209 (0x8a1) | Exported Function | 0x0000000180034340 | 0x00034340
-`RIMAddInputObserver` | 2208 (0x8a0) | Exported Function | 0x0000000180034330 | 0x00034330
-`RIMGetDevicePreparsedDataLockfree` | 2214 (0x8a6) | Exported Function | 0x0000000180034390 | 0x00034390
-`ReuseDDElParam` | 2282 (0x8ea) | Exported Function | 0x00000001800592f0 | 0x000592f0
-`ReportInertia` | 2551 (0x9f7) | Exported Function | 0x0000000180001ce0 | 0x00001ce0
-`ReplyMessage` | 2280 (0x8e8) | Exported Function | 0x0000000180029740 | 0x00029740
-`RemoveVisualIdentifier` | 2279 (0x8e7) | Exported Function | 0x0000000180034590 | 0x00034590
-`RemoveThreadTSFEventAwareness` | 2278 (0x8e6) | Exported Function | 0x0000000180081550 | 0x00081550
-`RemovePropW` | 2277 (0x8e5) | Exported Function | 0x0000000180025f80 | 0x00025f80
-`RemovePropA` | 2276 (0x8e4) | Exported Function | 0x0000000180084aa0 | 0x00084aa0
-`ResolveDesktopForWOW` | 2281 (0x8e9) | Exported Function | 0x00000001800345b0 | 0x000345b0
-`RemoveMenu` | 2275 (0x8e3) | Exported Function | 0x0000000180034580 | 0x00034580
-`RIMGetDeviceProperties` | 2215 (0x8a7) | Exported Function | 0x00000001800343a0 | 0x000343a0
-`RIMGetPhysicalDeviceRect` | 2217 (0x8a9) | Exported Function | 0x00000001800343c0 | 0x000343c0
-`ScrollChildren` | 2284 (0x8ec) | Exported Function | 0x00000001800779b0 | 0x000779b0
-`ScreenToClient` | 2283 (0x8eb) | Exported Function | 0x0000000180011d60 | 0x00011d60
-`RIMUpdateInputObserverRegistration` | 2229 (0x8b5) | Exported Function | 0x0000000180034480 | 0x00034480
-`RIMUnregisterForInput` | 2228 (0x8b4) | Exported Function | 0x0000000180034470 | 0x00034470
-`RIMSetTestModeStatus` | 2227 (0x8b3) | Exported Function | 0x0000000180034460 | 0x00034460
-`RIMSetExtendedDeviceProperty` | 2226 (0x8b2) | Exported Function | 0x0000000180034450 | 0x00034450
-`RIMGetDevicePropertiesLockfree` | 2216 (0x8a8) | Exported Function | 0x00000001800343b0 | 0x000343b0
-`RIMRemoveInputObserver` | 2225 (0x8b1) | Exported Function | 0x0000000180034440 | 0x00034440
-`RIMReadInput` | 2223 (0x8af) | Exported Function | 0x0000000180034420 | 0x00034420
-`RIMQueryDevicePath` | 2222 (0x8ae) | Exported Function | 0x0000000180034410 | 0x00034410
-`RIMOnTimerNotification` | 2221 (0x8ad) | Exported Function | 0x0000000180034400 | 0x00034400
-`RIMOnPnpNotification` | 2220 (0x8ac) | Exported Function | 0x00000001800343f0 | 0x000343f0
-`RIMObserveNextInput` | 2219 (0x8ab) | Exported Function | 0x00000001800343e0 | 0x000343e0
-`RIMGetSourceProcessId` | 2218 (0x8aa) | Exported Function | 0x00000001800343d0 | 0x000343d0
-`RIMRegisterForInput` | 2224 (0x8b0) | Exported Function | 0x0000000180034430 | 0x00034430
-`RemoveInjectionDevice` | 2274 (0x8e2) | Exported Function | 0x0000000180033880 | 0x00033880
-`RemoveClipboardFormatListener` | 2273 (0x8e1) | Exported Function | 0x000000018002cda0 | 0x0002cda0
-`ReleaseDwmHitTestWaiters` | 2272 (0x8e0) | Exported Function | 0x0000000180034570 | 0x00034570
-`RegisterLogonProcess` | 2252 (0x8cc) | Exported Function | 0x000000018002c9f0 | 0x0002c9f0
-`RegisterHotKey` | 2251 (0x8cb) | Exported Function | 0x00000001800344e0 | 0x000344e0
-`RegisterGhostWindow` | 2250 (0x8ca) | Exported Function | 0x00000001800884c0 | 0x000884c0
-`RegisterFrostWindow` | 2249 (0x8c9) | Exported Function | 0x00000001800884a0 | 0x000884a0
-`RegisterErrorReportingDialog` | 2248 (0x8c8) | Exported Function | 0x00000001800344d0 | 0x000344d0
-`RegisterDManipHook` | 2245 (0x8c5) | Exported Function | 0x00000001800344c0 | 0x000344c0
-`RegisterMessagePumpHook` | 2253 (0x8cd) | Exported Function | 0x000000018002bc20 | 0x0002bc20
-`RegisterDeviceNotificationW` | 2247 (0x8c7) | Exported Function | 0x000000018002b9c0 | 0x0002b9c0
-`RegisterClipboardFormatW` | 2244 (0x8c4) | Exported Function | 0x0000000180026b00 | 0x00026b00
-`RegisterClipboardFormatA` | 2243 (0x8c3) | Exported Function | 0x0000000180003140 | 0x00003140
-`RegisterClassW` | 2242 (0x8c2) | Exported Function | 0x00000001800072f0 | 0x000072f0
-`RegisterClassExW` | 2241 (0x8c1) | Exported Function | 0x00000001800072c0 | 0x000072c0
-`RegisterClassExA` | 2240 (0x8c0) | Exported Function | 0x000000018008b830 | 0x0008b830
-`RegisterClassA` | 2239 (0x8bf) | Exported Function | 0x0000000180002ad0 | 0x00002ad0
-`RegisterDeviceNotificationA` | 2246 (0x8c6) | Exported Function | 0x000000018002b9c0 | 0x0002b9c0
-`RegisterPointerDeviceNotifications` | 2254 (0x8ce) | Exported Function | 0x00000001800344f0 | 0x000344f0
-`RegisterPointerInputTarget` | 2255 (0x8cf) | Exported Function | 0x0000000180050470 | 0x00050470
-`RegisterPointerInputTargetEx` | 2256 (0x8d0) | Exported Function | 0x000000018004ff10 | 0x0004ff10
-`ReleaseDC` | 2271 (0x8df) | Exported Function | 0x0000000180023b40 | 0x00023b40
-`ReleaseCapture` | 2270 (0x8de) | Exported Function | 0x000000018002c3e0 | 0x0002c3e0
-`RegisterWindowMessageW` | 2269 (0x8dd) | Exported Function | 0x0000000180026b00 | 0x00026b00
-`RegisterWindowMessageA` | 2268 (0x8dc) | Exported Function | 0x0000000180003140 | 0x00003140
-`RegisterUserApiHook` | 2267 (0x8db) | Exported Function | 0x000000018002c4c0 | 0x0002c4c0
-`RegisterTouchWindow` | 2266 (0x8da) | Exported Function | 0x000000018007c850 | 0x0007c850
-`RegisterTouchHitTestingWindow` | 2265 (0x8d9) | Exported Function | 0x0000000180034550 | 0x00034550
-`RegisterTasklist` | 2264 (0x8d8) | Exported Function | 0x0000000180034540 | 0x00034540
-`RegisterSystemThread` | 2263 (0x8d7) | Exported Function | 0x0000000180032360 | 0x00032360
-`RegisterSuspendResumeNotification` | 2262 (0x8d6) | Exported Function | 0x000000018007c7e0 | 0x0007c7e0
-`RegisterShellHookWindow` | 2261 (0x8d5) | Exported Function | 0x000000018002caa0 | 0x0002caa0
-`RegisterSessionPort` | 2260 (0x8d4) | Exported Function | 0x0000000180034520 | 0x00034520
-`RegisterServicesProcess` | 2259 (0x8d3) | Exported Function | 0x0000000180034510 | 0x00034510
-`RegisterRawInputDevices` | 2258 (0x8d2) | Exported Function | 0x0000000180034500 | 0x00034500
-`RegisterPowerSettingNotification` | 2257 (0x8d1) | Exported Function | 0x000000018002a100 | 0x0002a100
-`ScrollDC` | 2285 (0x8ed) | Exported Function | 0x0000000180026c40 | 0x00026c40
-`RedrawWindow` | 2237 (0x8bd) | Exported Function | 0x00000001800344a0 | 0x000344a0
-`ScrollWindow` | 2286 (0x8ee) | Exported Function | 0x0000000180088520 | 0x00088520
-`SendDlgItemMessageA` | 2288 (0x8f0) | Exported Function | 0x000000018008b880 | 0x0008b880
-`SetMagnificationDesktopMagnifierOffsetsDWMUpdated` | 2338 (0x922) | Exported Function | 0x0000000180034810 | 0x00034810
-`SetMagnificationDesktopMagnification` | 2337 (0x921) | Exported Function | 0x0000000180075cd0 | 0x00075cd0
-`SetMagnificationDesktopColorEffect` | 2336 (0x920) | Exported Function | 0x0000000180075bf0 | 0x00075bf0
-`SetLayeredWindowAttributes` | 2335 (0x91f) | Exported Function | 0x0000000180034800 | 0x00034800
-`SetLastErrorEx` | 2334 (0x91e) | Exported Function | 0x000000018007cd50 | 0x0007cd50
-`SetKeyboardState` | 2333 (0x91d) | Exported Function | 0x00000001800347f0 | 0x000347f0
-`SetMagnificationDesktopSamplingMode` | 2339 (0x923) | Exported Function | 0x0000000180075d50 | 0x00075d50
-`SetInternalWindowPos` | 2332 (0x91c) | Exported Function | 0x00000001800347e0 | 0x000347e0
-`SetFullscreenMagnifierOffsetsDWMUpdated` | 2330 (0x91a) | Exported Function | 0x0000000180034790 | 0x00034790
-`SetForegroundWindow` | 2329 (0x919) | Exported Function | 0x000000018002bc00 | 0x0002bc00
-`SetFocus` | 2328 (0x918) | Exported Function | 0x0000000180034770 | 0x00034770
-`SetFeatureReportResponse` | 2327 (0x917) | Exported Function | 0x0000000180034760 | 0x00034760
-`SetDoubleClickTime` | 2326 (0x916) | Exported Function | 0x00000001800885a0 | 0x000885a0
-`SetDlgItemTextW` | 2325 (0x915) | Exported Function | 0x0000000180088ff0 | 0x00088ff0
-`SetGestureConfig` | 2331 (0x91b) | Exported Function | 0x00000001800347a0 | 0x000347a0
-`SetDlgItemTextA` | 2324 (0x914) | Exported Function | 0x000000018008b8d0 | 0x0008b8d0
-`SetMagnificationLensCtxInformation` | 2340 (0x924) | Exported Function | 0x0000000180034820 | 0x00034820
-`SetMenuContextHelpId` | 2342 (0x926) | Exported Function | 0x0000000180034830 | 0x00034830
-`SetProcessDpiAwarenessContext` | 2356 (0x934) | Exported Function | 0x000000018001a4e0 | 0x0001a4e0
-`SetProcessDPIAware` | 2354 (0x932) | Exported Function | 0x000000018001b4c0 | 0x0001b4c0
-`SetProcessDefaultLayout` | 2355 (0x933) | Exported Function | 0x00000001800885c0 | 0x000885c0
-`SetPointerDeviceInputSpace` | 2353 (0x931) | Exported Function | 0x0000000180034860 | 0x00034860
-`SetPhysicalCursorPos` | 2352 (0x930) | Exported Function | 0x00000001800346f0 | 0x000346f0
-`SetParent` | 2351 (0x92f) | Exported Function | 0x000000018002c280 | 0x0002c280
-`SetMenu` | 2341 (0x925) | Exported Function | 0x000000018002c6f0 | 0x0002c6f0
-`SetMirrorRendering` | 2350 (0x92e) | Exported Function | 0x0000000180034850 | 0x00034850
-`SetMessageExtraInfo` | 2348 (0x92c) | Exported Function | 0x000000018004fef0 | 0x0004fef0
-`SetMenuItemInfoW` | 2347 (0x92b) | Exported Function | 0x000000018001f990 | 0x0001f990
-`SetMenuItemInfoA` | 2346 (0x92a) | Exported Function | 0x000000018008b900 | 0x0008b900
-`SetMenuItemBitmaps` | 2345 (0x929) | Exported Function | 0x0000000180001a20 | 0x00001a20
-`SetMenuInfo` | 2344 (0x928) | Exported Function | 0x00000001800015f0 | 0x000015f0
-`SetMenuDefaultItem` | 2343 (0x927) | Exported Function | 0x0000000180034840 | 0x00034840
-`SetMessageQueue` | 2349 (0x92d) | Exported Function | 0x000000018002ce60 | 0x0002ce60
-`SetDlgItemInt` | 2323 (0x913) | Exported Function | 0x00000001800013e0 | 0x000013e0
-`SetDisplayConfig` | 2322 (0x912) | Exported Function | 0x000000018008cfb0 | 0x0008cfb0
-`SetDisplayAutoRotationPreferences` | 2321 (0x911) | Exported Function | 0x0000000180034730 | 0x00034730
-`SetCapture` | 2302 (0x8fe) | Exported Function | 0x0000000180034670 | 0x00034670
-`SetActiveWindow` | 2301 (0x8fd) | Exported Function | 0x0000000180034620 | 0x00034620
-`SendNotifyMessageW` | 2300 (0x8fc) | Exported Function | 0x00000001800292d0 | 0x000292d0
-`SendNotifyMessageA` | 2299 (0x8fb) | Exported Function | 0x0000000180030ab0 | 0x00030ab0
-`SendMessageW` | 2298 (0x8fa) | Exported Function | 0x000000018000d5b0 | 0x0000d5b0
-`SendMessageTimeoutW` | 2297 (0x8f9) | Exported Function | 0x0000000180020a80 | 0x00020a80
-`SetCaretBlinkTime` | 2303 (0x8ff) | Exported Function | 0x000000018002af10 | 0x0002af10
-`SendMessageTimeoutA` | 2296 (0x8f8) | Exported Function | 0x0000000180031020 | 0x00031020
-`SendMessageCallbackA` | 2294 (0x8f6) | Exported Function | 0x0000000180084b40 | 0x00084b40
-`SendMessageA` | 2293 (0x8f5) | Exported Function | 0x0000000180009730 | 0x00009730
-`SendInput` | 2292 (0x8f4) | Exported Function | 0x00000001800345e0 | 0x000345e0
-`SendIMEMessageExW` | 2291 (0x8f3) | Exported Function | 0x0000000180085030 | 0x00085030
-`SendIMEMessageExA` | 2290 (0x8f2) | Exported Function | 0x0000000180085010 | 0x00085010
-`SendDlgItemMessageW` | 2289 (0x8f1) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`SendMessageCallbackW` | 2295 (0x8f7) | Exported Function | 0x0000000180027d60 | 0x00027d60
-`SetCaretPos` | 2304 (0x900) | Exported Function | 0x000000018002b630 | 0x0002b630
-`SetClassLongA` | 2305 (0x901) | Exported Function | 0x0000000180084bd0 | 0x00084bd0
-`SetClassLongPtrA` | 2306 (0x902) | Exported Function | 0x0000000180084bf0 | 0x00084bf0
-`SetDialogDpiChangeBehavior` | 2320 (0x910) | Exported Function | 0x0000000180059f60 | 0x00059f60
-`SetDialogControlDpiChangeBehavior` | 2319 (0x90f) | Exported Function | 0x0000000180034720 | 0x00034720
-`SetDeskWallpaper` | 2317 (0x90d) | Exported Function | 0x0000000180088580 | 0x00088580
-`SetDesktopColorTransform` | 2318 (0x90e) | Exported Function | 0x0000000180034700 | 0x00034700
-`SetDebugErrorLevel` | 2316 (0x90c) | Exported Function | 0x000000018002ce30 | 0x0002ce30
-`SetCursorPos` | 2315 (0x90b) | Exported Function | 0x00000001800346f0 | 0x000346f0
-`SetCursorContents` | 2314 (0x90a) | Exported Function | 0x00000001800346d0 | 0x000346d0
-`SetCursor` | 2313 (0x909) | Exported Function | 0x000000018002b0c0 | 0x0002b0c0
-`SetCoreWindow` | 2571 (0xa0b) | Exported Function | 0x00000001800346b0 | 0x000346b0
-`SetCoalescableTimer` | 2312 (0x908) | Exported Function | 0x00000001800346a0 | 0x000346a0
-`SetClipboardViewer` | 2311 (0x907) | Exported Function | 0x00000001800323b0 | 0x000323b0
-`SetClipboardData` | 2310 (0x906) | Exported Function | 0x000000018002feb0 | 0x0002feb0
-`SetClassWord` | 2309 (0x905) | Exported Function | 0x0000000180034690 | 0x00034690
-`SetClassLongW` | 2308 (0x904) | Exported Function | 0x0000000180032340 | 0x00032340
-`SetClassLongPtrW` | 2307 (0x903) | Exported Function | 0x000000018002c8c0 | 0x0002c8c0
-`ScrollWindowEx` | 2287 (0x8ef) | Exported Function | 0x0000000180026990 | 0x00026990
-`IsTopLevelWindow` | 2086 (0x826) | Exported Function | 0x0000000180034150 | 0x00034150
-`IsThreadTSFEventAware` | 2085 (0x825) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`IsThreadMessageQueueAttached` | 2528 (0x9e0) | Exported Function | 0x00000001800260e0 | 0x000260e0
-`DlgDirListComboBoxW` | 1703 (0x6a7) | Exported Function | 0x0000000180054420 | 0x00054420
-`DlgDirListComboBoxA` | 1702 (0x6a6) | Exported Function | 0x0000000180054330 | 0x00054330
-`DlgDirListA` | 1701 (0x6a5) | Exported Function | 0x0000000180075140 | 0x00075140
-`DisplayExitWindowsWarnings` | 1700 (0x6a4) | Exported Function | 0x0000000180056960 | 0x00056960
-`DisplayConfigSetDeviceInfo` | 1699 (0x6a3) | Exported Function | 0x000000018008cf40 | 0x0008cf40
-`DisplayConfigGetDeviceInfo` | 1698 (0x6a2) | Exported Function | 0x0000000180029760 | 0x00029760
-`DlgDirListW` | 1704 (0x6a8) | Exported Function | 0x0000000180075240 | 0x00075240
-`DispatchMessageW` | 1697 (0x6a1) | Exported Function | 0x000000018000e040 | 0x0000e040
-`DisableProcessWindowsGhosting` | 1695 (0x69f) | Exported Function | 0x000000018002cac0 | 0x0002cac0
-`DialogBoxParamW` | 1694 (0x69e) | Exported Function | 0x000000018002d160 | 0x0002d160
-`DialogBoxParamA` | 1693 (0x69d) | Exported Function | 0x0000000180050d00 | 0x00050d00
-`DialogBoxIndirectParamW` | 1692 (0x69c) | Exported Function | 0x000000018002d1f0 | 0x0002d1f0
-`DialogBoxIndirectParamAorW` | 1691 (0x69b) | Exported Function | 0x000000018002d220 | 0x0002d220
-`DialogBoxIndirectParamA` | 1690 (0x69a) | Exported Function | 0x0000000180050cd0 | 0x00050cd0
-`DispatchMessageA` | 1696 (0x6a0) | Exported Function | 0x000000018002b550 | 0x0002b550
-`DestroyWindow` | 1689 (0x699) | Exported Function | 0x0000000180033890 | 0x00033890
-`DlgDirSelectComboBoxExA` | 1705 (0x6a9) | Exported Function | 0x0000000180054480 | 0x00054480
-`DlgDirSelectExA` | 1707 (0x6ab) | Exported Function | 0x00000001800752a0 | 0x000752a0
-`DrawIcon` | 1721 (0x6b9) | Exported Function | 0x0000000180087de0 | 0x00087de0
-`DrawFrameControl` | 1720 (0x6b8) | Exported Function | 0x000000018008e810 | 0x0008e810
-`DrawFrame` | 1719 (0x6b7) | Exported Function | 0x000000018008e6d0 | 0x0008e6d0
-`DrawFocusRect` | 1718 (0x6b6) | Exported Function | 0x0000000180030220 | 0x00030220
-`DrawEdge` | 1717 (0x6b5) | Exported Function | 0x0000000180022fa0 | 0x00022fa0
-`DrawCaptionTempW` | 1716 (0x6b4) | Exported Function | 0x000000018008a850 | 0x0008a850
-`DlgDirSelectComboBoxExW` | 1706 (0x6aa) | Exported Function | 0x0000000180054530 | 0x00054530
-`DrawCaptionTempA` | 1715 (0x6b3) | Exported Function | 0x0000000180084540 | 0x00084540
-`DrawAnimatedRects` | 1713 (0x6b1) | Exported Function | 0x0000000180033900 | 0x00033900
-`DragObject` | 1712 (0x6b0) | Exported Function | 0x00000001800338f0 | 0x000338f0
-`DragDetect` | 1711 (0x6af) | Exported Function | 0x00000001800338e0 | 0x000338e0
-`DoSoundDisconnect` | 1710 (0x6ae) | Exported Function | 0x00000001800338c0 | 0x000338c0
-`DoSoundConnect` | 1709 (0x6ad) | Exported Function | 0x00000001800338b0 | 0x000338b0
-`DlgDirSelectExW` | 1708 (0x6ac) | Exported Function | 0x0000000180075360 | 0x00075360
-`DrawCaption` | 1714 (0x6b2) | Exported Function | 0x000000018007c3f0 | 0x0007c3f0
-`DrawIconEx` | 1722 (0x6ba) | Exported Function | 0x0000000180026290 | 0x00026290
-`DestroySyntheticPointerDevice` | 1688 (0x698) | Exported Function | 0x0000000180033880 | 0x00033880
-`DestroyMenu` | 1686 (0x696) | Exported Function | 0x0000000180033870 | 0x00033870
-`DefDlgProcA` | 1668 (0x684) | Exported Function | NTDLL.NtdllDialogWndProc_A | 0x000a511a
-`DdeUninitialize` | 1667 (0x683) | Exported Function | 0x0000000180057960 | 0x00057960
-`DdeUnaccessData` | 1666 (0x682) | Exported Function | 0x000000018006b020 | 0x0006b020
-`DdeSetUserHandle` | 1665 (0x681) | Exported Function | 0x00000001800842f0 | 0x000842f0
-`DdeSetQualityOfService` | 1664 (0x680) | Exported Function | 0x000000018002ce60 | 0x0002ce60
-`DdeReconnect` | 1663 (0x67f) | Exported Function | 0x0000000180056580 | 0x00056580
-`DefDlgProcW` | 1669 (0x685) | Exported Function | NTDLL.NtdllDialogWndProc_W | 0x000a5141
-`DdeQueryStringW` | 1662 (0x67e) | Exported Function | 0x000000018006b8d0 | 0x0006b8d0
-`DdeQueryNextServer` | 1660 (0x67c) | Exported Function | 0x0000000180056420 | 0x00056420
-`DdeQueryConvInfo` | 1659 (0x67b) | Exported Function | 0x00000001800840c0 | 0x000840c0
-`DdePostAdvise` | 1658 (0x67a) | Exported Function | 0x0000000180083df0 | 0x00083df0
-`DdeNameService` | 1657 (0x679) | Exported Function | 0x000000018002a740 | 0x0002a740
-`DdeKeepStringHandle` | 1656 (0x678) | Exported Function | 0x000000018006b7e0 | 0x0006b7e0
-`DdeInitializeW` | 1655 (0x677) | Exported Function | 0x000000018001cfd0 | 0x0001cfd0
-`DdeQueryStringA` | 1661 (0x67d) | Exported Function | 0x000000018006b8b0 | 0x0006b8b0
-`DestroyReasons` | 1687 (0x697) | Exported Function | 0x00000001800325f0 | 0x000325f0
-`DeferWindowPos` | 1677 (0x68d) | Exported Function | 0x0000000180027d00 | 0x00027d00
-`DefFrameProcA` | 1670 (0x686) | Exported Function | 0x0000000180077960 | 0x00077960
-`DestroyIcon` | 1685 (0x695) | Exported Function | 0x0000000180028e70 | 0x00028e70
-`DestroyDCompositionHwndTarget` | 1684 (0x694) | Exported Function | 0x0000000180033860 | 0x00033860
-`DestroyCursor` | 1683 (0x693) | Exported Function | 0x0000000180028e70 | 0x00028e70
-`DestroyCaret` | 1682 (0x692) | Exported Function | 0x000000018002c6b0 | 0x0002c6b0
-`DestroyAcceleratorTable` | 1681 (0x691) | Exported Function | 0x00000001800278f0 | 0x000278f0
-`DeregisterShellHookWindow` | 1680 (0x690) | Exported Function | 0x000000018002cc10 | 0x0002cc10
-`DeferWindowPosAndBand` | 1678 (0x68e) | Exported Function | 0x0000000180087d80 | 0x00087d80
-`DeleteMenu` | 1679 (0x68f) | Exported Function | 0x0000000180033820 | 0x00033820
-`DefWindowProcW` | 1676 (0x68c) | Exported Function | NTDLL.NtdllDefWindowProc_W | 0x000a51e3
-`DefWindowProcA` | 1675 (0x68b) | Exported Function | NTDLL.NtdllDefWindowProc_A | 0x000a51b9
-`DefRawInputProc` | 1674 (0x68a) | Exported Function | 0x0000000180088f80 | 0x00088f80
-`DefMDIChildProcW` | 1673 (0x689) | Exported Function | 0x000000018002dfa0 | 0x0002dfa0
-`DefMDIChildProcA` | 1672 (0x688) | Exported Function | 0x0000000180077990 | 0x00077990
-`DefFrameProcW` | 1671 (0x687) | Exported Function | 0x000000018002fa50 | 0x0002fa50
-`DelegateInput` | 2503 (0x9c7) | Exported Function | 0x0000000180033810 | 0x00033810
-`DrawMenuBar` | 1723 (0x6bb) | Exported Function | 0x0000000180032390 | 0x00032390
-`DrawMenuBarTemp` | 1724 (0x6bc) | Exported Function | 0x0000000180077c80 | 0x00077c80
-`DrawStateA` | 1725 (0x6bd) | Exported Function | 0x0000000180078490 | 0x00078490
-`EvaluateProximityToPolygon` | 1775 (0x6ef) | Exported Function | 0x0000000180080650 | 0x00080650
-`EqualRect` | 1774 (0x6ee) | Exported Function | 0x00000001800238f0 | 0x000238f0
-`EnumWindowStationsW` | 1772 (0x6ec) | Exported Function | 0x0000000180004fb0 | 0x00004fb0
-`EnumWindowStationsA` | 1771 (0x6eb) | Exported Function | 0x0000000180003410 | 0x00003410
-`EnumWindows` | 1773 (0x6ed) | Exported Function | 0x0000000180021840 | 0x00021840
-`EnumThreadWindows` | 1770 (0x6ea) | Exported Function | 0x0000000180021810 | 0x00021810
-`EvaluateProximityToRect` | 1776 (0x6f0) | Exported Function | 0x0000000180080b80 | 0x00080b80
-`EnumPropsW` | 1769 (0x6e9) | Exported Function | 0x000000018004e570 | 0x0004e570
-`EnumPropsExA` | 1767 (0x6e7) | Exported Function | 0x000000018004e550 | 0x0004e550
-`EnumPropsA` | 1766 (0x6e6) | Exported Function | 0x000000018004e530 | 0x0004e530
-`EnumDisplaySettingsW` | 1765 (0x6e5) | Exported Function | 0x00000001800088a0 | 0x000088a0
-`EnumDisplaySettingsExW` | 1764 (0x6e4) | Exported Function | 0x00000001800088c0 | 0x000088c0
-`EnumDisplaySettingsExA` | 1763 (0x6e3) | Exported Function | 0x0000000180008a20 | 0x00008a20
-`EnumDisplaySettingsA` | 1762 (0x6e2) | Exported Function | 0x0000000180008a00 | 0x00008a00
-`EnumPropsExW` | 1768 (0x6e8) | Exported Function | 0x0000000180026c80 | 0x00026c80
-`EnumDisplayMonitors` | 1761 (0x6e1) | Exported Function | 0x0000000180033a50 | 0x00033a50
-`ExcludeUpdateRgn` | 1777 (0x6f1) | Exported Function | 0x0000000180033a60 | 0x00033a60
-`FillRect` | 1779 (0x6f3) | Exported Function | 0x0000000180023270 | 0x00023270
-`GetAltTabInfoW` | 1792 (0x700) | Exported Function | 0x000000018008a940 | 0x0008a940
-`GetAltTabInfoA` | 1791 (0x6ff) | Exported Function | 0x0000000180084660 | 0x00084660
-`GetAltTabInfo` | 1790 (0x6fe) | Exported Function | 0x0000000180084660 | 0x00084660
-`GetActiveWindow` | 1789 (0x6fd) | Exported Function | 0x000000018002b1d0 | 0x0002b1d0
-`gapfnScSendMessage` | 2501 (0x9c5) | Exported Function | 0x0000000180091990 | 0x00091990
-`FrostCrashedWindow` | 1788 (0x6fc) | Exported Function | 0x0000000180033a90 | 0x00033a90
-`ExitWindowsEx` | 1778 (0x6f2) | Exported Function | 0x000000018002be30 | 0x0002be30
-`FreeDDElParam` | 1787 (0x6fb) | Exported Function | 0x00000001800591f0 | 0x000591f0
-`FlashWindowEx` | 1785 (0x6f9) | Exported Function | 0x0000000180033a70 | 0x00033a70
-`FlashWindow` | 1784 (0x6f8) | Exported Function | 0x0000000180087e50 | 0x00087e50
-`FindWindowW` | 1783 (0x6f7) | Exported Function | 0x0000000180023580 | 0x00023580
-`FindWindowExW` | 1782 (0x6f6) | Exported Function | 0x0000000180025e90 | 0x00025e90
-`FindWindowExA` | 1781 (0x6f5) | Exported Function | 0x0000000180003050 | 0x00003050
-`FindWindowA` | 1780 (0x6f4) | Exported Function | 0x000000018007c9d0 | 0x0007c9d0
-`FrameRect` | 1786 (0x6fa) | Exported Function | 0x00000001800301f0 | 0x000301f0
-`EnumDisplayDevicesW` | 1760 (0x6e0) | Exported Function | 0x0000000180027200 | 0x00027200
-`EnumDisplayDevicesA` | 1759 (0x6df) | Exported Function | 0x0000000180008c30 | 0x00008c30
-`EnumDesktopWindows` | 1756 (0x6dc) | Exported Function | 0x00000001800217e0 | 0x000217e0
-`EditWndProc` | 1738 (0x6ca) | Exported Function | 0x00000001800605f0 | 0x000605f0
-`DwmValidateWindow` | 1737 (0x6c9) | Exported Function | 0x0000000180033950 | 0x00033950
-`DwmLockScreenUpdates` | 1736 (0x6c8) | Exported Function | 0x000000018002cc30 | 0x0002cc30
-`DwmKernelStartup` | 1735 (0x6c7) | Exported Function | 0x0000000180033940 | 0x00033940
-`DwmKernelShutdown` | 1734 (0x6c6) | Exported Function | 0x0000000180033930 | 0x00033930
-`DwmGetRemoteSessionOcclusionState` | 1733 (0x6c5) | Exported Function | 0x0000000180033920 | 0x00033920
-`EmptyClipboard` | 1739 (0x6cb) | Exported Function | 0x0000000180032430 | 0x00032430
-`DwmGetRemoteSessionOcclusionEvent` | 1732 (0x6c4) | Exported Function | 0x0000000180033910 | 0x00033910
-`DwmGetDxRgn` | 1553 (0x611) | Exported Function | 0x000000018002ce40 | 0x0002ce40
-`DrawTextW` | 1730 (0x6c2) | Exported Function | 0x000000018001e740 | 0x0001e740
-`DrawTextExW` | 1729 (0x6c1) | Exported Function | 0x000000018001e710 | 0x0001e710
-`DrawTextExA` | 1728 (0x6c0) | Exported Function | 0x0000000180056e90 | 0x00056e90
-`DrawTextA` | 1727 (0x6bf) | Exported Function | 0x0000000180056e10 | 0x00056e10
-`DrawStateW` | 1726 (0x6be) | Exported Function | 0x00000001800281f0 | 0x000281f0
-`DwmGetDxSharedSurface` | 1731 (0x6c3) | Exported Function | 0x000000018002da50 | 0x0002da50
-`EnableMenuItem` | 1740 (0x6cc) | Exported Function | 0x000000018001f830 | 0x0001f830
-`EnableMouseInPointer` | 1741 (0x6cd) | Exported Function | 0x0000000180033970 | 0x00033970
-`EnableNonClientDpiScaling` | 1742 (0x6ce) | Exported Function | 0x00000001800339a0 | 0x000339a0
-`EnumDesktopsW` | 1758 (0x6de) | Exported Function | 0x0000000180004fd0 | 0x00004fd0
-`EnumDesktopsA` | 1757 (0x6dd) | Exported Function | 0x0000000180003430 | 0x00003430
-`EnumClipboardFormats` | 1755 (0x6db) | Exported Function | 0x0000000180031ee0 | 0x00031ee0
-`EnumChildWindows` | 1754 (0x6da) | Exported Function | 0x000000018000ed30 | 0x0000ed30
-`EnterReaderModeHelper` | 1753 (0x6d9) | Exported Function | 0x000000018007d8c0 | 0x0007d8c0
-`EndTask` | 1752 (0x6d8) | Exported Function | 0x0000000180056c20 | 0x00056c20
-`EndPaint` | 1751 (0x6d7) | Exported Function | 0x0000000180033a40 | 0x00033a40
-`EndMenu` | 1750 (0x6d6) | Exported Function | 0x0000000180033a30 | 0x00033a30
-`EndDialog` | 1749 (0x6d5) | Exported Function | 0x0000000180031a80 | 0x00031a80
-`EndDeferWindowPosEx` | 1748 (0x6d4) | Exported Function | 0x0000000180033a20 | 0x00033a20
-`EndDeferWindowPos` | 1747 (0x6d3) | Exported Function | 0x000000018002a440 | 0x0002a440
-`EnableWindow` | 1746 (0x6d2) | Exported Function | 0x000000018002b1b0 | 0x0002b1b0
-`EnableSessionForMMCSS` | 1745 (0x6d1) | Exported Function | 0x0000000180031f90 | 0x00031f90
-`EnableScrollBar` | 1744 (0x6d0) | Exported Function | 0x00000001800132c0 | 0x000132c0
-`EnableOneCoreTransformMode` | 1743 (0x6cf) | Exported Function | 0x00000001800339b0 | 0x000339b0
-`DdeInitializeA` | 1654 (0x676) | Exported Function | 0x0000000180057940 | 0x00057940
-`DdeImpersonateClient` | 1653 (0x675) | Exported Function | 0x00000001800578a0 | 0x000578a0
-`DdeGetQualityOfService` | 1652 (0x674) | Exported Function | 0x000000018002ce60 | 0x0002ce60
-`DdeGetLastError` | 1651 (0x673) | Exported Function | 0x0000000180057840 | 0x00057840
-`CharNextA` | 1559 (0x617) | Exported Function | 0x000000018002b000 | 0x0002b000
-`CharLowerW` | 1558 (0x616) | Exported Function | 0x0000000180031cc0 | 0x00031cc0
-`CharLowerBuffW` | 1557 (0x615) | Exported Function | 0x0000000180085950 | 0x00085950
-`CharLowerBuffA` | 1556 (0x614) | Exported Function | 0x0000000180085930 | 0x00085930
-`CharLowerA` | 1555 (0x613) | Exported Function | 0x000000018002cc50 | 0x0002cc50
-`ChangeWindowMessageFilterEx` | 1549 (0x60d) | Exported Function | 0x00000001800336a0 | 0x000336a0
-`CharNextExA` | 1560 (0x618) | Exported Function | 0x0000000180085970 | 0x00085970
-`ChangeWindowMessageFilter` | 1548 (0x60c) | Exported Function | 0x000000018002b0e0 | 0x0002b0e0
-`ChangeMenuA` | 1546 (0x60a) | Exported Function | 0x0000000180077b20 | 0x00077b20
-`ChangeDisplaySettingsW` | 1545 (0x609) | Exported Function | 0x000000018008a820 | 0x0008a820
-`ChangeDisplaySettingsExW` | 1544 (0x608) | Exported Function | 0x0000000180027040 | 0x00027040
-`ChangeDisplaySettingsExA` | 1543 (0x607) | Exported Function | 0x0000000180030e30 | 0x00030e30
-`ChangeDisplaySettingsA` | 1542 (0x606) | Exported Function | 0x0000000180084510 | 0x00084510
-`ChangeClipboardChain` | 1541 (0x605) | Exported Function | 0x0000000180085910 | 0x00085910
-`ChangeMenuW` | 1547 (0x60b) | Exported Function | 0x0000000180077bd0 | 0x00077bd0
-`CascadeWindows` | 1540 (0x604) | Exported Function | 0x0000000180077830 | 0x00077830
-`CharNextW` | 1561 (0x619) | Exported Function | 0x000000018002ba80 | 0x0002ba80
-`CharPrevExA` | 1563 (0x61b) | Exported Function | 0x0000000180085990 | 0x00085990
-`CheckMenuRadioItem` | 1577 (0x629) | Exported Function | 0x0000000180001790 | 0x00001790
-`CheckMenuItem` | 1576 (0x628) | Exported Function | 0x000000018001f7b0 | 0x0001f7b0
-`CheckDlgButton` | 1575 (0x627) | Exported Function | 0x00000001800019e0 | 0x000019e0
-`CheckDBCSEnabledExt` | 1574 (0x626) | Exported Function | 0x0000000180021cc0 | 0x00021cc0
-`CheckBannedOneCoreTransformApi` | 1573 (0x625) | Exported Function | 0x000000018002ce30 | 0x0002ce30
-`CharUpperW` | 1572 (0x624) | Exported Function | 0x0000000180026b50 | 0x00026b50
-`CharPrevA` | 1562 (0x61a) | Exported Function | 0x0000000180001ca0 | 0x00001ca0
-`CharUpperBuffW` | 1571 (0x623) | Exported Function | 0x00000001800011e0 | 0x000011e0
-`CharUpperA` | 1569 (0x621) | Exported Function | 0x0000000180029720 | 0x00029720
-`CharToOemW` | 1568 (0x620) | Exported Function | 0x000000018007cb00 | 0x0007cb00
-`CharToOemBuffW` | 1567 (0x61f) | Exported Function | 0x000000018007caa0 | 0x0007caa0
-`CharToOemBuffA` | 1566 (0x61e) | Exported Function | 0x000000018007ca50 | 0x0007ca50
-`CharToOemA` | 1565 (0x61d) | Exported Function | 0x0000000180028590 | 0x00028590
-`CharPrevW` | 1564 (0x61c) | Exported Function | 0x00000001800859b0 | 0x000859b0
-`CharUpperBuffA` | 1570 (0x622) | Exported Function | 0x00000001800859d0 | 0x000859d0
-`CascadeChildWindows` | 1539 (0x603) | Exported Function | 0x00000001800879e0 | 0x000879e0
-`CancelShutdown` | 1538 (0x602) | Exported Function | 0x0000000180056900 | 0x00056900
-`CallWindowProcW` | 1537 (0x601) | Exported Function | 0x000000018000e460 | 0x0000e460
-`AreDpiAwarenessContextsEqual` | 1517 (0x5ed) | Exported Function | 0x0000000180029250 | 0x00029250
-`AppendMenuW` | 1516 (0x5ec) | Exported Function | 0x000000018001fa80 | 0x0001fa80
-`AppendMenuA` | 1515 (0x5eb) | Exported Function | 0x000000018008b1b0 | 0x0008b1b0
-`AnyPopup` | 1514 (0x5ea) | Exported Function | 0x00000001800830b0 | 0x000830b0
-`AnimateWindow` | 1513 (0x5e9) | Exported Function | 0x0000000180082310 | 0x00082310
-`AllowSetForegroundWindow` | 1512 (0x5e8) | Exported Function | 0x000000018002b650 | 0x0002b650
-`ArrangeIconicWindows` | 1518 (0x5ee) | Exported Function | 0x00000001800879c0 | 0x000879c0
-`AllowForegroundActivation` | 1511 (0x5e7) | Exported Function | 0x00000001800879a0 | 0x000879a0
-`AdjustWindowRectExForDpi` | 1509 (0x5e5) | Exported Function | 0x00000001800103c0 | 0x000103c0
-`AdjustWindowRectEx` | 1508 (0x5e4) | Exported Function | 0x00000001800165d0 | 0x000165d0
-`AdjustWindowRect` | 1507 (0x5e3) | Exported Function | 0x0000000180087930 | 0x00087930
-`AddVisualIdentifier` | 1506 (0x5e2) | Exported Function | 0x0000000180033610 | 0x00033610
-`AddClipboardFormatListener` | 1505 (0x5e1) | Exported Function | 0x000000018002cdc0 | 0x0002cdc0
-`ActivateKeyboardLayout` | 1504 (0x5e0) | Exported Function | 0x000000018002c5e0 | 0x0002c5e0
-`AlignRects` | 1510 (0x5e6) | Exported Function | 0x000000018008d8b0 | 0x0008d8b0
-`AttachThreadInput` | 1519 (0x5ef) | Exported Function | 0x0000000180033620 | 0x00033620
-`BeginDeferWindowPos` | 1520 (0x5f0) | Exported Function | 0x0000000180029d80 | 0x00029d80
-`BeginPaint` | 1521 (0x5f1) | Exported Function | 0x0000000180033640 | 0x00033640
-`CallWindowProcA` | 1536 (0x600) | Exported Function | 0x000000018004fda0 | 0x0004fda0
-`CallNextHookEx` | 1535 (0x5ff) | Exported Function | 0x0000000180001fa0 | 0x00001fa0
-`CallMsgFilterW` | 1534 (0x5fe) | Exported Function | 0x000000018008a760 | 0x0008a760
-`CallMsgFilterA` | 1533 (0x5fd) | Exported Function | 0x00000001800843f0 | 0x000843f0
-`CallMsgFilter` | 1532 (0x5fc) | Exported Function | 0x00000001800843f0 | 0x000843f0
-`CalculatePopupWindowPosition` | 1531 (0x5fb) | Exported Function | 0x0000000180033680 | 0x00033680
-`CalcMenuBar` | 1530 (0x5fa) | Exported Function | 0x0000000180033670 | 0x00033670
-`BuildReasonArray` | 1529 (0x5f9) | Exported Function | 0x0000000180032680 | 0x00032680
-`BroadcastSystemMessageW` | 1528 (0x5f8) | Exported Function | 0x000000018002acf0 | 0x0002acf0
-`BroadcastSystemMessageExW` | 1527 (0x5f7) | Exported Function | 0x0000000180088f50 | 0x00088f50
-`BroadcastSystemMessageExA` | 1526 (0x5f6) | Exported Function | 0x000000018008b240 | 0x0008b240
-`BroadcastSystemMessageA` | 1525 (0x5f5) | Exported Function | 0x000000018008b210 | 0x0008b210
-`BroadcastSystemMessage` | 1524 (0x5f4) | Exported Function | 0x000000018008b210 | 0x0008b210
-`BringWindowToTop` | 1523 (0x5f3) | Exported Function | 0x0000000180031190 | 0x00031190
-`BlockInput` | 1522 (0x5f2) | Exported Function | 0x0000000180033650 | 0x00033650
-`CheckProcessForClipboardAccess` | 1578 (0x62a) | Exported Function | 0x00000001800336b0 | 0x000336b0
-`GetAncestor` | 1793 (0x701) | Exported Function | 0x0000000180033ab0 | 0x00033ab0
-`CheckProcessSession` | 1579 (0x62b) | Exported Function | 0x00000001800336c0 | 0x000336c0
-`CheckWindowThreadDesktop` | 1581 (0x62d) | Exported Function | 0x00000001800336d0 | 0x000336d0
-`CreateWindowStationW` | 1632 (0x660) | Exported Function | 0x000000018001dac0 | 0x0001dac0
-`CreateWindowStationA` | 1631 (0x65f) | Exported Function | 0x0000000180087d00 | 0x00087d00
-`CreateWindowIndirect` | 1630 (0x65e) | Exported Function | 0x0000000180083100 | 0x00083100
-`CreateWindowInBandEx` | 1629 (0x65d) | Exported Function | 0x0000000180006060 | 0x00006060
-`CreateWindowInBand` | 1628 (0x65c) | Exported Function | 0x0000000180005fc0 | 0x00005fc0
-`CreateWindowExW` | 1627 (0x65b) | Exported Function | 0x0000000180007720 | 0x00007720
-`CsrBroadcastSystemMessageExW` | 1633 (0x661) | Exported Function | 0x000000018002ac10 | 0x0002ac10
-`CreateWindowExA` | 1626 (0x65a) | Exported Function | 0x0000000180003c10 | 0x00003c10
-`CreateSyntheticPointerDevice` | 1624 (0x658) | Exported Function | 0x000000018007de50 | 0x0007de50
-`CreatePopupMenu` | 1623 (0x657) | Exported Function | 0x000000018002c7a0 | 0x0002c7a0
-`CreateMenu` | 1622 (0x656) | Exported Function | 0x0000000180031e00 | 0x00031e00
-`CreateMDIWindowW` | 1621 (0x655) | Exported Function | 0x00000001800778e0 | 0x000778e0
-`CreateMDIWindowA` | 1620 (0x654) | Exported Function | 0x0000000180077860 | 0x00077860
-`CreateIconIndirect` | 1619 (0x653) | Exported Function | 0x0000000180015920 | 0x00015920
-`CreateSystemThreads` | 1625 (0x659) | Exported Function | 0x0000000180089020 | 0x00089020
-`CreateIconFromResourceEx` | 1618 (0x652) | Exported Function | 0x0000000180025850 | 0x00025850
-`CtxInitUser32` | 1634 (0x662) | Exported Function | 0x000000018001d330 | 0x0001d330
-`DdeAccessData` | 1636 (0x664) | Exported Function | 0x000000018006aa70 | 0x0006aa70
-`DdeGetData` | 1650 (0x672) | Exported Function | 0x000000018006aeb0 | 0x0006aeb0
-`DdeFreeStringHandle` | 1649 (0x671) | Exported Function | 0x000000018006b700 | 0x0006b700
-`DdeFreeDataHandle` | 1648 (0x670) | Exported Function | 0x000000018006ae30 | 0x0006ae30
-`DdeEnableCallback` | 1647 (0x66f) | Exported Function | 0x000000018004d8c0 | 0x0004d8c0
-`DdeDisconnectList` | 1646 (0x66e) | Exported Function | 0x0000000180056300 | 0x00056300
-`DdeDisconnect` | 1645 (0x66d) | Exported Function | 0x0000000180056250 | 0x00056250
-`DdeAbandonTransaction` | 1635 (0x663) | Exported Function | 0x0000000180083680 | 0x00083680
-`DdeCreateStringHandleW` | 1644 (0x66c) | Exported Function | 0x000000018002aa80 | 0x0002aa80
-`DdeCreateDataHandle` | 1642 (0x66a) | Exported Function | 0x000000018006acd0 | 0x0006acd0
-`DdeConnectList` | 1641 (0x669) | Exported Function | 0x0000000180055f60 | 0x00055f60
-`DdeConnect` | 1640 (0x668) | Exported Function | 0x0000000180055e50 | 0x00055e50
-`DdeCmpStringHandles` | 1639 (0x667) | Exported Function | 0x000000018006b6c0 | 0x0006b6c0
-`DdeClientTransaction` | 1638 (0x666) | Exported Function | 0x0000000180083760 | 0x00083760
-`DdeAddData` | 1637 (0x665) | Exported Function | 0x000000018006ab30 | 0x0006ab30
-`DdeCreateStringHandleA` | 1643 (0x66b) | Exported Function | 0x000000018006b6e0 | 0x0006b6e0
-`CreateIconFromResource` | 1617 (0x651) | Exported Function | 0x0000000180050ca0 | 0x00050ca0
-`CreateIcon` | 1616 (0x650) | Exported Function | 0x0000000180050bd0 | 0x00050bd0
-`CreateDialogParamW` | 1615 (0x64f) | Exported Function | 0x0000000180003610 | 0x00003610
-`ControlMagnification` | 1595 (0x63b) | Exported Function | 0x0000000180033780 | 0x00033780
-`ConsoleControl` | 1594 (0x63a) | Exported Function | 0x0000000180027360 | 0x00027360
-`CloseWindowStation` | 1593 (0x639) | Exported Function | 0x0000000180033720 | 0x00033720
-`CloseWindow` | 1592 (0x638) | Exported Function | 0x0000000180087ac0 | 0x00087ac0
-`CloseTouchInputHandle` | 1591 (0x637) | Exported Function | 0x00000001800515d0 | 0x000515d0
-`CloseGestureInfoHandle` | 1590 (0x636) | Exported Function | 0x000000018004ef50 | 0x0004ef50
-`CopyAcceleratorTableA` | 1596 (0x63c) | Exported Function | 0x0000000180050990 | 0x00050990
-`CloseDesktop` | 1589 (0x635) | Exported Function | 0x0000000180033710 | 0x00033710
-`ClipCursor` | 1587 (0x633) | Exported Function | 0x0000000180033700 | 0x00033700
-`CliImmSetHotKey` | 1584 (0x630) | Exported Function | 0x000000018004ba70 | 0x0004ba70
-`ClientToScreen` | 1586 (0x632) | Exported Function | 0x0000000180011830 | 0x00011830
-`ClientThreadSetup` | 1585 (0x631) | Exported Function | 0x000000018001d4c0 | 0x0001d4c0
-`ChildWindowFromPointEx` | 1583 (0x62f) | Exported Function | 0x00000001800336e0 | 0x000336e0
-`ChildWindowFromPoint` | 1582 (0x62e) | Exported Function | 0x0000000180087a10 | 0x00087a10
-`CloseClipboard` | 1588 (0x634) | Exported Function | 0x000000018002c7e0 | 0x0002c7e0
-`CopyAcceleratorTableW` | 1597 (0x63d) | Exported Function | 0x0000000180033790 | 0x00033790
-`CopyIcon` | 1598 (0x63e) | Exported Function | 0x0000000180026eb0 | 0x00026eb0
-`CopyImage` | 1599 (0x63f) | Exported Function | 0x00000001800151d0 | 0x000151d0
-`CreateDialogParamA` | 1614 (0x64e) | Exported Function | 0x0000000180050ae0 | 0x00050ae0
-`CreateDialogIndirectParamW` | 1613 (0x64d) | Exported Function | 0x0000000180002930 | 0x00002930
-`CreateDialogIndirectParamAorW` | 1612 (0x64c) | Exported Function | 0x0000000180003b20 | 0x00003b20
-`CreateDialogIndirectParamA` | 1611 (0x64b) | Exported Function | 0x0000000180050ab0 | 0x00050ab0
-`CreateDesktopW` | 1610 (0x64a) | Exported Function | 0x000000018002c050 | 0x0002c050
-`CreateDesktopExW` | 1609 (0x649) | Exported Function | 0x000000018002c090 | 0x0002c090
-`CreateDesktopExA` | 1608 (0x648) | Exported Function | 0x0000000180087b40 | 0x00087b40
-`CreateDesktopA` | 1607 (0x647) | Exported Function | 0x0000000180087b00 | 0x00087b00
-`CreateDCompositionHwndTarget` | 1606 (0x646) | Exported Function | 0x00000001800337d0 | 0x000337d0
-`CreateCursor` | 1605 (0x645) | Exported Function | 0x0000000180031770 | 0x00031770
-`CreateCaret` | 1604 (0x644) | Exported Function | 0x000000018002bbd0 | 0x0002bbd0
-`CreateAcceleratorTableW` | 1603 (0x643) | Exported Function | 0x00000001800337a0 | 0x000337a0
-`CreateAcceleratorTableA` | 1602 (0x642) | Exported Function | 0x0000000180050a20 | 0x00050a20
-`CountClipboardFormats` | 1601 (0x641) | Exported Function | 0x000000018002b9a0 | 0x0002b9a0
-`CopyRect` | 1600 (0x640) | Exported Function | 0x0000000180023ad0 | 0x00023ad0
-`CheckRadioButton` | 1580 (0x62c) | Exported Function | 0x0000000180001200 | 0x00001200
-`GetAppCompatFlags` | 1794 (0x702) | Exported Function | 0x000000018002afc0 | 0x0002afc0
-`GetAppCompatFlags2` | 1795 (0x703) | Exported Function | 0x0000000180011b00 | 0x00011b00
-`GetAsyncKeyState` | 1796 (0x704) | Exported Function | 0x0000000180023e60 | 0x00023e60
-`GetWindowLongPtrA` | 1992 (0x7c8) | Exported Function | 0x0000000180010de0 | 0x00010de0
-`GetWindowLongA` | 1991 (0x7c7) | Exported Function | 0x0000000180013fa0 | 0x00013fa0
-`GetWindowInfo` | 1990 (0x7c6) | Exported Function | 0x00000001800105c0 | 0x000105c0
-`GetWindowFeedbackSetting` | 1989 (0x7c5) | Exported Function | 0x0000000180033f30 | 0x00033f30
-`GetWindowDpiHostingBehavior` | 1988 (0x7c4) | Exported Function | 0x0000000180088180 | 0x00088180
-`GetWindowDpiAwarenessContext` | 1987 (0x7c3) | Exported Function | 0x0000000180013420 | 0x00013420
-`GetWindowLongPtrW` | 1993 (0x7c9) | Exported Function | 0x000000018000f830 | 0x0000f830
-`GetWindowDisplayAffinity` | 1986 (0x7c2) | Exported Function | 0x0000000180033f20 | 0x00033f20
-`GetWindowContextHelpId` | 1984 (0x7c0) | Exported Function | 0x0000000180088160 | 0x00088160
-`GetWindowCompositionInfo` | 1983 (0x7bf) | Exported Function | 0x0000000180033f00 | 0x00033f00
-`GetWindowCompositionAttribute` | 1982 (0x7be) | Exported Function | 0x0000000180033ef0 | 0x00033ef0
-`GetWindowBand` | 1981 (0x7bd) | Exported Function | 0x0000000180033ee0 | 0x00033ee0
-`GetWindow` | 1980 (0x7bc) | Exported Function | 0x0000000180009da0 | 0x00009da0
-`GetUserObjectSecurity` | 1978 (0x7ba) | Exported Function | 0x00000001800880e0 | 0x000880e0
-`GetWindowDC` | 1985 (0x7c1) | Exported Function | 0x0000000180033f10 | 0x00033f10
-`GetUserObjectInformationW` | 1977 (0x7b9) | Exported Function | 0x0000000180033ed0 | 0x00033ed0
-`GetWindowLongW` | 1994 (0x7ca) | Exported Function | 0x000000018000fb70 | 0x0000fb70
-`GetWindowModuleFileName` | 1996 (0x7cc) | Exported Function | 0x000000018008b620 | 0x0008b620
-`GetWindowWord` | 2014 (0x7de) | Exported Function | 0x0000000180083330 | 0x00083330
-`GetWindowThreadProcessId` | 2013 (0x7dd) | Exported Function | 0x0000000180003500 | 0x00003500
-`GetWindowTextW` | 2012 (0x7dc) | Exported Function | 0x000000018000c2f0 | 0x0000c2f0
-`GetWindowTextLengthW` | 2011 (0x7db) | Exported Function | 0x000000018000a200 | 0x0000a200
-`GetWindowTextLengthA` | 2009 (0x7d9) | Exported Function | 0x000000018008b670 | 0x0008b670
-`GetWindowTextA` | 2008 (0x7d8) | Exported Function | 0x0000000180009490 | 0x00009490
-`GetWindowMinimizeRect` | 1995 (0x7cb) | Exported Function | 0x0000000180033f50 | 0x00033f50
-`GetWindowRgnEx` | 2007 (0x7d7) | Exported Function | 0x0000000180033f80 | 0x00033f80
-`GetWindowRgn` | 2004 (0x7d4) | Exported Function | 0x000000018002a1d0 | 0x0002a1d0
-`GetWindowRect` | 2003 (0x7d3) | Exported Function | 0x00000001800146e0 | 0x000146e0
-`GetWindowProcessHandle` | 2000 (0x7d0) | Exported Function | 0x0000000180033f70 | 0x00033f70
-`GetWindowPlacement` | 1999 (0x7cf) | Exported Function | 0x0000000180033f60 | 0x00033f60
-`GetWindowModuleFileNameW` | 1998 (0x7ce) | Exported Function | 0x0000000180088fa0 | 0x00088fa0
-`GetWindowModuleFileNameA` | 1997 (0x7cd) | Exported Function | 0x000000018008b620 | 0x0008b620
-`GetWindowRgnBox` | 2006 (0x7d6) | Exported Function | 0x00000001800090c0 | 0x000090c0
-`GetUserObjectInformationA` | 1976 (0x7b8) | Exported Function | 0x000000018002c370 | 0x0002c370
-`GetUpdateRgn` | 1974 (0x7b6) | Exported Function | 0x0000000180088040 | 0x00088040
-`GetUpdateRect` | 1973 (0x7b5) | Exported Function | 0x000000018002b1f0 | 0x0002b1f0
-`GetShellWindow` | 1954 (0x7a2) | Exported Function | 0x0000000180028140 | 0x00028140
-`GetShellChangeNotifyWindow` | 1953 (0x7a1) | Exported Function | 0x000000018002bdf0 | 0x0002bdf0
-`GetSendMessageReceiver` | 1952 (0x7a0) | Exported Function | 0x0000000180087fb0 | 0x00087fb0
-`GetScrollRange` | 1951 (0x79f) | Exported Function | 0x0000000180083260 | 0x00083260
-`GetScrollPos` | 1950 (0x79e) | Exported Function | 0x00000001800311d0 | 0x000311d0
-`GetScrollInfo` | 1949 (0x79d) | Exported Function | 0x00000001800283d0 | 0x000283d0
-`GetSubMenu` | 1955 (0x7a3) | Exported Function | 0x000000018002a030 | 0x0002a030
-`GetScrollBarInfo` | 1948 (0x79c) | Exported Function | 0x0000000180033e50 | 0x00033e50
-`GetReasonTitleFromReasonCode` | 1946 (0x79a) | Exported Function | 0x0000000180032500 | 0x00032500
-`GetRawPointerDeviceData` | 1945 (0x799) | Exported Function | 0x0000000180033e20 | 0x00033e20
-`GetRawInputDeviceList` | 1944 (0x798) | Exported Function | 0x0000000180033e10 | 0x00033e10
-`GetRawInputDeviceInfoW` | 1943 (0x797) | Exported Function | 0x00000001800321d0 | 0x000321d0
-`GetRawInputDeviceInfoA` | 1942 (0x796) | Exported Function | 0x000000018008b4e0 | 0x0008b4e0
-`GetRawInputData` | 1941 (0x795) | Exported Function | 0x0000000180033e00 | 0x00033e00
-`GetRegisteredRawInputDevices` | 1947 (0x79b) | Exported Function | 0x0000000180033e30 | 0x00033e30
-`GetSysColor` | 1956 (0x7a4) | Exported Function | 0x0000000180025e50 | 0x00025e50
-`GetSysColorBrush` | 1957 (0x7a5) | Exported Function | 0x0000000180028000 | 0x00028000
-`GetSystemDpiForProcess` | 1958 (0x7a6) | Exported Function | 0x0000000180033e60 | 0x00033e60
-`GetUpdatedClipboardFormats` | 1975 (0x7b7) | Exported Function | 0x0000000180085a30 | 0x00085a30
-`GetUnpredictedMessagePos` | 1972 (0x7b4) | Exported Function | 0x0000000180088020 | 0x00088020
-`GetTouchInputInfo` | 1971 (0x7b3) | Exported Function | 0x0000000180051660 | 0x00051660
-`GetTopWindow` | 1970 (0x7b2) | Exported Function | 0x000000018002d060 | 0x0002d060
-`GetTopLevelWindow` | 1969 (0x7b1) | Exported Function | 0x0000000180033ea0 | 0x00033ea0
-`GetTitleBarInfo` | 1968 (0x7b0) | Exported Function | 0x0000000180033e90 | 0x00033e90
-`GetThreadDpiHostingBehavior` | 1967 (0x7af) | Exported Function | 0x0000000180087fd0 | 0x00087fd0
-`GetThreadDpiAwarenessContext` | 1966 (0x7ae) | Exported Function | 0x0000000180023c90 | 0x00023c90
-`GetThreadDesktop` | 1965 (0x7ad) | Exported Function | 0x0000000180033e80 | 0x00033e80
-`GetTaskmanWindow` | 1964 (0x7ac) | Exported Function | 0x000000018002cb60 | 0x0002cb60
-`GetTabbedTextExtentW` | 1963 (0x7ab) | Exported Function | 0x0000000180057150 | 0x00057150
-`GetTabbedTextExtentA` | 1962 (0x7aa) | Exported Function | 0x0000000180057050 | 0x00057050
-`GetSystemMetricsForDpi` | 1961 (0x7a9) | Exported Function | 0x0000000180010bc0 | 0x00010bc0
-`GetSystemMetrics` | 1960 (0x7a8) | Exported Function | 0x0000000180020e50 | 0x00020e50
-`GetSystemMenu` | 1959 (0x7a7) | Exported Function | 0x0000000180033e70 | 0x00033e70
-`GetWinStationInfo` | 1979 (0x7bb) | Exported Function | 0x0000000180088140 | 0x00088140
-`GetRawInputBuffer` | 1940 (0x794) | Exported Function | 0x0000000180069f20 | 0x00069f20
-`GhostWindowFromHungWindow` | 2015 (0x7df) | Exported Function | 0x0000000180033f90 | 0x00033f90
-`GrayStringW` | 2017 (0x7e1) | Exported Function | 0x0000000180088250 | 0x00088250
-`IsClipboardFormatAvailable` | 2066 (0x812) | Exported Function | 0x0000000180023560 | 0x00023560
-`IsChild` | 2065 (0x811) | Exported Function | 0x0000000180013ff0 | 0x00013ff0
-`IsCharUpperW` | 2064 (0x810) | Exported Function | 0x0000000180085b10 | 0x00085b10
-`IsCharUpperA` | 2063 (0x80f) | Exported Function | 0x0000000180085af0 | 0x00085af0
-`IsCharLowerW` | 2062 (0x80e) | Exported Function | 0x0000000180085ad0 | 0x00085ad0
-`IsCharLowerA` | 2061 (0x80d) | Exported Function | 0x0000000180085ab0 | 0x00085ab0
-`IsDialogMessage` | 2067 (0x813) | Exported Function | 0x000000018005a010 | 0x0005a010
-`IsCharAlphaW` | 2060 (0x80c) | Exported Function | 0x0000000180085a90 | 0x00085a90
-`IsCharAlphaNumericA` | 2058 (0x80a) | Exported Function | 0x0000000180085a70 | 0x00085a70
-`IsCharAlphaA` | 2057 (0x809) | Exported Function | 0x0000000180085a50 | 0x00085a50
-`InvertRect` | 2056 (0x808) | Exported Function | 0x00000001800260a0 | 0x000260a0
-`InvalidateRgn` | 2055 (0x807) | Exported Function | 0x00000001800340e0 | 0x000340e0
-`InvalidateRect` | 2054 (0x806) | Exported Function | 0x00000001800340d0 | 0x000340d0
-`IntersectRect` | 2053 (0x805) | Exported Function | 0x0000000180013b80 | 0x00013b80
-`IsCharAlphaNumericW` | 2059 (0x80b) | Exported Function | 0x0000000180032410 | 0x00032410
-`InternalGetWindowText` | 2052 (0x804) | Exported Function | 0x0000000180027e60 | 0x00027e60
-`IsDialogMessageA` | 2068 (0x814) | Exported Function | 0x000000018005a010 | 0x0005a010
-`IsDlgButtonChecked` | 2070 (0x816) | Exported Function | 0x0000000180059f20 | 0x00059f20
-`IsThreadDesktopComposited` | 2084 (0x824) | Exported Function | 0x0000000180010d30 | 0x00010d30
-`IsSETEnabled` | 2082 (0x822) | Exported Function | 0x000000018007db30 | 0x0007db30
-`IsServerSideWindow` | 2083 (0x823) | Exported Function | 0x0000000180011b70 | 0x00011b70
-`IsRectEmpty` | 2081 (0x821) | Exported Function | 0x0000000180023420 | 0x00023420
-`IsQueueAttached` | 2080 (0x820) | Exported Function | 0x00000001800882b0 | 0x000882b0
-`IsProcessDPIAware` | 2079 (0x81f) | Exported Function | 0x0000000180021a90 | 0x00021a90
-`IsDialogMessageW` | 2069 (0x815) | Exported Function | 0x000000018000bdd0 | 0x0000bdd0
-`IsOneCoreTransformMode` | 2078 (0x81e) | Exported Function | 0x0000000180034130 | 0x00034130
-`IsMenu` | 2076 (0x81c) | Exported Function | 0x0000000180027810 | 0x00027810
-`IsInDesktopWindowBand` | 2075 (0x81b) | Exported Function | 0x000000018002b100 | 0x0002b100
-`IsImmersiveProcess` | 2074 (0x81a) | Exported Function | 0x00000001800294b0 | 0x000294b0
-`IsIconic` | 2073 (0x819) | Exported Function | 0x000000018000c1f0 | 0x0000c1f0
-`IsHungAppWindow` | 2072 (0x818) | Exported Function | 0x0000000180029d30 | 0x00029d30
-`IsGUIThread` | 2071 (0x817) | Exported Function | 0x0000000180027f90 | 0x00027f90
-`IsMouseInPointerEnabled` | 2077 (0x81d) | Exported Function | 0x0000000180034100 | 0x00034100
-`InternalGetWindowIcon` | 2051 (0x803) | Exported Function | 0x000000018007c570 | 0x0007c570
-`InsertMenuW` | 2050 (0x802) | Exported Function | 0x000000018001fa00 | 0x0001fa00
-`InsertMenuItemW` | 2049 (0x801) | Exported Function | 0x000000018001fae0 | 0x0001fae0
-`InheritWindowMonitor` | 2031 (0x7ef) | Exported Function | 0x0000000180033ff0 | 0x00033ff0
-`InflateRect` | 2030 (0x7ee) | Exported Function | 0x0000000180004ee0 | 0x00004ee0
-`IMPSetIMEW` | 2026 (0x7ea) | Exported Function | 0x0000000180084ff0 | 0x00084ff0
-`IMPSetIMEA` | 2025 (0x7e9) | Exported Function | 0x0000000180084fd0 | 0x00084fd0
-`IMPQueryIMEW` | 2024 (0x7e8) | Exported Function | 0x0000000180084fb0 | 0x00084fb0
-`IMPQueryIMEA` | 2023 (0x7e7) | Exported Function | 0x0000000180084f90 | 0x00084f90
-`InitDManipHook` | 2032 (0x7f0) | Exported Function | 0x00000001800222b0 | 0x000222b0
-`IMPGetIMEW` | 2022 (0x7e6) | Exported Function | 0x0000000180084f70 | 0x00084f70
-`ImpersonateDdeClientWindow` | 2027 (0x7eb) | Exported Function | 0x0000000180033fe0 | 0x00033fe0
-`HungWindowFromGhostWindow` | 2020 (0x7e4) | Exported Function | 0x0000000180033fd0 | 0x00033fd0
-`HiliteMenuItem` | 2019 (0x7e3) | Exported Function | 0x0000000180033fc0 | 0x00033fc0
-`HideCaret` | 2018 (0x7e2) | Exported Function | 0x0000000180028e30 | 0x00028e30
-`HandleDelegatedInput` | 2505 (0x9c9) | Exported Function | 0x0000000180033fa0 | 0x00033fa0
-`gSharedInfo` | 2500 (0x9c4) | Exported Function | 0x00000001800b3040 | 0x000b3040
-`IMPGetIMEA` | 2021 (0x7e5) | Exported Function | 0x0000000180084f50 | 0x00084f50
-`InitializeGenericHidInjection` | 2033 (0x7f1) | Exported Function | 0x0000000180034000 | 0x00034000
-`InitializeInputDeviceInjection` | 2034 (0x7f2) | Exported Function | 0x0000000180034010 | 0x00034010
-`InitializeLpkHooks` | 2035 (0x7f3) | Exported Function | 0x00000001800272e0 | 0x000272e0
-`InsertMenuItemA` | 2048 (0x800) | Exported Function | 0x000000018008b740 | 0x0008b740
-`InsertMenuA` | 2047 (0x7ff) | Exported Function | 0x000000018008b6c0 | 0x0008b6c0
-`InSendMessageEx` | 2029 (0x7ed) | Exported Function | 0x0000000180023b00 | 0x00023b00
-`InSendMessage` | 2028 (0x7ec) | Exported Function | 0x00000001800281a0 | 0x000281a0
-`InputSpaceRegionFromPoint` | 2046 (0x7fe) | Exported Function | 0x00000001800340b0 | 0x000340b0
-`InjectTouchInput` | 2045 (0x7fd) | Exported Function | 0x00000001800340a0 | 0x000340a0
-`InjectSyntheticPointerInput` | 2044 (0x7fc) | Exported Function | 0x0000000180034090 | 0x00034090
-`InjectPointerInput` | 2043 (0x7fb) | Exported Function | 0x0000000180034090 | 0x00034090
-`InjectMouseInput` | 2042 (0x7fa) | Exported Function | 0x0000000180034080 | 0x00034080
-`InjectKeyboardInput` | 2041 (0x7f9) | Exported Function | 0x0000000180034070 | 0x00034070
-`InjectGenericHidInput` | 2040 (0x7f8) | Exported Function | 0x0000000180034060 | 0x00034060
-`InjectDeviceInput` | 2039 (0x7f7) | Exported Function | 0x0000000180034050 | 0x00034050
-`InitializeTouchInjection` | 2038 (0x7f6) | Exported Function | 0x0000000180034040 | 0x00034040
-`InitializePointerDeviceInjectionEx` | 2037 (0x7f5) | Exported Function | 0x0000000180034030 | 0x00034030
-`InitializePointerDeviceInjection` | 2036 (0x7f4) | Exported Function | 0x0000000180034020 | 0x00034020
-`GrayStringA` | 2016 (0x7e0) | Exported Function | 0x00000001800881f0 | 0x000881f0
-`wvsprintfA` | 2580 (0xa14) | Exported Function | 0x0000000180027400 | 0x00027400
-`GetQueueStatus` | 1939 (0x793) | Exported Function | 0x0000000180020fb0 | 0x00020fb0
-`GetPropA` | 1937 (0x791) | Exported Function | 0x000000018002d8c0 | 0x0002d8c0
-`GetDpiForWindow` | 1847 (0x737) | Exported Function | 0x0000000180013f40 | 0x00013f40
-`GetDpiForSystem` | 1846 (0x736) | Exported Function | 0x0000000180011650 | 0x00011650
-`GetDpiForMonitorInternal` | 1845 (0x735) | Exported Function | 0x00000001800278c0 | 0x000278c0
-`GetDpiAwarenessContextForProcess` | 1844 (0x734) | Exported Function | 0x0000000180087ec0 | 0x00087ec0
-`GetDoubleClickTime` | 1843 (0x733) | Exported Function | 0x0000000180033ba0 | 0x00033ba0
-`GetDlgItemTextW` | 1842 (0x732) | Exported Function | 0x0000000180032120 | 0x00032120
-`GetDpiFromDpiAwarenessContext` | 1848 (0x738) | Exported Function | 0x0000000180087ee0 | 0x00087ee0
-`GetDlgItemTextA` | 1841 (0x731) | Exported Function | 0x000000018008b340 | 0x0008b340
-`GetDlgItem` | 1839 (0x72f) | Exported Function | 0x0000000180010170 | 0x00010170
-`GetDlgCtrlID` | 1838 (0x72e) | Exported Function | 0x0000000180020bf0 | 0x00020bf0
-`GetDisplayConfigBufferSizes` | 1837 (0x72d) | Exported Function | 0x0000000180028dc0 | 0x00028dc0
-`GetDisplayAutoRotationPreferences` | 1836 (0x72c) | Exported Function | 0x0000000180033b80 | 0x00033b80
-`GetDialogDpiChangeBehavior` | 1835 (0x72b) | Exported Function | 0x0000000180059d50 | 0x00059d50
-`GetDialogControlDpiChangeBehavior` | 1834 (0x72a) | Exported Function | 0x0000000180059d20 | 0x00059d20
-`GetDlgItemInt` | 1840 (0x730) | Exported Function | 0x0000000180059da0 | 0x00059da0
-`GetDialogBaseUnits` | 1833 (0x729) | Exported Function | 0x00000001800321f0 | 0x000321f0
-`GetExtendedPointerDeviceProperty` | 1849 (0x739) | Exported Function | 0x0000000180033bb0 | 0x00033bb0
-`GetForegroundWindow` | 1851 (0x73b) | Exported Function | 0x0000000180033bc0 | 0x00033bc0
-`GetKeyboardLayout` | 1868 (0x74c) | Exported Function | 0x0000000180026fd0 | 0x00026fd0
-`GetKBCodePage` | 1864 (0x748) | Exported Function | 0x0000000180087f30 | 0x00087f30
-`GetInternalWindowPos` | 1863 (0x747) | Exported Function | 0x0000000180033c50 | 0x00033c50
-`GetInputState` | 1862 (0x746) | Exported Function | 0x0000000180083220 | 0x00083220
-`GetInputLocaleInfo` | 1861 (0x745) | Exported Function | 0x0000000180033c10 | 0x00033c10
-`GetInputDesktop` | 1860 (0x744) | Exported Function | 0x0000000180087f10 | 0x00087f10
-`GetFocus` | 1850 (0x73a) | Exported Function | 0x00000001800239d0 | 0x000239d0
-`GetIconInfoExW` | 1859 (0x743) | Exported Function | 0x0000000180029e50 | 0x00029e50
-`GetIconInfo` | 1857 (0x741) | Exported Function | 0x0000000180026f10 | 0x00026f10
-`GetGUIThreadInfo` | 1852 (0x73c) | Exported Function | 0x0000000180033bd0 | 0x00033bd0
-`GetGuiResources` | 1856 (0x740) | Exported Function | 0x0000000180033bf0 | 0x00033bf0
-`GetGestureInfo` | 1855 (0x73f) | Exported Function | 0x000000018004f010 | 0x0004f010
-`GetGestureExtraArgs` | 1854 (0x73e) | Exported Function | 0x000000018004efe0 | 0x0004efe0
-`GetGestureConfig` | 1853 (0x73d) | Exported Function | 0x0000000180033be0 | 0x00033be0
-`GetIconInfoExA` | 1858 (0x742) | Exported Function | 0x0000000180050e70 | 0x00050e70
-`GetDesktopWindow` | 1832 (0x728) | Exported Function | 0x000000018000aeb0 | 0x0000aeb0
-`GetDesktopID` | 1831 (0x727) | Exported Function | 0x0000000180033b70 | 0x00033b70
-`GetDCEx` | 1830 (0x726) | Exported Function | 0x0000000180033b60 | 0x00033b60
-`GetClassLongW` | 1810 (0x712) | Exported Function | 0x0000000180011ba0 | 0x00011ba0
-`GetClassLongPtrW` | 1809 (0x711) | Exported Function | 0x0000000180027eb0 | 0x00027eb0
-`GetClassLongPtrA` | 1808 (0x710) | Exported Function | 0x000000018008b2e0 | 0x0008b2e0
-`GetClassLongA` | 1807 (0x70f) | Exported Function | 0x000000018008b280 | 0x0008b280
-`GetClassInfoW` | 1806 (0x70e) | Exported Function | 0x0000000180007070 | 0x00007070
-`GetClassInfoExW` | 1805 (0x70d) | Exported Function | 0x00000001800070c0 | 0x000070c0
-`GetClassNameA` | 1811 (0x713) | Exported Function | 0x000000018008a970 | 0x0008a970
-`GetClassInfoExA` | 1804 (0x70c) | Exported Function | 0x0000000180002b40 | 0x00002b40
-`GetCIMSSM` | 1799 (0x707) | Exported Function | 0x0000000180033ad0 | 0x00033ad0
-`GetCaretPos` | 1802 (0x70a) | Exported Function | 0x0000000180033af0 | 0x00033af0
-`GetCaretBlinkTime` | 1801 (0x709) | Exported Function | 0x0000000180033ae0 | 0x00033ae0
-`GetCapture` | 1800 (0x708) | Exported Function | 0x0000000180027cb0 | 0x00027cb0
-`GetAwarenessFromDpiAwarenessContext` | 1798 (0x706) | Exported Function | 0x0000000180027df0 | 0x00027df0
-`GetAutoRotationState` | 1797 (0x705) | Exported Function | 0x0000000180033ac0 | 0x00033ac0
-`GetClassInfoA` | 1803 (0x70b) | Exported Function | 0x0000000180002aa0 | 0x00002aa0
-`GetClassNameW` | 1812 (0x714) | Exported Function | 0x0000000180021c80 | 0x00021c80
-`GetClassWord` | 1813 (0x715) | Exported Function | 0x00000001800285e0 | 0x000285e0
-`GetClientRect` | 1814 (0x716) | Exported Function | 0x0000000180012d30 | 0x00012d30
-`GetDC` | 1829 (0x725) | Exported Function | 0x0000000180026140 | 0x00026140
-`GetCursorPos` | 1828 (0x724) | Exported Function | 0x0000000180027ce0 | 0x00027ce0
-`GetCursorInfo` | 1827 (0x723) | Exported Function | 0x0000000180033b50 | 0x00033b50
-`GetCursorFrameInfo` | 1826 (0x722) | Exported Function | 0x000000018002c450 | 0x0002c450
-`GetCursor` | 1825 (0x721) | Exported Function | 0x0000000180033b40 | 0x00033b40
-`GetCurrentInputMessageSource` | 1824 (0x720) | Exported Function | 0x0000000180033b30 | 0x00033b30
-`GetComboBoxInfo` | 1823 (0x71f) | Exported Function | 0x0000000180033b20 | 0x00033b20
-`GetClipCursor` | 1815 (0x717) | Exported Function | 0x0000000180033b00 | 0x00033b00
-`GetClipboardViewer` | 1822 (0x71e) | Exported Function | 0x00000001800859f0 | 0x000859f0
-`GetClipboardSequenceNumber` | 1821 (0x71d) | Exported Function | 0x000000018002c600 | 0x0002c600
-`GetClipboardOwner` | 1820 (0x71c) | Exported Function | 0x000000018002cbb0 | 0x0002cbb0
-`GetClipboardFormatNameW` | 1819 (0x71b) | Exported Function | 0x000000018002c780 | 0x0002c780
-`GetClipboardFormatNameA` | 1818 (0x71a) | Exported Function | 0x0000000180084690 | 0x00084690
-`GetClipboardData` | 1817 (0x719) | Exported Function | 0x000000018002b250 | 0x0002b250
-`GetClipboardAccessToken` | 1816 (0x718) | Exported Function | 0x0000000180033b10 | 0x00033b10
-`GetKeyboardLayoutList` | 1869 (0x74d) | Exported Function | 0x0000000180033c60 | 0x00033c60
-`GetPropW` | 1938 (0x792) | Exported Function | 0x0000000180009f10 | 0x00009f10
-`GetKeyboardLayoutNameA` | 1870 (0x74e) | Exported Function | 0x0000000180084800 | 0x00084800
-`GetKeyboardState` | 1872 (0x750) | Exported Function | 0x0000000180033c70 | 0x00033c70
-`GetPointerFramePenInfo` | 1919 (0x77f) | Exported Function | 0x0000000180050120 | 0x00050120
-`GetPointerFrameInfoHistory` | 1918 (0x77e) | Exported Function | 0x00000001800500e0 | 0x000500e0
-`GetPointerFrameInfo` | 1917 (0x77d) | Exported Function | 0x0000000180050090 | 0x00050090
-`GetPointerFrameArrivalTimes` | 1503 (0x5df) | Exported Function | 0x000000018004ff10 | 0x0004ff10
-`GetPointerDevices` | 1916 (0x77c) | Exported Function | 0x0000000180033d70 | 0x00033d70
-`GetPointerDeviceRects` | 1915 (0x77b) | Exported Function | 0x0000000180033d60 | 0x00033d60
-`GetPointerFramePenInfoHistory` | 1920 (0x780) | Exported Function | 0x0000000180050170 | 0x00050170
-`GetPointerDeviceProperties` | 1914 (0x77a) | Exported Function | 0x0000000180033d50 | 0x00033d50
-`GetPointerDeviceInputSpace` | 1912 (0x778) | Exported Function | 0x0000000180033d30 | 0x00033d30
-`GetPointerDeviceCursors` | 1911 (0x777) | Exported Function | 0x0000000180033d20 | 0x00033d20
-`GetPointerDevice` | 1910 (0x776) | Exported Function | 0x0000000180033d10 | 0x00033d10
-`GetPointerCursorId` | 1909 (0x775) | Exported Function | 0x0000000180033d00 | 0x00033d00
-`GetPhysicalCursorPos` | 1908 (0x774) | Exported Function | 0x0000000180027ce0 | 0x00027ce0
-`GetParent` | 1907 (0x773) | Exported Function | 0x000000018001dd20 | 0x0001dd20
-`GetPointerDeviceOrientation` | 1913 (0x779) | Exported Function | 0x0000000180033d40 | 0x00033d40
-`GetOpenClipboardWindow` | 1906 (0x772) | Exported Function | 0x000000018002cb40 | 0x0002cb40
-`GetPointerFrameTimes` | 1921 (0x781) | Exported Function | 0x0000000180033d80 | 0x00033d80
-`GetPointerFrameTouchInfoHistory` | 1923 (0x783) | Exported Function | 0x0000000180050200 | 0x00050200
-`GetProgmanWindow` | 1936 (0x790) | Exported Function | 0x0000000180087f50 | 0x00087f50
-`GetProcessWindowStation` | 1935 (0x78f) | Exported Function | 0x0000000180033de0 | 0x00033de0
-`GetProcessUIContextInformation` | 2521 (0x9d9) | Exported Function | 0x0000000180033dd0 | 0x00033dd0
-`GetProcessDpiAwarenessInternal` | 1934 (0x78e) | Exported Function | 0x000000018002b5b0 | 0x0002b5b0
-`GetProcessDefaultLayout` | 1933 (0x78d) | Exported Function | 0x000000018002cb20 | 0x0002cb20
-`GetPriorityClipboardFormat` | 1932 (0x78c) | Exported Function | 0x0000000180085a10 | 0x00085a10
-`GetPointerFrameTouchInfo` | 1922 (0x782) | Exported Function | 0x00000001800501b0 | 0x000501b0
-`GetPointerType` | 1931 (0x78b) | Exported Function | 0x0000000180033db0 | 0x00033db0
-`GetPointerTouchInfo` | 1929 (0x789) | Exported Function | 0x00000001800503a0 | 0x000503a0
-`GetPointerPenInfoHistory` | 1928 (0x788) | Exported Function | 0x0000000180050350 | 0x00050350
-`GetPointerPenInfo` | 1927 (0x787) | Exported Function | 0x00000001800502f0 | 0x000502f0
-`GetPointerInputTransform` | 1926 (0x786) | Exported Function | 0x0000000180033d90 | 0x00033d90
-`GetPointerInfoHistory` | 1925 (0x785) | Exported Function | 0x00000001800502a0 | 0x000502a0
-`GetPointerInfo` | 1924 (0x784) | Exported Function | 0x0000000180050240 | 0x00050240
-`GetPointerTouchInfoHistory` | 1930 (0x78a) | Exported Function | 0x0000000180050400 | 0x00050400
-`GetNextDlgTabItem` | 1905 (0x771) | Exported Function | 0x0000000180001c10 | 0x00001c10
-`GetNextDlgGroupItem` | 1904 (0x770) | Exported Function | 0x000000018005a3a0 | 0x0005a3a0
-`GetMouseMovePointsEx` | 1903 (0x76f) | Exported Function | 0x0000000180033cd0 | 0x00033cd0
-`GetMenuBarInfo` | 1883 (0x75b) | Exported Function | 0x0000000180033cb0 | 0x00033cb0
-`GetMenu` | 1882 (0x75a) | Exported Function | 0x000000018002a360 | 0x0002a360
-`GetMagnificationLensCtxInformation` | 1881 (0x759) | Exported Function | 0x0000000180033ca0 | 0x00033ca0
-`GetMagnificationDesktopSamplingMode` | 1880 (0x758) | Exported Function | 0x0000000180075ae0 | 0x00075ae0
-`GetMagnificationDesktopMagnification` | 1879 (0x757) | Exported Function | 0x0000000180075a40 | 0x00075a40
-`GetMagnificationDesktopColorEffect` | 1878 (0x756) | Exported Function | 0x0000000180075950 | 0x00075950
-`GetMenuCheckMarkDimensions` | 1884 (0x75c) | Exported Function | 0x0000000180077d30 | 0x00077d30
-`GetListBoxInfo` | 1877 (0x755) | Exported Function | 0x0000000180033c90 | 0x00033c90
-`GetLastInputInfo` | 1875 (0x753) | Exported Function | 0x00000001800269c0 | 0x000269c0
-`GetLastActivePopup` | 1874 (0x752) | Exported Function | 0x0000000180014cd0 | 0x00014cd0
-`GetKeyState` | 1867 (0x74b) | Exported Function | 0x000000018001e0c0 | 0x0001e0c0
-`GetKeyNameTextW` | 1866 (0x74a) | Exported Function | 0x000000018002bfe0 | 0x0002bfe0
-`GetKeyNameTextA` | 1865 (0x749) | Exported Function | 0x0000000180084740 | 0x00084740
-`GetKeyboardType` | 1873 (0x751) | Exported Function | 0x0000000180031d60 | 0x00031d60
-`GetLayeredWindowAttributes` | 1876 (0x754) | Exported Function | 0x0000000180033c80 | 0x00033c80
-`GetMenuContextHelpId` | 1885 (0x75d) | Exported Function | 0x0000000180077d70 | 0x00077d70
-`GetMenuDefaultItem` | 1886 (0x75e) | Exported Function | 0x0000000180029020 | 0x00029020
-`GetMenuInfo` | 1887 (0x75f) | Exported Function | 0x0000000180001550 | 0x00001550
-`GetMonitorInfoW` | 1902 (0x76e) | Exported Function | 0x00000001800207a0 | 0x000207a0
-`GetMonitorInfoA` | 1901 (0x76d) | Exported Function | 0x000000018002db60 | 0x0002db60
-`GetMessageW` | 1900 (0x76c) | Exported Function | 0x0000000180021b10 | 0x00021b10
-`GetMessageTime` | 1899 (0x76b) | Exported Function | 0x0000000180029d60 | 0x00029d60
-`GetMessagePos` | 1898 (0x76a) | Exported Function | 0x000000018002aef0 | 0x0002aef0
-`GetMessageExtraInfo` | 1897 (0x769) | Exported Function | 0x0000000180029430 | 0x00029430
-`GetMessageA` | 1896 (0x768) | Exported Function | 0x0000000180028690 | 0x00028690
-`GetMenuStringW` | 1895 (0x767) | Exported Function | 0x0000000180030c80 | 0x00030c80
-`GetMenuStringA` | 1894 (0x766) | Exported Function | 0x000000018008b490 | 0x0008b490
-`GetMenuState` | 1893 (0x765) | Exported Function | 0x000000018001f8d0 | 0x0001f8d0
-`GetMenuItemRect` | 1892 (0x764) | Exported Function | 0x0000000180033cc0 | 0x00033cc0
-`GetMenuItemInfoW` | 1891 (0x763) | Exported Function | 0x000000018001fc90 | 0x0001fc90
-`GetMenuItemInfoA` | 1890 (0x762) | Exported Function | 0x000000018008b390 | 0x0008b390
-`GetMenuItemID` | 1889 (0x761) | Exported Function | 0x000000018002a4c0 | 0x0002a4c0
-`GetMenuItemCount` | 1888 (0x760) | Exported Function | 0x0000000180026170 | 0x00026170
-`GetKeyboardLayoutNameW` | 1871 (0x74f) | Exported Function | 0x000000018002c000 | 0x0002c000
-`wvsprintfW` | 2583 (0xa17) | Exported Function | 0x0000000180029970 | 0x00029970
+Function Name | Ordinal | Type
+-- | -- | --
+`OemToCharA` | 2171 | Exported Function
+`OemKeyScan` | 2170 | Exported Function
+`NotifyWinEvent` | 2169 | Exported Function
+`OemToCharBuffA` | 2172 | Exported Function
+`OffsetRect` | 2175 | Exported Function
+`OemToCharW` | 2174 | Exported Function
+`OemToCharBuffW` | 2173 | Exported Function
+`NotifyOverlayWindow` | 2168 | Exported Function
+`MonitorFromWindow` | 2164 | Exported Function
+`MonitorFromRect` | 2163 | Exported Function
+`MonitorFromPoint` | 2162 | Exported Function
+`mouse_event` | 2543 | Exported Function
+`MsgWaitForMultipleObjectsEx` | 2167 | Exported Function
+`MsgWaitForMultipleObjects` | 2166 | Exported Function
+`MoveWindow` | 2165 | Exported Function
+`OpenClipboard` | 2176 | Exported Function
+`PaintMenuBar` | 2187 | Exported Function
+`PaintDesktop` | 2186 | Exported Function
+`PackTouchHitTestingProximityEvaluation` | 2185 | Exported Function
+`PaintMonitor` | 2188 | Exported Function
+`PhysicalToLogicalPoint` | 2191 | Exported Function
+`PeekMessageW` | 2190 | Exported Function
+`PeekMessageA` | 2189 | Exported Function
+`PackDDElParam` | 2184 | Exported Function
+`OpenIcon` | 2179 | Exported Function
+`OpenDesktopW` | 2178 | Exported Function
+`OpenDesktopA` | 2177 | Exported Function
+`OpenInputDesktop` | 2180 | Exported Function
+`OpenWindowStationW` | 2183 | Exported Function
+`OpenWindowStationA` | 2182 | Exported Function
+`OpenThreadDesktop` | 2181 | Exported Function
+`MBToWCSEx` | 2131 | Exported Function
+`MB_GetString` | 2133 | Exported Function
+`MapWindowPoints` | 2147 | Exported Function
+`MBToWCSExt` | 2132 | Exported Function
+`MenuWindowProcW` | 2150 | Exported Function
+`MenuWindowProcA` | 2149 | Exported Function
+`MenuItemFromPoint` | 2148 | Exported Function
+`MapVisualRelativePoints` | 2146 | Exported Function
+`MapPointsByVisualIdentifier` | 2141 | Exported Function
+`MapDialogRect` | 2140 | Exported Function
+`MakeThreadTSFEventAware` | 2139 | Exported Function
+`MapVirtualKeyA` | 2142 | Exported Function
+`MapVirtualKeyW` | 2145 | Exported Function
+`MapVirtualKeyExW` | 2144 | Exported Function
+`MapVirtualKeyExA` | 2143 | Exported Function
+`MessageBeep` | 2151 | Exported Function
+`MITSetInputDelegationMode` | 2136 | Exported Function
+`MITSetForegroundRoutingInfo` | 2135 | Exported Function
+`MITGetCursorUpdateHandle` | 2134 | Exported Function
+`MITSetLastInputRecipient` | 2137 | Exported Function
+`ModifyMenuW` | 2161 | Exported Function
+`ModifyMenuA` | 2160 | Exported Function
+`MITSynthesizeTouchInput` | 2138 | Exported Function
+`MessageBoxW` | 2159 | Exported Function
+`MessageBoxExW` | 2154 | Exported Function
+`MessageBoxExA` | 2153 | Exported Function
+`MessageBoxA` | 2152 | Exported Function
+`MessageBoxIndirectA` | 2155 | Exported Function
+`MessageBoxTimeoutW` | 2158 | Exported Function
+`MessageBoxTimeoutA` | 2157 | Exported Function
+`MessageBoxIndirectW` | 2156 | Exported Function
+`PhysicalToLogicalPointForPerMonitorDPI` | 2192 | Exported Function
+`RegisterPointerInputTargetEx` | 2256 | Exported Function
+`RegisterPointerInputTarget` | 2255 | Exported Function
+`RegisterPointerDeviceNotifications` | 2254 | Exported Function
+`RegisterPowerSettingNotification` | 2257 | Exported Function
+`RegisterSessionPort` | 2260 | Exported Function
+`RegisterServicesProcess` | 2259 | Exported Function
+`RegisterRawInputDevices` | 2258 | Exported Function
+`RegisterMessagePumpHook` | 2253 | Exported Function
+`RegisterErrorReportingDialog` | 2248 | Exported Function
+`RegisterDManipHook` | 2245 | Exported Function
+`RegisterDeviceNotificationW` | 2247 | Exported Function
+`RegisterFrostWindow` | 2249 | Exported Function
+`RegisterLogonProcess` | 2252 | Exported Function
+`RegisterHotKey` | 2251 | Exported Function
+`RegisterGhostWindow` | 2250 | Exported Function
+`RegisterShellHookWindow` | 2261 | Exported Function
+`ReleaseDwmHitTestWaiters` | 2272 | Exported Function
+`ReleaseDC` | 2271 | Exported Function
+`ReleaseCapture` | 2270 | Exported Function
+`RemoveClipboardFormatListener` | 2273 | Exported Function
+`RemovePropA` | 2276 | Exported Function
+`RemoveMenu` | 2275 | Exported Function
+`RemoveInjectionDevice` | 2274 | Exported Function
+`RegisterWindowMessageW` | 2269 | Exported Function
+`RegisterTasklist` | 2264 | Exported Function
+`RegisterSystemThread` | 2263 | Exported Function
+`RegisterSuspendResumeNotification` | 2262 | Exported Function
+`RegisterTouchHitTestingWindow` | 2265 | Exported Function
+`RegisterWindowMessageA` | 2268 | Exported Function
+`RegisterUserApiHook` | 2267 | Exported Function
+`RegisterTouchWindow` | 2266 | Exported Function
+`PrivateRegisterICSProc` | 2203 | Exported Function
+`PrivateExtractIconsW` | 2202 | Exported Function
+`PrivateExtractIconsA` | 2201 | Exported Function
+`PtInRect` | 2204 | Exported Function
+`QuerySendMessage` | 2207 | Exported Function
+`QueryDisplayConfig` | 2206 | Exported Function
+`QueryBSDRWindow` | 2205 | Exported Function
+`PrivateExtractIconExW` | 2200 | Exported Function
+`PostQuitMessage` | 2195 | Exported Function
+`PostMessageW` | 2194 | Exported Function
+`PostMessageA` | 2193 | Exported Function
+`PostThreadMessageA` | 2196 | Exported Function
+`PrivateExtractIconExA` | 2199 | Exported Function
+`PrintWindow` | 2198 | Exported Function
+`PostThreadMessageW` | 2197 | Exported Function
+`RealChildWindowFromPoint` | 2230 | Exported Function
+`RegisterClassExW` | 2241 | Exported Function
+`RegisterClassExA` | 2240 | Exported Function
+`RegisterClassA` | 2239 | Exported Function
+`RegisterClassW` | 2242 | Exported Function
+`RegisterDeviceNotificationA` | 2246 | Exported Function
+`RegisterClipboardFormatW` | 2244 | Exported Function
+`RegisterClipboardFormatA` | 2243 | Exported Function
+`RegisterBSDRWindow` | 2238 | Exported Function
+`RealGetWindowClassW` | 2233 | Exported Function
+`RealGetWindowClassA` | 2232 | Exported Function
+`RealGetWindowClass` | 2231 | Exported Function
+`ReasonCodeNeedsBugID` | 2234 | Exported Function
+`RedrawWindow` | 2237 | Exported Function
+`RecordShutdownReason` | 2236 | Exported Function
+`ReasonCodeNeedsComment` | 2235 | Exported Function
+`LookupIconIdFromDirectoryEx` | 2130 | Exported Function
+`InsertMenuItemA` | 2048 | Exported Function
+`InsertMenuA` | 2047 | Exported Function
+`InSendMessageEx` | 2029 | Exported Function
+`InsertMenuItemW` | 2049 | Exported Function
+`InternalGetWindowText` | 2052 | Exported Function
+`InternalGetWindowIcon` | 2051 | Exported Function
+`InsertMenuW` | 2050 | Exported Function
+`InSendMessage` | 2028 | Exported Function
+`InjectMouseInput` | 2042 | Exported Function
+`InjectKeyboardInput` | 2041 | Exported Function
+`InjectGenericHidInput` | 2040 | Exported Function
+`InjectPointerInput` | 2043 | Exported Function
+`InputSpaceRegionFromPoint` | 2046 | Exported Function
+`InjectTouchInput` | 2045 | Exported Function
+`InjectSyntheticPointerInput` | 2044 | Exported Function
+`IntersectRect` | 2053 | Exported Function
+`IsCharUpperW` | 2064 | Exported Function
+`IsCharUpperA` | 2063 | Exported Function
+`IsCharLowerW` | 2062 | Exported Function
+`IsChild` | 2065 | Exported Function
+`IsDialogMessageA` | 2068 | Exported Function
+`IsDialogMessage` | 2067 | Exported Function
+`IsClipboardFormatAvailable` | 2066 | Exported Function
+`IsCharLowerA` | 2061 | Exported Function
+`InvertRect` | 2056 | Exported Function
+`InvalidateRgn` | 2055 | Exported Function
+`InvalidateRect` | 2054 | Exported Function
+`IsCharAlphaA` | 2057 | Exported Function
+`IsCharAlphaW` | 2060 | Exported Function
+`IsCharAlphaNumericW` | 2059 | Exported Function
+`IsCharAlphaNumericA` | 2058 | Exported Function
+`HandleDelegatedInput` | 2505 | Exported Function
+`gSharedInfo` | 2500 | Exported Function
+`GrayStringW` | 2017 | Exported Function
+`HideCaret` | 2018 | Exported Function
+`ImpersonateDdeClientWindow` | 2027 | Exported Function
+`HungWindowFromGhostWindow` | 2020 | Exported Function
+`HiliteMenuItem` | 2019 | Exported Function
+`GrayStringA` | 2016 | Exported Function
+`GetWindowTextW` | 2012 | Exported Function
+`GetWindowTextLengthW` | 2011 | Exported Function
+`GetWindowTextLengthA` | 2009 | Exported Function
+`GetWindowThreadProcessId` | 2013 | Exported Function
+`GhostWindowFromHungWindow` | 2015 | Exported Function
+`GetWinStationInfo` | 1979 | Exported Function
+`GetWindowWord` | 2014 | Exported Function
+`IMPGetIMEA` | 2021 | Exported Function
+`InitializeLpkHooks` | 2035 | Exported Function
+`InitializeInputDeviceInjection` | 2034 | Exported Function
+`InitializeGenericHidInjection` | 2033 | Exported Function
+`InitializePointerDeviceInjection` | 2036 | Exported Function
+`InjectDeviceInput` | 2039 | Exported Function
+`InitializeTouchInjection` | 2038 | Exported Function
+`InitializePointerDeviceInjectionEx` | 2037 | Exported Function
+`InitDManipHook` | 2032 | Exported Function
+`IMPQueryIMEW` | 2024 | Exported Function
+`IMPQueryIMEA` | 2023 | Exported Function
+`IMPGetIMEW` | 2022 | Exported Function
+`IMPSetIMEA` | 2025 | Exported Function
+`InheritWindowMonitor` | 2031 | Exported Function
+`InflateRect` | 2030 | Exported Function
+`IMPSetIMEW` | 2026 | Exported Function
+`IsDialogMessageW` | 2069 | Exported Function
+`LoadIconW` | 2109 | Exported Function
+`LoadIconA` | 2108 | Exported Function
+`LoadCursorW` | 2107 | Exported Function
+`LoadImageA` | 2110 | Exported Function
+`LoadKeyboardLayoutEx` | 2113 | Exported Function
+`LoadKeyboardLayoutA` | 2112 | Exported Function
+`LoadImageW` | 2111 | Exported Function
+`LoadCursorFromFileW` | 2106 | Exported Function
+`LoadAcceleratorsW` | 2101 | Exported Function
+`LoadAcceleratorsA` | 2100 | Exported Function
+`KillTimer` | 2099 | Exported Function
+`LoadBitmapA` | 2102 | Exported Function
+`LoadCursorFromFileA` | 2105 | Exported Function
+`LoadCursorA` | 2104 | Exported Function
+`LoadBitmapW` | 2103 | Exported Function
+`LoadKeyboardLayoutW` | 2114 | Exported Function
+`LockWindowUpdate` | 2125 | Exported Function
+`LockWindowStation` | 2124 | Exported Function
+`LockSetForegroundWindow` | 2123 | Exported Function
+`LockWorkStation` | 2126 | Exported Function
+`LookupIconIdFromDirectory` | 2129 | Exported Function
+`LogicalToPhysicalPointForPerMonitorDPI` | 2128 | Exported Function
+`LogicalToPhysicalPoint` | 2127 | Exported Function
+`LoadStringW` | 2122 | Exported Function
+`LoadMenuIndirectA` | 2117 | Exported Function
+`LoadMenuA` | 2116 | Exported Function
+`LoadLocalFonts` | 2115 | Exported Function
+`LoadMenuIndirectW` | 2118 | Exported Function
+`LoadStringA` | 2121 | Exported Function
+`LoadRemoteFonts` | 2120 | Exported Function
+`LoadMenuW` | 2119 | Exported Function
+`IsQueueAttached` | 2080 | Exported Function
+`IsProcessDPIAware` | 2079 | Exported Function
+`IsOneCoreTransformMode` | 2078 | Exported Function
+`IsRectEmpty` | 2081 | Exported Function
+`IsThreadDesktopComposited` | 2084 | Exported Function
+`IsSETEnabled` | 2082 | Exported Function
+`IsServerSideWindow` | 2083 | Exported Function
+`IsMouseInPointerEnabled` | 2077 | Exported Function
+`IsHungAppWindow` | 2072 | Exported Function
+`IsGUIThread` | 2071 | Exported Function
+`IsDlgButtonChecked` | 2070 | Exported Function
+`IsIconic` | 2073 | Exported Function
+`IsMenu` | 2076 | Exported Function
+`IsInDesktopWindowBand` | 2075 | Exported Function
+`IsImmersiveProcess` | 2074 | Exported Function
+`IsThreadMessageQueueAttached` | 2528 | Exported Function
+`IsWindowVisible` | 2096 | Exported Function
+`IsWindowUnicode` | 2095 | Exported Function
+`IsWindowRedirectedForPrint` | 2094 | Exported Function
+`IsWinEventHookInstalled` | 2089 | Exported Function
+`keybd_event` | 2502 | Exported Function
+`IsZoomed` | 2098 | Exported Function
+`IsWow64Message` | 2097 | Exported Function
+`IsWindowInDestroy` | 2093 | Exported Function
+`IsTouchWindow` | 2087 | Exported Function
+`IsTopLevelWindow` | 2086 | Exported Function
+`IsThreadTSFEventAware` | 2085 | Exported Function
+`IsValidDpiAwarenessContext` | 2088 | Exported Function
+`IsWindowEnabled` | 2092 | Exported Function
+`IsWindowArranged` | 2091 | Exported Function
+`IsWindow` | 2090 | Exported Function
+`SoftModalMessageBox` | 2420 | Exported Function
+`SkipPointerFrameMessages` | 2419 | Exported Function
+`SignalRedirectionStartComplete` | 2418 | Exported Function
+`SoundSentry` | 2421 | Exported Function
+`SwitchDesktop` | 2424 | Exported Function
+`SwapMouseButton` | 2423 | Exported Function
+`SubtractRect` | 2422 | Exported Function
+`ShutdownBlockReasonQuery` | 2417 | Exported Function
+`ShowSystemCursor` | 2412 | Exported Function
+`ShowStartGlass` | 2411 | Exported Function
+`ShowScrollBar` | 2410 | Exported Function
+`ShowWindow` | 2413 | Exported Function
+`ShutdownBlockReasonDestroy` | 2416 | Exported Function
+`ShutdownBlockReasonCreate` | 2415 | Exported Function
+`ShowWindowAsync` | 2414 | Exported Function
+`SwitchDesktopWithFade` | 2425 | Exported Function
+`ToUnicode` | 2436 | Exported Function
+`ToAsciiEx` | 2435 | Exported Function
+`ToAscii` | 2434 | Exported Function
+`ToUnicodeEx` | 2437 | Exported Function
+`TrackPopupMenuEx` | 2440 | Exported Function
+`TrackPopupMenu` | 2439 | Exported Function
+`TrackMouseEvent` | 2438 | Exported Function
+`TileWindows` | 2433 | Exported Function
+`SystemParametersInfoForDpi` | 2428 | Exported Function
+`SystemParametersInfoA` | 2427 | Exported Function
+`SwitchToThisWindow` | 2426 | Exported Function
+`SystemParametersInfoW` | 2429 | Exported Function
+`TileChildWindows` | 2432 | Exported Function
+`TabbedTextOutW` | 2431 | Exported Function
+`TabbedTextOutA` | 2430 | Exported Function
+`SetWindowFeedbackSetting` | 2390 | Exported Function
+`SetWindowDisplayAffinity` | 2389 | Exported Function
+`SetWindowContextHelpId` | 2388 | Exported Function
+`SetWindowLongA` | 2391 | Exported Function
+`SetWindowLongW` | 2394 | Exported Function
+`SetWindowLongPtrW` | 2393 | Exported Function
+`SetWindowLongPtrA` | 2392 | Exported Function
+`SetWindowCompositionTransition` | 2387 | Exported Function
+`SetUserObjectInformationA` | 2381 | Exported Function
+`SetTimer` | 2380 | Exported Function
+`SetThreadInputBlocked` | 2379 | Exported Function
+`SetUserObjectInformationW` | 2382 | Exported Function
+`SetWindowCompositionAttribute` | 2386 | Exported Function
+`SetWindowBand` | 2385 | Exported Function
+`SetUserObjectSecurity` | 2383 | Exported Function
+`SetWindowPlacement` | 2395 | Exported Function
+`SetWindowWord` | 2402 | Exported Function
+`SetWindowTextW` | 2401 | Exported Function
+`SetWindowTextA` | 2400 | Exported Function
+`SetWinEventHook` | 2384 | Exported Function
+`ShowOwnedPopups` | 2409 | Exported Function
+`ShowCursor` | 2408 | Exported Function
+`ShowCaret` | 2407 | Exported Function
+`SetWindowStationUser` | 2399 | Exported Function
+`SetWindowRgnEx` | 2398 | Exported Function
+`SetWindowRgn` | 2397 | Exported Function
+`SetWindowPos` | 2396 | Exported Function
+`SetWindowsHookA` | 2403 | Exported Function
+`SetWindowsHookW` | 2406 | Exported Function
+`SetWindowsHookExW` | 2405 | Exported Function
+`SetWindowsHookExA` | 2404 | Exported Function
+`TranslateAccelerator` | 2441 | Exported Function
+`VkKeyScanExA` | 2484 | Exported Function
+`VkKeyScanA` | 2483 | Exported Function
+`ValidateRgn` | 2482 | Exported Function
+`VkKeyScanExW` | 2485 | Exported Function
+`VTagOutput` | 2480 | Exported Function
+`VRipOutput` | 2479 | Exported Function
+`VkKeyScanW` | 2486 | Exported Function
+`ValidateRect` | 2481 | Exported Function
+`UserHandleGrantAccess` | 2474 | Exported Function
+`UserClientDllInitialize` | 2473 | Exported Function
+`User32InitializeImmEntryTable` | 2472 | Exported Function
+`UserLpkPSMTextOut` | 2475 | Exported Function
+`UserRegisterWowHandlers` | 2478 | Exported Function
+`UserRealizePalette` | 2477 | Exported Function
+`UserLpkTabbedTextOut` | 2476 | Exported Function
+`WaitForInputIdle` | 2491 | Exported Function
+`WINNLSGetIMEHotkey` | 2490 | Exported Function
+`WINNLSGetEnableStatus` | 2489 | Exported Function
+`WINNLSEnableIME` | 2488 | Exported Function
+`wsprintfA` | 2547 | Exported Function
+`wvsprintfW` | 2583 | Exported Function
+`wvsprintfA` | 2580 | Exported Function
+`wsprintfW` | 2562 | Exported Function
+`WinHelpW` | 2495 | Exported Function
+`WCSToMBEx` | 2487 | Exported Function
+`WaitMessage` | 2493 | Exported Function
+`WaitForRedirectionStartComplete` | 2492 | Exported Function
+`WindowFromDC` | 2496 | Exported Function
+`WinHelpA` | 2494 | Exported Function
+`WindowFromPoint` | 2498 | Exported Function
+`WindowFromPhysicalPoint` | 2497 | Exported Function
+`UnloadKeyboardLayout` | 2451 | Exported Function
+`UnionRect` | 2450 | Exported Function
+`UnhookWinEvent` | 2447 | Exported Function
+`UnlockWindowStation` | 2452 | Exported Function
+`UnregisterClassW` | 2455 | Exported Function
+`UnregisterClassA` | 2454 | Exported Function
+`UnpackDDElParam` | 2453 | Exported Function
+`UnhookWindowsHookEx` | 2449 | Exported Function
+`TranslateMDISysAccel` | 2444 | Exported Function
+`TranslateAcceleratorW` | 2443 | Exported Function
+`TranslateAcceleratorA` | 2442 | Exported Function
+`TranslateMessage` | 2445 | Exported Function
+`UnhookWindowsHook` | 2448 | Exported Function
+`UndelegateInput` | 2504 | Exported Function
+`TranslateMessageEx` | 2446 | Exported Function
+`UnregisterDeviceNotification` | 2456 | Exported Function
+`UpdateLayeredWindow` | 2467 | Exported Function
+`UpdateDefaultDesktopThumbnail` | 2466 | Exported Function
+`UnregisterUserApiHook` | 2465 | Exported Function
+`UpdateLayeredWindowIndirect` | 2468 | Exported Function
+`UpdateWindowInputSinkHints` | 2471 | Exported Function
+`UpdateWindow` | 2470 | Exported Function
+`UpdatePerUserSystemParameters` | 2469 | Exported Function
+`UnregisterTouchWindow` | 2464 | Exported Function
+`UnregisterPointerInputTarget` | 2459 | Exported Function
+`UnregisterMessagePumpHook` | 2458 | Exported Function
+`UnregisterHotKey` | 2457 | Exported Function
+`UnregisterPointerInputTargetEx` | 2460 | Exported Function
+`UnregisterSuspendResumeNotification` | 2463 | Exported Function
+`UnregisterSessionPort` | 2462 | Exported Function
+`UnregisterPowerSettingNotification` | 2461 | Exported Function
+`SetThreadDpiHostingBehavior` | 2378 | Exported Function
+`SendMessageCallbackW` | 2295 | Exported Function
+`SendMessageCallbackA` | 2294 | Exported Function
+`SendMessageA` | 2293 | Exported Function
+`SendMessageTimeoutA` | 2296 | Exported Function
+`SendNotifyMessageA` | 2299 | Exported Function
+`SendMessageW` | 2298 | Exported Function
+`SendMessageTimeoutW` | 2297 | Exported Function
+`SendInput` | 2292 | Exported Function
+`ScrollWindowEx` | 2287 | Exported Function
+`ScrollWindow` | 2286 | Exported Function
+`ScrollDC` | 2285 | Exported Function
+`SendDlgItemMessageA` | 2288 | Exported Function
+`SendIMEMessageExW` | 2291 | Exported Function
+`SendIMEMessageExA` | 2290 | Exported Function
+`SendDlgItemMessageW` | 2289 | Exported Function
+`SendNotifyMessageW` | 2300 | Exported Function
+`SetClipboardViewer` | 2311 | Exported Function
+`SetClipboardData` | 2310 | Exported Function
+`SetClassWord` | 2309 | Exported Function
+`SetCoalescableTimer` | 2312 | Exported Function
+`SetCursorContents` | 2314 | Exported Function
+`SetCursor` | 2313 | Exported Function
+`SetCoreWindow` | 2571 | Exported Function
+`SetClassLongW` | 2308 | Exported Function
+`SetCaretBlinkTime` | 2303 | Exported Function
+`SetCapture` | 2302 | Exported Function
+`SetActiveWindow` | 2301 | Exported Function
+`SetCaretPos` | 2304 | Exported Function
+`SetClassLongPtrW` | 2307 | Exported Function
+`SetClassLongPtrA` | 2306 | Exported Function
+`SetClassLongA` | 2305 | Exported Function
+`RIMEnableMonitorMappingForDevice` | 2211 | Exported Function
+`RIMDeviceIoControl` | 2210 | Exported Function
+`RIMAreSiblingDevices` | 2209 | Exported Function
+`RIMFreeInputBuffer` | 2212 | Exported Function
+`RIMGetDeviceProperties` | 2215 | Exported Function
+`RIMGetDevicePreparsedDataLockfree` | 2214 | Exported Function
+`RIMGetDevicePreparsedData` | 2213 | Exported Function
+`RIMAddInputObserver` | 2208 | Exported Function
+`RemoveVisualIdentifier` | 2279 | Exported Function
+`RemoveThreadTSFEventAwareness` | 2278 | Exported Function
+`RemovePropW` | 2277 | Exported Function
+`ReplyMessage` | 2280 | Exported Function
+`ReuseDDElParam` | 2282 | Exported Function
+`ResolveDesktopForWOW` | 2281 | Exported Function
+`ReportInertia` | 2551 | Exported Function
+`RIMGetDevicePropertiesLockfree` | 2216 | Exported Function
+`RIMSetTestModeStatus` | 2227 | Exported Function
+`RIMSetExtendedDeviceProperty` | 2226 | Exported Function
+`RIMRemoveInputObserver` | 2225 | Exported Function
+`RIMUnregisterForInput` | 2228 | Exported Function
+`ScrollChildren` | 2284 | Exported Function
+`ScreenToClient` | 2283 | Exported Function
+`RIMUpdateInputObserverRegistration` | 2229 | Exported Function
+`RIMRegisterForInput` | 2224 | Exported Function
+`RIMObserveNextInput` | 2219 | Exported Function
+`RIMGetSourceProcessId` | 2218 | Exported Function
+`RIMGetPhysicalDeviceRect` | 2217 | Exported Function
+`RIMOnPnpNotification` | 2220 | Exported Function
+`RIMReadInput` | 2223 | Exported Function
+`RIMQueryDevicePath` | 2222 | Exported Function
+`RIMOnTimerNotification` | 2221 | Exported Function
+`SetCursorPos` | 2315 | Exported Function
+`SetProcessDpiAwarenessInternal` | 2357 | Exported Function
+`SetProcessDpiAwarenessContext` | 2356 | Exported Function
+`SetProcessDPIAware` | 2354 | Exported Function
+`SetProcessRestrictionExemption` | 2358 | Exported Function
+`SetPropA` | 2361 | Exported Function
+`SetProgmanWindow` | 2360 | Exported Function
+`SetProcessWindowStation` | 2359 | Exported Function
+`SetProcessDefaultLayout` | 2355 | Exported Function
+`SetMessageQueue` | 2349 | Exported Function
+`SetMessageExtraInfo` | 2348 | Exported Function
+`SetMenuItemInfoW` | 2347 | Exported Function
+`SetMirrorRendering` | 2350 | Exported Function
+`SetPointerDeviceInputSpace` | 2353 | Exported Function
+`SetPhysicalCursorPos` | 2352 | Exported Function
+`SetParent` | 2351 | Exported Function
+`SetPropW` | 2362 | Exported Function
+`SetSystemCursor` | 2373 | Exported Function
+`SetSysColorsTemp` | 2372 | Exported Function
+`SetSysColors` | 2371 | Exported Function
+`SetSystemMenu` | 2374 | Exported Function
+`SetThreadDpiAwarenessContext` | 2377 | Exported Function
+`SetThreadDesktop` | 2376 | Exported Function
+`SetTaskmanWindow` | 2375 | Exported Function
+`SetShellWindowEx` | 2370 | Exported Function
+`SetScrollInfo` | 2365 | Exported Function
+`SetRectEmpty` | 2364 | Exported Function
+`SetRect` | 2363 | Exported Function
+`SetScrollPos` | 2366 | Exported Function
+`SetShellWindow` | 2369 | Exported Function
+`SetShellChangeNotifyWindow` | 2368 | Exported Function
+`SetScrollRange` | 2367 | Exported Function
+`SetDoubleClickTime` | 2326 | Exported Function
+`SetDlgItemTextW` | 2325 | Exported Function
+`SetDlgItemTextA` | 2324 | Exported Function
+`SetFeatureReportResponse` | 2327 | Exported Function
+`SetFullscreenMagnifierOffsetsDWMUpdated` | 2330 | Exported Function
+`SetForegroundWindow` | 2329 | Exported Function
+`SetFocus` | 2328 | Exported Function
+`SetDlgItemInt` | 2323 | Exported Function
+`SetDeskWallpaper` | 2317 | Exported Function
+`SetDesktopColorTransform` | 2318 | Exported Function
+`SetDebugErrorLevel` | 2316 | Exported Function
+`SetDialogControlDpiChangeBehavior` | 2319 | Exported Function
+`SetDisplayConfig` | 2322 | Exported Function
+`SetDisplayAutoRotationPreferences` | 2321 | Exported Function
+`SetDialogDpiChangeBehavior` | 2320 | Exported Function
+`SetGestureConfig` | 2331 | Exported Function
+`SetMenuContextHelpId` | 2342 | Exported Function
+`SetMenu` | 2341 | Exported Function
+`SetMagnificationLensCtxInformation` | 2340 | Exported Function
+`SetMenuDefaultItem` | 2343 | Exported Function
+`SetMenuItemInfoA` | 2346 | Exported Function
+`SetMenuItemBitmaps` | 2345 | Exported Function
+`SetMenuInfo` | 2344 | Exported Function
+`SetMagnificationDesktopSamplingMode` | 2339 | Exported Function
+`SetLastErrorEx` | 2334 | Exported Function
+`SetKeyboardState` | 2333 | Exported Function
+`SetInternalWindowPos` | 2332 | Exported Function
+`SetLayeredWindowAttributes` | 2335 | Exported Function
+`SetMagnificationDesktopMagnifierOffsetsDWMUpdated` | 2338 | Exported Function
+`SetMagnificationDesktopMagnification` | 2337 | Exported Function
+`SetMagnificationDesktopColorEffect` | 2336 | Exported Function
+`DefMDIChildProcW` | 1673 | Exported Function
+`DefMDIChildProcA` | 1672 | Exported Function
+`DefFrameProcW` | 1671 | Exported Function
+`DefRawInputProc` | 1674 | Exported Function
+`DelegateInput` | 2503 | Exported Function
+`DefWindowProcW` | 1676 | Exported Function
+`DefWindowProcA` | 1675 | Exported Function
+`DefFrameProcA` | 1670 | Exported Function
+`DdeUninitialize` | 1667 | Exported Function
+`DdeUnaccessData` | 1666 | Exported Function
+`DdeSetUserHandle` | 1665 | Exported Function
+`DefDlgProcA` | 1668 | Exported Function
+`DeferWindowPosAndBand` | 1678 | Exported Function
+`DeferWindowPos` | 1677 | Exported Function
+`DefDlgProcW` | 1669 | Exported Function
+`DeleteMenu` | 1679 | Exported Function
+`DialogBoxIndirectParamA` | 1690 | Exported Function
+`DestroyWindow` | 1689 | Exported Function
+`DestroySyntheticPointerDevice` | 1688 | Exported Function
+`DialogBoxIndirectParamAorW` | 1691 | Exported Function
+`DialogBoxParamW` | 1694 | Exported Function
+`DialogBoxParamA` | 1693 | Exported Function
+`DialogBoxIndirectParamW` | 1692 | Exported Function
+`DestroyReasons` | 1687 | Exported Function
+`DestroyCaret` | 1682 | Exported Function
+`DestroyAcceleratorTable` | 1681 | Exported Function
+`DeregisterShellHookWindow` | 1680 | Exported Function
+`DestroyCursor` | 1683 | Exported Function
+`DestroyMenu` | 1686 | Exported Function
+`DestroyIcon` | 1685 | Exported Function
+`DestroyDCompositionHwndTarget` | 1684 | Exported Function
+`DdeCreateStringHandleW` | 1644 | Exported Function
+`DdeCreateStringHandleA` | 1643 | Exported Function
+`DdeCreateDataHandle` | 1642 | Exported Function
+`DdeDisconnect` | 1645 | Exported Function
+`DdeFreeDataHandle` | 1648 | Exported Function
+`DdeEnableCallback` | 1647 | Exported Function
+`DdeDisconnectList` | 1646 | Exported Function
+`DdeConnectList` | 1641 | Exported Function
+`DdeAccessData` | 1636 | Exported Function
+`DdeAbandonTransaction` | 1635 | Exported Function
+`CtxInitUser32` | 1634 | Exported Function
+`DdeAddData` | 1637 | Exported Function
+`DdeConnect` | 1640 | Exported Function
+`DdeCmpStringHandles` | 1639 | Exported Function
+`DdeClientTransaction` | 1638 | Exported Function
+`DdeFreeStringHandle` | 1649 | Exported Function
+`DdeQueryNextServer` | 1660 | Exported Function
+`DdeQueryConvInfo` | 1659 | Exported Function
+`DdePostAdvise` | 1658 | Exported Function
+`DdeQueryStringA` | 1661 | Exported Function
+`DdeSetQualityOfService` | 1664 | Exported Function
+`DdeReconnect` | 1663 | Exported Function
+`DdeQueryStringW` | 1662 | Exported Function
+`DdeNameService` | 1657 | Exported Function
+`DdeGetQualityOfService` | 1652 | Exported Function
+`DdeGetLastError` | 1651 | Exported Function
+`DdeGetData` | 1650 | Exported Function
+`DdeImpersonateClient` | 1653 | Exported Function
+`DdeKeepStringHandle` | 1656 | Exported Function
+`DdeInitializeW` | 1655 | Exported Function
+`DdeInitializeA` | 1654 | Exported Function
+`DisableProcessWindowsGhosting` | 1695 | Exported Function
+`DwmLockScreenUpdates` | 1736 | Exported Function
+`DwmKernelStartup` | 1735 | Exported Function
+`DwmKernelShutdown` | 1734 | Exported Function
+`DwmValidateWindow` | 1737 | Exported Function
+`EnableMenuItem` | 1740 | Exported Function
+`EmptyClipboard` | 1739 | Exported Function
+`EditWndProc` | 1738 | Exported Function
+`DwmGetRemoteSessionOcclusionState` | 1733 | Exported Function
+`DrawTextExW` | 1729 | Exported Function
+`DrawTextExA` | 1728 | Exported Function
+`DrawTextA` | 1727 | Exported Function
+`DrawTextW` | 1730 | Exported Function
+`DwmGetRemoteSessionOcclusionEvent` | 1732 | Exported Function
+`DwmGetDxSharedSurface` | 1731 | Exported Function
+`DwmGetDxRgn` | 1553 | Exported Function
+`EnableMouseInPointer` | 1741 | Exported Function
+`EndTask` | 1752 | Exported Function
+`EndPaint` | 1751 | Exported Function
+`EndMenu` | 1750 | Exported Function
+`EnterReaderModeHelper` | 1753 | Exported Function
+`EnumDesktopsA` | 1757 | Exported Function
+`EnumClipboardFormats` | 1755 | Exported Function
+`EnumChildWindows` | 1754 | Exported Function
+`EndDialog` | 1749 | Exported Function
+`EnableScrollBar` | 1744 | Exported Function
+`EnableOneCoreTransformMode` | 1743 | Exported Function
+`EnableNonClientDpiScaling` | 1742 | Exported Function
+`EnableSessionForMMCSS` | 1745 | Exported Function
+`EndDeferWindowPosEx` | 1748 | Exported Function
+`EndDeferWindowPos` | 1747 | Exported Function
+`EnableWindow` | 1746 | Exported Function
+`DlgDirSelectComboBoxExW` | 1706 | Exported Function
+`DlgDirSelectComboBoxExA` | 1705 | Exported Function
+`DlgDirListW` | 1704 | Exported Function
+`DlgDirSelectExA` | 1707 | Exported Function
+`DoSoundDisconnect` | 1710 | Exported Function
+`DoSoundConnect` | 1709 | Exported Function
+`DlgDirSelectExW` | 1708 | Exported Function
+`DlgDirListComboBoxW` | 1703 | Exported Function
+`DisplayConfigGetDeviceInfo` | 1698 | Exported Function
+`DispatchMessageW` | 1697 | Exported Function
+`DispatchMessageA` | 1696 | Exported Function
+`DisplayConfigSetDeviceInfo` | 1699 | Exported Function
+`DlgDirListComboBoxA` | 1702 | Exported Function
+`DlgDirListA` | 1701 | Exported Function
+`DisplayExitWindowsWarnings` | 1700 | Exported Function
+`DragDetect` | 1711 | Exported Function
+`DrawIconEx` | 1722 | Exported Function
+`DrawIcon` | 1721 | Exported Function
+`DrawFrameControl` | 1720 | Exported Function
+`DrawMenuBar` | 1723 | Exported Function
+`DrawStateW` | 1726 | Exported Function
+`DrawStateA` | 1725 | Exported Function
+`DrawMenuBarTemp` | 1724 | Exported Function
+`DrawFrame` | 1719 | Exported Function
+`DrawCaption` | 1714 | Exported Function
+`DrawAnimatedRects` | 1713 | Exported Function
+`DragObject` | 1712 | Exported Function
+`DrawCaptionTempA` | 1715 | Exported Function
+`DrawFocusRect` | 1718 | Exported Function
+`DrawEdge` | 1717 | Exported Function
+`DrawCaptionTempW` | 1716 | Exported Function
+`CsrBroadcastSystemMessageExW` | 1633 | Exported Function
+`ChangeDisplaySettingsExW` | 1544 | Exported Function
+`ChangeDisplaySettingsExA` | 1543 | Exported Function
+`ChangeDisplaySettingsA` | 1542 | Exported Function
+`ChangeDisplaySettingsW` | 1545 | Exported Function
+`ChangeWindowMessageFilter` | 1548 | Exported Function
+`ChangeMenuW` | 1547 | Exported Function
+`ChangeMenuA` | 1546 | Exported Function
+`ChangeClipboardChain` | 1541 | Exported Function
+`CallWindowProcA` | 1536 | Exported Function
+`CallNextHookEx` | 1535 | Exported Function
+`CallMsgFilterW` | 1534 | Exported Function
+`CallWindowProcW` | 1537 | Exported Function
+`CascadeWindows` | 1540 | Exported Function
+`CascadeChildWindows` | 1539 | Exported Function
+`CancelShutdown` | 1538 | Exported Function
+`ChangeWindowMessageFilterEx` | 1549 | Exported Function
+`CharToOemA` | 1565 | Exported Function
+`CharPrevW` | 1564 | Exported Function
+`CharPrevExA` | 1563 | Exported Function
+`CharToOemBuffA` | 1566 | Exported Function
+`CharUpperA` | 1569 | Exported Function
+`CharToOemW` | 1568 | Exported Function
+`CharToOemBuffW` | 1567 | Exported Function
+`CharPrevA` | 1562 | Exported Function
+`CharLowerBuffW` | 1557 | Exported Function
+`CharLowerBuffA` | 1556 | Exported Function
+`CharLowerA` | 1555 | Exported Function
+`CharLowerW` | 1558 | Exported Function
+`CharNextW` | 1561 | Exported Function
+`CharNextExA` | 1560 | Exported Function
+`CharNextA` | 1559 | Exported Function
+`AnimateWindow` | 1513 | Exported Function
+`AllowSetForegroundWindow` | 1512 | Exported Function
+`AllowForegroundActivation` | 1511 | Exported Function
+`AnyPopup` | 1514 | Exported Function
+`AreDpiAwarenessContextsEqual` | 1517 | Exported Function
+`AppendMenuW` | 1516 | Exported Function
+`AppendMenuA` | 1515 | Exported Function
+`AlignRects` | 1510 | Exported Function
+`AddClipboardFormatListener` | 1505 | Exported Function
+`ActivateKeyboardLayout` | 1504 | Exported Function
+`_UserTestTokenForInteractive` | 2499 | Exported Function
+`AddVisualIdentifier` | 1506 | Exported Function
+`AdjustWindowRectExForDpi` | 1509 | Exported Function
+`AdjustWindowRectEx` | 1508 | Exported Function
+`AdjustWindowRect` | 1507 | Exported Function
+`ArrangeIconicWindows` | 1518 | Exported Function
+`BuildReasonArray` | 1529 | Exported Function
+`BroadcastSystemMessageW` | 1528 | Exported Function
+`BroadcastSystemMessageExW` | 1527 | Exported Function
+`CalcMenuBar` | 1530 | Exported Function
+`CallMsgFilterA` | 1533 | Exported Function
+`CallMsgFilter` | 1532 | Exported Function
+`CalculatePopupWindowPosition` | 1531 | Exported Function
+`BroadcastSystemMessageExA` | 1526 | Exported Function
+`BeginPaint` | 1521 | Exported Function
+`BeginDeferWindowPos` | 1520 | Exported Function
+`AttachThreadInput` | 1519 | Exported Function
+`BlockInput` | 1522 | Exported Function
+`BroadcastSystemMessageA` | 1525 | Exported Function
+`BroadcastSystemMessage` | 1524 | Exported Function
+`BringWindowToTop` | 1523 | Exported Function
+`CharUpperBuffA` | 1570 | Exported Function
+`CreateDialogIndirectParamAorW` | 1612 | Exported Function
+`CreateDialogIndirectParamA` | 1611 | Exported Function
+`CreateDesktopW` | 1610 | Exported Function
+`CreateDialogIndirectParamW` | 1613 | Exported Function
+`CreateIcon` | 1616 | Exported Function
+`CreateDialogParamW` | 1615 | Exported Function
+`CreateDialogParamA` | 1614 | Exported Function
+`CreateDesktopExW` | 1609 | Exported Function
+`CreateCaret` | 1604 | Exported Function
+`CreateAcceleratorTableW` | 1603 | Exported Function
+`CreateAcceleratorTableA` | 1602 | Exported Function
+`CreateCursor` | 1605 | Exported Function
+`CreateDesktopExA` | 1608 | Exported Function
+`CreateDesktopA` | 1607 | Exported Function
+`CreateDCompositionHwndTarget` | 1606 | Exported Function
+`CreateIconFromResource` | 1617 | Exported Function
+`CreateWindowInBand` | 1628 | Exported Function
+`CreateWindowExW` | 1627 | Exported Function
+`CreateWindowExA` | 1626 | Exported Function
+`CreateWindowInBandEx` | 1629 | Exported Function
+`CreateWindowStationW` | 1632 | Exported Function
+`CreateWindowStationA` | 1631 | Exported Function
+`CreateWindowIndirect` | 1630 | Exported Function
+`CreateSystemThreads` | 1625 | Exported Function
+`CreateMDIWindowA` | 1620 | Exported Function
+`CreateIconIndirect` | 1619 | Exported Function
+`CreateIconFromResourceEx` | 1618 | Exported Function
+`CreateMDIWindowW` | 1621 | Exported Function
+`CreateSyntheticPointerDevice` | 1624 | Exported Function
+`CreatePopupMenu` | 1623 | Exported Function
+`CreateMenu` | 1622 | Exported Function
+`CheckWindowThreadDesktop` | 1581 | Exported Function
+`CheckRadioButton` | 1580 | Exported Function
+`CheckProcessSession` | 1579 | Exported Function
+`ChildWindowFromPoint` | 1582 | Exported Function
+`ClientToScreen` | 1586 | Exported Function
+`ClientThreadSetup` | 1585 | Exported Function
+`ChildWindowFromPointEx` | 1583 | Exported Function
+`CheckProcessForClipboardAccess` | 1578 | Exported Function
+`CheckBannedOneCoreTransformApi` | 1573 | Exported Function
+`CharUpperW` | 1572 | Exported Function
+`CharUpperBuffW` | 1571 | Exported Function
+`CheckDBCSEnabledExt` | 1574 | Exported Function
+`CheckMenuRadioItem` | 1577 | Exported Function
+`CheckMenuItem` | 1576 | Exported Function
+`CheckDlgButton` | 1575 | Exported Function
+`CliImmSetHotKey` | 1584 | Exported Function
+`CopyAcceleratorTableW` | 1597 | Exported Function
+`CopyAcceleratorTableA` | 1596 | Exported Function
+`ControlMagnification` | 1595 | Exported Function
+`CopyIcon` | 1598 | Exported Function
+`CountClipboardFormats` | 1601 | Exported Function
+`CopyRect` | 1600 | Exported Function
+`CopyImage` | 1599 | Exported Function
+`ConsoleControl` | 1594 | Exported Function
+`CloseDesktop` | 1589 | Exported Function
+`CloseClipboard` | 1588 | Exported Function
+`ClipCursor` | 1587 | Exported Function
+`CloseGestureInfoHandle` | 1590 | Exported Function
+`CloseWindowStation` | 1593 | Exported Function
+`CloseWindow` | 1592 | Exported Function
+`CloseTouchInputHandle` | 1591 | Exported Function
+`GetPointerFrameTouchInfo` | 1922 | Exported Function
+`GetPointerFrameTimes` | 1921 | Exported Function
+`GetPointerFramePenInfoHistory` | 1920 | Exported Function
+`GetPointerFrameTouchInfoHistory` | 1923 | Exported Function
+`GetPointerInputTransform` | 1926 | Exported Function
+`GetPointerInfoHistory` | 1925 | Exported Function
+`GetPointerInfo` | 1924 | Exported Function
+`GetPointerFramePenInfo` | 1919 | Exported Function
+`GetPointerDeviceRects` | 1915 | Exported Function
+`GetPointerDeviceProperties` | 1914 | Exported Function
+`GetPointerDeviceOrientation` | 1913 | Exported Function
+`GetPointerDevices` | 1916 | Exported Function
+`GetPointerFrameInfoHistory` | 1918 | Exported Function
+`GetPointerFrameInfo` | 1917 | Exported Function
+`GetPointerFrameArrivalTimes` | 1503 | Exported Function
+`GetPointerPenInfo` | 1927 | Exported Function
+`GetPropA` | 1937 | Exported Function
+`GetProgmanWindow` | 1936 | Exported Function
+`GetProcessWindowStation` | 1935 | Exported Function
+`GetPropW` | 1938 | Exported Function
+`GetRawInputData` | 1941 | Exported Function
+`GetRawInputBuffer` | 1940 | Exported Function
+`GetQueueStatus` | 1939 | Exported Function
+`GetProcessUIContextInformation` | 2521 | Exported Function
+`GetPointerTouchInfoHistory` | 1930 | Exported Function
+`GetPointerTouchInfo` | 1929 | Exported Function
+`GetPointerPenInfoHistory` | 1928 | Exported Function
+`GetPointerType` | 1931 | Exported Function
+`GetProcessDpiAwarenessInternal` | 1934 | Exported Function
+`GetProcessDefaultLayout` | 1933 | Exported Function
+`GetPriorityClipboardFormat` | 1932 | Exported Function
+`GetMenuItemRect` | 1892 | Exported Function
+`GetMenuItemInfoW` | 1891 | Exported Function
+`GetMenuItemInfoA` | 1890 | Exported Function
+`GetMenuState` | 1893 | Exported Function
+`GetMessageA` | 1896 | Exported Function
+`GetMenuStringW` | 1895 | Exported Function
+`GetMenuStringA` | 1894 | Exported Function
+`GetMenuItemID` | 1889 | Exported Function
+`GetMenuCheckMarkDimensions` | 1884 | Exported Function
+`GetMenuBarInfo` | 1883 | Exported Function
+`GetMenu` | 1882 | Exported Function
+`GetMenuContextHelpId` | 1885 | Exported Function
+`GetMenuItemCount` | 1888 | Exported Function
+`GetMenuInfo` | 1887 | Exported Function
+`GetMenuDefaultItem` | 1886 | Exported Function
+`GetMessageExtraInfo` | 1897 | Exported Function
+`GetPhysicalCursorPos` | 1908 | Exported Function
+`GetParent` | 1907 | Exported Function
+`GetOpenClipboardWindow` | 1906 | Exported Function
+`GetPointerCursorId` | 1909 | Exported Function
+`GetPointerDeviceInputSpace` | 1912 | Exported Function
+`GetPointerDeviceCursors` | 1911 | Exported Function
+`GetPointerDevice` | 1910 | Exported Function
+`GetNextDlgTabItem` | 1905 | Exported Function
+`GetMessageW` | 1900 | Exported Function
+`GetMessageTime` | 1899 | Exported Function
+`GetMessagePos` | 1898 | Exported Function
+`GetMonitorInfoA` | 1901 | Exported Function
+`GetNextDlgGroupItem` | 1904 | Exported Function
+`GetMouseMovePointsEx` | 1903 | Exported Function
+`GetMonitorInfoW` | 1902 | Exported Function
+`GetRawInputDeviceInfoA` | 1942 | Exported Function
+`GetWindowDC` | 1985 | Exported Function
+`GetWindowContextHelpId` | 1984 | Exported Function
+`GetWindowCompositionInfo` | 1983 | Exported Function
+`GetWindowDisplayAffinity` | 1986 | Exported Function
+`GetWindowFeedbackSetting` | 1989 | Exported Function
+`GetWindowDpiHostingBehavior` | 1988 | Exported Function
+`GetWindowDpiAwarenessContext` | 1987 | Exported Function
+`GetWindowCompositionAttribute` | 1982 | Exported Function
+`GetUserObjectInformationA` | 1976 | Exported Function
+`GetUpdateRgn` | 1974 | Exported Function
+`GetUpdateRect` | 1973 | Exported Function
+`GetUserObjectInformationW` | 1977 | Exported Function
+`GetWindowBand` | 1981 | Exported Function
+`GetWindow` | 1980 | Exported Function
+`GetUserObjectSecurity` | 1978 | Exported Function
+`GetWindowInfo` | 1990 | Exported Function
+`GetWindowRect` | 2003 | Exported Function
+`GetWindowProcessHandle` | 2000 | Exported Function
+`GetWindowPlacement` | 1999 | Exported Function
+`GetWindowRgn` | 2004 | Exported Function
+`GetWindowTextA` | 2008 | Exported Function
+`GetWindowRgnEx` | 2007 | Exported Function
+`GetWindowRgnBox` | 2006 | Exported Function
+`GetWindowModuleFileNameW` | 1998 | Exported Function
+`GetWindowLongPtrW` | 1993 | Exported Function
+`GetWindowLongPtrA` | 1992 | Exported Function
+`GetWindowLongA` | 1991 | Exported Function
+`GetWindowLongW` | 1994 | Exported Function
+`GetWindowModuleFileNameA` | 1997 | Exported Function
+`GetWindowModuleFileName` | 1996 | Exported Function
+`GetWindowMinimizeRect` | 1995 | Exported Function
+`GetShellChangeNotifyWindow` | 1953 | Exported Function
+`GetSendMessageReceiver` | 1952 | Exported Function
+`GetScrollRange` | 1951 | Exported Function
+`GetShellWindow` | 1954 | Exported Function
+`GetSysColorBrush` | 1957 | Exported Function
+`GetSysColor` | 1956 | Exported Function
+`GetSubMenu` | 1955 | Exported Function
+`GetScrollPos` | 1950 | Exported Function
+`GetRawPointerDeviceData` | 1945 | Exported Function
+`GetRawInputDeviceList` | 1944 | Exported Function
+`GetRawInputDeviceInfoW` | 1943 | Exported Function
+`GetReasonTitleFromReasonCode` | 1946 | Exported Function
+`GetScrollInfo` | 1949 | Exported Function
+`GetScrollBarInfo` | 1948 | Exported Function
+`GetRegisteredRawInputDevices` | 1947 | Exported Function
+`GetSystemDpiForProcess` | 1958 | Exported Function
+`GetTopLevelWindow` | 1969 | Exported Function
+`GetTitleBarInfo` | 1968 | Exported Function
+`GetThreadDpiHostingBehavior` | 1967 | Exported Function
+`GetTopWindow` | 1970 | Exported Function
+`GetUpdatedClipboardFormats` | 1975 | Exported Function
+`GetUnpredictedMessagePos` | 1972 | Exported Function
+`GetTouchInputInfo` | 1971 | Exported Function
+`GetThreadDpiAwarenessContext` | 1966 | Exported Function
+`GetSystemMetricsForDpi` | 1961 | Exported Function
+`GetSystemMetrics` | 1960 | Exported Function
+`GetSystemMenu` | 1959 | Exported Function
+`GetTabbedTextExtentA` | 1962 | Exported Function
+`GetThreadDesktop` | 1965 | Exported Function
+`GetTaskmanWindow` | 1964 | Exported Function
+`GetTabbedTextExtentW` | 1963 | Exported Function
+`GetMagnificationLensCtxInformation` | 1881 | Exported Function
+`GetAutoRotationState` | 1797 | Exported Function
+`GetAsyncKeyState` | 1796 | Exported Function
+`GetAppCompatFlags2` | 1795 | Exported Function
+`GetAwarenessFromDpiAwarenessContext` | 1798 | Exported Function
+`GetCaretPos` | 1802 | Exported Function
+`GetCaretBlinkTime` | 1801 | Exported Function
+`GetCapture` | 1800 | Exported Function
+`GetAppCompatFlags` | 1794 | Exported Function
+`GetActiveWindow` | 1789 | Exported Function
+`gapfnScSendMessage` | 2501 | Exported Function
+`FrostCrashedWindow` | 1788 | Exported Function
+`GetAltTabInfo` | 1790 | Exported Function
+`GetAncestor` | 1793 | Exported Function
+`GetAltTabInfoW` | 1792 | Exported Function
+`GetAltTabInfoA` | 1791 | Exported Function
+`GetCIMSSM` | 1799 | Exported Function
+`GetClassWord` | 1813 | Exported Function
+`GetClassNameW` | 1812 | Exported Function
+`GetClassNameA` | 1811 | Exported Function
+`GetClientRect` | 1814 | Exported Function
+`GetClipboardFormatNameA` | 1818 | Exported Function
+`GetClipboardData` | 1817 | Exported Function
+`GetClipboardAccessToken` | 1816 | Exported Function
+`GetClassLongW` | 1810 | Exported Function
+`GetClassInfoExW` | 1805 | Exported Function
+`GetClassInfoExA` | 1804 | Exported Function
+`GetClassInfoA` | 1803 | Exported Function
+`GetClassInfoW` | 1806 | Exported Function
+`GetClassLongPtrW` | 1809 | Exported Function
+`GetClassLongPtrA` | 1808 | Exported Function
+`GetClassLongA` | 1807 | Exported Function
+`EnumPropsExA` | 1767 | Exported Function
+`EnumPropsA` | 1766 | Exported Function
+`EnumDisplaySettingsW` | 1765 | Exported Function
+`EnumPropsExW` | 1768 | Exported Function
+`EnumWindows` | 1773 | Exported Function
+`EnumThreadWindows` | 1770 | Exported Function
+`EnumPropsW` | 1769 | Exported Function
+`EnumDisplaySettingsExW` | 1764 | Exported Function
+`EnumDisplayDevicesA` | 1759 | Exported Function
+`EnumDesktopWindows` | 1756 | Exported Function
+`EnumDesktopsW` | 1758 | Exported Function
+`EnumDisplayDevicesW` | 1760 | Exported Function
+`EnumDisplaySettingsExA` | 1763 | Exported Function
+`EnumDisplaySettingsA` | 1762 | Exported Function
+`EnumDisplayMonitors` | 1761 | Exported Function
+`EnumWindowStationsA` | 1771 | Exported Function
+`FindWindowW` | 1783 | Exported Function
+`FindWindowExW` | 1782 | Exported Function
+`FindWindowExA` | 1781 | Exported Function
+`FlashWindow` | 1784 | Exported Function
+`FreeDDElParam` | 1787 | Exported Function
+`FrameRect` | 1786 | Exported Function
+`FlashWindowEx` | 1785 | Exported Function
+`FindWindowA` | 1780 | Exported Function
+`EvaluateProximityToPolygon` | 1775 | Exported Function
+`EqualRect` | 1774 | Exported Function
+`EnumWindowStationsW` | 1772 | Exported Function
+`EvaluateProximityToRect` | 1776 | Exported Function
+`FillRect` | 1779 | Exported Function
+`ExitWindowsEx` | 1778 | Exported Function
+`ExcludeUpdateRgn` | 1777 | Exported Function
+`GetClipboardFormatNameW` | 1819 | Exported Function
+`GetInputDesktop` | 1860 | Exported Function
+`GetIconInfoExW` | 1859 | Exported Function
+`GetIconInfoExA` | 1858 | Exported Function
+`GetInputLocaleInfo` | 1861 | Exported Function
+`GetKBCodePage` | 1864 | Exported Function
+`GetInternalWindowPos` | 1863 | Exported Function
+`GetInputState` | 1862 | Exported Function
+`GetIconInfo` | 1857 | Exported Function
+`GetGestureConfig` | 1853 | Exported Function
+`GetForegroundWindow` | 1851 | Exported Function
+`GetFocus` | 1850 | Exported Function
+`GetGestureExtraArgs` | 1854 | Exported Function
+`GetGUIThreadInfo` | 1852 | Exported Function
+`GetGuiResources` | 1856 | Exported Function
+`GetGestureInfo` | 1855 | Exported Function
+`GetKeyboardLayout` | 1868 | Exported Function
+`GetLayeredWindowAttributes` | 1876 | Exported Function
+`GetLastInputInfo` | 1875 | Exported Function
+`GetLastActivePopup` | 1874 | Exported Function
+`GetListBoxInfo` | 1877 | Exported Function
+`GetMagnificationDesktopSamplingMode` | 1880 | Exported Function
+`GetMagnificationDesktopMagnification` | 1879 | Exported Function
+`GetMagnificationDesktopColorEffect` | 1878 | Exported Function
+`GetKeyState` | 1867 | Exported Function
+`GetKeyboardLayoutNameW` | 1871 | Exported Function
+`GetKeyboardLayoutNameA` | 1870 | Exported Function
+`GetKeyboardLayoutList` | 1869 | Exported Function
+`GetKeyboardState` | 1872 | Exported Function
+`GetKeyNameTextW` | 1866 | Exported Function
+`GetKeyNameTextA` | 1865 | Exported Function
+`GetKeyboardType` | 1873 | Exported Function
+`GetDC` | 1829 | Exported Function
+`GetCursorPos` | 1828 | Exported Function
+`GetCursorInfo` | 1827 | Exported Function
+`GetDCEx` | 1830 | Exported Function
+`GetDialogBaseUnits` | 1833 | Exported Function
+`GetDesktopWindow` | 1832 | Exported Function
+`GetDesktopID` | 1831 | Exported Function
+`GetCursorFrameInfo` | 1826 | Exported Function
+`GetClipboardViewer` | 1822 | Exported Function
+`GetClipboardSequenceNumber` | 1821 | Exported Function
+`GetClipboardOwner` | 1820 | Exported Function
+`GetClipCursor` | 1815 | Exported Function
+`GetCursor` | 1825 | Exported Function
+`GetCurrentInputMessageSource` | 1824 | Exported Function
+`GetComboBoxInfo` | 1823 | Exported Function
+`GetDialogControlDpiChangeBehavior` | 1834 | Exported Function
+`GetDpiForMonitorInternal` | 1845 | Exported Function
+`GetDpiAwarenessContextForProcess` | 1844 | Exported Function
+`GetDoubleClickTime` | 1843 | Exported Function
+`GetDpiForSystem` | 1846 | Exported Function
+`GetExtendedPointerDeviceProperty` | 1849 | Exported Function
+`GetDpiFromDpiAwarenessContext` | 1848 | Exported Function
+`GetDpiForWindow` | 1847 | Exported Function
+`GetDlgItemTextW` | 1842 | Exported Function
+`GetDisplayConfigBufferSizes` | 1837 | Exported Function
+`GetDisplayAutoRotationPreferences` | 1836 | Exported Function
+`GetDialogDpiChangeBehavior` | 1835 | Exported Function
+`GetDlgCtrlID` | 1838 | Exported Function
+`GetDlgItemTextA` | 1841 | Exported Function
+`GetDlgItemInt` | 1840 | Exported Function
+`GetDlgItem` | 1839 | Exported Function
 
 
 ## Signature

@@ -24,23 +24,23 @@ PE256 | `0CE604BC394BDC4F82BBBD9043D971EBF6142589B8FEF56235D0C96FB5339A4C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CompareLinkInfoReferents` | 1 (0x1) | Exported Function | 0x0000000180005300 | 0x00005300
-`CompareLinkInfoVolumes` | 2 (0x2) | Exported Function | 0x0000000180005340 | 0x00005340
-`CreateLinkInfo` | 3 (0x3) | Exported Function | 0x0000000180005380 | 0x00005380
-`CreateLinkInfoA` | 4 (0x4) | Exported Function | 0x0000000180005380 | 0x00005380
-`CreateLinkInfoW` | 5 (0x5) | Exported Function | 0x0000000180001010 | 0x00001010
-`DestroyLinkInfo` | 6 (0x6) | Exported Function | 0x0000000180001b00 | 0x00001b00
-`DisconnectLinkInfo` | 7 (0x7) | Exported Function | 0x00000001800053f0 | 0x000053f0
-`GetCanonicalPathInfo` | 8 (0x8) | Exported Function | 0x0000000180003430 | 0x00003430
-`GetCanonicalPathInfoA` | 9 (0x9) | Exported Function | 0x0000000180003430 | 0x00003430
-`GetCanonicalPathInfoW` | 10 (0xa) | Exported Function | 0x0000000180003540 | 0x00003540
-`GetLinkInfoData` | 11 (0xb) | Exported Function | 0x0000000180005410 | 0x00005410
-`IsValidLinkInfo` | 12 (0xc) | Exported Function | 0x00000001800019b0 | 0x000019b0
-`ResolveLinkInfo` | 13 (0xd) | Exported Function | 0x0000000180005450 | 0x00005450
-`ResolveLinkInfoA` | 14 (0xe) | Exported Function | 0x0000000180005450 | 0x00005450
-`ResolveLinkInfoW` | 15 (0xf) | Exported Function | 0x0000000180005500 | 0x00005500
+Function Name | Ordinal | Type
+-- | -- | --
+`GetLinkInfoData` | 11 | Exported Function
+`GetCanonicalPathInfoW` | 10 | Exported Function
+`GetCanonicalPathInfoA` | 9 | Exported Function
+`IsValidLinkInfo` | 12 | Exported Function
+`ResolveLinkInfoW` | 15 | Exported Function
+`ResolveLinkInfoA` | 14 | Exported Function
+`ResolveLinkInfo` | 13 | Exported Function
+`GetCanonicalPathInfo` | 8 | Exported Function
+`CreateLinkInfo` | 3 | Exported Function
+`CompareLinkInfoVolumes` | 2 | Exported Function
+`CompareLinkInfoReferents` | 1 | Exported Function
+`CreateLinkInfoA` | 4 | Exported Function
+`DisconnectLinkInfo` | 7 | Exported Function
+`DestroyLinkInfo` | 6 | Exported Function
+`CreateLinkInfoW` | 5 | Exported Function
 
 
 ## Signature

@@ -24,32 +24,32 @@ PE256 | `4326A2487F4D0FD45B738CDDE8AA87470D3DFCECB57C6E65F047CF25DB419F90`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddPersonalTrustDBPages` | 7 (0x7) | Exported Function | 0x47a81500 | 0x00001500
-`SoftpubLoadDefUsageCallData` | 6 (0x6) | Exported Function | 0x47a81520 | 0x00001520
-`SoftpubInitialize` | 22 (0x16) | Exported Function | 0x47a81420 | 0x00001420
-`SoftpubFreeDefUsageCallData` | 5 (0x5) | Exported Function | 0x47a81530 | 0x00001530
-`SoftpubDumpStructure` | 21 (0x15) | Exported Function | 0x47a81410 | 0x00001410
-`SoftpubDefCertInit` | 4 (0x4) | Exported Function | 0x47a81470 | 0x00001470
-`SoftpubCleanup` | 20 (0x14) | Exported Function | 0x47a81460 | 0x00001460
-`SoftpubCheckCert` | 19 (0x13) | Exported Function | 0x47a81450 | 0x00001450
-`SoftpubAuthenticode` | 18 (0x12) | Exported Function | 0x47a81400 | 0x00001400
-`OpenPersonalTrustDBDialog` | 17 (0x11) | Exported Function | 0x47a814f0 | 0x000014f0
-`OfficeInitializePolicy` | 16 (0x10) | Exported Function | 0x47a814a0 | 0x000014a0
-`OfficeCleanupPolicy` | 15 (0xf) | Exported Function | 0x47a814b0 | 0x000014b0
-`HTTPSFinalProv` | 14 (0xe) | Exported Function | 0x47a81490 | 0x00001490
-`HTTPSCertificateTrust` | 3 (0x3) | Exported Function | 0x47a81480 | 0x00001480
-`GenericChainFinalProv` | 2 (0x2) | Exported Function | 0x47a81550 | 0x00001550
-`GenericChainCertificateTrust` | 1 (0x1) | Exported Function | 0x47a81540 | 0x00001540
-`FindCertsByIssuer` | 13 (0xd) | Exported Function | 0x47a81510 | 0x00001510
-`DriverInitializePolicy` | 12 (0xc) | Exported Function | 0x47a814c0 | 0x000014c0
-`DriverFinalPolicy` | 11 (0xb) | Exported Function | 0x47a814d0 | 0x000014d0
-`DriverCleanupPolicy` | 10 (0xa) | Exported Function | 0x47a814e0 | 0x000014e0
-`DllUnregisterServer` | 9 (0x9) | Exported Function | 0x47a813f0 | 0x000013f0
-`DllRegisterServer` | 8 (0x8) | Exported Function | 0x47a813e0 | 0x000013e0
-`SoftpubLoadMessage` | 23 (0x17) | Exported Function | 0x47a81430 | 0x00001430
-`SoftpubLoadSignature` | 24 (0x18) | Exported Function | 0x47a81440 | 0x00001440
+Function Name | Ordinal | Type
+-- | -- | --
+`SoftpubCheckCert` | 19 | Exported Function
+`SoftpubCleanup` | 20 | Exported Function
+`SoftpubDefCertInit` | 4 | Exported Function
+`OfficeInitializePolicy` | 16 | Exported Function
+`OpenPersonalTrustDBDialog` | 17 | Exported Function
+`SoftpubAuthenticode` | 18 | Exported Function
+`SoftpubLoadDefUsageCallData` | 6 | Exported Function
+`SoftpubLoadMessage` | 23 | Exported Function
+`SoftpubLoadSignature` | 24 | Exported Function
+`SoftpubDumpStructure` | 21 | Exported Function
+`SoftpubFreeDefUsageCallData` | 5 | Exported Function
+`SoftpubInitialize` | 22 | Exported Function
+`DriverCleanupPolicy` | 10 | Exported Function
+`DriverFinalPolicy` | 11 | Exported Function
+`DriverInitializePolicy` | 12 | Exported Function
+`AddPersonalTrustDBPages` | 7 | Exported Function
+`DllRegisterServer` | 8 | Exported Function
+`DllUnregisterServer` | 9 | Exported Function
+`HTTPSCertificateTrust` | 3 | Exported Function
+`HTTPSFinalProv` | 14 | Exported Function
+`OfficeCleanupPolicy` | 15 | Exported Function
+`FindCertsByIssuer` | 13 | Exported Function
+`GenericChainCertificateTrust` | 1 | Exported Function
+`GenericChainFinalProv` | 2 | Exported Function
 
 
 ## Signature

@@ -24,14 +24,14 @@ PE256 | `7EC1CCC6430B6BCA8E9D5050986BE42FD7369A1FAF6AA582D6FF39674649C035`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`HelperTraceEvent` | 4 (0x4) | Exported Function | 0x1000a030 | 0x0000a030
-`HelperTraceInitialize` | 5 (0x5) | Exported Function | 0x1000a010 | 0x0000a010
-`HelperTraceUninitialize` | 6 (0x6) | Exported Function | 0x1000a020 | 0x0000a020
-`WdiDiagnosticModuleMain` | 1 (0x1) | Exported Function | 0x100096b0 | 0x000096b0
-`WdiGetDiagnosticModuleInterfaceVersion` | 2 (0x2) | Exported Function | 0x100096a0 | 0x000096a0
-`WdiHandleInstance` | 3 (0x3) | Exported Function | 0x10009a30 | 0x00009a30
+Function Name | Ordinal | Type
+-- | -- | --
+`WdiDiagnosticModuleMain` | 1 | Exported Function
+`WdiGetDiagnosticModuleInterfaceVersion` | 2 | Exported Function
+`WdiHandleInstance` | 3 | Exported Function
+`HelperTraceEvent` | 4 | Exported Function
+`HelperTraceInitialize` | 5 | Exported Function
+`HelperTraceUninitialize` | 6 | Exported Function
 
 
 ## Signature

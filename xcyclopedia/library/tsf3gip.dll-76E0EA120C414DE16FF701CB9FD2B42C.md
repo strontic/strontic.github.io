@@ -24,11 +24,11 @@ PE256 | `8C1D19A281E35C3702E0385C512EBF06995C9BDF21F01611B40B58C0BC9E7C57`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000018000fd00 | 0x0000fd00
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000018000fc10 | 0x0000fc10
-`OnUserProfileChanged` | 1 (0x1) | Exported Function | 0x00000001800119b0 | 0x000119b0
+Function Name | Ordinal | Type
+-- | -- | --
+`OnUserProfileChanged` | 1 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

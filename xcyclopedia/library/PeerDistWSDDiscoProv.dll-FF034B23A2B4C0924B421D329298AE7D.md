@@ -24,9 +24,9 @@ PE256 | `1222C49302412F4F0D07D4FB76C2F3DB8BD681B532DE94AA90504F776B2CFA33`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PeerDistDiscoProviderStartup` | 1 (0x1) | Exported Function | 0x0000000180001a60 | 0x00001a60
+Function Name | Ordinal | Type
+-- | -- | --
+`PeerDistDiscoProviderStartup` | 1 | Exported Function
 
 
 ## Signature

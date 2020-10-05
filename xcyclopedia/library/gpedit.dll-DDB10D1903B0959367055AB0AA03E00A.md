@@ -24,20 +24,16 @@ PE256 | `E9F4D3D509647F539A4FEFEE9A52DB2375DB27FB061C47DFCB71F57621486F1E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BrowseForGPO` | 104 (0x68) | Exported Function | 0x5f5c6770 | 0x00046770
-`CreateGPOLink` | 105 (0x69) | Exported Function | 0x5f5b8820 | 0x00038820
-`DeleteAllGPOLinks` | 106 (0x6a) | Exported Function | 0x5f5b8a80 | 0x00038a80
-`DeleteGPOLink` | 107 (0x6b) | Exported Function | 0x5f5b8b60 | 0x00038b60
-`DllCanUnloadNow` | 108 (0x6c) | Exported Function | 0x5f5b7b80 | 0x00037b80
-`DllGetClassObject` | 109 (0x6d) | Exported Function | 0x5f5b7bb0 | 0x00037bb0
-`ExportRSoPData` | 110 (0x6e) | Exported Function | 0x5f5c94c0 | 0x000494c0
-`ImportRSoPData` | 111 (0x6f) | Exported Function | 0x5f5c8ec0 | 0x00048ec0
-`Ordinal100` | 100 (0x64) | Exported Function | 0x5f5ca4a0 | 0x0004a4a0
-`Ordinal101` | 101 (0x65) | Exported Function | 0x5f5ca8e0 | 0x0004a8e0
-`Ordinal102` | 102 (0x66) | Exported Function | 0x5f5caaf0 | 0x0004aaf0
-`Ordinal103` | 103 (0x67) | Exported Function | 0x5f5cad80 | 0x0004ad80
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 109 | Exported Function
+`DllCanUnloadNow` | 108 | Exported Function
+`ImportRSoPData` | 111 | Exported Function
+`ExportRSoPData` | 110 | Exported Function
+`CreateGPOLink` | 105 | Exported Function
+`BrowseForGPO` | 104 | Exported Function
+`DeleteGPOLink` | 107 | Exported Function
+`DeleteAllGPOLinks` | 106 | Exported Function
 
 
 ## Signature

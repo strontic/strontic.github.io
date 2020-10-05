@@ -24,60 +24,60 @@ PE256 | `30D0A8F69AC1654D3EDE16456C5EF7409E022D3FDB4391E6A4A8502166EADE18`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RjvApplyData` | 1 (0x1) | Exported Function | 0x0000000180005a60 | 0x00005a60
-`RjvLogSuccessEntryPoint` | 29 (0x1d) | Exported Function | 0x0000000180009d70 | 0x00009d70
-`RjvOfflineCleanup` | 30 (0x1e) | Exported Function | 0x00000001800093e0 | 0x000093e0
-`RjvPDeleteFilesFromVolumeBeforeWimApply` | 31 (0x1f) | Exported Function | 0x00000001800227d0 | 0x000227d0
-`RjvPEraseVolume` | 32 (0x20) | Exported Function | 0x00000001800238e0 | 0x000238e0
-`RjvPolicyAllowsReset` | 33 (0x21) | Exported Function | 0x0000000180003d60 | 0x00003d60
-`RjvPostApplyDataEntryPoint` | 34 (0x22) | Exported Function | 0x000000018000a380 | 0x0000a380
-`RjvPreApplyDataEntryPoint` | 35 (0x23) | Exported Function | 0x000000018000a0f0 | 0x0000a0f0
-`RjvPrepareForReset` | 36 (0x24) | Exported Function | 0x0000000180004d40 | 0x00004d40
-`RjvReInitializeEngine` | 37 (0x25) | Exported Function | 0x00000001800029f0 | 0x000029f0
-`RjvRePartitionSystemDisk` | 38 (0x26) | Exported Function | 0x000000018000d0e0 | 0x0000d0e0
-`RjvLogFailureEntryPoint` | 28 (0x1c) | Exported Function | 0x0000000180009f80 | 0x00009f80
-`RjvRePartitionSystemDiskEx` | 39 (0x27) | Exported Function | 0x000000018000d430 | 0x0000d430
-`RjvSaveState` | 41 (0x29) | Exported Function | 0x0000000180009200 | 0x00009200
-`RjvSendCancelEvent` | 42 (0x2a) | Exported Function | 0x0000000180003550 | 0x00003550
-`RjvSetCloudRecInfo` | 43 (0x2b) | Exported Function | 0x000000018000d020 | 0x0000d020
-`RjvStageBasicReset` | 44 (0x2c) | Exported Function | 0x0000000180009960 | 0x00009960
-`RjvStartLogging` | 45 (0x2d) | Exported Function | 0x0000000180002150 | 0x00002150
-`RjvStopLogging` | 46 (0x2e) | Exported Function | 0x0000000180002300 | 0x00002300
-`RjvSysResetErrBasicEntryPoint` | 47 (0x2f) | Exported Function | 0x000000018000a520 | 0x0000a520
-`RjvSysResetErrFactoryEntryPoint` | 48 (0x30) | Exported Function | 0x000000018000a4a0 | 0x0000a4a0
-`RjvTestFunction` | 49 (0x31) | Exported Function | 0x000000018000cfb0 | 0x0000cfb0
-`RjvUndoPrepareForReset` | 50 (0x32) | Exported Function | 0x00000001800052d0 | 0x000052d0
-`RjvRollBack` | 40 (0x28) | Exported Function | 0x0000000180006260 | 0x00006260
-`RjvLoadState` | 27 (0x1b) | Exported Function | 0x0000000180008e80 | 0x00008e80
-`RjvIsCloudRec` | 26 (0x1a) | Exported Function | 0x000000018000d010 | 0x0000d010
-`RjvInitializeSystemPartitionInfo` | 25 (0x19) | Exported Function | 0x000000018000d2b0 | 0x0000d2b0
-`RjvApplyDataEntryPoint` | 2 (0x2) | Exported Function | 0x000000018000a040 | 0x0000a040
-`RjvBareMetalResetAvailable` | 3 (0x3) | Exported Function | 0x0000000180003950 | 0x00003950
-`RjvBasicReset` | 4 (0x4) | Exported Function | 0x00000001800053d0 | 0x000053d0
-`RjvBasicResetChecks` | 5 (0x5) | Exported Function | 0x0000000180004180 | 0x00004180
-`RjvCheckBattery` | 6 (0x6) | Exported Function | 0x0000000180007e30 | 0x00007e30
-`RjvCheckBitLocker` | 7 (0x7) | Exported Function | 0x0000000180007fa0 | 0x00007fa0
-`RjvCheckDiskSpace` | 8 (0x8) | Exported Function | 0x00000001800080e0 | 0x000080e0
-`RjvCheckOsHealth` | 9 (0x9) | Exported Function | 0x0000000180008390 | 0x00008390
-`RjvCheckWinRE` | 10 (0xa) | Exported Function | 0x0000000180007640 | 0x00007640
-`RjvCleanup` | 11 (0xb) | Exported Function | 0x0000000180006020 | 0x00006020
-`RjvCommitReset` | 12 (0xc) | Exported Function | 0x0000000180009b90 | 0x00009b90
-`RjvCreateSuccessTaskEntryPoint` | 13 (0xd) | Exported Function | 0x0000000180009d00 | 0x00009d00
-`RjvDelayedCleanup` | 14 (0xe) | Exported Function | 0x00000001800063d0 | 0x000063d0
-`RjvDelayedCleanupEntryPoint` | 15 (0xf) | Exported Function | 0x0000000180009d60 | 0x00009d60
-`RjvFactoryImageAvailable` | 16 (0x10) | Exported Function | 0x0000000180003650 | 0x00003650
-`RjvFactoryReset` | 17 (0x11) | Exported Function | 0x0000000180005640 | 0x00005640
-`RjvFactoryResetChecks` | 18 (0x12) | Exported Function | 0x0000000180004570 | 0x00004570
-`RjvFinalize` | 19 (0x13) | Exported Function | 0x0000000180009cb0 | 0x00009cb0
-`RjvGenerateImageBasedBMRConfigData` | 20 (0x14) | Exported Function | 0x0000000180007600 | 0x00007600
-`RjvGenerateReconstructionBMRConfigData` | 21 (0x15) | Exported Function | 0x0000000180007620 | 0x00007620
-`RjvGetCloudRecInfo` | 22 (0x16) | Exported Function | 0x000000018000d080 | 0x0000d080
-`RjvGetVolumeInfo` | 23 (0x17) | Exported Function | 0x0000000180008960 | 0x00008960
-`RjvInitializeEngine` | 24 (0x18) | Exported Function | 0x0000000180002360 | 0x00002360
-`RjvUninitializeEngine` | 51 (0x33) | Exported Function | 0x0000000180003480 | 0x00003480
-`RjvVerifySystemDiskInfo` | 52 (0x34) | Exported Function | 0x0000000180004a10 | 0x00004a10
+Function Name | Ordinal | Type
+-- | -- | --
+`RjvPrepareForReset` | 36 | Exported Function
+`RjvPreApplyDataEntryPoint` | 35 | Exported Function
+`RjvPostApplyDataEntryPoint` | 34 | Exported Function
+`RjvRePartitionSystemDiskEx` | 39 | Exported Function
+`RjvRePartitionSystemDisk` | 38 | Exported Function
+`RjvReInitializeEngine` | 37 | Exported Function
+`RjvPolicyAllowsReset` | 33 | Exported Function
+`RjvLogSuccessEntryPoint` | 29 | Exported Function
+`RjvLogFailureEntryPoint` | 28 | Exported Function
+`RjvLoadState` | 27 | Exported Function
+`RjvPEraseVolume` | 32 | Exported Function
+`RjvPDeleteFilesFromVolumeBeforeWimApply` | 31 | Exported Function
+`RjvOfflineCleanup` | 30 | Exported Function
+`RjvTestFunction` | 49 | Exported Function
+`RjvSysResetErrFactoryEntryPoint` | 48 | Exported Function
+`RjvSysResetErrBasicEntryPoint` | 47 | Exported Function
+`RjvVerifySystemDiskInfo` | 52 | Exported Function
+`RjvUninitializeEngine` | 51 | Exported Function
+`RjvUndoPrepareForReset` | 50 | Exported Function
+`RjvStopLogging` | 46 | Exported Function
+`RjvSendCancelEvent` | 42 | Exported Function
+`RjvSaveState` | 41 | Exported Function
+`RjvRollBack` | 40 | Exported Function
+`RjvStartLogging` | 45 | Exported Function
+`RjvStageBasicReset` | 44 | Exported Function
+`RjvSetCloudRecInfo` | 43 | Exported Function
+`RjvCheckWinRE` | 10 | Exported Function
+`RjvCheckOsHealth` | 9 | Exported Function
+`RjvCheckDiskSpace` | 8 | Exported Function
+`RjvCreateSuccessTaskEntryPoint` | 13 | Exported Function
+`RjvCommitReset` | 12 | Exported Function
+`RjvCleanup` | 11 | Exported Function
+`RjvCheckBitLocker` | 7 | Exported Function
+`RjvBareMetalResetAvailable` | 3 | Exported Function
+`RjvApplyDataEntryPoint` | 2 | Exported Function
+`RjvApplyData` | 1 | Exported Function
+`RjvCheckBattery` | 6 | Exported Function
+`RjvBasicResetChecks` | 5 | Exported Function
+`RjvBasicReset` | 4 | Exported Function
+`RjvGetVolumeInfo` | 23 | Exported Function
+`RjvGetCloudRecInfo` | 22 | Exported Function
+`RjvGenerateReconstructionBMRConfigData` | 21 | Exported Function
+`RjvIsCloudRec` | 26 | Exported Function
+`RjvInitializeSystemPartitionInfo` | 25 | Exported Function
+`RjvInitializeEngine` | 24 | Exported Function
+`RjvGenerateImageBasedBMRConfigData` | 20 | Exported Function
+`RjvFactoryImageAvailable` | 16 | Exported Function
+`RjvDelayedCleanupEntryPoint` | 15 | Exported Function
+`RjvDelayedCleanup` | 14 | Exported Function
+`RjvFinalize` | 19 | Exported Function
+`RjvFactoryResetChecks` | 18 | Exported Function
+`RjvFactoryReset` | 17 | Exported Function
 
 
 ## Signature

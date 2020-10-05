@@ -24,23 +24,23 @@ PE256 | `EB1401152E5284BEAC0FA86B1D9B3F3C61E4FCE7D970E6F7CF4F5221443FC503`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ApplyDeltaA` | 1 (0x1) | Exported Function | 0x10038870 | 0x00038870
-`ApplyDeltaB` | 2 (0x2) | Exported Function | 0x10025e10 | 0x00025e10
-`ApplyDeltaProvidedB` | 3 (0x3) | Exported Function | 0x100260c0 | 0x000260c0
-`ApplyDeltaW` | 4 (0x4) | Exported Function | 0x10038950 | 0x00038950
-`CreateDeltaA` | 5 (0x5) | Exported Function | 0x10038a30 | 0x00038a30
-`CreateDeltaB` | 6 (0x6) | Exported Function | 0x10038c20 | 0x00038c20
-`CreateDeltaW` | 7 (0x7) | Exported Function | 0x10038ed0 | 0x00038ed0
-`DeltaFree` | 8 (0x8) | Exported Function | 0x10036c50 | 0x00036c50
-`DeltaNormalizeProvidedB` | 9 (0x9) | Exported Function | 0x100390c0 | 0x000390c0
-`GetDeltaInfoA` | 10 (0xa) | Exported Function | 0x100391f0 | 0x000391f0
-`GetDeltaInfoB` | 11 (0xb) | Exported Function | 0x10026360 | 0x00026360
-`GetDeltaInfoW` | 12 (0xc) | Exported Function | 0x10039250 | 0x00039250
-`GetDeltaSignatureA` | 13 (0xd) | Exported Function | 0x100392b0 | 0x000392b0
-`GetDeltaSignatureB` | 14 (0xe) | Exported Function | 0x10039320 | 0x00039320
-`GetDeltaSignatureW` | 15 (0xf) | Exported Function | 0x100393a0 | 0x000393a0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetDeltaInfoB` | 11 | Exported Function
+`GetDeltaInfoA` | 10 | Exported Function
+`DeltaNormalizeProvidedB` | 9 | Exported Function
+`GetDeltaInfoW` | 12 | Exported Function
+`GetDeltaSignatureW` | 15 | Exported Function
+`GetDeltaSignatureB` | 14 | Exported Function
+`GetDeltaSignatureA` | 13 | Exported Function
+`DeltaFree` | 8 | Exported Function
+`ApplyDeltaProvidedB` | 3 | Exported Function
+`ApplyDeltaB` | 2 | Exported Function
+`ApplyDeltaA` | 1 | Exported Function
+`ApplyDeltaW` | 4 | Exported Function
+`CreateDeltaW` | 7 | Exported Function
+`CreateDeltaB` | 6 | Exported Function
+`CreateDeltaA` | 5 | Exported Function
 
 
 ## Signature

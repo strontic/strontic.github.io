@@ -24,10 +24,10 @@ PE256 | `190C65F0DC236F8A8C8E094868D3F3586EC1C5C48E404201F03CC13781CE3293`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x100021e0 | 0x000021e0
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x100021c0 | 0x000021c0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetActivationFactory` | 2 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
 
 
 ## Signature

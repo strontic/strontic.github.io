@@ -24,39 +24,39 @@ PE256 | `ECF7593F6EE69B051DD7200E39DC012909F333099120991661090C5DF5DD96BC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DeviceCredentialAbortAuthentication` | 1 (0x1) | Exported Function | 0x0000000180006280 | 0x00006280
-`DeviceCredentialUnregisterPresenceMonitoring` | 29 (0x1d) | Exported Function | 0x00000001800092a0 | 0x000092a0
-`DeviceCredentialShowNotificationMessage` | 28 (0x1c) | Exported Function | 0x0000000180006190 | 0x00006190
-`DeviceCredentialSetOpaqueBlob` | 27 (0x1b) | Exported Function | 0x0000000180006b50 | 0x00006b50
-`DeviceCredentialSetFriendlyName` | 26 (0x1a) | Exported Function | 0x0000000180006df0 | 0x00006df0
-`DeviceCredentialScanDeploymentData` | 25 (0x19) | Exported Function | 0x0000000180007050 | 0x00007050
-`DeviceCredentialRegisterPresenceMonitoringOnExistingDevice` | 24 (0x18) | Exported Function | 0x0000000180009020 | 0x00009020
-`DeviceCredentialRegisterPresenceMonitoring` | 23 (0x17) | Exported Function | 0x0000000180008d80 | 0x00008d80
-`DeviceCredentialMgrUpdateAuthenticationStage` | 22 (0x16) | Exported Function | 0x00000001800076d0 | 0x000076d0
-`DeviceCredentialMgrUnprotectData` | 21 (0x15) | Exported Function | 0x00000001800081c0 | 0x000081c0
-`DeviceCredentialMgrProtectData` | 20 (0x14) | Exported Function | 0x0000000180007ea0 | 0x00007ea0
-`DeviceCredentialMgrHasLogonSession` | 19 (0x13) | Exported Function | 0x00000001800085e0 | 0x000085e0
-`DeviceCredentialMgrGetAuthenticationData` | 18 (0x12) | Exported Function | 0x0000000180007980 | 0x00007980
-`DeviceCredentialMgrCheckProvisionedDevice` | 17 (0x11) | Exported Function | 0x0000000180007be0 | 0x00007be0
-`DeviceCredentialUpdateDeploymentData` | 30 (0x1e) | Exported Function | 0x0000000180007260 | 0x00007260
-`DeviceCredentialMgrCheckPresence` | 16 (0x10) | Exported Function | 0x0000000180009730 | 0x00009730
-`DeviceCredentialMgrBeginAuthentication` | 14 (0xe) | Exported Function | 0x0000000180007490 | 0x00007490
-`DeviceCredentialInitializeProvisioning` | 13 (0xd) | Exported Function | 0x00000001800059b0 | 0x000059b0
-`DeviceCredentialInitializeAuthentication` | 12 (0xc) | Exported Function | 0x0000000180005df0 | 0x00005df0
-`DeviceCredentialGetDeviceInfo` | 11 (0xb) | Exported Function | 0x0000000180006630 | 0x00006630
-`DeviceCredentialGetAuthStageData` | 10 (0xa) | Exported Function | 0x0000000180008350 | 0x00008350
-`DeviceCredentialFreeBuffer` | 9 (0x9) | Exported Function | 0x0000000180004a00 | 0x00004a00
-`DeviceCredentialFindNext` | 8 (0x8) | Exported Function | 0x00000001800065a0 | 0x000065a0
-`DeviceCredentialFindFirst` | 7 (0x7) | Exported Function | 0x0000000180006480 | 0x00006480
-`DeviceCredentialFindClose` | 6 (0x6) | Exported Function | 0x00000001800066f0 | 0x000066f0
-`DeviceCredentialDeprovision` | 5 (0x5) | Exported Function | 0x00000001800068d0 | 0x000068d0
-`DeviceCredentialCompleteProvisioning` | 4 (0x4) | Exported Function | 0x0000000180005b10 | 0x00005b10
-`DeviceCredentialCompleteAuthentication` | 3 (0x3) | Exported Function | 0x0000000180005f90 | 0x00005f90
-`DeviceCredentialAbortProvisioning` | 2 (0x2) | Exported Function | 0x0000000180005bc0 | 0x00005bc0
-`DeviceCredentialMgrCheckIfUserSessionIsRequired` | 15 (0xf) | Exported Function | 0x0000000180008840 | 0x00008840
-`DeviceCredentialUpdatePresenceState` | 31 (0x1f) | Exported Function | 0x00000001800094d0 | 0x000094d0
+Function Name | Ordinal | Type
+-- | -- | --
+`DeviceCredentialMgrUnprotectData` | 21 | Exported Function
+`DeviceCredentialMgrUpdateAuthenticationStage` | 22 | Exported Function
+`DeviceCredentialRegisterPresenceMonitoring` | 23 | Exported Function
+`DeviceCredentialMgrProtectData` | 20 | Exported Function
+`DeviceCredentialMgrCheckProvisionedDevice` | 17 | Exported Function
+`DeviceCredentialMgrGetAuthenticationData` | 18 | Exported Function
+`DeviceCredentialMgrHasLogonSession` | 19 | Exported Function
+`DeviceCredentialRegisterPresenceMonitoringOnExistingDevice` | 24 | Exported Function
+`DeviceCredentialUnregisterPresenceMonitoring` | 29 | Exported Function
+`DeviceCredentialUpdateDeploymentData` | 30 | Exported Function
+`DeviceCredentialUpdatePresenceState` | 31 | Exported Function
+`DeviceCredentialShowNotificationMessage` | 28 | Exported Function
+`DeviceCredentialScanDeploymentData` | 25 | Exported Function
+`DeviceCredentialSetFriendlyName` | 26 | Exported Function
+`DeviceCredentialSetOpaqueBlob` | 27 | Exported Function
+`DeviceCredentialMgrCheckPresence` | 16 | Exported Function
+`DeviceCredentialDeprovision` | 5 | Exported Function
+`DeviceCredentialFindClose` | 6 | Exported Function
+`DeviceCredentialFindFirst` | 7 | Exported Function
+`DeviceCredentialCompleteProvisioning` | 4 | Exported Function
+`DeviceCredentialAbortAuthentication` | 1 | Exported Function
+`DeviceCredentialAbortProvisioning` | 2 | Exported Function
+`DeviceCredentialCompleteAuthentication` | 3 | Exported Function
+`DeviceCredentialFindNext` | 8 | Exported Function
+`DeviceCredentialInitializeProvisioning` | 13 | Exported Function
+`DeviceCredentialMgrBeginAuthentication` | 14 | Exported Function
+`DeviceCredentialMgrCheckIfUserSessionIsRequired` | 15 | Exported Function
+`DeviceCredentialInitializeAuthentication` | 12 | Exported Function
+`DeviceCredentialFreeBuffer` | 9 | Exported Function
+`DeviceCredentialGetAuthStageData` | 10 | Exported Function
+`DeviceCredentialGetDeviceInfo` | 11 | Exported Function
 
 
 ## Signature

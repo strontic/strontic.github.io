@@ -24,14 +24,12 @@ PE256 | `77C8BC00B045FAC0BD05587A6DA61C66AE2C79486A507BD578041D8E771DDD7E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DebugConnect` | 328 (0x148) | Exported Function | 0x10283e80 | 0x00283e80
-`DebugConnectWide` | 329 (0x149) | Exported Function | 0x10283f00 | 0x00283f00
-`DebugCreate` | 330 (0x14a) | Exported Function | 0x10283f80 | 0x00283f80
-`DebugCreateEx` | 331 (0x14b) | Exported Function | 0x10283fa0 | 0x00283fa0
-`Ordinal327` | 327 (0x147) | Exported Function | 0x102840a0 | 0x002840a0
-`Ordinal332` | 332 (0x14c) | Exported Function | 0x1018be90 | 0x0018be90
+Function Name | Ordinal | Type
+-- | -- | --
+`DebugCreate` | 330 | Exported Function
+`DebugCreateEx` | 331 | Exported Function
+`DebugConnect` | 328 | Exported Function
+`DebugConnectWide` | 329 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `2FCB7E8EB5741DDC9494C27A688A395B61988998783ED4AF8DE0E0373ED26EEE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SendSAS` | 1 (0x1) | Exported Function | 0x100016f0 | 0x000016f0
+Function Name | Ordinal | Type
+-- | -- | --
+`SendSAS` | 1 | Exported Function
 
 
 ## Signature

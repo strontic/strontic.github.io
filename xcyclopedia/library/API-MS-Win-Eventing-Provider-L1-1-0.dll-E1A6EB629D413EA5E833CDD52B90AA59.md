@@ -24,18 +24,18 @@ PE256 | `CED1B78A5C412B746900ED6F4F497914995E8572102A40B8067870F895E9C4B7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EventActivityIdControl` | 1 (0x1) | Exported Function | advapi32.EventActivityIdControl | 0x0000112b
-`EventEnabled` | 2 (0x2) | Exported Function | advapi32.EventEnabled | 0x00001158
-`EventProviderEnabled` | 3 (0x3) | Exported Function | advapi32.EventProviderEnabled | 0x00001183
-`EventRegister` | 4 (0x4) | Exported Function | advapi32.EventRegister | 0x000011af
-`EventSetInformation` | 5 (0x5) | Exported Function | advapi32.EventSetInformation | 0x000011da
-`EventUnregister` | 6 (0x6) | Exported Function | advapi32.EventUnregister | 0x00001207
-`EventWrite` | 7 (0x7) | Exported Function | advapi32.EventWrite | 0x0000122b
-`EventWriteEx` | 8 (0x8) | Exported Function | advapi32.EventWriteEx | 0x0000124c
-`EventWriteString` | 9 (0x9) | Exported Function | advapi32.EventWriteString | 0x00001273
-`EventWriteTransfer` | 10 (0xa) | Exported Function | advapi32.EventWriteTransfer | 0x000012a0
+Function Name | Ordinal | Type
+-- | -- | --
+`EventWrite` | 7 | Exported Function
+`EventUnregister` | 6 | Exported Function
+`EventWriteEx` | 8 | Exported Function
+`EventWriteTransfer` | 10 | Exported Function
+`EventWriteString` | 9 | Exported Function
+`EventEnabled` | 2 | Exported Function
+`EventActivityIdControl` | 1 | Exported Function
+`EventProviderEnabled` | 3 | Exported Function
+`EventSetInformation` | 5 | Exported Function
+`EventRegister` | 4 | Exported Function
 
 
 ## Signature

@@ -24,14 +24,14 @@ PE256 | `21AB783C4F3B70922C754F4BC44ECCEA401D8B5DD4577C2BED50CC68CBF5FFF1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x00000001800c9430 | 0x000c9430
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x00000001800b5c60 | 0x000b5c60
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x00000001800d5ea0 | 0x000d5ea0
-`GetSetting` | 4 (0x4) | Exported Function | 0x00000001801f9c40 | 0x001f9c40
-`HasMigratedTDLData` | 5 (0x5) | Exported Function | 0x0000000180118030 | 0x00118030
-`TryMigrateTDLData` | 6 (0x6) | Exported Function | 0x0000000180306f60 | 0x00306f60
+Function Name | Ordinal | Type
+-- | -- | --
+`GetSetting` | 4 | Exported Function
+`HasMigratedTDLData` | 5 | Exported Function
+`TryMigrateTDLData` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

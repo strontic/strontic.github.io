@@ -24,26 +24,26 @@ PE256 | `81E452E6EAB8E5D4B88323A8CBE522F37EE276D0A150EE7A9105BC2AA6E17532`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EapHostPeerBeginSession` | 1 (0x1) | Exported Function | 0x10004810 | 0x00004810
-`EapHostPeerSetResponseAttributes` | 16 (0x10) | Exported Function | 0x10006940 | 0x00006940
-`EapHostPeerProcessReceivedPacket` | 15 (0xf) | Exported Function | 0x10005640 | 0x00005640
-`EapHostPeerInitialize` | 14 (0xe) | Exported Function | 0x10004520 | 0x00004520
-`EapHostPeerGetUIContext` | 13 (0xd) | Exported Function | 0x10005fc0 | 0x00005fc0
-`EapHostPeerGetSendPacket` | 12 (0xc) | Exported Function | 0x100058a0 | 0x000058a0
-`EapHostPeerGetResult` | 11 (0xb) | Exported Function | 0x10005c30 | 0x00005c30
-`EapHostPeerGetResponseAttributes` | 10 (0xa) | Exported Function | 0x100065c0 | 0x000065c0
-`EapHostPeerGetIdentity` | 9 (0x9) | Exported Function | 0x10004ec0 | 0x00004ec0
-`EapHostPeerGetEncryptedPassword` | 8 (0x8) | Exported Function | 0x10005380 | 0x00005380
-`EapHostPeerGetDataToUnplumbCredentials` | 7 (0x7) | Exported Function | 0x10007180 | 0x00007180
-`EapHostPeerGetAuthStatus` | 6 (0x6) | Exported Function | 0x10006bb0 | 0x00006bb0
-`EapHostPeerFreeRuntimeMemory` | 5 (0x5) | Exported Function | 0x10007720 | 0x00007720
-`EapHostPeerFreeEapError` | 4 (0x4) | Exported Function | 0x10007590 | 0x00007590
-`EapHostPeerEndSession` | 3 (0x3) | Exported Function | 0x10006f40 | 0x00006f40
-`EapHostPeerClearConnection` | 2 (0x2) | Exported Function | 0x10007370 | 0x00007370
-`EapHostPeerSetUIContext` | 17 (0x11) | Exported Function | 0x10006350 | 0x00006350
-`EapHostPeerUninitialize` | 18 (0x12) | Exported Function | 0x100046a0 | 0x000046a0
+Function Name | Ordinal | Type
+-- | -- | --
+`EapHostPeerGetSendPacket` | 12 | Exported Function
+`EapHostPeerGetUIContext` | 13 | Exported Function
+`EapHostPeerGetResponseAttributes` | 10 | Exported Function
+`EapHostPeerGetResult` | 11 | Exported Function
+`EapHostPeerInitialize` | 14 | Exported Function
+`EapHostPeerSetUIContext` | 17 | Exported Function
+`EapHostPeerUninitialize` | 18 | Exported Function
+`EapHostPeerProcessReceivedPacket` | 15 | Exported Function
+`EapHostPeerSetResponseAttributes` | 16 | Exported Function
+`EapHostPeerEndSession` | 3 | Exported Function
+`EapHostPeerFreeEapError` | 4 | Exported Function
+`EapHostPeerBeginSession` | 1 | Exported Function
+`EapHostPeerClearConnection` | 2 | Exported Function
+`EapHostPeerFreeRuntimeMemory` | 5 | Exported Function
+`EapHostPeerGetEncryptedPassword` | 8 | Exported Function
+`EapHostPeerGetIdentity` | 9 | Exported Function
+`EapHostPeerGetAuthStatus` | 6 | Exported Function
+`EapHostPeerGetDataToUnplumbCredentials` | 7 | Exported Function
 
 
 ## Signature

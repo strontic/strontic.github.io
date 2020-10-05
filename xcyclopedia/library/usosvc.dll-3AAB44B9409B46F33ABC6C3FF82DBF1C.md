@@ -24,20 +24,20 @@ PE256 | `49B54A0021064FF9CD434E906EF914E47BB31DB64BC54F3B37201AB7F4F971F2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 11 (0xb) | Exported Function | 0x0000000180008050 | 0x00008050
-`DllGetClassObject` | 12 (0xc) | Exported Function | 0x0000000180008070 | 0x00008070
-`GetDefaultConfiguration` | 1 (0x1) | Exported Function | 0x000000018002aec0 | 0x0002aec0
-`GetNextAcceptableTime` | 2 (0x2) | Exported Function | 0x0000000180029f20 | 0x00029f20
-`GetNextAcceptableTimeEx` | 3 (0x3) | Exported Function | 0x0000000180029fe0 | 0x00029fe0
-`GetSmartActiveHours` | 4 (0x4) | Exported Function | 0x000000018002a530 | 0x0002a530
-`GetSmartActiveHoursEx` | 5 (0x5) | Exported Function | 0x000000018002a5e0 | 0x0002a5e0
-`GetSmartBusyCheckVelocityFeature` | 6 (0x6) | Exported Function | 0x0000000180032900 | 0x00032900
-`GetTimeIntervalConfidence` | 7 (0x7) | Exported Function | 0x000000018002ab40 | 0x0002ab40
-`GetUserActivityPredictionEx` | 8 (0x8) | Exported Function | 0x0000000180033c90 | 0x00033c90
-`ServiceMain` | 9 (0x9) | Exported Function | 0x0000000180013830 | 0x00013830
-`SvchostPushServiceGlobals` | 10 (0xa) | Exported Function | 0x00000001800130c0 | 0x000130c0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetTimeIntervalConfidence` | 7 | Exported Function
+`GetSmartBusyCheckVelocityFeature` | 6 | Exported Function
+`GetSmartActiveHoursEx` | 5 | Exported Function
+`SvchostPushServiceGlobals` | 10 | Exported Function
+`ServiceMain` | 9 | Exported Function
+`GetUserActivityPredictionEx` | 8 | Exported Function
+`GetDefaultConfiguration` | 1 | Exported Function
+`DllGetClassObject` | 12 | Exported Function
+`DllCanUnloadNow` | 11 | Exported Function
+`GetSmartActiveHours` | 4 | Exported Function
+`GetNextAcceptableTimeEx` | 3 | Exported Function
+`GetNextAcceptableTime` | 2 | Exported Function
 
 
 ## Signature

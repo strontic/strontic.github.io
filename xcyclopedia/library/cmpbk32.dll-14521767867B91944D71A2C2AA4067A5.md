@@ -24,31 +24,31 @@ PE256 | `1E6124D1DFAAE333564D11E43A2E98E73B1366DD0E820A03E63F7D0BFCE8E628`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PhoneBookCopyFilter` | 1 (0x1) | Exported Function | 0x10001d30 | 0x00001d30
-`PhoneBookMergeChanges` | 21 (0x15) | Exported Function | 0x100042b0 | 0x000042b0
-`PhoneBookMatchFilter` | 20 (0x14) | Exported Function | 0x10001dc0 | 0x00001dc0
-`PhoneBookLoad` | 19 (0x13) | Exported Function | 0x10004190 | 0x00004190
-`PhoneBookHasPhoneType` | 18 (0x12) | Exported Function | 0x10002510 | 0x00002510
-`PhoneBookGetRegionNameA` | 17 (0x11) | Exported Function | 0x10002570 | 0x00002570
-`PhoneBookGetPhoneType` | 16 (0x10) | Exported Function | 0x10002740 | 0x00002740
-`PhoneBookGetPhoneNonCanonicalA` | 15 (0xf) | Exported Function | 0x10002670 | 0x00002670
-`PhoneBookGetPhoneDUNA` | 12 (0xc) | Exported Function | 0x10002c10 | 0x00002c10
-`PhoneBookGetPhoneDispA` | 14 (0xe) | Exported Function | 0x10002850 | 0x00002850
-`PhoneBookParseInfoA` | 22 (0x16) | Exported Function | 0x10001ee0 | 0x00001ee0
-`PhoneBookGetPhoneDescA` | 13 (0xd) | Exported Function | 0x10002940 | 0x00002940
-`PhoneBookGetCurrentCountryId` | 10 (0xa) | Exported Function | 0x10002c00 | 0x00002c00
-`PhoneBookGetCountryNameW` | 9 (0x9) | Exported Function | 0x100024b0 | 0x000024b0
-`PhoneBookGetCountryNameA` | 8 (0x8) | Exported Function | 0x10002480 | 0x00002480
-`PhoneBookGetCountryId` | 7 (0x7) | Exported Function | 0x100024e0 | 0x000024e0
-`PhoneBookFreeFilter` | 6 (0x6) | Exported Function | 0x10001db0 | 0x00001db0
-`PhoneBookEnumRegions` | 5 (0x5) | Exported Function | 0x10002540 | 0x00002540
-`PhoneBookEnumNumbersWithRegionsZero` | 4 (0x4) | Exported Function | 0x100027b0 | 0x000027b0
-`PhoneBookEnumNumbers` | 3 (0x3) | Exported Function | 0x10002770 | 0x00002770
-`PhoneBookEnumCountries` | 2 (0x2) | Exported Function | 0x10002390 | 0x00002390
-`PhoneBookGetPhoneCanonicalA` | 11 (0xb) | Exported Function | 0x100025a0 | 0x000025a0
-`PhoneBookUnload` | 23 (0x17) | Exported Function | 0x10004290 | 0x00004290
+Function Name | Ordinal | Type
+-- | -- | --
+`PhoneBookGetPhoneType` | 16 | Exported Function
+`PhoneBookGetRegionNameA` | 17 | Exported Function
+`PhoneBookGetPhoneNonCanonicalA` | 15 | Exported Function
+`PhoneBookGetPhoneDispA` | 14 | Exported Function
+`PhoneBookGetPhoneDUNA` | 12 | Exported Function
+`PhoneBookHasPhoneType` | 18 | Exported Function
+`PhoneBookParseInfoA` | 22 | Exported Function
+`PhoneBookUnload` | 23 | Exported Function
+`PhoneBookMergeChanges` | 21 | Exported Function
+`PhoneBookLoad` | 19 | Exported Function
+`PhoneBookMatchFilter` | 20 | Exported Function
+`PhoneBookGetPhoneDescA` | 13 | Exported Function
+`PhoneBookEnumNumbersWithRegionsZero` | 4 | Exported Function
+`PhoneBookEnumRegions` | 5 | Exported Function
+`PhoneBookEnumNumbers` | 3 | Exported Function
+`PhoneBookCopyFilter` | 1 | Exported Function
+`PhoneBookEnumCountries` | 2 | Exported Function
+`PhoneBookFreeFilter` | 6 | Exported Function
+`PhoneBookGetCurrentCountryId` | 10 | Exported Function
+`PhoneBookGetPhoneCanonicalA` | 11 | Exported Function
+`PhoneBookGetCountryNameW` | 9 | Exported Function
+`PhoneBookGetCountryId` | 7 | Exported Function
+`PhoneBookGetCountryNameA` | 8 | Exported Function
 
 
 ## Signature

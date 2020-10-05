@@ -24,25 +24,25 @@ PE256 | `118ED8A6DEB86814F87D233DC7B91775C465DCDAD36196595E0889955A4017CA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BluetoothCloseNetworkHandle` | 1 (0x1) | Exported Function | 0x0000000180003b70 | 0x00003b70
-`BluetoothGetNetworkStatus` | 15 (0xf) | Exported Function | 0x00000001800039a0 | 0x000039a0
-`BluetoothGetNetworkName` | 14 (0xe) | Exported Function | 0x00000001800033a0 | 0x000033a0
-`BluetoothGetNetworkInterfaceId` | 13 (0xd) | Exported Function | 0x00000001800035a0 | 0x000035a0
-`BluetoothGetNetworkContainerId` | 12 (0xc) | Exported Function | 0x0000000180003700 | 0x00003700
-`BluetoothGetNetworkAvailableRoles` | 11 (0xb) | Exported Function | 0x00000001800037e0 | 0x000037e0
-`BluetoothGetNetworkAddress` | 10 (0xa) | Exported Function | 0x00000001800038c0 | 0x000038c0
-`BluetoothRegisterNetworkNotifications` | 16 (0x10) | Exported Function | 0x0000000180004450 | 0x00004450
-`BluetoothGetIncompleteConnectedNetworkHandle` | 9 (0x9) | Exported Function | 0x00000001800031e0 | 0x000031e0
-`BluetoothFindNetworkClose` | 7 (0x7) | Exported Function | 0x0000000180003fa0 | 0x00003fa0
-`BluetoothFindFirstNetwork` | 6 (0x6) | Exported Function | 0x0000000180003c30 | 0x00003c30
-`BluetoothDuplicateNetworkHandle` | 5 (0x5) | Exported Function | 0x0000000180003150 | 0x00003150
-`BluetoothDisconnectFromNetwork` | 4 (0x4) | Exported Function | 0x00000001800042c0 | 0x000042c0
-`BluetoothCreateNetworkHandle` | 3 (0x3) | Exported Function | 0x0000000180003070 | 0x00003070
-`BluetoothConnectToNetwork` | 2 (0x2) | Exported Function | 0x0000000180004080 | 0x00004080
-`BluetoothFindNextNetwork` | 8 (0x8) | Exported Function | 0x0000000180003e90 | 0x00003e90
-`BluetoothUnregisterNetworkNotifications` | 17 (0x11) | Exported Function | 0x00000001800045e0 | 0x000045e0
+Function Name | Ordinal | Type
+-- | -- | --
+`BluetoothGetNetworkContainerId` | 12 | Exported Function
+`BluetoothGetNetworkInterfaceId` | 13 | Exported Function
+`BluetoothGetNetworkAddress` | 10 | Exported Function
+`BluetoothGetNetworkAvailableRoles` | 11 | Exported Function
+`BluetoothRegisterNetworkNotifications` | 16 | Exported Function
+`BluetoothUnregisterNetworkNotifications` | 17 | Exported Function
+`BluetoothGetNetworkName` | 14 | Exported Function
+`BluetoothGetNetworkStatus` | 15 | Exported Function
+`BluetoothGetIncompleteConnectedNetworkHandle` | 9 | Exported Function
+`BluetoothCreateNetworkHandle` | 3 | Exported Function
+`BluetoothDisconnectFromNetwork` | 4 | Exported Function
+`BluetoothCloseNetworkHandle` | 1 | Exported Function
+`BluetoothConnectToNetwork` | 2 | Exported Function
+`BluetoothFindNetworkClose` | 7 | Exported Function
+`BluetoothFindNextNetwork` | 8 | Exported Function
+`BluetoothDuplicateNetworkHandle` | 5 | Exported Function
+`BluetoothFindFirstNetwork` | 6 | Exported Function
 
 
 ## Signature

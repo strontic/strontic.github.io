@@ -26,9 +26,9 @@ PE256 | `F15B12BEEF056877015F77506CD786246C41C43EBB0F4AE1859637BBA71403CD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MetaDataGetDispenser` | 1 (0x1) | Exported Function | 0x0000000180001060 | 0x00001060
+Function Name | Ordinal | Type
+-- | -- | --
+`MetaDataGetDispenser` | 1 | Exported Function
 
 
 ## Signature

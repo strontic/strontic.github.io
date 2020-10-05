@@ -24,11 +24,11 @@ PE256 | `45598E3A287E65B4E0E3435C73DF75F55819876A9557820F31480E30AACD0DED`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FreeErrorDetails` | 1 (0x1) | Exported Function | 0x10004060 | 0x00004060
-`GetErrorDetails` | 2 (0x2) | Exported Function | 0x100040b0 | 0x000040b0
-`GetErrorDetailsWithContext` | 3 (0x3) | Exported Function | 0x100041c0 | 0x000041c0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetErrorDetailsWithContext` | 3 | Exported Function
+`GetErrorDetails` | 2 | Exported Function
+`FreeErrorDetails` | 1 | Exported Function
 
 
 ## Signature

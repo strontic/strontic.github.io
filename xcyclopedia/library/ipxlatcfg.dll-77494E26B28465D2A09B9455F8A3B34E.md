@@ -24,11 +24,11 @@ PE256 | `CBE506D269B10987469DF104DB82FCF7A30C2DAEE68B4C75CF16EF6F5FE70B74`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Disable464xlat` | 2 (0x2) | Exported Function | 0x0000000180007b40 | 0x00007b40
-`Enable464xlat` | 3 (0x3) | Exported Function | 0x0000000180007910 | 0x00007910
-`ServiceMain` | 1 (0x1) | Exported Function | 0x0000000180007d10 | 0x00007d10
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 1 | Exported Function
+`Enable464xlat` | 3 | Exported Function
+`Disable464xlat` | 2 | Exported Function
 
 
 ## Signature

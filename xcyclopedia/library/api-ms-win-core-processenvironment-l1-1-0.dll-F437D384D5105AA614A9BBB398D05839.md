@@ -24,29 +24,29 @@ PE256 | `C4E56C33F98FD337BE7F9A334417C400BF5E823220955E5015DA109BB40F9309`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ExpandEnvironmentStringsA` | 1 (0x1) | Exported Function | kernel32.ExpandEnvironmentStringsA | 0x000011a2
-`SetEnvironmentVariableW` | 19 (0x13) | Exported Function | kernel32.SetEnvironmentVariableW | 0x0000153c
-`SetEnvironmentVariableA` | 18 (0x12) | Exported Function | kernel32.SetEnvironmentVariableA | 0x00001503
-`SetEnvironmentStringsW` | 17 (0x11) | Exported Function | kernel32.SetEnvironmentStringsW | 0x000014cb
-`SetCurrentDirectoryW` | 16 (0x10) | Exported Function | kernel32.SetCurrentDirectoryW | 0x00001496
-`SetCurrentDirectoryA` | 15 (0xf) | Exported Function | kernel32.SetCurrentDirectoryA | 0x00001463
-`SearchPathW` | 14 (0xe) | Exported Function | kernel32.SearchPathW | 0x00001439
-`GetStdHandle` | 13 (0xd) | Exported Function | kernel32.GetStdHandle | 0x00001417
-`GetEnvironmentVariableW` | 12 (0xc) | Exported Function | kernel32.GetEnvironmentVariableW | 0x000013e9
-`SetStdHandle` | 20 (0x14) | Exported Function | kernel32.SetStdHandle | 0x0000156a
-`GetEnvironmentVariableA` | 11 (0xb) | Exported Function | kernel32.GetEnvironmentVariableA | 0x000013b0
-`GetEnvironmentStrings` | 9 (0x9) | Exported Function | kernel32.GetEnvironmentStrings | 0x00001342
-`GetCurrentDirectoryW` | 8 (0x8) | Exported Function | kernel32.GetCurrentDirectoryW | 0x0000130e
-`GetCurrentDirectoryA` | 7 (0x7) | Exported Function | kernel32.GetCurrentDirectoryA | 0x000012db
-`GetCommandLineW` | 6 (0x6) | Exported Function | kernel32.GetCommandLineW | 0x000012ad
-`GetCommandLineA` | 5 (0x5) | Exported Function | kernel32.GetCommandLineA | 0x00001284
-`FreeEnvironmentStringsW` | 4 (0x4) | Exported Function | kernel32.FreeEnvironmentStringsW | 0x00001253
-`FreeEnvironmentStringsA` | 3 (0x3) | Exported Function | kernel32.FreeEnvironmentStringsA | 0x0000121a
-`ExpandEnvironmentStringsW` | 2 (0x2) | Exported Function | kernel32.ExpandEnvironmentStringsW | 0x000011df
-`GetEnvironmentStringsW` | 10 (0xa) | Exported Function | kernel32.GetEnvironmentStringsW | 0x00001378
-`SetStdHandleEx` | 21 (0x15) | Exported Function | kernel32.SetStdHandleEx | 0x0000158f
+Function Name | Ordinal | Type
+-- | -- | --
+`SetCurrentDirectoryA` | 15 | Exported Function
+`SetCurrentDirectoryW` | 16 | Exported Function
+`SearchPathW` | 14 | Exported Function
+`GetEnvironmentVariableW` | 12 | Exported Function
+`GetStdHandle` | 13 | Exported Function
+`SetStdHandle` | 20 | Exported Function
+`SetStdHandleEx` | 21 | Exported Function
+`SetEnvironmentVariableW` | 19 | Exported Function
+`SetEnvironmentStringsW` | 17 | Exported Function
+`SetEnvironmentVariableA` | 18 | Exported Function
+`GetEnvironmentVariableA` | 11 | Exported Function
+`FreeEnvironmentStringsW` | 4 | Exported Function
+`GetCommandLineA` | 5 | Exported Function
+`FreeEnvironmentStringsA` | 3 | Exported Function
+`ExpandEnvironmentStringsA` | 1 | Exported Function
+`ExpandEnvironmentStringsW` | 2 | Exported Function
+`GetEnvironmentStrings` | 9 | Exported Function
+`GetEnvironmentStringsW` | 10 | Exported Function
+`GetCurrentDirectoryW` | 8 | Exported Function
+`GetCommandLineW` | 6 | Exported Function
+`GetCurrentDirectoryA` | 7 | Exported Function
 
 
 ## Signature

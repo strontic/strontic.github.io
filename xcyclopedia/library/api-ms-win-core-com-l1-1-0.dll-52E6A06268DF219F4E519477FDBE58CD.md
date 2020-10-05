@@ -24,88 +24,88 @@ PE256 | `5C8BC53D541BA6C175EFD9BF73286F4184921EB09BAD07349BC4009FB71CFE08`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CLSIDFromProgID` | 1 (0x1) | Exported Function | ole32.CLSIDFromProgID | 0x000013d7
-`CoSetCancelObject` | 58 (0x3a) | Exported Function | ole32.CoSetCancelObject | 0x00001e39
-`CoRevokeClassObject` | 57 (0x39) | Exported Function | ole32.CoRevokeClassObject | 0x00001e0d
-`CoRevertToSelf` | 56 (0x38) | Exported Function | ole32.CoRevertToSelf | 0x00001de4
-`CoResumeClassObjects` | 55 (0x37) | Exported Function | ole32.CoResumeClassObjects | 0x00001dba
-`CoReleaseServerProcess` | 54 (0x36) | Exported Function | ole32.CoReleaseServerProcess | 0x00001d88
-`CoReleaseMarshalData` | 53 (0x35) | Exported Function | ole32.CoReleaseMarshalData | 0x00001d56
-`CoRegisterSurrogate` | 52 (0x34) | Exported Function | ole32.CoRegisterSurrogate | 0x00001d27
-`CoSetProxyBlanket` | 59 (0x3b) | Exported Function | ole32.CoSetProxyBlanket | 0x00001e63
-`CoRegisterPSClsid` | 51 (0x33) | Exported Function | ole32.CoRegisterPSClsid | 0x00001cfb
-`CoQueryProxyBlanket` | 49 (0x31) | Exported Function | ole32.CoQueryProxyBlanket | 0x00001c9d
-`CoQueryClientBlanket` | 48 (0x30) | Exported Function | ole32.CoQueryClientBlanket | 0x00001c6e
-`CoQueryAuthenticationServices` | 47 (0x2f) | Exported Function | ole32.CoQueryAuthenticationServices | 0x00001c35
-`CoMarshalInterThreadInterfaceInStream` | 45 (0x2d) | Exported Function | ole32.CoMarshalInterThreadInterfaceInStream | 0x00001bbf
-`CoMarshalInterface` | 46 (0x2e) | Exported Function | ole32.CoMarshalInterface | 0x00001bfe
-`CoMarshalHresult` | 44 (0x2c) | Exported Function | ole32.CoMarshalHresult | 0x00001b82
-`CoLockObjectExternal` | 43 (0x2b) | Exported Function | ole32.CoLockObjectExternal | 0x00001b56
-`CoRegisterClassObject` | 50 (0x32) | Exported Function | ole32.CoRegisterClassObject | 0x00001ccd
-`CoIsHandlerConnected` | 42 (0x2a) | Exported Function | ole32.CoIsHandlerConnected | 0x00001b26
-`CoSuspendClassObjects` | 60 (0x3c) | Exported Function | ole32.CoSuspendClassObjects | 0x00001e91
-`CoTaskMemAlloc` | 62 (0x3e) | Exported Function | ole32.CoTaskMemAlloc | 0x00001eea
-`StringFromCLSID` | 78 (0x4e) | Exported Function | ole32.StringFromCLSID | 0x00002191
-`PropVariantCopy` | 77 (0x4d) | Exported Function | ole32.PropVariantCopy | 0x0000216b
-`PropVariantClear` | 76 (0x4c) | Exported Function | ole32.PropVariantClear | 0x00002144
-`ProgIDFromCLSID` | 75 (0x4b) | Exported Function | ole32.ProgIDFromCLSID | 0x0000211d
-`IIDFromString` | 74 (0x4a) | Exported Function | ole32.IIDFromString | 0x000020f9
-`GetHGlobalFromStream` | 73 (0x49) | Exported Function | ole32.GetHGlobalFromStream | 0x000020d0
-`FreePropVariantArray` | 72 (0x48) | Exported Function | ole32.FreePropVariantArray | 0x000020a0
-`CoSwitchCallContext` | 61 (0x3d) | Exported Function | ole32.CoSwitchCallContext | 0x00001ec1
-`CreateStreamOnHGlobal` | 71 (0x47) | Exported Function | ole32.CreateStreamOnHGlobal | 0x0000206f
-`CoWaitForMultipleHandles` | 69 (0x45) | Exported Function | ole32.CoWaitForMultipleHandles | 0x00002002
-`CoUnmarshalInterface` | 68 (0x44) | Exported Function | ole32.CoUnmarshalInterface | 0x00001fce
-`CoUnmarshalHresult` | 67 (0x43) | Exported Function | ole32.CoUnmarshalHresult | 0x00001fa0
-`CoUninitialize` | 66 (0x42) | Exported Function | ole32.CoUninitialize | 0x00001f78
-`CoTestCancel` | 65 (0x41) | Exported Function | ole32.CoTestCancel | 0x00001f56
-`CoTaskMemRealloc` | 64 (0x40) | Exported Function | ole32.CoTaskMemRealloc | 0x00001f32
-`CoTaskMemFree` | 63 (0x3f) | Exported Function | ole32.CoTaskMemFree | 0x00001f0d
-`CoWaitForMultipleObjects` | 70 (0x46) | Exported Function | ole32.CoWaitForMultipleObjects | 0x0000203a
-`CoInvalidateRemoteMachineBindings` | 41 (0x29) | Exported Function | ole32.CoInvalidateRemoteMachineBindings | 0x00001ae9
-`CoInitializeSecurity` | 40 (0x28) | Exported Function | ole32.CoInitializeSecurity | 0x00001aac
-`CoInitializeEx` | 39 (0x27) | Exported Function | ole32.CoInitializeEx | 0x00001a82
-`CoEnableCallCancellation` | 17 (0x11) | Exported Function | ole32.CoEnableCallCancellation | 0x000016a2
-`CoDisconnectObject` | 16 (0x10) | Exported Function | ole32.CoDisconnectObject | 0x00001670
-`CoDisconnectContext` | 15 (0xf) | Exported Function | ole32.CoDisconnectContext | 0x00001643
-`CoDisableCallCancellation` | 14 (0xe) | Exported Function | ole32.CoDisableCallCancellation | 0x0000160f
-`CoDecrementMTAUsage` | 13 (0xd) | Exported Function | ole32.CoDecrementMTAUsage | 0x000015db
-`CoDecodeProxy` | 12 (0xc) | Exported Function | ole32.CoDecodeProxy | 0x000015b3
-`CoCreateInstanceFromApp` | 11 (0xb) | Exported Function | ole32.CoCreateInstanceFromApp | 0x00001587
-`CoFreeUnusedLibraries` | 18 (0x12) | Exported Function | ole32.CoFreeUnusedLibraries | 0x000016d7
-`CoCreateInstanceEx` | 10 (0xa) | Exported Function | ole32.CoCreateInstanceEx | 0x00001556
-`CoCreateGuid` | 8 (0x8) | Exported Function | ole32.CoCreateGuid | 0x00001508
-`CoCreateFreeThreadedMarshaler` | 7 (0x7) | Exported Function | ole32.CoCreateFreeThreadedMarshaler | 0x000014d7
-`CoCopyProxy` | 6 (0x6) | Exported Function | ole32.CoCopyProxy | 0x000014a7
-`CoCancelCall` | 5 (0x5) | Exported Function | ole32.CoCancelCall | 0x00001488
-`CoAllowUnmarshalerCLSID` | 4 (0x4) | Exported Function | ole32.CoAllowUnmarshalerCLSID | 0x0000145d
-`CoAddRefServerProcess` | 3 (0x3) | Exported Function | ole32.CoAddRefServerProcess | 0x00001429
-`CLSIDFromString` | 2 (0x2) | Exported Function | ole32.CLSIDFromString | 0x000013fd
-`CoCreateInstance` | 9 (0x9) | Exported Function | ole32.CoCreateInstance | 0x0000152c
-`CoFreeUnusedLibrariesEx` | 19 (0x13) | Exported Function | ole32.CoFreeUnusedLibrariesEx | 0x0000170b
-`CoGetApartmentType` | 20 (0x14) | Exported Function | ole32.CoGetApartmentType | 0x0000173c
-`CoGetCallContext` | 21 (0x15) | Exported Function | ole32.CoGetCallContext | 0x00001766
-`CoIncrementMTAUsage` | 38 (0x26) | Exported Function | ole32.CoIncrementMTAUsage | 0x00001a59
-`CoImpersonateClient` | 37 (0x25) | Exported Function | ole32.CoImpersonateClient | 0x00001a2b
-`CoGetTreatAsClass` | 36 (0x24) | Exported Function | ole32.CoGetTreatAsClass | 0x000019ff
-`CoGetStdMarshalEx` | 35 (0x23) | Exported Function | ole32.CoGetStdMarshalEx | 0x000019d5
-`CoGetStandardMarshal` | 34 (0x22) | Exported Function | ole32.CoGetStandardMarshal | 0x000019a8
-`CoGetPSClsid` | 33 (0x21) | Exported Function | ole32.CoGetPSClsid | 0x00001980
-`CoGetObjectContext` | 32 (0x20) | Exported Function | ole32.CoGetObjectContext | 0x0000195a
-`CoGetMarshalSizeMax` | 31 (0x1f) | Exported Function | ole32.CoGetMarshalSizeMax | 0x0000192d
-`CoGetMalloc` | 30 (0x1e) | Exported Function | ole32.CoGetMalloc | 0x00001907
-`CoGetInterfaceAndReleaseStream` | 29 (0x1d) | Exported Function | ole32.CoGetInterfaceAndReleaseStream | 0x000018d6
-`CoGetDefaultContext` | 28 (0x1c) | Exported Function | ole32.CoGetDefaultContext | 0x0000189d
-`CoGetCurrentProcess` | 27 (0x1b) | Exported Function | ole32.CoGetCurrentProcess | 0x0000186f
-`CoGetCurrentLogicalThreadId` | 26 (0x1a) | Exported Function | ole32.CoGetCurrentLogicalThreadId | 0x00001839
-`CoGetContextToken` | 25 (0x19) | Exported Function | ole32.CoGetContextToken | 0x00001805
-`CoGetClassObject` | 24 (0x18) | Exported Function | ole32.CoGetClassObject | 0x000017dc
-`CoGetCancelObject` | 23 (0x17) | Exported Function | ole32.CoGetCancelObject | 0x000017b3
-`CoGetCallerTID` | 22 (0x16) | Exported Function | ole32.CoGetCallerTID | 0x0000178c
-`StringFromGUID2` | 79 (0x4f) | Exported Function | ole32.StringFromGUID2 | 0x000021b7
-`StringFromIID` | 80 (0x50) | Exported Function | ole32.StringFromIID | 0x000021db
+Function Name | Ordinal | Type
+-- | -- | --
+`CoReleaseServerProcess` | 54 | Exported Function
+`CoResumeClassObjects` | 55 | Exported Function
+`CoReleaseMarshalData` | 53 | Exported Function
+`CoRegisterPSClsid` | 51 | Exported Function
+`CoRegisterSurrogate` | 52 | Exported Function
+`CoSetProxyBlanket` | 59 | Exported Function
+`CoSuspendClassObjects` | 60 | Exported Function
+`CoSetCancelObject` | 58 | Exported Function
+`CoRevertToSelf` | 56 | Exported Function
+`CoRevokeClassObject` | 57 | Exported Function
+`CoMarshalHresult` | 44 | Exported Function
+`CoMarshalInterface` | 46 | Exported Function
+`CoLockObjectExternal` | 43 | Exported Function
+`CoInvalidateRemoteMachineBindings` | 41 | Exported Function
+`CoIsHandlerConnected` | 42 | Exported Function
+`CoQueryProxyBlanket` | 49 | Exported Function
+`CoRegisterClassObject` | 50 | Exported Function
+`CoQueryClientBlanket` | 48 | Exported Function
+`CoMarshalInterThreadInterfaceInStream` | 45 | Exported Function
+`CoQueryAuthenticationServices` | 47 | Exported Function
+`IIDFromString` | 74 | Exported Function
+`ProgIDFromCLSID` | 75 | Exported Function
+`GetHGlobalFromStream` | 73 | Exported Function
+`CreateStreamOnHGlobal` | 71 | Exported Function
+`FreePropVariantArray` | 72 | Exported Function
+`StringFromGUID2` | 79 | Exported Function
+`StringFromIID` | 80 | Exported Function
+`StringFromCLSID` | 78 | Exported Function
+`PropVariantClear` | 76 | Exported Function
+`PropVariantCopy` | 77 | Exported Function
+`CoTaskMemRealloc` | 64 | Exported Function
+`CoTestCancel` | 65 | Exported Function
+`CoTaskMemFree` | 63 | Exported Function
+`CoSwitchCallContext` | 61 | Exported Function
+`CoTaskMemAlloc` | 62 | Exported Function
+`CoWaitForMultipleHandles` | 69 | Exported Function
+`CoWaitForMultipleObjects` | 70 | Exported Function
+`CoUnmarshalInterface` | 68 | Exported Function
+`CoUninitialize` | 66 | Exported Function
+`CoUnmarshalHresult` | 67 | Exported Function
+`CoDisableCallCancellation` | 14 | Exported Function
+`CoDisconnectContext` | 15 | Exported Function
+`CoDecrementMTAUsage` | 13 | Exported Function
+`CoCreateInstanceFromApp` | 11 | Exported Function
+`CoDecodeProxy` | 12 | Exported Function
+`CoFreeUnusedLibrariesEx` | 19 | Exported Function
+`CoGetApartmentType` | 20 | Exported Function
+`CoFreeUnusedLibraries` | 18 | Exported Function
+`CoDisconnectObject` | 16 | Exported Function
+`CoEnableCallCancellation` | 17 | Exported Function
+`CoAllowUnmarshalerCLSID` | 4 | Exported Function
+`CoCancelCall` | 5 | Exported Function
+`CoAddRefServerProcess` | 3 | Exported Function
+`CLSIDFromProgID` | 1 | Exported Function
+`CLSIDFromString` | 2 | Exported Function
+`CoCreateInstance` | 9 | Exported Function
+`CoCreateInstanceEx` | 10 | Exported Function
+`CoCreateGuid` | 8 | Exported Function
+`CoCopyProxy` | 6 | Exported Function
+`CoCreateFreeThreadedMarshaler` | 7 | Exported Function
+`CoGetStandardMarshal` | 34 | Exported Function
+`CoGetStdMarshalEx` | 35 | Exported Function
+`CoGetPSClsid` | 33 | Exported Function
+`CoGetMarshalSizeMax` | 31 | Exported Function
+`CoGetObjectContext` | 32 | Exported Function
+`CoInitializeEx` | 39 | Exported Function
+`CoInitializeSecurity` | 40 | Exported Function
+`CoIncrementMTAUsage` | 38 | Exported Function
+`CoGetTreatAsClass` | 36 | Exported Function
+`CoImpersonateClient` | 37 | Exported Function
+`CoGetClassObject` | 24 | Exported Function
+`CoGetContextToken` | 25 | Exported Function
+`CoGetCancelObject` | 23 | Exported Function
+`CoGetCallContext` | 21 | Exported Function
+`CoGetCallerTID` | 22 | Exported Function
+`CoGetInterfaceAndReleaseStream` | 29 | Exported Function
+`CoGetMalloc` | 30 | Exported Function
+`CoGetDefaultContext` | 28 | Exported Function
+`CoGetCurrentLogicalThreadId` | 26 | Exported Function
+`CoGetCurrentProcess` | 27 | Exported Function
 
 
 ## Signature

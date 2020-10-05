@@ -24,20 +24,20 @@ PE256 | `28ED80AAF6D58C21E6A5C1F10F5311C29C7A2461FAB3EBB415C06AD9D44285CB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EdpPlatform_QueryUserSessionState` | 1 (0x1) | Exported Function | 0x0000000180004780 | 0x00004780
-`EdpPlatform_RegisterUserSessionNotification` | 2 (0x2) | Exported Function | 0x0000000180004740 | 0x00004740
-`EdpPlatform_ShowDialog` | 3 (0x3) | Exported Function | 0x0000000180004490 | 0x00004490
-`EdpPlatform_ShowUI` | 4 (0x4) | Exported Function | 0x0000000180004700 | 0x00004700
-`EdpPlatform_UnregisterUserSessionNotification` | 5 (0x5) | Exported Function | 0x00000001800036c0 | 0x000036c0
-`EfsPlatform_GetCallerID` | 6 (0x6) | Exported Function | 0x0000000180003af0 | 0x00003af0
-`EfsPlatform_IsCallerAutomaticallyDelegated` | 7 (0x7) | Exported Function | 0x0000000180003db0 | 0x00003db0
-`EfsPlatform_LaunchPromptUI` | 8 (0x8) | Exported Function | 0x0000000180003ef0 | 0x00003ef0
-`EfsPlatform_SuspendNotificationsAndEncryptFile` | 9 (0x9) | Exported Function | 0x0000000180003a30 | 0x00003a30
-`EfsPlatform_UnpackSecurePin` | 10 (0xa) | Exported Function | 0x0000000180004170 | 0x00004170
-`FVE_LaunchConsentPromptUI` | 11 (0xb) | Exported Function | 0x0000000180004ac0 | 0x00004ac0
-`FVE_LaunchSDCardUI` | 12 (0xc) | Exported Function | 0x0000000180004ca0 | 0x00004ca0
+Function Name | Ordinal | Type
+-- | -- | --
+`EfsPlatform_SuspendNotificationsAndEncryptFile` | 9 | Exported Function
+`EfsPlatform_LaunchPromptUI` | 8 | Exported Function
+`EfsPlatform_IsCallerAutomaticallyDelegated` | 7 | Exported Function
+`FVE_LaunchSDCardUI` | 12 | Exported Function
+`FVE_LaunchConsentPromptUI` | 11 | Exported Function
+`EfsPlatform_UnpackSecurePin` | 10 | Exported Function
+`EdpPlatform_ShowDialog` | 3 | Exported Function
+`EdpPlatform_RegisterUserSessionNotification` | 2 | Exported Function
+`EdpPlatform_QueryUserSessionState` | 1 | Exported Function
+`EfsPlatform_GetCallerID` | 6 | Exported Function
+`EdpPlatform_UnregisterUserSessionNotification` | 5 | Exported Function
+`EdpPlatform_ShowUI` | 4 | Exported Function
 
 
 ## Signature

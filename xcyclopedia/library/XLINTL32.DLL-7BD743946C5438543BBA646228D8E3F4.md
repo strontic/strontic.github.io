@@ -1,0 +1,55 @@
+﻿---
+title: XLINTL32.DLL | Microsoft Excel
+excerpt: What is XLINTL32.DLL?
+---
+
+# XLINTL32.DLL 
+
+* File Path: `C:\Program Files (x86)\Microsoft Office\root\Office16\1033\XLINTL32.DLL`
+* Description: Microsoft Excel
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `7BD743946C5438543BBA646228D8E3F4`
+SHA1 | `A58C9F2E4233992B7F2DDB11D6B4B709C70C0ED9`
+SHA256 | `4BE9D9ABC0556FA7732809FC42B90656629F34C64421B1819EF53BB7DD5FE1D5`
+SHA384 | `AB7C5EA1A617523FFE73A36306C301390AE209AF8729E51CF39E74EBB65A96FB2660C24174F4540955124290698BAFC9`
+SHA512 | `462D9BF9F0D62F4E02690A5C2EFED6A92087090D1E4D121033ACFC3E43AD339975C25E868D3B0CCAFAB4F7E74F8D13073442678B32236EE56927A981F1327309`
+SSDEEP | `98304:q111S1111nKAct/jP99999999l9999999994efZPUUQ46fQug7e:9KvLvFQ42QugK`
+IMP | `n/a`
+PESHA1 | `57E4838AE02510940CE005B521B2203FF475147E`
+PE256 | `B7F160F5D9BE0E972F71CD1CBBBF971E405D927B6FF3966026D915DF5E7C62D6`
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000002CF6D2CC57CAA65A6D80000000002CF`
+* Thumbprint: `1A221B3B4FEF088B17BA6704FD088DF192D9E0EF`
+* Issuer: CN=Microsoft Code Signing PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: XLIntl.exe
+* Product Name: Microsoft Office
+* Company Name: Microsoft Corporation
+* File Version: 16.0.12527.20122
+* Product Version: 16.0.12527.20122
+* Language: English (United States)
+* Legal Copyright: 
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/4be9d9abc0556fa7732809fc42b90656629f34c64421b1819ef53bb7dd5fe1d5/detection/
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

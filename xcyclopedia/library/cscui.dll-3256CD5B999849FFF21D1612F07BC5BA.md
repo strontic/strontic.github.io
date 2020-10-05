@@ -24,20 +24,20 @@ PE256 | `6636BF1C0F832CD6BEDAA37A6B224378350AAAE14CAB5F56454D241B83E996A5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CPlApplet` | 1 (0x1) | Exported Function | 0x000000018000a6a0 | 0x0000a6a0
-`CSCOptions_RunDLL` | 3 (0x3) | Exported Function | 0x000000018000a910 | 0x0000a910
-`CSCOptions_RunDLLA` | 4 (0x4) | Exported Function | 0x000000018000a910 | 0x0000a910
-`CSCOptions_RunDLLW` | 5 (0x5) | Exported Function | 0x000000018000a9b0 | 0x0000a9b0
-`CSCUIInitialize` | 6 (0x6) | Exported Function | 0x0000000180004d50 | 0x00004d50
-`CSCUIOptionsPropertySheet` | 2 (0x2) | Exported Function | 0x000000018000a900 | 0x0000a900
-`CSCUIRemoveFolderFromCache` | 7 (0x7) | Exported Function | 0x000000018000b320 | 0x0000b320
-`CSCUISetState` | 8 (0x8) | Exported Function | 0x0000000180004d50 | 0x00004d50
-`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x0000000180004130 | 0x00004130
-`DllGetClassObject` | 10 (0xa) | Exported Function | 0x0000000180003400 | 0x00003400
-`DllRegisterServer` | 11 (0xb) | Exported Function | 0x000000018000b400 | 0x0000b400
-`DllUnregisterServer` | 12 (0xc) | Exported Function | 0x000000018000b450 | 0x0000b450
+Function Name | Ordinal | Type
+-- | -- | --
+`DllCanUnloadNow` | 9 | Exported Function
+`CSCUISetState` | 8 | Exported Function
+`CSCUIRemoveFolderFromCache` | 7 | Exported Function
+`DllUnregisterServer` | 12 | Exported Function
+`DllRegisterServer` | 11 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`CSCOptions_RunDLLA` | 4 | Exported Function
+`CSCOptions_RunDLL` | 3 | Exported Function
+`CPlApplet` | 1 | Exported Function
+`CSCUIOptionsPropertySheet` | 2 | Exported Function
+`CSCUIInitialize` | 6 | Exported Function
+`CSCOptions_RunDLLW` | 5 | Exported Function
 
 
 ## Signature

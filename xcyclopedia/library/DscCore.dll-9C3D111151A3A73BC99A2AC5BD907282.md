@@ -24,24 +24,24 @@ PE256 | `1B490C7123FDFDA7D12F3B1F70808C59B925A94917D90CEB424784C34C5AB3D5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CATraps` | 1 (0x1) | Exported Function | 0x000000018004e290 | 0x0004e290
-`CreateAuthenticationCertificateWrapper` | 3 (0x3) | Exported Function | 0x000000018000bc50 | 0x0000bc50
-`CUTraps` | 2 (0x2) | Exported Function | 0x000000018004e230 | 0x0004e230
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x0000000180001680 | 0x00001680
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x00000001800016c0 | 0x000016c0
-`DllMain` | 6 (0x6) | Exported Function | 0x0000000180001370 | 0x00001370
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x00000001800015e0 | 0x000015e0
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x0000000180001630 | 0x00001630
-`GetProviderClassID` | 9 (0x9) | Exported Function | 0x00000001800013d0 | 0x000013d0
-`LCMTraps` | 10 (0xa) | Exported Function | 0x000000018004e160 | 0x0004e160
-`MI_Main` | 11 (0xb) | Exported Function | 0x0000000180001310 | 0x00001310
-`NITS_PRESENCE_STUB` | 12 (0xc) | Exported Function | 0x00000001800717c8 | 0x000717c8
-`NITS_STUB` | 13 (0xd) | Exported Function | 0x000000018004e460 | 0x0004e460
-`SysPrep_Cleanup` | 14 (0xe) | Exported Function | 0x000000018000bbd0 | 0x0000bbd0
-`ValidateCertificateExpirationWrapper` | 15 (0xf) | Exported Function | 0x000000018000bd20 | 0x0000bd20
-`ValidatorTraps` | 16 (0x10) | Exported Function | 0x000000018004e218 | 0x0004e218
+Function Name | Ordinal | Type
+-- | -- | --
+`MI_Main` | 11 | Exported Function
+`NITS_PRESENCE_STUB` | 12 | Exported Function
+`GetProviderClassID` | 9 | Exported Function
+`LCMTraps` | 10 | Exported Function
+`ValidateCertificateExpirationWrapper` | 15 | Exported Function
+`ValidatorTraps` | 16 | Exported Function
+`NITS_STUB` | 13 | Exported Function
+`SysPrep_Cleanup` | 14 | Exported Function
+`CUTraps` | 2 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
+`CATraps` | 1 | Exported Function
+`CreateAuthenticationCertificateWrapper` | 3 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllMain` | 6 | Exported Function
 
 
 ## Signature

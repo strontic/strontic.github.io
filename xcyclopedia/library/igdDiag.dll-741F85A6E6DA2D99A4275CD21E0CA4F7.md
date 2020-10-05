@@ -24,13 +24,13 @@ PE256 | `7E53A574F173DF03C01CEB4F2FEF2314376FA90FDF1FE773EC00D6FB95DA2AF8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DetectNAT` | 1 (0x1) | Exported Function | 0x0000000180005630 | 0x00005630
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180007460 | 0x00007460
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x00000001800074a0 | 0x000074a0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x00000001800075e0 | 0x000075e0
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x0000000180007710 | 0x00007710
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DetectNAT` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

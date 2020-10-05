@@ -24,12 +24,12 @@ PE256 | `EBCC3416B5742143DDE2CE0356500449F00E068ABB52909F8FDDAF1BE471EF40`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AppxSysprepSpecializeOffline` | 1 (0x1) | Exported Function | 0x0000000180006df0 | 0x00006df0
-`AppxSysprepSpecializeOnline` | 2 (0x2) | Exported Function | 0x0000000180006fd0 | 0x00006fd0
-`SysprepGeneralize` | 3 (0x3) | Exported Function | 0x0000000180007ec0 | 0x00007ec0
-`SysprepGeneralizeValidate` | 4 (0x4) | Exported Function | 0x0000000180007de0 | 0x00007de0
+Function Name | Ordinal | Type
+-- | -- | --
+`SysprepGeneralize` | 3 | Exported Function
+`SysprepGeneralizeValidate` | 4 | Exported Function
+`AppxSysprepSpecializeOffline` | 1 | Exported Function
+`AppxSysprepSpecializeOnline` | 2 | Exported Function
 
 
 ## Signature

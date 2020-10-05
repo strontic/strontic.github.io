@@ -24,20 +24,20 @@ PE256 | `645811D8D9BBB6B47FCCD1E8C4960EB34A49036DFC51224427FD5EA76A3CA49E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NetCaptureProvisioningPackage` | 1 (0x1) | Exported Function | 0x100085f0 | 0x000085f0
-`NetCreateProvisioningPackage` | 2 (0x2) | Exported Function | 0x100054e0 | 0x000054e0
-`NetpAnalyzeProvisioningPackage` | 4 (0x4) | Exported Function | 0x100076b0 | 0x000076b0
-`NetpCreateProvisioningPackage` | 5 (0x5) | Exported Function | 0x100057e0 | 0x000057e0
-`NetpProvCheckOfflineLsaPolicyUpdate` | 6 (0x6) | Exported Function | 0x100050f0 | 0x000050f0
-`NetpProvContinueProvisioningPackageInstall` | 7 (0x7) | Exported Function | 0x10007a50 | 0x00007a50
-`NetpProvDomainJoinLicensingCheck` | 8 (0x8) | Exported Function | JOINUTIL.NetpDoDomainJoinLicensingCheck | 0x0000b54b
-`NetpProvFreeLdapLsaDomainInfo` | 9 (0x9) | Exported Function | 0x10005090 | 0x00005090
-`NetpRequestProvisioningPackageInstall` | 10 (0xa) | Exported Function | 0x10007910 | 0x00007910
-`NetpRequestProvisioningPackageInstallForIMC` | 11 (0xb) | Exported Function | 0x10007940 | 0x00007940
-`NetpRequestProvisioningPackageInstallForOfflineServicing` | 12 (0xc) | Exported Function | 0x100079e0 | 0x000079e0
-`NetRequestProvisioningPackageInstall` | 3 (0x3) | Exported Function | 0x10006510 | 0x00006510
+Function Name | Ordinal | Type
+-- | -- | --
+`NetpRequestProvisioningPackageInstall` | 10 | Exported Function
+`NetpProvFreeLdapLsaDomainInfo` | 9 | Exported Function
+`NetpProvDomainJoinLicensingCheck` | 8 | Exported Function
+`NetRequestProvisioningPackageInstall` | 3 | Exported Function
+`NetpRequestProvisioningPackageInstallForOfflineServicing` | 12 | Exported Function
+`NetpRequestProvisioningPackageInstallForIMC` | 11 | Exported Function
+`NetpAnalyzeProvisioningPackage` | 4 | Exported Function
+`NetCreateProvisioningPackage` | 2 | Exported Function
+`NetCaptureProvisioningPackage` | 1 | Exported Function
+`NetpProvContinueProvisioningPackageInstall` | 7 | Exported Function
+`NetpProvCheckOfflineLsaPolicyUpdate` | 6 | Exported Function
+`NetpCreateProvisioningPackage` | 5 | Exported Function
 
 
 ## Signature

@@ -24,19 +24,19 @@ PE256 | `0BF6ADB7F19F010D3573DF4B08849E38764673FD6C1F5DCE880660651DC0CF53`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CimCloseImage` | 1 (0x1) | Exported Function | 0x0000000180008570 | 0x00008570
-`CimCloseStream` | 2 (0x2) | Exported Function | 0x0000000180007cc0 | 0x00007cc0
-`CimCommitImage` | 3 (0x3) | Exported Function | 0x00000001800081b0 | 0x000081b0
-`CimCreateAlternateStream` | 4 (0x4) | Exported Function | 0x00000001800079d0 | 0x000079d0
-`CimCreateFile` | 5 (0x5) | Exported Function | 0x00000001800074e0 | 0x000074e0
-`CimCreateHardLink` | 6 (0x6) | Exported Function | 0x0000000180007cf0 | 0x00007cf0
-`CimCreateImage` | 7 (0x7) | Exported Function | 0x0000000180006aa0 | 0x00006aa0
-`CimDeletePath` | 8 (0x8) | Exported Function | 0x0000000180007f80 | 0x00007f80
-`CimDismountImage` | 9 (0x9) | Exported Function | 0x00000001800090e0 | 0x000090e0
-`CimMountImage` | 10 (0xa) | Exported Function | 0x0000000180008a10 | 0x00008a10
-`CimWriteStream` | 11 (0xb) | Exported Function | 0x0000000180007b00 | 0x00007b00
+Function Name | Ordinal | Type
+-- | -- | --
+`CimDeletePath` | 8 | Exported Function
+`CimCreateImage` | 7 | Exported Function
+`CimDismountImage` | 9 | Exported Function
+`CimWriteStream` | 11 | Exported Function
+`CimMountImage` | 10 | Exported Function
+`CimCreateHardLink` | 6 | Exported Function
+`CimCloseStream` | 2 | Exported Function
+`CimCloseImage` | 1 | Exported Function
+`CimCommitImage` | 3 | Exported Function
+`CimCreateFile` | 5 | Exported Function
+`CimCreateAlternateStream` | 4 | Exported Function
 
 
 ## Signature

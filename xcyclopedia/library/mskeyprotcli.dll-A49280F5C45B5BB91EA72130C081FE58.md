@@ -24,9 +24,9 @@ PE256 | `47C05EF006387051D5EDFF5FC6D5BDD4FBED2FD6EDBC6752EE53169C9CD40DC5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetKeyProtectionInterface` | 1 (0x1) | Exported Function | 0x100091c0 | 0x000091c0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetKeyProtectionInterface` | 1 | Exported Function
 
 
 ## Signature

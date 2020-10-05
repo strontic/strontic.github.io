@@ -24,11 +24,11 @@ PE256 | `76C4B05786517CC039FB8747C2DA289EC61C51FB9694EDC3F5E52379B38C330B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseNetSvcsObject` | 1 (0x1) | Exported Function | 0x10001940 | 0x00001940
-`CollectNetSvcsObjectData` | 2 (0x2) | Exported Function | 0x10001800 | 0x00001800
-`OpenNetSvcsObject` | 3 (0x3) | Exported Function | 0x10001750 | 0x00001750
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenNetSvcsObject` | 3 | Exported Function
+`CollectNetSvcsObjectData` | 2 | Exported Function
+`CloseNetSvcsObject` | 1 | Exported Function
 
 
 ## Signature

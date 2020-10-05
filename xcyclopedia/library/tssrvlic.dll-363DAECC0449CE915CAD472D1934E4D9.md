@@ -24,11 +24,11 @@ PE256 | `7CFD9AC92DEBA01E469F777260468A7D5507D017759C78071CDA62373BBC959D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LoadPolicy` | 1 (0x1) | Exported Function | 0x0000000180001a90 | 0x00001a90
-`Shutdown` | 2 (0x2) | Exported Function | 0x0000000180001aa0 | 0x00001aa0
-`SrvLicInitialize` | 3 (0x3) | Exported Function | 0x0000000180001810 | 0x00001810
+Function Name | Ordinal | Type
+-- | -- | --
+`SrvLicInitialize` | 3 | Exported Function
+`Shutdown` | 2 | Exported Function
+`LoadPolicy` | 1 | Exported Function
 
 
 ## Signature

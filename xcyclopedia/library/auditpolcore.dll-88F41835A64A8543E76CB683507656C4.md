@@ -24,37 +24,37 @@ PE256 | `10DA3B1A5384E0A5C633CC0809847630C3EEF09BC2B462714F2F50087F4A0349`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AdtBackupPolicy` | 1 (0x1) | Exported Function | 0x0000000180003e20 | 0x00003e20
-`GetDisplayPolicy` | 27 (0x1b) | Exported Function | 0x0000000180008b90 | 0x00008b90
-`DisplayMessageToSpecificConsoleHandle` | 26 (0x1a) | Exported Function | 0x0000000180009160 | 0x00009160
-`DisplayMessage` | 25 (0x19) | Exported Function | 0x0000000180009040 | 0x00009040
-`AuditPolicyData_DeleteAuditDataInstance` | 24 (0x18) | Exported Function | 0x0000000180007e70 | 0x00007e70
-`AdtSetSystemPolicy` | 23 (0x17) | Exported Function | 0x0000000180003b60 | 0x00003b60
-`AdtSetPerUserPolicy` | 22 (0x16) | Exported Function | 0x0000000180003c40 | 0x00003c40
-`AdtSetOption` | 21 (0x15) | Exported Function | 0x0000000180003d20 | 0x00003d20
-`AdtRestorePolicyGeneralized` | 20 (0x14) | Exported Function | 0x0000000180003fc0 | 0x00003fc0
-`AdtRestorePolicy` | 19 (0x13) | Exported Function | 0x0000000180004000 | 0x00004000
-`AdtRemoveBasePolicy` | 18 (0x12) | Exported Function | 0x0000000180004870 | 0x00004870
-`AdtRemoveAllUsers` | 17 (0x11) | Exported Function | 0x0000000180004ac0 | 0x00004ac0
-`AdtParseGuidOrNameArray` | 16 (0x10) | Exported Function | 0x0000000180006540 | 0x00006540
-`LoadFormatStringAndPrintToConsole` | 28 (0x1c) | Exported Function | 0x00000001800090a0 | 0x000090a0
-`AdtParseAuditOptionName` | 15 (0xf) | Exported Function | 0x0000000180006380 | 0x00006380
-`AdtListSubCategories` | 13 (0xd) | Exported Function | 0x0000000180006a00 | 0x00006a00
-`AdtListCategories` | 12 (0xc) | Exported Function | 0x0000000180006890 | 0x00006890
-`AdtGetSystemPolicy` | 11 (0xb) | Exported Function | 0x0000000180003750 | 0x00003750
-`AdtGetPerUserPolicy` | 10 (0xa) | Exported Function | 0x00000001800037e0 | 0x000037e0
-`AdtGetOption` | 9 (0x9) | Exported Function | 0x0000000180003880 | 0x00003880
-`AdtEnableSinglePrivilege` | 8 (0x8) | Exported Function | 0x0000000180005f50 | 0x00005f50
-`AdtDisableSinglePrivilege` | 7 (0x7) | Exported Function | 0x0000000180005f60 | 0x00005f60
-`AdtConvertGuidToString` | 6 (0x6) | Exported Function | 0x0000000180006120 | 0x00006120
-`AdtConvertGuidStringToGuid` | 5 (0x5) | Exported Function | 0x0000000180006230 | 0x00006230
-`AdtConstructAllCategoryGuids` | 4 (0x4) | Exported Function | 0x00000001800062b0 | 0x000062b0
-`AdtClearPolicy` | 3 (0x3) | Exported Function | 0x00000001800044d0 | 0x000044d0
-`AdtBackupPolicyGeneralized` | 2 (0x2) | Exported Function | 0x0000000180003de0 | 0x00003de0
-`AdtLoadStringEx` | 14 (0xe) | Exported Function | 0x0000000180006520 | 0x00006520
-`SetDisplayPolicy` | 29 (0x1d) | Exported Function | 0x0000000180008ba0 | 0x00008ba0
+Function Name | Ordinal | Type
+-- | -- | --
+`AdtRestorePolicyGeneralized` | 20 | Exported Function
+`AdtSetOption` | 21 | Exported Function
+`AdtSetPerUserPolicy` | 22 | Exported Function
+`AdtRestorePolicy` | 19 | Exported Function
+`AdtParseGuidOrNameArray` | 16 | Exported Function
+`AdtRemoveAllUsers` | 17 | Exported Function
+`AdtRemoveBasePolicy` | 18 | Exported Function
+`GetDisplayPolicy` | 27 | Exported Function
+`LoadFormatStringAndPrintToConsole` | 28 | Exported Function
+`SetDisplayPolicy` | 29 | Exported Function
+`DisplayMessageToSpecificConsoleHandle` | 26 | Exported Function
+`AdtSetSystemPolicy` | 23 | Exported Function
+`AuditPolicyData_DeleteAuditDataInstance` | 24 | Exported Function
+`DisplayMessage` | 25 | Exported Function
+`AdtParseAuditOptionName` | 15 | Exported Function
+`AdtConvertGuidStringToGuid` | 5 | Exported Function
+`AdtConvertGuidToString` | 6 | Exported Function
+`AdtDisableSinglePrivilege` | 7 | Exported Function
+`AdtConstructAllCategoryGuids` | 4 | Exported Function
+`AdtBackupPolicy` | 1 | Exported Function
+`AdtBackupPolicyGeneralized` | 2 | Exported Function
+`AdtClearPolicy` | 3 | Exported Function
+`AdtListCategories` | 12 | Exported Function
+`AdtListSubCategories` | 13 | Exported Function
+`AdtLoadStringEx` | 14 | Exported Function
+`AdtGetSystemPolicy` | 11 | Exported Function
+`AdtEnableSinglePrivilege` | 8 | Exported Function
+`AdtGetOption` | 9 | Exported Function
+`AdtGetPerUserPolicy` | 10 | Exported Function
 
 
 ## Signature

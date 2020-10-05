@@ -24,11 +24,11 @@ PE256 | `0D42A1A5CF9064FF961DD75FF639D503F2ABFB726CDD422401C9C8B059C2905B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DriverProc` | 2 (0x2) | Exported Function | 0x6b701530 | 0x00001530
-`modmCallback` | 4 (0x4) | Exported Function | 0x6b7033f0 | 0x000033f0
-`modMessage` | 3 (0x3) | Exported Function | 0x6b701470 | 0x00001470
+Function Name | Ordinal | Type
+-- | -- | --
+`modMessage` | 3 | Exported Function
+`modmCallback` | 4 | Exported Function
+`DriverProc` | 2 | Exported Function
 
 
 ## Signature

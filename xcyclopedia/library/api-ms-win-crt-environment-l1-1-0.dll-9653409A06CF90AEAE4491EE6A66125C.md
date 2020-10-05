@@ -24,26 +24,26 @@ PE256 | `582ABC473BEDD90FBD7A415E8481CCF1E2DD6C2B3F60B27077A5E4AC88043525`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`__p__environ` | 1 (0x1) | Exported Function | ucrtbase.__p__environ | 0x0000123f
-`_wsearchenv_s` | 16 (0x10) | Exported Function | ucrtbase._wsearchenv_s | 0x00001409
-`_wsearchenv` | 15 (0xf) | Exported Function | ucrtbase._wsearchenv | 0x000013e6
-`_wputenv_s` | 14 (0xe) | Exported Function | ucrtbase._wputenv_s | 0x000013c6
-`_wputenv` | 13 (0xd) | Exported Function | ucrtbase._wputenv | 0x000013a9
-`_wgetenv_s` | 12 (0xc) | Exported Function | ucrtbase._wgetenv_s | 0x0000138c
-`_wgetenv` | 11 (0xb) | Exported Function | ucrtbase._wgetenv | 0x0000136f
-`_wgetdcwd` | 10 (0xa) | Exported Function | ucrtbase._wgetdcwd | 0x00001353
-`_wgetcwd` | 9 (0x9) | Exported Function | ucrtbase._wgetcwd | 0x00001337
-`_wdupenv_s` | 8 (0x8) | Exported Function | ucrtbase._wdupenv_s | 0x0000131a
-`_searchenv_s` | 7 (0x7) | Exported Function | ucrtbase._searchenv_s | 0x000012f9
-`_searchenv` | 6 (0x6) | Exported Function | ucrtbase._searchenv | 0x000012d8
-`_putenv_s` | 5 (0x5) | Exported Function | ucrtbase._putenv_s | 0x000012ba
-`_putenv` | 4 (0x4) | Exported Function | ucrtbase._putenv | 0x0000129f
-`_dupenv_s` | 3 (0x3) | Exported Function | ucrtbase._dupenv_s | 0x00001284
-`__p__wenviron` | 2 (0x2) | Exported Function | ucrtbase.__p__wenviron | 0x00001263
-`getenv` | 17 (0x11) | Exported Function | ucrtbase.getenv | 0x00001427
-`getenv_s` | 18 (0x12) | Exported Function | ucrtbase.getenv_s | 0x00001440
+Function Name | Ordinal | Type
+-- | -- | --
+`_wgetenv_s` | 12 | Exported Function
+`_wputenv` | 13 | Exported Function
+`_wgetdcwd` | 10 | Exported Function
+`_wgetenv` | 11 | Exported Function
+`_wputenv_s` | 14 | Exported Function
+`getenv` | 17 | Exported Function
+`getenv_s` | 18 | Exported Function
+`_wsearchenv` | 15 | Exported Function
+`_wsearchenv_s` | 16 | Exported Function
+`_dupenv_s` | 3 | Exported Function
+`_putenv` | 4 | Exported Function
+`__p__environ` | 1 | Exported Function
+`__p__wenviron` | 2 | Exported Function
+`_putenv_s` | 5 | Exported Function
+`_wdupenv_s` | 8 | Exported Function
+`_wgetcwd` | 9 | Exported Function
+`_searchenv` | 6 | Exported Function
+`_searchenv_s` | 7 | Exported Function
 
 
 ## Signature
@@ -75,6 +75,7 @@ Function Name | Ordinal | Type | Address | Relative Address
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 40
+[C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\Smart Tag\SmartTagInstall.exe](SmartTagInstall.exe-632AB2DBE46DE1E9BB0FB7B54B3BB05C.md) | 35
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 49
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 25
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 41

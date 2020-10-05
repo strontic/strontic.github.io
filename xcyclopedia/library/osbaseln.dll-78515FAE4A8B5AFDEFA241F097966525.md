@@ -24,23 +24,22 @@ PE256 | `83E0C6CCAB3556C280ABAEF7218353475C8425417E746DF45BD85B67016C3560`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseOsBaseline` | 2 (0x2) | Exported Function | 0x10002750 | 0x00002750
-`EnumOsBaselineComponentsA` | 3 (0x3) | Exported Function | 0x100018d0 | 0x000018d0
-`EnumOsBaselineComponentsW` | 4 (0x4) | Exported Function | 0x10002840 | 0x00002840
-`EnumOsOutOfDateComponentsA` | 5 (0x5) | Exported Function | 0x10002110 | 0x00002110
-`EnumOsOutOfDateComponentsW` | 6 (0x6) | Exported Function | 0x10003120 | 0x00003120
-`GetOsBaselineComponentInfoA` | 7 (0x7) | Exported Function | 0x10001cf0 | 0x00001cf0
-`GetOsBaselineComponentInfoW` | 8 (0x8) | Exported Function | 0x10002c70 | 0x00002c70
-`GetOsInstalledComponentInfoA` | 9 (0x9) | Exported Function | 0x10001e90 | 0x00001e90
-`GetOsInstalledComponentInfoW` | 10 (0xa) | Exported Function | 0x10002ea0 | 0x00002ea0
-`GetOsLatestBaselineServicePack` | 11 (0xb) | Exported Function | 0x10002d60 | 0x00002d60
-`OpenOsBaseline` | 12 (0xc) | Exported Function | 0x100026c0 | 0x000026c0
-`Ordinal1` | 1 (0x1) | Exported Function | 0x10003280 | 0x00003280
-`pGetOsBaselineCurrentVersion` | 13 (0xd) | Exported Function | 0x10002390 | 0x00002390
-`pGetOsCurrentBaselineServicePack` | 14 (0xe) | Exported Function | 0x100031c0 | 0x000031c0
-`pOpenOsBaselineByVersion` | 15 (0xf) | Exported Function | 0x10002530 | 0x00002530
+Function Name | Ordinal | Type
+-- | -- | --
+`GetOsLatestBaselineServicePack` | 11 | Exported Function
+`GetOsInstalledComponentInfoW` | 10 | Exported Function
+`GetOsInstalledComponentInfoA` | 9 | Exported Function
+`OpenOsBaseline` | 12 | Exported Function
+`pOpenOsBaselineByVersion` | 15 | Exported Function
+`pGetOsCurrentBaselineServicePack` | 14 | Exported Function
+`pGetOsBaselineCurrentVersion` | 13 | Exported Function
+`EnumOsBaselineComponentsW` | 4 | Exported Function
+`EnumOsBaselineComponentsA` | 3 | Exported Function
+`CloseOsBaseline` | 2 | Exported Function
+`EnumOsOutOfDateComponentsA` | 5 | Exported Function
+`GetOsBaselineComponentInfoW` | 8 | Exported Function
+`GetOsBaselineComponentInfoA` | 7 | Exported Function
+`EnumOsOutOfDateComponentsW` | 6 | Exported Function
 
 
 ## Signature

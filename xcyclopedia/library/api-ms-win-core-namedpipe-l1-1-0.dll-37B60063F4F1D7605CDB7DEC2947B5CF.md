@@ -24,18 +24,18 @@ PE256 | `5284C6E6B31FE6BA207048193DF412FFA19586C3DE1A3ABF2D07F59C722D453B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ConnectNamedPipe` | 1 (0x1) | Exported Function | kernel32.ConnectNamedPipe | 0x00001122
-`CreateNamedPipeW` | 2 (0x2) | Exported Function | kernel32.CreateNamedPipeW | 0x0000114d
-`CreatePipe` | 3 (0x3) | Exported Function | kernel32.CreatePipe | 0x00001172
-`DisconnectNamedPipe` | 4 (0x4) | Exported Function | kernel32.DisconnectNamedPipe | 0x0000119a
-`GetNamedPipeClientComputerNameW` | 5 (0x5) | Exported Function | kernel32.GetNamedPipeClientComputerNameW | 0x000011d7
-`ImpersonateNamedPipeClient` | 6 (0x6) | Exported Function | advapi32.dll.ImpersonateNamedPipeClient | 0x0000121b
-`PeekNamedPipe` | 7 (0x7) | Exported Function | kernel32.PeekNamedPipe | 0x00001251
-`SetNamedPipeHandleState` | 8 (0x8) | Exported Function | kernel32.SetNamedPipeHandleState | 0x00001280
-`TransactNamedPipe` | 9 (0x9) | Exported Function | kernel32.TransactNamedPipe | 0x000012b3
-`WaitNamedPipeW` | 10 (0xa) | Exported Function | kernel32.WaitNamedPipeW | 0x000012dd
+Function Name | Ordinal | Type
+-- | -- | --
+`PeekNamedPipe` | 7 | Exported Function
+`ImpersonateNamedPipeClient` | 6 | Exported Function
+`SetNamedPipeHandleState` | 8 | Exported Function
+`WaitNamedPipeW` | 10 | Exported Function
+`TransactNamedPipe` | 9 | Exported Function
+`CreateNamedPipeW` | 2 | Exported Function
+`ConnectNamedPipe` | 1 | Exported Function
+`CreatePipe` | 3 | Exported Function
+`GetNamedPipeClientComputerNameW` | 5 | Exported Function
+`DisconnectNamedPipe` | 4 | Exported Function
 
 
 ## Signature

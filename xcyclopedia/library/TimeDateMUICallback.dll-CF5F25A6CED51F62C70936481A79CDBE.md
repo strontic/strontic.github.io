@@ -24,9 +24,9 @@ PE256 | `64525320045A2CE479430FDC370C1C1CE92001E11D49E332CE9501F85BDA0D21`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`OnMachineUILanguageSwitch` | 1 (0x1) | Exported Function | 0x100014d0 | 0x000014d0
+Function Name | Ordinal | Type
+-- | -- | --
+`OnMachineUILanguageSwitch` | 1 | Exported Function
 
 
 ## Signature

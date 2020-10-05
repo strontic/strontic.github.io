@@ -24,13 +24,13 @@ PE256 | `B4CA30E778BEB533E7839C0ACD49A5825E917D23AA8315E6E6B9436DACE52E7A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CheckRemoteDebuggerPresent` | 1 (0x1) | Exported Function | kernel32.CheckRemoteDebuggerPresent | 0x000011b6
-`ContinueDebugEvent` | 2 (0x2) | Exported Function | kernel32.ContinueDebugEvent | 0x000011ed
-`DebugActiveProcess` | 3 (0x3) | Exported Function | kernel32.DebugActiveProcess | 0x0000121c
-`DebugActiveProcessStop` | 4 (0x4) | Exported Function | kernel32.DebugActiveProcessStop | 0x0000124f
-`WaitForDebugEvent` | 5 (0x5) | Exported Function | kernel32.WaitForDebugEvent | 0x00001281
+Function Name | Ordinal | Type
+-- | -- | --
+`DebugActiveProcessStop` | 4 | Exported Function
+`WaitForDebugEvent` | 5 | Exported Function
+`DebugActiveProcess` | 3 | Exported Function
+`CheckRemoteDebuggerPresent` | 1 | Exported Function
+`ContinueDebugEvent` | 2 | Exported Function
 
 
 ## Signature

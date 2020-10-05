@@ -24,13 +24,13 @@ PE256 | `DD6FD963814EEC9FFEB1B4B35D0EA01522E89CF81936AEDC9F6DD7607CE6B9A1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AntiTheftAckProtectionEnabled` | 1 (0x1) | Exported Function | 0x0000000180001340 | 0x00001340
-`AntiTheftCheckProtectionStatus` | 2 (0x2) | Exported Function | 0x00000001800012c0 | 0x000012c0
-`AntiTheftProtectDevice` | 3 (0x3) | Exported Function | 0x0000000180001150 | 0x00001150
-`AntiTheftUnprotectDevice` | 4 (0x4) | Exported Function | 0x0000000180001220 | 0x00001220
-`AntiTheftUnprotectDeviceFromOOBE` | 5 (0x5) | Exported Function | 0x00000001800013e0 | 0x000013e0
+Function Name | Ordinal | Type
+-- | -- | --
+`AntiTheftUnprotectDevice` | 4 | Exported Function
+`AntiTheftUnprotectDeviceFromOOBE` | 5 | Exported Function
+`AntiTheftProtectDevice` | 3 | Exported Function
+`AntiTheftAckProtectionEnabled` | 1 | Exported Function
+`AntiTheftCheckProtectionStatus` | 2 | Exported Function
 
 
 ## Signature

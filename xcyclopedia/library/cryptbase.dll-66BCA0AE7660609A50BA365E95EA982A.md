@@ -24,19 +24,19 @@ PE256 | `8C6942B6FD678C5D6FA878D26368A41EDBF8DBA02B6FE1AB3E338368E4A7CD52`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SystemFunction001` | 1 (0x1) | Exported Function | 0x10004be0 | 0x00004be0
-`SystemFunction002` | 2 (0x2) | Exported Function | 0x100025b0 | 0x000025b0
-`SystemFunction003` | 3 (0x3) | Exported Function | 0x10002cc0 | 0x00002cc0
-`SystemFunction004` | 4 (0x4) | Exported Function | 0x100048e0 | 0x000048e0
-`SystemFunction005` | 5 (0x5) | Exported Function | 0x10004a20 | 0x00004a20
-`SystemFunction028` | 6 (0x6) | Exported Function | 0x100043a0 | 0x000043a0
-`SystemFunction029` | 7 (0x7) | Exported Function | 0x10002c20 | 0x00002c20
-`SystemFunction034` | 8 (0x8) | Exported Function | 0x100043f0 | 0x000043f0
-`SystemFunction036` | 9 (0x9) | Exported Function | 0x10002a40 | 0x00002a40
-`SystemFunction040` | 10 (0xa) | Exported Function | 0x10002bc0 | 0x00002bc0
-`SystemFunction041` | 11 (0xb) | Exported Function | 0x10002b60 | 0x00002b60
+Function Name | Ordinal | Type
+-- | -- | --
+`SystemFunction034` | 8 | Exported Function
+`SystemFunction029` | 7 | Exported Function
+`SystemFunction036` | 9 | Exported Function
+`SystemFunction041` | 11 | Exported Function
+`SystemFunction040` | 10 | Exported Function
+`SystemFunction028` | 6 | Exported Function
+`SystemFunction002` | 2 | Exported Function
+`SystemFunction001` | 1 | Exported Function
+`SystemFunction003` | 3 | Exported Function
+`SystemFunction005` | 5 | Exported Function
+`SystemFunction004` | 4 | Exported Function
 
 
 ## Signature

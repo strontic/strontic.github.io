@@ -24,49 +24,49 @@ PE256 | `11E68022CF79BF321FFE4B63B7118B70BE72591872E94BBB2F551D232272A23E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DMCSP_DevDetail_GetCommercializationOperator` | 2 (0x2) | Exported Function | 0x00000001800077c0 | 0x000077c0
-`DMCSP_DevInfo_GetManufacturer` | 23 (0x17) | Exported Function | 0x0000000180006e40 | 0x00006e40
-`DMCSP_DevInfo_GetModel` | 24 (0x18) | Exported Function | 0x0000000180006eb0 | 0x00006eb0
-`DMDiag_Export_DiagnosticsLog` | 26 (0x1a) | Exported Function | 0x00000001800046a0 | 0x000046a0
-`DMDiag_Filter_Diagnostics_Events_From_AutoLog` | 27 (0x1b) | Exported Function | 0x0000000180004790 | 0x00004790
-`DMLegacy_UnActivateLOB` | 1 (0x1) | Exported Function | 0x0000000180006500 | 0x00006500
-`DMUI_DismissNotification` | 28 (0x1c) | Exported Function | 0x0000000180007a90 | 0x00007a90
-`DMUI_DisplayConfigurationResult` | 29 (0x1d) | Exported Function | 0x0000000180004790 | 0x00004790
-`DMUI_GetUserEditFieldInput` | 30 (0x1e) | Exported Function | 0x0000000180006300 | 0x00006300
-`DMUI_GetUserPermission` | 31 (0x1f) | Exported Function | 0x0000000180006200 | 0x00006200
-`DMUI_GetUserPermissionAsync` | 32 (0x20) | Exported Function | 0x0000000180007a90 | 0x00007a90
-`DMUI_InformUser` | 33 (0x21) | Exported Function | 0x0000000180007a90 | 0x00007a90
-`DMUI_IsAbortSessionRequested` | 34 (0x22) | Exported Function | 0x0000000180007a90 | 0x00007a90
-`DMUI_SyncMLAlertGetResults` | 35 (0x23) | Exported Function | 0x0000000180007a90 | 0x00007a90
-`DMUI_SyncMLAlertGetStatusCode` | 36 (0x24) | Exported Function | 0x0000000180007a90 | 0x00007a90
-`DMUI_SyncMLAlertShowUI` | 37 (0x25) | Exported Function | 0x0000000180007a90 | 0x00007a90
-`Mmpc_Lockdown_GetManagementUrls` | 38 (0x26) | Exported Function | 0x0000000180004770 | 0x00004770
-`Mmpc_Lockdown_IsCertificateTrustedForMmpc` | 39 (0x27) | Exported Function | 0x00000001800047a0 | 0x000047a0
-`DMCSP_DevInfo_GetLanguage` | 22 (0x16) | Exported Function | 0x0000000180006f20 | 0x00006f20
-`Mmpc_Lockdown_IsLockedToMmpc` | 40 (0x28) | Exported Function | 0x0000000180004760 | 0x00004760
-`DMCSP_DevInfo_GetHwDevID` | 21 (0x15) | Exported Function | 0x00000001800069d0 | 0x000069d0
-`DMCSP_DeviceStatus_IsBitlockerProtected` | 25 (0x19) | Exported Function | 0x00000001800038a0 | 0x000038a0
-`DMCSP_DevDetail_GetDeviceHardwareData` | 3 (0x3) | Exported Function | 0x0000000180004740 | 0x00004740
-`DMCSP_DevDetail_GetDeviceName` | 4 (0x4) | Exported Function | 0x0000000180007a30 | 0x00007a30
-`DMCSP_DevDetail_GetDeviceType` | 5 (0x5) | Exported Function | 0x0000000180006fa0 | 0x00006fa0
-`DMCSP_DevDetail_GetFwV` | 6 (0x6) | Exported Function | 0x0000000180007010 | 0x00007010
-`DMCSP_DevDetail_GetHwV` | 7 (0x7) | Exported Function | 0x0000000180007280 | 0x00007280
-`DMCSP_DevDetail_GetLocalTimeString` | 8 (0x8) | Exported Function | 0x0000000180007330 | 0x00007330
-`DMCSP_DevDetail_GetMobileID` | 9 (0x9) | Exported Function | 0x00000001800072a0 | 0x000072a0
-`DMCSP_DevDetail_GetOEM` | 10 (0xa) | Exported Function | 0x0000000180006ff0 | 0x00006ff0
-`DMCSP_DevDetail_GetOSPlatform` | 11 (0xb) | Exported Function | 0x00000001800074e0 | 0x000074e0
-`DMCSP_DevDetail_GetProcessorArchitecture` | 12 (0xc) | Exported Function | 0x00000001800079f0 | 0x000079f0
-`DMCSP_DevDetail_GetProcessorType` | 13 (0xd) | Exported Function | 0x0000000180007500 | 0x00007500
-`DMCSP_DevDetail_GetRadioSwV` | 14 (0xe) | Exported Function | 0x0000000180007540 | 0x00007540
-`DMCSP_DevDetail_GetResolution` | 15 (0xf) | Exported Function | 0x0000000180007750 | 0x00007750
-`DMCSP_DevDetail_GetSwV` | 16 (0x10) | Exported Function | 0x0000000180007060 | 0x00007060
-`DMCSP_DevDetail_GetVoLTEServiceSetting` | 17 (0x11) | Exported Function | 0x0000000180004760 | 0x00004760
-`DMCSP_DevDetail_GetWLANMACAddress` | 18 (0x12) | Exported Function | 0x0000000180007a60 | 0x00007a60
-`DMCSP_DevDetail_SetDeviceName` | 19 (0x13) | Exported Function | 0x0000000180007a50 | 0x00007a50
-`DMCSP_DevInfo_GetDmV` | 20 (0x14) | Exported Function | 0x0000000180006f00 | 0x00006f00
-`Mmpc_Lockdown_ReleaseManagementUrl` | 41 (0x29) | Exported Function | 0x0000000180004790 | 0x00004790
+Function Name | Ordinal | Type
+-- | -- | --
+`DMUI_DismissNotification` | 28 | Exported Function
+`DMLegacy_UnActivateLOB` | 1 | Exported Function
+`DMUI_DisplayConfigurationResult` | 29 | Exported Function
+`DMUI_GetUserPermission` | 31 | Exported Function
+`DMUI_GetUserEditFieldInput` | 30 | Exported Function
+`DMCSP_DevInfo_GetManufacturer` | 23 | Exported Function
+`DMCSP_DevInfo_GetLanguage` | 22 | Exported Function
+`DMCSP_DevInfo_GetModel` | 24 | Exported Function
+`DMDiag_Filter_Diagnostics_Events_From_AutoLog` | 27 | Exported Function
+`DMDiag_Export_DiagnosticsLog` | 26 | Exported Function
+`Mmpc_Lockdown_GetManagementUrls` | 38 | Exported Function
+`DMUI_SyncMLAlertShowUI` | 37 | Exported Function
+`Mmpc_Lockdown_IsCertificateTrustedForMmpc` | 39 | Exported Function
+`Mmpc_Lockdown_ReleaseManagementUrl` | 41 | Exported Function
+`Mmpc_Lockdown_IsLockedToMmpc` | 40 | Exported Function
+`DMUI_InformUser` | 33 | Exported Function
+`DMUI_GetUserPermissionAsync` | 32 | Exported Function
+`DMUI_IsAbortSessionRequested` | 34 | Exported Function
+`DMUI_SyncMLAlertGetStatusCode` | 36 | Exported Function
+`DMUI_SyncMLAlertGetResults` | 35 | Exported Function
+`DMCSP_DevInfo_GetHwDevID` | 21 | Exported Function
+`DMCSP_DevDetail_GetLocalTimeString` | 8 | Exported Function
+`DMCSP_DevDetail_GetHwV` | 7 | Exported Function
+`DMCSP_DevDetail_GetMobileID` | 9 | Exported Function
+`DMCSP_DevDetail_GetOSPlatform` | 11 | Exported Function
+`DMCSP_DevDetail_GetOEM` | 10 | Exported Function
+`DMCSP_DevDetail_GetDeviceHardwareData` | 3 | Exported Function
+`DMCSP_DevDetail_GetCommercializationOperator` | 2 | Exported Function
+`DMCSP_DevDetail_GetDeviceName` | 4 | Exported Function
+`DMCSP_DevDetail_GetFwV` | 6 | Exported Function
+`DMCSP_DevDetail_GetDeviceType` | 5 | Exported Function
+`DMCSP_DevDetail_GetWLANMACAddress` | 18 | Exported Function
+`DMCSP_DevDetail_GetVoLTEServiceSetting` | 17 | Exported Function
+`DMCSP_DevDetail_SetDeviceName` | 19 | Exported Function
+`DMCSP_DevInfo_GetDmV` | 20 | Exported Function
+`DMCSP_DeviceStatus_IsBitlockerProtected` | 25 | Exported Function
+`DMCSP_DevDetail_GetProcessorType` | 13 | Exported Function
+`DMCSP_DevDetail_GetProcessorArchitecture` | 12 | Exported Function
+`DMCSP_DevDetail_GetRadioSwV` | 14 | Exported Function
+`DMCSP_DevDetail_GetSwV` | 16 | Exported Function
+`DMCSP_DevDetail_GetResolution` | 15 | Exported Function
 
 
 ## Signature

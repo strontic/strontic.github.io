@@ -24,9 +24,9 @@ PE256 | `51AA3169F77FB6DA9DC92A828B3C39C1A494F3EBEA5F6F43FA7ED2B280DF7896`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DHD1CreateSystem` | 1 (0x1) | Exported Function | 0x000000018001c980 | 0x0001c980
+Function Name | Ordinal | Type
+-- | -- | --
+`DHD1CreateSystem` | 1 | Exported Function
 
 
 ## Signature

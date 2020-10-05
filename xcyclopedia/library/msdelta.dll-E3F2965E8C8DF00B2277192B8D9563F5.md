@@ -24,23 +24,23 @@ PE256 | `B927B90D59F34D4799E8327E65963393523441514039608FD5FCFB894DD98B3F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ApplyDeltaA` | 1 (0x1) | Exported Function | 0x00000001800340c0 | 0x000340c0
-`ApplyDeltaB` | 2 (0x2) | Exported Function | 0x00000001800062b0 | 0x000062b0
-`ApplyDeltaProvidedB` | 3 (0x3) | Exported Function | 0x0000000180004ad0 | 0x00004ad0
-`ApplyDeltaW` | 4 (0x4) | Exported Function | 0x00000001800341d0 | 0x000341d0
-`CreateDeltaA` | 5 (0x5) | Exported Function | 0x00000001800342e0 | 0x000342e0
-`CreateDeltaB` | 6 (0x6) | Exported Function | 0x0000000180034550 | 0x00034550
-`CreateDeltaW` | 7 (0x7) | Exported Function | 0x00000001800348c0 | 0x000348c0
-`DeltaFree` | 8 (0x8) | Exported Function | 0x000000018002c1e0 | 0x0002c1e0
-`DeltaNormalizeProvidedB` | 9 (0x9) | Exported Function | 0x0000000180034b30 | 0x00034b30
-`GetDeltaInfoA` | 10 (0xa) | Exported Function | 0x0000000180034ca0 | 0x00034ca0
-`GetDeltaInfoB` | 11 (0xb) | Exported Function | 0x0000000180004740 | 0x00004740
-`GetDeltaInfoW` | 12 (0xc) | Exported Function | 0x0000000180034cf0 | 0x00034cf0
-`GetDeltaSignatureA` | 13 (0xd) | Exported Function | 0x0000000180034d40 | 0x00034d40
-`GetDeltaSignatureB` | 14 (0xe) | Exported Function | 0x0000000180034db0 | 0x00034db0
-`GetDeltaSignatureW` | 15 (0xf) | Exported Function | 0x0000000180034e40 | 0x00034e40
+Function Name | Ordinal | Type
+-- | -- | --
+`GetDeltaInfoB` | 11 | Exported Function
+`GetDeltaInfoA` | 10 | Exported Function
+`DeltaNormalizeProvidedB` | 9 | Exported Function
+`GetDeltaInfoW` | 12 | Exported Function
+`GetDeltaSignatureW` | 15 | Exported Function
+`GetDeltaSignatureB` | 14 | Exported Function
+`GetDeltaSignatureA` | 13 | Exported Function
+`DeltaFree` | 8 | Exported Function
+`ApplyDeltaProvidedB` | 3 | Exported Function
+`ApplyDeltaB` | 2 | Exported Function
+`ApplyDeltaA` | 1 | Exported Function
+`ApplyDeltaW` | 4 | Exported Function
+`CreateDeltaW` | 7 | Exported Function
+`CreateDeltaB` | 6 | Exported Function
+`CreateDeltaA` | 5 | Exported Function
 
 
 ## Signature

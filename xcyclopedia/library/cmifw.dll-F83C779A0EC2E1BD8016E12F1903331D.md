@@ -24,12 +24,12 @@ PE256 | `F0CD9A462531E7C22EAD8DDD8921694BB21141CCAAB31638820CBF9762BC774F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x100054f0 | 0x000054f0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x10005510 | 0x00005510
-`EnableGroupW` | 1 (0x1) | Exported Function | 0x1000cdb0 | 0x0000cdb0
-`unattendW` | 2 (0x2) | Exported Function | 0x1000ca70 | 0x0000ca70
+Function Name | Ordinal | Type
+-- | -- | --
+`EnableGroupW` | 1 | Exported Function
+`unattendW` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

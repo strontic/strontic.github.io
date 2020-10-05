@@ -24,11 +24,11 @@ PE256 | `DD32FD1C0AFD4E1B30B787419F38A2A0B720DCD335E035264AC06AB9F3D68A4C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NeedCurrentDirectoryForExePathA` | 1 (0x1) | Exported Function | kernel32.NeedCurrentDirectoryForExePathA | 0x000011c4
-`NeedCurrentDirectoryForExePathW` | 2 (0x2) | Exported Function | kernel32.NeedCurrentDirectoryForExePathW | 0x0000120d
-`SearchPathA` | 3 (0x3) | Exported Function | kernel32.SearchPathA | 0x00001242
+Function Name | Ordinal | Type
+-- | -- | --
+`SearchPathA` | 3 | Exported Function
+`NeedCurrentDirectoryForExePathW` | 2 | Exported Function
+`NeedCurrentDirectoryForExePathA` | 1 | Exported Function
 
 
 ## Signature

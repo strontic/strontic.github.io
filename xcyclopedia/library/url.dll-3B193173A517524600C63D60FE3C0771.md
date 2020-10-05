@@ -24,26 +24,25 @@ PE256 | `760FAE51BC14FA8807736811851DC0D5C93A21399DA2C83F82144282997876A0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddMIMEFileTypesPS` | 102 (0x66) | Exported Function | 0x00000001800016a0 | 0x000016a0
-`TranslateURLW` | 116 (0x74) | Exported Function | 0x0000000180001650 | 0x00001650
-`TranslateURLA` | 115 (0x73) | Exported Function | 0x0000000180001630 | 0x00001630
-`TelnetProtocolHandlerA` | 114 (0x72) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`TelnetProtocolHandler` | 113 (0x71) | Exported Function | 0x00000001800012a0 | 0x000012a0
-`Ordinal101` | 101 (0x65) | Exported Function | 0x0000000180001060 | 0x00001060
-`OpenURLA` | 112 (0x70) | Exported Function | 0x0000000180001730 | 0x00001730
-`OpenURL` | 111 (0x6f) | Exported Function | 0x0000000180001730 | 0x00001730
-`MIMEAssociationDialogW` | 108 (0x6c) | Exported Function | 0x0000000180001670 | 0x00001670
-`MIMEAssociationDialogA` | 107 (0x6b) | Exported Function | 0x0000000180001670 | 0x00001670
-`MailToProtocolHandlerA` | 110 (0x6e) | Exported Function | 0x0000000180001180 | 0x00001180
-`MailToProtocolHandler` | 109 (0x6d) | Exported Function | 0x0000000180001180 | 0x00001180
-`InetIsOffline` | 106 (0x6a) | Exported Function | 0x0000000180001010 | 0x00001010
-`FileProtocolHandlerA` | 105 (0x69) | Exported Function | 0x00000001800010e0 | 0x000010e0
-`FileProtocolHandler` | 104 (0x68) | Exported Function | 0x00000001800010e0 | 0x000010e0
-`AutodialHookCallback` | 103 (0x67) | Exported Function | 0x00000001800010c0 | 0x000010c0
-`URLAssociationDialogA` | 117 (0x75) | Exported Function | 0x0000000180001670 | 0x00001670
-`URLAssociationDialogW` | 118 (0x76) | Exported Function | 0x0000000180001670 | 0x00001670
+Function Name | Ordinal | Type
+-- | -- | --
+`TelnetProtocolHandler` | 113 | Exported Function
+`TelnetProtocolHandlerA` | 114 | Exported Function
+`OpenURL` | 111 | Exported Function
+`OpenURLA` | 112 | Exported Function
+`URLAssociationDialogA` | 117 | Exported Function
+`URLAssociationDialogW` | 118 | Exported Function
+`TranslateURLA` | 115 | Exported Function
+`TranslateURLW` | 116 | Exported Function
+`MIMEAssociationDialogW` | 108 | Exported Function
+`FileProtocolHandler` | 104 | Exported Function
+`FileProtocolHandlerA` | 105 | Exported Function
+`AddMIMEFileTypesPS` | 102 | Exported Function
+`AutodialHookCallback` | 103 | Exported Function
+`MailToProtocolHandlerA` | 110 | Exported Function
+`MIMEAssociationDialogA` | 107 | Exported Function
+`InetIsOffline` | 106 | Exported Function
+`MailToProtocolHandler` | 109 | Exported Function
 
 
 ## Signature

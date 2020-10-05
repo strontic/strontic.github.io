@@ -24,18 +24,18 @@ PE256 | `1C93216C01A6D17C1C8C8AC2FC4674A9A54855CEB56A364C9CBC3B4920F832E7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AppendHiddenSearchContext` | 1 (0x1) | Exported Function | 0x000000018001b0f0 | 0x0001b0f0
-`CDBFolderUI_CreateInstance` | 2 (0x2) | Exported Function | 0x0000000180002450 | 0x00002450
-`CSearchDelegateFolderUI_CreateInstance` | 3 (0x3) | Exported Function | 0x000000018001b780 | 0x0001b780
-`DllCanUnloadNow` | 4 (0x4) | Exported Function | 0x0000000180019430 | 0x00019430
-`DllGetClassObject` | 5 (0x5) | Exported Function | 0x0000000180019470 | 0x00019470
-`DllMain` | 6 (0x6) | Exported Function | 0x0000000180006cc0 | 0x00006cc0
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x0000000180002cf0 | 0x00002cf0
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x0000000180002cf0 | 0x00002cf0
-`GetAggregateQueryError` | 9 (0x9) | Exported Function | 0x000000018000c380 | 0x0000c380
-`s_GetStartMenuFilesScope` | 10 (0xa) | Exported Function | 0x0000000180031c70 | 0x00031c70
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 7 | Exported Function
+`DllMain` | 6 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`s_GetStartMenuFilesScope` | 10 | Exported Function
+`GetAggregateQueryError` | 9 | Exported Function
+`CDBFolderUI_CreateInstance` | 2 | Exported Function
+`AppendHiddenSearchContext` | 1 | Exported Function
+`CSearchDelegateFolderUI_CreateInstance` | 3 | Exported Function
+`DllGetClassObject` | 5 | Exported Function
+`DllCanUnloadNow` | 4 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `D3FA608F6D2317EA43D5CAEDA2B1BA47A20B6B217F5F0B9F2E08A58B974D0DB1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`VmRdvCore_CreateInstance` | 1 (0x1) | Exported Function | 0x0000000180001100 | 0x00001100
-`VmRdvCore_GetInstance` | 2 (0x2) | Exported Function | 0x0000000180001120 | 0x00001120
-`VmRdvCore_TerminateInstance` | 3 (0x3) | Exported Function | 0x0000000180001110 | 0x00001110
+Function Name | Ordinal | Type
+-- | -- | --
+`VmRdvCore_TerminateInstance` | 3 | Exported Function
+`VmRdvCore_GetInstance` | 2 | Exported Function
+`VmRdvCore_CreateInstance` | 1 | Exported Function
 
 
 ## Signature

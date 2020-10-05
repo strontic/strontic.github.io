@@ -24,11 +24,11 @@ PE256 | `7FD92CE7A257ECE987D9649A342FD2BF1B4190F89265007404489B427F7DC93B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseTapiPerformanceData` | 1 (0x1) | Exported Function | 0x0000000180001390 | 0x00001390
-`CollectTapiPerformanceData` | 2 (0x2) | Exported Function | 0x00000001800011d0 | 0x000011d0
-`OpenTapiPerformanceData` | 3 (0x3) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenTapiPerformanceData` | 3 | Exported Function
+`CollectTapiPerformanceData` | 2 | Exported Function
+`CloseTapiPerformanceData` | 1 | Exported Function
 
 
 ## Signature

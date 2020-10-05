@@ -24,10 +24,10 @@ PE256 | `084D462E7DD7897CFB82F98656A487E4E2020360DE74D885677991E09601CF24`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetSetting` | 2 (0x2) | Exported Function | 0x0000000180009770 | 0x00009770
-`GetSettingsManagerSingleton` | 1 (0x1) | Exported Function | 0x0000000180009740 | 0x00009740
+Function Name | Ordinal | Type
+-- | -- | --
+`GetSettingsManagerSingleton` | 1 | Exported Function
+`GetSetting` | 2 | Exported Function
 
 
 ## Signature

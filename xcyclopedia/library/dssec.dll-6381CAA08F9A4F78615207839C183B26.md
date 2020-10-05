@@ -24,14 +24,14 @@ PE256 | `04651481AF34010ECD32A0AD1124C4862FD1712D369F6CB8C7388B3FE1B1A585`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x00000001800010b0 | 0x000010b0
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x00000001800010d0 | 0x000010d0
-`DSCreateISecurityInfoObject` | 1 (0x1) | Exported Function | 0x0000000180003ed0 | 0x00003ed0
-`DSCreateISecurityInfoObjectEx` | 4 (0x4) | Exported Function | 0x0000000180003d60 | 0x00003d60
-`DSCreateSecurityPage` | 2 (0x2) | Exported Function | 0x0000000180003f20 | 0x00003f20
-`DSEditSecurity` | 3 (0x3) | Exported Function | 0x0000000180003fc0 | 0x00003fc0
+Function Name | Ordinal | Type
+-- | -- | --
+`DSCreateISecurityInfoObjectEx` | 4 | Exported Function
+`DSCreateSecurityPage` | 2 | Exported Function
+`DSEditSecurity` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`DSCreateISecurityInfoObject` | 1 | Exported Function
 
 
 ## Signature

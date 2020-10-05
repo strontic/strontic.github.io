@@ -24,10 +24,10 @@ PE256 | `E3C724D135E9931802C7AC93758400B42CD0910F49488FD0D23AAB955AE9BA06`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BluetoothClassInstaller` | 2 (0x2) | Exported Function | 0x0000000180001350 | 0x00001350
-`BluetoothPropPageProvider` | 1 (0x1) | Exported Function | 0x00000001800049c0 | 0x000049c0
+Function Name | Ordinal | Type
+-- | -- | --
+`BluetoothPropPageProvider` | 1 | Exported Function
+`BluetoothClassInstaller` | 2 | Exported Function
 
 
 ## Signature

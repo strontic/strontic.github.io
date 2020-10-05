@@ -24,16 +24,16 @@ PE256 | `68405DB7D4ADDFBE1957584E7A556E9ACC233DE6819CFCAF54F2BEF4CD96B570`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CommitStatsHelperCollectContainerData` | 1 (0x1) | Exported Function | 0x00000001800011e0 | 0x000011e0
-`CommitStatsHelperDedupHostData` | 2 (0x2) | Exported Function | 0x000000018000def0 | 0x0000def0
-`DedupDoubleCountedData` | 3 (0x3) | Exported Function | 0x000000018000e260 | 0x0000e260
-`NduProvPopulateStatsFromRecord` | 4 (0x4) | Exported Function | 0x000000018000e560 | 0x0000e560
-`OverflowCheckOnBytesFromContainers` | 5 (0x5) | Exported Function | 0x000000018000efe0 | 0x0000efe0
-`PopulateUserName` | 6 (0x6) | Exported Function | 0x000000018000f140 | 0x0000f140
-`SruInitializeProvider` | 7 (0x7) | Exported Function | 0x000000018000f510 | 0x0000f510
-`SruUninitializeProvider` | 8 (0x8) | Exported Function | 0x000000018000f8e0 | 0x0000f8e0
+Function Name | Ordinal | Type
+-- | -- | --
+`PopulateUserName` | 6 | Exported Function
+`OverflowCheckOnBytesFromContainers` | 5 | Exported Function
+`SruUninitializeProvider` | 8 | Exported Function
+`SruInitializeProvider` | 7 | Exported Function
+`CommitStatsHelperDedupHostData` | 2 | Exported Function
+`CommitStatsHelperCollectContainerData` | 1 | Exported Function
+`NduProvPopulateStatsFromRecord` | 4 | Exported Function
+`DedupDoubleCountedData` | 3 | Exported Function
 
 
 ## Signature

@@ -24,53 +24,53 @@ PE256 | `499A9B5F293722C61FA316349DC25F8C4729A5D6BFD5D542033A378EFDB4B1E6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BeginRemoveCIPolicy` | 1 (0x1) | Exported Function | 0x0000000180009b00 | 0x00009b00
-`ManageCI_Commit` | 29 (0x1d) | Exported Function | 0x0000000180006790 | 0x00006790
-`ManageCI_End` | 30 (0x1e) | Exported Function | 0x0000000180005d50 | 0x00005d50
-`ManageCI_GetAllCIPolicies` | 31 (0x1f) | Exported Function | 0x0000000180005e70 | 0x00005e70
-`ManageCI_GetAllSBCPTokens` | 32 (0x20) | Exported Function | 0x0000000180006160 | 0x00006160
-`ManageCI_GetCIPolicyByID` | 33 (0x21) | Exported Function | 0x0000000180005da0 | 0x00005da0
-`ManageCI_GetPoliciesAuthorizedBySBCPToken` | 34 (0x22) | Exported Function | 0x0000000180005f80 | 0x00005f80
-`ManageCI_GetPolicyInformation` | 35 (0x23) | Exported Function | 0x0000000180006620 | 0x00006620
-`ManageCI_GetSBCPTokenByID` | 36 (0x24) | Exported Function | 0x0000000180006090 | 0x00006090
-`ManageCI_GetSBCPTokensForPolicyID` | 37 (0x25) | Exported Function | 0x00000001800062e0 | 0x000062e0
-`ManageCI_GetSModeUnlockID` | 38 (0x26) | Exported Function | 0x0000000180006560 | 0x00006560
-`ManageCI_GetTenantID` | 39 (0x27) | Exported Function | 0x0000000180006500 | 0x00006500
-`ManageCI_GetTokenInformation` | 40 (0x28) | Exported Function | 0x0000000180006740 | 0x00006740
-`ManageCI_IsInProgress` | 41 (0x29) | Exported Function | 0x0000000180005d90 | 0x00005d90
-`ManageCI_ParsePolicy` | 42 (0x2a) | Exported Function | 0x0000000180005c80 | 0x00005c80
-`ManageCI_Rollback` | 43 (0x2b) | Exported Function | 0x00000001800067b0 | 0x000067b0
-`ManageCI_Start` | 44 (0x2c) | Exported Function | 0x0000000180005d10 | 0x00005d10
-`ManageCI_ValidateState` | 45 (0x2d) | Exported Function | 0x0000000180005d70 | 0x00005d70
-`ParsePolicy` | 19 (0x13) | Exported Function | 0x000000018000b750 | 0x0000b750
-`Rollback` | 20 (0x14) | Exported Function | 0x000000018000b2a0 | 0x0000b2a0
-`ManageCI_BeginUpsertCIPolicy` | 28 (0x1c) | Exported Function | 0x0000000180006480 | 0x00006480
-`Start` | 21 (0x15) | Exported Function | 0x0000000180008cc0 | 0x00008cc0
-`ManageCI_BeginTransaction` | 27 (0x1b) | Exported Function | 0x0000000180005d30 | 0x00005d30
-`ManageCI_BeginRemoveSBCPToken` | 25 (0x19) | Exported Function | 0x0000000180006460 | 0x00006460
-`BeginRemoveSBCPToken` | 2 (0x2) | Exported Function | 0x0000000180009510 | 0x00009510
-`BeginSetSBCPToken` | 3 (0x3) | Exported Function | 0x0000000180009cc0 | 0x00009cc0
-`BeginTransaction` | 4 (0x4) | Exported Function | 0x0000000180008e60 | 0x00008e60
-`BeginUpsertCIPolicy` | 5 (0x5) | Exported Function | 0x0000000180009890 | 0x00009890
-`Commit` | 6 (0x6) | Exported Function | 0x000000018000af40 | 0x0000af40
-`End` | 7 (0x7) | Exported Function | 0x00000001800056b0 | 0x000056b0
-`GetAllCIPolicies` | 8 (0x8) | Exported Function | 0x0000000180009440 | 0x00009440
-`GetAllSBCPTokens` | 9 (0x9) | Exported Function | 0x00000001800092d0 | 0x000092d0
-`GetCIPolicyByID` | 10 (0xa) | Exported Function | 0x00000001800090b0 | 0x000090b0
-`GetPoliciesAuthorizedBySBCPToken` | 11 (0xb) | Exported Function | 0x0000000180009130 | 0x00009130
-`GetPolicyInformation` | 12 (0xc) | Exported Function | 0x000000018000acc0 | 0x0000acc0
-`GetSBCPTokenByID` | 13 (0xd) | Exported Function | 0x0000000180009150 | 0x00009150
-`GetSBCPTokensForPolicyID` | 14 (0xe) | Exported Function | 0x0000000180009420 | 0x00009420
-`GetSModeUnlockID` | 15 (0xf) | Exported Function | 0x000000018000abf0 | 0x0000abf0
-`GetTenantID` | 16 (0x10) | Exported Function | 0x000000018000a190 | 0x0000a190
-`GetTokenInformation` | 17 (0x11) | Exported Function | 0x000000018000ad40 | 0x0000ad40
-`IsInProgress` | 18 (0x12) | Exported Function | 0x0000000180009080 | 0x00009080
-`ManageCI` | 23 (0x17) | Exported Function | 0x00000001800067d0 | 0x000067d0
-`ManageCI_BeginRemoveCIPolicy` | 24 (0x18) | Exported Function | 0x00000001800064b0 | 0x000064b0
-`ManageCI_BeginSetSBCPToken` | 26 (0x1a) | Exported Function | 0x00000001800064d0 | 0x000064d0
-`ValidateState` | 22 (0x16) | Exported Function | 0x0000000180009070 | 0x00009070
+Function Name | Ordinal | Type
+-- | -- | --
+`ManageCI_GetPolicyInformation` | 35 | Exported Function
+`ManageCI_GetPoliciesAuthorizedBySBCPToken` | 34 | Exported Function
+`ManageCI_GetSBCPTokenByID` | 36 | Exported Function
+`ManageCI_GetSModeUnlockID` | 38 | Exported Function
+`ManageCI_GetSBCPTokensForPolicyID` | 37 | Exported Function
+`ManageCI_GetCIPolicyByID` | 33 | Exported Function
+`ManageCI_Commit` | 29 | Exported Function
+`ManageCI_BeginUpsertCIPolicy` | 28 | Exported Function
+`ManageCI_End` | 30 | Exported Function
+`ManageCI_GetAllSBCPTokens` | 32 | Exported Function
+`ManageCI_GetAllCIPolicies` | 31 | Exported Function
+`ParsePolicy` | 19 | Exported Function
+`ManageCI_ValidateState` | 45 | Exported Function
+`Rollback` | 20 | Exported Function
+`ValidateState` | 22 | Exported Function
+`Start` | 21 | Exported Function
+`ManageCI_Start` | 44 | Exported Function
+`ManageCI_GetTokenInformation` | 40 | Exported Function
+`ManageCI_GetTenantID` | 39 | Exported Function
+`ManageCI_IsInProgress` | 41 | Exported Function
+`ManageCI_Rollback` | 43 | Exported Function
+`ManageCI_ParsePolicy` | 42 | Exported Function
+`ManageCI_BeginTransaction` | 27 | Exported Function
+`GetAllCIPolicies` | 8 | Exported Function
+`End` | 7 | Exported Function
+`GetAllSBCPTokens` | 9 | Exported Function
+`GetPoliciesAuthorizedBySBCPToken` | 11 | Exported Function
+`GetCIPolicyByID` | 10 | Exported Function
+`Commit` | 6 | Exported Function
+`BeginRemoveSBCPToken` | 2 | Exported Function
+`BeginRemoveCIPolicy` | 1 | Exported Function
+`BeginSetSBCPToken` | 3 | Exported Function
+`BeginUpsertCIPolicy` | 5 | Exported Function
+`BeginTransaction` | 4 | Exported Function
+`ManageCI` | 23 | Exported Function
+`IsInProgress` | 18 | Exported Function
+`ManageCI_BeginRemoveCIPolicy` | 24 | Exported Function
+`ManageCI_BeginSetSBCPToken` | 26 | Exported Function
+`ManageCI_BeginRemoveSBCPToken` | 25 | Exported Function
+`GetTokenInformation` | 17 | Exported Function
+`GetSBCPTokenByID` | 13 | Exported Function
+`GetPolicyInformation` | 12 | Exported Function
+`GetSBCPTokensForPolicyID` | 14 | Exported Function
+`GetTenantID` | 16 | Exported Function
+`GetSModeUnlockID` | 15 | Exported Function
 
 
 ## Signature

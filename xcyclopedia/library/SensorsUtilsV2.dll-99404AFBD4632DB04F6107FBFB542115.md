@@ -24,70 +24,70 @@ PE256 | `4F0BCB0B7ED7BBE7B5879AAE43DFF9562042FC9837C4D8261E750342796BA4C9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddMillisecondsToFileTime` | 1 (0x1) | Exported Function | 0x0000000180007fd0 | 0x00007fd0
-`GetTimeStampFromFileTime` | 34 (0x22) | Exported Function | 0x0000000180007f60 | 0x00007f60
-`InitPropVariantFromCLSIDArray` | 35 (0x23) | Exported Function | 0x0000000180008010 | 0x00008010
-`InitPropVariantFromFloat` | 36 (0x24) | Exported Function | 0x00000001800080b0 | 0x000080b0
-`IsCollectionListSame` | 37 (0x25) | Exported Function | 0x0000000180008bc0 | 0x00008bc0
-`IsGUIDPresentInList` | 38 (0x26) | Exported Function | 0x000000018000c6e0 | 0x0000c6e0
-`IsKeyPresentInCollectionList` | 39 (0x27) | Exported Function | 0x0000000180008b10 | 0x00008b10
-`IsKeyPresentInPropertyList` | 40 (0x28) | Exported Function | 0x0000000180008ab0 | 0x00008ab0
-`IsSensorSubscribed` | 41 (0x29) | Exported Function | 0x000000018000c630 | 0x0000c630
-`MapActivityConfidenceToState` | 42 (0x2a) | Exported Function | 0x000000018000b790 | 0x0000b790
-`PropertiesListCopy` | 58 (0x3a) | Exported Function | 0x0000000180008e60 | 0x00008e60
-`PropertiesListGetFillableCount` | 59 (0x3b) | Exported Function | 0x000000018000b760 | 0x0000b760
-`PropKeyFindKeyGetBool` | 43 (0x2b) | Exported Function | 0x0000000180008350 | 0x00008350
-`PropKeyFindKeyGetDouble` | 44 (0x2c) | Exported Function | 0x0000000180008660 | 0x00008660
-`PropKeyFindKeyGetFileTime` | 45 (0x2d) | Exported Function | 0x00000001800082c0 | 0x000082c0
-`PropKeyFindKeyGetFloat` | 46 (0x2e) | Exported Function | 0x00000001800085d0 | 0x000085d0
-`PropKeyFindKeyGetGuid` | 47 (0x2f) | Exported Function | 0x00000001800083f0 | 0x000083f0
-`PropKeyFindKeyGetInt32` | 48 (0x30) | Exported Function | 0x0000000180008700 | 0x00008700
-`PropKeyFindKeyGetInt64` | 49 (0x31) | Exported Function | 0x00000001800087a0 | 0x000087a0
-`PropKeyFindKeyGetNthInt64` | 50 (0x32) | Exported Function | 0x00000001800089e0 | 0x000089e0
-`PropKeyFindKeyGetNthUlong` | 51 (0x33) | Exported Function | 0x0000000180008840 | 0x00008840
-`PropKeyFindKeyGetNthUshort` | 52 (0x34) | Exported Function | 0x0000000180008910 | 0x00008910
-`PropKeyFindKeyGetPropVariant` | 53 (0x35) | Exported Function | 0x00000001800080e0 | 0x000080e0
-`PropKeyFindKeyGetUlong` | 54 (0x36) | Exported Function | 0x0000000180008490 | 0x00008490
-`PropKeyFindKeyGetUshort` | 55 (0x37) | Exported Function | 0x0000000180008530 | 0x00008530
-`PropKeyFindKeySetPropVariant` | 56 (0x38) | Exported Function | 0x00000001800081d0 | 0x000081d0
-`PropVariantGetInformation` | 57 (0x39) | Exported Function | 0x0000000180008d00 | 0x00008d00
-`SensorCollectionGetAt` | 60 (0x3c) | Exported Function | 0x000000018000b6b0 | 0x0000b6b0
-`GetSetting` | 33 (0x21) | Exported Function | 0x0000000180007ad0 | 0x00007ad0
-`GetPerformanceTime` | 32 (0x20) | Exported Function | 0x0000000180007e70 | 0x00007e70
-`GetFileTimeFromTimeStamp` | 31 (0x1f) | Exported Function | 0x0000000180007f60 | 0x00007f60
-`GetFileTimeDifference` | 30 (0x1e) | Exported Function | 0x0000000180007f80 | 0x00007f80
-`CollectionsListAllocateBufferAndSerialize` | 2 (0x2) | Exported Function | 0x0000000180009c30 | 0x00009c30
-`CollectionsListCopyAndMarshall` | 3 (0x3) | Exported Function | 0x0000000180008f50 | 0x00008f50
-`CollectionsListDeserializeFromBuffer` | 4 (0x4) | Exported Function | 0x0000000180009dd0 | 0x00009dd0
-`CollectionsListGetFillableCount` | 5 (0x5) | Exported Function | 0x000000018000b730 | 0x0000b730
-`CollectionsListGetMarshalledSize` | 6 (0x6) | Exported Function | 0x0000000180008f30 | 0x00008f30
-`CollectionsListGetMarshalledSizeWithoutSerialization` | 7 (0x7) | Exported Function | 0x00000001800093b0 | 0x000093b0
-`CollectionsListGetSerializedSize` | 8 (0x8) | Exported Function | 0x0000000180009660 | 0x00009660
-`CollectionsListMarshall` | 9 (0x9) | Exported Function | 0x0000000180009100 | 0x00009100
-`CollectionsListSerializeToBuffer` | 10 (0xa) | Exported Function | 0x00000001800098b0 | 0x000098b0
-`CollectionsListSortSubscribedActivitiesByConfidence` | 11 (0xb) | Exported Function | 0x000000018000c0c0 | 0x0000c0c0
-`CollectionsListUpdateMarshalledPointer` | 12 (0xc) | Exported Function | 0x00000001800092a0 | 0x000092a0
-`ConvertAccelerometerDataToCollection` | 13 (0xd) | Exported Function | 0x000000018000ae50 | 0x0000ae50
-`ConvertCollectionToAccelerometerData` | 14 (0xe) | Exported Function | 0x000000018000a4a0 | 0x0000a4a0
-`SerializationBufferAllocate` | 61 (0x3d) | Exported Function | 0x00000001800094b0 | 0x000094b0
-`ConvertCollectionToGyroscopeData` | 15 (0xf) | Exported Function | 0x000000018000a830 | 0x0000a830
-`ConvertCollectionToLightSensorDataWithColor` | 17 (0x11) | Exported Function | 0x000000018000a5a0 | 0x0000a5a0
-`ConvertCollectionToMagnetometerData` | 18 (0x12) | Exported Function | 0x000000018000a8a0 | 0x0000a8a0
-`ConvertCollectionToOrientationData` | 19 (0x13) | Exported Function | 0x000000018000a950 | 0x0000a950
-`ConvertCollectionToProximitySensorData` | 20 (0x14) | Exported Function | 0x000000018000aca0 | 0x0000aca0
-`ConvertFloat3DDataToCollection` | 21 (0x15) | Exported Function | 0x000000018000ad70 | 0x0000ad70
-`ConvertGyroscopeDataToCollection` | 22 (0x16) | Exported Function | 0x000000018000b130 | 0x0000b130
-`ConvertLightSensorDataToCollection` | 23 (0x17) | Exported Function | 0x000000018000af30 | 0x0000af30
-`ConvertLightSensorDataWithColorToCollection` | 24 (0x18) | Exported Function | 0x000000018000afb0 | 0x0000afb0
-`ConvertMagnetometerDataToCollection` | 25 (0x19) | Exported Function | 0x000000018000b1a0 | 0x0000b1a0
-`ConvertOrientationDataToCollection` | 26 (0x1a) | Exported Function | 0x000000018000b270 | 0x0000b270
-`ConvertProximitySensorDataToCollection` | 27 (0x1b) | Exported Function | 0x000000018000b570 | 0x0000b570
-`ConvertSimpleOrientationDataToCollection` | 28 (0x1c) | Exported Function | 0x000000018000b630 | 0x0000b630
-`EvaluateActivityThresholds` | 29 (0x1d) | Exported Function | 0x000000018000b9d0 | 0x0000b9d0
-`ConvertCollectionToLightSensorData` | 16 (0x10) | Exported Function | 0x000000018000a570 | 0x0000a570
-`SerializationBufferFree` | 62 (0x3e) | Exported Function | 0x0000000180009520 | 0x00009520
+Function Name | Ordinal | Type
+-- | -- | --
+`MapActivityConfidenceToState` | 42 | Exported Function
+`IsSensorSubscribed` | 41 | Exported Function
+`IsKeyPresentInPropertyList` | 40 | Exported Function
+`PropertiesListCopy` | 58 | Exported Function
+`PropKeyFindKeyGetDouble` | 44 | Exported Function
+`PropKeyFindKeyGetBool` | 43 | Exported Function
+`PropertiesListGetFillableCount` | 59 | Exported Function
+`IsKeyPresentInCollectionList` | 39 | Exported Function
+`GetTimeStampFromFileTime` | 34 | Exported Function
+`GetSetting` | 33 | Exported Function
+`GetPerformanceTime` | 32 | Exported Function
+`InitPropVariantFromCLSIDArray` | 35 | Exported Function
+`IsGUIDPresentInList` | 38 | Exported Function
+`IsCollectionListSame` | 37 | Exported Function
+`InitPropVariantFromFloat` | 36 | Exported Function
+`PropKeyFindKeyGetFileTime` | 45 | Exported Function
+`PropKeyFindKeySetPropVariant` | 56 | Exported Function
+`PropKeyFindKeyGetUshort` | 55 | Exported Function
+`PropKeyFindKeyGetUlong` | 54 | Exported Function
+`PropVariantGetInformation` | 57 | Exported Function
+`SerializationBufferFree` | 62 | Exported Function
+`SerializationBufferAllocate` | 61 | Exported Function
+`SensorCollectionGetAt` | 60 | Exported Function
+`PropKeyFindKeyGetPropVariant` | 53 | Exported Function
+`PropKeyFindKeyGetInt32` | 48 | Exported Function
+`PropKeyFindKeyGetGuid` | 47 | Exported Function
+`PropKeyFindKeyGetFloat` | 46 | Exported Function
+`PropKeyFindKeyGetInt64` | 49 | Exported Function
+`PropKeyFindKeyGetNthUshort` | 52 | Exported Function
+`PropKeyFindKeyGetNthUlong` | 51 | Exported Function
+`PropKeyFindKeyGetNthInt64` | 50 | Exported Function
+`CollectionsListSortSubscribedActivitiesByConfidence` | 11 | Exported Function
+`CollectionsListSerializeToBuffer` | 10 | Exported Function
+`CollectionsListMarshall` | 9 | Exported Function
+`CollectionsListUpdateMarshalledPointer` | 12 | Exported Function
+`ConvertCollectionToGyroscopeData` | 15 | Exported Function
+`ConvertCollectionToAccelerometerData` | 14 | Exported Function
+`ConvertAccelerometerDataToCollection` | 13 | Exported Function
+`CollectionsListGetSerializedSize` | 8 | Exported Function
+`CollectionsListCopyAndMarshall` | 3 | Exported Function
+`CollectionsListAllocateBufferAndSerialize` | 2 | Exported Function
+`AddMillisecondsToFileTime` | 1 | Exported Function
+`CollectionsListDeserializeFromBuffer` | 4 | Exported Function
+`CollectionsListGetMarshalledSizeWithoutSerialization` | 7 | Exported Function
+`CollectionsListGetMarshalledSize` | 6 | Exported Function
+`CollectionsListGetFillableCount` | 5 | Exported Function
+`ConvertCollectionToLightSensorData` | 16 | Exported Function
+`ConvertProximitySensorDataToCollection` | 27 | Exported Function
+`ConvertOrientationDataToCollection` | 26 | Exported Function
+`ConvertMagnetometerDataToCollection` | 25 | Exported Function
+`ConvertSimpleOrientationDataToCollection` | 28 | Exported Function
+`GetFileTimeFromTimeStamp` | 31 | Exported Function
+`GetFileTimeDifference` | 30 | Exported Function
+`EvaluateActivityThresholds` | 29 | Exported Function
+`ConvertLightSensorDataWithColorToCollection` | 24 | Exported Function
+`ConvertCollectionToOrientationData` | 19 | Exported Function
+`ConvertCollectionToMagnetometerData` | 18 | Exported Function
+`ConvertCollectionToLightSensorDataWithColor` | 17 | Exported Function
+`ConvertCollectionToProximitySensorData` | 20 | Exported Function
+`ConvertLightSensorDataToCollection` | 23 | Exported Function
+`ConvertGyroscopeDataToCollection` | 22 | Exported Function
+`ConvertFloat3DDataToCollection` | 21 | Exported Function
 
 
 ## Signature

@@ -23,12 +23,12 @@ PE256 | `2D15DDA514FFB69CFBC50C658381F23E33AE2EFDC6182DB00093D63CEA238800`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x00000001800047e0 | 0x000047e0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180004830 | 0x00004830
-`SetDVCCallbackInformation` | 1 (0x1) | Exported Function | 0x00000001800053f0 | 0x000053f0
-`VirtualChannelGetInstance` | 2 (0x2) | Exported Function | 0x0000000180007460 | 0x00007460
+Function Name | Ordinal | Type
+-- | -- | --
+`SetDVCCallbackInformation` | 1 | Exported Function
+`VirtualChannelGetInstance` | 2 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

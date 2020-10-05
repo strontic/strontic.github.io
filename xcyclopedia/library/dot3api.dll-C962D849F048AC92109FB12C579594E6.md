@@ -24,34 +24,34 @@ PE256 | `41851140768A773F4CC61786522942A0062B03BCB79D8290282A6292FF61C32A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Dot3CancelPlap` | 1 (0x1) | Exported Function | 0x00000001800079f0 | 0x000079f0
-`Dot3SetProfileEapXmlUserData` | 24 (0x18) | Exported Function | 0x00000001800052e0 | 0x000052e0
-`Dot3SetProfileEapUserData` | 23 (0x17) | Exported Function | 0x00000001800035a0 | 0x000035a0
-`Dot3SetProfile` | 22 (0x16) | Exported Function | 0x0000000180003370 | 0x00003370
-`Dot3SetInterface` | 21 (0x15) | Exported Function | 0x0000000180002b40 | 0x00002b40
-`Dot3SetAutoConfigParameter` | 20 (0x14) | Exported Function | 0x0000000180004960 | 0x00004960
-`Dot3RegisterNotification` | 19 (0x13) | Exported Function | 0x0000000180003140 | 0x00003140
-`Dot3ReConnect` | 17 (0x11) | Exported Function | 0x0000000180002f50 | 0x00002f50
-`Dot3ReasonCodeToString` | 18 (0x12) | Exported Function | 0x0000000180004c70 | 0x00004c70
-`Dot3QueryUIRequest` | 16 (0x10) | Exported Function | 0x00000001800040f0 | 0x000040f0
-`Dot3QueryPlapCredentials` | 15 (0xf) | Exported Function | 0x0000000180007880 | 0x00007880
-`Dot3QueryAutoConfigParameter` | 14 (0xe) | Exported Function | 0x00000001800046b0 | 0x000046b0
-`Dot3OpenHandle` | 13 (0xd) | Exported Function | 0x00000001800023d0 | 0x000023d0
-`Dot3InitPlapParams` | 12 (0xc) | Exported Function | 0x0000000180006480 | 0x00006480
-`Dot3GetProfileEapUserDataInfo` | 11 (0xb) | Exported Function | 0x0000000180007ad0 | 0x00007ad0
-`Dot3GetProfile` | 10 (0xa) | Exported Function | 0x0000000180003a40 | 0x00003a40
-`Dot3GetInterfaceState` | 9 (0x9) | Exported Function | 0x0000000180002d40 | 0x00002d40
-`Dot3GetCurrentProfile` | 8 (0x8) | Exported Function | 0x00000001800037f0 | 0x000037f0
-`Dot3FreeMemory` | 7 (0x7) | Exported Function | 0x00000001800046a0 | 0x000046a0
-`Dot3EnumInterfaces` | 6 (0x6) | Exported Function | 0x0000000180002920 | 0x00002920
-`Dot3DoPlap` | 5 (0x5) | Exported Function | 0x00000001800064c0 | 0x000064c0
-`Dot3DeleteProfile` | 4 (0x4) | Exported Function | 0x0000000180003c70 | 0x00003c70
-`Dot3DeinitPlapParams` | 3 (0x3) | Exported Function | 0x00000001800064a0 | 0x000064a0
-`Dot3CloseHandle` | 2 (0x2) | Exported Function | 0x0000000180002720 | 0x00002720
-`Dot3UIResponse` | 25 (0x19) | Exported Function | 0x0000000180003e80 | 0x00003e80
-`QueryNetconStatus` | 26 (0x1a) | Exported Function | 0x0000000180004340 | 0x00004340
+Function Name | Ordinal | Type
+-- | -- | --
+`Dot3ReasonCodeToString` | 18 | Exported Function
+`Dot3ReConnect` | 17 | Exported Function
+`Dot3RegisterNotification` | 19 | Exported Function
+`Dot3QueryAutoConfigParameter` | 14 | Exported Function
+`Dot3QueryPlapCredentials` | 15 | Exported Function
+`Dot3QueryUIRequest` | 16 | Exported Function
+`Dot3SetAutoConfigParameter` | 20 | Exported Function
+`Dot3SetProfileEapXmlUserData` | 24 | Exported Function
+`Dot3UIResponse` | 25 | Exported Function
+`QueryNetconStatus` | 26 | Exported Function
+`Dot3SetInterface` | 21 | Exported Function
+`Dot3SetProfile` | 22 | Exported Function
+`Dot3SetProfileEapUserData` | 23 | Exported Function
+`Dot3DeleteProfile` | 4 | Exported Function
+`Dot3DoPlap` | 5 | Exported Function
+`Dot3EnumInterfaces` | 6 | Exported Function
+`Dot3CancelPlap` | 1 | Exported Function
+`Dot3CloseHandle` | 2 | Exported Function
+`Dot3DeinitPlapParams` | 3 | Exported Function
+`Dot3FreeMemory` | 7 | Exported Function
+`Dot3GetProfileEapUserDataInfo` | 11 | Exported Function
+`Dot3InitPlapParams` | 12 | Exported Function
+`Dot3OpenHandle` | 13 | Exported Function
+`Dot3GetCurrentProfile` | 8 | Exported Function
+`Dot3GetInterfaceState` | 9 | Exported Function
+`Dot3GetProfile` | 10 | Exported Function
 
 
 ## Signature

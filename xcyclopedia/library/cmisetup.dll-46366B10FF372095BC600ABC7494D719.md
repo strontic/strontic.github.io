@@ -24,11 +24,11 @@ PE256 | `75B7D90351C6D3837461F58BE2347306343C57449B133DD50B173B1C236C9EC7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CallBack_ConfigureWindowsFoundationImage` | 1 (0x1) | Exported Function | 0x100182e0 | 0x000182e0
-`Module_Init_Cmi` | 2 (0x2) | Exported Function | 0x10017170 | 0x00017170
-`Module_Init_SkuAssembly` | 3 (0x3) | Exported Function | 0x10017e40 | 0x00017e40
+Function Name | Ordinal | Type
+-- | -- | --
+`Module_Init_SkuAssembly` | 3 | Exported Function
+`Module_Init_Cmi` | 2 | Exported Function
+`CallBack_ConfigureWindowsFoundationImage` | 1 | Exported Function
 
 
 ## Signature

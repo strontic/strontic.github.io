@@ -24,9 +24,9 @@ PE256 | `D71B2D38771EEE26199B5F2147BF988B56AD9BE9E684A99519C7D2131FD4D029`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EeUtilCommand` | 1 (0x1) | Exported Function | 0x0000000180002800 | 0x00002800
+Function Name | Ordinal | Type
+-- | -- | --
+`EeUtilCommand` | 1 | Exported Function
 
 
 ## Signature

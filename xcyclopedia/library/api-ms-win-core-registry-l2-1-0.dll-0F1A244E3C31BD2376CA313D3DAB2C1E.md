@@ -24,41 +24,41 @@ PE256 | `919B950468A908A05220E1E54AEF3C431FF272838B6945537DB4F53B3F2FC5F9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RegConnectRegistryA` | 1 (0x1) | Exported Function | advapi32.RegConnectRegistryA | 0x000012ca
-`RegSetKeyValueW` | 31 (0x1f) | Exported Function | advapi32.RegSetKeyValueW | 0x000017f8
-`RegSetKeyValueA` | 30 (0x1e) | Exported Function | advapi32.RegSetKeyValueA | 0x000017cf
-`RegSaveKeyW` | 29 (0x1d) | Exported Function | advapi32.RegSaveKeyW | 0x000017aa
-`RegSaveKeyA` | 28 (0x1c) | Exported Function | advapi32.RegSaveKeyA | 0x00001789
-`RegReplaceKeyW` | 27 (0x1b) | Exported Function | advapi32.RegReplaceKeyW | 0x00001765
-`RegReplaceKeyA` | 26 (0x1a) | Exported Function | advapi32.RegReplaceKeyA | 0x0000173e
-`RegQueryValueW` | 25 (0x19) | Exported Function | advapi32.RegQueryValueW | 0x00001717
-`RegQueryValueA` | 24 (0x18) | Exported Function | advapi32.RegQueryValueA | 0x000016f0
-`RegQueryMultipleValuesW` | 23 (0x17) | Exported Function | advapi32.RegQueryMultipleValuesW | 0x000016c0
-`RegQueryMultipleValuesA` | 22 (0x16) | Exported Function | advapi32.RegQueryMultipleValuesA | 0x00001687
-`RegOverridePredefKey` | 21 (0x15) | Exported Function | advapi32.RegOverridePredefKey | 0x00001651
-`RegOpenKeyW` | 20 (0x14) | Exported Function | advapi32.RegOpenKeyW | 0x00001627
-`RegOpenKeyTransactedW` | 19 (0x13) | Exported Function | advapi32.RegOpenKeyTransactedW | 0x000015fc
-`RegOpenKeyTransactedA` | 18 (0x12) | Exported Function | advapi32.RegOpenKeyTransactedA | 0x000015c7
-`RegSetValueA` | 32 (0x20) | Exported Function | advapi32.RegSetValueA | 0x0000181e
-`RegOpenKeyA` | 17 (0x11) | Exported Function | advapi32.RegOpenKeyA | 0x0000159c
-`RegEnumKeyA` | 15 (0xf) | Exported Function | advapi32.RegEnumKeyA | 0x0000155a
-`RegDisablePredefinedCache` | 14 (0xe) | Exported Function | advapi32.RegDisablePredefinedCache | 0x0000152b
-`RegDeleteKeyW` | 13 (0xd) | Exported Function | advapi32.RegDeleteKeyW | 0x000014fa
-`RegDeleteKeyValueW` | 12 (0xc) | Exported Function | advapi32.RegDeleteKeyValueW | 0x000014d0
-`RegDeleteKeyValueA` | 11 (0xb) | Exported Function | advapi32.RegDeleteKeyValueA | 0x000014a1
-`RegDeleteKeyTransactedW` | 10 (0xa) | Exported Function | advapi32.RegDeleteKeyTransactedW | 0x0000146d
-`RegDeleteKeyTransactedA` | 9 (0x9) | Exported Function | advapi32.RegDeleteKeyTransactedA | 0x00001434
-`RegDeleteKeyA` | 8 (0x8) | Exported Function | advapi32.RegDeleteKeyA | 0x00001405
-`RegCreateKeyW` | 7 (0x7) | Exported Function | advapi32.RegCreateKeyW | 0x000013e0
-`RegCreateKeyTransactedW` | 6 (0x6) | Exported Function | advapi32.RegCreateKeyTransactedW | 0x000013b1
-`RegCreateKeyTransactedA` | 5 (0x5) | Exported Function | advapi32.RegCreateKeyTransactedA | 0x00001378
-`RegCreateKeyA` | 4 (0x4) | Exported Function | advapi32.RegCreateKeyA | 0x00001349
-`RegCopyTreeA` | 3 (0x3) | Exported Function | advapi32.RegCopyTreeA | 0x00001325
-`RegConnectRegistryW` | 2 (0x2) | Exported Function | advapi32.RegConnectRegistryW | 0x000012fb
-`RegEnumKeyW` | 16 (0x10) | Exported Function | advapi32.RegEnumKeyW | 0x0000157b
-`RegSetValueW` | 33 (0x21) | Exported Function | advapi32.RegSetValueW | 0x00001841
+Function Name | Ordinal | Type
+-- | -- | --
+`RegQueryMultipleValuesW` | 23 | Exported Function
+`RegQueryMultipleValuesA` | 22 | Exported Function
+`RegQueryValueW` | 25 | Exported Function
+`RegQueryValueA` | 24 | Exported Function
+`RegOpenKeyTransactedW` | 19 | Exported Function
+`RegOpenKeyTransactedA` | 18 | Exported Function
+`RegOverridePredefKey` | 21 | Exported Function
+`RegOpenKeyW` | 20 | Exported Function
+`RegSetKeyValueW` | 31 | Exported Function
+`RegSetKeyValueA` | 30 | Exported Function
+`RegSetValueW` | 33 | Exported Function
+`RegSetValueA` | 32 | Exported Function
+`RegReplaceKeyW` | 27 | Exported Function
+`RegReplaceKeyA` | 26 | Exported Function
+`RegSaveKeyW` | 29 | Exported Function
+`RegSaveKeyA` | 28 | Exported Function
+`RegOpenKeyA` | 17 | Exported Function
+`RegCreateKeyTransactedW` | 6 | Exported Function
+`RegCreateKeyTransactedA` | 5 | Exported Function
+`RegDeleteKeyA` | 8 | Exported Function
+`RegCreateKeyW` | 7 | Exported Function
+`RegConnectRegistryW` | 2 | Exported Function
+`RegConnectRegistryA` | 1 | Exported Function
+`RegCreateKeyA` | 4 | Exported Function
+`RegCopyTreeA` | 3 | Exported Function
+`RegDisablePredefinedCache` | 14 | Exported Function
+`RegDeleteKeyW` | 13 | Exported Function
+`RegEnumKeyW` | 16 | Exported Function
+`RegEnumKeyA` | 15 | Exported Function
+`RegDeleteKeyTransactedW` | 10 | Exported Function
+`RegDeleteKeyTransactedA` | 9 | Exported Function
+`RegDeleteKeyValueW` | 12 | Exported Function
+`RegDeleteKeyValueA` | 11 | Exported Function
 
 
 ## Signature

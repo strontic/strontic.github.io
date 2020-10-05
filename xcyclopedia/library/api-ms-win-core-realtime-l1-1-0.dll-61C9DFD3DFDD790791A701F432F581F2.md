@@ -24,13 +24,13 @@ PE256 | `FBFDC6A126547B30A57C00F6087D98FC04104401AB63CC34D04EFD4CA569734E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`QueryIdleProcessorCycleTime` | 1 (0x1) | Exported Function | kernel32.dll.QueryIdleProcessorCycleTime | 0x000010fa
-`QueryIdleProcessorCycleTimeEx` | 2 (0x2) | Exported Function | kernel32.dll.QueryIdleProcessorCycleTimeEx | 0x00001141
-`QueryProcessCycleTime` | 3 (0x3) | Exported Function | kernel32.dll.QueryProcessCycleTime | 0x00001182
-`QueryThreadCycleTime` | 4 (0x4) | Exported Function | kernel32.dll.QueryThreadCycleTime | 0x000011ba
-`QueryUnbiasedInterruptTime` | 5 (0x5) | Exported Function | kernel32.dll.QueryUnbiasedInterruptTime | 0x000011f7
+Function Name | Ordinal | Type
+-- | -- | --
+`QueryThreadCycleTime` | 4 | Exported Function
+`QueryUnbiasedInterruptTime` | 5 | Exported Function
+`QueryProcessCycleTime` | 3 | Exported Function
+`QueryIdleProcessorCycleTime` | 1 | Exported Function
+`QueryIdleProcessorCycleTimeEx` | 2 | Exported Function
 
 
 ## Signature

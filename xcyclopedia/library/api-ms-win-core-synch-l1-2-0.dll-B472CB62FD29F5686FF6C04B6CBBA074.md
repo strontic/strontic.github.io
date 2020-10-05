@@ -24,25 +24,25 @@ PE256 | `B624572F4F38235DF5E6CA33866B0B4DE107C95A9E4A7B054D2D1651EF271F87`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DeleteSynchronizationBarrier` | 1 (0x1) | Exported Function | kernel32.DeleteSynchronizationBarrier | 0x00001170
-`WakeByAddressAll` | 15 (0xf) | Exported Function | kernel32.WakeByAddressAll | 0x00001456
-`WakeAllConditionVariable` | 14 (0xe) | Exported Function | kernel32.WakeAllConditionVariable | 0x00001423
-`WaitOnAddress` | 13 (0xd) | Exported Function | kernel32.WaitOnAddress | 0x000013f3
-`SleepConditionVariableSRW` | 12 (0xc) | Exported Function | kernel32.SleepConditionVariableSRW | 0x000013c2
-`SleepConditionVariableCS` | 11 (0xb) | Exported Function | kernel32.SleepConditionVariableCS | 0x00001386
-`Sleep` | 10 (0xa) | Exported Function | kernel32.Sleep | 0x0000135e
-`WakeByAddressSingle` | 16 (0x10) | Exported Function | kernel32.WakeByAddressSingle | 0x00001484
-`SignalObjectAndWait` | 9 (0x9) | Exported Function | kernel32.SignalObjectAndWait | 0x0000133b
-`InitOnceExecuteOnce` | 5 (0x5) | Exported Function | kernel32.InitOnceExecuteOnce | 0x0000124f
-`InitOnceComplete` | 4 (0x4) | Exported Function | kernel32.InitOnceComplete | 0x00001221
-`InitOnceBeginInitialize` | 3 (0x3) | Exported Function | kernel32.InitOnceBeginInitialize | 0x000011ef
-`InitializeSynchronizationBarrier` | 8 (0x8) | Exported Function | kernel32.InitializeSynchronizationBarrier | 0x000012fd
-`InitializeConditionVariable` | 7 (0x7) | Exported Function | kernel32.InitializeConditionVariable | 0x000012b7
-`EnterSynchronizationBarrier` | 2 (0x2) | Exported Function | kernel32.EnterSynchronizationBarrier | 0x000011b2
-`InitOnceInitialize` | 6 (0x6) | Exported Function | kernel32.InitOnceInitialize | 0x0000127f
-`WakeConditionVariable` | 17 (0x11) | Exported Function | kernel32.WakeConditionVariable | 0x000014b7
+Function Name | Ordinal | Type
+-- | -- | --
+`SleepConditionVariableSRW` | 12 | Exported Function
+`WaitOnAddress` | 13 | Exported Function
+`Sleep` | 10 | Exported Function
+`SleepConditionVariableCS` | 11 | Exported Function
+`WakeByAddressSingle` | 16 | Exported Function
+`WakeConditionVariable` | 17 | Exported Function
+`WakeAllConditionVariable` | 14 | Exported Function
+`WakeByAddressAll` | 15 | Exported Function
+`SignalObjectAndWait` | 9 | Exported Function
+`InitializeConditionVariable` | 7 | Exported Function
+`InitializeSynchronizationBarrier` | 8 | Exported Function
+`DeleteSynchronizationBarrier` | 1 | Exported Function
+`EnterSynchronizationBarrier` | 2 | Exported Function
+`InitOnceExecuteOnce` | 5 | Exported Function
+`InitOnceInitialize` | 6 | Exported Function
+`InitOnceBeginInitialize` | 3 | Exported Function
+`InitOnceComplete` | 4 | Exported Function
 
 
 ## Signature

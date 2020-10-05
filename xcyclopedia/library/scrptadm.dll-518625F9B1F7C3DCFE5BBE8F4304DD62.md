@@ -24,11 +24,11 @@ PE256 | `D23020ED53130DB2C781AA456BCF21A60521A9AA1B00650C8D7C6E58FAC6585C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateParserObject` | 1 (0x1) | Exported Function | 0x0000000180008920 | 0x00008920
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180007620 | 0x00007620
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180007640 | 0x00007640
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CreateParserObject` | 1 | Exported Function
 
 
 ## Signature

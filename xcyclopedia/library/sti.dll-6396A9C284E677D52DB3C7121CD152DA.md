@@ -24,29 +24,29 @@ PE256 | `19B70172287B466DE0FB97F0F0710391BB41292BA579AFAE23349DB2D60E45CF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 13 (0xd) | Exported Function | 0x0000000180006d00 | 0x00006d00
-`SelectDeviceDialog2` | 19 (0x13) | Exported Function | 0x000000018000b200 | 0x0000b200
-`public: void __cdecl BUFFER_CHAIN_ITEM::SetUsed(unsigned long) __ptr64` | 12 (0xc) | Exported Function | 0x00000001800135b0 | 0x000135b0
-`public: void __cdecl BUFFER_CHAIN_ITEM::``default constructor closure'(void) __ptr64` | 8 (0x8) | Exported Function | 0x0000000180013560 | 0x00013560
-`public: void __cdecl BUFFER::``default constructor closure'(void) __ptr64` | 7 (0x7) | Exported Function | 0x0000000180013550 | 0x00013550
-`public: void * __ptr64 __cdecl BUFFER::QueryPtr(void)const __ptr64` | 9 (0x9) | Exported Function | 0x0000000180013580 | 0x00013580
-`public: unsigned long __cdecl BUFFER_CHAIN_ITEM::QueryUsed(void)const __ptr64` | 11 (0xb) | Exported Function | 0x00000001800135a0 | 0x000135a0
-`public: unsigned int __cdecl BUFFER::QuerySize(void)const __ptr64` | 10 (0xa) | Exported Function | 0x0000000180013590 | 0x00013590
-`public: __cdecl BUFFER_CHAIN_ITEM::~BUFFER_CHAIN_ITEM(void) __ptr64` | 6 (0x6) | Exported Function | 0x0000000180013510 | 0x00013510
-`StiCreateInstance` | 20 (0x14) | Exported Function | 0x000000018000b210 | 0x0000b210
-`public: __cdecl BUFFER_CHAIN_ITEM::BUFFER_CHAIN_ITEM(unsigned int) __ptr64` | 3 (0x3) | Exported Function | 0x00000001800134a0 | 0x000134a0
-`public: __cdecl BUFFER_CHAIN::BUFFER_CHAIN(void) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180013480 | 0x00013480
-`public: __cdecl BUFFER::~BUFFER(void) __ptr64` | 4 (0x4) | Exported Function | 0x00000001800134d0 | 0x000134d0
-`public: __cdecl BUFFER::BUFFER(unsigned int) __ptr64` | 1 (0x1) | Exported Function | 0x0000000180013450 | 0x00013450
-`MigrateRegisteredSTIAppsForWIAEvents` | 18 (0x12) | Exported Function | 0x000000018000b1f0 | 0x0000b1f0
-`GetProxyDllInfo` | 17 (0x11) | Exported Function | 0x000000018000b8d0 | 0x0000b8d0
-`DllUnregisterServer` | 16 (0x10) | Exported Function | 0x000000018000b140 | 0x0000b140
-`DllRegisterServer` | 15 (0xf) | Exported Function | 0x000000018000b0f0 | 0x0000b0f0
-`DllGetClassObject` | 14 (0xe) | Exported Function | 0x0000000180004520 | 0x00004520
-`public: __cdecl BUFFER_CHAIN::~BUFFER_CHAIN(void) __ptr64` | 5 (0x5) | Exported Function | 0x0000000180013500 | 0x00013500
-`StiCreateInstanceW` | 21 (0x15) | Exported Function | 0x000000018000b210 | 0x0000b210
+Function Name | Ordinal | Type
+-- | -- | --
+`public: void * __ptr64 __cdecl BUFFER::QueryPtr(void)const __ptr64` | 9 | Exported Function
+`public: void __cdecl BUFFER::``default constructor closure'(void) __ptr64` | 7 | Exported Function
+`public: unsigned long __cdecl BUFFER_CHAIN_ITEM::QueryUsed(void)const __ptr64` | 11 | Exported Function
+`public: __cdecl BUFFER_CHAIN_ITEM::~BUFFER_CHAIN_ITEM(void) __ptr64` | 6 | Exported Function
+`public: unsigned int __cdecl BUFFER::QuerySize(void)const __ptr64` | 10 | Exported Function
+`StiCreateInstance` | 20 | Exported Function
+`StiCreateInstanceW` | 21 | Exported Function
+`SelectDeviceDialog2` | 19 | Exported Function
+`public: void __cdecl BUFFER_CHAIN_ITEM::``default constructor closure'(void) __ptr64` | 8 | Exported Function
+`public: void __cdecl BUFFER_CHAIN_ITEM::SetUsed(unsigned long) __ptr64` | 12 | Exported Function
+`public: __cdecl BUFFER_CHAIN_ITEM::BUFFER_CHAIN_ITEM(unsigned int) __ptr64` | 3 | Exported Function
+`DllUnregisterServer` | 16 | Exported Function
+`GetProxyDllInfo` | 17 | Exported Function
+`DllRegisterServer` | 15 | Exported Function
+`DllCanUnloadNow` | 13 | Exported Function
+`DllGetClassObject` | 14 | Exported Function
+`public: __cdecl BUFFER_CHAIN::BUFFER_CHAIN(void) __ptr64` | 2 | Exported Function
+`public: __cdecl BUFFER_CHAIN::~BUFFER_CHAIN(void) __ptr64` | 5 | Exported Function
+`public: __cdecl BUFFER::~BUFFER(void) __ptr64` | 4 | Exported Function
+`MigrateRegisteredSTIAppsForWIAEvents` | 18 | Exported Function
+`public: __cdecl BUFFER::BUFFER(unsigned int) __ptr64` | 1 | Exported Function
 
 
 ## Signature

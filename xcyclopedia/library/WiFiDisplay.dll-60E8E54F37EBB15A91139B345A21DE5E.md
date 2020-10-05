@@ -24,30 +24,30 @@ PE256 | `1284EAF3B81BBAD23C3BFC6BBFA8312B939A7F23EFF554D8B25AD1B68BEEFD65`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseMiracastSession` | 2 (0x2) | Exported Function | 0x0000000180003910 | 0x00003910
-`WFDDisplaySinkStart` | 20 (0x14) | Exported Function | 0x0000000180003cc0 | 0x00003cc0
-`WFDDisplaySinkSetProperty` | 19 (0x13) | Exported Function | 0x0000000180004320 | 0x00004320
-`WFDDisplaySinkSetPersistedGroupIDList` | 18 (0x12) | Exported Function | 0x00000001800041b0 | 0x000041b0
-`WFDDisplaySinkQueryCapabilities` | 17 (0x11) | Exported Function | 0x0000000180003ee0 | 0x00003ee0
-`WFDDisplaySinkInit` | 16 (0x10) | Exported Function | 0x0000000180003cd0 | 0x00003cd0
-`WFDDisplaySinkDeInit` | 15 (0xf) | Exported Function | 0x0000000180003df0 | 0x00003df0
-`WFDDisplaySinkCloseSession` | 14 (0xe) | Exported Function | 0x0000000180004090 | 0x00004090
-`VsIeProviderGetFunctionTable` | 13 (0xd) | Exported Function | 0x0000000180003a20 | 0x00003a20
-`OpenMiracastSession` | 12 (0xc) | Exported Function | 0x0000000180003700 | 0x00003700
-`MiracastUnregisterDatarateCallback` | 11 (0xb) | Exported Function | 0x00000001800047d0 | 0x000047d0
-`MiracastRegisterDatarateCallback` | 10 (0xa) | Exported Function | 0x0000000180004490 | 0x00004490
-`MiracastQueryParameters` | 9 (0x9) | Exported Function | 0x0000000180003cb0 | 0x00003cb0
-`MiracastIeEncode` | 8 (0x8) | Exported Function | 0x0000000180003600 | 0x00003600
-`MiracastIeDecode` | 7 (0x7) | Exported Function | 0x0000000180003680 | 0x00003680
-`MiracastFreeMemory` | 6 (0x6) | Exported Function | 0x00000001800036f0 | 0x000036f0
-`IsMiracastSupportedByWlan` | 5 (0x5) | Exported Function | 0x0000000180003b60 | 0x00003b60
-`CreateWiFiDisplayEtwProvider` | 4 (0x4) | Exported Function | 0x0000000180003bb0 | 0x00003bb0
-`CreateInfraCastSourceConnector` | 1 (0x1) | Exported Function | 0x0000000180004930 | 0x00004930
-`CreateDAFProviderMiracastHelper` | 3 (0x3) | Exported Function | 0x0000000180003b50 | 0x00003b50
-`WFDDisplaySinkStartEx` | 21 (0x15) | Exported Function | 0x0000000180003ed0 | 0x00003ed0
-`WFDDisplaySinkStop` | 22 (0x16) | Exported Function | 0x0000000180004080 | 0x00004080
+Function Name | Ordinal | Type
+-- | -- | --
+`WFDDisplaySinkDeInit` | 15 | Exported Function
+`WFDDisplaySinkInit` | 16 | Exported Function
+`WFDDisplaySinkCloseSession` | 14 | Exported Function
+`OpenMiracastSession` | 12 | Exported Function
+`VsIeProviderGetFunctionTable` | 13 | Exported Function
+`WFDDisplaySinkQueryCapabilities` | 17 | Exported Function
+`WFDDisplaySinkStartEx` | 21 | Exported Function
+`WFDDisplaySinkStop` | 22 | Exported Function
+`WFDDisplaySinkStart` | 20 | Exported Function
+`WFDDisplaySinkSetPersistedGroupIDList` | 18 | Exported Function
+`WFDDisplaySinkSetProperty` | 19 | Exported Function
+`CreateWiFiDisplayEtwProvider` | 4 | Exported Function
+`IsMiracastSupportedByWlan` | 5 | Exported Function
+`CreateInfraCastSourceConnector` | 1 | Exported Function
+`CloseMiracastSession` | 2 | Exported Function
+`CreateDAFProviderMiracastHelper` | 3 | Exported Function
+`MiracastFreeMemory` | 6 | Exported Function
+`MiracastRegisterDatarateCallback` | 10 | Exported Function
+`MiracastUnregisterDatarateCallback` | 11 | Exported Function
+`MiracastQueryParameters` | 9 | Exported Function
+`MiracastIeDecode` | 7 | Exported Function
+`MiracastIeEncode` | 8 | Exported Function
 
 
 ## Signature

@@ -24,9 +24,9 @@ PE256 | `259C5174EC671AEA00BA258E3273E56EDAC7A416B7AF46C6527003162BA83091`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DevQueryEntry` | 1 (0x1) | Exported Function | 0x0000000180001440 | 0x00001440
+Function Name | Ordinal | Type
+-- | -- | --
+`DevQueryEntry` | 1 | Exported Function
 
 
 ## Signature

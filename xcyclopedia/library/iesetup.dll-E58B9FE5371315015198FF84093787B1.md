@@ -24,15 +24,15 @@ PE256 | `27F8A583CA9179FC30D426295D547CEC3C608ABC9E8306FCE24654CED052B046`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IEApplyCurrentHardening` | 1 (0x1) | Exported Function | 0x0000000165002a90 | 0x00002a90
-`IEHardenAdmin` | 2 (0x2) | Exported Function | 0x0000000165001ef0 | 0x00001ef0
-`IEHardenAdminNow` | 3 (0x3) | Exported Function | 0x0000000165001fb0 | 0x00001fb0
-`IEHardenLMSettings` | 4 (0x4) | Exported Function | 0x00000001650029d0 | 0x000029d0
-`IEHardenMachineNow` | 5 (0x5) | Exported Function | 0x00000001650020b0 | 0x000020b0
-`IEHardenUser` | 6 (0x6) | Exported Function | 0x0000000165001ff0 | 0x00001ff0
-`IEShowHardeningDialog` | 7 (0x7) | Exported Function | 0x00000001650028a0 | 0x000028a0
+Function Name | Ordinal | Type
+-- | -- | --
+`IEHardenMachineNow` | 5 | Exported Function
+`IEHardenUser` | 6 | Exported Function
+`IEShowHardeningDialog` | 7 | Exported Function
+`IEHardenLMSettings` | 4 | Exported Function
+`IEApplyCurrentHardening` | 1 | Exported Function
+`IEHardenAdmin` | 2 | Exported Function
+`IEHardenAdminNow` | 3 | Exported Function
 
 
 ## Signature

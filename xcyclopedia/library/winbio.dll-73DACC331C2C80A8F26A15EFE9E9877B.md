@@ -24,81 +24,81 @@ PE256 | `8EB6C2BAF7D64CF1C5574390D844AB2FB2118C0FB8C4C5914062116DFB045258`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_BioLogonIdentifiedUser` | 2 (0x2) | Exported Function | 0x0000000180015d40 | 0x00015d40
-`WinBioNgcOpenAuthorizationSession` | 53 (0x35) | Exported Function | 0x00000001800166c0 | 0x000166c0
-`WinBioNgcGetAuthorizationWithTicket` | 52 (0x34) | Exported Function | 0x0000000180016bb0 | 0x00016bb0
-`WinBioNgcCloseAuthorizationSession` | 51 (0x33) | Exported Function | 0x0000000180016a40 | 0x00016a40
-`WinBioNgcAuthorizeEnrollment` | 50 (0x32) | Exported Function | 0x00000001800168a0 | 0x000168a0
-`WinBioMonitorPresence` | 49 (0x31) | Exported Function | 0x0000000180012e20 | 0x00012e20
-`WinBioLogonIdentifiedUser` | 48 (0x30) | Exported Function | 0x0000000180015bd0 | 0x00015bd0
-`WinBioNotifyPasswordChange` | 1 (0x1) | Exported Function | 0x000000018001bf50 | 0x0001bf50
-`WinBioLockUnit` | 47 (0x2f) | Exported Function | 0x0000000180013d00 | 0x00013d00
-`WinBioLocateSensor` | 45 (0x2d) | Exported Function | 0x0000000180010ca0 | 0x00010ca0
-`WinBioIdentifyWithCallback` | 44 (0x2c) | Exported Function | 0x00000001800104d0 | 0x000104d0
-`WinBioIdentifyAndReleaseTicket` | 43 (0x2b) | Exported Function | 0x0000000180010680 | 0x00010680
-`WinBioIdentify` | 42 (0x2a) | Exported Function | 0x00000001800100f0 | 0x000100f0
-`WinBioGetProtectionPolicy` | 41 (0x29) | Exported Function | 0x00000001800163a0 | 0x000163a0
-`WinBioGetProperty` | 40 (0x28) | Exported Function | 0x0000000180014e60 | 0x00014e60
-`WinBioLocateSensorWithCallback` | 46 (0x2e) | Exported Function | 0x0000000180010ff0 | 0x00010ff0
-`WinBioOpenSession` | 54 (0x36) | Exported Function | 0x000000018000ef00 | 0x0000ef00
-`WinBioProtectData` | 55 (0x37) | Exported Function | 0x0000000180015800 | 0x00015800
-`WinBioProtectDataWithPolicy` | 56 (0x38) | Exported Function | 0x00000001800163a0 | 0x000163a0
-`WinBioVerifyAndReleaseTicket` | 71 (0x47) | Exported Function | 0x000000018000fca0 | 0x0000fca0
-`WinBioVerify` | 70 (0x46) | Exported Function | 0x000000018000f6c0 | 0x0000f6c0
-`WinBioUnregisterServiceMonitor` | 69 (0x45) | Exported Function | 0x00000001800174e0 | 0x000174e0
-`WinBioUnregisterEventMonitor` | 68 (0x44) | Exported Function | 0x0000000180012d90 | 0x00012d90
-`WinBioUnprotectData` | 67 (0x43) | Exported Function | 0x00000001800159e0 | 0x000159e0
-`WinBioUnlockUnit` | 66 (0x42) | Exported Function | 0x0000000180014080 | 0x00014080
-`WinBioSetProperty` | 65 (0x41) | Exported Function | 0x0000000180015350 | 0x00015350
-`WinBioSetMSACredential` | 64 (0x40) | Exported Function | 0x00000001800174e0 | 0x000174e0
-`WinBioSetCredential` | 63 (0x3f) | Exported Function | 0x0000000180017320 | 0x00017320
-`WinBioRemoveCredential` | 62 (0x3e) | Exported Function | 0x00000001800174f0 | 0x000174f0
-`WinBioRemoveAllDomainCredentials` | 61 (0x3d) | Exported Function | 0x0000000180017740 | 0x00017740
-`WinBioRemoveAllCredentials` | 60 (0x3c) | Exported Function | 0x0000000180017660 | 0x00017660
-`WinBioReleaseFocus` | 59 (0x3b) | Exported Function | 0x0000000180016250 | 0x00016250
-`WinBioRegisterServiceMonitor` | 58 (0x3a) | Exported Function | 0x00000001800174e0 | 0x000174e0
-`WinBioRegisterEventMonitor` | 57 (0x39) | Exported Function | 0x0000000180012c00 | 0x00012c00
-`WinBioGetPolicyProtectionSupport` | 39 (0x27) | Exported Function | 0x0000000180016360 | 0x00016360
-`WinBioVerifyWithCallback` | 72 (0x48) | Exported Function | 0x000000018000fad0 | 0x0000fad0
-`WinBioGetLogonSetting` | 38 (0x26) | Exported Function | 0x0000000180015fa0 | 0x00015fa0
-`WinBioGetEnrolledFactors` | 36 (0x24) | Exported Function | 0x0000000180015ba0 | 0x00015ba0
-`WinBioControlUnitPrivileged` | 16 (0x10) | Exported Function | 0x0000000180014920 | 0x00014920
-`WinBioControlUnit` | 15 (0xf) | Exported Function | 0x00000001800143e0 | 0x000143e0
-`WinBioCloseSession` | 14 (0xe) | Exported Function | 0x000000018000f5a0 | 0x0000f5a0
-`WinBioCloseFramework` | 13 (0xd) | Exported Function | 0x000000018000e6a0 | 0x0000e6a0
-`WinBioCaptureSampleWithCallback` | 12 (0xc) | Exported Function | 0x0000000180013790 | 0x00013790
-`WinBioCaptureSample` | 11 (0xb) | Exported Function | 0x0000000180013350 | 0x00013350
-`WinBioDeleteTemplate` | 17 (0x11) | Exported Function | 0x0000000180013950 | 0x00013950
-`WinBioCancel` | 10 (0xa) | Exported Function | 0x0000000180010b40 | 0x00010b40
-`WinBioAsyncOpenFramework` | 8 (0x8) | Exported Function | 0x000000018000e4b0 | 0x0000e4b0
-`WinBioAsyncMonitorFrameworkChanges` | 7 (0x7) | Exported Function | 0x000000018000eb30 | 0x0000eb30
-`WinBioAsyncEnumServiceProviders` | 6 (0x6) | Exported Function | 0x000000018000e7b0 | 0x0000e7b0
-`WinBioAsyncEnumDatabases` | 5 (0x5) | Exported Function | 0x000000018000ea00 | 0x0000ea00
-`WinBioAsyncEnumBiometricUnits` | 4 (0x4) | Exported Function | 0x000000018000e8e0 | 0x0000e8e0
-`WinBioAcquireFocus` | 3 (0x3) | Exported Function | 0x0000000180016140 | 0x00016140
-`WinBioAsyncOpenSession` | 9 (0x9) | Exported Function | 0x000000018000f180 | 0x0000f180
-`WinBioDiscardTicket` | 18 (0x12) | Exported Function | 0x00000001800163b0 | 0x000163b0
-`WinBioEnrollAuthorize` | 19 (0x13) | Exported Function | 0x00000001800114e0 | 0x000114e0
-`WinBioEnrollBegin` | 20 (0x14) | Exported Function | 0x00000001800111a0 | 0x000111a0
-`WinBioGetEnabledSetting` | 35 (0x23) | Exported Function | 0x0000000180015ed0 | 0x00015ed0
-`WinBioGetDomainLogonSetting` | 34 (0x22) | Exported Function | 0x0000000180016070 | 0x00016070
-`WinBioGetCredentialWithTicket` | 33 (0x21) | Exported Function | 0x00000001800179a0 | 0x000179a0
-`WinBioGetCredentialState` | 32 (0x20) | Exported Function | 0x0000000180017820 | 0x00017820
-`WinBioFree` | 31 (0x1f) | Exported Function | 0x0000000180015eb0 | 0x00015eb0
-`WinBioEnumServiceProviders` | 30 (0x1e) | Exported Function | 0x000000018000db50 | 0x0000db50
-`WinBioEnumEnrollments` | 29 (0x1d) | Exported Function | 0x00000001800127a0 | 0x000127a0
-`WinBioEnumDatabases` | 28 (0x1c) | Exported Function | 0x000000018000de40 | 0x0000de40
-`WinBioEnumBiometricUnits` | 27 (0x1b) | Exported Function | 0x000000018000dcd0 | 0x0000dcd0
-`WinBioEnrollSelect` | 26 (0x1a) | Exported Function | 0x00000001800118b0 | 0x000118b0
-`WinBioEnrollRevoke` | 25 (0x19) | Exported Function | 0x00000001800116f0 | 0x000116f0
-`WinBioEnrollDiscard` | 24 (0x18) | Exported Function | 0x00000001800124c0 | 0x000124c0
-`WinBioEnrollCommit` | 23 (0x17) | Exported Function | 0x00000001800120f0 | 0x000120f0
-`WinBioEnrollCaptureWithCallback` | 22 (0x16) | Exported Function | 0x0000000180011f40 | 0x00011f40
-`WinBioEnrollCapture` | 21 (0x15) | Exported Function | 0x0000000180011bc0 | 0x00011bc0
-`WinBioGetGestureMetadata` | 37 (0x25) | Exported Function | 0x0000000180016520 | 0x00016520
-`WinBioWait` | 73 (0x49) | Exported Function | 0x0000000180010a90 | 0x00010a90
+Function Name | Ordinal | Type
+-- | -- | --
+`WinBioNgcAuthorizeEnrollment` | 50 | Exported Function
+`WinBioNgcCloseAuthorizationSession` | 51 | Exported Function
+`WinBioLogonIdentifiedUser` | 48 | Exported Function
+`WinBioMonitorPresence` | 49 | Exported Function
+`WinBioNgcGetAuthorizationWithTicket` | 52 | Exported Function
+`WinBioOpenSession` | 54 | Exported Function
+`WinBioProtectData` | 55 | Exported Function
+`WinBioNgcOpenAuthorizationSession` | 53 | Exported Function
+`WinBioNotifyPasswordChange` | 1 | Exported Function
+`WinBioGetProtectionPolicy` | 41 | Exported Function
+`WinBioIdentify` | 42 | Exported Function
+`WinBioGetPolicyProtectionSupport` | 39 | Exported Function
+`WinBioGetProperty` | 40 | Exported Function
+`WinBioIdentifyAndReleaseTicket` | 43 | Exported Function
+`WinBioLocateSensorWithCallback` | 46 | Exported Function
+`WinBioLockUnit` | 47 | Exported Function
+`WinBioIdentifyWithCallback` | 44 | Exported Function
+`WinBioLocateSensor` | 45 | Exported Function
+`WinBioUnprotectData` | 67 | Exported Function
+`WinBioUnregisterEventMonitor` | 68 | Exported Function
+`WinBioSetProperty` | 65 | Exported Function
+`WinBioUnlockUnit` | 66 | Exported Function
+`WinBioUnregisterServiceMonitor` | 69 | Exported Function
+`WinBioVerifyWithCallback` | 72 | Exported Function
+`WinBioWait` | 73 | Exported Function
+`WinBioVerify` | 70 | Exported Function
+`WinBioVerifyAndReleaseTicket` | 71 | Exported Function
+`WinBioRegisterServiceMonitor` | 58 | Exported Function
+`WinBioReleaseFocus` | 59 | Exported Function
+`WinBioProtectDataWithPolicy` | 56 | Exported Function
+`WinBioRegisterEventMonitor` | 57 | Exported Function
+`WinBioRemoveAllCredentials` | 60 | Exported Function
+`WinBioSetCredential` | 63 | Exported Function
+`WinBioSetMSACredential` | 64 | Exported Function
+`WinBioRemoveAllDomainCredentials` | 61 | Exported Function
+`WinBioRemoveCredential` | 62 | Exported Function
+`WinBioGetLogonSetting` | 38 | Exported Function
+`WinBioCloseFramework` | 13 | Exported Function
+`WinBioCloseSession` | 14 | Exported Function
+`WinBioCaptureSample` | 11 | Exported Function
+`WinBioCaptureSampleWithCallback` | 12 | Exported Function
+`WinBioControlUnit` | 15 | Exported Function
+`WinBioDiscardTicket` | 18 | Exported Function
+`WinBioEnrollAuthorize` | 19 | Exported Function
+`WinBioControlUnitPrivileged` | 16 | Exported Function
+`WinBioDeleteTemplate` | 17 | Exported Function
+`WinBioAsyncEnumBiometricUnits` | 4 | Exported Function
+`WinBioAsyncEnumDatabases` | 5 | Exported Function
+`_BioLogonIdentifiedUser` | 2 | Exported Function
+`WinBioAcquireFocus` | 3 | Exported Function
+`WinBioAsyncEnumServiceProviders` | 6 | Exported Function
+`WinBioAsyncOpenSession` | 9 | Exported Function
+`WinBioCancel` | 10 | Exported Function
+`WinBioAsyncMonitorFrameworkChanges` | 7 | Exported Function
+`WinBioAsyncOpenFramework` | 8 | Exported Function
+`WinBioFree` | 31 | Exported Function
+`WinBioGetCredentialState` | 32 | Exported Function
+`WinBioEnumEnrollments` | 29 | Exported Function
+`WinBioEnumServiceProviders` | 30 | Exported Function
+`WinBioGetCredentialWithTicket` | 33 | Exported Function
+`WinBioGetEnrolledFactors` | 36 | Exported Function
+`WinBioGetGestureMetadata` | 37 | Exported Function
+`WinBioGetDomainLogonSetting` | 34 | Exported Function
+`WinBioGetEnabledSetting` | 35 | Exported Function
+`WinBioEnrollCaptureWithCallback` | 22 | Exported Function
+`WinBioEnrollCommit` | 23 | Exported Function
+`WinBioEnrollBegin` | 20 | Exported Function
+`WinBioEnrollCapture` | 21 | Exported Function
+`WinBioEnrollDiscard` | 24 | Exported Function
+`WinBioEnumBiometricUnits` | 27 | Exported Function
+`WinBioEnumDatabases` | 28 | Exported Function
+`WinBioEnrollRevoke` | 25 | Exported Function
+`WinBioEnrollSelect` | 26 | Exported Function
 
 
 ## Signature

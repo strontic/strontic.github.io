@@ -24,34 +24,34 @@ PE256 | `BC3DDE7AB76ACA4624CD24E2E5C9F7798B7F815FF8BB17CD13892DD362703264`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DusmEnumConnectionList` | 1 (0x1) | Exported Function | 0x0000000180004ef0 | 0x00004ef0
-`DusmSetSource` | 24 (0x18) | Exported Function | 0x00000001800058e0 | 0x000058e0
-`DusmSetOperatorDataPlan` | 23 (0x17) | Exported Function | 0x0000000180005760 | 0x00005760
-`DusmSetOperatorCost` | 22 (0x16) | Exported Function | 0x00000001800053e0 | 0x000053e0
-`DusmSetBackgroundRestriction` | 21 (0x15) | Exported Function | 0x0000000180005a30 | 0x00005a30
-`DusmSetAttributionMapping` | 20 (0x14) | Exported Function | 0x0000000180005f90 | 0x00005f90
-`DusmResetNetworkUsage` | 19 (0x13) | Exported Function | 0x0000000180006030 | 0x00006030
-`DusmQueryUserDataPlan` | 18 (0x12) | Exported Function | 0x0000000180005540 | 0x00005540
-`DusmQueryUserCost` | 17 (0x11) | Exported Function | 0x00000001800051c0 | 0x000051c0
-`DusmQuerySource` | 16 (0x10) | Exported Function | 0x0000000180005830 | 0x00005830
-`DusmQueryOperatorDataPlan` | 15 (0xf) | Exported Function | 0x0000000180005600 | 0x00005600
-`DusmQueryOperatorCost` | 14 (0xe) | Exported Function | 0x0000000180005280 | 0x00005280
-`DusmQueryGlobalDpuState` | 13 (0xd) | Exported Function | 0x0000000180005ad0 | 0x00005ad0
-`DusmQueryDataPlan` | 12 (0xc) | Exported Function | 0x0000000180005480 | 0x00005480
-`DusmQueryCost` | 11 (0xb) | Exported Function | 0x0000000180005100 | 0x00005100
-`DusmQueryConnectionProperties` | 10 (0xa) | Exported Function | 0x0000000180005040 | 0x00005040
-`DusmQueryBackgroundRestriction` | 9 (0x9) | Exported Function | 0x0000000180005980 | 0x00005980
-`DusmGetProviderNetworkUsage` | 8 (0x8) | Exported Function | 0x0000000180005e80 | 0x00005e80
-`DusmGetNetworkUsage` | 7 (0x7) | Exported Function | 0x0000000180005d60 | 0x00005d60
-`DusmGetConnectionListNetworkUsage` | 6 (0x6) | Exported Function | 0x0000000180005c70 | 0x00005c70
-`DusmGetAttributedNetworkUsage` | 5 (0x5) | Exported Function | 0x0000000180005b70 | 0x00005b70
-`DusmFree` | 4 (0x4) | Exported Function | 0x0000000180004ed0 | 0x00004ed0
-`DusmFlushCostCache` | 3 (0x3) | Exported Function | 0x00000001800060d0 | 0x000060d0
-`DusmEnumProfileList` | 2 (0x2) | Exported Function | 0x0000000180004f90 | 0x00004f90
-`DusmSetUserCost` | 25 (0x19) | Exported Function | 0x0000000180005340 | 0x00005340
-`DusmSetUserDataPlan` | 26 (0x1a) | Exported Function | 0x00000001800056c0 | 0x000056c0
+Function Name | Ordinal | Type
+-- | -- | --
+`DusmQueryUserCost` | 17 | Exported Function
+`DusmQueryUserDataPlan` | 18 | Exported Function
+`DusmResetNetworkUsage` | 19 | Exported Function
+`DusmQueryOperatorCost` | 14 | Exported Function
+`DusmQueryOperatorDataPlan` | 15 | Exported Function
+`DusmQuerySource` | 16 | Exported Function
+`DusmSetAttributionMapping` | 20 | Exported Function
+`DusmSetSource` | 24 | Exported Function
+`DusmSetUserCost` | 25 | Exported Function
+`DusmSetUserDataPlan` | 26 | Exported Function
+`DusmSetBackgroundRestriction` | 21 | Exported Function
+`DusmSetOperatorCost` | 22 | Exported Function
+`DusmSetOperatorDataPlan` | 23 | Exported Function
+`DusmFree` | 4 | Exported Function
+`DusmGetAttributedNetworkUsage` | 5 | Exported Function
+`DusmGetConnectionListNetworkUsage` | 6 | Exported Function
+`DusmEnumConnectionList` | 1 | Exported Function
+`DusmEnumProfileList` | 2 | Exported Function
+`DusmFlushCostCache` | 3 | Exported Function
+`DusmGetNetworkUsage` | 7 | Exported Function
+`DusmQueryCost` | 11 | Exported Function
+`DusmQueryDataPlan` | 12 | Exported Function
+`DusmQueryGlobalDpuState` | 13 | Exported Function
+`DusmGetProviderNetworkUsage` | 8 | Exported Function
+`DusmQueryBackgroundRestriction` | 9 | Exported Function
+`DusmQueryConnectionProperties` | 10 | Exported Function
 
 
 ## Signature

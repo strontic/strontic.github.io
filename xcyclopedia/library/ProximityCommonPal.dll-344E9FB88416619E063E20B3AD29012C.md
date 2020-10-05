@@ -24,16 +24,16 @@ PE256 | `1887AE762ABB2B21011C66E5D78EF4A9495CD52F0D3146A8CCDEE79AE83CC9B7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PAL_AppHasPackage` | 1 (0x1) | Exported Function | 0x0000000180001250 | 0x00001250
-`PAL_FreeTransientObjectSecurityAttribute` | 2 (0x2) | Exported Function | 0x00000001800017b0 | 0x000017b0
-`PAL_GetAppPlatformQualifier` | 3 (0x3) | Exported Function | 0x0000000180001240 | 0x00001240
-`PAL_GetSupportedBrowseTypes` | 4 (0x4) | Exported Function | 0x0000000180001790 | 0x00001790
-`PAL_HoldReferenceUntilAppExit` | 5 (0x5) | Exported Function | 0x00000001800015a0 | 0x000015a0
-`PAL_QueryTransientObjectSecurityAttribute` | 6 (0x6) | Exported Function | 0x00000001800017a0 | 0x000017a0
-`PAL_RegisterAppSuspendResumeCallback` | 7 (0x7) | Exported Function | 0x0000000180001320 | 0x00001320
-`PAL_UnregisterAppSuspendResumeCallback` | 8 (0x8) | Exported Function | 0x00000001800014d0 | 0x000014d0
+Function Name | Ordinal | Type
+-- | -- | --
+`PAL_QueryTransientObjectSecurityAttribute` | 6 | Exported Function
+`PAL_HoldReferenceUntilAppExit` | 5 | Exported Function
+`PAL_UnregisterAppSuspendResumeCallback` | 8 | Exported Function
+`PAL_RegisterAppSuspendResumeCallback` | 7 | Exported Function
+`PAL_FreeTransientObjectSecurityAttribute` | 2 | Exported Function
+`PAL_AppHasPackage` | 1 | Exported Function
+`PAL_GetSupportedBrowseTypes` | 4 | Exported Function
+`PAL_GetAppPlatformQualifier` | 3 | Exported Function
 
 
 ## Signature

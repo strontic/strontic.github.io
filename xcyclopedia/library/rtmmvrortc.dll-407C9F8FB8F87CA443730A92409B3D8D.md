@@ -24,13 +24,13 @@ PE256 | `29C92BC1EF486D8350AF399973BB6FDA18DB5F21D7EEB89F138090BE341A4298`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MediaVRCreateORTCRenderer` | 2 (0x2) | Exported Function | 0x10001060 | 0x00001060
-`MediaVRDestroyORTCRenderer` | 3 (0x3) | Exported Function | 0x100010d0 | 0x000010d0
-`MediaVRGetORTCRenderContext` | 1 (0x1) | Exported Function | 0x10001040 | 0x00001040
-`MediaVRRequestKeyFrame` | 4 (0x4) | Exported Function | 0x10001120 | 0x00001120
-`MediaVRSetDecodingHealth` | 5 (0x5) | Exported Function | 0x10001150 | 0x00001150
+Function Name | Ordinal | Type
+-- | -- | --
+`MediaVRRequestKeyFrame` | 4 | Exported Function
+`MediaVRSetDecodingHealth` | 5 | Exported Function
+`MediaVRGetORTCRenderContext` | 1 | Exported Function
+`MediaVRCreateORTCRenderer` | 2 | Exported Function
+`MediaVRDestroyORTCRenderer` | 3 | Exported Function
 
 
 ## Signature

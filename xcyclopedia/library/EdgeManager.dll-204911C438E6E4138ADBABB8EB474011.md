@@ -24,29 +24,29 @@ PE256 | `2D03999AB48BBE7F5F59585B18E5FC156FBAD8FE7EBD66775D1F3138B9589A04`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateCoreWebViewComponentAndUninitializedCoreWebViewComponentCallbackForWebInstance` | 6 (0x6) | Exported Function | 0x10035370 | 0x00035370
-`EnsureWebDriverForWebViewHost` | 5 (0x5) | Exported Function | 0x10064610 | 0x00064610
-`EnsureServiceWorkerEnvironmentForWebView` | 19 (0x13) | Exported Function | 0x10064c30 | 0x00064c30
-`DllUnregisterServer` | 18 (0x12) | Exported Function | 0x10031cc0 | 0x00031cc0
-`DllRegisterServer` | 17 (0x11) | Exported Function | 0x10031cb0 | 0x00031cb0
-`DllInstall` | 16 (0x10) | Exported Function | 0x10031c70 | 0x00031c70
-`DllGetClassObject` | 15 (0xf) | Exported Function | 0x10031c10 | 0x00031c10
-`DllGetActivationFactory` | 14 (0xe) | Exported Function | 0x10031bf0 | 0x00031bf0
-`DllCanUnloadNow` | 13 (0xd) | Exported Function | 0x10031bc0 | 0x00031bc0
-`GetProxyDllInfo` | 20 (0x14) | Exported Function | 0x1002bb20 | 0x0002bb20
-`CreateWebViewControlMoveFocusRequestedEventArgs` | 12 (0xc) | Exported Function | 0x10035bb0 | 0x00035bb0
-`CreateWebViewControlAcceleratorKeyPressedEventArgs` | 10 (0xa) | Exported Function | 0x10035880 | 0x00035880
-`CreateWebRuntimeDiagnosticsTarget` | 4 (0x4) | Exported Function | 0x1008ef00 | 0x0008ef00
-`CreateWebRuntimeDebugTargetManager` | 3 (0x3) | Exported Function | 0x10093fc0 | 0x00093fc0
-`CreateWebRuntimeDebugTargetClient` | 2 (0x2) | Exported Function | 0x1008ee10 | 0x0008ee10
-`CreateEdgeIsoSession` | 1 (0x1) | Exported Function | 0x1008b3c0 | 0x0008b3c0
-`CreateCoreWebViewOOP` | 9 (0x9) | Exported Function | 0x10035660 | 0x00035660
-`CreateCoreWebViewHostProcess` | 8 (0x8) | Exported Function | 0x100355c0 | 0x000355c0
-`CreateCoreWebViewControl` | 7 (0x7) | Exported Function | 0x1001dc60 | 0x0001dc60
-`CreateWebViewControlAndInitializeCoreWebViewComponentCallback` | 11 (0xb) | Exported Function | 0x10035980 | 0x00035980
-`GetWebDriverHostInstance` | 21 (0x15) | Exported Function | 0x10021ee0 | 0x00021ee0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllInstall` | 16 | Exported Function
+`DllRegisterServer` | 17 | Exported Function
+`DllGetClassObject` | 15 | Exported Function
+`DllCanUnloadNow` | 13 | Exported Function
+`DllGetActivationFactory` | 14 | Exported Function
+`GetProxyDllInfo` | 20 | Exported Function
+`GetWebDriverHostInstance` | 21 | Exported Function
+`EnsureWebDriverForWebViewHost` | 5 | Exported Function
+`DllUnregisterServer` | 18 | Exported Function
+`EnsureServiceWorkerEnvironmentForWebView` | 19 | Exported Function
+`CreateWebViewControlMoveFocusRequestedEventArgs` | 12 | Exported Function
+`CreateCoreWebViewOOP` | 9 | Exported Function
+`CreateEdgeIsoSession` | 1 | Exported Function
+`CreateCoreWebViewHostProcess` | 8 | Exported Function
+`CreateCoreWebViewComponentAndUninitializedCoreWebViewComponentCallbackForWebInstance` | 6 | Exported Function
+`CreateCoreWebViewControl` | 7 | Exported Function
+`CreateWebViewControlAcceleratorKeyPressedEventArgs` | 10 | Exported Function
+`CreateWebViewControlAndInitializeCoreWebViewComponentCallback` | 11 | Exported Function
+`CreateWebRuntimeDiagnosticsTarget` | 4 | Exported Function
+`CreateWebRuntimeDebugTargetClient` | 2 | Exported Function
+`CreateWebRuntimeDebugTargetManager` | 3 | Exported Function
 
 
 ## Signature

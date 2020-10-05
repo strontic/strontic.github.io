@@ -24,9 +24,9 @@ PE256 | `66E37A1368711C2198853F52FD34EABF5034F0D6AACB7F75E03C8235BB8414D6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetSChannelInterface` | 1 (0x1) | Exported Function | 0x100084e0 | 0x000084e0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetSChannelInterface` | 1 | Exported Function
 
 
 ## Signature

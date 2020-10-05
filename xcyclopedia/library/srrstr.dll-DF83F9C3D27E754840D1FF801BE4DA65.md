@@ -24,9 +24,9 @@ PE256 | `86C9D529DBF1D823057E5E5A51D74A6BFD983A1D2A2A06F3580AA25561105B76`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SRGetCplPropPage` | 4 (0x4) | Exported Function | 0x000000018000b1c0 | 0x0000b1c0
+Function Name | Ordinal | Type
+-- | -- | --
+`SRGetCplPropPage` | 4 | Exported Function
 
 
 ## Signature

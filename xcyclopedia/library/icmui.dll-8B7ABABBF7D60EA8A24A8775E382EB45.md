@@ -24,10 +24,10 @@ PE256 | `B5C852B4208E604E0DB64A3EBA9FEF917EFF3908EDE36D35A7966EEC63F69298`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SetupColorMatchingA` | 1 (0x1) | Exported Function | 0x5e982d10 | 0x00002d10
-`SetupColorMatchingW` | 2 (0x2) | Exported Function | 0x5e982d60 | 0x00002d60
+Function Name | Ordinal | Type
+-- | -- | --
+`SetupColorMatchingW` | 2 | Exported Function
+`SetupColorMatchingA` | 1 | Exported Function
 
 
 ## Signature

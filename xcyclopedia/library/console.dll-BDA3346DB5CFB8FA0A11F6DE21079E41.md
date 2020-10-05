@@ -24,11 +24,11 @@ PE256 | `9B63BA1AD0496A50D919532A8F5AC3FC7ED8B63B8905BE8FEB83F77CDA8A230D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CPlApplet` | 1 (0x1) | Exported Function | 0x000000018000ba50 | 0x0000ba50
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180004470 | 0x00004470
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x0000000180004380 | 0x00004380
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`CPlApplet` | 1 | Exported Function
 
 
 ## Signature

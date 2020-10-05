@@ -24,13 +24,13 @@ PE256 | `94AD0B8CDBA1FBC3E8099FD267C946A607882F09A77BED80CF1CCF5EAC3AD786`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateUDicProxy` | 1 (0x1) | Exported Function | 0x000000018000c6f0 | 0x0000c6f0
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000018000c330 | 0x0000c330
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000018000c1e0 | 0x0000c1e0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x000000018000c350 | 0x0000c350
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x000000018000c550 | 0x0000c550
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`CreateUDicProxy` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

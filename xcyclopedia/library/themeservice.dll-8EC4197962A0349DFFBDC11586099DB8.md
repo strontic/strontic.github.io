@@ -24,9 +24,9 @@ PE256 | `5485C5410951B5A25FF9821018FE95DB502C3644C5638AD30C2859D936DE625D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ThemeServiceMain` | 1 (0x1) | Exported Function | 0x000000018000a710 | 0x0000a710
+Function Name | Ordinal | Type
+-- | -- | --
+`ThemeServiceMain` | 1 | Exported Function
 
 
 ## Signature

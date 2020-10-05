@@ -24,106 +24,105 @@ PE256 | `7EC3FCEBFF4B7640B3F217A298F2727DEDFE88240DF28581B52D59639B4EE4DF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BluetoothAddressToString` | 109 (0x6d) | Exported Function | 0x1000e1d0 | 0x0000e1d0
-`BthpCleanupDeviceRemoteServices` | 179 (0xb3) | Exported Function | 0x10010cc0 | 0x00010cc0
-`BthpCleanupDeviceLocalServices` | 178 (0xb2) | Exported Function | 0x10010b60 | 0x00010b60
-`BthpCleanupBRDeviceNode` | 177 (0xb1) | Exported Function | 0x10010ab0 | 0x00010ab0
-`BthpCheckForUnsupportedGuid` | 176 (0xb0) | Exported Function | 0x10010a90 | 0x00010a90
-`BluetoothUpdateDeviceRecord` | 175 (0xaf) | Exported Function | 0x10010a20 | 0x00010a20
-`BluetoothUnregisterAuthentication` | 174 (0xae) | Exported Function | 0x10010930 | 0x00010930
-`BluetoothSetServiceStateEx` | 173 (0xad) | Exported Function | 0x10010900 | 0x00010900
-`BluetoothSetServiceState` | 172 (0xac) | Exported Function | 0x100108d0 | 0x000108d0
-`BluetoothSetLocalServiceInfo` | 171 (0xab) | Exported Function | 0x10010720 | 0x00010720
-`BthpCleanupLEDeviceNodes` | 180 (0xb4) | Exported Function | 0x10010d90 | 0x00010d90
-`BluetoothSendAuthenticationResponseEx` | 170 (0xaa) | Exported Function | 0x10010540 | 0x00010540
-`BluetoothSdpGetString` | 168 (0xa8) | Exported Function | 0x10012370 | 0x00012370
-`BluetoothSdpGetElementData` | 167 (0xa7) | Exported Function | 0x100120a0 | 0x000120a0
-`BluetoothSdpGetContainerElementData` | 166 (0xa6) | Exported Function | 0x10012000 | 0x00012000
-`BluetoothSdpGetAttributeValue` | 165 (0xa5) | Exported Function | 0x10011f40 | 0x00011f40
-`BluetoothSdpEnumAttributes` | 164 (0xa4) | Exported Function | 0x100103b0 | 0x000103b0
-`BluetoothRemoveDevice` | 163 (0xa3) | Exported Function | 0x10010230 | 0x00010230
-`BluetoothRegisterForAuthenticationEx` | 162 (0xa2) | Exported Function | 0x100100a0 | 0x000100a0
-`BluetoothRegisterForAuthentication` | 161 (0xa1) | Exported Function | 0x1000ff20 | 0x0000ff20
-`BluetoothIsVersionAvailable` | 160 (0xa0) | Exported Function | 0x1000fef0 | 0x0000fef0
-`BluetoothSendAuthenticationResponse` | 169 (0xa9) | Exported Function | 0x100104a0 | 0x000104a0
-`BthpEnableA2DPIfPresent` | 104 (0x68) | Exported Function | 0x100072b0 | 0x000072b0
-`BthpEnableAllServices` | 181 (0xb5) | Exported Function | 0x10010e50 | 0x00010e50
-`BthpEnableConnectableAndDiscoverable` | 182 (0xb6) | Exported Function | 0x10011060 | 0x00011060
-`InstallIncomingComPort` | 199 (0xc7) | Exported Function | 0x100126c0 | 0x000126c0
-`FindNextOpenVCOMPort` | 198 (0xc6) | Exported Function | 0x10012630 | 0x00012630
-`DllCanUnloadNow` | 197 (0xc5) | Exported Function | 0x1000a410 | 0x0000a410
-`BthpTransposeAndExtendBytes` | 196 (0xc4) | Exported Function | 0x10011c10 | 0x00011c10
-`BthpTranspose32Bits` | 108 (0x6c) | Exported Function | 0x10007930 | 0x00007930
-`BthpTranspose16Bits` | 195 (0xc3) | Exported Function | 0x10011bf0 | 0x00011bf0
-`BthpSetServiceStateEx` | 107 (0x6b) | Exported Function | 0x10007580 | 0x00007580
-`BthpSetServiceState` | 106 (0x6a) | Exported Function | 0x10007550 | 0x00007550
-`BthpRegisterForAuthentication` | 194 (0xc2) | Exported Function | 0x10011a80 | 0x00011a80
-`BthpNextRecord` | 193 (0xc1) | Exported Function | 0x100119c0 | 0x000119c0
-`BthpMapStatusToErr` | 192 (0xc0) | Exported Function | 0x10011990 | 0x00011990
-`BthpIsTopOfServiceGroup` | 191 (0xbf) | Exported Function | 0x10011500 | 0x00011500
-`BthpIsRadioSoftwareEnabled` | 190 (0xbe) | Exported Function | 0x10005bd0 | 0x00005bd0
-`BthpIsDiscoverableByDefault` | 189 (0xbd) | Exported Function | 0x10007540 | 0x00007540
-`BthpIsDiscoverable` | 188 (0xbc) | Exported Function | 0x10011470 | 0x00011470
-`BthpIsConnectableByDefault` | 105 (0x69) | Exported Function | 0x10007540 | 0x00007540
-`BthpIsBluetoothServiceRunning` | 187 (0xbb) | Exported Function | 0x100113f0 | 0x000113f0
-`BthpInnerRecord` | 186 (0xba) | Exported Function | 0x100112f0 | 0x000112f0
-`BthpGATTCloseSession` | 185 (0xb9) | Exported Function | 0x10012b30 | 0x00012b30
-`BthpFindPnpInfo` | 184 (0xb8) | Exported Function | 0x100111a0 | 0x000111a0
-`BthpEnableRadioSoftware` | 183 (0xb7) | Exported Function | 0x10011110 | 0x00011110
-`BluetoothIsDiscoverable` | 159 (0x9f) | Exported Function | 0x1000fe20 | 0x0000fe20
-`BluetoothIsConnectable` | 158 (0x9e) | Exported Function | 0x1000fd50 | 0x0000fd50
-`BluetoothGetServicePnpInstance` | 157 (0x9d) | Exported Function | 0x1000fb30 | 0x0000fb30
-`BluetoothGetRadioInfo` | 156 (0x9c) | Exported Function | 0x1000fa20 | 0x0000fa20
-`BluetoothFindNextDevice` | 130 (0x82) | Exported Function | 0x1000f2c0 | 0x0000f2c0
-`BluetoothFindNextClassId` | 129 (0x81) | Exported Function | 0x1000f260 | 0x0000f260
-`BluetoothFindNextBrowseGroup` | 128 (0x80) | Exported Function | 0x1000f200 | 0x0000f200
-`BluetoothFindFirstServiceEx` | 127 (0x7f) | Exported Function | 0x1000f1b0 | 0x0000f1b0
-`BluetoothFindFirstService` | 126 (0x7e) | Exported Function | 0x1000f190 | 0x0000f190
-`BluetoothFindFirstRadio` | 125 (0x7d) | Exported Function | 0x10005960 | 0x00005960
-`BluetoothFindFirstProtocolEntry` | 124 (0x7c) | Exported Function | 0x1000f0c0 | 0x0000f0c0
-`BluetoothFindFirstProtocolDescriptorStack` | 123 (0x7b) | Exported Function | 0x1000efc0 | 0x0000efc0
-`BluetoothFindFirstProfileDescriptor` | 122 (0x7a) | Exported Function | 0x1000eec0 | 0x0000eec0
-`BluetoothFindFirstDevice` | 121 (0x79) | Exported Function | 0x1000ed00 | 0x0000ed00
-`BluetoothFindFirstClassId` | 120 (0x78) | Exported Function | 0x1000ec10 | 0x0000ec10
-`BluetoothFindFirstBrowseGroup` | 119 (0x77) | Exported Function | 0x1000eb20 | 0x0000eb20
-`BluetoothFindDeviceClose` | 118 (0x76) | Exported Function | 0x1000eab0 | 0x0000eab0
-`BluetoothFindClassIdClose` | 117 (0x75) | Exported Function | 0x1000ea70 | 0x0000ea70
-`BluetoothFindBrowseGroupClose` | 116 (0x74) | Exported Function | 0x1000ea70 | 0x0000ea70
-`BluetoothEnumerateLocalServices` | 115 (0x73) | Exported Function | 0x1000e890 | 0x0000e890
-`BluetoothEnumerateInstalledServicesEx` | 114 (0x72) | Exported Function | 0x1000e600 | 0x0000e600
-`BluetoothEnumerateInstalledServices` | 113 (0x71) | Exported Function | 0x1000e3f0 | 0x0000e3f0
-`BluetoothEnableIncomingConnections` | 112 (0x70) | Exported Function | 0x1000e370 | 0x0000e370
-`BluetoothEnableDiscovery` | 111 (0x6f) | Exported Function | 0x1000e2f0 | 0x0000e2f0
-`BluetoothDisconnectDevice` | 110 (0x6e) | Exported Function | 0x1000e240 | 0x0000e240
-`BluetoothFindNextProfileDescriptor` | 131 (0x83) | Exported Function | 0x1000f300 | 0x0000f300
-`Ordinal103` | 103 (0x67) | Exported Function | 0x1000a9e0 | 0x0000a9e0
-`BluetoothFindNextProtocolDescriptorStack` | 132 (0x84) | Exported Function | 0x1000f3d0 | 0x0000f3d0
-`BluetoothFindNextRadio` | 134 (0x86) | Exported Function | 0x1000f510 | 0x0000f510
-`BluetoothGetLocalServiceInfo` | 155 (0x9b) | Exported Function | 0x1000f880 | 0x0000f880
-`BluetoothGetDeviceInfo` | 154 (0x9a) | Exported Function | 0x1000f800 | 0x0000f800
-`BluetoothGATTUnregisterEvent` | 153 (0x99) | Exported Function | 0x10012ba0 | 0x00012ba0
-`BluetoothGATTSetDescriptorValue` | 152 (0x98) | Exported Function | 0x10012b10 | 0x00012b10
-`BluetoothGATTSetCharacteristicValue` | 151 (0x97) | Exported Function | 0x10012ae0 | 0x00012ae0
-`BluetoothGATTRegisterEvent` | 150 (0x96) | Exported Function | 0x10012b40 | 0x00012b40
-`BluetoothGATTGetServices` | 149 (0x95) | Exported Function | 0x10012a70 | 0x00012a70
-`BluetoothGATTGetIncludedServices` | 148 (0x94) | Exported Function | 0x100129d0 | 0x000129d0
-`BluetoothGATTGetDescriptorValue` | 146 (0x92) | Exported Function | 0x100128f0 | 0x000128f0
-`BluetoothGATTGetDescriptors` | 147 (0x93) | Exported Function | 0x10012960 | 0x00012960
-`BluetoothGATTGetCharacteristicValue` | 144 (0x90) | Exported Function | 0x10012810 | 0x00012810
-`BluetoothGATTGetCharacteristics` | 145 (0x91) | Exported Function | 0x10012880 | 0x00012880
-`BluetoothGATTEndReliableWrite` | 143 (0x8f) | Exported Function | 0x100127f0 | 0x000127f0
-`BluetoothGATTBeginReliableWrite` | 142 (0x8e) | Exported Function | 0x100127c0 | 0x000127c0
-`BluetoothGATTAbortReliableWrite` | 141 (0x8d) | Exported Function | 0x100127a0 | 0x000127a0
-`BluetoothFindServiceClose` | 140 (0x8c) | Exported Function | 0x1000f7b0 | 0x0000f7b0
-`BluetoothFindRadioClose` | 139 (0x8b) | Exported Function | 0x1000f750 | 0x0000f750
-`BluetoothFindProtocolEntryClose` | 138 (0x8a) | Exported Function | 0x1000ea70 | 0x0000ea70
-`BluetoothFindProtocolDescriptorStackClose` | 137 (0x89) | Exported Function | 0x1000f700 | 0x0000f700
-`BluetoothFindProfileDescriptorClose` | 136 (0x88) | Exported Function | 0x1000ea70 | 0x0000ea70
-`BluetoothFindNextService` | 135 (0x87) | Exported Function | 0x1000f640 | 0x0000f640
-`BluetoothFindNextProtocolEntry` | 133 (0x85) | Exported Function | 0x1000f460 | 0x0000f460
-`ShouldForceAuthentication` | 200 (0xc8) | Exported Function | 0x10011c90 | 0x00011c90
+Function Name | Ordinal | Type
+-- | -- | --
+`BluetoothSetServiceStateEx` | 173 | Exported Function
+`BluetoothUnregisterAuthentication` | 174 | Exported Function
+`BluetoothUpdateDeviceRecord` | 175 | Exported Function
+`BluetoothSendAuthenticationResponseEx` | 170 | Exported Function
+`BluetoothSetLocalServiceInfo` | 171 | Exported Function
+`BluetoothSetServiceState` | 172 | Exported Function
+`BthpCleanupDeviceRemoteServices` | 179 | Exported Function
+`BthpCleanupLEDeviceNodes` | 180 | Exported Function
+`BthpEnableA2DPIfPresent` | 104 | Exported Function
+`BthpCheckForUnsupportedGuid` | 176 | Exported Function
+`BthpCleanupBRDeviceNode` | 177 | Exported Function
+`BthpCleanupDeviceLocalServices` | 178 | Exported Function
+`BluetoothRegisterForAuthentication` | 161 | Exported Function
+`BluetoothRegisterForAuthenticationEx` | 162 | Exported Function
+`BluetoothRemoveDevice` | 163 | Exported Function
+`BluetoothIsConnectable` | 158 | Exported Function
+`BluetoothIsDiscoverable` | 159 | Exported Function
+`BluetoothIsVersionAvailable` | 160 | Exported Function
+`BluetoothSdpGetElementData` | 167 | Exported Function
+`BluetoothSdpGetString` | 168 | Exported Function
+`BluetoothSendAuthenticationResponse` | 169 | Exported Function
+`BluetoothSdpEnumAttributes` | 164 | Exported Function
+`BluetoothSdpGetAttributeValue` | 165 | Exported Function
+`BluetoothSdpGetContainerElementData` | 166 | Exported Function
+`BthpSetServiceState` | 106 | Exported Function
+`BthpSetServiceStateEx` | 107 | Exported Function
+`BthpTranspose16Bits` | 195 | Exported Function
+`BthpMapStatusToErr` | 192 | Exported Function
+`BthpNextRecord` | 193 | Exported Function
+`BthpRegisterForAuthentication` | 194 | Exported Function
+`FindNextOpenVCOMPort` | 198 | Exported Function
+`InstallIncomingComPort` | 199 | Exported Function
+`ShouldForceAuthentication` | 200 | Exported Function
+`BthpTranspose32Bits` | 108 | Exported Function
+`BthpTransposeAndExtendBytes` | 196 | Exported Function
+`DllCanUnloadNow` | 197 | Exported Function
+`BthpFindPnpInfo` | 184 | Exported Function
+`BthpGATTCloseSession` | 185 | Exported Function
+`BthpInnerRecord` | 186 | Exported Function
+`BthpEnableAllServices` | 181 | Exported Function
+`BthpEnableConnectableAndDiscoverable` | 182 | Exported Function
+`BthpEnableRadioSoftware` | 183 | Exported Function
+`BthpIsDiscoverableByDefault` | 189 | Exported Function
+`BthpIsRadioSoftwareEnabled` | 190 | Exported Function
+`BthpIsTopOfServiceGroup` | 191 | Exported Function
+`BthpIsBluetoothServiceRunning` | 187 | Exported Function
+`BthpIsConnectableByDefault` | 105 | Exported Function
+`BthpIsDiscoverable` | 188 | Exported Function
+`BluetoothGetServicePnpInstance` | 157 | Exported Function
+`BluetoothFindFirstProtocolEntry` | 124 | Exported Function
+`BluetoothFindFirstRadio` | 125 | Exported Function
+`BluetoothFindFirstService` | 126 | Exported Function
+`BluetoothFindFirstDevice` | 121 | Exported Function
+`BluetoothFindFirstProfileDescriptor` | 122 | Exported Function
+`BluetoothFindFirstProtocolDescriptorStack` | 123 | Exported Function
+`BluetoothFindNextDevice` | 130 | Exported Function
+`BluetoothFindNextProfileDescriptor` | 131 | Exported Function
+`BluetoothFindNextProtocolDescriptorStack` | 132 | Exported Function
+`BluetoothFindFirstServiceEx` | 127 | Exported Function
+`BluetoothFindNextBrowseGroup` | 128 | Exported Function
+`BluetoothFindNextClassId` | 129 | Exported Function
+`BluetoothEnableIncomingConnections` | 112 | Exported Function
+`BluetoothEnumerateInstalledServices` | 113 | Exported Function
+`BluetoothEnumerateInstalledServicesEx` | 114 | Exported Function
+`BluetoothAddressToString` | 109 | Exported Function
+`BluetoothDisconnectDevice` | 110 | Exported Function
+`BluetoothEnableDiscovery` | 111 | Exported Function
+`BluetoothFindDeviceClose` | 118 | Exported Function
+`BluetoothFindFirstBrowseGroup` | 119 | Exported Function
+`BluetoothFindFirstClassId` | 120 | Exported Function
+`BluetoothEnumerateLocalServices` | 115 | Exported Function
+`BluetoothFindBrowseGroupClose` | 116 | Exported Function
+`BluetoothFindClassIdClose` | 117 | Exported Function
+`BluetoothGATTGetIncludedServices` | 148 | Exported Function
+`BluetoothGATTGetServices` | 149 | Exported Function
+`BluetoothGATTRegisterEvent` | 150 | Exported Function
+`BluetoothGATTGetCharacteristicValue` | 144 | Exported Function
+`BluetoothGATTGetDescriptors` | 147 | Exported Function
+`BluetoothGATTGetDescriptorValue` | 146 | Exported Function
+`BluetoothGetDeviceInfo` | 154 | Exported Function
+`BluetoothGetLocalServiceInfo` | 155 | Exported Function
+`BluetoothGetRadioInfo` | 156 | Exported Function
+`BluetoothGATTSetCharacteristicValue` | 151 | Exported Function
+`BluetoothGATTSetDescriptorValue` | 152 | Exported Function
+`BluetoothGATTUnregisterEvent` | 153 | Exported Function
+`BluetoothFindProfileDescriptorClose` | 136 | Exported Function
+`BluetoothFindProtocolDescriptorStackClose` | 137 | Exported Function
+`BluetoothFindProtocolEntryClose` | 138 | Exported Function
+`BluetoothFindNextProtocolEntry` | 133 | Exported Function
+`BluetoothFindNextRadio` | 134 | Exported Function
+`BluetoothFindNextService` | 135 | Exported Function
+`BluetoothGATTBeginReliableWrite` | 142 | Exported Function
+`BluetoothGATTEndReliableWrite` | 143 | Exported Function
+`BluetoothGATTGetCharacteristics` | 145 | Exported Function
+`BluetoothFindRadioClose` | 139 | Exported Function
+`BluetoothFindServiceClose` | 140 | Exported Function
+`BluetoothGATTAbortReliableWrite` | 141 | Exported Function
 
 
 ## Signature

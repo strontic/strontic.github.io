@@ -24,29 +24,29 @@ PE256 | `FB55C671446C61AEDD75B75272B731D15E232B3436118898F0C81B85169E7F55`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`RfxVmtAcquireSharedBuffer` | 1 (0x1) | Exported Function | 0x10002cf0 | 0x00002cf0
-`RfxVmtShareBuffer` | 19 (0x13) | Exported Function | 0x10002b10 | 0x00002b10
-`RfxVmtRevokeSharedBuffer` | 18 (0x12) | Exported Function | 0x10002c00 | 0x00002c00
-`RfxVmtResumeLibrary` | 17 (0x11) | Exported Function | 0x10002aa0 | 0x00002aa0
-`RfxVmtReleaseSharedBuffer` | 16 (0x10) | Exported Function | 0x10002de0 | 0x00002de0
-`RfxVmtRegisterForVmTerminatedNotification` | 15 (0xf) | Exported Function | 0x10002ed0 | 0x00002ed0
-`RfxVmtReadChannelAndCache` | 14 (0xe) | Exported Function | 0x10001fd0 | 0x00001fd0
-`RfxVmtReadChannel` | 13 (0xd) | Exported Function | 0x10001de0 | 0x00001de0
-`RfxVmtPauseLibrary` | 12 (0xc) | Exported Function | 0x10002a30 | 0x00002a30
-`RfxVmtVWriteChannel` | 20 (0x14) | Exported Function | 0x10002240 | 0x00002240
-`RfxVmtIsWriteDataConsumed` | 11 (0xb) | Exported Function | 0x10002400 | 0x00002400
-`RfxVmtGetDataAvailableEvent` | 9 (0x9) | Exported Function | 0x100024e0 | 0x000024e0
-`RfxVmtGetChannelStatus` | 8 (0x8) | Exported Function | 0x100025f0 | 0x000025f0
-`RfxVmtEnableLibrary` | 7 (0x7) | Exported Function | 0x100026d0 | 0x000026d0
-`RfxVmtDisableLibrary` | 6 (0x6) | Exported Function | 0x10002710 | 0x00002710
-`RfxVmtCreateChannelCancelable` | 5 (0x5) | Exported Function | 0x10001aa0 | 0x00001aa0
-`RfxVmtCreateChannel` | 4 (0x4) | Exported Function | 0x10001a80 | 0x00001a80
-`RfxVmtCloseChannel` | 3 (0x3) | Exported Function | 0x10001d50 | 0x00001d50
-`RfxVmtCancelCreateChannel` | 2 (0x2) | Exported Function | 0x10001ca0 | 0x00001ca0
-`RfxVmtGetVramDescriptor` | 10 (0xa) | Exported Function | 0x10002790 | 0x00002790
-`RfxVmtWriteChannel` | 21 (0x15) | Exported Function | 0x100021d0 | 0x000021d0
+Function Name | Ordinal | Type
+-- | -- | --
+`RfxVmtRegisterForVmTerminatedNotification` | 15 | Exported Function
+`RfxVmtReleaseSharedBuffer` | 16 | Exported Function
+`RfxVmtReadChannelAndCache` | 14 | Exported Function
+`RfxVmtPauseLibrary` | 12 | Exported Function
+`RfxVmtReadChannel` | 13 | Exported Function
+`RfxVmtVWriteChannel` | 20 | Exported Function
+`RfxVmtWriteChannel` | 21 | Exported Function
+`RfxVmtShareBuffer` | 19 | Exported Function
+`RfxVmtResumeLibrary` | 17 | Exported Function
+`RfxVmtRevokeSharedBuffer` | 18 | Exported Function
+`RfxVmtIsWriteDataConsumed` | 11 | Exported Function
+`RfxVmtCreateChannel` | 4 | Exported Function
+`RfxVmtCreateChannelCancelable` | 5 | Exported Function
+`RfxVmtCloseChannel` | 3 | Exported Function
+`RfxVmtAcquireSharedBuffer` | 1 | Exported Function
+`RfxVmtCancelCreateChannel` | 2 | Exported Function
+`RfxVmtGetDataAvailableEvent` | 9 | Exported Function
+`RfxVmtGetVramDescriptor` | 10 | Exported Function
+`RfxVmtGetChannelStatus` | 8 | Exported Function
+`RfxVmtDisableLibrary` | 6 | Exported Function
+`RfxVmtEnableLibrary` | 7 | Exported Function
 
 
 ## Signature

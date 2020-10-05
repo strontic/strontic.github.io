@@ -24,28 +24,28 @@ PE256 | `6385FB3128F95FBCE1D8CCE96DE23F734503F49A4903D87DB12654685B712B37`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AppRegEnum` | 13 (0xd) | Exported Function | 0x00000001800035a0 | 0x000035a0
-`SetActionName` | 12 (0xc) | Exported Function | 0x0000000180001590 | 0x00001590
-`SetActionLogModeSz` | 8 (0x8) | Exported Function | 0x0000000180002ca0 | 0x00002ca0
-`SetActionLogMode` | 9 (0x9) | Exported Function | 0x0000000180002d00 | 0x00002d00
-`SetActionLogFile` | 7 (0x7) | Exported Function | 0x0000000180002c50 | 0x00002c50
-`SetActionEnum` | 11 (0xb) | Exported Function | 0x00000001800014c0 | 0x000014c0
-`RunDLL32_UnregisterApplication` | 20 (0x14) | Exported Function | 0x0000000180003520 | 0x00003520
-`RunDLL32_RegisterApplication` | 19 (0x13) | Exported Function | 0x0000000180003520 | 0x00003520
-`RegisterApplication` | 18 (0x12) | Exported Function | 0x0000000180003530 | 0x00003530
-`RefreshAppRegEnum` | 17 (0x11) | Exported Function | 0x0000000180003530 | 0x00003530
-`QueryApplication` | 16 (0x10) | Exported Function | 0x0000000180003540 | 0x00003540
-`OpenAppRegEnum` | 15 (0xf) | Exported Function | 0x0000000180003520 | 0x00003520
-`ExecuteAction` | 10 (0xa) | Exported Function | 0x0000000180001660 | 0x00001660
-`DllUnregisterServer` | 25 (0x19) | Exported Function | 0x0000000180003520 | 0x00003520
-`DllRegisterServer` | 24 (0x18) | Exported Function | 0x0000000180003520 | 0x00003520
-`DllGetClassObject` | 23 (0x17) | Exported Function | 0x0000000180003600 | 0x00003600
-`DllCanUnloadNow` | 22 (0x16) | Exported Function | 0x00000001800035d0 | 0x000035d0
-`CloseAppRegEnum` | 14 (0xe) | Exported Function | 0x0000000180003530 | 0x00003530
-`SetSilent` | 6 (0x6) | Exported Function | 0x0000000180002c40 | 0x00002c40
-`UnregisterApplication` | 21 (0x15) | Exported Function | 0x0000000180003530 | 0x00003530
+Function Name | Ordinal | Type
+-- | -- | --
+`SetActionEnum` | 11 | Exported Function
+`SetActionLogFile` | 7 | Exported Function
+`RunDLL32_UnregisterApplication` | 20 | Exported Function
+`RegisterApplication` | 18 | Exported Function
+`RunDLL32_RegisterApplication` | 19 | Exported Function
+`SetSilent` | 6 | Exported Function
+`UnregisterApplication` | 21 | Exported Function
+`SetActionName` | 12 | Exported Function
+`SetActionLogMode` | 9 | Exported Function
+`SetActionLogModeSz` | 8 | Exported Function
+`DllGetClassObject` | 23 | Exported Function
+`DllRegisterServer` | 24 | Exported Function
+`DllCanUnloadNow` | 22 | Exported Function
+`AppRegEnum` | 13 | Exported Function
+`CloseAppRegEnum` | 14 | Exported Function
+`QueryApplication` | 16 | Exported Function
+`RefreshAppRegEnum` | 17 | Exported Function
+`OpenAppRegEnum` | 15 | Exported Function
+`DllUnregisterServer` | 25 | Exported Function
+`ExecuteAction` | 10 | Exported Function
 
 
 ## Signature

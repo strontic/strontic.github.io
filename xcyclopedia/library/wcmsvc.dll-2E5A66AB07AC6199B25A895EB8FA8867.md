@@ -24,13 +24,13 @@ PE256 | `BA48BFE1D411903A28774458C7B1A1AE39E9D4534D1A29136342A149C16E42DE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CdeGetProfileList` | 1 (0x1) | Exported Function | 0x000000018004fee0 | 0x0004fee0
-`CdeQueryParameter` | 2 (0x2) | Exported Function | 0x0000000180002830 | 0x00002830
-`CdeSetParameter` | 3 (0x3) | Exported Function | 0x00000001800536c0 | 0x000536c0
-`SvchostPushServiceGlobals` | 4 (0x4) | Exported Function | 0x00000001800455b0 | 0x000455b0
-`WcmSvcMain` | 5 (0x5) | Exported Function | 0x00000001800455c0 | 0x000455c0
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 4 | Exported Function
+`WcmSvcMain` | 5 | Exported Function
+`CdeSetParameter` | 3 | Exported Function
+`CdeGetProfileList` | 1 | Exported Function
+`CdeQueryParameter` | 2 | Exported Function
 
 
 ## Signature

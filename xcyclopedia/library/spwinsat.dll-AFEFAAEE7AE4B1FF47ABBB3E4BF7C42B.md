@@ -24,9 +24,9 @@ PE256 | `4726B6416F7EEE0430419996C4CA9D684D2A71EDBCDB20DA0ECB9186F6FA9FBA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Sysprep_Clean_WinSAT` | 1 (0x1) | Exported Function | 0x10001e70 | 0x00001e70
+Function Name | Ordinal | Type
+-- | -- | --
+`Sysprep_Clean_WinSAT` | 1 | Exported Function
 
 
 ## Signature

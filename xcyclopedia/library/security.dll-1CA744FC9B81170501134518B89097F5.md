@@ -24,44 +24,44 @@ PE256 | `6A42FB76548E6C991F4E2450C0102C2299CDFC0005CF1E3A5488E6E05D516B69`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AcceptSecurityContext` | 1 (0x1) | Exported Function | SECUR32.AcceptSecurityContext | 0x00001213
-`InitializeSecurityContextA` | 23 (0x17) | Exported Function | SECUR32.InitializeSecurityContextA | 0x0000168e
-`InitializeSecurityContextW` | 24 (0x18) | Exported Function | SECUR32.InitializeSecurityContextW | 0x000016cc
-`InitSecurityInterfaceA` | 21 (0x15) | Exported Function | SECUR32.InitSecurityInterfaceA | 0x0000161e
-`InitSecurityInterfaceW` | 22 (0x16) | Exported Function | SECUR32.InitSecurityInterfaceW | 0x00001654
-`MakeSignature` | 25 (0x19) | Exported Function | SECUR32.MakeSignature | 0x000016fd
-`QueryContextAttributesA` | 26 (0x1a) | Exported Function | SECUR32.QueryContextAttributesA | 0x0000172b
-`ImportSecurityContextW` | 20 (0x14) | Exported Function | SECUR32.ImportSecurityContextW | 0x000015e8
-`QueryContextAttributesW` | 27 (0x1b) | Exported Function | SECUR32.QueryContextAttributesW | 0x00001763
-`QueryCredentialsAttributesW` | 29 (0x1d) | Exported Function | SECUR32.QueryCredentialsAttributesW | 0x000017df
-`QuerySecurityContextToken` | 30 (0x1e) | Exported Function | SECUR32.QuerySecurityContextToken | 0x0000181d
-`QuerySecurityPackageInfoA` | 31 (0x1f) | Exported Function | SECUR32.QuerySecurityPackageInfoA | 0x00001859
-`QuerySecurityPackageInfoW` | 32 (0x20) | Exported Function | SECUR32.QuerySecurityPackageInfoW | 0x00001895
-`RevertSecurityContext` | 33 (0x21) | Exported Function | SECUR32.RevertSecurityContext | 0x000018cd
-`SealMessage` | 34 (0x22) | Exported Function | SECUR32.EncryptMessage | 0x000018f7
-`QueryCredentialsAttributesA` | 28 (0x1c) | Exported Function | SECUR32.QueryCredentialsAttributesA | 0x0000179f
-`ImportSecurityContextA` | 19 (0x13) | Exported Function | SECUR32.ImportSecurityContextA | 0x000015b2
-`ImpersonateSecurityContext` | 18 (0x12) | Exported Function | SECUR32.ImpersonateSecurityContext | 0x00001578
-`FreeCredentialsHandle` | 17 (0x11) | Exported Function | SECUR32.FreeCredentialsHandle | 0x0000153f
-`AcquireCredentialsHandleA` | 2 (0x2) | Exported Function | SECUR32.AcquireCredentialsHandleA | 0x0000124b
-`AcquireCredentialsHandleW` | 3 (0x3) | Exported Function | SECUR32.AcquireCredentialsHandleW | 0x00001287
-`AddSecurityPackageA` | 4 (0x4) | Exported Function | SECUR32.AddSecurityPackageA | 0x000012bd
-`AddSecurityPackageW` | 5 (0x5) | Exported Function | SECUR32.AddSecurityPackageW | 0x000012ed
-`ApplyControlToken` | 6 (0x6) | Exported Function | SECUR32.ApplyControlToken | 0x0000131b
-`CompleteAuthToken` | 7 (0x7) | Exported Function | SECUR32.CompleteAuthToken | 0x00001347
-`DecryptMessage` | 8 (0x8) | Exported Function | SECUR32.DecryptMessage | 0x00001370
-`DeleteSecurityContext` | 9 (0x9) | Exported Function | SECUR32.DeleteSecurityContext | 0x0000139d
-`DeleteSecurityPackageA` | 10 (0xa) | Exported Function | SECUR32.DeleteSecurityPackageA | 0x000013d2
-`DeleteSecurityPackageW` | 11 (0xb) | Exported Function | SECUR32.DeleteSecurityPackageW | 0x00001408
-`EncryptMessage` | 12 (0xc) | Exported Function | SECUR32.EncryptMessage | 0x00001436
-`EnumerateSecurityPackagesA` | 13 (0xd) | Exported Function | SECUR32.EnumerateSecurityPackagesA | 0x00001468
-`EnumerateSecurityPackagesW` | 14 (0xe) | Exported Function | SECUR32.EnumerateSecurityPackagesW | 0x000014a6
-`ExportSecurityContext` | 15 (0xf) | Exported Function | SECUR32.ExportSecurityContext | 0x000014df
-`FreeContextBuffer` | 16 (0x10) | Exported Function | SECUR32.FreeContextBuffer | 0x0000150f
-`UnsealMessage` | 35 (0x23) | Exported Function | SECUR32.DecryptMessage | 0x0000191c
-`VerifySignature` | 36 (0x24) | Exported Function | SECUR32.VerifySignature | 0x00001943
+Function Name | Ordinal | Type
+-- | -- | --
+`MakeSignature` | 25 | Exported Function
+`InitSecurityInterfaceW` | 22 | Exported Function
+`QueryContextAttributesW` | 27 | Exported Function
+`QueryContextAttributesA` | 26 | Exported Function
+`InitSecurityInterfaceA` | 21 | Exported Function
+`ImportSecurityContextW` | 20 | Exported Function
+`ImportSecurityContextA` | 19 | Exported Function
+`InitializeSecurityContextW` | 24 | Exported Function
+`InitializeSecurityContextA` | 23 | Exported Function
+`SealMessage` | 34 | Exported Function
+`RevertSecurityContext` | 33 | Exported Function
+`VerifySignature` | 36 | Exported Function
+`UnsealMessage` | 35 | Exported Function
+`QuerySecurityPackageInfoW` | 32 | Exported Function
+`QueryCredentialsAttributesW` | 29 | Exported Function
+`QueryCredentialsAttributesA` | 28 | Exported Function
+`QuerySecurityPackageInfoA` | 31 | Exported Function
+`QuerySecurityContextToken` | 30 | Exported Function
+`CompleteAuthToken` | 7 | Exported Function
+`ApplyControlToken` | 6 | Exported Function
+`DeleteSecurityContext` | 9 | Exported Function
+`DecryptMessage` | 8 | Exported Function
+`AddSecurityPackageW` | 5 | Exported Function
+`AcquireCredentialsHandleA` | 2 | Exported Function
+`AcceptSecurityContext` | 1 | Exported Function
+`AddSecurityPackageA` | 4 | Exported Function
+`AcquireCredentialsHandleW` | 3 | Exported Function
+`FreeContextBuffer` | 16 | Exported Function
+`ExportSecurityContext` | 15 | Exported Function
+`ImpersonateSecurityContext` | 18 | Exported Function
+`FreeCredentialsHandle` | 17 | Exported Function
+`EnumerateSecurityPackagesW` | 14 | Exported Function
+`DeleteSecurityPackageW` | 11 | Exported Function
+`DeleteSecurityPackageA` | 10 | Exported Function
+`EnumerateSecurityPackagesA` | 13 | Exported Function
+`EncryptMessage` | 12 | Exported Function
 
 
 ## Signature
@@ -603,6 +603,7 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_eqgrp.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp.yar) | $s1 = "LP.c:pixSecurity - Improper number of bytes read in Security/Interface Information" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_eqgrp.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp.yar) | $s5 = "Printing the interface info and security levels. PIX ONLY." fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_eqgrp.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp.yar) | $s5 = "Security auditing has been disabled" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_iamtheking.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_iamtheking.yar) | $s2 = "Local Security Process" wide fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_keyboys.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_keyboys.yar) | Reference: http://www.pwc.co.uk/issues/cyber-security-data-privacy/research/the-keyboys-are-back-in-town.html | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_keyboys.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_keyboys.yar) | reference = "http://www.pwc.co.uk/issues/cyber-security-data-privacy/research/the-keyboys-are-back-in-town.html" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_keyboys.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_keyboys.yar) | reference = "https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-trooper-new-strategy/" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)

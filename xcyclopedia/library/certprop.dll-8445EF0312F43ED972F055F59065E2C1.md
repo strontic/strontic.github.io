@@ -24,11 +24,11 @@ PE256 | `0EC83919B40A7EE0E8FF8425F37E6CBD25649243F77AA95801D7C95F1CC12D76`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CertPropServiceMain` | 1 (0x1) | Exported Function | 0x0000000180003ac0 | 0x00003ac0
-`ScPolicyServiceMain` | 2 (0x2) | Exported Function | 0x0000000180010110 | 0x00010110
-`SvchostPushServiceGlobals` | 3 (0x3) | Exported Function | 0x0000000180004980 | 0x00004980
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 3 | Exported Function
+`ScPolicyServiceMain` | 2 | Exported Function
+`CertPropServiceMain` | 1 | Exported Function
 
 
 ## Signature

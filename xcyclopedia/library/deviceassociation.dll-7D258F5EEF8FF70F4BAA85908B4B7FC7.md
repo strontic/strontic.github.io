@@ -24,36 +24,36 @@ PE256 | `BD1582BC938FD6CF813036B200A9DE64438E8E0BB66D982D64CD2D5F662A53AC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DafAepExport` | 1 (0x1) | Exported Function | 0x10004940 | 0x00004940
-`DafStartReadCeremonyData` | 26 (0x1a) | Exported Function | 0x10003790 | 0x00003790
-`DafStartListenForInboundAssociations` | 25 (0x19) | Exported Function | 0x100052f0 | 0x000052f0
-`DafStartFinalize` | 24 (0x18) | Exported Function | 0x10003a40 | 0x00003a40
-`DafStartEnumCeremonies` | 23 (0x17) | Exported Function | 0x10003530 | 0x00003530
-`DafStartDeviceStatusNotification` | 22 (0x16) | Exported Function | 0x10003b80 | 0x00003b80
-`DafStartAepImport` | 21 (0x15) | Exported Function | 0x10004b30 | 0x00004b30
-`DafStartAepExport` | 20 (0x14) | Exported Function | 0x100049f0 | 0x000049f0
-`DafSelectCeremony` | 19 (0x13) | Exported Function | 0x10003680 | 0x00003680
-`DafRegisterForInboundAssociationsAppActivation` | 18 (0x12) | Exported Function | 0x10005500 | 0x00005500
-`DafMemFree` | 17 (0x11) | Exported Function | 0x100029e0 | 0x000029e0
-`DafGetInboundAssociationResultForAppActivation` | 16 (0x10) | Exported Function | 0x10005640 | 0x00005640
-`DafCreateInboundContext` | 15 (0xf) | Exported Function | 0x10004fa0 | 0x00004fa0
-`DafCreateImportExportContext` | 14 (0xe) | Exported Function | 0x10004570 | 0x00004570
-`DafCreateDeviceInterfaceChallengeContext` | 13 (0xd) | Exported Function | 0x10004200 | 0x00004200
-`DafCreateDeviceChallengeContext` | 12 (0xc) | Exported Function | 0x10003f60 | 0x00003f60
-`DafCreateChallengeContext` | 11 (0xb) | Exported Function | 0x10003ea0 | 0x00003ea0
-`DafCreateAssociationContextFromOobBlob` | 10 (0xa) | Exported Function | 0x10003410 | 0x00003410
-`DafCreateAssociationContextForApp` | 9 (0x9) | Exported Function | 0x10003330 | 0x00003330
-`DafCreateAssociationContext` | 8 (0x8) | Exported Function | 0x10003300 | 0x00003300
-`DafCloseInboundContext` | 7 (0x7) | Exported Function | 0x10005470 | 0x00005470
-`DafCloseImportExportContext` | 6 (0x6) | Exported Function | 0x10004c70 | 0x00004c70
-`DafCloseChallengeContext` | 5 (0x5) | Exported Function | 0x10004490 | 0x00004490
-`DafCloseAssociationContext` | 4 (0x4) | Exported Function | 0x10003e10 | 0x00003e10
-`DafChallengeDevicePresence` | 3 (0x3) | Exported Function | 0x10004360 | 0x00004360
-`DafAepImport` | 2 (0x2) | Exported Function | 0x10004890 | 0x00004890
-`DafStartRemoveAssociation` | 27 (0x1b) | Exported Function | 0x10003cd0 | 0x00003cd0
-`DafStartWriteCeremonyData` | 28 (0x1c) | Exported Function | 0x100038e0 | 0x000038e0
+Function Name | Ordinal | Type
+-- | -- | --
+`DafSelectCeremony` | 19 | Exported Function
+`DafStartAepExport` | 20 | Exported Function
+`DafStartAepImport` | 21 | Exported Function
+`DafRegisterForInboundAssociationsAppActivation` | 18 | Exported Function
+`DafCreateInboundContext` | 15 | Exported Function
+`DafGetInboundAssociationResultForAppActivation` | 16 | Exported Function
+`DafMemFree` | 17 | Exported Function
+`DafStartReadCeremonyData` | 26 | Exported Function
+`DafStartRemoveAssociation` | 27 | Exported Function
+`DafStartWriteCeremonyData` | 28 | Exported Function
+`DafStartListenForInboundAssociations` | 25 | Exported Function
+`DafStartDeviceStatusNotification` | 22 | Exported Function
+`DafStartEnumCeremonies` | 23 | Exported Function
+`DafStartFinalize` | 24 | Exported Function
+`DafCloseChallengeContext` | 5 | Exported Function
+`DafCloseImportExportContext` | 6 | Exported Function
+`DafCloseInboundContext` | 7 | Exported Function
+`DafCloseAssociationContext` | 4 | Exported Function
+`DafAepExport` | 1 | Exported Function
+`DafAepImport` | 2 | Exported Function
+`DafChallengeDevicePresence` | 3 | Exported Function
+`DafCreateDeviceChallengeContext` | 12 | Exported Function
+`DafCreateDeviceInterfaceChallengeContext` | 13 | Exported Function
+`DafCreateImportExportContext` | 14 | Exported Function
+`DafCreateChallengeContext` | 11 | Exported Function
+`DafCreateAssociationContext` | 8 | Exported Function
+`DafCreateAssociationContextForApp` | 9 | Exported Function
+`DafCreateAssociationContextFromOobBlob` | 10 | Exported Function
 
 
 ## Signature

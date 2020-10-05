@@ -24,12 +24,12 @@ PE256 | `F9E0ADA55D37B2F387C2C47CAED1D058EC29C73CED3D6348026434E027C66AFF`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x00000001641c24b0 | 0x000024b0
-`FaxMonitorShutdown` | 2 (0x2) | Exported Function | 0x00000001641c1670 | 0x00001670
-`FaxMonitorStartup` | 3 (0x3) | Exported Function | 0x00000001641c1640 | 0x00001640
-`IsFaxMessage` | 4 (0x4) | Exported Function | 0x00000001641c16b0 | 0x000016b0
+Function Name | Ordinal | Type
+-- | -- | --
+`FaxMonitorStartup` | 3 | Exported Function
+`IsFaxMessage` | 4 | Exported Function
+`DllMain` | 1 | Exported Function
+`FaxMonitorShutdown` | 2 | Exported Function
 
 
 ## Signature

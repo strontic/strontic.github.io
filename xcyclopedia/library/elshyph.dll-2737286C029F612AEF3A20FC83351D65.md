@@ -24,13 +24,13 @@ PE256 | `618C5C2E99AF7CF042E9C7B50480EBF61A9B290C2DAC735D249165C850072A29`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DoAction` | 1 (0x1) | Exported Function | 0x1000db50 | 0x0000db50
-`FreePropertyBag` | 2 (0x2) | Exported Function | 0x1000dad0 | 0x0000dad0
-`FreeService` | 3 (0x3) | Exported Function | 0x1000db60 | 0x0000db60
-`InitService` | 4 (0x4) | Exported Function | 0x1000d620 | 0x0000d620
-`RecognizeText` | 5 (0x5) | Exported Function | 0x1000d710 | 0x0000d710
+Function Name | Ordinal | Type
+-- | -- | --
+`InitService` | 4 | Exported Function
+`RecognizeText` | 5 | Exported Function
+`FreeService` | 3 | Exported Function
+`DoAction` | 1 | Exported Function
+`FreePropertyBag` | 2 | Exported Function
 
 
 ## Signature

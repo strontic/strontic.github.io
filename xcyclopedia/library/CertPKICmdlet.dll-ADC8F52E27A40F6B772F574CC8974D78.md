@@ -24,22 +24,22 @@ PE256 | `2F72671E9F7D6B08373590C9F18CDAB9D79B5F9C3C5D596F93739963388574ED`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 5 (0x5) | Exported Function | 0x00000001800089d0 | 0x000089d0
-`ExportCertificate` | 6 (0x6) | Exported Function | 0x0000000180008490 | 0x00008490
-`ExportPFXCertificate` | 7 (0x7) | Exported Function | 0x0000000180007540 | 0x00007540
-`FindCertificate` | 1 (0x1) | Exported Function | 0x00000001800093b0 | 0x000093b0
-`FreeCertResults` | 8 (0x8) | Exported Function | 0x0000000180006bd0 | 0x00006bd0
-`FreeResourceString` | 9 (0x9) | Exported Function | 0x0000000180008ab0 | 0x00008ab0
-`GetCertificateFromEnrollmentInternal` | 10 (0xa) | Exported Function | 0x00000001800094c0 | 0x000094c0
-`ImportCertificate` | 11 (0xb) | Exported Function | 0x00000001800080f0 | 0x000080f0
-`ImportPFXCertificate` | 12 (0xc) | Exported Function | 0x0000000180006720 | 0x00006720
-`IsSecureKernelRunning` | 13 (0xd) | Exported Function | 0x0000000180009a70 | 0x00009a70
-`IsSmartCard` | 2 (0x2) | Exported Function | 0x0000000180009840 | 0x00009840
-`LoadResourceString` | 14 (0xe) | Exported Function | 0x0000000180008a60 | 0x00008a60
-`SuppressFreeCert` | 3 (0x3) | Exported Function | 0x00000001800097c0 | 0x000097c0
-`SuppressFreeStore` | 4 (0x4) | Exported Function | 0x00000001800097f0 | 0x000097f0
+Function Name | Ordinal | Type
+-- | -- | --
+`IsSecureKernelRunning` | 13 | Exported Function
+`ImportPFXCertificate` | 12 | Exported Function
+`ImportCertificate` | 11 | Exported Function
+`IsSmartCard` | 2 | Exported Function
+`SuppressFreeStore` | 4 | Exported Function
+`SuppressFreeCert` | 3 | Exported Function
+`LoadResourceString` | 14 | Exported Function
+`ExportPFXCertificate` | 7 | Exported Function
+`ExportCertificate` | 6 | Exported Function
+`DllMain` | 5 | Exported Function
+`FindCertificate` | 1 | Exported Function
+`GetCertificateFromEnrollmentInternal` | 10 | Exported Function
+`FreeResourceString` | 9 | Exported Function
+`FreeCertResults` | 8 | Exported Function
 
 
 ## Signature

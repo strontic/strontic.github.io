@@ -24,16 +24,16 @@ PE256 | `B3F67B1AA37EE270AB44D77F527D5BE3CB1160DFF08A02D462506AD36BC0CE92`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CompileSchemaToWMI` | 5 (0x5) | Exported Function | 0x0000000180001e40 | 0x00001e40
-`CreateRegisterParameter` | 6 (0x6) | Exported Function | 0x0000000180004830 | 0x00004830
-`GetProviderSchema` | 7 (0x7) | Exported Function | 0x0000000180001ca0 | 0x00001ca0
-`GetProviderSchemaFile` | 8 (0x8) | Exported Function | 0x0000000180001f10 | 0x00001f10
-`public: __cdecl MIFree::MIFree(void * __ptr64) __ptr64` | 1 (0x1) | Exported Function | 0x0000000180001c30 | 0x00001c30
-`public: __cdecl MIFree::~MIFree(void) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180001c40 | 0x00001c40
-`public: class MIServer & __ptr64 __cdecl MIServer::operator=(class MIServer && __ptr64) __ptr64` | 3 (0x3) | Exported Function | 0x0000000180001300 | 0x00001300
-`public: class MIServer & __ptr64 __cdecl MIServer::operator=(class MIServer const & __ptr64) __ptr64` | 4 (0x4) | Exported Function | 0x0000000180001290 | 0x00001290
+Function Name | Ordinal | Type
+-- | -- | --
+`public: __cdecl MIFree::~MIFree(void) __ptr64` | 2 | Exported Function
+`public: __cdecl MIFree::MIFree(void * __ptr64) __ptr64` | 1 | Exported Function
+`public: class MIServer & __ptr64 __cdecl MIServer::operator=(class MIServer const & __ptr64) __ptr64` | 4 | Exported Function
+`public: class MIServer & __ptr64 __cdecl MIServer::operator=(class MIServer && __ptr64) __ptr64` | 3 | Exported Function
+`CreateRegisterParameter` | 6 | Exported Function
+`CompileSchemaToWMI` | 5 | Exported Function
+`GetProviderSchemaFile` | 8 | Exported Function
+`GetProviderSchema` | 7 | Exported Function
 
 
 ## Signature

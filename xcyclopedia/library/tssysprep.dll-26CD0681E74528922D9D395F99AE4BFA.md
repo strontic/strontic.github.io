@@ -24,21 +24,21 @@ PE256 | `2A166221F7CC546103F44715A8DC55D82159A5A4A6B83D8C09DFDC9D6D11A976`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AppsrvSysPrepGeneralize` | 1 (0x1) | Exported Function | 0x10004c60 | 0x00004c60
-`AppsrvSysPrepSpecializeOffline` | 2 (0x2) | Exported Function | 0x10004d10 | 0x00004d10
-`AppsrvSysPrepSpecializeOnline` | 3 (0x3) | Exported Function | 0x10004e10 | 0x00004e10
-`CBrokerSysPrepGeneralize` | 4 (0x4) | Exported Function | 0x100051c0 | 0x000051c0
-`CBrokerSysPrepSpecializeOffline` | 5 (0x5) | Exported Function | 0x10005270 | 0x00005270
-`CBrokerSysPrepSpecializeOnline` | 6 (0x6) | Exported Function | 0x10005370 | 0x00005370
-`LSMSysPrepBackup` | 7 (0x7) | Exported Function | 0x10003e10 | 0x00003e10
-`LSMSysPrepRestoreOffline` | 8 (0x8) | Exported Function | 0x10003f00 | 0x00003f00
-`LSMSysPrepRestoreOnline` | 9 (0x9) | Exported Function | 0x10004000 | 0x00004000
-`RCMSysPrepGeneralize` | 10 (0xa) | Exported Function | 0x100040e0 | 0x000040e0
-`RdpSysPrepGeneralize` | 11 (0xb) | Exported Function | 0x100044f0 | 0x000044f0
-`RdpSysPrepRestoreOffline` | 12 (0xc) | Exported Function | 0x10004350 | 0x00004350
-`RdpSysPrepRestoreOnline` | 13 (0xd) | Exported Function | 0x100041c0 | 0x000041c0
+Function Name | Ordinal | Type
+-- | -- | --
+`RCMSysPrepGeneralize` | 10 | Exported Function
+`LSMSysPrepRestoreOnline` | 9 | Exported Function
+`LSMSysPrepRestoreOffline` | 8 | Exported Function
+`RdpSysPrepRestoreOnline` | 13 | Exported Function
+`RdpSysPrepRestoreOffline` | 12 | Exported Function
+`RdpSysPrepGeneralize` | 11 | Exported Function
+`LSMSysPrepBackup` | 7 | Exported Function
+`AppsrvSysPrepSpecializeOnline` | 3 | Exported Function
+`AppsrvSysPrepSpecializeOffline` | 2 | Exported Function
+`AppsrvSysPrepGeneralize` | 1 | Exported Function
+`CBrokerSysPrepSpecializeOnline` | 6 | Exported Function
+`CBrokerSysPrepSpecializeOffline` | 5 | Exported Function
+`CBrokerSysPrepGeneralize` | 4 | Exported Function
 
 
 ## Signature

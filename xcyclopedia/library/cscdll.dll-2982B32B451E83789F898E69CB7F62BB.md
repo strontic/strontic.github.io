@@ -24,26 +24,26 @@ PE256 | `20792ACF24E397B26BEDF98E213C9B5F73F347A48DE0E3F7CA60A45EAAF18B69`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CSCDeleteW` | 45 (0x2d) | Exported Function | 0x0000000180002280 | 0x00002280
-`CSCTransitionPathOnline` | 76 (0x4c) | Exported Function | 0x0000000180003080 | 0x00003080
-`CSCSetMaxSpace` | 11 (0xb) | Exported Function | 0x0000000180003000 | 0x00003000
-`CSCQueryFileStatusW` | 42 (0x2a) | Exported Function | 0x0000000180002f70 | 0x00002f70
-`CSCPinFileW` | 40 (0x28) | Exported Function | 0x0000000180002ec0 | 0x00002ec0
-`CSCIsServerOfflineW` | 50 (0x32) | Exported Function | 0x0000000180002d40 | 0x00002d40
-`CSCIsPathOffline` | 75 (0x4b) | Exported Function | 0x0000000180002c90 | 0x00002c90
-`CSCIsCSCEnabled` | 9 (0x9) | Exported Function | 0x0000000180002bf0 | 0x00002bf0
-`CSCFindNextFileW` | 44 (0x2c) | Exported Function | 0x0000000180002be0 | 0x00002be0
-`CSCFindFirstFileW` | 43 (0x2b) | Exported Function | 0x0000000180002b00 | 0x00002b00
-`CSCFindFirstFileForSidW` | 60 (0x3c) | Exported Function | 0x0000000180002a10 | 0x00002a10
-`CSCFindClose` | 10 (0xa) | Exported Function | 0x00000001800029a0 | 0x000029a0
-`CSCEnumForStatsW` | 49 (0x31) | Exported Function | 0x00000001800023e0 | 0x000023e0
-`CSCEnumForStatsExW` | 55 (0x37) | Exported Function | 0x00000001800023e0 | 0x000023e0
-`CSCDoEnableDisable` | 14 (0xe) | Exported Function | 0x0000000180002360 | 0x00002360
-`CSCDisconnectPath` | 73 (0x49) | Exported Function | 0x00000001800022f0 | 0x000022f0
-`CSCTransitionServerOnlineW` | 52 (0x34) | Exported Function | 0x00000001800030f0 | 0x000030f0
-`CSCUnpinFileW` | 41 (0x29) | Exported Function | 0x0000000180003100 | 0x00003100
+Function Name | Ordinal | Type
+-- | -- | --
+`CSCIsServerOfflineW` | 50 | Exported Function
+`CSCPinFileW` | 40 | Exported Function
+`CSCIsCSCEnabled` | 9 | Exported Function
+`CSCIsPathOffline` | 75 | Exported Function
+`CSCQueryFileStatusW` | 42 | Exported Function
+`CSCTransitionServerOnlineW` | 52 | Exported Function
+`CSCUnpinFileW` | 41 | Exported Function
+`CSCSetMaxSpace` | 11 | Exported Function
+`CSCTransitionPathOnline` | 76 | Exported Function
+`CSCDoEnableDisable` | 14 | Exported Function
+`CSCEnumForStatsExW` | 55 | Exported Function
+`CSCDeleteW` | 45 | Exported Function
+`CSCDisconnectPath` | 73 | Exported Function
+`CSCEnumForStatsW` | 49 | Exported Function
+`CSCFindFirstFileW` | 43 | Exported Function
+`CSCFindNextFileW` | 44 | Exported Function
+`CSCFindClose` | 10 | Exported Function
+`CSCFindFirstFileForSidW` | 60 | Exported Function
 
 
 ## Signature

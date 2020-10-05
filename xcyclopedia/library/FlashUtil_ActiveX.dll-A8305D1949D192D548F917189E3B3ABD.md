@@ -24,9 +24,9 @@ PE256 | `DC260C6F6A0B43DEB7E2831D2D4C41CED5519014EE371E8914689A55628F1FCD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Start` | 1 (0x1) | Exported Function | 0x0000000180027b40 | 0x00027b40
+Function Name | Ordinal | Type
+-- | -- | --
+`Start` | 1 | Exported Function
 
 
 ## Signature

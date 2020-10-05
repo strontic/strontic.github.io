@@ -24,10 +24,10 @@ PE256 | `C6379E364DA2F897E2448668DFEBE20F444FC100AA7D6D91F6D5A09085F2B52D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SortCloseHandle` | 1 (0x1) | Exported Function | 0x000000018000cbf0 | 0x0000cbf0
-`SortGetHandle` | 2 (0x2) | Exported Function | 0x000000018000c9e0 | 0x0000c9e0
+Function Name | Ordinal | Type
+-- | -- | --
+`SortGetHandle` | 2 | Exported Function
+`SortCloseHandle` | 1 | Exported Function
 
 
 ## Signature

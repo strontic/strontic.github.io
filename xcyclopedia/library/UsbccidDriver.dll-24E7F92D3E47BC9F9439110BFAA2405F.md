@@ -24,9 +24,9 @@ PE256 | `F87C94931C51A730DF9D3011F88AD587393D76F9E380DAE3644FE9BBDE750EF1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`FxDriverEntryUm` | 1 (0x1) | Exported Function | 0x000000018000ba70 | 0x0000ba70
+Function Name | Ordinal | Type
+-- | -- | --
+`FxDriverEntryUm` | 1 | Exported Function
 
 
 ## Signature

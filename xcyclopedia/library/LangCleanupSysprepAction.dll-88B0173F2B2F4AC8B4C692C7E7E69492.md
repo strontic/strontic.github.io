@@ -24,9 +24,9 @@ PE256 | `EB024F2CBA4C05D369BFCDE806E7DFC0DA858DEB3CB4A01A6F46EA380B4637C4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`Sysprep_Generalize_MUILangCleanup` | 1 (0x1) | Exported Function | 0x0000000180001b90 | 0x00001b90
+Function Name | Ordinal | Type
+-- | -- | --
+`Sysprep_Generalize_MUILangCleanup` | 1 | Exported Function
 
 
 ## Signature

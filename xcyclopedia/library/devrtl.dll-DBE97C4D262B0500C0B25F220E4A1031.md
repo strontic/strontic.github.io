@@ -24,37 +24,37 @@ PE256 | `A27942523C1306656E63E7D0F3A7DC0B6064CDB351606CE573405B4AA059586A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DevRtlCloseTextLogSection` | 1 (0x1) | Exported Function | 0x00000001800076f0 | 0x000076f0
-`NdxTableSetObjectPointer` | 27 (0x1b) | Exported Function | 0x0000000180003af0 | 0x00003af0
-`NdxTableRemoveObjectFromList` | 26 (0x1a) | Exported Function | 0x0000000180003a10 | 0x00003a10
-`NdxTableRemoveObject` | 25 (0x19) | Exported Function | 0x0000000180003970 | 0x00003970
-`NdxTableOpen` | 24 (0x18) | Exported Function | 0x00000001800046d0 | 0x000046d0
-`NdxTableObjectFromPointer` | 23 (0x17) | Exported Function | 0x0000000180003870 | 0x00003870
-`NdxTableObjectFromName` | 22 (0x16) | Exported Function | 0x00000001800037b0 | 0x000037b0
-`NdxTableNextObject` | 21 (0x15) | Exported Function | 0x0000000180003720 | 0x00003720
-`NdxTableGetPropertyValue` | 20 (0x14) | Exported Function | 0x00000001800035a0 | 0x000035a0
-`NdxTableGetPropertyTypeName` | 19 (0x13) | Exported Function | 0x00000001800051a0 | 0x000051a0
-`NdxTableGetPropertyTypeCount` | 18 (0x12) | Exported Function | 0x0000000180005130 | 0x00005130
-`NdxTableGetPropertyTypeClass` | 17 (0x11) | Exported Function | 0x00000001800050a0 | 0x000050a0
-`NdxTableGetObjectTypeName` | 16 (0x10) | Exported Function | 0x0000000180004fd0 | 0x00004fd0
-`NdxTableSetPropertyValue` | 28 (0x1c) | Exported Function | 0x0000000180003bb0 | 0x00003bb0
-`NdxTableGetObjectTypeCount` | 15 (0xf) | Exported Function | 0x0000000180004f80 | 0x00004f80
-`NdxTableGetObjectName` | 13 (0xd) | Exported Function | 0x0000000180003410 | 0x00003410
-`NdxTableFirstObjectInList` | 12 (0xc) | Exported Function | 0x0000000180003330 | 0x00003330
-`NdxTableFirstObject` | 11 (0xb) | Exported Function | 0x00000001800032b0 | 0x000032b0
-`NdxTableClose` | 10 (0xa) | Exported Function | 0x0000000180004670 | 0x00004670
-`NdxTableAddObjectToList` | 9 (0x9) | Exported Function | 0x0000000180003180 | 0x00003180
-`NdxTableAddObject` | 8 (0x8) | Exported Function | 0x0000000180003000 | 0x00003000
-`DevRtlWriteTextLogError` | 7 (0x7) | Exported Function | 0x0000000180008020 | 0x00008020
-`DevRtlWriteTextLog` | 6 (0x6) | Exported Function | 0x0000000180007ff0 | 0x00007ff0
-`DevRtlSetThreadLogToken` | 5 (0x5) | Exported Function | 0x00000001800029e0 | 0x000029e0
-`DevRtlGetThreadLogToken` | 4 (0x4) | Exported Function | 0x00000001800029c0 | 0x000029c0
-`DevRtlCreateTextLogSectionW` | 3 (0x3) | Exported Function | 0x0000000180007ee0 | 0x00007ee0
-`DevRtlCreateTextLogSectionA` | 2 (0x2) | Exported Function | 0x00000001800078f0 | 0x000078f0
-`NdxTableGetObjectType` | 14 (0xe) | Exported Function | 0x0000000180003510 | 0x00003510
-`NdxTableSetTypeDefinition` | 29 (0x1d) | Exported Function | 0x0000000180005280 | 0x00005280
+Function Name | Ordinal | Type
+-- | -- | --
+`NdxTableGetPropertyValue` | 20 | Exported Function
+`NdxTableNextObject` | 21 | Exported Function
+`NdxTableObjectFromName` | 22 | Exported Function
+`NdxTableGetPropertyTypeName` | 19 | Exported Function
+`NdxTableGetObjectTypeName` | 16 | Exported Function
+`NdxTableGetPropertyTypeClass` | 17 | Exported Function
+`NdxTableGetPropertyTypeCount` | 18 | Exported Function
+`NdxTableSetObjectPointer` | 27 | Exported Function
+`NdxTableSetPropertyValue` | 28 | Exported Function
+`NdxTableSetTypeDefinition` | 29 | Exported Function
+`NdxTableRemoveObjectFromList` | 26 | Exported Function
+`NdxTableObjectFromPointer` | 23 | Exported Function
+`NdxTableOpen` | 24 | Exported Function
+`NdxTableRemoveObject` | 25 | Exported Function
+`NdxTableGetObjectTypeCount` | 15 | Exported Function
+`DevRtlSetThreadLogToken` | 5 | Exported Function
+`DevRtlWriteTextLog` | 6 | Exported Function
+`DevRtlWriteTextLogError` | 7 | Exported Function
+`DevRtlGetThreadLogToken` | 4 | Exported Function
+`DevRtlCloseTextLogSection` | 1 | Exported Function
+`DevRtlCreateTextLogSectionA` | 2 | Exported Function
+`DevRtlCreateTextLogSectionW` | 3 | Exported Function
+`NdxTableFirstObjectInList` | 12 | Exported Function
+`NdxTableGetObjectName` | 13 | Exported Function
+`NdxTableGetObjectType` | 14 | Exported Function
+`NdxTableFirstObject` | 11 | Exported Function
+`NdxTableAddObject` | 8 | Exported Function
+`NdxTableAddObjectToList` | 9 | Exported Function
+`NdxTableClose` | 10 | Exported Function
 
 
 ## Signature

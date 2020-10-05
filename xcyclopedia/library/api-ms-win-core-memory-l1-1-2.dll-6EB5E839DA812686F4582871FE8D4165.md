@@ -24,19 +24,19 @@ PE256 | `F5ABC54430876CE589C1D6AA17BA40005CE59607F43748D811AB7979943705FB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AllocateUserPhysicalPages` | 1 (0x1) | Exported Function | kernel32.dll.AllocateUserPhysicalPages | 0x000011f2
-`AllocateUserPhysicalPagesNuma` | 2 (0x2) | Exported Function | kernel32.dll.AllocateUserPhysicalPagesNuma | 0x00001237
-`DiscardVirtualMemory` | 3 (0x3) | Exported Function | kernel32.dll.DiscardVirtualMemory | 0x00001277
-`FreeUserPhysicalPages` | 4 (0x4) | Exported Function | kernel32.dll.FreeUserPhysicalPages | 0x000012af
-`GetMemoryErrorHandlingCapabilities` | 5 (0x5) | Exported Function | kernel32.dll.GetMemoryErrorHandlingCapabilities | 0x000012f5
-`MapUserPhysicalPages` | 6 (0x6) | Exported Function | kernel32.dll.MapUserPhysicalPages | 0x0000133a
-`OfferVirtualMemory` | 7 (0x7) | Exported Function | kernel32.dll.OfferVirtualMemory | 0x0000136f
-`ReclaimVirtualMemory` | 8 (0x8) | Exported Function | kernel32.dll.ReclaimVirtualMemory | 0x000013a4
-`RegisterBadMemoryNotification` | 9 (0x9) | Exported Function | kernel32.dll.RegisterBadMemoryNotification | 0x000013e4
-`UnregisterBadMemoryNotification` | 10 (0xa) | Exported Function | kernel32.dll.UnregisterBadMemoryNotification | 0x0000142f
-`VirtualAllocExNuma` | 11 (0xb) | Exported Function | kernel32.dll.VirtualAllocExNuma | 0x0000146f
+Function Name | Ordinal | Type
+-- | -- | --
+`ReclaimVirtualMemory` | 8 | Exported Function
+`OfferVirtualMemory` | 7 | Exported Function
+`RegisterBadMemoryNotification` | 9 | Exported Function
+`VirtualAllocExNuma` | 11 | Exported Function
+`UnregisterBadMemoryNotification` | 10 | Exported Function
+`MapUserPhysicalPages` | 6 | Exported Function
+`AllocateUserPhysicalPagesNuma` | 2 | Exported Function
+`AllocateUserPhysicalPages` | 1 | Exported Function
+`DiscardVirtualMemory` | 3 | Exported Function
+`GetMemoryErrorHandlingCapabilities` | 5 | Exported Function
+`FreeUserPhysicalPages` | 4 | Exported Function
 
 
 ## Signature

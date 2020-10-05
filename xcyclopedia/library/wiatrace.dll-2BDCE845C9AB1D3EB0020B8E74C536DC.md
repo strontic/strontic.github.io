@@ -24,16 +24,16 @@ PE256 | `E28F480C08C0FC65FEBB1F2EB0B65810962B50BCADBC5C6ABA035FF332461BD6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WIATRACE_DecrementIndentLevel` | 1 (0x1) | Exported Function | 0x00000001800033a0 | 0x000033a0
-`WIATRACE_GetIndentLevel` | 2 (0x2) | Exported Function | 0x0000000180001880 | 0x00001880
-`WIATRACE_GetTraceSettings` | 3 (0x3) | Exported Function | 0x00000001800018a0 | 0x000018a0
-`WIATRACE_IncrementIndentLevel` | 4 (0x4) | Exported Function | 0x00000001800033f0 | 0x000033f0
-`WIATRACE_Init` | 5 (0x5) | Exported Function | 0x00000001800019e0 | 0x000019e0
-`WIATRACE_OutputString` | 6 (0x6) | Exported Function | 0x00000001800011f0 | 0x000011f0
-`WIATRACE_SetTraceSettings` | 7 (0x7) | Exported Function | 0x0000000180001920 | 0x00001920
-`WIATRACE_Term` | 8 (0x8) | Exported Function | 0x00000001800019e0 | 0x000019e0
+Function Name | Ordinal | Type
+-- | -- | --
+`WIATRACE_OutputString` | 6 | Exported Function
+`WIATRACE_Init` | 5 | Exported Function
+`WIATRACE_Term` | 8 | Exported Function
+`WIATRACE_SetTraceSettings` | 7 | Exported Function
+`WIATRACE_GetIndentLevel` | 2 | Exported Function
+`WIATRACE_DecrementIndentLevel` | 1 | Exported Function
+`WIATRACE_IncrementIndentLevel` | 4 | Exported Function
+`WIATRACE_GetTraceSettings` | 3 | Exported Function
 
 
 ## Signature

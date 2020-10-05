@@ -24,15 +24,15 @@ PE256 | `3FEC43DD98C1369F0AF15FB73C40B7EDF3392BF73A78920ABCDBE4153038F289`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x1023cba0 | 0x0023cba0
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x1001cfd0 | 0x0001cfd0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x1023cbe0 | 0x0023cbe0
-`DllMain` | 4 (0x4) | Exported Function | 0x1002f170 | 0x0002f170
-`GetDependencyLocatorStorage` | 5 (0x5) | Exported Function | 0x1001d290 | 0x0001d290
-`SendTelemetryOnSuspend` | 6 (0x6) | Exported Function | 0x101702a0 | 0x001702a0
-`XamlTestHookFreeControlsResourceLibrary` | 7 (0x7) | Exported Function | 0x1023cda0 | 0x0023cda0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetDependencyLocatorStorage` | 5 | Exported Function
+`SendTelemetryOnSuspend` | 6 | Exported Function
+`XamlTestHookFreeControlsResourceLibrary` | 7 | Exported Function
+`DllMain` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

@@ -24,14 +24,14 @@ PE256 | `F0495CB56B5B0ABB38AC4E3A39292853D64792AB678E486DECCB13EC005E9C27`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`PAL_App2DeviceFindAllPeers` | 1 (0x1) | Exported Function | 0x100016f0 | 0x000016f0
-`PAL_CheckForApp2DeviceAlternateId` | 2 (0x2) | Exported Function | 0x100016e0 | 0x000016e0
-`PAL_CheckForBluetoothSupport` | 3 (0x3) | Exported Function | 0x10001700 | 0x00001700
-`PAL_GetCurrentProcessExplicitAppUserModelID` | 4 (0x4) | Exported Function | 0x10001730 | 0x00001730
-`PAL_ParseAppUserModelId` | 5 (0x5) | Exported Function | 0x10001750 | 0x00001750
-`PAL_SetCurrentProcessExplicitAppUserModelID` | 6 (0x6) | Exported Function | 0x10001710 | 0x00001710
+Function Name | Ordinal | Type
+-- | -- | --
+`PAL_GetCurrentProcessExplicitAppUserModelID` | 4 | Exported Function
+`PAL_ParseAppUserModelId` | 5 | Exported Function
+`PAL_SetCurrentProcessExplicitAppUserModelID` | 6 | Exported Function
+`PAL_App2DeviceFindAllPeers` | 1 | Exported Function
+`PAL_CheckForApp2DeviceAlternateId` | 2 | Exported Function
+`PAL_CheckForBluetoothSupport` | 3 | Exported Function
 
 
 ## Signature

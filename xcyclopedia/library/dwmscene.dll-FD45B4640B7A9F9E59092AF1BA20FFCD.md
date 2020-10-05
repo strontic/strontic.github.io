@@ -23,9 +23,9 @@ PE256 | `D692E2D4F9E180F5411D2EBBB46DFC5F85DA9818B44B6B4B84CE6188DEC22D6E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDwmSceneRenderer` | 1 (0x1) | Exported Function | 0x000000018000f400 | 0x0000f400
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateDwmSceneRenderer` | 1 | Exported Function
 
 
 ## Signature

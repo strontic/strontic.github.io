@@ -24,11 +24,11 @@ PE256 | `760A218382F3848C6F168B20B0D73BBF9D289CAB0127AFC86E5BC93B1A1287F9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllInstall` | 1 (0x1) | Exported Function | 0x10001cd0 | 0x00001cd0
-`NtVdm64CreateProcessInternalW` | 2 (0x2) | Exported Function | 0x10002900 | 0x00002900
-`NtVdm64RaiseInvalid16BitError` | 3 (0x3) | Exported Function | 0x10002a80 | 0x00002a80
+Function Name | Ordinal | Type
+-- | -- | --
+`NtVdm64RaiseInvalid16BitError` | 3 | Exported Function
+`NtVdm64CreateProcessInternalW` | 2 | Exported Function
+`DllInstall` | 1 | Exported Function
 
 
 ## Signature

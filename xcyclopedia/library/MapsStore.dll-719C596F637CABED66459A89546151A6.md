@@ -24,25 +24,25 @@ PE256 | `237F11E8CFF16BD7B878A3C6CE7E5C79A04813C2F4630A010B622FE0FF50FC76`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MapsStore_CancelGetData` | 1 (0x1) | Exported Function | 0x00000001800103d0 | 0x000103d0
-`MapsStore_UnInitialize` | 14 (0xe) | Exported Function | 0x0000000180010580 | 0x00010580
-`MapsStore_SuspendInstallation` | 13 (0xd) | Exported Function | 0x0000000180010860 | 0x00010860
-`MapsStore_SetServiceCallbacks` | 17 (0x11) | Exported Function | 0x0000000180010250 | 0x00010250
-`MapsStore_LoadCatalogAsync` | 12 (0xc) | Exported Function | 0x0000000180010560 | 0x00010560
-`MapsStore_IsMapFullyInstalled` | 11 (0xb) | Exported Function | 0x0000000180010610 | 0x00010610
-`MapsStore_InstallAsync` | 10 (0xa) | Exported Function | 0x00000001800105a0 | 0x000105a0
-`MapsStore_UpdateAsync` | 15 (0xf) | Exported Function | 0x00000001800105d0 | 0x000105d0
-`MapsStore_Initialize` | 9 (0x9) | Exported Function | 0x0000000180010300 | 0x00010300
-`MapsStore_GetData` | 7 (0x7) | Exported Function | 0x0000000180010360 | 0x00010360
-`MapsStore_GetCopyright` | 6 (0x6) | Exported Function | 0x0000000180010630 | 0x00010630
-`MapsStore_FindNearbyPackages` | 5 (0x5) | Exported Function | 0x00000001800107d0 | 0x000107d0
-`MapsStore_DeleteData` | 4 (0x4) | Exported Function | 0x0000000180010540 | 0x00010540
-`MapsStore_CheckUpdateAsync` | 3 (0x3) | Exported Function | 0x00000001800105f0 | 0x000105f0
-`MapsStore_CancelInstallation` | 2 (0x2) | Exported Function | 0x00000001800107f0 | 0x000107f0
-`MapsStore_GetGSCode` | 8 (0x8) | Exported Function | 0x0000000180010720 | 0x00010720
-`MapsStore_WaitInstallation` | 16 (0x10) | Exported Function | 0x0000000180010890 | 0x00010890
+Function Name | Ordinal | Type
+-- | -- | --
+`MapsStore_LoadCatalogAsync` | 12 | Exported Function
+`MapsStore_SetServiceCallbacks` | 17 | Exported Function
+`MapsStore_InstallAsync` | 10 | Exported Function
+`MapsStore_IsMapFullyInstalled` | 11 | Exported Function
+`MapsStore_UpdateAsync` | 15 | Exported Function
+`MapsStore_WaitInstallation` | 16 | Exported Function
+`MapsStore_SuspendInstallation` | 13 | Exported Function
+`MapsStore_UnInitialize` | 14 | Exported Function
+`MapsStore_Initialize` | 9 | Exported Function
+`MapsStore_CheckUpdateAsync` | 3 | Exported Function
+`MapsStore_DeleteData` | 4 | Exported Function
+`MapsStore_CancelGetData` | 1 | Exported Function
+`MapsStore_CancelInstallation` | 2 | Exported Function
+`MapsStore_GetData` | 7 | Exported Function
+`MapsStore_GetGSCode` | 8 | Exported Function
+`MapsStore_FindNearbyPackages` | 5 | Exported Function
+`MapsStore_GetCopyright` | 6 | Exported Function
 
 
 ## Signature

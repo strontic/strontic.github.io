@@ -24,19 +24,19 @@ PE256 | `1497C5BE7C9C7BE88A004657E9B495F6C9EFE5B6EB31E70F006C3239E2585735`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ScmDeletePmemDisk` | 1 (0x1) | Exported Function | 0x00000001800042a0 | 0x000042a0
-`ScmGetDiskNumberFromDiskGuid` | 2 (0x2) | Exported Function | 0x0000000180003c70 | 0x00003c70
-`ScmGetLogicalPmemDiskByDiskNumber` | 3 (0x3) | Exported Function | 0x0000000180003cb0 | 0x00003cb0
-`ScmGetLogicalPmemDisks` | 4 (0x4) | Exported Function | 0x00000001800039f0 | 0x000039f0
-`ScmGetPhysicalNvdimmByNfitHandle` | 5 (0x5) | Exported Function | 0x00000001800039b0 | 0x000039b0
-`ScmGetPhysicalNvdimms` | 6 (0x6) | Exported Function | 0x0000000180003970 | 0x00003970
-`ScmGetUnusedPmemRegionById` | 7 (0x7) | Exported Function | 0x0000000180003ff0 | 0x00003ff0
-`ScmGetUnusedPmemRegions` | 8 (0x8) | Exported Function | 0x0000000180003cf0 | 0x00003cf0
-`ScmInitializePmemPhysicalDevice` | 9 (0x9) | Exported Function | 0x00000001800042d0 | 0x000042d0
-`ScmNewPmemDiskFromUnusedRegion` | 10 (0xa) | Exported Function | 0x0000000180004030 | 0x00004030
-`ScmRebuildStacks` | 11 (0xb) | Exported Function | 0x0000000180004300 | 0x00004300
+Function Name | Ordinal | Type
+-- | -- | --
+`ScmGetUnusedPmemRegions` | 8 | Exported Function
+`ScmGetUnusedPmemRegionById` | 7 | Exported Function
+`ScmInitializePmemPhysicalDevice` | 9 | Exported Function
+`ScmRebuildStacks` | 11 | Exported Function
+`ScmNewPmemDiskFromUnusedRegion` | 10 | Exported Function
+`ScmGetPhysicalNvdimms` | 6 | Exported Function
+`ScmGetDiskNumberFromDiskGuid` | 2 | Exported Function
+`ScmDeletePmemDisk` | 1 | Exported Function
+`ScmGetLogicalPmemDiskByDiskNumber` | 3 | Exported Function
+`ScmGetPhysicalNvdimmByNfitHandle` | 5 | Exported Function
+`ScmGetLogicalPmemDisks` | 4 | Exported Function
 
 
 ## Signature

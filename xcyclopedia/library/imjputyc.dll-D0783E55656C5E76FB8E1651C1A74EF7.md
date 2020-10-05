@@ -24,10 +24,10 @@ PE256 | `6DB50DA1A5924AA1FF612937B769D4CB77D16AFA40BA2727C600E2FF15B884B6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 2 (0x2) | Exported Function | 0x1001c4c0 | 0x0001c4c0
-`OpenUty` | 1 (0x1) | Exported Function | 0x1001c640 | 0x0001c640
+Function Name | Ordinal | Type
+-- | -- | --
+`OpenUty` | 1 | Exported Function
+`DllMain` | 2 | Exported Function
 
 
 ## Signature

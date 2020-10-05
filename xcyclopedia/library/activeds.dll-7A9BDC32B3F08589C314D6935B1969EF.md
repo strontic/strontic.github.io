@@ -24,37 +24,37 @@ PE256 | `63D79EB45ACD06DFA59F0E7ABFAD00BC456B1EF4CFE93C1B1FFDD862A8B0534C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ADsBuildEnumerator` | 4 (0x4) | Exported Function | 0x4c2203e0 | 0x000203e0
-`ReallocADsMem` | 16 (0x10) | Exported Function | ADSLDPC.ReallocADsMem | 0x0002dd94
-`PropVariantToAdsType2` | 26 (0x1a) | Exported Function | 0x4c20b860 | 0x0000b860
-`PropVariantToAdsType` | 21 (0x15) | Exported Function | 0x4c20ba20 | 0x0000ba20
-`FreeADsStr` | 18 (0x12) | Exported Function | ADSLDPC.FreeADsStr | 0x0002dd48
-`FreeADsMem` | 15 (0xf) | Exported Function | ADSLDPC.FreeADsMem | 0x0002dd2a
-`DllGetClassObject` | 11 (0xb) | Exported Function | 0x4c2207b0 | 0x000207b0
-`DllCanUnloadNow` | 10 (0xa) | Exported Function | 0x4c220780 | 0x00020780
-`ConvertTrusteeToSid` | 31 (0x1f) | Exported Function | 0x4c229170 | 0x00029170
-`ConvertSecurityDescriptorToSecDes` | 28 (0x1c) | Exported Function | 0x4c228e20 | 0x00028e20
-`ConvertSecDescriptorToVariant` | 27 (0x1b) | Exported Function | 0x4c2261a0 | 0x000261a0
-`BinarySDToSecurityDescriptor` | 29 (0x1d) | Exported Function | 0x4c220680 | 0x00020680
-`AllocADsStr` | 17 (0x11) | Exported Function | ADSLDPC.AllocADsStr | 0x0002dc78
-`ReallocADsStr` | 19 (0x13) | Exported Function | ADSLDPC.ReallocADsStr | 0x0002ddb8
-`AllocADsMem` | 14 (0xe) | Exported Function | ADSLDPC.AllocADsMem | 0x0002dc58
-`AdsTypeToPropVariant` | 22 (0x16) | Exported Function | 0x4c20b830 | 0x0000b830
-`ADsSetLastError` | 12 (0xc) | Exported Function | ADSLDPC.ADsSetLastError | 0x0002dbf8
-`ADsOpenObject` | 9 (0x9) | Exported Function | 0x4c220fd0 | 0x00020fd0
-`ADsGetObject` | 3 (0x3) | Exported Function | 0x4c207810 | 0x00007810
-`ADsGetLastError` | 13 (0xd) | Exported Function | ADSLDPC.ADsGetLastError | 0x0002dbb5
-`ADsFreeEnumerator` | 5 (0x5) | Exported Function | 0x4c220650 | 0x00020650
-`AdsFreeAdsValues` | 23 (0x17) | Exported Function | 0x4c20b6a0 | 0x0000b6a0
-`ADsEnumerateNext` | 6 (0x6) | Exported Function | 0x4c220620 | 0x00020620
-`ADsEncodeBinaryData` | 20 (0x14) | Exported Function | ADSLDPC.ADsEncodeBinaryData | 0x0002db66
-`ADsDecodeBinaryData` | 24 (0x18) | Exported Function | ADSLDPC.ADsDecodeBinaryData | 0x0002db36
-`ADsBuildVarArrayStr` | 7 (0x7) | Exported Function | 0x4c220530 | 0x00020530
-`ADsBuildVarArrayInt` | 8 (0x8) | Exported Function | 0x4c220460 | 0x00020460
-`AdsTypeToPropVariant2` | 25 (0x19) | Exported Function | 0x4c20b6d0 | 0x0000b6d0
-`SecurityDescriptorToBinarySD` | 30 (0x1e) | Exported Function | 0x4c2206d0 | 0x000206d0
+Function Name | Ordinal | Type
+-- | -- | --
+`ConvertTrusteeToSid` | 31 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
+`ConvertSecurityDescriptorToSecDes` | 28 | Exported Function
+`AllocADsStr` | 17 | Exported Function
+`BinarySDToSecurityDescriptor` | 29 | Exported Function
+`ConvertSecDescriptorToVariant` | 27 | Exported Function
+`ReallocADsMem` | 16 | Exported Function
+`ReallocADsStr` | 19 | Exported Function
+`SecurityDescriptorToBinarySD` | 30 | Exported Function
+`PropVariantToAdsType2` | 26 | Exported Function
+`FreeADsMem` | 15 | Exported Function
+`FreeADsStr` | 18 | Exported Function
+`PropVariantToAdsType` | 21 | Exported Function
+`AllocADsMem` | 14 | Exported Function
+`ADsEncodeBinaryData` | 20 | Exported Function
+`ADsEnumerateNext` | 6 | Exported Function
+`AdsFreeAdsValues` | 23 | Exported Function
+`ADsDecodeBinaryData` | 24 | Exported Function
+`ADsBuildEnumerator` | 4 | Exported Function
+`ADsBuildVarArrayInt` | 8 | Exported Function
+`ADsBuildVarArrayStr` | 7 | Exported Function
+`ADsSetLastError` | 12 | Exported Function
+`AdsTypeToPropVariant` | 22 | Exported Function
+`AdsTypeToPropVariant2` | 25 | Exported Function
+`ADsOpenObject` | 9 | Exported Function
+`ADsFreeEnumerator` | 5 | Exported Function
+`ADsGetLastError` | 13 | Exported Function
+`ADsGetObject` | 3 | Exported Function
 
 
 ## Signature

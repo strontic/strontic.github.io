@@ -24,13 +24,13 @@ PE256 | `BD088DC9D83C337B01AC5677BB80B54886FC253E2FD6AAE3A935708AFA190B45`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SHUnattendedSetup` | 1 (0x1) | Exported Function | 0x000000018000f9d0 | 0x0000f9d0
-`SHUnattendedSetupA` | 2 (0x2) | Exported Function | 0x000000018000f9d0 | 0x0000f9d0
-`SHUnattendedSetupW` | 3 (0x3) | Exported Function | 0x000000018000f640 | 0x0000f640
-`Sysprep_Cleanup_Shell` | 4 (0x4) | Exported Function | 0x000000018000e6d0 | 0x0000e6d0
-`Sysprep_Generalize_Shell` | 5 (0x5) | Exported Function | 0x000000018000e910 | 0x0000e910
+Function Name | Ordinal | Type
+-- | -- | --
+`Sysprep_Cleanup_Shell` | 4 | Exported Function
+`Sysprep_Generalize_Shell` | 5 | Exported Function
+`SHUnattendedSetupW` | 3 | Exported Function
+`SHUnattendedSetup` | 1 | Exported Function
+`SHUnattendedSetupA` | 2 | Exported Function
 
 
 ## Signature

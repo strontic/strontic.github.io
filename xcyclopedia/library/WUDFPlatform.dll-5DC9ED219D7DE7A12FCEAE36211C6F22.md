@@ -24,25 +24,25 @@ PE256 | `0E5E553B150E73E739FD170ECAC1B0593104D44B7975AA7283457CF01F243E65`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClearPlatformTestingCallbacks` | 2 (0x2) | Exported Function | 0x00000001800023b0 | 0x000023b0
-`WudfIsKernelDebuggerPresent` | 15 (0xf) | Exported Function | 0x000000018000b430 | 0x0000b430
-`WudfIsAnyDebuggerPresent` | 14 (0xe) | Exported Function | 0x000000018000b380 | 0x0000b380
-`WudfDebugBreakPoint` | 13 (0xd) | Exported Function | 0x000000018000b320 | 0x0000b320
-`WdfGetLpcInterface` | 12 (0xc) | Exported Function | 0x0000000180012700 | 0x00012700
-`ShutdownPlatformLibrary` | 11 (0xb) | Exported Function | 0x000000018000b260 | 0x0000b260
-`SetPlatformTestingCallbacks` | 10 (0xa) | Exported Function | 0x0000000180011b40 | 0x00011b40
-`WudfIsUserDebuggerPresent` | 16 (0x10) | Exported Function | 0x000000018000b460 | 0x0000b460
-`SetPlatformErrorReportingCallbacks` | 9 (0x9) | Exported Function | 0x000000018000b240 | 0x0000b240
-`PlatformSimulateUnhandledException` | 7 (0x7) | Exported Function | 0x0000000180011ad0 | 0x00011ad0
-`InitializePlatformLibrary` | 6 (0x6) | Exported Function | 0x000000018000a660 | 0x0000a660
-`GetPlatformObject` | 1 (0x1) | Exported Function | 0x000000018000afe0 | 0x0000afe0
-`GetAndInitializePlatformObject` | 5 (0x5) | Exported Function | 0x000000018000b150 | 0x0000b150
-`DllMain` | 4 (0x4) | Exported Function | 0x0000000180001990 | 0x00001990
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x000000018000b0a0 | 0x0000b0a0
-`PlatformUnhandledExceptionFilter` | 8 (0x8) | Exported Function | 0x0000000180011b30 | 0x00011b30
-`WudfWaitForDebugger` | 17 (0x11) | Exported Function | 0x000000018000b490 | 0x0000b490
+Function Name | Ordinal | Type
+-- | -- | --
+`WdfGetLpcInterface` | 12 | Exported Function
+`WudfDebugBreakPoint` | 13 | Exported Function
+`SetPlatformTestingCallbacks` | 10 | Exported Function
+`ShutdownPlatformLibrary` | 11 | Exported Function
+`WudfIsUserDebuggerPresent` | 16 | Exported Function
+`WudfWaitForDebugger` | 17 | Exported Function
+`WudfIsAnyDebuggerPresent` | 14 | Exported Function
+`WudfIsKernelDebuggerPresent` | 15 | Exported Function
+`SetPlatformErrorReportingCallbacks` | 9 | Exported Function
+`DllMain` | 4 | Exported Function
+`GetAndInitializePlatformObject` | 5 | Exported Function
+`ClearPlatformTestingCallbacks` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`PlatformSimulateUnhandledException` | 7 | Exported Function
+`PlatformUnhandledExceptionFilter` | 8 | Exported Function
+`GetPlatformObject` | 1 | Exported Function
+`InitializePlatformLibrary` | 6 | Exported Function
 
 
 ## Signature

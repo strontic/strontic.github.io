@@ -24,64 +24,64 @@ PE256 | `ABA611DA080CC9948811A52A7CAF6D274DD43724D1C8F8A7D5BD9EAE7836F9DB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ACUIProviderInvokeUI` | 13 (0xd) | Exported Function | 0x6142c0a0 | 0x0002c0a0
-`CryptUIDlgViewSignerInfoA` | 36 (0x24) | Exported Function | 0x61429350 | 0x00029350
-`CryptUIDlgViewSignerInfoW` | 37 (0x25) | Exported Function | 0x614290f0 | 0x000290f0
-`CryptUIFreeCertificatePropertiesPagesA` | 38 (0x26) | Exported Function | 0x61420b60 | 0x00020b60
-`CryptUIFreeCertificatePropertiesPagesW` | 39 (0x27) | Exported Function | 0x61420b60 | 0x00020b60
-`CryptUIFreeViewSignaturesPagesA` | 40 (0x28) | Exported Function | 0x61420b60 | 0x00020b60
-`CryptUIFreeViewSignaturesPagesW` | 41 (0x29) | Exported Function | 0x61420b60 | 0x00020b60
-`CryptUIGetCertificatePropertiesPagesA` | 42 (0x2a) | Exported Function | 0x61420b50 | 0x00020b50
-`CryptUIGetCertificatePropertiesPagesW` | 43 (0x2b) | Exported Function | 0x61420920 | 0x00020920
-`CryptUIGetViewSignaturesPagesA` | 44 (0x2c) | Exported Function | 0x6142a280 | 0x0002a280
-`CryptUIGetViewSignaturesPagesW` | 45 (0x2d) | Exported Function | 0x6142a150 | 0x0002a150
-`CryptUIStartCertMgr` | 46 (0x2e) | Exported Function | 0x61417390 | 0x00017390
-`CryptUIDlgViewCTLW` | 30 (0x1e) | Exported Function | 0x61428b60 | 0x00028b60
-`CryptUIViewExpiringCerts` | 47 (0x2f) | Exported Function | 0x61413f50 | 0x00013f50
-`CryptUIWizDigitalSign` | 49 (0x31) | Exported Function | 0x6142a840 | 0x0002a840
-`CryptUIWizExport` | 50 (0x32) | Exported Function | 0x6142a8c0 | 0x0002a8c0
-`CryptUIWizFreeDigitalSignContext` | 51 (0x33) | Exported Function | 0x6142a940 | 0x0002a940
-`CryptUIWizImport` | 52 (0x34) | Exported Function | 0x6142a9c0 | 0x0002a9c0
-`CryptUIWizImportInternal` | 53 (0x35) | Exported Function | 0x6142aa40 | 0x0002aa40
-`DisplayHtmlHelp` | 8 (0x8) | Exported Function | 0x61427ba0 | 0x00027ba0
-`DllRegisterServer` | 54 (0x36) | Exported Function | 0x61427c80 | 0x00027c80
-`DllUnregisterServer` | 55 (0x37) | Exported Function | 0x61427c80 | 0x00027c80
-`FormatDateStringAutoLayout` | 9 (0x9) | Exported Function | 0x61414640 | 0x00014640
-`GetUnknownErrorString` | 10 (0xa) | Exported Function | 0x614113a0 | 0x000113a0
-`InvokeHelpLink` | 11 (0xb) | Exported Function | 0x61427c00 | 0x00027c00
-`CryptUIWizBuildCTL` | 48 (0x30) | Exported Function | 0x6142a7b0 | 0x0002a7b0
-`CryptUIDlgViewCTLA` | 29 (0x1d) | Exported Function | 0x61428de0 | 0x00028de0
-`CryptUIDlgViewCRLW` | 28 (0x1c) | Exported Function | 0x61428e60 | 0x00028e60
-`CryptUIDlgViewCRLA` | 27 (0x1b) | Exported Function | 0x61429070 | 0x00029070
-`AddChainToStore` | 1 (0x1) | Exported Function | 0x61427650 | 0x00027650
-`CertDllLogMismatchPinRules` | 2 (0x2) | Exported Function | 0x61417070 | 0x00017070
-`CertDllProtectedRootMessageBox` | 3 (0x3) | Exported Function | 0x61421110 | 0x00021110
-`CertSelectionGetSerializedBlob` | 14 (0xe) | Exported Function | 0x6142aac0 | 0x0002aac0
-`CommonInit` | 15 (0xf) | Exported Function | 0x61427a60 | 0x00027a60
-`CompareCertificate` | 4 (0x4) | Exported Function | 0x61408270 | 0x00008270
-`CryptDllProtectPrompt` | 16 (0x10) | Exported Function | 0x61404bc0 | 0x00004bc0
-`CryptUIDlgAddPolicyServer` | 5 (0x5) | Exported Function | 0x6141ccb0 | 0x0001ccb0
-`CryptUIDlgAddPolicyServerWithPriority` | 6 (0x6) | Exported Function | 0x6141cb80 | 0x0001cb80
-`CryptUIDlgCertMgr` | 17 (0x11) | Exported Function | 0x6141a230 | 0x0001a230
-`CryptUIDlgFreeCAContext` | 18 (0x12) | Exported Function | 0x61422910 | 0x00022910
-`CryptUIDlgFreePolicyServerContext` | 19 (0x13) | Exported Function | 0x614228b0 | 0x000228b0
-`CryptUIDlgPropertyPolicy` | 7 (0x7) | Exported Function | 0x6141ccf0 | 0x0001ccf0
-`CryptUIDlgSelectCA` | 20 (0x14) | Exported Function | 0x61421f00 | 0x00021f00
-`CryptUIDlgSelectCertificateA` | 21 (0x15) | Exported Function | 0x6142b250 | 0x0002b250
-`CryptUIDlgSelectCertificateFromStore` | 22 (0x16) | Exported Function | 0x6142b2f0 | 0x0002b2f0
-`CryptUIDlgSelectCertificateW` | 23 (0x17) | Exported Function | 0x6142af10 | 0x0002af10
-`CryptUIDlgSelectPolicyServer` | 24 (0x18) | Exported Function | 0x61421ca0 | 0x00021ca0
-`CryptUIDlgSelectStoreA` | 25 (0x19) | Exported Function | 0x61424c00 | 0x00024c00
-`CryptUIDlgSelectStoreW` | 26 (0x1a) | Exported Function | 0x61424b90 | 0x00024b90
-`CryptUIDlgViewCertificateA` | 31 (0x1f) | Exported Function | 0x61428ad0 | 0x00028ad0
-`CryptUIDlgViewCertificatePropertiesA` | 32 (0x20) | Exported Function | 0x61420810 | 0x00020810
-`CryptUIDlgViewCertificatePropertiesW` | 33 (0x21) | Exported Function | 0x61420520 | 0x00020520
-`CryptUIDlgViewCertificateW` | 34 (0x22) | Exported Function | 0x61428550 | 0x00028550
-`CryptUIDlgViewContext` | 35 (0x23) | Exported Function | 0x6140a450 | 0x0000a450
-`IsWizardExtensionAvailable` | 56 (0x38) | Exported Function | 0x6142a300 | 0x0002a300
-`MyFormatEnhancedKeyUsageString` | 12 (0xc) | Exported Function | 0x614151d0 | 0x000151d0
+Function Name | Ordinal | Type
+-- | -- | --
+`CryptUIGetCertificatePropertiesPagesW` | 43 | Exported Function
+`CryptUIGetCertificatePropertiesPagesA` | 42 | Exported Function
+`CryptUIFreeViewSignaturesPagesW` | 41 | Exported Function
+`CryptUIGetViewSignaturesPagesA` | 44 | Exported Function
+`CryptUIViewExpiringCerts` | 47 | Exported Function
+`CryptUIStartCertMgr` | 46 | Exported Function
+`CryptUIGetViewSignaturesPagesW` | 45 | Exported Function
+`CryptUIDlgViewSignerInfoA` | 36 | Exported Function
+`CryptUIDlgViewCTLW` | 30 | Exported Function
+`CryptUIDlgViewCTLA` | 29 | Exported Function
+`CryptUIDlgViewSignerInfoW` | 37 | Exported Function
+`CryptUIFreeViewSignaturesPagesA` | 40 | Exported Function
+`CryptUIFreeCertificatePropertiesPagesW` | 39 | Exported Function
+`CryptUIFreeCertificatePropertiesPagesA` | 38 | Exported Function
+`FormatDateStringAutoLayout` | 9 | Exported Function
+`DllUnregisterServer` | 55 | Exported Function
+`DllRegisterServer` | 54 | Exported Function
+`GetUnknownErrorString` | 10 | Exported Function
+`MyFormatEnhancedKeyUsageString` | 12 | Exported Function
+`IsWizardExtensionAvailable` | 56 | Exported Function
+`InvokeHelpLink` | 11 | Exported Function
+`CryptUIWizExport` | 50 | Exported Function
+`CryptUIWizDigitalSign` | 49 | Exported Function
+`CryptUIWizBuildCTL` | 48 | Exported Function
+`CryptUIWizFreeDigitalSignContext` | 51 | Exported Function
+`DisplayHtmlHelp` | 8 | Exported Function
+`CryptUIWizImportInternal` | 53 | Exported Function
+`CryptUIWizImport` | 52 | Exported Function
+`CryptUIDlgAddPolicyServerWithPriority` | 6 | Exported Function
+`CryptUIDlgAddPolicyServer` | 5 | Exported Function
+`CryptDllProtectPrompt` | 16 | Exported Function
+`CryptUIDlgCertMgr` | 17 | Exported Function
+`CryptUIDlgPropertyPolicy` | 7 | Exported Function
+`CryptUIDlgFreePolicyServerContext` | 19 | Exported Function
+`CryptUIDlgFreeCAContext` | 18 | Exported Function
+`CertDllLogMismatchPinRules` | 2 | Exported Function
+`AddChainToStore` | 1 | Exported Function
+`ACUIProviderInvokeUI` | 13 | Exported Function
+`CertDllProtectedRootMessageBox` | 3 | Exported Function
+`CompareCertificate` | 4 | Exported Function
+`CommonInit` | 15 | Exported Function
+`CertSelectionGetSerializedBlob` | 14 | Exported Function
+`CryptUIDlgViewCertificatePropertiesW` | 33 | Exported Function
+`CryptUIDlgViewCertificatePropertiesA` | 32 | Exported Function
+`CryptUIDlgViewCertificateA` | 31 | Exported Function
+`CryptUIDlgViewCertificateW` | 34 | Exported Function
+`CryptUIDlgViewCRLW` | 28 | Exported Function
+`CryptUIDlgViewCRLA` | 27 | Exported Function
+`CryptUIDlgViewContext` | 35 | Exported Function
+`CryptUIDlgSelectCertificateFromStore` | 22 | Exported Function
+`CryptUIDlgSelectCertificateA` | 21 | Exported Function
+`CryptUIDlgSelectCA` | 20 | Exported Function
+`CryptUIDlgSelectCertificateW` | 23 | Exported Function
+`CryptUIDlgSelectStoreW` | 26 | Exported Function
+`CryptUIDlgSelectStoreA` | 25 | Exported Function
+`CryptUIDlgSelectPolicyServer` | 24 | Exported Function
 
 
 ## Signature

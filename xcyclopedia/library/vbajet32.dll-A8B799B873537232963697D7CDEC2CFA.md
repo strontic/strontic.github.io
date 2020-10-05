@@ -24,10 +24,10 @@ PE256 | `26A5177ECBA943666FB176549E0C1233607BCE198D6FFD092AEC7CFB0D2877BD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LoadExprSrvDll` | 2 (0x2) | Exported Function | 0x0f9a1641 | 0x00001641
-`VBAGetExprSrv` | 1 (0x1) | Exported Function | 0x0f9a1510 | 0x00001510
+Function Name | Ordinal | Type
+-- | -- | --
+`VBAGetExprSrv` | 1 | Exported Function
+`LoadExprSrvDll` | 2 | Exported Function
 
 
 ## Signature

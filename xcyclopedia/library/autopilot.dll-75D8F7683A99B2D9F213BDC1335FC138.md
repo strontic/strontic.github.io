@@ -24,22 +24,22 @@ PE256 | `0CBE7C4A7056808B5821638179231FDA140380CD092A4FA25E8522825C5C2EAC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AutoPilotClearNetworkRequiredFlag` | 1 (0x1) | Exported Function | 0x0000000180006e20 | 0x00006e20
-`AutoPilotDisable` | 2 (0x2) | Exported Function | 0x0000000180006f50 | 0x00006f50
-`AutoPilotGetOobeSettingsOverride` | 3 (0x3) | Exported Function | 0x0000000180007080 | 0x00007080
-`AutoPilotGetPolicyDwordByName` | 4 (0x4) | Exported Function | 0x00000001800071b0 | 0x000071b0
-`AutoPilotGetPolicyStringByName` | 5 (0x5) | Exported Function | 0x00000001800072f0 | 0x000072f0
-`AutoPilotGetProfileState` | 6 (0x6) | Exported Function | 0x0000000180007520 | 0x00007520
-`AutoPilotGetSetting` | 7 (0x7) | Exported Function | 0x0000000180007c50 | 0x00007c50
-`AutoPilotIsDisabled` | 8 (0x8) | Exported Function | 0x0000000180007550 | 0x00007550
-`AutoPilotIsLocalProfileAvailable` | 9 (0x9) | Exported Function | 0x0000000180007580 | 0x00007580
-`AutoPilotIsNetworkRequired` | 10 (0xa) | Exported Function | 0x00000001800075b0 | 0x000075b0
-`AutoPilotPerformDeviceEnrollment` | 11 (0xb) | Exported Function | 0x00000001800077a0 | 0x000077a0
-`AutoPilotRenameDevice` | 12 (0xc) | Exported Function | 0x00000001800079d0 | 0x000079d0
-`AutoPilotRetrieveSettings` | 13 (0xd) | Exported Function | 0x0000000180007b20 | 0x00007b20
-`AutoPilotStoreSetting` | 14 (0xe) | Exported Function | 0x0000000180007e80 | 0x00007e80
+Function Name | Ordinal | Type
+-- | -- | --
+`AutoPilotIsNetworkRequired` | 10 | Exported Function
+`AutoPilotIsLocalProfileAvailable` | 9 | Exported Function
+`AutoPilotIsDisabled` | 8 | Exported Function
+`AutoPilotPerformDeviceEnrollment` | 11 | Exported Function
+`AutoPilotStoreSetting` | 14 | Exported Function
+`AutoPilotRetrieveSettings` | 13 | Exported Function
+`AutoPilotRenameDevice` | 12 | Exported Function
+`AutoPilotGetOobeSettingsOverride` | 3 | Exported Function
+`AutoPilotDisable` | 2 | Exported Function
+`AutoPilotClearNetworkRequiredFlag` | 1 | Exported Function
+`AutoPilotGetPolicyDwordByName` | 4 | Exported Function
+`AutoPilotGetSetting` | 7 | Exported Function
+`AutoPilotGetProfileState` | 6 | Exported Function
+`AutoPilotGetPolicyStringByName` | 5 | Exported Function
 
 
 ## Signature

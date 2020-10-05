@@ -24,29 +24,29 @@ PE256 | `351E4ED11DED84A50149D978B40B54D42B5E50A26796903E830C2F7A0333016C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CMCheckColors` | 1 (0x1) | Exported Function | 0x000000018000b670 | 0x0000b670
-`CMTranslateRGB` | 16 (0x10) | Exported Function | 0x000000018000b6e0 | 0x0000b6e0
-`CMTranslateColors` | 15 (0xf) | Exported Function | 0x000000018000bd20 | 0x0000bd20
-`CMIsProfileValid` | 14 (0xe) | Exported Function | 0x000000018000bcf0 | 0x0000bcf0
-`CMGetNamedProfileInfo` | 21 (0x15) | Exported Function | 0x000000018000bcc0 | 0x0000bcc0
-`CMGetInfo` | 13 (0xd) | Exported Function | 0x00000001800055d0 | 0x000055d0
-`CMDeleteTransform` | 12 (0xc) | Exported Function | 0x00000001800054f0 | 0x000054f0
-`CMCreateTransformW` | 11 (0xb) | Exported Function | 0x000000018000b9f0 | 0x0000b9f0
-`CMCreateTransformExtW` | 10 (0xa) | Exported Function | 0x000000018000bba0 | 0x0000bba0
-`CMTranslateRGBs` | 17 (0x11) | Exported Function | 0x000000018000b6e0 | 0x0000b6e0
-`CMCreateTransformExt` | 9 (0x9) | Exported Function | 0x000000018000b9f0 | 0x0000b9f0
-`CMCreateProfileW` | 7 (0x7) | Exported Function | 0x000000018000b9b0 | 0x0000b9b0
-`CMCreateProfile` | 6 (0x6) | Exported Function | 0x000000018000b6e0 | 0x0000b6e0
-`CMCreateMultiProfileTransform` | 5 (0x5) | Exported Function | 0x0000000180001010 | 0x00001010
-`CMCreateDeviceLinkProfile` | 4 (0x4) | Exported Function | 0x000000018000b880 | 0x0000b880
-`CMConvertIndexToColorName` | 20 (0x14) | Exported Function | 0x000000018000b850 | 0x0000b850
-`CMConvertColorNameToIndex` | 19 (0x13) | Exported Function | 0x000000018000b820 | 0x0000b820
-`CMCheckRGBs` | 3 (0x3) | Exported Function | 0x000000018000b710 | 0x0000b710
-`CMCheckColorsInGamut` | 2 (0x2) | Exported Function | 0x000000018000b6e0 | 0x0000b6e0
-`CMCreateTransform` | 8 (0x8) | Exported Function | 0x000000018000b9f0 | 0x0000b9f0
-`CMTranslateRGBsExt` | 18 (0x12) | Exported Function | 0x0000000180004c80 | 0x00004c80
+Function Name | Ordinal | Type
+-- | -- | --
+`CMGetInfo` | 13 | Exported Function
+`CMGetNamedProfileInfo` | 21 | Exported Function
+`CMDeleteTransform` | 12 | Exported Function
+`CMCreateTransformExtW` | 10 | Exported Function
+`CMCreateTransformW` | 11 | Exported Function
+`CMTranslateRGBs` | 17 | Exported Function
+`CMTranslateRGBsExt` | 18 | Exported Function
+`CMTranslateRGB` | 16 | Exported Function
+`CMIsProfileValid` | 14 | Exported Function
+`CMTranslateColors` | 15 | Exported Function
+`CMCreateTransformExt` | 9 | Exported Function
+`CMConvertColorNameToIndex` | 19 | Exported Function
+`CMConvertIndexToColorName` | 20 | Exported Function
+`CMCheckRGBs` | 3 | Exported Function
+`CMCheckColors` | 1 | Exported Function
+`CMCheckColorsInGamut` | 2 | Exported Function
+`CMCreateProfileW` | 7 | Exported Function
+`CMCreateTransform` | 8 | Exported Function
+`CMCreateProfile` | 6 | Exported Function
+`CMCreateDeviceLinkProfile` | 4 | Exported Function
+`CMCreateMultiProfileTransform` | 5 | Exported Function
 
 
 ## Signature

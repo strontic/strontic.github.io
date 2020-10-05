@@ -24,12 +24,12 @@ PE256 | `8FB83A4E2CC057AB43B00EEA8D7EF55E6A53072274C3B2D00BA17632B53B8298`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GenerateWLANPolicy` | 1 (0x1) | Exported Function | 0x0000000180001c00 | 0x00001c00
-`ProcessWLANPolicyEx` | 2 (0x2) | Exported Function | 0x0000000180001630 | 0x00001630
-`WLGPADeInit` | 3 (0x3) | Exported Function | 0x0000000180003b60 | 0x00003b60
-`WLGPAInit` | 4 (0x4) | Exported Function | 0x0000000180003920 | 0x00003920
+Function Name | Ordinal | Type
+-- | -- | --
+`WLGPADeInit` | 3 | Exported Function
+`WLGPAInit` | 4 | Exported Function
+`GenerateWLANPolicy` | 1 | Exported Function
+`ProcessWLANPolicyEx` | 2 | Exported Function
 
 
 ## Signature

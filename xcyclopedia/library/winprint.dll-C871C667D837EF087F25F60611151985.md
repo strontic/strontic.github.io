@@ -24,15 +24,15 @@ PE256 | `EBFC0132DDB3BB5C7AFD5B32D193432D014B69CBE0DE610C662F5F74B28FBF1C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ClosePrintProcessor` | 1 (0x1) | Exported Function | 0x00000001800035b0 | 0x000035b0
-`ControlPrintProcessor` | 2 (0x2) | Exported Function | 0x00000001800036f0 | 0x000036f0
-`DllMain` | 3 (0x3) | Exported Function | 0x0000000180001ea0 | 0x00001ea0
-`EnumPrintProcessorDatatypesW` | 4 (0x4) | Exported Function | 0x0000000180001010 | 0x00001010
-`GetPrintProcessorCapabilities` | 5 (0x5) | Exported Function | 0x0000000180003790 | 0x00003790
-`OpenPrintProcessor` | 6 (0x6) | Exported Function | 0x00000001800038a0 | 0x000038a0
-`PrintDocumentOnPrintProcessor` | 7 (0x7) | Exported Function | 0x0000000180003db0 | 0x00003db0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetPrintProcessorCapabilities` | 5 | Exported Function
+`OpenPrintProcessor` | 6 | Exported Function
+`PrintDocumentOnPrintProcessor` | 7 | Exported Function
+`EnumPrintProcessorDatatypesW` | 4 | Exported Function
+`ClosePrintProcessor` | 1 | Exported Function
+`ControlPrintProcessor` | 2 | Exported Function
+`DllMain` | 3 | Exported Function
 
 
 ## Signature

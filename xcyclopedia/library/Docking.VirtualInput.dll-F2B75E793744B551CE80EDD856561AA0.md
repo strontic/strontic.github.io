@@ -24,12 +24,12 @@ PE256 | `EFAC5B247BDFBED10EA30FEC2ECEE72A00A7B15959917C61C95EA8690ABB5C4E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateVirtualInputManager` | 1 (0x1) | Exported Function | 0x00000001800075c0 | 0x000075c0
-`CreateVirtualTouchPad` | 2 (0x2) | Exported Function | 0x0000000180007320 | 0x00007320
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x0000000180006b20 | 0x00006b20
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x00000001800069f0 | 0x000069f0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
+`CreateVirtualInputManager` | 1 | Exported Function
+`CreateVirtualTouchPad` | 2 | Exported Function
 
 
 ## Signature

@@ -24,35 +24,35 @@ PE256 | `AAA71ABC7E7B01D0C01243516E5705575042284937BED893FA545BCD415E4B4E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EmptyWorkingSet` | 1 (0x1) | Exported Function | 0x00000001800013c0 | 0x000013c0
-`InitializeProcessForWsWatch` | 25 (0x19) | Exported Function | 0x00000001800015c0 | 0x000015c0
-`GetWsChangesEx` | 24 (0x18) | Exported Function | 0x0000000180001580 | 0x00001580
-`GetWsChanges` | 23 (0x17) | Exported Function | 0x00000001800015a0 | 0x000015a0
-`GetProcessMemoryInfo` | 22 (0x16) | Exported Function | 0x0000000180001560 | 0x00001560
-`GetProcessImageFileNameW` | 21 (0x15) | Exported Function | 0x0000000180001070 | 0x00001070
-`GetProcessImageFileNameA` | 20 (0x14) | Exported Function | 0x0000000180001540 | 0x00001540
-`GetPerformanceInfo` | 19 (0x13) | Exported Function | 0x0000000180001520 | 0x00001520
-`GetModuleInformation` | 18 (0x12) | Exported Function | 0x00000001800010f0 | 0x000010f0
-`GetModuleFileNameExW` | 17 (0x11) | Exported Function | 0x0000000180001050 | 0x00001050
-`GetModuleFileNameExA` | 16 (0x10) | Exported Function | 0x0000000180001500 | 0x00001500
-`GetModuleBaseNameW` | 15 (0xf) | Exported Function | 0x00000001800010d0 | 0x000010d0
-`QueryWorkingSet` | 26 (0x1a) | Exported Function | 0x0000000180001600 | 0x00001600
-`GetModuleBaseNameA` | 14 (0xe) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`GetMappedFileNameA` | 12 (0xc) | Exported Function | 0x00000001800014a0 | 0x000014a0
-`GetDeviceDriverFileNameW` | 11 (0xb) | Exported Function | 0x0000000180001480 | 0x00001480
-`GetDeviceDriverFileNameA` | 10 (0xa) | Exported Function | 0x0000000180001460 | 0x00001460
-`GetDeviceDriverBaseNameW` | 9 (0x9) | Exported Function | 0x00000001800010b0 | 0x000010b0
-`GetDeviceDriverBaseNameA` | 8 (0x8) | Exported Function | 0x0000000180001440 | 0x00001440
-`EnumProcessModulesEx` | 6 (0x6) | Exported Function | 0x0000000180001420 | 0x00001420
-`EnumProcessModules` | 5 (0x5) | Exported Function | 0x0000000180001010 | 0x00001010
-`EnumProcesses` | 7 (0x7) | Exported Function | 0x0000000180001030 | 0x00001030
-`EnumPageFilesW` | 4 (0x4) | Exported Function | 0x0000000180001400 | 0x00001400
-`EnumPageFilesA` | 3 (0x3) | Exported Function | 0x00000001800013e0 | 0x000013e0
-`EnumDeviceDrivers` | 2 (0x2) | Exported Function | 0x0000000180001090 | 0x00001090
-`GetMappedFileNameW` | 13 (0xd) | Exported Function | 0x00000001800014c0 | 0x000014c0
-`QueryWorkingSetEx` | 27 (0x1b) | Exported Function | 0x00000001800015e0 | 0x000015e0
+Function Name | Ordinal | Type
+-- | -- | --
+`GetModuleInformation` | 18 | Exported Function
+`GetPerformanceInfo` | 19 | Exported Function
+`GetProcessImageFileNameA` | 20 | Exported Function
+`GetModuleBaseNameW` | 15 | Exported Function
+`GetModuleFileNameExA` | 16 | Exported Function
+`GetModuleFileNameExW` | 17 | Exported Function
+`GetProcessImageFileNameW` | 21 | Exported Function
+`InitializeProcessForWsWatch` | 25 | Exported Function
+`QueryWorkingSet` | 26 | Exported Function
+`QueryWorkingSetEx` | 27 | Exported Function
+`GetProcessMemoryInfo` | 22 | Exported Function
+`GetWsChanges` | 23 | Exported Function
+`GetWsChangesEx` | 24 | Exported Function
+`GetModuleBaseNameA` | 14 | Exported Function
+`EnumPageFilesW` | 4 | Exported Function
+`EnumProcesses` | 7 | Exported Function
+`EnumProcessModules` | 5 | Exported Function
+`EmptyWorkingSet` | 1 | Exported Function
+`EnumDeviceDrivers` | 2 | Exported Function
+`EnumPageFilesA` | 3 | Exported Function
+`EnumProcessModulesEx` | 6 | Exported Function
+`GetDeviceDriverFileNameW` | 11 | Exported Function
+`GetMappedFileNameA` | 12 | Exported Function
+`GetMappedFileNameW` | 13 | Exported Function
+`GetDeviceDriverBaseNameA` | 8 | Exported Function
+`GetDeviceDriverBaseNameW` | 9 | Exported Function
+`GetDeviceDriverFileNameA` | 10 | Exported Function
 
 
 ## Signature

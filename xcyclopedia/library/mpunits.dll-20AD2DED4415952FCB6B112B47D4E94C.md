@@ -24,22 +24,22 @@ PE256 | `E3F3893F644E0B4758E750CAF8C1539D541CD6B6C2E39047A42B654C67A825CC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_BinaryLogReader_GetNextInstance` | 11 (0xb) | Exported Function | 0x0000000180006bf0 | 0x00006bf0
-`_BinaryLogReader_ValidateHeader` | 12 (0xc) | Exported Function | 0x0000000180006c10 | 0x00006c10
-`MI_Main` | 1 (0x1) | Exported Function | 0x0000000180005c00 | 0x00005c00
-`monitoring_platform_reactive_extensionsFT_V1` | 14 (0xe) | Exported Function | 0x0000000180056760 | 0x00056760
-`monitoring_platformFT_V1` | 13 (0xd) | Exported Function | 0x00000001800529b8 | 0x000529b8
-`MPUnitsTraps` | 2 (0x2) | Exported Function | 0x0000000180047010 | 0x00047010
-`NITS_PRESENCE_STUB` | 3 (0x3) | Exported Function | 0x000000018006efa8 | 0x0006efa8
-`NITS_STUB` | 4 (0x4) | Exported Function | 0x0000000180048a60 | 0x00048a60
-`SyncBmilReader_Create` | 5 (0x5) | Exported Function | 0x00000001800266e0 | 0x000266e0
-`SyncBmilReader_Delete` | 6 (0x6) | Exported Function | 0x0000000180026850 | 0x00026850
-`SyncBmilReader_ReadInstance` | 7 (0x7) | Exported Function | 0x00000001800267d0 | 0x000267d0
-`SyncBmilWriter_Create` | 8 (0x8) | Exported Function | 0x00000001800268c0 | 0x000268c0
-`SyncBmilWriter_Delete` | 9 (0x9) | Exported Function | 0x0000000180026a20 | 0x00026a20
-`SyncBmilWriter_WriteInstance` | 10 (0xa) | Exported Function | 0x00000001800269a0 | 0x000269a0
+Function Name | Ordinal | Type
+-- | -- | --
+`SyncBmilReader_Delete` | 6 | Exported Function
+`SyncBmilReader_Create` | 5 | Exported Function
+`NITS_STUB` | 4 | Exported Function
+`SyncBmilReader_ReadInstance` | 7 | Exported Function
+`SyncBmilWriter_WriteInstance` | 10 | Exported Function
+`SyncBmilWriter_Delete` | 9 | Exported Function
+`SyncBmilWriter_Create` | 8 | Exported Function
+`MI_Main` | 1 | Exported Function
+`_BinaryLogReader_ValidateHeader` | 12 | Exported Function
+`_BinaryLogReader_GetNextInstance` | 11 | Exported Function
+`monitoring_platform_reactive_extensionsFT_V1` | 14 | Exported Function
+`NITS_PRESENCE_STUB` | 3 | Exported Function
+`MPUnitsTraps` | 2 | Exported Function
+`monitoring_platformFT_V1` | 13 | Exported Function
 
 
 ## Signature

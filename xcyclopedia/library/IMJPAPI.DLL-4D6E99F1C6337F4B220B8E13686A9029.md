@@ -24,14 +24,14 @@ PE256 | `13D17C5422CD12655E31FBEDF0459E3CF3148A935DA92F943C09EFE180E8AD99`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateIFECommonInstance` | 1 (0x1) | Exported Function | 0x1009b0e0 | 0x0009b0e0
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x100863b0 | 0x000863b0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x100550e0 | 0x000550e0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x100863f0 | 0x000863f0
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x10086430 | 0x00086430
-`UpdateDefaultStyleList` | 6 (0x6) | Exported Function | 0x10086450 | 0x00086450
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 4 | Exported Function
+`DllUnregisterServer` | 5 | Exported Function
+`UpdateDefaultStyleList` | 6 | Exported Function
+`CreateIFECommonInstance` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

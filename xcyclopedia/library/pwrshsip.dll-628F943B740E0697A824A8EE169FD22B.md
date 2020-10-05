@@ -24,16 +24,16 @@ PE256 | `89E6CC2385D9B7C0F871A4EF313EC6A4C37E17118DE3DD6F42560BF1877E9069`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 7 (0x7) | Exported Function | 0x100046d0 | 0x000046d0
-`DllUnregisterServer` | 8 (0x8) | Exported Function | 0x100047c0 | 0x000047c0
-`PsCreateHash` | 1 (0x1) | Exported Function | 0x100044c0 | 0x000044c0
-`PsDelSignature` | 2 (0x2) | Exported Function | 0x10004590 | 0x00004590
-`PsGetSignature` | 3 (0x3) | Exported Function | 0x100043d0 | 0x000043d0
-`PsIsMyFileType` | 4 (0x4) | Exported Function | 0x10004600 | 0x00004600
-`PsPutSignature` | 5 (0x5) | Exported Function | 0x10004450 | 0x00004450
-`PsVerifyHash` | 6 (0x6) | Exported Function | 0x10004520 | 0x00004520
+Function Name | Ordinal | Type
+-- | -- | --
+`PsIsMyFileType` | 4 | Exported Function
+`PsGetSignature` | 3 | Exported Function
+`PsVerifyHash` | 6 | Exported Function
+`PsPutSignature` | 5 | Exported Function
+`DllUnregisterServer` | 8 | Exported Function
+`DllRegisterServer` | 7 | Exported Function
+`PsDelSignature` | 2 | Exported Function
+`PsCreateHash` | 1 | Exported Function
 
 
 ## Signature

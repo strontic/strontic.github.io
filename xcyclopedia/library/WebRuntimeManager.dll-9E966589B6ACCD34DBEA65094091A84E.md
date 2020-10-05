@@ -24,14 +24,14 @@ PE256 | `856E44A43D46AF664B01791598FE35E6EF7659D4CCD6F8B7D556A9CE9EA40EC4`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateMessagePortEventDispatcher` | 1 (0x1) | Exported Function | 0x0000000180057650 | 0x00057650
-`CreateServiceWorkerClientMessageDispatcher` | 2 (0x2) | Exported Function | 0x0000000180033600 | 0x00033600
-`CreateWebRuntimeFactory` | 3 (0x3) | Exported Function | 0x000000018002dd40 | 0x0002dd40
-`CreateWebRuntimeNotificationFromEventArg` | 4 (0x4) | Exported Function | 0x000000018002dd50 | 0x0002dd50
-`DllGetActivationFactory` | 5 (0x5) | Exported Function | 0x000000018002e0f0 | 0x0002e0f0
-`EnsureServiceWorkerManagerComponent` | 6 (0x6) | Exported Function | 0x000000018002e1f0 | 0x0002e1f0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateWebRuntimeNotificationFromEventArg` | 4 | Exported Function
+`DllGetActivationFactory` | 5 | Exported Function
+`EnsureServiceWorkerManagerComponent` | 6 | Exported Function
+`CreateMessagePortEventDispatcher` | 1 | Exported Function
+`CreateServiceWorkerClientMessageDispatcher` | 2 | Exported Function
+`CreateWebRuntimeFactory` | 3 | Exported Function
 
 
 ## Signature

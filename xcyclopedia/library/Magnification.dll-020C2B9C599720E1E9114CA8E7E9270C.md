@@ -24,29 +24,29 @@ PE256 | `6ED3E72F878E86871C2BD13BA1DE148198A7362A1F52E43DAE32B79BA3012F10`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MagGetColorEffect` | 3 (0x3) | Exported Function | 0x0000000180001b20 | 0x00001b20
-`MagSetWindowTransform` | 19 (0x13) | Exported Function | 0x00000001800016d0 | 0x000016d0
-`MagSetWindowSource` | 18 (0x12) | Exported Function | 0x00000001800015b0 | 0x000015b0
-`MagSetWindowFilterList` | 17 (0x11) | Exported Function | 0x00000001800017f0 | 0x000017f0
-`MagSetLensUseBitmapSmoothing` | 2 (0x2) | Exported Function | 0x0000000180001bc0 | 0x00001bc0
-`MagSetInputTransform` | 16 (0x10) | Exported Function | 0x00000001800033f0 | 0x000033f0
-`MagSetImageScalingCallback` | 15 (0xf) | Exported Function | 0x0000000180001980 | 0x00001980
-`MagSetFullscreenUseBitmapSmoothing` | 1 (0x1) | Exported Function | 0x0000000180003330 | 0x00003330
-`MagSetFullscreenTransform` | 14 (0xe) | Exported Function | 0x00000001800031a0 | 0x000031a0
-`MagShowSystemCursor` | 20 (0x14) | Exported Function | 0x0000000180003460 | 0x00003460
-`MagSetFullscreenColorEffect` | 13 (0xd) | Exported Function | 0x00000001800032d0 | 0x000032d0
-`MagInitialize` | 11 (0xb) | Exported Function | 0x0000000180001440 | 0x00001440
-`MagGetWindowTransform` | 10 (0xa) | Exported Function | 0x00000001800017a0 | 0x000017a0
-`MagGetWindowSource` | 9 (0x9) | Exported Function | 0x0000000180001680 | 0x00001680
-`MagGetWindowFilterList` | 8 (0x8) | Exported Function | 0x00000001800018b0 | 0x000018b0
-`MagGetInputTransform` | 7 (0x7) | Exported Function | 0x0000000180003380 | 0x00003380
-`MagGetImageScalingCallback` | 6 (0x6) | Exported Function | 0x0000000180001a10 | 0x00001a10
-`MagGetFullscreenTransform` | 5 (0x5) | Exported Function | 0x0000000180003160 | 0x00003160
-`MagGetFullscreenColorEffect` | 4 (0x4) | Exported Function | 0x0000000180003270 | 0x00003270
-`MagSetColorEffect` | 12 (0xc) | Exported Function | 0x0000000180001a90 | 0x00001a90
-`MagUninitialize` | 21 (0x15) | Exported Function | 0x0000000180001540 | 0x00001540
+Function Name | Ordinal | Type
+-- | -- | --
+`MagSetInputTransform` | 16 | Exported Function
+`MagSetLensUseBitmapSmoothing` | 2 | Exported Function
+`MagSetImageScalingCallback` | 15 | Exported Function
+`MagSetFullscreenTransform` | 14 | Exported Function
+`MagSetFullscreenUseBitmapSmoothing` | 1 | Exported Function
+`MagShowSystemCursor` | 20 | Exported Function
+`MagUninitialize` | 21 | Exported Function
+`MagSetWindowTransform` | 19 | Exported Function
+`MagSetWindowFilterList` | 17 | Exported Function
+`MagSetWindowSource` | 18 | Exported Function
+`MagSetFullscreenColorEffect` | 13 | Exported Function
+`MagGetImageScalingCallback` | 6 | Exported Function
+`MagGetInputTransform` | 7 | Exported Function
+`MagGetFullscreenTransform` | 5 | Exported Function
+`MagGetColorEffect` | 3 | Exported Function
+`MagGetFullscreenColorEffect` | 4 | Exported Function
+`MagInitialize` | 11 | Exported Function
+`MagSetColorEffect` | 12 | Exported Function
+`MagGetWindowTransform` | 10 | Exported Function
+`MagGetWindowFilterList` | 8 | Exported Function
+`MagGetWindowSource` | 9 | Exported Function
 
 
 ## Signature

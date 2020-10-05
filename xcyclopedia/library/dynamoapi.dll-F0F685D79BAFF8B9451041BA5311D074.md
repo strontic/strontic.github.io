@@ -24,9 +24,9 @@ PE256 | `86A59A616F87986648E98B9713E25B92774EC19FECF4004BF9B6F93B4C4A7CD6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DynamoCheckIfAreaIsDynamicallyManaged` | 1 (0x1) | Exported Function | 0x0000000180004060 | 0x00004060
+Function Name | Ordinal | Type
+-- | -- | --
+`DynamoCheckIfAreaIsDynamicallyManaged` | 1 | Exported Function
 
 
 ## Signature

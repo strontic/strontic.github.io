@@ -24,9 +24,9 @@ PE256 | `C99D0BB8864D6C39AB6D9BAB07CF479B38F7AD9DF4EEA15AD52735A211600279`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DimInitialize` | 1 (0x1) | Exported Function | 0x00000001800045e0 | 0x000045e0
+Function Name | Ordinal | Type
+-- | -- | --
+`DimInitialize` | 1 | Exported Function
 
 
 ## Signature

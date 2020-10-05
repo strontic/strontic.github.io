@@ -24,23 +24,23 @@ PE256 | `C7F2D30DF5015EC6E9D69881F4F37533C1E8E0D10F28F333AD4B12ABB4830C19`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IStream_Copy` | 1 (0x1) | Exported Function | shlwapi.IStream_Copy | 0x0000120f
-`IStream_Read` | 2 (0x2) | Exported Function | shlwapi.IStream_Read | 0x00001231
-`IStream_ReadStr` | 3 (0x3) | Exported Function | shlwapi.IStream_ReadStr | 0x00001256
-`IStream_Reset` | 4 (0x4) | Exported Function | shlwapi.IStream_Reset | 0x0000127c
-`IStream_Size` | 5 (0x5) | Exported Function | shlwapi.IStream_Size | 0x0000129f
-`IStream_Write` | 6 (0x6) | Exported Function | shlwapi.IStream_Write | 0x000012c2
-`IStream_WriteStr` | 7 (0x7) | Exported Function | shlwapi.IStream_WriteStr | 0x000012e9
-`SHCreateMemStream` | 8 (0x8) | Exported Function | shlwapi.SHCreateMemStream | 0x00001314
-`SHCreateStreamOnFileA` | 9 (0x9) | Exported Function | shlwapi.SHCreateStreamOnFileA | 0x00001344
-`SHCreateStreamOnFileEx` | 10 (0xa) | Exported Function | shlwapi.SHCreateStreamOnFileEx | 0x00001379
-`SHCreateStreamOnFileW` | 11 (0xb) | Exported Function | shlwapi.SHCreateStreamOnFileW | 0x000013ae
-`SHOpenRegStream2A` | 12 (0xc) | Exported Function | shlwapi.SHOpenRegStream2A | 0x000013de
-`SHOpenRegStream2W` | 13 (0xd) | Exported Function | shlwapi.SHOpenRegStream2W | 0x0000140a
-`SHOpenRegStreamA` | 14 (0xe) | Exported Function | shlwapi.SHOpenRegStreamA | 0x00001435
-`SHOpenRegStreamW` | 15 (0xf) | Exported Function | shlwapi.SHOpenRegStreamW | 0x0000145f
+Function Name | Ordinal | Type
+-- | -- | --
+`SHCreateStreamOnFileW` | 11 | Exported Function
+`SHCreateStreamOnFileEx` | 10 | Exported Function
+`SHCreateStreamOnFileA` | 9 | Exported Function
+`SHOpenRegStream2A` | 12 | Exported Function
+`SHOpenRegStreamW` | 15 | Exported Function
+`SHOpenRegStreamA` | 14 | Exported Function
+`SHOpenRegStream2W` | 13 | Exported Function
+`SHCreateMemStream` | 8 | Exported Function
+`IStream_ReadStr` | 3 | Exported Function
+`IStream_Read` | 2 | Exported Function
+`IStream_Copy` | 1 | Exported Function
+`IStream_Reset` | 4 | Exported Function
+`IStream_WriteStr` | 7 | Exported Function
+`IStream_Write` | 6 | Exported Function
+`IStream_Size` | 5 | Exported Function
 
 
 ## Signature

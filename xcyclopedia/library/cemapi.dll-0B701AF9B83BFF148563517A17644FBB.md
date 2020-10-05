@@ -24,42 +24,42 @@ PE256 | `DAD6C9A54C064F0A5AFBF0D2990A176AC2A250BB8669CF707D8B8B284AE1DAF9`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateMAPITableWalker` | 63 (0x3f) | Exported Function | 0x0000000180009bc0 | 0x00009bc0
-`TranslateSPlusV1MessageClassToV2` | 62 (0x3e) | Exported Function | 0x0000000180006f50 | 0x00006f50
-`SetConversationId` | 83 (0x53) | Exported Function | 0x00000001800085a0 | 0x000085a0
-`ReadMailVolumeNameEx` | 82 (0x52) | Exported Function | 0x0000000180007890 | 0x00007890
-`MAPIUninitialize` | 80 (0x50) | Exported Function | 0x000000018000bfa0 | 0x0000bfa0
-`MAPILogonEx` | 79 (0x4f) | Exported Function | 0x000000018000c080 | 0x0000c080
-`MAPIInitialize` | 78 (0x4e) | Exported Function | 0x000000018000c040 | 0x0000c040
-`MAPIGetContext` | 77 (0x4d) | Exported Function | 0x0000000180007b20 | 0x00007b20
-`MAPIFreeBuffer` | 76 (0x4c) | Exported Function | 0x000000018000a2d0 | 0x0000a2d0
-`MAPIDupString` | 75 (0x4b) | Exported Function | 0x00000001800094c0 | 0x000094c0
-`MAPIDeleteMessageById` | 74 (0x4a) | Exported Function | 0x00000001800088c0 | 0x000088c0
-`MAPIAllocateMore_dbg` | 53 (0x35) | Exported Function | 0x000000018000a380 | 0x0000a380
-`MAPIAllocateMore` | 73 (0x49) | Exported Function | 0x000000018000a1b0 | 0x0000a1b0
-`MAPIAllocateBuffer_dbg` | 52 (0x34) | Exported Function | 0x000000018000a390 | 0x0000a390
-`MAPIAllocateBuffer` | 72 (0x48) | Exported Function | 0x000000018000a100 | 0x0000a100
-`MAPI_GetStoreByName` | 81 (0x51) | Exported Function | 0x0000000180009060 | 0x00009060
-`MAPI_CompareEntryIDs` | 61 (0x3d) | Exported Function | 0x00000001800071a0 | 0x000071a0
-`IsMessageClassSPlusV2` | 60 (0x3c) | Exported Function | 0x0000000180006fe0 | 0x00006fe0
-`CreateMAPITableWalkerEx` | 64 (0x40) | Exported Function | 0x0000000180009bf0 | 0x00009bf0
-`FlushMailStore` | 65 (0x41) | Exported Function | 0x00000001800078e0 | 0x000078e0
-`FreeProws` | 66 (0x42) | Exported Function | 0x0000000180009f70 | 0x00009f70
-`GetEntryIDType` | 67 (0x43) | Exported Function | 0x00000001800095a0 | 0x000095a0
-`GetMAPIStorePropTags` | 54 (0x36) | Exported Function | 0x0000000180006790 | 0x00006790
-`GetMsgClassEnum` | 55 (0x37) | Exported Function | 0x0000000180006d20 | 0x00006d20
-`USOIDfromCEENTRYID` | 84 (0x54) | Exported Function | 0x0000000180008cb0 | 0x00008cb0
-`GetMsgClassEnumFromMsg` | 56 (0x38) | Exported Function | 0x0000000180006da0 | 0x00006da0
-`GetNamedPropTag` | 69 (0x45) | Exported Function | 0x00000001800093c0 | 0x000093c0
-`HrGetOneProp` | 70 (0x46) | Exported Function | 0x000000018000bc60 | 0x0000bc60
-`HrSetOneProp` | 71 (0x47) | Exported Function | 0x000000018000bd60 | 0x0000bd60
-`InitializeServiceProps` | 57 (0x39) | Exported Function | 0x0000000180007080 | 0x00007080
-`IsMessageClassDeviceGenerated` | 58 (0x3a) | Exported Function | 0x0000000180006ef0 | 0x00006ef0
-`IsMessageClassReadRequest` | 59 (0x3b) | Exported Function | 0x0000000180006e20 | 0x00006e20
-`GetMsgStoreFromMessage` | 68 (0x44) | Exported Function | 0x00000001800092d0 | 0x000092d0
-`USOIDtoCEENTRYID` | 85 (0x55) | Exported Function | 0x0000000180008c20 | 0x00008c20
+Function Name | Ordinal | Type
+-- | -- | --
+`MAPIDeleteMessageById` | 74 | Exported Function
+`MAPIAllocateMore_dbg` | 53 | Exported Function
+`MAPIFreeBuffer` | 76 | Exported Function
+`MAPIDupString` | 75 | Exported Function
+`MAPIAllocateBuffer` | 72 | Exported Function
+`MAPI_GetStoreByName` | 81 | Exported Function
+`MAPIAllocateMore` | 73 | Exported Function
+`MAPIAllocateBuffer_dbg` | 52 | Exported Function
+`MAPIGetContext` | 77 | Exported Function
+`TranslateSPlusV1MessageClassToV2` | 62 | Exported Function
+`SetConversationId` | 83 | Exported Function
+`USOIDtoCEENTRYID` | 85 | Exported Function
+`USOIDfromCEENTRYID` | 84 | Exported Function
+`MAPILogonEx` | 79 | Exported Function
+`MAPIInitialize` | 78 | Exported Function
+`ReadMailVolumeNameEx` | 82 | Exported Function
+`MAPIUninitialize` | 80 | Exported Function
+`GetMAPIStorePropTags` | 54 | Exported Function
+`GetEntryIDType` | 67 | Exported Function
+`GetMsgClassEnumFromMsg` | 56 | Exported Function
+`GetMsgClassEnum` | 55 | Exported Function
+`CreateMAPITableWalkerEx` | 64 | Exported Function
+`CreateMAPITableWalker` | 63 | Exported Function
+`FreeProws` | 66 | Exported Function
+`FlushMailStore` | 65 | Exported Function
+`GetMsgStoreFromMessage` | 68 | Exported Function
+`IsMessageClassReadRequest` | 59 | Exported Function
+`IsMessageClassDeviceGenerated` | 58 | Exported Function
+`MAPI_CompareEntryIDs` | 61 | Exported Function
+`IsMessageClassSPlusV2` | 60 | Exported Function
+`HrGetOneProp` | 70 | Exported Function
+`GetNamedPropTag` | 69 | Exported Function
+`InitializeServiceProps` | 57 | Exported Function
+`HrSetOneProp` | 71 | Exported Function
 
 
 ## Signature

@@ -24,28 +24,28 @@ PE256 | `12D1F76EB24B0E8D9F19E98C68B5D9DBA4EA020280D80401991484D9B7D97814`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CheckAppExecutionAliasApplicationType` | 1 (0x1) | Exported Function | 0x0000000180001ae0 | 0x00001ae0
-`PerformAppxLicenseRundownEx` | 18 (0x12) | Exported Function | 0x00000001800028c0 | 0x000028c0
-`OpenAppExecutionAliasForUserEx` | 17 (0x11) | Exported Function | 0x0000000180001a60 | 0x00001a60
-`LoadAppExecutionAliasInfoEx` | 16 (0x10) | Exported Function | 0x00000001800019e0 | 0x000019e0
-`GetAppExecutionAliasPath` | 15 (0xf) | Exported Function | 0x0000000180002b20 | 0x00002b20
-`GetAppExecutionAliasPackageFullNameEx` | 14 (0xe) | Exported Function | 0x0000000180001eb0 | 0x00001eb0
-`GetAppExecutionAliasPackageFamilyNameEx` | 13 (0xd) | Exported Function | 0x0000000180001f00 | 0x00001f00
-`GetAppExecutionAliasExecutableEx` | 12 (0xc) | Exported Function | 0x0000000180001f90 | 0x00001f90
-`GetAppExecutionAliasApplicationUserModelIdEx` | 11 (0xb) | Exported Function | 0x0000000180001fc0 | 0x00001fc0
-`GetAppExecutionAliasApplicationType` | 10 (0xa) | Exported Function | 0x0000000180001ff0 | 0x00001ff0
-`FreeAppExecutionAliasInfoEx` | 9 (0x9) | Exported Function | 0x0000000180001a40 | 0x00001a40
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x00000001800013f0 | 0x000013f0
-`DllGetActivationFactory` | 7 (0x7) | Exported Function | 0x0000000180001540 | 0x00001540
-`DllCanUnloadNow` | 6 (0x6) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`CreateAppExecutionAliasEx2` | 5 (0x5) | Exported Function | 0x0000000180001af0 | 0x00001af0
-`CreateAppExecutionAliasEx` | 4 (0x4) | Exported Function | 0x0000000180001ae0 | 0x00001ae0
-`CompleteAppExecutionAliasProcessCreationEx` | 3 (0x3) | Exported Function | 0x0000000180002010 | 0x00002010
-`CloseAppExecutionAliasEx` | 2 (0x2) | Exported Function | 0x0000000180001e80 | 0x00001e80
-`PersistAppExecutionAliasToFileEx` | 19 (0x13) | Exported Function | 0x0000000180001db0 | 0x00001db0
-`PersistAppExecutionAliasToFileHandleEx` | 20 (0x14) | Exported Function | 0x0000000180001e60 | 0x00001e60
+Function Name | Ordinal | Type
+-- | -- | --
+`GetAppExecutionAliasPackageFullNameEx` | 14 | Exported Function
+`GetAppExecutionAliasPath` | 15 | Exported Function
+`GetAppExecutionAliasPackageFamilyNameEx` | 13 | Exported Function
+`GetAppExecutionAliasApplicationUserModelIdEx` | 11 | Exported Function
+`GetAppExecutionAliasExecutableEx` | 12 | Exported Function
+`PersistAppExecutionAliasToFileEx` | 19 | Exported Function
+`PersistAppExecutionAliasToFileHandleEx` | 20 | Exported Function
+`PerformAppxLicenseRundownEx` | 18 | Exported Function
+`LoadAppExecutionAliasInfoEx` | 16 | Exported Function
+`OpenAppExecutionAliasForUserEx` | 17 | Exported Function
+`CreateAppExecutionAliasEx` | 4 | Exported Function
+`CreateAppExecutionAliasEx2` | 5 | Exported Function
+`CompleteAppExecutionAliasProcessCreationEx` | 3 | Exported Function
+`CheckAppExecutionAliasApplicationType` | 1 | Exported Function
+`CloseAppExecutionAliasEx` | 2 | Exported Function
+`FreeAppExecutionAliasInfoEx` | 9 | Exported Function
+`GetAppExecutionAliasApplicationType` | 10 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`DllCanUnloadNow` | 6 | Exported Function
+`DllGetActivationFactory` | 7 | Exported Function
 
 
 ## Signature

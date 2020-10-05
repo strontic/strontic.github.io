@@ -24,9 +24,9 @@ PE256 | `59A81D1EAC43B657BB18B81883EC80C7904DFA1D89C39A8D13C4BAA3AFD730EB`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SdfMain` | 1 (0x1) | Exported Function | 0x00000001800010b0 | 0x000010b0
+Function Name | Ordinal | Type
+-- | -- | --
+`SdfMain` | 1 | Exported Function
 
 
 ## Signature

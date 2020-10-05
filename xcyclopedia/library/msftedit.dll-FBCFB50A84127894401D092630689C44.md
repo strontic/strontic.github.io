@@ -24,33 +24,33 @@ PE256 | `9239D16905C7F94E2966B49C5056F64BFB08D209FA521F8DE5C301AADE2BE952`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateTextServices` | 4 (0x4) | Exported Function | 0x000000018006c020 | 0x0006c020
-`SetCustomTextOutHandlerEx` | 11 (0xb) | Exported Function | 0x000000018012e910 | 0x0012e910
-`RichEditWndProc` | 13 (0xd) | Exported Function | 0x00000001800aac00 | 0x000aac00
-`RichEditANSIWndProc` | 9 (0x9) | Exported Function | 0x00000001801f97e0 | 0x001f97e0
-`RichEdit10ANSIWndProc` | 10 (0xa) | Exported Function | 0x00000001801f9730 | 0x001f9730
-`MathTranslate` | 19 (0x13) | Exported Function | 0x00000001801babc0 | 0x001babc0
-`MathBuildUp` | 17 (0x11) | Exported Function | 0x00000001801ba900 | 0x001ba900
-`MathBuildDown` | 18 (0x12) | Exported Function | 0x00000001801ba880 | 0x001ba880
-`IID_ITextServices2` | 25 (0x19) | Exported Function | 0x00000001802c8608 | 0x002c8608
-`IID_ITextServices` | 5 (0x5) | Exported Function | 0x00000001802c85e8 | 0x002c85e8
-`IID_ITextHost2` | 7 (0x7) | Exported Function | 0x00000001802c8c10 | 0x002c8c10
-`SetTextServicesDpiCalculationOverride` | 36 (0x24) | Exported Function | 0x000000018012e940 | 0x0012e940
-`IID_ITextHost` | 6 (0x6) | Exported Function | 0x00000001802c8768 | 0x002c8768
-`IID_IRicheditWindowlessAccessibility` | 32 (0x20) | Exported Function | 0x00000001802c85b8 | 0x002c85b8
-`IID_IRicheditUiaOverrides` | 33 (0x21) | Exported Function | 0x00000001802dbbb0 | 0x002dbbb0
-`IID_IRicheditUiaNotificationOverrides` | 37 (0x25) | Exported Function | 0x00000001802c7870 | 0x002c7870
-`IID_IRichEditOleCallback` | 3 (0x3) | Exported Function | 0x00000001802c86d8 | 0x002c86d8
-`IID_IRichEditOle` | 2 (0x2) | Exported Function | 0x00000001802c86e8 | 0x002c86e8
-`GetMathAlphanumericCode` | 21 (0x15) | Exported Function | 0x00000001801b1660 | 0x001b1660
-`GetMathAlphanumeric` | 22 (0x16) | Exported Function | 0x00000001801b12a0 | 0x001b12a0
-`DllGetVersion` | 12 (0xc) | Exported Function | 0x00000001800a3580 | 0x000a3580
-`DllGetActivationFactory` | 26 (0x1a) | Exported Function | 0x0000000180011ae0 | 0x00011ae0
-`DisableOleinitCheck` | 8 (0x8) | Exported Function | 0x000000018012e8e0 | 0x0012e8e0
-`IID_ITextDocument2` | 24 (0x18) | Exported Function | 0x00000001802c8658 | 0x002c8658
-`ShutdownTextServices` | 35 (0x23) | Exported Function | 0x00000001800839f0 | 0x000839f0
+Function Name | Ordinal | Type
+-- | -- | --
+`MathBuildDown` | 18 | Exported Function
+`MathBuildUp` | 17 | Exported Function
+`MathTranslate` | 19 | Exported Function
+`IID_ITextHost2` | 7 | Exported Function
+`IID_ITextServices` | 5 | Exported Function
+`IID_ITextServices2` | 25 | Exported Function
+`SetCustomTextOutHandlerEx` | 11 | Exported Function
+`SetTextServicesDpiCalculationOverride` | 36 | Exported Function
+`ShutdownTextServices` | 35 | Exported Function
+`RichEdit10ANSIWndProc` | 10 | Exported Function
+`RichEditANSIWndProc` | 9 | Exported Function
+`RichEditWndProc` | 13 | Exported Function
+`IID_ITextHost` | 6 | Exported Function
+`DllGetVersion` | 12 | Exported Function
+`GetMathAlphanumeric` | 22 | Exported Function
+`GetMathAlphanumericCode` | 21 | Exported Function
+`CreateTextServices` | 4 | Exported Function
+`DisableOleinitCheck` | 8 | Exported Function
+`DllGetActivationFactory` | 26 | Exported Function
+`IID_IRicheditUiaOverrides` | 33 | Exported Function
+`IID_IRicheditWindowlessAccessibility` | 32 | Exported Function
+`IID_ITextDocument2` | 24 | Exported Function
+`IID_IRichEditOle` | 2 | Exported Function
+`IID_IRichEditOleCallback` | 3 | Exported Function
+`IID_IRicheditUiaNotificationOverrides` | 37 | Exported Function
 
 
 ## Signature

@@ -24,30 +24,30 @@ PE256 | `631E8C04D280A26ED451D6986B87CC7BAE429FE1C275D4A84F39CC448CD16F19`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetComputerNameExA` | 1 (0x1) | Exported Function | kernel32.GetComputerNameExA | 0x0000119a
-`GetWindowsDirectoryW` | 20 (0x14) | Exported Function | kernel32.GetWindowsDirectoryW | 0x00001531
-`GetWindowsDirectoryA` | 19 (0x13) | Exported Function | kernel32.GetWindowsDirectoryA | 0x000014fe
-`GetVersionExW` | 18 (0x12) | Exported Function | kernel32.GetVersionExW | 0x000014d2
-`GetVersionExA` | 17 (0x11) | Exported Function | kernel32.GetVersionExA | 0x000014ad
-`GetVersion` | 16 (0x10) | Exported Function | kernel32.GetVersion | 0x0000148b
-`GetTickCount64` | 15 (0xf) | Exported Function | kernel32.GetTickCount64 | 0x00001468
-`GetTickCount` | 14 (0xe) | Exported Function | kernel32.GetTickCount | 0x00001443
-`GetSystemWindowsDirectoryW` | 13 (0xd) | Exported Function | kernel32.GetSystemWindowsDirectoryW | 0x00001412
-`GetSystemWindowsDirectoryA` | 12 (0xc) | Exported Function | kernel32.GetSystemWindowsDirectoryA | 0x000013d3
-`GetSystemTimeAsFileTime` | 11 (0xb) | Exported Function | kernel32.GetSystemTimeAsFileTime | 0x00001397
-`GetSystemTimeAdjustment` | 10 (0xa) | Exported Function | kernel32.GetSystemTimeAdjustment | 0x0000135e
-`GetSystemTime` | 9 (0x9) | Exported Function | kernel32.GetSystemTime | 0x0000132f
-`GetSystemInfo` | 8 (0x8) | Exported Function | kernel32.GetSystemInfo | 0x0000130a
-`GetSystemDirectoryW` | 7 (0x7) | Exported Function | kernel32.GetSystemDirectoryW | 0x000012df
-`GetSystemDirectoryA` | 6 (0x6) | Exported Function | kernel32.GetSystemDirectoryA | 0x000012ae
-`GetLogicalProcessorInformationEx` | 5 (0x5) | Exported Function | kernel32.GetLogicalProcessorInformationEx | 0x00001270
-`GetLogicalProcessorInformation` | 4 (0x4) | Exported Function | kernel32.GetLogicalProcessorInformation | 0x00001227
-`GetLocalTime` | 3 (0x3) | Exported Function | kernel32.GetLocalTime | 0x000011f2
-`GetComputerNameExW` | 2 (0x2) | Exported Function | kernel32.GetComputerNameExW | 0x000011c9
-`GlobalMemoryStatusEx` | 21 (0x15) | Exported Function | kernel32.GlobalMemoryStatusEx | 0x00001564
-`SetLocalTime` | 22 (0x16) | Exported Function | kernel32.SetLocalTime | 0x0000158f
+Function Name | Ordinal | Type
+-- | -- | --
+`GetTickCount64` | 15 | Exported Function
+`GetVersion` | 16 | Exported Function
+`GetTickCount` | 14 | Exported Function
+`GetSystemWindowsDirectoryA` | 12 | Exported Function
+`GetSystemWindowsDirectoryW` | 13 | Exported Function
+`GetVersionExA` | 17 | Exported Function
+`GlobalMemoryStatusEx` | 21 | Exported Function
+`SetLocalTime` | 22 | Exported Function
+`GetWindowsDirectoryW` | 20 | Exported Function
+`GetVersionExW` | 18 | Exported Function
+`GetWindowsDirectoryA` | 19 | Exported Function
+`GetLogicalProcessorInformation` | 4 | Exported Function
+`GetLogicalProcessorInformationEx` | 5 | Exported Function
+`GetLocalTime` | 3 | Exported Function
+`GetComputerNameExA` | 1 | Exported Function
+`GetComputerNameExW` | 2 | Exported Function
+`GetSystemDirectoryA` | 6 | Exported Function
+`GetSystemTimeAdjustment` | 10 | Exported Function
+`GetSystemTimeAsFileTime` | 11 | Exported Function
+`GetSystemTime` | 9 | Exported Function
+`GetSystemDirectoryW` | 7 | Exported Function
+`GetSystemInfo` | 8 | Exported Function
 
 
 ## Signature

@@ -24,25 +24,12 @@ PE256 | `E3FEA7A522BAF4BBA7CCE683FC2D0279EB9451E84D64F4D6348DC8B86B950FF3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CoGetComCatalog` | 15 (0xf) | Exported Function | 0x0000000180096aa0 | 0x00096aa0
-`Ordinal9` | 9 (0x9) | Exported Function | 0x00000001800d1620 | 0x000d1620
-`Ordinal8` | 8 (0x8) | Exported Function | 0x0000000180096c80 | 0x00096c80
-`Ordinal7` | 7 (0x7) | Exported Function | 0x00000001801398d8 | 0x001398d8
-`Ordinal6` | 6 (0x6) | Exported Function | 0x0000000180097000 | 0x00097000
-`Ordinal5` | 5 (0x5) | Exported Function | 0x0000000180097060 | 0x00097060
-`Ordinal4` | 4 (0x4) | Exported Function | 0x0000000180097020 | 0x00097020
-`ServiceMain` | 14 (0xe) | Exported Function | 0x00000001800539d0 | 0x000539d0
-`Ordinal3` | 3 (0x3) | Exported Function | 0x0000000180097090 | 0x00097090
-`Ordinal13` | 13 (0xd) | Exported Function | 0x0000000180096c00 | 0x00096c00
-`Ordinal12` | 12 (0xc) | Exported Function | 0x00000001800d0610 | 0x000d0610
-`Ordinal11` | 11 (0xb) | Exported Function | 0x00000001800d2bb0 | 0x000d2bb0
-`Ordinal10` | 10 (0xa) | Exported Function | 0x00000001800d1610 | 0x000d1610
-`Ordinal1` | 1 (0x1) | Exported Function | 0x0000000180097150 | 0x00097150
-`GetRPCSSInfo` | 16 (0x10) | Exported Function | 0x0000000180096ab0 | 0x00096ab0
-`Ordinal2` | 2 (0x2) | Exported Function | 0x0000000180097040 | 0x00097040
-`WhichService` | 17 (0x11) | Exported Function | 0x0000000180059ff0 | 0x00059ff0
+Function Name | Ordinal | Type
+-- | -- | --
+`ServiceMain` | 14 | Exported Function
+`WhichService` | 17 | Exported Function
+`CoGetComCatalog` | 15 | Exported Function
+`GetRPCSSInfo` | 16 | Exported Function
 
 
 ## Signature

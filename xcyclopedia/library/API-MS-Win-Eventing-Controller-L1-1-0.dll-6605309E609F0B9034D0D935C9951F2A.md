@@ -24,19 +24,19 @@ PE256 | `96D67EBE2302D7E9512C01660B41313700A9667F4BB70B8778AAAB0C0721CB20`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ControlTraceW` | 1 (0x1) | Exported Function | advapi32.ControlTraceW | 0x000011ee
-`EnableTraceEx2` | 2 (0x2) | Exported Function | advapi32.EnableTraceEx2 | 0x00001214
-`EnumerateTraceGuidsEx` | 3 (0x3) | Exported Function | advapi32.EnumerateTraceGuidsEx | 0x00001242
-`EventAccessControl` | 4 (0x4) | Exported Function | advapi32.EventAccessControl | 0x00001274
-`EventAccessQuery` | 5 (0x5) | Exported Function | advapi32.EventAccessQuery | 0x000012a1
-`EventAccessRemove` | 6 (0x6) | Exported Function | advapi32.EventAccessRemove | 0x000012cd
-`QueryAllTracesW` | 7 (0x7) | Exported Function | advapi32.QueryAllTracesW | 0x000012f8
-`StartTraceW` | 8 (0x8) | Exported Function | advapi32.StartTraceW | 0x0000131d
-`StopTraceW` | 9 (0x9) | Exported Function | advapi32.StopTraceW | 0x0000133d
-`TraceQueryInformation` | 10 (0xa) | Exported Function | advapi32.TraceQueryInformation | 0x00001367
-`TraceSetInformation` | 11 (0xb) | Exported Function | advapi32.TraceSetInformation | 0x0000139a
+Function Name | Ordinal | Type
+-- | -- | --
+`StartTraceW` | 8 | Exported Function
+`QueryAllTracesW` | 7 | Exported Function
+`StopTraceW` | 9 | Exported Function
+`TraceSetInformation` | 11 | Exported Function
+`TraceQueryInformation` | 10 | Exported Function
+`EventAccessRemove` | 6 | Exported Function
+`EnableTraceEx2` | 2 | Exported Function
+`ControlTraceW` | 1 | Exported Function
+`EnumerateTraceGuidsEx` | 3 | Exported Function
+`EventAccessQuery` | 5 | Exported Function
+`EventAccessControl` | 4 | Exported Function
 
 
 ## Signature

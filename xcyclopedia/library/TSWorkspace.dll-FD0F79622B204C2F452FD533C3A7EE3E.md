@@ -24,23 +24,23 @@ PE256 | `ED2D20B7384079023E2265C7C497EE19F0CC9EDA1D59D3ABDA87D6406CC60566`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateClaimsAuthResponseHeader` | 3 (0x3) | Exported Function | 0x0000000180003250 | 0x00003250
-`DllCanUnloadNow` | 12 (0xc) | Exported Function | 0x00000001800023b0 | 0x000023b0
-`DllGetClassObject` | 13 (0xd) | Exported Function | 0x00000001800023e0 | 0x000023e0
-`DllRegisterServer` | 14 (0xe) | Exported Function | 0x0000000180002490 | 0x00002490
-`DllUnregisterServer` | 15 (0xf) | Exported Function | 0x0000000180002630 | 0x00002630
-`RADCProcessGroupPolicyEx` | 5 (0x5) | Exported Function | 0x000000018000c6a0 | 0x0000c6a0
-`RADCUISupportCreateDiscoveryStrategy` | 2 (0x2) | Exported Function | 0x0000000180002fa0 | 0x00002fa0
-`RADCUISupportCreateSubscriptionClient` | 1 (0x1) | Exported Function | 0x0000000180002f90 | 0x00002f90
-`TaskUpdateWorkspaces` | 7 (0x7) | Exported Function | 0x00000001800028a0 | 0x000028a0
-`TaskUpdateWorkspaces2` | 6 (0x6) | Exported Function | 0x0000000180002d20 | 0x00002d20
-`TaskUpdateWorkspacesIfNeeded` | 8 (0x8) | Exported Function | 0x0000000180002a20 | 0x00002a20
-`TryParseClaimsAuthnHeader` | 4 (0x4) | Exported Function | 0x0000000180003060 | 0x00003060
-`WorkspaceSilentSetupW` | 9 (0x9) | Exported Function | 0x0000000180002ec0 | 0x00002ec0
-`WorkspaceStatusNotify` | 11 (0xb) | Exported Function | 0x0000000180002ba0 | 0x00002ba0
-`WorkspaceStatusNotify2` | 10 (0xa) | Exported Function | 0x0000000180002e60 | 0x00002e60
+Function Name | Ordinal | Type
+-- | -- | --
+`TaskUpdateWorkspacesIfNeeded` | 8 | Exported Function
+`TaskUpdateWorkspaces2` | 6 | Exported Function
+`TaskUpdateWorkspaces` | 7 | Exported Function
+`TryParseClaimsAuthnHeader` | 4 | Exported Function
+`WorkspaceStatusNotify2` | 10 | Exported Function
+`WorkspaceStatusNotify` | 11 | Exported Function
+`WorkspaceSilentSetupW` | 9 | Exported Function
+`RADCUISupportCreateSubscriptionClient` | 1 | Exported Function
+`DllGetClassObject` | 13 | Exported Function
+`DllCanUnloadNow` | 12 | Exported Function
+`CreateClaimsAuthResponseHeader` | 3 | Exported Function
+`DllRegisterServer` | 14 | Exported Function
+`RADCUISupportCreateDiscoveryStrategy` | 2 | Exported Function
+`RADCProcessGroupPolicyEx` | 5 | Exported Function
+`DllUnregisterServer` | 15 | Exported Function
 
 
 ## Signature

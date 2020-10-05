@@ -24,84 +24,84 @@ PE256 | `B142C958A640BF4EB3BA1E345A1719308693C326E09F2EE526FF21932FA3E6AC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ATMAddFont` | 1 (0x1) | Exported Function | 0x0000000150002870 | 0x00002870
-`ATMGetVersionExA` | 55 (0x37) | Exported Function | 0x0000000150003c00 | 0x00003c00
-`ATMGetVersionEx` | 54 (0x36) | Exported Function | 0x0000000150003e10 | 0x00003e10
-`ATMGetVersion` | 53 (0x35) | Exported Function | 0x0000000150003a70 | 0x00003a70
-`ATMGetPostScriptNameW` | 52 (0x34) | Exported Function | 0x0000000150003860 | 0x00003860
-`ATMGetPostScriptNameA` | 51 (0x33) | Exported Function | 0x0000000150003960 | 0x00003960
-`ATMGetPostScriptName` | 50 (0x32) | Exported Function | 0x0000000150003a60 | 0x00003a60
-`ATMGetOutlineW` | 49 (0x31) | Exported Function | 0x00000001500035a0 | 0x000035a0
-`ATMGetOutlineA` | 48 (0x30) | Exported Function | 0x00000001500037a0 | 0x000037a0
-`ATMGetOutline` | 47 (0x2f) | Exported Function | 0x0000000150003850 | 0x00003850
-`ATMGetNtmFieldsW` | 46 (0x2e) | Exported Function | 0x0000000150004350 | 0x00004350
-`ATMGetNtmFieldsA` | 45 (0x2d) | Exported Function | 0x0000000150004460 | 0x00004460
-`ATMGetNtmFields` | 44 (0x2c) | Exported Function | 0x00000001500044f0 | 0x000044f0
-`ATMGetMenuNameW` | 43 (0x2b) | Exported Function | 0x0000000150003360 | 0x00003360
-`ATMGetMenuNameA` | 42 (0x2a) | Exported Function | 0x0000000150003490 | 0x00003490
-`ATMGetMenuName` | 41 (0x29) | Exported Function | 0x0000000150003590 | 0x00003590
-`ATMGetVersionExW` | 56 (0x38) | Exported Function | 0x0000000150003cf0 | 0x00003cf0
-`ATMGetGlyphListW` | 40 (0x28) | Exported Function | 0x0000000150003e30 | 0x00003e30
-`ATMInstallSubstFontA` | 57 (0x39) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMMakePFM` | 59 (0x3b) | Exported Function | 0x00000001500042e0 | 0x000042e0
-`ATMXYShowText` | 74 (0x4a) | Exported Function | 0x0000000150003e20 | 0x00003e20
-`ATMSetFlags` | 73 (0x49) | Exported Function | 0x00000001500042f0 | 0x000042f0
-`ATMSelectObject` | 72 (0x48) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMSelectEncoding` | 71 (0x47) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMRemoveSubstFontW` | 70 (0x46) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMRemoveSubstFontA` | 69 (0x45) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMRemoveFontW` | 68 (0x44) | Exported Function | 0x0000000150002880 | 0x00002880
-`ATMRemoveFontA` | 67 (0x43) | Exported Function | 0x0000000150002df0 | 0x00002df0
-`ATMRemoveFont` | 66 (0x42) | Exported Function | 0x0000000150002ea0 | 0x00002ea0
-`ATMProperlyLoaded` | 65 (0x41) | Exported Function | 0x00000001500017d0 | 0x000017d0
-`ATMMakePSSW` | 64 (0x40) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMMakePSSA` | 63 (0x3f) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMMakePSS` | 62 (0x3e) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMMakePFMW` | 61 (0x3d) | Exported Function | 0x0000000150003e50 | 0x00003e50
-`ATMMakePFMA` | 60 (0x3c) | Exported Function | 0x00000001500041e0 | 0x000041e0
-`ATMInstallSubstFontW` | 58 (0x3a) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMGetGlyphListA` | 39 (0x27) | Exported Function | 0x0000000150003e40 | 0x00003e40
-`ATMGetGlyphList` | 38 (0x26) | Exported Function | 0x0000000150003e40 | 0x00003e40
-`ATMGetFontPathsW` | 37 (0x25) | Exported Function | 0x00000001500018f0 | 0x000018f0
-`ATMEnumMMFonts` | 16 (0x10) | Exported Function | 0x0000000150003090 | 0x00003090
-`ATMEnumFontsW` | 15 (0xf) | Exported Function | 0x0000000150002f60 | 0x00002f60
-`ATMEnumFontsA` | 14 (0xe) | Exported Function | 0x0000000150002f90 | 0x00002f90
-`ATMEnumFonts` | 13 (0xd) | Exported Function | 0x0000000150002f90 | 0x00002f90
-`ATMEndFontChange` | 12 (0xc) | Exported Function | 0x0000000150002ef0 | 0x00002ef0
-`ATMClient` | 11 (0xb) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMBeginFontChange` | 10 (0xa) | Exported Function | 0x0000000150001870 | 0x00001870
-`ATMBBoxBaseXYShowTextW` | 9 (0x9) | Exported Function | 0x0000000150003e20 | 0x00003e20
-`ATMBBoxBaseXYShowTextA` | 8 (0x8) | Exported Function | 0x0000000150003e20 | 0x00003e20
-`ATMBBoxBaseXYShowText` | 7 (0x7) | Exported Function | 0x0000000150003e20 | 0x00003e20
-`ATMAddFontW` | 6 (0x6) | Exported Function | 0x0000000150002650 | 0x00002650
-`ATMAddFontExW` | 5 (0x5) | Exported Function | 0x0000000150001c10 | 0x00001c10
-`ATMAddFontExA` | 4 (0x4) | Exported Function | 0x0000000150002480 | 0x00002480
-`ATMAddFontEx` | 3 (0x3) | Exported Function | 0x0000000150002640 | 0x00002640
-`ATMAddFontA` | 2 (0x2) | Exported Function | 0x0000000150002730 | 0x00002730
-`ATMEnumMMFontsA` | 17 (0x11) | Exported Function | 0x0000000150002ff0 | 0x00002ff0
-`ATMEnumMMFontsW` | 18 (0x12) | Exported Function | 0x0000000150002fc0 | 0x00002fc0
-`ATMFinish` | 19 (0x13) | Exported Function | 0x00000001500018b0 | 0x000018b0
-`ATMFontAvailable` | 20 (0x14) | Exported Function | 0x0000000150003280 | 0x00003280
-`ATMGetFontPathsA` | 36 (0x24) | Exported Function | 0x0000000150001a30 | 0x00001a30
-`ATMGetFontPaths` | 35 (0x23) | Exported Function | 0x0000000150001c00 | 0x00001c00
-`ATMGetFontInfoW` | 34 (0x22) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMGetFontInfoA` | 33 (0x21) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMGetFontInfo` | 32 (0x20) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMGetFontBBox` | 31 (0x1f) | Exported Function | 0x00000001500032d0 | 0x000032d0
-`ATMGetBuildStrW` | 30 (0x1e) | Exported Function | 0x0000000150003aa0 | 0x00003aa0
-`ATMXYShowTextA` | 75 (0x4b) | Exported Function | 0x0000000150003e20 | 0x00003e20
-`ATMGetBuildStrA` | 29 (0x1d) | Exported Function | 0x0000000150003bc0 | 0x00003bc0
-`ATMForceFontChange` | 27 (0x1b) | Exported Function | 0x0000000150002ec0 | 0x00002ec0
-`ATMFontStatusW` | 26 (0x1a) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMFontStatusA` | 25 (0x19) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMFontStatus` | 24 (0x18) | Exported Function | 0x0000000150002eb0 | 0x00002eb0
-`ATMFontSelected` | 23 (0x17) | Exported Function | 0x0000000150003290 | 0x00003290
-`ATMFontAvailableW` | 22 (0x16) | Exported Function | 0x00000001500030a0 | 0x000030a0
-`ATMFontAvailableA` | 21 (0x15) | Exported Function | 0x00000001500031c0 | 0x000031c0
-`ATMGetBuildStr` | 28 (0x1c) | Exported Function | 0x0000000150003be0 | 0x00003be0
-`ATMXYShowTextW` | 76 (0x4c) | Exported Function | 0x0000000150003e20 | 0x00003e20
+Function Name | Ordinal | Type
+-- | -- | --
+`ATMGetPostScriptNameA` | 51 | Exported Function
+`ATMGetPostScriptNameW` | 52 | Exported Function
+`ATMGetOutlineW` | 49 | Exported Function
+`ATMGetPostScriptName` | 50 | Exported Function
+`ATMGetVersion` | 53 | Exported Function
+`ATMGetVersionExW` | 56 | Exported Function
+`ATMInstallSubstFontA` | 57 | Exported Function
+`ATMGetVersionEx` | 54 | Exported Function
+`ATMGetVersionExA` | 55 | Exported Function
+`ATMGetOutlineA` | 48 | Exported Function
+`ATMGetMenuName` | 41 | Exported Function
+`ATMGetMenuNameA` | 42 | Exported Function
+`ATMGetGlyphListA` | 39 | Exported Function
+`ATMGetGlyphListW` | 40 | Exported Function
+`ATMGetMenuNameW` | 43 | Exported Function
+`ATMGetNtmFieldsW` | 46 | Exported Function
+`ATMGetOutline` | 47 | Exported Function
+`ATMGetNtmFields` | 44 | Exported Function
+`ATMGetNtmFieldsA` | 45 | Exported Function
+`ATMRemoveSubstFontW` | 70 | Exported Function
+`ATMSelectEncoding` | 71 | Exported Function
+`ATMRemoveFontW` | 68 | Exported Function
+`ATMRemoveSubstFontA` | 69 | Exported Function
+`ATMSelectObject` | 72 | Exported Function
+`ATMXYShowTextA` | 75 | Exported Function
+`ATMXYShowTextW` | 76 | Exported Function
+`ATMSetFlags` | 73 | Exported Function
+`ATMXYShowText` | 74 | Exported Function
+`ATMRemoveFontA` | 67 | Exported Function
+`ATMMakePFMA` | 60 | Exported Function
+`ATMMakePFMW` | 61 | Exported Function
+`ATMInstallSubstFontW` | 58 | Exported Function
+`ATMMakePFM` | 59 | Exported Function
+`ATMMakePSS` | 62 | Exported Function
+`ATMProperlyLoaded` | 65 | Exported Function
+`ATMRemoveFont` | 66 | Exported Function
+`ATMMakePSSA` | 63 | Exported Function
+`ATMMakePSSW` | 64 | Exported Function
+`ATMEnumFonts` | 13 | Exported Function
+`ATMEnumFontsA` | 14 | Exported Function
+`ATMClient` | 11 | Exported Function
+`ATMEndFontChange` | 12 | Exported Function
+`ATMEnumFontsW` | 15 | Exported Function
+`ATMEnumMMFontsW` | 18 | Exported Function
+`ATMFinish` | 19 | Exported Function
+`ATMEnumMMFonts` | 16 | Exported Function
+`ATMEnumMMFontsA` | 17 | Exported Function
+`ATMBeginFontChange` | 10 | Exported Function
+`ATMAddFontEx` | 3 | Exported Function
+`ATMAddFontExA` | 4 | Exported Function
+`ATMAddFont` | 1 | Exported Function
+`ATMAddFontA` | 2 | Exported Function
+`ATMAddFontExW` | 5 | Exported Function
+`ATMBBoxBaseXYShowTextA` | 8 | Exported Function
+`ATMBBoxBaseXYShowTextW` | 9 | Exported Function
+`ATMAddFontW` | 6 | Exported Function
+`ATMBBoxBaseXYShowText` | 7 | Exported Function
+`ATMGetFontInfo` | 32 | Exported Function
+`ATMGetFontInfoA` | 33 | Exported Function
+`ATMGetBuildStrW` | 30 | Exported Function
+`ATMGetFontBBox` | 31 | Exported Function
+`ATMGetFontInfoW` | 34 | Exported Function
+`ATMGetFontPathsW` | 37 | Exported Function
+`ATMGetGlyphList` | 38 | Exported Function
+`ATMGetFontPaths` | 35 | Exported Function
+`ATMGetFontPathsA` | 36 | Exported Function
+`ATMGetBuildStrA` | 29 | Exported Function
+`ATMFontAvailableW` | 22 | Exported Function
+`ATMFontSelected` | 23 | Exported Function
+`ATMFontAvailable` | 20 | Exported Function
+`ATMFontAvailableA` | 21 | Exported Function
+`ATMFontStatus` | 24 | Exported Function
+`ATMForceFontChange` | 27 | Exported Function
+`ATMGetBuildStr` | 28 | Exported Function
+`ATMFontStatusA` | 25 | Exported Function
+`ATMFontStatusW` | 26 | Exported Function
 
 
 ## Signature

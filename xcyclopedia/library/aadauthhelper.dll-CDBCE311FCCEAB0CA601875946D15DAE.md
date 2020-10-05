@@ -24,18 +24,18 @@ PE256 | `81A281E81400B024973490DBF0BA58BA31EE200B8CA396A3C74F076B74909824`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseFidoAuthenticationSession` | 1 (0x1) | Exported Function | 0x100174e0 | 0x000174e0
-`CreateAuthBuffer` | 2 (0x2) | Exported Function | 0x100172e0 | 0x000172e0
-`CreateResourceAccountAuthBuffer` | 3 (0x3) | Exported Function | 0x10017340 | 0x00017340
-`CreateTokenAuthBuffer` | 4 (0x4) | Exported Function | 0x10017300 | 0x00017300
-`CreateTokenAuthBufferEx` | 5 (0x5) | Exported Function | 0x10017320 | 0x00017320
-`GetFidoAuthenticationSessionStatus` | 6 (0x6) | Exported Function | 0x10017420 | 0x00017420
-`GetSerializedAuthBuffer` | 7 (0x7) | Exported Function | 0x10017710 | 0x00017710
-`StartChangingFidoPin` | 8 (0x8) | Exported Function | 0x10017650 | 0x00017650
-`StartFidoAuthenticationSession` | 9 (0x9) | Exported Function | 0x10017360 | 0x00017360
-`StartSigningFidoClientData` | 10 (0xa) | Exported Function | 0x10017590 | 0x00017590
+Function Name | Ordinal | Type
+-- | -- | --
+`GetSerializedAuthBuffer` | 7 | Exported Function
+`GetFidoAuthenticationSessionStatus` | 6 | Exported Function
+`StartChangingFidoPin` | 8 | Exported Function
+`StartSigningFidoClientData` | 10 | Exported Function
+`StartFidoAuthenticationSession` | 9 | Exported Function
+`CreateAuthBuffer` | 2 | Exported Function
+`CloseFidoAuthenticationSession` | 1 | Exported Function
+`CreateResourceAccountAuthBuffer` | 3 | Exported Function
+`CreateTokenAuthBufferEx` | 5 | Exported Function
+`CreateTokenAuthBuffer` | 4 | Exported Function
 
 
 ## Signature

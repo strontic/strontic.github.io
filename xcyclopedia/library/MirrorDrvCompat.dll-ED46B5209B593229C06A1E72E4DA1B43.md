@@ -24,9 +24,9 @@ PE256 | `163F06020FF92FE9087D59D63F7C9D3970416B572587AE80D8E64259CAA26723`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MirrorDrvLoadedNotify` | 1 (0x1) | Exported Function | 0x10001c30 | 0x00001c30
+Function Name | Ordinal | Type
+-- | -- | --
+`MirrorDrvLoadedNotify` | 1 | Exported Function
 
 
 ## Signature

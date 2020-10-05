@@ -24,9 +24,9 @@ PE256 | `642A1DF9FF1B15B8E8DDB32F47241CA9E6427CBB580E90221DF2595F1D11103C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`IRCoInstaller` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+Function Name | Ordinal | Type
+-- | -- | --
+`IRCoInstaller` | 1 | Exported Function
 
 
 ## Signature

@@ -24,10 +24,10 @@ PE256 | `409CBAC7188CB45C55C5631F5C4E12570E4E851FDE0EB62330325537CC55255A`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`KAMSS_DeregisterProvider` | 1 (0x1) | Exported Function | 0x000000018000b4e0 | 0x0000b4e0
-`KAMSS_RegisterProvider` | 2 (0x2) | Exported Function | 0x000000018000af30 | 0x0000af30
+Function Name | Ordinal | Type
+-- | -- | --
+`KAMSS_RegisterProvider` | 2 | Exported Function
+`KAMSS_DeregisterProvider` | 1 | Exported Function
 
 
 ## Signature

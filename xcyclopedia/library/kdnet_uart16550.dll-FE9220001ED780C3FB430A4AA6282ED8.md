@@ -24,9 +24,9 @@ PE256 | `D5E9F97C99EC15EFA871BE81135E1D55F2826CC0B9D723BE028973D63876AF8E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`KdInitializeLibrary` | 1 (0x1) | Exported Function | 0x00000001c0001080 | 0x00001080
+Function Name | Ordinal | Type
+-- | -- | --
+`KdInitializeLibrary` | 1 | Exported Function
 
 
 ## Signature

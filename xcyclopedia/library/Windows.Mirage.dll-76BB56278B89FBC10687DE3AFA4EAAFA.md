@@ -24,14 +24,14 @@ PE256 | `F06020CD8FF3D0A836C4913538C193D2DD2121BF1E0A48B9C709F4B62D7698A0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x00000001800121c0 | 0x000121c0
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x0000000180011af0 | 0x00011af0
-`DllGetActivationFactoryMirage` | 3 (0x3) | Exported Function | 0x0000000180011af0 | 0x00011af0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x0000000180011c60 | 0x00011c60
-`DllGetClassObjectMirage` | 5 (0x5) | Exported Function | 0x0000000180011c60 | 0x00011c60
-`InjectDependency` | 6 (0x6) | Exported Function | 0x0000000180011d50 | 0x00011d50
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 4 | Exported Function
+`DllGetClassObjectMirage` | 5 | Exported Function
+`InjectDependency` | 6 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
+`DllGetActivationFactoryMirage` | 3 | Exported Function
 
 
 ## Signature

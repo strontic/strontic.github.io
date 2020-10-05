@@ -24,13 +24,13 @@ PE256 | `777605AF54C1EE487134DF4D9567230AE56AB8245C00CCD85E64DFEA4B047BE5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CloseLayoutPolicyCheckerInstance` | 5 (0x5) | Exported Function | 0x0000000180003ec0 | 0x00003ec0
-`GetAllDefaultApps` | 6 (0x6) | Exported Function | 0x0000000180005430 | 0x00005430
-`GetDefaultAppsList` | 2 (0x2) | Exported Function | 0x0000000180005060 | 0x00005060
-`GetLayoutPolicy` | 4 (0x4) | Exported Function | 0x0000000180003e70 | 0x00003e70
-`GetLayoutPolicyCheckerInstance` | 3 (0x3) | Exported Function | 0x0000000180003e10 | 0x00003e10
+Function Name | Ordinal | Type
+-- | -- | --
+`GetLayoutPolicy` | 4 | Exported Function
+`GetLayoutPolicyCheckerInstance` | 3 | Exported Function
+`GetDefaultAppsList` | 2 | Exported Function
+`CloseLayoutPolicyCheckerInstance` | 5 | Exported Function
+`GetAllDefaultApps` | 6 | Exported Function
 
 
 ## Signature

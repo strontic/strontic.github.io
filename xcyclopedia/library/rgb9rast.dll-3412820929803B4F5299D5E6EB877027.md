@@ -23,38 +23,38 @@ PE256 | `D9F9747B052EED22A67FFBB0C9F4A89AC72722E9D4D2137A58AF85A01D319B9B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`D3D9GetSWInfo` | 30 (0x1e) | Exported Function | 0x10002590 | 0x00002590
-`public: void __thiscall PrimProcessor::SetCtx(struct tagD3DI_RASTCTX *)` | 24 (0x18) | Exported Function | 0x100070d0 | 0x000070d0
-`public: void __thiscall PrimProcessor::FreeSpans(unsigned int)` | 13 (0xd) | Exported Function | 0x10007160 | 0x00007160
-`public: void __thiscall PrimProcessor::ClrFlags(unsigned int)` | 8 (0x8) | Exported Function | 0x10002560 | 0x00002560
-`public: void __thiscall PrimProcessor::BeginPrimSet(enum _D3DPRIMITIVETYPE,enum _RAST_VERTEX_TYPE)` | 7 (0x7) | Exported Function | 0x10007180 | 0x00007180
-`public: void __thiscall PrimProcessor::Begin(void)` | 6 (0x6) | Exported Function | 0x10007050 | 0x00007050
-`public: unsigned int __thiscall PrimProcessor::GetFlags(void)` | 14 (0xe) | Exported Function | 0x10002530 | 0x00002530
-`public: long __thiscall PrimProcessor::Tri(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 28 (0x1c) | Exported Function | 0x10009890 | 0x00009890
-`public: long __thiscall PrimProcessor::Point(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 21 (0x15) | Exported Function | 0x10007760 | 0x00007760
-`public: long __thiscall PrimProcessor::Line(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 16 (0x10) | Exported Function | 0x10007b50 | 0x00007b50
-`public: long __thiscall PrimProcessor::Initialize(void)` | 15 (0xf) | Exported Function | 0x10006e50 | 0x00006e50
-`public: long __thiscall PrimProcessor::End(void)` | 9 (0x9) | Exported Function | 0x10007090 | 0x00007090
-`public: long __thiscall PrimProcessor::AllocSpans(unsigned int *,struct tagD3DI_RASTSPAN * *)` | 4 (0x4) | Exported Function | 0x100070f0 | 0x000070f0
-`public: class PrimProcessor & __thiscall PrimProcessor::operator=(class PrimProcessor const &)` | 3 (0x3) | Exported Function | 0x10002510 | 0x00002510
-`public: __thiscall PrimProcessor::~PrimProcessor(void)` | 2 (0x2) | Exported Function | 0x10006ea0 | 0x00006ea0
-`public: __thiscall PrimProcessor::PrimProcessor(void)` | 1 (0x1) | Exported Function | 0x10006e10 | 0x00006e10
-`private: void __thiscall PrimProcessor::SetTriFunctions(void)` | 26 (0x1a) | Exported Function | 0x10009800 | 0x00009800
-`private: void __thiscall PrimProcessor::ResetBuffer(void)` | 23 (0x17) | Exported Function | 0x10006ec0 | 0x00006ec0
-`private: void __thiscall PrimProcessor::NormalizeTriRHW(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 20 (0x14) | Exported Function | 0x10008d30 | 0x00008d30
-`private: void __thiscall PrimProcessor::NormalizePointRHW(struct _D3DTLVERTEX *)` | 19 (0x13) | Exported Function | 0x10007710 | 0x00007710
-`private: void __thiscall PrimProcessor::NormalizeLineRHW(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 18 (0x12) | Exported Function | 0x10008690 | 0x00008690
-`private: void __thiscall PrimProcessor::FillPointSpan(struct _D3DTLVERTEX *,struct tagD3DI_RASTSPAN *)` | 10 (0xa) | Exported Function | 0x10007410 | 0x00007410
-`private: long __thiscall PrimProcessor::FlushPartial(void)` | 12 (0xc) | Exported Function | 0x10006f40 | 0x00006f40
-`private: long __thiscall PrimProcessor::Flush(void)` | 11 (0xb) | Exported Function | 0x10006ee0 | 0x00006ee0
-`private: long __thiscall PrimProcessor::AppendPrim(void)` | 5 (0x5) | Exported Function | 0x10006fe0 | 0x00006fe0
-`private: int __thiscall PrimProcessor::TriSetup(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 29 (0x1d) | Exported Function | 0x10008e00 | 0x00008e00
-`private: int __thiscall PrimProcessor::PointDiamondCheck(int,int,int,int)` | 22 (0x16) | Exported Function | 0x10008700 | 0x00008700
-`private: int __thiscall PrimProcessor::LineSetup(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 17 (0x11) | Exported Function | 0x10008770 | 0x00008770
-`public: void __thiscall PrimProcessor::SetFlags(unsigned int)` | 25 (0x19) | Exported Function | 0x10002540 | 0x00002540
-`public: void __thiscall PrimProcessor::StateChanged(void)` | 27 (0x1b) | Exported Function | 0x10002580 | 0x00002580
+Function Name | Ordinal | Type
+-- | -- | --
+`public: long __thiscall PrimProcessor::Line(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 16 | Exported Function
+`public: long __thiscall PrimProcessor::Point(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 21 | Exported Function
+`public: long __thiscall PrimProcessor::Tri(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 28 | Exported Function
+`public: long __thiscall PrimProcessor::Initialize(void)` | 15 | Exported Function
+`public: class PrimProcessor & __thiscall PrimProcessor::operator=(class PrimProcessor const &)` | 3 | Exported Function
+`public: long __thiscall PrimProcessor::AllocSpans(unsigned int *,struct tagD3DI_RASTSPAN * *)` | 4 | Exported Function
+`public: long __thiscall PrimProcessor::End(void)` | 9 | Exported Function
+`public: unsigned int __thiscall PrimProcessor::GetFlags(void)` | 14 | Exported Function
+`public: void __thiscall PrimProcessor::SetCtx(struct tagD3DI_RASTCTX *)` | 24 | Exported Function
+`public: void __thiscall PrimProcessor::SetFlags(unsigned int)` | 25 | Exported Function
+`public: void __thiscall PrimProcessor::StateChanged(void)` | 27 | Exported Function
+`public: void __thiscall PrimProcessor::FreeSpans(unsigned int)` | 13 | Exported Function
+`public: void __thiscall PrimProcessor::Begin(void)` | 6 | Exported Function
+`public: void __thiscall PrimProcessor::BeginPrimSet(enum _D3DPRIMITIVETYPE,enum _RAST_VERTEX_TYPE)` | 7 | Exported Function
+`public: void __thiscall PrimProcessor::ClrFlags(unsigned int)` | 8 | Exported Function
+`private: long __thiscall PrimProcessor::AppendPrim(void)` | 5 | Exported Function
+`private: long __thiscall PrimProcessor::Flush(void)` | 11 | Exported Function
+`private: long __thiscall PrimProcessor::FlushPartial(void)` | 12 | Exported Function
+`private: int __thiscall PrimProcessor::TriSetup(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 29 | Exported Function
+`D3D9GetSWInfo` | 30 | Exported Function
+`private: int __thiscall PrimProcessor::LineSetup(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 17 | Exported Function
+`private: int __thiscall PrimProcessor::PointDiamondCheck(int,int,int,int)` | 22 | Exported Function
+`private: void __thiscall PrimProcessor::FillPointSpan(struct _D3DTLVERTEX *,struct tagD3DI_RASTSPAN *)` | 10 | Exported Function
+`private: void __thiscall PrimProcessor::SetTriFunctions(void)` | 26 | Exported Function
+`public: __thiscall PrimProcessor::PrimProcessor(void)` | 1 | Exported Function
+`public: __thiscall PrimProcessor::~PrimProcessor(void)` | 2 | Exported Function
+`private: void __thiscall PrimProcessor::ResetBuffer(void)` | 23 | Exported Function
+`private: void __thiscall PrimProcessor::NormalizeLineRHW(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 18 | Exported Function
+`private: void __thiscall PrimProcessor::NormalizePointRHW(struct _D3DTLVERTEX *)` | 19 | Exported Function
+`private: void __thiscall PrimProcessor::NormalizeTriRHW(struct _D3DTLVERTEX *,struct _D3DTLVERTEX *,struct _D3DTLVERTEX *)` | 20 | Exported Function
 
 
 ## Signature

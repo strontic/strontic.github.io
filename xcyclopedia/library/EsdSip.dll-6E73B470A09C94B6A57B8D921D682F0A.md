@@ -24,19 +24,19 @@ PE256 | `28EB97BA388D69630A5D96161F1C2702EE47FA1E4285B57634A11EA98A775E7B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 8 (0x8) | Exported Function | 0x0000000180001040 | 0x00001040
-`DllMain` | 9 (0x9) | Exported Function | 0x0000000180001010 | 0x00001010
-`DllRegisterServer` | 10 (0xa) | Exported Function | 0x0000000180001050 | 0x00001050
-`DllUnregisterServer` | 11 (0xb) | Exported Function | 0x00000001800011e0 | 0x000011e0
-`EsdSipCreateHash` | 1 (0x1) | Exported Function | 0x00000001800017d0 | 0x000017d0
-`EsdSipDelSignature` | 2 (0x2) | Exported Function | 0x0000000180001660 | 0x00001660
-`EsdSipGetCaps` | 3 (0x3) | Exported Function | 0x0000000180001190 | 0x00001190
-`EsdSipGetSignature` | 4 (0x4) | Exported Function | 0x0000000180001340 | 0x00001340
-`EsdSipIsMyFileType` | 5 (0x5) | Exported Function | 0x0000000180001210 | 0x00001210
-`EsdSipPutSignature` | 6 (0x6) | Exported Function | 0x00000001800014c0 | 0x000014c0
-`EsdSipVerifyHash` | 7 (0x7) | Exported Function | 0x0000000180001d30 | 0x00001d30
+Function Name | Ordinal | Type
+-- | -- | --
+`EsdSipGetSignature` | 4 | Exported Function
+`EsdSipGetCaps` | 3 | Exported Function
+`EsdSipIsMyFileType` | 5 | Exported Function
+`EsdSipVerifyHash` | 7 | Exported Function
+`EsdSipPutSignature` | 6 | Exported Function
+`EsdSipDelSignature` | 2 | Exported Function
+`DllMain` | 9 | Exported Function
+`DllCanUnloadNow` | 8 | Exported Function
+`DllRegisterServer` | 10 | Exported Function
+`EsdSipCreateHash` | 1 | Exported Function
+`DllUnregisterServer` | 11 | Exported Function
 
 
 ## Signature

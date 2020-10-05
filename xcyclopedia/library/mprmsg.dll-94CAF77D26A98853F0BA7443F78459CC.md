@@ -24,9 +24,9 @@ PE256 | `C6BB142EE6CD1FDD68B8F5D37D7B2557C3D86702A6993EC115D025877F3953AE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`MprmsgGetErrorString` | 1 (0x1) | Exported Function | 0x100013a0 | 0x000013a0
+Function Name | Ordinal | Type
+-- | -- | --
+`MprmsgGetErrorString` | 1 | Exported Function
 
 
 ## Signature

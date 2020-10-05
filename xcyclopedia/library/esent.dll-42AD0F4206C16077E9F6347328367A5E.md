@@ -24,673 +24,673 @@ PE256 | `10CCAB06430C960172A32B1B85CB5C9B089BE58C959109C4634EA3EA41175045`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DebugExtensionInitialize` | 290 (0x122) | Exported Function | 0x1026b2d0 | 0x0026b2d0
-`JetOpenFileInstanceW@20` | 198 (0xc6) | Exported Function | 0x101f1b10 | 0x001f1b10
-`JetOpenFileSectionInstance` | 553 (0x229) | Exported Function | 0x101f1d00 | 0x001f1d00
-`JetOpenFileSectionInstanceA` | 554 (0x22a) | Exported Function | 0x101f1d00 | 0x001f1d00
-`JetOpenFileSectionInstanceA@36` | 199 (0xc7) | Exported Function | 0x101f1d00 | 0x001f1d00
-`JetOpenFileSectionInstanceW` | 555 (0x22b) | Exported Function | 0x101f1fd0 | 0x001f1fd0
-`JetOpenFileSectionInstanceW@36` | 200 (0xc8) | Exported Function | 0x101f1fd0 | 0x001f1fd0
-`JetOpenFileW` | 556 (0x22c) | Exported Function | 0x101f2210 | 0x001f2210
-`JetOpenFileInstanceW` | 552 (0x228) | Exported Function | 0x101f1b10 | 0x001f1b10
-`JetOpenFileW@16` | 201 (0xc9) | Exported Function | 0x101f2210 | 0x001f2210
-`JetOpenTableA` | 558 (0x22e) | Exported Function | 0x1009e7b0 | 0x0009e7b0
-`JetOpenTableA@28` | 202 (0xca) | Exported Function | 0x1009e7b0 | 0x0009e7b0
-`JetOpenTableW` | 559 (0x22f) | Exported Function | 0x10083680 | 0x00083680
-`JetOpenTableW@28` | 203 (0xcb) | Exported Function | 0x10083680 | 0x00083680
-`JetOpenTemporaryTable` | 564 (0x234) | Exported Function | 0x101f2c70 | 0x001f2c70
-`JetOpenTemporaryTable2` | 563 (0x233) | Exported Function | 0x101f2a60 | 0x001f2a60
-`JetOpenTemporaryTable2@8` | 207 (0xcf) | Exported Function | 0x101f2a60 | 0x001f2a60
-`JetOpenTable` | 557 (0x22d) | Exported Function | 0x1009e7b0 | 0x0009e7b0
-`JetOpenFileInstanceA@20` | 197 (0xc5) | Exported Function | 0x101f1780 | 0x001f1780
-`JetOpenFileInstanceA` | 551 (0x227) | Exported Function | 0x101f1780 | 0x001f1780
-`JetOpenFileInstance` | 550 (0x226) | Exported Function | 0x101f1780 | 0x001f1780
-`JetInit@4` | 178 (0xb2) | Exported Function | 0x1007a1b0 | 0x0007a1b0
-`JetIntersectIndexes` | 528 (0x210) | Exported Function | 0x10098090 | 0x00098090
-`JetIntersectIndexes@20` | 179 (0xb3) | Exported Function | 0x10098090 | 0x00098090
-`JetMakeKey` | 529 (0x211) | Exported Function | 0x100a4470 | 0x000a4470
-`JetMakeKey@20` | 180 (0xb4) | Exported Function | 0x100a4470 | 0x000a4470
-`JetMove` | 530 (0x212) | Exported Function | 0x100c0270 | 0x000c0270
-`JetMove@16` | 181 (0xb5) | Exported Function | 0x100c0270 | 0x000c0270
-`JetOnlinePatchDatabasePage` | 544 (0x220) | Exported Function | 0x101f1450 | 0x001f1450
-`JetOnlinePatchDatabasePage@32` | 193 (0xc1) | Exported Function | 0x101f1450 | 0x001f1450
-`JetOpenDatabase` | 545 (0x221) | Exported Function | 0x1010e490 | 0x0010e490
-`JetOpenDatabaseA` | 546 (0x222) | Exported Function | 0x1010e490 | 0x0010e490
-`JetOpenDatabaseA@20` | 194 (0xc2) | Exported Function | 0x1010e490 | 0x0010e490
-`JetOpenDatabaseW` | 547 (0x223) | Exported Function | 0x100d1dd0 | 0x000d1dd0
-`JetOpenDatabaseW@20` | 195 (0xc3) | Exported Function | 0x100d1dd0 | 0x000d1dd0
-`JetOpenFile` | 548 (0x224) | Exported Function | 0x101f1750 | 0x001f1750
-`JetOpenFileA` | 549 (0x225) | Exported Function | 0x101f1750 | 0x001f1750
-`JetOpenFileA@16` | 196 (0xc4) | Exported Function | 0x101f1750 | 0x001f1750
-`JetOpenTemporaryTable@8` | 208 (0xd0) | Exported Function | 0x101f2c70 | 0x001f2c70
-`JetOpenTempTable` | 562 (0x232) | Exported Function | 0x101f26d0 | 0x001f26d0
-`JetOpenTempTable2` | 560 (0x230) | Exported Function | 0x101f2240 | 0x001f2240
-`JetOpenTempTable2@28` | 204 (0xcc) | Exported Function | 0x101f2240 | 0x001f2240
-`JetOSSnapshotThaw` | 541 (0x21d) | Exported Function | 0x101f0d90 | 0x001f0d90
-`JetOSSnapshotThaw@8` | 190 (0xbe) | Exported Function | 0x101f0d90 | 0x001f0d90
-`JetOSSnapshotTruncateLog` | 542 (0x21e) | Exported Function | 0x101f0f80 | 0x001f0f80
-`JetOSSnapshotTruncateLog@8` | 191 (0xbf) | Exported Function | 0x101f0f80 | 0x001f0f80
-`JetOSSnapshotTruncateLogInstance` | 543 (0x21f) | Exported Function | 0x101f1170 | 0x001f1170
-`JetOSSnapshotTruncateLogInstance@12` | 192 (0xc0) | Exported Function | 0x101f1170 | 0x001f1170
-`JetPatchDatabasePages` | 565 (0x235) | Exported Function | 0x101f2e80 | 0x001f2e80
-`JetPatchDatabasePagesA` | 566 (0x236) | Exported Function | 0x101f2e80 | 0x001f2e80
-`JetPatchDatabasePagesA@28` | 209 (0xd1) | Exported Function | 0x101f2e80 | 0x001f2e80
-`JetPatchDatabasePagesW` | 567 (0x237) | Exported Function | 0x101f3200 | 0x001f3200
-`JetPatchDatabasePagesW@28` | 210 (0xd2) | Exported Function | 0x101f3200 | 0x001f3200
-`JetPrepareToCommitTransaction` | 568 (0x238) | Exported Function | 0x101f3400 | 0x001f3400
-`JetPrepareToCommitTransaction@16` | 211 (0xd3) | Exported Function | 0x101f3400 | 0x001f3400
-`JetPrepareUpdate` | 569 (0x239) | Exported Function | 0x100bd4e0 | 0x000bd4e0
-`JetPrepareUpdate@12` | 212 (0xd4) | Exported Function | 0x100bd4e0 | 0x000bd4e0
-`JetPrereadColumnsByReference` | 570 (0x23a) | Exported Function | 0x101f3700 | 0x001f3700
-`JetPrereadColumnsByReference@36` | 213 (0xd5) | Exported Function | 0x101f3700 | 0x001f3700
-`JetOSSnapshotPrepareInstance@12` | 189 (0xbd) | Exported Function | 0x101f0ab0 | 0x001f0ab0
-`JetInit4W@12` | 177 (0xb1) | Exported Function | 0x1007d4f0 | 0x0007d4f0
-`JetOSSnapshotPrepareInstance` | 540 (0x21c) | Exported Function | 0x101f0ab0 | 0x001f0ab0
-`JetOSSnapshotPrepare` | 539 (0x21b) | Exported Function | 0x101f08c0 | 0x001f08c0
-`JetOpenTempTable3` | 561 (0x231) | Exported Function | 0x101f24f0 | 0x001f24f0
-`JetOpenTempTable3@28` | 205 (0xcd) | Exported Function | 0x101f24f0 | 0x001f24f0
-`JetOpenTempTable@24` | 206 (0xce) | Exported Function | 0x101f26d0 | 0x001f26d0
-`JetOSSnapshotAbort` | 531 (0x213) | Exported Function | 0x101efca0 | 0x001efca0
-`JetOSSnapshotAbort@8` | 182 (0xb6) | Exported Function | 0x101efca0 | 0x001efca0
-`JetOSSnapshotEnd` | 532 (0x214) | Exported Function | 0x101efe90 | 0x001efe90
-`JetOSSnapshotEnd@8` | 183 (0xb7) | Exported Function | 0x101efe90 | 0x001efe90
-`JetOSSnapshotFreeze` | 533 (0x215) | Exported Function | 0x101f0080 | 0x001f0080
-`JetOSSnapshotFreezeA` | 534 (0x216) | Exported Function | 0x101f0080 | 0x001f0080
-`JetOSSnapshotFreezeA@16` | 184 (0xb8) | Exported Function | 0x101f0080 | 0x001f0080
-`JetOSSnapshotFreezeW` | 535 (0x217) | Exported Function | 0x101f0350 | 0x001f0350
-`JetOSSnapshotFreezeW@16` | 185 (0xb9) | Exported Function | 0x101f0350 | 0x001f0350
-`JetOSSnapshotGetFreezeInfo` | 536 (0x218) | Exported Function | 0x101f04c0 | 0x001f04c0
-`JetOSSnapshotGetFreezeInfoA` | 537 (0x219) | Exported Function | 0x101f04c0 | 0x001f04c0
-`JetOSSnapshotGetFreezeInfoA@16` | 186 (0xba) | Exported Function | 0x101f04c0 | 0x001f04c0
-`JetOSSnapshotGetFreezeInfoW` | 538 (0x21a) | Exported Function | 0x101f0750 | 0x001f0750
-`JetOSSnapshotGetFreezeInfoW@16` | 187 (0xbb) | Exported Function | 0x101f0750 | 0x001f0750
-`JetOSSnapshotPrepare@8` | 188 (0xbc) | Exported Function | 0x101f08c0 | 0x001f08c0
-`JetPrereadIndexRange` | 571 (0x23b) | Exported Function | 0x101f3a50 | 0x001f3a50
-`JetInit4W` | 526 (0x20e) | Exported Function | 0x1007d4f0 | 0x0007d4f0
-`JetInit4A` | 525 (0x20d) | Exported Function | 0x101efc10 | 0x001efc10
-`JetGetSecondaryIndexBookmark` | 493 (0x1ed) | Exported Function | 0x101ed570 | 0x001ed570
-`JetGetSecondaryIndexBookmark@36` | 151 (0x97) | Exported Function | 0x101ed570 | 0x001ed570
-`JetGetSessionInfo` | 494 (0x1ee) | Exported Function | 0x101ed8b0 | 0x001ed8b0
-`JetGetSessionInfo@16` | 152 (0x98) | Exported Function | 0x101ed8b0 | 0x001ed8b0
-`JetGetSessionParameter` | 495 (0x1ef) | Exported Function | 0x101edb20 | 0x001edb20
-`JetGetSessionParameter@20` | 153 (0x99) | Exported Function | 0x101edb20 | 0x001edb20
-`JetGetSystemParameter` | 496 (0x1f0) | Exported Function | 0x101ede00 | 0x001ede00
-`JetGetResourceParam@16` | 150 (0x96) | Exported Function | 0x101ed250 | 0x001ed250
-`JetGetSystemParameterA` | 497 (0x1f1) | Exported Function | 0x101ede00 | 0x001ede00
-`JetGetSystemParameterW` | 498 (0x1f2) | Exported Function | 0x1010dd50 | 0x0010dd50
-`JetGetSystemParameterW@24` | 155 (0x9b) | Exported Function | 0x1010dd50 | 0x0010dd50
-`JetGetTableColumnInfo` | 499 (0x1f3) | Exported Function | 0x10115b30 | 0x00115b30
-`JetGetTableColumnInfoA` | 500 (0x1f4) | Exported Function | 0x10115b30 | 0x00115b30
-`JetGetTableColumnInfoA@24` | 156 (0x9c) | Exported Function | 0x10115b30 | 0x00115b30
-`JetGetTableColumnInfoW` | 501 (0x1f5) | Exported Function | 0x100834b0 | 0x000834b0
-`JetGetTableColumnInfoW@24` | 157 (0x9d) | Exported Function | 0x100834b0 | 0x000834b0
-`JetGetSystemParameterA@24` | 154 (0x9a) | Exported Function | 0x101ede00 | 0x001ede00
-`JetGetResourceParam` | 492 (0x1ec) | Exported Function | 0x101ed250 | 0x001ed250
-`JetGetRecordSize@16` | 149 (0x95) | Exported Function | 0x101ecf30 | 0x001ecf30
-`JetGetRecordSize2@16` | 148 (0x94) | Exported Function | 0x101ecc40 | 0x001ecc40
-`JetGetLS` | 469 (0x1d5) | Exported Function | 0x101ea020 | 0x001ea020
-`JetGetLS@16` | 132 (0x84) | Exported Function | 0x101ea020 | 0x001ea020
-`JetGetMaxDatabaseSize` | 483 (0x1e3) | Exported Function | 0x101eb670 | 0x001eb670
-`JetGetMaxDatabaseSize@16` | 142 (0x8e) | Exported Function | 0x101eb670 | 0x001eb670
-`JetGetObjectInfo` | 484 (0x1e4) | Exported Function | 0x101eb960 | 0x001eb960
-`JetGetObjectInfoA` | 485 (0x1e5) | Exported Function | 0x101eb960 | 0x001eb960
-`JetGetObjectInfoA@32` | 143 (0x8f) | Exported Function | 0x101eb960 | 0x001eb960
-`JetGetObjectInfoW` | 486 (0x1e6) | Exported Function | 0x101ebf30 | 0x001ebf30
-`JetGetObjectInfoW@32` | 144 (0x90) | Exported Function | 0x101ebf30 | 0x001ebf30
-`JetGetPageInfo` | 488 (0x1e8) | Exported Function | 0x101ec290 | 0x001ec290
-`JetGetPageInfo2` | 487 (0x1e7) | Exported Function | 0x101ec110 | 0x001ec110
-`JetGetPageInfo2@24` | 145 (0x91) | Exported Function | 0x101ec110 | 0x001ec110
-`JetGetPageInfo@24` | 146 (0x92) | Exported Function | 0x101ec290 | 0x001ec290
-`JetGetRecordPosition` | 489 (0x1e9) | Exported Function | 0x101ec930 | 0x001ec930
-`JetGetRecordPosition@16` | 147 (0x93) | Exported Function | 0x101ec930 | 0x001ec930
-`JetGetRecordSize` | 491 (0x1eb) | Exported Function | 0x101ecf30 | 0x001ecf30
-`JetGetRecordSize2` | 490 (0x1ea) | Exported Function | 0x101ecc40 | 0x001ecc40
-`JetGetTableIndexInfo` | 502 (0x1f6) | Exported Function | 0x101ee020 | 0x001ee020
-`JetGetTableIndexInfoA` | 503 (0x1f7) | Exported Function | 0x101ee020 | 0x001ee020
-`JetGetTableIndexInfoA@24` | 158 (0x9e) | Exported Function | 0x101ee020 | 0x001ee020
-`JetGetTableIndexInfoW` | 504 (0x1f8) | Exported Function | 0x101197b0 | 0x001197b0
-`JetGrowDatabase` | 516 (0x204) | Exported Function | 0x101ef3d0 | 0x001ef3d0
-`JetGrowDatabase@16` | 169 (0xa9) | Exported Function | 0x101ef3d0 | 0x001ef3d0
-`JetIdle` | 517 (0x205) | Exported Function | 0x101ef740 | 0x001ef740
-`JetIdle@8` | 170 (0xaa) | Exported Function | 0x101ef740 | 0x001ef740
-`JetIndexRecordCount` | 519 (0x207) | Exported Function | 0x10103680 | 0x00103680
-`JetIndexRecordCount2` | 518 (0x206) | Exported Function | 0x101efa00 | 0x001efa00
-`JetIndexRecordCount2@20` | 171 (0xab) | Exported Function | 0x101efa00 | 0x001efa00
-`JetIndexRecordCount@16` | 172 (0xac) | Exported Function | 0x10103680 | 0x00103680
-`JetInit` | 527 (0x20f) | Exported Function | 0x1007a1b0 | 0x0007a1b0
-`JetInit2` | 520 (0x208) | Exported Function | 0x10074d60 | 0x00074d60
-`JetInit2@8` | 173 (0xad) | Exported Function | 0x10074d60 | 0x00074d60
-`JetInit3` | 521 (0x209) | Exported Function | 0x1007cb30 | 0x0007cb30
-`JetInit3A` | 522 (0x20a) | Exported Function | 0x1007cb30 | 0x0007cb30
-`JetInit3A@12` | 174 (0xae) | Exported Function | 0x1007cb30 | 0x0007cb30
-`JetInit3W` | 523 (0x20b) | Exported Function | 0x10079e60 | 0x00079e60
-`JetInit3W@12` | 175 (0xaf) | Exported Function | 0x10079e60 | 0x00079e60
-`JetInit4` | 524 (0x20c) | Exported Function | 0x101efc10 | 0x001efc10
-`JetGotoSecondaryIndexBookmark@28` | 168 (0xa8) | Exported Function | 0x101ef060 | 0x001ef060
-`JetInit4A@12` | 176 (0xb0) | Exported Function | 0x101efc10 | 0x001efc10
-`JetGotoSecondaryIndexBookmark` | 515 (0x203) | Exported Function | 0x101ef060 | 0x001ef060
-`JetGotoPosition` | 514 (0x202) | Exported Function | 0x101eed30 | 0x001eed30
-`JetGetTableIndexInfoW@24` | 159 (0x9f) | Exported Function | 0x101197b0 | 0x001197b0
-`JetGetTableInfo` | 505 (0x1f9) | Exported Function | 0x10074770 | 0x00074770
-`JetGetTableInfoA` | 506 (0x1fa) | Exported Function | 0x10074770 | 0x00074770
-`JetGetTableInfoA@20` | 160 (0xa0) | Exported Function | 0x10074770 | 0x00074770
-`JetGetTableInfoW` | 507 (0x1fb) | Exported Function | 0x10119e20 | 0x00119e20
-`JetGetTableInfoW@20` | 161 (0xa1) | Exported Function | 0x10119e20 | 0x00119e20
-`JetGetThreadStats` | 508 (0x1fc) | Exported Function | 0x101ee230 | 0x001ee230
-`JetGetThreadStats@8` | 162 (0xa2) | Exported Function | 0x101ee230 | 0x001ee230
-`JetGetTruncateLogInfoInstance` | 509 (0x1fd) | Exported Function | 0x101ee490 | 0x001ee490
-`JetGetTruncateLogInfoInstanceA` | 510 (0x1fe) | Exported Function | 0x101ee490 | 0x001ee490
-`JetGetTruncateLogInfoInstanceA@16` | 163 (0xa3) | Exported Function | 0x101ee490 | 0x001ee490
-`JetGetTruncateLogInfoInstanceW` | 511 (0x1ff) | Exported Function | 0x101ee850 | 0x001ee850
-`JetGetTruncateLogInfoInstanceW@16` | 164 (0xa4) | Exported Function | 0x101ee850 | 0x001ee850
-`JetGetVersion` | 512 (0x200) | Exported Function | 0x101eea40 | 0x001eea40
-`JetGetVersion@8` | 165 (0xa5) | Exported Function | 0x101eea40 | 0x001eea40
-`JetGotoBookmark` | 513 (0x201) | Exported Function | 0x100bd5b0 | 0x000bd5b0
-`JetGotoBookmark@16` | 166 (0xa6) | Exported Function | 0x100bd5b0 | 0x000bd5b0
-`JetGotoPosition@12` | 167 (0xa7) | Exported Function | 0x101eed30 | 0x001eed30
-`JetPrereadIndexRange@28` | 214 (0xd6) | Exported Function | 0x101f3a50 | 0x001f3a50
-`JetPrereadIndexRanges` | 572 (0x23c) | Exported Function | 0x101f3d80 | 0x001f3d80
-`JetPrereadIndexRanges@32` | 215 (0xd7) | Exported Function | 0x101f3d80 | 0x001f3d80
-`JetSetResourceParam` | 631 (0x277) | Exported Function | 0x101f9880 | 0x001f9880
-`JetSetResourceParam@16` | 263 (0x107) | Exported Function | 0x101f9880 | 0x001f9880
-`JetSetSessionContext` | 632 (0x278) | Exported Function | 0x10072a00 | 0x00072a00
-`JetSetSessionContext@8` | 264 (0x108) | Exported Function | 0x10072a00 | 0x00072a00
-`JetSetSessionParameter` | 633 (0x279) | Exported Function | 0x101f9d40 | 0x001f9d40
-`JetSetSessionParameter@16` | 265 (0x109) | Exported Function | 0x101f9d40 | 0x001f9d40
-`JetSetSystemParameter` | 634 (0x27a) | Exported Function | 0x10085210 | 0x00085210
-`JetSetMaxDatabaseSize@16` | 262 (0x106) | Exported Function | 0x101f9590 | 0x001f9590
-`JetSetSystemParameterA` | 635 (0x27b) | Exported Function | 0x10085210 | 0x00085210
-`JetSetSystemParameterW` | 636 (0x27c) | Exported Function | 0x10086700 | 0x00086700
-`JetSetSystemParameterW@20` | 267 (0x10b) | Exported Function | 0x10086700 | 0x00086700
-`JetSetTableInfo` | 637 (0x27d) | Exported Function | 0x101fa020 | 0x001fa020
-`JetSetTableInfoA` | 638 (0x27e) | Exported Function | 0x101fa020 | 0x001fa020
-`JetSetTableInfoA@20` | 268 (0x10c) | Exported Function | 0x101fa020 | 0x001fa020
-`JetSetTableInfoW` | 639 (0x27f) | Exported Function | 0x101fa020 | 0x001fa020
-`JetSetTableSequential` | 640 (0x280) | Exported Function | 0x101fa340 | 0x001fa340
-`JetSetSystemParameterA@20` | 266 (0x10a) | Exported Function | 0x10085210 | 0x00085210
-`JetSetMaxDatabaseSize` | 630 (0x276) | Exported Function | 0x101f9590 | 0x001f9590
-`JetSetLS@16` | 261 (0x105) | Exported Function | 0x101f9270 | 0x001f9270
-`JetSetLS` | 629 (0x275) | Exported Function | 0x101f9270 | 0x001f9270
-`JetSetCurrentIndex4A` | 619 (0x26b) | Exported Function | 0x101f8810 | 0x001f8810
-`JetSetCurrentIndex4A@24` | 253 (0xfd) | Exported Function | 0x101f8810 | 0x001f8810
-`JetSetCurrentIndex4W` | 620 (0x26c) | Exported Function | 0x1011a2d0 | 0x0011a2d0
-`JetSetCurrentIndex4W@24` | 254 (0xfe) | Exported Function | 0x1011a2d0 | 0x0011a2d0
-`JetSetCurrentIndexA` | 622 (0x26e) | Exported Function | 0x1009d3c0 | 0x0009d3c0
-`JetSetCurrentIndexA@12` | 255 (0xff) | Exported Function | 0x1009d3c0 | 0x0009d3c0
-`JetSetCurrentIndexW` | 623 (0x26f) | Exported Function | 0x100831f0 | 0x000831f0
-`JetSetCurrentIndexW@12` | 256 (0x100) | Exported Function | 0x100831f0 | 0x000831f0
-`JetSetCursorFilter` | 624 (0x270) | Exported Function | 0x101f8a20 | 0x001f8a20
-`JetSetCursorFilter@20` | 257 (0x101) | Exported Function | 0x101f8a20 | 0x001f8a20
-`JetSetDatabaseSize` | 625 (0x271) | Exported Function | 0x101f8d40 | 0x001f8d40
-`JetSetDatabaseSizeA` | 626 (0x272) | Exported Function | 0x101f8d40 | 0x001f8d40
-`JetSetDatabaseSizeA@16` | 258 (0x102) | Exported Function | 0x101f8d40 | 0x001f8d40
-`JetSetDatabaseSizeW` | 627 (0x273) | Exported Function | 0x101f90a0 | 0x001f90a0
-`JetSetDatabaseSizeW@16` | 259 (0x103) | Exported Function | 0x101f90a0 | 0x001f90a0
-`JetSetIndexRange` | 628 (0x274) | Exported Function | 0x100be440 | 0x000be440
-`JetSetIndexRange@12` | 260 (0x104) | Exported Function | 0x100be440 | 0x000be440
-`JetSetTableSequential@12` | 269 (0x10d) | Exported Function | 0x101fa340 | 0x001fa340
-`JetSnapshotStart` | 641 (0x281) | Exported Function | 0x101fa650 | 0x001fa650
-`JetSnapshotStartA` | 642 (0x282) | Exported Function | 0x101fa650 | 0x001fa650
-`JetSnapshotStartA@12` | 270 (0x10e) | Exported Function | 0x101fa650 | 0x001fa650
-`JetTestHook@8` | 281 (0x119) | Exported Function | 0x101fb5d0 | 0x001fb5d0
-`JetTracing` | 654 (0x28e) | Exported Function | 0x101fbc80 | 0x001fbc80
-`JetTracing@12` | 282 (0x11a) | Exported Function | 0x101fbc80 | 0x001fbc80
-`JetTruncateLog` | 655 (0x28f) | Exported Function | 0x101fc0f0 | 0x001fc0f0
-`JetTruncateLog@0` | 283 (0x11b) | Exported Function | 0x101fc0f0 | 0x001fc0f0
-`JetTruncateLogInstance` | 656 (0x290) | Exported Function | 0x101fc110 | 0x001fc110
-`JetTruncateLogInstance@4` | 284 (0x11c) | Exported Function | 0x101fc110 | 0x001fc110
-`JetUnregisterCallback` | 657 (0x291) | Exported Function | 0x101fc3e0 | 0x001fc3e0
-`JetUnregisterCallback@16` | 285 (0x11d) | Exported Function | 0x101fc3e0 | 0x001fc3e0
-`JetUpdate` | 659 (0x293) | Exported Function | 0x100bd400 | 0x000bd400
-`JetUpdate2` | 658 (0x292) | Exported Function | 0x101fc700 | 0x001fc700
-`JetUpdate2@24` | 286 (0x11e) | Exported Function | 0x101fc700 | 0x001fc700
-`JetUpdate@20` | 287 (0x11f) | Exported Function | 0x100bd400 | 0x000bd400
-`JetUpgradeDatabase` | 660 (0x294) | Exported Function | 0x101fc910 | 0x001fc910
-`JetUpgradeDatabaseA` | 661 (0x295) | Exported Function | 0x101fc910 | 0x001fc910
-`JetUpgradeDatabaseA@16` | 288 (0x120) | Exported Function | 0x101fc910 | 0x001fc910
-`JetUpgradeDatabaseW` | 662 (0x296) | Exported Function | 0x101fcc80 | 0x001fcc80
-`JetTestHook` | 653 (0x28d) | Exported Function | 0x101fb5d0 | 0x001fb5d0
-`JetSetCurrentIndex4` | 618 (0x26a) | Exported Function | 0x101f8810 | 0x001f8810
-`JetTerm@4` | 280 (0x118) | Exported Function | 0x100ed520 | 0x000ed520
-`JetTerm2` | 651 (0x28b) | Exported Function | 0x10111140 | 0x00111140
-`JetSnapshotStartW` | 643 (0x283) | Exported Function | 0x101fa6a0 | 0x001fa6a0
-`JetSnapshotStartW@12` | 271 (0x10f) | Exported Function | 0x101fa6a0 | 0x001fa6a0
-`JetSnapshotStop` | 644 (0x284) | Exported Function | 0x101fa6f0 | 0x001fa6f0
-`JetSnapshotStop@8` | 272 (0x110) | Exported Function | 0x101fa6f0 | 0x001fa6f0
-`JetStopBackup` | 645 (0x285) | Exported Function | 0x101fa740 | 0x001fa740
-`JetStopBackup@0` | 273 (0x111) | Exported Function | 0x101fa740 | 0x001fa740
-`JetStopBackupInstance` | 646 (0x286) | Exported Function | 0x101fa760 | 0x001fa760
-`JetStopBackupInstance@4` | 274 (0x112) | Exported Function | 0x101fa760 | 0x001fa760
-`JetStopService` | 647 (0x287) | Exported Function | 0x101fa9e0 | 0x001fa9e0
-`JetStopService@0` | 275 (0x113) | Exported Function | 0x101fa9e0 | 0x001fa9e0
-`JetStopServiceInstance` | 649 (0x289) | Exported Function | 0x101fabf0 | 0x001fabf0
-`JetStopServiceInstance2` | 648 (0x288) | Exported Function | 0x101faa00 | 0x001faa00
-`JetStopServiceInstance2@8` | 276 (0x114) | Exported Function | 0x101faa00 | 0x001faa00
-`JetStopServiceInstance@4` | 277 (0x115) | Exported Function | 0x101fabf0 | 0x001fabf0
-`JetStreamRecords` | 650 (0x28a) | Exported Function | 0x101fb290 | 0x001fb290
-`JetStreamRecords@32` | 278 (0x116) | Exported Function | 0x101fb290 | 0x001fb290
-`JetTerm` | 652 (0x28c) | Exported Function | 0x100ed520 | 0x000ed520
-`JetTerm2@8` | 279 (0x117) | Exported Function | 0x10111140 | 0x00111140
-`JetSetCurrentIndex3W@20` | 252 (0xfc) | Exported Function | 0x101f8600 | 0x001f8600
-`JetSetCurrentIndex3W` | 617 (0x269) | Exported Function | 0x101f8600 | 0x001f8600
-`JetSetCurrentIndex3A@20` | 251 (0xfb) | Exported Function | 0x101f83f0 | 0x001f83f0
-`JetRenameTableA@16` | 225 (0xe1) | Exported Function | 0x101f5850 | 0x001f5850
-`JetRenameTableW` | 585 (0x249) | Exported Function | 0x101f5c90 | 0x001f5c90
-`JetRenameTableW@16` | 226 (0xe2) | Exported Function | 0x101f5c90 | 0x001f5c90
-`JetResetCounter` | 586 (0x24a) | Exported Function | 0x101f5e60 | 0x001f5e60
-`JetResetCounter@8` | 227 (0xe3) | Exported Function | 0x101f5e60 | 0x001f5e60
-`JetResetSessionContext` | 587 (0x24b) | Exported Function | 0x100724f0 | 0x000724f0
-`JetResetSessionContext@4` | 228 (0xe4) | Exported Function | 0x100724f0 | 0x000724f0
-`JetResetTableSequential` | 588 (0x24c) | Exported Function | 0x101f6160 | 0x001f6160
-`JetResetTableSequential@12` | 229 (0xe5) | Exported Function | 0x101f6160 | 0x001f6160
-`JetResizeDatabase` | 589 (0x24d) | Exported Function | 0x101f6470 | 0x001f6470
-`JetResizeDatabase@20` | 230 (0xe6) | Exported Function | 0x101f6470 | 0x001f6470
-`JetRestore` | 593 (0x251) | Exported Function | 0x101f67e0 | 0x001f67e0
-`JetRestore2` | 590 (0x24e) | Exported Function | 0x101f6760 | 0x001f6760
-`JetRestore2A` | 591 (0x24f) | Exported Function | 0x101f6760 | 0x001f6760
-`JetRestore2A@12` | 231 (0xe7) | Exported Function | 0x101f6760 | 0x001f6760
-`JetRestore2W` | 592 (0x250) | Exported Function | 0x101f67a0 | 0x001f67a0
-`JetRestore2W@12` | 232 (0xe8) | Exported Function | 0x101f67a0 | 0x001f67a0
-`JetRenameTableA` | 584 (0x248) | Exported Function | 0x101f5850 | 0x001f5850
-`JetRestoreA` | 594 (0x252) | Exported Function | 0x101f67e0 | 0x001f67e0
-`JetRenameTable` | 583 (0x247) | Exported Function | 0x101f5850 | 0x001f5850
-`JetRenameColumnW` | 582 (0x246) | Exported Function | 0x101f5640 | 0x001f5640
-`JetPrereadKeys` | 573 (0x23d) | Exported Function | 0x101f40b0 | 0x001f40b0
-`JetPrereadKeys@28` | 216 (0xd8) | Exported Function | 0x101f40b0 | 0x001f40b0
-`JetPrereadTablesW` | 574 (0x23e) | Exported Function | 0x101f44f0 | 0x001f44f0
-`JetPrereadTablesW@20` | 217 (0xd9) | Exported Function | 0x101f44f0 | 0x001f44f0
-`JetReadFile` | 575 (0x23f) | Exported Function | 0x101f46d0 | 0x001f46d0
-`JetReadFile@16` | 218 (0xda) | Exported Function | 0x101f46d0 | 0x001f46d0
-`JetReadFileInstance` | 576 (0x240) | Exported Function | 0x101f4700 | 0x001f4700
-`JetReadFileInstance@20` | 219 (0xdb) | Exported Function | 0x101f4700 | 0x001f4700
-`JetRegisterCallback` | 577 (0x241) | Exported Function | 0x101f49f0 | 0x001f49f0
-`JetRegisterCallback@24` | 220 (0xdc) | Exported Function | 0x101f49f0 | 0x001f49f0
-`JetRemoveLogfileA` | 578 (0x242) | Exported Function | 0x101f4d20 | 0x001f4d20
-`JetRemoveLogfileA@12` | 221 (0xdd) | Exported Function | 0x101f4d20 | 0x001f4d20
-`JetRemoveLogfileW` | 579 (0x243) | Exported Function | 0x101f5040 | 0x001f5040
-`JetRemoveLogfileW@12` | 222 (0xde) | Exported Function | 0x101f5040 | 0x001f5040
-`JetRenameColumn` | 580 (0x244) | Exported Function | 0x101f51b0 | 0x001f51b0
-`JetRenameColumnA` | 581 (0x245) | Exported Function | 0x101f51b0 | 0x001f51b0
-`JetRenameColumnA@20` | 223 (0xdf) | Exported Function | 0x101f51b0 | 0x001f51b0
-`JetRenameColumnW@20` | 224 (0xe0) | Exported Function | 0x101f5640 | 0x001f5640
-`JetGetLogInfoW@12` | 141 (0x8d) | Exported Function | 0x101eb640 | 0x001eb640
-`JetRestoreA@8` | 233 (0xe9) | Exported Function | 0x101f67e0 | 0x001f67e0
-`JetRestoreInstanceA` | 596 (0x254) | Exported Function | 0x101f6820 | 0x001f6820
-`JetSetColumn` | 607 (0x25f) | Exported Function | 0x100af340 | 0x000af340
-`JetSetColumn@28` | 245 (0xf5) | Exported Function | 0x100af340 | 0x000af340
-`JetSetColumnDefaultValue` | 608 (0x260) | Exported Function | 0x101f7b90 | 0x001f7b90
-`JetSetColumnDefaultValueA` | 609 (0x261) | Exported Function | 0x101f7b90 | 0x001f7b90
-`JetSetColumnDefaultValueA@28` | 246 (0xf6) | Exported Function | 0x101f7b90 | 0x001f7b90
-`JetSetColumnDefaultValueW` | 610 (0x262) | Exported Function | 0x101f8000 | 0x001f8000
-`JetSetColumnDefaultValueW@28` | 247 (0xf7) | Exported Function | 0x101f8000 | 0x001f8000
-`JetSetColumns` | 611 (0x263) | Exported Function | 0x100d0cb0 | 0x000d0cb0
-`JetSetColumns@16` | 248 (0xf8) | Exported Function | 0x100d0cb0 | 0x000d0cb0
-`JetSetCurrentIndex` | 621 (0x26d) | Exported Function | 0x1009d3c0 | 0x0009d3c0
-`JetSetCurrentIndex2` | 612 (0x264) | Exported Function | 0x101f81e0 | 0x001f81e0
-`JetSetCurrentIndex2A` | 613 (0x265) | Exported Function | 0x101f81e0 | 0x001f81e0
-`JetSetCurrentIndex2A@16` | 249 (0xf9) | Exported Function | 0x101f81e0 | 0x001f81e0
-`JetSetCurrentIndex2W` | 614 (0x266) | Exported Function | 0x100832c0 | 0x000832c0
-`JetSetCurrentIndex2W@16` | 250 (0xfa) | Exported Function | 0x100832c0 | 0x000832c0
-`JetSetCurrentIndex3` | 615 (0x267) | Exported Function | 0x101f83f0 | 0x001f83f0
-`JetSetCurrentIndex3A` | 616 (0x268) | Exported Function | 0x101f83f0 | 0x001f83f0
-`JetSeek@12` | 244 (0xf4) | Exported Function | 0x100a2dc0 | 0x000a2dc0
-`JetRestoreInstance` | 595 (0x253) | Exported Function | 0x101f6820 | 0x001f6820
-`JetSeek` | 606 (0x25e) | Exported Function | 0x100a2dc0 | 0x000a2dc0
-`JetRollback` | 605 (0x25d) | Exported Function | 0x100bcad0 | 0x000bcad0
-`JetRestoreInstanceA@16` | 234 (0xea) | Exported Function | 0x101f6820 | 0x001f6820
-`JetRestoreInstanceW` | 597 (0x255) | Exported Function | 0x101f6d90 | 0x001f6d90
-`JetRestoreInstanceW@16` | 235 (0xeb) | Exported Function | 0x101f6d90 | 0x001f6d90
-`JetRestoreW` | 598 (0x256) | Exported Function | 0x101f6f80 | 0x001f6f80
-`JetRestoreW@8` | 236 (0xec) | Exported Function | 0x101f6f80 | 0x001f6f80
-`JetRetrieveColumn` | 599 (0x257) | Exported Function | 0x100af070 | 0x000af070
-`JetRetrieveColumn@32` | 237 (0xed) | Exported Function | 0x100af070 | 0x000af070
-`JetRetrieveColumnByReference` | 600 (0x258) | Exported Function | 0x101f6fc0 | 0x001f6fc0
-`JetRetrieveColumnByReference@36` | 238 (0xee) | Exported Function | 0x101f6fc0 | 0x001f6fc0
-`JetRetrieveColumnFromRecordStream` | 601 (0x259) | Exported Function | 0x101f7310 | 0x001f7310
-`JetRetrieveColumnFromRecordStream@28` | 239 (0xef) | Exported Function | 0x101f7310 | 0x001f7310
-`JetRetrieveColumns` | 602 (0x25a) | Exported Function | 0x100a69a0 | 0x000a69a0
-`JetRetrieveColumns@16` | 240 (0xf0) | Exported Function | 0x100a69a0 | 0x000a69a0
-`JetRetrieveKey` | 603 (0x25b) | Exported Function | 0x101f7530 | 0x001f7530
-`JetRetrieveKey@24` | 241 (0xf1) | Exported Function | 0x101f7530 | 0x001f7530
-`JetRetrieveTaggedColumnList` | 604 (0x25c) | Exported Function | 0x101f7860 | 0x001f7860
-`JetRetrieveTaggedColumnList@28` | 242 (0xf2) | Exported Function | 0x101f7860 | 0x001f7860
-`JetRollback@8` | 243 (0xf3) | Exported Function | 0x100bcad0 | 0x000bcad0
-`JetUpgradeDatabaseW@16` | 289 (0x121) | Exported Function | 0x101fcc80 | 0x001fcc80
-`JetGetLogInfoW` | 482 (0x1e2) | Exported Function | 0x101eb640 | 0x001eb640
-`JetGetLogInfoInstanceW` | 481 (0x1e1) | Exported Function | 0x101eb450 | 0x001eb450
-`JetCreateDatabaseA@20` | 45 (0x2d) | Exported Function | 0x101df970 | 0x001df970
-`JetCreateDatabaseW` | 349 (0x15d) | Exported Function | 0x1011a6a0 | 0x0011a6a0
-`JetCreateDatabaseW@20` | 46 (0x2e) | Exported Function | 0x1011a6a0 | 0x0011a6a0
-`JetCreateDatabaseWithStreaming` | 350 (0x15e) | Exported Function | 0x101dfbd0 | 0x001dfbd0
-`JetCreateDatabaseWithStreamingA` | 351 (0x15f) | Exported Function | 0x101dfbd0 | 0x001dfbd0
-`JetCreateDatabaseWithStreamingA@28` | 47 (0x2f) | Exported Function | 0x101dfbd0 | 0x001dfbd0
-`JetCreateDatabaseWithStreamingW` | 352 (0x160) | Exported Function | 0x101dfc20 | 0x001dfc20
-`JetCreateDatabaseA` | 348 (0x15c) | Exported Function | 0x101df970 | 0x001df970
-`JetCreateDatabaseWithStreamingW@28` | 48 (0x30) | Exported Function | 0x101dfc20 | 0x001dfc20
-`JetCreateEncryptionKey@16` | 49 (0x31) | Exported Function | 0x101dfc70 | 0x001dfc70
-`JetCreateIndex` | 361 (0x169) | Exported Function | 0x101e0890 | 0x001e0890
-`JetCreateIndex2` | 354 (0x162) | Exported Function | 0x101dfe40 | 0x001dfe40
-`JetCreateIndex2A` | 355 (0x163) | Exported Function | 0x101dfe40 | 0x001dfe40
-`JetCreateIndex2A@16` | 50 (0x32) | Exported Function | 0x101dfe40 | 0x001dfe40
-`JetCreateIndex2W` | 356 (0x164) | Exported Function | 0x101e0050 | 0x001e0050
-`JetCreateIndex2W@16` | 51 (0x33) | Exported Function | 0x101e0050 | 0x001e0050
-`JetCreateEncryptionKey` | 353 (0x161) | Exported Function | 0x101dfc70 | 0x001dfc70
-`JetCreateDatabase3W@24` | 44 (0x2c) | Exported Function | 0x101df790 | 0x001df790
-`JetCreateDatabase3W` | 346 (0x15a) | Exported Function | 0x101df790 | 0x001df790
-`JetCreateDatabase3A@24` | 43 (0x2b) | Exported Function | 0x101df5b0 | 0x001df5b0
-`JetConfigureProcessForCrashDump` | 336 (0x150) | Exported Function | 0x101ddc30 | 0x001ddc30
-`JetConfigureProcessForCrashDump@4` | 37 (0x25) | Exported Function | 0x101ddc30 | 0x001ddc30
-`JetConsumeLogData` | 337 (0x151) | Exported Function | 0x101ddd20 | 0x001ddd20
-`JetConsumeLogData@20` | 38 (0x26) | Exported Function | 0x101ddd20 | 0x001ddd20
-`JetConvertDDL` | 338 (0x152) | Exported Function | 0x101de1e0 | 0x001de1e0
-`JetConvertDDLA` | 339 (0x153) | Exported Function | 0x101de1e0 | 0x001de1e0
-`JetConvertDDLA@20` | 39 (0x27) | Exported Function | 0x101de1e0 | 0x001de1e0
-`JetConvertDDLW` | 340 (0x154) | Exported Function | 0x101df1e0 | 0x001df1e0
-`JetConvertDDLW@20` | 40 (0x28) | Exported Function | 0x101df1e0 | 0x001df1e0
-`JetCreateDatabase` | 347 (0x15b) | Exported Function | 0x101df970 | 0x001df970
-`JetCreateDatabase2` | 341 (0x155) | Exported Function | 0x101df3c0 | 0x001df3c0
-`JetCreateDatabase2A` | 342 (0x156) | Exported Function | 0x101df3c0 | 0x001df3c0
-`JetCreateDatabase2A@20` | 41 (0x29) | Exported Function | 0x101df3c0 | 0x001df3c0
-`JetCreateDatabase2W` | 343 (0x157) | Exported Function | 0x10074a30 | 0x00074a30
-`JetCreateDatabase2W@20` | 42 (0x2a) | Exported Function | 0x10074a30 | 0x00074a30
-`JetCreateDatabase3` | 344 (0x158) | Exported Function | 0x101df5b0 | 0x001df5b0
-`JetCreateDatabase3A` | 345 (0x159) | Exported Function | 0x101df5b0 | 0x001df5b0
-`JetCreateIndex3A` | 357 (0x165) | Exported Function | 0x101e0260 | 0x001e0260
-`JetCreateIndex3W` | 358 (0x166) | Exported Function | 0x10070de0 | 0x00070de0
-`JetCreateIndex4A` | 359 (0x167) | Exported Function | 0x101e0470 | 0x001e0470
-`JetCreateIndex4W` | 360 (0x168) | Exported Function | 0x101e0680 | 0x001e0680
-`JetCreateTableColumnIndex2W` | 374 (0x176) | Exported Function | 0x101e14f0 | 0x001e14f0
-`JetCreateTableColumnIndex2W@12` | 60 (0x3c) | Exported Function | 0x101e14f0 | 0x001e14f0
-`JetCreateTableColumnIndex3A` | 375 (0x177) | Exported Function | 0x1006da90 | 0x0006da90
-`JetCreateTableColumnIndex3A@12` | 61 (0x3d) | Exported Function | 0x1006da90 | 0x0006da90
-`JetCreateTableColumnIndex3W` | 376 (0x178) | Exported Function | 0x1006d840 | 0x0006d840
-`JetCreateTableColumnIndex3W@12` | 62 (0x3e) | Exported Function | 0x1006d840 | 0x0006d840
-`JetCreateTableColumnIndex4A` | 377 (0x179) | Exported Function | 0x101e16c0 | 0x001e16c0
-`JetCreateTableColumnIndex4A@12` | 63 (0x3f) | Exported Function | 0x101e16c0 | 0x001e16c0
-`JetCreateTableColumnIndex4W` | 378 (0x17a) | Exported Function | 0x101e1890 | 0x001e1890
-`JetCreateTableColumnIndex4W@12` | 64 (0x40) | Exported Function | 0x101e1890 | 0x001e1890
-`JetCreateTableColumnIndex5A` | 379 (0x17b) | Exported Function | 0x101e1a60 | 0x001e1a60
-`JetCreateTableColumnIndex5A@12` | 65 (0x41) | Exported Function | 0x101e1a60 | 0x001e1a60
-`JetCreateTableColumnIndex5W` | 380 (0x17c) | Exported Function | 0x101e1c30 | 0x001e1c30
-`JetCreateTableColumnIndex5W@12` | 66 (0x42) | Exported Function | 0x101e1c30 | 0x001e1c30
-`JetCreateTableColumnIndexA` | 382 (0x17e) | Exported Function | 0x101e1e00 | 0x001e1e00
-`JetCreateTableColumnIndexA@12` | 67 (0x43) | Exported Function | 0x101e1e00 | 0x001e1e00
-`JetCreateTableColumnIndexW` | 383 (0x17f) | Exported Function | 0x1006bad0 | 0x0006bad0
-`JetCreateTableColumnIndex2A@12` | 59 (0x3b) | Exported Function | 0x101e1320 | 0x001e1320
-`JetComputeStats@8` | 36 (0x24) | Exported Function | 0x101dd930 | 0x001dd930
-`JetCreateTableColumnIndex2A` | 373 (0x175) | Exported Function | 0x101e1320 | 0x001e1320
-`JetCreateTableColumnIndex` | 381 (0x17d) | Exported Function | 0x101e1e00 | 0x001e1e00
-`JetCreateIndexA` | 362 (0x16a) | Exported Function | 0x101e0890 | 0x001e0890
-`JetCreateIndexA@28` | 52 (0x34) | Exported Function | 0x101e0890 | 0x001e0890
-`JetCreateIndexW` | 363 (0x16b) | Exported Function | 0x101e0f00 | 0x001e0f00
-`JetCreateIndexW@28` | 53 (0x35) | Exported Function | 0x101e0f00 | 0x001e0f00
-`JetCreateInstance` | 367 (0x16f) | Exported Function | 0x101105e0 | 0x001105e0
-`JetCreateInstance2` | 364 (0x16c) | Exported Function | 0x10110600 | 0x00110600
-`JetCreateInstance2A` | 365 (0x16d) | Exported Function | 0x10110600 | 0x00110600
-`JetCreateInstance2A@16` | 54 (0x36) | Exported Function | 0x10110600 | 0x00110600
-`JetCreateInstance2W` | 366 (0x16e) | Exported Function | 0x100ecd50 | 0x000ecd50
-`JetCreateInstance2W@16` | 55 (0x37) | Exported Function | 0x100ecd50 | 0x000ecd50
-`JetCreateInstanceA` | 368 (0x170) | Exported Function | 0x101105e0 | 0x001105e0
-`JetCreateInstanceA@8` | 56 (0x38) | Exported Function | 0x101105e0 | 0x001105e0
-`JetCreateInstanceW` | 369 (0x171) | Exported Function | 0x10111710 | 0x00111710
-`JetCreateInstanceW@8` | 57 (0x39) | Exported Function | 0x10111710 | 0x00111710
-`JetCreateTable` | 370 (0x172) | Exported Function | 0x101e1140 | 0x001e1140
-`JetCreateTableA` | 371 (0x173) | Exported Function | 0x101e1140 | 0x001e1140
-`JetCreateTableA@24` | 58 (0x3a) | Exported Function | 0x101e1140 | 0x001e1140
-`JetCreateTableColumnIndex2` | 372 (0x174) | Exported Function | 0x101e1320 | 0x001e1320
-`JetCreateTableColumnIndexW@12` | 68 (0x44) | Exported Function | 0x1006bad0 | 0x0006bad0
-`JetComputeStats` | 335 (0x14f) | Exported Function | 0x101dd930 | 0x001dd930
-`JetCompactW` | 334 (0x14e) | Exported Function | 0x101dd750 | 0x001dd750
-`JetAttachDatabase3W` | 301 (0x12d) | Exported Function | 0x101db940 | 0x001db940
-`JetAttachDatabase3W@20` | 9 (0x9) | Exported Function | 0x101db940 | 0x001db940
-`JetAttachDatabaseA` | 303 (0x12f) | Exported Function | 0x10109bf0 | 0x00109bf0
-`JetAttachDatabaseA@12` | 10 (0xa) | Exported Function | 0x10109bf0 | 0x00109bf0
-`JetAttachDatabaseW` | 304 (0x130) | Exported Function | 0x10109dc0 | 0x00109dc0
-`JetAttachDatabaseW@12` | 11 (0xb) | Exported Function | 0x10109dc0 | 0x00109dc0
-`JetAttachDatabaseWithStreaming` | 305 (0x131) | Exported Function | 0x101dbb20 | 0x001dbb20
-`JetAttachDatabase3A@20` | 8 (0x8) | Exported Function | 0x101db760 | 0x001db760
-`JetAttachDatabaseWithStreamingA` | 306 (0x132) | Exported Function | 0x101dbb20 | 0x001dbb20
-`JetAttachDatabaseWithStreamingW` | 307 (0x133) | Exported Function | 0x101dbbd0 | 0x001dbbd0
-`JetAttachDatabaseWithStreamingW@24` | 13 (0xd) | Exported Function | 0x101dbbd0 | 0x001dbbd0
-`JetBackup` | 308 (0x134) | Exported Function | 0x101dbc80 | 0x001dbc80
-`JetBackupA` | 309 (0x135) | Exported Function | 0x101dbc80 | 0x001dbc80
-`JetBackupA@12` | 14 (0xe) | Exported Function | 0x101dbc80 | 0x001dbc80
-`JetBackupInstance` | 310 (0x136) | Exported Function | 0x101dbcb0 | 0x001dbcb0
-`JetBackupInstanceA` | 311 (0x137) | Exported Function | 0x101dbcb0 | 0x001dbcb0
-`JetAttachDatabaseWithStreamingA@24` | 12 (0xc) | Exported Function | 0x101dbb20 | 0x001dbb20
-`JetAttachDatabase3A` | 300 (0x12c) | Exported Function | 0x101db760 | 0x001db760
-`JetAttachDatabase3` | 299 (0x12b) | Exported Function | 0x101db760 | 0x001db760
-`JetAttachDatabase2W@16` | 7 (0x7) | Exported Function | 0x10109d10 | 0x00109d10
-`DebugExtensionInitialize@8` | 1 (0x1) | Exported Function | 0x1026b2d0 | 0x0026b2d0
-`DebugExtensionNotify` | 291 (0x123) | Exported Function | 0x101118e0 | 0x001118e0
-`DebugExtensionNotify@12` | 2 (0x2) | Exported Function | 0x101118e0 | 0x001118e0
-`DebugExtensionUninitialize` | 292 (0x124) | Exported Function | 0x1009b830 | 0x0009b830
-`DebugExtensionUninitialize@0` | 3 (0x3) | Exported Function | 0x1009b830 | 0x0009b830
-`ese` | 663 (0x297) | Exported Function | 0x1026b420 | 0x0026b420
-`ese@8` | 665 (0x299) | Exported Function | 0x1026b420 | 0x0026b420
-`JetAddColumn` | 293 (0x125) | Exported Function | 0x101db360 | 0x001db360
-`JetAddColumnA` | 294 (0x126) | Exported Function | 0x101db360 | 0x001db360
-`JetAddColumnA@28` | 4 (0x4) | Exported Function | 0x101db360 | 0x001db360
-`JetAddColumnW` | 295 (0x127) | Exported Function | 0x10071ba0 | 0x00071ba0
-`JetAddColumnW@28` | 5 (0x5) | Exported Function | 0x10071ba0 | 0x00071ba0
-`JetAttachDatabase` | 302 (0x12e) | Exported Function | 0x10109bf0 | 0x00109bf0
-`JetAttachDatabase2` | 296 (0x128) | Exported Function | 0x101db570 | 0x001db570
-`JetAttachDatabase2A` | 297 (0x129) | Exported Function | 0x101db570 | 0x001db570
-`JetAttachDatabase2A@16` | 6 (0x6) | Exported Function | 0x101db570 | 0x001db570
-`JetAttachDatabase2W` | 298 (0x12a) | Exported Function | 0x10109d10 | 0x00109d10
-`JetBackupInstanceA@16` | 15 (0xf) | Exported Function | 0x101dbcb0 | 0x001dbcb0
-`JetBackupInstanceW` | 312 (0x138) | Exported Function | 0x101dc060 | 0x001dc060
-`JetBackupInstanceW@16` | 16 (0x10) | Exported Function | 0x101dc060 | 0x001dc060
-`JetBackupW` | 313 (0x139) | Exported Function | 0x101dc250 | 0x001dc250
-`JetBeginTransaction3@16` | 26 (0x1a) | Exported Function | 0x1011a080 | 0x0011a080
-`JetBeginTransaction@4` | 27 (0x1b) | Exported Function | 0x100a2ad0 | 0x000a2ad0
-`JetCloseDatabase` | 326 (0x146) | Exported Function | 0x100d2de0 | 0x000d2de0
-`JetCloseDatabase@12` | 28 (0x1c) | Exported Function | 0x100d2de0 | 0x000d2de0
-`JetCloseFile` | 327 (0x147) | Exported Function | 0x101dd020 | 0x001dd020
-`JetCloseFile@4` | 29 (0x1d) | Exported Function | 0x101dd020 | 0x001dd020
-`JetCloseFileInstance` | 328 (0x148) | Exported Function | 0x101dd050 | 0x001dd050
-`JetCloseFileInstance@8` | 30 (0x1e) | Exported Function | 0x101dd050 | 0x001dd050
-`JetCloseTable` | 329 (0x149) | Exported Function | 0x1009e950 | 0x0009e950
-`JetCloseTable@8` | 31 (0x1f) | Exported Function | 0x1009e950 | 0x0009e950
-`JetCommitTransaction` | 331 (0x14b) | Exported Function | 0x100a2920 | 0x000a2920
-`JetCommitTransaction2` | 330 (0x14a) | Exported Function | 0x1011a3b0 | 0x0011a3b0
-`JetCommitTransaction2@16` | 32 (0x20) | Exported Function | 0x1011a3b0 | 0x0011a3b0
-`JetCommitTransaction@8` | 33 (0x21) | Exported Function | 0x100a2920 | 0x000a2920
-`JetCompact` | 332 (0x14c) | Exported Function | 0x101dd320 | 0x001dd320
-`JetCompactA` | 333 (0x14d) | Exported Function | 0x101dd320 | 0x001dd320
-`JetCompactA@24` | 34 (0x22) | Exported Function | 0x101dd320 | 0x001dd320
-`JetBeginTransaction3` | 324 (0x144) | Exported Function | 0x1011a080 | 0x0011a080
-`JetCompactW@24` | 35 (0x23) | Exported Function | 0x101dd750 | 0x001dd750
-`JetBeginTransaction2@8` | 25 (0x19) | Exported Function | 0x101dce50 | 0x001dce50
-`JetBeginTransaction` | 325 (0x145) | Exported Function | 0x100a2ad0 | 0x000a2ad0
-`JetBackupW@12` | 17 (0x11) | Exported Function | 0x101dc250 | 0x001dc250
-`JetBeginDatabaseIncrementalReseed` | 314 (0x13a) | Exported Function | 0x101dc280 | 0x001dc280
-`JetBeginDatabaseIncrementalReseedA` | 315 (0x13b) | Exported Function | 0x101dc280 | 0x001dc280
-`JetBeginDatabaseIncrementalReseedA@12` | 18 (0x12) | Exported Function | 0x101dc280 | 0x001dc280
-`JetBeginDatabaseIncrementalReseedW` | 316 (0x13c) | Exported Function | 0x101dc5e0 | 0x001dc5e0
-`JetBeginDatabaseIncrementalReseedW@12` | 19 (0x13) | Exported Function | 0x101dc5e0 | 0x001dc5e0
-`JetBeginExternalBackup` | 317 (0x13d) | Exported Function | 0x101dc7d0 | 0x001dc7d0
-`JetBeginExternalBackup@4` | 20 (0x14) | Exported Function | 0x101dc7d0 | 0x001dc7d0
-`JetBeginExternalBackupInstance` | 318 (0x13e) | Exported Function | 0x101dc800 | 0x001dc800
-`JetBeginExternalBackupInstance@8` | 21 (0x15) | Exported Function | 0x101dc800 | 0x001dc800
-`JetBeginSession` | 319 (0x13f) | Exported Function | 0x10086520 | 0x00086520
-`JetBeginSessionA` | 320 (0x140) | Exported Function | 0x10086520 | 0x00086520
-`JetBeginSessionA@16` | 22 (0x16) | Exported Function | 0x10086520 | 0x00086520
-`JetBeginSessionW` | 321 (0x141) | Exported Function | 0x10109780 | 0x00109780
-`JetBeginSessionW@16` | 23 (0x17) | Exported Function | 0x10109780 | 0x00109780
-`JetBeginSurrogateBackup` | 322 (0x142) | Exported Function | 0x101dcb20 | 0x001dcb20
-`JetBeginSurrogateBackup@16` | 24 (0x18) | Exported Function | 0x101dcb20 | 0x001dcb20
-`JetBeginTransaction2` | 323 (0x143) | Exported Function | 0x101dce50 | 0x001dce50
-`JetCreateTableW` | 384 (0x180) | Exported Function | 0x101e23e0 | 0x001e23e0
-`JetCreateTableW@24` | 69 (0x45) | Exported Function | 0x101e23e0 | 0x001e23e0
-`JetDatabaseScan` | 388 (0x184) | Exported Function | 0x101e2c00 | 0x001e2c00
-`JetGetColumnInfo` | 446 (0x1be) | Exported Function | 0x100bd0b0 | 0x000bd0b0
-`JetGetColumnInfoA` | 447 (0x1bf) | Exported Function | 0x100bd0b0 | 0x000bd0b0
-`JetGetColumnInfoA@28` | 115 (0x73) | Exported Function | 0x100bd0b0 | 0x000bd0b0
-`JetGetColumnInfoW` | 448 (0x1c0) | Exported Function | 0x10083830 | 0x00083830
-`JetGetColumnInfoW@28` | 116 (0x74) | Exported Function | 0x10083830 | 0x00083830
-`JetGetCounter` | 449 (0x1c1) | Exported Function | 0x101e7c10 | 0x001e7c10
-`JetGetCounter@12` | 117 (0x75) | Exported Function | 0x101e7c10 | 0x001e7c10
-`JetGetBookmark@20` | 114 (0x72) | Exported Function | 0x101e78f0 | 0x001e78f0
-`JetGetCurrentIndex` | 450 (0x1c2) | Exported Function | 0x101e7f10 | 0x001e7f10
-`JetGetCurrentIndexA@16` | 118 (0x76) | Exported Function | 0x101e7f10 | 0x001e7f10
-`JetGetCurrentIndexW` | 452 (0x1c4) | Exported Function | 0x101e82c0 | 0x001e82c0
-`JetGetCurrentIndexW@16` | 119 (0x77) | Exported Function | 0x101e82c0 | 0x001e82c0
-`JetGetCursorInfo` | 453 (0x1c5) | Exported Function | 0x101e84d0 | 0x001e84d0
-`JetGetCursorInfo@20` | 120 (0x78) | Exported Function | 0x101e84d0 | 0x001e84d0
-`JetGetDatabaseFileInfo` | 454 (0x1c6) | Exported Function | 0x101e87f0 | 0x001e87f0
-`JetGetDatabaseFileInfoA` | 455 (0x1c7) | Exported Function | 0x101e87f0 | 0x001e87f0
-`JetGetCurrentIndexA` | 451 (0x1c3) | Exported Function | 0x101e7f10 | 0x001e7f10
-`JetGetBookmark` | 445 (0x1bd) | Exported Function | 0x101e78f0 | 0x001e78f0
-`JetGetAttachInfoW@12` | 113 (0x71) | Exported Function | 0x101e78c0 | 0x001e78c0
-`JetGetAttachInfoW` | 444 (0x1bc) | Exported Function | 0x101e78c0 | 0x001e78c0
-`JetExternalRestore2A@40` | 105 (0x69) | Exported Function | 0x101e5ff0 | 0x001e5ff0
-`JetExternalRestore2W` | 434 (0x1b2) | Exported Function | 0x101e6260 | 0x001e6260
-`JetExternalRestore2W@40` | 106 (0x6a) | Exported Function | 0x101e6260 | 0x001e6260
-`JetExternalRestoreA` | 436 (0x1b4) | Exported Function | 0x101e63e0 | 0x001e63e0
-`JetExternalRestoreA@32` | 107 (0x6b) | Exported Function | 0x101e63e0 | 0x001e63e0
-`JetExternalRestoreW` | 437 (0x1b5) | Exported Function | 0x101e6fa0 | 0x001e6fa0
-`JetExternalRestoreW@32` | 108 (0x6c) | Exported Function | 0x101e6fa0 | 0x001e6fa0
-`JetFreeBuffer` | 438 (0x1b6) | Exported Function | 0x101e7120 | 0x001e7120
-`JetFreeBuffer@4` | 109 (0x6d) | Exported Function | 0x101e7120 | 0x001e7120
-`JetGetAttachInfo` | 439 (0x1b7) | Exported Function | 0x101e7300 | 0x001e7300
-`JetGetAttachInfoA` | 440 (0x1b8) | Exported Function | 0x101e7300 | 0x001e7300
-`JetGetAttachInfoA@12` | 110 (0x6e) | Exported Function | 0x101e7300 | 0x001e7300
-`JetGetAttachInfoInstance` | 441 (0x1b9) | Exported Function | 0x101e7330 | 0x001e7330
-`JetGetAttachInfoInstanceA` | 442 (0x1ba) | Exported Function | 0x101e7330 | 0x001e7330
-`JetGetAttachInfoInstanceA@16` | 111 (0x6f) | Exported Function | 0x101e7330 | 0x001e7330
-`JetGetAttachInfoInstanceW` | 443 (0x1bb) | Exported Function | 0x101e76d0 | 0x001e76d0
-`JetGetAttachInfoInstanceW@16` | 112 (0x70) | Exported Function | 0x101e76d0 | 0x001e76d0
-`JetGetDatabaseFileInfoA@16` | 121 (0x79) | Exported Function | 0x101e87f0 | 0x001e87f0
-`JetGetDatabaseFileInfoW` | 456 (0x1c8) | Exported Function | 0x10109050 | 0x00109050
-`JetGetDatabaseFileInfoW@16` | 122 (0x7a) | Exported Function | 0x10109050 | 0x00109050
-`JetGetDatabaseInfo` | 457 (0x1c9) | Exported Function | 0x10119220 | 0x00119220
-`JetGetLock@12` | 133 (0x85) | Exported Function | 0x101ea340 | 0x001ea340
-`JetGetLogFileInfo` | 471 (0x1d7) | Exported Function | 0x101ea650 | 0x001ea650
-`JetGetLogFileInfoA` | 472 (0x1d8) | Exported Function | 0x101ea650 | 0x001ea650
-`JetGetLogFileInfoA@16` | 134 (0x86) | Exported Function | 0x101ea650 | 0x001ea650
-`JetGetLogFileInfoW` | 473 (0x1d9) | Exported Function | 0x101eaa90 | 0x001eaa90
-`JetGetLogFileInfoW@16` | 135 (0x87) | Exported Function | 0x101eaa90 | 0x001eaa90
-`JetGetLogInfo` | 474 (0x1da) | Exported Function | 0x101eac00 | 0x001eac00
-`JetGetLogInfoA` | 475 (0x1db) | Exported Function | 0x101eac00 | 0x001eac00
-`JetGetLogInfoA@12` | 136 (0x88) | Exported Function | 0x101eac00 | 0x001eac00
-`JetGetLogInfoInstance` | 479 (0x1df) | Exported Function | 0x101eb010 | 0x001eb010
-`JetGetLogInfoInstance2` | 476 (0x1dc) | Exported Function | 0x101eac30 | 0x001eac30
-`JetGetLogInfoInstance2A` | 477 (0x1dd) | Exported Function | 0x101eac30 | 0x001eac30
-`JetGetLogInfoInstance2A@20` | 137 (0x89) | Exported Function | 0x101eac30 | 0x001eac30
-`JetGetLogInfoInstance2W` | 478 (0x1de) | Exported Function | 0x101eae20 | 0x001eae20
-`JetGetLogInfoInstance2W@20` | 138 (0x8a) | Exported Function | 0x101eae20 | 0x001eae20
-`JetGetLogInfoInstanceA` | 480 (0x1e0) | Exported Function | 0x101eb010 | 0x001eb010
-`JetGetLogInfoInstanceA@16` | 139 (0x8b) | Exported Function | 0x101eb010 | 0x001eb010
-`JetGetLock` | 470 (0x1d6) | Exported Function | 0x101ea340 | 0x001ea340
-`JetExternalRestore2A` | 433 (0x1b1) | Exported Function | 0x101e5ff0 | 0x001e5ff0
-`JetGetInstanceMiscInfo@16` | 131 (0x83) | Exported Function | 0x101e9ba0 | 0x001e9ba0
-`JetGetInstanceInfoW@8` | 130 (0x82) | Exported Function | 0x101e9a30 | 0x001e9a30
-`JetGetDatabaseInfoA` | 458 (0x1ca) | Exported Function | 0x10119220 | 0x00119220
-`JetGetDatabaseInfoA@20` | 123 (0x7b) | Exported Function | 0x10119220 | 0x00119220
-`JetGetDatabaseInfoW` | 459 (0x1cb) | Exported Function | 0x10119180 | 0x00119180
-`JetGetDatabaseInfoW@20` | 124 (0x7c) | Exported Function | 0x10119180 | 0x00119180
-`JetGetDatabasePages` | 460 (0x1cc) | Exported Function | 0x101e89d0 | 0x001e89d0
-`JetGetDatabasePages@32` | 125 (0x7d) | Exported Function | 0x101e89d0 | 0x001e89d0
-`JetGetErrorInfoW` | 461 (0x1cd) | Exported Function | 0x101e8e90 | 0x001e8e90
-`JetGetErrorInfoW@20` | 126 (0x7e) | Exported Function | 0x101e8e90 | 0x001e8e90
-`JetGetIndexInfo` | 462 (0x1ce) | Exported Function | 0x101e9000 | 0x001e9000
-`JetGetIndexInfoA` | 463 (0x1cf) | Exported Function | 0x101e9000 | 0x001e9000
-`JetGetIndexInfoA@28` | 127 (0x7f) | Exported Function | 0x101e9000 | 0x001e9000
-`JetGetIndexInfoW` | 464 (0x1d0) | Exported Function | 0x101e95d0 | 0x001e95d0
-`JetGetIndexInfoW@28` | 128 (0x80) | Exported Function | 0x101e95d0 | 0x001e95d0
-`JetGetInstanceInfo` | 465 (0x1d1) | Exported Function | 0x101e97b0 | 0x001e97b0
-`JetGetInstanceInfoA` | 466 (0x1d2) | Exported Function | 0x101e97b0 | 0x001e97b0
-`JetGetInstanceInfoA@8` | 129 (0x81) | Exported Function | 0x101e97b0 | 0x001e97b0
-`JetGetInstanceInfoW` | 467 (0x1d3) | Exported Function | 0x101e9a30 | 0x001e9a30
-`JetGetInstanceMiscInfo` | 468 (0x1d4) | Exported Function | 0x101e9ba0 | 0x001e9ba0
-`JetExternalRestore2` | 432 (0x1b0) | Exported Function | 0x101e5ff0 | 0x001e5ff0
-`JetExternalRestore` | 435 (0x1b3) | Exported Function | 0x101e63e0 | 0x001e63e0
-`JetEscrowUpdate@36` | 104 (0x68) | Exported Function | 0x10072e10 | 0x00072e10
-`JetDelete` | 398 (0x18e) | Exported Function | 0x100d2f20 | 0x000d2f20
-`JetDelete@8` | 79 (0x4f) | Exported Function | 0x100d2f20 | 0x000d2f20
-`JetDeleteColumn` | 402 (0x192) | Exported Function | 0x101e3d90 | 0x001e3d90
-`JetDeleteColumn2` | 399 (0x18f) | Exported Function | 0x101e3970 | 0x001e3970
-`JetDeleteColumn2A` | 400 (0x190) | Exported Function | 0x101e3970 | 0x001e3970
-`JetDeleteColumn2A@16` | 80 (0x50) | Exported Function | 0x101e3970 | 0x001e3970
-`JetDeleteColumn2W` | 401 (0x191) | Exported Function | 0x101e3b80 | 0x001e3b80
-`JetDeleteColumn2W@16` | 81 (0x51) | Exported Function | 0x101e3b80 | 0x001e3b80
-`JetDeleteColumnA` | 403 (0x193) | Exported Function | 0x101e3d90 | 0x001e3d90
-`JetDeleteColumnA@12` | 82 (0x52) | Exported Function | 0x101e3d90 | 0x001e3d90
-`JetDeleteColumnW` | 404 (0x194) | Exported Function | 0x101e4150 | 0x001e4150
-`JetDeleteColumnW@12` | 83 (0x53) | Exported Function | 0x101e4150 | 0x001e4150
-`JetDeleteIndex` | 405 (0x195) | Exported Function | 0x101e4350 | 0x001e4350
-`JetDeleteIndexA` | 406 (0x196) | Exported Function | 0x101e4350 | 0x001e4350
-`JetDeleteIndexA@12` | 84 (0x54) | Exported Function | 0x101e4350 | 0x001e4350
-`JetDeleteIndexW` | 407 (0x197) | Exported Function | 0x101e4710 | 0x001e4710
-`JetDeleteIndexW@12` | 85 (0x55) | Exported Function | 0x101e4710 | 0x001e4710
-`JetDefragmentW@24` | 78 (0x4e) | Exported Function | 0x101e3790 | 0x001e3790
-`JetDeleteTable` | 408 (0x198) | Exported Function | 0x101e4910 | 0x001e4910
-`JetDefragmentW` | 397 (0x18d) | Exported Function | 0x101e3790 | 0x001e3790
-`JetDefragmentA` | 396 (0x18c) | Exported Function | 0x101e3380 | 0x001e3380
-`JetDatabaseScan@24` | 72 (0x48) | Exported Function | 0x101e2c00 | 0x001e2c00
-`JetDBUtilities` | 385 (0x181) | Exported Function | 0x101e25c0 | 0x001e25c0
-`JetDBUtilitiesA` | 386 (0x182) | Exported Function | 0x101e25c0 | 0x001e25c0
-`JetDBUtilitiesA@4` | 70 (0x46) | Exported Function | 0x101e25c0 | 0x001e25c0
-`JetDBUtilitiesW` | 387 (0x183) | Exported Function | 0x101e2a90 | 0x001e2a90
-`JetDBUtilitiesW@4` | 71 (0x47) | Exported Function | 0x101e2a90 | 0x001e2a90
-`JetDefragment` | 395 (0x18b) | Exported Function | 0x101e3380 | 0x001e3380
-`JetDefragment2` | 389 (0x185) | Exported Function | 0x101e2f20 | 0x001e2f20
-`JetDefragment2A` | 390 (0x186) | Exported Function | 0x101e2f20 | 0x001e2f20
-`JetDefragment2A@28` | 73 (0x49) | Exported Function | 0x101e2f20 | 0x001e2f20
-`JetDefragment2W` | 391 (0x187) | Exported Function | 0x101e3100 | 0x001e3100
-`JetDefragment2W@28` | 74 (0x4a) | Exported Function | 0x101e3100 | 0x001e3100
-`JetDefragment3` | 392 (0x188) | Exported Function | 0x101e32e0 | 0x001e32e0
-`JetDefragment3A` | 393 (0x189) | Exported Function | 0x101e32e0 | 0x001e32e0
-`JetDefragment3A@32` | 75 (0x4b) | Exported Function | 0x101e32e0 | 0x001e32e0
-`JetDefragment3W` | 394 (0x18a) | Exported Function | 0x101e3330 | 0x001e3330
-`JetDefragment3W@32` | 76 (0x4c) | Exported Function | 0x101e3330 | 0x001e3330
-`JetDefragmentA@24` | 77 (0x4d) | Exported Function | 0x101e3380 | 0x001e3380
-`JetGetLogInfoInstanceW@16` | 140 (0x8c) | Exported Function | 0x101eb450 | 0x001eb450
-`JetDeleteTableA` | 409 (0x199) | Exported Function | 0x101e4910 | 0x001e4910
-`JetDeleteTableW` | 410 (0x19a) | Exported Function | 0x10100020 | 0x00100020
-`JetEndDatabaseIncrementalReseedA` | 423 (0x1a7) | Exported Function | 0x101e52d0 | 0x001e52d0
-`JetEndDatabaseIncrementalReseedA@24` | 96 (0x60) | Exported Function | 0x101e52d0 | 0x001e52d0
-`JetEndDatabaseIncrementalReseedW` | 424 (0x1a8) | Exported Function | 0x101e5650 | 0x001e5650
-`JetEndDatabaseIncrementalReseedW@24` | 97 (0x61) | Exported Function | 0x101e5650 | 0x001e5650
-`JetEndExternalBackup` | 425 (0x1a9) | Exported Function | 0x101e5840 | 0x001e5840
-`JetEndExternalBackup@0` | 98 (0x62) | Exported Function | 0x101e5840 | 0x001e5840
-`JetEndExternalBackupInstance` | 427 (0x1ab) | Exported Function | 0x101e5a50 | 0x001e5a50
-`JetEndExternalBackupInstance2` | 426 (0x1aa) | Exported Function | 0x101e5860 | 0x001e5860
-`JetEndExternalBackupInstance2@8` | 99 (0x63) | Exported Function | 0x101e5860 | 0x001e5860
-`JetEndExternalBackupInstance@4` | 100 (0x64) | Exported Function | 0x101e5a50 | 0x001e5a50
-`JetEndSession` | 428 (0x1ac) | Exported Function | 0x100d5240 | 0x000d5240
-`JetEndSession@8` | 101 (0x65) | Exported Function | 0x100d5240 | 0x000d5240
-`JetEndSurrogateBackup` | 429 (0x1ad) | Exported Function | 0x101e5d20 | 0x001e5d20
-`JetEndSurrogateBackup@8` | 102 (0x66) | Exported Function | 0x101e5d20 | 0x001e5d20
-`JetEnumerateColumns` | 430 (0x1ae) | Exported Function | 0x10117c40 | 0x00117c40
-`JetEnumerateColumns@40` | 103 (0x67) | Exported Function | 0x10117c40 | 0x00117c40
-`JetEscrowUpdate` | 431 (0x1af) | Exported Function | 0x10072e10 | 0x00072e10
-`JetEndDatabaseIncrementalReseed` | 422 (0x1a6) | Exported Function | 0x101e52d0 | 0x001e52d0
-`JetDeleteTableA@12` | 86 (0x56) | Exported Function | 0x101e4910 | 0x001e4910
-`JetEnableMultiInstanceW@12` | 95 (0x5f) | Exported Function | 0x101e5160 | 0x001e5160
-`JetEnableMultiInstanceA@12` | 94 (0x5e) | Exported Function | 0x1010bdc0 | 0x0010bdc0
-`JetDeleteTableW@12` | 87 (0x57) | Exported Function | 0x10100020 | 0x00100020
-`JetDetachDatabase` | 414 (0x19e) | Exported Function | 0x10077000 | 0x00077000
-`JetDetachDatabase2` | 411 (0x19b) | Exported Function | 0x101e4ae0 | 0x001e4ae0
-`JetDetachDatabase2A` | 412 (0x19c) | Exported Function | 0x101e4ae0 | 0x001e4ae0
-`JetDetachDatabase2A@12` | 88 (0x58) | Exported Function | 0x101e4ae0 | 0x001e4ae0
-`JetDetachDatabase2W` | 413 (0x19d) | Exported Function | 0x101e4cb0 | 0x001e4cb0
-`JetDetachDatabase2W@12` | 89 (0x59) | Exported Function | 0x101e4cb0 | 0x001e4cb0
-`JetDetachDatabaseA` | 415 (0x19f) | Exported Function | 0x10077000 | 0x00077000
-`JetDetachDatabaseA@8` | 90 (0x5a) | Exported Function | 0x10077000 | 0x00077000
-`JetDetachDatabaseW` | 416 (0x1a0) | Exported Function | 0x10074410 | 0x00074410
-`JetDetachDatabaseW@8` | 91 (0x5b) | Exported Function | 0x10074410 | 0x00074410
-`JetDupCursor` | 417 (0x1a1) | Exported Function | 0x101061a0 | 0x001061a0
-`JetDupCursor@16` | 92 (0x5c) | Exported Function | 0x101061a0 | 0x001061a0
-`JetDupSession` | 418 (0x1a2) | Exported Function | 0x101e4e90 | 0x001e4e90
-`JetDupSession@8` | 93 (0x5d) | Exported Function | 0x101e4e90 | 0x001e4e90
-`JetEnableMultiInstance` | 419 (0x1a3) | Exported Function | 0x1010bdc0 | 0x0010bdc0
-`JetEnableMultiInstanceA` | 420 (0x1a4) | Exported Function | 0x1010bdc0 | 0x0010bdc0
-`JetEnableMultiInstanceW` | 421 (0x1a5) | Exported Function | 0x101e5160 | 0x001e5160
-`rgEDBGGlobals` | 664 (0x298) | Exported Function | 0x1029b480 | 0x0029b480
+Function Name | Ordinal | Type
+-- | -- | --
+`JetOpenFileSectionInstanceW@36` | 200 | Exported Function
+`JetOpenFileSectionInstanceW` | 555 | Exported Function
+`JetOpenFileW` | 556 | Exported Function
+`JetOpenTable` | 557 | Exported Function
+`JetOpenFileW@16` | 201 | Exported Function
+`JetOpenFileInstanceW@20` | 198 | Exported Function
+`JetOpenFileInstanceW` | 552 | Exported Function
+`JetOpenFileSectionInstance` | 553 | Exported Function
+`JetOpenFileSectionInstanceA@36` | 199 | Exported Function
+`JetOpenFileSectionInstanceA` | 554 | Exported Function
+`JetOpenTemporaryTable2@8` | 207 | Exported Function
+`JetOpenTemporaryTable2` | 563 | Exported Function
+`JetOpenTemporaryTable@8` | 208 | Exported Function
+`JetOpenTempTable2` | 560 | Exported Function
+`JetOpenTempTable` | 562 | Exported Function
+`JetOpenTableA@28` | 202 | Exported Function
+`JetOpenTableA` | 558 | Exported Function
+`JetOpenTableW` | 559 | Exported Function
+`JetOpenTemporaryTable` | 564 | Exported Function
+`JetOpenTableW@28` | 203 | Exported Function
+`JetOpenFileInstanceA@20` | 197 | Exported Function
+`JetMove` | 530 | Exported Function
+`JetMakeKey@20` | 180 | Exported Function
+`JetMove@16` | 181 | Exported Function
+`JetOnlinePatchDatabasePage@32` | 193 | Exported Function
+`JetOnlinePatchDatabasePage` | 544 | Exported Function
+`JetInit@4` | 178 | Exported Function
+`JetInit4W@12` | 177 | Exported Function
+`JetIntersectIndexes` | 528 | Exported Function
+`JetMakeKey` | 529 | Exported Function
+`JetIntersectIndexes@20` | 179 | Exported Function
+`JetOpenFileA` | 549 | Exported Function
+`JetOpenFile` | 548 | Exported Function
+`JetOpenFileA@16` | 196 | Exported Function
+`JetOpenFileInstanceA` | 551 | Exported Function
+`JetOpenFileInstance` | 550 | Exported Function
+`JetOpenDatabaseA` | 546 | Exported Function
+`JetOpenDatabase` | 545 | Exported Function
+`JetOpenDatabaseA@20` | 194 | Exported Function
+`JetOpenDatabaseW@20` | 195 | Exported Function
+`JetOpenDatabaseW` | 547 | Exported Function
+`JetOpenTempTable2@28` | 204 | Exported Function
+`JetPatchDatabasePages` | 565 | Exported Function
+`JetOSSnapshotTruncateLogInstance@12` | 192 | Exported Function
+`JetPatchDatabasePagesA` | 566 | Exported Function
+`JetPatchDatabasePagesW` | 567 | Exported Function
+`JetPatchDatabasePagesA@28` | 209 | Exported Function
+`JetOSSnapshotThaw@8` | 190 | Exported Function
+`JetOSSnapshotThaw` | 541 | Exported Function
+`JetOSSnapshotTruncateLog` | 542 | Exported Function
+`JetOSSnapshotTruncateLogInstance` | 543 | Exported Function
+`JetOSSnapshotTruncateLog@8` | 191 | Exported Function
+`JetPrereadColumnsByReference@36` | 213 | Exported Function
+`JetPrereadColumnsByReference` | 570 | Exported Function
+`JetPrereadIndexRange` | 571 | Exported Function
+`JetPrereadIndexRanges` | 572 | Exported Function
+`JetPrereadIndexRange@28` | 214 | Exported Function
+`JetPrepareToCommitTransaction` | 568 | Exported Function
+`JetPatchDatabasePagesW@28` | 210 | Exported Function
+`JetPrepareToCommitTransaction@16` | 211 | Exported Function
+`JetPrepareUpdate@12` | 212 | Exported Function
+`JetPrepareUpdate` | 569 | Exported Function
+`JetOSSnapshotPrepareInstance@12` | 189 | Exported Function
+`JetOSSnapshotEnd@8` | 183 | Exported Function
+`JetOSSnapshotEnd` | 532 | Exported Function
+`JetOSSnapshotFreeze` | 533 | Exported Function
+`JetOSSnapshotFreezeA@16` | 184 | Exported Function
+`JetOSSnapshotFreezeA` | 534 | Exported Function
+`JetOpenTempTable3@28` | 205 | Exported Function
+`JetOpenTempTable3` | 561 | Exported Function
+`JetOpenTempTable@24` | 206 | Exported Function
+`JetOSSnapshotAbort@8` | 182 | Exported Function
+`JetOSSnapshotAbort` | 531 | Exported Function
+`JetOSSnapshotGetFreezeInfoW@16` | 187 | Exported Function
+`JetOSSnapshotGetFreezeInfoW` | 538 | Exported Function
+`JetOSSnapshotPrepare` | 539 | Exported Function
+`JetOSSnapshotPrepareInstance` | 540 | Exported Function
+`JetOSSnapshotPrepare@8` | 188 | Exported Function
+`JetOSSnapshotFreezeW@16` | 185 | Exported Function
+`JetOSSnapshotFreezeW` | 535 | Exported Function
+`JetOSSnapshotGetFreezeInfo` | 536 | Exported Function
+`JetOSSnapshotGetFreezeInfoA@16` | 186 | Exported Function
+`JetOSSnapshotGetFreezeInfoA` | 537 | Exported Function
+`JetGetSessionParameter@20` | 153 | Exported Function
+`JetGetSessionParameter` | 495 | Exported Function
+`JetGetSystemParameter` | 496 | Exported Function
+`JetGetSystemParameterA@24` | 154 | Exported Function
+`JetGetSystemParameterA` | 497 | Exported Function
+`JetGetSecondaryIndexBookmark` | 493 | Exported Function
+`JetGetResourceParam@16` | 150 | Exported Function
+`JetGetSecondaryIndexBookmark@36` | 151 | Exported Function
+`JetGetSessionInfo@16` | 152 | Exported Function
+`JetGetSessionInfo` | 494 | Exported Function
+`JetGetTableColumnInfoW@24` | 157 | Exported Function
+`JetGetTableColumnInfoW` | 501 | Exported Function
+`JetGetTableIndexInfo` | 502 | Exported Function
+`JetGetTableIndexInfoA@24` | 158 | Exported Function
+`JetGetTableIndexInfoA` | 503 | Exported Function
+`JetGetSystemParameterW@24` | 155 | Exported Function
+`JetGetSystemParameterW` | 498 | Exported Function
+`JetGetTableColumnInfo` | 499 | Exported Function
+`JetGetTableColumnInfoA@24` | 156 | Exported Function
+`JetGetTableColumnInfoA` | 500 | Exported Function
+`JetGetResourceParam` | 492 | Exported Function
+`JetGetObjectInfoA` | 485 | Exported Function
+`JetGetObjectInfo` | 484 | Exported Function
+`JetGetObjectInfoA@32` | 143 | Exported Function
+`JetGetObjectInfoW@32` | 144 | Exported Function
+`JetGetObjectInfoW` | 486 | Exported Function
+`JetGetLS` | 469 | Exported Function
+`JetGetLogInfoW@12` | 141 | Exported Function
+`JetGetLS@16` | 132 | Exported Function
+`JetGetMaxDatabaseSize@16` | 142 | Exported Function
+`JetGetMaxDatabaseSize` | 483 | Exported Function
+`JetGetRecordSize` | 491 | Exported Function
+`JetGetRecordPosition@16` | 147 | Exported Function
+`JetGetRecordSize2` | 490 | Exported Function
+`JetGetRecordSize@16` | 149 | Exported Function
+`JetGetRecordSize2@16` | 148 | Exported Function
+`JetGetPageInfo2` | 487 | Exported Function
+`JetGetPageInfo` | 488 | Exported Function
+`JetGetPageInfo2@24` | 145 | Exported Function
+`JetGetRecordPosition` | 489 | Exported Function
+`JetGetPageInfo@24` | 146 | Exported Function
+`JetGetTableIndexInfoW` | 504 | Exported Function
+`JetIndexRecordCount2@20` | 171 | Exported Function
+`JetIndexRecordCount2` | 518 | Exported Function
+`JetIndexRecordCount@16` | 172 | Exported Function
+`JetInit2` | 520 | Exported Function
+`JetInit` | 527 | Exported Function
+`JetGrowDatabase@16` | 169 | Exported Function
+`JetGrowDatabase` | 516 | Exported Function
+`JetIdle` | 517 | Exported Function
+`JetIndexRecordCount` | 519 | Exported Function
+`JetIdle@8` | 170 | Exported Function
+`JetInit4` | 524 | Exported Function
+`JetInit3W@12` | 175 | Exported Function
+`JetInit4A` | 525 | Exported Function
+`JetInit4W` | 526 | Exported Function
+`JetInit4A@12` | 176 | Exported Function
+`JetInit3` | 521 | Exported Function
+`JetInit2@8` | 173 | Exported Function
+`JetInit3A` | 522 | Exported Function
+`JetInit3W` | 523 | Exported Function
+`JetInit3A@12` | 174 | Exported Function
+`JetGotoSecondaryIndexBookmark@28` | 168 | Exported Function
+`JetGetThreadStats` | 508 | Exported Function
+`JetGetTableInfoW@20` | 161 | Exported Function
+`JetGetThreadStats@8` | 162 | Exported Function
+`JetGetTruncateLogInfoInstanceA` | 510 | Exported Function
+`JetGetTruncateLogInfoInstance` | 509 | Exported Function
+`JetGetTableInfo` | 505 | Exported Function
+`JetGetTableIndexInfoW@24` | 159 | Exported Function
+`JetGetTableInfoA` | 506 | Exported Function
+`JetGetTableInfoW` | 507 | Exported Function
+`JetGetTableInfoA@20` | 160 | Exported Function
+`JetGotoBookmark@16` | 166 | Exported Function
+`JetGotoBookmark` | 513 | Exported Function
+`JetGotoPosition` | 514 | Exported Function
+`JetGotoSecondaryIndexBookmark` | 515 | Exported Function
+`JetGotoPosition@12` | 167 | Exported Function
+`JetGetTruncateLogInfoInstanceW` | 511 | Exported Function
+`JetGetTruncateLogInfoInstanceA@16` | 163 | Exported Function
+`JetGetTruncateLogInfoInstanceW@16` | 164 | Exported Function
+`JetGetVersion@8` | 165 | Exported Function
+`JetGetVersion` | 512 | Exported Function
+`JetSetSessionParameter` | 633 | Exported Function
+`JetSetSessionContext@8` | 264 | Exported Function
+`JetSetSessionParameter@16` | 265 | Exported Function
+`JetSetSystemParameterA` | 635 | Exported Function
+`JetSetSystemParameter` | 634 | Exported Function
+`JetSetMaxDatabaseSize@16` | 262 | Exported Function
+`JetSetMaxDatabaseSize` | 630 | Exported Function
+`JetSetResourceParam` | 631 | Exported Function
+`JetSetSessionContext` | 632 | Exported Function
+`JetSetResourceParam@16` | 263 | Exported Function
+`JetSetTableInfoW` | 639 | Exported Function
+`JetSetTableInfoA@20` | 268 | Exported Function
+`JetSetTableSequential` | 640 | Exported Function
+`JetSnapshotStart` | 641 | Exported Function
+`JetSetTableSequential@12` | 269 | Exported Function
+`JetSetSystemParameterW` | 636 | Exported Function
+`JetSetSystemParameterA@20` | 266 | Exported Function
+`JetSetSystemParameterW@20` | 267 | Exported Function
+`JetSetTableInfoA` | 638 | Exported Function
+`JetSetTableInfo` | 637 | Exported Function
+`JetSetLS@16` | 261 | Exported Function
+`JetSetCurrentIndexA` | 622 | Exported Function
+`JetSetCurrentIndex4W@24` | 254 | Exported Function
+`JetSetCurrentIndexA@12` | 255 | Exported Function
+`JetSetCurrentIndexW@12` | 256 | Exported Function
+`JetSetCurrentIndexW` | 623 | Exported Function
+`JetSetCurrentIndex4` | 618 | Exported Function
+`JetSetCurrentIndex3W@20` | 252 | Exported Function
+`JetSetCurrentIndex4A` | 619 | Exported Function
+`JetSetCurrentIndex4W` | 620 | Exported Function
+`JetSetCurrentIndex4A@24` | 253 | Exported Function
+`JetSetDatabaseSizeW@16` | 259 | Exported Function
+`JetSetDatabaseSizeW` | 627 | Exported Function
+`JetSetIndexRange` | 628 | Exported Function
+`JetSetLS` | 629 | Exported Function
+`JetSetIndexRange@12` | 260 | Exported Function
+`JetSetCursorFilter@20` | 257 | Exported Function
+`JetSetCursorFilter` | 624 | Exported Function
+`JetSetDatabaseSize` | 625 | Exported Function
+`JetSetDatabaseSizeA@16` | 258 | Exported Function
+`JetSetDatabaseSizeA` | 626 | Exported Function
+`JetSnapshotStartA` | 642 | Exported Function
+`JetTruncateLogInstance` | 656 | Exported Function
+`JetTruncateLog@0` | 283 | Exported Function
+`JetTruncateLogInstance@4` | 284 | Exported Function
+`JetUnregisterCallback@16` | 285 | Exported Function
+`JetUnregisterCallback` | 657 | Exported Function
+`JetTestHook@8` | 281 | Exported Function
+`JetTestHook` | 653 | Exported Function
+`JetTracing` | 654 | Exported Function
+`JetTruncateLog` | 655 | Exported Function
+`JetTracing@12` | 282 | Exported Function
+`JetUpgradeDatabaseA@16` | 288 | Exported Function
+`JetUpgradeDatabaseA` | 661 | Exported Function
+`JetUpgradeDatabaseW` | 662 | Exported Function
+`rgEDBGGlobals` | 664 | Exported Function
+`JetUpgradeDatabaseW@16` | 289 | Exported Function
+`JetUpdate2` | 658 | Exported Function
+`JetUpdate` | 659 | Exported Function
+`JetUpdate2@24` | 286 | Exported Function
+`JetUpgradeDatabase` | 660 | Exported Function
+`JetUpdate@20` | 287 | Exported Function
+`JetTerm@4` | 280 | Exported Function
+`JetStopBackup@0` | 273 | Exported Function
+`JetStopBackup` | 645 | Exported Function
+`JetStopBackupInstance` | 646 | Exported Function
+`JetStopService` | 647 | Exported Function
+`JetStopBackupInstance@4` | 274 | Exported Function
+`JetSnapshotStartW` | 643 | Exported Function
+`JetSnapshotStartA@12` | 270 | Exported Function
+`JetSnapshotStartW@12` | 271 | Exported Function
+`JetSnapshotStop@8` | 272 | Exported Function
+`JetSnapshotStop` | 644 | Exported Function
+`JetStreamRecords@32` | 278 | Exported Function
+`JetStreamRecords` | 650 | Exported Function
+`JetTerm` | 652 | Exported Function
+`JetTerm2@8` | 279 | Exported Function
+`JetTerm2` | 651 | Exported Function
+`JetStopServiceInstance` | 649 | Exported Function
+`JetStopService@0` | 275 | Exported Function
+`JetStopServiceInstance2` | 648 | Exported Function
+`JetStopServiceInstance@4` | 277 | Exported Function
+`JetStopServiceInstance2@8` | 276 | Exported Function
+`JetResetSessionContext` | 587 | Exported Function
+`JetResetCounter@8` | 227 | Exported Function
+`JetResetSessionContext@4` | 228 | Exported Function
+`JetResetTableSequential@12` | 229 | Exported Function
+`JetResetTableSequential` | 588 | Exported Function
+`JetRenameTableA@16` | 225 | Exported Function
+`JetRenameTableA` | 584 | Exported Function
+`JetRenameTableW` | 585 | Exported Function
+`JetResetCounter` | 586 | Exported Function
+`JetRenameTableW@16` | 226 | Exported Function
+`JetRestore2W` | 592 | Exported Function
+`JetRestore2A@12` | 231 | Exported Function
+`JetRestore2W@12` | 232 | Exported Function
+`JetRestoreA@8` | 233 | Exported Function
+`JetRestoreA` | 594 | Exported Function
+`JetResizeDatabase@20` | 230 | Exported Function
+`JetResizeDatabase` | 589 | Exported Function
+`JetRestore` | 593 | Exported Function
+`JetRestore2A` | 591 | Exported Function
+`JetRestore2` | 590 | Exported Function
+`JetRenameTable` | 583 | Exported Function
+`JetReadFile@16` | 218 | Exported Function
+`JetReadFile` | 575 | Exported Function
+`JetReadFileInstance` | 576 | Exported Function
+`JetRegisterCallback` | 577 | Exported Function
+`JetReadFileInstance@20` | 219 | Exported Function
+`JetPrereadKeys` | 573 | Exported Function
+`JetPrereadIndexRanges@32` | 215 | Exported Function
+`JetPrereadKeys@28` | 216 | Exported Function
+`JetPrereadTablesW@20` | 217 | Exported Function
+`JetPrereadTablesW` | 574 | Exported Function
+`JetRenameColumnA` | 581 | Exported Function
+`JetRenameColumn` | 580 | Exported Function
+`JetRenameColumnA@20` | 223 | Exported Function
+`JetRenameColumnW@20` | 224 | Exported Function
+`JetRenameColumnW` | 582 | Exported Function
+`JetRemoveLogfileA` | 578 | Exported Function
+`JetRegisterCallback@24` | 220 | Exported Function
+`JetRemoveLogfileA@12` | 221 | Exported Function
+`JetRemoveLogfileW@12` | 222 | Exported Function
+`JetRemoveLogfileW` | 579 | Exported Function
+`JetRestoreInstance` | 595 | Exported Function
+`JetSetColumnDefaultValueW` | 610 | Exported Function
+`JetSetColumnDefaultValueA@28` | 246 | Exported Function
+`JetSetColumnDefaultValueW@28` | 247 | Exported Function
+`JetSetColumns@16` | 248 | Exported Function
+`JetSetColumns` | 611 | Exported Function
+`JetSetColumn` | 607 | Exported Function
+`JetSeek@12` | 244 | Exported Function
+`JetSetColumn@28` | 245 | Exported Function
+`JetSetColumnDefaultValueA` | 609 | Exported Function
+`JetSetColumnDefaultValue` | 608 | Exported Function
+`JetSetCurrentIndex3` | 615 | Exported Function
+`JetSetCurrentIndex2W@16` | 250 | Exported Function
+`JetSetCurrentIndex3A` | 616 | Exported Function
+`JetSetCurrentIndex3W` | 617 | Exported Function
+`JetSetCurrentIndex3A@20` | 251 | Exported Function
+`JetSetCurrentIndex2` | 612 | Exported Function
+`JetSetCurrentIndex` | 621 | Exported Function
+`JetSetCurrentIndex2A` | 613 | Exported Function
+`JetSetCurrentIndex2W` | 614 | Exported Function
+`JetSetCurrentIndex2A@16` | 249 | Exported Function
+`JetSeek` | 606 | Exported Function
+`JetRetrieveColumn` | 599 | Exported Function
+`JetRestoreW@8` | 236 | Exported Function
+`JetRetrieveColumn@32` | 237 | Exported Function
+`JetRetrieveColumnByReference@36` | 238 | Exported Function
+`JetRetrieveColumnByReference` | 600 | Exported Function
+`JetRestoreInstanceA@16` | 234 | Exported Function
+`JetRestoreInstanceA` | 596 | Exported Function
+`JetRestoreInstanceW` | 597 | Exported Function
+`JetRestoreW` | 598 | Exported Function
+`JetRestoreInstanceW@16` | 235 | Exported Function
+`JetRetrieveTaggedColumnList` | 604 | Exported Function
+`JetRetrieveKey@24` | 241 | Exported Function
+`JetRetrieveTaggedColumnList@28` | 242 | Exported Function
+`JetRollback@8` | 243 | Exported Function
+`JetRollback` | 605 | Exported Function
+`JetRetrieveColumnFromRecordStream@28` | 239 | Exported Function
+`JetRetrieveColumnFromRecordStream` | 601 | Exported Function
+`JetRetrieveColumns` | 602 | Exported Function
+`JetRetrieveKey` | 603 | Exported Function
+`JetRetrieveColumns@16` | 240 | Exported Function
+`JetGetLogInfoW` | 482 | Exported Function
+`JetCreateDatabaseWithStreamingA@28` | 47 | Exported Function
+`JetCreateDatabaseWithStreamingA` | 351 | Exported Function
+`JetCreateDatabaseWithStreamingW` | 352 | Exported Function
+`JetCreateEncryptionKey` | 353 | Exported Function
+`JetCreateDatabaseWithStreamingW@28` | 48 | Exported Function
+`JetCreateDatabaseA@20` | 45 | Exported Function
+`JetCreateDatabaseA` | 348 | Exported Function
+`JetCreateDatabaseW` | 349 | Exported Function
+`JetCreateDatabaseWithStreaming` | 350 | Exported Function
+`JetCreateDatabaseW@20` | 46 | Exported Function
+`JetCreateIndex2W@16` | 51 | Exported Function
+`JetCreateIndex2W` | 356 | Exported Function
+`JetCreateIndex3A` | 357 | Exported Function
+`JetCreateIndex4A` | 359 | Exported Function
+`JetCreateIndex3W` | 358 | Exported Function
+`JetCreateIndex` | 361 | Exported Function
+`JetCreateEncryptionKey@16` | 49 | Exported Function
+`JetCreateIndex2` | 354 | Exported Function
+`JetCreateIndex2A@16` | 50 | Exported Function
+`JetCreateIndex2A` | 355 | Exported Function
+`JetCreateDatabase3W@24` | 44 | Exported Function
+`JetConvertDDLA` | 339 | Exported Function
+`JetConvertDDL` | 338 | Exported Function
+`JetConvertDDLA@20` | 39 | Exported Function
+`JetConvertDDLW@20` | 40 | Exported Function
+`JetConvertDDLW` | 340 | Exported Function
+`JetConfigureProcessForCrashDump` | 336 | Exported Function
+`JetComputeStats@8` | 36 | Exported Function
+`JetConfigureProcessForCrashDump@4` | 37 | Exported Function
+`JetConsumeLogData@20` | 38 | Exported Function
+`JetConsumeLogData` | 337 | Exported Function
+`JetCreateDatabase3` | 344 | Exported Function
+`JetCreateDatabase2W@20` | 42 | Exported Function
+`JetCreateDatabase3A` | 345 | Exported Function
+`JetCreateDatabase3W` | 346 | Exported Function
+`JetCreateDatabase3A@24` | 43 | Exported Function
+`JetCreateDatabase2` | 341 | Exported Function
+`JetCreateDatabase` | 347 | Exported Function
+`JetCreateDatabase2A` | 342 | Exported Function
+`JetCreateDatabase2W` | 343 | Exported Function
+`JetCreateDatabase2A@20` | 41 | Exported Function
+`JetCreateIndex4W` | 360 | Exported Function
+`JetCreateTableColumnIndex4A` | 377 | Exported Function
+`JetCreateTableColumnIndex3W@12` | 62 | Exported Function
+`JetCreateTableColumnIndex4A@12` | 63 | Exported Function
+`JetCreateTableColumnIndex4W@12` | 64 | Exported Function
+`JetCreateTableColumnIndex4W` | 378 | Exported Function
+`JetCreateTableColumnIndex2W@12` | 60 | Exported Function
+`JetCreateTableColumnIndex2W` | 374 | Exported Function
+`JetCreateTableColumnIndex3A` | 375 | Exported Function
+`JetCreateTableColumnIndex3W` | 376 | Exported Function
+`JetCreateTableColumnIndex3A@12` | 61 | Exported Function
+`JetCreateTableColumnIndexW` | 383 | Exported Function
+`JetCreateTableColumnIndexA@12` | 67 | Exported Function
+`JetCreateTableColumnIndexW@12` | 68 | Exported Function
+`JetCreateTableW@24` | 69 | Exported Function
+`JetCreateTableW` | 384 | Exported Function
+`JetCreateTableColumnIndex5A@12` | 65 | Exported Function
+`JetCreateTableColumnIndex5A` | 379 | Exported Function
+`JetCreateTableColumnIndex5W` | 380 | Exported Function
+`JetCreateTableColumnIndexA` | 382 | Exported Function
+`JetCreateTableColumnIndex5W@12` | 66 | Exported Function
+`JetCreateTableColumnIndex2A@12` | 59 | Exported Function
+`JetCreateInstance2A` | 365 | Exported Function
+`JetCreateInstance2` | 364 | Exported Function
+`JetCreateInstance2A@16` | 54 | Exported Function
+`JetCreateInstance2W@16` | 55 | Exported Function
+`JetCreateInstance2W` | 366 | Exported Function
+`JetCreateIndexA@28` | 52 | Exported Function
+`JetCreateIndexA` | 362 | Exported Function
+`JetCreateIndexW` | 363 | Exported Function
+`JetCreateInstance` | 367 | Exported Function
+`JetCreateIndexW@28` | 53 | Exported Function
+`JetCreateTableA@24` | 58 | Exported Function
+`JetCreateTableA` | 371 | Exported Function
+`JetCreateTableColumnIndex` | 381 | Exported Function
+`JetCreateTableColumnIndex2A` | 373 | Exported Function
+`JetCreateTableColumnIndex2` | 372 | Exported Function
+`JetCreateInstanceA@8` | 56 | Exported Function
+`JetCreateInstanceA` | 368 | Exported Function
+`JetCreateInstanceW` | 369 | Exported Function
+`JetCreateTable` | 370 | Exported Function
+`JetCreateInstanceW@8` | 57 | Exported Function
+`JetAttachDatabaseW@12` | 11 | Exported Function
+`JetAttachDatabaseW` | 304 | Exported Function
+`JetAttachDatabaseWithStreaming` | 305 | Exported Function
+`JetAttachDatabaseWithStreamingA@24` | 12 | Exported Function
+`JetAttachDatabaseWithStreamingA` | 306 | Exported Function
+`JetAttachDatabase3W` | 301 | Exported Function
+`JetAttachDatabase3A@20` | 8 | Exported Function
+`JetAttachDatabase3W@20` | 9 | Exported Function
+`JetAttachDatabaseA@12` | 10 | Exported Function
+`JetAttachDatabaseA` | 303 | Exported Function
+`JetBackupInstanceA` | 311 | Exported Function
+`JetBackupInstance` | 310 | Exported Function
+`JetBackupInstanceA@16` | 15 | Exported Function
+`JetBackupInstanceW@16` | 16 | Exported Function
+`JetBackupInstanceW` | 312 | Exported Function
+`JetAttachDatabaseWithStreamingW@24` | 13 | Exported Function
+`JetAttachDatabaseWithStreamingW` | 307 | Exported Function
+`JetBackup` | 308 | Exported Function
+`JetBackupA@12` | 14 | Exported Function
+`JetBackupA` | 309 | Exported Function
+`JetAttachDatabase3A` | 300 | Exported Function
+`ese` | 663 | Exported Function
+`DebugExtensionUninitialize@0` | 3 | Exported Function
+`ese@8` | 665 | Exported Function
+`JetAddColumnA` | 294 | Exported Function
+`JetAddColumn` | 293 | Exported Function
+`DebugExtensionInitialize@8` | 1 | Exported Function
+`DebugExtensionInitialize` | 290 | Exported Function
+`DebugExtensionNotify` | 291 | Exported Function
+`DebugExtensionUninitialize` | 292 | Exported Function
+`DebugExtensionNotify@12` | 2 | Exported Function
+`JetAttachDatabase2A@16` | 6 | Exported Function
+`JetAttachDatabase2A` | 297 | Exported Function
+`JetAttachDatabase2W` | 298 | Exported Function
+`JetAttachDatabase3` | 299 | Exported Function
+`JetAttachDatabase2W@16` | 7 | Exported Function
+`JetAddColumnW` | 295 | Exported Function
+`JetAddColumnA@28` | 4 | Exported Function
+`JetAddColumnW@28` | 5 | Exported Function
+`JetAttachDatabase2` | 296 | Exported Function
+`JetAttachDatabase` | 302 | Exported Function
+`JetBackupW` | 313 | Exported Function
+`JetCloseFileInstance` | 328 | Exported Function
+`JetCloseFile@4` | 29 | Exported Function
+`JetCloseFileInstance@8` | 30 | Exported Function
+`JetCloseTable@8` | 31 | Exported Function
+`JetCloseTable` | 329 | Exported Function
+`JetBeginTransaction@4` | 27 | Exported Function
+`JetBeginTransaction3@16` | 26 | Exported Function
+`JetCloseDatabase` | 326 | Exported Function
+`JetCloseFile` | 327 | Exported Function
+`JetCloseDatabase@12` | 28 | Exported Function
+`JetCompactA@24` | 34 | Exported Function
+`JetCompactA` | 333 | Exported Function
+`JetCompactW` | 334 | Exported Function
+`JetComputeStats` | 335 | Exported Function
+`JetCompactW@24` | 35 | Exported Function
+`JetCommitTransaction2` | 330 | Exported Function
+`JetCommitTransaction` | 331 | Exported Function
+`JetCommitTransaction2@16` | 32 | Exported Function
+`JetCompact` | 332 | Exported Function
+`JetCommitTransaction@8` | 33 | Exported Function
+`JetBeginTransaction3` | 324 | Exported Function
+`JetBeginExternalBackup` | 317 | Exported Function
+`JetBeginDatabaseIncrementalReseedW@12` | 19 | Exported Function
+`JetBeginExternalBackup@4` | 20 | Exported Function
+`JetBeginExternalBackupInstance@8` | 21 | Exported Function
+`JetBeginExternalBackupInstance` | 318 | Exported Function
+`JetBeginDatabaseIncrementalReseed` | 314 | Exported Function
+`JetBackupW@12` | 17 | Exported Function
+`JetBeginDatabaseIncrementalReseedA` | 315 | Exported Function
+`JetBeginDatabaseIncrementalReseedW` | 316 | Exported Function
+`JetBeginDatabaseIncrementalReseedA@12` | 18 | Exported Function
+`JetBeginSurrogateBackup@16` | 24 | Exported Function
+`JetBeginSurrogateBackup` | 322 | Exported Function
+`JetBeginTransaction` | 325 | Exported Function
+`JetBeginTransaction2@8` | 25 | Exported Function
+`JetBeginTransaction2` | 323 | Exported Function
+`JetBeginSessionA` | 320 | Exported Function
+`JetBeginSession` | 319 | Exported Function
+`JetBeginSessionA@16` | 22 | Exported Function
+`JetBeginSessionW@16` | 23 | Exported Function
+`JetBeginSessionW` | 321 | Exported Function
+`JetGetColumnInfoW@28` | 116 | Exported Function
+`JetGetColumnInfoW` | 448 | Exported Function
+`JetGetCounter` | 449 | Exported Function
+`JetGetCurrentIndex` | 450 | Exported Function
+`JetGetCounter@12` | 117 | Exported Function
+`JetGetBookmark@20` | 114 | Exported Function
+`JetGetBookmark` | 445 | Exported Function
+`JetGetColumnInfo` | 446 | Exported Function
+`JetGetColumnInfoA@28` | 115 | Exported Function
+`JetGetColumnInfoA` | 447 | Exported Function
+`JetGetDatabaseFileInfo` | 454 | Exported Function
+`JetGetCursorInfo@20` | 120 | Exported Function
+`JetGetDatabaseFileInfoA` | 455 | Exported Function
+`JetGetDatabaseFileInfoW` | 456 | Exported Function
+`JetGetDatabaseFileInfoA@16` | 121 | Exported Function
+`JetGetCurrentIndexA@16` | 118 | Exported Function
+`JetGetCurrentIndexA` | 451 | Exported Function
+`JetGetCurrentIndexW` | 452 | Exported Function
+`JetGetCursorInfo` | 453 | Exported Function
+`JetGetCurrentIndexW@16` | 119 | Exported Function
+`JetGetAttachInfoW@12` | 113 | Exported Function
+`JetExternalRestoreA@32` | 107 | Exported Function
+`JetExternalRestoreA` | 436 | Exported Function
+`JetExternalRestoreW` | 437 | Exported Function
+`JetFreeBuffer` | 438 | Exported Function
+`JetExternalRestoreW@32` | 108 | Exported Function
+`JetExternalRestore2A` | 433 | Exported Function
+`JetExternalRestore2` | 432 | Exported Function
+`JetExternalRestore2A@40` | 105 | Exported Function
+`JetExternalRestore2W@40` | 106 | Exported Function
+`JetExternalRestore2W` | 434 | Exported Function
+`JetGetAttachInfoInstanceA@16` | 111 | Exported Function
+`JetGetAttachInfoInstanceA` | 442 | Exported Function
+`JetGetAttachInfoInstanceW` | 443 | Exported Function
+`JetGetAttachInfoW` | 444 | Exported Function
+`JetGetAttachInfoInstanceW@16` | 112 | Exported Function
+`JetGetAttachInfo` | 439 | Exported Function
+`JetFreeBuffer@4` | 109 | Exported Function
+`JetGetAttachInfoA` | 440 | Exported Function
+`JetGetAttachInfoInstance` | 441 | Exported Function
+`JetGetAttachInfoA@12` | 110 | Exported Function
+`JetGetDatabaseFileInfoW@16` | 122 | Exported Function
+`JetGetLogFileInfoW@16` | 135 | Exported Function
+`JetGetLogFileInfoW` | 473 | Exported Function
+`JetGetLogInfo` | 474 | Exported Function
+`JetGetLogInfoA@12` | 136 | Exported Function
+`JetGetLogInfoA` | 475 | Exported Function
+`JetGetLock@12` | 133 | Exported Function
+`JetGetLock` | 470 | Exported Function
+`JetGetLogFileInfo` | 471 | Exported Function
+`JetGetLogFileInfoA@16` | 134 | Exported Function
+`JetGetLogFileInfoA` | 472 | Exported Function
+`JetGetLogInfoInstanceA` | 480 | Exported Function
+`JetGetLogInfoInstance2W@20` | 138 | Exported Function
+`JetGetLogInfoInstanceA@16` | 139 | Exported Function
+`JetGetLogInfoInstanceW@16` | 140 | Exported Function
+`JetGetLogInfoInstanceW` | 481 | Exported Function
+`JetGetLogInfoInstance2` | 476 | Exported Function
+`JetGetLogInfoInstance` | 479 | Exported Function
+`JetGetLogInfoInstance2A` | 477 | Exported Function
+`JetGetLogInfoInstance2W` | 478 | Exported Function
+`JetGetLogInfoInstance2A@20` | 137 | Exported Function
+`JetGetInstanceMiscInfo@16` | 131 | Exported Function
+`JetGetDatabasePages@32` | 125 | Exported Function
+`JetGetDatabasePages` | 460 | Exported Function
+`JetGetErrorInfoW` | 461 | Exported Function
+`JetGetIndexInfo` | 462 | Exported Function
+`JetGetErrorInfoW@20` | 126 | Exported Function
+`JetGetDatabaseInfoA` | 458 | Exported Function
+`JetGetDatabaseInfo` | 457 | Exported Function
+`JetGetDatabaseInfoA@20` | 123 | Exported Function
+`JetGetDatabaseInfoW@20` | 124 | Exported Function
+`JetGetDatabaseInfoW` | 459 | Exported Function
+`JetGetInstanceInfoA@8` | 129 | Exported Function
+`JetGetInstanceInfoA` | 466 | Exported Function
+`JetGetInstanceInfoW` | 467 | Exported Function
+`JetGetInstanceMiscInfo` | 468 | Exported Function
+`JetGetInstanceInfoW@8` | 130 | Exported Function
+`JetGetIndexInfoA@28` | 127 | Exported Function
+`JetGetIndexInfoA` | 463 | Exported Function
+`JetGetIndexInfoW` | 464 | Exported Function
+`JetGetInstanceInfo` | 465 | Exported Function
+`JetGetIndexInfoW@28` | 128 | Exported Function
+`JetDeleteColumn2A@16` | 80 | Exported Function
+`JetDeleteColumn2A` | 400 | Exported Function
+`JetDeleteColumn2W` | 401 | Exported Function
+`JetDeleteColumnA` | 403 | Exported Function
+`JetDeleteColumn2W@16` | 81 | Exported Function
+`JetDelete` | 398 | Exported Function
+`JetDefragmentW@24` | 78 | Exported Function
+`JetDelete@8` | 79 | Exported Function
+`JetDeleteColumn2` | 399 | Exported Function
+`JetDeleteColumn` | 402 | Exported Function
+`JetDeleteIndexW` | 407 | Exported Function
+`JetDeleteIndexA@12` | 84 | Exported Function
+`JetDeleteIndexW@12` | 85 | Exported Function
+`JetDeleteTableA` | 409 | Exported Function
+`JetDeleteTable` | 408 | Exported Function
+`JetDeleteColumnW` | 404 | Exported Function
+`JetDeleteColumnA@12` | 82 | Exported Function
+`JetDeleteColumnW@12` | 83 | Exported Function
+`JetDeleteIndexA` | 406 | Exported Function
+`JetDeleteIndex` | 405 | Exported Function
+`JetDefragmentW` | 397 | Exported Function
+`JetDBUtilitiesW@4` | 71 | Exported Function
+`JetDBUtilitiesW` | 387 | Exported Function
+`JetDefragment` | 395 | Exported Function
+`JetDefragment2A` | 390 | Exported Function
+`JetDefragment2` | 389 | Exported Function
+`JetDatabaseScan@24` | 72 | Exported Function
+`JetDatabaseScan` | 388 | Exported Function
+`JetDBUtilities` | 385 | Exported Function
+`JetDBUtilitiesA@4` | 70 | Exported Function
+`JetDBUtilitiesA` | 386 | Exported Function
+`JetDefragment3W` | 394 | Exported Function
+`JetDefragment3A@32` | 75 | Exported Function
+`JetDefragment3W@32` | 76 | Exported Function
+`JetDefragmentA@24` | 77 | Exported Function
+`JetDefragmentA` | 396 | Exported Function
+`JetDefragment2W` | 391 | Exported Function
+`JetDefragment2A@28` | 73 | Exported Function
+`JetDefragment2W@28` | 74 | Exported Function
+`JetDefragment3A` | 393 | Exported Function
+`JetDefragment3` | 392 | Exported Function
+`JetDeleteTableA@12` | 86 | Exported Function
+`JetEndExternalBackup@0` | 98 | Exported Function
+`JetEndExternalBackup` | 425 | Exported Function
+`JetEndExternalBackupInstance` | 427 | Exported Function
+`JetEndExternalBackupInstance2@8` | 99 | Exported Function
+`JetEndExternalBackupInstance2` | 426 | Exported Function
+`JetEndDatabaseIncrementalReseedA` | 423 | Exported Function
+`JetEndDatabaseIncrementalReseed` | 422 | Exported Function
+`JetEndDatabaseIncrementalReseedA@24` | 96 | Exported Function
+`JetEndDatabaseIncrementalReseedW@24` | 97 | Exported Function
+`JetEndDatabaseIncrementalReseedW` | 424 | Exported Function
+`JetEnumerateColumns@40` | 103 | Exported Function
+`JetEnumerateColumns` | 430 | Exported Function
+`JetEscrowUpdate` | 431 | Exported Function
+`JetExternalRestore` | 435 | Exported Function
+`JetEscrowUpdate@36` | 104 | Exported Function
+`JetEndSession` | 428 | Exported Function
+`JetEndExternalBackupInstance@4` | 100 | Exported Function
+`JetEndSession@8` | 101 | Exported Function
+`JetEndSurrogateBackup@8` | 102 | Exported Function
+`JetEndSurrogateBackup` | 429 | Exported Function
+`JetEnableMultiInstanceW@12` | 95 | Exported Function
+`JetDetachDatabase2W` | 413 | Exported Function
+`JetDetachDatabase2A@12` | 88 | Exported Function
+`JetDetachDatabase2W@12` | 89 | Exported Function
+`JetDetachDatabaseA@8` | 90 | Exported Function
+`JetDetachDatabaseA` | 415 | Exported Function
+`JetDeleteTableW@12` | 87 | Exported Function
+`JetDeleteTableW` | 410 | Exported Function
+`JetDetachDatabase` | 414 | Exported Function
+`JetDetachDatabase2A` | 412 | Exported Function
+`JetDetachDatabase2` | 411 | Exported Function
+`JetEnableMultiInstance` | 419 | Exported Function
+`JetDupSession@8` | 93 | Exported Function
+`JetEnableMultiInstanceA` | 420 | Exported Function
+`JetEnableMultiInstanceW` | 421 | Exported Function
+`JetEnableMultiInstanceA@12` | 94 | Exported Function
+`JetDetachDatabaseW@8` | 91 | Exported Function
+`JetDetachDatabaseW` | 416 | Exported Function
+`JetDupCursor` | 417 | Exported Function
+`JetDupSession` | 418 | Exported Function
+`JetDupCursor@16` | 92 | Exported Function
 
 
 ## Signature

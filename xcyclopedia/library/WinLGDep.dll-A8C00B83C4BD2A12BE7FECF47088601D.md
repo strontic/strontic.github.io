@@ -24,10 +24,10 @@ PE256 | `9B3FC1CFF1CAA5455CE5EDEF81FA4CB3C5FF32794DD340E7CEC43A5F38D4D9F0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateSplashWindows` | 1 (0x1) | Exported Function | 0x0000000180001700 | 0x00001700
-`DestroySplashWindows` | 2 (0x2) | Exported Function | 0x0000000180001c60 | 0x00001c60
+Function Name | Ordinal | Type
+-- | -- | --
+`DestroySplashWindows` | 2 | Exported Function
+`CreateSplashWindows` | 1 | Exported Function
 
 
 ## Signature

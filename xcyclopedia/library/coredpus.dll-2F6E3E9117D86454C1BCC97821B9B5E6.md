@@ -24,22 +24,10 @@ PE256 | `A35CBB49C2492171F44A69B9AF1A6817FE93254D75B4B7FC12211A0AAFDAF499`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 15 (0xf) | Exported Function | 0x0000000180002a10 | 0x00002a10
-`DllGetClassObject` | 16 (0x10) | Exported Function | 0x0000000180002a30 | 0x00002a30
-`Ordinal10` | 10 (0xa) | Exported Function | 0x00000001800035b0 | 0x000035b0
-`Ordinal11` | 11 (0xb) | Exported Function | 0x00000001800036f0 | 0x000036f0
-`Ordinal12` | 12 (0xc) | Exported Function | 0x0000000180003fc0 | 0x00003fc0
-`Ordinal13` | 13 (0xd) | Exported Function | 0x0000000180003da0 | 0x00003da0
-`Ordinal14` | 14 (0xe) | Exported Function | 0x0000000180003730 | 0x00003730
-`Ordinal3` | 3 (0x3) | Exported Function | 0x0000000180003580 | 0x00003580
-`Ordinal4` | 4 (0x4) | Exported Function | 0x0000000180003650 | 0x00003650
-`Ordinal5` | 5 (0x5) | Exported Function | 0x0000000180003390 | 0x00003390
-`Ordinal6` | 6 (0x6) | Exported Function | 0x0000000180003710 | 0x00003710
-`Ordinal7` | 7 (0x7) | Exported Function | 0x00000001800035e0 | 0x000035e0
-`Ordinal8` | 8 (0x8) | Exported Function | 0x0000000180003760 | 0x00003760
-`Ordinal9` | 9 (0x9) | Exported Function | 0x00000001800039d0 | 0x000039d0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 16 | Exported Function
+`DllCanUnloadNow` | 15 | Exported Function
 
 
 ## Signature

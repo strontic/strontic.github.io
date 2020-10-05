@@ -24,9 +24,9 @@ PE256 | `687587E2CCBF2E6940EF9D3190AEC42703B378616D23FB19BE0793285ED98BB7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`class Microsoft::VoiceAgentServices::IAgentActivationRuntimePalComponentFactory * __ptr64 __cdecl GetAgentActivationRuntimePalComponentFactory(void)` | 1 (0x1) | Exported Function | 0x0000000180008770 | 0x00008770
+Function Name | Ordinal | Type
+-- | -- | --
+`class Microsoft::VoiceAgentServices::IAgentActivationRuntimePalComponentFactory * __ptr64 __cdecl GetAgentActivationRuntimePalComponentFactory(void)` | 1 | Exported Function
 
 
 ## Signature

@@ -24,18 +24,18 @@ PE256 | `99A4B9F46ACE47F2D632024CA2C52A6F0C321B309E5F5D17A87D2A759B26CD84`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDeploymentSession` | 1 (0x1) | Exported Function | 0x0000000180045330 | 0x00045330
-`CreateDeploymentSessionEx` | 2 (0x2) | Exported Function | 0x00000001800452e0 | 0x000452e0
-`CreateOfflineDeploymentSession` | 3 (0x3) | Exported Function | 0x0000000180045290 | 0x00045290
-`UA_CommitActionList` | 4 (0x4) | Exported Function | 0x0000000180014000 | 0x00014000
-`UA_CreateActionList` | 5 (0x5) | Exported Function | 0x0000000180012ad0 | 0x00012ad0
-`UA_CreateDownloadList` | 6 (0x6) | Exported Function | 0x0000000180012d50 | 0x00012d50
-`UA_CreateDownloadListFromActionList` | 7 (0x7) | Exported Function | 0x0000000180013a90 | 0x00013a90
-`UA_CreatePackageListFromDownloadList` | 8 (0x8) | Exported Function | 0x0000000180012f60 | 0x00012f60
-`UA_InstallActionList` | 9 (0x9) | Exported Function | 0x0000000180013e50 | 0x00013e50
-`UA_ReleaseDownloadList` | 10 (0xa) | Exported Function | 0x0000000180013bd0 | 0x00013bd0
+Function Name | Ordinal | Type
+-- | -- | --
+`UA_CreateDownloadListFromActionList` | 7 | Exported Function
+`UA_CreateDownloadList` | 6 | Exported Function
+`UA_CreatePackageListFromDownloadList` | 8 | Exported Function
+`UA_ReleaseDownloadList` | 10 | Exported Function
+`UA_InstallActionList` | 9 | Exported Function
+`CreateDeploymentSessionEx` | 2 | Exported Function
+`CreateDeploymentSession` | 1 | Exported Function
+`CreateOfflineDeploymentSession` | 3 | Exported Function
+`UA_CreateActionList` | 5 | Exported Function
+`UA_CommitActionList` | 4 | Exported Function
 
 
 ## Signature

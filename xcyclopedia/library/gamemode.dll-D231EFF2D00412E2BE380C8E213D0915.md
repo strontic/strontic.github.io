@@ -24,16 +24,16 @@ PE256 | `17FC35F085767FC6A357F8AC94255D971E6670F9061811C40687BC1461CDD22C`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetExpandedResourceExclusiveCpuCount` | 1 (0x1) | Exported Function | 0x0000000180004e90 | 0x00004e90
-`HasExpandedResources` | 2 (0x2) | Exported Function | 0x0000000180004e10 | 0x00004e10
-`MsixvcAddGameToGCS` | 3 (0x3) | Exported Function | 0x00000001800048a0 | 0x000048a0
-`MsixvcAddPackageAsync` | 4 (0x4) | Exported Function | 0x0000000180003fd0 | 0x00003fd0
-`MsixvcRemediateMutablePackagesForVolumeAsync` | 5 (0x5) | Exported Function | 0x00000001800047a0 | 0x000047a0
-`MsixvcUpdatePolicyString` | 6 (0x6) | Exported Function | 0x0000000180004700 | 0x00004700
-`MsixvcUpdatePolicyUInt64` | 7 (0x7) | Exported Function | 0x0000000180004750 | 0x00004750
-`ReleaseExclusiveCpuSets` | 8 (0x8) | Exported Function | 0x0000000180004f90 | 0x00004f90
+Function Name | Ordinal | Type
+-- | -- | --
+`MsixvcUpdatePolicyString` | 6 | Exported Function
+`MsixvcRemediateMutablePackagesForVolumeAsync` | 5 | Exported Function
+`ReleaseExclusiveCpuSets` | 8 | Exported Function
+`MsixvcUpdatePolicyUInt64` | 7 | Exported Function
+`HasExpandedResources` | 2 | Exported Function
+`GetExpandedResourceExclusiveCpuCount` | 1 | Exported Function
+`MsixvcAddPackageAsync` | 4 | Exported Function
+`MsixvcAddGameToGCS` | 3 | Exported Function
 
 
 ## Signature

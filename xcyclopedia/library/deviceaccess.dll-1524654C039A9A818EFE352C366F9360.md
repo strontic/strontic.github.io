@@ -24,17 +24,17 @@ PE256 | `AAA1CB144A315925B219E36A0CC6A94409D59A41583661CCCACF93C3F17E69E3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`BrokeredOpenCommPort` | 3 (0x3) | Exported Function | 0x10015c30 | 0x00015c30
-`CreateDeviceAccessInstance` | 4 (0x4) | Exported Function | 0x10017f60 | 0x00017f60
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x1000bbd0 | 0x0000bbd0
-`DllGetActivationFactory` | 6 (0x6) | Exported Function | 0x1000bb40 | 0x0000bb40
-`DllGetClassObject` | 7 (0x7) | Exported Function | 0x1000a2a0 | 0x0000a2a0
-`ProcessTrackerInsertOrWait` | 8 (0x8) | Exported Function | 0x1001ff20 | 0x0001ff20
-`ProcessTrackerRemove` | 9 (0x9) | Exported Function | 0x1001ff50 | 0x0001ff50
-`ServiceMain` | 1 (0x1) | Exported Function | 0x1000f5a0 | 0x0000f5a0
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x1000f820 | 0x0000f820
+Function Name | Ordinal | Type
+-- | -- | --
+`ProcessTrackerRemove` | 9 | Exported Function
+`ProcessTrackerInsertOrWait` | 8 | Exported Function
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`ServiceMain` | 1 | Exported Function
+`DllGetClassObject` | 7 | Exported Function
+`CreateDeviceAccessInstance` | 4 | Exported Function
+`BrokeredOpenCommPort` | 3 | Exported Function
+`DllGetActivationFactory` | 6 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
 
 
 ## Signature

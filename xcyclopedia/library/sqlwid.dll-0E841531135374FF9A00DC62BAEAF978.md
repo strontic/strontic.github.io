@@ -26,18 +26,18 @@ PE256 | `F0745335430A97E62DE2495F964838FD2989E816DE4B677F9942F3EB02119093`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`_hwrite_` | 4 (0x4) | Exported Function | 0x1bf01710 | 0x00001710
-`_lcreat_` | 5 (0x5) | Exported Function | 0x1bf01610 | 0x00001610
-`_lopen_` | 6 (0x6) | Exported Function | 0x1bf01590 | 0x00001590
-`_lwrite_` | 7 (0x7) | Exported Function | 0x1bf01690 | 0x00001690
-`_ttof` | 8 (0x8) | Exported Function | 0x1bf017f0 | 0x000017f0
-`GetEnvironmentStrings_` | 1 (0x1) | Exported Function | 0x1bf014c0 | 0x000014c0
-`GetProcAddress_` | 2 (0x2) | Exported Function | 0x1bf01410 | 0x00001410
-`OpenFile_` | 3 (0x3) | Exported Function | 0x1bf01510 | 0x00001510
-`strerror_` | 9 (0x9) | Exported Function | 0x1bf01790 | 0x00001790
-`wstrlen` | 10 (0xa) | Exported Function | 0x1bf01870 | 0x00001870
+Function Name | Ordinal | Type
+-- | -- | --
+`GetProcAddress_` | 2 | Exported Function
+`GetEnvironmentStrings_` | 1 | Exported Function
+`OpenFile_` | 3 | Exported Function
+`wstrlen` | 10 | Exported Function
+`strerror_` | 9 | Exported Function
+`_lcreat_` | 5 | Exported Function
+`_hwrite_` | 4 | Exported Function
+`_lopen_` | 6 | Exported Function
+`_ttof` | 8 | Exported Function
+`_lwrite_` | 7 | Exported Function
 
 
 ## Signature

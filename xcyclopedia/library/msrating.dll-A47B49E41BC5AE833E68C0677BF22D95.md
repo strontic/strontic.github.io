@@ -24,40 +24,40 @@ PE256 | `D22D45C2A18BB8798096118B4891BE04870EC0FA9081AE85EB4474BF23E9A722`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`ChangeSupervisorPassword` | 1 (0x1) | Exported Function | 0x634013d0 | 0x000013d0
-`RatingSetupUI` | 30 (0x1e) | Exported Function | 0x634013d0 | 0x000013d0
-`RatingObtainQueryW` | 29 (0x1d) | Exported Function | 0x634013b0 | 0x000013b0
-`RatingObtainQuery` | 28 (0x1c) | Exported Function | 0x634013b0 | 0x000013b0
-`RatingObtainCancel` | 27 (0x1b) | Exported Function | 0x634013c0 | 0x000013c0
-`RatingInit` | 26 (0x1a) | Exported Function | 0x634013f0 | 0x000013f0
-`RatingFreeDetails` | 25 (0x19) | Exported Function | 0x634013c0 | 0x000013c0
-`RatingEnableW` | 23 (0x17) | Exported Function | 0x63401390 | 0x00001390
-`RatingEnabledQuery` | 24 (0x18) | Exported Function | 0x634013f0 | 0x000013f0
-`RatingEnable` | 22 (0x16) | Exported Function | 0x63401390 | 0x00001390
-`RatingCustomSetUserOptions` | 21 (0x15) | Exported Function | 0x634013d0 | 0x000013d0
-`RatingCustomSetDefaultBureau` | 20 (0x14) | Exported Function | 0x634013c0 | 0x000013c0
-`RatingCustomRemoveRatingHelper` | 19 (0x13) | Exported Function | 0x634013b0 | 0x000013b0
-`RatingCustomInit` | 18 (0x12) | Exported Function | 0x634013c0 | 0x000013c0
-`RatingCustomDeleteCrackedData` | 17 (0x11) | Exported Function | 0x634013c0 | 0x000013c0
-`RatingCustomCrackData` | 16 (0x10) | Exported Function | 0x63401390 | 0x00001390
-`RatingCustomAddRatingSystem` | 15 (0xf) | Exported Function | 0x634013d0 | 0x000013d0
-`RatingCustomAddRatingHelper` | 14 (0xe) | Exported Function | 0x634013a0 | 0x000013a0
-`RatingClickedOnRATInternal` | 13 (0xd) | Exported Function | 0x634013b0 | 0x000013b0
-`RatingClickedOnPRFInternal` | 12 (0xc) | Exported Function | 0x634013b0 | 0x000013b0
-`RatingCheckUserAccessW` | 11 (0xb) | Exported Function | 0x634013a0 | 0x000013a0
-`RatingCheckUserAccess` | 10 (0xa) | Exported Function | 0x634013a0 | 0x000013a0
-`RatingAddToApprovedSites` | 9 (0x9) | Exported Function | 0x634013e0 | 0x000013e0
-`RatingAddPropertyPages` | 8 (0x8) | Exported Function | 0x63401390 | 0x00001390
-`RatingAccessDeniedDialogW` | 7 (0x7) | Exported Function | 0x634013b0 | 0x000013b0
-`RatingAccessDeniedDialog2W` | 5 (0x5) | Exported Function | 0x63401390 | 0x00001390
-`RatingAccessDeniedDialog2` | 4 (0x4) | Exported Function | 0x63401390 | 0x00001390
-`RatingAccessDeniedDialog` | 6 (0x6) | Exported Function | 0x634013b0 | 0x000013b0
-`ClickedOnRAT` | 3 (0x3) | Exported Function | 0x634013b0 | 0x000013b0
-`ClickedOnPRF` | 2 (0x2) | Exported Function | 0x634013b0 | 0x000013b0
-`RatingSetupUIW` | 31 (0x1f) | Exported Function | 0x634013d0 | 0x000013d0
-`VerifySupervisorPassword` | 32 (0x20) | Exported Function | 0x634013c0 | 0x000013c0
+Function Name | Ordinal | Type
+-- | -- | --
+`RatingEnable` | 22 | Exported Function
+`RatingCustomSetUserOptions` | 21 | Exported Function
+`RatingEnableW` | 23 | Exported Function
+`RatingEnabledQuery` | 24 | Exported Function
+`RatingCustomInit` | 18 | Exported Function
+`RatingCustomDeleteCrackedData` | 17 | Exported Function
+`RatingCustomSetDefaultBureau` | 20 | Exported Function
+`RatingCustomRemoveRatingHelper` | 19 | Exported Function
+`RatingSetupUI` | 30 | Exported Function
+`RatingObtainQueryW` | 29 | Exported Function
+`VerifySupervisorPassword` | 32 | Exported Function
+`RatingSetupUIW` | 31 | Exported Function
+`RatingInit` | 26 | Exported Function
+`RatingFreeDetails` | 25 | Exported Function
+`RatingObtainQuery` | 28 | Exported Function
+`RatingObtainCancel` | 27 | Exported Function
+`RatingAccessDeniedDialog2W` | 5 | Exported Function
+`RatingAccessDeniedDialog2` | 4 | Exported Function
+`RatingAddPropertyPages` | 8 | Exported Function
+`RatingAccessDeniedDialogW` | 7 | Exported Function
+`ClickedOnPRF` | 2 | Exported Function
+`ChangeSupervisorPassword` | 1 | Exported Function
+`RatingAccessDeniedDialog` | 6 | Exported Function
+`ClickedOnRAT` | 3 | Exported Function
+`RatingCustomAddRatingHelper` | 14 | Exported Function
+`RatingClickedOnRATInternal` | 13 | Exported Function
+`RatingCustomCrackData` | 16 | Exported Function
+`RatingCustomAddRatingSystem` | 15 | Exported Function
+`RatingCheckUserAccess` | 10 | Exported Function
+`RatingAddToApprovedSites` | 9 | Exported Function
+`RatingClickedOnPRFInternal` | 12 | Exported Function
+`RatingCheckUserAccessW` | 11 | Exported Function
 
 
 ## Signature

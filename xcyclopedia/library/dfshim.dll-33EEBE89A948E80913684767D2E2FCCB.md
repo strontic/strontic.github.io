@@ -24,28 +24,28 @@ PE256 | `286010269C5B131051E537F3E0E58975503A5C52F6E065BA29972F3676550242`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CleanOnlineAppCache` | 17 (0x11) | Exported Function | 0x10023b20 | 0x00023b20
-`ShOpenVerbExtensionW` | 14 (0xe) | Exported Function | 0x10023a30 | 0x00023a30
-`ShOpenVerbExtension` | 13 (0xd) | Exported Function | 0x10023a50 | 0x00023a50
-`ShOpenVerbApplicationW` | 12 (0xc) | Exported Function | 0x100239f0 | 0x000239f0
-`ShOpenVerbApplication` | 11 (0xb) | Exported Function | 0x10023a10 | 0x00023a10
-`ShArpMaintainW` | 10 (0xa) | Exported Function | 0x10023aa0 | 0x00023aa0
-`ShArpMaintain` | 9 (0x9) | Exported Function | 0x10023ad0 | 0x00023ad0
-`ParseManifest` | 8 (0x8) | Exported Function | 0x100268f0 | 0x000268f0
-`LaunchApplication` | 7 (0x7) | Exported Function | 0x10023a70 | 0x00023a70
-`KillService` | 6 (0x6) | Exported Function | 0x10023b00 | 0x00023b00
-`GetUserStore` | 5 (0x5) | Exported Function | 0x10026870 | 0x00026870
-`GetUserStateManager` | 4 (0x4) | Exported Function | 0x100268b0 | 0x000268b0
-`GetDeploymentDataFromManifest` | 20 (0x14) | Exported Function | 0x10023b70 | 0x00023b70
-`GetCurrentActContext` | 3 (0x3) | Exported Function | 0x100269c0 | 0x000269c0
-`DllGetClassObject` | 19 (0x13) | Exported Function | 0x10023820 | 0x00023820
-`DllCanUnloadNow` | 18 (0x12) | Exported Function | 0x10023800 | 0x00023800
-`CreateCMSFromXml` | 2 (0x2) | Exported Function | 0x10026930 | 0x00026930
-`CreateActContext` | 1 (0x1) | Exported Function | 0x10026980 | 0x00026980
-`ShOpenVerbShortcut` | 15 (0xf) | Exported Function | 0x10023960 | 0x00023960
-`ShOpenVerbShortcutW` | 16 (0x10) | Exported Function | 0x10023880 | 0x00023880
+Function Name | Ordinal | Type
+-- | -- | --
+`ShArpMaintainW` | 10 | Exported Function
+`ShOpenVerbApplication` | 11 | Exported Function
+`ShArpMaintain` | 9 | Exported Function
+`LaunchApplication` | 7 | Exported Function
+`ParseManifest` | 8 | Exported Function
+`ShOpenVerbShortcut` | 15 | Exported Function
+`ShOpenVerbShortcutW` | 16 | Exported Function
+`ShOpenVerbExtensionW` | 14 | Exported Function
+`ShOpenVerbApplicationW` | 12 | Exported Function
+`ShOpenVerbExtension` | 13 | Exported Function
+`DllCanUnloadNow` | 18 | Exported Function
+`DllGetClassObject` | 19 | Exported Function
+`CreateCMSFromXml` | 2 | Exported Function
+`CleanOnlineAppCache` | 17 | Exported Function
+`CreateActContext` | 1 | Exported Function
+`GetUserStore` | 5 | Exported Function
+`KillService` | 6 | Exported Function
+`GetUserStateManager` | 4 | Exported Function
+`GetCurrentActContext` | 3 | Exported Function
+`GetDeploymentDataFromManifest` | 20 | Exported Function
 
 
 ## Signature

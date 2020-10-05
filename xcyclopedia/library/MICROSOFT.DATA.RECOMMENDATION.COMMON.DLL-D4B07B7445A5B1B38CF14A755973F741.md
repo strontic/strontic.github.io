@@ -1,0 +1,55 @@
+﻿---
+title: MICROSOFT.DATA.RECOMMENDATION.COMMON.DLL |  
+excerpt: What is MICROSOFT.DATA.RECOMMENDATION.COMMON.DLL?
+---
+
+# MICROSOFT.DATA.RECOMMENDATION.COMMON.DLL 
+
+* File Path: `C:\Program Files (x86)\Microsoft Office\root\Office16\ADDINS\Power Map Excel Add-in\MICROSOFT.DATA.RECOMMENDATION.COMMON.DLL`
+* Description:  
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `D4B07B7445A5B1B38CF14A755973F741`
+SHA1 | `084200F51C84C0C23506397368157195BE0759B1`
+SHA256 | `23548FBE1C2BBB248DEF24A44ECE2F65E0495E9EFDCA8AB49FA6C068E54D34A2`
+SHA384 | `3856CF7199021DE7C1B2A6AA819B71B5EE154D9F363B5A93193C6CAD0F69DA7E6DCB7AA660650CF9293C0FEC4A76D76D`
+SHA512 | `5C0796F8CCDA6BD14AD6E25E9DC20F4DD43DE35B1280D0657E819613A597ACF0D1168B035874B2900DDAF054BFAEDAD8CDB9E24F0A7108C485EAC5691FCA1E0C`
+SSDEEP | `3072:1lFjRqalsx+2sLgUt7l7btPJhMYJppaeLbcrQslW46t28vTjU:1jRq0xhbtBBVBjeW469k`
+IMP | `DAE02F32A21E03CE65412F6E56942DAA`
+PESHA1 | `C3919FA58871B9868E8DC149675B52C3293052F9`
+PE256 | `2BC630E3DE7F5C2FC312DFC04D9B7F50F215646891AB100DF09081749F2EFB77`
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000000B011AF0A8BD03B9FDD0001000000B0`
+* Thumbprint: `108E2BA23632620C427C570B6D9DB51AC31387FE`
+* Issuer: CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: Microsoft.Data.Recommendation.Common.dll
+* Product Name: Microsoft SQL Server
+* Company Name: Microsoft Corporation
+* File Version: 2011.0110.2213.85 ((orlando).131111-1334)
+* Product Version: 11.0.2213.85
+* Language: Language Neutral
+* Legal Copyright: Microsoft Corp. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/23548fbe1c2bbb248def24a44ece2f65e0495e9efdca8ab49fa6c068e54d34a2/detection/
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

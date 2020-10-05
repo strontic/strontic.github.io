@@ -24,13 +24,13 @@ PE256 | `88CF4185AB676CF85F092872D5469ABA84905605077619DDCDD90BB1962D1C22`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x00000001800011c0 | 0x000011c0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x00000001800010b0 | 0x000010b0
-`DllRegisterServer` | 4 (0x4) | Exported Function | 0x00000001800011f0 | 0x000011f0
-`DllUnregisterServer` | 5 (0x5) | Exported Function | 0x0000000180001200 | 0x00001200
-`LaunchRemoteUsersDialog` | 1 (0x1) | Exported Function | 0x0000000180001030 | 0x00001030
+Function Name | Ordinal | Type
+-- | -- | --
+`DllUnregisterServer` | 5 | Exported Function
+`LaunchRemoteUsersDialog` | 1 | Exported Function
+`DllRegisterServer` | 4 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
 
 
 ## Signature

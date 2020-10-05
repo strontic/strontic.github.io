@@ -24,12 +24,12 @@ PE256 | `0BDD9C81DF456466F41D13D7239C025032B1E3B6B7D492C2E583F7753A7228D6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x1000c6c0 | 0x0000c6c0
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x1000c6e0 | 0x0000c6e0
-`DUIRemoveSubscriptionDialogModal` | 2 (0x2) | Exported Function | 0x10013660 | 0x00013660
-`DUISubscribeWizardModal` | 1 (0x1) | Exported Function | 0x1000f1d0 | 0x0000f1d0
+Function Name | Ordinal | Type
+-- | -- | --
+`DUIRemoveSubscriptionDialogModal` | 2 | Exported Function
+`DUISubscribeWizardModal` | 1 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
+`DllGetClassObject` | 4 | Exported Function
 
 
 ## Signature

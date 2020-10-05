@@ -24,26 +24,24 @@ PE256 | `FCC680B068C106C862E5FB4F8F72BB090A3031F5B6C8D9A4E298660E0541E660`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddERExcludedApplicationA` | 7 (0x7) | Exported Function | 0x000000018000cb80 | 0x0000cb80
-`WerpInitiateCrashReporting` | 17 (0x11) | Exported Function | 0x000000018000c5b0 | 0x0000c5b0
-`WerpGetDebugger` | 16 (0x10) | Exported Function | 0x0000000180018590 | 0x00018590
-`UpdatePerUserLastCrossProcessCollectionTime` | 6 (0x6) | Exported Function | 0x000000018000ae90 | 0x0000ae90
-`ReportHang` | 14 (0xe) | Exported Function | 0x000000018000b320 | 0x0000b320
-`ReportFault` | 13 (0xd) | Exported Function | 0x000000018000cb00 | 0x0000cb00
-`ReportCoreHang` | 12 (0xc) | Exported Function | 0x000000018000b3d0 | 0x0000b3d0
-`Ordinal2` | 2 (0x2) | Exported Function | 0x000000018000b390 | 0x0000b390
-`Ordinal1` | 1 (0x1) | Exported Function | 0x000000018000b350 | 0x0000b350
-`DllGetClassObject` | 11 (0xb) | Exported Function | 0x0000000180004ca0 | 0x00004ca0
-`DllCanUnloadNow` | 10 (0xa) | Exported Function | 0x0000000180004c60 | 0x00004c60
-`CheckPerUserCrossProcessThrottle` | 5 (0x5) | Exported Function | 0x000000018000ae00 | 0x0000ae00
-`CheckForReadOnlyResourceFilter` | 4 (0x4) | Exported Function | 0x000000018000bb20 | 0x0000bb20
-`CancelHangReporting` | 9 (0x9) | Exported Function | 0x000000018000b480 | 0x0000b480
-`BasepReportFault` | 3 (0x3) | Exported Function | 0x000000018000bae0 | 0x0000bae0
-`AddERExcludedApplicationW` | 8 (0x8) | Exported Function | 0x000000018000cb50 | 0x0000cb50
-`WerpLaunchAeDebug` | 18 (0x12) | Exported Function | 0x00000001800189c0 | 0x000189c0
-`WerReportHang` | 15 (0xf) | Exported Function | 0x000000018000b410 | 0x0000b410
+Function Name | Ordinal | Type
+-- | -- | --
+`ReportHang` | 14 | Exported Function
+`UpdatePerUserLastCrossProcessCollectionTime` | 6 | Exported Function
+`ReportCoreHang` | 12 | Exported Function
+`ReportFault` | 13 | Exported Function
+`WerpLaunchAeDebug` | 18 | Exported Function
+`WerReportHang` | 15 | Exported Function
+`WerpGetDebugger` | 16 | Exported Function
+`WerpInitiateCrashReporting` | 17 | Exported Function
+`BasepReportFault` | 3 | Exported Function
+`CancelHangReporting` | 9 | Exported Function
+`AddERExcludedApplicationA` | 7 | Exported Function
+`AddERExcludedApplicationW` | 8 | Exported Function
+`DllCanUnloadNow` | 10 | Exported Function
+`DllGetClassObject` | 11 | Exported Function
+`CheckForReadOnlyResourceFilter` | 4 | Exported Function
+`CheckPerUserCrossProcessThrottle` | 5 | Exported Function
 
 
 ## Signature

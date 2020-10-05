@@ -24,15 +24,15 @@ PE256 | `921EC61425A50746A291ECF575DF939A6B821EDFBD4930255D9795CCAD788B2D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 1 (0x1) | Exported Function | 0x508815c0 | 0x000015c0
-`HTUI_ColorAdjustment` | 2 (0x2) | Exported Function | 0x50881850 | 0x00001850
-`HTUI_ColorAdjustmentA` | 3 (0x3) | Exported Function | 0x50881720 | 0x00001720
-`HTUI_ColorAdjustmentW` | 4 (0x4) | Exported Function | 0x50881630 | 0x00001630
-`HTUI_DeviceColorAdjustment` | 5 (0x5) | Exported Function | 0x508819f0 | 0x000019f0
-`HTUI_DeviceColorAdjustmentA` | 6 (0x6) | Exported Function | 0x50881980 | 0x00001980
-`HTUI_DeviceColorAdjustmentW` | 7 (0x7) | Exported Function | 0x50881860 | 0x00001860
+Function Name | Ordinal | Type
+-- | -- | --
+`HTUI_DeviceColorAdjustment` | 5 | Exported Function
+`HTUI_DeviceColorAdjustmentA` | 6 | Exported Function
+`HTUI_DeviceColorAdjustmentW` | 7 | Exported Function
+`HTUI_ColorAdjustmentW` | 4 | Exported Function
+`DllMain` | 1 | Exported Function
+`HTUI_ColorAdjustment` | 2 | Exported Function
+`HTUI_ColorAdjustmentA` | 3 | Exported Function
 
 
 ## Signature

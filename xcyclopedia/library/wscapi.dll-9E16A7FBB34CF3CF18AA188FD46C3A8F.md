@@ -24,49 +24,49 @@ PE256 | `B9ACB3E5116C5956EADA71BE47EDD42156C250D10FB3FF0CF7778E9BE35910FC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CLSID_WSCDefaultProduct` | 3 (0x3) | Exported Function | 0x000000018002f100 | 0x0002f100
-`wscLaunchAdminMakeDefaultUI` | 1 (0x1) | Exported Function | 0x0000000180012070 | 0x00012070
-`wscLuaSettingsFix` | 29 (0x1d) | Exported Function | 0x000000018000a580 | 0x0000a580
-`wscMakeDefaultProductRequest` | 30 (0x1e) | Exported Function | 0x000000018000a600 | 0x0000a600
-`wscNotifyUserForNearExpiration` | 31 (0x1f) | Exported Function | 0x000000018000a690 | 0x0000a690
-`wscOverrideComponentStatus` | 32 (0x20) | Exported Function | 0x000000018000a720 | 0x0000a720
-`wscPing` | 33 (0x21) | Exported Function | 0x0000000180002fc0 | 0x00002fc0
-`wscProductInfoFree` | 34 (0x22) | Exported Function | 0x0000000180001590 | 0x00001590
-`WscQueryAntiMalwareUri` | 13 (0xd) | Exported Function | 0x000000018000dbe0 | 0x0000dbe0
-`wscRegisterChangeNotification` | 35 (0x23) | Exported Function | 0x0000000180001c80 | 0x00001c80
-`WscRegisterForChanges` | 14 (0xe) | Exported Function | 0x0000000180001a10 | 0x00001a10
-`WscRegisterForUserNotifications` | 15 (0xf) | Exported Function | 0x0000000180001750 | 0x00001750
-`wscRegisterSecurityProduct` | 36 (0x24) | Exported Function | 0x000000018000a7b0 | 0x0000a7b0
-`wscSetDefaultProduct` | 37 (0x25) | Exported Function | 0x000000018000a880 | 0x0000a880
-`wscShowAMSCN` | 2 (0x2) | Exported Function | 0x0000000180012200 | 0x00012200
-`wscUnRegisterChangeNotification` | 38 (0x26) | Exported Function | 0x000000018000a920 | 0x0000a920
-`WscUnRegisterChanges` | 16 (0x10) | Exported Function | 0x00000001800012c0 | 0x000012c0
-`wscUnregisterSecurityProduct` | 39 (0x27) | Exported Function | 0x000000018000a940 | 0x0000a940
-`wscIsDefenderAntivirusSupported` | 28 (0x1c) | Exported Function | 0x000000018000a4f0 | 0x0000a4f0
-`wscUpdateProductStatus` | 40 (0x28) | Exported Function | 0x0000000180002d20 | 0x00002d20
-`wscInitiateOfflineCleaning` | 27 (0x1b) | Exported Function | 0x000000018000a320 | 0x0000a320
-`wscIcfEnable` | 25 (0x19) | Exported Function | 0x000000018000a270 | 0x0000a270
-`CLSID_WSCProductList` | 4 (0x4) | Exported Function | 0x000000018002f110 | 0x0002f110
-`DllCanUnloadNow` | 5 (0x5) | Exported Function | 0x0000000180001810 | 0x00001810
-`DllGetClassObject` | 6 (0x6) | Exported Function | 0x00000001800047e0 | 0x000047e0
-`IID_IWSCDefaultProduct` | 7 (0x7) | Exported Function | 0x000000018002e7d0 | 0x0002e7d0
-`IID_IWscProduct` | 9 (0x9) | Exported Function | 0x000000018002e738 | 0x0002e738
-`IID_IWSCProductList` | 8 (0x8) | Exported Function | 0x000000018002e798 | 0x0002e798
-`LIBID_wscAPILib` | 10 (0xa) | Exported Function | 0x000000018002de60 | 0x0002de60
-`wscAntiSpywareGetStatus` | 17 (0x11) | Exported Function | 0x0000000180009eb0 | 0x00009eb0
-`wscAntiVirusExpiredBeyondThreshold` | 18 (0x12) | Exported Function | 0x0000000180009f40 | 0x00009f40
-`wscAntiVirusGetStatus` | 19 (0x13) | Exported Function | 0x0000000180003ce0 | 0x00003ce0
-`wscAutoUpdatesEnableScheduledMode` | 20 (0x14) | Exported Function | 0x000000018000a170 | 0x0000a170
-`wscAutoUpdatesGetStatus` | 21 (0x15) | Exported Function | 0x000000018000a1f0 | 0x0000a1f0
-`wscFirewallGetStatus` | 22 (0x16) | Exported Function | 0x00000001800034d0 | 0x000034d0
-`wscGeneralSecurityGetStatus` | 23 (0x17) | Exported Function | 0x0000000180001870 | 0x00001870
-`wscGetAlertStatus` | 24 (0x18) | Exported Function | 0x0000000180001500 | 0x00001500
-`WscGetAntiMalwareUri` | 11 (0xb) | Exported Function | 0x000000018000dbe0 | 0x0000dbe0
-`WscGetSecurityProviderHealth` | 12 (0xc) | Exported Function | 0x0000000180002e90 | 0x00002e90
-`wscIeSettingsFix` | 26 (0x1a) | Exported Function | 0x000000018000a2f0 | 0x0000a2f0
-`wscUpdateProductSubStatus` | 41 (0x29) | Exported Function | 0x0000000180002db0 | 0x00002db0
+Function Name | Ordinal | Type
+-- | -- | --
+`wscPing` | 33 | Exported Function
+`wscOverrideComponentStatus` | 32 | Exported Function
+`wscProductInfoFree` | 34 | Exported Function
+`wscRegisterChangeNotification` | 35 | Exported Function
+`WscQueryAntiMalwareUri` | 13 | Exported Function
+`wscLaunchAdminMakeDefaultUI` | 1 | Exported Function
+`wscIsDefenderAntivirusSupported` | 28 | Exported Function
+`wscLuaSettingsFix` | 29 | Exported Function
+`wscNotifyUserForNearExpiration` | 31 | Exported Function
+`wscMakeDefaultProductRequest` | 30 | Exported Function
+`WscUnRegisterChanges` | 16 | Exported Function
+`wscUnRegisterChangeNotification` | 38 | Exported Function
+`wscUnregisterSecurityProduct` | 39 | Exported Function
+`wscUpdateProductSubStatus` | 41 | Exported Function
+`wscUpdateProductStatus` | 40 | Exported Function
+`WscRegisterForUserNotifications` | 15 | Exported Function
+`WscRegisterForChanges` | 14 | Exported Function
+`wscRegisterSecurityProduct` | 36 | Exported Function
+`wscShowAMSCN` | 2 | Exported Function
+`wscSetDefaultProduct` | 37 | Exported Function
+`wscInitiateOfflineCleaning` | 27 | Exported Function
+`IID_IWSCProductList` | 8 | Exported Function
+`IID_IWscProduct` | 9 | Exported Function
+`LIBID_wscAPILib` | 10 | Exported Function
+`wscAntiVirusExpiredBeyondThreshold` | 18 | Exported Function
+`wscAntiSpywareGetStatus` | 17 | Exported Function
+`CLSID_WSCProductList` | 4 | Exported Function
+`CLSID_WSCDefaultProduct` | 3 | Exported Function
+`DllCanUnloadNow` | 5 | Exported Function
+`IID_IWSCDefaultProduct` | 7 | Exported Function
+`DllGetClassObject` | 6 | Exported Function
+`WscGetAntiMalwareUri` | 11 | Exported Function
+`wscGetAlertStatus` | 24 | Exported Function
+`WscGetSecurityProviderHealth` | 12 | Exported Function
+`wscIeSettingsFix` | 26 | Exported Function
+`wscIcfEnable` | 25 | Exported Function
+`wscAutoUpdatesEnableScheduledMode` | 20 | Exported Function
+`wscAntiVirusGetStatus` | 19 | Exported Function
+`wscAutoUpdatesGetStatus` | 21 | Exported Function
+`wscGeneralSecurityGetStatus` | 23 | Exported Function
+`wscFirewallGetStatus` | 22 | Exported Function
 
 
 ## Signature

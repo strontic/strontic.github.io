@@ -24,9 +24,9 @@ PE256 | `8E2262EB564055B113769808F707D32E5DBB3B16D262E188C21F6487AA8AB0FD`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`GetDispenserManager` | 1 (0x1) | Exported Function | 0x0000000180001330 | 0x00001330
+Function Name | Ordinal | Type
+-- | -- | --
+`GetDispenserManager` | 1 | Exported Function
 
 
 ## Signature

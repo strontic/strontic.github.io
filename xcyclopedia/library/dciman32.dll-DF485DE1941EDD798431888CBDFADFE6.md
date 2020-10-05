@@ -24,28 +24,28 @@ PE256 | `73F8A8A8631C64A05978CEEFF23D51DF084D3B87AC7E91F02630EEF786D4217D`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DCIBeginAccess` | 1 (0x1) | Exported Function | 0x50f81a80 | 0x00001a80
-`WinWatchGetClipList` | 18 (0x12) | Exported Function | 0x50f81930 | 0x00001930
-`WinWatchDidStatusChange` | 17 (0x11) | Exported Function | 0x50f819c0 | 0x000019c0
-`WinWatchClose` | 16 (0x10) | Exported Function | 0x50f818d0 | 0x000018d0
-`GetWindowRegionData` | 15 (0xf) | Exported Function | 0x50f819e0 | 0x000019e0
-`GetDCRegionData` | 14 (0xe) | Exported Function | 0x50f81a20 | 0x00001a20
-`DCISetSrcDestClip` | 13 (0xd) | Exported Function | 0x50f81e00 | 0x00001e00
-`DCISetDestination` | 12 (0xc) | Exported Function | 0x50f81860 | 0x00001860
-`DCISetClipList` | 11 (0xb) | Exported Function | 0x50f81df0 | 0x00001df0
-`DCIOpenProvider` | 10 (0xa) | Exported Function | 0x50f81540 | 0x00001540
-`DCIEnum` | 9 (0x9) | Exported Function | 0x50f81630 | 0x00001630
-`DCIEndAccess` | 8 (0x8) | Exported Function | 0x50f81cd0 | 0x00001cd0
-`DCIDraw` | 7 (0x7) | Exported Function | 0x50f81de0 | 0x00001de0
-`DCIDestroy` | 6 (0x6) | Exported Function | 0x50f81d60 | 0x00001d60
-`DCICreatePrimary` | 5 (0x5) | Exported Function | 0x50f81640 | 0x00001640
-`DCICreateOverlay` | 4 (0x4) | Exported Function | 0x50f81860 | 0x00001860
-`DCICreateOffscreen` | 3 (0x3) | Exported Function | 0x50f81850 | 0x00001850
-`DCICloseProvider` | 2 (0x2) | Exported Function | 0x50f81620 | 0x00001620
-`WinWatchNotify` | 19 (0x13) | Exported Function | 0x50f81a70 | 0x00001a70
-`WinWatchOpen` | 20 (0x14) | Exported Function | 0x50f81870 | 0x00001870
+Function Name | Ordinal | Type
+-- | -- | --
+`GetDCRegionData` | 14 | Exported Function
+`GetWindowRegionData` | 15 | Exported Function
+`DCISetSrcDestClip` | 13 | Exported Function
+`DCISetClipList` | 11 | Exported Function
+`DCISetDestination` | 12 | Exported Function
+`WinWatchNotify` | 19 | Exported Function
+`WinWatchOpen` | 20 | Exported Function
+`WinWatchGetClipList` | 18 | Exported Function
+`WinWatchClose` | 16 | Exported Function
+`WinWatchDidStatusChange` | 17 | Exported Function
+`DCICreateOverlay` | 4 | Exported Function
+`DCICreatePrimary` | 5 | Exported Function
+`DCICreateOffscreen` | 3 | Exported Function
+`DCIBeginAccess` | 1 | Exported Function
+`DCICloseProvider` | 2 | Exported Function
+`DCIEnum` | 9 | Exported Function
+`DCIOpenProvider` | 10 | Exported Function
+`DCIEndAccess` | 8 | Exported Function
+`DCIDestroy` | 6 | Exported Function
+`DCIDraw` | 7 | Exported Function
 
 
 ## Signature

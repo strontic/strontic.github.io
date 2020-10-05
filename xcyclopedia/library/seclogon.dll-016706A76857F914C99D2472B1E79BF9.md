@@ -24,10 +24,10 @@ PE256 | `A081510FE2E52B2D46C4804213FA8BE01BF2F1DF1D594E4F232A0AAA7DC4EDAA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SvcEntry_Seclogon` | 1 (0x1) | Exported Function | 0x00000001800027c0 | 0x000027c0
-`SvchostPushServiceGlobals` | 2 (0x2) | Exported Function | 0x0000000180002cd0 | 0x00002cd0
+Function Name | Ordinal | Type
+-- | -- | --
+`SvchostPushServiceGlobals` | 2 | Exported Function
+`SvcEntry_Seclogon` | 1 | Exported Function
 
 
 ## Signature

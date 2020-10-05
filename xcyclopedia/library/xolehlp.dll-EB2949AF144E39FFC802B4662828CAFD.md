@@ -24,16 +24,16 @@ PE256 | `7D414079969AD835AD7EA6073022775E0E9B8CBFA6082EF4FB796E09EF6312B5`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DtcGetTransactionManager` | 5 (0x5) | Exported Function | 0x00000001800016d0 | 0x000016d0
-`DtcGetTransactionManagerC` | 7 (0x7) | Exported Function | 0x00000001800016b0 | 0x000016b0
-`DtcGetTransactionManagerEx` | 6 (0x6) | Exported Function | 0x0000000180001380 | 0x00001380
-`DtcGetTransactionManagerExA` | 10 (0xa) | Exported Function | 0x0000000180001390 | 0x00001390
-`DtcGetTransactionManagerExW` | 11 (0xb) | Exported Function | 0x00000001800014e0 | 0x000014e0
-`FreezeLocalTransactionManagers` | 8 (0x8) | Exported Function | 0x0000000180001d10 | 0x00001d10
-`GetDtcLocaleResourceHandle` | 4 (0x4) | Exported Function | 0x0000000180001b60 | 0x00001b60
-`ThawLocalTransactionManagers` | 9 (0x9) | Exported Function | 0x0000000180001f10 | 0x00001f10
+Function Name | Ordinal | Type
+-- | -- | --
+`FreezeLocalTransactionManagers` | 8 | Exported Function
+`DtcGetTransactionManagerExW` | 11 | Exported Function
+`ThawLocalTransactionManagers` | 9 | Exported Function
+`GetDtcLocaleResourceHandle` | 4 | Exported Function
+`DtcGetTransactionManagerC` | 7 | Exported Function
+`DtcGetTransactionManager` | 5 | Exported Function
+`DtcGetTransactionManagerExA` | 10 | Exported Function
+`DtcGetTransactionManagerEx` | 6 | Exported Function
 
 
 ## Signature

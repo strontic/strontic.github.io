@@ -24,10 +24,10 @@ PE256 | `0F55841F0EDC92D5E4524AE1D1B9DFAE44059E69CB1205796A4B779C53DF59E3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AbortSystemShutdownW` | 1 (0x1) | Exported Function | advapi32.AbortSystemShutdownW | 0x00001195
-`InitiateSystemShutdownExW` | 2 (0x2) | Exported Function | advapi32.InitiateSystemShutdownExW | 0x000011cd
+Function Name | Ordinal | Type
+-- | -- | --
+`InitiateSystemShutdownExW` | 2 | Exported Function
+`AbortSystemShutdownW` | 1 | Exported Function
 
 
 ## Signature

@@ -24,11 +24,11 @@ PE256 | `38160F076B4CD4DC777FBB7596FBBCEC214593BF62A4C3F5EA0396AB5A4B17F8`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDataUsageHelper` | 1 (0x1) | Exported Function | 0x00000001800010e0 | 0x000010e0
-`SetRealTimeUsage` | 2 (0x2) | Exported Function | 0x0000000180004260 | 0x00004260
-`SetUsageHistory` | 3 (0x3) | Exported Function | 0x00000001800040e0 | 0x000040e0
+Function Name | Ordinal | Type
+-- | -- | --
+`SetUsageHistory` | 3 | Exported Function
+`SetRealTimeUsage` | 2 | Exported Function
+`CreateDataUsageHelper` | 1 | Exported Function
 
 
 ## Signature

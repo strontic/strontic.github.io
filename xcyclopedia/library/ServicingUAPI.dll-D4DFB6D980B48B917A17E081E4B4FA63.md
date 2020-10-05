@@ -24,17 +24,17 @@ PE256 | `CFD40C18B4928B248A2FAB4096318F2074496D03BD25A9E3413CD853C2D4A2FC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 3 (0x3) | Exported Function | 0x0000000180003f60 | 0x00003f60
-`EnumerateFeatures` | 4 (0x4) | Exported Function | 0x00000001800091f0 | 0x000091f0
-`FreeEnumerateFeaturesResult` | 5 (0x5) | Exported Function | 0x0000000180009190 | 0x00009190
-`FreeInstallFeaturesResult` | 6 (0x6) | Exported Function | 0x0000000180006a20 | 0x00006a20
-`FreeUninstallFeaturesResult` | 7 (0x7) | Exported Function | 0x0000000180008f40 | 0x00008f40
-`GetFeatureState` | 8 (0x8) | Exported Function | 0x0000000180009710 | 0x00009710
-`InstallFeatures` | 1 (0x1) | Exported Function | 0x0000000180006a80 | 0x00006a80
-`IsFeatureInstalled` | 9 (0x9) | Exported Function | 0x0000000180009470 | 0x00009470
-`UninstallFeatures` | 2 (0x2) | Exported Function | 0x0000000180008fa0 | 0x00008fa0
+Function Name | Ordinal | Type
+-- | -- | --
+`InstallFeatures` | 1 | Exported Function
+`GetFeatureState` | 8 | Exported Function
+`UninstallFeatures` | 2 | Exported Function
+`IsFeatureInstalled` | 9 | Exported Function
+`FreeUninstallFeaturesResult` | 7 | Exported Function
+`EnumerateFeatures` | 4 | Exported Function
+`DllMain` | 3 | Exported Function
+`FreeInstallFeaturesResult` | 6 | Exported Function
+`FreeEnumerateFeaturesResult` | 5 | Exported Function
 
 
 ## Signature

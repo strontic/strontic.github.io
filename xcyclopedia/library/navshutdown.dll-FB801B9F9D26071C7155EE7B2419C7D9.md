@@ -24,9 +24,9 @@ PE256 | `2846AEDCF8BD692C901ECEA6E7D0D0CAC398E458E77A5157F1FA970D6BDFB3D0`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`NAVShutdown` | 1 (0x1) | Exported Function | 0x00000001800041c0 | 0x000041c0
+Function Name | Ordinal | Type
+-- | -- | --
+`NAVShutdown` | 1 | Exported Function
 
 
 ## Signature

@@ -24,73 +24,73 @@ PE256 | `7F82832CE54394D7DFCA3087B4FAAD083D00A03D9FBDE7FE7F15096E293FB2C6`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CheckSignatureInFile` | 1 (0x1) | Exported Function | 0x00000001800059d0 | 0x000059d0
-`CryptSetProviderW` | 36 (0x24) | Exported Function | 0x0000000180007c80 | 0x00007c80
-`CryptSetProvParam` | 32 (0x20) | Exported Function | 0x0000000180007310 | 0x00007310
-`CryptSignHashA` | 37 (0x25) | Exported Function | 0x0000000180007d50 | 0x00007d50
-`CryptSignHashW` | 38 (0x26) | Exported Function | 0x0000000180007e60 | 0x00007e60
-`CryptVerifySignatureA` | 39 (0x27) | Exported Function | 0x00000001800011f0 | 0x000011f0
-`CryptVerifySignatureW` | 40 (0x28) | Exported Function | 0x0000000180001400 | 0x00001400
-`SystemFunction006` | 41 (0x29) | Exported Function | 0x0000000180004080 | 0x00004080
-`SystemFunction007` | 42 (0x2a) | Exported Function | 0x0000000180003a80 | 0x00003a80
-`SystemFunction008` | 43 (0x2b) | Exported Function | 0x000000018000a460 | 0x0000a460
-`SystemFunction009` | 44 (0x2c) | Exported Function | 0x000000018000a530 | 0x0000a530
-`SystemFunction010` | 45 (0x2d) | Exported Function | 0x000000018000a540 | 0x0000a540
-`SystemFunction011` | 46 (0x2e) | Exported Function | 0x000000018000a5b0 | 0x0000a5b0
-`SystemFunction012` | 47 (0x2f) | Exported Function | 0x000000018000a5f0 | 0x0000a5f0
-`SystemFunction013` | 48 (0x30) | Exported Function | 0x000000018000a650 | 0x0000a650
-`SystemFunction014` | 49 (0x31) | Exported Function | 0x000000018000a6b0 | 0x0000a6b0
-`SystemFunction015` | 50 (0x32) | Exported Function | 0x000000018000a6c0 | 0x0000a6c0
-`SystemFunction016` | 51 (0x33) | Exported Function | 0x000000018000a6d0 | 0x0000a6d0
-`SystemFunction018` | 52 (0x34) | Exported Function | 0x000000018000a730 | 0x0000a730
-`SystemFunction020` | 53 (0x35) | Exported Function | 0x000000018000a6b0 | 0x0000a6b0
-`SystemFunction021` | 54 (0x36) | Exported Function | 0x000000018000a6c0 | 0x0000a6c0
-`SystemFunction022` | 55 (0x37) | Exported Function | 0x000000018000a6b0 | 0x0000a6b0
-`SystemFunction023` | 56 (0x38) | Exported Function | 0x000000018000a6c0 | 0x0000a6c0
-`SystemFunction024` | 57 (0x39) | Exported Function | 0x0000000180003c90 | 0x00003c90
-`SystemFunction025` | 58 (0x3a) | Exported Function | 0x000000018000a740 | 0x0000a740
-`SystemFunction026` | 59 (0x3b) | Exported Function | 0x0000000180003c90 | 0x00003c90
-`SystemFunction027` | 60 (0x3c) | Exported Function | 0x00000001800039d0 | 0x000039d0
-`SystemFunction030` | 61 (0x3d) | Exported Function | 0x0000000180003c60 | 0x00003c60
-`SystemFunction031` | 62 (0x3e) | Exported Function | 0x0000000180003c60 | 0x00003c60
-`SystemFunction032` | 63 (0x3f) | Exported Function | 0x000000018000a7c0 | 0x0000a7c0
-`CryptSetProviderExW` | 35 (0x23) | Exported Function | 0x0000000180007b90 | 0x00007b90
-`SystemFunction033` | 64 (0x40) | Exported Function | 0x000000018000a7c0 | 0x0000a7c0
-`CryptSetProviderExA` | 34 (0x22) | Exported Function | 0x00000001800075f0 | 0x000075f0
-`CryptSetKeyParam` | 31 (0x1f) | Exported Function | 0x00000001800071e0 | 0x000071e0
-`CryptAcquireContextA` | 2 (0x2) | Exported Function | 0x00000001800028b0 | 0x000028b0
-`CryptAcquireContextW` | 3 (0x3) | Exported Function | 0x0000000180002450 | 0x00002450
-`CryptContextAddRef` | 4 (0x4) | Exported Function | 0x0000000180003920 | 0x00003920
-`CryptCreateHash` | 5 (0x5) | Exported Function | 0x0000000180001c00 | 0x00001c00
-`CryptDecrypt` | 6 (0x6) | Exported Function | 0x0000000180003f20 | 0x00003f20
-`CryptDeriveKey` | 7 (0x7) | Exported Function | 0x0000000180003d40 | 0x00003d40
-`CryptDestroyHash` | 8 (0x8) | Exported Function | 0x0000000180001e20 | 0x00001e20
-`CryptDestroyKey` | 9 (0x9) | Exported Function | 0x0000000180001ab0 | 0x00001ab0
-`CryptDuplicateHash` | 10 (0xa) | Exported Function | 0x0000000180005de0 | 0x00005de0
-`CryptDuplicateKey` | 11 (0xb) | Exported Function | 0x0000000180005ff0 | 0x00005ff0
-`CryptEncrypt` | 12 (0xc) | Exported Function | 0x00000001800061f0 | 0x000061f0
-`CryptEnumProvidersA` | 15 (0xf) | Exported Function | 0x00000001800069f0 | 0x000069f0
-`CryptEnumProvidersW` | 16 (0x10) | Exported Function | 0x0000000180006d90 | 0x00006d90
-`CryptEnumProviderTypesA` | 13 (0xd) | Exported Function | 0x0000000180006390 | 0x00006390
-`CryptEnumProviderTypesW` | 14 (0xe) | Exported Function | 0x00000001800067d0 | 0x000067d0
-`CryptExportKey` | 17 (0x11) | Exported Function | 0x00000001800016e0 | 0x000016e0
-`CryptGenKey` | 18 (0x12) | Exported Function | 0x0000000180001010 | 0x00001010
-`CryptGenRandom` | 19 (0x13) | Exported Function | 0x0000000180001670 | 0x00001670
-`CryptGetDefaultProviderA` | 20 (0x14) | Exported Function | 0x0000000180002600 | 0x00002600
-`CryptGetDefaultProviderW` | 21 (0x15) | Exported Function | 0x0000000180002270 | 0x00002270
-`CryptGetHashParam` | 22 (0x16) | Exported Function | 0x0000000180001f20 | 0x00001f20
-`CryptGetKeyParam` | 23 (0x17) | Exported Function | 0x0000000180001560 | 0x00001560
-`CryptGetProvParam` | 24 (0x18) | Exported Function | 0x0000000180006fa0 | 0x00006fa0
-`CryptGetUserKey` | 25 (0x19) | Exported Function | 0x0000000180004180 | 0x00004180
-`CryptHashData` | 26 (0x1a) | Exported Function | 0x0000000180002030 | 0x00002030
-`CryptHashSessionKey` | 27 (0x1b) | Exported Function | 0x0000000180007090 | 0x00007090
-`CryptImportKey` | 28 (0x1c) | Exported Function | 0x0000000180001840 | 0x00001840
-`CryptReleaseContext` | 29 (0x1d) | Exported Function | 0x00000001800036b0 | 0x000036b0
-`CryptSetHashParam` | 30 (0x1e) | Exported Function | 0x00000001800012f0 | 0x000012f0
-`CryptSetProviderA` | 33 (0x21) | Exported Function | 0x0000000180007460 | 0x00007460
-`SystemFunction035` | 65 (0x41) | Exported Function | 0x00000001800059d0 | 0x000059d0
+Function Name | Ordinal | Type
+-- | -- | --
+`SystemFunction009` | 44 | Exported Function
+`SystemFunction010` | 45 | Exported Function
+`SystemFunction007` | 42 | Exported Function
+`SystemFunction008` | 43 | Exported Function
+`SystemFunction013` | 48 | Exported Function
+`SystemFunction014` | 49 | Exported Function
+`SystemFunction011` | 46 | Exported Function
+`SystemFunction012` | 47 | Exported Function
+`CryptSetProvParam` | 32 | Exported Function
+`CryptSignHashA` | 37 | Exported Function
+`CryptSetProviderExW` | 35 | Exported Function
+`CryptSetProviderW` | 36 | Exported Function
+`CryptVerifySignatureW` | 40 | Exported Function
+`SystemFunction006` | 41 | Exported Function
+`CryptSignHashW` | 38 | Exported Function
+`CryptVerifySignatureA` | 39 | Exported Function
+`SystemFunction027` | 60 | Exported Function
+`SystemFunction030` | 61 | Exported Function
+`SystemFunction025` | 58 | Exported Function
+`SystemFunction026` | 59 | Exported Function
+`SystemFunction033` | 64 | Exported Function
+`SystemFunction035` | 65 | Exported Function
+`SystemFunction031` | 62 | Exported Function
+`SystemFunction032` | 63 | Exported Function
+`SystemFunction018` | 52 | Exported Function
+`SystemFunction020` | 53 | Exported Function
+`SystemFunction015` | 50 | Exported Function
+`SystemFunction016` | 51 | Exported Function
+`SystemFunction023` | 56 | Exported Function
+`SystemFunction024` | 57 | Exported Function
+`SystemFunction021` | 54 | Exported Function
+`SystemFunction022` | 55 | Exported Function
+`CryptSetProviderExA` | 34 | Exported Function
+`CryptDuplicateKey` | 11 | Exported Function
+`CryptEncrypt` | 12 | Exported Function
+`CryptDestroyKey` | 9 | Exported Function
+`CryptDuplicateHash` | 10 | Exported Function
+`CryptEnumProviderTypesA` | 13 | Exported Function
+`CryptEnumProviderTypesW` | 14 | Exported Function
+`CryptEnumProvidersA` | 15 | Exported Function
+`CryptEnumProvidersW` | 16 | Exported Function
+`CryptAcquireContextW` | 3 | Exported Function
+`CryptContextAddRef` | 4 | Exported Function
+`CheckSignatureInFile` | 1 | Exported Function
+`CryptAcquireContextA` | 2 | Exported Function
+`CryptDeriveKey` | 7 | Exported Function
+`CryptDestroyHash` | 8 | Exported Function
+`CryptCreateHash` | 5 | Exported Function
+`CryptDecrypt` | 6 | Exported Function
+`CryptHashSessionKey` | 27 | Exported Function
+`CryptImportKey` | 28 | Exported Function
+`CryptGetUserKey` | 25 | Exported Function
+`CryptHashData` | 26 | Exported Function
+`CryptSetKeyParam` | 31 | Exported Function
+`CryptSetProviderA` | 33 | Exported Function
+`CryptReleaseContext` | 29 | Exported Function
+`CryptSetHashParam` | 30 | Exported Function
+`CryptGenRandom` | 19 | Exported Function
+`CryptGetDefaultProviderA` | 20 | Exported Function
+`CryptExportKey` | 17 | Exported Function
+`CryptGenKey` | 18 | Exported Function
+`CryptGetKeyParam` | 23 | Exported Function
+`CryptGetProvParam` | 24 | Exported Function
+`CryptGetDefaultProviderW` | 21 | Exported Function
+`CryptGetHashParam` | 22 | Exported Function
 
 
 ## Signature

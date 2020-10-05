@@ -24,18 +24,18 @@ PE256 | `E5B80CDD7ED6447E78A04D6D5C83F1C95EF1930EC2468E50D66CB6EB1751AE7F`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x00000001800022e0 | 0x000022e0
-`DllGetClassObject` | 10 (0xa) | Exported Function | 0x0000000180002300 | 0x00002300
-`SrmCalculateCrcHash` | 2 (0x2) | Exported Function | 0x0000000180002350 | 0x00002350
-`SrmCreateOrDeleteNotificationScheduledTask` | 6 (0x6) | Exported Function | 0x00000001800025e0 | 0x000025e0
-`SrmEnsureSystemVolumeInformationFolder` | 3 (0x3) | Exported Function | 0x0000000180002360 | 0x00002360
-`SrmIsInCluster` | 4 (0x4) | Exported Function | 0x0000000180002370 | 0x00002370
-`SrmIsNameInExpression` | 1 (0x1) | Exported Function | 0x0000000180005db0 | 0x00005db0
-`SrmLocalFileTimeToUtcFileTime` | 8 (0x8) | Exported Function | 0x00000001800028f0 | 0x000028f0
-`SrmUtcFileTimeToLocalFileTime` | 7 (0x7) | Exported Function | 0x00000001800028a0 | 0x000028a0
-`SrmValidateNamespaceRoots` | 5 (0x5) | Exported Function | 0x0000000180002490 | 0x00002490
+Function Name | Ordinal | Type
+-- | -- | --
+`SrmIsNameInExpression` | 1 | Exported Function
+`SrmIsInCluster` | 4 | Exported Function
+`SrmLocalFileTimeToUtcFileTime` | 8 | Exported Function
+`SrmValidateNamespaceRoots` | 5 | Exported Function
+`SrmUtcFileTimeToLocalFileTime` | 7 | Exported Function
+`DllGetClassObject` | 10 | Exported Function
+`DllCanUnloadNow` | 9 | Exported Function
+`SrmCalculateCrcHash` | 2 | Exported Function
+`SrmEnsureSystemVolumeInformationFolder` | 3 | Exported Function
+`SrmCreateOrDeleteNotificationScheduledTask` | 6 | Exported Function
 
 
 ## Signature

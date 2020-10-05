@@ -24,11 +24,11 @@ PE256 | `A6A65B51EFBE106A9DE8B386768996CA37567AAB77AE3D0CFE0F126DF0AD8E9E`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180004e00 | 0x00004e00
-`GetSetting` | 3 (0x3) | Exported Function | 0x0000000180004e70 | 0x00004e70
-`NotifyVideoHandler` | 1 (0x1) | Exported Function | 0x0000000180004e10 | 0x00004e10
+Function Name | Ordinal | Type
+-- | -- | --
+`NotifyVideoHandler` | 1 | Exported Function
+`GetSetting` | 3 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
 
 
 ## Signature

@@ -24,25 +24,25 @@ PE256 | `4701C69F2DD3C080EDD0B75F1124AD518A8190A05A2FAEB711EEEC3D3B8A8D36`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateDefaultWindowsLiveAccount` | 6 (0x6) | Exported Function | 0x00000001800061c0 | 0x000061c0
-`UpdateGoogleAccountConversationFlags` | 15 (0xf) | Exported Function | 0x0000000180014720 | 0x00014720
-`UnenrollAndMarkAccountForDeletion` | 14 (0xe) | Exported Function | 0x0000000180012f00 | 0x00012f00
-`SetUnifiedInboxEnabled` | 5 (0x5) | Exported Function | 0x000000018000f950 | 0x0000f950
-`SetConversationSyncEnabled` | 4 (0x4) | Exported Function | 0x000000018000f3c0 | 0x0000f3c0
-`SetConversationSyncDateFilter` | 13 (0xd) | Exported Function | 0x000000018000f5b0 | 0x0000f5b0
-`LoadGoldenPartnershipAccessor` | 12 (0xc) | Exported Function | 0x0000000180012340 | 0x00012340
-`UpdateGoogleAccountServerSendsMeetingProp` | 16 (0x10) | Exported Function | 0x0000000180014780 | 0x00014780
-`IsExtendedConversationSyncDateFiltersSupported` | 11 (0xb) | Exported Function | 0x000000018000f860 | 0x0000f860
-`GetUnifiedInboxEnabled` | 2 (0x2) | Exported Function | 0x000000018000fa20 | 0x0000fa20
-`GetConversationSyncEnabled` | 1 (0x1) | Exported Function | 0x000000018000f490 | 0x0000f490
-`GetConversationSyncDateFilter` | 10 (0xa) | Exported Function | 0x000000018000f710 | 0x0000f710
-`FindMatchingPartnership` | 9 (0x9) | Exported Function | 0x00000001800124d0 | 0x000124d0
-`DllGetClassObject` | 8 (0x8) | Exported Function | 0x0000000180006410 | 0x00006410
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x00000001800063d0 | 0x000063d0
-`GetUnifiedInboxServerValue` | 3 (0x3) | Exported Function | 0x000000018000faf0 | 0x0000faf0
-`UpdateWebDavAccountProperties` | 17 (0x11) | Exported Function | 0x0000000180013ca0 | 0x00013ca0
+Function Name | Ordinal | Type
+-- | -- | --
+`SetConversationSyncEnabled` | 4 | Exported Function
+`SetUnifiedInboxEnabled` | 5 | Exported Function
+`LoadGoldenPartnershipAccessor` | 12 | Exported Function
+`SetConversationSyncDateFilter` | 13 | Exported Function
+`UpdateGoogleAccountServerSendsMeetingProp` | 16 | Exported Function
+`UpdateWebDavAccountProperties` | 17 | Exported Function
+`UnenrollAndMarkAccountForDeletion` | 14 | Exported Function
+`UpdateGoogleAccountConversationFlags` | 15 | Exported Function
+`IsExtendedConversationSyncDateFiltersSupported` | 11 | Exported Function
+`DllGetClassObject` | 8 | Exported Function
+`FindMatchingPartnership` | 9 | Exported Function
+`CreateDefaultWindowsLiveAccount` | 6 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`GetUnifiedInboxEnabled` | 2 | Exported Function
+`GetUnifiedInboxServerValue` | 3 | Exported Function
+`GetConversationSyncDateFilter` | 10 | Exported Function
+`GetConversationSyncEnabled` | 1 | Exported Function
 
 
 ## Signature

@@ -24,13 +24,13 @@ PE256 | `5834C2F41BC785FF26D0BC13925748EAE4B1F84E6F3D45E627D77548D88DABAA`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000018000ed20 | 0x0000ed20
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x000000018000e350 | 0x0000e350
-`MFCreateByteCacheFile` | 3 (0x3) | Exported Function | 0x000000018003df70 | 0x0003df70
-`MFCreateCacheManager` | 4 (0x4) | Exported Function | 0x0000000180045560 | 0x00045560
-`MFCreateFileBlockMap` | 5 (0x5) | Exported Function | 0x000000018003df90 | 0x0003df90
+Function Name | Ordinal | Type
+-- | -- | --
+`MFCreateCacheManager` | 4 | Exported Function
+`MFCreateFileBlockMap` | 5 | Exported Function
+`MFCreateByteCacheFile` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

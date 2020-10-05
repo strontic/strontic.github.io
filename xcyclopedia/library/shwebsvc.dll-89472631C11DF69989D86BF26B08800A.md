@@ -24,12 +24,12 @@ PE256 | `D30D1CF5D3B9D24A99A5F739732399B8F903091CF05B883C760089F81FA4C4C1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AddNetPlaceRunDll` | 1 (0x1) | Exported Function | 0x10007260 | 0x00007260
-`DllCanUnloadNow` | 3 (0x3) | Exported Function | 0x10007a40 | 0x00007a40
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x10007a60 | 0x00007a60
-`PublishRunDll` | 2 (0x2) | Exported Function | 0x1000ba80 | 0x0000ba80
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 4 | Exported Function
+`PublishRunDll` | 2 | Exported Function
+`AddNetPlaceRunDll` | 1 | Exported Function
+`DllCanUnloadNow` | 3 | Exported Function
 
 
 ## Signature

@@ -24,20 +24,20 @@ PE256 | `C160723A5029F7DF229AD6F2BC666E785CBD843788EE3421F34AB2CB0C29D7DC`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateEndpointPairFromSockAddrs` | 1 (0x1) | Exported Function | 0x1001af50 | 0x0001af50
-`CreateHostNameFromSockAddr` | 2 (0x2) | Exported Function | 0x1001af80 | 0x0001af80
-`CreateHostNameFromString` | 3 (0x3) | Exported Function | 0x1001afa0 | 0x0001afa0
-`CreateNetworkAdapterFromGuid` | 4 (0x4) | Exported Function | 0x100107e0 | 0x000107e0
-`DllCanUnloadNow` | 7 (0x7) | Exported Function | 0x100112b0 | 0x000112b0
-`DllGetActivationFactory` | 8 (0x8) | Exported Function | 0x1001aef0 | 0x0001aef0
-`DllGetClassObject` | 9 (0x9) | Exported Function | 0x10011250 | 0x00011250
-`DllMain` | 10 (0xa) | Exported Function | 0x10012340 | 0x00012340
-`DllRegisterServer` | 11 (0xb) | Exported Function | 0x1001af10 | 0x0001af10
-`DllUnregisterServer` | 12 (0xc) | Exported Function | 0x1001af30 | 0x0001af30
-`GetAllHostNames` | 5 (0x5) | Exported Function | 0x1001afc0 | 0x0001afc0
-`GetSortedEndpointPairs` | 6 (0x6) | Exported Function | 0x1001afe0 | 0x0001afe0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 11 | Exported Function
+`DllMain` | 10 | Exported Function
+`DllGetClassObject` | 9 | Exported Function
+`GetSortedEndpointPairs` | 6 | Exported Function
+`GetAllHostNames` | 5 | Exported Function
+`DllUnregisterServer` | 12 | Exported Function
+`CreateHostNameFromString` | 3 | Exported Function
+`CreateHostNameFromSockAddr` | 2 | Exported Function
+`CreateEndpointPairFromSockAddrs` | 1 | Exported Function
+`DllGetActivationFactory` | 8 | Exported Function
+`DllCanUnloadNow` | 7 | Exported Function
+`CreateNetworkAdapterFromGuid` | 4 | Exported Function
 
 
 ## Signature

@@ -24,12 +24,12 @@ PE256 | `BD16929443C55023EFB6D66F70FB6166FEBE653A017ECD68E110B021EDA06819`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x000000014ff89c80 | 0x00009c80
-`DllGetClassObject` | 2 (0x2) | Exported Function | 0x000000014ff89c70 | 0x00009c70
-`SDDSCreateChxDictionary` | 3 (0x3) | Exported Function | 0x000000014ff8a160 | 0x0000a160
-`SDDSGetCharacterMappingObject` | 4 (0x4) | Exported Function | 0x000000014ff8a040 | 0x0000a040
+Function Name | Ordinal | Type
+-- | -- | --
+`SDDSCreateChxDictionary` | 3 | Exported Function
+`SDDSGetCharacterMappingObject` | 4 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetClassObject` | 2 | Exported Function
 
 
 ## Signature

@@ -24,13 +24,13 @@ PE256 | `B001484747B835F5B1A43F497A941D7FD400D456573BA0878D9DFBE39ADB392B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 1 (0x1) | Exported Function | 0x10044500 | 0x00044500
-`DllGetActivationFactory` | 2 (0x2) | Exported Function | 0x10043d90 | 0x00043d90
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x10070130 | 0x00070130
-`FreeIdentityProviderCookies` | 4 (0x4) | Exported Function | 0x10070150 | 0x00070150
-`GetIdentityProviderCookies` | 5 (0x5) | Exported Function | 0x10070170 | 0x00070170
+Function Name | Ordinal | Type
+-- | -- | --
+`FreeIdentityProviderCookies` | 4 | Exported Function
+`GetIdentityProviderCookies` | 5 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllCanUnloadNow` | 1 | Exported Function
+`DllGetActivationFactory` | 2 | Exported Function
 
 
 ## Signature

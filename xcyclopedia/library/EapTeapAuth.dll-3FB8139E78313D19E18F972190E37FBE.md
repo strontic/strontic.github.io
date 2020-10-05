@@ -24,11 +24,11 @@ PE256 | `D3D7E896768CAC3F9EEEF5E6103F4B198D58BCF3E2673130201AED8FAE277571`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`EapPeerFreeErrorMemory` | 3 (0x3) | Exported Function | 0x0000000180005800 | 0x00005800
-`EapPeerFreeMemory` | 1 (0x1) | Exported Function | 0x00000001800057b0 | 0x000057b0
-`EapPeerGetInfo` | 2 (0x2) | Exported Function | 0x0000000180005700 | 0x00005700
+Function Name | Ordinal | Type
+-- | -- | --
+`EapPeerGetInfo` | 2 | Exported Function
+`EapPeerFreeMemory` | 1 | Exported Function
+`EapPeerFreeErrorMemory` | 3 | Exported Function
 
 
 ## Signature

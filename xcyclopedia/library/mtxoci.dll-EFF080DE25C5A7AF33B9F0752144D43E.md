@@ -24,48 +24,48 @@ PE256 | `536776B6AED0C301B512718A475A7A0FB27EE03F82D8665DEC43C7782E629CC2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllRegisterServer` | 23 (0x17) | Exported Function | 0x000000018000ab60 | 0x0000ab60
-`oerhms` | 13 (0xd) | Exported Function | 0x00000001800022a0 | 0x000022a0
-`oermsg` | 14 (0xe) | Exported Function | 0x00000001800023d0 | 0x000023d0
-`oexec` | 15 (0xf) | Exported Function | 0x0000000180002420 | 0x00002420
-`oexfet` | 16 (0x10) | Exported Function | 0x00000001800024b0 | 0x000024b0
-`oexn` | 17 (0x11) | Exported Function | 0x0000000180002570 | 0x00002570
-`ofen` | 18 (0x12) | Exported Function | 0x0000000180002620 | 0x00002620
-`ofetch` | 19 (0x13) | Exported Function | 0x00000001800026c0 | 0x000026c0
-`odessp` | 12 (0xc) | Exported Function | 0x0000000180001ec0 | 0x00001ec0
-`oflng` | 20 (0x14) | Exported Function | 0x0000000180002750 | 0x00002750
-`olog` | 21 (0x15) | Exported Function | 0x0000000180003570 | 0x00003570
-`ologof` | 22 (0x16) | Exported Function | 0x0000000180003b00 | 0x00003b00
-`ologTransacted` | 1000 (0x3e8) | Exported Function | 0x00000001800037d0 | 0x000037d0
-`oopen` | 26 (0x1a) | Exported Function | 0x00000001800029a0 | 0x000029a0
-`oopt` | 27 (0x1b) | Exported Function | 0x00000001800028f0 | 0x000028f0
-`oparse` | 28 (0x1c) | Exported Function | 0x0000000180002b90 | 0x00002b90
-`opinit` | 41 (0x29) | Exported Function | 0x00000001800034c0 | 0x000034c0
-`ogetpi` | 39 (0x27) | Exported Function | 0x0000000180002830 | 0x00002830
-`odescr` | 11 (0xb) | Exported Function | 0x0000000180002190 | 0x00002190
-`odefinps` | 38 (0x26) | Exported Function | 0x0000000180001d50 | 0x00001d50
-`odefin` | 10 (0xa) | Exported Function | 0x0000000180003140 | 0x00003140
-`DllUnregisterServer` | 24 (0x18) | Exported Function | 0x0000000180008410 | 0x00008410
-`Enlist` | 1001 (0x3e9) | Exported Function | 0x0000000180003d50 | 0x00003d50
-`GetXaSwitch` | 1002 (0x3ea) | Exported Function | 0x000000018000cd70 | 0x0000cd70
-`MTxOciGetVersion` | 1005 (0x3ed) | Exported Function | 0x00000001800034b0 | 0x000034b0
-`MTxOciInit` | 1003 (0x3eb) | Exported Function | 0x0000000180003400 | 0x00003400
-`MTxOciRegisterCursor` | 1006 (0x3ee) | Exported Function | 0x0000000180003270 | 0x00003270
-`MTxolog` | 1004 (0x3ec) | Exported Function | 0x0000000180003580 | 0x00003580
-`obindps` | 37 (0x25) | Exported Function | 0x00000001800016a0 | 0x000016a0
-`obndra` | 1 (0x1) | Exported Function | 0x0000000180002dc0 | 0x00002dc0
-`obndrn` | 2 (0x2) | Exported Function | 0x0000000180002f10 | 0x00002f10
-`obndrv` | 3 (0x3) | Exported Function | 0x0000000180003020 | 0x00003020
-`obreak` | 4 (0x4) | Exported Function | 0x0000000180001840 | 0x00001840
-`ocan` | 5 (0x5) | Exported Function | 0x00000001800018f0 | 0x000018f0
-`oclose` | 6 (0x6) | Exported Function | 0x0000000180001980 | 0x00001980
-`ocof` | 7 (0x7) | Exported Function | 0x0000000180001b70 | 0x00001b70
-`ocom` | 8 (0x8) | Exported Function | 0x0000000180001c10 | 0x00001c10
-`ocon` | 9 (0x9) | Exported Function | 0x0000000180001cb0 | 0x00001cb0
-`orol` | 29 (0x1d) | Exported Function | 0x0000000180002c50 | 0x00002c50
-`osetpi` | 40 (0x28) | Exported Function | 0x0000000180002d00 | 0x00002d00
+Function Name | Ordinal | Type
+-- | -- | --
+`oexn` | 17 | Exported Function
+`oexfet` | 16 | Exported Function
+`ofen` | 18 | Exported Function
+`oflng` | 20 | Exported Function
+`ofetch` | 19 | Exported Function
+`odessp` | 12 | Exported Function
+`odescr` | 11 | Exported Function
+`oerhms` | 13 | Exported Function
+`oexec` | 15 | Exported Function
+`oermsg` | 14 | Exported Function
+`oparse` | 28 | Exported Function
+`oopt` | 27 | Exported Function
+`opinit` | 41 | Exported Function
+`osetpi` | 40 | Exported Function
+`orol` | 29 | Exported Function
+`olog` | 21 | Exported Function
+`ogetpi` | 39 | Exported Function
+`ologof` | 22 | Exported Function
+`oopen` | 26 | Exported Function
+`ologTransacted` | 1000 | Exported Function
+`MTxOciRegisterCursor` | 1006 | Exported Function
+`MTxOciInit` | 1003 | Exported Function
+`MTxolog` | 1004 | Exported Function
+`obndra` | 1 | Exported Function
+`obindps` | 37 | Exported Function
+`DllUnregisterServer` | 24 | Exported Function
+`DllRegisterServer` | 23 | Exported Function
+`Enlist` | 1001 | Exported Function
+`MTxOciGetVersion` | 1005 | Exported Function
+`GetXaSwitch` | 1002 | Exported Function
+`ocom` | 8 | Exported Function
+`ocof` | 7 | Exported Function
+`ocon` | 9 | Exported Function
+`odefinps` | 38 | Exported Function
+`odefin` | 10 | Exported Function
+`obndrv` | 3 | Exported Function
+`obndrn` | 2 | Exported Function
+`obreak` | 4 | Exported Function
+`oclose` | 6 | Exported Function
+`ocan` | 5 | Exported Function
 
 
 ## Signature

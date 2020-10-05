@@ -24,10 +24,10 @@ PE256 | `50CBDD7D30EDCB11488D5781CE595921F0BA5A3AFBE2696C3C3B425EB1660BBE`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CreateFilesystemMetadataFromFile` | 1 (0x1) | Exported Function | 0x0000000180002520 | 0x00002520
-`CreateFilesystemMetadataFromStream` | 2 (0x2) | Exported Function | 0x00000001800026c0 | 0x000026c0
+Function Name | Ordinal | Type
+-- | -- | --
+`CreateFilesystemMetadataFromStream` | 2 | Exported Function
+`CreateFilesystemMetadataFromFile` | 1 | Exported Function
 
 
 ## Signature

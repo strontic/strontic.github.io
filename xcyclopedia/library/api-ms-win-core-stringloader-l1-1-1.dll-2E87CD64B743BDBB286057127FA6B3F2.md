@@ -24,10 +24,10 @@ PE256 | `13399113DF174364C1C5DE2D4D7953E2D1E31A4C1948A20125425F007EF084C2`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`LoadStringA` | 1 (0x1) | Exported Function | user32.LoadStringA | 0x000010d0
-`LoadStringW` | 2 (0x2) | Exported Function | user32.LoadStringW | 0x000010ef
+Function Name | Ordinal | Type
+-- | -- | --
+`LoadStringW` | 2 | Exported Function
+`LoadStringA` | 1 | Exported Function
 
 
 ## Signature

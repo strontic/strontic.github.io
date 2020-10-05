@@ -24,19 +24,19 @@ PE256 | `76A6AE8BDAE3FC5EBB63581DF69922EFE4B2D08847A2AADA0F7D911D50723114`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 11 (0xb) | Exported Function | 0x0000000180004560 | 0x00004560
-`EnumeratePlugins` | 1 (0x1) | Exported Function | 0x0000000180004630 | 0x00004630
-`GetPluginDefaultSettings` | 2 (0x2) | Exported Function | 0x0000000180004b30 | 0x00004b30
-`GetSettingsName` | 3 (0x3) | Exported Function | 0x0000000180004aa0 | 0x00004aa0
-`Plugin_DetectCondition` | 4 (0x4) | Exported Function | 0x00000001800049a0 | 0x000049a0
-`Plugin_Init` | 5 (0x5) | Exported Function | 0x0000000180004710 | 0x00004710
-`Plugin_IsActionApplicable` | 6 (0x6) | Exported Function | 0x0000000180004900 | 0x00004900
-`Plugin_IsEnabled` | 7 (0x7) | Exported Function | 0x00000001800047e0 | 0x000047e0
-`Plugin_IsInteractiveOnly` | 8 (0x8) | Exported Function | 0x0000000180004870 | 0x00004870
-`Plugin_PerformAction` | 9 (0x9) | Exported Function | 0x0000000180004a30 | 0x00004a30
-`Plugin_Uninit` | 10 (0xa) | Exported Function | 0x0000000180004740 | 0x00004740
+Function Name | Ordinal | Type
+-- | -- | --
+`Plugin_IsEnabled` | 7 | Exported Function
+`Plugin_IsActionApplicable` | 6 | Exported Function
+`Plugin_IsInteractiveOnly` | 8 | Exported Function
+`Plugin_Uninit` | 10 | Exported Function
+`Plugin_PerformAction` | 9 | Exported Function
+`Plugin_Init` | 5 | Exported Function
+`EnumeratePlugins` | 1 | Exported Function
+`DllMain` | 11 | Exported Function
+`GetPluginDefaultSettings` | 2 | Exported Function
+`Plugin_DetectCondition` | 4 | Exported Function
+`GetSettingsName` | 3 | Exported Function
 
 
 ## Signature

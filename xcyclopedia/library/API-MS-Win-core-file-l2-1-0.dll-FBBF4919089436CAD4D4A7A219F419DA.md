@@ -24,19 +24,19 @@ PE256 | `27BA1E819840E3535107B3D3754C2C38B258AA44E259673068C2EB85A2E66F63`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CopyFile2` | 1 (0x1) | Exported Function | kernel32.CopyFile2 | 0x000011e0
-`CopyFileExW` | 2 (0x2) | Exported Function | kernel32.CopyFileExW | 0x000011ff
-`CreateDirectoryExW` | 3 (0x3) | Exported Function | kernel32.CreateDirectoryExW | 0x00001227
-`CreateHardLinkW` | 4 (0x4) | Exported Function | kernel32.CreateHardLinkW | 0x00001253
-`CreateSymbolicLinkW` | 5 (0x5) | Exported Function | kernel32.CreateSymbolicLinkW | 0x00001280
-`GetFileInformationByHandleEx` | 6 (0x6) | Exported Function | kernel32.GetFileInformationByHandleEx | 0x000012ba
-`MoveFileExW` | 7 (0x7) | Exported Function | kernel32.MoveFileExW | 0x000012ec
-`MoveFileWithProgressW` | 8 (0x8) | Exported Function | kernel32.MoveFileWithProgressW | 0x00001317
-`ReadDirectoryChangesW` | 10 (0xa) | Exported Function | kernel32.ReadDirectoryChangesW | 0x0000136b
-`ReOpenFile` | 9 (0x9) | Exported Function | kernel32.ReOpenFile | 0x00001341
-`ReplaceFileW` | 11 (0xb) | Exported Function | kernel32.ReplaceFileW | 0x00001397
+Function Name | Ordinal | Type
+-- | -- | --
+`MoveFileWithProgressW` | 8 | Exported Function
+`MoveFileExW` | 7 | Exported Function
+`ReadDirectoryChangesW` | 10 | Exported Function
+`ReplaceFileW` | 11 | Exported Function
+`ReOpenFile` | 9 | Exported Function
+`GetFileInformationByHandleEx` | 6 | Exported Function
+`CopyFileExW` | 2 | Exported Function
+`CopyFile2` | 1 | Exported Function
+`CreateDirectoryExW` | 3 | Exported Function
+`CreateSymbolicLinkW` | 5 | Exported Function
+`CreateHardLinkW` | 4 | Exported Function
 
 
 ## Signature

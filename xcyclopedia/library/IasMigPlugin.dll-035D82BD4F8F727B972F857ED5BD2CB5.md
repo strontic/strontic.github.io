@@ -24,14 +24,14 @@ PE256 | `A5A59FE3A8D7C96096D9A54D64C3FB7BCDAB525FBA336B5C8BB4F7D745B94569`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x0000000180001cb0 | 0x00001cb0
-`DllGetClassObject` | 3 (0x3) | Exported Function | 0x00000001800019a0 | 0x000019a0
-`DllMain` | 4 (0x4) | Exported Function | 0x0000000180001cf0 | 0x00001cf0
-`DllRegisterServer` | 5 (0x5) | Exported Function | 0x0000000180001ae0 | 0x00001ae0
-`DllUnregisterServer` | 6 (0x6) | Exported Function | 0x0000000180001c10 | 0x00001c10
-`IasUpgradeComplianceCheck` | 1 (0x1) | Exported Function | 0x000000018000e660 | 0x0000e660
+Function Name | Ordinal | Type
+-- | -- | --
+`DllRegisterServer` | 5 | Exported Function
+`DllUnregisterServer` | 6 | Exported Function
+`IasUpgradeComplianceCheck` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetClassObject` | 3 | Exported Function
+`DllMain` | 4 | Exported Function
 
 
 ## Signature

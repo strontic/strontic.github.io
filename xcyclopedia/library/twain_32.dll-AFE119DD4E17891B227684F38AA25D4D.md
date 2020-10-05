@@ -24,13 +24,13 @@ PE256 | `B9BE0C1B4A48E7ACD1BD186D31F86212794A824F0A9602242B054F9D98BD7C70`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AboutDlgProc` | 4 (0x4) | Exported Function | 0x66209840 | 0x00009840
-`ChooseDlgProc` | 3 (0x3) | Exported Function | 0x66209360 | 0x00009360
-`DSM_Entry` | 1 (0x1) | Exported Function | 0x6620b0f0 | 0x0000b0f0
-`InfoHook` | 6 (0x6) | Exported Function | 0x662099a0 | 0x000099a0
-`WGDlgProc` | 5 (0x5) | Exported Function | 0x66209960 | 0x00009960
+Function Name | Ordinal | Type
+-- | -- | --
+`InfoHook` | 6 | Exported Function
+`WGDlgProc` | 5 | Exported Function
+`DSM_Entry` | 1 | Exported Function
+`AboutDlgProc` | 4 | Exported Function
+`ChooseDlgProc` | 3 | Exported Function
 
 
 ## Signature

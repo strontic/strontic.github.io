@@ -24,12 +24,12 @@ PE256 | `1061ACE618EA066EA80AB9854CA8705E465BAB52740942CE692425FDFA6BDBC7`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`WFDProvConfigureAndProvisionDevice` | 1 (0x1) | Exported Function | 0x10002570 | 0x00002570
-`WFDProvDeinitialize` | 2 (0x2) | Exported Function | 0x10002540 | 0x00002540
-`WFDProvGetInfo` | 3 (0x3) | Exported Function | 0x100024e0 | 0x000024e0
-`WFDProvInitialize` | 4 (0x4) | Exported Function | 0x10002510 | 0x00002510
+Function Name | Ordinal | Type
+-- | -- | --
+`WFDProvGetInfo` | 3 | Exported Function
+`WFDProvInitialize` | 4 | Exported Function
+`WFDProvConfigureAndProvisionDevice` | 1 | Exported Function
+`WFDProvDeinitialize` | 2 | Exported Function
 
 
 ## Signature

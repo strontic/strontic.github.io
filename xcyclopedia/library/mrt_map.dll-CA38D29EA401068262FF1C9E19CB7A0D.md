@@ -26,9 +26,9 @@ PE256 | `5EB0D7C90201372126AC8E987C72CC236A9911A5E33F83A653788F59E70C6F78`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`CLRDataCreateInstance` | 1 (0x1) | Exported Function | 0x0000000180001050 | 0x00001050
+Function Name | Ordinal | Type
+-- | -- | --
+`CLRDataCreateInstance` | 1 | Exported Function
 
 
 ## Signature

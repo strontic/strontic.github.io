@@ -24,19 +24,19 @@ PE256 | `9D5B82728DDD5A1276C4C463990FDBBF00F61A7B655C993A31C07C723D32671B`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`AutoDialFunc` | 1 (0x1) | Exported Function | 0x000000018002a9a0 | 0x0002a9a0
-`CmCustomDialDlg` | 2 (0x2) | Exported Function | 0x000000018002baa0 | 0x0002baa0
-`CmCustomHangUp` | 3 (0x3) | Exported Function | 0x000000018002bf20 | 0x0002bf20
-`CmReConnect` | 4 (0x4) | Exported Function | 0x000000018002a1d0 | 0x0002a1d0
-`GetCustomProperty` | 5 (0x5) | Exported Function | 0x000000018002c200 | 0x0002c200
-`InetDialHandler` | 6 (0x6) | Exported Function | 0x000000018002a960 | 0x0002a960
-`RasCustomDeleteEntryNotify` | 7 (0x7) | Exported Function | 0x000000018002b1d0 | 0x0002b1d0
-`RasCustomDial` | 8 (0x8) | Exported Function | 0x000000018002b1c0 | 0x0002b1c0
-`RasCustomDialDlg` | 9 (0x9) | Exported Function | 0x000000018002aa20 | 0x0002aa20
-`RasCustomEntryDlg` | 10 (0xa) | Exported Function | 0x000000018002ad30 | 0x0002ad30
-`RasCustomHangUp` | 11 (0xb) | Exported Function | 0x000000018002af10 | 0x0002af10
+Function Name | Ordinal | Type
+-- | -- | --
+`RasCustomDial` | 8 | Exported Function
+`RasCustomDeleteEntryNotify` | 7 | Exported Function
+`RasCustomDialDlg` | 9 | Exported Function
+`RasCustomHangUp` | 11 | Exported Function
+`RasCustomEntryDlg` | 10 | Exported Function
+`InetDialHandler` | 6 | Exported Function
+`CmCustomDialDlg` | 2 | Exported Function
+`AutoDialFunc` | 1 | Exported Function
+`CmCustomHangUp` | 3 | Exported Function
+`GetCustomProperty` | 5 | Exported Function
+`CmReConnect` | 4 | Exported Function
 
 
 ## Signature

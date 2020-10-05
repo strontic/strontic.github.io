@@ -24,12 +24,12 @@ PE256 | `BFD2A6851022B6F9FDAA4D539F5C042B2671B3148BCABE9C7BE702A82C5CA088`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllCanUnloadNow` | 2 (0x2) | Exported Function | 0x000000018002d320 | 0x0002d320
-`DllGetActivationFactory` | 3 (0x3) | Exported Function | 0x0000000180043420 | 0x00043420
-`DllGetClassObject` | 4 (0x4) | Exported Function | 0x000000018002a510 | 0x0002a510
-`InitializeDManipHook` | 1 (0x1) | Exported Function | 0x000000018002e4e0 | 0x0002e4e0
+Function Name | Ordinal | Type
+-- | -- | --
+`DllGetClassObject` | 4 | Exported Function
+`InitializeDManipHook` | 1 | Exported Function
+`DllCanUnloadNow` | 2 | Exported Function
+`DllGetActivationFactory` | 3 | Exported Function
 
 
 ## Signature

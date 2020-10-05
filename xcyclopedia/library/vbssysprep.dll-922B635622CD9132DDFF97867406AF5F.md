@@ -24,11 +24,11 @@ PE256 | `C3B1CA0D93E7E4AFDE18272977EF7583B2504D9D71852F3F8A3902FF4BED2640`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`SysprepGeneralizeEntry` | 1 (0x1) | Exported Function | 0x0000000180008b70 | 0x00008b70
-`SysprepSpecializeOfflineEntry` | 2 (0x2) | Exported Function | 0x000000018000a370 | 0x0000a370
-`SysprepSpecializeOnlineEntry` | 3 (0x3) | Exported Function | 0x000000018000a1b0 | 0x0000a1b0
+Function Name | Ordinal | Type
+-- | -- | --
+`SysprepSpecializeOnlineEntry` | 3 | Exported Function
+`SysprepSpecializeOfflineEntry` | 2 | Exported Function
+`SysprepGeneralizeEntry` | 1 | Exported Function
 
 
 ## Signature

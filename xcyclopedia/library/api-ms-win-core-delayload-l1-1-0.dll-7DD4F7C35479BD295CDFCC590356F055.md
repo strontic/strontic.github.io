@@ -24,9 +24,9 @@ PE256 | `DC5E42DDC907CB04DE052C58A8A554F61232B5C3AA13738A08AC98880750DA56`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DelayLoadFailureHook` | 1 (0x1) | Exported Function | kernel32.DelayLoadFailureHook | 0x000010cc
+Function Name | Ordinal | Type
+-- | -- | --
+`DelayLoadFailureHook` | 1 | Exported Function
 
 
 ## Signature

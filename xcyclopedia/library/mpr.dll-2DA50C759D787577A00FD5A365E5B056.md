@@ -24,93 +24,93 @@ PE256 | `149CCE9400C35B43343F751E37BAAB6F13B08E5F913FF3A9319AE66A0BAEB2E1`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DoBroadcastSystemMessage` | 1 (0x1) | Exported Function | 0x4b686790 | 0x00006790
-`WNetGetResourceInformationW` | 61 (0x3d) | Exported Function | 0x4b690130 | 0x00010130
-`WNetGetResourceInformationA` | 60 (0x3c) | Exported Function | 0x4b68e190 | 0x0000e190
-`WNetGetProviderTypeW` | 59 (0x3b) | Exported Function | 0x4b68ff60 | 0x0000ff60
-`WNetGetProviderTypeA` | 58 (0x3a) | Exported Function | 0x4b68e130 | 0x0000e130
-`WNetGetProviderNameW` | 57 (0x39) | Exported Function | 0x4b68fe40 | 0x0000fe40
-`WNetGetProviderNameA` | 56 (0x38) | Exported Function | 0x4b68e0b0 | 0x0000e0b0
-`WNetGetPropertyTextW` | 55 (0x37) | Exported Function | 0x4b68ea80 | 0x0000ea80
-`WNetGetPropertyTextA` | 54 (0x36) | Exported Function | 0x4b68e010 | 0x0000e010
-`WNetGetNetworkInformationW` | 53 (0x35) | Exported Function | 0x4b68fd30 | 0x0000fd30
-`WNetGetNetworkInformationA` | 52 (0x34) | Exported Function | 0x4b68dfb0 | 0x0000dfb0
-`WNetGetLastErrorW` | 51 (0x33) | Exported Function | 0x4b68cd10 | 0x0000cd10
-`WNetGetLastErrorA` | 50 (0x32) | Exported Function | 0x4b68df50 | 0x0000df50
-`WNetGetHomeDirectoryW` | 49 (0x31) | Exported Function | 0x4b691070 | 0x00011070
-`WNetGetDirectoryTypeW` | 48 (0x30) | Exported Function | 0x4b690dc0 | 0x00010dc0
-`WNetGetDirectoryTypeA` | 47 (0x2f) | Exported Function | 0x4b68def0 | 0x0000def0
-`WNetGetConnectionW` | 46 (0x2e) | Exported Function | 0x4b683bb0 | 0x00003bb0
-`WNetGetConnectionA` | 45 (0x2d) | Exported Function | 0x4b68de50 | 0x0000de50
-`WNetGetResourceParentA` | 62 (0x3e) | Exported Function | 0x4b68e2e0 | 0x0000e2e0
-`WNetGetResourceParentW` | 63 (0x3f) | Exported Function | 0x4b690180 | 0x00010180
-`WNetGetSearchDialog` | 64 (0x40) | Exported Function | 0x4b68fc40 | 0x0000fc40
-`WNetGetUniversalNameA` | 65 (0x41) | Exported Function | 0x4b68e3c0 | 0x0000e3c0
-`WNetUseConnection4W` | 83 (0x53) | Exported Function | 0x4b68b9d0 | 0x0000b9d0
-`WNetUseConnection4A` | 82 (0x52) | Exported Function | 0x4b68e7b0 | 0x0000e7b0
-`WNetSupportGlobalEnum` | 81 (0x51) | Exported Function | 0x4b68fcb0 | 0x0000fcb0
-`WNetSetLastErrorW` | 80 (0x50) | Exported Function | 0x4b68ce30 | 0x0000ce30
-`WNetSetLastErrorA` | 79 (0x4f) | Exported Function | 0x4b68e750 | 0x0000e750
-`WNetSetConnectionW` | 78 (0x4e) | Exported Function | 0x4b68b760 | 0x0000b760
-`WNetSetConnectionA` | 77 (0x4d) | Exported Function | 0x4b68e6f0 | 0x0000e6f0
-`WNetRestoreSingleConnectionW` | 76 (0x4c) | Exported Function | 0x4b68b4c0 | 0x0000b4c0
-`WNetGetConnection3W` | 44 (0x2c) | Exported Function | 0x4b68b450 | 0x0000b450
-`WNetRestoreAllConnectionsW` | 75 (0x4b) | Exported Function | 0x4b683e10 | 0x00003e10
-`WNetPropertyDialogA` | 73 (0x49) | Exported Function | 0x4b68e680 | 0x0000e680
-`WNetPasswordChangeNotify` | 72 (0x48) | Exported Function | 0x4b68bef0 | 0x0000bef0
-`WNetOpenEnumW` | 71 (0x47) | Exported Function | 0x4b6828d0 | 0x000028d0
-`WNetOpenEnumA` | 70 (0x46) | Exported Function | 0x4b68e610 | 0x0000e610
-`WNetLogonNotify` | 69 (0x45) | Exported Function | 0x4b6841d0 | 0x000041d0
-`WNetGetUserW` | 68 (0x44) | Exported Function | 0x4b691130 | 0x00011130
-`WNetGetUserA` | 67 (0x43) | Exported Function | 0x4b68e570 | 0x0000e570
-`WNetGetUniversalNameW` | 66 (0x42) | Exported Function | 0x4b6906f0 | 0x000106f0
-`WNetPropertyDialogW` | 74 (0x4a) | Exported Function | 0x4b68eca0 | 0x0000eca0
-`WNetUseConnectionA` | 84 (0x54) | Exported Function | 0x4b68e8b0 | 0x0000e8b0
-`WNetGetConnection3A` | 43 (0x2b) | Exported Function | 0x4b68dde0 | 0x0000dde0
-`WNetGetConnection2A` | 41 (0x29) | Exported Function | 0x4b68dc90 | 0x0000dc90
-`WNetAddConnection4W` | 20 (0x14) | Exported Function | 0x4b68b200 | 0x0000b200
-`WNetAddConnection4A` | 19 (0x13) | Exported Function | 0x4b68d810 | 0x0000d810
-`WNetAddConnection3W` | 18 (0x12) | Exported Function | 0x4b68b1d0 | 0x0000b1d0
-`WNetAddConnection3A` | 17 (0x11) | Exported Function | 0x4b68d7e0 | 0x0000d7e0
-`WNetAddConnection2W` | 16 (0x10) | Exported Function | 0x4b6843e0 | 0x000043e0
-`WNetAddConnection2A` | 15 (0xf) | Exported Function | 0x4b68d7b0 | 0x0000d7b0
-`ShowReconnectDialogUI` | 7 (0x7) | Exported Function | 0x4b68fb20 | 0x0000fb20
-`ShowReconnectDialogEnd` | 6 (0x6) | Exported Function | 0x4b68fb00 | 0x0000fb00
-`ShowReconnectDialog` | 5 (0x5) | Exported Function | 0x4b68fad0 | 0x0000fad0
-`MultinetGetErrorTextW` | 14 (0xe) | Exported Function | 0x4b68caa0 | 0x0000caa0
-`MultinetGetErrorTextA` | 13 (0xd) | Exported Function | 0x4b68d6a0 | 0x0000d6a0
-`MultinetGetConnectionPerformanceW` | 12 (0xc) | Exported Function | 0x4b68bd40 | 0x0000bd40
-`MultinetGetConnectionPerformanceA` | 11 (0xb) | Exported Function | 0x4b68d640 | 0x0000d640
-`I_MprSaveConn` | 10 (0xa) | Exported Function | 0x4b68fa10 | 0x0000fa10
-`DoProfileErrorDialog` | 4 (0x4) | Exported Function | 0x4b68fab0 | 0x0000fab0
-`DoPasswordDialog` | 3 (0x3) | Exported Function | 0x4b68fa80 | 0x0000fa80
-`DoCommandLinePrompt` | 2 (0x2) | Exported Function | 0x4b68fa50 | 0x0000fa50
-`WNetAddConnectionA` | 21 (0x15) | Exported Function | 0x4b68d840 | 0x0000d840
-`WNetAddConnectionW` | 22 (0x16) | Exported Function | 0x4b68b230 | 0x0000b230
-`WNetCancelConnection2A` | 23 (0x17) | Exported Function | 0x4b68d8f0 | 0x0000d8f0
-`WNetCancelConnection2W` | 24 (0x18) | Exported Function | 0x4b684520 | 0x00004520
-`WNetFormatNetworkNameW` | 40 (0x28) | Exported Function | 0x4b68c920 | 0x0000c920
-`WNetFormatNetworkNameA` | 39 (0x27) | Exported Function | 0x4b68dbe0 | 0x0000dbe0
-`WNetEnumResourceW` | 38 (0x26) | Exported Function | 0x4b682530 | 0x00002530
-`WNetEnumResourceA` | 37 (0x25) | Exported Function | 0x4b68db50 | 0x0000db50
-`WNetDisconnectDialog2` | 9 (0x9) | Exported Function | 0x4b68fb60 | 0x0000fb60
-`WNetDisconnectDialog1W` | 35 (0x23) | Exported Function | 0x4b68fbe0 | 0x0000fbe0
-`WNetDisconnectDialog1A` | 34 (0x22) | Exported Function | 0x4b68da90 | 0x0000da90
-`WNetDisconnectDialog` | 36 (0x24) | Exported Function | 0x4b68fc10 | 0x0000fc10
-`WNetGetConnection2W` | 42 (0x2a) | Exported Function | 0x4b68b320 | 0x0000b320
-`WNetDirectoryNotifyW` | 33 (0x21) | Exported Function | 0x4b690ba0 | 0x00010ba0
-`WNetConnectionDialog2` | 8 (0x8) | Exported Function | 0x4b68fb40 | 0x0000fb40
-`WNetConnectionDialog1W` | 30 (0x1e) | Exported Function | 0x4b68fb80 | 0x0000fb80
-`WNetConnectionDialog1A` | 29 (0x1d) | Exported Function | 0x4b68d970 | 0x0000d970
-`WNetConnectionDialog` | 31 (0x1f) | Exported Function | 0x4b68fbb0 | 0x0000fbb0
-`WNetCloseEnum` | 28 (0x1c) | Exported Function | 0x4b6827b0 | 0x000027b0
-`WNetClearConnections` | 27 (0x1b) | Exported Function | 0x4b683b00 | 0x00003b00
-`WNetCancelConnectionW` | 26 (0x1a) | Exported Function | 0x4b68b300 | 0x0000b300
-`WNetCancelConnectionA` | 25 (0x19) | Exported Function | 0x4b68d950 | 0x0000d950
-`WNetDirectoryNotifyA` | 32 (0x20) | Exported Function | 0x4b68da30 | 0x0000da30
-`WNetUseConnectionW` | 85 (0x55) | Exported Function | 0x4b68ba50 | 0x0000ba50
+Function Name | Ordinal | Type
+-- | -- | --
+`WNetGetProviderTypeA` | 58 | Exported Function
+`WNetGetProviderTypeW` | 59 | Exported Function
+`WNetGetProviderNameW` | 57 | Exported Function
+`WNetGetPropertyTextW` | 55 | Exported Function
+`WNetGetProviderNameA` | 56 | Exported Function
+`WNetGetResourceParentW` | 63 | Exported Function
+`WNetGetSearchDialog` | 64 | Exported Function
+`WNetGetResourceParentA` | 62 | Exported Function
+`WNetGetResourceInformationA` | 60 | Exported Function
+`WNetGetResourceInformationW` | 61 | Exported Function
+`WNetGetPropertyTextA` | 54 | Exported Function
+`WNetGetDirectoryTypeA` | 47 | Exported Function
+`WNetGetDirectoryTypeW` | 48 | Exported Function
+`WNetGetConnectionW` | 46 | Exported Function
+`WNetGetConnection3W` | 44 | Exported Function
+`WNetGetConnectionA` | 45 | Exported Function
+`WNetGetNetworkInformationA` | 52 | Exported Function
+`WNetGetNetworkInformationW` | 53 | Exported Function
+`WNetGetLastErrorW` | 51 | Exported Function
+`WNetGetHomeDirectoryW` | 49 | Exported Function
+`WNetGetLastErrorA` | 50 | Exported Function
+`WNetSetLastErrorA` | 79 | Exported Function
+`WNetSetLastErrorW` | 80 | Exported Function
+`WNetSetConnectionW` | 78 | Exported Function
+`WNetRestoreSingleConnectionW` | 76 | Exported Function
+`WNetSetConnectionA` | 77 | Exported Function
+`WNetUseConnectionA` | 84 | Exported Function
+`WNetUseConnectionW` | 85 | Exported Function
+`WNetUseConnection4W` | 83 | Exported Function
+`WNetSupportGlobalEnum` | 81 | Exported Function
+`WNetUseConnection4A` | 82 | Exported Function
+`WNetRestoreAllConnectionsW` | 75 | Exported Function
+`WNetGetUserW` | 68 | Exported Function
+`WNetLogonNotify` | 69 | Exported Function
+`WNetGetUserA` | 67 | Exported Function
+`WNetGetUniversalNameA` | 65 | Exported Function
+`WNetGetUniversalNameW` | 66 | Exported Function
+`WNetPropertyDialogA` | 73 | Exported Function
+`WNetPropertyDialogW` | 74 | Exported Function
+`WNetPasswordChangeNotify` | 72 | Exported Function
+`WNetOpenEnumA` | 70 | Exported Function
+`WNetOpenEnumW` | 71 | Exported Function
+`WNetGetConnection3A` | 43 | Exported Function
+`WNetAddConnection3A` | 17 | Exported Function
+`WNetAddConnection3W` | 18 | Exported Function
+`WNetAddConnection2W` | 16 | Exported Function
+`ShowReconnectDialogUI` | 7 | Exported Function
+`WNetAddConnection2A` | 15 | Exported Function
+`WNetAddConnectionW` | 22 | Exported Function
+`WNetCancelConnection2A` | 23 | Exported Function
+`WNetAddConnectionA` | 21 | Exported Function
+`WNetAddConnection4A` | 19 | Exported Function
+`WNetAddConnection4W` | 20 | Exported Function
+`ShowReconnectDialogEnd` | 6 | Exported Function
+`DoProfileErrorDialog` | 4 | Exported Function
+`I_MprSaveConn` | 10 | Exported Function
+`DoPasswordDialog` | 3 | Exported Function
+`DoBroadcastSystemMessage` | 1 | Exported Function
+`DoCommandLinePrompt` | 2 | Exported Function
+`MultinetGetErrorTextW` | 14 | Exported Function
+`ShowReconnectDialog` | 5 | Exported Function
+`MultinetGetErrorTextA` | 13 | Exported Function
+`MultinetGetConnectionPerformanceA` | 11 | Exported Function
+`MultinetGetConnectionPerformanceW` | 12 | Exported Function
+`WNetDisconnectDialog2` | 9 | Exported Function
+`WNetEnumResourceA` | 37 | Exported Function
+`WNetDisconnectDialog1W` | 35 | Exported Function
+`WNetDisconnectDialog` | 36 | Exported Function
+`WNetDisconnectDialog1A` | 34 | Exported Function
+`WNetGetConnection2A` | 41 | Exported Function
+`WNetGetConnection2W` | 42 | Exported Function
+`WNetFormatNetworkNameW` | 40 | Exported Function
+`WNetEnumResourceW` | 38 | Exported Function
+`WNetFormatNetworkNameA` | 39 | Exported Function
+`WNetDirectoryNotifyW` | 33 | Exported Function
+`WNetClearConnections` | 27 | Exported Function
+`WNetCloseEnum` | 28 | Exported Function
+`WNetCancelConnectionW` | 26 | Exported Function
+`WNetCancelConnection2W` | 24 | Exported Function
+`WNetCancelConnectionA` | 25 | Exported Function
+`WNetConnectionDialog2` | 8 | Exported Function
+`WNetDirectoryNotifyA` | 32 | Exported Function
+`WNetConnectionDialog1W` | 30 | Exported Function
+`WNetConnectionDialog` | 31 | Exported Function
+`WNetConnectionDialog1A` | 29 | Exported Function
 
 
 ## Signature

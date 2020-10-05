@@ -24,22 +24,22 @@ PE256 | `FC741C560C000935ACA871044783626583B409E6DF01A91FFEB493B5DB5DF3D3`
 
 ## DLL Exports:
 
-Function Name | Ordinal | Type | Address | Relative Address
--- | -- | -- | -- | --
-`DllMain` | 5 (0x5) | Exported Function | 0x10008a10 | 0x00008a10
-`ExportCertificate` | 6 (0x6) | Exported Function | 0x10008670 | 0x00008670
-`ExportPFXCertificate` | 7 (0x7) | Exported Function | 0x10007ba0 | 0x00007ba0
-`FindCertificate` | 1 (0x1) | Exported Function | 0x10009060 | 0x00009060
-`FreeCertResults` | 8 (0x8) | Exported Function | 0x10007430 | 0x00007430
-`FreeResourceString` | 9 (0x9) | Exported Function | 0x10008a90 | 0x00008a90
-`GetCertificateFromEnrollmentInternal` | 10 (0xa) | Exported Function | 0x10009100 | 0x00009100
-`ImportCertificate` | 11 (0xb) | Exported Function | 0x100084d0 | 0x000084d0
-`ImportPFXCertificate` | 12 (0xc) | Exported Function | 0x10007090 | 0x00007090
-`IsSecureKernelRunning` | 13 (0xd) | Exported Function | 0x100095b0 | 0x000095b0
-`IsSmartCard` | 2 (0x2) | Exported Function | 0x100093f0 | 0x000093f0
-`LoadResourceString` | 14 (0xe) | Exported Function | 0x10008a50 | 0x00008a50
-`SuppressFreeCert` | 3 (0x3) | Exported Function | 0x10009370 | 0x00009370
-`SuppressFreeStore` | 4 (0x4) | Exported Function | 0x100093b0 | 0x000093b0
+Function Name | Ordinal | Type
+-- | -- | --
+`IsSecureKernelRunning` | 13 | Exported Function
+`ImportPFXCertificate` | 12 | Exported Function
+`ImportCertificate` | 11 | Exported Function
+`IsSmartCard` | 2 | Exported Function
+`SuppressFreeStore` | 4 | Exported Function
+`SuppressFreeCert` | 3 | Exported Function
+`LoadResourceString` | 14 | Exported Function
+`ExportPFXCertificate` | 7 | Exported Function
+`ExportCertificate` | 6 | Exported Function
+`DllMain` | 5 | Exported Function
+`FindCertificate` | 1 | Exported Function
+`GetCertificateFromEnrollmentInternal` | 10 | Exported Function
+`FreeResourceString` | 9 | Exported Function
+`FreeCertResults` | 8 | Exported Function
 
 
 ## Signature
