@@ -358,3 +358,67 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/* 
+	CUSTOM - "MINIMAL-HACKER" 
+	========================================================================== */
+
+div[class=dirlist] > details > ul li {
+	list-style-image: unset;
+	list-style: none;
+}
+
+div[class=dirlist] > ul li {
+	list-style-image: unset;
+	list-style: none;
+}
+
+details > summary {
+	cursor: pointer;
+}
+
+/*This will replace the list bullet with a character icon from Font Awesome instead of the SVG icon (SVG is inserted with the <i> tag). This is less reliable so it's being abandoned.
+      More info: https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements  */
+/*
+.exe::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f1c3";
+}
+
+.dll::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f15c";
+}
+
+.dir::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f07b";
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: solid;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+*/
+
+
+/* This changes the <details> dropdown from a triangle (default) to a +/- sign. But this does not work with nested <details> tags. Oddly it changes all nested <details> to "-" when clicking on the "+". */
+/*
+details > summary::-webkit-details-marker {
+	display: none
+}
+
+details > summary:after {
+	content: "+";
+	float: left;
+	border-radius: 5px;
+	width: 20px;
+}
+
+details[open] summary:after {
+	content: "-";
+}
+*/
